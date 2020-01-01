@@ -303,7 +303,7 @@ nsAnonymousContentList
 )
 NS_DECL_NSIDOMNODELIST
 virtual
-PRInt32
+int32_t
 IndexOf
 (
 nsIContent
@@ -322,7 +322,7 @@ return
 mContent
 ;
 }
-PRInt32
+int32_t
 GetInsertionPointCount
 (
 )
@@ -340,7 +340,7 @@ nsXBLInsertionPoint
 *
 GetInsertionPointAt
 (
-PRInt32
+int32_t
 i
 )
 {
@@ -364,7 +364,7 @@ i
 void
 RemoveInsertionPointAt
 (
-PRInt32
+int32_t
 i
 )
 {
@@ -563,7 +563,7 @@ NS_IMPL_CYCLE_COLLECTION_TRAVERSE_NSCOMPTR
 mContent
 )
 {
-PRInt32
+int32_t
 i
 count
 =
@@ -620,7 +620,7 @@ nsAnonymousContentList
 :
 GetLength
 (
-PRUint32
+uint32_t
 *
 aLength
 )
@@ -645,7 +645,7 @@ aLength
 return
 NS_ERROR_NULL_POINTER
 ;
-PRInt32
+int32_t
 cnt
 =
 mElements
@@ -662,7 +662,7 @@ aLength
 ;
 for
 (
-PRInt32
+int32_t
 i
 =
 0
@@ -709,7 +709,7 @@ nsAnonymousContentList
 :
 Item
 (
-PRUint32
+uint32_t
 aIndex
 nsIDOMNode
 *
@@ -749,11 +749,11 @@ nsAnonymousContentList
 :
 GetNodeAt
 (
-PRUint32
+uint32_t
 aIndex
 )
 {
-PRInt32
+int32_t
 cnt
 =
 mElements
@@ -763,14 +763,14 @@ Length
 (
 )
 ;
-PRUint32
+uint32_t
 pointCount
 =
 0
 ;
 for
 (
-PRInt32
+int32_t
 i
 =
 0
@@ -839,7 +839,7 @@ return
 nullptr
 ;
 }
-PRInt32
+int32_t
 nsAnonymousContentList
 :
 :
@@ -850,7 +850,7 @@ nsIContent
 aContent
 )
 {
-PRInt32
+int32_t
 cnt
 =
 mElements
@@ -860,14 +860,14 @@ Length
 (
 )
 ;
-PRInt32
+int32_t
 lengthSoFar
 =
 0
 ;
 for
 (
-PRInt32
+int32_t
 i
 =
 0
@@ -900,7 +900,7 @@ i
 )
 )
 ;
-PRInt32
+int32_t
 idx
 =
 point
@@ -1982,7 +1982,7 @@ aTable
 PLDHashEntryHdr
 *
 aEntry
-PRUint32
+uint32_t
 aNumber
 void
 *
@@ -2057,7 +2057,7 @@ if
 list
 )
 {
-PRInt32
+int32_t
 count
 =
 list
@@ -2069,7 +2069,7 @@ GetInsertionPointCount
 ;
 for
 (
-PRInt32
+int32_t
 i
 =
 0
@@ -2359,7 +2359,7 @@ NODE_IS_INSERTION_PARENT
 ;
 }
 }
-PRUint32
+uint32_t
 index
 =
 mAttachedStack
@@ -2802,7 +2802,7 @@ ResolveTag
 nsIContent
 *
 aContent
-PRInt32
+int32_t
 *
 aNameSpaceID
 )
@@ -3273,7 +3273,7 @@ bool
 aIsAnonymousContentList
 )
 {
-PRUint32
+uint32_t
 length
 ;
 nsINodeList
@@ -3419,7 +3419,7 @@ const
 nsIContent
 *
 aChild
-PRUint32
+uint32_t
 *
 aIndex
 )
@@ -3458,7 +3458,7 @@ GetSingleInsertionPoint
 nsIContent
 *
 aParent
-PRUint32
+uint32_t
 *
 aIndex
 bool
@@ -3992,7 +3992,7 @@ nsBindingManager
 :
 ProcessAttachedQueue
 (
-PRUint32
+uint32_t
 aSkipSize
 )
 {
@@ -4029,7 +4029,7 @@ Length
 aSkipSize
 )
 {
-PRUint32
+uint32_t
 lastItem
 =
 mAttachedStack
@@ -4242,7 +4242,7 @@ AccumulateBindingsToDetach
 closure
 )
 ;
-PRUint32
+uint32_t
 i
 count
 =
@@ -5793,7 +5793,7 @@ aParent
 return
 nullptr
 ;
-PRUint32
+uint32_t
 index
 ;
 nsIContent
@@ -5862,7 +5862,7 @@ aMultipleInsertionPoints
 =
 false
 ;
-PRUint32
+uint32_t
 index
 ;
 nsIContent
@@ -5934,11 +5934,11 @@ aContainer
 nsIContent
 *
 aInsertionParent
-PRUint32
+uint32_t
 aIndexInContainer
-PRInt32
+int32_t
 aAppend
-PRInt32
+int32_t
 *
 aInsertionIndex
 )
@@ -5984,7 +5984,7 @@ nsAnonymousContentList
 nodeList
 )
 ;
-PRInt32
+int32_t
 count
 =
 contentList
@@ -5996,7 +5996,7 @@ GetInsertionPointCount
 ;
 for
 (
-PRInt32
+int32_t
 i
 =
 0
@@ -6036,7 +6036,7 @@ GetInsertionIndex
 1
 )
 {
-PRInt32
+int32_t
 pointSize
 =
 point
@@ -6048,7 +6048,7 @@ ChildCount
 ;
 for
 (
-PRInt32
+int32_t
 parentIndex
 =
 aIndexInContainer
@@ -6079,7 +6079,7 @@ parentIndex
 ;
 for
 (
-PRInt32
+int32_t
 pointIndex
 =
 pointSize
@@ -6166,7 +6166,7 @@ aContainer
 nsIContent
 *
 aFirstNewContent
-PRInt32
+int32_t
 aNewIndexInContainer
 )
 {
@@ -6222,7 +6222,7 @@ if
 multiple
 )
 {
-PRInt32
+int32_t
 childCount
 =
 aContainer
@@ -6234,7 +6234,7 @@ GetChildCount
 ;
 for
 (
-PRInt32
+int32_t
 idx
 =
 aNewIndexInContainer
@@ -6270,7 +6270,7 @@ if
 ins
 )
 {
-PRInt32
+int32_t
 insertionIndex
 ;
 nsXBLInsertionPoint
@@ -6292,7 +6292,7 @@ if
 point
 )
 {
-PRInt32
+int32_t
 childCount
 =
 aContainer
@@ -6304,7 +6304,7 @@ GetChildCount
 ;
 for
 (
-PRInt32
+int32_t
 j
 =
 aNewIndexInContainer
@@ -6368,7 +6368,7 @@ aContainer
 nsIContent
 *
 aChild
-PRInt32
+int32_t
 aIndexInContainer
 )
 {
@@ -6429,7 +6429,7 @@ bool
 aRemoveFromPseudoPoints
 )
 {
-PRInt32
+int32_t
 count
 =
 aInsertionPointList
@@ -6441,7 +6441,7 @@ GetInsertionPointCount
 ;
 for
 (
-PRInt32
+int32_t
 i
 =
 0
@@ -6512,7 +6512,7 @@ aContainer
 nsIContent
 *
 aChild
-PRInt32
+int32_t
 aIndexInContainer
 nsIContent
 *
@@ -7217,7 +7217,7 @@ aContainer
 nsIContent
 *
 aChild
-PRUint32
+uint32_t
 aIndexInContainer
 bool
 aAppend
@@ -7239,7 +7239,7 @@ NS_PRECONDITION
 aContainer
 |
 |
-PRUint32
+uint32_t
 (
 aContainer
 -
@@ -7278,7 +7278,7 @@ if
 ins
 )
 {
-PRInt32
+int32_t
 insertionIndex
 ;
 nsXBLInsertionPoint

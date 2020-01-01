@@ -1281,7 +1281,7 @@ aPtr
 )
 ;
 static
-PRUintn
+unsigned
 sTLSIndex
 ;
 nsRefPtr
@@ -1292,13 +1292,13 @@ mIndex
 ;
 }
 ;
-PRUintn
+unsigned
 CreateIndexHelper
 :
 :
 sTLSIndex
 =
-PRUintn
+unsigned
 (
 BAD_TLS_INDEX
 )
@@ -1376,7 +1376,7 @@ IDBKeyRange
 *
 aKeyRange
 const
-PRUint32
+uint32_t
 aLimit
 )
 :
@@ -1403,7 +1403,7 @@ GetAllHelper
 {
 for
 (
-PRUint32
+uint32_t
 index
 =
 0
@@ -1505,7 +1505,7 @@ IDBKeyRange
 mKeyRange
 ;
 const
-PRUint32
+uint32_t
 mLimit
 ;
 private
@@ -1626,7 +1626,7 @@ IDBKeyRange
 >
 mKeyRange
 ;
-PRUint64
+uint64_t
 mCount
 ;
 }
@@ -1670,7 +1670,7 @@ mObjectStoreInfo
 {
 for
 (
-PRUint32
+uint32_t
 i
 =
 0
@@ -2241,7 +2241,7 @@ const
 nsString
 &
 aContentType
-PRUint64
+uint64_t
 aSize
 )
 {
@@ -2286,7 +2286,7 @@ const
 nsString
 &
 aContentType
-PRUint64
+uint64_t
 aSize
 )
 {
@@ -2561,7 +2561,7 @@ IDBObjectStore
 :
 AppendIndexUpdateInfo
 (
-PRInt64
+int64_t
 aIndexID
 const
 KeyPath
@@ -2917,7 +2917,7 @@ UpdateIndexes
 IDBTransaction
 *
 aTransaction
-PRInt64
+int64_t
 aObjectStoreId
 const
 Key
@@ -2925,7 +2925,7 @@ Key
 aObjectStoreKey
 bool
 aOverwrite
-PRInt64
+int64_t
 aObjectDataId
 const
 nsTArray
@@ -3051,7 +3051,7 @@ rv
 )
 ;
 }
-PRUint32
+uint32_t
 infoCount
 =
 aUpdateInfoArray
@@ -3062,7 +3062,7 @@ Length
 ;
 for
 (
-PRUint32
+uint32_t
 i
 =
 0
@@ -3281,11 +3281,11 @@ indexUnique
 {
 for
 (
-PRInt32
+int32_t
 j
 =
 (
-PRInt32
+int32_t
 )
 i
 -
@@ -3364,9 +3364,9 @@ GetStructuredCloneReadInfoFromStatement
 mozIStorageStatement
 *
 aStatement
-PRUint32
+uint32_t
 aDataIndex
-PRUint32
+uint32_t
 aFileIdsIndex
 IDBDatabase
 *
@@ -3380,7 +3380,7 @@ aInfo
 ifdef
 DEBUG
 {
-PRInt32
+int32_t
 type
 ;
 NS_ASSERTION
@@ -3418,11 +3418,11 @@ type
 #
 endif
 const
-PRUint8
+uint8_t
 *
 blobData
 ;
-PRUint32
+uint32_t
 blobDataLength
 ;
 nsresult
@@ -3639,7 +3639,7 @@ NS_ERROR_DOM_INDEXEDDB_UNKNOWN_ERR
 ;
 nsAutoTArray
 <
-PRInt64
+int64_t
 10
 >
 array
@@ -3671,7 +3671,7 @@ Manager
 ;
 for
 (
-PRUint32
+uint32_t
 i
 =
 0
@@ -3690,7 +3690,7 @@ i
 )
 {
 const
-PRInt64
+int64_t
 &
 id
 =
@@ -3977,10 +3977,10 @@ aCloneWriteInfo
 }
 static
 inline
-PRUint32
+uint32_t
 SwapBytes
 (
-PRUint32
+uint32_t
 u
 )
 {
@@ -4045,7 +4045,7 @@ inline
 double
 SwapBytes
 (
-PRUint64
+uint64_t
 u
 )
 {
@@ -4165,7 +4165,7 @@ nsCString
 aString
 )
 {
-PRUint32
+uint32_t
 length
 ;
 if
@@ -4178,7 +4178,7 @@ aReader
 length
 sizeof
 (
-PRUint32
+uint32_t
 )
 )
 )
@@ -4525,7 +4525,7 @@ wrappedFileHandle
 )
 ;
 }
-PRUint64
+uint64_t
 size
 ;
 if
@@ -4538,7 +4538,7 @@ aReader
 size
 sizeof
 (
-PRUint64
+uint64_t
 )
 )
 )
@@ -5083,7 +5083,7 @@ js_GetSCOffset
 aWriter
 )
 ;
-PRUint64
+uint64_t
 value
 =
 0
@@ -5303,7 +5303,7 @@ fileInfo
 ;
 }
 }
-PRUint64
+uint64_t
 size
 ;
 if
@@ -5381,7 +5381,7 @@ convType
 type
 )
 ;
-PRUint32
+uint32_t
 convTypeLength
 =
 SwapBytes
@@ -5516,7 +5516,7 @@ convName
 name
 )
 ;
-PRUint32
+uint32_t
 convNameLength
 =
 SwapBytes
@@ -5703,7 +5703,7 @@ convType
 type
 )
 ;
-PRUint32
+uint32_t
 convTypeLength
 =
 SwapBytes
@@ -5753,7 +5753,7 @@ convName
 name
 )
 ;
-PRUint32
+uint32_t
 convNameLength
 =
 SwapBytes
@@ -5791,7 +5791,7 @@ aWriter
 convTypeLength
 sizeof
 (
-PRUint32
+uint32_t
 )
 )
 |
@@ -5821,7 +5821,7 @@ aWriter
 convNameLength
 sizeof
 (
-PRUint32
+uint32_t
 )
 )
 |
@@ -5923,7 +5923,7 @@ nsAString
 aFileIds
 nsTArray
 <
-PRInt64
+int64_t
 >
 &
 aResult
@@ -5980,7 +5980,7 @@ id
 nsresult
 rv
 ;
-PRInt32
+int32_t
 id
 =
 token
@@ -5997,7 +5997,7 @@ rv
 rv
 )
 ;
-PRInt64
+int64_t
 *
 element
 =
@@ -6110,7 +6110,7 @@ null
 "
 )
 ;
-PRUint32
+uint32_t
 length
 =
 aActors
@@ -6128,7 +6128,7 @@ length
 ;
 for
 (
-PRUint32
+uint32_t
 index
 =
 0
@@ -6303,7 +6303,7 @@ return
 NS_ERROR_DOM_INDEXEDDB_UNKNOWN_ERR
 ;
 }
-PRUint32
+uint32_t
 fileCount
 =
 aFiles
@@ -6321,7 +6321,7 @@ fileCount
 ;
 for
 (
-PRUint32
+uint32_t
 index
 =
 0
@@ -6734,7 +6734,7 @@ return
 NS_ERROR_DOM_INDEXEDDB_DATA_ERR
 ;
 }
-PRUint32
+uint32_t
 count
 =
 mInfo
@@ -6755,7 +6755,7 @@ count
 ;
 for
 (
-PRUint32
+uint32_t
 indexesIndex
 =
 0
@@ -6900,7 +6900,7 @@ aKey
 JSContext
 *
 aCx
-PRUint8
+uint8_t
 aOptionalArgCount
 bool
 aOverwrite
@@ -7244,7 +7244,7 @@ manager
 "
 )
 ;
-PRUint32
+uint32_t
 length
 =
 aBlobs
@@ -7264,7 +7264,7 @@ length
 ;
 for
 (
-PRUint32
+uint32_t
 index
 =
 0
@@ -7638,7 +7638,7 @@ GetAllInternal
 IDBKeyRange
 *
 aKeyRange
-PRUint32
+uint32_t
 aLimit
 JSContext
 *
@@ -8668,7 +8668,7 @@ indexInfo
 =
 nullptr
 ;
-PRUint32
+uint32_t
 indexCount
 =
 mInfo
@@ -8682,7 +8682,7 @@ Length
 ;
 for
 (
-PRUint32
+uint32_t
 index
 =
 0
@@ -8747,7 +8747,7 @@ retval
 ;
 for
 (
-PRUint32
+uint32_t
 i
 =
 0
@@ -8884,7 +8884,7 @@ nsIDOMEventTarget
 )
 for
 (
-PRUint32
+uint32_t
 i
 =
 0
@@ -9260,7 +9260,7 @@ nsString
 >
 names
 ;
-PRUint32
+uint32_t
 count
 =
 mInfo
@@ -9281,7 +9281,7 @@ count
 ;
 for
 (
-PRUint32
+uint32_t
 index
 =
 0
@@ -9313,7 +9313,7 @@ name
 }
 for
 (
-PRUint32
+uint32_t
 index
 =
 0
@@ -9489,12 +9489,12 @@ const
 jsval
 &
 aKey
-PRUint32
+uint32_t
 aLimit
 JSContext
 *
 aCx
-PRUint8
+uint8_t
 aOptionalArgCount
 nsIIDBRequest
 *
@@ -9642,7 +9642,7 @@ aKey
 JSContext
 *
 aCx
-PRUint8
+uint8_t
 aOptionalArgCount
 nsIIDBRequest
 *
@@ -9724,7 +9724,7 @@ aKey
 JSContext
 *
 aCx
-PRUint8
+uint8_t
 aOptionalArgCount
 nsIIDBRequest
 *
@@ -10017,7 +10017,7 @@ aDirection
 JSContext
 *
 aCx
-PRUint8
+uint8_t
 aOptionalArgCount
 nsIIDBRequest
 *
@@ -10299,7 +10299,7 @@ found
 =
 false
 ;
-PRUint32
+uint32_t
 indexCount
 =
 mInfo
@@ -10313,7 +10313,7 @@ Length
 ;
 for
 (
-PRUint32
+uint32_t
 index
 =
 0
@@ -10379,7 +10379,7 @@ ifdef
 DEBUG
 for
 (
-PRUint32
+uint32_t
 index
 =
 0
@@ -10739,7 +10739,7 @@ Impossible
 "
 )
 ;
-PRUint32
+uint32_t
 index
 =
 0
@@ -10884,7 +10884,7 @@ index
 ;
 for
 (
-PRUint32
+uint32_t
 i
 =
 0
@@ -10946,7 +10946,7 @@ aKey
 JSContext
 *
 aCx
-PRUint8
+uint8_t
 aOptionalArgCount
 nsIIDBRequest
 *
@@ -11069,7 +11069,7 @@ copyBuffer
 FILE_COPY_BUFFER_SIZE
 ]
 ;
-PRUint32
+uint32_t
 numRead
 ;
 rv
@@ -11102,7 +11102,7 @@ numRead
 break
 ;
 }
-PRUint32
+uint32_t
 numWrite
 ;
 rv
@@ -11487,7 +11487,7 @@ IsUnset
 (
 )
 ;
-PRInt64
+int64_t
 osid
 =
 mObjectStore
@@ -11642,7 +11642,7 @@ autoincrement
 "
 )
 ;
-PRInt64
+int64_t
 autoIncrementNum
 =
 0
@@ -11755,7 +11755,7 @@ union
 double
 d
 ;
-PRUint64
+uint64_t
 u
 ;
 }
@@ -11769,7 +11769,7 @@ SwapBytes
 (
 static_cast
 <
-PRUint64
+uint64_t
 >
 (
 autoIncrementNum
@@ -11784,7 +11784,7 @@ mCloneWriteInfo
 .
 mCloneBuffer
 ;
-PRUint64
+uint64_t
 offsetToKeyProp
 =
 mCloneWriteInfo
@@ -11810,7 +11810,7 @@ pun
 u
 sizeof
 (
-PRUint64
+uint64_t
 )
 )
 ;
@@ -11902,14 +11902,14 @@ compressedLength
 )
 ;
 const
-PRUint8
+uint8_t
 *
 dataBuffer
 =
 reinterpret_cast
 <
 const
-PRUint8
+uint8_t
 *
 >
 (
@@ -11983,7 +11983,7 @@ NS_ERROR_DOM_INDEXEDDB_UNKNOWN_ERR
 nsAutoString
 fileIds
 ;
-PRUint32
+uint32_t
 length
 =
 mCloneWriteInfo
@@ -11996,7 +11996,7 @@ Length
 ;
 for
 (
-PRUint32
+uint32_t
 index
 =
 0
@@ -12037,7 +12037,7 @@ cloneFile
 .
 mInputStream
 ;
-PRInt64
+int64_t
 id
 =
 fileInfo
@@ -12249,7 +12249,7 @@ rv
 NS_ERROR_DOM_INDEXEDDB_UNKNOWN_ERR
 )
 ;
-PRInt64
+int64_t
 objectDataId
 ;
 rv
@@ -12475,7 +12475,7 @@ IsEmpty
 )
 )
 {
-PRUint32
+uint32_t
 fileCount
 =
 files
@@ -12531,7 +12531,7 @@ null
 ;
 for
 (
-PRUint32
+uint32_t
 index
 =
 0
@@ -16049,7 +16049,7 @@ NS_ERROR_DOM_INDEXEDDB_CONSTRAINT_ERR
 ifdef
 DEBUG
 {
-PRInt64
+int64_t
 id
 ;
 aConnection
@@ -16449,7 +16449,7 @@ rv
 rv
 )
 ;
-PRInt64
+int64_t
 objectDataID
 =
 stmt
@@ -17214,7 +17214,7 @@ aVal
 ;
 for
 (
-PRUint32
+uint32_t
 index
 =
 0
@@ -17268,7 +17268,7 @@ nullptr
 ;
 for
 (
-PRUint32
+uint32_t
 index
 =
 0
@@ -17542,7 +17542,7 @@ null
 "
 )
 ;
-PRUint32
+uint32_t
 length
 =
 mCloneReadInfos
@@ -17593,7 +17593,7 @@ length
 ;
 for
 (
-PRUint32
+uint32_t
 index
 =
 0
@@ -17839,7 +17839,7 @@ Length
 ;
 for
 (
-PRUint32
+uint32_t
 index
 =
 0

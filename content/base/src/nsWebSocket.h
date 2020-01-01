@@ -246,7 +246,7 @@ aContext
 JSObject
 *
 aObject
-PRUint32
+uint32_t
 aArgc
 jsval
 *
@@ -267,7 +267,7 @@ bool
 aUseCapture
 bool
 aWantsUntrusted
-PRUint8
+uint8_t
 optional_argc
 )
 ;
@@ -316,7 +316,7 @@ EstablishConnection
 nsresult
 FailConnection
 (
-PRUint16
+uint16_t
 reasonCode
 const
 nsACString
@@ -331,7 +331,7 @@ EmptyCString
 nsresult
 CloseConnection
 (
-PRUint16
+uint16_t
 reasonCode
 const
 nsACString
@@ -369,7 +369,7 @@ PRUnichar
 *
 *
 aFormatStrings
-PRUint32
+uint32_t
 aFormatStringsLen
 )
 ;
@@ -391,7 +391,7 @@ aStreamOut
 bool
 &
 aIsBinary
-PRUint32
+uint32_t
 &
 aOutgoingLength
 JSContext
@@ -452,7 +452,7 @@ CreateAndDispatchCloseEvent
 (
 bool
 aWasClean
-PRUint16
+uint16_t
 aCode
 const
 nsString
@@ -550,13 +550,13 @@ mCloseEventWasClean
 nsString
 mCloseEventReason
 ;
-PRUint16
+uint16_t
 mCloseEventCode
 ;
 nsCString
 mAsciiHost
 ;
-PRUint32
+uint32_t
 mPort
 ;
 nsCString
@@ -580,7 +580,7 @@ mEstablishedProtocol
 nsCString
 mEstablishedExtensions
 ;
-PRUint16
+uint16_t
 mReadyState
 ;
 nsCOMPtr
@@ -589,7 +589,7 @@ nsIPrincipal
 >
 mPrincipal
 ;
-PRUint32
+uint32_t
 mOutgoingBufferedAmount
 ;
 enum
@@ -602,10 +602,10 @@ mBinaryType
 nsCString
 mScriptFile
 ;
-PRUint32
+uint32_t
 mScriptLine
 ;
-PRUint64
+uint64_t
 mInnerWindowID
 ;
 private

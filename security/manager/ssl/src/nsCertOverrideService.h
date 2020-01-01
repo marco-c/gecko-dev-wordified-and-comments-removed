@@ -193,7 +193,7 @@ this
 nsCString
 mAsciiHost
 ;
-PRInt32
+int32_t
 mPort
 ;
 bool
@@ -485,7 +485,7 @@ const
 nsACString
 &
 aHostName
-PRInt32
+int32_t
 aPort
 nsACString
 &
@@ -540,7 +540,7 @@ const
 nsACString
 &
 host
-PRInt32
+int32_t
 port
 nsIX509Cert
 *

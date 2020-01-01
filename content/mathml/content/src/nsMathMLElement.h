@@ -129,7 +129,7 @@ virtual
 bool
 ParseAttribute
 (
-PRInt32
+int32_t
 aNamespaceID
 nsIAtom
 *
@@ -184,7 +184,7 @@ aString
 nsCSSValue
 &
 aCSSValue
-PRUint32
+uint32_t
 aFlags
 )
 ;
@@ -199,7 +199,7 @@ aString
 nsCSSValue
 &
 aCSSValue
-PRUint32
+uint32_t
 aFlags
 )
 ;
@@ -256,7 +256,7 @@ virtual
 bool
 IsNodeOfType
 (
-PRUint32
+uint32_t
 aFlags
 )
 const
@@ -302,7 +302,7 @@ virtual
 bool
 IsFocusable
 (
-PRInt32
+int32_t
 *
 aTabIndex
 =
@@ -353,7 +353,7 @@ const
 nsresult
 SetAttr
 (
-PRInt32
+int32_t
 aNameSpaceID
 nsIAtom
 *
@@ -381,7 +381,7 @@ virtual
 nsresult
 SetAttr
 (
-PRInt32
+int32_t
 aNameSpaceID
 nsIAtom
 *
@@ -401,7 +401,7 @@ virtual
 nsresult
 UnsetAttr
 (
-PRInt32
+int32_t
 aNameSpaceID
 nsIAtom
 *

@@ -148,7 +148,7 @@ gfxPattern
 :
 GraphicsFilter
 aFilter
-PRUint32
+uint32_t
 aImageFlags
 =
 imgIContainer
@@ -301,7 +301,7 @@ unsigned
 char
 *
 aDestBuffer
-PRInt32
+int32_t
 aStride
 )
 ;

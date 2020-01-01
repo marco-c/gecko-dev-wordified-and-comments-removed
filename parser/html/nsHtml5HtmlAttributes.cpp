@@ -183,7 +183,7 @@ nsHtml5HtmlAttributes
 :
 nsHtml5HtmlAttributes
 (
-PRInt32
+int32_t
 mode
 )
 :
@@ -201,7 +201,7 @@ jArray
 <
 nsHtml5AttributeName
 *
-PRInt32
+int32_t
 >
 :
 :
@@ -216,7 +216,7 @@ jArray
 <
 nsString
 *
-PRInt32
+int32_t
 >
 :
 :
@@ -251,7 +251,7 @@ clear
 )
 ;
 }
-PRInt32
+int32_t
 nsHtml5HtmlAttributes
 :
 :
@@ -264,7 +264,7 @@ name
 {
 for
 (
-PRInt32
+int32_t
 i
 =
 0
@@ -299,7 +299,7 @@ return
 1
 ;
 }
-PRInt32
+int32_t
 nsHtml5HtmlAttributes
 :
 :
@@ -318,7 +318,7 @@ nsHtml5HtmlAttributes
 :
 getLocalName
 (
-PRInt32
+int32_t
 index
 )
 {
@@ -362,7 +362,7 @@ nsHtml5HtmlAttributes
 :
 getAttributeName
 (
-PRInt32
+int32_t
 index
 )
 {
@@ -393,13 +393,13 @@ nullptr
 ;
 }
 }
-PRInt32
+int32_t
 nsHtml5HtmlAttributes
 :
 :
 getURI
 (
-PRInt32
+int32_t
 index
 )
 {
@@ -443,7 +443,7 @@ nsHtml5HtmlAttributes
 :
 getPrefix
 (
-PRInt32
+int32_t
 index
 )
 {
@@ -487,7 +487,7 @@ nsHtml5HtmlAttributes
 :
 getValue
 (
-PRInt32
+int32_t
 index
 )
 {
@@ -530,7 +530,7 @@ nsHtml5AttributeName
 name
 )
 {
-PRInt32
+int32_t
 index
 =
 getIndex
@@ -585,7 +585,7 @@ length
 length
 )
 {
-PRInt32
+int32_t
 newLen
 =
 length
@@ -597,7 +597,7 @@ jArray
 <
 nsHtml5AttributeName
 *
-PRInt32
+int32_t
 >
 newNames
 =
@@ -605,7 +605,7 @@ jArray
 <
 nsHtml5AttributeName
 *
-PRInt32
+int32_t
 >
 :
 :
@@ -634,7 +634,7 @@ jArray
 <
 nsString
 *
-PRInt32
+int32_t
 >
 newValues
 =
@@ -642,7 +642,7 @@ jArray
 <
 nsString
 *
-PRInt32
+int32_t
 >
 :
 :
@@ -693,13 +693,13 @@ nsHtml5HtmlAttributes
 :
 clear
 (
-PRInt32
+int32_t
 m
 )
 {
 for
 (
-PRInt32
+int32_t
 i
 =
 0
@@ -764,7 +764,7 @@ nsHtml5HtmlAttributes
 :
 releaseValue
 (
-PRInt32
+int32_t
 i
 )
 {
@@ -790,7 +790,7 @@ clearWithoutReleasingContents
 {
 for
 (
-PRInt32
+int32_t
 i
 =
 0
@@ -837,7 +837,7 @@ name
 {
 for
 (
-PRInt32
+int32_t
 i
 =
 0
@@ -924,7 +924,7 @@ nsHtml5HtmlAttributes
 ;
 for
 (
-PRInt32
+int32_t
 i
 =
 0
@@ -981,7 +981,7 @@ nsHtml5HtmlAttributes
 other
 )
 {
-PRInt32
+int32_t
 otherLength
 =
 other
@@ -1005,7 +1005,7 @@ false
 }
 for
 (
-PRInt32
+int32_t
 i
 =
 0
@@ -1041,7 +1041,7 @@ NS_HTML5ATTRIBUTE_NAME_HTML
 ;
 for
 (
-PRInt32
+int32_t
 j
 =
 0

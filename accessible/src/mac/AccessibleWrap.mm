@@ -731,7 +731,7 @@ aEvent
 {
 NS_OBJC_BEGIN_TRY_ABORT_BLOCK_NSRESULT
 ;
-PRUint32
+uint32_t
 eventType
 =
 aEvent
@@ -1121,7 +1121,7 @@ this
 )
 return
 ;
-PRUint32
+uint32_t
 childCount
 =
 ChildCount
@@ -1130,7 +1130,7 @@ ChildCount
 ;
 for
 (
-PRUint32
+uint32_t
 childIdx
 =
 0

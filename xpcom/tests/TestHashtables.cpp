@@ -80,7 +80,7 @@ public
 :
 TestUniChar
 (
-PRUint32
+uint32_t
 aWord
 )
 {
@@ -130,7 +130,7 @@ mWord
 )
 ;
 }
-PRUint32
+uint32_t
 GetChar
 (
 )
@@ -142,7 +142,7 @@ mWord
 }
 private
 :
-PRUint32
+uint32_t
 mWord
 ;
 }
@@ -155,7 +155,7 @@ char
 *
 mStr
 ;
-PRUint32
+uint32_t
 mUnicode
 ;
 }
@@ -511,7 +511,7 @@ EntityToUnicodeEntry
 >
 &
 hash
-PRUint32
+uint32_t
 numEntries
 )
 {
@@ -531,7 +531,7 @@ n
 numEntries
 )
 ;
-PRUint32
+uint32_t
 i
 ;
 for
@@ -841,7 +841,7 @@ n
 "
 )
 ;
-PRUint32
+uint32_t
 count
 =
 hash
@@ -882,7 +882,7 @@ PLDHashOperator
 nsDEnumRead
 (
 const
-PRUint32
+uint32_t
 &
 aKey
 const
@@ -922,7 +922,7 @@ PLDHashOperator
 nsDEnum
 (
 const
-PRUint32
+uint32_t
 &
 aKey
 const
@@ -1720,7 +1720,7 @@ PLDHashOperator
 nsIEnumRead
 (
 const
-PRUint32
+uint32_t
 &
 aKey
 IFoo
@@ -1774,7 +1774,7 @@ PLDHashOperator
 nsIEnum
 (
 const
-PRUint32
+uint32_t
 &
 aKey
 nsCOMPtr
@@ -1833,7 +1833,7 @@ nsIEnum2Read
 nsISupports
 *
 aKey
-PRUint32
+uint32_t
 aData
 void
 *
@@ -1896,7 +1896,7 @@ nsIEnum2
 nsISupports
 *
 aKey
-PRUint32
+uint32_t
 &
 aData
 void
@@ -2030,7 +2030,7 @@ n
 "
 )
 ;
-PRUint32
+uint32_t
 count
 =
 EntityToUnicode
@@ -2276,7 +2276,7 @@ n
 ENTITY_COUNT
 )
 ;
-PRUint32
+uint32_t
 i
 ;
 for
@@ -3849,7 +3849,7 @@ n
 nsDataHashtable
 <
 nsISupportsHashKey
-PRUint32
+uint32_t
 >
 EntToUniClass2
 ;
@@ -4014,7 +4014,7 @@ n
 "
 )
 ;
-PRUint32
+uint32_t
 myChar2
 ;
 for

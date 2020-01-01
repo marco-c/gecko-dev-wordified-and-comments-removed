@@ -57,11 +57,11 @@ mozilla
 ;
 static
 const
-PRUintn
+unsigned
 BAD_TLS_INDEX
 =
 (
-PRUintn
+unsigned
 )
 -
 1
@@ -105,14 +105,14 @@ nsHashKey
 {
 protected
 :
-PRUint32
+uint32_t
 mKey
 ;
 public
 :
 nsProviderKey
 (
-PRUint32
+uint32_t
 key
 )
 :
@@ -122,7 +122,7 @@ key
 )
 {
 }
-PRUint32
+uint32_t
 HashCode
 (
 void
@@ -175,7 +175,7 @@ mKey
 )
 ;
 }
-PRUint32
+uint32_t
 GetValue
 (
 )
@@ -222,7 +222,7 @@ mService
 ifdef
 DEBUG
 static
-PRInt32
+int32_t
 totalInstances
 ;
 #
@@ -239,7 +239,7 @@ nsExceptionManager
 #
 ifdef
 DEBUG
-PRInt32
+int32_t
 nsExceptionManager
 :
 :
@@ -392,7 +392,7 @@ _retval
 )
 ;
 }
-PRUintn
+unsigned
 nsExceptionService
 :
 :
@@ -421,7 +421,7 @@ nullptr
 #
 ifdef
 DEBUG
-PRInt32
+int32_t
 nsExceptionService
 :
 :
@@ -895,7 +895,7 @@ RegisterExceptionProvider
 nsIExceptionProvider
 *
 provider
-PRUint32
+uint32_t
 errorModule
 )
 {
@@ -954,7 +954,7 @@ UnregisterExceptionProvider
 nsIExceptionProvider
 *
 provider
-PRUint32
+uint32_t
 errorModule
 )
 {

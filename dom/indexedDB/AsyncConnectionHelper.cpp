@@ -105,7 +105,7 @@ gCurrentTransaction
 nullptr
 ;
 const
-PRUint32
+uint32_t
 kProgressHandlerGranularity
 =
 1000
@@ -2370,7 +2370,7 @@ aResult
 ;
 for
 (
-PRUint32
+uint32_t
 index
 =
 0
@@ -2503,7 +2503,7 @@ Dispatch
 nsIRunnable
 *
 aRunnable
-PRUint32
+uint32_t
 aFlags
 )
 {
@@ -2564,7 +2564,7 @@ Dispatch
 nsIRunnable
 *
 aRunnable
-PRUint32
+uint32_t
 aFlags
 )
 {
@@ -2660,7 +2660,7 @@ Dispatch
 nsIRunnable
 *
 aRunnable
-PRUint32
+uint32_t
 aFlags
 )
 {

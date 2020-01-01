@@ -158,7 +158,7 @@ nsConsoleService
 (
 )
 {
-PRUint32
+uint32_t
 i
 =
 0
@@ -358,7 +358,7 @@ SetIsDelivering
 ;
 for
 (
-PRInt32
+int32_t
 i
 =
 0
@@ -716,7 +716,7 @@ nsIConsoleMessage
 *
 *
 messages
-PRUint32
+uint32_t
 *
 count
 )
@@ -782,7 +782,7 @@ return
 NS_OK
 ;
 }
-PRUint32
+uint32_t
 resultSize
 =
 mFull
@@ -836,7 +836,7 @@ return
 NS_ERROR_FAILURE
 ;
 }
-PRUint32
+uint32_t
 i
 ;
 if
@@ -1122,7 +1122,7 @@ false
 ;
 for
 (
-PRUint32
+uint32_t
 i
 =
 0

@@ -218,7 +218,7 @@ const
 char
 *
 aFullPath
-PRInt64
+int64_t
 aLastModifiedTime
 =
 0
@@ -234,7 +234,7 @@ NS_DECL_ISUPPORTS
 nsCString
 mFullPath
 ;
-PRInt64
+int64_t
 mLastModifiedTime
 ;
 bool
@@ -359,7 +359,7 @@ const
 char
 *
 aMimeType
-PRUint32
+uint32_t
 *
 state
 )
@@ -367,7 +367,7 @@ state
 nsresult
 GetPluginCount
 (
-PRUint32
+uint32_t
 *
 aPluginCount
 )
@@ -375,7 +375,7 @@ aPluginCount
 nsresult
 GetPlugins
 (
-PRUint32
+uint32_t
 aPluginCount
 nsIDOMPlugin
 *
@@ -422,7 +422,7 @@ const
 char
 *
 url
-PRUint32
+uint32_t
 postDataLen
 const
 char
@@ -447,7 +447,7 @@ char
 referrer
 bool
 forceJSEnabled
-PRUint32
+uint32_t
 postHeadersLength
 const
 char
@@ -485,13 +485,13 @@ const
 char
 *
 inPostData
-PRUint32
+uint32_t
 inPostDataLen
 char
 *
 *
 outPostData
-PRUint32
+uint32_t
 *
 outPostDataLen
 )
@@ -604,7 +604,7 @@ char
 aHeadersData
 =
 nullptr
-PRUint32
+uint32_t
 aHeadersDataLen
 =
 0
@@ -647,7 +647,7 @@ bool
 forceJSEnabled
 =
 false
-PRUint32
+uint32_t
 getHeadersLength
 =
 0
@@ -678,7 +678,7 @@ const
 char
 *
 aHeadersData
-PRUint32
+uint32_t
 aHeadersDataLen
 nsIChannel
 *
@@ -777,7 +777,7 @@ FindOldestStoppedInstance
 (
 )
 ;
-PRUint32
+uint32_t
 StoppedInstanceCount
 (
 )

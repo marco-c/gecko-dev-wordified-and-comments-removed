@@ -416,7 +416,7 @@ nsClipboard
 :
 SetNativeClipboardData
 (
-PRInt32
+int32_t
 aWhichClipboard
 )
 {
@@ -702,7 +702,7 @@ rv
 return
 NS_ERROR_FAILURE
 ;
-PRUint32
+uint32_t
 flavorCount
 ;
 flavorList
@@ -716,7 +716,7 @@ flavorCount
 ;
 for
 (
-PRUint32
+uint32_t
 i
 =
 0
@@ -909,7 +909,7 @@ DOM
 line
 endings
 .
-PRInt32
+int32_t
 signedDataLength
 =
 dataLength
@@ -1472,7 +1472,7 @@ GetNativeClipboardData
 nsITransferable
 *
 aTransferable
-PRInt32
+int32_t
 aWhichClipboard
 )
 {
@@ -1558,7 +1558,7 @@ rv
 return
 NS_ERROR_FAILURE
 ;
-PRUint32
+uint32_t
 flavorCount
 ;
 flavorList
@@ -1623,7 +1623,7 @@ mTransferable
 {
 for
 (
-PRUint32
+uint32_t
 i
 =
 0
@@ -1694,7 +1694,7 @@ nsISupports
 >
 dataSupports
 ;
-PRUint32
+uint32_t
 dataSize
 =
 0
@@ -1839,9 +1839,9 @@ char
 *
 *
 aFlavorList
-PRUint32
+uint32_t
 aLength
-PRInt32
+int32_t
 aWhichClipboard
 bool
 *
@@ -1918,7 +1918,7 @@ rv
 )
 )
 {
-PRUint32
+uint32_t
 transferableFlavorCount
 ;
 transferableFlavorList
@@ -1932,7 +1932,7 @@ transferableFlavorCount
 ;
 for
 (
-PRUint32
+uint32_t
 j
 =
 0
@@ -1999,7 +1999,7 @@ transferableFlavorStr
 ;
 for
 (
-PRUint32
+uint32_t
 k
 =
 0
@@ -2050,7 +2050,7 @@ generalPasteboard
 ;
 for
 (
-PRUint32
+uint32_t
 i
 =
 0
@@ -2305,7 +2305,7 @@ rv
 return
 nil
 ;
-PRUint32
+uint32_t
 flavorCount
 ;
 flavorList
@@ -2319,7 +2319,7 @@ flavorCount
 ;
 for
 (
-PRUint32
+uint32_t
 i
 =
 0
@@ -2439,7 +2439,7 @@ data
 =
 nullptr
 ;
-PRUint32
+uint32_t
 dataSize
 =
 0
@@ -2604,7 +2604,7 @@ kNativeImageMime
 )
 )
 {
-PRUint32
+uint32_t
 dataSize
 =
 0
@@ -2921,7 +2921,7 @@ kURLMime
 )
 )
 {
-PRUint32
+uint32_t
 len
 =
 0
@@ -2989,7 +2989,7 @@ URL
 +
 title
 .
-PRInt32
+int32_t
 newlinePos
 =
 url

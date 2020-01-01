@@ -196,7 +196,7 @@ Truncate
 )
 ;
 }
-PRUint8
+uint8_t
 nsXFormsTriggerAccessible
 :
 :
@@ -214,7 +214,7 @@ nsXFormsTriggerAccessible
 :
 GetActionName
 (
-PRUint8
+uint8_t
 aIndex
 nsAString
 &
@@ -252,7 +252,7 @@ nsXFormsTriggerAccessible
 :
 DoAction
 (
-PRUint8
+uint8_t
 aIndex
 )
 {
@@ -316,7 +316,7 @@ roles
 ENTRY
 ;
 }
-PRUint8
+uint8_t
 nsXFormsInputAccessible
 :
 :
@@ -334,7 +334,7 @@ nsXFormsInputAccessible
 :
 GetActionName
 (
-PRUint8
+uint8_t
 aIndex
 nsAString
 &
@@ -370,7 +370,7 @@ nsXFormsInputAccessible
 :
 DoAction
 (
-PRUint8
+uint8_t
 aIndex
 )
 {
@@ -441,7 +441,7 @@ roles
 CHECKBUTTON
 ;
 }
-PRUint64
+uint64_t
 nsXFormsInputBooleanAccessible
 :
 :
@@ -449,7 +449,7 @@ NativeState
 (
 )
 {
-PRUint64
+uint64_t
 state
 =
 nsXFormsAccessible
@@ -515,7 +515,7 @@ return
 state
 ;
 }
-PRUint8
+uint8_t
 nsXFormsInputBooleanAccessible
 :
 :
@@ -533,7 +533,7 @@ nsXFormsInputBooleanAccessible
 :
 GetActionName
 (
-PRUint8
+uint8_t
 aIndex
 nsAString
 &
@@ -623,7 +623,7 @@ nsXFormsInputBooleanAccessible
 :
 DoAction
 (
-PRUint8
+uint8_t
 aIndex
 )
 {
@@ -715,7 +715,7 @@ roles
 PASSWORD_TEXT
 ;
 }
-PRUint64
+uint64_t
 nsXFormsSecretAccessible
 :
 :
@@ -790,7 +790,7 @@ roles
 SLIDER
 ;
 }
-PRUint64
+uint64_t
 nsXFormsRangeAccessible
 :
 :
@@ -798,7 +798,7 @@ NativeState
 (
 )
 {
-PRUint64
+uint64_t
 state
 =
 nsXFormsAccessible
@@ -808,7 +808,7 @@ NativeState
 (
 )
 ;
-PRUint32
+uint32_t
 isInRange
 =
 nsIXFormsUtilityService
@@ -1165,7 +1165,7 @@ aDoc
 )
 {
 }
-PRUint64
+uint64_t
 nsXFormsSelectAccessible
 :
 :
@@ -1173,7 +1173,7 @@ NativeState
 (
 )
 {
-PRUint64
+uint64_t
 state
 =
 nsXFormsContainerAccessible
@@ -1183,7 +1183,7 @@ NativeState
 (
 )
 ;
-PRUint32
+uint32_t
 isInRange
 =
 nsIXFormsUtilityService
@@ -1393,7 +1393,7 @@ roles
 CHECKBUTTON
 ;
 }
-PRUint64
+uint64_t
 nsXFormsItemCheckgroupAccessible
 :
 :
@@ -1401,7 +1401,7 @@ NativeState
 (
 )
 {
-PRUint64
+uint64_t
 state
 =
 nsXFormsSelectableItemAccessible
@@ -1435,7 +1435,7 @@ nsXFormsItemCheckgroupAccessible
 :
 GetActionName
 (
-PRUint8
+uint8_t
 aIndex
 nsAString
 &
@@ -1516,7 +1516,7 @@ roles
 RADIOBUTTON
 ;
 }
-PRUint64
+uint64_t
 nsXFormsItemRadiogroupAccessible
 :
 :
@@ -1524,7 +1524,7 @@ NativeState
 (
 )
 {
-PRUint64
+uint64_t
 state
 =
 nsXFormsSelectableItemAccessible
@@ -1558,7 +1558,7 @@ nsXFormsItemRadiogroupAccessible
 :
 GetActionName
 (
-PRUint8
+uint8_t
 aIndex
 nsAString
 &
@@ -1623,7 +1623,7 @@ roles
 COMBOBOX
 ;
 }
-PRUint64
+uint64_t
 nsXFormsSelectComboboxAccessible
 :
 :
@@ -1631,7 +1631,7 @@ NativeState
 (
 )
 {
-PRUint64
+uint64_t
 state
 =
 nsXFormsSelectableAccessible
@@ -1707,7 +1707,7 @@ states
 HASPOPUP
 ;
 }
-PRUint64
+uint64_t
 nsXFormsSelectComboboxAccessible
 :
 :
@@ -1779,7 +1779,7 @@ roles
 LISTITEM
 ;
 }
-PRUint64
+uint64_t
 nsXFormsItemComboboxAccessible
 :
 :
@@ -1787,7 +1787,7 @@ NativeState
 (
 )
 {
-PRUint64
+uint64_t
 state
 =
 nsXFormsSelectableItemAccessible
@@ -1815,7 +1815,7 @@ return
 state
 ;
 }
-PRUint64
+uint64_t
 nsXFormsItemComboboxAccessible
 :
 :
@@ -1851,7 +1851,7 @@ nsXFormsItemComboboxAccessible
 :
 GetActionName
 (
-PRUint8
+uint8_t
 aIndex
 nsAString
 &

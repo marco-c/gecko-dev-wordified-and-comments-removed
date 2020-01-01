@@ -81,7 +81,7 @@ nsAutoCompleteSimpleResult
 :
 GetSearchResult
 (
-PRUint16
+uint16_t
 *
 aSearchResult
 )
@@ -101,7 +101,7 @@ nsAutoCompleteSimpleResult
 :
 SetSearchResult
 (
-PRUint16
+uint16_t
 aSearchResult
 )
 {
@@ -119,7 +119,7 @@ nsAutoCompleteSimpleResult
 :
 GetDefaultIndex
 (
-PRInt32
+int32_t
 *
 aDefaultIndex
 )
@@ -139,7 +139,7 @@ nsAutoCompleteSimpleResult
 :
 SetDefaultIndex
 (
-PRInt32
+int32_t
 aDefaultIndex
 )
 {
@@ -405,7 +405,7 @@ nsAutoCompleteSimpleResult
 :
 GetMatchCount
 (
-PRUint32
+uint32_t
 *
 aMatchCount
 )
@@ -433,7 +433,7 @@ nsAutoCompleteSimpleResult
 :
 GetValueAt
 (
-PRInt32
+int32_t
 aIndex
 nsAString
 &
@@ -450,7 +450,7 @@ aIndex
 &
 aIndex
 <
-PRInt32
+int32_t
 (
 mValues
 .
@@ -482,7 +482,7 @@ nsAutoCompleteSimpleResult
 :
 GetLabelAt
 (
-PRInt32
+int32_t
 aIndex
 nsAString
 &
@@ -503,7 +503,7 @@ nsAutoCompleteSimpleResult
 :
 GetCommentAt
 (
-PRInt32
+int32_t
 aIndex
 nsAString
 &
@@ -520,7 +520,7 @@ aIndex
 &
 aIndex
 <
-PRInt32
+int32_t
 (
 mComments
 .
@@ -552,7 +552,7 @@ nsAutoCompleteSimpleResult
 :
 GetImageAt
 (
-PRInt32
+int32_t
 aIndex
 nsAString
 &
@@ -569,7 +569,7 @@ aIndex
 &
 aIndex
 <
-PRInt32
+int32_t
 (
 mImages
 .
@@ -601,7 +601,7 @@ nsAutoCompleteSimpleResult
 :
 GetStyleAt
 (
-PRInt32
+int32_t
 aIndex
 nsAString
 &
@@ -618,7 +618,7 @@ aIndex
 &
 aIndex
 <
-PRInt32
+int32_t
 (
 mStyles
 .
@@ -669,7 +669,7 @@ nsAutoCompleteSimpleResult
 :
 RemoveValueAt
 (
-PRInt32
+int32_t
 aRowIndex
 bool
 aRemoveFromDb
@@ -685,7 +685,7 @@ aRowIndex
 &
 aRowIndex
 <
-PRInt32
+int32_t
 (
 mValues
 .

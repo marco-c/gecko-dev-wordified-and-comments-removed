@@ -827,7 +827,7 @@ nsComputedDOMStyle
 :
 GetLength
 (
-PRUint32
+uint32_t
 *
 aLength
 )
@@ -1490,7 +1490,7 @@ propEntry
 nullptr
 ;
 {
-PRUint32
+uint32_t
 length
 =
 0
@@ -1508,7 +1508,7 @@ length
 ;
 for
 (
-PRUint32
+uint32_t
 i
 =
 0
@@ -2065,7 +2065,7 @@ nsComputedDOMStyle
 :
 Item
 (
-PRUint32
+uint32_t
 aIndex
 nsAString
 &
@@ -2078,7 +2078,7 @@ Truncate
 (
 )
 ;
-PRUint32
+uint32_t
 length
 =
 0
@@ -2398,7 +2398,7 @@ GetROCSSPrimitiveValue
 (
 )
 ;
-PRUint8
+uint8_t
 a
 =
 NS_GET_A
@@ -3017,7 +3017,7 @@ false
 ;
 for
 (
-PRUint32
+uint32_t
 i
 =
 0
@@ -3272,7 +3272,7 @@ GetStringBufferValue
 str
 )
 ;
-PRInt32
+int32_t
 typeItem
 =
 1
@@ -3351,7 +3351,7 @@ value
 "
 )
 ;
-PRInt32
+int32_t
 type
 =
 a
@@ -3561,7 +3561,7 @@ false
 ;
 for
 (
-PRUint32
+uint32_t
 i
 =
 0
@@ -4674,7 +4674,7 @@ false
 ;
 for
 (
-PRUint32
+uint32_t
 i
 =
 0
@@ -4842,7 +4842,7 @@ false
 ;
 for
 (
-PRUint32
+uint32_t
 i
 =
 0
@@ -5098,7 +5098,7 @@ font
 mLanguage
 )
 ;
-PRInt32
+int32_t
 lendiff
 =
 fontName
@@ -5383,7 +5383,7 @@ GetStyleFont
 (
 )
 ;
-PRUint16
+uint16_t
 weight
 =
 font
@@ -5666,7 +5666,7 @@ nsComputedDOMStyle
 :
 GetBackgroundList
 (
-PRUint8
+uint8_t
 nsStyleBackground
 :
 :
@@ -5675,14 +5675,14 @@ Layer
 :
 *
 aMember
-PRUint32
+uint32_t
 nsStyleBackground
 :
 :
 *
 aCount
 const
-PRInt32
+int32_t
 aTable
 [
 ]
@@ -5708,7 +5708,7 @@ true
 ;
 for
 (
-PRUint32
+uint32_t
 i
 =
 0
@@ -7082,7 +7082,7 @@ true
 }
 for
 (
-PRUint32
+uint32_t
 i
 =
 0
@@ -7580,7 +7580,7 @@ true
 ;
 for
 (
-PRUint32
+uint32_t
 i
 =
 0
@@ -7747,7 +7747,7 @@ true
 ;
 for
 (
-PRUint32
+uint32_t
 i
 =
 0
@@ -8034,7 +8034,7 @@ true
 ;
 for
 (
-PRUint32
+uint32_t
 i
 =
 0
@@ -8088,7 +8088,7 @@ valX
 )
 ;
 const
-PRUint8
+uint8_t
 &
 xRepeat
 =
@@ -8105,7 +8105,7 @@ mRepeat
 mXRepeat
 ;
 const
-PRUint8
+uint8_t
 &
 yRepeat
 =
@@ -8126,7 +8126,7 @@ hasContraction
 =
 true
 ;
-PRUintn
+unsigned
 contraction
 ;
 if
@@ -8302,7 +8302,7 @@ true
 ;
 for
 (
-PRUint32
+uint32_t
 i
 =
 0
@@ -9955,7 +9955,7 @@ const
 nsStyleCorners
 &
 aRadius
-PRUint8
+uint8_t
 aFullCorner
 bool
 aIsBorder
@@ -10298,7 +10298,7 @@ const
 *
 shadowValues
 ;
-PRUint32
+uint32_t
 shadowValuesLength
 ;
 if
@@ -10442,7 +10442,7 @@ shadowColor
 ;
 for
 (
-PRUint32
+uint32_t
 i
 =
 0
@@ -11268,7 +11268,7 @@ return
 nullptr
 ;
 }
-PRUint8
+uint8_t
 line
 =
 textReset
@@ -11286,7 +11286,7 @@ NS_STYLE_TEXT_DECORATION_LINE_PREF_ANCHORS
 NS_STYLE_TEXT_DECORATION_LINE_OVERRIDE_ALL
 )
 ;
-PRUint8
+uint8_t
 blink
 =
 textReset
@@ -11475,7 +11475,7 @@ GetROCSSPrimitiveValue
 (
 )
 ;
-PRInt32
+int32_t
 intValue
 =
 GetStyleTextReset
@@ -13551,7 +13551,7 @@ GetROCSSPrimitiveValue
 (
 )
 ;
-PRUint8
+uint8_t
 computedAlignSelf
 =
 GetStylePosition
@@ -15486,7 +15486,7 @@ AssertFlushedPendingReflows
 (
 )
 ;
-PRUint8
+uint8_t
 position
 =
 display
@@ -15944,7 +15944,7 @@ GetStylePosition
 (
 )
 ;
-PRInt32
+int32_t
 sign
 =
 1
@@ -16847,7 +16847,7 @@ aClampNegativeCalc
 PercentageBaseGetter
 aPercentageBaseGetter
 const
-PRInt32
+int32_t
 aTable
 [
 ]
@@ -18146,7 +18146,7 @@ true
 ;
 for
 (
-PRUint32
+uint32_t
 i
 =
 0
@@ -19272,7 +19272,7 @@ explicit
 "
 )
 ;
-PRUint32
+uint32_t
 i
 =
 0
@@ -19391,7 +19391,7 @@ explicit
 "
 )
 ;
-PRUint32
+uint32_t
 i
 =
 0
@@ -19510,7 +19510,7 @@ explicit
 "
 )
 ;
-PRUint32
+uint32_t
 i
 =
 0
@@ -19907,7 +19907,7 @@ explicit
 "
 )
 ;
-PRUint32
+uint32_t
 i
 =
 0
@@ -19991,7 +19991,7 @@ explicit
 "
 )
 ;
-PRUint32
+uint32_t
 i
 =
 0
@@ -20147,7 +20147,7 @@ explicit
 "
 )
 ;
-PRUint32
+uint32_t
 i
 =
 0
@@ -20266,7 +20266,7 @@ explicit
 "
 )
 ;
-PRUint32
+uint32_t
 i
 =
 0
@@ -20385,7 +20385,7 @@ explicit
 "
 )
 ;
-PRUint32
+uint32_t
 i
 =
 0
@@ -20469,7 +20469,7 @@ explicit
 "
 )
 ;
-PRUint32
+uint32_t
 i
 =
 0
@@ -20590,7 +20590,7 @@ explicit
 "
 )
 ;
-PRUint32
+uint32_t
 i
 =
 0
@@ -20711,7 +20711,7 @@ explicit
 "
 )
 ;
-PRUint32
+uint32_t
 i
 =
 0
@@ -20860,7 +20860,7 @@ explicit
 "
 )
 ;
-PRUint32
+uint32_t
 i
 =
 0
@@ -20994,7 +20994,7 @@ nsComputedDOMStyle
 :
 GetQueryablePropertyMap
 (
-PRUint32
+uint32_t
 *
 aLength
 )

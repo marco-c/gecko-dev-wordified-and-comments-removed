@@ -320,10 +320,10 @@ kDiaeresis
 }
 ;
 static
-PRUint32
+uint32_t
 GreekUpperCase
 (
-PRUint32
+uint32_t
 aCh
 GreekCasingState
 *
@@ -589,7 +589,7 @@ aState
 kAlphaAcc
 ;
 return
-PRUint32
+uint32_t
 (
 -
 1
@@ -604,7 +604,7 @@ aState
 kEpsilonAcc
 ;
 return
-PRUint32
+uint32_t
 (
 -
 1
@@ -619,7 +619,7 @@ aState
 kEtaAcc
 ;
 return
-PRUint32
+uint32_t
 (
 -
 1
@@ -634,7 +634,7 @@ aState
 kIotaAcc
 ;
 return
-PRUint32
+uint32_t
 (
 -
 1
@@ -649,7 +649,7 @@ aState
 kOmicronAcc
 ;
 return
-PRUint32
+uint32_t
 (
 -
 1
@@ -664,7 +664,7 @@ aState
 kUpsilonAcc
 ;
 return
-PRUint32
+uint32_t
 (
 -
 1
@@ -679,7 +679,7 @@ aState
 kStart
 ;
 return
-PRUint32
+uint32_t
 (
 -
 1
@@ -694,7 +694,7 @@ aState
 kOmegaAcc
 ;
 return
-PRUint32
+uint32_t
 (
 -
 1
@@ -709,7 +709,7 @@ aState
 kStart
 ;
 return
-PRUint32
+uint32_t
 (
 -
 1
@@ -959,10 +959,10 @@ const
 PRUnichar
 *
 aString
-PRUint32
+uint32_t
 aLength
 const
-PRUint32
+uint32_t
 aFlags
 nsStyleContext
 *
@@ -1047,9 +1047,9 @@ nsTransformedTextRun
 :
 SetCapitalization
 (
-PRUint32
+uint32_t
 aStart
-PRUint32
+uint32_t
 aLength
 bool
 *
@@ -1130,11 +1130,11 @@ nsTransformedTextRun
 :
 SetPotentialLineBreaks
 (
-PRUint32
+uint32_t
 aStart
-PRUint32
+uint32_t
 aLength
-PRUint8
+uint8_t
 *
 aBreakBefore
 gfxContext
@@ -1262,7 +1262,7 @@ const
 PRUnichar
 *
 aString
-PRUint32
+uint32_t
 aLength
 const
 gfxTextRunFactory
@@ -1274,7 +1274,7 @@ aParams
 gfxFontGroup
 *
 aFontGroup
-PRUint32
+uint32_t
 aFlags
 nsStyleContext
 *
@@ -1309,10 +1309,10 @@ nsTransformingTextRunFactory
 MakeTextRun
 (
 const
-PRUint8
+uint8_t
 *
 aString
-PRUint32
+uint32_t
 aLength
 const
 gfxTextRunFactory
@@ -1324,7 +1324,7 @@ aParams
 gfxFontGroup
 *
 aFontGroup
-PRUint32
+uint32_t
 aFlags
 nsStyleContext
 *
@@ -1422,7 +1422,7 @@ GetLength
 )
 )
 ;
-PRUint32
+uint32_t
 offset
 =
 0
@@ -1493,7 +1493,7 @@ anyMissing
 =
 false
 ;
-PRUint32
+uint32_t
 mergeRunStart
 =
 iter
@@ -1528,7 +1528,7 @@ srcGlyphs
 mergeRunStart
 ]
 ;
-PRUint32
+uint32_t
 stringEnd
 =
 iter
@@ -1539,7 +1539,7 @@ GetStringEnd
 ;
 for
 (
-PRUint32
+uint32_t
 k
 =
 iter
@@ -1930,7 +1930,7 @@ GetParametersForInner
 nsTransformedTextRun
 *
 aTextRun
-PRUint32
+uint32_t
 *
 aFlags
 gfxContext
@@ -2045,7 +2045,7 @@ smallFont
 )
 return
 ;
-PRUint32
+uint32_t
 flags
 ;
 gfxTextRunFactory
@@ -2062,7 +2062,7 @@ flags
 aRefContext
 )
 ;
-PRUint32
+uint32_t
 length
 =
 aTextRun
@@ -2146,7 +2146,7 @@ ResetGlyphRuns
 (
 )
 ;
-PRUint32
+uint32_t
 runStart
 =
 0
@@ -2161,7 +2161,7 @@ styleArray
 ;
 nsAutoTArray
 <
-PRUint8
+uint8_t
 50
 >
 canBreakBeforeArray
@@ -2181,7 +2181,7 @@ kUpperOrCaseless
 ;
 for
 (
-PRUint32
+uint32_t
 i
 =
 0
@@ -2254,7 +2254,7 @@ variant
 NS_STYLE_FONT_VARIANT_SMALL_CAPS
 )
 {
-PRUint32
+uint32_t
 ch
 =
 str
@@ -2302,7 +2302,7 @@ i
 )
 ;
 }
-PRUint32
+uint32_t
 ch2
 =
 ToUpperCase
@@ -2676,7 +2676,7 @@ gfxContext
 aRefContext
 )
 {
-PRUint32
+uint32_t
 length
 =
 aTextRun
@@ -2743,7 +2743,7 @@ styleArray
 ;
 nsAutoTArray
 <
-PRUint8
+uint8_t
 50
 >
 canBreakBeforeArray
@@ -2781,10 +2781,10 @@ prevIsLetter
 =
 false
 ;
-PRUint32
+uint32_t
 sigmaIndex
 =
-PRUint32
+uint32_t
 (
 -
 1
@@ -2801,7 +2801,7 @@ greekState
 =
 kStart
 ;
-PRUint32
+uint32_t
 i
 ;
 for
@@ -2819,7 +2819,7 @@ length
 i
 )
 {
-PRUint32
+uint32_t
 ch
 =
 str
@@ -2836,7 +2836,7 @@ styles
 i
 ]
 ;
-PRUint8
+uint8_t
 style
 =
 mAllUppercase
@@ -3071,7 +3071,7 @@ true
 ;
 sigmaIndex
 =
-PRUint32
+uint32_t
 (
 -
 1
@@ -3100,7 +3100,7 @@ true
 ;
 sigmaIndex
 =
-PRUint32
+uint32_t
 (
 -
 1
@@ -3128,7 +3128,7 @@ if
 sigmaIndex
 !
 =
-PRUint32
+uint32_t
 (
 -
 1
@@ -3190,7 +3190,7 @@ GREEK_SMALL_LETTER_SIGMA
 ;
 sigmaIndex
 =
-PRUint32
+uint32_t
 (
 -
 1
@@ -3229,7 +3229,7 @@ kLetter
 ;
 sigmaIndex
 =
-PRUint32
+uint32_t
 (
 -
 1
@@ -3656,7 +3656,7 @@ if
 ch
 =
 =
-PRUint32
+uint32_t
 (
 -
 1
@@ -3802,7 +3802,7 @@ false
 }
 }
 }
-PRUint32
+uint32_t
 flags
 ;
 gfxTextRunFactory

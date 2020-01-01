@@ -295,7 +295,7 @@ prevAngle
 ;
 for
 (
-PRUint32
+uint32_t
 i
 =
 0
@@ -497,7 +497,7 @@ points
 ;
 for
 (
-PRUint32
+uint32_t
 i
 =
 1

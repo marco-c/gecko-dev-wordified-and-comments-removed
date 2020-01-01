@@ -3177,7 +3177,7 @@ chrome
 HWND
 hwndDialog
 ;
-PRUint32
+uint32_t
 chromeFlags
 ;
 chrome
@@ -3868,9 +3868,9 @@ UpdateProgress
 nsIWebBrowserChrome
 *
 aChrome
-PRInt32
+int32_t
 aCurrent
-PRInt32
+int32_t
 aMax
 )
 {
@@ -3953,7 +3953,7 @@ ShowContextMenu
 nsIWebBrowserChrome
 *
 aChrome
-PRUint32
+uint32_t
 aContextFlags
 nsIDOMEvent
 *
@@ -3973,9 +3973,9 @@ ShowTooltip
 nsIWebBrowserChrome
 *
 aChrome
-PRInt32
+int32_t
 aXCoords
-PRInt32
+int32_t
 aYCoords
 const
 PRUnichar
@@ -4039,9 +4039,9 @@ SizeTo
 nsIWebBrowserChrome
 *
 aChrome
-PRInt32
+int32_t
 aWidth
-PRInt32
+int32_t
 aHeight
 )
 {
@@ -4083,7 +4083,7 @@ hbrowser
 browserRect
 )
 ;
-PRInt32
+int32_t
 decoration_x
 =
 (
@@ -4106,7 +4106,7 @@ browserRect
 right
 )
 ;
-PRInt32
+int32_t
 decoration_y
 =
 (
@@ -4156,7 +4156,7 @@ WebBrowserChromeUI
 :
 GetResourceStringById
 (
-PRInt32
+int32_t
 aID
 char
 *
@@ -4248,7 +4248,7 @@ AppCallbacks
 :
 CreateBrowserWindow
 (
-PRUint32
+uint32_t
 aChromeFlags
 nsIWebBrowserChrome
 *
@@ -4416,7 +4416,7 @@ FALSE
 )
 ;
 }
-PRUint32
+uint32_t
 AppCallbacks
 :
 :
@@ -4524,7 +4524,7 @@ hFakeEvent
 ;
 return
 (
-PRUint32
+uint32_t
 )
 msg
 .

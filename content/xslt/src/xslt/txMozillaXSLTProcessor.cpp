@@ -508,7 +508,7 @@ const
 nsSubstring
 &
 aName
-PRInt32
+int32_t
 aNsID
 txAXMLEventHandler
 *
@@ -862,7 +862,7 @@ const
 nsSubstring
 &
 aName
-PRInt32
+int32_t
 aNsID
 txAXMLEventHandler
 *
@@ -1488,7 +1488,7 @@ resolveNamespacePrefix
 nsIAtom
 *
 aPrefix
-PRInt32
+int32_t
 &
 aID
 )
@@ -1520,7 +1520,7 @@ resolveFunctionCall
 nsIAtom
 *
 aName
-PRInt32
+int32_t
 aID
 FunctionCall
 *
@@ -1544,7 +1544,7 @@ false
 void
 SetErrorOffset
 (
-PRUint32
+uint32_t
 aOffset
 )
 {
@@ -1552,7 +1552,7 @@ aOffset
 nsresult
 getVariable
 (
-PRInt32
+int32_t
 aNamespace
 nsIAtom
 *
@@ -1627,7 +1627,7 @@ return
 mContext
 ;
 }
-PRUint32
+uint32_t
 size
 (
 )
@@ -1636,7 +1636,7 @@ return
 1
 ;
 }
-PRUint32
+uint32_t
 position
 (
 )
@@ -1873,7 +1873,7 @@ do_GetAtom
 aName
 )
 ;
-PRInt32
+int32_t
 nsId
 =
 kNameSpaceID_Unknown
@@ -2888,7 +2888,7 @@ value
 =
 aValue
 ;
-PRUint16
+uint16_t
 dataType
 ;
 value
@@ -3193,7 +3193,7 @@ nsIDOMNode
 >
 node
 ;
-PRInt32
+int32_t
 i
 count
 =
@@ -3354,7 +3354,7 @@ if
 nodeList
 )
 {
-PRUint32
+uint32_t
 length
 ;
 nodeList
@@ -3372,7 +3372,7 @@ nsIDOMNode
 >
 node
 ;
-PRUint32
+uint32_t
 i
 ;
 for
@@ -3452,13 +3452,13 @@ nsIDataType
 VTYPE_ARRAY
 :
 {
-PRUint16
+uint16_t
 type
 ;
 nsIID
 iid
 ;
-PRUint32
+uint32_t
 count
 ;
 void
@@ -3536,7 +3536,7 @@ nsISupports
 array
 )
 ;
-PRUint32
+uint32_t
 i
 ;
 for
@@ -3666,7 +3666,7 @@ NS_ERROR_FAILURE
 ;
 }
 }
-PRInt32
+int32_t
 nsId
 =
 kNameSpaceID_Unknown
@@ -3791,7 +3791,7 @@ nsIVariant
 aResult
 )
 {
-PRInt32
+int32_t
 nsId
 =
 kNameSpaceID_Unknown
@@ -3890,7 +3890,7 @@ nsAString
 aLocalName
 )
 {
-PRInt32
+int32_t
 nsId
 =
 kNameSpaceID_Unknown
@@ -4019,7 +4019,7 @@ txMozillaXSLTProcessor
 :
 SetFlags
 (
-PRUint32
+uint32_t
 aFlags
 )
 {
@@ -4048,7 +4048,7 @@ txMozillaXSLTProcessor
 :
 GetFlags
 (
-PRUint32
+uint32_t
 *
 aFlags
 )
@@ -4945,12 +4945,12 @@ aDocument
 Element
 *
 aElement
-PRInt32
+int32_t
 aNameSpaceID
 nsIAtom
 *
 aAttribute
-PRInt32
+int32_t
 aModType
 )
 {
@@ -4974,7 +4974,7 @@ aContainer
 nsIContent
 *
 aFirstNewContent
-PRInt32
+int32_t
 )
 {
 mStylesheet
@@ -4997,7 +4997,7 @@ aContainer
 nsIContent
 *
 aChild
-PRInt32
+int32_t
 )
 {
 mStylesheet
@@ -5020,7 +5020,7 @@ aContainer
 nsIContent
 *
 aChild
-PRInt32
+int32_t
 aIndexInContainer
 nsIContent
 *
@@ -5047,7 +5047,7 @@ cx
 JSObject
 *
 obj
-PRUint32
+uint32_t
 argc
 jsval
 *
@@ -5248,7 +5248,7 @@ aResult
 =
 nullptr
 ;
-PRUint16
+uint16_t
 dataType
 ;
 aValue
@@ -5712,7 +5712,7 @@ return
 NS_ERROR_OUT_OF_MEMORY
 ;
 }
-PRUint32
+uint32_t
 length
 ;
 nodeList
@@ -5730,7 +5730,7 @@ nsIDOMNode
 >
 node
 ;
-PRUint32
+uint32_t
 i
 ;
 for
@@ -5936,13 +5936,13 @@ nsIDataType
 VTYPE_ARRAY
 :
 {
-PRUint16
+uint16_t
 type
 ;
 nsIID
 iid
 ;
-PRUint32
+uint32_t
 count
 ;
 void
@@ -6045,7 +6045,7 @@ return
 NS_ERROR_OUT_OF_MEMORY
 ;
 }
-PRUint32
+uint32_t
 i
 ;
 for

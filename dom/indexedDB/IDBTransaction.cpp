@@ -1109,7 +1109,7 @@ aName
 ;
 for
 (
-PRUint32
+uint32_t
 i
 =
 0
@@ -2245,7 +2245,7 @@ retval
 ;
 for
 (
-PRUint32
+uint32_t
 index
 =
 0
@@ -2548,7 +2548,7 @@ Info
 ;
 for
 (
-PRUint32
+uint32_t
 i
 =
 0
@@ -2636,7 +2636,7 @@ info
 }
 for
 (
-PRUint32
+uint32_t
 i
 =
 0
@@ -2882,7 +2882,7 @@ abort
 )
 for
 (
-PRUint32
+uint32_t
 i
 =
 0
@@ -2941,7 +2941,7 @@ get
 }
 for
 (
-PRUint32
+uint32_t
 i
 =
 0
@@ -3352,7 +3352,7 @@ arrayOfNames
 mObjectStoreNames
 ;
 }
-PRUint32
+uint32_t
 count
 =
 arrayOfNames
@@ -3364,7 +3364,7 @@ Length
 ;
 for
 (
-PRUint32
+uint32_t
 index
 =
 0
@@ -3788,7 +3788,7 @@ mUpdateFileRefcountFunction
 ;
 for
 (
-PRUint32
+uint32_t
 i
 =
 0
@@ -4477,7 +4477,7 @@ rv
 ;
 for
 (
-PRUint32
+uint32_t
 i
 =
 0
@@ -4645,7 +4645,7 @@ CommitAutoIncrementCounts
 {
 for
 (
-PRUint32
+uint32_t
 i
 =
 0
@@ -4699,7 +4699,7 @@ RevertAutoIncrementCounts
 {
 for
 (
-PRUint32
+uint32_t
 i
 =
 0
@@ -4786,7 +4786,7 @@ _retval
 =
 nullptr
 ;
-PRUint32
+uint32_t
 numEntries
 ;
 nsresult
@@ -4824,7 +4824,7 @@ arguments
 #
 ifdef
 DEBUG
-PRInt32
+int32_t
 type1
 =
 mozIStorageValueArray
@@ -4842,7 +4842,7 @@ GetTypeOfIndex
 type1
 )
 ;
-PRInt32
+int32_t
 type2
 =
 mozIStorageValueArray
@@ -4936,13 +4936,13 @@ ProcessValue
 mozIStorageValueArray
 *
 aValues
-PRInt32
+int32_t
 aIndex
 UpdateType
 aUpdateType
 )
 {
-PRInt32
+int32_t
 type
 ;
 aValues
@@ -4984,7 +4984,7 @@ ids
 ;
 nsTArray
 <
-PRInt64
+int64_t
 >
 fileIds
 ;
@@ -5008,7 +5008,7 @@ rv
 ;
 for
 (
-PRUint32
+uint32_t
 i
 =
 0
@@ -5026,7 +5026,7 @@ i
 +
 )
 {
-PRInt64
+int64_t
 id
 =
 fileIds
@@ -5164,7 +5164,7 @@ UpdateRefcountFunction
 DatabaseUpdateCallback
 (
 const
-PRUint64
+uint64_t
 &
 aKey
 FileInfoEntry
@@ -5232,7 +5232,7 @@ UpdateRefcountFunction
 FileInfoUpdateCallback
 (
 const
-PRUint64
+uint64_t
 &
 aKey
 FileInfoEntry
@@ -5279,9 +5279,9 @@ DatabaseUpdateFunction
 :
 Update
 (
-PRInt64
+int64_t
 aId
-PRInt32
+int32_t
 aDelta
 )
 {
@@ -5323,9 +5323,9 @@ DatabaseUpdateFunction
 :
 UpdateInternal
 (
-PRInt64
+int64_t
 aId
-PRInt32
+int32_t
 aDelta
 )
 {
@@ -5442,7 +5442,7 @@ rv
 rv
 )
 ;
-PRInt32
+int32_t
 rows
 ;
 rv

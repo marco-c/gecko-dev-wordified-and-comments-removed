@@ -628,7 +628,7 @@ const
 nsIAtom
 *
 aAttribute
-PRInt32
+int32_t
 aModType
 )
 const
@@ -990,7 +990,7 @@ nsSVGGraphicElement
 :
 GetAnimatedTransformList
 (
-PRUint32
+uint32_t
 aFlags
 )
 {

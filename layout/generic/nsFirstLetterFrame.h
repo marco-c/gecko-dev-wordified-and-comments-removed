@@ -118,7 +118,7 @@ virtual
 bool
 IsFrameOfType
 (
-PRUint32
+uint32_t
 aFlags
 )
 const
@@ -219,7 +219,7 @@ nsSize
 aBorder
 nsSize
 aPadding
-PRUint32
+uint32_t
 aFlags
 )
 MOZ_OVERRIDE
@@ -259,11 +259,11 @@ const
 NS_IMETHOD
 GetChildFrameContainingOffset
 (
-PRInt32
+int32_t
 inContentOffset
 bool
 inHint
-PRInt32
+int32_t
 *
 outFrameContentOffset
 nsIFrame

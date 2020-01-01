@@ -629,10 +629,10 @@ nsIOutputStream
 >
 mStream
 ;
-PRInt64
+int64_t
 mSelfProgress
 ;
-PRInt64
+int64_t
 mSelfProgressMax
 ;
 bool
@@ -702,10 +702,10 @@ nsIURI
 >
 mFile
 ;
-PRInt64
+int64_t
 mSelfProgress
 ;
-PRInt64
+int64_t
 mSelfProgressMax
 ;
 UploadData
@@ -746,13 +746,13 @@ mIsDirectory
 }
 ;
 const
-PRUint32
+uint32_t
 kDefaultMaxFilenameLength
 =
 64
 ;
 const
-PRUint32
+uint32_t
 kDefaultPersistFlags
 =
 nsIWebBrowserPersist
@@ -1039,7 +1039,7 @@ nsWebBrowserPersist
 :
 GetPersistFlags
 (
-PRUint32
+uint32_t
 *
 aPersistFlags
 )
@@ -1064,7 +1064,7 @@ nsWebBrowserPersist
 :
 SetPersistFlags
 (
-PRUint32
+uint32_t
 aPersistFlags
 )
 {
@@ -1106,7 +1106,7 @@ nsWebBrowserPersist
 :
 GetCurrentState
 (
-PRUint32
+uint32_t
 *
 aCurrentState
 )
@@ -1446,9 +1446,9 @@ const
 char
 *
 aOutputContentType
-PRUint32
+uint32_t
 aEncodingFlags
-PRUint32
+uint32_t
 aWrapColumn
 )
 {
@@ -2075,7 +2075,7 @@ rv
 =
 NS_OK
 ;
-PRUint32
+uint32_t
 urisToPersist
 =
 0
@@ -2129,7 +2129,7 @@ Count
 0
 )
 {
-PRUint32
+uint32_t
 addToStateFlags
 =
 0
@@ -2336,7 +2336,7 @@ if
 mProgressListener
 )
 {
-PRUint32
+uint32_t
 stateFlags
 =
 nsIWebProgressListener
@@ -2978,7 +2978,7 @@ if
 mProgressListener
 )
 {
-PRUint32
+uint32_t
 stateFlags
 =
 nsIWebProgressListener
@@ -3054,9 +3054,9 @@ aContext
 nsIInputStream
 *
 aIStream
-PRUint32
+uint32_t
 aOffset
-PRUint32
+uint32_t
 aLength
 )
 {
@@ -3076,7 +3076,7 @@ rv
 =
 NS_OK
 ;
-PRUint32
+uint32_t
 bytesRemaining
 =
 aLength
@@ -3137,7 +3137,7 @@ if
 data
 )
 {
-PRUint32
+uint32_t
 n
 ;
 return
@@ -3209,7 +3209,7 @@ buffer
 8192
 ]
 ;
-PRUint32
+uint32_t
 bytesRead
 ;
 while
@@ -3235,7 +3235,7 @@ Read
 buffer
 NS_MIN
 (
-PRUint32
+uint32_t
 (
 sizeof
 (
@@ -3278,7 +3278,7 @@ rv
 bytesRead
 )
 {
-PRUint32
+uint32_t
 bytesWritten
 =
 0
@@ -3355,7 +3355,7 @@ true
 ;
 }
 }
-PRInt32
+int32_t
 channelContentLength
 =
 -
@@ -3563,9 +3563,9 @@ request
 nsISupports
 *
 ctxt
-PRUint64
+uint64_t
 aProgress
-PRUint64
+uint64_t
 aProgressMax
 )
 {
@@ -3622,7 +3622,7 @@ data
 >
 mSelfProgress
 =
-PRInt64
+int64_t
 (
 aProgress
 )
@@ -3632,7 +3632,7 @@ data
 >
 mSelfProgressMax
 =
-PRInt64
+int64_t
 (
 aProgressMax
 )
@@ -3666,7 +3666,7 @@ upData
 >
 mSelfProgress
 =
-PRInt64
+int64_t
 (
 aProgress
 )
@@ -3676,7 +3676,7 @@ upData
 >
 mSelfProgressMax
 =
-PRInt64
+int64_t
 (
 aProgressMax
 )
@@ -3715,11 +3715,11 @@ OnProgressChange
 (
 nullptr
 request
-PRUint64
+uint64_t
 (
 aProgress
 )
-PRUint64
+uint64_t
 (
 aProgressMax
 )
@@ -4375,7 +4375,7 @@ rv
 NS_ERROR_FAILURE
 )
 ;
-PRInt32
+int32_t
 len
 =
 newPath
@@ -4880,12 +4880,12 @@ headerName
 nsCAutoString
 headerValue
 ;
-PRInt32
+int32_t
 crlf
 =
 0
 ;
-PRInt32
+int32_t
 colon
 =
 0
@@ -5849,7 +5849,7 @@ oldCurrentRelativePathToData
 =
 mCurrentRelativePathToData
 ;
-PRUint32
+uint32_t
 oldThingsToPersist
 =
 mCurrentThingsToPersist
@@ -6507,7 +6507,7 @@ mStartSaving
 =
 true
 ;
-PRUint32
+uint32_t
 i
 ;
 for
@@ -6784,7 +6784,7 @@ Reset
 (
 )
 ;
-PRUint32
+uint32_t
 i
 ;
 for
@@ -6900,7 +6900,7 @@ pass
 +
 )
 {
-PRUint32
+uint32_t
 i
 ;
 for
@@ -7035,7 +7035,7 @@ nsISimpleEnumerator
 >
 dirStack
 ;
-PRInt32
+int32_t
 stackSize
 =
 0
@@ -7376,7 +7376,7 @@ rv
 NS_ERROR_FAILURE
 )
 ;
-PRInt32
+int32_t
 lastDot
 =
 filename
@@ -7434,7 +7434,7 @@ base
 filename
 ;
 }
-PRInt32
+int32_t
 needToChop
 =
 filename
@@ -7461,7 +7461,7 @@ Length
 )
 >
 (
-PRUint32
+uint32_t
 )
 needToChop
 )
@@ -7509,7 +7509,7 @@ Length
 )
 >
 (
-PRUint32
+uint32_t
 )
 needToChop
 )
@@ -7581,7 +7581,7 @@ tmpPath
 nsCAutoString
 tmpBase
 ;
-PRUint32
+uint32_t
 duplicateCounter
 =
 1
@@ -7989,7 +7989,7 @@ NS_UnescapeURL
 nameFromURL
 )
 ;
-PRUint32
+uint32_t
 nameLength
 =
 0
@@ -8345,7 +8345,7 @@ hasExtension
 =
 false
 ;
-PRInt32
+int32_t
 ext
 =
 newFileName
@@ -8469,7 +8469,7 @@ IsEmpty
 )
 )
 {
-PRUint32
+uint32_t
 newLength
 =
 newFileName
@@ -8687,7 +8687,7 @@ rv
 NS_ERROR_FAILURE
 )
 ;
-PRInt32
+int32_t
 ioFlags
 =
 -
@@ -8814,15 +8814,15 @@ nsIOutputStream
 aOutputStream
 )
 {
-PRUint32
+uint32_t
 segsize
 =
 8192
 ;
-PRUint32
+uint32_t
 maxsize
 =
-PRUint32
+uint32_t
 (
 -
 1
@@ -9521,12 +9521,12 @@ URIData
 )
 aData
 ;
-PRUint32
+uint32_t
 *
 count
 =
 (
-PRUint32
+uint32_t
 *
 )
 closure
@@ -14844,7 +14844,7 @@ const
 nsCString
 &
 aSaveCharset
-PRUint32
+uint32_t
 aFlags
 )
 {
@@ -15582,7 +15582,7 @@ tmp
 ;
 for
 (
-PRUint32
+uint32_t
 i
 =
 0
@@ -15662,7 +15662,7 @@ if
 list
 )
 {
-PRUint32
+uint32_t
 count
 ;
 list
@@ -15674,7 +15674,7 @@ GetLength
 count
 )
 ;
-PRUint32
+uint32_t
 i
 ;
 for
@@ -15717,7 +15717,7 @@ node
 )
 break
 ;
-PRUint16
+uint16_t
 nodeType
 ;
 node
@@ -16597,7 +16597,7 @@ aOutNode
 =
 nullptr
 ;
-PRUint16
+uint16_t
 type
 =
 0

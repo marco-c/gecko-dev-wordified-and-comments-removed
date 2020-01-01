@@ -412,12 +412,12 @@ aCursor
 NS_IMETHOD
 AttributeChanged
 (
-PRInt32
+int32_t
 aNameSpaceID
 nsIAtom
 *
 aAttribute
-PRInt32
+int32_t
 aModType
 )
 ;
@@ -447,7 +447,7 @@ virtual
 bool
 IsFrameOfType
 (
-PRUint32
+uint32_t
 aFlags
 )
 const
@@ -488,7 +488,7 @@ List
 FILE
 *
 out
-PRInt32
+int32_t
 aIndent
 )
 const
@@ -714,7 +714,7 @@ nsSize
 aBorder
 nsSize
 aPadding
-PRUint32
+uint32_t
 aFlags
 )
 MOZ_OVERRIDE
@@ -759,11 +759,11 @@ const
 PRUnichar
 *
 aString
-PRInt32
+int32_t
 aLength
 nscoord
 aMaxWidth
-PRUint32
+uint32_t
 &
 aMaxFit
 nsRenderingContext
@@ -805,7 +805,7 @@ aDirtyRect
 imgIContainer
 *
 aImage
-PRUint32
+uint32_t
 aFlags
 )
 ;

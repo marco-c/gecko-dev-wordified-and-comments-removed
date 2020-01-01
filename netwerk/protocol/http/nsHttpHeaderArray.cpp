@@ -34,7 +34,7 @@ entry
 =
 nullptr
 ;
-PRInt32
+int32_t
 index
 ;
 index
@@ -166,7 +166,7 @@ entry
 =
 nullptr
 ;
-PRInt32
+int32_t
 index
 ;
 index
@@ -464,7 +464,7 @@ NS_ENSURE_ARG_POINTER
 visitor
 )
 ;
-PRUint32
+uint32_t
 i
 count
 =
@@ -750,7 +750,7 @@ bool
 pruneProxyHeaders
 )
 {
-PRUint32
+uint32_t
 i
 count
 =
@@ -868,7 +868,7 @@ nsHttpHeaderArray
 :
 PeekHeaderAt
 (
-PRUint32
+uint32_t
 index
 nsHttpAtom
 &

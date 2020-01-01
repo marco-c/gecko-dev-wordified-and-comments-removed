@@ -307,7 +307,7 @@ const
 nsAString
 &
 aData
-PRUint32
+uint32_t
 aFormatVersion
 JSContext
 *
@@ -580,7 +580,7 @@ nsStructuredCloneContainer
 :
 GetSerializedNBytes
 (
-PRUint64
+uint64_t
 *
 aSize
 )
@@ -610,7 +610,7 @@ nsStructuredCloneContainer
 :
 GetFormatVersion
 (
-PRUint32
+uint32_t
 *
 aFormatVersion
 )

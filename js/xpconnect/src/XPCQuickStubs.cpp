@@ -195,7 +195,7 @@ xpc_qsHashEntry
 *
 LookupEntry
 (
-PRUint32
+uint32_t
 tableSize
 const
 xpc_qsHashEntry
@@ -272,7 +272,7 @@ xpc_qsHashEntry
 *
 LookupInterfaceOrAncestor
 (
-PRUint32
+uint32_t
 tableSize
 const
 xpc_qsHashEntry
@@ -1350,14 +1350,14 @@ JSObject
 proto
 unsigned
 flags
-PRUint32
+uint32_t
 ifacec
 const
 nsIID
 *
 *
 interfaces
-PRUint32
+uint32_t
 tableSize
 const
 xpc_qsHashEntry

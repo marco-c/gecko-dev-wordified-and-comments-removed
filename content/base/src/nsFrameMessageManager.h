@@ -410,7 +410,7 @@ nsFrameMessageManager
 {
 for
 (
-PRInt32
+int32_t
 i
 =
 mChildManagers
@@ -1005,7 +1005,7 @@ JSContext
 *
 mCx
 ;
-PRUint32
+uint32_t
 mCxStackRefCnt
 ;
 bool

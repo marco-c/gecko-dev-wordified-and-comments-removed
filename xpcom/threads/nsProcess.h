@@ -186,7 +186,7 @@ char
 *
 *
 args
-PRUint32
+uint32_t
 count
 nsIObserver
 *
@@ -205,7 +205,7 @@ PRUnichar
 *
 *
 args
-PRUint32
+uint32_t
 count
 nsIObserver
 *
@@ -257,7 +257,7 @@ mExecutable
 nsString
 mTargetPath
 ;
-PRInt32
+int32_t
 mPid
 ;
 nsCOMPtr
@@ -269,7 +269,7 @@ mObserver
 nsWeakPtr
 mWeakObserver
 ;
-PRInt32
+int32_t
 mExitValue
 ;
 #

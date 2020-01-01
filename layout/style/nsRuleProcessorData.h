@@ -329,7 +329,7 @@ mFilter
 ;
 nsTArray
 <
-PRUint32
+uint32_t
 >
 mPopTargets
 ;
@@ -1228,7 +1228,7 @@ aElement
 nsIAtom
 *
 aAttribute
-PRInt32
+int32_t
 aModType
 bool
 aAttrHasChanged
@@ -1285,7 +1285,7 @@ nsIAtom
 *
 mAttribute
 ;
-PRInt32
+int32_t
 mModType
 ;
 bool

@@ -48,7 +48,7 @@ public
 :
 nsTreeSanitizer
 (
-PRUint32
+uint32_t
 aFlags
 =
 0
@@ -116,7 +116,7 @@ aRoot
 bool
 MustFlatten
 (
-PRInt32
+int32_t
 aNamespace
 nsIAtom
 *
@@ -126,7 +126,7 @@ aLocal
 bool
 MustPrune
 (
-PRInt32
+int32_t
 aNamespace
 nsIAtom
 *
@@ -198,7 +198,7 @@ dom
 Element
 *
 aElement
-PRInt32
+int32_t
 aNamespace
 nsIAtom
 *

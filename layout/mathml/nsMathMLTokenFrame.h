@@ -152,12 +152,12 @@ MarkIntrinsicWidthsDirty
 NS_IMETHOD
 AttributeChanged
 (
-PRInt32
+int32_t
 aNameSpaceID
 nsIAtom
 *
 aAttribute
-PRInt32
+int32_t
 aModType
 )
 ;
@@ -165,7 +165,7 @@ virtual
 nsresult
 ChildListChanged
 (
-PRInt32
+int32_t
 aModType
 )
 {

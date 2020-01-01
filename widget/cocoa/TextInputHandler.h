@@ -571,7 +571,7 @@ aInsertString
 nullptr
 )
 ;
-PRUint32
+uint32_t
 ComputeGeckoKeyCode
 (
 UInt32
@@ -598,7 +598,7 @@ nsAString
 aStr
 )
 ;
-PRUint32
+uint32_t
 TranslateToChar
 (
 UInt32
@@ -665,7 +665,7 @@ UCKeyboardLayout
 *
 mUCKeyboardLayout
 ;
-PRInt8
+int8_t
 mIsRTL
 ;
 bool
@@ -685,7 +685,7 @@ AddRef
 {
 NS_PRECONDITION
 (
-PRInt32
+int32_t
 (
 mRefCnt
 )
@@ -804,11 +804,11 @@ nullptr
 nsresult
 SynthesizeNativeKeyEvent
 (
-PRInt32
+int32_t
 aNativeKeyboardLayout
-PRInt32
+int32_t
 aNativeKeyCode
-PRUint32
+uint32_t
 aModifierFlags
 const
 nsAString
@@ -1153,7 +1153,7 @@ NSEvent
 aNativeKeyEvent
 )
 {
-PRUint32
+uint32_t
 nestCount
 =
 mCurrentKeyEvents
@@ -1164,7 +1164,7 @@ Length
 ;
 for
 (
-PRUint32
+uint32_t
 i
 =
 0
@@ -1372,7 +1372,7 @@ private
 struct
 KeyboardLayoutOverride
 {
-PRInt32
+int32_t
 mKeyboardLayout
 ;
 bool
@@ -1843,7 +1843,7 @@ kSyncASCIICapableOnly
 4
 }
 ;
-PRUint32
+uint32_t
 mPendingMethods
 ;
 IMEInputHandler
@@ -1994,17 +1994,17 @@ void
 aClosure
 )
 ;
-PRUint32
+uint32_t
 ConvertToTextRangeType
 (
-PRUint32
+uint32_t
 aUnderlineStyle
 NSRange
 &
 aSelectedRange
 )
 ;
-PRUint32
+uint32_t
 GetRangeCount
 (
 NSAttributedString

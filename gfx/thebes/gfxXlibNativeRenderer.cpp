@@ -97,7 +97,7 @@ _convert_coord_to_int
 (
 double
 coord
-PRInt32
+int32_t
 *
 v
 )
@@ -106,7 +106,7 @@ v
 v
 =
 (
-PRInt32
+int32_t
 )
 coord
 ;
@@ -423,7 +423,7 @@ gfxContext
 ctx
 nsIntSize
 size
-PRUint32
+uint32_t
 flags
 Screen
 *
@@ -505,7 +505,7 @@ device_offset_y
 ;
 NS_ASSERTION
 (
-PRInt32
+int32_t
 (
 device_offset_x
 )
@@ -514,7 +514,7 @@ device_offset_x
 device_offset_x
 &
 &
-PRInt32
+int32_t
 (
 device_offset_y
 )
@@ -1126,7 +1126,7 @@ nsIntSize
 size
 bool
 canDrawOverBackground
-PRUint32
+uint32_t
 flags
 Screen
 *
@@ -1844,7 +1844,7 @@ gfxContext
 ctx
 nsIntSize
 size
-PRUint32
+uint32_t
 flags
 Screen
 *
@@ -2092,7 +2092,7 @@ RoundOut
 nsIntRect
 intExtents
 (
-PRInt32
+int32_t
 (
 clipExtents
 .
@@ -2100,7 +2100,7 @@ X
 (
 )
 )
-PRInt32
+int32_t
 (
 clipExtents
 .
@@ -2108,7 +2108,7 @@ Y
 (
 )
 )
-PRInt32
+int32_t
 (
 clipExtents
 .
@@ -2116,7 +2116,7 @@ Width
 (
 )
 )
-PRInt32
+int32_t
 (
 clipExtents
 .

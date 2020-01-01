@@ -215,7 +215,7 @@ prev
 )
 ;
 }
-PRUint32
+uint32_t
 DataLength
 (
 )
@@ -232,7 +232,7 @@ DataStart
 void
 SetDataLength
 (
-PRUint32
+uint32_t
 len
 )
 {
@@ -251,7 +251,7 @@ friend
 class
 nsScannerBufferList
 ;
-PRInt32
+int32_t
 mUsageCount
 ;
 PRUnichar
@@ -350,7 +350,7 @@ Buffer
 *
 AllocBuffer
 (
-PRUint32
+uint32_t
 capacity
 )
 ;
@@ -568,7 +568,7 @@ ReleaseAll
 (
 )
 ;
-PRInt32
+int32_t
 mRefCnt
 ;
 PRCList
@@ -623,7 +623,7 @@ Position
 Position
 ;
 typedef
-PRUint32
+uint32_t
 size_type
 ;
 nsScannerSubstring
@@ -673,7 +673,7 @@ return
 mLength
 ;
 }
-PRInt32
+int32_t
 CountChar
 (
 PRUnichar
@@ -1529,7 +1529,7 @@ difference_type
 difference_type
 ;
 static
-PRUint32
+uint32_t
 readable_distance
 (
 const
@@ -1543,7 +1543,7 @@ last
 )
 {
 return
-PRUint32
+uint32_t
 (
 SameFragment
 (

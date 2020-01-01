@@ -164,7 +164,7 @@ table
 PLDHashEntryHdr
 *
 heh
-PRUint32
+uint32_t
 i
 void
 *
@@ -451,7 +451,7 @@ const
 char
 *
 aPrefName
-PRInt32
+int32_t
 *
 _retval
 )
@@ -701,7 +701,7 @@ const
 char
 *
 aPrefName
-PRInt32
+int32_t
 *
 _retval
 )
@@ -740,7 +740,7 @@ const
 char
 *
 aPrefName
-PRInt32
+int32_t
 aValue
 )
 {
@@ -2380,7 +2380,7 @@ const
 char
 *
 aStartingAt
-PRUint32
+uint32_t
 *
 aCount
 char
@@ -2395,10 +2395,10 @@ char
 *
 outArray
 ;
-PRInt32
+int32_t
 numPrefs
 ;
-PRInt32
+int32_t
 dwIndex
 ;
 EnumerateData
@@ -2935,7 +2935,7 @@ return
 NS_OK
 ;
 }
-PRUint32
+uint32_t
 len
 =
 pCallback
@@ -3309,7 +3309,7 @@ table
 PLDHashEntryHdr
 *
 heh
-PRUint32
+uint32_t
 i
 void
 *
@@ -3548,7 +3548,7 @@ nsPrefLocalizedString
 :
 SetDataWithLength
 (
-PRUint32
+uint32_t
 aLength
 const
 PRUnichar

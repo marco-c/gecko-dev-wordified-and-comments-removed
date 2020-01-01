@@ -428,7 +428,7 @@ threads
 }
 for
 (
-PRUint32
+uint32_t
 i
 =
 0
@@ -731,9 +731,9 @@ nsThreadManager
 :
 NewThread
 (
-PRUint32
+uint32_t
 creationFlags
-PRUint32
+uint32_t
 stackSize
 nsIThread
 *

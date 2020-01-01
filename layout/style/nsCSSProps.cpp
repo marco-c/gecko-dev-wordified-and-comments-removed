@@ -161,7 +161,7 @@ namespace
 mozilla
 ;
 static
-PRInt32
+int32_t
 gTableRefCount
 ;
 static
@@ -230,7 +230,7 @@ PropertyAndCount
 nsCSSProperty
 property
 ;
-PRUint32
+uint32_t
 count
 ;
 }
@@ -524,7 +524,7 @@ DEBUG
 {
 for
 (
-PRInt32
+int32_t
 index
 =
 0
@@ -634,7 +634,7 @@ DEBUG
 {
 for
 (
-PRInt32
+int32_t
 index
 =
 0
@@ -914,7 +914,7 @@ BuildShorthandsContainingTable
 (
 )
 {
-PRUint32
+uint32_t
 occurrenceCounts
 [
 eCSSProperty_COUNT_no_shorthands
@@ -1074,7 +1074,7 @@ count
 ;
 }
 }
-PRUint32
+uint32_t
 poolEntries
 =
 0
@@ -1103,7 +1103,7 @@ longhand
 )
 )
 {
-PRUint32
+uint32_t
 count
 =
 occurrenceCounts
@@ -1184,7 +1184,7 @@ longhand
 )
 )
 {
-PRUint32
+uint32_t
 count
 =
 occurrenceCounts
@@ -1526,7 +1526,7 @@ eCSSProperty_UNKNOWN
 subprops
 )
 {
-PRUint32
+uint32_t
 count
 =
 0
@@ -1641,7 +1641,7 @@ eCSSProperty_UNKNOWN
 shorthands
 )
 {
-PRUint32
+uint32_t
 count
 =
 0
@@ -2166,7 +2166,7 @@ gPropertyTable
 >
 GetStringValue
 (
-PRInt32
+int32_t
 (
 aProperty
 )
@@ -2223,7 +2223,7 @@ gFontDescTable
 >
 GetStringValue
 (
-PRInt32
+int32_t
 (
 aFontDescID
 )
@@ -2337,7 +2337,7 @@ eCSSProperty_UNKNOWN
 ;
 }
 const
-PRInt32
+int32_t
 nsCSSProps
 :
 :
@@ -2360,7 +2360,7 @@ eCSSKeyword_UNKNOWN
 }
 ;
 const
-PRInt32
+int32_t
 nsCSSProps
 :
 :
@@ -2383,7 +2383,7 @@ eCSSKeyword_UNKNOWN
 }
 ;
 const
-PRInt32
+int32_t
 nsCSSProps
 :
 :
@@ -2400,7 +2400,7 @@ eCSSKeyword_UNKNOWN
 }
 ;
 const
-PRInt32
+int32_t
 nsCSSProps
 :
 :
@@ -2419,7 +2419,7 @@ eCSSKeyword_UNKNOWN
 }
 ;
 const
-PRInt32
+int32_t
 nsCSSProps
 :
 :
@@ -2652,7 +2652,7 @@ eCSSKeyword_UNKNOWN
 }
 ;
 const
-PRInt32
+int32_t
 nsCSSProps
 :
 :
@@ -2671,7 +2671,7 @@ eCSSKeyword_UNKNOWN
 }
 ;
 const
-PRInt32
+int32_t
 nsCSSProps
 :
 :
@@ -2690,7 +2690,7 @@ eCSSKeyword_UNKNOWN
 }
 ;
 const
-PRInt32
+int32_t
 nsCSSProps
 :
 :
@@ -2709,7 +2709,7 @@ eCSSKeyword_UNKNOWN
 }
 ;
 const
-PRInt32
+int32_t
 nsCSSProps
 :
 :
@@ -2763,7 +2763,7 @@ agree
 )
 ;
 const
-PRInt32
+int32_t
 nsCSSProps
 :
 :
@@ -2784,7 +2784,7 @@ eCSSKeyword_UNKNOWN
 }
 ;
 const
-PRInt32
+int32_t
 nsCSSProps
 :
 :
@@ -2809,7 +2809,7 @@ eCSSKeyword_UNKNOWN
 }
 ;
 const
-PRInt32
+int32_t
 nsCSSProps
 :
 :
@@ -2832,7 +2832,7 @@ eCSSKeyword_UNKNOWN
 }
 ;
 const
-PRInt32
+int32_t
 nsCSSProps
 :
 :
@@ -2851,7 +2851,7 @@ eCSSKeyword_UNKNOWN
 }
 ;
 const
-PRInt32
+int32_t
 nsCSSProps
 :
 :
@@ -2870,7 +2870,7 @@ eCSSKeyword_UNKNOWN
 }
 ;
 const
-PRInt32
+int32_t
 nsCSSProps
 :
 :
@@ -2889,7 +2889,7 @@ eCSSKeyword_UNKNOWN
 }
 ;
 const
-PRInt32
+int32_t
 nsCSSProps
 :
 :
@@ -2906,7 +2906,7 @@ eCSSKeyword_UNKNOWN
 }
 ;
 const
-PRInt32
+int32_t
 nsCSSProps
 :
 :
@@ -2927,7 +2927,7 @@ eCSSKeyword_UNKNOWN
 }
 ;
 const
-PRInt32
+int32_t
 nsCSSProps
 :
 :
@@ -2944,7 +2944,7 @@ eCSSKeyword_UNKNOWN
 }
 ;
 const
-PRInt32
+int32_t
 nsCSSProps
 :
 :
@@ -2979,7 +2979,7 @@ eCSSKeyword_UNKNOWN
 }
 ;
 const
-PRInt32
+int32_t
 nsCSSProps
 :
 :
@@ -3000,7 +3000,7 @@ eCSSKeyword_UNKNOWN
 }
 ;
 const
-PRInt32
+int32_t
 nsCSSProps
 :
 :
@@ -3019,7 +3019,7 @@ eCSSKeyword_UNKNOWN
 }
 ;
 const
-PRInt32
+int32_t
 nsCSSProps
 :
 :
@@ -3036,7 +3036,7 @@ eCSSKeyword_UNKNOWN
 }
 ;
 const
-PRInt32
+int32_t
 nsCSSProps
 :
 :
@@ -3057,7 +3057,7 @@ eCSSKeyword_UNKNOWN
 }
 ;
 const
-PRInt32
+int32_t
 nsCSSProps
 :
 :
@@ -3084,7 +3084,7 @@ eCSSKeyword_UNKNOWN
 }
 ;
 const
-PRInt32
+int32_t
 nsCSSProps
 :
 :
@@ -3107,7 +3107,7 @@ eCSSKeyword_UNKNOWN
 }
 ;
 const
-PRInt32
+int32_t
 nsCSSProps
 :
 :
@@ -3439,7 +3439,7 @@ eCSSKeyword_UNKNOWN
 }
 ;
 const
-PRInt32
+int32_t
 nsCSSProps
 :
 :
@@ -3464,7 +3464,7 @@ eCSSKeyword_UNKNOWN
 }
 ;
 const
-PRInt32
+int32_t
 nsCSSProps
 :
 :
@@ -3551,7 +3551,7 @@ eCSSKeyword_UNKNOWN
 }
 ;
 const
-PRInt32
+int32_t
 nsCSSProps
 :
 :
@@ -3570,7 +3570,7 @@ eCSSKeyword_UNKNOWN
 }
 ;
 const
-PRInt32
+int32_t
 nsCSSProps
 :
 :
@@ -3651,7 +3651,7 @@ eCSSKeyword_UNKNOWN
 }
 ;
 const
-PRInt32
+int32_t
 nsCSSProps
 :
 :
@@ -3675,7 +3675,7 @@ eCSSKeyword_UNKNOWN
 ifdef
 MOZ_FLEXBOX
 const
-PRInt32
+int32_t
 nsCSSProps
 :
 :
@@ -3700,7 +3700,7 @@ eCSSKeyword_UNKNOWN
 }
 ;
 const
-PRInt32
+int32_t
 nsCSSProps
 :
 :
@@ -3727,7 +3727,7 @@ eCSSKeyword_UNKNOWN
 }
 ;
 const
-PRInt32
+int32_t
 nsCSSProps
 :
 :
@@ -3750,7 +3750,7 @@ eCSSKeyword_UNKNOWN
 }
 ;
 const
-PRInt32
+int32_t
 nsCSSProps
 :
 :
@@ -3777,7 +3777,7 @@ eCSSKeyword_UNKNOWN
 #
 endif
 const
-PRInt32
+int32_t
 nsCSSProps
 :
 :
@@ -3798,7 +3798,7 @@ eCSSKeyword_UNKNOWN
 }
 ;
 const
-PRInt32
+int32_t
 nsCSSProps
 :
 :
@@ -3817,7 +3817,7 @@ eCSSKeyword_UNKNOWN
 }
 ;
 const
-PRInt32
+int32_t
 nsCSSProps
 :
 :
@@ -3864,7 +3864,7 @@ eCSSKeyword_UNKNOWN
 }
 ;
 const
-PRInt32
+int32_t
 nsCSSProps
 :
 :
@@ -3897,7 +3897,7 @@ eCSSKeyword_UNKNOWN
 }
 ;
 const
-PRInt32
+int32_t
 nsCSSProps
 :
 :
@@ -3930,7 +3930,7 @@ eCSSKeyword_UNKNOWN
 }
 ;
 const
-PRInt32
+int32_t
 nsCSSProps
 :
 :
@@ -3951,7 +3951,7 @@ eCSSKeyword_UNKNOWN
 }
 ;
 const
-PRInt32
+int32_t
 nsCSSProps
 :
 :
@@ -3970,7 +3970,7 @@ eCSSKeyword_UNKNOWN
 }
 ;
 const
-PRInt32
+int32_t
 nsCSSProps
 :
 :
@@ -3993,7 +3993,7 @@ eCSSKeyword_UNKNOWN
 }
 ;
 const
-PRInt32
+int32_t
 nsCSSProps
 :
 :
@@ -4018,7 +4018,7 @@ eCSSKeyword_UNKNOWN
 }
 ;
 const
-PRInt32
+int32_t
 nsCSSProps
 :
 :
@@ -4035,7 +4035,7 @@ eCSSKeyword_UNKNOWN
 }
 ;
 const
-PRInt32
+int32_t
 nsCSSProps
 :
 :
@@ -4054,7 +4054,7 @@ eCSSKeyword_UNKNOWN
 }
 ;
 const
-PRInt32
+int32_t
 nsCSSProps
 :
 :
@@ -4173,7 +4173,7 @@ eCSSKeyword_UNKNOWN
 }
 ;
 const
-PRInt32
+int32_t
 nsCSSProps
 :
 :
@@ -4192,7 +4192,7 @@ eCSSKeyword_UNKNOWN
 }
 ;
 const
-PRInt32
+int32_t
 nsCSSProps
 :
 :
@@ -4227,7 +4227,7 @@ eCSSKeyword_UNKNOWN
 }
 ;
 const
-PRInt32
+int32_t
 nsCSSProps
 :
 :
@@ -4244,7 +4244,7 @@ eCSSKeyword_UNKNOWN
 }
 ;
 const
-PRInt32
+int32_t
 nsCSSProps
 :
 :
@@ -4275,7 +4275,7 @@ eCSSKeyword_UNKNOWN
 }
 ;
 const
-PRInt32
+int32_t
 nsCSSProps
 :
 :
@@ -4300,7 +4300,7 @@ eCSSKeyword_UNKNOWN
 }
 ;
 const
-PRInt32
+int32_t
 nsCSSProps
 :
 :
@@ -4325,7 +4325,7 @@ eCSSKeyword_UNKNOWN
 }
 ;
 const
-PRInt32
+int32_t
 nsCSSProps
 :
 :
@@ -4344,7 +4344,7 @@ eCSSKeyword_UNKNOWN
 }
 ;
 const
-PRInt32
+int32_t
 nsCSSProps
 :
 :
@@ -4365,7 +4365,7 @@ eCSSKeyword_UNKNOWN
 }
 ;
 const
-PRInt32
+int32_t
 nsCSSProps
 :
 :
@@ -4384,7 +4384,7 @@ eCSSKeyword_UNKNOWN
 }
 ;
 const
-PRInt32
+int32_t
 nsCSSProps
 :
 :
@@ -4419,7 +4419,7 @@ eCSSKeyword_UNKNOWN
 }
 ;
 const
-PRInt32
+int32_t
 nsCSSProps
 :
 :
@@ -4442,7 +4442,7 @@ eCSSKeyword_UNKNOWN
 }
 ;
 const
-PRInt32
+int32_t
 nsCSSProps
 :
 :
@@ -4461,7 +4461,7 @@ eCSSKeyword_UNKNOWN
 }
 ;
 const
-PRInt32
+int32_t
 nsCSSProps
 :
 :
@@ -4484,7 +4484,7 @@ eCSSKeyword_UNKNOWN
 }
 ;
 const
-PRInt32
+int32_t
 nsCSSProps
 :
 :
@@ -4511,7 +4511,7 @@ eCSSKeyword_UNKNOWN
 }
 ;
 const
-PRInt32
+int32_t
 nsCSSProps
 :
 :
@@ -4534,7 +4534,7 @@ eCSSKeyword_UNKNOWN
 }
 ;
 const
-PRInt32
+int32_t
 nsCSSProps
 :
 :
@@ -4553,7 +4553,7 @@ eCSSKeyword_UNKNOWN
 }
 ;
 const
-PRInt32
+int32_t
 nsCSSProps
 :
 :
@@ -4572,7 +4572,7 @@ eCSSKeyword_UNKNOWN
 }
 ;
 const
-PRInt32
+int32_t
 nsCSSProps
 :
 :
@@ -4605,7 +4605,7 @@ eCSSKeyword_UNKNOWN
 }
 ;
 const
-PRInt32
+int32_t
 nsCSSProps
 :
 :
@@ -4634,7 +4634,7 @@ eCSSKeyword_UNKNOWN
 }
 ;
 const
-PRInt32
+int32_t
 nsCSSProps
 :
 :
@@ -4653,7 +4653,7 @@ eCSSKeyword_UNKNOWN
 }
 ;
 const
-PRInt32
+int32_t
 nsCSSProps
 :
 :
@@ -4678,7 +4678,7 @@ eCSSKeyword_UNKNOWN
 }
 ;
 const
-PRInt32
+int32_t
 nsCSSProps
 :
 :
@@ -4705,7 +4705,7 @@ eCSSKeyword_UNKNOWN
 }
 ;
 const
-PRInt32
+int32_t
 nsCSSProps
 :
 :
@@ -4724,7 +4724,7 @@ eCSSKeyword_UNKNOWN
 }
 ;
 const
-PRInt32
+int32_t
 nsCSSProps
 :
 :
@@ -4747,7 +4747,7 @@ eCSSKeyword_UNKNOWN
 }
 ;
 const
-PRInt32
+int32_t
 nsCSSProps
 :
 :
@@ -4776,7 +4776,7 @@ eCSSKeyword_UNKNOWN
 }
 ;
 const
-PRInt32
+int32_t
 nsCSSProps
 :
 :
@@ -4803,7 +4803,7 @@ eCSSKeyword_UNKNOWN
 }
 ;
 const
-PRInt32
+int32_t
 nsCSSProps
 :
 :
@@ -4834,7 +4834,7 @@ eCSSKeyword_UNKNOWN
 }
 ;
 const
-PRInt32
+int32_t
 nsCSSProps
 :
 :
@@ -4857,7 +4857,7 @@ eCSSKeyword_UNKNOWN
 }
 ;
 const
-PRInt32
+int32_t
 nsCSSProps
 :
 :
@@ -4878,7 +4878,7 @@ eCSSKeyword_UNKNOWN
 }
 ;
 const
-PRInt32
+int32_t
 nsCSSProps
 :
 :
@@ -4913,7 +4913,7 @@ eCSSKeyword_UNKNOWN
 }
 ;
 const
-PRInt32
+int32_t
 nsCSSProps
 :
 :
@@ -4946,7 +4946,7 @@ eCSSKeyword_UNKNOWN
 }
 ;
 const
-PRInt32
+int32_t
 nsCSSProps
 :
 :
@@ -4967,7 +4967,7 @@ eCSSKeyword_UNKNOWN
 }
 ;
 const
-PRInt32
+int32_t
 nsCSSProps
 :
 :
@@ -4992,7 +4992,7 @@ eCSSKeyword_UNKNOWN
 }
 ;
 const
-PRInt32
+int32_t
 nsCSSProps
 :
 :
@@ -5015,7 +5015,7 @@ eCSSKeyword_UNKNOWN
 }
 ;
 const
-PRInt32
+int32_t
 nsCSSProps
 :
 :
@@ -5040,7 +5040,7 @@ eCSSKeyword_UNKNOWN
 }
 ;
 const
-PRInt32
+int32_t
 nsCSSProps
 :
 :
@@ -5061,7 +5061,7 @@ eCSSKeyword_UNKNOWN
 }
 ;
 const
-PRInt32
+int32_t
 nsCSSProps
 :
 :
@@ -5080,7 +5080,7 @@ eCSSKeyword_UNKNOWN
 }
 ;
 const
-PRInt32
+int32_t
 nsCSSProps
 :
 :
@@ -5101,7 +5101,7 @@ eCSSKeyword_UNKNOWN
 }
 ;
 const
-PRInt32
+int32_t
 nsCSSProps
 :
 :
@@ -5126,7 +5126,7 @@ eCSSKeyword_UNKNOWN
 }
 ;
 const
-PRInt32
+int32_t
 nsCSSProps
 :
 :
@@ -5145,7 +5145,7 @@ eCSSKeyword_UNKNOWN
 }
 ;
 const
-PRInt32
+int32_t
 nsCSSProps
 :
 :
@@ -5168,7 +5168,7 @@ eCSSKeyword_UNKNOWN
 }
 ;
 const
-PRInt32
+int32_t
 nsCSSProps
 :
 :
@@ -5191,7 +5191,7 @@ eCSSKeyword_UNKNOWN
 }
 ;
 const
-PRInt32
+int32_t
 nsCSSProps
 :
 :
@@ -5230,7 +5230,7 @@ eCSSKeyword_UNKNOWN
 }
 ;
 const
-PRInt32
+int32_t
 nsCSSProps
 :
 :
@@ -5249,7 +5249,7 @@ eCSSKeyword_UNKNOWN
 }
 ;
 const
-PRInt32
+int32_t
 nsCSSProps
 :
 :
@@ -5272,7 +5272,7 @@ eCSSKeyword_UNKNOWN
 }
 ;
 const
-PRInt32
+int32_t
 nsCSSProps
 :
 :
@@ -5295,7 +5295,7 @@ eCSSKeyword_UNKNOWN
 }
 ;
 const
-PRInt32
+int32_t
 nsCSSProps
 :
 :
@@ -5316,7 +5316,7 @@ eCSSKeyword_UNKNOWN
 }
 ;
 const
-PRInt32
+int32_t
 nsCSSProps
 :
 :
@@ -5337,7 +5337,7 @@ eCSSKeyword_UNKNOWN
 }
 ;
 const
-PRInt32
+int32_t
 nsCSSProps
 :
 :
@@ -5358,7 +5358,7 @@ eCSSKeyword_UNKNOWN
 }
 ;
 const
-PRInt32
+int32_t
 nsCSSProps
 :
 :
@@ -5381,7 +5381,7 @@ eCSSKeyword_UNKNOWN
 }
 ;
 const
-PRInt32
+int32_t
 nsCSSProps
 :
 :
@@ -5400,7 +5400,7 @@ eCSSKeyword_UNKNOWN
 }
 ;
 const
-PRInt32
+int32_t
 nsCSSProps
 :
 :
@@ -5421,7 +5421,7 @@ eCSSKeyword_UNKNOWN
 }
 ;
 const
-PRInt32
+int32_t
 nsCSSProps
 :
 :
@@ -5448,16 +5448,16 @@ FindKeyword
 nsCSSKeyword
 aKeyword
 const
-PRInt32
+int32_t
 aTable
 [
 ]
-PRInt32
+int32_t
 &
 aResult
 )
 {
-PRInt32
+int32_t
 index
 =
 0
@@ -5519,16 +5519,16 @@ nsCSSProps
 :
 ValueToKeywordEnum
 (
-PRInt32
+int32_t
 aValue
 const
-PRInt32
+int32_t
 aTable
 [
 ]
 )
 {
-PRInt32
+int32_t
 i
 =
 1
@@ -5606,10 +5606,10 @@ nsCSSProps
 :
 ValueToKeyword
 (
-PRInt32
+int32_t
 aValue
 const
-PRInt32
+int32_t
 aTable
 [
 ]
@@ -5658,7 +5658,7 @@ keyword
 }
 }
 const
-PRInt32
+int32_t
 *
 const
 nsCSSProps
@@ -5710,7 +5710,7 @@ LookupPropertyValue
 (
 nsCSSProperty
 aProp
-PRInt32
+int32_t
 aValue
 )
 {
@@ -5734,7 +5734,7 @@ range
 )
 ;
 const
-PRInt32
+int32_t
 *
 kwtable
 =
@@ -5782,7 +5782,7 @@ nsCSSProps
 :
 GetColorName
 (
-PRInt32
+int32_t
 aPropValue
 nsCString
 &
@@ -5971,7 +5971,7 @@ CSS_PROP
 }
 ;
 const
-PRUint32
+uint32_t
 nsCSSProps
 :
 :

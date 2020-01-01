@@ -586,7 +586,7 @@ DefaultController
 :
 GetWidth
 (
-PRUint32
+uint32_t
 *
 aWidth
 )
@@ -620,7 +620,7 @@ DefaultController
 :
 GetHeight
 (
-PRUint32
+uint32_t
 *
 aHeight
 )
@@ -659,7 +659,7 @@ float
 aThumbnailAspectRatio
 )
 {
-PRUint32
+uint32_t
 width
 height
 ;
@@ -730,9 +730,9 @@ DrawThumbnail
 nsIDOMCanvasRenderingContext2D
 *
 ctx
-PRUint32
+uint32_t
 width
-PRUint32
+uint32_t
 height
 bool
 *

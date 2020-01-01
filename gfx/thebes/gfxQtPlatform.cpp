@@ -479,7 +479,7 @@ endif
 nsresult
 rv
 ;
-PRInt32
+int32_t
 ival
 =
 Preferences
@@ -2302,10 +2302,10 @@ gfxProxyFontEntry
 *
 aProxyEntry
 const
-PRUint8
+uint8_t
 *
 aFontData
-PRUint32
+uint32_t
 aLength
 )
 {
@@ -2331,7 +2331,7 @@ IsFontFormatSupported
 nsIURI
 *
 aFontURI
-PRUint32
+uint32_t
 aFormatFlags
 )
 {
@@ -2580,7 +2580,7 @@ gfxQtPlatform
 :
 FindFontForChar
 (
-PRUint32
+uint32_t
 aCh
 gfxFont
 *
@@ -2785,7 +2785,7 @@ array
 }
 #
 endif
-PRInt32
+int32_t
 gfxQtPlatform
 :
 :
@@ -2804,7 +2804,7 @@ desktop
 (
 )
 ;
-PRInt32
+int32_t
 dpi
 =
 rootWindow

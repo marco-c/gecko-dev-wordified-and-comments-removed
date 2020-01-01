@@ -299,7 +299,7 @@ g_lastY
 MIN_INT
 ;
 static
-PRInt32
+int32_t
 g_panning
 =
 0
@@ -415,7 +415,7 @@ IsXULNode
 nsIDOMNode
 *
 aNode
-PRUint32
+uint32_t
 *
 aType
 =
@@ -661,7 +661,7 @@ nsIDOMNode
 >
 mOrigNode
 ;
-PRUint32
+uint32_t
 type
 =
 0
@@ -1296,7 +1296,7 @@ nsWidgetUtils
 :
 ShouldLoad
 (
-PRUint32
+uint32_t
 aContentType
 nsIURI
 *
@@ -1314,7 +1314,7 @@ aMimeGuess
 nsISupports
 *
 aExtra
-PRInt16
+int16_t
 *
 aDecision
 )
@@ -1517,7 +1517,7 @@ nsWidgetUtils
 :
 ShouldProcess
 (
-PRUint32
+uint32_t
 aContentType
 nsIURI
 *
@@ -1535,7 +1535,7 @@ aMimeGuess
 nsISupports
 *
 aExtra
-PRInt16
+int16_t
 *
 aDecision
 )
@@ -1561,7 +1561,7 @@ IsXULNode
 nsIDOMNode
 *
 aNode
-PRUint32
+uint32_t
 *
 aType
 )

@@ -291,7 +291,7 @@ WANT_ALL_TRACES
 )
 }
 ;
-PRUint32
+uint32_t
 Flags
 (
 )
@@ -347,7 +347,7 @@ mFlags
 )
 {
 }
-PRUint32
+uint32_t
 mFlags
 ;
 }
@@ -2218,7 +2218,7 @@ _field
 \
 {
 \
-PRInt32
+int32_t
 i
 ;
 \
@@ -2338,7 +2338,7 @@ _name
 \
 {
 \
-PRUint32
+uint32_t
 i
 length
 =
@@ -2396,7 +2396,7 @@ _field
 \
 {
 \
-PRUint32
+uint32_t
 i
 length
 =

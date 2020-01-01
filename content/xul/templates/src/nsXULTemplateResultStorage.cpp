@@ -280,7 +280,7 @@ return
 NS_OK
 ;
 }
-PRInt32
+int32_t
 idx
 =
 mResultSet
@@ -354,7 +354,7 @@ if
 mResultSet
 )
 {
-PRInt32
+int32_t
 idx
 =
 mResultSet

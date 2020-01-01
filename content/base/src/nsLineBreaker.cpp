@@ -115,7 +115,7 @@ const
 PRUnichar
 *
 aWord
-PRUint32
+uint32_t
 aLength
 bool
 *
@@ -129,7 +129,7 @@ true
 ;
 for
 (
-PRUint32
+uint32_t
 i
 =
 0
@@ -143,7 +143,7 @@ aLength
 i
 )
 {
-PRUint32
+uint32_t
 ch
 =
 aWord
@@ -257,7 +257,7 @@ FlushCurrentWord
 (
 )
 {
-PRUint32
+uint32_t
 length
 =
 mCurrentWord
@@ -268,7 +268,7 @@ Length
 ;
 nsAutoTArray
 <
-PRUint8
+uint8_t
 4000
 >
 breakState
@@ -332,7 +332,7 @@ length
 *
 sizeof
 (
-PRUint8
+uint8_t
 )
 )
 ;
@@ -373,7 +373,7 @@ mCurrentWordLanguage
 !
 mCurrentWordContainsMixedLang
 ;
-PRUint32
+uint32_t
 i
 ;
 for
@@ -480,7 +480,7 @@ Elements
 ;
 }
 }
-PRUint32
+uint32_t
 offset
 =
 0
@@ -576,7 +576,7 @@ mFlags
 BREAK_SUPPRESS_INSIDE
 )
 {
-PRUint32
+uint32_t
 exclude
 =
 ti
@@ -620,12 +620,12 @@ exclude
 *
 sizeof
 (
-PRUint8
+uint8_t
 )
 )
 ;
 }
-PRUint32
+uint32_t
 skipSet
 =
 i
@@ -820,9 +820,9 @@ const
 PRUnichar
 *
 aText
-PRUint32
+uint32_t
 aLength
-PRUint32
+uint32_t
 aFlags
 nsILineBreakSink
 *
@@ -844,7 +844,7 @@ text
 "
 )
 ;
-PRUint32
+uint32_t
 offset
 =
 0
@@ -985,7 +985,7 @@ rv
 }
 nsAutoTArray
 <
-PRUint8
+uint8_t
 4000
 >
 breakState
@@ -1057,7 +1057,7 @@ bool
 )
 ;
 }
-PRUint32
+uint32_t
 start
 =
 offset
@@ -1124,7 +1124,7 @@ break
 ;
 }
 }
-PRUint32
+uint32_t
 wordStart
 =
 offset
@@ -1298,7 +1298,7 @@ if
 wordHasComplexChar
 )
 {
-PRUint8
+uint8_t
 currentStart
 =
 breakState
@@ -1448,7 +1448,7 @@ mCurrentWordContainsComplexChar
 =
 wordHasComplexChar
 ;
-PRUint32
+uint32_t
 len
 =
 offset
@@ -1589,7 +1589,7 @@ const
 PRUnichar
 *
 aTextLimit
-PRUint8
+uint8_t
 *
 aBreakState
 )
@@ -1625,7 +1625,7 @@ hyphens
 {
 for
 (
-PRUint32
+uint32_t
 i
 =
 0
@@ -1682,12 +1682,12 @@ nsIAtom
 *
 aHyphenationLanguage
 const
-PRUint8
+uint8_t
 *
 aText
-PRUint32
+uint32_t
 aLength
-PRUint32
+uint32_t
 aFlags
 nsILineBreakSink
 *
@@ -1765,7 +1765,7 @@ aSink
 )
 ;
 }
-PRUint32
+uint32_t
 offset
 =
 0
@@ -1903,7 +1903,7 @@ rv
 }
 nsAutoTArray
 <
-PRUint8
+uint8_t
 4000
 >
 breakState
@@ -1927,7 +1927,7 @@ return
 NS_ERROR_OUT_OF_MEMORY
 ;
 }
-PRUint32
+uint32_t
 start
 =
 offset
@@ -1994,7 +1994,7 @@ break
 ;
 }
 }
-PRUint32
+uint32_t
 wordStart
 =
 offset
@@ -2010,7 +2010,7 @@ for
 ;
 )
 {
-PRUint8
+uint8_t
 ch
 =
 aText
@@ -2124,7 +2124,7 @@ BREAK_SUPPRESS_INSIDE
 )
 )
 {
-PRUint8
+uint8_t
 currentStart
 =
 breakState
@@ -2224,7 +2224,7 @@ mCurrentWordContainsComplexChar
 =
 wordHasComplexChar
 ;
-PRUint32
+uint32_t
 len
 =
 offset
@@ -2250,7 +2250,7 @@ elems
 return
 NS_ERROR_OUT_OF_MEMORY
 ;
-PRUint32
+uint32_t
 i
 ;
 for
@@ -2375,7 +2375,7 @@ nsLineBreaker
 :
 AppendInvisibleWhitespace
 (
-PRUint32
+uint32_t
 aFlags
 )
 {

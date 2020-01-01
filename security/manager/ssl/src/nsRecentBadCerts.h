@@ -220,7 +220,7 @@ mCerts
 const_recently_seen_list_size
 ]
 ;
-PRUint32
+uint32_t
 mNextStorePosition
 ;
 }

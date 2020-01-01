@@ -861,7 +861,7 @@ nsNSSCertificate
 :
 GetCertType
 (
-PRUint32
+uint32_t
 *
 aCertType
 )
@@ -3020,7 +3020,7 @@ nsNSSCertificate
 :
 GetEmailAddresses
 (
-PRUint32
+uint32_t
 *
 aLength
 PRUnichar
@@ -3124,7 +3124,7 @@ aAddresses
 return
 NS_ERROR_OUT_OF_MEMORY
 ;
-PRUint32
+uint32_t
 iAddr
 ;
 for
@@ -4027,7 +4027,7 @@ nsNSSCertificate
 :
 GetAllTokenNames
 (
-PRUint32
+uint32_t
 *
 aLength
 PRUnichar
@@ -4209,7 +4209,7 @@ return
 NS_ERROR_OUT_OF_MEMORY
 ;
 }
-PRUint32
+uint32_t
 iToken
 ;
 for
@@ -4843,10 +4843,10 @@ nsNSSCertificate
 :
 GetRawDER
 (
-PRUint32
+uint32_t
 *
 aLength
-PRUint8
+uint8_t
 *
 *
 aArray
@@ -4873,7 +4873,7 @@ mCert
 aArray
 =
 (
-PRUint8
+uint8_t
 *
 )
 nsMemory
@@ -4943,12 +4943,12 @@ nsNSSCertificate
 :
 ExportAsCMS
 (
-PRUint32
+uint32_t
 chainMode
-PRUint32
+uint32_t
 *
 aLength
-PRUint8
+uint8_t
 *
 *
 aArray
@@ -5504,7 +5504,7 @@ NS_ERROR_FAILURE
 aArray
 =
 (
-PRUint8
+uint8_t
 *
 )
 nsMemory
@@ -5659,9 +5659,9 @@ nsNSSCertificate
 :
 VerifyForUsage
 (
-PRUint32
+uint32_t
 usage
-PRUint32
+uint32_t
 *
 verificationResult
 )
@@ -6059,10 +6059,10 @@ GetUsagesArray
 (
 bool
 localOnly
-PRUint32
+uint32_t
 *
 _verified
-PRUint32
+uint32_t
 *
 _count
 PRUnichar
@@ -6108,7 +6108,7 @@ suffix
 "
 "
 ;
-PRUint32
+uint32_t
 tmpCount
 ;
 nsUsageArrayHelper
@@ -6178,7 +6178,7 @@ NS_ERROR_OUT_OF_MEMORY
 ;
 for
 (
-PRUint32
+uint32_t
 i
 =
 0
@@ -6334,7 +6334,7 @@ GetUsagesString
 (
 bool
 localOnly
-PRUint32
+uint32_t
 *
 _verified
 nsAString
@@ -6379,7 +6379,7 @@ suffix
 _p
 "
 ;
-PRUint32
+uint32_t
 tmpCount
 ;
 nsUsageArrayHelper
@@ -6417,7 +6417,7 @@ Truncate
 ;
 for
 (
-PRUint32
+uint32_t
 i
 =
 0
@@ -6523,7 +6523,7 @@ currObject
 bool
 processObjects
 ;
-PRUint32
+uint32_t
 numObjects
 ;
 for
@@ -7905,7 +7905,7 @@ NS_ENSURE_STATE
 mCert
 )
 ;
-PRUint32
+uint32_t
 len
 ;
 nsresult
@@ -7996,7 +7996,7 @@ nsNSSCertificate
 :
 GetInterfaces
 (
-PRUint32
+uint32_t
 *
 count
 nsIID
@@ -8026,7 +8026,7 @@ nsNSSCertificate
 :
 GetHelperForLanguage
 (
-PRUint32
+uint32_t
 language
 nsISupports
 *
@@ -8138,7 +8138,7 @@ nsNSSCertificate
 :
 GetImplementationLanguage
 (
-PRUint32
+uint32_t
 *
 aImplementationLanguage
 )
@@ -8161,7 +8161,7 @@ nsNSSCertificate
 :
 GetFlags
 (
-PRUint32
+uint32_t
 *
 aFlags
 )

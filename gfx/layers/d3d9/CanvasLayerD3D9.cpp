@@ -417,7 +417,7 @@ width
 *
 4
 ;
-PRUint8
+uint8_t
 *
 destination
 ;
@@ -452,7 +452,7 @@ DiscardTempBlob
 destination
 =
 (
-PRUint8
+uint8_t
 *
 )
 r
@@ -536,7 +536,7 @@ y
 memcpy
 (
 (
-PRUint8
+uint8_t
 *
 )
 r
@@ -807,7 +807,7 @@ Paint
 )
 ;
 }
-PRUint8
+uint8_t
 *
 startBits
 =
@@ -818,7 +818,7 @@ Data
 (
 )
 ;
-PRUint32
+uint32_t
 sourceStride
 =
 sourceSurface
@@ -877,7 +877,7 @@ y
 memcpy
 (
 (
-PRUint8
+uint8_t
 *
 )
 lockedRect

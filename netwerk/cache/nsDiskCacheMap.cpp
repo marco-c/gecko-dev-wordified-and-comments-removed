@@ -221,7 +221,7 @@ rv
 =
 NS_ERROR_FILE_CORRUPTED
 ;
-PRUint32
+uint32_t
 mapSize
 =
 PR_Available
@@ -412,7 +412,7 @@ this
 )
 )
 ;
-PRUint32
+uint32_t
 bytesRead
 =
 PR_Read
@@ -499,7 +499,7 @@ goto
 error_exit
 ;
 }
-PRUint32
+uint32_t
 recordArraySize
 =
 mHeader
@@ -596,14 +596,14 @@ goto
 error_exit
 ;
 }
-PRInt32
+int32_t
 total
 =
 0
 ;
 for
 (
-PRInt32
+int32_t
 i
 =
 0
@@ -743,7 +743,7 @@ error_exit
 ;
 }
 {
-PRUint32
+uint32_t
 overhead
 =
 moz_malloc_size_of
@@ -1028,7 +1028,7 @@ mMapFD
 return
 NS_ERROR_NOT_AVAILABLE
 ;
-PRInt32
+int32_t
 filePos
 =
 PR_Seek
@@ -1054,7 +1054,7 @@ Swap
 (
 )
 ;
-PRInt32
+int32_t
 bytesWritten
 =
 PR_Write
@@ -1129,7 +1129,7 @@ mMapFD
 return
 NS_ERROR_NOT_AVAILABLE
 ;
-PRInt32
+int32_t
 filePos
 =
 PR_Seek
@@ -1163,7 +1163,7 @@ IS_LITTLE_ENDIAN
 )
 for
 (
-PRInt32
+int32_t
 i
 =
 0
@@ -1202,7 +1202,7 @@ Swap
 }
 #
 endif
-PRInt32
+int32_t
 recordArraySize
 =
 sizeof
@@ -1214,7 +1214,7 @@ mHeader
 .
 mRecordCount
 ;
-PRInt32
+int32_t
 bytesWritten
 =
 PR_Write
@@ -1247,7 +1247,7 @@ unswap
 {
 for
 (
-PRInt32
+int32_t
 i
 =
 0
@@ -1291,15 +1291,15 @@ return
 NS_OK
 ;
 }
-PRUint32
+uint32_t
 nsDiskCacheMap
 :
 :
 GetBucketRank
 (
-PRUint32
+uint32_t
 bucketIndex
-PRUint32
+uint32_t
 targetRank
 )
 {
@@ -1312,7 +1312,7 @@ GetFirstRecordInBucket
 bucketIndex
 )
 ;
-PRUint32
+uint32_t
 rank
 =
 0
@@ -1429,7 +1429,7 @@ n
 )
 )
 ;
-PRInt32
+int32_t
 newCount
 =
 mHeader
@@ -1476,14 +1476,14 @@ newArray
 return
 NS_ERROR_OUT_OF_MEMORY
 ;
-PRUint32
+uint32_t
 oldRecordsPerBucket
 =
 GetRecordsPerBucket
 (
 )
 ;
-PRUint32
+uint32_t
 newRecordsPerBucket
 =
 newCount
@@ -1520,7 +1520,7 @@ bucketIndex
 newRecordsPerBucket
 ;
 const
-PRUint32
+uint32_t
 count
 =
 mHeader
@@ -1616,7 +1616,7 @@ n
 )
 )
 ;
-PRUint32
+uint32_t
 maxUsage
 =
 0
@@ -1658,14 +1658,14 @@ bucketIndex
 ]
 ;
 }
-PRUint32
+uint32_t
 oldRecordsPerBucket
 =
 GetRecordsPerBucket
 (
 )
 ;
-PRUint32
+uint32_t
 newRecordsPerBucket
 =
 oldRecordsPerBucket
@@ -1770,7 +1770,7 @@ nsDiskCacheRecord
 )
 ;
 }
-PRUint32
+uint32_t
 newCount
 =
 newRecordsPerBucket
@@ -1860,7 +1860,7 @@ HashNumber
 )
 ;
 const
-PRUint32
+uint32_t
 hashNumber
 =
 mapRecord
@@ -1871,7 +1871,7 @@ HashNumber
 )
 ;
 const
-PRUint32
+uint32_t
 bucketIndex
 =
 GetBucketIndex
@@ -1880,7 +1880,7 @@ hashNumber
 )
 ;
 const
-PRUint32
+uint32_t
 count
 =
 mHeader
@@ -2186,7 +2186,7 @@ HashNumber
 )
 ;
 const
-PRUint32
+uint32_t
 hashNumber
 =
 mapRecord
@@ -2197,7 +2197,7 @@ HashNumber
 )
 ;
 const
-PRUint32
+uint32_t
 bucketIndex
 =
 GetBucketIndex
@@ -2254,7 +2254,7 @@ hashNumber
 )
 {
 const
-PRUint32
+uint32_t
 oldRank
 =
 records
@@ -2382,7 +2382,7 @@ nsDiskCacheMap
 :
 FindRecord
 (
-PRUint32
+uint32_t
 hashNumber
 nsDiskCacheRecord
 *
@@ -2390,7 +2390,7 @@ result
 )
 {
 const
-PRUint32
+uint32_t
 bucketIndex
 =
 GetBucketIndex
@@ -2514,7 +2514,7 @@ HashNumber
 )
 ;
 const
-PRUint32
+uint32_t
 hashNumber
 =
 mapRecord
@@ -2525,7 +2525,7 @@ HashNumber
 )
 ;
 const
-PRUint32
+uint32_t
 bucketIndex
 =
 GetBucketIndex
@@ -2542,7 +2542,7 @@ GetFirstRecordInBucket
 bucketIndex
 )
 ;
-PRUint32
+uint32_t
 last
 =
 mHeader
@@ -2586,7 +2586,7 @@ HashNumber
 hashNumber
 )
 {
-PRUint32
+uint32_t
 evictionRank
 =
 records
@@ -2652,7 +2652,7 @@ mEntryCount
 -
 -
 ;
-PRUint32
+uint32_t
 bucketIndex
 =
 GetBucketIndex
@@ -2729,27 +2729,27 @@ return
 NS_ERROR_UNEXPECTED
 ;
 }
-PRInt32
+int32_t
 nsDiskCacheMap
 :
 :
 VisitEachRecord
 (
-PRUint32
+uint32_t
 bucketIndex
 nsDiskCacheRecordVisitor
 *
 visitor
-PRUint32
+uint32_t
 evictionRank
 )
 {
-PRInt32
+int32_t
 rv
 =
 kVisitNextRecord
 ;
-PRUint32
+uint32_t
 count
 =
 mHeader
@@ -3000,7 +3000,7 @@ nsDiskCacheRecordVisitor
 visitor
 )
 {
-PRUint32
+uint32_t
 tempRank
 [
 kBuckets
@@ -3037,7 +3037,7 @@ mEvictionRank
 bucketIndex
 ]
 ;
-PRInt32
+int32_t
 entryCount
 =
 mHeader
@@ -3060,7 +3060,7 @@ entryCount
 n
 )
 {
-PRUint32
+uint32_t
 rank
 =
 0
@@ -3227,7 +3227,7 @@ kCouldNotGetBlockFileForIndex
 break
 ;
 }
-PRUint32
+uint32_t
 blockSize
 =
 GetBlockSizeForIndex
@@ -3237,7 +3237,7 @@ i
 1
 )
 ;
-PRUint32
+uint32_t
 bitMapSize
 =
 GetBitMapSizeForIndex
@@ -3458,7 +3458,7 @@ NS_ERROR_UNEXPECTED
 ;
 for
 (
-PRInt32
+int32_t
 index
 =
 0
@@ -3604,7 +3604,7 @@ diskEntry
 =
 nullptr
 ;
-PRUint32
+uint32_t
 metaFile
 =
 record
@@ -3614,7 +3614,7 @@ MetaFile
 (
 )
 ;
-PRInt32
+int32_t
 bytesRead
 =
 0
@@ -3720,7 +3720,7 @@ rv
 nullptr
 )
 ;
-PRInt32
+int32_t
 fileSize
 =
 PR_Available
@@ -3804,7 +3804,7 @@ kNumBlockFiles
 )
 )
 {
-PRUint32
+uint32_t
 blockCount
 =
 record
@@ -3889,7 +3889,7 @@ bytesRead
 |
 |
 (
-PRUint32
+uint32_t
 )
 bytesRead
 <
@@ -3917,7 +3917,7 @@ CreateDiskCacheEntry
 nsDiskCacheBinding
 *
 binding
-PRUint32
+uint32_t
 *
 aSize
 )
@@ -4031,7 +4031,7 @@ return
 nullptr
 ;
 }
-PRUint32
+uint32_t
 keySize
 =
 entry
@@ -4048,7 +4048,7 @@ Length
 +
 1
 ;
-PRUint32
+uint32_t
 metaSize
 =
 entry
@@ -4058,7 +4058,7 @@ MetaDataSize
 (
 )
 ;
-PRUint32
+uint32_t
 size
 =
 sizeof
@@ -4298,7 +4298,7 @@ rv
 =
 NS_OK
 ;
-PRUint32
+uint32_t
 size
 ;
 nsDiskCacheEntry
@@ -4320,7 +4320,7 @@ diskEntry
 return
 NS_ERROR_UNEXPECTED
 ;
-PRUint32
+uint32_t
 fileIndex
 =
 CalculateFileIndex
@@ -4464,7 +4464,7 @@ while
 1
 )
 {
-PRUint32
+uint32_t
 blockSize
 =
 GetBlockSizeForIndex
@@ -4472,7 +4472,7 @@ GetBlockSizeForIndex
 fileIndex
 )
 ;
-PRUint32
+uint32_t
 blocks
 =
 (
@@ -4487,7 +4487,7 @@ blockSize
 +
 1
 ;
-PRInt32
+int32_t
 startBlock
 ;
 rv
@@ -4583,7 +4583,7 @@ fileIndex
 0
 )
 {
-PRUint32
+uint32_t
 metaFileSizeK
 =
 (
@@ -4706,7 +4706,7 @@ rv
 rv
 )
 ;
-PRInt32
+int32_t
 bytesWritten
 =
 PR_Write
@@ -4731,7 +4731,7 @@ bytesWritten
 !
 =
 (
-PRInt32
+int32_t
 )
 size
 )
@@ -4771,7 +4771,7 @@ binding
 char
 *
 buffer
-PRUint32
+uint32_t
 size
 )
 {
@@ -4805,7 +4805,7 @@ size
 )
 )
 ;
-PRUint32
+uint32_t
 fileIndex
 =
 binding
@@ -4817,7 +4817,7 @@ DataFile
 (
 )
 ;
-PRInt32
+int32_t
 readSize
 =
 size
@@ -4866,7 +4866,7 @@ if
 readSize
 <
 (
-PRInt32
+int32_t
 )
 size
 )
@@ -4892,7 +4892,7 @@ binding
 char
 *
 buffer
-PRUint32
+uint32_t
 size
 )
 {
@@ -4931,7 +4931,7 @@ rv
 =
 NS_OK
 ;
-PRUint32
+uint32_t
 fileIndex
 =
 CalculateFileIndex
@@ -4939,12 +4939,12 @@ CalculateFileIndex
 size
 )
 ;
-PRUint32
+uint32_t
 blockCount
 =
 0
 ;
-PRInt32
+int32_t
 startBlock
 =
 0
@@ -4961,7 +4961,7 @@ while
 1
 )
 {
-PRUint32
+uint32_t
 blockSize
 =
 GetBlockSizeForIndex
@@ -5161,7 +5161,7 @@ rv
 =
 NS_ERROR_UNEXPECTED
 ;
-PRUint32
+uint32_t
 fileIndex
 =
 metaData
@@ -5194,7 +5194,7 @@ fileIndex
 0
 )
 {
-PRUint32
+uint32_t
 sizeK
 =
 metaData
@@ -5263,7 +5263,7 @@ kNumBlockFiles
 )
 )
 {
-PRUint32
+uint32_t
 startBlock
 =
 metaData
@@ -5282,7 +5282,7 @@ DataStartBlock
 (
 )
 ;
-PRUint32
+uint32_t
 blockCount
 =
 metaData
@@ -5406,7 +5406,7 @@ rv
 return
 rv
 ;
-PRUint32
+uint32_t
 hash
 =
 record
@@ -5532,7 +5532,7 @@ return
 rv
 ;
 }
-PRInt16
+int16_t
 generation
 =
 record
@@ -5680,7 +5680,7 @@ nsDiskCacheMap
 :
 GetBlockFileForIndex
 (
-PRUint32
+uint32_t
 index
 nsIFile
 *
@@ -5782,13 +5782,13 @@ return
 rv
 ;
 }
-PRUint32
+uint32_t
 nsDiskCacheMap
 :
 :
 CalculateFileIndex
 (
-PRUint32
+uint32_t
 size
 )
 {
@@ -5847,7 +5847,7 @@ nsDiskCacheMap
 :
 EnsureBuffer
 (
-PRUint32
+uint32_t
 bufSize
 )
 {
@@ -5905,12 +5905,12 @@ nsDiskCacheMap
 :
 NotifyCapacityChange
 (
-PRUint32
+uint32_t
 capacity
 )
 {
 const
-PRInt32
+int32_t
 RECORD_COUNT_LIMIT
 =
 32
@@ -5924,12 +5924,12 @@ sizeof
 nsDiskCacheRecord
 )
 ;
-PRInt32
+int32_t
 maxRecordCount
 =
 NS_MIN
 (
-PRInt32
+int32_t
 (
 capacity
 )
@@ -6125,7 +6125,7 @@ clean
 0
 '
 ;
-PRInt32
+int32_t
 bytesRead
 =
 PR_Read
@@ -6321,7 +6321,7 @@ clean
 0
 '
 ;
-PRInt32
+int32_t
 filePos
 =
 PR_Seek
@@ -6357,7 +6357,7 @@ return
 NS_ERROR_FAILURE
 ;
 }
-PRInt32
+int32_t
 bytesWritten
 =
 PR_Write
@@ -6502,7 +6502,7 @@ nsDiskCacheMap
 :
 ResetCacheTimer
 (
-PRInt32
+int32_t
 timeout
 )
 {
@@ -6586,7 +6586,7 @@ NSDISKCACHEMAP_REVALIDATION
 )
 )
 ;
-PRUint32
+uint32_t
 delta
 =
 PR_IntervalToMilliseconds

@@ -1887,7 +1887,7 @@ flags
 "
                 
 "
-PRUint32
+uint32_t
 count
 const
 nsID
@@ -6994,7 +6994,7 @@ append
 '
 NS_MIN
 <
-PRUint32
+uint32_t
 >
 (
 argc
@@ -8080,7 +8080,7 @@ write
 "
 for
 (
-PRUint32
+uint32_t
 i
 =
 0
@@ -8229,7 +8229,7 @@ write
 "
 static
 const
-PRUint32
+uint32_t
 k_
 %
 s
@@ -9340,7 +9340,7 @@ JSObject
 proto
 unsigned
 flags
-PRUint32
+uint32_t
 count
 "
             

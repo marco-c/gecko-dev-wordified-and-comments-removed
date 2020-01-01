@@ -141,7 +141,7 @@ template
 int
 Max
 >
-PRUint64
+uint64_t
 ProgressMeterAccessible
 <
 Max
@@ -152,7 +152,7 @@ NativeState
 (
 )
 {
-PRUint64
+uint64_t
 state
 =
 LeafAccessible
@@ -672,7 +672,7 @@ aDoc
 )
 {
 }
-PRUint8
+uint8_t
 RadioButtonAccessible
 :
 :
@@ -690,7 +690,7 @@ RadioButtonAccessible
 :
 GetActionName
 (
-PRUint8
+uint8_t
 aIndex
 nsAString
 &
@@ -728,7 +728,7 @@ RadioButtonAccessible
 :
 DoAction
 (
-PRUint8
+uint8_t
 aIndex
 )
 {

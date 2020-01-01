@@ -103,7 +103,7 @@ AddRef
 {
 NS_PRECONDITION
 (
-PRInt32
+int32_t
 (
 mRefCnt
 )
@@ -337,7 +337,7 @@ mDummyContext
 InputContext
 mInputContext
 ;
-PRUint32
+uint32_t
 mCompositionStart
 ;
 nsString
@@ -664,11 +664,11 @@ aTextRangeList
 void
 SetCursorPosition
 (
-PRUint32
+uint32_t
 aTargetOffset
 )
 ;
-PRUint32
+uint32_t
 GetSelectionOffset
 (
 nsWindow
@@ -682,7 +682,7 @@ GetCurrentParagraph
 nsAString
 &
 aText
-PRUint32
+uint32_t
 &
 aCursorPos
 )
@@ -691,10 +691,10 @@ nsresult
 DeleteText
 (
 const
-PRInt32
+int32_t
 aOffset
 const
-PRUint32
+uint32_t
 aNChars
 )
 ;

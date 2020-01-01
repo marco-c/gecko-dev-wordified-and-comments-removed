@@ -370,7 +370,7 @@ nsNameSpaceMap
 mNameSpaces
 ;
 static
-PRInt32
+int32_t
 gRefCnt
 ;
 static
@@ -1162,7 +1162,7 @@ aConsumer
 ;
 }
 ;
-PRInt32
+int32_t
 RDFXMLDataSourceImpl
 :
 :
@@ -1689,7 +1689,7 @@ rv
 return
 rv
 ;
-PRInt32
+int32_t
 i
 ;
 for
@@ -1751,7 +1751,7 @@ channel
 nullptr
 )
 ;
-PRUint64
+uint64_t
 offset
 =
 0
@@ -1782,7 +1782,7 @@ rv
 )
 break
 ;
-PRUint64
+uint64_t
 avail
 ;
 if
@@ -1833,18 +1833,18 @@ channel
 nullptr
 bufStream
 (
-PRUint32
+uint32_t
 )
 NS_MIN
 (
 offset
 (
-PRUint64
+uint64_t
 )
 PR_UINT32_MAX
 )
 (
-PRUint32
+uint32_t
 )
 avail
 )
@@ -3088,7 +3088,7 @@ aOldChannel
 nsIChannel
 *
 aNewChannel
-PRUint32
+uint32_t
 aFlags
 nsIAsyncVerifyRedirectCallback
 *
@@ -3580,7 +3580,7 @@ eLoadState_Loading
 ;
 for
 (
-PRInt32
+int32_t
 i
 =
 mObservers
@@ -3690,7 +3690,7 @@ get
 endif
 for
 (
-PRInt32
+int32_t
 i
 =
 mObservers
@@ -3800,7 +3800,7 @@ get
 endif
 for
 (
-PRInt32
+int32_t
 i
 =
 mObservers
@@ -3940,7 +3940,7 @@ Sweep
 }
 for
 (
-PRInt32
+int32_t
 i
 =
 mObservers
@@ -4129,7 +4129,7 @@ status
 {
 for
 (
-PRInt32
+int32_t
 i
 =
 mObservers
@@ -4217,9 +4217,9 @@ ctxt
 nsIInputStream
 *
 inStr
-PRUint32
+uint32_t
 sourceOffset
-PRUint32
+uint32_t
 count
 )
 {

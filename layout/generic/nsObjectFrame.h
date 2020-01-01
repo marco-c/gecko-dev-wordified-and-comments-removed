@@ -282,7 +282,7 @@ virtual
 bool
 IsFrameOfType
 (
-PRUint32
+uint32_t
 aFlags
 )
 const
@@ -625,7 +625,7 @@ aDesiredSize
 bool
 IsFocusable
 (
-PRInt32
+int32_t
 *
 aTabIndex
 =

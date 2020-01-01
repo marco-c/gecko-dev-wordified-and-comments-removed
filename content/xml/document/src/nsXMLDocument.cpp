@@ -1654,7 +1654,7 @@ rv
 rv
 )
 ;
-PRInt16
+int16_t
 shouldLoad
 =
 nsIContentPolicy
@@ -2340,7 +2340,7 @@ aCommand
 kLoadAsData
 ;
 }
-PRInt32
+int32_t
 charsetSource
 =
 kCharsetFromDocTypeDefault

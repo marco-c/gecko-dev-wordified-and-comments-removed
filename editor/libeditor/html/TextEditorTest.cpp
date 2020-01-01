@@ -231,10 +231,10 @@ Run
 nsIEditor
 *
 aEditor
-PRInt32
+int32_t
 *
 outNumTests
-PRInt32
+int32_t
 *
 outNumTestsFailed
 )
@@ -273,10 +273,10 @@ TextEditorTest
 :
 RunUnitTest
 (
-PRInt32
+int32_t
 *
 outNumTests
-PRInt32
+int32_t
 *
 outNumTestsFailed
 )
@@ -806,7 +806,7 @@ get
 )
 )
 ;
-PRUint32
+uint32_t
 count
 ;
 nodeList
@@ -935,7 +935,7 @@ do_QueryInterface
 textNode
 )
 ;
-PRUint32
+uint32_t
 length
 ;
 textData

@@ -666,9 +666,9 @@ const
 char
 *
 b
-PRUint32
+uint32_t
 aLen
-PRUint32
+uint32_t
 bLen
 )
 {
@@ -1055,7 +1055,7 @@ PRUnichar
 *
 PRUnichar
 *
-PRUint32
+uint32_t
 )
 :
 \
@@ -1132,7 +1132,7 @@ PRUnichar
 *
 PRUnichar
 *
-PRUint32
+uint32_t
 )
 :
 \
@@ -1676,7 +1676,7 @@ FuzzOneInvalidCaseConversion
 (
 )
 {
-PRUint32
+uint32_t
 aLen
 =
 rand
@@ -1685,7 +1685,7 @@ rand
 %
 32
 ;
-PRUint32
+uint32_t
 bLen
 =
 rand
@@ -1738,7 +1738,7 @@ char
 ;
 for
 (
-PRUint32
+uint32_t
 i
 =
 0
@@ -1766,7 +1766,7 @@ rand
 }
 for
 (
-PRUint32
+uint32_t
 i
 =
 0
@@ -1984,7 +1984,7 @@ n
 ;
 for
 (
-PRUint32
+uint32_t
 i
 =
 0
@@ -2090,7 +2090,7 @@ static
 void
 TestEntityConversion
 (
-PRUint32
+uint32_t
 version
 )
 {
@@ -2181,7 +2181,7 @@ n
 "
 )
 ;
-PRUint32
+uint32_t
 i
 ;
 nsString
@@ -2291,7 +2291,7 @@ PRUnichar
 *
 data
 ;
-PRUint32
+uint32_t
 length
 =
 NS_StringGetData
@@ -2693,7 +2693,7 @@ PRUnichar
 *
 data
 ;
-PRUint32
+uint32_t
 length
 =
 NS_StringGetData
@@ -2705,7 +2705,7 @@ data
 ;
 for
 (
-PRUint32
+uint32_t
 i
 =
 0
@@ -4113,7 +4113,7 @@ Test
 -
 NormalizeUnicode
 (
-PRUint32
+uint32_t
 const
 nsAString
 &

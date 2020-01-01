@@ -69,7 +69,7 @@ nsINodeList
 >
 childList
 ;
-PRUint32
+uint32_t
 childIdx
 ;
 WalkState
@@ -235,7 +235,7 @@ GetChildren
 mChildFilter
 )
 ;
-PRUint32
+uint32_t
 length
 =
 0

@@ -60,7 +60,7 @@ TaskbarPreviewButton
 TaskbarWindowPreview
 *
 preview
-PRUint32
+uint32_t
 index
 )
 :

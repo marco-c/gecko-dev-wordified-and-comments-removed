@@ -1112,7 +1112,7 @@ get
 )
 )
 ;
-PRInt16
+int16_t
 frameUIFlag
 ;
 aSettings

@@ -325,7 +325,7 @@ string
 ;
 }
 static
-PRUint32
+uint32_t
 CalculateVariantCount
 (
 char
@@ -333,7 +333,7 @@ char
 mimeTypes
 )
 {
-PRUint32
+uint32_t
 variants
 =
 1
@@ -389,7 +389,7 @@ char
 *
 MakeStringArray
 (
-PRUint32
+uint32_t
 variants
 char
 *
@@ -454,7 +454,7 @@ data
 ;
 for
 (
-PRUint32
+uint32_t
 i
 =
 0
@@ -517,7 +517,7 @@ static
 void
 FreeStringArray
 (
-PRUint32
+uint32_t
 variants
 char
 *
@@ -546,7 +546,7 @@ return
 ;
 for
 (
-PRUint32
+uint32_t
 i
 =
 0

@@ -511,7 +511,7 @@ sInitialized
 false
 ;
 static
-PRInt32
+int32_t
 sIsNative
 =
 1

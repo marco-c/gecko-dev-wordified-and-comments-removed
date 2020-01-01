@@ -270,9 +270,9 @@ const
 nsAString
 &
 aFromStr
-PRUint32
+uint32_t
 aFlags
-PRUint32
+uint32_t
 aWrapCol
 nsAString
 &
@@ -338,7 +338,7 @@ const
 nsAString
 &
 aFromStr
-PRUint32
+uint32_t
 aFlags
 nsAString
 &
@@ -578,7 +578,7 @@ const
 nsAString
 &
 aFragment
-PRUint32
+uint32_t
 aFlags
 bool
 aIsXML

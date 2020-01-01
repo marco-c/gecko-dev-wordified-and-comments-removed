@@ -329,7 +329,7 @@ virtual
 bool
 IsFrameOfType
 (
-PRUint32
+uint32_t
 aFlags
 )
 const
@@ -690,7 +690,7 @@ rv
 #
 ifdef
 DEBUG_REFLOW
-PRInt32
+int32_t
 gReflows
 =
 0

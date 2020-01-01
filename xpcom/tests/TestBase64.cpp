@@ -45,7 +45,7 @@ Chunk
 {
 Chunk
 (
-PRUint32
+uint32_t
 l
 const
 char
@@ -63,7 +63,7 @@ c
 )
 {
 }
-PRUint32
+uint32_t
 mLength
 ;
 const
@@ -547,7 +547,7 @@ aResult
 ;
 private
 :
-PRUint32
+uint32_t
 mTestNumber
 ;
 const
@@ -592,7 +592,7 @@ FakeInputStream
 :
 Available
 (
-PRUint64
+uint64_t
 *
 aAvailable
 )
@@ -651,9 +651,9 @@ Read
 char
 *
 aBuffer
-PRUint32
+uint32_t
 aCount
-PRUint32
+uint32_t
 *
 aOut
 )
@@ -673,9 +673,9 @@ aWriter
 void
 *
 aClosure
-PRUint32
+uint32_t
 aCount
-PRUint32
+uint32_t
 *
 aRead
 )
@@ -700,7 +700,7 @@ mChunk
 mLength
 )
 {
-PRUint32
+uint32_t
 written
 =
 0

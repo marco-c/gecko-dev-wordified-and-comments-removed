@@ -206,7 +206,7 @@ IsBlack
 {
 for
 (
-PRUint32
+uint32_t
 i
 =
 0
@@ -370,7 +370,7 @@ nsBaseContentList
 :
 GetLength
 (
-PRUint32
+uint32_t
 *
 aLength
 )
@@ -394,7 +394,7 @@ nsBaseContentList
 :
 Item
 (
-PRUint32
+uint32_t
 aIndex
 nsIDOMNode
 *
@@ -441,7 +441,7 @@ nsBaseContentList
 :
 GetNodeAt
 (
-PRUint32
+uint32_t
 aIndex
 )
 {
@@ -454,7 +454,7 @@ aIndex
 )
 ;
 }
-PRInt32
+int32_t
 nsBaseContentList
 :
 :
@@ -476,7 +476,7 @@ aContent
 )
 ;
 }
-PRInt32
+int32_t
 nsBaseContentList
 :
 :
@@ -595,7 +595,7 @@ nsSimpleContentList
 aForm
 )
 {
-PRUint32
+uint32_t
 i
 length
 =
@@ -788,7 +788,7 @@ NS_GetContentList
 nsINode
 *
 aRootNode
-PRInt32
+int32_t
 aMatchNameSpaceId
 const
 nsAString
@@ -1359,7 +1359,7 @@ nsContentList
 nsINode
 *
 aRootNode
-PRInt32
+int32_t
 aMatchNameSpaceId
 nsIAtom
 *
@@ -1524,7 +1524,7 @@ aDeep
 nsIAtom
 *
 aMatchAtom
-PRInt32
+int32_t
 aMatchNameSpaceId
 bool
 aFuncMayDependOnAttr
@@ -1754,7 +1754,7 @@ NS_IMPL_RELEASE_INHERITED
 nsContentList
 nsBaseContentList
 )
-PRUint32
+uint32_t
 nsContentList
 :
 :
@@ -1784,7 +1784,7 @@ nsContentList
 :
 Item
 (
-PRUint32
+uint32_t
 aIndex
 bool
 aDoFlush
@@ -1904,7 +1904,7 @@ BringSelfUpToDate
 aDoFlush
 )
 ;
-PRUint32
+uint32_t
 i
 count
 =
@@ -2001,7 +2001,7 @@ return
 nullptr
 ;
 }
-PRInt32
+int32_t
 nsContentList
 :
 :
@@ -2028,7 +2028,7 @@ aContent
 )
 ;
 }
-PRInt32
+int32_t
 nsContentList
 :
 :
@@ -2078,7 +2078,7 @@ nsContentList
 :
 GetLength
 (
-PRUint32
+uint32_t
 *
 aLength
 )
@@ -2101,7 +2101,7 @@ nsContentList
 :
 Item
 (
-PRUint32
+uint32_t
 aIndex
 nsIDOMNode
 *
@@ -2195,7 +2195,7 @@ nsContentList
 :
 GetNodeAt
 (
-PRUint32
+uint32_t
 aIndex
 )
 {
@@ -2255,12 +2255,12 @@ aDocument
 Element
 *
 aElement
-PRInt32
+int32_t
 aNameSpaceID
 nsIAtom
 *
 aAttribute
-PRInt32
+int32_t
 aModType
 )
 {
@@ -2376,7 +2376,7 @@ aContainer
 nsIContent
 *
 aFirstNewContent
-PRInt32
+int32_t
 aNewIndexInContainer
 )
 {
@@ -2426,7 +2426,7 @@ aContainer
 )
 return
 ;
-PRInt32
+int32_t
 count
 =
 aContainer
@@ -2443,7 +2443,7 @@ count
 0
 )
 {
-PRUint32
+uint32_t
 ourCount
 =
 mElements
@@ -2686,7 +2686,7 @@ aContainer
 nsIContent
 *
 aChild
-PRInt32
+int32_t
 aIndexInContainer
 )
 {
@@ -2747,7 +2747,7 @@ aContainer
 nsIContent
 *
 aChild
-PRInt32
+int32_t
 aIndexInContainer
 nsIContent
 *
@@ -3146,7 +3146,7 @@ nsContentList
 :
 PopulateSelf
 (
-PRUint32
+uint32_t
 aNeededLength
 )
 {
@@ -3161,7 +3161,7 @@ return
 }
 ASSERT_IN_SYNC
 ;
-PRUint32
+uint32_t
 count
 =
 mElements
@@ -3206,7 +3206,7 @@ aNeededLength
 )
 return
 ;
-PRUint32
+uint32_t
 elementsToAppend
 =
 aNeededLength
@@ -3216,7 +3216,7 @@ count
 #
 ifdef
 DEBUG
-PRUint32
+uint32_t
 invariant
 =
 elementsToAppend
@@ -3562,7 +3562,7 @@ LIST_UP_TO_DATE
 )
 PopulateSelf
 (
-PRUint32
+uint32_t
 (
 -
 1
@@ -3810,7 +3810,7 @@ First
 )
 ;
 }
-PRUint32
+uint32_t
 cnt
 =
 0

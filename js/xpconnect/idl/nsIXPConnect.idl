@@ -2510,7 +2510,7 @@ in
 nsIInterfaceInfo
 aInterfaceInfo
 in
-PRUint16
+uint16_t
 aMethodIndex
 out
 boolean
@@ -2852,12 +2852,12 @@ in
 nsIPrincipal
 aPrincipal
 in
-PRUint32
+uint32_t
 aFlags
 )
 ;
 const
-PRUint32
+uint32_t
 INIT_JS_STANDARD_CLASSES
 =
 1
@@ -2866,7 +2866,7 @@ INIT_JS_STANDARD_CLASSES
 0
 ;
 const
-PRUint32
+uint32_t
 FLAG_SYSTEM_GLOBAL_OBJECT
 =
 1
@@ -2875,7 +2875,7 @@ FLAG_SYSTEM_GLOBAL_OBJECT
 1
 ;
 const
-PRUint32
+uint32_t
 OMIT_COMPONENTS_OBJECT
 =
 1
@@ -3580,7 +3580,7 @@ in
 nsIXPCSecurityManager
 aManager
 in
-PRUint16
+uint16_t
 flags
 )
 ;
@@ -3594,7 +3594,7 @@ out
 nsIXPCSecurityManager
 aManager
 out
-PRUint16
+uint16_t
 flags
 )
 ;
@@ -3626,7 +3626,7 @@ in
 nsIXPCSecurityManager
 aManager
 in
-PRUint16
+uint16_t
 flags
 )
 ;
@@ -3637,7 +3637,7 @@ out
 nsIXPCSecurityManager
 aManager
 out
-PRUint16
+uint16_t
 flags
 )
 ;
@@ -3645,7 +3645,7 @@ nsIStackFrame
 createStackFrameLocation
 (
 in
-PRUint32
+uint32_t
 aLanguage
 in
 string
@@ -3654,7 +3654,7 @@ in
 string
 aFunctionName
 in
-PRInt32
+int32_t
 aLineNumber
 in
 nsIStackFrame
@@ -3728,7 +3728,7 @@ void
 debugDumpEvalInJSStackFrame
 (
 in
-PRUint32
+uint32_t
 aFrameNumber
 in
 string
@@ -4498,7 +4498,7 @@ void
 GarbageCollect
 (
 in
-PRUint32
+uint32_t
 reason
 )
 ;

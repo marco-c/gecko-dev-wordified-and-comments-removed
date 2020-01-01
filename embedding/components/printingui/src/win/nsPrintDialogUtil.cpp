@@ -673,7 +673,7 @@ true
 }
 ;
 const
-PRInt32
+int32_t
 kNumPaperSizes
 =
 41
@@ -684,7 +684,7 @@ MapPaperSizeToNativeEnum
 (
 LPDEVMODEW
 aDevMode
-PRInt16
+int16_t
 aType
 double
 aW
@@ -747,7 +747,7 @@ kThreshold
 ;
 for
 (
-PRInt32
+int32_t
 i
 =
 0
@@ -1013,7 +1013,7 @@ if
 aPrintSettings
 )
 {
-PRInt16
+int16_t
 type
 ;
 aPrintSettings
@@ -1036,7 +1036,7 @@ nsIPrintSettings
 kPaperSizeNativeData
 )
 {
-PRInt16
+int16_t
 paperEnum
 ;
 aPrintSettings
@@ -1084,7 +1084,7 @@ DM_PAPERSIZE
 }
 else
 {
-PRInt16
+int16_t
 unit
 ;
 double
@@ -1127,7 +1127,7 @@ height
 )
 ;
 }
-PRInt32
+int32_t
 orientation
 ;
 aPrintSettings
@@ -1164,7 +1164,7 @@ dmFields
 =
 DM_ORIENTATION
 ;
-PRInt32
+int32_t
 copies
 ;
 aPrintSettings
@@ -1234,7 +1234,7 @@ dmFields
 DM_ORIENTATION
 )
 {
-PRInt32
+int32_t
 orientation
 =
 aDevMode
@@ -1279,7 +1279,7 @@ aPrintSettings
 >
 SetNumCopies
 (
-PRInt32
+int32_t
 (
 aDevMode
 -
@@ -1399,7 +1399,7 @@ dmPaperSize
 ;
 for
 (
-PRInt32
+int32_t
 i
 =
 0
@@ -1483,7 +1483,7 @@ false
 ;
 for
 (
-PRInt32
+int32_t
 i
 =
 0
@@ -2388,7 +2388,7 @@ InitializeExtendedDialog
 (
 HWND
 hdlg
-PRInt16
+int16_t
 aHowToEnableFrameUI
 )
 {
@@ -2430,7 +2430,7 @@ strBundle
 )
 )
 {
-PRInt32
+int32_t
 i
 =
 0
@@ -2631,11 +2631,11 @@ NULL
 return
 0L
 ;
-PRInt16
+int16_t
 howToEnableFrameUI
 =
 (
-PRInt16
+int16_t
 )
 printDlg
 -
@@ -4011,7 +4011,7 @@ hPrinter
 ;
 }
 }
-PRUint32
+uint32_t
 len
 =
 printerName
@@ -4235,7 +4235,7 @@ PD_USEDEVMODECOPIESANDCOLLATE
 |
 PD_COLLATE
 ;
-PRInt16
+int16_t
 howToEnableFrameUI
 =
 nsIPrintSettings
@@ -4282,7 +4282,7 @@ GetHowToEnableFrameUI
 howToEnableFrameUI
 )
 ;
-PRInt32
+int32_t
 pg
 =
 1
@@ -5013,12 +5013,12 @@ Flags
 &
 PD_PAGENUMS
 ;
-PRInt32
+int32_t
 fromPageNum
 =
 0
 ;
-PRInt32
+int32_t
 toPageNum
 =
 0

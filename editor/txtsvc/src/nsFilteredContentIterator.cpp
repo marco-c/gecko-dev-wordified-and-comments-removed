@@ -723,7 +723,7 @@ nsIDOMNode
 *
 *
 aParent
-PRInt32
+int32_t
 *
 aOffset
 )
@@ -804,12 +804,12 @@ aIsPreMode
 nsIDOMNode
 *
 aStartNode
-PRInt32
+int32_t
 aStartOffset
 nsIDOMNode
 *
 aEndNode
-PRInt32
+int32_t
 aEndOffset
 )
 {
@@ -831,7 +831,7 @@ nsIDOMNode
 >
 parentNode
 ;
-PRInt32
+int32_t
 indx
 =
 0
@@ -862,7 +862,7 @@ aIsPreMode
 +
 indx
 ;
-PRInt32
+int32_t
 startRes
 =
 nsContentUtils
@@ -876,7 +876,7 @@ parentNode
 indx
 )
 ;
-PRInt32
+int32_t
 endRes
 =
 nsContentUtils
@@ -954,10 +954,10 @@ nsIDOMNode
 >
 eNode
 ;
-PRInt32
+int32_t
 sOffset
 ;
-PRInt32
+int32_t
 eOffset
 ;
 aRange

@@ -246,7 +246,7 @@ GetGrid
 nsIFrame
 *
 aBox
-PRInt32
+int32_t
 *
 aIndex
 nsGridRowLayout
@@ -405,7 +405,7 @@ if
 rowsBox
 )
 {
-PRInt32
+int32_t
 rows
 =
 mGrid
@@ -416,7 +416,7 @@ GetRowCount
 ;
 for
 (
-PRInt32
+int32_t
 i
 =
 0
@@ -457,7 +457,7 @@ if
 columnsBox
 )
 {
-PRInt32
+int32_t
 columns
 =
 mGrid
@@ -468,7 +468,7 @@ GetColumnCount
 ;
 for
 (
-PRInt32
+int32_t
 i
 =
 0
@@ -596,7 +596,7 @@ if
 rowsBox
 )
 {
-PRInt32
+int32_t
 rows
 =
 mGrid
@@ -607,7 +607,7 @@ GetRowCount
 ;
 for
 (
-PRInt32
+int32_t
 i
 =
 0
@@ -648,7 +648,7 @@ if
 columnsBox
 )
 {
-PRInt32
+int32_t
 columns
 =
 mGrid
@@ -659,7 +659,7 @@ GetColumnCount
 ;
 for
 (
-PRInt32
+int32_t
 i
 =
 0
@@ -793,7 +793,7 @@ height
 =
 0
 ;
-PRInt32
+int32_t
 rows
 =
 mGrid
@@ -804,7 +804,7 @@ GetRowCount
 ;
 for
 (
-PRInt32
+int32_t
 i
 =
 0
@@ -851,7 +851,7 @@ width
 =
 0
 ;
-PRInt32
+int32_t
 columns
 =
 mGrid
@@ -862,7 +862,7 @@ GetColumnCount
 ;
 for
 (
-PRInt32
+int32_t
 i
 =
 0
@@ -921,7 +921,7 @@ return
 maxSize
 ;
 }
-PRInt32
+int32_t
 nsGridLayout2
 :
 :

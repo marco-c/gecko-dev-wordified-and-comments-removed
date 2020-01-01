@@ -1437,7 +1437,7 @@ blue
 ;
 }
 static
-PRInt32
+int32_t
 CheckWidgetStyle
 (
 GtkWidget
@@ -1447,7 +1447,7 @@ const
 char
 *
 aStyle
-PRInt32
+int32_t
 aResult
 )
 {
@@ -1474,7 +1474,7 @@ aResult
 ;
 }
 static
-PRInt32
+int32_t
 ConvertGTKStepperStyleToMozillaScrollArrowStyle
 (
 GtkWidget
@@ -1586,7 +1586,7 @@ GetIntImpl
 (
 IntID
 aID
-PRInt32
+int32_t
 &
 aResult
 )
@@ -1719,7 +1719,7 @@ blink
 aResult
 =
 (
-PRInt32
+int32_t
 )
 blink_time
 ;
@@ -1864,7 +1864,7 @@ NULL
 aResult
 =
 (
-PRInt32
+int32_t
 )
 delay
 ;

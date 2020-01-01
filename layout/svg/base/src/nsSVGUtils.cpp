@@ -376,7 +376,7 @@ gfx
 ;
 static
 const
-PRUint8
+uint8_t
 glinearRGBTosRGBMap
 [
 256
@@ -643,7 +643,7 @@ glinearRGBTosRGBMap
 ;
 static
 const
-PRUint8
+uint8_t
 gsRGBToLinearRGBMap
 [
 256
@@ -1816,10 +1816,10 @@ nsSVGUtils
 :
 UnPremultiplyImageDataAlpha
 (
-PRUint8
+uint8_t
 *
 data
-PRInt32
+int32_t
 stride
 const
 nsIntRect
@@ -1829,7 +1829,7 @@ rect
 {
 for
 (
-PRInt32
+int32_t
 y
 =
 rect
@@ -1851,7 +1851,7 @@ y
 {
 for
 (
-PRInt32
+int32_t
 x
 =
 rect
@@ -1871,7 +1871,7 @@ x
 +
 )
 {
-PRUint8
+uint8_t
 *
 pixel
 =
@@ -1885,7 +1885,7 @@ y
 *
 x
 ;
-PRUint8
+uint8_t
 a
 =
 pixel
@@ -1989,10 +1989,10 @@ nsSVGUtils
 :
 PremultiplyImageDataAlpha
 (
-PRUint8
+uint8_t
 *
 data
-PRInt32
+int32_t
 stride
 const
 nsIntRect
@@ -2002,7 +2002,7 @@ rect
 {
 for
 (
-PRInt32
+int32_t
 y
 =
 rect
@@ -2024,7 +2024,7 @@ y
 {
 for
 (
-PRInt32
+int32_t
 x
 =
 rect
@@ -2044,7 +2044,7 @@ x
 +
 )
 {
-PRUint8
+uint8_t
 *
 pixel
 =
@@ -2058,7 +2058,7 @@ y
 *
 x
 ;
-PRUint8
+uint8_t
 a
 =
 pixel
@@ -2126,10 +2126,10 @@ nsSVGUtils
 :
 ConvertImageDataToLinearRGB
 (
-PRUint8
+uint8_t
 *
 data
-PRInt32
+int32_t
 stride
 const
 nsIntRect
@@ -2139,7 +2139,7 @@ rect
 {
 for
 (
-PRInt32
+int32_t
 y
 =
 rect
@@ -2161,7 +2161,7 @@ y
 {
 for
 (
-PRInt32
+int32_t
 x
 =
 rect
@@ -2181,7 +2181,7 @@ x
 +
 )
 {
-PRUint8
+uint8_t
 *
 pixel
 =
@@ -2243,10 +2243,10 @@ nsSVGUtils
 :
 ConvertImageDataFromLinearRGB
 (
-PRUint8
+uint8_t
 *
 data
-PRInt32
+int32_t
 stride
 const
 nsIntRect
@@ -2256,7 +2256,7 @@ rect
 {
 for
 (
-PRInt32
+int32_t
 y
 =
 rect
@@ -2278,7 +2278,7 @@ y
 {
 for
 (
-PRInt32
+int32_t
 x
 =
 rect
@@ -2298,7 +2298,7 @@ x
 +
 )
 {
-PRUint8
+uint8_t
 *
 pixel
 =
@@ -2372,7 +2372,7 @@ PRUnichar
 *
 *
 aParams
-PRUint32
+uint32_t
 aParamsLength
 )
 {
@@ -3474,7 +3474,7 @@ const
 nsRect
 *
 aBoundsSubArea
-PRUint32
+uint32_t
 aFlags
 )
 {
@@ -3645,7 +3645,7 @@ GetParent
 )
 ;
 }
-PRInt32
+int32_t
 appUnitsPerCSSPx
 =
 aFrame
@@ -4992,7 +4992,7 @@ zero
 "
 )
 ;
-PRUint16
+uint16_t
 align
 =
 aPreserveAspectRatio
@@ -5001,7 +5001,7 @@ GetAlign
 (
 )
 ;
-PRUint16
+uint16_t
 meetOrSlice
 =
 aPreserveAspectRatio
@@ -5431,7 +5431,7 @@ GetCanvasTM
 nsIFrame
 *
 aFrame
-PRUint32
+uint32_t
 aFor
 )
 {
@@ -5630,7 +5630,7 @@ GetUserToCanvasTM
 nsIFrame
 *
 aFrame
-PRUint32
+uint32_t
 aFor
 )
 {
@@ -5731,7 +5731,7 @@ NotifyChildrenOfSVGChange
 nsIFrame
 *
 aFrame
-PRUint32
+uint32_t
 aFlags
 )
 {
@@ -6190,7 +6190,7 @@ GetPosition
 )
 ;
 }
-PRUint32
+uint32_t
 appUnitsPerDevPx
 =
 aFrame
@@ -8376,7 +8376,7 @@ aRect
 =
 nsIntRect
 (
-PRInt32
+int32_t
 (
 r
 .
@@ -8384,7 +8384,7 @@ X
 (
 )
 )
-PRInt32
+int32_t
 (
 r
 .
@@ -8392,7 +8392,7 @@ Y
 (
 )
 )
-PRInt32
+int32_t
 (
 r
 .
@@ -8400,7 +8400,7 @@ Width
 (
 )
 )
-PRInt32
+int32_t
 (
 r
 .
@@ -8420,7 +8420,7 @@ GetBBox
 nsIFrame
 *
 aFrame
-PRUint32
+uint32_t
 aFlags
 )
 {
@@ -8726,7 +8726,7 @@ nsSVGUtils
 :
 GetRelativeRect
 (
-PRUint16
+uint16_t
 aUnits
 const
 nsSVGLength2
@@ -9397,7 +9397,7 @@ Data
 (
 )
 ;
-PRInt32
+int32_t
 stride
 =
 aSurface
@@ -10837,7 +10837,7 @@ GetStyleSVG
 (
 )
 ;
-PRUint32
+uint32_t
 count
 =
 style
@@ -11006,7 +11006,7 @@ totalLength
 ;
 for
 (
-PRUint32
+uint32_t
 i
 =
 0
@@ -11152,7 +11152,7 @@ dashOffset
 ;
 }
 }
-PRUint16
+uint16_t
 nsSVGUtils
 :
 :
@@ -11163,7 +11163,7 @@ nsIFrame
 aFrame
 )
 {
-PRUint16
+uint16_t
 flags
 =
 0

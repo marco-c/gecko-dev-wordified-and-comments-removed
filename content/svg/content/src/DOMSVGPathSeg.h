@@ -87,7 +87,7 @@ CreateFor
 DOMSVGPathSegList
 *
 aList
-PRUint32
+uint32_t
 aListIndex
 bool
 aIsAnimValItem
@@ -132,14 +132,14 @@ InsertingIntoList
 DOMSVGPathSegList
 *
 aList
-PRUint32
+uint32_t
 aListIndex
 bool
 aIsAnimValItem
 )
 ;
 static
-PRUint32
+uint32_t
 MaxListIndex
 (
 )
@@ -158,7 +158,7 @@ MOZ_SVG_LIST_INDEX_BIT_COUNT
 void
 UpdateListIndex
 (
-PRUint32
+uint32_t
 aListIndex
 )
 {
@@ -181,7 +181,7 @@ aData
 )
 ;
 virtual
-PRUint32
+uint32_t
 Type
 (
 )
@@ -196,7 +196,7 @@ DOMSVGPathSeg
 DOMSVGPathSegList
 *
 aList
-PRUint32
+uint32_t
 aListIndex
 bool
 aIsAnimValItem
@@ -275,12 +275,12 @@ DOMSVGPathSegList
 >
 mList
 ;
-PRUint32
+uint32_t
 mListIndex
 :
 MOZ_SVG_LIST_INDEX_BIT_COUNT
 ;
-PRUint32
+uint32_t
 mIsAnimValItem
 :
 1

@@ -470,7 +470,7 @@ PRTime
 now
 )
 {
-PRUint32
+uint32_t
 i
 ;
 for
@@ -613,7 +613,7 @@ POST
 )
 )
 {
-PRUint32
+uint32_t
 i
 ;
 for
@@ -671,7 +671,7 @@ false
 }
 for
 (
-PRUint32
+uint32_t
 i
 =
 0
@@ -689,7 +689,7 @@ Length
 i
 )
 {
-PRUint32
+uint32_t
 j
 ;
 for
@@ -1739,7 +1739,7 @@ aPreflightHeaders
 {
 for
 (
-PRUint32
+uint32_t
 i
 =
 0
@@ -2636,7 +2636,7 @@ header
 }
 for
 (
-PRUint32
+uint32_t
 i
 =
 0
@@ -2749,9 +2749,9 @@ aContext
 nsIInputStream
 *
 aInputStream
-PRUint32
+uint32_t
 aOffset
-PRUint32
+uint32_t
 aCount
 )
 {
@@ -2855,7 +2855,7 @@ aOldChannel
 nsIChannel
 *
 aNewChannel
-PRUint32
+uint32_t
 aFlags
 nsIAsyncVerifyRedirectCallback
 *
@@ -3505,7 +3505,7 @@ headers
 ;
 for
 (
-PRUint32
+uint32_t
 i
 =
 0
@@ -3820,7 +3820,7 @@ IsEmpty
 return
 ;
 }
-PRUint32
+uint32_t
 age
 =
 0
@@ -3941,7 +3941,7 @@ PR_Now
 )
 +
 (
-PRUint64
+uint64_t
 )
 age
 *
@@ -4034,7 +4034,7 @@ IsEmpty
 continue
 ;
 }
-PRUint32
+uint32_t
 i
 ;
 for
@@ -4209,7 +4209,7 @@ IsEmpty
 continue
 ;
 }
-PRUint32
+uint32_t
 i
 ;
 for
@@ -4482,13 +4482,13 @@ ctxt
 nsIInputStream
 *
 inStr
-PRUint32
+uint32_t
 sourceOffset
-PRUint32
+uint32_t
 count
 )
 {
-PRUint32
+uint32_t
 totalRead
 ;
 return
@@ -4517,7 +4517,7 @@ aOldChannel
 nsIChannel
 *
 aNewChannel
-PRUint32
+uint32_t
 aFlags
 nsIAsyncVerifyRedirectCallback
 *

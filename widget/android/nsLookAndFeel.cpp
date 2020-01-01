@@ -231,11 +231,11 @@ CallRemoteGetSystemColors
 {
 InfallibleTArray
 <
-PRUint32
+uint32_t
 >
 colors
 ;
-PRUint32
+uint32_t
 colorsCount
 =
 sizeof
@@ -1086,7 +1086,7 @@ GetIntImpl
 (
 IntID
 aID
-PRInt32
+int32_t
 &
 aResult
 )
@@ -1519,7 +1519,7 @@ return
 mShowPassword
 ;
 }
-PRUint32
+uint32_t
 nsLookAndFeel
 :
 :

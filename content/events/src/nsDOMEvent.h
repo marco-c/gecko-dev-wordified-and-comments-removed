@@ -291,7 +291,7 @@ aCx
 JSObject
 *
 aObj
-PRUint32
+uint32_t
 aArgc
 jsval
 *
@@ -349,7 +349,7 @@ char
 *
 GetEventName
 (
-PRUint32
+uint32_t
 aEventType
 )
 ;
@@ -518,7 +518,7 @@ aCurrentTarget
 NS_IMETHOD
 GetEventPhase
 (
-PRUint16
+uint16_t
 *
 aEventPhase
 )

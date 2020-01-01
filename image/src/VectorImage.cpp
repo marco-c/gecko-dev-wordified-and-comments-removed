@@ -382,7 +382,7 @@ const
 nsIntRect
 &
 aViewport
-PRUint32
+uint32_t
 aImageFlags
 )
 :
@@ -438,7 +438,7 @@ const
 nsIntRect
 mViewport
 ;
-PRUint32
+uint32_t
 mImageFlags
 ;
 }
@@ -649,7 +649,7 @@ height
 )
 )
 ;
-PRUint32
+uint32_t
 renderDocFlags
 =
 nsIPresShell
@@ -781,7 +781,7 @@ const
 char
 *
 aURIString
-PRUint32
+uint32_t
 aFlags
 )
 {
@@ -1033,7 +1033,7 @@ VectorImage
 :
 GetWidth
 (
-PRInt32
+int32_t
 *
 aWidth
 )
@@ -1111,7 +1111,7 @@ VectorImage
 :
 GetHeight
 (
-PRInt32
+int32_t
 *
 aHeight
 )
@@ -1170,7 +1170,7 @@ VectorImage
 :
 GetType
 (
-PRUint16
+uint16_t
 *
 aType
 )
@@ -1193,7 +1193,7 @@ NS_OK
 }
 NS_IMETHODIMP_
 (
-PRUint16
+uint16_t
 )
 VectorImage
 :
@@ -1276,9 +1276,9 @@ VectorImage
 :
 GetFrame
 (
-PRUint32
+uint32_t
 aWhichFrame
-PRUint32
+uint32_t
 aFlags
 gfxASurface
 *
@@ -1342,9 +1342,9 @@ VectorImage
 :
 CopyFrame
 (
-PRUint32
+uint32_t
 aWhichFrame
-PRUint32
+uint32_t
 aFlags
 gfxImageSurface
 *
@@ -1561,13 +1561,13 @@ VectorImage
 :
 ExtractFrame
 (
-PRUint32
+uint32_t
 aWhichFrame
 const
 nsIntRect
 &
 aRegion
-PRUint32
+uint32_t
 aFlags
 imgIContainer
 *
@@ -1771,7 +1771,7 @@ const
 nsIntSize
 &
 aViewportSize
-PRUint32
+uint32_t
 aFlags
 )
 {
@@ -2355,9 +2355,9 @@ aCtxt
 nsIInputStream
 *
 aInStr
-PRUint32
+uint32_t
 aSourceOffset
-PRUint32
+uint32_t
 aCount
 )
 {

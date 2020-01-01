@@ -463,7 +463,7 @@ retainedRegion
 ;
 }
 static
-PRUint64
+uint64_t
 RectArea
 (
 const
@@ -477,7 +477,7 @@ aRect
 .
 width
 *
-PRUint64
+uint64_t
 (
 aRect
 .
@@ -2341,7 +2341,7 @@ CallbackData
 ;
 for
 (
-PRUint32
+uint32_t
 i
 =
 0
@@ -2766,7 +2766,7 @@ lengths
 ;
 for
 (
-PRUint32
+uint32_t
 i
 =
 0

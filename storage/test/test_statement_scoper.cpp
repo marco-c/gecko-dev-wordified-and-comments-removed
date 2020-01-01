@@ -81,7 +81,7 @@ stmt
 )
 )
 ;
-PRInt32
+int32_t
 state
 =
 -
@@ -262,7 +262,7 @@ stmt
 )
 )
 ;
-PRInt32
+int32_t
 state
 =
 -

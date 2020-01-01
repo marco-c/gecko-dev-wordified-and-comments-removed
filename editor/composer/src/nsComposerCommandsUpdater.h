@@ -349,10 +349,10 @@ mDOMWindow
 nsWeakPtr
 mDocShell
 ;
-PRInt8
+int8_t
 mDirtyState
 ;
-PRInt8
+int8_t
 mSelectionCollapsed
 ;
 bool

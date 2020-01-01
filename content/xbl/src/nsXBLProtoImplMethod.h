@@ -167,12 +167,12 @@ delete
 mParameters
 ;
 }
-PRInt32
+int32_t
 GetParameterCount
 (
 )
 {
-PRInt32
+int32_t
 result
 =
 0
@@ -270,7 +270,7 @@ param
 void
 SetLineNumber
 (
-PRUint32
+uint32_t
 aLineNumber
 )
 {
@@ -327,7 +327,7 @@ aName
 void
 SetLineNumber
 (
-PRUint32
+uint32_t
 aLineNumber
 )
 ;

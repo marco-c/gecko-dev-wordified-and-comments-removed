@@ -499,7 +499,7 @@ newTitleNode
 =
 false
 ;
-PRUint32
+uint32_t
 newTitleIndex
 =
 0

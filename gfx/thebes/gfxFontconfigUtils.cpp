@@ -135,7 +135,7 @@ gLangService
 )
 ;
 }
-PRUint8
+uint8_t
 gfxFontconfigUtils
 :
 :
@@ -169,7 +169,7 @@ NS_FONT_STYLE_NORMAL
 ;
 }
 }
-PRUint8
+uint8_t
 gfxFontconfigUtils
 :
 :
@@ -316,7 +316,7 @@ FC_WEIGHT_EXTRABLACK
 215
 #
 endif
-PRUint16
+uint16_t
 gfxFontconfigUtils
 :
 :
@@ -495,7 +495,7 @@ gfxFontconfigUtils
 :
 FcWeightForBaseWeight
 (
-PRInt8
+int8_t
 aBaseWeight
 )
 {
@@ -584,7 +584,7 @@ FC_WEIGHT_THIN
 FC_WEIGHT_EXTRABLACK
 ;
 }
-PRInt16
+int16_t
 gfxFontconfigUtils
 :
 :
@@ -771,7 +771,7 @@ gfxFontconfigUtils
 :
 FcWidthForThebesStretch
 (
-PRInt16
+int16_t
 aStretch
 )
 {
@@ -844,7 +844,7 @@ gfxFontStyle
 aFontStyle
 )
 {
-PRInt8
+int8_t
 weight
 =
 aFontStyle
@@ -1151,7 +1151,7 @@ false
 ;
 for
 (
-PRUint32
+uint32_t
 i
 =
 0
@@ -1197,7 +1197,7 @@ get
 ;
 for
 (
-PRUint32
+uint32_t
 g
 =
 0
@@ -1363,7 +1363,7 @@ rv
 ;
 for
 (
-PRUint32
+uint32_t
 i
 =
 0
@@ -1401,7 +1401,7 @@ Sort
 (
 )
 ;
-PRInt32
+int32_t
 serif
 =
 0
@@ -3131,7 +3131,7 @@ end
 }
 for
 (
-PRUint32
+uint32_t
 j
 =
 0
@@ -3940,7 +3940,7 @@ FcLangDifferentLang
 ;
 for
 (
-PRUint32
+uint32_t
 i
 =
 0
@@ -4576,7 +4576,7 @@ aName
 {
 for
 (
-PRUint32
+uint32_t
 i
 =
 0

@@ -7,7 +7,9 @@ nsAtomListUtils_h__
 #
 include
 "
-prtypes
+mozilla
+/
+StandardInteger
 .
 h
 "
@@ -33,7 +35,7 @@ const
 nsStaticAtom
 *
 aInfo
-PRUint32
+uint32_t
 aInfoCount
 )
 ;

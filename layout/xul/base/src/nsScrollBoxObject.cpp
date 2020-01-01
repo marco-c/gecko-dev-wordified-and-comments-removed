@@ -147,9 +147,9 @@ nsScrollBoxObject
 :
 ScrollTo
 (
-PRInt32
+int32_t
 x
-PRInt32
+int32_t
 y
 )
 {
@@ -191,13 +191,13 @@ nsScrollBoxObject
 :
 ScrollBy
 (
-PRInt32
+int32_t
 dx
-PRInt32
+int32_t
 dy
 )
 {
-PRInt32
+int32_t
 x
 y
 ;
@@ -240,7 +240,7 @@ nsScrollBoxObject
 :
 ScrollByLine
 (
-PRInt32
+int32_t
 dlines
 )
 {
@@ -385,7 +385,7 @@ nsScrollBoxObject
 :
 ScrollByIndex
 (
-PRInt32
+int32_t
 dindexes
 )
 {
@@ -461,7 +461,7 @@ diff
 =
 0
 ;
-PRInt32
+int32_t
 curIndex
 =
 0
@@ -476,7 +476,7 @@ IsNormalDirection
 (
 )
 ;
-PRInt32
+int32_t
 frameWidth
 =
 0
@@ -633,7 +633,7 @@ curIndex
 +
 ;
 }
-PRInt32
+int32_t
 count
 =
 0
@@ -884,7 +884,7 @@ nsScrollBoxObject
 :
 ScrollToLine
 (
-PRInt32
+int32_t
 line
 )
 {
@@ -1066,7 +1066,7 @@ nsScrollBoxObject
 :
 ScrollToIndex
 (
-PRInt32
+int32_t
 index
 )
 {
@@ -1080,10 +1080,10 @@ nsScrollBoxObject
 :
 GetPosition
 (
-PRInt32
+int32_t
 *
 x
-PRInt32
+int32_t
 *
 y
 )
@@ -1138,10 +1138,10 @@ nsScrollBoxObject
 :
 GetScrolledSize
 (
-PRInt32
+int32_t
 *
 width
-PRInt32
+int32_t
 *
 height
 )
@@ -1290,7 +1290,7 @@ nsScrollBoxObject
 :
 EnsureIndexIsVisible
 (
-PRInt32
+int32_t
 index
 )
 {
@@ -1304,7 +1304,7 @@ nsScrollBoxObject
 :
 EnsureLineIsVisible
 (
-PRInt32
+int32_t
 line
 )
 {

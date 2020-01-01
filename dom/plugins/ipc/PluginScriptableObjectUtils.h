@@ -717,7 +717,7 @@ const
 NPVariant
 *
 aArgs
-PRUint32
+uint32_t
 aCount
 PluginInstanceParent
 *
@@ -731,7 +731,7 @@ false
 {
 for
 (
-PRUint32
+uint32_t
 index
 =
 0
@@ -795,7 +795,7 @@ const
 NPVariant
 *
 aArgs
-PRUint32
+uint32_t
 aCount
 PluginInstanceChild
 *
@@ -809,7 +809,7 @@ false
 {
 for
 (
-PRUint32
+uint32_t
 index
 =
 0
@@ -883,7 +883,7 @@ EnsureAndGetShadowArray
 (
 )
 ;
-PRUint32
+uint32_t
 count
 =
 vars
@@ -894,7 +894,7 @@ Length
 ;
 for
 (
-PRUint32
+uint32_t
 index
 =
 0

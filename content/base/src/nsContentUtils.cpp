@@ -1293,7 +1293,7 @@ nsContentUtils
 :
 sWordBreaker
 ;
-PRUint32
+uint32_t
 nsContentUtils
 :
 :
@@ -1313,7 +1313,7 @@ nullptr
 ;
 #
 endif
-PRUint32
+uint32_t
 nsContentUtils
 :
 :
@@ -1324,7 +1324,7 @@ sScriptBlockerCount
 #
 ifdef
 DEBUG
-PRUint32
+uint32_t
 nsContentUtils
 :
 :
@@ -1334,7 +1334,7 @@ sDOMNodeRemovedSuppressCount
 ;
 #
 endif
-PRUint32
+uint32_t
 nsContentUtils
 :
 :
@@ -1357,7 +1357,7 @@ sBlockedScriptRunners
 =
 nullptr
 ;
-PRUint32
+uint32_t
 nsContentUtils
 :
 :
@@ -1476,7 +1476,7 @@ sIsIdleObserverAPIEnabled
 =
 false
 ;
-PRUint32
+uint32_t
 nsContentUtils
 :
 :
@@ -1541,35 +1541,35 @@ kViewportMaxScale
 ;
 static
 const
-PRUint32
+uint32_t
 kViewportMinWidth
 =
 200
 ;
 static
 const
-PRUint32
+uint32_t
 kViewportMaxWidth
 =
 10000
 ;
 static
 const
-PRUint32
+uint32_t
 kViewportMinHeight
 =
 223
 ;
 static
 const
-PRUint32
+uint32_t
 kViewportMaxHeight
 =
 10000
 ;
 static
 const
-PRInt32
+int32_t
 kViewportDefaultScreenWidth
 =
 980
@@ -2867,7 +2867,7 @@ eventArray
 ;
 for
 (
-PRUint32
+uint32_t
 i
 =
 0
@@ -3021,7 +3021,7 @@ nullptr
 ;
 for
 (
-PRUint32
+uint32_t
 i
 =
 0
@@ -3118,7 +3118,7 @@ EndReading
 done_reading
 )
 ;
-PRUint32
+uint32_t
 fragmentLength
 =
 0
@@ -3147,7 +3147,7 @@ iter
 .
 advance
 (
-PRInt32
+int32_t
 (
 fragmentLength
 )
@@ -3156,7 +3156,7 @@ fragmentLength
 {
 fragmentLength
 =
-PRUint32
+uint32_t
 (
 iter
 .
@@ -3944,7 +3944,7 @@ result
 2
 ]
 ;
-PRUint32
+uint32_t
 count
 =
 MOZ_XMLTranslateEntity
@@ -4057,7 +4057,7 @@ const
 nsString
 &
 aName
-PRUint32
+uint32_t
 *
 aFlags
 )
@@ -4472,7 +4472,7 @@ Truncate
 (
 )
 ;
-PRInt32
+int32_t
 semiIndex
 =
 aValue
@@ -4553,7 +4553,7 @@ nsContentUtils
 :
 IsUserIdle
 (
-PRUint32
+uint32_t
 aRequestedIdleTimeInMS
 bool
 *
@@ -4592,7 +4592,7 @@ rv
 rv
 )
 ;
-PRUint32
+uint32_t
 idleTimeInMS
 ;
 rv
@@ -4667,7 +4667,7 @@ return
 sParserService
 ;
 }
-PRUint32
+uint32_t
 nsContentUtils
 :
 :
@@ -4679,7 +4679,7 @@ nsAString
 aSandboxAttrValue
 )
 {
-PRUint32
+uint32_t
 out
 =
 SANDBOXED_NAVIGATION
@@ -5226,7 +5226,7 @@ mWritten
 )
 {
 }
-PRUint32
+uint32_t
 GetCharsWritten
 (
 )
@@ -5255,7 +5255,7 @@ OutputIterator
 value_type
 *
 aSource
-PRUint32
+uint32_t
 aSourceLength
 )
 {
@@ -5307,7 +5307,7 @@ mLastCharCR
 false
 ;
 }
-PRUint32
+uint32_t
 num_written
 =
 0
@@ -5418,12 +5418,12 @@ OutputIterator
 *
 mDestination
 ;
-PRUint32
+uint32_t
 mWritten
 ;
 }
 ;
-PRUint32
+uint32_t
 nsContentUtils
 :
 :
@@ -5433,12 +5433,12 @@ const
 nsAString
 &
 aSource
-PRUint32
+uint32_t
 aSrcOffset
 PRUnichar
 *
 aDest
-PRUint32
+uint32_t
 aLength
 bool
 &
@@ -5488,7 +5488,7 @@ fromBegin
 .
 advance
 (
-PRInt32
+int32_t
 (
 aSrcOffset
 )
@@ -5502,7 +5502,7 @@ fromEnd
 .
 advance
 (
-PRInt32
+int32_t
 (
 aSrcOffset
 +
@@ -5528,7 +5528,7 @@ GetCharsWritten
 )
 ;
 }
-PRUint32
+uint32_t
 nsContentUtils
 :
 :
@@ -5613,11 +5613,11 @@ nsContentUtils
 :
 IsFirstLetterPunctuation
 (
-PRUint32
+uint32_t
 aChar
 )
 {
-PRUint8
+uint8_t
 cat
 =
 mozilla
@@ -5674,7 +5674,7 @@ const
 nsTextFragment
 *
 aFrag
-PRUint32
+uint32_t
 aOffset
 )
 {
@@ -5768,7 +5768,7 @@ nsContentUtils
 :
 IsAlphanumeric
 (
-PRUint32
+uint32_t
 aChar
 )
 {
@@ -5820,7 +5820,7 @@ const
 nsTextFragment
 *
 aFrag
-PRUint32
+uint32_t
 aOffset
 )
 {
@@ -6607,7 +6607,7 @@ return
 false
 ;
 }
-PRInt32
+int32_t
 start
 =
 0
@@ -6634,7 +6634,7 @@ count
 if
 (
 (
-PRUint32
+uint32_t
 )
 end
 >
@@ -6694,7 +6694,7 @@ false
 nsresult
 ec
 ;
-PRInt32
+int32_t
 val
 =
 nsString
@@ -6785,7 +6785,7 @@ return
 true
 ;
 }
-PRInt32
+int32_t
 nsContentUtils
 :
 :
@@ -6942,7 +6942,7 @@ return
 0
 ;
 }
-PRInt32
+int32_t
 value
 =
 0
@@ -7291,7 +7291,7 @@ sTriedToGetContentPolicy
 =
 false
 ;
-PRUint32
+uint32_t
 i
 ;
 for
@@ -8894,7 +8894,7 @@ GetAncestorsAndOffsets
 nsIDOMNode
 *
 aNode
-PRInt32
+int32_t
 aOffset
 nsTArray
 <
@@ -8905,7 +8905,7 @@ nsIContent
 aAncestorNodes
 nsTArray
 <
-PRInt32
+int32_t
 >
 *
 aAncestorOffsets
@@ -9240,7 +9240,7 @@ while
 aNode2
 )
 ;
-PRUint32
+uint32_t
 pos1
 =
 parents1
@@ -9249,7 +9249,7 @@ Length
 (
 )
 ;
-PRUint32
+uint32_t
 pos2
 =
 parents2
@@ -9264,7 +9264,7 @@ parent
 =
 nullptr
 ;
-PRUint32
+uint32_t
 len
 ;
 for
@@ -9332,7 +9332,7 @@ return
 parent
 ;
 }
-PRInt32
+int32_t
 nsContentUtils
 :
 :
@@ -9341,12 +9341,12 @@ ComparePoints
 nsINode
 *
 aParent1
-PRInt32
+int32_t
 aOffset1
 nsINode
 *
 aParent2
-PRInt32
+int32_t
 aOffset2
 bool
 *
@@ -9447,7 +9447,7 @@ while
 node2
 )
 ;
-PRUint32
+uint32_t
 pos1
 =
 parents1
@@ -9458,7 +9458,7 @@ Length
 -
 1
 ;
-PRUint32
+uint32_t
 pos2
 =
 parents2
@@ -9528,7 +9528,7 @@ ElementAt
 pos1
 )
 ;
-PRUint32
+uint32_t
 len
 ;
 for
@@ -9703,7 +9703,7 @@ aOffset2
 1
 ;
 }
-PRInt32
+int32_t
 nsContentUtils
 :
 :
@@ -9712,12 +9712,12 @@ ComparePoints
 nsIDOMNode
 *
 aParent1
-PRInt32
+int32_t
 aOffset1
 nsIDOMNode
 *
 aParent2
-PRInt32
+int32_t
 aOffset2
 bool
 *
@@ -10164,7 +10164,7 @@ inline
 void
 KeyAppendInt
 (
-PRInt32
+int32_t
 aInt
 nsACString
 &
@@ -10292,7 +10292,7 @@ Truncate
 (
 )
 ;
-PRUint32
+uint32_t
 partID
 =
 aDocument
@@ -10485,7 +10485,7 @@ GetType
 aKey
 )
 ;
-PRInt32
+int32_t
 index
 =
 -
@@ -11158,7 +11158,7 @@ const
 nsAFlatString
 &
 aQName
-PRInt32
+int32_t
 *
 aNamespace
 nsIAtom
@@ -11319,7 +11319,7 @@ aQualifiedName
 nsNodeInfoManager
 *
 aNodeInfoManager
-PRUint16
+uint16_t
 aNodeType
 nsINodeInfo
 *
@@ -11362,7 +11362,7 @@ rv
 rv
 )
 ;
-PRInt32
+int32_t
 nsID
 ;
 sNameSpaceManager
@@ -11512,7 +11512,7 @@ nsIAtom
 *
 *
 aLocalName
-PRInt32
+int32_t
 *
 aNameSpaceID
 )
@@ -11775,7 +11775,7 @@ aLoadingDocument
 nsIPrincipal
 *
 aLoadingPrincipal
-PRInt16
+int16_t
 *
 aImageBlockingStatus
 )
@@ -11817,7 +11817,7 @@ principal
 nsresult
 rv
 ;
-PRUint32
+uint32_t
 appType
 =
 nsIDocShell
@@ -11966,7 +11966,7 @@ false
 ;
 }
 }
-PRInt16
+int16_t
 decision
 =
 nsIContentPolicy
@@ -12114,7 +12114,7 @@ aReferrer
 imgIDecoderObserver
 *
 aObserver
-PRInt32
+int32_t
 aLoadFlags
 imgIRequest
 *
@@ -12688,7 +12688,7 @@ const
 char
 *
 aType
-PRUint32
+uint32_t
 aPerm
 )
 {
@@ -12733,7 +12733,7 @@ permMgr
 false
 )
 ;
-PRUint32
+uint32_t
 perm
 ;
 nsresult
@@ -12871,12 +12871,12 @@ nsContentUtils
 :
 GetEventArgNames
 (
-PRInt32
+int32_t
 aNameSpaceID
 nsIAtom
 *
 aEventName
-PRUint32
+uint32_t
 *
 aArgCount
 const
@@ -14020,7 +14020,7 @@ PRUnichar
 *
 *
 aParams
-PRUint32
+uint32_t
 aParamsLength
 nsXPIDLString
 &
@@ -14079,7 +14079,7 @@ nsContentUtils
 :
 ReportToConsole
 (
-PRUint32
+uint32_t
 aErrorFlags
 const
 char
@@ -14099,7 +14099,7 @@ PRUnichar
 *
 *
 aParams
-PRUint32
+uint32_t
 aParamsLength
 nsIURI
 *
@@ -14108,9 +14108,9 @@ const
 nsAFlatString
 &
 aSourceLine
-PRUint32
+uint32_t
 aLineNumber
-PRUint32
+uint32_t
 aColumnNumber
 )
 {
@@ -14151,7 +14151,7 @@ and
 "
 )
 ;
-PRUint64
+uint64_t
 innerWindowID
 =
 0
@@ -14284,7 +14284,7 @@ char
 *
 filename
 ;
-PRUint32
+uint32_t
 lineno
 ;
 if
@@ -14739,7 +14739,7 @@ docContainer
 )
 )
 ;
-PRInt32
+int32_t
 itemType
 =
 nsIDocShellTreeItem
@@ -14812,7 +14812,7 @@ IsEventAttributeName
 nsIAtom
 *
 aName
-PRInt32
+int32_t
 aType
 )
 {
@@ -14878,7 +14878,7 @@ aType
 )
 ;
 }
-PRUint32
+uint32_t
 nsContentUtils
 :
 :
@@ -14913,7 +14913,7 @@ return
 NS_USER_DEFINED_EVENT
 ;
 }
-PRUint32
+uint32_t
 nsContentUtils
 :
 :
@@ -14960,9 +14960,9 @@ const
 nsAString
 &
 aName
-PRUint32
+uint32_t
 aEventStruct
-PRUint32
+uint32_t
 *
 aEventID
 )
@@ -15842,7 +15842,7 @@ flatInput
 aInput
 )
 ;
-PRInt32
+int32_t
 srcLen
 =
 flatInput
@@ -15851,7 +15851,7 @@ Length
 (
 )
 ;
-PRInt32
+int32_t
 dstLen
 ;
 rv
@@ -15980,7 +15980,7 @@ unsigned
 char
 *
 aBuffer
-PRUint32
+uint32_t
 aLength
 nsACString
 &
@@ -16161,7 +16161,7 @@ const
 char
 *
 aData
-PRUint32
+uint32_t
 aDataLen
 nsACString
 &
@@ -16339,7 +16339,7 @@ sniffBuf
 3
 ]
 ;
-PRUint32
+uint32_t
 numRead
 =
 (
@@ -16609,7 +16609,7 @@ const
 nsIContent
 *
 aContent
-PRInt32
+int32_t
 aNameSpaceID
 nsIAtom
 *
@@ -16662,7 +16662,7 @@ HasMutationListeners
 nsINode
 *
 aNode
-PRUint32
+uint32_t
 aType
 nsINode
 *
@@ -16923,7 +16923,7 @@ HasMutationListeners
 nsIDocument
 *
 aDocument
-PRUint32
+uint32_t
 aType
 )
 {
@@ -17136,7 +17136,7 @@ aTable
 PLDHashEntryHdr
 *
 aEntry
-PRUint32
+uint32_t
 aNumber
 void
 *
@@ -17236,7 +17236,7 @@ nsContentUtils
 :
 UnmarkGrayJSListenersInCCGenerationDocuments
 (
-PRUint32
+uint32_t
 aGeneration
 )
 {
@@ -17578,7 +17578,7 @@ aLocalName
 nsIAtom
 *
 aPrefix
-PRInt32
+int32_t
 aNamespaceID
 )
 {
@@ -18044,7 +18044,7 @@ QualifiedName
 (
 )
 ;
-PRUint32
+uint32_t
 count
 =
 content
@@ -18066,7 +18066,7 @@ count
 0
 )
 {
-PRUint32
+uint32_t
 index
 ;
 for
@@ -18363,7 +18363,7 @@ aTargetNode
 nsIAtom
 *
 aContextLocalName
-PRInt32
+int32_t
 aContextNamespace
 bool
 aQuirks
@@ -18784,9 +18784,9 @@ aSourceBuffer
 nsAString
 &
 aResultBuffer
-PRUint32
+uint32_t
 aFlags
-PRUint32
+uint32_t
 aWrapCol
 )
 {
@@ -19179,7 +19179,7 @@ true
 nsAutoMutationBatch
 mb
 ;
-PRUint32
+uint32_t
 childCount
 =
 aContent
@@ -19202,14 +19202,14 @@ IsEmpty
 )
 )
 {
-PRUint32
+uint32_t
 removeIndex
 =
 0
 ;
 for
 (
-PRUint32
+uint32_t
 i
 =
 0
@@ -19320,7 +19320,7 @@ false
 ;
 for
 (
-PRUint32
+uint32_t
 i
 =
 0
@@ -20147,11 +20147,11 @@ aURIToLoad
 nsIPrincipal
 *
 aLoadingPrincipal
-PRUint32
+uint32_t
 aCheckLoadFlags
 bool
 aAllowData
-PRUint32
+uint32_t
 aContentPolicyType
 nsISupports
 *
@@ -20225,7 +20225,7 @@ rv
 rv
 )
 ;
-PRInt16
+int16_t
 shouldLoad
 =
 nsIContentPolicy
@@ -20573,13 +20573,13 @@ if
 sSecurityManager
 )
 {
-PRUint32
+uint32_t
 flag
 =
 aIsUserTriggered
 ?
 (
-PRUint32
+uint32_t
 )
 nsIScriptSecurityManager
 :
@@ -20587,7 +20587,7 @@ nsIScriptSecurityManager
 STANDARD
 :
 (
-PRUint32
+uint32_t
 )
 nsIScriptSecurityManager
 :
@@ -20776,12 +20776,12 @@ ellipsis
 "
 )
 ;
-PRUint32
+uint32_t
 len
 =
 NS_MIN
 (
-PRUint32
+uint32_t
 (
 tmp
 .
@@ -20789,7 +20789,7 @@ Length
 (
 )
 )
-PRUint32
+uint32_t
 (
 ArrayLength
 (
@@ -21033,7 +21033,7 @@ aCandidates
 {
 for
 (
-PRUint32
+uint32_t
 i
 =
 0
@@ -21051,7 +21051,7 @@ Length
 i
 )
 {
-PRUint32
+uint32_t
 ch
 =
 aCandidates
@@ -21090,9 +21090,9 @@ static
 bool
 CharsCaseInsensitiveEqual
 (
-PRUint32
+uint32_t
 aChar1
-PRUint32
+uint32_t
 aChar2
 )
 {
@@ -21139,7 +21139,7 @@ static
 bool
 IsCaseChangeableChar
 (
-PRUint32
+uint32_t
 aChar
 )
 {
@@ -21290,7 +21290,7 @@ key
 )
 ;
 }
-PRUint32
+uint32_t
 len
 =
 nativeKeyEvent
@@ -21315,7 +21315,7 @@ IsShift
 {
 for
 (
-PRUint32
+uint32_t
 i
 =
 0
@@ -21329,7 +21329,7 @@ len
 i
 )
 {
-PRUint32
+uint32_t
 ch
 =
 nativeKeyEvent
@@ -21384,7 +21384,7 @@ aCandidates
 {
 for
 (
-PRUint32
+uint32_t
 i
 =
 0
@@ -21398,7 +21398,7 @@ len
 i
 )
 {
-PRUint32
+uint32_t
 ch
 =
 nativeKeyEvent
@@ -21453,7 +21453,7 @@ else
 {
 for
 (
-PRUint32
+uint32_t
 i
 =
 0
@@ -21467,7 +21467,7 @@ len
 i
 )
 {
-PRUint32
+uint32_t
 ch
 =
 nativeKeyEvent
@@ -21513,7 +21513,7 @@ key
 )
 ;
 }
-PRUint32
+uint32_t
 unshiftCh
 =
 nativeKeyEvent
@@ -21564,7 +21564,7 @@ key
 }
 else
 {
-PRUint32
+uint32_t
 charCode
 ;
 aDOMKeyEvent
@@ -21609,7 +21609,7 @@ nsKeyEvent
 aNativeKeyEvent
 nsTArray
 <
-PRUint32
+uint32_t
 >
 &
 aCandidates
@@ -21638,7 +21638,7 @@ aNativeKeyEvent
 charCode
 )
 {
-PRUint32
+uint32_t
 ch
 =
 aNativeKeyEvent
@@ -21673,7 +21673,7 @@ ch
 }
 for
 (
-PRUint32
+uint32_t
 i
 =
 0
@@ -21694,7 +21694,7 @@ Length
 i
 )
 {
-PRUint32
+uint32_t
 ch
 [
 2
@@ -21723,7 +21723,7 @@ mShiftedCharCode
 ;
 for
 (
-PRUint32
+uint32_t
 j
 =
 0
@@ -21883,12 +21883,12 @@ sScriptBlockerCount
 return
 ;
 }
-PRUint32
+uint32_t
 firstBlocker
 =
 sRunnersCountAtFirstBlocker
 ;
-PRUint32
+uint32_t
 lastBlocker
 =
 sBlockedScriptRunners
@@ -21898,12 +21898,12 @@ Length
 (
 )
 ;
-PRUint32
+uint32_t
 originalFirstBlocker
 =
 firstBlocker
 ;
-PRUint32
+uint32_t
 blockersCount
 =
 lastBlocker
@@ -22875,7 +22875,7 @@ true
 nsresult
 result
 ;
-PRInt32
+int32_t
 screenLeft
 screenTop
 screenWidth
@@ -22936,7 +22936,7 @@ screenWidth
 screenHeight
 )
 ;
-PRUint32
+uint32_t
 width
 =
 widthStr
@@ -23032,7 +23032,7 @@ width
 )
 ;
 }
-PRUint32
+uint32_t
 height
 =
 heightStr
@@ -23082,7 +23082,7 @@ IsEmpty
 width
 =
 (
-PRUint32
+uint32_t
 )
 (
 (
@@ -23131,7 +23131,7 @@ NS_MAX
 (
 width
 (
-PRUint32
+uint32_t
 )
 (
 screenWidth
@@ -23146,7 +23146,7 @@ NS_MAX
 (
 height
 (
-PRUint32
+uint32_t
 )
 (
 screenHeight
@@ -23177,7 +23177,7 @@ NS_MAX
 (
 width
 (
-PRUint32
+uint32_t
 )
 (
 screenWidth
@@ -23192,7 +23192,7 @@ NS_MAX
 (
 height
 (
-PRUint32
+uint32_t
 )
 (
 screenHeight
@@ -23889,7 +23889,7 @@ message
 NS_DRAGDROP_OVER
 )
 {
-PRUint32
+uint32_t
 action
 effectAllowed
 ;
@@ -23960,7 +23960,7 @@ message
 NS_DRAGDROP_END
 )
 {
-PRUint32
+uint32_t
 dropEffect
 ;
 initialDataTransfer
@@ -23988,15 +23988,15 @@ return
 NS_OK
 ;
 }
-PRUint32
+uint32_t
 nsContentUtils
 :
 :
 FilterDropEffect
 (
-PRUint32
+uint32_t
 aAction
-PRUint32
+uint32_t
 aEffectAllowed
 )
 {
@@ -24215,7 +24215,7 @@ return
 true
 ;
 }
-PRInt32
+int32_t
 type
 =
 -
@@ -24426,7 +24426,7 @@ rv
 rv
 )
 ;
-PRInt32
+int32_t
 index
 =
 spec
@@ -24748,7 +24748,7 @@ nsAString
 aDest
 )
 {
-PRUint32
+uint32_t
 len
 =
 aSource
@@ -25006,7 +25006,7 @@ nsAString
 aDest
 )
 {
-PRUint32
+uint32_t
 len
 =
 aSource
@@ -25160,7 +25160,7 @@ nsAString
 aStr2
 )
 {
-PRUint32
+uint32_t
 len
 =
 aStr1
@@ -25315,7 +25315,7 @@ char
 *
 aStr2
 const
-PRUint32
+uint32_t
 len
 )
 {
@@ -25714,7 +25714,7 @@ aOldChannel
 nsIChannel
 *
 aNewChannel
-PRUint32
+uint32_t
 aFlags
 nsIAsyncVerifyRedirectCallback
 *
@@ -25966,7 +25966,7 @@ rv
 rv
 )
 ;
-PRInt32
+int32_t
 port
 =
 -
@@ -26233,7 +26233,7 @@ rv
 rv
 )
 ;
-PRInt32
+int32_t
 port
 =
 -
@@ -27240,7 +27240,7 @@ return
 NS_ERROR_FAILURE
 ;
 }
-PRInt32
+int32_t
 dataLen
 =
 aData
@@ -27327,7 +27327,7 @@ nsAString
 aOutStr
 )
 {
-PRInt32
+int32_t
 firstNullPos
 =
 aInStr
@@ -27446,7 +27446,7 @@ MatchClassNames
 nsIContent
 *
 aContent
-PRInt32
+int32_t
 aNamespaceID
 nsIAtom
 *
@@ -27491,7 +27491,7 @@ ClassMatchingInfo
 aData
 )
 ;
-PRUint32
+uint32_t
 length
 =
 info
@@ -27513,7 +27513,7 @@ return
 false
 ;
 }
-PRUint32
+uint32_t
 i
 ;
 for
@@ -28432,7 +28432,7 @@ if
 node
 )
 {
-PRInt32
+int32_t
 i
 =
 0
@@ -30657,7 +30657,7 @@ return
 NS_ERROR_ILLEGAL_VALUE
 ;
 }
-PRUint32
+uint32_t
 length
 ;
 if
@@ -30705,7 +30705,7 @@ str
 ;
 for
 (
-PRUint32
+uint32_t
 i
 =
 0
@@ -31136,10 +31136,10 @@ aSelection
 Element
 *
 aRoot
-PRInt32
+int32_t
 &
 aOutStartOffset
-PRInt32
+int32_t
 &
 aOutEndOffset
 )
@@ -31185,7 +31185,7 @@ GetAnchorNode
 (
 )
 ;
-PRInt32
+int32_t
 anchorOffset
 =
 aSelection
@@ -31208,7 +31208,7 @@ GetFocusNode
 (
 )
 ;
-PRInt32
+int32_t
 focusOffset
 =
 aSelection

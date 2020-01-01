@@ -140,7 +140,7 @@ Init
 nsIDOMCharacterData
 *
 aElement
-PRUint32
+uint32_t
 aOffset
 const
 nsAString
@@ -198,7 +198,7 @@ nsIDOMCharacterData
 >
 mElement
 ;
-PRUint32
+uint32_t
 mOffset
 ;
 nsString

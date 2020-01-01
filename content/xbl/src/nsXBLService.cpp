@@ -401,7 +401,7 @@ content
 "
 )
 ;
-PRUint32
+uint32_t
 bindingRecursion
 =
 0
@@ -848,7 +848,7 @@ nsXBLBindingRequest
 ;
 static
 const
-PRInt32
+int32_t
 kNumBuckets
 =
 sizeof
@@ -863,14 +863,14 @@ size_t
 ;
 static
 const
-PRInt32
+int32_t
 kNumElements
 =
 64
 ;
 static
 const
-PRInt32
+int32_t
 kInitialSize
 =
 sizeof
@@ -1026,7 +1026,7 @@ nsXBLStreamListener
 {
 for
 (
-PRUint32
+uint32_t
 i
 =
 0
@@ -1089,9 +1089,9 @@ aCtxt
 nsIInputStream
 *
 aInStr
-PRUint32
+uint32_t
 aSourceOffset
-PRUint32
+uint32_t
 aCount
 )
 {
@@ -1317,7 +1317,7 @@ nsIContent
 aElt
 )
 {
-PRUint32
+uint32_t
 count
 =
 mBindingRequests
@@ -1328,7 +1328,7 @@ Length
 ;
 for
 (
-PRUint32
+uint32_t
 i
 =
 0
@@ -1410,10 +1410,10 @@ rv
 =
 NS_OK
 ;
-PRUint32
+uint32_t
 i
 ;
-PRUint32
+uint32_t
 count
 =
 mBindingRequests
@@ -1863,7 +1863,7 @@ nsXBLService
 gClassLRUList
 )
 ;
-PRUint32
+uint32_t
 nsXBLService
 :
 :
@@ -1871,7 +1871,7 @@ gClassLRUListLength
 =
 0
 ;
-PRUint32
+uint32_t
 nsXBLService
 :
 :
@@ -3597,7 +3597,7 @@ if
 baseBindingURI
 )
 {
-PRUint32
+uint32_t
 count
 =
 aDontExtendURIs
@@ -3608,7 +3608,7 @@ Length
 ;
 for
 (
-PRUint32
+uint32_t
 index
 =
 0

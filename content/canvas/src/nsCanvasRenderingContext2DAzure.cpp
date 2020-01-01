@@ -694,13 +694,13 @@ gCanvasAzureMemoryReporter
 nullptr
 ;
 static
-PRInt64
+int64_t
 gCanvasAzureMemoryUsed
 =
 0
 ;
 static
-PRInt64
+int64_t
 GetCanvasAzureMemoryUsed
 (
 )
@@ -2336,7 +2336,7 @@ NS_DOM_INTERFACE_MAP_ENTRY_CLASSINFO
 CanvasRenderingContext2D
 )
 NS_INTERFACE_MAP_END
-PRUint32
+uint32_t
 nsCanvasRenderingContext2DAzure
 :
 :
@@ -2344,7 +2344,7 @@ sNumLivingContexts
 =
 0
 ;
-PRUint8
+uint8_t
 (
 *
 nsCanvasRenderingContext2DAzure
@@ -2358,7 +2358,7 @@ sUnpremultiplyTable
 =
 nullptr
 ;
-PRUint8
+uint8_t
 (
 *
 nsCanvasRenderingContext2DAzure
@@ -2523,7 +2523,7 @@ Reset
 ;
 for
 (
-PRUint32
+uint32_t
 i
 =
 0
@@ -3511,9 +3511,9 @@ nsCanvasRenderingContext2DAzure
 :
 SetDimensions
 (
-PRInt32
+int32_t
 width
-PRInt32
+int32_t
 height
 )
 {
@@ -3766,9 +3766,9 @@ nsCanvasRenderingContext2DAzure
 :
 Initialize
 (
-PRInt32
+int32_t
 width
-PRInt32
+int32_t
 height
 )
 {
@@ -3941,9 +3941,9 @@ InitializeWithTarget
 DrawTarget
 *
 target
-PRInt32
+int32_t
 width
-PRInt32
+int32_t
 height
 )
 {
@@ -4009,9 +4009,9 @@ shell
 gfxASurface
 *
 surface
-PRInt32
+int32_t
 width
-PRInt32
+int32_t
 height
 )
 {
@@ -4154,7 +4154,7 @@ gfxPattern
 :
 GraphicsFilter
 aFilter
-PRUint32
+uint32_t
 aFlags
 )
 {
@@ -4526,7 +4526,7 @@ NS_ERROR_FAILURE
 }
 nsAutoArrayPtr
 <
-PRUint8
+uint8_t
 >
 imageBuffer
 (
@@ -4537,7 +4537,7 @@ std
 :
 nothrow
 )
-PRUint8
+uint8_t
 [
 mWidth
 *
@@ -4845,7 +4845,7 @@ return
 ;
 for
 (
-PRUint32
+uint32_t
 i
 =
 0
@@ -5702,7 +5702,7 @@ _32
 ;
 for
 (
-PRUint32
+uint32_t
 i
 =
 0
@@ -6634,7 +6634,7 @@ str
 nsresult
 rv
 ;
-PRUint16
+uint16_t
 vtype
 ;
 rv
@@ -6835,7 +6835,7 @@ sup
 nsString
 str
 ;
-PRInt32
+int32_t
 t
 ;
 nsresult
@@ -6993,7 +6993,7 @@ str
 nsresult
 rv
 ;
-PRUint16
+uint16_t
 vtype
 ;
 rv
@@ -7183,7 +7183,7 @@ sup
 nsString
 str
 ;
-PRInt32
+int32_t
 t
 ;
 nsresult
@@ -7502,7 +7502,7 @@ nsISupports
 *
 *
 aInterface
-PRInt32
+int32_t
 *
 aType
 )
@@ -7571,7 +7571,7 @@ nsISupports
 *
 *
 aInterface
-PRInt32
+int32_t
 *
 aType
 )
@@ -12073,7 +12073,7 @@ GetLanguageFromCharset
 ;
 }
 const
-PRUint32
+uint32_t
 aupcp
 =
 nsPresContext
@@ -13215,7 +13215,7 @@ const
 PRUnichar
 *
 text
-PRInt32
+int32_t
 length
 nsBidiDirection
 direction
@@ -13406,7 +13406,7 @@ textRunMetrics
 mAdvanceWidth
 ;
 }
-PRUint32
+uint32_t
 numRuns
 ;
 const
@@ -13427,7 +13427,7 @@ numRuns
 )
 ;
 const
-PRUint32
+uint32_t
 appUnitsPerDevUnit
 =
 mAppUnitsPerDevPixel
@@ -13469,7 +13469,7 @@ advanceSum
 ;
 for
 (
-PRUint32
+uint32_t
 c
 =
 0
@@ -13494,7 +13494,7 @@ c
 .
 mFont
 ;
-PRUint32
+uint32_t
 endRun
 =
 0
@@ -13593,7 +13593,7 @@ glyphBuf
 ;
 for
 (
-PRUint32
+uint32_t
 i
 =
 runs
@@ -13756,7 +13756,7 @@ i
 ;
 for
 (
-PRUint32
+uint32_t
 c
 =
 0
@@ -14115,7 +14115,7 @@ gfxFontGroup
 *
 mFontgrp
 ;
-PRUint32
+uint32_t
 mAppUnitsPerDevPixel
 ;
 nsCanvasRenderingContext2DAzure
@@ -16142,7 +16142,7 @@ double
 dw
 double
 dh
-PRUint8
+uint8_t
 optional_argc
 ErrorResult
 &
@@ -16440,7 +16440,7 @@ if
 srcSurf
 )
 {
-PRUint32
+uint32_t
 sfeFlags
 =
 nsLayoutUtils
@@ -16907,7 +16907,7 @@ float
 a7
 float
 a8
-PRUint8
+uint8_t
 optional_argc
 )
 {
@@ -17536,11 +17536,11 @@ CheckSurfaceSize
 (
 gfxIntSize
 (
-PRInt32
+int32_t
 (
 w
 )
-PRInt32
+int32_t
 (
 h
 )
@@ -17800,7 +17800,7 @@ h
 )
 )
 ;
-PRUint32
+uint32_t
 renderDocFlags
 =
 (
@@ -17951,7 +17951,7 @@ const
 nsAString
 &
 aBGColor
-PRUint32
+uint32_t
 flags
 )
 {
@@ -18195,7 +18195,7 @@ DRAWWINDOW_DO_NOT_FLUSH
 =
 0
 ;
-PRUint32
+uint32_t
 renderDocFlags
 =
 nsIPresShell
@@ -18364,7 +18364,7 @@ const
 nsAString
 &
 aBGColor
-PRUint32
+uint32_t
 flags
 )
 {
@@ -18413,7 +18413,7 @@ return
 sUnpremultiplyTable
 =
 new
-PRUint8
+uint8_t
 [
 256
 ]
@@ -18423,7 +18423,7 @@ PRUint8
 ;
 for
 (
-PRUint32
+uint32_t
 c
 =
 0
@@ -18492,7 +18492,7 @@ c
 ]
 =
 (
-PRUint8
+uint8_t
 )
 (
 (
@@ -19264,7 +19264,7 @@ i
 #
 ifdef
 IS_LITTLE_ENDIAN
-PRUint8
+uint8_t
 b
 =
 *
@@ -19272,7 +19272,7 @@ src
 +
 +
 ;
-PRUint8
+uint8_t
 g
 =
 *
@@ -19280,7 +19280,7 @@ src
 +
 +
 ;
-PRUint8
+uint8_t
 r
 =
 *
@@ -19288,7 +19288,7 @@ src
 +
 +
 ;
-PRUint8
+uint8_t
 a
 =
 *
@@ -19298,7 +19298,7 @@ src
 ;
 #
 else
-PRUint8
+uint8_t
 a
 =
 *
@@ -19306,7 +19306,7 @@ src
 +
 +
 ;
-PRUint8
+uint8_t
 r
 =
 *
@@ -19314,7 +19314,7 @@ src
 +
 +
 ;
-PRUint8
+uint8_t
 g
 =
 *
@@ -19322,7 +19322,7 @@ src
 +
 +
 ;
-PRUint8
+uint8_t
 b
 =
 *
@@ -19436,7 +19436,7 @@ return
 sPremultiplyTable
 =
 new
-PRUint8
+uint8_t
 [
 256
 ]
@@ -19772,7 +19772,7 @@ double
 double
 JSContext
 *
-PRUint8
+uint8_t
 )
 {
 return
@@ -19785,29 +19785,29 @@ nsCanvasRenderingContext2DAzure
 :
 PutImageData_explicit
 (
-PRInt32
+int32_t
 x
-PRInt32
+int32_t
 y
-PRUint32
+uint32_t
 w
-PRUint32
+uint32_t
 h
 unsigned
 char
 *
 aData
-PRUint32
+uint32_t
 aDataLen
 bool
 hasDirtyRect
-PRInt32
+int32_t
 dirtyX
-PRInt32
+int32_t
 dirtyY
-PRInt32
+int32_t
 dirtyWidth
-PRInt32
+int32_t
 dirtyHeight
 )
 {
@@ -20059,7 +20059,7 @@ return
 NS_OK
 ;
 }
-PRUint32
+uint32_t
 len
 =
 w
@@ -20122,13 +20122,13 @@ EnsurePremultiplyTable
 (
 )
 ;
-PRUint8
+uint8_t
 *
 src
 =
 aData
 ;
-PRUint8
+uint8_t
 *
 dst
 =
@@ -20141,7 +20141,7 @@ Data
 ;
 for
 (
-PRUint32
+uint32_t
 j
 =
 0
@@ -20157,7 +20157,7 @@ j
 {
 for
 (
-PRUint32
+uint32_t
 i
 =
 0
@@ -20171,7 +20171,7 @@ i
 +
 )
 {
-PRUint8
+uint8_t
 r
 =
 *
@@ -20179,7 +20179,7 @@ src
 +
 +
 ;
-PRUint8
+uint8_t
 g
 =
 *
@@ -20187,7 +20187,7 @@ src
 +
 +
 ;
-PRUint8
+uint8_t
 b
 =
 *
@@ -20195,7 +20195,7 @@ src
 +
 +
 ;
-PRUint8
+uint8_t
 a
 =
 *
@@ -20843,7 +20843,7 @@ arg2
 JSContext
 *
 cx
-PRUint8
+uint8_t
 optional_argc
 nsIDOMImageData
 *
@@ -20897,7 +20897,7 @@ NS_OK
 ;
 }
 static
-PRUint8
+uint8_t
 g2DContextLayerUserData
 ;
 already_AddRefed
@@ -21095,7 +21095,7 @@ Initialize
 data
 )
 ;
-PRUint32
+uint32_t
 flags
 =
 mOpaque

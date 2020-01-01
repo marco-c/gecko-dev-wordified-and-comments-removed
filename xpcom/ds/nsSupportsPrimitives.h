@@ -184,7 +184,7 @@ nsSupportsPRUint8Impl
 )
 {
 }
-PRUint8
+uint8_t
 mData
 ;
 }
@@ -213,7 +213,7 @@ nsSupportsPRUint16Impl
 )
 {
 }
-PRUint16
+uint16_t
 mData
 ;
 }
@@ -242,7 +242,7 @@ nsSupportsPRUint32Impl
 )
 {
 }
-PRUint32
+uint32_t
 mData
 ;
 }
@@ -271,7 +271,7 @@ nsSupportsPRUint64Impl
 )
 {
 }
-PRUint64
+uint64_t
 mData
 ;
 }
@@ -358,7 +358,7 @@ nsSupportsPRInt16Impl
 )
 {
 }
-PRInt16
+int16_t
 mData
 ;
 }
@@ -387,7 +387,7 @@ nsSupportsPRInt32Impl
 )
 {
 }
-PRInt32
+int32_t
 mData
 ;
 }
@@ -416,7 +416,7 @@ nsSupportsPRInt64Impl
 )
 {
 }
-PRInt64
+int64_t
 mData
 ;
 }

@@ -69,7 +69,7 @@ nsComponentManagerUtils
 h
 "
 static
-PRInt32
+int32_t
 gInstanceCount
 =
 0
@@ -123,7 +123,7 @@ const
 nsAString
 &
 aSrc
-PRInt32
+int32_t
 *
 aOutLen
 char
@@ -145,7 +145,7 @@ rv
 =
 NS_OK
 ;
-PRInt32
+int32_t
 inLength
 =
 aSrc
@@ -288,7 +288,7 @@ nsACString
 _retval
 )
 {
-PRInt32
+int32_t
 len
 ;
 char
@@ -343,7 +343,7 @@ char
 *
 *
 _retval
-PRInt32
+int32_t
 *
 aLength
 )
@@ -356,7 +356,7 @@ mEncoder
 return
 NS_ERROR_FAILURE
 ;
-PRInt32
+int32_t
 finLength
 =
 32
@@ -430,7 +430,7 @@ nsACString
 _retval
 )
 {
-PRInt32
+int32_t
 len
 ;
 char
@@ -508,7 +508,7 @@ ConvertFromByteArray
 reinterpret_cast
 <
 const
-PRUint8
+uint8_t
 *
 >
 (
@@ -534,10 +534,10 @@ nsScriptableUnicodeConverter
 ConvertFromByteArray
 (
 const
-PRUint8
+uint8_t
 *
 aData
-PRUint32
+uint32_t
 aCount
 nsAString
 &
@@ -557,12 +557,12 @@ rv
 =
 NS_OK
 ;
-PRInt32
+int32_t
 inLength
 =
 aCount
 ;
-PRInt32
+int32_t
 outLength
 ;
 rv
@@ -694,10 +694,10 @@ const
 nsAString
 &
 aString
-PRUint32
+uint32_t
 *
 aLen
-PRUint8
+uint8_t
 *
 *
 _aData
@@ -707,7 +707,7 @@ char
 *
 data
 ;
-PRInt32
+int32_t
 len
 ;
 nsresult
@@ -781,7 +781,7 @@ _aData
 =
 reinterpret_cast
 <
-PRUint8
+uint8_t
 *
 >
 (
@@ -889,11 +889,11 @@ rv
 return
 rv
 ;
-PRUint8
+uint8_t
 *
 data
 ;
-PRUint32
+uint32_t
 dataLen
 ;
 rv

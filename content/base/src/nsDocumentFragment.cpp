@@ -143,7 +143,7 @@ nullptr
 nsresult
 SetAttr
 (
-PRInt32
+int32_t
 aNameSpaceID
 nsIAtom
 *
@@ -171,7 +171,7 @@ virtual
 nsresult
 SetAttr
 (
-PRInt32
+int32_t
 aNameSpaceID
 nsIAtom
 *
@@ -195,7 +195,7 @@ virtual
 bool
 GetAttr
 (
-PRInt32
+int32_t
 aNameSpaceID
 nsIAtom
 *
@@ -214,7 +214,7 @@ virtual
 bool
 HasAttr
 (
-PRInt32
+int32_t
 aNameSpaceID
 nsIAtom
 *
@@ -230,7 +230,7 @@ virtual
 nsresult
 UnsetAttr
 (
-PRInt32
+int32_t
 aNameSpaceID
 nsIAtom
 *
@@ -249,7 +249,7 @@ nsAttrName
 *
 GetAttrNameAt
 (
-PRUint32
+uint32_t
 aIndex
 )
 const
@@ -259,7 +259,7 @@ nullptr
 ;
 }
 virtual
-PRUint32
+uint32_t
 GetAttrCount
 (
 )
@@ -273,7 +273,7 @@ virtual
 bool
 IsNodeOfType
 (
-PRUint32
+uint32_t
 aFlags
 )
 const
@@ -397,7 +397,7 @@ List
 FILE
 *
 out
-PRInt32
+int32_t
 aIndent
 )
 const
@@ -409,7 +409,7 @@ DumpContent
 FILE
 *
 out
-PRInt32
+int32_t
 aIndent
 bool
 aDumpAll
@@ -578,7 +578,7 @@ nsDocumentFragment
 :
 IsNodeOfType
 (
-PRUint32
+uint32_t
 aFlags
 )
 const
@@ -637,12 +637,12 @@ List
 FILE
 *
 out
-PRInt32
+int32_t
 aIndent
 )
 const
 {
-PRInt32
+int32_t
 indent
 ;
 for
@@ -816,14 +816,14 @@ DumpContent
 FILE
 *
 out
-PRInt32
+int32_t
 aIndent
 bool
 aDumpAll
 )
 const
 {
-PRInt32
+int32_t
 indent
 ;
 for
@@ -896,7 +896,7 @@ GetNextSibling
 )
 )
 {
-PRInt32
+int32_t
 indent
 =
 aIndent

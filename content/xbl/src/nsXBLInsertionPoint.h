@@ -42,7 +42,7 @@ nsXBLInsertionPoint
 nsIContent
 *
 aParentElement
-PRUint32
+uint32_t
 aIndex
 nsIContent
 *
@@ -78,7 +78,7 @@ mParentElement
 nullptr
 ;
 }
-PRInt32
+int32_t
 GetInsertionIndex
 (
 )
@@ -144,7 +144,7 @@ aChildElement
 void
 InsertChildAt
 (
-PRInt32
+int32_t
 aIndex
 nsIContent
 *
@@ -176,7 +176,7 @@ aChildElement
 )
 ;
 }
-PRInt32
+int32_t
 ChildCount
 (
 )
@@ -193,11 +193,11 @@ nsIContent
 *
 ChildAt
 (
-PRUint32
+uint32_t
 aIndex
 )
 ;
-PRInt32
+int32_t
 IndexOf
 (
 nsIContent
@@ -220,7 +220,7 @@ Matches
 nsIContent
 *
 aContent
-PRUint32
+uint32_t
 aIndex
 )
 ;
@@ -235,7 +235,7 @@ nsIContent
 *
 mParentElement
 ;
-PRInt32
+int32_t
 mIndex
 ;
 nsCOMArray

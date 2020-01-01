@@ -465,12 +465,12 @@ nsIFrame
 *
 FrameAt
 (
-PRInt32
+int32_t
 aIndex
 )
 const
 ;
-PRInt32
+int32_t
 IndexOf
 (
 nsIFrame
@@ -515,7 +515,7 @@ aFrame
 )
 const
 ;
-PRInt32
+int32_t
 GetLength
 (
 )

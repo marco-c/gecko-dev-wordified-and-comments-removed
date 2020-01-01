@@ -1563,7 +1563,7 @@ nsPluginInstanceOwner
 (
 )
 {
-PRInt32
+int32_t
 cnt
 ;
 if
@@ -1935,7 +1935,7 @@ nsPluginInstanceOwner
 :
 GetMode
 (
-PRInt32
+int32_t
 *
 aMode
 )
@@ -1998,7 +1998,7 @@ nsPluginInstanceOwner
 :
 GetAttributes
 (
-PRUint16
+uint16_t
 &
 n
 const
@@ -2223,7 +2223,7 @@ aPostStream
 void
 *
 aHeadersData
-PRUint32
+uint32_t
 aHeadersDataLen
 )
 {
@@ -2478,7 +2478,7 @@ sis
 )
 ;
 }
-PRInt32
+int32_t
 blockPopups
 =
 Preferences
@@ -3467,7 +3467,7 @@ nsPluginInstanceOwner
 :
 SetEventModel
 (
-PRInt32
+int32_t
 eventModel
 )
 {
@@ -4012,7 +4012,7 @@ nsPluginInstanceOwner
 :
 GetParameters
 (
-PRUint16
+uint16_t
 &
 n
 const
@@ -5050,7 +5050,7 @@ NUM_CHARSETS
 ;
 for
 (
-PRUint16
+uint16_t
 i
 =
 0
@@ -5158,7 +5158,7 @@ nsPluginInstanceOwner
 :
 GetWidth
 (
-PRUint32
+uint32_t
 *
 result
 )
@@ -5192,7 +5192,7 @@ nsPluginInstanceOwner
 :
 GetHeight
 (
-PRUint32
+uint32_t
 *
 result
 )
@@ -5226,7 +5226,7 @@ nsPluginInstanceOwner
 :
 GetBorderVertSpace
 (
-PRUint32
+uint32_t
 *
 result
 )
@@ -5270,7 +5270,7 @@ result
 result
 =
 (
-PRUint32
+uint32_t
 )
 atol
 (
@@ -5300,7 +5300,7 @@ nsPluginInstanceOwner
 :
 GetBorderHorizSpace
 (
-PRUint32
+uint32_t
 *
 result
 )
@@ -5344,7 +5344,7 @@ result
 result
 =
 (
-PRUint32
+uint32_t
 )
 atol
 (
@@ -5421,7 +5421,7 @@ instead
 "
 )
 ;
-PRUint32
+uint32_t
 cattrs
 =
 mContent
@@ -5442,7 +5442,7 @@ mNumCachedAttrs
 =
 static_cast
 <
-PRUint16
+uint16_t
 >
 (
 cattrs
@@ -5537,7 +5537,7 @@ if
 allParams
 )
 {
-PRUint32
+uint32_t
 numAllParams
 ;
 allParams
@@ -5551,7 +5551,7 @@ numAllParams
 ;
 for
 (
-PRUint32
+uint32_t
 i
 =
 0
@@ -5762,7 +5762,7 @@ domelement
 }
 }
 }
-PRUint32
+uint32_t
 cparams
 =
 ourParams
@@ -5782,7 +5782,7 @@ mNumCachedParams
 =
 static_cast
 <
-PRUint16
+uint16_t
 >
 (
 cparams
@@ -5796,7 +5796,7 @@ mNumCachedParams
 0xFFFF
 ;
 }
-PRUint16
+uint16_t
 numRealAttrs
 =
 mNumCachedAttrs
@@ -5953,7 +5953,7 @@ mCachedAttrParamValues
 NS_ERROR_OUT_OF_MEMORY
 )
 ;
-PRInt32
+int32_t
 start
 end
 increment
@@ -6008,7 +6008,7 @@ increment
 1
 ;
 }
-PRUint32
+uint32_t
 nextAttrParamIndex
 =
 0
@@ -6020,7 +6020,7 @@ false
 ;
 for
 (
-PRInt32
+int32_t
 index
 =
 start
@@ -6313,7 +6313,7 @@ nextAttrParamIndex
 ;
 for
 (
-PRUint16
+uint16_t
 i
 =
 0
@@ -6596,7 +6596,7 @@ mInstance
 GetDrawingModel
 (
 (
-PRInt32
+int32_t
 *
 )
 &
@@ -7766,7 +7766,7 @@ EndCGPaint
 }
 #
 endif
-PRUint32
+uint32_t
 nsPluginInstanceOwner
 :
 :
@@ -7785,7 +7785,7 @@ do_GetService
 kAppShellCID
 )
 ;
-PRUint32
+uint32_t
 currentLevel
 =
 0
@@ -8086,7 +8086,7 @@ f
 =
 aFrame
 ;
-PRInt32
+int32_t
 currAPD
 =
 aFrame
@@ -8101,7 +8101,7 @@ AppUnitsPerDevPixel
 (
 )
 ;
-PRInt32
+int32_t
 apd
 =
 currAPD
@@ -8193,7 +8193,7 @@ f
 newOffset
 )
 ;
-PRInt32
+int32_t
 newAPD
 =
 f
@@ -8913,7 +8913,7 @@ mFullScreen
 =
 false
 ;
-PRInt32
+int32_t
 model
 =
 mInstance
@@ -11125,7 +11125,7 @@ TSMGetActiveDocument
 ;
 #
 endif
-PRInt16
+int16_t
 response
 =
 kNPEventNotHandled
@@ -11808,7 +11808,7 @@ if
 pPluginEvent
 )
 {
-PRInt16
+int16_t
 response
 =
 kNPEventNotHandled
@@ -13035,7 +13035,7 @@ send_event
 =
 False
 ;
-PRInt16
+int16_t
 response
 =
 kNPEventNotHandled
@@ -14472,7 +14472,7 @@ mFullScreen
 )
 return
 ;
-PRInt32
+int32_t
 model
 =
 mInstance
@@ -14948,25 +14948,25 @@ height
 nsIntRect
 pluginDirtyRect
 (
-PRInt32
+int32_t
 (
 dirtyRect
 .
 x
 )
-PRInt32
+int32_t
 (
 dirtyRect
 .
 y
 )
-PRInt32
+int32_t
 (
 dirtyRect
 .
 width
 )
-PRInt32
+int32_t
 (
 dirtyRect
 .
@@ -15006,7 +15006,7 @@ GetWindow
 window
 )
 ;
-PRUint32
+uint32_t
 rendererFlags
 =
 0
@@ -15152,7 +15152,7 @@ offset
 nsIntRect
 *
 clipRects
-PRUint32
+uint32_t
 numClipRects
 )
 {
@@ -17113,7 +17113,7 @@ nsPluginInstanceOwner
 :
 FixUpPluginWindow
 (
-PRInt32
+int32_t
 inPaintState
 )
 {

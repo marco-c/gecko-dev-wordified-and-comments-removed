@@ -153,7 +153,7 @@ nsIAppShell
 >
 mAppShell
 ;
-PRInt32
+int32_t
 mConsiderQuitStopper
 ;
 bool
@@ -180,7 +180,7 @@ mStartupCrashTrackingEnded
 bool
 mCachedShutdownTime
 ;
-PRUint32
+uint32_t
 mLastShutdownTime
 ;
 #

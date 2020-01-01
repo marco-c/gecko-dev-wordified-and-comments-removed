@@ -179,7 +179,7 @@ Init
 nsIDOMCharacterData
 *
 aElement
-PRUint32
+uint32_t
 aOffset
 const
 nsAString
@@ -551,7 +551,7 @@ return
 NS_ERROR_NOT_INITIALIZED
 ;
 }
-PRUint32
+uint32_t
 length
 =
 mStringToInsert
@@ -793,7 +793,7 @@ mElement
 mElement
 )
 {
-PRInt32
+int32_t
 length
 =
 mStringToInsert

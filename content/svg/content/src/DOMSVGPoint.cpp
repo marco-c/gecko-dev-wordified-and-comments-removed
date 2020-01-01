@@ -599,7 +599,7 @@ InsertingIntoList
 DOMSVGPointList
 *
 aList
-PRUint32
+uint32_t
 aListIndex
 bool
 aIsAnimValItem

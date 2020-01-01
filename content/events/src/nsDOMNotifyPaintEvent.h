@@ -46,7 +46,7 @@ aPresContext
 nsEvent
 *
 aEvent
-PRUint32
+uint32_t
 aEventType
 nsInvalidateRequestList
 *

@@ -200,7 +200,7 @@ aList
 nsSVGElement
 *
 aElement
-PRUint8
+uint8_t
 aAttrEnum
 )
 {

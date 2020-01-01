@@ -390,7 +390,7 @@ nsresult
 aReason
 bool
 aEvenIfSizeAvailable
-PRInt16
+int16_t
 aNewImageStatus
 )
 ;
@@ -445,7 +445,7 @@ SetBlockedRequest
 nsIURI
 *
 aURI
-PRInt16
+int16_t
 aContentDecision
 )
 ;
@@ -537,10 +537,10 @@ imgIRequest
 >
 mPendingRequest
 ;
-PRUint32
+uint32_t
 mCurrentRequestFlags
 ;
-PRUint32
+uint32_t
 mPendingRequestFlags
 ;
 enum
@@ -567,7 +567,7 @@ mObserverList
 nsEventStates
 mForcedImageState
 ;
-PRInt16
+int16_t
 mImageBlockingStatus
 ;
 bool
@@ -609,7 +609,7 @@ mNewRequestsWillNeedAnimationReset
 ;
 private
 :
-PRUint8
+uint8_t
 mStateChangerDepth
 ;
 bool

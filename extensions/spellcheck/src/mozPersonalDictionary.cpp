@@ -425,7 +425,7 @@ Clear
 PRUnichar
 c
 ;
-PRUint32
+uint32_t
 nRead
 ;
 bool
@@ -819,7 +819,7 @@ AddHostToStringArray
 array
 )
 ;
-PRUint32
+uint32_t
 bytesWritten
 ;
 nsCAutoString
@@ -827,7 +827,7 @@ utf8Key
 ;
 for
 (
-PRUint32
+uint32_t
 i
 =
 0
@@ -1201,7 +1201,7 @@ PRUnichar
 *
 *
 words
-PRUint32
+uint32_t
 *
 count
 )

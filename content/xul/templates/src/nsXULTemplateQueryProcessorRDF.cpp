@@ -290,7 +290,7 @@ nsCycleCollectionTraversalCallback
 userArg
 )
 ;
-PRInt32
+int32_t
 i
 count
 =
@@ -340,7 +340,7 @@ PLDHashOperator
 MemoryElementTraverser
 (
 const
-PRUint32
+uint32_t
 &
 key
 nsCOMArray
@@ -367,7 +367,7 @@ nsCycleCollectionTraversalCallback
 userArg
 )
 ;
-PRInt32
+int32_t
 i
 count
 =
@@ -1005,7 +1005,7 @@ rv
 )
 ;
 }
-PRUint32
+uint32_t
 length
 index
 ;
@@ -1957,7 +1957,7 @@ results
 }
 else
 {
-PRInt32
+int32_t
 count
 =
 mQueries
@@ -1968,7 +1968,7 @@ Length
 ;
 for
 (
-PRInt32
+int32_t
 r
 =
 0
@@ -2532,9 +2532,9 @@ aRight
 nsIAtom
 *
 aVar
-PRUint32
+uint32_t
 aSortHints
-PRInt32
+int32_t
 *
 aResult
 )
@@ -2560,7 +2560,7 @@ if
 aVar
 )
 {
-PRInt32
+int32_t
 leftindex
 =
 GetContainerIndexOf
@@ -2568,7 +2568,7 @@ GetContainerIndexOf
 aLeft
 )
 ;
-PRInt32
+int32_t
 rightindex
 =
 GetContainerIndexOf
@@ -2919,7 +2919,7 @@ GetValue
 rdate
 )
 ;
-PRInt64
+int64_t
 delta
 ;
 LL_SUB
@@ -3000,7 +3000,7 @@ if
 r
 )
 {
-PRInt32
+int32_t
 lval
 rval
 ;
@@ -3084,13 +3084,13 @@ r
 )
 {
 const
-PRUint8
+uint8_t
 *
 lval
 *
 rval
 ;
-PRInt32
+int32_t
 llen
 rlen
 ;
@@ -4084,7 +4084,7 @@ mBuilder
 return
 NS_OK
 ;
-PRUint32
+uint32_t
 length
 =
 results
@@ -4096,7 +4096,7 @@ Length
 ;
 for
 (
-PRUint32
+uint32_t
 r
 =
 0
@@ -4679,7 +4679,7 @@ containment
 containment
 )
 ;
-PRUint32
+uint32_t
 len
 =
 containment
@@ -4688,7 +4688,7 @@ Length
 (
 )
 ;
-PRUint32
+uint32_t
 offset
 =
 0
@@ -4731,7 +4731,7 @@ len
 )
 break
 ;
-PRUint32
+uint32_t
 end
 =
 offset
@@ -5350,7 +5350,7 @@ intLiteral
 nsresult
 errorCode
 ;
-PRInt32
+int32_t
 intValue
 =
 aValue
@@ -6388,7 +6388,7 @@ name
 ;
 for
 (
-PRUint32
+uint32_t
 i
 =
 0
@@ -6467,7 +6467,7 @@ kNameSpaceID_None
 continue
 ;
 }
-PRInt32
+int32_t
 attrNameSpaceID
 =
 name
@@ -7088,7 +7088,7 @@ arr
 )
 ;
 }
-PRInt32
+int32_t
 index
 =
 arr
@@ -7146,7 +7146,7 @@ arr
 )
 )
 {
-PRInt32
+int32_t
 index
 =
 arr
@@ -7399,7 +7399,7 @@ arr
 )
 )
 {
-PRInt32
+int32_t
 index
 =
 arr
@@ -7425,7 +7425,7 @@ RemoveObjectAt
 index
 )
 ;
-PRUint32
+uint32_t
 length
 =
 arr
@@ -7500,7 +7500,7 @@ arr
 )
 )
 {
-PRUint32
+uint32_t
 length
 =
 arr
@@ -7512,7 +7512,7 @@ Count
 ;
 for
 (
-PRInt32
+int32_t
 r
 =
 length
@@ -7612,7 +7612,7 @@ nullptr
 )
 return
 ;
-PRUint32
+uint32_t
 newlength
 =
 arr
@@ -7627,7 +7627,7 @@ if
 r
 >
 (
-PRInt32
+int32_t
 )
 newlength
 )
@@ -7657,7 +7657,7 @@ hash
 ;
 }
 }
-PRInt32
+int32_t
 nsXULTemplateQueryProcessorRDF
 :
 :
@@ -7763,7 +7763,7 @@ if
 resource
 )
 {
-PRInt32
+int32_t
 index
 ;
 gRDFContainerUtils

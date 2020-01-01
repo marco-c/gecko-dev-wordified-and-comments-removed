@@ -166,10 +166,10 @@ defaultRequest
 ;
 protected
 :
-PRUint32
+uint32_t
 mForegroundCount
 ;
-PRUint32
+uint32_t
 mLoadFlags
 ;
 nsCOMPtr
@@ -199,7 +199,7 @@ mObserver
 nsresult
 mStatus
 ;
-PRInt32
+int32_t
 mPriority
 ;
 bool
@@ -214,10 +214,10 @@ mDefaultRequestCreationTime
 bool
 mDefaultLoadIsTimed
 ;
-PRUint32
+uint32_t
 mTimedRequests
 ;
-PRUint32
+uint32_t
 mCachedRequests
 ;
 }

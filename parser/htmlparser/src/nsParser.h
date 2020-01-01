@@ -231,7 +231,7 @@ const
 nsACString
 &
 aCharset
-PRInt32
+int32_t
 aSource
 )
 ;
@@ -244,7 +244,7 @@ GetDocumentCharset
 nsACString
 &
 aCharset
-PRInt32
+int32_t
 &
 aSource
 )
@@ -436,12 +436,12 @@ const
 char
 *
 aBytes
-PRInt32
+int32_t
 aLen
 nsCString
 &
 oCharset
-PRInt32
+int32_t
 &
 oCharsetSource
 )
@@ -686,10 +686,10 @@ mInternalState
 nsresult
 mStreamStatus
 ;
-PRInt32
+int32_t
 mCharsetSource
 ;
-PRUint16
+uint16_t
 mFlags
 ;
 nsString

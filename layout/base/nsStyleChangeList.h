@@ -51,7 +51,7 @@ mHint
 ;
 static
 const
-PRUint32
+uint32_t
 kStyleChangeBufferSize
 =
 10
@@ -70,7 +70,7 @@ nsStyleChangeList
 (
 )
 ;
-PRInt32
+int32_t
 Count
 (
 void
@@ -84,7 +84,7 @@ mCount
 nsresult
 ChangeAt
 (
-PRInt32
+int32_t
 aIndex
 nsIFrame
 *
@@ -103,7 +103,7 @@ const
 nsresult
 ChangeAt
 (
-PRInt32
+int32_t
 aIndex
 const
 nsStyleChangeData
@@ -161,10 +161,10 @@ nsStyleChangeData
 *
 mArray
 ;
-PRInt32
+int32_t
 mArraySize
 ;
-PRInt32
+int32_t
 mCount
 ;
 nsStyleChangeData

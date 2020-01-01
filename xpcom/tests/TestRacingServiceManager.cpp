@@ -217,12 +217,12 @@ factory
 ;
 1
 "
-PRInt32
+int32_t
 gComponent1Count
 =
 0
 ;
-PRInt32
+int32_t
 gComponent2Count
 =
 0
@@ -390,7 +390,7 @@ Component1
 (
 )
 {
-PRInt32
+int32_t
 count
 =
 PR_AtomicIncrement
@@ -452,7 +452,7 @@ Component2
 (
 )
 {
-PRInt32
+int32_t
 count
 =
 PR_AtomicIncrement

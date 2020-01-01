@@ -448,7 +448,7 @@ nsIURI
 >
 mURI
 ;
-PRUint32
+uint32_t
 mLineNumber
 ;
 nsRefPtr
@@ -465,7 +465,7 @@ SheetLoadData
 *
 mParentData
 ;
-PRUint32
+uint32_t
 mPendingChildren
 ;
 bool
@@ -1334,7 +1334,7 @@ nsIThreadInternal
 aThread
 bool
 aMayWait
-PRUint32
+uint32_t
 aRecursionDepth
 )
 {
@@ -1356,7 +1356,7 @@ AfterProcessNextEvent
 nsIThreadInternal
 *
 aThread
-PRUint32
+uint32_t
 aRecursionDepth
 )
 {
@@ -1971,7 +1971,7 @@ Length
 ;
 for
 (
-PRUint32
+uint32_t
 i
 =
 0
@@ -2030,7 +2030,7 @@ unsigned
 char
 *
 aStyleSheetData
-PRUint32
+uint32_t
 aDataLength
 nsACString
 &
@@ -2058,12 +2058,12 @@ kCharsetSym
 return
 NS_ERROR_NOT_AVAILABLE
 ;
-PRUint32
+uint32_t
 step
 =
 1
 ;
-PRUint32
+uint32_t
 pos
 =
 0
@@ -2272,7 +2272,7 @@ return
 NS_ERROR_UNEXPECTED
 ;
 }
-PRUint32
+uint32_t
 index
 =
 0
@@ -3479,7 +3479,7 @@ char
 *
 errorMessage
 ;
-PRUint32
+uint32_t
 errorFlag
 ;
 bool
@@ -3954,7 +3954,7 @@ check
 )
 )
 ;
-PRInt16
+int16_t
 shouldLoad
 =
 nsIContentPolicy
@@ -5059,7 +5059,7 @@ into
 "
 )
 ;
-PRInt32
+int32_t
 sheetCount
 =
 aDocument
@@ -5069,7 +5069,7 @@ GetNumberOfStyleSheets
 (
 )
 ;
-PRInt32
+int32_t
 insertionPoint
 ;
 for
@@ -6901,7 +6901,7 @@ aStatus
 datasToNotify
 )
 ;
-PRUint32
+uint32_t
 count
 =
 datasToNotify
@@ -6917,7 +6917,7 @@ count
 ;
 for
 (
-PRUint32
+uint32_t
 i
 =
 0
@@ -7677,7 +7677,7 @@ const
 nsAString
 &
 aBuffer
-PRUint32
+uint32_t
 aLineNumber
 const
 nsAString
@@ -8857,7 +8857,7 @@ nsICSSLoaderObserver
 >
 observer
 ;
-PRInt32
+int32_t
 count
 =
 mParsingDatas
@@ -10023,7 +10023,7 @@ Stop
 (
 )
 {
-PRUint32
+uint32_t
 pendingCount
 =
 mPendingDatas
@@ -10040,7 +10040,7 @@ Count
 :
 0
 ;
-PRUint32
+uint32_t
 loadingCount
 =
 mLoadingDatas
@@ -10101,7 +10101,7 @@ arr
 )
 ;
 }
-PRUint32
+uint32_t
 i
 ;
 for
@@ -10458,7 +10458,7 @@ Length
 ;
 for
 (
-PRUint32
+uint32_t
 i
 =
 0

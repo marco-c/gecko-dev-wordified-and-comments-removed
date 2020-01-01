@@ -110,7 +110,7 @@ mProtoHandler
 return
 NS_ERROR_FAILURE
 ;
-PRUint8
+uint8_t
 phase
 =
 mProtoHandler
@@ -128,7 +128,7 @@ phase
 NS_PHASE_TARGET
 )
 {
-PRUint16
+uint16_t
 eventPhase
 ;
 aEvent
@@ -264,9 +264,9 @@ nsXBLKeyEventHandler
 nsIAtom
 *
 aEventType
-PRUint8
+uint8_t
 aPhase
-PRUint8
+uint8_t
 aType
 )
 :
@@ -311,7 +311,7 @@ ExecuteMatchedHandlers
 nsIDOMKeyEvent
 *
 aKeyEvent
-PRUint32
+uint32_t
 aCharCode
 bool
 aIgnoreShiftKey
@@ -355,7 +355,7 @@ false
 ;
 for
 (
-PRUint32
+uint32_t
 i
 =
 0
@@ -463,7 +463,7 @@ nsIDOMEvent
 aEvent
 )
 {
-PRUint32
+uint32_t
 count
 =
 mProtoHandlers
@@ -490,7 +490,7 @@ mPhase
 NS_PHASE_TARGET
 )
 {
-PRUint16
+uint16_t
 eventPhase
 ;
 aEvent
@@ -574,7 +574,7 @@ NS_OK
 }
 for
 (
-PRUint32
+uint32_t
 i
 =
 0
@@ -713,9 +713,9 @@ NS_NewXBLKeyEventHandler
 nsIAtom
 *
 aEventType
-PRUint8
+uint8_t
 aPhase
-PRUint8
+uint8_t
 aType
 nsXBLKeyEventHandler
 *

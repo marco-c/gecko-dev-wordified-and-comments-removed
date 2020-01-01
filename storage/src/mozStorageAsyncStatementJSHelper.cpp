@@ -93,7 +93,7 @@ rv
 #
 ifdef
 DEBUG
-PRInt32
+int32_t
 state
 ;
 (

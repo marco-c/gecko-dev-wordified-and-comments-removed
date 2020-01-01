@@ -44,7 +44,7 @@ nsFontFace
 gfxFontEntry
 *
 aFontEntry
-PRUint8
+uint8_t
 aMatchType
 nsCSSFontFaceRule
 *
@@ -296,7 +296,7 @@ nsFontFace
 :
 GetSrcIndex
 (
-PRInt32
+int32_t
 *
 aSrcIndex
 )
@@ -581,7 +581,7 @@ userFontData
 "
 )
 ;
-PRUint32
+uint32_t
 formatFlags
 =
 mFontEntry

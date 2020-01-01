@@ -42,7 +42,7 @@ public
 void
 Init
 (
-PRUint8
+uint8_t
 aAttrEnum
 )
 {
@@ -165,7 +165,7 @@ nsString
 >
 mAnimVal
 ;
-PRUint8
+uint8_t
 mAttrEnum
 ;
 bool

@@ -98,7 +98,7 @@ mozilla
 dom
 ;
 static
-PRUint32
+uint32_t
 gEntryID
 =
 0
@@ -284,9 +284,9 @@ nsSHEntry
 :
 SetScrollPosition
 (
-PRInt32
+int32_t
 x
-PRInt32
+int32_t
 y
 )
 {
@@ -308,10 +308,10 @@ nsSHEntry
 :
 GetScrollPosition
 (
-PRInt32
+int32_t
 *
 x
-PRInt32
+int32_t
 *
 y
 )
@@ -571,7 +571,7 @@ NS_OK
 }
 for
 (
-PRInt32
+int32_t
 i
 =
 0
@@ -898,7 +898,7 @@ nsSHEntry
 :
 GetLoadType
 (
-PRUint32
+uint32_t
 *
 aResult
 )
@@ -918,7 +918,7 @@ nsSHEntry
 :
 SetLoadType
 (
-PRUint32
+uint32_t
 aLoadType
 )
 {
@@ -936,7 +936,7 @@ nsSHEntry
 :
 GetID
 (
-PRUint32
+uint32_t
 *
 aResult
 )
@@ -956,7 +956,7 @@ nsSHEntry
 :
 SetID
 (
-PRUint32
+uint32_t
 aID
 )
 {
@@ -1260,7 +1260,7 @@ aContentType
 nsISupports
 *
 aOwner
-PRUint64
+uint64_t
 aDocShellID
 bool
 aDynamicCreation
@@ -1281,7 +1281,7 @@ aInputStream
 mLoadType
 =
 (
-PRUint32
+uint32_t
 )
 nsIDocShellLoadInfo
 :
@@ -1766,7 +1766,7 @@ nsSHEntry
 :
 GetChildCount
 (
-PRInt32
+int32_t
 *
 aCount
 )
@@ -1793,7 +1793,7 @@ AddChild
 nsISHEntry
 *
 aChild
-PRInt32
+int32_t
 aOffset
 )
 {
@@ -1881,7 +1881,7 @@ if
 newChildIsDyn
 )
 {
-PRInt32
+int32_t
 lastNonDyn
 =
 aOffset
@@ -1890,7 +1890,7 @@ aOffset
 ;
 for
 (
-PRInt32
+int32_t
 i
 =
 aOffset
@@ -2023,7 +2023,7 @@ Count
 0
 )
 {
-PRInt32
+int32_t
 start
 =
 NS_MIN
@@ -2038,7 +2038,7 @@ Count
 aOffset
 )
 ;
-PRInt32
+int32_t
 dynEntryIndex
 =
 -
@@ -2052,7 +2052,7 @@ nullptr
 ;
 for
 (
-PRInt32
+int32_t
 i
 =
 start
@@ -2318,7 +2318,7 @@ aChild
 }
 else
 {
-PRInt32
+int32_t
 index
 =
 mChildren
@@ -2363,7 +2363,7 @@ nullptr
 ;
 for
 (
-PRInt32
+int32_t
 i
 =
 mChildren
@@ -2417,7 +2417,7 @@ nsSHEntry
 :
 GetChildAt
 (
-PRInt32
+int32_t
 aIndex
 nsISHEntry
 *
@@ -2514,7 +2514,7 @@ nsSHEntry
 :
 ChildShellAt
 (
-PRInt32
+int32_t
 aIndex
 nsIDocShellTreeItem
 *
@@ -2845,7 +2845,7 @@ false
 ;
 for
 (
-PRInt32
+int32_t
 i
 =
 0
@@ -2906,7 +2906,7 @@ nsSHEntry
 :
 GetDocshellID
 (
-PRUint64
+uint64_t
 *
 aID
 )
@@ -2929,7 +2929,7 @@ nsSHEntry
 :
 SetDocshellID
 (
-PRUint64
+uint64_t
 aID
 )
 {
@@ -2950,7 +2950,7 @@ nsSHEntry
 :
 GetLastTouched
 (
-PRUint32
+uint32_t
 *
 aLastTouched
 )
@@ -2973,7 +2973,7 @@ nsSHEntry
 :
 SetLastTouched
 (
-PRUint32
+uint32_t
 aLastTouched
 )
 {

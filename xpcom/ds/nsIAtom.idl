@@ -355,7 +355,7 @@ mString
 }
 inline
 const
-PRUint32
+uint32_t
 GetLength
 (
 )
@@ -433,7 +433,7 @@ mHash
 }
 protected
 :
-PRUint32
+uint32_t
 mLength
 ;
 uint32_t

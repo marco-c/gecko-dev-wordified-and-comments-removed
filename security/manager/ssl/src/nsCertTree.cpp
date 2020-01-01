@@ -176,10 +176,10 @@ orgName
 bool
 open
 ;
-PRInt32
+int32_t
 certIndex
 ;
-PRInt32
+int32_t
 numChildren
 ;
 }
@@ -890,7 +890,7 @@ PL_DHASH_REMOVE
 )
 ;
 }
-PRInt32
+int32_t
 nsCertTree
 :
 :
@@ -898,7 +898,7 @@ CountOrganizations
 (
 )
 {
-PRUint32
+uint32_t
 i
 certCount
 ;
@@ -963,7 +963,7 @@ nextCert
 =
 nullptr
 ;
-PRInt32
+int32_t
 orgCount
 =
 1
@@ -1051,7 +1051,7 @@ nsCertTree
 :
 GetThreadDescAtIndex
 (
-PRInt32
+int32_t
 index
 )
 {
@@ -1148,9 +1148,9 @@ nsCertTree
 :
 GetCertAtIndex
 (
-PRInt32
+int32_t
 index
-PRInt32
+int32_t
 *
 outAbsoluteCertOffset
 )
@@ -1235,9 +1235,9 @@ nsCertTree
 :
 GetDispInfoAtIndex
 (
-PRInt32
+int32_t
 index
-PRInt32
+int32_t
 *
 outAbsoluteCertOffset
 )
@@ -1319,7 +1319,7 @@ idx
 nc
 )
 {
-PRInt32
+int32_t
 certIndex
 =
 cIndex
@@ -1429,7 +1429,7 @@ nsCertTree
 :
 GetCompareFuncFromCertType
 (
-PRUint32
+uint32_t
 aType
 )
 {
@@ -1974,7 +1974,7 @@ GetCertsByTypeFromCertList
 CERTCertList
 *
 aCertList
-PRUint32
+uint32_t
 aWantedType
 nsCertCompareFunc
 aCertCmpFn
@@ -2112,7 +2112,7 @@ if
 wantThisCert
 )
 {
-PRUint32
+uint32_t
 thisCertType
 =
 getCertType
@@ -2304,7 +2304,7 @@ wantThisCertIfNoOverrides
 wantThisCertIfHaveOverrides
 )
 {
-PRUint32
+uint32_t
 ocount
 =
 0
@@ -2694,7 +2694,7 @@ nsCertTree
 :
 GetCertsByType
 (
-PRUint32
+uint32_t
 aType
 nsCertCompareFunc
 aCertCmpFn
@@ -2764,7 +2764,7 @@ GetCertsByTypeFromCache
 nsINSSCertCache
 *
 aCache
-PRUint32
+uint32_t
 aType
 nsCertCompareFunc
 aCertCmpFn
@@ -2823,7 +2823,7 @@ LoadCertsFromCache
 nsINSSCertCache
 *
 aCache
-PRUint32
+uint32_t
 aType
 )
 {
@@ -2903,7 +2903,7 @@ nsCertTree
 :
 LoadCerts
 (
-PRUint32
+uint32_t
 aType
 )
 {
@@ -2984,7 +2984,7 @@ UpdateUIContents
 (
 )
 {
-PRUint32
+uint32_t
 count
 =
 mDispInfo
@@ -3027,7 +3027,7 @@ if
 count
 )
 {
-PRUint32
+uint32_t
 j
 =
 0
@@ -3069,7 +3069,7 @@ mCert
 }
 for
 (
-PRInt32
+int32_t
 i
 =
 0
@@ -3337,7 +3337,7 @@ nsCertTree
 :
 DeleteEntryObject
 (
-PRUint32
+uint32_t
 index
 )
 {
@@ -3385,7 +3385,7 @@ NS_ERROR_FAILURE
 int
 i
 ;
-PRUint32
+uint32_t
 idx
 =
 0
@@ -3452,7 +3452,7 @@ idx
 nc
 )
 {
-PRInt32
+int32_t
 certIndex
 =
 cIndex
@@ -3793,7 +3793,7 @@ nsCertTree
 :
 GetCert
 (
-PRUint32
+uint32_t
 aIndex
 nsIX509Cert
 *
@@ -3828,7 +3828,7 @@ nsCertTree
 :
 GetTreeItem
 (
-PRUint32
+uint32_t
 aIndex
 nsICertTreeItem
 *
@@ -3881,7 +3881,7 @@ nsCertTree
 :
 IsHostPortOverride
 (
-PRUint32
+uint32_t
 aIndex
 bool
 *
@@ -3938,7 +3938,7 @@ nsCertTree
 :
 GetRowCount
 (
-PRInt32
+int32_t
 *
 aRowCount
 )
@@ -3951,14 +3951,14 @@ mTreeArray
 return
 NS_ERROR_NOT_INITIALIZED
 ;
-PRUint32
+uint32_t
 count
 =
 0
 ;
 for
 (
-PRInt32
+int32_t
 i
 =
 0
@@ -4059,7 +4059,7 @@ nsCertTree
 :
 GetRowProperties
 (
-PRInt32
+int32_t
 index
 nsISupportsArray
 *
@@ -4076,7 +4076,7 @@ nsCertTree
 :
 GetCellProperties
 (
-PRInt32
+int32_t
 row
 nsITreeColumn
 *
@@ -4114,7 +4114,7 @@ nsCertTree
 :
 IsContainer
 (
-PRInt32
+int32_t
 index
 bool
 *
@@ -4167,7 +4167,7 @@ nsCertTree
 :
 IsContainerOpen
 (
-PRInt32
+int32_t
 index
 bool
 *
@@ -4226,7 +4226,7 @@ nsCertTree
 :
 IsContainerEmpty
 (
-PRInt32
+int32_t
 index
 bool
 *
@@ -4249,7 +4249,7 @@ nsCertTree
 :
 IsSeparator
 (
-PRInt32
+int32_t
 index
 bool
 *
@@ -4271,9 +4271,9 @@ nsCertTree
 :
 GetParentIndex
 (
-PRInt32
+int32_t
 rowIndex
-PRInt32
+int32_t
 *
 _retval
 )
@@ -4377,9 +4377,9 @@ nsCertTree
 :
 HasNextSibling
 (
-PRInt32
+int32_t
 rowIndex
-PRInt32
+int32_t
 afterIndex
 bool
 *
@@ -4480,9 +4480,9 @@ nsCertTree
 :
 GetLevel
 (
-PRInt32
+int32_t
 index
-PRInt32
+int32_t
 *
 _retval
 )
@@ -4533,7 +4533,7 @@ nsCertTree
 :
 GetImageSrc
 (
-PRInt32
+int32_t
 row
 nsITreeColumn
 *
@@ -4559,12 +4559,12 @@ nsCertTree
 :
 GetProgressMode
 (
-PRInt32
+int32_t
 row
 nsITreeColumn
 *
 col
-PRInt32
+int32_t
 *
 _retval
 )
@@ -4579,7 +4579,7 @@ nsCertTree
 :
 GetCellValue
 (
-PRInt32
+int32_t
 row
 nsITreeColumn
 *
@@ -4605,7 +4605,7 @@ nsCertTree
 :
 GetCellText
 (
-PRInt32
+int32_t
 row
 nsITreeColumn
 *
@@ -4698,7 +4698,7 @@ return
 NS_OK
 ;
 }
-PRInt32
+int32_t
 absoluteCertOffset
 ;
 nsRefPtr
@@ -4756,7 +4756,7 @@ mAddonInfo
 mCert
 ;
 }
-PRInt32
+int32_t
 colIndex
 ;
 col
@@ -4768,7 +4768,7 @@ GetIndex
 colIndex
 )
 ;
-PRUint32
+uint32_t
 arrayIndex
 =
 absoluteCertOffset
@@ -4781,7 +4781,7 @@ mNumRows
 mNumOrgs
 )
 ;
-PRUint32
+uint32_t
 arrayLength
 =
 0
@@ -5054,7 +5054,7 @@ mNSSComponent
 cert
 )
 {
-PRUint32
+uint32_t
 verified
 ;
 nsAutoString
@@ -5643,7 +5643,7 @@ do_QueryInterface
 cert
 )
 ;
-PRUint32
+uint32_t
 type
 =
 nsIX509Cert
@@ -5855,7 +5855,7 @@ nsCertTree
 :
 ToggleOpenState
 (
-PRInt32
+int32_t
 index
 )
 {
@@ -5892,7 +5892,7 @@ el
 >
 open
 ;
-PRInt32
+int32_t
 newChildren
 =
 (
@@ -5966,7 +5966,7 @@ nsCertTree
 :
 CycleCell
 (
-PRInt32
+int32_t
 row
 nsITreeColumn
 *
@@ -5983,7 +5983,7 @@ nsCertTree
 :
 IsEditable
 (
-PRInt32
+int32_t
 row
 nsITreeColumn
 *
@@ -6008,7 +6008,7 @@ nsCertTree
 :
 IsSelectable
 (
-PRInt32
+int32_t
 row
 nsITreeColumn
 *
@@ -6033,7 +6033,7 @@ nsCertTree
 :
 SetCellValue
 (
-PRInt32
+int32_t
 row
 nsITreeColumn
 *
@@ -6054,7 +6054,7 @@ nsCertTree
 :
 SetCellText
 (
-PRInt32
+int32_t
 row
 nsITreeColumn
 *
@@ -6095,7 +6095,7 @@ const
 PRUnichar
 *
 action
-PRInt32
+int32_t
 row
 )
 {
@@ -6113,7 +6113,7 @@ const
 PRUnichar
 *
 action
-PRInt32
+int32_t
 row
 nsITreeColumn
 *
@@ -6396,9 +6396,9 @@ nsCertTree
 :
 CanDrop
 (
-PRInt32
+int32_t
 index
-PRInt32
+int32_t
 orientation
 nsIDOMDataTransfer
 *
@@ -6428,9 +6428,9 @@ nsCertTree
 :
 Drop
 (
-PRInt32
+int32_t
 row
-PRInt32
+int32_t
 orient
 nsIDOMDataTransfer
 *
@@ -6478,7 +6478,7 @@ CompareCacheHashEntry
 entry
 sortCriterion
 crit
-PRInt32
+int32_t
 level
 )
 {
@@ -6736,7 +6736,7 @@ break
 ;
 }
 }
-PRInt32
+int32_t
 nsCertTree
 :
 :
@@ -6756,7 +6756,7 @@ CompareCacheHashEntry
 bce
 sortCriterion
 crit
-PRInt32
+int32_t
 level
 )
 {
@@ -6855,7 +6855,7 @@ mCrit
 level
 ]
 ;
-PRInt32
+int32_t
 result
 ;
 if
@@ -6911,7 +6911,7 @@ return
 result
 ;
 }
-PRInt32
+int32_t
 nsCertTree
 :
 :
@@ -7006,7 +7006,7 @@ cache
 b
 )
 ;
-PRInt32
+int32_t
 cmp
 ;
 cmp
@@ -7086,7 +7086,7 @@ return
 cmp
 ;
 }
-PRInt32
+int32_t
 nsCertTree
 :
 :
@@ -7115,7 +7115,7 @@ sort_Token
 )
 ;
 }
-PRInt32
+int32_t
 nsCertTree
 :
 :
@@ -7144,7 +7144,7 @@ sort_None
 )
 ;
 }
-PRInt32
+int32_t
 nsCertTree
 :
 :
@@ -7173,7 +7173,7 @@ sort_IssuedDateDescending
 )
 ;
 }
-PRInt32
+int32_t
 nsCertTree
 :
 :

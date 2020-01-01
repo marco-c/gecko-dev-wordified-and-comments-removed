@@ -192,7 +192,7 @@ IsLoading
 )
 const
 ;
-PRUint32
+uint32_t
 GetImageStatus
 (
 )
@@ -248,7 +248,7 @@ aContainer
 void
 RecordStartFrame
 (
-PRUint32
+uint32_t
 aFrame
 )
 ;
@@ -258,7 +258,7 @@ SendStartFrame
 imgRequestProxy
 *
 aProxy
-PRUint32
+uint32_t
 aFrame
 )
 ;
@@ -290,7 +290,7 @@ aRect
 void
 RecordStopFrame
 (
-PRUint32
+uint32_t
 aFrame
 )
 ;
@@ -300,7 +300,7 @@ SendStopFrame
 imgRequestProxy
 *
 aProxy
-PRUint32
+uint32_t
 aFrame
 )
 ;
@@ -487,10 +487,10 @@ Image
 *
 mImage
 ;
-PRUint32
+uint32_t
 mState
 ;
-PRUint32
+uint32_t
 mImageStatus
 ;
 bool

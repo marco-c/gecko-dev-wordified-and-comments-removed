@@ -2539,7 +2539,7 @@ GetSet
 :
 nullptr
 ;
-PRUint16
+uint16_t
 interface_count
 =
 set
@@ -2563,7 +2563,7 @@ GetInterfaceArray
 ;
 for
 (
-PRUint16
+uint16_t
 i
 =
 0
@@ -2586,7 +2586,7 @@ interfaceArray
 i
 ]
 ;
-PRUint16
+uint16_t
 member_count
 =
 iface
@@ -2598,7 +2598,7 @@ GetMemberCount
 ;
 for
 (
-PRUint16
+uint16_t
 k
 =
 0
@@ -2634,7 +2634,7 @@ GetName
 (
 )
 ;
-PRUint16
+uint16_t
 index
 ;
 if
@@ -2684,7 +2684,7 @@ true
 ifdef
 DEBUG_slimwrappers
 static
-PRUint32
+uint32_t
 sFinalizedSlimWrappers
 ;
 #
@@ -7004,7 +7004,7 @@ SetScopeForNewJSObjects
 obj
 )
 ;
-PRUint16
+uint16_t
 interface_count
 =
 set
@@ -7028,7 +7028,7 @@ GetInterfaceArray
 ;
 for
 (
-PRUint16
+uint16_t
 i
 =
 0
@@ -7051,7 +7051,7 @@ interfaceArray
 i
 ]
 ;
-PRUint16
+uint16_t
 member_count
 =
 iface
@@ -7063,7 +7063,7 @@ GetMemberCount
 ;
 for
 (
-PRUint16
+uint16_t
 k
 =
 0
@@ -7838,7 +7838,7 @@ NS_ERROR_XPC_BAD_OP_ON_WN_PROTO
 cx
 )
 ;
-PRUint16
+uint16_t
 member_count
 =
 iface
@@ -7850,7 +7850,7 @@ GetMemberCount
 ;
 for
 (
-PRUint16
+uint16_t
 k
 =
 0

@@ -369,7 +369,7 @@ control
 ;
 static
 const
-PRUint32
+uint32_t
 kRelationAttrsLen
 =
 NS_ARRAY_LENGTH
@@ -569,7 +569,7 @@ mVirtualCursor
 nsAccessiblePivot
 )
 }
-PRUint32
+uint32_t
 i
 length
 =
@@ -911,7 +911,7 @@ sameTypeRoot
 )
 )
 ;
-PRInt32
+int32_t
 itemType
 ;
 docShellTreeItem
@@ -1156,7 +1156,7 @@ aDescription
 )
 ;
 }
-PRUint64
+uint64_t
 DocAccessible
 :
 :
@@ -1164,7 +1164,7 @@ NativeState
 (
 )
 {
-PRUint64
+uint64_t
 state
 =
 (
@@ -1316,7 +1316,7 @@ return
 state
 ;
 }
-PRUint64
+uint64_t
 DocAccessible
 :
 :
@@ -1351,7 +1351,7 @@ DocAccessible
 :
 ApplyARIAState
 (
-PRUint64
+uint64_t
 *
 aState
 )
@@ -1785,7 +1785,7 @@ DocAccessible
 :
 GetNameSpaceURIForID
 (
-PRInt16
+int16_t
 aNameSpaceID
 nsAString
 &
@@ -1996,7 +1996,7 @@ DocAccessible
 :
 GetChildDocumentCount
 (
-PRUint32
+uint32_t
 *
 aCount
 )
@@ -2035,7 +2035,7 @@ DocAccessible
 :
 GetChildDocumentAt
 (
-PRUint32
+uint32_t
 aIndex
 nsIAccessibleDocument
 *
@@ -2571,7 +2571,7 @@ this
 )
 ;
 }
-PRInt32
+int32_t
 childDocCount
 =
 mChildDocuments
@@ -2582,7 +2582,7 @@ Length
 ;
 for
 (
-PRInt32
+int32_t
 idx
 =
 childDocCount
@@ -2903,7 +2903,7 @@ docShellTreeItem
 NS_ERROR_FAILURE
 )
 ;
-PRInt32
+int32_t
 itemType
 ;
 docShellTreeItem
@@ -3122,7 +3122,7 @@ if
 docShellTreeItem
 )
 {
-PRInt32
+int32_t
 itemType
 ;
 docShellTreeItem
@@ -3468,7 +3468,7 @@ aY
 )
 {
 const
-PRUint32
+uint32_t
 kScrollPosCheckWait
 =
 50
@@ -3607,9 +3607,9 @@ aPivot
 nsIAccessible
 *
 aOldAccessible
-PRInt32
+int32_t
 aOldStart
-PRInt32
+int32_t
 aOldEnd
 PivotMoveReason
 aReason
@@ -3670,12 +3670,12 @@ dom
 Element
 *
 aElement
-PRInt32
+int32_t
 aNameSpaceID
 nsIAtom
 *
 aAttribute
-PRInt32
+int32_t
 aModType
 )
 {
@@ -3784,12 +3784,12 @@ dom
 Element
 *
 aElement
-PRInt32
+int32_t
 aNameSpaceID
 nsIAtom
 *
 aAttribute
-PRInt32
+int32_t
 aModType
 )
 {
@@ -3894,7 +3894,7 @@ AttributeChangedImpl
 nsIContent
 *
 aContent
-PRInt32
+int32_t
 aNameSpaceID
 nsIAtom
 *
@@ -4412,7 +4412,7 @@ event
 return
 ;
 }
-PRUint8
+uint8_t
 attrFlags
 =
 nsAccUtils
@@ -4481,7 +4481,7 @@ aria_pressed
 )
 {
 const
-PRUint32
+uint32_t
 kState
 =
 (
@@ -4835,7 +4835,7 @@ aContainer
 nsIContent
 *
 aFirstNewContent
-PRInt32
+int32_t
 )
 {
 }
@@ -5057,7 +5057,7 @@ aContainer
 nsIContent
 *
 aChild
-PRInt32
+int32_t
 )
 {
 }
@@ -5076,7 +5076,7 @@ aContainer
 nsIContent
 *
 aChild
-PRInt32
+int32_t
 nsIContent
 *
 aPreviousSibling
@@ -5241,7 +5241,7 @@ child
 return
 child
 ;
-PRUint32
+uint32_t
 childDocCount
 =
 mChildDocuments
@@ -5252,7 +5252,7 @@ Length
 ;
 for
 (
-PRUint32
+uint32_t
 childDocIdx
 =
 0
@@ -5743,7 +5743,7 @@ ProcessInvalidationList
 {
 for
 (
-PRUint32
+uint32_t
 idx
 =
 0
@@ -6141,7 +6141,7 @@ aRelAttr
 {
 for
 (
-PRUint32
+uint32_t
 idx
 =
 0
@@ -6485,7 +6485,7 @@ aRelAttr
 {
 for
 (
-PRUint32
+uint32_t
 idx
 =
 0
@@ -6581,7 +6581,7 @@ providers
 {
 for
 (
-PRUint32
+uint32_t
 jdx
 =
 0
@@ -6808,7 +6808,7 @@ DocAccessible
 :
 FireDelayedAccessibleEvent
 (
-PRUint32
+uint32_t
 aEventType
 nsINode
 *
@@ -6919,7 +6919,7 @@ AccEvent
 aEvent
 )
 {
-PRUint32
+uint32_t
 eventType
 =
 aEvent
@@ -6956,7 +6956,7 @@ AsHyperText
 (
 )
 ;
-PRInt32
+int32_t
 caretOffset
 ;
 if
@@ -6998,7 +6998,7 @@ FireEvent
 caretMoveEvent
 )
 ;
-PRInt32
+int32_t
 selectionCount
 ;
 hyperText
@@ -7142,7 +7142,7 @@ UpdateChildren
 ;
 for
 (
-PRUint32
+uint32_t
 idx
 =
 0
@@ -7211,7 +7211,7 @@ bool
 aIsInsert
 )
 {
-PRUint32
+uint32_t
 updateFlags
 =
 eNoAccessible
@@ -7515,7 +7515,7 @@ reorderEvent
 )
 ;
 }
-PRUint32
+uint32_t
 DocAccessible
 :
 :
@@ -7528,7 +7528,7 @@ bool
 aIsInsert
 )
 {
-PRUint32
+uint32_t
 updateFlags
 =
 eAccessible
@@ -7800,7 +7800,7 @@ EnsureChildren
 (
 )
 ;
-PRUint32
+uint32_t
 count
 =
 aRoot
@@ -7812,7 +7812,7 @@ ContentChildCount
 ;
 for
 (
-PRUint32
+uint32_t
 idx
 =
 0
@@ -7971,7 +7971,7 @@ RemoveDependentIDsFor
 aRoot
 )
 ;
-PRUint32
+uint32_t
 count
 =
 aRoot
@@ -7983,7 +7983,7 @@ ContentChildCount
 ;
 for
 (
-PRUint32
+uint32_t
 idx
 =
 0
@@ -8056,7 +8056,7 @@ Accessible
 aAccessible
 )
 {
-PRUint32
+uint32_t
 count
 =
 aAccessible
@@ -8068,7 +8068,7 @@ ContentChildCount
 ;
 for
 (
-PRUint32
+uint32_t
 idx
 =
 0
@@ -8233,7 +8233,7 @@ eCompletelyLoaded
 )
 ;
 }
-PRInt32
+int32_t
 contentType
 ;
 docShellTreeItem

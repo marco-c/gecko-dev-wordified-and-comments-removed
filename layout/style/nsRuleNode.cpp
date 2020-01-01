@@ -536,7 +536,7 @@ static
 void
 EnsureBlockDisplay
 (
-PRUint8
+uint8_t
 &
 display
 )
@@ -2057,7 +2057,7 @@ static
 float
 GetFloatFromBoxPosition
 (
-PRInt32
+int32_t
 aEnumValue
 )
 {
@@ -2370,7 +2370,7 @@ const
 nsStyleCoord
 &
 aParentCoord
-PRInt32
+int32_t
 aMask
 nsStyleContext
 *
@@ -3093,7 +3093,7 @@ aValue
 nsStyleCoord
 &
 aCoord
-PRInt32
+int32_t
 aMask
 )
 {
@@ -3193,7 +3193,7 @@ const
 nsStyleCoord
 &
 aParentY
-PRInt32
+int32_t
 aMask
 nsStyleContext
 *
@@ -3419,7 +3419,7 @@ eCSSUnit_EnumColor
 unit
 )
 {
-PRInt32
+int32_t
 intValue
 =
 aValue
@@ -4354,7 +4354,7 @@ SetNoneValue
 }
 for
 (
-PRUint32
+uint32_t
 i
 =
 0
@@ -4966,7 +4966,7 @@ aField
 bool
 &
 aCanStoreInRuleTree
-PRUint32
+uint32_t
 aMask
 FieldT
 aParentValue
@@ -5220,7 +5220,7 @@ float
 aParentValue
 float
 aInitialValue
-PRUint32
+uint32_t
 aFlags
 =
 0
@@ -5434,7 +5434,7 @@ table
 PLDHashEntryHdr
 *
 hdr
-PRUint32
+uint32_t
 number
 void
 *
@@ -5752,7 +5752,7 @@ aParent
 nsIStyleRule
 *
 aRule
-PRUint8
+uint8_t
 aLevel
 bool
 aIsImportant
@@ -5773,7 +5773,7 @@ aRule
 mDependentBits
 (
 (
-PRUint32
+uint32_t
 (
 aLevel
 )
@@ -5980,7 +5980,7 @@ Transition
 nsIStyleRule
 *
 aRule
-PRUint8
+uint8_t
 aLevel
 bool
 aIsImportantRule
@@ -6016,7 +6016,7 @@ ChildrenAreHashed
 )
 )
 {
-PRInt32
+int32_t
 numKids
 =
 0
@@ -6384,7 +6384,7 @@ nsRuleNode
 :
 PropagateNoneBit
 (
-PRUint32
+uint32_t
 aBit
 nsRuleNode
 *
@@ -6454,7 +6454,7 @@ nsRuleNode
 :
 PropagateDependentBit
 (
-PRUint32
+uint32_t
 aBit
 nsRuleNode
 *
@@ -6570,10 +6570,10 @@ const
 nsCSSValue
 &
 aValue
-PRUint32
+uint32_t
 &
 aSpecifiedCount
-PRUint32
+uint32_t
 &
 aInheritedCount
 )
@@ -7052,7 +7052,7 @@ animtype_
 flags_
 static
 const
-PRUint32
+uint32_t
 gFontFlags
 [
 ]
@@ -7076,7 +7076,7 @@ CSS_PROP_FONT
 ;
 static
 const
-PRUint32
+uint32_t
 gDisplayFlags
 [
 ]
@@ -7100,7 +7100,7 @@ CSS_PROP_DISPLAY
 ;
 static
 const
-PRUint32
+uint32_t
 gVisibilityFlags
 [
 ]
@@ -7124,7 +7124,7 @@ CSS_PROP_VISIBILITY
 ;
 static
 const
-PRUint32
+uint32_t
 gMarginFlags
 [
 ]
@@ -7148,7 +7148,7 @@ CSS_PROP_MARGIN
 ;
 static
 const
-PRUint32
+uint32_t
 gBorderFlags
 [
 ]
@@ -7172,7 +7172,7 @@ CSS_PROP_BORDER
 ;
 static
 const
-PRUint32
+uint32_t
 gPaddingFlags
 [
 ]
@@ -7196,7 +7196,7 @@ CSS_PROP_PADDING
 ;
 static
 const
-PRUint32
+uint32_t
 gOutlineFlags
 [
 ]
@@ -7220,7 +7220,7 @@ CSS_PROP_OUTLINE
 ;
 static
 const
-PRUint32
+uint32_t
 gListFlags
 [
 ]
@@ -7244,7 +7244,7 @@ CSS_PROP_LIST
 ;
 static
 const
-PRUint32
+uint32_t
 gColorFlags
 [
 ]
@@ -7268,7 +7268,7 @@ CSS_PROP_COLOR
 ;
 static
 const
-PRUint32
+uint32_t
 gBackgroundFlags
 [
 ]
@@ -7292,7 +7292,7 @@ CSS_PROP_BACKGROUND
 ;
 static
 const
-PRUint32
+uint32_t
 gPositionFlags
 [
 ]
@@ -7316,7 +7316,7 @@ CSS_PROP_POSITION
 ;
 static
 const
-PRUint32
+uint32_t
 gTableFlags
 [
 ]
@@ -7340,7 +7340,7 @@ CSS_PROP_TABLE
 ;
 static
 const
-PRUint32
+uint32_t
 gTableBorderFlags
 [
 ]
@@ -7364,7 +7364,7 @@ CSS_PROP_TABLEBORDER
 ;
 static
 const
-PRUint32
+uint32_t
 gContentFlags
 [
 ]
@@ -7388,7 +7388,7 @@ CSS_PROP_CONTENT
 ;
 static
 const
-PRUint32
+uint32_t
 gQuotesFlags
 [
 ]
@@ -7412,7 +7412,7 @@ CSS_PROP_QUOTES
 ;
 static
 const
-PRUint32
+uint32_t
 gTextFlags
 [
 ]
@@ -7436,7 +7436,7 @@ CSS_PROP_TEXT
 ;
 static
 const
-PRUint32
+uint32_t
 gTextResetFlags
 [
 ]
@@ -7460,7 +7460,7 @@ CSS_PROP_TEXTRESET
 ;
 static
 const
-PRUint32
+uint32_t
 gUserInterfaceFlags
 [
 ]
@@ -7484,7 +7484,7 @@ CSS_PROP_USERINTERFACE
 ;
 static
 const
-PRUint32
+uint32_t
 gUIResetFlags
 [
 ]
@@ -7508,7 +7508,7 @@ CSS_PROP_UIRESET
 ;
 static
 const
-PRUint32
+uint32_t
 gXULFlags
 [
 ]
@@ -7532,7 +7532,7 @@ CSS_PROP_XUL
 ;
 static
 const
-PRUint32
+uint32_t
 gSVGFlags
 [
 ]
@@ -7556,7 +7556,7 @@ CSS_PROP_SVG
 ;
 static
 const
-PRUint32
+uint32_t
 gSVGResetFlags
 [
 ]
@@ -7580,7 +7580,7 @@ CSS_PROP_SVGRESET
 ;
 static
 const
-PRUint32
+uint32_t
 gColumnFlags
 [
 ]
@@ -7607,7 +7607,7 @@ undef
 FLAG_DATA_FOR_PROPERTY
 static
 const
-PRUint32
+uint32_t
 *
 gFlagsByStruct
 [
@@ -7755,7 +7755,7 @@ nsRuleData
 aRuleData
 )
 {
-PRUint32
+uint32_t
 total
 =
 0
@@ -8058,7 +8058,7 @@ result
 ;
 }
 inline
-PRUint32
+uint32_t
 GetPseudoRestriction
 (
 nsStyleContext
@@ -8066,7 +8066,7 @@ nsStyleContext
 aContext
 )
 {
-PRUint32
+uint32_t
 pseudoRestriction
 =
 0
@@ -8135,7 +8135,7 @@ aSID
 nsRuleData
 *
 aRuleData
-PRUint32
+uint32_t
 aFlags
 )
 {
@@ -8154,7 +8154,7 @@ nonzero
 )
 ;
 const
-PRUint32
+uint32_t
 *
 flagData
 =
@@ -8486,7 +8486,7 @@ detail
 =
 eRuleNone
 ;
-PRUint32
+uint32_t
 bit
 =
 nsCachedStyleData
@@ -8711,7 +8711,7 @@ ruleNode
 mParent
 ;
 }
-PRUint32
+uint32_t
 pseudoRestriction
 =
 GetPseudoRestriction
@@ -10221,7 +10221,7 @@ aCanStoreInRuleTree
 =
 false
 ;
-PRUint8
+uint8_t
 dir
 =
 aContext
@@ -11587,7 +11587,7 @@ nscoord
 aUnconstrainedSize
 )
 {
-PRInt32
+int32_t
 scriptLevelChange
 =
 aFont
@@ -11765,9 +11765,9 @@ nsRuleNode
 :
 CalcFontPointSize
 (
-PRInt32
+int32_t
 aHTMLSize
-PRInt32
+int32_t
 aBasePointSize
 nsPresContext
 *
@@ -11785,7 +11785,7 @@ define
 sFontSizeTableMax
 16
 static
-PRInt32
+int32_t
 sStrictFontSizeTable
 [
 sFontSizeTableMax
@@ -11882,7 +11882,7 @@ sFontSizeTableMin
 }
 ;
 static
-PRInt32
+int32_t
 sQuirksFontSizeTable
 [
 sFontSizeTableMax
@@ -12036,7 +12036,7 @@ if
 #
 endif
 static
-PRInt32
+int32_t
 sFontSizeFactors
 [
 8
@@ -12054,7 +12054,7 @@ sFontSizeFactors
 }
 ;
 static
-PRInt32
+int32_t
 sCSSColumns
 [
 7
@@ -12071,7 +12071,7 @@ sCSSColumns
 }
 ;
 static
-PRInt32
+int32_t
 sHTMLColumns
 [
 7
@@ -12124,7 +12124,7 @@ aHTMLSize
 =
 6
 ;
-PRInt32
+int32_t
 *
 column
 ;
@@ -12152,7 +12152,7 @@ sCSSColumns
 break
 ;
 }
-PRInt32
+int32_t
 fontSize
 =
 nsPresContext
@@ -12181,7 +12181,7 @@ sFontSizeTableMax
 )
 )
 {
-PRInt32
+int32_t
 row
 =
 fontSize
@@ -12246,7 +12246,7 @@ aHTMLSize
 }
 else
 {
-PRInt32
+int32_t
 factor
 =
 sFontSizeFactors
@@ -12299,7 +12299,7 @@ FindNextSmallerFontSize
 (
 nscoord
 aFontSize
-PRInt32
+int32_t
 aBasePointSize
 nsPresContext
 *
@@ -12308,13 +12308,13 @@ nsFontSizeType
 aFontSizeType
 )
 {
-PRInt32
+int32_t
 index
 ;
-PRInt32
+int32_t
 indexMin
 ;
-PRInt32
+int32_t
 indexMax
 ;
 float
@@ -12623,7 +12623,7 @@ FindNextLargerFontSize
 (
 nscoord
 aFontSize
-PRInt32
+int32_t
 aBasePointSize
 nsPresContext
 *
@@ -12632,13 +12632,13 @@ nsFontSizeType
 aFontSizeType
 )
 {
-PRInt32
+int32_t
 index
 ;
-PRInt32
+int32_t
 indexMin
 ;
-PRInt32
+int32_t
 indexMax
 ;
 float
@@ -13162,11 +13162,11 @@ zoom
 =
 false
 ;
-PRInt32
+int32_t
 baseSize
 =
 (
-PRInt32
+int32_t
 )
 aPresContext
 -
@@ -13211,7 +13211,7 @@ GetUnit
 )
 )
 {
-PRInt32
+int32_t
 value
 =
 sizeValue
@@ -13634,10 +13634,10 @@ aSize
 }
 }
 static
-PRInt8
+int8_t
 ClampTo8Bit
 (
-PRInt32
+int32_t
 aValue
 )
 {
@@ -13662,7 +13662,7 @@ return
 127
 ;
 return
-PRInt8
+int8_t
 (
 aValue
 )
@@ -13680,7 +13680,7 @@ aPresContext
 nsStyleContext
 *
 aContext
-PRUint8
+uint8_t
 aGenericFontID
 const
 nsRuleData
@@ -14527,7 +14527,7 @@ GetUnit
 )
 )
 {
-PRInt32
+int32_t
 value
 =
 weightValue
@@ -14567,7 +14567,7 @@ aCanStoreInRuleTree
 =
 false
 ;
-PRInt32
+int32_t
 inheritedValue
 =
 aParentFont
@@ -14637,7 +14637,7 @@ aCanStoreInRuleTree
 =
 false
 ;
-PRInt32
+int32_t
 inheritedValue
 =
 aParentFont
@@ -14902,7 +14902,7 @@ mScriptLevel
 =
 ClampTo8Bit
 (
-PRInt32
+int32_t
 (
 scriptLevelValue
 -
@@ -15710,7 +15710,7 @@ aPresContext
 nsStyleContext
 *
 aContext
-PRUint8
+uint8_t
 aGenericFontID
 nsStyleFont
 *
@@ -15840,7 +15840,7 @@ parentFont
 bool
 dummy
 ;
-PRUint32
+uint32_t
 fontBit
 =
 nsCachedStyleData
@@ -15878,7 +15878,7 @@ nsCSSValue
 ;
 for
 (
-PRInt32
+int32_t
 i
 =
 contextPath
@@ -16198,7 +16198,7 @@ useDocumentFonts
 true
 ;
 }
-PRUint8
+uint8_t
 generic
 =
 kGenericFont_NONE
@@ -16408,7 +16408,7 @@ typename
 T
 >
 inline
-PRUint32
+uint32_t
 ListLength
 (
 const
@@ -16417,7 +16417,7 @@ T
 aList
 )
 {
-PRUint32
+uint32_t
 len
 =
 0
@@ -16466,7 +16466,7 @@ bool
 canStoreInRuleTree
 )
 {
-PRUint32
+uint32_t
 arrayLength
 =
 ListLength
@@ -17480,7 +17480,7 @@ canStoreInRuleTree
 =
 false
 ;
-PRUint8
+uint8_t
 parentAlign
 =
 parentText
@@ -18019,7 +18019,7 @@ GetUnit
 )
 )
 {
-PRInt32
+int32_t
 td
 =
 decorationLineValue
@@ -19159,7 +19159,7 @@ Document
 (
 )
 ;
-PRUint32
+uint32_t
 arrayLength
 =
 0
@@ -19684,7 +19684,7 @@ TransitionPropInfo
 nsCSSProperty
 property
 ;
-PRUint32
+uint32_t
 nsStyleDisplay
 :
 :
@@ -19822,13 +19822,13 @@ list
 nsCSSUnit
 unit
 ;
-PRUint32
+uint32_t
 num
 ;
 }
 ;
 static
-PRUint32
+uint32_t
 CountTransitionProps
 (
 const
@@ -19856,7 +19856,7 @@ bool
 aCanStoreInRuleTree
 )
 {
-PRUint32
+uint32_t
 numTransitions
 =
 0
@@ -20464,7 +20464,7 @@ var_
 \
 for
 (
-PRUint32
+uint32_t
 var_
 =
 0
@@ -20477,7 +20477,7 @@ var_
 +
 var_
 )
-PRUint32
+uint32_t
 numTransitions
 =
 CountTransitionProps
@@ -20620,7 +20620,7 @@ num
 }
 for
 (
-PRUint32
+uint32_t
 i
 =
 0
@@ -21580,7 +21580,7 @@ var_
 \
 for
 (
-PRUint32
+uint32_t
 var_
 =
 0
@@ -21593,7 +21593,7 @@ var_
 +
 var_
 )
-PRUint32
+uint32_t
 numAnimations
 =
 CountTransitionProps
@@ -21736,7 +21736,7 @@ num
 }
 for
 (
-PRUint32
+uint32_t
 i
 =
 0
@@ -25580,7 +25580,7 @@ struct
 BackgroundItemComputer
 <
 nsCSSValueList
-PRUint8
+uint8_t
 >
 {
 static
@@ -25594,7 +25594,7 @@ const
 nsCSSValueList
 *
 aSpecifiedValue
-PRUint8
+uint8_t
 &
 aComputedValue
 bool
@@ -25611,7 +25611,7 @@ mValue
 aComputedValue
 aCanStoreInRuleTree
 SETDSC_ENUMERATED
-PRUint8
+uint8_t
 (
 0
 )
@@ -25712,7 +25712,7 @@ hasContraction
 =
 true
 ;
-PRUint8
+uint8_t
 value
 =
 aSpecifiedValue
@@ -26508,7 +26508,7 @@ Size
 *
 result
 ;
-PRUint8
+uint8_t
 nsStyleBackground
 :
 :
@@ -27376,12 +27376,12 @@ Layer
 aResultLocation
 ComputedValueItem
 aInitialValue
-PRUint32
+uint32_t
 aParentItemCount
-PRUint32
+uint32_t
 &
 aItemCount
-PRUint32
+uint32_t
 &
 aMaxItemCount
 bool
@@ -27452,7 +27452,7 @@ aParentItemCount
 ;
 for
 (
-PRUint32
+uint32_t
 i
 =
 0
@@ -27736,12 +27736,12 @@ Layer
 aResultLocation
 ComputedValueItem
 aInitialValue
-PRUint32
+uint32_t
 aParentItemCount
-PRUint32
+uint32_t
 &
 aItemCount
-PRUint32
+uint32_t
 &
 aMaxItemCount
 bool
@@ -27812,7 +27812,7 @@ aParentItemCount
 ;
 for
 (
-PRUint32
+uint32_t
 i
 =
 0
@@ -28089,9 +28089,9 @@ Layer
 :
 *
 aResultLocation
-PRUint32
+uint32_t
 aItemCount
-PRUint32
+uint32_t
 aFillCount
 )
 {
@@ -28114,7 +28114,7 @@ length
 ;
 for
 (
-PRUint32
+uint32_t
 sourceLayer
 =
 0
@@ -28269,7 +28269,7 @@ unit
 )
 ;
 }
-PRUint32
+uint32_t
 maxItemCount
 =
 1
@@ -28400,7 +28400,7 @@ Layer
 :
 :
 mAttachment
-PRUint8
+uint8_t
 (
 NS_STYLE_BG_ATTACHMENT_SCROLL
 )
@@ -28443,7 +28443,7 @@ Layer
 :
 :
 mClip
-PRUint8
+uint8_t
 (
 NS_STYLE_BG_CLIP_BORDER
 )
@@ -28512,7 +28512,7 @@ Layer
 :
 :
 mOrigin
-PRUint8
+uint8_t
 (
 NS_STYLE_BG_ORIGIN_PADDING
 )
@@ -28648,7 +28648,7 @@ TruncateLength
 maxItemCount
 )
 ;
-PRUint32
+uint32_t
 fillCount
 =
 bg
@@ -28806,7 +28806,7 @@ fillCount
 }
 for
 (
-PRUint32
+uint32_t
 i
 =
 0
@@ -33102,7 +33102,7 @@ GetUnit
 eCSSUnit_Inherit
 )
 {
-PRUint8
+uint8_t
 inheritedAlignSelf
 =
 parentPos
@@ -33928,7 +33928,7 @@ bool
 aCanStoreInRuleTree
 )
 {
-PRUint32
+uint32_t
 count
 ;
 nsAutoString
@@ -34689,7 +34689,7 @@ count
 +
 )
 {
-PRInt32
+int32_t
 increment
 ;
 if
@@ -34967,7 +34967,7 @@ count
 +
 )
 {
-PRInt32
+int32_t
 reset
 ;
 if
@@ -35072,7 +35072,7 @@ canStoreInRuleTree
 ;
 for
 (
-PRUint32
+uint32_t
 i
 =
 0
@@ -35280,7 +35280,7 @@ buffer
 nsAutoString
 closeBuffer
 ;
-PRUint32
+uint32_t
 count
 =
 ListLength
@@ -37547,7 +37547,7 @@ svg
 mStrokeDasharray
 )
 {
-PRUint32
+uint32_t
 i
 =
 0
@@ -38546,7 +38546,7 @@ present
 "
 )
 ;
-PRUint32
+uint32_t
 bit
 =
 nsCachedStyleData
@@ -38727,7 +38727,7 @@ rules
 *
 /
 \
-PRUint32
+uint32_t
 bit
 =
 nsCachedStyleData
@@ -39271,7 +39271,7 @@ table
 PLDHashEntryHdr
 *
 hdr
-PRUint32
+uint32_t
 number
 void
 *
@@ -39373,7 +39373,7 @@ HaveChildren
 )
 )
 {
-PRUint32
+uint32_t
 childrenDestroyed
 ;
 if
@@ -39391,7 +39391,7 @@ ChildrenHash
 (
 )
 ;
-PRUint32
+uint32_t
 oldChildCount
 =
 children
@@ -39561,13 +39561,13 @@ HasAuthorSpecifiedRules
 nsStyleContext
 *
 aStyleContext
-PRUint32
+uint32_t
 ruleTypeMask
 bool
 aAuthorColorsAllowed
 )
 {
-PRUint32
+uint32_t
 inheritBits
 =
 0
@@ -39970,7 +39970,7 @@ NS_AUTHOR_SPECIFIED_BACKGROUND
 {
 for
 (
-PRUint32
+uint32_t
 i
 =
 0
@@ -40028,7 +40028,7 @@ NS_AUTHOR_SPECIFIED_BORDER
 {
 for
 (
-PRUint32
+uint32_t
 i
 =
 0
@@ -40086,7 +40086,7 @@ NS_AUTHOR_SPECIFIED_PADDING
 {
 for
 (
-PRUint32
+uint32_t
 i
 =
 0
@@ -40144,7 +40144,7 @@ NS_AUTHOR_SPECIFIED_TEXT_SHADOW
 {
 for
 (
-PRUint32
+uint32_t
 i
 =
 0
@@ -40306,7 +40306,7 @@ eUserSheet
 {
 for
 (
-PRUint32
+uint32_t
 i
 =
 0
@@ -40396,7 +40396,7 @@ else
 {
 for
 (
-PRUint32
+uint32_t
 i
 =
 0
@@ -40522,7 +40522,7 @@ haveExplicitUAInherit
 {
 for
 (
-PRUint32
+uint32_t
 i
 =
 0
@@ -40562,7 +40562,7 @@ SetDummyValue
 ;
 for
 (
-PRUint32
+uint32_t
 i
 =
 0

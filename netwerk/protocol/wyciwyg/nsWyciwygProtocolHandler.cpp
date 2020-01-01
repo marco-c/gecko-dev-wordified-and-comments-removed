@@ -200,7 +200,7 @@ nsWyciwygProtocolHandler
 :
 GetDefaultPort
 (
-PRInt32
+int32_t
 *
 result
 )
@@ -215,7 +215,7 @@ nsWyciwygProtocolHandler
 :
 AllowPort
 (
-PRInt32
+int32_t
 port
 const
 char
@@ -458,7 +458,7 @@ rv
 rv
 )
 ;
-PRInt32
+int32_t
 slashIndex
 =
 path
@@ -490,7 +490,7 @@ Length
 )
 <
 (
-PRUint32
+uint32_t
 )
 slashIndex
 +
@@ -582,7 +582,7 @@ nsWyciwygProtocolHandler
 :
 GetProtocolFlags
 (
-PRUint32
+uint32_t
 *
 result
 )

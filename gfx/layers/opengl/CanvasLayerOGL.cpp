@@ -911,6 +911,10 @@ if
 mCanvasGLContext
 &
 &
+!
+mForceReadback
+&
+&
 mCanvasGLContext
 -
 >
@@ -1168,6 +1172,10 @@ bool
 useGLContext
 =
 mCanvasGLContext
+&
+&
+!
+mForceReadback
 &
 &
 mCanvasGLContext

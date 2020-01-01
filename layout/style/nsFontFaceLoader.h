@@ -195,7 +195,7 @@ InsertRule
 nsCSSFontFaceRule
 *
 aRule
-PRUint8
+uint8_t
 aSheetType
 nsTArray
 <
@@ -219,7 +219,7 @@ const
 char
 *
 aMessage
-PRUint32
+uint32_t
 aFlags
 =
 nsIScriptError
@@ -259,11 +259,11 @@ const
 gfxFontFaceSrc
 *
 aFontFaceSrc
-PRUint8
+uint8_t
 *
 &
 aBuffer
-PRUint32
+uint32_t
 &
 aBufferLength
 )

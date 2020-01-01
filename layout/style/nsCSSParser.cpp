@@ -918,7 +918,7 @@ VARIANT_IMAGE_RECT
 VARIANT_ELEMENT
 )
 const
-PRUint32
+uint32_t
 nsCSSProps
 :
 :
@@ -1079,7 +1079,7 @@ aBaseURI
 nsIPrincipal
 *
 aSheetPrincipal
-PRUint32
+uint32_t
 aLineNumber
 bool
 aAllowUnsafeRules
@@ -1206,7 +1206,7 @@ aBuffer
 nsIURI
 *
 aURL
-PRUint32
+uint32_t
 aLineNumber
 nsMediaList
 *
@@ -1225,7 +1225,7 @@ aBuffer
 nsIURI
 *
 aURL
-PRUint32
+uint32_t
 aLineNumber
 nsCSSValue
 &
@@ -1242,7 +1242,7 @@ aSelectorString
 nsIURI
 *
 aURL
-PRUint32
+uint32_t
 aLineNumber
 nsCSSSelectorList
 *
@@ -1263,7 +1263,7 @@ aBuffer
 nsIURI
 *
 aURL
-PRUint32
+uint32_t
 aLineNumber
 )
 ;
@@ -1277,7 +1277,7 @@ aSelectorString
 nsIURI
 *
 aURL
-PRUint32
+uint32_t
 aLineNumber
 InfallibleTArray
 <
@@ -1405,7 +1405,7 @@ aString
 nsIURI
 *
 aSheetURI
-PRUint32
+uint32_t
 aLineNumber
 nsIURI
 *
@@ -1873,7 +1873,7 @@ eSelectorParsingStatus_Error
 nsSelectorParsingStatus
 ParseIDSelector
 (
-PRInt32
+int32_t
 &
 aDataMask
 nsCSSSelector
@@ -1884,7 +1884,7 @@ aSelector
 nsSelectorParsingStatus
 ParseClassSelector
 (
-PRInt32
+int32_t
 &
 aDataMask
 nsCSSSelector
@@ -1895,7 +1895,7 @@ aSelector
 nsSelectorParsingStatus
 ParsePseudoSelector
 (
-PRInt32
+int32_t
 &
 aDataMask
 nsCSSSelector
@@ -1922,7 +1922,7 @@ aPseudoElementType
 nsSelectorParsingStatus
 ParseAttributeSelector
 (
-PRInt32
+int32_t
 &
 aDataMask
 nsCSSSelector
@@ -1933,7 +1933,7 @@ aSelector
 nsSelectorParsingStatus
 ParseTypeOrUniversalSelector
 (
-PRInt32
+int32_t
 &
 aDataMask
 nsCSSSelector
@@ -1985,7 +1985,7 @@ aType
 nsSelectorParsingStatus
 ParseNegatedSimpleSelector
 (
-PRInt32
+int32_t
 &
 aDataMask
 nsCSSSelector
@@ -2365,7 +2365,7 @@ nsCSSProperty
 aPropIDs
 [
 ]
-PRInt32
+int32_t
 aSourceType
 )
 ;
@@ -2385,7 +2385,7 @@ ParseCalc
 nsCSSValue
 &
 aValue
-PRInt32
+int32_t
 aVariantMask
 )
 ;
@@ -2395,7 +2395,7 @@ ParseCalcAdditiveExpression
 nsCSSValue
 &
 aValue
-PRInt32
+int32_t
 &
 aVariantMask
 )
@@ -2406,7 +2406,7 @@ ParseCalcMultiplicativeExpression
 nsCSSValue
 &
 aValue
-PRInt32
+int32_t
 &
 aVariantMask
 bool
@@ -2420,7 +2420,7 @@ ParseCalcTerm
 nsCSSValue
 &
 aValue
-PRInt32
+int32_t
 &
 aVariantMask
 )
@@ -2729,7 +2729,7 @@ aPropIDs
 bool
 ParseGroupedBoxProperty
 (
-PRInt32
+int32_t
 aVariantMask
 nsCSSValue
 &
@@ -2741,7 +2741,7 @@ ParseDirectionalBoxProperty
 (
 nsCSSProperty
 aProperty
-PRInt32
+int32_t
 aSourceType
 )
 ;
@@ -2763,7 +2763,7 @@ aPropIDs
 ]
 )
 ;
-PRInt32
+int32_t
 ParseChoice
 (
 nsCSSValue
@@ -2775,7 +2775,7 @@ nsCSSProperty
 aPropIDs
 [
 ]
-PRInt32
+int32_t
 aNumIDs
 )
 ;
@@ -2790,10 +2790,10 @@ aValue
 bool
 ParseColorComponent
 (
-PRUint8
+uint8_t
 &
 aComponent
-PRInt32
+int32_t
 &
 aType
 char
@@ -2813,7 +2813,7 @@ aStop
 bool
 ParseColorOpacity
 (
-PRUint8
+uint8_t
 &
 aOpacity
 )
@@ -2825,7 +2825,7 @@ nsCSSValue
 &
 aValue
 const
-PRInt32
+int32_t
 aKeywordTable
 [
 ]
@@ -2837,10 +2837,10 @@ ParseVariant
 nsCSSValue
 &
 aValue
-PRInt32
+int32_t
 aVariantMask
 const
-PRInt32
+int32_t
 aKeywordTable
 [
 ]
@@ -2852,10 +2852,10 @@ ParseNonNegativeVariant
 nsCSSValue
 &
 aValue
-PRInt32
+int32_t
 aVariantMask
 const
-PRInt32
+int32_t
 aKeywordTable
 [
 ]
@@ -2867,10 +2867,10 @@ ParseOneOrLargerVariant
 nsCSSValue
 &
 aValue
-PRInt32
+int32_t
 aVariantMask
 const
-PRInt32
+int32_t
 aKeywordTable
 [
 ]
@@ -2910,7 +2910,7 @@ TranslateDimension
 nsCSSValue
 &
 aValue
-PRInt32
+int32_t
 aVariantMask
 float
 aNumber
@@ -3034,13 +3034,13 @@ nsString
 &
 aFunction
 const
-PRInt32
+int32_t
 aAllowedTypes
 [
 ]
-PRUint16
+uint16_t
 aMinElems
-PRUint16
+uint16_t
 aMaxElems
 nsCSSValue
 &
@@ -3051,13 +3051,13 @@ bool
 ParseFunctionInternals
 (
 const
-PRInt32
+int32_t
 aVariantMask
 [
 ]
-PRUint16
+uint16_t
 aMinElems
-PRUint16
+uint16_t
 aMaxElems
 InfallibleTArray
 <
@@ -3074,7 +3074,7 @@ bool
 aPerspective
 )
 ;
-PRInt32
+int32_t
 GetNamespaceIdForPrefix
 (
 const
@@ -3723,7 +3723,7 @@ aString
 nsIURI
 *
 aSheetURI
-PRUint32
+uint32_t
 aLineNumber
 nsIURI
 *
@@ -3837,7 +3837,7 @@ aBaseURI
 nsIPrincipal
 *
 aSheetPrincipal
-PRUint32
+uint32_t
 aLineNumber
 bool
 aAllowUnsafeRules
@@ -3992,7 +3992,7 @@ aBaseURI
 aSheetPrincipal
 )
 ;
-PRInt32
+int32_t
 ruleCount
 =
 mSheet
@@ -5077,7 +5077,7 @@ aBuffer
 nsIURI
 *
 aURI
-PRUint32
+uint32_t
 aLineNumber
 nsMediaList
 *
@@ -5145,7 +5145,7 @@ aBuffer
 nsIURI
 *
 aURI
-PRUint32
+uint32_t
 aLineNumber
 nsCSSValue
 &
@@ -5205,7 +5205,7 @@ aSelectorString
 nsIURI
 *
 aURI
-PRUint32
+uint32_t
 aLineNumber
 nsCSSSelectorList
 *
@@ -5303,7 +5303,7 @@ aBuffer
 nsIURI
 *
 aURI
-PRUint32
+uint32_t
 aLineNumber
 )
 {
@@ -5372,7 +5372,7 @@ aSelectorString
 nsIURI
 *
 aURI
-PRUint32
+uint32_t
 aLineNumber
 InfallibleTArray
 <
@@ -11248,7 +11248,7 @@ tk
 >
 mSymbol
 ;
-PRUint32
+uint32_t
 stackTopIndex
 =
 stack
@@ -11949,7 +11949,7 @@ PopGroup
 (
 )
 {
-PRUint32
+uint32_t
 count
 =
 mGroupStack
@@ -11990,7 +11990,7 @@ Rule
 aRule
 )
 {
-PRUint32
+uint32_t
 count
 =
 mGroupStack
@@ -12053,7 +12053,7 @@ slist
 =
 nullptr
 ;
-PRUint32
+uint32_t
 linenum
 =
 mScanner
@@ -12766,7 +12766,7 @@ CSSParserImpl
 :
 ParseIDSelector
 (
-PRInt32
+int32_t
 &
 aDataMask
 nsCSSSelector
@@ -12821,7 +12821,7 @@ CSSParserImpl
 :
 ParseClassSelector
 (
-PRInt32
+int32_t
 &
 aDataMask
 nsCSSSelector
@@ -12897,7 +12897,7 @@ CSSParserImpl
 :
 ParseTypeOrUniversalSelector
 (
-PRInt32
+int32_t
 &
 aDataMask
 nsCSSSelector
@@ -13083,7 +13083,7 @@ aDataMask
 =
 SEL_MASK_NSPACE
 ;
-PRInt32
+int32_t
 nameSpaceID
 =
 GetNamespaceIdForPrefix
@@ -13369,7 +13369,7 @@ CSSParserImpl
 :
 ParseAttributeSelector
 (
-PRInt32
+int32_t
 &
 aDataMask
 nsCSSSelector
@@ -13395,7 +13395,7 @@ return
 eSelectorParsingStatus_Error
 ;
 }
-PRInt32
+int32_t
 nameSpaceID
 =
 kNameSpaceID_None
@@ -13751,7 +13751,7 @@ mType
 )
 )
 {
-PRUint8
+uint8_t
 func
 ;
 if
@@ -14271,7 +14271,7 @@ CSSParserImpl
 :
 ParsePseudoSelector
 (
-PRInt32
+int32_t
 &
 aDataMask
 nsCSSSelector
@@ -15205,7 +15205,7 @@ CSSParserImpl
 :
 ParseNegatedSimpleSelector
 (
-PRInt32
+int32_t
 &
 aDataMask
 nsCSSSelector
@@ -15711,7 +15711,7 @@ Type
 aType
 )
 {
-PRInt32
+int32_t
 numbers
 [
 2
@@ -15763,7 +15763,7 @@ mToken
 mType
 )
 {
-PRUint32
+uint32_t
 truncAt
 =
 0
@@ -15824,7 +15824,7 @@ truncAt
 {
 for
 (
-PRUint32
+uint32_t
 i
 =
 mToken
@@ -16155,7 +16155,7 @@ haveSign
 =
 false
 ;
-PRInt32
+int32_t
 sign
 =
 1
@@ -16519,7 +16519,7 @@ nsCSSPseudoElements
 :
 ePseudo_NotPseudoElement
 ;
-PRInt32
+int32_t
 dataMask
 =
 0
@@ -17163,7 +17163,7 @@ eCSSKeyword_UNKNOWN
 keyword
 )
 {
-PRInt32
+int32_t
 value
 ;
 if
@@ -17215,12 +17215,12 @@ rgb
 )
 )
 {
-PRUint8
+uint8_t
 r
 g
 b
 ;
-PRInt32
+int32_t
 type
 =
 COLOR_TYPE_UNKNOWN
@@ -17312,13 +17312,13 @@ rgba
 )
 )
 {
-PRUint8
+uint8_t
 r
 g
 b
 a
 ;
-PRInt32
+int32_t
 type
 =
 COLOR_TYPE_UNKNOWN
@@ -17464,7 +17464,7 @@ hsla
 )
 )
 {
-PRUint8
+uint8_t
 a
 ;
 if
@@ -17725,10 +17725,10 @@ CSSParserImpl
 :
 ParseColorComponent
 (
-PRUint8
+uint8_t
 &
 aComponent
-PRInt32
+int32_t
 &
 aType
 char
@@ -18368,7 +18368,7 @@ CSSParserImpl
 :
 ParseColorOpacity
 (
-PRUint8
+uint8_t
 &
 aOpacity
 )
@@ -18455,7 +18455,7 @@ mNumber
 0f
 ;
 }
-PRUint8
+uint8_t
 value
 =
 nsStyleUtil
@@ -19202,7 +19202,7 @@ nsCSSValue
 &
 aValue
 const
-PRInt32
+int32_t
 aKeywordTable
 [
 ]
@@ -19247,7 +19247,7 @@ eCSSKeyword_UNKNOWN
 keyword
 )
 {
-PRInt32
+int32_t
 value
 ;
 if
@@ -19293,13 +19293,13 @@ name
 6
 ]
 ;
-PRUint32
+uint32_t
 length
 ;
 nsCSSUnit
 unit
 ;
-PRInt32
+int32_t
 type
 ;
 }
@@ -19529,7 +19529,7 @@ TranslateDimension
 nsCSSValue
 &
 aValue
-PRInt32
+int32_t
 aVariantMask
 float
 aNumber
@@ -19542,7 +19542,7 @@ aUnit
 nsCSSUnit
 units
 ;
-PRInt32
+int32_t
 type
 =
 0
@@ -19557,7 +19557,7 @@ IsEmpty
 )
 )
 {
-PRUint32
+uint32_t
 i
 ;
 for
@@ -19827,10 +19827,10 @@ ParseNonNegativeVariant
 nsCSSValue
 &
 aValue
-PRInt32
+int32_t
 aVariantMask
 const
-PRInt32
+int32_t
 aKeywordTable
 [
 ]
@@ -20002,10 +20002,10 @@ ParseOneOrLargerVariant
 nsCSSValue
 &
 aValue
-PRInt32
+int32_t
 aVariantMask
 const
-PRInt32
+int32_t
 aKeywordTable
 [
 ]
@@ -20135,10 +20135,10 @@ ParseVariant
 nsCSSValue
 &
 aValue
-PRInt32
+int32_t
 aVariantMask
 const
-PRInt32
+int32_t
 aKeywordTable
 [
 ]
@@ -20571,7 +20571,7 @@ VARIANT_KEYWORD
 0
 )
 {
-PRInt32
+int32_t
 value
 ;
 if
@@ -22023,7 +22023,7 @@ eCSSUnit_String
 )
 ;
 }
-PRInt32
+int32_t
 type
 =
 NS_STYLE_LIST_STYLE_DECIMAL
@@ -22104,7 +22104,7 @@ break
 ;
 }
 }
-PRInt32
+int32_t
 typeItem
 =
 eCSSUnit_Counters
@@ -22224,7 +22224,7 @@ false
 )
 )
 {
-PRInt32
+int32_t
 nameSpaceID
 =
 GetNamespaceIdForPrefix
@@ -22574,7 +22574,7 @@ newFunction
 ;
 static
 const
-PRUint32
+uint32_t
 kNumArgs
 =
 5
@@ -22688,7 +22688,7 @@ break
 }
 static
 const
-PRInt32
+int32_t
 VARIANT_SIDE
 =
 VARIANT_NUMBER
@@ -22995,7 +22995,7 @@ flexBasis
 eCSSUnit_Percent
 )
 ;
-PRUint32
+uint32_t
 variantMask
 =
 VARIANT_NUMBER
@@ -23819,7 +23819,7 @@ kRadialGradientShapeKTable
 )
 ;
 }
-PRInt32
+int32_t
 shape
 =
 cssGradient
@@ -24407,7 +24407,7 @@ LookupKeyword
 aId
 )
 ;
-PRInt32
+int32_t
 junk
 ;
 if
@@ -24564,7 +24564,7 @@ return
 true
 ;
 }
-PRInt32
+int32_t
 CSSParserImpl
 :
 :
@@ -24579,11 +24579,11 @@ nsCSSProperty
 aPropIDs
 [
 ]
-PRInt32
+int32_t
 aNumIDs
 )
 {
-PRInt32
+int32_t
 found
 =
 0
@@ -24594,7 +24594,7 @@ compound
 this
 )
 ;
-PRInt32
+int32_t
 loop
 ;
 for
@@ -24612,12 +24612,12 @@ loop
 +
 )
 {
-PRInt32
+int32_t
 hadFound
 =
 found
 ;
-PRInt32
+int32_t
 index
 ;
 for
@@ -24635,7 +24635,7 @@ index
 +
 )
 {
-PRInt32
+int32_t
 bit
 =
 1
@@ -24924,7 +24924,7 @@ aPropIDs
 ]
 )
 {
-PRInt32
+int32_t
 count
 =
 0
@@ -25122,7 +25122,7 @@ CSSParserImpl
 :
 ParseGroupedBoxProperty
 (
-PRInt32
+int32_t
 aVariantMask
 nsCSSValue
 &
@@ -25139,7 +25139,7 @@ SetRectValue
 (
 )
 ;
-PRInt32
+int32_t
 count
 =
 0
@@ -25242,7 +25242,7 @@ ParseDirectionalBoxProperty
 (
 nsCSSProperty
 aProperty
-PRInt32
+int32_t
 aSourceType
 )
 {
@@ -25470,7 +25470,7 @@ nsCSSRect
 dimenX
 dimenY
 ;
-PRInt32
+int32_t
 countX
 =
 0
@@ -27060,7 +27060,7 @@ false
 ;
 }
 }
-PRUint32
+uint32_t
 variant
 =
 nsCSSProps
@@ -27110,7 +27110,7 @@ return
 false
 ;
 const
-PRInt32
+int32_t
 *
 kwtable
 =
@@ -27592,13 +27592,13 @@ static
 nsCSSValue
 BoxPositionMaskToCSSValue
 (
-PRInt32
+int32_t
 aMask
 bool
 isX
 )
 {
-PRInt32
+int32_t
 val
 =
 NS_STYLE_BG_POSITION_CENTER
@@ -28335,7 +28335,7 @@ mToken
 mIdent
 )
 ;
-PRInt32
+int32_t
 dummy
 ;
 if
@@ -29384,7 +29384,7 @@ kBackgroundRepeatKTable
 )
 )
 {
-PRInt32
+int32_t
 value
 =
 xValue
@@ -29604,7 +29604,7 @@ aOut
 .
 mYValue
 ;
-PRInt32
+int32_t
 variantMask
 =
 (
@@ -29687,7 +29687,7 @@ kBackgroundPositionKTable
 )
 )
 {
-PRInt32
+int32_t
 yVal
 =
 yValue
@@ -29735,7 +29735,7 @@ return
 true
 ;
 }
-PRInt32
+int32_t
 mask
 =
 0
@@ -29752,7 +29752,7 @@ kBackgroundPositionKTable
 )
 )
 {
-PRInt32
+int32_t
 bit
 =
 xValue
@@ -30021,14 +30021,14 @@ Item
 3
 )
 ;
-PRUint32
+uint32_t
 valueCount
 =
 0
 ;
 for
 (
-PRInt32
+int32_t
 i
 =
 0
@@ -30762,7 +30762,7 @@ units
 "
 )
 ;
-PRInt32
+int32_t
 xEdgeEnum
 =
 xEdge
@@ -30782,7 +30782,7 @@ GetIntValue
 :
 0
 ;
-PRInt32
+int32_t
 yEdgeEnum
 =
 yEdge
@@ -32122,7 +32122,7 @@ aSetAllSides
 )
 {
 const
-PRInt32
+int32_t
 numProps
 =
 3
@@ -32133,7 +32133,7 @@ values
 numProps
 ]
 ;
-PRInt32
+int32_t
 found
 =
 ParseChoice
@@ -32273,7 +32273,7 @@ kBorderSources
 ;
 for
 (
-PRInt32
+int32_t
 index
 =
 0
@@ -32447,7 +32447,7 @@ else
 {
 for
 (
-PRInt32
+int32_t
 index
 =
 0
@@ -32490,12 +32490,12 @@ nsCSSProperty
 aPropIDs
 [
 ]
-PRInt32
+int32_t
 aSourceType
 )
 {
 const
-PRInt32
+int32_t
 numProps
 =
 3
@@ -32506,7 +32506,7 @@ values
 numProps
 ]
 ;
-PRInt32
+int32_t
 found
 =
 ParseChoice
@@ -32613,7 +32613,7 @@ eCSSUnit_Enumerated
 }
 for
 (
-PRInt32
+int32_t
 index
 =
 0
@@ -32904,7 +32904,7 @@ ParseCalc
 nsCSSValue
 &
 aValue
-PRInt32
+int32_t
 aVariantMask
 )
 {
@@ -33042,7 +33042,7 @@ ParseCalcAdditiveExpression
 nsCSSValue
 &
 aValue
-PRInt32
+int32_t
 &
 aVariantMask
 )
@@ -33303,7 +33303,7 @@ ParseCalcMultiplicativeExpression
 nsCSSValue
 &
 aValue
-PRInt32
+int32_t
 &
 aVariantMask
 bool
@@ -33347,7 +33347,7 @@ for
 ;
 )
 {
-PRInt32
+int32_t
 variantMask
 ;
 if
@@ -33416,7 +33416,7 @@ VARIANT_NUMBER
 variantMask
 &
 ~
-PRInt32
+int32_t
 (
 VARIANT_NUMBER
 )
@@ -33721,7 +33721,7 @@ aVariantMask
 &
 =
 ~
-PRInt32
+int32_t
 (
 VARIANT_NUMBER
 )
@@ -33761,7 +33761,7 @@ ParseCalcTerm
 nsCSSValue
 &
 aValue
-PRInt32
+int32_t
 &
 aVariantMask
 )
@@ -33912,7 +33912,7 @@ aVariantMask
 &
 =
 ~
-PRInt32
+int32_t
 (
 VARIANT_NUMBER
 )
@@ -34295,7 +34295,7 @@ eCSSProperty__moz_column_width
 }
 ;
 const
-PRInt32
+int32_t
 numProps
 =
 NS_ARRAY_LENGTH
@@ -34309,7 +34309,7 @@ values
 numProps
 ]
 ;
-PRInt32
+int32_t
 found
 =
 ParseChoice
@@ -34423,7 +34423,7 @@ SetAutoValue
 }
 for
 (
-PRInt32
+int32_t
 index
 =
 1
@@ -34479,7 +34479,7 @@ ParseContent
 {
 static
 const
-PRInt32
+int32_t
 kContentListKWs
 [
 ]
@@ -34500,7 +34500,7 @@ eCSSKeyword_UNKNOWN
 ;
 static
 const
-PRInt32
+int32_t
 kContentSolitaryKWs
 [
 ]
@@ -35297,7 +35297,7 @@ false
 ;
 }
 const
-PRInt32
+int32_t
 numProps
 =
 3
@@ -35308,7 +35308,7 @@ values
 numProps
 ]
 ;
-PRInt32
+int32_t
 found
 =
 ParseChoice
@@ -35682,7 +35682,7 @@ GetUnit
 )
 )
 {
-PRInt32
+int32_t
 intValue
 =
 aValue
@@ -35961,13 +35961,13 @@ CSSParserImpl
 ParseFunctionInternals
 (
 const
-PRInt32
+int32_t
 aVariantMask
 [
 ]
-PRUint16
+uint16_t
 aMinElems
-PRUint16
+uint16_t
 aMaxElems
 InfallibleTArray
 <
@@ -35979,7 +35979,7 @@ aOutput
 {
 for
 (
-PRUint16
+uint16_t
 index
 =
 0
@@ -36066,13 +36066,13 @@ nsString
 &
 aFunction
 const
-PRInt32
+int32_t
 aAllowedTypes
 [
 ]
-PRUint16
+uint16_t
 aMinElems
-PRUint16
+uint16_t
 aMaxElems
 nsCSSValue
 &
@@ -36122,7 +36122,7 @@ foundValues
 return
 false
 ;
-PRUint16
+uint16_t
 numElements
 =
 (
@@ -36182,7 +36182,7 @@ eCSSUnit_Ident
 ;
 for
 (
-PRUint16
+uint16_t
 index
 =
 0
@@ -36236,14 +36236,14 @@ GetFunctionParseInformation
 (
 nsCSSKeyword
 aToken
-PRUint16
+uint16_t
 &
 aMinElems
-PRUint16
+uint16_t
 &
 aMaxElems
 const
-PRInt32
+int32_t
 *
 &
 aVariantMask
@@ -36272,14 +36272,14 @@ eNumVariantMasks
 ;
 static
 const
-PRInt32
+int32_t
 kMaxElemsPerFunction
 =
 16
 ;
 static
 const
-PRInt32
+int32_t
 kVariantMasks
 [
 eNumVariantMasks
@@ -36371,7 +36371,7 @@ ifdef
 DEBUG
 static
 const
-PRUint8
+uint8_t
 kVariantMaskLengths
 [
 eNumVariantMasks
@@ -36395,7 +36395,7 @@ eNumVariantMasks
 ;
 #
 endif
-PRInt32
+int32_t
 variantIndex
 =
 eNumVariantMasks
@@ -36873,11 +36873,11 @@ false
 ;
 }
 const
-PRInt32
+int32_t
 *
 variantMask
 ;
-PRUint16
+uint16_t
 minElems
 maxElems
 ;
@@ -37813,7 +37813,7 @@ Length
 )
 )
 ;
-PRUint32
+uint32_t
 i
 ;
 for
@@ -38020,7 +38020,7 @@ aValue
 {
 InfallibleTArray
 <
-PRUint32
+uint32_t
 >
 ranges
 ;
@@ -38067,14 +38067,14 @@ mIntegerValid
 return
 false
 ;
-PRUint32
+uint32_t
 low
 =
 mToken
 .
 mInteger
 ;
-PRUint32
+uint32_t
 high
 =
 mToken
@@ -38173,7 +38173,7 @@ Length
 ;
 for
 (
-PRUint32
+uint32_t
 i
 =
 0
@@ -38249,7 +38249,7 @@ return
 false
 ;
 }
-PRUint32
+uint32_t
 i
 ;
 for
@@ -38267,7 +38267,7 @@ i
 +
 )
 {
-PRUint32
+uint32_t
 ch
 =
 aTag
@@ -38605,7 +38605,7 @@ listStyleIDs
 )
 ]
 ;
-PRInt32
+int32_t
 found
 =
 ParseChoice
@@ -38835,7 +38835,7 @@ SetNoneValue
 }
 for
 (
-PRUint32
+uint32_t
 index
 =
 1
@@ -39046,7 +39046,7 @@ ParseOutline
 )
 {
 const
-PRInt32
+int32_t
 numProps
 =
 3
@@ -39070,7 +39070,7 @@ values
 numProps
 ]
 ;
-PRInt32
+int32_t
 found
 =
 ParseChoice
@@ -39175,7 +39175,7 @@ eCSSUnit_Enumerated
 )
 ;
 }
-PRInt32
+int32_t
 index
 ;
 for
@@ -39715,7 +39715,7 @@ bitmasks
 ;
 static
 const
-PRInt32
+int32_t
 kTextDecorationKTable
 [
 ]
@@ -39791,7 +39791,7 @@ NS_STYLE_TEXT_DECORATION_STYLE_SOLID
 eCSSUnit_Enumerated
 )
 ;
-PRInt32
+int32_t
 intValue
 =
 value
@@ -39830,7 +39830,7 @@ break
 nsCSSValue
 keyword
 ;
-PRInt32
+int32_t
 index
 ;
 for
@@ -39861,7 +39861,7 @@ kTextDecorationKTable
 break
 ;
 }
-PRInt32
+int32_t
 newValue
 =
 keyword
@@ -40007,7 +40007,7 @@ GetUnit
 )
 )
 {
-PRInt32
+int32_t
 intValue
 =
 aValue
@@ -40027,7 +40027,7 @@ NS_STYLE_TEXT_DECORATION_LINE_NONE
 nsCSSValue
 keyword
 ;
-PRInt32
+int32_t
 index
 ;
 for
@@ -40057,7 +40057,7 @@ kTextDecorationLineKTable
 )
 )
 {
-PRInt32
+int32_t
 newValue
 =
 keyword
@@ -40754,7 +40754,7 @@ return
 false
 ;
 }
-PRInt32
+int32_t
 type
 =
 NS_STYLE_TRANSITION_TIMING_FUNCTION_STEP_END
@@ -41051,7 +41051,7 @@ nullptr
 {
 for
 (
-PRUint32
+uint32_t
 i
 =
 0
@@ -41213,7 +41213,7 @@ break
 }
 for
 (
-PRUint32
+uint32_t
 i
 =
 0
@@ -41299,7 +41299,7 @@ eParseAnimationOrTransitionShorthand_Error
 }
 for
 (
-PRUint32
+uint32_t
 i
 =
 0
@@ -41380,7 +41380,7 @@ eCSSProperty_transition_property
 ;
 static
 const
-PRUint32
+uint32_t
 numProps
 =
 NS_ARRAY_LENGTH
@@ -41660,7 +41660,7 @@ mNext
 }
 for
 (
-PRUint32
+uint32_t
 i
 =
 0
@@ -41718,7 +41718,7 @@ eCSSProperty_animation_name
 ;
 static
 const
-PRUint32
+uint32_t
 numProps
 =
 NS_ARRAY_LENGTH
@@ -41847,7 +41847,7 @@ eParseAnimationOrTransitionShorthand_Error
 }
 for
 (
-PRUint32
+uint32_t
 i
 =
 0
@@ -42379,7 +42379,7 @@ return
 true
 ;
 }
-PRInt32
+int32_t
 CSSParserImpl
 :
 :
@@ -42408,7 +42408,7 @@ here
 "
 )
 ;
-PRInt32
+int32_t
 nameSpaceID
 =
 kNameSpaceID_Unknown
@@ -43156,7 +43156,7 @@ aBaseURI
 nsIPrincipal
 *
 aSheetPrincipal
-PRUint32
+uint32_t
 aLineNumber
 bool
 aAllowUnsafeRules
@@ -43408,7 +43408,7 @@ aBuffer
 nsIURI
 *
 aURI
-PRUint32
+uint32_t
 aLineNumber
 nsMediaList
 *
@@ -43451,7 +43451,7 @@ aBuffer
 nsIURI
 *
 aURI
-PRUint32
+uint32_t
 aLineNumber
 nsCSSValue
 &
@@ -43491,7 +43491,7 @@ aSelectorString
 nsIURI
 *
 aURI
-PRUint32
+uint32_t
 aLineNumber
 nsCSSSelectorList
 *
@@ -43535,7 +43535,7 @@ aBuffer
 nsIURI
 *
 aURI
-PRUint32
+uint32_t
 aLineNumber
 )
 {
@@ -43571,7 +43571,7 @@ aSelectorString
 nsIURI
 *
 aURI
-PRUint32
+uint32_t
 aLineNumber
 InfallibleTArray
 <

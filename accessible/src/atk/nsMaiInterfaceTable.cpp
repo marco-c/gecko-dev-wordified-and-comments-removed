@@ -312,7 +312,7 @@ accTable
 1
 )
 ;
-PRInt32
+int32_t
 col
 ;
 nsresult
@@ -405,7 +405,7 @@ accTable
 1
 )
 ;
-PRInt32
+int32_t
 row
 ;
 nsresult
@@ -496,7 +496,7 @@ accTable
 1
 )
 ;
-PRInt32
+int32_t
 count
 ;
 nsresult
@@ -586,7 +586,7 @@ accTable
 1
 )
 ;
-PRInt32
+int32_t
 count
 ;
 nsresult
@@ -680,7 +680,7 @@ accTable
 1
 )
 ;
-PRInt32
+int32_t
 extent
 ;
 nsresult
@@ -776,7 +776,7 @@ accTable
 1
 )
 ;
-PRInt32
+int32_t
 extent
 ;
 nsresult
@@ -1512,12 +1512,12 @@ accTable
 0
 )
 ;
-PRUint32
+uint32_t
 size
 =
 0
 ;
-PRInt32
+int32_t
 *
 columns
 =
@@ -1597,7 +1597,7 @@ return
 }
 for
 (
-PRUint32
+uint32_t
 index
 =
 0
@@ -1703,12 +1703,12 @@ accTable
 0
 )
 ;
-PRUint32
+uint32_t
 size
 =
 0
 ;
-PRInt32
+int32_t
 *
 rows
 =
@@ -1788,7 +1788,7 @@ return
 }
 for
 (
-PRUint32
+uint32_t
 index
 =
 0

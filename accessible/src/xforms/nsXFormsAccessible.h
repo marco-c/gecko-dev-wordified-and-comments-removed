@@ -109,7 +109,7 @@ aName
 )
 ;
 virtual
-PRUint64
+uint64_t
 NativeState
 (
 )
@@ -220,7 +220,7 @@ GetEditor
 const
 ;
 virtual
-PRUint64
+uint64_t
 NativeState
 (
 )
@@ -261,7 +261,7 @@ SelectedItems
 )
 ;
 virtual
-PRUint32
+uint32_t
 SelectedItemCount
 (
 )
@@ -271,7 +271,7 @@ Accessible
 *
 GetSelectedItem
 (
-PRUint32
+uint32_t
 aIndex
 )
 ;
@@ -279,7 +279,7 @@ virtual
 bool
 IsItemSelected
 (
-PRUint32
+uint32_t
 aIndex
 )
 ;
@@ -287,7 +287,7 @@ virtual
 bool
 AddItemToSelection
 (
-PRUint32
+uint32_t
 aIndex
 )
 ;
@@ -295,7 +295,7 @@ virtual
 bool
 RemoveItemFromSelection
 (
-PRUint32
+uint32_t
 aIndex
 )
 ;
@@ -317,7 +317,7 @@ nsIContent
 *
 GetItemByIndex
 (
-PRUint32
+uint32_t
 *
 aIndex
 Accessible
@@ -353,7 +353,7 @@ aDoc
 NS_IMETHOD
 DoAction
 (
-PRUint8
+uint8_t
 aIndex
 )
 ;
@@ -367,7 +367,7 @@ aValue
 )
 ;
 virtual
-PRUint8
+uint8_t
 ActionCount
 (
 )

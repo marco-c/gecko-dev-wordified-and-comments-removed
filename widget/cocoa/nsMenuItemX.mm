@@ -339,7 +339,7 @@ str
 size_t
 strlength
 ;
-PRUint32
+uint32_t
 keycode
 ;
 }
@@ -1074,7 +1074,7 @@ undef
 KEYCODE_ENTRY
 }
 ;
-PRUint32
+uint32_t
 nsMenuItemX
 :
 :
@@ -1127,7 +1127,7 @@ ToUpperCase
 keyCodeName
 )
 ;
-PRUint32
+uint32_t
 keyCodeNameLength
 =
 keyCodeName
@@ -1149,7 +1149,7 @@ get
 ;
 for
 (
-PRUint16
+uint16_t
 i
 =
 0
@@ -2125,7 +2125,7 @@ return
 loop
 over
 siblings
-PRUint32
+uint32_t
 count
 =
 parent
@@ -2137,7 +2137,7 @@ GetChildCount
 ;
 for
 (
-PRUint32
+uint32_t
 i
 =
 0
@@ -2354,7 +2354,7 @@ keycode
 keyCodeName
 )
 ;
-PRUint32
+uint32_t
 keycode
 =
 ConvertGeckoToMacKeyCode
@@ -2406,7 +2406,7 @@ modifiers
 modifiersStr
 )
 ;
-PRUint8
+uint8_t
 modifiers
 =
 nsMenuUtilsX
@@ -2997,7 +2997,7 @@ aDocument
 nsIContent
 *
 aChild
-PRInt32
+int32_t
 aIndexInContainer
 )
 {

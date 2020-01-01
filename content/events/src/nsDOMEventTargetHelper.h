@@ -1037,7 +1037,7 @@ bool
 useCapture
 bool
 wantsUntrusted
-PRUint8
+uint8_t
 _argc
 )
 {
@@ -1070,7 +1070,7 @@ bool
 aUseCapture
 bool
 aWantsUntrusted
-PRUint8
+uint8_t
 _argc
 )
 {

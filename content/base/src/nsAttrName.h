@@ -445,7 +445,7 @@ Equals
 nsIAtom
 *
 aLocalName
-PRInt32
+int32_t
 aNamespaceID
 )
 const
@@ -511,7 +511,7 @@ NamespaceID
 )
 ;
 }
-PRInt32
+int32_t
 NamespaceID
 (
 )
@@ -534,10 +534,10 @@ NamespaceID
 )
 ;
 }
-PRInt32
+int32_t
 NamespaceEquals
 (
-PRInt32
+int32_t
 aNamespaceID
 )
 const
@@ -740,7 +740,7 @@ aStr
 }
 #
 endif
-PRUint32
+uint32_t
 HashValue
 (
 )

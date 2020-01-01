@@ -70,7 +70,7 @@ aTransferables
 nsIScriptableRegion
 *
 aRegion
-PRUint32
+uint32_t
 aActionType
 )
 ;
@@ -89,7 +89,7 @@ aDoneDrag
 NS_IMETHOD
 GetNumDropItems
 (
-PRUint32
+uint32_t
 *
 aNumDropItems
 )
@@ -100,7 +100,7 @@ GetData
 nsITransferable
 *
 aTransferable
-PRUint32
+uint32_t
 aItemIndex
 )
 ;
@@ -124,7 +124,7 @@ pdinfo
 MRESULT
 &
 mr
-PRUint32
+uint32_t
 *
 dragFlags
 )
@@ -142,7 +142,7 @@ DragLeaveMsg
 (
 PDRAGINFO
 pdinfo
-PRUint32
+uint32_t
 *
 dragFlags
 )
@@ -152,7 +152,7 @@ DropHelpMsg
 (
 PDRAGINFO
 pdinfo
-PRUint32
+uint32_t
 *
 dragFlags
 )
@@ -160,7 +160,7 @@ dragFlags
 NS_IMETHOD
 ExitSession
 (
-PRUint32
+uint32_t
 *
 dragFlags
 )
@@ -172,7 +172,7 @@ PDRAGINFO
 pdinfo
 HWND
 hwnd
-PRUint32
+uint32_t
 *
 dragFlags
 )
@@ -184,7 +184,7 @@ PDRAGTRANSFER
 pdxfer
 USHORT
 usResult
-PRUint32
+uint32_t
 *
 dragFlags
 )

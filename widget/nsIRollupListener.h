@@ -27,7 +27,7 @@ nsIContent
 *
 Rollup
 (
-PRUint32
+uint32_t
 aCount
 bool
 aGetLastRolledUp
@@ -54,7 +54,7 @@ ShouldRollupOnMouseActivate
 0
 ;
 virtual
-PRUint32
+uint32_t
 GetSubmenuWidgetChain
 (
 nsTArray

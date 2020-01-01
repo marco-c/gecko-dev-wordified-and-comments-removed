@@ -171,7 +171,7 @@ ctx
 )
 ;
 virtual
-PRInt32
+int32_t
 GetDefaultContextFlags
 (
 )

@@ -117,7 +117,7 @@ const
 nsSubstring
 &
 aExpression
-PRUint32
+uint32_t
 aSubStringPos
 txIParseContext
 *
@@ -299,7 +299,7 @@ nsIAtom
 *
 *
 aLocalName
-PRInt32
+int32_t
 &
 aNamespace
 bool

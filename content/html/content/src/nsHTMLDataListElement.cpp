@@ -99,7 +99,7 @@ MatchOptions
 nsIContent
 *
 aContent
-PRInt32
+int32_t
 aNamespaceID
 nsIAtom
 *
@@ -244,7 +244,7 @@ MatchOptions
 nsIContent
 *
 aContent
-PRInt32
+int32_t
 aNamespaceID
 nsIAtom
 *

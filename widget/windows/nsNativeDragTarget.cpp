@@ -351,7 +351,7 @@ DWORD
 grfKeyState
 LPDWORD
 pdwEffect
-PRUint32
+uint32_t
 *
 aGeckoAction
 )
@@ -569,7 +569,7 @@ nsNativeDragTarget
 :
 DispatchDragDropEvent
 (
-PRUint32
+uint32_t
 aEventType
 POINTL
 aPT
@@ -728,7 +728,7 @@ nsNativeDragTarget
 :
 ProcessDrag
 (
-PRUint32
+uint32_t
 aEventType
 DWORD
 grfKeyState
@@ -739,7 +739,7 @@ DWORD
 pdwEffect
 )
 {
-PRUint32
+uint32_t
 geckoAction
 ;
 GetGeckoDragAction
@@ -941,7 +941,7 @@ tempOutData
 =
 nullptr
 ;
-PRUint32
+uint32_t
 tempDataLen
 =
 0

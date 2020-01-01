@@ -276,7 +276,7 @@ nsFilePicker
 :
 Show
 (
-PRInt16
+int16_t
 *
 retval
 )
@@ -772,7 +772,7 @@ pfnDlgProc
 =
 FileDialogProc
 ;
-PRUint32
+uint32_t
 i
 ;
 PSZ
@@ -833,7 +833,7 @@ i
 nsAutoCharBuffer
 buffer
 ;
-PRInt32
+int32_t
 bufLength
 ;
 WideCharToMultiByte
@@ -1643,7 +1643,7 @@ szFullFile
 mSelectedType
 =
 (
-PRInt16
+int16_t
 )
 pmydata
 -
@@ -1762,7 +1762,7 @@ if
 result
 )
 {
-PRInt16
+int16_t
 returnOKorReplace
 =
 returnOK
@@ -2118,10 +2118,10 @@ mDefault
 =
 aString
 ;
-PRInt32
+int32_t
 nameLength
 ;
-PRInt32
+int32_t
 nameIndex
 =
 mDefault
@@ -2167,7 +2167,7 @@ nameLength
 CCHMAXPATH
 )
 {
-PRInt32
+int32_t
 extIndex
 =
 mDefault
@@ -2194,7 +2194,7 @@ Length
 (
 )
 ;
-PRInt32
+int32_t
 charsToRemove
 =
 nameLength
@@ -2335,7 +2335,7 @@ nsFilePicker
 :
 GetFilterIndex
 (
-PRInt32
+int32_t
 *
 aFilterIndex
 )
@@ -2355,7 +2355,7 @@ nsFilePicker
 :
 SetFilterIndex
 (
-PRInt32
+int32_t
 aFilterIndex
 )
 {
@@ -2380,7 +2380,7 @@ const
 nsAString
 &
 aTitle
-PRInt16
+int16_t
 aMode
 )
 {
@@ -2600,7 +2600,7 @@ rv
 )
 )
 {
-PRInt32
+int32_t
 inLength
 =
 inString
@@ -2619,7 +2619,7 @@ PromiseFlatString
 inString
 )
 ;
-PRInt32
+int32_t
 outLength
 ;
 rv
@@ -2816,7 +2816,7 @@ rv
 )
 )
 {
-PRInt32
+int32_t
 inLength
 =
 strlen
@@ -2824,7 +2824,7 @@ strlen
 inString
 )
 ;
-PRInt32
+int32_t
 outLength
 ;
 rv

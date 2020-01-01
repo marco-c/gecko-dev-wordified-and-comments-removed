@@ -2310,7 +2310,7 @@ const
 gfxPoint
 *
 points
-PRUint32
+uint32_t
 numPoints
 )
 {
@@ -2347,7 +2347,7 @@ y
 ;
 for
 (
-PRUint32
+uint32_t
 i
 =
 1
@@ -2413,7 +2413,7 @@ points
 ;
 for
 (
-PRUint32
+uint32_t
 i
 =
 1
@@ -7888,7 +7888,7 @@ GetDeviceOffset
 ;
 for
 (
-PRUint32
+uint32_t
 i
 =
 0

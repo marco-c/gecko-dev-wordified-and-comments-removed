@@ -182,7 +182,7 @@ mEncoder
 mDecoder
 )
 static
-PRInt64
+int64_t
 gHunspellAllocatedSize
 =
 0
@@ -233,7 +233,7 @@ ptr
 ;
 }
 static
-PRInt64
+int64_t
 HunspellGetCurrentAllocatedSize
 (
 )
@@ -596,7 +596,7 @@ dictFileName
 =
 affFileName
 ;
-PRInt32
+int32_t
 dotPos
 =
 dictFileName
@@ -760,7 +760,7 @@ nullptr
 '
 )
 ;
-PRInt32
+int32_t
 pos
 =
 mDictionary
@@ -1033,7 +1033,7 @@ PRUnichar
 *
 dics
 ;
-PRUint32
+uint32_t
 count
 ;
 bool
@@ -1131,7 +1131,7 @@ PRUnichar
 *
 *
 aDictionaries
-PRUint32
+uint32_t
 *
 aCount
 )
@@ -1535,7 +1535,7 @@ dictDir
 }
 for
 (
-PRInt32
+int32_t
 i
 =
 0
@@ -1926,10 +1926,10 @@ mEncoder
 NS_ERROR_NULL_POINTER
 )
 ;
-PRInt32
+int32_t
 outLength
 ;
-PRInt32
+int32_t
 inLength
 =
 NS_strlen
@@ -2137,7 +2137,7 @@ PRUnichar
 *
 *
 aSuggestions
-PRUint32
+uint32_t
 *
 aSuggestionCount
 )
@@ -2239,7 +2239,7 @@ if
 aSuggestions
 )
 {
-PRUint32
+uint32_t
 index
 =
 0
@@ -2266,7 +2266,7 @@ rv
 index
 )
 {
-PRInt32
+int32_t
 inLength
 =
 strlen
@@ -2277,7 +2277,7 @@ index
 ]
 )
 ;
-PRInt32
+int32_t
 outLength
 ;
 rv

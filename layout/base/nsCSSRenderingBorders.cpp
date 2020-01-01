@@ -255,13 +255,13 @@ static
 gfxRGBA
 ComputeColorForLine
 (
-PRUint32
+uint32_t
 aLineIndex
 const
 BorderColorStyle
 *
 aBorderColorStyle
-PRUint32
+uint32_t
 aBorderColorStyleCount
 nscolor
 aBorderColor
@@ -273,7 +273,7 @@ static
 gfxRGBA
 ComputeCompositeColorForLine
 (
-PRUint32
+uint32_t
 aLineIndex
 const
 nsBorderColors
@@ -424,7 +424,7 @@ nsCSSBorderRenderer
 :
 nsCSSBorderRenderer
 (
-PRInt32
+int32_t
 aAppUnitsPerPixel
 gfxContext
 *
@@ -433,7 +433,7 @@ gfxRect
 &
 aOuterRect
 const
-PRUint8
+uint8_t
 *
 aBorderStyles
 const
@@ -1509,7 +1509,7 @@ nsCSSBorderRenderer
 :
 AreBorderSideFinalStylesSame
 (
-PRUint8
+uint8_t
 aSides
 )
 {
@@ -1709,7 +1709,7 @@ nsCSSBorderRenderer
 :
 IsSolidCornerStyle
 (
-PRUint8
+uint8_t
 aStyle
 mozilla
 :
@@ -1800,7 +1800,7 @@ nsCSSBorderRenderer
 :
 BorderColorStyleForSolidCorner
 (
-PRUint8
+uint8_t
 aStyle
 mozilla
 :
@@ -3355,7 +3355,7 @@ NS_SIDE_LEFT
 }
 for
 (
-PRUint32
+uint32_t
 i
 =
 0
@@ -3508,13 +3508,13 @@ aColor
 gfxRGBA
 ComputeColorForLine
 (
-PRUint32
+uint32_t
 aLineIndex
 const
 BorderColorStyle
 *
 aBorderColorStyle
-PRUint32
+uint32_t
 aBorderColorStyleCount
 nscolor
 aBorderColor
@@ -3555,7 +3555,7 @@ aLineIndex
 gfxRGBA
 ComputeCompositeColorForLine
 (
-PRUint32
+uint32_t
 aLineIndex
 const
 nsBorderColors
@@ -3664,14 +3664,14 @@ BottomRight
 ;
 for
 (
-PRUint32
+uint32_t
 i
 =
 0
 ;
 i
 <
-PRUint32
+uint32_t
 (
 maxBorderWidth
 )
@@ -3955,7 +3955,7 @@ sides
 return
 ;
 }
-PRUint8
+uint8_t
 borderRenderStyle
 ;
 nscolor
@@ -3968,7 +3968,7 @@ compositeColors
 =
 nullptr
 ;
-PRUint32
+uint32_t
 borderColorStyleCount
 =
 0
@@ -4423,7 +4423,7 @@ borderWidths
 i
 ]
 =
-PRInt32
+int32_t
 (
 mBorderWidths
 [
@@ -4433,7 +4433,7 @@ i
 /
 2
 +
-PRInt32
+int32_t
 (
 mBorderWidths
 [
@@ -4451,7 +4451,7 @@ borderWidths
 i
 ]
 =
-PRInt32
+int32_t
 (
 mBorderWidths
 [
@@ -4525,10 +4525,10 @@ i
 }
 else
 {
-PRInt32
+int32_t
 rest
 =
-PRInt32
+int32_t
 (
 mBorderWidths
 [
@@ -4563,7 +4563,7 @@ i
 ]
 =
 (
-PRInt32
+int32_t
 (
 mBorderWidths
 [
@@ -4787,7 +4787,7 @@ dash
 2
 ]
 ;
-PRUint8
+uint8_t
 style
 =
 mBorderStyles
@@ -8770,7 +8770,7 @@ NS_FOR_CSS_SIDES
 i
 )
 {
-PRUint8
+uint8_t
 style
 =
 mBorderStyles
@@ -9241,7 +9241,7 @@ cornerSide
 ]
 )
 ;
-PRUint8
+uint8_t
 style
 =
 mBorderStyles

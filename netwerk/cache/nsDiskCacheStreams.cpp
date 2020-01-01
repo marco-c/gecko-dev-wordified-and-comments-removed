@@ -87,7 +87,7 @@ const
 char
 *
 buffer
-PRUint32
+uint32_t
 endOfStream
 )
 ;
@@ -114,10 +114,10 @@ char
 *
 mBuffer
 ;
-PRUint32
+uint32_t
 mStreamEnd
 ;
-PRUint32
+uint32_t
 mPos
 ;
 bool
@@ -145,7 +145,7 @@ const
 char
 *
 buffer
-PRUint32
+uint32_t
 endOfStream
 )
 :
@@ -259,7 +259,7 @@ nsDiskCacheInputStream
 :
 Available
 (
-PRUint64
+uint64_t
 *
 bytesAvailable
 )
@@ -300,9 +300,9 @@ Read
 char
 *
 buffer
-PRUint32
+uint32_t
 count
-PRUint32
+uint32_t
 *
 bytesRead
 )
@@ -454,7 +454,7 @@ if
 mFD
 )
 {
-PRInt32
+int32_t
 result
 =
 PR_Read
@@ -533,7 +533,7 @@ mPos
 +
 =
 (
-PRUint32
+uint32_t
 )
 result
 ;
@@ -541,7 +541,7 @@ result
 bytesRead
 =
 (
-PRUint32
+uint32_t
 )
 result
 ;
@@ -603,11 +603,11 @@ ud
 ]
 "
 this
-PRUintn
+unsigned
 (
 count
 )
-PRUintn
+unsigned
 (
 *
 bytesRead
@@ -630,9 +630,9 @@ writer
 void
 *
 closure
-PRUint32
+uint32_t
 count
-PRUint32
+uint32_t
 *
 bytesRead
 )
@@ -990,9 +990,9 @@ const
 char
 *
 buf
-PRUint32
+uint32_t
 count
-PRUint32
+uint32_t
 *
 bytesWritten
 )
@@ -1025,9 +1025,9 @@ WriteFrom
 nsIInputStream
 *
 inStream
-PRUint32
+uint32_t
 count
-PRUint32
+uint32_t
 *
 bytesWritten
 )
@@ -1054,9 +1054,9 @@ reader
 void
 *
 closure
-PRUint32
+uint32_t
 count
-PRUint32
+uint32_t
 *
 bytesWritten
 )
@@ -1278,7 +1278,7 @@ nsDiskCacheStreamIO
 :
 GetInputStream
 (
-PRUint32
+uint32_t
 offset
 nsIInputStream
 *
@@ -1516,7 +1516,7 @@ nsDiskCacheStreamIO
 :
 GetOutputStream
 (
-PRUint32
+uint32_t
 offset
 nsIOutputStream
 *
@@ -2188,9 +2188,9 @@ const
 char
 *
 buffer
-PRUint32
+uint32_t
 count
-PRUint32
+uint32_t
 *
 bytesWritten
 )
@@ -2271,7 +2271,7 @@ corrupted
 "
 )
 ;
-PRUint32
+uint32_t
 bytesLeft
 =
 count
@@ -2366,7 +2366,7 @@ true
 ;
 }
 }
-PRUint32
+uint32_t
 chunkSize
 =
 bytesLeft
@@ -2534,7 +2534,7 @@ mBinding
 mRecord
 ;
 const
-PRUint32
+uint32_t
 oldSizeK
 =
 record
@@ -2544,7 +2544,7 @@ DataFileSize
 (
 )
 ;
-PRUint32
+uint32_t
 newSizeK
 =
 (
@@ -3049,7 +3049,7 @@ rv
 return
 rv
 ;
-PRInt64
+int64_t
 dataSize
 =
 mBinding
@@ -3078,7 +3078,7 @@ fallocate
 mFD
 NS_MIN
 <
-PRInt64
+int64_t
 >
 (
 dataSize
@@ -3087,7 +3087,7 @@ kPreallocateLimit
 )
 ;
 }
-PRInt32
+int32_t
 bytesWritten
 =
 PR_Write
@@ -3099,7 +3099,7 @@ mBufEnd
 ;
 if
 (
-PRUint32
+uint32_t
 (
 bytesWritten
 )
@@ -3192,13 +3192,13 @@ nsDiskCacheStreamIO
 :
 Seek
 (
-PRInt32
+int32_t
 whence
-PRInt32
+int32_t
 offset
 )
 {
-PRInt32
+int32_t
 newPos
 ;
 if
@@ -3211,7 +3211,7 @@ NS_ERROR_NOT_AVAILABLE
 ;
 if
 (
-PRUint32
+uint32_t
 (
 offset
 )
@@ -3335,7 +3335,7 @@ NS_ErrorAccordingToNSPR
 mStreamPos
 =
 (
-PRUint32
+uint32_t
 )
 newPos
 ;
@@ -3373,7 +3373,7 @@ newPos
 offset
 +
 (
-PRUint32
+uint32_t
 )
 mStreamPos
 ;
@@ -3387,7 +3387,7 @@ newPos
 offset
 +
 (
-PRUint32
+uint32_t
 )
 mBufEnd
 ;
@@ -3492,7 +3492,7 @@ newPos
 |
 |
 (
-PRUint32
+uint32_t
 (
 newPos
 )
@@ -3534,7 +3534,7 @@ nsDiskCacheStreamIO
 :
 Tell
 (
-PRUint32
+uint32_t
 *
 result
 )
@@ -3711,7 +3711,7 @@ mStreamPos
 #
 ifdef
 DEBUG
-PRUint32
+uint32_t
 oldSizeK
 =
 (

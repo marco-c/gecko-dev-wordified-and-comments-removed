@@ -1806,7 +1806,7 @@ return
 false
 ;
 }
-PRInt32
+int32_t
 detail
 ;
 timeEvent
@@ -1825,7 +1825,7 @@ detail
 &
 &
 (
-PRUint32
+uint32_t
 )
 detail
 =
@@ -1916,7 +1916,7 @@ isMeta
 return
 false
 ;
-PRUint32
+uint32_t
 code
 ;
 keyEvent

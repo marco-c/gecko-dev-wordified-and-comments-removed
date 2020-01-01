@@ -134,7 +134,7 @@ RegisterChannel
 nsIChannel
 *
 channel
-PRUint32
+uint32_t
 *
 _retval
 )
@@ -175,7 +175,7 @@ RedirectChannelRegistrar
 :
 GetRegisteredChannel
 (
-PRUint32
+uint32_t
 id
 nsIChannel
 *
@@ -207,7 +207,7 @@ RedirectChannelRegistrar
 :
 LinkChannels
 (
-PRUint32
+uint32_t
 id
 nsIParentChannel
 *
@@ -250,7 +250,7 @@ RedirectChannelRegistrar
 :
 GetParentChannel
 (
-PRUint32
+uint32_t
 id
 nsIParentChannel
 *
@@ -282,7 +282,7 @@ RedirectChannelRegistrar
 :
 DeregisterChannels
 (
-PRUint32
+uint32_t
 id
 )
 {

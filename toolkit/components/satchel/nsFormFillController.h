@@ -227,7 +227,7 @@ RowMatch
 nsFormHistory
 *
 aHistory
-PRUint32
+uint32_t
 aIndex
 const
 nsAString
@@ -260,7 +260,7 @@ aDocShell
 )
 ;
 inline
-PRInt32
+int32_t
 GetIndexOfDocShell
 (
 nsIDocShell
@@ -368,13 +368,13 @@ bool
 >
 mPwmgrInputs
 ;
-PRUint32
+uint32_t
 mTimeout
 ;
-PRUint32
+uint32_t
 mMinResultsForPopup
 ;
-PRUint32
+uint32_t
 mMaxRows
 ;
 bool

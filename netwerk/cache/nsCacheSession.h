@@ -286,7 +286,7 @@ private
 nsCString
 mClientID
 ;
-PRUint32
+uint32_t
 mInfo
 ;
 nsCOMPtr

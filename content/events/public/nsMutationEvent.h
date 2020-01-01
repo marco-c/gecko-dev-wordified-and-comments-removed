@@ -37,7 +37,7 @@ nsMutationEvent
 (
 bool
 isTrusted
-PRUint32
+uint32_t
 msg
 )
 :

@@ -369,7 +369,7 @@ Length
 )
 ;
 }
-PRInt32
+int32_t
 i
 =
 localeStr
@@ -799,7 +799,7 @@ char
 *
 result
 ;
-PRUint16
+uint16_t
 len
 ;
 while
@@ -945,7 +945,7 @@ Cut
 }
 for
 (
-PRUint32
+uint32_t
 i
 =
 0
@@ -1249,7 +1249,7 @@ Length
 ;
 for
 (
-PRUint32
+uint32_t
 i
 =
 0
@@ -1404,7 +1404,7 @@ prefRootBranch
 return
 ;
 }
-PRUint32
+uint32_t
 prefCount
 ;
 char
@@ -1442,7 +1442,7 @@ prefCount
 {
 for
 (
-PRUint32
+uint32_t
 i
 =
 0

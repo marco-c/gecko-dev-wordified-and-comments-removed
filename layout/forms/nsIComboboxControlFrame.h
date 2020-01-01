@@ -93,10 +93,10 @@ RedisplaySelectedText
 0
 ;
 virtual
-PRInt32
+int32_t
 UpdateRecentIndex
 (
-PRInt32
+int32_t
 aIndex
 )
 =
@@ -111,7 +111,7 @@ OnContentReset
 0
 ;
 virtual
-PRInt32
+int32_t
 GetIndexOfDisplayArea
 (
 )

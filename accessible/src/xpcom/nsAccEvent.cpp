@@ -55,7 +55,7 @@ nsAccEvent
 :
 GetEventType
 (
-PRUint32
+uint32_t
 *
 aEventType
 )
@@ -206,7 +206,7 @@ nsAccStateChangeEvent
 :
 GetState
 (
-PRUint32
+uint32_t
 *
 aState
 )
@@ -216,7 +216,7 @@ NS_ENSURE_ARG_POINTER
 aState
 )
 ;
-PRUint32
+uint32_t
 state1
 =
 0
@@ -224,7 +224,7 @@ state2
 =
 0
 ;
-PRUint64
+uint64_t
 state
 =
 static_cast
@@ -284,7 +284,7 @@ NS_ENSURE_ARG_POINTER
 aIsExtraState
 )
 ;
-PRUint32
+uint32_t
 state1
 =
 0
@@ -292,7 +292,7 @@ state2
 =
 0
 ;
-PRUint64
+uint64_t
 state
 =
 static_cast
@@ -392,7 +392,7 @@ nsAccTextChangeEvent
 :
 GetStart
 (
-PRInt32
+int32_t
 *
 aStart
 )
@@ -433,7 +433,7 @@ nsAccTextChangeEvent
 :
 GetLength
 (
-PRUint32
+uint32_t
 *
 aLength
 )
@@ -696,7 +696,7 @@ nsAccCaretMoveEvent
 :
 GetCaretOffset
 (
-PRInt32
+int32_t
 *
 aCaretOffset
 )
@@ -743,7 +743,7 @@ nsAccTableChangeEvent
 :
 GetRowOrColIndex
 (
-PRInt32
+int32_t
 *
 aRowOrColIndex
 )
@@ -784,7 +784,7 @@ nsAccTableChangeEvent
 :
 GetNumRowsOrCols
 (
-PRInt32
+int32_t
 *
 aNumRowsOrCols
 )
@@ -879,7 +879,7 @@ nsAccVirtualCursorChangeEvent
 :
 GetOldStartOffset
 (
-PRInt32
+int32_t
 *
 aOldStartOffset
 )
@@ -920,7 +920,7 @@ nsAccVirtualCursorChangeEvent
 :
 GetOldEndOffset
 (
-PRInt32
+int32_t
 *
 aOldEndOffset
 )
@@ -961,7 +961,7 @@ nsAccVirtualCursorChangeEvent
 :
 GetReason
 (
-PRInt16
+int16_t
 *
 aReason
 )

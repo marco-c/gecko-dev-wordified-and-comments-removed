@@ -55,9 +55,9 @@ Accessible
 *
 ChildAtPoint
 (
-PRInt32
+int32_t
 aX
-PRInt32
+int32_t
 aY
 EWhichChildAtPoint
 aWhichChild
@@ -102,7 +102,7 @@ NS_DECL_ISUPPORTS_INHERITED
 NS_IMETHOD
 GetActionName
 (
-PRUint8
+uint8_t
 aIndex
 nsAString
 &
@@ -112,7 +112,7 @@ aName
 NS_IMETHOD
 DoAction
 (
-PRUint8
+uint8_t
 index
 )
 ;
@@ -137,14 +137,14 @@ aValue
 )
 ;
 virtual
-PRUint64
+uint64_t
 NativeLinkState
 (
 )
 const
 ;
 virtual
-PRUint8
+uint8_t
 ActionCount
 (
 )
@@ -163,7 +163,7 @@ nsIURI
 >
 AnchorURIAt
 (
-PRUint32
+uint32_t
 aAnchorIndex
 )
 ;
@@ -176,7 +176,7 @@ BindToParent
 Accessible
 *
 aParent
-PRUint32
+uint32_t
 aIndexInParent
 )
 ;

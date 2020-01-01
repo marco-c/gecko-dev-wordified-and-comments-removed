@@ -804,7 +804,7 @@ nsDirectoryIndexStream
 :
 Available
 (
-PRUint64
+uint64_t
 *
 aLength
 )
@@ -824,7 +824,7 @@ if
 mOffset
 <
 (
-PRInt32
+int32_t
 )
 mBuf
 .
@@ -878,9 +878,9 @@ Read
 char
 *
 aBuf
-PRUint32
+uint32_t
 aCount
-PRUint32
+uint32_t
 *
 aReadCount
 )
@@ -912,7 +912,7 @@ mStatus
 return
 mStatus
 ;
-PRUint32
+uint32_t
 nread
 =
 0
@@ -922,7 +922,7 @@ while
 mOffset
 <
 (
-PRInt32
+int32_t
 )
 mBuf
 .
@@ -984,7 +984,7 @@ Truncate
 ;
 while
 (
-PRUint32
+uint32_t
 (
 mBuf
 .
@@ -1132,7 +1132,7 @@ continue
 }
 #
 endif
-PRInt64
+int64_t
 fileSize
 =
 0
@@ -1146,7 +1146,7 @@ GetFileSize
 fileSize
 )
 ;
-PRInt64
+int64_t
 fileInfoModifyTime
 =
 0
@@ -1528,7 +1528,7 @@ while
 mOffset
 <
 (
-PRInt32
+int32_t
 )
 mBuf
 .
@@ -1592,9 +1592,9 @@ writer
 void
 *
 closure
-PRUint32
+uint32_t
 count
-PRUint32
+uint32_t
 *
 _retval
 )

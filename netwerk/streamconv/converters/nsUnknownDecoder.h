@@ -202,7 +202,7 @@ char
 *
 mBytes
 ;
-PRUint32
+uint32_t
 mByteLen
 ;
 const
@@ -260,14 +260,14 @@ sSnifferEntries
 ]
 ;
 static
-PRUint32
+uint32_t
 sSnifferEntryNum
 ;
 char
 *
 mBuffer
 ;
-PRUint32
+uint32_t
 mBufferLen
 ;
 bool

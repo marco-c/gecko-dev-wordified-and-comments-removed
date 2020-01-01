@@ -115,10 +115,10 @@ mayWait
 =
 0
 ;
-PRInt32
+int32_t
 mSuspendNativeCount
 ;
-PRUint32
+uint32_t
 mEventloopNestingLevel
 ;
 private
@@ -128,7 +128,7 @@ DoProcessNextNativeEvent
 (
 bool
 mayWait
-PRUint32
+uint32_t
 recursionDepth
 )
 ;
@@ -145,7 +145,7 @@ RunSyncSectionsInternal
 (
 bool
 stable
-PRUint32
+uint32_t
 threadRecursionLevel
 )
 ;
@@ -154,7 +154,7 @@ RunSyncSections
 (
 bool
 stable
-PRUint32
+uint32_t
 threadRecursionLevel
 )
 {
@@ -251,10 +251,10 @@ forget
 bool
 mStable
 ;
-PRUint32
+uint32_t
 mEventloopNestingLevel
 ;
-PRUint32
+uint32_t
 mThreadRecursionLevel
 ;
 nsCOMPtr
@@ -275,10 +275,10 @@ bool
 *
 mBlockedWait
 ;
-PRInt32
+int32_t
 mFavorPerf
 ;
-PRInt32
+int32_t
 mNativeEventPending
 ;
 PRIntervalTime

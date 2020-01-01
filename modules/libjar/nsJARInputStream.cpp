@@ -499,7 +499,7 @@ char
 *
 name
 ;
-PRUint16
+uint16_t
 nameLen
 ;
 while
@@ -626,7 +626,7 @@ nsJARInputStream
 :
 Available
 (
-PRUint64
+uint64_t
 *
 _retval
 )
@@ -697,9 +697,9 @@ Read
 char
 *
 aBuffer
-PRUint32
+uint32_t
 aCount
-PRUint32
+uint32_t
 *
 aBytesRead
 )
@@ -796,7 +796,7 @@ if
 mFd
 )
 {
-PRUint32
+uint32_t
 count
 =
 NS_MIN
@@ -804,7 +804,7 @@ NS_MIN
 aCount
 mOutSize
 -
-PRUint32
+uint32_t
 (
 mZs
 .
@@ -883,9 +883,9 @@ writer
 void
 *
 closure
-PRUint32
+uint32_t
 count
-PRUint32
+uint32_t
 *
 _retval
 )
@@ -972,9 +972,9 @@ ContinueInflate
 char
 *
 aBuffer
-PRUint32
+uint32_t
 aCount
-PRUint32
+uint32_t
 *
 aBytesRead
 )
@@ -1006,7 +1006,7 @@ null
 )
 ;
 const
-PRUint32
+uint32_t
 oldTotalOut
 =
 mZs
@@ -1147,9 +1147,9 @@ ReadDirectory
 char
 *
 aBuffer
-PRUint32
+uint32_t
 aCount
-PRUint32
+uint32_t
 *
 aBytesRead
 )
@@ -1180,7 +1180,7 @@ null
 "
 )
 ;
-PRUint32
+uint32_t
 numRead
 =
 CopyDataToBuffer
@@ -1207,7 +1207,7 @@ mCurPos
 0
 ;
 const
-PRUint32
+uint32_t
 arrayLen
 =
 mArray
@@ -1255,7 +1255,7 @@ get
 (
 )
 ;
-PRUint32
+uint32_t
 entryNameLen
 =
 mArray
@@ -1458,7 +1458,7 @@ return
 NS_OK
 ;
 }
-PRUint32
+uint32_t
 nsJARInputStream
 :
 :
@@ -1468,13 +1468,13 @@ char
 *
 &
 aBuffer
-PRUint32
+uint32_t
 &
 aCount
 )
 {
 const
-PRUint32
+uint32_t
 writeLength
 =
 NS_MIN

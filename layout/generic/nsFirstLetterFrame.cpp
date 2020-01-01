@@ -409,11 +409,11 @@ nsFirstLetterFrame
 :
 GetChildFrameContainingOffset
 (
-PRInt32
+int32_t
 inContentOffset
 bool
 inHint
-PRInt32
+int32_t
 *
 outFrameContentOffset
 nsIFrame
@@ -583,7 +583,7 @@ nsSize
 aBorder
 nsSize
 aPadding
-PRUint32
+uint32_t
 aFlags
 )
 {
@@ -787,7 +787,7 @@ aReflowState
 nullptr
 )
 ;
-PRUint8
+uint8_t
 direction
 ;
 nsIFrame

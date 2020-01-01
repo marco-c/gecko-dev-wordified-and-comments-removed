@@ -65,7 +65,7 @@ nsHTMLReflowState
 aOuterReflowState
 =
 nullptr
-PRUint16
+uint16_t
 aReflowDepth
 =
 0
@@ -108,7 +108,7 @@ PresShell
 )
 ;
 }
-PRUint32
+uint32_t
 LayoutFlags
 (
 )
@@ -121,7 +121,7 @@ mLayoutFlags
 void
 SetLayoutFlags
 (
-PRUint32
+uint32_t
 aFlags
 )
 {
@@ -214,7 +214,7 @@ return
 mOuterReflowState
 ;
 }
-PRUint16
+uint16_t
 GetReflowDepth
 (
 )
@@ -240,10 +240,10 @@ nsHTMLReflowState
 *
 mOuterReflowState
 ;
-PRUint32
+uint32_t
 mLayoutFlags
 ;
-PRUint16
+uint16_t
 mReflowDepth
 ;
 bool

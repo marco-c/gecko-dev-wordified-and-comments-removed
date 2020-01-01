@@ -68,7 +68,7 @@ virtual
 bool
 IsNodeOfType
 (
-PRUint32
+uint32_t
 aFlags
 )
 const
@@ -114,7 +114,7 @@ List
 FILE
 *
 out
-PRInt32
+int32_t
 aIndent
 )
 const
@@ -128,7 +128,7 @@ FILE
 out
 =
 stdout
-PRInt32
+int32_t
 aIndent
 =
 0
@@ -317,7 +317,7 @@ nsCommentNode
 :
 IsNodeOfType
 (
-PRUint32
+uint32_t
 aFlags
 )
 const
@@ -407,12 +407,12 @@ List
 FILE
 *
 out
-PRInt32
+int32_t
 aIndent
 )
 const
 {
-PRInt32
+int32_t
 indx
 ;
 for

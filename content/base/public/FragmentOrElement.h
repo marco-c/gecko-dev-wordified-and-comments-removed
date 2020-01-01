@@ -163,7 +163,7 @@ triedToWrap
 ;
 NS_DECL_NSIDOMNODELIST
 virtual
-PRInt32
+int32_t
 IndexOf
 (
 nsIContent
@@ -438,7 +438,7 @@ aInstancePtr
 )
 ;
 virtual
-PRUint32
+uint32_t
 GetChildCount
 (
 )
@@ -449,7 +449,7 @@ nsIContent
 *
 GetChildAt
 (
-PRUint32
+uint32_t
 aIndex
 )
 const
@@ -461,14 +461,14 @@ const
 *
 GetChildArray
 (
-PRUint32
+uint32_t
 *
 aChildCount
 )
 const
 ;
 virtual
-PRInt32
+int32_t
 IndexOf
 (
 nsINode
@@ -484,7 +484,7 @@ InsertChildAt
 nsIContent
 *
 aKid
-PRUint32
+uint32_t
 aIndex
 bool
 aNotify
@@ -494,7 +494,7 @@ virtual
 void
 RemoveChildAt
 (
-PRUint32
+uint32_t
 aIndex
 bool
 aNotify
@@ -524,7 +524,7 @@ nsINodeList
 >
 GetChildren
 (
-PRUint32
+uint32_t
 aFilter
 )
 ;
@@ -537,7 +537,7 @@ GetText
 )
 ;
 virtual
-PRUint32
+uint32_t
 TextLength
 (
 )
@@ -551,7 +551,7 @@ const
 PRUnichar
 *
 aBuffer
-PRUint32
+uint32_t
 aLength
 bool
 aNotify
@@ -593,7 +593,7 @@ const
 PRUnichar
 *
 aBuffer
-PRUint32
+uint32_t
 aLength
 bool
 aNotify
@@ -700,7 +700,7 @@ aNodeValue
 NS_IMETHOD
 GetNodeType
 (
-PRUint16
+uint16_t
 *
 aNodeType
 )
@@ -861,7 +861,7 @@ CloneNode
 (
 bool
 aDeep
-PRUint8
+uint8_t
 aOptionalArgc
 nsIDOMNode
 *
@@ -983,7 +983,7 @@ OwnedOnlyByTheDOMTree
 (
 )
 {
-PRUint32
+uint32_t
 rc
 =
 mRefCnt

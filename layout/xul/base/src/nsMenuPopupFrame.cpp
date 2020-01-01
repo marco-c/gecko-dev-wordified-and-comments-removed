@@ -328,7 +328,7 @@ using
 namespace
 mozilla
 ;
-PRInt8
+int8_t
 nsMenuPopupFrame
 :
 :
@@ -617,7 +617,7 @@ OwnerDoc
 (
 )
 ;
-PRInt32
+int32_t
 namespaceID
 ;
 nsCOMPtr
@@ -745,7 +745,7 @@ do_QueryInterface
 cont
 )
 ;
-PRInt32
+int32_t
 type
 =
 -
@@ -1504,7 +1504,7 @@ return
 NS_OK
 ;
 }
-PRUint8
+uint8_t
 nsMenuPopupFrame
 :
 :
@@ -1512,7 +1512,7 @@ GetShadowStyle
 (
 )
 {
-PRUint8
+uint8_t
 shadow
 =
 GetStyleUIReset
@@ -2482,9 +2482,9 @@ const
 nsAString
 &
 aPosition
-PRInt32
+int32_t
 aXPos
-PRInt32
+int32_t
 aYPos
 bool
 aAttributesOverride
@@ -2659,7 +2659,7 @@ CompressWhitespace
 (
 )
 ;
-PRInt32
+int32_t
 spaceIdx
 =
 position
@@ -2989,7 +2989,7 @@ IsEmpty
 )
 )
 {
-PRInt32
+int32_t
 x
 =
 left
@@ -3022,7 +3022,7 @@ IsEmpty
 )
 )
 {
-PRInt32
+int32_t
 y
 =
 top
@@ -3056,9 +3056,9 @@ InitializePopupAtScreen
 nsIContent
 *
 aTriggerContent
-PRInt32
+int32_t
 aXPos
-PRInt32
+int32_t
 aYPos
 bool
 aIsContextMenu
@@ -3124,9 +3124,9 @@ aAnchor
 nsAString
 &
 aAlign
-PRInt32
+int32_t
 aXPos
-PRInt32
+int32_t
 aYPos
 )
 {
@@ -3727,7 +3727,7 @@ aY
 nsIFrame
 *
 aForChild
-PRUint32
+uint32_t
 aFlags
 )
 {
@@ -3750,7 +3750,7 @@ nsMenuPopupFrame
 :
 GetLayoutFlags
 (
-PRUint32
+uint32_t
 &
 aFlags
 )
@@ -3893,13 +3893,13 @@ FlipStyle
 aVFlip
 )
 {
-PRInt8
+int8_t
 popupAnchor
 (
 mPopupAnchor
 )
 ;
-PRInt8
+int8_t
 popupAlign
 (
 mPopupAlignment
@@ -5190,7 +5190,7 @@ top
 }
 else
 {
-PRInt32
+int32_t
 factor
 =
 devContext
@@ -5205,7 +5205,7 @@ if
 mAdjustOffsetForContextMenu
 )
 {
-PRInt32
+int32_t
 offsetForContextMenuDev
 =
 nsPresContext
@@ -5891,7 +5891,7 @@ aRootScreenRect
 :
 aAnchorRect
 ;
-PRInt32
+int32_t
 width
 =
 rect
@@ -5912,7 +5912,7 @@ width
 :
 1
 ;
-PRInt32
+int32_t
 height
 =
 rect
@@ -6081,16 +6081,16 @@ nsMenuPopupFrame
 :
 CanAdjustEdges
 (
-PRInt8
+int8_t
 aHorizontalSide
-PRInt8
+int8_t
 aVerticalSide
 nsIntPoint
 &
 aChange
 )
 {
-PRInt8
+int8_t
 popupAlign
 (
 mPopupAlignment
@@ -6991,7 +6991,7 @@ bool
 doAction
 )
 {
-PRUint32
+uint32_t
 charCode
 keyCode
 ;
@@ -7055,7 +7055,7 @@ immediateParent
 =
 this
 ;
-PRUint32
+uint32_t
 matchCount
 =
 0
@@ -7280,7 +7280,7 @@ incrementalString
 mIncrementalString
 )
 ;
-PRUint32
+uint32_t
 charIndex
 =
 1
@@ -7355,7 +7355,7 @@ GetFirstPrincipalChild
 (
 )
 ;
-PRInt32
+int32_t
 menuAccessKey
 =
 -
@@ -7876,12 +7876,12 @@ nsMenuPopupFrame
 :
 AttributeChanged
 (
-PRInt32
+int32_t
 aNameSpaceID
 nsIAtom
 *
 aAttribute
-PRInt32
+int32_t
 aModType
 )
 {
@@ -8045,7 +8045,7 @@ nsresult
 err1
 err2
 ;
-PRInt32
+int32_t
 xpos
 =
 left
@@ -8056,7 +8056,7 @@ ToInteger
 err1
 )
 ;
-PRInt32
+int32_t
 ypos
 =
 top
@@ -8219,9 +8219,9 @@ nsMenuPopupFrame
 :
 MoveTo
 (
-PRInt32
+int32_t
 aLeft
-PRInt32
+int32_t
 aTop
 bool
 aUpdateAttrs
@@ -8454,7 +8454,7 @@ nsMenuPopupFrame
 :
 SetConsumeRollupEvent
 (
-PRUint32
+uint32_t
 aConsumeMode
 )
 {
@@ -8529,7 +8529,7 @@ visibility
 =
 nsViewVisibility_kHide
 ;
-PRInt32
+int32_t
 zIndex
 =
 PR_INT32_MAX

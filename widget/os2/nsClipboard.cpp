@@ -68,7 +68,7 @@ os2
 h
 >
 inline
-PRUint32
+uint32_t
 RegisterClipboardFormat
 (
 PCSZ
@@ -194,7 +194,7 @@ nsClipboard
 :
 SetNativeClipboardData
 (
-PRInt32
+int32_t
 aWhichClipboard
 )
 {
@@ -224,7 +224,7 @@ GetNativeClipboardData
 nsITransferable
 *
 aTransferable
-PRInt32
+int32_t
 aWhichClipboard
 )
 {
@@ -280,7 +280,7 @@ char
 aFlavor
 )
 {
-PRUint32
+uint32_t
 ulFormatID
 =
 GetFormatID
@@ -355,7 +355,7 @@ nsClipboard
 :
 GetClipboardDataByID
 (
-PRUint32
+uint32_t
 aFormatID
 const
 char
@@ -366,7 +366,7 @@ aFlavor
 PVOID
 pDataMem
 ;
-PRUint32
+uint32_t
 NumOfBytes
 ;
 bool
@@ -421,7 +421,7 @@ aFormatID
 CF_TEXT
 )
 {
-PRUint32
+uint32_t
 NumOfChars
 =
 strlen
@@ -453,7 +453,7 @@ kUnicodeMime
 nsAutoChar16Buffer
 buffer
 ;
-PRInt32
+int32_t
 bufLength
 ;
 MultiByteToWideChar
@@ -503,7 +503,7 @@ UniChar
 }
 else
 {
-PRUint32
+uint32_t
 NumOfChars
 =
 UniStrlen
@@ -564,7 +564,7 @@ aFlavor
 pDataMem
 reinterpret_cast
 <
-PRInt32
+int32_t
 *
 >
 (
@@ -720,7 +720,7 @@ pClipboardData
 +
 sizeof
 (
-PRUint32
+uint32_t
 )
 ;
 NumOfBytes
@@ -729,7 +729,7 @@ NumOfBytes
 (
 static_cast
 <
-PRUint32
+uint32_t
 *
 >
 (
@@ -839,7 +839,7 @@ pMozData
 =
 nullptr
 ;
-PRUint32
+uint32_t
 NumOfBytes
 =
 0
@@ -930,7 +930,7 @@ pMozData
 return
 ;
 }
-PRUint32
+uint32_t
 ulFormatID
 =
 GetFormatID
@@ -1052,7 +1052,7 @@ pUnicodeMem
 =
 nullptr
 ;
-PRUint32
+uint32_t
 NumOfChars
 =
 NumOfBytes
@@ -1180,7 +1180,7 @@ pMozData
 ;
 for
 (
-PRUint32
+uint32_t
 i
 =
 0
@@ -1249,7 +1249,7 @@ break
 nsAutoCharBuffer
 buffer
 ;
-PRInt32
+int32_t
 bufLength
 ;
 WideCharToMultiByte
@@ -1338,7 +1338,7 @@ NumOfBytes
 +
 sizeof
 (
-PRUint32
+uint32_t
 )
 PAG_WRITE
 |
@@ -1355,7 +1355,7 @@ NO_ERROR
 (
 reinterpret_cast
 <
-PRUint32
+uint32_t
 *
 >
 (
@@ -1371,7 +1371,7 @@ pBinaryMem
 +
 sizeof
 (
-PRUint32
+uint32_t
 )
 pMozData
 NumOfBytes
@@ -1526,7 +1526,7 @@ rc
 return
 NS_ERROR_FAILURE
 ;
-PRUint32
+uint32_t
 cFormats
 =
 0
@@ -1542,7 +1542,7 @@ cFormats
 ;
 for
 (
-PRUint32
+uint32_t
 i
 =
 0
@@ -1645,7 +1645,7 @@ return
 rc
 ;
 }
-PRUint32
+uint32_t
 nsClipboard
 :
 :
@@ -1689,9 +1689,9 @@ char
 *
 *
 aFlavorList
-PRUint32
+uint32_t
 aLength
-PRInt32
+int32_t
 aWhichClipboard
 bool
 *
@@ -1719,7 +1719,7 @@ NS_OK
 ;
 for
 (
-PRUint32
+uint32_t
 i
 =
 0
@@ -1738,7 +1738,7 @@ fmtInfo
 =
 0
 ;
-PRUint32
+uint32_t
 format
 =
 GetFormatID

@@ -93,7 +93,7 @@ void
 )
 ;
 virtual
-PRUint32
+uint32_t
 HashCode
 (
 void
@@ -271,7 +271,7 @@ public
 :
 nsHashtable
 (
-PRUint32
+uint32_t
 aSize
 =
 16
@@ -287,7 +287,7 @@ nsHashtable
 (
 )
 ;
-PRInt32
+int32_t
 Count
 (
 void
@@ -438,7 +438,7 @@ destroyElementFun
 void
 *
 destroyElementClosure
-PRUint32
+uint32_t
 aSize
 =
 16
@@ -484,7 +484,7 @@ table
 PLDHashEntryHdr
 *
 hdr
-PRUint32
+uint32_t
 i
 void
 *
@@ -520,7 +520,7 @@ public
 :
 nsSupportsHashtable
 (
-PRUint32
+uint32_t
 aSize
 =
 16
@@ -542,7 +542,7 @@ nsSupportsHashtable
 (
 )
 ;
-PRInt32
+int32_t
 Count
 (
 void
@@ -671,7 +671,7 @@ PLDHashTable
 PLDHashEntryHdr
 *
 hdr
-PRUint32
+uint32_t
 i
 void
 *
@@ -769,7 +769,7 @@ mKey
 )
 ;
 }
-PRUint32
+uint32_t
 HashCode
 (
 void
@@ -883,14 +883,14 @@ nsHashKey
 {
 protected
 :
-PRUint32
+uint32_t
 mKey
 ;
 public
 :
 nsPRUint32Key
 (
-PRUint32
+uint32_t
 key
 )
 {
@@ -908,7 +908,7 @@ mKey
 key
 ;
 }
-PRUint32
+uint32_t
 HashCode
 (
 void
@@ -961,7 +961,7 @@ mKey
 )
 ;
 }
-PRUint32
+uint32_t
 GetValue
 (
 )
@@ -1034,7 +1034,7 @@ mKey
 key
 ;
 }
-PRUint32
+uint32_t
 HashCode
 (
 void
@@ -1159,7 +1159,7 @@ const
 char
 *
 str
-PRInt32
+int32_t
 strLen
 =
 -
@@ -1192,7 +1192,7 @@ nsCStringKey
 void
 )
 ;
-PRUint32
+uint32_t
 HashCode
 (
 void
@@ -1247,7 +1247,7 @@ return
 mStr
 ;
 }
-PRUint32
+uint32_t
 GetStringLength
 (
 )
@@ -1263,7 +1263,7 @@ char
 *
 mStr
 ;
-PRUint32
+uint32_t
 mStrLen
 ;
 Ownership
@@ -1301,7 +1301,7 @@ const
 PRUnichar
 *
 str
-PRInt32
+int32_t
 strLen
 =
 -
@@ -1334,7 +1334,7 @@ nsStringKey
 void
 )
 ;
-PRUint32
+uint32_t
 HashCode
 (
 void
@@ -1389,7 +1389,7 @@ return
 mStr
 ;
 }
-PRUint32
+uint32_t
 GetStringLength
 (
 )
@@ -1405,7 +1405,7 @@ PRUnichar
 *
 mStr
 ;
-PRUint32
+uint32_t
 mStrLen
 ;
 Ownership

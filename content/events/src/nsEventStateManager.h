@@ -361,7 +361,7 @@ RegisterAccessKey
 nsIContent
 *
 aContent
-PRUint32
+uint32_t
 aKey
 )
 ;
@@ -371,11 +371,11 @@ UnregisterAccessKey
 nsIContent
 *
 aContent
-PRUint32
+uint32_t
 aKey
 )
 ;
-PRUint32
+uint32_t
 GetRegisteredAccessKey
 (
 nsIContent
@@ -394,7 +394,7 @@ aPrefix
 nsresult
 SetCursor
 (
-PRInt32
+int32_t
 aCursor
 imgIContainer
 *
@@ -653,7 +653,7 @@ DispatchMouseEvent
 nsGUIEvent
 *
 aEvent
-PRUint32
+uint32_t
 aMessage
 nsIContent
 *
@@ -713,7 +713,7 @@ aPresContext
 nsGUIEvent
 *
 aEvent
-PRUint32
+uint32_t
 aMsg
 nsIContent
 *
@@ -806,7 +806,7 @@ nsIDocShellTreeItem
 aBubbledFrom
 ProcessingAccessKeyState
 aAccessKeyState
-PRInt32
+int32_t
 aModifierMask
 )
 ;
@@ -815,7 +815,7 @@ ExecuteAccessKey
 (
 nsTArray
 <
-PRUint32
+uint32_t
 >
 &
 aAccessCharCodes
@@ -1063,7 +1063,7 @@ aEvent
 nsEventStatus
 *
 aStatus
-PRInt32
+int32_t
 aDelta
 DeltaDirection
 aDeltaDirection
@@ -1087,7 +1087,7 @@ aEvent
 nsEventStatus
 *
 aStatus
-PRInt32
+int32_t
 aPixelDelta
 DeltaDirection
 aDeltaDirection
@@ -1153,7 +1153,7 @@ aEvent
 void
 DoScrollHistory
 (
-PRInt32
+int32_t
 direction
 )
 ;
@@ -1163,7 +1163,7 @@ DoScrollZoom
 nsIFrame
 *
 aTargetFrame
-PRInt32
+int32_t
 adjustment
 )
 ;
@@ -1179,14 +1179,14 @@ aMv
 nsresult
 ChangeTextSize
 (
-PRInt32
+int32_t
 change
 )
 ;
 nsresult
 ChangeFullZoom
 (
-PRInt32
+int32_t
 change
 )
 ;
@@ -1342,7 +1342,7 @@ mPendingScrollAmountY
 TimeStamp
 mLastTime
 ;
-PRUint32
+uint32_t
 mHandlingDeltaMode
 ;
 bool
@@ -1591,7 +1591,7 @@ bool
 aAddState
 )
 ;
-PRInt32
+int32_t
 mLockCursor
 ;
 nsIntPoint
@@ -1647,7 +1647,7 @@ widget
 Modifiers
 mGestureModifiers
 ;
-PRUint16
+uint16_t
 mGestureDownButtons
 ;
 nsCOMPtr
@@ -1733,13 +1733,13 @@ nsIDocument
 >
 mDocument
 ;
-PRUint32
+uint32_t
 mLClickCount
 ;
-PRUint32
+uint32_t
 mMClickCount
 ;
-PRUint32
+uint32_t
 mRClickCount
 ;
 bool
@@ -1765,7 +1765,7 @@ nsIContent
 mAccessKeys
 ;
 static
-PRInt32
+int32_t
 sUserInputEventDepth
 ;
 static

@@ -423,7 +423,7 @@ aStringToInsert
 nsIDOMNode
 *
 aDestinationNode
-PRInt32
+int32_t
 aDestOffset
 bool
 aDoDeleteSelection
@@ -467,7 +467,7 @@ targetNode
 =
 aDestinationNode
 ;
-PRInt32
+int32_t
 targetOffset
 =
 aDestOffset
@@ -539,7 +539,7 @@ aTransferable
 nsIDOMNode
 *
 aDestinationNode
-PRInt32
+int32_t
 aDestOffset
 bool
 aDoDeleteSelection
@@ -568,7 +568,7 @@ nsISupports
 >
 genericDataObj
 ;
-PRUint32
+uint32_t
 len
 =
 0
@@ -741,7 +741,7 @@ InsertFromDataTransfer
 nsIDOMDataTransfer
 *
 aDataTransfer
-PRInt32
+int32_t
 aIndex
 nsIDOMDocument
 *
@@ -749,7 +749,7 @@ aSourceDoc
 nsIDOMNode
 *
 aDestinationNode
-PRInt32
+int32_t
 aDestOffset
 bool
 aDoDeleteSelection
@@ -1014,7 +1014,7 @@ destdomdoc
 NS_ERROR_NOT_INITIALIZED
 )
 ;
-PRUint32
+uint32_t
 numItems
 =
 0
@@ -1104,7 +1104,7 @@ newSelectionParent
 NS_ERROR_FAILURE
 )
 ;
-PRInt32
+int32_t
 newSelectionOffset
 ;
 rv
@@ -1205,7 +1205,7 @@ cursorIsInSelection
 =
 false
 ;
-PRInt32
+int32_t
 rangeCount
 ;
 rv
@@ -1227,7 +1227,7 @@ rv
 ;
 for
 (
-PRInt32
+int32_t
 j
 =
 0
@@ -1320,7 +1320,7 @@ srcdomdoc
 destdomdoc
 )
 {
-PRUint32
+uint32_t
 dropEffect
 ;
 dataTransfer
@@ -1420,7 +1420,7 @@ GetParent
 }
 for
 (
-PRUint32
+uint32_t
 i
 =
 0
@@ -1467,7 +1467,7 @@ nsPlaintextEditor
 :
 Paste
 (
-PRInt32
+int32_t
 aSelectionType
 )
 {
@@ -1682,7 +1682,7 @@ nsPlaintextEditor
 :
 CanPaste
 (
-PRInt32
+int32_t
 aSelectionType
 bool
 *
@@ -1845,7 +1845,7 @@ nsISupports
 >
 data
 ;
-PRUint32
+uint32_t
 dataLen
 ;
 nsresult
@@ -1985,7 +1985,7 @@ do_QueryInterface
 root
 )
 ;
-PRUint32
+uint32_t
 appType
 ;
 if

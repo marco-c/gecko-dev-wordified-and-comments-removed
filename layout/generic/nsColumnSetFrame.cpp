@@ -341,7 +341,7 @@ const
 struct
 ReflowConfig
 {
-PRInt32
+int32_t
 mBalanceColCount
 ;
 nscoord
@@ -451,7 +451,7 @@ aPresShell
 nsStyleContext
 *
 aContext
-PRUint32
+uint32_t
 aStateFlags
 )
 {
@@ -670,7 +670,7 @@ GetStyleColumn
 (
 )
 ;
-PRUint8
+uint8_t
 ruleStyle
 ;
 if
@@ -1298,7 +1298,7 @@ this
 colStyle
 )
 ;
-PRInt32
+int32_t
 numColumns
 =
 colStyle
@@ -1307,12 +1307,12 @@ colStyle
 mColumnCount
 ;
 const
-PRUint32
+uint32_t
 MAX_NESTED_COLUMN_BALANCING
 =
 2
 ;
-PRUint32
+uint32_t
 cnt
 =
 1
@@ -1434,7 +1434,7 @@ numColumns
 0
 )
 {
-PRInt32
+int32_t
 maxColumns
 =
 (
@@ -2106,7 +2106,7 @@ colWidth
 0
 ;
 }
-PRInt32
+int32_t
 numColumns
 =
 colStyle

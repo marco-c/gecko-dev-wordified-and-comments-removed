@@ -87,7 +87,7 @@ nsXPCOMDetector
 :
 nsXPCOMDetector
 (
-PRUint32
+uint32_t
 aLanguageFilter
 )
 :
@@ -162,7 +162,7 @@ const
 char
 *
 aBuf
-PRUint32
+uint32_t
 aLen
 bool
 *
@@ -288,7 +288,7 @@ ifdef
 DEBUG_chardet
 for
 (
-PRInt32
+int32_t
 i
 =
 0
@@ -398,7 +398,7 @@ nsXPCOMStringDetector
 :
 nsXPCOMStringDetector
 (
-PRUint32
+uint32_t
 aLanguageFilter
 )
 :
@@ -473,7 +473,7 @@ const
 char
 *
 aBuf
-PRUint32
+uint32_t
 aLen
 const
 char

@@ -69,7 +69,7 @@ aPresContext
 nsEvent
 *
 aEvent
-PRUint32
+uint32_t
 aEventType
 nsInvalidateRequestList
 *
@@ -166,7 +166,7 @@ IsCallerTrustedForRead
 ;
 for
 (
-PRUint32
+uint32_t
 i
 =
 0
@@ -476,7 +476,7 @@ IsCallerTrustedForRead
 ;
 for
 (
-PRUint32
+uint32_t
 i
 =
 0
@@ -614,7 +614,7 @@ aMsg
 false
 )
 ;
-PRUint32
+uint32_t
 length
 =
 mInvalidateRequests
@@ -634,7 +634,7 @@ length
 ;
 for
 (
-PRUint32
+uint32_t
 i
 =
 0
@@ -763,7 +763,7 @@ aIter
 false
 )
 ;
-PRUint32
+uint32_t
 length
 =
 0
@@ -792,7 +792,7 @@ length
 ;
 for
 (
-PRUint32
+uint32_t
 i
 =
 0
@@ -930,7 +930,7 @@ aPresContext
 nsEvent
 *
 aEvent
-PRUint32
+uint32_t
 aEventType
 nsInvalidateRequestList
 *

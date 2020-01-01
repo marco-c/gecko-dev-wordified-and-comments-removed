@@ -286,7 +286,7 @@ return
 ret
 ;
 }
-PRUint32
+uint32_t
 NS_strlen
 (
 const
@@ -386,7 +386,7 @@ PRUnichar
 aString
 )
 {
-PRUint32
+uint32_t
 len
 =
 NS_strlen
@@ -410,7 +410,7 @@ const
 PRUnichar
 *
 aString
-PRUint32
+uint32_t
 aLen
 )
 {
@@ -478,7 +478,7 @@ char
 aString
 )
 {
-PRUint32
+uint32_t
 len
 =
 strlen
@@ -1213,7 +1213,7 @@ const
 char
 *
 aString
-PRUint32
+uint32_t
 aLength
 )
 {
@@ -1501,7 +1501,7 @@ NS_MakeRandomString
 char
 *
 aBuf
-PRInt32
+int32_t
 aBufLen
 )
 {
@@ -1534,7 +1534,7 @@ fpTime
 )
 )
 ;
-PRInt32
+int32_t
 i
 ;
 for

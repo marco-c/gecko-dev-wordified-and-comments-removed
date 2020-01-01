@@ -505,7 +505,7 @@ returns
 (
 NativeThreadId
 tid
-PRUint32
+uint32_t
 processType
 )
 ;

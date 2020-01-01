@@ -272,7 +272,7 @@ void
 write8
 (
 in
-PRUint8
+uint8_t
 aByte
 )
 ;
@@ -280,7 +280,7 @@ void
 write16
 (
 in
-PRUint16
+uint16_t
 a16
 )
 ;
@@ -288,7 +288,7 @@ void
 write32
 (
 in
-PRUint32
+uint32_t
 a32
 )
 ;
@@ -296,7 +296,7 @@ void
 write64
 (
 in
-PRUint64
+uint64_t
 a64
 )
 ;
@@ -466,7 +466,7 @@ in
 string
 aString
 in
-PRUint32
+uint32_t
 aLength
 )
 ;
@@ -496,10 +496,10 @@ aLength
 )
 ]
 in
-PRUint8
+uint8_t
 aBytes
 in
-PRUint32
+uint32_t
 aLength
 )
 ;

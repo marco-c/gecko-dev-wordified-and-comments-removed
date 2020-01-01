@@ -98,7 +98,7 @@ mDisabled
 ;
 union
 {
-PRInt32
+int32_t
 mDOMClassInfoID
 ;
 nsIID
@@ -224,7 +224,7 @@ const
 char
 *
 aClassName
-PRInt32
+int32_t
 aDOMClassInfoID
 bool
 aPrivileged
@@ -290,7 +290,7 @@ nsIID
 *
 *
 aInterfaces
-PRUint32
+uint32_t
 aScriptableFlags
 bool
 aHasClassInterface

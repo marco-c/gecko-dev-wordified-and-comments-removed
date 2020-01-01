@@ -618,9 +618,9 @@ aContext
 nsIInputStream
 *
 aStream
-PRUint32
+uint32_t
 aOffset
-PRUint32
+uint32_t
 aCount
 )
 {
@@ -838,7 +838,7 @@ nsIFile
 *
 *
 aLocalFile
-PRUint32
+uint32_t
 *
 aDesiredImageSize
 nsACString
@@ -1086,12 +1086,12 @@ mPump
 Init
 (
 inStream
-PRInt64
+int64_t
 (
 -
 1
 )
-PRInt64
+int64_t
 (
 -
 1
@@ -1200,7 +1200,7 @@ want
 an
 icon
 for
-PRUint32
+uint32_t
 desiredImageSize
 ;
 nsresult
@@ -1591,12 +1591,12 @@ pre
 -
 multiplied
 data
-PRUint8
+uint8_t
 *
 bitmapRepData
 =
 (
-PRUint8
+uint8_t
 *
 )
 [
@@ -1609,7 +1609,7 @@ bitmapData
 create
 our
 buffer
-PRInt32
+int32_t
 bufferCapacity
 =
 2
@@ -1622,7 +1622,7 @@ desiredImageSize
 ;
 nsAutoTArray
 <
-PRUint8
+uint8_t
 3
 +
 16
@@ -1653,7 +1653,7 @@ bufferCapacity
 return
 NS_ERROR_OUT_OF_MEMORY
 ;
-PRUint8
+uint8_t
 *
 iconBufferPtr
 =
@@ -1684,7 +1684,7 @@ iconBufferPtr
 =
 desiredImageSize
 ;
-PRUint32
+uint32_t
 dataCount
 =
 (
@@ -1695,7 +1695,7 @@ desiredImageSize
 *
 4
 ;
-PRUint32
+uint32_t
 index
 =
 0
@@ -1714,7 +1714,7 @@ data
 from
 the
 bitmap
-PRUint8
+uint8_t
 r
 =
 bitmapRepData
@@ -1724,7 +1724,7 @@ index
 +
 ]
 ;
-PRUint8
+uint8_t
 g
 =
 bitmapRepData
@@ -1734,7 +1734,7 @@ index
 +
 ]
 ;
-PRUint8
+uint8_t
 b
 =
 bitmapRepData
@@ -1744,7 +1744,7 @@ index
 +
 ]
 ;
-PRUint8
+uint8_t
 a
 =
 bitmapRepData
@@ -1924,7 +1924,7 @@ rv
 )
 )
 {
-PRUint32
+uint32_t
 written
 ;
 rv
@@ -1989,7 +1989,7 @@ nsIconChannel
 :
 GetLoadFlags
 (
-PRUint32
+uint32_t
 *
 aLoadAttributes
 )
@@ -2010,7 +2010,7 @@ nsIconChannel
 :
 SetLoadFlags
 (
-PRUint32
+uint32_t
 aLoadAttributes
 )
 {
@@ -2162,7 +2162,7 @@ nsIconChannel
 :
 GetContentDisposition
 (
-PRUint32
+uint32_t
 *
 aContentDisposition
 )
@@ -2207,7 +2207,7 @@ nsIconChannel
 :
 GetContentLength
 (
-PRInt32
+int32_t
 *
 aContentLength
 )
@@ -2227,7 +2227,7 @@ nsIconChannel
 :
 SetContentLength
 (
-PRInt32
+int32_t
 aContentLength
 )
 {

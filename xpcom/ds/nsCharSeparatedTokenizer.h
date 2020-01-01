@@ -48,7 +48,7 @@ nsSubstring
 aSource
 PRUnichar
 aSeparatorChar
-PRUint32
+uint32_t
 aFlags
 =
 0
@@ -447,7 +447,7 @@ mLastTokenEndedWithSeparator
 PRUnichar
 mSeparatorChar
 ;
-PRUint32
+uint32_t
 mFlags
 ;
 }
@@ -470,7 +470,7 @@ nsSubstring
 aSource
 PRUnichar
 aSeparatorChar
-PRUint32
+uint32_t
 aFlags
 =
 0

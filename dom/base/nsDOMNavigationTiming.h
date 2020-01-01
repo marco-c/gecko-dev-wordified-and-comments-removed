@@ -122,7 +122,7 @@ return
 mNavigationType
 ;
 }
-PRUint16
+uint16_t
 GetRedirectCount
 (
 )
@@ -457,7 +457,7 @@ RedirectCheckState
 RedirectCheckState
 mRedirectCheck
 ;
-PRInt16
+int16_t
 mRedirectCount
 ;
 nsDOMPerformanceNavigationType

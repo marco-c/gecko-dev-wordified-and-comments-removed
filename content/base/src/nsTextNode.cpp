@@ -77,7 +77,7 @@ already_AddRefed
 nsINodeInfo
 >
 aNodeInfo
-PRInt32
+int32_t
 aNameSpaceID
 nsIAtom
 *
@@ -260,7 +260,7 @@ nsIContent
 *
 mGrandparent
 ;
-PRInt32
+int32_t
 mNameSpaceID
 ;
 nsCOMPtr
@@ -449,7 +449,7 @@ nsTextNode
 :
 IsNodeOfType
 (
-PRUint32
+uint32_t
 aFlags
 )
 const
@@ -537,7 +537,7 @@ const
 PRUnichar
 *
 aBuffer
-PRUint32
+uint32_t
 aLength
 bool
 aNotify
@@ -592,12 +592,12 @@ List
 FILE
 *
 out
-PRInt32
+int32_t
 aIndent
 )
 const
 {
-PRInt32
+int32_t
 index
 ;
 for
@@ -806,7 +806,7 @@ DumpContent
 FILE
 *
 out
-PRInt32
+int32_t
 aIndent
 bool
 aDumpAll
@@ -818,7 +818,7 @@ if
 aDumpAll
 )
 {
-PRInt32
+int32_t
 index
 ;
 for
@@ -908,7 +908,7 @@ NS_NewAttributeContent
 nsNodeInfoManager
 *
 aNodeInfoManager
-PRInt32
+int32_t
 aNameSpaceID
 nsIAtom
 *
@@ -1186,12 +1186,12 @@ aDocument
 Element
 *
 aElement
-PRInt32
+int32_t
 aNameSpaceID
 nsIAtom
 *
 aAttribute
-PRInt32
+int32_t
 aModType
 )
 {

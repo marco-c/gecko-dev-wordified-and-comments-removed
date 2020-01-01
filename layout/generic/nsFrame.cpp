@@ -637,7 +637,7 @@ nsIContent
 *
 mContent
 ;
-PRInt32
+int32_t
 mOffset
 ;
 }
@@ -768,7 +768,7 @@ PRLogModuleInfo
 gStyleVerifyTreeLogModuleInfo
 ;
 static
-PRUint32
+uint32_t
 gStyleVerifyTreeEnable
 =
 0x55
@@ -904,7 +904,7 @@ aPresContext
 FILE
 *
 out
-PRInt32
+int32_t
 aIndent
 )
 {
@@ -1281,7 +1281,7 @@ nsIFrame
 :
 IsVisibleConsideringAncestors
 (
-PRUint32
+uint32_t
 aFlags
 )
 const
@@ -2939,10 +2939,10 @@ nsFrame
 :
 GetOffsets
 (
-PRInt32
+int32_t
 &
 aStart
-PRInt32
+int32_t
 &
 aEnd
 )
@@ -5298,7 +5298,7 @@ NS_FOR_CSS_SIDES
 side
 )
 {
-PRUint32
+uint32_t
 hc1
 =
 NS_SIDE_TO_HALF_CORNER
@@ -5308,7 +5308,7 @@ false
 true
 )
 ;
-PRUint32
+uint32_t
 hc2
 =
 NS_SIDE_TO_HALF_CORNER
@@ -5435,7 +5435,7 @@ Side
 side
 )
 ;
-PRUint32
+uint32_t
 hc1
 =
 NS_SIDE_TO_HALF_CORNER
@@ -5445,7 +5445,7 @@ false
 false
 )
 ;
-PRUint32
+uint32_t
 hc2
 =
 NS_SIDE_TO_HALF_CORNER
@@ -5521,7 +5521,7 @@ Side
 side
 )
 ;
-PRUint32
+uint32_t
 hc1
 =
 NS_SIDE_TO_HALF_CORNER
@@ -5531,7 +5531,7 @@ false
 false
 )
 ;
-PRUint32
+uint32_t
 hc2
 =
 NS_SIDE_TO_HALF_CORNER
@@ -5753,7 +5753,7 @@ nsFrame
 :
 GetAdditionalStyleContext
 (
-PRInt32
+int32_t
 aIndex
 )
 const
@@ -5781,7 +5781,7 @@ nsFrame
 :
 SetAdditionalStyleContext
 (
-PRInt32
+int32_t
 aIndex
 nsStyleContext
 *
@@ -5989,7 +5989,7 @@ return
 aFrame
 ;
 }
-PRInt16
+int16_t
 nsFrame
 :
 :
@@ -6002,7 +6002,7 @@ bool
 isOkToTurnOn
 )
 {
-PRInt16
+int16_t
 selType
 =
 nsISelectionController
@@ -6154,7 +6154,7 @@ aBuilder
 nsFrame
 *
 aFrame
-PRInt16
+int16_t
 aSelectionValue
 )
 :
@@ -6212,7 +6212,7 @@ TYPE_SELECTION_OVERLAY
 )
 private
 :
-PRInt16
+int16_t
 mSelectionValue
 ;
 }
@@ -6405,7 +6405,7 @@ aBuilder
 nsDisplayList
 *
 aList
-PRUint16
+uint16_t
 aContentType
 )
 {
@@ -6453,7 +6453,7 @@ shell
 return
 NS_OK
 ;
-PRInt16
+int16_t
 displaySelection
 =
 shell
@@ -6484,7 +6484,7 @@ GetConstFrameSelection
 (
 )
 ;
-PRInt16
+int16_t
 selectionValue
 =
 frameSelection
@@ -6518,7 +6518,7 @@ GetParent
 (
 )
 ;
-PRInt32
+int32_t
 offset
 =
 0
@@ -6795,7 +6795,7 @@ nsIFrame
 :
 GetCaretColorAt
 (
-PRInt32
+int32_t
 aOffset
 )
 {
@@ -8203,7 +8203,7 @@ aBuilder
 nsDisplayList
 *
 aList
-PRUint32
+uint32_t
 &
 aIndex
 )
@@ -8622,7 +8622,7 @@ nsDisplayList
 aList
 )
 {
-PRUint32
+uint32_t
 index
 =
 0
@@ -9587,7 +9587,7 @@ const
 nsDisplayListSet
 &
 aLists
-PRUint32
+uint32_t
 aFlags
 )
 {
@@ -11345,10 +11345,10 @@ nsIContent
 *
 *
 aParentContent
-PRInt32
+int32_t
 *
 aContentOffset
-PRInt32
+int32_t
 *
 aTarget
 )
@@ -11396,7 +11396,7 @@ aTarget
 =
 0
 ;
-PRInt16
+int16_t
 displaySelection
 =
 aPresShell
@@ -11716,7 +11716,7 @@ parentContent
 return
 NS_ERROR_FAILURE
 ;
-PRInt32
+int32_t
 offset
 =
 parentContent
@@ -11821,7 +11821,7 @@ IsSelectable
 bool
 *
 aSelectable
-PRUint8
+uint8_t
 *
 aSelectStyle
 )
@@ -11835,7 +11835,7 @@ aSelectable
 return
 NS_ERROR_NULL_POINTER
 ;
-PRUint8
+uint8_t
 selectStyle
 =
 NS_STYLE_USER_SELECT_AUTO
@@ -12090,7 +12090,7 @@ shell
 return
 NS_ERROR_FAILURE
 ;
-PRInt16
+int16_t
 isEditor
 =
 shell
@@ -12202,7 +12202,7 @@ NS_OK
 bool
 selectable
 ;
-PRUint8
+uint8_t
 selectStyle
 ;
 rv
@@ -12551,10 +12551,10 @@ nsIContent
 >
 parentContent
 ;
-PRInt32
+int32_t
 contentOffset
 ;
-PRInt32
+int32_t
 target
 ;
 rv
@@ -13093,7 +13093,7 @@ nsIFrame
 *
 theFrame
 ;
-PRInt32
+int32_t
 offset
 ;
 const
@@ -13192,7 +13192,7 @@ nsSelectionAmount
 aAmountBack
 nsSelectionAmount
 aAmountForward
-PRInt32
+int32_t
 aStartPos
 nsPresContext
 *
@@ -13209,7 +13209,7 @@ baseFrame
 =
 this
 ;
-PRInt32
+int32_t
 baseOffset
 =
 aStartPos
@@ -13441,7 +13441,7 @@ aEventStatus
 bool
 selectable
 ;
-PRUint8
+uint8_t
 selectStyle
 ;
 IsSelectable
@@ -13530,10 +13530,10 @@ nsIContent
 >
 parentContent
 ;
-PRInt32
+int32_t
 contentOffset
 ;
-PRInt32
+int32_t
 target
 ;
 nsMouseEvent
@@ -13738,9 +13738,9 @@ ContentOffsets
 aOffsets
 bool
 aHandleTableSel
-PRInt32
+int32_t
 aContentOffsetForTableSel
-PRInt32
+int32_t
 aTargetForTableSel
 nsIContent
 *
@@ -14024,12 +14024,12 @@ nsIContent
 >
 parentContent
 ;
-PRInt32
+int32_t
 contentOffsetForTableSel
 =
 0
 ;
-PRInt32
+int32_t
 targetForTableSel
 =
 0
@@ -14318,9 +14318,9 @@ FrameContentRange
 nsIContent
 *
 aContent
-PRInt32
+int32_t
 aStart
-PRInt32
+int32_t
 aEnd
 )
 :
@@ -14344,10 +14344,10 @@ nsIContent
 >
 content
 ;
-PRInt32
+int32_t
 start
 ;
-PRInt32
+int32_t
 end
 ;
 }
@@ -14426,7 +14426,7 @@ nsGkAtoms
 textFrame
 )
 {
-PRInt32
+int32_t
 offset
 offsetEnd
 ;
@@ -14468,7 +14468,7 @@ GetParent
 (
 )
 ;
-PRInt32
+int32_t
 beginOffset
 =
 parent
@@ -14504,7 +14504,7 @@ if
 parent
 )
 {
-PRInt32
+int32_t
 beginOffset
 =
 parent
@@ -14642,7 +14642,7 @@ nsIFrame
 aFrame
 nsPoint
 aPoint
-PRUint32
+uint32_t
 aFlags
 )
 ;
@@ -14653,7 +14653,7 @@ SelfIsSelectable
 nsIFrame
 *
 aFrame
-PRUint32
+uint32_t
 aFlags
 )
 {
@@ -14720,7 +14720,7 @@ nsIFrame
 aFrame
 )
 {
-PRUint8
+uint8_t
 style
 =
 aFrame
@@ -14802,7 +14802,7 @@ nsIFrame
 aChild
 nsPoint
 aPoint
-PRUint32
+uint32_t
 aFlags
 )
 {
@@ -14865,7 +14865,7 @@ nsIFrame
 aFrame
 bool
 aEndFrame
-PRUint32
+uint32_t
 aFlags
 )
 {
@@ -15015,7 +15015,7 @@ line_iterator
 aLine
 nsPoint
 aPoint
-PRUint32
+uint32_t
 aFlags
 )
 {
@@ -15082,7 +15082,7 @@ XMost
 ;
 for
 (
-PRInt32
+int32_t
 n
 =
 aLine
@@ -15300,7 +15300,7 @@ nsIFrame
 aFrame
 nsPoint
 aPoint
-PRUint32
+uint32_t
 aFlags
 )
 {
@@ -15553,7 +15553,7 @@ IsEmpty
 -
 prevLine
 ;
-PRInt32
+int32_t
 dragOutOfFrame
 =
 Preferences
@@ -15726,7 +15726,7 @@ nsIFrame
 aFrame
 nsPoint
 aPoint
-PRUint32
+uint32_t
 aFlags
 )
 {
@@ -16248,7 +16248,7 @@ GetContentOffsetsFromPoint
 (
 nsPoint
 aPoint
-PRUint32
+uint32_t
 aFlags
 )
 {
@@ -16976,7 +16976,7 @@ trailingWhitespace
 ;
 for
 (
-PRUint32
+uint32_t
 i
 =
 0
@@ -17119,7 +17119,7 @@ floats_cur_right
 ;
 for
 (
-PRUint32
+uint32_t
 i
 =
 0
@@ -17881,7 +17881,7 @@ nsSize
 aBorder
 nsSize
 aPadding
-PRUint32
+uint32_t
 aFlags
 )
 {
@@ -19233,12 +19233,12 @@ nsFrame
 :
 AttributeChanged
 (
-PRInt32
+int32_t
 aNameSpaceID
 nsIAtom
 *
 aAttribute
-PRInt32
+int32_t
 aModType
 )
 {
@@ -19975,7 +19975,7 @@ nsIFrame
 *
 aOther
 const
-PRInt32
+int32_t
 aAPD
 )
 const
@@ -20108,7 +20108,7 @@ f
 =
 this
 ;
-PRInt32
+int32_t
 currAPD
 =
 PresContext
@@ -20187,7 +20187,7 @@ f
 newOffset
 )
 ;
-PRInt32
+int32_t
 newAPD
 =
 f
@@ -20804,7 +20804,7 @@ const
 nsRect
 &
 aDamageRect
-PRUint32
+uint32_t
 aDisplayItemKey
 )
 {
@@ -20848,7 +20848,7 @@ return
 nullptr
 ;
 }
-PRUint32
+uint32_t
 flags
 =
 INVALIDATE_NO_THEBES_LAYERS
@@ -21392,7 +21392,7 @@ const
 nsRect
 &
 aDamageRect
-PRUint32
+uint32_t
 aFlags
 )
 {
@@ -21462,7 +21462,7 @@ nscoord
 aX
 nscoord
 aY
-PRUint32
+uint32_t
 aFlags
 )
 {
@@ -21678,7 +21678,7 @@ aY
 nsIFrame
 *
 aForChild
-PRUint32
+uint32_t
 aFlags
 )
 {
@@ -21799,7 +21799,7 @@ frame
 "
 )
 ;
-PRInt32
+int32_t
 scaleFactor
 =
 PresContext
@@ -21971,7 +21971,7 @@ GetOffsetToCrossDoc
 aOutAncestor
 )
 ;
-PRInt32
+int32_t
 scaleFactor
 =
 PresContext
@@ -22112,7 +22112,7 @@ const
 nsRect
 &
 aDamageRect
-PRUint32
+uint32_t
 aFlags
 )
 {
@@ -22524,7 +22524,7 @@ boxShadows
 nsRect
 shadows
 ;
-PRInt32
+int32_t
 A2D
 =
 aFrame
@@ -22541,7 +22541,7 @@ AppUnitsPerDevPixel
 ;
 for
 (
-PRUint32
+uint32_t
 i
 =
 0
@@ -22675,7 +22675,7 @@ GetStyleOutline
 (
 )
 ;
-PRUint8
+uint8_t
 outlineStyle
 =
 outline
@@ -23398,7 +23398,7 @@ if
 view
 )
 {
-PRUint32
+uint32_t
 flags
 =
 0
@@ -24164,7 +24164,7 @@ GetParent
 #
 ifdef
 DEBUG
-PRInt32
+int32_t
 nsFrame
 :
 :
@@ -24176,7 +24176,7 @@ nsIFrame
 aFrame
 )
 {
-PRInt32
+int32_t
 result
 =
 -
@@ -24263,7 +24263,7 @@ List
 FILE
 *
 out
-PRInt32
+int32_t
 aIndent
 )
 const
@@ -24862,7 +24862,7 @@ nsString
 aString
 )
 {
-PRInt32
+int32_t
 i
 len
 =
@@ -25654,7 +25654,7 @@ aPresContext
 FILE
 *
 out
-PRInt32
+int32_t
 aIndent
 )
 {
@@ -25805,7 +25805,7 @@ aPresContext
 FILE
 *
 out
-PRInt32
+int32_t
 aIndent
 )
 {
@@ -26224,7 +26224,7 @@ nsFrame
 :
 GetPointFromOffset
 (
-PRInt32
+int32_t
 inOffset
 nsPoint
 *
@@ -26284,7 +26284,7 @@ if
 newContent
 )
 {
-PRInt32
+int32_t
 newOffset
 =
 newContent
@@ -26360,11 +26360,11 @@ nsFrame
 :
 GetChildFrameContainingOffset
 (
-PRInt32
+int32_t
 inContentOffset
 bool
 inHint
-PRInt32
+int32_t
 *
 outFrameContentOffset
 nsIFrame
@@ -26389,7 +26389,7 @@ parameter
 outFrameContentOffset
 =
 (
-PRInt32
+int32_t
 )
 inHint
 ;
@@ -26463,9 +26463,9 @@ aPos
 nsIFrame
 *
 aBlockFrame
-PRInt32
+int32_t
 aLineStart
-PRInt8
+int8_t
 aOutSideLimit
 )
 {
@@ -26528,12 +26528,12 @@ it
 return
 NS_ERROR_FAILURE
 ;
-PRInt32
+int32_t
 searchingLine
 =
 aLineStart
 ;
-PRInt32
+int32_t
 countLines
 =
 it
@@ -26610,7 +26610,7 @@ return
 NS_ERROR_FAILURE
 ;
 }
-PRInt32
+int32_t
 lineFrameCount
 ;
 nsIFrame
@@ -26720,7 +26720,7 @@ return
 NS_ERROR_FAILURE
 ;
 }
-PRUint32
+uint32_t
 lineFlags
 ;
 result
@@ -26948,7 +26948,7 @@ result
 =
 NS_ERROR_FAILURE
 ;
-PRUint32
+uint32_t
 flags
 =
 nsFrameIterator
@@ -27076,7 +27076,7 @@ shell
 return
 NS_ERROR_FAILURE
 ;
-PRInt16
+int16_t
 isEditor
 =
 shell
@@ -27449,7 +27449,7 @@ resultFrame
 =
 storeOldResultFrame
 ;
-PRUint32
+uint32_t
 flags
 =
 nsFrameIterator
@@ -28008,7 +28008,7 @@ NewlineIsSignificant
 )
 )
 {
-PRInt32
+int32_t
 startOffset
 endOffset
 ;
@@ -28622,7 +28622,7 @@ GetRangeForFrame
 this
 )
 ;
-PRInt32
+int32_t
 offset
 =
 aPos
@@ -28985,7 +28985,7 @@ eat_space_to_next_word
 PeekWordState
 state
 ;
-PRInt32
+int32_t
 offsetAdjustment
 =
 0
@@ -29046,7 +29046,7 @@ nsIFrame
 *
 nextFrame
 ;
-PRInt32
+int32_t
 nextFrameOffset
 ;
 bool
@@ -29255,7 +29255,7 @@ result
 )
 )
 {
-PRInt32
+int32_t
 thisLine
 =
 nsFrame
@@ -29660,7 +29660,7 @@ AdjustFrameForSelectionStyles
 this
 )
 ;
-PRInt32
+int32_t
 thisLine
 =
 nsFrame
@@ -29712,7 +29712,7 @@ frame
 "
 )
 ;
-PRInt32
+int32_t
 lineFrameCount
 ;
 nsIFrame
@@ -29722,7 +29722,7 @@ firstFrame
 nsRect
 usedRect
 ;
-PRUint32
+uint32_t
 lineFlags
 ;
 nsIFrame
@@ -29868,7 +29868,7 @@ firstFrame
 ;
 for
 (
-PRInt32
+int32_t
 count
 =
 lineFrameCount
@@ -30057,7 +30057,7 @@ PeekOffsetNoAmount
 (
 bool
 aForward
-PRInt32
+int32_t
 *
 aOffset
 )
@@ -30092,7 +30092,7 @@ PeekOffsetCharacter
 (
 bool
 aForward
-PRInt32
+int32_t
 *
 aOffset
 bool
@@ -30117,7 +30117,7 @@ range
 "
 )
 ;
-PRInt32
+int32_t
 startOffset
 =
 *
@@ -30173,7 +30173,7 @@ bool
 aWordSelectEatSpace
 bool
 aIsKeyboardSelect
-PRInt32
+int32_t
 *
 aOffset
 PeekWordState
@@ -30199,7 +30199,7 @@ range
 "
 )
 ;
-PRInt32
+int32_t
 startOffset
 =
 *
@@ -30439,8 +30439,8 @@ CheckVisibility
 (
 nsPresContext
 *
-PRInt32
-PRInt32
+int32_t
+int32_t
 bool
 bool
 *
@@ -30452,7 +30452,7 @@ return
 NS_ERROR_NOT_IMPLEMENTED
 ;
 }
-PRInt32
+int32_t
 nsFrame
 :
 :
@@ -30691,7 +30691,7 @@ nsIFrame
 *
 *
 aOutFrame
-PRInt32
+int32_t
 *
 aOutOffset
 bool
@@ -30762,7 +30762,7 @@ nsIFrame
 *
 blockFrame
 ;
-PRInt32
+int32_t
 thisLine
 =
 nsFrame
@@ -30985,10 +30985,10 @@ endif
 nsRect
 nonUsedRect
 ;
-PRInt32
+int32_t
 lineFrameCount
 ;
-PRUint32
+uint32_t
 lineFlags
 ;
 result
@@ -31139,7 +31139,7 @@ return
 NS_ERROR_FAILURE
 ;
 }
-PRUint32
+uint32_t
 flags
 =
 nsFrameIterator
@@ -31262,7 +31262,7 @@ if
 aVisual
 )
 {
-PRUint8
+uint8_t
 newLevel
 =
 NS_GET_EMBEDDING_LEVEL
@@ -31270,7 +31270,7 @@ NS_GET_EMBEDDING_LEVEL
 traversedFrame
 )
 ;
-PRUint8
+uint8_t
 newBaseLevel
 =
 NS_GET_BASE_LEVEL
@@ -31668,7 +31668,7 @@ VisualOverflow
 (
 )
 ;
-PRUint32
+uint32_t
 l
 =
 -
@@ -34482,14 +34482,14 @@ nsIFrame
 :
 IsFocusable
 (
-PRInt32
+int32_t
 *
 aTabIndex
 bool
 aWithMouse
 )
 {
-PRInt32
+int32_t
 tabIndex
 =
 -
@@ -34728,10 +34728,10 @@ false
 ;
 }
 static
-PRUint8
+uint8_t
 ConvertSVGDominantBaselineToVerticalAlign
 (
-PRUint8
+uint8_t
 aDominantBaseline
 )
 {
@@ -34792,7 +34792,7 @@ NS_STYLE_VERTICAL_ALIGN_BASELINE
 ;
 }
 }
-PRUint8
+uint8_t
 nsIFrame
 :
 :
@@ -34808,7 +34808,7 @@ mState
 NS_FRAME_IS_SVG_TEXT
 )
 {
-PRUint8
+uint8_t
 dominantBaseline
 ;
 for
@@ -34995,7 +34995,7 @@ item_end
 item
 )
 {
-PRUint32
+uint32_t
 status
 ;
 nsresult
@@ -35333,13 +35333,13 @@ firstFrame
 =
 nullptr
 ;
-PRInt32
+int32_t
 framesOnLine
 ;
 nsRect
 lineBounds
 ;
-PRUint32
+uint32_t
 lineFlags
 ;
 do
@@ -37237,7 +37237,7 @@ status
 "
 )
 ;
-PRUint32
+uint32_t
 layoutFlags
 =
 aState
@@ -37826,7 +37826,7 @@ SizeTo
 #
 ifdef
 DEBUG_REFLOW
-PRInt32
+int32_t
 gIndent2
 =
 0
@@ -37838,7 +37838,7 @@ nsAdaptorAddIndents
 {
 for
 (
-PRInt32
+int32_t
 i
 =
 0
@@ -39065,7 +39065,7 @@ GetNumber
 char
 *
 aBuf
-PRInt32
+int32_t
 &
 aNumber
 )
@@ -39099,7 +39099,7 @@ DisplayFrameTypeInfo
 nsIFrame
 *
 aFrame
-PRInt32
+int32_t
 aIndent
 )
 ;
@@ -39117,13 +39117,13 @@ mInited
 bool
 mActive
 ;
-PRInt32
+int32_t
 mCount
 ;
-PRInt32
+int32_t
 mAssert
 ;
-PRInt32
+int32_t
 mIndent
 ;
 bool
@@ -39275,7 +39275,7 @@ nsIAtom
 aFrameType
 )
 ;
-PRUint32
+uint32_t
 mLength
 ;
 DR_RulePart
@@ -39347,7 +39347,7 @@ DR_FrameTypeInfo
 (
 )
 {
-PRInt32
+int32_t
 numElements
 ;
 numElements
@@ -39360,7 +39360,7 @@ Length
 ;
 for
 (
-PRInt32
+int32_t
 i
 =
 numElements
@@ -39526,7 +39526,7 @@ mParent
 bool
 mDisplay
 ;
-PRUint32
+uint32_t
 mIndent
 ;
 }
@@ -39593,7 +39593,7 @@ GECKO_DISPLAY_REFLOW_ASSERT
 "
 )
 ;
-PRInt32
+int32_t
 num
 ;
 if
@@ -39781,7 +39781,7 @@ MOZ_COUNT_DTOR
 DR_State
 )
 ;
-PRInt32
+int32_t
 numElements
 i
 ;
@@ -39865,7 +39865,7 @@ GetNumber
 char
 *
 aBuf
-PRInt32
+int32_t
 &
 aNumber
 )
@@ -40127,7 +40127,7 @@ buf
 128
 ]
 ;
-PRInt32
+int32_t
 doDisplay
 ;
 DR_Rule
@@ -40301,7 +40301,7 @@ DR_Rule
 aRule
 )
 {
-PRInt32
+int32_t
 numRules
 =
 aRules
@@ -40312,7 +40312,7 @@ Length
 ;
 for
 (
-PRInt32
+int32_t
 ruleX
 =
 0
@@ -40556,7 +40556,7 @@ nsIAtom
 aFrameType
 )
 {
-PRInt32
+int32_t
 numEntries
 =
 mFrameTypeTable
@@ -40579,7 +40579,7 @@ FrameTypeTable
 ;
 for
 (
-PRInt32
+int32_t
 i
 =
 0
@@ -40644,7 +40644,7 @@ char
 aFrameName
 )
 {
-PRInt32
+int32_t
 numEntries
 =
 mFrameTypeTable
@@ -40667,7 +40667,7 @@ FrameTypeTable
 ;
 for
 (
-PRInt32
+int32_t
 i
 =
 0
@@ -41250,7 +41250,7 @@ DisplayFrameTypeInfo
 nsIFrame
 *
 aFrame
-PRInt32
+int32_t
 aIndent
 )
 {
@@ -41275,7 +41275,7 @@ frameTypeInfo
 {
 for
 (
-PRInt32
+int32_t
 i
 =
 0
@@ -41585,7 +41585,7 @@ error
 "
 )
 ;
-PRInt32
+int32_t
 numRules
 =
 info
@@ -41599,7 +41599,7 @@ Length
 ;
 for
 (
-PRInt32
+int32_t
 ruleX
 =
 0
@@ -41663,7 +41663,7 @@ if
 matchingRule
 )
 {
-PRInt32
+int32_t
 numWildRules
 =
 mWildRules
@@ -41674,7 +41674,7 @@ Length
 ;
 for
 (
-PRInt32
+int32_t
 ruleX
 =
 0
@@ -42144,7 +42144,7 @@ RemoveElement
 aNode
 )
 ;
-PRInt32
+int32_t
 numLeaves
 =
 mFrameTreeLeaves
@@ -42216,7 +42216,7 @@ CheckPixelError
 (
 nscoord
 aSize
-PRInt32
+int32_t
 aPixelToTwips
 )
 {
@@ -42576,7 +42576,7 @@ DR_state
 mDisplayPixelErrors
 )
 {
-PRInt32
+int32_t
 p2t
 =
 aPresContext
@@ -43535,7 +43535,7 @@ DR_state
 mDisplayPixelErrors
 )
 {
-PRInt32
+int32_t
 p2t
 =
 aPresContext

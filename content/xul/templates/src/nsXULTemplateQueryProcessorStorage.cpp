@@ -137,7 +137,7 @@ mStatement
 aStatement
 )
 {
-PRUint32
+uint32_t
 count
 ;
 nsresult
@@ -169,7 +169,7 @@ return
 }
 for
 (
-PRUint32
+uint32_t
 c
 =
 0
@@ -336,7 +336,7 @@ return
 NS_OK
 ;
 }
-PRInt32
+int32_t
 nsXULTemplateResultSetStorage
 :
 :
@@ -347,7 +347,7 @@ nsIAtom
 aColumnName
 )
 {
-PRInt32
+int32_t
 count
 =
 mColumnNames
@@ -358,7 +358,7 @@ Count
 ;
 for
 (
-PRInt32
+int32_t
 c
 =
 0
@@ -412,7 +412,7 @@ mStatement
 )
 return
 ;
-PRInt32
+int32_t
 count
 =
 mColumnNames
@@ -423,7 +423,7 @@ Count
 ;
 for
 (
-PRInt32
+int32_t
 c
 =
 0
@@ -456,7 +456,7 @@ variant
 "
 )
 ;
-PRInt32
+int32_t
 type
 ;
 mStatement
@@ -480,7 +480,7 @@ mStatement
 VALUE_TYPE_INTEGER
 )
 {
-PRInt64
+int64_t
 val
 =
 mStatement
@@ -649,7 +649,7 @@ return
 NS_OK
 ;
 }
-PRUint32
+uint32_t
 length
 ;
 nsresult
@@ -1127,7 +1127,7 @@ childNodes
 )
 )
 ;
-PRUint32
+uint32_t
 length
 ;
 childNodes
@@ -1207,7 +1207,7 @@ return
 rv
 ;
 }
-PRUint32
+uint32_t
 parameterCount
 =
 0
@@ -1270,7 +1270,7 @@ false
 value
 )
 ;
-PRUint32
+uint32_t
 index
 =
 parameterCount
@@ -1431,12 +1431,12 @@ string
 nullptr
 }
 ;
-PRInt32
+int32_t
 typeError
 =
 1
 ;
-PRInt32
+int32_t
 typeValue
 =
 child
@@ -1457,12 +1457,12 @@ rv
 =
 NS_ERROR_ILLEGAL_VALUE
 ;
-PRInt32
+int32_t
 valInt32
 =
 0
 ;
-PRInt64
+int64_t
 valInt64
 =
 0
@@ -1876,9 +1876,9 @@ aRight
 nsIAtom
 *
 aVar
-PRUint32
+uint32_t
 aSortHints
-PRInt32
+int32_t
 *
 aResult
 )
@@ -1977,7 +1977,7 @@ nsresult
 rv1
 rv2
 ;
-PRUint16
+uint16_t
 vtypeL
 vtypeR
 ;
@@ -2018,7 +2018,7 @@ nsIDataType
 VTYPE_INT64
 )
 {
-PRInt64
+int64_t
 leftValue
 rightValue
 ;

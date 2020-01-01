@@ -142,7 +142,7 @@ timer
 }
 else
 {
-PRUint32
+uint32_t
 delay
 =
 0
@@ -319,7 +319,7 @@ aPrintEngine
 nsIDocumentViewerPrint
 *
 aDocViewerPrint
-PRUint32
+uint32_t
 aDelay
 )
 {

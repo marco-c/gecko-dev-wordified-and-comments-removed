@@ -341,7 +341,7 @@ Click
 NS_IMETHOD
 GetTabIndex
 (
-PRInt32
+int32_t
 *
 aTabIndex
 )
@@ -349,7 +349,7 @@ aTabIndex
 NS_IMETHOD
 SetTabIndex
 (
-PRInt32
+int32_t
 aTabIndex
 )
 ;
@@ -425,7 +425,7 @@ aInnerHTML
 NS_DECL_NSIDOMHTMLBUTTONELEMENT
 NS_IMETHOD_
 (
-PRUint32
+uint32_t
 )
 GetType
 (
@@ -472,7 +472,7 @@ virtual
 nsresult
 BeforeSetAttr
 (
-PRInt32
+int32_t
 aNameSpaceID
 nsIAtom
 *
@@ -488,7 +488,7 @@ aNotify
 nsresult
 AfterSetAttr
 (
-PRInt32
+int32_t
 aNamespaceID
 nsIAtom
 *
@@ -510,7 +510,7 @@ aWithMouse
 bool
 *
 aIsFocusable
-PRInt32
+int32_t
 *
 aTabIndex
 )
@@ -519,7 +519,7 @@ virtual
 bool
 ParseAttribute
 (
-PRInt32
+int32_t
 aNamespaceID
 nsIAtom
 *
@@ -622,7 +622,7 @@ this
 }
 protected
 :
-PRUint8
+uint8_t
 mType
 ;
 bool
@@ -857,7 +857,7 @@ aWithMouse
 bool
 *
 aIsFocusable
-PRInt32
+int32_t
 *
 aTabIndex
 )
@@ -914,7 +914,7 @@ nsHTMLButtonElement
 :
 ParseAttribute
 (
-PRInt32
+int32_t
 aNamespaceID
 nsIAtom
 *
@@ -2200,7 +2200,7 @@ nsHTMLButtonElement
 :
 BeforeSetAttr
 (
-PRInt32
+int32_t
 aNameSpaceID
 nsIAtom
 *
@@ -2257,7 +2257,7 @@ nsHTMLButtonElement
 :
 AfterSetAttr
 (
-PRInt32
+int32_t
 aNameSpaceID
 nsIAtom
 *

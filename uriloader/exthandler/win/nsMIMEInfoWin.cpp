@@ -1379,7 +1379,7 @@ rv
 return
 false
 ;
-PRUint32
+uint32_t
 value
 ;
 if
@@ -1698,7 +1698,7 @@ rv
 return
 false
 ;
-PRUint32
+uint32_t
 value
 ;
 rv
@@ -1872,7 +1872,7 @@ appFilesystemCommand
 )
 )
 {
-PRUint32
+uint32_t
 bufLength
 =
 :
@@ -1957,7 +1957,7 @@ exe
 "
 )
 ;
-PRInt32
+int32_t
 index
 =
 appFilesystemCommand
@@ -2274,7 +2274,7 @@ MAX_PATH
 1
 ]
 ;
-PRUint32
+uint32_t
 len
 =
 GetModuleFileNameW
@@ -2297,7 +2297,7 @@ len
 0
 )
 {
-PRUint32
+uint32_t
 index
 =
 lower
@@ -2380,7 +2380,7 @@ tmp
 ;
 for
 (
-PRUint32
+uint32_t
 i
 =
 0
@@ -2854,7 +2854,7 @@ rv
 )
 )
 {
-PRUint32
+uint32_t
 count
 =
 0
@@ -2881,7 +2881,7 @@ count
 {
 for
 (
-PRUint32
+uint32_t
 index
 =
 0
@@ -2994,7 +2994,7 @@ rv
 )
 )
 {
-PRUint32
+uint32_t
 count
 =
 0
@@ -3021,7 +3021,7 @@ count
 {
 for
 (
-PRUint32
+uint32_t
 index
 =
 0
@@ -3161,7 +3161,7 @@ rv
 )
 )
 {
-PRUint32
+uint32_t
 count
 =
 0
@@ -3188,7 +3188,7 @@ count
 {
 for
 (
-PRUint32
+uint32_t
 index
 =
 0
@@ -3349,7 +3349,7 @@ rv
 )
 )
 {
-PRUint32
+uint32_t
 count
 =
 0
@@ -3376,7 +3376,7 @@ count
 {
 for
 (
-PRUint32
+uint32_t
 index
 =
 0
@@ -3565,7 +3565,7 @@ rv
 )
 )
 {
-PRUint32
+uint32_t
 count
 =
 0
@@ -3592,7 +3592,7 @@ count
 {
 for
 (
-PRUint32
+uint32_t
 index
 =
 0
@@ -3698,7 +3698,7 @@ rv
 )
 )
 {
-PRUint32
+uint32_t
 count
 =
 0
@@ -3725,7 +3725,7 @@ count
 {
 for
 (
-PRUint32
+uint32_t
 index
 =
 0
@@ -3837,7 +3837,7 @@ rv
 )
 )
 {
-PRUint32
+uint32_t
 count
 =
 0
@@ -3864,7 +3864,7 @@ count
 {
 for
 (
-PRUint32
+uint32_t
 index
 =
 0

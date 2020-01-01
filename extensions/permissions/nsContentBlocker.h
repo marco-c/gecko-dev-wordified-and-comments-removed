@@ -103,7 +103,7 @@ aCurrentURI
 nsIURI
 *
 aFirstURI
-PRInt32
+int32_t
 aContentType
 bool
 *
@@ -126,7 +126,7 @@ nsIPrefBranch
 mPrefBranchInternal
 ;
 static
-PRUint8
+uint8_t
 mBehaviorPref
 [
 ]

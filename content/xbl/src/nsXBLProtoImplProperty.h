@@ -119,14 +119,14 @@ aSetter
 void
 SetGetterLineNumber
 (
-PRUint32
+uint32_t
 aLineNumber
 )
 ;
 void
 SetSetterLineNumber
 (
-PRUint32
+uint32_t
 aLineNumber
 )
 ;

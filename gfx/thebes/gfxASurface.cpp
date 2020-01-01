@@ -1212,7 +1212,7 @@ const
 gfxIntSize
 &
 sz
-PRInt32
+int32_t
 limit
 )
 {
@@ -1331,7 +1331,7 @@ false
 endif
 CheckedInt
 <
-PRInt32
+int32_t
 >
 tmp
 =
@@ -1412,7 +1412,7 @@ return
 true
 ;
 }
-PRInt32
+int32_t
 gfxASurface
 :
 :
@@ -1420,7 +1420,7 @@ FormatStrideForWidth
 (
 gfxImageFormat
 format
-PRInt32
+int32_t
 width
 )
 {
@@ -1643,7 +1643,7 @@ return
 MEMORY_IN_PROCESS_HEAP
 ;
 }
-PRInt32
+int32_t
 gfxASurface
 :
 :
@@ -2363,13 +2363,13 @@ ifdef
 CAIRO_HAS_D2D_SURFACE
 PR_STATIC_ASSERT
 (
-PRUint32
+uint32_t
 (
 CAIRO_SURFACE_TYPE_D2D
 )
 =
 =
-PRUint32
+uint32_t
 (
 gfxASurface
 :
@@ -2382,13 +2382,13 @@ SurfaceTypeD2D
 endif
 PR_STATIC_ASSERT
 (
-PRUint32
+uint32_t
 (
 CAIRO_SURFACE_TYPE_SKIA
 )
 =
 =
-PRUint32
+uint32_t
 (
 gfxASurface
 :
@@ -2398,7 +2398,7 @@ SurfaceTypeSkia
 )
 ;
 static
-PRInt64
+int64_t
 gSurfaceMemoryUsed
 [
 gfxASurface
@@ -2484,7 +2484,7 @@ i
 +
 )
 {
-PRInt64
+int64_t
 amount
 =
 gSurfaceMemoryUsed
@@ -2584,7 +2584,7 @@ NS_OK
 NS_IMETHOD
 GetExplicitNonHeap
 (
-PRInt64
+int64_t
 *
 n
 )
@@ -2616,7 +2616,7 @@ gfxASurface
 :
 gfxSurfaceType
 aType
-PRInt32
+int32_t
 aBytes
 )
 {
@@ -2687,7 +2687,7 @@ gfxASurface
 :
 RecordMemoryUsed
 (
-PRInt32
+int32_t
 aBytes
 )
 {
@@ -3091,7 +3091,7 @@ if
 encoder
 )
 {
-PRInt32
+int32_t
 w
 =
 NS_MIN
@@ -3102,7 +3102,7 @@ width
 8
 )
 ;
-PRInt32
+int32_t
 h
 =
 NS_MIN
@@ -3137,7 +3137,7 @@ h
 ;
 for
 (
-PRInt32
+int32_t
 y
 =
 0
@@ -3153,7 +3153,7 @@ y
 {
 for
 (
-PRInt32
+int32_t
 x
 =
 0
@@ -3175,7 +3175,7 @@ x
 "
 reinterpret_cast
 <
-PRUint32
+uint32_t
 *
 >
 (
@@ -3286,7 +3286,7 @@ imgStream
 )
 return
 ;
-PRUint64
+uint64_t
 bufSize64
 ;
 rv
@@ -3319,11 +3319,11 @@ PR_UINT32_MAX
 )
 return
 ;
-PRUint32
+uint32_t
 bufSize
 =
 (
-PRUint32
+uint32_t
 )
 bufSize64
 ;
@@ -3332,7 +3332,7 @@ bufSize
 =
 16
 ;
-PRUint32
+uint32_t
 imgSize
 =
 0
@@ -3357,7 +3357,7 @@ imgData
 )
 return
 ;
-PRUint32
+uint32_t
 numReadThisTime
 =
 0

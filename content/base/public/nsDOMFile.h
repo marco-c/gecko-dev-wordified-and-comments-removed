@@ -230,9 +230,9 @@ nsIDOMBlob
 >
 CreateSlice
 (
-PRUint64
+uint64_t
 aStart
-PRUint64
+uint64_t
 aLength
 const
 nsAString
@@ -276,7 +276,7 @@ const
 nsAString
 &
 aContentType
-PRUint64
+uint64_t
 aLength
 )
 {
@@ -337,7 +337,7 @@ const
 nsAString
 &
 aContentType
-PRUint64
+uint64_t
 aLength
 )
 :
@@ -380,7 +380,7 @@ const
 nsAString
 &
 aContentType
-PRUint64
+uint64_t
 aLength
 )
 :
@@ -419,9 +419,9 @@ const
 nsAString
 &
 aContentType
-PRUint64
+uint64_t
 aStart
-PRUint64
+uint64_t
 aLength
 )
 :
@@ -592,10 +592,10 @@ mContentType
 nsString
 mName
 ;
-PRUint64
+uint64_t
 mStart
 ;
-PRUint64
+uint64_t
 mLength
 ;
 nsTArray
@@ -627,7 +627,7 @@ const
 nsAString
 &
 aContentType
-PRUint64
+uint64_t
 aLength
 )
 :
@@ -645,7 +645,7 @@ const
 nsAString
 &
 aContentType
-PRUint64
+uint64_t
 aLength
 )
 :
@@ -662,9 +662,9 @@ const
 nsAString
 &
 aContentType
-PRUint64
+uint64_t
 aStart
-PRUint64
+uint64_t
 aLength
 )
 :
@@ -697,7 +697,7 @@ const
 nsAString
 &
 aContentType
-PRUint64
+uint64_t
 aLength
 )
 :
@@ -715,7 +715,7 @@ const
 nsAString
 &
 aContentType
-PRUint64
+uint64_t
 aLength
 )
 :
@@ -732,9 +732,9 @@ const
 nsAString
 &
 aContentType
-PRUint64
+uint64_t
 aStart
-PRUint64
+uint64_t
 aLength
 )
 :
@@ -830,7 +830,7 @@ const
 nsAString
 &
 aContentType
-PRUint64
+uint64_t
 aLength
 nsIFile
 *
@@ -974,7 +974,7 @@ const
 nsAString
 &
 aContentType
-PRUint64
+uint64_t
 aLength
 nsIFile
 *
@@ -1027,7 +1027,7 @@ const
 nsAString
 &
 aContentType
-PRUint64
+uint64_t
 aLength
 nsIFile
 *
@@ -1124,7 +1124,7 @@ aCx
 JSObject
 *
 aObj
-PRUint32
+uint32_t
 aArgc
 jsval
 *
@@ -1134,7 +1134,7 @@ aArgv
 NS_IMETHOD
 GetSize
 (
-PRUint64
+uint64_t
 *
 aSize
 )
@@ -1195,9 +1195,9 @@ const
 nsDOMFileFile
 *
 aOther
-PRUint64
+uint64_t
 aStart
-PRUint64
+uint64_t
 aLength
 const
 nsAString
@@ -1342,9 +1342,9 @@ nsIDOMBlob
 >
 CreateSlice
 (
-PRUint64
+uint64_t
 aStart
-PRUint64
+uint64_t
 aLength
 const
 nsAString
@@ -1407,7 +1407,7 @@ nsDOMMemoryFile
 void
 *
 aMemoryBuffer
-PRUint64
+uint64_t
 aLength
 const
 nsAString
@@ -1456,7 +1456,7 @@ nsDOMMemoryFile
 void
 *
 aMemoryBuffer
-PRUint64
+uint64_t
 aLength
 const
 nsAString
@@ -1511,9 +1511,9 @@ const
 nsDOMMemoryFile
 *
 aOther
-PRUint64
+uint64_t
 aStart
-PRUint64
+uint64_t
 aLength
 const
 nsAString
@@ -1571,9 +1571,9 @@ nsIDOMBlob
 >
 CreateSlice
 (
-PRUint64
+uint64_t
 aStart
-PRUint64
+uint64_t
 aLength
 const
 nsAString
@@ -1722,7 +1722,7 @@ aFile
 bool
 Remove
 (
-PRUint32
+uint32_t
 aIndex
 )
 {

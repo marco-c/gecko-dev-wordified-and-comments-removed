@@ -136,7 +136,7 @@ void
 *
 mem
 ;
-PRInt32
+int32_t
 len
 =
 (
@@ -222,7 +222,7 @@ void
 *
 mem
 ;
-PRInt32
+int32_t
 len
 =
 (
@@ -381,7 +381,7 @@ true
 PRUnichar
 backup_char
 ;
-PRUint32
+uint32_t
 minLength
 =
 mMinLength
@@ -481,11 +481,11 @@ const
 PRUnichar
 *
 aFromSegment
-PRUint32
+uint32_t
 aToOffset
-PRUint32
+uint32_t
 aCount
-PRUint32
+uint32_t
 *
 aWriteCount
 )
@@ -497,7 +497,7 @@ const
 PRUnichar
 *
 aBuffer
-PRUint32
+uint32_t
 aBufferLength
 )
 ;
@@ -598,7 +598,7 @@ mKey
 nsAutoString
 mValue
 ;
-PRUint32
+uint32_t
 mUnicodeValuesRead
 ;
 PRUnichar
@@ -610,7 +610,7 @@ mHaveMultiLine
 bool
 mMultiLineCanSkipN
 ;
-PRUint32
+uint32_t
 mMinLength
 ;
 EParserState
@@ -1269,11 +1269,11 @@ const
 PRUnichar
 *
 aFromSegment
-PRUint32
+uint32_t
 aToOffset
-PRUint32
+uint32_t
 aCount
-PRUint32
+uint32_t
 *
 aWriteCount
 )
@@ -1319,7 +1319,7 @@ const
 PRUnichar
 *
 aBuffer
-PRUint32
+uint32_t
 aBufferLength
 )
 {
@@ -1889,7 +1889,7 @@ parser
 mSubclass
 )
 ;
-PRUint32
+uint32_t
 nProcessed
 ;
 while
@@ -2220,7 +2220,7 @@ table
 PLDHashEntryHdr
 *
 hdr
-PRUint32
+uint32_t
 i
 void
 *
@@ -2349,7 +2349,7 @@ entryCount
 return
 NS_ERROR_OUT_OF_MEMORY
 ;
-PRUint32
+uint32_t
 n
 =
 PL_DHashTableEnumerate
@@ -2499,7 +2499,7 @@ nsPersistentProperties
 :
 GetKeys
 (
-PRUint32
+uint32_t
 *
 count
 char

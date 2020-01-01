@@ -152,7 +152,7 @@ const
 char
 *
 name
-PRInt16
+int16_t
 *
 _retval
 )
@@ -273,7 +273,7 @@ const
 char
 *
 name
-PRInt32
+int32_t
 *
 _retval
 )
@@ -688,7 +688,7 @@ const
 char
 *
 name
-PRInt32
+int32_t
 value
 )
 {
@@ -1023,7 +1023,7 @@ nsCommandParams
 :
 GetIndexedEntry
 (
-PRInt32
+int32_t
 index
 )
 {
@@ -1054,7 +1054,7 @@ PL_DHASH_TABLE_SIZE
 mValuesHash
 )
 ;
-PRUint32
+uint32_t
 entryCount
 =
 0
@@ -1074,7 +1074,7 @@ continue
 if
 (
 (
-PRInt32
+int32_t
 )
 entryCount
 =
@@ -1102,7 +1102,7 @@ return
 nullptr
 ;
 }
-PRUint32
+uint32_t
 nsCommandParams
 :
 :
@@ -1137,7 +1137,7 @@ PL_DHASH_TABLE_SIZE
 mValuesHash
 )
 ;
-PRUint32
+uint32_t
 entryCount
 =
 0
@@ -1179,7 +1179,7 @@ const
 char
 *
 name
-PRUint8
+uint8_t
 entryType
 HashEntry
 *

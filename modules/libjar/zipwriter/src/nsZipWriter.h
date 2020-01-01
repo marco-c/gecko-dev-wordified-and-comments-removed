@@ -127,7 +127,7 @@ nsZipQueueItem
 {
 public
 :
-PRUint32
+uint32_t
 mOperation
 ;
 nsCString
@@ -154,10 +154,10 @@ mStream
 PRTime
 mModTime
 ;
-PRInt32
+int32_t
 mCompression
 ;
-PRUint32
+uint32_t
 mPermissions
 ;
 }
@@ -197,7 +197,7 @@ nsZipWriter
 (
 )
 ;
-PRUint32
+uint32_t
 mCDSOffset
 ;
 bool
@@ -245,7 +245,7 @@ mQueue
 nsDataHashtable
 <
 nsCStringHashKey
-PRInt32
+int32_t
 >
 mEntryHash
 ;
@@ -279,7 +279,7 @@ nsACString
 aZipEntry
 PRTime
 aModTime
-PRUint32
+uint32_t
 aPermissions
 )
 ;
@@ -297,7 +297,7 @@ complete
 nsresult
 BeginProcessingRemoval
 (
-PRInt32
+int32_t
 aPos
 )
 ;
@@ -310,14 +310,14 @@ nsACString
 aZipEntry
 PRTime
 aModTime
-PRInt32
+int32_t
 aCompression
 nsIInputStream
 *
 aStream
 bool
 aQueue
-PRUint32
+uint32_t
 aPermissions
 )
 ;

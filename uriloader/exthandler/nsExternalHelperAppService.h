@@ -460,7 +460,7 @@ const
 nsAString
 &
 aFilename
-PRUint32
+uint32_t
 aReason
 bool
 aForceSave
@@ -542,7 +542,7 @@ mProgressListenerInitialized
 bool
 mIsFileChannel
 ;
-PRUint32
+uint32_t
 mReason
 ;
 bool
@@ -551,10 +551,10 @@ mTempFileIsExecutable
 PRTime
 mTimeDownloadStarted
 ;
-PRInt64
+int64_t
 mContentLength
 ;
-PRInt64
+int64_t
 mProgress
 ;
 nsCOMPtr
@@ -563,7 +563,7 @@ nsIFile
 >
 mFinalFileDestination
 ;
-PRUint32
+uint32_t
 mBufferSize
 ;
 char

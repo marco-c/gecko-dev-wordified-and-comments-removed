@@ -792,7 +792,7 @@ aCmdLineString
 nsIFile
 *
 aWorkingDir
-PRUint32
+uint32_t
 aState
 )
 ;
@@ -3069,7 +3069,7 @@ nsAString
 aString
 )
 {
-PRInt32
+int32_t
 offset
 =
 -
@@ -4255,16 +4255,16 @@ result
 ;
 }
 static
-PRInt32
+int32_t
 advanceToEndOfQuotedArg
 (
 const
 WCHAR
 *
 p
-PRInt32
+int32_t
 offset
-PRInt32
+int32_t
 len
 )
 {
@@ -4356,7 +4356,7 @@ temp
 args
 )
 ;
-PRInt32
+int32_t
 offset
 =
 -
@@ -4409,7 +4409,7 @@ return
 ;
 }
 }
-PRInt32
+int32_t
 end
 =
 advanceToEndOfQuotedArg
@@ -4663,7 +4663,7 @@ aCmdLineString
 nsIFile
 *
 aWorkingDir
-PRUint32
+uint32_t
 aState
 )
 {

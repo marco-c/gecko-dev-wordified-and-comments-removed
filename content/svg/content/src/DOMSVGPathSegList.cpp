@@ -313,7 +313,7 @@ DOMSVGPathSegList
 :
 GetItemAt
 (
-PRUint32
+uint32_t
 aIndex
 )
 {
@@ -371,7 +371,7 @@ SVGPathData
 aNewValue
 )
 {
-PRUint32
+uint32_t
 length
 =
 mItems
@@ -380,12 +380,12 @@ Length
 (
 )
 ;
-PRUint32
+uint32_t
 index
 =
 0
 ;
-PRUint32
+uint32_t
 dataLength
 =
 aNewValue
@@ -396,12 +396,12 @@ Length
 (
 )
 ;
-PRUint32
+uint32_t
 dataIndex
 =
 0
 ;
-PRUint32
+uint32_t
 newSegType
 ;
 nsRefPtr
@@ -559,7 +559,7 @@ index
 length
 )
 {
-PRUint32
+uint32_t
 newLength
 =
 index
@@ -832,7 +832,7 @@ DOMSVGPathSegList
 :
 GetNumberOfItems
 (
-PRUint32
+uint32_t
 *
 aNumberOfItems
 )
@@ -1083,7 +1083,7 @@ DOMSVGPathSegList
 :
 GetItem
 (
-PRUint32
+uint32_t
 aIndex
 nsIDOMSVGPathSeg
 *
@@ -1129,7 +1129,7 @@ InsertItemBefore
 nsIDOMSVGPathSeg
 *
 aNewItem
-PRUint32
+uint32_t
 aIndex
 nsIDOMSVGPathSeg
 *
@@ -1153,7 +1153,7 @@ return
 NS_ERROR_DOM_NO_MODIFICATION_ALLOWED_ERR
 ;
 }
-PRUint32
+uint32_t
 internalIndex
 ;
 if
@@ -1254,7 +1254,7 @@ Clone
 )
 ;
 }
-PRUint32
+uint32_t
 argCount
 =
 SVGPathSegUtils
@@ -1451,7 +1451,7 @@ ReplaceItem
 nsIDOMSVGPathSeg
 *
 aNewItem
-PRUint32
+uint32_t
 aIndex
 nsIDOMSVGPathSeg
 *
@@ -1561,7 +1561,7 @@ RemovingFromList
 )
 ;
 }
-PRUint32
+uint32_t
 internalIndex
 =
 mItems
@@ -1571,7 +1571,7 @@ aIndex
 .
 mInternalDataIndex
 ;
-PRUint32
+uint32_t
 oldType
 =
 SVGPathSegUtils
@@ -1589,7 +1589,7 @@ internalIndex
 ]
 )
 ;
-PRUint32
+uint32_t
 oldArgCount
 =
 SVGPathSegUtils
@@ -1600,7 +1600,7 @@ ArgCountForType
 oldType
 )
 ;
-PRUint32
+uint32_t
 newArgCount
 =
 SVGPathSegUtils
@@ -1684,7 +1684,7 @@ IsAnimValList
 )
 )
 ;
-PRUint32
+uint32_t
 delta
 =
 newArgCount
@@ -1701,7 +1701,7 @@ delta
 {
 for
 (
-PRUint32
+uint32_t
 i
 =
 aIndex
@@ -1780,7 +1780,7 @@ DOMSVGPathSegList
 :
 RemoveItem
 (
-PRUint32
+uint32_t
 aIndex
 nsIDOMSVGPathSeg
 *
@@ -1856,7 +1856,7 @@ aIndex
 )
 )
 ;
-PRUint32
+uint32_t
 internalIndex
 =
 mItems
@@ -1866,7 +1866,7 @@ aIndex
 .
 mInternalDataIndex
 ;
-PRUint32
+uint32_t
 segType
 =
 SVGPathSegUtils
@@ -1884,7 +1884,7 @@ internalIndex
 ]
 )
 ;
-PRUint32
+uint32_t
 argCount
 =
 SVGPathSegUtils
@@ -1996,7 +1996,7 @@ DOMSVGPathSegList
 :
 GetLength
 (
-PRUint32
+uint32_t
 *
 aNumberOfItems
 )
@@ -2014,7 +2014,7 @@ DOMSVGPathSegList
 :
 EnsureItemAt
 (
-PRUint32
+uint32_t
 aIndex
 )
 {
@@ -2052,11 +2052,11 @@ DOMSVGPathSegList
 :
 MaybeInsertNullInAnimValListAt
 (
-PRUint32
+uint32_t
 aIndex
-PRUint32
+uint32_t
 aInternalIndex
-PRUint32
+uint32_t
 aArgCountForItem
 )
 {
@@ -2171,9 +2171,9 @@ DOMSVGPathSegList
 :
 MaybeRemoveItemFromAnimValListAt
 (
-PRUint32
+uint32_t
 aIndex
-PRUint32
+uint32_t
 aArgCountForItem
 )
 {
@@ -2311,13 +2311,13 @@ DOMSVGPathSegList
 :
 UpdateListIndicesFromIndex
 (
-PRUint32
+uint32_t
 aStartingIndex
-PRInt32
+int32_t
 aInternalDataIndexDelta
 )
 {
-PRUint32
+uint32_t
 length
 =
 mItems
@@ -2328,7 +2328,7 @@ Length
 ;
 for
 (
-PRUint32
+uint32_t
 i
 =
 aStartingIndex

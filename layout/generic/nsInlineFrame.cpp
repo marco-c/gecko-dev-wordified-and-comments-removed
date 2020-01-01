@@ -600,7 +600,7 @@ PeekOffsetCharacter
 (
 bool
 aForward
-PRInt32
+int32_t
 *
 aOffset
 bool
@@ -625,7 +625,7 @@ range
 "
 )
 ;
-PRInt32
+int32_t
 startOffset
 =
 *
@@ -803,7 +803,7 @@ nsSize
 aBorder
 nsSize
 aPadding
-PRUint32
+uint32_t
 aFlags
 )
 {

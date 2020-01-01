@@ -130,7 +130,7 @@ ManualShutdown
 ;
 LazyIdleThread
 (
-PRUint32
+uint32_t
 aIdleTimeoutMS
 const
 nsCSubstring
@@ -257,13 +257,13 @@ nsIRunnable
 mQueuedRunnables
 ;
 const
-PRUint32
+uint32_t
 mIdleTimeoutMS
 ;
-PRUint32
+uint32_t
 mPendingEventCount
 ;
-PRUint32
+uint32_t
 mIdleNotificationCount
 ;
 ShutdownMethod

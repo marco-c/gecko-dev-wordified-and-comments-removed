@@ -145,7 +145,7 @@ SVGAnimatedLengthList
 :
 ClearBaseValue
 (
-PRUint32
+uint32_t
 aAttrEnum
 )
 {
@@ -197,7 +197,7 @@ aNewAnimValue
 nsSVGElement
 *
 aElement
-PRUint32
+uint32_t
 aAttrEnum
 )
 {
@@ -291,7 +291,7 @@ ClearAnimValue
 nsSVGElement
 *
 aElement
-PRUint32
+uint32_t
 aAttrEnum
 )
 {
@@ -344,9 +344,9 @@ ToSMILAttr
 nsSVGElement
 *
 aSVGElement
-PRUint8
+uint8_t
 aAttrEnum
-PRUint8
+uint8_t
 aAxis
 bool
 aCanZeroPadList
@@ -458,7 +458,7 @@ false
 ;
 for
 (
-PRUint32
+uint32_t
 i
 =
 0
@@ -477,7 +477,7 @@ Length
 i
 )
 {
-PRUint8
+uint8_t
 unit
 =
 (

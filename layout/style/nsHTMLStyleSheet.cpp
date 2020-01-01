@@ -250,7 +250,7 @@ List
 FILE
 *
 out
-PRInt32
+int32_t
 aIndent
 )
 const
@@ -281,7 +281,7 @@ List
 FILE
 *
 out
-PRInt32
+int32_t
 aIndent
 )
 const
@@ -1812,7 +1812,7 @@ uninitialized
 #
 ifdef
 DEBUG
-PRUint32
+uint32_t
 entryCount
 =
 mMappedAttrTable
@@ -1858,14 +1858,14 @@ List
 FILE
 *
 out
-PRInt32
+int32_t
 aIndent
 )
 const
 {
 for
 (
-PRInt32
+int32_t
 index
 =
 aIndent

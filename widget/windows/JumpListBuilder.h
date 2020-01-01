@@ -133,7 +133,7 @@ ICustomDestinationList
 >
 mJumpListMgr
 ;
-PRUint32
+uint32_t
 mMaxItems
 ;
 bool

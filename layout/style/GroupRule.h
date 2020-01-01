@@ -94,7 +94,7 @@ FILE
 out
 =
 stdout
-PRInt32
+int32_t
 aIndent
 =
 0
@@ -113,7 +113,7 @@ Rule
 aRule
 )
 ;
-PRInt32
+int32_t
 StyleRuleCount
 (
 )
@@ -131,7 +131,7 @@ Rule
 *
 GetStyleRuleAt
 (
-PRInt32
+int32_t
 aIndex
 )
 const
@@ -160,14 +160,14 @@ const
 nsresult
 DeleteStyleRuleAt
 (
-PRUint32
+uint32_t
 aIndex
 )
 ;
 nsresult
 InsertStyleRulesAt
 (
-PRUint32
+uint32_t
 aIndex
 nsCOMArray
 <
@@ -248,9 +248,9 @@ const
 nsAString
 &
 aRule
-PRUint32
+uint32_t
 aIndex
-PRUint32
+uint32_t
 *
 _retval
 )
@@ -258,7 +258,7 @@ _retval
 nsresult
 DeleteRule
 (
-PRUint32
+uint32_t
 aIndex
 )
 ;

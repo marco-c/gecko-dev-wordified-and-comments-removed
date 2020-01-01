@@ -271,7 +271,7 @@ count
 ;
 if
 (
-PRUint32
+uint32_t
 (
 del_type
 )
@@ -656,7 +656,7 @@ count
 ;
 if
 (
-PRUint32
+uint32_t
 (
 step
 )
@@ -1012,7 +1012,7 @@ void
 aCallbackData
 )
 {
-PRUint32
+uint32_t
 keyCode
 ;
 if
@@ -1106,7 +1106,7 @@ false
 }
 for
 (
-PRUint32
+uint32_t
 i
 =
 0
@@ -1127,7 +1127,7 @@ Length
 i
 )
 {
-PRUint32
+uint32_t
 ch
 =
 nativeKeyEvent
@@ -1211,7 +1211,7 @@ aCallback
 void
 *
 aCallbackData
-PRUint32
+uint32_t
 aKeyCode
 )
 {

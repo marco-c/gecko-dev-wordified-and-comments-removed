@@ -166,7 +166,7 @@ NS_DECL_ISUPPORTS
 NS_IMETHODIMP
 GetInterfaces
 (
-PRUint32
+uint32_t
 *
 _count
 nsIID
@@ -190,7 +190,7 @@ _array
 NS_IMETHODIMP
 GetHelperForLanguage
 (
-PRUint32
+uint32_t
 aLanguage
 nsISupports
 *
@@ -289,7 +289,7 @@ NS_OK
 NS_IMETHODIMP
 GetImplementationLanguage
 (
-PRUint32
+uint32_t
 *
 _language
 )
@@ -309,7 +309,7 @@ NS_OK
 NS_IMETHODIMP
 GetFlags
 (
-PRUint32
+uint32_t
 *
 _flags
 )
@@ -1435,7 +1435,7 @@ AsyncStatement
 :
 GetState
 (
-PRInt32
+int32_t
 *
 _state
 )

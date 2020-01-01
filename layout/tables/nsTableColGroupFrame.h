@@ -205,7 +205,7 @@ const
 nsresult
 AddColsToTable
 (
-PRInt32
+int32_t
 aFirstColIndex
 bool
 aResetSubsequentColIndices
@@ -233,14 +233,14 @@ const
 void
 Dump
 (
-PRInt32
+int32_t
 aIndent
 )
 ;
 #
 endif
 virtual
-PRInt32
+int32_t
 GetColCount
 (
 )
@@ -261,7 +261,7 @@ nsIFrame
 aChildFrame
 )
 ;
-PRInt32
+int32_t
 GetStartColumnIndex
 (
 )
@@ -269,11 +269,11 @@ GetStartColumnIndex
 void
 SetStartColumnIndex
 (
-PRInt32
+int32_t
 aIndex
 )
 ;
-PRInt32
+int32_t
 GetSpan
 (
 )
@@ -291,7 +291,7 @@ ResetColIndices
 nsIFrame
 *
 aFirstColGroup
-PRInt32
+int32_t
 aFirstColIndex
 nsIFrame
 *
@@ -311,7 +311,7 @@ aBorder
 void
 SetContinuousBCBorderWidth
 (
-PRUint8
+uint8_t
 aForSide
 BCPixelSize
 aPixelValue
@@ -329,7 +329,7 @@ aContext
 void
 InsertColsReflow
 (
-PRInt32
+int32_t
 aColIndex
 const
 nsFrameList
@@ -347,10 +347,10 @@ GetSkipSides
 )
 const
 ;
-PRInt32
+int32_t
 mColCount
 ;
-PRInt32
+int32_t
 mStartColIndex
 ;
 BCPixelSize
@@ -392,7 +392,7 @@ eColGroupContent
 ;
 }
 inline
-PRInt32
+int32_t
 nsTableColGroupFrame
 :
 :
@@ -411,7 +411,7 @@ nsTableColGroupFrame
 :
 SetStartColumnIndex
 (
-PRInt32
+int32_t
 aIndex
 )
 {
@@ -421,7 +421,7 @@ aIndex
 ;
 }
 inline
-PRInt32
+int32_t
 nsTableColGroupFrame
 :
 :

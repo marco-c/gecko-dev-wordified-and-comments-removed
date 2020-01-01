@@ -167,7 +167,7 @@ defined
 ANGLE_USE_NSPR
 )
 typedef
-PRUintn
+unsigned
 OS_TLSIndex
 ;
 #

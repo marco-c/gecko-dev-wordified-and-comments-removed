@@ -470,7 +470,7 @@ aLoadId
 nsIPrincipal
 *
 aLoadingPrincipal
-PRInt32
+int32_t
 aCORSMode
 )
 {
@@ -1449,7 +1449,7 @@ return
 false
 ;
 }
-PRInt32
+int32_t
 imgRequest
 :
 :
@@ -1458,7 +1458,7 @@ Priority
 )
 const
 {
-PRInt32
+int32_t
 priority
 =
 nsISupportsPriority
@@ -1503,7 +1503,7 @@ AdjustPriority
 imgRequestProxy
 *
 proxy
-PRInt32
+int32_t
 delta
 )
 {
@@ -1721,7 +1721,7 @@ if
 entryDesc
 )
 {
-PRUint32
+uint32_t
 expiration
 ;
 entryDesc
@@ -2437,7 +2437,7 @@ OnStartFrame
 imgIRequest
 *
 request
-PRUint32
+uint32_t
 frame
 )
 {
@@ -2635,7 +2635,7 @@ OnStopFrame
 imgIRequest
 *
 request
-PRUint32
+uint32_t
 frame
 )
 {
@@ -3994,11 +3994,11 @@ const
 char
 *
 fromRawSegment
-PRUint32
+uint32_t
 toOffset
-PRUint32
+uint32_t
 count
-PRUint32
+uint32_t
 *
 writeCount
 )
@@ -4018,9 +4018,9 @@ ctxt
 nsIInputStream
 *
 inStr
-PRUint32
+uint32_t
 sourceOffset
-PRUint32
+uint32_t
 count
 )
 {
@@ -4058,7 +4058,7 @@ request
 nsresult
 rv
 ;
-PRUint16
+uint16_t
 imageType
 ;
 if
@@ -4103,7 +4103,7 @@ mGotData
 =
 true
 ;
-PRUint32
+uint32_t
 out
 ;
 inStr
@@ -4576,7 +4576,7 @@ doDecodeOnDraw
 =
 false
 ;
-PRUint32
+uint32_t
 imageFlags
 =
 Image
@@ -4751,7 +4751,7 @@ rv
 )
 )
 {
-PRInt32
+int32_t
 len
 =
 contentLength
@@ -4769,11 +4769,11 @@ len
 0
 )
 {
-PRUint32
+uint32_t
 sizeHint
 =
 (
-PRUint32
+uint32_t
 )
 len
 ;
@@ -4781,7 +4781,7 @@ sizeHint
 =
 NS_MIN
 <
-PRUint32
+uint32_t
 >
 (
 sizeHint
@@ -4952,7 +4952,7 @@ imgIContainer
 TYPE_RASTER
 )
 {
-PRUint32
+uint32_t
 bytesRead
 ;
 rv
@@ -5107,11 +5107,11 @@ const
 char
 *
 fromRawSegment
-PRUint32
+uint32_t
 toOffset
-PRUint32
+uint32_t
 count
-PRUint32
+uint32_t
 *
 writeCount
 )
@@ -5174,7 +5174,7 @@ const
 char
 *
 buf
-PRUint32
+uint32_t
 len
 )
 {
@@ -5213,7 +5213,7 @@ GetEntries
 (
 )
 ;
-PRUint32
+uint32_t
 length
 =
 sniffers
@@ -5224,7 +5224,7 @@ Count
 ;
 for
 (
-PRUint32
+uint32_t
 i
 =
 0
@@ -5252,7 +5252,7 @@ GetMIMETypeFromContent
 nullptr
 (
 const
-PRUint8
+uint8_t
 *
 )
 buf
@@ -5368,7 +5368,7 @@ oldChannel
 nsIChannel
 *
 newChannel
-PRUint32
+uint32_t
 flags
 nsIAsyncVerifyRedirectCallback
 *

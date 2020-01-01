@@ -3297,7 +3297,7 @@ else
 #
 endif
 {
-PRUint64
+uint64_t
 fsz
 factor
 ;
@@ -8472,7 +8472,7 @@ fe_fnlen
 4
 )
 {
-PRUint32
+uint32_t
 fe_size
 =
 atoi

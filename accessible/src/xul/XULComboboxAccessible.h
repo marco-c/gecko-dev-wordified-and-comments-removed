@@ -45,14 +45,14 @@ aDoc
 NS_IMETHOD
 DoAction
 (
-PRUint8
+uint8_t
 aIndex
 )
 ;
 NS_IMETHOD
 GetActionName
 (
-PRUint8
+uint8_t
 aIndex
 nsAString
 &
@@ -87,7 +87,7 @@ NativeRole
 )
 ;
 virtual
-PRUint64
+uint64_t
 NativeState
 (
 )
@@ -99,7 +99,7 @@ CanHaveAnonChildren
 )
 ;
 virtual
-PRUint8
+uint8_t
 ActionCount
 (
 )

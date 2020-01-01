@@ -164,7 +164,7 @@ mIsInitedFromPrefs
 false
 )
 {
-PRInt32
+int32_t
 marginWidth
 =
 NS_INCHES_TO_INT_TWIPS
@@ -400,7 +400,7 @@ nsPrintSettings
 :
 GetStartPageRange
 (
-PRInt32
+int32_t
 *
 aStartPageRange
 )
@@ -420,7 +420,7 @@ nsPrintSettings
 :
 SetStartPageRange
 (
-PRInt32
+int32_t
 aStartPageRange
 )
 {
@@ -438,7 +438,7 @@ nsPrintSettings
 :
 GetEndPageRange
 (
-PRInt32
+int32_t
 *
 aEndPageRange
 )
@@ -458,7 +458,7 @@ nsPrintSettings
 :
 SetEndPageRange
 (
-PRInt32
+int32_t
 aEndPageRange
 )
 {
@@ -552,7 +552,7 @@ nsPrintSettings
 :
 GetOrientation
 (
-PRInt32
+int32_t
 *
 aOrientation
 )
@@ -577,7 +577,7 @@ nsPrintSettings
 :
 SetOrientation
 (
-PRInt32
+int32_t
 aOrientation
 )
 {
@@ -884,7 +884,7 @@ nsPrintSettings
 :
 GetNumCopies
 (
-PRInt32
+int32_t
 *
 aNumCopies
 )
@@ -909,7 +909,7 @@ nsPrintSettings
 :
 SetNumCopies
 (
-PRInt32
+int32_t
 aNumCopies
 )
 {
@@ -1085,7 +1085,7 @@ nsPrintSettings
 :
 GetOutputFormat
 (
-PRInt16
+int16_t
 *
 aOutputFormat
 )
@@ -1110,7 +1110,7 @@ nsPrintSettings
 :
 SetOutputFormat
 (
-PRInt16
+int16_t
 aOutputFormat
 )
 {
@@ -1128,7 +1128,7 @@ nsPrintSettings
 :
 GetPrintPageDelay
 (
-PRInt32
+int32_t
 *
 aPrintPageDelay
 )
@@ -1148,7 +1148,7 @@ nsPrintSettings
 :
 SetPrintPageDelay
 (
-PRInt32
+int32_t
 aPrintPageDelay
 )
 {
@@ -2097,7 +2097,7 @@ nsPrintSettings
 :
 GetPrintRange
 (
-PRInt16
+int16_t
 *
 aPrintRange
 )
@@ -2122,7 +2122,7 @@ nsPrintSettings
 :
 SetPrintRange
 (
-PRInt16
+int16_t
 aPrintRange
 )
 {
@@ -2308,7 +2308,7 @@ nsPrintSettings
 :
 GetPrintOptions
 (
-PRInt32
+int32_t
 aType
 bool
 *
@@ -2341,7 +2341,7 @@ nsPrintSettings
 :
 SetPrintOptions
 (
-PRInt32
+int32_t
 aType
 bool
 aTurnOnOff
@@ -2377,7 +2377,7 @@ nsPrintSettings
 :
 GetPrintOptionsBits
 (
-PRInt32
+int32_t
 *
 aBits
 )
@@ -2408,7 +2408,7 @@ PRUnichar
 aTitle
 nsHeaderFooterEnum
 aType
-PRInt16
+int16_t
 aJust
 )
 {
@@ -2558,7 +2558,7 @@ PRUnichar
 aTitle
 nsHeaderFooterEnum
 aType
-PRInt16
+int16_t
 aJust
 )
 {
@@ -2925,7 +2925,7 @@ nsPrintSettings
 :
 GetPrintFrameTypeUsage
 (
-PRInt16
+int16_t
 *
 aPrintFrameTypeUsage
 )
@@ -2950,7 +2950,7 @@ nsPrintSettings
 :
 SetPrintFrameTypeUsage
 (
-PRInt16
+int16_t
 aPrintFrameTypeUsage
 )
 {
@@ -2968,7 +2968,7 @@ nsPrintSettings
 :
 GetPrintFrameType
 (
-PRInt16
+int16_t
 *
 aPrintFrameType
 )
@@ -2982,7 +2982,7 @@ aPrintFrameType
 aPrintFrameType
 =
 (
-PRInt32
+int32_t
 )
 mPrintFrameType
 ;
@@ -2996,7 +2996,7 @@ nsPrintSettings
 :
 SetPrintFrameType
 (
-PRInt16
+int16_t
 aPrintFrameType
 )
 {
@@ -3311,7 +3311,7 @@ nsPrintSettings
 :
 GetHowToEnableFrameUI
 (
-PRInt16
+int16_t
 *
 aHowToEnableFrameUI
 )
@@ -3336,7 +3336,7 @@ nsPrintSettings
 :
 SetHowToEnableFrameUI
 (
-PRInt16
+int16_t
 aHowToEnableFrameUI
 )
 {
@@ -3483,7 +3483,7 @@ nsPrintSettings
 :
 GetPaperSizeUnit
 (
-PRInt16
+int16_t
 *
 aPaperSizeUnit
 )
@@ -3508,7 +3508,7 @@ nsPrintSettings
 :
 SetPaperSizeUnit
 (
-PRInt16
+int16_t
 aPaperSizeUnit
 )
 {
@@ -3526,7 +3526,7 @@ nsPrintSettings
 :
 GetPaperSizeType
 (
-PRInt16
+int16_t
 *
 aPaperSizeType
 )
@@ -3551,7 +3551,7 @@ nsPrintSettings
 :
 SetPaperSizeType
 (
-PRInt16
+int16_t
 aPaperSizeType
 )
 {
@@ -3569,7 +3569,7 @@ nsPrintSettings
 :
 GetPaperData
 (
-PRInt16
+int16_t
 *
 aPaperData
 )
@@ -3594,7 +3594,7 @@ nsPrintSettings
 :
 SetPaperData
 (
-PRInt16
+int16_t
 aPaperData
 )
 {
@@ -3912,7 +3912,7 @@ GetPageRanges
 (
 nsTArray
 <
-PRInt32
+int32_t
 >
 &
 aPages
@@ -4291,7 +4291,7 @@ mPrintPageDelay
 ;
 for
 (
-PRInt32
+int32_t
 i
 =
 0

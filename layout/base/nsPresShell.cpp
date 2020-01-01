@@ -1221,7 +1221,7 @@ NOISY
 ifdef
 DEBUG
 static
-PRUint32
+uint32_t
 gVerifyReflowFlags
 ;
 struct
@@ -1232,7 +1232,7 @@ char
 *
 name
 ;
-PRUint32
+uint32_t
 bit
 ;
 }
@@ -1492,7 +1492,7 @@ mTotal
 void
 Add
 (
-PRUint32
+uint32_t
 aTotal
 )
 {
@@ -1525,7 +1525,7 @@ mMgr
 aMgr
 ;
 }
-PRUint32
+uint32_t
 GetTotal
 (
 )
@@ -1539,7 +1539,7 @@ protected
 void
 DisplayTotals
 (
-PRUint32
+uint32_t
 aTotal
 const
 char
@@ -1550,7 +1550,7 @@ aTitle
 void
 DisplayHTMLTotals
 (
-PRUint32
+uint32_t
 aTotal
 const
 char
@@ -1558,10 +1558,10 @@ char
 aTitle
 )
 ;
-PRUint32
+uint32_t
 mTotal
 ;
-PRUint32
+uint32_t
 mCacheTotal
 ;
 ReflowCountMgr
@@ -1620,7 +1620,7 @@ nsIFrame
 *
 mFrame
 ;
-PRInt32
+int32_t
 mCount
 ;
 ReflowCountMgr
@@ -1729,7 +1729,7 @@ const
 nsPoint
 &
 aOffset
-PRUint32
+uint32_t
 aColor
 )
 ;
@@ -1829,9 +1829,9 @@ protected
 void
 DisplayTotals
 (
-PRUint32
+uint32_t
 aTotal
-PRUint32
+uint32_t
 *
 aDupArray
 char
@@ -1842,9 +1842,9 @@ aTitle
 void
 DisplayHTMLTotals
 (
-PRUint32
+uint32_t
 aTotal
-PRUint32
+uint32_t
 *
 aDupArray
 char
@@ -2014,7 +2014,7 @@ define
 NS_MAX_REFLOW_TIME
 1000000
 static
-PRInt32
+int32_t
 gMaxRCProcessingTime
 =
 -
@@ -4400,7 +4400,7 @@ mCurrentEventFrame
 =
 nullptr
 ;
-PRInt32
+int32_t
 i
 count
 =
@@ -4959,7 +4959,7 @@ mStyleSet
 #
 ifdef
 DEBUG
-PRInt32
+int32_t
 numBefore
 =
 mStyleSet
@@ -5155,7 +5155,7 @@ SetComplete
 (
 )
 ;
-PRUint32
+uint32_t
 index
 ;
 rv
@@ -5278,7 +5278,7 @@ NS_OK
 ;
 }
 static
-PRUint32
+uint32_t
 sInsertPrefSheetRulesAt
 =
 2
@@ -5363,7 +5363,7 @@ rv
 )
 ;
 }
-PRUint32
+uint32_t
 index
 =
 0
@@ -5520,7 +5520,7 @@ if
 allowSubframes
 )
 {
-PRUint32
+uint32_t
 index
 =
 0
@@ -5700,7 +5700,7 @@ ruleClose
 "
 )
 ;
-PRUint32
+uint32_t
 index
 =
 0
@@ -6047,7 +6047,7 @@ FocusTextColor
 )
 )
 ;
-PRUint32
+uint32_t
 index
 =
 0
@@ -6142,7 +6142,7 @@ index
 )
 ;
 }
-PRUint8
+uint8_t
 focusRingWidth
 =
 mPresContext
@@ -6162,7 +6162,7 @@ GetFocusRingOnAnything
 (
 )
 ;
-PRUint8
+uint8_t
 focusRingStyle
 =
 mPresContext
@@ -6197,7 +6197,7 @@ focusRingWidth
 focusRingOnAnything
 )
 {
-PRUint32
+uint32_t
 index
 =
 0
@@ -6674,7 +6674,7 @@ UserStyleSheets
 (
 )
 ;
-PRInt32
+int32_t
 i
 ;
 for
@@ -6866,7 +6866,7 @@ PresShell
 :
 SetDisplaySelection
 (
-PRInt16
+int16_t
 aToggle
 )
 {
@@ -6888,7 +6888,7 @@ PresShell
 :
 GetDisplaySelection
 (
-PRInt16
+int16_t
 *
 aToggle
 )
@@ -7004,7 +7004,7 @@ SelectionType
 aType
 SelectionRegion
 aRegion
-PRInt16
+int16_t
 aFlags
 )
 {
@@ -7764,7 +7764,7 @@ false
 }
 else
 {
-PRInt32
+int32_t
 delay
 =
 Preferences
@@ -8611,7 +8611,7 @@ aFrame
 ;
 for
 (
-PRInt32
+int32_t
 idx
 =
 mDirtyRoots
@@ -9016,7 +9016,7 @@ PresShell
 :
 SetSelectionFlags
 (
-PRInt16
+int16_t
 aInEnable
 )
 {
@@ -9034,7 +9034,7 @@ PresShell
 :
 GetSelectionFlags
 (
-PRInt16
+int16_t
 *
 aOutEnable
 )
@@ -9386,7 +9386,7 @@ if
 scrollFrame
 )
 {
-PRInt32
+int32_t
 lineCount
 =
 Preferences
@@ -9694,9 +9694,9 @@ aPresContext
 nsIContent
 *
 aNode
-PRInt16
+int16_t
 aStartOffset
-PRInt16
+int16_t
 aEndOffset
 bool
 *
@@ -9752,9 +9752,9 @@ CheckVisibility
 nsIDOMNode
 *
 node
-PRInt16
+int16_t
 startOffset
-PRInt16
+int16_t
 EndOffset
 bool
 *
@@ -9835,9 +9835,9 @@ CheckVisibilityContent
 nsIContent
 *
 aNode
-PRInt16
+int16_t
 aStartOffset
-PRInt16
+int16_t
 aEndOffset
 bool
 *
@@ -12189,7 +12189,7 @@ rv
 list
 )
 {
-PRUint32
+uint32_t
 i
 ;
 for
@@ -12359,7 +12359,7 @@ rv
 list
 )
 {
-PRUint32
+uint32_t
 i
 ;
 for
@@ -12982,7 +12982,7 @@ aPrevBlock
 nsAutoLineIterator
 &
 aLines
-PRInt32
+int32_t
 &
 aCurLine
 )
@@ -13129,7 +13129,7 @@ if
 aLines
 )
 {
-PRInt32
+int32_t
 index
 =
 aLines
@@ -13157,13 +13157,13 @@ nsIFrame
 *
 trash1
 ;
-PRInt32
+int32_t
 trash2
 ;
 nsRect
 lineBounds
 ;
-PRUint32
+uint32_t
 trash3
 ;
 if
@@ -13381,7 +13381,7 @@ static
 nscoord
 ComputeWhereToScroll
 (
-PRInt16
+int16_t
 aWhereToScroll
 nscoord
 aOriginalCoord
@@ -13557,7 +13557,7 @@ nsIPresShell
 :
 ScrollAxis
 aHorizontal
-PRUint32
+uint32_t
 aFlags
 )
 {
@@ -13938,7 +13938,7 @@ nsIPresShell
 :
 ScrollAxis
 aHorizontal
-PRUint32
+uint32_t
 aFlags
 )
 {
@@ -14254,7 +14254,7 @@ nullptr
 nsAutoLineIterator
 lines
 ;
-PRInt32
+int32_t
 curLine
 =
 0
@@ -14330,7 +14330,7 @@ nsIPresShell
 :
 ScrollAxis
 aHorizontal
-PRUint32
+uint32_t
 aFlags
 )
 {
@@ -14503,7 +14503,7 @@ if
 parent
 )
 {
-PRInt32
+int32_t
 APD
 =
 container
@@ -14518,7 +14518,7 @@ AppUnitsPerDevPixel
 (
 )
 ;
-PRInt32
+int32_t
 parentAPD
 =
 parent
@@ -14869,7 +14869,7 @@ bool
 aFlushOnHoverChange
 )
 {
-PRUint32
+uint32_t
 hoverGenerationBefore
 =
 mFrameConstructor
@@ -16703,7 +16703,7 @@ GetParent
 (
 )
 ;
-PRUint32
+uint32_t
 selectorFlags
 =
 container
@@ -16981,12 +16981,12 @@ aDocument
 Element
 *
 aElement
-PRInt32
+int32_t
 aNameSpaceID
 nsIAtom
 *
 aAttribute
-PRInt32
+int32_t
 aModType
 )
 {
@@ -17050,12 +17050,12 @@ aDocument
 Element
 *
 aElement
-PRInt32
+int32_t
 aNameSpaceID
 nsIAtom
 *
 aAttribute
-PRInt32
+int32_t
 aModType
 )
 {
@@ -17122,7 +17122,7 @@ aContainer
 nsIContent
 *
 aFirstNewContent
-PRInt32
+int32_t
 aNewIndexInContainer
 )
 {
@@ -17215,7 +17215,7 @@ aContainer
 nsIContent
 *
 aChild
-PRInt32
+int32_t
 aIndexInContainer
 )
 {
@@ -17303,7 +17303,7 @@ aContainer
 nsIContent
 *
 aChild
-PRInt32
+int32_t
 aIndexInContainer
 nsIContent
 *
@@ -17938,7 +17938,7 @@ const
 nsRect
 &
 aRect
-PRUint32
+uint32_t
 aFlags
 nscolor
 aBackgroundColor
@@ -18321,7 +18321,7 @@ wouldFlushRetainedLayers
 =
 false
 ;
-PRUint32
+uint32_t
 flags
 =
 nsLayoutUtils
@@ -18697,7 +18697,7 @@ nsGkAtoms
 textFrame
 )
 {
-PRInt32
+int32_t
 frameStartOffset
 frameEndOffset
 ;
@@ -18710,7 +18710,7 @@ frameStartOffset
 frameEndOffset
 )
 ;
-PRInt32
+int32_t
 hilightStart
 =
 atStart
@@ -18728,7 +18728,7 @@ frameStartOffset
 :
 frameStartOffset
 ;
-PRInt32
+int32_t
 hilightEnd
 =
 atEnd
@@ -20066,7 +20066,7 @@ FrameSelection
 )
 ;
 }
-PRInt16
+int16_t
 oldDisplaySelection
 =
 frameSelection
@@ -20087,7 +20087,7 @@ nsISelectionController
 SELECTION_HIDDEN
 )
 ;
-PRInt32
+int32_t
 count
 =
 aItems
@@ -20099,7 +20099,7 @@ Length
 ;
 for
 (
-PRInt32
+int32_t
 i
 =
 0
@@ -20480,7 +20480,7 @@ RangePaintInfo
 >
 rangeItems
 ;
-PRInt32
+int32_t
 numRanges
 ;
 aSelection
@@ -20508,7 +20508,7 @@ selection
 ;
 for
 (
-PRInt32
+int32_t
 r
 =
 0
@@ -20777,7 +20777,7 @@ nsRect
 aBounds
 nscolor
 aBackstopColor
-PRUint32
+uint32_t
 aFlags
 )
 {
@@ -22195,7 +22195,7 @@ y
 ;
 #
 endif
-PRInt32
+int32_t
 APD
 =
 mPresContext
@@ -22211,7 +22211,7 @@ view
 =
 nullptr
 ;
-PRInt32
+int32_t
 viewAPD
 ;
 nsPoint
@@ -22916,7 +22916,7 @@ ComputeBackstopColor
 aViewToPaint
 )
 ;
-PRUint32
+uint32_t
 flags
 =
 nsLayoutUtils
@@ -23125,7 +23125,7 @@ SetCapturingContent
 nsIContent
 *
 aContent
-PRUint8
+uint8_t
 aFlags
 )
 {
@@ -24394,7 +24394,7 @@ PLDHashOperator
 AppendToTouchList
 (
 const
-PRUint32
+uint32_t
 &
 aKey
 nsCOMPtr
@@ -25407,7 +25407,7 @@ touches
 ;
 for
 (
-PRUint32
+uint32_t
 i
 =
 0
@@ -25437,7 +25437,7 @@ i
 }
 for
 (
-PRUint32
+uint32_t
 i
 =
 0
@@ -25493,7 +25493,7 @@ aEvent
 >
 message
 ;
-PRInt32
+int32_t
 id
 =
 0
@@ -25559,7 +25559,7 @@ mChanged
 =
 false
 ;
-PRInt32
+int32_t
 id
 ;
 touch
@@ -25950,7 +25950,7 @@ touches
 ;
 for
 (
-PRUint32
+uint32_t
 i
 =
 0
@@ -25986,7 +25986,7 @@ touch
 break
 ;
 }
-PRInt32
+int32_t
 id
 ;
 touch
@@ -27541,7 +27541,7 @@ touches
 ;
 for
 (
-PRUint32
+uint32_t
 i
 =
 0
@@ -27613,7 +27613,7 @@ nsIDOMTouch
 >
 oldTouch
 ;
-PRInt32
+int32_t
 id
 ;
 touch
@@ -27740,7 +27740,7 @@ false
 ;
 for
 (
-PRUint32
+uint32_t
 i
 =
 0
@@ -27789,7 +27789,7 @@ touch
 continue
 ;
 }
-PRInt32
+int32_t
 id
 ;
 touch
@@ -28486,7 +28486,7 @@ NS_TOUCH_START
 {
 for
 (
-PRUint32
+uint32_t
 i
 =
 0
@@ -28743,7 +28743,7 @@ else
 {
 for
 (
-PRUint32
+uint32_t
 i
 =
 0
@@ -29978,7 +29978,7 @@ checkLineHeight
 =
 false
 ;
-PRInt32
+int32_t
 currentIndex
 ;
 multiSelect
@@ -30057,7 +30057,7 @@ EnsureRowIsVisible
 currentIndex
 )
 ;
-PRInt32
+int32_t
 firstVisibleRow
 rowHeight
 ;
@@ -30452,7 +30452,7 @@ do_QueryFrame
 scrollFrame
 )
 ;
-PRInt32
+int32_t
 APD
 =
 presContext
@@ -30462,7 +30462,7 @@ AppUnitsPerDevPixel
 (
 )
 ;
-PRInt32
+int32_t
 scrollAPD
 =
 f
@@ -30868,7 +30868,7 @@ Clear
 (
 )
 ;
-PRInt32
+int32_t
 sheetCount
 =
 mStyleSet
@@ -30884,7 +30884,7 @@ eAgentSheet
 ;
 for
 (
-PRInt32
+int32_t
 i
 =
 0
@@ -33005,7 +33005,7 @@ mViewManager
 ;
 do
 {
-PRInt32
+int32_t
 idx
 =
 mDirtyRoots
@@ -34622,7 +34622,7 @@ nsFrameList
 (
 )
 ;
-PRInt32
+int32_t
 l1
 =
 kids1
@@ -34631,7 +34631,7 @@ GetLength
 (
 )
 ;
-PRInt32
+int32_t
 l2
 =
 kids2
@@ -35558,7 +35558,7 @@ nsStyleSet
 (
 )
 ;
-PRInt32
+int32_t
 i
 n
 =
@@ -35825,7 +35825,7 @@ nsAString
 name
 )
 {
-PRInt32
+int32_t
 width
 =
 1000
@@ -36088,7 +36088,7 @@ rv
 rv
 )
 ;
-PRUint64
+uint64_t
 length64
 ;
 rv
@@ -36117,11 +36117,11 @@ PR_UINT32_MAX
 return
 NS_ERROR_FILE_TOO_BIG
 ;
-PRUint32
+uint32_t
 length
 =
 (
-PRUint32
+uint32_t
 )
 length64
 ;
@@ -36166,7 +36166,7 @@ outputStream
 length
 )
 ;
-PRUint32
+uint32_t
 numWritten
 ;
 rv
@@ -36836,7 +36836,7 @@ aRootFrame
 FILE
 *
 out
-PRInt32
+int32_t
 aIndent
 )
 {
@@ -36874,11 +36874,11 @@ ListStyleSheets
 FILE
 *
 out
-PRInt32
+int32_t
 aIndent
 )
 {
-PRInt32
+int32_t
 sheetCount
 =
 mStyleSet
@@ -36894,7 +36894,7 @@ eDocSheet
 ;
 for
 (
-PRInt32
+int32_t
 i
 =
 0
@@ -37091,7 +37091,7 @@ const
 nsPoint
 &
 aOffset
-PRUint32
+uint32_t
 aColor
 )
 {
@@ -37320,7 +37320,7 @@ ReflowCounter
 :
 DisplayTotals
 (
-PRUint32
+uint32_t
 aTotal
 const
 char
@@ -37406,7 +37406,7 @@ ReflowCounter
 :
 DisplayHTMLTotals
 (
-PRUint32
+uint32_t
 aTotal
 const
 char
@@ -37932,7 +37932,7 @@ const
 nsPoint
 &
 aOffset
-PRUint32
+uint32_t
 aColor
 )
 {
@@ -38159,10 +38159,10 @@ GetWidth
 buf
 )
 ;
-PRUint32
+uint32_t
 color
 ;
-PRUint32
+uint32_t
 color2
 ;
 if
@@ -38189,7 +38189,7 @@ NS_RGB
 }
 else
 {
-PRUint8
+uint8_t
 rc
 =
 0
@@ -38665,7 +38665,7 @@ n
 ;
 for
 (
-PRUint32
+uint32_t
 i
 =
 0
@@ -38717,7 +38717,7 @@ aHT
 nsIFrame
 *
 aParentFrame
-PRInt32
+int32_t
 aLevel
 )
 {
@@ -38792,7 +38792,7 @@ mName
 ;
 for
 (
-PRInt32
+int32_t
 i
 =
 0
@@ -39490,7 +39490,7 @@ tr
 ;
 for
 (
-PRUint32
+uint32_t
 i
 =
 0
@@ -40097,7 +40097,7 @@ n
 ;
 for
 (
-PRInt32
+int32_t
 i
 =
 0

@@ -105,7 +105,7 @@ mDOMEvent
 nsEventStatus
 mEventStatus
 ;
-PRUint16
+uint16_t
 mItemFlags
 ;
 nsCOMPtr

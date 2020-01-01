@@ -130,7 +130,7 @@ PeekOffsetNoAmount
 (
 bool
 aForward
-PRInt32
+int32_t
 *
 aOffset
 )
@@ -141,7 +141,7 @@ PeekOffsetCharacter
 (
 bool
 aForward
-PRInt32
+int32_t
 *
 aOffset
 bool
@@ -160,7 +160,7 @@ bool
 aWordSelectEatSpace
 bool
 aIsKeyboardSelect
-PRInt32
+int32_t
 *
 aOffset
 PeekWordState
@@ -247,7 +247,7 @@ virtual
 bool
 IsFrameOfType
 (
-PRUint32
+uint32_t
 aFlags
 )
 const
@@ -529,7 +529,7 @@ width
 1
 ;
 }
-PRUint32
+uint32_t
 breakType
 =
 aReflowState
@@ -811,7 +811,7 @@ PeekOffsetNoAmount
 (
 bool
 aForward
-PRInt32
+int32_t
 *
 aOffset
 )
@@ -834,7 +834,7 @@ range
 "
 )
 ;
-PRInt32
+int32_t
 startOffset
 =
 *
@@ -878,7 +878,7 @@ PeekOffsetCharacter
 (
 bool
 aForward
-PRInt32
+int32_t
 *
 aOffset
 bool
@@ -919,7 +919,7 @@ bool
 aWordSelectEatSpace
 bool
 aIsKeyboardSelect
-PRInt32
+int32_t
 *
 aOffset
 PeekWordState

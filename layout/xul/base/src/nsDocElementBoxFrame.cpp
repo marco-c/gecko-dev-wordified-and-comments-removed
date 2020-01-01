@@ -202,7 +202,7 @@ AppendAnonymousContentTo
 nsBaseContentList
 &
 aElements
-PRUint32
+uint32_t
 aFilter
 )
 ;
@@ -210,7 +210,7 @@ virtual
 bool
 IsFrameOfType
 (
-PRUint32
+uint32_t
 aFlags
 )
 const
@@ -543,7 +543,7 @@ AppendAnonymousContentTo
 nsBaseContentList
 &
 aElements
-PRUint32
+uint32_t
 aFilter
 )
 {

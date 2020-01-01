@@ -203,7 +203,7 @@ FILE
 out
 =
 stdout
-PRInt32
+int32_t
 aIndent
 =
 0
@@ -222,7 +222,7 @@ aSheet
 )
 ;
 virtual
-PRInt32
+int32_t
 GetType
 (
 )
@@ -336,7 +336,7 @@ FILE
 out
 =
 stdout
-PRInt32
+int32_t
 aIndent
 =
 0
@@ -346,7 +346,7 @@ const
 #
 endif
 virtual
-PRInt32
+int32_t
 GetType
 (
 )
@@ -674,7 +674,7 @@ FILE
 out
 =
 stdout
-PRInt32
+int32_t
 aIndent
 =
 0
@@ -685,7 +685,7 @@ const
 endif
 DECL_STYLE_RULE_INHERIT
 virtual
-PRInt32
+int32_t
 GetType
 (
 )
@@ -759,7 +759,7 @@ nsCSSFontFaceRule
 >
 mRule
 ;
-PRUint8
+uint8_t
 mSheetType
 ;
 }
@@ -893,7 +893,7 @@ FILE
 out
 =
 stdout
-PRInt32
+int32_t
 aIndent
 =
 0
@@ -903,7 +903,7 @@ const
 #
 endif
 virtual
-PRInt32
+int32_t
 GetType
 (
 )
@@ -1146,7 +1146,7 @@ FILE
 out
 =
 stdout
-PRInt32
+int32_t
 aIndent
 =
 0
@@ -1157,7 +1157,7 @@ const
 endif
 DECL_STYLE_RULE_INHERIT
 virtual
-PRInt32
+int32_t
 GetType
 (
 )
@@ -1325,7 +1325,7 @@ FILE
 out
 =
 stdout
-PRInt32
+int32_t
 aIndent
 =
 0
@@ -1335,7 +1335,7 @@ const
 #
 endif
 virtual
-PRInt32
+int32_t
 GetType
 (
 )
@@ -1404,7 +1404,7 @@ const
 ;
 private
 :
-PRUint32
+uint32_t
 FindRuleIndexForKey
 (
 const
@@ -1464,7 +1464,7 @@ FILE
 out
 =
 stdout
-PRInt32
+int32_t
 aIndent
 =
 0
@@ -1474,7 +1474,7 @@ const
 #
 endif
 virtual
-PRInt32
+int32_t
 GetType
 (
 )

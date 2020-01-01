@@ -54,7 +54,7 @@ nsIAtom
 >
 prefix
 ;
-PRInt32
+int32_t
 nameSpaceID
 ;
 }
@@ -85,7 +85,7 @@ AddPrefix
 nsIAtom
 *
 aPrefix
-PRInt32
+int32_t
 aNameSpaceID
 )
 ;
@@ -105,7 +105,7 @@ aURI
 ;
 NS_HIDDEN_
 (
-PRInt32
+int32_t
 )
 FindNameSpaceID
 (
@@ -122,7 +122,7 @@ nsIAtom
 )
 FindPrefix
 (
-PRInt32
+int32_t
 aNameSpaceID
 )
 const

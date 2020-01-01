@@ -498,7 +498,7 @@ Clear
 )
 ;
 }
-PRUint32
+uint32_t
 timersCount
 =
 timers
@@ -509,7 +509,7 @@ Length
 ;
 for
 (
-PRUint32
+uint32_t
 i
 =
 0
@@ -579,7 +579,7 @@ TimerThread
 :
 UpdateFilter
 (
-PRUint32
+uint32_t
 aDelay
 TimeStamp
 aTimeout
@@ -599,7 +599,7 @@ smoothSlack
 =
 0
 ;
-PRUint32
+uint32_t
 i
 filterLength
 ;
@@ -734,7 +734,7 @@ aDelay
 filterLength
 =
 (
-PRUint32
+uint32_t
 )
 (
 FILTER_DURATION
@@ -863,7 +863,7 @@ lock
 mMonitor
 )
 ;
-PRInt32
+int32_t
 low
 =
 0
@@ -896,7 +896,7 @@ low
 1
 )
 {
-PRInt32
+int32_t
 mid
 =
 (
@@ -928,7 +928,7 @@ high
 mid
 ;
 }
-PRInt32
+int32_t
 halfMicrosecondsIntervalResolution
 =
 high
@@ -1311,7 +1311,7 @@ lock
 mMonitor
 )
 ;
-PRInt32
+int32_t
 i
 =
 AddTimerInternal
@@ -1370,7 +1370,7 @@ RemoveTimerInternal
 aTimer
 )
 ;
-PRInt32
+int32_t
 i
 =
 AddTimerInternal
@@ -1449,7 +1449,7 @@ return
 NS_OK
 ;
 }
-PRInt32
+int32_t
 TimerThread
 :
 :
@@ -1478,7 +1478,7 @@ Now
 (
 )
 ;
-PRUint32
+uint32_t
 count
 =
 mTimers
@@ -1487,7 +1487,7 @@ Length
 (
 )
 ;
-PRUint32
+uint32_t
 i
 =
 0
@@ -1655,7 +1655,7 @@ true
 ;
 for
 (
-PRUint32
+uint32_t
 i
 =
 0
@@ -1682,7 +1682,7 @@ mTimers
 i
 ]
 ;
-PRUint32
+uint32_t
 delay
 ;
 timer

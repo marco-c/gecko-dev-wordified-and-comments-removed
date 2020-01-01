@@ -1434,7 +1434,7 @@ nsIFile
 >
 minidump
 ;
-PRUint32
+uint32_t
 sequence
 ;
 #
@@ -1461,7 +1461,7 @@ ChildMinidumpMap
 pidToMinidump
 ;
 static
-PRUint32
+uint32_t
 crashSequence
 ;
 static
@@ -1488,7 +1488,7 @@ public
 :
 ReportInjectedCrash
 (
-PRUint32
+uint32_t
 pid
 )
 :
@@ -1505,7 +1505,7 @@ Run
 ;
 private
 :
-PRUint32
+uint32_t
 mPID
 ;
 }
@@ -1714,7 +1714,7 @@ std
 :
 map
 <
-PRUint32
+uint32_t
 google_breakpad
 :
 :
@@ -4963,7 +4963,7 @@ rv
 =
 NS_OK
 ;
-PRInt32
+int32_t
 filesize
 =
 PR_Available
@@ -5993,7 +5993,7 @@ end
 )
 )
 {
-PRInt32
+int32_t
 pos
 =
 end
@@ -7542,7 +7542,7 @@ rv
 rv
 )
 ;
-PRUint32
+uint32_t
 value
 =
 *
@@ -7579,7 +7579,7 @@ return
 rv
 ;
 }
-PRUint32
+uint32_t
 value
 ;
 rv
@@ -9600,7 +9600,7 @@ extraFile
 )
 ;
 {
-PRUint32
+uint32_t
 pid
 =
 #
@@ -10902,7 +10902,7 @@ gDelayedAnnotations
 {
 for
 (
-PRUint32
+uint32_t
 i
 =
 0
@@ -11024,13 +11024,13 @@ endif
 bool
 TakeMinidumpForChild
 (
-PRUint32
+uint32_t
 childPid
 nsIFile
 *
 *
 dump
-PRUint32
+uint32_t
 *
 aSequence
 )
@@ -11823,7 +11823,7 @@ file_offset
 void
 AddLibraryMappingForChild
 (
-PRUint32
+uint32_t
 childPid
 const
 char
@@ -11967,7 +11967,7 @@ mapping
 void
 RemoveLibraryMappingsForChild
 (
-PRUint32
+uint32_t
 childPid
 )
 {

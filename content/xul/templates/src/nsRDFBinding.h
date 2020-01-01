@@ -132,7 +132,7 @@ RDFBindingSet
 {
 protected
 :
-PRInt32
+int32_t
 mCount
 ;
 RDFBinding
@@ -169,7 +169,7 @@ NS_INLINE_DECL_REFCOUNTING
 (
 RDFBindingSet
 )
-PRInt32
+int32_t
 Count
 (
 )
@@ -238,7 +238,7 @@ nsXULTemplateResultRDF
 aResult
 )
 ;
-PRInt32
+int32_t
 LookupTargetIndex
 (
 nsIAtom

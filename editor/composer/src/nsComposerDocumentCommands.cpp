@@ -432,7 +432,7 @@ presContext
 NS_ERROR_FAILURE
 )
 ;
-PRInt32
+int32_t
 animationMode
 ;
 rv
@@ -662,7 +662,7 @@ presContext
 NS_ERROR_FAILURE
 )
 ;
-PRInt32
+int32_t
 animationMode
 ;
 rv
@@ -1009,7 +1009,7 @@ rvRO
 rvRO
 )
 ;
-PRUint32
+uint32_t
 flags
 ;
 editor
@@ -1478,7 +1478,7 @@ NS_ENSURE_ARG_POINTER
 aParams
 )
 ;
-PRUint32
+uint32_t
 flags
 ;
 editor
@@ -1875,7 +1875,7 @@ obs_documentCreated
 )
 )
 {
-PRUint32
+uint32_t
 editorStatus
 =
 nsIEditingSession

@@ -109,7 +109,7 @@ toCopy
 nsCString
 mHost
 ;
-PRInt64
+int64_t
 mExpireTime
 ;
 bool
@@ -249,7 +249,7 @@ SetStsState
 nsIURI
 *
 aSourceURI
-PRInt64
+int64_t
 maxage
 bool
 includeSubdomains
@@ -276,11 +276,11 @@ const
 char
 *
 aType
-PRUint32
+uint32_t
 aPermission
-PRUint32
+uint32_t
 aExpireType
-PRInt64
+int64_t
 aExpireTime
 )
 ;
@@ -307,7 +307,7 @@ const
 char
 *
 aType
-PRUint32
+uint32_t
 *
 aPermission
 bool

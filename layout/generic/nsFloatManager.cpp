@@ -44,7 +44,7 @@ using
 namespace
 mozilla
 ;
-PRInt32
+int32_t
 nsFloatManager
 :
 :
@@ -285,7 +285,7 @@ Shutdown
 (
 )
 {
-PRInt32
+int32_t
 i
 ;
 for
@@ -407,7 +407,7 @@ top
 nscoord_MIN
 ;
 }
-PRUint32
+uint32_t
 floatCount
 ;
 if
@@ -610,7 +610,7 @@ false
 ;
 for
 (
-PRUint32
+uint32_t
 i
 =
 floatCount
@@ -985,7 +985,7 @@ mRightYMost
 nscoord_MIN
 ;
 }
-PRUint8
+uint8_t
 floatStyle
 =
 aFloatFrame
@@ -1437,7 +1437,7 @@ f
 )
 ;
 }
-PRUint32
+uint32_t
 newLength
 =
 mFloats
@@ -1491,7 +1491,7 @@ ifdef
 DEBUG
 for
 (
-PRUint32
+uint32_t
 i
 =
 0
@@ -1819,7 +1819,7 @@ NS_OK
 ;
 for
 (
-PRUint32
+uint32_t
 i
 =
 0
@@ -1939,9 +1939,9 @@ ClearFloats
 (
 nscoord
 aY
-PRUint8
+uint8_t
 aBreakType
-PRUint32
+uint32_t
 aFlags
 )
 const
@@ -2081,7 +2081,7 @@ nsFloatManager
 :
 ClearContinues
 (
-PRUint8
+uint8_t
 aBreakType
 )
 const

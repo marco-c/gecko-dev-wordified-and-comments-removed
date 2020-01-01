@@ -471,7 +471,7 @@ notes
 .
 AppendInt
 (
-PRUint32
+uint32_t
 (
 age
 )
@@ -543,7 +543,7 @@ notes
 .
 AppendInt
 (
-PRUint32
+uint32_t
 (
 event
 -

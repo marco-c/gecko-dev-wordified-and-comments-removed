@@ -220,7 +220,7 @@ nsNetworkManagerListener
 :
 GetLinkType
 (
-PRUint32
+uint32_t
 *
 aLinkType
 )
@@ -691,7 +691,7 @@ DBusMessage
 msg
 )
 {
-PRInt32
+int32_t
 result
 ;
 if

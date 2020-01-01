@@ -1473,7 +1473,7 @@ wstr
 mWStringLength
 =
 (
-PRUint32
+uint32_t
 )
 length
 ;
@@ -1818,7 +1818,7 @@ jsval
 pJSVal
 )
 {
-PRUint16
+uint16_t
 type
 ;
 if
@@ -2021,7 +2021,7 @@ cString
 nsUTF8String
 utf8String
 ;
-PRUint32
+uint32_t
 size
 ;
 xpctvar
@@ -2872,7 +2872,7 @@ false
 nsXPTType
 conversionType
 ;
-PRUint16
+uint16_t
 elementType
 =
 du
@@ -3434,7 +3434,7 @@ XPCVariant
 :
 GetDataType
 (
-PRUint16
+uint16_t
 *
 aDataType
 )
@@ -3456,7 +3456,7 @@ XPCVariant
 :
 GetAsInt8
 (
-PRUint8
+uint8_t
 *
 _retval
 )
@@ -3478,7 +3478,7 @@ XPCVariant
 :
 GetAsInt16
 (
-PRInt16
+int16_t
 *
 _retval
 )
@@ -3500,7 +3500,7 @@ XPCVariant
 :
 GetAsInt32
 (
-PRInt32
+int32_t
 *
 _retval
 )
@@ -3522,7 +3522,7 @@ XPCVariant
 :
 GetAsInt64
 (
-PRInt64
+int64_t
 *
 _retval
 )
@@ -3544,7 +3544,7 @@ XPCVariant
 :
 GetAsUint8
 (
-PRUint8
+uint8_t
 *
 _retval
 )
@@ -3566,7 +3566,7 @@ XPCVariant
 :
 GetAsUint16
 (
-PRUint16
+uint16_t
 *
 _retval
 )
@@ -3588,7 +3588,7 @@ XPCVariant
 :
 GetAsUint32
 (
-PRUint32
+uint32_t
 *
 _retval
 )
@@ -3610,7 +3610,7 @@ XPCVariant
 :
 GetAsUint64
 (
-PRUint64
+uint64_t
 *
 _retval
 )
@@ -3955,13 +3955,13 @@ XPCVariant
 :
 GetAsArray
 (
-PRUint16
+uint16_t
 *
 type
 nsIID
 *
 iid
-PRUint32
+uint32_t
 *
 count
 void
@@ -3990,7 +3990,7 @@ XPCVariant
 :
 GetAsStringWithSize
 (
-PRUint32
+uint32_t
 *
 size
 char
@@ -4017,7 +4017,7 @@ XPCVariant
 :
 GetAsWStringWithSize
 (
-PRUint32
+uint32_t
 *
 size
 PRUnichar

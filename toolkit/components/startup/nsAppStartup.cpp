@@ -2300,7 +2300,7 @@ nsAppStartup
 :
 GetLastShutdownDuration
 (
-PRUint32
+uint32_t
 *
 aResult
 )
@@ -4199,7 +4199,7 @@ GetInSafeMode
 inSafeMode
 )
 ;
-PRInt64
+int64_t
 replacedLockTime
 ;
 rv

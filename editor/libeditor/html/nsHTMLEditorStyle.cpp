@@ -373,7 +373,7 @@ aValue
 nsString
 outValue
 ;
-PRInt32
+int32_t
 index
 ;
 nsString
@@ -469,7 +469,7 @@ aValue
 nsString
 outValue
 ;
-PRInt32
+int32_t
 index
 ;
 nsString
@@ -520,7 +520,7 @@ RemoveAllDefaultProperties
 (
 )
 {
-PRUint32
+uint32_t
 j
 defcon
 =
@@ -903,7 +903,7 @@ startNode
 )
 )
 {
-PRInt32
+int32_t
 startOffset
 endOffset
 ;
@@ -1108,10 +1108,10 @@ do_QueryInterface
 startNode
 )
 ;
-PRInt32
+int32_t
 startOffset
 ;
-PRUint32
+uint32_t
 textLen
 ;
 range
@@ -1153,7 +1153,7 @@ res
 )
 ;
 }
-PRInt32
+int32_t
 listCount
 =
 arrayOfNodes
@@ -1162,7 +1162,7 @@ Count
 (
 )
 ;
-PRInt32
+int32_t
 j
 ;
 for
@@ -1227,7 +1227,7 @@ do_QueryInterface
 endNode
 )
 ;
-PRInt32
+int32_t
 endOffset
 ;
 range
@@ -1667,9 +1667,9 @@ SetInlinePropertyOnTextNode
 nsIDOMCharacterData
 *
 aTextNode
-PRInt32
+int32_t
 aStartOffset
-PRInt32
+int32_t
 aEndOffset
 nsIAtom
 *
@@ -1813,7 +1813,7 @@ bHasProp
 return
 NS_OK
 ;
-PRUint32
+uint32_t
 textLen
 ;
 aTextNode
@@ -1827,7 +1827,7 @@ textLen
 ;
 if
 (
-PRUint32
+uint32_t
 (
 aEndOffset
 )
@@ -2105,7 +2105,7 @@ child
 ;
 }
 }
-PRInt32
+int32_t
 listCount
 =
 arrayOfNodes
@@ -2116,7 +2116,7 @@ Count
 ;
 for
 (
-PRInt32
+int32_t
 j
 =
 0
@@ -2447,7 +2447,7 @@ res
 )
 ;
 }
-PRInt32
+int32_t
 count
 ;
 res
@@ -2829,7 +2829,7 @@ GetNextSibling
 )
 ;
 }
-PRInt32
+int32_t
 nodesToSetCount
 =
 nodesToSet
@@ -2840,7 +2840,7 @@ Count
 ;
 for
 (
-PRInt32
+int32_t
 k
 =
 0
@@ -2913,7 +2913,7 @@ startNode
 endNode
 origStartNode
 ;
-PRInt32
+int32_t
 startOffset
 endOffset
 ;
@@ -3091,7 +3091,7 @@ nsIDOMNode
 >
 *
 aNode
-PRInt32
+int32_t
 *
 aOffset
 nsIAtom
@@ -3156,7 +3156,7 @@ tmp
 *
 aNode
 ;
-PRInt32
+int32_t
 offset
 ;
 bool
@@ -3343,7 +3343,7 @@ nsIDOMNode
 >
 *
 aNode
-PRInt32
+int32_t
 *
 aOffset
 nsIAtom
@@ -3611,7 +3611,7 @@ res
 )
 ;
 }
-PRInt32
+int32_t
 newSelOffset
 =
 0
@@ -3740,7 +3740,7 @@ res
 =
 NS_OK
 ;
-PRUint32
+uint32_t
 j
 defcon
 =
@@ -3907,7 +3907,6 @@ tmp
 }
 if
 (
-(
 !
 aChildrenOnly
 &
@@ -3963,8 +3962,6 @@ IsNamedAnchor
 aNode
 )
 )
-)
-)
 |
 |
 (
@@ -3975,6 +3972,7 @@ aProperty
 NodeIsProperty
 (
 aNode
+)
 )
 )
 )
@@ -4373,7 +4371,7 @@ MOZ_ASSERT
 aContent
 )
 ;
-PRUint32
+uint32_t
 attrCount
 =
 aContent
@@ -4385,7 +4383,7 @@ GetAttrCount
 ;
 for
 (
-PRUint32
+uint32_t
 i
 =
 0
@@ -4597,7 +4595,7 @@ endNode
 parent
 tmp
 ;
-PRInt32
+int32_t
 startOffset
 endOffset
 tmpOffset
@@ -4892,7 +4890,7 @@ startNode
 endNode
 parent
 ;
-PRInt32
+int32_t
 startOffset
 endOffset
 ;
@@ -5109,7 +5107,7 @@ IsAtFrontOfNode
 nsIDOMNode
 *
 aNode
-PRInt32
+int32_t
 aOffset
 )
 {
@@ -5164,7 +5162,7 @@ firstNode
 true
 )
 ;
-PRInt32
+int32_t
 offset
 =
 GetChildOffset
@@ -5196,7 +5194,7 @@ IsAtEndOfNode
 nsIDOMNode
 *
 aNode
-PRInt32
+int32_t
 aOffset
 )
 {
@@ -5206,7 +5204,7 @@ aNode
 false
 )
 ;
-PRUint32
+uint32_t
 len
 ;
 GetLengthOfDOMNode
@@ -5221,7 +5219,7 @@ aOffset
 =
 =
 (
-PRInt32
+int32_t
 )
 len
 )
@@ -5263,7 +5261,7 @@ lastNode
 true
 )
 ;
-PRInt32
+int32_t
 offset
 =
 GetChildOffset
@@ -5702,7 +5700,7 @@ isSet
 aCheckDefaults
 )
 {
-PRInt32
+int32_t
 index
 ;
 if
@@ -5802,7 +5800,7 @@ nsIDOMNode
 >
 endNode
 ;
-PRInt32
+int32_t
 endOffset
 ;
 result
@@ -5980,7 +5978,7 @@ firstNodeInRange
 =
 false
 ;
-PRInt32
+int32_t
 startOffset
 ;
 range
@@ -5992,7 +5990,7 @@ GetStartOffset
 startOffset
 )
 ;
-PRUint32
+uint32_t
 count
 ;
 text
@@ -6010,7 +6008,7 @@ startOffset
 =
 =
 (
-PRInt32
+int32_t
 )
 count
 )
@@ -7047,7 +7045,7 @@ value
 "
 )
 ;
-PRInt32
+int32_t
 startOffset
 endOffset
 ;
@@ -7221,7 +7219,7 @@ Next
 )
 ;
 }
-PRInt32
+int32_t
 listCount
 =
 arrayOfNodes
@@ -7230,7 +7228,7 @@ Count
 (
 )
 ;
-PRInt32
+int32_t
 j
 ;
 for
@@ -7436,7 +7434,7 @@ nsHTMLEditor
 :
 RelativeFontChange
 (
-PRInt32
+int32_t
 aSizeChange
 )
 {
@@ -7522,7 +7520,7 @@ nsEditProperty
 :
 small
 ;
-PRInt32
+int32_t
 offset
 ;
 nsCOMPtr
@@ -7827,7 +7825,7 @@ startNode
 )
 )
 {
-PRInt32
+int32_t
 startOffset
 endOffset
 ;
@@ -8011,7 +8009,7 @@ Next
 )
 ;
 }
-PRInt32
+int32_t
 listCount
 =
 arrayOfNodes
@@ -8022,7 +8020,7 @@ Count
 ;
 for
 (
-PRInt32
+int32_t
 j
 =
 0
@@ -8092,10 +8090,10 @@ do_QueryInterface
 startNode
 )
 ;
-PRInt32
+int32_t
 startOffset
 ;
-PRUint32
+uint32_t
 textLen
 ;
 range
@@ -8158,7 +8156,7 @@ do_QueryInterface
 endNode
 )
 ;
-PRInt32
+int32_t
 endOffset
 ;
 range
@@ -8206,14 +8204,14 @@ nsHTMLEditor
 :
 RelativeFontChangeOnTextNode
 (
-PRInt32
+int32_t
 aSizeChange
 nsIDOMCharacterData
 *
 aTextNode
-PRInt32
+int32_t
 aStartOffset
-PRInt32
+int32_t
 aEndOffset
 )
 {
@@ -8316,7 +8314,7 @@ do_QueryInterface
 aTextNode
 )
 ;
-PRUint32
+uint32_t
 textLen
 ;
 aTextNode
@@ -8343,7 +8341,7 @@ textLen
 if
 (
 (
-PRUint32
+uint32_t
 )
 aEndOffset
 !
@@ -8577,7 +8575,7 @@ nsHTMLEditor
 :
 RelativeFontChangeHelper
 (
-PRInt32
+int32_t
 aSizeChange
 nsINode
 *
@@ -8655,7 +8653,7 @@ size
 {
 for
 (
-PRUint32
+uint32_t
 i
 =
 aNode
@@ -8696,7 +8694,7 @@ rv
 }
 for
 (
-PRUint32
+uint32_t
 i
 =
 aNode
@@ -8744,7 +8742,7 @@ nsHTMLEditor
 :
 RelativeFontChangeOnNode
 (
-PRInt32
+int32_t
 aSizeChange
 nsINode
 *
@@ -9030,7 +9028,7 @@ atom
 }
 for
 (
-PRUint32
+uint32_t
 i
 =
 aNode

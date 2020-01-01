@@ -306,7 +306,7 @@ dashOffset
 {
 for
 (
-PRUint32
+uint32_t
 i
 =
 0
@@ -355,12 +355,12 @@ mDrawScale
 ;
 }
 }
-PRUint32
+uint32_t
 NextCluster
 (
 )
 ;
-PRUint32
+uint32_t
 ClusterLength
 (
 )
@@ -368,7 +368,7 @@ ClusterLength
 bool
 AdvanceToCharacter
 (
-PRUint32
+uint32_t
 aIndex
 )
 ;
@@ -436,13 +436,13 @@ GetPositionData
 (
 )
 ;
-PRUint32
+uint32_t
 InvalidCluster
 (
 )
 {
 return
-PRUint32
+uint32_t
 (
 -
 1
@@ -488,7 +488,7 @@ mInitialMatrix
 gfxFloat
 mCurrentAdvance
 ;
-PRUint32
+uint32_t
 mCurrentChar
 ;
 float
@@ -902,7 +902,7 @@ IsSelectable
 bool
 *
 aIsSelectable
-PRUint8
+uint8_t
 *
 aSelectStyle
 )
@@ -1226,7 +1226,7 @@ ThebesContext
 (
 )
 ;
-PRUint16
+uint16_t
 renderMode
 =
 SVGAutoRenderState
@@ -1546,7 +1546,7 @@ nsPoint
 aPoint
 )
 {
-PRUint16
+uint16_t
 hitTestFlags
 =
 GetHitTestFlags
@@ -1608,7 +1608,7 @@ return
 nullptr
 ;
 }
-PRUint32
+uint32_t
 i
 ;
 while
@@ -1840,7 +1840,7 @@ SetEmpty
 (
 )
 ;
-PRUint32
+uint32_t
 flags
 =
 nsSVGUtils
@@ -1858,7 +1858,7 @@ nsSVGUtils
 :
 eBBoxIncludeMarkers
 ;
-PRUint16
+uint16_t
 hitTestFlags
 =
 GetHitTestFlags
@@ -2037,7 +2037,7 @@ nsSVGGlyphFrame
 :
 NotifySVGChanged
 (
-PRUint32
+uint32_t
 aFlags
 )
 {
@@ -2144,7 +2144,7 @@ mBoundingBox
 return
 ;
 }
-PRUint32
+uint32_t
 i
 ;
 while
@@ -2291,7 +2291,7 @@ aStrokePattern
 return
 ;
 }
-PRUint32
+uint32_t
 i
 ;
 while
@@ -2360,7 +2360,7 @@ const
 gfxMatrix
 &
 aToBBoxUserspace
-PRUint32
+uint32_t
 aFlags
 )
 {
@@ -2556,7 +2556,7 @@ nsSVGGlyphFrame
 :
 GetCanvasTM
 (
-PRUint32
+uint32_t
 aFor
 )
 {
@@ -2763,7 +2763,7 @@ float
 aMetricsScale
 )
 {
-PRUint32
+uint32_t
 strLength
 =
 mTextRun
@@ -2927,7 +2927,7 @@ GetLength
 ;
 for
 (
-PRUint32
+uint32_t
 i
 =
 0
@@ -3275,7 +3275,7 @@ Elements
 (
 )
 ;
-PRUint16
+uint16_t
 anchor
 =
 GetTextAnchor
@@ -3284,7 +3284,7 @@ GetTextAnchor
 ;
 for
 (
-PRUint32
+uint32_t
 i
 =
 0
@@ -3524,13 +3524,13 @@ return
 true
 ;
 }
-PRUint32
+uint32_t
 nsSVGGlyphFrame
 :
 :
 GetTextRunFlags
 (
-PRUint32
+uint32_t
 strLength
 )
 {
@@ -3648,9 +3648,9 @@ nsSVGGlyphFrame
 :
 GetSubStringAdvance
 (
-PRUint32
+uint32_t
 aCharnum
-PRUint32
+uint32_t
 aFragmentChars
 float
 aMetricsScale
@@ -3702,7 +3702,7 @@ dxlist
 notUsed
 )
 ;
-PRUint32
+uint32_t
 dxcount
 =
 dxlist
@@ -3756,7 +3756,7 @@ aFragmentChars
 ;
 for
 (
-PRUint32
+uint32_t
 i
 =
 aCharnum
@@ -3825,7 +3825,7 @@ nullptr
 nullptr
 )
 ;
-PRUint16
+uint16_t
 dominantBaseline
 ;
 for
@@ -4423,10 +4423,10 @@ nsSVGGlyphFrame
 :
 GetHighlight
 (
-PRUint32
+uint32_t
 *
 charnum
-PRUint32
+uint32_t
 *
 nchars
 nscolor
@@ -4913,7 +4913,7 @@ metricsScale
 )
 )
 ;
-PRUint32
+uint32_t
 strLength
 =
 mTextRun
@@ -4937,7 +4937,7 @@ xList
 yList
 )
 ;
-PRUint32
+uint32_t
 xCount
 =
 NS_MIN
@@ -4950,7 +4950,7 @@ Length
 strLength
 )
 ;
-PRUint32
+uint32_t
 yCount
 =
 NS_MIN
@@ -5116,7 +5116,7 @@ dxList
 dyList
 )
 ;
-PRUint32
+uint32_t
 dxcount
 =
 NS_MIN
@@ -5151,7 +5151,7 @@ pathScale
 }
 for
 (
-PRUint32
+uint32_t
 i
 =
 0
@@ -5179,7 +5179,7 @@ i
 pathScale
 ;
 }
-PRUint32
+uint32_t
 dycount
 =
 NS_MIN
@@ -5214,7 +5214,7 @@ pathScale
 }
 for
 (
-PRUint32
+uint32_t
 i
 =
 0
@@ -5249,7 +5249,7 @@ nsSVGGlyphFrame
 :
 GetStartPositionOfChar
 (
-PRUint32
+uint32_t
 charnum
 nsIDOMSVGPoint
 *
@@ -5310,7 +5310,7 @@ nsSVGGlyphFrame
 :
 GetEndPositionOfChar
 (
-PRUint32
+uint32_t
 charnum
 nsIDOMSVGPoint
 *
@@ -5414,7 +5414,7 @@ nsSVGGlyphFrame
 :
 GetExtentOfChar
 (
-PRUint32
+uint32_t
 charnum
 nsIDOMSVGRect
 *
@@ -5447,7 +5447,7 @@ AdvanceToCharacter
 return
 NS_ERROR_DOM_INDEX_SIZE_ERR
 ;
-PRUint32
+uint32_t
 start
 =
 charnum
@@ -5615,7 +5615,7 @@ nsSVGGlyphFrame
 :
 GetRotationOfChar
 (
-PRUint32
+uint32_t
 charnum
 float
 *
@@ -5867,7 +5867,7 @@ nsSVGGlyphFrame
 :
 SetStartIndex
 (
-PRUint32
+uint32_t
 aStartIndex
 )
 {
@@ -5882,7 +5882,7 @@ nsSVGGlyphFrame
 :
 GetEffectiveXY
 (
-PRInt32
+int32_t
 strLength
 nsTArray
 <
@@ -5921,13 +5921,13 @@ x
 y
 )
 ;
-PRInt32
+int32_t
 xCount
 =
 NS_MAX
 (
 (
-PRInt32
+int32_t
 )
 (
 x
@@ -5963,13 +5963,13 @@ mStartIndex
 xCount
 )
 ;
-PRInt32
+int32_t
 yCount
 =
 NS_MAX
 (
 (
-PRInt32
+int32_t
 )
 (
 y
@@ -6043,7 +6043,7 @@ nsSVGGlyphFrame
 :
 GetEffectiveDxDy
 (
-PRInt32
+int32_t
 strLength
 nsTArray
 <
@@ -6082,13 +6082,13 @@ dx
 dy
 )
 ;
-PRInt32
+int32_t
 dxCount
 =
 NS_MAX
 (
 (
-PRInt32
+int32_t
 )
 (
 dx
@@ -6124,13 +6124,13 @@ mStartIndex
 dxCount
 )
 ;
-PRInt32
+int32_t
 dyCount
 =
 NS_MAX
 (
 (
-PRInt32
+int32_t
 )
 (
 dy
@@ -6214,7 +6214,7 @@ nsSVGGlyphFrame
 :
 GetEffectiveRotate
 (
-PRInt32
+int32_t
 strLength
 nsTArray
 <
@@ -6245,13 +6245,13 @@ GetEffectiveRotate
 rotate
 )
 ;
-PRInt32
+int32_t
 rotateCount
 =
 NS_MAX
 (
 (
-PRInt32
+int32_t
 )
 (
 rotate
@@ -6324,7 +6324,7 @@ Length
 ;
 }
 }
-PRUint16
+uint16_t
 nsSVGGlyphFrame
 :
 :
@@ -6506,7 +6506,7 @@ IsEmpty
 )
 ;
 }
-PRUint32
+uint32_t
 nsSVGGlyphFrame
 :
 :
@@ -6565,9 +6565,9 @@ nsSVGGlyphFrame
 :
 GetSubStringLength
 (
-PRUint32
+uint32_t
 charnum
-PRUint32
+uint32_t
 fragmentChars
 )
 {
@@ -6601,7 +6601,7 @@ metricsScale
 )
 ;
 }
-PRInt32
+int32_t
 nsSVGGlyphFrame
 :
 :
@@ -6651,10 +6651,10 @@ this
 false
 )
 ;
-PRUint32
+uint32_t
 i
 ;
-PRInt32
+int32_t
 last
 =
 -
@@ -6687,7 +6687,7 @@ InvalidCluster
 )
 )
 {
-PRUint32
+uint32_t
 limit
 =
 i
@@ -6721,7 +6721,7 @@ nullptr
 nullptr
 )
 ;
-PRInt32
+int32_t
 current
 end
 step
@@ -7101,7 +7101,7 @@ Is2b
 return
 false
 ;
-PRInt32
+int32_t
 len
 =
 text
@@ -7125,7 +7125,7 @@ Get1b
 ;
 for
 (
-PRInt32
+int32_t
 i
 =
 0
@@ -7200,7 +7200,7 @@ SetupGlobalTransform
 gfxContext
 *
 aContext
-PRUint32
+uint32_t
 aFor
 )
 {
@@ -7654,7 +7654,7 @@ GetUserFontSet
 )
 )
 ;
-PRUint32
+uint32_t
 flags
 =
 gfxTextRunFactory
@@ -7799,7 +7799,7 @@ mCurrentAdvance
 )
 mCurrentChar
 (
-PRUint32
+uint32_t
 (
 -
 1
@@ -7904,7 +7904,7 @@ return
 true
 ;
 }
-PRUint32
+uint32_t
 CharacterIterator
 :
 :
@@ -8089,7 +8089,7 @@ mCurrentChar
 }
 }
 }
-PRUint32
+uint32_t
 CharacterIterator
 :
 :
@@ -8106,7 +8106,7 @@ return
 0
 ;
 }
-PRUint32
+uint32_t
 i
 =
 mCurrentChar
@@ -8158,7 +8158,7 @@ CharacterIterator
 :
 AdvanceToCharacter
 (
-PRUint32
+uint32_t
 aIndex
 )
 {

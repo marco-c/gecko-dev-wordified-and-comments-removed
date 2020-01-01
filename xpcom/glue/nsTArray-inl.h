@@ -123,7 +123,7 @@ nsAutoArrayBase
 <
 nsTArray
 <
-PRUint32
+uint32_t
 >
 1
 >
@@ -440,7 +440,7 @@ true
 if
 (
 (
-PRUint64
+uint64_t
 )
 capacity
 *
@@ -545,13 +545,13 @@ true
 ;
 }
 const
-PRUint32
+uint32_t
 pageSizeBytes
 =
 12
 ;
 const
-PRUint32
+uint32_t
 pageSize
 =
 1
@@ -559,7 +559,7 @@ pageSize
 <
 pageSizeBytes
 ;
-PRUint32
+uint32_t
 minBytes
 =
 capacity
@@ -571,7 +571,7 @@ sizeof
 Header
 )
 ;
-PRUint32
+uint32_t
 bytesToAlloc
 ;
 if
@@ -764,7 +764,7 @@ return
 false
 ;
 }
-PRUint32
+uint32_t
 newCapacity
 =
 (
@@ -1642,7 +1642,7 @@ Hdr
 }
 nsAutoTArray
 <
-PRUint8
+uint8_t
 64
 Alloc
 >

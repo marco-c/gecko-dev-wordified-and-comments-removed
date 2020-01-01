@@ -41,7 +41,7 @@ PATH_SEG_LENGTH_TOLERANCE
 ;
 static
 const
-PRUint32
+uint32_t
 MAX_RECURSION
 =
 10
@@ -80,7 +80,7 @@ NS_SVG_PATH_SEG_MAX_ARGS
 7
 )
 ;
-PRUint32
+uint32_t
 type
 =
 DecodeType
@@ -1102,9 +1102,9 @@ CalcBezLengthHelper
 gfxPoint
 *
 aCurve
-PRUint32
+uint32_t
 aNumPts
-PRUint32
+uint32_t
 aRecursionCount
 void
 (
@@ -1142,7 +1142,7 @@ dist
 ;
 for
 (
-PRUint32
+uint32_t
 i
 =
 0
@@ -3136,7 +3136,7 @@ gTraverseFuncTable
 NS_SVG_PATH_SEG_TYPE_COUNT
 )
 ;
-PRUint32
+uint32_t
 type
 =
 DecodeType

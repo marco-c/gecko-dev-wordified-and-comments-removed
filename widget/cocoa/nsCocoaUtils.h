@@ -335,7 +335,7 @@ CreateNSImageFromImageContainer
 imgIContainer
 *
 aImage
-PRUint32
+uint32_t
 aWhichFrame
 NSImage
 *

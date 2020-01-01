@@ -102,7 +102,7 @@ nsHTMLFieldSetElement
 (
 )
 {
-PRUint32
+uint32_t
 length
 =
 mDependentElements
@@ -113,7 +113,7 @@ Length
 ;
 for
 (
-PRUint32
+uint32_t
 i
 =
 0
@@ -270,7 +270,7 @@ nsHTMLFieldSetElement
 :
 AfterSetAttr
 (
-PRInt32
+int32_t
 aNameSpaceID
 nsIAtom
 *
@@ -327,7 +327,7 @@ true
 )
 ;
 }
-PRUint32
+uint32_t
 length
 =
 mElements
@@ -340,7 +340,7 @@ true
 ;
 for
 (
-PRUint32
+uint32_t
 i
 =
 0
@@ -445,7 +445,7 @@ MatchListedElements
 nsIContent
 *
 aContent
-PRInt32
+int32_t
 aNamespaceID
 nsIAtom
 *
@@ -560,7 +560,7 @@ InsertChildAt
 nsIContent
 *
 aChild
-PRUint32
+uint32_t
 aIndex
 bool
 aNotify
@@ -600,7 +600,7 @@ else
 {
 if
 (
-PRInt32
+int32_t
 (
 aIndex
 )
@@ -663,7 +663,7 @@ nsHTMLFieldSetElement
 :
 RemoveChildAt
 (
-PRUint32
+uint32_t
 aIndex
 bool
 aNotify
@@ -797,7 +797,7 @@ true
 )
 ;
 }
-PRUint32
+uint32_t
 length
 =
 mElements
@@ -810,7 +810,7 @@ true
 ;
 for
 (
-PRUint32
+uint32_t
 i
 =
 0

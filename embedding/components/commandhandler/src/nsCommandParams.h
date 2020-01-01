@@ -75,7 +75,7 @@ PLDHashEntryHdr
 nsCString
 mEntryName
 ;
-PRUint8
+uint8_t
 mEntryType
 ;
 union
@@ -83,7 +83,7 @@ union
 bool
 mBoolean
 ;
-PRInt32
+int32_t
 mLong
 ;
 double
@@ -108,7 +108,7 @@ mISupports
 ;
 HashEntry
 (
-PRUint8
+uint8_t
 inType
 const
 char
@@ -345,7 +345,7 @@ mCString
 void
 Reset
 (
-PRUint8
+uint8_t
 inNewType
 )
 {
@@ -467,11 +467,11 @@ HashEntry
 *
 GetIndexedEntry
 (
-PRInt32
+int32_t
 index
 )
 ;
-PRUint32
+uint32_t
 GetNumEntries
 (
 )
@@ -483,7 +483,7 @@ const
 char
 *
 name
-PRUint8
+uint8_t
 entryType
 HashEntry
 *
@@ -564,10 +564,10 @@ eNumEntriesUnknown
 PLDHashTable
 mValuesHash
 ;
-PRInt32
+int32_t
 mCurEntry
 ;
-PRInt32
+int32_t
 mNumEntries
 ;
 static

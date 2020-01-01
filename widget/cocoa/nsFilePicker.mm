@@ -665,7 +665,7 @@ const
 nsAString
 &
 aTitle
-PRInt16
+int16_t
 aMode
 )
 {
@@ -965,7 +965,7 @@ NO
 autorelease
 ]
 ;
-PRUint32
+uint32_t
 numMenuItems
 =
 mTitles
@@ -976,7 +976,7 @@ Length
 ;
 for
 (
-PRUint32
+uint32_t
 i
 =
 0
@@ -1095,7 +1095,7 @@ mSelectedTypeIndex
 &
 &
 (
-PRUint32
+uint32_t
 )
 mSelectedTypeIndex
 <
@@ -1402,7 +1402,7 @@ nsFilePicker
 :
 Show
 (
-PRInt16
+int16_t
 *
 retval
 )
@@ -1417,7 +1417,7 @@ retval
 =
 returnCancel
 ;
-PRInt16
+int16_t
 userClicksOK
 =
 returnCancel
@@ -1745,7 +1745,7 @@ aSender
 {
 NS_OBJC_BEGIN_TRY_ABORT_BLOCK_RETURN
 ;
-PRInt32
+int32_t
 selectedItem
 =
 [
@@ -1810,7 +1810,7 @@ in
 the
 dialog
 .
-PRInt16
+int16_t
 nsFilePicker
 :
 :
@@ -1832,11 +1832,11 @@ outFiles
 {
 NS_OBJC_BEGIN_TRY_ABORT_BLOCK_RETURN
 ;
-PRInt16
+int16_t
 retVal
 =
 (
-PRInt16
+int16_t
 )
 returnCancel
 ;
@@ -2503,7 +2503,7 @@ in
 the
 dialog
 .
-PRInt16
+int16_t
 nsFilePicker
 :
 :
@@ -2538,11 +2538,11 @@ pointer
 "
 )
 ;
-PRInt16
+int16_t
 retVal
 =
 (
-PRInt16
+int16_t
 )
 returnCancel
 ;
@@ -2846,7 +2846,7 @@ in
 the
 dialog
 .
-PRInt16
+int16_t
 nsFilePicker
 :
 :
@@ -2885,7 +2885,7 @@ pointer
 "
 )
 ;
-PRInt16
+int16_t
 retVal
 =
 returnCancel
@@ -3236,7 +3236,7 @@ Length
 <
 =
 (
-PRUint32
+uint32_t
 )
 mSelectedTypeIndex
 )
@@ -3937,7 +3937,7 @@ nsFilePicker
 :
 GetFilterIndex
 (
-PRInt32
+int32_t
 *
 aFilterIndex
 )
@@ -3970,7 +3970,7 @@ nsFilePicker
 :
 SetFilterIndex
 (
-PRInt32
+int32_t
 aFilterIndex
 )
 {

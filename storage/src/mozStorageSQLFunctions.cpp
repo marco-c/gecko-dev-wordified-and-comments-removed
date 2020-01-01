@@ -389,7 +389,7 @@ _result
 1
 ;
 const
-PRUint32
+uint32_t
 sLen
 =
 aStringS
@@ -399,7 +399,7 @@ Length
 )
 ;
 const
-PRUint32
+uint32_t
 tLen
 =
 aStringT
@@ -506,7 +506,7 @@ SQLITE_NOMEM
 ;
 for
 (
-PRUint32
+uint32_t
 i
 =
 0
@@ -551,7 +551,7 @@ BeginReading
 ;
 for
 (
-PRUint32
+uint32_t
 ti
 =
 1
@@ -586,7 +586,7 @@ ti
 ;
 for
 (
-PRUint32
+uint32_t
 si
 =
 1

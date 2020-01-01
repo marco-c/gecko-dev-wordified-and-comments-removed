@@ -1201,14 +1201,14 @@ token
 }
 static
 inline
-PRUint64
+uint64_t
 version
 (
-PRUint32
+uint32_t
 major
-PRUint32
+uint32_t
 minor
-PRUint32
+uint32_t
 revision
 =
 0
@@ -1216,7 +1216,7 @@ revision
 {
 return
 (
-PRUint64
+uint64_t
 (
 major
 )
@@ -1226,7 +1226,7 @@ major
 )
 +
 (
-PRUint64
+uint64_t
 (
 minor
 )
@@ -1235,7 +1235,7 @@ minor
 16
 )
 +
-PRUint64
+uint64_t
 (
 revision
 )
@@ -1265,9 +1265,9 @@ GfxInfo
 :
 GetFeatureStatusImpl
 (
-PRInt32
+int32_t
 aFeature
-PRInt32
+int32_t
 *
 aStatus
 nsAString
@@ -2240,7 +2240,7 @@ GfxInfo
 :
 SpoofOSVersion
 (
-PRUint32
+uint32_t
 aVersion
 )
 {

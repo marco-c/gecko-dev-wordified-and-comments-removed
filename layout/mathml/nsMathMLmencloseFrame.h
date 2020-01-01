@@ -110,12 +110,12 @@ aDesiredSize
 NS_IMETHOD
 AttributeChanged
 (
-PRInt32
+int32_t
 aNameSpaceID
 nsIAtom
 *
 aAttribute
-PRInt32
+int32_t
 aModType
 )
 ;
@@ -123,7 +123,7 @@ virtual
 void
 SetAdditionalStyleContext
 (
-PRInt32
+int32_t
 aIndex
 nsStyleContext
 *
@@ -135,7 +135,7 @@ nsStyleContext
 *
 GetAdditionalStyleContext
 (
-PRInt32
+int32_t
 aIndex
 )
 const
@@ -222,7 +222,7 @@ InitNotations
 (
 )
 ;
-PRUint32
+uint32_t
 mNotationsToDraw
 ;
 bool
@@ -247,7 +247,7 @@ nsMathMLChar
 >
 mMathMLChar
 ;
-PRInt8
+int8_t
 mLongDivCharIndex
 mRadicalCharIndex
 ;

@@ -318,7 +318,7 @@ inStream
 bufStream
 ;
 }
-PRUint64
+uint64_t
 length
 ;
 rv
@@ -347,7 +347,7 @@ PR_UINT32_MAX
 NS_ERROR_FILE_TOO_BIG
 )
 ;
-PRUint32
+uint32_t
 bytesRead
 ;
 rv
@@ -370,7 +370,7 @@ void
 image
 )
 (
-PRUint32
+uint32_t
 )
 length
 &
@@ -504,9 +504,9 @@ const
 nsACString
 &
 aMimeType
-PRInt32
+int32_t
 aScaledWidth
-PRInt32
+int32_t
 aScaledHeight
 const
 nsAString
@@ -580,7 +580,7 @@ rv
 rv
 )
 ;
-PRInt32
+int32_t
 frameWidth
 =
 frame
@@ -725,13 +725,13 @@ const
 nsACString
 &
 aMimeType
-PRInt32
+int32_t
 aOffsetX
-PRInt32
+int32_t
 aOffsetY
-PRInt32
+int32_t
 aWidth
-PRInt32
+int32_t
 aHeight
 const
 nsAString
@@ -834,7 +834,7 @@ rv
 rv
 )
 ;
-PRInt32
+int32_t
 frameWidth
 =
 frame
@@ -992,11 +992,11 @@ nsIInputStream
 aStream
 )
 {
-PRUint8
+uint8_t
 *
 bitmapData
 ;
-PRUint32
+uint32_t
 bitmapDataLength
 strideSize
 ;
@@ -1073,7 +1073,7 @@ Stride
 (
 )
 ;
-PRInt32
+int32_t
 width
 =
 aSurface

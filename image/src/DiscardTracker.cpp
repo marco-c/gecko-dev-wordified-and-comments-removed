@@ -92,7 +92,7 @@ sTimerOn
 =
 false
 ;
-PRInt32
+int32_t
 DiscardTracker
 :
 :
@@ -100,7 +100,7 @@ sDiscardRunnablePending
 =
 0
 ;
-PRInt64
+int64_t
 DiscardTracker
 :
 :
@@ -108,7 +108,7 @@ sCurrentDecodedImageBytes
 =
 0
 ;
-PRUint32
+uint32_t
 DiscardTracker
 :
 :
@@ -116,7 +116,7 @@ sMinDiscardTimeoutMs
 =
 10000
 ;
-PRUint32
+uint32_t
 DiscardTracker
 :
 :
@@ -454,7 +454,7 @@ DiscardTracker
 :
 InformAllocation
 (
-PRInt64
+int64_t
 bytes
 )
 {
@@ -575,7 +575,7 @@ ReloadTimeout
 (
 )
 {
-PRInt32
+int32_t
 discardTimeout
 ;
 nsresult
@@ -610,7 +610,7 @@ return
 if
 (
 (
-PRUint32
+uint32_t
 )
 discardTimeout
 =
@@ -622,7 +622,7 @@ return
 sMinDiscardTimeoutMs
 =
 (
-PRUint32
+uint32_t
 )
 discardTimeout
 ;

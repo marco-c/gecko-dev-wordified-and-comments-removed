@@ -149,7 +149,7 @@ gCtx
 =
 NULL
 ;
-PRUint32
+uint32_t
 gInstCount
 =
 0
@@ -163,9 +163,9 @@ shell
 gfxASurface
 *
 surface
-PRUint32
+uint32_t
 width
-PRUint32
+uint32_t
 height
 )
 {
@@ -1019,7 +1019,7 @@ case
 WM_DWMSENDICONICTHUMBNAIL
 :
 {
-PRUint32
+uint32_t
 width
 =
 HIWORD
@@ -1027,7 +1027,7 @@ HIWORD
 lParam
 )
 ;
-PRUint32
+uint32_t
 height
 =
 LOWORD
@@ -1071,12 +1071,12 @@ rv
 )
 break
 ;
-PRUint32
+uint32_t
 thumbnailWidth
 =
 width
 ;
-PRUint32
+uint32_t
 thumbnailHeight
 =
 height
@@ -1090,7 +1090,7 @@ preferredAspectRatio
 {
 thumbnailWidth
 =
-PRUint32
+uint32_t
 (
 thumbnailHeight
 *
@@ -1102,7 +1102,7 @@ else
 {
 thumbnailHeight
 =
-PRUint32
+uint32_t
 (
 thumbnailWidth
 /
@@ -1124,7 +1124,7 @@ case
 WM_DWMSENDICONICLIVEPREVIEWBITMAP
 :
 {
-PRUint32
+uint32_t
 width
 height
 ;
@@ -1421,9 +1421,9 @@ TaskbarPreview
 :
 DrawBitmap
 (
-PRUint32
+uint32_t
 width
-PRUint32
+uint32_t
 height
 bool
 isPreview

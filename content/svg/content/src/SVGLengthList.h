@@ -114,7 +114,7 @@ IsEmpty
 )
 ;
 }
-PRUint32
+uint32_t
 Length
 (
 )
@@ -135,7 +135,7 @@ operator
 [
 ]
 (
-PRUint32
+uint32_t
 aIndex
 )
 const
@@ -162,7 +162,7 @@ const
 bool
 SetCapacity
 (
-PRUint32
+uint32_t
 size
 )
 {
@@ -204,7 +204,7 @@ operator
 [
 ]
 (
-PRUint32
+uint32_t
 aIndex
 )
 {
@@ -218,7 +218,7 @@ aIndex
 bool
 SetLength
 (
-PRUint32
+uint32_t
 aNumberOfItems
 )
 {
@@ -257,7 +257,7 @@ Clear
 bool
 InsertItem
 (
-PRUint32
+uint32_t
 aIndex
 const
 SVGLength
@@ -299,7 +299,7 @@ aLength
 void
 ReplaceItem
 (
-PRUint32
+uint32_t
 aIndex
 const
 SVGLength
@@ -338,7 +338,7 @@ aLength
 void
 RemoveItem
 (
-PRUint32
+uint32_t
 aIndex
 )
 {
@@ -429,7 +429,7 @@ SVGLengthListAndInfo
 nsSVGElement
 *
 aElement
-PRUint8
+uint8_t
 aAxis
 bool
 aCanZeroPadList
@@ -465,7 +465,7 @@ SetInfo
 nsSVGElement
 *
 aElement
-PRUint8
+uint8_t
 aAxis
 bool
 aCanZeroPadList
@@ -527,7 +527,7 @@ get
 )
 ;
 }
-PRUint8
+uint8_t
 Axis
 (
 )
@@ -636,7 +636,7 @@ operator
 [
 ]
 (
-PRUint32
+uint32_t
 aIndex
 )
 const
@@ -659,7 +659,7 @@ operator
 [
 ]
 (
-PRUint32
+uint32_t
 aIndex
 )
 {
@@ -678,7 +678,7 @@ aIndex
 bool
 SetLength
 (
-PRUint32
+uint32_t
 aNumberOfItems
 )
 {
@@ -697,7 +697,7 @@ private
 nsWeakPtr
 mElement
 ;
-PRUint8
+uint8_t
 mAxis
 ;
 bool
@@ -731,7 +731,7 @@ aList
 nsSVGElement
 *
 aElement
-PRUint8
+uint8_t
 aAxis
 )
 {
@@ -777,7 +777,7 @@ IsEmpty
 )
 ;
 }
-PRUint32
+uint32_t
 Length
 (
 )
@@ -801,7 +801,7 @@ operator
 [
 ]
 (
-PRUint32
+uint32_t
 aIndex
 )
 const
@@ -833,7 +833,7 @@ nsSVGElement
 *
 mElement
 ;
-PRUint8
+uint8_t
 mAxis
 ;
 }

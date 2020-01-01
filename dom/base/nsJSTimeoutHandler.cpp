@@ -185,7 +185,7 @@ char
 *
 *
 aFileName
-PRUint32
+uint32_t
 *
 aLineNo
 )
@@ -225,7 +225,7 @@ aWindow
 bool
 *
 aIsInterval
-PRInt32
+int32_t
 *
 aInterval
 )
@@ -246,7 +246,7 @@ mContext
 nsCString
 mFileName
 ;
-PRUint32
+uint32_t
 mLineNo
 ;
 nsCOMPtr
@@ -675,7 +675,7 @@ aWindow
 bool
 *
 aIsInterval
-PRInt32
+int32_t
 *
 aInterval
 )
@@ -759,7 +759,7 @@ rv
 rv
 )
 ;
-PRUint32
+uint32_t
 argc
 ;
 jsval
@@ -1253,7 +1253,7 @@ return
 NS_ERROR_OUT_OF_MEMORY
 ;
 }
-PRUint32
+uint32_t
 dummy
 ;
 jsval
@@ -1288,13 +1288,13 @@ jsargv
 {
 for
 (
-PRInt32
+int32_t
 i
 =
 2
 ;
 (
-PRUint32
+uint32_t
 )
 i
 <
@@ -1419,7 +1419,7 @@ aWindow
 bool
 *
 aIsInterval
-PRInt32
+int32_t
 *
 aInterval
 nsIScriptTimeoutHandler

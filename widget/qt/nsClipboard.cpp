@@ -339,7 +339,7 @@ mimeData
 new
 QMimeData
 ;
-PRUint32
+uint32_t
 flavorCount
 =
 0
@@ -360,7 +360,7 @@ false
 ;
 for
 (
-PRUint32
+uint32_t
 i
 =
 0
@@ -429,7 +429,7 @@ nsISupports
 >
 clip
 ;
-PRUint32
+uint32_t
 len
 ;
 if
@@ -709,7 +709,7 @@ ptrPrimitive
 ;
 for
 (
-PRUint32
+uint32_t
 i
 =
 0
@@ -1116,7 +1116,7 @@ mimeData
 clipboardMode
 )
 ;
-PRUint32
+uint32_t
 flavorCount
 ;
 flavorList
@@ -1133,7 +1133,7 @@ foundFlavor
 ;
 for
 (
-PRUint32
+uint32_t
 i
 =
 0
@@ -1246,11 +1246,11 @@ unicode
 (
 )
 ;
-PRUint32
+uint32_t
 len
 =
 (
-PRUint32
+uint32_t
 )
 2
 *
@@ -1355,11 +1355,11 @@ unicode
 (
 )
 ;
-PRUint32
+uint32_t
 len
 =
 (
-PRUint32
+uint32_t
 )
 2
 *
@@ -1753,9 +1753,9 @@ char
 *
 *
 aFlavorList
-PRUint32
+uint32_t
 aLength
-PRInt32
+int32_t
 aWhichClipboard
 bool
 *
@@ -1819,7 +1819,7 @@ formats
 ;
 for
 (
-PRUint32
+uint32_t
 i
 =
 0
@@ -1933,7 +1933,7 @@ aTransferable
 nsIClipboardOwner
 *
 aOwner
-PRInt32
+int32_t
 aWhichClipboard
 )
 {
@@ -2111,7 +2111,7 @@ GetData
 nsITransferable
 *
 aTransferable
-PRInt32
+int32_t
 aWhichClipboard
 )
 {
@@ -2192,7 +2192,7 @@ nsClipboard
 :
 EmptyClipboard
 (
-PRInt32
+int32_t
 aWhichClipboard
 )
 {

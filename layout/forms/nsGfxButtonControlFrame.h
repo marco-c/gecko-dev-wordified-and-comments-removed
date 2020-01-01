@@ -123,7 +123,7 @@ AppendAnonymousContentTo
 nsBaseContentList
 &
 aElements
-PRUint32
+uint32_t
 aFilter
 )
 ;
@@ -153,12 +153,12 @@ const
 NS_IMETHOD
 AttributeChanged
 (
-PRInt32
+int32_t
 aNameSpaceID
 nsIAtom
 *
 aAttribute
-PRInt32
+int32_t
 aModType
 )
 ;
@@ -197,7 +197,7 @@ aLabel
 bool
 IsFileBrowseButton
 (
-PRInt32
+int32_t
 type
 )
 ;

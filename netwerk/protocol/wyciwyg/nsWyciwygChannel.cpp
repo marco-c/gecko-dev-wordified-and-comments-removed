@@ -668,7 +668,7 @@ nsWyciwygChannel
 :
 SetLoadFlags
 (
-PRUint32
+uint32_t
 aLoadFlags
 )
 {
@@ -686,7 +686,7 @@ nsWyciwygChannel
 :
 GetLoadFlags
 (
-PRUint32
+uint32_t
 *
 aLoadFlags
 )
@@ -1019,7 +1019,7 @@ nsWyciwygChannel
 :
 GetContentDisposition
 (
-PRUint32
+uint32_t
 *
 aContentDisposition
 )
@@ -1064,7 +1064,7 @@ nsWyciwygChannel
 :
 GetContentLength
 (
-PRInt32
+int32_t
 *
 aContentLength
 )
@@ -1084,7 +1084,7 @@ nsWyciwygChannel
 :
 SetContentLength
 (
-PRInt32
+int32_t
 aContentLength
 )
 {
@@ -1447,7 +1447,7 @@ mNeedToWriteCharset
 false
 ;
 }
-PRUint32
+uint32_t
 out
 ;
 if
@@ -1677,7 +1677,7 @@ nsWyciwygChannel
 :
 SetCharsetAndSource
 (
-PRInt32
+int32_t
 aSource
 const
 nsACString
@@ -1767,7 +1767,7 @@ nsWyciwygChannel
 :
 GetCharsetAndSource
 (
-PRInt32
+int32_t
 *
 aSource
 nsACString
@@ -1852,7 +1852,7 @@ sourceStr
 )
 )
 ;
-PRInt32
+int32_t
 source
 ;
 nsresult
@@ -2084,9 +2084,9 @@ ctx
 nsIInputStream
 *
 input
-PRUint32
+uint32_t
 offset
-PRUint32
+uint32_t
 count
 )
 {
@@ -2168,13 +2168,13 @@ OnProgress
 (
 this
 nullptr
-PRUint64
+uint64_t
 (
 offset
 +
 count
 )
-PRUint64
+uint64_t
 (
 mContentLength
 )
@@ -2673,7 +2673,7 @@ nsWyciwygChannel
 :
 WriteCharsetAndSourceToCache
 (
-PRInt32
+int32_t
 aSource
 const
 nsCString

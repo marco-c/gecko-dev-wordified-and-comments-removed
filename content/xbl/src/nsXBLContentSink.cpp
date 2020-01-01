@@ -881,7 +881,7 @@ ReportUnexpectedElement
 nsIAtom
 *
 aElementName
-PRUint32
+uint32_t
 aLineNumber
 )
 {
@@ -1040,11 +1040,11 @@ PRUnichar
 *
 *
 aAtts
-PRUint32
+uint32_t
 aAttsCount
-PRInt32
+int32_t
 aIndex
-PRUint32
+uint32_t
 aLineNumber
 )
 {
@@ -1131,7 +1131,7 @@ mState
 eXBL_InDocument
 )
 {
-PRInt32
+int32_t
 nameSpaceID
 ;
 nsCOMPtr
@@ -1545,7 +1545,7 @@ const
 PRUnichar
 *
 aData
-PRUint32
+uint32_t
 aLength
 )
 {
@@ -1620,14 +1620,14 @@ PRUnichar
 *
 *
 aAtts
-PRUint32
+uint32_t
 aAttsCount
-PRInt32
+int32_t
 aNameSpaceID
 nsIAtom
 *
 aTagName
-PRUint32
+uint32_t
 aLineNumber
 )
 {
@@ -2499,7 +2499,7 @@ nsXBLContentSink
 :
 ConstructBinding
 (
-PRUint32
+uint32_t
 aLineNumber
 )
 {
@@ -2720,7 +2720,7 @@ aAtts
 2
 )
 {
-PRInt32
+int32_t
 nameSpaceID
 ;
 nsContentUtils
@@ -2786,7 +2786,7 @@ PRUnichar
 *
 *
 aAtts
-PRUint32
+uint32_t
 aLineNumber
 )
 {
@@ -2893,7 +2893,7 @@ aAtts
 2
 )
 {
-PRInt32
+int32_t
 nameSpaceID
 ;
 nsContentUtils
@@ -3384,7 +3384,7 @@ aAtts
 2
 )
 {
-PRInt32
+int32_t
 nameSpaceID
 ;
 nsContentUtils
@@ -3522,7 +3522,7 @@ PRUnichar
 *
 *
 aAtts
-PRUint32
+uint32_t
 aLineNumber
 )
 {
@@ -3559,7 +3559,7 @@ aAtts
 2
 )
 {
-PRInt32
+int32_t
 nameSpaceID
 ;
 nsContentUtils
@@ -3729,7 +3729,7 @@ aAtts
 2
 )
 {
-PRInt32
+int32_t
 nameSpaceID
 ;
 nsContentUtils
@@ -3997,12 +3997,12 @@ PRUnichar
 *
 *
 aAtts
-PRUint32
+uint32_t
 aAttsCount
 nsINodeInfo
 *
 aNodeInfo
-PRUint32
+uint32_t
 aLineNumber
 nsIContent
 *
@@ -4172,7 +4172,7 @@ PRUnichar
 *
 *
 aAtts
-PRUint32
+uint32_t
 aAttsCount
 nsXULPrototypeElement
 *
@@ -4233,7 +4233,7 @@ nsIAtom
 prefix
 localName
 ;
-PRUint32
+uint32_t
 i
 ;
 for
@@ -4251,7 +4251,7 @@ aAttsCount
 i
 )
 {
-PRInt32
+int32_t
 nameSpaceID
 ;
 nsContentUtils

@@ -27,7 +27,7 @@ nsTraversal
 nsINode
 *
 aRoot
-PRUint32
+uint32_t
 aWhatToShow
 nsIDOMNodeFilter
 *
@@ -48,7 +48,7 @@ nsINode
 >
 mRoot
 ;
-PRUint32
+uint32_t
 mWhatToShow
 ;
 nsCOMPtr
@@ -66,7 +66,7 @@ TestNode
 nsINode
 *
 aNode
-PRInt16
+int16_t
 *
 _filtered
 )

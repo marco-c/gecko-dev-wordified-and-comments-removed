@@ -356,7 +356,7 @@ sMultiprocessDescription
 NULL
 ;
 static
-PRInt32
+int32_t
 gAssertionCount
 =
 0
@@ -415,7 +415,7 @@ const
 char
 *
 aFile
-PRInt32
+int32_t
 aLine
 )
 {
@@ -446,7 +446,7 @@ const
 char
 *
 aFile
-PRInt32
+int32_t
 aLine
 )
 {
@@ -473,7 +473,7 @@ const
 char
 *
 aFile
-PRInt32
+int32_t
 aLine
 )
 {
@@ -500,7 +500,7 @@ const
 char
 *
 aFile
-PRInt32
+int32_t
 aLine
 )
 {
@@ -555,7 +555,7 @@ nsDebugImpl
 :
 GetAssertionCount
 (
-PRInt32
+int32_t
 *
 aResult
 )
@@ -1020,7 +1020,7 @@ buffer
 1000
 ]
 ;
-PRUint32
+uint32_t
 curlen
 ;
 }
@@ -1036,7 +1036,7 @@ const
 char
 *
 buf
-PRUint32
+uint32_t
 len
 )
 {
@@ -1167,7 +1167,7 @@ void
 )
 NS_DebugBreak
 (
-PRUint32
+uint32_t
 aSeverity
 const
 char
@@ -1181,7 +1181,7 @@ const
 char
 *
 aFile
-PRInt32
+int32_t
 aLine
 )
 {

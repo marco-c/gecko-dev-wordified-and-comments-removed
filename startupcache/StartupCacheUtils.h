@@ -38,7 +38,7 @@ NewObjectInputStreamFromBuffer
 char
 *
 buffer
-PRUint32
+uint32_t
 len
 nsIObjectInputStream
 *
@@ -73,7 +73,7 @@ char
 *
 *
 buffer
-PRUint32
+uint32_t
 *
 len
 )

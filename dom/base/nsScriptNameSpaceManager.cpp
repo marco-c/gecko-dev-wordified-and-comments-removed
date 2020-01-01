@@ -1844,7 +1844,7 @@ table
 PLDHashEntryHdr
 *
 hdr
-PRUint32
+uint32_t
 number
 void
 *
@@ -2205,7 +2205,7 @@ const
 char
 *
 aClassName
-PRInt32
+int32_t
 aDOMClassInfoID
 bool
 aPrivileged
@@ -2637,7 +2637,7 @@ nsIID
 *
 *
 aInterfaces
-PRUint32
+uint32_t
 aScriptableFlags
 bool
 aHasClassInterface

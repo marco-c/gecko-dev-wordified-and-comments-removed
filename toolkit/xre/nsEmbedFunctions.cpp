@@ -690,7 +690,7 @@ rv
 ;
 }
 static
-PRInt32
+int32_t
 sInitCounter
 ;
 nsresult
@@ -1012,13 +1012,13 @@ MOZ_CRASHREPORTER
 bool
 XRE_TakeMinidumpForChild
 (
-PRUint32
+uint32_t
 aChildPid
 nsIFile
 *
 *
 aDump
-PRUint32
+uint32_t
 *
 aSequence
 )

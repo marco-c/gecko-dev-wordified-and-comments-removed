@@ -164,7 +164,7 @@ nsIUnicodeDecoder
 kOnError_Signal
 )
 ;
-PRInt32
+int32_t
 srcLen
 =
 aString
@@ -173,7 +173,7 @@ Length
 (
 )
 ;
-PRInt32
+int32_t
 dstLen
 ;
 const
@@ -294,7 +294,7 @@ bool
 aSkipCheck
 bool
 aAllowSubstitution
-PRUint8
+uint8_t
 aOptionalArgc
 nsACString
 &

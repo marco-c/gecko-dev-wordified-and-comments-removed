@@ -756,7 +756,7 @@ aDOMDocument
 nsISelection
 *
 aSelection
-PRInt16
+int16_t
 aReason
 )
 {
@@ -882,7 +882,7 @@ aSelection
 )
 )
 ;
-PRInt16
+int16_t
 type
 =
 0
@@ -946,7 +946,7 @@ do_GetWeakReference
 aSelection
 )
 ;
-PRInt32
+int32_t
 rangeCount
 =
 0
@@ -994,7 +994,7 @@ textAcc
 )
 return
 ;
-PRInt32
+int32_t
 caretOffset
 =
 -
@@ -1035,7 +1035,7 @@ caretOffset
 mLastCaretOffset
 )
 {
-PRInt32
+int32_t
 selectionCount
 =
 0
@@ -1412,7 +1412,7 @@ GetClientOffset
 )
 )
 ;
-PRInt32
+int32_t
 charX
 charY
 charWidth

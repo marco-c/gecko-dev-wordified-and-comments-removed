@@ -264,9 +264,9 @@ ctxt
 nsIInputStream
 *
 inStr
-PRUint32
+uint32_t
 sourceOffset
-PRUint32
+uint32_t
 count
 )
 {
@@ -1396,9 +1396,9 @@ char
 const
 *
 aFormatNames
-PRInt32
+int32_t
 aWidth
-PRInt32
+int32_t
 aHeight
 const
 nsAString

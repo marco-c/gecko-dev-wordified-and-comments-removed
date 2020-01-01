@@ -923,7 +923,7 @@ aRoot
 nsISelectionController
 *
 aSelCon
-PRUint32
+uint32_t
 aFlags
 )
 {
@@ -1872,7 +1872,7 @@ nsHTMLEditor
 :
 SetFlags
 (
-PRUint32
+uint32_t
 aFlags
 )
 {
@@ -2045,7 +2045,7 @@ rootElement
 )
 selNode
 ;
-PRInt32
+int32_t
 curOffset
 =
 0
@@ -2071,7 +2071,7 @@ nsIDOMNode
 >
 visNode
 ;
-PRInt32
+int32_t
 visOffset
 =
 0
@@ -2495,7 +2495,7 @@ rv
 rv
 )
 ;
-PRInt32
+int32_t
 offset
 ;
 nsCOMPtr
@@ -3696,7 +3696,7 @@ IsNextCharInNodeWhitespace
 nsIContent
 *
 aContent
-PRInt32
+int32_t
 aOffset
 bool
 *
@@ -3708,7 +3708,7 @@ nsIContent
 *
 *
 outNode
-PRInt32
+int32_t
 *
 outOffset
 )
@@ -3789,7 +3789,7 @@ eTEXT
 &
 &
 (
-PRUint32
+uint32_t
 )
 aOffset
 <
@@ -3873,7 +3873,7 @@ IsPrevCharInNodeWhitespace
 nsIContent
 *
 aContent
-PRInt32
+int32_t
 aOffset
 bool
 *
@@ -3885,7 +3885,7 @@ nsIContent
 *
 *
 outNode
-PRInt32
+int32_t
 *
 outOffset
 )
@@ -4148,7 +4148,7 @@ nsIDOMNode
 selNode
 tmp
 ;
-PRInt32
+int32_t
 selOffset
 ;
 selNode
@@ -4178,7 +4178,7 @@ nsIDOMNode
 >
 visNode
 ;
-PRInt32
+int32_t
 visOffset
 =
 0
@@ -4376,7 +4376,7 @@ if
 nodeList
 )
 {
-PRUint32
+uint32_t
 count
 ;
 nodeList
@@ -4836,7 +4836,7 @@ nsIDOMElement
 >
 cell
 ;
-PRInt32
+int32_t
 row
 ;
 res
@@ -4924,7 +4924,7 @@ CreateBR
 nsIDOMNode
 *
 aNode
-PRInt32
+int32_t
 aOffset
 nsCOMPtr
 <
@@ -4944,7 +4944,7 @@ parent
 =
 aNode
 ;
-PRInt32
+int32_t
 offset
 =
 aOffset
@@ -5218,7 +5218,7 @@ nodeList
 NS_ERROR_NULL_POINTER
 )
 ;
-PRUint32
+uint32_t
 count
 ;
 nodeList
@@ -5504,7 +5504,7 @@ while
 child
 )
 ;
-PRInt32
+int32_t
 offsetOfNewNode
 =
 0
@@ -6304,7 +6304,7 @@ nsIDOMNode
 >
 *
 insertParentNode
-PRInt32
+int32_t
 *
 insertOffset
 )
@@ -6341,7 +6341,7 @@ nsIDOMNode
 >
 prevVisNode
 ;
-PRInt32
+int32_t
 nextVisOffset
 =
 0
@@ -6349,7 +6349,7 @@ nextVisOffset
 WSType
 nextVisType
 ;
-PRInt32
+int32_t
 prevVisOffset
 =
 0
@@ -6449,7 +6449,7 @@ thisBlock
 return
 ;
 }
-PRInt32
+int32_t
 brOffset
 =
 0
@@ -6715,7 +6715,7 @@ nsIDOMNode
 >
 parentSelectedNode
 ;
-PRInt32
+int32_t
 offsetForInsert
 ;
 res
@@ -6969,7 +6969,7 @@ nsIDOMNode
 >
 *
 ioParent
-PRInt32
+int32_t
 *
 ioOffset
 bool
@@ -7030,7 +7030,7 @@ nsIDOMNode
 >
 tmp
 ;
-PRInt32
+int32_t
 offsetOfInsert
 =
 *
@@ -7228,7 +7228,7 @@ res
 parent
 )
 {
-PRInt32
+int32_t
 offsetInParent
 =
 GetChildOffset
@@ -7362,7 +7362,7 @@ parent
 NS_ERROR_NULL_POINTER
 )
 ;
-PRInt32
+int32_t
 offsetInParent
 =
 GetChildOffset
@@ -7683,7 +7683,7 @@ nsIDOMNode
 >
 parent
 ;
-PRInt32
+int32_t
 offset
 ;
 res
@@ -8082,7 +8082,7 @@ nsIDOMElement
 >
 domElement
 ;
-PRInt32
+int32_t
 selectedCount
 ;
 nsAutoString
@@ -8677,7 +8677,7 @@ nsIDOMNode
 >
 node
 ;
-PRInt32
+int32_t
 offset
 ;
 res
@@ -9342,7 +9342,7 @@ nsIDOMNode
 >
 node
 ;
-PRInt32
+int32_t
 offset
 ;
 res
@@ -9682,7 +9682,7 @@ nsIDOMNode
 >
 node
 ;
-PRInt32
+int32_t
 offset
 ;
 bool
@@ -10214,7 +10214,7 @@ if
 hasChildren
 )
 {
-PRInt32
+int32_t
 offset
 ;
 res
@@ -10721,7 +10721,7 @@ nsIDOMNode
 >
 startParent
 ;
-PRInt32
+int32_t
 startOffset
 endOffset
 ;
@@ -10951,7 +10951,7 @@ res
 res
 )
 ;
-PRInt32
+int32_t
 anchorOffset
 =
 -
@@ -10995,7 +10995,7 @@ res
 res
 )
 ;
-PRInt32
+int32_t
 focusOffset
 =
 -
@@ -12149,7 +12149,7 @@ attrMap
 NS_ERROR_FAILURE
 )
 ;
-PRUint32
+uint32_t
 count
 ;
 attrMap
@@ -12167,7 +12167,7 @@ value
 ;
 for
 (
-PRUint32
+uint32_t
 i
 =
 0
@@ -12320,7 +12320,7 @@ nsIDOMElement
 >
 element
 ;
-PRInt32
+int32_t
 selectedCount
 ;
 nsAutoString
@@ -13472,7 +13472,7 @@ nsCSSStyleSheet
 aStyleSheet
 )
 {
-PRUint32
+uint32_t
 countSS
 =
 mStyleSheets
@@ -13481,7 +13481,7 @@ Length
 (
 )
 ;
-PRUint32
+uint32_t
 countU
 =
 mStyleSheetURLs
@@ -13538,7 +13538,7 @@ nsAString
 aURL
 )
 {
-PRUint32
+uint32_t
 foundIndex
 ;
 foundIndex
@@ -13606,7 +13606,7 @@ aStyleSheet
 =
 0
 ;
-PRUint32
+uint32_t
 foundIndex
 ;
 foundIndex
@@ -13669,7 +13669,7 @@ nsAString
 aURL
 )
 {
-PRInt32
+int32_t
 foundIndex
 =
 mStyleSheets
@@ -14376,9 +14376,9 @@ DeleteText
 nsIDOMCharacterData
 *
 aTextNode
-PRUint32
+uint32_t
 aOffset
-PRUint32
+uint32_t
 aLength
 )
 {
@@ -14423,7 +14423,7 @@ nsIDOMNode
 >
 *
 aInOutNode
-PRInt32
+int32_t
 *
 aInOutOffset
 nsIDOMDocument
@@ -14473,7 +14473,7 @@ aContainer
 nsIContent
 *
 aFirstNewContent
-PRInt32
+int32_t
 aIndexInContainer
 )
 {
@@ -14501,7 +14501,7 @@ aContainer
 nsIContent
 *
 aChild
-PRInt32
+int32_t
 aIndexInContainer
 )
 {
@@ -14658,7 +14658,7 @@ aContainer
 nsIContent
 *
 aChild
-PRInt32
+int32_t
 aIndexInContainer
 nsIContent
 *
@@ -15002,7 +15002,7 @@ rv
 rv
 )
 ;
-PRUint32
+uint32_t
 childCount
 =
 headNode
@@ -15151,7 +15151,7 @@ BeginReading
 beginIter
 )
 ;
-PRInt32
+int32_t
 offset
 =
 Distance
@@ -15248,10 +15248,10 @@ nsHTMLEditor
 :
 DebugUnitTests
 (
-PRInt32
+int32_t
 *
 outNumTests
-PRInt32
+int32_t
 *
 outNumTestsFailed
 )
@@ -15578,7 +15578,7 @@ GetParserService
 (
 )
 ;
-PRInt32
+int32_t
 childTagEnum
 ;
 if
@@ -15610,7 +15610,7 @@ aChildTag
 )
 ;
 }
-PRInt32
+int32_t
 parentTagEnum
 =
 parserService
@@ -15673,7 +15673,7 @@ rv
 false
 )
 ;
-PRInt32
+int32_t
 tagEnum
 ;
 if
@@ -17132,7 +17132,7 @@ child
 )
 )
 {
-PRUint32
+uint32_t
 len
 ;
 res
@@ -17155,7 +17155,7 @@ CreateBR
 (
 inNode
 (
-PRInt32
+int32_t
 )
 len
 address_of
@@ -17405,7 +17405,7 @@ GetPriorHTMLSibling
 nsINode
 *
 aParent
-PRInt32
+int32_t
 aOffset
 )
 {
@@ -17460,7 +17460,7 @@ GetPriorHTMLSibling
 nsIDOMNode
 *
 inParent
-PRInt32
+int32_t
 inOffset
 nsCOMPtr
 <
@@ -17638,7 +17638,7 @@ GetNextHTMLSibling
 nsINode
 *
 aParent
-PRInt32
+int32_t
 aOffset
 )
 {
@@ -17693,7 +17693,7 @@ GetNextHTMLSibling
 nsIDOMNode
 *
 inParent
-PRInt32
+int32_t
 inOffset
 nsCOMPtr
 <
@@ -17849,7 +17849,7 @@ GetPriorHTMLNode
 nsINode
 *
 aParent
-PRInt32
+int32_t
 aOffset
 bool
 aNoBlockCrossing
@@ -17886,7 +17886,7 @@ GetPriorHTMLNode
 nsIDOMNode
 *
 inParent
-PRInt32
+int32_t
 inOffset
 nsCOMPtr
 <
@@ -18052,7 +18052,7 @@ GetNextHTMLNode
 nsINode
 *
 aParent
-PRInt32
+int32_t
 aOffset
 bool
 aNoBlockCrossing
@@ -18099,7 +18099,7 @@ GetNextHTMLNode
 nsIDOMNode
 *
 inParent
-PRInt32
+int32_t
 inOffset
 nsCOMPtr
 <
@@ -18960,7 +18960,7 @@ outIsEmptyNode
 =
 true
 ;
-PRUint32
+uint32_t
 length
 =
 aNode
@@ -19082,7 +19082,7 @@ nsIDOMNode
 >
 visNode
 ;
-PRInt32
+int32_t
 outVisOffset
 =
 0
@@ -19679,7 +19679,7 @@ IsCSSEnabled
 mHTMLCSSUtils
 )
 {
-PRInt32
+int32_t
 count
 ;
 res
@@ -20053,7 +20053,7 @@ SetCSSEnabled
 aIsCSSPrefChecked
 )
 ;
-PRUint32
+uint32_t
 flags
 =
 mFlags
@@ -20346,7 +20346,7 @@ nsIDOMNode
 startNode
 endNode
 ;
-PRInt32
+int32_t
 startOffset
 endOffset
 ;
@@ -20474,7 +20474,7 @@ do_QueryInterface
 blockParent
 )
 ;
-PRInt32
+int32_t
 count
 ;
 res
@@ -20537,7 +20537,7 @@ do_QueryInterface
 startNode
 )
 ;
-PRInt32
+int32_t
 count
 ;
 res
@@ -20677,7 +20677,7 @@ do_QueryInterface
 blockParent
 )
 ;
-PRInt32
+int32_t
 count
 ;
 res
@@ -20881,7 +20881,7 @@ do_QueryInterface
 blockParent
 )
 ;
-PRInt32
+int32_t
 count
 ;
 res
@@ -20910,7 +20910,7 @@ res
 ;
 }
 }
-PRInt32
+int32_t
 listCount
 =
 arrayOfNodes
@@ -20919,7 +20919,7 @@ Count
 (
 )
 ;
-PRInt32
+int32_t
 j
 ;
 for
@@ -21009,7 +21009,7 @@ do_QueryInterface
 blockParent
 )
 ;
-PRInt32
+int32_t
 count
 ;
 res
@@ -21094,7 +21094,7 @@ do_QueryInterface
 blockParent
 )
 ;
-PRInt32
+int32_t
 count
 ;
 res
@@ -21673,10 +21673,10 @@ GetElementOrigin
 nsIDOMElement
 *
 aElement
-PRInt32
+int32_t
 &
 aX
-PRInt32
+int32_t
 &
 aY
 )
@@ -21949,7 +21949,7 @@ res
 }
 else
 {
-PRInt32
+int32_t
 rangeCount
 ;
 res
@@ -22054,7 +22054,7 @@ res
 res
 )
 ;
-PRInt32
+int32_t
 startOffset
 endOffset
 ;
@@ -22174,7 +22174,7 @@ res
 }
 else
 {
-PRInt32
+int32_t
 i
 ;
 nsCOMPtr
@@ -22294,7 +22294,7 @@ if
 focusNode
 )
 {
-PRUint16
+uint16_t
 nodeType
 ;
 focusNode

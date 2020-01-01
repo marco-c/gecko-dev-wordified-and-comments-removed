@@ -104,14 +104,14 @@ aList
 void
 InternalBaseValListWillChangeLengthTo
 (
-PRUint32
+uint32_t
 aNewLength
 )
 ;
 void
 InternalAnimValListWillChangeLengthTo
 (
-PRUint32
+uint32_t
 aNewLength
 )
 ;

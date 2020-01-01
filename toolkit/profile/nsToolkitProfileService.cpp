@@ -1282,7 +1282,7 @@ nsToolkitProfileLock
 :
 GetReplacedLockTime
 (
-PRInt64
+int64_t
 *
 aResult
 )
@@ -1462,7 +1462,7 @@ return
 NS_OK
 ;
 }
-PRInt64
+int64_t
 size
 ;
 rv
@@ -3597,7 +3597,7 @@ nsToolkitProfileService
 :
 GetProfileCount
 (
-PRUint32
+uint32_t
 *
 aResult
 )
@@ -3647,7 +3647,7 @@ Flush
 nsresult
 rv
 ;
-PRUint32
+uint32_t
 pCount
 =
 0
@@ -3678,7 +3678,7 @@ mNext
 +
 pCount
 ;
-PRUint32
+uint32_t
 length
 ;
 nsAutoArrayPtr
@@ -4235,7 +4235,7 @@ defined
 (
 XP_MACOSX
 )
-PRInt32
+int32_t
 pathLen
 =
 strlen

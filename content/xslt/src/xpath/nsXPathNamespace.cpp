@@ -99,7 +99,7 @@ nsXPathNamespace
 :
 GetNodeType
 (
-PRUint16
+uint16_t
 *
 aNodeType
 )
@@ -346,7 +346,7 @@ CloneNode
 (
 bool
 deep
-PRUint8
+uint8_t
 aOptionalArgc
 nsIDOMNode
 *

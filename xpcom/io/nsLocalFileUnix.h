@@ -417,7 +417,7 @@ newParent
 nsresult
 CreateAllAncestors
 (
-PRUint32
+uint32_t
 permissions
 )
 ;
@@ -444,11 +444,11 @@ FillStatCache
 nsresult
 CreateAndKeepOpen
 (
-PRUint32
+uint32_t
 type
 int
 flags
-PRUint32
+uint32_t
 permissions
 PRFileDesc
 *

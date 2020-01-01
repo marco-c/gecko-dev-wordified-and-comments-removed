@@ -500,7 +500,7 @@ MemoryElement
 aMemoryElement
 )
 ;
-PRInt32
+int32_t
 GetContainerIndexOf
 (
 nsIXULTemplateResult
@@ -625,7 +625,7 @@ mQueryProcessorRDFInited
 bool
 mGenerationStarted
 ;
-PRInt32
+int32_t
 mUpdateBatchNest
 ;
 nsResourceSet

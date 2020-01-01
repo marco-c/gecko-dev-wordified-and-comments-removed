@@ -43,12 +43,12 @@ PrepareAndDispatch
 nsXPTCStubBase
 *
 self
-PRUint32
+uint32_t
 methodIndex
-PRUint32
+uint32_t
 *
 args
-PRUint32
+uint32_t
 *
 floatargs
 )
@@ -86,7 +86,7 @@ nsXPTMethodInfo
 *
 info
 ;
-PRInt32
+int32_t
 regwords
 =
 1
@@ -96,10 +96,10 @@ result
 =
 NS_ERROR_FAILURE
 ;
-PRUint8
+uint8_t
 paramCount
 ;
-PRUint8
+uint8_t
 i
 ;
 NS_ASSERTION
@@ -119,7 +119,7 @@ mEntry
 >
 GetMethodInfo
 (
-PRUint16
+uint16_t
 (
 methodIndex
 )
@@ -303,7 +303,7 @@ i8
 *
 (
 (
-PRInt32
+int32_t
 *
 )
 args
@@ -327,7 +327,7 @@ i16
 *
 (
 (
-PRInt32
+int32_t
 *
 )
 args
@@ -351,7 +351,7 @@ i32
 *
 (
 (
-PRInt32
+int32_t
 *
 )
 args
@@ -490,7 +490,7 @@ lo
 *
 (
 (
-PRUint32
+uint32_t
 *
 )
 args
@@ -510,7 +510,7 @@ hi
 *
 (
 (
-PRUint32
+uint32_t
 *
 )
 -
@@ -593,7 +593,7 @@ u8
 *
 (
 (
-PRUint32
+uint32_t
 *
 )
 args
@@ -617,7 +617,7 @@ u16
 *
 (
 (
-PRUint32
+uint32_t
 *
 )
 args
@@ -641,7 +641,7 @@ u32
 *
 (
 (
-PRUint32
+uint32_t
 *
 )
 args
@@ -665,7 +665,7 @@ b
 *
 (
 (
-PRUint32
+uint32_t
 *
 )
 args
@@ -689,7 +689,7 @@ c
 *
 (
 (
-PRUint32
+uint32_t
 *
 )
 args
@@ -713,7 +713,7 @@ wc
 *
 (
 (
-PRInt32
+int32_t
 *
 )
 args
@@ -750,7 +750,7 @@ mOuter
 CallMethod
 (
 (
-PRUint16
+uint16_t
 )
 methodIndex
 info

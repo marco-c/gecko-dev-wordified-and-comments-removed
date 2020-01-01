@@ -59,9 +59,9 @@ nsXHTMLContentSerializer
 NS_IMETHOD
 Init
 (
-PRUint32
+uint32_t
 flags
-PRUint32
+uint32_t
 aWrapColumn
 const
 char
@@ -79,9 +79,9 @@ AppendText
 nsIContent
 *
 aText
-PRInt32
+int32_t
 aStartOffset
-PRInt32
+int32_t
 aEndOffset
 nsAString
 &
@@ -126,7 +126,7 @@ aOriginalElement
 nsIAtom
 *
 aName
-PRInt32
+int32_t
 aNamespaceID
 nsAString
 &
@@ -179,7 +179,7 @@ virtual
 bool
 LineBreakBeforeOpen
 (
-PRInt32
+int32_t
 aNamespaceID
 nsIAtom
 *
@@ -190,7 +190,7 @@ virtual
 bool
 LineBreakAfterOpen
 (
-PRInt32
+int32_t
 aNamespaceID
 nsIAtom
 *
@@ -201,7 +201,7 @@ virtual
 bool
 LineBreakBeforeClose
 (
-PRInt32
+int32_t
 aNamespaceID
 nsIAtom
 *
@@ -212,7 +212,7 @@ virtual
 bool
 LineBreakAfterClose
 (
-PRInt32
+int32_t
 aNamespaceID
 nsIAtom
 *
@@ -226,7 +226,7 @@ const
 nsString
 &
 text
-PRInt32
+int32_t
 &
 aLastNewlineOffset
 )
@@ -272,7 +272,7 @@ aTagName
 nsAString
 &
 aStr
-PRUint32
+uint32_t
 aSkipAttr
 bool
 aAddNSAttr
@@ -353,7 +353,7 @@ mDoHeader
 bool
 mIsCopying
 ;
-PRInt32
+int32_t
 mDisableEntityEncoding
 ;
 bool
@@ -367,7 +367,7 @@ olState
 {
 olState
 (
-PRInt32
+int32_t
 aStart
 bool
 aIsFirst
@@ -404,7 +404,7 @@ aOlState
 isFirstListItem
 ;
 }
-PRInt32
+int32_t
 startVal
 ;
 bool

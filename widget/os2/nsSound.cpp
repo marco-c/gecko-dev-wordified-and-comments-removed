@@ -87,7 +87,7 @@ typedef
 struct
 _ARGBUFFER
 {
-PRUint32
+uint32_t
 bufLen
 ;
 char
@@ -216,7 +216,7 @@ static
 FOURCC
 determineFourCC
 (
-PRUint32
+uint32_t
 aDataLen
 const
 char
@@ -341,10 +341,10 @@ nsISupports
 context
 nsresult
 aStatus
-PRUint32
+uint32_t
 dataLen
 const
-PRUint8
+uint8_t
 *
 data
 )
@@ -662,7 +662,7 @@ instead
 "
 )
 ;
-PRUint32
+uint32_t
 eventId
 ;
 if
@@ -802,7 +802,7 @@ nsSound
 :
 PlayEventSound
 (
-PRUint32
+uint32_t
 aEventId
 )
 {
@@ -1935,7 +1935,7 @@ static
 FOURCC
 determineFourCC
 (
-PRUint32
+uint32_t
 aDataLen
 const
 char

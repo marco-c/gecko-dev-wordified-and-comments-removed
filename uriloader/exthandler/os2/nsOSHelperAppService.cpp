@@ -6067,7 +6067,7 @@ rv
 ;
 }
 static
-PRUint32
+uint32_t
 WpsGetDefaultHandler
 (
 const
@@ -6121,7 +6121,7 @@ false
 ;
 else
 {
-PRUint32
+uint32_t
 handle
 ;
 if
@@ -6214,7 +6214,7 @@ exists
 nsAutoString
 ustr
 ;
-PRUint32
+uint32_t
 handle
 =
 WpsGetDefaultHandler
@@ -6769,7 +6769,7 @@ useHelperApp
 ;
 }
 }
-PRUint32
+uint32_t
 handle
 =
 WpsGetDefaultHandler

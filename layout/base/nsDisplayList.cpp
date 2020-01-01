@@ -1740,7 +1740,7 @@ Y2
 )
 ;
 }
-PRUint32
+uint32_t
 type
 =
 aCTF
@@ -1917,7 +1917,7 @@ aData
 ;
 for
 (
-PRUint32
+uint32_t
 propIdx
 =
 0
@@ -1967,7 +1967,7 @@ continue
 }
 for
 (
-PRUint32
+uint32_t
 segIdx
 =
 0
@@ -2595,7 +2595,7 @@ et
 {
 for
 (
-PRUint32
+uint32_t
 tranIdx
 =
 0
@@ -2644,12 +2644,8 @@ aProperty
 pt
 -
 >
-CanPerformOnCompositor
+IsRunningAt
 (
-et
--
->
-mElement
 currentTime
 )
 )
@@ -2789,7 +2785,7 @@ ea
 {
 for
 (
-PRUint32
+uint32_t
 animIdx
 =
 0
@@ -2839,12 +2835,8 @@ aProperty
 anim
 -
 >
-CanPerformOnCompositor
+IsRunningAt
 (
-ea
--
->
-mElement
 currentTime
 )
 )
@@ -3587,7 +3579,7 @@ PresContext
 (
 )
 ;
-PRInt32
+int32_t
 auPerDevPixel
 =
 presContext
@@ -4026,7 +4018,7 @@ nsDisplayListBuilder
 )
 ;
 }
-PRUint32
+uint32_t
 nsDisplayListBuilder
 :
 :
@@ -4034,7 +4026,7 @@ GetBackgroundPaintFlags
 (
 )
 {
-PRUint32
+uint32_t
 flags
 =
 0
@@ -4072,7 +4064,7 @@ flags
 ;
 }
 static
-PRUint64
+uint64_t
 RegionArea
 (
 const
@@ -4081,7 +4073,7 @@ nsRegion
 aRegion
 )
 {
-PRUint64
+uint64_t
 area
 =
 0
@@ -4116,7 +4108,7 @@ nullptr
 area
 +
 =
-PRUint64
+uint64_t
 (
 r
 -
@@ -4544,7 +4536,7 @@ PresShell
 return
 ;
 }
-PRUint32
+uint32_t
 firstFrameForShell
 =
 CurrentPresShellState
@@ -4556,7 +4548,7 @@ mFirstFrameMarkedForDisplay
 ;
 for
 (
-PRUint32
+uint32_t
 i
 =
 firstFrameForShell
@@ -5467,7 +5459,7 @@ false
 ;
 for
 (
-PRInt32
+int32_t
 i
 =
 elements
@@ -5783,7 +5775,7 @@ aBuilder
 nsRenderingContext
 *
 aCtx
-PRUint32
+uint32_t
 aFlags
 )
 const
@@ -5827,7 +5819,7 @@ aCtx
 nsIFrame
 *
 aForFrame
-PRUint32
+uint32_t
 aFlags
 )
 const
@@ -6425,7 +6417,7 @@ gLayerManagerLayerBuilder
 )
 ;
 }
-PRUint32
+uint32_t
 nsDisplayList
 :
 :
@@ -6434,7 +6426,7 @@ Count
 )
 const
 {
-PRUint32
+uint32_t
 count
 =
 0
@@ -6766,7 +6758,7 @@ Sort
 (
 )
 ;
-PRUint32
+uint32_t
 length
 =
 aSource
@@ -6777,7 +6769,7 @@ Length
 ;
 for
 (
-PRUint32
+uint32_t
 i
 =
 0
@@ -6841,7 +6833,7 @@ aOutFrames
 )
 const
 {
-PRInt32
+int32_t
 itemBufferStart
 =
 aState
@@ -6897,7 +6889,7 @@ temp
 ;
 for
 (
-PRInt32
+int32_t
 i
 =
 aState
@@ -7124,7 +7116,7 @@ aOutFrames
 }
 for
 (
-PRUint32
+uint32_t
 j
 =
 0
@@ -7206,7 +7198,7 @@ Length
 )
 =
 =
-PRUint32
+uint32_t
 (
 itemBufferStart
 )
@@ -7231,7 +7223,7 @@ Sort
 nsDisplayList
 *
 aList
-PRInt32
+int32_t
 aCount
 nsDisplayList
 :
@@ -7260,7 +7252,7 @@ list2
 int
 i
 ;
-PRInt32
+int32_t
 half
 =
 aCount
@@ -7547,7 +7539,7 @@ void
 aClosure
 )
 {
-PRInt32
+int32_t
 index1
 =
 nsLayoutUtils
@@ -7563,7 +7555,7 @@ GetUnderlyingFrame
 )
 )
 ;
-PRInt32
+int32_t
 index2
 =
 nsLayoutUtils
@@ -8858,7 +8850,7 @@ Length
 return
 false
 ;
-PRUint32
+uint32_t
 flags
 =
 aBuilder
@@ -8957,7 +8949,7 @@ IsRasterImage
 return
 false
 ;
-PRInt32
+int32_t
 appUnitsPerDevPixel
 =
 presContext
@@ -9092,7 +9084,7 @@ Length
 return
 false
 ;
-PRUint32
+uint32_t
 flags
 =
 aBuilder
@@ -9240,7 +9232,7 @@ return
 false
 ;
 }
-PRInt32
+int32_t
 appUnitsPerDevPixel
 =
 presContext
@@ -9783,7 +9775,7 @@ GetInsideClipRegion
 nsPresContext
 *
 aPresContext
-PRUint8
+uint8_t
 aClip
 const
 nsRect
@@ -10828,7 +10820,7 @@ ToReferenceFrame
 (
 )
 ;
-PRUint32
+uint32_t
 flags
 =
 aBuilder
@@ -11710,7 +11702,7 @@ Paint
 ;
 for
 (
-PRUint32
+uint32_t
 i
 =
 0
@@ -11997,7 +11989,7 @@ Paint
 ;
 for
 (
-PRUint32
+uint32_t
 i
 =
 0
@@ -15666,9 +15658,9 @@ aFrame
 nsDisplayList
 *
 aList
-PRInt32
+int32_t
 aAPD
-PRInt32
+int32_t
 aParentAPD
 )
 :
@@ -16283,7 +16275,7 @@ height
 ;
 for
 (
-PRUint8
+uint8_t
 index
 =
 0
@@ -16728,7 +16720,7 @@ height
 ;
 for
 (
-PRUint8
+uint8_t
 index
 =
 0
@@ -18495,7 +18487,7 @@ Y
 )
 )
 ;
-PRUint32
+uint32_t
 originalFrameCount
 =
 aOutFrames

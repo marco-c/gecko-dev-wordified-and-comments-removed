@@ -435,7 +435,7 @@ virtual
 void
 GetLayoutFlags
 (
-PRUint32
+uint32_t
 &
 aFlags
 )

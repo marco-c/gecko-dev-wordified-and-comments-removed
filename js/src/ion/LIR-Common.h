@@ -850,12 +850,6 @@ slots
 )
 ;
 }
-bool
-isCall
-(
-)
-const
-;
 const
 LAllocation
 *

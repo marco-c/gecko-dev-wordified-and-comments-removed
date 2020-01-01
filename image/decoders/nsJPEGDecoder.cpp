@@ -195,7 +195,7 @@ JOCTET
 *
 profilebuf
 ;
-PRUint32
+uint32_t
 profileLength
 ;
 qcms_profile
@@ -293,7 +293,7 @@ MAX_JPEG_MARKER_LENGTH
 (
 (
 (
-PRUint32
+uint32_t
 )
 1
 <
@@ -623,7 +623,7 @@ term_source
 ;
 for
 (
-PRUint32
+uint32_t
 m
 =
 0
@@ -704,7 +704,7 @@ const
 char
 *
 aBuffer
-PRUint32
+uint32_t
 aCount
 )
 {
@@ -965,7 +965,7 @@ mInfo
 nullptr
 )
 {
-PRUint32
+uint32_t
 profileSpace
 =
 qcms_profile_get_color_space
@@ -1383,7 +1383,7 @@ jpeg_calc_output_dimensions
 mInfo
 )
 ;
-PRUint32
+uint32_t
 imagelength
 ;
 if
@@ -2207,7 +2207,7 @@ suspend
 false
 ;
 const
-PRUint32
+uint32_t
 top
 =
 mInfo
@@ -2227,13 +2227,13 @@ output_height
 )
 )
 {
-PRUint32
+uint32_t
 *
 imageRow
 =
 (
 (
-PRUint32
+uint32_t
 *
 )
 mImageData
@@ -2480,7 +2480,7 @@ output_width
 }
 }
 }
-PRUint32
+uint32_t
 idx
 =
 mInfo
@@ -2903,7 +2903,7 @@ decoder
 >
 mSegment
 ;
-PRUint32
+uint32_t
 new_buflen
 =
 decoder
@@ -3060,7 +3060,7 @@ mBackBufferLen
 ;
 }
 const
-PRUint32
+uint32_t
 new_backtrack_buflen
 =
 src
@@ -5120,12 +5120,12 @@ input_row
 +
 +
 ;
-PRUint32
+uint32_t
 *
 outptr
 =
 (
-PRUint32
+uint32_t
 *
 )
 *
@@ -5276,7 +5276,7 @@ in
 ;
 for
 (
-PRUint32
+uint32_t
 i
 =
 width
@@ -5301,7 +5301,7 @@ out
 3
 ;
 const
-PRUint32
+uint32_t
 iC
 =
 in
@@ -5310,7 +5310,7 @@ in
 ]
 ;
 const
-PRUint32
+uint32_t
 iM
 =
 in
@@ -5319,7 +5319,7 @@ in
 ]
 ;
 const
-PRUint32
+uint32_t
 iY
 =
 in
@@ -5328,7 +5328,7 @@ in
 ]
 ;
 const
-PRUint32
+uint32_t
 iK
 =
 in

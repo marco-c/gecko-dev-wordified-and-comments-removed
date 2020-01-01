@@ -263,7 +263,7 @@ static
 GtkFileChooserAction
 GetGtkFileChooserAction
 (
-PRInt16
+int16_t
 aMode
 )
 {
@@ -880,7 +880,7 @@ mSelectedType
 =
 static_cast
 <
-PRInt16
+int16_t
 >
 (
 g_slist_index
@@ -959,7 +959,7 @@ const
 nsAString
 &
 aTitle
-PRInt16
+int16_t
 aMode
 )
 {
@@ -985,7 +985,7 @@ nsFilePicker
 :
 AppendFilters
 (
-PRInt32
+int32_t
 aFilterMask
 )
 {
@@ -1157,7 +1157,7 @@ nsFilePicker
 :
 GetFilterIndex
 (
-PRInt32
+int32_t
 *
 aFilterIndex
 )
@@ -1177,7 +1177,7 @@ nsFilePicker
 :
 SetFilterIndex
 (
-PRInt32
+int32_t
 aFilterIndex
 )
 {
@@ -1360,7 +1360,7 @@ nsFilePicker
 :
 Show
 (
-PRInt16
+int16_t
 *
 aReturn
 )
@@ -1758,7 +1758,7 @@ file_chooser
 GTK_RESPONSE_ACCEPT
 )
 ;
-PRInt32
+int32_t
 count
 =
 mFilters
@@ -1769,7 +1769,7 @@ Length
 ;
 for
 (
-PRInt32
+int32_t
 i
 =
 0

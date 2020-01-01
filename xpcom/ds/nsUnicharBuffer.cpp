@@ -112,7 +112,7 @@ UnicharBufferImpl
 :
 Init
 (
-PRUint32
+uint32_t
 aBufferSize
 )
 {
@@ -190,7 +190,7 @@ mLength
 }
 NS_IMETHODIMP_
 (
-PRInt32
+int32_t
 )
 UnicharBufferImpl
 :
@@ -206,7 +206,7 @@ mLength
 }
 NS_IMETHODIMP_
 (
-PRInt32
+int32_t
 )
 UnicharBufferImpl
 :
@@ -246,13 +246,13 @@ UnicharBufferImpl
 :
 Grow
 (
-PRInt32
+int32_t
 aNewSize
 )
 {
 if
 (
-PRUint32
+uint32_t
 (
 aNewSize
 )
@@ -331,7 +331,7 @@ aInstancePtrResult
 nsISupports
 *
 aOuter
-PRUint32
+uint32_t
 aBufferSize
 )
 {

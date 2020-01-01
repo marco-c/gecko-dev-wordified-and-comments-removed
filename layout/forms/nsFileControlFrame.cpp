@@ -1138,7 +1138,7 @@ fileContent
 browseControl
 )
 {
-PRInt32
+int32_t
 tabIndex
 ;
 nsAutoString
@@ -1249,7 +1249,7 @@ AppendAnonymousContentTo
 nsBaseContentList
 &
 aElements
-PRUint32
+uint32_t
 aFilter
 )
 {
@@ -1352,7 +1352,7 @@ return
 false
 ;
 }
-PRUint16
+uint16_t
 whichButton
 ;
 if
@@ -1380,7 +1380,7 @@ return
 false
 ;
 }
-PRInt32
+int32_t
 clickCount
 ;
 if
@@ -1597,7 +1597,7 @@ rv
 rv
 )
 ;
-PRUint32
+uint32_t
 result
 ;
 rv
@@ -2186,12 +2186,12 @@ nsFileControlFrame
 :
 SyncAttr
 (
-PRInt32
+int32_t
 aNameSpaceID
 nsIAtom
 *
 aAttribute
-PRInt32
+int32_t
 aWhichControls
 )
 {
@@ -2404,12 +2404,12 @@ nsFileControlFrame
 :
 AttributeChanged
 (
-PRInt32
+int32_t
 aNameSpaceID
 nsIAtom
 *
 aAttribute
-PRInt32
+int32_t
 aModType
 )
 {
@@ -2966,7 +2966,7 @@ PresShell
 }
 #
 endif
-PRUint32
+uint32_t
 nsFileControlFrame
 :
 :
@@ -2978,7 +2978,7 @@ CaptureCallbackData
 aData
 )
 {
-PRInt32
+int32_t
 filters
 =
 nsHTMLInputElement

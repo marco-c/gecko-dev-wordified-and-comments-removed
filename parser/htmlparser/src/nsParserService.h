@@ -88,7 +88,7 @@ nsParserService
 )
 ;
 NS_DECL_ISUPPORTS
-PRInt32
+int32_t
 HTMLAtomTagToId
 (
 nsIAtom
@@ -97,7 +97,7 @@ aAtom
 )
 const
 ;
-PRInt32
+int32_t
 HTMLCaseSensitiveAtomTagToId
 (
 nsIAtom
@@ -106,7 +106,7 @@ aAtom
 )
 const
 ;
-PRInt32
+int32_t
 HTMLStringTagToId
 (
 const
@@ -121,7 +121,7 @@ PRUnichar
 *
 HTMLIdToStringTag
 (
-PRInt32
+int32_t
 aId
 )
 const
@@ -130,7 +130,7 @@ nsIAtom
 *
 HTMLIdToAtomTag
 (
-PRInt32
+int32_t
 aId
 )
 const
@@ -142,7 +142,7 @@ const
 nsAString
 &
 aEntity
-PRInt32
+int32_t
 *
 aUnicode
 )
@@ -151,7 +151,7 @@ const
 NS_IMETHOD
 HTMLConvertUnicodeToEntity
 (
-PRInt32
+int32_t
 aUnicode
 nsCString
 &
@@ -162,7 +162,7 @@ const
 NS_IMETHOD
 IsContainer
 (
-PRInt32
+int32_t
 aId
 bool
 &
@@ -173,7 +173,7 @@ const
 NS_IMETHOD
 IsBlock
 (
-PRInt32
+int32_t
 aId
 bool
 &

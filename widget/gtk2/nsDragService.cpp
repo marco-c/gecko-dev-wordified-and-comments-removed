@@ -1155,7 +1155,7 @@ aArrayTransferables
 nsIScriptableRegion
 *
 aRegion
-PRUint32
+uint32_t
 aActionType
 )
 {
@@ -1452,9 +1452,9 @@ aSurface
 GdkDragContext
 *
 aContext
-PRInt32
+int32_t
 aXOffset
-PRInt32
+int32_t
 aYOffset
 const
 nsIntRect
@@ -1842,14 +1842,14 @@ NS_OK
 ;
 }
 static
-PRUint32
+uint32_t
 CountTextUriListItems
 (
 const
 char
 *
 data
-PRUint32
+uint32_t
 datalen
 )
 {
@@ -1869,7 +1869,7 @@ p
 +
 datalen
 ;
-PRUint32
+uint32_t
 count
 =
 0
@@ -1996,15 +1996,15 @@ const
 char
 *
 data
-PRUint32
+uint32_t
 datalen
-PRUint32
+uint32_t
 aItemIndex
 PRUnichar
 *
 *
 convertedText
-PRInt32
+int32_t
 *
 convertedTextLen
 )
@@ -2245,7 +2245,7 @@ nsDragService
 :
 GetNumDropItems
 (
-PRUint32
+uint32_t
 *
 aNumItems
 )
@@ -2404,7 +2404,7 @@ GetData
 nsITransferable
 *
 aTransferable
-PRUint32
+uint32_t
 aItemIndex
 )
 {
@@ -2499,7 +2499,7 @@ rv
 return
 rv
 ;
-PRUint32
+uint32_t
 cnt
 ;
 flavorList
@@ -2677,7 +2677,7 @@ nsISupports
 >
 data
 ;
-PRUint32
+uint32_t
 tmpDataLen
 =
 0
@@ -3029,7 +3029,7 @@ convertedText
 =
 nullptr
 ;
-PRInt32
+int32_t
 convertedTextLen
 =
 0
@@ -3422,7 +3422,7 @@ convertedText
 =
 nullptr
 ;
-PRInt32
+int32_t
 convertedTextLen
 =
 0
@@ -3592,7 +3592,7 @@ convertedText
 =
 nullptr
 ;
-PRInt32
+int32_t
 convertedTextLen
 =
 0
@@ -3767,7 +3767,7 @@ convertedText
 =
 nullptr
 ;
-PRInt32
+int32_t
 convertedTextLen
 =
 0
@@ -4042,7 +4042,7 @@ list
 )
 )
 ;
-PRUint32
+uint32_t
 numDragItems
 =
 0
@@ -4066,7 +4066,7 @@ numDragItems
 ;
 for
 (
-PRUint32
+uint32_t
 itemIndex
 =
 0
@@ -4137,7 +4137,7 @@ if
 flavorList
 )
 {
-PRUint32
+uint32_t
 numFlavors
 ;
 flavorList
@@ -4151,7 +4151,7 @@ numFlavors
 ;
 for
 (
-PRUint32
+uint32_t
 flavorIndex
 =
 0
@@ -5170,7 +5170,7 @@ targetList
 =
 0
 ;
-PRUint32
+uint32_t
 targetCount
 =
 0
@@ -5339,7 +5339,7 @@ if
 flavorList
 )
 {
-PRUint32
+uint32_t
 numFlavors
 ;
 flavorList
@@ -5353,7 +5353,7 @@ numFlavors
 ;
 for
 (
-PRUint32
+uint32_t
 flavorIndex
 =
 0
@@ -5584,7 +5584,7 @@ if
 flavorList
 )
 {
-PRUint32
+uint32_t
 numFlavors
 ;
 flavorList
@@ -5598,7 +5598,7 @@ numFlavors
 ;
 for
 (
-PRUint32
+uint32_t
 flavorIndex
 =
 0
@@ -6064,7 +6064,7 @@ GtkTargetEntry
 targetCount
 )
 ;
-PRUint32
+uint32_t
 targetIndex
 ;
 for
@@ -6140,7 +6140,7 @@ targetCount
 ;
 for
 (
-PRUint32
+uint32_t
 cleanIndex
 =
 0
@@ -6267,7 +6267,7 @@ y
 ;
 }
 }
-PRUint32
+uint32_t
 dropEffect
 ;
 if
@@ -6406,7 +6406,7 @@ gint
 length
 )
 {
-PRUint32
+uint32_t
 i
 count
 ;
@@ -6479,7 +6479,7 @@ if
 item
 )
 {
-PRUint32
+uint32_t
 tmpDataLen
 =
 0
@@ -6556,7 +6556,7 @@ PRUnichar
 tmpData
 )
 ;
-PRInt32
+int32_t
 plainTextLen
 =
 0
@@ -6581,7 +6581,7 @@ if
 plainTextData
 )
 {
-PRInt32
+int32_t
 j
 ;
 for
@@ -6975,7 +6975,7 @@ actualFlavor
 =
 mimeFlavor
 ;
-PRUint32
+uint32_t
 tmpDataLen
 =
 0
@@ -7055,7 +7055,7 @@ PRUnichar
 tmpData
 )
 ;
-PRInt32
+int32_t
 plainTextLen
 =
 0
@@ -7084,7 +7084,7 @@ tmpDataLen
 2
 )
 (
-PRUint32
+uint32_t
 *
 )
 &
@@ -7273,7 +7273,7 @@ pc
 )
 return
 ;
-PRInt32
+int32_t
 sx
 =
 mScreenX
@@ -7290,7 +7290,7 @@ sx
 sy
 )
 ;
-PRInt32
+int32_t
 offsetX
 =
 sx
@@ -7299,7 +7299,7 @@ dragRect
 .
 x
 ;
-PRInt32
+int32_t
 offsetY
 =
 sy
@@ -8299,7 +8299,7 @@ IsDestroyed
 return
 FALSE
 ;
-PRUint32
+uint32_t
 msg
 =
 mCanDrop

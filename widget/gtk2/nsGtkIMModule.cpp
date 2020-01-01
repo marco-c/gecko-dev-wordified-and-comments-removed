@@ -98,7 +98,7 @@ char
 *
 GetRangeTypeName
 (
-PRUint32
+uint32_t
 aRangeType
 )
 {
@@ -166,7 +166,7 @@ char
 *
 GetEnabledStateName
 (
-PRUint32
+uint32_t
 aState
 )
 {
@@ -2538,7 +2538,7 @@ observerService
 nsAutoString
 rectBuf
 ;
-PRInt32
+int32_t
 x
 y
 w
@@ -3618,7 +3618,7 @@ FALSE
 nsAutoString
 uniStr
 ;
-PRUint32
+uint32_t
 cursorPos
 ;
 if
@@ -3648,7 +3648,7 @@ cursorPos
 )
 )
 ;
-PRUint32
+uint32_t
 cursorPosInUTF8
 =
 utf8Str
@@ -3811,7 +3811,7 @@ DeleteText
 (
 aOffset
 (
-PRUint32
+uint32_t
 )
 aNChars
 )
@@ -5197,7 +5197,7 @@ InitEvent
 textEvent
 )
 ;
-PRUint32
+uint32_t
 targetOffset
 =
 mCompositionStart
@@ -5222,7 +5222,7 @@ textRanges
 ;
 for
 (
-PRUint32
+uint32_t
 i
 =
 0
@@ -5819,7 +5819,7 @@ mStartOffset
 else
 if
 (
-PRUint32
+uint32_t
 (
 cursor_pos
 )
@@ -5848,7 +5848,7 @@ range
 .
 mStartOffset
 =
-PRUint32
+uint32_t
 (
 cursor_pos
 )
@@ -5931,7 +5931,7 @@ nsGtkIMModule
 :
 SetCursorPosition
 (
-PRUint32
+uint32_t
 aTargetOffset
 )
 {
@@ -6224,7 +6224,7 @@ GetCurrentParagraph
 nsAString
 &
 aText
-PRUint32
+uint32_t
 &
 aCursorPos
 )
@@ -6286,12 +6286,12 @@ NS_ERROR_NULL_POINTER
 nsEventStatus
 status
 ;
-PRUint32
+uint32_t
 selOffset
 =
 mCompositionStart
 ;
-PRUint32
+uint32_t
 selLength
 =
 mSelectedString
@@ -6531,7 +6531,7 @@ mSelectedString
 )
 ;
 }
-PRInt32
+int32_t
 parStart
 =
 (
@@ -6561,7 +6561,7 @@ selOffset
 +
 1
 ;
-PRInt32
+int32_t
 parEnd
 =
 textContent
@@ -6611,7 +6611,7 @@ aCursorPos
 =
 selOffset
 -
-PRUint32
+uint32_t
 (
 parStart
 )
@@ -6667,10 +6667,10 @@ nsGtkIMModule
 DeleteText
 (
 const
-PRInt32
+int32_t
 aOffset
 const
-PRUint32
+uint32_t
 aNChars
 )
 {
@@ -6778,7 +6778,7 @@ mLastFocusedWindow
 nsEventStatus
 status
 ;
-PRUint32
+uint32_t
 selOffset
 ;
 bool

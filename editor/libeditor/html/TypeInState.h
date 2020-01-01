@@ -190,7 +190,7 @@ TakeSetProperty
 (
 )
 ;
-PRInt32
+int32_t
 TakeRelativeFontSize
 (
 )
@@ -251,7 +251,7 @@ PropItem
 >
 &
 aList
-PRInt32
+int32_t
 &
 outIndex
 )
@@ -310,7 +310,7 @@ aAttr
 nsAString
 *
 outValue
-PRInt32
+int32_t
 &
 outIndex
 )
@@ -337,7 +337,7 @@ const
 nsAString
 &
 aAttr
-PRInt32
+int32_t
 &
 outIndex
 )
@@ -356,7 +356,7 @@ PropItem
 >
 mClearedArray
 ;
-PRInt32
+int32_t
 mRelativeFontSize
 ;
 nsCOMPtr
@@ -365,7 +365,7 @@ nsIDOMNode
 >
 mLastSelectionContainer
 ;
-PRInt32
+int32_t
 mLastSelectionOffset
 ;
 friend

@@ -182,7 +182,7 @@ txFunctionEvaluationContext
 :
 GetPosition
 (
-PRUint32
+uint32_t
 *
 aPosition
 )
@@ -213,7 +213,7 @@ txFunctionEvaluationContext
 :
 GetSize
 (
-PRUint32
+uint32_t
 *
 aSize
 )
@@ -340,7 +340,7 @@ const
 nsIID
 &
 aIID
-PRUint16
+uint16_t
 aMethodIndex
 #
 ifdef
@@ -379,7 +379,7 @@ mHelper
 nsIID
 mIID
 ;
-PRUint16
+uint16_t
 mMethodIndex
 ;
 #
@@ -413,7 +413,7 @@ const
 nsIID
 &
 aIID
-PRUint16
+uint16_t
 aMethodIndex
 #
 ifdef
@@ -466,7 +466,7 @@ nsIID
 *
 *
 aArray
-PRUint32
+uint32_t
 aCount
 )
 :
@@ -499,7 +499,7 @@ nsIID
 *
 mArray
 ;
-PRUint32
+uint32_t
 mCount
 ;
 }
@@ -518,7 +518,7 @@ aName
 nsIID
 &
 aIID
-PRUint16
+uint16_t
 &
 aMethodIndex
 nsISupports
@@ -592,7 +592,7 @@ iidArray
 =
 nullptr
 ;
-PRUint32
+uint32_t
 iidCount
 =
 0
@@ -700,7 +700,7 @@ false
 name
 ;
 }
-PRUint32
+uint32_t
 i
 ;
 for
@@ -753,7 +753,7 @@ rv
 rv
 )
 ;
-PRUint16
+uint16_t
 methodIndex
 ;
 const
@@ -787,7 +787,7 @@ rv
 )
 )
 {
-PRUint8
+uint8_t
 paramCount
 =
 methodInfo
@@ -878,7 +878,7 @@ const
 nsCString
 &
 aContractID
-PRInt32
+int32_t
 aNamespaceID
 nsIAtom
 *
@@ -895,7 +895,7 @@ aFunction
 nsIID
 iid
 ;
-PRUint16
+uint16_t
 methodIndex
 =
 0
@@ -983,7 +983,7 @@ nsIInterfaceInfo
 aInfo
 )
 {
-PRUint8
+uint8_t
 tag
 =
 aParam
@@ -1139,7 +1139,7 @@ txParamArrayHolder
 bool
 Init
 (
-PRUint8
+uint8_t
 aCount
 )
 ;
@@ -1162,7 +1162,7 @@ nsXPTCVariant
 >
 mArray
 ;
-PRUint8
+uint8_t
 mCount
 ;
 }
@@ -1175,7 +1175,7 @@ txParamArrayHolder
 (
 )
 {
-PRUint8
+uint8_t
 i
 ;
 for
@@ -1319,7 +1319,7 @@ txParamArrayHolder
 :
 Init
 (
-PRUint8
+uint8_t
 aCount
 )
 {
@@ -1444,7 +1444,7 @@ rv
 rv
 )
 ;
-PRUint8
+uint8_t
 paramCount
 =
 methodInfo
@@ -1454,7 +1454,7 @@ GetParamCount
 (
 )
 ;
-PRUint8
+uint8_t
 inArgs
 =
 paramCount
@@ -1517,7 +1517,7 @@ txFunctionEvaluationContext
 *
 context
 ;
-PRUint32
+uint32_t
 paramStart
 =
 0
@@ -1634,7 +1634,7 @@ return
 NS_ERROR_FAILURE
 ;
 }
-PRUint32
+uint32_t
 i
 ;
 for

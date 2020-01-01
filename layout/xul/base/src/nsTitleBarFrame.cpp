@@ -336,7 +336,7 @@ if
 dsti
 )
 {
-PRInt32
+int32_t
 type
 =
 -

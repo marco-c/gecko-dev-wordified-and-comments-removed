@@ -171,10 +171,10 @@ PRCondVar
 *
 mExitThreadCV
 ;
-PRUint32
+uint32_t
 mNumThreads
 ;
-PRUint32
+uint32_t
 mNumIdleThreads
 ;
 PRCList

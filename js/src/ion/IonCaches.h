@@ -1272,8 +1272,7 @@ attachGetProp
 JSContext
 *
 cx
-JSObject
-*
+HandleObject
 obj
 const
 Value
@@ -1626,8 +1625,7 @@ JSContext
 cx
 size_t
 cacheIndex
-JSObject
-*
+HandleObject
 obj
 HandleValue
 idval

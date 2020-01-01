@@ -430,7 +430,7 @@ owner
 "
 )
 ;
-PRUint32
+uint32_t
 oldLockCount
 =
 mLockCount
@@ -443,7 +443,7 @@ UnlockImage
 (
 )
 ;
-PRUint32
+uint32_t
 oldAnimationConsumers
 =
 mAnimationConsumers
@@ -461,7 +461,7 @@ mImage
 ;
 for
 (
-PRUint32
+uint32_t
 i
 =
 0
@@ -485,7 +485,7 @@ mCanceled
 {
 for
 (
-PRUint32
+uint32_t
 i
 =
 0
@@ -552,7 +552,7 @@ false
 ;
 for
 (
-PRUint32
+uint32_t
 i
 =
 0
@@ -1308,7 +1308,7 @@ imgRequestProxy
 :
 GetImageStatus
 (
-PRUint32
+uint32_t
 *
 aStatus
 )
@@ -1629,7 +1629,7 @@ imgRequestProxy
 :
 GetCORSMode
 (
-PRInt32
+int32_t
 *
 aCorsMode
 )
@@ -1662,7 +1662,7 @@ imgRequestProxy
 :
 GetPriority
 (
-PRInt32
+int32_t
 *
 priority
 )
@@ -1692,7 +1692,7 @@ imgRequestProxy
 :
 SetPriority
 (
-PRInt32
+int32_t
 priority
 )
 {
@@ -1731,7 +1731,7 @@ imgRequestProxy
 :
 AdjustPriority
 (
-PRInt32
+int32_t
 priority
 )
 {
@@ -1998,7 +1998,7 @@ imgRequestProxy
 :
 OnStartFrame
 (
-PRUint32
+uint32_t
 frame
 )
 {
@@ -2103,7 +2103,7 @@ imgRequestProxy
 :
 OnStopFrame
 (
-PRUint32
+uint32_t
 frame
 )
 {
@@ -2815,12 +2815,12 @@ return
 NS_OK
 ;
 }
-PRInt32
+int32_t
 w
 =
 0
 ;
-PRInt32
+int32_t
 h
 =
 0
@@ -3094,7 +3094,7 @@ aImage
 ;
 for
 (
-PRUint32
+uint32_t
 i
 =
 0
@@ -3116,7 +3116,7 @@ LockImage
 ;
 for
 (
-PRUint32
+uint32_t
 i
 =
 0

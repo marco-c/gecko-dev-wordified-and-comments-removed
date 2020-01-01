@@ -63,10 +63,10 @@ h
 ifdef
 DEBUG
 static
-PRInt32
+int32_t
 ctorCount
 ;
-PRInt32
+int32_t
 nsLineBox
 :
 :
@@ -84,7 +84,7 @@ endif
 ifndef
 _MSC_VER
 const
-PRUint32
+uint32_t
 nsLineBox
 :
 :
@@ -100,7 +100,7 @@ nsLineBox
 nsIFrame
 *
 aFrame
-PRInt32
+int32_t
 aCount
 bool
 aIsBlock
@@ -151,7 +151,7 @@ aFrame
 ;
 for
 (
-PRInt32
+int32_t
 n
 =
 aCount
@@ -296,7 +296,7 @@ aFromLine
 nsIFrame
 *
 aFrame
-PRInt32
+int32_t
 aCount
 )
 {
@@ -342,7 +342,7 @@ StealHashTableFrom
 nsLineBox
 *
 aFromLine
-PRUint32
+uint32_t
 aFromLineNewCount
 )
 {
@@ -361,7 +361,7 @@ GetChildCount
 )
 >
 =
-PRInt32
+int32_t
 (
 aFromLineNewCount
 )
@@ -407,7 +407,7 @@ mFirstChild
 ;
 for
 (
-PRUint32
+uint32_t
 i
 =
 0
@@ -450,7 +450,7 @@ nsLineBox
 aFromLine
 )
 {
-PRUint32
+uint32_t
 fromCount
 =
 aFromLine
@@ -460,7 +460,7 @@ GetChildCount
 (
 )
 ;
-PRUint32
+uint32_t
 toCount
 =
 GetChildCount
@@ -483,7 +483,7 @@ has
 "
 )
 ;
-PRUint32
+uint32_t
 fromNewCount
 =
 fromCount
@@ -585,7 +585,7 @@ mFirstChild
 ;
 for
 (
-PRUint32
+uint32_t
 i
 =
 0
@@ -637,7 +637,7 @@ mFirstChild
 ;
 for
 (
-PRUint32
+uint32_t
 i
 =
 0
@@ -805,7 +805,7 @@ ListFloats
 FILE
 *
 out
-PRInt32
+int32_t
 aIndent
 const
 nsFloatCacheList
@@ -949,7 +949,7 @@ char
 *
 BreakTypeToString
 (
-PRUint8
+uint8_t
 aBreakType
 )
 {
@@ -1045,7 +1045,7 @@ StateToString
 char
 *
 aBuf
-PRInt32
+int32_t
 aBufSize
 )
 const
@@ -1164,12 +1164,12 @@ List
 FILE
 *
 out
-PRInt32
+int32_t
 aIndent
 )
 const
 {
-PRInt32
+int32_t
 i
 ;
 for
@@ -1440,7 +1440,7 @@ frame
 =
 mFirstChild
 ;
-PRInt32
+int32_t
 n
 =
 GetChildCount
@@ -1584,7 +1584,7 @@ frame
 =
 mFirstChild
 ;
-PRInt32
+int32_t
 n
 =
 GetChildCount
@@ -1619,7 +1619,7 @@ frame
 }
 #
 endif
-PRInt32
+int32_t
 nsLineBox
 :
 :
@@ -1631,7 +1631,7 @@ aFrame
 )
 const
 {
-PRInt32
+int32_t
 i
 n
 =
@@ -1710,7 +1710,7 @@ IsEmpty
 (
 )
 ;
-PRInt32
+int32_t
 n
 ;
 nsIFrame
@@ -1830,7 +1830,7 @@ CachedIsEmpty
 }
 else
 {
-PRInt32
+int32_t
 n
 ;
 nsIFrame
@@ -1947,7 +1947,7 @@ empty
 #
 ifdef
 DEBUG
-PRInt32
+int32_t
 numFrames
 =
 0
@@ -2132,7 +2132,7 @@ aEnd
 nsIFrame
 *
 aLastFrameBeforeEnd
-PRInt32
+int32_t
 *
 aFrameIndexInLine
 )
@@ -2228,7 +2228,7 @@ GetPrevSibling
 continue
 ;
 }
-PRInt32
+int32_t
 i
 =
 aEnd
@@ -3023,7 +3023,7 @@ mRightToLeft
 =
 aRightToLeft
 ;
-PRInt32
+int32_t
 numLines
 =
 aLines
@@ -3125,7 +3125,7 @@ return
 NS_OK
 ;
 }
-PRInt32
+int32_t
 nsLineIterator
 :
 :
@@ -3155,19 +3155,19 @@ nsLineIterator
 :
 GetLine
 (
-PRInt32
+int32_t
 aLineNumber
 nsIFrame
 *
 *
 aFirstFrameOnLine
-PRInt32
+int32_t
 *
 aNumFramesOnLine
 nsRect
 &
 aLineBounds
-PRUint32
+uint32_t
 *
 aLineFlags
 )
@@ -3262,7 +3262,7 @@ line
 >
 mBounds
 ;
-PRUint32
+uint32_t
 flags
 =
 0
@@ -3309,7 +3309,7 @@ return
 NS_OK
 ;
 }
-PRInt32
+int32_t
 nsLineIterator
 :
 :
@@ -3318,7 +3318,7 @@ FindLineContaining
 nsIFrame
 *
 aFrame
-PRInt32
+int32_t
 aStartLine
 )
 {
@@ -3335,7 +3335,7 @@ numbers
 "
 )
 ;
-PRInt32
+int32_t
 lineNumber
 =
 aStartLine
@@ -3391,7 +3391,7 @@ nsLineIterator
 :
 CheckLineOrder
 (
-PRInt32
+int32_t
 aLine
 bool
 *
@@ -3525,7 +3525,7 @@ nsLineIterator
 :
 FindFrameAt
 (
-PRInt32
+int32_t
 aLineNumber
 nscoord
 aX
@@ -3677,7 +3677,7 @@ closestFromRight
 =
 nullptr
 ;
-PRInt32
+int32_t
 n
 =
 line
@@ -3967,7 +3967,7 @@ nsIFrame
 *
 &
 aFrame
-PRInt32
+int32_t
 aLineNumber
 )
 {

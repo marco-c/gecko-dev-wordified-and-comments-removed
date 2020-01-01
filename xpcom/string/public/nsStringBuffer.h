@@ -13,10 +13,10 @@ friend
 class
 CheckStaticAtomSizes
 ;
-PRInt32
+int32_t
 mRefCount
 ;
-PRUint32
+uint32_t
 mStorageSize
 ;
 public
@@ -105,7 +105,7 @@ this
 )
 ;
 }
-PRUint32
+uint32_t
 StorageSize
 (
 )
@@ -152,7 +152,7 @@ str
 void
 ToString
 (
-PRUint32
+uint32_t
 len
 nsAString
 &
@@ -166,7 +166,7 @@ false
 void
 ToString
 (
-PRUint32
+uint32_t
 len
 nsACString
 &

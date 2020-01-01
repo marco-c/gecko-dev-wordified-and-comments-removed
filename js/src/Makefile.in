@@ -561,10 +561,6 @@ Parser
 .
 cpp
 \
-SemanticAnalysis
-.
-cpp
-\
 SPSProfiler
 .
 cpp

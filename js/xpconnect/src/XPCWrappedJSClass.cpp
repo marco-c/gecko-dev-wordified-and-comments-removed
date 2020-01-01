@@ -1723,7 +1723,7 @@ xpcProperty
 (
 chars
 (
-PRUint32
+uint32_t
 )
 length
 value
@@ -1765,7 +1765,7 @@ const
 PRUnichar
 *
 aName
-PRUint32
+uint32_t
 aNameLen
 nsIVariant
 *
@@ -4359,7 +4359,7 @@ void
 exn_string
 )
 ;
-PRInt32
+int32_t
 lineNumber
 =
 0
@@ -7078,7 +7078,7 @@ nsXPCWrappedJSClass
 :
 DebugDump
 (
-PRInt16
+int16_t
 depth
 )
 {

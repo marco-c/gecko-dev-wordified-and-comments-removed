@@ -44,9 +44,9 @@ const
 PRUnichar
 *
 aText
-PRUint32
+uint32_t
 aLength
-PRUint8
+uint8_t
 *
 aBreakBefore
 )
@@ -72,7 +72,7 @@ aLength
 *
 sizeof
 (
-PRUint8
+uint8_t
 )
 )
 ;
@@ -128,7 +128,7 @@ Length
 (
 )
 ;
-PRUint32
+uint32_t
 u16Offset
 =
 0
@@ -222,7 +222,7 @@ u16Offset
 bool
 err
 ;
-PRUint32
+uint32_t
 ch
 =
 UTF8CharEnumerator

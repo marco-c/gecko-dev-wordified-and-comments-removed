@@ -347,13 +347,13 @@ OOPInit
 bool
 TakeMinidumpForChild
 (
-PRUint32
+uint32_t
 childPid
 nsIFile
 *
 *
 dump
-PRUint32
+uint32_t
 *
 aSequence
 =
@@ -554,7 +554,7 @@ file_offset
 void
 AddLibraryMappingForChild
 (
-PRUint32
+uint32_t
 childPid
 const
 char
@@ -575,7 +575,7 @@ file_offset
 void
 RemoveLibraryMappingsForChild
 (
-PRUint32
+uint32_t
 childPid
 )
 ;

@@ -249,7 +249,7 @@ txStylesheetCompiler
 :
 startElement
 (
-PRInt32
+int32_t
 aNamespaceID
 nsIAtom
 *
@@ -260,7 +260,7 @@ aPrefix
 txStylesheetAttr
 *
 aAttributes
-PRInt32
+int32_t
 aAttrCount
 )
 {
@@ -294,7 +294,7 @@ hasOwnNamespaceMap
 =
 false
 ;
-PRInt32
+int32_t
 i
 ;
 for
@@ -457,9 +457,9 @@ PRUnichar
 *
 *
 aAttrs
-PRInt32
+int32_t
 aAttrCount
-PRInt32
+int32_t
 aIDOffset
 )
 {
@@ -521,7 +521,7 @@ hasOwnNamespaceMap
 =
 false
 ;
-PRInt32
+int32_t
 i
 ;
 for
@@ -744,7 +744,7 @@ nsIAtom
 prefix
 localname
 ;
-PRInt32
+int32_t
 namespaceID
 ;
 rv
@@ -773,7 +773,7 @@ rv
 rv
 )
 ;
-PRInt32
+int32_t
 idOffset
 =
 aIDOffset
@@ -809,7 +809,7 @@ txStylesheetCompiler
 :
 startElementInternal
 (
-PRInt32
+int32_t
 aNamespaceID
 nsIAtom
 *
@@ -820,9 +820,9 @@ aPrefix
 txStylesheetAttr
 *
 aAttributes
-PRInt32
+int32_t
 aAttrCount
-PRInt32
+int32_t
 aIDOffset
 )
 {
@@ -831,7 +831,7 @@ rv
 =
 NS_OK
 ;
-PRInt32
+int32_t
 i
 ;
 for
@@ -1162,7 +1162,7 @@ hasMoreTokens
 )
 )
 {
-PRInt32
+int32_t
 namespaceID
 =
 mElementContext
@@ -1351,7 +1351,7 @@ isInstruction
 =
 false
 ;
-PRInt32
+int32_t
 count
 =
 mElementContext
@@ -1629,7 +1629,7 @@ rv
 rv
 )
 ;
-PRInt32
+int32_t
 i
 ;
 for
@@ -2452,7 +2452,7 @@ mStylesheetURI
 =
 aStylesheetURI
 ;
-PRInt32
+int32_t
 fragment
 =
 aStylesheetURI
@@ -2473,7 +2473,7 @@ fragment
 0
 )
 {
-PRInt32
+int32_t
 fragmentLength
 =
 aStylesheetURI
@@ -2497,7 +2497,7 @@ Substring
 (
 aStylesheetURI
 (
-PRUint32
+uint32_t
 )
 fragment
 fragmentLength
@@ -2651,7 +2651,7 @@ popObject
 )
 ;
 }
-PRInt32
+int32_t
 i
 ;
 for
@@ -2977,7 +2977,7 @@ enumStackType
 aType
 )
 {
-PRUint32
+uint32_t
 stacklen
 =
 mTypeStack
@@ -3246,7 +3246,7 @@ StartAssignment
 (
 )
 ;
-PRUint32
+uint32_t
 i
 count
 =
@@ -3747,7 +3747,7 @@ resolveNamespacePrefix
 nsIAtom
 *
 aPrefix
-PRInt32
+int32_t
 &
 aID
 )
@@ -3922,7 +3922,7 @@ TX_ConstructXSLTFunction
 nsIAtom
 *
 aName
-PRInt32
+int32_t
 aNamespaceID
 txStylesheetCompilerState
 *
@@ -4199,7 +4199,7 @@ txFunctionFactory
 nsIAtom
 *
 aName
-PRInt32
+int32_t
 aNamespaceID
 txStylesheetCompilerState
 *
@@ -4219,7 +4219,7 @@ char
 const
 mNamespaceURI
 ;
-PRInt32
+int32_t
 mNamespaceID
 ;
 txFunctionFactory
@@ -4234,7 +4234,7 @@ TX_ConstructEXSLTFunction
 nsIAtom
 *
 aName
-PRInt32
+int32_t
 aNamespaceID
 txStylesheetCompilerState
 *
@@ -4347,7 +4347,7 @@ const
 nsCString
 &
 aContractID
-PRInt32
+int32_t
 aNamespaceID
 nsIAtom
 *
@@ -4364,7 +4364,7 @@ aFunction
 struct
 txXPCOMFunctionMapping
 {
-PRInt32
+int32_t
 mNamespaceID
 ;
 nsCString
@@ -4389,7 +4389,7 @@ findFunction
 nsIAtom
 *
 aName
-PRInt32
+int32_t
 aNamespaceID
 txStylesheetCompilerState
 *
@@ -4413,7 +4413,7 @@ mNamespaceID
 kNameSpaceID_Unknown
 )
 {
-PRUint32
+uint32_t
 i
 ;
 for
@@ -4465,7 +4465,7 @@ namespaceURI
 ;
 }
 }
-PRUint32
+uint32_t
 i
 ;
 for
@@ -4550,7 +4550,7 @@ map
 =
 nullptr
 ;
-PRUint32
+uint32_t
 count
 =
 sXPCOMFunctionMappings
@@ -4755,7 +4755,7 @@ TX_XSLTFunctionAvailable
 nsIAtom
 *
 aName
-PRInt32
+int32_t
 aNameSpaceID
 )
 {
@@ -4811,7 +4811,7 @@ resolveFunctionCall
 nsIAtom
 *
 aName
-PRInt32
+int32_t
 aID
 FunctionCall
 *
@@ -4897,7 +4897,7 @@ txStylesheetCompilerState
 :
 SetErrorOffset
 (
-PRUint32
+uint32_t
 aOffset
 )
 {

@@ -2004,7 +2004,7 @@ this
 ;
 #
 endif
-PRInt64
+int64_t
 pageSize
 =
 DEFAULT_PAGE_SIZE
@@ -2122,7 +2122,7 @@ AppendInt
 NS_MIN
 (
 DEFAULT_CACHE_SIZE_PAGES
-PRInt32
+int32_t
 (
 MAX_CACHE_SIZE_BYTES
 /
@@ -3219,7 +3219,6 @@ duration
 ToMilliseconds
 (
 )
-false
 )
 ;
 }
@@ -3589,7 +3588,6 @@ duration
 ToMilliseconds
 (
 )
-true
 )
 ;
 }
@@ -3962,7 +3960,7 @@ wal_autocheckpoint
 ;
 for
 (
-PRUint32
+uint32_t
 i
 =
 0
@@ -4215,7 +4213,7 @@ Connection
 :
 GetLastInsertRowID
 (
-PRInt64
+int64_t
 *
 _id
 )
@@ -4253,7 +4251,7 @@ Connection
 :
 GetAffectedRows
 (
-PRInt32
+int32_t
 *
 _rows
 )
@@ -4286,7 +4284,7 @@ Connection
 :
 GetLastError
 (
-PRInt32
+int32_t
 *
 _error
 )
@@ -4361,7 +4359,7 @@ Connection
 :
 GetSchemaVersion
 (
-PRInt32
+int32_t
 *
 _version
 )
@@ -4450,7 +4448,7 @@ Connection
 :
 SetSchemaVersion
 (
-PRInt32
+int32_t
 aVersion
 )
 {
@@ -4713,7 +4711,7 @@ mozIStorageBaseStatement
 *
 *
 aStatements
-PRUint32
+uint32_t
 aNumStatements
 mozIStorageStatementCallback
 *
@@ -4735,7 +4733,7 @@ aNumStatements
 ;
 for
 (
-PRUint32
+uint32_t
 i
 =
 0
@@ -4937,7 +4935,7 @@ Connection
 :
 BeginTransactionAs
 (
-PRInt32
+int32_t
 aTransactionType
 )
 {
@@ -5249,7 +5247,7 @@ const
 nsACString
 &
 aFunctionName
-PRInt32
+int32_t
 aNumArguments
 mozIStorageFunction
 *
@@ -5356,7 +5354,7 @@ const
 nsACString
 &
 aFunctionName
-PRInt32
+int32_t
 aNumArguments
 mozIStorageAggregateFunction
 *
@@ -5554,7 +5552,7 @@ Connection
 :
 SetProgressHandler
 (
-PRInt32
+int32_t
 aGranularity
 mozIStorageProgressHandler
 *
@@ -5684,7 +5682,7 @@ Connection
 :
 SetGrowthIncrement
 (
-PRInt32
+int32_t
 aChunkSize
 const
 nsACString
@@ -5706,7 +5704,7 @@ defined
 (
 MOZ_PLATFORM_MAEMO
 )
-PRInt64
+int64_t
 bytesAvailable
 ;
 nsresult

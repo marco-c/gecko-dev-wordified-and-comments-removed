@@ -166,7 +166,7 @@ mStride
 ;
 nsAutoArrayPtr
 <
-PRUint8
+uint8_t
 >
 mDecodedBuffer
 ;
@@ -196,7 +196,7 @@ const
 ImageFormat
 *
 aFormats
-PRUint32
+uint32_t
 aNumFormats
 const
 gfxIntSize
@@ -474,7 +474,7 @@ delete
 ]
 static_cast
 <
-PRUint8
+uint8_t
 *
 >
 (

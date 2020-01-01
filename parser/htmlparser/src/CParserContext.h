@@ -203,7 +203,7 @@ mMultipart
 bool
 mCopyUnused
 ;
-PRUint32
+uint32_t
 mNumConsumed
 ;
 }

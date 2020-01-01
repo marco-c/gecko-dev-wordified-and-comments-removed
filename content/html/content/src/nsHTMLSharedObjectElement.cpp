@@ -192,7 +192,7 @@ Click
 NS_IMETHOD
 GetTabIndex
 (
-PRInt32
+int32_t
 *
 aTabIndex
 )
@@ -200,7 +200,7 @@ aTabIndex
 NS_IMETHOD
 SetTabIndex
 (
-PRInt32
+int32_t
 aTabIndex
 )
 ;
@@ -344,7 +344,7 @@ virtual
 nsresult
 SetAttr
 (
-PRInt32
+int32_t
 aNameSpaceID
 nsIAtom
 *
@@ -369,7 +369,7 @@ aWithMouse
 bool
 *
 aIsFocusable
-PRInt32
+int32_t
 *
 aTabIndex
 )
@@ -398,7 +398,7 @@ virtual
 bool
 ParseAttribute
 (
-PRInt32
+int32_t
 aNamespaceID
 nsIAtom
 *
@@ -446,7 +446,7 @@ DestroyContent
 )
 ;
 virtual
-PRUint32
+uint32_t
 GetCapabilities
 (
 )
@@ -1189,7 +1189,7 @@ nsHTMLSharedObjectElement
 :
 SetAttr
 (
-PRInt32
+int32_t
 aNameSpaceID
 nsIAtom
 *
@@ -1276,7 +1276,7 @@ aWithMouse
 bool
 *
 aIsFocusable
-PRInt32
+int32_t
 *
 aTabIndex
 )
@@ -1534,7 +1534,7 @@ nsHTMLSharedObjectElement
 :
 ParseAttribute
 (
-PRInt32
+int32_t
 aNamespaceID
 nsIAtom
 *
@@ -1859,7 +1859,7 @@ ObjectState
 )
 ;
 }
-PRUint32
+uint32_t
 nsHTMLSharedObjectElement
 :
 :
@@ -1868,7 +1868,7 @@ GetCapabilities
 )
 const
 {
-PRUint32
+uint32_t
 capabilities
 =
 eSupportPlugins

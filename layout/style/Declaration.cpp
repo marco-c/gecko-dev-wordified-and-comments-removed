@@ -49,7 +49,7 @@ longer
 fit
 in
 a
-PRUint8
+uint8_t
 "
 )
 ;
@@ -509,7 +509,7 @@ aValue
 return
 ;
 }
-PRUint32
+uint32_t
 totalCount
 =
 0
@@ -1853,7 +1853,7 @@ subprops
 ;
 for
 (
-PRInt32
+int32_t
 side
 =
 1
@@ -4403,7 +4403,7 @@ numProps
 ;
 for
 (
-PRUint32
+uint32_t
 i
 =
 0
@@ -4538,7 +4538,7 @@ false
 ;
 for
 (
-PRUint32
+uint32_t
 i
 =
 0
@@ -4634,7 +4634,7 @@ AppendLiteral
 }
 for
 (
-PRUint32
+uint32_t
 i
 =
 0
@@ -5218,7 +5218,7 @@ didSystemFont
 =
 false
 ;
-PRInt32
+int32_t
 count
 =
 mOrder
@@ -5227,7 +5227,7 @@ Length
 (
 )
 ;
-PRInt32
+int32_t
 index
 ;
 nsAutoTArray
@@ -5587,14 +5587,14 @@ List
 FILE
 *
 out
-PRInt32
+int32_t
 aIndent
 )
 const
 {
 for
 (
-PRInt32
+int32_t
 index
 =
 aIndent
@@ -5660,7 +5660,7 @@ Declaration
 :
 GetNthProperty
 (
-PRUint32
+uint32_t
 aIndex
 nsAString
 &

@@ -1337,7 +1337,7 @@ aShellItem
 FILE
 *
 out
-PRInt32
+int32_t
 aIndent
 )
 {
@@ -1350,7 +1350,7 @@ nsIDocShellTreeItem
 >
 parent
 ;
-PRInt32
+int32_t
 i
 n
 ;
@@ -1700,7 +1700,7 @@ out
 )
 ;
 }
-PRInt32
+int32_t
 i
 n
 ;
@@ -1906,7 +1906,7 @@ out
 )
 ;
 }
-PRInt32
+int32_t
 i
 n
 ;
@@ -2110,7 +2110,7 @@ out
 )
 ;
 }
-PRInt32
+int32_t
 i
 n
 ;

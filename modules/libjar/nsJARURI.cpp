@@ -577,7 +577,7 @@ nsJARURI
 :
 GetInterfaces
 (
-PRUint32
+uint32_t
 *
 count
 nsIID
@@ -607,7 +607,7 @@ nsJARURI
 :
 GetHelperForLanguage
 (
-PRUint32
+uint32_t
 language
 nsISupports
 *
@@ -719,7 +719,7 @@ nsJARURI
 :
 GetImplementationLanguage
 (
-PRUint32
+uint32_t
 *
 aImplementationLanguage
 )
@@ -742,7 +742,7 @@ nsJARURI
 :
 GetFlags
 (
-PRUint32
+uint32_t
 *
 aFlags
 )
@@ -1420,7 +1420,7 @@ nsJARURI
 :
 GetPort
 (
-PRInt32
+int32_t
 *
 aPort
 )
@@ -1435,7 +1435,7 @@ nsJARURI
 :
 SetPort
 (
-PRInt32
+int32_t
 aPort
 )
 {

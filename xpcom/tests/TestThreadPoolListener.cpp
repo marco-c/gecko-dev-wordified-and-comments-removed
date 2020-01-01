@@ -259,7 +259,7 @@ Wait
 }
 for
 (
-PRUint32
+uint32_t
 i
 =
 0
@@ -396,7 +396,7 @@ gReentrantMonitor
 ;
 for
 (
-PRUint32
+uint32_t
 i
 =
 0
@@ -752,7 +752,7 @@ gReentrantMonitor
 ;
 for
 (
-PRUint32
+uint32_t
 i
 =
 0
@@ -873,7 +873,7 @@ Wait
 }
 for
 (
-PRUint32
+uint32_t
 i
 =
 0
@@ -909,7 +909,7 @@ false
 ;
 for
 (
-PRUint32
+uint32_t
 j
 =
 0

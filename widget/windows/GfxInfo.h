@@ -218,9 +218,9 @@ virtual
 nsresult
 GetFeatureStatusImpl
 (
-PRInt32
+int32_t
 aFeature
-PRInt32
+int32_t
 *
 aStatus
 nsAString
@@ -282,7 +282,7 @@ mAdapterVendorID
 nsString
 mAdapterDeviceID
 ;
-PRUint32
+uint32_t
 mAdapterSubsysID
 ;
 nsString
@@ -306,10 +306,10 @@ mAdapterVendorID2
 nsString
 mAdapterDeviceID2
 ;
-PRUint32
+uint32_t
 mAdapterSubsysID2
 ;
-PRUint32
+uint32_t
 mWindowsVersion
 ;
 bool

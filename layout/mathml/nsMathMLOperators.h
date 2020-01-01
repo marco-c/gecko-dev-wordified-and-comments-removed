@@ -30,7 +30,7 @@ NS_STRETCH_DIRECTION_VERTICAL
 }
 ;
 typedef
-PRUint32
+uint32_t
 nsOperatorFlags
 ;
 enum

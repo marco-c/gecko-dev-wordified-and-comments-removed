@@ -309,7 +309,7 @@ nsXPathResult
 :
 GetResultType
 (
-PRUint16
+uint16_t
 *
 aResultType
 )
@@ -508,7 +508,7 @@ nsXPathResult
 :
 GetSnapshotLength
 (
-PRUint32
+uint32_t
 *
 aSnapshotLength
 )
@@ -529,7 +529,7 @@ NS_ERROR_DOM_TYPE_ERR
 aSnapshotLength
 =
 (
-PRUint32
+uint32_t
 )
 mResultNodes
 .
@@ -593,7 +593,7 @@ if
 mCurrentPos
 <
 (
-PRUint32
+uint32_t
 )
 mResultNodes
 .
@@ -634,7 +634,7 @@ nsXPathResult
 :
 SnapshotItem
 (
-PRUint32
+uint32_t
 aIndex
 nsIDOMNode
 *
@@ -758,12 +758,12 @@ aDocument
 Element
 *
 aElement
-PRInt32
+int32_t
 aNameSpaceID
 nsIAtom
 *
 aAttribute
-PRInt32
+int32_t
 aModType
 )
 {
@@ -788,7 +788,7 @@ aContainer
 nsIContent
 *
 aFirstNewContent
-PRInt32
+int32_t
 aNewIndexInContainer
 )
 {
@@ -813,7 +813,7 @@ aContainer
 nsIContent
 *
 aChild
-PRInt32
+int32_t
 aIndexInContainer
 )
 {
@@ -838,7 +838,7 @@ aContainer
 nsIContent
 *
 aChild
-PRInt32
+int32_t
 aIndexInContainer
 nsIContent
 *
@@ -860,7 +860,7 @@ SetExprResult
 txAExprResult
 *
 aExprResult
-PRUint16
+uint16_t
 aResultType
 nsINode
 *
@@ -1010,7 +1010,7 @@ nsIDOMNode
 >
 node
 ;
-PRInt32
+int32_t
 i
 count
 =
@@ -1439,7 +1439,7 @@ return
 NS_ERROR_OUT_OF_MEMORY
 ;
 }
-PRUint32
+uint32_t
 i
 count
 =

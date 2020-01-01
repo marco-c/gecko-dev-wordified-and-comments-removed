@@ -649,7 +649,7 @@ aChildActualRect
 nsRect
 &
 aContainingRect
-PRInt32
+int32_t
 aFlexes
 bool
 &
@@ -712,7 +712,7 @@ aMinSize
 nscoord
 &
 aMaxSize
-PRInt32
+int32_t
 &
 aFlexes
 )
@@ -730,7 +730,7 @@ virtual
 bool
 GetDefaultFlex
 (
-PRInt32
+int32_t
 &
 aFlex
 )

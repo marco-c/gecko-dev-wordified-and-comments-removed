@@ -225,7 +225,7 @@ Shutdown
 0
 ;
 virtual
-PRInt64
+int64_t
 GetDuration
 (
 )
@@ -236,7 +236,7 @@ virtual
 void
 SetDuration
 (
-PRInt64
+int64_t
 aDuration
 )
 =
@@ -246,7 +246,7 @@ virtual
 void
 SetEndTime
 (
-PRInt64
+int64_t
 aEndTime
 )
 =
@@ -256,7 +256,7 @@ virtual
 void
 SetFragmentEndTime
 (
-PRInt64
+int64_t
 aEndTime
 )
 =
@@ -348,7 +348,7 @@ virtual
 void
 UpdatePlaybackPosition
 (
-PRInt64
+int64_t
 aTime
 )
 =
@@ -374,7 +374,7 @@ IsSeekableInBufferedRanges
 0
 ;
 virtual
-PRInt64
+int64_t
 VideoQueueMemoryInUse
 (
 )
@@ -382,7 +382,7 @@ VideoQueueMemoryInUse
 0
 ;
 virtual
-PRInt64
+int64_t
 AudioQueueMemoryInUse
 (
 )
@@ -397,9 +397,9 @@ const
 char
 *
 aBuffer
-PRUint32
+uint32_t
 aLength
-PRInt64
+int64_t
 aOffset
 )
 =
@@ -417,7 +417,7 @@ virtual
 void
 SetFrameBufferLength
 (
-PRUint32
+uint32_t
 aLength
 )
 =
@@ -593,7 +593,7 @@ rhs
 void
 Init
 (
-PRInt64
+int64_t
 aInitialTime
 SourceMediaStream
 *
@@ -602,19 +602,19 @@ bool
 aFinishWhenEnded
 )
 ;
-PRInt64
+int64_t
 mLastAudioPacketTime
 ;
-PRInt64
+int64_t
 mLastAudioPacketEndTime
 ;
-PRInt64
+int64_t
 mAudioFramesWritten
 ;
-PRInt64
+int64_t
 mAudioFramesWrittenBaseTime
 ;
-PRInt64
+int64_t
 mNextVideoTime
 ;
 nsRefPtr
@@ -739,7 +739,7 @@ NotifyPrincipalChanged
 void
 NotifyBytesConsumed
 (
-PRInt64
+int64_t
 aBytes
 )
 ;
@@ -839,7 +839,7 @@ AudioAvailable
 float
 *
 aFrameBuffer
-PRUint32
+uint32_t
 aFrameBufferLength
 float
 aTime
@@ -910,7 +910,7 @@ NS_ERROR_FAILURE
 ;
 }
 virtual
-PRInt64
+int64_t
 VideoQueueMemoryInUse
 (
 )
@@ -934,7 +934,7 @@ return
 ;
 }
 virtual
-PRInt64
+int64_t
 AudioQueueMemoryInUse
 (
 )
@@ -965,9 +965,9 @@ const
 char
 *
 aBuffer
-PRUint32
+uint32_t
 aLength
-PRInt64
+int64_t
 aOffset
 )
 {
@@ -992,7 +992,7 @@ virtual
 nsresult
 RequestFrameBufferLength
 (
-PRUint32
+uint32_t
 aLength
 )
 ;
@@ -1031,7 +1031,7 @@ aReliable
 void
 UpdatePlaybackPosition
 (
-PRInt64
+int64_t
 aTime
 )
 {
@@ -1054,9 +1054,9 @@ aState
 void
 MetadataLoaded
 (
-PRUint32
+uint32_t
 aChannels
-PRUint32
+uint32_t
 aRate
 bool
 aHasAudio
@@ -1119,7 +1119,7 @@ UpdateReadyStateForData
 (
 )
 ;
-PRInt64
+int64_t
 GetDownloadPosition
 (
 )
@@ -1127,7 +1127,7 @@ GetDownloadPosition
 void
 UpdatePlaybackOffset
 (
-PRInt64
+int64_t
 aOffset
 )
 ;
@@ -1184,10 +1184,10 @@ ScheduleStateMachineThread
 (
 )
 ;
-PRInt64
+int64_t
 mDecoderPosition
 ;
-PRInt64
+int64_t
 mPlaybackPosition
 ;
 MediaChannelStatistics
@@ -1202,7 +1202,7 @@ mInitialVolume
 double
 mRequestedSeekTime
 ;
-PRInt64
+int64_t
 mDuration
 ;
 bool

@@ -173,7 +173,7 @@ aDefaultApplication
 void
 GetDefaultAppHandle
 (
-PRUint32
+uint32_t
 *
 aHandle
 )
@@ -181,7 +181,7 @@ aHandle
 void
 SetDefaultAppHandle
 (
-PRUint32
+uint32_t
 aHandle
 )
 ;
@@ -245,7 +245,7 @@ nsIFile
 >
 mDefaultApplication
 ;
-PRUint32
+uint32_t
 mDefaultAppHandle
 ;
 }

@@ -809,7 +809,7 @@ p
 0
 '
 ;
-PRInt32
+int32_t
 numChars
 =
 MultiByteToWideChar
@@ -1075,7 +1075,7 @@ exitCode
 }
 #
 else
-PRInt32
+int32_t
 exitCode
 =
 -
@@ -1344,7 +1344,7 @@ char
 *
 *
 args
-PRUint32
+uint32_t
 count
 )
 {
@@ -1370,7 +1370,7 @@ char
 *
 *
 args
-PRUint32
+uint32_t
 count
 nsIObserver
 *
@@ -1403,7 +1403,7 @@ char
 *
 *
 args
-PRUint32
+uint32_t
 count
 nsIObserver
 *
@@ -1463,7 +1463,7 @@ mTargetPath
 ;
 for
 (
-PRUint32
+uint32_t
 i
 =
 0
@@ -1548,7 +1548,7 @@ PRUnichar
 *
 *
 args
-PRUint32
+uint32_t
 count
 )
 {
@@ -1574,7 +1574,7 @@ PRUnichar
 *
 *
 args
-PRUint32
+uint32_t
 count
 nsIObserver
 *
@@ -1607,7 +1607,7 @@ PRUnichar
 *
 *
 args
-PRUint32
+uint32_t
 count
 nsIObserver
 *
@@ -1667,7 +1667,7 @@ mTargetPath
 ;
 for
 (
-PRUint32
+uint32_t
 i
 =
 0
@@ -1723,7 +1723,7 @@ true
 ;
 for
 (
-PRUint32
+uint32_t
 i
 =
 0
@@ -1882,7 +1882,7 @@ return
 NS_ERROR_FILE_EXECUTION_FAILED
 ;
 }
-PRInt32
+int32_t
 numChars
 =
 MultiByteToWideChar
@@ -2137,7 +2137,7 @@ mPid
 =
 static_cast
 <
-PRInt32
+int32_t
 >
 (
 newPid
@@ -2187,7 +2187,7 @@ NS_ERROR_FAILURE
 struct
 MYProcess
 {
-PRUint32
+uint32_t
 pid
 ;
 }
@@ -2343,7 +2343,7 @@ nsProcess
 :
 GetPid
 (
-PRUint32
+uint32_t
 *
 aPid
 )
@@ -2513,7 +2513,7 @@ nsProcess
 :
 GetExitValue
 (
-PRInt32
+int32_t
 *
 aExitValue
 )

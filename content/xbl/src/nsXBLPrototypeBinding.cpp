@@ -318,7 +318,7 @@ void
 )
 {
 }
-PRUint32
+uint32_t
 HashCode
 (
 void
@@ -402,7 +402,7 @@ return
 mDstAttribute
 ;
 }
-PRInt32
+int32_t
 GetDstNameSpace
 (
 )
@@ -455,7 +455,7 @@ aSrcAtom
 nsIAtom
 *
 aDstAtom
-PRInt32
+int32_t
 aDstNameSpace
 nsIContent
 *
@@ -552,7 +552,7 @@ nsIAtom
 >
 mDstAttribute
 ;
-PRInt32
+int32_t
 mDstNameSpace
 ;
 nsXBLAttributeEntry
@@ -567,7 +567,7 @@ aSrcAtom
 nsIAtom
 *
 aDstAtom
-PRInt32
+int32_t
 aDstNameSpace
 nsIContent
 *
@@ -679,7 +679,7 @@ return
 mInsertionParent
 ;
 }
-PRUint32
+uint32_t
 GetInsertionIndex
 (
 )
@@ -691,7 +691,7 @@ mInsertionIndex
 void
 SetInsertionIndex
 (
-PRUint32
+uint32_t
 aIndex
 )
 {
@@ -727,7 +727,7 @@ static
 void
 InitPool
 (
-PRInt32
+int32_t
 aInitialSize
 )
 {
@@ -931,7 +931,7 @@ nsIContent
 >
 mDefaultContent
 ;
-PRUint32
+uint32_t
 mInsertionIndex
 ;
 nsXBLInsertionPointEntry
@@ -984,12 +984,12 @@ nsFixedSizeAllocator
 kPool
 ;
 static
-PRUint32
+uint32_t
 gRefCnt
 ;
 }
 ;
-PRUint32
+uint32_t
 nsXBLInsertionPointEntry
 :
 :
@@ -1069,7 +1069,7 @@ NS_IMPL_CYCLE_COLLECTION_UNROOT_NATIVE
 nsXBLInsertionPointEntry
 Release
 )
-PRUint32
+uint32_t
 nsXBLPrototypeBinding
 :
 :
@@ -1086,7 +1086,7 @@ kAttrPool
 ;
 static
 const
-PRInt32
+int32_t
 kNumElements
 =
 128
@@ -1107,7 +1107,7 @@ nsXBLAttributeEntry
 ;
 static
 const
-PRInt32
+int32_t
 kAttrNumBuckets
 =
 sizeof
@@ -1122,7 +1122,7 @@ size_t
 ;
 static
 const
-PRInt32
+int32_t
 kAttrInitialSize
 =
 sizeof
@@ -1134,7 +1134,7 @@ kNumElements
 ;
 static
 const
-PRInt32
+int32_t
 kInsInitialSize
 =
 sizeof
@@ -2225,7 +2225,7 @@ AttributeChanged
 nsIAtom
 *
 aAttribute
-PRInt32
+int32_t
 aNameSpaceID
 bool
 aRemoveFlag
@@ -2374,7 +2374,7 @@ GetDstAttribute
 (
 )
 ;
-PRInt32
+int32_t
 dstNs
 =
 xblAttr
@@ -2565,7 +2565,7 @@ value
 )
 )
 {
-PRUint32
+uint32_t
 childCount
 =
 realElement
@@ -2577,7 +2577,7 @@ GetChildCount
 ;
 for
 (
-PRUint32
+uint32_t
 i
 =
 0
@@ -2797,7 +2797,7 @@ GetInsertionParent
 (
 )
 ;
-PRUint32
+uint32_t
 index
 =
 entry
@@ -2895,7 +2895,7 @@ insertionPoint
 =
 nullptr
 ;
-PRInt32
+int32_t
 count
 =
 points
@@ -2905,12 +2905,12 @@ Length
 (
 )
 ;
-PRInt32
+int32_t
 i
 =
 0
 ;
-PRInt32
+int32_t
 currIndex
 =
 0
@@ -2954,7 +2954,7 @@ currIndex
 =
 =
 (
-PRInt32
+int32_t
 )
 index
 )
@@ -2971,7 +2971,7 @@ if
 currIndex
 >
 (
-PRInt32
+int32_t
 )
 index
 )
@@ -3064,7 +3064,7 @@ const
 nsIContent
 *
 aChild
-PRUint32
+uint32_t
 *
 aIndex
 )
@@ -3224,7 +3224,7 @@ aBoundElement
 nsIContent
 *
 aCopyRoot
-PRUint32
+uint32_t
 *
 aIndex
 bool
@@ -3385,7 +3385,7 @@ nsXBLPrototypeBinding
 :
 SetBaseTag
 (
-PRInt32
+int32_t
 aNamespaceID
 nsIAtom
 *
@@ -3408,7 +3408,7 @@ nsXBLPrototypeBinding
 :
 GetBaseTag
 (
-PRInt32
+int32_t
 *
 aNamespaceID
 )
@@ -3870,7 +3870,7 @@ copyParent
 points
 )
 ;
-PRInt32
+int32_t
 count
 =
 points
@@ -3882,7 +3882,7 @@ Length
 ;
 for
 (
-PRInt32
+int32_t
 i
 =
 0
@@ -3950,7 +3950,7 @@ if
 defContent
 )
 {
-PRInt32
+int32_t
 index
 =
 childPoint
@@ -3983,7 +3983,7 @@ if
 copyParent
 )
 {
-PRInt32
+int32_t
 index
 =
 templParent
@@ -4024,7 +4024,7 @@ nsIContent
 *
 mContent
 ;
-PRInt32
+int32_t
 mSrcNamespace
 ;
 nsXBLAttrChangeData
@@ -4107,7 +4107,7 @@ GetSrcAttribute
 (
 )
 ;
-PRInt32
+int32_t
 srcNs
 =
 changeData
@@ -4267,7 +4267,7 @@ GetDstAttribute
 (
 )
 ;
-PRInt32
+int32_t
 dstNs
 =
 curr
@@ -4738,12 +4738,12 @@ nsXBLPrototypeBinding
 :
 AddToAttributeTable
 (
-PRInt32
+int32_t
 aSourceNamespaceID
 nsIAtom
 *
 aSourceTag
-PRInt32
+int32_t
 aDestNamespaceID
 nsIAtom
 *
@@ -5001,7 +5001,7 @@ nsIAtom
 >
 atom
 ;
-PRInt32
+int32_t
 atomNsID
 =
 kNameSpaceID_None
@@ -5012,7 +5012,7 @@ nsIAtom
 >
 attribute
 ;
-PRInt32
+int32_t
 attributeNsID
 =
 kNameSpaceID_None
@@ -5027,7 +5027,7 @@ AssignWithConversion
 token
 )
 ;
-PRInt32
+int32_t
 index
 =
 attrTok
@@ -5307,7 +5307,7 @@ aContent
 childrenElements
 )
 ;
-PRInt32
+int32_t
 count
 =
 childrenElements
@@ -5344,7 +5344,7 @@ mInsertionPointTable
 )
 return
 ;
-PRInt32
+int32_t
 i
 ;
 for
@@ -5557,7 +5557,7 @@ str
 )
 ;
 }
-PRInt32
+int32_t
 index
 =
 parent
@@ -5574,7 +5574,7 @@ xblIns
 SetInsertionIndex
 (
 (
-PRUint32
+uint32_t
 )
 index
 )
@@ -5588,7 +5588,7 @@ index
 false
 )
 ;
-PRUint32
+uint32_t
 defaultCount
 =
 child
@@ -5928,7 +5928,7 @@ GetNestedChildren
 nsIAtom
 *
 aTag
-PRInt32
+int32_t
 aNamespace
 nsIContent
 *
@@ -6094,7 +6094,7 @@ nsGkAtoms
 keypress
 )
 {
-PRUint8
+uint8_t
 phase
 =
 curr
@@ -6104,7 +6104,7 @@ GetPhase
 (
 )
 ;
-PRUint8
+uint8_t
 type
 =
 curr
@@ -6114,7 +6114,7 @@ GetType
 (
 )
 ;
-PRInt32
+int32_t
 count
 =
 mKeyHandlers
@@ -6123,7 +6123,7 @@ Count
 (
 )
 ;
-PRInt32
+int32_t
 i
 ;
 nsXBLKeyEventHandler
@@ -6314,7 +6314,7 @@ aDocInfo
 nsIDocument
 *
 aDocument
-PRUint8
+uint8_t
 aFlags
 )
 {
@@ -6551,7 +6551,7 @@ false
 )
 ;
 }
-PRUint32
+uint32_t
 interfaceCount
 ;
 rv
@@ -7307,7 +7307,7 @@ context
 NS_ERROR_FAILURE
 )
 ;
-PRUint8
+uint8_t
 flags
 =
 mInheritStyle
@@ -7756,7 +7756,7 @@ aContent
 =
 nullptr
 ;
-PRInt32
+int32_t
 namespaceID
 ;
 nsresult
@@ -8003,7 +8003,7 @@ nsIDOMNode
 ELEMENT_NODE
 )
 ;
-PRUint32
+uint32_t
 attrCount
 ;
 rv
@@ -8107,7 +8107,7 @@ attrCount
 ;
 for
 (
-PRUint32
+uint32_t
 i
 =
 0
@@ -8350,7 +8350,7 @@ NOT_FROM_PARSER
 ;
 for
 (
-PRUint32
+uint32_t
 i
 =
 0
@@ -8483,7 +8483,7 @@ MOZ_XUL
 }
 #
 endif
-PRInt32
+int32_t
 srcNamespaceID
 destNamespaceID
 ;
@@ -8609,7 +8609,7 @@ rv
 )
 ;
 }
-PRUint32
+uint32_t
 insertionPointIndex
 ;
 rv
@@ -8754,7 +8754,7 @@ nullptr
 )
 ;
 }
-PRUint32
+uint32_t
 count
 ;
 rv
@@ -8849,7 +8849,7 @@ rv
 )
 ;
 }
-PRUint32
+uint32_t
 childCount
 ;
 rv
@@ -8871,7 +8871,7 @@ rv
 ;
 for
 (
-PRUint32
+uint32_t
 i
 =
 0
@@ -8945,7 +8945,7 @@ nsIContent
 *
 content
 ;
-PRInt32
+int32_t
 srcNamespace
 ;
 WriteAttributeData
@@ -9015,7 +9015,7 @@ data
 stream
 ;
 const
-PRInt32
+int32_t
 srcNamespace
 =
 data
@@ -9247,7 +9247,7 @@ IsElement
 )
 )
 {
-PRUint8
+uint8_t
 type
 =
 XBLBinding_Serialize_NoContent
@@ -9432,7 +9432,7 @@ rv
 rv
 )
 ;
-PRUint32
+uint32_t
 count
 =
 aNode
@@ -9458,7 +9458,7 @@ rv
 rv
 )
 ;
-PRUint32
+uint32_t
 i
 ;
 for
@@ -9489,7 +9489,7 @@ GetAttrNameAt
 i
 )
 ;
-PRInt32
+int32_t
 namespaceID
 =
 attr
@@ -9691,14 +9691,14 @@ list
 )
 )
 {
-PRUint32
+uint32_t
 lastInsertionIndex
 =
 0xFFFFFFFF
 ;
 for
 (
-PRUint32
+uint32_t
 l
 =
 0
@@ -9792,14 +9792,14 @@ rv
 rv
 )
 ;
-PRUint32
+uint32_t
 icount
 =
 1
 ;
 for
 (
-PRUint32
+uint32_t
 i
 =
 l
@@ -9983,12 +9983,12 @@ ReadNamespace
 nsIObjectInputStream
 *
 aStream
-PRInt32
+int32_t
 &
 aNameSpaceID
 )
 {
-PRUint8
+uint8_t
 namespaceID
 ;
 nsresult
@@ -10071,7 +10071,7 @@ WriteNamespace
 nsIObjectOutputStream
 *
 aStream
-PRInt32
+int32_t
 aNameSpaceID
 )
 {
@@ -10094,7 +10094,7 @@ aStream
 Write8
 (
 (
-PRInt8
+int8_t
 )
 aNameSpaceID
 )
@@ -10161,7 +10161,7 @@ NS_OK
 bool
 CheckTagNameWhiteList
 (
-PRInt32
+int32_t
 aNameSpaceID
 nsIAtom
 *
@@ -10261,7 +10261,7 @@ tree
 nullptr
 }
 ;
-PRUint32
+uint32_t
 i
 ;
 if
@@ -10426,7 +10426,7 @@ extends
 nsAutoString
 prefix
 ;
-PRInt32
+int32_t
 offset
 ;
 if
@@ -10552,7 +10552,7 @@ IsEmpty
 )
 )
 {
-PRInt32
+int32_t
 nameSpaceID
 =
 nsContentUtils

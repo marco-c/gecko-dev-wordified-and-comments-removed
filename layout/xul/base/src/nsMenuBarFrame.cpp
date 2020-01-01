@@ -709,7 +709,7 @@ nsIDOMKeyEvent
 aKeyEvent
 )
 {
-PRUint32
+uint32_t
 charCode
 ;
 aKeyEvent
@@ -723,7 +723,7 @@ charCode
 ;
 nsAutoTArray
 <
-PRUint32
+uint32_t
 10
 >
 accessKeys
@@ -832,7 +832,7 @@ foundMenu
 =
 nullptr
 ;
-PRUint32
+uint32_t
 foundIndex
 =
 accessKeys
@@ -934,7 +934,7 @@ EndReading
 (
 )
 ;
-PRUint32
+uint32_t
 ch
 =
 UTF16CharEnumerator
@@ -947,7 +947,7 @@ start
 end
 )
 ;
-PRUint32
+uint32_t
 index
 =
 accessKeys

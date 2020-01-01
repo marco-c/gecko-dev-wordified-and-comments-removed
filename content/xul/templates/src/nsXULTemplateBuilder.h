@@ -395,7 +395,7 @@ nsTemplateQuerySet
 aQuerySet
 bool
 aIsQuerySet
-PRInt32
+int32_t
 *
 aPriority
 bool
@@ -581,7 +581,7 @@ nsTemplateRule
 *
 *
 aMatchedRule
-PRInt16
+int16_t
 *
 aRuleIndex
 )
@@ -846,7 +846,7 @@ eLoggingEnabled
 )
 }
 ;
-PRInt32
+int32_t
 mFlags
 ;
 class

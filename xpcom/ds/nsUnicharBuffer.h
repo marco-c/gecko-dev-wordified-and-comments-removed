@@ -52,13 +52,13 @@ NS_DECL_ISUPPORTS
 NS_IMETHOD
 Init
 (
-PRUint32
+uint32_t
 aBufferSize
 )
 ;
 NS_IMETHOD_
 (
-PRInt32
+int32_t
 )
 GetLength
 (
@@ -67,7 +67,7 @@ const
 ;
 NS_IMETHOD_
 (
-PRInt32
+int32_t
 )
 GetBufferSize
 (
@@ -90,7 +90,7 @@ bool
 )
 Grow
 (
-PRInt32
+int32_t
 aNewSize
 )
 ;
@@ -98,10 +98,10 @@ PRUnichar
 *
 mBuffer
 ;
-PRUint32
+uint32_t
 mSpace
 ;
-PRUint32
+uint32_t
 mLength
 ;
 private

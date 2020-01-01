@@ -911,7 +911,7 @@ nsSortState
 )
 privateData
 ;
-PRInt32
+int32_t
 sortOrder
 =
 0
@@ -961,7 +961,7 @@ sortOrder
 }
 else
 {
-PRInt32
+int32_t
 length
 =
 sortState
@@ -975,7 +975,7 @@ Count
 ;
 for
 (
-PRInt32
+int32_t
 t
 =
 0
@@ -1152,7 +1152,7 @@ rv
 rv
 )
 ;
-PRUint32
+uint32_t
 numResults
 =
 items
@@ -1169,7 +1169,7 @@ numResults
 return
 NS_OK
 ;
-PRUint32
+uint32_t
 i
 ;
 if
@@ -1180,7 +1180,7 @@ aSortState
 inbetweenSeparatorSort
 )
 {
-PRUint32
+uint32_t
 startIndex
 =
 0
@@ -1444,7 +1444,7 @@ parent
 =
 parent
 ;
-PRInt32
+int32_t
 index
 =
 parent
@@ -1645,9 +1645,9 @@ contentSortInfo
 >
 &
 aData
-PRInt32
+int32_t
 aStart
-PRInt32
+int32_t
 aNumItems
 )
 {
@@ -1658,7 +1658,7 @@ aNumItems
 1
 )
 {
-PRInt32
+int32_t
 upPoint
 =
 (
@@ -1671,7 +1671,7 @@ aNumItems
 +
 aStart
 ;
-PRInt32
+int32_t
 downPoint
 =
 (
@@ -1684,7 +1684,7 @@ aNumItems
 +
 aStart
 ;
-PRInt32
+int32_t
 half
 =
 aNumItems
@@ -2312,7 +2312,7 @@ return
 NS_OK
 ;
 }
-PRInt32
+int32_t
 XULSortServiceImpl
 :
 :
@@ -2326,7 +2326,7 @@ const
 nsAString
 &
 aRight
-PRUint32
+uint32_t
 aSortHints
 )
 {
@@ -2340,7 +2340,7 @@ SORT_INTEGER
 nsresult
 err
 ;
-PRInt32
+int32_t
 leftint
 =
 PromiseFlatString
@@ -2362,7 +2362,7 @@ err
 )
 )
 {
-PRInt32
+int32_t
 rightint
 =
 PromiseFlatString
@@ -2425,7 +2425,7 @@ if
 collation
 )
 {
-PRInt32
+int32_t
 result
 ;
 collation

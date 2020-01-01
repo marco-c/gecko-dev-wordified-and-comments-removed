@@ -207,7 +207,7 @@ inDOMViewNode
 *
 previous
 ;
-PRInt32
+int32_t
 level
 ;
 bool
@@ -639,7 +639,7 @@ inDOMView
 :
 GetNodeFromRowIndex
 (
-PRInt32
+int32_t
 rowIndex
 nsIDOMNode
 *
@@ -695,7 +695,7 @@ GetRowIndexFromNode
 nsIDOMNode
 *
 node
-PRInt32
+int32_t
 *
 _retval
 )
@@ -868,7 +868,7 @@ inDOMView
 :
 GetWhatToShow
 (
-PRUint32
+uint32_t
 *
 aWhatToShow
 )
@@ -888,7 +888,7 @@ inDOMView
 :
 SetWhatToShow
 (
-PRUint32
+uint32_t
 aWhatToShow
 )
 {
@@ -937,7 +937,7 @@ inDOMView
 :
 GetRowCount
 (
-PRInt32
+int32_t
 *
 aRowCount
 )
@@ -959,7 +959,7 @@ inDOMView
 :
 GetRowProperties
 (
-PRInt32
+int32_t
 index
 nsISupportsArray
 *
@@ -976,7 +976,7 @@ inDOMView
 :
 GetCellProperties
 (
-PRInt32
+int32_t
 row
 nsITreeColumn
 *
@@ -1043,7 +1043,7 @@ kAnonymousAtom
 )
 ;
 }
-PRUint16
+uint16_t
 nodeType
 ;
 node
@@ -1363,7 +1363,7 @@ inDOMView
 :
 GetImageSrc
 (
-PRInt32
+int32_t
 row
 nsITreeColumn
 *
@@ -1383,12 +1383,12 @@ inDOMView
 :
 GetProgressMode
 (
-PRInt32
+int32_t
 row
 nsITreeColumn
 *
 col
-PRInt32
+int32_t
 *
 _retval
 )
@@ -1403,7 +1403,7 @@ inDOMView
 :
 GetCellValue
 (
-PRInt32
+int32_t
 row
 nsITreeColumn
 *
@@ -1423,7 +1423,7 @@ inDOMView
 :
 GetCellText
 (
-PRInt32
+int32_t
 row
 nsITreeColumn
 *
@@ -1566,7 +1566,7 @@ colNodeType
 )
 )
 {
-PRUint16
+uint16_t
 nodeType
 ;
 domNode
@@ -1585,7 +1585,7 @@ temp
 .
 AppendInt
 (
-PRInt32
+int32_t
 (
 nodeType
 )
@@ -1690,7 +1690,7 @@ inDOMView
 :
 IsContainer
 (
-PRInt32
+int32_t
 index
 bool
 *
@@ -1736,7 +1736,7 @@ inDOMView
 :
 IsContainerOpen
 (
-PRInt32
+int32_t
 index
 bool
 *
@@ -1782,7 +1782,7 @@ inDOMView
 :
 IsContainerEmpty
 (
-PRInt32
+int32_t
 index
 bool
 *
@@ -1832,9 +1832,9 @@ inDOMView
 :
 GetLevel
 (
-PRInt32
+int32_t
 index
-PRInt32
+int32_t
 *
 _retval
 )
@@ -1878,9 +1878,9 @@ inDOMView
 :
 GetParentIndex
 (
-PRInt32
+int32_t
 rowIndex
-PRInt32
+int32_t
 *
 _retval
 )
@@ -1918,7 +1918,7 @@ checkNode
 =
 nullptr
 ;
-PRInt32
+int32_t
 i
 =
 rowIndex
@@ -1988,9 +1988,9 @@ inDOMView
 :
 HasNextSibling
 (
-PRInt32
+int32_t
 rowIndex
-PRInt32
+int32_t
 afterIndex
 bool
 *
@@ -2039,7 +2039,7 @@ inDOMView
 :
 ToggleOpenState
 (
-PRInt32
+int32_t
 index
 )
 {
@@ -2064,7 +2064,7 @@ node
 return
 NS_ERROR_FAILURE
 ;
-PRInt32
+int32_t
 oldCount
 =
 GetRowCount
@@ -2199,7 +2199,7 @@ inDOMView
 :
 SetCellValue
 (
-PRInt32
+int32_t
 row
 nsITreeColumn
 *
@@ -2220,7 +2220,7 @@ inDOMView
 :
 SetCellText
 (
-PRInt32
+int32_t
 row
 nsITreeColumn
 *
@@ -2256,7 +2256,7 @@ inDOMView
 :
 CycleCell
 (
-PRInt32
+int32_t
 row
 nsITreeColumn
 *
@@ -2273,7 +2273,7 @@ inDOMView
 :
 IsEditable
 (
-PRInt32
+int32_t
 row
 nsITreeColumn
 *
@@ -2293,7 +2293,7 @@ inDOMView
 :
 IsSelectable
 (
-PRInt32
+int32_t
 row
 nsITreeColumn
 *
@@ -2313,7 +2313,7 @@ inDOMView
 :
 IsSeparator
 (
-PRInt32
+int32_t
 index
 bool
 *
@@ -2345,9 +2345,9 @@ inDOMView
 :
 CanDrop
 (
-PRInt32
+int32_t
 index
-PRInt32
+int32_t
 orientation
 nsIDOMDataTransfer
 *
@@ -2372,9 +2372,9 @@ inDOMView
 :
 Drop
 (
-PRInt32
+int32_t
 row
-PRInt32
+int32_t
 orientation
 nsIDOMDataTransfer
 *
@@ -2411,7 +2411,7 @@ const
 PRUnichar
 *
 action
-PRInt32
+int32_t
 row
 )
 {
@@ -2429,7 +2429,7 @@ const
 PRUnichar
 *
 action
-PRInt32
+int32_t
 row
 nsITreeColumn
 *
@@ -2486,12 +2486,12 @@ dom
 Element
 *
 aElement
-PRInt32
+int32_t
 aNameSpaceID
 nsIAtom
 *
 aAttribute
-PRInt32
+int32_t
 aModType
 )
 {
@@ -2671,7 +2671,7 @@ domAttr
 return
 ;
 }
-PRInt32
+int32_t
 row
 =
 0
@@ -2731,7 +2731,7 @@ attrs
 )
 )
 ;
-PRUint32
+uint32_t
 attrCount
 ;
 attrs
@@ -2749,10 +2749,10 @@ contentNode
 =
 nullptr
 ;
-PRInt32
+int32_t
 contentRow
 ;
-PRInt32
+int32_t
 attrRow
 ;
 if
@@ -2928,10 +2928,10 @@ contentNode
 =
 nullptr
 ;
-PRInt32
+int32_t
 contentRow
 ;
-PRInt32
+int32_t
 baseLevel
 ;
 if
@@ -2993,7 +2993,7 @@ checkNode
 =
 nullptr
 ;
-PRInt32
+int32_t
 row
 =
 0
@@ -3128,7 +3128,7 @@ aContainer
 nsIContent
 *
 aFirstNewContent
-PRInt32
+int32_t
 )
 {
 if
@@ -3185,7 +3185,7 @@ aContainer
 nsIContent
 *
 aChild
-PRInt32
+int32_t
 )
 {
 if
@@ -3264,7 +3264,7 @@ parent
 )
 )
 ;
-PRInt32
+int32_t
 parentRow
 =
 0
@@ -3375,7 +3375,7 @@ previousNode
 =
 nullptr
 ;
-PRInt32
+int32_t
 row
 =
 0
@@ -3385,7 +3385,7 @@ if
 previous
 )
 {
-PRInt32
+int32_t
 previousRow
 =
 0
@@ -3468,7 +3468,7 @@ previousNode
 }
 else
 {
-PRInt32
+int32_t
 firstChildRow
 ;
 if
@@ -3535,7 +3535,7 @@ aContainer
 nsIContent
 *
 aChild
-PRInt32
+int32_t
 aIndexInContainer
 nsIContent
 *
@@ -3564,7 +3564,7 @@ aChild
 )
 )
 ;
-PRInt32
+int32_t
 row
 =
 0
@@ -3643,7 +3643,7 @@ next
 =
 nullptr
 ;
-PRInt32
+int32_t
 oldCount
 =
 GetRowCount
@@ -3724,7 +3724,7 @@ inDOMView
 :
 GetNodeAt
 (
-PRInt32
+int32_t
 aRow
 )
 {
@@ -3737,7 +3737,7 @@ aRow
 )
 ;
 }
-PRInt32
+int32_t
 inDOMView
 :
 :
@@ -3753,7 +3753,7 @@ Length
 )
 ;
 }
-PRInt32
+int32_t
 inDOMView
 :
 :
@@ -3858,9 +3858,9 @@ inDOMView
 :
 RowOutOfBounds
 (
-PRInt32
+int32_t
 aRow
-PRInt32
+int32_t
 aCount
 )
 {
@@ -3915,7 +3915,7 @@ InsertNode
 inDOMViewNode
 *
 aNode
-PRInt32
+int32_t
 aRow
 )
 {
@@ -3948,7 +3948,7 @@ inDOMView
 :
 RemoveNode
 (
-PRInt32
+int32_t
 aRow
 )
 {
@@ -3985,7 +3985,7 @@ ReplaceNode
 inDOMViewNode
 *
 aNode
-PRInt32
+int32_t
 aRow
 )
 {
@@ -4028,7 +4028,7 @@ inDOMViewNode
 >
 &
 aNodes
-PRInt32
+int32_t
 aRow
 )
 {
@@ -4062,9 +4062,9 @@ inDOMView
 :
 RemoveNodes
 (
-PRInt32
+int32_t
 aRow
-PRInt32
+int32_t
 aCount
 )
 {
@@ -4076,7 +4076,7 @@ aRow
 )
 return
 ;
-PRInt32
+int32_t
 rowCount
 =
 GetRowCount
@@ -4085,7 +4085,7 @@ GetRowCount
 ;
 for
 (
-PRInt32
+int32_t
 i
 =
 aRow
@@ -4130,7 +4130,7 @@ RemoveAllNodes
 (
 )
 {
-PRInt32
+int32_t
 rowCount
 =
 GetRowCount
@@ -4139,7 +4139,7 @@ GetRowCount
 ;
 for
 (
-PRInt32
+int32_t
 i
 =
 0
@@ -4173,7 +4173,7 @@ inDOMView
 :
 ExpandNode
 (
-PRInt32
+int32_t
 aRow
 )
 {
@@ -4209,7 +4209,7 @@ mRootNode
 kids
 )
 ;
-PRInt32
+int32_t
 kidCount
 =
 kids
@@ -4242,7 +4242,7 @@ nullptr
 ;
 for
 (
-PRInt32
+int32_t
 i
 =
 0
@@ -4323,7 +4323,7 @@ inDOMView
 :
 CollapseNode
 (
-PRInt32
+int32_t
 aRow
 )
 {
@@ -4354,7 +4354,7 @@ rv
 return
 ;
 }
-PRInt32
+int32_t
 row
 =
 0
@@ -4391,7 +4391,7 @@ inDOMView
 :
 RowToNode
 (
-PRInt32
+int32_t
 aRow
 inDOMViewNode
 *
@@ -4437,12 +4437,12 @@ NodeToRow
 nsIDOMNode
 *
 aNode
-PRInt32
+int32_t
 *
 aRow
 )
 {
-PRInt32
+int32_t
 rowCount
 =
 GetRowCount
@@ -4451,7 +4451,7 @@ GetRowCount
 ;
 for
 (
-PRInt32
+int32_t
 i
 =
 0
@@ -4741,14 +4741,14 @@ GetFirstDescendantOf
 inDOMViewNode
 *
 aNode
-PRInt32
+int32_t
 aRow
-PRInt32
+int32_t
 *
 aResult
 )
 {
-PRInt32
+int32_t
 row
 =
 0
@@ -4832,14 +4832,14 @@ GetLastDescendantOf
 inDOMViewNode
 *
 aNode
-PRInt32
+int32_t
 aRow
-PRInt32
+int32_t
 *
 aResult
 )
 {
-PRInt32
+int32_t
 row
 =
 0
@@ -5138,7 +5138,7 @@ nsIDOMNode
 aArray
 )
 {
-PRUint32
+uint32_t
 l
 =
 0
@@ -5158,7 +5158,7 @@ nsIDOMNode
 >
 kid
 ;
-PRUint16
+uint16_t
 nodeType
 =
 0
@@ -5195,7 +5195,7 @@ utils
 }
 for
 (
-PRUint32
+uint32_t
 i
 =
 0
@@ -5260,7 +5260,7 @@ spec
 "
 )
 ;
-PRUint32
+uint32_t
 filterForNodeType
 =
 1
@@ -5383,7 +5383,7 @@ nsIDOMNode
 aArray
 )
 {
-PRUint32
+uint32_t
 l
 =
 0
@@ -5405,7 +5405,7 @@ kid
 ;
 for
 (
-PRUint32
+uint32_t
 i
 =
 0

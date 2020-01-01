@@ -444,7 +444,7 @@ nsBlockFrame
 :
 gDisableResizeOpt
 ;
-PRInt32
+int32_t
 nsBlockFrame
 :
 :
@@ -1062,7 +1062,7 @@ aFrameReflowStatus
 )
 {
 static
-PRUint32
+uint32_t
 record
 [
 2
@@ -1083,7 +1083,7 @@ index
 =
 1
 ;
-PRUint32
+uint32_t
 newS
 =
 record
@@ -1278,7 +1278,7 @@ aPresShell
 nsStyleContext
 *
 aContext
-PRUint32
+uint32_t
 aFlags
 )
 {
@@ -1562,7 +1562,7 @@ List
 FILE
 *
 out
-PRInt32
+int32_t
 aIndent
 )
 const
@@ -1991,12 +1991,12 @@ height
 )
 ;
 }
-PRInt32
+int32_t
 numInlineLines
 =
 0
 ;
-PRInt32
+int32_t
 numBlockLines
 =
 0
@@ -2630,7 +2630,7 @@ aY
 nsIFrame
 *
 aForChild
-PRUint32
+uint32_t
 aFlags
 )
 {
@@ -3913,7 +3913,7 @@ mFirstChild
 ;
 for
 (
-PRInt32
+int32_t
 i
 =
 0
@@ -4376,7 +4376,7 @@ mFirstChild
 ;
 for
 (
-PRInt32
+int32_t
 i
 =
 0
@@ -5059,7 +5059,7 @@ start
 =
 LL_ZERO
 ;
-PRInt32
+int32_t
 ctc
 =
 0
@@ -6244,7 +6244,7 @@ PR_Now
 (
 )
 ;
-PRInt32
+int32_t
 ectc
 =
 nsLineBox
@@ -6254,7 +6254,7 @@ GetCtorCount
 (
 )
 ;
-PRInt32
+int32_t
 numLines
 =
 mLines
@@ -7390,7 +7390,7 @@ line
 nsOverflowAreas
 lineAreas
 ;
-PRInt32
+int32_t
 n
 =
 line
@@ -7647,11 +7647,11 @@ inline
 bool
 IsAlignedLeft
 (
-PRUint8
+uint8_t
 aAlignment
-PRUint8
+uint8_t
 aDirection
-PRUint8
+uint8_t
 aUnicodeBidi
 nsIFrame
 *
@@ -8874,7 +8874,7 @@ nsLineBox
 aLine
 nscoord
 aDeltaY
-PRInt32
+int32_t
 aDeltaIndent
 )
 {
@@ -9315,7 +9315,7 @@ lastLineMovedUp
 =
 false
 ;
-PRUint8
+uint8_t
 inlineFloatBreakType
 =
 aState
@@ -11709,7 +11709,7 @@ GetStateBits
 NS_FRAME_IS_DIRTY
 )
 {
-PRInt32
+int32_t
 n
 =
 aLine
@@ -11975,7 +11975,7 @@ GetStateBits
 NS_FRAME_HAS_CONTAINER_LAYER_DESCENDANT
 )
 {
-PRInt32
+int32_t
 childCount
 =
 aLine
@@ -13414,7 +13414,7 @@ kid
 }
 else
 {
-PRInt32
+int32_t
 n
 =
 aLine
@@ -13490,12 +13490,12 @@ nsBlockFrame
 :
 AttributeChanged
 (
-PRInt32
+int32_t
 aNameSpaceID
 nsIAtom
 *
 aAttribute
-PRInt32
+int32_t
 aModType
 )
 {
@@ -14245,7 +14245,7 @@ aState
 mReflowState
 )
 ;
-PRUint8
+uint8_t
 breakType
 =
 display
@@ -16226,7 +16226,7 @@ forceBreakInContent
 =
 nullptr
 ;
-PRInt32
+int32_t
 forceBreakOffset
 =
 -
@@ -16697,7 +16697,7 @@ EnableResizeReflowOptimization
 (
 )
 ;
-PRUint8
+uint8_t
 direction
 ;
 if
@@ -16859,7 +16859,7 @@ lineReflowStatus
 =
 LINE_REFLOW_OK
 ;
-PRInt32
+int32_t
 i
 ;
 nsIFrame
@@ -17100,7 +17100,7 @@ LINE_REFLOW_OK
 lineReflowStatus
 )
 {
-PRInt32
+int32_t
 oldCount
 =
 aLine
@@ -17257,7 +17257,7 @@ if
 needsBackup
 )
 {
-PRInt32
+int32_t
 offset
 ;
 gfxBreakPriority
@@ -17884,7 +17884,7 @@ aLineReflowStatus
 =
 LINE_REFLOW_STOP
 ;
-PRUint8
+uint8_t
 breakType
 =
 NS_INLINE_GET_BREAK_TYPE
@@ -18839,7 +18839,7 @@ line
 "
 )
 ;
-PRInt32
+int32_t
 pushCount
 =
 aLine
@@ -19018,7 +19018,7 @@ f
 =
 aFrame
 ;
-PRInt32
+int32_t
 count
 =
 pushCount
@@ -22738,7 +22738,7 @@ end
 (
 )
 ;
-PRInt32
+int32_t
 prevSiblingIndex
 =
 -
@@ -22893,7 +22893,7 @@ if
 aPrevSibling
 )
 {
-PRInt32
+int32_t
 rem
 =
 prevSibLine
@@ -25138,7 +25138,7 @@ DoRemoveFrame
 nsIFrame
 *
 aDeletedFrame
-PRUint32
+uint32_t
 aFlags
 )
 {
@@ -26488,7 +26488,7 @@ line
 >
 mFirstChild
 ;
-PRInt32
+int32_t
 n
 =
 line
@@ -27570,7 +27570,7 @@ return
 NS_OK
 ;
 }
-PRUint8
+uint8_t
 nsBlockFrame
 :
 :
@@ -28598,7 +28598,7 @@ static
 void
 DebugOutputDrawLine
 (
-PRInt32
+int32_t
 aDepth
 nsLineBox
 *
@@ -28748,9 +28748,9 @@ nsBlockFrame
 line_iterator
 &
 aLine
-PRInt32
+int32_t
 aDepth
-PRInt32
+int32_t
 &
 aDrawnLines
 const
@@ -28878,7 +28878,7 @@ aLine
 >
 mFirstChild
 ;
-PRInt32
+int32_t
 n
 =
 aLine
@@ -28984,10 +28984,10 @@ nsDisplayListSet
 aLists
 )
 {
-PRInt32
+int32_t
 drawnLines
 ;
-PRInt32
+int32_t
 depth
 =
 0
@@ -29364,7 +29364,7 @@ nonDecreasingYs
 =
 true
 ;
-PRInt32
+int32_t
 lineCount
 =
 0
@@ -29586,7 +29586,7 @@ PR_Now
 (
 )
 ;
-PRInt32
+int32_t
 numLines
 =
 mLines
@@ -31317,7 +31317,7 @@ return
 false
 ;
 }
-PRInt32
+int32_t
 ordinal
 =
 1
@@ -31420,10 +31420,10 @@ aPresContext
 nsBlockFrame
 *
 aBlockFrame
-PRInt32
+int32_t
 *
 aOrdinal
-PRInt32
+int32_t
 aDepth
 )
 {
@@ -31474,7 +31474,7 @@ line
 >
 mFirstChild
 ;
-PRInt32
+int32_t
 n
 =
 line
@@ -31558,10 +31558,10 @@ aPresContext
 nsIFrame
 *
 aKid
-PRInt32
+int32_t
 *
 aOrdinal
-PRInt32
+int32_t
 aDepth
 )
 {
@@ -32406,7 +32406,7 @@ equal
 =
 true
 ;
-PRUint32
+uint32_t
 i
 =
 0
@@ -33321,7 +33321,7 @@ GetLineCursor
 (
 )
 ;
-PRInt32
+int32_t
 count
 =
 0
@@ -33426,7 +33426,7 @@ GetChildCount
 )
 ;
 }
-PRInt32
+int32_t
 frameCount
 =
 0
@@ -33918,7 +33918,7 @@ GetNextInFlow
 ;
 }
 }
-PRInt32
+int32_t
 nsBlockFrame
 :
 :
@@ -33927,7 +33927,7 @@ GetDepth
 )
 const
 {
-PRInt32
+int32_t
 depth
 =
 0

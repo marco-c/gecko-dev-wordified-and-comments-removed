@@ -127,10 +127,10 @@ nsIConsoleMessage
 *
 mMessages
 ;
-PRUint32
+uint32_t
 mBufferSize
 ;
-PRUint32
+uint32_t
 mCurrent
 ;
 bool

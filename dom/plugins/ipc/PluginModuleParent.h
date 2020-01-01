@@ -573,7 +573,7 @@ dom
 NativeThreadId
 *
 id
-PRUint32
+uint32_t
 *
 processType
 )
@@ -1342,7 +1342,10 @@ mHangID
 #
 ifdef
 XP_WIN
+InfallibleTArray
+<
 float
+>
 mPluginCpuUsageOnHang
 ;
 #

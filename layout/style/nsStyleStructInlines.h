@@ -103,7 +103,7 @@ IsBorderImageLoaded
 )
 const
 {
-PRUint32
+uint32_t
 status
 ;
 return
@@ -151,7 +151,7 @@ nsStyleBorder
 :
 SetSubImage
 (
-PRUint8
+uint8_t
 aIndex
 imgIContainer
 *
@@ -186,7 +186,7 @@ nsStyleBorder
 :
 GetSubImage
 (
-PRUint8
+uint8_t
 aIndex
 )
 const
@@ -460,7 +460,7 @@ IsOriginalDisplayInlineOutsideStyle
 )
 ;
 }
-PRUint8
+uint8_t
 nsStyleDisplay
 :
 :

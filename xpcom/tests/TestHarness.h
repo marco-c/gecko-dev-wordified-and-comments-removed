@@ -150,7 +150,7 @@ stdarg
 h
 >
 static
-PRUint32
+uint32_t
 gFailCount
 =
 0

@@ -226,16 +226,16 @@ FunctionCall
 :
 requireParams
 (
-PRInt32
+int32_t
 aParamCountMin
-PRInt32
+int32_t
 aParamCountMax
 txIEvalContext
 *
 aContext
 )
 {
-PRInt32
+int32_t
 argc
 =
 mParams
@@ -323,7 +323,7 @@ FunctionCall
 :
 getSubExprAt
 (
-PRUint32
+uint32_t
 aPos
 )
 {
@@ -342,7 +342,7 @@ FunctionCall
 :
 setSubExprAt
 (
-PRUint32
+uint32_t
 aPos
 Expr
 *
@@ -384,7 +384,7 @@ ContextSensitivity
 aContext
 )
 {
-PRUint32
+uint32_t
 i
 len
 =
@@ -501,7 +501,7 @@ NS_LITERAL_STRING
 ;
 for
 (
-PRUint32
+uint32_t
 i
 =
 0

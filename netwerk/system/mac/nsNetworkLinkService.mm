@@ -239,7 +239,7 @@ nsNetworkLinkService
 :
 GetLinkType
 (
-PRUint32
+uint32_t
 *
 aLinkType
 )

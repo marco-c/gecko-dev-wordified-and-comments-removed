@@ -1512,7 +1512,7 @@ nsHTMLButtonControlFrame
 :
 GetAdditionalStyleContext
 (
-PRInt32
+int32_t
 aIndex
 )
 const
@@ -1532,7 +1532,7 @@ nsHTMLButtonControlFrame
 :
 SetAdditionalStyleContext
 (
-PRInt32
+int32_t
 aIndex
 nsStyleContext
 *

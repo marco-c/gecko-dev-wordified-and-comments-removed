@@ -1014,7 +1014,7 @@ result
 )
 ;
 }
-PRUint32
+uint32_t
 length
 ;
 result

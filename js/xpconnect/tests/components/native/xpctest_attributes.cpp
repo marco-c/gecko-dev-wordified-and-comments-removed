@@ -143,7 +143,7 @@ xpcTestObjectReadOnly
 :
 GetShortReadOnly
 (
-PRInt16
+int16_t
 *
 aShortReadOnly
 )
@@ -163,7 +163,7 @@ xpcTestObjectReadOnly
 :
 GetLongReadOnly
 (
-PRInt32
+int32_t
 *
 aLongReadOnly
 )
@@ -489,7 +489,7 @@ xpcTestObjectReadWrite
 :
 GetShortProperty
 (
-PRInt16
+int16_t
 *
 aShortProperty
 )
@@ -509,7 +509,7 @@ xpcTestObjectReadWrite
 :
 SetShortProperty
 (
-PRInt16
+int16_t
 aShortProperty
 )
 {
@@ -527,7 +527,7 @@ xpcTestObjectReadWrite
 :
 GetLongProperty
 (
-PRInt32
+int32_t
 *
 aLongProperty
 )
@@ -547,7 +547,7 @@ xpcTestObjectReadWrite
 :
 SetLongProperty
 (
-PRInt32
+int32_t
 aLongProperty
 )
 {

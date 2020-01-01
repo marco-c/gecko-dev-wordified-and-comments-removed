@@ -901,7 +901,7 @@ BindingURI
 (
 )
 ;
-PRUint32
+uint32_t
 eltCount
 =
 mBoundElements
@@ -912,7 +912,7 @@ Count
 ;
 for
 (
-PRUint32
+uint32_t
 j
 =
 0

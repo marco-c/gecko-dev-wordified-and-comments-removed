@@ -349,7 +349,7 @@ nsSVGEnum
 :
 SetBaseValue
 (
-PRUint16
+uint16_t
 aValue
 nsSVGElement
 *
@@ -396,7 +396,7 @@ if
 mBaseVal
 !
 =
-PRUint8
+uint8_t
 (
 aValue
 )
@@ -404,7 +404,7 @@ aValue
 {
 mBaseVal
 =
-PRUint8
+uint8_t
 (
 aValue
 )
@@ -458,7 +458,7 @@ nsSVGEnum
 :
 SetAnimValue
 (
-PRUint16
+uint16_t
 aValue
 nsSVGElement
 *
@@ -841,7 +841,7 @@ value
 too
 big
 for
-PRUint16
+uint16_t
 "
 )
 ;
@@ -850,7 +850,7 @@ mVal
 >
 SetAnimValue
 (
-PRUint16
+uint16_t
 (
 aValue
 .

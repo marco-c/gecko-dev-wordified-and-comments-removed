@@ -196,7 +196,7 @@ nsSMILTimeContainer
 :
 Pause
 (
-PRUint32
+uint32_t
 aType
 )
 {
@@ -251,7 +251,7 @@ nsSMILTimeContainer
 :
 Resume
 (
-PRUint32
+uint32_t
 aType
 )
 {
@@ -964,7 +964,7 @@ Elements
 #
 if
 DEBUG
-PRUint32
+uint32_t
 queueLength
 =
 mMilestoneEntries

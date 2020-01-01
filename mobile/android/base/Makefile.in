@@ -324,6 +324,10 @@ FormAssistPopup
 .
 java
 \
+GeckoAccessibility
+.
+java
+\
 GeckoApplication
 .
 java

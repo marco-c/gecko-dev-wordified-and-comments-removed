@@ -172,7 +172,7 @@ mFlags
 eListControlAccessible
 ;
 }
-PRUint64
+uint64_t
 HTMLSelectListAccessible
 :
 :
@@ -180,7 +180,7 @@ NativeState
 (
 )
 {
-PRUint64
+uint64_t
 state
 =
 AccessibleWrap
@@ -773,7 +773,7 @@ return
 NS_OK
 ;
 }
-PRUint64
+uint64_t
 HTMLSelectOptionAccessible
 :
 :
@@ -781,7 +781,7 @@ NativeState
 (
 )
 {
-PRUint64
+uint64_t
 state
 =
 Accessible
@@ -807,7 +807,7 @@ select
 return
 state
 ;
-PRUint64
+uint64_t
 selectState
 =
 select
@@ -972,13 +972,13 @@ if
 listAcc
 )
 {
-PRInt32
+int32_t
 optionX
 optionY
 optionWidth
 optionHeight
 ;
-PRInt32
+int32_t
 listX
 listY
 listWidth
@@ -1042,7 +1042,7 @@ return
 state
 ;
 }
-PRUint64
+uint64_t
 HTMLSelectOptionAccessible
 :
 :
@@ -1072,7 +1072,7 @@ states
 SELECTABLE
 ;
 }
-PRInt32
+int32_t
 HTMLSelectOptionAccessible
 :
 :
@@ -1091,7 +1091,7 @@ GetParent
 (
 )
 ;
-PRInt32
+int32_t
 level
 =
 parentContent
@@ -1208,7 +1208,7 @@ HTMLSelectOptionAccessible
 :
 GetActionName
 (
-PRUint8
+uint8_t
 aIndex
 nsAString
 &
@@ -1240,7 +1240,7 @@ return
 NS_ERROR_INVALID_ARG
 ;
 }
-PRUint8
+uint8_t
 HTMLSelectOptionAccessible
 :
 :
@@ -1258,7 +1258,7 @@ HTMLSelectOptionAccessible
 :
 DoAction
 (
-PRUint8
+uint8_t
 aIndex
 )
 {
@@ -1391,7 +1391,7 @@ roles
 HEADING
 ;
 }
-PRUint64
+uint64_t
 HTMLSelectOptGroupAccessible
 :
 :
@@ -1419,7 +1419,7 @@ HTMLSelectOptGroupAccessible
 :
 DoAction
 (
-PRUint8
+uint8_t
 index
 )
 {
@@ -1433,7 +1433,7 @@ HTMLSelectOptGroupAccessible
 :
 GetActionName
 (
-PRUint8
+uint8_t
 aIndex
 nsAString
 &
@@ -1444,7 +1444,7 @@ return
 NS_ERROR_NOT_IMPLEMENTED
 ;
 }
-PRUint8
+uint8_t
 HTMLSelectOptGroupAccessible
 :
 :
@@ -1672,7 +1672,7 @@ nullptr
 ;
 }
 }
-PRUint64
+uint64_t
 HTMLComboboxAccessible
 :
 :
@@ -1680,7 +1680,7 @@ NativeState
 (
 )
 {
-PRUint64
+uint64_t
 state
 =
 Accessible
@@ -1831,7 +1831,7 @@ aValue
 )
 ;
 }
-PRUint8
+uint8_t
 HTMLComboboxAccessible
 :
 :
@@ -1849,7 +1849,7 @@ HTMLComboboxAccessible
 :
 DoAction
 (
-PRUint8
+uint8_t
 aIndex
 )
 {
@@ -1886,7 +1886,7 @@ HTMLComboboxAccessible
 :
 GetActionName
 (
-PRUint8
+uint8_t
 aIndex
 nsAString
 &
@@ -2297,7 +2297,7 @@ roles
 COMBOBOX_LIST
 ;
 }
-PRUint64
+uint64_t
 HTMLComboboxListAccessible
 :
 :
@@ -2305,7 +2305,7 @@ NativeState
 (
 )
 {
-PRUint64
+uint64_t
 state
 =
 Accessible

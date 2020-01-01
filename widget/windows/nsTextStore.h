@@ -564,11 +564,11 @@ static
 nsresult
 OnTextChange
 (
-PRUint32
+uint32_t
 aStart
-PRUint32
+uint32_t
 aOldEnd
-PRUint32
+uint32_t
 aNewEnd
 )
 {
@@ -795,9 +795,9 @@ aState
 nsresult
 OnTextChangeInternal
 (
-PRUint32
-PRUint32
-PRUint32
+uint32_t
+uint32_t
+uint32_t
 )
 ;
 void

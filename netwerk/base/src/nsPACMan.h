@@ -260,7 +260,7 @@ mShutdown
 PRTime
 mScheduledReload
 ;
-PRUint32
+uint32_t
 mLoadFailureCount
 ;
 }

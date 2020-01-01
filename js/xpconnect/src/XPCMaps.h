@@ -247,7 +247,7 @@ inline
 void
 Dump
 (
-PRInt16
+int16_t
 depth
 )
 {
@@ -2332,7 +2332,7 @@ flags
 char
 *
 name
-PRUint32
+uint32_t
 interfacesBitmap
 XPCNativeScriptableInfo
 *

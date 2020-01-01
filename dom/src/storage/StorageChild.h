@@ -119,7 +119,7 @@ GetLength
 (
 bool
 aCallerSecure
-PRUint32
+uint32_t
 *
 aLength
 )
@@ -130,7 +130,7 @@ GetKey
 (
 bool
 aCallerSecure
-PRUint32
+uint32_t
 aIndex
 nsAString
 &
@@ -193,7 +193,7 @@ Clear
 (
 bool
 aCallerSecure
-PRInt32
+int32_t
 *
 aOldCount
 )

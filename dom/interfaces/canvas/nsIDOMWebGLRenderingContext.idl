@@ -4216,7 +4216,7 @@ in
 nsIWebGLProgram
 program
 in
-PRUint32
+uint32_t
 index
 )
 ;
@@ -4227,7 +4227,7 @@ in
 nsIWebGLProgram
 program
 in
-PRUint32
+uint32_t
 index
 )
 ;

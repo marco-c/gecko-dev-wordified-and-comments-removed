@@ -2243,7 +2243,7 @@ rv
 SECStatus
 srv
 ;
-PRUint32
+uint32_t
 amount
 ;
 char
@@ -2749,7 +2749,7 @@ buf
 )
 static_cast
 <
-PRUint32
+uint32_t
 >
 (
 len

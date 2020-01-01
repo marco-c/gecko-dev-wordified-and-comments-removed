@@ -87,7 +87,7 @@ nsSVGAnimateMotionElement
 :
 GetTargetAttributeName
 (
-PRInt32
+int32_t
 *
 aNamespaceID
 nsIAtom

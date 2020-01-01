@@ -854,7 +854,7 @@ nsPKCS11Slot
 :
 GetStatus
 (
-PRUint32
+uint32_t
 *
 _retval
 )

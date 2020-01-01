@@ -325,7 +325,7 @@ nsSVGOrientType
 :
 SetBaseValue
 (
-PRUint16
+uint16_t
 aValue
 nsSVGElement
 *
@@ -838,7 +838,7 @@ nsSVGMarkerElement
 :
 GetAttr
 (
-PRInt32
+int32_t
 aNameSpaceID
 nsIAtom
 *
@@ -907,7 +907,7 @@ nsSVGMarkerElement
 :
 ParseAttribute
 (
-PRInt32
+int32_t
 aNameSpaceID
 nsIAtom
 *
@@ -995,7 +995,7 @@ nsSVGMarkerElement
 :
 UnsetAttr
 (
-PRInt32
+int32_t
 aNamespaceID
 nsIAtom
 *

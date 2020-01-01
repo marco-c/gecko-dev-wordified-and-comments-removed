@@ -174,7 +174,7 @@ List
 FILE
 *
 out
-PRInt32
+int32_t
 aIndent
 )
 const
@@ -396,7 +396,7 @@ List
 FILE
 *
 out
-PRInt32
+int32_t
 aIndent
 )
 const
@@ -752,7 +752,7 @@ ifdef
 DEBUG
 for
 (
-PRInt32
+int32_t
 i
 =
 mRoots
@@ -1062,7 +1062,7 @@ Count
 ;
 for
 (
-PRInt32
+int32_t
 i
 =
 0
@@ -1125,7 +1125,7 @@ new
 nsCSSRuleProcessor
 (
 cssSheets
-PRUint8
+uint8_t
 (
 aType
 )
@@ -1633,7 +1633,7 @@ RemoveObject
 aSheet
 )
 ;
-PRInt32
+int32_t
 newDocIndex
 =
 aDocument
@@ -1644,7 +1644,7 @@ GetIndexOfStyleSheet
 aSheet
 )
 ;
-PRInt32
+int32_t
 count
 =
 docSheets
@@ -1653,7 +1653,7 @@ Count
 (
 )
 ;
-PRInt32
+int32_t
 index
 ;
 for
@@ -1682,7 +1682,7 @@ ObjectAt
 index
 )
 ;
-PRInt32
+int32_t
 sheetDocIndex
 =
 aDocument
@@ -2280,7 +2280,7 @@ false
 }
 for
 (
-PRUint32
+uint32_t
 i
 =
 moreSpecificNodes
@@ -3138,7 +3138,7 @@ rules
 ;
 for
 (
-PRUint32
+uint32_t
 i
 =
 importantRules
@@ -4626,7 +4626,7 @@ false
 ;
 for
 (
-PRInt32
+int32_t
 i
 =
 0
@@ -4735,7 +4735,7 @@ false
 ;
 for
 (
-PRInt32
+int32_t
 i
 =
 0
@@ -4811,7 +4811,7 @@ GetRuleNode
 ;
 for
 (
-PRInt32
+int32_t
 i
 =
 0
@@ -5901,7 +5901,7 @@ false
 ;
 for
 (
-PRUint32
+uint32_t
 i
 =
 0
@@ -5990,7 +5990,7 @@ false
 ;
 for
 (
-PRUint32
+uint32_t
 i
 =
 0
@@ -6099,7 +6099,7 @@ nullptr
 ;
 for
 (
-PRUint32
+uint32_t
 i
 =
 mOldRuleTrees
@@ -6146,7 +6146,7 @@ aPresContext
 }
 static
 const
-PRUint32
+uint32_t
 kGCInterval
 =
 300
@@ -6224,7 +6224,7 @@ mUnusedRuleNodeCount
 ;
 for
 (
-PRInt32
+int32_t
 i
 =
 mRoots
@@ -6289,7 +6289,7 @@ d
 ;
 for
 (
-PRUint32
+uint32_t
 i
 =
 mOldRuleTrees
@@ -7034,7 +7034,7 @@ aElement
 nsIAtom
 *
 aAttribute
-PRInt32
+int32_t
 aModType
 bool
 aAttrHasChanged
@@ -7133,7 +7133,7 @@ aElement
 nsIAtom
 *
 aAttribute
-PRInt32
+int32_t
 aModType
 bool
 aAttrHasChanged
@@ -7198,7 +7198,7 @@ false
 ;
 for
 (
-PRUint32
+uint32_t
 i
 =
 0
@@ -7305,7 +7305,7 @@ queue
 ;
 for
 (
-PRUint32
+uint32_t
 i
 =
 0
@@ -7339,7 +7339,7 @@ i
 ;
 for
 (
-PRUint32
+uint32_t
 j
 =
 0
@@ -7431,7 +7431,7 @@ IsEmpty
 )
 )
 {
-PRUint32
+uint32_t
 idx
 =
 queue

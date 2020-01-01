@@ -200,7 +200,7 @@ t
 staticJArray
 <
 PRUnichar
-PRInt32
+int32_t
 >
 nsHtml5MetaScanner
 :
@@ -246,7 +246,7 @@ t
 staticJArray
 <
 PRUnichar
-PRInt32
+int32_t
 >
 nsHtml5MetaScanner
 :
@@ -301,7 +301,7 @@ v
 staticJArray
 <
 PRUnichar
-PRInt32
+int32_t
 >
 nsHtml5MetaScanner
 :
@@ -365,7 +365,7 @@ e
 staticJArray
 <
 PRUnichar
-PRInt32
+int32_t
 >
 nsHtml5MetaScanner
 :
@@ -424,7 +424,7 @@ strBuf
 jArray
 <
 PRUnichar
-PRInt32
+int32_t
 >
 :
 :
@@ -488,11 +488,11 @@ nsHtml5MetaScanner
 :
 stateLoop
 (
-PRInt32
+int32_t
 state
 )
 {
-PRInt32
+int32_t
 c
 =
 -
@@ -2900,7 +2900,7 @@ nsHtml5MetaScanner
 :
 handleCharInAttributeValue
 (
-PRInt32
+int32_t
 c
 )
 {
@@ -2989,7 +2989,7 @@ nsHtml5MetaScanner
 :
 addToBuffer
 (
-PRInt32
+int32_t
 c
 )
 {
@@ -3006,14 +3006,14 @@ length
 jArray
 <
 PRUnichar
-PRInt32
+int32_t
 >
 newBuf
 =
 jArray
 <
 PRUnichar
-PRInt32
+int32_t
 >
 :
 :

@@ -961,12 +961,13 @@ valueOf
 if
 (
 !
-booleanProto
--
->
+JSObject
+:
+:
 defineProperty
 (
 cx
+booleanProto
 valueOfName
 value
 JS_PropertyStub

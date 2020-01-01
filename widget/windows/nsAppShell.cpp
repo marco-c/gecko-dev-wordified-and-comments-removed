@@ -797,7 +797,7 @@ found
 =
 false
 ;
-PRUint32
+uint32_t
 i
 ;
 for
@@ -940,7 +940,7 @@ module
 )
 ;
 }
-PRUint32
+uint32_t
 i
 ;
 for

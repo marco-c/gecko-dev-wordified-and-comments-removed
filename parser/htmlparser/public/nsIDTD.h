@@ -149,9 +149,9 @@ bool
 )
 CanContain
 (
-PRInt32
+int32_t
 aParent
-PRInt32
+int32_t
 aChild
 )
 const
@@ -164,7 +164,7 @@ bool
 )
 IsContainer
 (
-PRInt32
+int32_t
 aTag
 )
 const
@@ -183,7 +183,7 @@ Terminate
 ;
 NS_IMETHOD_
 (
-PRInt32
+int32_t
 )
 GetType
 (
@@ -258,9 +258,9 @@ bool
 )
 CanContain
 (
-PRInt32
+int32_t
 aParent
-PRInt32
+int32_t
 aChild
 )
 const
@@ -272,7 +272,7 @@ bool
 )
 IsContainer
 (
-PRInt32
+int32_t
 aTag
 )
 const
@@ -289,7 +289,7 @@ Terminate
 \
 NS_IMETHOD_
 (
-PRInt32
+int32_t
 )
 GetType
 (

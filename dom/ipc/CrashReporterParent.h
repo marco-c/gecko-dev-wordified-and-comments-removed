@@ -163,7 +163,7 @@ NativeThreadId
 &
 id
 const
-PRUint32
+uint32_t
 &
 processType
 )
@@ -283,7 +283,7 @@ mMainThread
 time_t
 mStartTime
 ;
-PRUint32
+uint32_t
 mProcessType
 ;
 bool
@@ -494,7 +494,7 @@ MOZ_CRASHREPORTER
 NativeThreadId
 id
 ;
-PRUint32
+uint32_t
 processType
 ;
 PCrashReporterParent

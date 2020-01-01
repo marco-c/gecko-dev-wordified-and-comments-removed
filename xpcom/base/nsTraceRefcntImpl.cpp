@@ -397,7 +397,7 @@ PLHashTable
 gSerialNumbers
 ;
 static
-PRInt32
+int32_t
 gNextSerialNumber
 ;
 static
@@ -449,13 +449,13 @@ define
 BAD_TLS_INDEX
 (
 (
-PRUintn
+unsigned
 )
 -
 1
 )
 static
-PRUintn
+unsigned
 gActivityTLS
 =
 BAD_TLS_INDEX
@@ -506,13 +506,13 @@ nullptr
 struct
 serialNumberRecord
 {
-PRInt32
+int32_t
 serialNumber
 ;
-PRInt32
+int32_t
 refCount
 ;
-PRInt32
+int32_t
 COMPtrCount
 ;
 }
@@ -520,16 +520,16 @@ COMPtrCount
 struct
 nsTraceRefcntStats
 {
-PRUint64
+uint64_t
 mAddRefs
 ;
-PRUint64
+uint64_t
 mReleases
 ;
-PRUint64
+uint64_t
 mCreates
 ;
-PRUint64
+uint64_t
 mDestroys
 ;
 double
@@ -710,7 +710,7 @@ pool
 PLHashEntry
 *
 he
-PRUintn
+unsigned
 flag
 )
 {
@@ -754,7 +754,7 @@ pool
 PLHashEntry
 *
 he
-PRUintn
+unsigned
 flag
 )
 {
@@ -834,7 +834,7 @@ const
 char
 *
 className
-PRUint32
+uint32_t
 classSize
 )
 :
@@ -878,14 +878,14 @@ mClassName
 )
 ;
 }
-PRUint32
+uint32_t
 GetClassSize
 (
 )
 {
 return
 (
-PRUint32
+uint32_t
 )
 mClassSize
 ;
@@ -1150,7 +1150,7 @@ AccountRefs
 (
 )
 {
-PRUint64
+uint64_t
 cnt
 =
 (
@@ -1185,7 +1185,7 @@ AccountObjs
 (
 )
 {
-PRUint64
+uint64_t
 cnt
 =
 (
@@ -1481,7 +1481,7 @@ mAllStats
 .
 mObjsOutstandingSquared
 ;
-PRUint64
+uint64_t
 count
 =
 (
@@ -1511,7 +1511,7 @@ mTotalLeaked
 +
 =
 (
-PRUint64
+uint64_t
 )
 (
 mClassSize
@@ -2092,7 +2092,7 @@ i
 1
 mClassName
 (
-PRInt32
+int32_t
 )
 mClassSize
 (
@@ -2109,7 +2109,7 @@ TOTAL
 )
 ?
 (
-PRUint64
+uint64_t
 )
 (
 (
@@ -2175,7 +2175,7 @@ mClassName
 double
 mClassSize
 ;
-PRUint64
+uint64_t
 mTotalLeaked
 ;
 nsTraceRefcntStats
@@ -2196,7 +2196,7 @@ pool
 PLHashEntry
 *
 he
-PRUintn
+unsigned
 flag
 )
 {
@@ -2275,7 +2275,7 @@ const
 char
 *
 aTypeName
-PRUint32
+uint32_t
 aInstanceSize
 )
 {
@@ -2797,7 +2797,7 @@ entries
 )
 ;
 const
-PRUint32
+uint32_t
 count
 =
 entries
@@ -2823,7 +2823,7 @@ Sort
 ;
 for
 (
-PRUint32
+uint32_t
 i
 =
 0
@@ -2996,7 +2996,7 @@ he
 ;
 }
 static
-PRInt32
+int32_t
 GetSerialNumber
 (
 void
@@ -3034,7 +3034,7 @@ hep
 )
 {
 return
-PRInt32
+int32_t
 (
 (
 reinterpret_cast
@@ -3130,7 +3130,7 @@ return
 }
 }
 static
-PRInt32
+int32_t
 *
 GetRefCount
 (
@@ -3199,7 +3199,7 @@ nullptr
 }
 }
 static
-PRInt32
+int32_t
 *
 GetCOMPtrCount
 (
@@ -3287,7 +3287,7 @@ static
 bool
 LogThisObj
 (
-PRInt32
+int32_t
 aSerialNumber
 )
 {
@@ -3562,7 +3562,7 @@ fname
 AppendInt
 (
 (
-PRUint32
+uint32_t
 )
 getpid
 (
@@ -4496,12 +4496,12 @@ cm
 '
 ;
 }
-PRInt32
+int32_t
 top
 =
 0
 ;
-PRInt32
+int32_t
 bottom
 =
 0
@@ -4569,7 +4569,7 @@ top
 }
 for
 (
-PRInt32
+int32_t
 serialno
 =
 bottom
@@ -5062,7 +5062,7 @@ const
 char
 *
 aClazz
-PRUint32
+uint32_t
 classSize
 )
 {
@@ -5133,7 +5133,7 @@ aClazz
 )
 )
 ;
-PRInt32
+int32_t
 serialno
 =
 0
@@ -5183,7 +5183,7 @@ object
 "
 )
 ;
-PRInt32
+int32_t
 *
 count
 =
@@ -5439,7 +5439,7 @@ aClazz
 )
 )
 ;
-PRInt32
+int32_t
 serialno
 =
 0
@@ -5486,7 +5486,7 @@ object
 "
 )
 ;
-PRInt32
+int32_t
 *
 count
 =
@@ -5691,7 +5691,7 @@ const
 char
 *
 aType
-PRUint32
+uint32_t
 aInstanceSize
 )
 {
@@ -5761,7 +5761,7 @@ aType
 )
 )
 ;
-PRInt32
+int32_t
 serialno
 =
 0
@@ -5870,7 +5870,7 @@ const
 char
 *
 aType
-PRUint32
+uint32_t
 aInstanceSize
 )
 {
@@ -5940,7 +5940,7 @@ aType
 )
 )
 ;
-PRInt32
+int32_t
 serialno
 =
 0
@@ -6093,7 +6093,7 @@ gSerialNumbers
 return
 ;
 }
-PRInt32
+int32_t
 serialno
 =
 GetSerialNumber
@@ -6131,7 +6131,7 @@ LOCK_TRACELOG
 (
 )
 ;
-PRInt32
+int32_t
 *
 count
 =
@@ -6285,7 +6285,7 @@ gSerialNumbers
 return
 ;
 }
-PRInt32
+int32_t
 serialno
 =
 GetSerialNumber
@@ -6323,7 +6323,7 @@ LOCK_TRACELOG
 (
 )
 ;
-PRInt32
+int32_t
 *
 count
 =
@@ -6657,7 +6657,7 @@ const
 char
 *
 aTypeName
-PRUint32
+uint32_t
 aSize
 )
 {
@@ -6714,7 +6714,7 @@ const
 char
 *
 aTypeName
-PRUint32
+uint32_t
 aSize
 )
 {
@@ -6742,7 +6742,7 @@ const
 char
 *
 aTypeName
-PRUint32
+uint32_t
 aSize
 )
 {

@@ -84,7 +84,7 @@ GetGrid
 nsIFrame
 *
 aBox
-PRInt32
+int32_t
 *
 aIndex
 nsGridRowLayout
@@ -119,10 +119,10 @@ CountRowsColumns
 nsIFrame
 *
 aBox
-PRInt32
+int32_t
 &
 aRowCount
-PRInt32
+int32_t
 &
 aComputedColumnCount
 )
@@ -144,7 +144,7 @@ aState
 0
 ;
 virtual
-PRInt32
+int32_t
 BuildRows
 (
 nsIFrame
@@ -171,7 +171,7 @@ aIsHorizontal
 0
 ;
 virtual
-PRInt32
+int32_t
 GetRowCount
 (
 )

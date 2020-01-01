@@ -243,7 +243,7 @@ ReadAntiAliasingThreshold
 (
 )
 ;
-PRUint32
+uint32_t
 backendMask
 =
 (
@@ -769,10 +769,10 @@ gfxProxyFontEntry
 *
 aProxyEntry
 const
-PRUint8
+uint8_t
 *
 aFontData
-PRUint32
+uint32_t
 aLength
 )
 {
@@ -802,7 +802,7 @@ IsFontFormatSupported
 nsIURI
 *
 aFontURI
-PRUint32
+uint32_t
 aFormatFlags
 )
 {
@@ -1075,9 +1075,9 @@ gfxPlatformMac
 GetCommonFallbackFonts
 (
 const
-PRUint32
+uint32_t
 aCh
-PRInt32
+int32_t
 aRunScript
 nsTArray
 <
@@ -1105,7 +1105,7 @@ aCh
 )
 )
 {
-PRUint32
+uint32_t
 p
 =
 aCh
@@ -1139,7 +1139,7 @@ kFontGeneva
 }
 else
 {
-PRUint32
+uint32_t
 b
 =
 (
@@ -1414,7 +1414,7 @@ kFontArialUnicodeMS
 )
 ;
 }
-PRInt32
+int32_t
 gfxPlatformMac
 :
 :
@@ -1482,7 +1482,7 @@ return
 mOSXVersion
 ;
 }
-PRUint32
+uint32_t
 gfxPlatformMac
 :
 :
@@ -1490,7 +1490,7 @@ ReadAntiAliasingThreshold
 (
 )
 {
-PRUint32
+uint32_t
 threshold
 =
 0

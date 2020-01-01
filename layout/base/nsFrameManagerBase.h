@@ -114,7 +114,7 @@ aRootFrame
 ;
 }
 static
-PRUint32
+uint32_t
 GetGlobalGenerationNumber
 (
 )
@@ -151,7 +151,7 @@ bool
 mIsDestroyingFrames
 ;
 static
-PRUint32
+uint32_t
 sGlobalGenerationNumber
 ;
 }

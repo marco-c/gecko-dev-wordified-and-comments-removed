@@ -53,7 +53,7 @@ const
 char
 *
 host
-PRInt32
+int32_t
 port
 nsCString
 &
@@ -266,7 +266,7 @@ const
 char
 *
 host
-PRInt32
+int32_t
 port
 const
 char
@@ -371,7 +371,7 @@ const
 char
 *
 host
-PRInt32
+int32_t
 port
 const
 char
@@ -476,7 +476,7 @@ const
 char
 *
 host
-PRInt32
+int32_t
 port
 const
 char
@@ -687,7 +687,7 @@ const
 char
 *
 host
-PRInt32
+int32_t
 port
 const
 char
@@ -780,7 +780,7 @@ const
 char
 *
 host
-PRInt32
+int32_t
 port
 nsCString
 &
@@ -902,7 +902,7 @@ self
 PLHashEntry
 *
 he
-PRUintn
+unsigned
 flag
 )
 {
@@ -1849,7 +1849,7 @@ path
 ;
 for
 (
-PRUint32
+uint32_t
 i
 =
 0
@@ -1990,7 +1990,7 @@ realm
 "
 "
 ;
-PRUint32
+uint32_t
 i
 ;
 for

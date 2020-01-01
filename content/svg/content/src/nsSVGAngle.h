@@ -83,7 +83,7 @@ public
 void
 Init
 (
-PRUint8
+uint8_t
 aAttrEnum
 =
 0xff
@@ -91,7 +91,7 @@ float
 aValue
 =
 0
-PRUint8
+uint8_t
 aUnitType
 =
 nsIDOMSVGAngle
@@ -200,14 +200,14 @@ SetAnimValue
 (
 float
 aValue
-PRUint8
+uint8_t
 aUnit
 nsSVGElement
 *
 aSVGElement
 )
 ;
-PRUint8
+uint8_t
 GetBaseValueUnit
 (
 )
@@ -217,7 +217,7 @@ return
 mBaseValUnit
 ;
 }
-PRUint8
+uint8_t
 GetAnimValueUnit
 (
 )
@@ -282,7 +282,7 @@ static
 float
 GetDegreesPerUnit
 (
-PRUint8
+uint8_t
 aUnit
 )
 ;
@@ -294,13 +294,13 @@ mAnimVal
 float
 mBaseVal
 ;
-PRUint8
+uint8_t
 mAnimValUnit
 ;
-PRUint8
+uint8_t
 mBaseValUnit
 ;
-PRUint8
+uint8_t
 mAttrEnum
 ;
 bool
@@ -319,7 +319,7 @@ aSVGElement
 nsresult
 NewValueSpecifiedUnits
 (
-PRUint16
+uint16_t
 aUnitType
 float
 aValue
@@ -331,7 +331,7 @@ aSVGElement
 nsresult
 ConvertToSpecifiedUnits
 (
-PRUint16
+uint16_t
 aUnitType
 nsSVGElement
 *
@@ -409,7 +409,7 @@ mSVGElement
 NS_IMETHOD
 GetUnitType
 (
-PRUint16
+uint16_t
 *
 aResult
 )
@@ -553,7 +553,7 @@ NS_OK
 NS_IMETHOD
 NewValueSpecifiedUnits
 (
-PRUint16
+uint16_t
 unitType
 float
 valueInSpecifiedUnits
@@ -574,7 +574,7 @@ mSVGElement
 NS_IMETHOD
 ConvertToSpecifiedUnits
 (
-PRUint16
+uint16_t
 unitType
 )
 {
@@ -636,7 +636,7 @@ mSVGElement
 NS_IMETHOD
 GetUnitType
 (
-PRUint16
+uint16_t
 *
 aResult
 )
@@ -753,7 +753,7 @@ NS_OK
 NS_IMETHOD
 NewValueSpecifiedUnits
 (
-PRUint16
+uint16_t
 unitType
 float
 valueInSpecifiedUnits
@@ -766,7 +766,7 @@ NS_ERROR_DOM_NO_MODIFICATION_ALLOWED_ERR
 NS_IMETHOD
 ConvertToSpecifiedUnits
 (
-PRUint16
+uint16_t
 unitType
 )
 {

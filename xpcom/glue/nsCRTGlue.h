@@ -43,7 +43,7 @@ str
 )
 ;
 NS_COM_GLUE
-PRUint32
+uint32_t
 NS_strlen
 (
 const
@@ -97,7 +97,7 @@ const
 PRUnichar
 *
 aString
-PRUint32
+uint32_t
 aLen
 )
 ;
@@ -253,7 +253,7 @@ const
 char
 *
 aString
-PRUint32
+uint32_t
 aLength
 )
 ;
@@ -267,7 +267,7 @@ NS_MakeRandomString
 char
 *
 buf
-PRInt32
+int32_t
 bufLen
 )
 ;

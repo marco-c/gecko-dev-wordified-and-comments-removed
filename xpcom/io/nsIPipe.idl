@@ -1116,11 +1116,11 @@ bool
 nonBlockingOutput
 =
 PR_FALSE
-PRUint32
+uint32_t
 segmentSize
 =
 0
-PRUint32
+uint32_t
 segmentCount
 =
 0
@@ -1356,11 +1356,11 @@ nsIOutputStream
 *
 *
 pipeOut
-PRUint32
+uint32_t
 segmentSize
 =
 0
-PRUint32
+uint32_t
 maxSize
 =
 0

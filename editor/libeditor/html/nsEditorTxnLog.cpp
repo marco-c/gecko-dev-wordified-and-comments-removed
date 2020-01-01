@@ -1190,11 +1190,11 @@ nsEditorTxnLog
 :
 PrintIndent
 (
-PRInt32
+int32_t
 aIndentLevel
 )
 {
-PRInt32
+int32_t
 i
 ;
 Write
@@ -1261,7 +1261,7 @@ aBuffer
 ;
 else
 {
-PRInt32
+int32_t
 len
 =
 strlen
@@ -1294,7 +1294,7 @@ nsEditorTxnLog
 :
 WriteInt
 (
-PRInt32
+int32_t
 aInt
 )
 {

@@ -377,9 +377,9 @@ static
 bool
 CanContain
 (
-PRInt32
+int32_t
 aParent
-PRInt32
+int32_t
 aChild
 )
 ;
@@ -387,7 +387,7 @@ static
 bool
 IsContainer
 (
-PRInt32
+int32_t
 aTag
 )
 ;

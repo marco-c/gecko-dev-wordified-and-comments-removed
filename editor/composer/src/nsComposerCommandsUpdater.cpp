@@ -265,7 +265,7 @@ nsIDOMDocument
 *
 nsISelection
 *
-PRInt16
+int16_t
 )
 {
 return
@@ -325,7 +325,7 @@ nsresult
 aDoResult
 )
 {
-PRInt32
+int32_t
 undoCount
 ;
 aManager
@@ -410,7 +410,7 @@ nsresult
 aUndoResult
 )
 {
-PRInt32
+int32_t
 undoCount
 ;
 aManager
@@ -747,7 +747,7 @@ rv
 ;
 }
 const
-PRUint32
+uint32_t
 kUpdateTimerDelay
 =
 150

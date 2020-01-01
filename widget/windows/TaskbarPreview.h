@@ -208,9 +208,9 @@ UpdateTooltip
 void
 DrawBitmap
 (
-PRUint32
+uint32_t
 width
-PRUint32
+uint32_t
 height
 bool
 isPreview

@@ -129,7 +129,7 @@ aSelection
 nsIDOMNode
 *
 aSelNode
-PRInt32
+int32_t
 aSelOffset
 nsIEditor
 :
@@ -217,10 +217,10 @@ content
 NS_ERROR_NULL_POINTER
 )
 ;
-PRUint8
+uint8_t
 levelBefore
 ;
-PRUint8
+uint8_t
 levelAfter
 ;
 nsCOMPtr
@@ -289,7 +289,7 @@ levels
 .
 mLevelAfter
 ;
-PRUint8
+uint8_t
 currentCaretLevel
 =
 frameSelection
@@ -299,7 +299,7 @@ GetCaretBidiLevel
 (
 )
 ;
-PRUint8
+uint8_t
 levelOfDeletion
 ;
 levelOfDeletion

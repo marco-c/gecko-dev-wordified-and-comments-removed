@@ -1506,7 +1506,7 @@ return
 ;
 }
 const
-PRInt32
+int32_t
 bpp
 =
 BytePerPixelFromFormat

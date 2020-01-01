@@ -206,7 +206,7 @@ AppendNCR
 nsSubstring
 &
 aString
-PRInt32
+int32_t
 aNCRValue
 )
 ;
@@ -222,7 +222,7 @@ nsScanner
 aScanner
 bool
 aIECompatible
-PRInt32
+int32_t
 aFlag
 )
 {
@@ -257,7 +257,7 @@ amp
 =
 0
 ;
-PRInt32
+int32_t
 theNCRValue
 =
 0
@@ -520,7 +520,7 @@ ConsumeUntil
 nsScannerSharedSubstring
 &
 aString
-PRInt32
+int32_t
 &
 aNewlineCount
 nsScanner
@@ -534,7 +534,7 @@ bool
 aAllowNewlines
 bool
 aIECompatEntities
-PRInt32
+int32_t
 aFlag
 )
 {
@@ -900,7 +900,7 @@ false
 #
 endif
 }
-PRInt32
+int32_t
 CStartToken
 :
 :
@@ -931,7 +931,7 @@ return
 mTypeID
 ;
 }
-PRInt32
+int32_t
 CStartToken
 :
 :
@@ -981,7 +981,7 @@ aChar
 nsScanner
 &
 aScanner
-PRInt32
+int32_t
 aFlag
 )
 {
@@ -1012,7 +1012,7 @@ tagIdent
 mTypeID
 =
 (
-PRInt32
+int32_t
 )
 nsHTMLTags
 :
@@ -1352,7 +1352,7 @@ aChar
 nsScanner
 &
 aScanner
-PRInt32
+int32_t
 aFlag
 )
 {
@@ -1383,7 +1383,7 @@ tagIdent
 mTypeID
 =
 (
-PRInt32
+int32_t
 )
 nsHTMLTags
 :
@@ -1503,7 +1503,7 @@ return
 result
 ;
 }
-PRInt32
+int32_t
 CEndToken
 :
 :
@@ -1556,7 +1556,7 @@ return
 mTypeID
 ;
 }
-PRInt32
+int32_t
 CEndToken
 :
 :
@@ -1747,7 +1747,7 @@ aName
 )
 ;
 }
-PRInt32
+int32_t
 CTextToken
 :
 :
@@ -1759,7 +1759,7 @@ return
 eToken_text
 ;
 }
-PRInt32
+int32_t
 CTextToken
 :
 :
@@ -1786,7 +1786,7 @@ aChar
 nsScanner
 &
 aScanner
-PRInt32
+int32_t
 aFlag
 )
 {
@@ -2133,7 +2133,7 @@ const
 nsAString
 &
 aEndTagName
-PRInt32
+int32_t
 aFlag
 bool
 &
@@ -2206,7 +2206,7 @@ ltslash
 +
 aEndTagName
 ;
-PRUint32
+uint32_t
 termStrLen
 =
 theTerminalString
@@ -2253,7 +2253,7 @@ endPos
 &
 (
 (
-PRUint32
+uint32_t
 )
 ltOffset
 .
@@ -2676,7 +2676,7 @@ const
 nsAString
 &
 aEndTagName
-PRInt32
+int32_t
 aFlag
 bool
 &
@@ -2736,12 +2736,12 @@ currPos
 endPos
 altEndPos
 ;
-PRUint32
+uint32_t
 truncPos
 =
 0
 ;
-PRInt32
+int32_t
 truncNewlineCount
 =
 0
@@ -2800,7 +2800,7 @@ ltslash
 +
 aEndTagName
 ;
-PRUint32
+uint32_t
 termStrLen
 =
 theTerminalString
@@ -2809,7 +2809,7 @@ Length
 (
 )
 ;
-PRUint32
+uint32_t
 commentStartLen
 =
 commentStart
@@ -2888,7 +2888,7 @@ IsEmpty
 )
 )
 {
-PRUint32
+uint32_t
 where
 =
 0
@@ -3560,7 +3560,7 @@ aName
 )
 ;
 }
-PRInt32
+int32_t
 CCDATASectionToken
 :
 :
@@ -3583,7 +3583,7 @@ aChar
 nsScanner
 &
 aScanner
-PRInt32
+int32_t
 aFlag
 )
 {
@@ -4113,7 +4113,7 @@ aName
 )
 ;
 }
-PRInt32
+int32_t
 CMarkupDeclToken
 :
 :
@@ -4136,7 +4136,7 @@ aChar
 nsScanner
 &
 aScanner
-PRInt32
+int32_t
 aFlag
 )
 {
@@ -4637,7 +4637,7 @@ current
 =
 aCurrent
 ;
-PRInt32
+int32_t
 dashes
 =
 0
@@ -5616,7 +5616,7 @@ aChar
 nsScanner
 &
 aScanner
-PRInt32
+int32_t
 aFlag
 )
 {
@@ -5690,7 +5690,7 @@ AsString
 )
 ;
 }
-PRInt32
+int32_t
 CCommentToken
 :
 :
@@ -5715,7 +5715,7 @@ eHTMLTag_newline
 )
 {
 }
-PRInt32
+int32_t
 CNewlineToken
 :
 :
@@ -5807,7 +5807,7 @@ aChar
 nsScanner
 &
 aScanner
-PRInt32
+int32_t
 aFlag
 )
 {
@@ -5977,7 +5977,7 @@ mHasEqualWithoutValue
 false
 ;
 }
-PRInt32
+int32_t
 CAttributeToken
 :
 :
@@ -6094,13 +6094,13 @@ aChar
 nsScannerSharedSubstring
 &
 aString
-PRInt32
+int32_t
 &
 aNewlineCount
 nsScanner
 &
 aScanner
-PRInt32
+int32_t
 aFlag
 )
 {
@@ -6126,7 +6126,7 @@ apostrophe
 "
 )
 ;
-PRUint32
+uint32_t
 origLen
 =
 aString
@@ -6408,7 +6408,7 @@ aChar
 nsScannerIterator
 &
 aCurrent
-PRInt32
+int32_t
 &
 aNewlineCount
 )
@@ -6502,7 +6502,7 @@ aChar
 nsScanner
 &
 aScanner
-PRInt32
+int32_t
 aFlag
 )
 {
@@ -7375,7 +7375,7 @@ aName
 )
 ;
 }
-PRInt32
+int32_t
 CWhitespaceToken
 :
 :
@@ -7398,7 +7398,7 @@ aChar
 nsScanner
 &
 aScanner
-PRInt32
+int32_t
 aFlag
 )
 {
@@ -7552,7 +7552,7 @@ aChar
 nsScanner
 &
 aScanner
-PRInt32
+int32_t
 aFlag
 )
 {
@@ -7570,7 +7570,7 @@ return
 result
 ;
 }
-PRInt32
+int32_t
 CEntityToken
 :
 :
@@ -7618,12 +7618,12 @@ GetChar
 aChar
 )
 ;
-PRInt32
+int32_t
 rightBraceCount
 =
 0
 ;
-PRInt32
+int32_t
 leftBraceCount
 =
 0
@@ -8011,7 +8011,7 @@ NOT_USED
 0xfffd
 static
 const
-PRUint16
+uint16_t
 PA_HackTable
 [
 ]
@@ -8058,7 +8058,7 @@ AppendNCR
 nsSubstring
 &
 aString
-PRInt32
+int32_t
 aNCRValue
 )
 {
@@ -8096,7 +8096,7 @@ aString
 )
 ;
 }
-PRInt32
+int32_t
 CEntityToken
 :
 :
@@ -8107,7 +8107,7 @@ nsString
 aString
 )
 {
-PRInt32
+int32_t
 value
 =
 0
@@ -8281,7 +8281,7 @@ PRUnichar
 *
 GetTagName
 (
-PRInt32
+int32_t
 aTag
 )
 {
@@ -8374,7 +8374,7 @@ aChar
 nsScanner
 &
 aScanner
-PRInt32
+int32_t
 aFlag
 )
 {
@@ -8499,7 +8499,7 @@ return
 result
 ;
 }
-PRInt32
+int32_t
 CInstructionToken
 :
 :
@@ -8574,7 +8574,7 @@ aChar
 nsScanner
 &
 aScanner
-PRInt32
+int32_t
 aFlag
 )
 {
@@ -8761,7 +8761,7 @@ return
 result
 ;
 }
-PRInt32
+int32_t
 CDoctypeDeclToken
 :
 :

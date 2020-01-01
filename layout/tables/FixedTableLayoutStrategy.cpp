@@ -100,7 +100,7 @@ GetCellMap
 (
 )
 ;
-PRInt32
+int32_t
 colCount
 =
 cellMap
@@ -146,7 +146,7 @@ colCount
 }
 for
 (
-PRInt32
+int32_t
 col
 =
 0
@@ -298,7 +298,7 @@ width
 bool
 originates
 ;
-PRInt32
+int32_t
 colSpan
 ;
 nsTableCellFrame
@@ -602,7 +602,7 @@ GetCellMap
 (
 )
 ;
-PRInt32
+int32_t
 colCount
 =
 cellMap
@@ -650,7 +650,7 @@ nscoord
 >
 oldColWidths
 ;
-PRUint32
+uint32_t
 unassignedCount
 =
 0
@@ -680,7 +680,7 @@ specTotal
 ;
 for
 (
-PRInt32
+int32_t
 col
 =
 0
@@ -902,7 +902,7 @@ width
 bool
 originates
 ;
-PRInt32
+int32_t
 colSpan
 ;
 nsTableCellFrame
@@ -1245,7 +1245,7 @@ pctTotal
 ;
 for
 (
-PRInt32
+int32_t
 col
 =
 0
@@ -1360,7 +1360,7 @@ unassignedCount
 ;
 for
 (
-PRInt32
+int32_t
 col
 =
 0
@@ -1453,7 +1453,7 @@ specTotal
 ;
 for
 (
-PRInt32
+int32_t
 col
 =
 0
@@ -1646,7 +1646,7 @@ pctTotal
 ;
 for
 (
-PRInt32
+int32_t
 col
 =
 0
@@ -1817,14 +1817,14 @@ redistribute
 }
 else
 {
-PRInt32
+int32_t
 colsLeft
 =
 colCount
 ;
 for
 (
-PRInt32
+int32_t
 col
 =
 0
@@ -1940,7 +1940,7 @@ redistribute
 }
 for
 (
-PRInt32
+int32_t
 col
 =
 0

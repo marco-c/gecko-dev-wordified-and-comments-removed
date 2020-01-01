@@ -438,7 +438,7 @@ aFromDataFlavor
 nsISupports
 *
 aFromData
-PRUint32
+uint32_t
 aDataLen
 const
 char
@@ -448,7 +448,7 @@ nsISupports
 *
 *
 aToData
-PRUint32
+uint32_t
 *
 aDataToLen
 )
@@ -563,7 +563,7 @@ kHTMLMime
 )
 )
 {
-PRInt32
+int32_t
 dataLen
 =
 dataStr
@@ -629,7 +629,7 @@ res
 )
 )
 {
-PRInt32
+int32_t
 dataLen
 =
 outStr
@@ -702,7 +702,7 @@ outStr
 )
 )
 {
-PRInt32
+int32_t
 dataLen
 =
 outStr

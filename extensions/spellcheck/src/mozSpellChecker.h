@@ -276,7 +276,7 @@ mFromStart
 nsresult
 SetupDoc
 (
-PRInt32
+int32_t
 *
 outBlockOffset
 )
@@ -287,7 +287,7 @@ GetCurrentBlockIndex
 nsITextServicesDocument
 *
 aDoc
-PRInt32
+int32_t
 *
 outBlockIndex
 )

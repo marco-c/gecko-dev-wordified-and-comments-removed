@@ -122,7 +122,7 @@ AddRef
 {
 NS_PRECONDITION
 (
-PRInt32
+int32_t
 (
 refcount
 )
@@ -467,7 +467,7 @@ nsSystemPrincipal
 :
 GetHashValue
 (
-PRUint32
+uint32_t
 *
 result
 )
@@ -494,7 +494,7 @@ const
 char
 *
 capability
-PRInt16
+int16_t
 *
 result
 )
@@ -837,7 +837,7 @@ nsSystemPrincipal
 :
 GetAppStatus
 (
-PRUint16
+uint16_t
 *
 aAppStatus
 )
@@ -860,7 +860,7 @@ nsSystemPrincipal
 :
 GetAppId
 (
-PRUint32
+uint32_t
 *
 aAppId
 )

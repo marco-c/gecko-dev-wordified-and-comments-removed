@@ -243,7 +243,7 @@ executable
 return
 NS_OK
 ;
-PRUint32
+uint32_t
 len
 ;
 localHandlerApp
@@ -271,7 +271,7 @@ NS_OK
 ;
 for
 (
-PRUint32
+uint32_t
 idx
 =
 0
@@ -494,7 +494,7 @@ nsLocalHandlerApp
 :
 GetParameterCount
 (
-PRUint32
+uint32_t
 *
 aParameterCount
 )
@@ -559,7 +559,7 @@ nsLocalHandlerApp
 :
 GetParameter
 (
-PRUint32
+uint32_t
 parameterIndex
 nsAString
 &

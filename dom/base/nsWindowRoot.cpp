@@ -401,7 +401,7 @@ bool
 aUseCapture
 bool
 aWantsUntrusted
-PRUint8
+uint8_t
 aOptionalArgc
 )
 {
@@ -495,7 +495,7 @@ bool
 aUseCapture
 bool
 aWantsUntrusted
-PRUint8
+uint8_t
 aOptionalArgc
 )
 {

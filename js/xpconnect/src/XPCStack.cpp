@@ -42,7 +42,7 @@ const
 char
 *
 aFunctionName
-PRInt32
+int32_t
 aLineNumber
 nsIStackFrame
 *
@@ -95,10 +95,10 @@ char
 *
 mFunname
 ;
-PRInt32
+int32_t
 mLineno
 ;
-PRUint32
+uint32_t
 mLanguage
 ;
 }
@@ -148,7 +148,7 @@ XPCJSStack
 :
 CreateStackFrameLocation
 (
-PRUint32
+uint32_t
 aLanguage
 const
 char
@@ -158,7 +158,7 @@ const
 char
 *
 aFunctionName
-PRInt32
+int32_t
 aLineNumber
 nsIStackFrame
 *
@@ -617,7 +617,7 @@ XPCJSStackFrame
 :
 CreateStackFrameLocation
 (
-PRUint32
+uint32_t
 aLanguage
 const
 char
@@ -627,7 +627,7 @@ const
 char
 *
 aFunctionName
-PRInt32
+int32_t
 aLineNumber
 nsIStackFrame
 *
@@ -841,7 +841,7 @@ XPCJSStackFrame
 :
 GetLanguage
 (
-PRUint32
+uint32_t
 *
 aLanguage
 )
@@ -996,7 +996,7 @@ XPCJSStackFrame
 :
 GetLineNumber
 (
-PRInt32
+int32_t
 *
 aLineNumber
 )

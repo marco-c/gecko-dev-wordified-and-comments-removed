@@ -147,7 +147,7 @@ aObject
 JSContext
 *
 aCx
-PRUint8
+uint8_t
 aArgc
 jsval
 *
@@ -294,7 +294,7 @@ bool
 aUseCapture
 bool
 aWantsUntrusted
-PRUint8
+uint8_t
 optional_argc
 )
 {

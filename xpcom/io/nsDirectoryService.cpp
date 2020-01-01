@@ -1355,7 +1355,7 @@ nsDirectoryService
 :
 GetKeys
 (
-PRUint32
+uint32_t
 *
 count
 char

@@ -271,7 +271,7 @@ this
 }
 private
 :
-PRUint16
+uint16_t
 mEnum
 ;
 void
@@ -555,7 +555,7 @@ aEd
 nsIDOMNode
 *
 aNode
-PRInt32
+int32_t
 aOffset
 )
 ;
@@ -579,7 +579,7 @@ nsIDOMNode
 aBlock
 BlockBoundary
 aBoundary
-PRInt32
+int32_t
 *
 aOffset
 =
@@ -614,7 +614,7 @@ nsIDOMNode
 >
 *
 aStartNode
-PRInt32
+int32_t
 *
 aStartOffset
 nsCOMPtr
@@ -623,7 +623,7 @@ nsIDOMNode
 >
 *
 aEndNode
-PRInt32
+int32_t
 *
 aEndOffset
 )
@@ -653,7 +653,7 @@ nsIDOMNode
 >
 *
 aSplitNode
-PRInt32
+int32_t
 *
 aSplitOffset
 )
@@ -667,7 +667,7 @@ nsIDOMNode
 >
 *
 aInOutParent
-PRInt32
+int32_t
 *
 aInOutOffset
 nsCOMPtr
@@ -696,7 +696,7 @@ nsIDOMNode
 >
 *
 aInOutNode
-PRInt32
+int32_t
 *
 aInOutOffset
 nsIDOMDocument
@@ -720,7 +720,7 @@ PriorVisibleNode
 nsIDOMNode
 *
 aNode
-PRInt32
+int32_t
 aOffset
 nsCOMPtr
 <
@@ -728,7 +728,7 @@ nsIDOMNode
 >
 *
 outVisNode
-PRInt32
+int32_t
 *
 outVisOffset
 WSType
@@ -742,7 +742,7 @@ NextVisibleNode
 nsIDOMNode
 *
 aNode
-PRInt32
+int32_t
 aOffset
 nsCOMPtr
 <
@@ -750,7 +750,7 @@ nsIDOMNode
 >
 *
 outVisNode
-PRInt32
+int32_t
 *
 outVisOffset
 WSType
@@ -780,10 +780,10 @@ nsIDOMNode
 >
 mEndNode
 ;
-PRInt32
+int32_t
 mStartOffset
 ;
-PRInt32
+int32_t
 mEndOffset
 ;
 WSType
@@ -848,7 +848,7 @@ nsIContent
 >
 mTextNode
 ;
-PRUint32
+uint32_t
 mOffset
 ;
 PRUnichar
@@ -877,7 +877,7 @@ WSPoint
 nsIDOMNode
 *
 aNode
-PRInt32
+int32_t
 aOffset
 PRUnichar
 aChar
@@ -925,7 +925,7 @@ WSPoint
 nsIContent
 *
 aTextNode
-PRInt32
+int32_t
 aOffset
 PRUnichar
 aChar
@@ -1023,7 +1023,7 @@ GetPreviousWSNode
 nsIDOMNode
 *
 aStartNode
-PRInt32
+int32_t
 aOffset
 nsIDOMNode
 *
@@ -1075,7 +1075,7 @@ GetNextWSNode
 nsIDOMNode
 *
 aStartNode
-PRInt32
+int32_t
 aOffset
 nsIDOMNode
 *
@@ -1123,12 +1123,12 @@ DeleteChars
 nsIDOMNode
 *
 aStartNode
-PRInt32
+int32_t
 aStartOffset
 nsIDOMNode
 *
 aEndNode
-PRInt32
+int32_t
 aEndOffset
 AreaRestriction
 aAR
@@ -1142,7 +1142,7 @@ GetCharAfter
 nsIDOMNode
 *
 aNode
-PRInt32
+int32_t
 aOffset
 )
 ;
@@ -1152,7 +1152,7 @@ GetCharBefore
 nsIDOMNode
 *
 aNode
-PRInt32
+int32_t
 aOffset
 )
 ;
@@ -1188,12 +1188,12 @@ eAnywhere
 void
 GetAsciiWSBounds
 (
-PRInt16
+int16_t
 aDir
 nsIDOMNode
 *
 aNode
-PRInt32
+int32_t
 aOffset
 nsCOMPtr
 <
@@ -1201,7 +1201,7 @@ nsIDOMNode
 >
 *
 outStartNode
-PRInt32
+int32_t
 *
 outStartOffset
 nsCOMPtr
@@ -1210,7 +1210,7 @@ nsIDOMNode
 >
 *
 outEndNode
-PRInt32
+int32_t
 *
 outEndOffset
 )
@@ -1221,7 +1221,7 @@ FindRun
 nsIDOMNode
 *
 aNode
-PRInt32
+int32_t
 aOffset
 WSFragment
 *
@@ -1237,7 +1237,7 @@ GetCharAt
 nsIContent
 *
 aTextNode
-PRInt32
+int32_t
 aOffset
 )
 ;
@@ -1247,7 +1247,7 @@ GetWSPointAfter
 nsIDOMNode
 *
 aNode
-PRInt32
+int32_t
 aOffset
 )
 ;
@@ -1257,7 +1257,7 @@ GetWSPointBefore
 nsIDOMNode
 *
 aNode
-PRInt32
+int32_t
 aOffset
 )
 ;
@@ -1278,7 +1278,7 @@ aRun
 nsIDOMNode
 *
 aNode
-PRInt32
+int32_t
 aOffset
 )
 ;
@@ -1291,7 +1291,7 @@ aRun
 nsIDOMNode
 *
 aNode
-PRInt32
+int32_t
 aOffset
 )
 ;
@@ -1323,7 +1323,7 @@ nsIDOMNode
 >
 mNode
 ;
-PRInt32
+int32_t
 mOffset
 ;
 bool
@@ -1335,7 +1335,7 @@ nsIDOMNode
 >
 mStartNode
 ;
-PRInt32
+int32_t
 mStartOffset
 ;
 WSType
@@ -1353,7 +1353,7 @@ nsIDOMNode
 >
 mEndNode
 ;
-PRInt32
+int32_t
 mEndOffset
 ;
 WSType
@@ -1371,7 +1371,7 @@ nsIDOMNode
 >
 mFirstNBSPNode
 ;
-PRInt32
+int32_t
 mFirstNBSPOffset
 ;
 nsCOMPtr
@@ -1380,7 +1380,7 @@ nsIDOMNode
 >
 mLastNBSPNode
 ;
-PRInt32
+int32_t
 mLastNBSPOffset
 ;
 nsCOMArray

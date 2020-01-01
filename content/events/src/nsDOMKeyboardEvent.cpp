@@ -330,7 +330,7 @@ nsDOMKeyboardEvent
 :
 GetCharCode
 (
-PRUint32
+uint32_t
 *
 aCharCode
 )
@@ -400,7 +400,7 @@ nsDOMKeyboardEvent
 :
 GetKeyCode
 (
-PRUint32
+uint32_t
 *
 aKeyCode
 )
@@ -463,7 +463,7 @@ nsDOMKeyboardEvent
 :
 Which
 (
-PRUint32
+uint32_t
 *
 aWhich
 )
@@ -497,7 +497,7 @@ case
 NS_KEY_PRESS
 :
 {
-PRUint32
+uint32_t
 keyCode
 =
 (
@@ -563,7 +563,7 @@ nsDOMKeyboardEvent
 :
 GetLocation
 (
-PRUint32
+uint32_t
 *
 aLocation
 )
@@ -617,9 +617,9 @@ bool
 aShiftKey
 bool
 aMetaKey
-PRUint32
+uint32_t
 aKeyCode
-PRUint32
+uint32_t
 aCharCode
 )
 {

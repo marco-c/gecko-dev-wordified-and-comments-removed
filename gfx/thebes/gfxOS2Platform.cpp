@@ -608,7 +608,7 @@ gfxOS2Platform
 :
 FindFontForChar
 (
-PRUint32
+uint32_t
 aCh
 gfxOS2Font
 *
@@ -691,7 +691,7 @@ rv
 {
 for
 (
-PRUint32
+uint32_t
 i
 =
 3

@@ -106,7 +106,7 @@ twice
 ;
 for
 (
-PRUint32
+uint32_t
 i
 =
 aPackages
@@ -136,7 +136,7 @@ i
 }
 for
 (
-PRUint32
+uint32_t
 i
 =
 aResources
@@ -166,7 +166,7 @@ i
 }
 for
 (
-PRUint32
+uint32_t
 i
 =
 aOverrides
@@ -833,7 +833,7 @@ const
 nsCString
 &
 aPackage
-PRUint32
+uint32_t
 *
 aFlags
 )

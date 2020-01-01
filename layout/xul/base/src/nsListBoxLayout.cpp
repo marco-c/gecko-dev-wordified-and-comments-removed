@@ -611,7 +611,7 @@ nsBoxLayoutState
 aState
 )
 {
-PRInt32
+int32_t
 redrawStart
 =
 -
@@ -862,7 +862,7 @@ aState
 }
 else
 {
-PRInt32
+int32_t
 newPos
 =
 yOffset

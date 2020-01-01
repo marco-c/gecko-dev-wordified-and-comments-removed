@@ -317,7 +317,7 @@ mObservingState
 eNotObservingRefresh
 ;
 }
-PRInt32
+int32_t
 childDocCount
 =
 mHangingChildDocuments
@@ -328,7 +328,7 @@ Length
 ;
 for
 (
-PRInt32
+int32_t
 idx
 =
 childDocCount
@@ -836,7 +836,7 @@ SwapElements
 mContentInsertions
 )
 ;
-PRUint32
+uint32_t
 insertionCount
 =
 contentInsertions
@@ -847,7 +847,7 @@ Length
 ;
 for
 (
-PRUint32
+uint32_t
 idx
 =
 0
@@ -893,7 +893,7 @@ Clear
 (
 )
 ;
-PRUint32
+uint32_t
 hangingDocCnt
 =
 mHangingChildDocuments
@@ -904,7 +904,7 @@ Length
 ;
 for
 (
-PRUint32
+uint32_t
 idx
 =
 0
@@ -1060,7 +1060,7 @@ hangingDocCnt
 0
 )
 {
-PRUint32
+uint32_t
 childDocCnt
 =
 mDocument
@@ -1154,7 +1154,7 @@ SwapElements
 mNotifications
 )
 ;
-PRUint32
+uint32_t
 notificationCount
 =
 notifications
@@ -1165,7 +1165,7 @@ Length
 ;
 for
 (
-PRUint32
+uint32_t
 idx
 =
 0
@@ -1224,7 +1224,7 @@ SwapElements
 mEvents
 )
 ;
-PRUint32
+uint32_t
 eventCount
 =
 events
@@ -1292,7 +1292,7 @@ MsgEnd
 endif
 for
 (
-PRUint32
+uint32_t
 idx
 =
 0
@@ -1520,7 +1520,7 @@ CoalesceEvents
 (
 )
 {
-PRUint32
+uint32_t
 numQueuedEvents
 =
 mEvents
@@ -1529,7 +1529,7 @@ Length
 (
 )
 ;
-PRInt32
+int32_t
 tail
 =
 numQueuedEvents
@@ -1572,7 +1572,7 @@ return
 ;
 for
 (
-PRInt32
+int32_t
 index
 =
 tail
@@ -2000,7 +2000,7 @@ eCoalesceOfSameType
 {
 for
 (
-PRInt32
+int32_t
 index
 =
 tail
@@ -2078,7 +2078,7 @@ eRemoveDupes
 {
 for
 (
-PRInt32
+int32_t
 index
 =
 tail
@@ -2175,7 +2175,7 @@ downcast_accEvent
 tailEvent
 )
 ;
-PRInt32
+int32_t
 index
 =
 tail
@@ -2268,11 +2268,11 @@ NotificationController
 :
 ApplyToSiblings
 (
-PRUint32
+uint32_t
 aStart
-PRUint32
+uint32_t
 aEnd
-PRUint32
+uint32_t
 aEventType
 nsINode
 *
@@ -2286,7 +2286,7 @@ aEventRule
 {
 for
 (
-PRUint32
+uint32_t
 index
 =
 aStart
@@ -2379,7 +2379,7 @@ aTailEvent
 AccSelChangeEvent
 *
 aThisEvent
-PRInt32
+int32_t
 aThisIndex
 )
 {
@@ -2452,7 +2452,7 @@ EVENT_SELECTION_WITHIN
 {
 for
 (
-PRInt32
+int32_t
 jdx
 =
 aThisIndex
@@ -2868,7 +2868,7 @@ aTailEvent
 mAccessible
 )
 {
-PRUint32
+uint32_t
 oldLen
 =
 textEvent
@@ -3194,7 +3194,7 @@ return
 ;
 }
 }
-PRInt32
+int32_t
 offset
 =
 textAccessible

@@ -193,7 +193,7 @@ ReadAsArrayBuffer
 nsIDOMBlob
 *
 aBlob
-PRUint32
+uint32_t
 aLength
 uint8
 *
@@ -226,7 +226,7 @@ rv
 rv
 )
 ;
-PRUint32
+uint32_t
 numRead
 ;
 rv
@@ -310,7 +310,7 @@ rv
 rv
 )
 ;
-PRUint32
+uint32_t
 numRead
 ;
 do
@@ -343,7 +343,7 @@ rv
 rv
 )
 ;
-PRUint32
+uint32_t
 oldLength
 =
 aResult
@@ -651,7 +651,7 @@ rv
 rv
 )
 ;
-PRUint64
+uint64_t
 size
 ;
 rv
@@ -817,7 +817,7 @@ unicharStream
 NS_ERROR_FAILURE
 )
 ;
-PRUint32
+uint32_t
 numChars
 ;
 nsString
@@ -845,7 +845,7 @@ numChars
 0
 )
 {
-PRUint32
+uint32_t
 oldLength
 =
 aResult
@@ -1015,7 +1015,7 @@ this
 bool
 done
 ;
-PRUint32
+uint32_t
 numRead
 ;
 do
@@ -1110,7 +1110,7 @@ sniffBuf
 4
 ]
 ;
-PRUint32
+uint32_t
 numRead
 ;
 rv

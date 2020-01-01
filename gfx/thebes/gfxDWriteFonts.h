@@ -100,7 +100,7 @@ GetMetrics
 )
 ;
 virtual
-PRUint32
+uint32_t
 GetSpaceGlyph
 (
 )
@@ -152,9 +152,9 @@ Measure
 gfxTextRun
 *
 aTextRun
-PRUint32
+uint32_t
 aStart
-PRUint32
+uint32_t
 aEnd
 BoundingBoxType
 aBoundingBoxType
@@ -171,7 +171,7 @@ hb_blob_t
 *
 GetFontTable
 (
-PRUint32
+uint32_t
 aTag
 )
 ;
@@ -182,13 +182,13 @@ ProvidesGlyphWidths
 )
 ;
 virtual
-PRInt32
+int32_t
 GetGlyphWidth
 (
 gfxContext
 *
 aCtx
-PRUint16
+uint16_t
 aGID
 )
 ;
@@ -275,7 +275,7 @@ anAAOption
 bool
 HasBitmapStrikeForSize
 (
-PRUint32
+uint32_t
 aSize
 )
 ;
@@ -294,7 +294,7 @@ CairoScaledFont
 gfxFloat
 MeasureGlyphWidth
 (
-PRUint16
+uint16_t
 aGlyph
 )
 ;
@@ -337,7 +337,7 @@ mMetrics
 nsDataHashtable
 <
 nsUint32HashKey
-PRInt32
+int32_t
 >
 mGlyphWidths
 ;

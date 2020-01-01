@@ -112,7 +112,7 @@ txIMatchContext
 aContext
 )
 {
-PRUint32
+uint32_t
 i
 len
 =
@@ -187,7 +187,7 @@ txUnionPattern
 :
 getSubPatternAt
 (
-PRUint32
+uint32_t
 aPos
 )
 {
@@ -206,7 +206,7 @@ txUnionPattern
 :
 setSubPatternAt
 (
-PRUint32
+uint32_t
 aPos
 txPattern
 *
@@ -269,7 +269,7 @@ txUnionPattern
 endif
 for
 (
-PRUint32
+uint32_t
 i
 =
 0
@@ -414,7 +414,7 @@ error
 "
 )
 ;
-PRUint32
+uint32_t
 pos
 =
 mSteps
@@ -535,7 +535,7 @@ blockWalker
 walker
 )
 ;
-PRUint32
+uint32_t
 blockPos
 =
 pos
@@ -680,7 +680,7 @@ txLocPathPattern
 :
 getSubPatternAt
 (
-PRUint32
+uint32_t
 aPos
 )
 {
@@ -713,7 +713,7 @@ txLocPathPattern
 :
 setSubPatternAt
 (
-PRUint32
+uint32_t
 aPos
 txPattern
 *
@@ -795,7 +795,7 @@ txLocPathPattern
 endif
 for
 (
-PRUint32
+uint32_t
 i
 =
 0
@@ -1192,7 +1192,7 @@ id
 "
 )
 ;
-PRUint32
+uint32_t
 k
 count
 =
@@ -1788,7 +1788,7 @@ rv
 false
 )
 ;
-PRUint32
+uint32_t
 i
 predLen
 =
@@ -2157,7 +2157,7 @@ txStepPattern
 :
 getSubExprAt
 (
-PRUint32
+uint32_t
 aPos
 )
 {
@@ -2177,7 +2177,7 @@ txStepPattern
 :
 setSubExprAt
 (
-PRUint32
+uint32_t
 aPos
 Expr
 *

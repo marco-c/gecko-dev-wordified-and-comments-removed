@@ -80,7 +80,7 @@ public
 :
 nsTemplateMatch
 (
-PRUint16
+uint16_t
 aQuerySetPriority
 nsIXULTemplateResult
 *
@@ -137,7 +137,7 @@ Create
 nsFixedSizeAllocator
 &
 aPool
-PRUint16
+uint16_t
 aQuerySetPriority
 nsIXULTemplateResult
 *
@@ -218,7 +218,7 @@ mRuleIndex
 1
 ;
 }
-PRInt16
+int16_t
 RuleIndex
 (
 )
@@ -227,7 +227,7 @@ return
 mRuleIndex
 ;
 }
-PRUint16
+uint16_t
 QuerySetPriority
 (
 )
@@ -255,7 +255,7 @@ aQuerySet
 nsTemplateRule
 *
 aRule
-PRInt16
+int16_t
 aRuleIndex
 nsIXULTemplateResult
 *
@@ -264,10 +264,10 @@ aResult
 ;
 private
 :
-PRInt16
+int16_t
 mRuleIndex
 ;
-PRUint16
+uint16_t
 mQuerySetPriority
 ;
 nsCOMPtr

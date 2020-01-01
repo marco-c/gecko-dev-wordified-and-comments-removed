@@ -902,7 +902,7 @@ isMore
 =
 true
 ;
-PRInt32
+int32_t
 hostIndex
 =
 0
@@ -1146,10 +1146,10 @@ bits_string
 bits
 )
 ;
-PRInt32
+int32_t
 port
 ;
-PRInt32
+int32_t
 portIndex
 =
 host
@@ -1264,7 +1264,7 @@ nsIOutputStream
 )
 aArg
 ;
-PRUint32
+uint32_t
 unused
 ;
 if
@@ -1635,7 +1635,7 @@ edit
 "
 NS_LINEBREAK
 ;
-PRUint32
+uint32_t
 unused
 ;
 bufferedOutputStream
@@ -2111,12 +2111,12 @@ const
 nsACString
 &
 aHostName
-PRInt32
+int32_t
 aPort
 nsIX509Cert
 *
 aCert
-PRUint32
+uint32_t
 aOverrideBits
 bool
 aTemporary
@@ -2440,12 +2440,12 @@ const
 nsACString
 &
 aHostName
-PRInt32
+int32_t
 aPort
 nsIX509Cert
 *
 aCert
-PRUint32
+uint32_t
 *
 aOverrideBits
 bool
@@ -2653,7 +2653,7 @@ const
 nsACString
 &
 aHostName
-PRInt32
+int32_t
 aPort
 nsACString
 &
@@ -2661,7 +2661,7 @@ aHashAlg
 nsACString
 &
 aFingerprint
-PRUint32
+uint32_t
 *
 aOverrideBits
 bool
@@ -2801,7 +2801,7 @@ const
 nsACString
 &
 aHostName
-PRInt32
+int32_t
 aPort
 nsIX509Cert
 *
@@ -2963,7 +2963,7 @@ const
 nsACString
 &
 aHostName
-PRInt32
+int32_t
 aPort
 )
 {
@@ -3044,7 +3044,7 @@ nsCertOverrideService
 :
 GetAllOverrideHostsWithPorts
 (
-PRUint32
+uint32_t
 *
 aCount
 PRUnichar
@@ -3259,7 +3259,7 @@ aCheckTemporaries
 bool
 aCheckPermanents
 ;
-PRUint32
+uint32_t
 counter
 ;
 SECOidTag
@@ -3473,7 +3473,7 @@ bool
 aCheckTemporaries
 bool
 aCheckPermanents
-PRUint32
+uint32_t
 *
 _retval
 )
@@ -3842,7 +3842,7 @@ const
 nsACString
 &
 aHostName
-PRInt32
+int32_t
 aPort
 nsACString
 &

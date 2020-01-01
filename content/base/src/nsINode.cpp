@@ -795,7 +795,7 @@ nsINode
 :
 GetProperty
 (
-PRUint16
+uint16_t
 aCategory
 nsIAtom
 *
@@ -832,7 +832,7 @@ nsINode
 :
 SetProperty
 (
-PRUint16
+uint16_t
 aCategory
 nsIAtom
 *
@@ -899,7 +899,7 @@ nsINode
 :
 DeleteProperty
 (
-PRUint16
+uint16_t
 aCategory
 nsIAtom
 *
@@ -931,7 +931,7 @@ nsINode
 :
 UnsetProperty
 (
-PRUint16
+uint16_t
 aCategory
 nsIAtom
 *
@@ -2119,7 +2119,7 @@ OwnerDoc
 )
 ;
 }
-PRInt32
+int32_t
 index
 =
 IndexOf
@@ -2465,7 +2465,7 @@ hasRemoveListeners
 {
 for
 (
-PRUint32
+uint32_t
 i
 =
 0
@@ -2519,7 +2519,7 @@ tmpStr
 ;
 for
 (
-PRUint32
+uint32_t
 i
 =
 0
@@ -2887,7 +2887,7 @@ GetParent
 )
 )
 {
-PRUint32
+uint32_t
 attrCount
 =
 content
@@ -2899,7 +2899,7 @@ GetAttrCount
 ;
 for
 (
-PRUint32
+uint32_t
 i
 =
 0
@@ -3013,7 +3013,7 @@ static
 nsresult
 SetUserDataProperty
 (
-PRUint16
+uint16_t
 aCategory
 nsINode
 *
@@ -3240,7 +3240,7 @@ return
 NS_OK
 ;
 }
-PRUint16
+uint16_t
 nsINode
 :
 :
@@ -3410,7 +3410,7 @@ node1
 attr1
 )
 {
-PRUint32
+uint32_t
 i
 ;
 const
@@ -3613,7 +3613,7 @@ while
 node2
 )
 ;
-PRUint32
+uint32_t
 pos1
 =
 parents1
@@ -3622,7 +3622,7 @@ Length
 (
 )
 ;
-PRUint32
+uint32_t
 pos2
 =
 parents2
@@ -3711,7 +3711,7 @@ parent
 =
 top1
 ;
-PRUint32
+uint32_t
 len
 ;
 for
@@ -3786,7 +3786,7 @@ child2
 ?
 static_cast
 <
-PRUint16
+uint16_t
 >
 (
 nsIDOMNode
@@ -3797,7 +3797,7 @@ DOCUMENT_POSITION_PRECEDING
 :
 static_cast
 <
-PRUint16
+uint16_t
 >
 (
 nsIDOMNode
@@ -3881,7 +3881,7 @@ aOther
 ;
 do
 {
-PRUint16
+uint16_t
 nodeType
 =
 node1
@@ -3992,7 +3992,7 @@ AsElement
 (
 )
 ;
-PRUint32
+uint32_t
 attrCount
 =
 element1
@@ -4021,7 +4021,7 @@ false
 }
 for
 (
-PRUint32
+uint32_t
 i
 =
 0
@@ -4717,7 +4717,7 @@ bool
 aUseCapture
 bool
 aWantsUntrusted
-PRUint8
+uint8_t
 aOptionalArgc
 )
 {
@@ -4841,7 +4841,7 @@ bool
 aUseCapture
 bool
 aWantsUntrusted
-PRUint8
+uint8_t
 aOptionalArgc
 )
 {
@@ -5559,7 +5559,7 @@ objects
 {
 for
 (
-PRInt32
+int32_t
 i
 =
 0
@@ -6006,7 +6006,7 @@ doInsertChildAt
 nsIContent
 *
 aKid
-PRUint32
+uint32_t
 aIndex
 bool
 aNotify
@@ -6084,7 +6084,7 @@ rv
 )
 ;
 }
-PRUint32
+uint32_t
 childCount
 =
 aChildArray
@@ -6351,7 +6351,7 @@ nsINode
 :
 doRemoveChildAt
 (
-PRUint32
+uint32_t
 aIndex
 bool
 aNotify
@@ -6395,7 +6395,7 @@ aKid
 =
 =
 (
-PRInt32
+int32_t
 )
 aIndex
 "
@@ -6767,7 +6767,7 @@ return
 true
 ;
 }
-PRInt32
+int32_t
 doctypeIndex
 =
 aParent
@@ -6778,7 +6778,7 @@ IndexOf
 docTypeContent
 )
 ;
-PRInt32
+int32_t
 insertIndex
 =
 aParent
@@ -6900,7 +6900,7 @@ return
 false
 ;
 }
-PRInt32
+int32_t
 rootIndex
 =
 aParent
@@ -6911,7 +6911,7 @@ IndexOf
 rootElement
 )
 ;
-PRInt32
+int32_t
 insertIndex
 =
 aParent
@@ -7112,7 +7112,7 @@ return
 NS_ERROR_DOM_HIERARCHY_REQUEST_ERR
 ;
 }
-PRUint16
+uint16_t
 nodeType
 =
 aNewChild
@@ -7352,7 +7352,7 @@ if
 oldParent
 )
 {
-PRInt32
+int32_t
 removeIndex
 =
 oldParent
@@ -7622,7 +7622,7 @@ nsIDOMNode
 DOCUMENT_FRAGMENT_NODE
 )
 {
-PRUint32
+uint32_t
 count
 =
 newContent
@@ -7747,7 +7747,7 @@ true
 ;
 for
 (
-PRUint32
+uint32_t
 i
 =
 count
@@ -7803,7 +7803,7 @@ NS_ERROR_DOM_HIERARCHY_REQUEST_ERR
 }
 for
 (
-PRUint32
+uint32_t
 i
 =
 0
@@ -7901,7 +7901,7 @@ false
 ;
 for
 (
-PRUint32
+uint32_t
 i
 =
 0
@@ -7987,7 +7987,7 @@ true
 nsAutoMutationBatch
 mb
 ;
-PRInt32
+int32_t
 insPos
 ;
 if
@@ -8126,7 +8126,7 @@ nsIDOMNode
 DOCUMENT_FRAGMENT_NODE
 )
 {
-PRUint32
+uint32_t
 count
 =
 fragChildren
@@ -8223,7 +8223,7 @@ eDOCUMENT
 )
 &
 &
-PRUint32
+uint32_t
 (
 insPos
 )
@@ -8233,7 +8233,7 @@ GetChildCount
 (
 )
 ;
-PRInt32
+int32_t
 firstInsPos
 =
 insPos
@@ -8255,7 +8255,7 @@ ElementAt
 ;
 for
 (
-PRUint32
+uint32_t
 i
 =
 0
@@ -8488,7 +8488,7 @@ CompareDocumentPosition
 nsIDOMNode
 *
 aOther
-PRUint16
+uint16_t
 *
 aReturn
 )
@@ -9212,7 +9212,7 @@ return
 NS_OK
 ;
 }
-PRUint32
+uint32_t
 nsINode
 :
 :

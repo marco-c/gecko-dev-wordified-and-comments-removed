@@ -129,7 +129,7 @@ const
 PRUnichar
 *
 aBuffer
-PRUint32
+uint32_t
 aLength
 )
 ;
@@ -152,7 +152,7 @@ PRUnichar
 *
 mBuffer
 ;
-PRUint32
+uint32_t
 mBufferCount
 ;
 bool
@@ -171,7 +171,7 @@ const
 PRUnichar
 *
 aBuffer
-PRUint32
+uint32_t
 aLength
 )
 ;
@@ -232,7 +232,7 @@ cx
 nsIInputStream
 *
 aStream
-PRInt32
+int32_t
 aContentLength
 bool
 aNeedsConverter
@@ -339,7 +339,7 @@ const
 char
 *
 aBuffer
-PRUint32
+uint32_t
 aByteLength
 )
 ;
@@ -350,7 +350,7 @@ const
 char
 *
 aBuffer
-PRUint32
+uint32_t
 aByteLength
 )
 ;
@@ -361,7 +361,7 @@ const
 PRUnichar
 *
 data
-PRUint32
+uint32_t
 len
 )
 ;

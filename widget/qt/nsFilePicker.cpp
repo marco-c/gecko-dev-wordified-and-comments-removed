@@ -159,7 +159,7 @@ const
 nsAString
 &
 title
-PRInt16
+int16_t
 mode
 )
 {
@@ -181,7 +181,7 @@ nsFilePicker
 :
 AppendFilters
 (
-PRInt32
+int32_t
 filterMask
 )
 {
@@ -346,7 +346,7 @@ nsFilePicker
 :
 GetFilterIndex
 (
-PRInt32
+int32_t
 *
 aFilterIndex
 )
@@ -366,7 +366,7 @@ nsFilePicker
 :
 SetFilterIndex
 (
-PRInt32
+int32_t
 aFilterIndex
 )
 {
@@ -562,7 +562,7 @@ nsFilePicker
 :
 Show
 (
-PRInt16
+int16_t
 *
 aReturn
 )
@@ -587,7 +587,7 @@ directory
 QStringList
 filters
 ;
-PRUint32
+uint32_t
 count
 =
 mFilters
@@ -598,7 +598,7 @@ Length
 ;
 for
 (
-PRUint32
+uint32_t
 i
 =
 0
@@ -1147,7 +1147,7 @@ const
 nsAString
 &
 aTitle
-PRInt16
+int16_t
 mode
 )
 {

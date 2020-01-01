@@ -106,11 +106,11 @@ AppendBitmaskCSSValue
 (
 nsCSSProperty
 aProperty
-PRInt32
+int32_t
 aMaskedValue
-PRInt32
+int32_t
 aFirstMask
-PRInt32
+int32_t
 aLastMask
 nsAString
 &
@@ -147,7 +147,7 @@ aResult
 )
 ;
 static
-PRUint8
+uint8_t
 FloatToColorComponent
 (
 float
@@ -190,7 +190,7 @@ static
 float
 ColorComponentToFloat
 (
-PRUint8
+uint8_t
 aAlpha
 )
 ;

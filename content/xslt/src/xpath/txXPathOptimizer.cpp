@@ -71,7 +71,7 @@ aRecycler
 nsresult
 getVariable
 (
-PRInt32
+int32_t
 aNamespace
 nsIAtom
 *
@@ -202,7 +202,7 @@ nullptr
 )
 ;
 }
-PRUint32
+uint32_t
 size
 (
 )
@@ -224,7 +224,7 @@ return
 1
 ;
 }
-PRUint32
+uint32_t
 position
 (
 )
@@ -395,7 +395,7 @@ return
 NS_OK
 ;
 }
-PRUint32
+uint32_t
 i
 =
 0
@@ -772,7 +772,7 @@ PathExpr
 aInExpr
 )
 ;
-PRUint32
+uint32_t
 i
 ;
 Expr
@@ -1168,7 +1168,7 @@ aInExpr
 nsresult
 rv
 ;
-PRUint32
+uint32_t
 current
 ;
 Expr
@@ -1258,7 +1258,7 @@ unionTest
 =
 nullptr
 ;
-PRUint32
+uint32_t
 i
 ;
 for

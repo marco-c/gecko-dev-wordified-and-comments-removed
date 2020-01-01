@@ -582,7 +582,7 @@ GetFileSize
 /
 readonly
 attribute
-PRInt64
+int64_t
 fileSizeWithResFork
 ;
 /
@@ -920,7 +920,7 @@ lastModifiedTime
 /
 readonly
 attribute
-PRInt64
+int64_t
 bundleContentsLastModifiedTime
 ;
 }

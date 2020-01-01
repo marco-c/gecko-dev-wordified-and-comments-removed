@@ -294,7 +294,7 @@ return
 false
 ;
 }
-PRInt32
+int32_t
 nsOCSPResponder
 :
 :
@@ -308,7 +308,7 @@ nsIOCSPResponder
 b
 )
 {
-PRInt32
+int32_t
 cmp1
 ;
 nsXPIDLString
@@ -381,7 +381,7 @@ return
 cmp1
 ;
 }
-PRInt32
+int32_t
 nsOCSPResponder
 :
 :

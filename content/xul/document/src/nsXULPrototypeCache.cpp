@@ -1585,7 +1585,7 @@ char
 >
 buf
 ;
-PRUint32
+uint32_t
 len
 ;
 nsCOMPtr
@@ -1908,7 +1908,7 @@ char
 >
 buf
 ;
-PRUint32
+uint32_t
 len
 ;
 rv
@@ -2060,7 +2060,7 @@ char
 >
 buf
 ;
-PRUint32
+uint32_t
 len
 ;
 if
@@ -2440,7 +2440,7 @@ char
 >
 buf
 ;
-PRUint32
+uint32_t
 len
 amtRead
 ;
@@ -2732,7 +2732,7 @@ rv
 )
 )
 {
-PRUint64
+uint64_t
 len64
 ;
 rv
@@ -2764,7 +2764,7 @@ PR_UINT32_MAX
 len
 =
 (
-PRUint32
+uint32_t
 )
 len64
 ;
@@ -2891,13 +2891,13 @@ void
 aClosure
 )
 {
-PRUint32
+uint32_t
 *
 gen
 =
 static_cast
 <
-PRUint32
+uint32_t
 *
 >
 (
@@ -2935,13 +2935,13 @@ void
 aClosure
 )
 {
-PRUint32
+uint32_t
 *
 gen
 =
 static_cast
 <
-PRUint32
+uint32_t
 *
 >
 (
@@ -2967,7 +2967,7 @@ nsXULPrototypeCache
 :
 MarkInCCGeneration
 (
-PRUint32
+uint32_t
 aGeneration
 )
 {

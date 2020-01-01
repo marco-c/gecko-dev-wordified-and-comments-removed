@@ -225,7 +225,7 @@ nsNSSCertificateFakeTransport
 :
 GetEmailAddresses
 (
-PRUint32
+uint32_t
 *
 aLength
 PRUnichar
@@ -636,10 +636,10 @@ nsNSSCertificateFakeTransport
 :
 GetRawDER
 (
-PRUint32
+uint32_t
 *
 aLength
-PRUint8
+uint8_t
 *
 *
 aArray
@@ -691,9 +691,9 @@ nsNSSCertificateFakeTransport
 :
 VerifyForUsage
 (
-PRUint32
+uint32_t
 usage
-PRUint32
+uint32_t
 *
 verificationResult
 )
@@ -720,10 +720,10 @@ GetUsagesArray
 (
 bool
 localOnly
-PRUint32
+uint32_t
 *
 _verified
-PRUint32
+uint32_t
 *
 _count
 PRUnichar
@@ -755,7 +755,7 @@ GetUsagesString
 (
 bool
 localOnly
-PRUint32
+uint32_t
 *
 _verified
 nsAString
@@ -896,7 +896,7 @@ nsIObjectInputStream
 aStream
 )
 {
-PRUint32
+uint32_t
 len
 ;
 nsresult
@@ -993,7 +993,7 @@ nsNSSCertificateFakeTransport
 :
 GetInterfaces
 (
-PRUint32
+uint32_t
 *
 count
 nsIID
@@ -1023,7 +1023,7 @@ nsNSSCertificateFakeTransport
 :
 GetHelperForLanguage
 (
-PRUint32
+uint32_t
 language
 nsISupports
 *
@@ -1135,7 +1135,7 @@ nsNSSCertificateFakeTransport
 :
 GetImplementationLanguage
 (
-PRUint32
+uint32_t
 *
 aImplementationLanguage
 )
@@ -1158,7 +1158,7 @@ nsNSSCertificateFakeTransport
 :
 GetFlags
 (
-PRUint32
+uint32_t
 *
 aFlags
 )

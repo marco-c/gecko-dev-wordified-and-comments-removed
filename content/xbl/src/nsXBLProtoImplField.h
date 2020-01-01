@@ -83,7 +83,7 @@ aText
 void
 SetLineNumber
 (
-PRUint32
+uint32_t
 aLineNumber
 )
 {
@@ -222,10 +222,10 @@ PRUnichar
 *
 mFieldText
 ;
-PRUint32
+uint32_t
 mFieldTextLength
 ;
-PRUint32
+uint32_t
 mLineNumber
 ;
 unsigned

@@ -201,7 +201,7 @@ class
 nsPaintEvent
 ;
 extern
-PRUint8
+uint8_t
 gLayerManagerLayerBuilder
 ;
 namespace
@@ -901,7 +901,7 @@ true
 ;
 }
 virtual
-PRInt32
+int32_t
 GetMaxTextureSize
 (
 )
@@ -1379,7 +1379,7 @@ CONTENT_PRESERVE_3D
 void
 SetContentFlags
 (
-PRUint32
+uint32_t
 aFlags
 )
 {
@@ -1829,7 +1829,7 @@ mClipRect
 nullptr
 ;
 }
-PRUint32
+uint32_t
 GetContentFlags
 (
 )
@@ -2455,7 +2455,7 @@ DEBUG
 void
 SetDebugColorIndex
 (
-PRUint32
+uint32_t
 aIndex
 )
 {
@@ -2464,7 +2464,7 @@ mDebugColorIndex
 aIndex
 ;
 }
-PRUint32
+uint32_t
 GetDebugColorIndex
 (
 )
@@ -2608,7 +2608,7 @@ mClipRect
 nsIntRect
 mTileSourceRect
 ;
-PRUint32
+uint32_t
 mContentFlags
 ;
 bool
@@ -2625,7 +2625,7 @@ mAnchor
 ;
 DebugOnly
 <
-PRUint32
+uint32_t
 >
 mDebugColorIndex
 ;

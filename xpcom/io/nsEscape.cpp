@@ -711,7 +711,7 @@ return
 str
 ;
 }
-PRInt32
+int32_t
 nsUnescapeCount
 (
 char
@@ -960,7 +960,7 @@ rv
 =
 nullptr
 ;
-PRUint32
+uint32_t
 len
 =
 PL_strlen
@@ -1343,7 +1343,7 @@ const
 PRUnichar
 *
 aSourceBuffer
-PRInt32
+int32_t
 aSourceBufferLen
 )
 {
@@ -1364,7 +1364,7 @@ aSourceBuffer
 }
 if
 (
-PRUint32
+uint32_t
 (
 aSourceBufferLen
 )
@@ -1438,7 +1438,7 @@ if
 resultBuffer
 )
 {
-PRInt32
+int32_t
 i
 ;
 for
@@ -1941,9 +1941,9 @@ const
 char
 *
 part
-PRInt32
+int32_t
 partLen
-PRUint32
+uint32_t
 flags
 nsACString
 &
@@ -2362,9 +2362,9 @@ const
 char
 *
 str
-PRInt32
+int32_t
 len
-PRUint32
+uint32_t
 flags
 nsACString
 &

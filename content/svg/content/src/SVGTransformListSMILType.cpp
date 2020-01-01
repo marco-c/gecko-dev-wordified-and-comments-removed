@@ -402,7 +402,7 @@ return
 false
 ;
 }
-PRUint32
+uint32_t
 length
 =
 leftArr
@@ -413,7 +413,7 @@ Length
 ;
 for
 (
-PRUint32
+uint32_t
 i
 =
 0
@@ -463,7 +463,7 @@ const
 nsSMILValue
 &
 aValueToAdd
-PRUint32
+uint32_t
 aCount
 )
 const
@@ -1751,7 +1751,7 @@ false
 ;
 for
 (
-PRUint32
+uint32_t
 i
 =
 0
@@ -1867,7 +1867,7 @@ false
 ;
 for
 (
-PRUint32
+uint32_t
 i
 =
 0

@@ -253,7 +253,7 @@ CACHE_LOG_DEBUG
 args
 )
 static
-PRUint32
+uint32_t
 gNextTemporaryClientID
 =
 0
@@ -339,7 +339,7 @@ buf
 *
 fullKey
 ;
-PRInt32
+int32_t
 colon
 =
 buf
@@ -605,7 +605,7 @@ define
 DCACHE_HASH_BITS
 64
 static
-PRUint64
+uint64_t
 DCacheHash
 (
 const
@@ -616,7 +616,7 @@ key
 {
 return
 (
-PRUint64
+uint64_t
 (
 nsDiskCache
 :
@@ -687,7 +687,7 @@ file
 return
 NS_ERROR_OUT_OF_MEMORY
 ;
-PRUint64
+uint64_t
 hash
 =
 DCacheHash
@@ -695,11 +695,11 @@ DCacheHash
 key
 )
 ;
-PRUint32
+uint32_t
 dir1
 =
 (
-PRUint32
+uint32_t
 )
 (
 hash
@@ -707,11 +707,11 @@ hash
 0x0F
 )
 ;
-PRUint32
+uint32_t
 dir2
 =
 (
-PRUint32
+uint32_t
 )
 (
 (
@@ -831,7 +831,7 @@ _retval
 =
 nullptr
 ;
-PRUint32
+uint32_t
 numEntries
 ;
 nsresult
@@ -866,7 +866,7 @@ arguments
 "
 )
 ;
-PRUint32
+uint32_t
 valueLen
 ;
 const
@@ -1059,7 +1059,7 @@ n
 ;
 for
 (
-PRInt32
+int32_t
 i
 =
 0
@@ -1448,7 +1448,7 @@ nsOfflineCacheDeviceInfo
 :
 GetEntryCount
 (
-PRUint32
+uint32_t
 *
 aEntryCount
 )
@@ -1473,7 +1473,7 @@ nsOfflineCacheDeviceInfo
 :
 GetTotalSize
 (
-PRUint32
+uint32_t
 *
 aTotalSize
 )
@@ -1498,7 +1498,7 @@ nsOfflineCacheDeviceInfo
 :
 GetMaximumSize
 (
-PRUint32
+uint32_t
 *
 aMaximumSize
 )
@@ -1671,7 +1671,7 @@ keyBuf
 return
 nullptr
 ;
-PRUint64
+uint64_t
 hash
 =
 DCacheHash
@@ -1679,11 +1679,11 @@ DCacheHash
 key
 )
 ;
-PRUint32
+uint32_t
 dir1
 =
 (
-PRUint32
+uint32_t
 )
 (
 hash
@@ -1691,11 +1691,11 @@ hash
 0x0F
 )
 ;
-PRUint32
+uint32_t
 dir2
 =
 (
-PRUint32
+uint32_t
 )
 (
 (
@@ -1994,29 +1994,29 @@ char
 key
 ;
 const
-PRUint8
+uint8_t
 *
 metaData
 ;
-PRUint32
+uint32_t
 metaDataLen
 ;
-PRInt32
+int32_t
 generation
 ;
-PRInt32
+int32_t
 dataSize
 ;
-PRInt32
+int32_t
 fetchCount
 ;
-PRInt64
+int64_t
 lastFetched
 ;
-PRInt64
+int64_t
 lastModified
 ;
-PRInt64
+int64_t
 expirationTime
 ;
 }
@@ -2102,7 +2102,7 @@ entry
 SetFetchCount
 (
 (
-PRUint32
+uint32_t
 )
 rec
 .
@@ -2154,7 +2154,7 @@ entry
 SetDataSize
 (
 (
-PRUint32
+uint32_t
 )
 rec
 .
@@ -2339,7 +2339,7 @@ nsOfflineCacheEntryInfo
 :
 GetFetchCount
 (
-PRInt32
+int32_t
 *
 aFetchCount
 )
@@ -2362,7 +2362,7 @@ nsOfflineCacheEntryInfo
 :
 GetLastFetched
 (
-PRUint32
+uint32_t
 *
 aLastFetched
 )
@@ -2388,7 +2388,7 @@ nsOfflineCacheEntryInfo
 :
 GetLastModified
 (
-PRUint32
+uint32_t
 *
 aLastModified
 )
@@ -2414,7 +2414,7 @@ nsOfflineCacheEntryInfo
 :
 GetExpirationTime
 (
-PRUint32
+uint32_t
 *
 aExpirationTime
 )
@@ -2460,7 +2460,7 @@ nsOfflineCacheEntryInfo
 :
 GetDataSize
 (
-PRUint32
+uint32_t
 *
 aDataSize
 )
@@ -2488,7 +2488,7 @@ nsApplicationCacheNamespace
 :
 Init
 (
-PRUint32
+uint32_t
 itemType
 const
 nsACString
@@ -2522,7 +2522,7 @@ nsApplicationCacheNamespace
 :
 GetItemType
 (
-PRUint32
+uint32_t
 *
 out
 )
@@ -2960,7 +2960,7 @@ const
 nsACString
 &
 key
-PRUint32
+uint32_t
 typeBits
 )
 {
@@ -2998,7 +2998,7 @@ const
 nsACString
 &
 key
-PRUint32
+uint32_t
 typeBits
 )
 {
@@ -3036,7 +3036,7 @@ const
 nsACString
 &
 key
-PRUint32
+uint32_t
 *
 typeBits
 )
@@ -3071,9 +3071,9 @@ nsApplicationCache
 :
 GatherEntries
 (
-PRUint32
+uint32_t
 typeBits
-PRUint32
+uint32_t
 *
 count
 char
@@ -3149,7 +3149,7 @@ mDB
 false
 )
 ;
-PRUint32
+uint32_t
 length
 ;
 nsresult
@@ -3172,7 +3172,7 @@ rv
 ;
 for
 (
-PRUint32
+uint32_t
 i
 =
 0
@@ -3286,7 +3286,7 @@ nsApplicationCache
 :
 GetUsage
 (
-PRUint32
+uint32_t
 *
 usage
 )
@@ -3451,7 +3451,7 @@ return
 true
 ;
 }
-PRUint32
+uint32_t
 nsOfflineCacheDevice
 :
 :
@@ -3494,7 +3494,7 @@ hasRows
 ;
 return
 (
-PRUint32
+uint32_t
 )
 statement
 -
@@ -3505,7 +3505,7 @@ AsInt32
 )
 ;
 }
-PRUint32
+uint32_t
 nsOfflineCacheDevice
 :
 :
@@ -3548,7 +3548,7 @@ hasRows
 ;
 return
 (
-PRUint32
+uint32_t
 )
 statement
 -
@@ -3604,7 +3604,7 @@ NS_ERROR_UNEXPECTED
 nsCString
 metaDataBuf
 ;
-PRUint32
+uint32_t
 mdSize
 =
 entry
@@ -3654,7 +3654,7 @@ metaData
 =
 (
 const
-PRUint8
+uint8_t
 *
 )
 md
@@ -3992,7 +3992,7 @@ UpdateEntrySize
 nsCacheEntry
 *
 entry
-PRUint32
+uint32_t
 newSize
 )
 {
@@ -5491,7 +5491,7 @@ ActivateTimeStamp
 ;
 for
 (
-PRUint32
+uint32_t
 i
 =
 0
@@ -6332,7 +6332,7 @@ rec
 metaDataLen
 (
 const
-PRUint8
+uint8_t
 *
 *
 )
@@ -7277,7 +7277,7 @@ nsCacheEntry
 entry
 nsCacheAccessMode
 mode
-PRUint32
+uint32_t
 offset
 nsIInputStream
 *
@@ -7448,7 +7448,7 @@ nsCacheEntry
 entry
 nsCacheAccessMode
 mode
-PRUint32
+uint32_t
 offset
 nsIOutputStream
 *
@@ -7729,7 +7729,7 @@ OnDataSizeChange
 nsCacheEntry
 *
 entry
-PRInt32
+int32_t
 deltaSize
 )
 {
@@ -7770,7 +7770,7 @@ deltaSize
 )
 ;
 const
-PRInt32
+int32_t
 DELTA_THRESHOLD
 =
 1
@@ -7778,7 +7778,7 @@ DELTA_THRESHOLD
 <
 14
 ;
-PRUint32
+uint32_t
 oldSize
 =
 entry
@@ -7796,7 +7796,7 @@ deltaSize
 0
 |
 |
-PRInt32
+int32_t
 (
 oldSize
 )
@@ -7810,10 +7810,10 @@ oops
 "
 )
 ;
-PRUint32
+uint32_t
 newSize
 =
-PRInt32
+int32_t
 (
 oldSize
 )
@@ -8092,7 +8092,7 @@ rec
 metaDataLen
 (
 const
-PRUint8
+uint8_t
 *
 *
 )
@@ -8629,7 +8629,7 @@ const
 nsACString
 &
 key
-PRUint32
+uint32_t
 typeBits
 )
 {
@@ -8766,7 +8766,7 @@ const
 nsACString
 &
 key
-PRUint32
+uint32_t
 typeBits
 )
 {
@@ -9090,7 +9090,7 @@ false
 nsCString
 nsSpec
 ;
-PRInt32
+int32_t
 nsType
 =
 0
@@ -9103,7 +9103,7 @@ while
 hasRows
 )
 {
-PRInt32
+int32_t
 itemType
 ;
 rv
@@ -9293,7 +9293,7 @@ const
 nsACString
 &
 key
-PRUint32
+uint32_t
 *
 typeBits
 )
@@ -9429,9 +9429,9 @@ const
 nsCString
 &
 clientID
-PRUint32
+uint32_t
 typeBits
-PRUint32
+uint32_t
 *
 count
 char
@@ -9576,7 +9576,7 @@ rv
 rv
 )
 ;
-PRUint32
+uint32_t
 itemType
 ;
 rv
@@ -9745,7 +9745,7 @@ const
 nsACString
 &
 clientID
-PRUint32
+uint32_t
 *
 usage
 )
@@ -9840,7 +9840,7 @@ usage
 =
 static_cast
 <
-PRUint32
+uint32_t
 >
 (
 statement
@@ -9862,7 +9862,7 @@ nsOfflineCacheDevice
 :
 GetGroups
 (
-PRUint32
+uint32_t
 *
 count
 char
@@ -9900,7 +9900,7 @@ nsOfflineCacheDevice
 :
 GetGroupsTimeOrdered
 (
-PRUint32
+uint32_t
 *
 count
 char
@@ -10002,9 +10002,9 @@ RunSimpleQuery
 mozIStorageStatement
 *
 statement
-PRUint32
+uint32_t
 resultIndex
-PRUint32
+uint32_t
 *
 count
 char
@@ -10046,7 +10046,7 @@ while
 hasRows
 )
 {
-PRUint32
+uint32_t
 length
 ;
 valArray
@@ -10129,7 +10129,7 @@ NS_ERROR_OUT_OF_MEMORY
 ;
 for
 (
-PRUint32
+uint32_t
 i
 =
 0
@@ -10778,7 +10778,7 @@ while
 hasRows
 )
 {
-PRInt32
+int32_t
 itemType
 ;
 rv
@@ -10913,7 +10913,7 @@ while
 hasRows
 )
 {
-PRInt32
+int32_t
 itemType
 ;
 rv
@@ -11452,7 +11452,7 @@ nsOfflineCacheDevice
 :
 SetCapacity
 (
-PRUint32
+uint32_t
 capacity
 )
 {

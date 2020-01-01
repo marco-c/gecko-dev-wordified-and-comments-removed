@@ -794,10 +794,10 @@ static
 void
 UnPremultiplyImageDataAlpha
 (
-PRUint8
+uint8_t
 *
 data
-PRInt32
+int32_t
 stride
 const
 nsIntRect
@@ -809,10 +809,10 @@ static
 void
 PremultiplyImageDataAlpha
 (
-PRUint8
+uint8_t
 *
 data
-PRInt32
+int32_t
 stride
 const
 nsIntRect
@@ -824,10 +824,10 @@ static
 void
 ConvertImageDataToLinearRGB
 (
-PRUint8
+uint8_t
 *
 data
-PRInt32
+int32_t
 stride
 const
 nsIntRect
@@ -839,10 +839,10 @@ static
 void
 ConvertImageDataFromLinearRGB
 (
-PRUint8
+uint8_t
 *
 data
-PRInt32
+int32_t
 stride
 const
 nsIntRect
@@ -866,7 +866,7 @@ PRUnichar
 *
 *
 aParams
-PRUint32
+uint32_t
 aParamsLength
 )
 ;
@@ -958,7 +958,7 @@ nsRect
 aBoundsSubArea
 =
 nullptr
-PRUint32
+uint32_t
 aFlags
 =
 0
@@ -1193,7 +1193,7 @@ GetCanvasTM
 nsIFrame
 *
 aFrame
-PRUint32
+uint32_t
 aFor
 )
 ;
@@ -1204,7 +1204,7 @@ GetUserToCanvasTM
 nsIFrame
 *
 aFrame
-PRUint32
+uint32_t
 aFor
 )
 ;
@@ -1215,7 +1215,7 @@ NotifyChildrenOfSVGChange
 nsIFrame
 *
 aFrame
-PRUint32
+uint32_t
 aFlags
 )
 ;
@@ -1460,7 +1460,7 @@ GetBBox
 nsIFrame
 *
 aFrame
-PRUint32
+uint32_t
 aFlags
 =
 eBBoxIncludeFillGeometry
@@ -1470,7 +1470,7 @@ static
 gfxRect
 GetRelativeRect
 (
-PRUint16
+uint16_t
 aUnits
 const
 nsSVGLength2
@@ -1583,7 +1583,7 @@ aMatrix
 )
 ;
 static
-PRInt32
+int32_t
 ClampToInt
 (
 double
@@ -1708,7 +1708,7 @@ aContext
 )
 ;
 static
-PRUint16
+uint16_t
 GetGeometryHitTestFlags
 (
 nsIFrame

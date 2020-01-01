@@ -310,9 +310,9 @@ aTitle
 PRUnichar
 *
 aPrintToFileName
-PRInt32
+int32_t
 aStartPage
-PRInt32
+int32_t
 aEndPage
 )
 {
@@ -745,11 +745,11 @@ gfxQuartzSurface
 gfxSize
 (
 (
-PRInt32
+int32_t
 )
 width
 (
-PRInt32
+int32_t
 )
 height
 )

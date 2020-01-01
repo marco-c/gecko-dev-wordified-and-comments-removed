@@ -230,7 +230,7 @@ nsString
 aValue
 )
 {
-PRInt32
+int32_t
 comment
 =
 aValue
@@ -550,7 +550,7 @@ aPresContext
 nsMathMLChar
 *
 aChar
-PRInt32
+int32_t
 aSize
 )
 {
@@ -616,11 +616,11 @@ aPresContext
 nsMathMLChar
 *
 aChar
-PRUint32
+uint32_t
 aPosition
 )
 ;
-PRInt32
+int32_t
 mType
 ;
 nsTArray
@@ -629,7 +629,7 @@ nsString
 >
 mFontName
 ;
-PRInt32
+int32_t
 mState
 ;
 nsCOMPtr
@@ -658,7 +658,7 @@ aPresContext
 nsMathMLChar
 *
 aChar
-PRUint32
+uint32_t
 aPosition
 )
 {
@@ -807,7 +807,7 @@ value
 ;
 for
 (
-PRInt32
+int32_t
 i
 =
 1
@@ -948,7 +948,7 @@ value
 nsAutoString
 buffer
 ;
-PRInt32
+int32_t
 length
 =
 value
@@ -957,7 +957,7 @@ Length
 (
 )
 ;
-PRInt32
+int32_t
 i
 =
 0
@@ -1177,7 +1177,7 @@ mCharCache
 uchar
 ;
 }
-PRUint32
+uint32_t
 index
 =
 3
@@ -1473,7 +1473,7 @@ nsGlyphTable
 *
 TableAt
 (
-PRInt32
+int32_t
 aIndex
 )
 {
@@ -1487,7 +1487,7 @@ aIndex
 )
 ;
 }
-PRInt32
+int32_t
 Count
 (
 )
@@ -1740,7 +1740,7 @@ return
 &
 mUnicodeTable
 ;
-PRInt32
+int32_t
 i
 ;
 for
@@ -1805,7 +1805,7 @@ aFamily
 {
 for
 (
-PRInt32
+int32_t
 i
 =
 0
@@ -2482,7 +2482,7 @@ nscoord
 a
 nscoord
 b
-PRUint32
+uint32_t
 aHint
 )
 {
@@ -2674,7 +2674,7 @@ nscoord
 olda
 nscoord
 b
-PRUint32
+uint32_t
 aHint
 )
 {
@@ -2794,7 +2794,7 @@ sum
 ;
 for
 (
-PRInt32
+int32_t
 i
 =
 first
@@ -2843,7 +2843,7 @@ AppUnitsPerDevPixel
 (
 )
 ;
-PRInt32
+int32_t
 joins
 =
 aGlyphs
@@ -2862,7 +2862,7 @@ glue
 2
 ;
 const
-PRInt32
+int32_t
 maxGlyphs
 =
 1000
@@ -3175,7 +3175,7 @@ false
 true
 )
 ;
-PRUint8
+uint8_t
 generic
 ;
 nsFont
@@ -3449,7 +3449,7 @@ nsStretchDirection
 aStretchDirection
 nscoord
 aTargetSize
-PRUint32
+uint32_t
 aStretchHint
 nsBoundingMetrics
 &
@@ -3571,7 +3571,7 @@ nscoord
 mTargetSize
 ;
 const
-PRUint32
+uint32_t
 mStretchHint
 ;
 nsBoundingMetrics
@@ -3734,7 +3734,7 @@ haveBetter
 =
 false
 ;
-PRInt32
+int32_t
 size
 =
 1
@@ -4233,7 +4233,7 @@ mStretchHint
 ;
 for
 (
-PRInt32
+int32_t
 i
 =
 0
@@ -4527,7 +4527,7 @@ if
 isVertical
 )
 {
-PRInt32
+int32_t
 i
 ;
 nscoord
@@ -4730,7 +4730,7 @@ descent
 ;
 for
 (
-PRInt32
+int32_t
 i
 =
 1
@@ -5076,7 +5076,7 @@ aContainerSize
 nsBoundingMetrics
 &
 aDesiredStretchSize
-PRUint32
+uint32_t
 aStretchHint
 float
 aMaxSize
@@ -5215,7 +5215,7 @@ mData
 get
 (
 )
-PRUint32
+uint32_t
 (
 mData
 .
@@ -6259,7 +6259,7 @@ aContainerSize
 nsBoundingMetrics
 &
 aDesiredStretchSize
-PRUint32
+uint32_t
 aStretchHint
 bool
 aRTL
@@ -6349,7 +6349,7 @@ aPresContext
 nsRenderingContext
 &
 aRenderingContext
-PRUint32
+uint32_t
 aStretchHint
 float
 aMaxSize
@@ -6712,7 +6712,7 @@ aFrame
 nsMathMLChar
 *
 aChar
-PRUint32
+uint32_t
 aIndex
 bool
 aIsSelected
@@ -6902,7 +6902,7 @@ snap
 ;
 }
 virtual
-PRUint32
+uint32_t
 GetPerFrameKey
 (
 )
@@ -6932,7 +6932,7 @@ nsMathMLChar
 *
 mChar
 ;
-PRUint32
+uint32_t
 mIndex
 ;
 bool
@@ -7122,7 +7122,7 @@ const
 nsDisplayListSet
 &
 aLists
-PRUint32
+uint32_t
 aIndex
 const
 nsRect
@@ -7648,10 +7648,10 @@ if
 mDrawNormal
 )
 {
-PRUint32
+uint32_t
 len
 =
-PRUint32
+uint32_t
 (
 mData
 .
@@ -7810,7 +7810,7 @@ const
 gfxContext
 *
 aThebesContext
-PRInt32
+int32_t
 aAppUnitsPerGfxUnit
 const
 nsPoint
@@ -7919,7 +7919,7 @@ AppUnitsPerDevPixel
 (
 )
 ;
-PRInt32
+int32_t
 i
 =
 0
@@ -7937,7 +7937,7 @@ bmdata
 4
 ]
 ;
-PRInt32
+int32_t
 glue
 bottom
 ;
@@ -7955,7 +7955,7 @@ this
 ;
 for
 (
-PRInt32
+int32_t
 j
 =
 0
@@ -8631,7 +8631,7 @@ nscoord
 lbearing
 rbearing
 ;
-PRInt32
+int32_t
 first
 =
 0
@@ -9115,7 +9115,7 @@ AppUnitsPerDevPixel
 (
 )
 ;
-PRInt32
+int32_t
 i
 =
 0
@@ -9133,7 +9133,7 @@ bmdata
 4
 ]
 ;
-PRInt32
+int32_t
 glue
 right
 ;
@@ -9151,7 +9151,7 @@ this
 ;
 for
 (
-PRInt32
+int32_t
 j
 =
 0
@@ -9800,7 +9800,7 @@ nscoord
 ascent
 descent
 ;
-PRInt32
+int32_t
 first
 =
 0

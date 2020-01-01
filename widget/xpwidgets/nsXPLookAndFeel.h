@@ -36,7 +36,7 @@ id
 bool
 isSet
 ;
-PRInt32
+int32_t
 intVar
 ;
 }
@@ -262,7 +262,7 @@ GetIntImpl
 (
 IntID
 aID
-PRInt32
+int32_t
 &
 aResult
 )
@@ -326,7 +326,7 @@ false
 ;
 }
 virtual
-PRUint32
+uint32_t
 GetPasswordMaskDelayImpl
 (
 )
@@ -391,7 +391,7 @@ aPref
 void
 InitColorFromPref
 (
-PRInt32
+int32_t
 aIndex
 )
 ;
@@ -458,7 +458,7 @@ sColorPrefs
 ]
 ;
 static
-PRInt32
+int32_t
 sCachedColors
 [
 LookAndFeel
@@ -468,7 +468,7 @@ eColorID_LAST_COLOR
 ]
 ;
 static
-PRInt32
+int32_t
 sCachedColorBits
 [
 COLOR_CACHE_SIZE

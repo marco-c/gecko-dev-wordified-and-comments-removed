@@ -483,7 +483,7 @@ const
 nsAString
 &
 aBuffer
-PRUint32
+uint32_t
 aLineNumber
 const
 nsAString
@@ -964,7 +964,7 @@ nsAutoRefCnt
 mRefCnt
 ;
 NS_DECL_OWNINGTHREAD
-PRUint32
+uint32_t
 mDatasToNotifyOn
 ;
 nsCompatibility

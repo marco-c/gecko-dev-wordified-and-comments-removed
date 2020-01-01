@@ -251,7 +251,7 @@ PRUnichar
 *
 *
 aWarningArgs
-PRUint32
+uint32_t
 aWarningArgsLen
 )
 {
@@ -292,7 +292,7 @@ const
 nsACString
 &
 aCharset
-PRInt32
+int32_t
 aMethod
 nsIDocument
 *
@@ -397,7 +397,7 @@ aEncoded
 ;
 private
 :
-PRInt32
+int32_t
 mMethod
 ;
 nsCString
@@ -676,7 +676,7 @@ hasParams
 =
 false
 ;
-PRInt32
+int32_t
 paramSep
 =
 aPath
@@ -699,7 +699,7 @@ kNotFound
 paramSep
 <
 (
-PRInt32
+int32_t
 )
 aPath
 .
@@ -712,7 +712,7 @@ hasParams
 =
 true
 ;
-PRInt32
+int32_t
 nameEnd
 =
 aPath
@@ -727,7 +727,7 @@ paramSep
 1
 )
 ;
-PRInt32
+int32_t
 nextParamSep
 =
 aPath
@@ -1324,7 +1324,7 @@ rv
 rv
 )
 ;
-PRInt32
+int32_t
 namedAnchorPos
 =
 path
@@ -1371,7 +1371,7 @@ namedAnchorPos
 )
 ;
 }
-PRInt32
+int32_t
 queryStart
 =
 path
@@ -3189,7 +3189,7 @@ acceptcharset
 acceptCharsetValue
 )
 ;
-PRInt32
+int32_t
 charsetLen
 =
 acceptCharsetValue
@@ -3205,12 +3205,12 @@ charsetLen
 0
 )
 {
-PRInt32
+int32_t
 offset
 =
 0
 ;
-PRInt32
+int32_t
 spPos
 =
 0
@@ -3231,7 +3231,7 @@ PRUnichar
 offset
 )
 ;
-PRInt32
+int32_t
 cnt
 =
 (
@@ -3349,7 +3349,7 @@ aContent
 nsIAtom
 *
 atom
-PRInt32
+int32_t
 *
 aValue
 )
@@ -3435,7 +3435,7 @@ submission
 "
 )
 ;
-PRInt32
+int32_t
 enctype
 =
 NS_FORM_ENCTYPE_URLENCODED
@@ -3484,7 +3484,7 @@ enctype
 )
 ;
 }
-PRInt32
+int32_t
 method
 =
 NS_FORM_METHOD_GET

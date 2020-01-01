@@ -225,10 +225,10 @@ Page
 *
 mTail
 ;
-PRUint16
+uint16_t
 mOffsetHead
 ;
-PRUint16
+uint16_t
 mOffsetTail
 ;
 }

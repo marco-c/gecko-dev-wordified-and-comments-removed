@@ -192,7 +192,7 @@ Init
 nsIDOMNode
 *
 aRoot
-PRUint32
+uint32_t
 aWhatToShow
 )
 {
@@ -246,7 +246,7 @@ inDeepTreeWalker
 :
 GetWhatToShow
 (
-PRUint32
+uint32_t
 *
 aWhatToShow
 )
@@ -574,7 +574,7 @@ nsIDOMNode
 >
 kid
 ;
-PRUint32
+uint32_t
 length
 ;
 top
@@ -1056,7 +1056,7 @@ mCurrentNode
 ;
 #
 endif
-PRUint32
+uint32_t
 lastChildCallsToMake
 =
 0

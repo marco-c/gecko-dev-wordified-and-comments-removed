@@ -133,7 +133,7 @@ nsIID
 *
 *
 aInterfaces
-PRUint32
+uint32_t
 aScriptableFlags
 bool
 aHasClassInterface

@@ -299,7 +299,7 @@ mJarReader
 )
 ;
 }
-PRInt32
+int32_t
 GetContentLength
 (
 )
@@ -339,7 +339,7 @@ mJarStream
 nsCString
 mJarEntry
 ;
-PRInt32
+int32_t
 mContentLength
 ;
 }
@@ -441,7 +441,7 @@ return
 rv
 ;
 }
-PRUint64
+uint64_t
 avail
 ;
 rv
@@ -452,7 +452,7 @@ mJarStream
 Available
 (
 (
-PRUint64
+uint64_t
 *
 )
 &
@@ -476,7 +476,7 @@ avail
 PR_INT32_MAX
 ?
 (
-PRInt32
+int32_t
 )
 avail
 :
@@ -517,7 +517,7 @@ nsJARInputThunk
 :
 Available
 (
-PRUint64
+uint64_t
 *
 avail
 )
@@ -558,9 +558,9 @@ Read
 char
 *
 buf
-PRUint32
+uint32_t
 count
-PRUint32
+uint32_t
 *
 countRead
 )
@@ -605,9 +605,9 @@ writer
 void
 *
 closure
-PRUint32
+uint32_t
 count
-PRUint32
+uint32_t
 *
 countRead
 )
@@ -2200,7 +2200,7 @@ get
 (
 )
 ;
-PRInt32
+int32_t
 len
 =
 mJarEntry
@@ -2229,7 +2229,7 @@ else
 {
 for
 (
-PRInt32
+int32_t
 i
 =
 len
@@ -2399,7 +2399,7 @@ nsJARChannel
 :
 GetContentDisposition
 (
-PRUint32
+uint32_t
 *
 aContentDisposition
 )
@@ -2475,7 +2475,7 @@ nsJARChannel
 :
 GetContentLength
 (
-PRInt32
+int32_t
 *
 result
 )
@@ -2513,7 +2513,7 @@ nsJARChannel
 :
 SetContentLength
 (
-PRInt32
+int32_t
 aContentLength
 )
 {
@@ -2919,7 +2919,7 @@ if
 channel
 )
 {
-PRUint32
+uint32_t
 loadFlags
 ;
 channel
@@ -3564,9 +3564,9 @@ ctx
 nsIInputStream
 *
 stream
-PRUint32
+uint32_t
 offset
-PRUint32
+uint32_t
 count
 )
 {
@@ -3648,13 +3648,13 @@ OnProgress
 (
 this
 nullptr
-PRUint64
+uint64_t
 (
 offset
 +
 count
 )
-PRUint64
+uint64_t
 (
 mContentLength
 )

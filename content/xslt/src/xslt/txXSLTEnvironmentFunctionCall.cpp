@@ -688,7 +688,7 @@ TX_XSLTFunctionAvailable
 nsIAtom
 *
 aName
-PRInt32
+int32_t
 aNameSpaceID
 )
 ;

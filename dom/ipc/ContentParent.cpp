@@ -875,7 +875,7 @@ ContentParent
 gPrivateContent
 ;
 static
-PRUint64
+uint64_t
 gContentChildID
 =
 1
@@ -1182,7 +1182,7 @@ ContentParent
 (
 )
 ;
-PRInt32
+int32_t
 maxContentProcesses
 =
 Preferences
@@ -1220,13 +1220,13 @@ Length
 )
 >
 =
-PRUint32
+uint32_t
 (
 maxContentProcesses
 )
 )
 {
-PRUint32
+uint32_t
 idx
 =
 rand
@@ -1478,7 +1478,7 @@ return
 nullptr
 ;
 }
-PRUint32
+uint32_t
 appId
 ;
 if
@@ -2261,7 +2261,7 @@ defined
 (
 LINUX
 )
-PRInt32
+int32_t
 nice
 =
 Preferences
@@ -2321,7 +2321,7 @@ if
 infoService
 )
 {
-PRInt32
+int32_t
 cpus
 ;
 nsresult
@@ -3779,7 +3779,7 @@ GetType
 type
 )
 ;
-PRUint32
+uint32_t
 capability
 ;
 perm
@@ -3791,7 +3791,7 @@ GetCapability
 capability
 )
 ;
-PRUint32
+uint32_t
 expireType
 ;
 perm
@@ -3803,7 +3803,7 @@ GetExpireType
 expireType
 )
 ;
-PRInt64
+int64_t
 expireTime
 ;
 perm
@@ -3859,7 +3859,7 @@ bool
 &
 isPrivateData
 const
-PRInt32
+int32_t
 &
 whichClipboard
 )
@@ -4034,7 +4034,7 @@ ContentParent
 RecvGetClipboardText
 (
 const
-PRInt32
+int32_t
 &
 whichClipboard
 nsString
@@ -4117,7 +4117,7 @@ nsISupports
 >
 tmp
 ;
-PRUint32
+uint32_t
 len
 ;
 rv
@@ -4283,12 +4283,12 @@ ContentParent
 RecvGetSystemColors
 (
 const
-PRUint32
+uint32_t
 &
 colorsCount
 InfallibleTArray
 <
-PRUint32
+uint32_t
 >
 *
 colors
@@ -4380,12 +4380,12 @@ nsCString
 &
 aFileExt
 const
-PRUint32
+uint32_t
 &
 aIconSize
 InfallibleTArray
 <
-PRUint8
+uint8_t
 >
 *
 bits
@@ -5021,7 +5021,7 @@ volName
 nsString
 mountPoint
 ;
-PRInt32
+int32_t
 state
 ;
 vol
@@ -5154,7 +5154,7 @@ ContentParent
 AllocPBrowser
 (
 const
-PRUint32
+uint32_t
 &
 aChromeFlags
 const
@@ -5565,7 +5565,7 @@ rv
 nullptr
 )
 ;
-PRUint64
+uint64_t
 length
 ;
 rv
@@ -5720,7 +5720,7 @@ NativeThreadId
 &
 tid
 const
-PRUint32
+uint32_t
 &
 processType
 )
@@ -5756,7 +5756,7 @@ NativeThreadId
 &
 tid
 const
-PRUint32
+uint32_t
 &
 processType
 )
@@ -6074,7 +6074,7 @@ manager
 ;
 for
 (
-PRInt32
+int32_t
 i
 =
 0
@@ -6104,7 +6104,7 @@ i
 ;
 for
 (
-PRUint32
+uint32_t
 i
 =
 0
@@ -6146,7 +6146,7 @@ path
 (
 )
 ;
-PRInt32
+int32_t
 kind
 =
 report
@@ -6158,7 +6158,7 @@ kind
 (
 )
 ;
-PRInt32
+int32_t
 units
 =
 report
@@ -6170,7 +6170,7 @@ units
 (
 )
 ;
-PRInt64
+int64_t
 amount
 =
 report
@@ -6313,15 +6313,15 @@ ContentParent
 AllocPAudio
 (
 const
-PRInt32
+int32_t
 &
 numChannels
 const
-PRInt32
+int32_t
 &
 rate
 const
-PRInt32
+int32_t
 &
 format
 )
@@ -6462,7 +6462,7 @@ bool
 &
 aForceSave
 const
-PRInt64
+int64_t
 &
 aContentLength
 const
@@ -6819,7 +6819,7 @@ URI
 &
 referrer
 const
-PRUint32
+uint32_t
 &
 flags
 )
@@ -6968,11 +6968,11 @@ ContentParent
 RecvShowFilePicker
 (
 const
-PRInt16
+int16_t
 &
 mode
 const
-PRInt16
+int16_t
 &
 selectedType
 const
@@ -7011,7 +7011,7 @@ nsString
 >
 *
 files
-PRInt16
+int16_t
 *
 retValue
 nsresult
@@ -7113,7 +7113,7 @@ SetAddToRecentDocs
 addToRecentDocs
 )
 ;
-PRUint32
+uint32_t
 count
 =
 filters
@@ -7124,7 +7124,7 @@ Length
 ;
 for
 (
-PRUint32
+uint32_t
 i
 =
 0
@@ -7438,7 +7438,7 @@ nsIThreadInternal
 thread
 bool
 mayWait
-PRUint32
+uint32_t
 recursionDepth
 )
 {
@@ -7463,7 +7463,7 @@ AfterProcessNextEvent
 nsIThreadInternal
 *
 thread
-PRUint32
+uint32_t
 recursionDepth
 )
 {
@@ -7675,7 +7675,7 @@ IsEmpty
 )
 )
 {
-PRUint32
+uint32_t
 length
 =
 blobParents
@@ -7697,7 +7697,7 @@ length
 ;
 for
 (
-PRUint32
+uint32_t
 index
 =
 0
@@ -7877,7 +7877,7 @@ IsEmpty
 )
 )
 {
-PRUint32
+uint32_t
 length
 =
 blobParents
@@ -7899,7 +7899,7 @@ length
 ;
 for
 (
-PRUint32
+uint32_t
 index
 =
 0
@@ -8234,15 +8234,15 @@ nsString
 &
 aSourceLine
 const
-PRUint32
+uint32_t
 &
 aLineNumber
 const
-PRUint32
+uint32_t
 &
 aColNumber
 const
-PRUint32
+uint32_t
 &
 aFlags
 const

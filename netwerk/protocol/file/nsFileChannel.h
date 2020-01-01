@@ -90,7 +90,7 @@ nsIInputStream
 >
 mUploadStream
 ;
-PRInt64
+int64_t
 mUploadLength
 ;
 }

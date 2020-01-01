@@ -322,7 +322,7 @@ FTPChannelChild
 :
 ResumeAt
 (
-PRUint64
+uint64_t
 aStartPos
 const
 nsACString
@@ -398,7 +398,7 @@ const
 nsACString
 &
 contentType
-PRInt32
+int32_t
 contentLength
 )
 {
@@ -681,7 +681,7 @@ FTPChannelChild
 *
 aChild
 const
-PRInt32
+int32_t
 &
 aContentLength
 const
@@ -755,7 +755,7 @@ FTPChannelChild
 *
 mChild
 ;
-PRInt32
+int32_t
 mContentLength
 ;
 nsCString
@@ -782,7 +782,7 @@ FTPChannelChild
 RecvOnStartRequest
 (
 const
-PRInt32
+int32_t
 &
 aContentLength
 const
@@ -855,7 +855,7 @@ FTPChannelChild
 DoOnStartRequest
 (
 const
-PRInt32
+int32_t
 &
 aContentLength
 const
@@ -1000,11 +1000,11 @@ nsCString
 &
 aData
 const
-PRUint32
+uint32_t
 &
 aOffset
 const
-PRUint32
+uint32_t
 &
 aCount
 )
@@ -1052,7 +1052,7 @@ mChild
 nsCString
 mData
 ;
-PRUint32
+uint32_t
 mOffset
 mCount
 ;
@@ -1069,11 +1069,11 @@ nsCString
 &
 data
 const
-PRUint32
+uint32_t
 &
 offset
 const
-PRUint32
+uint32_t
 &
 count
 )
@@ -1127,11 +1127,11 @@ nsCString
 &
 data
 const
-PRUint32
+uint32_t
 &
 offset
 const
-PRUint32
+uint32_t
 &
 count
 )
@@ -1932,7 +1932,7 @@ FTPChannelChild
 :
 ConnectParent
 (
-PRUint32
+uint32_t
 id
 )
 {

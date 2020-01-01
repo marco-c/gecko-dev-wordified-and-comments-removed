@@ -922,7 +922,7 @@ MaxAdvance
 (
 )
 ;
-PRInt32
+int32_t
 cols
 =
 GetCols
@@ -1875,7 +1875,7 @@ AppendAnonymousContentTo
 nsBaseContentList
 &
 aElements
-PRUint32
+uint32_t
 aFilter
 )
 {
@@ -2922,7 +2922,7 @@ if
 isFocusedRightNow
 )
 {
-PRUint32
+uint32_t
 lastFocusMethod
 =
 0
@@ -3293,7 +3293,7 @@ nsTextControlFrame
 :
 GetTextLength
 (
-PRInt32
+int32_t
 *
 aTextLength
 )
@@ -3363,12 +3363,12 @@ SetSelectionInternal
 nsIDOMNode
 *
 aStartNode
-PRInt32
+int32_t
 aStartOffset
 nsIDOMNode
 *
 aEndNode
-PRInt32
+int32_t
 aEndOffset
 nsITextControlFrame
 :
@@ -3831,7 +3831,7 @@ rootContent
 NS_ERROR_FAILURE
 )
 ;
-PRInt32
+int32_t
 numChildren
 =
 rootContent
@@ -3992,9 +3992,9 @@ nsTextControlFrame
 :
 SetSelectionEndPoints
 (
-PRInt32
+int32_t
 aSelStart
-PRInt32
+int32_t
 aSelEnd
 nsITextControlFrame
 :
@@ -4033,7 +4033,7 @@ nsIDOMNode
 startNode
 endNode
 ;
-PRInt32
+int32_t
 startOffset
 endOffset
 ;
@@ -4113,9 +4113,9 @@ nsTextControlFrame
 :
 SetSelectionRange
 (
-PRInt32
+int32_t
 aSelStart
-PRInt32
+int32_t
 aSelEnd
 nsITextControlFrame
 :
@@ -4164,7 +4164,7 @@ nsTextControlFrame
 :
 SetSelectionStart
 (
-PRInt32
+int32_t
 aSelectionStart
 )
 {
@@ -4181,7 +4181,7 @@ rv
 rv
 )
 ;
-PRInt32
+int32_t
 selStart
 =
 0
@@ -4235,7 +4235,7 @@ nsTextControlFrame
 :
 SetSelectionEnd
 (
-PRInt32
+int32_t
 aSelectionEnd
 )
 {
@@ -4252,7 +4252,7 @@ rv
 rv
 )
 ;
-PRInt32
+int32_t
 selStart
 =
 0
@@ -4306,13 +4306,13 @@ nsTextControlFrame
 :
 OffsetToDOMPoint
 (
-PRInt32
+int32_t
 aOffset
 nsIDOMNode
 *
 *
 aResult
-PRInt32
+int32_t
 *
 aPosition
 )
@@ -4407,7 +4407,7 @@ nodeList
 NS_ERROR_FAILURE
 )
 ;
-PRUint32
+uint32_t
 length
 =
 0
@@ -4520,7 +4520,7 @@ if
 textNode
 )
 {
-PRUint32
+uint32_t
 textLength
 =
 0
@@ -4542,7 +4542,7 @@ length
 2
 &
 &
-PRUint32
+uint32_t
 (
 aOffset
 )
@@ -4581,7 +4581,7 @@ aPosition
 NS_MIN
 (
 aOffset
-PRInt32
+int32_t
 (
 textLength
 )
@@ -4615,10 +4615,10 @@ nsTextControlFrame
 :
 GetSelectionRange
 (
-PRInt32
+int32_t
 *
 aSelectionStart
-PRInt32
+int32_t
 *
 aSelectionEnd
 SelectionDirection
@@ -4918,12 +4918,12 @@ nsTextControlFrame
 :
 AttributeChanged
 (
-PRInt32
+int32_t
 aNameSpaceID
 nsIAtom
 *
 aAttribute
-PRInt32
+int32_t
 aModType
 )
 {
@@ -5064,7 +5064,7 @@ maxlength
 aAttribute
 )
 {
-PRInt32
+int32_t
 maxLength
 ;
 bool
@@ -5136,7 +5136,7 @@ readonly
 aAttribute
 )
 {
-PRUint32
+uint32_t
 flags
 ;
 editor
@@ -5250,7 +5250,7 @@ disabled
 aAttribute
 )
 {
-PRUint32
+uint32_t
 flags
 ;
 editor
@@ -5590,7 +5590,7 @@ nsTextControlFrame
 :
 GetMaxLength
 (
-PRInt32
+int32_t
 *
 aSize
 )
@@ -5899,7 +5899,7 @@ if
 mUsePlaceholder
 )
 {
-PRInt32
+int32_t
 textLength
 ;
 GetTextLength

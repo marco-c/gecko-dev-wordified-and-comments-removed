@@ -175,7 +175,7 @@ const
 nsString
 &
 aBGColor
-PRUint32
+uint32_t
 renderFlags
 bool
 flushLayout

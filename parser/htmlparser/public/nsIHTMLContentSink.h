@@ -67,7 +67,7 @@ OpenHead
 NS_IMETHOD
 BeginContext
 (
-PRInt32
+int32_t
 aPosition
 )
 =
@@ -76,7 +76,7 @@ aPosition
 NS_IMETHOD
 EndContext
 (
-PRInt32
+int32_t
 aPosition
 )
 =
@@ -85,7 +85,7 @@ aPosition
 NS_IMETHOD
 IsEnabled
 (
-PRInt32
+int32_t
 aTag
 bool
 *

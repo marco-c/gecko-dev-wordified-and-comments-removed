@@ -192,7 +192,7 @@ PK11SlotInfo
 a_alternative_slot
 PK11AttrFlags
 a_alternative_flags
-PRUint32
+uint32_t
 a_keyGenMechanism
 void
 *

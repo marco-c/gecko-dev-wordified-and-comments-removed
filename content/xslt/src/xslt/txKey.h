@@ -59,7 +59,7 @@ const
 txExpandedName
 &
 aKeyName
-PRInt32
+int32_t
 aRootIdentifier
 const
 nsAString
@@ -87,7 +87,7 @@ mKeyName
 nsString
 mKeyValue
 ;
-PRInt32
+int32_t
 mRootIdentifier
 ;
 }
@@ -218,7 +218,7 @@ txIndexedKeyHashKey
 (
 txExpandedName
 aKeyName
-PRInt32
+int32_t
 aRootIdentifier
 )
 :
@@ -235,7 +235,7 @@ aRootIdentifier
 txExpandedName
 mKeyName
 ;
-PRInt32
+int32_t
 mRootIdentifier
 ;
 }

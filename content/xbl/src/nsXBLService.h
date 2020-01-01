@@ -327,11 +327,11 @@ JSCList
 gClassLRUList
 ;
 static
-PRUint32
+uint32_t
 gClassLRUListLength
 ;
 static
-PRUint32
+uint32_t
 gClassLRUListQuota
 ;
 static

@@ -133,7 +133,7 @@ part
 return
 rv
 ;
-PRInt32
+int32_t
 index
 =
 0
@@ -175,12 +175,12 @@ PresContext
 )
 )
 ;
-PRInt32
+int32_t
 firstIndex
 =
 0
 ;
-PRInt32
+int32_t
 lastIndex
 =
 0

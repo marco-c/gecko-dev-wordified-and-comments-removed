@@ -1385,7 +1385,7 @@ nsFrameList
 :
 FrameAt
 (
-PRInt32
+int32_t
 aIndex
 )
 const
@@ -1445,7 +1445,7 @@ return
 frame
 ;
 }
-PRInt32
+int32_t
 nsFrameList
 :
 :
@@ -1457,7 +1457,7 @@ aFrame
 )
 const
 {
-PRInt32
+int32_t
 count
 =
 0
@@ -1561,7 +1561,7 @@ return
 false
 ;
 }
-PRInt32
+int32_t
 nsFrameList
 :
 :
@@ -1570,7 +1570,7 @@ GetLength
 )
 const
 {
-PRInt32
+int32_t
 count
 =
 0
@@ -1920,7 +1920,7 @@ mFirstChild
 }
 }
 }
-PRInt32
+int32_t
 thisLine
 ;
 if
@@ -1970,13 +1970,13 @@ nsIFrame
 *
 firstFrameOnLine
 ;
-PRInt32
+int32_t
 numFramesOnLine
 ;
 nsRect
 lineBounds
 ;
-PRUint32
+uint32_t
 lineFlags
 ;
 if
@@ -2295,7 +2295,7 @@ LastChild
 }
 }
 }
-PRInt32
+int32_t
 thisLine
 ;
 if
@@ -2341,13 +2341,13 @@ nsIFrame
 *
 firstFrameOnLine
 ;
-PRInt32
+int32_t
 numFramesOnLine
 ;
 nsRect
 lineBounds
 ;
-PRUint32
+uint32_t
 lineFlags
 ;
 if
@@ -2407,7 +2407,7 @@ numFramesOnLine
 ;
 }
 }
-PRInt32
+int32_t
 numLines
 =
 iter

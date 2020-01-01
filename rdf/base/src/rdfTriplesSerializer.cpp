@@ -164,7 +164,7 @@ aResource
 nsCString
 res
 ;
-PRUint32
+uint32_t
 writeCount
 wroteCount
 ;
@@ -367,7 +367,7 @@ nsIRDFInt
 >
 intLit
 ;
-PRUint32
+uint32_t
 wroteCount
 ;
 if
@@ -442,7 +442,7 @@ AppendLiteral
 "
 )
 ;
-PRUint32
+uint32_t
 writeCount
 =
 object
@@ -494,7 +494,7 @@ aObject
 nullptr
 )
 {
-PRInt32
+int32_t
 value
 ;
 intLit
@@ -539,7 +539,7 @@ integer
 value
 )
 ;
-PRUint32
+uint32_t
 writeCount
 =
 object

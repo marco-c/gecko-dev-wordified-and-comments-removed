@@ -261,7 +261,7 @@ found
 =
 false
 ;
-PRUint32
+uint32_t
 extCount
 =
 mExtensions
@@ -281,7 +281,7 @@ NS_OK
 ;
 for
 (
-PRUint8
+uint8_t
 i
 =
 0
@@ -395,7 +395,7 @@ extension
 "
 )
 ;
-PRUint32
+uint32_t
 extCount
 =
 mExtensions
@@ -404,7 +404,7 @@ Length
 (
 )
 ;
-PRUint8
+uint8_t
 i
 ;
 bool
@@ -689,7 +689,7 @@ extList
 aExtensions
 )
 ;
-PRInt32
+int32_t
 breakLocation
 =
 -

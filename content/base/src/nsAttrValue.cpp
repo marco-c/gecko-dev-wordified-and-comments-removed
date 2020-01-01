@@ -370,7 +370,7 @@ ValueType
 (
 static_cast
 <
-PRUint16
+uint16_t
 >
 (
 BaseType
@@ -1034,7 +1034,7 @@ nsAttrValue
 :
 SetTo
 (
-PRInt16
+int16_t
 aInt
 )
 {
@@ -1056,7 +1056,7 @@ nsAttrValue
 :
 SetTo
 (
-PRInt32
+int32_t
 aInt
 const
 nsAString
@@ -2620,7 +2620,7 @@ type
 "
 )
 ;
-PRUint32
+uint32_t
 allEnumBits
 =
 (
@@ -2634,7 +2634,7 @@ eIntegerBase
 ?
 static_cast
 <
-PRUint32
+uint32_t
 >
 (
 GetIntInternal
@@ -2649,7 +2649,7 @@ GetMiscContainer
 >
 mEnumValue
 ;
-PRInt16
+int16_t
 val
 =
 allEnumBits
@@ -2743,7 +2743,7 @@ EnumTable
 )
 ;
 }
-PRUint32
+uint32_t
 nsAttrValue
 :
 :
@@ -2801,7 +2801,7 @@ nsAttrValue
 :
 AtomAt
 (
-PRInt32
+int32_t
 aIndex
 )
 const
@@ -2827,7 +2827,7 @@ GetAtomCount
 (
 )
 >
-PRUint32
+uint32_t
 (
 aIndex
 )
@@ -2883,7 +2883,7 @@ aIndex
 )
 ;
 }
-PRUint32
+uint32_t
 nsAttrValue
 :
 :
@@ -2923,7 +2923,7 @@ if
 str
 )
 {
-PRUint32
+uint32_t
 len
 =
 str
@@ -3091,12 +3091,12 @@ case
 eAtomArray
 :
 {
-PRUint32
+uint32_t
 hash
 =
 0
 ;
-PRUint32
+uint32_t
 count
 =
 cont
@@ -4892,7 +4892,7 @@ nsAString
 aValue
 )
 {
-PRUint32
+uint32_t
 len
 =
 aValue
@@ -4933,7 +4933,7 @@ nsAttrValue
 :
 SetIntValueAndType
 (
-PRInt32
+int32_t
 aValue
 ValueType
 aType
@@ -5077,7 +5077,7 @@ aType
 ;
 }
 }
-PRInt16
+int16_t
 nsAttrValue
 :
 :
@@ -5089,7 +5089,7 @@ EnumTable
 aTable
 )
 {
-PRInt16
+int16_t
 index
 =
 sEnumTableArray
@@ -5143,7 +5143,7 @@ return
 index
 ;
 }
-PRInt32
+int32_t
 nsAttrValue
 :
 :
@@ -5159,7 +5159,7 @@ EnumTable
 aTableEntry
 )
 {
-PRInt16
+int16_t
 index
 =
 GetEnumTableIndex
@@ -5167,7 +5167,7 @@ GetEnumTableIndex
 aEnumTable
 )
 ;
-PRInt32
+int32_t
 value
 =
 (
@@ -5252,7 +5252,7 @@ tag
 )
 )
 {
-PRInt32
+int32_t
 value
 =
 EnumTableEntryToValue
@@ -5444,7 +5444,7 @@ tmp
 aString
 )
 ;
-PRInt32
+int32_t
 originalVal
 =
 StringToInteger
@@ -5471,7 +5471,7 @@ return
 false
 ;
 }
-PRInt32
+int32_t
 val
 =
 NS_MAX
@@ -5545,9 +5545,9 @@ const
 nsAString
 &
 aString
-PRInt32
+int32_t
 aMin
-PRInt32
+int32_t
 aMax
 )
 {
@@ -5572,7 +5572,7 @@ ec
 bool
 strict
 ;
-PRInt32
+int32_t
 originalVal
 =
 StringToInteger
@@ -5596,7 +5596,7 @@ return
 false
 ;
 }
-PRInt32
+int32_t
 val
 =
 NS_MAX
@@ -5663,7 +5663,7 @@ ec
 bool
 strict
 ;
-PRInt32
+int32_t
 originalVal
 =
 StringToInteger
@@ -5730,7 +5730,7 @@ ec
 bool
 strict
 ;
-PRInt32
+int32_t
 originalVal
 =
 StringToInteger
@@ -6251,7 +6251,7 @@ if
 aValue
 )
 {
-PRUint32
+uint32_t
 len
 =
 aValue
@@ -6783,7 +6783,7 @@ aValue
 )
 const
 {
-PRUint32
+uint32_t
 len
 =
 aValue
@@ -6919,7 +6919,7 @@ return
 buf
 ;
 }
-PRInt32
+int32_t
 nsAttrValue
 :
 :
@@ -7078,12 +7078,12 @@ false
 iter
 ;
 }
-PRInt32
+int32_t
 value
 =
 0
 ;
-PRInt32
+int32_t
 pValue
 =
 0

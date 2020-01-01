@@ -51,7 +51,7 @@ ByteBufferImpl
 :
 Init
 (
-PRUint32
+uint32_t
 aBufferSize
 )
 {
@@ -203,7 +203,7 @@ rv
 }
 NS_IMETHODIMP_
 (
-PRUint32
+uint32_t
 )
 ByteBufferImpl
 :
@@ -220,7 +220,7 @@ mLength
 }
 NS_IMETHODIMP_
 (
-PRUint32
+uint32_t
 )
 ByteBufferImpl
 :
@@ -262,7 +262,7 @@ ByteBufferImpl
 :
 Grow
 (
-PRUint32
+uint32_t
 aNewSize
 )
 {
@@ -331,7 +331,7 @@ false
 }
 NS_IMETHODIMP_
 (
-PRInt32
+int32_t
 )
 ByteBufferImpl
 :
@@ -344,7 +344,7 @@ aErrorCode
 nsIInputStream
 *
 aStream
-PRUint32
+uint32_t
 aKeep
 )
 {
@@ -384,12 +384,12 @@ aStream
 |
 |
 (
-PRUint32
+uint32_t
 (
 aKeep
 )
 >
-PRUint32
+uint32_t
 (
 mLength
 )
@@ -432,7 +432,7 @@ mLength
 =
 aKeep
 ;
-PRUint32
+uint32_t
 nb
 ;
 *
@@ -487,7 +487,7 @@ aInstancePtrResult
 nsISupports
 *
 aOuter
-PRUint32
+uint32_t
 aBufferSize
 )
 {

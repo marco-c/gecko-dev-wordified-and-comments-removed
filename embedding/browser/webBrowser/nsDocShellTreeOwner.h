@@ -464,9 +464,9 @@ RemoveTooltipListener
 NS_IMETHOD
 ShowTooltip
 (
-PRInt32
+int32_t
 inXCoords
-PRInt32
+int32_t
 inYCoords
 const
 nsAString
@@ -522,11 +522,11 @@ void
 aListener
 )
 ;
-PRInt32
+int32_t
 mMouseClientX
 mMouseClientY
 ;
-PRInt32
+int32_t
 mMouseScreenX
 mMouseScreenY
 ;

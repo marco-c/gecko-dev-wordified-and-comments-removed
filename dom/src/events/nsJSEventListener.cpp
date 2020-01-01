@@ -913,7 +913,7 @@ rv
 )
 )
 {
-PRUint16
+uint16_t
 dataType
 =
 nsIDataType

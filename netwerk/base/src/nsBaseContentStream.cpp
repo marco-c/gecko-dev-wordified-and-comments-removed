@@ -139,7 +139,7 @@ nsBaseContentStream
 :
 Available
 (
-PRUint64
+uint64_t
 *
 result
 )
@@ -162,9 +162,9 @@ Read
 char
 *
 buf
-PRUint32
+uint32_t
 count
-PRUint32
+uint32_t
 *
 result
 )
@@ -190,9 +190,9 @@ fun
 void
 *
 closure
-PRUint32
+uint32_t
 count
-PRUint32
+uint32_t
 *
 result
 )
@@ -299,9 +299,9 @@ AsyncWait
 nsIInputStreamCallback
 *
 callback
-PRUint32
+uint32_t
 flags
-PRUint32
+uint32_t
 requestedCount
 nsIEventTarget
 *

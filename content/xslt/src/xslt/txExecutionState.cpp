@@ -69,7 +69,7 @@ txXMLParser
 h
 "
 const
-PRInt32
+int32_t
 txExecutionState
 :
 :
@@ -727,7 +727,7 @@ txExecutionState
 :
 getVariable
 (
-PRInt32
+int32_t
 aNamespace
 nsIAtom
 *
@@ -1360,7 +1360,7 @@ stack
 "
 )
 ;
-PRUint32
+uint32_t
 last
 =
 mBoolStack
@@ -1377,7 +1377,7 @@ last
 !
 =
 (
-PRUint32
+uint32_t
 )
 -
 1

@@ -133,7 +133,7 @@ mItemType
 }
 private
 :
-PRUint32
+uint32_t
 mItemType
 ;
 nsCString
@@ -284,7 +284,7 @@ nsCacheEntry
 entry
 nsCacheAccessMode
 mode
-PRUint32
+uint32_t
 offset
 nsIInputStream
 *
@@ -301,7 +301,7 @@ nsCacheEntry
 entry
 nsCacheAccessMode
 mode
-PRUint32
+uint32_t
 offset
 nsIOutputStream
 *
@@ -329,7 +329,7 @@ OnDataSizeChange
 nsCacheEntry
 *
 entry
-PRInt32
+int32_t
 deltaSize
 )
 ;
@@ -359,7 +359,7 @@ const
 char
 *
 clientID
-PRUint32
+uint32_t
 *
 count
 char
@@ -380,7 +380,7 @@ const
 nsACString
 &
 ownerDomain
-PRUint32
+uint32_t
 *
 count
 char
@@ -405,7 +405,7 @@ const
 nsACString
 &
 ownerUrl
-PRUint32
+uint32_t
 count
 const
 char
@@ -429,7 +429,7 @@ const
 nsACString
 &
 ownerUrl
-PRUint32
+uint32_t
 *
 count
 char
@@ -641,7 +641,7 @@ key
 nsresult
 GetGroups
 (
-PRUint32
+uint32_t
 *
 count
 char
@@ -654,7 +654,7 @@ keys
 nsresult
 GetGroupsTimeOrdered
 (
-PRUint32
+uint32_t
 *
 count
 char
@@ -702,7 +702,7 @@ parentDir
 void
 SetCapacity
 (
-PRUint32
+uint32_t
 capacity
 )
 ;
@@ -744,7 +744,7 @@ return
 mCacheDirectory
 ;
 }
-PRUint32
+uint32_t
 CacheCapacity
 (
 )
@@ -753,12 +753,12 @@ return
 mCacheCapacity
 ;
 }
-PRUint32
+uint32_t
 CacheSize
 (
 )
 ;
-PRUint32
+uint32_t
 EntryCount
 (
 )
@@ -822,7 +822,7 @@ UpdateEntrySize
 nsCacheEntry
 *
 entry
-PRUint32
+uint32_t
 newSize
 )
 ;
@@ -877,7 +877,7 @@ const
 nsACString
 &
 key
-PRUint32
+uint32_t
 typeBits
 )
 ;
@@ -892,7 +892,7 @@ const
 nsACString
 &
 key
-PRUint32
+uint32_t
 typeBits
 )
 ;
@@ -920,7 +920,7 @@ const
 nsACString
 &
 key
-PRUint32
+uint32_t
 *
 typeBits
 )
@@ -949,9 +949,9 @@ const
 nsCString
 &
 clientID
-PRUint32
+uint32_t
 typeBits
-PRUint32
+uint32_t
 *
 count
 char
@@ -980,7 +980,7 @@ const
 nsACString
 &
 clientID
-PRUint32
+uint32_t
 *
 usage
 )
@@ -991,9 +991,9 @@ RunSimpleQuery
 mozIStorageStatement
 *
 statment
-PRUint32
+uint32_t
 resultIndex
-PRUint32
+uint32_t
 *
 count
 char
@@ -1159,10 +1159,10 @@ nsIFile
 >
 mCacheDirectory
 ;
-PRUint32
+uint32_t
 mCacheCapacity
 ;
-PRInt32
+int32_t
 mDeltaCounter
 ;
 bool

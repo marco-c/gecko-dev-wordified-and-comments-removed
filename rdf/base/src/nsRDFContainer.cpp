@@ -142,16 +142,16 @@ Init
 nsresult
 Renumber
 (
-PRInt32
+int32_t
 aStartIndex
-PRInt32
+int32_t
 aIncrement
 )
 ;
 nsresult
 SetNextValue
 (
-PRInt32
+int32_t
 aIndex
 )
 ;
@@ -173,7 +173,7 @@ nsIRDFResource
 mContainer
 ;
 static
-PRInt32
+int32_t
 gRefCnt
 ;
 static
@@ -193,7 +193,7 @@ kRDF_nextVal
 ;
 }
 ;
-PRInt32
+int32_t
 RDFContainerImpl
 :
 :
@@ -410,7 +410,7 @@ RDFContainerImpl
 :
 GetCount
 (
-PRInt32
+int32_t
 *
 aCount
 )
@@ -537,7 +537,7 @@ nextValStr
 s
 )
 ;
-PRInt32
+int32_t
 nextVal
 ;
 nsresult
@@ -754,7 +754,7 @@ NS_ERROR_NULL_POINTER
 nsresult
 rv
 ;
-PRInt32
+int32_t
 idx
 ;
 rv
@@ -877,7 +877,7 @@ InsertElementAt
 nsIRDFNode
 *
 aElement
-PRInt32
+int32_t
 aIndex
 bool
 aRenumber
@@ -939,7 +939,7 @@ NS_ERROR_ILLEGAL_VALUE
 nsresult
 rv
 ;
-PRInt32
+int32_t
 count
 ;
 rv
@@ -1073,7 +1073,7 @@ RDFContainerImpl
 :
 RemoveElementAt
 (
-PRInt32
+int32_t
 aIndex
 bool
 aRenumber
@@ -1112,7 +1112,7 @@ NS_ERROR_ILLEGAL_VALUE
 nsresult
 rv
 ;
-PRInt32
+int32_t
 count
 ;
 rv
@@ -1283,7 +1283,7 @@ IndexOf
 nsIRDFNode
 *
 aElement
-PRInt32
+int32_t
 *
 aIndex
 )
@@ -1661,9 +1661,9 @@ RDFContainerImpl
 :
 Renumber
 (
-PRInt32
+int32_t
 aStartIndex
-PRInt32
+int32_t
 aIncrement
 )
 {
@@ -1690,7 +1690,7 @@ aIncrement
 return
 NS_OK
 ;
-PRInt32
+int32_t
 count
 ;
 rv
@@ -1740,7 +1740,7 @@ return
 rv
 ;
 }
-PRInt32
+int32_t
 i
 ;
 if
@@ -2182,7 +2182,7 @@ RDFContainerImpl
 :
 SetNextValue
 (
-PRInt32
+int32_t
 aIndex
 )
 {
@@ -2485,7 +2485,7 @@ rv
 return
 rv
 ;
-PRInt32
+int32_t
 nextVal
 =
 0

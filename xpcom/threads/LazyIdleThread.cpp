@@ -128,7 +128,7 @@ LazyIdleThread
 :
 LazyIdleThread
 (
-PRUint32
+uint32_t
 aIdleTimeoutMS
 const
 nsCSubstring
@@ -1287,7 +1287,7 @@ NS_OK
 }
 for
 (
-PRUint32
+uint32_t
 index
 =
 0
@@ -1512,7 +1512,7 @@ Dispatch
 nsIRunnable
 *
 aEvent
-PRUint32
+uint32_t
 aFlags
 )
 {
@@ -1847,7 +1847,7 @@ OnProcessNextEvent
 nsIThreadInternal
 *
 bool
-PRUint32
+uint32_t
 )
 {
 return
@@ -1862,7 +1862,7 @@ AfterProcessNextEvent
 (
 nsIThreadInternal
 *
-PRUint32
+uint32_t
 )
 {
 bool

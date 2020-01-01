@@ -149,7 +149,7 @@ mBits
 (
 (
 (
-PRUint32
+uint32_t
 )
 aPseudoType
 )
@@ -185,7 +185,7 @@ longer
 fit
 in
 a
-PRUint32
+uint32_t
 "
 )
 ;
@@ -779,7 +779,7 @@ style
 "
 )
 ;
-PRUint32
+uint32_t
 threshold
 =
 10
@@ -1498,7 +1498,7 @@ GetStyleTextReset
 (
 )
 ;
-PRUint8
+uint8_t
 decorationLine
 =
 text
@@ -2848,11 +2848,11 @@ List
 FILE
 *
 out
-PRInt32
+int32_t
 aIndent
 )
 {
-PRInt32
+int32_t
 ix
 ;
 for
@@ -3421,7 +3421,7 @@ NS_RGBA
 struct
 ColorIndexSet
 {
-PRUint8
+uint8_t
 colorIndex
 alphaIndex
 ;

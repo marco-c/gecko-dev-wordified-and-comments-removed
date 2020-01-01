@@ -140,7 +140,7 @@ Alloc
 (
 static_cast
 <
-PRUint32
+uint32_t
 >
 (
 n

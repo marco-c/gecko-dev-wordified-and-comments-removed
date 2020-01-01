@@ -334,7 +334,7 @@ gResume
 false
 ;
 static
-PRUint64
+uint64_t
 gStartAt
 =
 0
@@ -926,7 +926,7 @@ get
 )
 ;
 }
-PRInt64
+int64_t
 mBytesRead
 ;
 PRTime
@@ -1038,7 +1038,7 @@ channel
 nsIChannel
 *
 newChannel
-PRUint32
+uint32_t
 flags
 nsIAsyncVerifyRedirectCallback
 *
@@ -1148,7 +1148,7 @@ const
 PRUnichar
 *
 passwordRealm
-PRUint32
+uint32_t
 savePassword
 const
 PRUnichar
@@ -1190,7 +1190,7 @@ const
 PRUnichar
 *
 passwordRealm
-PRUint32
+uint32_t
 savePassword
 PRUnichar
 *
@@ -1582,7 +1582,7 @@ const
 PRUnichar
 *
 passwordRealm
-PRUint32
+uint32_t
 savePassword
 PRUnichar
 *
@@ -1893,7 +1893,7 @@ get
 )
 )
 ;
-PRInt32
+int32_t
 length
 =
 -
@@ -2089,7 +2089,7 @@ if
 propbag
 )
 {
-PRInt64
+int64_t
 len
 ;
 nsresult
@@ -2149,7 +2149,7 @@ if
 httpChannelInt
 )
 {
-PRUint32
+uint32_t
 majorVer
 minorVer
 ;
@@ -2397,9 +2397,9 @@ context
 nsIInputStream
 *
 aIStream
-PRUint32
+uint32_t
 aSourceOffset
-PRUint32
+uint32_t
 aLength
 )
 {
@@ -2409,7 +2409,7 @@ buf
 1025
 ]
 ;
-PRUint32
+uint32_t
 amt
 size
 ;
@@ -2435,7 +2435,7 @@ size
 =
 NS_MIN
 <
-PRUint32
+uint32_t
 >
 (
 aLength
@@ -2591,7 +2591,7 @@ connectTime
 double
 readTime
 ;
-PRUint32
+uint32_t
 httpStatus
 ;
 bool
@@ -2834,7 +2834,7 @@ info
 mBytesRead
 =
 =
-PRInt64
+int64_t
 (
 0
 )
@@ -2875,7 +2875,7 @@ info
 >
 mBytesRead
 *
-PRInt64
+int64_t
 (
 8
 )
@@ -3688,7 +3688,7 @@ rv
 ;
 }
 static
-PRInt32
+int32_t
 FindChar
 (
 nsCString
@@ -3703,7 +3703,7 @@ char
 *
 b
 ;
-PRInt32
+int32_t
 len
 =
 NS_CStringGetData
@@ -3715,7 +3715,7 @@ b
 ;
 for
 (
-PRInt32
+int32_t
 offset
 =
 0
@@ -3764,7 +3764,7 @@ char
 *
 b
 ;
-PRUint32
+uint32_t
 len
 =
 NS_CStringGetData
@@ -3830,7 +3830,7 @@ rv
 =
 NS_OK
 ;
-PRInt32
+int32_t
 len
 offset
 ;

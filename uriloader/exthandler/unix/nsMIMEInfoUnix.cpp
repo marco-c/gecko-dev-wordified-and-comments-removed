@@ -959,12 +959,12 @@ aFilePath
 )
 {
 const
-PRInt32
+int32_t
 kHILDON_SUCCESS
 =
 1
 ;
-PRInt32
+int32_t
 result
 =
 0

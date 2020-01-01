@@ -282,7 +282,7 @@ PRUnichar
 *
 docTitles
 ;
-PRUint32
+uint32_t
 titleCount
 ;
 nsresult
@@ -357,7 +357,7 @@ cfTitleString
 }
 for
 (
-PRInt32
+int32_t
 i
 =
 titleCount
@@ -604,7 +604,7 @@ viewController
 exportSettings
 ]
 ;
-PRInt16
+int16_t
 pageRange
 ;
 aSettings
@@ -866,7 +866,7 @@ aKey
 ;
 -
 (
-PRInt16
+int16_t
 )
 chosenFrameSetting
 ;
@@ -1203,7 +1203,7 @@ state
 NSOnState
 ?
 (
-PRInt16
+int16_t
 )
 nsIPrintSettings
 :
@@ -1211,7 +1211,7 @@ nsIPrintSettings
 kRangeSelection
 :
 (
-PRInt16
+int16_t
 )
 nsIPrintSettings
 :
@@ -2046,7 +2046,7 @@ setEnabled
 canPrintSelection
 ]
 ;
-PRInt16
+int16_t
 printRange
 ;
 mSettings
@@ -2499,7 +2499,7 @@ separateFrames
 Radio
 enabled
 state
-PRInt16
+int16_t
 frameUIFlag
 ;
 mSettings
@@ -2568,7 +2568,7 @@ NO
 /
 Radio
 values
-PRInt16
+int16_t
 printFrameType
 ;
 mSettings
@@ -2960,7 +2960,7 @@ Export
 settings
 -
 (
-PRInt16
+int16_t
 )
 chosenFrameSetting
 {

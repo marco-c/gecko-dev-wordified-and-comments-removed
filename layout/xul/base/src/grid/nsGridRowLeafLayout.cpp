@@ -115,7 +115,7 @@ nsBoxLayoutState
 aState
 )
 {
-PRInt32
+int32_t
 index
 =
 0
@@ -185,7 +185,7 @@ nsBoxLayoutState
 aState
 )
 {
-PRInt32
+int32_t
 index
 =
 0
@@ -264,7 +264,7 @@ nsBoxLayoutState
 aState
 )
 {
-PRInt32
+int32_t
 index
 =
 0
@@ -345,7 +345,7 @@ nsBoxLayoutState
 aState
 )
 {
-PRInt32
+int32_t
 index
 =
 0
@@ -406,12 +406,12 @@ aMinSize
 nscoord
 &
 aMaxSize
-PRInt32
+int32_t
 &
 aFlexes
 )
 {
-PRInt32
+int32_t
 index
 =
 0
@@ -444,7 +444,7 @@ nsGridRow
 *
 column
 ;
-PRInt32
+int32_t
 count
 =
 grid
@@ -655,12 +655,12 @@ pref
 =
 0
 ;
-PRInt32
+int32_t
 firstIndex
 =
 0
 ;
-PRInt32
+int32_t
 lastIndex
 =
 0
@@ -1069,7 +1069,7 @@ GetDesiredScrollbarSizes
 aState
 )
 ;
-PRUint32
+uint32_t
 visible
 =
 scrollable
@@ -1306,10 +1306,10 @@ CountRowsColumns
 nsIFrame
 *
 aBox
-PRInt32
+int32_t
 &
 aRowCount
-PRInt32
+int32_t
 &
 aComputedColumnCount
 )
@@ -1330,7 +1330,7 @@ GetChildBox
 (
 )
 ;
-PRInt32
+int32_t
 columnCount
 =
 0
@@ -1370,7 +1370,7 @@ aRowCount
 ;
 }
 }
-PRInt32
+int32_t
 nsGridRowLeafLayout
 :
 :

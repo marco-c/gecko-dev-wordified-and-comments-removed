@@ -664,7 +664,7 @@ nsPrintSettingsGTK
 :
 GetPrintRange
 (
-PRInt16
+int16_t
 *
 aPrintRange
 )
@@ -724,7 +724,7 @@ nsPrintSettingsGTK
 :
 SetPrintRange
 (
-PRInt16
+int16_t
 aPrintRange
 )
 {
@@ -778,7 +778,7 @@ nsPrintSettingsGTK
 :
 GetStartPageRange
 (
-PRInt32
+int32_t
 *
 aStartPageRange
 )
@@ -812,7 +812,7 @@ aStartPageRange
 }
 else
 {
-PRInt32
+int32_t
 start
 (
 lstRanges
@@ -876,11 +876,11 @@ nsPrintSettingsGTK
 :
 SetStartPageRange
 (
-PRInt32
+int32_t
 aStartPageRange
 )
 {
-PRInt32
+int32_t
 endRange
 ;
 GetEndPageRange
@@ -926,7 +926,7 @@ nsPrintSettingsGTK
 :
 GetEndPageRange
 (
-PRInt32
+int32_t
 *
 aEndPageRange
 )
@@ -960,7 +960,7 @@ aEndPageRange
 }
 else
 {
-PRInt32
+int32_t
 end
 (
 lstRanges
@@ -1024,11 +1024,11 @@ nsPrintSettingsGTK
 :
 SetEndPageRange
 (
-PRInt32
+int32_t
 aEndPageRange
 )
 {
-PRInt32
+int32_t
 startRange
 ;
 GetStartPageRange
@@ -1160,7 +1160,7 @@ nsPrintSettingsGTK
 :
 GetOrientation
 (
-PRInt32
+int32_t
 *
 aOrientation
 )
@@ -1220,7 +1220,7 @@ nsPrintSettingsGTK
 :
 SetOrientation
 (
-PRInt32
+int32_t
 aOrientation
 )
 {
@@ -1686,7 +1686,7 @@ nsPrintSettingsGTK
 :
 GetNumCopies
 (
-PRInt32
+int32_t
 *
 aNumCopies
 )
@@ -1714,7 +1714,7 @@ nsPrintSettingsGTK
 :
 SetNumCopies
 (
-PRInt32
+int32_t
 aNumCopies
 )
 {
@@ -1950,7 +1950,7 @@ nsPrintSettingsGTK
 :
 GetGTKUnit
 (
-PRInt16
+int16_t
 aGeckoUnit
 )
 {
@@ -2386,7 +2386,7 @@ nsPrintSettingsGTK
 :
 SetPaperSizeUnit
 (
-PRInt16
+int16_t
 aPaperSizeUnit
 )
 {
@@ -2553,7 +2553,7 @@ GetPageRanges
 (
 nsTArray
 <
-PRInt32
+int32_t
 >
 &
 aPages

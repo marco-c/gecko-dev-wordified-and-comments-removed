@@ -61,7 +61,7 @@ roles
 PUSHBUTTON
 ;
 }
-PRUint64
+uint64_t
 nsXFormsDropmarkerWidgetAccessible
 :
 :
@@ -116,7 +116,7 @@ PRESSED
 0
 ;
 }
-PRUint8
+uint8_t
 nsXFormsDropmarkerWidgetAccessible
 :
 :
@@ -134,7 +134,7 @@ nsXFormsDropmarkerWidgetAccessible
 :
 GetActionName
 (
-PRUint8
+uint8_t
 aIndex
 nsAString
 &
@@ -220,7 +220,7 @@ nsXFormsDropmarkerWidgetAccessible
 :
 DoAction
 (
-PRUint8
+uint8_t
 aIndex
 )
 {
@@ -326,7 +326,7 @@ roles
 LIST
 ;
 }
-PRUint64
+uint64_t
 nsXFormsComboboxPopupWidgetAccessible
 :
 :
@@ -334,7 +334,7 @@ NativeState
 (
 )
 {
-PRUint64
+uint64_t
 state
 =
 nsXFormsAccessible
@@ -403,7 +403,7 @@ return
 state
 ;
 }
-PRUint64
+uint64_t
 nsXFormsComboboxPopupWidgetAccessible
 :
 :

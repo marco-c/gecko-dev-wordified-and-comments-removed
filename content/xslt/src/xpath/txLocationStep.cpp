@@ -1066,7 +1066,7 @@ LocationStep
 :
 getSubExprAt
 (
-PRUint32
+uint32_t
 aPos
 )
 {
@@ -1086,7 +1086,7 @@ LocationStep
 :
 setSubExprAt
 (
-PRUint32
+uint32_t
 aPos
 Expr
 *

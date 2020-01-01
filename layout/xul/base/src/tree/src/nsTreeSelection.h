@@ -117,7 +117,7 @@ mTree
 bool
 mSuppressed
 ;
-PRInt32
+int32_t
 mCurrentIndex
 ;
 nsCOMPtr
@@ -126,7 +126,7 @@ nsITreeColumn
 >
 mCurrentColumn
 ;
-PRInt32
+int32_t
 mShiftSelectPivot
 ;
 nsTreeRange

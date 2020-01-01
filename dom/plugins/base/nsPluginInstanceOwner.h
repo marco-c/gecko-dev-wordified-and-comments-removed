@@ -239,7 +239,7 @@ aPostStream
 void
 *
 aHeadersData
-PRUint32
+uint32_t
 aHeadersDataLen
 )
 ;
@@ -590,7 +590,7 @@ void
 *
 FixUpPluginWindow
 (
-PRInt32
+int32_t
 inPaintState
 )
 ;
@@ -672,7 +672,7 @@ GetFrame
 (
 )
 ;
-PRUint32
+uint32_t
 GetLastEventloopNestingLevel
 (
 )
@@ -683,7 +683,7 @@ mLastEventloopNestingLevel
 ;
 }
 static
-PRUint32
+uint32_t
 GetEventloopNestingLevel
 (
 )
@@ -693,7 +693,7 @@ ConsiderNewEventloopNestingLevel
 (
 )
 {
-PRUint32
+uint32_t
 currentLevel
 =
 GetEventloopNestingLevel
@@ -1173,7 +1173,7 @@ mQDPluginPortCopy
 ;
 #
 endif
-PRInt32
+int32_t
 mInCGPaintLevel
 ;
 mozilla
@@ -1219,7 +1219,7 @@ mSentInitialTopLevelWindowEvent
 ;
 #
 endif
-PRUint32
+uint32_t
 mLastEventloopNestingLevel
 ;
 bool
@@ -1250,10 +1250,10 @@ mPluginWindowVisible
 bool
 mPluginDocumentActiveState
 ;
-PRUint16
+uint16_t
 mNumCachedAttrs
 ;
-PRUint16
+uint16_t
 mNumCachedParams
 ;
 char
@@ -1384,7 +1384,7 @@ offset
 nsIntRect
 *
 clipRects
-PRUint32
+uint32_t
 numClipRects
 )
 ;

@@ -93,7 +93,7 @@ static
 PRTime
 SecondsToPRTime
 (
-PRUint32
+uint32_t
 t_sec
 )
 {
@@ -131,9 +131,9 @@ PrintTimeString
 char
 *
 buf
-PRUint32
+uint32_t
 bufsize
-PRUint32
+uint32_t
 t_sec
 )
 {
@@ -212,7 +212,7 @@ aURI
 nsresult
 rv
 ;
-PRUint32
+uint32_t
 bytesWritten
 ;
 *
@@ -261,7 +261,7 @@ NS_NewStorageStream
 (
 256
 (
-PRUint32
+uint32_t
 )
 -
 1
@@ -729,7 +729,7 @@ GetURIFlags
 nsIURI
 *
 aURI
-PRUint32
+uint32_t
 *
 result
 )
@@ -761,7 +761,7 @@ bool
 visitEntries
 )
 {
-PRUint32
+uint32_t
 bytesWritten
 value
 entryCount
@@ -1521,7 +1521,7 @@ NS_ERROR_FAILURE
 nsresult
 rv
 ;
-PRUint32
+uint32_t
 bytesWritten
 ;
 nsCAutoString
@@ -1759,7 +1759,7 @@ n
 "
 )
 ;
-PRUint32
+uint32_t
 length
 =
 0
@@ -1806,7 +1806,7 @@ n
 "
 )
 ;
-PRInt32
+int32_t
 fetchCount
 =
 0
@@ -1858,7 +1858,7 @@ buf
 255
 ]
 ;
-PRUint32
+uint32_t
 t
 ;
 mBuffer

@@ -324,7 +324,7 @@ NS_ERROR_FAILURE
 ;
 }
 }
-PRInt32
+int32_t
 lastVal
 =
 PR_ATOMIC_SET
@@ -598,7 +598,7 @@ return
 NS_OK
 ;
 }
-PRInt32
+int32_t
 nsMemoryImpl
 :
 :

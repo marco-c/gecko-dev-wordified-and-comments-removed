@@ -498,7 +498,7 @@ true
 ;
 }
 virtual
-PRInt32
+int32_t
 GetMaxTextureSize
 (
 )
@@ -511,7 +511,7 @@ mMaxTextureSize
 void
 SetMaxTextureSize
 (
-PRInt32
+int32_t
 aMaxTextureSize
 )
 {
@@ -707,7 +707,7 @@ Transaction
 *
 mTxn
 ;
-PRInt32
+int32_t
 mMaxTextureSize
 ;
 LayersBackend
@@ -869,7 +869,7 @@ PlatformSyncBeforeReplyUpdate
 void
 SetCompositorID
 (
-PRUint32
+uint32_t
 aID
 )
 {
@@ -897,7 +897,7 @@ mCompositorID
 aID
 ;
 }
-PRUint32
+uint32_t
 GetCompositorID
 (
 )
@@ -927,7 +927,7 @@ SurfaceDescriptor
 aSurface
 )
 ;
-PRUint32
+uint32_t
 mCompositorID
 ;
 }
@@ -1561,10 +1561,10 @@ mImageVersion
 )
 {
 }
-PRUint32
+uint32_t
 mImageContainerID
 ;
-PRUint32
+uint32_t
 mImageVersion
 ;
 }

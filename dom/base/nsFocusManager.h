@@ -242,7 +242,7 @@ InputContextAction
 Cause
 GetFocusMoveActionCause
 (
-PRUint32
+uint32_t
 aFlags
 )
 ;
@@ -272,7 +272,7 @@ SetFocusInner
 nsIContent
 *
 aNewContent
-PRInt32
+int32_t
 aFlags
 bool
 aFocusChanged
@@ -338,7 +338,7 @@ CheckIfFocusable
 nsIContent
 *
 aContent
-PRUint32
+uint32_t
 aFlags
 )
 ;
@@ -366,7 +366,7 @@ aWindow
 nsIContent
 *
 aContent
-PRUint32
+uint32_t
 aFlags
 bool
 aIsNewDocument
@@ -381,7 +381,7 @@ aAdjustWidget
 void
 SendFocusOrBlurEvent
 (
-PRUint32
+uint32_t
 aType
 nsIPresShell
 *
@@ -392,7 +392,7 @@ aDocument
 nsISupports
 *
 aTarget
-PRUint32
+uint32_t
 aFocusMethod
 bool
 aWindowRaised
@@ -411,7 +411,7 @@ aPresShell
 nsIContent
 *
 aContent
-PRUint32
+uint32_t
 aFlags
 )
 ;
@@ -487,7 +487,7 @@ aWindow
 nsIContent
 *
 aStart
-PRInt32
+int32_t
 aType
 bool
 aNoParentTraversal
@@ -514,7 +514,7 @@ nsIContent
 aStartContent
 bool
 aForward
-PRInt32
+int32_t
 aCurrentTabIndex
 bool
 aIgnoreTabIndex
@@ -530,7 +530,7 @@ GetNextTabbableMapArea
 (
 bool
 aForward
-PRInt32
+int32_t
 aCurrentTabIndex
 nsIContent
 *
@@ -540,13 +540,13 @@ nsIContent
 aStartContent
 )
 ;
-PRInt32
+int32_t
 GetNextTabIndex
 (
 nsIContent
 *
 aParent
-PRInt32
+int32_t
 aCurrentTabIndex
 bool
 aForward

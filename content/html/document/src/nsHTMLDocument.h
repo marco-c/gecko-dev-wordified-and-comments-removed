@@ -307,7 +307,7 @@ return
 mWriteLevel
 !
 =
-PRUint32
+uint32_t
 (
 0
 )
@@ -438,7 +438,7 @@ RemovedForm
 )
 ;
 virtual
-PRInt32
+int32_t
 GetNumFormsSynchronous
 (
 )
@@ -485,7 +485,7 @@ ChangeContentEditableCount
 nsIContent
 *
 aElement
-PRInt32
+int32_t
 aChange
 )
 ;
@@ -672,10 +672,10 @@ protected
 nsresult
 GetBodySize
 (
-PRInt32
+int32_t
 *
 aWidth
-PRInt32
+int32_t
 *
 aHeight
 )
@@ -700,7 +700,7 @@ MatchLinks
 nsIContent
 *
 aContent
-PRInt32
+int32_t
 aNamespaceID
 nsIAtom
 *
@@ -717,7 +717,7 @@ MatchAnchors
 nsIContent
 *
 aContent
-PRInt32
+int32_t
 aNamespaceID
 nsIAtom
 *
@@ -734,7 +734,7 @@ MatchNameAttribute
 nsIContent
 *
 aContent
-PRInt32
+int32_t
 aNamespaceID
 nsIAtom
 *
@@ -862,11 +862,11 @@ nsContentList
 >
 mFormControls
 ;
-PRInt32
+int32_t
 mNumForms
 ;
 static
-PRUint32
+uint32_t
 gWyciwygSessionCnt
 ;
 static
@@ -876,7 +876,7 @@ TryHintCharset
 nsIMarkupDocumentViewer
 *
 aMarkupDV
-PRInt32
+int32_t
 &
 aCharsetSource
 nsACString
@@ -894,7 +894,7 @@ aMarkupDV
 nsIDocShell
 *
 aDocShell
-PRInt32
+int32_t
 &
 aCharsetSource
 nsACString
@@ -909,7 +909,7 @@ TryCacheCharset
 nsICachingChannel
 *
 aCachingChannel
-PRInt32
+int32_t
 &
 aCharsetSource
 nsACString
@@ -926,7 +926,7 @@ aDocShell
 nsIDocument
 *
 aParentDocument
-PRInt32
+int32_t
 &
 charsetSource
 nsACString
@@ -938,7 +938,7 @@ static
 bool
 UseWeakDocTypeDefault
 (
-PRInt32
+int32_t
 &
 aCharsetSource
 nsACString
@@ -953,7 +953,7 @@ TryDefaultCharset
 nsIMarkupDocumentViewer
 *
 aMarkupDV
-PRInt32
+int32_t
 &
 aCharsetSource
 nsACString
@@ -971,10 +971,10 @@ nsACString
 aCharSetID
 )
 ;
-PRUint32
+uint32_t
 mWriteLevel
 ;
-PRUint32
+uint32_t
 mLoadFlags
 ;
 bool
@@ -1022,7 +1022,7 @@ MaybeEditingStateChanged
 (
 )
 ;
-PRUint32
+uint32_t
 mContentEditableCount
 ;
 EditingState

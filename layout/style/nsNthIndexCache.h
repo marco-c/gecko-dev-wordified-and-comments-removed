@@ -57,7 +57,7 @@ nsNthIndexCache
 (
 )
 ;
-PRInt32
+int32_t
 GetNthIndex
 (
 Element
@@ -93,7 +93,7 @@ aIsOfType
 )
 ;
 typedef
-PRInt32
+int32_t
 CacheEntry
 ;
 class
@@ -203,7 +203,7 @@ const
 Cache
 &
 aCache
-PRInt32
+int32_t
 &
 aResult
 )

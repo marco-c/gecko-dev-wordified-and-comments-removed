@@ -302,7 +302,7 @@ ImportFrame
 *
 mFrame
 ;
-PRInt32
+int32_t
 mModeNsId
 ;
 nsCOMPtr
@@ -597,7 +597,7 @@ txAExprResult
 >
 mGlobalVarPlaceholderValue
 ;
-PRInt32
+int32_t
 mRecursionDepth
 ;
 AutoInfallibleTArray
@@ -639,7 +639,7 @@ mDisableLoads
 ;
 static
 const
-PRInt32
+int32_t
 kMaxRecursionDepth
 ;
 }

@@ -43,9 +43,9 @@ char
 *
 *
 aFlavorList
-PRUint32
+uint32_t
 aLength
-PRInt32
+int32_t
 aWhichClipboard
 bool
 *
@@ -57,7 +57,7 @@ protected
 NS_IMETHOD
 SetNativeClipboardData
 (
-PRInt32
+int32_t
 aWhichClipboard
 )
 ;
@@ -67,7 +67,7 @@ GetNativeClipboardData
 nsITransferable
 *
 aTransferable
-PRInt32
+int32_t
 aWhichClipboard
 )
 ;
@@ -78,7 +78,7 @@ Read
 Write
 }
 ;
-PRUint32
+uint32_t
 GetFormatID
 (
 const
@@ -99,7 +99,7 @@ aFlavour
 bool
 GetClipboardDataByID
 (
-PRUint32
+uint32_t
 aFormatID
 const
 char

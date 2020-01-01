@@ -54,7 +54,7 @@ char
 *
 mStr
 ;
-PRInt32
+int32_t
 mUnicode
 ;
 }
@@ -172,7 +172,7 @@ aHdr
 )
 ;
 const
-PRInt32
+int32_t
 ucode
 =
 NS_PTR_TO_INT32
@@ -308,7 +308,7 @@ define
 NS_HTML_ENTITY_COUNT
 (
 (
-PRInt32
+int32_t
 )
 ArrayLength
 (
@@ -344,7 +344,7 @@ sizeof
 (
 EntityNodeEntry
 )
-PRUint32
+uint32_t
 (
 NS_HTML_ENTITY_COUNT
 /
@@ -379,7 +379,7 @@ sizeof
 (
 EntityNodeEntry
 )
-PRUint32
+uint32_t
 (
 NS_HTML_ENTITY_COUNT
 /
@@ -620,7 +620,7 @@ nullptr
 ;
 }
 }
-PRInt32
+int32_t
 nsHTMLEntities
 :
 :
@@ -745,7 +745,7 @@ node
 mUnicode
 ;
 }
-PRInt32
+int32_t
 nsHTMLEntities
 :
 :
@@ -810,7 +810,7 @@ nsHTMLEntities
 :
 UnicodeToEntity
 (
-PRInt32
+int32_t
 aUnicode
 )
 {
@@ -893,7 +893,7 @@ nsTestEntityTable
 (
 )
 {
-PRInt32
+int32_t
 value
 ;
 nsHTMLEntities

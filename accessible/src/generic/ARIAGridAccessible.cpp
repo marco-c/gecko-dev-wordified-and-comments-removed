@@ -117,7 +117,7 @@ Shutdown
 )
 ;
 }
-PRUint32
+uint32_t
 ARIAGridAccessible
 :
 :
@@ -169,7 +169,7 @@ cell
 =
 nullptr
 ;
-PRUint32
+uint32_t
 colCount
 =
 0
@@ -194,7 +194,7 @@ return
 colCount
 ;
 }
-PRUint32
+uint32_t
 ARIAGridAccessible
 :
 :
@@ -202,7 +202,7 @@ RowCount
 (
 )
 {
-PRUint32
+uint32_t
 rowCount
 =
 0
@@ -240,9 +240,9 @@ ARIAGridAccessible
 :
 CellAt
 (
-PRUint32
+uint32_t
 aRowIndex
-PRUint32
+uint32_t
 aColumnIndex
 )
 {
@@ -277,7 +277,7 @@ ARIAGridAccessible
 :
 IsColSelected
 (
-PRUint32
+uint32_t
 aColIdx
 )
 {
@@ -376,7 +376,7 @@ ARIAGridAccessible
 :
 IsRowSelected
 (
-PRUint32
+uint32_t
 aRowIdx
 )
 {
@@ -464,9 +464,9 @@ ARIAGridAccessible
 :
 IsCellSelected
 (
-PRUint32
+uint32_t
 aRowIdx
-PRUint32
+uint32_t
 aColIdx
 )
 {
@@ -532,7 +532,7 @@ return
 true
 ;
 }
-PRUint32
+uint32_t
 ARIAGridAccessible
 :
 :
@@ -540,7 +540,7 @@ SelectedCellCount
 (
 )
 {
-PRUint32
+uint32_t
 count
 =
 0
@@ -647,7 +647,7 @@ return
 count
 ;
 }
-PRUint32
+uint32_t
 ARIAGridAccessible
 :
 :
@@ -655,7 +655,7 @@ SelectedColCount
 (
 )
 {
-PRUint32
+uint32_t
 colCount
 =
 ColCount
@@ -730,7 +730,7 @@ bool
 )
 )
 ;
-PRUint32
+uint32_t
 selColCount
 =
 colCount
@@ -767,7 +767,7 @@ nullptr
 ;
 for
 (
-PRUint32
+uint32_t
 colIdx
 =
 0
@@ -839,7 +839,7 @@ return
 selColCount
 ;
 }
-PRUint32
+uint32_t
 ARIAGridAccessible
 :
 :
@@ -847,7 +847,7 @@ SelectedRowCount
 (
 )
 {
-PRUint32
+uint32_t
 count
 =
 0
@@ -1115,13 +1115,13 @@ SelectedCellIndices
 (
 nsTArray
 <
-PRUint32
+uint32_t
 >
 *
 aCells
 )
 {
-PRUint32
+uint32_t
 colCount
 =
 ColCount
@@ -1146,7 +1146,7 @@ nullptr
 ;
 for
 (
-PRUint32
+uint32_t
 rowIdx
 =
 0
@@ -1179,7 +1179,7 @@ row
 {
 for
 (
-PRUint32
+uint32_t
 colIdx
 =
 0
@@ -1225,7 +1225,7 @@ nullptr
 ;
 for
 (
-PRUint32
+uint32_t
 colIdx
 =
 0
@@ -1278,13 +1278,13 @@ SelectedColIndices
 (
 nsTArray
 <
-PRUint32
+uint32_t
 >
 *
 aCols
 )
 {
-PRUint32
+uint32_t
 colCount
 =
 ColCount
@@ -1389,7 +1389,7 @@ nullptr
 ;
 for
 (
-PRUint32
+uint32_t
 colIdx
 =
 0
@@ -1455,7 +1455,7 @@ Next
 ;
 for
 (
-PRUint32
+uint32_t
 colIdx
 =
 0
@@ -1492,7 +1492,7 @@ SelectedRowIndices
 (
 nsTArray
 <
-PRUint32
+uint32_t
 >
 *
 aRows
@@ -1516,7 +1516,7 @@ nullptr
 ;
 for
 (
-PRUint32
+uint32_t
 rowIdx
 =
 0
@@ -1645,7 +1645,7 @@ ARIAGridAccessible
 :
 SelectRow
 (
-PRUint32
+uint32_t
 aRowIdx
 )
 {
@@ -1667,7 +1667,7 @@ nullptr
 ;
 for
 (
-PRInt32
+int32_t
 rowIdx
 =
 0
@@ -1725,7 +1725,7 @@ ARIAGridAccessible
 :
 SelectCol
 (
-PRUint32
+uint32_t
 aColIdx
 )
 {
@@ -1813,7 +1813,7 @@ ARIAGridAccessible
 :
 UnselectRow
 (
-PRUint32
+uint32_t
 aRowIdx
 )
 {
@@ -1843,7 +1843,7 @@ ARIAGridAccessible
 :
 UnselectCol
 (
-PRUint32
+uint32_t
 aColIdx
 )
 {
@@ -1904,7 +1904,7 @@ ARIAGridAccessible
 :
 IsValidRow
 (
-PRInt32
+int32_t
 aRow
 )
 {
@@ -1917,7 +1917,7 @@ aRow
 return
 false
 ;
-PRInt32
+int32_t
 rowCount
 =
 0
@@ -1940,7 +1940,7 @@ ARIAGridAccessible
 :
 IsValidColumn
 (
-PRInt32
+int32_t
 aColumn
 )
 {
@@ -1953,7 +1953,7 @@ aColumn
 return
 false
 ;
-PRInt32
+int32_t
 colCount
 =
 0
@@ -1977,11 +1977,11 @@ ARIAGridAccessible
 :
 GetRowAt
 (
-PRInt32
+int32_t
 aRow
 )
 {
-PRInt32
+int32_t
 rowIdx
 =
 aRow
@@ -2042,11 +2042,11 @@ GetCellInRowAt
 Accessible
 *
 aRow
-PRInt32
+int32_t
 aColumn
 )
 {
-PRInt32
+int32_t
 colIdx
 =
 aColumn
@@ -2563,7 +2563,7 @@ ARIAGridCellAccessible
 :
 GetColumnIndex
 (
-PRInt32
+int32_t
 *
 aColumnIndex
 )
@@ -2609,7 +2609,7 @@ aColumnIndex
 =
 0
 ;
-PRInt32
+int32_t
 indexInRow
 =
 IndexInParent
@@ -2618,7 +2618,7 @@ IndexInParent
 ;
 for
 (
-PRInt32
+int32_t
 idx
 =
 0
@@ -2703,7 +2703,7 @@ ARIAGridCellAccessible
 :
 GetRowIndex
 (
-PRInt32
+int32_t
 *
 aRowIndex
 )
@@ -2768,7 +2768,7 @@ aRowIndex
 =
 0
 ;
-PRInt32
+int32_t
 indexInTable
 =
 row
@@ -2780,7 +2780,7 @@ IndexInParent
 ;
 for
 (
-PRInt32
+int32_t
 idx
 =
 0
@@ -2837,7 +2837,7 @@ ARIAGridCellAccessible
 :
 GetColumnExtent
 (
-PRInt32
+int32_t
 *
 aExtentCount
 )
@@ -2876,7 +2876,7 @@ ARIAGridCellAccessible
 :
 GetRowExtent
 (
-PRInt32
+int32_t
 *
 aExtentCount
 )
@@ -3146,7 +3146,7 @@ ARIAGridCellAccessible
 :
 ApplyARIAState
 (
-PRUint64
+uint64_t
 *
 aState
 )
@@ -3327,7 +3327,7 @@ ROW
 return
 NS_OK
 ;
-PRInt32
+int32_t
 colIdx
 =
 0
@@ -3335,7 +3335,7 @@ colCount
 =
 0
 ;
-PRUint32
+uint32_t
 childCount
 =
 thisRow
@@ -3347,7 +3347,7 @@ ChildCount
 ;
 for
 (
-PRUint32
+uint32_t
 childIdx
 =
 0
@@ -3484,7 +3484,7 @@ TREE_TABLE
 return
 NS_OK
 ;
-PRInt32
+int32_t
 rowIdx
 =
 0
@@ -3500,7 +3500,7 @@ ChildCount
 ;
 for
 (
-PRUint32
+uint32_t
 childIdx
 =
 0
@@ -3555,7 +3555,7 @@ rowIdx
 +
 ;
 }
-PRInt32
+int32_t
 idx
 =
 rowIdx

@@ -221,7 +221,7 @@ HandleNewLines
 nsString
 &
 aString
-PRInt32
+int32_t
 aNewLineHandling
 )
 ;
@@ -232,7 +232,7 @@ FillBufWithPWChars
 nsAString
 *
 aOutString
-PRInt32
+int32_t
 aLength
 )
 ;
@@ -262,7 +262,7 @@ inString
 nsAString
 *
 outString
-PRInt32
+int32_t
 aMaxLength
 )
 ;
@@ -303,7 +303,7 @@ aCancel
 bool
 *
 aHandled
-PRInt32
+int32_t
 aMaxLength
 )
 ;
@@ -536,7 +536,7 @@ aInString
 nsAString
 *
 aOutString
-PRInt32
+int32_t
 aMaxLength
 bool
 *
@@ -546,7 +546,7 @@ aTruncated
 void
 RemoveIMETextFromPWBuf
 (
-PRInt32
+int32_t
 &
 aStart
 nsAString
@@ -560,7 +560,7 @@ CreateMozBR
 nsIDOMNode
 *
 inParent
-PRInt32
+int32_t
 inOffset
 nsIDOMNode
 *
@@ -579,7 +579,7 @@ aSelection
 nsIDOMNode
 *
 aSelNode
-PRInt32
+int32_t
 aSelOffset
 nsIEditor
 :
@@ -747,7 +747,7 @@ mPasswordText
 nsString
 mPasswordIMEText
 ;
-PRUint32
+uint32_t
 mPasswordIMEIndex
 ;
 nsCOMPtr
@@ -762,10 +762,10 @@ nsIDOMNode
 >
 mCachedSelectionNode
 ;
-PRInt32
+int32_t
 mCachedSelectionOffset
 ;
-PRUint32
+uint32_t
 mActionNesting
 ;
 bool
@@ -786,7 +786,7 @@ nsITimer
 >
 mTimer
 ;
-PRUint32
+uint32_t
 mLastStart
 mLastLength
 ;
@@ -892,7 +892,7 @@ nsAString
 *
 outputFormat
 ;
-PRInt32
+int32_t
 maxLength
 ;
 nsIEditor

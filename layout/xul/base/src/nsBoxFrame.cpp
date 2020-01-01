@@ -935,7 +935,7 @@ _true
 nullptr
 }
 ;
-PRInt32
+int32_t
 index
 =
 GetContent
@@ -1038,7 +1038,7 @@ hAlign_Left
 hAlign_Right
 }
 ;
-PRInt32
+int32_t
 index
 =
 GetContent
@@ -1390,7 +1390,7 @@ vAlign_Middle
 vAlign_Bottom
 }
 ;
-PRInt32
+int32_t
 index
 =
 GetContent
@@ -1761,7 +1761,7 @@ horizontal
 nullptr
 }
 ;
-PRInt32
+int32_t
 index
 =
 GetContent
@@ -1903,7 +1903,7 @@ rtl
 nullptr
 }
 ;
-PRInt32
+int32_t
 index
 =
 GetContent
@@ -2080,7 +2080,7 @@ stretch
 nullptr
 }
 ;
-PRInt32
+int32_t
 index
 =
 GetContent
@@ -3642,7 +3642,7 @@ nsBoxLayoutState
 aState
 )
 {
-PRUint32
+uint32_t
 oldFlags
 =
 aState
@@ -4437,12 +4437,12 @@ nsBoxFrame
 :
 AttributeChanged
 (
-PRInt32
+int32_t
 aNameSpaceID
 nsIAtom
 *
 aAttribute
-PRInt32
+int32_t
 aModType
 )
 {
@@ -6672,7 +6672,7 @@ nsRenderingContext
 aRenderingContext
 bool
 aHorizontal
-PRInt32
+int32_t
 flex
 nscoord
 x
@@ -7191,9 +7191,9 @@ GetValue
 nsPresContext
 *
 aPresContext
-PRInt32
+int32_t
 a
-PRInt32
+int32_t
 b
 char
 *
@@ -8131,7 +8131,7 @@ EventStateManager
 (
 )
 ;
-PRUint32
+uint32_t
 key
 =
 accessKey
@@ -8651,7 +8651,7 @@ SupportsOrdinalsInChildren
 )
 return
 ;
-PRUint32
+uint32_t
 maxOrdinal
 =
 child
@@ -8686,7 +8686,7 @@ GetNextSibling
 )
 )
 {
-PRUint32
+uint32_t
 ordinal
 =
 child
@@ -8857,7 +8857,7 @@ SupportsOrdinalsInChildren
 return
 NS_OK
 ;
-PRUint32
+uint32_t
 ord
 =
 aChild
@@ -9115,7 +9115,7 @@ topMostAdded
 =
 false
 ;
-PRUint32
+uint32_t
 localLength
 =
 outFrames
@@ -9126,7 +9126,7 @@ Length
 ;
 for
 (
-PRUint32
+uint32_t
 i
 =
 0

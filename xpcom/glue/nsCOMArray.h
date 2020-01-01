@@ -44,7 +44,7 @@ nsCOMArray_base
 }
 nsCOMArray_base
 (
-PRInt32
+int32_t
 aCount
 )
 :
@@ -67,7 +67,7 @@ nsCOMArray_base
 (
 )
 ;
-PRInt32
+int32_t
 IndexOf
 (
 nsISupports
@@ -85,7 +85,7 @@ aObject
 )
 ;
 }
-PRInt32
+int32_t
 IndexOfObject
 (
 nsISupports
@@ -164,7 +164,7 @@ InsertObjectAt
 nsISupports
 *
 aObject
-PRInt32
+int32_t
 aIndex
 )
 ;
@@ -175,7 +175,7 @@ const
 nsCOMArray_base
 &
 aObjects
-PRInt32
+int32_t
 aIndex
 )
 ;
@@ -185,7 +185,7 @@ ReplaceObjectAt
 nsISupports
 *
 aObject
-PRInt32
+int32_t
 aIndex
 )
 ;
@@ -237,22 +237,22 @@ aObject
 bool
 RemoveObjectAt
 (
-PRInt32
+int32_t
 aIndex
 )
 ;
 bool
 RemoveObjectsAt
 (
-PRInt32
+int32_t
 aIndex
-PRInt32
+int32_t
 aCount
 )
 ;
 public
 :
-PRInt32
+int32_t
 Count
 (
 )
@@ -269,7 +269,7 @@ Count
 bool
 SetCount
 (
-PRInt32
+int32_t
 aNewCount
 )
 ;
@@ -277,7 +277,7 @@ nsISupports
 *
 ObjectAt
 (
-PRInt32
+int32_t
 aIndex
 )
 const
@@ -302,7 +302,7 @@ nsISupports
 *
 SafeObjectAt
 (
-PRInt32
+int32_t
 aIndex
 )
 const
@@ -329,7 +329,7 @@ operator
 [
 ]
 (
-PRInt32
+int32_t
 aIndex
 )
 const
@@ -344,7 +344,7 @@ aIndex
 bool
 SetCapacity
 (
-PRUint32
+uint32_t
 aCapacity
 )
 {
@@ -359,7 +359,7 @@ SizeTo
 (
 static_cast
 <
-PRInt32
+int32_t
 >
 (
 aCapacity
@@ -434,7 +434,7 @@ nsCOMArray
 }
 nsCOMArray
 (
-PRInt32
+int32_t
 aCount
 )
 :
@@ -471,7 +471,7 @@ T
 *
 ObjectAt
 (
-PRInt32
+int32_t
 aIndex
 )
 const
@@ -497,7 +497,7 @@ T
 *
 SafeObjectAt
 (
-PRInt32
+int32_t
 aIndex
 )
 const
@@ -525,7 +525,7 @@ operator
 [
 ]
 (
-PRInt32
+int32_t
 aIndex
 )
 const
@@ -537,7 +537,7 @@ aIndex
 )
 ;
 }
-PRInt32
+int32_t
 IndexOf
 (
 T
@@ -563,7 +563,7 @@ aObject
 )
 ;
 }
-PRInt32
+int32_t
 IndexOfObject
 (
 T
@@ -595,7 +595,7 @@ InsertObjectAt
 T
 *
 aObject
-PRInt32
+int32_t
 aIndex
 )
 {
@@ -627,7 +627,7 @@ T
 >
 &
 aObjects
-PRInt32
+int32_t
 aIndex
 )
 {
@@ -648,7 +648,7 @@ ReplaceObjectAt
 T
 *
 aObject
-PRInt32
+int32_t
 aIndex
 )
 {
@@ -670,7 +670,7 @@ aIndex
 )
 ;
 }
-PRInt32
+int32_t
 Count
 (
 )
@@ -877,7 +877,7 @@ aObject
 bool
 RemoveObjectAt
 (
-PRInt32
+int32_t
 aIndex
 )
 {
@@ -894,9 +894,9 @@ aIndex
 bool
 RemoveObjectsAt
 (
-PRInt32
+int32_t
 aIndex
-PRInt32
+int32_t
 aCount
 )
 {

@@ -188,10 +188,10 @@ freeFunc
 \
 PR_BEGIN_MACRO
 \
-PRInt32
+int32_t
 iter_
 =
-PRInt32
+int32_t
 (
 size
 )

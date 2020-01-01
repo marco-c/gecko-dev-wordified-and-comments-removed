@@ -654,7 +654,7 @@ aData
 ;
 for
 (
-PRUint32
+uint32_t
 i
 =
 0
@@ -704,10 +704,10 @@ union
 bool
 defaultValueBool
 ;
-PRInt32
+int32_t
 defaultValueInt
 ;
-PRUint32
+uint32_t
 defaultValueUint
 ;
 }
@@ -1870,10 +1870,10 @@ rv
 rv
 )
 ;
-PRUint64
+uint64_t
 avail
 ;
-PRUint32
+uint32_t
 read
 ;
 PrefParseState
@@ -2890,7 +2890,7 @@ nsIOutputStream
 >
 outStream
 ;
-PRUint32
+uint32_t
 writeAmount
 ;
 nsresult
@@ -3046,7 +3046,7 @@ valueArray
 ;
 for
 (
-PRUint32
+uint32_t
 valueIdx
 =
 0
@@ -3221,7 +3221,7 @@ rv
 return
 rv
 ;
-PRUint64
+uint64_t
 fileSize64
 ;
 rv
@@ -3254,11 +3254,11 @@ PR_UINT32_MAX
 NS_ERROR_FILE_TOO_BIG
 )
 ;
-PRUint32
+uint32_t
 fileSize
 =
 (
-PRUint32
+uint32_t
 )
 fileSize64
 ;
@@ -3307,7 +3307,7 @@ for
 ;
 )
 {
-PRUint32
+uint32_t
 amtRead
 =
 0
@@ -3432,7 +3432,7 @@ const
 const
 *
 aSpecialFiles
-PRUint32
+uint32_t
 aSpecialFilesCount
 )
 {
@@ -3626,7 +3626,7 @@ true
 ;
 for
 (
-PRUint32
+uint32_t
 i
 =
 0
@@ -3751,7 +3751,7 @@ pref_CompareFileNames
 nullptr
 )
 ;
-PRUint32
+uint32_t
 arrayCount
 =
 prefFiles
@@ -3760,7 +3760,7 @@ Count
 (
 )
 ;
-PRUint32
+uint32_t
 i
 ;
 for
@@ -4173,7 +4173,7 @@ char
 *
 entryName
 ;
-PRUint16
+uint16_t
 entryNameLen
 ;
 nsRefPtr
@@ -4289,7 +4289,7 @@ Sort
 ;
 for
 (
-PRUint32
+uint32_t
 i
 =
 prefEntries
@@ -4693,7 +4693,7 @@ Sort
 ;
 for
 (
-PRUint32
+uint32_t
 i
 =
 prefEntries
@@ -4857,7 +4857,7 @@ const
 char
 *
 aPref
-PRInt32
+int32_t
 *
 aResult
 )
@@ -5585,7 +5585,7 @@ const
 char
 *
 aPref
-PRInt32
+int32_t
 aValue
 )
 {
@@ -5721,7 +5721,7 @@ aPref
 )
 ;
 }
-PRInt32
+int32_t
 Preferences
 :
 :
@@ -5744,7 +5744,7 @@ nsIPrefBranch
 PREF_INVALID
 )
 ;
-PRInt32
+int32_t
 result
 ;
 return
@@ -5902,7 +5902,7 @@ aPrefs
 {
 for
 (
-PRUint32
+uint32_t
 i
 =
 0
@@ -5958,7 +5958,7 @@ aPrefs
 {
 for
 (
-PRUint32
+uint32_t
 i
 =
 0
@@ -6033,7 +6033,7 @@ NS_ERROR_NOT_AVAILABLE
 ;
 for
 (
-PRUint32
+uint32_t
 i
 =
 0
@@ -6448,7 +6448,7 @@ aClosure
 *
 (
 (
-PRInt32
+int32_t
 *
 )
 cache
@@ -6479,14 +6479,14 @@ Preferences
 :
 AddIntVarCache
 (
-PRInt32
+int32_t
 *
 aCache
 const
 char
 *
 aPref
-PRInt32
+int32_t
 aDefault
 )
 {
@@ -6583,7 +6583,7 @@ aClosure
 *
 (
 (
-PRUint32
+uint32_t
 *
 )
 cache
@@ -6614,14 +6614,14 @@ Preferences
 :
 AddUintVarCache
 (
-PRUint32
+uint32_t
 *
 aCache
 const
 char
 *
 aPref
-PRUint32
+uint32_t
 aDefault
 )
 {
@@ -6743,7 +6743,7 @@ const
 char
 *
 aPref
-PRInt32
+int32_t
 *
 aResult
 )
@@ -7198,7 +7198,7 @@ aResult
 )
 ;
 }
-PRInt32
+int32_t
 Preferences
 :
 :
@@ -7221,7 +7221,7 @@ nsIPrefBranch
 PREF_INVALID
 )
 ;
-PRInt32
+int32_t
 result
 ;
 return

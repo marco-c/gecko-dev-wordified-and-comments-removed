@@ -204,7 +204,7 @@ mThumbButtons
 ;
 for
 (
-PRInt32
+int32_t
 i
 =
 0
@@ -378,7 +378,7 @@ TaskbarWindowPreview
 :
 GetButton
 (
-PRUint32
+uint32_t
 index
 nsITaskbarPreviewButton
 *
@@ -648,9 +648,9 @@ SetProgressState
 (
 nsTaskbarProgressState
 aState
-PRUint64
+uint64_t
 aCurrentValue
-PRUint64
+uint64_t
 aMaxValue
 )
 {
@@ -1062,7 +1062,7 @@ case
 WM_COMMAND
 :
 {
-PRUint32
+uint32_t
 id
 =
 LOWORD
@@ -1070,7 +1070,7 @@ LOWORD
 wParam
 )
 ;
-PRUint32
+uint32_t
 index
 =
 id
@@ -1384,7 +1384,7 @@ TaskbarWindowPreview
 :
 UpdateButton
 (
-PRUint32
+uint32_t
 index
 )
 {

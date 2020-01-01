@@ -780,7 +780,7 @@ ConstructNativeMenus
 (
 )
 {
-PRUint32
+uint32_t
 count
 =
 mContent
@@ -792,7 +792,7 @@ GetChildCount
 ;
 for
 (
-PRUint32
+uint32_t
 i
 =
 0
@@ -895,7 +895,7 @@ newMenu
 }
 }
 }
-PRUint32
+uint32_t
 nsMenuBarX
 :
 :
@@ -960,7 +960,7 @@ InsertMenuAtIndex
 nsMenuX
 *
 aMenu
-PRUint32
+uint32_t
 aIndex
 )
 {
@@ -1189,7 +1189,7 @@ nsMenuBarX
 :
 RemoveMenuAtIndex
 (
-PRUint32
+uint32_t
 aIndex
 )
 {
@@ -1340,7 +1340,7 @@ aDocument
 nsIContent
 *
 aChild
-PRInt32
+int32_t
 aIndexInContainer
 )
 {
@@ -1508,7 +1508,7 @@ visible
 =
 0
 ;
-PRUint32
+uint32_t
 length
 =
 mMenuArray
@@ -1892,7 +1892,7 @@ nsMenuBarX
 :
 GetMenuAt
 (
-PRUint32
+uint32_t
 aIndex
 )
 {
@@ -1966,7 +1966,7 @@ back
 .
 for
 (
-PRInt32
+int32_t
 i
 =
 GetMenuCount
@@ -3461,7 +3461,7 @@ modifiers
 modifiersStr
 )
 ;
-PRUint8
+uint8_t
 geckoModifiers
 =
 nsMenuUtilsX
@@ -6034,7 +6034,7 @@ GetMenuItemForCommandID
 (
 static_cast
 <
-PRUint32
+uint32_t
 >
 (
 tag

@@ -437,7 +437,7 @@ aTransferableArray
 return
 NS_ERROR_FAILURE
 ;
-PRUint32
+uint32_t
 count
 =
 0
@@ -464,7 +464,7 @@ NSDragPboard
 ;
 for
 (
-PRUint32
+uint32_t
 i
 =
 0
@@ -987,7 +987,7 @@ surface
 return
 nil
 ;
-PRUint32
+uint32_t
 width
 =
 aDragRect
@@ -995,7 +995,7 @@ aDragRect
 >
 width
 ;
-PRUint32
+uint32_t
 height
 =
 aDragRect
@@ -1077,12 +1077,12 @@ Paint
 (
 )
 ;
-PRUint32
+uint32_t
 *
 imageData
 =
 (
-PRUint32
+uint32_t
 *
 )
 imgSurface
@@ -1092,7 +1092,7 @@ Data
 (
 )
 ;
-PRInt32
+int32_t
 stride
 =
 imgSurface
@@ -1145,7 +1145,7 @@ bitsPerPixel
 32
 ]
 ;
-PRUint8
+uint8_t
 *
 dest
 =
@@ -1156,7 +1156,7 @@ bitmapData
 ;
 for
 (
-PRUint32
+uint32_t
 i
 =
 0
@@ -1170,12 +1170,12 @@ height
 i
 )
 {
-PRUint8
+uint8_t
 *
 src
 =
 (
-PRUint8
+uint8_t
 *
 )
 imageData
@@ -1186,7 +1186,7 @@ stride
 ;
 for
 (
-PRUint32
+uint32_t
 j
 =
 0
@@ -1238,7 +1238,7 @@ dest
 0
 ]
 =
-PRUint8
+uint8_t
 (
 src
 [
@@ -1253,7 +1253,7 @@ dest
 1
 ]
 =
-PRUint8
+uint8_t
 (
 src
 [
@@ -1268,7 +1268,7 @@ dest
 2
 ]
 =
-PRUint8
+uint8_t
 (
 src
 [
@@ -1283,7 +1283,7 @@ dest
 3
 ]
 =
-PRUint8
+uint8_t
 (
 src
 [
@@ -1300,7 +1300,7 @@ dest
 0
 ]
 =
-PRUint8
+uint8_t
 (
 src
 [
@@ -1315,7 +1315,7 @@ dest
 1
 ]
 =
-PRUint8
+uint8_t
 (
 src
 [
@@ -1330,7 +1330,7 @@ dest
 2
 ]
 =
-PRUint8
+uint8_t
 (
 src
 [
@@ -1345,7 +1345,7 @@ dest
 3
 ]
 =
-PRUint8
+uint8_t
 (
 src
 [
@@ -1487,7 +1487,7 @@ aTransferableArray
 nsIScriptableRegion
 *
 aDragRgn
-PRUint32
+uint32_t
 aActionType
 )
 {
@@ -1926,7 +1926,7 @@ GetData
 nsITransferable
 *
 aTransferable
-PRUint32
+uint32_t
 aItemIndex
 )
 {
@@ -1987,7 +1987,7 @@ rv
 return
 NS_ERROR_FAILURE
 ;
-PRUint32
+uint32_t
 acceptableFlavorCount
 ;
 flavorList
@@ -2070,7 +2070,7 @@ currentTransferable
 {
 for
 (
-PRUint32
+uint32_t
 i
 =
 0
@@ -2141,7 +2141,7 @@ nsISupports
 >
 dataSupports
 ;
-PRUint32
+uint32_t
 dataSize
 =
 0
@@ -2214,7 +2214,7 @@ for
 data
 for
 (
-PRUint32
+uint32_t
 i
 =
 0
@@ -2619,7 +2619,7 @@ DOM
 line
 endings
 .
-PRInt32
+int32_t
 signedDataLength
 =
 dataLength
@@ -2886,7 +2886,7 @@ if
 mDataItems
 )
 {
-PRUint32
+uint32_t
 dataItemsCount
 ;
 mDataItems
@@ -2988,7 +2988,7 @@ rv
 )
 continue
 ;
-PRUint32
+uint32_t
 flavorCount
 ;
 flavorList
@@ -3002,7 +3002,7 @@ flavorCount
 ;
 for
 (
-PRUint32
+uint32_t
 j
 =
 0
@@ -3244,7 +3244,7 @@ nsDragService
 :
 GetNumDropItems
 (
-PRUint32
+uint32_t
 *
 aNumItems
 )

@@ -70,7 +70,7 @@ rv
 rv
 )
 ;
-PRUint32
+uint32_t
 i
 len
 =
@@ -261,7 +261,7 @@ ContextSensitivity
 aContext
 )
 {
-PRUint32
+uint32_t
 i
 len
 =
@@ -323,7 +323,7 @@ nsAString
 dest
 )
 {
-PRUint32
+uint32_t
 i
 ;
 for

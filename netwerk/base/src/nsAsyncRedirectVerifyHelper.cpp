@@ -260,7 +260,7 @@ oldChan
 nsIChannel
 *
 newChan
-PRUint32
+uint32_t
 flags
 bool
 synchronize
@@ -486,7 +486,7 @@ oldChannel
 nsIChannel
 *
 newChannel
-PRUint32
+uint32_t
 flags
 )
 {

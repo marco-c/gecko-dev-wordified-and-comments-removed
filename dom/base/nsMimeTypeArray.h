@@ -74,7 +74,7 @@ nsIDOMMimeType
 *
 GetItemAt
 (
-PRUint32
+uint32_t
 aIndex
 nsresult
 *
@@ -186,7 +186,7 @@ nsIDOMNavigator
 *
 mNavigator
 ;
-PRUint32
+uint32_t
 mPluginMimeTypeCount
 ;
 nsCOMArray

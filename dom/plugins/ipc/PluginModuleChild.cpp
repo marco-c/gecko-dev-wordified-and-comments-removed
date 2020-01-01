@@ -2719,7 +2719,7 @@ dom
 NativeThreadId
 *
 id
-PRUint32
+uint32_t
 *
 processType
 )
@@ -2767,7 +2767,7 @@ dom
 NativeThreadId
 *
 id
-PRUint32
+uint32_t
 *
 processType
 )
@@ -9808,7 +9808,7 @@ exited
 "
 )
 ;
-PRUint32
+uint32_t
 len
 =
 mIncallPumpingStack
@@ -9999,7 +9999,7 @@ current
 (
 )
 ;
-PRUint32
+uint32_t
 len
 =
 self

@@ -651,7 +651,7 @@ bool
 sourceBuffered
 bool
 sinkBuffered
-PRUint32
+uint32_t
 chunkSize
 bool
 closeSource

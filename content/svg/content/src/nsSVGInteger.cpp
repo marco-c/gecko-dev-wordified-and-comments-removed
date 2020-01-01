@@ -88,7 +88,7 @@ const
 nsAString
 &
 aValueAsString
-PRInt32
+int32_t
 *
 aValue
 )
@@ -193,7 +193,7 @@ nsSVGElement
 aSVGElement
 )
 {
-PRInt32
+int32_t
 value
 ;
 nsresult
@@ -475,7 +475,7 @@ aPreventCachingOfSandwich
 )
 const
 {
-PRInt32
+int32_t
 val
 ;
 nsresult

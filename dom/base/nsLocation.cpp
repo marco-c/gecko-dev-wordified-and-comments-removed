@@ -2792,7 +2792,7 @@ if
 uri
 )
 {
-PRInt32
+int32_t
 port
 ;
 result
@@ -2899,7 +2899,7 @@ get
 (
 )
 ;
-PRInt32
+int32_t
 port
 =
 -
@@ -3447,7 +3447,7 @@ if
 webNav
 )
 {
-PRUint32
+uint32_t
 reloadFlags
 =
 nsIWebNavigation

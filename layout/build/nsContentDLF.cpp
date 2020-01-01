@@ -632,7 +632,7 @@ knownType
 =
 false
 ;
-PRInt32
+int32_t
 typeIndex
 ;
 for

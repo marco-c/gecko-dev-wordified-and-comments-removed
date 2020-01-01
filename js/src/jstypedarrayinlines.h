@@ -818,12 +818,13 @@ SINGLETON_TYPE_BYTE_LENGTH
 if
 (
 !
-obj
--
->
+JSObject
+:
+:
 setSingletonType
 (
 cx
+obj
 )
 )
 return

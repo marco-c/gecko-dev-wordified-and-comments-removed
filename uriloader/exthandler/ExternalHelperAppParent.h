@@ -91,11 +91,11 @@ nsCString
 &
 data
 const
-PRUint32
+uint32_t
 &
 offset
 const
-PRUint32
+uint32_t
 &
 count
 )
@@ -119,7 +119,7 @@ URI
 &
 uri
 const
-PRInt64
+int64_t
 &
 contentLength
 )
@@ -180,10 +180,10 @@ mLoadFlags
 nsresult
 mStatus
 ;
-PRInt64
+int64_t
 mContentLength
 ;
-PRUint32
+uint32_t
 mContentDisposition
 ;
 nsString

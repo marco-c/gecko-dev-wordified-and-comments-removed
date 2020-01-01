@@ -150,7 +150,7 @@ nsCycleCollectionTraversalCallback
 aClosure
 )
 ;
-PRInt32
+int32_t
 i
 numItems
 =
@@ -342,7 +342,7 @@ if
 commandObservers
 )
 {
-PRInt32
+int32_t
 i
 numItems
 =
@@ -472,7 +472,7 @@ commandObservers
 )
 ;
 }
-PRInt32
+int32_t
 existingIndex
 =
 commandObservers

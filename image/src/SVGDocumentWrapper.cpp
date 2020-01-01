@@ -301,7 +301,7 @@ GetWidthOrHeight
 (
 Dimension
 aDimension
-PRInt32
+int32_t
 &
 aResult
 )
@@ -430,7 +430,7 @@ domLength
 false
 )
 ;
-PRUint16
+uint16_t
 unitType
 ;
 rv
@@ -890,9 +890,9 @@ ctxt
 nsIInputStream
 *
 inStr
-PRUint32
+uint32_t
 sourceOffset
-PRUint32
+uint32_t
 count
 )
 {

@@ -109,7 +109,7 @@ const
 nsAString
 &
 aValue
-PRInt32
+int32_t
 aValues
 [
 2
@@ -144,7 +144,7 @@ return
 NS_ERROR_DOM_SYNTAX_ERR
 ;
 }
-PRUint32
+uint32_t
 i
 ;
 for
@@ -321,7 +321,7 @@ nsSVGElement
 aSVGElement
 )
 {
-PRInt32
+int32_t
 val
 [
 2
@@ -481,7 +481,7 @@ nsSVGIntegerPair
 :
 SetBaseValue
 (
-PRInt32
+int32_t
 aValue
 PairIndex
 aPairIndex
@@ -490,7 +490,7 @@ nsSVGElement
 aSVGElement
 )
 {
-PRUint32
+uint32_t
 index
 =
 (
@@ -583,9 +583,9 @@ nsSVGIntegerPair
 :
 SetBaseValues
 (
-PRInt32
+int32_t
 aValue1
-PRInt32
+int32_t
 aValue2
 nsSVGElement
 *
@@ -695,7 +695,7 @@ nsSVGIntegerPair
 SetAnimValue
 (
 const
-PRInt32
+int32_t
 aValue
 [
 2
@@ -854,7 +854,7 @@ aPreventCachingOfSandwich
 )
 const
 {
-PRInt32
+int32_t
 values
 [
 2

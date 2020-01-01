@@ -422,12 +422,12 @@ if
 mTotalBytesRead
 )
 {
-PRUint32
+uint32_t
 totalKBRead
 =
 static_cast
 <
-PRUint32
+uint32_t
 >
 (
 mTotalBytesRead
@@ -500,7 +500,7 @@ Init
 nsHttpConnectionInfo
 *
 info
-PRUint16
+uint16_t
 maxHangTime
 nsISocketTransport
 *
@@ -695,7 +695,7 @@ nsHttpConnection
 :
 StartSpdy
 (
-PRUint8
+uint8_t
 spdyVersion
 )
 {
@@ -953,7 +953,7 @@ get
 }
 else
 {
-PRInt32
+int32_t
 count
 =
 list
@@ -1014,7 +1014,7 @@ return
 }
 for
 (
-PRInt32
+int32_t
 index
 =
 0
@@ -1246,7 +1246,7 @@ rv
 NS_ERROR_NOT_CONNECTED
 )
 {
-PRUint32
+uint32_t
 count
 =
 0
@@ -1321,7 +1321,7 @@ get
 )
 )
 ;
-PRUint8
+uint8_t
 spdyVersion
 ;
 rv
@@ -1406,9 +1406,9 @@ Activate
 nsAHttpTransaction
 *
 trans
-PRUint8
+uint8_t
 caps
-PRInt32
+int32_t
 pri
 )
 {
@@ -1666,7 +1666,7 @@ nsHttpConnection
 :
 SetupNPN
 (
-PRUint8
+uint8_t
 caps
 )
 {
@@ -1981,7 +1981,7 @@ val
 )
 return
 ;
-PRUint8
+uint8_t
 alternateProtocolVersion
 ;
 if
@@ -2059,7 +2059,7 @@ AddTransaction
 nsAHttpTransaction
 *
 httpTransaction
-PRInt32
+int32_t
 priority
 )
 {
@@ -2575,7 +2575,7 @@ IsAlive
 (
 )
 ;
-PRUint64
+uint64_t
 dataSize
 ;
 if
@@ -2717,7 +2717,7 @@ mLastReadTime
 )
 ;
 }
-PRUint32
+uint32_t
 nsHttpConnection
 :
 :
@@ -2737,7 +2737,7 @@ mIdleTimeout
 return
 0
 ;
-PRUint32
+uint32_t
 timeToLive
 =
 PR_IntervalToSeconds
@@ -3621,7 +3621,7 @@ mIdleTimeout
 PR_SecondsToInterval
 (
 (
-PRUint32
+uint32_t
 )
 atoi
 (
@@ -3682,7 +3682,7 @@ mRemainingConnectionUses
 =
 static_cast
 <
-PRUint32
+uint32_t
 >
 (
 val
@@ -4154,7 +4154,7 @@ nsHttpConnection
 :
 SetIsReusedAfter
 (
-PRUint32
+uint32_t
 afterMilliseconds
 )
 {
@@ -4366,7 +4366,7 @@ now
 -
 mLastReadTime
 ;
-PRUint32
+uint32_t
 pipelineDepth
 =
 mTransaction
@@ -4628,7 +4628,7 @@ const
 char
 *
 data
-PRUint32
+uint32_t
 length
 )
 {
@@ -5252,11 +5252,11 @@ const
 char
 *
 buf
-PRUint32
+uint32_t
 offset
-PRUint32
+uint32_t
 count
-PRUint32
+uint32_t
 *
 countRead
 )
@@ -5293,9 +5293,9 @@ const
 char
 *
 buf
-PRUint32
+uint32_t
 count
-PRUint32
+uint32_t
 *
 countRead
 )
@@ -5422,7 +5422,7 @@ Host
 nsresult
 rv
 ;
-PRUint32
+uint32_t
 n
 ;
 bool
@@ -5726,9 +5726,9 @@ OnWriteSegment
 char
 *
 buf
-PRUint32
+uint32_t
 count
-PRUint32
+uint32_t
 *
 countWritten
 )
@@ -6097,7 +6097,7 @@ now
 nsresult
 rv
 ;
-PRUint32
+uint32_t
 n
 ;
 bool
@@ -6801,9 +6801,9 @@ nsITransport
 trans
 nsresult
 status
-PRUint64
+uint64_t
 progress
-PRUint64
+uint64_t
 progressMax
 )
 {

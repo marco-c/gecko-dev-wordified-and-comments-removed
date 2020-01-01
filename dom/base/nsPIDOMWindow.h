@@ -380,7 +380,7 @@ mParentTarget
 bool
 HasMutationListeners
 (
-PRUint32
+uint32_t
 aMutationEventType
 )
 const
@@ -475,7 +475,7 @@ aMutationEventType
 void
 SetMutationListeners
 (
-PRUint32
+uint32_t
 aType
 )
 {
@@ -1019,7 +1019,7 @@ virtual
 void
 SuspendTimeouts
 (
-PRUint32
+uint32_t
 aIncrease
 =
 1
@@ -1044,7 +1044,7 @@ true
 0
 ;
 virtual
-PRUint32
+uint32_t
 TimeoutSuspendCount
 (
 )
@@ -1075,11 +1075,11 @@ SetTimeoutOrInterval
 nsIScriptTimeoutHandler
 *
 aHandler
-PRInt32
+int32_t
 interval
 bool
 aIsInterval
-PRInt32
+int32_t
 *
 aReturn
 )
@@ -1090,7 +1090,7 @@ virtual
 nsresult
 ClearTimeoutOrInterval
 (
-PRInt32
+int32_t
 aTimerID
 )
 =
@@ -1471,7 +1471,7 @@ SetFocusedNode
 nsIContent
 *
 aNode
-PRUint32
+uint32_t
 aFocusMethod
 =
 0
@@ -1484,7 +1484,7 @@ false
 0
 ;
 virtual
-PRUint32
+uint32_t
 GetFocusMethod
 (
 )
@@ -1497,7 +1497,7 @@ TakeFocus
 (
 bool
 aFocus
-PRUint32
+uint32_t
 aFocusMethod
 )
 =
@@ -1579,7 +1579,7 @@ virtual
 void
 EnableDeviceSensor
 (
-PRUint32
+uint32_t
 aType
 )
 =
@@ -1589,7 +1589,7 @@ virtual
 void
 DisableDeviceSensor
 (
-PRUint32
+uint32_t
 aType
 )
 =
@@ -1610,14 +1610,14 @@ aOrigin
 0
 ;
 virtual
-PRUint32
+uint32_t
 GetSerial
 (
 )
 =
 0
 ;
-PRUint64
+uint64_t
 WindowID
 (
 )
@@ -1744,14 +1744,14 @@ nsIDocShell
 *
 mDocShell
 ;
-PRUint32
+uint32_t
 mModalStateDepth
 ;
 nsTimeout
 *
 mRunningTimeout
 ;
-PRUint32
+uint32_t
 mMutationBits
 ;
 bool
@@ -1797,7 +1797,7 @@ nsIContent
 >
 mFocusedNode
 ;
-PRUint64
+uint64_t
 mWindowID
 ;
 bool

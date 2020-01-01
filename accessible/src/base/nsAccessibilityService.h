@@ -622,7 +622,7 @@ virtual
 void
 FireAccessibleEvent
 (
-PRUint32
+uint32_t
 aEvent
 Accessible
 *

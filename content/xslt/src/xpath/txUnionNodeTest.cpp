@@ -43,7 +43,7 @@ txIMatchContext
 aContext
 )
 {
-PRUint32
+uint32_t
 i
 len
 =
@@ -132,7 +132,7 @@ ContextSensitivity
 aContext
 )
 {
-PRUint32
+uint32_t
 i
 len
 =
@@ -205,7 +205,7 @@ AppendLiteral
 ;
 for
 (
-PRUint32
+uint32_t
 i
 =
 0

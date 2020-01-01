@@ -141,7 +141,7 @@ aTail
 )
 ;
 static
-PRInt32
+int32_t
 getSiblingCount
 (
 txXPathTreeWalker
@@ -190,7 +190,7 @@ virtual
 void
 appendNumber
 (
-PRInt32
+int32_t
 aNumber
 nsAString
 &

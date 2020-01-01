@@ -747,7 +747,7 @@ GetListenerInfoFor
 nsIDOMEventTarget
 *
 aEventTarget
-PRUint32
+uint32_t
 *
 aCount
 nsIEventListenerInfo
@@ -805,7 +805,7 @@ listenerInfos
 )
 ;
 }
-PRInt32
+int32_t
 count
 =
 listenerInfos
@@ -860,7 +860,7 @@ NS_ERROR_OUT_OF_MEMORY
 ;
 for
 (
-PRInt32
+int32_t
 i
 =
 0
@@ -909,7 +909,7 @@ GetEventTargetChainFor
 nsIDOMEventTarget
 *
 aEventTarget
-PRUint32
+uint32_t
 *
 aCount
 nsIDOMEventTarget
@@ -972,7 +972,7 @@ rv
 rv
 )
 ;
-PRInt32
+int32_t
 count
 =
 targets
@@ -1027,7 +1027,7 @@ NS_ERROR_OUT_OF_MEMORY
 ;
 for
 (
-PRInt32
+int32_t
 i
 =
 0
@@ -1170,7 +1170,7 @@ NS_ENSURE_STATE
 manager
 )
 ;
-PRInt32
+int32_t
 flags
 =
 aUseCapture
@@ -1252,7 +1252,7 @@ if
 manager
 )
 {
-PRInt32
+int32_t
 flags
 =
 aUseCapture

@@ -1303,7 +1303,7 @@ const
 nsDisplayListSet
 &
 aLists
-PRUint32
+uint32_t
 aFlags
 )
 {
@@ -1403,7 +1403,7 @@ PeekOffsetNoAmount
 (
 bool
 aForward
-PRInt32
+int32_t
 *
 aOffset
 )
@@ -1438,7 +1438,7 @@ PeekOffsetCharacter
 (
 bool
 aForward
-PRInt32
+int32_t
 *
 aOffset
 bool
@@ -3020,7 +3020,7 @@ const
 nsRect
 &
 aVisualOverflowArea
-PRUint32
+uint32_t
 aFlags
 )
 {
@@ -3104,7 +3104,7 @@ aStyleContext
 nsIView
 *
 aView
-PRUint32
+uint32_t
 aFlags
 )
 {
@@ -3226,7 +3226,7 @@ IsPositioned
 (
 )
 ;
-PRInt32
+int32_t
 zIndex
 =
 0
@@ -3871,7 +3871,7 @@ nscoord
 aX
 nscoord
 aY
-PRUint32
+uint32_t
 aFlags
 nsReflowStatus
 &
@@ -4239,7 +4239,7 @@ nscoord
 aX
 nscoord
 aY
-PRUint32
+uint32_t
 aFlags
 )
 {
@@ -4395,7 +4395,7 @@ aReflowState
 nsOverflowAreas
 &
 aOverflowRects
-PRUint32
+uint32_t
 aFlags
 nsReflowStatus
 &
@@ -5845,7 +5845,7 @@ f
 }
 for
 (
-PRInt32
+int32_t
 i
 =
 frames
@@ -7642,7 +7642,7 @@ List
 FILE
 *
 out
-PRInt32
+int32_t
 aIndent
 )
 const

@@ -333,7 +333,7 @@ virtual
 gfxMatrix
 GetCanvasTM
 (
-PRUint32
+uint32_t
 aFor
 )
 {
@@ -479,7 +479,7 @@ virtual
 bool
 IsFrameOfType
 (
-PRUint32
+uint32_t
 aFlags
 )
 const
@@ -718,7 +718,7 @@ virtual
 void
 NotifySVGChanged
 (
-PRUint32
+uint32_t
 aFlags
 )
 ;
@@ -730,7 +730,7 @@ const
 gfxMatrix
 &
 aToBBoxUserspace
-PRUint32
+uint32_t
 aFlags
 )
 ;

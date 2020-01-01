@@ -650,7 +650,7 @@ aLeadingString
 nsCString
 &
 aCStr
-PRInt32
+int32_t
 &
 foundNumber
 )
@@ -1066,7 +1066,7 @@ parent
 NS_ERROR_NULL_POINTER
 )
 ;
-PRInt32
+int32_t
 childOffset
 ;
 rv
@@ -1214,7 +1214,7 @@ aSourceDoc
 nsIDOMNode
 *
 aDestNode
-PRInt32
+int32_t
 aDestOffset
 bool
 aDeleteSelection
@@ -1263,7 +1263,7 @@ aSourceDoc
 nsIDOMNode
 *
 aDestNode
-PRInt32
+int32_t
 aDestOffset
 bool
 aDeleteSelection
@@ -1324,7 +1324,7 @@ fragmentAsNode
 streamStartParent
 streamEndParent
 ;
-PRInt32
+int32_t
 streamStartOffset
 =
 0
@@ -1372,7 +1372,7 @@ nsIDOMNode
 targetNode
 tempNode
 ;
-PRInt32
+int32_t
 targetOffset
 =
 0
@@ -1600,7 +1600,7 @@ nsIDOMNode
 >
 parentNode
 ;
-PRInt32
+int32_t
 offsetOfNewNode
 ;
 bool
@@ -1705,7 +1705,7 @@ GetAnchorNode
 )
 )
 ;
-PRInt32
+int32_t
 tmpOffset
 =
 selection
@@ -1987,7 +1987,7 @@ rv
 rv
 )
 ;
-PRInt32
+int32_t
 highWaterMark
 =
 -
@@ -2133,7 +2133,7 @@ parentBlock
 lastInsertNode
 insertedContextParent
 ;
-PRInt32
+int32_t
 listCount
 =
 nodeList
@@ -2142,7 +2142,7 @@ Count
 (
 )
 ;
-PRInt32
+int32_t
 j
 ;
 if
@@ -2464,7 +2464,7 @@ rv
 isEmpty
 )
 {
-PRInt32
+int32_t
 newOffset
 ;
 nsCOMPtr
@@ -2823,7 +2823,7 @@ tmp
 visNode
 highTable
 ;
-PRInt32
+int32_t
 selOffset
 ;
 if
@@ -2960,7 +2960,7 @@ GetLengthOfDOMNode
 (
 selNode
 (
-PRUint32
+uint32_t
 &
 )
 selOffset
@@ -3001,7 +3001,7 @@ selNode
 selOffset
 )
 ;
-PRInt32
+int32_t
 outVisOffset
 =
 0
@@ -3178,7 +3178,7 @@ nsIDOMNode
 >
 leftLink
 ;
-PRInt32
+int32_t
 linkOffset
 ;
 rv
@@ -3859,21 +3859,21 @@ nsIDOMNode
 *
 *
 aFragStartNode
-PRInt32
+int32_t
 *
 aFragStartOffset
 nsIDOMNode
 *
 *
 aFragEndNode
-PRInt32
+int32_t
 *
 aFragEndOffset
 nsIDOMNode
 *
 *
 aTargetNode
-PRInt32
+int32_t
 *
 aTargetOffset
 bool
@@ -3886,7 +3886,7 @@ aDoContinue
 =
 true
 ;
-PRInt32
+int32_t
 i
 ;
 nsIContentFilter
@@ -4566,12 +4566,12 @@ aLeadingString
 nsCString
 &
 aCStr
-PRInt32
+int32_t
 &
 foundNumber
 )
 {
-PRInt32
+int32_t
 numFront
 =
 aCStr
@@ -4600,7 +4600,7 @@ strlen
 aLeadingString
 )
 ;
-PRInt32
+int32_t
 numBack
 =
 aCStr
@@ -4660,7 +4660,7 @@ nsCString
 aStr
 )
 {
-PRInt32
+int32_t
 startCommentIndx
 =
 aStr
@@ -4684,7 +4684,7 @@ startCommentIndx
 0
 )
 {
-PRInt32
+int32_t
 startCommentEnd
 =
 aStr
@@ -4721,7 +4721,7 @@ startCommentIndx
 )
 ;
 }
-PRInt32
+int32_t
 endCommentIndx
 =
 aStr
@@ -4745,7 +4745,7 @@ endCommentIndx
 0
 )
 {
-PRInt32
+int32_t
 endCommentEnd
 =
 aStr
@@ -4805,7 +4805,7 @@ PRUnichar
 aCfcontext
 )
 {
-PRInt32
+int32_t
 startHTML
 endHTML
 startFragment
@@ -5031,7 +5031,7 @@ endFragment
 )
 )
 ;
-PRInt32
+int32_t
 curPos
 =
 startFragment
@@ -5160,7 +5160,7 @@ NS_ConvertUTF8toUTF16
 contextUTF8
 )
 ;
-PRInt32
+int32_t
 oldLengthInChars
 =
 fragUcs2Str
@@ -5171,7 +5171,7 @@ Length
 +
 1
 ;
-PRInt32
+int32_t
 newLengthInChars
 =
 0
@@ -5274,7 +5274,7 @@ aSourceDoc
 nsIDOMNode
 *
 aDestinationNode
-PRInt32
+int32_t
 aDestOffset
 bool
 aDoDeleteSelection
@@ -5717,7 +5717,7 @@ aInfoStr
 nsIDOMNode
 *
 aDestinationNode
-PRInt32
+int32_t
 aDestOffset
 bool
 aDoDeleteSelection
@@ -5737,7 +5737,7 @@ nsISupports
 >
 genericDataObj
 ;
-PRUint32
+uint32_t
 len
 =
 0
@@ -6302,7 +6302,7 @@ const
 nsAString
 &
 aType
-PRInt32
+int32_t
 aIndex
 nsAString
 &
@@ -6350,7 +6350,7 @@ InsertFromDataTransfer
 nsIDOMDataTransfer
 *
 aDataTransfer
-PRInt32
+int32_t
 aIndex
 nsIDOMDocument
 *
@@ -6358,7 +6358,7 @@ aSourceDoc
 nsIDOMNode
 *
 aDestinationNode
-PRInt32
+int32_t
 aDestOffset
 bool
 aDoDeleteSelection
@@ -6418,7 +6418,7 @@ IsSafeToInsertData
 aSourceDoc
 )
 ;
-PRUint32
+uint32_t
 length
 ;
 types
@@ -6432,7 +6432,7 @@ length
 ;
 for
 (
-PRUint32
+uint32_t
 t
 =
 0
@@ -6903,7 +6903,7 @@ nsHTMLEditor
 :
 Paste
 (
-PRInt32
+int32_t
 aSelectionType
 )
 {
@@ -7033,7 +7033,7 @@ nsISupports
 contextDataObj
 infoDataObj
 ;
-PRUint32
+uint32_t
 contextLen
 infoLen
 ;
@@ -7408,7 +7408,7 @@ nsHTMLEditor
 :
 PasteNoFormatting
 (
-PRInt32
+int32_t
 aSelectionType
 )
 {
@@ -7573,7 +7573,7 @@ nsHTMLEditor
 :
 CanPaste
 (
-PRInt32
+int32_t
 aSelectionType
 bool
 *
@@ -7813,7 +7813,7 @@ nsISupports
 >
 data
 ;
-PRUint32
+uint32_t
 dataLen
 ;
 nsresult
@@ -7870,7 +7870,7 @@ nsHTMLEditor
 :
 PasteAsQuotation
 (
-PRInt32
+int32_t
 aSelectionType
 )
 {
@@ -7907,7 +7907,7 @@ const
 nsAString
 &
 aCitation
-PRInt32
+int32_t
 aSelectionType
 )
 {
@@ -8095,7 +8095,7 @@ nsHTMLEditor
 :
 PasteAsPlaintextQuotation
 (
-PRInt32
+int32_t
 aSelectionType
 )
 {
@@ -8223,7 +8223,7 @@ nsISupports
 >
 genericDataObj
 ;
-PRUint32
+uint32_t
 len
 =
 0
@@ -9018,7 +9018,7 @@ rv
 newNode
 )
 {
-PRInt32
+int32_t
 offset
 ;
 nsCOMPtr
@@ -9385,7 +9385,7 @@ rv
 newNode
 )
 {
-PRInt32
+int32_t
 offset
 ;
 nsCOMPtr
@@ -9811,10 +9811,10 @@ nsIDOMNode
 >
 *
 outEndNode
-PRInt32
+int32_t
 *
 outStartOffset
-PRInt32
+int32_t
 *
 outEndOffset
 bool
@@ -10131,7 +10131,7 @@ IsEmpty
 )
 )
 {
-PRInt32
+int32_t
 sep
 num
 ;
@@ -10279,7 +10279,7 @@ GetLengthOfDOMNode
 *
 outEndNode
 (
-PRUint32
+uint32_t
 &
 )
 *
@@ -10433,12 +10433,12 @@ outNodeList
 nsIDOMNode
 *
 aStartNode
-PRInt32
+int32_t
 aStartOffset
 nsIDOMNode
 *
 aEndNode
-PRInt32
+int32_t
 aEndOffset
 )
 {
@@ -10457,7 +10457,7 @@ if
 aStartNode
 )
 {
-PRInt32
+int32_t
 fragLen
 ;
 rv
@@ -10466,7 +10466,7 @@ GetLengthOfDOMNode
 (
 aFragmentAsNode
 (
-PRUint32
+uint32_t
 &
 )
 fragLen
@@ -10577,7 +10577,7 @@ nsIDOMNode
 outArray
 )
 {
-PRInt32
+int32_t
 listCount
 =
 aListOfNodes
@@ -10594,7 +10594,7 @@ listCount
 NS_ERROR_FAILURE
 )
 ;
-PRInt32
+int32_t
 idx
 =
 0
@@ -10701,7 +10701,7 @@ nsIDOMNode
 >
 &
 aListsAndTables
-PRInt32
+int32_t
 *
 outHighWaterMark
 )
@@ -10718,7 +10718,7 @@ outHighWaterMark
 -
 1
 ;
-PRInt32
+int32_t
 listAndTableParents
 =
 aListsAndTables
@@ -10727,7 +10727,7 @@ Count
 (
 )
 ;
-PRInt32
+int32_t
 listCount
 =
 aPasteNodes
@@ -10736,7 +10736,7 @@ Count
 (
 )
 ;
-PRInt32
+int32_t
 j
 ;
 for
@@ -10808,7 +10808,7 @@ if
 theTable
 )
 {
-PRInt32
+int32_t
 indexT
 =
 aListsAndTables
@@ -10878,7 +10878,7 @@ if
 theList
 )
 {
-PRInt32
+int32_t
 indexL
 =
 aListsAndTables
@@ -10968,7 +10968,7 @@ outReplaceNode
 =
 0
 ;
-PRInt32
+int32_t
 listCount
 =
 aNodes
@@ -11166,7 +11166,7 @@ nsIDOMNode
 >
 &
 aListAndTableArray
-PRInt32
+int32_t
 aHighWaterMark
 )
 {
@@ -11311,7 +11311,7 @@ nsIDOMNode
 aNodeArray
 )
 {
-PRInt32
+int32_t
 listCount
 =
 aNodeArray

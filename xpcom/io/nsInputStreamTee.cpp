@@ -161,7 +161,7 @@ const
 char
 *
 buf
-PRUint32
+uint32_t
 count
 )
 ;
@@ -176,9 +176,9 @@ void
 const
 char
 *
-PRUint32
-PRUint32
-PRUint32
+uint32_t
+uint32_t
+uint32_t
 *
 )
 ;
@@ -234,7 +234,7 @@ const
 char
 *
 aBuf
-PRUint32
+uint32_t
 aCount
 nsIOutputStream
 *
@@ -405,7 +405,7 @@ get
 )
 )
 ;
-PRUint32
+uint32_t
 totalBytesWritten
 =
 0
@@ -418,7 +418,7 @@ mCount
 nsresult
 rv
 ;
-PRUint32
+uint32_t
 bytesWritten
 =
 0
@@ -535,7 +535,7 @@ char
 *
 mBuf
 ;
-PRUint32
+uint32_t
 mCount
 ;
 nsCOMPtr
@@ -618,7 +618,7 @@ const
 char
 *
 buf
-PRUint32
+uint32_t
 count
 )
 {
@@ -740,7 +740,7 @@ null
 nsresult
 rv
 ;
-PRUint32
+uint32_t
 totalBytesWritten
 =
 0
@@ -750,7 +750,7 @@ while
 count
 )
 {
-PRUint32
+uint32_t
 bytesWritten
 =
 0
@@ -859,11 +859,11 @@ const
 char
 *
 fromSegment
-PRUint32
+uint32_t
 offset
-PRUint32
+uint32_t
 count
-PRUint32
+uint32_t
 *
 writeCount
 )
@@ -1012,7 +1012,7 @@ nsInputStreamTee
 :
 Available
 (
-PRUint64
+uint64_t
 *
 avail
 )
@@ -1042,9 +1042,9 @@ Read
 char
 *
 buf
-PRUint32
+uint32_t
 count
-PRUint32
+uint32_t
 *
 bytesRead
 )
@@ -1107,9 +1107,9 @@ writer
 void
 *
 closure
-PRUint32
+uint32_t
 count
-PRUint32
+uint32_t
 *
 bytesRead
 )

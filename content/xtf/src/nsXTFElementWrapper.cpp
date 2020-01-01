@@ -1059,7 +1059,7 @@ InsertChildAt
 nsIContent
 *
 aKid
-PRUint32
+uint32_t
 aIndex
 bool
 aNotify
@@ -1159,7 +1159,7 @@ nsXTFElementWrapper
 :
 RemoveChildAt
 (
-PRUint32
+uint32_t
 aIndex
 bool
 aNotify
@@ -1236,7 +1236,7 @@ nsXTFElementWrapper
 :
 SetAttr
 (
-PRInt32
+int32_t
 aNameSpaceID
 nsIAtom
 *
@@ -1430,7 +1430,7 @@ nsXTFElementWrapper
 :
 GetAttr
 (
-PRInt32
+int32_t
 aNameSpaceID
 nsIAtom
 *
@@ -1503,7 +1503,7 @@ nsXTFElementWrapper
 :
 HasAttr
 (
-PRInt32
+int32_t
 aNameSpaceID
 nsIAtom
 *
@@ -1564,7 +1564,7 @@ nsXTFElementWrapper
 :
 AttrValueIs
 (
-PRInt32
+int32_t
 aNameSpaceID
 nsIAtom
 *
@@ -1677,7 +1677,7 @@ nsXTFElementWrapper
 :
 AttrValueIs
 (
-PRInt32
+int32_t
 aNameSpaceID
 nsIAtom
 *
@@ -1810,13 +1810,13 @@ aCaseSensitive
 )
 ;
 }
-PRInt32
+int32_t
 nsXTFElementWrapper
 :
 :
 FindAttrValueIn
 (
-PRInt32
+int32_t
 aNameSpaceID
 nsIAtom
 *
@@ -1897,7 +1897,7 @@ ATTR_MISSING
 }
 for
 (
-PRInt32
+int32_t
 i
 =
 0
@@ -2003,7 +2003,7 @@ nsXTFElementWrapper
 :
 UnsetAttr
 (
-PRInt32
+int32_t
 aNameSpaceID
 nsIAtom
 *
@@ -2219,12 +2219,12 @@ nsXTFElementWrapper
 :
 GetAttrNameAt
 (
-PRUint32
+uint32_t
 aIndex
 )
 const
 {
-PRUint32
+uint32_t
 innerCount
 =
 0
@@ -2315,7 +2315,7 @@ innerCount
 ;
 }
 }
-PRUint32
+uint32_t
 nsXTFElementWrapper
 :
 :
@@ -2324,7 +2324,7 @@ GetAttrCount
 )
 const
 {
-PRUint32
+uint32_t
 innerCount
 =
 0
@@ -2721,7 +2721,7 @@ if
 mAttributeHandler
 )
 {
-PRUint32
+uint32_t
 innerCount
 =
 0
@@ -2737,7 +2737,7 @@ innerCount
 ;
 for
 (
-PRUint32
+uint32_t
 i
 =
 0
@@ -3112,7 +3112,7 @@ nsXTFElementWrapper
 :
 GetInterfaces
 (
-PRUint32
+uint32_t
 *
 aCount
 nsIID
@@ -3132,7 +3132,7 @@ aCount
 =
 0
 ;
-PRUint32
+uint32_t
 baseCount
 =
 0
@@ -3144,7 +3144,7 @@ baseArray
 =
 nullptr
 ;
-PRUint32
+uint32_t
 xtfCount
 =
 0
@@ -3237,7 +3237,7 @@ return
 NS_OK
 ;
 }
-PRUint32
+uint32_t
 count
 =
 baseCount
@@ -3277,7 +3277,7 @@ iids
 NS_ERROR_OUT_OF_MEMORY
 )
 ;
-PRUint32
+uint32_t
 i
 =
 0
@@ -3458,7 +3458,7 @@ nsXTFElementWrapper
 :
 GetHelperForLanguage
 (
-PRUint32
+uint32_t
 language
 nsISupports
 *
@@ -3565,7 +3565,7 @@ nsXTFElementWrapper
 :
 GetImplementationLanguage
 (
-PRUint32
+uint32_t
 *
 aImplementationLanguage
 )
@@ -3588,7 +3588,7 @@ nsXTFElementWrapper
 :
 GetFlags
 (
-PRUint32
+uint32_t
 *
 aFlags
 )
@@ -3783,7 +3783,7 @@ nsXTFElementWrapper
 :
 GetNotificationMask
 (
-PRUint32
+uint32_t
 *
 aNotificationMask
 )
@@ -3803,7 +3803,7 @@ nsXTFElementWrapper
 :
 SetNotificationMask
 (
-PRUint32
+uint32_t
 aNotificationMask
 )
 {
@@ -4406,7 +4406,7 @@ RegisterAccessKey
 (
 this
 (
-PRUint32
+uint32_t
 )
 accessKey
 .
@@ -4423,7 +4423,7 @@ UnregisterAccessKey
 (
 this
 (
-PRUint32
+uint32_t
 )
 accessKey
 .

@@ -131,7 +131,7 @@ aContext
 nsIFrame
 *
 aFrame
-PRUint8
+uint8_t
 aWidgetType
 const
 nsRect
@@ -154,7 +154,7 @@ aContext
 nsIFrame
 *
 aFrame
-PRUint8
+uint8_t
 aWidgetType
 nsIntMargin
 *
@@ -173,7 +173,7 @@ aContext
 nsIFrame
 *
 aFrame
-PRUint8
+uint8_t
 aWidgetType
 nsIntMargin
 *
@@ -192,7 +192,7 @@ aContext
 nsIFrame
 *
 aFrame
-PRUint8
+uint8_t
 aWidgetType
 nsRect
 *
@@ -212,7 +212,7 @@ aContext
 nsIFrame
 *
 aFrame
-PRUint8
+uint8_t
 aWidgetType
 nsIntSize
 *
@@ -241,7 +241,7 @@ GetWidgetTransparency
 nsIFrame
 *
 aFrame
-PRUint8
+uint8_t
 aWidgetType
 )
 {
@@ -255,7 +255,7 @@ WidgetStateChanged
 nsIFrame
 *
 aFrame
-PRUint8
+uint8_t
 aWidgetType
 nsIAtom
 *
@@ -284,7 +284,7 @@ aPresContext
 nsIFrame
 *
 aFrame
-PRUint8
+uint8_t
 aWidgetType
 )
 =
@@ -294,7 +294,7 @@ virtual
 bool
 WidgetIsContainer
 (
-PRUint8
+uint8_t
 aWidgetType
 )
 =
@@ -310,7 +310,7 @@ aPresContext
 nsIFrame
 *
 aFrame
-PRUint8
+uint8_t
 aWidgetType
 )
 =

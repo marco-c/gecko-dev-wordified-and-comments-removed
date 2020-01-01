@@ -285,7 +285,7 @@ binding
 =
 mFirst
 ;
-PRInt32
+int32_t
 count
 =
 0
@@ -615,7 +615,7 @@ mNext
 ;
 }
 }
-PRInt32
+int32_t
 RDFBindingSet
 :
 :
@@ -630,7 +630,7 @@ RDFBinding
 aBinding
 )
 {
-PRInt32
+int32_t
 idx
 =
 0
@@ -747,7 +747,7 @@ ClearBindingSet
 (
 )
 ;
-PRInt32
+int32_t
 count
 =
 aBindings
@@ -832,7 +832,7 @@ RDFBinding
 *
 binding
 ;
-PRInt32
+int32_t
 idx
 =
 mBindings

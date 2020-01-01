@@ -100,10 +100,10 @@ nsIRDFResource
 *
 mResources
 ;
-PRInt32
+int32_t
 mCount
 ;
-PRInt32
+int32_t
 mCapacity
 ;
 public

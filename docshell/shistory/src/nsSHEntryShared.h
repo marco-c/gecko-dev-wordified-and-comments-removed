@@ -197,7 +197,7 @@ nsIContentViewer
 aViewer
 )
 ;
-PRUint64
+uint64_t
 mDocShellID
 ;
 nsCOMArray
@@ -233,10 +233,10 @@ nsISupports
 >
 mCacheKey
 ;
-PRUint32
+uint32_t
 mLastTouched
 ;
-PRUint64
+uint64_t
 mID
 ;
 nsCOMPtr

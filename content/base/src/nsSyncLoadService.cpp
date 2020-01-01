@@ -1070,7 +1070,7 @@ aOldChannel
 nsIChannel
 *
 aNewChannel
-PRUint32
+uint32_t
 aFlags
 nsIAsyncVerifyRedirectCallback
 *
@@ -1312,7 +1312,7 @@ aIn
 )
 )
 {
-PRInt32
+int32_t
 chunkSize
 ;
 rv
@@ -1343,7 +1343,7 @@ chunkSize
 =
 NS_MIN
 (
-PRInt32
+int32_t
 (
 PR_UINT16_MAX
 )
@@ -1392,7 +1392,7 @@ rv
 )
 )
 {
-PRUint64
+uint64_t
 sourceOffset
 =
 0
@@ -1402,7 +1402,7 @@ while
 1
 )
 {
-PRUint64
+uint64_t
 readCount
 =
 0
@@ -1467,18 +1467,18 @@ aChannel
 nullptr
 aIn
 (
-PRUint32
+uint32_t
 )
 NS_MIN
 (
 sourceOffset
 (
-PRUint64
+uint64_t
 )
 PR_UINT32_MAX
 )
 (
-PRUint32
+uint32_t
 )
 readCount
 )
