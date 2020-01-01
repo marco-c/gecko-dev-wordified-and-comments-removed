@@ -1457,6 +1457,14 @@ ShrinkToFit
 {
 nsCOMPtr
 <
+nsIContent
+>
+imageContent
+=
+mImageContent
+;
+nsCOMPtr
+<
 nsIDOMHTMLImageElement
 >
 image
@@ -1504,7 +1512,7 @@ mImageHeight
 )
 )
 ;
-mImageContent
+imageContent
 -
 >
 SetAttr
@@ -1736,7 +1744,15 @@ RestoreImage
 (
 )
 {
+nsCOMPtr
+<
+nsIContent
+>
+imageContent
+=
 mImageContent
+;
+imageContent
 -
 >
 UnsetAttr
@@ -1749,7 +1765,7 @@ width
 PR_TRUE
 )
 ;
-mImageContent
+imageContent
 -
 >
 UnsetAttr
@@ -1767,7 +1783,7 @@ if
 mImageIsOverflowing
 )
 {
-mImageContent
+imageContent
 -
 >
 SetAttr
@@ -1796,7 +1812,7 @@ PR_TRUE
 }
 else
 {
-mImageContent
+imageContent
 -
 >
 UnsetAttr
