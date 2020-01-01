@@ -149,7 +149,7 @@ void
 ;
 IonCode
 *
-IonRuntime
+IonCompartment
 :
 :
 generateEnterJIT
@@ -578,7 +578,7 @@ cx
 }
 IonCode
 *
-IonRuntime
+IonCompartment
 :
 :
 generateInvalidator
@@ -865,7 +865,7 @@ code
 }
 IonCode
 *
-IonRuntime
+IonCompartment
 :
 :
 generateArgumentsRectifier
@@ -1684,7 +1684,7 @@ edx
 }
 IonCode
 *
-IonRuntime
+IonCompartment
 :
 :
 generateBailoutTable
@@ -1757,7 +1757,7 @@ cx
 }
 IonCode
 *
-IonRuntime
+IonCompartment
 :
 :
 generateBailoutHandler
@@ -1794,7 +1794,7 @@ cx
 }
 IonCode
 *
-IonRuntime
+IonCompartment
 :
 :
 generateVMWrapper
@@ -2575,7 +2575,7 @@ wrapper
 }
 IonCode
 *
-IonRuntime
+IonCompartment
 :
 :
 generatePreBarrier
