@@ -444,11 +444,6 @@ GRE_MODULE
 LIBXUL_LIBRARY
 =
 1
-PACKAGE_FILE
-=
-widget_os2
-.
-pkg
 REQUIRES
 =
 gfx

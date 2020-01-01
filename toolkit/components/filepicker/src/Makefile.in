@@ -448,11 +448,6 @@ nsFileViewModule
 LIBXUL_LIBRARY
 =
 1
-PACKAGE_FILE
-=
-filepicker
-.
-pkg
 REQUIRES
 =
 \

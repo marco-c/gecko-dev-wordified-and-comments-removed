@@ -427,11 +427,6 @@ FORCE_STATIC_LIB
 LIBXUL_LIBRARY
 =
 1
-PACKAGE_FILE
-=
-typeaheadfind
-.
-pkg
 REQUIRES
 =
 content

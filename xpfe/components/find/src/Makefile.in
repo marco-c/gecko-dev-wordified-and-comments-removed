@@ -436,11 +436,6 @@ nsFindComponent
 LIBXUL_LIBRARY
 =
 1
-PACKAGE_FILE
-=
-mozfind
-.
-pkg
 REQUIRES
 =
 xpcom

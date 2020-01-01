@@ -478,11 +478,6 @@ PBBUILD_SETTINGS
 MODULE
 =
 printpde
-PACKAGE_FILE
-=
-printpde
-.
-pkg
 unexport
 CC
 CXX

@@ -429,11 +429,6 @@ RESFILE
 npnulos2
 .
 res
-PACKAGE_FILE
-=
-npnul
-.
-pkg
 REQUIRES
 =
 java

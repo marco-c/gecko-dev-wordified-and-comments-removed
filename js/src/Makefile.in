@@ -632,11 +632,6 @@ MOZ_BITS
 .
 res
 endif
-PACKAGE_FILE
-=
-js
-.
-pkg
 #
 JavaScript
 must

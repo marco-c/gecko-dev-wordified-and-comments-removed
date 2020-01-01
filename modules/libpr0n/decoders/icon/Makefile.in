@@ -426,11 +426,6 @@ IS_COMPONENT
 MODULE_NAME
 =
 nsIconDecoderModule
-PACKAGE_FILE
-=
-imgicon
-.
-pkg
 ifneq
 (
 (

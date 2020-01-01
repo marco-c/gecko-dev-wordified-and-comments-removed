@@ -416,11 +416,6 @@ mk
 MODULE
 =
 embed
-PACKAGE_FILE
-=
-embed
-.
-pkg
 DIRS
 =
 base

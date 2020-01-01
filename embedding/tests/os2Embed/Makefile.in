@@ -300,11 +300,6 @@ MOZILLA_INTERNAL_API
 MODULE
 =
 os2Embed
-PACKAGE_FILE
-=
-os2embed
-.
-pkg
 REQUIRES
 =
 xpcom

@@ -416,11 +416,6 @@ mk
 MODULE
 =
 activex
-PACKAGE_FILE
-=
-activex
-.
-pkg
 DIRS
 =
 (

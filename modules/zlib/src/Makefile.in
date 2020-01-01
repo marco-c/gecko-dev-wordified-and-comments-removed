@@ -434,11 +434,6 @@ LIBXUL_LIBRARY
 DIST_INSTALL
 =
 1
-PACKAGE_FILE
-=
-zlib
-.
-pkg
 ifndef
 MOZ_ENABLE_LIBXUL
 ifeq

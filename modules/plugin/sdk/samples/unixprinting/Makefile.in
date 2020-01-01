@@ -443,11 +443,6 @@ unixprintplugin
 GRE_MODULE
 =
 1
-PACKAGE_FILE
-=
-npprint
-.
-pkg
 REQUIRES
 =
 java

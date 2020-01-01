@@ -430,15 +430,6 @@ application
 LIBXUL_LIBRARY
 =
 1
-PACKAGE_FILE
-=
-appcomps
-.
-pkg
-PACKAGE_VARS
-+
-=
-MOZ_PHOENIX
 REQUIRES
 =
 xpcom

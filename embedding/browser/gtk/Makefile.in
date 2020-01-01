@@ -431,11 +431,6 @@ TOOL_DIRS
 =
 tests
 endif
-PACKAGE_FILE
-=
-gtkembed
-.
-pkg
 include
 (
 topsrcdir

@@ -417,11 +417,6 @@ util
 XPIDL_MODULE
 =
 util
-PACKAGE_FILE
-=
-libutil
-.
-pkg
 EXPORTS
 =
 (

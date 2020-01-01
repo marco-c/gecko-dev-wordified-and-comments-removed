@@ -448,15 +448,6 @@ EXTRA_DSO_LIBS
 =
 mozutil_s
 endif
-PACKAGE_FILE
-=
-embedcomponents
-.
-pkg
-PACKAGE_VARS
-+
-=
-MOZ_PROFILESHARING
 REQUIRES
 =
 js

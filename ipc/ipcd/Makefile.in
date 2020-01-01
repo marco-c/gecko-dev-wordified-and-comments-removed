@@ -427,11 +427,6 @@ mk
 MODULE
 =
 ipcd
-PACKAGE_FILE
-=
-ipc
-.
-pkg
 DIRS
 =
 \

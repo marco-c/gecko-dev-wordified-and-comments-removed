@@ -300,11 +300,6 @@ res
 MODULE
 =
 winEmbed
-PACKAGE_FILE
-=
-winembed
-.
-pkg
 REQUIRES
 =
 xpcom

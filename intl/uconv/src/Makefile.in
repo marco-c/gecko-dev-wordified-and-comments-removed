@@ -464,11 +464,6 @@ SHORT_LIBNAME
 =
 mozuconv
 endif
-PACKAGE_FILE
-=
-uconv
-.
-pkg
 REQUIRES
 =
 xpcom

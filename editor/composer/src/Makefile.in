@@ -430,11 +430,6 @@ nsComposerModule
 LIBXUL_LIBRARY
 =
 1
-PACKAGE_FILE
-=
-composer
-.
-pkg
 REQUIRES
 =
 xpcom

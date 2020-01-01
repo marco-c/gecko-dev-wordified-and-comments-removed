@@ -482,11 +482,6 @@ endif
 LIBXUL_LIBRARY
 =
 1
-PACKAGE_FILE
-=
-xpconnect
-.
-pkg
 REQUIRES
 =
 xpcom

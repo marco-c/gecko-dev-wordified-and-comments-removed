@@ -445,11 +445,6 @@ gkmathmlbase_s
 LIBXUL_LIBRARY
 =
 1
-PACKAGE_FILE
-=
-mathml
-.
-pkg
 REQUIRES
 =
 xpcom

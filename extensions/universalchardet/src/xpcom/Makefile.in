@@ -479,11 +479,6 @@ chardet
 (
 NULL
 )
-PACKAGE_FILE
-=
-universalchardet
-.
-pkg
 CPPSRCS
 =
 \

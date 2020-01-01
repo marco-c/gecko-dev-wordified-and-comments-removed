@@ -433,12 +433,6 @@ nsPermissionsModule
 LIBXUL_LIBRARY
 =
 1
-#
-PACKAGE_FILE
-=
-permissions
-.
-pkg
 REQUIRES
 =
 xpcom

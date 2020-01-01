@@ -417,11 +417,6 @@ mk
 MODULE
 =
 build
-PACKAGE_FILE
-=
-unix
-.
-pkg
 include
 (
 topsrcdir

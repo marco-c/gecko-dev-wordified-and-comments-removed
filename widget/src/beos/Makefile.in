@@ -432,11 +432,6 @@ GRE_MODULE
 LIBXUL_LIBRARY
 =
 1
-PACKAGE_FILE
-=
-widget_beos
-.
-pkg
 REQUIRES
 =
 xpcom

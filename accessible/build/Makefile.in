@@ -450,11 +450,6 @@ GRE_MODULE
 LIBXUL_LIBRARY
 =
 1
-PACKAGE_FILE
-=
-accessibility
-.
-pkg
 REQUIRES
 =
 xpcom
