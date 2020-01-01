@@ -15334,7 +15334,7 @@ function
 {
 gNavToolbox
 .
-hidden
+collapsed
 =
 gInPrintPreviewMode
 ;
