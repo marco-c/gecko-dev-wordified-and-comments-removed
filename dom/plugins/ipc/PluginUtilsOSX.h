@@ -138,6 +138,12 @@ mCALayer
 (
 nullptr
 )
+mContentsScaleFactor
+(
+1
+.
+0
+)
 {
 }
 size_t
@@ -195,6 +201,8 @@ size_t
 aWidth
 size_t
 aHeight
+double
+aContentsScaleFactor
 AllowOfflineRendererEnum
 aAllowOfflineRenderer
 )
@@ -219,6 +227,15 @@ ClearBackSurface
 (
 )
 ;
+double
+GetContentsScaleFactor
+(
+)
+{
+return
+mContentsScaleFactor
+;
+}
 private
 :
 void
@@ -242,6 +259,9 @@ RefPtr
 MacIOSurface
 >
 mBackSurface
+;
+double
+mContentsScaleFactor
 ;
 }
 ;

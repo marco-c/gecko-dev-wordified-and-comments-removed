@@ -84,6 +84,14 @@ return
 NS_ERROR_NOT_AVAILABLE
 ;
 }
+NS_IMETHOD
+GetContentsScaleFactor
+(
+double
+*
+aContentsScaleFactor
+)
+;
 protected
 :
 virtual

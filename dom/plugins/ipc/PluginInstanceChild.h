@@ -1411,6 +1411,17 @@ mData
 NPWindow
 mWindow
 ;
+#
+if
+defined
+(
+XP_MACOSX
+)
+double
+mContentsScaleFactor
+;
+#
+endif
 int16_t
 mDrawingModel
 ;

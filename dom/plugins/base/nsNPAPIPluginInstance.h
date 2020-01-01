@@ -1216,6 +1216,11 @@ CarbonNPAPIFailure
 (
 )
 ;
+double
+GetContentsScaleFactor
+(
+)
+;
 protected
 :
 nsresult

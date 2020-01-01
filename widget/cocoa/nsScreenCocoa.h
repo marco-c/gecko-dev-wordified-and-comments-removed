@@ -90,6 +90,14 @@ int32_t
 aColorDepth
 )
 ;
+NS_IMETHOD
+GetContentsScaleFactor
+(
+double
+*
+aContentsScaleFactor
+)
+;
 NSScreen
 *
 CocoaScreen

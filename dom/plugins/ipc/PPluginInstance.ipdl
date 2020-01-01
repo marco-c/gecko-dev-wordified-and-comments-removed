@@ -237,6 +237,9 @@ IOSurfaceDescriptor
 uint32_t
 surfaceId
 ;
+double
+contentsScaleFactor
+;
 }
 ;
 union

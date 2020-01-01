@@ -133,6 +133,12 @@ mAllowOfflineRenderer
 (
 DISALLOW_OFFLINE_RENDERER
 )
+mContentsScaleFactor
+(
+1
+.
+0
+)
 {
 }
 ~
@@ -150,6 +156,8 @@ int
 aWidth
 int
 aHeight
+double
+aContentsScaleFactor
 AllowOfflineRendererEnum
 aAllowOfflineRenderer
 )
@@ -161,6 +169,8 @@ int
 aWidth
 int
 aHeight
+double
+aContentsScaleFactor
 CGImageRef
 *
 aOutCAImage
@@ -310,6 +320,9 @@ mUnsupportedHeight
 ;
 AllowOfflineRendererEnum
 mAllowOfflineRenderer
+;
+double
+mContentsScaleFactor
 ;
 }
 ;
