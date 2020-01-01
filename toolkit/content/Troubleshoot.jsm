@@ -1033,8 +1033,6 @@ msg
 =
 [
 "
-no
-information
 "
 ]
 ;
