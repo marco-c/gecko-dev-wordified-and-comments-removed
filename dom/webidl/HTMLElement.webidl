@@ -449,6 +449,7 @@ commandChecked
 /
 styling
 [
+Throws
 Constant
 ]
 readonly
@@ -1044,8 +1045,6 @@ attribute
 EventHandler
 onpaste
 ;
-/
-*
 }
 ;
 /
@@ -1080,8 +1079,6 @@ partial
 interface
 HTMLElement
 {
-*
-/
 readonly
 attribute
 Element

@@ -221,16 +221,12 @@ attribute
 DOMString
 scope
 ;
-/
-*
 }
 ;
 partial
 interface
 HTMLTableCellElement
 {
-*
-/
 [
 SetterThrows
 ]

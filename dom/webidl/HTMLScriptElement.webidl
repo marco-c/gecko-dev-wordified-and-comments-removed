@@ -212,8 +212,6 @@ attribute
 DOMString
 text
 ;
-/
-*
 }
 ;
 /
@@ -252,8 +250,6 @@ partial
 interface
 HTMLScriptElement
 {
-*
-/
 [
 SetterThrows
 ]

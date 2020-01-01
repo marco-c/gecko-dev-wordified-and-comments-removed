@@ -226,8 +226,6 @@ HTMLDListElement
 :
 HTMLElement
 {
-/
-*
 }
 ;
 /
@@ -266,8 +264,6 @@ partial
 interface
 HTMLDListElement
 {
-*
-/
 [
 SetterThrows
 ]

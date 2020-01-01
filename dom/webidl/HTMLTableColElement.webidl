@@ -166,16 +166,12 @@ unsigned
 long
 span
 ;
-/
-*
 }
 ;
 partial
 interface
 HTMLTableColElement
 {
-*
-/
 attribute
 DOMString
 align

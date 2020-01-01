@@ -247,8 +247,6 @@ attribute
 DOMString
 type
 ;
-/
-*
 }
 ;
 /
@@ -287,8 +285,6 @@ partial
 interface
 HTMLOListElement
 {
-*
-/
 [
 SetterThrows
 ]

@@ -225,8 +225,6 @@ HTMLParagraphElement
 :
 HTMLElement
 {
-/
-*
 }
 ;
 /
@@ -265,8 +263,6 @@ partial
 interface
 HTMLParagraphElement
 {
-*
-/
 [
 SetterThrows
 ]

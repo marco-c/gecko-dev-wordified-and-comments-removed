@@ -249,8 +249,6 @@ HTMLHeadingElement
 :
 HTMLElement
 {
-/
-*
 }
 ;
 /
@@ -289,8 +287,6 @@ partial
 interface
 HTMLHeadingElement
 {
-*
-/
 attribute
 DOMString
 align

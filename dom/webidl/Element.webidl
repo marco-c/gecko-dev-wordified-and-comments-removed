@@ -915,8 +915,6 @@ Attr
 newAttr
 )
 ;
-/
-*
 }
 ;
 /
@@ -951,8 +949,6 @@ partial
 interface
 Element
 {
-*
-/
 [
 Throws
 ]
@@ -1080,8 +1076,6 @@ attribute
 long
 scrollLeftMax
 ;
-/
-*
 }
 ;
 /
@@ -1113,8 +1107,6 @@ partial
 interface
 Element
 {
-*
-/
 [
 Pref
 =
@@ -1148,8 +1140,6 @@ attribute
 boolean
 undoScope
 ;
-/
-*
 }
 ;
 /
@@ -1180,8 +1170,6 @@ partial
 interface
 Element
 {
-*
-/
 [
 Throws
 TreatNullAs
@@ -1214,8 +1202,6 @@ DOMString
 text
 )
 ;
-/
-*
 }
 ;
 /
@@ -1244,8 +1230,6 @@ partial
 interface
 Element
 {
-*
-/
 [
 Throws
 ]

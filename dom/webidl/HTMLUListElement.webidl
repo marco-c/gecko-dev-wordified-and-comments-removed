@@ -226,8 +226,6 @@ HTMLUListElement
 :
 HTMLElement
 {
-/
-*
 }
 ;
 /
@@ -266,8 +264,6 @@ partial
 interface
 HTMLUListElement
 {
-*
-/
 [
 SetterThrows
 ]

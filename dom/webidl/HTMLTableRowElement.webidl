@@ -200,16 +200,12 @@ long
 index
 )
 ;
-/
-*
 }
 ;
 partial
 interface
 HTMLTableRowElement
 {
-*
-/
 [
 SetterThrows
 ]

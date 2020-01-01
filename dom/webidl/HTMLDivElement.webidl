@@ -161,16 +161,12 @@ HTMLDivElement
 :
 HTMLElement
 {
-/
-*
 }
 ;
 partial
 interface
 HTMLDivElement
 {
-*
-/
 [
 SetterThrows
 ]

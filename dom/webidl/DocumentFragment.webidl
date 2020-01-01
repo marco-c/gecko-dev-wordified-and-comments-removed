@@ -221,10 +221,10 @@ nodes
 ;
 *
 /
-/
-*
 }
 ;
+/
+/
 http
 :
 /
@@ -255,8 +255,6 @@ partial
 interface
 DocumentFragment
 {
-*
-/
 [
 Throws
 ]

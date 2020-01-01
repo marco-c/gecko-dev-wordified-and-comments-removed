@@ -350,8 +350,6 @@ attribute
 DOMString
 hash
 ;
-/
-*
 }
 ;
 /
@@ -390,8 +388,6 @@ partial
 interface
 HTMLAnchorElement
 {
-*
-/
 [
 SetterThrows
 ]

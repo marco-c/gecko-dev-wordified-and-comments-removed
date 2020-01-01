@@ -190,16 +190,12 @@ long
 index
 )
 ;
-/
-*
 }
 ;
 partial
 interface
 HTMLTableSectionElement
 {
-*
-/
 [
 SetterThrows
 ]

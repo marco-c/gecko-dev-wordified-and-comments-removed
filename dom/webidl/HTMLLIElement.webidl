@@ -233,8 +233,6 @@ attribute
 long
 value
 ;
-/
-*
 }
 ;
 /
@@ -273,8 +271,6 @@ partial
 interface
 HTMLLIElement
 {
-*
-/
 [
 SetterThrows
 ]

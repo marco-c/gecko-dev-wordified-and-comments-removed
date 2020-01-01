@@ -225,8 +225,6 @@ HTMLPreElement
 :
 HTMLElement
 {
-/
-*
 }
 ;
 /
@@ -265,8 +263,6 @@ partial
 interface
 HTMLPreElement
 {
-*
-/
 [
 SetterThrows
 ]

@@ -266,16 +266,12 @@ stopSorting
 (
 )
 ;
-/
-*
 }
 ;
 partial
 interface
 HTMLTableElement
 {
-*
-/
 [
 SetterThrows
 ]

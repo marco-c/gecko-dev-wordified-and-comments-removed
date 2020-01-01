@@ -308,8 +308,6 @@ attribute
 boolean
 complete
 ;
-/
-*
 }
 ;
 /
@@ -348,8 +346,6 @@ partial
 interface
 HTMLImageElement
 {
-*
-/
 [
 SetterThrows
 ]

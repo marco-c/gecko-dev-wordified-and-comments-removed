@@ -311,16 +311,12 @@ attribute
 EventHandler
 onunload
 ;
-/
-*
 }
 ;
 partial
 interface
 HTMLBodyElement
 {
-*
-/
 [
 TreatNullAs
 =

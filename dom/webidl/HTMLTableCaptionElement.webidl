@@ -161,16 +161,12 @@ HTMLTableCaptionElement
 :
 HTMLElement
 {
-/
-*
 }
 ;
 partial
 interface
 HTMLTableCaptionElement
 {
-*
-/
 [
 SetterThrows
 ]
