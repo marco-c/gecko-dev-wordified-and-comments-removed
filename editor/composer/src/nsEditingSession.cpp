@@ -1689,17 +1689,6 @@ presShell
 NS_ERROR_FAILURE
 )
 ;
-nsCOMPtr
-<
-nsISelectionController
->
-selCon
-=
-do_QueryInterface
-(
-presShell
-)
-;
 rv
 =
 editor
@@ -1710,7 +1699,7 @@ Init
 domDoc
 presShell
 nsnull
-selCon
+nsnull
 mEditorFlags
 )
 ;
