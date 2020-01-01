@@ -2727,10 +2727,6 @@ js_HasNamedPropertyInt32
 )
 JS_DECLARE_CALLINFO
 (
-js_CallGetter
-)
-JS_DECLARE_CALLINFO
-(
 js_TypeOfObject
 )
 JS_DECLARE_CALLINFO
