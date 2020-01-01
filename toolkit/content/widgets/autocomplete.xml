@@ -7223,15 +7223,6 @@ treerows
 >
 <
 content
-onmousedown
-=
-"
-event
-.
-preventDefault
-(
-)
-"
 >
 <
 xul
