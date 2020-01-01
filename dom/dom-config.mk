@@ -186,6 +186,12 @@ content
 /
 media
 /
+mediasource
+\
+content
+/
+media
+/
 webaudio
 \
 content

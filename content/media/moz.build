@@ -106,6 +106,14 @@ PARALLEL_DIRS
 =
 [
 '
+mediasource
+'
+]
+PARALLEL_DIRS
++
+=
+[
+'
 webaudio
 '
 ]
