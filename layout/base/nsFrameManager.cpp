@@ -4501,9 +4501,9 @@ ACCESSIBILITY
 PRBool
 wasFrameVisible
 =
-mPresShell
--
->
+nsIPresShell
+:
+:
 IsAccessibilityActive
 (
 )
@@ -6054,9 +6054,9 @@ eDontNotify
 ;
 if
 (
-mPresShell
--
->
+nsIPresShell
+:
+:
 IsAccessibilityActive
 (
 )
