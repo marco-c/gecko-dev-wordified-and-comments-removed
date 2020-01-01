@@ -735,11 +735,7 @@ hasPref
 (
 uri1
 "
-browser
-.
-download
-.
-lastDir
+lastDownloadDirectory
 "
 )
 false
