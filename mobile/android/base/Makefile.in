@@ -993,6 +993,10 @@ SubdocumentScrollHelper
 .
 java
 \
+GeckoNetworkManager
+.
+java
+\
 (
 NULL
 )

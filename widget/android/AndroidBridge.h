@@ -103,6 +103,9 @@ hal
 class
 BatteryInformation
 ;
+class
+NetworkInformation
+;
 }
 namespace
 dom
@@ -1315,6 +1318,17 @@ IsTablet
 (
 )
 ;
+void
+GetCurrentNetworkInformation
+(
+hal
+:
+:
+NetworkInformation
+*
+aNetworkInfo
+)
+;
 protected
 :
 static
@@ -1565,6 +1579,9 @@ jGetNextMessageinList
 ;
 jmethodID
 jClearMessageList
+;
+jmethodID
+jGetCurrentNetworkInformation
 ;
 jclass
 jEGLSurfaceImplClass

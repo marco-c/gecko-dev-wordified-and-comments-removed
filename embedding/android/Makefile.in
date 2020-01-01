@@ -473,6 +473,10 @@ VideoPlayer
 .
 java
 \
+GeckoNetworkManager
+.
+java
+\
 (
 NULL
 )
