@@ -5118,6 +5118,12 @@ if
 layerState
 =
 =
+LAYER_ACTIVE_FORCE
+|
+|
+layerState
+=
+=
 LAYER_ACTIVE
 &
 &
