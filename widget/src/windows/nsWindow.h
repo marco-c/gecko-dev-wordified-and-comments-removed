@@ -1818,7 +1818,7 @@ PRPackedBool
 mHas3DBorder
 ;
 PRPackedBool
-mIsDestroying
+mInDtor
 ;
 PRPackedBool
 mIsVisible
