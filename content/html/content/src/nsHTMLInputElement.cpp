@@ -1043,7 +1043,7 @@ aInput
 ;
 NS_IMETHOD_
 (
-PRInt32
+PRUint32
 )
 GetType
 (
@@ -1631,7 +1631,7 @@ nsIControllers
 >
 mControllers
 ;
-PRInt8
+PRUint8
 mType
 ;
 PRInt16
