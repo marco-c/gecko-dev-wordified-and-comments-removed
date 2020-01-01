@@ -153,6 +153,16 @@ limit
 bumpSpaceSize
 ;
 }
+BumpChunk
+*
+thisDuringConstruction
+(
+)
+{
+return
+this
+;
+}
 explicit
 BumpChunk
 (
@@ -168,7 +178,9 @@ char
 *
 >
 (
-this
+thisDuringConstruction
+(
+)
 )
 +
 sizeof
