@@ -171,6 +171,14 @@ scale
 .
 75
 }
+{
+width
+:
+10000
+scale
+:
+10
+}
 ]
 ;
 function
