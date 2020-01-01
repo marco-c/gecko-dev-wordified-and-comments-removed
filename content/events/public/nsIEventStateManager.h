@@ -544,4 +544,9 @@ CSS3
 -
 Selectors
 #
+define
+NS_EVENT_STATE_HANDLER_CRASHED
+\
+0x08000000
+#
 endif
