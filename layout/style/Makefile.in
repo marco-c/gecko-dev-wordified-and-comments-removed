@@ -552,10 +552,6 @@ nsICSSStyleSheet
 .
 h
 \
-nsIHTMLCSSStyleSheet
-.
-h
-\
 nsIStyleRule
 .
 h

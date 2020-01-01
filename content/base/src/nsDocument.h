@@ -392,7 +392,7 @@ h
 #
 include
 "
-nsIHTMLCSSStyleSheet
+nsHTMLCSSStyleSheet
 .
 h
 "
@@ -2492,7 +2492,7 @@ mAttrStyleSheet
 ;
 }
 virtual
-nsIHTMLCSSStyleSheet
+nsHTMLCSSStyleSheet
 *
 GetInlineStyleSheet
 (
@@ -4083,9 +4083,9 @@ nsHTMLStyleSheet
 >
 mAttrStyleSheet
 ;
-nsCOMPtr
+nsRefPtr
 <
-nsIHTMLCSSStyleSheet
+nsHTMLCSSStyleSheet
 >
 mStyleAttrStyleSheet
 ;
