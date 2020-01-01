@@ -9702,13 +9702,13 @@ addPluginView
 (
 View
 view
-int
+float
 x
-int
+float
 y
-int
+float
 w
-int
+float
 h
 boolean
 isFullScreen
@@ -9731,7 +9731,7 @@ addPluginView
 (
 view
 new
-Rect
+RectF
 (
 x
 y
@@ -11121,7 +11121,7 @@ addPluginView
 View
 view
 final
-Rect
+RectF
 rect
 final
 boolean
