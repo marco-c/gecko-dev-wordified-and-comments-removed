@@ -161,6 +161,14 @@ VisitData
 aVisitData
 )
 ;
+bool
+FetchPageInfo
+(
+VisitData
+&
+_place
+)
+;
 static
 History
 *
