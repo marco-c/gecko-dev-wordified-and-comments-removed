@@ -1399,6 +1399,12 @@ CreateEventListeners
 )
 ;
 virtual
+nsresult
+InstallEventListeners
+(
+)
+;
+virtual
 void
 RemoveEventListeners
 (

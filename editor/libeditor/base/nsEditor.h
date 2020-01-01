@@ -893,6 +893,7 @@ nsIWidget
 aWidget
 )
 ;
+virtual
 nsresult
 InstallEventListeners
 (
