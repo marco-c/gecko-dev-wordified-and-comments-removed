@@ -107,6 +107,10 @@ test_bug845960
 .
 html
 \
+test_bug856771
+.
+html
+\
 test_analyserNode
 .
 html
