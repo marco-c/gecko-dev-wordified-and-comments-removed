@@ -7593,9 +7593,7 @@ GetWidth
 (
 )
 {
-nscoord
-width
-;
+return
 mTextRunConstructionContext
 -
 >
@@ -7603,12 +7601,7 @@ GetWidth
 (
 mText
 mLength
-width
-nsnull
 )
-;
-return
-width
 ;
 }
 virtual
