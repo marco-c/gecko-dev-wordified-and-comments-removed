@@ -274,6 +274,10 @@ aNetworkCreated
 nsresult
 InstantiatePluginInstance
 (
+bool
+aIsLoading
+=
+false
 )
 ;
 void
@@ -525,6 +529,11 @@ const
 nsCString
 &
 aType
+)
+;
+bool
+MakePluginListener
+(
 )
 ;
 void
