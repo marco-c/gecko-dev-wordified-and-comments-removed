@@ -209,7 +209,7 @@ www
 .
 mozilla
 .
-com
+org
 /
 firefox
 /

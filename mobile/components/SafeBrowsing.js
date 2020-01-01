@@ -407,7 +407,7 @@ testData
 "
 mozilla
 .
-com
+org
 /
 firefox
 /
@@ -468,7 +468,7 @@ testData
 "
 mozilla
 .
-com
+org
 /
 firefox
 /

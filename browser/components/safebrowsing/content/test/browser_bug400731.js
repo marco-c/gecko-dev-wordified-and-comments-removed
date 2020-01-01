@@ -41,7 +41,7 @@ www
 .
 mozilla
 .
-com
+org
 /
 firefox
 /
@@ -157,7 +157,7 @@ www
 .
 mozilla
 .
-com
+org
 /
 firefox
 /

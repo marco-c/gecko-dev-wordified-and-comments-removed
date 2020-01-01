@@ -1496,7 +1496,7 @@ www
 .
 mozilla
 .
-com
+org
 :
 80
 #
