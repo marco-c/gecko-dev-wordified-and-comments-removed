@@ -35,6 +35,9 @@ T
 struct
 already_AddRefed
 ;
+class
+nsIStyleSheet
+;
 #
 define
 NS_ICSS_RULE_IID

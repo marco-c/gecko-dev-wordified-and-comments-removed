@@ -78,9 +78,6 @@ class
 nsIAtom
 ;
 class
-nsICSSImportRule
-;
-class
 nsICSSLoaderObserver
 ;
 class
@@ -380,6 +377,9 @@ css
 class
 SheetLoadData
 ;
+class
+ImportRule
+;
 enum
 StyleSheetState
 {
@@ -532,7 +532,7 @@ aURL
 nsMediaList
 *
 aMedia
-nsICSSImportRule
+ImportRule
 *
 aRule
 )
@@ -789,7 +789,7 @@ aSheet
 nsCSSStyleSheet
 *
 aParentSheet
-nsICSSImportRule
+ImportRule
 *
 aParentRule
 )

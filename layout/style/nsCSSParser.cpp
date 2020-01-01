@@ -51,7 +51,11 @@ h
 #
 include
 "
-nsICSSImportRule
+mozilla
+/
+css
+/
+ImportRule
 .
 h
 "
@@ -8294,9 +8298,12 @@ void
 aData
 )
 {
-nsCOMPtr
+nsRefPtr
 <
-nsICSSImportRule
+css
+:
+:
+ImportRule
 >
 rule
 ;

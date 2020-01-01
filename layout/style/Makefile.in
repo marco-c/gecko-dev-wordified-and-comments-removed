@@ -516,10 +516,6 @@ nsICSSGroupRule
 .
 h
 \
-nsICSSImportRule
-.
-h
-\
 nsICSSLoaderObserver
 .
 h
@@ -617,6 +613,10 @@ css
 =
 \
 Declaration
+.
+h
+\
+ImportRule
 .
 h
 \
