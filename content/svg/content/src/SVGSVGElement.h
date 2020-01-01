@@ -18,13 +18,6 @@ h
 #
 include
 "
-nsIDOMSVGFitToViewBox
-.
-h
-"
-#
-include
-"
 nsISVGPoint
 .
 h
@@ -362,8 +355,6 @@ public
 SVGSVGElementBase
 public
 nsIDOMSVGSVGElement
-public
-nsIDOMSVGFitToViewBox
 {
 friend
 class
@@ -454,7 +445,6 @@ SVGSVGElement
 SVGSVGElementBase
 )
 NS_DECL_NSIDOMSVGSVGELEMENT
-NS_DECL_NSIDOMSVGFITTOVIEWBOX
 NS_FORWARD_NSIDOMNODE_TO_NSINODE
 NS_FORWARD_NSIDOMELEMENT_TO_GENERIC
 NS_FORWARD_NSIDOMSVGELEMENT
