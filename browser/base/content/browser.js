@@ -35155,6 +35155,12 @@ command
 if
 (
 gURLBar
+&
+&
+!
+PrivateBrowsingUtils
+.
+permanentPrivateBrowsing
 )
 {
 gURLBar
@@ -35187,6 +35193,7 @@ aWindow
 {
 if
 (
+(
 PrivateBrowsingUtils
 .
 isWindowPrivate
@@ -35201,6 +35208,13 @@ isWindowPrivate
 (
 aWindow
 )
+)
+&
+&
+!
+PrivateBrowsingUtils
+.
+permanentPrivateBrowsing
 )
 {
 return
