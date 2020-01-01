@@ -3545,13 +3545,6 @@ xpfe
 /
 components
 /
-winhooks
-/
-Makefile
-xpfe
-/
-components
-/
 windowds
 /
 Makefile
