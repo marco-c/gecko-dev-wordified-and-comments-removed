@@ -10096,6 +10096,13 @@ mResults
 [
 ]
 ;
+this
+.
+mCounts
+=
+[
+]
+;
 if
 (
 this
