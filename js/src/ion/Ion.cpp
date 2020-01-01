@@ -3363,6 +3363,12 @@ needs
 ;
 }
 }
+namespace
+js
+{
+namespace
+ion
+{
 static
 bool
 BuildMIR
@@ -4800,6 +4806,8 @@ Method_Compiled
 :
 Method_Skipped
 ;
+}
+}
 }
 MethodStatus
 ion
