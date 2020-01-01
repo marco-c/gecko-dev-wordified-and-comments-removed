@@ -252,7 +252,7 @@ nsIChannelEventSink
 define
 SEC_WEBSOCKET_VERSION
 "
-8
+13
 "
 class
 CallOnMessageAvailable
@@ -7668,10 +7668,6 @@ SetRequestHeader
 NS_LITERAL_CSTRING
 (
 "
-Sec
--
-WebSocket
--
 Origin
 "
 )
