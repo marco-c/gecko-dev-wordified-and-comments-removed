@@ -245,6 +245,15 @@ kind
 =
 0
 ;
+virtual
+nsCycleCollectionParticipant
+*
+GetParticipant
+(
+)
+=
+0
+;
 }
 ;
 #

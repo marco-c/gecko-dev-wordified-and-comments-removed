@@ -221,12 +221,8 @@ mJSObj
 ;
 cb
 .
-NoteScriptChild
+NoteJSChild
 (
-nsIProgrammingLanguage
-:
-:
-JAVASCRIPT
 tmp
 -
 >

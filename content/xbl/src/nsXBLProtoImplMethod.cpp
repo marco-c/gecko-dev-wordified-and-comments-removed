@@ -974,10 +974,6 @@ mJSMethodObject
 {
 aCallback
 (
-nsIProgrammingLanguage
-:
-:
-JAVASCRIPT
 mJSMethodObject
 "
 mJSMethodObject

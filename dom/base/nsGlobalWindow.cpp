@@ -5814,10 +5814,6 @@ data
 >
 callback
 (
-nsIProgrammingLanguage
-:
-:
-JAVASCRIPT
 aData
 "
 Cached
