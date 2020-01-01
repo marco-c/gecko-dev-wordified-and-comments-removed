@@ -1360,7 +1360,10 @@ while
 scope
 -
 >
-isWith
+is
+<
+WithObject
+>
 (
 )
 )
@@ -1370,7 +1373,10 @@ scope
 scope
 -
 >
-asWith
+as
+<
+WithObject
+>
 (
 )
 .
@@ -2360,7 +2366,10 @@ scopeChain
 )
 -
 >
-isWith
+is
+<
+WithObject
+>
 (
 )
 )

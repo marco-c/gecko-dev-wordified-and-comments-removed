@@ -1097,7 +1097,10 @@ getClass
 =
 =
 &
-WithClass
+WithObject
+:
+:
+class_
 &
 &
 !
@@ -1114,7 +1117,10 @@ normalized
 normalized
 -
 >
-asWith
+as
+<
+WithObject
+>
 (
 )
 .

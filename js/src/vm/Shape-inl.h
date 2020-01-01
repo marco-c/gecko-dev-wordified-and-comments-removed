@@ -1930,7 +1930,10 @@ if
 obj
 -
 >
-isWith
+is
+<
+WithObject
+>
 (
 )
 )
@@ -1943,7 +1946,10 @@ cx
 obj
 -
 >
-asWith
+as
+<
+WithObject
+>
 (
 )
 .

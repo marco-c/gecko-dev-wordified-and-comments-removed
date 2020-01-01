@@ -4463,7 +4463,10 @@ scope
 (
 )
 .
-asWith
+as
+<
+WithObject
+>
 (
 )
 .

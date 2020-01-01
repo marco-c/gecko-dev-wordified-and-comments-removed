@@ -1270,7 +1270,10 @@ CallObject
 object
 -
 >
-isWith
+is
+<
+WithObject
+>
 (
 )
 |

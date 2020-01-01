@@ -600,6 +600,10 @@ gc
 FINALIZE_OBJECT4_BACKGROUND
 ;
 static
+Class
+class_
+;
+static
 WithObject
 *
 create
@@ -1716,7 +1720,13 @@ BlockObject
 )
 |
 |
-isWith
+is
+<
+js
+:
+:
+WithObject
+>
 (
 )
 ;
