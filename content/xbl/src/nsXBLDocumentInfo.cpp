@@ -187,6 +187,15 @@ BindingUtils
 .
 h
 "
+#
+include
+"
+mozilla
+/
+Util
+.
+h
+"
 using
 namespace
 mozilla
@@ -1051,7 +1060,10 @@ WillInitializeContext
 (
 )
 ;
+DebugOnly
+<
 nsresult
+>
 rv
 =
 newCtx
