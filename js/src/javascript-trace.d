@@ -449,10 +449,13 @@ javascript
 probe
 function__entry
 (
+const
 char
 *
+const
 char
 *
+const
 char
 *
 )
@@ -460,10 +463,13 @@ char
 probe
 function__return
 (
+const
 char
 *
+const
 char
 *
+const
 char
 *
 )
@@ -495,6 +501,7 @@ radar
 probe
 object__create
 (
+const
 char
 *
 unsigned
@@ -504,8 +511,10 @@ long
 probe
 object__finalize
 (
+const
 char
 *
+const
 char
 *
 unsigned
@@ -515,6 +524,7 @@ long
 probe
 execute__start
 (
+const
 char
 *
 int
@@ -523,6 +533,7 @@ int
 probe
 execute__done
 (
+const
 char
 *
 int
