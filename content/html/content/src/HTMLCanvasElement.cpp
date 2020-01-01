@@ -3636,6 +3636,10 @@ Failed
 )
 )
 {
+rv
+=
+NS_OK
+;
 return
 nullptr
 ;
