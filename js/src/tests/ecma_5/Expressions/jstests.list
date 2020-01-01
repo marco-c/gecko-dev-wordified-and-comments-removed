@@ -57,3 +57,13 @@ accessor
 arguments
 .
 js
+script
+string
+-
+literal
+-
+escape
+-
+sequences
+.
+js
