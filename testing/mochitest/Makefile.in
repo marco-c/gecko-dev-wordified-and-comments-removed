@@ -419,6 +419,8 @@ MochiKit
 \
 static
 \
+dynamic
+\
 tests
 \
 chrome

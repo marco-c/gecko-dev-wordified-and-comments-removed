@@ -1354,7 +1354,6 @@ nsAString
 aName
 )
 {
-return
 GetAttr
 (
 kNameSpaceID_None
@@ -1363,6 +1362,14 @@ nsGkAtoms
 :
 name
 aName
+)
+;
+return
+!
+aName
+.
+IsEmpty
+(
 )
 ;
 }
@@ -9775,6 +9782,9 @@ yVal
 )
 ;
 }
+return
+NS_OK
+;
 }
 if
 (
