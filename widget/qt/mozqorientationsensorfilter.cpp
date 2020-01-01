@@ -32,6 +32,10 @@ nsXULAppAPI
 .
 h
 "
+using
+namespace
+QtMobility
+;
 int
 MozQOrientationSensorFilter
 :

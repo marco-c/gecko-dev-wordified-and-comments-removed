@@ -34,6 +34,9 @@ MozQOrientationSensorFilter
 public
 QObject
 public
+QtMobility
+:
+:
 QOrientationFilter
 {
 Q_OBJECT
@@ -59,6 +62,9 @@ virtual
 bool
 filter
 (
+QtMobility
+:
+:
 QOrientationReading
 *
 reading
@@ -89,6 +95,9 @@ private
 bool
 filter
 (
+QtMobility
+:
+:
 QSensorReading
 *
 reading
@@ -99,6 +108,9 @@ filter
 (
 static_cast
 <
+QtMobility
+:
+:
 QOrientationReading
 *
 >
