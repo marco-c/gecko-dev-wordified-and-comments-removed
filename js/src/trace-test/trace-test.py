@@ -2543,8 +2543,6 @@ default
 =
 '
 j
-m
-mj
 '
                   
 help
