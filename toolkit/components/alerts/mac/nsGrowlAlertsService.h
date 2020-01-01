@@ -1,9 +1,9 @@
 #
 ifndef
-nsAlertsService_h_
+nsGrowlAlertsService_h_
 #
 define
-nsAlertsService_h_
+nsGrowlAlertsService_h_
 #
 include
 "
@@ -22,7 +22,7 @@ struct
 GrowlDelegateWrapper
 ;
 class
-nsAlertsService
+nsGrowlAlertsService
 :
 public
 nsIAlertsService
@@ -34,7 +34,7 @@ public
 NS_DECL_ISUPPORTS
 NS_DECL_NSIALERTSSERVICE
 NS_DECL_NSIOBSERVER
-nsAlertsService
+nsGrowlAlertsService
 (
 )
 ;
@@ -51,7 +51,7 @@ mDelegate
 ;
 virtual
 ~
-nsAlertsService
+nsGrowlAlertsService
 (
 )
 ;

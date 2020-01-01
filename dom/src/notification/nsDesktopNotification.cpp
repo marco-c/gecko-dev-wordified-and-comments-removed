@@ -62,7 +62,7 @@ NS_IMPL_ISUPPORTS1
 AlertServiceObserver
 nsIObserver
 )
-void
+nsresult
 nsDOMDesktopNotification
 :
 :
@@ -97,6 +97,7 @@ if
 alerts
 )
 return
+NS_ERROR_NOT_IMPLEMENTED
 ;
 if
 (
@@ -111,6 +112,7 @@ AlertServiceObserver
 this
 )
 ;
+return
 alerts
 -
 >
@@ -535,7 +537,7 @@ nullptr
 }
 }
 }
-void
+nsresult
 nsDOMDesktopNotification
 :
 :
@@ -556,9 +558,13 @@ mShowHasBeenCalled
 &
 aAllow
 )
+return
 PostDesktopNotification
 (
 )
+;
+return
+NS_OK
 ;
 }
 void
@@ -652,12 +658,10 @@ mAllow
 return
 NS_OK
 ;
+return
 PostDesktopNotification
 (
 )
-;
-return
-NS_OK
 ;
 }
 NS_IMETHODIMP
@@ -950,6 +954,9 @@ Cancel
 (
 )
 {
+nsresult
+rv
+=
 mDesktopNotification
 -
 >
@@ -963,7 +970,7 @@ mDesktopNotification
 nullptr
 ;
 return
-NS_OK
+rv
 ;
 }
 NS_IMETHODIMP
@@ -974,6 +981,9 @@ Allow
 (
 )
 {
+nsresult
+rv
+=
 mDesktopNotification
 -
 >
@@ -987,7 +997,7 @@ mDesktopNotification
 nullptr
 ;
 return
-NS_OK
+rv
 ;
 }
 NS_IMETHODIMP
