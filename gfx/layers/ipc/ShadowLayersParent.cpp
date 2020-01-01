@@ -2248,7 +2248,7 @@ AsLayer
 )
 )
 ;
-SurfaceDescriptor
+SharedImage
 newFront
 =
 op
@@ -2280,15 +2280,11 @@ newFront
 =
 =
 newBack
-.
-get_SurfaceDescriptor
-(
-)
 )
 {
 newFront
 =
-SurfaceDescriptor
+SharedImage
 (
 )
 ;
