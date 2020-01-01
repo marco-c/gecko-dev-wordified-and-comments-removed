@@ -478,7 +478,7 @@ test_nsIAccessibleTable_listboxes
 .
 xul
 \
-test_nsIAccessibleHyperlink
+test_nsIAccessibleHyperLink
 .
 html
 \
