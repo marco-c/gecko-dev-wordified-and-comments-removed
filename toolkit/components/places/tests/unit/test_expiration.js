@@ -3546,14 +3546,6 @@ n
 "
 )
 ;
-bmsvc
-.
-changeBookmarkURI
-(
-bookmark
-testURI
-)
-;
 var
 age
 =
