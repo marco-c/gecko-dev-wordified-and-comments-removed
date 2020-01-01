@@ -2147,13 +2147,6 @@ aNotify
 )
 ;
 void
-UpdateEditableFormControlState
-(
-bool
-aNotify
-)
-;
-void
 UpdateFormOwner
 (
 bool

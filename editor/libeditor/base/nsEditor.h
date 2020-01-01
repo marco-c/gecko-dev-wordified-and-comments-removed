@@ -1461,6 +1461,7 @@ nsIDOMNode
 aNode
 )
 ;
+virtual
 bool
 IsEditable
 (
