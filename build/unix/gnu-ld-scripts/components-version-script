@@ -4,6 +4,8 @@ global
 :
 NSModule
 ;
+NSGetModule
+;
 local
 :
 *
