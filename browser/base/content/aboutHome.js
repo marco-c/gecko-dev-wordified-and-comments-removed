@@ -143,6 +143,10 @@ params
 source
 =
 hp
+&
+channel
+=
+np
 "
 links
 :
