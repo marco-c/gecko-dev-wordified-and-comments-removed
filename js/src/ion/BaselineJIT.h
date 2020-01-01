@@ -1054,6 +1054,14 @@ BaselineBailoutInfo
 bailoutInfo
 )
 ;
+void
+MarkActiveBaselineScripts
+(
+Zone
+*
+zone
+)
+;
 }
 }
 #

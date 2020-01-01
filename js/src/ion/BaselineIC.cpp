@@ -4524,8 +4524,9 @@ IonOsrTempData
 infoPtr
 )
 {
-JS_ASSERT
+if
 (
+!
 ion
 :
 :
@@ -4534,6 +4535,8 @@ IsEnabled
 cx
 )
 )
+return
+true
 ;
 JS_ASSERT
 (

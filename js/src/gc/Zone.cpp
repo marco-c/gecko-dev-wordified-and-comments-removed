@@ -812,6 +812,14 @@ endif
 ion
 :
 :
+MarkActiveBaselineScripts
+(
+this
+)
+;
+ion
+:
+:
 InvalidateAll
 (
 fop
