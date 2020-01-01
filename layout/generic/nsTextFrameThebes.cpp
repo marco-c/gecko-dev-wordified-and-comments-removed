@@ -7115,7 +7115,7 @@ nsTextFrame
 f
 -
 >
-GetNextInFlow
+GetNextContinuation
 (
 )
 )
