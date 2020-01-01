@@ -779,7 +779,7 @@ page
 <
 !
 ENTITY
-rightarrow
+nextarrow
 .
 tooltip
 "
@@ -790,7 +790,7 @@ page
 <
 !
 ENTITY
-leftarrow
+previousarrow
 .
 tooltip
 "

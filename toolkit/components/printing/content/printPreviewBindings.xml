@@ -732,7 +732,7 @@ toolbarbutton
 class
 =
 "
-left
+previous
 -
 arrow
 tabbable
@@ -755,7 +755,7 @@ tooltiptext
 =
 "
 &
-leftarrow
+previousarrow
 .
 tooltip
 ;
@@ -865,7 +865,7 @@ toolbarbutton
 class
 =
 "
-right
+next
 -
 arrow
 tabbable
@@ -887,7 +887,7 @@ tooltiptext
 =
 "
 &
-rightarrow
+nextarrow
 .
 tooltip
 ;
