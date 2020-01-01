@@ -2374,16 +2374,9 @@ qcms_profile
 *
 profile
 =
-qcms_profile_from_path
-(
-NS_ConvertUTF16toUTF8
+qcms_profile_from_unicode_path
 (
 str
-)
-.
-get
-(
-)
 )
 ;
 #
