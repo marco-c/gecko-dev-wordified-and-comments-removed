@@ -20173,7 +20173,7 @@ ins2
 (
 LIR_piand
 v_ins
-INS_CONSTPTR
+INS_CONST
 (
 JSVAL_INT
 )
@@ -20191,7 +20191,7 @@ ins2
 (
 LIR_piand
 v_ins
-INS_CONSTPTR
+INS_CONST
 (
 JSVAL_TAGMASK
 )
@@ -20246,7 +20246,7 @@ ins2
 (
 LIR_piand
 v_ins
-INS_CONSTPTR
+INS_CONST
 (
 JSVAL_TAGMASK
 )
@@ -20290,7 +20290,7 @@ ins2
 (
 LIR_piand
 v_ins
-INS_CONSTPTR
+INS_CONST
 (
 JSVAL_TAGMASK
 )
@@ -20322,7 +20322,7 @@ ins2
 (
 LIR_piand
 v_ins
-INS_CONSTPTR
+INS_CONST
 (
 JSVAL_TAGMASK
 )

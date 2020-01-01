@@ -334,7 +334,7 @@ LIR_cmov
 #
 define
 LIR_pior
-LIR_ior
+LIR_or
 #
 endif
 inline
