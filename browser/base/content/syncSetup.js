@@ -3782,6 +3782,14 @@ slice
 )
 ;
 }
+onPairingStart
+:
+function
+onPairingStart
+(
+)
+{
+}
 onComplete
 :
 function
