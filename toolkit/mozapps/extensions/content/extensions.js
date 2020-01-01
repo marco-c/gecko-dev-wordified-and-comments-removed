@@ -4112,15 +4112,6 @@ interfaces
 .
 nsIExtensionManager
 )
-.
-QueryInterface
-(
-Components
-.
-interfaces
-.
-nsIExtensionManager_MOZILLA_1_8_BRANCH
-)
 ;
 var
 appInfo
