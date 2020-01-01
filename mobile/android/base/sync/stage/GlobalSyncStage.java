@@ -61,9 +61,9 @@ fetchMetaGlobal
 ensureKeysStage
 syncClientsEngine
 (
-"
-clients
-"
+SyncClientsEngineStage
+.
+STAGE_NAME
 )
 syncTabs
 (

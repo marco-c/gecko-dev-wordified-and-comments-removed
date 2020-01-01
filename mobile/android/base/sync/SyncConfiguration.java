@@ -26,6 +26,13 @@ java
 .
 util
 .
+Collection
+;
+import
+java
+.
+util
+.
 HashSet
 ;
 import
@@ -832,6 +839,13 @@ Set
 String
 >
 enabledEngineNames
+;
+public
+Collection
+<
+String
+>
+stagesToSync
 ;
 public
 String
