@@ -312,6 +312,11 @@ nsStringComparator
 {
 public
 :
+nsASCIICaseInsensitiveStringComparator
+(
+)
+{
+}
 virtual
 int
 operator
