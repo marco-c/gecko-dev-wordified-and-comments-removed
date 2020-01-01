@@ -11,6 +11,13 @@ nsCharSeparatedTokenizer
 .
 h
 "
+#
+include
+"
+nsContentUtils
+.
+h
+"
 typedef
 nsCharSeparatedTokenizerTemplate
 <
