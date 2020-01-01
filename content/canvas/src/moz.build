@@ -245,6 +245,11 @@ WebGLContextValidate
 cpp
 '
 '
+WebGLContextExtensions
+.
+cpp
+'
+'
 WebGLContextFramebufferOperations
 .
 cpp
