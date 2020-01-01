@@ -459,15 +459,7 @@ html5_tree_construction_exceptions
 .
 js
 \
-htmltagsoup_dat1
-.
-txt
-\
 test_html5_tree_construction
-.
-html
-\
-test_htmltagsoup
 .
 html
 \
