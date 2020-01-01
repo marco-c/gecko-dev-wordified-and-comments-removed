@@ -857,12 +857,6 @@ mLanguage
 nsCString
 mMisc
 ;
-nsXPIDLCString
-mVendor
-;
-nsXPIDLCString
-mVendorSub
-;
 nsCString
 mProduct
 ;
