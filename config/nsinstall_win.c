@@ -183,7 +183,7 @@ a
 1
 )
 void
-changeForwardSlashesTpBackSlashes
+changeForwardSlashesToBackSlashes
 (
 wchar_t
 *
@@ -581,7 +581,7 @@ arg
 *
 pArgv
 ;
-changeForwardSlashesTpBackSlashes
+changeForwardSlashesToBackSlashes
 (
 arg
 )
@@ -1381,7 +1381,7 @@ pArgv
 +
 ;
 }
-changeForwardSlashesTpBackSlashes
+changeForwardSlashesToBackSlashes
 (
 *
 pDst
@@ -1717,7 +1717,7 @@ pSrc
 1
 )
 ;
-changeForwardSlashesTpBackSlashes
+changeForwardSlashesToBackSlashes
 (
 *
 pSrc
@@ -1874,7 +1874,7 @@ pSrc
 BOOL
 rv
 ;
-changeForwardSlashesTpBackSlashes
+changeForwardSlashesToBackSlashes
 (
 *
 pSrc
