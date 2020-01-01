@@ -2604,10 +2604,7 @@ toolkit
 manifest
 #
 ifdef
-XP_UNIX
-#
-ifndef
-XP_MACOSX
+MOZ_GTK2
 BINPATH
 /
 chrome
@@ -2641,8 +2638,6 @@ default
 default48
 .
 png
-#
-endif
 #
 endif
 ;
