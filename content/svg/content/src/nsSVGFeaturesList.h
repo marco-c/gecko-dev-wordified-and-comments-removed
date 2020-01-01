@@ -42,7 +42,7 @@ feature
 Structure
 "
 )
-SVG_SUPPORTED_FEATURE
+SVG_UNSUPPORTED_FEATURE
 (
 "
 http
@@ -86,7 +86,7 @@ feature
 ConditionalProcessing
 "
 )
-SVG_SUPPORTED_FEATURE
+SVG_UNSUPPORTED_FEATURE
 (
 "
 http
@@ -196,7 +196,7 @@ feature
 Text
 "
 )
-SVG_SUPPORTED_FEATURE
+SVG_UNSUPPORTED_FEATURE
 (
 "
 http
@@ -636,7 +636,7 @@ feature
 AnimationEventsAttribute
 "
 )
-SVG_SUPPORTED_FEATURE
+SVG_UNSUPPORTED_FEATURE
 (
 "
 http
@@ -1022,7 +1022,7 @@ SVGDOM
 dynamic
 "
 )
-SVG_SUPPORTED_FEATURE
+SVG_UNSUPPORTED_FEATURE
 (
 "
 org
@@ -1030,18 +1030,6 @@ org
 w3c
 .
 svg
-"
-)
-SVG_SUPPORTED_FEATURE
-(
-"
-org
-.
-w3c
-.
-svg
-.
-lang
 "
 )
 SVG_UNSUPPORTED_FEATURE
@@ -1092,7 +1080,7 @@ svg
 dynamic
 "
 )
-SVG_SUPPORTED_FEATURE
+SVG_UNSUPPORTED_FEATURE
 (
 "
 org
