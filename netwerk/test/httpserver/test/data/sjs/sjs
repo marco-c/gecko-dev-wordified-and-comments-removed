@@ -1,0 +1,17 @@
+function
+handleRequest
+(
+request
+response
+)
+{
+response
+.
+write
+(
+"
+FAIL
+"
+)
+;
+}

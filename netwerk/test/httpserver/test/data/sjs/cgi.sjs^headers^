@@ -1,0 +1,16 @@
+HTTP
+500
+Error
+This
+-
+Header
+:
+SHOULD
+NOT
+APPEAR
+IN
+CGI
+.
+JSC
+RESPONSES
+!
