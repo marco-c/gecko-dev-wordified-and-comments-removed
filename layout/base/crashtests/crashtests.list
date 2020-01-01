@@ -239,7 +239,7 @@ load
 html
 asserts
 (
-2
+4
 )
 load
 265899
@@ -260,7 +260,7 @@ asserts
 (
 8
 -
-10
+12
 )
 load
 265986
@@ -273,7 +273,7 @@ Bug
 512405
 asserts
 (
-2
+4
 )
 load
 265999
