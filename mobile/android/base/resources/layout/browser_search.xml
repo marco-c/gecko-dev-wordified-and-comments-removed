@@ -161,6 +161,10 @@ home_suggestion_prompt
 /
 >
 <
+view
+class
+=
+"
 org
 .
 mozilla
@@ -169,7 +173,9 @@ gecko
 .
 home
 .
-HomeListView
+BrowserSearch
+HomeSearchListView
+"
 android
 :
 id
