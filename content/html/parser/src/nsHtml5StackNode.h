@@ -265,6 +265,13 @@ releaseStatics
 (
 )
 ;
+#
+include
+"
+nsHtml5StackNodeHSupplement
+.
+h
+"
 }
 ;
 #

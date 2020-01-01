@@ -647,3 +647,10 @@ releaseStatics
 )
 {
 }
+#
+include
+"
+nsHtml5StackNodeCppSupplement
+.
+h
+"
