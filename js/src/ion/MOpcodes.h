@@ -194,6 +194,11 @@ PowHalf
 \
 _
 (
+Random
+)
+\
+_
+(
 MathFunction
 )
 \

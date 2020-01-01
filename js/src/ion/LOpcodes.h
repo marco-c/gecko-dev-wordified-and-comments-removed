@@ -318,6 +318,11 @@ PowD
 \
 _
 (
+Random
+)
+\
+_
+(
 MathFunctionD
 )
 \
