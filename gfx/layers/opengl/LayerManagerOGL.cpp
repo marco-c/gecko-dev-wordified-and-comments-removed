@@ -2628,6 +2628,11 @@ LOCAL_GL_UNSIGNED_BYTE
 buf
 )
 ;
+free
+(
+buf
+)
+;
 initialized
 =
 true
