@@ -1146,14 +1146,6 @@ url
 }
 ;
 }
-loadThumbnail
-:
-function
-TabItem_loadThumbnail
-(
-)
-{
-}
 _reconnect
 :
 function
