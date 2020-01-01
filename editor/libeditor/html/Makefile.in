@@ -486,7 +486,7 @@ nsHTMLObjectResizer
 .
 cpp
 \
-nsHTMLEditorMouseListener
+nsHTMLEditorEventListener
 .
 cpp
 \

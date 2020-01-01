@@ -468,12 +468,6 @@ EndEditorInit
 (
 )
 ;
-virtual
-nsresult
-CreateEventListeners
-(
-)
-;
 NS_IMETHOD
 GetAndInitDocEncoder
 (
