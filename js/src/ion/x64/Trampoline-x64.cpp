@@ -2009,7 +2009,7 @@ JSCReturnOperand
 }
 masm
 .
-finalizeABICall
+finishABICall
 (
 )
 ;
