@@ -102,9 +102,11 @@ String
 SYNC_VERSION_STRING
 =
 "
-0
+1
 .
-9
+MOZ_APP_VERSION
+.
+0
 "
 ;
 public
