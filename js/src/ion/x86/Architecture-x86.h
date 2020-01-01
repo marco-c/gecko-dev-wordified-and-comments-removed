@@ -40,7 +40,7 @@ const
 uint32
 ION_FRAME_PREFIX_SIZE
 =
-8
+12
 ;
 static
 const

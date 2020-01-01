@@ -1749,14 +1749,6 @@ public
 static
 const
 int32
-CALLEE_SLOT
-=
--
-2
-;
-static
-const
-int32
 THIS_SLOT
 =
 -
