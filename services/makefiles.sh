@@ -61,6 +61,11 @@ services
 Makefile
 services
 /
+aitc
+/
+Makefile
+services
+/
 common
 /
 Makefile
@@ -104,6 +109,13 @@ ENABLE_TESTS
 then
 add_makefiles
 "
+services
+/
+aitc
+/
+tests
+/
+Makefile
 services
 /
 common
