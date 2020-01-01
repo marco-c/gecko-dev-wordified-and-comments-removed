@@ -2391,11 +2391,8 @@ JS_DeletePropertyById2
 cx
 target
 id
+&
 v
-.
-address
-(
-)
 )
 )
 return
