@@ -3457,15 +3457,6 @@ event
 )
 ;
 "
-tooltiptext
-=
-"
-&
-proxyIcon
-.
-tooltip
-;
-"
 >
 <
 image
