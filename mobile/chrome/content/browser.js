@@ -800,7 +800,7 @@ contentDocument
 addEventListener
 (
 "
-DOMContentLoaded
+DOMTitleChanged
 "
 function
 (
