@@ -381,8 +381,14 @@ AppendNamedPropertyIds
 JSContext
 *
 cx
+JS
+:
+:
+Handle
+<
 JSObject
 *
+>
 proxy
 nsTArray
 <
