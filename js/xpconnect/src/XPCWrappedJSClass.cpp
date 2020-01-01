@@ -1333,11 +1333,7 @@ nsXPTType
 (
 uint8
 )
-(
 TD_INTERFACE_TYPE
-|
-XPT_TDP_POINTER
-)
 )
 ;
 jsval
