@@ -1869,9 +1869,6 @@ TraceRecorder
 )
 ;
 uint8
-TraceRecorder
-:
-:
 determineSlotType
 (
 jsval
