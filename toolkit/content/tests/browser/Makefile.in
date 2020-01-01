@@ -130,6 +130,10 @@ browser_Deprecated
 .
 js
 \
+browser_input_file_tooltips
+.
+js
+\
 (
 NULL
 )
