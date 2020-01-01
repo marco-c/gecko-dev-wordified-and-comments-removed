@@ -14767,8 +14767,10 @@ if
 document
 )
 {
+nsRefPtr
+<
 nsXBLBinding
-*
+>
 binding
 =
 document
