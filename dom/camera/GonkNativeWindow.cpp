@@ -2288,6 +2288,9 @@ operation
 )
 {
 case
+NATIVE_WINDOW_SET_BUFFERS_TRANSFORM
+:
+case
 NATIVE_WINDOW_SET_BUFFERS_SIZE
 :
 case
@@ -2360,9 +2363,6 @@ args
 )
 ;
 case
-NATIVE_WINDOW_SET_BUFFERS_TRANSFORM
-:
-case
 NATIVE_WINDOW_LOCK
 :
 case
@@ -2376,6 +2376,14 @@ NATIVE_WINDOW_API_DISCONNECT
 :
 default
 :
+NS_WARNING
+(
+"
+Unsupported
+operation
+"
+)
+;
 return
 INVALID_OPERATION
 ;
