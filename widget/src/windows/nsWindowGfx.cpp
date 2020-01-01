@@ -1432,7 +1432,7 @@ surface
 )
 ;
 return
-NS_ERROR_FAILURE
+false
 ;
 }
 targetSurfaceImage
@@ -1515,7 +1515,7 @@ RenderMode
 )
 ;
 return
-NS_ERROR_FAILURE
+false
 ;
 }
 nsRefPtr
