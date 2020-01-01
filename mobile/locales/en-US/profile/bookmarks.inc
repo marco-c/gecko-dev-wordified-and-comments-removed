@@ -172,13 +172,13 @@ https
 :
 /
 /
-mobile
-.
 support
 .
 mozilla
 .
 com
+/
+mobile
 #
 define
 bookmarks_support
