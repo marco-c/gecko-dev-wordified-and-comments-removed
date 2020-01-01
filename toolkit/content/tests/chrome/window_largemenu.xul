@@ -596,9 +596,7 @@ be
 flipped
 to
 have
-it
-'
-s
+its
 bottom
 /
 /
@@ -619,6 +617,7 @@ rect
 top
 )
 >
+=
 screen
 .
 top
@@ -700,7 +699,15 @@ it
 is
 on
 screen
-ok
+window
+.
+opener
+.
+wrappedJSObject
+.
+SimpleTest
+.
+todo
 (
 Math
 .
@@ -711,6 +718,7 @@ rect
 top
 )
 >
+=
 screen
 .
 top
