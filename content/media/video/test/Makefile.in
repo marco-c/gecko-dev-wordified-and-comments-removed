@@ -464,6 +464,10 @@ test_currentTime
 .
 html
 \
+test_duration1
+.
+html
+\
 test_ended1
 .
 html
