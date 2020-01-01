@@ -10699,10 +10699,6 @@ new
 ProfileMigrator
 (
 mContext
-.
-getContentResolver
-(
-)
 profileDir
 )
 ;
