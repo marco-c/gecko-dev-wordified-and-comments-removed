@@ -353,6 +353,8 @@ virtual
 void
 Progress
 (
+PRBool
+aTimer
 )
 ;
 virtual
@@ -422,6 +424,12 @@ mRGBWidth
 ;
 PRInt32
 mRGBHeight
+;
+PRIntervalTime
+mProgressTime
+;
+PRIntervalTime
+mDataTime
 ;
 PRPackedBool
 mSizeChanged
