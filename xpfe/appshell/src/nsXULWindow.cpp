@@ -5493,7 +5493,7 @@ kOffset
 22
 ;
 const
-int32_t
+uint32_t
 kSlop
 =
 4
@@ -5850,7 +5850,7 @@ scale
 }
 if
 (
-DeprecatedAbs
+Abs
 (
 listX
 -
@@ -5861,7 +5861,7 @@ aRequestedX
 kSlop
 &
 &
-DeprecatedAbs
+Abs
 (
 listY
 -

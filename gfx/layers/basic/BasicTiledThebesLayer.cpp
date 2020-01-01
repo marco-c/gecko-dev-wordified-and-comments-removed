@@ -2117,13 +2117,13 @@ break
 }
 if
 (
-DeprecatedAbs
+Abs
 (
 scrollDiffY
 )
 >
 =
-DeprecatedAbs
+Abs
 (
 scrollDiffX
 )

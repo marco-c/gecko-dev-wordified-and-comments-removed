@@ -92,7 +92,7 @@ using
 mozilla
 :
 :
-DeprecatedAbs
+Abs
 ;
 typedef
 JSC
@@ -1822,7 +1822,7 @@ JSVAL_TYPE_INT32
 )
 &
 &
-DeprecatedAbs
+Abs
 (
 lhs
 -
