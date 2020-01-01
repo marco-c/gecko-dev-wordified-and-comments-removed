@@ -139,8 +139,6 @@ OS_TEST
 )
 WINNTx86_64
 )
-ifndef
-MOZ_NO_THEORA_ASM
 DEFINES
 +
 =
@@ -162,7 +160,6 @@ DEFINES
 =
 -
 DOC_X86_64_ASM
-endif
 endif
 endif
 endif
@@ -292,8 +289,6 @@ NULL
 )
 endif
 else
-ifndef
-MOZ_NO_THEORA_ASM
 VPATH
 +
 =
@@ -333,7 +328,6 @@ c
 (
 NULL
 )
-endif
 endif
 endif
 ifdef
