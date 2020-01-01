@@ -589,6 +589,7 @@ type
 ]
 ;
 return
+0
 ;
 ]
 [
@@ -782,6 +783,7 @@ size
 ]
 ;
 return
+0
 ;
 ]
 [
@@ -976,6 +978,7 @@ align
 ]
 ;
 return
+0
 ;
 ]
 [
