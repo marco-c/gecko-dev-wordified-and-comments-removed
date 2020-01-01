@@ -5198,15 +5198,6 @@ if
 node
 -
 >
-isScoping
-(
-)
-|
-|
-(
-node
--
->
 isSpecial
 (
 )
@@ -5246,7 +5237,6 @@ nsHtml5Atoms
 :
 :
 div
-)
 )
 {
 break
