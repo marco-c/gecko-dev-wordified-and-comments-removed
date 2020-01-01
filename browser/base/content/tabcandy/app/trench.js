@@ -1461,14 +1461,14 @@ min
 =
 this
 .
-range
+activeRange
 .
 max
 &
 &
 this
 .
-range
+activeRange
 .
 min
 <
