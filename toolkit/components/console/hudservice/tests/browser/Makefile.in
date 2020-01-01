@@ -860,6 +860,10 @@ browser_webconsole_bug_660806_history_nav
 .
 js
 \
+browser_webconsole_bug_651501_document_body_autocomplete
+.
+js
+\
 head
 .
 js
