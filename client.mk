@@ -781,11 +781,7 @@ endif
 AUTOCONF
 :
 =
-autoconf
--
-2
-.
-13
+autoconf213
 MKDIR
 :
 =
