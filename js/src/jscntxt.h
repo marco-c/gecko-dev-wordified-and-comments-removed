@@ -904,6 +904,8 @@ flag
 )
 ;
 return
+!
+!
 cx
 ;
 }
@@ -956,6 +958,8 @@ inContext
 )
 ;
 return
+!
+!
 suspendedFrame
 ;
 }
@@ -4588,6 +4592,8 @@ assertCallStacksInSync
 )
 ;
 return
+!
+!
 fp
 ;
 }

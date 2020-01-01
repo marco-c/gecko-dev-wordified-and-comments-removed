@@ -390,9 +390,13 @@ isGenerator
 const
 {
 return
+!
+!
+(
 flags
 &
 JSFRAME_GENERATOR
+)
 ;
 }
 bool
@@ -412,9 +416,13 @@ isGenerator
 )
 ;
 return
+!
+!
+(
 flags
 &
 JSFRAME_FLOATING_GENERATOR
+)
 ;
 }
 }
