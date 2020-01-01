@@ -1441,7 +1441,7 @@ control
 command
 =
 "
-cmd_scrollTop
+cmd_moveTop
 "
 /
 >
@@ -1465,7 +1465,7 @@ control
 command
 =
 "
-cmd_scrollBottom
+cmd_moveBottom
 "
 /
 >

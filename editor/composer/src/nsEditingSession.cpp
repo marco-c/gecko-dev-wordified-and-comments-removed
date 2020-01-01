@@ -487,7 +487,7 @@ org
 /
 editor
 /
-editorcontroller
+editingcontroller
 ;
 1
 "
@@ -4969,7 +4969,7 @@ org
 /
 editor
 /
-editorcontroller
+editingcontroller
 ;
 1
 "

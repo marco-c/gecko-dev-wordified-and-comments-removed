@@ -54,7 +54,7 @@ VK_UP
 command
 =
 "
-cmd_scrollLineUp
+cmd_linePrevious
 "
 /
 >
@@ -73,7 +73,7 @@ VK_DOWN
 command
 =
 "
-cmd_scrollLineDown
+cmd_lineNext
 "
 /
 >
@@ -92,7 +92,7 @@ VK_LEFT
 command
 =
 "
-cmd_scrollLeft
+cmd_charPrevious
 "
 /
 >
@@ -111,7 +111,7 @@ VK_RIGHT
 command
 =
 "
-cmd_scrollRight
+cmd_charNext
 "
 /
 >

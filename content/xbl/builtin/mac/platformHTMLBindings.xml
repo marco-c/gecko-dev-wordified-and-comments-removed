@@ -1995,7 +1995,7 @@ accel
 command
 =
 "
-cmd_scrollTop
+cmd_moveTop
 "
 /
 >
@@ -2019,7 +2019,7 @@ accel
 command
 =
 "
-cmd_scrollBottom
+cmd_moveBottom
 "
 /
 >
