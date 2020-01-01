@@ -1206,7 +1206,10 @@ realloc
 (
 slots
 (
+size_t
+(
 newlen
+)
 +
 1
 )
