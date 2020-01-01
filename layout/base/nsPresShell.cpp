@@ -22916,6 +22916,9 @@ GetRootFrame
 )
 )
 {
+#
+ifdef
+MOZ_XUL
 nsXULPopupManager
 *
 pm
@@ -23008,6 +23011,8 @@ break
 }
 }
 }
+#
+endif
 }
 nsPoint
 eventPoint

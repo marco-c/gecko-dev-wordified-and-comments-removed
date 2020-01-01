@@ -302,13 +302,6 @@ h
 #
 include
 "
-nsXULPopupManager
-.
-h
-"
-#
-include
-"
 nsTextFragment
 .
 h
@@ -316,6 +309,13 @@ h
 #
 ifdef
 MOZ_XUL
+#
+include
+"
+nsXULPopupManager
+.
+h
+"
 #
 include
 "
@@ -919,6 +919,9 @@ return
 rv
 ;
 }
+#
+ifdef
+MOZ_XUL
 rv
 =
 nsXULPopupManager
@@ -950,6 +953,8 @@ return
 rv
 ;
 }
+#
+endif
 return
 NS_OK
 ;
@@ -962,6 +967,9 @@ Shutdown
 (
 )
 {
+#
+ifdef
+MOZ_XUL
 nsXULPopupManager
 :
 :
@@ -969,6 +977,8 @@ Shutdown
 (
 )
 ;
+#
+endif
 nsDOMStorageManager
 :
 :
