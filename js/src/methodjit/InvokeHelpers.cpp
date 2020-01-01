@@ -4310,6 +4310,8 @@ jit
 -
 >
 traceICs
+(
+)
 [
 index
 ]
