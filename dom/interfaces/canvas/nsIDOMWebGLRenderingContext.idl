@@ -547,18 +547,6 @@ NO_ERROR
 ptr
 ]
 native
-WebGLArrayPtr
-(
-js
-:
-:
-TypedArray
-)
-;
-[
-ptr
-]
-native
 WebGLJSObjectPtr
 (
 JSObject
@@ -577,15 +565,15 @@ wrappers
 scriptable
 uuid
 (
-3b43762a
+0df9f4ed
 -
-8305
+f5ff
 -
-11de
+4e51
 -
-98ab
+a6ff
 -
-000c29206271
+2bd9785a7639
 )
 ]
 interface
@@ -3657,7 +3645,7 @@ in
 WebGLenum
 target
 in
-WebGLArrayPtr
+WebGLJSObjectPtr
 data
 in
 WebGLenum
@@ -3713,7 +3701,7 @@ in
 long
 offset
 in
-WebGLArrayPtr
+WebGLJSObjectPtr
 data
 )
 ;
@@ -4622,7 +4610,7 @@ in
 WebGLenum
 type
 in
-WebGLArrayPtr
+WebGLJSObjectPtr
 pixels
 )
 ;
@@ -4904,7 +4892,7 @@ in
 WebGLenum
 type
 in
-WebGLArrayPtr
+WebGLJSObjectPtr
 pixels
 )
 ;
@@ -4939,7 +4927,7 @@ in
 WebGLenum
 type
 in
-WebGLArrayPtr
+WebGLJSObjectPtr
 pixels
 )
 ;
@@ -5051,7 +5039,7 @@ in
 WebGLenum
 type
 in
-WebGLArrayPtr
+WebGLJSObjectPtr
 pixels
 )
 ;
@@ -5086,7 +5074,7 @@ in
 WebGLenum
 type
 in
-WebGLArrayPtr
+WebGLJSObjectPtr
 pixels
 )
 ;
@@ -5426,7 +5414,7 @@ in
 nsIWebGLUniformLocation
 location
 in
-WebGLArrayPtr
+WebGLJSObjectPtr
 v
 )
 ;
@@ -5440,7 +5428,7 @@ in
 nsIWebGLUniformLocation
 location
 in
-WebGLArrayPtr
+WebGLJSObjectPtr
 v
 )
 ;
@@ -5454,7 +5442,7 @@ in
 nsIWebGLUniformLocation
 location
 in
-WebGLArrayPtr
+WebGLJSObjectPtr
 v
 )
 ;
@@ -5468,7 +5456,7 @@ in
 nsIWebGLUniformLocation
 location
 in
-WebGLArrayPtr
+WebGLJSObjectPtr
 v
 )
 ;
@@ -5482,7 +5470,7 @@ in
 nsIWebGLUniformLocation
 location
 in
-WebGLArrayPtr
+WebGLJSObjectPtr
 v
 )
 ;
@@ -5496,7 +5484,7 @@ in
 nsIWebGLUniformLocation
 location
 in
-WebGLArrayPtr
+WebGLJSObjectPtr
 v
 )
 ;
@@ -5510,7 +5498,7 @@ in
 nsIWebGLUniformLocation
 location
 in
-WebGLArrayPtr
+WebGLJSObjectPtr
 v
 )
 ;
@@ -5524,7 +5512,7 @@ in
 nsIWebGLUniformLocation
 location
 in
-WebGLArrayPtr
+WebGLJSObjectPtr
 v
 )
 ;
@@ -5546,7 +5534,7 @@ value
 '
 with
 a
-WebGLArrayPtr
+WebGLJSObjectPtr
 void
 uniformMatrix2fv
 (
@@ -5593,7 +5581,7 @@ in
 WebGLboolean
 transpose
 in
-WebGLArrayPtr
+WebGLJSObjectPtr
 value
 )
 ;
@@ -5610,7 +5598,7 @@ in
 WebGLboolean
 transpose
 in
-WebGLArrayPtr
+WebGLJSObjectPtr
 value
 )
 ;
@@ -5627,7 +5615,7 @@ in
 WebGLboolean
 transpose
 in
-WebGLArrayPtr
+WebGLJSObjectPtr
 value
 )
 ;
@@ -5695,7 +5683,7 @@ values
 '
 with
 a
-WebGLArrayPtr
+WebGLJSObjectPtr
 void
 vertexAttrib1f
 (
@@ -5812,7 +5800,7 @@ in
 WebGLuint
 indx
 in
-WebGLArrayPtr
+WebGLJSObjectPtr
 values
 )
 ;
@@ -5826,7 +5814,7 @@ in
 WebGLuint
 indx
 in
-WebGLArrayPtr
+WebGLJSObjectPtr
 values
 )
 ;
@@ -5840,7 +5828,7 @@ in
 WebGLuint
 indx
 in
-WebGLArrayPtr
+WebGLJSObjectPtr
 values
 )
 ;
@@ -5854,7 +5842,7 @@ in
 WebGLuint
 indx
 in
-WebGLArrayPtr
+WebGLJSObjectPtr
 values
 )
 ;
