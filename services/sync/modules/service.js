@@ -542,6 +542,16 @@ CookieEngine
 )
 )
 ;
+Engines
+.
+register
+(
+new
+PasswordEngine
+(
+)
+)
+;
 Utils
 .
 prefs
