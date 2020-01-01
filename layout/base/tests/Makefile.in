@@ -445,6 +445,16 @@ test_bug114649
 .
 html
 \
+test_bug369950
+.
+html
+\
+bug369950
+-
+subframe
+.
+xml
+\
 test_bug386575
 .
 xhtml
