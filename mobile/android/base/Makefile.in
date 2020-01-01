@@ -528,6 +528,10 @@ ScreenshotHandler
 .
 java
 \
+SessionParser
+.
+java
+\
 SetupScreen
 .
 java
