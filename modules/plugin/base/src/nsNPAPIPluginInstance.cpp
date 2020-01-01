@@ -3074,6 +3074,10 @@ if
 mStarted
 )
 {
+mPeer
+=
+nsnull
+;
 return
 NS_OK
 ;
@@ -3122,6 +3126,10 @@ destroy
 NULL
 )
 {
+mPeer
+=
+nsnull
+;
 return
 NS_ERROR_FAILURE
 ;
@@ -3248,6 +3256,10 @@ OnPluginDestroy
 &
 fNPP
 )
+;
+mPeer
+=
+nsnull
 ;
 if
 (
