@@ -558,7 +558,7 @@ R
 .
 drawable
 .
-abouthome_sync_logo
+abouthome_promo_logo_sync
 )
 ;
 }
