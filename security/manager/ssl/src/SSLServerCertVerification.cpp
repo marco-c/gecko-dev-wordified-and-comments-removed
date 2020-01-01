@@ -3209,6 +3209,8 @@ infoObject
 CERTCertificate
 *
 cert
+uint32_t
+providerFlags
 )
 {
 if
@@ -3614,6 +3616,19 @@ nsINSSComponent
 >
 nssComponent
 ;
+if
+(
+!
+(
+providerFlags
+&
+nsISocketProvider
+:
+:
+NO_PERMANENT_STORAGE
+)
+)
+{
 for
 (
 CERTCertListNode
@@ -3738,6 +3753,7 @@ PR_FREEIF
 nickname
 )
 ;
+}
 }
 if
 (
@@ -4055,6 +4071,7 @@ AuthCertificate
 (
 mInfoObject
 mCert
+mProviderFlags
 )
 ;
 if
@@ -4550,6 +4567,7 @@ AuthCertificate
 (
 socketInfo
 serverCert
+providerFlags
 )
 ;
 if
