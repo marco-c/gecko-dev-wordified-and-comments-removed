@@ -2003,7 +2003,7 @@ Darwin
 )
 ifdef
 MOZ_SYDNEYAUDIO
-EXTRA_DSO_LDOPTS
+OS_LIBS
 +
 =
 \
