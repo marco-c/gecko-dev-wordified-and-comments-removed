@@ -113,10 +113,10 @@ MAX_INT64
 9223372036854775807
 ;
 const
-TOPIC_XPCOM_SHUTDOWN
+TOPIC_SHUTDOWN
 =
 "
-xpcom
+places
 -
 shutdown
 "
@@ -2499,7 +2499,7 @@ _os
 addObserver
 (
 this
-TOPIC_XPCOM_SHUTDOWN
+TOPIC_SHUTDOWN
 false
 )
 ;
@@ -2541,7 +2541,7 @@ if
 aTopic
 =
 =
-TOPIC_XPCOM_SHUTDOWN
+TOPIC_SHUTDOWN
 )
 {
 this
@@ -2557,7 +2557,7 @@ _os
 removeObserver
 (
 this
-TOPIC_XPCOM_SHUTDOWN
+TOPIC_SHUTDOWN
 )
 ;
 this

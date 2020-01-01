@@ -560,6 +560,8 @@ os
 removeObserver
 (
 observer
+PlacesUtils
+.
 TOPIC_EXPIRATION_FINISHED
 )
 ;
@@ -691,6 +693,8 @@ os
 addObserver
 (
 observer
+PlacesUtils
+.
 TOPIC_EXPIRATION_FINISHED
 false
 )

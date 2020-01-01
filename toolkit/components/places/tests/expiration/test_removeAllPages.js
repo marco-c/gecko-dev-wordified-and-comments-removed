@@ -813,6 +813,8 @@ obs
 removeObserver
 (
 observer
+PlacesUtils
+.
 TOPIC_EXPIRATION_FINISHED
 )
 ;
@@ -1009,6 +1011,8 @@ obs
 addObserver
 (
 observer
+PlacesUtils
+.
 TOPIC_EXPIRATION_FINISHED
 false
 )
