@@ -163,3 +163,10 @@ bad
 args
 .
 html
+conformance
+/
+uninitialized
+-
+test
+.
+html
