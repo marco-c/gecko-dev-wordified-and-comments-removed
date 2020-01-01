@@ -552,6 +552,12 @@ nsIntRect
 aRect
 )
 ;
+virtual
+nsIntPoint
+GetClientOffset
+(
+)
+;
 NS_IMETHOD
 SetForegroundColor
 (
