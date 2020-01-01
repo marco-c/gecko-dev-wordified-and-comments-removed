@@ -925,9 +925,6 @@ __slots__
 '
 exports
 '
-'
-dist_install
-'
 )
     
 def
@@ -936,9 +933,6 @@ __init__
 self
 sandbox
 exports
-dist_install
-=
-True
 )
 :
         
@@ -955,12 +949,6 @@ self
 exports
 =
 exports
-        
-self
-.
-dist_install
-=
-dist_install
 class
 IPDLFile
 (
