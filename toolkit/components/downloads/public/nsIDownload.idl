@@ -621,6 +621,13 @@ in
 wstring
 aDisplayName
 in
+wstring
+openingWith
+in
+long
+long
+startTime
+in
 nsIWebBrowserPersist
 aPersist
 )
@@ -786,6 +793,7 @@ started
 .
 *
 /
+readonly
 attribute
 long
 long
@@ -816,6 +824,7 @@ completion
 .
 *
 /
+readonly
 attribute
 wstring
 openingWith
