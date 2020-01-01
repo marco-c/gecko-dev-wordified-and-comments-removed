@@ -15121,7 +15121,7 @@ parent
 ;
 inline
 JSBool
-xpc_SameOrigin
+xpc_SameScope
 (
 XPCWrappedNativeScope
 *
@@ -15129,6 +15129,9 @@ objectscope
 XPCWrappedNativeScope
 *
 xpcscope
+JSBool
+*
+sameOrigin
 )
 ;
 nsISupports
