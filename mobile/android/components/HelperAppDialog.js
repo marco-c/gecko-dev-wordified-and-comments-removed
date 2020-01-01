@@ -668,14 +668,6 @@ file
 {
 try
 {
-if
-(
-file
-.
-exists
-(
-)
-)
 file
 .
 remove
