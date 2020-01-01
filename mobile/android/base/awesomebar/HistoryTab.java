@@ -1093,6 +1093,13 @@ b
 !
 =
 null
+&
+&
+b
+.
+length
+>
+0
 )
 {
 Bitmap
