@@ -34,6 +34,15 @@ h
 #
 include
 "
+mozilla
+/
+TemplateLib
+.
+h
+"
+#
+include
+"
 jspropertytree
 .
 h
@@ -170,6 +179,9 @@ const
 uint32_t
 HASH_BITS
 =
+mozilla
+:
+:
 tl
 :
 :
@@ -179,7 +191,7 @@ HashNumber
 >
 :
 :
-result
+value
 ;
 static
 const

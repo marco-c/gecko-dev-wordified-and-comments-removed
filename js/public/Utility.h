@@ -51,6 +51,15 @@ h
 "
 #
 include
+"
+mozilla
+/
+TemplateLib
+.
+h
+"
+#
+include
 <
 stdlib
 .
@@ -86,15 +95,6 @@ endif
 include
 "
 jstypes
-.
-h
-"
-#
-include
-"
-js
-/
-TemplateLib
 .
 h
 "
@@ -1714,7 +1714,7 @@ if
 (
 numElems
 &
-js
+mozilla
 :
 :
 tl
@@ -1729,7 +1729,7 @@ T
 >
 :
 :
-result
+value
 )
 return
 NULL
@@ -1769,7 +1769,7 @@ if
 (
 numElems
 &
-js
+mozilla
 :
 :
 tl
@@ -1784,7 +1784,7 @@ T
 >
 :
 :
-result
+value
 )
 return
 NULL

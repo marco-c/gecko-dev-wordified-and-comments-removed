@@ -34,15 +34,6 @@ h
 #
 include
 "
-js
-/
-TemplateLib
-.
-h
-"
-#
-include
-"
 jspubtd
 .
 h

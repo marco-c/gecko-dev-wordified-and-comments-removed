@@ -35,6 +35,15 @@ include
 "
 mozilla
 /
+TemplateLib
+.
+h
+"
+#
+include
+"
+mozilla
+/
 Util
 .
 h
@@ -11365,6 +11374,9 @@ tenuredSizeOfThis
 char
 tmp
 [
+mozilla
+:
+:
 tl
 :
 :
@@ -11381,7 +11393,7 @@ JSObject_Slots16
 >
 :
 :
-result
+value
 ]
 ;
 JS_ASSERT
