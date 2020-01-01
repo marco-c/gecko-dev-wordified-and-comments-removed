@@ -32,6 +32,10 @@ mBlockSize
 (
 0
 )
+mFileSize
+(
+0
+)
 mBitMapDirty
 (
 PR_FALSE
