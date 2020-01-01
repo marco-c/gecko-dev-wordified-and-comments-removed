@@ -544,6 +544,13 @@ nsIWebBrowserChrome
 .
 h
 "
+#
+include
+"
+nsObjCExceptions
+.
+h
+"
 /
 /
 defined
@@ -891,6 +898,8 @@ nsAppShell
 (
 )
 {
+NS_OBJC_BEGIN_TRY_ABORT_BLOCK
+;
 if
 (
 mCFRunLoop
@@ -1248,6 +1257,7 @@ mMainPool
 release
 ]
 ;
+NS_OBJC_END_TRY_ABORT_BLOCK
 }
 /
 /
@@ -1293,6 +1303,8 @@ Init
 (
 )
 {
+NS_OBJC_BEGIN_TRY_ABORT_BLOCK_NSRESULT
+;
 /
 /
 No
@@ -1772,6 +1784,8 @@ release
 return
 rv
 ;
+NS_OBJC_END_TRY_ABORT_BLOCK_NSRESULT
+;
 }
 /
 /
@@ -1971,6 +1985,8 @@ void
 aInfo
 )
 {
+NS_OBJC_BEGIN_TRY_ABORT_BLOCK
+;
 nsAppShell
 *
 self
@@ -2352,6 +2368,8 @@ NS_RELEASE
 (
 self
 )
+;
+NS_OBJC_END_TRY_ABORT_BLOCK
 ;
 }
 /
@@ -2767,6 +2785,8 @@ ScheduleNativeEventCallback
 (
 )
 {
+NS_OBJC_BEGIN_TRY_ABORT_BLOCK
+;
 if
 (
 mTerminated
@@ -2823,6 +2843,8 @@ CFRunLoopWakeUp
 (
 mCFRunLoop
 )
+;
+NS_OBJC_END_TRY_ABORT_BLOCK
 ;
 }
 /
@@ -2966,6 +2988,8 @@ PRBool
 moreEvents
 =
 PR_FALSE
+;
+NS_OBJC_BEGIN_TRY_ABORT_BLOCK
 ;
 PRBool
 eventProcessed
@@ -3956,6 +3980,8 @@ mRunningEventLoop
 =
 wasRunningEventLoop
 ;
+NS_OBJC_END_TRY_ABORT_BLOCK
+;
 return
 moreEvents
 ;
@@ -4469,10 +4495,13 @@ mStarted
 =
 PR_TRUE
 ;
+NS_OBJC_TRY_ABORT
+(
 [
 NSApp
 run
 ]
+)
 ;
 return
 NS_OK
@@ -4487,6 +4516,8 @@ Exit
 void
 )
 {
+NS_OBJC_BEGIN_TRY_ABORT_BLOCK_NSRESULT
+;
 /
 /
 This
@@ -4836,6 +4867,8 @@ Exit
 (
 )
 ;
+NS_OBJC_END_TRY_ABORT_BLOCK_NSRESULT
+;
 }
 /
 /
@@ -4929,6 +4962,8 @@ PRUint32
 aRecursionDepth
 )
 {
+NS_OBJC_BEGIN_TRY_ABORT_BLOCK_NSRESULT
+;
 mRecursionDepth
 =
 aRecursionDepth
@@ -4978,6 +5013,8 @@ aThread
 aMayWait
 aRecursionDepth
 )
+;
+NS_OBJC_END_TRY_ABORT_BLOCK_NSRESULT
 ;
 }
 /
@@ -5035,6 +5072,8 @@ PRUint32
 aRecursionDepth
 )
 {
+NS_OBJC_BEGIN_TRY_ABORT_BLOCK_NSRESULT
+;
 mRecursionDepth
 =
 aRecursionDepth
@@ -5118,6 +5157,8 @@ aThread
 aRecursionDepth
 )
 ;
+NS_OBJC_END_TRY_ABORT_BLOCK_NSRESULT
+;
 }
 /
 /
@@ -5149,6 +5190,8 @@ nsAppShell
 )
 aAppShell
 {
+NS_OBJC_BEGIN_TRY_ABORT_BLOCK_NIL
+;
 if
 (
 (
@@ -5223,6 +5266,8 @@ nil
 return
 self
 ;
+NS_OBJC_END_TRY_ABORT_BLOCK_NIL
+;
 }
 -
 (
@@ -5230,6 +5275,8 @@ void
 )
 dealloc
 {
+NS_OBJC_BEGIN_TRY_ABORT_BLOCK
+;
 [
 [
 NSNotificationCenter
@@ -5254,6 +5301,8 @@ self
 super
 dealloc
 ]
+;
+NS_OBJC_END_TRY_ABORT_BLOCK
 ;
 }
 /
@@ -5287,12 +5336,16 @@ NSNotification
 )
 aNotification
 {
+NS_OBJC_BEGIN_TRY_ABORT_BLOCK
+;
 mAppShell
 -
 >
 WillTerminate
 (
 )
+;
+NS_OBJC_END_TRY_ABORT_BLOCK
 ;
 }
 /
@@ -5374,6 +5427,8 @@ NSNotification
 )
 aNotification
 {
+NS_OBJC_BEGIN_TRY_ABORT_BLOCK
+;
 NSString
 *
 sender
@@ -5422,5 +5477,7 @@ nsnull
 )
 ;
 }
+NS_OBJC_END_TRY_ABORT_BLOCK
+;
 }
 end

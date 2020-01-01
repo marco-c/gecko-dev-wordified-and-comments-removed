@@ -657,6 +657,10 @@ nsCycleCollector
 .
 h
 \
+nsObjCExceptions
+.
+h
+\
 XPIDLSRCS
 =
 \
