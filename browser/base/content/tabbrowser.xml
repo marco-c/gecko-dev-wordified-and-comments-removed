@@ -4403,9 +4403,12 @@ browser
 currentURI
 aURI
 false
-gPrivateBrowsingUI
+PrivateBrowsingUtils
 .
-privateWindow
+isWindowPrivate
+(
+window
+)
 ?
 this
 .

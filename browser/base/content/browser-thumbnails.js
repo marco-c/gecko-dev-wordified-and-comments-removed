@@ -520,9 +520,12 @@ false
 ;
 if
 (
-gPrivateBrowsingUI
+PrivateBrowsingUtils
 .
-privateWindow
+isWindowPrivate
+(
+window
+)
 )
 return
 false
