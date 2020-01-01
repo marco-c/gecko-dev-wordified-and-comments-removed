@@ -691,9 +691,6 @@ int
 aWidth
 int
 aHeight
-nsIntRect
-&
-aDirtyRect
 const
 nsAString
 &
