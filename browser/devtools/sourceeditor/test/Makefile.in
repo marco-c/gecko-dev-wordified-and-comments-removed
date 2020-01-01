@@ -482,6 +482,10 @@ browser_bug695035_middle_click_paste
 .
 js
 \
+browser_bug687160_line_api
+.
+js
+\
 head
 .
 js
