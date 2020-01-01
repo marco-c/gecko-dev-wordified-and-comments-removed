@@ -1513,6 +1513,13 @@ case
 keypress
 "
 :
+if
+(
+!
+currentElement
+)
+return
+;
 let
 formExceptions
 =
@@ -1680,6 +1687,13 @@ case
 keyup
 "
 :
+if
+(
+!
+currentElement
+)
+return
+;
 switch
 (
 aEvent
@@ -1944,6 +1958,9 @@ _getJSON
 else
 if
 (
+currentElement
+&
+&
 this
 .
 _isSelectElement
