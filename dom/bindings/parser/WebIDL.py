@@ -5011,6 +5011,13 @@ NamedConstructor
 :
                 
 if
+identifier
+=
+=
+"
+Constructor
+"
+and
 not
 self
 .
