@@ -526,7 +526,7 @@ AudioSendAndReceive
 :
 PLAYOUT_SAMPLE_LENGTH
 =
-160
+160000
 ;
 int
 AudioSendAndReceive
@@ -1388,8 +1388,6 @@ PLAYOUT_SAMPLE_FREQUENCY
 *
 10
 )
-/
-1000
 ;
 int
 CHANNELS
@@ -1700,10 +1698,7 @@ while
 (
 numSamplesReadFromInput
 <
-=
-(
 SAMPLES
-)
 )
 ;
 FinishWaveHeader
