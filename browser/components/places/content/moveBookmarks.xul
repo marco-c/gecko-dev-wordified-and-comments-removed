@@ -803,6 +803,11 @@ vbox
 >
 <
 button
+id
+=
+"
+newFolderButton
+"
 label
 =
 "
