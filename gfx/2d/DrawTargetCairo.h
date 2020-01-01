@@ -759,10 +759,8 @@ SourceSurfaceCairo
 mSnapshots
 ;
 mutable
-RefPtr
-<
 CairoPathContext
->
+*
 mPathObserver
 ;
 }
