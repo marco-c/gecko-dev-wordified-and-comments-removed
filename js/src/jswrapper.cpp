@@ -1871,15 +1871,6 @@ compartment
 )
 )
 ;
-JSCompartment
-*
-destination
-=
-context
--
->
-compartment
-;
 JSObject
 *
 scopeChain
