@@ -220,6 +220,8 @@ js_GenerateShape
 JSContext
 *
 cx
+JSBool
+gcLocked
 )
 {
 JSRuntime
@@ -272,6 +274,10 @@ JS_TRUE
 js_GC
 (
 cx
+gcLocked
+?
+GC_LOCK_HELD
+:
 GC_NORMAL
 )
 ;
