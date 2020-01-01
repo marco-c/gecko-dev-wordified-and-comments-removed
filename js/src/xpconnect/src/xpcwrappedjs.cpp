@@ -217,7 +217,7 @@ JAVASCRIPT
 tmp
 -
 >
-GetJSObjectPreserveColor
+GetJSObject
 (
 )
 )
@@ -878,9 +878,7 @@ this
 JS_CallTracer
 (
 trc
-GetJSObjectPreserveColor
-(
-)
+mJSObj
 JSTRACE_OBJECT
 )
 ;
@@ -1016,9 +1014,7 @@ param
 ;
 NS_PRECONDITION
 (
-IsValid
-(
-)
+mJSObj
 "
 bad
 wrapper
@@ -1032,9 +1028,7 @@ if
 *
 aJSObj
 =
-GetJSObject
-(
-)
+mJSObj
 )
 )
 return
@@ -2445,9 +2439,7 @@ nsXPCWrappedJSClass
 BuildPropertyEnumerator
 (
 ccx
-GetJSObject
-(
-)
+mJSObj
 aEnumerate
 )
 ;
@@ -2532,9 +2524,7 @@ nsXPCWrappedJSClass
 GetNamedPropertyAsVariant
 (
 ccx
-GetJSObject
-(
-)
+mJSObj
 jsstr
 _retval
 )

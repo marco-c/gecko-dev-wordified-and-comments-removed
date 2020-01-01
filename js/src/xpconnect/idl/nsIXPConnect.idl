@@ -544,9 +544,13 @@ nsAXPCNativeCallContext
 .
 h
 "
-class
+#
+include
+"
 nsWrapperCache
-;
+.
+h
+"
 %
 }
 /
