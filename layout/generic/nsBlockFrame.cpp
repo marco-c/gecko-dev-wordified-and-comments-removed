@@ -14293,6 +14293,13 @@ mAvailSpaceRect
 height
 ;
 }
+aLine
+-
+>
+EnableResizeReflowOptimization
+(
+)
+;
 aLineLayout
 .
 BeginLineReflow
@@ -14369,13 +14376,6 @@ aLine
 -
 >
 mFirstChild
-;
-aLine
--
->
-EnableResizeReflowOptimization
-(
-)
 ;
 PRBool
 isContinuingPlaceholders
