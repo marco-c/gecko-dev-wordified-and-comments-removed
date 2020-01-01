@@ -3715,6 +3715,12 @@ stackIterAssertionEnabled
 ;
 #
 endif
+bool
+runningWithTrustedPrincipals
+(
+)
+const
+;
 private
 :
 JS_FRIEND_API
