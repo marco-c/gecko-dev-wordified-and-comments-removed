@@ -103,6 +103,14 @@ JS_NewRuntime
 JS_USE_HELPER_THREADS
 )
 ;
+if
+(
+!
+rt
+)
+return
+NULL
+;
 JS_SetGCParameter
 (
 rt
@@ -112,6 +120,11 @@ uint32_t
 )
 -
 1
+)
+;
+setNativeStackQuota
+(
+rt
 )
 ;
 return
