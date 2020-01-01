@@ -13824,9 +13824,9 @@ isChromeDoc
 dragSession
 -
 >
-SetCanDrop
+SetOnlyChromeDrop
 (
-PR_FALSE
+PR_TRUE
 )
 ;
 }
