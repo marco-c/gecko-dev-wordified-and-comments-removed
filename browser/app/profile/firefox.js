@@ -4464,6 +4464,16 @@ false
 pref
 (
 "
+network
+.
+warnOnAboutNetworking
+"
+true
+)
+;
+pref
+(
+"
 accessibility
 .
 typeaheadfind
