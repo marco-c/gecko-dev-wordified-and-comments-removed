@@ -40731,10 +40731,13 @@ if
 !
 defined
 XP_WIN
+debug_only
+(
 PodZero
 (
 &
 jitstats
+)
 )
 ;
 #
