@@ -708,7 +708,10 @@ if
 glyph
 >
 =
+PRUint32
+(
 mNumLongMetrics
+)
 )
 {
 glyph
@@ -3883,7 +3886,7 @@ numGlyphs
 i
 )
 {
-PRInt32
+PRUint32
 loc
 =
 ginfo
