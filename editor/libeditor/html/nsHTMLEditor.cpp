@@ -507,10 +507,6 @@ RemoveEditActionListener
 mListener
 )
 ;
-HideAnonymousEditingUIs
-(
-)
-;
 nsCOMPtr
 <
 nsISelection
@@ -1300,6 +1296,10 @@ mStyleSheetURLs
 )
 ;
 }
+HideAnonymousEditingUIs
+(
+)
+;
 return
 nsPlaintextEditor
 :
