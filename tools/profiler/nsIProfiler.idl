@@ -123,10 +123,10 @@ StartProfiler
 (
 in
 PRUint32
-aInterval
+aEntries
 in
 PRUint32
-aEntries
+aInterval
 [
 array
 size_is
