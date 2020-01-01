@@ -301,7 +301,7 @@ mSpecifiedUnitType
 ;
 }
 PRBool
-IsAnimValSet
+IsExplicitlySet
 (
 )
 const

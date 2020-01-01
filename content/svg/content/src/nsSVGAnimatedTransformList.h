@@ -107,6 +107,12 @@ modificationType
 aModType
 )
 ;
+PRBool
+IsExplicitlySet
+(
+)
+const
+;
 protected
 :
 friend
