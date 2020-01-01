@@ -620,7 +620,11 @@ ondialogcancel
 =
 "
 return
-true
+gSyncQuota
+.
+onCancel
+(
+)
 ;
 "
 ondialogaccept
