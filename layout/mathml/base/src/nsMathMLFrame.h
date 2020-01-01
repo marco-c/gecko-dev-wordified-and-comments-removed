@@ -444,15 +444,7 @@ ParseNumericValue
 (
 aString
 aCSSValue
-nsMathMLElement
-:
-:
-PARSE_ALLOW_NEGATIVE
-|
-nsMathMLElement
-:
-:
-PARSE_ALLOW_UNITLESS
+PR_FALSE
 )
 ;
 }

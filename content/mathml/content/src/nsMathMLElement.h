@@ -119,16 +119,6 @@ GetAttributeMappingFunction
 )
 const
 ;
-enum
-{
-PARSE_ALLOW_UNITLESS
-=
-0x01
-PARSE_ALLOW_NEGATIVE
-=
-0x02
-}
-;
 static
 PRBool
 ParseNumericValue
@@ -140,8 +130,8 @@ aString
 nsCSSValue
 &
 aCSSValue
-PRUint32
-aFlags
+PRBool
+aRequireLengthUnit
 )
 ;
 static
