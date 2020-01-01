@@ -1013,8 +1013,6 @@ COMPONENT_LIBS
 \
 mork
 \
-tkhstory
-\
 (
 NULL
 )
