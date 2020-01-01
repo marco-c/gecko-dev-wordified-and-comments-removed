@@ -14276,9 +14276,11 @@ return
 JS_FALSE
 ;
 }
-OBJ_SCOPE
-(
 blockObj
+-
+>
+scope
+(
 )
 -
 >
@@ -14345,9 +14347,11 @@ JSScope
 *
 scope
 =
-OBJ_SCOPE
-(
 obj
+-
+>
+scope
+(
 )
 ;
 JS_ASSERT

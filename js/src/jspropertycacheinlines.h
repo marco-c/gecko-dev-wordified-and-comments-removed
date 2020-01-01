@@ -47,9 +47,11 @@ obj
 )
 &
 &
-OBJ_SHAPE
-(
 obj
+-
+>
+shape
+(
 )
 =
 =

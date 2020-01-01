@@ -3918,9 +3918,11 @@ JS_TRUE
 ;
 if
 (
-OBJ_SCOPE
-(
 obj
+-
+>
+scope
+(
 )
 -
 >
@@ -5845,9 +5847,11 @@ js_SlowArrayClass
 ;
 emptyShape
 =
-OBJ_SCOPE
-(
 arrayProto
+-
+>
+scope
+(
 )
 -
 >

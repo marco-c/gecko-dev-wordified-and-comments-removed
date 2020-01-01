@@ -12272,9 +12272,11 @@ JSScope
 *
 scope
 =
-OBJ_SCOPE
-(
 obj
+-
+>
+scope
+(
 )
 ;
 if

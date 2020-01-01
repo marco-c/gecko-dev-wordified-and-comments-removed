@@ -23819,9 +23819,11 @@ js_AttributeNameClass
 }
 if
 (
-OBJ_SCOPE
-(
 obj
+-
+>
+scope
+(
 )
 -
 >
@@ -35979,9 +35981,11 @@ JS_ASSERT
 SPROP_HAS_VALID_SLOT
 (
 sprop
-OBJ_SCOPE
-(
 pobj
+-
+>
+scope
+(
 )
 )
 )
