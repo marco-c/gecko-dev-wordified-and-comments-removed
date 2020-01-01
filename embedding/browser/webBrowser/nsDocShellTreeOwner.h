@@ -168,7 +168,7 @@ h
 #
 include
 "
-nsPIDOMEventTarget
+nsIDOMEventTarget
 .
 h
 "
@@ -615,7 +615,7 @@ mWebBrowser
 ;
 nsCOMPtr
 <
-nsPIDOMEventTarget
+nsIDOMEventTarget
 >
 mEventTarget
 ;
@@ -770,7 +770,7 @@ mWebBrowser
 ;
 nsCOMPtr
 <
-nsPIDOMEventTarget
+nsIDOMEventTarget
 >
 mEventTarget
 ;

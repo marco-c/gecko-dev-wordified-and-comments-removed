@@ -355,7 +355,7 @@ aKeyEvent
 virtual
 already_AddRefed
 <
-nsPIDOMEventTarget
+nsIDOMEventTarget
 >
 GetPIDOMEventTarget
 (

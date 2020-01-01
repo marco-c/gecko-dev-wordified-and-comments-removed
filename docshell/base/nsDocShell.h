@@ -382,7 +382,7 @@ h
 #
 include
 "
-nsPIDOMEventTarget
+nsIDOMEventTarget
 .
 h
 "
@@ -1983,7 +1983,7 @@ nsIDocShellTreeOwner
 *
 mTreeOwner
 ;
-nsPIDOMEventTarget
+nsIDOMEventTarget
 *
 mChromeEventHandler
 ;

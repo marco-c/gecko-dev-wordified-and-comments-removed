@@ -6767,7 +6767,7 @@ xblService
 {
 nsCOMPtr
 <
-nsPIDOMEventTarget
+nsIDOMEventTarget
 >
 piTarget
 (
@@ -7099,7 +7099,7 @@ xblService
 {
 nsCOMPtr
 <
-nsPIDOMEventTarget
+nsIDOMEventTarget
 >
 piTarget
 (

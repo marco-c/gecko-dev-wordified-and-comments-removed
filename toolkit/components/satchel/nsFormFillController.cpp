@@ -3905,7 +3905,7 @@ aWindow
 )
 )
 ;
-nsPIDOMEventTarget
+nsIDOMEventTarget
 *
 chromeEventHandler
 =
@@ -4201,7 +4201,7 @@ aWindow
 )
 )
 ;
-nsPIDOMEventTarget
+nsIDOMEventTarget
 *
 chromeEventHandler
 =

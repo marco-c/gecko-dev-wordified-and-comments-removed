@@ -2168,7 +2168,7 @@ IsInnerWindow
 {
 nsCOMPtr
 <
-nsPIDOMEventTarget
+nsIDOMEventTarget
 >
 piTarget
 =
@@ -9410,7 +9410,7 @@ systemGroup
 ;
 static_cast
 <
-nsPIDOMEventTarget
+nsIDOMEventTarget
 *
 >
 (

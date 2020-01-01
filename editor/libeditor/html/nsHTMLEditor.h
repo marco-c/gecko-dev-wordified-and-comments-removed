@@ -384,7 +384,7 @@ IsActiveInDOMWindow
 virtual
 already_AddRefed
 <
-nsPIDOMEventTarget
+nsIDOMEventTarget
 >
 GetPIDOMEventTarget
 (

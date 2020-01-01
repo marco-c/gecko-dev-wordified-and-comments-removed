@@ -25764,7 +25764,7 @@ mParentTarget
 =
 static_cast
 <
-nsPIDOMEventTarget
+nsIDOMEventTarget
 *
 >
 (
@@ -29104,7 +29104,7 @@ PR_FALSE
 }
 nsCOMPtr
 <
-nsPIDOMEventTarget
+nsIDOMEventTarget
 >
 piTarget
 =
@@ -30377,7 +30377,7 @@ nsDocument
 :
 DispatchPageTransition
 (
-nsPIDOMEventTarget
+nsIDOMEventTarget
 *
 aDispatchTarget
 const
@@ -30693,7 +30693,7 @@ PR_TRUE
 }
 nsCOMPtr
 <
-nsPIDOMEventTarget
+nsIDOMEventTarget
 >
 target
 =
@@ -30914,7 +30914,7 @@ PR_FALSE
 }
 nsCOMPtr
 <
-nsPIDOMEventTarget
+nsIDOMEventTarget
 >
 target
 =

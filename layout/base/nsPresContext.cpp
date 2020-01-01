@@ -7267,7 +7267,7 @@ GetInnerWindow
 ;
 nsCOMPtr
 <
-nsPIDOMEventTarget
+nsIDOMEventTarget
 >
 et
 =
@@ -8459,7 +8459,7 @@ HasPaintEventListeners
 return
 PR_TRUE
 ;
-nsPIDOMEventTarget
+nsIDOMEventTarget
 *
 parentTarget
 =
@@ -8623,7 +8623,7 @@ do_QueryInterface
 parentTarget
 )
 ;
-nsPIDOMEventTarget
+nsIDOMEventTarget
 *
 tabChildGlobal
 ;

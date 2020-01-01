@@ -886,7 +886,7 @@ nsXBLPrototypeHandler
 :
 ExecuteHandler
 (
-nsPIDOMEventTarget
+nsIDOMEventTarget
 *
 aTarget
 nsIDOMEvent
@@ -1535,7 +1535,7 @@ nsXBLPrototypeHandler
 :
 DispatchXBLCommand
 (
-nsPIDOMEventTarget
+nsIDOMEventTarget
 *
 aTarget
 nsIDOMEvent
@@ -2229,7 +2229,7 @@ nsXBLPrototypeHandler
 :
 GetController
 (
-nsPIDOMEventTarget
+nsIDOMEventTarget
 *
 aTarget
 )

@@ -3012,7 +3012,7 @@ mDocShell
 ;
 nsCOMPtr
 <
-nsPIDOMEventTarget
+nsIDOMEventTarget
 >
 eventTarget
 =

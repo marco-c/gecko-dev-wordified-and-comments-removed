@@ -21,7 +21,7 @@ h
 #
 include
 "
-nsPIDOMEventTarget
+nsIDOMEventTarget
 .
 h
 "
@@ -145,7 +145,7 @@ NS_DECL_CYCLE_COLLECTING_ISUPPORTS
 NS_DECL_CYCLE_COLLECTION_CLASS_AMBIGUOUS
 (
 nsDOMEventTargetHelper
-nsPIDOMEventTarget
+nsIDOMEventTarget
 )
 NS_DECL_NSIDOMEVENTTARGET
 PRBool

@@ -407,7 +407,7 @@ h
 #
 include
 "
-nsPIDOMEventTarget
+nsIDOMEventTarget
 .
 h
 "
@@ -446,7 +446,7 @@ GetPIDOMEventTarget
 nsWebBrowser
 *
 inBrowser
-nsPIDOMEventTarget
+nsIDOMEventTarget
 *
 *
 aTarget
@@ -516,7 +516,7 @@ NS_ERROR_FAILURE
 ;
 nsCOMPtr
 <
-nsPIDOMEventTarget
+nsIDOMEventTarget
 >
 piTarget
 =
@@ -3187,7 +3187,7 @@ NS_ERROR_OUT_OF_MEMORY
 }
 nsCOMPtr
 <
-nsPIDOMEventTarget
+nsIDOMEventTarget
 >
 piTarget
 ;
@@ -3330,7 +3330,7 @@ mChromeContextMenuListener
 }
 nsCOMPtr
 <
-nsPIDOMEventTarget
+nsIDOMEventTarget
 >
 piTarget
 ;

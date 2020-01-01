@@ -1596,7 +1596,7 @@ NS_ERROR_NULL_POINTER
 }
 nsCOMPtr
 <
-nsPIDOMEventTarget
+nsIDOMEventTarget
 >
 piTarget
 =
@@ -1736,7 +1736,7 @@ nsnull
 }
 nsCOMPtr
 <
-nsPIDOMEventTarget
+nsIDOMEventTarget
 >
 piTarget
 =

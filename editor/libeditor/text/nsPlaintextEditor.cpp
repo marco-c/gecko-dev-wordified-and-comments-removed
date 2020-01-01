@@ -7384,7 +7384,7 @@ NS_OK
 }
 already_AddRefed
 <
-nsPIDOMEventTarget
+nsIDOMEventTarget
 >
 nsPlaintextEditor
 :

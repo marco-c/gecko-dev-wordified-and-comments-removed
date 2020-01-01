@@ -1961,7 +1961,7 @@ data
 ;
 nsCOMPtr
 <
-nsPIDOMEventTarget
+nsIDOMEventTarget
 >
 pt
 =

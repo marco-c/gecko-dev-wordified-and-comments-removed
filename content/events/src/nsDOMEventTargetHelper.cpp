@@ -141,7 +141,7 @@ nsDOMEventTargetHelper
 NS_INTERFACE_MAP_ENTRY_AMBIGUOUS
 (
 nsISupports
-nsPIDOMEventTarget
+nsIDOMEventTarget
 )
 NS_INTERFACE_MAP_ENTRY
 (
@@ -413,7 +413,7 @@ DispatchDOMEvent
 (
 static_cast
 <
-nsPIDOMEventTarget
+nsIDOMEventTarget
 *
 >
 (
@@ -636,7 +636,7 @@ DispatchDOMEvent
 (
 static_cast
 <
-nsPIDOMEventTarget
+nsIDOMEventTarget
 *
 >
 (
@@ -700,7 +700,7 @@ SetListenerTarget
 (
 static_cast
 <
-nsPIDOMEventTarget
+nsIDOMEventTarget
 *
 >
 (

@@ -14,7 +14,7 @@ h
 #
 include
 "
-nsPIDOMEventTarget
+nsIDOMEventTarget
 .
 h
 "
@@ -123,7 +123,7 @@ virtual
 void
 SetParentTarget
 (
-nsPIDOMEventTarget
+nsIDOMEventTarget
 *
 aTarget
 )
@@ -131,7 +131,7 @@ aTarget
 0
 ;
 virtual
-nsPIDOMEventTarget
+nsIDOMEventTarget
 *
 GetParentTarget
 (

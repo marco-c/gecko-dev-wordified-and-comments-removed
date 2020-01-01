@@ -449,10 +449,6 @@ nsEventDispatcher
 .
 h
 \
-nsPIDOMEventTarget
-.
-h
-\
 nsEventStates
 .
 h

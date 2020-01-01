@@ -33,7 +33,7 @@ supports
 =
 static_cast
 <
-nsPIDOMEventTarget
+nsIDOMEventTarget
 *
 >
 (

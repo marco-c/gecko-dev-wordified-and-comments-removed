@@ -81,13 +81,13 @@ nsISupports
 aSupports
 )
 {
-nsPIDOMEventTarget
+nsIDOMEventTarget
 *
 target
 =
 static_cast
 <
-nsPIDOMEventTarget
+nsIDOMEventTarget
 *
 >
 (
@@ -100,7 +100,7 @@ DEBUG
 {
 nsCOMPtr
 <
-nsPIDOMEventTarget
+nsIDOMEventTarget
 >
 target_qi
 =

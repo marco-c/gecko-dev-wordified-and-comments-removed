@@ -30351,7 +30351,7 @@ NS_ERROR_UNEXPECTED
 ;
 nsCOMPtr
 <
-nsPIDOMEventTarget
+nsIDOMEventTarget
 >
 piTarget
 =
@@ -30375,7 +30375,7 @@ Doesn
 t
 QI
 to
-nsPIDOMEventTarget
+nsIDOMEventTarget
 ?
 "
 )
