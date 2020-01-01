@@ -617,6 +617,14 @@ browser_globalwarnings
 .
 js
 \
+browser_eula
+.
+js
+\
+browser_eula
+.
+xml
+\
 redirect
 .
 sjs
