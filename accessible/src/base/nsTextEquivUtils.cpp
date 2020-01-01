@@ -38,6 +38,13 @@ h
 #
 include
 "
+nsStyleStructInlines
+.
+h
+"
+#
+include
+"
 nsIDOMXULLabeledControlEl
 .
 h
@@ -481,7 +488,7 @@ if
 display
 -
 >
-IsBlockOutside
+IsBlockOutsideStyle
 (
 )
 |

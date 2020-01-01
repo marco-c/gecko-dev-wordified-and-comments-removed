@@ -300,6 +300,13 @@ h
 #
 include
 "
+nsStyleStructInlines
+.
+h
+"
+#
+include
+"
 mozilla
 /
 Util
@@ -12857,11 +12864,6 @@ fromLine
 mFirstChild
 -
 >
-GetStyleDisplay
-(
-)
--
->
 IsBlockOutside
 (
 )
@@ -23152,11 +23154,6 @@ bool
 isBlock
 =
 newFrame
--
->
-GetStyleDisplay
-(
-)
 -
 >
 IsBlockOutside
