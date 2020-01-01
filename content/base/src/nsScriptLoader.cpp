@@ -1,6 +1,13 @@
 #
 include
 "
+jscntxt
+.
+h
+"
+#
+include
+"
 nsScriptLoader
 .
 h
@@ -128,13 +135,6 @@ h
 include
 "
 nsIDocShell
-.
-h
-"
-#
-include
-"
-jscntxt
 .
 h
 "
@@ -2460,8 +2460,6 @@ inlineOK
 ;
 rv
 =
-NS_SUCCEEDED
-(
 csp
 -
 >
@@ -2469,7 +2467,6 @@ GetAllowsInlineScript
 (
 &
 inlineOK
-)
 )
 ;
 NS_ENSURE_SUCCESS

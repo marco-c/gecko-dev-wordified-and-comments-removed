@@ -783,6 +783,10 @@ nsFrameMessageManager
 .
 cpp
 \
+nsFileDataProtocolHandler
+.
+cpp
+\
 (
 NULL
 )

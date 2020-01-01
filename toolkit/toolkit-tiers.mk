@@ -469,6 +469,15 @@ malloc
 /
 lib
 endif
+ifdef
+MOZ_TREE_FREETYPE
+tier_platform_dirs
++
+=
+modules
+/
+freetype2
+endif
 tier_platform_dirs
 +
 =
@@ -644,8 +653,6 @@ NULL
 )
 ifdef
 BUILD_CTYPES
-ifndef
-_MSC_VER
 tier_platform_staticdirs
 +
 =
@@ -659,7 +666,6 @@ libffi
 (
 NULL
 )
-endif
 endif
 ifdef
 MOZ_ENABLE_GTK2

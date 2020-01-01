@@ -185,7 +185,7 @@ h
 #
 include
 "
-nsXPFEComponentsCID
+nsToolkitCompsCID
 .
 h
 "

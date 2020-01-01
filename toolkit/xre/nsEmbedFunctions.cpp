@@ -179,13 +179,6 @@ h
 #
 include
 "
-nsXPFEComponentsCID
-.
-h
-"
-#
-include
-"
 nsXREDirProvider
 .
 h

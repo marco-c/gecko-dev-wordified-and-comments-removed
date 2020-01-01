@@ -917,7 +917,7 @@ result
 ;
 both
 :
-rpc
+async
 PPluginScriptableObject
 (
 )
