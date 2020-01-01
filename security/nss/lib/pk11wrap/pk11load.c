@@ -1,4 +1,8 @@
 #
+define
+FORCE_PR_LOG
+1
+#
 include
 "
 seccomon
@@ -69,14 +73,9 @@ prenv
 h
 "
 #
-ifdef
-DEBUG
-#
 define
 DEBUG_MODULE
 1
-#
-endif
 #
 ifdef
 DEBUG_MODULE

@@ -333,7 +333,7 @@ char
 )
 PORT_Alloc
 (
-100
+256
 )
 ;
 if
@@ -341,10 +341,12 @@ if
 timeString
 )
 {
+if
+(
 PR_FormatTime
 (
 timeString
-100
+256
 "
 %
 a
@@ -366,7 +368,8 @@ Y
 &
 printableTime
 )
-;
+)
+{
 fprintf
 (
 out
@@ -382,6 +385,7 @@ m
 timeString
 )
 ;
+}
 PORT_Free
 (
 timeString
@@ -1794,7 +1798,10 @@ SEC_ASN1DecodeItem
 (
 arena
 pk
+SEC_ASN1_GET
+(
 SECKEY_RSAPublicKeyTemplate
+)
 &
 i
 -
@@ -1840,7 +1847,10 @@ SEC_ASN1DecodeItem
 (
 arena
 pk
+SEC_ASN1_GET
+(
 SECKEY_DSAPublicKeyTemplate
+)
 &
 i
 -
@@ -1946,7 +1956,10 @@ SEC_ASN1DecodeItem
 NULL
 &
 decodedValue
+SEC_ASN1_GET
+(
 SEC_GeneralizedTimeTemplate
+)
 value
 )
 ;
@@ -2576,7 +2589,10 @@ SEC_ASN1DecodeItem
 (
 arena
 c
+SEC_ASN1_GET
+(
 CERT_CertificateTemplate
+)
 der
 )
 ;
@@ -2884,7 +2900,10 @@ SEC_ASN1DecodeItem
 (
 arena
 sd
+SEC_ASN1_GET
+(
 CERT_SignedDataTemplate
+)
 der
 )
 ;

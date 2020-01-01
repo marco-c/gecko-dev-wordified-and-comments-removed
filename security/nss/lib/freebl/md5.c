@@ -699,12 +699,13 @@ MD5_HashBuf
 (
 dest
 (
+const
 unsigned
 char
 *
 )
 src
-PL_strlen
+PORT_Strlen
 (
 src
 )

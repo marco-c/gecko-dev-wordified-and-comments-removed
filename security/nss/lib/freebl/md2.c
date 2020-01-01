@@ -436,12 +436,13 @@ MD2_Update
 (
 cx
 (
+const
 unsigned
 char
 *
 )
 src
-PL_strlen
+PORT_Strlen
 (
 src
 )

@@ -162,11 +162,8 @@ while
 x
 )
 )
-PR_IMPLEMENT
-(
 NSSRWLock
 *
-)
 NSSRWLock_New
 (
 PRUint32
@@ -392,10 +389,7 @@ NULL
 )
 ;
 }
-PR_IMPLEMENT
-(
 void
-)
 NSSRWLock_Destroy
 (
 NSSRWLock
@@ -488,10 +482,7 @@ rwlock
 )
 ;
 }
-PR_IMPLEMENT
-(
 void
-)
 NSSRWLock_LockRead
 (
 NSSRWLock
@@ -635,10 +626,7 @@ rwlock
 #
 endif
 }
-PR_IMPLEMENT
-(
 void
-)
 NSSRWLock_UnlockRead
 (
 NSSRWLock
@@ -741,10 +729,7 @@ endif
 return
 ;
 }
-PR_IMPLEMENT
-(
 void
-)
 NSSRWLock_LockWrite
 (
 NSSRWLock
@@ -936,10 +921,7 @@ rwlock
 #
 endif
 }
-PR_IMPLEMENT
-(
 void
-)
 NSSRWLock_UnlockWrite
 (
 NSSRWLock
@@ -1093,10 +1075,7 @@ endif
 return
 ;
 }
-PR_IMPLEMENT
-(
 PRBool
-)
 NSSRWLock_HaveWriteLock
 (
 NSSRWLock

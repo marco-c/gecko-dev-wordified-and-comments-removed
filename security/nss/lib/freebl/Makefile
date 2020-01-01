@@ -3909,9 +3909,6 @@ c
 win_rand
 .
 c
-mac_rand
-.
-c
 os2_rand
 .
 c

@@ -75,9 +75,9 @@ NSS_VERSION
 .
 12
 .
-1
+2
 .
-1
+0
 "
 _NSS_ECC_STRING
 _NSS_CUSTOMIZED
@@ -92,7 +92,7 @@ NSS_VMINOR
 #
 define
 NSS_VPATCH
-1
+2
 #
 define
 NSS_BETA

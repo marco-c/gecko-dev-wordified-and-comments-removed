@@ -4730,6 +4730,7 @@ PK11MergeLog
 *
 PK11_CreateMergeLog
 (
+void
 )
 {
 PRArenaPool

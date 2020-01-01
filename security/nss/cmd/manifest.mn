@@ -468,8 +468,6 @@ shlibsign
 \
 smimetools
 \
-SSLsample
-\
 ssltap
 \
 strsclnt

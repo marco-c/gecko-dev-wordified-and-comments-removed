@@ -1874,9 +1874,6 @@ Original
 SDR
 Key
 "
-{
-PROFTOOL
-}
 echo
 "
 sdrtest
@@ -1899,6 +1896,9 @@ f
 R_PWFILE
 }
 "
+{
+PROFTOOL
+}
 {
 BINDIR
 }

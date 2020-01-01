@@ -411,6 +411,10 @@ nss
 CSRCS
 =
 \
+conflict
+.
+c
+\
 nonspr10
 .
 c

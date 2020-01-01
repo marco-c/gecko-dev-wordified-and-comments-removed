@@ -1084,7 +1084,7 @@ PR_fprintf
 PR_STDERR
 errStrings
 [
-ADD_MODULE_FAILED_STATUS_ERR
+ADD_MODULE_FAILED_ERR
 ]
 moduleName
 errtxt
@@ -1106,6 +1106,12 @@ errStrings
 ADD_MODULE_FAILED_ERR
 ]
 moduleName
+SECU_Strerror
+(
+PORT_GetError
+(
+)
+)
 )
 ;
 }

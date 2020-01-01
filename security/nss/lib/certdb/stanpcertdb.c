@@ -4114,6 +4114,11 @@ Deprecated
 NULL
 )
 ;
+PORT_SetError
+(
+PR_NOT_IMPLEMENTED_ERROR
+)
+;
 return
 SECFailure
 ;
@@ -4140,6 +4145,11 @@ Deprecated
 =
 =
 NULL
+)
+;
+PORT_SetError
+(
+PR_NOT_IMPLEMENTED_ERROR
 )
 ;
 return
@@ -4175,6 +4185,11 @@ Deprecated
 NULL
 )
 ;
+PORT_SetError
+(
+PR_NOT_IMPLEMENTED_ERROR
+)
+;
 return
 SECFailure
 ;
@@ -4206,6 +4221,11 @@ Deprecated
 =
 =
 NULL
+)
+;
+PORT_SetError
+(
+PR_NOT_IMPLEMENTED_ERROR
 )
 ;
 return

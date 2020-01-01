@@ -1044,3 +1044,10 @@ _
 (
 CPU_ARCH
 )
+USE_SYSTEM_ZLIB
+=
+1
+ZLIB_LIBS
+=
+-
+lz

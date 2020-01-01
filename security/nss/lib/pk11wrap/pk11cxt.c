@@ -1183,6 +1183,11 @@ pk11_null_params
 }
 else
 {
+PORT_SetError
+(
+SEC_ERROR_INVALID_ARGS
+)
+;
 context
 -
 >

@@ -117,12 +117,10 @@ char
 *
 rcvBuf
 ;
-const
 char
 *
 host
 ;
-const
 char
 *
 path

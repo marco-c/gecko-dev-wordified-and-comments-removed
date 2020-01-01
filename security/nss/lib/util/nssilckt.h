@@ -103,6 +103,12 @@ nssILockLast
 }
 nssILockType
 ;
+#
+if
+defined
+(
+NEED_NSS_ILOCK
+)
 typedef
 enum
 {
@@ -193,13 +199,6 @@ file
 ;
 }
 ;
-PR_BEGIN_EXTERN_C
-#
-if
-defined
-(
-NEED_NSS_ILOCK
-)
 typedef
 struct
 pzlock_s
@@ -231,6 +230,5 @@ PZMonitor
 PRMonitor
 #
 endif
-PR_END_EXTERN_C
 #
 endif
