@@ -231,6 +231,8 @@ public
 nsIEditorStyleSheets
 public
 nsICSSLoaderObserver
+public
+nsStubMutationObserver
 {
 typedef
 enum
@@ -385,6 +387,9 @@ nsINode
 aNode
 )
 ;
+NS_DECL_NSIMUTATIONOBSERVER_CONTENTAPPENDED
+NS_DECL_NSIMUTATIONOBSERVER_CONTENTINSERTED
+NS_DECL_NSIMUTATIONOBSERVER_CONTENTREMOVED
 NS_IMETHOD
 GetPreferredIMEState
 (
@@ -1005,6 +1010,13 @@ nsISelectionController
 aSelCon
 PRUint32
 aFlags
+)
+;
+NS_IMETHOD
+PreDestroy
+(
+PRBool
+aDestroyingFrames
 )
 ;
 static
