@@ -438,6 +438,14 @@ mk
 _TEST_FILES
 =
 \
+test_bug113934
+.
+xul
+\
+bug113934_window
+.
+xul
+\
 test_bug364461
 .
 xul
