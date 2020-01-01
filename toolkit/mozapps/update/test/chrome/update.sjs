@@ -1105,6 +1105,19 @@ true
 null
 ;
 var
+promptWaitTime
+=
+params
+.
+promptWaitTime
+?
+params
+.
+promptWaitTime
+:
+null
+;
+var
 showSurvey
 =
 params
@@ -1242,6 +1255,7 @@ billboardURL
 licenseURL
 showPrompt
 showNever
+promptWaitTime
 showSurvey
 version
 extensionVersion

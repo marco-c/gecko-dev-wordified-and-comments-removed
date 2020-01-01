@@ -206,6 +206,7 @@ aBillboardURL
 aLicenseURL
 aShowPrompt
 aShowNeverForVersion
+aPromptWaitTime
 aShowSurvey
 aVersion
 aExtensionVersion
@@ -227,6 +228,7 @@ aBillboardURL
 aLicenseURL
 aShowPrompt
 aShowNeverForVersion
+aPromptWaitTime
 aShowSurvey
 aVersion
 aExtensionVersion
@@ -406,6 +408,7 @@ aChannel
 aForegroundDownload
 aShowPrompt
 aShowNeverForVersion
+aPromptWaitTime
 aShowSurvey
 aVersion
 aExtensionVersion
@@ -541,6 +544,7 @@ aBillboardURL
 aLicenseURL
 aShowPrompt
 aShowNeverForVersion
+aPromptWaitTime
 aShowSurvey
 aVersion
 aExtensionVersion
@@ -748,6 +752,7 @@ aBillboardURL
 aLicenseURL
 aShowPrompt
 aShowNeverForVersion
+aPromptWaitTime
 aShowSurvey
 aVersion
 aExtensionVersion
@@ -1067,6 +1072,28 @@ aShowNeverForVersion
 "
 ;
 let
+promptWaitTime
+=
+aPromptWaitTime
+?
+"
+promptWaitTime
+=
+\
+"
+"
++
+aPromptWaitTime
++
+"
+\
+"
+"
+:
+"
+"
+;
+let
 showSurvey
 =
 aShowSurvey
@@ -1164,6 +1191,8 @@ licenseURL
 showPrompt
 +
 showNeverForVersion
++
+promptWaitTime
 +
 showSurvey
 +
