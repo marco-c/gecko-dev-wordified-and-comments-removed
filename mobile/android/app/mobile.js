@@ -597,7 +597,7 @@ max
 -
 connections
 "
-6
+20
 )
 ;
 pref
@@ -615,7 +615,7 @@ per
 -
 server
 "
-4
+15
 )
 ;
 pref
@@ -635,7 +635,7 @@ per
 -
 server
 "
-4
+6
 )
 ;
 pref
@@ -655,7 +655,7 @@ per
 -
 proxy
 "
-4
+8
 )
 ;
 #
@@ -3957,7 +3957,7 @@ plugins
 .
 use_placeholder
 "
-1
+0
 )
 ;
 #
