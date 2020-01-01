@@ -1593,9 +1593,9 @@ android
 background
 =
 "
-drawable
+color
 /
-url_bar_bg_shadow_repeat
+url_bar_shadow
 "
 android
 :
@@ -1603,13 +1603,6 @@ contentDescription
 =
 "
 null
-"
-android
-:
-visibility
-=
-"
-gone
 "
 /
 >
