@@ -2821,9 +2821,11 @@ resv
 >
 arIndex
 )
-reserveFree
-(
 i
+-
+>
+clearResv
+(
 )
 ;
 asm_ld_imm
