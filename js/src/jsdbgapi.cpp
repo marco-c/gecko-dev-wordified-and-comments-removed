@@ -2115,9 +2115,6 @@ fun
 script
 (
 )
--
->
-bindings
 &
 bindings
 )
