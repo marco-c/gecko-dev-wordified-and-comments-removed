@@ -718,7 +718,7 @@ join
 const
 SERVER_PORT
 =
-7777
+6666
 ;
 startupHttpd
 (
