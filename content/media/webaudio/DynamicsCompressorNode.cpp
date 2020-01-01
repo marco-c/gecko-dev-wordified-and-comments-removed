@@ -70,8 +70,7 @@ mThreshold
 new
 AudioParam
 (
-this
-Callback
+aContext
 -
 24
 .
@@ -90,8 +89,7 @@ mKnee
 new
 AudioParam
 (
-this
-Callback
+aContext
 30
 .
 f
@@ -108,8 +106,7 @@ mRatio
 new
 AudioParam
 (
-this
-Callback
+aContext
 12
 .
 f
@@ -126,8 +123,7 @@ mReduction
 new
 AudioParam
 (
-this
-Callback
+aContext
 0
 .
 f
@@ -145,8 +141,7 @@ mAttack
 new
 AudioParam
 (
-this
-Callback
+aContext
 0
 .
 003f
@@ -163,8 +158,7 @@ mRelease
 new
 AudioParam
 (
-this
-Callback
+aContext
 0
 .
 25f

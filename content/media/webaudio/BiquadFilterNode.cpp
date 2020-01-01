@@ -96,8 +96,7 @@ mFrequency
 new
 AudioParam
 (
-this
-Callback
+aContext
 350
 .
 f
@@ -115,8 +114,7 @@ mQ
 new
 AudioParam
 (
-this
-Callback
+aContext
 1
 .
 f
@@ -133,8 +131,7 @@ mGain
 new
 AudioParam
 (
-this
-Callback
+aContext
 0
 .
 f
