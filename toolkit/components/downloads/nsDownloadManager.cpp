@@ -872,6 +872,8 @@ mCurrentDownloads
 ;
 nsresult
 result
+=
+NS_OK
 ;
 if
 (
@@ -890,8 +892,6 @@ GetQuitBehavior
 =
 QUIT_AND_CANCEL
 )
-result
-=
 mCurrentDownloads
 .
 RemoveObject

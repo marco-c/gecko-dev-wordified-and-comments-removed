@@ -3209,8 +3209,6 @@ InvalidateCaches
 "
 NS_LINEBREAK
 ;
-rv
-=
 PR_Write
 (
 fd
@@ -3227,16 +3225,6 @@ PR_Close
 (
 fd
 )
-;
-if
-(
-NS_FAILED
-(
-rv
-)
-)
-return
-rv
 ;
 }
 return
