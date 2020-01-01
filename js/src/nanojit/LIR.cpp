@@ -6549,6 +6549,8 @@ next
 )
 +
 argc
+*
+LIR_FAR_SLOTS
 +
 insSz
 -
