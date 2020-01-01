@@ -804,12 +804,11 @@ id
 "
 version
 "
-value
-=
-"
+>
 __MOZ_APP_VERSION__
-"
+<
 /
+label
 >
 <
 label

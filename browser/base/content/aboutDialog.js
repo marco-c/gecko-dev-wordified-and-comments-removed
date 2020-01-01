@@ -667,7 +667,7 @@ version
 "
 )
 .
-value
+textContent
 +
 =
 "
