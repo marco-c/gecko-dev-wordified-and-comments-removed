@@ -812,7 +812,7 @@ height
 0
 )
 {
-NS_ERROR
+NS_WARNING
 (
 "
 Surface
@@ -857,7 +857,7 @@ sz
 width
 )
 {
-NS_ERROR
+NS_WARNING
 (
 "
 Surface
@@ -901,7 +901,7 @@ sz
 height
 )
 {
-NS_ERROR
+NS_WARNING
 (
 "
 Surface
