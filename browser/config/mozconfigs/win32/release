@@ -2,6 +2,10 @@
 for
 pgo
 mk_add_options
+MOZ_PGO
+=
+1
+mk_add_options
 PROFILE_GEN_SCRIPT
 =
 '
