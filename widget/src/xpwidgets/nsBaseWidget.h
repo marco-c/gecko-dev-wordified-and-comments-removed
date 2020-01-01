@@ -344,13 +344,6 @@ PRBool
 aFullScreen
 )
 ;
-nsresult
-MakeFullScreenInternal
-(
-PRBool
-aFullScreen
-)
-;
 virtual
 nsIRenderingContext
 *
