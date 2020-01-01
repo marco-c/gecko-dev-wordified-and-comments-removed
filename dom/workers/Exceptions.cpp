@@ -323,6 +323,16 @@ aCx
 aVp
 )
 ;
+if
+(
+!
+obj
+)
+{
+return
+false
+;
+}
 JSClass
 *
 classPtr

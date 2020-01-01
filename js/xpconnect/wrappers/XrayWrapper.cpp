@@ -2226,6 +2226,10 @@ vp
 if
 (
 !
+wrapper
+|
+|
+!
 IsWrapper
 (
 wrapper
