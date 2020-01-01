@@ -4643,6 +4643,9 @@ JSCompartment
 *
 atomsCompartment_
 ;
+bool
+beingDestroyed_
+;
 public
 :
 js
@@ -4695,6 +4698,16 @@ comp
 =
 =
 atomsCompartment_
+;
+}
+bool
+isBeingDestroyed
+(
+)
+const
+{
+return
+beingDestroyed_
 ;
 }
 inline

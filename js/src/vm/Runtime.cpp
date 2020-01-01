@@ -1096,6 +1096,10 @@ atomsCompartment_
 (
 NULL
 )
+beingDestroyed_
+(
+false
+)
 wrapObjectCallback
 (
 TransparentObjectWrapper
@@ -1769,6 +1773,14 @@ staticStrings
 finish
 (
 )
+;
+beingDestroyed_
+=
+true
+;
+profilingScripts
+=
+false
 ;
 JS
 :
