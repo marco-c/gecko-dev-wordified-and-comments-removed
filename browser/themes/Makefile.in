@@ -449,6 +449,10 @@ DIRS
 =
 pinstripe
 else
+DIRS
+=
+winstripe
+endif
 ifneq
 (
 (
@@ -462,10 +466,6 @@ MOZ_WIDGET_TOOLKIT
 DIRS
 =
 gnomestripe
-else
-DIRS
-=
-winstripe
 endif
 include
 (
