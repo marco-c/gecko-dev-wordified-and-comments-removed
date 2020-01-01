@@ -101,6 +101,10 @@ test_gamepad
 .
 html
 \
+test_gamepad_connect_events
+.
+html
+\
 test_gamepad_frame_state_sync
 .
 html
