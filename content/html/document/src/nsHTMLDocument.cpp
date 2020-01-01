@@ -14386,9 +14386,9 @@ mUpdateNestLevel
 0
 &
 &
-EditingShouldBeOn
-(
-)
+mContentEditableCount
+>
+0
 !
 =
 IsEditingOn
@@ -14449,9 +14449,9 @@ mUpdateNestLevel
 0
 &
 &
-EditingShouldBeOn
-(
-)
+mContentEditableCount
+>
+0
 !
 =
 IsEditingOn
