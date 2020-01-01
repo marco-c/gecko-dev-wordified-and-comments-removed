@@ -2088,7 +2088,7 @@ GetDocumentURI
 )
 -
 >
-Equals
+EqualsExceptRef
 (
 imageURI
 &
