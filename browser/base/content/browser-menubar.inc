@@ -3864,6 +3864,11 @@ align
 "
 center
 "
+observes
+=
+"
+socialBroadcaster_userDetails
+"
 oncommand
 =
 "
@@ -3908,7 +3913,7 @@ portrait
 observes
 =
 "
-socialBroadcaster_userPortrait
+socialBroadcaster_userDetails
 "
 /
 >
@@ -3929,7 +3934,7 @@ loggedInStatus
 observes
 =
 "
-socialBroadcaster_loggedInStatus
+socialBroadcaster_userDetails
 "
 /
 >
