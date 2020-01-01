@@ -686,7 +686,7 @@ url
 )
 {
 }
-streamCompleted
+streamFinished
 :
 function
 (
