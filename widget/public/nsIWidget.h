@@ -1238,11 +1238,11 @@ aCycleCount
 0
 ;
 NS_IMETHOD
-HasPendingEvent
+GetLastInputEventTime
 (
-PRBool
+PRUint32
 &
-aHasPending
+aTime
 )
 =
 0
