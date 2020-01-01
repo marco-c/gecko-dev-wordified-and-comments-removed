@@ -17528,6 +17528,13 @@ mThebes
 mThebes
 -
 >
+ResetClip
+(
+)
+;
+mThebes
+-
+>
 IdentityMatrix
 (
 )
