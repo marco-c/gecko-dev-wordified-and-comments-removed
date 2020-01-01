@@ -1560,7 +1560,12 @@ toolbarbutton
 return
 aElementOrTreeIndex
 .
+getAttribute
+(
+"
 label
+"
+)
 =
 =
 PlacesUIUtils
@@ -1575,7 +1580,12 @@ _placesNode
 return
 aElementOrTreeIndex
 .
+getAttribute
+(
+"
 label
+"
+)
 =
 =
 aNewValue
