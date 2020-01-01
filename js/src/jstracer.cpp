@@ -2338,7 +2338,7 @@ f
 >
 argv
 [
-n
+0
 ]
 ;
 vpstop
@@ -2391,7 +2391,7 @@ f
 >
 vars
 [
-n
+0
 ]
 ;
 vpstop
