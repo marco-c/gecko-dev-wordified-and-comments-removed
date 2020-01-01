@@ -154,9 +154,11 @@ is
 winWidth
 )
 ;
-is
+ok
 (
 docWidth
+<
+=
 winWidth
 "
 Sanity
