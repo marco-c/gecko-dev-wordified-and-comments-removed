@@ -7,13 +7,6 @@ nsPresState_h_
 #
 include
 "
-prtypes
-.
-h
-"
-#
-include
-"
 nsPoint
 .
 h

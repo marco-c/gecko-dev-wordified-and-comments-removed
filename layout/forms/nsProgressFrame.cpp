@@ -22,13 +22,6 @@ h
 #
 include
 "
-prtypes
-.
-h
-"
-#
-include
-"
 nsPresContext
 .
 h

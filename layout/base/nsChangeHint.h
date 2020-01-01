@@ -7,13 +7,6 @@ nsChangeHint_h___
 #
 include
 "
-prtypes
-.
-h
-"
-#
-include
-"
 nsDebug
 .
 h

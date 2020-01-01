@@ -7,13 +7,6 @@ nsStyleAnimation_h_
 #
 include
 "
-prtypes
-.
-h
-"
-#
-include
-"
 nsAString
 .
 h
