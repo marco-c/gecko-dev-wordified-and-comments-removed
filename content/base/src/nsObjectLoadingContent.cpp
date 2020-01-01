@@ -6376,7 +6376,14 @@ cb
 .
 NoteXPCOMChild
 (
+static_cast
+<
+nsIFrameLoader
+*
+>
+(
 mFrameLoader
+)
 )
 ;
 }
