@@ -371,6 +371,14 @@ fragmentArgs
 )
 ;
 }
+prefIntent
+.
+putExtra
+(
+ALERT_NAME_DATAREPORTING_NOTIFICATION
+true
+)
+;
 PendingIntent
 contentIntent
 =
@@ -606,7 +614,7 @@ R
 .
 drawable
 .
-ic_menu_settings
+firefox_settings_alert
 notificationAction
 contentIntent
 )
