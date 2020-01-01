@@ -33,17 +33,12 @@ nsTArray
 h
 "
 #
-ifdef
-MOZ_ANDROID_OMTC
-#
 include
 "
 AndroidJavaWrappers
 .
 h
 "
-#
-endif
 class
 gfxASurface
 ;
@@ -761,9 +756,6 @@ nsIWidget
 aNewParent
 )
 ;
-#
-ifdef
-MOZ_ANDROID_OMTC
 virtual
 bool
 NeedsPaint
@@ -859,8 +851,6 @@ WidgetPaintsBackground
 (
 )
 ;
-#
-endif
 protected
 :
 void
@@ -1169,9 +1159,6 @@ RedrawAll
 (
 )
 ;
-#
-ifdef
-MOZ_ANDROID_OMTC
 mozilla
 :
 :
@@ -1221,8 +1208,6 @@ static
 bool
 sCompositorPaused
 ;
-#
-endif
 }
 ;
 #

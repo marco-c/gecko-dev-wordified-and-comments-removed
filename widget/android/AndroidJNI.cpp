@@ -2539,9 +2539,6 @@ runnable
 }
 #
 endif
-#
-ifdef
-MOZ_ANDROID_OMTC
 NS_EXPORT
 void
 JNICALL
@@ -3701,6 +3698,4 @@ NotifyFrameAvailable
 )
 ;
 }
-#
-endif
 }
