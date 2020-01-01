@@ -652,8 +652,9 @@ analysis
 (
 )
 ;
-JS_ASSERT
+if
 (
+!
 analysis
 -
 >
@@ -662,6 +663,7 @@ jumpTarget
 pc
 )
 )
+return
 ;
 if
 (
