@@ -701,8 +701,6 @@ cx
 JSCodeGenerator
 *
 cg
-JSOp
-op
 ptrdiff_t
 delta
 )
@@ -1316,7 +1314,6 @@ EmitCheck
 (
 cx
 cg
-op
 1
 )
 ;
@@ -1375,7 +1372,6 @@ EmitCheck
 (
 cx
 cg
-op
 2
 )
 ;
@@ -1458,7 +1454,6 @@ EmitCheck
 (
 cx
 cg
-op
 3
 )
 ;
@@ -1548,7 +1543,6 @@ EmitCheck
 (
 cx
 cg
-op
 5
 )
 ;
@@ -1672,7 +1666,6 @@ EmitCheck
 (
 cx
 cg
-op
 length
 )
 ;
