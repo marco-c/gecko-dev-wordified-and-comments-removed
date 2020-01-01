@@ -2913,7 +2913,7 @@ return
 mLastCharCR
 ;
 }
-PRUint32
+void
 write
 (
 const
@@ -3076,9 +3076,6 @@ mWritten
 +
 =
 num_written
-;
-return
-aSourceLength
 ;
 }
 private

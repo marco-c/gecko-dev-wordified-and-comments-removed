@@ -270,7 +270,7 @@ ePositive
 )
 {
 }
-PRUint32
+void
 write
 (
 const
@@ -290,7 +290,6 @@ eIllegal
 )
 {
 return
-aSourceLength
 ;
 }
 PRUint32
@@ -425,7 +424,6 @@ mState
 eIllegal
 ;
 return
-aSourceLength
 ;
 }
 break
@@ -512,7 +510,6 @@ mState
 eIllegal
 ;
 return
-aSourceLength
 ;
 }
 break
@@ -598,7 +595,6 @@ mState
 eIllegal
 ;
 return
-aSourceLength
 ;
 }
 break
@@ -609,9 +605,6 @@ break
 ;
 }
 }
-return
-aSourceLength
-;
 }
 double
 getDouble

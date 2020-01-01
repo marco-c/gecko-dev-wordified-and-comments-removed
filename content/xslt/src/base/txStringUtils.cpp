@@ -220,7 +220,7 @@ typedef
 PRUnichar
 value_type
 ;
-PRUint32
+void
 write
 (
 const
@@ -308,9 +308,6 @@ A
 cp
 ;
 }
-return
-aSourceLength
-;
 }
 }
 ;
@@ -375,7 +372,7 @@ aDestIter
 )
 {
 }
-PRUint32
+void
 write
 (
 const
@@ -492,9 +489,6 @@ advance
 (
 len
 )
-;
-return
-len
 ;
 }
 protected

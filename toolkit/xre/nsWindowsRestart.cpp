@@ -661,8 +661,6 @@ convert
 s
 )
 ;
-len
-=
 convert
 .
 write
