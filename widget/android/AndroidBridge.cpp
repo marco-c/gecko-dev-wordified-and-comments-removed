@@ -9204,6 +9204,7 @@ nsJNIString
 jniStr
 (
 returnMessage
+env
 )
 ;
 aRet
