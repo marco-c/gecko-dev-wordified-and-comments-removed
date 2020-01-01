@@ -2948,12 +2948,6 @@ aProperty
 ;
 static
 bool
-Are3DTransformsEnabled
-(
-)
-;
-static
-bool
 AreAsyncAnimationsEnabled
 (
 )
