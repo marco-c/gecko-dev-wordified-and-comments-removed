@@ -3804,6 +3804,13 @@ opaque
 )
 GK_ATOM
 (
+moz_action_hint
+"
+mozactionhint
+"
+)
+GK_ATOM
+(
 x_moz_errormessage
 "
 x

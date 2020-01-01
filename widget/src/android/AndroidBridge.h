@@ -223,7 +223,11 @@ aState
 const
 nsAString
 &
-aHint
+aTypeHint
+const
+nsAString
+&
+aActionHint
 )
 ;
 static

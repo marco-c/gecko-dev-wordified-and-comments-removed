@@ -258,6 +258,7 @@ placeholder
 tabindex
 accesskey
 noinitialfocus
+mozactionhint
 "
 /
 >
@@ -2637,6 +2638,11 @@ anonid
 "
 input
 "
+mozactionhint
+=
+"
+search
+"
 xbl
 :
 inherits
@@ -2653,6 +2659,7 @@ readonly
 placeholder
 tabindex
 accesskey
+mozactionhint
 "
 /
 >
@@ -3636,6 +3643,7 @@ cols
 readonly
 wrap
 placeholder
+mozactionhint
 "
 >
 <

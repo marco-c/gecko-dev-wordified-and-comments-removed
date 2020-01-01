@@ -783,6 +783,7 @@ readonly
 placeholder
 tabindex
 accesskey
+mozactionhint
 "
 /
 >

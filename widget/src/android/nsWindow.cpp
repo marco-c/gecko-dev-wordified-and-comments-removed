@@ -8006,6 +8006,9 @@ mStatus
 aContext
 .
 mHTMLInputType
+aContext
+.
+mActionHint
 )
 ;
 return

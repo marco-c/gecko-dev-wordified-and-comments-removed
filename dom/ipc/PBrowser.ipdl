@@ -1191,6 +1191,8 @@ PRUint32
 value
 nsString
 type
+nsString
+actionHint
 )
 ;
 sync

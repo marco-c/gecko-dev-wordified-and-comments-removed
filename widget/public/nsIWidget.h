@@ -435,6 +435,9 @@ mStatus
 nsString
 mHTMLInputType
 ;
+nsString
+mActionHint
+;
 }
 ;
 class
