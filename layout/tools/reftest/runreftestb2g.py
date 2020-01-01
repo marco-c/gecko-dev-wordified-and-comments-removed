@@ -3326,6 +3326,16 @@ prompted
 true
 )
 ;
+user_pref
+(
+"
+marionette
+.
+loadearly
+"
+true
+)
+;
 "
 "
 "
