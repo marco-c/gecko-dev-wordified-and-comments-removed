@@ -6483,6 +6483,14 @@ awesomebar_contextmenu
 .
 xml
 \
+res
+/
+menu
+/
+titlebar_contextmenu
+.
+xml
+\
 (
 NULL
 )
