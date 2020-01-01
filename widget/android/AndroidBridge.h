@@ -1565,8 +1565,6 @@ gfxRect
 rect
 bool
 isFullScreen
-int
-orientation
 )
 ;
 void

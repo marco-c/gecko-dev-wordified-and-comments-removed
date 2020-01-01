@@ -702,12 +702,7 @@ SetFullScreenOrientation
 PRUint32
 orientation
 )
-{
-mFullScreenOrientation
-=
-orientation
 ;
-}
 void
 SetWakeLock
 (
@@ -1078,6 +1073,9 @@ mFullScreenOrientation
 ;
 bool
 mWakeLocked
+;
+bool
+mFullScreen
 ;
 #
 endif
