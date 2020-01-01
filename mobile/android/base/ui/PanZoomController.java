@@ -2097,8 +2097,10 @@ private
 void
 scrollBy
 (
-PointF
-point
+float
+dx
+float
+dy
 )
 {
 ImmutableViewportMetrics
@@ -2110,7 +2112,8 @@ getMetrics
 .
 offsetViewportBy
 (
-point
+dx
+dy
 )
 ;
 mTarget
@@ -2558,6 +2561,11 @@ getLock
 scrollBy
 (
 displacement
+.
+x
+displacement
+.
+y
 )
 ;
 }
@@ -3908,9 +3916,6 @@ excessZoom
 }
 scrollBy
 (
-new
-PointF
-(
 mLastZoomFocus
 .
 x
@@ -3928,7 +3933,6 @@ detector
 .
 getFocusY
 (
-)
 )
 )
 ;
