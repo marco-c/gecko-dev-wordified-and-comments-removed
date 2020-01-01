@@ -801,7 +801,13 @@ UndefinedValue
 if
 (
 !
+current
+-
+>
+add
+(
 undef
+)
 )
 return
 false
@@ -875,7 +881,7 @@ script
 length
 )
 ;
-if
+while
 (
 !
 cfgStack_
@@ -3506,6 +3512,8 @@ if
 (
 !
 graph
+(
+)
 .
 addBlock
 (
@@ -3552,6 +3560,8 @@ if
 (
 !
 graph
+(
+)
 .
 addBlock
 (
