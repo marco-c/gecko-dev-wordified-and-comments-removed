@@ -481,6 +481,10 @@ browser_privatebrowsing_import
 .
 js
 \
+browser_privatebrowsing_crh
+.
+js
+\
 (
 NULL
 )
