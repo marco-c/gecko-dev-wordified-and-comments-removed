@@ -24595,6 +24595,8 @@ nsStyleCoord
 (
 )
 SETCOORD_LENGTH
+|
+SETCOORD_CALC_LENGTH_ONLY
 aContext
 mPresContext
 canStoreInRuleTree
@@ -24623,10 +24625,14 @@ border
 SetBorderWidth
 (
 side
+NS_MAX
+(
 coord
 .
 GetCoordValue
 (
+)
+0
 )
 )
 ;
