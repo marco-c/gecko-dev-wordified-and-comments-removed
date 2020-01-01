@@ -1698,7 +1698,7 @@ false
 )
 ;
 }
-NS_ASSERTION
+MOZ_ASSERT
 (
 aOptions
 .
