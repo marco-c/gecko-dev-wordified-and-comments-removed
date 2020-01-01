@@ -2534,6 +2534,9 @@ this
 mLauncher
 .
 contentLength
+>
+=
+0
 )
 {
 let
