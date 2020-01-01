@@ -8820,6 +8820,16 @@ atom
 )
 ;
 }
+obj
+-
+>
+lastProp
+-
+>
+freezeIfDictionary
+(
+)
+;
 }
 PopStatementTC
 (
