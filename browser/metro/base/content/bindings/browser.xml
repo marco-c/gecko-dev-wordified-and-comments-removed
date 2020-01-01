@@ -911,8 +911,8 @@ coordinate
 }
 *
 *
-xctob
-yctob
+ctobx
+ctoby
 *
 Convert
 individual
@@ -1143,8 +1143,8 @@ bottom
 }
 *
 *
-xbtoc
-ybtoc
+btocx
+btocy
 *
 Convert
 individual
@@ -1368,7 +1368,7 @@ method
 name
 =
 "
-xctob
+ctobx
 "
 >
 <
@@ -1445,7 +1445,7 @@ method
 name
 =
 "
-yctob
+ctoby
 "
 >
 <
@@ -1915,7 +1915,7 @@ method
 name
 =
 "
-xbtoc
+btocx
 "
 >
 <
@@ -1992,7 +1992,7 @@ method
 name
 =
 "
-ybtoc
+btocy
 "
 >
 <
