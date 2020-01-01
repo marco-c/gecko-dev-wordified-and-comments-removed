@@ -639,12 +639,6 @@ define
 DECLARE_PLATFORM_STATS
 (
 )
-\
-counter_define
-(
-x87Top
-)
-;
 #
 define
 DECLARE_PLATFORM_REGALLOC
