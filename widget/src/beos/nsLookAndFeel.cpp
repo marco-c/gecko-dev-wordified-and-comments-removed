@@ -1403,6 +1403,9 @@ break
 case
 eMetric_MacGraphiteTheme
 :
+case
+eMetric_MaemoClassic
+:
 aMetric
 =
 0
