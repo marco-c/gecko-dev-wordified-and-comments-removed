@@ -6988,6 +6988,13 @@ JSScopeProperty
 sprop
 )
 {
+if
+(
+IS_GC_MARKING_TRACER
+(
+trc
+)
+)
 sprop
 -
 >
