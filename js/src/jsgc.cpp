@@ -22015,11 +22015,15 @@ s
 label
 )
 ;
-MOZ_Assert
+MOZ_ReportAssertionFailure
 (
 msgbuf
 __FILE__
 __LINE__
+)
+;
+MOZ_CRASH
+(
 )
 ;
 }

@@ -7,6 +7,15 @@ jsinfer_h___
 #
 include
 "
+mozilla
+/
+Attributes
+.
+h
+"
+#
+include
+"
 jsalloc
 .
 h
@@ -3694,6 +3703,7 @@ NULL
 }
 #
 endif
+MOZ_NORETURN
 void
 TypeFailure
 (

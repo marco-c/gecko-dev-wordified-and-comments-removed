@@ -79,10 +79,6 @@ CPPSRCS
 +
 =
 \
-Assertions
-.
-cpp
-\
 HashFunctions
 .
 cpp
