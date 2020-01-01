@@ -116,6 +116,10 @@ mEvent
 >
 data
 ;
+SetIsDOMBinding
+(
+)
+;
 }
 nsDOMCompositionEvent
 :

@@ -171,6 +171,10 @@ Comment
 .
 webidl
 \
+CompositionEvent
+.
+webidl
+\
 CSS
 .
 webidl
