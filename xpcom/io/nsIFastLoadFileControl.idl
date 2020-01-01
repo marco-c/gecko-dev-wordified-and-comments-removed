@@ -567,15 +567,15 @@ file
 scriptable
 uuid
 (
-8a1e2c63
+e7c8c14f
 -
-af50
+c273
 -
-4147
+4e70
 -
-af7e
+826f
 -
-26289dc180dd
+b85864303dc6
 )
 ]
 interface
@@ -588,8 +588,6 @@ nsISupports
 *
 *
 Get
-and
-set
 the
 recorded
 checksum
@@ -602,6 +600,7 @@ header
 .
 *
 /
+readonly
 attribute
 PRUint32
 checksum
