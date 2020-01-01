@@ -1689,7 +1689,10 @@ rowIdx
 +
 )
 {
+DebugOnly
+<
 nsresult
+>
 rv
 =
 SetARIASelected
@@ -1760,7 +1763,10 @@ Next
 )
 )
 {
+DebugOnly
+<
 nsresult
+>
 rv
 =
 SetARIASelected
