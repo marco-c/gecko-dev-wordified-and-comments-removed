@@ -21,6 +21,7 @@ false
 static
 BOOL
 (
+WINAPI
 *
 orig_GetVersionExA
 )
@@ -31,6 +32,7 @@ LPOSVERSIONINFO
 ;
 static
 BOOL
+WINAPI
 patched_GetVersionExA
 (
 __inout
