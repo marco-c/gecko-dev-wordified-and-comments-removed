@@ -102,6 +102,8 @@ ePluginOutdated
 ePluginOtherState
 ePluginCrashed
 ePluginClickToPlay
+ePluginVulnerableUpdatable
+ePluginVulnerableNoUpdate
 }
 ;
 class
@@ -648,7 +650,7 @@ mNetworkCreated
 1
 ;
 bool
-mShouldPlay
+mCTPPlayable
 :
 1
 ;
