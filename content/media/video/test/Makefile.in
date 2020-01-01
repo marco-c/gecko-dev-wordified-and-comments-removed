@@ -522,6 +522,14 @@ file_access_controls
 .
 html
 \
+test_audio1
+.
+html
+\
+test_audio2
+.
+html
+\
 test_bug448534
 .
 html
@@ -704,6 +712,10 @@ sjs
 seek
 .
 ogv
+\
+sound
+.
+ogg
 \
 (
 NULL
