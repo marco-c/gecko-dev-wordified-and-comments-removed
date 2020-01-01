@@ -1218,8 +1218,10 @@ return
 E_FAIL
 ;
 }
+nsCOMPtr
+<
 nsIFontMetrics
-*
+>
 fm
 ;
 rc
@@ -1227,7 +1229,11 @@ rc
 >
 GetFontMetrics
 (
+*
+getter_AddRefs
+(
 fm
+)
 )
 ;
 if
