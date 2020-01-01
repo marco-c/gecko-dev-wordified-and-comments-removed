@@ -194,6 +194,12 @@ nsPoint
 aScrollPosition
 ScrollMode
 aMode
+const
+nsRect
+*
+aRange
+=
+nsnull
 )
 =
 0
