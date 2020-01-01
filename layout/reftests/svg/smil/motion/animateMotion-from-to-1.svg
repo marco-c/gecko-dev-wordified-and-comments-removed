@@ -86,7 +86,7 @@ doTest
 {
 setTimeAndSnapshot
 (
-1
+101
 true
 )
 ;
@@ -262,7 +262,7 @@ to
 begin
 =
 "
-1
+101
 "
 dur
 =
@@ -337,7 +337,7 @@ to
 begin
 =
 "
-0
+100
 "
 dur
 =
@@ -441,7 +441,7 @@ to
 begin
 =
 "
-0
+1000
 "
 dur
 =
@@ -534,7 +534,7 @@ to
 begin
 =
 "
-0
+100
 "
 dur
 =
@@ -599,7 +599,7 @@ to
 begin
 =
 "
-0
+100
 .
 5
 "

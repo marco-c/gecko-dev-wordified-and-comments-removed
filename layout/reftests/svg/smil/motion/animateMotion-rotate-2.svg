@@ -348,7 +348,7 @@ doTest
 {
 setTimeAndSnapshot
 (
-1
+101
 true
 )
 ;
@@ -522,7 +522,7 @@ auto
 begin
 =
 "
-1s
+101s
 "
 dur
 =
@@ -563,6 +563,11 @@ rotate
 =
 "
 auto
+"
+begin
+=
+"
+100
 "
 dur
 =
@@ -608,6 +613,11 @@ rotate
 =
 "
 auto
+"
+begin
+=
+"
+100s
 "
 dur
 =

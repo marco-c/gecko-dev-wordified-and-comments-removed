@@ -121,7 +121,7 @@ doTest
 {
 setTimeAndSnapshot
 (
-1
+101
 true
 )
 ;
@@ -277,7 +277,7 @@ rotate
 begin
 =
 "
-1
+101
 "
 dur
 =
@@ -419,7 +419,7 @@ rotate
 begin
 =
 "
-0
+100
 "
 dur
 =
@@ -580,7 +580,7 @@ rotate
 begin
 =
 "
-1
+101
 "
 dur
 =
@@ -722,7 +722,7 @@ rotate
 begin
 =
 "
-0
+100
 .
 5
 "
@@ -750,7 +750,7 @@ rotate
 begin
 =
 "
-0
+100
 .
 5
 "
