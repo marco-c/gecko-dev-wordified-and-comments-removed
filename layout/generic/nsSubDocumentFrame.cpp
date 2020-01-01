@@ -152,7 +152,7 @@ h
 #
 include
 "
-nsIViewManager
+nsViewManager
 .
 h
 "
@@ -3128,7 +3128,7 @@ if
 mInnerView
 )
 {
-nsIViewManager
+nsViewManager
 *
 vm
 =
@@ -4445,7 +4445,7 @@ list
 "
 )
 ;
-nsIViewManager
+nsViewManager
 *
 vm
 =
@@ -5208,7 +5208,7 @@ viewBounds
 0
 )
 ;
-nsIViewManager
+nsViewManager
 *
 viewMan
 =

@@ -27,7 +27,7 @@ class
 nsIWidget
 ;
 class
-nsIViewManager
+nsViewManager
 ;
 #
 define
@@ -156,7 +156,7 @@ virtual
 void
 SetPrintPreviewPresentation
 (
-nsIViewManager
+nsViewManager
 *
 aViewManager
 nsPresContext
@@ -265,7 +265,7 @@ virtual
 void
 SetPrintPreviewPresentation
 (
-nsIViewManager
+nsViewManager
 *
 aViewManager
 \

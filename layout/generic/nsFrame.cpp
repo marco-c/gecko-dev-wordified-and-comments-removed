@@ -110,7 +110,7 @@ h
 #
 include
 "
-nsIViewManager
+nsViewManager
 .
 h
 "
@@ -24477,7 +24477,7 @@ NS_FRAME_NO_SIZE_VIEW
 0
 )
 {
-nsIViewManager
+nsViewManager
 *
 vm
 =

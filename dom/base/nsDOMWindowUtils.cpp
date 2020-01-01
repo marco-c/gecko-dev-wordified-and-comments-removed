@@ -183,7 +183,7 @@ h
 #
 include
 "
-nsIViewManager
+nsViewManager
 .
 h
 "
@@ -3160,7 +3160,7 @@ presShell
 return
 NS_ERROR_FAILURE
 ;
-nsIViewManager
+nsViewManager
 *
 viewManager
 =

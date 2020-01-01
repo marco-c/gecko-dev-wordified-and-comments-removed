@@ -225,7 +225,7 @@ h
 #
 include
 "
-nsIViewManager
+nsViewManager
 .
 h
 "
@@ -486,7 +486,7 @@ mWidget
 ;
 nsCOMPtr
 <
-nsIViewManager
+nsViewManager
 >
 mViewManager
 ;

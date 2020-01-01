@@ -86,7 +86,7 @@ nsView
 .
 h
 \
-nsIViewManager
+nsViewManager
 .
 h
 \

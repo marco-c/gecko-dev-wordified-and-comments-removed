@@ -227,7 +227,7 @@ h
 #
 include
 "
-nsIViewManager
+nsViewManager
 .
 h
 "
@@ -3065,7 +3065,7 @@ void
 )
 value
 ;
-nsIViewManager
+nsViewManager
 *
 vm
 =

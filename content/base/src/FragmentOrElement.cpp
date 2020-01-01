@@ -530,7 +530,7 @@ h
 #
 include
 "
-nsIViewManager
+nsViewManager
 .
 h
 "

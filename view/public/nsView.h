@@ -96,9 +96,6 @@ stdio
 h
 >
 class
-nsIViewManager
-;
-class
 nsViewManager
 ;
 class
@@ -144,7 +141,7 @@ class
 nsViewManager
 ;
 NS_DECL_AND_IMPL_ZEROING_OPERATOR_NEW
-nsIViewManager
+nsViewManager
 *
 GetViewManager
 (
@@ -154,7 +151,7 @@ const
 return
 reinterpret_cast
 <
-nsIViewManager
+nsViewManager
 *
 >
 (

@@ -259,7 +259,7 @@ h
 #
 include
 "
-nsIViewManager
+nsViewManager
 .
 h
 "
@@ -3645,7 +3645,7 @@ nscoord
 oldWidthAppUnits
 oldHeightAppUnits
 ;
-nsIViewManager
+nsViewManager
 *
 vm
 =

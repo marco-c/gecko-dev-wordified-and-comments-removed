@@ -416,7 +416,7 @@ h
 #
 include
 "
-nsIViewManager
+nsViewManager
 .
 h
 "
@@ -13224,7 +13224,7 @@ nsIWidget
 >
 widget
 ;
-nsIViewManager
+nsViewManager
 *
 vm
 =
@@ -20586,7 +20586,7 @@ presShell
 NS_ERROR_FAILURE
 )
 ;
-nsIViewManager
+nsViewManager
 *
 viewManager
 =
@@ -20786,7 +20786,7 @@ presShell
 return
 NS_OK
 ;
-nsIViewManager
+nsViewManager
 *
 vm
 =
@@ -29137,7 +29137,7 @@ if
 oldPresShell
 )
 {
-nsIViewManager
+nsViewManager
 *
 vm
 =
@@ -30087,7 +30087,7 @@ GetPresShell
 (
 )
 ;
-nsIViewManager
+nsViewManager
 *
 newVM
 =
@@ -30222,7 +30222,7 @@ GetParent
 rootViewParent
 )
 {
-nsIViewManager
+nsViewManager
 *
 parentVM
 =

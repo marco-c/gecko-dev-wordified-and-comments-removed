@@ -120,7 +120,7 @@ h
 #
 include
 "
-nsIViewManager
+nsViewManager
 .
 h
 "
@@ -10607,7 +10607,7 @@ PresShell
 ;
 nsCOMPtr
 <
-nsIViewManager
+nsViewManager
 >
 kungFuDeathGrip
 =
