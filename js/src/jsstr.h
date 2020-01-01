@@ -1947,6 +1947,15 @@ JSContext
 cx
 )
 ;
+extern
+JSBool
+js_InitDeflatedStringCache
+(
+JSRuntime
+*
+rt
+)
+;
 #
 define
 UNIT_STRING_LIMIT
