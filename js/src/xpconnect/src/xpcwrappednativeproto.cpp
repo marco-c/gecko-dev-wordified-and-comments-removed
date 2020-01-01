@@ -89,7 +89,7 @@ XPCWrappedNativeProto
 #
 ifdef
 DEBUG
-PR_AtomicIncrement
+PR_ATOMIC_INCREMENT
 (
 &
 gDEBUG_LiveProtoCount
@@ -125,7 +125,7 @@ XPCWrappedNativeProto
 #
 ifdef
 DEBUG
-PR_AtomicDecrement
+PR_ATOMIC_DECREMENT
 (
 &
 gDEBUG_LiveProtoCount

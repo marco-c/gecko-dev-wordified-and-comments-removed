@@ -6664,7 +6664,7 @@ refCnt
 =
 #
 endif
-PR_AtomicIncrement
+PR_ATOMIC_INCREMENT
 (
 (
 PRInt32
@@ -6740,7 +6740,7 @@ return
 int32_t
 refCnt
 =
-PR_AtomicDecrement
+PR_ATOMIC_DECREMENT
 (
 (
 PRInt32

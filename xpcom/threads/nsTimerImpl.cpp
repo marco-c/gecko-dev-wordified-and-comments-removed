@@ -282,13 +282,8 @@ release
 ;
 count
 =
-PR_AtomicDecrement
+NS_AtomicDecrementRefcnt
 (
-(
-PRInt32
-*
-)
-&
 mRefCnt
 )
 ;
@@ -665,7 +660,7 @@ PR_FALSE
 ;
 mGeneration
 =
-PR_AtomicIncrement
+PR_ATOMIC_INCREMENT
 (
 &
 gGenerator

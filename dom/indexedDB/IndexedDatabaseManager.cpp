@@ -3628,7 +3628,7 @@ NS_XPCOM_SHUTDOWN_THREADS_OBSERVER_ID
 {
 if
 (
-PR_AtomicSet
+PR_ATOMIC_SET
 (
 &
 gShutdown
@@ -4281,7 +4281,7 @@ Cancel
 {
 if
 (
-PR_AtomicSet
+PR_ATOMIC_SET
 (
 &
 mCanceled
