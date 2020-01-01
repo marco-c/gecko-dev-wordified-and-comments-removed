@@ -1099,6 +1099,22 @@ idl
         
 ]
 )
+        
+self
+.
+assertEqual
+(
+lines
+[
+5
+]
+'
+XPIDL_MODULE
+:
+=
+module_name
+'
+)
 if
 __name__
 =

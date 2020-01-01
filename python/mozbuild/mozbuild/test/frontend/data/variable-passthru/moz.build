@@ -45,3 +45,8 @@ biz
 idl
 '
 ]
+XPIDL_MODULE
+=
+'
+module_name
+'
