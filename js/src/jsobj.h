@@ -4549,6 +4549,8 @@ finalize
 JSContext
 *
 cx
+bool
+background
 )
 ;
 inline

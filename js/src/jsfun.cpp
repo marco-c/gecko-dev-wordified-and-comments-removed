@@ -8325,8 +8325,6 @@ JSCLASS_HAS_CACHED_PROTO
 (
 JSProto_Function
 )
-|
-JSCLASS_CONCURRENT_FINALIZER
 JS_PropertyStub
 JS_PropertyStub
 JS_PropertyStub

@@ -1807,6 +1807,8 @@ AllocKind
 thingKind
 size_t
 thingSize
+bool
+background
 )
 ;
 }

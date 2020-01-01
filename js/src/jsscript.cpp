@@ -7983,6 +7983,8 @@ finalize
 JSContext
 *
 cx
+bool
+background
 )
 {
 CheckScript
