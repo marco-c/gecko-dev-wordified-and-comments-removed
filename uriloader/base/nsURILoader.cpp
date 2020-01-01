@@ -1398,7 +1398,6 @@ filename
 "
 8
 )
-)
 &
 &
 !
@@ -1410,6 +1409,7 @@ EqualsIgnoreCase
 name
 "
 4
+)
 )
 )
 forceExternalHandling

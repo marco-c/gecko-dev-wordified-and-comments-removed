@@ -1087,7 +1087,6 @@ filename
 "
 8
 )
-)
 &
 &
 !
@@ -1099,6 +1098,7 @@ EqualsIgnoreCase
 name
 "
 4
+)
 )
 )
 {

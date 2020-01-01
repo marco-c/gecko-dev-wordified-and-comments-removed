@@ -624,7 +624,6 @@ dispToken
 filename
 "
 )
-)
 &
 &
 !
@@ -634,6 +633,7 @@ dispToken
 "
 name
 "
+)
 )
 )
 return
