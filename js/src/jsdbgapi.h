@@ -24,12 +24,6 @@ defined
 (
 __cplusplus
 )
-&
-&
-defined
-(
-DEBUG
-)
 namespace
 JS
 {
@@ -114,6 +108,9 @@ showThisProps
 )
 ;
 }
+#
+ifdef
+DEBUG
 JS_FRIEND_API
 (
 void
@@ -158,6 +155,8 @@ start
 NULL
 )
 ;
+#
+endif
 #
 endif
 JS_BEGIN_EXTERN_C
