@@ -178,14 +178,14 @@ nsXMLNameSpaceMap
 >
 mNameSpaceMap
 ;
-PRBool
-mComplete
-;
 nsRefPtr
 <
 nsCSSStyleSheet
 >
 mFirstChild
+;
+PRBool
+mComplete
 ;
 #
 ifdef

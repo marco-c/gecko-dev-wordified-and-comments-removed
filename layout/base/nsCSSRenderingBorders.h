@@ -179,8 +179,8 @@ nscolor
 aBackgroundColor
 )
 ;
-PRInt32
-mAUPP
+gfxCornerSizes
+mBorderCornerDimensions
 ;
 gfxContext
 *
@@ -216,6 +216,9 @@ const
 *
 mCompositeColors
 ;
+PRInt32
+mAUPP
+;
 PRIntn
 mSkipSides
 ;
@@ -227,9 +230,6 @@ mOneUnitBorder
 ;
 PRPackedBool
 mNoBorderRadius
-;
-gfxCornerSizes
-mBorderCornerDimensions
 ;
 PRBool
 AreBorderSideFinalStylesSame
