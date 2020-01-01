@@ -471,6 +471,14 @@ ins
 )
 ;
 bool
+visitFloor
+(
+MFloor
+*
+ins
+)
+;
+bool
 visitRound
 (
 MRound

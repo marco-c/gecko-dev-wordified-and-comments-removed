@@ -509,6 +509,11 @@ StringLength
 \
 _
 (
+Floor
+)
+\
+_
+(
 Round
 )
 #
