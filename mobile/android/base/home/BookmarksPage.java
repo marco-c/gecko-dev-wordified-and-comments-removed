@@ -772,6 +772,12 @@ setAdapter
 mListAdapter
 )
 ;
+BrowserDB
+.
+invalidateCachedState
+(
+)
+;
 mLoaderCallbacks
 =
 new
