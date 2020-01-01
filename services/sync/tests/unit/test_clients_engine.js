@@ -2715,10 +2715,13 @@ ev
 handler
 )
 ;
+do_check_false
+(
 Clients
 .
 processIncomingCommands
 (
+)
 )
 ;
 }

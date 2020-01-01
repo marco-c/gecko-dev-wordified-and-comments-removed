@@ -1366,6 +1366,7 @@ processIncomingCommands
 (
 )
 {
+return
 this
 .
 _notify
