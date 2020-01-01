@@ -1626,14 +1626,6 @@ NS_CONTENT_COMMAND_EVENT_START
 )
 #
 define
-NS_CONTENT_COMMAND_PASTE_TRANSFERABLE
-(
-NS_CONTENT_COMMAND_EVENT_START
-+
-6
-)
-#
-define
 NS_GESTURENOTIFY_EVENT_START
 3900
 #
@@ -3872,12 +3864,6 @@ PR_FALSE
 )
 {
 }
-nsCOMPtr
-<
-nsITransferable
->
-mTransferable
-;
 PRPackedBool
 mOnlyEnabledCheck
 ;

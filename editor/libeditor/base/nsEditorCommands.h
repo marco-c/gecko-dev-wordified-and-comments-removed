@@ -193,10 +193,6 @@ nsPasteCommand
 )
 NS_DECL_EDITOR_COMMAND
 (
-nsPasteTransferableCommand
-)
-NS_DECL_EDITOR_COMMAND
-(
 nsSwitchTextDirectionCommand
 )
 NS_DECL_EDITOR_COMMAND

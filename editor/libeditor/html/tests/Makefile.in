@@ -464,10 +464,6 @@ test_bug487524
 .
 html
 \
-test_bug525389
-.
-html
-\
 test_select_all_without_body
 .
 html
