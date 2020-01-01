@@ -6178,7 +6178,7 @@ return
 sXPConnect
 -
 >
-ReparentScopeAwareWrappers
+MoveWrappers
 (
 cx
 oldScopeObj
