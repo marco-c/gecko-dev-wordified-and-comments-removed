@@ -7851,13 +7851,8 @@ aCoeff2
 }
 while
 (
-(
 *
 resultTail
-)
--
->
-mNext
 )
 {
 resultTail
