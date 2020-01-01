@@ -121,7 +121,7 @@ MOZ_GCC_VERSION_AT_LEAST
 (
 4
 5
-0
+2
 )
 #
 define
