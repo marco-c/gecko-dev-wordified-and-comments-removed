@@ -813,7 +813,7 @@ name
 text_selection_handle_width
 "
 >
-30dp
+47dp
 <
 /
 dimen
@@ -826,7 +826,7 @@ name
 text_selection_handle_height
 "
 >
-44dp
+58dp
 <
 /
 dimen
@@ -839,7 +839,7 @@ name
 text_selection_handle_shadow
 "
 >
-2dp
+11dp
 <
 /
 dimen
