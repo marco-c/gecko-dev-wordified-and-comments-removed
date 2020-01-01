@@ -65,7 +65,7 @@ mSetSize
 }
 nsAccessible
 *
-GetConceptualParent
+ConceptualParent
 (
 )
 const
@@ -262,6 +262,16 @@ return
 aRole
 ;
 }
+static
+bool
+IsConceptualParent
+(
+PRUint32
+aRole
+PRUint32
+aParentRole
+)
+;
 PRUint32
 mPosInSet
 ;

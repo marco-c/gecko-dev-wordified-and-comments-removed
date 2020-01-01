@@ -9234,7 +9234,7 @@ aRelation
 groupInfo
 -
 >
-GetConceptualParent
+ConceptualParent
 (
 )
 )
