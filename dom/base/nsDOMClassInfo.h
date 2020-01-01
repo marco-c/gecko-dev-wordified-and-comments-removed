@@ -485,6 +485,8 @@ JSObject
 objp
 )
 ;
+public
+:
 static
 PRInt32
 GetArrayIndexFromId
@@ -501,6 +503,8 @@ aIsNumber
 nsnull
 )
 ;
+protected
+:
 static
 inline
 bool
