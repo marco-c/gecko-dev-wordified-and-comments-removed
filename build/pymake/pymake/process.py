@@ -48,6 +48,10 @@ traceback
 os
 imp
 glob
+from
+collections
+import
+deque
 subprocess
 .
 _cleanup
@@ -3123,8 +3127,9 @@ self
 .
 pending
 =
-[
-]
+deque
+(
+)
         
 self
 .
@@ -3255,9 +3260,8 @@ self
 .
 pending
 .
-pop
+popleft
 (
-0
 )
             
 cb
