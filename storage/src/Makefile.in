@@ -507,10 +507,6 @@ mozStorageError
 .
 cpp
 \
-mozStorageBackground
-.
-cpp
-\
 mozStorageEvents
 .
 cpp
