@@ -85,9 +85,6 @@ nsTArray
 h
 "
 class
-nsHTMLSelectElement
-;
-class
 nsIDOMHTMLOptionElement
 ;
 namespace
@@ -96,6 +93,9 @@ mozilla
 namespace
 dom
 {
+class
+HTMLSelectElement
+;
 class
 HTMLOptionsCollection
 :
@@ -114,7 +114,7 @@ public
 :
 HTMLOptionsCollection
 (
-nsHTMLSelectElement
+HTMLSelectElement
 *
 aSelect
 )
@@ -395,7 +395,7 @@ HTMLOptionElement
 >
 mElements
 ;
-nsHTMLSelectElement
+HTMLSelectElement
 *
 mSelect
 ;

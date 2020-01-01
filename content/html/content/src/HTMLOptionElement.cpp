@@ -23,7 +23,11 @@ h
 #
 include
 "
-nsHTMLSelectElement
+mozilla
+/
+dom
+/
+HTMLSelectElement
 .
 h
 "
@@ -376,7 +380,7 @@ GetForm
 (
 )
 {
-nsHTMLSelectElement
+HTMLSelectElement
 *
 selectControl
 =
@@ -467,7 +471,7 @@ bool
 aValue
 )
 {
-nsHTMLSelectElement
+HTMLSelectElement
 *
 selectInt
 =
@@ -563,7 +567,7 @@ aIndex
 =
 0
 ;
-nsHTMLSelectElement
+HTMLSelectElement
 *
 selectElement
 =
@@ -781,7 +785,7 @@ return
 NS_OK
 ;
 }
-nsHTMLSelectElement
+HTMLSelectElement
 *
 selectInt
 =
@@ -1243,7 +1247,7 @@ return
 state
 ;
 }
-nsHTMLSelectElement
+HTMLSelectElement
 *
 HTMLOptionElement
 :
@@ -1280,11 +1284,11 @@ IsHTML
 )
 )
 {
-nsHTMLSelectElement
+HTMLSelectElement
 *
 select
 =
-nsHTMLSelectElement
+HTMLSelectElement
 :
 :
 FromContent

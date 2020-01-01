@@ -258,6 +258,10 @@ HTMLScriptElement
 .
 h
 \
+HTMLSelectElement
+.
+h
+\
 HTMLSharedElement
 .
 h
@@ -528,7 +532,7 @@ HTMLScriptElement
 .
 cpp
 \
-nsHTMLSelectElement
+HTMLSelectElement
 .
 cpp
 \

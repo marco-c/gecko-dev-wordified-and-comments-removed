@@ -32,15 +32,15 @@ nsHTMLFormElement
 .
 h
 "
-class
-nsHTMLSelectElement
-;
 namespace
 mozilla
 {
 namespace
 dom
 {
+class
+HTMLSelectElement
+;
 class
 HTMLOptionElement
 :
@@ -479,7 +479,7 @@ aScope
 )
 MOZ_OVERRIDE
 ;
-nsHTMLSelectElement
+HTMLSelectElement
 *
 GetSelect
 (
