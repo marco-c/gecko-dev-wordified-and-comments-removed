@@ -194,10 +194,6 @@ nsErrorAsserts
 .
 cpp
 \
-nsGZFileWriter
-.
-cpp
-\
 (
 NULL
 )
@@ -281,10 +277,6 @@ nsInterfaceRequestorAgg
 h
 \
 dmd
-.
-h
-\
-nsGZFileWriter
 .
 h
 \
@@ -505,10 +497,6 @@ nsIMutable
 idl
 \
 nsIMemoryReporter
-.
-idl
-\
-nsIGZFileWriter
 .
 idl
 \
