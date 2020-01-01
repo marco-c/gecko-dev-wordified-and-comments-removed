@@ -300,6 +300,17 @@ IDirect3DDevice9
 aDevice
 )
 ;
+IDirect3DSurface9
+*
+GetD3D9Surface
+(
+)
+const
+{
+return
+mSurface
+;
+}
 private
 :
 friend
