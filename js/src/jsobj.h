@@ -834,6 +834,16 @@ removeLastProperty
 (
 )
 ;
+#
+ifdef
+DEBUG
+void
+checkShapeConsistency
+(
+)
+;
+#
+endif
 public
 :
 inline
