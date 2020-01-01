@@ -223,6 +223,7 @@ function
 GUIDForUri
 (
 uri
+create
 )
 {
 try
@@ -242,6 +243,10 @@ catch
 ex
 )
 {
+if
+(
+create
+)
 return
 setGUID
 (
@@ -1005,6 +1010,7 @@ GUIDForUri
 item
 .
 uri
+true
 )
 ;
 items
@@ -1034,6 +1040,16 @@ this
 update
 (
 record
+)
+;
+setGUID
+(
+record
+.
+histUri
+record
+.
+id
 )
 ;
 }
@@ -1650,6 +1666,7 @@ addChangedID
 GUIDForUri
 (
 uri
+true
 )
 )
 )
