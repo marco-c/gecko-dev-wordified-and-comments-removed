@@ -12441,7 +12441,7 @@ globalShape
 globalShape
 )
 {
-debug_only
+debug_only_v
 (
 printf
 (
@@ -12517,7 +12517,7 @@ js_FlushJITCache
 cx
 )
 ;
-debug_only
+debug_only_v
 (
 printf
 (
