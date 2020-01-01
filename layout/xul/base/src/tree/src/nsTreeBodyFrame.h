@@ -564,7 +564,8 @@ ReflowCallbackCanceled
 (
 )
 ;
-NS_IMETHOD
+virtual
+PRBool
 PseudoMatches
 (
 nsIAtom
@@ -573,9 +574,6 @@ aTag
 nsCSSSelector
 *
 aSelector
-PRBool
-*
-aResult
 )
 ;
 NS_IMETHOD

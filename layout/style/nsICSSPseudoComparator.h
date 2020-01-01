@@ -26,7 +26,8 @@ NS_DECL_QUERYFRAME_TARGET
 (
 nsICSSPseudoComparator
 )
-NS_IMETHOD
+virtual
+PRBool
 PseudoMatches
 (
 nsIAtom
@@ -35,9 +36,6 @@ aTag
 nsCSSSelector
 *
 aSelector
-PRBool
-*
-aResult
 )
 =
 0

@@ -10518,11 +10518,8 @@ end
 value
 )
 {
-PRBool
-matches
-=
-PR_TRUE
-;
+if
+(
 aData
 -
 >
@@ -10539,13 +10536,7 @@ value
 -
 >
 mSelector
-&
-matches
 )
-;
-if
-(
-matches
 )
 {
 ContentEnumFunc
