@@ -1706,6 +1706,11 @@ aAttrString
 NSRange
 &
 aSelectedRange
+NSRange
+*
+aReplacementRange
+=
+nullptr
 )
 ;
 NSInteger
