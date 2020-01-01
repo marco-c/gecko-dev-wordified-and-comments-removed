@@ -2107,7 +2107,7 @@ case
 "
 Content
 :
-Activate
+Deactivate
 "
 :
 let
@@ -2174,7 +2174,7 @@ case
 "
 Content
 :
-Deactivate
+Activate
 "
 :
 docShell
