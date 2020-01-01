@@ -7305,12 +7305,6 @@ scroller
 true
 )
 ;
-Browser
-.
-ensureToolbarVisibility
-(
-)
-;
 this
 .
 bv
@@ -7533,12 +7527,6 @@ onBeforeVisibleMove
 (
 dx
 dy
-)
-;
-Browser
-.
-ensureToolbarVisibility
-(
 )
 ;
 let
