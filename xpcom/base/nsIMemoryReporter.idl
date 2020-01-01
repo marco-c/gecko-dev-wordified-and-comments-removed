@@ -2287,7 +2287,7 @@ memoryPath
 {
 memoryPath
 .
-Assign
+AssignLiteral
 (
 _path
 )
@@ -2363,7 +2363,7 @@ desc
 {
 desc
 .
-Assign
+AssignLiteral
 (
 _desc
 )
@@ -2472,7 +2472,7 @@ memoryPath
 {
 memoryPath
 .
-Assign
+AssignLiteral
 (
 _path
 )
@@ -2544,7 +2544,7 @@ desc
 {
 desc
 .
-Assign
+AssignLiteral
 (
 _desc
 )
