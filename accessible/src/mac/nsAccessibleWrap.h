@@ -197,6 +197,7 @@ GetState
 (
 &
 state
+nsnull
 )
 ;
 return
