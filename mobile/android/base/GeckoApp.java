@@ -1141,7 +1141,7 @@ GeckoAppShell
 .
 RESTORE_NONE
 ;
-private
+protected
 boolean
 mInitialized
 =
@@ -11959,7 +11959,7 @@ alertCookie
 ;
 }
 }
-private
+protected
 String
 getURIFromIntent
 (
