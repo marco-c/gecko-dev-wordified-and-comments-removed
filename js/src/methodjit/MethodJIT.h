@@ -819,6 +819,7 @@ f
 )
 ;
 CompileStatus
+JS_NEVER_INLINE
 TryCompile
 (
 JSContext
