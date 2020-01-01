@@ -867,9 +867,6 @@ uint32
 oddfills
 ;
 uint32
-modfills
-;
-uint32
 brandfills
 ;
 uint32
