@@ -4987,7 +4987,15 @@ static
 PRBool
 gDumpPaintList
 =
-PR_FALSE
+getenv
+(
+"
+MOZ_DUMP_PAINT_LIST
+"
+)
+!
+=
+0
 ;
 static
 PRBool
