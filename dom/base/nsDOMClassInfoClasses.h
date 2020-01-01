@@ -196,6 +196,10 @@ HTMLButtonElement
 )
 DOMCI_CLASS
 (
+HTMLDataListElement
+)
+DOMCI_CLASS
+(
 HTMLDListElement
 )
 DOMCI_CLASS

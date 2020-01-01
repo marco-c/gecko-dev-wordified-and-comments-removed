@@ -456,6 +456,10 @@ nsIDOMHTMLCollection
 .
 idl
 \
+nsIDOMHTMLDataListElement
+.
+idl
+\
 nsIDOMHTMLDListElement
 .
 idl

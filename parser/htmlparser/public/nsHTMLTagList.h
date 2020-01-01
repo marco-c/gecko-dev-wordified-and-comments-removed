@@ -129,6 +129,11 @@ HTML_TAG
 colgroup
 TableCol
 )
+HTML_TAG
+(
+datalist
+DataList
+)
 HTML_HTMLELEMENT_TAG
 (
 dd

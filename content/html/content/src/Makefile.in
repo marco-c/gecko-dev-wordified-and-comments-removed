@@ -507,6 +507,10 @@ nsHTMLCanvasElement
 .
 cpp
 \
+nsHTMLDataListElement
+.
+cpp
+\
 nsHTMLDelElement
 .
 cpp
