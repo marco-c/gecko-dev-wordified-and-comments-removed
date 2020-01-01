@@ -1043,9 +1043,11 @@ SOURCE
 \
 toolkit
 \
-components
+mozapps
 \
-maintenanceservice
+update
+\
+common
 \
 pathhash
 .
@@ -1063,9 +1065,11 @@ SOURCE
 \
 toolkit
 \
-components
+mozapps
 \
-maintenanceservice
+update
+\
+common
 \
 pathhash
 .

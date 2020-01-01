@@ -22,9 +22,11 @@ include
 /
 toolkit
 /
-components
+mozapps
 /
-maintenanceservice
+update
+/
+common
 /
 pathhash
 .
