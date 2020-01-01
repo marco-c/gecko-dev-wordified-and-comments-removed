@@ -317,6 +317,7 @@ GetFTLibrary
 ;
 #
 endif
+static
 void
 SetGdkDrawable
 (
@@ -328,6 +329,7 @@ GdkDrawable
 drawable
 )
 ;
+static
 GdkDrawable
 *
 GetGdkDrawable

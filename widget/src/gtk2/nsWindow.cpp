@@ -9519,11 +9519,6 @@ MOZ_DFB
 gfxPlatformGtk
 :
 :
-GetPlatform
-(
-)
--
->
 SetGdkDrawable
 (
 ctx
