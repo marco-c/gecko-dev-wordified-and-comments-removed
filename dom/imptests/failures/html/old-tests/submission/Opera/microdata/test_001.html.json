@@ -17,7 +17,8 @@ itemValue
 must
 reflect
 the
-textContent
+dateTime
+attribute
 of
 time
 elements
