@@ -129,15 +129,6 @@ NS_ADDREF_THIS
 )
 ;
 }
-nsPrintPreviewListener
-:
-:
-~
-nsPrintPreviewListener
-(
-)
-{
-}
 nsresult
 nsPrintPreviewListener
 :

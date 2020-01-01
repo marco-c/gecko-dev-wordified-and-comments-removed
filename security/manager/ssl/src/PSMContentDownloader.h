@@ -96,6 +96,13 @@ h
 ifndef
 MOZ_DISABLE_CRYPTOLEGACY
 #
+include
+"
+nsIDOMEventTarget
+.
+h
+"
+#
 endif
 #
 include
