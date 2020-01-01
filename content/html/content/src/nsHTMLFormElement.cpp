@@ -561,7 +561,7 @@ dom
 binding
 :
 :
-NodeListBase
+HTMLCollection
 :
 :
 create
