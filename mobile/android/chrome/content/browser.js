@@ -7321,6 +7321,11 @@ true
 )
 ;
 }
+.
+bind
+(
+this
+)
 true
 )
 ;
@@ -7358,6 +7363,8 @@ return
 if
 (
 target
+.
+ownerDocument
 .
 defaultView
 !
