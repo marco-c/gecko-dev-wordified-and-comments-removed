@@ -521,6 +521,14 @@ GeckoBatteryManager
 .
 java
 \
+GeckoThread
+.
+java
+\
+GeckoAsyncTask
+.
+java
+\
 gfx
 /
 BufferedCairoImage

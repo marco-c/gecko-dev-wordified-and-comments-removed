@@ -754,7 +754,7 @@ private
 class
 LoadFaviconTask
 extends
-AsyncTask
+GeckoAsyncTask
 <
 Void
 Void
