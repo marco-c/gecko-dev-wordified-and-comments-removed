@@ -7150,7 +7150,7 @@ sessionstore
 .
 privacy_level
 "
-1
+0
 )
 ;
 pref
@@ -7162,7 +7162,7 @@ sessionstore
 .
 privacy_level_deferred
 "
-2
+0
 )
 ;
 pref
