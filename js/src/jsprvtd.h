@@ -11,10 +11,6 @@ jsapi
 .
 h
 "
-typedef
-uintptr_t
-jsatomid
-;
 namespace
 js
 {
