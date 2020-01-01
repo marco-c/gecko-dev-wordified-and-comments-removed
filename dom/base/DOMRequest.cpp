@@ -1040,6 +1040,17 @@ GetNativeContext
 )
 )
 ;
+JSAutoRequest
+ar
+(
+sc
+-
+>
+GetNativeContext
+(
+)
+)
+;
 JS_AddValueRoot
 (
 sc
