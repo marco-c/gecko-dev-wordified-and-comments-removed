@@ -817,6 +817,12 @@ self
 marionette
 =
 marionette
+        
+self
+.
+current_id
+=
+None
     
 def
 press
@@ -995,7 +1001,10 @@ self
 )
 :
         
-return
+self
+.
+current_id
+=
 self
 .
 marionette
@@ -1006,14 +1015,29 @@ _send_message
 actionChain
 '
 '
-ok
-'
 value
+'
+chain
 =
 self
 .
 action_chain
+nextId
+=
+self
+.
+current_id
 )
+        
+self
+.
+action_chain
+=
+[
+]
+        
+return
+self
 class
 MultiActions
 (
