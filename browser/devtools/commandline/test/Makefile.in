@@ -118,6 +118,10 @@ browser_gcli_cookie
 .
 js
 \
+browser_gcli_dbg
+.
+js
+\
 browser_gcli_edit
 .
 js
@@ -170,6 +174,10 @@ browser_gcli_break
 html
 \
 browser_gcli_inspect
+.
+html
+\
+resources_dbg
 .
 html
 \
