@@ -73,15 +73,8 @@ mShMem
 >
 Create
 (
-std
-:
-:
-wstring
-(
-L
 "
 "
-)
 false
 false
 aSize
