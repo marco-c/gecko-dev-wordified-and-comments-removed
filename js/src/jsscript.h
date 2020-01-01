@@ -613,6 +613,9 @@ hasAnyAliasedBindings
 const
 {
 return
+callObjShape_
+&
+&
 !
 callObjShape_
 -
@@ -1569,6 +1572,11 @@ bindingsAccessedDynamically
 ;
 bool
 funHasExtensibleScope
+:
+1
+;
+bool
+funNeedsDeclEnvObject
 :
 1
 ;
