@@ -681,6 +681,7 @@ createDownload
 downloadOptions
 )
 ;
+yield
 this
 .
 list
