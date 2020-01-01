@@ -20,6 +20,15 @@ nsIApplicationCache
 h
 "
 #
+include
+"
+mozilla
+/
+unused
+.
+h
+"
+#
 if
 defined
 (
@@ -383,6 +392,9 @@ this
 )
 )
 ;
+unused
+<
+<
 SendNotifyStateEvent
 (
 state
@@ -423,6 +435,9 @@ GetSucceeded
 succeeded
 )
 ;
+unused
+<
+<
 SendFinish
 (
 succeeded
@@ -479,6 +494,9 @@ GetGroupID
 cacheGroupId
 )
 ;
+unused
+<
+<
 SendAssociateDocuments
 (
 cacheGroupId
