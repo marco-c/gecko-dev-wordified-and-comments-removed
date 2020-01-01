@@ -494,6 +494,10 @@ nsHttpPipeline
 .
 cpp
 \
+nsHttpActivityDistributor
+.
+cpp
+\
 (
 NULL
 )
