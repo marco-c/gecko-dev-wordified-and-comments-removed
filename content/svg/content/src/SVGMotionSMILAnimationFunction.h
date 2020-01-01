@@ -190,6 +190,11 @@ aContextElem
 )
 ;
 void
+RebuildPathAndVerticesFromPathAttr
+(
+)
+;
+void
 RebuildPathAndVerticesFromBasicAttrs
 (
 const
