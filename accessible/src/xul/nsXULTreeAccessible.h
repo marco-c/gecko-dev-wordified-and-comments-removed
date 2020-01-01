@@ -455,6 +455,11 @@ aUniqueID
 ;
 protected
 :
+PRBool
+IsExpandable
+(
+)
+;
 nsCOMPtr
 <
 nsITreeBoxObject
