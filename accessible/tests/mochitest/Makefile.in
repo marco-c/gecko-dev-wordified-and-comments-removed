@@ -494,6 +494,10 @@ test_aria_role_article
 .
 html
 \
+test_aria_role_equation
+.
+html
+\
 test_bug368835
 .
 xul
@@ -634,10 +638,6 @@ xul
 testTextboxes
 .
 js
-\
-test_bug428479
-.
-html
 \
 test_bug429285
 .
