@@ -12682,12 +12682,6 @@ textContent
 =
 verifier
 ;
-PageActions
-.
-updatePageSaveAs
-(
-)
-;
 BrowserSearch
 .
 updatePageSearchEngines
@@ -12697,6 +12691,12 @@ updatePageSearchEngines
 PageActions
 .
 updatePagePermissions
+(
+)
+;
+PageActions
+.
+updatePageSaveAs
 (
 )
 ;
