@@ -80,13 +80,6 @@ h
 #
 include
 "
-nsAlgorithm
-.
-h
-"
-#
-include
-"
 mozilla
 /
 layout
