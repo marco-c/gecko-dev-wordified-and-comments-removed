@@ -231,6 +231,7 @@ load
 1
 .
 html
+skip
 load
 long
 -
@@ -243,3 +244,13 @@ stack
 overflow
 .
 html
+#
+skipped
+due
+to
+being
+slow
+(
+bug
+477490
+)
