@@ -464,10 +464,7 @@ m
 typedef
 WeakMap
 <
-HeapPtr
-<
-JSObject
->
+HeapPtrObject
 HeapValue
 >
 ObjectValueMap
