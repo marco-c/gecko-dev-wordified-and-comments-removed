@@ -86,6 +86,7 @@ define
 JSON_PARSER_BUFSIZE
 1024
 class
+NS_STACK_CLASS
 nsJSONWriter
 {
 public
