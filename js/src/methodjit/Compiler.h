@@ -1330,6 +1330,14 @@ atom
 )
 ;
 void
+jsop_xname
+(
+JSAtom
+*
+atom
+)
+;
+void
 enterBlock
 (
 JSObject

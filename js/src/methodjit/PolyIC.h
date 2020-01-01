@@ -564,6 +564,7 @@ SETMETHOD
 NAME
 BIND
 GETELEM
+XNAME
 }
 ;
 union
@@ -1123,6 +1124,17 @@ index
 void
 JS_FASTCALL
 Name
+(
+VMFrame
+&
+f
+uint32
+index
+)
+;
+void
+JS_FASTCALL
+XName
 (
 VMFrame
 &
