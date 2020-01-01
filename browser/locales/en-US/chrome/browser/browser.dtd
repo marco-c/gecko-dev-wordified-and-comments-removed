@@ -2219,16 +2219,6 @@ TabCandy
 <
 !
 ENTITY
-showTabCandy
-.
-commandkey
-"
-E
-"
->
-<
-!
-ENTITY
 viewToolbarsMenu
 .
 label

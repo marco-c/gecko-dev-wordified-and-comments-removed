@@ -1659,11 +1659,6 @@ showTabCandy
 label
 ;
 "
-key
-=
-"
-key_tabcandy
-"
 command
 =
 "
