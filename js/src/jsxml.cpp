@@ -8721,8 +8721,7 @@ ParseXMLSource
 JSContext
 *
 cx
-JSString
-*
+HandleString
 src
 )
 {
@@ -9457,9 +9456,11 @@ Class
 *
 clasp
 ;
-JSString
-*
+RootedString
 str
+(
+cx
+)
 ;
 uint32_t
 length
@@ -9853,9 +9854,11 @@ Class
 *
 clasp
 ;
-JSString
-*
+RootedString
 str
+(
+cx
+)
 ;
 uint32_t
 i
