@@ -97,6 +97,11 @@ STL
 wrappers
 STL_FLAGS
 =
+CPPSRCS
+=
+ssltunnel
+.
+cpp
 LIBS
 =
 \

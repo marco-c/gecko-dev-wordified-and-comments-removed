@@ -120,13 +120,3 @@ DirectoryProvider
 h
 '
 ]
-CPP_SOURCES
-+
-=
-[
-'
-DirectoryProvider
-.
-cpp
-'
-]

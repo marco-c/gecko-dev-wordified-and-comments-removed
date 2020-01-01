@@ -152,6 +152,16 @@ endif
 #
 !
 _MSC_VER
+CPPSRCS
+=
+\
+(
+MTRANSPORT_LCPPSRCS
+)
+\
+(
+NULL
+)
 include
 (
 srcdir

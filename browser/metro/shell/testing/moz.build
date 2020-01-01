@@ -98,13 +98,3 @@ PROGRAM
 '
 metrotestharness
 '
-CPP_SOURCES
-+
-=
-[
-'
-metrotestharness
-.
-cpp
-'
-]

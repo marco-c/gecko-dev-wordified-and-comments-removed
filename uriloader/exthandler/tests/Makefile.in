@@ -113,6 +113,16 @@ DISABLED_XPCSHELL_TESTS
 =
 unit_ipc
 endif
+CPPSRCS
+=
+\
+WriteArgument
+.
+cpp
+\
+(
+NULL
+)
 SIMPLE_PROGRAMS
 =
 (

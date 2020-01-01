@@ -91,6 +91,16 @@ EXPORT_LIBRARY
 LIBXUL_LIBRARY
 =
 1
+CPPSRCS
+=
+\
+nsDocShellModule
+.
+cpp
+\
+(
+NULL
+)
 SHARED_LIBRARY_LIBS
 =
 \

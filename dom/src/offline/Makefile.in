@@ -86,6 +86,16 @@ FAIL_ON_WARNINGS
 :
 =
 1
+CPPSRCS
+=
+\
+nsDOMOfflineResourceList
+.
+cpp
+\
+(
+NULL
+)
 #
 we
 don

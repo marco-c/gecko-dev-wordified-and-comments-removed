@@ -101,6 +101,16 @@ omit
 frame
 -
 pointer
+CPPSRCS
+=
+\
+libmalloc
+.
+cpp
+\
+(
+NULL
+)
 include
 (
 topsrcdir

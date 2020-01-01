@@ -133,6 +133,11 @@ js
 (
 NULL
 )
+CPPSRCS
+=
+nsFeedSniffer
+.
+cpp
 LOCAL_INCLUDES
 =
 -

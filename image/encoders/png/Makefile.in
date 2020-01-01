@@ -115,6 +115,11 @@ image
 /
 src
 /
+CPPSRCS
+=
+nsPNGEncoder
+.
+cpp
 include
 (
 topsrcdir

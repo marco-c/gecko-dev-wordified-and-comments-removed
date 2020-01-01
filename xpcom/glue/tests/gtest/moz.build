@@ -98,13 +98,3 @@ MODULE
 '
 xpcom_glue_gtest
 '
-CPP_SOURCES
-+
-=
-[
-'
-TestFileUtils
-.
-cpp
-'
-]

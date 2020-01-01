@@ -116,13 +116,3 @@ nsJSON
 h
 '
 ]
-CPP_SOURCES
-+
-=
-[
-'
-nsJSON
-.
-cpp
-'
-]

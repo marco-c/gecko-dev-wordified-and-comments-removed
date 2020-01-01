@@ -97,6 +97,16 @@ EXPORT_LIBRARY
 LIBXUL_LIBRARY
 =
 1
+CPPSRCS
+=
+\
+MediaModule
+.
+cpp
+\
+(
+NULL
+)
 LOCAL_INCLUDES
 +
 =

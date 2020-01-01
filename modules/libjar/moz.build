@@ -152,13 +152,3 @@ zipstruct
 h
 '
 ]
-CPP_SOURCES
-+
-=
-[
-'
-(
-MODULES_LIBJAR_LCPPSRCS
-)
-'
-]

@@ -88,6 +88,13 @@ OS_ARCH
 )
 WINNT
 )
+CPPSRCS
+=
+run
+-
+b2g
+.
+cpp
 DEFINES
 +
 =

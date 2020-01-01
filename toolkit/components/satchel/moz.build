@@ -131,13 +131,3 @@ MODULE
 '
 satchel
 '
-CPP_SOURCES
-+
-=
-[
-'
-nsFormFillController
-.
-cpp
-'
-]

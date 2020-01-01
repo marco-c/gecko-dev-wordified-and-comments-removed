@@ -75,6 +75,16 @@ config
 autoconf
 .
 mk
+CPPSRCS
+=
+\
+TestMinStringAPI
+.
+cpp
+\
+(
+NULL
+)
 SIMPLE_PROGRAMS
 =
 (

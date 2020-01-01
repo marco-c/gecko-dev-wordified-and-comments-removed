@@ -139,6 +139,11 @@ encoders
 /
 png
 /
+CPPSRCS
+=
+nsICOEncoder
+.
+cpp
 include
 (
 topsrcdir

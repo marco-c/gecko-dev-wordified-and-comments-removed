@@ -98,13 +98,3 @@ PROGRAM
 '
 linktool
 '
-CPP_SOURCES
-+
-=
-[
-'
-linktool
-.
-cpp
-'
-]

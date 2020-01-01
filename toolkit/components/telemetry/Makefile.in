@@ -140,6 +140,16 @@ jsm
 (
 NULL
 )
+CPPSRCS
+=
+\
+Telemetry
+.
+cpp
+\
+(
+NULL
+)
 LOCAL_INCLUDES
 +
 =

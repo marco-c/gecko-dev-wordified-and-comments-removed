@@ -108,13 +108,3 @@ nsRDFCID
 h
 '
 ]
-CPP_SOURCES
-+
-=
-[
-'
-nsRDFModule
-.
-cpp
-'
-]

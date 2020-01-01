@@ -81,6 +81,11 @@ SDK_BINARY
 (
 PROGRAM
 )
+CPPSRCS
+=
+xpcshell
+.
+cpp
 LOCAL_INCLUDES
 +
 =

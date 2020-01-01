@@ -98,13 +98,3 @@ MODULE
 '
 jsperf
 '
-CPP_SOURCES
-+
-=
-[
-'
-PerfMeasurement
-.
-cpp
-'
-]

@@ -81,6 +81,16 @@ mk
 FORCE_SHARED_LIB
 =
 1
+CPPSRCS
+=
+\
+dummyvccorlib
+.
+cpp
+\
+(
+NULL
+)
 include
 (
 topsrcdir

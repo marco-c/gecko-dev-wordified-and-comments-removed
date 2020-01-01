@@ -106,13 +106,3 @@ MODULE
 '
 xpcom
 '
-CPP_SOURCES
-+
-=
-[
-'
-xptcall
-.
-cpp
-'
-]

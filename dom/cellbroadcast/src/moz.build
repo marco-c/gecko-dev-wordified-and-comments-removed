@@ -112,13 +112,3 @@ CellBroadcast
 h
 '
 ]
-CPP_SOURCES
-+
-=
-[
-'
-CellBroadcast
-.
-cpp
-'
-]

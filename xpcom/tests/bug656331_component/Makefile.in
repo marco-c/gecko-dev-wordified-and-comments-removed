@@ -92,6 +92,11 @@ test656331
 IS_COMPONENT
 =
 1
+CPPSRCS
+=
+TestComponent
+.
+cpp
 NO_DIST_INSTALL
 =
 1

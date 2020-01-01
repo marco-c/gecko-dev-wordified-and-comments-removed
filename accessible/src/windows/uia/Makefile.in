@@ -119,6 +119,17 @@ OS_CXXFLAGS
 =
 -
 DNOMINMAX
+CPPSRCS
++
+=
+\
+uiaRawElmProvider
+.
+cpp
+\
+(
+NULL
+)
 #
 we
 don

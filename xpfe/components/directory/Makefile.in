@@ -82,6 +82,11 @@ directory_s
 LIBXUL_LIBRARY
 =
 1
+CPPSRCS
+=
+nsDirectoryViewer
+.
+cpp
 #
 we
 don

@@ -61,13 +61,3 @@ MPL
 0
 /
 .
-CPP_SOURCES
-+
-=
-[
-'
-FakeSpeechRecognitionService
-.
-cpp
-'
-]

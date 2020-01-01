@@ -116,13 +116,3 @@ PROGRAM
 '
 redit
 '
-CPP_SOURCES
-+
-=
-[
-'
-redit
-.
-cpp
-'
-]

@@ -103,6 +103,16 @@ IS_COMPONENT
 FAIL_ON_WARNINGS
 =
 1
+CPPSRCS
+=
+\
+PerfMeasurement
+.
+cpp
+\
+(
+NULL
+)
 LOCAL_INCLUDES
 :
 =

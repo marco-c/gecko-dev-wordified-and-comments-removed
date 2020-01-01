@@ -98,13 +98,3 @@ MODULE
 '
 accessibility
 '
-CPP_SOURCES
-+
-=
-[
-'
-nsAccessibilityFactory
-.
-cpp
-'
-]

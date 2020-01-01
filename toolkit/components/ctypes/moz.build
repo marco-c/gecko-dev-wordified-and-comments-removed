@@ -106,13 +106,3 @@ MODULE
 '
 jsctypes
 '
-CPP_SOURCES
-+
-=
-[
-'
-ctypes
-.
-cpp
-'
-]

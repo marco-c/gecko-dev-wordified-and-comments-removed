@@ -93,13 +93,3 @@ MPL
 0
 /
 .
-CPP_SOURCES
-+
-=
-[
-'
-TestComponent
-.
-cpp
-'
-]

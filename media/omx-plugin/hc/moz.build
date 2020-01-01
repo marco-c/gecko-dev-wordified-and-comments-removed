@@ -98,13 +98,3 @@ MODULE
 '
 omxpluginhc
 '
-CPP_SOURCES
-+
-=
-[
-'
-OmxPluginHoneycomb
-.
-cpp
-'
-]

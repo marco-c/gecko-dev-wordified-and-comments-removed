@@ -76,6 +76,11 @@ config
 autoconf
 .
 mk
+CPPSRCS
+=
+triplescat
+.
+cpp
 LIBS
 =
 \

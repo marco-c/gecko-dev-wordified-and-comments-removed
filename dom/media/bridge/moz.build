@@ -108,13 +108,3 @@ MODULE
 '
 peerconnection
 '
-CPP_SOURCES
-+
-=
-[
-'
-MediaModule
-.
-cpp
-'
-]

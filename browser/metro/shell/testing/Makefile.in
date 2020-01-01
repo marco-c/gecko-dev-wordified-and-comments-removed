@@ -129,6 +129,16 @@ dist
 bin
 DIST_SUBDIR
 =
+CPPSRCS
+=
+\
+metrotestharness
+.
+cpp
+\
+(
+NULL
+)
 OS_LIBS
 =
 \

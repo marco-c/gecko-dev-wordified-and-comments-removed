@@ -98,13 +98,3 @@ MODULE
 '
 xpcom
 '
-CPP_SOURCES
-+
-=
-[
-'
-stub_test
-.
-cpp
-'
-]

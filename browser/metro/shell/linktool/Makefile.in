@@ -103,6 +103,11 @@ DIST_SUBDIR
 metro
 /
 install
+CPPSRCS
+=
+linktool
+.
+cpp
 OS_LIBS
 =
 \

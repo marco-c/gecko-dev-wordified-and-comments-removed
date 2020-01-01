@@ -98,13 +98,3 @@ MODULE
 '
 omxpluginfroyo
 '
-CPP_SOURCES
-+
-=
-[
-'
-OmxPluginFroyo
-.
-cpp
-'
-]

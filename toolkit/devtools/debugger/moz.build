@@ -116,13 +116,3 @@ MODULE
 '
 jsinspector
 '
-CPP_SOURCES
-+
-=
-[
-'
-nsJSInspector
-.
-cpp
-'
-]

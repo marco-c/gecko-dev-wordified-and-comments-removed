@@ -90,6 +90,11 @@ embedcomponents
 LIBXUL_LIBRARY
 =
 1
+CPPSRCS
+=
+nsEmbeddingModule
+.
+cpp
 SHARED_LIBRARY_LIBS
 =
 \

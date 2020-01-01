@@ -91,6 +91,11 @@ LIBXUL_LIBRARY
 IS_COMPONENT
 =
 1
+CPPSRCS
+=
+nsAutoComplete
+.
+cpp
 include
 (
 topsrcdir

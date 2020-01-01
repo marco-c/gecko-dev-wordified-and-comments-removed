@@ -87,6 +87,17 @@ LIBXUL_LIBRARY
 EXPORT_LIBRARY
 =
 1
+CPPSRCS
++
+=
+\
+Ril
+.
+cpp
+\
+(
+NULL
+)
 include
 (
 topsrcdir

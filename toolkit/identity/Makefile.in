@@ -97,6 +97,16 @@ IS_COMPONENT
 EXPORT_LIBRARY
 =
 1
+CPPSRCS
+=
+\
+IdentityCryptoService
+.
+cpp
+\
+(
+NULL
+)
 EXTRA_JS_MODULES
 =
 \

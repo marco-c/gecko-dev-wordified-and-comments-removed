@@ -112,13 +112,3 @@ SVGDocument
 h
 '
 ]
-CPP_SOURCES
-+
-=
-[
-'
-SVGDocument
-.
-cpp
-'
-]

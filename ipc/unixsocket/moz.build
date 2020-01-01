@@ -112,13 +112,3 @@ UnixSocket
 h
 '
 ]
-CPP_SOURCES
-+
-=
-[
-'
-UnixSocket
-.
-cpp
-'
-]

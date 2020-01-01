@@ -272,6 +272,11 @@ binary
 bootstrapping
 with
 XRE_main
+CPPSRCS
+=
+nsBrowserApp
+.
+cpp
 LOCAL_INCLUDES
 +
 =

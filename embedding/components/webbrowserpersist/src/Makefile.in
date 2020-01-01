@@ -82,6 +82,15 @@ webbrowserpersist_s
 LIBXUL_LIBRARY
 =
 1
+CPPSRCS
+=
+nsWebBrowserPersist
+.
+cpp
+\
+(
+NULL
+)
 #
 we
 don

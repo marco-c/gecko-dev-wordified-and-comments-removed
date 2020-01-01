@@ -91,6 +91,11 @@ nsToolkitCompsModule
 LIBXUL_LIBRARY
 =
 1
+CPPSRCS
+=
+nsToolkitCompsModule
+.
+cpp
 include
 (
 topsrcdir

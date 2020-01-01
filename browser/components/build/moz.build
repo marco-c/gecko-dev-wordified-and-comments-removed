@@ -108,13 +108,3 @@ nsBrowserCompsCID
 h
 '
 ]
-CPP_SOURCES
-+
-=
-[
-'
-nsModule
-.
-cpp
-'
-]

@@ -84,6 +84,11 @@ FORCE_STATIC_LIB
 USE_STATIC_LIBS
 =
 1
+CPPSRCS
+=
+DirectoryProvider
+.
+cpp
 LOCAL_INCLUDES
 =
 -

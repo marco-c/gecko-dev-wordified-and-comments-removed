@@ -85,6 +85,16 @@ FORCE_STATIC_LIB
 LIBXUL_LIBRARY
 =
 1
+CPPSRCS
+=
+\
+nsFindService
+.
+cpp
+\
+(
+NULL
+)
 include
 (
 topsrcdir

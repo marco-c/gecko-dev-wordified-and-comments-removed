@@ -142,13 +142,3 @@ PROGRAM
 '
 crashinject
 '
-CPP_SOURCES
-+
-=
-[
-'
-crashinject
-.
-cpp
-'
-]

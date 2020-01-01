@@ -91,6 +91,16 @@ nsRDFModule
 LIBXUL_LIBRARY
 =
 1
+CPPSRCS
+=
+\
+nsRDFModule
+.
+cpp
+\
+(
+NULL
+)
 #
 XXX
 Note

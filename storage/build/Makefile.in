@@ -91,6 +91,11 @@ mozStorageModule
 LIBXUL_LIBRARY
 =
 1
+CPPSRCS
+=
+mozStorageModule
+.
+cpp
 LOCAL_INCLUDES
 =
 \

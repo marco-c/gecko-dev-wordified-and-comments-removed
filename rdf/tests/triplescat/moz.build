@@ -98,13 +98,3 @@ PROGRAM
 '
 triplescat
 '
-CPP_SOURCES
-+
-=
-[
-'
-triplescat
-.
-cpp
-'
-]

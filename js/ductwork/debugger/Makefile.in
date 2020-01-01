@@ -93,6 +93,16 @@ EXPORT_LIBRARY
 IS_COMPONENT
 =
 1
+CPPSRCS
+=
+\
+JSDebugger
+.
+cpp
+\
+(
+NULL
+)
 EXTRA_DSO_LDOPTS
 +
 =

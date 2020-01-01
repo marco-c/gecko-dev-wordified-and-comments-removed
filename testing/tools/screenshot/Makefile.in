@@ -84,6 +84,13 @@ gtk2
 )
 ifdef
 MOZ_X11
+CPPSRCS
+=
+gdk
+-
+screenshot
+.
+cpp
 LOCAL_INCLUDES
 =
 (
@@ -110,6 +117,13 @@ MOZ_WIDGET_TOOLKIT
 )
 windows
 )
+CPPSRCS
+=
+win32
+-
+screenshot
+.
+cpp
 OS_LIBS
 +
 =

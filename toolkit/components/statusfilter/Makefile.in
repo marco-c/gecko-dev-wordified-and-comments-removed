@@ -88,6 +88,16 @@ LIBXUL_LIBRARY
 MODULE_NAME
 =
 nsBrowserModule
+CPPSRCS
+=
+\
+nsBrowserStatusFilter
+.
+cpp
+\
+(
+NULL
+)
 include
 (
 topsrcdir

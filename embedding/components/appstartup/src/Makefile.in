@@ -82,6 +82,15 @@ appstartupnotifier_s
 LIBXUL_LIBRARY
 =
 1
+CPPSRCS
+=
+nsAppStartupNotifier
+.
+cpp
+\
+(
+NULL
+)
 #
 we
 don

@@ -120,13 +120,3 @@ xpcshell
 ini
 '
 ]
-CPP_SOURCES
-+
-=
-[
-'
-JSDebugger
-.
-cpp
-'
-]

@@ -98,6 +98,15 @@ NO_EXPAND_LIBS
 NO_PROFILE_GUIDED_OPTIMIZE
 =
 1
+CPPSRCS
+=
+\
+stdc
++
++
+compat
+.
+cpp
 (
 NULL
 )

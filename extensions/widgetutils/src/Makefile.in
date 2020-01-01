@@ -105,6 +105,11 @@ FORCE_SHARED_LIB
 IS_COMPONENT
 =
 1
+CPPSRCS
+=
+nsWidgetUtils
+.
+cpp
 EXTRA_DSO_LDOPTS
 =
 \

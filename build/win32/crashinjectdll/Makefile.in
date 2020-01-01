@@ -93,6 +93,11 @@ FORCE_SHARED_LIB
 USE_STATIC_LIBS
 =
 1
+CPPSRCS
+=
+crashinjectdll
+.
+cpp
 MOZ_GLUE_LDFLAGS
 =
 include

@@ -116,13 +116,3 @@ nsJSProtocolHandler
 h
 '
 ]
-CPP_SOURCES
-+
-=
-[
-'
-nsJSProtocolHandler
-.
-cpp
-'
-]

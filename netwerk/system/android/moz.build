@@ -98,13 +98,3 @@ MODULE
 '
 necko
 '
-CPP_SOURCES
-+
-=
-[
-'
-nsAndroidNetworkLinkService
-.
-cpp
-'
-]
