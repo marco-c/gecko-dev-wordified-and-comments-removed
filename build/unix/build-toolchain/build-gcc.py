@@ -1083,7 +1083,7 @@ glibc_version
 "
 2
 .
-6
+5
 .
 1
 "
@@ -1742,6 +1742,10 @@ stage1_tool_inst_dir
 bin
 /
 gcc
+-
+fgnu89
+-
+inline
 "
                  
 "
