@@ -522,7 +522,7 @@ this
 .
 _log
 .
-info
+debug
 (
 logins
 .
