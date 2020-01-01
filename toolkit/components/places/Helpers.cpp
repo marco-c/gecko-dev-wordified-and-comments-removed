@@ -1442,9 +1442,6 @@ NS_LITERAL_CSTRING
 "
 pragma
 wal_checkpoint
-(
-FULL
-)
 "
 )
 getter_AddRefs
