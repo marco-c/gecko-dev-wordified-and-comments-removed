@@ -119,6 +119,9 @@ h
 "
 #
 endif
+class
+nsIDOMAdapter
+;
 namespace
 mozilla
 {
@@ -369,7 +372,7 @@ ifdef
 MOZ_B2G_BT
 nsCOMPtr
 <
-nsIDOMBluetoothManager
+nsIDOMBluetoothAdapter
 >
 mBluetooth
 ;
