@@ -472,6 +472,12 @@ ref
 .
 html
 fails
+-
+if
+(
+!
+gtk2Widget
+)
 =
 =
 329069
