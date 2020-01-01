@@ -1835,9 +1835,6 @@ JSBool
 b
 )
 {
-jsval_layout
-l
-;
 JS_ASSERT
 (
 b
@@ -1851,6 +1848,9 @@ b
 =
 JS_FALSE
 )
+;
+jsval_layout
+l
 ;
 l
 .
@@ -2621,9 +2621,6 @@ JSBool
 b
 )
 {
-jsval_layout
-l
-;
 JS_ASSERT
 (
 b
@@ -2637,6 +2634,9 @@ b
 =
 JS_FALSE
 )
+;
+jsval_layout
+l
 ;
 l
 .
