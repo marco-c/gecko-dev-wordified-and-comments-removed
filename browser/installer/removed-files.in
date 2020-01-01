@@ -538,13 +538,8 @@ upgrades
 from
 Fx2
 /
-Fx3b1
+Fx3b3
 )
-components
-/
-inspector
-.
-xpt
 extensions
 /
 inspector
