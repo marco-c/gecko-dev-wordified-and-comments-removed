@@ -278,6 +278,16 @@ aSize
 ;
 if
 (
+!
+isNaN
+(
+displaySize
+[
+0
+]
+)
+&
+&
 displaySize
 [
 0
