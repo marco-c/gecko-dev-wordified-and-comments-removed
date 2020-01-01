@@ -45,13 +45,10 @@ import
 XPCShellRemote
 RemoteXPCShellOptions
 from
-automationutils
-import
-*
-from
 mozdevice
 import
 devicemanagerADB
+DMError
 DEVICE_TEST_ROOT
 =
 '
