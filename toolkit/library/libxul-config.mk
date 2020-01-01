@@ -981,12 +981,8 @@ system
 pref
 endif
 endif
-ifneq
-(
-(
+ifdef
 MOZ_ENABLE_GTK2
-)
-)
 STATIC_LIBS
 +
 =
@@ -1026,12 +1022,8 @@ MOZ_IMG_DECODERS
 )
 )
 )
-ifneq
-(
-(
+ifndef
 MOZ_ENABLE_GTK2
-)
-)
 DEFINES
 +
 =
