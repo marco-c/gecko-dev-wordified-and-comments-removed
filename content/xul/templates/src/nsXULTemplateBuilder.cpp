@@ -4687,6 +4687,12 @@ jscontext
 return
 NS_ERROR_UNEXPECTED
 ;
+JSAutoRequest
+ar
+(
+jscontext
+)
+;
 nsIXPConnect
 *
 xpc
