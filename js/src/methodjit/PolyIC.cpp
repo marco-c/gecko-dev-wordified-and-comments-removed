@@ -15984,11 +15984,8 @@ InternNonIntElementId
 cx
 obj
 idval
+&
 id
-.
-address
-(
-)
 )
 )
 THROW

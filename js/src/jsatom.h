@@ -1055,8 +1055,7 @@ const
 Value
 &
 idval
-jsid
-*
+MutableHandleId
 idp
 MutableHandleValue
 vp
@@ -1076,8 +1075,7 @@ const
 Value
 &
 idval
-jsid
-*
+MutableHandleId
 idp
 )
 {
