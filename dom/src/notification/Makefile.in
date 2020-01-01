@@ -116,7 +116,7 @@ Notification
 .
 cpp
 \
-nsDesktopNotification
+DesktopNotification
 .
 cpp
 \
@@ -139,6 +139,10 @@ dom
 =
 \
 Notification
+.
+h
+\
+DesktopNotification
 .
 h
 \

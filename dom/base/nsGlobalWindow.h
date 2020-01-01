@@ -4172,7 +4172,7 @@ PostMessageEvent
 ;
 friend
 class
-nsDOMDesktopNotification
+DesktopNotification
 ;
 static
 WindowByIdTable

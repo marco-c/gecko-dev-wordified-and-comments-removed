@@ -38,7 +38,11 @@ h
 #
 include
 "
-nsDesktopNotification
+mozilla
+/
+dom
+/
+DesktopNotification
 .
 h
 "
@@ -4909,7 +4913,7 @@ NS_ERROR_FAILURE
 mNotification
 =
 new
-nsDesktopNotificationCenter
+DesktopNotificationCenter
 (
 win
 )
