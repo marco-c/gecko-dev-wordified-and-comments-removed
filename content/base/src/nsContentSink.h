@@ -156,6 +156,9 @@ nsIViewManager
 class
 nsNodeInfoManager
 ;
+class
+nsScriptLoader
+;
 #
 ifdef
 NS_DEBUG
@@ -540,7 +543,7 @@ void
 StartLayout
 (
 PRBool
-aIsFrameset
+aIgnorePendingSheets
 )
 ;
 PRBool
@@ -695,6 +698,12 @@ nsNodeInfoManager
 >
 mNodeInfoManager
 ;
+nsRefPtr
+<
+nsScriptLoader
+>
+mScriptLoader
+;
 nsCOMArray
 <
 nsIScriptElement
@@ -770,6 +779,11 @@ mChangeScrollPosWhenScrollingToRef
 :
 1
 ;
+PRUint8
+mDeferredLayoutStart
+:
+1
+;
 PRUint32
 mDelayTimerStart
 ;
@@ -790,6 +804,9 @@ mInMonolithicContainer
 ;
 PRInt32
 mInNotification
+;
+PRUint32
+mPendingSheetCount
 ;
 MOZ_TIMER_DECLARE
 (

@@ -376,9 +376,12 @@ nsIContent
 aContent
 )
 ;
+virtual
 void
 MaybeStartLayout
 (
+PRBool
+aIgnorePendingSheets
 )
 ;
 virtual
@@ -817,6 +820,8 @@ nsXMLFragmentContentSink
 :
 MaybeStartLayout
 (
+PRBool
+aIgnorePendingSheets
 )
 {
 return

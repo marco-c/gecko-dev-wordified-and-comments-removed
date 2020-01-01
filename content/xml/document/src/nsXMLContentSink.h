@@ -245,11 +245,8 @@ virtual
 void
 MaybeStartLayout
 (
-)
-;
-void
-StartLayout
-(
+PRBool
+aIgnorePendingSheets
 )
 ;
 virtual

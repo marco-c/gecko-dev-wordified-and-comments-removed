@@ -581,8 +581,9 @@ CharacterDataChangeInfo
 aInfo
 )
 {
-UpdateStyleSheet
+UpdateStyleSheetInternal
 (
+nsnull
 )
 ;
 }
@@ -602,8 +603,9 @@ PRInt32
 aNewIndexInContainer
 )
 {
-UpdateStyleSheet
+UpdateStyleSheetInternal
 (
+nsnull
 )
 ;
 }
@@ -626,8 +628,9 @@ PRInt32
 aIndexInContainer
 )
 {
-UpdateStyleSheet
+UpdateStyleSheetInternal
 (
+nsnull
 )
 ;
 }
@@ -650,8 +653,9 @@ PRInt32
 aIndexInContainer
 )
 {
-UpdateStyleSheet
+UpdateStyleSheetInternal
 (
+nsnull
 )
 ;
 }
@@ -694,7 +698,7 @@ rv
 rv
 )
 ;
-UpdateStyleSheet
+UpdateStyleSheetInternal
 (
 nsnull
 )
@@ -734,7 +738,7 @@ aDeep
 aNullParent
 )
 ;
-UpdateStyleSheet
+UpdateStyleSheetInternal
 (
 oldDoc
 )
@@ -785,9 +789,8 @@ rv
 )
 )
 {
-UpdateStyleSheet
+UpdateStyleSheetInternal
 (
-nsnull
 nsnull
 aNameSpaceID
 =
@@ -865,9 +868,8 @@ rv
 )
 )
 {
-UpdateStyleSheet
+UpdateStyleSheetInternal
 (
-nsnull
 nsnull
 aNameSpaceID
 =
@@ -969,8 +971,9 @@ SetEnableUpdates
 PR_TRUE
 )
 ;
-UpdateStyleSheet
+UpdateStyleSheetInternal
 (
+nsnull
 )
 ;
 return

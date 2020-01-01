@@ -167,9 +167,12 @@ aLength
 ;
 protected
 :
+virtual
 void
 MaybeStartLayout
 (
+PRBool
+aIgnorePendingSheets
 )
 ;
 PRBool
