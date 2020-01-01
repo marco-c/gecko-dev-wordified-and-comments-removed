@@ -91,6 +91,8 @@ out
 }
 .
 shrinkToFit
+.
+scaleTodevicePixels
 {
 cursor
 :
