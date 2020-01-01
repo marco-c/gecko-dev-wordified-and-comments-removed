@@ -295,6 +295,9 @@ None
 skip
 =
 False
+time
+=
+None
 )
 :
     
@@ -346,6 +349,24 @@ result
 |
 (
 SKIP
+)
+'
+    
+if
+time
+>
+OPTIONS
+.
+timeout
+:
+        
+result
++
+=
+'
+|
+(
+TIMEOUT
 )
 '
     
@@ -566,6 +587,11 @@ output
 test
 .
 path
+time
+=
+output
+.
+dt
 skip
 =
 True
@@ -882,6 +908,11 @@ result
 test
 .
 path
+time
+=
+output
+.
+dt
 message
 =
 msg
@@ -919,6 +950,11 @@ result
 test
 .
 path
+time
+=
+output
+.
+dt
 )
         
 if
