@@ -535,6 +535,16 @@ String
 newValue
 )
 ;
+if
+(
+preference
+instanceof
+LinkPreference
+)
+finish
+(
+)
+;
 return
 true
 ;
