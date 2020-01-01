@@ -108,6 +108,10 @@ NJ_JTBL_SUPPORTED
 define
 NJ_EXPANDED_LOADSTORE_SUPPORTED
 0
+#
+define
+NJ_F2I_SUPPORTED
+0
 enum
 ConditionRegister
 {

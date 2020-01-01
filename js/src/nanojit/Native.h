@@ -149,6 +149,15 @@ NJ_USES_QUAD_CONSTANTS
 0
 #
 endif
+#
+ifndef
+NJ_F2I_SUPPORTED
+#
+define
+NJ_F2I_SUPPORTED
+0
+#
+endif
 namespace
 nanojit
 {
