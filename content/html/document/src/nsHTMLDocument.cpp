@@ -483,13 +483,6 @@ h
 #
 include
 "
-nsICharsetResolver
-.
-h
-"
-#
-include
-"
 nsICachingChannel
 .
 h

@@ -426,10 +426,6 @@ nsIDocCharset
 .
 idl
 \
-nsICharsetResolver
-.
-idl
-\
 (
 NULL
 )
