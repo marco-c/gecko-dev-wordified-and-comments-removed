@@ -1658,7 +1658,7 @@ write_marker_header
 (
 j_compress_ptr
 cinfo
-int16
+int
 marker
 unsigned
 int
@@ -1712,13 +1712,16 @@ write_marker_byte
 (
 j_compress_ptr
 cinfo
-int16
+int
 val
 )
 {
 emit_byte
 (
 cinfo
+(
+int16
+)
 val
 )
 ;
