@@ -6101,7 +6101,7 @@ k
 LInsp
 findImmf
 (
-uint64_t
+double
 d
 uint32_t
 &
