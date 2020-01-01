@@ -2346,7 +2346,7 @@ return
 false
 ;
 var
-forceHideRules
+forceHideAttr
 =
 aMenuItem
 .
@@ -2356,6 +2356,16 @@ getAttribute
 forcehideselection
 "
 )
+;
+if
+(
+forceHideAttr
+)
+{
+var
+forceHideRules
+=
+forceHideAttr
 .
 split
 (
@@ -2415,6 +2425,7 @@ i
 return
 false
 ;
+}
 }
 }
 var
