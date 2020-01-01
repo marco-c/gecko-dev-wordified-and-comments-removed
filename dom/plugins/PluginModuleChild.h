@@ -420,6 +420,13 @@ CleanUp
 (
 )
 ;
+const
+char
+*
+GetUserAgent
+(
+)
+;
 static
 const
 NPNetscapeFuncs
@@ -489,6 +496,9 @@ mPluginFilename
 PRLibrary
 *
 mLibrary
+;
+nsCString
+mUserAgent
 ;
 #
 ifdef
