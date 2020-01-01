@@ -1125,6 +1125,11 @@ mRemoteChannel
 :
 1
 ;
+PRUint32
+mRequestTimeInitialized
+:
+1
+;
 class
 nsContentEncodings
 :
