@@ -2782,6 +2782,12 @@ AreTransformAnimationsEnabled
 ;
 static
 bool
+IsAnimationLoggingEnabled
+(
+)
+;
+static
+bool
 UseBackgroundNearestFiltering
 (
 )
