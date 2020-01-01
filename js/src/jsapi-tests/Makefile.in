@@ -437,6 +437,10 @@ selfTest
 .
 cpp
 \
+testContexts
+.
+cpp
+\
 testDefineGetterSetterNonEnumerable
 .
 cpp
