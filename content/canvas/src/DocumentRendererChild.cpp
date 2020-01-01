@@ -279,10 +279,7 @@ parser
 .
 ParseColorString
 (
-PromiseFlatString
-(
 bgcolor
-)
 nsnull
 0
 &
