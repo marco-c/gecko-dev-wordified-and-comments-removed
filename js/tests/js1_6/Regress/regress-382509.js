@@ -199,6 +199,7 @@ map
 object
 .
 foo
+object
 )
 )
 ;
