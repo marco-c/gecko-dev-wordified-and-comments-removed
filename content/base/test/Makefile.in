@@ -992,6 +992,10 @@ test_bug420700
 .
 html
 \
+test_bug421602
+.
+html
+\
 test_bug422537
 .
 html

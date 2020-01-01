@@ -290,6 +290,11 @@ mListener
 nsnull
 ;
 }
+void
+NullOutListener
+(
+)
+;
 private
 :
 friend
@@ -320,6 +325,9 @@ mCanceled
 ;
 PRPackedBool
 mIsInLoadGroup
+;
+PRPackedBool
+mListenerIsStrongRef
 ;
 }
 ;
