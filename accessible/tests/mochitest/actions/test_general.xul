@@ -359,7 +359,7 @@ click
 "
 events
 :
-ALL_EVENTS
+XUL_EVENTS
 }
 {
 ID
@@ -374,7 +374,7 @@ press
 "
 events
 :
-ALL_EVENTS
+XUL_EVENTS
 }
 {
 ID
