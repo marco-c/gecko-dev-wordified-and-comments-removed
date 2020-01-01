@@ -17148,10 +17148,9 @@ gNameSpaceManager
 new
 nsScriptNameSpaceManager
 ;
-NS_ENSURE_TRUE
+NS_ADDREF
 (
 gNameSpaceManager
-nsnull
 )
 ;
 nsresult
@@ -17205,12 +17204,10 @@ sLoadInProgressGCTimer
 PR_FALSE
 ;
 }
-delete
+NS_IF_RELEASE
+(
 gNameSpaceManager
-;
-gNameSpaceManager
-=
-nsnull
+)
 ;
 if
 (
