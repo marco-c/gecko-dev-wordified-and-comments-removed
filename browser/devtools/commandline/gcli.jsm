@@ -17525,8 +17525,8 @@ ResourceCache
 .
 _cached
 =
-{
-}
+[
+]
 ;
 }
 }
