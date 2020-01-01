@@ -602,15 +602,10 @@ loopHeader_
 (
 NULL
 )
-#
-ifdef
-TRACK_SNAPSHOTS
 trackedPc_
 (
 pc
 )
-#
-endif
 {
 }
 bool
@@ -2205,9 +2200,6 @@ at
 ins
 )
 ;
-#
-ifdef
-TRACK_SNAPSHOTS
 ins
 -
 >
@@ -2221,8 +2213,6 @@ trackedPc
 )
 )
 ;
-#
-endif
 }
 void
 MBasicBlock
@@ -2263,9 +2253,6 @@ at
 ins
 )
 ;
-#
-ifdef
-TRACK_SNAPSHOTS
 ins
 -
 >
@@ -2279,8 +2266,6 @@ trackedPc
 )
 )
 ;
-#
-endif
 }
 void
 MBasicBlock
@@ -2323,9 +2308,6 @@ pushBack
 ins
 )
 ;
-#
-ifdef
-TRACK_SNAPSHOTS
 ins
 -
 >
@@ -2334,8 +2316,6 @@ setTrackedPc
 trackedPc_
 )
 ;
-#
-endif
 }
 void
 MBasicBlock

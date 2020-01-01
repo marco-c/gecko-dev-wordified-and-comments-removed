@@ -589,12 +589,7 @@ InterruptCheck
 \
 _
 (
-ProfilingEnter
-)
-\
-_
-(
-ProfilingExit
+FunctionBoundary
 )
 \
 _

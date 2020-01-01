@@ -544,6 +544,16 @@ Registers
 :
 r0
 )
+|
+(
+1
+<
+<
+Registers
+:
+:
+r1
+)
 ;
 static
 const
