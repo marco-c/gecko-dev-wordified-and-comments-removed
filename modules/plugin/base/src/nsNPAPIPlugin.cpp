@@ -11926,6 +11926,7 @@ return
 NPERR_NO_ERROR
 ;
 }
+PR_BEGIN_EXTERN_C
 uint32_t
 NP_CALLBACK
 _scheduletimer
@@ -11982,6 +11983,7 @@ timerFunc
 )
 ;
 }
+PR_END_EXTERN_C
 void
 NP_CALLBACK
 _unscheduletimer
