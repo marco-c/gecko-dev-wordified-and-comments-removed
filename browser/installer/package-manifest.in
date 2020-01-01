@@ -4612,6 +4612,15 @@ modules
 WebappsHandler
 .
 jsm
+BINPATH
+/
+webapprt
+/
+modules
+/
+RemoteDebugger
+.
+jsm
 #
 endif
 #
