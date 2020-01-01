@@ -457,6 +457,14 @@ xul
 .
 xul
 \
+test_hover
+.
+html
+\
+hover_helper
+.
+html
+\
 (
 NULL
 )
