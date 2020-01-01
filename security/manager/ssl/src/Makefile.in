@@ -376,6 +376,17 @@ DLL_SUFFIX
 (
 NULL
 )
+EXPORTS
++
+=
+\
+nsNSSShutDown
+.
+h
+\
+(
+NULL
+)
 #
 Use
 local
