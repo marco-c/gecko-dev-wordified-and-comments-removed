@@ -19,12 +19,6 @@ defined
 (
 XP_OS2
 )
-|
-|
-defined
-(
-WINCE
-)
 #
 if
 defined
@@ -95,12 +89,6 @@ _WIN32
 defined
 (
 XP_OS2
-)
-|
-|
-defined
-(
-WINCE
 )
 #
 ifdef

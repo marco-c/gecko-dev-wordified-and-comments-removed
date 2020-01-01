@@ -307,9 +307,6 @@ PRBool
 bClassExists
 )
 {
-#
-ifndef
-WINCE
 bClassExists
 =
 ClassExists
@@ -430,8 +427,6 @@ return
 PR_TRUE
 ;
 }
-#
-endif
 return
 PR_FALSE
 ;

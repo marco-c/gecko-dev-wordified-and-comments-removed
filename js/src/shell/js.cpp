@@ -1466,14 +1466,6 @@ ShellOperationCallback
 )
 ;
 }
-#
-ifdef
-WINCE
-int
-errno
-;
-#
-endif
 static
 void
 Process
@@ -1596,9 +1588,6 @@ SetContextOptions
 cx
 )
 ;
-#
-ifndef
-WINCE
 if
 (
 !
@@ -1614,8 +1603,6 @@ file
 )
 )
 )
-#
-endif
 {
 int
 ch

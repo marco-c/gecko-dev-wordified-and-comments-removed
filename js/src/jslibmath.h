@@ -50,14 +50,6 @@ __builtin_copysign
 #
 elif
 defined
-WINCE
-#
-define
-js_copysign
-_copysign
-#
-elif
-defined
 _WIN32
 #
 if
