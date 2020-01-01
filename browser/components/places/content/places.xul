@@ -3951,6 +3951,9 @@ save
 "
 /
 >
+#
+ifdef
+PLACES_QUERY_BUILDER
 <
 button
 id
@@ -4019,6 +4022,14 @@ include
 advancedSearch
 .
 inc
+#
+else
+<
+/
+toolbar
+>
+#
+endif
 <
 /
 vbox
