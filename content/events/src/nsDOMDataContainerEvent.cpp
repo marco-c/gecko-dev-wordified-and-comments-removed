@@ -182,16 +182,6 @@ NS_IS_EVENT_IN_DISPATCH
 (
 mEvent
 )
-|
-|
-(
-mEvent
--
->
-flags
-&
-NS_EVENT_FLAG_STOP_DISPATCH_IMMEDIATELY
-)
 )
 )
 ;
