@@ -530,6 +530,8 @@ newInstance
 JSContext
 *
 cx
+NewObjectKind
+newKind
 )
 {
 gc
@@ -556,6 +558,7 @@ cx
 &
 class_
 kind
+newKind
 )
 )
 ;
@@ -606,6 +609,7 @@ cx
 newInstance
 (
 cx
+TenuredObject
 )
 )
 ;

@@ -1245,6 +1245,7 @@ ParallelArrayObject
 newInstance
 (
 cx
+TenuredObject
 )
 )
 ;
