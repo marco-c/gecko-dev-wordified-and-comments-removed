@@ -78,6 +78,12 @@ n
 #
 endif
 #
+if
+MOZ_PLATFORM_MAEMO
+=
+=
+5
+#
 for
 fennec
 icons
@@ -98,6 +104,8 @@ share
 icons
 /
 hicolor
+#
+endif
 #
 select
 where
