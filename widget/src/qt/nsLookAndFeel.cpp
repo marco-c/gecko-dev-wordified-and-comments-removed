@@ -734,7 +734,12 @@ if
 QT_VERSION
 >
 =
-440
+QT_VERSION_CHECK
+(
+4
+4
+0
+)
 )
 aColor
 =
@@ -789,7 +794,12 @@ if
 QT_VERSION
 >
 =
-440
+QT_VERSION_CHECK
+(
+4
+4
+0
+)
 )
 aColor
 =
