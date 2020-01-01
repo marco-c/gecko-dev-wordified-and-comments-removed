@@ -857,10 +857,6 @@ LockImage
 nsresult
 DoComposite
 (
-imgFrame
-*
-*
-aFrameToUse
 nsIntRect
 *
 aDirtyRect
