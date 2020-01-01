@@ -665,6 +665,14 @@ isStartTabVisible
 {
 Elements
 .
+autocomplete
+.
+closePopup
+(
+)
+;
+Elements
+.
 navbar
 .
 dismiss
