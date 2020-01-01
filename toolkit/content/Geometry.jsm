@@ -1,4 +1,4 @@
-var
+let
 EXPORTED_SYMBOLS
 =
 [
