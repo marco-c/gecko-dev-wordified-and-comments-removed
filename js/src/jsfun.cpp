@@ -4651,10 +4651,9 @@ if
 scope
 -
 >
-object
-=
-=
-callobj
+owned
+(
+)
 &
 &
 n
