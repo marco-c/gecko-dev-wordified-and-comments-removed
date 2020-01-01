@@ -1927,15 +1927,7 @@ PRInt64
 GetNewSessionID
 (
 )
-{
-mLastSessionID
-+
-+
 ;
-return
-mLastSessionID
-;
-}
 #
 ifdef
 MOZ_XUL
