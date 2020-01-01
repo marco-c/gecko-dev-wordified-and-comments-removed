@@ -453,6 +453,10 @@ updatelogging
 .
 cpp
 \
+readstrings
+.
+cpp
+\
 (
 NULL
 )
@@ -463,6 +467,10 @@ updatelogging
 h
 \
 updatedefines
+.
+h
+\
+readstrings
 .
 h
 \

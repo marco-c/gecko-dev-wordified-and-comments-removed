@@ -447,12 +447,6 @@ nsUpdateTimerManager
 manifest
 ifdef
 MOZ_UPDATER
-DIRS
-=
-.
-.
-/
-readstrings
 ifneq
 (
 (
@@ -537,12 +531,6 @@ uses
 .
 ifdef
 MOZ_MAINTENANCE_SERVICE
-DIRS
-=
-.
-.
-/
-readstrings
 ifneq
 (
 (
