@@ -1086,6 +1086,16 @@ cursor
 pointer
 ;
 }
+#
+snippets
+:
+empty
+{
+visibility
+:
+hidden
+;
+}
 media
 all
 and
