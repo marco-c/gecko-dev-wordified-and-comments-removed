@@ -2617,6 +2617,7 @@ clazz
 )
 )
 class
+NS_STACK_CLASS
 nsCxPusher
 {
 public

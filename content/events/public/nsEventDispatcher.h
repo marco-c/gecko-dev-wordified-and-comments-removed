@@ -238,6 +238,7 @@ mEventStatus
 }
 ;
 class
+NS_STACK_CLASS
 nsDispatchingCallback
 {
 public

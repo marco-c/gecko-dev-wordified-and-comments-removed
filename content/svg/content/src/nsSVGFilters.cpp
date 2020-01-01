@@ -248,6 +248,7 @@ LoadImage
 #
 endif
 class
+NS_STACK_CLASS
 nsSVGFilterResource
 {
 public

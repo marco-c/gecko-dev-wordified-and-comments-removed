@@ -972,6 +972,7 @@ mYounger
 ;
 }
 class
+NS_STACK_CLASS
 JSContextAutoPopper
 {
 public

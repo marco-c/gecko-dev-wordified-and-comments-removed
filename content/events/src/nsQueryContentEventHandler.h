@@ -62,6 +62,7 @@ struct
 nsRect
 ;
 class
+NS_STACK_CLASS
 nsQueryContentEventHandler
 {
 public

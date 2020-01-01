@@ -19,6 +19,7 @@ nsIDOMScriptObjectFactory
 h
 "
 class
+NS_STACK_CLASS
 nsScriptObjectHolder
 {
 public

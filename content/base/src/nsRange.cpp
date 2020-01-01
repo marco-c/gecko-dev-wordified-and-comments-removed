@@ -2939,6 +2939,7 @@ NS_OK
 ;
 }
 class
+NS_STACK_CLASS
 RangeSubtreeIterator
 {
 private

@@ -252,6 +252,7 @@ nsIFocusController
 NS_IFOCUSCONTROLLER_IID
 )
 class
+NS_STACK_CLASS
 nsFocusSuppressor
 {
 public
@@ -363,6 +364,7 @@ mReason
 }
 ;
 class
+NS_STACK_CLASS
 nsFocusScrollSuppressor
 {
 public

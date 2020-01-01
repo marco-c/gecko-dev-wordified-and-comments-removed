@@ -167,6 +167,7 @@ mModifyNestCount
 }
 ;
 class
+NS_STACK_CLASS
 nsSVGValueAutoNotifier
 {
 public

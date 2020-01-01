@@ -2192,6 +2192,7 @@ nsIDocument
 NS_IDOCUMENT_IID
 )
 class
+NS_STACK_CLASS
 mozAutoSubtreeModified
 {
 public
