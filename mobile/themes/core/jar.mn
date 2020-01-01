@@ -1785,7 +1785,7 @@ task
 -
 switch
 -
-40
+hdpi
 .
 png
 (
@@ -1795,7 +1795,7 @@ task
 -
 switch
 -
-40
+hdpi
 .
 png
 )
@@ -1807,7 +1807,7 @@ task
 -
 close
 -
-40
+hdpi
 .
 png
 (
@@ -1817,7 +1817,7 @@ task
 -
 close
 -
-40
+hdpi
 .
 png
 )
@@ -1829,7 +1829,7 @@ task
 -
 back
 -
-40
+hdpi
 .
 png
 (
@@ -1839,7 +1839,7 @@ task
 -
 back
 -
-40
+hdpi
 .
 png
 )
@@ -1853,7 +1853,7 @@ back
 -
 rtl
 -
-40
+hdpi
 .
 png
 (
@@ -1865,7 +1865,7 @@ back
 -
 rtl
 -
-40
+hdpi
 .
 png
 )
