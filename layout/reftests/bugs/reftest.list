@@ -23338,6 +23338,12 @@ on
 platform
 fonts
 )
+random
+-
+if
+(
+winWidget
+)
 HTTP
 (
 .
@@ -23358,7 +23364,13 @@ ref
 .
 svg
 #
-http
+same
+1px
+issue
+as
+above
+and
+HTTP
 (
 .
 .
