@@ -928,11 +928,6 @@ instanceData
 )
 return
 ;
-notifyDidPaint
-(
-instanceData
-)
-;
 NPP
 npp
 =
@@ -1571,6 +1566,11 @@ break
 ;
 }
 }
+notifyDidPaint
+(
+instanceData
+)
+;
 }
 int16_t
 pluginHandleEvent

@@ -844,11 +844,6 @@ NULL
 PAINTSTRUCT
 ps
 ;
-notifyDidPaint
-(
-instanceData
-)
-;
 if
 (
 instanceData
@@ -997,6 +992,11 @@ window
 window
 &
 ps
+)
+;
+notifyDidPaint
+(
+instanceData
 )
 ;
 }
