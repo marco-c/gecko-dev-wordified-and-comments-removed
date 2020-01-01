@@ -12,13 +12,6 @@ nsFormControlFrame
 h
 "
 #
-include
-"
-nsIRadioControlFrame
-.
-h
-"
-#
 ifdef
 ACCESSIBILITY
 class
@@ -31,8 +24,6 @@ nsGfxRadioControlFrame
 :
 public
 nsFormControlFrame
-public
-nsIRadioControlFrame
 {
 public
 :
@@ -48,7 +39,6 @@ nsGfxRadioControlFrame
 (
 )
 ;
-NS_DECL_QUERYFRAME
 NS_DECL_FRAMEARENA_HELPERS
 #
 ifdef
@@ -64,16 +54,6 @@ aAccessible
 ;
 #
 endif
-NS_IMETHOD
-OnChecked
-(
-nsPresContext
-*
-aPresContext
-PRBool
-aChecked
-)
-;
 NS_IMETHOD
 BuildDisplayList
 (

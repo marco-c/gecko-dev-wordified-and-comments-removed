@@ -212,7 +212,6 @@ nsHTMLFramesetFrame_id
 nsHTMLScrollFrame_id
 nsIAnonymousContentCreator_id
 nsICSSPseudoComparator_id
-nsICheckboxControlFrame_id
 nsIComboboxControlFrame_id
 nsIFormControlFrame_id
 nsIFrame_id
@@ -224,7 +223,6 @@ nsIMenuFrame_id
 nsIObjectFrame_id
 nsIPageSequenceFrame_id
 nsIPercentHeightObserver_id
-nsIRadioControlFrame_id
 nsIRootBox_id
 nsISVGChildFrame_id
 nsISVGGlyphFragmentLeaf_id

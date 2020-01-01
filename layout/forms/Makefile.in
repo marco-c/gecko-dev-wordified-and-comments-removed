@@ -445,14 +445,6 @@ nsIFormControlFrame
 .
 h
 \
-nsIRadioControlFrame
-.
-h
-\
-nsICheckboxControlFrame
-.
-h
-\
 nsISelectControlFrame
 .
 h
