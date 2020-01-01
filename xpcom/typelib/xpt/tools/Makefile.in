@@ -490,6 +490,14 @@ xpt
 (
 LIB_SUFFIX
 )
+ifdef
+WRAP_MALLOC_CFLAGS
+LIBS
++
+=
+-
+lmozalloc
+endif
 USE_STATIC_LIBS
 =
 1
