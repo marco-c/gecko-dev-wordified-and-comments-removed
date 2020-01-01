@@ -490,6 +490,10 @@ LayerManagerOGL
 .
 cpp
 \
+ColorLayerOGL
+.
+cpp
+\
 ThebesLayerOGL
 .
 cpp
