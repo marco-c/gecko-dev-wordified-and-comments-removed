@@ -1449,6 +1449,14 @@ SetHasOrientationEventListener
 0
 ;
 virtual
+void
+RemoveOrientationEventListener
+(
+)
+=
+0
+;
+virtual
 nsresult
 SetArguments
 (
