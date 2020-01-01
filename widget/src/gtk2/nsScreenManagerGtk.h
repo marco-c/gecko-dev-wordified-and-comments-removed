@@ -49,9 +49,6 @@ gdk
 h
 "
 #
-ifdef
-MOZ_X11
-#
 include
 <
 X11
@@ -60,8 +57,6 @@ Xlib
 .
 h
 >
-#
-endif
 class
 nsScreenManagerGtk
 :
@@ -82,9 +77,6 @@ nsScreenManagerGtk
 ;
 NS_DECL_ISUPPORTS
 NS_DECL_NSISCREENMANAGER
-#
-ifdef
-MOZ_X11
 Atom
 NetWorkareaAtom
 (
@@ -94,8 +86,6 @@ return
 mNetWorkareaAtom
 ;
 }
-#
-endif
 nsresult
 Init
 (
@@ -122,14 +112,9 @@ GdkWindow
 *
 mRootWindow
 ;
-#
-ifdef
-MOZ_X11
 Atom
 mNetWorkareaAtom
 ;
-#
-endif
 }
 ;
 #

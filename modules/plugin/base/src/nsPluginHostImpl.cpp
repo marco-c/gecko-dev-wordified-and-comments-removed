@@ -795,11 +795,6 @@ defined
 (
 MOZ_WIDGET_GTK2
 )
-&
-defined
-(
-MOZ_X11
-)
 #
 include
 <

@@ -811,9 +811,6 @@ transferable
 "
 nsTransferableConstructor
 }
-#
-ifdef
-MOZ_X11
 {
 "
 Gtk
@@ -872,8 +869,6 @@ dragservice
 "
 nsDragServiceConstructor
 }
-#
-endif
 {
 "
 HTML

@@ -17,9 +17,6 @@ gdkevents
 h
 >
 #
-ifdef
-MOZ_X11
-#
 include
 <
 gdk
@@ -28,8 +25,6 @@ gdkx
 .
 h
 >
-#
-endif
 #
 include
 "
@@ -389,9 +384,6 @@ GDK_plus
 }
 ;
 #
-ifdef
-MOZ_X11
-#
 define
 IS_XSUN_XSERVER
 (
@@ -414,8 +406,6 @@ Microsystems
 =
 NULL
 )
-#
-endif
 struct
 nsKeyConverter
 nsSunKeycodes
@@ -550,9 +540,6 @@ GDK_KP_0
 +
 NS_VK_NUMPAD0
 ;
-#
-ifdef
-MOZ_X11
 if
 (
 IS_XSUN_XSERVER
@@ -615,8 +602,6 @@ vkCode
 ;
 }
 }
-#
-endif
 length
 =
 sizeof

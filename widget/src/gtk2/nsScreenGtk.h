@@ -28,9 +28,6 @@ gdk
 h
 "
 #
-ifdef
-MOZ_X11
-#
 include
 <
 X11
@@ -60,8 +57,6 @@ height
 }
 XineramaScreenInfo
 ;
-#
-endif
 class
 nsScreenGtk
 :
@@ -89,9 +84,6 @@ GdkWindow
 aRootWindow
 )
 ;
-#
-ifdef
-MOZ_X11
 void
 Init
 (
@@ -100,8 +92,6 @@ XineramaScreenInfo
 aScreenInfo
 )
 ;
-#
-endif
 private
 :
 PRUint32

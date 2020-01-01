@@ -1020,13 +1020,10 @@ endif
 endif
 ifdef
 MOZ_ENABLE_GTK2
-ifdef
-MOZ_X11
 STATIC_LIBS
 +
 =
 gtkxtbin
-endif
 endif
 ifdef
 MOZ_IPCD
