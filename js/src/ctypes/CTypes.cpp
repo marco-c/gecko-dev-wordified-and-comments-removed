@@ -3771,6 +3771,7 @@ result
 )
 ;
 }
+static
 JSErrorFormatString
 ErrorFormatString
 [
@@ -3808,6 +3809,7 @@ undef
 MSG_DEF
 }
 ;
+static
 const
 JSErrorFormatString
 *
@@ -3847,6 +3849,7 @@ return
 NULL
 ;
 }
+static
 JSBool
 TypeError
 (
@@ -4727,6 +4730,7 @@ return
 true
 ;
 }
+static
 JSObject
 *
 InitInt64Class
@@ -4945,6 +4949,7 @@ i
 )
 ;
 }
+static
 JSBool
 InitTypeClasses
 (
@@ -5579,6 +5584,7 @@ result
 )
 ;
 }
+static
 bool
 GetObjectProperty
 (
@@ -9146,6 +9152,7 @@ return
 max
 ;
 }
+static
 JSBool
 ConvertToJS
 (
@@ -9954,6 +9961,7 @@ elementTypeCode
 baseTypeCode
 ;
 }
+static
 JSBool
 ImplicitConvert
 (
@@ -12148,6 +12156,7 @@ return
 true
 ;
 }
+static
 JSBool
 ExplicitConvert
 (
