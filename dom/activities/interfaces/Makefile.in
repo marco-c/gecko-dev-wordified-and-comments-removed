@@ -111,6 +111,10 @@ nsIActivityProxy
 .
 idl
 \
+nsIActivityUIGlue
+.
+idl
+\
 (
 NULL
 )
