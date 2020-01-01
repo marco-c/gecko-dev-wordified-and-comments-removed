@@ -375,7 +375,7 @@ GetNativeContext
 )
 ;
 virtual
-void
+JSObject
 *
 GetNativeGlobal
 (
@@ -718,7 +718,7 @@ ConvertSupportsTojsvals
 nsISupports
 *
 aArgs
-void
+JSObject
 *
 aScope
 PRUint32

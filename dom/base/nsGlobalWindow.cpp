@@ -8616,10 +8616,6 @@ DidInitializeContext
 ;
 mJSObject
 =
-(
-JSObject
-*
-)
 mContext
 -
 >

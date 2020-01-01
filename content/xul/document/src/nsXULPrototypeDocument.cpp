@@ -2604,9 +2604,9 @@ SetContext
 "
 )
 ;
-void
+JSObject
 *
-script_glob
+global
 =
 NULL
 ;
@@ -2630,7 +2630,7 @@ DidInitializeContext
 (
 )
 ;
-script_glob
+global
 =
 aScriptContext
 -
@@ -2641,7 +2641,7 @@ GetNativeGlobal
 ;
 NS_ASSERTION
 (
-script_glob
+global
 "
 GetNativeGlobal
 returned
@@ -2657,14 +2657,7 @@ aScriptContext
 ;
 mJSObject
 =
-static_cast
-<
-JSObject
-*
->
-(
-script_glob
-)
+global
 ;
 return
 NS_OK
