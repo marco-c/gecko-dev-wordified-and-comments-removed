@@ -45,7 +45,7 @@ app
 .
 update
 .
-stage
+staging
 .
 enabled
 "
