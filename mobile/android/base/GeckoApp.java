@@ -2098,9 +2098,9 @@ byte
 ]
 raw
 =
-Base64
+GeckoAppShell
 .
-decode
+decodeBase64
 (
 item
 .
@@ -2110,9 +2110,6 @@ substring
 (
 22
 )
-Base64
-.
-DEFAULT
 )
 ;
 Bitmap
