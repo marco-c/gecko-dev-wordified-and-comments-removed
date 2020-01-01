@@ -4772,6 +4772,9 @@ NS_ERROR_NOT_AVAILABLE
 NS_OK
 ;
 }
+nsresult
+rv
+;
 if
 (
 !
@@ -4781,9 +4784,6 @@ mInlineSpellChecker
 autoCreate
 )
 {
-nsresult
-rv
-;
 mInlineSpellChecker
 =
 do_CreateInstance
@@ -4799,6 +4799,12 @@ rv
 rv
 )
 ;
+}
+if
+(
+mInlineSpellChecker
+)
+{
 rv
 =
 mInlineSpellChecker
