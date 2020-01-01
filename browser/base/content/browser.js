@@ -35886,7 +35886,6 @@ CrashSubmit
 submit
 (
 pluginDumpID
-gBrowser
 null
 null
 )
@@ -35902,7 +35901,6 @@ CrashSubmit
 submit
 (
 browserDumpID
-gBrowser
 null
 null
 )
