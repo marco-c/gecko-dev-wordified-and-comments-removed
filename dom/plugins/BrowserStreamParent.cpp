@@ -145,11 +145,9 @@ size
 >
 PR_INT32_MAX
 )
-{
 return
 false
 ;
-}
 nsAutoArrayPtr
 <
 NPByteRange
