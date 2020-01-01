@@ -3951,6 +3951,9 @@ backgroundNice
 10
 )
 ;
+#
+ifndef
+DEBUG
 pref
 (
 "
@@ -3979,6 +3982,8 @@ delayMs
 1000
 )
 ;
+#
+endif
 pref
 (
 "
