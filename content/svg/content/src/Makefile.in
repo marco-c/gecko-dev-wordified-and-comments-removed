@@ -185,10 +185,6 @@ nsSVGBoolean
 .
 cpp
 \
-nsSVGCircleElement
-.
-cpp
-\
 nsSVGClass
 .
 cpp
@@ -465,6 +461,10 @@ SVGAttrValueWrapper
 .
 cpp
 \
+SVGCircleElement
+.
+cpp
+\
 SVGContentUtils
 .
 cpp
@@ -647,6 +647,10 @@ SVGAnimatedAngle
 h
 \
 SVGAnimatedBoolean
+.
+h
+\
+SVGCircleElement
 .
 h
 \
