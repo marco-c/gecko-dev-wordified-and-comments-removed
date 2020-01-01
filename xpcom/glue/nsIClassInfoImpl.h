@@ -191,6 +191,11 @@ _class
 _getlanguagehelper
 \
 _flags
+|
+nsIClassInfo
+:
+:
+SINGLETON_CLASSINFO
 \
 _cid
 \

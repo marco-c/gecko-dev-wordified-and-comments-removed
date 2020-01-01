@@ -607,6 +607,15 @@ PLUGIN_OBJECT
 <
 4
 ;
+const
+PRUint32
+SINGLETON_CLASSINFO
+=
+1
+<
+<
+5
+;
 /
 *
 *
