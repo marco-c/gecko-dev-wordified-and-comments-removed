@@ -11,7 +11,7 @@ h
 "
 #
 ifdef
-OS_LINUX
+MOZ_WIDGET_GTK2
 #
 include
 <
@@ -629,7 +629,7 @@ true
 if
 defined
 (
-OS_LINUX
+MOZ_WIDGET_GTK2
 )
 typedef
 void
@@ -798,7 +798,7 @@ InitGraphics
 if
 defined
 (
-OS_LINUX
+MOZ_WIDGET_GTK2
 )
 gtk_init
 (
@@ -874,6 +874,12 @@ embedded
 =
 wrap_gtk_plug_embedded
 ;
+#
+elif
+defined
+(
+MOZ_WIDGET_QT
+)
 #
 else
 #
