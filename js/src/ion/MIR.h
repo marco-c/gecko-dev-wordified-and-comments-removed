@@ -18675,6 +18675,14 @@ setResultType
 MIRType_Object
 )
 ;
+setResultTypeSet
+(
+MakeSingletonTypeSet
+(
+templateObj
+)
+)
+;
 }
 public
 :
