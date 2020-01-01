@@ -542,8 +542,8 @@ src
 preqs
 )
 (
-INSTALL
-)
+call
+install_cmd
 (
 IFLAGS1
 )
@@ -556,6 +556,7 @@ call
 mkdir_stem
 (
 val
+)
 )
 )
 )
@@ -614,8 +615,8 @@ headers
 preqs
 )
 (
-INSTALL
-)
+call
+install_cmd
 (
 IFLAGS1
 )
@@ -628,6 +629,7 @@ call
 mkdir_stem
 (
 val
+)
 )
 )
 )

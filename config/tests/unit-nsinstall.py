@@ -1286,15 +1286,6 @@ testfile
     
 if
 RUN_NON_ASCII_TESTS
-and
-sys
-.
-platform
-!
-=
-"
-win32
-"
 :
         
 def
@@ -1413,10 +1404,6 @@ isfile
 destfile
 )
 )
-    
-if
-RUN_NON_ASCII_TESTS
-:
         
 def
 test_nsinstall_non_ascii_subprocess
