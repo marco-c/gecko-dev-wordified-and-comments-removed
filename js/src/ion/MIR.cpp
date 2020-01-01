@@ -12957,6 +12957,8 @@ MDefinition
 *
 *
 pvalue
+bool
+canModify
 )
 {
 types
@@ -13168,6 +13170,14 @@ resultTypeSet
 )
 )
 {
+if
+(
+!
+canModify
+)
+return
+true
+;
 success
 =
 TryAddTypeBarrierForWrite
