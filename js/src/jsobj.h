@@ -1444,7 +1444,7 @@ value
 {
 JS_ASSERT
 (
-uninlinedIsNative
+isNative
 (
 )
 )
@@ -1453,7 +1453,7 @@ JS_ASSERT
 (
 slot
 <
-uninlinedSlotSpan
+slotSpan
 (
 )
 )
@@ -2284,7 +2284,7 @@ getDenseCapacity
 {
 JS_ASSERT
 (
-uninlinedIsNative
+isNative
 (
 )
 )
@@ -2325,7 +2325,7 @@ length
 {
 JS_ASSERT
 (
-uninlinedIsNative
+isNative
 (
 )
 )
@@ -2393,7 +2393,7 @@ val
 {
 JS_ASSERT
 (
-uninlinedIsNative
+isNative
 (
 )
 &
@@ -2441,7 +2441,7 @@ val
 {
 JS_ASSERT
 (
-uninlinedIsNative
+isNative
 (
 )
 &
@@ -2745,7 +2745,7 @@ shouldConvertDoubleElements
 {
 JS_ASSERT
 (
-uninlinedIsNative
+isNative
 (
 )
 )

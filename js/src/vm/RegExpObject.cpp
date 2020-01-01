@@ -4,8 +4,6 @@ include
 vm
 /
 RegExpObject
--
-inl
 .
 h
 "

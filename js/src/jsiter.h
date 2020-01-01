@@ -454,7 +454,6 @@ getPrivate
 )
 ;
 }
-inline
 void
 setNativeIterator
 (
@@ -465,7 +464,13 @@ NativeIterator
 *
 ni
 )
+{
+setPrivate
+(
+ni
+)
 ;
+}
 size_t
 sizeOfMisc
 (
