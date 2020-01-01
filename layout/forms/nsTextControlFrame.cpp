@@ -5720,6 +5720,8 @@ nsTextControlFrame
 :
 FireOnInput
 (
+PRBool
+aTrusted
 )
 {
 if
@@ -5737,7 +5739,7 @@ nsEventStatus_eIgnore
 nsUIEvent
 event
 (
-PR_TRUE
+aTrusted
 NS_FORM_INPUT
 0
 )

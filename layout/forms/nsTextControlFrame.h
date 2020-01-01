@@ -524,6 +524,8 @@ public
 void
 FireOnInput
 (
+PRBool
+aTrusted
 )
 ;
 void
