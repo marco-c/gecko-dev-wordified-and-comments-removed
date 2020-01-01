@@ -16059,7 +16059,7 @@ of
 ins
 -
 >
-oprnd2
+oprnd1
 (
 )
 lim
