@@ -4359,11 +4359,15 @@ FrameRegs
 regs
 )
 {
+AutoAssertNoGC
+nogc
+;
 for
 (
 TryNoteIter
 tni
 (
+cx
 regs
 )
 ;
@@ -4434,6 +4438,9 @@ TryNoteIter
 :
 TryNoteIter
 (
+JSContext
+*
+cx
 const
 FrameRegs
 &
@@ -4446,6 +4453,7 @@ regs
 )
 script
 (
+cx
 regs
 .
 fp
@@ -4454,10 +4462,6 @@ fp
 -
 >
 script
-(
-)
-.
-unsafeGet
 (
 )
 )
@@ -19692,6 +19696,7 @@ for
 TryNoteIter
 tni
 (
+cx
 regs
 )
 ;

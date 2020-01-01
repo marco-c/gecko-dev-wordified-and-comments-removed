@@ -656,8 +656,7 @@ FrameRegs
 &
 regs
 ;
-JSScript
-*
+RootedScript
 script
 ;
 uint32_t
@@ -676,8 +675,12 @@ settle
 ;
 public
 :
+explicit
 TryNoteIter
 (
+JSContext
+*
+cx
 const
 FrameRegs
 &
