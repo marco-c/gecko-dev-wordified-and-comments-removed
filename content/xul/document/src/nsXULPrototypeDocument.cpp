@@ -2909,6 +2909,7 @@ languageRuntime
 >
 CreateContext
 (
+nullptr
 )
 ;
 MOZ_ASSERT

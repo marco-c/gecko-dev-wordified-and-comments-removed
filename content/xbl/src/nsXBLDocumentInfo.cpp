@@ -1046,6 +1046,7 @@ scriptRuntime
 >
 CreateContext
 (
+nullptr
 )
 ;
 MOZ_ASSERT

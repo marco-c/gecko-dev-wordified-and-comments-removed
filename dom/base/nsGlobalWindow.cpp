@@ -6541,6 +6541,7 @@ scriptRuntime
 >
 CreateContext
 (
+this
 )
 ;
 NS_ASSERTION
@@ -6560,14 +6561,6 @@ context
 >
 WillInitializeContext
 (
-)
-;
-context
--
->
-SetGlobalObject
-(
-this
 )
 ;
 rv
