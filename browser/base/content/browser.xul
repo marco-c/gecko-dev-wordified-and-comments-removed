@@ -10026,6 +10026,11 @@ observes
 "
 socialSidebarBroadcaster
 "
+persist
+=
+"
+width
+"
 >
 <
 browser
