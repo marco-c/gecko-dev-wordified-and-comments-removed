@@ -129,6 +129,11 @@ DocumentUtils
 jsm
 '
 '
+SessionCookies
+.
+jsm
+'
+'
 SessionMigration
 .
 jsm
