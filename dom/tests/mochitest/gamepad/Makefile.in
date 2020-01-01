@@ -97,10 +97,6 @@ mk
 MOCHITEST_FILES
 =
 \
-test_gamepad_basic
-.
-html
-\
 test_gamepad
 .
 html

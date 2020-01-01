@@ -1249,3 +1249,15 @@ threshold
 200000
 )
 ;
+user_pref
+(
+"
+dom
+.
+gamepad
+.
+enabled
+"
+true
+)
+;

@@ -92,6 +92,15 @@ MPL
 *
 /
 [
+Pref
+=
+"
+dom
+.
+gamepad
+.
+enabled
+"
 Constructor
 (
 DOMString

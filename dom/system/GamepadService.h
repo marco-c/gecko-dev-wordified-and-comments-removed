@@ -252,6 +252,9 @@ aConnected
 )
 ;
 bool
+mEnabled
+;
+bool
 mStarted
 ;
 bool
