@@ -6,6 +6,15 @@ define
 TokenStream_h__
 #
 include
+"
+mozilla
+/
+DebugOnly
+.
+h
+"
+#
+include
 <
 stddef
 .

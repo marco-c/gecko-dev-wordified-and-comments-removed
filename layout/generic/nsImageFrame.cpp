@@ -3,7 +3,7 @@ include
 "
 mozilla
 /
-Util
+DebugOnly
 .
 h
 "
@@ -403,15 +403,6 @@ include
 mozilla
 /
 Preferences
-.
-h
-"
-#
-include
-"
-mozilla
-/
-Util
 .
 h
 "

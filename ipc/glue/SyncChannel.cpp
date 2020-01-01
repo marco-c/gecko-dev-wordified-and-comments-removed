@@ -3,9 +3,7 @@ include
 "
 mozilla
 /
-ipc
-/
-SyncChannel
+DebugOnly
 .
 h
 "
@@ -14,7 +12,9 @@ include
 "
 mozilla
 /
-Util
+ipc
+/
+SyncChannel
 .
 h
 "

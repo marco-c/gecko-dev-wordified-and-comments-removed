@@ -7,6 +7,15 @@ GFX_LAYERS_H
 #
 include
 "
+mozilla
+/
+DebugOnly
+.
+h
+"
+#
+include
+"
 gfxTypes
 .
 h

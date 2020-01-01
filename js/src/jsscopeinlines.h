@@ -7,6 +7,15 @@ jsscopeinlines_h___
 #
 include
 "
+mozilla
+/
+DebugOnly
+.
+h
+"
+#
+include
+"
 jsarray
 .
 h

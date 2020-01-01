@@ -3,7 +3,7 @@ include
 "
 mozilla
 /
-Util
+Attributes
 .
 h
 "
@@ -12,7 +12,16 @@ include
 "
 mozilla
 /
-Attributes
+DebugOnly
+.
+h
+"
+#
+include
+"
+mozilla
+/
+Util
 .
 h
 "

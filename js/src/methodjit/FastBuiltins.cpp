@@ -1,6 +1,15 @@
 #
 include
 "
+mozilla
+/
+DebugOnly
+.
+h
+"
+#
+include
+"
 jsbool
 .
 h

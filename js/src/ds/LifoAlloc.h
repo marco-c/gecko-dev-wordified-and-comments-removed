@@ -16,6 +16,15 @@ h
 #
 include
 "
+mozilla
+/
+DebugOnly
+.
+h
+"
+#
+include
+"
 jsutil
 .
 h
