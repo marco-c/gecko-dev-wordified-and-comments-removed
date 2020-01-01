@@ -189,7 +189,7 @@ Metadata
 }
 ;
 class
-WebVTTLoadListener
+WebVTTListener
 ;
 class
 HTMLTrackElement
@@ -645,7 +645,7 @@ TextTrackCue
 ;
 friend
 class
-WebVTTLoadListener
+WebVTTListener
 ;
 nsRefPtr
 <
@@ -667,9 +667,9 @@ mMediaParent
 ;
 nsRefPtr
 <
-WebVTTLoadListener
+WebVTTListener
 >
-mLoadListener
+mListener
 ;
 uint16_t
 mReadyState
