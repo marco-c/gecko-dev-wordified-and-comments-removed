@@ -2260,6 +2260,11 @@ InitStyleLinkElement
 PR_FALSE
 )
 ;
+if
+(
+aFromParser
+)
+{
 ssle
 -
 >
@@ -2268,6 +2273,7 @@ SetEnableUpdates
 PR_FALSE
 )
 ;
+}
 if
 (
 !
@@ -2289,7 +2295,11 @@ ssle
 >
 SetLineNumber
 (
+aFromParser
+?
 aLineNumber
+:
+0
 )
 ;
 }
