@@ -11,6 +11,15 @@ ImageWrapper
 .
 h
 "
+#
+include
+"
+mozilla
+/
+Util
+.
+h
+"
 namespace
 mozilla
 {

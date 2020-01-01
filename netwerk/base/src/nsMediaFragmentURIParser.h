@@ -11,6 +11,15 @@ nsMediaFragmentURIParser_h__
 #
 include
 "
+mozilla
+/
+Util
+.
+h
+"
+#
+include
+"
 nsIURI
 .
 h

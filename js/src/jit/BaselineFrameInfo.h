@@ -10,6 +10,15 @@ JS_ION
 #
 include
 "
+mozilla
+/
+Alignment
+.
+h
+"
+#
+include
+"
 jit
 /
 BaselineFrame

@@ -97,6 +97,10 @@ EXPORTS_mozilla
 +
 =
 \
+Alignment
+.
+h
+\
 AllocPolicy
 .
 h
