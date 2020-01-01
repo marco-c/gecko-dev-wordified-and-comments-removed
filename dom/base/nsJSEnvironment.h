@@ -393,7 +393,7 @@ aIsChrome
 nsIPrincipal
 *
 aPrincipal
-void
+JSObject
 *
 *
 aNativeGlobal
