@@ -933,9 +933,6 @@ frame
 JSFrameRegs
 regs
 ;
-RegExpStatics
-statics
-;
 AutoStringRooter
 input
 ;
