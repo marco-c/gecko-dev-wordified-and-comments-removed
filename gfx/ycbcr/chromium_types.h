@@ -7,13 +7,6 @@ GFX_CHROMIUMTYPES_H
 #
 include
 "
-prtypes
-.
-h
-"
-#
-include
-"
 mozilla
 /
 StandardInteger
@@ -31,6 +24,10 @@ int8
 typedef
 int16_t
 int16
+;
+typedef
+uint32_t
+uint32
 ;
 #
 if
