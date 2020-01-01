@@ -3123,10 +3123,6 @@ JS_DECLARE_CALLINFO
 (
 NewDenseUnallocatedArray
 )
-JS_DECLARE_CALLINFO
-(
-NewDenseAllocatedEmptyArray
-)
 }
 JS_DECLARE_CALLINFO
 (

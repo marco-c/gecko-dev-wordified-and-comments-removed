@@ -827,16 +827,6 @@ ValueRemat
 rhs
 )
 {
-JS_ASSERT
-(
-!
-rhs
-.
-isFPRegister
-(
-)
-)
-;
 int
 offset
 =

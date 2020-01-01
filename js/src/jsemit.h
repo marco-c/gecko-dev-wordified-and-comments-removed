@@ -1077,6 +1077,10 @@ prs
 -
 >
 context
+prs
+-
+>
+emptyCallShape
 )
 sharpSlotBase
 (
@@ -2235,10 +2239,7 @@ js
 OwnedAtomIndexMapPtr
 upvarIndices
 ;
-js
-:
-:
-UpvarCookies
+JSUpvarArray
 upvarMap
 ;
 typedef
@@ -2286,9 +2287,6 @@ closedVars
 ;
 uint16
 traceIndex
-;
-uint16
-typesetIndex
 ;
 JSCodeGenerator
 (

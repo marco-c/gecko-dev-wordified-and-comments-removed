@@ -38480,12 +38480,6 @@ function
 (
 )
 {
-if
-(
-this
-.
-_updateFeedTimeout
-)
 clearTimeout
 (
 this

@@ -687,9 +687,9 @@ JaegerTrampolineReturn
 :
 or
 %
-rsi
+rdx
 %
-rdi
+rcx
 movq
 %
 rcx

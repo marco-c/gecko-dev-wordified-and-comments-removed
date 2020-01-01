@@ -16,6 +16,10 @@ code
 obj
 )
 {
+assertJit
+(
+)
+;
 eval
 (
 code
@@ -28,7 +32,7 @@ x
 trap
 (
 caller
-16
+7
 "
 var
 x

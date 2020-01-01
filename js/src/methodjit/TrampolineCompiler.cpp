@@ -421,20 +421,6 @@ Assembler
 masm
 )
 {
-masm
-.
-loadPtr
-(
-FrameAddress
-(
-VMFrame
-:
-:
-offsetOfFp
-)
-JSFrameReg
-)
-;
 Jump
 noActObjs
 =
@@ -467,7 +453,6 @@ masm
 .
 fallibleVMCall
 (
-true
 JS_FUNC_TO_DATA_PTR
 (
 void
@@ -477,7 +462,6 @@ stubs
 :
 PutActivationObjects
 )
-NULL
 NULL
 0
 )

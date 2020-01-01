@@ -8,6 +8,10 @@ callee
 (
 )
 {
+assertJit
+(
+)
+;
 evalInFrame
 (
 1
@@ -28,6 +32,10 @@ caller
 code
 )
 {
+assertJit
+(
+)
+;
 eval
 (
 code

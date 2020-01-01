@@ -4987,7 +4987,7 @@ protoJSObject
 globalJSObj
 )
 ;
-JS_SplicePrototype
+JS_SetPrototype
 (
 aJSContext
 protoJSObject

@@ -155,13 +155,6 @@ h
 #
 include
 "
-jsinferinlines
-.
-h
-"
-#
-include
-"
 jsobjinlines
 .
 h
@@ -187,13 +180,6 @@ js
 :
 :
 gc
-;
-using
-namespace
-js
-:
-:
-types
 ;
 static
 JSBool

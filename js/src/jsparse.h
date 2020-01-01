@@ -3152,6 +3152,13 @@ tc
 js
 :
 :
+EmptyShape
+*
+emptyCallShape
+;
+js
+:
+:
 AutoKeepAtoms
 keepAtoms
 ;
