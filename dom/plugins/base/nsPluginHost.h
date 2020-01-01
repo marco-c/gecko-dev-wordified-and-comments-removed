@@ -684,6 +684,16 @@ aPluginTag
 ;
 static
 bool
+IsTypeWhitelisted
+(
+const
+char
+*
+aType
+)
+;
+static
+bool
 IsJavaMIMEType
 (
 const
