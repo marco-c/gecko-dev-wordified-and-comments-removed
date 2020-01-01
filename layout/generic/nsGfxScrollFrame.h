@@ -1130,16 +1130,11 @@ mCollapsedResizer
 :
 1
 ;
-#
-ifdef
-MOZ_IPC
 PRPackedBool
 mShouldBuildLayer
 :
 1
 ;
-#
-endif
 }
 ;
 class
