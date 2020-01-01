@@ -720,15 +720,8 @@ a
 document
 .
 *
-*
-deprecated
-use
-XMLHttpRequest
-instead
-*
 /
 [
-deprecated
 scriptable
 uuid
 (
