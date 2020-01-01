@@ -49,6 +49,8 @@ KeyPress
 #
 endif
 #
+endif
+#
 ifdef
 MOZ_WIDGET_QT
 #
@@ -744,6 +746,9 @@ h
 "
 #
 endif
+#
+ifdef
+MOZ_X11
 #
 if
 (
