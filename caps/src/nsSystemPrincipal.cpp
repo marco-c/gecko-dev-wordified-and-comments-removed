@@ -85,7 +85,7 @@ h
 NS_IMPL_CLASSINFO
 (
 nsSystemPrincipal
-NULL
+nullptr
 nsIClassInfo
 :
 :

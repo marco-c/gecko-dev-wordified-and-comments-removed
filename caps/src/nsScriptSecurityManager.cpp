@@ -9718,13 +9718,13 @@ sRuntime
 JS_SetSecurityCallbacks
 (
 sRuntime
-NULL
+nullptr
 )
 ;
 JS_SetTrustedPrincipals
 (
 sRuntime
-NULL
+nullptr
 )
 ;
 sRuntime

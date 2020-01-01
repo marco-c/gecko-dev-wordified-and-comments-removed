@@ -502,7 +502,7 @@ pp
 >
 key
 =
-NULL
+nullptr
 ;
 }
 #

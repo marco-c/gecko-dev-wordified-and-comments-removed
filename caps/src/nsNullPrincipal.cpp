@@ -91,7 +91,7 @@ mozilla
 NS_IMPL_CLASSINFO
 (
 nsNullPrincipal
-NULL
+nullptr
 nsIClassInfo
 :
 :
