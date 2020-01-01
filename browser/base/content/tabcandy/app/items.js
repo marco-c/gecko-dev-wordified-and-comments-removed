@@ -534,7 +534,7 @@ function
 var
 buffer
 =
-10
+2
 ;
 var
 items
