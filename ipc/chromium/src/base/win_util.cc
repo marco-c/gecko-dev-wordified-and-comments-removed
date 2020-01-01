@@ -2414,8 +2414,8 @@ VS2005SP1Detect
 #
 endif
 #
-ifndef
-COPY_FILE_COPY_SYMLINK
+if
+0
 #
 error
 You
