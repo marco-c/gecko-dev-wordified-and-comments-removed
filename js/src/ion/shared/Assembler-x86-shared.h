@@ -2842,6 +2842,11 @@ offset
 }
 else
 {
+JmpSrc
+prev
+=
+JmpSrc
+(
 label
 -
 >
@@ -2852,6 +2857,15 @@ j
 offset
 (
 )
+)
+)
+;
+masm
+.
+setNextJump
+(
+j
+prev
 )
 ;
 }
