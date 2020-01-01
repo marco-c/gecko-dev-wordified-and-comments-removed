@@ -13527,6 +13527,8 @@ defs
 -
 z
 ignore
+-
+Bdirect
 '
 else
 DSO_CFLAGS
@@ -13552,6 +13554,8 @@ defs
 -
 z
 ignore
+-
+Bdirect
 '
 fi
 if

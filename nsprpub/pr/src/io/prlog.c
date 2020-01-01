@@ -184,10 +184,6 @@ define
 strcasecmp
 stricmp
 #
-define
-strncasecmp
-strnicmp
-#
 endif
 #
 if

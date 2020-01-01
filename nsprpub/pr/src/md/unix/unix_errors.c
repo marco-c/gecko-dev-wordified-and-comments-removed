@@ -475,6 +475,15 @@ break
 #
 endif
 case
+ENOSYS
+:
+prError
+=
+PR_NOT_IMPLEMENTED_ERROR
+;
+break
+;
+case
 ENOTCONN
 :
 prError

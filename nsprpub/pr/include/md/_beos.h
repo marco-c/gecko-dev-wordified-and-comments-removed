@@ -87,6 +87,9 @@ BONE_VERSION
 define
 _PR_HAVE_SOCKADDR_LEN
 #
+define
+HAVE_NETINET_TCP_H
+#
 endif
 #
 define
