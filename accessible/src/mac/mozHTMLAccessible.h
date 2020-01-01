@@ -10,3 +10,8 @@ mozHeadingAccessible
 :
 mozAccessible
 end
+interface
+mozLinkAccessible
+:
+mozAccessible
+end
