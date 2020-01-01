@@ -146,10 +146,7 @@ page
 descriptor
 *
 *
-return
-NS_OK
--
-*
+throws
 NS_ERROR_FAILURE
 -
 *

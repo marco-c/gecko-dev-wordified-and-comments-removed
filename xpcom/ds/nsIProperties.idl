@@ -142,7 +142,7 @@ name
 .
 *
 *
-return
+throws
 NS_ERROR_FAILURE
 if
 a
@@ -156,7 +156,7 @@ t
 exist
 .
 *
-return
+throws
 NS_ERROR_NO_INTERFACE
 if
 the
@@ -257,7 +257,7 @@ a
 property
 .
 *
-return
+throws
 NS_ERROR_FAILURE
 if
 a

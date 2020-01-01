@@ -224,11 +224,6 @@ different
 selection
 types
 .
-return
-NS_OK
-if
-successful
-.
 *
 /
 void
@@ -291,11 +286,6 @@ ALL
 )
 bit
 flags
-.
-return
-NS_OK
-if
-successful
 .
 *
 /

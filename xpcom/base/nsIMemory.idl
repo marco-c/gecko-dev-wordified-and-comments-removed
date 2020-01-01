@@ -758,7 +758,7 @@ is
 idle
 .
 *
-return
+throws
 NS_ERROR_FAILURE
 if
 '

@@ -354,13 +354,7 @@ aClass
 .
 *
 *
-return
-NS_OK
-Unregistration
-was
-successful
-.
-*
+throws
 NS_ERROR
 *
 Method

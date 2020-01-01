@@ -293,15 +293,7 @@ is
 accessible
 .
 *
-return
-NS_OK
--
-interface
-was
-successfully
-returned
-.
-*
+throws
 NS_NOINTERFACE
 -
 interface
@@ -309,6 +301,7 @@ not
 accessible
 .
 *
+throws
 NS_ERROR
 *
 -
