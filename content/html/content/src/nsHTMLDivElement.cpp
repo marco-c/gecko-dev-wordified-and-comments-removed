@@ -302,9 +302,6 @@ aResult
 ParseColor
 (
 aValue
-GetOwnerDoc
-(
-)
 )
 ;
 }

@@ -751,9 +751,6 @@ const
 nsAString
 &
 aString
-nsIDocument
-*
-aDocument
 )
 ;
 PRBool
