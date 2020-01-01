@@ -6482,13 +6482,11 @@ document
 getElementById
 (
 '
-appmenu_preferences
+appmenu_toggleTabsOnTop
 '
 )
 .
-nextSibling
-.
-nextSibling
+previousSibling
 )
 ;
 "
