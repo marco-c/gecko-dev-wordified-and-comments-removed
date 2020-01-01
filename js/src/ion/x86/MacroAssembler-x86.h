@@ -4990,13 +4990,10 @@ notInt32
 ;
 cvtsi2sd
 (
-Operand
-(
 src
 .
 payloadReg
 (
-)
 )
 dest
 .
