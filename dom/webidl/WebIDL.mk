@@ -695,6 +695,10 @@ Notification
 .
 webidl
 \
+NotifyPaintEvent
+.
+webidl
+\
 PaintRequest
 .
 webidl
