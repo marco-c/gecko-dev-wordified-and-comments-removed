@@ -49,7 +49,7 @@ nsIDOMTelephony
 {
 nsCOMPtr
 <
-nsIRadioInterfaceLayer
+nsIRILContentHelper
 >
 mRIL
 ;
@@ -113,7 +113,7 @@ Create
 nsPIDOMWindow
 *
 aOwner
-nsIRadioInterfaceLayer
+nsIRILContentHelper
 *
 aRIL
 )
@@ -245,7 +245,7 @@ aCall
 )
 ;
 }
-nsIRadioInterfaceLayer
+nsIRILContentHelper
 *
 RIL
 (
