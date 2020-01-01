@@ -131,6 +131,15 @@ status
 CAIRO_STATUS_LAST_STATUS
 )
 ;
+*
+(
+int
+*
+)
+0
+=
+4
+;
 }
 static
 void
