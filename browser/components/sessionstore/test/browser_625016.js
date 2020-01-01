@@ -58,6 +58,17 @@ interval
 }
 )
 ;
+waitForSaveState
+(
+setup
+)
+;
+}
+function
+setup
+(
+)
+{
 while
 (
 ss
