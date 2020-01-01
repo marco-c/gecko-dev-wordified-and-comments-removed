@@ -98,6 +98,10 @@ contacts
 \
 dom
 /
+alarm
+\
+dom
+/
 src
 /
 events
