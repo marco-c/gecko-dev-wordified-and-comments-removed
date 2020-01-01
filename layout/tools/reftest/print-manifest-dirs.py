@@ -39,6 +39,8 @@ random
 skip
 |
 asserts
+|
+fuzzy
 )
 "
 )
