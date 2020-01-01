@@ -152,12 +152,14 @@ you
 re
 feeling
 lucky
-\
 -
-well
-do
+-
+\
+Well
+are
 ya
 ?
+-
 -
 you
 can
