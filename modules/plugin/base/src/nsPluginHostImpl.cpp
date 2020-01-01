@@ -18905,7 +18905,6 @@ ns4xPlugin
 :
 CreatePlugin
 (
-aServiceManager
 fileName
 .
 get
