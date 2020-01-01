@@ -511,6 +511,16 @@ cache
 <
 !
 ENTITY
+smartSizeCache
+.
+accesskey
+"
+L
+"
+>
+<
+!
+ENTITY
 updateTab
 .
 label
