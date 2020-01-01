@@ -131,6 +131,11 @@ Geometry
 jsm
 '
 '
+Http
+.
+jsm
+'
+'
 InlineSpellChecker
 .
 jsm
