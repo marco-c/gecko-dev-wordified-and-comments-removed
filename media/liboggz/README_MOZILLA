@@ -92,16 +92,6 @@ bug
 for
 details
 .
-endian
-.
-patch
-is
-applied
-to
-fix
-bug
-452698
-.
 key_frame_seek
 .
 patch
