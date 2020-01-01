@@ -376,6 +376,11 @@ packageHash
 aApp
 .
 packageHash
+staged
+:
+aApp
+.
+staged
 installerAppId
 :
 aApp

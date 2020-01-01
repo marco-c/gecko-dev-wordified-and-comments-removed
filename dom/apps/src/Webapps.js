@@ -3386,6 +3386,13 @@ case
 downloaded
 "
 :
+if
+(
+msg
+.
+manifest
+)
+{
 this
 .
 _manifest
@@ -3394,6 +3401,7 @@ msg
 .
 manifest
 ;
+}
 this
 .
 _fireEvent
@@ -3413,6 +3421,14 @@ case
 applied
 "
 :
+this
+.
+_manifest
+=
+msg
+.
+manifest
+;
 this
 .
 _fireEvent
