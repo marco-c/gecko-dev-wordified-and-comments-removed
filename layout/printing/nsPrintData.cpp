@@ -219,6 +219,11 @@ mBrandName
 nsnull
 )
 {
+MOZ_COUNT_CTOR
+(
+nsPrintData
+)
+;
 nsCOMPtr
 <
 nsIStringBundle
@@ -325,6 +330,11 @@ nsPrintData
 (
 )
 {
+MOZ_COUNT_DTOR
+(
+nsPrintData
+)
+;
 if
 (
 mPPEventListeners

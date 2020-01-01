@@ -124,6 +124,11 @@ mZoomRatio
 0
 )
 {
+MOZ_COUNT_CTOR
+(
+nsPrintObject
+)
+;
 }
 nsPrintObject
 :
@@ -133,6 +138,11 @@ nsPrintObject
 (
 )
 {
+MOZ_COUNT_DTOR
+(
+nsPrintObject
+)
+;
 for
 (
 PRUint32
