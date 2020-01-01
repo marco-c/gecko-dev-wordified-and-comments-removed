@@ -382,5 +382,12 @@ StructType
 js_InitBinaryDataClasses
 )
 \
+macro
+(
+ArrayTypeObject
+52
+js_InitBinaryDataClasses
+)
+\
 #
 endif
