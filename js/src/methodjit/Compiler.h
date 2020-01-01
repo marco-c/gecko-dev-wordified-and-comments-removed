@@ -1444,9 +1444,6 @@ outerScript
 bool
 isConstructing
 ;
-bool
-isEval
-;
 JSObject
 *
 globalObj
@@ -1854,11 +1851,6 @@ JSScript
 outerScript
 bool
 isConstructing
-bool
-isEval
-JSObject
-*
-globalObj
 const
 Vector
 <
