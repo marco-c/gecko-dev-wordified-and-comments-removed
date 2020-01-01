@@ -145,3 +145,13 @@ script
 bug660612
 .
 js
+script
+decodeURI
+-
+decodes
+-
+FFFE
+-
+FFFF
+.
+js
