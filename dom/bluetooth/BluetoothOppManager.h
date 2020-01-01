@@ -329,6 +329,12 @@ mPacketLeftLength
 nsString
 mConnectedDeviceAddress
 ;
+bool
+mReceiving
+;
+bool
+mPutFinal
+;
 nsCOMPtr
 <
 nsIDOMBlob
