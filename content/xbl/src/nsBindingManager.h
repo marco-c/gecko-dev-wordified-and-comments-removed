@@ -591,6 +591,14 @@ DoProcessAttachedQueue
 ;
 protected
 :
+void
+RemoveInsertionParent
+(
+nsIContent
+*
+aParent
+)
+;
 nsRefPtrHashtable
 <
 nsISupportsHashKey
