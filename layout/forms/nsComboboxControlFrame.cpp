@@ -6122,9 +6122,6 @@ ToolkitHasNativePopup
 (
 )
 {
-#
-ifdef
-XP_MACOSX
 return
 nsContentUtils
 :
@@ -6138,11 +6135,4 @@ use_native_popup_windows
 "
 )
 ;
-#
-else
-return
-PR_FALSE
-;
-#
-endif
 }
