@@ -26422,15 +26422,6 @@ NS_OK
 if
 (
 !
-mDocShell
--
->
-GetIsApp
-(
-)
-&
-&
-!
 mHadOriginalOpener
 &
 &
