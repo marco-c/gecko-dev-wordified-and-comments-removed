@@ -451,15 +451,9 @@ aResult
 nsSize
 size
 =
+GetSize
+(
 aPresContext
--
->
-GetVisibleArea
-(
-)
-.
-Size
-(
 )
 ;
 PRInt32
