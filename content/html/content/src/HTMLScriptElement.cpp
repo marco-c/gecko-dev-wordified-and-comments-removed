@@ -243,11 +243,7 @@ nsIScriptLoaderObserver
 nsIScriptElement
 nsIMutationObserver
 )
-NS_HTML_CONTENT_INTERFACE_TABLE_TO_MAP_SEGUE
-(
-HTMLScriptElement
-nsGenericHTMLElement
-)
+NS_INTERFACE_TABLE_TO_MAP_SEGUE
 NS_HTML_CONTENT_INTERFACE_MAP_END
 nsresult
 HTMLScriptElement
