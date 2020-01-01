@@ -678,8 +678,7 @@ effects
 h2
 >
 <
-br
-/
+div
 >
 A
 fraction
@@ -763,6 +762,11 @@ throbber
 anim
 .
 gif
+"
+alt
+=
+"
+throbber
 "
 /
 >
@@ -1599,6 +1603,10 @@ math
 <
 /
 button
+>
+<
+/
+div
 >
 <
 /

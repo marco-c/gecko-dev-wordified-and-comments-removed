@@ -531,6 +531,9 @@ head
 <
 body
 >
+<
+div
+>
 Testing
 stretchy
 symbols
@@ -2979,6 +2982,10 @@ mrow
 <
 /
 math
+>
+<
+/
+div
 >
 <
 /
