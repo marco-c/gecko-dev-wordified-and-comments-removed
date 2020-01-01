@@ -782,6 +782,10 @@ mDocument
 (
 aDocument
 )
+mMinFontSize
+(
+0
+)
 mTextZoom
 (
 1
@@ -806,10 +810,6 @@ mPPScale
 1
 .
 0f
-)
-mMinFontSize
-(
-0
 )
 mViewportStyleOverflow
 (
