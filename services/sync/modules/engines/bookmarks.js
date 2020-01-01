@@ -3153,6 +3153,12 @@ PlacesItem
 ;
 record
 .
+id
+=
+guid
+;
+record
+.
 cleartext
 =
 null
