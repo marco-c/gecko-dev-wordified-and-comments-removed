@@ -67,7 +67,7 @@ return
 context
 -
 >
-hasExtraWarningsOption
+hasStrictOption
 (
 )
 |
