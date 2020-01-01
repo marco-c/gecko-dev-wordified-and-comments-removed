@@ -53,18 +53,6 @@ tm_get_thread
 void
 )
 ;
-#
-if
-defined
-(
-XP_WIN32
-)
-|
-|
-defined
-(
-XP_MACOSX
-)
 PR_EXTERN
 (
 void
@@ -148,8 +136,6 @@ tm_thread
 t
 )
 ;
-#
-endif
 #
 ifdef
 XP_WIN32
