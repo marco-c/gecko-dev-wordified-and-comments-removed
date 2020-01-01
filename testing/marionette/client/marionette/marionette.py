@@ -3167,7 +3167,11 @@ None
 symbols_path
 =
 None
+                 
 timeout
+=
+None
+device_serial
 =
 None
 )
@@ -3273,6 +3277,12 @@ self
 timeout
 =
 timeout
+        
+self
+.
+device_serial
+=
+device_serial
         
 if
 bin
