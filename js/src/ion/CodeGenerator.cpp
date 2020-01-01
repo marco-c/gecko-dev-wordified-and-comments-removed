@@ -20779,7 +20779,7 @@ Assembler
 :
 :
 Above
-temp1
+temp2
 Imm32
 (
 JSString
