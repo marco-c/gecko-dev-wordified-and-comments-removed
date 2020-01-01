@@ -121,6 +121,7 @@ toString
 runTest
 (
 true
+window
 )
 ;
 win

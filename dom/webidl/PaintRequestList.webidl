@@ -91,6 +91,16 @@ MPL
 .
 *
 /
+[
+Func
+=
+"
+nsDOMNotifyPaintEvent
+:
+:
+Enabled
+"
+]
 interface
 PaintRequestList
 {
