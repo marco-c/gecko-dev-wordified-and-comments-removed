@@ -635,6 +635,10 @@ file_bug655682
 .
 sjs
 \
+test_viewsource
+.
+html
+\
 (
 NULL
 )
