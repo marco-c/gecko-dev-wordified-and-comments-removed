@@ -4858,10 +4858,10 @@ sendParcel
 )
 ;
 }
-getICCContacts
+readICCContacts
 :
 function
-getICCContacts
+readICCContacts
 (
 options
 )
@@ -46733,7 +46733,7 @@ contactType
 {
 case
 "
-ADN
+adn
 "
 :
 switch
@@ -46773,7 +46773,7 @@ break
 ;
 case
 "
-FDN
+fdn
 "
 :
 ICCRecordHelper
@@ -46807,7 +46807,7 @@ contactType
 {
 case
 "
-ADN
+adn
 "
 :
 switch
@@ -46884,7 +46884,7 @@ break
 ;
 case
 "
-FDN
+fdn
 "
 :
 ICCRecordHelper
@@ -46993,7 +46993,7 @@ contactType
 {
 case
 "
-ADN
+adn
 "
 :
 switch
@@ -47036,7 +47036,7 @@ break
 ;
 case
 "
-FDN
+fdn
 "
 :
 ICCRecordHelper
