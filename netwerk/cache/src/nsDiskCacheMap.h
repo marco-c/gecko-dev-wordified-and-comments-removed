@@ -103,7 +103,7 @@ kMinRecordCount
 #
 define
 kMaxRecordCount
-8192
+16384
 #
 define
 kSeparateFile
