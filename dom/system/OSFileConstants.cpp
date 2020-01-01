@@ -762,7 +762,12 @@ define
 PROP_END
 {
 NULL
-JSVAL_VOID
+JS
+:
+:
+UndefinedValue
+(
+)
 }
 #
 if
@@ -822,6 +827,7 @@ S_IRWXU
 #
 endif
 static
+const
 dom
 :
 :
@@ -1732,6 +1738,7 @@ defined
 XP_WIN
 )
 static
+const
 dom
 :
 :
