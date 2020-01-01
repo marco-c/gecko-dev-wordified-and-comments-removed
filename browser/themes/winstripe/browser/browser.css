@@ -12665,7 +12665,7 @@ icon
 {
 margin
 :
-6px
+5px
 0px
 0px
 0px
@@ -12889,7 +12889,7 @@ margin
 -
 top
 :
-6px
+5px
 ;
 -
 moz
@@ -12944,16 +12944,11 @@ menu
 dropmarker
 {
 margin
--
-top
 :
-3px
-;
-margin
--
-bottom
-:
+2px
 1px
+1px
+0px
 ;
 }
 .
