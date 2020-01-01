@@ -266,6 +266,10 @@ nsServerSocket
 .
 cpp
 \
+nsUDPServerSocket
+.
+cpp
+\
 nsStreamListenerTee
 .
 cpp
