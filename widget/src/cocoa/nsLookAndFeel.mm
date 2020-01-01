@@ -1481,7 +1481,7 @@ grey
 =
 NativeGreyColorAsInt
 (
-headerEndGrey
+toolbarFillGrey
 (
 aID
 =
