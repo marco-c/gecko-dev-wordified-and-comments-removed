@@ -462,6 +462,10 @@ geolocation
 .
 html
 \
+test_optional_api_params
+.
+html
+\
 (
 NULL
 )
