@@ -467,6 +467,10 @@ leaving_page_iframe
 .
 html
 \
+test_add_put
+.
+html
+\
 test_add_twice_failure
 .
 html
