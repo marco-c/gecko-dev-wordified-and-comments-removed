@@ -8959,8 +8959,10 @@ nsIFrame
 aFrame
 nsPoint
 aPt
-uint32_t
-aFlags
+bool
+aShouldIgnoreSuppression
+bool
+aIgnoreRootScrollFrame
 )
 {
 PROFILER_LABEL
@@ -8999,7 +9001,8 @@ nsSize
 )
 )
 outFrames
-aFlags
+aShouldIgnoreSuppression
+aIgnoreRootScrollFrame
 )
 ;
 NS_ENSURE_SUCCESS
@@ -9045,8 +9048,10 @@ nsIFrame
 >
 &
 aOutFrames
-uint32_t
-aFlags
+bool
+aShouldIgnoreSuppression
+bool
+aIgnoreRootScrollFrame
 )
 {
 PROFILER_LABEL
@@ -9081,9 +9086,7 @@ aRect
 ;
 if
 (
-aFlags
-&
-IGNORE_PAINT_SUPPRESSION
+aShouldIgnoreSuppression
 )
 {
 builder
@@ -9095,9 +9098,7 @@ IgnorePaintSuppression
 }
 if
 (
-aFlags
-&
-IGNORE_ROOT_SCROLL_FRAME
+aIgnoreRootScrollFrame
 )
 {
 nsIFrame
