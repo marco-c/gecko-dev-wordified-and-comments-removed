@@ -60,7 +60,7 @@ android
 versionCode
 =
 "
-1
+ANDROID_VERSION_CODE
 "
 android
 :
