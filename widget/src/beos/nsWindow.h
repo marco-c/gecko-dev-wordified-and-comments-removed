@@ -249,6 +249,9 @@ CaptureRollupEvents
 nsIRollupListener
 *
 aListener
+nsIMenuRollup
+*
+aMenuRollup
 PRBool
 aDoCapture
 PRBool

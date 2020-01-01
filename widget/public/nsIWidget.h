@@ -110,6 +110,9 @@ class
 nsIRollupListener
 ;
 class
+nsIMenuRollup
+;
+class
 nsGUIEvent
 ;
 class
@@ -1077,6 +1080,9 @@ CaptureRollupEvents
 nsIRollupListener
 *
 aListener
+nsIMenuRollup
+*
+aMenuRollup
 PRBool
 aDoCapture
 PRBool

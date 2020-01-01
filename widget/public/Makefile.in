@@ -464,6 +464,10 @@ nsIMenuRollup
 .
 h
 \
+nsIRollupListener
+.
+h
+\
 (
 NULL
 )
@@ -601,10 +605,6 @@ nsIClipboardHelper
 idl
 \
 nsIClipboardOwner
-.
-idl
-\
-nsIRollupListener
 .
 idl
 \
