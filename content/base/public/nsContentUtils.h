@@ -3941,6 +3941,16 @@ aVerFlags
 )
 ;
 static
+JSVersion
+ParseJavascriptVersion
+(
+const
+nsAString
+&
+aVersionStr
+)
+;
+static
 void
 SplitMimeType
 (
