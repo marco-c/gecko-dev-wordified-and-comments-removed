@@ -1091,10 +1091,6 @@ mBorderStyle
 =
 eBorderStyle_default
 ;
-mPopupType
-=
-ePopupTypeAny
-;
 mOldSizeMode
 =
 nsSizeMode_Normal
@@ -1614,13 +1610,6 @@ aNativeParent
 nsnull
 ;
 }
-mPopupType
-=
-aInitData
--
->
-mPopupHint
-;
 mIsRTL
 =
 aInitData
