@@ -224,6 +224,9 @@ cid
 PKIX_PL_OcspResponse
 *
 response
+PKIX_PL_Date
+*
+validity
 PKIX_Boolean
 *
 pPassed

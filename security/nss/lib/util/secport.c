@@ -856,6 +856,13 @@ PR_FALSE
 ;
 if
 (
+!
+pool
+)
+return
+;
+if
+(
 ARENAPOOL_MAGIC
 =
 =

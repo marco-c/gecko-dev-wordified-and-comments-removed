@@ -492,3 +492,6 @@ s
 ;
 '
 >
+NSS_NO_FORK_CHECK
+=
+1

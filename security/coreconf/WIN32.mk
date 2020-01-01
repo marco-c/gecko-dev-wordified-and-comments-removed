@@ -500,9 +500,6 @@ version
 _MSC_VER_6
 =
 1200
-#
-MSVC
-6
 _MSC_VER
 :
 =

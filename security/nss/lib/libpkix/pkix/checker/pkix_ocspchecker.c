@@ -338,7 +338,7 @@ PKIX_CHECK
 PKIX_PL_OcspCertID_GetFreshCacheStatus
 (
 cid
-NULL
+date
 &
 hasFreshStatus
 &
@@ -709,6 +709,7 @@ pkix_pl_OcspResponse_GetStatusForCert
 (
 cid
 response
+date
 &
 passed
 &

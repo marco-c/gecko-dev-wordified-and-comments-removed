@@ -3364,6 +3364,13 @@ if
 funcs
 )
 {
+PZ_Unlock
+(
+nssShutdownList
+.
+lock
+)
+;
 return
 SECFailure
 ;

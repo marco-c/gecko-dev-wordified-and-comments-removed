@@ -1158,6 +1158,8 @@ freebl
 DLL_SUFFIX
 )
 )
+ifndef
+NSS_DISABLE_DBM
 CHECKLIBS
 +
 =
@@ -1175,6 +1177,7 @@ nssdbm3
 (
 DLL_SUFFIX
 )
+endif
 CHECKLOC
 =
 (

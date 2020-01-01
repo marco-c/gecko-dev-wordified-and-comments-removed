@@ -32663,6 +32663,10 @@ rc
 -
 1
 ;
+pid_t
+child
+ret
+;
 NUMTESTS
 +
 +
@@ -32694,7 +32698,6 @@ NSS_STRICT_NOFORK
 )
 ;
 }
-pid_t
 child
 =
 fork
@@ -32822,7 +32825,6 @@ n
 "
 )
 ;
-pid_t
 ret
 =
 wait
