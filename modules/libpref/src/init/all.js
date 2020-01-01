@@ -351,16 +351,6 @@ maxPerDomain
 pref
 (
 "
-dom
-.
-enable_performance
-"
-true
-)
-;
-pref
-(
-"
 browser
 .
 sessionhistory

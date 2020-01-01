@@ -1783,12 +1783,6 @@ AudioContext
 aAudioContext
 )
 ;
-static
-bool
-HasPerformanceSupport
-(
-)
-;
 nsPerformance
 *
 GetPerformance
