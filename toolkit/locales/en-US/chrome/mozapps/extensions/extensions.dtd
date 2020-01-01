@@ -275,11 +275,11 @@ Extensions
 ENTITY
 view
 .
-appearance
+appearance2
 .
 label
 "
-Themes
+Appearance
 "
 >
 <
