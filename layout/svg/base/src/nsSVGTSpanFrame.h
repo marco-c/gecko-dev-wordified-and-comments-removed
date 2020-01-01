@@ -176,6 +176,15 @@ already_AddRefed
 <
 nsIDOMSVGMatrix
 >
+GetOverrideCTM
+(
+)
+;
+virtual
+already_AddRefed
+<
+nsIDOMSVGMatrix
+>
 GetCanvasTM
 (
 )
