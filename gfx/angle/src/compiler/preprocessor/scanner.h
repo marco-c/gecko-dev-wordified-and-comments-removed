@@ -12,7 +12,7 @@ __SCANNER_H
 #
 define
 MAX_SYMBOL_NAME_LEN
-256
+250
 #
 define
 MAX_STRING_LEN
