@@ -128,9 +128,6 @@ interface
 nsIIDBRequest
 ;
 interface
-nsIIDBTransaction
-;
-interface
 nsIDOMDOMStringList
 ;
 dictionary
@@ -221,9 +218,12 @@ attribute
 nsIDOMDOMStringList
 indexNames
 ;
+/
+/
+IDBTransaction
 readonly
 attribute
-nsIIDBTransaction
+nsISupports
 transaction
 ;
 readonly

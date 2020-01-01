@@ -125,9 +125,6 @@ interface
 nsIIDBRequest
 ;
 interface
-nsIIDBTransaction
-;
-interface
 nsIDOMDOMStringList
 ;
 interface
@@ -280,7 +277,7 @@ readwrite
 optional_argc
 implicit_jscontext
 ]
-nsIIDBTransaction
+nsISupports
 transaction
 (
 in

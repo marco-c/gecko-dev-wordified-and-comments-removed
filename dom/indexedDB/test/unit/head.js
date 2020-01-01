@@ -29,13 +29,6 @@ Ci
 nsIIDBCursor
 ;
 const
-IDBTransaction
-=
-Ci
-.
-nsIIDBTransaction
-;
-const
 IDBOpenDBRequest
 =
 Ci

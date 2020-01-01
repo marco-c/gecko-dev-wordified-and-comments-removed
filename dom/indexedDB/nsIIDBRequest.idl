@@ -121,9 +121,6 @@ idl
 interface
 nsIDOMEventListener
 ;
-interface
-nsIIDBTransaction
-;
 /
 *
 *
@@ -204,9 +201,15 @@ attribute
 nsISupports
 source
 ;
+/
+/
+This
+is
+a
+nsIIDBTransaction
 readonly
 attribute
-nsIIDBTransaction
+nsISupports
 transaction
 ;
 /

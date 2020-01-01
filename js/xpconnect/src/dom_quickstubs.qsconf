@@ -557,11 +557,6 @@ nsIIDBRequest
 *
 '
 '
-nsIIDBTransaction
-.
-*
-'
-'
 nsIIDBOpenDBRequest
 .
 *

@@ -701,6 +701,10 @@ IDBFileHandle
 .
 webidl
 \
+IDBTransaction
+.
+webidl
+\
 IDBVersionChangeEvent
 .
 webidl

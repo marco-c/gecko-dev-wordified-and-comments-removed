@@ -154,11 +154,6 @@ nsIIDBRequest
 idl
 '
 '
-nsIIDBTransaction
-.
-idl
-'
-'
 nsIIndexedDatabaseManager
 .
 idl

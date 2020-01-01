@@ -2069,6 +2069,9 @@ aDatabase
 continue
 ;
 }
+ErrorResult
+rv
+;
 transactions
 [
 index
@@ -2077,6 +2080,7 @@ index
 >
 Abort
 (
+rv
 )
 ;
 }
