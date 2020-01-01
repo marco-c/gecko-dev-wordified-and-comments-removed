@@ -12,6 +12,12 @@ AlreadyConnectedError
 "
 #
 define
+ERR_ALREADY_DISCONNECTED
+"
+AlreadyDisconnectedError
+"
+#
+define
 ERR_NO_AVAILABLE_RESOURCE
 "
 NoAvailableResourceError
@@ -27,6 +33,12 @@ define
 ERR_SERVICE_CHANNEL_NOT_FOUND
 "
 DeviceChannelRetrievalError
+"
+#
+define
+ERR_UNKNOWN_PROFILE
+"
+UnknownProfileError
 "
 #
 include

@@ -685,9 +685,6 @@ const
 nsAString
 &
 aMessage
-BluetoothReplyRunnable
-*
-aRunnable
 )
 =
 0
