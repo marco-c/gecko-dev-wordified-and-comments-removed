@@ -242,9 +242,6 @@ class
 InvokeArgsGuard
 ;
 class
-InvokeSessionGuard
-;
-class
 StringBuffer
 ;
 class

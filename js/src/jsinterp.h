@@ -379,9 +379,6 @@ Value
 rval
 )
 ;
-class
-InvokeSessionGuard
-;
 extern
 JS_REQUIRES_STACK
 bool
