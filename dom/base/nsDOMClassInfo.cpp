@@ -2941,6 +2941,11 @@ void
 )
 DOMCI_DATA
 (
+ContentFrameMessageManager
+void
+)
+DOMCI_DATA
+(
 DOMPrototype
 void
 )
