@@ -5895,7 +5895,7 @@ false
 rval
 -
 >
-setNonFunObj
+setObject
 (
 *
 newobj
@@ -5935,7 +5935,7 @@ isPrimitive
 rval
 -
 >
-setNonFunObj
+setObject
 (
 *
 newobj
@@ -6432,13 +6432,12 @@ else
 {
 JS_ASSERT
 (
+IsFunctionObject
+(
 vp
 [
 0
 ]
-.
-isFunObj
-(
 )
 )
 ;
@@ -6453,7 +6452,7 @@ vp
 0
 ]
 .
-asFunObj
+asObject
 (
 )
 .
@@ -6521,7 +6520,7 @@ false
 vp
 -
 >
-setNonFunObj
+setObject
 (
 *
 proxy
@@ -6727,7 +6726,7 @@ false
 vp
 -
 >
-setNonFunObj
+setObject
 (
 *
 proxy
@@ -7240,7 +7239,7 @@ false
 rval
 -
 >
-setNonFunObj
+setObject
 (
 *
 newobj
@@ -7280,7 +7279,7 @@ isPrimitive
 rval
 -
 >
-setNonFunObj
+setObject
 (
 *
 newobj

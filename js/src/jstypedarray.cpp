@@ -362,7 +362,7 @@ false
 rval
 -
 >
-setNonFunObj
+setObject
 (
 *
 obj
@@ -433,7 +433,7 @@ false
 rval
 -
 >
-setNonFunObj
+setObject
 (
 *
 obj
@@ -859,7 +859,7 @@ tarray
 )
 {
 return
-NonFunObjTag
+ObjectTag
 (
 *
 tarray
@@ -3283,7 +3283,7 @@ false
 rval
 -
 >
-setNonFunObj
+setObject
 (
 *
 obj
@@ -3350,7 +3350,7 @@ false
 rval
 -
 >
-setNonFunObj
+setObject
 (
 *
 obj
@@ -3974,7 +3974,7 @@ ntarray
 vp
 -
 >
-setNonFunObj
+setObject
 (
 *
 nobj
@@ -7592,7 +7592,7 @@ obj
 >
 setProto
 (
-NonFunObjTag
+ObjectTag
 (
 *
 proto
@@ -7604,7 +7604,7 @@ obj
 >
 setParent
 (
-NonFunObjTag
+ObjectTag
 (
 *
 scope
@@ -7642,7 +7642,7 @@ buffer
 >
 setProto
 (
-NonFunObjTag
+ObjectTag
 (
 *
 proto
@@ -7654,7 +7654,7 @@ buffer
 >
 setParent
 (
-NonFunObjTag
+ObjectTag
 (
 *
 scope

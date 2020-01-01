@@ -5137,7 +5137,7 @@ JS_ASSERT
 sprop
 -
 >
-methodFunObj
+methodObject
 (
 )
 =
@@ -5811,7 +5811,7 @@ MarkRaw
 (
 trc
 &
-methodFunObj
+methodObject
 (
 )
 JSTRACE_OBJECT

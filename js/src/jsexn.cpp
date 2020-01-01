@@ -3494,7 +3494,7 @@ JS_FALSE
 rval
 -
 >
-setNonFunObj
+setObject
 (
 *
 obj

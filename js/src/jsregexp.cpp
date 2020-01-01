@@ -25477,7 +25477,7 @@ native
 ;
 if
 (
-REGEX_JIT_ENABLED
+TRACING_ENABLED
 (
 gData
 -
@@ -26544,7 +26544,7 @@ out
 rval
 -
 >
-setNonFunObj
+setObject
 (
 *
 obj
@@ -29898,7 +29898,7 @@ oldre
 rval
 -
 >
-setNonFunObj
+setObject
 (
 *
 obj
@@ -30641,7 +30641,7 @@ JS_FALSE
 rval
 -
 >
-setNonFunObj
+setObject
 (
 *
 obj

@@ -952,14 +952,14 @@ v
 return
 v
 .
-isNonFunObj
+isObject
 (
 )
 &
 &
 v
 .
-asNonFunObj
+asObject
 (
 )
 .

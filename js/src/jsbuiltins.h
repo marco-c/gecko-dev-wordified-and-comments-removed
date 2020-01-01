@@ -3525,10 +3525,6 @@ js_TypeOfObject
 )
 JS_DECLARE_CALLINFO
 (
-js_TypeOfBoolean
-)
-JS_DECLARE_CALLINFO
-(
 js_BooleanIntToString
 )
 JS_DECLARE_CALLINFO

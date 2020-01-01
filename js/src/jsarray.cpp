@@ -10918,7 +10918,7 @@ JS_FALSE
 vp
 -
 >
-setNonFunObj
+setObject
 (
 *
 obj2
@@ -11897,7 +11897,7 @@ length
 vp
 -
 >
-setNonFunObj
+setObject
 (
 *
 nobj
@@ -11944,7 +11944,7 @@ JS_FALSE
 vp
 -
 >
-setNonFunObj
+setObject
 (
 *
 nobj
@@ -12527,7 +12527,7 @@ JS_FALSE
 vp
 -
 >
-setNonFunObj
+setObject
 (
 *
 nobj
@@ -12557,7 +12557,7 @@ JS_FALSE
 vp
 -
 >
-setNonFunObj
+setObject
 (
 *
 nobj
@@ -13379,7 +13379,7 @@ JS_FALSE
 vp
 -
 >
-setNonFunObj
+setObject
 (
 *
 newarr
@@ -14422,7 +14422,7 @@ JS_FALSE
 rval
 -
 >
-setNonFunObj
+setObject
 (
 *
 obj
@@ -14594,7 +14594,7 @@ init
 (
 &
 js_ArrayClass
-NonFunObjTag
+ObjectTag
 (
 *
 proto
