@@ -70,6 +70,12 @@ js
 :
 ion
 ;
+using
+mozilla
+:
+:
+Array
+;
 class
 AliasSetIterator
 {
@@ -463,7 +469,7 @@ analyze
 (
 )
 {
-FixedArityList
+Array
 <
 MDefinitionVector
 AliasSet
