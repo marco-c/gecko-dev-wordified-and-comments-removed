@@ -531,6 +531,11 @@ jsop_not
 (
 )
 ;
+void
+jsop_typeof
+(
+)
+;
 #
 define
 STUB_CALL_TYPE
@@ -613,6 +618,11 @@ JSObjStubJSObj
 STUB_CALL_TYPE
 (
 VoidStubAtom
+)
+;
+STUB_CALL_TYPE
+(
+JSStrStub
 )
 ;
 #
