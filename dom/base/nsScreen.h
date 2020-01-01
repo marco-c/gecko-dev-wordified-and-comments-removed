@@ -394,11 +394,6 @@ MozUnlockOrientation
 (
 )
 ;
-NS_DECL_CYCLE_COLLECTION_CLASS_INHERITED
-(
-nsScreen
-nsDOMEventTargetHelper
-)
 virtual
 JSObject
 *
