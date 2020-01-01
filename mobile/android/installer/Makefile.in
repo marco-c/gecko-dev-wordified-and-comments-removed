@@ -75,6 +75,10 @@ config
 autoconf
 .
 mk
+STANDALONE_MAKEFILE
+:
+=
+1
 #
 overwrite
 mobile
