@@ -234,3 +234,17 @@ places
 categoriesStarter
 ;
 1
+category
+bookmark
+-
+observers
+PlacesCategoriesStarter
+mozilla
+.
+org
+/
+places
+/
+categoriesStarter
+;
+1

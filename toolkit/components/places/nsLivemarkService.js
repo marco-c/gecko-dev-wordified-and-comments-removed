@@ -326,12 +326,9 @@ false
 ;
 PlacesUtils
 .
-bookmarks
-.
-addObserver
+addLazyBookmarkObserver
 (
 this
-false
 )
 ;
 }
@@ -550,9 +547,7 @@ aTopic
 ;
 PlacesUtils
 .
-bookmarks
-.
-removeObserver
+removeLazyBookmarkObserver
 (
 this
 )
