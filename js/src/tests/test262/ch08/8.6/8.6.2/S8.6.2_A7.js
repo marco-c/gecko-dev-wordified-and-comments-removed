@@ -1,0 +1,6 @@
+var
+objMath
+=
+new
+Math
+;
