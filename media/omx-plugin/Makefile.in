@@ -242,6 +242,15 @@ headers
 and
 char16_t
 definition
+#
+Stagefright
+header
+files
+define
+many
+multichar
+constants
+.
 CXXFLAGS
 +
 =
@@ -252,6 +261,10 @@ gnu
 +
 +
 98
+-
+Wno
+-
+multichar
 endif
 INCLUDES
 +
