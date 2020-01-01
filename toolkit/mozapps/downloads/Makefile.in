@@ -426,11 +426,8 @@ yet
 DIRS
 =
 src
-endif
-DIRS
-+
-=
 tests
+endif
 include
 (
 topsrcdir
