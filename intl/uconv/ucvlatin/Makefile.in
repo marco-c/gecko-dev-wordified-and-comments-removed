@@ -643,10 +643,6 @@ nsUCS2BEToUnicode
 .
 cpp
 \
-nsUTF32ToUnicode
-.
-cpp
-\
 nsT61ToUnicode
 .
 cpp
@@ -868,10 +864,6 @@ nsUnicodeToMUTF7
 cpp
 \
 nsUnicodeToUCS2BE
-.
-cpp
-\
-nsUnicodeToUTF32
 .
 cpp
 \

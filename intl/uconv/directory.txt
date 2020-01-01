@@ -211,8 +211,6 @@ VISCII
 VPS
 UTF7
 UTF16
-UTF32
-.
 ucvtw
 -
 Traditional

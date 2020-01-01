@@ -8398,15 +8398,6 @@ UTF
 UTF
 -
 16BE
-UTF
--
-32
-UTF
--
-32LE
-UTF
--
-32BE
 "
 )
 ;
