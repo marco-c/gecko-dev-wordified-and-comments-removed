@@ -659,9 +659,9 @@ false
 }
 virtual
 bool
-canEnterInlinedFunction
+canEnterInlinedScript
 (
-JSFunction
+JSScript
 *
 callee
 )
@@ -1234,11 +1234,11 @@ pc
 )
 ;
 bool
-canEnterInlinedFunction
+canEnterInlinedScript
 (
-JSFunction
+JSScript
 *
-callee
+inlineScript
 )
 ;
 }
