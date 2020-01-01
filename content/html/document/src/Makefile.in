@@ -605,6 +605,16 @@ caps
 /
 include
 \
+-
+I
+(
+topsrcdir
+)
+/
+xpcom
+/
+ds
+\
 (
 NULL
 )

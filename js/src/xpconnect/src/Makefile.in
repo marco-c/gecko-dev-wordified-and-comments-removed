@@ -758,6 +758,16 @@ dom
 /
 base
 \
+-
+I
+(
+topsrcdir
+)
+/
+xpcom
+/
+ds
+\
 (
 NULL
 )

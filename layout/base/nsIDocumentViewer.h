@@ -26,6 +26,9 @@ nsIStyleSheet
 class
 nsIView
 ;
+class
+nsDOMNavigationTiming
+;
 #
 define
 NS_IDOCUMENT_VIEWER_IID
@@ -97,6 +100,17 @@ nsIView
 *
 FindContainerView
 (
+)
+=
+0
+;
+virtual
+void
+SetNavigationTiming
+(
+nsDOMNavigationTiming
+*
+timing
 )
 =
 0
