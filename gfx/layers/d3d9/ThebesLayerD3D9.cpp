@@ -683,6 +683,10 @@ mValidRegion
 IsEqual
 (
 mVisibleRegion
+.
+GetBounds
+(
+)
 )
 )
 {
@@ -694,6 +698,10 @@ region
 Sub
 (
 mVisibleRegion
+.
+GetBounds
+(
+)
 mValidRegion
 )
 ;
@@ -705,6 +713,10 @@ region
 mValidRegion
 =
 mVisibleRegion
+.
+GetBounds
+(
+)
 ;
 }
 float
