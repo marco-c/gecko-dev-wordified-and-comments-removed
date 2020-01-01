@@ -8428,7 +8428,7 @@ type
 =
 JS_GC_ROOT_GCTHING_PTR
 )
-MarkRootGCThing
+MarkGCThingRoot
 (
 trc
 *
@@ -8447,7 +8447,7 @@ name
 )
 ;
 else
-MarkRoot
+MarkValueRoot
 (
 trc
 *
@@ -8491,7 +8491,7 @@ value
 1
 )
 ;
-MarkRootGCThing
+MarkGCThingRoot
 (
 trc
 entry
@@ -8532,16 +8532,11 @@ trc
 idArray
 -
 >
-vector
-idArray
--
->
-vector
-+
-idArray
--
->
 length
+idArray
+-
+>
+vector
 "
 JSAutoIdArray
 .
@@ -8564,7 +8559,7 @@ trc
 gc
 :
 :
-MarkRoot
+MarkObjectRoot
 (
 trc
 obj
@@ -8599,7 +8594,7 @@ tag
 case
 JSVAL
 :
-MarkRoot
+MarkValueRoot
 (
 trc
 static_cast
@@ -8691,16 +8686,11 @@ trc
 ida
 -
 >
-vector
-ida
--
->
-vector
-+
-ida
--
->
 length
+ida
+-
+>
+vector
 "
 JS
 :
@@ -8766,7 +8756,7 @@ descriptors
 i
 ]
 ;
-MarkRoot
+MarkValueRoot
 (
 trc
 desc
@@ -8780,7 +8770,7 @@ pd
 "
 )
 ;
-MarkRoot
+MarkValueRoot
 (
 trc
 desc
@@ -8794,7 +8784,7 @@ value
 "
 )
 ;
-MarkRoot
+MarkValueRoot
 (
 trc
 desc
@@ -8808,7 +8798,7 @@ get
 "
 )
 ;
-MarkRoot
+MarkValueRoot
 (
 trc
 desc
@@ -8850,7 +8840,7 @@ desc
 .
 obj
 )
-MarkRoot
+MarkObjectRoot
 (
 trc
 desc
@@ -8864,7 +8854,7 @@ obj
 "
 )
 ;
-MarkRoot
+MarkValueRoot
 (
 trc
 desc
@@ -8893,7 +8883,7 @@ desc
 .
 getter
 )
-MarkRoot
+MarkObjectRoot
 (
 trc
 CastAsObject
@@ -8923,7 +8913,7 @@ desc
 .
 setter
 )
-MarkRoot
+MarkObjectRoot
 (
 trc
 CastAsObject
@@ -9035,7 +9025,7 @@ this
 >
 obj
 )
-MarkRoot
+MarkObjectRoot
 (
 trc
 obj
@@ -9054,7 +9044,7 @@ return
 case
 ID
 :
-MarkRoot
+MarkIdRoot
 (
 trc
 static_cast
@@ -9103,7 +9093,7 @@ this
 >
 vector
 ;
-MarkRootRange
+MarkValueRootRange
 (
 trc
 vector
@@ -9150,7 +9140,7 @@ this
 >
 str
 )
-MarkRoot
+MarkStringRoot
 (
 trc
 str
@@ -9189,7 +9179,7 @@ this
 >
 vector
 ;
-MarkRootRange
+MarkIdRootRange
 (
 trc
 vector
@@ -9241,7 +9231,7 @@ this
 >
 vector
 ;
-MarkRootRange
+MarkShapeRootRange
 (
 trc
 vector
@@ -9249,10 +9239,18 @@ vector
 length
 (
 )
+const_cast
+<
+Shape
+*
+*
+>
+(
 vector
 .
 begin
 (
+)
 )
 "
 js
@@ -9290,7 +9288,7 @@ this
 >
 vector
 ;
-MarkRootRange
+MarkObjectRootRange
 (
 trc
 vector
@@ -9333,7 +9331,7 @@ AutoValueArray
 this
 )
 ;
-MarkRootRange
+MarkValueRootRange
 (
 trc
 array
@@ -9368,7 +9366,7 @@ tag
 0
 )
 ;
-MarkRootRange
+MarkValueRootRange
 (
 trc
 tag
@@ -9468,7 +9466,7 @@ hasRunOption
 JSOPTION_UNROOTED_GLOBAL
 )
 )
-MarkRoot
+MarkObjectRoot
 (
 trc
 acx
@@ -9490,7 +9488,7 @@ isExceptionPending
 (
 )
 )
-MarkRoot
+MarkValueRoot
 (
 trc
 acx
@@ -9543,7 +9541,7 @@ acx
 sharpObjectMap
 )
 ;
-MarkRoot
+MarkValueRoot
 (
 trc
 acx
@@ -9770,7 +9768,7 @@ i
 +
 +
 )
-MarkRoot
+MarkScriptRoot
 (
 trc
 vec
@@ -9942,7 +9940,7 @@ script
 >
 pcCounters
 )
-MarkRoot
+MarkScriptRoot
 (
 trc
 script

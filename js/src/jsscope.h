@@ -2821,7 +2821,9 @@ maybePropid
 )
 ;
 }
-jsid
+const
+HeapId
+&
 maybePropid
 (
 )
