@@ -52,6 +52,10 @@ mHwnd
 aHwnd
 )
 {
+if
+(
+mHwnd
+)
 mNativeAccessible
 =
 new
