@@ -2197,8 +2197,13 @@ Focus
 )
 ;
 #
-ifdef
+if
+(
 MOZ_PLATFORM_MAEMO
+=
+=
+5
+)
 GtkIMContext
 *
 im
