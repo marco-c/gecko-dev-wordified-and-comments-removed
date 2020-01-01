@@ -8156,6 +8156,9 @@ mExpireDaysMin
 if
 (
 mExpireDaysMax
+&
+&
+mExpireDaysMax
 <
 mExpireDaysMin
 )
