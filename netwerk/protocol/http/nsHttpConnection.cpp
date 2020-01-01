@@ -3812,6 +3812,10 @@ mCompletedProxyConnect
 =
 true
 ;
+mProxyConnectInProgress
+=
+false
+;
 rv
 =
 mSocketOut
