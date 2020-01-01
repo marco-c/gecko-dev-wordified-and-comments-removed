@@ -83,12 +83,17 @@ nsICSSLoader
 h
 "
 #
+ifdef
+MOZ_SVG
+#
 include
 "
 nsIDOMSVGStylable
 .
 h
 "
+#
+endif
 nsIAtom
 *
 nsStyledElement
@@ -207,6 +212,9 @@ nsGkAtoms
 _class
 )
 {
+#
+ifdef
+MOZ_SVG
 NS_ASSERTION
 (
 !
@@ -235,6 +243,8 @@ attribute
 "
 )
 ;
+#
+endif
 aResult
 .
 ParseAtomArray
