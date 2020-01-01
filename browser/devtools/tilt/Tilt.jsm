@@ -288,10 +288,10 @@ Tilt
 prototype
 =
 {
-initializeForCurrentTab
+toggle
 :
 function
-T_initializeForCurrentTab
+T_toggle
 (
 )
 {

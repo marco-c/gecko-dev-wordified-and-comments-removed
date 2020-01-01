@@ -1220,7 +1220,7 @@ false
 ;
 Tilt
 .
-initializeForCurrentTab
+toggle
 (
 )
 ;
