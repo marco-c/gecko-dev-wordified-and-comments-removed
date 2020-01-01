@@ -1036,7 +1036,7 @@ key
 =
 "
 &
-focusFilter
+focusSearch
 .
 key
 ;
@@ -1295,7 +1295,7 @@ value
 =
 "
 &
-filterPrefs
+searchPrefs
 .
 label
 ;
@@ -1304,7 +1304,7 @@ accesskey
 =
 "
 &
-filterPrefs
+searchPrefs
 .
 accesskey
 ;
