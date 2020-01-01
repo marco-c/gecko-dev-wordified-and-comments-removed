@@ -127,6 +127,13 @@ h
 #
 include
 "
+nsIRandomGenerator
+.
+h
+"
+#
+include
+"
 nsCOMPtr
 .
 h
@@ -705,6 +712,12 @@ nsCOMPtr
 nsIAsyncVerifyRedirectCallback
 >
 mRedirectCallback
+;
+nsCOMPtr
+<
+nsIRandomGenerator
+>
+mRandomGenerator
 ;
 nsCString
 mProtocol
