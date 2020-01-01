@@ -645,7 +645,7 @@ ool
 )
 ;
 bool
-visitOutOfLineCacheSetProperty
+visitOutOfLineSetPropertyCache
 (
 OutOfLineCache
 *
@@ -691,9 +691,9 @@ ins
 ;
 }
 bool
-visitCacheSetPropertyV
+visitSetPropertyCacheV
 (
-LCacheSetPropertyV
+LSetPropertyCacheV
 *
 ins
 )
@@ -706,9 +706,9 @@ ins
 ;
 }
 bool
-visitCacheSetPropertyT
+visitSetPropertyCacheT
 (
-LCacheSetPropertyT
+LSetPropertyCacheT
 *
 ins
 )

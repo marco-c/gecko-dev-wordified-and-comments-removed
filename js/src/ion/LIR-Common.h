@@ -5801,7 +5801,7 @@ toCallSetProperty
 }
 ;
 class
-LCacheSetPropertyV
+LSetPropertyCacheV
 :
 public
 LInstructionHelper
@@ -5817,10 +5817,10 @@ public
 :
 LIR_HEADER
 (
-CacheSetPropertyV
+SetPropertyCacheV
 )
 ;
-LCacheSetPropertyV
+LSetPropertyCacheV
 (
 const
 LAllocation
@@ -5862,7 +5862,7 @@ toSetPropertyCache
 }
 ;
 class
-LCacheSetPropertyT
+LSetPropertyCacheT
 :
 public
 LInstructionHelper
@@ -5879,10 +5879,10 @@ public
 :
 LIR_HEADER
 (
-CacheSetPropertyT
+SetPropertyCacheT
 )
 ;
-LCacheSetPropertyT
+LSetPropertyCacheT
 (
 const
 LAllocation

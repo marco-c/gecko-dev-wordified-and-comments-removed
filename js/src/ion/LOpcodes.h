@@ -448,12 +448,12 @@ CallSetProperty
 \
 _
 (
-CacheSetPropertyV
+SetPropertyCacheV
 )
 \
 _
 (
-CacheSetPropertyT
+SetPropertyCacheT
 )
 \
 _
