@@ -958,6 +958,7 @@ resetDownloads
 ;
 todo
 (
+false
 "
 Test
 there
@@ -1128,6 +1129,7 @@ DownloadData
 ;
 todo
 (
+false
 "
 Check
 that
@@ -1138,6 +1140,7 @@ and
 Downloads
 .
 _downloadCount
+\
 have
 the
 correct
@@ -1147,6 +1150,7 @@ DownloadData
 .
 length
 )
+\
 May
 also
 test
@@ -1165,6 +1169,7 @@ states
 ;
 todo
 (
+false
 "
 Iterate
 through
@@ -1174,6 +1179,7 @@ in
 Downloads
 .
 _progressNotificationInfo
+\
 and
 confirm
 that
@@ -1188,6 +1194,7 @@ same
 as
 those
 in
+\
 DownloadData
 .
 "
@@ -1369,6 +1376,7 @@ removal
 ;
 todo
 (
+false
 "
 Get
 some
@@ -1377,6 +1385,7 @@ from
 Downloads
 .
 _progressNotificationInfo
+\
 confirm
 that
 its
@@ -1449,6 +1458,7 @@ promisedDownloads
 ;
 todo
 (
+false
 "
 confirm
 that
@@ -1461,6 +1471,7 @@ longer
 in
 the
 database
+\
 and
 its
 file
