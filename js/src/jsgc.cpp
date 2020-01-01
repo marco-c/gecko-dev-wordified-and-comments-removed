@@ -20251,7 +20251,7 @@ ResetIncrementalGC
 (
 rt
 "
-compartment
+zone
 change
 "
 )
