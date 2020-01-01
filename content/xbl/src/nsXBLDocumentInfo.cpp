@@ -798,7 +798,10 @@ OnFinalize
 obj
 )
 ;
-NS_RELEASE
+nsContentUtils
+:
+:
+DeferredFinalize
 (
 nativeThis
 )
