@@ -3738,15 +3738,6 @@ end
 "
 >
 <
-textbox
-id
-=
-"
-test
-"
-/
->
-<
 button
 label
 =
