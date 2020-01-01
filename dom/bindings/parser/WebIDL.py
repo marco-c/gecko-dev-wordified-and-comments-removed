@@ -542,6 +542,25 @@ self
 _lexpos
 -
 startofline
+        
+self
+.
+_lineno
++
+=
+self
+.
+_lexdata
+.
+count
+(
+'
+\
+n
+'
+0
+startofline
+)
     
 def
 get
@@ -17960,6 +17979,9 @@ lexer
 self
 .
 lexer
+tracking
+=
+True
 )
     
 def
@@ -18077,6 +18099,9 @@ lexer
 self
 .
 lexer
+tracking
+=
+True
 )
 )
         
