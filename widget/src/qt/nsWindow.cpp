@@ -719,7 +719,7 @@ mPreferredHeight
 =
 0
 ;
-mDrawingarea
+mDrawingArea
 =
 nsnull
 ;
@@ -839,11 +839,11 @@ Q_ASSERT
 widget
 )
 ;
-mDrawingarea
+mDrawingArea
 =
 widget
 ;
-mDrawingarea
+mDrawingArea
 -
 >
 setMouseTracking
@@ -851,7 +851,7 @@ setMouseTracking
 PR_TRUE
 )
 ;
-mDrawingarea
+mDrawingArea
 -
 >
 setFocusPolicy
@@ -1087,7 +1087,7 @@ deleteLater
 )
 ;
 }
-mDrawingarea
+mDrawingArea
 =
 nsnull
 ;
@@ -1151,7 +1151,7 @@ handle
 ;
 if
 (
-mDrawingarea
+mDrawingArea
 )
 {
 qDebug
@@ -1243,7 +1243,7 @@ void
 )
 this
 aModal
-mDrawingarea
+mDrawingArea
 )
 )
 ;
@@ -1257,7 +1257,7 @@ MozQWidget
 *
 >
 (
-mDrawingarea
+mDrawingArea
 )
 ;
 if
@@ -1289,9 +1289,9 @@ aState
 {
 aState
 =
-mDrawingarea
+mDrawingArea
 ?
-mDrawingarea
+mDrawingArea
 -
 >
 isVisible
@@ -1322,7 +1322,7 @@ aY
 {
 if
 (
-mDrawingarea
+mDrawingArea
 )
 {
 PRInt32
@@ -1591,7 +1591,7 @@ NS_OK
 if
 (
 !
-mDrawingarea
+mDrawingArea
 )
 return
 NS_OK
@@ -1605,7 +1605,7 @@ aY
 ;
 if
 (
-mDrawingarea
+mDrawingArea
 )
 {
 if
@@ -1613,7 +1613,7 @@ if
 mParent
 &
 &
-mDrawingarea
+mDrawingArea
 -
 >
 windowType
@@ -1712,7 +1712,7 @@ p
 void
 *
 )
-mDrawingarea
+mDrawingArea
 )
 ;
 }
@@ -1750,7 +1750,7 @@ if
 mIsTopLevel
 )
 {
-mDrawingarea
+mDrawingArea
 -
 >
 move
@@ -1762,10 +1762,10 @@ pos
 else
 if
 (
-mDrawingarea
+mDrawingArea
 )
 {
-mDrawingarea
+mDrawingArea
 -
 >
 move
@@ -1840,7 +1840,7 @@ NS_OK
 NS_ASSERTION
 (
 !
-mDrawingarea
+mDrawingArea
 "
 Expected
 Mozilla
@@ -1859,7 +1859,7 @@ GetNextSibling
 {
 if
 (
-mDrawingarea
+mDrawingArea
 )
 {
 qDebug
@@ -1924,7 +1924,7 @@ if
 w
 -
 >
-mDrawingarea
+mDrawingArea
 )
 {
 qDebug
@@ -2012,7 +2012,7 @@ aMode
 if
 (
 !
-mDrawingarea
+mDrawingArea
 |
 |
 mSizeState
@@ -2033,7 +2033,7 @@ aMode
 case
 nsSizeMode_Maximized
 :
-mDrawingarea
+mDrawingArea
 -
 >
 showMaximized
@@ -2045,7 +2045,7 @@ break
 case
 nsSizeMode_Minimized
 :
-mDrawingarea
+mDrawingArea
 -
 >
 showMinimized
@@ -2056,7 +2056,7 @@ break
 ;
 default
 :
-mDrawingarea
+mDrawingArea
 -
 >
 showNormal
@@ -2121,7 +2121,7 @@ this
 if
 (
 !
-mDrawingarea
+mDrawingArea
 )
 return
 NS_ERROR_FAILURE
@@ -2130,14 +2130,14 @@ if
 (
 aRaise
 )
-mDrawingarea
+mDrawingArea
 -
 >
 raise
 (
 )
 ;
-mDrawingarea
+mDrawingArea
 -
 >
 setFocus
@@ -2404,7 +2404,7 @@ Validate
 if
 (
 !
-mDrawingarea
+mDrawingArea
 )
 return
 NS_OK
@@ -2476,7 +2476,7 @@ this
 if
 (
 !
-mDrawingarea
+mDrawingArea
 )
 return
 NS_OK
@@ -2487,14 +2487,14 @@ aIsSynchronous
 &
 &
 !
-mDrawingarea
+mDrawingArea
 -
 >
 paintingActive
 (
 )
 )
-mDrawingarea
+mDrawingArea
 -
 >
 repaint
@@ -2502,7 +2502,7 @@ repaint
 )
 ;
 else
-mDrawingarea
+mDrawingArea
 -
 >
 update
@@ -2568,7 +2568,7 @@ this
 void
 *
 )
-mDrawingarea
+mDrawingArea
 aRect
 .
 x
@@ -2588,7 +2588,7 @@ aIsSynchronous
 if
 (
 !
-mDrawingarea
+mDrawingArea
 )
 return
 NS_OK
@@ -2597,7 +2597,7 @@ if
 (
 aIsSynchronous
 )
-mDrawingarea
+mDrawingArea
 -
 >
 repaint
@@ -2621,7 +2621,7 @@ else
 if
 (
 !
-mDrawingarea
+mDrawingArea
 -
 >
 isVisible
@@ -2644,7 +2644,7 @@ n
 if
 (
 !
-mDrawingarea
+mDrawingArea
 -
 >
 updatesEnabled
@@ -2665,7 +2665,7 @@ n
 "
 )
 ;
-mDrawingarea
+mDrawingArea
 -
 >
 update
@@ -2727,7 +2727,7 @@ if
 region
 &
 &
-mDrawingarea
+mDrawingArea
 )
 {
 QRect
@@ -2746,14 +2746,14 @@ aIsSynchronous
 &
 &
 !
-mDrawingarea
+mDrawingArea
 -
 >
 paintingActive
 (
 )
 )
-mDrawingarea
+mDrawingArea
 -
 >
 repaint
@@ -2763,7 +2763,7 @@ region
 )
 ;
 else
-mDrawingarea
+mDrawingArea
 -
 >
 update
@@ -2843,12 +2843,12 @@ Update
 if
 (
 !
-mDrawingarea
+mDrawingArea
 )
 return
 NS_OK
 ;
-mDrawingarea
+mDrawingArea
 -
 >
 update
@@ -2892,12 +2892,12 @@ aClipRect
 if
 (
 !
-mDrawingarea
+mDrawingArea
 )
 return
 NS_OK
 ;
-mDrawingarea
+mDrawingArea
 -
 >
 scroll
@@ -2986,12 +2986,12 @@ aDy
 if
 (
 !
-mDrawingarea
+mDrawingArea
 )
 return
 NS_OK
 ;
-mDrawingarea
+mDrawingArea
 -
 >
 scroll
@@ -3049,13 +3049,13 @@ NS_NATIVE_WIDGET
 if
 (
 !
-mDrawingarea
+mDrawingArea
 )
 return
 nsnull
 ;
 return
-mDrawingarea
+mDrawingArea
 ;
 break
 ;
@@ -3077,7 +3077,7 @@ case
 NS_NATIVE_DISPLAY
 :
 return
-mDrawingarea
+mDrawingArea
 -
 >
 x11Info
@@ -3143,7 +3143,7 @@ return
 void
 *
 )
-mDrawingarea
+mDrawingArea
 ;
 default
 :
@@ -3194,7 +3194,7 @@ aTitle
 {
 if
 (
-mDrawingarea
+mDrawingArea
 )
 {
 QString
@@ -3210,7 +3210,7 @@ get
 )
 )
 ;
-mDrawingarea
+mDrawingArea
 -
 >
 setWindowTitle
@@ -3238,7 +3238,7 @@ aIconSpec
 if
 (
 !
-mDrawingarea
+mDrawingArea
 )
 return
 NS_OK
@@ -3448,7 +3448,7 @@ aNewRect
 {
 NS_ENSURE_TRUE
 (
-mDrawingarea
+mDrawingArea
 NS_OK
 )
 ;
@@ -3465,7 +3465,7 @@ y
 ;
 origin
 =
-mDrawingarea
+mDrawingArea
 -
 >
 mapToGlobal
@@ -3530,7 +3530,7 @@ aNewRect
 {
 NS_ENSURE_TRUE
 (
-mDrawingarea
+mDrawingArea
 NS_OK
 )
 ;
@@ -3547,7 +3547,7 @@ y
 ;
 origin
 =
-mDrawingarea
+mDrawingArea
 -
 >
 mapFromGlobal
@@ -3631,7 +3631,7 @@ PRBool
 aEnable
 )
 {
-mDrawingarea
+mDrawingArea
 -
 >
 setAcceptDrops
@@ -3730,7 +3730,7 @@ this
 if
 (
 !
-mDrawingarea
+mDrawingArea
 )
 return
 NS_OK
@@ -3739,7 +3739,7 @@ if
 (
 aCapture
 )
-mDrawingarea
+mDrawingArea
 -
 >
 grabMouse
@@ -3747,7 +3747,7 @@ grabMouse
 )
 ;
 else
-mDrawingarea
+mDrawingArea
 -
 >
 releaseMouse
@@ -3776,7 +3776,7 @@ aConsumeRollupEvent
 if
 (
 !
-mDrawingarea
+mDrawingArea
 )
 return
 NS_OK
@@ -3838,7 +3838,7 @@ this
 ;
 SetUrgencyHint
 (
-mDrawingarea
+mDrawingArea
 PR_TRUE
 )
 ;
@@ -3939,7 +3939,7 @@ void
 *
 )
 this
-mDrawingarea
+mDrawingArea
 )
 )
 ;
@@ -3950,7 +3950,7 @@ nsEventStatus_eIgnore
 if
 (
 !
-mDrawingarea
+mDrawingArea
 )
 return
 nsEventStatus_eIgnore
@@ -4154,7 +4154,7 @@ painter
 .
 begin
 (
-mDrawingarea
+mDrawingArea
 )
 )
 {
@@ -4688,7 +4688,7 @@ isValid
 )
 r
 =
-mDrawingarea
+mDrawingArea
 -
 >
 rect
@@ -5100,7 +5100,7 @@ y
 if
 (
 !
-mDrawingarea
+mDrawingArea
 |
 |
 (
@@ -5332,7 +5332,7 @@ qDebug
 "
 resizeEvent
 :
-mDrawingarea
+mDrawingArea
 =
 %
 p
@@ -5357,7 +5357,7 @@ d
 void
 *
 )
-mDrawingarea
+mDrawingArea
 rect
 .
 width
@@ -5376,9 +5376,9 @@ y
 endif
 if
 (
-mDrawingarea
+mDrawingArea
 )
-mDrawingarea
+mDrawingArea
 -
 >
 resize
@@ -6324,7 +6324,7 @@ this
 if
 (
 !
-mDrawingarea
+mDrawingArea
 )
 return
 nsEventStatus_eIgnore
@@ -6403,7 +6403,7 @@ DispatchLostFocusEvent
 ;
 if
 (
-mDrawingarea
+mDrawingArea
 )
 DispatchDeactivateEvent
 (
@@ -7292,7 +7292,7 @@ event
 if
 (
 !
-mDrawingarea
+mDrawingArea
 |
 |
 NS_UNLIKELY
@@ -8000,7 +8000,7 @@ QWidget
 )
 aNativeParent
 ;
-mDrawingarea
+mDrawingArea
 =
 createQWidget
 (
@@ -8010,7 +8010,7 @@ aInitData
 ;
 Initialize
 (
-mDrawingarea
+mDrawingArea
 )
 ;
 LOG
@@ -8035,7 +8035,7 @@ this
 ;
 if
 (
-mDrawingarea
+mDrawingArea
 )
 {
 LOG
@@ -8043,7 +8043,7 @@ LOG
 (
 "
 \
-tmDrawingarea
+tmDrawingArea
 %
 p
 %
@@ -8061,7 +8061,7 @@ n
 void
 *
 )
-mDrawingarea
+mDrawingArea
 )
 )
 ;
@@ -8107,7 +8107,7 @@ xulWinType
 if
 (
 !
-mDrawingarea
+mDrawingArea
 )
 return
 NS_ERROR_FAILURE
@@ -8364,7 +8364,7 @@ __LINE__
 ;
 XSetClassHint
 (
-mDrawingarea
+mDrawingArea
 -
 >
 x11Info
@@ -8374,7 +8374,7 @@ x11Info
 display
 (
 )
-mDrawingarea
+mDrawingArea
 -
 >
 handle
@@ -8463,7 +8463,7 @@ mNeedsResize
 =
 PR_FALSE
 ;
-mDrawingarea
+mDrawingArea
 -
 >
 resize
@@ -8476,7 +8476,7 @@ if
 (
 aRepaint
 )
-mDrawingarea
+mDrawingArea
 -
 >
 update
@@ -8554,7 +8554,7 @@ aY
 ;
 if
 (
-mDrawingarea
+mDrawingArea
 )
 {
 if
@@ -8562,7 +8562,7 @@ if
 mParent
 &
 &
-mDrawingarea
+mDrawingArea
 -
 >
 windowType
@@ -8661,14 +8661,14 @@ position
 p
 )
 "
-mDrawingarea
+mDrawingArea
 )
 ;
 #
 endif
 }
 }
-mDrawingarea
+mDrawingArea
 -
 >
 setGeometry
@@ -8691,7 +8691,7 @@ if
 (
 aRepaint
 )
-mDrawingarea
+mDrawingArea
 -
 >
 update
@@ -8722,7 +8722,7 @@ PR_FALSE
 if
 (
 !
-mDrawingarea
+mDrawingArea
 )
 {
 qDebug
@@ -8741,7 +8741,7 @@ empty
 return
 ;
 }
-mDrawingarea
+mDrawingArea
 -
 >
 setShown
@@ -8802,13 +8802,13 @@ nsnull
 ;
 if
 (
-mDrawingarea
+mDrawingArea
 )
 {
 *
 aWidget
 =
-mDrawingarea
+mDrawingArea
 ;
 return
 ;
@@ -8874,7 +8874,7 @@ void
 if
 (
 !
-mDrawingarea
+mDrawingArea
 )
 return
 nsnull
@@ -9174,7 +9174,7 @@ aShouldHide
 if
 (
 !
-mDrawingarea
+mDrawingArea
 )
 {
 QWidget
@@ -9200,7 +9200,7 @@ PR_FALSE
 ;
 if
 (
-mDrawingarea
+mDrawingArea
 -
 >
 isVisible
@@ -9208,7 +9208,7 @@ isVisible
 )
 )
 {
-mDrawingarea
+mDrawingArea
 -
 >
 hide
@@ -9244,7 +9244,7 @@ if
 wasVisible
 )
 {
-mDrawingarea
+mDrawingArea
 -
 >
 show
@@ -9257,7 +9257,7 @@ ifdef
 Q_WS_X11
 XSync
 (
-mDrawingarea
+mDrawingArea
 -
 >
 x11Info
@@ -9759,7 +9759,7 @@ windowName
 flags
 )
 ;
-mDrawingarea
+mDrawingArea
 =
 mMozQWidget
 ;
@@ -9849,7 +9849,7 @@ WA_PaintOnScreen
 )
 ;
 return
-mDrawingarea
+mDrawingArea
 ;
 }
 gfxASurface
@@ -9885,7 +9885,7 @@ y_offset
 qint32
 width
 =
-mDrawingarea
+mDrawingArea
 -
 >
 width
@@ -9893,7 +9893,7 @@ width
 )
 height
 =
-mDrawingarea
+mDrawingArea
 -
 >
 height
@@ -9921,7 +9921,7 @@ mThebesSurface
 new
 gfxXlibSurface
 (
-mDrawingarea
+mDrawingArea
 -
 >
 x11Info
@@ -9934,7 +9934,7 @@ display
 (
 Drawable
 )
-mDrawingarea
+mDrawingArea
 -
 >
 handle
@@ -9946,7 +9946,7 @@ Visual
 *
 >
 (
-mDrawingarea
+mDrawingArea
 -
 >
 x11Info

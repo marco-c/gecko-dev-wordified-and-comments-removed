@@ -1352,7 +1352,7 @@ aInitData
 ;
 QWidget
 *
-mDrawingarea
+mDrawingArea
 ;
 MozQWidget
 *
