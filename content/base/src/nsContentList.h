@@ -75,13 +75,6 @@ nsCycleCollectionParticipant
 h
 "
 #
-include
-"
-nsWrapperCache
-.
-h
-"
-#
 define
 kNameSpaceID_Wildcard
 PR_INT32_MIN
@@ -391,8 +384,6 @@ public
 nsIHTMLCollection
 public
 nsStubMutationObserver
-public
-nsWrapperCache
 {
 public
 :
