@@ -1102,6 +1102,12 @@ char
 }
 static
 bool
+UseProgressiveTilePainting
+(
+)
+;
+static
+bool
 UseAzureContentDrawing
 (
 )
