@@ -633,6 +633,9 @@ se
 resize
 ;
 }
+%
+ifdef
+XP_WIN
 window
 :
 not
@@ -654,6 +657,8 @@ color
 ThreeDShadow
 ;
 }
+%
+endif
 sidebarheader
 {
 height
