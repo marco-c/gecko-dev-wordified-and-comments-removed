@@ -11680,6 +11680,13 @@ onMozPressTapGesture
 )
 GK_ATOM
 (
+onMozEdgeUIGesture
+"
+onMozEdgeUIGesture
+"
+)
+GK_ATOM
+(
 onMozTouchDown
 "
 onMozTouchDown
