@@ -33,7 +33,6 @@ eDOMClassInfo_ProcessingInstruction_id
 eDOMClassInfo_Notation_id
 eDOMClassInfo_NodeList_id
 eDOMClassInfo_NamedNodeMap_id
-eDOMClassInfo_DocumentStyleSheetList_id
 eDOMClassInfo_Event_id
 eDOMClassInfo_MutationEvent_id
 eDOMClassInfo_UIEvent_id
