@@ -102,7 +102,7 @@ pluginHostIface
 =
 Ci
 .
-nsIPluginHost_MOZILLA_2_0_BRANCH
+nsIPluginHost
 ;
 var
 pluginHost

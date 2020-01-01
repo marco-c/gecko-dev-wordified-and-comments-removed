@@ -934,15 +934,6 @@ window
 )
 ;
 nsresult
-GetSurface
-(
-gfxASurface
-*
-*
-aSurface
-)
-;
-nsresult
 GetImage
 (
 mozilla
