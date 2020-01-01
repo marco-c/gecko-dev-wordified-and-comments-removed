@@ -341,3 +341,6 @@ foo
 S
 '
 ]
+FAIL_ON_WARNINGS
+=
+True

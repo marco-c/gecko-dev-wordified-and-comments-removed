@@ -347,6 +347,9 @@ tans
 S
 '
 ]
+FAIL_ON_WARNINGS
+=
+True
 NO_DIST_INSTALL
 =
 True

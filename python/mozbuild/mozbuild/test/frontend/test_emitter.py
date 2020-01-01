@@ -1115,6 +1115,10 @@ jsm
 '
 ]
             
+FAIL_ON_WARNINGS
+=
+True
+            
 GTEST_CSRCS
 =
 [

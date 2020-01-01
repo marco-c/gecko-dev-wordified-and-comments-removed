@@ -1414,6 +1414,21 @@ jsm
 ]
             
 '
+FAIL_ON_WARNINGS
+'
+:
+[
+                
+'
+FAIL_ON_WARNINGS
+:
+=
+1
+'
+            
+]
+            
+'
 GTEST_CMMSRCS
 '
 :
