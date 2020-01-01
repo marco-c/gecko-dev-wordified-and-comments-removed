@@ -77,6 +77,7 @@ ImageFormatARGB32
 ImageFormatRGB24
 ImageFormatA8
 ImageFormatA1
+ImageFormatRGB16_565
 ImageFormatUnknown
 }
 gfxImageFormat
@@ -374,6 +375,14 @@ return
 mBytesRecorded
 ;
 }
+static
+PRInt32
+BytePerPixelFromFormat
+(
+gfxImageFormat
+format
+)
+;
 protected
 :
 gfxASurface

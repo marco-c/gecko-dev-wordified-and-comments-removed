@@ -641,7 +641,16 @@ mSize
 .
 width
 *
-4
+gfxASurface
+:
+:
+BytePerPixelFromFormat
+(
+gfxASurface
+:
+:
+ImageFormatRGB24
+)
 gfxASurface
 :
 :
