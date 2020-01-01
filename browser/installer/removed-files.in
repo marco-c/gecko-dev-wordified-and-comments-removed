@@ -5974,12 +5974,6 @@ greprefs
 xpinstall
 .
 js
-run
--
-mozilla
-.
-sh
-firefox
 components
 /
 nsProgressDialog
