@@ -4033,7 +4033,7 @@ GetNodeInfo
 nsGkAtoms
 :
 :
-input
+button
 nsnull
 kNameSpaceID_XHTML
 )
@@ -5046,7 +5046,7 @@ GetType
 )
 =
 =
-NS_FORM_INPUT_BUTTON
+NS_FORM_BUTTON_BUTTON
 )
 {
 mButtonFrame
