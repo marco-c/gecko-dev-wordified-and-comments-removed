@@ -526,6 +526,10 @@ test_bug468190
 .
 html
 \
+test_bug482461
+.
+html
+\
 test_can_play_type_ogg
 .
 html
@@ -648,6 +652,10 @@ headers
 bug461281
 .
 ogg
+\
+bug482461
+.
+ogv
 \
 redirect
 .

@@ -71,8 +71,9 @@ buffer
 OggPlayBuffer
 *
 )
-oggplay_malloc
+oggplay_calloc
 (
+1
 sizeof
 (
 OggPlayBuffer
