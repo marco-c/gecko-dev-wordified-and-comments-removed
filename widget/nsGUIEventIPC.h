@@ -42,7 +42,7 @@ mozilla
 widget
 :
 :
-EventFlags
+BaseEventFlags
 >
 {
 typedef
@@ -52,7 +52,7 @@ mozilla
 widget
 :
 :
-EventFlags
+BaseEventFlags
 paramType
 ;
 static

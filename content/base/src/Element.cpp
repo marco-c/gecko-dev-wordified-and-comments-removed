@@ -7072,10 +7072,12 @@ aExtraEventFlags
 event
 .
 mFlags
-|
-=
+.
+Union
+(
 *
 aExtraEventFlags
+)
 ;
 }
 return

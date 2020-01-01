@@ -812,12 +812,6 @@ eventFlags
 ;
 eventFlags
 .
-Clear
-(
-)
-;
-eventFlags
-.
 mMultipleActionsPrevented
 =
 true

@@ -904,9 +904,11 @@ timeMs
 event
 .
 mFlags
-|
-=
+.
+Union
+(
 flags
+)
 ;
 return
 nsWindow
