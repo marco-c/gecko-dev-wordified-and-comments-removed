@@ -915,6 +915,10 @@ aPrompt
 ;
 private
 :
+friend
+class
+nsNPAPIPlugin
+;
 nsresult
 TrySetUpPluginInstance
 (
@@ -999,6 +1003,15 @@ char
 *
 &
 aMimeType
+)
+;
+nsPluginTag
+*
+FindPluginTag
+(
+nsIPlugin
+*
+plugin
 )
 ;
 nsresult
