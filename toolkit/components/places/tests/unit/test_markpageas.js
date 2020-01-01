@@ -295,6 +295,7 @@ aTime
 aSessionID
 aReferringID
 aTransitionType
+aAdded
 )
 {
 do_check_eq
@@ -406,7 +407,7 @@ equals
 (
 Ci
 .
-nsINavBookmarkObserver
+nsINavHistoryObserver
 )
 |
 |
