@@ -961,10 +961,6 @@ test_bug660663
 .
 html
 \
-test_bug664299
-.
-html
-\
 test_bug666200
 .
 html
@@ -1605,6 +1601,10 @@ html
 file_iframe_sandbox_worker
 .
 js
+\
+test_img_attributes_reflection
+.
+html
 \
 test_named_options
 .
