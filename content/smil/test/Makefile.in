@@ -484,6 +484,10 @@ smilXHR_helper
 .
 svg
 \
+test_smilAccessKey
+.
+xhtml
+\
 test_smilAnimateMotion
 .
 xhtml
