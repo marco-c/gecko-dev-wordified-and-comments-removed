@@ -130,7 +130,9 @@ CSPRep
 fromString
 (
 "
-allow
+default
+-
+src
 *
 "
 )
@@ -179,7 +181,9 @@ POLICY
 INITED
 TO
 '
-allow
+default
+-
+src
 *
 '
 "
@@ -224,7 +228,7 @@ TYPE_OTHER
 =
 cspr_sd
 .
-ALLOW
+DEFAULT_SRC
 ;
 csp
 .
@@ -376,7 +380,7 @@ TYPE_XBL
 =
 cspr_sd
 .
-ALLOW
+DEFAULT_SRC
 ;
 csp
 .
@@ -389,7 +393,7 @@ TYPE_PING
 =
 cspr_sd
 .
-ALLOW
+DEFAULT_SRC
 ;
 csp
 .
@@ -402,7 +406,7 @@ TYPE_DTD
 =
 cspr_sd
 .
-ALLOW
+DEFAULT_SRC
 ;
 }
 ContentSecurityPolicy
@@ -1643,7 +1647,9 @@ directive
 _isImplicit
 ?
 '
-allow
+default
+-
+src
 '
 :
 '
@@ -1848,7 +1854,9 @@ directive
 _isImplicit
 ?
 '
-allow
+default
+-
+src
 '
 :
 cspContext
