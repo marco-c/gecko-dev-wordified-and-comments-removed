@@ -4375,7 +4375,7 @@ rt
 >
 atomState
 .
-stringAtom
+string
 ;
 break
 ;
@@ -4389,7 +4389,7 @@ rt
 >
 atomState
 .
-undefinedAtom
+undefined
 ;
 break
 ;
@@ -4403,7 +4403,7 @@ rt
 >
 atomState
 .
-objectAtom
+object
 ;
 break
 ;
@@ -4426,7 +4426,7 @@ rt
 >
 atomState
 .
-booleanAtom
+boolean
 ;
 break
 ;
@@ -4439,7 +4439,7 @@ rt
 >
 atomState
 .
-numberAtom
+number
 ;
 break
 ;
@@ -4606,7 +4606,7 @@ rt
 >
 atomState
 .
-undefinedAtom
+undefined
 )
 {
 type
@@ -4625,7 +4625,7 @@ rt
 >
 atomState
 .
-stringAtom
+string
 )
 {
 type
@@ -4644,7 +4644,7 @@ rt
 >
 atomState
 .
-booleanAtom
+boolean
 )
 {
 type
@@ -4663,7 +4663,7 @@ rt
 >
 atomState
 .
-numberAtom
+number
 )
 {
 type

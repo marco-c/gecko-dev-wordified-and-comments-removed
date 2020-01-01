@@ -4880,12 +4880,11 @@ data
 cx
 -
 >
-runtime
--
->
-atomState
+names
+(
+)
 .
-emptyAtom
+empty
 ;
 }
 else
