@@ -52,7 +52,7 @@ color_divider_border
 define
 color_url_border
 #
-222222
+737373
 %
 define
 color_button_border
@@ -327,6 +327,12 @@ margin_context_popup
 39mozmm
 %
 define
+margin_xlarge
+3
+.
+39mozmm
+%
+define
 margin_large
 2
 .
@@ -337,6 +343,12 @@ margin_xxxnormal
 1
 .
 69mozmm
+%
+define
+margin_xxnormal
+1
+.
+27mozmm
 %
 define
 margin_xnormal
@@ -538,9 +550,9 @@ progressmeter_height
 %
 define
 urlbar_edit_height
-6
+5
 .
-35mozmm
+25mozmm
 %
 define
 urlbar_edit_indent
