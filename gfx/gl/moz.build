@@ -366,6 +366,11 @@ SurfaceTypes
 .
 h
 '
+'
+VBOArena
+.
+h
+'
 ]
 if
 CONFIG
@@ -641,6 +646,11 @@ cpp
 '
 '
 SurfaceStream
+.
+cpp
+'
+'
+VBOArena
 .
 cpp
 '
