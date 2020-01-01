@@ -31,12 +31,6 @@ nsEncoderSupport
 2
 )
 {
-mUtil
-.
-InitToGBKTable
-(
-)
-;
 }
 NS_IMETHODIMP
 nsUnicodeToGB2312V2

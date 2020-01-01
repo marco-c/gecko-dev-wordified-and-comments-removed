@@ -65,12 +65,6 @@ nsEncoderSupport
 6
 )
 {
-mUtil
-.
-InitToGBKTable
-(
-)
-;
 mHZState
 =
 HZ_STATE_ASCII
