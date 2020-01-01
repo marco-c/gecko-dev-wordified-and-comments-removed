@@ -134,6 +134,14 @@ nsIMutableArray
 removedItems
 )
 ;
+nsresult
+RemoveIconCacheForItems
+(
+nsIMutableArray
+*
+removedItems
+)
+;
 friend
 class
 WinTaskbar

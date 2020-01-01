@@ -504,7 +504,7 @@ add
 sub
 lists
 using
-addListBuild
+addListToBuild
 then
 commit
 the
@@ -699,7 +699,7 @@ of
 an
 array
 of
-nsIWinJumpListItems
+nsIJumpListItem
 representing
 items
 *
