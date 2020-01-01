@@ -19132,6 +19132,9 @@ WillCauseReflow
 (
 )
 ;
+PRBool
+didReconstruct
+;
 mFrameConstructor
 -
 >
@@ -19140,7 +19143,8 @@ ContentRemoved
 aContainer
 aChild
 aIndexInContainer
-PR_FALSE
+&
+didReconstruct
 )
 ;
 VERIFY_STYLE_TREE
