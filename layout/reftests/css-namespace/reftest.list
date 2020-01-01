@@ -170,7 +170,6 @@ lime
 3
 .
 xml
-fails
 =
 =
 syntax
@@ -185,9 +184,6 @@ lime
 5
 .
 xml
-#
-bug
-476856
 =
 =
 syntax
