@@ -2339,7 +2339,7 @@ canvas
 nsHTMLCanvasElement
 :
 :
-FromContent
+FromContentOrNull
 (
 canvasFrame
 -
