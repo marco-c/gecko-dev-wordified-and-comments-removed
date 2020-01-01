@@ -363,13 +363,6 @@ h
 #
 include
 "
-nsBidiPresUtils
-.
-h
-"
-#
-include
-"
 nsBidiUtils
 .
 h
