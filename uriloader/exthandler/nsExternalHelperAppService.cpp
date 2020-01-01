@@ -198,8 +198,6 @@ nsIRDFRemoteDataSource
 h
 "
 #
-endif
-#
 include
 "
 nsHelperAppRDF
@@ -207,16 +205,11 @@ nsHelperAppRDF
 h
 "
 #
-include
-"
-nsIMIMEInfo
-.
-h
-"
+endif
 #
 include
 "
-nsDirectoryServiceDefs
+nsIMIMEInfo
 .
 h
 "
