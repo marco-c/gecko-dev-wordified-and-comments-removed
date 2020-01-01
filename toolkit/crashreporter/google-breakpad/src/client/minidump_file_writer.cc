@@ -137,8 +137,8 @@ O_WRONLY
 |
 O_CREAT
 |
-O_TRUNC
-0666
+O_EXCL
+0600
 )
 ;
 return
