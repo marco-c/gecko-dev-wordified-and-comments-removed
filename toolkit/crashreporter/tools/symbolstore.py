@@ -3781,6 +3781,10 @@ write
 (
 line
 )
+                            
+result
+=
+True
                     
 f
 .
@@ -3820,8 +3824,6 @@ and
 vcs_root
 :
                         
-result
-=
 self
 .
 SourceServerIndexing
@@ -3831,10 +3833,6 @@ guid
 sourceFileStream
 vcs_root
 )
-                    
-result
-=
-True
             
 except
 StopIteration
@@ -5203,6 +5201,42 @@ shutil
 rmtree
 (
 dsymbundle
+)
+        
+if
+not
+res
+:
+            
+print
+>
+>
+sys
+.
+stderr
+"
+Couldn
+'
+t
+read
+DWARF
+symbols
+in
+:
+%
+s
+"
+%
+dsymbundle
+            
+res
+=
+Dumper
+.
+ProcessFile
+(
+self
+file
 )
         
 return
