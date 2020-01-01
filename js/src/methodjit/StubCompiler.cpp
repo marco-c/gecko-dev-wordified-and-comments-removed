@@ -160,7 +160,7 @@ generation
 )
 {
 Jump
-j
+j2
 =
 masm
 .
@@ -172,7 +172,7 @@ jumpList
 .
 append
 (
-j
+j2
 )
 ;
 }
@@ -305,15 +305,11 @@ n
 "
 )
 ;
-#
-if
-0
 frame
 .
 merge
 (
 masm
-snapshot
 invalidationDepth
 )
 ;
@@ -341,8 +337,6 @@ getLabel
 )
 )
 ;
-#
-endif
 JaegerSpew
 (
 JSpew_Insns
