@@ -614,6 +614,10 @@ bug
 566049
 )
 \
+test_hanging
+.
+html
+\
 crashing_subpage
 .
 html
@@ -777,10 +781,6 @@ bug
 and
 bug
 599267
-#
-and
-bug
-599378
 .
 ifneq
 (
@@ -794,10 +794,6 @@ _MOCHITEST_FILES
 =
 \
 test_crashing
-.
-html
-\
-test_hanging
 .
 html
 \
