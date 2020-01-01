@@ -10881,6 +10881,7 @@ HasMutationListeners
 (
 aKid
 NS_EVENT_BITS_MUTATION_NODEINSERTED
+container
 )
 )
 {
@@ -11150,6 +11151,7 @@ HasMutationListeners
 (
 aKid
 NS_EVENT_BITS_MUTATION_NODEREMOVED
+container
 )
 )
 {
@@ -14538,6 +14540,7 @@ HasMutationListeners
 (
 this
 NS_EVENT_BITS_MUTATION_ATTRMODIFIED
+this
 )
 ;
 if
@@ -15925,6 +15928,7 @@ HasMutationListeners
 (
 this
 NS_EVENT_BITS_MUTATION_ATTRMODIFIED
+this
 )
 ;
 nsCOMPtr

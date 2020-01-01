@@ -1612,6 +1612,9 @@ nsINode
 aNode
 PRUint32
 aType
+nsINode
+*
+aTargetForSubtreeModified
 )
 ;
 static
