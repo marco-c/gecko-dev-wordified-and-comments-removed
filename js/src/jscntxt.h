@@ -554,12 +554,6 @@ VMAllocator
 )
 reTempAlloc
 ;
-CLS
-(
-TraceRecorder
-)
-abortStack
-;
 #
 ifdef
 DEBUG
