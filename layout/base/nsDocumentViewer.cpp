@@ -802,13 +802,6 @@ h
 #
 include
 "
-nsPresShellIterator
-.
-h
-"
-#
-include
-"
 prenv
 .
 h

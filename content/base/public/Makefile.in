@@ -539,10 +539,6 @@ nsLineBreaker
 .
 h
 \
-nsPresShellIterator
-.
-h
-\
 nsReferencedElement
 .
 h

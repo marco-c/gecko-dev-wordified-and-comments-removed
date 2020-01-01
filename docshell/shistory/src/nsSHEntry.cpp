@@ -811,7 +811,7 @@ mDocument
 mDocument
 -
 >
-SetShellsHidden
+SetShellHidden
 (
 PR_TRUE
 )
@@ -2278,7 +2278,7 @@ mDocument
 mDocument
 -
 >
-SetShellsHidden
+SetShellHidden
 (
 PR_FALSE
 )
