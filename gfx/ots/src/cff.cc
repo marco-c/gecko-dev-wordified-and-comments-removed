@@ -511,7 +511,6 @@ offsets
 i
 ]
 <
-=
 index
 -
 >
