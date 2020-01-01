@@ -214,13 +214,10 @@ Cancel
 }
 }
 ;
-nsresult
-GetCurrentFrameNoRef
-(
 gfxIImageFrame
 *
-*
-aFrame
+GetCurrentFrameNoRef
+(
 )
 ;
 inline
