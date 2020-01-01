@@ -152,6 +152,10 @@ nsIDOMMozVoicemailStatus
 .
 idl
 \
+nsIVoicemailProvider
+.
+idl
+\
 (
 NULL
 )
