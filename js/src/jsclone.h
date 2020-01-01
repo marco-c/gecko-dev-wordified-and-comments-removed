@@ -43,17 +43,6 @@ Vector
 .
 h
 "
-JS_FRIEND_API
-(
-uint64_t
-)
-js_GetSCOffset
-(
-JSStructuredCloneWriter
-*
-writer
-)
-;
 namespace
 js
 {

@@ -77,6 +77,13 @@ jsfriendapi
 .
 h
 "
+#
+include
+"
+jsstr
+.
+h
+"
 using
 namespace
 mozilla
@@ -1040,7 +1047,7 @@ domwin
 else
 if
 (
-JSID_IS_ATOM
+JSID_IS_STRING
 (
 id
 )
@@ -1586,7 +1593,7 @@ name
 ;
 if
 (
-JSID_IS_ATOM
+JSID_IS_STRING
 (
 id
 )
@@ -2528,7 +2535,7 @@ id
 |
 |
 (
-JSID_IS_ATOM
+JSID_IS_STRING
 (
 id
 )

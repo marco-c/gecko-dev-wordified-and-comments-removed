@@ -2011,10 +2011,13 @@ GetScopeForNewJSObjects
 )
 =
 =
+js
+:
+:
+GetContextCompartment
+(
 cx
--
->
-compartment
+)
 "
 bad
 scope

@@ -36,13 +36,6 @@ h
 #
 include
 "
-jscntxt
-.
-h
-"
-#
-include
-"
 nsINode
 .
 h
@@ -1175,7 +1168,7 @@ id
 if
 (
 !
-JSID_IS_ATOM
+JSID_IS_STRING
 (
 id
 )
