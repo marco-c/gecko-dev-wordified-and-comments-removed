@@ -186,6 +186,15 @@ IsAnimated
 (
 )
 ;
+PRBool
+ShouldIgnoreInvalidation
+(
+)
+{
+return
+mIgnoreInvalidation
+;
+}
 void
 StartAnimation
 (
@@ -251,6 +260,9 @@ nsCOMPtr
 nsIStreamListener
 >
 mListener
+;
+PRPackedBool
+mIgnoreInvalidation
 ;
 static
 nsIAtom
