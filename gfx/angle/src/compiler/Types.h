@@ -31,6 +31,11 @@ compilerdebug
 .
 h
 "
+#
+include
+<
+cstdlib
+>
 class
 TType
 ;
