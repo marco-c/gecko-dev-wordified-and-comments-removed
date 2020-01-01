@@ -373,6 +373,13 @@ h
 #
 include
 "
+nsIDOMWakeLock
+.
+h
+"
+#
+include
+"
 jsapi
 .
 h
@@ -2211,6 +2218,12 @@ nsCOMPtr
 nsIIdleService
 >
 mIdleService
+;
+nsCOMPtr
+<
+nsIDOMMozWakeLock
+>
+mWakeLock
 ;
 static
 bool
