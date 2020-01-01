@@ -5158,6 +5158,12 @@ mHeadsetSocket
 nullptr
 ;
 }
+MOZ_ASSERT
+(
+!
+mRunnable
+)
+;
 mRunnable
 =
 aRunnable
