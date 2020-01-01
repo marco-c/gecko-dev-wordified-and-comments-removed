@@ -651,6 +651,10 @@ nsIRequestObserverProxy
 .
 idl
 \
+nsISecurityInfoProvider
+.
+idl
+\
 nsIStreamListenerTee
 .
 idl
