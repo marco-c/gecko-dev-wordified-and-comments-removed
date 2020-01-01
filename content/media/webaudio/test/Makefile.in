@@ -123,6 +123,10 @@ test_bug867089
 .
 html
 \
+test_bug867104
+.
+html
+\
 test_bug867174
 .
 html
