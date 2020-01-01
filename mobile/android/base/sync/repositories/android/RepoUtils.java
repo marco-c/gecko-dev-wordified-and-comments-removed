@@ -585,7 +585,7 @@ colId
 }
 public
 static
-long
+int
 getIntFromCursor
 (
 Cursor
