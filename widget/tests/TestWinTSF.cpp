@@ -12999,7 +12999,7 @@ nsr
 viewManager
 -
 >
-GetWidget
+GetRootWidget
 (
 getter_AddRefs
 (
@@ -13344,7 +13344,7 @@ nsr
 viewManager
 -
 >
-GetWidget
+GetRootWidget
 (
 getter_AddRefs
 (
