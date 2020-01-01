@@ -73,6 +73,10 @@ log
 /
 .
 clang_complete
+/
+mach
+.
+ini
 #
 Empty
 marker
