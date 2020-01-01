@@ -792,7 +792,7 @@ validateLength
 (
 JSContext
 *
-cx
+maybecx
 size_t
 length
 )
@@ -812,7 +812,7 @@ MAX_LENGTH
 {
 js_ReportAllocationOverflow
 (
-cx
+maybecx
 )
 ;
 return

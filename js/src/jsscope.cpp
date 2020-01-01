@@ -5321,6 +5321,9 @@ false
 ;
 if
 (
+self
+-
+>
 isNative
 (
 )
