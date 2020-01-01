@@ -586,7 +586,7 @@ vma
 mRt
 -
 >
-calloc
+calloc_
 (
 nbytes
 )
@@ -737,7 +737,7 @@ mReserveLimit
 UnwantedForeground
 :
 :
-free
+free_
 (
 p
 )
@@ -5912,7 +5912,7 @@ TrackerPage
 cx
 -
 >
-calloc
+calloc_
 (
 sizeof
 (
@@ -5972,7 +5972,7 @@ next
 cx
 -
 >
-free
+free_
 (
 p
 )
@@ -23999,7 +23999,7 @@ char
 cx
 -
 >
-malloc
+malloc_
 (
 (
 filename
@@ -24074,7 +24074,7 @@ label
 cx
 -
 >
-free
+free_
 (
 label
 )
@@ -40860,7 +40860,7 @@ conversion
 rt
 -
 >
-malloc
+malloc_
 (
 size
 )
@@ -88856,7 +88856,7 @@ filename
 cx
 -
 >
-free
+free_
 (
 filename
 )

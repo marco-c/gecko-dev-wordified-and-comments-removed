@@ -417,7 +417,7 @@ Shape
 rt
 -
 >
-calloc
+calloc_
 (
 JS_BIT
 (
@@ -1258,7 +1258,7 @@ Shape
 cx
 -
 >
-calloc
+calloc_
 (
 nbytes
 )
@@ -1368,7 +1368,7 @@ oldsize
 cx
 -
 >
-free
+free_
 (
 oldTable
 )

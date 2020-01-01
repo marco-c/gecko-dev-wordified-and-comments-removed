@@ -3118,7 +3118,7 @@ p
 cx
 -
 >
-free
+free_
 (
 p
 )
@@ -3149,7 +3149,7 @@ jschar
 cx
 -
 >
-malloc
+malloc_
 (
 (
 len

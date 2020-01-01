@@ -1906,7 +1906,7 @@ JSArgumentFormatMap
 cx
 -
 >
-malloc
+malloc_
 (
 sizeof
 *
@@ -2047,7 +2047,7 @@ next
 cx
 -
 >
-free
+free_
 (
 map
 )
@@ -3754,7 +3754,7 @@ mem
 OffTheBooks
 :
 :
-calloc
+calloc_
 (
 sizeof
 (
@@ -9106,7 +9106,7 @@ JSIdArray
 cx
 -
 >
-calloc
+calloc_
 (
 offsetof
 (
@@ -9888,7 +9888,7 @@ return
 cx
 -
 >
-malloc
+malloc_
 (
 nbytes
 )
@@ -9915,7 +9915,7 @@ return
 cx
 -
 >
-realloc
+realloc_
 (
 p
 nbytes
@@ -9940,7 +9940,7 @@ return
 cx
 -
 >
-free
+free_
 (
 p
 )
@@ -10009,7 +10009,7 @@ p
 cx
 -
 >
-malloc
+malloc_
 (
 n
 )
@@ -11749,7 +11749,7 @@ JSHeapDumpNode
 cx
 -
 >
-malloc
+malloc_
 (
 offsetof
 (
@@ -12526,7 +12526,7 @@ parent
 cx
 -
 >
-free
+free_
 (
 node
 )
@@ -13464,7 +13464,7 @@ ida
 cx
 -
 >
-free
+free_
 (
 ida
 )
@@ -22938,7 +22938,7 @@ lineno
 cx
 -
 >
-free
+free_
 (
 chars
 )
@@ -23148,7 +23148,7 @@ older
 cx
 -
 >
-free
+free_
 (
 chars
 )
@@ -23313,7 +23313,7 @@ jschar
 cx
 -
 >
-realloc
+realloc_
 (
 buf
 len
@@ -23333,7 +23333,7 @@ tmpbuf
 cx
 -
 >
-free
+free_
 (
 buf
 )
@@ -23405,7 +23405,7 @@ jschar
 cx
 -
 >
-malloc
+malloc_
 (
 len
 *
@@ -23506,7 +23506,7 @@ findVersion
 cx
 -
 >
-free
+free_
 (
 buf
 )
@@ -24633,7 +24633,7 @@ lineno
 cx
 -
 >
-free
+free_
 (
 chars
 )
@@ -25554,7 +25554,7 @@ rval
 cx
 -
 >
-free
+free_
 (
 chars
 )
@@ -26699,7 +26699,7 @@ str
 cx
 -
 >
-free
+free_
 (
 js
 )
@@ -29187,7 +29187,7 @@ flags
 cx
 -
 >
-free
+free_
 (
 chars
 )
@@ -29495,7 +29495,7 @@ flags
 cx
 -
 >
-free
+free_
 (
 chars
 )
@@ -29899,7 +29899,7 @@ JSExceptionState
 cx
 -
 >
-malloc
+malloc_
 (
 sizeof
 (
@@ -30084,7 +30084,7 @@ exception
 cx
 -
 >
-free
+free_
 (
 state
 )

@@ -617,7 +617,7 @@ parser
 context
 -
 >
-free
+free_
 (
 spanDeps
 )
@@ -634,7 +634,7 @@ parser
 context
 -
 >
-free
+free_
 (
 upvarMap
 .
@@ -2862,7 +2862,7 @@ JSSpanDep
 cx
 -
 >
-realloc
+realloc_
 (
 sdbase
 size
@@ -5747,7 +5747,7 @@ numSpanDeps
 cx
 -
 >
-free
+free_
 (
 cg
 -
@@ -10592,7 +10592,7 @@ UpvarCookie
 cx
 -
 >
-realloc
+realloc_
 (
 vector
 length
@@ -15117,7 +15117,7 @@ jsbitmap
 cx
 -
 >
-malloc
+malloc_
 (
 (
 JS_BIT
@@ -15200,7 +15200,7 @@ intmap_space
 cx
 -
 >
-free
+free_
 (
 intmap
 )
@@ -15740,7 +15740,7 @@ JSParseNode
 cx
 -
 >
-malloc
+malloc_
 (
 tableSize
 )
@@ -16616,7 +16616,7 @@ table
 cx
 -
 >
-free
+free_
 (
 table
 )

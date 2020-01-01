@@ -43382,7 +43382,7 @@ jschar
 cx
 -
 >
-malloc
+malloc_
 (
 (
 length
@@ -43431,7 +43431,7 @@ str
 cx
 -
 >
-free
+free_
 (
 chars
 )

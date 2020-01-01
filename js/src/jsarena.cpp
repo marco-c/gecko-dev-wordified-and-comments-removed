@@ -596,7 +596,7 @@ JSArena
 OffTheBooks
 :
 :
-malloc
+malloc_
 (
 gross
 )
@@ -630,7 +630,7 @@ JSArena
 OffTheBooks
 :
 :
-malloc
+malloc_
 (
 gross
 )
@@ -1036,7 +1036,7 @@ JSArena
 OffTheBooks
 :
 :
-realloc
+realloc_
 (
 a
 gross
@@ -1071,7 +1071,7 @@ JSArena
 OffTheBooks
 :
 :
-realloc
+realloc_
 (
 a
 gross
@@ -1536,7 +1536,7 @@ pool
 UnwantedForeground
 :
 :
-free
+free_
 (
 a
 )
@@ -1745,7 +1745,7 @@ name
 UnwantedForeground
 :
 :
-free
+free_
 (
 pool
 -

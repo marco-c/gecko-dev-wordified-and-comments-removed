@@ -1734,7 +1734,7 @@ jschar
 cx
 -
 >
-malloc
+malloc_
 (
 (
 length
@@ -1784,7 +1784,7 @@ strChars
 cx
 -
 >
-free
+free_
 (
 chars
 )
@@ -1829,7 +1829,7 @@ str
 cx
 -
 >
-free
+free_
 (
 chars
 )
@@ -4093,7 +4093,7 @@ cx
 cx
 -
 >
-free
+free_
 (
 vector
 )
@@ -4102,7 +4102,7 @@ else
 Foreground
 :
 :
-free
+free_
 (
 vector
 )
@@ -4160,7 +4160,7 @@ void
 OffTheBooks
 :
 :
-realloc
+realloc_
 (
 vector
 newCapacity
@@ -4245,7 +4245,7 @@ cx
 cx
 -
 >
-free
+free_
 (
 vector
 )
@@ -4543,7 +4543,7 @@ void
 cx
 -
 >
-realloc
+realloc_
 (
 array
 -
@@ -4995,7 +4995,7 @@ vector
 cx
 -
 >
-free
+free_
 (
 array
 -
@@ -5020,7 +5020,7 @@ void
 cx
 -
 >
-realloc
+realloc_
 (
 array
 -
@@ -8503,7 +8503,7 @@ jschar
 cx
 -
 >
-malloc
+malloc_
 (
 (
 length
@@ -8612,7 +8612,7 @@ srcp
 cx
 -
 >
-free
+free_
 (
 chars
 )
@@ -8872,7 +8872,7 @@ scopeChain
 cx
 -
 >
-free
+free_
 (
 chars
 )
@@ -8947,7 +8947,7 @@ flags
 cx
 -
 >
-free
+free_
 (
 chars
 )
@@ -11261,7 +11261,7 @@ jschar
 cx
 -
 >
-malloc
+malloc_
 (
 (
 newlength
@@ -11435,7 +11435,7 @@ jschar
 cx
 -
 >
-malloc
+malloc_
 (
 (
 newlength
@@ -11613,7 +11613,7 @@ prefix
 cx
 -
 >
-free
+free_
 (
 bp
 )
@@ -36936,7 +36936,7 @@ jschar
 cx
 -
 >
-malloc
+malloc_
 (
 (
 newlen

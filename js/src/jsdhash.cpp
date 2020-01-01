@@ -283,7 +283,7 @@ return
 OffTheBooks
 :
 :
-malloc
+malloc_
 (
 nbytes
 )
@@ -306,7 +306,7 @@ ptr
 UnwantedForeground
 :
 :
-free
+free_
 (
 ptr
 )
@@ -607,7 +607,7 @@ entry
 UnwantedForeground
 :
 :
-free
+free_
 (
 (
 void
@@ -707,7 +707,7 @@ JSDHashTable
 OffTheBooks
 :
 :
-malloc
+malloc_
 (
 sizeof
 *
@@ -738,7 +738,7 @@ capacity
 Foreground
 :
 :
-free
+free_
 (
 table
 )
@@ -770,7 +770,7 @@ table
 UnwantedForeground
 :
 :
-free
+free_
 (
 table
 )

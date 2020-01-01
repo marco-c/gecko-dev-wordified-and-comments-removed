@@ -191,7 +191,7 @@ js
 OffTheBooks
 :
 :
-realloc
+realloc_
 (
 _data
 _max
@@ -276,7 +276,7 @@ js
 UnwantedForeground
 :
 :
-free
+free_
 (
 _data
 )
@@ -1731,7 +1731,7 @@ js
 UnwantedForeground
 :
 :
-free
+free_
 (
 mReserve
 )

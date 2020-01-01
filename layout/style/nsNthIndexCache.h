@@ -181,7 +181,7 @@ public
 :
 void
 *
-malloc
+malloc_
 (
 size_t
 bytes
@@ -198,7 +198,7 @@ bytes
 }
 void
 *
-realloc
+realloc_
 (
 void
 *
@@ -218,7 +218,7 @@ bytes
 ;
 }
 void
-free
+free_
 (
 void
 *

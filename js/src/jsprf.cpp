@@ -1587,7 +1587,7 @@ flags
 UnwantedForeground
 :
 :
-free
+free_
 (
 s
 )
@@ -2563,7 +2563,7 @@ nasArray
 UnwantedForeground
 :
 :
-free
+free_
 (
 nas
 )
@@ -2774,7 +2774,7 @@ nasArray
 UnwantedForeground
 :
 :
-free
+free_
 (
 nas
 )
@@ -3151,7 +3151,7 @@ nasArray
 UnwantedForeground
 :
 :
-free
+free_
 (
 nas
 )
@@ -4656,7 +4656,7 @@ nasArray
 UnwantedForeground
 :
 :
-free
+free_
 (
 nas
 )
@@ -4939,7 +4939,7 @@ char
 OffTheBooks
 :
 :
-realloc
+realloc_
 (
 ss
 -
@@ -4960,7 +4960,7 @@ char
 OffTheBooks
 :
 :
-malloc
+malloc_
 (
 newlen
 )
@@ -5115,7 +5115,7 @@ mem
 Foreground
 :
 :
-free
+free_
 (
 mem
 )
@@ -5193,7 +5193,7 @@ base
 Foreground
 :
 :
-free
+free_
 (
 ss
 .
@@ -5671,7 +5671,7 @@ base
 Foreground
 :
 :
-free
+free_
 (
 ss
 .

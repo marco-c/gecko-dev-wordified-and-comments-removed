@@ -141,7 +141,7 @@ return
 OffTheBooks
 :
 :
-malloc
+malloc_
 (
 size
 )
@@ -164,7 +164,7 @@ size
 UnwantedForeground
 :
 :
-free
+free_
 (
 item
 )
@@ -192,7 +192,7 @@ JSHashEntry
 OffTheBooks
 :
 :
-malloc
+malloc_
 (
 sizeof
 (
@@ -225,7 +225,7 @@ HT_FREE_ENTRY
 UnwantedForeground
 :
 :
-free
+free_
 (
 he
 )

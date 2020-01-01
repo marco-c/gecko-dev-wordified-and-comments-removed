@@ -950,7 +950,7 @@ Label
 cx
 -
 >
-malloc
+malloc_
 (
 sizeof
 (
@@ -1238,7 +1238,7 @@ Compiler
 cx
 -
 >
-free
+free_
 (
 jumpMap
 )
@@ -1246,7 +1246,7 @@ jumpMap
 cx
 -
 >
-free
+free_
 (
 savedTraps
 )
@@ -1375,7 +1375,7 @@ bool
 cx
 -
 >
-calloc
+calloc_
 (
 sizeof
 (
@@ -2521,7 +2521,7 @@ uint8
 cx
 -
 >
-calloc
+calloc_
 (
 totalBytes
 )

@@ -650,7 +650,7 @@ data
 cx
 -
 >
-calloc
+calloc_
 (
 nbytes
 )
@@ -691,7 +691,7 @@ data
 cx
 -
 >
-free
+free_
 (
 data
 )
@@ -6376,7 +6376,7 @@ srcbuf
 cx
 -
 >
-malloc
+malloc_
 (
 tarray
 -
@@ -6848,7 +6848,7 @@ break
 UnwantedForeground
 :
 :
-free
+free_
 (
 srcbuf
 )

@@ -2132,9 +2132,7 @@ static
 JS_INLINE
 void
 *
-(
-malloc
-)
+malloc_
 (
 size_t
 bytes
@@ -2153,9 +2151,7 @@ static
 JS_INLINE
 void
 *
-(
-calloc
-)
+calloc_
 (
 size_t
 bytes
@@ -2174,9 +2170,7 @@ static
 JS_INLINE
 void
 *
-(
-realloc
-)
+realloc_
 (
 void
 *
@@ -2205,9 +2199,7 @@ public
 static
 JS_ALWAYS_INLINE
 void
-(
-free
-)
+free_
 (
 void
 *

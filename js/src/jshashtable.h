@@ -1140,7 +1140,7 @@ Entry
 )
 alloc
 .
-malloc
+malloc_
 (
 capacity
 *
@@ -1240,7 +1240,7 @@ Entry
 ;
 alloc
 .
-free
+free_
 (
 oldTable
 )

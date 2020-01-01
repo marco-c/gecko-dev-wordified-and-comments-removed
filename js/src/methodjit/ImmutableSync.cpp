@@ -86,7 +86,7 @@ ImmutableSync
 cx
 -
 >
-free
+free_
 (
 entries
 )
@@ -111,7 +111,7 @@ SyncEntry
 cx
 -
 >
-calloc
+calloc_
 (
 sizeof
 (

@@ -1,13 +1,6 @@
 #
 include
 <
-stdlib
-.
-h
->
-#
-include
-<
 math
 .
 h
@@ -2189,7 +2182,7 @@ rt
 gcChunkAllocator
 -
 >
-free
+free_
 (
 p
 )
@@ -2314,7 +2307,7 @@ rt
 gcChunkAllocator
 -
 >
-free
+free_
 (
 p
 )
@@ -9752,7 +9745,7 @@ length
 rt
 -
 >
-free
+free_
 (
 chars
 )
@@ -11066,7 +11059,7 @@ void
 OffTheBooks
 :
 :
-malloc
+malloc_
 (
 FREE_ARRAY_SIZE
 )
@@ -11108,7 +11101,7 @@ false
 Foreground
 :
 :
-free
+free_
 (
 ptr
 )

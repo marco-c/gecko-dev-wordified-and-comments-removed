@@ -8066,7 +8066,7 @@ bytes
 cx
 -
 >
-free
+free_
 (
 bytes
 )
@@ -8485,7 +8485,7 @@ bytes
 cx
 -
 >
-free
+free_
 (
 bytes
 )
@@ -8886,7 +8886,7 @@ Edge
 OffTheBooks
 :
 :
-calloc
+calloc_
 (
 nedges
 *
@@ -9200,7 +9200,7 @@ style
 cx
 -
 >
-free
+free_
 (
 graph
 )

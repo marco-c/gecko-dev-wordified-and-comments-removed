@@ -953,7 +953,7 @@ jschar
 maybecx
 -
 >
-malloc
+malloc_
 (
 bytes
 )
@@ -966,7 +966,7 @@ jschar
 OffTheBooks
 :
 :
-malloc
+malloc_
 (
 bytes
 )
@@ -1841,7 +1841,7 @@ jschar
 cx
 -
 >
-malloc
+malloc_
 (
 size
 )
@@ -2881,7 +2881,7 @@ jschar
 cx
 -
 >
-malloc
+malloc_
 (
 (
 newlength
@@ -3166,7 +3166,7 @@ retstr
 cx
 -
 >
-free
+free_
 (
 newchars
 )
@@ -3281,7 +3281,7 @@ jschar
 cx
 -
 >
-malloc
+malloc_
 (
 (
 length
@@ -3565,7 +3565,7 @@ retstr
 cx
 -
 >
-free
+free_
 (
 newchars
 )
@@ -4618,7 +4618,7 @@ jschar
 cx
 -
 >
-malloc
+malloc_
 (
 (
 n
@@ -4741,7 +4741,7 @@ str
 cx
 -
 >
-free
+free_
 (
 t
 )
@@ -5177,7 +5177,7 @@ jschar
 cx
 -
 >
-malloc
+malloc_
 (
 (
 n
@@ -5252,7 +5252,7 @@ str
 cx
 -
 >
-free
+free_
 (
 news
 )
@@ -5456,7 +5456,7 @@ jschar
 cx
 -
 >
-malloc
+malloc_
 (
 (
 n
@@ -5531,7 +5531,7 @@ str
 cx
 -
 >
-free
+free_
 (
 news
 )
@@ -16286,7 +16286,7 @@ jschar
 cx
 -
 >
-malloc
+malloc_
 (
 (
 taglen
@@ -16554,7 +16554,7 @@ retstr
 Foreground
 :
 :
-free
+free_
 (
 (
 char
@@ -18902,7 +18902,7 @@ jschar
 cx
 -
 >
-malloc
+malloc_
 (
 (
 argc
@@ -18961,7 +18961,7 @@ code
 cx
 -
 >
-free
+free_
 (
 chars
 )
@@ -19008,7 +19008,7 @@ str
 cx
 -
 >
-free
+free_
 (
 chars
 )
@@ -19707,7 +19707,7 @@ jschar
 cx
 -
 >
-realloc
+realloc_
 (
 buf
 bytes
@@ -19722,7 +19722,7 @@ tmp
 cx
 -
 >
-free
+free_
 (
 buf
 )
@@ -19755,7 +19755,7 @@ str
 cx
 -
 >
-free
+free_
 (
 buf
 )
@@ -20126,7 +20126,7 @@ jschar
 cx
 -
 >
-malloc
+malloc_
 (
 (
 n
@@ -20181,7 +20181,7 @@ str
 cx
 -
 >
-free
+free_
 (
 news
 )
@@ -20262,7 +20262,7 @@ str
 cx
 -
 >
-free
+free_
 (
 chars
 )
@@ -20335,7 +20335,7 @@ jschar
 cx
 -
 >
-malloc
+malloc_
 (
 m
 )
@@ -20374,7 +20374,7 @@ str
 cx
 -
 >
-free
+free_
 (
 news
 )
@@ -21885,7 +21885,7 @@ jschar
 cx
 -
 >
-malloc
+malloc_
 (
 (
 nchars
@@ -21946,7 +21946,7 @@ jschar
 cx
 -
 >
-malloc
+malloc_
 (
 (
 nchars
@@ -22094,7 +22094,7 @@ cx
 cx
 -
 >
-malloc
+malloc_
 (
 nbytes
 +
@@ -22104,7 +22104,7 @@ nbytes
 OffTheBooks
 :
 :
-malloc
+malloc_
 (
 nbytes
 +
@@ -22161,7 +22161,7 @@ cx
 cx
 -
 >
-malloc
+malloc_
 (
 nbytes
 +
@@ -22171,7 +22171,7 @@ nbytes
 OffTheBooks
 :
 :
-malloc
+malloc_
 (
 nbytes
 +
