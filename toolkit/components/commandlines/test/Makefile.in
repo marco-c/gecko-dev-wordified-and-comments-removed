@@ -482,6 +482,19 @@ config
 rules
 .
 mk
+ifneq
+(
+(
+filter
+-
+out
+OS2
+Darwin
+(
+OS_ARCH
+)
+)
+)
 #
 Hack
 to
@@ -530,3 +543,4 @@ unit
 test_bug410156
 .
 js
+endif
