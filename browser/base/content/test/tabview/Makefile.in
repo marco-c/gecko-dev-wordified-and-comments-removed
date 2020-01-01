@@ -500,10 +500,6 @@ browser_tabview_bug594958
 .
 js
 \
-browser_tabview_bug595020
-.
-js
-\
 browser_tabview_bug595191
 .
 js
