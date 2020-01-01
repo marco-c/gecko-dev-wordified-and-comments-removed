@@ -134,7 +134,7 @@ void
 nsSVGSwitchElement
 :
 :
-MaybeInvalidate
+InvalidateIfActiveChildChanged
 (
 )
 {
@@ -214,7 +214,7 @@ rv
 )
 )
 {
-MaybeInvalidate
+InvalidateIfActiveChildChanged
 (
 )
 ;
@@ -255,7 +255,7 @@ rv
 )
 )
 {
-MaybeInvalidate
+InvalidateIfActiveChildChanged
 (
 )
 ;
