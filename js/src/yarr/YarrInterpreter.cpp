@@ -9212,7 +9212,7 @@ ByteDisjunction
 disjunction
 )
 {
-dataLog
+dataLogF
 (
 "
 ByteDisjunction
@@ -9255,7 +9255,7 @@ size
 +
 i
 )
-dataLog
+dataLogF
 (
 "
 {
@@ -9274,7 +9274,7 @@ i
 type
 )
 ;
-dataLog
+dataLogF
 (
 "
 \

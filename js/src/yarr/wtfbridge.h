@@ -1129,7 +1129,7 @@ deleteAllValues
 static
 inline
 void
-dataLog
+dataLogF
 (
 const
 char
