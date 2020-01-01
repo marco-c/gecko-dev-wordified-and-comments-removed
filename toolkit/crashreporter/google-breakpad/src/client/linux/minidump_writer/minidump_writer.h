@@ -47,6 +47,8 @@ char
 filename
 pid_t
 process
+pid_t
+process_blamed_thread
 )
 ;
 }

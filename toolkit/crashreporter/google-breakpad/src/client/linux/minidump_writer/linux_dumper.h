@@ -274,10 +274,6 @@ Init
 bool
 ThreadsAttach
 (
-pid_t
-except
-=
-0
 )
 ;
 bool

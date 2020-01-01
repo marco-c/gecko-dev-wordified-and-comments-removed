@@ -504,8 +504,6 @@ LinuxDumper
 :
 ThreadsAttach
 (
-pid_t
-except
 )
 {
 if
@@ -538,16 +536,6 @@ size
 +
 +
 i
-)
-if
-(
-except
-!
-=
-threads_
-[
-i
-]
 )
 good
 &

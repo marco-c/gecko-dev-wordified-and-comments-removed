@@ -247,6 +247,8 @@ WriteMinidumpForChild
 (
 pid_t
 child
+pid_t
+child_blamed_thread
 const
 std
 :

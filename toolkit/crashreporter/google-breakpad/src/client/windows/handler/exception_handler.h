@@ -320,6 +320,8 @@ WriteMinidumpForChild
 (
 HANDLE
 child
+DWORD
+child_blamed_thread
 const
 wstring
 &

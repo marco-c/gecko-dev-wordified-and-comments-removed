@@ -1687,6 +1687,8 @@ WriteMinidumpForChild
 (
 pid_t
 child
+pid_t
+child_blamed_thread
 const
 std
 :
@@ -1723,6 +1725,7 @@ eh
 .
 next_minidump_path_c_
 child
+child_blamed_thread
 )
 )
 return
