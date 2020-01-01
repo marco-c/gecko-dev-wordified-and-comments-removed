@@ -103,6 +103,10 @@ endif
 return
 ;
 }
+updateCharacterEncodingMenuState
+(
+)
+;
 if
 (
 event
