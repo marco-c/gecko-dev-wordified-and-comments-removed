@@ -3759,6 +3759,10 @@ getItemForElement
 function
 (
 aElement
+aFlags
+=
+{
+}
 )
 {
 while
@@ -3777,6 +3781,18 @@ get
 (
 aElement
 )
+;
+if
+(
+!
+aFlags
+.
+noSiblings
+)
+{
+item
+=
+item
 |
 |
 this
@@ -3802,6 +3818,7 @@ aElement
 previousElementSibling
 )
 ;
+}
 if
 (
 item
