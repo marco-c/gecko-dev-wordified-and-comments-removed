@@ -59,6 +59,12 @@ tabContextMenu
 )
 )
 ;
+TabContextMenu
+.
+contextTab
+=
+null
+;
 return
 !
 document
