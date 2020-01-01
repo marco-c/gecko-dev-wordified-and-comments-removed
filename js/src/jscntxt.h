@@ -131,6 +131,13 @@ cx
 namespace
 js
 {
+namespace
+ion
+{
+class
+IonContext
+;
+}
 struct
 CallsiteCloneKey
 {
@@ -911,6 +918,13 @@ ExclusiveContext
 *
 cx
 )
+;
+friend
+class
+ion
+:
+:
+IonContext
 ;
 WorkerThread
 *

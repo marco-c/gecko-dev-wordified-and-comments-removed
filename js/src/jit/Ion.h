@@ -365,6 +365,16 @@ temp
 ;
 IonContext
 (
+ExclusiveContext
+*
+cx
+TempAllocator
+*
+temp
+)
+;
+IonContext
+(
 JSRuntime
 *
 rt
