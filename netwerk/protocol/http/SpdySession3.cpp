@@ -10172,6 +10172,11 @@ PROCESSING_DATA_FRAME
 ;
 }
 else
+if
+(
+!
+mInputFrameDataLast
+)
 {
 ResetDownstreamState
 (
