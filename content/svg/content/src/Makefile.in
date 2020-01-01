@@ -690,6 +690,10 @@ SVGCircleElement
 .
 h
 \
+SVGComponentTransferFunctionElement
+.
+h
+\
 SVGDefsElement
 .
 h
