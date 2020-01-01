@@ -1321,7 +1321,7 @@ interfaces
 nsIScriptSecurityManager
 )
 .
-getCodebasePrincipal
+getNoAppCodebasePrincipal
 (
 aURI
 )

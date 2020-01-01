@@ -4677,7 +4677,7 @@ interfaces
 nsIScriptSecurityManager
 )
 .
-getCodebasePrincipal
+getNoAppCodebasePrincipal
 (
 aboutHomeURI
 )
