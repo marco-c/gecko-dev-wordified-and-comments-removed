@@ -3062,6 +3062,9 @@ kt_kea_size
 SECItemArray
 *
 certStatusArray
+[
+kt_kea_size
+]
 ;
 ssl3CipherSuiteCfg
 cipherSuites
