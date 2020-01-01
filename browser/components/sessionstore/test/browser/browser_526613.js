@@ -506,6 +506,12 @@ pollMostRecentWindow
 ;
 }
 }
+window
+.
+focus
+(
+)
+;
 pollMostRecentWindow
 (
 )
