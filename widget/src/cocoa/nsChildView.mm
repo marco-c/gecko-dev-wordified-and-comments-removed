@@ -22981,13 +22981,6 @@ PR_IntervalNow
 (
 )
 ;
-outGeckoEvent
--
->
-nativeMsg
-=
-inEvent
-;
 if
 (
 inEvent
