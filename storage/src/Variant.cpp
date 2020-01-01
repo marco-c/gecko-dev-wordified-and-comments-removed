@@ -1,7 +1,7 @@
 #
 include
 "
-mozStorageVariant
+Variant
 .
 h
 "

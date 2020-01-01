@@ -22,7 +22,7 @@ h
 #
 include
 "
-mozStorageVariant
+Variant
 .
 h
 "
