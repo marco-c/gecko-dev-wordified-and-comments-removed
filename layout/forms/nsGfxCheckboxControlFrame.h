@@ -197,7 +197,12 @@ aDirtyRect
 protected
 :
 PRBool
-GetCheckboxState
+IsChecked
+(
+)
+;
+PRBool
+IsIndeterminate
 (
 )
 ;
