@@ -78,7 +78,7 @@ dom
 /
 system
 /
-b2g
+gonk
 include
 (
 DEPTH
@@ -94,10 +94,10 @@ MODULE
 dom
 LIBRARY_NAME
 =
-domsystemb2g_s
+domsystemgonk_s
 XPIDL_MODULE
 =
-dom_system_b2g
+dom_system_gonk
 LIBXUL_LIBRARY
 =
 1

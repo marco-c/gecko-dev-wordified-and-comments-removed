@@ -590,10 +590,6 @@ dom
 system
 /
 android
-\
-(
-NULL
-)
 endif
 ifeq
 (
@@ -615,11 +611,7 @@ dom
 /
 system
 /
-b2g
-\
-(
-NULL
-)
+gonk
 endif
 EXPORTS
 +

@@ -1621,12 +1621,12 @@ dom
 /
 system
 /
-b2g
+gonk
 /
 (
 LIB_PREFIX
 )
-domsystemb2g_s
+domsystemgonk_s
 .
 (
 LIB_SUFFIX
@@ -2612,7 +2612,7 @@ dom
 /
 system
 /
-b2g
+gonk
 endif
 #
 }
