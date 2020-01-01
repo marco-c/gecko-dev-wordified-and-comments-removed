@@ -34,6 +34,14 @@ _flags
 \
 (
 (
+_val
+)
+!
+=
+JSVAL_VOID
+&
+&
+(
 PRUint32
 (
 JSVAL_TO_INT
