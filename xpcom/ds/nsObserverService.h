@@ -54,7 +54,7 @@ NS_OBSERVERSERVICE_CID
 }
 }
 class
-nsIMemoryMultiReporter
+nsIMemoryReporter
 ;
 namespace
 mozilla
@@ -140,7 +140,7 @@ mObserverTopicTable
 ;
 nsCOMPtr
 <
-nsIMemoryMultiReporter
+nsIMemoryReporter
 >
 mReporter
 ;
