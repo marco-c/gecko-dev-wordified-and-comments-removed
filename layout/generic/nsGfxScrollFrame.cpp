@@ -428,6 +428,11 @@ Destroy
 (
 )
 ;
+DestroyAbsoluteFrames
+(
+aDestructRoot
+)
+;
 nsHTMLContainerFrame
 :
 :
@@ -3826,10 +3831,12 @@ CheckInvalidateSizeChange
 aDesiredSize
 )
 ;
-FinishAndStoreOverflow
+FinishReflowWithAbsoluteFrames
 (
-&
+aPresContext
 aDesiredSize
+aReflowState
+aStatus
 )
 ;
 if

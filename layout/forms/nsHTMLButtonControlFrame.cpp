@@ -271,6 +271,11 @@ this
 PR_FALSE
 )
 ;
+DestroyAbsoluteFrames
+(
+aDestructRoot
+)
+;
 nsHTMLContainerFrame
 :
 :
@@ -1064,10 +1069,12 @@ mOverflowAreas
 firstKid
 )
 ;
-FinishAndStoreOverflow
+FinishReflowWithAbsoluteFrames
 (
-&
+aPresContext
 aDesiredSize
+aReflowState
+aStatus
 )
 ;
 aStatus
