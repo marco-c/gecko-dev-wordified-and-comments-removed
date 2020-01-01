@@ -475,6 +475,14 @@ test_bug331215
 .
 xul
 \
+test_popup_preventdefault_chrome
+.
+xul
+\
+window_popup_preventdefault_chrome
+.
+xul
+\
 (
 NULL
 )
