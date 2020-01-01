@@ -48,6 +48,11 @@ debugger
 properties
 "
 ;
+const
+SYNTAX_HIGHLIGHT_MAX_FILE_SIZE
+=
+1048576
+;
 Cu
 .
 import
@@ -4258,6 +4263,17 @@ aOptions
 {
 }
 ;
+if
+(
+aScript
+.
+text
+.
+length
+<
+SYNTAX_HIGHLIGHT_MAX_FILE_SIZE
+)
+{
 this
 .
 _setEditorMode
@@ -4270,6 +4286,7 @@ aScript
 contentType
 )
 ;
+}
 let
 editor
 =
