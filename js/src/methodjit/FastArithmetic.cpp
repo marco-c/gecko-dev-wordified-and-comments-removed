@@ -1,6 +1,15 @@
 #
 include
 "
+mozilla
+/
+MathAlgorithms
+.
+h
+"
+#
+include
+"
 jsbool
 .
 h
@@ -78,6 +87,12 @@ analyze
 using
 namespace
 JSC
+;
+using
+mozilla
+:
+:
+Abs
 ;
 typedef
 JSC
@@ -1807,7 +1822,7 @@ JSVAL_TYPE_INT32
 )
 &
 &
-abs
+Abs
 (
 lhs
 -

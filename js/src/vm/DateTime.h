@@ -18,6 +18,15 @@ include
 "
 mozilla
 /
+MathAlgorithms
+.
+h
+"
+#
+include
+"
+mozilla
+/
 StandardInteger
 .
 h
@@ -120,7 +129,10 @@ time
 )
 |
 |
-fabs
+mozilla
+:
+:
+Abs
 (
 time
 )

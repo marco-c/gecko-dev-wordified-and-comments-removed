@@ -18,6 +18,15 @@ h
 "
 #
 include
+"
+mozilla
+/
+MathAlgorithms
+.
+h
+"
+#
+include
 <
 stdlib
 .
@@ -117,6 +126,12 @@ h
 using
 namespace
 js
+;
+using
+mozilla
+:
+:
+Abs
 ;
 #
 ifndef
@@ -465,7 +480,7 @@ JS_FALSE
 ;
 z
 =
-fabs
+Abs
 (
 x
 )
