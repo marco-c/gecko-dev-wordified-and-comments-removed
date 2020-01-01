@@ -440,6 +440,10 @@ unicharutil
 \
 thebes
 \
+js
+\
+xpconnect
+\
 (
 NULL
 )
@@ -531,6 +535,10 @@ MOZ_UNICHARUTIL_LIBS
 \
 (
 MOZ_COMPONENT_LIBS
+)
+\
+(
+MOZ_JS_LIBS
 )
 \
 (
