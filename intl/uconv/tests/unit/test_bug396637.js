@@ -18,8 +18,6 @@ const
 expectedString
 =
 "
-\
-ufffd
 "
 ;
 const
