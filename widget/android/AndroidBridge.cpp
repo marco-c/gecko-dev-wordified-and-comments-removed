@@ -5313,6 +5313,7 @@ gAppShell
 &
 aAlertListener
 )
+{
 nsAppShell
 :
 :
@@ -5325,6 +5326,7 @@ aAlertName
 aAlertListener
 )
 ;
+}
 jvalue
 args
 [
