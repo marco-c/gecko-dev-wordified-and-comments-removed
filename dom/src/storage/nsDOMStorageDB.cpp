@@ -1108,9 +1108,8 @@ NS_ERROR_DOM_NOT_FOUND_ERR
 *
 aSecure
 =
-(
-PRBool
-)
+!
+!
 secureInt
 ;
 return
