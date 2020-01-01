@@ -29,6 +29,10 @@ PTestDescSubsub
 .
 ipdl
 \
+PTestHangs
+.
+ipdl
+\
 PTestLatency
 .
 ipdl
