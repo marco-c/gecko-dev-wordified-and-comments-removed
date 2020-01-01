@@ -448,13 +448,6 @@ Registers
 r5
 )
 ;
-JS_STATIC_ASSERT
-(
-WrapperMask
->
-ArgRegMask
-)
-;
 static
 const
 uint32
