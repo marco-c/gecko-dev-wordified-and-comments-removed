@@ -2798,7 +2798,7 @@ rv
 ;
 #
 endif
-double
+PRInt32
 pageWidth
 =
 0
@@ -2814,7 +2814,7 @@ GetPrintSettings
 )
 -
 >
-GetEffectivePageSize
+GetPageSizeInTwips
 (
 &
 pageWidth
