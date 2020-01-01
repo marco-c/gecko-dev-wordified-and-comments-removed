@@ -28,6 +28,10 @@ const
 nsLiteralString
 kContentDisposition
 ;
+const
+nsLiteralString
+kChannelPolicy
+;
 }
 ;
 extern
