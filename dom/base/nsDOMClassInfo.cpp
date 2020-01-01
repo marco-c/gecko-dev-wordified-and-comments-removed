@@ -20937,6 +20937,9 @@ if
 IS_EXTERNAL
 (
 aData
+-
+>
+mCachedClassInfo
 )
 )
 {
