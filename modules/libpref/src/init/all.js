@@ -27153,3 +27153,13 @@ true
 ;
 #
 endif
+pref
+(
+"
+geo
+.
+enabled
+"
+true
+)
+;
