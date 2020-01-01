@@ -65,7 +65,8 @@ mGain
 new
 AudioParam
 (
-aContext
+this
+Callback
 1
 .
 0f
