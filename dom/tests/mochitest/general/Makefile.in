@@ -222,6 +222,10 @@ test_idleapi_permissions
 .
 html
 \
+test_stylesheetPI
+.
+html
+\
 (
 NULL
 )

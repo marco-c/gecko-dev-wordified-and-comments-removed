@@ -767,6 +767,10 @@ XMLSerializer
 .
 webidl
 \
+XMLStylesheetProcessingInstruction
+.
+webidl
+\
 XPathEvaluator
 .
 webidl
