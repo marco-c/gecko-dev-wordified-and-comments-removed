@@ -379,7 +379,7 @@ typeOf
 JSTraceOp
 trace
 ;
-JSObjectOp
+JSThisObjectOp
 thisObject
 ;
 JSPropertyRefOp
@@ -2302,6 +2302,9 @@ thisObject
 JSContext
 *
 cx
+JSObject
+*
+scope
 )
 {
 return
@@ -2323,6 +2326,7 @@ thisObject
 (
 cx
 this
+scope
 )
 :
 this

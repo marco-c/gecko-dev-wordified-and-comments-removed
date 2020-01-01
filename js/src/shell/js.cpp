@@ -13786,6 +13786,8 @@ cx
 JSObject
 *
 obj
+JSObject
+*
 )
 {
 OBJ_TO_OUTER_OBJECT
