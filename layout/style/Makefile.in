@@ -665,6 +665,10 @@ nsStyleStructList
 .
 h
 \
+nsStyleTransformMatrix
+.
+h
+\
 nsStyleUtil
 .
 h
@@ -812,6 +816,10 @@ nsStyleSet
 cpp
 \
 nsStyleStruct
+.
+cpp
+\
+nsStyleTransformMatrix
 .
 cpp
 \

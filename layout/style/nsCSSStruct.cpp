@@ -697,6 +697,11 @@ nsCSSDisplay
 (
 void
 )
+:
+mTransform
+(
+nsnull
+)
 {
 MOZ_COUNT_CTOR
 (

@@ -848,6 +848,13 @@ mVisibility
 nsCSSValue
 mOpacity
 ;
+nsCSSValueList
+*
+mTransform
+;
+nsCSSValuePair
+mTransformOrigin
+;
 nsCSSValue
 mBreakBefore
 ;

@@ -124,6 +124,9 @@ eCSSUnit_Counter
 eCSSUnit_Counters
 =
 22
+eCSSUnit_Function
+=
+23
 eCSSUnit_URL
 =
 30
@@ -779,7 +782,7 @@ mUnit
 mUnit
 <
 =
-eCSSUnit_Counters
+eCSSUnit_Function
 "
 not
 an

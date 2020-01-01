@@ -1028,7 +1028,7 @@ NSFloatPixelsToAppUnits
 (
 float
 aPixels
-PRInt32
+float
 aAppUnitsPerPixel
 )
 {
@@ -1161,7 +1161,7 @@ NSAppUnitsToFloatPixels
 (
 nscoord
 aAppUnits
-PRInt32
+float
 aAppUnitsPerPixel
 )
 {
@@ -1182,7 +1182,7 @@ NSAppUnitsToIntPixels
 (
 nscoord
 aAppUnits
-PRInt32
+float
 aAppUnitsPerPixel
 )
 {

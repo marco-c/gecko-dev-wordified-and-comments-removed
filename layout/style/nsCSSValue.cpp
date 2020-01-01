@@ -333,7 +333,7 @@ aUnit
 aUnit
 <
 =
-eCSSUnit_Counters
+eCSSUnit_Function
 "
 bad
 unit
@@ -557,7 +557,7 @@ mUnit
 mUnit
 <
 =
-eCSSUnit_Counters
+eCSSUnit_Function
 )
 {
 mValue
@@ -828,7 +828,7 @@ mUnit
 mUnit
 <
 =
-eCSSUnit_Counters
+eCSSUnit_Function
 )
 {
 return
@@ -1160,7 +1160,7 @@ mUnit
 mUnit
 <
 =
-eCSSUnit_Counters
+eCSSUnit_Function
 )
 {
 mValue
@@ -1491,7 +1491,7 @@ aUnit
 aUnit
 <
 =
-eCSSUnit_Counters
+eCSSUnit_Function
 "
 bad
 unit
