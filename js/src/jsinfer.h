@@ -2454,6 +2454,17 @@ jsbytecode
 pc
 )
 ;
+bool
+ArrayPrototypeHasIndexedProperty
+(
+JSContext
+*
+cx
+JSScript
+*
+script
+)
+;
 struct
 TypeCallsite
 {
