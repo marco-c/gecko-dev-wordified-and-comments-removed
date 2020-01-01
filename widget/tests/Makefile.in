@@ -514,6 +514,14 @@ test_bug517396
 .
 xul
 \
+test_bug538242
+.
+xul
+\
+window_bug538242
+.
+xul
+\
 test_bug593307
 .
 xul
