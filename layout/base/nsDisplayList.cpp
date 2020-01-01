@@ -6683,6 +6683,14 @@ nullptr
 if
 (
 widgetTransaction
+&
+&
+!
+(
+aFlags
+&
+PAINT_NO_CLEAR_INVALIDATIONS
+)
 )
 {
 aForFrame

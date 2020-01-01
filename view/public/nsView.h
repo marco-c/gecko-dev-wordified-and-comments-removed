@@ -462,6 +462,15 @@ aForceRepaint
 ;
 }
 }
+bool
+InAlternatePaint
+(
+)
+{
+return
+mInAlternatePaint
+;
+}
 void
 AttachWidgetEventHandler
 (
