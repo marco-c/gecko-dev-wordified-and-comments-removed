@@ -413,12 +413,6 @@ PRUint32
 aUTF8Length
 PRUint32
 aUTF8HeaderLength
-const
-PRUnichar
-*
-aUTF16Text
-PRUint32
-aUTF16Length
 )
 ;
 void
