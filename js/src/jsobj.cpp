@@ -2762,7 +2762,7 @@ error
 bool
 idIsLexicalIdentifier
 =
-js_IsIdentifier
+IsIdentifier
 (
 idstr
 )

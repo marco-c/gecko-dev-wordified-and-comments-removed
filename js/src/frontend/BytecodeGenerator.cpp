@@ -14920,7 +14920,7 @@ right
 >
 setOp
 (
-js_IsIdentifier
+IsIdentifier
 (
 pn
 -
