@@ -35,6 +35,16 @@ get_test_plugintag
 (
 )
 ;
+tag
+.
+enabledState
+=
+Ci
+.
+nsIPluginTag
+.
+STATE_ENABLED
+;
 check_state
 (
 tag
