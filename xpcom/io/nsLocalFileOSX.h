@@ -128,7 +128,7 @@ GetFSRefInternal
 (
 FSRef
 &
-aFSSpec
+aFSRef
 )
 ;
 nsresult
