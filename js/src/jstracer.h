@@ -322,6 +322,11 @@ struct
 JSFrameRegs
 entryRegs
 ;
+JSAtom
+*
+*
+atoms
+;
 nanojit
 :
 :
@@ -1137,6 +1142,9 @@ format
 )
 \
 bool
+record_
+#
+#
 op
 (
 )
