@@ -123,7 +123,7 @@ gDebugger
 =
 gPane
 .
-debuggerWindow
+contentWindow
 ;
 resumed
 =

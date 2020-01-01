@@ -101,7 +101,7 @@ gDebugger
 =
 gPane
 .
-debuggerWindow
+contentWindow
 ;
 testSelectLine
 (

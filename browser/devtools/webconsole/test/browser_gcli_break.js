@@ -444,7 +444,7 @@ true
 ;
 pane
 .
-debuggerWindow
+contentWindow
 .
 gClient
 .
@@ -459,7 +459,7 @@ function
 {
 pane
 .
-debuggerWindow
+contentWindow
 .
 gClient
 .
@@ -561,7 +561,7 @@ exec
 ;
 pane
 .
-debuggerWindow
+contentWindow
 .
 gClient
 .

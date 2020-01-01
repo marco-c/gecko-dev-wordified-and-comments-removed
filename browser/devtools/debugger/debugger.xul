@@ -950,6 +950,11 @@ id
 "
 close
 "
+hidden
+=
+"
+false
+"
 >
 &
 debuggerUI

@@ -40,7 +40,7 @@ gDebugger
 =
 gPane
 .
-debuggerWindow
+contentWindow
 ;
 testPause
 (
