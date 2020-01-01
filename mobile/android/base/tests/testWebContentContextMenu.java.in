@@ -188,8 +188,8 @@ Image
 "
 "
 Set
-as
-Wallpaper
+Image
+As
 "
 "
 Save
@@ -1832,8 +1832,8 @@ equals
 (
 "
 Set
-as
-Wallpaper
+Image
+As
 "
 )
 )
