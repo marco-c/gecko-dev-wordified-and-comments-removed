@@ -822,7 +822,16 @@ index
 )
 )
 ;
-jsdpun
+union
+DoublePun
+{
+uint64_t
+u
+;
+double
+d
+;
+}
 dpun
 ;
 dpun
@@ -839,7 +848,7 @@ if
 (
 dpun
 .
-u64
+u
 =
 =
 0
