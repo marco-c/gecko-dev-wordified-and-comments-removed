@@ -22,6 +22,7 @@ from
 progressbar
 import
 ProgressBar
+default_widgets
 from
 time
 import
@@ -358,11 +359,21 @@ pb
 =
 ProgressBar
 (
+maxval
+=
+n
+widgets
+=
+[
 '
 read
+-
 input
+:
 '
-n
+]
++
+default_widgets
 )
     
 blip
@@ -698,13 +709,22 @@ pb
 =
 ProgressBar
 (
-'
-draw
-main
-'
+maxval
+=
 W
 *
 H
+widgets
+=
+[
+'
+draw
+main
+:
+'
+]
++
+default_widgets
 )
     
 blip
