@@ -609,6 +609,16 @@ helper
 .
 svg
 \
+test_stroke
+-
+linecap
+-
+hit
+-
+testing
+.
+xhtml
+\
 test_SVGLengthList
 .
 xhtml
