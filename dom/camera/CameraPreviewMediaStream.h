@@ -50,6 +50,8 @@ Image
 *
 aImage
 )
+=
+0
 ;
 }
 ;
