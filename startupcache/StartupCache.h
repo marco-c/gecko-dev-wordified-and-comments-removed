@@ -247,6 +247,12 @@ InvalidateCache
 (
 )
 ;
+static
+void
+IgnoreDiskCache
+(
+)
+;
 nsresult
 GetDebugObjectOutputStream
 (
@@ -440,6 +446,10 @@ gStartupCache
 static
 bool
 gShutdownInitiated
+;
+static
+bool
+gIgnoreDiskCache
 ;
 PRThread
 *
