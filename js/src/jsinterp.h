@@ -3445,6 +3445,10 @@ JSContext
 cx
 jsint
 stackIndex
+JSOp
+op
+size_t
+oplen
 )
 ;
 extern

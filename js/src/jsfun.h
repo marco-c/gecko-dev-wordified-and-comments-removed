@@ -40,6 +40,13 @@ jsstr
 h
 "
 #
+include
+"
+jsopcode
+.
+h
+"
+#
 define
 JSFUN_JOINABLE
 0x0001
@@ -2012,6 +2019,10 @@ cx
 JSFunction
 *
 fun
+JSOp
+op
+size_t
+oplen
 )
 ;
 extern
