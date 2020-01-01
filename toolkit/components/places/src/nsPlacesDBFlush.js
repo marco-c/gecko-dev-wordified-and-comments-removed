@@ -878,6 +878,9 @@ nsINavBookmarkObserver
 Ci
 .
 nsITimerCallback
+Ci
+.
+mozIStorageStatementCallback
 ]
 )
 }
