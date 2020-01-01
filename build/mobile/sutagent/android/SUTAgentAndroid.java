@@ -434,6 +434,17 @@ nBatteryTemp
 =
 0
 ;
+public
+static
+long
+nCreateTimeMillis
+=
+System
+.
+currentTimeMillis
+(
+)
+;
 String
 lineSep
 =
