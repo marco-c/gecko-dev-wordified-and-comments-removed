@@ -456,6 +456,10 @@ nsIDOMHTMLCollection
 .
 idl
 \
+nsIDOMHTMLCommandElement
+.
+idl
+\
 nsIDOMHTMLDataListElement
 .
 idl
@@ -553,6 +557,10 @@ nsIDOMHTMLMapElement
 idl
 \
 nsIDOMHTMLMenuElement
+.
+idl
+\
+nsIDOMHTMLMenuItemElement
 .
 idl
 \

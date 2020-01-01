@@ -922,10 +922,6 @@ file_formSubmission_img
 .
 jpg
 \
-test_bug418756
-.
-html
-\
 test_bug421640
 .
 html
@@ -1509,6 +1505,14 @@ test_bug583533
 html
 \
 test_restore_from_parser_fragment
+.
+html
+\
+test_bug617528
+.
+html
+\
+test_checked
 .
 html
 \

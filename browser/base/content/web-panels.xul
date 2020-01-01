@@ -970,6 +970,11 @@ id
 "
 contentAreaContextMenu
 "
+pagemenu
+=
+"
+start
+"
 onpopupshowing
 =
 "
@@ -994,6 +999,9 @@ this
 getPanelBrowser
 (
 )
+event
+.
+shiftKey
 )
 ;
 if

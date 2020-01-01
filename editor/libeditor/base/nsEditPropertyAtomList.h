@@ -700,6 +700,13 @@ mark
 )
 EDITOR_ATOM
 (
+menuitem
+"
+menuitem
+"
+)
+EDITOR_ATOM
+(
 mozdirty
 "
 _moz_dirty

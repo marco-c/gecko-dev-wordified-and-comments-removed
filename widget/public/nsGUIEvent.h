@@ -1966,6 +1966,10 @@ NS_DEVICE_ORIENTATION_START
 +
 1
 )
+#
+define
+NS_SHOW_EVENT
+5000
 enum
 nsWindowZ
 {

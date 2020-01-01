@@ -441,6 +441,10 @@ nsXULPopupListener
 .
 cpp
 \
+nsXULContextMenuBuilder
+.
+cpp
+\
 (
 NULL
 )

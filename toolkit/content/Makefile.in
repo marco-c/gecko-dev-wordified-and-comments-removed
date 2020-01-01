@@ -738,6 +738,10 @@ WindowDraggingUtils
 .
 jsm
 \
+PageMenu
+.
+jsm
+\
 (
 NULL
 )

@@ -1458,6 +1458,13 @@ BINPATH
 /
 components
 /
+xul
+.
+xpt
+BINPATH
+/
+components
+/
 xuldoc
 .
 xpt

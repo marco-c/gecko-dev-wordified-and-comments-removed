@@ -304,6 +304,10 @@ HTMLMenuElement
 )
 DOMCI_CLASS
 (
+HTMLMenuItemElement
+)
+DOMCI_CLASS
+(
 HTMLMetaElement
 )
 DOMCI_CLASS

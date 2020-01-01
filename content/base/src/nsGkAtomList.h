@@ -3664,6 +3664,13 @@ menupopup
 )
 GK_ATOM
 (
+menuseparator
+"
+menuseparator
+"
+)
+GK_ATOM
+(
 message
 "
 message
@@ -4776,6 +4783,13 @@ GK_ATOM
 onset
 "
 onset
+"
+)
+GK_ATOM
+(
+onshow
+"
+onshow
 "
 )
 GK_ATOM

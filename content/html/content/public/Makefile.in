@@ -432,6 +432,14 @@ nsIPhonetic
 .
 idl
 \
+nsIHTMLMenu
+.
+idl
+\
+nsIMenuBuilder
+.
+idl
+\
 (
 NULL
 )

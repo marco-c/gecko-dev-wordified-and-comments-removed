@@ -344,7 +344,12 @@ Div
 HTML_TAG
 (
 menu
-Shared
+Menu
+)
+HTML_TAG
+(
+menuitem
+MenuItem
 )
 HTML_TAG
 (
