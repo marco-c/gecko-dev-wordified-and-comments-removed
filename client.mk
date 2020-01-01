@@ -1426,6 +1426,26 @@ build
 build
 :
 :
+(
+MAKE
+)
+-
+f
+(
+TOPSRCDIR
+)
+/
+client
+.
+mk
+(
+if
+(
+MOZ_PGO
+)
+profiledbuild
+realbuild
+)
 #
 Print
 out
@@ -1436,7 +1456,7 @@ from
 mozconfig
 .
 all
-build
+realbuild
 clean
 depend
 distclean
@@ -1659,7 +1679,7 @@ TOPSRCDIR
 client
 .
 mk
-build
+realbuild
 MOZ_PROFILE_GENERATE
 =
 1
@@ -1705,7 +1725,7 @@ TOPSRCDIR
 client
 .
 mk
-build
+realbuild
 MOZ_PROFILE_USE
 =
 1
@@ -1862,7 +1882,7 @@ before
 building
 any
 project
-build
+realbuild
 alldep
 preflight_all
 :
@@ -2066,7 +2086,7 @@ MOZ_BUILD_PROJECTS
 )
 configure
 depend
-build
+realbuild
 install
 export
 libs
@@ -2740,7 +2760,7 @@ depend
 #
 #
 Preflight
-build
+realbuild
 alldep
 preflight
 :
@@ -2830,7 +2850,7 @@ endif
 #
 Build
 it
-build
+realbuild
 :
 :
 (
@@ -2961,7 +2981,7 @@ MOZ_MAKE
 #
 #
 Postflight
-build
+realbuild
 alldep
 postflight
 :
@@ -3057,7 +3077,7 @@ after
 building
 all
 projects
-build
+realbuild
 alldep
 postflight_all
 :
@@ -3397,6 +3417,7 @@ PHONY
 checkout
 real_checkout
 depend
+realbuild
 build
 profiledbuild
 maybe_clobber_profiledbuild
