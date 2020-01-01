@@ -2843,8 +2843,11 @@ NS_FAILED
 err
 )
 )
-return
-NS_ERROR_MALFORMED_URI
+*
+port
+=
+-
+1
 ;
 }
 }
