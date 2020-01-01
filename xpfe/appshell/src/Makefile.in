@@ -467,10 +467,6 @@ nsWindowMediator
 .
 cpp
 \
-nsAbout
-.
-cpp
-\
 nsAppShellFactory
 .
 cpp
