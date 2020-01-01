@@ -54,6 +54,12 @@ nsDOMWorkerThread
 h
 "
 class
+nsDOMWorkerXHR
+;
+class
+nsDOMWorkerXHREvent
+;
+class
 nsDOMWorkerXHRProxy
 ;
 class
@@ -158,9 +164,6 @@ nsDOMWorkerXHREventTarget
 {
 }
 }
-;
-class
-nsDOMWorkerXHR
 ;
 class
 nsDOMWorkerXHRUpload
@@ -271,6 +274,10 @@ nsIXMLHttpRequest
 public
 nsIClassInfo
 {
+friend
+class
+nsDOMWorkerXHREvent
+;
 friend
 class
 nsDOMWorkerXHRProxy
