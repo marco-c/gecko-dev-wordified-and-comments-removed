@@ -1112,7 +1112,11 @@ mCx
 mGlobalWrapper
 &
 &
+!
+JSVAL_IS_NULL
+(
 mCbval
+)
 )
 {
 nsRefPtr
