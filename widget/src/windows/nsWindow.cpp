@@ -1427,6 +1427,13 @@ InitTitlebarInfo
 (
 )
 ;
+nsUXThemeData
+:
+:
+UpdateNativeThemeInfo
+(
+)
+;
 }
 mIdleService
 =
@@ -17410,6 +17417,13 @@ WM_XP_THEMECHANGED
 :
 {
 UpdateNonClientMargins
+(
+)
+;
+nsUXThemeData
+:
+:
+UpdateNativeThemeInfo
 (
 )
 ;

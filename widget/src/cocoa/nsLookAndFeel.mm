@@ -2139,6 +2139,9 @@ eMetric_TouchEnabled
 case
 eMetric_MaemoClassic
 :
+case
+eMetric_WindowsThemeIdentifier
+:
 aMetric
 =
 0

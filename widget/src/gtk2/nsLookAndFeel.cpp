@@ -1927,6 +1927,9 @@ eMetric_WindowsClassic
 case
 eMetric_WindowsDefaultTheme
 :
+case
+eMetric_WindowsThemeIdentifier
+:
 aMetric
 =
 0
