@@ -7499,10 +7499,13 @@ oldDimensions
 ;
 if
 (
-oldDimensions
 !
-=
+oldDimensions
+.
+IsExactEqual
+(
 aRect
+)
 )
 {
 nsView

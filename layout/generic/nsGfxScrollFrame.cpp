@@ -2772,7 +2772,7 @@ scrolledArea
 ;
 scrolledArea
 .
-UnionRect
+UnionRectIncludeEmpty
 (
 mInner
 .
