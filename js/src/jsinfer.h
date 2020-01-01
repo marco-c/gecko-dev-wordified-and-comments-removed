@@ -1342,6 +1342,7 @@ ArrayTableKey
 TypeObject
 *
 ArrayTableKey
+SystemAllocPolicy
 >
 ArrayTypeTable
 ;
@@ -1357,6 +1358,7 @@ HashMap
 ObjectTableKey
 ObjectTableEntry
 ObjectTableKey
+SystemAllocPolicy
 >
 ObjectTypeTable
 ;
