@@ -6578,7 +6578,6 @@ S
 -
 1
 )
-;
 fileType
 .
 Replace
