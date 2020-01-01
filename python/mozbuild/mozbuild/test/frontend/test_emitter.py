@@ -1000,6 +1000,21 @@ s
 '
 ]
             
+SIMPLE_PROGRAMS
+=
+[
+'
+fans
+.
+x
+'
+'
+tans
+.
+x
+'
+]
+            
 CSRCS
 =
 [
