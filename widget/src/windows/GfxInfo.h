@@ -25,6 +25,10 @@ GfxInfoBase
 {
 public
 :
+GfxInfo
+(
+)
+;
 NS_SCRIPTABLE
 NS_IMETHOD
 GetD2DEnabled
@@ -184,6 +188,12 @@ mDeviceKey
 ;
 nsString
 mDeviceKeyDebug
+;
+PRUint32
+mAdapterVendorID
+;
+PRUint32
+mAdapterDeviceID
 ;
 }
 ;
