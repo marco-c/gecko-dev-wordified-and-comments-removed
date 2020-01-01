@@ -1161,10 +1161,6 @@ void
 *
 rp
 ;
-double
-*
-global
-;
 JSContext
 *
 cx
@@ -1374,13 +1370,6 @@ nanojit
 LIns
 *
 cx_ins
-;
-nanojit
-:
-:
-LIns
-*
-gp_ins
 ;
 nanojit
 :
