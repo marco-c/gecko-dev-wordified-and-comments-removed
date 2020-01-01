@@ -9775,10 +9775,17 @@ uint8
 )
 malloc
 (
+(
 ti
 -
 >
 entryNativeStackSlots
++
+ti
+-
+>
+ngslots
+)
 *
 sizeof
 (
