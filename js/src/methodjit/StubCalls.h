@@ -320,6 +320,15 @@ f
 ;
 void
 JS_FASTCALL
+BitNot
+(
+VMFrame
+&
+f
+)
+;
+void
+JS_FASTCALL
 Lsh
 (
 VMFrame
