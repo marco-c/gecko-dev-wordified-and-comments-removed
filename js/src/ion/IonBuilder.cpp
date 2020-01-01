@@ -3416,6 +3416,9 @@ true
 case
 JSOP_GETELEM
 :
+case
+JSOP_CALLELEM
+:
 return
 jsop_getelem
 (
