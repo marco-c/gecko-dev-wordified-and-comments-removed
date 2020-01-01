@@ -4546,7 +4546,7 @@ mBoundFrame
 >
 UpdateValueDisplay
 (
-false
+true
 true
 )
 ;

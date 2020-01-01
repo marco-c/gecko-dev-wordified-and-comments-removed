@@ -6364,6 +6364,16 @@ int32_t
 aEndPos
 )
 {
+nsCOMPtr
+<
+nsIEditor
+>
+editor
+=
+GetEditor
+(
+)
+;
 bool
 isFocusable
 =
