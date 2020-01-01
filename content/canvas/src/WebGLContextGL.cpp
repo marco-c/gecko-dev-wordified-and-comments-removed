@@ -2728,7 +2728,7 @@ USE_GLES2
 GL_SAME_METHOD_1
 (
 ClearDepthf
-ClearDepthf
+ClearDepth
 float
 )
 #
@@ -2736,7 +2736,7 @@ else
 GL_SAME_METHOD_1
 (
 ClearDepth
-ClearDepthf
+ClearDepth
 float
 )
 #
@@ -3870,7 +3870,7 @@ USE_GLES2
 GL_SAME_METHOD_2
 (
 DepthRangef
-DepthRangef
+DepthRange
 float
 float
 )
@@ -3879,7 +3879,7 @@ else
 GL_SAME_METHOD_2
 (
 DepthRange
-DepthRangef
+DepthRange
 float
 float
 )

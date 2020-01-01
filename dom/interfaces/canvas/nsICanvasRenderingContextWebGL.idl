@@ -3901,7 +3901,7 @@ alpha
 )
 ;
 void
-clearDepthf
+clearDepth
 (
 in
 GLclampf
@@ -4157,7 +4157,7 @@ flag
 )
 ;
 void
-depthRangef
+depthRange
 (
 in
 GLclampf
