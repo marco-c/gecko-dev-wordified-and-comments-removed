@@ -623,9 +623,9 @@ PASS
 color
 '
 :
-ProgressBar
-.
-GREEN
+'
+green
+'
 }
                 
 {
@@ -640,9 +640,9 @@ FAIL
 color
 '
 :
-ProgressBar
-.
-RED
+'
+red
+'
 }
                 
 {
@@ -657,9 +657,9 @@ TIMEOUT
 color
 '
 :
-ProgressBar
-.
-BLUE
+'
+blue
+'
 }
                 
 {
@@ -674,9 +674,9 @@ SKIP
 color
 '
 :
-ProgressBar
-.
-GRAY
+'
+brightgray
+'
 }
             
 ]
