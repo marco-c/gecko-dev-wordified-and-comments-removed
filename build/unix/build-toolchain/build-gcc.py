@@ -1035,7 +1035,9 @@ glibc_version
 "
 2
 .
-13
+12
+.
+2
 "
 tar_version
 =
@@ -1467,6 +1469,16 @@ patch
 '
 1
 glibc_source_dir
+)
+    
+run_in
+(
+glibc_source_dir
+[
+"
+autoconf
+"
+]
 )
     
 extract
