@@ -172,11 +172,15 @@ this
 ;
 if
 (
-!
 acc
+-
+>
+IsDefunct
+(
+)
 )
 return
-E_FAIL
+CO_E_OBJNOTCONNECTED
 ;
 PRUint64
 state
@@ -411,7 +415,7 @@ IsDefunct
 )
 )
 return
-E_FAIL
+CO_E_OBJNOTCONNECTED
 ;
 nsIFrame
 *
@@ -503,7 +507,7 @@ IsDefunct
 )
 )
 return
-E_FAIL
+CO_E_OBJNOTCONNECTED
 ;
 nsIFrame
 *

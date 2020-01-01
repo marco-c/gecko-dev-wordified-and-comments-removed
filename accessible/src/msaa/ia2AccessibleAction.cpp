@@ -132,7 +132,7 @@ IsDefunct
 )
 )
 return
-E_FAIL
+CO_E_OBJNOTCONNECTED
 ;
 *
 aActionCount
@@ -206,7 +206,7 @@ IsDefunct
 )
 )
 return
-E_FAIL
+CO_E_OBJNOTCONNECTED
 ;
 PRUint8
 index
@@ -303,7 +303,7 @@ IsDefunct
 )
 )
 return
-E_FAIL
+CO_E_OBJNOTCONNECTED
 ;
 nsAutoString
 description
@@ -491,7 +491,7 @@ IsDefunct
 )
 )
 return
-E_FAIL
+CO_E_OBJNOTCONNECTED
 ;
 KeyBinding
 keyBinding
@@ -697,7 +697,7 @@ IsDefunct
 )
 )
 return
-E_FAIL
+CO_E_OBJNOTCONNECTED
 ;
 nsAutoString
 name
