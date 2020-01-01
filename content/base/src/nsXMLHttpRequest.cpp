@@ -5779,6 +5779,10 @@ if
 (
 !
 mIsHtml
+|
+|
+!
+mResponseXML
 )
 {
 return
