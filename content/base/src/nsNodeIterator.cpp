@@ -455,8 +455,6 @@ aWhatToShow
 nsIDOMNodeFilter
 *
 aFilter
-bool
-aExpandEntityReferences
 )
 :
 nsTraversal
@@ -464,7 +462,6 @@ nsTraversal
 aRoot
 aWhatToShow
 aFilter
-aExpandEntityReferences
 )
 mDetached
 (
@@ -699,7 +696,7 @@ aExpandEntityReferences
 *
 aExpandEntityReferences
 =
-mExpandEntityReferences
+false
 ;
 return
 NS_OK

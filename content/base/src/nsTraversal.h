@@ -32,8 +32,6 @@ aWhatToShow
 nsIDOMNodeFilter
 *
 aFilter
-bool
-aExpandEntityReferences
 )
 ;
 virtual
@@ -58,9 +56,6 @@ nsCOMPtr
 nsIDOMNodeFilter
 >
 mFilter
-;
-bool
-mExpandEntityReferences
 ;
 bool
 mInAcceptNode

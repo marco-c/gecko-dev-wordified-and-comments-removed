@@ -1751,7 +1751,6 @@ nsIDOMNodeFilter
 :
 SHOW_TEXT
 nsnull
-true
 )
 ;
 while

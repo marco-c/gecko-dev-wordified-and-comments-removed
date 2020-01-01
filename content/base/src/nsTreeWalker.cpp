@@ -60,8 +60,6 @@ aWhatToShow
 nsIDOMNodeFilter
 *
 aFilter
-bool
-aExpandEntityReferences
 )
 :
 nsTraversal
@@ -69,7 +67,6 @@ nsTraversal
 aRoot
 aWhatToShow
 aFilter
-aExpandEntityReferences
 )
 mCurrentNode
 (
@@ -221,7 +218,7 @@ aExpandEntityReferences
 *
 aExpandEntityReferences
 =
-mExpandEntityReferences
+false
 ;
 return
 NS_OK

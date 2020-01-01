@@ -70,8 +70,6 @@ aWhatToShow
 nsIDOMNodeFilter
 *
 aFilter
-bool
-aExpandEntityReferences
 )
 ;
 virtual
