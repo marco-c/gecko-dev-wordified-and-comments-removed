@@ -25660,6 +25660,16 @@ NS_ERROR_NOT_INITIALIZED
 ;
 if
 (
+!
+mDocument
+)
+{
+return
+NS_OK
+;
+}
+if
+(
 interval
 <
 DOM_MIN_TIMEOUT_VALUE
