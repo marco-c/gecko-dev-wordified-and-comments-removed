@@ -437,9 +437,14 @@ setBackedge
 MBasicBlock
 *
 block
+)
+;
+void
+inheritPhis
+(
 MBasicBlock
 *
-successor
+header
 )
 ;
 void
