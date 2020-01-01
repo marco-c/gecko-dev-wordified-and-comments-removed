@@ -691,6 +691,10 @@ runtime
 (
 rt
 )
+triggerReason
+(
+PUBLIC_API
+)
 {
 char
 *
