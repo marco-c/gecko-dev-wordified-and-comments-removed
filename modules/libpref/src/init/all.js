@@ -5883,7 +5883,7 @@ xml
 .
 chrome
 "
-true
+false
 )
 ;
 pref
