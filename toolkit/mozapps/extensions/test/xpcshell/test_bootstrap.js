@@ -2994,7 +2994,7 @@ do_check_eq
 getStartupReason
 (
 )
-APP_STARTUP
+ADDON_INSTALL
 )
 ;
 do_check_eq
@@ -4062,7 +4062,7 @@ do_check_eq
 getStartupReason
 (
 )
-APP_STARTUP
+ADDON_INSTALL
 )
 ;
 do_check_eq
