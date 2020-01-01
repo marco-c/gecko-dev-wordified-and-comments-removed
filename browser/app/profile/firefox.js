@@ -4297,6 +4297,16 @@ pref
 "
 plugins
 .
+use_layers
+"
+false
+)
+;
+pref
+(
+"
+plugins
+.
 hide_infobar_for_carbon_failure_plugin
 "
 false
