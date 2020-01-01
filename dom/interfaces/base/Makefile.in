@@ -130,6 +130,10 @@ nsIContentPrefService
 .
 idl
 \
+nsIContentPrefService2
+.
+idl
+\
 nsIContentURIGrouper
 .
 idl

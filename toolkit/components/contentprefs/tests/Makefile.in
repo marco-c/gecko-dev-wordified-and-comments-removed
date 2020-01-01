@@ -82,11 +82,10 @@ mk
 MODULE
 =
 test_toolkit_contentprefs
-ifdef
-MOZ_PHOENIX
 XPCSHELL_TESTS
 =
 unit
+unit_cps2
 #
 FIXME
 /
@@ -115,7 +114,6 @@ XPCSHELL_TESTS
 +
 =
 unit_ipc
-endif
 endif
 include
 (
