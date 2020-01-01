@@ -177,6 +177,10 @@ browser_favicon_setAndFetchFaviconForPage_failures
 .
 js
 \
+browser_visituri_privatebrowsing_perwindowpb
+.
+js
+\
 (
 NULL
 )
