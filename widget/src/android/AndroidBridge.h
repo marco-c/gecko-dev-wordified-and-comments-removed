@@ -511,6 +511,13 @@ nsAString
 aFilters
 )
 ;
+void
+SetFullScreen
+(
+PRBool
+aFullScreen
+)
+;
 struct
 AutoLocalJNIFrame
 {
@@ -755,6 +762,9 @@ jAlertsProgressListener_OnCancel
 ;
 jmethodID
 jGetDpi
+;
+jmethodID
+jSetFullScreen
 ;
 jclass
 jEGLSurfaceImplClass
