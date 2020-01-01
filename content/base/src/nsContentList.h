@@ -133,7 +133,6 @@ NS_DECL_CYCLE_COLLECTION_CLASS
 (
 nsBaseContentList
 )
-virtual
 void
 AppendElement
 (
@@ -142,7 +141,6 @@ nsIContent
 aContent
 )
 ;
-virtual
 void
 RemoveElement
 (
@@ -162,7 +160,6 @@ PRBool
 aDoFlush
 )
 ;
-virtual
 void
 Reset
 (
