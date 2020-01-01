@@ -664,7 +664,7 @@ Testing1
 ;
 ptSvc
 .
-commitTransaction
+doTransaction
 (
 txn2
 )
@@ -817,7 +817,7 @@ Testing1b
 ;
 ptSvc
 .
-commitTransaction
+doTransaction
 (
 txn2b
 )
@@ -915,7 +915,7 @@ bmStartIndex
 ;
 ptSvc
 .
-commitTransaction
+doTransaction
 (
 ptSvc
 .
@@ -946,7 +946,7 @@ Testing2
 ;
 ptSvc
 .
-commitTransaction
+doTransaction
 (
 ptSvc
 .
@@ -977,7 +977,7 @@ Testing3
 ;
 ptSvc
 .
-commitTransaction
+doTransaction
 (
 ptSvc
 .
@@ -1273,7 +1273,7 @@ _itemMovedNewIndex
 ;
 ptSvc
 .
-commitTransaction
+doTransaction
 (
 ptSvc
 .
@@ -1505,7 +1505,7 @@ _itemRemovedIndex
 ;
 ptSvc
 .
-commitTransaction
+doTransaction
 (
 ptSvc
 .
@@ -2266,7 +2266,7 @@ true
 ;
 ptSvc
 .
-commitTransaction
+doTransaction
 (
 ptSvc
 .
@@ -2300,7 +2300,7 @@ folder
 ;
 ptSvc
 .
-commitTransaction
+doTransaction
 (
 ptSvc
 .
@@ -2331,7 +2331,7 @@ c
 ;
 ptSvc
 .
-commitTransaction
+doTransaction
 (
 ptSvc
 .
@@ -2362,7 +2362,7 @@ b
 ;
 ptSvc
 .
-commitTransaction
+doTransaction
 (
 ptSvc
 .
@@ -2613,7 +2613,7 @@ xml
 ;
 ptSvc
 .
-commitTransaction
+doTransaction
 (
 ptSvc
 .

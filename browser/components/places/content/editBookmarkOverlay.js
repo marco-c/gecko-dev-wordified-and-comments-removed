@@ -2499,7 +2499,7 @@ txns
 ;
 ptm
 .
-commitTransaction
+doTransaction
 (
 aggregate
 )
@@ -2560,7 +2560,7 @@ PlacesUtils
 .
 ptm
 .
-commitTransaction
+doTransaction
 (
 txn
 )
@@ -2638,7 +2638,7 @@ PlacesUtils
 .
 ptm
 .
-commitTransaction
+doTransaction
 (
 txn
 )
@@ -2702,7 +2702,7 @@ PlacesUtils
 .
 ptm
 .
-commitTransaction
+doTransaction
 (
 txn
 )
@@ -2792,7 +2792,7 @@ PlacesUtils
 .
 ptm
 .
-commitTransaction
+doTransaction
 (
 txn
 )
@@ -2886,7 +2886,7 @@ PlacesUtils
 .
 ptm
 .
-commitTransaction
+doTransaction
 (
 txn
 )
@@ -2933,7 +2933,7 @@ PlacesUtils
 .
 ptm
 .
-commitTransaction
+doTransaction
 (
 txn
 )
@@ -3407,7 +3407,7 @@ PlacesUtils
 .
 ptm
 .
-commitTransaction
+doTransaction
 (
 txn
 )

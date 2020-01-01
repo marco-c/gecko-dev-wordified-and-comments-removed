@@ -176,7 +176,7 @@ cmd_undo
 return
 PlacesUtils
 .
-tm
+ptm
 .
 numberOfUndoItems
 >
@@ -190,7 +190,7 @@ cmd_redo
 return
 PlacesUtils
 .
-tm
+ptm
 .
 numberOfRedoItems
 >
@@ -801,7 +801,7 @@ cmd_undo
 :
 PlacesUtils
 .
-tm
+ptm
 .
 undoTransaction
 (
@@ -816,7 +816,7 @@ cmd_redo
 :
 PlacesUtils
 .
-tm
+ptm
 .
 redoTransaction
 (
@@ -3423,7 +3423,7 @@ PlacesUtils
 .
 ptm
 .
-commitTransaction
+doTransaction
 (
 txn
 )
@@ -3468,9 +3468,6 @@ _view
 getSelectionNodes
 (
 )
-PlacesUtils
-.
-tm
 )
 ;
 }
@@ -3511,7 +3508,7 @@ PlacesUtils
 .
 ptm
 .
-commitTransaction
+doTransaction
 (
 txn
 )
@@ -3786,7 +3783,7 @@ PlacesUtils
 .
 ptm
 .
-commitTransaction
+doTransaction
 (
 txn
 )
@@ -5033,7 +5030,7 @@ PlacesUtils
 .
 ptm
 .
-commitTransaction
+doTransaction
 (
 txn
 )
@@ -7155,7 +7152,7 @@ PlacesUtils
 .
 ptm
 .
-commitTransaction
+doTransaction
 (
 txn
 )
