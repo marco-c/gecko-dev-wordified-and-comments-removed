@@ -931,7 +931,7 @@ Length
 0
 )
 return
-NULL
+nullptr
 ;
 uint32_t
 length
@@ -1108,7 +1108,7 @@ result
 ;
 result
 =
-NULL
+nullptr
 ;
 }
 }
@@ -1924,19 +1924,19 @@ char
 *
 caseAResult
 =
-NULL
+nullptr
 ;
 char
 *
 caseBResult
 =
-NULL
+nullptr
 ;
 char
 *
 caseCDResult
 =
-NULL
+nullptr
 ;
 nsTArray
 <
@@ -1977,7 +1977,7 @@ char
 *
 nameEnd
 =
-NULL
+nullptr
 ;
 const
 char
@@ -1991,7 +1991,7 @@ char
 *
 valueEnd
 =
-NULL
+nullptr
 ;
 bool
 isQuotedString
@@ -2552,7 +2552,7 @@ char
 *
 charsetStart
 =
-NULL
+nullptr
 ;
 int32_t
 charsetLength
@@ -2564,7 +2564,7 @@ char
 *
 langStart
 =
-NULL
+nullptr
 ;
 int32_t
 langLength
@@ -2576,7 +2576,7 @@ char
 *
 rawValStart
 =
-NULL
+nullptr
 ;
 int32_t
 rawValLength
@@ -2948,7 +2948,7 @@ caseBResult
 )
 caseBResult
 =
-NULL
+nullptr
 ;
 }
 if
@@ -2975,7 +2975,7 @@ caseCDResult
 )
 caseCDResult
 =
-NULL
+nullptr
 ;
 }
 if
@@ -2990,7 +2990,7 @@ caseBResult
 ;
 caseBResult
 =
-NULL
+nullptr
 ;
 charset
 .
@@ -3013,7 +3013,7 @@ caseCDResult
 ;
 caseCDResult
 =
-NULL
+nullptr
 ;
 charset
 .
@@ -3036,7 +3036,7 @@ caseAResult
 ;
 caseAResult
 =
-NULL
+nullptr
 ;
 }
 nsMemory

@@ -241,7 +241,7 @@ if
 buf
 =
 =
-NULL
+nullptr
 )
 return
 -
@@ -370,7 +370,7 @@ if
 fd
 =
 =
-NULL
+nullptr
 )
 return
 -

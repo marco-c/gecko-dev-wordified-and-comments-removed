@@ -5156,8 +5156,8 @@ get
 (
 )
 flags
-NULL
-NULL
+nullptr
+nullptr
 )
 ;
 if

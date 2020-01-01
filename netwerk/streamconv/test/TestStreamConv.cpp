@@ -584,11 +584,11 @@ kTestCIDs
 &
 kTestConverterCID
 false
-NULL
+nullptr
 CreateTestConverter
 }
 {
-NULL
+nullptr
 }
 }
 ;
@@ -740,7 +740,7 @@ foo
 kTestConverterCID
 }
 {
-NULL
+nullptr
 }
 }
 ;
@@ -899,7 +899,7 @@ x
 "
 }
 {
-NULL
+nullptr
 }
 }
 ;

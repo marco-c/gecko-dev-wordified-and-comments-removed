@@ -12621,7 +12621,7 @@ setup
 )
 ;
 return
-NULL
+nullptr
 ;
 }
 uint32_t

@@ -265,7 +265,7 @@ result
 CoCreateInstance
 (
 CLSID_InternetShortcut
-NULL
+nullptr
 CLSCTX_INPROC_SERVER
 IID_IUniformResourceLocatorW
 (

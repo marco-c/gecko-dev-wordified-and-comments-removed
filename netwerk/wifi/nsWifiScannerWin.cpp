@@ -206,7 +206,7 @@ negotiated_version
 HANDLE
 wlan_handle
 =
-NULL
+nullptr
 ;
 static
 const
@@ -223,7 +223,7 @@ WlanOpenHandle
 )
 (
 kXpWlanClientVersion
-NULL
+nullptr
 &
 negotiated_version
 &
@@ -250,7 +250,7 @@ WLAN_INTERFACE_INFO_LIST
 *
 interface_list
 =
-NULL
+nullptr
 ;
 if
 (
@@ -260,7 +260,7 @@ WlanEnumInterfaces
 )
 (
 wlan_handle
-NULL
+nullptr
 &
 interface_list
 )
@@ -275,7 +275,7 @@ WlanCloseHandle
 )
 (
 wlan_handle
-NULL
+nullptr
 )
 ;
 return
@@ -330,10 +330,10 @@ i
 ]
 .
 InterfaceGuid
-NULL
+nullptr
 DOT11_BSS_TYPE_UNUSED
 false
-NULL
+nullptr
 &
 bss_list
 )
@@ -474,7 +474,7 @@ WlanCloseHandle
 )
 (
 wlan_handle
-NULL
+nullptr
 )
 ;
 bool

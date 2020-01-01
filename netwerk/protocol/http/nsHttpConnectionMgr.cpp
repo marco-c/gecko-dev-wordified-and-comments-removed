@@ -827,7 +827,7 @@ Cancel
 ;
 mTimer
 =
-NULL
+nullptr
 ;
 }
 }

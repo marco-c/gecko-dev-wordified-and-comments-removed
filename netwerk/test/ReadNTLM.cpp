@@ -1406,7 +1406,7 @@ PL_Base64Decode
 (
 base64buf
 bufLen
-NULL
+nullptr
 )
 ;
 if

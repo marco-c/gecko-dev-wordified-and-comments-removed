@@ -619,10 +619,10 @@ mShutdownEvent
 =
 CreateEvent
 (
-NULL
+nullptr
 FALSE
 FALSE
-NULL
+nullptr
 )
 ;
 NS_ENSURE_TRUE
@@ -730,7 +730,7 @@ mShutdownEvent
 ;
 mShutdownEvent
 =
-NULL
+nullptr
 ;
 return
 rv
@@ -1024,7 +1024,7 @@ hr
 CoCreateInstance
 (
 CLSID_NetSharingManager
-NULL
+nullptr
 CLSCTX_INPROC_SERVER
 IID_INetSharingManager
 getter_AddRefs
@@ -1317,7 +1317,7 @@ GetAdaptersAddresses
 (
 AF_UNSPEC
 0
-NULL
+nullptr
 addresses
 &
 len
@@ -1360,7 +1360,7 @@ GetAdaptersAddresses
 (
 AF_UNSPEC
 0
-NULL
+nullptr
 addresses
 &
 len
@@ -1373,7 +1373,7 @@ FAILED
 (
 CoInitializeEx
 (
-NULL
+nullptr
 COINIT_MULTITHREADED
 )
 )

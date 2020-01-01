@@ -1180,7 +1180,7 @@ AndroidCaptureProvider
 :
 sInstance
 =
-NULL
+nullptr
 ;
 AndroidCaptureProvider
 :
@@ -1203,7 +1203,7 @@ AndroidCaptureProvider
 :
 sInstance
 =
-NULL
+nullptr
 ;
 }
 nsresult
