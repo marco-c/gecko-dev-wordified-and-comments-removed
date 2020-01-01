@@ -564,6 +564,7 @@ sizeHint
 )
 ;
 enum
+FrameBlendMethod
 {
 kBlendSource
 =
@@ -572,6 +573,7 @@ kBlendOver
 }
 ;
 enum
+FrameDisposalMethod
 {
 kDisposeClearAll
 =
@@ -581,6 +583,13 @@ kDisposeNotSpecified
 kDisposeKeep
 kDisposeClear
 kDisposeRestorePrevious
+}
+;
+enum
+FrameAlpha
+{
+kFrameHasAlpha
+kFrameOpaque
 }
 ;
 nsCString
