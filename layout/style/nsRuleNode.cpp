@@ -27411,6 +27411,8 @@ mHeight
 SETCOORD_LPAH
 |
 SETCOORD_INITIAL_AUTO
+|
+SETCOORD_STORE_CALC
 aContext
 mPresContext
 canStoreInRuleTree
@@ -27432,6 +27434,8 @@ mMinHeight
 SETCOORD_LPH
 |
 SETCOORD_INITIAL_ZERO
+|
+SETCOORD_STORE_CALC
 aContext
 mPresContext
 canStoreInRuleTree
@@ -27453,6 +27457,8 @@ mMaxHeight
 SETCOORD_LPOH
 |
 SETCOORD_INITIAL_NONE
+|
+SETCOORD_STORE_CALC
 aContext
 mPresContext
 canStoreInRuleTree

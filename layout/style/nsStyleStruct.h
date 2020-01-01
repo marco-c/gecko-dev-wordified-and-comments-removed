@@ -4144,12 +4144,9 @@ eStyleUnit_Auto
 |
 aCoord
 .
-GetUnit
+HasPercent
 (
 )
-=
-=
-eStyleUnit_Percent
 ;
 }
 }
