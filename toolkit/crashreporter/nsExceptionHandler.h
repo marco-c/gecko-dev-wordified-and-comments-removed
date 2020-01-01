@@ -78,6 +78,14 @@ char
 argv
 )
 ;
+nsresult
+SetupExtraData
+(
+nsILocalFile
+*
+aAppDataDirectory
+)
+;
 }
 #
 endif
