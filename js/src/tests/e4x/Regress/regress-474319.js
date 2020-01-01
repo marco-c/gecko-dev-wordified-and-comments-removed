@@ -100,6 +100,8 @@ gczeal
 2
 )
 ;
+try
+{
 (
 function
 (
@@ -129,6 +131,18 @@ concat
 }
 )
 (
+)
+;
+}
+catch
+(
+ex
+)
+{
+}
+gczeal
+(
+0
 )
 ;
 }
