@@ -173,6 +173,8 @@ is
 (
 BrowserUI
 .
+_edit
+.
 _canonizeURL
 (
 input

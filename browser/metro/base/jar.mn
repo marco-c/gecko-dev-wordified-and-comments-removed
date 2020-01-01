@@ -286,7 +286,7 @@ content
 /
 bindings
 /
-autocomplete
+urlbar
 .
 xml
 (
@@ -294,7 +294,7 @@ content
 /
 bindings
 /
-autocomplete
+urlbar
 .
 xml
 )

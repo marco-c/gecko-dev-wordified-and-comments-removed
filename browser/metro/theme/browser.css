@@ -1439,6 +1439,8 @@ auto
 }
 #
 toolbar
+-
+autocomplete
 {
 background
 -
@@ -2166,7 +2168,6 @@ size
 ;
 }
 appbar
->
 toolbar
 {
 -
@@ -2208,7 +2209,6 @@ size
 ;
 }
 appbar
->
 toolbar
 >
 toolbarbutton

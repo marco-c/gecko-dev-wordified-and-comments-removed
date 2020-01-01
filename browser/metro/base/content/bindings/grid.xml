@@ -675,6 +675,15 @@ aItem
 /
 >
 <
+parameter
+name
+=
+"
+aEvent
+"
+/
+>
+<
 body
 >
 <
@@ -704,6 +713,7 @@ controller
 handleItemClick
 (
 aItem
+aEvent
 )
 ;
 ]
