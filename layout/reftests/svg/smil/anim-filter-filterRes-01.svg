@@ -80,7 +80,7 @@ onload
 "
 setTimeAndSnapshot
 (
-1
+101
 true
 )
 "
@@ -187,7 +187,7 @@ linear
 begin
 =
 "
-0s
+100s
 "
 dur
 =
