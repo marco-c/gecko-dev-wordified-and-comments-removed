@@ -23,7 +23,7 @@ Unbox
 \
 _
 (
-UnboxDouble
+UnboxFloatingPoint
 )
 \
 _
