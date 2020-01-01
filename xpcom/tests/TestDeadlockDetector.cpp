@@ -1071,6 +1071,12 @@ idx
 ;
 #
 else
+nsCString
+tokenCString
+(
+token
+)
+;
 idx
 =
 proc
@@ -1079,7 +1085,7 @@ mStderr
 .
 Find
 (
-token
+tokenCString
 idx
 )
 ;
