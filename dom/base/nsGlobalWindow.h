@@ -3095,12 +3095,14 @@ nsDOMStorageEventArray
 nsDOMStorageEventArray
 mPendingStorageEvents
 ;
+nsAutoPtr
+<
 nsDataHashtable
 <
 nsStringHashKey
 PRBool
 >
-*
+>
 mPendingStorageEventsObsolete
 ;
 PRUint32
