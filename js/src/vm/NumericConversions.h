@@ -15,6 +15,13 @@ h
 "
 #
 include
+"
+jscpucfg
+.
+h
+"
+#
+include
 <
 math
 .
