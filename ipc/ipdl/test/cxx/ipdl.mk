@@ -73,6 +73,10 @@ PTestNestedLoops
 .
 ipdl
 \
+PTestRacyReentry
+.
+ipdl
+\
 PTestRacyRPCReplies
 .
 ipdl
