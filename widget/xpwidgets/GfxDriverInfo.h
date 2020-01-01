@@ -748,6 +748,7 @@ inline
 bool
 ParseDriverVersion
 (
+const
 nsAString
 &
 aVersion
