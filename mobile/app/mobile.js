@@ -4008,3 +4008,15 @@ interval
 endif
 #
 endif
+pref
+(
+"
+editor
+.
+singleLine
+.
+pasteNewlines
+"
+2
+)
+;
