@@ -657,6 +657,7 @@ this
 0
 sizeof
 (
+*
 this
 )
 )
@@ -669,6 +670,17 @@ StandardContextFormat
 cf
 )
 {
+memset
+(
+this
+0
+sizeof
+(
+*
+this
+)
+)
+;
 switch
 (
 cf
