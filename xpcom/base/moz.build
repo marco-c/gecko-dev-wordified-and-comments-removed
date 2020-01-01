@@ -489,11 +489,6 @@ nsDebugImpl
 cpp
 '
 '
-nsErrorAsserts
-.
-cpp
-'
-'
 nsErrorService
 .
 cpp
