@@ -192,9 +192,9 @@ parser
 parse
 (
 new
-parser
+definitions
 .
-DefaultBuilder
+Builder
 s
 )
 )
@@ -349,9 +349,9 @@ x
 builder
 :
 new
-parser
+definitions
 .
-DefaultBuilder
+Builder
 }
 ;
 var
@@ -6212,9 +6212,9 @@ parser
 parse
 (
 new
-parser
+definitions
 .
-DefaultBuilder
+Builder
 s
 f
 l
@@ -6380,9 +6380,9 @@ var
 b
 =
 new
-parser
+definitions
 .
-DefaultBuilder
+Builder
 ;
 var
 x
