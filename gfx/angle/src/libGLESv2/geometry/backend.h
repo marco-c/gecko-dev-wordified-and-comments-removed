@@ -254,6 +254,14 @@ attributes
 =
 0
 ;
+virtual
+void
+invalidate
+(
+)
+=
+0
+;
 }
 ;
 class

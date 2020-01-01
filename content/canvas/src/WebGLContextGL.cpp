@@ -14033,7 +14033,9 @@ compiler
 ShConstructCompiler
 (
 lang
-debugFlags
+EShSpecWebGL
+&
+resources
 )
 ;
 nsDependentCString
@@ -14067,9 +14069,7 @@ compiler
 &
 s
 1
-EShOptNone
-&
-resources
+EShOptSimple
 debugFlags
 )
 )

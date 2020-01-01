@@ -102,7 +102,9 @@ TIntermediate
 &
 interm
 EShLanguage
-L
+l
+EShSpec
+s
 TInfoSink
 &
 is
@@ -122,7 +124,11 @@ is
 )
 language
 (
-L
+l
+)
+spec
+(
+s
 )
 treeRoot
 (
@@ -170,6 +176,9 @@ infoSink
 EShLanguage
 language
 ;
+EShSpec
+spec
+;
 TIntermNode
 *
 treeRoot
@@ -210,7 +219,6 @@ initializeExtensionBehavior
 )
 ;
 void
-C_DECL
 error
 (
 TSourceLoc

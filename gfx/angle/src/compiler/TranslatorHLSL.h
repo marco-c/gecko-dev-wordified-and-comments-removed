@@ -24,9 +24,9 @@ public
 TranslatorHLSL
 (
 EShLanguage
-l
-int
-dOptions
+lang
+EShSpec
+spec
 )
 ;
 virtual
@@ -37,9 +37,6 @@ TIntermNode
 *
 root
 )
-;
-int
-debugOptions
 ;
 }
 ;

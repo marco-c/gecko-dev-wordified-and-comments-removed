@@ -15,6 +15,13 @@ Buffer
 :
 Buffer
 (
+GLuint
+id
+)
+:
+RefCountObject
+(
+id
 )
 {
 mContents

@@ -13,8 +13,8 @@ ConstructCompiler
 (
 EShLanguage
 language
-int
-debugOptions
+EShSpec
+spec
 )
 {
 return
@@ -22,7 +22,7 @@ new
 TranslatorGLSL
 (
 language
-debugOptions
+spec
 )
 ;
 }

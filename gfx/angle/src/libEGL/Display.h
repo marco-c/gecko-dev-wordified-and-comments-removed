@@ -146,6 +146,13 @@ createContext
 (
 EGLConfig
 configHandle
+const
+gl
+:
+:
+Context
+*
+shareContext
 )
 ;
 void
@@ -272,6 +279,9 @@ mDevice
 D3DCAPS9
 mDeviceCaps
 ;
+HWND
+mDeviceWindow
+;
 bool
 mSceneStarted
 ;
@@ -320,6 +330,11 @@ ContextSet
 ;
 ContextSet
 mContextSet
+;
+bool
+createDevice
+(
+)
 ;
 }
 ;
