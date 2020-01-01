@@ -272,13 +272,10 @@ MOZ_DELETE
 ;
 public
 :
-nsresult
-ConstructRootFrame
-(
 nsIFrame
 *
-*
-aNewFrame
+ConstructRootFrame
+(
 )
 ;
 nsresult
