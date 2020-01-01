@@ -169,6 +169,10 @@ browser_privatebrowsing_openLocationLastURL
 .
 js
 \
+browser_privatebrowsing_placestitle
+.
+js
+\
 browser_privatebrowsing_popupblocker
 .
 js
@@ -204,6 +208,10 @@ js
 popup
 .
 html
+\
+title
+.
+sjs
 \
 (
 NULL
