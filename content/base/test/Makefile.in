@@ -2776,6 +2776,14 @@ test_bug810494
 .
 html
 \
+test_bug819051
+.
+html
+\
+bug819051
+.
+sjs
+\
 test_textnode_split_in_selection
 .
 html

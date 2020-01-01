@@ -2589,6 +2589,12 @@ RequestHeader
 >
 mModifiedRequestHeaders
 ;
+nsTHashtable
+<
+nsCStringHashKey
+>
+mAlreadySetHeaders
+;
 nsXMLHttpRequestXPCOMifier
 *
 mXPCOMifier
