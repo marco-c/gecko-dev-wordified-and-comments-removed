@@ -10277,6 +10277,9 @@ jsop_initmethod
 (
 )
 {
+#
+ifdef
+DEBUG
 FrameEntry
 *
 obj
@@ -10289,6 +10292,8 @@ peek
 2
 )
 ;
+#
+endif
 JSAtom
 *
 atom
