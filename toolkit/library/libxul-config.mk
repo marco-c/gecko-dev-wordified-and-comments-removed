@@ -1188,17 +1188,6 @@ COMPONENT_LIBS
 widget_photon
 endif
 ifdef
-MOZ_OJI
-STATIC_LIBS
-+
-=
-jsj
-COMPONENT_LIBS
-+
-=
-oji
-endif
-ifdef
 ACCESSIBILITY
 COMPONENT_LIBS
 +
