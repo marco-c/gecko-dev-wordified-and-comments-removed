@@ -2963,6 +2963,10 @@ Shutdown
 ;
 #
 endif
+profiler_shutdown
+(
+)
+;
 NS_LogTerm
 (
 )

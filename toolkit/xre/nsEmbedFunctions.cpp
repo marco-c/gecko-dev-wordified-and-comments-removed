@@ -1974,6 +1974,10 @@ rv
 )
 )
 {
+profiler_shutdown
+(
+)
+;
 NS_LogTerm
 (
 )
@@ -2217,6 +2221,10 @@ Init
 )
 )
 {
+profiler_shutdown
+(
+)
+;
 NS_LogTerm
 (
 )
@@ -2253,6 +2261,10 @@ CleanUp
 ;
 }
 }
+profiler_shutdown
+(
+)
+;
 NS_LogTerm
 (
 )
