@@ -12,11 +12,11 @@ jstypes
 h
 "
 typedef
-JSIntn
+int
 intN
 ;
 typedef
-JSUintn
+unsigned
 uintN
 ;
 #

@@ -2374,7 +2374,7 @@ void
 =
 sizeof
 (
-JSIntn
+int
 )
 )
 {
@@ -2623,7 +2623,7 @@ void
 va_arg
 (
 ap
-JSIntn
+int
 )
 ;
 break
@@ -2723,7 +2723,7 @@ void
 va_arg
 (
 ap
-JSIntn
+int
 *
 )
 ;

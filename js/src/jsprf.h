@@ -97,7 +97,7 @@ fmt
 )
 ;
 typedef
-JSIntn
+int
 (
 *
 JSStuffFunc
