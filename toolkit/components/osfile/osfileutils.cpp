@@ -53,7 +53,7 @@ XP_WIN
 #
 include
 <
-Windows
+windows
 .
 h
 >
@@ -208,7 +208,7 @@ error_invalid_argument
 )
 ;
 return
-nullptr
+nsnull
 ;
 }
 nsresult
@@ -240,7 +240,7 @@ error_not_supported
 )
 ;
 return
-nullptr
+nsnull
 ;
 }
 nsCOMPtr
@@ -276,7 +276,7 @@ error_invalid_argument
 )
 ;
 return
-nullptr
+nsnull
 ;
 }
 int32_t
@@ -352,7 +352,7 @@ get
 )
 =
 =
-nullptr
+nsnull
 )
 {
 error_no_memory
@@ -360,7 +360,7 @@ error_no_memory
 )
 ;
 return
-nullptr
+nsnull
 ;
 }
 rv
@@ -395,7 +395,7 @@ error_invalid_argument
 )
 ;
 return
-nullptr
+nsnull
 ;
 }
 dest
@@ -459,7 +459,7 @@ error_invalid_argument
 )
 ;
 return
-nullptr
+nsnull
 ;
 }
 nsresult
@@ -491,7 +491,7 @@ error_not_supported
 )
 ;
 return
-nullptr
+nsnull
 ;
 }
 nsCOMPtr
@@ -527,7 +527,7 @@ error_invalid_argument
 )
 ;
 return
-nullptr
+nsnull
 ;
 }
 int32_t
@@ -618,7 +618,7 @@ get
 )
 =
 =
-nullptr
+nsnull
 )
 {
 error_no_memory
@@ -626,7 +626,7 @@ error_no_memory
 )
 ;
 return
-nullptr
+nsnull
 ;
 }
 rv
@@ -661,7 +661,7 @@ error_invalid_argument
 )
 ;
 return
-nullptr
+nsnull
 ;
 }
 *
