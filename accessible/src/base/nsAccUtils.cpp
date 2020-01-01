@@ -583,9 +583,6 @@ IsEmpty
 )
 &
 &
-nsAccUtils
-:
-:
 HasDefinedARIAToken
 (
 ancestor
@@ -642,9 +639,6 @@ ancestor
 ;
 if
 (
-nsAccUtils
-:
-:
 HasDefinedARIAToken
 (
 ancestor
@@ -710,9 +704,6 @@ if
 role
 )
 {
-nsAccUtils
-:
-:
 SetAccAttr
 (
 aAttributes
@@ -740,9 +731,6 @@ IsEmpty
 )
 &
 &
-nsAccUtils
-:
-:
 HasDefinedARIAToken
 (
 ancestor
@@ -785,9 +773,6 @@ IsEmpty
 )
 &
 &
-nsAccUtils
-:
-:
 HasDefinedARIAToken
 (
 ancestor
@@ -951,9 +936,6 @@ aAttr
 if
 (
 !
-nsAccUtils
-:
-:
 HasDefinedARIAToken
 (
 aElement
