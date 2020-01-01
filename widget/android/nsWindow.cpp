@@ -11560,10 +11560,7 @@ JNIEnv
 *
 env
 =
-AndroidBridge
-:
-:
-GetJNIForCompositorThread
+GetJNIForThread
 (
 )
 ;
@@ -11695,10 +11692,7 @@ JNIEnv
 *
 env
 =
-AndroidBridge
-:
-:
-GetJNIForCompositorThread
+GetJNIForThread
 (
 )
 ;
