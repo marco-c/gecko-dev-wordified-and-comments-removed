@@ -106,6 +106,12 @@ regress
 .
 js
 script
+new
+-
+parenthesization
+.
+js
+script
 strict
 -
 warning
