@@ -1297,6 +1297,14 @@ length
 {
 JS_ASSERT
 (
+table
+=
+=
+NULL
+)
+;
+JS_ASSERT
+(
 length
 <
 (

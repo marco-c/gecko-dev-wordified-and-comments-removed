@@ -3139,16 +3139,6 @@ uint32
 maxbytes
 )
 {
-rt
--
->
-defaultCompartment
--
->
-init
-(
-)
-;
 if
 (
 !
