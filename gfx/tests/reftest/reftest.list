@@ -34,12 +34,6 @@ http
 oscpu
 )
 )
-fails
--
-if
-(
-Android
-)
 =
 =
 468496
