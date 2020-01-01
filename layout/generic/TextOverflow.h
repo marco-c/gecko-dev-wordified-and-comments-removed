@@ -72,11 +72,6 @@ nsLineBox
 aLine
 )
 ;
-void
-DidProcessLines
-(
-)
-;
 static
 bool
 CanHaveTextOverflow
