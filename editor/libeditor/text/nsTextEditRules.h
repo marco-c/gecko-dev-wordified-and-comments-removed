@@ -140,9 +140,6 @@ DetachEditor
 NS_IMETHOD
 BeforeEdit
 (
-nsEditor
-:
-:
 OperationID
 action
 nsIEditor
@@ -155,9 +152,6 @@ aDirection
 NS_IMETHOD
 AfterEdit
 (
-nsEditor
-:
-:
 OperationID
 action
 nsIEditor
@@ -247,9 +241,6 @@ protected
 nsresult
 WillInsertText
 (
-nsEditor
-:
-:
 OperationID
 aAction
 mozilla
@@ -786,9 +777,6 @@ mDidExplicitlySetInterline
 bool
 mDeleteBidiImmediately
 ;
-nsEditor
-:
-:
 OperationID
 mTheAction
 ;
@@ -818,9 +806,6 @@ public
 :
 nsTextRulesInfo
 (
-nsEditor
-:
-:
 OperationID
 aAction
 )

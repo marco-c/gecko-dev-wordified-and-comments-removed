@@ -130,9 +130,6 @@ aSpellChecker
 nsresult
 InitForEditorChange
 (
-nsEditor
-:
-:
 OperationID
 aAction
 nsIDOMNode
