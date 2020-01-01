@@ -28,7 +28,7 @@ h
 #
 include
 "
-jsobjinlines
+jsgcinlines
 .
 h
 "
