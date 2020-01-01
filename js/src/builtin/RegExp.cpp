@@ -577,6 +577,9 @@ res
 RegExpShared
 &
 re
+RegExpObject
+&
+regexp
 JSLinearString
 *
 input
@@ -644,7 +647,7 @@ updateLazily
 cx
 input
 &
-re
+regexp
 lastIndex_orig
 )
 ;
@@ -780,6 +783,7 @@ cx
 res
 *
 shared
+reobj
 input
 chars
 length
@@ -3171,6 +3175,8 @@ cx
 res
 *
 re
+*
+reobj
 stableInput
 chars
 length
