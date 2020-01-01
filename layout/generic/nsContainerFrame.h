@@ -65,6 +65,10 @@ NS_FRAME_NO_VISIBILITY
 define
 NS_FRAME_INVALIDATE_ON_MOVE
 0x0010
+#
+define
+NS_FRAME_NO_DELETE_NEXT_IN_FLOW_CHILD
+0x0020
 class
 nsOverflowContinuationTracker
 ;
