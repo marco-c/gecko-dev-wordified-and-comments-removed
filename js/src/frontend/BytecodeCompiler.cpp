@@ -1476,6 +1476,7 @@ parser
 .
 newFunctionBox
 (
+NULL
 fun
 pc
 .
