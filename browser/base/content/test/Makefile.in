@@ -980,6 +980,10 @@ browser_bug616836
 .
 js
 \
+browser_bug623893
+.
+js
+\
 browser_contextSearchTabPosition
 .
 js
