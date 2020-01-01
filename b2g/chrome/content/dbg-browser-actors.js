@@ -415,7 +415,7 @@ _createExtraActors
 (
 DebuggerServer
 .
-globalActorFactories
+tabActorFactories
 actorPool
 )
 ;
