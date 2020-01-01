@@ -3531,7 +3531,16 @@ guid
 username
 )
 {
-return
+let
+self
+=
+yield
+;
+self
+.
+done
+(
+)
 ;
 }
 sync
@@ -3581,7 +3590,7 @@ username
 resetServer
 :
 function
-Engine_resetServer
+Engimne_resetServer
 (
 onComplete
 )
