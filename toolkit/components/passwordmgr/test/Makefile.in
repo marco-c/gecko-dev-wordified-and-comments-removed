@@ -526,6 +526,10 @@ test_bug_427033
 .
 html
 \
+test_bug_444968
+.
+html
+\
 test_notifications
 .
 html
