@@ -470,6 +470,12 @@ ports
 ;
 this
 .
+loaded
+=
+false
+;
+this
+.
 reloading
 =
 true
@@ -1343,14 +1349,6 @@ unload
 "
 unloadListener
 )
-;
-delete
-workerCache
-[
-worker
-.
-url
-]
 ;
 for
 (
