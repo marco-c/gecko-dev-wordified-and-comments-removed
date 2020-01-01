@@ -2909,6 +2909,12 @@ init
 (
 )
 ;
+CharsetMenu
+.
+init
+(
+)
+;
 #
 ifdef
 MOZ_UPDATER

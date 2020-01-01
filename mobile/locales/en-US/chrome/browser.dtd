@@ -1057,6 +1057,17 @@ Engine
 <
 !
 ENTITY
+pageactions
+.
+charEncoding
+"
+Character
+Encoding
+"
+>
+<
+!
+ENTITY
 appMenu
 .
 siteOptions
