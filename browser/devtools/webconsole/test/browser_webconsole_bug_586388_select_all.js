@@ -415,16 +415,6 @@ selectedIndex
 -
 1
 ;
-commandEvent
-=
-contextMenu
-=
-groupNode
-=
-range
-=
-null
-;
 finishTest
 (
 )

@@ -1,3 +1,9 @@
+let
+tempScope
+=
+{
+}
+;
 Components
 .
 utils
@@ -16,7 +22,15 @@ gcli
 .
 jsm
 "
+tempScope
 )
+;
+let
+gcli
+=
+tempScope
+.
+gcli
 ;
 let
 require

@@ -86,17 +86,6 @@ Styles
 Test
 "
 ;
-ok
-(
-window
-.
-StyleInspector
-"
-StyleInspector
-exists
-"
-)
-;
 stylePanel
 =
 new

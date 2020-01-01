@@ -41,6 +41,7 @@ getHudIdByWindow
 content
 )
 ;
+let
 HUD
 =
 HUDService

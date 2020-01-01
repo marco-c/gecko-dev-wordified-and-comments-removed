@@ -1,3 +1,9 @@
+let
+tempScope
+=
+{
+}
+;
 Cu
 .
 import
@@ -16,7 +22,15 @@ Promise
 .
 jsm
 "
+tempScope
 )
+;
+let
+Promise
+=
+tempScope
+.
+Promise
 ;
 function
 test

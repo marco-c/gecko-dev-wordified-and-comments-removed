@@ -459,6 +459,11 @@ set
 "
 )
 ;
+delete
+window
+.
+foobarBug636725
+;
 sp
 .
 setText

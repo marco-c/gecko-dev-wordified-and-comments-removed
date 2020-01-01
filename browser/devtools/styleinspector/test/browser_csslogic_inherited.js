@@ -1,3 +1,9 @@
+let
+tempScope
+=
+{
+}
+;
 Cu
 .
 import
@@ -16,7 +22,15 @@ CssLogic
 .
 jsm
 "
+tempScope
 )
+;
+let
+CssLogic
+=
+tempScope
+.
+CssLogic
 ;
 let
 doc

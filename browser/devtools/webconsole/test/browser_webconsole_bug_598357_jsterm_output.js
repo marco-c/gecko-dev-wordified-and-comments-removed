@@ -630,6 +630,9 @@ popupShown
 [
 ]
 ;
+let
+HUD
+;
 function
 tabLoad
 (
@@ -1515,12 +1518,6 @@ i
 ;
 }
 }
-eventHandlers
-=
-popupshown
-=
-null
-;
 executeSoon
 (
 finishTest
