@@ -2974,8 +2974,11 @@ empty
 )
 )
 {
-Value
+RootedValue
 rval
+(
+cx
+)
 ;
 JSTrapStatus
 st
@@ -3032,8 +3035,11 @@ regs
 )
 .
 pc
-&
 rval
+.
+address
+(
+)
 cx
 -
 >
