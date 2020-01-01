@@ -79,6 +79,9 @@ LInstruction
 *
 ins
 ;
+bool
+snapshot
+;
 LOperand
 (
 LUse
@@ -87,6 +90,8 @@ use
 LInstruction
 *
 ins
+bool
+snapshot
 )
 :
 use
@@ -96,6 +101,10 @@ use
 ins
 (
 ins
+)
+snapshot
+(
+snapshot
 )
 {
 }
