@@ -56,7 +56,7 @@ h
 #
 define
 NS_NUM_OF_KEYS
-68
+70
 #
 define
 VK_OEM_1
