@@ -8980,6 +8980,9 @@ mDOMNode
 nsAutoString
 id
 ;
+nsAutoString
+oldValueUnused
+;
 if
 (
 content
@@ -8995,9 +8998,6 @@ id
 )
 )
 {
-nsAutoString
-oldValueUnused
-;
 attributes
 -
 >
@@ -9013,6 +9013,7 @@ id
 oldValueUnused
 )
 ;
+}
 nsAutoString
 xmlRole
 ;
@@ -9416,7 +9417,6 @@ GetParent
 (
 )
 ;
-}
 }
 if
 (
