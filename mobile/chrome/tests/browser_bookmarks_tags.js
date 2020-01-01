@@ -142,9 +142,11 @@ bookmarks
 .
 removeFolderChildren
 (
-BookmarkList
+PlacesUtils
 .
-mobileRoot
+bookmarks
+.
+unfiledBookmarksFolder
 )
 ;
 }
