@@ -585,6 +585,7 @@ FFI_N64
 FFI_O32_SOFT_FLOAT
 FFI_N32_SOFT_FLOAT
 FFI_N64_SOFT_FLOAT
+FFI_LAST_ABI
 #
 ifdef
 FFI_MIPS_O32
@@ -641,11 +642,6 @@ endif
 endif
 #
 endif
-FFI_LAST_ABI
-=
-FFI_DEFAULT_ABI
-+
-1
 }
 ffi_abi
 ;

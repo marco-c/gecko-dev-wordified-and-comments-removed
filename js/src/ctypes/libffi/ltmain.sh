@@ -17,7 +17,7 @@ libtool
 .
 2
 .
-6
+6b
 #
 Written
 by
@@ -622,7 +622,7 @@ libtool
 .
 2
 .
-6
+6b
 #
 automake
 :
@@ -659,7 +659,7 @@ VERSION
 .
 2
 .
-6
+6b
 TIMESTAMP
 =
 "
@@ -668,7 +668,7 @@ package_revision
 =
 1
 .
-3012
+3017
 #
 Be
 Bourne

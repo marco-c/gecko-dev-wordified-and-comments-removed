@@ -77,7 +77,7 @@ in
 .
 #
 serial
-3012
+3017
 ltversion
 .
 m4
@@ -99,7 +99,7 @@ LT_PACKAGE_VERSION
 .
 2
 .
-6
+6b
 ]
 )
 m4_define
@@ -110,7 +110,7 @@ LT_PACKAGE_REVISION
 [
 1
 .
-3012
+3017
 ]
 )
 AC_DEFUN
@@ -126,14 +126,14 @@ macro_version
 .
 2
 .
-6
+6b
 '
 macro_revision
 =
 '
 1
 .
-3012
+3017
 '
 _LT_DECL
 (

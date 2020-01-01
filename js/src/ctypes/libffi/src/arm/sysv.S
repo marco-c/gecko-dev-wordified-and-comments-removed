@@ -654,6 +654,13 @@ defined
 (
 __ARM_ARCH_7M__
 )
+\
+|
+|
+defined
+(
+__ARM_ARCH_7EM__
+)
 #
 undef
 __ARM_ARCH__

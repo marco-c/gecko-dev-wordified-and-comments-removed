@@ -697,8 +697,13 @@ for
 *
 /
 #
+ifndef
+TARGET
+#
 define
 TARGET
+#
+endif
 /
 *
 -

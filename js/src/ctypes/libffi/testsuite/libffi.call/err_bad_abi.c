@@ -56,13 +56,6 @@ ffi_closure
 code
 )
 ;
-void
-*
-args
-[
-1
-]
-;
 ffi_type
 *
 arg_types
@@ -71,13 +64,6 @@ arg_types
 ]
 ;
 arg_types
-[
-0
-]
-=
-NULL
-;
-args
 [
 0
 ]

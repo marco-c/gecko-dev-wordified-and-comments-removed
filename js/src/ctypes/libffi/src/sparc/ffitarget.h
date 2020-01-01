@@ -17,8 +17,13 @@ defined
 __sparcv9
 )
 #
+ifndef
+SPARC64
+#
 define
 SPARC64
+#
+endif
 #
 endif
 #
@@ -44,6 +49,7 @@ FFI_FIRST_ABI
 FFI_V8
 FFI_V8PLUS
 FFI_V9
+FFI_LAST_ABI
 #
 ifdef
 SPARC64
@@ -57,11 +63,6 @@ FFI_DEFAULT_ABI
 FFI_V8
 #
 endif
-FFI_LAST_ABI
-=
-FFI_DEFAULT_ABI
-+
-1
 }
 ffi_abi
 ;
