@@ -961,7 +961,7 @@ strings
 mozilla
 :
 :
-Move
+OldMove
 (
 other
 -
@@ -974,7 +974,7 @@ notableStrings
 mozilla
 :
 :
-Move
+OldMove
 (
 other
 -

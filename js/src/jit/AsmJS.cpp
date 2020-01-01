@@ -243,7 +243,7 @@ using
 mozilla
 :
 :
-Move
+OldMove
 ;
 using
 mozilla
@@ -3173,7 +3173,7 @@ rhs
 :
 argTypes_
 (
-Move
+OldMove
 (
 rhs
 -
@@ -3311,7 +3311,7 @@ extractArgs
 )
 {
 return
-Move
+OldMove
 (
 argTypes_
 )
@@ -4822,7 +4822,7 @@ rhs
 :
 sig_
 (
-Move
+OldMove
 (
 rhs
 -
@@ -4846,7 +4846,7 @@ globalDataOffset_
 )
 elems_
 (
-Move
+OldMove
 (
 rhs
 -
@@ -5026,7 +5026,7 @@ name_
 )
 sig_
 (
-Move
+OldMove
 (
 rhs
 -
@@ -6916,7 +6916,7 @@ funcPtrTables_
 .
 append
 (
-Move
+OldMove
 (
 tmpTable
 )
@@ -7350,7 +7350,7 @@ name
 (
 )
 maybeFieldName
-Move
+OldMove
 (
 argCoercions
 )
@@ -7434,7 +7434,7 @@ exits_
 add
 (
 p
-Move
+OldMove
 (
 exitDescriptor
 )
@@ -13763,7 +13763,7 @@ add
 (
 p
 key
-Move
+OldMove
 (
 empty
 )
@@ -19761,7 +19761,7 @@ m
 (
 )
 callNode
-Move
+OldMove
 (
 call
 .
@@ -20348,7 +20348,7 @@ m
 )
 tableNode
 name
-Move
+OldMove
 (
 call
 .
@@ -20522,7 +20522,7 @@ addExit
 (
 ffiIndex
 calleeName
-Move
+OldMove
 (
 call
 .
@@ -28222,7 +28222,7 @@ false
 Signature
 sig
 (
-Move
+OldMove
 (
 argTypes
 )
@@ -28243,7 +28243,7 @@ CheckFunctionSignature
 (
 m
 fn
-Move
+OldMove
 (
 sig
 )
@@ -30381,7 +30381,7 @@ var
 name
 (
 )
-Move
+OldMove
 (
 sig
 )
@@ -30398,7 +30398,7 @@ table
 >
 initElems
 (
-Move
+OldMove
 (
 elems
 )

@@ -111,7 +111,7 @@ using
 mozilla
 :
 :
-Move
+OldMove
 ;
 using
 mozilla
@@ -2270,7 +2270,7 @@ wp
 >
 element
 =
-Move
+OldMove
 (
 rp
 -
@@ -2559,7 +2559,7 @@ wp
 )
 Data
 (
-Move
+OldMove
 (
 p
 -
@@ -2750,7 +2750,7 @@ Key
 key
 )
 =
-Move
+OldMove
 (
 rhs
 -
@@ -2760,7 +2760,7 @@ key
 ;
 value
 =
-Move
+OldMove
 (
 rhs
 -
@@ -2816,7 +2816,7 @@ rhs
 :
 key
 (
-Move
+OldMove
 (
 rhs
 -
@@ -2826,7 +2826,7 @@ key
 )
 value
 (
-Move
+OldMove
 (
 rhs
 -
