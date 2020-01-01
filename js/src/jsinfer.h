@@ -1331,12 +1331,6 @@ compartment
 )
 ;
 inline
-size_t
-computedSizeOfExcludingThis
-(
-)
-;
-inline
 bool
 hasType
 (
@@ -2938,12 +2932,6 @@ sweep
 FreeOp
 *
 fop
-)
-;
-inline
-size_t
-computedSizeOfExcludingThis
-(
 )
 ;
 void
