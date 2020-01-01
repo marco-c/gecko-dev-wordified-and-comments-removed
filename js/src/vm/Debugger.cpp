@@ -1,7 +1,9 @@
 #
 include
 "
-jsdbg
+vm
+/
+Debugger
 .
 h
 "

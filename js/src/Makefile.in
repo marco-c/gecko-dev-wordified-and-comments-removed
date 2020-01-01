@@ -814,10 +814,6 @@ jsdbgapi
 .
 cpp
 \
-jsdbg
-.
-cpp
-\
 jsdhash
 .
 cpp
@@ -991,6 +987,10 @@ prmjtime
 cpp
 \
 sharkctl
+.
+cpp
+\
+Debugger
 .
 cpp
 \
@@ -1402,6 +1402,10 @@ EXPORTS_vm
 =
 \
 ArgumentsObject
+.
+h
+\
+Debugger
 .
 h
 \

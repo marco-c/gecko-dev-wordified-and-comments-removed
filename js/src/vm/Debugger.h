@@ -1,9 +1,9 @@
 #
 ifndef
-jsdbg_h__
+Debugger_h__
 #
 define
-jsdbg_h__
+Debugger_h__
 #
 include
 "
