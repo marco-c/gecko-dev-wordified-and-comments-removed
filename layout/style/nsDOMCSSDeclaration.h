@@ -39,12 +39,6 @@ CSS2PropertiesBinding
 h
 "
 class
-nsCSSParser
-;
-class
-nsIURI
-;
-class
 nsIPrincipal
 ;
 class

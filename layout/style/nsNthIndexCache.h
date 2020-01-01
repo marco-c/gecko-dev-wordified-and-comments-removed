@@ -7,13 +7,6 @@ nsContentIndexCache_h__
 #
 include
 "
-nscore
-.
-h
-"
-#
-include
-"
 js
 /
 HashTable

@@ -26,6 +26,13 @@ h
 #
 include
 "
+nsCSSProps
+.
+h
+"
+#
+include
+"
 nsIFrame
 .
 h

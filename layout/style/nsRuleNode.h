@@ -31,9 +31,6 @@ class
 nsStyleContext
 ;
 struct
-PLDHashTable
-;
-struct
 nsRuleData
 ;
 class

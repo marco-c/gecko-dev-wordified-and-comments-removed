@@ -35,7 +35,7 @@ h
 #
 include
 "
-nsAutoPtr
+nsCOMPtr
 .
 h
 "
@@ -46,18 +46,8 @@ nsCoord
 .
 h
 "
-#
-include
-"
-nsWrapperCache
-.
-h
-"
 class
 nsIURI
-;
-class
-nsComputedDOMStyle
 ;
 class
 nsDOMCSSRect

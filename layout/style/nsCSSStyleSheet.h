@@ -307,9 +307,6 @@ endif
 class
 CSSRuleListImpl
 ;
-struct
-ChildSheetListBuilder
-;
 #
 define
 NS_CSS_STYLE_SHEET_IMPL_CID

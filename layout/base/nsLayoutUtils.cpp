@@ -519,6 +519,13 @@ h
 #
 include
 "
+nsStyleTransformMatrix
+.
+h
+"
+#
+include
+"
 mozilla
 /
 dom

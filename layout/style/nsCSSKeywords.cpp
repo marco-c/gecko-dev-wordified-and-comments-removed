@@ -26,13 +26,6 @@ nsReadableUtils
 .
 h
 "
-#
-include
-"
-nsStyleConsts
-.
-h
-"
 extern
 const
 char

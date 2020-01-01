@@ -7,10 +7,13 @@ nsCSSPseudoClasses_h___
 #
 include
 "
-nsIAtom
+nsString
 .
 h
 "
+class
+nsIAtom
+;
 class
 nsCSSPseudoClasses
 {

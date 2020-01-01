@@ -25,13 +25,6 @@ gfx3DMatrix
 .
 h
 "
-#
-include
-"
-nsRect
-.
-h
-"
 struct
 nsCSSValueList
 ;
@@ -40,6 +33,9 @@ nsStyleContext
 ;
 class
 nsPresContext
+;
+struct
+nsRect
 ;
 namespace
 nsStyleTransformMatrix

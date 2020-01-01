@@ -7,13 +7,6 @@ nsLayoutStylesheetCache_h__
 #
 include
 "
-nsCOMPtr
-.
-h
-"
-#
-include
-"
 nsIObserver
 .
 h
