@@ -154,6 +154,10 @@ browserElement_LoadEvents
 .
 js
 \
+file_browserElement_LoadEvents
+.
+html
+\
 test_browserElement_inproc_LoadEvents
 .
 html
