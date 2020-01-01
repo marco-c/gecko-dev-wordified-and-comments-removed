@@ -1,6 +1,13 @@
 #
 include
 "
+jscntxt
+.
+h
+"
+#
+include
+"
 nsXULContentSink
 .
 h
@@ -219,13 +226,6 @@ h
 include
 "
 prmem
-.
-h
-"
-#
-include
-"
-jscntxt
 .
 h
 "

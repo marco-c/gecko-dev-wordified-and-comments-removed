@@ -1498,6 +1498,13 @@ MOZ_DEBUG_LDFLAGS
 endif
 endif
 endif
+MOZALLOC_LIB
+=
+(
+call
+EXPAND_MOZLIBNAME
+mozalloc
+)
 #
 append
 debug

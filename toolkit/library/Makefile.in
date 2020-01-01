@@ -1087,6 +1087,9 @@ EXTRA_DSO_LDOPTS
 (
 NSPR_LIBS
 )
+(
+MOZALLOC_LIB
+)
 ifeq
 (
 (

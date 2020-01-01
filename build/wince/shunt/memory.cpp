@@ -15,6 +15,15 @@ stdlib
 h
 >
 #
+include
+"
+mozilla
+/
+mozalloc_macro_wrappers
+.
+h
+"
+#
 ifdef
 MOZ_MEMORY
 const
@@ -54,10 +63,6 @@ len
 1
 )
 ;
-if
-(
-dst
-)
 strncpy
 (
 dst
@@ -131,10 +136,6 @@ len
 )
 )
 ;
-if
-(
-dst
-)
 wcsncpy
 (
 dst
