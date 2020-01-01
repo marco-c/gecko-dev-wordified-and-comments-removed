@@ -1414,6 +1414,11 @@ aDC
 nsnull
 )
 ;
+PRBool
+OnPaintImageDDraw16
+(
+)
+;
 virtual
 PRBool
 OnResize
