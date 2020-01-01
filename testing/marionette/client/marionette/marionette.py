@@ -6756,15 +6756,21 @@ None
 async
 =
 True
+                          
 new_sandbox
 =
 True
 special_powers
 =
 False
+                          
 script_timeout
 =
 None
+inactivity_timeout
+=
+None
+                          
 filename
 =
 None
@@ -6829,6 +6835,10 @@ scriptTimeout
 =
 script_timeout
                                       
+inactivityTimeout
+=
+inactivity_timeout
+                                      
 filename
 =
 filename
@@ -6857,6 +6867,7 @@ None
 new_sandbox
 =
 True
+                       
 special_powers
 =
 False
