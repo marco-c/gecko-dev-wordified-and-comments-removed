@@ -1467,6 +1467,8 @@ interfaces
 nsIBaseWindow
 )
 ;
+SimpleTest
+.
 ok
 (
 true
@@ -1712,6 +1714,8 @@ type
 MozAfterPaint
 "
 )
+SimpleTest
+.
 ok
 (
 true
@@ -1752,6 +1756,8 @@ SimpleTest
 waitForFocus_loaded
 )
 {
+SimpleTest
+.
 ok
 (
 true
@@ -1818,6 +1824,8 @@ SimpleTest
 waitForFocus_focused
 )
 {
+SimpleTest
+.
 ok
 (
 true
@@ -1834,6 +1842,8 @@ maybeRunTests
 }
 else
 {
+SimpleTest
+.
 ok
 (
 true
