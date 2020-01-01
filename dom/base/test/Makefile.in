@@ -121,6 +121,12 @@ test_window_enumeration
 .
 html
 \
+test_writable
+-
+replaceable
+.
+html
+\
 (
 NULL
 )
