@@ -12,7 +12,7 @@ cairo
 h
 "
 #
-ifdef
+if
 CAIRO_HAS_SKIA_SURFACE
 CAIRO_BEGIN_DECLS
 cairo_public

@@ -360,7 +360,7 @@ char
 *
 data_out
 unsigned
-int
+long
 *
 length_out
 )

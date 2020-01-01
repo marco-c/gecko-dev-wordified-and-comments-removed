@@ -6,18 +6,6 @@ gfxTeeSurface
 h
 "
 #
-ifdef
-MOZ_TREE_CAIRO
-#
-include
-"
-cairo
-.
-h
-"
-#
-else
-#
 include
 "
 cairo
@@ -26,8 +14,6 @@ tee
 .
 h
 "
-#
-endif
 gfxTeeSurface
 :
 :

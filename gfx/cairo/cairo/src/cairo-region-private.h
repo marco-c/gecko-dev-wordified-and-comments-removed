@@ -51,6 +51,15 @@ rgn
 }
 ;
 cairo_private
+cairo_region_t
+*
+_cairo_region_create_in_error
+(
+cairo_status_t
+status
+)
+;
+cairo_private
 void
 _cairo_region_init
 (

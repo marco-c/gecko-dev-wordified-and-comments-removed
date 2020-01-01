@@ -6,6 +6,17 @@ cairoint
 h
 "
 #
+include
+"
+cairo
+-
+error
+-
+private
+.
+h
+"
+#
 define
 DEAD_ENTRY
 (

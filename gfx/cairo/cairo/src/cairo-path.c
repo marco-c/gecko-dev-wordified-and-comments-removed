@@ -19,6 +19,17 @@ include
 "
 cairo
 -
+error
+-
+private
+.
+h
+"
+#
+include
+"
+cairo
+-
 path
 -
 private

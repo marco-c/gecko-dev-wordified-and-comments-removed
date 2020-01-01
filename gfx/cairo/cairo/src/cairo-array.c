@@ -5,6 +5,17 @@ cairoint
 .
 h
 "
+#
+include
+"
+cairo
+-
+error
+-
+private
+.
+h
+"
 void
 _cairo_array_init
 (

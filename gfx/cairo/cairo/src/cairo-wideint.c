@@ -3352,7 +3352,6 @@ _cairo_uint32s_to_uint64
 1U
 )
 ;
-;
 qr
 .
 rem
