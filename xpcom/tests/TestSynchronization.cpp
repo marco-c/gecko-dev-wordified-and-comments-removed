@@ -99,7 +99,6 @@ while
 (
 0
 )
-;
 #
 define
 FAIL
@@ -112,6 +111,18 @@ do
 \
 fail
 (
+"
+%
+s
+|
+%
+s
+-
+%
+s
+"
+__FILE__
+__FUNCTION__
 why
 )
 ;
@@ -125,7 +136,6 @@ while
 (
 0
 )
-;
 static
 nsresult
 Sanity
@@ -1306,6 +1316,11 @@ xpcom
 (
 "
 Synchronization
+(
+"
+__FILE__
+"
+)
 "
 )
 ;
