@@ -61,6 +61,10 @@ browser_thumbnails_background
 .
 js
 \
+browser_thumbnails_background_crash
+.
+js
+\
 browser_thumbnails_capture
 .
 js
@@ -124,6 +128,10 @@ sjs
 thumbnails_background
 .
 sjs
+\
+thumbnails_crash_content_helper
+.
+js
 \
 thumbnails_update
 .
