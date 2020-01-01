@@ -3014,7 +3014,6 @@ return
 new
 nsDataSlots
 (
-mFlagsOrSlots
 )
 ;
 }

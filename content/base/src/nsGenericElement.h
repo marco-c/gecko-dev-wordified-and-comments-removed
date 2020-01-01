@@ -2802,8 +2802,6 @@ public
 :
 nsDOMSlots
 (
-PtrBits
-aFlags
 )
 ;
 virtual

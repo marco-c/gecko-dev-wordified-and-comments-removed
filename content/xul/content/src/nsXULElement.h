@@ -2038,8 +2038,6 @@ public
 :
 nsXULSlots
 (
-PtrBits
-aFlags
 )
 ;
 virtual
