@@ -78,7 +78,7 @@ aURI
 ;
 virtual
 void
-AbortFastLoads
+AbortCaching
 (
 )
 =
