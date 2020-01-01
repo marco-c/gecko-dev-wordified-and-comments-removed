@@ -217,6 +217,13 @@ x
 )
 ;
 }
+size_t
+sizeOfIncludingThis
+(
+JSMallocSizeOfFun
+mallocSizeOf
+)
+;
 }
 ;
 }
