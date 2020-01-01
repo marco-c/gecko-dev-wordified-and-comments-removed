@@ -77,6 +77,7 @@ gen
 eval
 (
 '
+(
 function
 (
 )
@@ -90,6 +91,7 @@ yield
 3
 ;
 }
+)
 '
 )
 ;

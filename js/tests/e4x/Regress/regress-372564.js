@@ -42,6 +42,7 @@ printStatus
 summary
 )
 ;
+(
 function
 (
 )
@@ -57,6 +58,8 @@ foo
 3
 ;
 }
+)
+;
 TEST
 (
 1

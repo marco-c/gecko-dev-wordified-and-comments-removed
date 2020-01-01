@@ -62,6 +62,7 @@ actual
 summary
 )
 ;
+(
 function
 (
 )
@@ -78,6 +79,8 @@ y
 {
 }
 }
+)
+;
 exitFunc
 (
 '

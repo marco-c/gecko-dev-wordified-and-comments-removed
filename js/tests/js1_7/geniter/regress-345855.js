@@ -70,6 +70,7 @@ try
 eval
 (
 '
+(
 function
 (
 )
@@ -81,6 +82,7 @@ x
 yield
 ;
 }
+)
 '
 )
 ;
@@ -144,6 +146,7 @@ try
 eval
 (
 '
+(
 function
 (
 )
@@ -153,6 +156,7 @@ foo
 yield
 )
 }
+)
 '
 )
 ;
@@ -211,6 +215,7 @@ try
 eval
 (
 '
+(
 function
 (
 )
@@ -222,6 +227,7 @@ x
 yield
 42
 }
+)
 '
 )
 ;
@@ -285,6 +291,7 @@ try
 eval
 (
 '
+(
 function
 (
 )
@@ -295,6 +302,7 @@ yield
 42
 )
 }
+)
 '
 )
 ;
@@ -352,6 +360,7 @@ try
 eval
 (
 '
+(
 function
 (
 )
@@ -365,6 +374,7 @@ yield
 )
 ;
 }
+)
 '
 )
 ;
@@ -418,6 +428,7 @@ try
 eval
 (
 '
+(
 function
 (
 )
@@ -429,6 +440,7 @@ yield
 )
 )
 }
+)
 '
 )
 ;
@@ -480,6 +492,7 @@ try
 eval
 (
 '
+(
 function
 (
 )
@@ -493,6 +506,7 @@ yield
 42
 )
 }
+)
 '
 )
 ;
@@ -546,6 +560,7 @@ try
 eval
 (
 '
+(
 function
 (
 )
@@ -558,6 +573,7 @@ yield
 )
 )
 }
+)
 '
 )
 ;

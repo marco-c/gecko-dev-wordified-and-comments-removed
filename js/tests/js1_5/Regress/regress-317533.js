@@ -79,6 +79,7 @@ actual
 code
 =
 "
+(
 function
 (
 x
@@ -92,6 +93,7 @@ return
 x
 ;
 }
+)
 "
 ;
 print
@@ -140,6 +142,7 @@ actual
 code
 =
 "
+(
 function
 (
 x
@@ -154,6 +157,7 @@ x
 ;
 ;
 }
+)
 "
 ;
 print

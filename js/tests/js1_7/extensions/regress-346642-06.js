@@ -101,6 +101,7 @@ z
 var
 f
 =
+(
 function
 (
 )
@@ -123,6 +124,8 @@ z
 return
 z
 }
+)
+;
 expect
 =
 f
@@ -134,9 +137,14 @@ actual
 eval
 (
 "
+(
 "
 +
 f
++
+"
+)
+"
 )
 (
 )
