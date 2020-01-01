@@ -235,8 +235,10 @@ nsIDOMEventTarget
 )
 protected
 :
+nsCOMPtr
+<
 nsPIDOMWindow
-*
+>
 mWindow
 ;
 nsRefPtr

@@ -184,9 +184,10 @@ Disconnect
 ;
 }
 }
-NS_IMPL_CYCLE_COLLECTION_WRAPPERCACHE_3
+NS_IMPL_CYCLE_COLLECTION_WRAPPERCACHE_4
 (
 nsWindowRoot
+mWindow
 mListenerManager
 mPopupNode
 mParent
