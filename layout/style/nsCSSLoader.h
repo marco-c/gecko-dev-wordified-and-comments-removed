@@ -1140,7 +1140,12 @@ SheetLoadData
 >
 mPendingDatas
 ;
-nsAutoVoidArray
+nsAutoTArray
+<
+SheetLoadData
+*
+8
+>
 mParsingDatas
 ;
 LoadDataArray

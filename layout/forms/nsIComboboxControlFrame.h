@@ -28,9 +28,6 @@ class
 nsIContent
 ;
 class
-nsVoidArray
-;
-class
 nsCSSFrameConstructor
 ;
 class

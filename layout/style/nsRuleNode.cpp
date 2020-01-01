@@ -173,6 +173,13 @@ nsCSSProps
 .
 h
 "
+#
+include
+"
+nsTArray
+.
+h
+"
 struct
 ChildrenHashEntry
 :
@@ -12467,7 +12474,12 @@ nsStyleFont
 aFont
 )
 {
-nsAutoVoidArray
+nsAutoTArray
+<
+nsStyleContext
+*
+8
+>
 contextPath
 ;
 contextPath
@@ -12599,7 +12611,7 @@ i
 =
 contextPath
 .
-Count
+Length
 (
 )
 -
@@ -12619,10 +12631,6 @@ nsStyleContext
 *
 context
 =
-(
-nsStyleContext
-*
-)
 contextPath
 [
 i

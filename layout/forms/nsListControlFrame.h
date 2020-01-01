@@ -86,12 +86,6 @@ class
 nsPresContext
 ;
 class
-nsVoidArray
-;
-class
-nsVoidArray
-;
-class
 nsListEventListener
 ;
 class

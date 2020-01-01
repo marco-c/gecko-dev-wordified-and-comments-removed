@@ -6903,7 +6903,7 @@ RemoveElementAt
 (
 mParsingDatas
 .
-Count
+Length
 (
 )
 -
@@ -7585,19 +7585,16 @@ mPendingChildren
 0
 &
 &
+!
 mParsingDatas
 .
-IndexOf
+Contains
 (
 data
 -
 >
 mParentData
 )
-=
-=
--
-1
 )
 {
 DoSheetComplete
@@ -7819,7 +7816,7 @@ NS_ASSERTION
 (
 mParsingDatas
 .
-Count
+Length
 (
 )
 =
@@ -8146,7 +8143,7 @@ NS_ASSERTION
 (
 mParsingDatas
 .
-Count
+Length
 (
 )
 =
@@ -8894,7 +8891,7 @@ count
 =
 mParsingDatas
 .
-Count
+Length
 (
 )
 ;
@@ -8919,12 +8916,6 @@ load
 ;
 parentData
 =
-static_cast
-<
-SheetLoadData
-*
->
-(
 mParsingDatas
 .
 ElementAt
@@ -8932,7 +8923,6 @@ ElementAt
 count
 -
 1
-)
 )
 ;
 SheetLoadData
@@ -9428,7 +9418,7 @@ NS_ASSERTION
 (
 mParsingDatas
 .
-Count
+Length
 (
 )
 =

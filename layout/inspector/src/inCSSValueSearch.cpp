@@ -524,10 +524,6 @@ nsAutoString
 *
 result
 =
-(
-nsAutoString
-*
-)
 mResults
 -
 >
@@ -893,7 +889,11 @@ mHoldResults
 mResults
 =
 new
-nsVoidArray
+nsTArray
+<
+nsAutoString
+*
+>
 (
 )
 ;

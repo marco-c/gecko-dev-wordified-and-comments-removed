@@ -358,7 +358,11 @@ BuildDocTree
 nsIDocShellTreeNode
 *
 aParentNode
-nsVoidArray
+nsTArray
+<
+nsPrintObject
+*
+>
 *
 aDocList
 nsPrintObject

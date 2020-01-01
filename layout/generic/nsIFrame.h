@@ -2336,7 +2336,11 @@ skipWhitespace
 nscoord
 trailingWhitespace
 ;
-nsVoidArray
+nsTArray
+<
+nsIFrame
+*
+>
 floats
 ;
 }

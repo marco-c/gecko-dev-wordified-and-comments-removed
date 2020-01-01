@@ -56,7 +56,7 @@ h
 #
 include
 "
-nsVoidArray
+nsTArray
 .
 h
 "
@@ -237,7 +237,11 @@ nsIDOMDocument
 >
 mRootDocument
 ;
-nsVoidArray
+nsTArray
+<
+inDOMViewNode
+*
+>
 mNodes
 ;
 inDOMViewNode
@@ -320,7 +324,11 @@ aIndex
 void
 InsertNodes
 (
-nsVoidArray
+nsTArray
+<
+inDOMViewNode
+*
+>
 &
 aNodes
 PRInt32

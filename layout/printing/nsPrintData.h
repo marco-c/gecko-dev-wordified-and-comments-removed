@@ -35,7 +35,7 @@ h
 #
 include
 "
-nsVoidArray
+nsTArray
 .
 h
 "
@@ -149,8 +149,11 @@ nsIDOMWindow
 >
 mCurrentFocusWin
 ;
-nsVoidArray
+nsTArray
+<
+nsPrintObject
 *
+>
 mPrintDocList
 ;
 PRPackedBool

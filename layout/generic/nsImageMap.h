@@ -21,7 +21,7 @@ h
 #
 include
 "
-nsVoidArray
+nsTArray
 .
 h
 "
@@ -73,6 +73,9 @@ nsString
 ;
 class
 nsIDOMEvent
+;
+class
+Area
 ;
 class
 nsImageMap
@@ -250,7 +253,12 @@ nsIContent
 >
 mMap
 ;
-nsAutoVoidArray
+nsAutoTArray
+<
+Area
+*
+8
+>
 mAreas
 ;
 PRBool
