@@ -21736,6 +21736,18 @@ BUSY_FLAGS_BUSY
 |
 BUSY_FLAGS_BEFORE_PAGE_LOAD
 ;
+if
+(
+(
+aStateFlags
+&
+STATE_RESTORING
+)
+=
+=
+0
+)
+{
 PRBool
 tmpBool
 =
@@ -21791,6 +21803,7 @@ SetCursor
 eCursor_spinning
 )
 ;
+}
 }
 }
 }
