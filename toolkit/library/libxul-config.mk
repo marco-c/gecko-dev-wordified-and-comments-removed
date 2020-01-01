@@ -726,6 +726,8 @@ jetpack_s
 \
 telemetry
 \
+jsdebugger
+\
 storagecomps
 \
 (

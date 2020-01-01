@@ -782,6 +782,11 @@ MODULE
 nsTelemetryModule
 )
 \
+MODULE
+(
+jsdebugger
+)
+\
 /
 *
 end
