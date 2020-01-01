@@ -10902,9 +10902,6 @@ return
 NS_ERROR_NOT_IMPLEMENTED
 ;
 }
-#
-if
-0
 NS_IMETHODIMP_
 (
 bool
@@ -11142,6 +11139,9 @@ return
 nodeInfo
 ;
 }
+#
+if
+0
 bool
 nsGenericElement
 :
@@ -11164,6 +11164,8 @@ return
 false
 ;
 }
+#
+endif
 bool
 nsGenericElement
 :
@@ -11269,6 +11271,9 @@ contentToBlur
 )
 ;
 }
+#
+if
+0
 nsIContent
 *
 nsGenericElement
@@ -11303,6 +11308,8 @@ return
 nullptr
 ;
 }
+#
+endif
 bool
 nsGenericElement
 :
@@ -11324,6 +11331,9 @@ eCONTENT
 )
 ;
 }
+#
+if
+0
 nsresult
 nsGenericElement
 :
@@ -11464,6 +11474,8 @@ false
 )
 ;
 }
+#
+endif
 nsresult
 nsGenericElement
 :
@@ -11842,6 +11854,9 @@ GetPrimaryFrame
 )
 ;
 }
+#
+if
+0
 void
 nsGenericElement
 :
@@ -15739,8 +15754,7 @@ aInstancePtr
 ;
 }
 #
-if
-0
+endif
 nsresult
 nsGenericElement
 :
@@ -15892,8 +15906,6 @@ return
 NS_OK
 ;
 }
-#
-endif
 const
 nsAttrName
 *
@@ -15918,6 +15930,9 @@ aStr
 )
 ;
 }
+#
+if
+0
 nsresult
 nsGenericElement
 :
@@ -17032,9 +17047,6 @@ return
 false
 ;
 }
-#
-if
-0
 nsEventListenerManager
 *
 nsGenericElement
@@ -17062,8 +17074,6 @@ true
 )
 ;
 }
-#
-endif
 nsGenericElement
 :
 :
@@ -19347,6 +19357,8 @@ nsDOMSlots
 )
 ;
 }
+#
+endif
 bool
 nsGenericElement
 :
@@ -20190,6 +20202,9 @@ return
 rv
 ;
 }
+#
+if
+0
 void
 nsGenericElement
 :
@@ -20279,6 +20294,8 @@ doc
 ;
 }
 }
+#
+endif
 void
 nsGenericElement
 :
@@ -20297,8 +20314,6 @@ Truncate
 )
 ;
 }
-#
-endif
 static
 nsresult
 ParseSelectorList
@@ -21210,6 +21225,8 @@ aMallocSizeOf
 )
 ;
 }
+#
+endif
 static
 const
 nsAttrValue
@@ -21363,8 +21380,6 @@ GetEnumValue
 )
 ;
 }
-#
-endif
 NS_IMETHODIMP
 nsGenericElement
 :

@@ -10878,8 +10878,6 @@ return
 NS_ERROR_NOT_IMPLEMENTED
 ;
 }
-#
-endif
 NS_IMETHODIMP_
 (
 bool
@@ -11117,6 +11115,8 @@ return
 nodeInfo
 ;
 }
+#
+endif
 bool
 FragmentOrElement
 :
@@ -11139,6 +11139,9 @@ return
 false
 ;
 }
+#
+if
+0
 bool
 FragmentOrElement
 :
@@ -11244,6 +11247,8 @@ contentToBlur
 )
 ;
 }
+#
+endif
 nsIContent
 *
 FragmentOrElement
@@ -11278,6 +11283,9 @@ return
 nullptr
 ;
 }
+#
+if
+0
 bool
 FragmentOrElement
 :
@@ -11299,6 +11307,8 @@ eCONTENT
 )
 ;
 }
+#
+endif
 nsresult
 FragmentOrElement
 :
@@ -11439,6 +11449,9 @@ false
 )
 ;
 }
+#
+if
+0
 nsresult
 FragmentOrElement
 :
@@ -11817,6 +11830,8 @@ GetPrimaryFrame
 )
 ;
 }
+#
+endif
 void
 FragmentOrElement
 :
@@ -15713,6 +15728,9 @@ aInstancePtr
 )
 ;
 }
+#
+if
+0
 nsresult
 FragmentOrElement
 :
@@ -15888,6 +15906,8 @@ aStr
 )
 ;
 }
+#
+endif
 nsresult
 FragmentOrElement
 :
@@ -17003,8 +17023,6 @@ return
 false
 ;
 }
-#
-endif
 nsEventListenerManager
 *
 FragmentOrElement
@@ -17032,9 +17050,6 @@ true
 )
 ;
 }
-#
-if
-0
 FragmentOrElement
 :
 :
@@ -19317,6 +19332,9 @@ nsDOMSlots
 )
 ;
 }
+#
+if
+0
 bool
 FragmentOrElement
 :
@@ -20160,6 +20178,8 @@ return
 rv
 ;
 }
+#
+endif
 void
 FragmentOrElement
 :
@@ -20249,6 +20269,9 @@ doc
 ;
 }
 }
+#
+if
+0
 void
 FragmentOrElement
 :
@@ -20267,6 +20290,8 @@ Truncate
 )
 ;
 }
+#
+endif
 static
 nsresult
 ParseSelectorList
@@ -21175,6 +21200,9 @@ aMallocSizeOf
 )
 ;
 }
+#
+if
+0
 static
 const
 nsAttrValue
@@ -21328,9 +21356,6 @@ GetEnumValue
 )
 ;
 }
-#
-if
-0
 NS_IMETHODIMP
 FragmentOrElement
 :
