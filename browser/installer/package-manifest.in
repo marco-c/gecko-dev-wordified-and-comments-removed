@@ -1671,6 +1671,13 @@ BINPATH
 /
 components
 /
+BrowserPageThumbs
+.
+manifest
+BINPATH
+/
+components
+/
 nsPrivateBrowsingService
 .
 manifest
@@ -2083,6 +2090,13 @@ BINPATH
 components
 /
 PlacesCategoriesStarter
+.
+js
+BINPATH
+/
+components
+/
+PageThumbsProtocol
 .
 js
 BINPATH
