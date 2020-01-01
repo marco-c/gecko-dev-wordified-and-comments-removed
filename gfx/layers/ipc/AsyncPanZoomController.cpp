@@ -4905,10 +4905,7 @@ aLayer
 ViewTransform
 *
 aNewTransform
-gfx
-:
-:
-Point
+ScreenPoint
 &
 aScrollOffset
 )
