@@ -211,6 +211,11 @@ end
 it
 )
 {
+mDesiredTime
++
+=
+10
+;
 (
 *
 it
@@ -225,7 +230,7 @@ mozilla
 :
 MillisecondsToMediaTime
 (
-10
+mDesiredTime
 )
 )
 ;
