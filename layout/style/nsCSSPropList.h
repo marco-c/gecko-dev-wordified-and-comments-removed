@@ -5469,9 +5469,6 @@ eStyleAnimType_None
 endif
 #
 endif
-#
-ifndef
-CSS_PROP_LIST_EXCLUDE_INTERNAL
 CSS_PROP_SVGRESET
 (
 clip
@@ -6015,8 +6012,6 @@ mTextRendering
 )
 eStyleAnimType_EnumU8
 )
-#
-endif
 #
 ifdef
 CSS_PROP_INCLUDE_NOT_CSS
