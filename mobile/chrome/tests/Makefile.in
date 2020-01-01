@@ -482,6 +482,10 @@ browser_FormAssistant
 .
 js
 \
+browser_viewport
+.
+js
+\
 browser_blank_01
 .
 html
@@ -495,6 +499,14 @@ browser_select
 html
 \
 browser_FormAssistant
+.
+html
+\
+browser_viewport_01
+.
+html
+\
+browser_viewport_02
 .
 html
 \
