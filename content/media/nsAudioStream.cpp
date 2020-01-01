@@ -2422,13 +2422,13 @@ mChannels
 (
 0
 )
-mPaused
-(
-PR_FALSE
-)
 mBytesPerSample
 (
 1
+)
+mPaused
+(
+PR_FALSE
 )
 {
 }
