@@ -2876,6 +2876,11 @@ PRBool
 _retval
 )
 {
+NS_ENSURE_ARG
+(
+aIcon
+)
+;
 nsCAutoString
 spec
 ;
