@@ -173,6 +173,10 @@ CMDBUTTONIDX_RESTORE
 define
 CMDBUTTONIDX_CLOSE
 2
+#
+define
+CMDBUTTONIDX_BUTTONBOX
+3
 class
 nsUXThemeData
 {
@@ -256,7 +260,7 @@ static
 SIZE
 sCommandButtons
 [
-3
+4
 ]
 ;
 static
