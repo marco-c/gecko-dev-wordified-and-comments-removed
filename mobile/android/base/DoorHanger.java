@@ -883,6 +883,8 @@ mPersistWhileVisible
 &
 GeckoApp
 .
+mAppContext
+.
 mDoorHangerPopup
 .
 isShowing
