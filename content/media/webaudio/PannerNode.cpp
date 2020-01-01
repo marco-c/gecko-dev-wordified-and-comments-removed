@@ -1134,6 +1134,8 @@ aOutput
 =
 aInput
 ;
+return
+;
 }
 AllocateAudioBlock
 (
