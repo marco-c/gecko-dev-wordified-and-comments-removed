@@ -4557,11 +4557,6 @@ enablehistory
 "
 true
 "
-maxrows
-=
-"
-6
-"
 newlines
 =
 "
