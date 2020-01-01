@@ -644,6 +644,9 @@ channel
 ]
 ;
 }
+#
+ifdef
+DEBUG
 static
 bool
 InferSpewColorable
@@ -685,9 +688,6 @@ color
 0
 ;
 }
-#
-ifdef
-DEBUG
 const
 char
 *

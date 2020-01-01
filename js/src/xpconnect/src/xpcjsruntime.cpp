@@ -5891,8 +5891,14 @@ n
 obj
 -
 >
+numDynamicSlots
+(
+obj
+-
+>
 numSlots
 (
+)
 )
 *
 sizeof
