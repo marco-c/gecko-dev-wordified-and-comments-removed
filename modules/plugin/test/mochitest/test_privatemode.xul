@@ -378,6 +378,17 @@ catch
 e
 )
 {
+ok
+(
+true
+"
+no
+Private
+Browsing
+service
+"
+)
+;
 SimpleTest
 .
 finish
