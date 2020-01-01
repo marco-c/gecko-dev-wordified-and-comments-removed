@@ -49,6 +49,14 @@ endif
 ifdef
 _MSC_VER
 #
+pragma
+warning
+(
+disable
+:
+4530
+)
+#
 define
 TRY
 try
@@ -123,7 +131,6 @@ std
 :
 out_of_range
 &
-e
 )
 {
 fputs

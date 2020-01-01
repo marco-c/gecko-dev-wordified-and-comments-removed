@@ -342,6 +342,8 @@ result
 ;
 CHECK
 (
+!
+!
 JSVAL_TO_BOOLEAN
 (
 result
@@ -378,6 +380,8 @@ result
 ;
 CHECK
 (
+!
+!
 JSVAL_TO_BOOLEAN
 (
 result
