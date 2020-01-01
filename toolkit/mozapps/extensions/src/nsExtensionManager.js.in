@@ -48001,13 +48001,13 @@ aUpdateData
 .
 minVersion
 =
-maxAppVersion
+minAppVersion
 ;
 aUpdateData
 .
 maxVersion
 =
-minAppVersion
+maxAppVersion
 ;
 }
 }
