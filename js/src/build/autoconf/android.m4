@@ -1988,6 +1988,12 @@ STLPORT_LIBS
 "
 -
 lstlport_static
+-
+static
+-
+libstdc
++
++
 "
 elif
 test
