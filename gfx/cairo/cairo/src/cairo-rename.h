@@ -1,9 +1,5 @@
 #
 define
-_cairo_image_surface_nil_invalid_format
-__moz__cairo_image_surface_nil_invalid_format
-#
-define
 _cairo_pdf_test_force_fallbacks
 _moz__cairo_pdf_test_force_fallbacks
 #
@@ -1042,10 +1038,6 @@ _moz_cairo_win32_font_face_create_for_hfont
 define
 cairo_win32_font_face_create_for_logfontw
 _moz_cairo_win32_font_face_create_for_logfontw
-#
-define
-cairo_win32_font_face_create_for_logfontw_hfont
-_moz_cairo_win32_font_face_create_for_logfontw_hfont
 #
 define
 cairo_win32_scaled_font_done_font

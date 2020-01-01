@@ -544,6 +544,8 @@ c
 cairo
 -
 font
+-
+face
 .
 c
 \
@@ -604,6 +606,12 @@ cairo
 meta
 -
 surface
+.
+c
+\
+cairo
+-
+mutex
 .
 c
 \
@@ -1104,6 +1112,14 @@ cairo
 xlib
 -
 screen
+.
+c
+\
+cairo
+-
+xlib
+-
+display
 .
 c
 EXPORTS

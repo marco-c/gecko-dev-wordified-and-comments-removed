@@ -1,7 +1,7 @@
 #
 include
 "
-icint
+pixmanint
 .
 h
 "
