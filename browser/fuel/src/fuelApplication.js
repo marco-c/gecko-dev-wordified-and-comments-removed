@@ -512,6 +512,8 @@ this
 .
 _tabbrowser
 .
+tabContainer
+.
 addEventListener
 (
 aType

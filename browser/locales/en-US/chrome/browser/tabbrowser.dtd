@@ -1,16 +1,6 @@
 <
 !
 ENTITY
-untitledTab
-"
-(
-Untitled
-)
-"
->
-<
-!
-ENTITY
 newTab
 .
 label
