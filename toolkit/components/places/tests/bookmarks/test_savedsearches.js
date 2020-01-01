@@ -206,7 +206,7 @@ root
 =
 bmsvc
 .
-bookmarksRoot
+bookmarksMenuFolder
 ;
 function
 run_test

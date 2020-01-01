@@ -309,7 +309,7 @@ insertBookmark
 (
 bmsvc
 .
-bookmarksRoot
+bookmarksMenuFolder
 testURI
 -
 1
@@ -677,7 +677,7 @@ insertBookmark
 (
 bmsvc
 .
-bookmarksRoot
+bookmarksMenuFolder
 uri2
 -
 1
@@ -2141,7 +2141,7 @@ insertBookmark
 (
 bmsvc
 .
-bookmarksRoot
+bookmarksMenuFolder
 testURI
 -
 1
