@@ -199,9 +199,8 @@ sendEventToGecko
 (
 GeckoEvent
 .
-createPauseEvent
+createAppBackgroundingEvent
 (
-true
 )
 )
 ;
@@ -250,9 +249,8 @@ sendEventToGecko
 (
 GeckoEvent
 .
-createResumeEvent
+createAppForegroundingEvent
 (
-true
 )
 )
 ;
