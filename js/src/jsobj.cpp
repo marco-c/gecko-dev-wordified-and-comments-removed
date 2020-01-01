@@ -321,7 +321,11 @@ h
 #
 include
 "
-jsstrinlines
+vm
+/
+MethodGuard
+-
+inl
 .
 h
 "
@@ -330,7 +334,7 @@ include
 "
 vm
 /
-MethodGuard
+StringBuffer
 -
 inl
 .

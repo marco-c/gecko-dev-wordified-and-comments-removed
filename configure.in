@@ -78748,7 +78748,15 @@ enable
 -
 optimize
 "
-else
+elif
+test
+-
+z
+"
+MOZ_OPTIMIZE
+"
+;
+then
 ac_configure_args
 =
 "

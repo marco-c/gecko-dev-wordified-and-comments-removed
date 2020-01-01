@@ -1455,6 +1455,7 @@ comp
 barrierTracer
 (
 )
+&
 code
 "
 ioncode
@@ -1515,6 +1516,7 @@ comp
 barrierTracer
 (
 )
+&
 code
 "
 ioncode

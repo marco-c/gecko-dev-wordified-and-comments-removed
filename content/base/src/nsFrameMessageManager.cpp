@@ -4146,12 +4146,7 @@ InitClassesWithNewWrappedGlobal
 (
 cx
 aScope
-NS_GET_IID
-(
-nsISupports
-)
 mPrincipal
-nsnull
 flags
 getter_AddRefs
 (
