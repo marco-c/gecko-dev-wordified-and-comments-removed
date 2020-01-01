@@ -1,3 +1,8 @@
+#
+include
+profile
+.
+js
 Components
 .
 utils
@@ -202,11 +207,6 @@ to
 evaluate
 before
 others
-#
-include
-profile
-.
-js
 #
 include
 iq
