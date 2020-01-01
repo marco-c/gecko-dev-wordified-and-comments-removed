@@ -660,10 +660,6 @@ nsIScriptEventManager
 .
 idl
 \
-nsISoundPlayer
-.
-idl
-\
 nsIImageLoadingContent
 .
 idl

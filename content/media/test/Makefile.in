@@ -1467,10 +1467,6 @@ test_progress4
 .
 html
 \
-test_sound
-.
-xul
-\
 test_wav_ended1
 .
 html

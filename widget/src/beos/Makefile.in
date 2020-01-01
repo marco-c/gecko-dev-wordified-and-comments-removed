@@ -459,7 +459,7 @@ nsLookAndFeel
 .
 cpp
 \
-nsSystemSoundService
+nsSound
 .
 cpp
 \

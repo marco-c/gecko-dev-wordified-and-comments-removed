@@ -694,10 +694,6 @@ nsScriptLoader
 .
 cpp
 \
-nsSoundPlayer
-.
-cpp
-\
 nsStubDocumentObserver
 .
 cpp
