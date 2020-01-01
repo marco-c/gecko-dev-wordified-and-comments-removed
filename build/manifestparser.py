@@ -697,12 +697,6 @@ rootdir
 =
 None
         
-self
-.
-relativeRoot
-=
-None
-        
 if
 manifests
 :
@@ -719,13 +713,12 @@ def
 getRelativeRoot
 (
 self
+root
 )
 :
         
 return
-self
-.
-relativeRoot
+root
     
 def
 read
@@ -823,12 +816,6 @@ abspath
 filename
 )
 )
-            
-self
-.
-relativeRoot
-=
-here
             
 defaults
 [
@@ -937,6 +924,7 @@ self
 .
 getRelativeRoot
 (
+here
 )
 include_file
 )
