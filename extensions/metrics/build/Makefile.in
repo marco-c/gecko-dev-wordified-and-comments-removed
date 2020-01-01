@@ -567,6 +567,13 @@ config
 rules
 .
 mk
+ifeq
+(
+(
+OS_ARCH
+)
+WINNT
+)
 LDFLAGS
 +
 =
@@ -574,3 +581,4 @@ LDFLAGS
 NODEFAULTLIB
 :
 MSVCRT
+endif
