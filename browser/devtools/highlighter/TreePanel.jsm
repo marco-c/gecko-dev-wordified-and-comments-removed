@@ -1698,7 +1698,7 @@ IUI
 .
 highlighter
 .
-highlightNode
+highlight
 (
 node
 )
