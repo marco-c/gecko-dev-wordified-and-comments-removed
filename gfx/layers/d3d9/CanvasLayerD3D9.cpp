@@ -722,7 +722,7 @@ gfxImageSurface
 *
 >
 (
-sourceSurface
+mSurface
 .
 get
 (
@@ -874,7 +874,7 @@ ctx
 >
 SetSource
 (
-sourceSurface
+mSurface
 )
 ;
 ctx
