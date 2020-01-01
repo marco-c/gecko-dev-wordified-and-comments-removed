@@ -17156,7 +17156,18 @@ float
 (
 aCoord
 )
+;
+if
+(
+font
+-
+>
+mAllowZoom
+)
+{
+fCoord
 /
+=
 mPresShell
 -
 >
@@ -17169,6 +17180,7 @@ TextZoom
 (
 )
 ;
+}
 if
 (
 font

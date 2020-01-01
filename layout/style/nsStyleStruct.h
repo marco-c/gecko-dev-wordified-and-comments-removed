@@ -317,6 +317,16 @@ nsPresContext
 aContext
 )
 ;
+void
+EnableZoom
+(
+nsPresContext
+*
+aContext
+bool
+aEnable
+)
+;
 nsFont
 mFont
 ;
@@ -331,6 +341,9 @@ mScriptLevel
 ;
 bool
 mExplicitLanguage
+;
+bool
+mAllowZoom
 ;
 nscoord
 mScriptUnconstrainedSize

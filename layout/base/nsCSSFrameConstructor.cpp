@@ -826,13 +826,6 @@ nsSVGTextContainerFrame
 .
 h
 "
-#
-include
-"
-nsSVGTextFrame2
-.
-h
-"
 nsIFrame
 *
 NS_NewSVGOuterSVGFrame

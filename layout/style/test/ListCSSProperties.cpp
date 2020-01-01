@@ -344,6 +344,14 @@ system
 font
 "
 "
+-
+x
+-
+text
+-
+zoom
+"
+"
 border
 -
 end

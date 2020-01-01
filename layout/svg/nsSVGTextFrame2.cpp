@@ -18019,16 +18019,6 @@ return
 ;
 }
 }
-float
-textZoom
-=
-presContext
--
->
-TextZoom
-(
-)
-;
 double
 minSize
 =
@@ -18039,8 +18029,6 @@ AppUnitsToFloatCSSPixels
 (
 min
 )
-/
-textZoom
 ;
 if
 (
@@ -18066,8 +18054,6 @@ AppUnitsToFloatCSSPixels
 (
 max
 )
-/
-textZoom
 ;
 gfxPoint
 p
