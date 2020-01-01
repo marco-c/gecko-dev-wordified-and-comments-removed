@@ -445,10 +445,11 @@ NS_BINDING_ABORTED
 ;
 }
 }
-NS_IMPL_ISUPPORTS4
+NS_IMPL_ISUPPORTS5
 (
 nsSyncLoader
 nsIDOMLoadListener
+nsIDOMEventListener
 nsIChannelEventSink
 nsIInterfaceRequestor
 nsISupportsWeakReference

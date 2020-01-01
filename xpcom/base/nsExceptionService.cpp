@@ -415,10 +415,11 @@ totalInstances
 ;
 #
 endif
-NS_IMPL_THREADSAFE_ISUPPORTS2
+NS_IMPL_THREADSAFE_ISUPPORTS3
 (
 nsExceptionService
 nsIExceptionService
+nsIExceptionManager
 nsIObserver
 )
 nsExceptionService

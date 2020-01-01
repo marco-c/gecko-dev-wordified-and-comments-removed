@@ -1356,7 +1356,7 @@ NS_HTML_CONTENT_CC_INTERFACE_TABLE_HEAD
 nsHTMLInputElement
 nsGenericHTMLFormElement
 )
-NS_INTERFACE_TABLE_INHERITED9
+NS_INTERFACE_TABLE_INHERITED10
 (
 nsHTMLInputElement
 nsIDOMHTMLInputElement
@@ -1367,6 +1367,7 @@ nsIRadioControlElement
 nsIPhonetic
 imgIDecoderObserver
 nsIImageLoadingContent
+imgIContainerObserver
 nsIDOMNSEditableElement
 )
 NS_HTML_CONTENT_INTERFACE_TABLE_TAIL_CLASSINFO

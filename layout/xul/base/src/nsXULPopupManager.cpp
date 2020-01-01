@@ -450,10 +450,11 @@ nsnull
 ;
 }
 }
-NS_IMPL_ISUPPORTS4
+NS_IMPL_ISUPPORTS5
 (
 nsXULPopupManager
 nsIDOMKeyListener
+nsIDOMEventListener
 nsIMenuRollup
 nsIRollupListener
 nsITimerCallback
