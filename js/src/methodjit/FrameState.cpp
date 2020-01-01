@@ -9403,9 +9403,8 @@ loop
 loop
 -
 >
-flushRegisters
+clearRegisters
 (
-stubcc
 )
 ;
 }
