@@ -687,6 +687,9 @@ mAnonymous
 PRPackedBool
 mRetryPass
 ;
+PRPackedBool
+mStorReplyReceived
+;
 nsresult
 mInternalError
 ;
