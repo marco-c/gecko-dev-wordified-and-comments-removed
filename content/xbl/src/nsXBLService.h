@@ -168,6 +168,14 @@ nsPIDOMEventTarget
 aTarget
 )
 ;
+NS_IMETHOD
+DetachGlobalKeyHandler
+(
+nsPIDOMEventTarget
+*
+aTarget
+)
+;
 NS_DECL_NSIOBSERVER
 public
 :
