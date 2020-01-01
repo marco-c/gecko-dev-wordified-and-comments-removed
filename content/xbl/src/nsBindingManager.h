@@ -86,7 +86,7 @@ class
 nsIURI
 ;
 class
-nsIXBLDocumentInfo
+nsXBLDocumentInfo
 ;
 class
 nsIStreamListener
@@ -448,12 +448,12 @@ ExecuteDetachedHandlers
 nsresult
 PutXBLDocumentInfo
 (
-nsIXBLDocumentInfo
+nsXBLDocumentInfo
 *
 aDocumentInfo
 )
 ;
-nsIXBLDocumentInfo
+nsXBLDocumentInfo
 *
 GetXBLDocumentInfo
 (
@@ -465,7 +465,7 @@ aURI
 void
 RemoveXBLDocumentInfo
 (
-nsIXBLDocumentInfo
+nsXBLDocumentInfo
 *
 aDocumentInfo
 )
@@ -709,10 +709,10 @@ mInsertionParentTable
 PLDHashTable
 mWrapperTable
 ;
-nsInterfaceHashtable
+nsRefPtrHashtable
 <
 nsURIHashKey
-nsIXBLDocumentInfo
+nsXBLDocumentInfo
 >
 mDocumentTable
 ;

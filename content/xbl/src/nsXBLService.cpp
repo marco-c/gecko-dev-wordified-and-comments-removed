@@ -213,7 +213,7 @@ h
 #
 include
 "
-nsIXBLDocumentInfo
+nsXBLDocumentInfo
 .
 h
 "
@@ -2019,9 +2019,9 @@ BindingManager
 (
 )
 ;
-nsCOMPtr
+nsRefPtr
 <
-nsIXBLDocumentInfo
+nsXBLDocumentInfo
 >
 info
 =
@@ -3778,9 +3778,9 @@ GetOwnerDoc
 (
 )
 ;
-nsCOMPtr
+nsRefPtr
 <
-nsIXBLDocumentInfo
+nsXBLDocumentInfo
 >
 docInfo
 ;
@@ -4810,7 +4810,7 @@ nsIPrincipal
 aOriginPrincipal
 PRBool
 aForceSyncLoad
-nsIXBLDocumentInfo
+nsXBLDocumentInfo
 *
 *
 aResult
@@ -4974,9 +4974,9 @@ aResult
 =
 nsnull
 ;
-nsCOMPtr
+nsRefPtr
 <
-nsIXBLDocumentInfo
+nsXBLDocumentInfo
 >
 info
 ;

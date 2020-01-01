@@ -1,4 +1,10 @@
 #
+ifndef
+nsXBLDocumentInfo_h__
+#
+define
+nsXBLDocumentInfo_h__
+#
 include
 "
 nsCOMPtr
@@ -9,13 +15,6 @@ h
 include
 "
 nsAutoPtr
-.
-h
-"
-#
-include
-"
-nsIXBLDocumentInfo
 .
 h
 "
@@ -59,8 +58,6 @@ nsXBLDocGlobalObject
 class
 nsXBLDocumentInfo
 :
-public
-nsIXBLDocumentInfo
 public
 nsIScriptGlobalObjectOwner
 public
@@ -198,7 +195,7 @@ GetScriptGlobalObject
 NS_DECL_CYCLE_COLLECTION_SCRIPT_HOLDER_CLASS_AMBIGUOUS
 (
 nsXBLDocumentInfo
-nsIXBLDocumentInfo
+nsIScriptGlobalObjectOwner
 )
 private
 :
@@ -230,3 +227,14 @@ mGlobalObject
 ;
 }
 ;
+nsXBLDocumentInfo
+*
+NS_NewXBLDocumentInfo
+(
+nsIDocument
+*
+aDocument
+)
+;
+#
+endif

@@ -92,13 +92,6 @@ h
 #
 include
 "
-nsIXBLDocumentInfo
-.
-h
-"
-#
-include
-"
 nsIURI
 .
 h

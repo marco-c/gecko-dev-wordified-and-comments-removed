@@ -85,7 +85,7 @@ h
 #
 include
 "
-nsIXBLDocumentInfo
+nsXBLDocumentInfo
 .
 h
 "
@@ -241,15 +241,15 @@ nsXBLSpecialDocInfo
 {
 public
 :
-nsCOMPtr
+nsRefPtr
 <
-nsIXBLDocumentInfo
+nsXBLDocumentInfo
 >
 mHTMLBindings
 ;
-nsCOMPtr
+nsRefPtr
 <
-nsIXBLDocumentInfo
+nsXBLDocumentInfo
 >
 mUserHTMLBindings
 ;
@@ -297,7 +297,7 @@ userHandler
 void
 GetHandlers
 (
-nsIXBLDocumentInfo
+nsXBLDocumentInfo
 *
 aInfo
 const
@@ -511,7 +511,7 @@ nsXBLSpecialDocInfo
 :
 GetHandlers
 (
-nsIXBLDocumentInfo
+nsXBLDocumentInfo
 *
 aInfo
 const

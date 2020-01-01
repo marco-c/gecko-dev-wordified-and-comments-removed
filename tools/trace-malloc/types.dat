@@ -4473,7 +4473,7 @@ const
 &
 nsIContent
 *
-nsIXBLDocumentInfo
+nsXBLDocumentInfo
 *
 )
 <
@@ -4518,7 +4518,7 @@ const
 &
 nsIContent
 *
-nsIXBLDocumentInfo
+nsXBLDocumentInfo
 *
 )
 <
@@ -4735,7 +4735,7 @@ nsXBLPrototypeBinding
 nsACString
 const
 &
-nsIXBLDocumentInfo
+nsXBLDocumentInfo
 *
 )
 <
@@ -4903,7 +4903,7 @@ nsXBLPrototypeBinding
 nsACString
 const
 &
-nsIXBLDocumentInfo
+nsXBLDocumentInfo
 *
 )
 <
@@ -5904,7 +5904,7 @@ const
 &
 nsIContent
 *
-nsIXBLDocumentInfo
+nsXBLDocumentInfo
 *
 nsIXBLPrototypeBinding
 *
@@ -14237,7 +14237,7 @@ nsXULPrototypeCache
 :
 PutXBLDocumentInfo
 (
-nsIXBLDocumentInfo
+nsXBLDocumentInfo
 *
 )
 <
@@ -14390,7 +14390,7 @@ nsXULPrototypeCache
 :
 PutXBLDocumentInfo
 (
-nsIXBLDocumentInfo
+nsXBLDocumentInfo
 *
 )
 <
@@ -14570,7 +14570,7 @@ nsXULPrototypeCache
 :
 PutXBLDocumentInfo
 (
-nsIXBLDocumentInfo
+nsXBLDocumentInfo
 *
 )
 <

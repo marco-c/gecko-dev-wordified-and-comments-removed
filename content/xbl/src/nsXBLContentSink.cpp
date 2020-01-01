@@ -1672,11 +1672,11 @@ mState
 eXBL_InDocument
 )
 ;
+mDocInfo
+=
 NS_NewXBLDocumentInfo
 (
 mDocument
-&
-mDocInfo
 )
 ;
 if
@@ -1758,7 +1758,7 @@ isChrome
 |
 isRes
 ;
-nsIXBLDocumentInfo
+nsXBLDocumentInfo
 *
 info
 =

@@ -399,7 +399,7 @@ mState
 XBLSecondaryState
 mSecondaryState
 ;
-nsIXBLDocumentInfo
+nsXBLDocumentInfo
 *
 mDocInfo
 ;

@@ -15,13 +15,6 @@ h
 #
 include
 "
-nsIXBLDocumentInfo
-.
-h
-"
-#
-include
-"
 nsIInputStream
 .
 h
@@ -1143,7 +1136,7 @@ const
 nsACString
 &
 aID
-nsIXBLDocumentInfo
+nsXBLDocumentInfo
 *
 aInfo
 nsIContent

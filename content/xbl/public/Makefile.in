@@ -418,10 +418,6 @@ content
 EXPORTS
 =
 \
-nsIXBLDocumentInfo
-.
-h
-\
 nsIXBLService
 .
 h
