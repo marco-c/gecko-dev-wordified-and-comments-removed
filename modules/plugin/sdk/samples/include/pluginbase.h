@@ -1,9 +1,9 @@
 #
 ifndef
-__PLUGININSTANCEBASE_H__
+pluginbase_h_
 #
 define
-__PLUGININSTANCEBASE_H__
+pluginbase_h_
 #
 include
 "
