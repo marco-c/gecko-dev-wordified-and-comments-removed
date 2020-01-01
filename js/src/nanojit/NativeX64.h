@@ -836,7 +836,7 @@ FpRegs
 ;
 #
 ifdef
-_WIN64
+_MSC_VER
 static
 const
 RegisterMask
