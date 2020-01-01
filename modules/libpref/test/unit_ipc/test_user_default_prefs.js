@@ -203,7 +203,7 @@ dom
 .
 ipc
 .
-processPrelauch
+processPrelaunch
 .
 enabled
 '
