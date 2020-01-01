@@ -5132,6 +5132,9 @@ trc
 JSRuntime
 *
 rt
+JSContext
+*
+cx
 JSTraceCallback
 callback
 )
@@ -6514,6 +6517,9 @@ start
 JSRuntime
 *
 rt
+JSContext
+*
+cx
 )
 ;
 void

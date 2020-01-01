@@ -3121,10 +3121,7 @@ ok
 =
 JS_DumpHeap
 (
-JS_GetRuntime
-(
 cx
-)
 dumpFile
 startThing
 startTraceKind
@@ -3143,16 +3140,6 @@ gOutFile
 fclose
 (
 dumpFile
-)
-;
-if
-(
-!
-ok
-)
-JS_ReportOutOfMemory
-(
-cx
 )
 ;
 return
