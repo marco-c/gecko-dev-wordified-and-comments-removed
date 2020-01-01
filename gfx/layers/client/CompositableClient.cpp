@@ -894,9 +894,8 @@ GetID
 aClient
 -
 >
-SetID
+ClearID
 (
-0
 )
 ;
 }

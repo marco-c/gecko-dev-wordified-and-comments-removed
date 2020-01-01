@@ -561,7 +561,7 @@ return
 TextureFlags
 flags
 =
-TEXTURE_FLAGS_DEFAULT
+TEXTURE_FRONT
 ;
 if
 (

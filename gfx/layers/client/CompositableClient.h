@@ -164,6 +164,7 @@ DeprecatedTextureClientType
 aDeprecatedTextureClientType
 )
 ;
+virtual
 TemporaryRef
 <
 BufferTextureClient
