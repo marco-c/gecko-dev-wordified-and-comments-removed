@@ -5720,14 +5720,6 @@ PARTS
 )
 {
 var
-PART
-=
-1
-PARTS
-=
-4
-;
-var
 gTestfile
 =
 '
