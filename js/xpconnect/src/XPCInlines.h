@@ -2317,7 +2317,7 @@ rt
 nsXPConnect
 :
 :
-FastGetXPConnect
+XPConnect
 (
 )
 -

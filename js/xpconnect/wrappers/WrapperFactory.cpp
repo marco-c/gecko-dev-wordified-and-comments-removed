@@ -1060,7 +1060,7 @@ rv
 nsXPConnect
 :
 :
-FastGetXPConnect
+XPConnect
 (
 )
 -

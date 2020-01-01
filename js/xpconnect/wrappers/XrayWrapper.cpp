@@ -4144,7 +4144,7 @@ rv
 nsXPConnect
 :
 :
-FastGetXPConnect
+XPConnect
 (
 )
 -
@@ -4339,7 +4339,7 @@ rv
 nsXPConnect
 :
 :
-FastGetXPConnect
+XPConnect
 (
 )
 -
