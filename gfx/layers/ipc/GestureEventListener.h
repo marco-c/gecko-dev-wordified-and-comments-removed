@@ -211,7 +211,7 @@ CancelLongTapTimeoutTask
 (
 )
 ;
-nsIntPoint
+ScreenIntPoint
 mTouchStartPosition
 ;
 }
