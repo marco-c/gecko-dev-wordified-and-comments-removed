@@ -317,7 +317,7 @@ mError
 1
 ;
 virtual
-PRBool
+bool
 ShouldAnimate
 (
 )

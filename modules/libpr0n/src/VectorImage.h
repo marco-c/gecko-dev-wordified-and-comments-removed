@@ -307,7 +307,7 @@ StopAnimation
 )
 ;
 virtual
-PRBool
+bool
 ShouldAnimate
 (
 )

@@ -8318,7 +8318,7 @@ discardable_source_bytes
 )
 ;
 }
-PRBool
+bool
 RasterImage
 :
 :
@@ -8351,7 +8351,7 @@ mDecoded
 )
 ;
 }
-PRBool
+bool
 RasterImage
 :
 :
@@ -8366,7 +8366,7 @@ mDiscardable
 mHasSourceData
 ;
 }
-PRBool
+bool
 RasterImage
 :
 :
@@ -8389,7 +8389,7 @@ next
 )
 ;
 }
-PRBool
+bool
 RasterImage
 :
 :
@@ -10606,7 +10606,7 @@ return
 NS_OK
 ;
 }
-PRBool
+bool
 RasterImage
 :
 :
