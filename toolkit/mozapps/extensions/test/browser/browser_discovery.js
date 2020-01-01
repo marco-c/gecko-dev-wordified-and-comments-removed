@@ -10,6 +10,17 @@ enabled
 "
 ;
 const
+PREF_DISCOVERURL
+=
+"
+extensions
+.
+webservice
+.
+discoverURL
+"
+;
+const
 MAIN_URL
 =
 "
