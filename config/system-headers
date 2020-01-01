@@ -760,11 +760,6 @@ gdkkeysyms
 h
 gdk
 /
-gdkpango
-.
-h
-gdk
-/
 gdkprivate
 .
 h
@@ -1880,11 +1875,6 @@ modules
 h
 pango
 /
-pangocairo
-.
-h
-pango
-/
 pangofc
 -
 decoder
@@ -1931,13 +1921,6 @@ h
 pango
 /
 pangox
-.
-h
-pango
-/
-pango
--
-utils
 .
 h
 pango

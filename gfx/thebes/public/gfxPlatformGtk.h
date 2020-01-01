@@ -174,7 +174,8 @@ InitDPI
 NS_ASSERTION
 (
 sDPI
->
+!
+=
 0
 "
 Something
