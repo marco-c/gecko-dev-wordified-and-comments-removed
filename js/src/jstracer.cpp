@@ -77106,7 +77106,7 @@ prop
 )
 ;
 return
-ARECORD_STOP
+ARECORD_ABORTED
 ;
 }
 if
