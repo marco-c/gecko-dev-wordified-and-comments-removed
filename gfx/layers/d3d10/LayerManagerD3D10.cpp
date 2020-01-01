@@ -1156,7 +1156,9 @@ layer
 new
 ImageContainerD3D10
 (
-this
+device
+(
+)
 )
 ;
 return
