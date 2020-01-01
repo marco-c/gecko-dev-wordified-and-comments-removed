@@ -454,6 +454,17 @@ paint_listener
 event
 )
 {
+subwin
+.
+removeEventListener
+(
+"
+MozAfterPaint
+"
+paint_listener
+false
+)
+;
 var
 s
 =
@@ -475,7 +486,7 @@ visited_image_loading
 .
 sjs
 ?
-result
+waitforresult
 "
 ;
 document
