@@ -236,14 +236,6 @@ nsCSSStyleSheet
 aStyleSheet
 )
 ;
-void
-RemoveFromCacheSet
-(
-nsIURI
-*
-aDocumentURI
-)
-;
 nsresult
 WritePrototype
 (
