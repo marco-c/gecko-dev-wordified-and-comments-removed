@@ -89,12 +89,6 @@ GetConfidence
 void
 )
 ;
-void
-SetOpion
-(
-)
-{
-}
 #
 ifdef
 DEBUG_chardet

@@ -159,12 +159,6 @@ bool
 aIsPreferredLanguage
 )
 ;
-void
-SetOpion
-(
-)
-{
-}
 bool
 GotEnoughData
 (

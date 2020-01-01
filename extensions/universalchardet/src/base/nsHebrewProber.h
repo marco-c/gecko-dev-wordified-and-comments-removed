@@ -96,13 +96,6 @@ float
 0
 ;
 }
-virtual
-void
-SetOpion
-(
-)
-{
-}
 void
 SetModelProbers
 (

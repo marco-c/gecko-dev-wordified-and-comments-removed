@@ -106,12 +106,6 @@ GetConfidence
 void
 )
 ;
-void
-SetOpion
-(
-)
-{
-}
 protected
 :
 nsCodingStateMachine

@@ -96,12 +96,6 @@ float
 99
 ;
 }
-void
-SetOpion
-(
-)
-{
-}
 protected
 :
 void
