@@ -3275,6 +3275,7 @@ cx
 )
 obj
 (
+cx
 obj
 )
 {
@@ -3311,8 +3312,7 @@ JSContext
 *
 cx
 ;
-JSObject
-*
+RootedObject
 obj
 ;
 }
@@ -3332,10 +3332,14 @@ Value
 vp
 )
 {
+Rooted
+<
 PropertyIteratorObject
 *
+>
 iterObj
-=
+(
+cx
 &
 vp
 -
@@ -3346,6 +3350,7 @@ toObject
 .
 asPropertyIterator
 (
+)
 )
 ;
 NativeIterator
