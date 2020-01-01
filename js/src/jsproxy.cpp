@@ -15363,13 +15363,6 @@ PROXY_CLASS_EXT
 NULL
 /
 *
-equality
-*
-/
-\
-NULL
-/
-*
 outerObject
 *
 /
@@ -15385,13 +15378,6 @@ NULL
 /
 *
 iteratorObject
-*
-/
-\
-NULL
-/
-*
-unused
 *
 /
 \
@@ -15516,9 +15502,7 @@ NULL
 proxy_TraceObject
 {
 NULL
-NULL
 proxy_innerObject
-NULL
 NULL
 false
 proxy_WeakmapKeyDelegate

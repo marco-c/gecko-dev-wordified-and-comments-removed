@@ -177,10 +177,6 @@ testErrorCopying
 .
 cpp
 \
-testExtendedEq
-.
-cpp
-\
 testExternalStrings
 .
 cpp

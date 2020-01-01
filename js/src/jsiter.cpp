@@ -4694,9 +4694,7 @@ trace
 {
 NULL
 NULL
-NULL
 iterator_iteratorObject
-NULL
 }
 }
 ;
@@ -7144,9 +7142,7 @@ generator_trace
 {
 NULL
 NULL
-NULL
 iterator_iteratorObject
-NULL
 }
 }
 ;

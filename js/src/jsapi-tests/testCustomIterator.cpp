@@ -150,9 +150,8 @@ NULL
 {
 NULL
 NULL
-NULL
 IterHook
-NULL
+false
 }
 }
 ;
