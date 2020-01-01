@@ -66,11 +66,6 @@ nsString
 mLocale
 ;
 nsresult
-InitInfo
-(
-)
-;
-nsresult
 MapToCharset
 (
 short
