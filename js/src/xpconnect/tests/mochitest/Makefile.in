@@ -548,6 +548,10 @@ test_bug553407
 .
 html
 \
+test_bug560351
+.
+html
+\
 test_cows
 .
 html

@@ -93,7 +93,11 @@ native
 )
 \
 return
-JS_FALSE
+xpc_qsThrow
+(
+cx
+rv
+)
 ;
 \
 *
