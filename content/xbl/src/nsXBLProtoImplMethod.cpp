@@ -1266,8 +1266,15 @@ NS_ERROR_OUT_OF_MEMORY
 ;
 nsCxPusher
 pusher
+;
+NS_ENSURE_STATE
+(
+pusher
+.
+Push
 (
 aBoundElement
+)
 )
 ;
 rv

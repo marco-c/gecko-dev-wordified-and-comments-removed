@@ -1773,6 +1773,9 @@ aBaseURI
 nsIPrincipal
 *
 aPrincipal
+nsIScriptGlobalObject
+*
+aScriptObject
 nsIDOMDocument
 *
 *
@@ -2328,9 +2331,6 @@ public
 :
 nsCxPusher
 (
-nsISupports
-*
-aCurrentTarget
 )
 ;
 ~
@@ -2338,7 +2338,7 @@ nsCxPusher
 (
 )
 ;
-void
+PRBool
 Push
 (
 nsISupports
