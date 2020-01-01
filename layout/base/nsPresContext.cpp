@@ -638,6 +638,12 @@ mPageSize
 -
 1
 )
+mPPScale
+(
+1
+.
+0f
+)
 mViewportStyleOverflow
 (
 NS_STYLE_OVERFLOW_AUTO
@@ -736,12 +742,6 @@ PR_FALSE
 mIsRootPaginatedDocument
 (
 PR_FALSE
-)
-mPPScale
-(
-1
-.
-0f
 )
 {
 mDoScaledTwips
