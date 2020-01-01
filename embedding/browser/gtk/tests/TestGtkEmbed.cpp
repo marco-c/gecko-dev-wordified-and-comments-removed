@@ -1162,7 +1162,15 @@ new_window_orphan_cb
 NULL
 )
 ;
+gtk_moz_embed_push_startup
+(
+)
+;
 gtk_main
+(
+)
+;
+gtk_moz_embed_pop_startup
 (
 )
 ;
