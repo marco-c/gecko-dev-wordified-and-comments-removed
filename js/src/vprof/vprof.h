@@ -377,9 +377,6 @@ int64_t
 (
 v
 )
-#
-#
-__VA_ARGS__
 NULL
 )
 \
