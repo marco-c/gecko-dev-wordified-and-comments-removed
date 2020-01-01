@@ -18,6 +18,10 @@ MIRGraph
 .
 h
 "
+#
+define
+ION_GVN_PESSIMISTIC
+false
 namespace
 js
 {
@@ -127,6 +131,9 @@ MIRGraph
 &
 graph_
 ;
+bool
+pessimisticPass_
+;
 uint32
 lookupValue
 (
@@ -169,6 +176,8 @@ ValueNumberer
 MIRGraph
 &
 graph
+bool
+pessimistic
 )
 ;
 bool

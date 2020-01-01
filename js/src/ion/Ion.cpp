@@ -519,6 +519,7 @@ ValueNumberer
 gvn
 (
 graph
+ION_GVN_PESSIMISTIC
 )
 ;
 if
