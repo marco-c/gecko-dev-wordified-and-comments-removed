@@ -3137,14 +3137,6 @@ CSP
 default
 "
 "
-options
-inline
--
-script
-eval
--
-script
-;
 default
 -
 src
