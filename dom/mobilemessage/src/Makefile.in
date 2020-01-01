@@ -222,6 +222,10 @@ SmsParent
 .
 h
 \
+MobileMessageService
+.
+h
+\
 SmsServicesFactory
 .
 h
@@ -253,6 +257,10 @@ MobileMessageManager
 cpp
 \
 SmsService
+.
+cpp
+\
+MobileMessageService
 .
 cpp
 \

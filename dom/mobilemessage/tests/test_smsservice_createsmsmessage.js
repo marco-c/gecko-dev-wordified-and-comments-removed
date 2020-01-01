@@ -98,7 +98,7 @@ stack
 ;
 }
 let
-gSmsService
+gMobileMessageService
 =
 Cc
 [
@@ -107,9 +107,9 @@ mozilla
 .
 org
 /
-sms
+mobilemessage
 /
-smsservice
+mobilemessageservice
 ;
 1
 "
@@ -119,7 +119,7 @@ getService
 (
 Ci
 .
-nsISmsService
+nsIMobileMessageService
 )
 ;
 function
@@ -128,13 +128,13 @@ newMessage
 )
 {
 return
-gSmsService
+gMobileMessageService
 .
 createSmsMessage
 .
 apply
 (
-gSmsService
+gMobileMessageService
 arguments
 )
 ;

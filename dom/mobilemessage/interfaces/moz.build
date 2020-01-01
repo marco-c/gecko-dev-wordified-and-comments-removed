@@ -131,6 +131,11 @@ nsIMobileMessageDatabaseService
 idl
 '
 '
+nsIMobileMessageService
+.
+idl
+'
+'
 nsISmsService
 .
 idl
