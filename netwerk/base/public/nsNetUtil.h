@@ -1045,6 +1045,8 @@ props
 do_QueryInterface
 (
 chan
+&
+rv
 )
 ;
 if
