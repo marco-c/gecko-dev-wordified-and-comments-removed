@@ -2936,7 +2936,7 @@ CPPFLAGS
 -
 DANDROID
 -
-isystem
+I
 gonkdir
 /
 bionic
@@ -2946,7 +2946,7 @@ libc
 include
 /
 -
-isystem
+I
 gonkdir
 /
 bionic
@@ -2957,7 +2957,7 @@ kernel
 /
 common
 -
-isystem
+I
 gonkdir
 /
 bionic
@@ -2970,7 +2970,7 @@ arm
 /
 include
 -
-isystem
+I
 gonkdir
 /
 bionic
@@ -2983,7 +2983,7 @@ arch
 -
 arm
 -
-isystem
+I
 gonkdir
 /
 bionic
@@ -3041,7 +3041,7 @@ core
 /
 include
 -
-isystem
+I
 gonkdir
 /
 bionic
@@ -3054,6 +3054,7 @@ frameworks
 base
 /
 include
+STLPORT_CPPFLAGS
 CPPFLAGS
 -
 I
@@ -3100,7 +3101,6 @@ fno
 -
 exceptions
 CXXFLAGS
-STLPORT_CPPFLAGS
 "
 LIBS
 =
@@ -13931,25 +13931,6 @@ x86
 ;
 ;
 esac
-fi
-if
-test
-"
-OS_TARGET
-"
-=
-"
-Android
-"
--
-a
--
-z
-"
-gonkdir
-"
-;
-then
 if
 test
 -
@@ -14016,7 +13997,7 @@ STLPORT_CPPFLAGS
 =
 "
 -
-I
+isystem
 android_ndk
 /
 sources
@@ -14033,7 +14014,7 @@ libstdc
 /
 include
 -
-I
+isystem
 android_ndk
 /
 sources
@@ -14116,7 +14097,7 @@ STLPORT_CPPFLAGS
 =
 "
 -
-I
+isystem
 android_ndk
 /
 sources
@@ -14194,7 +14175,7 @@ STLPORT_CPPFLAGS
 =
 "
 -
-I
+isystem
 android_ndk
 /
 sources
@@ -14285,10 +14266,10 @@ ndk
 ]
 )
 fi
-CXXFLAGS
+CPPFLAGS
 =
 "
-CXXFLAGS
+CPPFLAGS
 STLPORT_CPPFLAGS
 "
 LDFLAGS
