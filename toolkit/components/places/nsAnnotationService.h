@@ -96,6 +96,17 @@ aDBConn
 static
 nsAnnotationService
 *
+GetAnnotationServiceIfAvailable
+(
+)
+{
+return
+gAnnotationService
+;
+}
+static
+nsAnnotationService
+*
 GetAnnotationService
 (
 )

@@ -364,6 +364,17 @@ xpcom
 TEST_NAME
 )
 ;
+nsCOMPtr
+<
+ShutdownObserver
+>
+shutdownObserver
+=
+new
+ShutdownObserver
+(
+)
+;
 disable_idle_service
 (
 )

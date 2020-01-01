@@ -137,6 +137,17 @@ aDBConn
 static
 nsFaviconService
 *
+GetFaviconServiceIfAvailable
+(
+)
+{
+return
+gFaviconService
+;
+}
+static
+nsFaviconService
+*
 GetFaviconService
 (
 )
