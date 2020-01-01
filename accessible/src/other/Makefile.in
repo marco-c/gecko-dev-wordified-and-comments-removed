@@ -489,10 +489,6 @@ nsHTMLTableAccessibleWrap
 .
 h
 \
-nsAccessibleRelationWrap
-.
-h
-\
 nsApplicationAccessibleWrap
 .
 h
