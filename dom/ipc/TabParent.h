@@ -478,6 +478,12 @@ aValue
 )
 ;
 virtual
+bool
+RecvNotifyDOMTouchListenerAdded
+(
+)
+;
+virtual
 PContentDialogParent
 *
 AllocPContentDialog

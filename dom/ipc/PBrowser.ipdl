@@ -1429,6 +1429,10 @@ bool
 windowOpened
 )
 ;
+NotifyDOMTouchListenerAdded
+(
+)
+;
 __delete__
 (
 )
