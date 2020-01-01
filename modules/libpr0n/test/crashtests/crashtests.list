@@ -78,15 +78,6 @@ tiny
 actual
 content
 .
-#
-Disabled
-temporarily
-until
-fatal
-assertion
-is
-removed
-#
 load
 delaytest
 .
@@ -97,7 +88,6 @@ html
 1
 .
 gif
-#
 load
 delaytest
 .
