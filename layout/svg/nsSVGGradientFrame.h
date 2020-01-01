@@ -64,7 +64,7 @@ namespace
 mozilla
 {
 class
-SVGAnimatedTransformList
+nsSVGAnimatedTransformList
 ;
 namespace
 dom
@@ -214,7 +214,7 @@ const
 mozilla
 :
 :
-SVGAnimatedTransformList
+nsSVGAnimatedTransformList
 *
 GetGradientTransformList
 (

@@ -54,6 +54,13 @@ SVGPatternElementBinding
 .
 h
 "
+#
+include
+"
+nsSVGAnimatedTransformList
+.
+h
+"
 NS_IMPL_NS_NEW_NAMESPACED_SVG_ELEMENT
 (
 Pattern

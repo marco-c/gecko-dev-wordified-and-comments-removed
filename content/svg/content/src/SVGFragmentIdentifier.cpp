@@ -883,7 +883,7 @@ transform
 )
 )
 {
-SVGAnimatedTransformList
+nsSVGAnimatedTransformList
 transforms
 ;
 if

@@ -63,7 +63,7 @@ h
 #
 include
 "
-SVGAnimatedTransformList
+nsSVGAnimatedTransformList
 .
 h
 "
@@ -662,7 +662,7 @@ SPREADMETHOD
 ;
 }
 const
-SVGAnimatedTransformList
+nsSVGAnimatedTransformList
 *
 nsSVGGradientFrame
 :
@@ -674,7 +674,7 @@ nsIContent
 aDefault
 )
 {
-SVGAnimatedTransformList
+nsSVGAnimatedTransformList
 *
 thisTransformList
 =
@@ -883,7 +883,7 @@ Y
 ;
 }
 const
-SVGAnimatedTransformList
+nsSVGAnimatedTransformList
 *
 animTransformList
 =
