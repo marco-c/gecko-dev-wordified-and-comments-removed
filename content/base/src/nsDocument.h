@@ -2690,7 +2690,7 @@ Init
 )
 ;
 virtual
-nsresult
+void
 AddXMLEventsContent
 (
 nsIContent
