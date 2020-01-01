@@ -810,7 +810,8 @@ NS_OK
 if
 (
 result
-&
+=
+=
 (
 1
 <
@@ -820,7 +821,8 @@ result
 |
 |
 result
-&
+=
+=
 (
 1
 <
