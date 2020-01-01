@@ -1841,6 +1841,14 @@ ShowEventTargetDebug
 ;
 #
 endif
+void
+RecordStyleSheetChange
+(
+nsIStyleSheet
+*
+aStyleSheet
+)
+;
 nsresult
 ClearPreferenceStyleRules
 (
