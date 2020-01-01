@@ -1577,10 +1577,6 @@ siProto
 delete
 si
 ;
-si
-=
-nullptr
-;
 }
 else
 {
