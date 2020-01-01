@@ -8,15 +8,6 @@ h
 #
 include
 "
-mozilla
-/
-Monitor
-.
-h
-"
-#
-include
-"
 nsThreadUtils
 .
 h

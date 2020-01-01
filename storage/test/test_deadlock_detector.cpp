@@ -47,7 +47,7 @@ include
 "
 mozilla
 /
-Monitor
+ReentrantMonitor
 .
 h
 "
@@ -2050,7 +2050,7 @@ Sanity4_Child
 mozilla
 :
 :
-Monitor
+ReentrantMonitor
 m1
 (
 "
@@ -2114,7 +2114,7 @@ tokens
 Re
 -
 entering
-Monitor
+ReentrantMonitor
 after
 acquiring
 other
@@ -2146,7 +2146,7 @@ n
 -
 -
 -
-Monitor
+ReentrantMonitor
 :
 dd
 .
@@ -2186,7 +2186,7 @@ n
 -
 -
 -
-Monitor
+ReentrantMonitor
 :
 dd
 .

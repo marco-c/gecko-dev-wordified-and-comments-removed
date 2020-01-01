@@ -9,7 +9,7 @@ include
 "
 mozilla
 /
-Monitor
+ReentrantMonitor
 .
 h
 "
@@ -486,7 +486,7 @@ protected
 mozilla
 :
 :
-Monitor
+ReentrantMonitor
 monitor
 ;
 nsCOMPtr

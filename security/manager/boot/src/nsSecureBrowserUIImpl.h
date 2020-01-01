@@ -9,7 +9,7 @@ include
 "
 mozilla
 /
-Monitor
+ReentrantMonitor
 .
 h
 "
@@ -245,8 +245,8 @@ protected
 mozilla
 :
 :
-Monitor
-mMonitor
+ReentrantMonitor
+mReentrantMonitor
 ;
 nsWeakPtr
 mWindow

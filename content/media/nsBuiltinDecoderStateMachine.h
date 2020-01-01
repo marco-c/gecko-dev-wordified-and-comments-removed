@@ -55,7 +55,7 @@ include
 "
 mozilla
 /
-Monitor
+ReentrantMonitor
 .
 h
 "
@@ -71,8 +71,8 @@ typedef
 mozilla
 :
 :
-Monitor
-Monitor
+ReentrantMonitor
+ReentrantMonitor
 ;
 typedef
 mozilla
@@ -120,7 +120,7 @@ GetState
 mDecoder
 -
 >
-GetMonitor
+GetReentrantMonitor
 (
 )
 .
@@ -252,7 +252,7 @@ const
 mDecoder
 -
 >
-GetMonitor
+GetReentrantMonitor
 (
 )
 .
@@ -275,7 +275,7 @@ const
 mDecoder
 -
 >
-GetMonitor
+GetReentrantMonitor
 (
 )
 .
@@ -304,7 +304,7 @@ const
 mDecoder
 -
 >
-GetMonitor
+GetReentrantMonitor
 (
 )
 .
@@ -331,7 +331,7 @@ const
 mDecoder
 -
 >
-GetMonitor
+GetReentrantMonitor
 (
 )
 .
@@ -442,7 +442,7 @@ const
 mDecoder
 -
 >
-GetMonitor
+GetReentrantMonitor
 (
 )
 .
@@ -633,7 +633,7 @@ const
 mDecoder
 -
 >
-GetMonitor
+GetReentrantMonitor
 (
 )
 .
@@ -652,8 +652,8 @@ GetDecodedAudioDuration
 (
 )
 ;
-Monitor
-mAudioMonitor
+ReentrantMonitor
+mAudioReentrantMonitor
 ;
 PRUint32
 mCbCrSize

@@ -247,7 +247,7 @@ isUntrusted
 PR_FALSE
 ;
 {
-MonitorAutoEnter
+ReentrantMonitorAutoEnter
 lock
 (
 monitor
@@ -603,7 +603,7 @@ rv
 )
 ;
 {
-MonitorAutoEnter
+ReentrantMonitorAutoEnter
 lock
 (
 monitor

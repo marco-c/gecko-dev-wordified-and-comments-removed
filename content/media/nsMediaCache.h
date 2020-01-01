@@ -32,7 +32,7 @@ namespace
 mozilla
 {
 class
-MonitorAutoEnter
+ReentrantMonitorAutoEnter
 ;
 }
 class
@@ -48,8 +48,8 @@ typedef
 mozilla
 :
 :
-MonitorAutoEnter
-MonitorAutoEnter
+ReentrantMonitorAutoEnter
+ReentrantMonitorAutoEnter
 ;
 public
 :
@@ -587,9 +587,9 @@ aOffset
 void
 CloseInternal
 (
-MonitorAutoEnter
+ReentrantMonitorAutoEnter
 &
-aMonitor
+aReentrantMonitor
 )
 ;
 void

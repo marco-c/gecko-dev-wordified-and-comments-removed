@@ -101,7 +101,7 @@ enum
 BlockingResourceType
 {
 eMutex
-eMonitor
+eReentrantMonitor
 eCondVar
 }
 ;

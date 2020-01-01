@@ -34,15 +34,6 @@ h
 #
 include
 "
-mozilla
-/
-Monitor
-.
-h
-"
-#
-include
-"
 nsXULAppAPI
 .
 h

@@ -27,7 +27,7 @@ include
 "
 mozilla
 /
-Monitor
+ReentrantMonitor
 .
 h
 "
@@ -38,7 +38,7 @@ using
 mozilla
 :
 :
-Monitor
+ReentrantMonitor
 ;
 struct
 nsWebMTimeDataOffset
@@ -144,9 +144,9 @@ nsWebMTimeDataOffset
 >
 &
 aMapping
-Monitor
+ReentrantMonitor
 &
-aMonitor
+aReentrantMonitor
 )
 ;
 bool
@@ -255,7 +255,7 @@ nsWebMBufferedState
 (
 )
 :
-mMonitor
+mReentrantMonitor
 (
 "
 nsWebMBufferedState
@@ -310,8 +310,8 @@ aStartTimeOffsetNS
 ;
 private
 :
-Monitor
-mMonitor
+ReentrantMonitor
+mReentrantMonitor
 ;
 nsTArray
 <

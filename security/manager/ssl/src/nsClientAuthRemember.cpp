@@ -302,7 +302,7 @@ change
 )
 )
 {
-MonitorAutoEnter
+ReentrantMonitorAutoEnter
 lock
 (
 monitor
@@ -325,7 +325,7 @@ ClearRememberedDecisions
 (
 )
 {
-MonitorAutoEnter
+ReentrantMonitorAutoEnter
 lock
 (
 monitor
@@ -523,7 +523,7 @@ return
 rv
 ;
 {
-MonitorAutoEnter
+ReentrantMonitorAutoEnter
 lock
 (
 monitor
@@ -694,7 +694,7 @@ nsClientAuthRemember
 settings
 ;
 {
-MonitorAutoEnter
+ReentrantMonitorAutoEnter
 lock
 (
 monitor
@@ -777,7 +777,7 @@ hostCert
 )
 ;
 {
-MonitorAutoEnter
+ReentrantMonitorAutoEnter
 lock
 (
 monitor

@@ -741,11 +741,11 @@ IntentionalCrash
 .
 h
 \
-Monitor
+Mutex
 .
 h
 \
-Mutex
+ReentrantMonitor
 .
 h
 \

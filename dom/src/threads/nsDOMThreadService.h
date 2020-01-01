@@ -37,7 +37,7 @@ include
 "
 mozilla
 /
-Monitor
+ReentrantMonitor
 .
 h
 "
@@ -514,8 +514,8 @@ mPools
 mozilla
 :
 :
-Monitor
-mMonitor
+ReentrantMonitor
+mReentrantMonitor
 ;
 nsRefPtrHashtable
 <

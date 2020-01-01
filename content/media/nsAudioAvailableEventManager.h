@@ -133,8 +133,8 @@ nsIRunnable
 >
 mPendingEvents
 ;
-Monitor
-mMonitor
+ReentrantMonitor
+mReentrantMonitor
 ;
 }
 ;

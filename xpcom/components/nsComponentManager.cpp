@@ -1991,7 +1991,7 @@ nsILocalFile
 aFile
 )
 {
-MonitorAutoEnter
+ReentrantMonitorAutoEnter
 mon
 (
 mMon
@@ -3913,7 +3913,7 @@ id
 return
 ;
 }
-MonitorAutoEnter
+ReentrantMonitorAutoEnter
 mon
 (
 mMon
@@ -4406,7 +4406,7 @@ id
 return
 ;
 }
-MonitorAutoEnter
+ReentrantMonitorAutoEnter
 mon
 (
 mMon
@@ -5181,7 +5181,7 @@ PRUint32
 aContractIDLen
 )
 {
-MonitorAutoEnter
+ReentrantMonitorAutoEnter
 mon
 (
 mMon
@@ -5213,7 +5213,7 @@ nsCID
 aClass
 )
 {
-MonitorAutoEnter
+ReentrantMonitorAutoEnter
 mon
 (
 mMon
@@ -6553,19 +6553,19 @@ nsnull
 }
 struct
 NS_STACK_CLASS
-AutoMonitor
+AutoReentrantMonitor
 {
-AutoMonitor
+AutoReentrantMonitor
 (
-Monitor
+ReentrantMonitor
 &
-aMonitor
+aReentrantMonitor
 )
 :
-mMonitor
+mReentrantMonitor
 (
 &
-aMonitor
+aReentrantMonitor
 )
 mEnterCount
 (
@@ -6578,7 +6578,7 @@ Enter
 ;
 }
 ~
-AutoMonitor
+AutoReentrantMonitor
 (
 )
 {
@@ -6598,7 +6598,7 @@ Enter
 (
 )
 {
-mMonitor
+mReentrantMonitor
 -
 >
 Enter
@@ -6619,7 +6619,7 @@ Exit
 -
 mEnterCount
 ;
-mMonitor
+mReentrantMonitor
 -
 >
 Exit
@@ -6627,9 +6627,9 @@ Exit
 )
 ;
 }
-Monitor
+ReentrantMonitor
 *
-mMonitor
+mReentrantMonitor
 ;
 PRInt32
 mEnterCount
@@ -6736,7 +6736,7 @@ return
 NS_ERROR_UNEXPECTED
 ;
 }
-AutoMonitor
+AutoReentrantMonitor
 mon
 (
 mMon
@@ -7258,7 +7258,7 @@ nsFactoryEntry
 entry
 ;
 {
-MonitorAutoEnter
+ReentrantMonitorAutoEnter
 mon
 (
 mMon
@@ -7422,7 +7422,7 @@ nsFactoryEntry
 entry
 ;
 {
-MonitorAutoEnter
+ReentrantMonitorAutoEnter
 mon
 (
 mMon
@@ -7574,7 +7574,7 @@ return
 NS_ERROR_UNEXPECTED
 ;
 }
-AutoMonitor
+AutoReentrantMonitor
 mon
 (
 mMon
@@ -8107,7 +8107,7 @@ aContractID
 return
 NS_ERROR_INVALID_ARG
 ;
-MonitorAutoEnter
+ReentrantMonitorAutoEnter
 mon
 (
 mMon
@@ -8161,7 +8161,7 @@ aFactory
 )
 )
 ;
-MonitorAutoEnter
+ReentrantMonitorAutoEnter
 mon
 (
 mMon
@@ -8244,7 +8244,7 @@ nsISupports
 dyingServiceObject
 ;
 {
-MonitorAutoEnter
+ReentrantMonitorAutoEnter
 mon
 (
 mMon
@@ -8801,7 +8801,7 @@ _retval
 )
 {
 {
-MonitorAutoEnter
+ReentrantMonitorAutoEnter
 mon
 (
 mMon

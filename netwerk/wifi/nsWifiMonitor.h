@@ -52,7 +52,7 @@ include
 "
 mozilla
 /
-Monitor
+ReentrantMonitor
 .
 h
 "
@@ -211,8 +211,8 @@ mListeners
 mozilla
 :
 :
-Monitor
-mMonitor
+ReentrantMonitor
+mReentrantMonitor
 ;
 }
 ;

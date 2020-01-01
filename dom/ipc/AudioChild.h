@@ -20,7 +20,7 @@ include
 "
 mozilla
 /
-Monitor
+ReentrantMonitor
 .
 h
 "
@@ -128,8 +128,8 @@ mLastSampleOffsetTime
 mozilla
 :
 :
-Monitor
-mAudioMonitor
+ReentrantMonitor
+mAudioReentrantMonitor
 ;
 PRPackedBool
 mIPCOpen

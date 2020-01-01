@@ -10,7 +10,7 @@ include
 "
 mozilla
 /
-Monitor
+ReentrantMonitor
 .
 h
 "
@@ -114,7 +114,7 @@ Run
 mozilla
 :
 :
-MonitorAutoEnter
+ReentrantMonitorAutoEnter
 lock
 (
 monitor
@@ -249,7 +249,7 @@ Notify
 mozilla
 :
 :
-Monitor
+ReentrantMonitor
 monitor
 ;
 protected
@@ -308,7 +308,7 @@ Run
 mozilla
 :
 :
-MonitorAutoEnter
+ReentrantMonitorAutoEnter
 lock
 (
 monitor
@@ -630,7 +630,7 @@ locker
 mozilla
 :
 :
-MonitorAutoEnter
+ReentrantMonitorAutoEnter
 lock
 (
 locker
@@ -758,7 +758,7 @@ tester
 mozilla
 :
 :
-MonitorAutoEnter
+ReentrantMonitorAutoEnter
 lock
 (
 tester
@@ -891,7 +891,7 @@ tester
 mozilla
 :
 :
-MonitorAutoEnter
+ReentrantMonitorAutoEnter
 lock
 (
 tester

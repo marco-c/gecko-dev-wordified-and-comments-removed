@@ -39,7 +39,7 @@ DEBUG_MaxInfos
 ;
 static
 int
-DEBUG_MonitorEntryCount
+DEBUG_ReentrantMonitorEntryCount
 =
 0
 ;
@@ -100,7 +100,7 @@ no
 define
 LOG_INFO_MONITOR_ENTRY
 \
-DEBUG_MonitorEntryCount
+DEBUG_ReentrantMonitorEntryCount
 +
 +
 /
@@ -2285,7 +2285,7 @@ GetWorkingSet
 )
 -
 >
-mTableMonitor
+mTableReentrantMonitor
 .
 AssertCurrentThreadIn
 (
@@ -2374,7 +2374,7 @@ BuildParent
 mozilla
 :
 :
-MonitorAutoEnter
+ReentrantMonitorAutoEnter
 monitor
 (
 xptiInterfaceInfoManager
@@ -2390,7 +2390,7 @@ GetWorkingSet
 )
 -
 >
-mTableMonitor
+mTableReentrantMonitor
 )
 ;
 NS_ASSERTION
@@ -2579,7 +2579,7 @@ cnt
 mozilla
 :
 :
-MonitorAutoEnter
+ReentrantMonitorAutoEnter
 monitor
 (
 xptiInterfaceInfoManager
@@ -2595,7 +2595,7 @@ GetWorkingSet
 )
 -
 >
-mTableMonitor
+mTableReentrantMonitor
 )
 ;
 LOG_INFO_MONITOR_ENTRY

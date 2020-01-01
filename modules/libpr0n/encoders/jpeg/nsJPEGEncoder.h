@@ -10,7 +10,7 @@ include
 "
 mozilla
 /
-Monitor
+ReentrantMonitor
 .
 h
 "
@@ -88,8 +88,8 @@ typedef
 mozilla
 :
 :
-Monitor
-Monitor
+ReentrantMonitor
+ReentrantMonitor
 ;
 public
 :
@@ -210,8 +210,8 @@ mCallbackTarget
 PRUint32
 mNotifyThreshold
 ;
-Monitor
-mMonitor
+ReentrantMonitor
+mReentrantMonitor
 ;
 }
 ;

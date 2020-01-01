@@ -616,7 +616,7 @@ change
 )
 )
 {
-MonitorAutoEnter
+ReentrantMonitorAutoEnter
 lock
 (
 monitor
@@ -693,7 +693,7 @@ change
 )
 )
 {
-MonitorAutoEnter
+ReentrantMonitorAutoEnter
 lock
 (
 monitor
@@ -748,7 +748,7 @@ RemoveAllFromMemory
 (
 )
 {
-MonitorAutoEnter
+ReentrantMonitorAutoEnter
 lock
 (
 monitor
@@ -814,7 +814,7 @@ RemoveAllTemporaryOverrides
 )
 {
 {
-MonitorAutoEnter
+ReentrantMonitorAutoEnter
 lock
 (
 monitor
@@ -838,7 +838,7 @@ Read
 (
 )
 {
-MonitorAutoEnter
+ReentrantMonitorAutoEnter
 lock
 (
 monitor
@@ -1513,7 +1513,7 @@ Write
 (
 )
 {
-MonitorAutoEnter
+ReentrantMonitorAutoEnter
 lock
 (
 monitor
@@ -2386,7 +2386,7 @@ dbkey_walk
 }
 }
 {
-MonitorAutoEnter
+ReentrantMonitorAutoEnter
 lock
 (
 monitor
@@ -2525,7 +2525,7 @@ nsCertOverride
 settings
 ;
 {
-MonitorAutoEnter
+ReentrantMonitorAutoEnter
 lock
 (
 monitor
@@ -2715,7 +2715,7 @@ nsCertOverride
 settings
 ;
 {
-MonitorAutoEnter
+ReentrantMonitorAutoEnter
 lock
 (
 monitor
@@ -2840,7 +2840,7 @@ hostPort
 )
 ;
 {
-MonitorAutoEnter
+ReentrantMonitorAutoEnter
 lock
 (
 monitor
@@ -3009,7 +3009,7 @@ hostPort
 )
 ;
 {
-MonitorAutoEnter
+ReentrantMonitorAutoEnter
 lock
 (
 monitor
@@ -3529,7 +3529,7 @@ mDottedOidForStoringNewHashes
 mDottedOidForStoringNewHashes
 ;
 {
-MonitorAutoEnter
+ReentrantMonitorAutoEnter
 lock
 (
 monitor
@@ -3813,7 +3813,7 @@ mDottedOidForStoringNewHashes
 mDottedOidForStoringNewHashes
 ;
 {
-MonitorAutoEnter
+ReentrantMonitorAutoEnter
 lock
 (
 monitor

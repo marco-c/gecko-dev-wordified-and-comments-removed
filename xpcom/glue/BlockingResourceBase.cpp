@@ -31,7 +31,7 @@ include
 "
 mozilla
 /
-Monitor
+ReentrantMonitor
 .
 h
 "
@@ -65,7 +65,7 @@ kResourceTypeName
 Mutex
 "
 "
-Monitor
+ReentrantMonitor
 "
 "
 CondVar
@@ -1207,7 +1207,7 @@ Unlock
 ;
 }
 void
-Monitor
+ReentrantMonitor
 :
 :
 Enter
@@ -1232,7 +1232,7 @@ chainFront
 {
 PR_EnterMonitor
 (
-mMonitor
+mReentrantMonitor
 )
 ;
 +
@@ -1289,7 +1289,7 @@ NS_WARNING
 Re
 -
 entering
-Monitor
+ReentrantMonitor
 after
 acquiring
 other
@@ -1323,7 +1323,7 @@ callContext
 ;
 PR_EnterMonitor
 (
-mMonitor
+mReentrantMonitor
 )
 ;
 +
@@ -1342,7 +1342,7 @@ callContext
 ;
 PR_EnterMonitor
 (
-mMonitor
+mReentrantMonitor
 )
 ;
 NS_ASSERTION
@@ -1352,7 +1352,7 @@ NS_ASSERTION
 =
 mEntryCount
 "
-Monitor
+ReentrantMonitor
 isn
 '
 t
@@ -1372,7 +1372,7 @@ mEntryCount
 ;
 }
 void
-Monitor
+ReentrantMonitor
 :
 :
 Exit
@@ -1397,7 +1397,7 @@ status
 =
 PR_ExitMonitor
 (
-mMonitor
+mReentrantMonitor
 )
 ;
 NS_ASSERTION
@@ -1408,7 +1408,7 @@ PR_SUCCESS
 status
 "
 bad
-Monitor
+ReentrantMonitor
 :
 :
 Exit
@@ -1419,7 +1419,7 @@ Exit
 ;
 }
 nsresult
-Monitor
+ReentrantMonitor
 :
 :
 Wait
@@ -1471,7 +1471,7 @@ rv
 =
 PR_Wait
 (
-mMonitor
+mReentrantMonitor
 interval
 )
 =
