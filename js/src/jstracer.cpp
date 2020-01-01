@@ -11446,8 +11446,6 @@ r_ins
 ;
 if
 (
-JSOp
-(
 cx
 -
 >
@@ -11461,7 +11459,6 @@ pc
 [
 JSOP_SETNAME_LENGTH
 ]
-)
 !
 =
 :
