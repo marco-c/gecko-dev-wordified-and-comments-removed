@@ -5546,6 +5546,10 @@ target
 {
 Value
 rval
+=
+UndefinedValue
+(
+)
 ;
 bool
 rhsConst
