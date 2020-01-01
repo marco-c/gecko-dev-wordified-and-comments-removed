@@ -188,6 +188,8 @@ nsnull
 ;
 JSBool
 gotThisVal
+=
+JS_FALSE
 ;
 jsval
 thisVal
