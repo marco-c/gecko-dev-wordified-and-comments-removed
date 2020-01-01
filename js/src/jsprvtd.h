@@ -364,7 +364,7 @@ Shape
 struct
 EmptyShape
 ;
-struct
+class
 Bindings
 ;
 }
