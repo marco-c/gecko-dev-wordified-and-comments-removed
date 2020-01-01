@@ -27869,7 +27869,7 @@ false
 ;
 }
 static
-void
+bool
 js_arm_check_vfp
 (
 )
