@@ -1217,7 +1217,8 @@ new
 HistoryEntry
 (
 uri
-null
+"
+"
 )
 ;
 mHistory
