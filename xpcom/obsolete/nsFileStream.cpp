@@ -734,6 +734,11 @@ if
 failed
 (
 )
+|
+|
+bytesRead
+<
+0
 )
 return
 PR_FALSE
