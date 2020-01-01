@@ -2091,6 +2091,16 @@ part
 user_pref
 (
 "
+social
+.
+skipLoadingProviders
+"
+true
+)
+;
+user_pref
+(
+"
 browser
 .
 console
