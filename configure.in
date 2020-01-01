@@ -3196,6 +3196,13 @@ ANDROID_TOOLS
 android_tools
 }
 "
+ANDROID_VERSION
+=
+"
+{
+android_version
+}
+"
 AC_DEFINE
 (
 ANDROID
@@ -3204,6 +3211,10 @@ AC_DEFINE_UNQUOTED
 (
 ANDROID_VERSION
 android_version
+)
+AC_SUBST
+(
+ANDROID_VERSION
 )
 CROSS_COMPILE
 =

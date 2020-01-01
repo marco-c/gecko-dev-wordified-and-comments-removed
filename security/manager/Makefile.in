@@ -1828,6 +1828,12 @@ DRTLD_NOLOAD
 =
 0
 -
+DANDROID_VERSION
+=
+(
+ANDROID_VERSION
+)
+-
 include
 (
 topsrcdir
