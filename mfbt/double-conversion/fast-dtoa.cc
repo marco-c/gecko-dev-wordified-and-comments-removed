@@ -1591,7 +1591,7 @@ boundary_plus
 }
 else
 {
-ASSERT
+assert
 (
 mode
 =
