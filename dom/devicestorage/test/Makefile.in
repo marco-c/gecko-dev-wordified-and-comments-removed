@@ -63,9 +63,6 @@ DEPTH
 /
 .
 .
-/
-.
-.
 topsrcdir
 =
 top_srcdir
@@ -79,11 +76,10 @@ relativesrcdir
 =
 dom
 /
-tests
-/
-mochitest
-/
 devicestorage
+/
+test
+/
 include
 (
 DEPTH
