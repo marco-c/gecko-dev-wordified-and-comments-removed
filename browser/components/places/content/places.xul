@@ -2604,7 +2604,7 @@ radio
 "
 #
 ifdef
-MACOSX
+XP_MACOSX
 label
 =
 "
