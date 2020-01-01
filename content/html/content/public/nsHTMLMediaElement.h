@@ -1058,7 +1058,7 @@ PRPackedBool
 mIsRunningLoadMethod
 ;
 PRPackedBool
-mIsLoadingFromSrcAttribute
+mIsLoadingFromSourceChildren
 ;
 PRPackedBool
 mDelayingLoadEvent
