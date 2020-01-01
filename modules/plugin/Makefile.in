@@ -508,7 +508,13 @@ samples
 default
 /
 os2
+ifdef
+MOZ_OJI
+TOOL_DIRS
++
+=
 os2wrapper
+endif
 ifdef
 ENABLE_TESTS
 TOOL_DIRS
