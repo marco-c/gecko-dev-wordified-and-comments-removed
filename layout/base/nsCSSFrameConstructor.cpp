@@ -32608,7 +32608,7 @@ mPresShell
 GetPresContext
 (
 )
-aContainer
+container
 parentFrame
 &
 appendAfterFrame
@@ -32981,7 +32981,7 @@ nsLayoutUtils
 :
 IsGeneratedContentFor
 (
-aContainer
+container
 firstChild
 nsCSSPseudoElements
 :
@@ -33378,7 +33378,7 @@ mPresShell
 GetPresContext
 (
 )
-aContainer
+container
 frameItems
 .
 childList
@@ -33427,7 +33427,7 @@ else
 InsertFirstLineFrames
 (
 state
-aContainer
+container
 containingBlock
 &
 parentFrame
@@ -33478,7 +33478,7 @@ isAppend
 AppendFrames
 (
 state
-aContainer
+container
 parentFrame
 frameItems
 appendAfterFrame
