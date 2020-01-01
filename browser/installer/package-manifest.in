@@ -613,13 +613,6 @@ BINPATH
 /
 components
 /
-chardet
-.
-xpt
-BINPATH
-/
-components
-/
 chrome
 .
 xpt
