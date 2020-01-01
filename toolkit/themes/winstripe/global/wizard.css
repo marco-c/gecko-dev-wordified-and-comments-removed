@@ -222,7 +222,7 @@ wizard
 -
 button
 [
-wizardbutton
+dlgtype
 =
 "
 finish
@@ -233,7 +233,7 @@ wizard
 -
 button
 [
-wizardbutton
+dlgtype
 =
 "
 next
@@ -247,8 +247,7 @@ margin
 -
 start
 :
--
-1px
+0px
 !
 important
 ;
@@ -258,7 +257,7 @@ wizard
 -
 button
 [
-wizardbutton
+dlgtype
 =
 "
 back
