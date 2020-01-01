@@ -142,7 +142,7 @@ drawable
 "
 drawable
 /
-site_security_identified
+lock_identified
 "
 /
 >
@@ -162,7 +162,7 @@ drawable
 "
 drawable
 /
-site_security_verified
+lock_verified
 "
 /
 >
@@ -182,7 +182,7 @@ drawable
 "
 drawable
 /
-site_security_blocked_mixed_content
+shield
 "
 /
 >
@@ -202,7 +202,7 @@ drawable
 "
 drawable
 /
-site_security_loaded_mixed_content
+warning
 "
 /
 >
