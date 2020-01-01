@@ -459,6 +459,10 @@ SVGElement
 .
 webidl
 \
+SVGGraphicsElement
+.
+webidl
+\
 SVGLengthList
 .
 webidl
@@ -512,6 +516,10 @@ SVGStopElement
 webidl
 \
 SVGStyleElement
+.
+webidl
+\
+SVGTests
 .
 webidl
 \

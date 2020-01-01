@@ -573,7 +573,7 @@ map
 )
 |
 |
-nsSVGGraphicElementBase
+nsSVGFilterElementBase
 :
 :
 IsAttributeMapped
