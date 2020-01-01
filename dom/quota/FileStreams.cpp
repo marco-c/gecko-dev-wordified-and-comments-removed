@@ -313,13 +313,8 @@ aCount
 )
 )
 {
-*
-_retval
-=
-0
-;
 return
-NS_OK
+NS_ERROR_FAILURE
 ;
 }
 }

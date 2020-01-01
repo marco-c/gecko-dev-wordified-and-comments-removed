@@ -358,16 +358,6 @@ I
 topsrcdir
 )
 /
-dom
-/
-quota
-\
--
-I
-(
-topsrcdir
-)
-/
 xpcom
 /
 build

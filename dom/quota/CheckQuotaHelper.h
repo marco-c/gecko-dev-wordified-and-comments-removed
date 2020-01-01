@@ -51,9 +51,6 @@ CondVar
 h
 "
 class
-nsIPrincipal
-;
-class
 nsPIDOMWindow
 ;
 BEGIN_QUOTA_NAMESPACE
@@ -95,15 +92,6 @@ PromptAndReturnQuotaIsDisabled
 void
 Cancel
 (
-)
-;
-static
-uint32_t
-GetQuotaPermission
-(
-nsIPrincipal
-*
-aPrincipal
 )
 ;
 private
