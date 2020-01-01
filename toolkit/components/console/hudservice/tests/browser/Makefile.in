@@ -512,6 +512,10 @@ browser_webconsole_bug_581231_close_button
 .
 js
 \
+browser_webconsole_bug_595350_multiple_windows_and_tabs
+.
+js
+\
 browser_webconsole_consoleonpage
 .
 js
