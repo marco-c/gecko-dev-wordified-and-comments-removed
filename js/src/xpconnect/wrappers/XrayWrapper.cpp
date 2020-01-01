@@ -2066,6 +2066,16 @@ desc_in
 ;
 if
 (
+!
+WrapperFactory
+:
+:
+IsPartiallyTransparent
+(
+wrapper
+)
+&
+&
 id
 =
 =

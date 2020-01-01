@@ -356,7 +356,12 @@ ownerDocument
 defaultView
 ;
 return
+XPCNativeWrapper
+.
+unwrap
+(
 chromeWin
+)
 ;
 }
 try
@@ -375,8 +380,6 @@ getChromeWindow
 (
 promptWin
 )
-.
-wrappedJSObject
 ;
 if
 (
