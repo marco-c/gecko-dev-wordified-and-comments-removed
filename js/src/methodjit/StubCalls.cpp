@@ -2818,7 +2818,7 @@ sp
 2
 ]
 .
-isUndefined
+isPrimitive
 (
 )
 )
@@ -11972,7 +11972,7 @@ JS_UNLIKELY
 (
 rval
 .
-isUndefined
+isPrimitive
 (
 )
 )
