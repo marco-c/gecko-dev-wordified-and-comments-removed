@@ -1336,5 +1336,13 @@ IDBSuccessEvent
 )
 DOMCI_CLASS
 (
+IDBTransactionEvent
+)
+DOMCI_CLASS
+(
 IDBObjectStoreRequest
+)
+DOMCI_CLASS
+(
+IDBTransactionRequest
 )

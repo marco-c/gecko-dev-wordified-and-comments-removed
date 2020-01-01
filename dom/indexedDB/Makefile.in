@@ -470,6 +470,10 @@ IDBRequest
 .
 cpp
 \
+IDBTransactionRequest
+.
+cpp
+\
 IndexedDatabaseRequest
 .
 cpp
@@ -501,6 +505,10 @@ IDBObjectStoreRequest
 h
 \
 IDBRequest
+.
+h
+\
+IDBTransactionRequest
 .
 h
 \

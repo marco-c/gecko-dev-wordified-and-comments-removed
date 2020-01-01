@@ -537,7 +537,7 @@ version
 readonly
 attribute
 nsIDOMDOMStringList
-objectStores
+objectStoreNames
 ;
 }
 ;
