@@ -1604,6 +1604,8 @@ rv
 *
 aResult
 =
+!
+!
 mHunspell
 -
 >
