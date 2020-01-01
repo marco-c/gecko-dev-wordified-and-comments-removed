@@ -7902,10 +7902,6 @@ setProgress
 1
 )
 ;
-this
-.
-_timeout
-=
 setTimeout
 (
 this
@@ -8126,13 +8122,6 @@ this
 ;
 }
 this
-)
-;
-clearTimeout
-(
-this
-.
-_timeout
 )
 ;
 ]
