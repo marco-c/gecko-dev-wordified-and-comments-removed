@@ -1086,7 +1086,7 @@ R
 .
 menu
 .
-awesomebar_contextmenu
+home_contextmenu
 menu
 )
 ;
