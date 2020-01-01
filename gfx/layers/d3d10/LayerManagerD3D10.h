@@ -143,11 +143,6 @@ bool
 force
 =
 false
-HRESULT
-*
-aHresultPtr
-=
-nullptr
 )
 ;
 virtual
