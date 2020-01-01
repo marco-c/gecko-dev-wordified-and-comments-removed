@@ -1594,17 +1594,6 @@ eNone
 )
 ;
 NS_IMETHOD
-InsertBR
-(
-nsCOMPtr
-<
-nsIDOMNode
->
-*
-outBRNode
-)
-;
-NS_IMETHOD
 InsertCell
 (
 nsIDOMElement

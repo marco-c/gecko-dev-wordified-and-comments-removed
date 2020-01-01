@@ -2244,7 +2244,7 @@ aSelect
 )
 ;
 }
-NS_IMETHODIMP
+nsresult
 nsPlaintextEditor
 :
 :
