@@ -153,7 +153,7 @@ SetBaseValue
 (
 aValue
 nsnull
-true
+false
 )
 ;
 return
@@ -1028,6 +1028,13 @@ NS_OK
 ;
 nsAttrValue
 emptyOrOldValue
+;
+if
+(
+aSVGElement
+)
+{
+emptyOrOldValue
 =
 aSVGElement
 -
@@ -1037,6 +1044,7 @@ WillChangeAngle
 mAttrEnum
 )
 ;
+}
 float
 valueInUserUnits
 =
@@ -1061,6 +1069,11 @@ aSVGElement
 false
 )
 ;
+if
+(
+aSVGElement
+)
+{
 aSVGElement
 -
 >
@@ -1070,6 +1083,7 @@ mAttrEnum
 emptyOrOldValue
 )
 ;
+}
 return
 NS_OK
 ;
