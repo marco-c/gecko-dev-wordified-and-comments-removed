@@ -518,6 +518,10 @@ browser_bug700893_dirty_state
 .
 js
 \
+browser_bug729480_line_vertical_align
+.
+js
+\
 head
 .
 js
