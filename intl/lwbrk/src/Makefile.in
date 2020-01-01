@@ -547,15 +547,4 @@ MOZ_PANGO_CFLAGS
 (
 NULL
 )
-EXTRA_DSO_LDOPTS
-+
-=
-\
-(
-MOZ_PANGO_LIBS
-)
-\
-(
-NULL
-)
 endif

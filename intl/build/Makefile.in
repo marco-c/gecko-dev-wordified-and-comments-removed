@@ -727,17 +727,6 @@ rules
 mk
 ifdef
 MOZ_ENABLE_PANGO
-CXXFLAGS
-+
-=
-\
-(
-MOZ_PANGO_CFLAGS
-)
-\
-(
-NULL
-)
 EXTRA_DSO_LDOPTS
 +
 =
