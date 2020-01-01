@@ -1408,10 +1408,6 @@ browser_URLBarSetURI
 .
 js
 \
-browser_bookmark_titles
-.
-js
-\
 browser_pageInfo_plugins
 .
 js
@@ -1455,7 +1451,7 @@ NULL
 )
 #
 Disable
-test
+tests
 on
 Windows
 due
@@ -1463,7 +1459,8 @@ to
 frequent
 failures
 (
-bug
+bugs
+825739
 841341
 )
 ifneq
@@ -1476,6 +1473,10 @@ MOZ_WIDGET_TOOLKIT
 _BROWSER_FILES
 +
 =
+\
+browser_bookmark_titles
+.
+js
 \
 browser_popupNotification
 .
