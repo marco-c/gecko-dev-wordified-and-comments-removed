@@ -1408,7 +1408,7 @@ NS_IMETHOD
 ScrollHorizontal
 (
 bool
-aLeft
+aRight
 )
 ;
 NS_IMETHOD
