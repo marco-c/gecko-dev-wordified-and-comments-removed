@@ -2060,13 +2060,6 @@ nsBoxLayoutState
 aState
 )
 ;
-virtual
-nsILineIterator
-*
-GetLineIterator
-(
-)
-;
 protected
 :
 NS_IMETHOD_

@@ -72,6 +72,9 @@ class
 nsFirstLineFrame
 ;
 class
+nsILineIterator
+;
+class
 nsIntervalSet
 ;
 #
@@ -1578,13 +1581,6 @@ nsHTMLReflowMetrics
 aMetrics
 nscoord
 aLineTop
-)
-;
-virtual
-nsILineIterator
-*
-GetLineIterator
-(
 )
 ;
 public

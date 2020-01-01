@@ -96,9 +96,6 @@ nsBoxLayoutState
 class
 nsIBoxLayout
 ;
-class
-nsILineIterator
-;
 #
 ifdef
 ACCESSIBILITY
@@ -4215,15 +4212,6 @@ nsSize
 &
 aNewDesiredSize
 )
-;
-virtual
-nsILineIterator
-*
-GetLineIterator
-(
-)
-=
-0
 ;
 protected
 :
