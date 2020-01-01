@@ -137,6 +137,9 @@ AppsUtils
 "
 ManifestHelper
 "
+"
+isAbsoluteURI
+"
 ]
 ;
 function
@@ -146,8 +149,11 @@ s
 )
 {
 }
-function
+this
+.
 isAbsoluteURI
+=
+function
 (
 aURI
 )
@@ -582,6 +588,11 @@ storeVersion
 |
 |
 0
+redirects
+:
+aApp
+.
+redirects
 }
 ;
 }
