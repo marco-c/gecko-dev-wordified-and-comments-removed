@@ -378,6 +378,9 @@ mFTFace
 =
 nsnull
 ;
+#
+ifndef
+ANDROID
 if
 (
 mFontFace
@@ -393,6 +396,8 @@ mFontFace
 nsnull
 ;
 }
+#
+endif
 }
 FontEntry
 *
