@@ -880,6 +880,11 @@ ENTITY
 pref_private_data_cookies
 "
 Cookies
+&
+amp
+;
+active
+logins
 "
 >
 <
@@ -888,15 +893,6 @@ ENTITY
 pref_private_data_cache
 "
 Cache
-"
->
-<
-!
-ENTITY
-pref_private_data_sessions
-"
-Active
-logins
 "
 >
 <
