@@ -526,7 +526,7 @@ code
 nbytes
 )
 ;
-JS_PURGE_GSN_CACHE
+JS_CLEAR_GSN_CACHE
 (
 cx
 )
