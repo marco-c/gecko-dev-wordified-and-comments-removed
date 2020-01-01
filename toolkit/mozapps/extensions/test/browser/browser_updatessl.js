@@ -621,9 +621,6 @@ mozilla
 .
 org
 "
-"
-extension
-"
 null
 url
 {

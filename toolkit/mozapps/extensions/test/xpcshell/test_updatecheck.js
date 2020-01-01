@@ -143,9 +143,6 @@ mozilla
 .
 org
 "
-"
-extension
-"
 null
 "
 http
@@ -344,9 +341,6 @@ mozilla
 .
 org
 "
-"
-extension
-"
 updateKey
 "
 http
@@ -417,9 +411,6 @@ mozilla
 .
 org
 "
-"
-extension
-"
 updateKey
 "
 http
@@ -489,9 +480,6 @@ tests
 mozilla
 .
 org
-"
-"
-extension
 "
 updateKey
 "
@@ -583,9 +571,6 @@ tests
 mozilla
 .
 org
-"
-"
-extension
 "
 updateKey
 "
@@ -693,9 +678,6 @@ mozilla
 .
 org
 "
-"
-extension
-"
 updateKey
 "
 http
@@ -801,9 +783,6 @@ tests
 mozilla
 .
 org
-"
-"
-extension
 "
 updateKey
 "
@@ -911,9 +890,6 @@ mozilla
 .
 org
 "
-"
-extension
-"
 updateKey
 "
 http
@@ -1004,9 +980,6 @@ tests
 mozilla
 .
 org
-"
-"
-extension
 "
 updateKey
 "
@@ -1114,9 +1087,6 @@ mozilla
 .
 org
 "
-"
-extension
-"
 null
 "
 http
@@ -1196,9 +1166,6 @@ mozilla
 .
 org
 "
-"
-extension
-"
 null
 "
 http
@@ -1277,9 +1244,6 @@ tests
 mozilla
 .
 org
-"
-"
-extension
 "
 null
 "
@@ -1388,9 +1352,6 @@ tests
 mozilla
 .
 org
-"
-"
-extension
 "
 null
 "
@@ -1571,9 +1532,6 @@ tests
 mozilla
 .
 org
-"
-"
-extension
 "
 null
 "

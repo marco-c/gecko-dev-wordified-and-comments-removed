@@ -1287,7 +1287,6 @@ function
 parseRDFManifest
 (
 aId
-aType
 aUpdateKey
 aRequest
 )
@@ -2337,7 +2336,6 @@ function
 UpdateParser
 (
 aId
-aType
 aUpdateKey
 aUrl
 aObserver
@@ -2348,12 +2346,6 @@ this
 id
 =
 aId
-;
-this
-.
-type
-=
-aType
 ;
 this
 .
@@ -2612,9 +2604,6 @@ prototype
 =
 {
 id
-:
-null
-type
 :
 null
 updateKey
@@ -2885,9 +2874,6 @@ parseRDFManifest
 this
 .
 id
-this
-.
-type
 this
 .
 updateKey
@@ -3727,7 +3713,6 @@ function
 AUC_checkForUpdates
 (
 aId
-aType
 aUpdateKey
 aUrl
 aObserver
@@ -3737,7 +3722,6 @@ new
 UpdateParser
 (
 aId
-aType
 aUpdateKey
 aUrl
 aObserver

@@ -23067,9 +23067,6 @@ aAddon
 id
 aAddon
 .
-type
-aAddon
-.
 updateKey
 url
 this

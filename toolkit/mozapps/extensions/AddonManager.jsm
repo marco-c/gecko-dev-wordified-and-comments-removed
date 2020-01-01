@@ -4183,9 +4183,6 @@ AddonUpdateChecker
 checkForUpdates
 (
 hotfixID
-"
-extension
-"
 null
 url
 {
