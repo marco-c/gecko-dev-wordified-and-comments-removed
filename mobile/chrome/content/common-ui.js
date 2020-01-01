@@ -8050,7 +8050,7 @@ _dispatchMouseEvent
 "
 Browser
 :
-MouseUp
+MouseClick
 "
 aEvent
 .
