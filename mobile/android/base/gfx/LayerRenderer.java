@@ -765,6 +765,7 @@ ScrollbarLayer
 .
 create
 (
+this
 false
 )
 ;
@@ -774,6 +775,7 @@ ScrollbarLayer
 .
 create
 (
+this
 true
 )
 ;
