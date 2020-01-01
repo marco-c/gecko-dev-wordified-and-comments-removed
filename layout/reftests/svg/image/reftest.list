@@ -73,6 +73,14 @@ opacity
 ref
 .
 svg
+fuzzy
+-
+if
+(
+Android
+4
+34
+)
 =
 =
 image
@@ -91,6 +99,11 @@ opacity
 ref
 .
 svg
+#
+Bug
+776039
+for
+Android
 =
 =
 image

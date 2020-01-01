@@ -878,6 +878,17 @@ svg
 pass
 .
 svg
+fuzzy
+-
+if
+(
+cocoaWidget
+&
+&
+layersGPUAccelerated
+2
+93
+)
 =
 =
 feDistantLight

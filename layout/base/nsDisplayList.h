@@ -595,6 +595,7 @@ bool
 IsInTransform
 (
 )
+const
 {
 return
 mInTransform
