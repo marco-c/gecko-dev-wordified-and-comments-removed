@@ -883,12 +883,8 @@ this
 ;
 }
 Node
-atomNode
+stringLiteral
 (
-ParseNodeKind
-kind
-JSOp
-op
 )
 ;
 inline
