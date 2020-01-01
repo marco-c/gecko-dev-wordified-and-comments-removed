@@ -92,13 +92,6 @@ this
 .
 _viewElt
 get
-associatedElement
-(
-)
-this
-.
-_viewElt
-get
 controllers
 (
 )
