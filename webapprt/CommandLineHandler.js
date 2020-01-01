@@ -190,6 +190,7 @@ inTestMode
 {
 startUp
 (
+inTestMode
 )
 ;
 }
@@ -229,6 +230,7 @@ install
 ;
 startUp
 (
+inTestMode
 )
 ;
 }
