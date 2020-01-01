@@ -7578,6 +7578,19 @@ PositionedDescendants
 if
 (
 applyAbsPosClipping
+&
+&
+(
+!
+resultList
+.
+IsEmpty
+(
+)
+|
+|
+usingSVGEffects
+)
 )
 {
 nsAbsPosClipWrapper
@@ -8288,7 +8301,7 @@ return
 NS_OK
 ;
 PRBool
-isComposited
+isVisuallyAtomic
 =
 disp
 -
@@ -8329,7 +8342,7 @@ IsPositioned
 ;
 if
 (
-isComposited
+isVisuallyAtomic
 |
 |
 isPositioned
@@ -8521,7 +8534,7 @@ eStyleUnit_Integer
 )
 |
 |
-isComposited
+isVisuallyAtomic
 |
 |
 (
@@ -8794,7 +8807,7 @@ if
 isPositioned
 |
 |
-isComposited
+isVisuallyAtomic
 |
 |
 (

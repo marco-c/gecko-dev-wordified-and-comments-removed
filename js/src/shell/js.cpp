@@ -21169,6 +21169,19 @@ true
 ifdef
 JS_METHODJIT
 static
+size_t
+zero_usable_size
+(
+void
+*
+p
+)
+{
+return
+0
+;
+}
+static
 void
 SumJitDataSizeCallback
 (
@@ -21230,7 +21243,7 @@ script
 >
 jitDataSize
 (
-NULL
+zero_usable_size
 )
 ;
 }
@@ -21264,7 +21277,7 @@ NULL
 gc
 :
 :
-FINALIZE_TYPE_OBJECT
+FINALIZE_SCRIPT
 &
 n
 SumJitDataSizeCallback
