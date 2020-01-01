@@ -79,10 +79,6 @@ mk
 MODULE
 =
 commandhandler
-DIRS
-=
-public
-src
 include
 (
 topsrcdir

@@ -79,10 +79,6 @@ mk
 MODULE
 =
 find
-DIRS
-=
-public
-src
 include
 (
 topsrcdir
