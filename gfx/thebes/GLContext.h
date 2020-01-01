@@ -932,7 +932,6 @@ TextureImage
 :
 :
 ContentType
-aContentType
 PRBool
 aUseNearestFilter
 =
