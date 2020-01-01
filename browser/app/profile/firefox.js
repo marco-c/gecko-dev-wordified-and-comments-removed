@@ -9457,3 +9457,17 @@ animate_zoom
 true
 )
 ;
+pref
+(
+"
+full
+-
+screen
+-
+api
+.
+enabled
+"
+true
+)
+;
