@@ -12316,6 +12316,11 @@ cx
 tempPool
 )
 ;
+GCREASON
+(
+PUBLIC_API
+)
+;
 js_GC
 (
 cx
@@ -12335,6 +12340,11 @@ JSContext
 cx
 )
 {
+GCREASON
+(
+PUBLIC_API
+)
+;
 JS_CompartmentGC
 (
 cx
