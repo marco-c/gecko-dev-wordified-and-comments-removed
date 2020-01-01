@@ -463,6 +463,8 @@ EnsureChildState
 void
 doRemoveChild
 (
+bool
+aNotify
 )
 ;
 nsString

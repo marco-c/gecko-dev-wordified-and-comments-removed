@@ -49,7 +49,7 @@ nsIDOMNodeIterator
 public
 nsTraversal
 public
-nsStubMutationObserver
+nsStubMutationObserver2
 {
 public
 :
@@ -76,6 +76,7 @@ nsNodeIterator
 )
 ;
 NS_DECL_NSIMUTATIONOBSERVER_CONTENTREMOVED
+NS_DECL_NSIMUTATIONOBSERVER2_ATTRIBUTECHILDREMOVED
 NS_DECL_CYCLE_COLLECTION_CLASS_AMBIGUOUS
 (
 nsNodeIterator
