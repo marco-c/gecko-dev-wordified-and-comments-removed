@@ -1311,7 +1311,6 @@ isNullClosure
 )
 &
 &
-!
 (
 tcflags
 &
@@ -1319,8 +1318,13 @@ tcflags
 TCF_FUN_USES_ARGUMENTS
 |
 TCF_FUN_USES_OWN_NAME
+|
+TCF_COMPILE_N_GO
 )
 )
+=
+=
+TCF_COMPILE_N_GO
 ;
 }
 bool
@@ -18952,13 +18956,6 @@ pn
 }
 #
 endif
-extern
-const
-char
-js_with_statement_str
-[
-]
-;
 static
 JSParseNode
 *
