@@ -8519,15 +8519,9 @@ JSContext
 cx
 )
 {
-JS_ASSERT
+JS_ASSERT_REQUEST_DEPTH
 (
 cx
--
->
-requestDepth
->
-=
-1
 )
 ;
 JS_ASSERT
