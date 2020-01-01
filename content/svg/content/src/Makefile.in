@@ -386,6 +386,10 @@ SVGFEMergeNodeElement
 .
 cpp
 \
+SVGFEMorphologyElement
+.
+cpp
+\
 SVGFEOffsetElement
 .
 cpp
@@ -832,6 +836,10 @@ SVGFEMergeElement
 h
 \
 SVGFEMergeNodeElement
+.
+h
+\
+SVGFEMorphologyElement
 .
 h
 \
