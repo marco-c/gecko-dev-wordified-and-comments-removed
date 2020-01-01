@@ -219,9 +219,10 @@ mozilla
 namespace
 widget
 {
-NS_GENERIC_FACTORY_CONSTRUCTOR
+NS_GENERIC_FACTORY_CONSTRUCTOR_INIT
 (
 GfxInfo
+Init
 )
 }
 }
