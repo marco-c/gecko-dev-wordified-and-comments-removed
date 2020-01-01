@@ -574,7 +574,7 @@ test
 "
 )
 ;
-installs
+aInstalls
 .
 forEach
 (
