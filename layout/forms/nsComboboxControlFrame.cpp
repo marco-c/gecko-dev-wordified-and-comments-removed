@@ -4727,7 +4727,7 @@ styleSet
 >
 ResolveStyleForNonElement
 (
-styleContext
+mStyleContext
 )
 ;
 if
