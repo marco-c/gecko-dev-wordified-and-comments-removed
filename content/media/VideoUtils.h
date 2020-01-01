@@ -446,7 +446,7 @@ USECS_PER_MS
 ;
 #
 define
-SECONDS_TO_MS
+MS_TO_SECONDS
 (
 s
 )

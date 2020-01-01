@@ -660,14 +660,14 @@ OwnerDoc
 GetParentObject
 (
 )
-SECONDS_TO_MS
+MS_TO_SECONDS
 (
 aCue
 -
 >
 from
 )
-SECONDS_TO_MS
+MS_TO_SECONDS
 (
 aCue
 -
