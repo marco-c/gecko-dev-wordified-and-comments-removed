@@ -662,6 +662,13 @@ void
 data
 )
 ;
+size_t
+SizeOfIncludingThis
+(
+nsMallocSizeOfFun
+aMallocSizeOf
+)
+;
 protected
 :
 nsPrefBranch

@@ -1152,6 +1152,12 @@ PrefSetting
 aPref
 )
 ;
+static
+int64_t
+GetPreferencesMemoryUsed
+(
+)
+;
 protected
 :
 nsresult

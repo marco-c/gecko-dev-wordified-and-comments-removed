@@ -129,3 +129,10 @@ PrefSetting
 aPref
 )
 ;
+size_t
+pref_SizeOfPrivateData
+(
+nsMallocSizeOfFun
+aMallocSizeOf
+)
+;
