@@ -32,13 +32,6 @@ jsutil
 .
 h
 "
-#
-include
-"
-jsarena
-.
-h
-"
 JS_BEGIN_EXTERN_C
 typedef
 enum
@@ -2888,7 +2881,7 @@ JSContext
 *
 context
 ;
-JSArenaPool
+LifoAlloc
 *
 pool
 ;

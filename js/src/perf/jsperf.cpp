@@ -19,6 +19,13 @@ jsobj
 .
 h
 "
+#
+include
+"
+jsobjinlines
+.
+h
+"
 using
 JS
 :
