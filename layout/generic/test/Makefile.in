@@ -474,10 +474,6 @@ test_bug394239
 .
 html
 \
-test_word_movement
-.
-html
-\
 (
 NULL
 )
