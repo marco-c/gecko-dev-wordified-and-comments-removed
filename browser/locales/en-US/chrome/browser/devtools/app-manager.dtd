@@ -490,7 +490,7 @@ Debug
 ENTITY
 projects
 .
-hostedManifestPlaceHolder
+hostedManifestPlaceHolder2
 "
 http
 :
@@ -502,9 +502,9 @@ com
 /
 app
 /
-webapp
-.
 manifest
+.
+webapp
 "
 >
 <
