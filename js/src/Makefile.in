@@ -1919,11 +1919,23 @@ MOZ_SYNC_BUILD_FILES
 /
 build
 endif
+#
+Temporarily
+disable
+-
+backout
+of
+bug
+473989
+.
+#
 ifdef
 ENABLE_JIT
+#
 check
 :
 :
+#
 (
 wildcard
 (
@@ -1941,6 +1953,7 @@ j
 -
 e
 \
+#
 "
 var
 gSrcdir
@@ -1963,6 +1976,7 @@ false
 ;
 "
 \
+#
 (
 srcdir
 )
@@ -1972,6 +1986,7 @@ trace
 test
 .
 js
+#
 endif
 #
 our
