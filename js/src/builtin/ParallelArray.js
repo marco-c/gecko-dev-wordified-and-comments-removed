@@ -141,6 +141,17 @@ ARRAY
 ELEMENT
 )
 ;
+#
+ifndef
+DEBUG
+#
+define
+ParallelSpew
+(
+args
+)
+#
+endif
 function
 ComputeNumChunks
 (
