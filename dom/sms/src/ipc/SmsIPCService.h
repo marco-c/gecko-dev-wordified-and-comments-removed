@@ -46,13 +46,13 @@ MOZ_FINAL
 public
 nsISmsService
 public
-nsISmsDatabaseService
+nsIMobileMessageDatabaseService
 {
 public
 :
 NS_DECL_ISUPPORTS
 NS_DECL_NSISMSSERVICE
-NS_DECL_NSISMSDATABASESERVICE
+NS_DECL_NSIMOBILEMESSAGEDATABASESERVICE
 private
 :
 static

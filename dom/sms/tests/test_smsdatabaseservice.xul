@@ -99,7 +99,9 @@ title
 =
 "
 Test
-SmsDatabaseService
+MobileMessageDatabaseService
+by
+SMS
 "
 onload
 =
@@ -114,7 +116,9 @@ run_test
 title
 >
 Test
-SmsDatabaseService
+MobileMessageDatabaseService
+by
+SMS
 <
 /
 title
@@ -321,7 +325,7 @@ nsIIndexedDatabaseManager
 )
 ;
 let
-gSmsDatabaseService
+gMobileMessageDatabaseService
 =
 Cc
 [
@@ -330,9 +334,9 @@ mozilla
 .
 org
 /
-sms
+mobilemessage
 /
-rilsmsdatabaseservice
+rilmobilemessagedatabaseservice
 ;
 1
 "
@@ -342,7 +346,7 @@ getService
 (
 Ci
 .
-nsISmsDatabaseService
+nsIMobileMessageDatabaseService
 )
 ;
 let
@@ -1150,7 +1154,7 @@ timestamp
 *
 *
 *
-nsISmsDatabaseService
+nsIMobileMessageDatabaseService
 .
 saveReceivedMessage
 *
@@ -1172,7 +1176,7 @@ test_saveReceivedMessage
 let
 messageId
 =
-gSmsDatabaseService
+gMobileMessageDatabaseService
 .
 saveReceivedMessage
 (
@@ -1310,7 +1314,7 @@ false
 *
 *
 *
-nsISmsDatabaseService
+nsIMobileMessageDatabaseService
 .
 saveSentMessage
 *
@@ -1332,7 +1336,7 @@ test_saveSentMessage
 let
 messageId
 =
-gSmsDatabaseService
+gMobileMessageDatabaseService
 .
 saveSentMessage
 (
@@ -1470,7 +1474,7 @@ true
 *
 *
 *
-nsISmsDatabaseService
+nsIMobileMessageDatabaseService
 .
 getMessage
 *
@@ -1594,7 +1598,7 @@ run_next_test
 let
 messageId
 =
-gSmsDatabaseService
+gMobileMessageDatabaseService
 .
 saveReceivedMessage
 (
@@ -1626,7 +1630,7 @@ function
 (
 )
 {
-gSmsDatabaseService
+gMobileMessageDatabaseService
 .
 getMessage
 (
@@ -1697,7 +1701,7 @@ run_next_test
 }
 )
 ;
-gSmsDatabaseService
+gMobileMessageDatabaseService
 .
 getMessage
 (
@@ -1713,7 +1717,7 @@ fakeRequestId
 *
 *
 *
-nsISmsDatabaseService
+nsIMobileMessageDatabaseService
 .
 createMessageList
 *
@@ -1933,7 +1937,7 @@ i
 =
 1
 ;
-gSmsDatabaseService
+gMobileMessageDatabaseService
 .
 getNextMessageInList
 (
@@ -1987,7 +1991,7 @@ i
 =
 1
 ;
-gSmsDatabaseService
+gMobileMessageDatabaseService
 .
 getNextMessageInList
 (
@@ -2032,7 +2036,7 @@ MozSmsFilter
 (
 )
 ;
-gSmsDatabaseService
+gMobileMessageDatabaseService
 .
 createMessageList
 (
@@ -2107,7 +2111,7 @@ i
 =
 1
 ;
-gSmsDatabaseService
+gMobileMessageDatabaseService
 .
 getNextMessageInList
 (
@@ -2161,7 +2165,7 @@ i
 =
 1
 ;
-gSmsDatabaseService
+gMobileMessageDatabaseService
 .
 getNextMessageInList
 (
@@ -2207,7 +2211,7 @@ MozSmsFilter
 (
 )
 ;
-gSmsDatabaseService
+gMobileMessageDatabaseService
 .
 createMessageList
 (
@@ -2265,7 +2269,7 @@ message
 0
 )
 ;
-gSmsDatabaseService
+gMobileMessageDatabaseService
 .
 getNextMessageInList
 (
@@ -2382,7 +2386,7 @@ delivery
 received
 "
 ;
-gSmsDatabaseService
+gMobileMessageDatabaseService
 .
 createMessageList
 (
@@ -2452,7 +2456,7 @@ auxListId
 =
 listId
 ;
-gSmsDatabaseService
+gMobileMessageDatabaseService
 .
 getNextMessageInList
 (
@@ -2492,7 +2496,7 @@ secondMessage
 =
 true
 ;
-gSmsDatabaseService
+gMobileMessageDatabaseService
 .
 getNextMessageInList
 (
@@ -2593,7 +2597,7 @@ delivery
 received
 "
 ;
-gSmsDatabaseService
+gMobileMessageDatabaseService
 .
 createMessageList
 (
@@ -2710,7 +2714,7 @@ delivery
 sent
 "
 ;
-gSmsDatabaseService
+gMobileMessageDatabaseService
 .
 createMessageList
 (
@@ -2768,7 +2772,7 @@ message
 1
 )
 ;
-gSmsDatabaseService
+gMobileMessageDatabaseService
 .
 getNextMessageInList
 (
@@ -2815,7 +2819,7 @@ delivery
 sent
 "
 ;
-gSmsDatabaseService
+gMobileMessageDatabaseService
 .
 createMessageList
 (
@@ -2885,7 +2889,7 @@ auxListId
 =
 listId
 ;
-gSmsDatabaseService
+gMobileMessageDatabaseService
 .
 getNextMessageInList
 (
@@ -2925,7 +2929,7 @@ secondMessage
 =
 true
 ;
-gSmsDatabaseService
+gMobileMessageDatabaseService
 .
 getNextMessageInList
 (
@@ -2977,7 +2981,7 @@ delivery
 received
 "
 ;
-gSmsDatabaseService
+gMobileMessageDatabaseService
 .
 createMessageList
 (
@@ -3052,7 +3056,7 @@ i
 =
 1
 ;
-gSmsDatabaseService
+gMobileMessageDatabaseService
 .
 getNextMessageInList
 (
@@ -3097,7 +3101,7 @@ i
 =
 1
 ;
-gSmsDatabaseService
+gMobileMessageDatabaseService
 .
 getNextMessageInList
 (
@@ -3157,7 +3161,7 @@ sms
 timestamp
 )
 ;
-gSmsDatabaseService
+gMobileMessageDatabaseService
 .
 createMessageList
 (
@@ -3240,7 +3244,7 @@ timestamp
 1
 )
 ;
-gSmsDatabaseService
+gMobileMessageDatabaseService
 .
 createMessageList
 (
@@ -3315,7 +3319,7 @@ i
 =
 1
 ;
-gSmsDatabaseService
+gMobileMessageDatabaseService
 .
 getNextMessageInList
 (
@@ -3360,7 +3364,7 @@ i
 =
 1
 ;
-gSmsDatabaseService
+gMobileMessageDatabaseService
 .
 getNextMessageInList
 (
@@ -3420,7 +3424,7 @@ sms
 timestamp
 )
 ;
-gSmsDatabaseService
+gMobileMessageDatabaseService
 .
 createMessageList
 (
@@ -3503,7 +3507,7 @@ timestamp
 1
 )
 ;
-gSmsDatabaseService
+gMobileMessageDatabaseService
 .
 createMessageList
 (
@@ -3578,7 +3582,7 @@ i
 =
 1
 ;
-gSmsDatabaseService
+gMobileMessageDatabaseService
 .
 getNextMessageInList
 (
@@ -3623,7 +3627,7 @@ i
 =
 1
 ;
-gSmsDatabaseService
+gMobileMessageDatabaseService
 .
 getNextMessageInList
 (
@@ -3700,7 +3704,7 @@ MAX_SMS
 timestamp
 )
 ;
-gSmsDatabaseService
+gMobileMessageDatabaseService
 .
 createMessageList
 (
@@ -3800,7 +3804,7 @@ MAX_SMS
 1
 )
 ;
-gSmsDatabaseService
+gMobileMessageDatabaseService
 .
 createMessageList
 (
@@ -3873,7 +3877,7 @@ firstMessage
 =
 true
 ;
-gSmsDatabaseService
+gMobileMessageDatabaseService
 .
 getNextMessageInList
 (
@@ -3930,7 +3934,7 @@ sms
 sender
 ]
 ;
-gSmsDatabaseService
+gMobileMessageDatabaseService
 .
 createMessageList
 (
@@ -4006,7 +4010,7 @@ numbers
 "
 ]
 ;
-gSmsDatabaseService
+gMobileMessageDatabaseService
 .
 createMessageList
 (
@@ -4076,7 +4080,7 @@ auxListId
 =
 listId
 ;
-gSmsDatabaseService
+gMobileMessageDatabaseService
 .
 getNextMessageInList
 (
@@ -4116,7 +4120,7 @@ secondMessage
 =
 true
 ;
-gSmsDatabaseService
+gMobileMessageDatabaseService
 .
 getNextMessageInList
 (
@@ -4179,7 +4183,7 @@ sms
 receiver
 ]
 ;
-gSmsDatabaseService
+gMobileMessageDatabaseService
 .
 createMessageList
 (
@@ -4252,7 +4256,7 @@ firstMessage
 =
 true
 ;
-gSmsDatabaseService
+gMobileMessageDatabaseService
 .
 getNextMessageInList
 (
@@ -4312,7 +4316,7 @@ sms
 sender
 ]
 ;
-gSmsDatabaseService
+gMobileMessageDatabaseService
 .
 createMessageList
 (
@@ -4391,7 +4395,7 @@ numbers
 "
 ]
 ;
-gSmsDatabaseService
+gMobileMessageDatabaseService
 .
 createMessageList
 (
@@ -4461,7 +4465,7 @@ lId
 =
 listId
 ;
-gSmsDatabaseService
+gMobileMessageDatabaseService
 .
 getNextMessageInList
 (
@@ -4501,7 +4505,7 @@ secondMessage
 =
 true
 ;
-gSmsDatabaseService
+gMobileMessageDatabaseService
 .
 getNextMessageInList
 (
@@ -4559,7 +4563,7 @@ read
 =
 false
 ;
-gSmsDatabaseService
+gMobileMessageDatabaseService
 .
 createMessageList
 (
@@ -4578,7 +4582,7 @@ fakeRequestId
 *
 *
 *
-nsISmsDatabaseService
+nsIMobileMessageDatabaseService
 .
 getNextMessageInList
 *
@@ -4629,7 +4633,7 @@ run_next_test
 }
 )
 ;
-gSmsDatabaseService
+gMobileMessageDatabaseService
 .
 getNextMessageInList
 (
@@ -4645,7 +4649,7 @@ fakeRequestId
 *
 *
 *
-nsISmsDatabaseService
+nsIMobileMessageDatabaseService
 .
 deleteMessage
 *
@@ -4705,7 +4709,7 @@ run_next_test
 let
 messageId
 =
-gSmsDatabaseService
+gMobileMessageDatabaseService
 .
 saveReceivedMessage
 (
@@ -4737,7 +4741,7 @@ function
 (
 )
 {
-gSmsDatabaseService
+gMobileMessageDatabaseService
 .
 deleteMessage
 (
@@ -4804,7 +4808,7 @@ run_next_test
 }
 )
 ;
-gSmsDatabaseService
+gMobileMessageDatabaseService
 .
 deleteMessage
 (
@@ -4872,7 +4876,7 @@ run_next_test
 let
 messageId
 =
-gSmsDatabaseService
+gMobileMessageDatabaseService
 .
 saveReceivedMessage
 (
@@ -4904,7 +4908,7 @@ function
 (
 )
 {
-gSmsDatabaseService
+gMobileMessageDatabaseService
 .
 markMessageRead
 (
@@ -4974,7 +4978,7 @@ function
 (
 )
 {
-gSmsDatabaseService
+gMobileMessageDatabaseService
 .
 markMessageRead
 (

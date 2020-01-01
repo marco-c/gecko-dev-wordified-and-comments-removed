@@ -94,7 +94,7 @@ NS_IMPL_ISUPPORTS2
 (
 SmsIPCService
 nsISmsService
-nsISmsDatabaseService
+nsIMobileMessageDatabaseService
 )
 void
 SendRequest
