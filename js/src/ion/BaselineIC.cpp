@@ -4867,7 +4867,7 @@ stackFrameStart
 frame
 -
 >
-argv
+formals
 (
 )
 -
