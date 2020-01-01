@@ -504,6 +504,10 @@ nsDOMCSSDeclaration
 .
 h
 \
+nsDOMMediaQueryList
+.
+h
+\
 nsICSSDeclaration
 .
 h
@@ -715,6 +719,10 @@ nsDOMCSSRect
 cpp
 \
 nsDOMCSSValueList
+.
+cpp
+\
+nsDOMMediaQueryList
 .
 cpp
 \

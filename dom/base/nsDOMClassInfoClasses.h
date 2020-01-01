@@ -1460,3 +1460,7 @@ MozCSSKeyframesRule
 )
 #
 endif
+DOMCI_CLASS
+(
+MediaQueryList
+)

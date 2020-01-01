@@ -3018,10 +3018,7 @@ parser
 .
 ParseMediaList
 (
-nsString
-(
 aMediaText
-)
 nsnull
 0
 this
