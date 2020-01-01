@@ -81,7 +81,6 @@ DIRS
 chrome
 components
 locales
-app
 ifeq
 (
 (
@@ -102,6 +101,10 @@ tools
 /
 redit
 endif
+DIRS
++
+=
+app
 include
 (
 topsrcdir
