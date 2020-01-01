@@ -434,6 +434,10 @@ NetworkHelper
 .
 jsm
 \
+AutocompletePopup
+.
+jsm
+\
 (
 NULL
 )
