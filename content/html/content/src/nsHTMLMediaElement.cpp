@@ -2736,6 +2736,11 @@ bytes
 PR_FALSE
 )
 ;
+SetAcceptHeader
+(
+hc
+)
+;
 }
 rv
 =
