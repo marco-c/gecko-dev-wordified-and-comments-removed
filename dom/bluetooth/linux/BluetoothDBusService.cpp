@@ -6634,12 +6634,6 @@ gThreadConnection
 =
 nullptr
 ;
-mBluetoothSignalObserverTable
-.
-Clear
-(
-)
-;
 sPairingReqTable
 .
 EnumerateRead
