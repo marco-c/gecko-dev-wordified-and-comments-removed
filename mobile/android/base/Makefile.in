@@ -10682,6 +10682,9 @@ strings
 xml
 :
 (
+RES_DIRS
+)
+(
 MAKE
 )
 -
