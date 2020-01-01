@@ -4786,7 +4786,7 @@ pattern
 "
 machine_stack
 %
-lx
+p
 "
 ;
 char
@@ -4797,7 +4797,7 @@ sizeof
 pattern
 )
 -
-3
+2
 +
 sizeof
 (
@@ -4814,15 +4814,7 @@ sizeof
 (
 nameBuf
 )
-"
-machine_stack
-%
-lx
-"
-(
-unsigned
-long
-)
+pattern
 thing
 )
 ;
