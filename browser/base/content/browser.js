@@ -4195,7 +4195,7 @@ offset
 *
 utils
 .
-screenPixelsPerCSSPixel
+fullZoom
 )
 ;
 position
@@ -38868,13 +38868,13 @@ event
 )
 {
 var
-screenPixelsPerCSSPixel
+fullZoom
 =
 this
 .
 _windowUtils
 .
-screenPixelsPerCSSPixel
+fullZoom
 ;
 this
 .
@@ -38884,7 +38884,7 @@ event
 .
 screenX
 /
-screenPixelsPerCSSPixel
+fullZoom
 -
 window
 .
@@ -38898,7 +38898,7 @@ event
 .
 screenY
 /
-screenPixelsPerCSSPixel
+fullZoom
 -
 window
 .

@@ -350,7 +350,7 @@ visible
 ;
 }
 function
-getZoomRatio
+getScreenPixelsPerCSSPixel
 (
 )
 {
@@ -365,7 +365,7 @@ screenPixelsPerCSSPixel
 var
 screenPixelsPerCSSPixel
 =
-getZoomRatio
+getScreenPixelsPerCSSPixel
 (
 )
 ;
@@ -585,8 +585,6 @@ origZoom
 zoom
 (
 2
-*
-screenPixelsPerCSSPixel
 )
 ;
 ok
@@ -642,8 +640,6 @@ zoom
 0
 .
 5
-*
-screenPixelsPerCSSPixel
 )
 ;
 ok

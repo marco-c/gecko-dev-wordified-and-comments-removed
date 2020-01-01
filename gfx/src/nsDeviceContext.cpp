@@ -3171,4 +3171,13 @@ mPixelScale
 )
 )
 ;
+mPixelScale
+=
+float
+(
+mAppUnitsPerDevNotScaledPixel
+)
+/
+mAppUnitsPerDevPixel
+;
 }

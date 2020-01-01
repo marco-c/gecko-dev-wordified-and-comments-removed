@@ -3226,7 +3226,7 @@ Ci
 nsIDOMWindowUtils
 )
 .
-screenPixelsPerCSSPixel
+fullZoom
 ;
 }
 addListener

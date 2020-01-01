@@ -654,7 +654,7 @@ interfaces
 nsIDOMWindowUtils
 )
 .
-screenPixelsPerCSSPixel
+fullZoom
 ;
 let
 aRectScaled

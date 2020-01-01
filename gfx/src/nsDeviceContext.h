@@ -308,6 +308,16 @@ float
 aScale
 )
 ;
+float
+GetPixelScale
+(
+)
+const
+{
+return
+mPixelScale
+;
+}
 bool
 IsPrinterSurface
 (
