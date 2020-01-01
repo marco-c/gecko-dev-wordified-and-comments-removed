@@ -630,6 +630,17 @@ nsCString
 aMessage
 )
 ;
+NS_OVERRIDE
+virtual
+bool
+RecvNPN_ReloadPlugins
+(
+const
+bool
+&
+aReloadPages
+)
+;
 static
 PluginInstanceParent
 *

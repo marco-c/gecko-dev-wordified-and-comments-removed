@@ -825,6 +825,13 @@ nsCString
 message
 )
 ;
+async
+NPN_ReloadPlugins
+(
+bool
+aReloadPages
+)
+;
 }
 ;
 }
