@@ -627,6 +627,14 @@ password
 <
 !
 ENTITY
+pref_sync
+"
+Sync
+"
+>
+<
+!
+ENTITY
 quit
 "
 Quit

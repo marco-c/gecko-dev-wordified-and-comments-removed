@@ -1062,6 +1062,10 @@ SmsManager
 .
 java
 \
+SyncPreference
+.
+java
+\
 (
 NULL
 )
