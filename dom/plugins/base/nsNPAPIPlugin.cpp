@@ -666,8 +666,6 @@ NS_MEMORY_CID
 PRIntervalTime
 NS_NotifyBeginPluginCall
 (
-NSPluginCallReentry
-aReentryState
 )
 {
 nsNPAPIPluginInstance
@@ -675,7 +673,6 @@ nsNPAPIPluginInstance
 :
 BeginPluginCall
 (
-aReentryState
 )
 ;
 return
@@ -689,8 +686,6 @@ NS_NotifyPluginCall
 (
 PRIntervalTime
 startTime
-NSPluginCallReentry
-aReentryState
 )
 {
 nsNPAPIPluginInstance
@@ -698,7 +693,6 @@ nsNPAPIPluginInstance
 :
 EndPluginCall
 (
-aReentryState
 )
 ;
 PRIntervalTime
@@ -3273,7 +3267,6 @@ mFunc
 mUserData
 )
 nullptr
-NS_PLUGIN_CALL_UNSAFE_TO_REENTER_GECKO
 )
 ;
 }
