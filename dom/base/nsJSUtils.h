@@ -108,6 +108,15 @@ JSContext
 aContext
 )
 ;
+static
+PRUint64
+GetCurrentlyRunningCodeWindowID
+(
+JSContext
+*
+aContext
+)
+;
 }
 ;
 class

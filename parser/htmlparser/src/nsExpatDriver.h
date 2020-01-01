@@ -459,6 +459,9 @@ mCatalogData
 nsString
 mURISpec
 ;
+PRUint64
+mWindowID
+;
 }
 ;
 #
