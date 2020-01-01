@@ -2282,12 +2282,6 @@ PRBool
 aNotify
 )
 ;
-virtual
-void
-DestroyContent
-(
-)
-;
 NS_IMETHOD
 GetTabIndex
 (
