@@ -421,10 +421,8 @@ Shutdown
 )
 ;
 }
-NS_DELETEXPCOM
-(
+delete
 this
-)
 ;
 }
 PRBool

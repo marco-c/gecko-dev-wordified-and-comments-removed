@@ -151,11 +151,10 @@ nsCOMPtr
 nsIRegion
 >
 rgn
-;
-NS_NEWXPCOM
-(
-rgn
+=
+new
 nsThebesRegion
+(
 )
 ;
 nsCOMPtr

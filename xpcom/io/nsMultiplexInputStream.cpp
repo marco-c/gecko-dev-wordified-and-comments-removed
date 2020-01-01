@@ -1378,11 +1378,10 @@ NS_ERROR_NO_AGGREGATION
 nsMultiplexInputStream
 *
 inst
-;
-NS_NEWXPCOM
-(
-inst
+=
+new
 nsMultiplexInputStream
+(
 )
 ;
 if
