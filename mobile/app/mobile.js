@@ -10,7 +10,7 @@ browser
 .
 cacheRatioWidth
 "
-1100
+2000
 )
 ;
 pref
