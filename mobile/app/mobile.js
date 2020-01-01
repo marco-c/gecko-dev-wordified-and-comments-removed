@@ -4563,3 +4563,15 @@ dragThresholdY
 25
 )
 ;
+pref
+(
+"
+layers
+.
+accelerate
+-
+all
+"
+false
+)
+;
