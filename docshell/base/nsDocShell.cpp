@@ -24696,9 +24696,6 @@ nsresult
 aStatus
 )
 {
-nsresult
-rv
-;
 if
 (
 (
@@ -24794,8 +24791,6 @@ aProgress
 wcwgChannel
 )
 {
-rv
-=
 MaybeInitTiming
 (
 )
@@ -24986,8 +24981,6 @@ entry
 ;
 }
 }
-rv
-=
 AddToSessionHistory
 (
 uri
@@ -25008,8 +25001,6 @@ true
 0
 )
 ;
-rv
-=
 PersistLayoutHistoryState
 (
 )

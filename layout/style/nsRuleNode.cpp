@@ -16701,7 +16701,10 @@ nullptr
 nsStyleCoord
 tempCoord
 ;
+DebugOnly
+<
 bool
+>
 unitOK
 ;
 for
