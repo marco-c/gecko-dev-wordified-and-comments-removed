@@ -1468,6 +1468,14 @@ aHeight
 )
 ;
 }
+virtual
+CompositorChild
+*
+GetRemoteRenderer
+(
+)
+MOZ_OVERRIDE
+;
 protected
 :
 void
