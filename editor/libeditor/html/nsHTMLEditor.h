@@ -2516,16 +2516,6 @@ aNode
 )
 ;
 nsresult
-RelativeFontChangeOnNode
-(
-PRInt32
-aSizeChange
-nsIDOMNode
-*
-aNode
-)
-;
-nsresult
 RelativeFontChangeHelper
 (
 PRInt32
