@@ -609,7 +609,7 @@ deviceIndex
 }
 if
 (
-wcsncmp
+_wcsnicmp
 (
 displayDevice
 .
