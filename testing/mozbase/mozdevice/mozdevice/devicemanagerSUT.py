@@ -2502,6 +2502,9 @@ remoteDir
 retryLimit
 =
 None
+timeout
+=
+None
 )
 :
         
