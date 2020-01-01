@@ -388,7 +388,7 @@ self
 .
 _devicemanager
 .
-runCmd
+_runCmd
 (
 [
 '
@@ -886,7 +886,7 @@ self
 .
 _devicemanager
 .
-runCmd
+_runCmd
 (
 [
 '
@@ -1061,7 +1061,7 @@ self
 .
 _devicemanager
 .
-runCmd
+_runCmd
 (
 [
 '
@@ -1273,7 +1273,7 @@ self
 .
 _devicemanager
 .
-runCmd
+_runCmd
 (
 [
 '
