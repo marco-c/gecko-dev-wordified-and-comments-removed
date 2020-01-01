@@ -515,6 +515,10 @@ aState
 aDownload
 )
 {
+onUpdateProgress
+(
+)
+;
 let
 state
 =
