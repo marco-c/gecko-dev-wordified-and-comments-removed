@@ -2230,9 +2230,9 @@ lookahead
 JS_ASSERT
 (
 lookahead
+<
 =
-=
-1
+2
 )
 ;
 return
@@ -2320,9 +2320,9 @@ lookahead
 JS_ASSERT
 (
 lookahead
+<
 =
-=
-1
+2
 )
 ;
 return
