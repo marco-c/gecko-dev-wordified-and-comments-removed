@@ -1010,12 +1010,11 @@ b
 length
 )
 ;
+updateFavicon
+(
 viewHolder
 .
 faviconView
-.
-setImageBitmap
-(
 bitmap
 )
 ;

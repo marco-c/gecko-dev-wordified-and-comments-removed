@@ -868,9 +868,9 @@ android
 layout_width
 =
 "
-29
-.
-33dip
+dimen
+/
+browser_toolbar_favicon_size
 "
 android
 :
