@@ -1976,6 +1976,10 @@ ref
 .
 html
 \
+test_bug588174
+.
+html
+\
 (
 NULL
 )
