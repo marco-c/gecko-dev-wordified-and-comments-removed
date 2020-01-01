@@ -8088,7 +8088,7 @@ PC
 Registers
 :
 :
-ArgReg0
+ArgReg1
 )
 ;
 stubCall
