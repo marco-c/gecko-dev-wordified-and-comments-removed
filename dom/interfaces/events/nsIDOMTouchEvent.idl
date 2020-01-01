@@ -282,6 +282,7 @@ mMessage
 ;
 [
 scriptable
+builtinclass
 uuid
 (
 60706eb7
