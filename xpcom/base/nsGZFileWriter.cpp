@@ -132,7 +132,7 @@ aFile
 OpenANSIFileDesc
 (
 "
-w
+wb
 "
 &
 file
@@ -156,7 +156,7 @@ file
 )
 )
 "
-w
+wb
 "
 )
 ;

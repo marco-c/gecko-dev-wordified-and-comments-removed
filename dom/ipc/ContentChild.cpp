@@ -2328,7 +2328,7 @@ bool
 ContentChild
 :
 :
-RecvDumpMemoryReportsToFile
+RecvDumpMemoryInfoToTempDir
 (
 const
 nsString
@@ -2370,7 +2370,7 @@ dumper
 dumper
 -
 >
-DumpMemoryReportsToFile
+DumpMemoryInfoToTempDir
 (
 aIdentifier
 aMinimizeMemoryUsage

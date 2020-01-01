@@ -445,7 +445,7 @@ RecvAudioChannelNotify
 ;
 virtual
 bool
-RecvDumpMemoryReportsToFile
+RecvDumpMemoryInfoToTempDir
 (
 const
 nsString
