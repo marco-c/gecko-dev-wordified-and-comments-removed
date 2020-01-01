@@ -922,7 +922,7 @@ method
 ;
 ok
 (
-false
+true
 "
 Able
 to
@@ -934,8 +934,15 @@ method
 "
 on
 a
-detached
 NodeIterator
+after
+calling
+no
+-
+op
+detach
+(
+)
 "
 )
 ;
@@ -947,7 +954,7 @@ x
 {
 ok
 (
-true
+false
 x
 )
 }

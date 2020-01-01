@@ -78,3 +78,7 @@ DEPRECATED_OPERATION
 (
 PrefixedVisibilityAPI
 )
+DEPRECATED_OPERATION
+(
+NodeIteratorDetach
+)

@@ -427,9 +427,6 @@ ErrorResult
 aResult
 )
 ;
-bool
-mDetached
-;
 NodePointer
 mPointer
 ;
