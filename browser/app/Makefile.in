@@ -909,8 +909,10 @@ NSINSTALL
 -
 D
 (
-FINAL_TARGET
+DIST
 )
+/
+bin
 /
 defaults
 /
@@ -936,8 +938,10 @@ ACDEFINES
 ^
 >
 (
-FINAL_TARGET
+DIST
 )
+/
+bin
 /
 defaults
 /
