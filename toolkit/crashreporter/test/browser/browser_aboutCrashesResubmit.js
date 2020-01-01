@@ -839,6 +839,15 @@ ProductName
 Test
 App
 '
+'
+Foo
+'
+:
+'
+ABC
+=
+XYZ
+'
 }
 )
 )
