@@ -678,7 +678,7 @@ nsCOMPtr
 <
 nsIMarkupDocumentViewer
 >
-muCV
+mucv
 ;
 nsCOMPtr
 <
@@ -702,7 +702,7 @@ if
 cv
 )
 {
-muCV
+mucv
 =
 do_QueryInterface
 (
@@ -797,7 +797,7 @@ rv
 parentContentViewer
 )
 {
-muCV
+mucv
 =
 do_QueryInterface
 (
@@ -809,10 +809,10 @@ parentContentViewer
 }
 if
 (
-muCV
+mucv
 )
 {
-muCV
+mucv
 -
 >
 SetPrevDocCharacterSet
@@ -2512,7 +2512,7 @@ void
 nsHtml5TreeOpExecutor
 :
 :
-DocumentMode
+SetDocumentMode
 (
 nsHtml5DocumentMode
 m
