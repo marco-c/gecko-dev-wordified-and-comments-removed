@@ -393,6 +393,11 @@ nsIDOMHTMLTableElement
 idl
 '
 '
+nsIDOMHTMLTableRowElement
+.
+idl
+'
+'
 nsIDOMHTMLTextAreaElement
 .
 idl
