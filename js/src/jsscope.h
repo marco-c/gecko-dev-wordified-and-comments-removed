@@ -160,7 +160,6 @@ js_GenerateShape
 cx
 )
 JS_FALSE
-NULL
 )
 )
 #
@@ -234,11 +233,8 @@ shape
 =
 js_GenerateShape
 (
-(
 cx
-)
 JS_FALSE
-sprop
 )
 ;
 \
