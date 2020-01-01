@@ -72,16 +72,6 @@ webidl
 (
 NULL
 )
-preprocessed_webidl_files
-=
-\
-Navigator
-.
-webidl
-\
-(
-NULL
-)
 webidl_files
 =
 \
