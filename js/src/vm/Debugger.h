@@ -1988,8 +1988,7 @@ wrapDebuggeeValue
 JSContext
 *
 cx
-Value
-*
+MutableHandleValue
 vp
 )
 ;
@@ -1999,8 +1998,7 @@ unwrapDebuggeeValue
 JSContext
 *
 cx
-Value
-*
+MutableHandleValue
 vp
 )
 ;
