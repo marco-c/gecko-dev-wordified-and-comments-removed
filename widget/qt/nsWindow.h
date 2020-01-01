@@ -1311,6 +1311,11 @@ InputContextAction
 aAction
 )
 ;
+void
+ClearCachedResources
+(
+)
+;
 MozQWidget
 *
 mWidget

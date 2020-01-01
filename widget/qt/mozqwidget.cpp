@@ -234,6 +234,10 @@ QWidget
 aWidget
 )
 {
+if
+(
+mReceiver
+)
 mReceiver
 -
 >
@@ -2009,6 +2013,11 @@ QHideEvent
 aEvent
 )
 {
+if
+(
+mReceiver
+)
+{
 mReceiver
 -
 >
@@ -2017,6 +2026,7 @@ hideEvent
 aEvent
 )
 ;
+}
 QGraphicsWidget
 :
 :
