@@ -217,6 +217,25 @@ timeout
   
 prefsFile
 .
+write
+(
+'
+user_pref
+(
+"
+ui
+.
+caretBlinkTime
+"
+-
+1
+)
+;
+'
+)
+  
+prefsFile
+.
 close
 (
 )
