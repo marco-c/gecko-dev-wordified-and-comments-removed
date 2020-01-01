@@ -222,6 +222,17 @@ include
 "
 vm
 /
+RegExpObject
+-
+inl
+.
+h
+"
+#
+include
+"
+vm
+/
 String
 -
 inl

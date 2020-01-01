@@ -28,6 +28,13 @@ h
 #
 include
 "
+jscntxt
+.
+h
+"
+#
+include
+"
 jsversion
 .
 h
