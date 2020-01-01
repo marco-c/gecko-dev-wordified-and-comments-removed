@@ -2866,8 +2866,6 @@ isLivemark
 observer
 .
 _itemAddedId
--
-1
 )
 )
 ;
@@ -2880,8 +2878,6 @@ getSiteURI
 observer
 .
 _itemAddedId
--
-1
 )
 .
 spec
@@ -2906,8 +2902,6 @@ getFeedURI
 observer
 .
 _itemAddedId
--
-1
 )
 .
 spec
@@ -2929,8 +2923,6 @@ lvmkId
 observer
 .
 _itemAddedId
--
-1
 ;
 var
 txn13
