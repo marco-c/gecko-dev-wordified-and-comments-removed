@@ -1051,9 +1051,6 @@ bool
 aCanMakeNewChannel
 imgIRequest
 *
-aExistingRequest
-imgIRequest
-*
 *
 aProxyRequest
 nsIChannelPolicy
@@ -1094,9 +1091,6 @@ nsLoadFlags
 aLoadFlags
 imgIRequest
 *
-aExistingRequest
-imgIRequest
-*
 *
 aProxyRequest
 nsIChannelPolicy
@@ -1123,9 +1117,6 @@ imgINotificationObserver
 aObserver
 nsLoadFlags
 aLoadFlags
-imgIRequest
-*
-aRequestProxy
 imgIRequest
 *
 *

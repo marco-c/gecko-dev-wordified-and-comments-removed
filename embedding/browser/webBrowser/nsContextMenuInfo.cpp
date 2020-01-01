@@ -1426,7 +1426,6 @@ nsIRequest
 :
 LOAD_NORMAL
 nullptr
-nullptr
 channelPolicy
 aRequest
 )
