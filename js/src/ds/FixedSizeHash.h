@@ -7,6 +7,8 @@ jsfixedsizehash_h_
 #
 include
 "
+ds
+/
 LifoAlloc
 .
 h

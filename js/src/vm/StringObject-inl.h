@@ -7,6 +7,8 @@ vm_StringObject_inl_h
 #
 include
 "
+vm
+/
 StringObject
 .
 h

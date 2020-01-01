@@ -7,6 +7,8 @@ js_GCAPI_h
 #
 include
 "
+js
+/
 HeapAPI
 .
 h

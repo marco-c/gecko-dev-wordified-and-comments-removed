@@ -231,6 +231,8 @@ h
 #
 include
 "
+perf
+/
 jsperf
 .
 h
@@ -281,6 +283,8 @@ h
 #
 include
 "
+shell
+/
 jsoptparse
 .
 h
@@ -288,6 +292,8 @@ h
 #
 include
 "
+shell
+/
 jsheaptools
 .
 h

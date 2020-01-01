@@ -1,6 +1,8 @@
 #
 include
 "
+shell
+/
 jsoptparse
 .
 h

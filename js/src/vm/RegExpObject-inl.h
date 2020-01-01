@@ -16,6 +16,8 @@ h
 #
 include
 "
+vm
+/
 RegExpObject
 .
 h
@@ -30,6 +32,8 @@ h
 #
 include
 "
+vm
+/
 String
 -
 inl

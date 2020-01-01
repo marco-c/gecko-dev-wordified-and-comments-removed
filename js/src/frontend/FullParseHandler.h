@@ -16,6 +16,8 @@ h
 #
 include
 "
+frontend
+/
 ParseNode
 .
 h
@@ -23,6 +25,8 @@ h
 #
 include
 "
+frontend
+/
 SharedContext
 .
 h

@@ -24,6 +24,8 @@ h
 #
 include
 "
+vm
+/
 GlobalObject
 .
 h
@@ -31,6 +33,8 @@ h
 #
 include
 "
+vm
+/
 ScopeObject
 .
 h
@@ -38,6 +42,8 @@ h
 #
 include
 "
+vm
+/
 Shape
 .
 h
@@ -45,6 +51,8 @@ h
 #
 include
 "
+vm
+/
 Xdr
 .
 h

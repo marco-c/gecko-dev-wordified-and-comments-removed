@@ -77,6 +77,8 @@ h
 #
 include
 "
+vm
+/
 ArgumentsObject
 -
 inl
@@ -86,6 +88,8 @@ h
 #
 include
 "
+vm
+/
 ScopeObject
 -
 inl

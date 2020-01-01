@@ -8,6 +8,8 @@ h
 #
 include
 "
+frontend
+/
 FullParseHandler
 .
 h
@@ -15,6 +17,8 @@ h
 #
 include
 "
+frontend
+/
 SyntaxParseHandler
 .
 h
@@ -22,6 +26,8 @@ h
 #
 include
 "
+frontend
+/
 ParseMaps
 -
 inl

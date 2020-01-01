@@ -45,11 +45,11 @@ ifdef
 USE_ZLIB
 #
 include
-"
+<
 zlib
 .
 h
-"
+>
 #
 endif
 struct

@@ -918,6 +918,8 @@ number
 include
 "
 ctypes
+/
+ctypes
 .
 msg
 "
@@ -986,6 +988,8 @@ name
 #
 include
 "
+ctypes
+/
 typedefs
 .
 h

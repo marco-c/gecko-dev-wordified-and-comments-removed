@@ -143,11 +143,11 @@ ifdef
 JS_THREADSAFE
 #
 include
-<
+"
 prinit
 .
 h
->
+"
 #
 endif
 #

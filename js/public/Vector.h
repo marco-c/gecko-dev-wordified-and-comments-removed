@@ -34,6 +34,8 @@ h
 #
 include
 "
+js
+/
 TemplateLib
 .
 h
@@ -41,6 +43,8 @@ h
 #
 include
 "
+js
+/
 Utility
 .
 h

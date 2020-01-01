@@ -1,6 +1,8 @@
 #
 include
 "
+ds
+/
 LifoAlloc
 .
 h
