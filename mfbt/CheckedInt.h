@@ -2231,7 +2231,7 @@ CheckedInt
 ;
 }
 friend
-class
+struct
 detail
 :
 :

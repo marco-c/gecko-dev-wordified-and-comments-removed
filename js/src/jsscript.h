@@ -828,15 +828,13 @@ SystemAllocPolicy
 >
 DebugScriptMap
 ;
-struct
+class
 ScriptSource
 {
 friend
 class
 SourceCompressorThread
 ;
-private
-:
 union
 {
 jschar
@@ -5113,7 +5111,7 @@ struct
 SourceCompressionToken
 {
 friend
-struct
+class
 ScriptSource
 ;
 friend

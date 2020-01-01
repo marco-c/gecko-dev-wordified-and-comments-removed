@@ -182,7 +182,7 @@ SystemAllocPolicy
 >
 OffThreadCompilationVector
 ;
-struct
+class
 ICStubSpace
 {
 protected

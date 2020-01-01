@@ -13,7 +13,7 @@ js
 namespace
 frontend
 {
-struct
+class
 ParseNode
 ;
 bool

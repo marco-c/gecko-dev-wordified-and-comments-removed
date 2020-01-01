@@ -188,6 +188,9 @@ heap
 =
 MapAlignedPages
 (
+runtime
+(
+)
 NurserySize
 Alignment
 )
@@ -243,6 +246,9 @@ setCurrentChunk
 0
 )
 ;
+#
+ifdef
+DEBUG
 JS_POISON
 (
 heap
@@ -250,6 +256,8 @@ FreshNursery
 NurserySize
 )
 ;
+#
+endif
 for
 (
 int
@@ -498,6 +506,9 @@ position
 +
 size
 ;
+#
+ifdef
+DEBUG
 JS_POISON
 (
 thing
@@ -505,6 +516,8 @@ AllocatedThing
 size
 )
 ;
+#
+endif
 return
 thing
 ;
