@@ -495,6 +495,14 @@ jsbytecode
 pc
 )
 ;
+bool
+hasSeenDoubleResult
+(
+jsbytecode
+*
+pc
+)
+;
 }
 ;
 }
