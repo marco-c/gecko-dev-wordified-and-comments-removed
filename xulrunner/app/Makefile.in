@@ -1297,7 +1297,7 @@ libs
 ICON_FILES
 )
 (
-INSTALL
+SYSINSTALL
 )
 ^
 (
@@ -2041,7 +2041,7 @@ libs
 :
 :
 (
-INSTALL
+SYSINSTALL
 )
 (
 README_FILE
@@ -2052,7 +2052,7 @@ DIST
 /
 bin
 (
-INSTALL
+SYSINSTALL
 )
 (
 topsrcdir
