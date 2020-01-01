@@ -1453,7 +1453,7 @@ New
 cx
 obj
 wrappedProto
-NULL
+parent
 &
 JSCrossCompartmentWrapper
 :
