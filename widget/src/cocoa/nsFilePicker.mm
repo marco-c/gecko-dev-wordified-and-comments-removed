@@ -1461,6 +1461,9 @@ mSelectedTypeIndex
 0
 &
 &
+(
+PRUint32
+)
 mSelectedTypeIndex
 <
 numMenuItems
