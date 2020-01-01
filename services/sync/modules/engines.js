@@ -1395,7 +1395,7 @@ name
 {
 if
 (
-Utils
+Array
 .
 isArray
 (
@@ -1581,7 +1581,7 @@ engineObject
 {
 if
 (
-Utils
+Array
 .
 isArray
 (
