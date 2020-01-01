@@ -455,7 +455,7 @@ mContent
 )
 -
 >
-GetScale
+GetPathLengthScale
 (
 )
 ;

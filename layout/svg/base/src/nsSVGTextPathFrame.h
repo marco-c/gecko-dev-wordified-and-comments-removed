@@ -147,12 +147,12 @@ GetPathFrame
 )
 ;
 gfxFloat
-GetStartOffset
+GetOffsetScale
 (
 )
 ;
 gfxFloat
-GetPathScale
+GetStartOffset
 (
 )
 ;
