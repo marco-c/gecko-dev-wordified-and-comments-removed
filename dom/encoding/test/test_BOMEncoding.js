@@ -703,7 +703,7 @@ data
 error
 :
 "
-EncodingError
+TypeError
 "
 msg
 :

@@ -840,7 +840,7 @@ aData
 error
 :
 "
-EncodingError
+TypeError
 "
 msg
 :
@@ -869,7 +869,7 @@ aData
 error
 :
 "
-EncodingError
+TypeError
 "
 msg
 :
@@ -896,7 +896,7 @@ aData
 error
 :
 "
-EncodingError
+TypeError
 "
 msg
 :
@@ -928,7 +928,7 @@ aData
 error
 :
 "
-EncodingError
+TypeError
 "
 msg
 :
@@ -974,7 +974,7 @@ encoding
 error
 :
 "
-EncodingError
+TypeError
 "
 msg
 :

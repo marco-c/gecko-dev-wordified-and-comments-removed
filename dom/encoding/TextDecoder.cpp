@@ -141,9 +141,11 @@ mEncoding
 {
 aRv
 .
-Throw
+ThrowTypeError
 (
-NS_ERROR_DOM_ENCODING_NOT_SUPPORTED_ERR
+MSG_ENCODING_NOT_SUPPORTED
+&
+label
 )
 ;
 return
