@@ -10,6 +10,8 @@ mozilla
 bool
 InitEventTracing
 (
+bool
+aLog
 )
 ;
 void
