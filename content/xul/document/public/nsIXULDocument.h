@@ -66,7 +66,8 @@ NS_DECLARE_STATIC_IID_ACCESSOR
 (
 NS_IXULDOCUMENT_IID
 )
-NS_IMETHOD
+virtual
+void
 GetElementsForID
 (
 const
