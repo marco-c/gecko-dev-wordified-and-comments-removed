@@ -2558,6 +2558,13 @@ crashreporter
 ini
 bin
 /
+crashreporter
+-
+override
+.
+ini
+bin
+/
 Throbber
 -
 small
