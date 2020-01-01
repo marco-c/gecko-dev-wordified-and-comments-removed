@@ -1128,6 +1128,13 @@ bool
 aReinitialize
 )
 ;
+PRBool
+AssociateDefaultIMC
+(
+PRBool
+aAssociate
+)
+;
 #
 if
 MOZ_WINSDK_TARGETVER
@@ -2418,9 +2425,6 @@ mOldStyle
 ;
 DWORD_PTR
 mOldExStyle
-;
-HIMC
-mOldIMC
 ;
 IMEContext
 mIMEContext
