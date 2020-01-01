@@ -70,6 +70,11 @@ hb_shape_func_t
 *
 shaper_func
 ;
+const
+char
+*
+shaper_name
+;
 struct
 hb_shaper_data_t
 shaper_data

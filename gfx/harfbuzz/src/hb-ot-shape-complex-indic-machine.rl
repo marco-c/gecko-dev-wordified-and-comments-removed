@@ -553,6 +553,8 @@ syllable_tail
 ;
 broken_cluster
 =
+reph
+?
 n
 ?
 (
@@ -758,6 +760,7 @@ p
 pe
 eof
 ts
+HB_UNUSED
 te
 act
 ;

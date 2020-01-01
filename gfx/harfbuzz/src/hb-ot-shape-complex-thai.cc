@@ -765,6 +765,7 @@ const
 hb_ot_shape_plan_t
 *
 plan
+HB_UNUSED
 hb_buffer_t
 *
 buffer

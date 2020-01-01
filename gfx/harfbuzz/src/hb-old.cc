@@ -360,6 +360,7 @@ HB_Fixed
 advances
 int
 flags
+HB_UNUSED
 )
 {
 hb_font_t
@@ -858,13 +859,16 @@ _hb_old_shaper_shape_plan_data_create
 hb_shape_plan_t
 *
 shape_plan
+HB_UNUSED
 const
 hb_feature_t
 *
 user_features
+HB_UNUSED
 unsigned
 int
 num_user_features
+HB_UNUSED
 )
 {
 return
@@ -881,6 +885,7 @@ _hb_old_shaper_shape_plan_data_destroy
 hb_old_shaper_shape_plan_data_t
 *
 data
+HB_UNUSED
 )
 {
 }
@@ -890,6 +895,7 @@ _hb_old_shape
 hb_shape_plan_t
 *
 shape_plan
+HB_UNUSED
 hb_font_t
 *
 font
@@ -1564,6 +1570,9 @@ i
 ]
 =
 =
+(
+uint32_t
+)
 -
 1
 )

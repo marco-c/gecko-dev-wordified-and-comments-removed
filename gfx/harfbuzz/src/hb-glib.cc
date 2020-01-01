@@ -853,6 +853,7 @@ hb_glib_unicode_decompose_compatibility
 hb_unicode_funcs_t
 *
 ufuncs
+HB_UNUSED
 hb_codepoint_t
 u
 hb_codepoint_t

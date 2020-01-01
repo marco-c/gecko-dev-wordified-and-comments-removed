@@ -164,6 +164,7 @@ base
 {
 TRACE_SANITIZE
 (
+this
 )
 ;
 return
@@ -389,6 +390,7 @@ c
 {
 TRACE_SANITIZE
 (
+this
 )
 ;
 char
@@ -463,6 +465,7 @@ c
 {
 TRACE_SANITIZE
 (
+this
 )
 ;
 return

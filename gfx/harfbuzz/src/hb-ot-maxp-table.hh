@@ -72,6 +72,7 @@ c
 {
 TRACE_SANITIZE
 (
+this
 )
 ;
 return
