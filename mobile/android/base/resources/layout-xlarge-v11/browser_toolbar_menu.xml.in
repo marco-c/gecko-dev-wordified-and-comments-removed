@@ -379,6 +379,8 @@ center_horizontal
 /
 >
 <
+Gecko
+.
 ImageButton
 android
 :
@@ -427,7 +429,7 @@ src
 "
 drawable
 /
-menu
+menu_level
 "
 android
 :
