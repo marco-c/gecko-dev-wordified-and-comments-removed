@@ -891,6 +891,13 @@ if
 mStreamAsFilePending
 )
 {
+if
+(
+mStreamStatus
+=
+=
+kStreamOpen
+)
 mInstance
 -
 >
