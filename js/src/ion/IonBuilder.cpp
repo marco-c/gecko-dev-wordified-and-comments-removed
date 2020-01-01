@@ -10686,7 +10686,7 @@ caseSn
 )
 =
 =
-SRC_PCDELTA
+SRC_NEXTCASE
 )
 ;
 ptrdiff_t
@@ -14199,7 +14199,16 @@ thisCall
 constructing
 (
 )
-SequentialExecution
+this
+-
+>
+info
+(
+)
+.
+executionMode
+(
+)
 )
 ;
 if
@@ -22223,6 +22232,7 @@ New
 scopeChain
 string
 thisValue
+pc
 )
 ;
 current
