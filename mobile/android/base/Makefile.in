@@ -8842,7 +8842,7 @@ WebAppAllocator
 java
 NUM_WEB_APPS
 =
-10
+100
 WebAppManifestFragment
 .
 xml
