@@ -1234,6 +1234,7 @@ length
 =
 1
 )
+{
 Groups
 .
 newTab
@@ -1248,6 +1249,14 @@ tabItem
 )
 )
 ;
+Toolbar
+.
+unread
++
+=
+1
+;
+}
 }
 window
 .
