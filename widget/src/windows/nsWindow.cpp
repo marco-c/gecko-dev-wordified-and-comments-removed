@@ -14223,7 +14223,7 @@ if
 !
 defined
 (
-WINCE
+WINCE_WINDOWS_MOBILE
 )
 static
 PRBool
@@ -16617,7 +16617,7 @@ if
 !
 defined
 (
-WINCE
+WINCE_WINDOWS_MOBILE
 )
 getWheelInfo
 =
@@ -16967,7 +16967,7 @@ if
 !
 defined
 (
-WINCE
+WINCE_WINDOWS_MOBILE
 )
 case
 WM_MOUSEWHEEL
@@ -18876,7 +18876,7 @@ if
 !
 defined
 (
-WINCE
+WINCE_WINDOWS_MOBILE
 )
 PRBool
 nsWindow

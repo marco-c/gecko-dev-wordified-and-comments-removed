@@ -1487,7 +1487,7 @@ if
 !
 defined
 (
-WINCE
+WINCE_WINDOWS_MOBILE
 )
 PRBool
 OnMouseWheel
@@ -1509,6 +1509,15 @@ LRESULT
 aRetValue
 )
 ;
+#
+endif
+#
+if
+!
+defined
+(
+WINCE
+)
 void
 OnWindowPosChanging
 (
