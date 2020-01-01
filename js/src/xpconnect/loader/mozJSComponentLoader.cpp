@@ -337,13 +337,6 @@ defined
 (
 XP_OS2
 )
-&
-&
-!
-defined
-(
-WINCE
-)
 #
 define
 HAVE_PR_MEMMAP
