@@ -106,13 +106,6 @@ h
 #
 include
 "
-nsIDeviceContext
-.
-h
-"
-#
-include
-"
 nsPresContext
 .
 h

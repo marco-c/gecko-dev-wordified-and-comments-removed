@@ -258,13 +258,6 @@ h
 #
 include
 "
-nsIDeviceContext
-.
-h
-"
-#
-include
-"
 nsIdleService
 .
 h

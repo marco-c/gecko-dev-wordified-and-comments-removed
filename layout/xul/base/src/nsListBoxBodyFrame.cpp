@@ -134,13 +134,6 @@ h
 #
 include
 "
-nsIDeviceContext
-.
-h
-"
-#
-include
-"
 nsFontMetrics
 .
 h

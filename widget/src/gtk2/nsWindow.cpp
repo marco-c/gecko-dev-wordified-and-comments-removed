@@ -30,13 +30,6 @@ h
 #
 include
 "
-nsIDeviceContext
-.
-h
-"
-#
-include
-"
 nsIRollupListener
 .
 h

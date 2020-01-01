@@ -232,13 +232,6 @@ h
 #
 include
 "
-nsIDeviceContext
-.
-h
-"
-#
-include
-"
 nsIRegion
 .
 h

@@ -192,13 +192,6 @@ h
 #
 include
 "
-nsIDeviceContext
-.
-h
-"
-#
-include
-"
 nsEventStateManager
 .
 h
@@ -34193,13 +34186,6 @@ h
 include
 "
 nsWidgetsCID
-.
-h
-"
-#
-include
-"
-nsIDeviceContext
 .
 h
 "

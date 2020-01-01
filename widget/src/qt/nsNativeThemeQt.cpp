@@ -72,13 +72,6 @@ h
 #
 include
 "
-nsIDeviceContext
-.
-h
-"
-#
-include
-"
 nsPresContext
 .
 h
@@ -1743,7 +1736,6 @@ GetWidgetBorder
 (
 nsIDeviceContext
 *
-aContext
 nsIFrame
 *
 aFrame

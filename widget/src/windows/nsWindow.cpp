@@ -215,13 +215,6 @@ h
 #
 include
 "
-nsIDeviceContext
-.
-h
-"
-#
-include
-"
 nsILookAndFeel
 .
 h

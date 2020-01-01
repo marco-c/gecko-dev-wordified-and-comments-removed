@@ -22,13 +22,6 @@ h
 #
 include
 "
-nsIDeviceContext
-.
-h
-"
-#
-include
-"
 nsGkAtoms
 .
 h

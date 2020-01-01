@@ -85,13 +85,6 @@ h
 #
 include
 "
-nsIDeviceContext
-.
-h
-"
-#
-include
-"
 nsStyleConsts
 .
 h

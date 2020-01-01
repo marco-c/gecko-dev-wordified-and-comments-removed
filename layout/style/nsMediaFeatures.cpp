@@ -36,13 +36,6 @@ h
 #
 include
 "
-nsIDeviceContext
-.
-h
-"
-#
-include
-"
 nsCSSValue
 .
 h

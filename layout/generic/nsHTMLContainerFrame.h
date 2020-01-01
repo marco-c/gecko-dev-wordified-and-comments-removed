@@ -18,13 +18,6 @@ gfxPoint
 .
 h
 "
-#
-include
-"
-nsIDeviceContext
-.
-h
-"
 class
 nsString
 ;
@@ -58,12 +51,7 @@ CRAZY_W
 (
 1000000
 *
-nsIDeviceContext
-:
-:
-AppUnitsPerCSSPixel
-(
-)
+60
 )
 #
 define

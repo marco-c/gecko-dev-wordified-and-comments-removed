@@ -309,13 +309,6 @@ h
 #
 include
 "
-nsIDeviceContext
-.
-h
-"
-#
-include
-"
 nsITimer
 .
 h

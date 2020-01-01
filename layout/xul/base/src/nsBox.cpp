@@ -99,13 +99,6 @@ h
 #
 include
 "
-nsIDeviceContext
-.
-h
-"
-#
-include
-"
 nsITheme
 .
 h

@@ -15,13 +15,6 @@ h
 #
 include
 "
-nsIDeviceContext
-.
-h
-"
-#
-include
-"
 nsIPrefBranch
 .
 h
