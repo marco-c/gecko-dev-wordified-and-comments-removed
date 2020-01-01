@@ -934,6 +934,14 @@ bindWidgetTexture
 (
 )
 ;
+public
+static
+native
+void
+scheduleComposite
+(
+)
+;
 private
 static
 class
