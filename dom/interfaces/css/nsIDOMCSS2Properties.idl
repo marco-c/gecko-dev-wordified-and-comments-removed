@@ -543,6 +543,7 @@ Style
 *
 /
 [
+builtinclass
 scriptable
 uuid
 (
