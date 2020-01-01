@@ -109,6 +109,17 @@ inl
 .
 h
 "
+#
+include
+"
+vm
+/
+String
+-
+inl
+.
+h
+"
 namespace
 js
 {

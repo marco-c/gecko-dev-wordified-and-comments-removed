@@ -82,6 +82,13 @@ h
 #
 include
 "
+jsgcinlines
+.
+h
+"
+#
+include
+"
 jsinferinlines
 .
 h

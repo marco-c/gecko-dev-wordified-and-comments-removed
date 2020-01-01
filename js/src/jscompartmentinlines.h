@@ -11,6 +11,17 @@ jscompartment
 .
 h
 "
+#
+include
+"
+gc
+/
+Barrier
+-
+inl
+.
+h
+"
 inline
 void
 JSCompartment

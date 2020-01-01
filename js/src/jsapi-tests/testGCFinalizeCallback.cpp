@@ -30,17 +30,6 @@ tests
 .
 h
 "
-#
-include
-"
-vm
-/
-ObjectImpl
--
-inl
-.
-h
-"
 const
 unsigned
 BufferSize
