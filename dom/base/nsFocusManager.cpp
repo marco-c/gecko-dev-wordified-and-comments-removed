@@ -5973,6 +5973,11 @@ NS_EVENT_STATE_FOCUS
 )
 ;
 }
+if
+(
+mActiveWindow
+)
+{
 nsIFrame
 *
 contentFrame
@@ -6044,6 +6049,7 @@ SetFocus
 PR_TRUE
 )
 ;
+}
 }
 }
 }
