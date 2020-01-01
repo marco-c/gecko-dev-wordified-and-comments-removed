@@ -330,6 +330,11 @@ mLibrary
 (
 0
 )
+mPluginFilename
+(
+"
+"
+)
 mQuirks
 (
 QUIRKS_NOT_INITIALIZED
@@ -659,14 +664,12 @@ InitGraphics
 return
 false
 ;
-CopyUTF8toUTF16
-(
+mPluginFilename
+=
 aPluginFilename
 .
 c_str
 (
-)
-mPluginFilename
 )
 ;
 nsCOMPtr
@@ -675,7 +678,7 @@ nsILocalFile
 >
 pluginFile
 ;
-NS_NewLocalFile
+NS_NewNativeLocalFile
 (
 mPluginFilename
 PR_TRUE
@@ -7646,7 +7649,7 @@ mQuirks
 QUIRK_FLASH_FIXUP_MOUSE_CAPTURE
 ;
 }
-NS_NAMED_LITERAL_STRING
+NS_NAMED_LITERAL_CSTRING
 (
 quicktime
 "

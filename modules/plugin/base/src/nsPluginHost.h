@@ -213,8 +213,8 @@ public
 nsInvalidPluginTag
 (
 const
-nsAString
-&
+char
+*
 aFullPath
 PRInt64
 aLastModifiedTime
@@ -229,7 +229,7 @@ nsInvalidPluginTag
 )
 ;
 NS_DECL_ISUPPORTS
-nsString
+nsCString
 mFullPath
 ;
 PRInt64
@@ -840,8 +840,8 @@ void
 RemoveCachedPluginsInfo
 (
 const
-nsAString
-&
+char
+*
 filePath
 nsPluginTag
 *

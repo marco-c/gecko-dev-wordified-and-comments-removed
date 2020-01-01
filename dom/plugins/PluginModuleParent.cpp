@@ -261,8 +261,8 @@ PluginModuleParent
 LoadModule
 (
 const
-nsAString
-&
+char
+*
 aFilePath
 )
 {
@@ -371,8 +371,8 @@ PluginModuleParent
 PluginModuleParent
 (
 const
-nsAString
-&
+char
+*
 aFilePath
 )
 :
@@ -381,14 +381,7 @@ mSubprocess
 new
 PluginProcessParent
 (
-NS_ConvertUTF16toUTF8
-(
 aFilePath
-)
-.
-get
-(
-)
 )
 )
 mPluginThread
