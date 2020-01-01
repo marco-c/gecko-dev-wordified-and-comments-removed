@@ -4591,9 +4591,6 @@ checksum
 "
 )
 ;
-return
-PR_FALSE
-;
 }
 if
 (
