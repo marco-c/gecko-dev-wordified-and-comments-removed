@@ -663,12 +663,12 @@ record
 )
 ;
 }
-pushDepthRecord
+pushLiteral
 :
 function
-Coll_pushDepthRecord
+Coll_pushLiteral
 (
-record
+object
 )
 {
 this
@@ -683,7 +683,7 @@ _json
 .
 encode
 (
-record
+object
 )
 )
 ;
