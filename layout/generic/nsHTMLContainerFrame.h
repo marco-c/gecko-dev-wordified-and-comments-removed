@@ -280,6 +280,15 @@ aOverColor
 nscolor
 &
 aStrikeColor
+PRUint8
+&
+aUnderStyle
+PRUint8
+&
+aOverStyle
+PRUint8
+&
+aStrikeStyle
 )
 ;
 virtual
@@ -298,6 +307,8 @@ nsLineBox
 aLine
 nscolor
 aColor
+PRUint8
+aStyle
 gfxFloat
 aOffset
 gfxFloat

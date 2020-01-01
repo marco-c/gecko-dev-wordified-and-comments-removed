@@ -27855,6 +27855,8 @@ nsLineBox
 aLine
 nscolor
 aColor
+PRUint8
+aStyle
 gfxFloat
 aOffset
 gfxFloat
@@ -27999,7 +28001,7 @@ GetAscent
 )
 aOffset
 aDecoration
-NS_STYLE_TEXT_DECORATION_STYLE_SOLID
+aStyle
 )
 ;
 }
