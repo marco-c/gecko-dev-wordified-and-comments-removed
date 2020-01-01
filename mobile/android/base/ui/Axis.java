@@ -1608,6 +1608,14 @@ getOverScrollMode
 View
 .
 OVER_SCROLL_NEVER
+&
+&
+!
+mSubscroller
+.
+scrolling
+(
+)
 )
 {
 if
