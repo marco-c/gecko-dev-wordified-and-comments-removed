@@ -434,6 +434,12 @@ _addTabActionHandlers
 (
 )
 ;
+GroupItems
+.
+init
+(
+)
+;
 var
 groupItemsData
 =

@@ -6340,6 +6340,13 @@ nextID
 _inited
 :
 false
+init
+:
+function
+(
+)
+{
+}
 getNextID
 :
 function
