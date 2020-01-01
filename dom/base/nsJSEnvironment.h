@@ -578,7 +578,7 @@ Serialize
 nsIObjectOutputStream
 *
 aStream
-void
+JSScript
 *
 aScriptObject
 )

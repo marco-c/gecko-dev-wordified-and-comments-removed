@@ -179,6 +179,13 @@ nsIFrameLoader
 .
 h
 "
+#
+include
+"
+jspubtd
+.
+h
+"
 class
 nsIDocument
 ;
@@ -1001,7 +1008,7 @@ nsnull
 PRUint32
 mLangID
 ;
-void
+JSScript
 *
 mObject
 ;
