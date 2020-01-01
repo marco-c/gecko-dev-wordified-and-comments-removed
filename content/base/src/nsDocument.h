@@ -4118,6 +4118,16 @@ PRBool
 aUpdateCSSLoader
 )
 ;
+void
+RevokeAnimationFrameNotifications
+(
+)
+;
+void
+RescheduleAnimationFrameNotifications
+(
+)
+;
 nsDocument
 (
 const
