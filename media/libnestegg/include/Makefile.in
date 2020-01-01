@@ -425,7 +425,9 @@ EXPORTS_nestegg
 nestegg
 .
 h
-_stdint
+nestegg
+-
+stdint
 .
 h
 include
