@@ -231,6 +231,10 @@ nsIWebShellServices
 .
 h
 \
+SerializedLoadContext
+.
+h
+\
 (
 NULL
 )
@@ -241,6 +245,10 @@ EXPORTS_mozilla
 =
 \
 IHistory
+.
+h
+\
+LoadContext
 .
 h
 \
@@ -287,6 +295,14 @@ nsAboutRedirector
 cpp
 \
 nsDownloadHistory
+.
+cpp
+\
+SerializedLoadContext
+.
+cpp
+\
+LoadContext
 .
 cpp
 \
