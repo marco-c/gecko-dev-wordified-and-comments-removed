@@ -1060,10 +1060,6 @@ FADE_AMOUNT
 0f
 )
 ;
-invalidate
-(
-)
-;
 }
 finally
 {
@@ -1110,10 +1106,6 @@ mOpacity
 1
 .
 0f
-;
-invalidate
-(
-)
 ;
 }
 finally
