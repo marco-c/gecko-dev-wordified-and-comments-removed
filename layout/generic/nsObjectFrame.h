@@ -551,6 +551,11 @@ ImageContainer
 *
 GetImageContainer
 (
+LayerManager
+*
+aManager
+=
+nsnull
 )
 ;
 static
