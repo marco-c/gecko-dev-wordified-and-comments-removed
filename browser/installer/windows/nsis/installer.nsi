@@ -2615,7 +2615,12 @@ LogUninstall
 "
 File
 :
-R3
+\
+components
+\
+nsIQTScriptablePlugin
+.
+xpt
 "
 {
 EndIf
