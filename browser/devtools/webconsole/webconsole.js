@@ -4299,6 +4299,7 @@ timer
 )
 {
 return
+null
 ;
 }
 if
@@ -4323,6 +4324,7 @@ error
 )
 ;
 return
+null
 ;
 }
 body
@@ -4368,6 +4370,7 @@ timer
 )
 {
 return
+null
 ;
 }
 let
@@ -4429,6 +4432,7 @@ level
 )
 ;
 return
+null
 ;
 }
 switch
@@ -4500,6 +4504,7 @@ groupEnd
 )
 {
 return
+null
 ;
 }
 let
@@ -4798,6 +4803,7 @@ networkInfo
 )
 {
 return
+null
 ;
 }
 let
@@ -9655,6 +9661,11 @@ text
 ;
 if
 (
+aItem
+.
+type
+&
+&
 aItem
 .
 type
@@ -17798,9 +17809,11 @@ return
 selectedItem
 &
 &
-selectedItem
-.
+"
 url
+"
+in
+selectedItem
 ;
 }
 case
@@ -17841,6 +17854,9 @@ owner
 _browserConsole
 ;
 }
+return
+false
+;
 }
 doCommand
 :
