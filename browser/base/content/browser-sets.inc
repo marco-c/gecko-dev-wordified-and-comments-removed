@@ -2579,6 +2579,7 @@ modifiers
 =
 "
 accel
+shift
 "
 /
 >
