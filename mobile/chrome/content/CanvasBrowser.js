@@ -599,6 +599,10 @@ white
 ctx
 .
 DRAWWINDOW_DO_NOT_FLUSH
+|
+ctx
+.
+DRAWWINDOW_DRAW_CARET
 )
 ;
 }
@@ -1231,6 +1235,10 @@ white
 ctx
 .
 DRAWWINDOW_DO_NOT_FLUSH
+|
+ctx
+.
+DRAWWINDOW_DRAW_CARET
 )
 ;
 ctx
@@ -1701,6 +1709,10 @@ white
 ctx
 .
 DRAWWINDOW_DO_NOT_FLUSH
+|
+ctx
+.
+DRAWWINDOW_DRAW_CARET
 )
 ;
 ctx
