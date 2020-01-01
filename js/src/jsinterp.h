@@ -158,9 +158,6 @@ endif
 ;
 #
 ifdef
-DEBUG
-#
-ifdef
 __cplusplus
 static
 JS_INLINE
@@ -205,8 +202,6 @@ code
 )
 ;
 }
-#
-endif
 #
 endif
 static
