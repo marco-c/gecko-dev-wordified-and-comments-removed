@@ -586,11 +586,6 @@ aExtend
 )
 ;
 nsresult
-CharacterExtendForDelete
-(
-)
-;
-nsresult
 WordMove
 (
 PRBool
