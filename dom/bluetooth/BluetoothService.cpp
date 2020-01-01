@@ -2291,16 +2291,8 @@ NS_IsMainThread
 )
 )
 ;
-JSContext
-*
+AutoSafeJSContext
 cx
-=
-nsContentUtils
-:
-:
-GetSafeJSContext
-(
-)
 ;
 if
 (

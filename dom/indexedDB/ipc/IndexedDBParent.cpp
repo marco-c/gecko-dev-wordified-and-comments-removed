@@ -2199,16 +2199,8 @@ VERSIONCHANGE_EVT_STR
 )
 )
 {
-JSContext
-*
+AutoSafeJSContext
 cx
-=
-nsContentUtils
-:
-:
-GetSafeJSContext
-(
-)
 ;
 NS_ENSURE_TRUE
 (
