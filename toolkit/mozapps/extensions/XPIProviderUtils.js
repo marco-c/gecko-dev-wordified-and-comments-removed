@@ -69,14 +69,10 @@ jsm
 "
 )
 ;
-XPCOMUtils
+Cu
 .
-defineLazyModuleGetter
+import
 (
-this
-"
-AddonManager
-"
 "
 resource
 :
