@@ -100,9 +100,6 @@ fp
 class
 IonActivation
 ;
-struct
-VMFunction
-;
 class
 IonCompartment
 {
@@ -234,7 +231,7 @@ public
 :
 IonCode
 *
-generateCWrapper
+generateVMWrapper
 (
 JSContext
 *

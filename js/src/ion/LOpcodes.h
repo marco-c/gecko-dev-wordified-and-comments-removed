@@ -58,6 +58,11 @@ Goto
 \
 _
 (
+NewArray
+)
+\
+_
+(
 CallGeneric
 )
 \

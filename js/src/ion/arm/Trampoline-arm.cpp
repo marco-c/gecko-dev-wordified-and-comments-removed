@@ -2000,7 +2000,7 @@ IonCode
 IonCompartment
 :
 :
-generateCWrapper
+generateVMWrapper
 (
 JSContext
 *

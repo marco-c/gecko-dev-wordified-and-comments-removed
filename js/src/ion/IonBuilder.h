@@ -1003,6 +1003,13 @@ jsop_setelem_dense
 (
 )
 ;
+bool
+jsop_newarray
+(
+uint32
+count
+)
+;
 enum
 InliningStatus
 {

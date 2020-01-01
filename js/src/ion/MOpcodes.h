@@ -164,6 +164,11 @@ TruncateToInt32
 \
 _
 (
+NewArray
+)
+\
+_
+(
 Start
 )
 \

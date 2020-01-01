@@ -343,7 +343,7 @@ callVM
 (
 const
 VMFunction
-*
+&
 f
 LInstruction
 *
@@ -512,6 +512,15 @@ visitTableSwitch
 LTableSwitch
 *
 ins
+)
+;
+virtual
+bool
+visitNewArray
+(
+LNewArray
+*
+builder
 )
 ;
 virtual
