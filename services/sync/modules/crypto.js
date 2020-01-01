@@ -456,6 +456,7 @@ weave
 encryption
 "
 :
+{
 let
 branch
 =
@@ -613,6 +614,7 @@ changed
 "
 )
 ;
+}
 break
 ;
 default
@@ -718,14 +720,15 @@ data
 ;
 case
 "
-XXTEA
+XXXTEA
 "
 :
 case
 "
-XXXTEA
+XXTEA
 "
 :
+{
 this
 .
 _log
@@ -815,6 +818,7 @@ data
 "
 )
 ;
+}
 break
 ;
 default
@@ -979,14 +983,15 @@ break
 ;
 case
 "
-XXTEA
+XXXTEA
 "
 :
 case
 "
-XXXTEA
+XXTEA
 "
 :
+{
 this
 .
 _log
@@ -1076,6 +1081,7 @@ data
 "
 )
 ;
+}
 break
 ;
 default
