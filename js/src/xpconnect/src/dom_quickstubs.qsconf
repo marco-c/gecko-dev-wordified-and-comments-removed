@@ -2514,6 +2514,13 @@ nsIXMLHttpRequest
 upload
 '
 #
+WebSocket
+'
+nsIWebSocket
+.
+*
+'
+#
 webgl
 '
 nsICanvasRenderingContextWebGL
