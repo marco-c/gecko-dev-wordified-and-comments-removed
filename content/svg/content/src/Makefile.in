@@ -841,10 +841,6 @@ nsSVGSetElement
 .
 cpp
 \
-nsSVGTransformSMILType
-.
-cpp
-\
 SVGIntegerPairSMILType
 .
 cpp
@@ -886,6 +882,10 @@ SVGPathSegListSMILType
 cpp
 \
 SVGPointListSMILType
+.
+cpp
+\
+SVGTransformListSMILType
 .
 cpp
 \

@@ -36,13 +36,6 @@ h
 #
 include
 "
-nsSVGTransformSMILAttr
-.
-h
-"
-#
-include
-"
 nsSMILAnimationFunction
 .
 h
