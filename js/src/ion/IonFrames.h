@@ -858,6 +858,14 @@ JSTracer
 trc
 )
 ;
+void
+MarkIonCompilerRoots
+(
+JSTracer
+*
+trc
+)
+;
 static
 inline
 uint32

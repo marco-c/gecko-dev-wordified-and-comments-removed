@@ -13225,6 +13225,7 @@ MCall
 :
 New
 (
+target
 targetArgs
 +
 1
@@ -13527,18 +13528,6 @@ current
 pop
 (
 )
-)
-;
-if
-(
-target
-)
-call
--
->
-setSingleTarget
-(
-target
 )
 ;
 current

@@ -2261,6 +2261,13 @@ IonActivation
 *
 ionActivation
 ;
+JS
+:
+:
+CompilerRootNode
+*
+ionCompilerRootList
+;
 private
 :
 js

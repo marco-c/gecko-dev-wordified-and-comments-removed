@@ -1404,14 +1404,6 @@ incrementStubCount
 (
 )
 ;
-jsid
-id
-=
-AtomToId
-(
-atom
-)
-;
 JSObject
 *
 holder

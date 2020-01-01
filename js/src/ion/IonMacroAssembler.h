@@ -1967,8 +1967,7 @@ const
 Register
 &
 result
-JSObject
-*
+HandleObject
 templateObject
 Label
 *
