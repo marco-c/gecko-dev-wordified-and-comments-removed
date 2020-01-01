@@ -2866,17 +2866,6 @@ __aeabi_idivmod
 )
 )
 ;
-if
-(
-!
-mir
--
->
-isTruncated
-(
-)
-)
-{
 masm
 .
 ma_cmp
@@ -2908,7 +2897,6 @@ snapshot
 return
 false
 ;
-}
 return
 true
 ;

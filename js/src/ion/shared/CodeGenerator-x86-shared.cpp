@@ -3277,17 +3277,6 @@ idiv
 rhs
 )
 ;
-if
-(
-!
-mir
--
->
-isTruncated
-(
-)
-)
-{
 masm
 .
 testl
@@ -3316,7 +3305,6 @@ snapshot
 return
 false
 ;
-}
 return
 true
 ;
