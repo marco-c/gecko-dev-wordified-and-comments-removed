@@ -10072,7 +10072,6 @@ isMarkStackEmpty
 )
 ;
 }
-JS_REQUIRES_STACK
 void
 MarkRuntime
 (

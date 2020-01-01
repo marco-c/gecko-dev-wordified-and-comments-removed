@@ -4397,7 +4397,6 @@ vp
 if
 JS_HAS_GENERATORS
 static
-JS_REQUIRES_STACK
 JSBool
 CloseGenerator
 (
@@ -6119,7 +6118,6 @@ NULL
 }
 }
 ;
-JS_REQUIRES_STACK
 JSObject
 *
 js_NewGenerator
@@ -6503,7 +6501,6 @@ JSGENOP_CLOSE
 JSGeneratorOp
 ;
 static
-JS_REQUIRES_STACK
 JSBool
 SendToGenerator
 (
@@ -6965,7 +6962,6 @@ JS_FALSE
 ;
 }
 static
-JS_REQUIRES_STACK
 JSBool
 CloseGenerator
 (

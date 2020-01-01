@@ -15705,7 +15705,6 @@ return
 obj
 ;
 }
-JS_REQUIRES_STACK
 JSBool
 Detecting
 (

@@ -7368,7 +7368,6 @@ propp
 )
 ;
 extern
-JS_REQUIRES_STACK
 JSObject
 *
 js_FindIdentifierBase
@@ -7929,7 +7928,6 @@ vp
 )
 ;
 extern
-JS_REQUIRES_STACK
 bool
 DirectEval
 (

@@ -9253,7 +9253,6 @@ ag
 {
 }
 bool
-JS_REQUIRES_STACK
 operator
 (
 )

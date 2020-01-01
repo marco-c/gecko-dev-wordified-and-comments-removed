@@ -2331,8 +2331,7 @@ parseMapPool_
 ;
 }
 static
-JS_FORCES_STACK
-JS_INLINE
+inline
 js
 :
 :

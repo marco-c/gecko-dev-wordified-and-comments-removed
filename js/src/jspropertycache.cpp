@@ -37,7 +37,6 @@ using
 namespace
 js
 ;
-JS_REQUIRES_STACK
 PropertyCacheEntry
 *
 PropertyCache
@@ -622,7 +621,6 @@ return
 atom
 ;
 }
-JS_REQUIRES_STACK
 JSAtom
 *
 PropertyCache

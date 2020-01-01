@@ -662,14 +662,12 @@ staticBlock
 )
 const
 ;
-bool
+void
 put
 (
 JSContext
 *
 cx
-JSBool
-normalUnwind
 )
 ;
 const
