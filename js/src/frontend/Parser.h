@@ -604,8 +604,8 @@ pn
 JS_DECLARE_NEW_METHODS
 (
 allocParseNode
+inline
 )
-;
 private
 :
 ParseNode
