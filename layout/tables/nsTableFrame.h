@@ -1600,14 +1600,6 @@ GetFirstBodyRowGroupFrame
 (
 )
 ;
-PRBool
-MoveOverflowToChildList
-(
-nsPresContext
-*
-aPresContext
-)
-;
 typedef
 nsAutoTPtrArray
 <
