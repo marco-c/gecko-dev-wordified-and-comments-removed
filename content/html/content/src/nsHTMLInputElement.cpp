@@ -1582,7 +1582,6 @@ nsHTMLInputElement
 nsFilePickerShownCallback
 nsIFilePickerShownCallback
 )
-;
 nsHTMLInputElement
 :
 :

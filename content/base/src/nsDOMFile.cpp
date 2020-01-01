@@ -3102,7 +3102,6 @@ NS_IMPL_ISUPPORTS1
 nsDOMMemoryFileDataOwnerMemoryReporter
 nsIMemoryMultiReporter
 )
-;
 void
 nsDOMMemoryFile
 :
