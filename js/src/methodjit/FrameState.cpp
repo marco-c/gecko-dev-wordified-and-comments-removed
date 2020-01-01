@@ -2633,10 +2633,6 @@ inRegister
 continue
 ;
 }
-#
-if
-defined
-JS_PUNBOX64
 if
 (
 fe
@@ -2658,7 +2654,6 @@ inRegister
 (
 )
 )
-{
 masm
 .
 loadValueAsComponents
@@ -2685,11 +2680,7 @@ reg
 )
 )
 ;
-}
 else
-#
-endif
-{
 if
 (
 fe
@@ -2719,6 +2710,7 @@ reg
 )
 )
 ;
+else
 if
 (
 fe
@@ -2748,7 +2740,6 @@ reg
 )
 )
 ;
-}
 }
 }
 JSC

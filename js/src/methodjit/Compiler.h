@@ -342,6 +342,10 @@ argc
 )
 {
 }
+jsbytecode
+*
+pc
+;
 uint32
 argc
 ;

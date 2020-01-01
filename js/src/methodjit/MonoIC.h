@@ -291,6 +291,10 @@ JSObject
 *
 fastGuardedNative
 ;
+jsbytecode
+*
+pc
+;
 uint32
 argc
 :

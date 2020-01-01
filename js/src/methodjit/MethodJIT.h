@@ -876,14 +876,10 @@ scopeChain
 if
 (
 !
-(
 cx
 -
 >
-options
-&
-JSOPTION_METHODJIT
-)
+methodJitEnabled
 |
 |
 script
