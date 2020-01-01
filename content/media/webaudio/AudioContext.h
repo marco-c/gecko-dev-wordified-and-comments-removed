@@ -742,6 +742,11 @@ WebAudioDecodeJob
 aDecodeJob
 )
 ;
+void
+ShutdownDecoder
+(
+)
+;
 friend
 struct
 :
