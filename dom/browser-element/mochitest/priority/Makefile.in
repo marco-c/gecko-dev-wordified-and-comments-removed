@@ -211,6 +211,10 @@ test_ExpectingSystemMessage
 .
 html
 \
+test_ExpectingSystemMessage2
+.
+html
+\
 test_NestedFrames
 .
 html
