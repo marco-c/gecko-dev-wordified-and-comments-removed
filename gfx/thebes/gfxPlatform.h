@@ -913,10 +913,10 @@ eFontPrefLang
 aPageLang
 )
 ;
-bool
+PRInt8
 mAllowDownloadableFonts
 ;
-bool
+PRInt8
 mDownloadableFontsSanitize
 ;
 PRInt32
