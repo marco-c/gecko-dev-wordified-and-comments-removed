@@ -178,6 +178,11 @@ CopyableCanvasLayer
 h
 '
 '
+D3D9SurfaceImage
+.
+h
+'
+'
 FrameMetrics
 .
 h
@@ -468,6 +473,11 @@ h
 '
 '
 Effects
+.
+h
+'
+'
+D3D9SurfaceImage
 .
 h
 '
