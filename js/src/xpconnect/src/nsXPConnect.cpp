@@ -5474,8 +5474,10 @@ arg
 {
 nsTArray
 <
+nsRefPtr
+<
 XPCWrappedNative
-*
+>
 >
 *
 array
@@ -5484,8 +5486,10 @@ static_cast
 <
 nsTArray
 <
+nsRefPtr
+<
 XPCWrappedNative
-*
+>
 >
 *
 >
@@ -5606,8 +5610,10 @@ NS_ERROR_FAILURE
 ;
 nsTArray
 <
+nsRefPtr
+<
 XPCWrappedNative
-*
+>
 >
 wrappersToMove
 ;
