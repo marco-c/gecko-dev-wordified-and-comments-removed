@@ -236,6 +236,15 @@ mInflated
 =
 false
 ;
+setAnimationStyle
+(
+R
+.
+style
+.
+PopupAnimation
+)
+;
 }
 public
 static

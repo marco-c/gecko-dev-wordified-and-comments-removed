@@ -270,6 +270,15 @@ registerOnTabsChangedListener
 this
 )
 ;
+setAnimationStyle
+(
+R
+.
+style
+.
+PopupAnimation
+)
+;
 }
 void
 destroy

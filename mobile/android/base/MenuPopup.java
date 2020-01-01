@@ -308,6 +308,15 @@ mShowArrow
 =
 true
 ;
+setAnimationStyle
+(
+R
+.
+style
+.
+PopupAnimation
+)
+;
 }
 public
 void
