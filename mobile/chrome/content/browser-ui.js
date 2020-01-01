@@ -5895,6 +5895,9 @@ updateForgetPassword
 this
 )
 ;
+#
+ifdef
+NS_PRINTING
 this
 .
 register
@@ -5910,6 +5913,8 @@ updatePageSaveAs
 this
 )
 ;
+#
+endif
 this
 .
 register
