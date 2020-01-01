@@ -6,7 +6,9 @@ Security
 -
 Policy
 :
-allow
+default
+-
+src
 '
 self
 '
