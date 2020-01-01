@@ -10402,8 +10402,9 @@ isSVG
 disp
 -
 >
-IsPositionedStyle
+IsPositioned
 (
+child
 )
 ;
 if

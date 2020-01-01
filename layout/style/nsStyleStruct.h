@@ -5289,7 +5289,7 @@ HasTextShadow
 const
 nsIFrame
 *
-aContextFrame
+aFrame
 )
 const
 ;
@@ -5301,7 +5301,7 @@ GetTextShadow
 const
 nsIFrame
 *
-aContextFrame
+aFrame
 )
 const
 ;
@@ -5312,7 +5312,7 @@ WhiteSpaceCanWrap
 const
 nsIFrame
 *
-aContextFrame
+aFrame
 )
 const
 ;
@@ -5323,7 +5323,7 @@ WordCanWrap
 const
 nsIFrame
 *
-aContextFrame
+aFrame
 )
 const
 ;
@@ -6715,23 +6715,6 @@ NS_STYLE_POSITION_RELATIVE
 ;
 }
 bool
-IsPositionedStyle
-(
-)
-const
-{
-return
-IsAbsolutelyPositionedStyle
-(
-)
-|
-|
-IsRelativelyPositionedStyle
-(
-)
-;
-}
-bool
 IsScrollableOverflow
 (
 )
@@ -6782,7 +6765,7 @@ IsBlockInside
 const
 nsIFrame
 *
-aContextFrame
+aFrame
 )
 const
 ;
@@ -6793,7 +6776,7 @@ IsBlockOutside
 const
 nsIFrame
 *
-aContextFrame
+aFrame
 )
 const
 ;
@@ -6804,7 +6787,7 @@ IsInlineOutside
 const
 nsIFrame
 *
-aContextFrame
+aFrame
 )
 const
 ;
@@ -6815,7 +6798,7 @@ IsOriginalDisplayInlineOutside
 const
 nsIFrame
 *
-aContextFrame
+aFrame
 )
 const
 ;
@@ -6826,7 +6809,7 @@ GetDisplay
 const
 nsIFrame
 *
-aContextFrame
+aFrame
 )
 const
 ;
@@ -6837,7 +6820,7 @@ IsFloating
 const
 nsIFrame
 *
-aContextFrame
+aFrame
 )
 const
 ;
@@ -6848,7 +6831,7 @@ IsPositioned
 const
 nsIFrame
 *
-aContextFrame
+aFrame
 )
 const
 ;
@@ -6859,7 +6842,7 @@ IsRelativelyPositioned
 const
 nsIFrame
 *
-aContextFrame
+aFrame
 )
 const
 ;
@@ -6870,7 +6853,7 @@ IsAbsolutelyPositioned
 const
 nsIFrame
 *
-aContextFrame
+aFrame
 )
 const
 ;
@@ -6881,7 +6864,7 @@ HasTransform
 const
 nsIFrame
 *
-aContextFrame
+aFrame
 )
 const
 ;
