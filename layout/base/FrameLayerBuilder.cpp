@@ -449,7 +449,7 @@ return
 mActiveScrolledRoot
 ;
 }
-nsRefPtr
+already_AddRefed
 <
 ImageContainer
 >
@@ -3269,7 +3269,7 @@ NS_RGBA
 )
 ;
 }
-nsRefPtr
+already_AddRefed
 <
 ImageContainer
 >
