@@ -9517,6 +9517,7 @@ nsAutoHandlingUserInputStatePusher
 userInpStatePusher
 (
 mUserInput
+PR_FALSE
 )
 ;
 nsContentUtils
