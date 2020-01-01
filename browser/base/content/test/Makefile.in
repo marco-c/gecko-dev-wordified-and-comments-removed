@@ -900,6 +900,10 @@ browser_bug563588
 .
 js
 \
+browser_bug575561
+.
+js
+\
 browser_bug577121
 .
 js
@@ -1197,6 +1201,14 @@ js
 browser_aboutHome
 .
 js
+\
+app_bug575561
+.
+html
+\
+app_subframe_bug575561
+.
+html
 \
 (
 NULL
