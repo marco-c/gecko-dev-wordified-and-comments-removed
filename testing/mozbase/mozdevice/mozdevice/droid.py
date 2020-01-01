@@ -713,7 +713,7 @@ dumpsys
 window
 "
 "
-input
+windows
 "
 ]
 )
