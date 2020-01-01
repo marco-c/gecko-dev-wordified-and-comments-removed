@@ -292,6 +292,9 @@ html
 privileged
 :
 true
+hide
+:
+true
 }
 readercontent
 :
