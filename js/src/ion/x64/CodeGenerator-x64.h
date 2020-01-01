@@ -103,6 +103,14 @@ value
 )
 ;
 bool
+visitOsrValue
+(
+LOsrValue
+*
+value
+)
+;
+bool
 visitReturn
 (
 LReturn

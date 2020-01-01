@@ -68,6 +68,16 @@ graph
 ;
 public
 :
+enum
+LoopReturn
+{
+LoopReturn_Success
+LoopReturn_Error
+LoopReturn_Skip
+}
+;
+public
+:
 Loop
 (
 MBasicBlock
@@ -81,7 +91,7 @@ MIRGraph
 graph
 )
 ;
-bool
+LoopReturn
 init
 (
 )
@@ -105,7 +115,7 @@ MBasicBlock
 *
 preLoop_
 ;
-bool
+LoopReturn
 iterateLoopBlocks
 (
 MBasicBlock

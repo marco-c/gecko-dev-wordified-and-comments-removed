@@ -90,6 +90,10 @@ deoptTable_
 (
 NULL
 )
+osrEntryOffset_
+(
+0
+)
 frameDepth_
 (
 graph

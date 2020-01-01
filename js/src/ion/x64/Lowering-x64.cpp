@@ -156,11 +156,10 @@ ins
 {
 if
 (
-!
 ins
 -
 >
-isEmittedAtUses
+canEmitAtUses
 (
 )
 )
@@ -241,11 +240,10 @@ isConstant
 )
 &
 &
-!
 box
 -
 >
-isEmittedAtUses
+canEmitAtUses
 (
 )
 )

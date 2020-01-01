@@ -173,6 +173,16 @@ Start
 \
 _
 (
+OsrEntry
+)
+\
+_
+(
+OsrValue
+)
+\
+_
+(
 Slots
 )
 \

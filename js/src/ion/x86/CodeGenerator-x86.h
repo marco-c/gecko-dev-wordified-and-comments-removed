@@ -201,6 +201,14 @@ value
 )
 ;
 bool
+visitOsrValue
+(
+LOsrValue
+*
+value
+)
+;
+bool
 visitStackArg
 (
 LStackArg
