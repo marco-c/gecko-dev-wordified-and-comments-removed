@@ -674,7 +674,7 @@ waitCount
 if
 (
 waitCount
-=
+>
 =
 2
 )
@@ -706,6 +706,7 @@ if
 (
 delay
 >
+=
 gTimeout
 )
 {
