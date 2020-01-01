@@ -9393,6 +9393,11 @@ break
 #
 endif
 case
+JSOP_GETTHISPROP
+:
+break
+;
+case
 JSOP_GETARGPROP
 :
 op
