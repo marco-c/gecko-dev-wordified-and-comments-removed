@@ -8475,7 +8475,7 @@ nsIAccessibleEvent
 :
 EVENT_MENUPOPUP_START
 childNode
-eAllowDupes
+eRemoveDupes
 isAsynch
 )
 ;
