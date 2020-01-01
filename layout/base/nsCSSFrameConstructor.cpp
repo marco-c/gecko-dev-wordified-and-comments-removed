@@ -3279,9 +3279,6 @@ PushAbsoluteContainingBlock
 nsIFrame
 *
 aNewAbsoluteContainingBlock
-nsIFrame
-*
-aPositionedFrame
 nsFrameConstructorSaveState
 &
 aSaveState
@@ -4016,9 +4013,6 @@ PushAbsoluteContainingBlock
 nsIFrame
 *
 aNewAbsoluteContainingBlock
-nsIFrame
-*
-aPositionedFrame
 nsFrameConstructorSaveState
 &
 aSaveState
@@ -4086,10 +4080,10 @@ aNewAbsoluteContainingBlock
 ;
 mFixedPosIsAbsPos
 =
-aPositionedFrame
+aNewAbsoluteContainingBlock
 &
 &
-aPositionedFrame
+aNewAbsoluteContainingBlock
 -
 >
 StyleDisplay
@@ -4099,7 +4093,7 @@ StyleDisplay
 >
 HasTransform
 (
-aPositionedFrame
+aNewAbsoluteContainingBlock
 )
 ;
 if
@@ -8096,7 +8090,6 @@ aState
 PushAbsoluteContainingBlock
 (
 newFrame
-newFrame
 absoluteSaveState
 )
 ;
@@ -9666,7 +9659,6 @@ state
 PushAbsoluteContainingBlock
 (
 mDocElementContainingBlock
-mDocElementContainingBlock
 absoluteSaveState
 )
 ;
@@ -9985,10 +9977,6 @@ IsPositioned
 (
 contentFrame
 )
-?
-contentFrame
-:
-nullptr
 nullptr
 )
 ;
@@ -12065,7 +12053,6 @@ aState
 .
 PushAbsoluteContainingBlock
 (
-newFrame
 newFrame
 absoluteSaveState
 )
@@ -14589,7 +14576,6 @@ aState
 PushAbsoluteContainingBlock
 (
 nullptr
-nullptr
 absoluteSaveState
 )
 ;
@@ -14675,7 +14661,6 @@ aState
 PushAbsoluteContainingBlock
 (
 cb
-primaryFrame
 absoluteSaveState
 )
 ;
@@ -17654,12 +17639,8 @@ aDisplay
 >
 IsPositioned
 (
-newFrame
+scrolledFrame
 )
-?
-newFrame
-:
-nullptr
 aItem
 .
 mPendingBinding
@@ -17866,10 +17847,6 @@ IsPositioned
 (
 newFrame
 )
-?
-newFrame
-:
-nullptr
 aItem
 .
 mPendingBinding
@@ -44598,9 +44575,8 @@ aNewFrame
 nsFrameItems
 &
 aFrameItems
-nsIFrame
-*
-aPositionedFrameForAbsPosContainer
+bool
+aAbsPosContainer
 PendingBinding
 *
 aPendingBinding
@@ -44804,7 +44780,7 @@ NS_FRAME_CAN_HAVE_ABSPOS_CHILDREN
 ;
 if
 (
-aPositionedFrameForAbsPosContainer
+aAbsPosContainer
 )
 {
 aState
@@ -44813,7 +44789,6 @@ PushAbsoluteContainingBlock
 (
 *
 aNewFrame
-aPositionedFrameForAbsPosContainer
 absoluteSaveState
 )
 ;
@@ -44961,7 +44936,6 @@ aState
 .
 PushAbsoluteContainingBlock
 (
-newFrame
 newFrame
 absoluteSaveState
 )

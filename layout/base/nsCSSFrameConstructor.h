@@ -3904,9 +3904,8 @@ aNewFrame
 nsFrameItems
 &
 aFrameItems
-nsIFrame
-*
-aPositionedFrameForAbsPosContainer
+bool
+aAbsPosContainer
 PendingBinding
 *
 aPendingBinding
