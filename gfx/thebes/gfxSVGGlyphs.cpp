@@ -248,7 +248,7 @@ gfx
 :
 :
 UserDataKey
-gfxTextObjectPaint
+gfxTextContextPaint
 :
 :
 sUserDataKey
@@ -266,7 +266,7 @@ SVG_UNITS_PER_EM
 ;
 const
 gfxRGBA
-SimpleTextObjectPaint
+SimpleTextContextPaint
 :
 :
 sZero
@@ -1034,9 +1034,9 @@ uint32_t
 aGlyphId
 DrawMode
 aDrawMode
-gfxTextObjectPaint
+gfxTextContextPaint
 *
-aObjectPaint
+aContextPaint
 )
 {
 if
@@ -1099,7 +1099,7 @@ PaintSVGGlyph
 glyph
 aContext
 aDrawMode
-aObjectPaint
+aContextPaint
 )
 ;
 }
@@ -2005,7 +2005,7 @@ aGlyphElement
 ;
 }
 void
-gfxTextObjectPaint
+gfxTextContextPaint
 :
 :
 InitStrokeGeometry
