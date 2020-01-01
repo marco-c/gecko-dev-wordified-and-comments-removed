@@ -1315,6 +1315,16 @@ mProxyAuth
 1
 ;
 PRUint32
+mTriedProxyAuth
+:
+1
+;
+PRUint32
+mTriedHostAuth
+:
+1
+;
+PRUint32
 mSuppressDefensiveAuth
 :
 1
