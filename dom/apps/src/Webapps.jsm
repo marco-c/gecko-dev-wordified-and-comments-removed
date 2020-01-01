@@ -15273,10 +15273,16 @@ appClone
 ;
 try
 {
+if
+(
+aOnSuccess
+)
+{
 aOnSuccess
 (
 )
 ;
+}
 }
 catch
 (
