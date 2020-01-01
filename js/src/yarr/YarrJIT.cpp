@@ -5876,6 +5876,10 @@ op
 .
 m_alternative
 ;
+#
+if
+!
+WTF_CPU_SPARC
 if
 (
 m_pattern
@@ -5905,6 +5909,8 @@ void
 stackPointerRegister
 )
 ;
+#
+endif
 ASSERT
 (
 index
@@ -7327,6 +7333,10 @@ break
 case
 OpMatchFailed
 :
+#
+if
+!
+WTF_CPU_SPARC
 if
 (
 m_pattern
@@ -7356,6 +7366,8 @@ void
 stackPointerRegister
 )
 ;
+#
+endif
 move
 (
 TrustedImm32
@@ -8384,6 +8396,10 @@ link
 this
 )
 ;
+#
+if
+!
+WTF_CPU_SPARC
 if
 (
 m_pattern
@@ -8413,6 +8429,8 @@ void
 stackPointerRegister
 )
 ;
+#
+endif
 move
 (
 TrustedImm32
@@ -10877,15 +10895,6 @@ void
 )
 )
 ;
-m_pattern
-.
-m_body
--
->
-m_callFrameSize
-=
-0
-;
 #
 elif
 WTF_CPU_MIPS
@@ -11086,6 +11095,10 @@ output
 )
 )
 ;
+#
+if
+!
+WTF_CPU_SPARC
 if
 (
 m_pattern
@@ -11115,6 +11128,8 @@ void
 stackPointerRegister
 )
 ;
+#
+endif
 opCompileBody
 (
 m_pattern
