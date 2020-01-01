@@ -2868,7 +2868,7 @@ operator
 [
 ]
 (
-intptr_t
+int
 index
 )
 const

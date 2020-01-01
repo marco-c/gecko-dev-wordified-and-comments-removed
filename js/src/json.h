@@ -232,7 +232,7 @@ const
 jschar
 *
 chars
-uint32
+size_t
 length
 const
 Value
