@@ -86,6 +86,10 @@ test_general
 .
 html
 \
+test_userinput
+.
+html
+\
 (
 NULL
 )
