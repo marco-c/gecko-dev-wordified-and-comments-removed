@@ -10814,7 +10814,7 @@ FORWARD_TO_OUTER
 ConfirmDialogAllowed
 (
 )
-NS_ERROR_NOT_INITIALIZED
+false
 )
 ;
 NS_ENSURE_TRUE
