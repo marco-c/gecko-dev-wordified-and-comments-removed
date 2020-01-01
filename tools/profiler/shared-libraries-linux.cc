@@ -398,6 +398,8 @@ shlib
 libStart
 libEnd
 0
+"
+"
 dl_info
 -
 >
@@ -690,6 +692,8 @@ shlib
 start
 end
 offset
+"
+"
 name
 )
 ;
