@@ -33606,13 +33606,6 @@ NS_VIEW_MANAGER_CID
 )
 ;
 static
-NS_DEFINE_CID
-(
-kWidgetCID
-NS_CHILD_CID
-)
-;
-static
 void
 LogVerifyMessage
 (
@@ -35964,7 +35957,6 @@ view
 >
 CreateWidgetForParent
 (
-kWidgetCID
 parentWidget
 nsnull
 PR_TRUE

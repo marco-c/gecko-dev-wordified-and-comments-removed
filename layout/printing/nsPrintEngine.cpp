@@ -1168,13 +1168,6 @@ kViewManagerCID
 NS_VIEW_MANAGER_CID
 )
 ;
-static
-NS_DEFINE_CID
-(
-kWidgetCID
-NS_CHILD_CID
-)
-;
 NS_IMPL_ISUPPORTS1
 (
 nsPrintEngine
@@ -9044,7 +9037,6 @@ rootView
 >
 CreateWidgetForParent
 (
-kWidgetCID
 widget
 nsnull
 PR_TRUE
@@ -9057,7 +9049,6 @@ rootView
 >
 CreateWidget
 (
-kWidgetCID
 nsnull
 PR_TRUE
 PR_TRUE
