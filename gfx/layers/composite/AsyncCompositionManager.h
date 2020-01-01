@@ -121,10 +121,10 @@ aTranslation
 LayerPoint
 (
 )
-CSSToScreenScale
+LayoutDeviceToScreenScale
 aScale
 =
-CSSToScreenScale
+LayoutDeviceToScreenScale
 (
 )
 )
@@ -178,7 +178,7 @@ scale
 LayerPoint
 mTranslation
 ;
-CSSToScreenScale
+LayoutDeviceToScreenScale
 mScale
 ;
 }
