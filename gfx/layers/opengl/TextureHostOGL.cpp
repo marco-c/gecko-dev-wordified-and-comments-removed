@@ -1593,10 +1593,6 @@ CompositorOGL
 aCompositor
 )
 ;
-mCompositor
-=
-glCompositor
-;
 if
 (
 mTextureSource
