@@ -788,7 +788,7 @@ mLineBreak
 nsCString
 mCharset
 ;
-PRInt32
+PRUint32
 mColPos
 ;
 PRPackedBool
@@ -800,7 +800,7 @@ mDoRaw
 PRPackedBool
 mDoWrap
 ;
-PRInt32
+PRUint32
 mMaxColumn
 ;
 nsString

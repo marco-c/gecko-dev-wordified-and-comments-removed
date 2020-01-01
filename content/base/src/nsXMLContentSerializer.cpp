@@ -6206,7 +6206,7 @@ PR_FALSE
 PRBool
 foundWhitespaceInLoop
 ;
-PRInt32
+PRUint32
 length
 colPos
 ;
