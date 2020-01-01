@@ -4569,6 +4569,11 @@ requestDepth
 1
 )
 {
+js_LeaveTrace
+(
+cx
+)
+;
 rt
 =
 cx
