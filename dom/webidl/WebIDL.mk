@@ -815,6 +815,10 @@ RTCConfiguration
 .
 webidl
 \
+RTCDataChannelEvent
+.
+webidl
+\
 RTCIceCandidate
 .
 webidl
