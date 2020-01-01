@@ -275,6 +275,7 @@ GetBaseline
 (
 )
 const
+MOZ_OVERRIDE
 ;
 NS_IMETHOD
 GetChildFrameContainingOffset

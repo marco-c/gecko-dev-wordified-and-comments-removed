@@ -327,6 +327,7 @@ GetBaseline
 (
 )
 const
+MOZ_OVERRIDE
 ;
 bool
 IsLeftMost

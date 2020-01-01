@@ -750,6 +750,7 @@ GetBaseline
 (
 )
 const
+MOZ_OVERRIDE
 ;
 virtual
 bool

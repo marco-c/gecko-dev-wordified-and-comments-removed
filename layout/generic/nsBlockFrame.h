@@ -414,6 +414,7 @@ GetBaseline
 (
 )
 const
+MOZ_OVERRIDE
 ;
 virtual
 nscoord
@@ -421,6 +422,7 @@ GetCaretBaseline
 (
 )
 const
+MOZ_OVERRIDE
 ;
 virtual
 void

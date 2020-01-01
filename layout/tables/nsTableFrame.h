@@ -1075,6 +1075,7 @@ GetBaseline
 (
 )
 const
+MOZ_OVERRIDE
 ;
 int32_t
 GetEffectiveRowSpan
