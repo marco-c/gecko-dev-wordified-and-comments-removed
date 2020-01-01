@@ -683,7 +683,7 @@ matched
 )
 ;
 }
-jmp
+jump
 (
 mismatched
 )
@@ -756,7 +756,7 @@ matched
 ;
 }
 }
-jmp
+jump
 (
 mismatched
 )

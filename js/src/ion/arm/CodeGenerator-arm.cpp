@@ -3468,6 +3468,13 @@ ma_mov
 (
 ImmGCPtr
 (
+(
+gc
+:
+:
+Cell
+*
+)
 jv
 .
 s
