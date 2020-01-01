@@ -10029,13 +10029,6 @@ value
 )
 NOT_IMPLEMENTED_IF_FUNC_1
 (
-GetContentDisposition
-nsACString
-&
-value
-)
-NOT_IMPLEMENTED_IF_FUNC_1
-(
 GetContentLength
 PRInt64
 *
