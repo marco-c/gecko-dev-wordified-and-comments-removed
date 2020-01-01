@@ -3522,6 +3522,16 @@ native
 proxy_Construct
 &
 &
+(
+!
+callee
+-
+>
+isFunction
+(
+)
+|
+|
 callee
 -
 >
@@ -3539,6 +3549,7 @@ clasp
 =
 &
 js_ObjectClass
+)
 !
 vp
 -
