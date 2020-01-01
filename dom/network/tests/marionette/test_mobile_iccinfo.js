@@ -93,7 +93,6 @@ setEmulatorMccMnc
 (
 mcc
 mnc
-callback
 )
 {
 let
@@ -158,16 +157,6 @@ changed
 "
 )
 ;
-if
-(
-callback
-)
-{
-callback
-(
-)
-;
-}
 }
 )
 ;
@@ -391,7 +380,7 @@ window
 setTimeout
 (
 callback
-0
+100
 )
 ;
 }
