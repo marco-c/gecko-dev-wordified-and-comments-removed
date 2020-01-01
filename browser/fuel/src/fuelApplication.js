@@ -3366,7 +3366,7 @@ win
 ]
 ;
 var
-enum
+browserEnum
 =
 Utilities
 .
@@ -3383,7 +3383,7 @@ browser
 ;
 while
 (
-enum
+browserEnum
 .
 hasMoreElements
 (
@@ -3396,7 +3396,7 @@ push
 new
 Window
 (
-enum
+browserEnum
 .
 getNext
 (
