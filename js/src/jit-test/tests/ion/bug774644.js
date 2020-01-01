@@ -52,8 +52,3 @@ TestCase
 )
 ;
 }
-dis
-(
-addTestCase
-)
-;
