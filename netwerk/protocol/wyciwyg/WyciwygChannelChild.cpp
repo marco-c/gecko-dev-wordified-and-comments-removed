@@ -2023,6 +2023,9 @@ appId
 =
 0
 ;
+nsCAutoString
+extendedOrigin
+;
 nsCOMPtr
 <
 nsILoadContext
@@ -2088,6 +2091,15 @@ GetAppId
 appId
 )
 ;
+loadContext
+-
+>
+GetExtendedOrigin
+(
+mURI
+extendedOrigin
+)
+;
 }
 SendAsyncOpen
 (
@@ -2104,6 +2116,7 @@ isContent
 usePrivateBrowsing
 isInBrowserElement
 appId
+extendedOrigin
 )
 ;
 mState

@@ -179,6 +179,13 @@ nsCString
 aProtocol
 bool
 aSecure
+/
+/
+Fields
+for
+imitating
+a
+nsILoadContext
 bool
 haveLoadContext
 bool
@@ -189,6 +196,8 @@ bool
 isInBrowserElement
 PRUint32
 appID
+nsCString
+extendedOrigin
 )
 ;
 Close

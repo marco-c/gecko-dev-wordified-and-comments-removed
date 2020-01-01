@@ -128,6 +128,10 @@ const
 PRUint32
 &
 appId
+const
+nsCString
+&
+extendedOrigin
 )
 ;
 bool
@@ -223,6 +227,9 @@ mIsInBrowserElement
 ;
 PRUint32
 mAppId
+;
+nsCString
+mExtendedOrigin
 ;
 }
 ;

@@ -176,6 +176,13 @@ URI
 originalURI
 PRUint32
 loadFlags
+/
+/
+Fields
+for
+imitating
+a
+nsILoadContext
 bool
 haveLoadContext
 bool
@@ -186,6 +193,8 @@ bool
 isInBrowserElement
 PRUint32
 appID
+nsCString
+extendedOrigin
 )
 ;
 /

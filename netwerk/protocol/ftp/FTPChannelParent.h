@@ -135,6 +135,10 @@ const
 PRUint32
 &
 appId
+const
+nsCString
+&
+extendedOrigin
 )
 ;
 NS_OVERRIDE
@@ -213,6 +217,9 @@ mIsInBrowserElement
 ;
 PRUint32
 mAppId
+;
+nsCString
+mExtendedOrigin
 ;
 }
 ;
