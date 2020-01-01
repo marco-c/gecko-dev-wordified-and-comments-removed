@@ -1794,6 +1794,9 @@ nsDelayedBroadcastUpdate
 >
 mDelayedAttrChangeBroadcasts
 ;
+PRBool
+mHandlingDelayedAttrChange
+;
 private
 :
 }
