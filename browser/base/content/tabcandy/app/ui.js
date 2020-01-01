@@ -3822,8 +3822,6 @@ mTabBox
 ;
 currentWin
 .
-gBrowser
-.
 addEventListener
 (
 "
