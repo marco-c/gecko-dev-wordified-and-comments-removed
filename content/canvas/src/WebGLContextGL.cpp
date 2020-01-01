@@ -15178,7 +15178,7 @@ IsWriteOnly
 nsContentUtils
 :
 :
-IsCallerTrustedForRead
+IsCallerChrome
 (
 )
 )

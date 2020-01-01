@@ -14157,7 +14157,7 @@ if
 nsContentUtils
 :
 :
-IsCallerTrustedForRead
+IsCallerChrome
 (
 )
 )
