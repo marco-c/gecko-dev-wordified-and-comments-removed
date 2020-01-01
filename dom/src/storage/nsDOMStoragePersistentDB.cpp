@@ -666,7 +666,7 @@ rv
 service
 -
 >
-OpenDatabase
+OpenUnsharedDatabase
 (
 storageFile
 getter_AddRefs
@@ -704,7 +704,7 @@ rv
 service
 -
 >
-OpenDatabase
+OpenUnsharedDatabase
 (
 storageFile
 getter_AddRefs
