@@ -369,12 +369,7 @@ nsGeolocationService
 (
 )
 {
-mTimeout
-=
-6000
-;
 }
-;
 nsresult
 Init
 (
@@ -437,9 +432,6 @@ nsCOMPtr
 nsITimer
 >
 mDisconnectTimer
-;
-PRInt32
-mTimeout
 ;
 nsCOMArray
 <

@@ -1004,14 +1004,6 @@ atom
 )
 ;
 bool
-jsop_callgname
-(
-JSAtom
-*
-atom
-)
-;
-bool
 jsop_setgname
 (
 JSAtom

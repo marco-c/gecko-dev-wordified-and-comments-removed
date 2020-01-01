@@ -2840,6 +2840,13 @@ nsIDOMTouchList
 '
 nsIDOMTouchEvent
 '
+'
+nsITelephoneCallback
+'
+:
+'
+nsITelephone
+'
 }
 customIncludes
 =

@@ -540,8 +540,6 @@ NULL
 )
 ifdef
 MOZ_B2G_RIL
-#
-{
 DIRS
 +
 =
@@ -554,8 +552,6 @@ wifi
 NULL
 )
 endif
-#
-}
 ifdef
 ENABLE_TESTS
 DIRS

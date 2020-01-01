@@ -8711,7 +8711,7 @@ System
 loadLibrary
 (
 "
-mozutils
+mozglue
 "
 )
 ;

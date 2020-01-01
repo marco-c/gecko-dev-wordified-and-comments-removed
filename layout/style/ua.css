@@ -707,6 +707,15 @@ rule
 :
 inherit
 ;
+-
+moz
+-
+column
+-
+fill
+:
+inherit
+;
 position
 :
 static

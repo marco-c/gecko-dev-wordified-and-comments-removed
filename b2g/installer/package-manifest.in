@@ -391,7 +391,7 @@ dex
 BINPATH
 /
 DLL_PREFIX
-mozutils
+mozglue
 DLL_SUFFIX
 BINPATH
 /
@@ -830,6 +830,13 @@ BINPATH
 components
 /
 dom_sidebar
+.
+xpt
+BINPATH
+/
+components
+/
+dom_sms
 .
 xpt
 BINPATH

@@ -1379,7 +1379,7 @@ System
 loadLibrary
 (
 "
-mozutils
+mozglue
 "
 )
 ;

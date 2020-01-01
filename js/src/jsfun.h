@@ -1255,6 +1255,8 @@ JSAtom
 atom
 )
 ;
+private
+:
 inline
 JSFunction
 *

@@ -621,7 +621,7 @@ having
 sqlite
 linked
 against
-mozutils
+mozglue
 #
 causes
 crashes
@@ -630,7 +630,7 @@ NSS
 standalone
 tools
 .
-MOZ_UTILS_LDFLAGS
+MOZ_GLUE_LDFLAGS
 =
 endif
 #
