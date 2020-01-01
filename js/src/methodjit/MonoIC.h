@@ -226,11 +226,6 @@ dataConst
 :
 1
 ;
-bool
-dataWrite
-:
-1
-;
 }
 name
 ;
