@@ -24082,6 +24082,11 @@ SubclassWindow
 FALSE
 )
 ;
+EnableDragDrop
+(
+PR_FALSE
+)
+;
 mWnd
 =
 NULL
