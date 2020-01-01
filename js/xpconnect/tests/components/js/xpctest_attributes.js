@@ -113,6 +113,10 @@ charProperty
 "
 X
 "
+timeProperty
+:
+-
+1
 }
 ;
 function
@@ -210,6 +214,10 @@ charReadOnly
 "
 X
 "
+timeReadOnly
+:
+-
+1
 }
 ;
 var

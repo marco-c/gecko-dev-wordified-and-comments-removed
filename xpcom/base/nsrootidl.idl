@@ -197,7 +197,6 @@ long
 PRUint64
 ;
 typedef
-unsigned
 long
 long
 PRTime

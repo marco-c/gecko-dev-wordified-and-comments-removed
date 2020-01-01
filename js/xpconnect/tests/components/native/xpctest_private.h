@@ -87,6 +87,9 @@ floatProperty
 char
 charProperty
 ;
+PRTime
+timeProperty
+;
 }
 ;
 class
@@ -129,6 +132,9 @@ charProperty
 char
 *
 stringProperty
+;
+PRTime
+timeProperty
 ;
 }
 ;
