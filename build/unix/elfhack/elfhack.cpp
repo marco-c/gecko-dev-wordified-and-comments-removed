@@ -1528,7 +1528,7 @@ word0
 (
 word1
 &
-0xd000
+0x9000
 )
 !
 =
@@ -1543,6 +1543,8 @@ runtime_error
 (
 "
 R_ARM_THM_JUMP24
+/
+R_ARM_THM_CALL
 relocation
 only
 supported
@@ -1550,6 +1552,11 @@ for
 B
 .
 W
+<
+label
+>
+and
+BL
 <
 label
 >
@@ -1767,7 +1774,11 @@ tmp
 )
 |
 (
-0x9000
+(
+word1
+&
+0xd000
+)
 <
 <
 16
@@ -2483,6 +2494,13 @@ addr
 ;
 break
 ;
+case
+REL
+(
+ARM
+THM_PC22
+)
+:
 case
 REL
 (
