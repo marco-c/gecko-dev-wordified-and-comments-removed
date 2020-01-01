@@ -1019,6 +1019,15 @@ VMFrame
 f
 )
 ;
+void
+JS_FASTCALL
+Unbrand
+(
+VMFrame
+&
+f
+)
+;
 }
 }
 }

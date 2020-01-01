@@ -660,6 +660,11 @@ jsop_getelem_slow
 )
 ;
 void
+jsop_unbrand
+(
+)
+;
+void
 jsop_bitop
 (
 JSOp
