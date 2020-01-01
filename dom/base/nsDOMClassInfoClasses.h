@@ -553,10 +553,6 @@ IDBOpenDBRequest
 )
 DOMCI_CLASS
 (
-Touch
-)
-DOMCI_CLASS
-(
 TouchList
 )
 DOMCI_CLASS

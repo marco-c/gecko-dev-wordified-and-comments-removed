@@ -1191,6 +1191,10 @@ TimeRanges
 .
 webidl
 \
+Touch
+.
+webidl
+\
 TouchEvent
 .
 webidl

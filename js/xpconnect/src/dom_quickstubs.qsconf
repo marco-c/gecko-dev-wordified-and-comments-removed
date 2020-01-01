@@ -442,11 +442,6 @@ long
 parameters
 .
 '
-nsIDOMTouch
-.
-*
-'
-'
 nsIDOMTouchList
 .
 *

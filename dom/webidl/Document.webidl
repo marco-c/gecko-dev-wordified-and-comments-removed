@@ -325,9 +325,6 @@ interface
 StyleSheetList
 ;
 interface
-Touch
-;
-interface
 TouchList
 ;
 interface
