@@ -435,6 +435,11 @@ pwd
 -
 W
 )
+CFLAGS
++
+=
+-
+DHAVE_SHUNT
 include
 (
 DEPTH
