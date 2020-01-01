@@ -62,11 +62,15 @@ http
 :
 /
 /
-nightly
+www
 .
 mozilla
 .
-org
+com
+/
+firefox
+/
+channel
 /
 "
 )
