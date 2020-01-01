@@ -2290,9 +2290,6 @@ h
 sqlite3
 .
 h
-sqlite3file
-.
-h
 ssdef
 .
 h

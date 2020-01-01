@@ -457,10 +457,6 @@ NULL
 CPPSRCS
 =
 \
-mozStorageAsyncIO
-.
-cpp
-\
 mozStorageService
 .
 cpp
