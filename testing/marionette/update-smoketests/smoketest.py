@@ -75,12 +75,12 @@ marionette_client_dir
 )
     
 from
-b2ginstance
+b2gbuild
 import
-B2GInstance
+B2GBuild
     
 return
-B2GInstance
+B2GBuild
 (
 )
 class
