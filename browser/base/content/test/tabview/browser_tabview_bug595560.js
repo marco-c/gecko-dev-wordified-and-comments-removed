@@ -131,6 +131,12 @@ visible
 "
 )
 ;
+afterAllTabItemsUpdated
+(
+function
+(
+)
+{
 let
 contentWindow
 =
@@ -150,6 +156,9 @@ contentWindow
 testOne
 (
 contentWindow
+)
+;
+}
 )
 ;
 }

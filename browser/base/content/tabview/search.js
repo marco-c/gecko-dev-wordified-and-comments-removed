@@ -371,7 +371,7 @@ tabTitle
 0
 ]
 .
-innerHTML
+textContent
 ;
 }
 URLOf
