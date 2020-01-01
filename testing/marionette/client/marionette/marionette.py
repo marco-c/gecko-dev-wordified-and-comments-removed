@@ -448,7 +448,7 @@ id
 )
     
 def
-selected
+is_selected
 (
 self
 )

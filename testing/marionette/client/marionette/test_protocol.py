@@ -590,7 +590,7 @@ id3
 '
 )
 .
-selected
+is_selected
 (
 )
 )
