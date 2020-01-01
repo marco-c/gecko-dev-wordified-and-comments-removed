@@ -149,13 +149,5 @@ InstanceData
 instanceData
 )
 ;
-bool
-pluginCrashInNestedLoop
-(
-InstanceData
-*
-instanceData
-)
-;
 #
 endif
