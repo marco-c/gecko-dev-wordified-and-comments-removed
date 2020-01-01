@@ -3434,6 +3434,11 @@ aCharSet
 )
 ;
 void
+InvalidateThebesLayers
+(
+)
+;
+void
 AppUnitsPerDevPixelChanged
 (
 )
