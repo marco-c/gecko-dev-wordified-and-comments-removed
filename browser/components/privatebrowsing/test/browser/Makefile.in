@@ -517,6 +517,14 @@ browser_privatebrowsing_popupmode
 .
 js
 \
+browser_privatebrowsing_geoprompt
+.
+js
+\
+browser_privatebrowsing_geoprompt_page
+.
+html
+\
 (
 NULL
 )
