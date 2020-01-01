@@ -1679,6 +1679,14 @@ file_CSP_main
 .
 js
 \
+test_bug540854
+.
+html
+\
+bug540854
+.
+sjs
+\
 (
 NULL
 )
