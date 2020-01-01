@@ -18802,6 +18802,15 @@ parse
 aData
 )
 ;
+let
+zoom
+=
+BrowserApp
+.
+selectedTab
+.
+_zoom
+;
 data
 .
 x
@@ -18813,6 +18822,8 @@ round
 data
 .
 x
+/
+zoom
 )
 ;
 data
@@ -18826,6 +18837,8 @@ round
 data
 .
 y
+/
+zoom
 )
 ;
 if
