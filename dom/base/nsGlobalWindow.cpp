@@ -24788,13 +24788,13 @@ if
 cxStack
 )
 {
+cx
+=
 cxStack
 -
 >
 GetSafeJSContext
 (
-&
-cx
 )
 ;
 }

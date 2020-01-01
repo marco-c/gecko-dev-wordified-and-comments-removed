@@ -923,9 +923,6 @@ shutdown
 JSContext
 *
 cx
-;
-nsresult
-rv
 =
 nsContentUtils
 :
@@ -937,14 +934,12 @@ ThreadJSContextStack
 >
 GetSafeJSContext
 (
-&
-cx
 )
 ;
-NS_ENSURE_SUCCESS
+NS_ENSURE_TRUE
 (
-rv
-rv
+cx
+NS_ERROR_FAILURE
 )
 ;
 nsCxPusher
@@ -952,10 +947,6 @@ pusher
 ;
 if
 (
-!
-cx
-|
-|
 !
 pusher
 .
@@ -970,6 +961,7 @@ return
 NS_ERROR_FAILURE
 ;
 }
+nsresult
 rv
 =
 InitRIL
