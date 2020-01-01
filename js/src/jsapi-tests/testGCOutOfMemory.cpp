@@ -281,7 +281,7 @@ createRuntime
 return
 JS_NewRuntime
 (
-256
+512
 *
 1024
 )
