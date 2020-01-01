@@ -2201,11 +2201,8 @@ zero
 ;
 }
 mOutlineOffset
-.
-SetCoordValue
-(
+=
 0
-)
 ;
 mOutlineWidth
 =
