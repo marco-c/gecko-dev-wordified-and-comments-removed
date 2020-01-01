@@ -1,7 +1,7 @@
 #
 include
 "
-AndroidFlexViewWrapper
+AndroidLayerViewWrapper
 .
 h
 "
@@ -20,10 +20,6 @@ ASSERT_THREAD
 \
 NS_ASSERTION
 (
-(
-void
-*
-)
 pthread_self
 (
 )
@@ -263,10 +259,6 @@ aJEnv
 ;
 mThread
 =
-(
-void
-*
-)
 pthread_self
 (
 )
