@@ -1211,6 +1211,10 @@ blockPluginVulnerableNoUpdate
 .
 xml
 \
+browser_utilityOverlay
+.
+js
+\
 browser_social
 .
 js
