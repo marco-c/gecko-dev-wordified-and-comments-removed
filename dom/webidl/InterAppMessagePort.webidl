@@ -169,6 +169,15 @@ InterAppComm
 :
 EnabledForScope
 "
+Constructor
+(
+DOMString
+keyword
+DOMString
+messagePortID
+boolean
+isPublisher
+)
 JSImplementation
 =
 "
