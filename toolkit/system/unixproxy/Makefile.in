@@ -455,6 +455,7 @@ mozgnome
 NULL
 )
 EXTRA_DSO_LDOPTS
++
 =
 \
 (
