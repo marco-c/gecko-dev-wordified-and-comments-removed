@@ -126,6 +126,13 @@ h
 '
 cairo
 -
+features
+.
+h
+'
+'
+cairo
+-
 platform
 .
 h
