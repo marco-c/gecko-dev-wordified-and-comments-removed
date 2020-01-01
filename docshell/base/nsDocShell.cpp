@@ -1011,13 +1011,6 @@ nsITimedChannel
 .
 h
 "
-#
-include
-"
-nsIDOMWindowInternal
-.
-h
-"
 static
 NS_DEFINE_CID
 (

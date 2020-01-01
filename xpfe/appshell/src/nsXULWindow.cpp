@@ -309,13 +309,6 @@ h
 #
 include
 "
-nsIDOMWindowInternal
-.
-h
-"
-#
-include
-"
 mozilla
 /
 Preferences
