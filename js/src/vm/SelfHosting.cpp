@@ -2950,6 +2950,10 @@ JSTracer
 trc
 )
 {
+if
+(
+selfHostingGlobal_
+)
 MarkObjectRoot
 (
 trc
