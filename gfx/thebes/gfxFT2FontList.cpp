@@ -5610,6 +5610,18 @@ ResolveFontName
 NS_LITERAL_STRING
 (
 "
+Roboto
+"
+)
+resolvedName
+)
+|
+|
+ResolveFontName
+(
+NS_LITERAL_STRING
+(
+"
 Droid
 Sans
 "
@@ -5617,6 +5629,7 @@ Sans
 resolvedName
 )
 )
+{
 return
 FindFontForFamily
 (
@@ -5625,6 +5638,7 @@ aStyle
 aNeedsBold
 )
 ;
+}
 #
 endif
 return
