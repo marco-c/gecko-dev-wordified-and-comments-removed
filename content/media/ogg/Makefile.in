@@ -437,6 +437,10 @@ nsOggDecoder
 .
 h
 \
+nsOggDecoderStateMachine
+.
+h
+\
 nsOggCodecState
 .
 h
@@ -448,6 +452,10 @@ CPPSRCS
 =
 \
 nsOggDecoder
+.
+cpp
+\
+nsOggDecoderStateMachine
 .
 cpp
 \
