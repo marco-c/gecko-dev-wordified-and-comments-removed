@@ -186,10 +186,6 @@ nsIInlineEventHandlers
 .
 idl
 \
-nsIDOMMutationObserver
-.
-idl
-\
 (
 NULL
 )

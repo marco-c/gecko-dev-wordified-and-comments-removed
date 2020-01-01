@@ -231,6 +231,10 @@ ImageData
 .
 webidl
 \
+MutationObserver
+.
+webidl
+\
 Node
 .
 webidl

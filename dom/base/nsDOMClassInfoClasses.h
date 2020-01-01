@@ -1430,14 +1430,6 @@ DOMCI_CLASS
 (
 MediaQueryList
 )
-DOMCI_CLASS
-(
-MutationObserver
-)
-DOMCI_CLASS
-(
-MutationRecord
-)
 #
 ifdef
 MOZ_B2G_RIL
