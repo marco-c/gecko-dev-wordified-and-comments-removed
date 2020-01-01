@@ -467,6 +467,10 @@ test_bug331215
 .
 xul
 \
+widget_progressmeter
+.
+xul
+\
 (
 NULL
 )
