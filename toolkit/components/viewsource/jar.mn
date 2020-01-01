@@ -71,7 +71,6 @@ viewSource
 .
 css
 )
-*
 content
 /
 global
@@ -101,7 +100,6 @@ viewSource
 .
 xul
 )
-*
 content
 /
 global
@@ -131,7 +129,6 @@ viewPartialSource
 .
 xul
 )
-*
 content
 /
 global

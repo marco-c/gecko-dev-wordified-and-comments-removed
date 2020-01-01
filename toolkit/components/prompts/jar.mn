@@ -57,8 +57,6 @@ toolkit
 .
 jar
 :
-*
-+
 content
 /
 global
@@ -103,7 +101,6 @@ commonDialog
 .
 css
 )
-+
 content
 /
 global
@@ -118,7 +115,6 @@ selectDialog
 .
 js
 )
-+
 content
 /
 global
@@ -133,7 +129,6 @@ selectDialog
 .
 xul
 )
-*
 content
 /
 global

@@ -91,7 +91,6 @@ createProfileWizard
 .
 xul
 )
-*
 content
 /
 mozapps
@@ -108,7 +107,6 @@ profileSelection
 .
 js
 )
-*
 content
 /
 mozapps
