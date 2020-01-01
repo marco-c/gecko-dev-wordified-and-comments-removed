@@ -1807,6 +1807,7 @@ _results
 removeItemAt
 (
 lastItem
+true
 )
 ;
 continue
@@ -1875,6 +1876,7 @@ appendItem
 (
 label
 value
+true
 )
 ;
 item
@@ -2045,6 +2047,7 @@ _searches
 removeItemAt
 (
 0
+true
 )
 ;
 this
@@ -2073,6 +2076,7 @@ name
 anEngine
 .
 name
+true
 )
 ;
 item
@@ -2258,15 +2262,18 @@ label
 label
 )
 ;
-}
-this
+item
 .
-_searches
+refresh
+&
+&
+item
 .
-arrangeItems
+refresh
 (
 )
 ;
+}
 ]
 ]
 >
