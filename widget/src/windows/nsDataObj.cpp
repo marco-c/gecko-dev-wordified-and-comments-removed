@@ -1609,6 +1609,10 @@ g_cRef
 -
 g_cRef
 ;
+-
+-
+m_cRef
+;
 NS_LOG_RELEASE
 (
 this
@@ -1623,8 +1627,6 @@ if
 0
 !
 =
--
--
 m_cRef
 )
 return
@@ -3213,17 +3215,6 @@ return
 ResultFromScode
 (
 E_FAIL
-)
-;
-else
-(
-*
-ppEnum
-)
--
->
-AddRef
-(
 )
 ;
 return
