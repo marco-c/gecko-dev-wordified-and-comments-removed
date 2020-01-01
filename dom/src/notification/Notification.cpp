@@ -173,7 +173,7 @@ aWindow
 )
 mPermission
 (
-NotificationPermission
+NotificationPermissionValues
 :
 :
 Default
@@ -427,7 +427,7 @@ isFile
 {
 mPermission
 =
-NotificationPermission
+NotificationPermissionValues
 :
 :
 Granted
@@ -473,7 +473,7 @@ true
 {
 mPermission
 =
-NotificationPermission
+NotificationPermissionValues
 :
 :
 Granted
@@ -483,7 +483,7 @@ else
 {
 mPermission
 =
-NotificationPermission
+NotificationPermissionValues
 :
 :
 Denied
@@ -495,7 +495,7 @@ if
 mPermission
 !
 =
-NotificationPermission
+NotificationPermissionValues
 :
 :
 Default
@@ -691,7 +691,7 @@ Cancel
 {
 mPermission
 =
-NotificationPermission
+NotificationPermissionValues
 :
 :
 Denied
@@ -712,7 +712,7 @@ Allow
 {
 mPermission
 =
-NotificationPermission
+NotificationPermissionValues
 :
 :
 Granted
@@ -1330,7 +1330,7 @@ result
 )
 !
 =
-NotificationPermission
+NotificationPermissionValues
 :
 :
 Granted
@@ -1727,7 +1727,7 @@ NS_ERROR_UNEXPECTED
 )
 ;
 return
-NotificationPermission
+NotificationPermissionValues
 :
 :
 Denied
@@ -1784,7 +1784,7 @@ isFile
 )
 {
 return
-NotificationPermission
+NotificationPermissionValues
 :
 :
 Granted
@@ -1829,7 +1829,7 @@ true
 )
 {
 return
-NotificationPermission
+NotificationPermissionValues
 :
 :
 Granted
@@ -1838,7 +1838,7 @@ Granted
 else
 {
 return
-NotificationPermission
+NotificationPermissionValues
 :
 :
 Denied
@@ -1940,7 +1940,7 @@ nsIPermissionManager
 ALLOW_ACTION
 :
 return
-NotificationPermission
+NotificationPermissionValues
 :
 :
 Granted
@@ -1952,7 +1952,7 @@ nsIPermissionManager
 DENY_ACTION
 :
 return
-NotificationPermission
+NotificationPermissionValues
 :
 :
 Denied
@@ -1960,7 +1960,7 @@ Denied
 default
 :
 return
-NotificationPermission
+NotificationPermissionValues
 :
 :
 Default
