@@ -1572,7 +1572,7 @@ visibleIndex
 =
 requestsMenu
 .
-orderedVisibleItems
+visibleItems
 .
 indexOf
 (

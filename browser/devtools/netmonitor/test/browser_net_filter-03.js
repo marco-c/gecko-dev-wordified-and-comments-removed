@@ -814,7 +814,7 @@ is
 (
 RequestsMenu
 .
-orderedItems
+items
 .
 length
 aOrder
@@ -891,7 +891,7 @@ i
 )
 RequestsMenu
 .
-orderedItems
+items
 [
 i
 ]
