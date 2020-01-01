@@ -29,8 +29,6 @@ WebGLUniformLocation
 MOZ_FINAL
 :
 public
-nsISupports
-public
 WebGLContextBoundObject
 {
 public
@@ -138,8 +136,11 @@ JSObject
 scope
 )
 ;
-NS_DECL_CYCLE_COLLECTING_ISUPPORTS
-NS_DECL_CYCLE_COLLECTION_CLASS
+NS_INLINE_DECL_CYCLE_COLLECTING_NATIVE_REFCOUNTING
+(
+WebGLUniformLocation
+)
+NS_DECL_CYCLE_COLLECTION_NATIVE_CLASS
 (
 WebGLUniformLocation
 )

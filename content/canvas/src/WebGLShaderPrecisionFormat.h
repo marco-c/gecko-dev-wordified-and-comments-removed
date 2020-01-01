@@ -22,8 +22,6 @@ WebGLShaderPrecisionFormat
 MOZ_FINAL
 :
 public
-nsISupports
-public
 WebGLContextBoundObject
 {
 public
@@ -77,7 +75,6 @@ JSObject
 scope
 )
 ;
-NS_DECL_ISUPPORTS
 WebGLint
 RangeMin
 (
@@ -108,6 +105,10 @@ return
 mPrecision
 ;
 }
+NS_INLINE_DECL_REFCOUNTING
+(
+WebGLShaderPrecisionFormat
+)
 protected
 :
 WebGLint

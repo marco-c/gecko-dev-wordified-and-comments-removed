@@ -41,7 +41,7 @@ WebGLFramebuffer
 MOZ_FINAL
 :
 public
-nsISupports
+nsWrapperCache
 public
 WebGLRefCountedObject
 <
@@ -54,8 +54,6 @@ WebGLFramebuffer
 >
 public
 WebGLContextBoundObject
-public
-nsWrapperCache
 {
 public
 :
@@ -529,8 +527,11 @@ scope
 )
 MOZ_OVERRIDE
 ;
-NS_DECL_CYCLE_COLLECTING_ISUPPORTS
-NS_DECL_CYCLE_COLLECTION_SCRIPT_HOLDER_CLASS
+NS_INLINE_DECL_CYCLE_COLLECTING_NATIVE_REFCOUNTING
+(
+WebGLFramebuffer
+)
+NS_DECL_CYCLE_COLLECTION_SCRIPT_HOLDER_NATIVE_CLASS
 (
 WebGLFramebuffer
 )
