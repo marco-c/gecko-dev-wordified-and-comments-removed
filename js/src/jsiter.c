@@ -2094,7 +2094,7 @@ id
 )
 )
 return
-JS_TRUE
+JS_FALSE
 ;
 STOBJ_SET_SLOT
 (
