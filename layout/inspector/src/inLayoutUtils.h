@@ -110,9 +110,6 @@ GetFrameFor
 nsIDOMElement
 *
 aElement
-nsIPresShell
-*
-aShell
 )
 ;
 static

@@ -3896,14 +3896,6 @@ GetScrollParts
 (
 )
 {
-nsPresContext
-*
-presContext
-=
-PresContext
-(
-)
-;
 ScrollParts
 result
 =
@@ -3930,17 +3922,11 @@ treeFrame
 =
 baseElement
 ?
-presContext
--
->
-PresShell
-(
-)
--
->
-GetPrimaryFrameFor
-(
 baseElement
+-
+>
+GetPrimaryFrame
+(
 )
 :
 nsnull
@@ -6014,7 +6000,6 @@ aColumn
 >
 GetFrame
 (
-this
 )
 "
 invalid
@@ -6756,7 +6741,6 @@ aColumn
 >
 GetFrame
 (
-this
 )
 "
 invalid
@@ -8786,7 +8770,6 @@ aCol
 >
 GetFrame
 (
-this
 )
 "
 invalid
@@ -13382,7 +13365,6 @@ aColumn
 >
 GetFrame
 (
-this
 )
 "
 invalid
@@ -14505,7 +14487,6 @@ aColumn
 >
 GetFrame
 (
-this
 )
 "
 invalid
@@ -15372,7 +15353,6 @@ aColumn
 >
 GetFrame
 (
-this
 )
 "
 invalid
@@ -15785,7 +15765,6 @@ aColumn
 >
 GetFrame
 (
-this
 )
 "
 invalid
@@ -16267,7 +16246,6 @@ aColumn
 >
 GetFrame
 (
-this
 )
 "
 invalid
@@ -16795,7 +16773,6 @@ aColumn
 >
 GetFrame
 (
-this
 )
 "
 invalid
@@ -17107,7 +17084,6 @@ aColumn
 >
 GetFrame
 (
-this
 )
 "
 invalid

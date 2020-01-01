@@ -475,6 +475,7 @@ nsIDocument
 GetDocument
 (
 )
+const
 {
 return
 mDocument

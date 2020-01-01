@@ -259,12 +259,11 @@ nsIFrame
 *
 frame
 =
-shell
+aContent
 -
 >
-GetPrimaryFrameFor
+GetPrimaryFrame
 (
-aContent
 )
 ;
 if
