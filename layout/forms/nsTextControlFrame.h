@@ -448,15 +448,6 @@ aEditor
 MOZ_OVERRIDE
 ;
 NS_IMETHOD
-GetTextLength
-(
-int32_t
-*
-aTextLength
-)
-MOZ_OVERRIDE
-;
-NS_IMETHOD
 SetSelectionStart
 (
 int32_t

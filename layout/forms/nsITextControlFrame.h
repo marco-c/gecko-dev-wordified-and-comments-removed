@@ -55,16 +55,6 @@ aEditor
 0
 ;
 NS_IMETHOD
-GetTextLength
-(
-int32_t
-*
-aTextLength
-)
-=
-0
-;
-NS_IMETHOD
 SetSelectionStart
 (
 int32_t
