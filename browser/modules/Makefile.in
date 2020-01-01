@@ -92,6 +92,10 @@ test
 EXTRA_JS_MODULES
 =
 \
+BrowserNewTabPreloader
+.
+jsm
+\
 openLocationLastURL
 .
 jsm
