@@ -642,6 +642,11 @@ SpdyStream
 PRUint32
 )
 ;
+void
+SetNeedsCleanup
+(
+)
+;
 nsresult
 NetworkRead
 (
