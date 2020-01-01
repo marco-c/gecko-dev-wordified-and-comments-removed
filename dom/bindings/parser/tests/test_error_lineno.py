@@ -8,22 +8,6 @@ harness
 )
 :
     
-#
-Check
-that
-error
-messages
-put
-the
-'
-^
-'
-in
-the
-right
-place
-.
-    
 threw
 =
 False
@@ -105,9 +89,6 @@ split
 n
 '
 )
-        
-print
-lines
         
 harness
 .

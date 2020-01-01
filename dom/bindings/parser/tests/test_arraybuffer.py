@@ -423,14 +423,6 @@ type
 "
 )
         
-print
-type
-(
-attr
-.
-type
-)
-        
 harness
 .
 ok
