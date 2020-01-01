@@ -609,8 +609,6 @@ public
 void
 Restyle
 (
-nsChangeHint
-aParentFrameHintsNotHandledForDescendants
 nsRestyleHint
 aRestyleHint
 RestyleTracker
@@ -651,11 +649,6 @@ nsStyleContext
 *
 aNewContext
 nsChangeHint
-aParentHintsNotHandledForDescendants
-nsChangeHint
-&
-aHintsNotHandledForDescendants
-nsChangeHint
 aChangeToAssume
 )
 ;
@@ -688,6 +681,12 @@ mChangeList
 ;
 nsChangeHint
 mHintsHandled
+;
+nsChangeHint
+mParentFrameHintsNotHandledForDescendants
+;
+nsChangeHint
+mHintsNotHandledForDescendants
 ;
 }
 ;
