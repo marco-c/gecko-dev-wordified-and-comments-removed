@@ -1497,7 +1497,7 @@ oncommand
 goDoCommand
 (
 '
-cmd_copyImageContents
+cmd_copyImage
 '
 )
 ;
