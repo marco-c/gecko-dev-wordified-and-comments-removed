@@ -1915,6 +1915,16 @@ do_QueryInterface
 identity
 )
 ;
+if
+(
+!
+ci
+)
+{
+return
+NS_OK
+;
+}
 XPCCallContext
 ccx
 (
