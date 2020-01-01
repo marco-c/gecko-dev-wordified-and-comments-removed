@@ -3313,17 +3313,6 @@ function
 (
 )
 {
-if
-(
-'
-verifyPassphrase
-'
-in
-Svc
-.
-Crypto
-)
-{
 this
 .
 _log
@@ -3413,7 +3402,6 @@ e
 return
 true
 ;
-}
 }
 return
 true
