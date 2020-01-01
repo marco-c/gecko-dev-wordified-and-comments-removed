@@ -450,6 +450,10 @@ nsCocoaUtils
 .
 h
 \
+nsCocoaFeatures
+.
+h
+\
 (
 NULL
 )
@@ -501,6 +505,10 @@ nsToolkit
 mm
 \
 nsAppShell
+.
+mm
+\
+nsCocoaFeatures
 .
 mm
 \
