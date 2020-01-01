@@ -486,15 +486,12 @@ properties
 )
 {
 return
-freeze
-(
 create
 (
 prototype
 getOwnPropertyDescriptors
 (
 properties
-)
 )
 )
 ;
