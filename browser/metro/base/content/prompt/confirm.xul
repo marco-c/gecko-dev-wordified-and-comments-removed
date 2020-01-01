@@ -437,6 +437,9 @@ class
 prompt
 -
 button
+button
+-
+default
 "
 label
 =
