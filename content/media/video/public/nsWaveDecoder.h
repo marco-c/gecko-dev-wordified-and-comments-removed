@@ -227,6 +227,14 @@ aBytes
 ;
 virtual
 void
+SetDuration
+(
+PRInt64
+aDuration
+)
+;
+virtual
+void
 SetSeekable
 (
 PRBool

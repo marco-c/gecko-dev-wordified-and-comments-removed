@@ -5362,6 +5362,16 @@ void
 nsWaveDecoder
 :
 :
+SetDuration
+(
+PRInt64
+)
+{
+}
+void
+nsWaveDecoder
+:
+:
 SetSeekable
 (
 PRBool
