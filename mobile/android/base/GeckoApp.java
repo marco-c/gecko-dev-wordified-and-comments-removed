@@ -10064,7 +10064,7 @@ layer_view
 ;
 layerView
 .
-createLayerClient
+initializeView
 (
 GeckoAppShell
 .
