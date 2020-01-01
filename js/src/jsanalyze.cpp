@@ -1624,6 +1624,15 @@ false
 break
 ;
 case
+JSOP_FINALLY
+:
+hasTryFinally_
+=
+true
+;
+break
+;
+case
 JSOP_ARGUMENTS
 :
 case
