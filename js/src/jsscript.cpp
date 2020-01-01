@@ -1104,7 +1104,7 @@ scopeobj
 NULL
 principals
 tcflags
-STRING_CHARS
+JSSTRING_CHARS
 (
 str
 )
