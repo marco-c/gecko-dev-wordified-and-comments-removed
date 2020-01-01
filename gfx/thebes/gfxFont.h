@@ -4424,6 +4424,15 @@ bool
 aIsBadUnderlineFont
 )
 ;
+static
+double
+CalcXScale
+(
+gfxContext
+*
+aContext
+)
+;
 }
 ;
 #

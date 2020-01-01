@@ -5099,8 +5099,10 @@ undef
 GLYPH_BUFFER_SIZE
 }
 ;
-static
 double
+gfxFont
+:
+:
 CalcXScale
 (
 gfxContext
