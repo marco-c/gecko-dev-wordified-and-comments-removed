@@ -30,10 +30,6 @@ mozilla
 namespace
 jsipc
 {
-using
-namespace
-IPC
-;
 template
 <
 typename
@@ -46,6 +42,9 @@ static
 void
 Write
 (
+IPC
+:
+:
 Message
 *
 const
@@ -59,6 +58,9 @@ bool
 Read
 (
 const
+IPC
+:
+:
 Message
 *
 void
@@ -88,6 +90,9 @@ static
 void
 Write
 (
+IPC
+:
+:
 Message
 *
 m
@@ -112,6 +117,9 @@ bool
 Read
 (
 const
+IPC
+:
+:
 Message
 *
 m
@@ -158,13 +166,6 @@ true
 namespace
 IPC
 {
-using
-namespace
-mozilla
-:
-:
-jsipc
-;
 template
 <
 >
@@ -175,6 +176,12 @@ JSType
 >
 :
 public
+mozilla
+:
+:
+jsipc
+:
+:
 CPOWConvertible
 <
 JSType
