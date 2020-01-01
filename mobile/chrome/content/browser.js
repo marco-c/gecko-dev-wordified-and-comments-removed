@@ -1686,7 +1686,7 @@ true
 break
 ;
 case
-t
+u
 :
 let
 ijstrs
@@ -14718,6 +14718,14 @@ createElement
 browser
 "
 )
+;
+this
+.
+_chromeTab
+.
+linkedBrowser
+=
+browser
 ;
 browser
 .
