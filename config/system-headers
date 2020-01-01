@@ -788,6 +788,11 @@ gdkprivate
 h
 gdk
 /
+gdkscreen
+.
+h
+gdk
+/
 gdkregion
 .
 h
