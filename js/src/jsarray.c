@@ -1986,8 +1986,6 @@ JSCLASS_HAS_CACHED_PROTO
 (
 JSProto_Array
 )
-|
-JSCLASS_FIXED_BINDING
 array_addProperty
 JS_PropertyStub
 JS_PropertyStub
