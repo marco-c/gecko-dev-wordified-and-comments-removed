@@ -31660,7 +31660,7 @@ browser
 =
 aEvent
 .
-target
+originalTarget
 ;
 var
 notificationBox
