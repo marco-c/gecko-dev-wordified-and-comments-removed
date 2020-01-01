@@ -6726,7 +6726,7 @@ NS_STYLE_OVERFLOW_CLIP
 ;
 }
 bool
-HasTransform
+HasTransformStyle
 (
 )
 const
@@ -6841,6 +6841,17 @@ const
 inline
 bool
 IsAbsolutelyPositioned
+(
+const
+nsIFrame
+*
+aFrame
+)
+const
+;
+inline
+bool
+HasTransform
 (
 const
 nsIFrame

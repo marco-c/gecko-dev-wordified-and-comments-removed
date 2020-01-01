@@ -3572,6 +3572,7 @@ GetStyleDisplay
 >
 HasTransform
 (
+aAbsoluteContainingBlock
 )
 )
 mHavePendingPopupgroup
@@ -3722,6 +3723,7 @@ GetStyleDisplay
 >
 HasTransform
 (
+aAbsoluteContainingBlock
 )
 )
 mHavePendingPopupgroup
@@ -4063,7 +4065,6 @@ aNewAbsoluteContainingBlock
 ;
 mFixedPosIsAbsPos
 =
-(
 aNewAbsoluteContainingBlock
 &
 &
@@ -4077,7 +4078,7 @@ GetStyleDisplay
 >
 HasTransform
 (
-)
+aNewAbsoluteContainingBlock
 )
 ;
 if
@@ -31464,9 +31465,19 @@ nsChangeHint_UpdateOpacityLayer
 }
 if
 (
+(
 aChange
 &
 nsChangeHint_UpdateTransformLayer
+)
+&
+&
+aFrame
+-
+>
+IsTransformed
+(
+)
 )
 {
 aFrame
@@ -31606,7 +31617,7 @@ GetStyleDisplay
 )
 -
 >
-HasTransform
+HasTransformStyle
 (
 )
 "
