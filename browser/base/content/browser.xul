@@ -1391,7 +1391,7 @@ label
 =
 "
 &
-pinTab
+pinAppTab
 .
 label
 ;
@@ -1400,7 +1400,7 @@ accesskey
 =
 "
 &
-pinTab
+pinAppTab
 .
 accesskey
 ;
@@ -1431,7 +1431,7 @@ label
 =
 "
 &
-unpinTab
+unpinAppTab
 .
 label
 ;
@@ -1445,7 +1445,7 @@ accesskey
 =
 "
 &
-unpinTab
+unpinAppTab
 .
 accesskey
 ;
