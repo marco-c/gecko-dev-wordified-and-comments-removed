@@ -816,7 +816,10 @@ v
 index
 =
 =
+unsigned
+(
 vertex
+)
 )
 ;
 v
@@ -916,7 +919,10 @@ v
 index
 =
 =
+unsigned
+(
 vertex
+)
 )
 ;
 v
