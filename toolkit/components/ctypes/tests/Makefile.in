@@ -440,6 +440,15 @@ srcdir
 VPATH
 =
 srcdir
+relativesrcdir
+=
+toolkit
+/
+components
+/
+ctypes
+/
+tests
 include
 (
 DEPTH
@@ -551,7 +560,7 @@ testxpcobjdir
 )
 /
 (
-MODULE
+relativesrcdir
 )
 /
 unit
@@ -575,7 +584,7 @@ toolkit
 components
 /
 (
-MODULE
+relativesrcdir
 )
 #
 preprocess

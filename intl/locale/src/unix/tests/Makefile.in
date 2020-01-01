@@ -408,6 +408,17 @@ srcdir
 VPATH
 =
 srcdir
+relativesrcdir
+=
+intl
+/
+locale
+/
+src
+/
+unix
+/
+tests
 include
 (
 DEPTH

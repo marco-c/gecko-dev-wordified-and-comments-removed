@@ -399,6 +399,11 @@ srcdir
 VPATH
 =
 srcdir
+relativesrcdir
+=
+xpcom
+/
+tests
 include
 (
 DEPTH
@@ -917,7 +922,7 @@ _tests
 xpcshell
 /
 (
-MODULE
+relativesrcdir
 )
 /
 unit

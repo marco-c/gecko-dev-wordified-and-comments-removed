@@ -415,6 +415,13 @@ srcdir
 VPATH
 =
 srcdir
+relativesrcdir
+=
+modules
+/
+libpref
+/
+test
 include
 (
 DEPTH
