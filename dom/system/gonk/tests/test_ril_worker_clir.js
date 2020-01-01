@@ -147,6 +147,11 @@ REQUEST_SET_CLIR
 (
 0
 {
+rilMessageType
+:
+"
+setCLIR
+"
 rilRequestError
 :
 ERROR_SUCCESS
@@ -239,6 +244,11 @@ REQUEST_SET_CLIR
 (
 0
 {
+rilMessageType
+:
+"
+setCLIR
+"
 rilRequestError
 :
 ERROR_GENERIC_FAILURE
@@ -369,6 +379,11 @@ REQUEST_GET_CLIR
 (
 1
 {
+rilMessageType
+:
+"
+setCLIR
+"
 rilRequestError
 :
 ERROR_SUCCESS
@@ -510,6 +525,11 @@ REQUEST_GET_CLIR
 (
 1
 {
+rilMessageType
+:
+"
+setCLIR
+"
 rilRequestError
 :
 ERROR_SUCCESS
