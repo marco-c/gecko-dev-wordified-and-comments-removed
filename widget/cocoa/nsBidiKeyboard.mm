@@ -169,7 +169,7 @@ aIsRTL
 TISInputSourceWrapper
 :
 :
-CurrentKeyboardLayout
+CurrentInputSource
 (
 )
 .

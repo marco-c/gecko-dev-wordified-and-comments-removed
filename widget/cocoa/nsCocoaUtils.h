@@ -739,6 +739,14 @@ GetCurrentModifiers
 )
 ;
 static
+UInt32
+ConvertToCarbonModifier
+(
+NSUInteger
+aCocoaModifier
+)
+;
+static
 bool
 HiDPIEnabled
 (
