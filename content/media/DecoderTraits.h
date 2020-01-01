@@ -227,6 +227,16 @@ MediaDecoderOwner
 aOwner
 )
 ;
+static
+bool
+IsSupportedInVideoDocument
+(
+const
+nsACString
+&
+aType
+)
+;
 }
 ;
 }
