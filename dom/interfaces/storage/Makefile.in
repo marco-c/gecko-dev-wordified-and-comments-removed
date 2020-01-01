@@ -464,10 +464,6 @@ nsIDOMStorageEvent
 .
 idl
 \
-nsIDOMStorageEventObsolete
-.
-idl
-\
 nsIDOMStorageItem
 .
 idl

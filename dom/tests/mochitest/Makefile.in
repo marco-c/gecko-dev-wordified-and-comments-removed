@@ -453,8 +453,6 @@ localstorage
 \
 sessionstorage
 \
-storageevent
-\
 (
 NULL
 )
