@@ -451,6 +451,9 @@ nsPIDOMWindow
 class
 nsIDocumentLoaderFactory
 ;
+class
+nsIDOMHTMLInputElement
+;
 namespace
 mozilla
 {
@@ -3521,6 +3524,15 @@ aAsciiString
 nsAString
 &
 aBinaryData
+)
+;
+static
+bool
+IsAutocompleteEnabled
+(
+nsIDOMHTMLInputElement
+*
+aInput
 )
 ;
 private
