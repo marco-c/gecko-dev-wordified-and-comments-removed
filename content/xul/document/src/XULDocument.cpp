@@ -14056,6 +14056,8 @@ get
 endif
 nsresult
 rv
+=
+aStatus
 ;
 NS_ASSERTION
 (
