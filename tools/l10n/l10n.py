@@ -620,6 +620,26 @@ f
           
 continue
         
+if
+not
+os
+.
+path
+.
+exists
+(
+os
+.
+path
+.
+join
+(
+l10npath
+f
+)
+)
+:
+          
 copy2
 (
 os
