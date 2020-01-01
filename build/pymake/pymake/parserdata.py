@@ -642,7 +642,12 @@ r
 .
 append
 (
+data
+.
+stripdotslash
+(
 a
+)
 )
     
 return
