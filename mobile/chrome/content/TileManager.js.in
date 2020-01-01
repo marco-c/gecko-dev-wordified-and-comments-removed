@@ -2238,6 +2238,7 @@ dirtyRects
 (
 rects
 doCriticalRender
+keepTileInDom
 )
 {
 let
@@ -2333,6 +2334,11 @@ and
 redraw
 later
 .
+if
+(
+!
+keepTileInDom
+)
 this
 .
 _removeTileSafe

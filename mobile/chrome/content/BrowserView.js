@@ -2107,6 +2107,7 @@ this
 isRendering
 (
 )
+true
 )
 ;
 }
