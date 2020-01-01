@@ -336,6 +336,7 @@ return
 mChannels
 ;
 }
+virtual
 void
 EnsureTimeStretcherInitialized
 (
