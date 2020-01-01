@@ -1175,6 +1175,17 @@ JS_GENERIC_MAGIC
 }
 JSWhyMagic
 ;
+#
+ifdef
+__cplusplus
+class
+JSString
+;
+class
+JSFlatString
+;
+#
+else
 typedef
 struct
 JSString
@@ -1185,6 +1196,8 @@ struct
 JSFlatString
 JSFlatString
 ;
+#
+endif
 typedef
 struct
 JSObject

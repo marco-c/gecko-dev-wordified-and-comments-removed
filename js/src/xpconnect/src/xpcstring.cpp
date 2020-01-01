@@ -173,7 +173,7 @@ emptyAtom
 )
 {
 return
-ATOM_TO_JSVAL
+STRING_TO_JSVAL
 (
 atom
 )

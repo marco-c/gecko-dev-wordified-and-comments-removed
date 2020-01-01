@@ -600,7 +600,7 @@ sb
 )
 ;
 extern
-JSFlatString
+JSFixedString
 *
 NumberToString
 (

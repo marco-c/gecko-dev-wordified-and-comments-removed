@@ -103,6 +103,13 @@ jsobjinlines
 .
 h
 "
+#
+include
+"
+jsstrinlines
+.
+h
+"
 using
 namespace
 js
@@ -288,10 +295,7 @@ JSString
 *
 str
 =
-ATOM_TO_STRING
-(
 atom
-)
 ;
 if
 (
@@ -570,8 +574,6 @@ b
 )
 {
 return
-ATOM_TO_STRING
-(
 cx
 -
 >
@@ -588,7 +590,6 @@ b
 :
 0
 ]
-)
 ;
 }
 bool

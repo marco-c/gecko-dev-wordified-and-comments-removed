@@ -742,7 +742,7 @@ d
 jsint
 base
 ;
-JSString
+JSFixedString
 *
 s
 ;
@@ -768,7 +768,7 @@ s
 NULL
 ;
 }
-JSString
+JSFixedString
 *
 lookup
 (
@@ -817,7 +817,7 @@ jsint
 base
 double
 d
-JSString
+JSFixedString
 *
 s
 )

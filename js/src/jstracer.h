@@ -3786,13 +3786,10 @@ name
 (
 w_immpStrGC
 (
-ATOM_TO_STRING
-(
 atom
 )
-)
 "
-ATOM_TO_STRING
+ATOM
 (
 "
 #

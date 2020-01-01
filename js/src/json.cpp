@@ -159,6 +159,13 @@ jsobjinlines
 .
 h
 "
+#
+include
+"
+jsstrinlines
+.
+h
+"
 using
 namespace
 js
@@ -6936,13 +6943,10 @@ vp
 >
 setString
 (
-ATOM_TO_STRING
-(
 CLASS_ATOM
 (
 cx
 JSON
-)
 )
 )
 ;

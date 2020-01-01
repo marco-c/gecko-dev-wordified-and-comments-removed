@@ -7705,10 +7705,7 @@ DecompileValueGenerator
 cx
 JSDVG_SEARCH_STACK
 v
-ATOM_TO_STRING
-(
 atom
-)
 )
 ;
 if

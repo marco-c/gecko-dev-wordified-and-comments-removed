@@ -739,11 +739,6 @@ if
 str
 -
 >
-asCell
-(
-)
--
->
 compartment
 (
 )
@@ -767,11 +762,6 @@ isAtom
 JS_ASSERT
 (
 str
--
->
-asCell
-(
-)
 -
 >
 compartment
