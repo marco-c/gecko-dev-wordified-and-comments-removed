@@ -136,9 +136,6 @@ ECHO
 "
 "
 (
-MAKE_TIER_SUBMAKEFILES
-)
-(
 foreach
 dir
 (
@@ -148,7 +145,7 @@ _dirs
 )
 (
 call
-SUBMAKE
+TIER_DIR_SUBMAKE
 export
 (
 dir
