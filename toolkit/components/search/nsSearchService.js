@@ -9264,7 +9264,7 @@ quoteStart
 .
 length
 ;
-let
+var
 valueEnd
 =
 lLine
