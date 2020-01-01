@@ -1883,6 +1883,13 @@ __SS_dyingCache
 ]
 )
 ;
+info
+(
+newWin2
+.
+__SSi
+)
+;
 newWin
 .
 close
