@@ -2901,6 +2901,14 @@ aFrame
 aBuilder
 )
 ;
+mContainer
+-
+>
+SetVisibleRegion
+(
+aVisibleRect
+)
+;
 return
 nsRefPtr
 <
