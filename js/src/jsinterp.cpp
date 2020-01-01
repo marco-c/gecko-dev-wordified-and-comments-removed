@@ -22958,10 +22958,17 @@ obj
 JSAtom
 *
 atom
+const
 Value
+&
 value
 )
 {
+Value
+v
+=
+value
+;
 return
 obj
 -
@@ -22974,7 +22981,7 @@ ATOM_TO_JSID
 atom
 )
 &
-value
+v
 strict
 )
 ;
@@ -22998,7 +23005,9 @@ obj
 JSAtom
 *
 atom
+const
 Value
+&
 value
 )
 ;
@@ -23021,7 +23030,9 @@ obj
 JSAtom
 *
 atom
+const
 Value
+&
 value
 )
 ;
