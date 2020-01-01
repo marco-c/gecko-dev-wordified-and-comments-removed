@@ -8206,13 +8206,13 @@ secman
 #
 ifndef
 XPCONNECT_STANDALONE
-{
 nsCOMPtr
 <
 nsIPrincipal
 >
-princ
+systemprincipal
 ;
+{
 nsCOMPtr
 <
 nsIScriptSecurityManager
@@ -8246,7 +8246,7 @@ GetSystemPrincipal
 (
 getter_AddRefs
 (
-princ
+systemprincipal
 )
 )
 ;
@@ -8283,7 +8283,7 @@ else
 {
 rv
 =
-princ
+systemprincipal
 -
 >
 GetJSPrincipals
@@ -8327,7 +8327,7 @@ secman
 >
 SetSystemPrincipal
 (
-princ
+systemprincipal
 )
 ;
 }
@@ -8541,6 +8541,10 @@ backstagePass
 NS_GET_IID
 (
 nsISupports
+)
+systemprincipal
+EmptyCString
+(
 )
 nsIXPConnect
 :

@@ -3150,6 +3150,10 @@ JSPrincipals
 *
 principals
 ;
+void
+*
+data
+;
 bool
 marked
 ;
@@ -3323,6 +3327,9 @@ state
 ;
 JSContextCallback
 cxCallback
+;
+JSCompartmentCallback
+compartmentCallback
 ;
 uint32
 protoHazardShape

@@ -1170,6 +1170,12 @@ NS_GET_IID
 (
 nsISupports
 )
+GetPrincipal
+(
+)
+EmptyCString
+(
+)
 flags
 getter_AddRefs
 (

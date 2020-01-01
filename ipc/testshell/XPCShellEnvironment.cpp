@@ -1154,10 +1154,10 @@ line
 256
 ]
 ;
-fprintf
+fputs
 (
-stdout
 prompt
+stdout
 )
 ;
 fflush
@@ -4878,6 +4878,10 @@ backstagePass
 NS_GET_IID
 (
 nsISupports
+)
+principal
+EmptyCString
+(
 )
 nsIXPConnect
 :
