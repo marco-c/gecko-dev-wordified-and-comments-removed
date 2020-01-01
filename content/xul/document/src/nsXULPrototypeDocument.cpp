@@ -1403,7 +1403,7 @@ pi
 Deserialize
 (
 aStream
-mGlobalObject
+this
 mURI
 &
 nodeInfos
@@ -1469,7 +1469,7 @@ mRoot
 Deserialize
 (
 aStream
-mGlobalObject
+this
 mURI
 &
 nodeInfos
@@ -2209,20 +2209,6 @@ tmp
 ;
 }
 }
-nsIScriptGlobalObject
-*
-globalObject
-=
-GetScriptGlobalObject
-(
-)
-;
-NS_ENSURE_TRUE
-(
-globalObject
-NS_ERROR_UNEXPECTED
-)
-;
 count
 =
 mProcessingInstructions
@@ -2263,7 +2249,7 @@ pi
 Serialize
 (
 aStream
-globalObject
+this
 &
 nodeInfos
 )
@@ -2295,7 +2281,7 @@ mRoot
 Serialize
 (
 aStream
-globalObject
+this
 &
 nodeInfos
 )

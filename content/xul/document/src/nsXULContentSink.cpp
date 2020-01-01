@@ -3935,11 +3935,6 @@ DeserializeOutOfLine
 (
 nullptr
 mPrototype
--
->
-GetScriptGlobalObject
-(
-)
 )
 ;
 }
