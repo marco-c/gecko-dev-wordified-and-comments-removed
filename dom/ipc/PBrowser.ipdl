@@ -1541,10 +1541,6 @@ bool
 windowOpened
 )
 ;
-NotifyDOMTouchListenerAdded
-(
-)
-;
 /
 *
 *

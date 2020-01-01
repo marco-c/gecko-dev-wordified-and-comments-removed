@@ -284,10 +284,6 @@ mContentPainterStatus
 (
 CONTENT_IDLE
 )
-mMayHaveTouchListeners
-(
-false
-)
 mDisableNextTouchBatch
 (
 false
@@ -4165,10 +4161,6 @@ RequestContentRepaint
 (
 )
 ;
-mMayHaveTouchListeners
-=
-false
-;
 }
 else
 if
@@ -4264,15 +4256,6 @@ mFrameMetrics
 =
 metrics
 ;
-}
-void
-AsyncPanZoomController
-:
-:
-NotifyDOMTouchListenerAdded
-(
-)
-{
 }
 void
 AsyncPanZoomController

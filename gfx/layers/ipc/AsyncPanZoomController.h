@@ -161,11 +161,6 @@ aHeight
 )
 ;
 void
-NotifyDOMTouchListenerAdded
-(
-)
-;
-void
 CancelDefaultPanZoom
 (
 )
@@ -592,9 +587,6 @@ mDPI
 ;
 ContentPainterStatus
 mContentPainterStatus
-;
-bool
-mMayHaveTouchListeners
 ;
 bool
 mDisableNextTouchBatch
