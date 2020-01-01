@@ -2482,6 +2482,10 @@ middle
 var
 firstLine
 =
+pre
+.
+id
+?
 parseInt
 (
 pre
@@ -2493,6 +2497,8 @@ substring
 4
 )
 )
+:
+1
 ;
 if
 (
@@ -2956,6 +2962,10 @@ parentNode
 var
 curLine
 =
+pre
+.
+id
+?
 parseInt
 (
 pre
@@ -2967,6 +2977,8 @@ substring
 4
 )
 )
+:
+1
 ;
 var
 treewalker
