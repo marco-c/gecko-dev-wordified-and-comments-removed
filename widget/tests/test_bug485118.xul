@@ -523,6 +523,8 @@ width
 height
 "
 ;
+/
+/
 var
 expectedSize
 =
@@ -535,6 +537,11 @@ Small
 ?
 19
 :
+26
+;
+var
+expectedSize
+=
 26
 ;
 is

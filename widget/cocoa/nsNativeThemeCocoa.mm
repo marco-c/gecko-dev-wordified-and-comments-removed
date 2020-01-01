@@ -16309,7 +16309,7 @@ const
 int32_t
 kSmallScrollbarThumbMinSize
 =
-19
+26
 ;
 NS_IMETHODIMP
 nsNativeThemeCocoa
