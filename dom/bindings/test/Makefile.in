@@ -356,6 +356,10 @@ test_InstanceOf
 .
 html
 \
+file_InstanceOf
+.
+html
+\
 test_traceProtos
 .
 html

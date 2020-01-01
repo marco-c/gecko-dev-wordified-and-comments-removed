@@ -7712,17 +7712,11 @@ JSObject
 *
 instance
 =
-js
-:
-:
-UnwrapObject
-(
 &
 vp
 .
 toObject
 (
-)
 )
 ;
   
@@ -7792,7 +7786,14 @@ XPConnect
 GetNativeOfWrapper
 (
 cx
+                                                    
+js
+:
+:
+UnwrapObject
+(
 instance
+)
 )
 ;
   
