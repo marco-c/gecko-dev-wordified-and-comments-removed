@@ -2564,7 +2564,7 @@ true
 |
 cManufacturer
 .
-Equals
+Find
 (
 "
 Sony
@@ -2573,6 +2573,10 @@ nsCaseInsensitiveCStringComparator
 (
 )
 )
+!
+=
+-
+1
 ;
 if
 (
