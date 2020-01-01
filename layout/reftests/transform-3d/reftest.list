@@ -148,6 +148,12 @@ rotatex
 ref
 .
 html
+fails
+-
+if
+(
+Android
+)
 =
 =
 rotatex
@@ -166,6 +172,9 @@ perspective
 ref
 .
 html
+#
+bug
+755543
 =
 =
 scalez
