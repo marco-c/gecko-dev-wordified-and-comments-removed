@@ -4927,6 +4927,7 @@ names
 }
 }
 void
+THEBES_API
 CreatedProgram
 (
 GLContext
@@ -4937,6 +4938,7 @@ aName
 )
 ;
 void
+THEBES_API
 CreatedShader
 (
 GLContext
@@ -4947,6 +4949,7 @@ aName
 )
 ;
 void
+THEBES_API
 CreatedBuffers
 (
 GLContext
@@ -4960,6 +4963,7 @@ aNames
 )
 ;
 void
+THEBES_API
 CreatedTextures
 (
 GLContext
@@ -4973,6 +4977,7 @@ aNames
 )
 ;
 void
+THEBES_API
 CreatedFramebuffers
 (
 GLContext
@@ -4986,6 +4991,7 @@ aNames
 )
 ;
 void
+THEBES_API
 CreatedRenderbuffers
 (
 GLContext
@@ -4999,6 +5005,7 @@ aNames
 )
 ;
 void
+THEBES_API
 DeletedProgram
 (
 GLContext
@@ -5009,6 +5016,7 @@ aName
 )
 ;
 void
+THEBES_API
 DeletedShader
 (
 GLContext
@@ -5019,6 +5027,7 @@ aName
 )
 ;
 void
+THEBES_API
 DeletedBuffers
 (
 GLContext
@@ -5032,6 +5041,7 @@ aNames
 )
 ;
 void
+THEBES_API
 DeletedTextures
 (
 GLContext
@@ -5045,6 +5055,7 @@ aNames
 )
 ;
 void
+THEBES_API
 DeletedFramebuffers
 (
 GLContext
@@ -5058,6 +5069,7 @@ aNames
 )
 ;
 void
+THEBES_API
 DeletedRenderbuffers
 (
 GLContext
