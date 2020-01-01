@@ -42,6 +42,8 @@ uint32_t
 aMaxbytes
 JSUseHelperThreads
 aUseHelperThreads
+bool
+aExpectRootedGlobals
 )
 ;
 virtual
@@ -66,6 +68,15 @@ return
 mJSRuntime
 ;
 }
+void
+MaybeTraceGlobals
+(
+JSTracer
+*
+aTracer
+)
+const
+;
 public
 :
 void
@@ -146,6 +157,9 @@ DEBUG
 void
 *
 mObjectToUnlink
+;
+bool
+mExpectUnrootedGlobals
 ;
 #
 endif
