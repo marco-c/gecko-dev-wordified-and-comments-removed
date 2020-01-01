@@ -163,6 +163,12 @@ Init
 (
 )
 ;
+NS_IMETHOD
+Exit
+(
+)
+MOZ_OVERRIDE
+;
 virtual
 bool
 ProcessNextNativeEvent
