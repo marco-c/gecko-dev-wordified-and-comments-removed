@@ -13622,9 +13622,9 @@ cx
 (
 aCx
 )
-frame
+savedFrameChain
 (
-nsnull
+false
 )
 suspendDepth
 (
@@ -13636,9 +13636,8 @@ JSContext
 *
 cx
 ;
-JSStackFrame
-*
-frame
+bool
+savedFrameChain
 ;
 jsrefcount
 suspendDepth

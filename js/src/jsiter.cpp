@@ -5724,6 +5724,7 @@ regs
 rebaseFromTo
 (
 stackRegs
+*
 genfp
 )
 ;

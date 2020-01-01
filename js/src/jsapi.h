@@ -10582,8 +10582,7 @@ cx
 extern
 JS_PUBLIC_API
 (
-JSStackFrame
-*
+JSBool
 )
 JS_SaveFrameChain
 (
@@ -10602,9 +10601,6 @@ JS_RestoreFrameChain
 JSContext
 *
 cx
-JSStackFrame
-*
-fp
 )
 ;
 extern

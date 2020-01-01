@@ -224,7 +224,6 @@ JSContext
 *
 cx
 )
-const
 ;
 bool
 started
@@ -380,7 +379,6 @@ JSContext
 *
 cx
 )
-const
 {
 formals_
 [
@@ -481,6 +479,12 @@ preserve
 cx
 )
 ;
+args_
+.
+setActive
+(
+)
+;
 Probes
 :
 :
@@ -567,6 +571,12 @@ fun
 (
 )
 script_
+)
+;
+args_
+.
+setInactive
+(
 )
 ;
 }
