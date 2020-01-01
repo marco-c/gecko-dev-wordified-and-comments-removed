@@ -735,6 +735,15 @@ xulrunner
 -
 config
 \
+(
+MOZ_APP_NAME
+)
+-
+bin
+(
+BIN_SUFFIX
+)
+\
 nspr
 -
 config
@@ -760,12 +769,6 @@ xpt_link
 bloaturls
 .
 txt
-\
-run
--
-mozilla
-.
-sh
 \
 nsinstall
 \
@@ -957,6 +960,8 @@ package
 -
 xulrunner
 :
+ifdef
+LIBXUL_SDK
 ifndef
 SYSTEM_LIBXUL
 echo
@@ -1084,6 +1089,7 @@ xulrunner
 .
 .
 "
+endif
 endif
 ifeq
 (
