@@ -2648,6 +2648,10 @@ mozilla
 Atomic
 <
 int32_t
+mozilla
+:
+:
+Relaxed
 >
 interrupt
 ;
