@@ -659,6 +659,9 @@ id
 this
 .
 id
+requireSecureURI
+:
+false
 }
 ]
 cb
