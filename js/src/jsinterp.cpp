@@ -1689,6 +1689,7 @@ CanEnterBaselineJIT
 cx
 script
 fp
+false
 )
 ;
 if
@@ -13184,6 +13185,7 @@ regs
 fp
 (
 )
+newType
 )
 ;
 if
