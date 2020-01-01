@@ -35,13 +35,6 @@ h
 #
 include
 "
-nsIMemoryReporter
-.
-h
-"
-#
-include
-"
 nsToolkitCompsCID
 .
 h
@@ -74,9 +67,6 @@ FileUtils
 h
 "
 class
-nsPrefixSetReporter
-;
-class
 nsUrlClassifierPrefixSet
 :
 public
@@ -93,6 +83,8 @@ virtual
 nsUrlClassifierPrefixSet
 (
 )
+{
+}
 ;
 NS_IMETHOD
 SetPrefixes
@@ -142,10 +134,8 @@ aFound
 )
 ;
 NS_IMETHOD
-SizeOfIncludingThis
+EstimateSize
 (
-bool
-aCountMe
 PRUint32
 *
 aSize
@@ -223,12 +213,6 @@ mozilla
 :
 CondVar
 mSetIsReady
-;
-nsRefPtr
-<
-nsPrefixSetReporter
->
-mReporter
 ;
 PRUint32
 BinSearch
