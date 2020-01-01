@@ -1547,6 +1547,10 @@ extensions
 /
 reporter
 \
+extensions
+/
+spellcheck
+\
 (
 NULL
 )
