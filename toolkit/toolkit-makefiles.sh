@@ -2391,6 +2391,15 @@ exthandler
 tests
 /
 Makefile
+uriloader
+/
+exthandler
+/
+tests
+/
+browser
+/
+Makefile
 "
 MAKEFILES_profile
 =

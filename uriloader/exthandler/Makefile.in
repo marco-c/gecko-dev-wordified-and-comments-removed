@@ -589,6 +589,10 @@ nsMIMEInfoMac
 .
 cpp
 \
+nsLocalHandlerAppMac
+.
+cpp
+\
 (
 NULL
 )

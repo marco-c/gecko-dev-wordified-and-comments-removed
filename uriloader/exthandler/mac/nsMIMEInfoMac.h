@@ -68,17 +68,6 @@ aClass
 {
 }
 NS_IMETHOD
-LaunchWithURI
-(
-nsIURI
-*
-aURI
-nsIInterfaceRequestor
-*
-aWindowContext
-)
-;
-NS_IMETHOD
 LaunchWithFile
 (
 nsIFile
