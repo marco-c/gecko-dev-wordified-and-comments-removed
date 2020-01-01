@@ -1386,7 +1386,7 @@ imgILoader
 >
 il
 (
-do_GetService
+do_CreateInstance
 (
 "
 mozilla
