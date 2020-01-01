@@ -546,13 +546,6 @@ CPPSRCS
 TimeStamp_windows
 .
 cpp
-else
-CPPSRCS
-+
-=
-TimeStamp
-.
-cpp
 endif
 EXPORTS_NAMESPACES
 =
