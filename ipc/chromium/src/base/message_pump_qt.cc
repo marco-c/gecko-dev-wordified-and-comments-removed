@@ -373,6 +373,12 @@ mTimer
 start
 (
 laterMsecs
+>
+0
+?
+laterMsecs
+:
+0
 )
 ;
 }
