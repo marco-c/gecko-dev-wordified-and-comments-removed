@@ -181,6 +181,17 @@ gecko
 SyncPreference
 android
 :
+key
+=
+"
+android
+.
+not_a_preference
+.
+sync
+"
+android
+:
 title
 =
 "

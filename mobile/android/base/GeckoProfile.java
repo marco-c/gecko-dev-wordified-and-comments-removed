@@ -324,6 +324,7 @@ context
 mProfile
 ;
 }
+}
 GeckoProfile
 guest
 =
@@ -353,6 +354,13 @@ return
 guest
 ;
 }
+if
+(
+context
+instanceof
+GeckoApp
+)
+{
 return
 get
 (
