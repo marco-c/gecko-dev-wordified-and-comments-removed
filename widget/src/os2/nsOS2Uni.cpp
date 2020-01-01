@@ -41,6 +41,7 @@ ConverterInfo
 PRUint16
 mCodePage
 ;
+const
 char
 *
 mConvName

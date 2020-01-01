@@ -6096,6 +6096,9 @@ white
 .
 bBlue
 =
+(
+BYTE
+)
 255
 ;
 bi
@@ -6104,6 +6107,9 @@ white
 .
 bGreen
 =
+(
+BYTE
+)
 255
 ;
 bi
@@ -6112,6 +6118,9 @@ white
 .
 bRed
 =
+(
+BYTE
+)
 255
 ;
 bi
@@ -13999,6 +14008,7 @@ if
 (
 oHps
 )
+{
 if
 (
 getHps
@@ -14022,11 +14032,14 @@ mDragHps
 ;
 }
 else
+{
 *
 oHps
 =
 0
 ;
+}
+}
 return
 rtn
 ;

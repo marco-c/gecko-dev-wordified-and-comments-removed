@@ -2582,8 +2582,7 @@ GetACPString
 aTitle
 )
 ;
-const
-PSZ
+PCSZ
 pszGenericDocName
 =
 "
@@ -2591,7 +2590,7 @@ Mozilla
 Document
 "
 ;
-PSZ
+PCSZ
 pszDocName
 =
 title
@@ -2613,7 +2612,14 @@ pszDocName
 )
 +
 1
+const_cast
+<
+BYTE
+*
+>
+(
 pszDocName
+)
 (
 PLONG
 )
