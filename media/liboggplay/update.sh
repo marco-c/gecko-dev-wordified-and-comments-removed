@@ -845,6 +845,13 @@ patch
 -
 p3
 <
+seek_to_key_frame
+.
+patch
+patch
+-
+p3
+<
 bug488951
 .
 patch

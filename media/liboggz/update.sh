@@ -1719,3 +1719,10 @@ p3
 bounded_seek
 .
 patch
+patch
+-
+p3
+<
+key_frame_seek
+.
+patch
