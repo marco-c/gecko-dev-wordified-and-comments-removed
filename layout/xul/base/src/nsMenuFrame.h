@@ -200,7 +200,7 @@ nsStyleContext
 aContext
 )
 ;
-NS_DECL_ISUPPORTS
+NS_DECL_QUERYFRAME
 NS_IMETHOD
 DoLayout
 (

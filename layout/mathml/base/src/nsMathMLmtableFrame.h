@@ -41,7 +41,7 @@ nsStyleContext
 aContext
 )
 ;
-NS_DECL_ISUPPORTS_INHERITED
+NS_DECL_QUERYFRAME
 NS_IMETHOD
 InheritAutomaticData
 (
@@ -189,7 +189,6 @@ nsStyleContext
 aContext
 )
 ;
-NS_DECL_ISUPPORTS_INHERITED
 NS_IMETHOD
 SetInitialChildList
 (
@@ -379,7 +378,6 @@ nsStyleContext
 aContext
 )
 ;
-NS_DECL_ISUPPORTS_INHERITED
 NS_IMETHOD
 AttributeChanged
 (
@@ -614,7 +612,6 @@ nsStyleContext
 aContext
 )
 ;
-NS_DECL_ISUPPORTS_INHERITED
 NS_IMETHOD
 AttributeChanged
 (
@@ -717,7 +714,7 @@ nsStyleContext
 aContext
 )
 ;
-NS_DECL_ISUPPORTS_INHERITED
+NS_DECL_QUERYFRAME
 NS_IMETHOD
 UpdatePresentationDataFromChildAt
 (

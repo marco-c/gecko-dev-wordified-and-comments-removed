@@ -37,7 +37,6 @@ nsBoxFrame
 {
 public
 :
-NS_DECL_ISUPPORTS
 nsTreeColFrame
 (
 nsIPresShell

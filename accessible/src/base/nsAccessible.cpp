@@ -12324,13 +12324,9 @@ nsIScrollableFrame
 *
 scrollFrame
 =
-nsnull
-;
-CallQueryInterface
+do_QueryFrame
 (
 frame
-&
-scrollFrame
 )
 ;
 if
