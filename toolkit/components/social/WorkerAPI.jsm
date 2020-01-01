@@ -491,6 +491,8 @@ trim
 )
 value
 :
+value
+?
 unescape
 (
 value
@@ -499,6 +501,9 @@ trim
 (
 )
 )
+:
+"
+"
 }
 )
 ;
