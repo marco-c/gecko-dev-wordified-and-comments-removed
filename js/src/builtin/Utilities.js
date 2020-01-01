@@ -1,5 +1,16 @@
 #
 define
+TO_INT32
+(
+x
+)
+(
+x
+|
+0
+)
+#
+define
 TO_UINT32
 (
 x
