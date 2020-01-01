@@ -591,7 +591,7 @@ SetIsNetworkCreated
 aFromParser
 =
 =
-NS_FROM_PARSER_NETWORK
+FROM_PARSER_NETWORK
 )
 ;
 }
