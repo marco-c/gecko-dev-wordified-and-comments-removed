@@ -2933,7 +2933,7 @@ askPermission
 function
 (
 aAccess
-aReqeust
+aRequest
 aAllowCallback
 aCancelCallback
 )
@@ -2961,7 +2961,7 @@ getRequestId
 {
 request
 :
-aReqeust
+aRequest
 allow
 :
 function
@@ -2996,7 +2996,7 @@ aCancelCallback
 else
 if
 (
-request
+aRequest
 )
 {
 Services
@@ -3005,7 +3005,7 @@ DOMRequest
 .
 fireError
 (
-request
+aRequest
 "
 Not
 Allowed
