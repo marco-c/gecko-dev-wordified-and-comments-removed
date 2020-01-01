@@ -846,6 +846,13 @@ kWhitespaceKTable
 [
 ]
 ;
+static
+const
+PRInt32
+kWidthKTable
+[
+]
+;
 }
 ;
 #

@@ -3040,6 +3040,7 @@ aRenderingContext
 this
 mIntrinsicSize
 aCBSize
+aMargin
 aBorder
 aPadding
 )

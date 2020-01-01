@@ -2470,7 +2470,7 @@ MaxWidth
 Position
 mMaxWidth
 eCSSType_Value
-nsnull
+kWidthKTable
 )
 CSS_PROP_POSITION
 (
@@ -2494,7 +2494,7 @@ MinWidth
 Position
 mMinWidth
 eCSSType_Value
-nsnull
+kWidthKTable
 )
 CSS_PROP_DISPLAY
 (
@@ -3270,7 +3270,7 @@ Width
 Position
 mWidth
 eCSSType_Value
-nsnull
+kWidthKTable
 )
 CSS_PROP_TEXT
 (

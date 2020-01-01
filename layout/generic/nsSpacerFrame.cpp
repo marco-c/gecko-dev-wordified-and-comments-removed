@@ -620,7 +620,7 @@ GetPercentValue
 ;
 aMetrics
 .
-width
+height
 =
 NSToCoordRound
 (

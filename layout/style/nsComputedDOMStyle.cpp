@@ -9621,7 +9621,10 @@ positionData
 >
 mWidth
 nsnull
-nsnull
+nsCSSProps
+:
+:
+kWidthKTable
 minWidth
 maxWidth
 )
@@ -9725,6 +9728,10 @@ nsComputedDOMStyle
 :
 :
 GetCBContentWidth
+nsCSSProps
+:
+:
+kWidthKTable
 )
 ;
 return
@@ -9825,6 +9832,10 @@ nsComputedDOMStyle
 :
 :
 GetCBContentWidth
+nsCSSProps
+:
+:
+kWidthKTable
 )
 ;
 return

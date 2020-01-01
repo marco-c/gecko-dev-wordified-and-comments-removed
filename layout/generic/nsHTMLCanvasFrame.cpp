@@ -311,6 +311,7 @@ aRenderingContext
 this
 canvasSize
 aCBSize
+aMargin
 aBorder
 aPadding
 )
