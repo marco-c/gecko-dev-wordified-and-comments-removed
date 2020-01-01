@@ -725,11 +725,6 @@ GetDaysOfHistory
 (
 )
 ;
-PRTime
-GetNow
-(
-)
-;
 static
 PRUint32
 GetUpdateRequirements
@@ -1446,10 +1441,12 @@ aInitializing
 )
 ;
 PRTime
-mLastNow
+GetNow
+(
+)
 ;
-PRBool
-mNowValid
+PRTime
+mCachedNow
 ;
 nsCOMPtr
 <
