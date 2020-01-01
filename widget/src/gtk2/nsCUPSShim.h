@@ -11,13 +11,6 @@ prtypes
 .
 h
 "
-#
-include
-"
-psSharedCore
-.
-h
-"
 typedef
 struct
 {
@@ -177,7 +170,6 @@ struct
 PRLibrary
 ;
 class
-NS_PSSHARED
 nsCUPSShim
 {
 public

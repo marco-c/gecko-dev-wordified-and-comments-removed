@@ -629,9 +629,6 @@ mGlobalNumPrinters
 =
 0
 ;
-#
-ifdef
-USE_POSTSCRIPT
 mGlobalPrinterList
 =
 new
@@ -826,8 +823,6 @@ printerList
 )
 ;
 }
-#
-endif
 if
 (
 mGlobalNumPrinters

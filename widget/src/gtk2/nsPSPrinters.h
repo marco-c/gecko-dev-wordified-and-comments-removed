@@ -32,13 +32,6 @@ nsCUPSShim
 .
 h
 "
-#
-include
-"
-psSharedCore
-.
-h
-"
 class
 nsIPrefService
 ;
@@ -49,7 +42,6 @@ class
 nsCUPSShim
 ;
 class
-NS_PSSHARED
 nsPSPrinterList
 {
 public

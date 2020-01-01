@@ -102,9 +102,6 @@ nsIServiceManager
 h
 "
 #
-ifdef
-USE_POSTSCRIPT
-#
 include
 "
 nsPSPrinters
@@ -118,8 +115,6 @@ nsPaperPS
 .
 h
 "
-#
-endif
 #
 include
 "
@@ -2413,12 +2408,6 @@ PrintMethod
 aMethod
 )
 {
-#
-if
-defined
-(
-USE_POSTSCRIPT
-)
 aMethod
 =
 pmPostScript
@@ -2426,13 +2415,6 @@ pmPostScript
 return
 NS_OK
 ;
-#
-else
-return
-NS_ERROR_UNEXPECTED
-;
-#
-endif
 }
 static
 void
@@ -3531,9 +3513,6 @@ rv
 return
 rv
 ;
-#
-ifdef
-USE_POSTSCRIPT
 if
 (
 type
@@ -3572,8 +3551,6 @@ slash
 )
 ;
 }
-#
-endif
 #
 ifdef
 SET_PRINTER_FEATURES_VIA_PREFS
@@ -3735,9 +3712,6 @@ SetIsInitializedFromPrinter
 PR_TRUE
 )
 ;
-#
-ifdef
-USE_POSTSCRIPT
 if
 (
 type
@@ -4612,8 +4586,6 @@ return
 NS_OK
 ;
 }
-#
-endif
 return
 NS_ERROR_UNEXPECTED
 ;
@@ -4700,9 +4672,6 @@ rv
 return
 rv
 ;
-#
-ifdef
-USE_POSTSCRIPT
 nsPSPrinterList
 psMgr
 ;
@@ -4774,8 +4743,6 @@ i
 ;
 }
 }
-#
-endif
 if
 (
 !
