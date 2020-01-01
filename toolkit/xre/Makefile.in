@@ -1442,6 +1442,16 @@ dom
 /
 base
 \
+-
+I
+(
+topsrcdir
+)
+/
+xpcom
+/
+build
+\
 (
 NULL
 )
