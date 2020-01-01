@@ -86,6 +86,9 @@ PRPackedBool
 mInheritOwner
 ;
 PRPackedBool
+mOwnerIsExplicit
+;
+PRPackedBool
 mSendReferrer
 ;
 nsDocShellInfoLoadType

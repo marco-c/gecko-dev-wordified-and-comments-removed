@@ -514,6 +514,14 @@ test_bug402210
 .
 html
 \
+test_bug475636
+.
+html
+\
+file_bug475636
+.
+sjs
+\
 (
 NULL
 )
