@@ -750,14 +750,6 @@ endif
 endif
 endif
 endif
-ifdef
-MOZ_JAVA_COMPOSITOR
-DEFINES
-+
-=
--
-DMOZ_JAVA_COMPOSITOR
-endif
 LOCAL_INCLUDES
 +
 =
