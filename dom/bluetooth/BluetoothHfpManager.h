@@ -203,6 +203,11 @@ HandleShutdown
 (
 )
 ;
+nsresult
+HandleIccInfoChanged
+(
+)
+;
 bool
 Init
 (
@@ -259,6 +264,9 @@ mReceiveVgsFlag
 ;
 nsString
 mDevicePath
+;
+nsString
+mMsisdn
 ;
 enum
 mozilla
