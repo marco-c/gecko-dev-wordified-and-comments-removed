@@ -1021,7 +1021,7 @@ resultType
 nsXPTType
 (
 (
-uint8
+uint8_t
 )
 TD_INT32
 )
@@ -1037,7 +1037,7 @@ resultType
 nsXPTType
 (
 (
-uint8
+uint8_t
 )
 TD_DOUBLE
 )
@@ -1053,7 +1053,7 @@ resultType
 nsXPTType
 (
 (
-uint8
+uint8_t
 )
 TD_BOOL
 )
@@ -1069,7 +1069,7 @@ resultType
 nsXPTType
 (
 (
-uint8
+uint8_t
 )
 TD_PWSTRING
 )
@@ -1085,7 +1085,7 @@ resultType
 nsXPTType
 (
 (
-uint8
+uint8_t
 )
 TD_PNSIID
 )
@@ -1101,7 +1101,7 @@ resultType
 nsXPTType
 (
 (
-uint8
+uint8_t
 )
 TD_INTERFACE_IS_TYPE
 )
@@ -1128,7 +1128,7 @@ resultType
 nsXPTType
 (
 (
-uint8
+uint8_t
 )
 TD_INTERFACE_IS_TYPE
 )
@@ -2178,7 +2178,7 @@ xpctvar
 type
 =
 (
-uint8
+uint8_t
 )
 TD_CHAR
 ;
@@ -2216,7 +2216,7 @@ xpctvar
 type
 =
 (
-uint8
+uint8_t
 )
 TD_WCHAR
 ;
@@ -2250,7 +2250,7 @@ xpctvar
 type
 =
 (
-uint8
+uint8_t
 )
 TD_PNSIID
 ;
@@ -2292,7 +2292,7 @@ xpctvar
 type
 =
 (
-uint8
+uint8_t
 )
 TD_ASTRING
 ;
@@ -2334,7 +2334,7 @@ xpctvar
 type
 =
 (
-uint8
+uint8_t
 )
 TD_DOMSTRING
 ;
@@ -2376,7 +2376,7 @@ xpctvar
 type
 =
 (
-uint8
+uint8_t
 )
 TD_CSTRING
 ;
@@ -2418,7 +2418,7 @@ xpctvar
 type
 =
 (
-uint8
+uint8_t
 )
 TD_UTF8STRING
 ;
@@ -2470,7 +2470,7 @@ xpctvar
 type
 =
 (
-uint8
+uint8_t
 )
 TD_PSTRING
 ;
@@ -2521,7 +2521,7 @@ xpctvar
 type
 =
 (
-uint8
+uint8_t
 )
 TD_PSTRING_SIZE_IS
 ;
@@ -2570,7 +2570,7 @@ xpctvar
 type
 =
 (
-uint8
+uint8_t
 )
 TD_PWSTRING
 ;
@@ -2621,7 +2621,7 @@ xpctvar
 type
 =
 (
-uint8
+uint8_t
 )
 TD_PWSTRING_SIZE_IS
 ;
@@ -2695,7 +2695,7 @@ xpctvar
 type
 =
 (
-uint8
+uint8_t
 )
 TD_INTERFACE_IS_TYPE
 ;
@@ -2911,7 +2911,7 @@ conversionType
 nsXPTType
 (
 (
-uint8
+uint8_t
 )
 elementType
 )
@@ -2941,7 +2941,7 @@ conversionType
 nsXPTType
 (
 (
-uint8
+uint8_t
 )
 elementType
 )
@@ -2967,7 +2967,7 @@ conversionType
 nsXPTType
 (
 (
-uint8
+uint8_t
 )
 elementType
 )
@@ -2996,7 +2996,7 @@ conversionType
 nsXPTType
 (
 (
-uint8
+uint8_t
 )
 elementType
 )

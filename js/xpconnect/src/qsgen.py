@@ -2116,13 +2116,13 @@ n
 "
         
 "
-uint8
+uint8_t
 {
 name
 }
 =
 (
-uint8
+uint8_t
 )
 {
 name
@@ -2179,13 +2179,13 @@ n
 "
         
 "
-int16
+int16_t
 {
 name
 }
 =
 (
-int16
+int16_t
 )
 {
 name
@@ -2243,13 +2243,13 @@ n
 "
         
 "
-uint16
+uint16_t
 {
 name
 }
 =
 (
-uint16
+uint16_t
 )
 {
 name
@@ -4008,7 +4008,7 @@ jsvalRef
 INT_TO_JSVAL
 (
 (
-int32
+int32_t
 )
 result
 )
@@ -4038,7 +4038,7 @@ jsvalRef
 INT_TO_JSVAL
 (
 (
-int32
+int32_t
 )
 result
 )
@@ -4117,7 +4117,7 @@ jsvalRef
 INT_TO_JSVAL
 (
 (
-int32
+int32_t
 )
 result
 )

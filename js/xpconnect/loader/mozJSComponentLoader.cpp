@@ -1830,7 +1830,7 @@ mContext
 return
 NS_ERROR_OUT_OF_MEMORY
 ;
-uint32
+uint32_t
 options
 =
 JS_GetOptions
@@ -3401,7 +3401,7 @@ get
 )
 )
 ;
-uint32
+uint32_t
 oldopts
 =
 JS_GetOptions
@@ -4192,7 +4192,7 @@ aGlobal
 =
 global
 ;
-uint32
+uint32_t
 oldopts
 =
 JS_GetOptions

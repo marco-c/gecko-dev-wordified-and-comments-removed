@@ -1356,7 +1356,7 @@ length
 ;
 JS_ASSERT
 (
-int32
+int32_t
 (
 length
 )
@@ -1394,7 +1394,7 @@ getItemAt
 ListType
 *
 list
-uint32
+uint32_t
 i
 IndexGetterType
 &
@@ -1431,7 +1431,7 @@ cx
 ListType
 *
 list
-uint32
+uint32_t
 i
 IndexSetterType
 item
@@ -3751,7 +3751,7 @@ length
 ;
 JS_ASSERT
 (
-int32
+int32_t
 (
 length
 )
@@ -3762,14 +3762,14 @@ length
 ;
 for
 (
-int32
+int32_t
 i
 =
 0
 ;
 i
 <
-int32
+int32_t
 (
 length
 )
@@ -5226,7 +5226,7 @@ length
 ;
 JS_ASSERT
 (
-int32
+int32_t
 (
 length
 )
@@ -5701,7 +5701,7 @@ proxy
 JSObject
 *
 receiver
-uint32
+uint32_t
 index
 Value
 *

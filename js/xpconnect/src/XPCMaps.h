@@ -201,7 +201,7 @@ JS_DHASH_REMOVE
 ;
 }
 inline
-uint32
+uint32_t
 Count
 (
 )
@@ -214,7 +214,7 @@ entryCount
 ;
 }
 inline
-uint32
+uint32_t
 Enumerate
 (
 JSDHashEnumerator
@@ -532,7 +532,7 @@ JS_DHASH_REMOVE
 ;
 }
 inline
-uint32
+uint32_t
 Count
 (
 )
@@ -545,7 +545,7 @@ entryCount
 ;
 }
 inline
-uint32
+uint32_t
 Enumerate
 (
 JSDHashEnumerator
@@ -806,7 +806,7 @@ JS_DHASH_REMOVE
 ;
 }
 inline
-uint32
+uint32_t
 Count
 (
 )
@@ -819,7 +819,7 @@ entryCount
 ;
 }
 inline
-uint32
+uint32_t
 Enumerate
 (
 JSDHashEnumerator
@@ -1058,7 +1058,7 @@ JS_DHASH_REMOVE
 ;
 }
 inline
-uint32
+uint32_t
 Count
 (
 )
@@ -1071,7 +1071,7 @@ entryCount
 ;
 }
 inline
-uint32
+uint32_t
 Enumerate
 (
 JSDHashEnumerator
@@ -1310,7 +1310,7 @@ JS_DHASH_REMOVE
 ;
 }
 inline
-uint32
+uint32_t
 Count
 (
 )
@@ -1323,7 +1323,7 @@ entryCount
 ;
 }
 inline
-uint32
+uint32_t
 Enumerate
 (
 JSDHashEnumerator
@@ -1549,7 +1549,7 @@ JS_DHASH_REMOVE
 ;
 }
 inline
-uint32
+uint32_t
 Count
 (
 )
@@ -1562,7 +1562,7 @@ entryCount
 ;
 }
 inline
-uint32
+uint32_t
 Enumerate
 (
 JSDHashEnumerator
@@ -1858,7 +1858,7 @@ JS_DHASH_REMOVE
 ;
 }
 inline
-uint32
+uint32_t
 Count
 (
 )
@@ -1871,7 +1871,7 @@ entryCount
 ;
 }
 inline
-uint32
+uint32_t
 Enumerate
 (
 JSDHashEnumerator
@@ -2125,7 +2125,7 @@ JS_DHASH_REMOVE
 ;
 }
 inline
-uint32
+uint32_t
 Count
 (
 )
@@ -2138,7 +2138,7 @@ entryCount
 ;
 }
 inline
-uint32
+uint32_t
 Enumerate
 (
 JSDHashEnumerator
@@ -2261,7 +2261,7 @@ si
 )
 ;
 inline
-uint32
+uint32_t
 Count
 (
 )
@@ -2274,7 +2274,7 @@ entryCount
 ;
 }
 inline
-uint32
+uint32_t
 Enumerate
 (
 JSDHashEnumerator
@@ -2429,7 +2429,7 @@ JS_DHASH_REMOVE
 ;
 }
 inline
-uint32
+uint32_t
 Count
 (
 )
@@ -2442,7 +2442,7 @@ entryCount
 ;
 }
 inline
-uint32
+uint32_t
 Enumerate
 (
 JSDHashEnumerator
@@ -2597,7 +2597,7 @@ JS_DHASH_REMOVE
 ;
 }
 inline
-uint32
+uint32_t
 Count
 (
 )
@@ -2610,7 +2610,7 @@ entryCount
 ;
 }
 inline
-uint32
+uint32_t
 Enumerate
 (
 JSDHashEnumerator
@@ -2876,7 +2876,7 @@ JS_DHASH_REMOVE
 ;
 }
 inline
-uint32
+uint32_t
 Count
 (
 )
@@ -2889,7 +2889,7 @@ entryCount
 ;
 }
 inline
-uint32
+uint32_t
 Enumerate
 (
 JSDHashEnumerator
@@ -3152,7 +3152,7 @@ JS_DHASH_REMOVE
 ;
 }
 inline
-uint32
+uint32_t
 Count
 (
 )
@@ -3165,7 +3165,7 @@ entryCount
 ;
 }
 inline
-uint32
+uint32_t
 Enumerate
 (
 JSDHashEnumerator

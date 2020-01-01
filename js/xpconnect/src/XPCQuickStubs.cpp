@@ -1763,7 +1763,7 @@ false
 ;
 for
 (
-uint32
+uint32_t
 i
 =
 ifacec

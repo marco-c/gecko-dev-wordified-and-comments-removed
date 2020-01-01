@@ -656,7 +656,7 @@ getItemAt
 ListType
 *
 list
-uint32
+uint32_t
 i
 IndexGetterType
 &
@@ -674,7 +674,7 @@ cx
 ListType
 *
 list
-uint32
+uint32_t
 i
 IndexSetterType
 item
@@ -1000,7 +1000,7 @@ proxy
 JSObject
 *
 receiver
-uint32
+uint32_t
 index
 JS
 :
