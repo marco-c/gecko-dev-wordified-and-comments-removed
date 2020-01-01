@@ -12031,7 +12031,11 @@ appendFlavour
 "
 text
 /
-unicode
+x
+-
+moz
+-
+url
 "
 )
 ;
@@ -12042,11 +12046,7 @@ appendFlavour
 "
 text
 /
-x
--
-moz
--
-url
+unicode
 "
 )
 ;
