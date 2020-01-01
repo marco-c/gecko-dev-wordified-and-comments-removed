@@ -239,8 +239,9 @@ aManager
 )
 ;
 static
-PRBool
-HasDedicatedLayer
+Layer
+*
+GetDedicatedLayer
 (
 nsIFrame
 *
