@@ -33670,6 +33670,9 @@ PRInt32
 aCycleCount
 )
 {
+#
+ifndef
+WINCE
 if
 (
 !
@@ -33784,6 +33787,8 @@ FlashWindowEx
 flashInfo
 )
 ;
+#
+endif
 return
 NS_OK
 ;
@@ -33796,6 +33801,9 @@ StopFlashing
 (
 )
 {
+#
+ifndef
+WINCE
 HWND
 flashWnd
 =
@@ -33842,6 +33850,8 @@ FlashWindowEx
 flashInfo
 )
 ;
+#
+endif
 }
 NS_IMETHODIMP
 nsWindow
