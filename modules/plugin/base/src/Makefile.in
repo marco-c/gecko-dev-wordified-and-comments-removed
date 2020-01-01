@@ -466,6 +466,10 @@ nsNPAPIPluginStreamListener
 .
 cpp
 \
+nsPluginStreamListenerPeer
+.
+cpp
+\
 nsPluginHost
 .
 cpp
