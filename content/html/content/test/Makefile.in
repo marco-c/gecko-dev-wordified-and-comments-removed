@@ -589,10 +589,6 @@ test_bug24958
 .
 html
 \
-test_bug41464
-.
-html
-\
 bug100533_load
 .
 html
@@ -1051,10 +1047,6 @@ test_bug535043
 html
 \
 test_bug547850
-.
-html
-\
-test_bug457800
 .
 html
 \
