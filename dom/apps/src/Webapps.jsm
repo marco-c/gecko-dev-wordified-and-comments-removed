@@ -1274,6 +1274,9 @@ installPreinstalledPackage
 aId
 )
 {
+#
+ifdef
+MOZ_WIDGET_GONK
 let
 app
 =
@@ -1678,6 +1681,8 @@ close
 )
 ;
 }
+#
+endif
 }
 installSystemApps
 :
