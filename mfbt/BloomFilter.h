@@ -99,7 +99,7 @@ t
 )
 ;
 bool
-mightContain
+mayContain
 (
 const
 T
@@ -123,7 +123,7 @@ hash
 )
 ;
 bool
-mightContain
+mayContain
 (
 uint32_t
 hash
@@ -566,7 +566,7 @@ T
 >
 :
 :
-mightContain
+mayContain
 (
 uint32_t
 hash
@@ -602,7 +602,7 @@ T
 >
 :
 :
-mightContain
+mayContain
 (
 const
 T
@@ -622,7 +622,7 @@ hash
 )
 ;
 return
-mightContain
+mayContain
 (
 hash
 )
