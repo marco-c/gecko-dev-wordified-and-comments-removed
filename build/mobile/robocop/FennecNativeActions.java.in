@@ -455,7 +455,7 @@ mGas
 getMethod
 (
 "
-registerGeckoEventListener
+registerEventListener
 "
 parameters
 )
@@ -467,7 +467,7 @@ mGas
 getMethod
 (
 "
-unregisterGeckoEventListener
+unregisterEventListener
 "
 parameters
 )

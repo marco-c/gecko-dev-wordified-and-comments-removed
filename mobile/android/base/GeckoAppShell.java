@@ -11833,7 +11833,7 @@ null
 public
 static
 void
-registerGeckoEventListener
+registerEventListener
 (
 String
 event
@@ -11969,7 +11969,7 @@ ie
 public
 static
 void
-unregisterGeckoEventListener
+unregisterEventListener
 (
 String
 event

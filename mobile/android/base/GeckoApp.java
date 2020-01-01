@@ -11016,6 +11016,11 @@ id
 .
 end_handle
 )
+GeckoAppShell
+.
+getEventDispatcher
+(
+)
 )
 ;
 GeckoNetworkManager
