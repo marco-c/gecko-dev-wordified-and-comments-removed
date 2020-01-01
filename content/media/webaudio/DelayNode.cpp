@@ -776,7 +776,7 @@ delayTime
 =
 0
 ;
-float
+double
 computedDelay
 [
 WEBAUDIO_BLOCK_SIZE
