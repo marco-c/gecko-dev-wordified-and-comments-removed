@@ -2788,13 +2788,6 @@ data
 dataSize
 )
 ;
-if
-(
-!
-data
-)
-continue
-;
 NSString
 *
 nativeString
