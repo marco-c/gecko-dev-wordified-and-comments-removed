@@ -126,9 +126,9 @@ sync_subtitle_pair
 &
 sync
 .
-pair
+subtitle
 .
-connectlocation
+pair
 .
 label
 ;
