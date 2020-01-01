@@ -190,6 +190,15 @@ aElements
 )
 ;
 virtual
+void
+GetAnonymousContent
+(
+nsBaseContentList
+&
+aElements
+)
+;
+virtual
 nsIFrame
 *
 CreateFrameFor

@@ -220,6 +220,15 @@ nsIDOMNodeList
 aResult
 )
 ;
+nsINodeList
+*
+GetContentListFor
+(
+nsIContent
+*
+aContent
+)
+;
 nsresult
 SetContentListFor
 (

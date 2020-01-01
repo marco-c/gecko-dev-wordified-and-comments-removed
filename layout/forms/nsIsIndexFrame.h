@@ -240,6 +240,15 @@ nsIContent
 aElements
 )
 ;
+virtual
+void
+GetAnonymousContent
+(
+nsBaseContentList
+&
+aElements
+)
+;
 NS_IMETHOD
 OnSubmit
 (

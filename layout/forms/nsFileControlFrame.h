@@ -225,6 +225,15 @@ nsIContent
 aElements
 )
 ;
+virtual
+void
+GetAnonymousContent
+(
+nsBaseContentList
+&
+aElements
+)
+;
 #
 ifdef
 ACCESSIBILITY
