@@ -688,12 +688,7 @@ GuardThreadLocalObject
 \
 _
 (
-TypeBarrierV
-)
-\
-_
-(
-TypeBarrierO
+TypeBarrier
 )
 \
 _
