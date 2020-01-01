@@ -841,6 +841,8 @@ GetPrimaryShell
 |
 !
 GetPrimaryShell
+(
+)
 -
 >
 DidInitialReflow
