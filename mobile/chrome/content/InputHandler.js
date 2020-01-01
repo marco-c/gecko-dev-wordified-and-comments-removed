@@ -1144,14 +1144,6 @@ sX
 sY
 )
 ;
-ws
-.
-dragStart
-(
-sX
-sY
-)
-;
 }
 _dragStop
 :
