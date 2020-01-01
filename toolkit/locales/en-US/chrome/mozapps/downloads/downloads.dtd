@@ -287,11 +287,13 @@ L
 ENTITY
 cmd
 .
-remove
+removeFromList
 .
 label
 "
 Remove
+From
+List
 "
 >
 <
@@ -299,7 +301,7 @@ Remove
 ENTITY
 cmd
 .
-remove
+removeFromList
 .
 accesskey
 "

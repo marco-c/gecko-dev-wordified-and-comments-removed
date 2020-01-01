@@ -1070,7 +1070,7 @@ command
 id
 =
 "
-cmd_remove
+cmd_removeFromList
 "
 oncommand
 =
@@ -1080,7 +1080,7 @@ gDownloadViewController
 doCommand
 (
 '
-cmd_remove
+cmd_removeFromList
 '
 )
 ;
@@ -1254,7 +1254,7 @@ key
 id
 =
 "
-key_remove
+key_removeFromList
 "
 keycode
 =
@@ -1264,7 +1264,7 @@ VK_DELETE
 command
 =
 "
-cmd_remove
+cmd_removeFromList
 "
 /
 >
@@ -1276,7 +1276,7 @@ key
 id
 =
 "
-key_remove2
+key_removeFromList2
 "
 keycode
 =
@@ -1286,7 +1286,7 @@ VK_BACK
 command
 =
 "
-cmd_remove
+cmd_removeFromList
 "
 /
 >
@@ -1729,7 +1729,7 @@ menuitem
 id
 =
 "
-menuitem_remove
+menuitem_removeFromList
 "
 label
 =
@@ -1737,7 +1737,7 @@ label
 &
 cmd
 .
-remove
+removeFromList
 .
 label
 ;
@@ -1748,7 +1748,7 @@ accesskey
 &
 cmd
 .
-remove
+removeFromList
 .
 accesskey
 ;
@@ -1756,7 +1756,7 @@ accesskey
 command
 =
 "
-cmd_remove
+cmd_removeFromList
 "
 /
 >
