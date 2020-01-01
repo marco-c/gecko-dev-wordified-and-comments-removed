@@ -1372,7 +1372,7 @@ aGdkEvent
 )
 ;
 PRBool
-DispatchCommandKeyEvent
+DispatchCommandEvent
 (
 nsIAtom
 *
