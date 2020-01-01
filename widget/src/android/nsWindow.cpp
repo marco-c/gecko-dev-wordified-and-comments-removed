@@ -2539,10 +2539,8 @@ n
 ;
 mLayerManager
 =
-new
-BasicLayerManager
+CreateBasicLayerManager
 (
-this
 )
 ;
 return
@@ -2580,10 +2578,8 @@ n
 ;
 mLayerManager
 =
-new
-BasicLayerManager
+CreateBasicLayerManager
 (
-this
 )
 ;
 return
@@ -2680,10 +2676,8 @@ PR_TRUE
 ;
 mLayerManager
 =
-new
-BasicLayerManager
+CreateBasicLayerManager
 (
-this
 )
 ;
 }
