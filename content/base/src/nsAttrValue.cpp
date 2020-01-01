@@ -76,6 +76,13 @@ nsIURI
 h
 "
 #
+include
+"
+prprf
+.
+h
+"
+#
 ifdef
 MOZ_SVG
 #
