@@ -155,13 +155,6 @@ h
 #
 include
 "
-nsAutoLock
-.
-h
-"
-#
-include
-"
 nsUsageArrayHelper
 .
 h

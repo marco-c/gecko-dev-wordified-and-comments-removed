@@ -36,13 +36,6 @@ h
 #
 include
 "
-nsAutoPtr
-.
-h
-"
-#
-include
-"
 nsWifiMonitor
 .
 h
@@ -82,6 +75,10 @@ nsIMutableArray
 .
 h
 "
+using
+namespace
+mozilla
+;
 nsresult
 nsWifiMonitor
 :
@@ -518,7 +515,7 @@ nsIWifiListener
 currentListeners
 ;
 {
-nsAutoMonitor
+MonitorAutoEnter
 mon
 (
 mMonitor
@@ -836,7 +833,7 @@ n
 )
 )
 ;
-nsAutoMonitor
+MonitorAutoEnter
 mon
 (
 mMonitor

@@ -43,7 +43,9 @@ h
 #
 include
 "
-prlock
+mozilla
+/
+Mutex
 .
 h
 "
@@ -93,8 +95,10 @@ nsIIDNService
 >
 mIDN
 ;
-PRLock
-*
+mozilla
+:
+:
+Mutex
 mLock
 ;
 nsAdoptingCString
@@ -105,6 +109,9 @@ mDisableIPv6
 ;
 PRBool
 mDisablePrefetch
+;
+PRBool
+mFirstTime
 ;
 }
 ;

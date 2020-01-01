@@ -15,13 +15,6 @@ h
 #
 include
 "
-nsAutoPtr
-.
-h
-"
-#
-include
-"
 nsWifiMonitor
 .
 h
@@ -61,6 +54,10 @@ nsIMutableArray
 .
 h
 "
+using
+namespace
+mozilla
+;
 typedef
 int
 (
@@ -710,7 +707,7 @@ nsIWifiListener
 currentListeners
 ;
 {
-nsAutoMonitor
+MonitorAutoEnter
 mon
 (
 mMonitor
@@ -1035,7 +1032,7 @@ n
 )
 )
 ;
-nsAutoMonitor
+MonitorAutoEnter
 mon
 (
 mMonitor

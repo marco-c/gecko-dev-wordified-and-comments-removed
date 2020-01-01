@@ -22,13 +22,6 @@ h
 #
 include
 "
-nsAutoLock
-.
-h
-"
-#
-include
-"
 nsInt64
 .
 h

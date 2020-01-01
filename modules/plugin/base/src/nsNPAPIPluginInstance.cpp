@@ -685,9 +685,9 @@ return
 NS_OK
 ;
 }
-EnterAsyncPluginThreadCallLock
-(
-)
+{
+AsyncCallbackAutoLock
+lock
 ;
 mRunning
 =
@@ -702,10 +702,7 @@ Now
 (
 )
 ;
-ExitAsyncPluginThreadCallLock
-(
-)
-;
+}
 OnPluginDestroy
 (
 &

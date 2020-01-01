@@ -866,13 +866,6 @@ h
 #
 include
 "
-nsAutoLock
-.
-h
-"
-#
-include
-"
 nsCRTGlue
 .
 h

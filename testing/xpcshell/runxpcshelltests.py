@@ -997,6 +997,19 @@ MOZ_CRASHREPORTER_NO_REPORT
 1
 "
     
+self
+.
+env
+[
+"
+NS_TRACE_MALLOC_DISABLE_STACKS
+"
+]
+=
+"
+1
+"
+    
 if
 sys
 .
