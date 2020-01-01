@@ -448,6 +448,10 @@ browser_tabview_bug580412
 .
 js
 \
+browser_tabview_bug587043
+.
+js
+\
 browser_tabview_bug587990
 .
 js
