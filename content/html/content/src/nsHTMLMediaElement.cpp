@@ -15869,10 +15869,15 @@ mReadyState
 nsIDOMHTMLMediaElement
 :
 :
-HAVE_FUTURE_DATA
+HAVE_CURRENT_DATA
 &
 &
-IsPotentiallyPlaying
+!
+mPaused
+&
+&
+!
+IsPlaybackEnded
 (
 )
 )
