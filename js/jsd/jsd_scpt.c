@@ -3183,11 +3183,6 @@ if
 jsdhook
 )
 {
-JS_ASSERT
-(
-0
-)
-;
 JSD_UNLOCK
 (
 )
