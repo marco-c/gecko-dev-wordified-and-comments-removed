@@ -277,6 +277,14 @@ if
 wn
 -
 >
+HasProto
+(
+)
+&
+&
+wn
+-
+>
 GetProto
 (
 )
