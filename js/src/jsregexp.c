@@ -229,6 +229,7 @@ endif
 #
 ifdef
 __GNUC__
+inline
 static
 int
 re_debug
@@ -258,6 +259,7 @@ endif
 #
 ifdef
 REGEXP_DEBUG
+inline
 static
 int
 re_debug
@@ -300,6 +302,7 @@ return
 retval
 ;
 }
+inline
 static
 void
 re_debug_chars
@@ -361,6 +364,7 @@ printf
 }
 #
 else
+inline
 static
 int
 re_debug
@@ -378,6 +382,7 @@ return
 0
 ;
 }
+inline
 static
 void
 re_debug_chars
@@ -850,6 +855,8 @@ return
 width
 ;
 }
+JS_INLINE
+(
 static
 jsbytecode
 *
@@ -860,6 +867,7 @@ jsbytecode
 pc
 size_t
 index
+)
 )
 {
 size_t
@@ -913,6 +921,8 @@ return
 pc
 ;
 }
+JS_INLINE
+(
 static
 jsbytecode
 *
@@ -924,6 +934,7 @@ pc
 size_t
 *
 result
+)
 )
 {
 size_t
@@ -1200,12 +1211,15 @@ pool
 }
 REGlobalData
 ;
+JS_INLINE
+(
 static
 uintN
 upcase
 (
 uintN
 ch
+)
 )
 {
 uintN
@@ -1296,12 +1310,15 @@ ch
 cu
 ;
 }
+JS_INLINE
+(
 static
 uintN
 downcase
 (
 uintN
 ch
+)
 )
 {
 JS_ASSERT
@@ -10425,6 +10442,8 @@ x
 }
 #
 endif
+JS_INLINE
+(
 static
 REMatchState
 *
@@ -10441,6 +10460,7 @@ jschar
 matchChars
 size_t
 length
+)
 )
 {
 size_t
@@ -12378,6 +12398,8 @@ NULL
 }
 \
 JS_END_MACRO
+JS_INLINE
+(
 static
 REMatchState
 *
@@ -12397,6 +12419,7 @@ jsbytecode
 startpc
 JSBool
 updatecp
+)
 )
 {
 REMatchState
@@ -13942,6 +13965,8 @@ return
 NULL
 ;
 }
+JS_INLINE
+(
 static
 REMatchState
 *
@@ -13953,6 +13978,7 @@ gData
 REMatchState
 *
 x
+)
 )
 {
 REMatchState
