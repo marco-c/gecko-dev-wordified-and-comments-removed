@@ -112,7 +112,7 @@ data
 NS_OVERRIDE
 virtual
 bool
-RecvCallMessage
+AnswerCallMessage
 (
 const
 nsString

@@ -509,7 +509,7 @@ CompVariant
 ;
 }
 ;
-sync
+rpc
 protocol
 PJetpack
 {
@@ -545,7 +545,7 @@ code
 ;
 parent
 :
-sync
+rpc
 CallMessage
 (
 nsString
