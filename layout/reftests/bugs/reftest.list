@@ -1885,6 +1885,16 @@ ref
 .
 html
 fails
+-
+if
+(
+MOZ_WIDGET_TOOLKIT
+=
+=
+"
+cocoa
+"
+)
 =
 =
 336736
