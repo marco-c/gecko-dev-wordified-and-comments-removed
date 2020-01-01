@@ -50,7 +50,7 @@ foo
 >
 <
 foo
-xmln
+xmlns
 =
 "
 htp
@@ -113,7 +113,16 @@ mozilla
 firefox
 >
 Lorem
-ipsum
+ip
+<
+!
+-
+-
+aaa
+-
+-
+>
+sum
 dolor
 sit
 amet

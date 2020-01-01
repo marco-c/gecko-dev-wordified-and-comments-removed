@@ -5358,6 +5358,11 @@ nsIDocumentEncoder
 :
 :
 OutputEncodeHTMLEntities
+|
+nsIDocumentEncoder
+:
+:
+OutputRaw
 ;
 nsCOMPtr
 <
