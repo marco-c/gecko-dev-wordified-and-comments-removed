@@ -7248,6 +7248,16 @@ UPDATER_UPDATES_ENABLED
 "
 )
 ;
+this
+.
+_sendBoolPrefTelemetryPing
+(
+PREF_APP_UPDATE_AUTO
+"
+UPDATER_UPDATES_AUTOMATIC
+"
+)
+;
 update
 .
 statusText
