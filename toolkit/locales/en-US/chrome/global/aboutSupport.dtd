@@ -318,8 +318,9 @@ Finder
 ENTITY
 aboutSupport
 .
-modifiedPrefsTitle
+modifiedKeyPrefsTitle
 "
+Important
 Modified
 Preferences
 "
