@@ -3018,12 +3018,6 @@ t
 move
 while
 customizing
-or
-while
-in
-full
-screen
-mode
 .
 return
 !
@@ -3032,12 +3026,6 @@ this
 parentNode
 .
 customizing
-&
-&
-!
-window
-.
-fullScreen
 ;
 }
 }
