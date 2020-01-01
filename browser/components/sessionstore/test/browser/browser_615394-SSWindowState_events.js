@@ -1944,7 +1944,7 @@ ww
 .
 unregisterNotification
 (
-windowObserver
+firstWindowObserver
 )
 ;
 }
