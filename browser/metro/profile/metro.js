@@ -188,7 +188,7 @@ zoom
 .
 enabled
 "
-false
+true
 )
 ;
 pref
