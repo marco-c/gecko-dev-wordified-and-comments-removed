@@ -2158,6 +2158,14 @@ n
 rt
 -
 >
+sizeOfNonHeapAsmJSArrays_
+;
+n
++
+=
+rt
+-
+>
 sizeOfExplicitNonHeap
 (
 )

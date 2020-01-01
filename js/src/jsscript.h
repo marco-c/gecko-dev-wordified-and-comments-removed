@@ -4360,7 +4360,7 @@ return
 argumentsNotIncluded_
 ;
 }
-JSFlatString
+JSStableString
 *
 substring
 (
