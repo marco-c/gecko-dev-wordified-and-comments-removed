@@ -485,10 +485,6 @@ logMessage
 consoleMessage
 )
 ;
-if
-(
-gDebugLogEnabled
-)
 dump
 (
 "

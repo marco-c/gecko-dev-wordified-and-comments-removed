@@ -77,8 +77,11 @@ DEFAULT_SAVE_DELAY_MS
 =
 50
 ;
-function
+this
+.
 DeferredSave
+=
+function
 (
 aPath
 aDataProvider
@@ -213,6 +216,8 @@ _delay
 DEFAULT_SAVE_DELAY_MS
 ;
 }
+this
+.
 DeferredSave
 .
 prototype
