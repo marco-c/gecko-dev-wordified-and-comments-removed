@@ -6407,6 +6407,9 @@ _accelerate
 pixels
 every
 20ms
+(
+50fps
+)
 var
 timeCompensation
 =
