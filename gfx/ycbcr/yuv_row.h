@@ -86,7 +86,7 @@ width
 )
 ;
 void
-ConvertYUVToRGB32Row
+ConvertYUVToRGB32Row_SSE
 (
 const
 uint8
@@ -110,7 +110,7 @@ step
 )
 ;
 void
-RotateConvertYUVToRGB32Row
+RotateConvertYUVToRGB32Row_SSE
 (
 const
 uint8
@@ -136,7 +136,7 @@ uvstep
 )
 ;
 void
-DoubleYUVToRGB32Row
+DoubleYUVToRGB32Row_SSE
 (
 const
 uint8
