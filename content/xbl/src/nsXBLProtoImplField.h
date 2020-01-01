@@ -146,8 +146,14 @@ InstallAccessors
 JSContext
 *
 aCx
+JS
+:
+:
+Handle
+<
 JSObject
 *
+>
 aTargetClassObject
 )
 ;
