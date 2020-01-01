@@ -8,6 +8,13 @@ h
 #
 include
 "
+nsID
+.
+h
+"
+#
+include
+"
 nsISupports
 .
 h

@@ -433,7 +433,7 @@ LIBS
 =
 \
 (
-XPCOM_GLUE_LDOPTS
+XPCOM_LIBS
 )
 \
 (
