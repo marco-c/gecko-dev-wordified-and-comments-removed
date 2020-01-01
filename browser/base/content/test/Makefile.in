@@ -643,6 +643,12 @@ browser_bug356571
 .
 js
 \
+browser_sanitize
+-
+passwordDisabledHosts
+.
+js
+\
 (
 NULL
 )
