@@ -358,7 +358,7 @@ R
 .
 drawable
 .
-favicon_bg
+bookmark_thumbnail_bg
 )
 ;
 drawable
