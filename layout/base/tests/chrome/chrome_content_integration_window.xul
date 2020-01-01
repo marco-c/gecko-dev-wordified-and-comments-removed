@@ -401,6 +401,12 @@ runTests
 var
 testCanvas
 =
+window
+.
+opener
+.
+SpecialPowers
+.
 snapshotWindow
 (
 window
@@ -409,6 +415,12 @@ window
 var
 refCanvas
 =
+window
+.
+opener
+.
+SpecialPowers
+.
 snapshotWindow
 (
 window
