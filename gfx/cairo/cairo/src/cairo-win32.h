@@ -78,6 +78,15 @@ surface
 )
 ;
 cairo_public
+HDC
+cairo_win32_get_dc_with_clip
+(
+cairo_t
+*
+cr
+)
+;
+cairo_public
 cairo_surface_t
 *
 cairo_win32_surface_get_image

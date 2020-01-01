@@ -21,6 +21,17 @@ cairoint
 h
 "
 #
+include
+"
+cairo
+-
+region
+-
+private
+.
+h
+"
+#
 ifdef
 CAIRO_DDRAW_USE_GL
 #

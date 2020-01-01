@@ -239,6 +239,15 @@ nsCRT
 .
 h
 "
+#
+include
+"
+mozilla
+/
+FunctionTimer
+.
+h
+"
 gfxPlatform
 *
 gPlatform
@@ -3641,6 +3650,8 @@ if
 gCMSOutputProfile
 )
 {
+NS_TIME_FUNCTION
+;
 nsCOMPtr
 <
 nsIPrefBranch

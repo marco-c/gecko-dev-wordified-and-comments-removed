@@ -28,6 +28,9 @@ Carbon
 h
 >
 class
+gfxContext
+;
+class
 THEBES_API
 gfxQuartzSurface
 :
@@ -102,6 +105,14 @@ return
 mCGContext
 ;
 }
+CGContextRef
+GetCGContextWithClip
+(
+gfxContext
+*
+ctx
+)
+;
 virtual
 PRInt32
 GetDefaultContextFlags
