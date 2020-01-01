@@ -1743,10 +1743,7 @@ return
 if
 (
 !
-nsContentUtils
-:
-:
-IsCallerChrome
+IsSystemXHR
 (
 )
 )
@@ -4956,10 +4953,7 @@ httpChannel
 if
 (
 !
-nsContentUtils
-:
-:
-IsCallerChrome
+IsSystemXHR
 (
 )
 &
@@ -12588,6 +12582,7 @@ isInvalidHeader
 =
 false
 ;
+static
 const
 char
 *
@@ -12737,10 +12732,7 @@ break
 if
 (
 !
-nsContentUtils
-:
-:
-IsCallerChrome
+IsSystemXHR
 (
 )
 )
@@ -13447,10 +13439,7 @@ aRv
 if
 (
 !
-nsContentUtils
-:
-:
-IsCallerChrome
+IsSystemXHR
 (
 )
 )
