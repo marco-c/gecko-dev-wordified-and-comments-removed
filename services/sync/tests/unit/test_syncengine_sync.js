@@ -1737,6 +1737,7 @@ uploaded
 "
 )
 ;
+let
 key
 =
 crypto_steam
