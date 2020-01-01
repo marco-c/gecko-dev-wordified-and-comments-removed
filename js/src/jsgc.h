@@ -5044,6 +5044,15 @@ rt
 ;
 extern
 void
+PrepareForFullGC
+(
+JSRuntime
+*
+rt
+)
+;
+extern
+void
 PrepareCompartmentForGC
 (
 JSCompartment
@@ -5071,8 +5080,6 @@ GC
 JSContext
 *
 cx
-bool
-full
 JSGCInvocationKind
 gckind
 js
@@ -5092,8 +5099,6 @@ GCSlice
 JSContext
 *
 cx
-bool
-full
 JSGCInvocationKind
 gckind
 js

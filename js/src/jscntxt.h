@@ -930,10 +930,6 @@ volatile
 uintptr_t
 gcIsNeeded
 ;
-volatile
-uintptr_t
-gcFullIsNeeded
-;
 js
 :
 :
@@ -966,9 +962,6 @@ Reason
 gcTriggerReason
 ;
 bool
-gcIsFull
-;
-bool
 gcStrictCompartmentChecking
 ;
 js
@@ -981,13 +974,7 @@ State
 gcIncrementalState
 ;
 bool
-gcCompartmentCreated
-;
-bool
 gcLastMarkSlice
-;
-bool
-gcIncrementalIsFull
 ;
 volatile
 uintptr_t
