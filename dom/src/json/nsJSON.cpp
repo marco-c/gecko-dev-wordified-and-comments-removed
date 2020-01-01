@@ -1248,7 +1248,10 @@ nsIUnicodeEncoder
 :
 kOnError_Signal
 nsnull
-nsnull
+'
+\
+0
+'
 )
 ;
 NS_ENSURE_SUCCESS

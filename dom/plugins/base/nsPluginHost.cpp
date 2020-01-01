@@ -2745,7 +2745,7 @@ streamListener
 altHost
 referrer
 forceJSEnabled
-nsnull
+0
 nsnull
 )
 ;

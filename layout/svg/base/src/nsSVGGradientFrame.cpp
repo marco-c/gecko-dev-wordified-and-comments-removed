@@ -1694,7 +1694,7 @@ if
 next
 )
 return
-nsnull
+0
 ;
 return
 next

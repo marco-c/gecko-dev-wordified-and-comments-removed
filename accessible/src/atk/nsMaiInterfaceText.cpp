@@ -1674,7 +1674,7 @@ if
 accWrap
 )
 return
-nsnull
+0
 ;
 nsCOMPtr
 <
@@ -1700,7 +1700,7 @@ accText
 NS_ENSURE_TRUE
 (
 accText
-nsnull
+0
 )
 ;
 PRInt32

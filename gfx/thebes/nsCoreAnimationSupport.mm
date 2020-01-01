@@ -2356,11 +2356,11 @@ nsnull
 ;
 mFBO
 =
-nsnull
+0
 ;
 mIOTexture
 =
-nsnull
+0
 ;
 }
 nsresult

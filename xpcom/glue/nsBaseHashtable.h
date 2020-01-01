@@ -331,7 +331,7 @@ if
 ent
 )
 return
-nsnull
+0
 ;
 return
 ent

@@ -2461,7 +2461,7 @@ aType
 )
 {
 return
-nsnull
+0
 ;
 }
 virtual

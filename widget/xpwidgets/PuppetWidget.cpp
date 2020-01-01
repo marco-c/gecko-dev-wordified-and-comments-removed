@@ -850,7 +850,7 @@ nsCAutoString
 PuppetWidget
 "
 )
-nsnull
+0
 )
 ;
 #
@@ -1025,7 +1025,7 @@ nsCAutoString
 PuppetWidget
 "
 )
-nsnull
+0
 )
 ;
 #
@@ -2113,7 +2113,7 @@ nsCAutoString
 PuppetWidget
 "
 )
-nsnull
+0
 )
 ;
 #
@@ -2471,7 +2471,7 @@ mozilla
 WindowsHandle
 nativeData
 =
-nsnull
+0
 ;
 mTabChild
 -

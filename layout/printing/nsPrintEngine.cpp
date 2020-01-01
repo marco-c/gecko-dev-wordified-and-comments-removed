@@ -15658,7 +15658,7 @@ nsIWebProgressListener
 :
 :
 STATE_IS_DOCUMENT
-nsnull
+NS_OK
 )
 ;
 }
