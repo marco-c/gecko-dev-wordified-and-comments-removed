@@ -9412,6 +9412,12 @@ viewport
 aViewport
 )
 {
+BrowserEventHandler
+.
+_cancelTapHighlight
+(
+)
+;
 aViewport
 .
 x
