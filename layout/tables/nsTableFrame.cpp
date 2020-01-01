@@ -12174,6 +12174,15 @@ aReflowState
 availSize
 .
 height
+&
+&
+aReflowState
+.
+reflowState
+.
+mFlags
+.
+mTableIsSplittable
 ;
 aOverflowAreas
 .
