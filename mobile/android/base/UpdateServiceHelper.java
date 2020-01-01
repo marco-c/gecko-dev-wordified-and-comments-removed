@@ -404,7 +404,7 @@ default
 +
 AppConstants
 .
-MOZ_APP_VERSION
+MOZILLA_VERSION
 +
 "
 /
