@@ -1351,6 +1351,7 @@ aData
 restart
 "
 )
+{
 this
 .
 _prefBranch
@@ -1365,6 +1366,13 @@ resume_session_once
 true
 )
 ;
+this
+.
+_clearingOnShutdown
+=
+false
+;
+}
 this
 .
 _loadState
