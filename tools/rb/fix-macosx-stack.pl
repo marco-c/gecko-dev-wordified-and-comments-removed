@@ -1797,6 +1797,17 @@ address
 }
 ;
 }
+select
+STDOUT
+;
+|
+=
+1
+;
+#
+make
+STDOUT
+unbuffered
 while
 (
 <
