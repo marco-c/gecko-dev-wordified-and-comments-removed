@@ -1445,7 +1445,7 @@ Localization
 note
 (
 datareporting_fhr_title
-datareporting_fhr_summary
+datareporting_fhr_summary2
 reporting_telemetry_title
 datareporting_telemetry_summary
 datareporting_crashreporter_summary
@@ -1505,7 +1505,7 @@ Report
 <
 !
 ENTITY
-datareporting_fhr_summary
+datareporting_fhr_summary2
 "
 Shares
 data
