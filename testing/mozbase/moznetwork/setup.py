@@ -7,14 +7,11 @@ PACKAGE_VERSION
 '
 0
 .
-22
+21
 '
 deps
 =
 [
-'
-mozinfo
-'
 ]
 setup
 (
@@ -109,7 +106,7 @@ tools
 /
 Projects
 /
-Mozbase
+MozBase
 '
       
 license

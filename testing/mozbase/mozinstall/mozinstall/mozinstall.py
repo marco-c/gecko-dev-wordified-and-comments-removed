@@ -262,8 +262,7 @@ plist
 %
 path
         
-if
-not
+assert
 os
 .
 path
@@ -272,26 +271,19 @@ isfile
 (
 plist
 )
-:
-            
-raise
-InvalidBinary
-(
 '
+"
 %
 s
-/
-Contents
-/
-Info
-.
-plist
+"
+has
 not
+been
 found
+.
 '
 %
-path
-)
+plist
         
 binary
 =
@@ -1147,7 +1139,7 @@ finally
 del
 trbk
     
-mozfile
+shutil
 .
 rmtree
 (

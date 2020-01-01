@@ -264,7 +264,7 @@ RM
 proclaunch
 .
 exe
-proclaunch
+projloaunch
 .
 obj
 else
