@@ -934,6 +934,17 @@ typedef
 uint32_t
 NIns
 ;
+const
+size_t
+LARGEST_BRANCH_PATCH
+=
+4
+*
+sizeof
+(
+Nins
+)
+;
 inline
 Register
 nextreg

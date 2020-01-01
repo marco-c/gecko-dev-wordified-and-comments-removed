@@ -314,6 +314,7 @@ CodeList
 code
 )
 ;
+static
 void
 flushICache
 (
@@ -321,6 +322,17 @@ CodeList
 *
 &
 blocks
+)
+;
+static
+void
+flushICache
+(
+void
+*
+start
+size_t
+len
 )
 ;
 void

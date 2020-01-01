@@ -600,6 +600,17 @@ typedef
 uint8_t
 NIns
 ;
+const
+size_t
+LARGEST_BRANCH_PATCH
+=
+16
+*
+sizeof
+(
+NIns
+)
+;
 typedef
 enum
 {
