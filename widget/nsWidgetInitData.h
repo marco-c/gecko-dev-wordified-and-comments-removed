@@ -157,6 +157,10 @@ mIsDragPopup
 (
 false
 )
+mIsAnimationSuppressed
+(
+false
+)
 {
 }
 nsWindowType
@@ -190,6 +194,9 @@ mNoAutoHide
 ;
 bool
 mIsDragPopup
+;
+bool
+mIsAnimationSuppressed
 ;
 }
 ;
