@@ -702,8 +702,6 @@ COMPONENT_LIBS
 +
 =
 \
-xpconnect
-\
 necko
 \
 uconv
@@ -718,8 +716,6 @@ VERSION_NUMBER
 )
 \
 pref
-\
-caps
 \
 htmlpars
 \
