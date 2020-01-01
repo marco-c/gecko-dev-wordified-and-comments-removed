@@ -566,7 +566,7 @@ Calc
 aValue
 )
 ;
-public
+private
 :
 nsStyleUnit
 mUnit

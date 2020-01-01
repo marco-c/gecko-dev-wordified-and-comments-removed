@@ -6536,7 +6536,9 @@ aGradient
 >
 mBgPosX
 .
-mUnit
+GetUnit
+(
+)
 !
 =
 eStyleUnit_None
@@ -6564,7 +6566,9 @@ aGradient
 >
 mBgPosY
 .
-mUnit
+GetUnit
+(
+)
 !
 =
 eStyleUnit_None
@@ -6607,7 +6611,9 @@ aGradient
 >
 mAngle
 .
-mUnit
+GetUnit
+(
+)
 !
 =
 eStyleUnit_None
@@ -6664,7 +6670,9 @@ aGradient
 >
 mAngle
 .
-mUnit
+GetUnit
+(
+)
 )
 {
 case
@@ -6906,7 +6914,9 @@ i
 .
 mLocation
 .
-mUnit
+GetUnit
+(
+)
 !
 =
 eStyleUnit_None
