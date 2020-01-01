@@ -5239,6 +5239,14 @@ reset
 return
 ;
 }
+gBuilder
+=
+setTimeout
+(
+function
+(
+)
+{
 stepListBuilder
 (
 1
@@ -5249,6 +5257,10 @@ gDownloadsView
 selectedIndex
 =
 0
+;
+}
+0
+)
 ;
 }
 function
