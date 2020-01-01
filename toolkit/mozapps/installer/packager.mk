@@ -702,7 +702,8 @@ UNPACK_TAR
 =
 tar
 -
-x
+xf
+-
 ifeq
 (
 (
