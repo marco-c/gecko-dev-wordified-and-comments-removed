@@ -704,6 +704,10 @@ return
 hasGuessedAtom
 (
 )
+|
+|
+!
+atom_
 ?
 NULL
 :
