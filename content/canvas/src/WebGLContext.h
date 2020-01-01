@@ -313,8 +313,14 @@ WebGLUniformLocation
 class
 WebGLExtension
 ;
+class
+WebGLContext
+;
 struct
 WebGLVertexAttribData
+;
+class
+WebGLMemoryPressureObserver
 ;
 class
 WebGLRectangleObject
@@ -3378,6 +3384,12 @@ mForceDiscreteGPUHelper
 ;
 #
 endif
+nsRefPtr
+<
+WebGLMemoryPressureObserver
+>
+mMemoryPressureObserver
+;
 public
 :
 static
