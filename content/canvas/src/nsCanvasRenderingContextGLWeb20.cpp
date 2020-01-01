@@ -124,13 +124,6 @@ h
 #
 include
 "
-nsIImage
-.
-h
-"
-#
-include
-"
 nsDOMError
 .
 h
