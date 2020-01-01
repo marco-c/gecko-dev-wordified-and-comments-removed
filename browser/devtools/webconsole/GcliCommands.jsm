@@ -295,7 +295,11 @@ th
 class
 =
 "
-gcliCmdHelpRight
+gcli
+-
+help
+-
+right
 "
 >
 '

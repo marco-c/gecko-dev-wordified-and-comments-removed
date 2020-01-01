@@ -179,6 +179,15 @@ Failure
 ex
 )
 ;
+ok
+(
+false
+'
+'
++
+ex
+)
+;
 }
 finally
 {
@@ -505,6 +514,8 @@ ecd
 gcliterm
 .
 opts
+.
+popup
 .
 inputter
 .
