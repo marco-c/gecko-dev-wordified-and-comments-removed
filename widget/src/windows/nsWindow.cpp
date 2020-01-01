@@ -935,7 +935,7 @@ endif
 ifndef
 WINCE
 static
-KeyboardLayout
+nsKeyboardLayout
 gKbdLayout
 ;
 #
@@ -24694,7 +24694,7 @@ IsDeadKey
 )
 &
 &
-KeyboardLayout
+nsKeyboardLayout
 :
 :
 IsPrintableCharKey
@@ -25076,7 +25076,7 @@ mIsAltDown
 &
 &
 (
-KeyboardLayout
+nsKeyboardLayout
 :
 :
 IsPrintableCharKey
@@ -25085,7 +25085,7 @@ virtualKeyCode
 )
 |
 |
-KeyboardLayout
+nsKeyboardLayout
 :
 :
 IsNumpadKey
@@ -25320,7 +25320,7 @@ default
 :
 if
 (
-KeyboardLayout
+nsKeyboardLayout
 :
 :
 IsPrintableCharKey

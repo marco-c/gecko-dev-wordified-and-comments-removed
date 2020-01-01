@@ -76,7 +76,7 @@ class
 DeadKeyTable
 ;
 class
-VirtualKey
+nsVirtualKey
 {
 union
 KeyShiftState
@@ -276,7 +276,7 @@ const
 }
 ;
 class
-KeyboardLayout
+nsKeyboardLayout
 {
 struct
 DeadKeyTableListEntry
@@ -300,7 +300,7 @@ NUM_OF_KEYS
 HKL
 mKeyboardLayout
 ;
-VirtualKey
+nsVirtualKey
 mVirtualKeys
 [
 NUM_OF_KEYS
@@ -451,12 +451,12 @@ ReleaseDeadKeyTables
 ;
 public
 :
-KeyboardLayout
+nsKeyboardLayout
 (
 )
 ;
 ~
-KeyboardLayout
+nsKeyboardLayout
 (
 )
 ;
