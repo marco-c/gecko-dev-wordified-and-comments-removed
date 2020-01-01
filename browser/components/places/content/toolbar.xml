@@ -781,6 +781,13 @@ anonid
 "
 chevronPopup
 "
+xbl
+:
+inherits
+=
+"
+tooltip
+"
 #
 ifndef
 XP_MACOSX
