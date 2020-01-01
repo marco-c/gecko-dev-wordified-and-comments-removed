@@ -142,6 +142,8 @@ mozprofile
 \
 mozrunner
 \
+mozdevice
+\
 (
 NULL
 )
