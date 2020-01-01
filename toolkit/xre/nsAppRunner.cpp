@@ -11290,10 +11290,10 @@ display
 #
 endif
 NS_VISIBILITY_DEFAULT
-bool
+PRBool
 nspr_use_zone_allocator
 =
-false
+PR_FALSE
 ;
 #
 ifdef
