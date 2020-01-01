@@ -11,6 +11,17 @@ blank
 html
 #
 Bugs
+fails
+-
+if
+(
+MOZ_WIDGET_TOOLKIT
+=
+=
+"
+cocoa
+"
+)
 =
 =
 272830
@@ -25,3 +36,6 @@ html
 ref
 .
 html
+#
+bug
+377119
