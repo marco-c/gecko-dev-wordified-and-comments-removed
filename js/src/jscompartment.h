@@ -606,6 +606,10 @@ JaegerCompartment
 ;
 }
 }
+extern
+JSClass
+js_dummy_class
+;
 #
 ifndef
 JS_EVAL_CACHE_SHIFT
