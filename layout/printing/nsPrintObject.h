@@ -196,6 +196,9 @@ mInvisible
 PRPackedBool
 mPrintPreview
 ;
+PRPackedBool
+mDidCreateDocShell
+;
 float
 mShrinkRatio
 ;
