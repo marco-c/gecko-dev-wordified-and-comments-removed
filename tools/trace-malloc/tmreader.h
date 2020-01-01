@@ -7,13 +7,6 @@ tmreader_h___
 #
 include
 "
-prtypes
-.
-h
-"
-#
-include
-"
 plhash
 .
 h

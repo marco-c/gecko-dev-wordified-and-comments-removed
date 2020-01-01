@@ -1518,7 +1518,8 @@ PR_Now
 srand
 (
 (
-uint
+unsigned
+int
 )
 (
 fpTime

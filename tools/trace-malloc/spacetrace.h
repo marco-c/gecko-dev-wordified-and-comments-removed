@@ -7,6 +7,15 @@ spacetrace_h__
 #
 include
 "
+mozilla
+/
+StandardInteger
+.
+h
+"
+#
+include
+"
 nspr
 .
 h

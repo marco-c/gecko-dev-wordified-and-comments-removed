@@ -6,6 +6,15 @@ define
 NSTRACEMALLOCCALLBACKS_H
 #
 include
+"
+mozilla
+/
+StandardInteger
+.
+h
+"
+#
+include
 <
 stdlib
 .
