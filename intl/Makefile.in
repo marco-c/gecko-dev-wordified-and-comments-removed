@@ -409,6 +409,8 @@ mk
 PARALLEL_DIRS
 =
 \
+hyphenation
+\
 locale
 \
 lwbrk
