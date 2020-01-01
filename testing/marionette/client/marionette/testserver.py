@@ -435,18 +435,6 @@ True
 }
         
 '
-getElementValue
-'
-:
-{
-'
-value
-'
-:
-TEST_GET_VALUE
-}
-        
-'
 clearElement
 '
 :
