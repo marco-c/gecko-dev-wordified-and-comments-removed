@@ -33366,6 +33366,14 @@ frame
 .
 allocReg
 (
+Registers
+:
+:
+SavedRegs
+)
+.
+reg
+(
 )
 ;
 masm
