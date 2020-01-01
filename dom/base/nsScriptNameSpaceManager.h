@@ -341,6 +341,13 @@ PrefEnabled
 aPrefEnabled
 )
 ;
+size_t
+SizeOfIncludingThis
+(
+nsMallocSizeOfFun
+aMallocSizeOf
+)
+;
 private
 :
 nsGlobalNameStruct
