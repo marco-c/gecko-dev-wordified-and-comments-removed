@@ -330,6 +330,7 @@ RecordFrameChanged
 imgIContainer
 *
 aContainer
+const
 nsIntRect
 *
 aDirtyRect
@@ -344,6 +345,7 @@ aProxy
 imgIContainer
 *
 aContainer
+const
 nsIntRect
 *
 aDirtyRect
