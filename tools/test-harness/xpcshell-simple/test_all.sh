@@ -1059,6 +1059,13 @@ TOPSRCDIR
 "
 topsrcdir
 "
+NSPR_LOG_MODULES
+=
+"
+nsHttp
+:
+5
+"
 xpcshell
 -
 s
