@@ -172,7 +172,7 @@ HOTLOOP
 #
 define
 HOTEXIT
-0
+1
 #
 define
 MAX_CALLDEPTH
