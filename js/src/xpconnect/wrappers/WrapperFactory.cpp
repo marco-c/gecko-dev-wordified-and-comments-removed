@@ -1384,7 +1384,12 @@ obj
 getProto
 (
 )
-NULL
+obj
+-
+>
+getParent
+(
+)
 &
 LW
 :
@@ -1564,7 +1569,12 @@ obj
 getProto
 (
 )
-NULL
+obj
+-
+>
+getGlobal
+(
+)
 &
 FilteringWrapper
 <
