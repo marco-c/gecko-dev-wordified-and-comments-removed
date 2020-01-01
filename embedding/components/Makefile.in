@@ -438,6 +438,8 @@ DIRS
 =
 windowwatcher
 appstartup
+/
+src
 find
 webbrowserpersist
 commandhandler
@@ -449,6 +451,8 @@ DIRS
 +
 =
 printingui
+/
+src
 endif
 endif
 DIRS

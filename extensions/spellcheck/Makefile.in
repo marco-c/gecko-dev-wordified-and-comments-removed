@@ -430,6 +430,8 @@ DIRS
 +
 =
 tests
+/
+chrome
 endif
 include
 (

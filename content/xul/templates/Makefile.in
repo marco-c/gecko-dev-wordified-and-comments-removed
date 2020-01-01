@@ -425,6 +425,8 @@ TOOL_DIRS
 +
 =
 tests
+/
+chrome
 endif
 include
 (

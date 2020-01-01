@@ -543,6 +543,8 @@ DIRS
 +
 =
 pmstripe
+/
+global
 endif
 ifdef
 MOZ_THEME_FASTSTRIPE
@@ -550,6 +552,8 @@ DIRS
 +
 =
 faststripe
+/
+global
 endif
 endif
 include

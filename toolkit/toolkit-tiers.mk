@@ -924,6 +924,8 @@ tier_platform_dirs
 js
 /
 ductwork
+/
+debugger
 ifdef
 APP_LIBXUL_STATICDIRS
 #

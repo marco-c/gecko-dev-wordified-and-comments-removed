@@ -427,6 +427,8 @@ shistory
 build
 \
 resources
+/
+content
 \
 (
 NULL

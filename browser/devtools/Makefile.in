@@ -443,8 +443,6 @@ highlighter
 \
 webconsole
 \
-scratchpad
-\
 sourceeditor
 \
 styleinspector
@@ -456,15 +454,12 @@ NULL
 )
 ifdef
 ENABLE_TESTS
-#
 DIRS
 +
 =
+scratchpad
+/
 test
-#
-no
-tests
-yet
 endif
 include
 (

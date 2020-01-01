@@ -505,9 +505,6 @@ js
 (
 NULL
 )
-DIRS
-=
-content
 ifdef
 ENABLE_TESTS
 DIRS

@@ -411,9 +411,6 @@ config
 autoconf
 .
 mk
-DIRS
-=
-src
 ifdef
 ENABLE_TESTS
 DIRS

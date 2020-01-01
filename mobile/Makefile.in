@@ -438,6 +438,8 @@ locales
 components
 modules
 themes
+/
+core
 app
 ifndef
 LIBXUL_SDK

@@ -412,6 +412,8 @@ mk
 PARALLEL_DIRS
 =
 document
+/
+src
 content
 include
 (

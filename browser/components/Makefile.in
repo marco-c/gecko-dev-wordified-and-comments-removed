@@ -483,6 +483,8 @@ sessionstore
 shell
 \
 sidebar
+/
+src
 \
 migration
 \
@@ -514,6 +516,8 @@ DIRS
 +
 =
 test
+/
+browser
 endif
 DIRS
 +

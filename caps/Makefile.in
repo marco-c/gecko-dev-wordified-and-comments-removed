@@ -420,6 +420,8 @@ DIRS
 +
 =
 tests
+/
+mochitest
 endif
 include
 (

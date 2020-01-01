@@ -421,6 +421,8 @@ DIRS
 +
 =
 test
+/
+browser
 endif
 include
 (

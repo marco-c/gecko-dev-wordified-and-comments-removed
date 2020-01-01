@@ -430,8 +430,7 @@ tier_app_dirs
 extensions
 endif
 #
-winembed
-mfcembed
+winEmbed
 ifeq
 (
 (
@@ -454,6 +453,8 @@ tier_app_dirs
 embedding
 /
 tests
+/
+winEmbed
 endif
 endif
 tier_app_dirs
