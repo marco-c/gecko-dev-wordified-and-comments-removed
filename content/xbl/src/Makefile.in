@@ -173,6 +173,10 @@ nsXBLBinding
 .
 h
 \
+nsXBLService
+.
+h
+\
 (
 NULL
 )
