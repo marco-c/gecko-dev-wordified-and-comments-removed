@@ -12,13 +12,6 @@ nsXPCOMPrivate
 h
 "
 #
-include
-"
-prtypes
-.
-h
-"
-#
 ifdef
 XP_WIN
 #
