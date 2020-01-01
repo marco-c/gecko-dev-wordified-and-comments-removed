@@ -6609,6 +6609,7 @@ arg2
 )
 )
 extern
+const
 JSErrorFormatString
 js_ErrorFormatString
 [

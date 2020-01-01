@@ -5236,6 +5236,7 @@ return
 ok
 ;
 }
+const
 JSErrorFormatString
 js_ErrorFormatString
 [
