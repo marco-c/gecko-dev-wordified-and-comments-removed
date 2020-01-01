@@ -446,6 +446,10 @@ test_text_dirty
 .
 html
 \
+test_text_lengthAdjust
+.
+html
+\
 test_text_scaled
 .
 html

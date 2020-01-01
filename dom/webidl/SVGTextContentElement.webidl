@@ -169,15 +169,11 @@ LENGTHADJUST_SPACINGANDGLYPHS
 =
 2
 ;
-/
-/
 readonly
 attribute
 SVGAnimatedLength
 textLength
 ;
-/
-/
 readonly
 attribute
 SVGAnimatedEnumeration
