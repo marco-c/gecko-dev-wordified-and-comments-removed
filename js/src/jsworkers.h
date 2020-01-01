@@ -265,14 +265,6 @@ JSScript
 script
 )
 ;
-bool
-OffThreadCompilationAvailable
-(
-JSContext
-*
-cx
-)
-;
 class
 AutoLockWorkerThreadState
 {
