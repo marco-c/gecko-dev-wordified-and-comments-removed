@@ -1611,14 +1611,6 @@ unsigned
 msg
 )
 ;
-PropertyName
-*
-foldPropertyByValue
-(
-Node
-pn
-)
-;
 Node
 cloneLeftHandSide
 (
