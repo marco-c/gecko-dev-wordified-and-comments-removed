@@ -4443,6 +4443,10 @@ metrics
 =
 app
 .
+getResources
+(
+)
+.
 getDisplayMetrics
 (
 )

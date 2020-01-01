@@ -3180,6 +3180,10 @@ GeckoApp
 .
 mAppContext
 .
+getResources
+(
+)
+.
 getDisplayMetrics
 (
 )
@@ -8735,6 +8739,10 @@ sDensityDpi
 GeckoApp
 .
 mAppContext
+.
+getResources
+(
+)
 .
 getDisplayMetrics
 (
