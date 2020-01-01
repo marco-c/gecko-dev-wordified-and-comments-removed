@@ -714,10 +714,7 @@ script
 NULL
 ;
 }
-js
-:
-:
-Native
+JSNative
 native
 (
 )
@@ -738,10 +735,7 @@ n
 native
 ;
 }
-js
-:
-:
-Native
+JSNative
 maybeNative
 (
 )
@@ -1239,7 +1233,7 @@ js
 Value
 &
 v
-Native
+JSNative
 native
 )
 {
@@ -1283,7 +1277,7 @@ Class
 clasp
 jsid
 methodid
-Native
+JSNative
 native
 )
 {
@@ -1814,10 +1808,7 @@ cx
 JSObject
 *
 funobj
-js
-:
-:
-Native
+JSNative
 native
 uintN
 nargs
@@ -2065,10 +2056,7 @@ JSObject
 obj
 jsid
 id
-js
-:
-:
-Native
+JSNative
 native
 uintN
 nargs

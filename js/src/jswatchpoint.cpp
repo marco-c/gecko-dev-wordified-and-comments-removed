@@ -725,14 +725,8 @@ handler
 cx
 obj
 id
-Jsvalify
-(
 old
-)
-Jsvalify
-(
 vp
-)
 closure
 )
 ;

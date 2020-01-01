@@ -2954,7 +2954,7 @@ clasp
 setProperty
 !
 =
-StrictPropertyStub
+JS_StrictPropertyStub
 )
 return
 disable
@@ -3249,7 +3249,7 @@ clasp
 addProperty
 !
 =
-PropertyStub
+JS_PropertyStub
 )
 return
 disable

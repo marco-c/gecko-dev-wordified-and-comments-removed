@@ -4125,8 +4125,6 @@ if
 JS_XDRValue
 (
 xdr
-Jsvalify
-(
 &
 script
 -
@@ -4140,7 +4138,6 @@ vector
 [
 i
 ]
-)
 )
 )
 goto
@@ -4341,13 +4338,13 @@ JSCLASS_HAS_CACHED_PROTO
 (
 JSProto_Object
 )
-PropertyStub
-PropertyStub
-PropertyStub
-StrictPropertyStub
-EnumerateStub
-ResolveStub
-ConvertStub
+JS_PropertyStub
+JS_PropertyStub
+JS_PropertyStub
+JS_StrictPropertyStub
+JS_EnumerateStub
+JS_ResolveStub
+JS_ConvertStub
 NULL
 NULL
 NULL

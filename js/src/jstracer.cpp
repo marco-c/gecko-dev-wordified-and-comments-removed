@@ -55886,7 +55886,7 @@ get
 v
 )
 ;
-ConvertOp
+JSConvertOp
 convert
 =
 obj
@@ -55904,7 +55904,7 @@ if
 convert
 !
 =
-ConvertStub
+JS_ConvertStub
 )
 RETURN_STOP
 (
@@ -66943,10 +66943,7 @@ clasp
 addProperty
 !
 =
-Valueify
-(
 JS_PropertyStub
-)
 )
 RETURN_STOP
 (
@@ -66970,10 +66967,7 @@ clasp
 setProperty
 !
 =
-Valueify
-(
 JS_StrictPropertyStub
-)
 )
 RETURN_STOP
 (
@@ -77033,10 +77027,7 @@ getClass
 getProperty
 !
 =
-Valueify
-(
 JS_PropertyStub
-)
 )
 {
 RETURN_STOP_A
@@ -91113,10 +91104,7 @@ if
 (
 js_IsMathFunction
 (
-JS_JSVALIFY_NATIVE
-(
 native
-)
 )
 )
 increment

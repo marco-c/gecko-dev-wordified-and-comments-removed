@@ -973,6 +973,10 @@ jsbit
 .
 h
 \
+jsclass
+.
+h
+\
 jsclist
 .
 h
@@ -1186,10 +1190,6 @@ jsxdrapi
 h
 \
 jsval
-.
-h
-\
-jsvalue
 .
 h
 \

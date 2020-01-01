@@ -71,13 +71,6 @@ h
 #
 include
 "
-jsvalue
-.
-h
-"
-#
-include
-"
 jsvector
 .
 h
@@ -1630,11 +1623,8 @@ compartment
 wrap
 (
 context
-Valueify
-(
 &
 referrer
-)
 )
 )
 return

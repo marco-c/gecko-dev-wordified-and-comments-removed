@@ -239,10 +239,7 @@ value
 ;
 setConstant
 (
-Jsvalify
-(
 newValue
-)
 )
 ;
 }

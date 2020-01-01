@@ -2877,11 +2877,8 @@ regs
 )
 .
 pc
-Jsvalify
-(
 &
 rval
-)
 cx
 -
 >

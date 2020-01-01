@@ -26,13 +26,6 @@ endif
 #
 include
 "
-jsvalue
-.
-h
-"
-#
-include
-"
 jsstdint
 .
 h

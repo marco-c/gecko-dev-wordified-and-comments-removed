@@ -2825,8 +2825,8 @@ toObject
 )
 propid
 v
-PropertyStub
-StrictPropertyStub
+JS_PropertyStub
+JS_StrictPropertyStub
 JSPROP_ENUMERATE
 0
 0

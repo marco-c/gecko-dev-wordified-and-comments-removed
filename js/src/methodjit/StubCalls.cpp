@@ -4542,8 +4542,8 @@ defineProperty
 cx
 id
 rval
-PropertyStub
-StrictPropertyStub
+JS_PropertyStub
+JS_StrictPropertyStub
 attrs
 )
 )
@@ -4608,8 +4608,8 @@ defineProperty
 cx
 id
 rval
-PropertyStub
-StrictPropertyStub
+JS_PropertyStub
+JS_StrictPropertyStub
 attrs
 )
 )
@@ -5429,7 +5429,7 @@ assertSpecialEqualitySynced
 ;
 if
 (
-EqualityOp
+JSEqualityOp
 eq
 =
 l
@@ -7119,7 +7119,6 @@ if
 (
 handler
 )
-{
 st
 =
 handler
@@ -7133,11 +7132,8 @@ script
 (
 )
 pc
-Jsvalify
-(
 &
 rval
-)
 f
 .
 cx
@@ -7149,7 +7145,6 @@ debugHooks
 debuggerHandlerData
 )
 ;
-}
 if
 (
 st
@@ -7402,11 +7397,8 @@ f
 pc
 (
 )
-Jsvalify
-(
 &
 rval
-)
 f
 .
 cx
@@ -10935,10 +10927,7 @@ JS_TypeOfValue
 f
 .
 cx
-Jsvalify
-(
 ref
-)
 )
 ;
 JSAtom
@@ -13667,8 +13656,8 @@ id
 UndefinedValue
 (
 )
-PropertyStub
-StrictPropertyStub
+JS_PropertyStub
+JS_StrictPropertyStub
 attrs
 0
 0
@@ -13749,8 +13738,8 @@ ATOM_TO_JSID
 atom
 )
 ref
-PropertyStub
-StrictPropertyStub
+JS_PropertyStub
+JS_StrictPropertyStub
 JSPROP_ENUMERATE
 |
 JSPROP_PERMANENT

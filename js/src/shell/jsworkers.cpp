@@ -4111,13 +4111,10 @@ getGlobal
 (
 )
 script
-Jsvalify
-(
 rval
 .
 addr
 (
-)
 )
 )
 ;
@@ -4311,10 +4308,7 @@ AutoValueRooter
 tvr
 (
 cx
-Valueify
-(
 exc
-)
 )
 ;
 JS_ClearPendingException

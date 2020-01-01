@@ -1229,9 +1229,6 @@ CallJSNative
 JSContext
 *
 cx
-js
-:
-:
 Native
 native
 const
@@ -1345,9 +1342,6 @@ CallJSNativeConstructor
 JSContext
 *
 cx
-js
-:
-:
 Native
 native
 const
@@ -1487,9 +1481,6 @@ CallJSPropertyOp
 JSContext
 *
 cx
-js
-:
-:
 PropertyOp
 op
 JSObject
@@ -1497,9 +1488,6 @@ JSObject
 receiver
 jsid
 id
-js
-:
-:
 Value
 *
 vp
@@ -1548,9 +1536,6 @@ CallJSPropertyOpSetter
 JSContext
 *
 cx
-js
-:
-:
 StrictPropertyOp
 op
 JSObject
@@ -1560,9 +1545,6 @@ jsid
 id
 JSBool
 strict
-js
-:
-:
 Value
 *
 vp
@@ -1600,9 +1582,6 @@ JSObject
 obj
 jsid
 id
-js
-:
-:
 StrictPropertyOp
 op
 uintN
@@ -1611,9 +1590,6 @@ uintN
 shortid
 JSBool
 strict
-js
-:
-:
 Value
 *
 vp

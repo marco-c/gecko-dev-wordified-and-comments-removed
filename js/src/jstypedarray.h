@@ -14,7 +14,7 @@ h
 #
 include
 "
-jsvalue
+jsclass
 .
 h
 "

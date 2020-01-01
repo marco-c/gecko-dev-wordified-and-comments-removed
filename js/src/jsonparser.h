@@ -27,13 +27,6 @@ jsstr
 .
 h
 "
-#
-include
-"
-jsvalue
-.
-h
-"
 class
 JSONParser
 {
