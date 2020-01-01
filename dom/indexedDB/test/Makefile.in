@@ -451,6 +451,10 @@ test_bad_keypath
 .
 html
 \
+test_clear
+.
+html
+\
 test_create_index
 .
 html
