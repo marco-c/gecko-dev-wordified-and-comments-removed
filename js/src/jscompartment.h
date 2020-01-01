@@ -766,14 +766,6 @@ AutoIdVector
 props
 )
 ;
-bool
-wrapException
-(
-JSContext
-*
-cx
-)
-;
 void
 sweep
 (

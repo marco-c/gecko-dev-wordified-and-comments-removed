@@ -5188,6 +5188,11 @@ resetCompartment
 )
 ;
 void
+wrapPendingException
+(
+)
+;
+void
 setCurrentRegs
 (
 JSFrameRegs
