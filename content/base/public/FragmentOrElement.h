@@ -96,7 +96,7 @@ class
 nsIDocument
 ;
 class
-nsIDOMDOMStringMap
+nsDOMStringMap
 ;
 class
 nsIDOMNamedNodeMap
@@ -1092,7 +1092,7 @@ nsICSSDeclaration
 >
 mStyle
 ;
-nsIDOMDOMStringMap
+nsDOMStringMap
 *
 mDataset
 ;

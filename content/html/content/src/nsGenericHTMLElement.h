@@ -1014,6 +1014,14 @@ nsIDOMDOMStringMap
 aDataset
 )
 ;
+already_AddRefed
+<
+nsDOMStringMap
+>
+Dataset
+(
+)
+;
 nsresult
 ClearDataset
 (
