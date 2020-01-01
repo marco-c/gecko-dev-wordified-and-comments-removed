@@ -117,9 +117,11 @@ nsChannelProperties
 .
 h
 "
-static
 PRBool
-gCSPEnabled
+CSPService
+:
+:
+sCSPEnabled
 =
 PR_TRUE
 ;
@@ -153,7 +155,7 @@ csp
 enable
 "
 &
-gCSPEnabled
+sCSPEnabled
 )
 ;
 #
@@ -280,7 +282,7 @@ ACCEPT
 if
 (
 !
-gCSPEnabled
+sCSPEnabled
 )
 return
 NS_OK
@@ -490,7 +492,7 @@ ACCEPT
 if
 (
 !
-gCSPEnabled
+sCSPEnabled
 )
 return
 NS_OK
