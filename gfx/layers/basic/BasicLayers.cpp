@@ -2980,9 +2980,6 @@ GetEffectiveVisibleRegion
 aContext
 )
 ;
-#
-ifdef
-MOZ_RENDERTRACE
 RenderTraceInvalidateStart
 (
 this
@@ -2996,8 +2993,6 @@ GetBounds
 )
 )
 ;
-#
-endif
 if
 (
 !
@@ -3194,9 +3189,6 @@ Restore
 )
 ;
 }
-#
-ifdef
-MOZ_RENDERTRACE
 RenderTraceInvalidateEnd
 (
 this
@@ -3205,8 +3197,6 @@ FF00
 "
 )
 ;
-#
-endif
 return
 ;
 }
@@ -3315,9 +3305,6 @@ state
 mContext
 )
 ;
-#
-ifdef
-MOZ_RENDERTRACE
 RenderTraceInvalidateStart
 (
 this
@@ -3333,8 +3320,6 @@ GetBounds
 )
 )
 ;
-#
-endif
 PaintBuffer
 (
 state
@@ -3358,9 +3343,6 @@ Mutated
 (
 )
 ;
-#
-ifdef
-MOZ_RENDERTRACE
 RenderTraceInvalidateEnd
 (
 this
@@ -3369,8 +3351,6 @@ FF00
 "
 )
 ;
-#
-endif
 }
 else
 {
@@ -7366,9 +7346,6 @@ PHASE_DRAWING
 ;
 #
 endif
-#
-ifdef
-MOZ_RENDERTRACE
 Layer
 *
 aLayer
@@ -7385,8 +7362,6 @@ FF00
 "
 )
 ;
-#
-endif
 mTransactionIncomplete
 =
 false
