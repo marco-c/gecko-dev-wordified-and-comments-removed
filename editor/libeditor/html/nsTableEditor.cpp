@@ -307,7 +307,7 @@ nsnull
 ;
 class
 NS_STACK_CLASS
-nsSelectionBatcher
+nsSelectionBatcherForTable
 {
 private
 :
@@ -319,7 +319,7 @@ mSelection
 ;
 public
 :
-nsSelectionBatcher
+nsSelectionBatcherForTable
 (
 nsISelection
 *
@@ -356,7 +356,7 @@ StartBatchChanges
 }
 virtual
 ~
-nsSelectionBatcher
+nsSelectionBatcherForTable
 (
 )
 {
@@ -6576,7 +6576,7 @@ res
 return
 res
 ;
-nsSelectionBatcher
+nsSelectionBatcherForTable
 selectionBatcher
 (
 selection
@@ -7040,7 +7040,7 @@ selection
 return
 NS_ERROR_FAILURE
 ;
-nsSelectionBatcher
+nsSelectionBatcherForTable
 selectionBatcher
 (
 selection
@@ -7339,7 +7339,7 @@ res
 return
 res
 ;
-nsSelectionBatcher
+nsSelectionBatcherForTable
 selectionBatcher
 (
 selection
@@ -7621,7 +7621,7 @@ res
 return
 res
 ;
-nsSelectionBatcher
+nsSelectionBatcherForTable
 selectionBatcher
 (
 selection
