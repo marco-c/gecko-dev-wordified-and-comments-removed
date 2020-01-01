@@ -4219,86 +4219,6 @@ JOF_CALLOP
 /
 *
 *
-Bytecodes
-that
-avoid
-making
-an
-arguments
-object
-in
-most
-cases
-:
-*
-JSOP_ARGSUB
-gets
-arguments
-[
-i
-]
-from
-fp
--
->
-argv
-iff
-i
-is
-in
-[
-0
-fp
--
->
-argc
--
-1
-]
-.
-*
-JSOP_ARGCNT
-returns
-fp
--
->
-argc
-.
-*
-/
-OPDEF
-(
-JSOP_ARGSUB
-138
-"
-argsub
-"
-NULL
-3
-0
-1
-18
-JOF_QARG
-|
-JOF_NAME
-)
-OPDEF
-(
-JSOP_ARGCNT
-139
-"
-argcnt
-"
-NULL
-1
-0
-1
-18
-JOF_BYTE
-)
-/
-*
-*
 Define
 a
 local
@@ -4345,7 +4265,7 @@ operand
 OPDEF
 (
 JSOP_DEFLOCALFUN
-140
+138
 "
 deflocalfun
 "
@@ -4370,7 +4290,7 @@ jumps
 OPDEF
 (
 JSOP_GOTOX
-141
+139
 "
 gotox
 "
@@ -4384,7 +4304,7 @@ JOF_JUMPX
 OPDEF
 (
 JSOP_IFEQX
-142
+140
 "
 ifeqx
 "
@@ -4400,7 +4320,7 @@ JOF_DETECTING
 OPDEF
 (
 JSOP_IFNEX
-143
+141
 "
 ifnex
 "
@@ -4416,7 +4336,7 @@ JOF_PARENHEAD
 OPDEF
 (
 JSOP_ORX
-144
+142
 "
 orx
 "
@@ -4432,7 +4352,7 @@ JOF_DETECTING
 OPDEF
 (
 JSOP_ANDX
-145
+143
 "
 andx
 "
@@ -4448,7 +4368,7 @@ JOF_DETECTING
 OPDEF
 (
 JSOP_GOSUBX
-146
+144
 "
 gosubx
 "
@@ -4462,7 +4382,7 @@ JOF_JUMPX
 OPDEF
 (
 JSOP_CASEX
-147
+145
 "
 casex
 "
@@ -4476,7 +4396,7 @@ JOF_JUMPX
 OPDEF
 (
 JSOP_DEFAULTX
-148
+146
 "
 defaultx
 "
@@ -4490,7 +4410,7 @@ JOF_JUMPX
 OPDEF
 (
 JSOP_TABLESWITCHX
-149
+147
 "
 tableswitchx
 "
@@ -4509,7 +4429,7 @@ JOF_PARENHEAD
 OPDEF
 (
 JSOP_LOOKUPSWITCHX
-150
+148
 "
 lookupswitchx
 "
@@ -4544,7 +4464,7 @@ fixup
 OPDEF
 (
 JSOP_BACKPATCH
-151
+149
 "
 backpatch
 "
@@ -4560,7 +4480,7 @@ JOF_BACKPATCH
 OPDEF
 (
 JSOP_BACKPATCH_POP
-152
+150
 "
 backpatch_pop
 "
@@ -4590,7 +4510,7 @@ rethrow
 OPDEF
 (
 JSOP_THROWING
-153
+151
 "
 throwing
 "
@@ -4620,7 +4540,7 @@ frame
 OPDEF
 (
 JSOP_SETRVAL
-154
+152
 "
 setrval
 "
@@ -4634,7 +4554,7 @@ JOF_BYTE
 OPDEF
 (
 JSOP_RETRVAL
-155
+153
 "
 retrval
 "
@@ -4666,7 +4586,7 @@ ReferenceError
 OPDEF
 (
 JSOP_GETGNAME
-156
+154
 "
 getgname
 "
@@ -4686,7 +4606,7 @@ JOF_GNAME
 OPDEF
 (
 JSOP_SETGNAME
-157
+155
 "
 setgname
 "
@@ -4708,7 +4628,7 @@ JOF_GNAME
 OPDEF
 (
 JSOP_INCGNAME
-158
+156
 "
 incgname
 "
@@ -4732,7 +4652,7 @@ JOF_DECOMPOSE
 OPDEF
 (
 JSOP_DECGNAME
-159
+157
 "
 decgname
 "
@@ -4756,7 +4676,7 @@ JOF_DECOMPOSE
 OPDEF
 (
 JSOP_GNAMEINC
-160
+158
 "
 gnameinc
 "
@@ -4782,7 +4702,7 @@ JOF_DECOMPOSE
 OPDEF
 (
 JSOP_GNAMEDEC
-161
+159
 "
 gnamedec
 "
@@ -4824,7 +4744,7 @@ handling
 OPDEF
 (
 JSOP_REGEXP
-162
+160
 "
 regexp
 "
@@ -4859,7 +4779,7 @@ support
 OPDEF
 (
 JSOP_DEFXMLNS
-163
+161
 "
 defxmlns
 "
@@ -4873,7 +4793,7 @@ JOF_BYTE
 OPDEF
 (
 JSOP_ANYNAME
-164
+162
 "
 anyname
 "
@@ -4889,7 +4809,7 @@ JOF_XMLNAME
 OPDEF
 (
 JSOP_QNAMEPART
-165
+163
 "
 qnamepart
 "
@@ -4905,7 +4825,7 @@ JOF_XMLNAME
 OPDEF
 (
 JSOP_QNAMECONST
-166
+164
 "
 qnameconst
 "
@@ -4921,7 +4841,7 @@ JOF_XMLNAME
 OPDEF
 (
 JSOP_QNAME
-167
+165
 "
 qname
 "
@@ -4937,7 +4857,7 @@ JOF_XMLNAME
 OPDEF
 (
 JSOP_TOATTRNAME
-168
+166
 "
 toattrname
 "
@@ -4953,7 +4873,7 @@ JOF_XMLNAME
 OPDEF
 (
 JSOP_TOATTRVAL
-169
+167
 "
 toattrval
 "
@@ -4967,7 +4887,7 @@ JOF_BYTE
 OPDEF
 (
 JSOP_ADDATTRNAME
-170
+168
 "
 addattrname
 "
@@ -4981,7 +4901,7 @@ JOF_BYTE
 OPDEF
 (
 JSOP_ADDATTRVAL
-171
+169
 "
 addattrval
 "
@@ -4995,7 +4915,7 @@ JOF_BYTE
 OPDEF
 (
 JSOP_BINDXMLNAME
-172
+170
 "
 bindxmlname
 "
@@ -5011,7 +4931,7 @@ JOF_SET
 OPDEF
 (
 JSOP_SETXMLNAME
-173
+171
 "
 setxmlname
 "
@@ -5029,7 +4949,7 @@ JOF_DETECTING
 OPDEF
 (
 JSOP_XMLNAME
-174
+172
 "
 xmlname
 "
@@ -5043,7 +4963,7 @@ JOF_BYTE
 OPDEF
 (
 JSOP_DESCENDANTS
-175
+173
 "
 descendants
 "
@@ -5057,7 +4977,7 @@ JOF_BYTE
 OPDEF
 (
 JSOP_FILTER
-176
+174
 "
 filter
 "
@@ -5071,7 +4991,7 @@ JOF_JUMP
 OPDEF
 (
 JSOP_ENDFILTER
-177
+175
 "
 endfilter
 "
@@ -5085,7 +5005,7 @@ JOF_JUMP
 OPDEF
 (
 JSOP_TOXML
-178
+176
 "
 toxml
 "
@@ -5099,7 +5019,7 @@ JOF_BYTE
 OPDEF
 (
 JSOP_TOXMLLIST
-179
+177
 "
 toxmllist
 "
@@ -5113,7 +5033,7 @@ JOF_BYTE
 OPDEF
 (
 JSOP_XMLTAGEXPR
-180
+178
 "
 xmltagexpr
 "
@@ -5127,7 +5047,7 @@ JOF_BYTE
 OPDEF
 (
 JSOP_XMLELTEXPR
-181
+179
 "
 xmleltexpr
 "
@@ -5141,7 +5061,7 @@ JOF_BYTE
 OPDEF
 (
 JSOP_NOTRACE
-182
+180
 "
 notrace
 "
@@ -5155,7 +5075,7 @@ JOF_UINT16
 OPDEF
 (
 JSOP_XMLCDATA
-183
+181
 "
 xmlcdata
 "
@@ -5169,7 +5089,7 @@ JOF_ATOM
 OPDEF
 (
 JSOP_XMLCOMMENT
-184
+182
 "
 xmlcomment
 "
@@ -5183,7 +5103,7 @@ JOF_ATOM
 OPDEF
 (
 JSOP_XMLPI
-185
+183
 "
 xmlpi
 "
@@ -5197,7 +5117,7 @@ JOF_ATOM
 OPDEF
 (
 JSOP_DELDESC
-186
+184
 "
 deldesc
 "
@@ -5215,7 +5135,7 @@ JOF_DEL
 OPDEF
 (
 JSOP_CALLPROP
-187
+185
 "
 callprop
 "
@@ -5299,7 +5219,7 @@ objects
 OPDEF
 (
 JSOP_BLOCKCHAIN
-188
+186
 "
 blockchain
 "
@@ -5313,7 +5233,7 @@ JOF_OBJECT
 OPDEF
 (
 JSOP_NULLBLOCKCHAIN
-189
+187
 "
 nullblockchain
 "
@@ -5342,7 +5262,7 @@ operands
 OPDEF
 (
 JSOP_UINT24
-190
+188
 "
 uint24
 "
@@ -5411,7 +5331,7 @@ EmitIndexOp
 OPDEF
 (
 JSOP_INDEXBASE
-191
+189
 "
 indexbase
 "
@@ -5427,7 +5347,7 @@ JOF_INDEXBASE
 OPDEF
 (
 JSOP_RESETBASE
-192
+190
 "
 resetbase
 "
@@ -5441,7 +5361,7 @@ JOF_BYTE
 OPDEF
 (
 JSOP_RESETBASE0
-193
+191
 "
 resetbase0
 "
@@ -5469,7 +5389,7 @@ XML
 OPDEF
 (
 JSOP_STARTXML
-194
+192
 "
 startxml
 "
@@ -5483,7 +5403,7 @@ JOF_BYTE
 OPDEF
 (
 JSOP_STARTXMLEXPR
-195
+193
 "
 startxmlexpr
 "
@@ -5497,7 +5417,7 @@ JOF_BYTE
 OPDEF
 (
 JSOP_CALLELEM
-196
+194
 "
 callelem
 "
@@ -5552,7 +5472,7 @@ c
 OPDEF
 (
 JSOP_STOP
-197
+195
 "
 stop
 "
@@ -5587,7 +5507,7 @@ exist
 OPDEF
 (
 JSOP_GETXPROP
-198
+196
 "
 getxprop
 "
@@ -5605,7 +5525,7 @@ JOF_TYPESET
 OPDEF
 (
 JSOP_CALLXMLNAME
-199
+197
 "
 callxmlname
 "
@@ -5639,7 +5559,7 @@ undef
 OPDEF
 (
 JSOP_TYPEOFEXPR
-200
+198
 "
 typeofexpr
 "
@@ -5666,7 +5586,7 @@ support
 OPDEF
 (
 JSOP_ENTERBLOCK
-201
+199
 "
 enterblock
 "
@@ -5681,7 +5601,7 @@ JOF_OBJECT
 OPDEF
 (
 JSOP_LEAVEBLOCK
-202
+200
 "
 leaveblock
 "
@@ -5713,7 +5633,7 @@ callable
 OPDEF
 (
 JSOP_IFCANTCALLTOP
-203
+201
 "
 ifcantcalltop
 "
@@ -5749,7 +5669,7 @@ primitive
 OPDEF
 (
 JSOP_PRIMTOP
-204
+202
 "
 primtop
 "
@@ -5774,7 +5694,7 @@ support
 OPDEF
 (
 JSOP_GENERATOR
-205
+203
 "
 generator
 "
@@ -5788,7 +5708,7 @@ JOF_BYTE
 OPDEF
 (
 JSOP_YIELD
-206
+204
 "
 yield
 "
@@ -5802,7 +5722,7 @@ JOF_BYTE
 OPDEF
 (
 JSOP_ARRAYPUSH
-207
+205
 "
 arraypush
 "
@@ -5835,7 +5755,7 @@ it
 OPDEF
 (
 JSOP_GETFUNNS
-208
+206
 "
 getfunns
 "
@@ -5872,7 +5792,7 @@ b
 OPDEF
 (
 JSOP_ENUMCONSTELEM
-209
+207
 "
 enumconstelem
 "
@@ -5916,7 +5836,7 @@ pops
 OPDEF
 (
 JSOP_LEAVEBLOCKEXPR
-210
+208
 "
 leaveblockexpr
 "
@@ -5958,7 +5878,7 @@ prefix
 OPDEF
 (
 JSOP_INDEXBASE1
-211
+209
 "
 indexbase1
 "
@@ -5974,7 +5894,7 @@ JOF_INDEXBASE
 OPDEF
 (
 JSOP_INDEXBASE2
-212
+210
 "
 indexbase2
 "
@@ -5990,7 +5910,7 @@ JOF_INDEXBASE
 OPDEF
 (
 JSOP_INDEXBASE3
-213
+211
 "
 indexbase3
 "
@@ -6006,7 +5926,7 @@ JOF_INDEXBASE
 OPDEF
 (
 JSOP_CALLGNAME
-214
+212
 "
 callgname
 "
@@ -6028,7 +5948,7 @@ JOF_GNAME
 OPDEF
 (
 JSOP_CALLLOCAL
-215
+213
 "
 calllocal
 "
@@ -6046,7 +5966,7 @@ JOF_CALLOP
 OPDEF
 (
 JSOP_CALLARG
-216
+214
 "
 callarg
 "
@@ -6064,7 +5984,7 @@ JOF_CALLOP
 OPDEF
 (
 JSOP_BINDGNAME
-217
+215
 "
 bindgname
 "
@@ -6103,7 +6023,7 @@ operands
 OPDEF
 (
 JSOP_INT8
-218
+216
 "
 int8
 "
@@ -6117,7 +6037,7 @@ JOF_INT8
 OPDEF
 (
 JSOP_INT32
-219
+217
 "
 int32
 "
@@ -6150,7 +6070,7 @@ object
 OPDEF
 (
 JSOP_LENGTH
-220
+218
 "
 length
 "
@@ -6214,7 +6134,7 @@ opcode
 OPDEF
 (
 JSOP_HOLE
-221
+219
 "
 hole
 "
@@ -6251,7 +6171,7 @@ case
 OPDEF
 (
 JSOP_DEFFUN_FC
-222
+220
 "
 deffun_fc
 "
@@ -6267,7 +6187,7 @@ JOF_DECLARING
 OPDEF
 (
 JSOP_DEFLOCALFUN_FC
-223
+221
 "
 deflocalfun_fc
 "
@@ -6285,7 +6205,7 @@ JOF_TMPSLOT
 OPDEF
 (
 JSOP_LAMBDA_FC
-224
+222
 "
 lambda_fc
 "
@@ -6345,7 +6265,7 @@ value
 OPDEF
 (
 JSOP_OBJTOP
-225
+223
 "
 objtop
 "
@@ -6372,7 +6292,7 @@ support
 OPDEF
 (
 JSOP_SETMETHOD
-226
+224
 "
 setmethod
 "
@@ -6392,7 +6312,7 @@ JOF_DETECTING
 OPDEF
 (
 JSOP_INITMETHOD
-227
+225
 "
 initmethod
 "
@@ -6412,7 +6332,7 @@ JOF_DETECTING
 OPDEF
 (
 JSOP_UNBRAND
-228
+226
 "
 unbrand
 "
@@ -6426,7 +6346,7 @@ JOF_BYTE
 OPDEF
 (
 JSOP_UNBRANDTHIS
-229
+227
 "
 unbrandthis
 "
@@ -6440,7 +6360,7 @@ JOF_BYTE
 OPDEF
 (
 JSOP_SHARPINIT
-230
+228
 "
 sharpinit
 "
@@ -6476,7 +6396,7 @@ back
 OPDEF
 (
 JSOP_TOID
-231
+229
 "
 toid
 "
@@ -6507,7 +6427,7 @@ argument
 OPDEF
 (
 JSOP_NOTEARG
-232
+230
 "
 notearg
 "

@@ -41,10 +41,10 @@ nsIUGenCategory
 h
 "
 class
-nsIDOMRange
+nsIRange
 ;
 class
-nsIDOMNode
+nsINode
 ;
 class
 mozInlineSpellWordUtil
@@ -54,7 +54,7 @@ public
 struct
 NodeOffset
 {
-nsIDOMNode
+nsINode
 *
 mNode
 ;
@@ -63,7 +63,7 @@ mOffset
 ;
 NodeOffset
 (
-nsIDOMNode
+nsINode
 *
 aNode
 PRInt32
@@ -121,7 +121,7 @@ aWeakEditor
 nsresult
 SetEnd
 (
-nsIDOMNode
+nsINode
 *
 aEndNode
 PRInt32
@@ -131,7 +131,7 @@ aEndOffset
 nsresult
 SetPosition
 (
-nsIDOMNode
+nsINode
 *
 aNode
 PRInt32
@@ -146,7 +146,7 @@ nsIDOMNode
 aWordNode
 PRInt32
 aWordOffset
-nsIDOMRange
+nsIRange
 *
 *
 aRange
@@ -158,7 +158,7 @@ GetNextWord
 nsAString
 &
 aText
-nsIDOMRange
+nsIRange
 *
 *
 aRange
@@ -198,7 +198,7 @@ return
 mDocument
 ;
 }
-nsIDOMNode
+nsINode
 *
 GetRootNode
 (
@@ -234,17 +234,11 @@ mDocument
 ;
 nsCOMPtr
 <
-nsIDOMWindow
->
-mCSSView
-;
-nsCOMPtr
-<
 nsIUGenCategory
 >
 mCategories
 ;
-nsIDOMNode
+nsINode
 *
 mRootNode
 ;
@@ -438,7 +432,7 @@ NodeOffset
 aBegin
 NodeOffset
 aEnd
-nsIDOMRange
+nsIRange
 *
 *
 aRange
@@ -451,7 +445,7 @@ const
 RealWord
 &
 aWord
-nsIDOMRange
+nsIRange
 *
 *
 aRange

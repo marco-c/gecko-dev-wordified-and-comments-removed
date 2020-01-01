@@ -271,6 +271,12 @@ nsIURI
 >
 mSpeculationBaseURI
 ;
+nsCOMPtr
+<
+nsIURI
+>
+mViewSourceBaseURI
+;
 bool
 mStarted
 ;
@@ -1289,6 +1295,12 @@ AssertEmpty
 }
 #
 endif
+nsIURI
+*
+GetViewSourceBaseURI
+(
+)
+;
 void
 PreloadScript
 (

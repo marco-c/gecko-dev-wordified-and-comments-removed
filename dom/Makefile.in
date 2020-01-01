@@ -512,6 +512,8 @@ DIRS
 \
 base
 \
+battery
+\
 src
 \
 locales

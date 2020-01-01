@@ -33,7 +33,7 @@ h
 "
 #
 define
-MAX_IDENTIFIER_NAME_SIZE
+MAX_SHORTENED_IDENTIFIER_SIZE
 32
 class
 MapLongVariableNames

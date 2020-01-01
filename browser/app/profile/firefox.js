@@ -500,6 +500,16 @@ pref
 "
 extensions
 .
+strictCompatibility
+"
+true
+)
+;
+pref
+(
+"
+extensions
+.
 getAddons
 .
 cache

@@ -29,13 +29,6 @@ h
 #
 include
 "
-nsIPrompt
-.
-h
-"
-#
-include
-"
 nsIDOMWindow
 .
 h

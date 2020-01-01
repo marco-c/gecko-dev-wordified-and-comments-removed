@@ -536,6 +536,10 @@ virtual
 void
 MarkAsNotScriptCreated
 (
+const
+char
+*
+aCommand
 )
 ;
 virtual

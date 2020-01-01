@@ -1060,6 +1060,10 @@ if
 accessPoints
 )
 {
+providerUrl
+=
+providerUrl
++
 accessPoints
 .
 sort

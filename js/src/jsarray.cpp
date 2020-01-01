@@ -3822,7 +3822,7 @@ index
 obj
 -
 >
-getDenseArrayCapacity
+getDenseArrayInitializedLength
 (
 )
 &

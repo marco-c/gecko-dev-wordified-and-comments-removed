@@ -559,10 +559,14 @@ b
 *
 (
 (
-bool
+(
+char
 *
 )
 ap
+)
++
+3
 )
 ;
 break

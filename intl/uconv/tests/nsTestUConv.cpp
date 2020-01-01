@@ -204,7 +204,7 @@ str
 ;
 str
 .
-AssignWithConversion
+AssignASCII
 (
 _charset
 )
@@ -277,7 +277,7 @@ str
 ;
 str
 .
-AssignWithConversion
+AssignASCII
 (
 _charset
 )

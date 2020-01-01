@@ -191,6 +191,14 @@ NotifyBoundElements
 (
 )
 ;
+nsresult
+Write
+(
+nsIObjectOutputStream
+*
+aStream
+)
+;
 nsXBLPrototypeBinding
 *
 mBinding

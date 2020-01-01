@@ -85,6 +85,15 @@ public
 nsSupportsWeakReference
 {
 NS_DECL_ISUPPORTS
+static
+bool
+IsChromeOrResourceURI
+(
+nsIURI
+*
+aURI
+)
+;
 NS_IMETHOD
 LoadBindings
 (

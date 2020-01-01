@@ -2741,6 +2741,17 @@ mPrevFrame
 =
 nsnull
 ;
+bpd
+.
+GetSubParagraph
+(
+)
+-
+>
+mPrevFrame
+=
+nsnull
+;
 TraverseFrames
 (
 aBlockFrame

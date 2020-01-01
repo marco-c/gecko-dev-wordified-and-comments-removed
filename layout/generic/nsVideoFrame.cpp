@@ -1313,10 +1313,10 @@ nsIntRect
 (
 0
 0
-videoSize
+frameSize
 .
 width
-videoSize
+frameSize
 .
 height
 )

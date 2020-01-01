@@ -411,6 +411,11 @@ SetupBackupTimer
 )
 ;
 void
+CancelBackupTimer
+(
+)
+;
+void
 Abandon
 (
 )

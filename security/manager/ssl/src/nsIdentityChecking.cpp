@@ -6207,7 +6207,6 @@ NS_ERROR_UNEXPECTED
 }
 if
 (
-!
 mHaveCertErrorBits
 )
 return
