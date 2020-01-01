@@ -102,6 +102,15 @@ Date
 now
 ;
 var
+std_Date_valueOf
+=
+Date
+.
+prototype
+.
+valueOf
+;
+var
 std_Function_bind
 =
 Function
