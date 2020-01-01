@@ -439,9 +439,6 @@ icCall
 RegisterID
 funObjReg
 ;
-RegisterID
-funPtrReg
-;
 FrameSize
 frameSize
 ;
