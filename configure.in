@@ -39653,6 +39653,7 @@ PKG_CHECK_MODULES
 _QTMOBILITY
 QtSensors
 QtFeedback
+QtLocation
 MOZ_ENABLE_QTMOBILITY
 =
 1
@@ -39686,6 +39687,7 @@ AC_CHECK_LIB
 (
 QtSensors
 QtFeedback
+QtLocation
 main
 [
 MOZ_ENABLE_QTMOBILITY
@@ -39736,6 +39738,21 @@ qt4
 /
 QtFeedback
 "
+MOZ_QT_CFLAGS
+=
+"
+MOZ_QT_CFLAGS
+-
+I
+/
+usr
+/
+include
+/
+qt4
+/
+QtLocation
+"
 MOZ_QT_LIBS
 =
 "
@@ -39744,6 +39761,8 @@ MOZ_QT_LIBS
 lQtSensors
 -
 lQtFeedback
+-
+lQtLocation
 "
 ]
 )
