@@ -83,10 +83,6 @@ mInitialized
 (
 false
 )
-mEvictionThreshold
-(
-PR_INT32_MAX
-)
 mHardLimit
 (
 4

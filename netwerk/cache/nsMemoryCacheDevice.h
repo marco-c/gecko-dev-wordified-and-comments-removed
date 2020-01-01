@@ -320,9 +320,6 @@ kQueueCount
 ]
 ;
 PRInt32
-mEvictionThreshold
-;
-PRInt32
 mHardLimit
 ;
 PRInt32
