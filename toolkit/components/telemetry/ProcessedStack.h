@@ -61,12 +61,6 @@ std
 string
 mName
 ;
-uintptr_t
-mStart
-;
-size_t
-mMappingSize
-;
 int
 mPdbAge
 ;
@@ -174,8 +168,6 @@ uintptr_t
 >
 &
 aPCs
-bool
-aRelative
 )
 ;
 }

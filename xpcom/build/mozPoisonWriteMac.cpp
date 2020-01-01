@@ -499,7 +499,6 @@ Telemetry
 GetStackAndModules
 (
 rawStack
-true
 )
 ;
 nsPrintfCString

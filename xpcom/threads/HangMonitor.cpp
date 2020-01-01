@@ -534,7 +534,6 @@ Telemetry
 GetStackAndModules
 (
 rawStack
-false
 )
 ;
 }
