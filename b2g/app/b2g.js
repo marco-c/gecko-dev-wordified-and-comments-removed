@@ -628,7 +628,7 @@ force
 -
 tiles
 "
-false
+true
 )
 ;
 pref
