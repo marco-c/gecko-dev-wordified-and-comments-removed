@@ -520,11 +520,6 @@ n
 "
 )
 ;
-ensureAccessibleTree
-(
-aContainer
-)
-;
 var
 serializer
 =
