@@ -2387,6 +2387,12 @@ ref
 .
 html
 fails
+-
+if
+(
+!
+Android
+)
 =
 =
 spellcheck
@@ -2406,6 +2412,12 @@ ref
 .
 html
 fails
+-
+if
+(
+!
+Android
+)
 =
 =
 spellcheck
