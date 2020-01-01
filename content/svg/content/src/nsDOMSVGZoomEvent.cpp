@@ -97,6 +97,14 @@ NS_SVG_ZOOM
 0
 )
 )
+mPreviousScale
+(
+0
+)
+mNewScale
+(
+0
+)
 {
 if
 (
