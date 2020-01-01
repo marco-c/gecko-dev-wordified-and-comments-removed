@@ -2936,8 +2936,7 @@ GetIonContext
 >
 cx
 ;
-JSScript
-*
+UnrootedScript
 script
 =
 GetBailedJSScript
@@ -3028,8 +3027,7 @@ GetIonContext
 >
 cx
 ;
-JSScript
-*
+UnrootedScript
 script
 =
 GetBailedJSScript
@@ -3108,8 +3106,7 @@ GetIonContext
 >
 cx
 ;
-JSScript
-*
+UnrootedScript
 script
 =
 GetBailedJSScript
@@ -3367,7 +3364,6 @@ JSScript
 script
 (
 cx
-NULL
 )
 ;
 do

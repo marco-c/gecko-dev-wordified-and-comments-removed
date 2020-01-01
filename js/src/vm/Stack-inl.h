@@ -603,8 +603,7 @@ cx
 JSFunction
 &
 callee
-JSScript
-*
+UnrootedScript
 script
 uint32_t
 nactual
@@ -615,9 +614,6 @@ Flags
 flagsArg
 )
 {
-AutoAssertNoGC
-nogc
-;
 JS_ASSERT
 (
 (
@@ -2147,8 +2143,7 @@ args
 JSFunction
 *
 fun
-JSScript
-*
+HandleScript
 script
 StackFrame
 :
@@ -2462,8 +2457,7 @@ args
 JSFunction
 &
 callee
-JSScript
-*
+HandleScript
 script
 InitialFrameFlags
 initial
@@ -2612,8 +2606,7 @@ args
 JSFunction
 &
 callee
-JSScript
-*
+HandleScript
 script
 InitialFrameFlags
 initial
@@ -2676,8 +2669,7 @@ args
 JSFunction
 *
 fun
-JSScript
-*
+HandleScript
 script
 void
 *
@@ -2954,8 +2946,7 @@ numActualArgs
 ;
 }
 inline
-JSScript
-*
+UnrootedScript
 ContextStack
 :
 :
@@ -3063,7 +3054,10 @@ cx_
 compartment
 )
 return
+UnrootedScript
+(
 NULL
+)
 ;
 return
 script
@@ -3181,7 +3175,10 @@ cx_
 compartment
 )
 return
+UnrootedScript
+(
 NULL
+)
 ;
 if
 (
@@ -3236,7 +3233,10 @@ cx_
 compartment
 )
 return
+UnrootedScript
+(
 NULL
+)
 ;
 if
 (

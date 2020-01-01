@@ -493,8 +493,7 @@ flags_
 ;
 union
 {
-JSScript
-*
+RawScript
 script
 ;
 JSFunction
@@ -509,8 +508,7 @@ union
 unsigned
 nactual
 ;
-JSScript
-*
+RawScript
 evalScript
 ;
 }
@@ -781,8 +779,7 @@ cx
 JSFunction
 &
 callee
-JSScript
-*
+UnrootedScript
 script
 uint32_t
 nactual
@@ -814,8 +811,7 @@ nactual
 void
 initExecuteFrame
 (
-JSScript
-*
+UnrootedScript
 script
 StackFrame
 *
@@ -3562,8 +3558,7 @@ prepareToRun
 StackFrame
 &
 fp
-JSScript
-*
+UnrootedScript
 script
 )
 {
@@ -4620,8 +4615,7 @@ args
 JSFunction
 *
 fun
-JSScript
-*
+HandleScript
 script
 StackFrame
 :
@@ -4989,8 +4983,7 @@ args
 JSFunction
 &
 callee
-JSScript
-*
+HandleScript
 script
 InitialFrameFlags
 initial
@@ -5016,8 +5009,7 @@ args
 JSFunction
 &
 callee
-JSScript
-*
+HandleScript
 script
 InitialFrameFlags
 initial
@@ -5052,8 +5044,7 @@ true
 }
 ;
 inline
-JSScript
-*
+UnrootedScript
 currentScript
 (
 jsbytecode
@@ -5091,8 +5082,7 @@ args
 JSFunction
 *
 fun
-JSScript
-*
+HandleScript
 script
 void
 *
