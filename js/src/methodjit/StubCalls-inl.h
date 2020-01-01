@@ -54,6 +54,9 @@ THROW
 )
 do
 {
+mjit
+:
+:
 ThrowException
 (
 f
@@ -74,6 +77,9 @@ v
 )
 do
 {
+mjit
+:
+:
 ThrowException
 (
 f
