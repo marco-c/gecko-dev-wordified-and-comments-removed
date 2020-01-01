@@ -144,6 +144,7 @@ usesBeforeInlining
 enum
 MethodStatus
 {
+Method_Error
 Method_CantCompile
 Method_Skipped
 Method_Compiled
@@ -226,7 +227,7 @@ pc
 )
 ;
 MethodStatus
-Compile
+CanEnter
 (
 JSContext
 *
@@ -234,15 +235,9 @@ cx
 JSScript
 *
 script
-js
-:
-:
 StackFrame
 *
 fp
-jsbytecode
-*
-osrPc
 )
 ;
 bool
