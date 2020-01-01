@@ -418,7 +418,13 @@ offline
 json
 geolocation
 notification
+ifdef
+ENABLE_TESTS
+DIRS
++
+=
 foo
+endif
 include
 (
 topsrcdir
