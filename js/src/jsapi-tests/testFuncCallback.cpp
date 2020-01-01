@@ -1,11 +1,7 @@
 #
 include
 "
-jsapi
--
-tests
-/
-tests
+jscntxt
 .
 h
 "
@@ -19,7 +15,11 @@ h
 #
 include
 "
-jscntxt
+jsapi
+-
+tests
+/
+tests
 .
 h
 "

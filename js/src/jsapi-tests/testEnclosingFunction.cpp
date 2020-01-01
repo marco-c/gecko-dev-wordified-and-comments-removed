@@ -1,11 +1,7 @@
 #
 include
 "
-jsapi
--
-tests
-/
-tests
+jsdbgapi
 .
 h
 "
@@ -19,7 +15,11 @@ h
 #
 include
 "
-jsdbgapi
+jsapi
+-
+tests
+/
+tests
 .
 h
 "

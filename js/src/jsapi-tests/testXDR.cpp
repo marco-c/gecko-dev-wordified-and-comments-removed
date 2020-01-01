@@ -1,11 +1,7 @@
 #
 include
 "
-jsapi
--
-tests
-/
-tests
+jsfriendapi
 .
 h
 "
@@ -26,7 +22,11 @@ h
 #
 include
 "
-jsfriendapi
+jsapi
+-
+tests
+/
+tests
 .
 h
 "
