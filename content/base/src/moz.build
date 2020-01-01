@@ -173,6 +173,11 @@ nsGkAtoms
 h
 '
 '
+nsImageLoadingContent
+.
+h
+'
+'
 nsMappedAttributeElement
 .
 h
