@@ -2057,9 +2057,16 @@ constraint
 constraint
 -
 >
-slotsReallocation
+newObjectState
 (
 this
+obj
+-
+>
+getType
+(
+)
+true
 )
 ;
 constraint
