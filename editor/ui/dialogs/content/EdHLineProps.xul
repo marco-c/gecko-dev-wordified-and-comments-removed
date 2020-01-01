@@ -1038,7 +1038,7 @@ label
 &
 leftRadio
 .
-value
+label
 ;
 "
 accesskey
@@ -1065,7 +1065,7 @@ label
 &
 centerRadio
 .
-value
+label
 ;
 "
 accesskey
@@ -1092,7 +1092,7 @@ label
 &
 rightRadio
 .
-value
+label
 ;
 "
 accesskey

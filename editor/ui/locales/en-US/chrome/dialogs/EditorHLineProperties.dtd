@@ -493,7 +493,7 @@ Alignment
 ENTITY
 leftRadio
 .
-value
+label
 "
 Left
 "
@@ -513,7 +513,7 @@ L
 ENTITY
 centerRadio
 .
-value
+label
 "
 Center
 "
@@ -533,7 +533,7 @@ C
 ENTITY
 rightRadio
 .
-value
+label
 "
 Right
 "
