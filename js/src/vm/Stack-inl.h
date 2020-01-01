@@ -2819,6 +2819,8 @@ jsbytecode
 *
 *
 ppc
+MaybeAllowCrossCompartment
+allowCrossCompartment
 )
 const
 {
@@ -2894,6 +2896,10 @@ ppc
 ;
 if
 (
+!
+allowCrossCompartment
+&
+&
 script
 -
 >
@@ -3009,6 +3015,10 @@ script
 ;
 if
 (
+!
+allowCrossCompartment
+&
+&
 script
 -
 >
@@ -3061,6 +3071,10 @@ script
 ;
 if
 (
+!
+allowCrossCompartment
+&
+&
 script
 -
 >

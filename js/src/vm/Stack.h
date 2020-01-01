@@ -5020,6 +5020,17 @@ popFrameAfterOverflow
 (
 )
 ;
+enum
+MaybeAllowCrossCompartment
+{
+DONT_ALLOW_CROSS_COMPARTMENT
+=
+false
+ALLOW_CROSS_COMPARTMENT
+=
+true
+}
+;
 inline
 JSScript
 *
@@ -5031,6 +5042,9 @@ jsbytecode
 pc
 =
 NULL
+MaybeAllowCrossCompartment
+=
+DONT_ALLOW_CROSS_COMPARTMENT
 )
 const
 ;
