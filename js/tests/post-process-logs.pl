@@ -1632,6 +1632,9 @@ test
 state
 :
 test_state
+log
+:
+file
 "
 if
 (
@@ -1742,6 +1745,9 @@ test_id
 current
 test
 tmp_test_id
+log
+:
+file
 "
 if
 (
@@ -1772,6 +1778,9 @@ test
 state
 :
 test_state
+log
+:
+file
 "
 if
 (
@@ -1842,6 +1851,9 @@ state
 test_state
 :
 _
+log
+:
+file
 "
 if
 (
@@ -2016,6 +2028,9 @@ test
 state
 :
 test_state
+log
+:
+file
 "
 if
 (
@@ -2046,6 +2061,9 @@ test
 state
 :
 test_state
+log
+:
+file
 "
 if
 (
@@ -2131,6 +2149,9 @@ test
 test_state
 :
 _
+log
+:
+file
 "
 if
 (
@@ -2193,6 +2214,9 @@ current
 test
 :
 tmp_test_id
+log
+:
+file
 "
 if
 (
@@ -2337,6 +2361,9 @@ Page
 Status
 :
 page_status
+log
+:
+file
 "
 ;
 }
@@ -2404,6 +2431,9 @@ test_id
 current
 test
 tmp_test_id
+log
+:
+file
 "
 if
 (
@@ -2435,6 +2465,9 @@ test
 state
 :
 test_state
+log
+:
+file
 "
 if
 (
@@ -2728,6 +2761,9 @@ state
 :
 test_state
 _
+log
+:
+file
 "
 if
 (
@@ -2762,6 +2798,9 @@ state
 :
 test_state
 _
+log
+:
+file
 "
 if
 (
