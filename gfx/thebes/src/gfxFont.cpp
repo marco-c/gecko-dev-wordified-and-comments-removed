@@ -1179,6 +1179,10 @@ gfxFontStyle
 aFontStyle
 )
 :
+mFontEntry
+(
+aFontEntry
+)
 mIsValid
 (
 PR_TRUE
@@ -1187,10 +1191,6 @@ mStyle
 (
 *
 aFontStyle
-)
-mFontEntry
-(
-aFontEntry
 )
 mSyntheticBoldOffset
 (
