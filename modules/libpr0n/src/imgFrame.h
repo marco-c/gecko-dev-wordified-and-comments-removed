@@ -139,7 +139,7 @@ gfxASurface
 :
 gfxImageFormat
 aFormat
-PRInt8
+PRUint8
 aPaletteDepth
 =
 0
@@ -670,7 +670,7 @@ gfxASurface
 gfxImageFormat
 mFormat
 ;
-PRInt8
+PRUint8
 mPaletteDepth
 ;
 PRInt8

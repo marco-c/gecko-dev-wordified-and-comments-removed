@@ -511,7 +511,7 @@ gfxASurface
 :
 gfxImageFormat
 aFormat
-PRInt8
+PRUint8
 aPaletteDepth
 )
 {
