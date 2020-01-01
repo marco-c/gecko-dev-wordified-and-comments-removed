@@ -56,16 +56,6 @@ assertRaises
 Exception
 build_dict
 {
-}
-)
-        
-self
-.
-assertRaises
-(
-Exception
-build_dict
-{
 '
 OS_TARGET
 '
