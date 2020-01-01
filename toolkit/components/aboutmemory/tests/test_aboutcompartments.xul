@@ -505,15 +505,6 @@ nsIMemoryReporter
 KIND_OTHER
 ;
 const
-SUMMARY
-=
-Ci
-.
-nsIMemoryReporter
-.
-KIND_SUMMARY
-;
-const
 BYTES
 =
 Ci
@@ -681,7 +672,7 @@ user
 -
 compartment
 "
-SUMMARY
+OTHER
 COUNT
 1
 )
@@ -701,7 +692,7 @@ system
 -
 compartment
 "
-SUMMARY
+OTHER
 COUNT
 1
 )
@@ -827,7 +818,7 @@ callback
 "
 "
 aP
-SUMMARY
+OTHER
 COUNT
 1
 "
@@ -1104,7 +1095,7 @@ callback
 "
 "
 aP
-SUMMARY
+OTHER
 COUNT
 1
 "
