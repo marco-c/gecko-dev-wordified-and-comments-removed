@@ -610,6 +610,9 @@ nbytes
 {
 munmap
 (
+(
+maddr_ptr
+)
 p
 nbytes
 )
