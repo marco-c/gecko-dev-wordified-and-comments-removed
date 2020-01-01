@@ -2158,7 +2158,7 @@ rgba
 )
 ;
 }
-#
+%
 ifdef
 MOZ_WIDGET_GONK
 input
@@ -2174,5 +2174,5 @@ none
 important
 ;
 }
-#
+%
 endif
