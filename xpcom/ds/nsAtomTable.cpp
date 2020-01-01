@@ -28,6 +28,15 @@ h
 #
 include
 "
+mozilla
+/
+MemoryReporting
+.
+h
+"
+#
+include
+"
 nsAtomTable
 .
 h
@@ -277,7 +286,7 @@ mRefCnt
 size_t
 SizeOfIncludingThis
 (
-nsMallocSizeOfFun
+MallocSizeOf
 aMallocSizeOf
 )
 const
@@ -1784,7 +1793,7 @@ AtomImpl
 :
 SizeOfIncludingThis
 (
-nsMallocSizeOfFun
+MallocSizeOf
 aMallocSizeOf
 )
 const
@@ -1817,7 +1826,7 @@ SizeOfAtomTableEntryExcludingThis
 PLDHashEntryHdr
 *
 aHdr
-nsMallocSizeOfFun
+MallocSizeOf
 aMallocSizeOf
 void
 *
@@ -1863,7 +1872,7 @@ nsIAtom
 const
 &
 aData
-nsMallocSizeOfFun
+MallocSizeOf
 aMallocSizeOf
 void
 *
@@ -1882,7 +1891,7 @@ aMallocSizeOf
 size_t
 NS_SizeOfAtomTablesIncludingThis
 (
-nsMallocSizeOfFun
+MallocSizeOf
 aMallocSizeOf
 )
 {

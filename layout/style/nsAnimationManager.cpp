@@ -1,6 +1,15 @@
 #
 include
 "
+mozilla
+/
+MemoryReporting
+.
+h
+"
+#
+include
+"
 nsAnimationManager
 .
 h
@@ -2399,7 +2408,7 @@ nsAnimationManager
 :
 SizeOfExcludingThis
 (
-nsMallocSizeOfFun
+MallocSizeOf
 aMallocSizeOf
 )
 const
@@ -2420,7 +2429,7 @@ nsAnimationManager
 :
 SizeOfIncludingThis
 (
-nsMallocSizeOfFun
+MallocSizeOf
 aMallocSizeOf
 )
 const

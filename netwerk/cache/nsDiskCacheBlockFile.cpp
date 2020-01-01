@@ -30,6 +30,15 @@ h
 "
 #
 include
+"
+mozilla
+/
+MemoryReporting
+.
+h
+"
+#
+include
 <
 algorithm
 >
@@ -1792,7 +1801,7 @@ nsDiskCacheBlockFile
 :
 SizeOfExcludingThis
 (
-nsMallocSizeOfFun
+MallocSizeOf
 aMallocSizeOf
 )
 {

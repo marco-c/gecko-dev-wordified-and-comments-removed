@@ -1,6 +1,15 @@
 #
 include
 "
+mozilla
+/
+MemoryReporting
+.
+h
+"
+#
+include
+"
 nsCOMArray
 .
 h
@@ -1230,7 +1239,10 @@ SizeOfExcludingThis
 (
 nsBaseArraySizeOfElementIncludingThisFunc
 aSizeOfElementIncludingThis
-nsMallocSizeOfFun
+mozilla
+:
+:
+MallocSizeOf
 aMallocSizeOf
 void
 *

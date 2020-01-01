@@ -7,6 +7,15 @@ nsTObserverArray_h___
 #
 include
 "
+mozilla
+/
+MemoryReporting
+.
+h
+"
+#
+include
+"
 nsTArray
 .
 h
@@ -620,7 +629,10 @@ ClearIterators
 size_t
 SizeOfExcludingThis
 (
-nsMallocSizeOfFun
+mozilla
+:
+:
+MallocSizeOf
 mallocSizeOf
 )
 const

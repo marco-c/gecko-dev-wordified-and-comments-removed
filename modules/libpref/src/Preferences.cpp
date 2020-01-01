@@ -3,6 +3,15 @@ include
 "
 mozilla
 /
+MemoryReporting
+.
+h
+"
+#
+include
+"
+mozilla
+/
 dom
 /
 ContentChild
@@ -752,7 +761,10 @@ ValueObserver
 >
 &
 aData
-nsMallocSizeOfFun
+mozilla
+:
+:
+MallocSizeOf
 aMallocSizeOf
 void
 *

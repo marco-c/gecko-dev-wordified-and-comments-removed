@@ -6,6 +6,15 @@ define
 nsIStyleSheet_h___
 #
 include
+"
+mozilla
+/
+MemoryReporting
+.
+h
+"
+#
+include
 <
 stdio
 .
@@ -206,7 +215,10 @@ virtual
 size_t
 SizeOfIncludingThis
 (
-nsMallocSizeOfFun
+mozilla
+:
+:
+MallocSizeOf
 aMallocSizeOf
 )
 const

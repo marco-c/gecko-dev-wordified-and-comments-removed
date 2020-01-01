@@ -12,6 +12,15 @@ include
 "
 mozilla
 /
+MemoryReporting
+.
+h
+"
+#
+include
+"
+mozilla
+/
 Util
 .
 h
@@ -24408,7 +24417,7 @@ SizeOfTextRunsForFrames
 nsIFrame
 *
 aFrame
-nsMallocSizeOfFun
+MallocSizeOf
 aMallocSizeOf
 bool
 clear

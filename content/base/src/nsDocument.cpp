@@ -12,6 +12,15 @@ include
 "
 mozilla
 /
+MemoryReporting
+.
+h
+"
+#
+include
+"
+mozilla
+/
 Util
 .
 h
@@ -2408,7 +2417,7 @@ SizeOfExcludingThis
 nsIdentifierMapEntry
 *
 aEntry
-nsMallocSizeOfFun
+MallocSizeOf
 aMallocSizeOf
 void
 *
@@ -48635,7 +48644,7 @@ SizeOfStyleSheetsElementIncludingThis
 nsIStyleSheet
 *
 aStyleSheet
-nsMallocSizeOfFun
+MallocSizeOf
 aMallocSizeOf
 void
 *
@@ -48658,7 +48667,7 @@ nsDocument
 :
 SizeOfExcludingThis
 (
-nsMallocSizeOfFun
+MallocSizeOf
 aMallocSizeOf
 )
 const

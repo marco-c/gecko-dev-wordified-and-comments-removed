@@ -156,6 +156,15 @@ Likely
 h
 "
 #
+include
+"
+mozilla
+/
+MemoryReporting
+.
+h
+"
+#
 define
 MOZ_REPLACE_ONLY_MEMALIGN
 1

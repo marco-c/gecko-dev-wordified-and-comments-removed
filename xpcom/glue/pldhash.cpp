@@ -66,6 +66,15 @@ Likely
 h
 "
 #
+include
+"
+mozilla
+/
+MemoryReporting
+.
+h
+"
+#
 ifdef
 PL_DHASHMETER
 #
@@ -3437,7 +3446,7 @@ total
 PLDHashSizeOfEntryExcludingThisFun
 sizeOfEntryExcludingThis
 ;
-nsMallocSizeOfFun
+MallocSizeOf
 mallocSizeOf
 ;
 void
@@ -3508,7 +3517,7 @@ PLDHashTable
 table
 PLDHashSizeOfEntryExcludingThisFun
 sizeOfEntryExcludingThis
-nsMallocSizeOfFun
+MallocSizeOf
 mallocSizeOf
 void
 *
@@ -3582,7 +3591,7 @@ PLDHashTable
 table
 PLDHashSizeOfEntryExcludingThisFun
 sizeOfEntryExcludingThis
-nsMallocSizeOfFun
+MallocSizeOf
 mallocSizeOf
 void
 *

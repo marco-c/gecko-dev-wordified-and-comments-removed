@@ -123,6 +123,15 @@ include
 "
 mozilla
 /
+MemoryReporting
+.
+h
+"
+#
+include
+"
+mozilla
+/
 Telemetry
 .
 h
@@ -1892,7 +1901,7 @@ GDIFontEntry
 :
 SizeOfIncludingThis
 (
-nsMallocSizeOfFun
+MallocSizeOf
 aMallocSizeOf
 FontListSizes
 *
@@ -4946,7 +4955,7 @@ gfxGDIFontList
 :
 SizeOfExcludingThis
 (
-nsMallocSizeOfFun
+MallocSizeOf
 aMallocSizeOf
 FontListSizes
 *
@@ -5034,7 +5043,7 @@ gfxGDIFontList
 :
 SizeOfIncludingThis
 (
-nsMallocSizeOfFun
+MallocSizeOf
 aMallocSizeOf
 FontListSizes
 *

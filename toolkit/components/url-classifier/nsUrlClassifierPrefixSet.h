@@ -65,6 +65,15 @@ include
 "
 mozilla
 /
+MemoryReporting
+.
+h
+"
+#
+include
+"
+mozilla
+/
 Mutex
 .
 h
@@ -178,7 +187,10 @@ NS_DECL_ISUPPORTS
 size_t
 SizeOfIncludingThis
 (
-nsMallocSizeOfFun
+mozilla
+:
+:
+MallocSizeOf
 mallocSizeOf
 )
 ;

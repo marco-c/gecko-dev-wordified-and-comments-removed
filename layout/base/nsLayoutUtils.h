@@ -46,6 +46,15 @@ nsIImageLoadingContent
 #
 include
 "
+mozilla
+/
+MemoryReporting
+.
+h
+"
+#
+include
+"
 nsChangeHint
 .
 h
@@ -2929,7 +2938,10 @@ SizeOfTextRunsForFrames
 nsIFrame
 *
 aFrame
-nsMallocSizeOfFun
+mozilla
+:
+:
+MallocSizeOf
 aMallocSizeOf
 bool
 clear

@@ -43,6 +43,15 @@ LinkedList
 .
 h
 "
+#
+include
+"
+mozilla
+/
+MemoryReporting
+.
+h
+"
 namespace
 mozilla
 {
@@ -130,7 +139,10 @@ DeleteOnce
 size_t
 SizeOfIncludingThis
 (
-nsMallocSizeOfFun
+mozilla
+:
+:
+MallocSizeOf
 aMallocSizeOf
 )
 const

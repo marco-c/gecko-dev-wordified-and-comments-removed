@@ -194,6 +194,15 @@ include
 "
 mozilla
 /
+MemoryReporting
+.
+h
+"
+#
+include
+"
+mozilla
+/
 Preferences
 .
 h
@@ -1457,7 +1466,7 @@ mHashKey
 size_t
 SizeOfExcludingThis
 (
-nsMallocSizeOfFun
+MallocSizeOf
 aMallocSizeOf
 )
 const
@@ -1474,7 +1483,7 @@ aMallocSizeOf
 size_t
 SizeOfIncludingThis
 (
-nsMallocSizeOfFun
+MallocSizeOf
 aMallocSizeOf
 )
 const
@@ -2467,7 +2476,7 @@ SizeOfEntryExcludingThis
 FontTableHashEntry
 *
 aEntry
-nsMallocSizeOfFun
+MallocSizeOf
 aMallocSizeOf
 void
 *
@@ -2546,7 +2555,7 @@ gfxFontEntry
 :
 SizeOfExcludingThis
 (
-nsMallocSizeOfFun
+MallocSizeOf
 aMallocSizeOf
 FontListSizes
 *
@@ -2618,7 +2627,7 @@ gfxFontEntry
 :
 SizeOfIncludingThis
 (
-nsMallocSizeOfFun
+MallocSizeOf
 aMallocSizeOf
 FontListSizes
 *
@@ -5283,7 +5292,7 @@ gfxFontFamily
 :
 SizeOfExcludingThis
 (
-nsMallocSizeOfFun
+MallocSizeOf
 aMallocSizeOf
 FontListSizes
 *
@@ -5382,7 +5391,7 @@ gfxFontFamily
 :
 SizeOfIncludingThis
 (
-nsMallocSizeOfFun
+MallocSizeOf
 aMallocSizeOf
 FontListSizes
 *
@@ -6561,7 +6570,7 @@ SizeOfFontEntryExcludingThis
 HashEntry
 *
 aHashEntry
-nsMallocSizeOfFun
+MallocSizeOf
 aMallocSizeOf
 void
 *
@@ -6616,7 +6625,7 @@ gfxFontCache
 :
 SizeOfExcludingThis
 (
-nsMallocSizeOfFun
+MallocSizeOf
 aMallocSizeOf
 FontCacheSizes
 *
@@ -6640,7 +6649,7 @@ gfxFontCache
 :
 SizeOfIncludingThis
 (
-nsMallocSizeOfFun
+MallocSizeOf
 aMallocSizeOf
 FontCacheSizes
 *
@@ -17948,7 +17957,7 @@ WordCacheEntrySizeOfExcludingThis
 CacheHashEntry
 *
 aHashEntry
-nsMallocSizeOfFun
+MallocSizeOf
 aMallocSizeOf
 void
 *
@@ -17975,7 +17984,7 @@ gfxFont
 :
 SizeOfExcludingThis
 (
-nsMallocSizeOfFun
+MallocSizeOf
 aMallocSizeOf
 FontCacheSizes
 *
@@ -18042,7 +18051,7 @@ gfxFont
 :
 SizeOfIncludingThis
 (
-nsMallocSizeOfFun
+MallocSizeOf
 aMallocSizeOf
 FontCacheSizes
 *
@@ -18334,7 +18343,7 @@ GlyphWidths
 :
 SizeOfExcludingThis
 (
-nsMallocSizeOfFun
+MallocSizeOf
 aMallocSizeOf
 )
 const
@@ -18717,7 +18726,7 @@ gfxGlyphExtents
 :
 SizeOfExcludingThis
 (
-nsMallocSizeOfFun
+MallocSizeOf
 aMallocSizeOf
 )
 const
@@ -18745,7 +18754,7 @@ gfxGlyphExtents
 :
 SizeOfIncludingThis
 (
-nsMallocSizeOfFun
+MallocSizeOf
 aMallocSizeOf
 )
 const
@@ -32254,7 +32263,7 @@ gfxTextRun
 :
 SizeOfExcludingThis
 (
-nsMallocSizeOfFun
+MallocSizeOf
 aMallocSizeOf
 )
 {
@@ -32295,7 +32304,7 @@ gfxTextRun
 :
 SizeOfIncludingThis
 (
-nsMallocSizeOfFun
+MallocSizeOf
 aMallocSizeOf
 )
 {

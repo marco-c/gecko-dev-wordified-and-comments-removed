@@ -28,6 +28,15 @@ HashFunctions
 .
 h
 "
+#
+include
+"
+mozilla
+/
+MemoryReporting
+.
+h
+"
 using
 namespace
 mozilla
@@ -1328,7 +1337,7 @@ nsMappedAttributes
 :
 SizeOfIncludingThis
 (
-nsMallocSizeOfFun
+MallocSizeOf
 aMallocSizeOf
 )
 const

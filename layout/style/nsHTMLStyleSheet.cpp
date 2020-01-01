@@ -94,6 +94,15 @@ include
 "
 mozilla
 /
+MemoryReporting
+.
+h
+"
+#
+include
+"
+mozilla
+/
 dom
 /
 Element
@@ -1723,7 +1732,7 @@ nsHTMLStyleSheet
 :
 SizeOfExcludingThis
 (
-nsMallocSizeOfFun
+MallocSizeOf
 aMallocSizeOf
 )
 const
@@ -1738,7 +1747,7 @@ nsHTMLStyleSheet
 :
 SizeOfIncludingThis
 (
-nsMallocSizeOfFun
+MallocSizeOf
 aMallocSizeOf
 )
 const
@@ -2332,7 +2341,7 @@ SizeOfAttributesEntryExcludingThis
 PLDHashEntryHdr
 *
 aEntry
-nsMallocSizeOfFun
+MallocSizeOf
 aMallocSizeOf
 void
 *
@@ -2404,7 +2413,7 @@ nsHTMLStyleSheet
 :
 DOMSizeOfIncludingThis
 (
-nsMallocSizeOfFun
+MallocSizeOf
 aMallocSizeOf
 )
 const

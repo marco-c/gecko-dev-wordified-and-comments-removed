@@ -14,6 +14,15 @@ Attributes
 h
 "
 #
+include
+"
+mozilla
+/
+MemoryReporting
+.
+h
+"
+#
 ifndef
 _IMPL_NS_LAYOUT
 #
@@ -743,7 +752,10 @@ aValue
 size_t
 SizeOfIncludingThis
 (
-nsMallocSizeOfFun
+mozilla
+:
+:
+MallocSizeOf
 aMallocSizeOf
 )
 const

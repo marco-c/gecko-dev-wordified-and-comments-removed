@@ -35,6 +35,15 @@ Attributes
 .
 h
 "
+#
+include
+"
+mozilla
+/
+MemoryReporting
+.
+h
+"
 class
 nsIIDNService
 ;
@@ -393,7 +402,10 @@ Init
 size_t
 SizeOfIncludingThis
 (
-nsMallocSizeOfFun
+mozilla
+:
+:
+MallocSizeOf
 aMallocSizeOf
 )
 ;

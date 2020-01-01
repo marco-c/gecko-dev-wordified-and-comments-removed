@@ -64,6 +64,15 @@ include
 "
 mozilla
 /
+MemoryReporting
+.
+h
+"
+#
+include
+"
+mozilla
+/
 Preferences
 .
 h
@@ -3461,7 +3470,7 @@ gfxFontFamily
 >
 &
 aFamily
-nsMallocSizeOfFun
+MallocSizeOf
 aMallocSizeOf
 void
 *
@@ -3524,7 +3533,7 @@ gfxFontFamily
 >
 &
 aFamily
-nsMallocSizeOfFun
+MallocSizeOf
 aMallocSizeOf
 void
 *
@@ -3555,7 +3564,7 @@ gfxFontEntry
 >
 &
 aFont
-nsMallocSizeOfFun
+MallocSizeOf
 aMallocSizeOf
 void
 *
@@ -3589,7 +3598,7 @@ gfxFontFamily
 >
 &
 aList
-nsMallocSizeOfFun
+MallocSizeOf
 aMallocSizeOf
 void
 *
@@ -3612,7 +3621,7 @@ SizeOfStringEntryExcludingThis
 nsStringHashKey
 *
 aHashEntry
-nsMallocSizeOfFun
+MallocSizeOf
 aMallocSizeOf
 void
 *
@@ -3640,7 +3649,7 @@ SizeOfSharedCmapExcludingThis
 CharMapHashKey
 *
 aHashEntry
-nsMallocSizeOfFun
+MallocSizeOf
 aMallocSizeOf
 void
 *
@@ -3694,7 +3703,7 @@ gfxPlatformFontList
 :
 SizeOfExcludingThis
 (
-nsMallocSizeOfFun
+MallocSizeOf
 aMallocSizeOf
 FontListSizes
 *
@@ -3841,7 +3850,7 @@ gfxPlatformFontList
 :
 SizeOfIncludingThis
 (
-nsMallocSizeOfFun
+MallocSizeOf
 aMallocSizeOf
 FontListSizes
 *

@@ -7,6 +7,15 @@ mozilla_CycleCollectedJSRuntime_h__
 #
 include
 "
+mozilla
+/
+MemoryReporting
+.
+h
+"
+#
+include
+"
 jsprvtd
 .
 h
@@ -250,7 +259,10 @@ mJSRuntime
 size_t
 SizeOfExcludingThis
 (
-nsMallocSizeOfFun
+mozilla
+:
+:
+MallocSizeOf
 aMallocSizeOf
 )
 const

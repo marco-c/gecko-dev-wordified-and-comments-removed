@@ -92,6 +92,15 @@ CORSMode
 .
 h
 "
+#
+include
+"
+mozilla
+/
+MemoryReporting
+.
+h
+"
 class
 nsIAtom
 ;
@@ -785,7 +794,10 @@ UnlinkCachedSheets
 size_t
 SizeOfIncludingThis
 (
-nsMallocSizeOfFun
+mozilla
+:
+:
+MallocSizeOf
 aMallocSizeOf
 )
 const

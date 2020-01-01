@@ -7,6 +7,15 @@ nsPropertyTable_h_
 #
 include
 "
+mozilla
+/
+MemoryReporting
+.
+h
+"
+#
+include
+"
 nscore
 .
 h
@@ -342,7 +351,10 @@ PropertyList
 size_t
 SizeOfExcludingThis
 (
-nsMallocSizeOfFun
+mozilla
+:
+:
+MallocSizeOf
 aMallocSizeOf
 )
 const

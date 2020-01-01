@@ -10,6 +10,15 @@ include
 "
 mozilla
 /
+MemoryReporting
+.
+h
+"
+#
+include
+"
+mozilla
+/
 css
 /
 Declaration
@@ -1071,7 +1080,10 @@ nsCSSCompressedDataBlock
 :
 SizeOfIncludingThis
 (
-nsMallocSizeOfFun
+mozilla
+:
+:
+MallocSizeOf
 aMallocSizeOf
 )
 const

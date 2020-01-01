@@ -87,6 +87,15 @@ include
 "
 mozilla
 /
+MemoryReporting
+.
+h
+"
+#
+include
+"
+mozilla
+/
 Mutex
 .
 h
@@ -1433,7 +1442,7 @@ nsUrlClassifierPrefixSet
 :
 SizeOfIncludingThis
 (
-nsMallocSizeOfFun
+MallocSizeOf
 aMallocSizeOf
 )
 {

@@ -106,6 +106,15 @@ include
 "
 mozilla
 /
+MemoryReporting
+.
+h
+"
+#
+include
+"
+mozilla
+/
 XPTInterfaceInfoManager
 .
 h
@@ -7706,7 +7715,7 @@ nsFactoryEntry
 const
 &
 aData
-nsMallocSizeOfFun
+MallocSizeOf
 aMallocSizeOf
 void
 *
@@ -7737,7 +7746,7 @@ nsFactoryEntry
 const
 &
 aData
-nsMallocSizeOfFun
+MallocSizeOf
 aMallocSizeOf
 void
 *
@@ -7759,7 +7768,7 @@ nsComponentManagerImpl
 :
 SizeOfIncludingThis
 (
-nsMallocSizeOfFun
+MallocSizeOf
 aMallocSizeOf
 )
 {
@@ -8210,7 +8219,7 @@ nsFactoryEntry
 :
 SizeOfIncludingThis
 (
-nsMallocSizeOfFun
+MallocSizeOf
 aMallocSizeOf
 )
 {

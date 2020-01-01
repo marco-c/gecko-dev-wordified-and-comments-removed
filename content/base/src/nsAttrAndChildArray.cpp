@@ -1,6 +1,15 @@
 #
 include
 "
+mozilla
+/
+MemoryReporting
+.
+h
+"
+#
+include
+"
 nsAttrAndChildArray
 .
 h
@@ -4000,7 +4009,10 @@ nsAttrAndChildArray
 :
 SizeOfExcludingThis
 (
-nsMallocSizeOfFun
+mozilla
+:
+:
+MallocSizeOf
 aMallocSizeOf
 )
 const
