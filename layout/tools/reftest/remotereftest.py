@@ -3372,21 +3372,6 @@ dummy
 updateCheckURL
 "
         
-prefs
-[
-"
-gfx
-.
-canvas
-.
-azure
-.
-accelerated
-"
-]
-=
-False
-        
 profile
 .
 set_preferences
