@@ -5189,6 +5189,12 @@ return
 rv
 ;
 }
+#
+define
+NS_COMBO_FRAME_POPUP_LIST_INDEX
+(
+NS_BLOCK_LIST_COUNT
+)
 nsIAtom
 *
 nsComboboxControlFrame
@@ -5205,8 +5211,7 @@ if
 (
 aIndex
 <
-=
-NS_BLOCK_FRAME_ABSOLUTE_LIST_INDEX
+NS_BLOCK_LIST_COUNT
 )
 {
 return

@@ -58,6 +58,11 @@ DestroyFrames
 )
 ;
 void
+Destroy
+(
+)
+;
+void
 SetFrames
 (
 nsIFrame

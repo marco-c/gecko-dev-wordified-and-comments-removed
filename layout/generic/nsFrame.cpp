@@ -34326,7 +34326,8 @@ height
 ;
 if
 (
-NS_FRAME_IS_NOT_COMPLETE
+!
+NS_FRAME_IS_FULLY_COMPLETE
 (
 aStatus
 )
