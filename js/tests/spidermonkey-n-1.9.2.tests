@@ -1188,3 +1188,16 @@ regress
 320887
 .
 js
+#
+bug
+452498
+upvar2
+js1_7
+/
+regress
+/
+regress
+-
+350387
+.
+js
