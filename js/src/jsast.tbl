@@ -141,6 +141,16 @@ property
 )
 ASTDEF
 (
+AST_MODULE_DECL
+"
+ModuleDeclaration
+"
+"
+moduleDeclaration
+"
+)
+ASTDEF
+(
 AST_FUNC_DECL
 "
 FunctionDeclaration
