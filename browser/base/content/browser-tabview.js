@@ -1034,6 +1034,12 @@ length
 0
 &
 &
+!
+groupItem
+.
+hidden
+&
+&
 (
 !
 activeGroup
