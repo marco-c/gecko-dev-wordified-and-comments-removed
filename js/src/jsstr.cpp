@@ -12436,16 +12436,8 @@ thisv
 (
 )
 .
-setObjectOrNull
+setNull
 (
-rdata
-.
-lambda
--
->
-getParent
-(
-)
 )
 ;
 Value
