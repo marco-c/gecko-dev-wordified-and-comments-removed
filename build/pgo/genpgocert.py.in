@@ -390,10 +390,8 @@ BLOCK
 *
 *
 *
-from
-automation
 import
-Automation
+automation
 import
 os
 import
@@ -422,11 +420,6 @@ expand
 CERTS_SRC_DIR
 =
 __CERTS_SRC_DIR__
-automation
-=
-Automation
-(
-)
 dbFiles
 =
 [
