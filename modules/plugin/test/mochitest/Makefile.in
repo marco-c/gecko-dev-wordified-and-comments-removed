@@ -731,7 +731,14 @@ _MOCHITEST_FILES
 (
 INSTALL
 )
+(
+foreach
+f
 ^
+"
+f
+"
+)
 (
 DEPTH
 )
