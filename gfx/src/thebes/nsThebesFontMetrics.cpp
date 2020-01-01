@@ -1547,7 +1547,6 @@ ThebesContext
 pt
 0
 aLength
-nsnull
 &
 provider
 nsnull
@@ -1673,7 +1672,6 @@ ThebesContext
 pt
 0
 aLength
-nsnull
 &
 provider
 nsnull

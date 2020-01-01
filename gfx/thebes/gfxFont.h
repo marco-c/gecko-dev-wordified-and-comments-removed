@@ -4096,10 +4096,6 @@ PRUint32
 aStart
 PRUint32
 aLength
-const
-gfxRect
-*
-aDirtyRect
 PropertyProvider
 *
 aProvider
@@ -5740,10 +5736,6 @@ PRUint32
 aStart
 PRUint32
 aEnd
-const
-gfxRect
-*
-aDirtyRect
 gfxPoint
 *
 aPt

@@ -2080,7 +2080,6 @@ GetLength
 )
 nsnull
 nsnull
-nsnull
 )
 ;
 return
@@ -2127,7 +2126,6 @@ gfxPoint
 )
 i
 1
-nsnull
 nsnull
 nsnull
 )
