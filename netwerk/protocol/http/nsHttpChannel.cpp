@@ -15165,6 +15165,9 @@ NoStore
 if
 (
 mResponseHead
+&
+&
+mResponseHead
 -
 >
 NoStore
@@ -15187,6 +15190,9 @@ CloseOfflineCacheEntry
 ;
 if
 (
+mResponseHead
+&
+&
 mResponseHead
 -
 >
