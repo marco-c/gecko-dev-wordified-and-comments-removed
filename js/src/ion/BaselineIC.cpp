@@ -13246,10 +13246,6 @@ ToNumber
 (
 cx
 ret
-.
-address
-(
-)
 )
 ;
 }
