@@ -900,6 +900,13 @@ testnum
 reference
 )
 ;
+newfile
+.
+remove
+(
+false
+)
+;
 }
 let
 newfile
@@ -1072,6 +1079,13 @@ value
 "
 }
 }
+)
+;
+newfile
+.
+remove
+(
+false
 )
 ;
 parser
