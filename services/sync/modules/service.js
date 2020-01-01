@@ -7612,6 +7612,14 @@ engine
 in
 engines
 )
+if
+(
+engine
+.
+_testDecrypt
+(
+)
+)
 engine
 .
 wipeClient
