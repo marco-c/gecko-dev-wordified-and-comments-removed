@@ -1842,6 +1842,15 @@ newKind
 GenericObject
 )
 ;
+bool
+IsConstructor
+(
+const
+Value
+&
+v
+)
+;
 class
 FunctionExtended
 :
