@@ -759,7 +759,7 @@ setjmp_buffer
 )
 !
 =
-0
+NS_OK
 )
 {
 if
@@ -2722,7 +2722,13 @@ err
 -
 >
 setjmp_buffer
+static_cast
+<
+int
+>
+(
 error_code
+)
 )
 ;
 }
