@@ -428,6 +428,7 @@ getInstallForURL
 (
 uri
 function
+buildNextInstall_getInstallForURL
 (
 aInstall
 )
@@ -491,6 +492,7 @@ addListener
 onDownloadCancelled
 :
 function
+buildNextInstall_onDownloadCancelled
 (
 aInstall
 )
@@ -505,6 +507,7 @@ USER_CANCELLED
 onDownloadFailed
 :
 function
+buildNextInstall_onDownloadFailed
 (
 aInstall
 )
@@ -537,6 +540,7 @@ DOWNLOAD_ERROR
 onInstallFailed
 :
 function
+buildNextInstall_onInstallFailed
 (
 aInstall
 )
@@ -551,6 +555,7 @@ EXECUTION_ERROR
 onInstallEnded
 :
 function
+buildNextInstall_onInstallEnded
 (
 aInstall
 aStatus
@@ -635,6 +640,7 @@ backgroundUpdateCheck
 receiveMessage
 :
 function
+AMC_receiveMessage
 (
 aMessage
 )
@@ -856,6 +862,7 @@ _xpcom_factory
 createInstance
 :
 function
+AMC_createInstance
 (
 aOuter
 aIid

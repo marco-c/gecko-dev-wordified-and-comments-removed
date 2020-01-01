@@ -1421,6 +1421,7 @@ null
 observe
 :
 function
+Blocklist_observe
 (
 aSubject
 aTopic
@@ -1553,6 +1554,7 @@ break
 isAddonBlocklisted
 :
 function
+Blocklist_isAddonBlocklisted
 (
 id
 version
@@ -1582,6 +1584,7 @@ STATE_BLOCKED
 getAddonBlocklistState
 :
 function
+Blocklist_getAddonBlocklistState
 (
 id
 version
@@ -1620,6 +1623,7 @@ toolkitVersion
 _getAddonBlocklistState
 :
 function
+Blocklist_getAddonBlocklistStateCall
 (
 id
 version
@@ -1733,6 +1737,7 @@ STATE_NOT_BLOCKED
 getAddonBlocklistURL
 :
 function
+Blocklist_getAddonBlocklistURL
 (
 id
 version
@@ -1800,6 +1805,7 @@ blockID
 _createBlocklistURL
 :
 function
+Blocklist_createBlocklistURL
 (
 id
 )
@@ -1838,6 +1844,7 @@ url
 notify
 :
 function
+Blocklist_notify
 (
 aTimer
 )
@@ -2576,6 +2583,7 @@ addEventListener
 error
 "
 function
+errorEventListener
 (
 event
 )
@@ -2599,6 +2607,7 @@ addEventListener
 load
 "
 function
+loadEventListener
 (
 event
 )
@@ -2638,6 +2647,7 @@ _loadBlocklist
 onXMLLoad
 :
 function
+Blocklist_onXMLLoad
 (
 aEvent
 )
@@ -2857,6 +2867,7 @@ oldPluginEntries
 onXMLError
 :
 function
+Blocklist_onXMLError
 (
 aEvent
 )
@@ -2966,6 +2977,7 @@ statusText
 _loadBlocklist
 :
 function
+Blocklist_loadBlocklist
 (
 )
 {
@@ -3066,6 +3078,7 @@ found
 _loadBlocklistFromFile
 :
 function
+Blocklist_loadBlocklistFromFile
 (
 file
 )
@@ -3428,6 +3441,7 @@ close
 _processItemNodes
 :
 function
+Blocklist_processItemNodes
 (
 itemNodes
 prefix
@@ -3512,6 +3526,7 @@ result
 _handleEmItemNode
 :
 function
+Blocklist_handleEmItemNode
 (
 blocklistElement
 result
@@ -3666,6 +3681,7 @@ blockID
 _handlePluginItemNode
 :
 function
+Blocklist_handlePluginItemNode
 (
 blocklistElement
 result
@@ -3897,6 +3913,7 @@ blockEntry
 getPluginBlocklistState
 :
 function
+Blocklist_getPluginBlocklistState
 (
 plugin
 appVersion
@@ -3933,6 +3950,7 @@ toolkitVersion
 _getPluginBlocklistState
 :
 function
+Blocklist_getPluginBlocklistState
 (
 plugin
 pluginEntries
@@ -4167,6 +4185,7 @@ STATE_NOT_BLOCKED
 getPluginBlocklistURL
 :
 function
+Blocklist_getPluginBlocklistURL
 (
 plugin
 )
@@ -4301,6 +4320,7 @@ blockID
 _blocklistUpdated
 :
 function
+Blocklist_blocklistUpdated
 (
 oldAddonEntries
 oldPluginEntries
@@ -4317,10 +4337,9 @@ self
 =
 this
 ;
-AddonManager
-.
-getAddonsByTypes
-(
+const
+types
+=
 [
 "
 extension
@@ -4335,7 +4354,13 @@ locale
 dictionary
 "
 ]
+AddonManager
+.
+getAddonsByTypes
+(
+types
 function
+blocklistUpdated_getAddonsByTypes
 (
 addons
 )
@@ -5014,6 +5039,7 @@ let
 applyBlocklistChanges
 =
 function
+blocklistUpdated_applyBlocklistChanges
 (
 )
 {
@@ -5483,6 +5509,7 @@ prototype
 includesItem
 :
 function
+BlocklistItemData_includesItem
 (
 version
 appVersion
@@ -5556,6 +5583,7 @@ toolkitVersion
 matchesRange
 :
 function
+BlocklistItemData_matchesRange
 (
 version
 minVersion
@@ -5605,6 +5633,7 @@ true
 matchesTargetRange
 :
 function
+BlocklistItemData_matchesTargetRange
 (
 appID
 appVersion
@@ -5662,6 +5691,7 @@ false
 getBlocklistAppVersions
 :
 function
+BlocklistItemData_getBlocklistAppVersions
 (
 targetAppElement
 )
@@ -5774,6 +5804,7 @@ appVersions
 getBlocklistVersionRange
 :
 function
+BlocklistItemData_getBlocklistVersionRange
 (
 versionRangeElement
 )

@@ -149,6 +149,7 @@ __defineGetter__
 (
 aName
 function
+logFuncGetter
 (
 )
 {
@@ -361,6 +362,7 @@ true
 checkAllDownloaded
 :
 function
+Installer_checkAllDownloaded
 (
 )
 {
@@ -866,6 +868,7 @@ downloads
 checkAllInstalled
 :
 function
+Installer_checkAllInstalled
 (
 )
 {
@@ -992,6 +995,7 @@ null
 onDownloadCancelled
 :
 function
+Installer_onDownloadCancelled
 (
 aInstall
 )
@@ -1013,6 +1017,7 @@ checkAllDownloaded
 onDownloadFailed
 :
 function
+Installer_onDownloadFailed
 (
 aInstall
 )
@@ -1034,6 +1039,7 @@ checkAllDownloaded
 onDownloadEnded
 :
 function
+Installer_onDownloadEnded
 (
 aInstall
 )
@@ -1051,6 +1057,7 @@ false
 onInstallCancelled
 :
 function
+Installer_onInstallCancelled
 (
 aInstall
 )
@@ -1072,6 +1079,7 @@ checkAllInstalled
 onInstallFailed
 :
 function
+Installer_onInstallFailed
 (
 aInstall
 )
@@ -1093,6 +1101,7 @@ checkAllInstalled
 onInstallEnded
 :
 function
+Installer_onInstallEnded
 (
 aInstall
 )
@@ -1179,6 +1188,7 @@ prototype
 onWebInstallDisabled
 :
 function
+extWebInstallListener_onWebInstallDisabled
 (
 aWindow
 aUri
@@ -1233,6 +1243,7 @@ null
 onWebInstallBlocked
 :
 function
+extWebInstallListener_onWebInstallBlocked
 (
 aWindow
 aUri
@@ -1255,6 +1266,7 @@ aInstalls
 install
 :
 function
+onWebInstallBlocked_install
 (
 )
 {
@@ -1311,6 +1323,7 @@ false
 onWebInstallRequested
 :
 function
+extWebInstallListener_onWebInstallRequested
 (
 aWindow
 aUri

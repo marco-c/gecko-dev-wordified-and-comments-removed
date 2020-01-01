@@ -11,6 +11,7 @@ XPInstallConfirm
 init
 =
 function
+XPInstallConfirm_init
 (
 )
 {
@@ -688,6 +689,7 @@ XPInstallConfirm
 onOK
 =
 function
+XPInstallConfirm_onOk
 (
 )
 {
@@ -759,6 +761,7 @@ XPInstallConfirm
 onCancel
 =
 function
+XPInstallConfirm_onCancel
 (
 )
 {

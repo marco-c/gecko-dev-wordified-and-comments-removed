@@ -195,6 +195,7 @@ PACKAGE
 enabled
 :
 function
+createInstallTrigger_enabled
 (
 )
 {
@@ -229,6 +230,7 @@ spec
 updateEnabled
 :
 function
+createInstallTrigger_updateEnabled
 (
 )
 {
@@ -243,6 +245,7 @@ enabled
 install
 :
 function
+createInstallTrigger_install
 (
 aArgs
 aCallback
@@ -578,6 +581,7 @@ params
 startSoftwareUpdate
 :
 function
+createInstallTrigger_startSoftwareUpdate
 (
 aUrl
 aFlags
@@ -635,6 +639,7 @@ object
 installChrome
 :
 function
+createInstallTrigger_installChrome
 (
 aType
 aUrl
@@ -653,6 +658,7 @@ aUrl
 resolveURL
 :
 function
+createInstallTrigger_resolveURL
 (
 aUrl
 )
@@ -673,6 +679,7 @@ url
 checkLoadURIFromScript
 :
 function
+createInstallTrigger_checkLoadURIFromScript
 (
 aUri
 )
@@ -952,6 +959,7 @@ addMessageListener
 (
 MSG_JAR_FLUSH
 function
+jar_flushMessageListener
 (
 msg
 )
@@ -1063,6 +1071,7 @@ addEventListener
 unload
 "
 function
+unloadEventListener
 (
 )
 {
@@ -1085,7 +1094,7 @@ prototype
 handleEvent
 :
 function
-handleEvent
+ITM_handleEvent
 (
 aEvent
 )
@@ -1109,6 +1118,7 @@ __defineGetter__
 InstallTrigger
 "
 function
+installTriggerGetter
 (
 )
 {
@@ -1145,6 +1155,7 @@ installTrigger
 addCallback
 :
 function
+ITM_addCallback
 (
 aCallback
 aUrls
@@ -1213,6 +1224,7 @@ callbackId
 receiveMessage
 :
 function
+ITM_receiveMessage
 (
 aMessage
 )

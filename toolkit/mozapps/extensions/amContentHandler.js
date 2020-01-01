@@ -381,6 +381,7 @@ nsIContentHandler
 log
 :
 function
+XCH_log
 (
 aMsg
 )
