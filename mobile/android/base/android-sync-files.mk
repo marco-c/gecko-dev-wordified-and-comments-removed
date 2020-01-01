@@ -101,6 +101,13 @@ CommandRunner
 java
 sync
 /
+config
+/
+AccountPickler
+.
+java
+sync
+/
 CredentialsSource
 .
 java
