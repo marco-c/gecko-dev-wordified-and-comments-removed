@@ -1984,8 +1984,6 @@ endCharCode
 }
 aCharacterMap
 .
-mBlocks
-.
 Compact
 (
 )
@@ -2356,8 +2354,6 @@ c
 }
 }
 aCharacterMap
-.
-mBlocks
 .
 Compact
 (
