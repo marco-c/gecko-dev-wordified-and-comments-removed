@@ -81,7 +81,7 @@ mk
 MOCHITEST_CHROME_FILES
 =
 \
-bug_765063
+install_and_redirect_helper
 .
 xul
 \
@@ -98,6 +98,10 @@ test_bug_765063
 xul
 \
 test_bug_795164
+.
+xul
+\
+test_bug_771294
 .
 xul
 \
