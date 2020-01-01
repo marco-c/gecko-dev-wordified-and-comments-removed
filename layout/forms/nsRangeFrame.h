@@ -336,6 +336,11 @@ GetValue
 )
 const
 ;
+double
+GetValueAsFractionOfRange
+(
+)
+;
 bool
 ShouldUseNativeStyle
 (
@@ -414,11 +419,6 @@ const
 nsSize
 &
 aRangeSize
-)
-;
-double
-GetValueAsFractionOfRange
-(
 )
 ;
 nsCOMPtr
