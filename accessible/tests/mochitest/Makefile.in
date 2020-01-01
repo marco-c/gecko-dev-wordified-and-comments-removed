@@ -930,6 +930,10 @@ xul
 \
 test_value
 .
+html
+\
+test_value
+.
 xul
 \
 testTextboxes
