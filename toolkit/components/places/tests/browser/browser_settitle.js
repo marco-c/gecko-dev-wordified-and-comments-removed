@@ -43,8 +43,6 @@ removeCurrentTab
 waitForClearHistory
 (
 finish
-(
-)
 )
 ;
 }
