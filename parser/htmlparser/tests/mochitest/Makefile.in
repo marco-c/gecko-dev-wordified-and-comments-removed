@@ -503,6 +503,16 @@ invalidchar
 .
 xml
 \
+test_bug552938
+.
+html
+\
+test_bug552938
+-
+2
+.
+html
+\
 (
 NULL
 )
