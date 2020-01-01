@@ -17937,6 +17937,15 @@ other
 #
 endif
 }
+Debugger
+:
+:
+findCompartmentEdges
+(
+this
+finder
+)
+;
 }
 static
 void
