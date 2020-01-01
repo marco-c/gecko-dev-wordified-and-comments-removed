@@ -4810,7 +4810,7 @@ code
 '
 :
 '
-PRUint16
+PRBool
 result
 =
 self
