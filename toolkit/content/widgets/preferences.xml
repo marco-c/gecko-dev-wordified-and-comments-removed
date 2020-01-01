@@ -5440,8 +5440,10 @@ aPaneElement
 loaded
 )
 {
-function
+let
 OverlayLoadObserver
+=
+function
 (
 aPane
 )
