@@ -31382,10 +31382,6 @@ ThawSubDocument
 nsnull
 )
 ;
-UnsuppressPainting
-(
-)
-;
 QueryIsActive
 (
 )
@@ -31395,6 +31391,10 @@ mFrozen
 PR_FALSE
 ;
 UpdateImageLockingState
+(
+)
+;
+UnsuppressPainting
 (
 )
 ;
