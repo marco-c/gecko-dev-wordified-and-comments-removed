@@ -527,7 +527,7 @@ viewportHeight
 {
 #
 ifdef
-XP_MAC
+XP_MACOSX
 (
 void
 )
