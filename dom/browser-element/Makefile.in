@@ -190,6 +190,10 @@ BrowserElementPromptService
 .
 jsm
 \
+BrowserElementParent
+.
+jsm
+\
 (
 NULL
 )
