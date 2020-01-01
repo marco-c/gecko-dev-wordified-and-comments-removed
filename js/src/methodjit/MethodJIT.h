@@ -2700,6 +2700,10 @@ fastEntry
 ;
 void
 *
+arityCheckEntry
+;
+void
+*
 argsCheckEntry
 ;
 JSCList
