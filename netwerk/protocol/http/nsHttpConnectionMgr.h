@@ -348,6 +348,9 @@ mMaxRequestDelay
 PRUint16
 mMaxPipelinedRequests
 ;
+PRPackedBool
+mIsShuttingDown
+;
 static
 PRIntn
 ProcessOneTransactionCB
@@ -454,6 +457,11 @@ ProcessNewTransaction
 (
 nsHttpTransaction
 *
+)
+;
+nsresult
+EnsureSocketThreadTargetIfOnline
+(
 )
 ;
 typedef
