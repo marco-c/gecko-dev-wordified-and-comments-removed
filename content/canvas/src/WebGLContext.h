@@ -1985,7 +1985,7 @@ mCanvasElement
 ;
 }
 WebGLsizei
-GetDrawingBufferWidth
+DrawingBufferWidth
 (
 )
 const
@@ -2005,7 +2005,7 @@ mWidth
 ;
 }
 WebGLsizei
-GetDrawingBufferHeight
+DrawingBufferHeight
 (
 )
 const

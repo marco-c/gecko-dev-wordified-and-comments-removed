@@ -691,6 +691,7 @@ ChromeOnly
 readonly
 attribute
 MozChannel
+?
 channel
 ;
 [

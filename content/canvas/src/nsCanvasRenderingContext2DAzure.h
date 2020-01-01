@@ -611,7 +611,7 @@ error
 )
 ;
 double
-GetGlobalAlpha
+GlobalAlpha
 (
 )
 {
@@ -848,7 +848,7 @@ error
 )
 ;
 double
-GetShadowOffsetX
+ShadowOffsetX
 (
 )
 {
@@ -896,7 +896,7 @@ shadowOffsetX
 }
 }
 double
-GetShadowOffsetY
+ShadowOffsetY
 (
 )
 {
@@ -944,7 +944,7 @@ shadowOffsetY
 }
 }
 double
-GetShadowBlur
+ShadowBlur
 (
 )
 {
@@ -1544,7 +1544,7 @@ error
 )
 ;
 double
-GetLineWidth
+LineWidth
 (
 )
 {
@@ -1635,7 +1635,7 @@ linejoin
 )
 ;
 double
-GetMiterLimit
+MiterLimit
 (
 )
 {
@@ -2290,7 +2290,7 @@ error
 )
 ;
 double
-GetMozDashOffset
+MozDashOffset
 (
 )
 {
@@ -2352,7 +2352,7 @@ error
 ;
 }
 bool
-GetImageSmoothingEnabled
+ImageSmoothingEnabled
 (
 )
 {

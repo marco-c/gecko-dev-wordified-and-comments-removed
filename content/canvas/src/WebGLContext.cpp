@@ -6379,7 +6379,7 @@ aWidth
 *
 aWidth
 =
-GetDrawingBufferWidth
+DrawingBufferWidth
 (
 )
 ;
@@ -6401,7 +6401,7 @@ aHeight
 *
 aHeight
 =
-GetDrawingBufferHeight
+DrawingBufferHeight
 (
 )
 ;

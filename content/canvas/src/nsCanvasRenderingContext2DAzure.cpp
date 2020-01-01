@@ -6279,7 +6279,7 @@ aGlobalAlpha
 *
 aGlobalAlpha
 =
-GetGlobalAlpha
+GlobalAlpha
 (
 )
 ;
@@ -8392,7 +8392,7 @@ static_cast
 float
 >
 (
-GetShadowOffsetX
+ShadowOffsetX
 (
 )
 )
@@ -8442,7 +8442,7 @@ static_cast
 float
 >
 (
-GetShadowOffsetY
+ShadowOffsetY
 (
 )
 )
@@ -8487,7 +8487,7 @@ blur
 *
 blur
 =
-GetShadowBlur
+ShadowBlur
 (
 )
 ;
@@ -15371,7 +15371,7 @@ width
 *
 width
 =
-GetLineWidth
+LineWidth
 (
 )
 ;
@@ -15827,7 +15827,7 @@ miter
 *
 miter
 =
-GetMiterLimit
+MiterLimit
 (
 )
 ;
@@ -16091,7 +16091,7 @@ offset
 *
 offset
 =
-GetMozDashOffset
+MozDashOffset
 (
 )
 ;
@@ -20999,7 +20999,7 @@ retVal
 *
 retVal
 =
-GetImageSmoothingEnabled
+ImageSmoothingEnabled
 (
 )
 ;

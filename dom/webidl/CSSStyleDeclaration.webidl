@@ -235,6 +235,7 @@ property
 readonly
 attribute
 CSSRule
+?
 parentRule
 ;
 }

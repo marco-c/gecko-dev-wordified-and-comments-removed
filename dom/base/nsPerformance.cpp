@@ -186,7 +186,7 @@ DOMTimeMilliSec
 nsPerformanceTiming
 :
 :
-GetDomainLookupStart
+DomainLookupStart
 (
 )
 const
@@ -198,7 +198,7 @@ mChannel
 )
 {
 return
-GetFetchStart
+FetchStart
 (
 )
 ;
@@ -234,7 +234,7 @@ DOMTimeMilliSec
 nsPerformanceTiming
 :
 :
-GetDomainLookupEnd
+DomainLookupEnd
 (
 )
 const
@@ -246,7 +246,7 @@ mChannel
 )
 {
 return
-GetFetchStart
+FetchStart
 (
 )
 ;
@@ -282,7 +282,7 @@ DOMTimeMilliSec
 nsPerformanceTiming
 :
 :
-GetConnectStart
+ConnectStart
 (
 )
 const
@@ -294,7 +294,7 @@ mChannel
 )
 {
 return
-GetFetchStart
+FetchStart
 (
 )
 ;
@@ -330,7 +330,7 @@ DOMTimeMilliSec
 nsPerformanceTiming
 :
 :
-GetConnectEnd
+ConnectEnd
 (
 )
 const
@@ -342,7 +342,7 @@ mChannel
 )
 {
 return
-GetFetchStart
+FetchStart
 (
 )
 ;
@@ -378,7 +378,7 @@ DOMTimeMilliSec
 nsPerformanceTiming
 :
 :
-GetRequestStart
+RequestStart
 (
 )
 const
@@ -390,7 +390,7 @@ mChannel
 )
 {
 return
-GetFetchStart
+FetchStart
 (
 )
 ;
@@ -426,7 +426,7 @@ DOMTimeMilliSec
 nsPerformanceTiming
 :
 :
-GetResponseStart
+ResponseStart
 (
 )
 const
@@ -438,7 +438,7 @@ mChannel
 )
 {
 return
-GetFetchStart
+FetchStart
 (
 )
 ;
@@ -518,7 +518,7 @@ DOMTimeMilliSec
 nsPerformanceTiming
 :
 :
-GetResponseEnd
+ResponseEnd
 (
 )
 const
@@ -530,7 +530,7 @@ mChannel
 )
 {
 return
-GetFetchStart
+FetchStart
 (
 )
 ;
@@ -835,7 +835,7 @@ nsPerformanceTiming
 nsPerformance
 :
 :
-GetTiming
+Timing
 (
 )
 {
@@ -864,7 +864,7 @@ nsPerformanceNavigation
 nsPerformance
 :
 :
-GetNavigation
+Navigation
 (
 )
 {

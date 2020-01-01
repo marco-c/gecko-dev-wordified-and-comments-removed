@@ -2155,7 +2155,7 @@ mReadyState
 xhr
 -
 >
-GetReadyState
+ReadyState
 (
 )
 ;

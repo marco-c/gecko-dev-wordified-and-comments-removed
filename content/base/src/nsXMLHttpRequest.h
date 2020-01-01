@@ -253,6 +253,14 @@ XMLHttpRequestUploadBinding
 .
 h
 "
+#
+ifdef
+Status
+#
+undef
+Status
+#
+endif
 class
 nsILoadGroup
 ;
@@ -944,7 +952,7 @@ IMPL_EVENT_HANDLER
 readystatechange
 )
 uint16_t
-GetReadyState
+ReadyState
 (
 )
 ;
@@ -1042,7 +1050,7 @@ aValue
 ;
 }
 uint32_t
-GetTimeout
+Timeout
 (
 )
 {
@@ -1061,7 +1069,7 @@ aRv
 )
 ;
 bool
-GetWithCredentials
+WithCredentials
 (
 )
 ;
@@ -1077,7 +1085,7 @@ aRv
 ;
 nsXMLHttpRequestUpload
 *
-GetUpload
+Upload
 (
 )
 ;
@@ -1647,7 +1655,7 @@ Abort
 )
 ;
 uint32_t
-GetStatus
+Status
 (
 )
 ;
@@ -1768,7 +1776,7 @@ aMimeType
 ;
 }
 XMLHttpRequestResponseType
-GetResponseType
+ResponseType
 (
 )
 {
@@ -1824,7 +1832,7 @@ aRv
 )
 ;
 bool
-GetMozBackgroundRequest
+MozBackgroundRequest
 (
 )
 ;
@@ -1839,7 +1847,7 @@ aRv
 )
 ;
 bool
-GetMultipart
+Multipart
 (
 )
 ;
@@ -1854,12 +1862,12 @@ aRv
 )
 ;
 bool
-GetMozAnon
+MozAnon
 (
 )
 ;
 bool
-GetMozSystem
+MozSystem
 (
 )
 ;
@@ -2291,7 +2299,7 @@ nsCString
 mResponseCharset
 ;
 enum
-ResponseType
+ResponseTypeEnum
 {
 XML_HTTP_RESPONSE_TYPE_DEFAULT
 XML_HTTP_RESPONSE_TYPE_ARRAYBUFFER
@@ -2310,14 +2318,14 @@ SetResponseType
 nsXMLHttpRequest
 :
 :
-ResponseType
+ResponseTypeEnum
 aType
 ErrorResult
 &
 aRv
 )
 ;
-ResponseType
+ResponseTypeEnum
 mResponseType
 ;
 nsCOMPtr
