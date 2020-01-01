@@ -242,16 +242,6 @@ nsBoxLayoutState
 aState
 )
 {
-NS_NOTREACHED
-(
-"
-Should
-not
-be
-called
-"
-)
-;
 }
 virtual
 PRInt32
