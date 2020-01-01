@@ -285,8 +285,6 @@ fixed
 }
 protected
 :
-union
-{
 char
 mAutoBuf
 [
@@ -302,11 +300,6 @@ sizeof
 elem_type
 )
 ]
-;
-PRUint64
-dummy
-;
-}
 ;
 }
 ;
