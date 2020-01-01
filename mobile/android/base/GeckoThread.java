@@ -781,6 +781,7 @@ GUEST_BROWSING_ARG
 else
 if
 (
+!
 GeckoApp
 .
 sIsUsingCustomProfile
