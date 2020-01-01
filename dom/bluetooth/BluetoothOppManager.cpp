@@ -1616,6 +1616,10 @@ FileTransferComplete
 (
 )
 ;
+NotifyAboutFileChange
+(
+)
+;
 }
 ReplyToPut
 (
