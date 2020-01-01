@@ -3199,14 +3199,14 @@ h
 #
 include
 "
-CameraControl
+DOMCameraControl
 .
 h
 "
 #
 include
 "
-CameraCapabilities
+DOMCameraCapabilities
 .
 h
 "
