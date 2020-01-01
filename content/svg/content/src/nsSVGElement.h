@@ -905,6 +905,13 @@ PRUint8
 aAttrEnum
 )
 ;
+enum
+{
+DO_ALLOCATE
+=
+0x1
+}
+;
 nsSVGLength2
 *
 GetAnimatedLength
@@ -1011,6 +1018,10 @@ SVGAnimatedTransformList
 *
 GetAnimatedTransformList
 (
+PRUint32
+aFlags
+=
+0
 )
 {
 return
