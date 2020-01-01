@@ -2125,16 +2125,6 @@ event
 {
 if
 (
-Build
-.
-VERSION
-.
-SDK_INT
->
-=
-11
-&
-&
 keyCode
 =
 =
