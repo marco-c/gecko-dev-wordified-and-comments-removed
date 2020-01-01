@@ -703,6 +703,7 @@ resource
 :
 /
 /
+gre
 /
 modules
 /
@@ -791,7 +792,6 @@ DebuggerServer
 openListener
 (
 port
-true
 )
 ;
 Services
@@ -802,6 +802,19 @@ setBoolPref
 (
 DEBUGGER_ENABLED_PREF
 original
+)
+;
+this
+.
+logger
+.
+info
+(
+"
+marionette
+listener
+opened
+"
 )
 ;
 }
