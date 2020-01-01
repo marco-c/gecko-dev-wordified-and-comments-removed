@@ -286,12 +286,15 @@ nsChangeHint_ReconstructFrame
 enum
 nsRestyleHint
 {
-eRestyle_Subtree
+eRestyle_Self
 =
 0x1
-eRestyle_LaterSiblings
+eRestyle_Subtree
 =
 0x2
+eRestyle_LaterSiblings
+=
+0x4
 }
 ;
 #

@@ -517,7 +517,11 @@ if
 (
 aRestyleHint
 &
+(
+eRestyle_Self
+|
 eRestyle_Subtree
+)
 )
 {
 mFrameConstructor
@@ -530,6 +534,14 @@ primaryFrame
 aChangeHint
 *
 this
+(
+aRestyleHint
+&
+eRestyle_Subtree
+)
+!
+=
+0
 )
 ;
 }

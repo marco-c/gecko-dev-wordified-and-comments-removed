@@ -355,6 +355,8 @@ aMinChange
 RestyleTracker
 &
 aRestyleTracker
+PRBool
+aRestyleDescendants
 )
 ;
 NS_HIDDEN_
@@ -504,6 +506,8 @@ nsStyleChangeList
 aChangeList
 nsChangeHint
 aMinChange
+nsRestyleHint
+aRestyleHint
 PRBool
 aFireAccessibilityEvents
 RestyleTracker

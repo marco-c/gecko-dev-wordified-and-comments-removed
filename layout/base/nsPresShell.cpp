@@ -15045,7 +15045,10 @@ FrameConstructor
 PostRestyleEvent
 (
 aElement
-eRestyle_Subtree
+nsRestyleHint
+(
+0
+)
 nsChangeHint_ReconstructFrame
 )
 ;
@@ -15069,7 +15072,7 @@ FrameConstructor
 PostAnimationRestyleEvent
 (
 aElement
-eRestyle_Subtree
+eRestyle_Self
 NS_STYLE_HINT_NONE
 )
 ;

@@ -32568,6 +32568,8 @@ aMinHint
 RestyleTracker
 &
 aRestyleTracker
+PRBool
+aRestyleDescendants
 )
 {
 NS_ASSERTION
@@ -32671,6 +32673,7 @@ aPrimaryFrame
 changeList
 aMinHint
 aRestyleTracker
+aRestyleDescendants
 )
 ;
 ProcessRestyledFrames
@@ -46319,6 +46322,7 @@ GetRootFrame
 changeList
 aExtraHint
 mPendingRestyles
+PR_TRUE
 )
 ;
 ProcessRestyledFrames
