@@ -734,9 +734,9 @@ DLL_SUFFIX
 endif
 ifeq
 (
-Darwin
+bundle
 (
-OS_ARCH
+MOZ_FS_LAYOUT
 )
 )
 EXTRA_DSO_LDOPTS
