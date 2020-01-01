@@ -8585,9 +8585,6 @@ JSFRAME_SPECIAL
 return
 JS_TRUE
 ;
-#
-if
-0
 if
 (
 !
@@ -8628,8 +8625,6 @@ return
 JS_TRUE
 ;
 }
-#
-endif
 ATOM_LIST_SEARCH
 (
 ale
