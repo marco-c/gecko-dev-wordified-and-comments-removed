@@ -1121,7 +1121,7 @@ OTS_WARNING
 (
 "
 too
-arge
+large
 alternate
 :
 %
@@ -2924,10 +2924,19 @@ offset_lookup_list
 )
 )
 {
-return
-OTS_FAILURE
+OTS_WARNING
 (
+"
+incomplete
+GSUB
+table
+"
 )
+;
+DROP_THIS_TABLE
+;
+return
+true
 ;
 }
 if
@@ -3036,7 +3045,7 @@ num_lookups
 OTS_WARNING
 (
 "
-faild
+failed
 to
 parse
 lookup
@@ -3079,7 +3088,7 @@ num_features
 OTS_WARNING
 (
 "
-faild
+failed
 to
 parse
 feature
@@ -3112,7 +3121,7 @@ num_features
 OTS_WARNING
 (
 "
-faild
+failed
 to
 parse
 script
