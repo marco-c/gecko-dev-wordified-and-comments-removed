@@ -2326,6 +2326,14 @@ LOAD_ANONYMOUS
 ;
 chan
 .
+loadGroup
+=
+docRequest
+.
+loadGroup
+;
+chan
+.
 asyncOpen
 (
 new
