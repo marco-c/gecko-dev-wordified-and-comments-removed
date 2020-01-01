@@ -31,6 +31,18 @@ variables
 {
     
 '
+MKDIR
+'
+:
+'
+%
+pymake
+.
+builtins
+mkdir
+'
+    
+'
 RM
 '
 :
