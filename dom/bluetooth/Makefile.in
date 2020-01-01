@@ -251,10 +251,6 @@ BluetoothDevice
 .
 cpp
 \
-BluetoothPropertyEvent
-.
-cpp
-\
 BluetoothReplyRunnable
 .
 cpp
@@ -339,10 +335,6 @@ nsIDOMBluetoothDeviceEvent
 idl
 \
 nsIDOMBluetoothDeviceAddressEvent
-.
-idl
-\
-nsIDOMBluetoothPropertyEvent
 .
 idl
 \
