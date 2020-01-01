@@ -70,7 +70,7 @@ mozLink
       
 button
 .
-single_tap
+tap
 (
 0
 300
@@ -115,7 +115,7 @@ innerHTML
       
 button
 .
-single_tap
+tap
 (
 )
       
@@ -210,7 +210,7 @@ assertRaises
 MarionetteException
 ele
 .
-single_tap
+tap
 )
     
 def
@@ -262,7 +262,7 @@ scroll
       
 ele
 .
-single_tap
+tap
 (
 )
       
