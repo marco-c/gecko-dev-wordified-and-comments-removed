@@ -451,6 +451,8 @@ geolocation
 \
 localstorage
 \
+sessionstorage
+\
 (
 NULL
 )
