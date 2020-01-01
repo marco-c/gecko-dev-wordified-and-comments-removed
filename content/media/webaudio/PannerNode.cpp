@@ -1760,7 +1760,7 @@ Length
 (
 )
 ;
-AudioBlockInPlaceScale
+AudioBufferInPlaceScale
 (
 samples
 channelCount
