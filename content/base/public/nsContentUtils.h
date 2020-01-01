@@ -3318,6 +3318,16 @@ aContent
 )
 ;
 static
+nsIDocument
+*
+GetRootDocument
+(
+nsIDocument
+*
+aDoc
+)
+;
+static
 TimeDuration
 HandlingUserInputTimeout
 (
