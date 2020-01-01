@@ -590,7 +590,7 @@ _expireDays
 (
 ADDITIONAL_DATE_CONT_NUM
 +
-PR_MIN
+NS_MIN
 (
 6
 (
