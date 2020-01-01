@@ -11956,6 +11956,7 @@ return
 true
 ;
 }
+static
 JSBool
 DebuggerScript_setBreakpoint
 (
@@ -12193,6 +12194,7 @@ return
 false
 ;
 }
+static
 JSBool
 DebuggerScript_getBreakpoints
 (
@@ -12447,6 +12449,7 @@ return
 true
 ;
 }
+static
 JSBool
 DebuggerScript_clearBreakpoint
 (
@@ -12541,6 +12544,7 @@ return
 true
 ;
 }
+static
 JSBool
 DebuggerScript_clearAllBreakpoints
 (
@@ -13542,6 +13546,7 @@ ResolveStub
 ConvertStub
 }
 ;
+static
 JSBool
 DebuggerArguments_getArg
 (
@@ -13747,6 +13752,7 @@ vp
 )
 ;
 }
+static
 JSBool
 DebuggerFrame_getArguments
 (
