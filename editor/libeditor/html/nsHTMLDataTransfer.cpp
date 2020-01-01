@@ -5513,6 +5513,7 @@ newLengthInChars
 if
 (
 !
+*
 aStuffToPaste
 )
 {
