@@ -2660,6 +2660,13 @@ actionHint
 if
 (
 typeHint
+!
+=
+null
+&
+&
+(
+typeHint
 .
 equals
 (
@@ -2729,6 +2736,7 @@ datetime
 -
 local
 "
+)
 )
 )
 )
