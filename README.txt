@@ -255,3 +255,16 @@ latest
 -
 trunk
 /
+-
+or
+-
+http
+:
+/
+/
+nightly
+.
+mozilla
+.
+org
+/
