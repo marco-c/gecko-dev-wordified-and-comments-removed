@@ -1421,9 +1421,6 @@ gsnCache
 JSPropertyCache
 propertyCache
 ;
-int64
-rngSeed
-;
 JSLocalRootStack
 *
 localRootStack
@@ -3481,6 +3478,9 @@ regexpPool
 ;
 uintN
 resolveFlags
+;
+int64
+rngSeed
 ;
 #
 ifdef
