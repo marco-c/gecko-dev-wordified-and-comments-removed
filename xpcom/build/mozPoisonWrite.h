@@ -1,4 +1,10 @@
 #
+ifndef
+MOZPOISONWRITE_H
+#
+define
+MOZPOISONWRITE_H
+#
 include
 "
 mozilla
@@ -20,6 +26,14 @@ MozillaRegisterDebugFD
 (
 int
 fd
+)
+;
+void
+MozillaRegisterDebugFILE
+(
+FILE
+*
+f
 )
 ;
 void
@@ -60,5 +74,7 @@ EnableWritePoisoning
 )
 ;
 }
+#
+endif
 #
 endif
