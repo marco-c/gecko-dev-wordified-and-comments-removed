@@ -4170,6 +4170,12 @@ c
 TestInterface
 someInterface
 ;
+TestInterface
+?
+someNullableInterface
+=
+null
+;
 TestExternalInterface
 someExternalInterface
 ;
