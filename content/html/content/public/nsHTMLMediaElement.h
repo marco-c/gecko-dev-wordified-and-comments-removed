@@ -1,4 +1,14 @@
 #
+if
+!
+defined
+(
+nsHTMLMediaElement_h__
+)
+#
+define
+nsHTMLMediaElement_h__
+#
 include
 "
 nsIDOMHTMLMediaElement
@@ -809,3 +819,5 @@ mPrintSurface
 ;
 }
 ;
+#
+endif

@@ -1313,12 +1313,14 @@ currentTime
 "
 )
 ;
-test_is
+test_ok
+(
+isNaN
 (
 gMedia
 .
 duration
-0
+)
 "
 Leaked
 duration

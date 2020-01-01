@@ -1,4 +1,14 @@
 #
+if
+!
+defined
+(
+nsHTMLAudioElement_h__
+)
+#
+define
+nsHTMLAudioElement_h__
+#
 include
 "
 nsIDOMHTMLAudioElement
@@ -117,3 +127,5 @@ const
 ;
 }
 ;
+#
+endif

@@ -1,4 +1,14 @@
 #
+if
+!
+defined
+(
+nsHTMLVideoElement_h__
+)
+#
+define
+nsHTMLVideoElement_h__
+#
 include
 "
 nsIDOMHTMLVideoElement
@@ -126,3 +136,5 @@ defaultSize
 ;
 }
 ;
+#
+endif
