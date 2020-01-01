@@ -131,6 +131,17 @@ transparent
 "
 android
 :
+cacheColorHint
+=
+"
+android
+:
+color
+/
+transparent
+"
+android
+:
 childDivider
 =
 "
