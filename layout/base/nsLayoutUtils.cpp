@@ -4551,9 +4551,6 @@ else
 i
 -
 >
-nsDisplayItem
-:
-:
 ~
 nsDisplayItem
 (
