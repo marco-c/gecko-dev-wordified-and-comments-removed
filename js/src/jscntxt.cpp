@@ -4574,9 +4574,6 @@ Foreground
 :
 :
 delete_
-<
-ParseMapPool
->
 (
 parseMapPool_
 )
@@ -5207,9 +5204,6 @@ Foreground
 :
 :
 delete_
-<
-ParseMapPool
->
 (
 parseMapPool_
 )

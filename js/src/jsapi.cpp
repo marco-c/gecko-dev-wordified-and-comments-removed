@@ -548,6 +548,15 @@ js
 :
 types
 ;
+using
+js
+:
+:
+frontend
+:
+:
+Parser
+;
 class
 AutoVersionAPI
 {
@@ -32914,6 +32923,9 @@ false
 isIdentifier
 =
 js
+:
+:
+frontend
 :
 :
 IsIdentifier

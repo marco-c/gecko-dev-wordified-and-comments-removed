@@ -104,6 +104,13 @@ using
 namespace
 js
 ;
+using
+namespace
+js
+:
+:
+frontend
+;
 static
 ParseNode
 *
@@ -1959,7 +1966,7 @@ Unknown
 }
 }
 bool
-js
+frontend
 :
 :
 FoldConstants

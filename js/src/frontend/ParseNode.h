@@ -50,6 +50,9 @@ h
 namespace
 js
 {
+namespace
+frontend
+{
 class
 UpvarCookie
 {
@@ -5164,6 +5167,7 @@ const
 ;
 }
 ;
+}
 }
 #
 endif

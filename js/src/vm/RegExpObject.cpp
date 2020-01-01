@@ -85,6 +85,15 @@ detail
 :
 RegExpCode
 ;
+using
+js
+:
+:
+frontend
+:
+:
+TokenStream
+;
 JS_STATIC_ASSERT
 (
 IgnoreCaseFlag
