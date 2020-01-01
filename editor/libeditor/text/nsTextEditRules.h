@@ -191,7 +191,7 @@ nsEditor
 :
 OperationID
 aAction
-nsISelection
+nsTypedSelection
 *
 aSelection
 bool
@@ -236,7 +236,7 @@ aOutPreNode
 nsresult
 WillInsertBreak
 (
-nsISelection
+nsTypedSelection
 *
 aSelection
 bool
@@ -283,7 +283,7 @@ aResult
 nsresult
 WillDeleteSelection
 (
-nsISelection
+nsTypedSelection
 *
 aSelection
 nsIEditor
@@ -462,7 +462,7 @@ aSelection
 nsresult
 TruncateInsertionIfNeeded
 (
-nsISelection
+nsTypedSelection
 *
 aSelection
 const
