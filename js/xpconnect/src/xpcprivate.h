@@ -2021,6 +2021,10 @@ virtual
 void
 Collect
 (
+bool
+shrinkingGC
+=
+false
 )
 ;
 #

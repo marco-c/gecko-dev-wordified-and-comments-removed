@@ -156,6 +156,10 @@ virtual
 void
 Collect
 (
+bool
+shrinkingGC
+=
+false
 )
 =
 0

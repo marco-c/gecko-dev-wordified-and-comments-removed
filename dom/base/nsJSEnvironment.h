@@ -642,6 +642,10 @@ static
 void
 GarbageCollectNow
 (
+bool
+shrinkingGC
+=
+false
 )
 ;
 static

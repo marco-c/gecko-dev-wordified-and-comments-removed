@@ -611,6 +611,7 @@ nsJSContext
 :
 GarbageCollectNow
 (
+true
 )
 ;
 nsJSContext
@@ -12936,6 +12937,8 @@ nsJSContext
 :
 GarbageCollectNow
 (
+bool
+shrinkingGC
 )
 {
 NS_TIME_FUNCTION_MIN
@@ -12977,6 +12980,7 @@ XPConnect
 >
 GarbageCollect
 (
+shrinkingGC
 )
 ;
 }
