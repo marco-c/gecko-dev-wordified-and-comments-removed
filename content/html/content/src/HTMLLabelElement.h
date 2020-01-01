@@ -20,6 +20,13 @@ nsGenericHTMLElement
 .
 h
 "
+#
+include
+"
+nsIDOMHTMLLabelElement
+.
+h
+"
 namespace
 mozilla
 {
@@ -33,7 +40,7 @@ MOZ_FINAL
 public
 nsGenericHTMLFormElement
 public
-nsIDOMHTMLElement
+nsIDOMHTMLLabelElement
 {
 public
 :
@@ -70,6 +77,7 @@ label
 NS_DECL_ISUPPORTS_INHERITED
 NS_FORWARD_NSIDOMNODE_TO_NSINODE
 NS_FORWARD_NSIDOMELEMENT_TO_GENERIC
+NS_DECL_NSIDOMHTMLLABELELEMENT
 NS_FORWARD_NSIDOMHTMLELEMENT_TO_GENERIC
 using
 nsGenericHTMLFormElement

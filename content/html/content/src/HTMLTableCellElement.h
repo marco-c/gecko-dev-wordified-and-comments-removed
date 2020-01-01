@@ -20,6 +20,16 @@ nsGenericHTMLElement
 .
 h
 "
+#
+include
+"
+nsIDOMHTMLTableCellElement
+.
+h
+"
+class
+nsIDOMHTMLTableRowElement
+;
 namespace
 mozilla
 {
@@ -36,7 +46,7 @@ MOZ_FINAL
 public
 nsGenericHTMLElement
 public
-nsIDOMHTMLElement
+nsIDOMHTMLTableCellElement
 {
 public
 :
@@ -65,6 +75,7 @@ NS_DECL_ISUPPORTS_INHERITED
 NS_FORWARD_NSIDOMNODE_TO_NSINODE
 NS_FORWARD_NSIDOMELEMENT_TO_GENERIC
 NS_FORWARD_NSIDOMHTMLELEMENT_TO_GENERIC
+NS_DECL_NSIDOMHTMLTABLECELLELEMENT
 uint32_t
 ColSpan
 (

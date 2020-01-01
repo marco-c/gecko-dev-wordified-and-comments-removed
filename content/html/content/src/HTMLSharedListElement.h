@@ -32,6 +32,13 @@ h
 #
 include
 "
+nsIDOMHTMLDListElement
+.
+h
+"
+#
+include
+"
 nsIDOMHTMLUListElement
 .
 h
@@ -57,6 +64,8 @@ public
 nsGenericHTMLElement
 public
 nsIDOMHTMLOListElement
+public
+nsIDOMHTMLDListElement
 public
 nsIDOMHTMLUListElement
 {

@@ -287,9 +287,6 @@ partial
 interface
 HTMLHeadingElement
 {
-[
-SetterThrows
-]
 attribute
 DOMString
 align
