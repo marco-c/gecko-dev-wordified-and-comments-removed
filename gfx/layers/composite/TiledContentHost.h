@@ -609,7 +609,7 @@ this
 ;
 }
 virtual
-bool
+void
 EnsureTextureHost
 (
 TextureIdentifier
@@ -635,9 +635,6 @@ Does
 nothing
 "
 )
-;
-return
-false
 ;
 }
 virtual
