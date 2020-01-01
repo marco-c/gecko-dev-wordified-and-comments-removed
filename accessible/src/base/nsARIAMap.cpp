@@ -275,7 +275,10 @@ kUseMapRole
 eNoValue
 eNoAction
 eNoLiveAttr
-kGenericAccType
+Accessible
+:
+:
+eListAccessible
 kNoReqStates
 }
 {
@@ -450,7 +453,10 @@ kUseMapRole
 eNoValue
 eNoAction
 eNoLiveAttr
-kGenericAccType
+Accessible
+:
+:
+eListAccessible
 states
 :
 :

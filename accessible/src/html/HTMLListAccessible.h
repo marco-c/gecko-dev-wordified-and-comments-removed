@@ -51,6 +51,11 @@ aContent
 aDoc
 )
 {
+mFlags
+|
+=
+eListAccessible
+;
 }
 virtual
 ~
