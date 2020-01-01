@@ -8630,6 +8630,14 @@ aElement
 null
 )
 ;
+if
+(
+!
+style
+)
+return
+false
+;
 let
 isVisible
 =
