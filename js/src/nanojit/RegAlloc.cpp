@@ -28,14 +28,6 @@ i
 )
 const
 {
-NanoAssert
-(
-r
-!
-=
-deprecated_UnknownReg
-)
-;
 return
 (
 isFree
