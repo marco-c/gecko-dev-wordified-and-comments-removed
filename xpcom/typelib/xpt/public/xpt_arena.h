@@ -132,6 +132,17 @@ void
 block
 )
 ;
+XPT_PUBLIC_API
+(
+size_t
+)
+XPT_SizeOfArena
+(
+XPTArena
+*
+arena
+)
+;
 #
 define
 XPT_MALLOC
