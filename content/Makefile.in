@@ -104,13 +104,6 @@ PARALLEL_DIRS
 media
 endif
 ifdef
-MOZ_XTF
-PARALLEL_DIRS
-+
-=
-xtf
-endif
-ifdef
 ENABLE_TESTS
 TOOL_DIRS
 +

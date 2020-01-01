@@ -752,13 +752,6 @@ BINPATH
 /
 components
 /
-content_xtf
-.
-xpt
-BINPATH
-/
-components
-/
 cookie
 .
 xpt
