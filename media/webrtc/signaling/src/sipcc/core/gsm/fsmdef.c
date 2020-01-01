@@ -11047,7 +11047,7 @@ cause
 gsmsdp_create_local_sdp
 (
 dcb
-TRUE
+FALSE
 has_audio
 has_video
 has_data
