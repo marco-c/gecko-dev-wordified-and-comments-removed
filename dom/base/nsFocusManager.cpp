@@ -3247,6 +3247,15 @@ window
 return
 NS_OK
 ;
+nsIPresShell
+:
+:
+SetCapturingContent
+(
+nsnull
+0
+)
+;
 window
 -
 >
