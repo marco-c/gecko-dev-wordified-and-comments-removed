@@ -99,10 +99,6 @@ error_
 (
 false
 )
-cancelBuild_
-(
-0
-)
 {
 }
 bool

@@ -187,12 +187,9 @@ thread
 bool
 terminate
 ;
-ion
-:
-:
-IonBuilder
+JSScript
 *
-ionBuilder
+ionScript
 ;
 void
 destroy

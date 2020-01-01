@@ -34,9 +34,6 @@ graph
 bool
 EliminatePhis
 (
-MIRGenerator
-*
-mir
 MIRGraph
 &
 graph
@@ -45,9 +42,6 @@ graph
 bool
 EliminateDeadCode
 (
-MIRGenerator
-*
-mir
 MIRGraph
 &
 graph
@@ -56,9 +50,6 @@ graph
 bool
 ApplyTypeInformation
 (
-MIRGenerator
-*
-mir
 MIRGraph
 &
 graph
