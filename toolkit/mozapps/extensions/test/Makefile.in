@@ -474,8 +474,6 @@ DIRS
 +
 =
 \
-xpinstall
-\
 mochitest
 \
 (
