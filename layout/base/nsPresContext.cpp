@@ -9401,7 +9401,6 @@ CancelDidPaintTimer
 (
 )
 ;
-}
 if
 (
 !
@@ -9410,6 +9409,7 @@ mFireAfterPaintEvents
 {
 return
 ;
+}
 }
 if
 (
