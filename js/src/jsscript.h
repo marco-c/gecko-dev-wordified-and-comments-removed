@@ -1635,7 +1635,7 @@ version
 public
 :
 uint16_t
-ndefaults
+funLength
 ;
 uint16_t
 nfixed
