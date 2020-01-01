@@ -2171,6 +2171,12 @@ divToPElements
 1
 )
 {
+if
+(
+!
+isChecking
+)
+{
 let
 newNode
 =
@@ -2206,6 +2212,7 @@ nodeIndex
 =
 1
 ;
+}
 nodesToScore
 [
 nodesToScore
@@ -2217,6 +2224,11 @@ node
 ;
 }
 else
+if
+(
+!
+isChecking
+)
 {
 for
 (
@@ -2226,7 +2238,7 @@ i
 0
 il
 =
-doc
+node
 .
 childNodes
 .
@@ -7361,10 +7373,6 @@ _flags
 this
 .
 FLAG_READABILITY_CHECK
-|
-this
-.
-FLAG_STRIP_UNLIKELYS
 ;
 return
 (
