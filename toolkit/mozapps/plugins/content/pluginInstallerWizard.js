@@ -2855,6 +2855,16 @@ this
 getChromeLocale
 (
 )
++
+"
+&
+appRelease
+=
+"
++
+app
+.
+version
 ;
 document
 .

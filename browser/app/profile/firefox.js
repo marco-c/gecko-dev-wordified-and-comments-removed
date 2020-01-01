@@ -4160,6 +4160,12 @@ chromeLocale
 %
 CHROME_LOCALE
 %
+&
+appRelease
+=
+%
+APP_RELEASE
+%
 "
 )
 ;
