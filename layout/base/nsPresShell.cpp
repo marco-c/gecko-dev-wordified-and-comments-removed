@@ -24665,16 +24665,6 @@ aBuilder
 aFrame
 aBounds
 bgcolor
-!
-!
-(
-aFlags
-&
-nsIPresShell
-:
-:
-ROOT_CONTENT_DOC_BG
-)
 )
 )
 ;
