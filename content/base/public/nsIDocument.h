@@ -5433,12 +5433,17 @@ nsIDOMTouch
 aTouches
 )
 ;
+virtual
 nsHTMLDocument
 *
 AsHTMLDocument
 (
 )
+{
+return
+nullptr
 ;
+}
 private
 :
 uint64_t
