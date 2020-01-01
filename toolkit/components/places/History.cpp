@@ -11535,7 +11535,6 @@ uri
 return
 NS_ERROR_INVALID_ARG
 ;
-*
 placesInfo
 .
 AppendElement
