@@ -921,6 +921,10 @@ test_load_source
 .
 html
 \
+test_loop
+.
+html
+\
 test_media_selection
 .
 html
