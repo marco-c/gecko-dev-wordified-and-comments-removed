@@ -1826,7 +1826,6 @@ LIns
 guard
 )
 ;
-static
 RegisterMask
 nHints
 [
