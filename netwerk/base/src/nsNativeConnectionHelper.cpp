@@ -19,7 +19,7 @@ nsNativeConnectionHelper
 OnConnectionFailed
 (
 const
-PRUnichar
+char
 *
 hostName
 )

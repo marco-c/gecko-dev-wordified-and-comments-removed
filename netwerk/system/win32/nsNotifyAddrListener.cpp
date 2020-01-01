@@ -219,9 +219,8 @@ return
 ;
 sIPHelper
 =
-LoadLibraryW
+LoadLibraryA
 (
-L
 "
 iphlpapi
 .
