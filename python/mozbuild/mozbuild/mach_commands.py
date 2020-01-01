@@ -771,6 +771,11 @@ successful
 )
         
 if
+not
+what
+:
+            
+if
 self
 .
 substs
@@ -787,7 +792,7 @@ mobile
 android
 '
 :
-            
+                
 app_path
 =
 self
@@ -798,7 +803,7 @@ get_binary_path
 app
 '
 )
-            
+                
 print
 (
 '
@@ -818,11 +823,6 @@ s
 %
 app_path
 )
-        
-if
-not
-what
-:
             
 app
 =
