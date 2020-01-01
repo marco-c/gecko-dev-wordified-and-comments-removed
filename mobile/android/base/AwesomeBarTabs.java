@@ -210,15 +210,6 @@ TextView
 import
 java
 .
-lang
-.
-ref
-.
-WeakReference
-;
-import
-java
-.
 util
 .
 Date
