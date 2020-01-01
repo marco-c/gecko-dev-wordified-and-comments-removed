@@ -1045,6 +1045,7 @@ js_parseFloat_str
 num_parseFloat
 1
 0
+&
 num_parseFloat_trcinfo
 )
 JS_TN
@@ -1053,6 +1054,7 @@ js_parseInt_str
 num_parseInt
 2
 0
+&
 num_parseInt_trcinfo
 )
 JS_FS_END
@@ -2975,6 +2977,7 @@ js_toString_str
 num_toString
 1
 JSFUN_THISP_NUMBER
+&
 num_toString_trcinfo
 )
 JS_FN
