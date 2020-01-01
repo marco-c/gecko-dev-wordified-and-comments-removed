@@ -23474,9 +23474,17 @@ if
 !
 container
 )
+{
+result
+.
+mIsStillLoading
+=
+true
+;
 return
 result
 ;
+}
 gfxIntSize
 size
 ;
