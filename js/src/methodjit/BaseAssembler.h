@@ -3800,6 +3800,9 @@ dataReg
 )
 ;
 }
+#
+ifdef
+JS_METHODJIT_TYPED_ARRAY
 template
 <
 typename
@@ -5230,6 +5233,8 @@ this
 )
 ;
 }
+#
+endif
 Address
 objPropAddress
 (

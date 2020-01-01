@@ -3465,6 +3465,9 @@ jsop_setelem_dense
 (
 )
 ;
+#
+ifdef
+JS_METHODJIT_TYPED_ARRAY
 void
 jsop_setelem_typed
 (
@@ -3485,6 +3488,8 @@ bool
 allocated
 )
 ;
+#
+endif
 bool
 jsop_setelem
 (
@@ -3511,6 +3516,9 @@ jsop_getelem_args
 (
 )
 ;
+#
+ifdef
+JS_METHODJIT_TYPED_ARRAY
 void
 jsop_getelem_typed
 (
@@ -3518,6 +3526,8 @@ int
 atype
 )
 ;
+#
+endif
 bool
 isCacheableBaseAndIndex
 (

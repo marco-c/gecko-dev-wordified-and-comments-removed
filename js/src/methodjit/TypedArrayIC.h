@@ -40,7 +40,7 @@ mjit
 {
 #
 ifdef
-JS_POLYIC_TYPED_ARRAY
+JS_METHODJIT_TYPED_ARRAY
 typedef
 JSC
 :
