@@ -48,7 +48,7 @@ mozilla
 namespace
 jetpack
 {
-struct
+class
 KeyValue
 ;
 class
