@@ -627,6 +627,10 @@ test_third_party
 .
 html
 \
+test_traffic_jam
+.
+html
+\
 test_transaction_abort
 .
 html

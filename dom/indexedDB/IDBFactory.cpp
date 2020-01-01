@@ -2012,7 +2012,6 @@ CheckPermissionsHelper
 (
 openHelper
 window
-aName
 origin
 )
 ;
@@ -2042,8 +2041,13 @@ mgr
 >
 WaitForOpenAllowed
 (
-aName
 origin
+openHelper
+-
+>
+Id
+(
+)
 permissionHelper
 )
 ;

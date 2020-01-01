@@ -815,13 +815,8 @@ null
 ;
 rv
 =
-mgr
--
->
-WaitForOpenAllowed
+NS_DispatchToCurrentThread
 (
-mName
-mASCIIOrigin
 this
 )
 ;
