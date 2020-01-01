@@ -5200,6 +5200,10 @@ NS_STYLE_BOX_SIZING_CONTENT
 #
 ifdef
 MOZ_FLEXBOX
+mAlignItems
+=
+NS_STYLE_ALIGN_ITEMS_INITIAL_VALUE
+;
 mFlexDirection
 =
 NS_STYLE_FLEX_DIRECTION_ROW
@@ -5338,6 +5342,14 @@ nsChangeHint_ReflowFrame
 }
 if
 (
+mAlignItems
+!
+=
+aOther
+.
+mAlignItems
+|
+|
 mFlexDirection
 !
 =

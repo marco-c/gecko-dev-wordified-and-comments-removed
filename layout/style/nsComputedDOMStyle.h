@@ -1599,6 +1599,12 @@ ifdef
 MOZ_FLEXBOX
 nsIDOMCSSValue
 *
+DoGetAlignItems
+(
+)
+;
+nsIDOMCSSValue
+*
 DoGetFlexDirection
 (
 )

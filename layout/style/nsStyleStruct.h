@@ -4205,6 +4205,9 @@ mBoxSizing
 ifdef
 MOZ_FLEXBOX
 PRUint8
+mAlignItems
+;
+PRUint8
 mFlexDirection
 ;
 PRUint8

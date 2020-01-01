@@ -1257,6 +1257,13 @@ MOZ_FLEXBOX
 static
 const
 PRInt32
+kAlignItemsKTable
+[
+]
+;
+static
+const
+PRInt32
 kFlexDirectionKTable
 [
 ]
