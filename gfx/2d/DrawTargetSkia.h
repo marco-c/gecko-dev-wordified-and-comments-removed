@@ -45,13 +45,6 @@ using
 namespace
 std
 ;
-#
-include
-"
-gfxImageSurface
-.
-h
-"
 namespace
 mozilla
 {
@@ -630,12 +623,6 @@ SkRefPtr
 SkDevice
 >
 mDevice
-;
-nsRefPtr
-<
-gfxImageSurface
->
-mImageSurface
 ;
 vector
 <
