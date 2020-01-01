@@ -5483,6 +5483,10 @@ GetNumberOfOptions
 ;
 }
 }
+mNeedToReset
+=
+PR_TRUE
+;
 if
 (
 !
@@ -5493,10 +5497,6 @@ return
 NS_OK
 ;
 }
-mNeedToReset
-=
-PR_TRUE
-;
 mPostChildrenLoadedReset
 =
 mIsAllContentHere
