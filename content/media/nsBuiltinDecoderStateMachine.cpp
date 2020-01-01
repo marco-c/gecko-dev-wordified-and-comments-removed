@@ -9877,7 +9877,7 @@ NS_ERROR_FAILURE
 }
 aUsecs
 =
-NS_MAX
+PR_MAX
 (
 aUsecs
 0

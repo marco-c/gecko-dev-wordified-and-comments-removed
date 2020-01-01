@@ -1646,7 +1646,7 @@ Size
 (
 )
 /
-NS_MAX
+PR_MAX
 (
 1
 entry
