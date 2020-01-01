@@ -94,7 +94,7 @@ JS_PUBLIC_API
 (
 void
 )
-JS_INIT_NAMED_ARENA_POOL
+JS_InitArenaPool
 (
 JSArenaPool
 *

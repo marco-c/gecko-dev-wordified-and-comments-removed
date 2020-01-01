@@ -1776,7 +1776,7 @@ VOUCH_DOES_NOT_REQUIRE_STACK
 (
 )
 ;
-JS_INIT_ARENA_POOL
+JS_InitArenaPool
 (
 &
 cx
@@ -1798,7 +1798,7 @@ cx
 scriptStackQuota
 )
 ;
-JS_INIT_ARENA_POOL
+JS_InitArenaPool
 (
 &
 cx

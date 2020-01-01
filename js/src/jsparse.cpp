@@ -3607,7 +3607,7 @@ lineno
 return
 NULL
 ;
-JS_INIT_ARENA_POOL
+JS_InitArenaPool
 (
 &
 codePool
@@ -3626,7 +3626,7 @@ cx
 scriptStackQuota
 )
 ;
-JS_INIT_ARENA_POOL
+JS_InitArenaPool
 (
 &
 notePool
@@ -7064,7 +7064,7 @@ JSArenaPool
 codePool
 notePool
 ;
-JS_INIT_ARENA_POOL
+JS_InitArenaPool
 (
 &
 codePool
@@ -7083,7 +7083,7 @@ cx
 scriptStackQuota
 )
 ;
-JS_INIT_ARENA_POOL
+JS_InitArenaPool
 (
 &
 notePool
