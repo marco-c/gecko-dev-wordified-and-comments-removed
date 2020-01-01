@@ -2035,6 +2035,14 @@ Monitor
 ;
 if
 (
+worker
+-
+>
+IsSuspended
+(
+)
+&
+&
 !
 worker
 -
