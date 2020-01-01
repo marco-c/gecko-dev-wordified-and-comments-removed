@@ -2039,10 +2039,10 @@ mFrontBufferDescriptor
 =
 SharedTextureDescriptor
 (
-GLContext
+TextureImage
 :
 :
-SameProcess
+ThreadShared
 0
 nsIntSize
 (

@@ -672,10 +672,10 @@ mSharedHandle
 gl
 :
 :
-GLContext
+TextureImage
 :
 :
-SharedTextureShareType
+TextureShareType
 mShareType
 ;
 bool

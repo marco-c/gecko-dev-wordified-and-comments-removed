@@ -101,10 +101,6 @@ GLContext
 .
 h
 \
-GLContextTypes
-.
-h
-\
 GLContextSymbols
 .
 h
@@ -122,10 +118,6 @@ GLLibraryLoader
 h
 \
 ForceDiscreteGPUHelperCGL
-.
-h
-\
-GLTextureImage
 .
 h
 \
@@ -203,10 +195,6 @@ GLContextUtils
 cpp
 \
 GLLibraryLoader
-.
-cpp
-\
-GLTextureImage
 .
 cpp
 \
