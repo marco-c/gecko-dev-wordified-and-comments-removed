@@ -3609,7 +3609,7 @@ DrawTargetCairo
 target
 -
 >
-Init
+InitAlreadyReferenced
 (
 similar
 aSize
