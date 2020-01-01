@@ -92,6 +92,14 @@ NULL
 )
 include
 (
+srcdir
+)
+/
+html
+.
+mk
+include
+(
 DEPTH
 )
 /
