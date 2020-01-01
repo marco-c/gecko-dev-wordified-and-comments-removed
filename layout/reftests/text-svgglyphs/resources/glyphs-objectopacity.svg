@@ -34,12 +34,12 @@ Covers
 glyph
 ID
 range
-52
+53
 (
 R
 )
 to
-59
+60
 (
 Y
 )
@@ -123,7 +123,7 @@ opacity
 id
 =
 "
-glyph52
+glyph53
 "
 /
 >
@@ -204,7 +204,7 @@ opacity
 id
 =
 "
-glyph53
+glyph54
 "
 /
 >
@@ -285,7 +285,7 @@ opacity
 id
 =
 "
-glyph54
+glyph55
 "
 /
 >
@@ -412,7 +412,7 @@ inherit
 id
 =
 "
-glyph55
+glyph56
 "
 /
 >
@@ -493,7 +493,7 @@ opacity
 id
 =
 "
-glyph57
+glyph58
 "
 /
 >
@@ -570,7 +570,7 @@ opacity
 id
 =
 "
-glyph58
+glyph59
 "
 /
 >
@@ -590,7 +590,7 @@ css
 CDATA
 [
 #
-glyph59
+glyph60
 {
 fill
 -
@@ -643,7 +643,7 @@ g
 id
 =
 "
-glyph59
+glyph60
 "
 >
 <
