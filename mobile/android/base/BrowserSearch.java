@@ -2799,9 +2799,9 @@ break
 case
 FAVICONS_LOADER_ID
 :
-mList
+mAdapter
 .
-requestLayout
+notifyDataSetChanged
 (
 )
 ;
