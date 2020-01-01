@@ -3655,9 +3655,9 @@ js_DestroyScriptsToGC
 JSContext
 *
 cx
-JSThreadData
+JSCompartment
 *
-data
+comp
 )
 ;
 namespace

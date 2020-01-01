@@ -66,6 +66,13 @@ h
 #
 include
 "
+jscompartment
+.
+h
+"
+#
+include
+"
 Writer
 .
 h
@@ -8153,6 +8160,9 @@ extern
 bool
 OverfullJITCache
 (
+JSContext
+*
+cx
 TraceMonitor
 *
 tm
