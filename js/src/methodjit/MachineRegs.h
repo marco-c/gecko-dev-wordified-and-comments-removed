@@ -2429,7 +2429,7 @@ tempCallReg
 Registers
 regs
 (
-AvailRegs
+TempRegs
 )
 ;
 regs
