@@ -13920,7 +13920,7 @@ ph
 ;
 if
 (
-InstIsGuard
+InstIsArtificialGuard
 (
 i
 &
