@@ -5065,11 +5065,14 @@ aProfileDir
 :
 updateService
 .
-scheduleUpdate
+scheduleAppUpdate
 (
 appcacheURI
 docURI
-null
+aApp
+.
+localId
+false
 )
 ;
 cacheUpdate
