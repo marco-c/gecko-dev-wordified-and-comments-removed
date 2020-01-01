@@ -113,6 +113,11 @@ foundHandler
 )
 ;
 const
+EXPECTED_SESSION_ID
+=
+1
+;
+const
 STATUS
 =
 {
@@ -474,7 +479,7 @@ nsINavHistoryService
 TRANSITION_LINK
 session
 :
-2
+EXPECTED_SESSION_ID
 }
 {
 id
@@ -495,7 +500,7 @@ nsINavHistoryService
 TRANSITION_REDIRECT_PERMANENT
 session
 :
-2
+EXPECTED_SESSION_ID
 }
 {
 id
@@ -516,7 +521,7 @@ nsINavHistoryService
 TRANSITION_REDIRECT_TEMPORARY
 session
 :
-2
+EXPECTED_SESSION_ID
 }
 ]
 ;

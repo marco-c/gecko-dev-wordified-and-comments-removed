@@ -1827,13 +1827,6 @@ rv
 rv
 )
 ;
-(
-void
-)
-GetNewSessionID
-(
-)
-;
 nsRefPtr
 <
 PlacesEvent
