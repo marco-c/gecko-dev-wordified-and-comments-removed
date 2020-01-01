@@ -6373,7 +6373,7 @@ script
 vector
 =
 (
-uint
+uint32
 *
 )
 cursor
