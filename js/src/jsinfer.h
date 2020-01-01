@@ -3561,9 +3561,6 @@ newTypeObject
 JSContext
 *
 cx
-JSScript
-*
-script
 JSProtoKey
 kind
 HandleObject
