@@ -4547,10 +4547,10 @@ stopPropagation
 )
 ;
 }
-onDragLeave
+onDragExit
 :
 function
-PMDH_onDragLeave
+PMDH_onDragExit
 (
 event
 )

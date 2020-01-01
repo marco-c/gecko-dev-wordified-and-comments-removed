@@ -15285,7 +15285,7 @@ link
 "
 ;
 }
-onDragLeave
+onDragExit
 :
 function
 (
@@ -15530,7 +15530,7 @@ link
 "
 ;
 }
-onDragLeave
+onDragExit
 :
 function
 (
@@ -15569,7 +15569,7 @@ droponnewtabbutton
 )
 ;
 }
-onDragLeave
+onDragExit
 :
 function
 (
@@ -15659,7 +15659,7 @@ droponnewwindowbutton
 )
 ;
 }
-onDragLeave
+onDragExit
 :
 function
 (
@@ -15810,7 +15810,7 @@ preventDefault
 )
 ;
 }
-onDragLeave
+onDragExit
 :
 function
 (

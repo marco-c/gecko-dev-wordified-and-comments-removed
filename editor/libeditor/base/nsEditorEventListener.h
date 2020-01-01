@@ -260,7 +260,7 @@ aDragEvent
 )
 ;
 nsresult
-DragLeave
+DragExit
 (
 nsIDOMDragEvent
 *

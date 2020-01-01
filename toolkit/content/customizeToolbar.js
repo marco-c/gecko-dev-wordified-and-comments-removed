@@ -633,9 +633,9 @@ i
 addEventListener
 (
 "
-dragleave
+dragexit
 "
-onToolbarDragLeave
+onToolbarDragExit
 true
 )
 ;
@@ -1014,9 +1014,9 @@ i
 removeEventListener
 (
 "
-dragleave
+dragexit
 "
-onToolbarDragLeave
+onToolbarDragExit
 true
 )
 ;
@@ -3925,7 +3925,7 @@ toolbarspacer
 ;
 }
 function
-onToolbarDragLeave
+onToolbarDragExit
 (
 aEvent
 )

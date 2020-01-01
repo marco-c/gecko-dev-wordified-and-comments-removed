@@ -581,7 +581,7 @@ this
 NS_LITERAL_STRING
 (
 "
-dragleave
+dragexit
 "
 )
 NS_EVENT_FLAG_BUBBLE
@@ -951,7 +951,7 @@ this
 NS_LITERAL_STRING
 (
 "
-dragleave
+dragexit
 "
 )
 NS_EVENT_FLAG_BUBBLE
@@ -1258,12 +1258,12 @@ eventType
 EqualsLiteral
 (
 "
-dragleave
+dragexit
 "
 )
 )
 return
-DragLeave
+DragExit
 (
 dragEvent
 )
@@ -2370,7 +2370,7 @@ nsresult
 nsEditorEventListener
 :
 :
-DragLeave
+DragExit
 (
 nsIDOMDragEvent
 *
