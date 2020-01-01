@@ -52,6 +52,9 @@ if
 click
 '
 '
+dblclick
+'
+'
 mousedown
 '
 '
@@ -211,6 +214,17 @@ mouseup
 '
 ?
 1
+:
+aEvent
+.
+type
+=
+=
+'
+dblclick
+'
+?
+2
 :
 0
 )
