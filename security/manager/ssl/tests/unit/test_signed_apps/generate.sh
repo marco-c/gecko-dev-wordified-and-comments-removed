@@ -371,6 +371,12 @@ unsigned_zip
 -
 o
 out_signed_zip
+-
+S
+test_app_identifier
+-
+V
+1
 }
 rm
 -
