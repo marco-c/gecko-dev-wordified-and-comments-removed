@@ -113,7 +113,7 @@ h
 #
 include
 "
-nsIPrefBranch2
+nsIPrefBranch
 .
 h
 "
@@ -954,7 +954,7 @@ InitUserAgentComponents
 ;
 nsCOMPtr
 <
-nsIPrefBranch2
+nsIPrefBranch
 >
 prefBranch
 =

@@ -101,7 +101,7 @@ h
 #
 include
 "
-nsIPrefBranch2
+nsIPrefBranch
 .
 h
 "
@@ -1223,7 +1223,7 @@ NS_ERROR_OUT_OF_MEMORY
 ;
 nsCOMPtr
 <
-nsIPrefBranch2
+nsIPrefBranch
 >
 prefBranch
 =

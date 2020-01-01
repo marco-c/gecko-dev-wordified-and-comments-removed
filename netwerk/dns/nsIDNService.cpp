@@ -50,13 +50,6 @@ h
 #
 include
 "
-nsIPrefBranch2
-.
-h
-"
-#
-include
-"
 nsIObserverService
 .
 h
@@ -218,7 +211,7 @@ mIDNWhitelistPrefBranch
 ;
 nsCOMPtr
 <
-nsIPrefBranch2
+nsIPrefBranch
 >
 prefInternal
 (

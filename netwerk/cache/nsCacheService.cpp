@@ -117,13 +117,6 @@ h
 #
 include
 "
-nsIPrefBranch2
-.
-h
-"
-#
-include
-"
 nsILocalFile
 .
 h
@@ -988,7 +981,7 @@ mSmartSize
 ;
 nsCOMPtr
 <
-nsIPrefBranch2
+nsIPrefBranch
 >
 ps
 =
@@ -1255,7 +1248,7 @@ rv
 }
 nsCOMPtr
 <
-nsIPrefBranch2
+nsIPrefBranch
 >
 branch
 =
@@ -1453,7 +1446,7 @@ i
 }
 nsCOMPtr
 <
-nsIPrefBranch2
+nsIPrefBranch
 >
 prefs
 =

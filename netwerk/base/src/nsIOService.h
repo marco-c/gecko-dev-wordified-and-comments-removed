@@ -206,9 +206,6 @@ class
 nsIPrefBranch
 ;
 class
-nsIPrefBranch2
-;
-class
 nsIOService
 :
 public
@@ -413,7 +410,7 @@ void
 )
 GetPrefBranch
 (
-nsIPrefBranch2
+nsIPrefBranch
 *
 *
 )

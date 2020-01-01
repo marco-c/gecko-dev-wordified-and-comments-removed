@@ -37,7 +37,7 @@ h
 #
 include
 "
-nsIPrefBranch2
+nsIPrefBranch
 .
 h
 "
@@ -192,7 +192,7 @@ this
 ;
 nsCOMPtr
 <
-nsIPrefBranch2
+nsIPrefBranch
 >
 prefBranch
 =

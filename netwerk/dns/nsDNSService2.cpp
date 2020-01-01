@@ -43,13 +43,6 @@ h
 #
 include
 "
-nsIPrefBranch2
-.
-h
-"
-#
-include
-"
 nsIServiceManager
 .
 h
@@ -1409,7 +1402,7 @@ ipv4OnlyDomains
 ;
 nsCOMPtr
 <
-nsIPrefBranch2
+nsIPrefBranch
 >
 prefs
 =
