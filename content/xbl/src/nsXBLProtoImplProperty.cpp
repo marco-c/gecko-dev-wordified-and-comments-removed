@@ -1043,11 +1043,6 @@ setVersion
 (
 JSVERSION_LATEST
 )
-.
-setUserBit
-(
-true
-)
 ;
 nsCString
 name
@@ -1273,11 +1268,6 @@ GetLineNumber
 setVersion
 (
 JSVERSION_LATEST
-)
-.
-setUserBit
-(
-true
 )
 ;
 nsCString

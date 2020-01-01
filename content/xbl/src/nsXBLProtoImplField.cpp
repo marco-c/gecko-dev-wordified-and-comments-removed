@@ -2019,11 +2019,6 @@ setVersion
 (
 JSVERSION_LATEST
 )
-.
-setUserBit
-(
-true
-)
 ;
 rv
 =

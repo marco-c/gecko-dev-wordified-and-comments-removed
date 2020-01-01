@@ -938,11 +938,6 @@ setVersion
 (
 JSVERSION_LATEST
 )
-.
-setUserBit
-(
-true
-)
 ;
 JS
 :
