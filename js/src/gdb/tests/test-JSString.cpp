@@ -14,6 +14,15 @@ jsatom
 .
 h
 "
+#
+include
+"
+vm
+/
+String
+.
+h
+"
 FRAGMENT
 (
 JSString
