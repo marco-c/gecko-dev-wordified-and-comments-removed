@@ -542,6 +542,7 @@ browser
 startup
 ;
 1
+category
 agent
 -
 style
@@ -563,6 +564,7 @@ content
 content
 .
 css
+category
 agent
 -
 style
