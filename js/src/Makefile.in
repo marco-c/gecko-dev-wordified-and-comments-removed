@@ -1820,6 +1820,8 @@ NULL
 )
 #
 Ion
+ifdef
+ENABLE_ION
 VPATH
 +
 =
@@ -1914,6 +1916,9 @@ cpp
 (
 NULL
 )
+endif
+#
+ENABLE_ION
 ifeq
 (
 86
@@ -2055,6 +2060,8 @@ s
 endif
 endif
 endif
+ifdef
+ENABLE_ION
 ifeq
 (
 arm
@@ -2088,6 +2095,9 @@ arm
 .
 cpp
 endif
+endif
+#
+ENABLE_ION
 ifeq
 (
 sparc
