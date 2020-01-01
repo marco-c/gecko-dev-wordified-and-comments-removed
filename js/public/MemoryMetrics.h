@@ -235,7 +235,11 @@ this
 }
 void
 *
-extra
+extra1
+;
+void
+*
+extra2
 ;
 size_t
 gcHeapArenaAdmin
