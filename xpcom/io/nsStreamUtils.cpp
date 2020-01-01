@@ -2858,7 +2858,7 @@ aNewBytes
 }
 aDest
 .
-SetLength
+SetLengthAndRetainStorage
 (
 aKeep
 +
