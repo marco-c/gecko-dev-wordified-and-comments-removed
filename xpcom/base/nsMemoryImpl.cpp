@@ -612,7 +612,7 @@ now
 sLastFlushTime
 )
 >
-100
+1000
 )
 {
 sFlushEvent
