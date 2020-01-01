@@ -2018,11 +2018,12 @@ init
 (
 status
 url
-)
-.
-then
-(
 function
+(
+aUrl
+)
+{
+if
 (
 aUrl
 )
@@ -2035,9 +2036,7 @@ aUrl
 )
 ;
 }
-function
-(
-)
+else
 {
 let
 uri
@@ -2104,6 +2103,7 @@ quit
 (
 )
 ;
+}
 }
 )
 ;
