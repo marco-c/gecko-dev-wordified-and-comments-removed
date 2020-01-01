@@ -4746,6 +4746,11 @@ thread
 "
 )
 ;
+MOZ_ASSERT
+(
+principal
+)
+;
 JSObject
 *
 global

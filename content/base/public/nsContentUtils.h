@@ -1093,6 +1093,16 @@ GetSubjectPrincipal
 )
 ;
 static
+nsIPrincipal
+*
+GetObjectPrincipal
+(
+JSObject
+*
+aObj
+)
+;
+static
 nsresult
 GenerateStateKey
 (
