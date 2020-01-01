@@ -182,6 +182,11 @@ false
 )
 ;
 void
+nsCycleCollector_dispatchDeferredDeletion
+(
+)
+;
+void
 nsCycleCollector_collect
 (
 bool

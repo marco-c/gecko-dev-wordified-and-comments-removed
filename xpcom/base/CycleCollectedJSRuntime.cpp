@@ -1096,7 +1096,7 @@ NS_METHOD_
 (
 void
 )
-UnmarkIfPurpleImpl
+DeleteCycleCollectableImpl
 (
 void
 *

@@ -12625,6 +12625,10 @@ sCCTimer
 return
 ;
 }
+nsCycleCollector_dispatchDeferredDeletion
+(
+)
+;
 sCCTimer
 -
 >

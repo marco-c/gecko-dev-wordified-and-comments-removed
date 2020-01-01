@@ -123,7 +123,7 @@ NS_METHOD_
 (
 void
 )
-UnmarkIfPurpleImpl
+DeleteCycleCollectableImpl
 (
 void
 *
@@ -200,7 +200,7 @@ NS_METHOD_
 (
 void
 )
-UnmarkIfPurpleImpl
+DeleteCycleCollectableImpl
 (
 void
 *

@@ -171,9 +171,10 @@ NS_StringGetIsVoid
 NS_CStringSetIsVoid
 &
 NS_CStringGetIsVoid
-&
-NS_CycleCollectorSuspect2
 nullptr
+nullptr
+&
+NS_CycleCollectorSuspect3
 }
 ;
 EXPORT_XPCOM_API

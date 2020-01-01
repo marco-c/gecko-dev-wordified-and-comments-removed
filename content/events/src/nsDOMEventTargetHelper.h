@@ -597,6 +597,13 @@ nsIDOMEvent
 aEvent
 )
 ;
+virtual
+void
+LastRelease
+(
+)
+{
+}
 private
 :
 nsIGlobalObject
