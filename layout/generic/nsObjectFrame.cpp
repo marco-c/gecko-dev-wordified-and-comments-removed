@@ -4839,6 +4839,13 @@ nsIRenderingContext
 NATIVE_WINDOWS_DC
 )
 ;
+if
+(
+!
+dc
+)
+return
+;
 npprint
 .
 print
