@@ -968,6 +968,11 @@ allowMixedContent
 =
 false
 ;
+bool
+isRootDocShell
+=
+false
+;
 rv
 =
 docShell
@@ -979,6 +984,8 @@ GetAllowMixedContentAndConnectionData
 rootHasSecureConnection
 &
 allowMixedContent
+&
+isRootDocShell
 )
 ;
 if
