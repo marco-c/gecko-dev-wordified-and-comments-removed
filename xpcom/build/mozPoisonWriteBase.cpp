@@ -326,7 +326,7 @@ vector
 <
 int
 >
-&
+*
 getDebugFDs
 (
 )
@@ -364,7 +364,6 @@ int
 )
 ;
 return
-*
 DebugFDs
 ;
 }
@@ -603,11 +602,14 @@ InitWritePoisoning
 (
 )
 {
-DebugFDAutoLock
-:
-:
-getDebugFDsLock
+MozillaRegisterDebugFD
 (
+1
+)
+;
+MozillaRegisterDebugFD
+(
+2
 )
 ;
 nsCOMPtr
@@ -1227,7 +1229,6 @@ DebugFDAutoLock
 lockedScope
 ;
 delete
-&
 getDebugFDs
 (
 )
@@ -1297,6 +1298,7 @@ int
 &
 Vec
 =
+*
 getDebugFDs
 (
 )
@@ -1363,6 +1365,7 @@ int
 &
 Vec
 =
+*
 getDebugFDs
 (
 )
@@ -1478,6 +1481,7 @@ int
 &
 Vec
 =
+*
 getDebugFDs
 (
 )
