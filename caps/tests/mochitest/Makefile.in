@@ -115,6 +115,15 @@ html
 (
 NULL
 )
+MOCHITEST_CHROME_FILES
+=
+test_principal_extendedorigin_appid_appstatus
+.
+html
+\
+(
+NULL
+)
 test_bug292789
 .
 html
