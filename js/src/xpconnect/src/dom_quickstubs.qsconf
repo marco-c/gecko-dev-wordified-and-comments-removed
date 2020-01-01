@@ -1744,6 +1744,11 @@ nsIDOMNSEvent
 preventCapture
 '
 '
+nsIDOMNSEvent
+.
+getPreventDefault
+'
+'
 nsIDOMKeyEvent
 .
 ctrlKey
@@ -1797,11 +1802,6 @@ newValue
 nsIDOMMutationEvent
 .
 prevValue
-'
-'
-nsIDOMNSUIEvent
-.
-getPreventDefault
 '
 '
 nsIDOMNSUIEvent
