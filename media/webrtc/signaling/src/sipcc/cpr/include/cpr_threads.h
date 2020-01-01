@@ -74,6 +74,13 @@ void
 data
 )
 ;
+void
+cprJoinThread
+(
+cprThread_t
+thread
+)
+;
 cprRC_t
 cprDestroyThread
 (
