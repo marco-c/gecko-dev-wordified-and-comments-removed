@@ -118,6 +118,12 @@ protected
 bool
 GetJSVal
 (
+JSContext
+*
+aCx
+JSAutoEnterCompartment
+&
+aAc
 jsval
 *
 aJSVal

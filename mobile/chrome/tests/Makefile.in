@@ -514,6 +514,10 @@ browser_addons
 .
 js
 \
+browser_addons_locales
+.
+js
+\
 browser_appmenu
 .
 js
@@ -601,6 +605,10 @@ browser_history
 js
 \
 browser_localepicker
+.
+js
+\
+browser_localepicker_escape
 .
 js
 \

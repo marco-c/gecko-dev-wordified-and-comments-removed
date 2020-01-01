@@ -150,8 +150,6 @@ aValueAsString
 nsSVGElement
 *
 aSVGElement
-bool
-aDoSetAttr
 )
 {
 bool

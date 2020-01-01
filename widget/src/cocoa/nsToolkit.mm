@@ -721,6 +721,11 @@ mEventTapRLS
 nsnull
 )
 {
+MOZ_COUNT_CTOR
+(
+nsToolkit
+)
+;
 }
 nsToolkit
 :
@@ -730,6 +735,11 @@ nsToolkit
 (
 )
 {
+MOZ_COUNT_DTOR
+(
+nsToolkit
+)
+;
 RemoveSleepWakeNotifcations
 (
 )

@@ -194,8 +194,6 @@ aHeight
 nsSVGElement
 *
 aSVGElement
-bool
-aDoSetAttr
 )
 ;
 const
@@ -241,8 +239,6 @@ aValue
 nsSVGElement
 *
 aSVGElement
-bool
-aDoSetAttr
 )
 ;
 void

@@ -72,8 +72,6 @@ aValue
 nsSVGElement
 *
 aSVGElement
-bool
-aDoSetAttr
 )
 ;
 void
@@ -92,8 +90,6 @@ aValue
 nsSVGElement
 *
 aSVGElement
-bool
-aDoSetAttr
 )
 ;
 PRInt32
@@ -261,7 +257,6 @@ SetBaseValue
 (
 aValue
 mSVGElement
-PR_TRUE
 )
 ;
 return

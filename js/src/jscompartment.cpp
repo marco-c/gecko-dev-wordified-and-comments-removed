@@ -4830,14 +4830,6 @@ site
 trapHandler
 &
 &
-(
-!
-site
--
->
-scriptObject
-|
-|
 !
 IsAboutToBeFinalized
 (
@@ -4845,8 +4837,7 @@ cx
 site
 -
 >
-scriptObject
-)
+script
 )
 )
 {
@@ -4948,14 +4939,6 @@ front
 .
 value
 ;
-if
-(
-site
--
->
-scriptObject
-)
-{
 bool
 scriptGone
 =
@@ -4965,7 +4948,7 @@ cx
 site
 -
 >
-scriptObject
+script
 )
 ;
 bool
@@ -5058,6 +5041,5 @@ cx
 e
 )
 ;
-}
 }
 }

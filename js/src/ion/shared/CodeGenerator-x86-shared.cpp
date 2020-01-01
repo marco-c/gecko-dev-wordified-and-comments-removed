@@ -3828,7 +3828,7 @@ u
 .
 i
 .
-script
+script_
 )
 )
 objreg

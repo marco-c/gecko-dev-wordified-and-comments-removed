@@ -575,7 +575,7 @@ document
 document
 -
 >
-HandleAnchorJump
+SetAnchorJump
 (
 aTargetNode
 )

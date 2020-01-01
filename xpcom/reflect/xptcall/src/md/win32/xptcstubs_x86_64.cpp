@@ -799,6 +799,9 @@ b
 (
 bool
 )
+(
+PRUint8
+)
 gprData
 [
 iCount

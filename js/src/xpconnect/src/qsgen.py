@@ -909,6 +909,13 @@ traceable
 '
 implicit_jscontext
 '
+                                              
+'
+getter
+'
+'
+stringifier
+'
 )
 :
             
@@ -13133,6 +13140,13 @@ XPCCallContext
 include
 "
 xpcquickstubs
+.
+h
+"
+#
+include
+"
+nsWrapperCacheInlines
 .
 h
 "

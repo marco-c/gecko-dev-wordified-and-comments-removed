@@ -78,13 +78,6 @@ h
 #
 include
 "
-nsIDOMNSHTMLOptionCollectn
-.
-h
-"
-#
-include
-"
 nsIDOMHTMLSelectElement
 .
 h

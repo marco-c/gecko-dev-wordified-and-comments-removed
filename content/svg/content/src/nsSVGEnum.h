@@ -88,8 +88,6 @@ aValue
 nsSVGElement
 *
 aSVGElement
-bool
-aDoSetAttr
 )
 ;
 void
@@ -111,8 +109,6 @@ aValue
 nsSVGElement
 *
 aSVGElement
-bool
-aDoSetAttr
 )
 ;
 PRUint16
@@ -290,7 +286,6 @@ SetBaseValue
 (
 aValue
 mSVGElement
-PR_TRUE
 )
 ;
 }

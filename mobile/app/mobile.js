@@ -5500,7 +5500,7 @@ w3c_touch_events
 .
 safetyX
 "
-0
+5
 )
 ;
 pref
@@ -5512,7 +5512,7 @@ w3c_touch_events
 .
 safetyY
 "
-120
+20
 )
 ;
 #

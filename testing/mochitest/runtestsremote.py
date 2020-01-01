@@ -1268,6 +1268,17 @@ profile
         
 self
 .
+_automation
+.
+setRemoteProfile
+(
+self
+.
+remoteProfile
+)
+        
+self
+.
 remoteLog
 =
 options

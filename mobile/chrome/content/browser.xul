@@ -739,7 +739,10 @@ sizemode
 fullscreen
 "
 #
-endif
+else
+#
+ifndef
+ANDROID
 width
 =
 "
@@ -750,6 +753,10 @@ height
 "
 800
 "
+#
+endif
+#
+endif
 onkeypress
 =
 "
