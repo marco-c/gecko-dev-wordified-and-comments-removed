@@ -50,6 +50,14 @@ return
 mScriptOwner
 ;
 }
+bool
+SetScriptOwner
+(
+JSObject
+*
+aScriptOwner
+)
+;
 nsIScriptContext
 *
 GetScriptContext
@@ -161,8 +169,9 @@ virtual
 IDBWrapperCache
 (
 )
-{
-}
+;
+private
+:
 JSObject
 *
 mScriptOwner
