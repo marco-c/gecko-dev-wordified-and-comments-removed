@@ -436,6 +436,10 @@ AccCollector
 .
 cpp
 \
+AccGroupInfo
+.
+cpp
+\
 AccIterator
 .
 cpp
