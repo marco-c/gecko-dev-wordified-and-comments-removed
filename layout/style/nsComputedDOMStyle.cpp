@@ -29,7 +29,7 @@ h
 #
 include
 "
-nsIDOMNSCSS2Properties
+nsIDOMCSS2Properties
 .
 h
 "
@@ -476,14 +476,12 @@ NS_INTERFACE_TABLE_HEAD
 (
 nsComputedDOMStyle
 )
-NS_INTERFACE_TABLE5
+NS_INTERFACE_TABLE3
 (
 nsComputedDOMStyle
 nsICSSDeclaration
 nsIDOMCSSStyleDeclaration
 nsIDOMCSS2Properties
-nsIDOMSVGCSS2Properties
-nsIDOMNSCSS2Properties
 )
 NS_INTERFACE_TABLE_TO_MAP_SEGUE
 NS_WRAPPERCACHE_INTERFACE_MAP_ENTRY
