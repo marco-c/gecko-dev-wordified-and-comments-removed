@@ -12701,6 +12701,17 @@ hasJITInfo
 mjit
 :
 :
+ExpandInlineFrames
+(
+cx
+-
+>
+compartment
+)
+;
+mjit
+:
+:
 Recompiler
 :
 :
