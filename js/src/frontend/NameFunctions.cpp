@@ -1160,7 +1160,7 @@ cur
 >
 isArity
 (
-PN_CODE
+PN_FUNC
 )
 )
 {
@@ -1323,7 +1323,7 @@ prefix
 break
 ;
 case
-PN_CODE
+PN_FUNC
 :
 JS_ASSERT
 (

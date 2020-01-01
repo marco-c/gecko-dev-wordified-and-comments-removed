@@ -7532,7 +7532,7 @@ ParseNode
 *
 pn
 =
-CodeNode
+FunctionNode
 :
 :
 create
@@ -7806,7 +7806,7 @@ fn
 >
 setArity
 (
-PN_CODE
+PN_FUNC
 )
 ;
 fn
@@ -22462,7 +22462,7 @@ pn
 >
 isArity
 (
-PN_CODE
+PN_FUNC
 )
 |
 |
@@ -22762,7 +22762,7 @@ false
 break
 ;
 case
-PN_CODE
+PN_FUNC
 :
 case
 PN_NAME
@@ -24418,7 +24418,7 @@ ParseNode
 *
 genfn
 =
-CodeNode
+FunctionNode
 :
 :
 create

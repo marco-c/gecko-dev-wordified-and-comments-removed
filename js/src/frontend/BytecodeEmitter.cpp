@@ -7335,7 +7335,7 @@ getArity
 )
 {
 case
-PN_CODE
+PN_FUNC
 :
 MOZ_ASSERT
 (
