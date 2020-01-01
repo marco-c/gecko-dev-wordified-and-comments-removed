@@ -37350,12 +37350,6 @@ this
 )
 )
 ;
-SetWindowFullScreen
-(
-this
-true
-)
-;
 #
 ifdef
 DEBUG
@@ -37445,6 +37439,12 @@ GetFullScreenElement
 ;
 #
 endif
+SetWindowFullScreen
+(
+this
+true
+)
+;
 }
 NS_IMETHODIMP
 nsDocument
