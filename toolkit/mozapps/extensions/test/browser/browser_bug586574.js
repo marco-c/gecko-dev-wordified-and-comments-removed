@@ -19,6 +19,9 @@ var
 gUtilsBtn
 ;
 var
+gUtilsMenu
+;
+var
 gDropdownMenu
 ;
 var
