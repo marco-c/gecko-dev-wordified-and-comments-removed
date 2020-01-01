@@ -130,6 +130,13 @@ this
 ;
 }
 virtual
+nsIPresShell
+*
+GetPresShell
+(
+)
+;
+virtual
 bool
 WindowMoved
 (
