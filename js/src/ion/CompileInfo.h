@@ -248,7 +248,7 @@ script_
 >
 getAtom
 (
-GET_INDEX
+GET_UINT32_INDEX
 (
 pc
 )
@@ -271,7 +271,7 @@ script_
 >
 getRegExp
 (
-GET_INDEX
+GET_UINT32_INDEX
 (
 pc
 )
@@ -341,7 +341,7 @@ script_
 >
 getConst
 (
-GET_INDEX
+GET_UINT32_INDEX
 (
 pc
 )

@@ -906,7 +906,7 @@ tree
 }
 nameset
 ;
-jsdouble
+double
 dval
 ;
 class

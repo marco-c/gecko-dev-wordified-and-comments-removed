@@ -506,8 +506,9 @@ border
 -
 radius
 :
-4px
-4px
+2
+.
+5px
 ;
 }
 .
@@ -605,7 +606,9 @@ border
 -
 radius
 :
-4px
+2
+.
+5px
 ;
 }
 .
@@ -672,7 +675,9 @@ border
 -
 radius
 :
-4px
+2
+.
+5px
 ;
 -
 moz
@@ -699,10 +704,9 @@ border
 -
 radius
 :
-4px
-0
-0
-4px
+2
+.
+5px
 ;
 -
 moz

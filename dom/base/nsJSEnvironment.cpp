@@ -614,6 +614,12 @@ sCleanupSinceLastGC
 =
 true
 ;
+static
+bool
+sNeedsFullCC
+=
+false
+;
 nsScriptNameSpaceManager
 *
 gNameSpaceManager
@@ -13654,6 +13660,10 @@ sCleanupSinceLastGC
 =
 true
 ;
+sNeedsFullCC
+=
+false
+;
 }
 void
 GCTimerFired
@@ -13879,6 +13889,9 @@ KillCCTimer
 ;
 if
 (
+sNeedsFullCC
+|
+|
 nsCycleCollector_suspectedCount
 (
 )
@@ -14147,6 +14160,9 @@ return
 }
 if
 (
+sNeedsFullCC
+|
+|
 nsCycleCollector_suspectedCount
 (
 )
@@ -14610,6 +14626,10 @@ isCompartment
 )
 {
 sGCHasRun
+=
+true
+;
+sNeedsFullCC
 =
 true
 ;
@@ -15117,6 +15137,10 @@ sCCollectedWaitingForGC
 0
 ;
 sPostGCEventsToConsole
+=
+false
+;
+sNeedsFullCC
 =
 false
 ;

@@ -9525,11 +9525,9 @@ script
 >
 getAtom
 (
-js_GetIndexFromBytecode
+GET_UINT32_INDEX
 (
-script
 pc
-0
 )
 )
 ;
@@ -10954,11 +10952,9 @@ script
 >
 getAtom
 (
-js_GetIndexFromBytecode
+GET_UINT32_INDEX
 (
-script
 pc
-0
 )
 )
 ;

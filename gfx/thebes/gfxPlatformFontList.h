@@ -21,7 +21,7 @@ h
 #
 include
 "
-nsHashSets
+nsTHashtable
 .
 h
 "
@@ -607,7 +607,10 @@ mCodepointsWithNoFonts
 nsString
 mReplacementCharFallbackFamily
 ;
-nsStringHashSet
+nsTHashtable
+<
+nsStringHashKey
+>
 mBadUnderlineFamilyNames
 ;
 nsTArray

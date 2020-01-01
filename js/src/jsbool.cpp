@@ -989,7 +989,7 @@ isDouble
 )
 )
 {
-jsdouble
+double
 d
 ;
 d

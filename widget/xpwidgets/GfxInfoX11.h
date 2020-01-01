@@ -301,11 +301,13 @@ bool
 mIsMesa
 mIsNVIDIA
 mIsFGLRX
+mIsNouveau
 ;
 bool
 mHasTextureFromPixmap
 ;
 int
+mGLMajorVersion
 mMajorVersion
 mMinorVersion
 mRevisionVersion

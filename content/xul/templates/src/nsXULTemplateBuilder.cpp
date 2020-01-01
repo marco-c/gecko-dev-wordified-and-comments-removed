@@ -554,6 +554,11 @@ nsXULTemplateBuilder
 void
 )
 {
+Uninit
+(
+true
+)
+;
 if
 (
 -
@@ -590,11 +595,6 @@ gObserverService
 )
 ;
 }
-Uninit
-(
-true
-)
-;
 }
 nsresult
 nsXULTemplateBuilder

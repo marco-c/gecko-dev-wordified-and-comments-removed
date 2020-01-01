@@ -98,13 +98,6 @@ h
 #
 include
 "
-nsHashSets
-.
-h
-"
-#
-include
-"
 nsWeakReference
 .
 h
@@ -1030,7 +1023,10 @@ nsCString
 >
 mActiveCachesByGroup
 ;
-nsCStringHashSet
+nsTHashtable
+<
+nsCStringHashKey
+>
 mActiveCaches
 ;
 nsCOMPtr

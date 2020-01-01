@@ -1,11 +1,3 @@
-/
-/
-|
-jit
--
-test
-|
-debug
 setDebug
 (
 true
@@ -22,15 +14,6 @@ main
 (
 )
 {
-/
-*
-The
-JSOP_STOP
-in
-main
-.
-*
-/
 a
 =
 {
@@ -43,7 +26,7 @@ function
 trap
 (
 main
-61
+85
 "
 success
 (

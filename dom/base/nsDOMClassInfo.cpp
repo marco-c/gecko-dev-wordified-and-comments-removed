@@ -15624,7 +15624,7 @@ cx
 jsval
 idval
 ;
-jsdouble
+double
 array_index
 ;
 if

@@ -2872,7 +2872,7 @@ CPPFLAGS
 -
 DANDROID
 -
-I
+isystem
 gonkdir
 /
 bionic
@@ -2882,7 +2882,7 @@ libc
 include
 /
 -
-I
+isystem
 gonkdir
 /
 bionic
@@ -2893,7 +2893,7 @@ kernel
 /
 common
 -
-I
+isystem
 gonkdir
 /
 bionic
@@ -2906,7 +2906,7 @@ arm
 /
 include
 -
-I
+isystem
 gonkdir
 /
 bionic
@@ -2919,7 +2919,7 @@ arch
 -
 arm
 -
-I
+isystem
 gonkdir
 /
 bionic
@@ -2928,7 +2928,7 @@ libm
 /
 include
 -
-I
+isystem
 gonkdir
 /
 frameworks
@@ -2939,7 +2939,7 @@ native
 /
 include
 -
-I
+isystem
 gonkdir
 /
 system
@@ -2948,7 +2948,7 @@ core
 /
 include
 -
-I
+isystem
 gonkdir
 /
 bionic
@@ -3908,7 +3908,7 @@ CPPFLAGS
 =
 "
 -
-I
+isystem
 android_platform
 /
 usr
@@ -3921,13 +3921,6 @@ CFLAGS
 "
 -
 mandroid
--
-I
-android_platform
-/
-usr
-/
-include
 -
 fno
 -
@@ -3945,13 +3938,6 @@ CXXFLAGS
 "
 -
 mandroid
--
-I
-android_platform
-/
-usr
-/
-include
 -
 fno
 -
@@ -7767,13 +7753,18 @@ features
 provided
 by
 IE
-5
+6
 .
 0
+SP2
+(
+XP
+SP2
+)
 AC_DEFINE_UNQUOTED
 (
 _WIN32_IE
-0x0500
+0x0603
 )
 #
 If
@@ -13432,7 +13423,7 @@ STLPORT_CPPFLAGS
 =
 "
 -
-I
+isystem
 android_ndk
 /
 sources
@@ -13449,7 +13440,7 @@ libstdc
 /
 include
 -
-I
+isystem
 android_ndk
 /
 sources
@@ -13532,7 +13523,7 @@ STLPORT_CPPFLAGS
 =
 "
 -
-I
+isystem
 android_ndk
 /
 sources
@@ -13610,7 +13601,7 @@ STLPORT_CPPFLAGS
 =
 "
 -
-I
+isystem
 android_ndk
 /
 sources

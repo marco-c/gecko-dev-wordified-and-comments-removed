@@ -295,7 +295,7 @@ cx
 JSObject
 *
 obj
-jsdouble
+double
 length
 )
 ;

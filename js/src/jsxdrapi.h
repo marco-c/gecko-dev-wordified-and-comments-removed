@@ -527,7 +527,7 @@ JS_XDRDouble
 JSXDRState
 *
 xdr
-jsdouble
+double
 *
 dp
 )
@@ -622,7 +622,7 @@ JSXDR_BYTECODE_VERSION
 (
 0xb973c0de
 -
-108
+109
 )
 JS_END_EXTERN_C
 extern

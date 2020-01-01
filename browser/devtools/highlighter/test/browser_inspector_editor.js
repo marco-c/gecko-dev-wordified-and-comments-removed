@@ -126,13 +126,8 @@ false
 ;
 InspectorUI
 .
-toolShow
+toggleHTMLPanel
 (
-InspectorUI
-.
-treePanel
-.
-registrationObject
 )
 ;
 }

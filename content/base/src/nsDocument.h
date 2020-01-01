@@ -63,13 +63,6 @@ h
 #
 include
 "
-nsHashSets
-.
-h
-"
-#
-include
-"
 nsIDOMXMLDocument
 .
 h

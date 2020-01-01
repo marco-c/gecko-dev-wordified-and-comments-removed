@@ -648,7 +648,7 @@ JS_NewNumberValue
 cx
 static_cast
 <
-jsdouble
+double
 >
 (
 i
@@ -677,7 +677,7 @@ JS_NewNumberValue
 cx
 static_cast
 <
-jsdouble
+double
 >
 (
 u
@@ -1993,7 +1993,7 @@ intval
 }
 else
 {
-jsdouble
+double
 doubleval
 ;
 if
@@ -2079,7 +2079,7 @@ intval
 }
 else
 {
-jsdouble
+double
 doubleval
 ;
 if
