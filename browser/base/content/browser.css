@@ -2872,12 +2872,6 @@ warning
 -
 container
 {
-pointer
--
-events
-:
-none
-;
 position
 :
 fixed
@@ -2949,12 +2943,6 @@ warning
 -
 message
 {
-pointer
--
-events
-:
-auto
-;
 max
 -
 width
