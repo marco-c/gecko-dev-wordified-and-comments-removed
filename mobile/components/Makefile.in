@@ -477,6 +477,10 @@ helperAppDialog
 .
 js
 \
+promptService
+.
+js
+\
 (
 NULL
 )
