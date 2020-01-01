@@ -26044,10 +26044,6 @@ selfHostingMode
 (
 false
 )
-userBit
-(
-false
-)
 sourcePolicy
 (
 SAVE_SOURCE

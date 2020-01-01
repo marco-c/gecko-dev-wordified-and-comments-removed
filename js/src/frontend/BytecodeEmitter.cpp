@@ -20740,14 +20740,6 @@ getVersion
 (
 )
 )
-.
-setUserBit
-(
-parent
--
->
-userBit
-)
 ;
 bool
 generateBytecode
