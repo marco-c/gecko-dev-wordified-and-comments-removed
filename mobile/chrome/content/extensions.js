@@ -747,7 +747,7 @@ buttons
 label
 :
 aButtonLabel
-accesskey
+accessKey
 :
 "
 "
