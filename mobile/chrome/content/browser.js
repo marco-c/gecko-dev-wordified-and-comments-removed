@@ -15456,6 +15456,12 @@ delayLoad
 )
 return
 ;
+setTimeout
+(
+function
+(
+)
+{
 try
 {
 let
@@ -15524,6 +15530,10 @@ n
 )
 ;
 }
+}
+0
+)
+;
 }
 destroy
 :
