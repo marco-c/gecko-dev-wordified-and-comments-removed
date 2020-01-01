@@ -553,6 +553,13 @@ PRBool
 offline
 )
 ;
+async
+NotifyVisited
+(
+URI
+uri
+)
+;
 NotifyRemotePrefObserver
 (
 nsCString
@@ -569,6 +576,13 @@ PNecko
 /
 Services
 remoting
+async
+StartVisitedQuery
+(
+URI
+uri
+)
+;
 /
 /
 PrefService
