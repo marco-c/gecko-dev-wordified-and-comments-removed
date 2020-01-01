@@ -31569,9 +31569,7 @@ cx
 JSBool
 ok
 =
-:
-:
-JS_GetProperty
+JS_LookupProperty
 (
 cx
 obj
