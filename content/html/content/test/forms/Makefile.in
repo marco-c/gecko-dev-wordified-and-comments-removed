@@ -275,6 +275,10 @@ test_input_file_picker
 .
 html
 \
+test_input_event
+.
+html
+\
 (
 NULL
 )
