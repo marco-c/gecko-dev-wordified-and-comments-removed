@@ -853,9 +853,11 @@ window
 =
 aEvent
 .
-target
+originalTarget
 .
 defaultView
+.
+content
 ;
 try
 {

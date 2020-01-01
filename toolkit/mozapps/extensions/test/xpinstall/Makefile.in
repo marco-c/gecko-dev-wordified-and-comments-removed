@@ -452,10 +452,6 @@ browser_unsigned_trigger
 .
 js
 \
-browser_unsigned_trigger_iframe
-.
-js
-\
 browser_whitelist
 .
 js
@@ -681,10 +677,6 @@ enabled
 html
 \
 installtrigger
-.
-html
-\
-installtrigger_frame
 .
 html
 \
