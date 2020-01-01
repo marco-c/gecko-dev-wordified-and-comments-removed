@@ -817,7 +817,7 @@ buf
 gStrings
 [
 "
-ViewURL
+CrashDetailsURL
 "
 ]
 .
