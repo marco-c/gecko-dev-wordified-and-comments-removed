@@ -546,6 +546,14 @@ nsIView
 aView
 )
 ;
+virtual
+void
+ProcessPendingUpdates
+(
+)
+=
+0
+;
 }
 ;
 NS_DEFINE_STATIC_IID_ACCESSOR
