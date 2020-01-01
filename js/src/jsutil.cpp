@@ -119,6 +119,7 @@ WIN32
 *
 (
 (
+volatile
 int
 *
 )
@@ -141,6 +142,7 @@ __APPLE__
 *
 (
 (
+volatile
 int
 *
 )
