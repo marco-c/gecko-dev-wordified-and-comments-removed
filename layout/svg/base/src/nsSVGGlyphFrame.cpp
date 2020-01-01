@@ -7663,12 +7663,10 @@ GetTextRunFlagsForStyle
 GetStyleContext
 (
 )
-GetStyleText
-(
-)
 GetStyleFont
 (
 )
+0
 )
 ;
 nsRefPtr
