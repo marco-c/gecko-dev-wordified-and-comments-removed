@@ -508,11 +508,6 @@ inherits
 "
 handleCtrlPageUpDown
 "
-eventnode
-=
-"
-document
-"
 onselect
 =
 "
