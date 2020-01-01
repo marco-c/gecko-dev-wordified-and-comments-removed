@@ -6799,6 +6799,12 @@ ss
 return
 NULL
 ;
+if
+(
+!
+ownSource
+)
+{
 const
 size_t
 memlen
@@ -6855,6 +6861,7 @@ ss
 return
 NULL
 ;
+}
 }
 ss
 -
