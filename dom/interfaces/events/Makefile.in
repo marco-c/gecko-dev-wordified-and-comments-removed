@@ -190,10 +190,6 @@ nsIDOMSimpleGestureEvent
 .
 idl
 \
-nsIDOMMozTouchEvent
-.
-idl
-\
 nsIDOMDeviceLightEvent
 .
 idl

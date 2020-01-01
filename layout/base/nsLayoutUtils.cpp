@@ -5023,15 +5023,6 @@ aEvent
 eventStructType
 !
 =
-NS_MOZTOUCH_EVENT
-&
-&
-aEvent
--
->
-eventStructType
-!
-=
 NS_TOUCH_EVENT
 &
 &

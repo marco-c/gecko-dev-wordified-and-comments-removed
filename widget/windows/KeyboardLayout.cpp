@@ -431,9 +431,6 @@ NS_DRAG_EVENT
 case
 NS_SIMPLE_GESTURE_EVENT
 :
-case
-NS_MOZTOUCH_EVENT
-:
 InitMouseEvent
 (
 aInputEvent
@@ -487,14 +484,6 @@ eventStructType
 =
 =
 NS_SIMPLE_GESTURE_EVENT
-|
-|
-aMouseEvent
-.
-eventStructType
-=
-=
-NS_MOZTOUCH_EVENT
 "
 called
 with

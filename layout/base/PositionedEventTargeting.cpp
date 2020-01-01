@@ -119,12 +119,6 @@ if
 aEventStructType
 =
 =
-NS_MOZTOUCH_EVENT
-|
-|
-aEventStructType
-=
-=
 NS_TOUCH_EVENT
 )
 {

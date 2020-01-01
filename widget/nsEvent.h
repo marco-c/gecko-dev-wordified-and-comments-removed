@@ -107,9 +107,6 @@ class
 nsContentCommandEvent
 ;
 class
-nsMozTouchEvent
-;
-class
 nsTouchEvent
 ;
 class
