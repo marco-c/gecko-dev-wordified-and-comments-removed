@@ -281,6 +281,13 @@ use
 strict
 "
 ;
+SimpleTest
+.
+expectAssertions
+(
+27
+)
+;
 const
 Cc
 =

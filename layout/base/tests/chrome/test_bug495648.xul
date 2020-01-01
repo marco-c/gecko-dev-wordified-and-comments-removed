@@ -259,6 +259,14 @@ javascript
 [
 CDATA
 [
+SimpleTest
+.
+expectAssertions
+(
+18
+24
+)
+;
 /
 *
 *

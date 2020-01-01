@@ -553,6 +553,13 @@ CDATA
 [
 SimpleTest
 .
+expectAssertions
+(
+4
+)
+;
+SimpleTest
+.
 waitForExplicitFinish
 (
 )

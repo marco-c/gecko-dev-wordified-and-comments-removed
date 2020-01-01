@@ -307,6 +307,13 @@ javascript
 [
 CDATA
 [
+SimpleTest
+.
+expectAssertions
+(
+1
+)
+;
 function
 runTest
 (

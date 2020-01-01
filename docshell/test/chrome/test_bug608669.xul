@@ -441,6 +441,13 @@ meh
 }
 }
 }
+SimpleTest
+.
+expectAssertions
+(
+1
+)
+;
 /
 *
 *
