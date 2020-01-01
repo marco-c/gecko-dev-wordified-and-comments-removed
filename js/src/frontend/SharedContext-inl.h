@@ -109,12 +109,12 @@ hasStrictOption
 |
 |
 strictModeState
-!
+=
 =
 StrictMode
 :
 :
-NOTSTRICT
+STRICT
 ;
 }
 inline

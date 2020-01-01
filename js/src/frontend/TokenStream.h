@@ -1530,7 +1530,7 @@ STRICT
 StrictMode
 :
 :
-UNKNOWN
+NOTSTRICT
 ;
 }
 class
