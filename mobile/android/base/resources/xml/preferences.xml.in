@@ -566,6 +566,9 @@ false
 "
 /
 >
+#
+ifdef
+MOZ_TELEMETRY_REPORTING
 <
 CheckBoxPreference
 android
@@ -597,6 +600,8 @@ false
 "
 /
 >
+#
+endif
 <
 CheckBoxPreference
 android
