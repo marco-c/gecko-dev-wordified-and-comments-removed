@@ -1742,12 +1742,13 @@ writefd
 (
 fd
 )
-def
-main
-(
-*
-args
-)
+if
+__name__
+=
+=
+'
+__main__
+'
 :
     
 from
@@ -2142,16 +2143,4 @@ join
 (
 deps
 )
-)
-if
-__name__
-=
-=
-'
-__main__
-'
-:
-    
-main
-(
 )
