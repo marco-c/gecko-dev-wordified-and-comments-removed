@@ -1757,9 +1757,6 @@ nsFrameConstructorSaveState
 aSaveState
 PRBool
 &
-aSuppressFrame
-PRBool
-&
 aCreatedPseudo
 )
 ;
