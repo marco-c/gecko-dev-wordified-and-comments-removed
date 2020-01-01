@@ -138,6 +138,14 @@ PermissionsTable
 .
 jsm
 \
+FreeSpaceWatcher
+.
+jsm
+\
+AppDownloadManager
+.
+jsm
+\
 (
 NULL
 )
