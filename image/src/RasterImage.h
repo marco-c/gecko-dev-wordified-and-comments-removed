@@ -755,6 +755,12 @@ get
 )
 ;
 }
+static
+void
+Initialize
+(
+)
+;
 private
 :
 struct
