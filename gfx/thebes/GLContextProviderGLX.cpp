@@ -1756,9 +1756,14 @@ MarkDestroyed
 (
 )
 ;
+#
+ifdef
+DEBUG
 bool
 success
 =
+#
+endif
 sGLXLibrary
 .
 xMakeCurrent

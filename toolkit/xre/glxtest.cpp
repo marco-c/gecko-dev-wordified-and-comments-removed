@@ -918,6 +918,12 @@ None
 NULL
 )
 ;
+glXDestroyContext
+(
+dpy
+context
+)
+;
 glXDestroyPixmap
 (
 dpy
