@@ -2442,15 +2442,9 @@ this
 .
 selectedItems
 .
-splice
-(
-0
-this
-.
-selectedItems
-.
 length
-)
+=
+0
 ;
 }
 this
