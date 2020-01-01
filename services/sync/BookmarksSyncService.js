@@ -4498,6 +4498,8 @@ data
 generatorURI
 )
 ;
+try
+{
 let
 micsum
 =
@@ -4521,6 +4523,13 @@ newId
 micsum
 )
 ;
+}
+catch
+(
+ex
+)
+{
+}
 }
 break
 ;
