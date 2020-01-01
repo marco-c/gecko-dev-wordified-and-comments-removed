@@ -691,6 +691,16 @@ ref
 .
 html
 \
+bug585922
+.
+html
+\
+bug585922
+-
+ref
+.
+html
+\
 test_bug514127
 .
 html
