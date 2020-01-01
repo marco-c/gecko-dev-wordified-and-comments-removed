@@ -1611,6 +1611,7 @@ SurfaceDescriptorGralloc
 (
 nullptr
 gc
+aSize
 false
 )
 ;
