@@ -5,9 +5,6 @@ __inLayoutUtils_h__
 define
 __inLayoutUtils_h__
 class
-nsBindingManager
-;
-class
 nsIDOMDocument
 ;
 class
@@ -84,16 +81,6 @@ GetEventStateManagerFor
 nsIDOMElement
 *
 aElement
-)
-;
-static
-nsBindingManager
-*
-GetBindingManagerFor
-(
-nsIDOMNode
-*
-aNode
 )
 ;
 static
