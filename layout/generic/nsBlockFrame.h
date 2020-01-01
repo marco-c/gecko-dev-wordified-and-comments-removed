@@ -1171,6 +1171,11 @@ nsReflowStatus
 aStatus
 )
 ;
+PRUint8
+FindTrailingClear
+(
+)
+;
 line_iterator
 RemoveFloat
 (

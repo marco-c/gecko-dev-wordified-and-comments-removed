@@ -389,6 +389,14 @@ aBreakType
 )
 const
 ;
+PRBool
+ClearContinues
+(
+PRUint8
+aBreakType
+)
+const
+;
 void
 AssertStateMatches
 (
