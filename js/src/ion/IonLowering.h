@@ -593,6 +593,14 @@ phi
 public
 :
 bool
+visitInstruction
+(
+MInstruction
+*
+ins
+)
+;
+bool
 visitBlock
 (
 MBasicBlock
