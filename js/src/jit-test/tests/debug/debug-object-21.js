@@ -1,3 +1,14 @@
+load
+(
+libdir
++
+'
+asserts
+.
+js
+'
+)
+;
 var
 desc
 =
@@ -35,7 +46,7 @@ function
 '
 )
 ;
-assertThrows
+assertThrowsInstanceOf
 (
 function
 (
@@ -87,7 +98,7 @@ dbg
 null
 )
 ;
-assertThrows
+assertThrowsInstanceOf
 (
 function
 (
@@ -104,7 +115,7 @@ uncaughtExceptionHook
 TypeError
 )
 ;
-assertThrows
+assertThrowsInstanceOf
 (
 function
 (
@@ -150,14 +161,5 @@ dbg
 .
 uncaughtExceptionHook
 null
-)
-;
-reportCompare
-(
-0
-0
-'
-ok
-'
 )
 ;

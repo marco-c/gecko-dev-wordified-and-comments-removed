@@ -1,3 +1,14 @@
+load
+(
+libdir
++
+'
+asserts
+.
+js
+'
+)
+;
 var
 g
 =
@@ -65,7 +76,7 @@ Object
 prototype
 )
 ;
-assertThrows
+assertThrowsInstanceOf
 (
 function
 (
@@ -81,7 +92,7 @@ null
 TypeError
 )
 ;
-assertThrows
+assertThrowsInstanceOf
 (
 function
 (
@@ -143,7 +154,7 @@ enumerable
 false
 )
 ;
-assertThrows
+assertThrowsInstanceOf
 (
 function
 (
@@ -159,7 +170,7 @@ get
 TypeError
 )
 ;
-assertThrows
+assertThrowsInstanceOf
 (
 function
 (
@@ -178,7 +189,7 @@ undefined
 TypeError
 )
 ;
-assertThrows
+assertThrowsInstanceOf
 (
 function
 (
@@ -212,7 +223,7 @@ dbg
 h
 )
 ;
-assertThrows
+assertThrowsInstanceOf
 (
 function
 (
@@ -228,7 +239,7 @@ set
 TypeError
 )
 ;
-assertThrows
+assertThrowsInstanceOf
 (
 function
 (
@@ -247,7 +258,7 @@ dbg
 TypeError
 )
 ;
-assertThrows
+assertThrowsInstanceOf
 (
 function
 (
@@ -269,7 +280,7 @@ call
 TypeError
 )
 ;
-assertThrows
+assertThrowsInstanceOf
 (
 function
 (
@@ -290,14 +301,5 @@ prototype
 ;
 }
 TypeError
-)
-;
-reportCompare
-(
-0
-0
-'
-ok
-'
 )
 ;

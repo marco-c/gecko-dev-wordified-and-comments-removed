@@ -169,12 +169,3 @@ i
 )
 ;
 }
-reportCompare
-(
-0
-0
-'
-ok
-'
-)
-;

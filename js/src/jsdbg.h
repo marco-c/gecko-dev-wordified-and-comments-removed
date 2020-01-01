@@ -344,6 +344,14 @@ c
 )
 const
 ;
+void
+detachFrom
+(
+JSCompartment
+*
+c
+)
+;
 static
 inline
 JSTrapStatus

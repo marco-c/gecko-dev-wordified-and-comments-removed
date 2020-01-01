@@ -1,4 +1,15 @@
-assertThrows
+load
+(
+libdir
++
+'
+asserts
+.
+js
+'
+)
+;
+assertThrowsInstanceOf
 (
 function
 (
@@ -12,7 +23,7 @@ Debug
 TypeError
 )
 ;
-assertThrows
+assertThrowsInstanceOf
 (
 function
 (
@@ -27,7 +38,7 @@ null
 TypeError
 )
 ;
-assertThrows
+assertThrowsInstanceOf
 (
 function
 (
@@ -42,7 +53,7 @@ true
 TypeError
 )
 ;
-assertThrows
+assertThrowsInstanceOf
 (
 function
 (
@@ -57,7 +68,7 @@ Debug
 TypeError
 )
 ;
-assertThrows
+assertThrowsInstanceOf
 (
 function
 (
@@ -74,7 +85,7 @@ bad
 TypeError
 )
 ;
-assertThrows
+assertThrowsInstanceOf
 (
 function
 (
@@ -93,7 +104,7 @@ function
 TypeError
 )
 ;
-assertThrows
+assertThrowsInstanceOf
 (
 function
 (
@@ -108,7 +119,7 @@ this
 TypeError
 )
 ;
-assertThrows
+assertThrowsInstanceOf
 (
 function
 (
@@ -123,7 +134,7 @@ Debug
 TypeError
 )
 ;
-assertThrows
+assertThrowsInstanceOf
 (
 function
 (
@@ -139,7 +150,7 @@ null
 TypeError
 )
 ;
-assertThrows
+assertThrowsInstanceOf
 (
 function
 (
@@ -155,7 +166,7 @@ true
 TypeError
 )
 ;
-assertThrows
+assertThrowsInstanceOf
 (
 function
 (
@@ -171,7 +182,7 @@ Debug
 TypeError
 )
 ;
-assertThrows
+assertThrowsInstanceOf
 (
 function
 (
@@ -189,7 +200,7 @@ bad
 TypeError
 )
 ;
-assertThrows
+assertThrowsInstanceOf
 (
 function
 (
@@ -209,7 +220,7 @@ function
 TypeError
 )
 ;
-assertThrows
+assertThrowsInstanceOf
 (
 function
 (
@@ -323,7 +334,7 @@ outer
 =
 this
 ;
-assertThrows
+assertThrowsInstanceOf
 (
 function
 (
@@ -349,14 +360,5 @@ Object
 ;
 }
 TypeError
-)
-;
-reportCompare
-(
-0
-0
-'
-ok
-'
 )
 ;
