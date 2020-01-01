@@ -2213,6 +2213,16 @@ done_cb
 =
 0
 ;
+(
+*
+ctxp
+)
+-
+>
+trickle_cb
+=
+0
+;
 NR_ASYNC_SCHEDULE
 (
 nr_ice_ctx_destroy_cb
