@@ -167,6 +167,17 @@ aEvent
 )
 ;
 bool
+EventImmediatePropagationStopped
+(
+JSContext
+*
+aCx
+JSObject
+*
+aEvent
+)
+;
+bool
 DispatchEventToTarget
 (
 JSContext
