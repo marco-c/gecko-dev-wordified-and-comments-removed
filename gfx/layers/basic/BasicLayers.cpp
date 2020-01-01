@@ -1970,6 +1970,17 @@ SetFilter
 mFilter
 )
 ;
+pat
+-
+>
+SetExtend
+(
+gfxPattern
+:
+:
+EXTEND_PAD
+)
+;
 gfxRect
 r
 (
