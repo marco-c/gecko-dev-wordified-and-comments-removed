@@ -463,6 +463,10 @@ test_stack
 .
 xul
 \
+test_bug511075
+.
+html
+\
 test_splitter
 .
 xul

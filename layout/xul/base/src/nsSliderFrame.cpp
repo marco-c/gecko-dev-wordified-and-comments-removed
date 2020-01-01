@@ -1842,6 +1842,15 @@ aEventStatus
 ;
 if
 (
+!
+mContent
+-
+>
+IsInNativeAnonymousSubtree
+(
+)
+&
+&
 nsEventStatus_eConsumeNoDefault
 =
 =
