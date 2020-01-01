@@ -258,16 +258,6 @@ user_pref
 "
 security
 .
-warn_entering_weak
-"
-false
-)
-;
-user_pref
-(
-"
-security
-.
 warn_leaving_secure
 "
 false

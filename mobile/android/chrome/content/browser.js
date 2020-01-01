@@ -36600,7 +36600,7 @@ Ci
 .
 nsIWebProgressListener
 .
-STATE_SECURE_HIGH
+STATE_IS_SECURE
 )
 return
 this
