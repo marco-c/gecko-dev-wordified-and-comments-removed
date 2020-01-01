@@ -1292,6 +1292,10 @@ LifoAlloc
 .
 h
 \
+BitArray
+.
+h
+\
 (
 NULL
 )
