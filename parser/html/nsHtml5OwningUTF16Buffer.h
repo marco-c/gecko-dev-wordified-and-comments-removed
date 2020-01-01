@@ -61,14 +61,6 @@ PRInt32
 aLength
 )
 ;
-void
-Swap
-(
-nsHtml5OwningUTF16Buffer
-*
-aOther
-)
-;
 nsrefcnt
 AddRef
 (
