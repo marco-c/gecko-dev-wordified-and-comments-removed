@@ -2401,6 +2401,7 @@ SetupMacCommandLine
 (
 argc
 argv
+PR_TRUE
 )
 ;
 #

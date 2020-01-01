@@ -79,6 +79,8 @@ char
 *
 &
 argv
+PRBool
+forRestart
 )
 ;
 nsresult
@@ -210,6 +212,8 @@ char
 *
 &
 argv
+PRBool
+forRestart
 )
 ;
 #

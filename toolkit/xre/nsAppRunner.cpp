@@ -6697,6 +6697,7 @@ SetupMacCommandLine
 (
 gRestartArgc
 gRestartArgv
+PR_TRUE
 )
 ;
 LaunchChildMac
@@ -8106,6 +8107,7 @@ SetupMacCommandLine
 (
 gRestartArgc
 gRestartArgv
+PR_TRUE
 )
 ;
 #
@@ -8500,6 +8502,7 @@ SetupMacCommandLine
 (
 gRestartArgc
 gRestartArgv
+PR_TRUE
 )
 ;
 #
@@ -15551,6 +15554,7 @@ SetupMacCommandLine
 (
 gArgc
 gArgv
+PR_FALSE
 )
 ;
 rv
@@ -15897,6 +15901,7 @@ SetupMacCommandLine
 (
 gRestartArgc
 gRestartArgv
+PR_TRUE
 )
 ;
 #

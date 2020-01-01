@@ -498,6 +498,8 @@ char
 *
 &
 argv
+PRBool
+forRestart
 )
 {
 Initialize
@@ -506,6 +508,11 @@ argc
 argv
 )
 ;
+if
+(
+forRestart
+)
+{
 Boolean
 isForeground
 =
@@ -568,6 +575,7 @@ foreground
 "
 )
 ;
+}
 }
 argc
 =
@@ -1334,6 +1342,8 @@ char
 *
 &
 argv
+PRBool
+forRestart
 )
 {
 nsMacCommandLine
@@ -1354,6 +1364,7 @@ SetupCommandLine
 (
 argc
 argv
+forRestart
 )
 ;
 }
