@@ -168,6 +168,17 @@ nsAccessibilityService
 *
 gAccessibilityService
 ;
+PRBool
+HasUniversalAriaProperty
+(
+nsIContent
+*
+aContent
+nsIWeakReference
+*
+aWeakShell
+)
+;
 }
 ;
 static
