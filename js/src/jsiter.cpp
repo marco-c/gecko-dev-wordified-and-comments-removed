@@ -2160,7 +2160,7 @@ false
 obj
 -
 >
-setMap
+setInitialPropertyInfallible
 (
 emptyEnumeratorShape
 )
