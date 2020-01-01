@@ -534,6 +534,9 @@ trackFree
 )
 ;
 }
+#
+ifdef
+NJ_VERBOSE
 NanoAssert
 (
 pageCount
@@ -546,6 +549,8 @@ _stats
 freePages
 )
 ;
+#
+endif
 return
 page
 ;
@@ -578,6 +583,9 @@ trackFree
 1
 )
 ;
+#
+ifdef
+NJ_VERBOSE
 NanoAssert
 (
 pageCount
@@ -590,6 +598,8 @@ _stats
 freePages
 )
 ;
+#
+endif
 }
 void
 Fragmento
@@ -856,6 +866,9 @@ next
 =
 0
 ;
+#
+ifdef
+NJ_VERBOSE
 NanoAssert
 (
 pageCount
@@ -868,6 +881,8 @@ _stats
 freePages
 )
 ;
+#
+endif
 }
 }
 void

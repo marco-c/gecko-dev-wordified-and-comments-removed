@@ -23,6 +23,14 @@ jstracer
 .
 h
 "
+#
+ifdef
+THIS
+#
+undef
+THIS
+#
+endif
 enum
 JSTNErrType
 {
