@@ -33,8 +33,8 @@ extern
 JSBool
 js_IdIsIndex
 (
-jsid
-id
+jsboxedword
+idw
 jsuint
 *
 indexp

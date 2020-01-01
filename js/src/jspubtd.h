@@ -2068,7 +2068,7 @@ obj
 const
 jsval
 *
-v
+vp
 JSBool
 *
 bp

@@ -2487,11 +2487,8 @@ vp
 VALUE_IS_XML
 (
 cx
-Valueify
-(
 *
 vp
-)
 )
 )
 {

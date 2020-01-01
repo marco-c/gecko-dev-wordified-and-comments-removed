@@ -22780,10 +22780,7 @@ js_GetXMLMethod
 cx
 obj
 id
-Jsvalify
-(
 vp
-)
 )
 ;
 #
