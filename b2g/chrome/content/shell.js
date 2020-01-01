@@ -6287,6 +6287,9 @@ device
 "
 )
 ;
+#
+ifdef
+MOZ_WIDGET_GONK
 DebuggerServer
 .
 onConnectionChange
@@ -6303,6 +6306,8 @@ updateState
 )
 ;
 }
+#
+endif
 }
 let
 path
