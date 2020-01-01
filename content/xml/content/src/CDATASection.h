@@ -14,7 +14,11 @@ h
 #
 include
 "
-nsGenericDOMDataNode
+mozilla
+/
+dom
+/
+Text
 .
 h
 "
@@ -28,7 +32,7 @@ class
 CDATASection
 :
 public
-nsGenericDOMDataNode
+Text
 public
 nsIDOMCDATASection
 {
@@ -43,7 +47,7 @@ nsINodeInfo
 aNodeInfo
 )
 :
-nsGenericDOMDataNode
+Text
 (
 aNodeInfo
 )
