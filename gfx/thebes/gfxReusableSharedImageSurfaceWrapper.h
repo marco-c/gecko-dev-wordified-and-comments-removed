@@ -96,6 +96,15 @@ ReadUnlock
 )
 MOZ_OVERRIDE
 ;
+Type
+GetType
+(
+)
+{
+return
+TYPE_SHARED_IMAGE
+;
+}
 mozilla
 :
 :

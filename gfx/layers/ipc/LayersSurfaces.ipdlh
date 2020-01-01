@@ -259,9 +259,17 @@ inverted
 }
 ;
 struct
-BasicTileDescriptor
+BasicShmTileDescriptor
 {
 Shmem
+reusableSurface
+;
+}
+;
+struct
+BasicTileDescriptor
+{
+uintptr_t
 reusableSurface
 ;
 }
@@ -275,6 +283,8 @@ union
 TileDescriptor
 {
 BasicTileDescriptor
+;
+BasicShmTileDescriptor
 ;
 PlaceholderTileDescriptor
 ;
