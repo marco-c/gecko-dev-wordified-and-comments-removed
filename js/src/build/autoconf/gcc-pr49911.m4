@@ -248,7 +248,6 @@ test
 ac_have_gcc_pr49911
 "
 =
-=
 "
 yes
 "
