@@ -1724,7 +1724,7 @@ nsIApplicationCacheContainer
 public
 nsStubMutationObserver
 public
-nsIDOMDocumentTouch
+nsITouchEventReceiver
 public
 nsIInlineEventHandlers
 public
@@ -2937,7 +2937,6 @@ MOZ_OVERRIDE
 ;
 NS_DECL_NSIAPPLICATIONCACHECONTAINER
 NS_DECL_NSITOUCHEVENTRECEIVER
-NS_DECL_NSIDOMDOCUMENTTOUCH
 NS_DECL_NSIINLINEEVENTHANDLERS
 NS_DECL_NSIOBSERVER
 virtual
