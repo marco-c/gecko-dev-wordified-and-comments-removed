@@ -17340,7 +17340,7 @@ getString
 "
 tabs
 .
-loading
+connecting
 "
 )
 )
