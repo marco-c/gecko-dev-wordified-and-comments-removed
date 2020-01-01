@@ -3805,7 +3805,6 @@ __declspec
 naked
 )
 void
-*
 JaegerInterpoline
 (
 )
@@ -3910,10 +3909,11 @@ __declspec
 naked
 )
 void
-*
 JaegerInterpolineScripted
 (
 )
+{
+__asm
 {
 mov
 [
@@ -3934,6 +3934,7 @@ esp
 jmp
 JaegerInterpoline
 ;
+}
 }
 }
 #

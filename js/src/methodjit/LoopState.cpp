@@ -7984,11 +7984,10 @@ ranInference
 temporariesStart
 =
 Max
+<
+uint32
+>
 (
-(
-unsigned
-long
-)
 temporariesStart
 ssa
 -

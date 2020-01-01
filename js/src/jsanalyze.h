@@ -62,7 +62,7 @@ analyze
 class
 SSAValue
 ;
-class
+struct
 SSAUseChain
 ;
 struct
@@ -2527,7 +2527,7 @@ class
 ScriptAnalysis
 {
 friend
-struct
+class
 Bytecode
 ;
 JSScript
