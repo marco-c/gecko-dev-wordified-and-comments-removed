@@ -862,6 +862,11 @@ this
 break
 ;
 }
+g_object_ref_sink
+(
+mNativeTarget
+)
+;
 g_signal_connect
 (
 G_OBJECT
@@ -952,6 +957,11 @@ nsNativeKeyBindings
 )
 {
 gtk_widget_destroy
+(
+mNativeTarget
+)
+;
+g_object_unref
 (
 mNativeTarget
 )
