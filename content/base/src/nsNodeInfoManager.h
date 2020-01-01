@@ -261,8 +261,6 @@ nsIDOMDocumentType
 *
 nsNodeInfoManager
 *
-nsIPrincipal
-*
 nsIAtom
 *
 const

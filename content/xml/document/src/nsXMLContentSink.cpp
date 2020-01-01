@@ -5250,7 +5250,6 @@ getter_AddRefs
 docType
 )
 mNodeInfoManager
-nsnull
 name
 aPublicId
 aSystemId

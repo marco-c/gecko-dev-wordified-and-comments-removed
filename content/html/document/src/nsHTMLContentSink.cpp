@@ -9789,7 +9789,6 @@ mDocument
 NodeInfoManager
 (
 )
-nsnull
 nameAtom
 publicId
 systemId

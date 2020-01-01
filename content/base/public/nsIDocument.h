@@ -4051,6 +4051,9 @@ nsIPrincipal
 aPrincipal
 PRBool
 aLoadedAsData
+nsIScriptGlobalObject
+*
+aEventObject
 )
 ;
 nsresult
