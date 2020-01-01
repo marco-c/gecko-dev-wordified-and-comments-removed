@@ -72,9 +72,6 @@ nsImageMap
 nsresult
 Init
 (
-nsIPresShell
-*
-aPresShell
 nsIFrame
 *
 aImageFrame
@@ -177,10 +174,6 @@ nsIContent
 *
 aContent
 )
-;
-nsIPresShell
-*
-mPresShell
 ;
 nsIFrame
 *

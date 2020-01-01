@@ -3311,10 +3311,6 @@ nsImageMap
 (
 )
 :
-mPresShell
-(
-nsnull
-)
 mImageFrame
 (
 nsnull
@@ -3595,9 +3591,6 @@ nsImageMap
 :
 Init
 (
-nsIPresShell
-*
-aPresShell
 nsIFrame
 *
 aImageFrame
@@ -3625,10 +3618,6 @@ return
 NS_ERROR_NULL_POINTER
 ;
 }
-mPresShell
-=
-aPresShell
-;
 mImageFrame
 =
 aImageFrame

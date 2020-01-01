@@ -809,6 +809,14 @@ doc2
 .
 html
 \
+test_bug591249
+.
+xul
+\
+bug591249_iframe
+.
+xul
+\
 bug602962
 .
 xul

@@ -23277,7 +23277,6 @@ currentEventFrame
 >
 GetContentForEvent
 (
-mPresContext
 aEvent
 &
 content
@@ -26223,7 +26222,6 @@ mCurrentEventFrame
 >
 GetContentForEvent
 (
-mPresContext
 aEvent
 getter_AddRefs
 (
@@ -27302,7 +27300,6 @@ mCurrentEventFrame
 >
 GetContentForEvent
 (
-mPresContext
 aEvent
 getter_AddRefs
 (

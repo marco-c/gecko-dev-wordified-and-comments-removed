@@ -1206,8 +1206,9 @@ nsIContent
 >
 mLastMouseOverElement
 ;
+static
 nsWeakFrame
-mLastDragOverFrame
+sLastDragOverFrame
 ;
 nsIntPoint
 mGestureDownPoint
@@ -1284,11 +1285,12 @@ nsIContent
 >
 mHoverContent
 ;
+static
 nsCOMPtr
 <
 nsIContent
 >
-mDragOverContent
+sDragOverContent
 ;
 nsCOMPtr
 <

@@ -2934,9 +2934,6 @@ aEventStatus
 NS_IMETHOD
 GetContentForEvent
 (
-nsPresContext
-*
-aPresContext
 nsEvent
 *
 aEvent

@@ -2687,9 +2687,6 @@ nsCanvasFrame
 :
 GetContentForEvent
 (
-nsPresContext
-*
-aPresContext
 nsEvent
 *
 aEvent
@@ -2712,7 +2709,6 @@ nsFrame
 :
 GetContentForEvent
 (
-aPresContext
 aEvent
 aContent
 )
@@ -2752,7 +2748,6 @@ kid
 >
 GetContentForEvent
 (
-aPresContext
 aEvent
 aContent
 )

@@ -1407,7 +1407,6 @@ targetFrame
 >
 GetContentForEvent
 (
-mPresContext
 mEvent
 getter_AddRefs
 (
