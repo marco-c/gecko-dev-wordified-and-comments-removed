@@ -274,6 +274,11 @@ hidehscroll
 "
 true
 "
+clickthrough
+=
+"
+never
+"
 >
 <
 children
