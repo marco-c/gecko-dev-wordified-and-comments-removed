@@ -61,13 +61,6 @@ h
 "
 #
 include
-"
-jsarray
-.
-h
-"
-#
-include
 <
 stdio
 .

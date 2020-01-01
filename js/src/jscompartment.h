@@ -21,13 +21,6 @@ h
 #
 include
 "
-jsmath
-.
-h
-"
-#
-include
-"
 jsobj
 .
 h
@@ -50,13 +43,6 @@ h
 include
 "
 jsclist
-.
-h
-"
-#
-include
-"
-jsxml
 .
 h
 "
@@ -804,6 +790,9 @@ iterobj
 ;
 }
 }
+;
+class
+MathCache
 ;
 class
 DtoaCache

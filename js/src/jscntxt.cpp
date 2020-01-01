@@ -121,6 +121,13 @@ h
 #
 include
 "
+jsdtoa
+.
+h
+"
+#
+include
+"
 jsexn
 .
 h

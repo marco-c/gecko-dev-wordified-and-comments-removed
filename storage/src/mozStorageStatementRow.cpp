@@ -33,13 +33,6 @@ jsapi
 .
 h
 "
-#
-include
-"
-jsdate
-.
-h
-"
 namespace
 mozilla
 {

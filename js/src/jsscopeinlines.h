@@ -12,6 +12,13 @@ new
 #
 include
 "
+jsarray
+.
+h
+"
+#
+include
+"
 jsbool
 .
 h
