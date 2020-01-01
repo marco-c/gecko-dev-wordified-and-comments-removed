@@ -743,6 +743,14 @@ slot
 /
 #
 define
+PND_USE2DEF_FLAGS
+(
+PND_ASSIGNED
+|
+PND_FUNARG
+)
+#
+define
 PNX_STRCAT
 0x01
 /
