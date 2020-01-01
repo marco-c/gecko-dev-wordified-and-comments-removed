@@ -58,7 +58,7 @@ jsm
 )
 ;
 const
-DEFAULT_UA
+HTTP_PROTO_HANDLER
 =
 Cc
 [
@@ -85,8 +85,6 @@ Ci
 .
 nsIHttpProtocolHandler
 )
-.
-userAgent
 ;
 function
 SiteSpecificUserAgent
@@ -117,7 +115,9 @@ aURI
 )
 |
 |
-DEFAULT_UA
+HTTP_PROTO_HANDLER
+.
+userAgent
 ;
 }
 classID
