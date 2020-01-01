@@ -47,13 +47,6 @@ widget
 TextView
 ;
 import
-android
-.
-util
-.
-Log
-;
-import
 java
 .
 lang

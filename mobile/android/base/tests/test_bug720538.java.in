@@ -11,13 +11,6 @@ ANDROID_PACKAGE_NAME
 .
 *
 ;
-import
-android
-.
-app
-.
-Instrumentation
-;
 public
 class
 test_bug720538

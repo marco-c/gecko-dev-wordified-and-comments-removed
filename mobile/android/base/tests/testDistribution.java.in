@@ -26,13 +26,6 @@ content
 SharedPreferences
 ;
 import
-android
-.
-util
-.
-Log
-;
-import
 java
 .
 io
@@ -45,13 +38,6 @@ java
 io
 .
 FileOutputStream
-;
-import
-java
-.
-io
-.
-IOException
 ;
 import
 java

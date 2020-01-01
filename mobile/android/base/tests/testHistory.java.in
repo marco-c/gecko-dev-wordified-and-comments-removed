@@ -35,13 +35,6 @@ ArrayList
 import
 android
 .
-widget
-.
-TabHost
-;
-import
-android
-.
 view
 .
 View
@@ -52,13 +45,6 @@ android
 view
 .
 ViewGroup
-;
-import
-android
-.
-util
-.
-Log
 ;
 public
 class

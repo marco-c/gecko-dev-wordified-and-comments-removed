@@ -116,13 +116,6 @@ android
 .
 app
 .
-NotificationManager
-;
-import
-android
-.
-app
-.
 PendingIntent
 ;
 import
@@ -383,13 +376,6 @@ android
 os
 .
 MessageQueue
-;
-import
-android
-.
-os
-.
-StatFs
 ;
 import
 android

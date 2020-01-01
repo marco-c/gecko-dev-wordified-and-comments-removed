@@ -7,11 +7,6 @@ ANDROID_PACKAGE_NAME
 tests
 ;
 import
-ANDROID_PACKAGE_NAME
-.
-*
-;
-import
 android
 .
 content
@@ -45,13 +40,6 @@ android
 os
 .
 SystemClock
-;
-import
-android
-.
-util
-.
-Log
 ;
 import
 java
