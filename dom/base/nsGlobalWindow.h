@@ -2598,11 +2598,6 @@ ScheduleActiveTimerCallback
 (
 )
 ;
-nsresult
-ScheduleIdleTimerCallback
-(
-)
-;
 PRUint32
 FindInsertionIndex
 (
