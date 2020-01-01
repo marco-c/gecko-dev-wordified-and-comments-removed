@@ -1,0 +1,13 @@
+"
+"
++
+{
+toString
+:
+Date
+.
+prototype
+.
+toJSON
+}
+;
