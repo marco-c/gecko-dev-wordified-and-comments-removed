@@ -2098,6 +2098,14 @@ rv
 rv
 )
 ;
+htmlDoc
+-
+>
+TearingDownEditor
+(
+editor
+)
+;
 if
 (
 mStateMaintainer
