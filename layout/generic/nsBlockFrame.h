@@ -1929,6 +1929,11 @@ mInOverflowLines
 nsnull
 ;
 }
+line_iterator
+End
+(
+)
+;
 PRBool
 Next
 (

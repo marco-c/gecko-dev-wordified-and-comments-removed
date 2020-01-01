@@ -331,6 +331,12 @@ GetIntrinsicWidth
 (
 )
 ;
+virtual
+nscoord
+GetIntrinsicHeight
+(
+)
+;
 PRBool
 mHaveReflowed
 ;
