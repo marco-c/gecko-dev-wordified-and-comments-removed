@@ -5501,6 +5501,9 @@ isInfallible
 bool
 isConstant
 ;
+JSValueType
+returnType
+;
 }
 ;
 static
