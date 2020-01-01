@@ -3430,6 +3430,8 @@ DownloadNext
 {
 nsresult
 rv
+=
+NS_OK
 ;
 mContentLength
 =
