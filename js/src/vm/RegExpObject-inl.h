@@ -208,17 +208,12 @@ JSContext
 *
 cx
 RegExpShared
-*
+&
 shared
 )
 {
-if
-(
 shared
-)
-shared
--
->
+.
 prepareForUse
 (
 cx
@@ -229,6 +224,7 @@ JSObject
 :
 setPrivate
 (
+&
 shared
 )
 ;

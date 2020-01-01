@@ -1555,7 +1555,7 @@ JSContext
 *
 cx
 RegExpShared
-*
+&
 shared
 )
 ;
