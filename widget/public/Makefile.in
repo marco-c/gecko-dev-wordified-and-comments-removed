@@ -440,10 +440,6 @@ nsEvent
 .
 h
 \
-nsIMouseListener
-.
-h
-\
 nsIEventListener
 .
 h

@@ -583,14 +583,6 @@ void
 )
 ;
 NS_IMETHOD
-AddMouseListener
-(
-nsIMouseListener
-*
-aListener
-)
-;
-NS_IMETHOD
 AddEventListener
 (
 nsIEventListener

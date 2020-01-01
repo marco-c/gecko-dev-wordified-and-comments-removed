@@ -38,9 +38,6 @@ class
 nsILookAndFeel
 ;
 class
-nsIMouseListener
-;
-class
 nsIToolkit
 ;
 class

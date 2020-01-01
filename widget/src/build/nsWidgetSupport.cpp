@@ -43,13 +43,6 @@ h
 #
 include
 "
-nsIMouseListener
-.
-h
-"
-#
-include
-"
 nsIToolkit
 .
 h

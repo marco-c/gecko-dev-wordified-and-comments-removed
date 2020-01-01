@@ -93,9 +93,6 @@ class
 gfxASurface
 ;
 class
-nsIMouseListener
-;
-class
 nsIContent
 ;
 typedef
@@ -1026,16 +1023,6 @@ aIsSynchronous
 NS_IMETHOD
 Update
 (
-)
-=
-0
-;
-NS_IMETHOD
-AddMouseListener
-(
-nsIMouseListener
-*
-aListener
 )
 =
 0
