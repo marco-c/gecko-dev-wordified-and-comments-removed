@@ -5296,7 +5296,7 @@ fun
 JSFunction
 *
 )
-JS_GetPrivate
+OBJ_GET_PRIVATE
 (
 cx
 varobj
