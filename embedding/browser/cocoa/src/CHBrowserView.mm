@@ -489,7 +489,7 @@ h
 #
 include
 "
-nsIDOMEventReceiver
+nsPIDOMEventTarget
 .
 h
 "
@@ -1085,9 +1085,9 @@ contentWindow
 ;
 nsCOMPtr
 <
-nsIDOMEventReceiver
+nsPIDOMEventTarget
 >
-rec
+target
 (
 do_QueryInterface
 (
@@ -1102,9 +1102,9 @@ GetChromeEventHandler
 ;
 if
 (
-rec
+target
 )
-rec
+target
 -
 >
 AddEventListenerByIID

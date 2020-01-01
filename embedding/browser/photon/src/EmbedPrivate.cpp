@@ -1190,9 +1190,9 @@ DetachListeners
 ;
 if
 (
-mEventReceiver
+mEventTarget
 )
-mEventReceiver
+mEventTarget
 =
 nsnull
 ;
@@ -2683,7 +2683,7 @@ GetListener
 if
 (
 !
-mEventReceiver
+mEventTarget
 )
 return
 ;
@@ -3024,7 +3024,7 @@ void
 {
 if
 (
-mEventReceiver
+mEventTarget
 )
 return
 ;
@@ -3049,7 +3049,7 @@ piWin
 )
 return
 ;
-mEventReceiver
+mEventTarget
 =
 do_QueryInterface
 (
@@ -3074,7 +3074,7 @@ void
 if
 (
 !
-mEventReceiver
+mEventTarget
 |
 |
 mListenersAttached
@@ -3102,7 +3102,7 @@ rv
 ;
 rv
 =
-mEventReceiver
+mEventTarget
 -
 >
 AddEventListenerByIID
@@ -3140,7 +3140,7 @@ return
 }
 rv
 =
-mEventReceiver
+mEventTarget
 -
 >
 AddEventListenerByIID
@@ -3197,7 +3197,7 @@ mListenersAttached
 |
 |
 !
-mEventReceiver
+mEventTarget
 )
 return
 ;
@@ -3222,7 +3222,7 @@ rv
 ;
 rv
 =
-mEventReceiver
+mEventTarget
 -
 >
 RemoveEventListenerByIID
@@ -3260,7 +3260,7 @@ return
 }
 rv
 =
-mEventReceiver
+mEventTarget
 -
 >
 RemoveEventListenerByIID

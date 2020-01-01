@@ -225,7 +225,7 @@ h
 #
 include
 <
-nsIDOMEventReceiver
+nsPIDOMEventTarget
 .
 h
 >
@@ -346,9 +346,9 @@ sessionHistory
 ;
 nsCOMPtr
 <
-nsIDOMEventReceiver
+nsPIDOMEventTarget
 >
-eventReceiver
+eventTarget
 ;
 PRUint32
 chromeMask
@@ -1984,7 +1984,7 @@ if
 d
 -
 >
-eventReceiver
+eventTarget
 )
 return
 ;
@@ -2129,7 +2129,7 @@ if
 d
 -
 >
-eventReceiver
+eventTarget
 )
 return
 ;
@@ -2157,7 +2157,7 @@ return
 d
 -
 >
-eventReceiver
+eventTarget
 =
 do_QueryInterface
 (
@@ -2184,7 +2184,7 @@ if
 d
 -
 >
-eventReceiver
+eventTarget
 |
 |
 d
@@ -2221,7 +2221,7 @@ rv
 d
 -
 >
-eventReceiver
+eventTarget
 -
 >
 AddEventListenerByIID
@@ -2262,7 +2262,7 @@ rv
 d
 -
 >
-eventReceiver
+eventTarget
 -
 >
 AddEventListenerByIID
@@ -2303,7 +2303,7 @@ rv
 d
 -
 >
-eventReceiver
+eventTarget
 -
 >
 AddEventListenerByIID

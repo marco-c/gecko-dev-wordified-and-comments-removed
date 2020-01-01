@@ -57,9 +57,6 @@ class
 nsITransferable
 ;
 class
-nsIDOMEventReceiver
-;
-class
 nsIDocumentEncoder
 ;
 class

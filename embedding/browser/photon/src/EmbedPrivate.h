@@ -70,7 +70,7 @@ h
 #
 include
 <
-nsIDOMEventReceiver
+nsPIDOMEventTarget
 .
 h
 >
@@ -487,9 +487,9 @@ mSessionHistory
 ;
 nsCOMPtr
 <
-nsIDOMEventReceiver
+nsPIDOMEventTarget
 >
-mEventReceiver
+mEventTarget
 ;
 nsString
 mURI
