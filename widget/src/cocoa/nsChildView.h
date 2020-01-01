@@ -1210,9 +1210,6 @@ gfxASurface
 mTempThebesSurface
 ;
 PRPackedBool
-mDestructorCalled
-;
-PRPackedBool
 mVisible
 ;
 PRPackedBool
