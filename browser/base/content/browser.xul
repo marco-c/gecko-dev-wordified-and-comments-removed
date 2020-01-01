@@ -1172,6 +1172,16 @@ hidden
 "
 true
 "
+onpopupshown
+=
+"
+PlacesCommandHook
+.
+editBookmarkPanelShown
+(
+)
+;
+"
 >
 <
 vbox
