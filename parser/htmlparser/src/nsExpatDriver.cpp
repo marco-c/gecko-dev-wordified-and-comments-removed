@@ -5215,6 +5215,13 @@ advance
 length
 )
 ;
+aScanner
+.
+EndReading
+(
+end
+)
+;
 }
 aScanner
 .
