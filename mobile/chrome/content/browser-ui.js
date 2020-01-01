@@ -831,6 +831,12 @@ restore
 (
 )
 ;
+Shortcuts
+.
+test
+(
+)
+;
 }
 update
 :
