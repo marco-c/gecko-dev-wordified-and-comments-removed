@@ -1605,6 +1605,10 @@ DOMCI_CLASS
 (
 MozIccManager
 )
+DOMCI_CLASS
+(
+MozStkCommandEvent
+)
 #
 endif
 #
