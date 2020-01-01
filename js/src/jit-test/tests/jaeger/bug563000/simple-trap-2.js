@@ -37,7 +37,7 @@ success
 trap
 (
 main
-7
+10
 "
 success
 (
