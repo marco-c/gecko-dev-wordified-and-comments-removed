@@ -338,6 +338,10 @@ aLineNumber
 nsresult
 FlushText
 (
+PRBool
+aReleaseTextNode
+=
+PR_TRUE
 )
 ;
 NS_IMETHOD
