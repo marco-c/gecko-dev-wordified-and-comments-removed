@@ -638,6 +638,10 @@ test_bug655297
 .
 html
 \
+test_bug691059
+.
+html
+\
 file_nodelists
 .
 html
