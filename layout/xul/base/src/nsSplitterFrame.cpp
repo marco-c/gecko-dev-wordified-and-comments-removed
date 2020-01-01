@@ -2075,6 +2075,14 @@ mChildInfosAfter
 =
 nsnull
 ;
+mChildInfosBeforeCount
+=
+0
+;
+mChildInfosAfterCount
+=
+0
+;
 }
 void
 nsSplitterFrameInner
