@@ -2096,6 +2096,10 @@ const
 jschar
 *
 s
+const
+jschar
+*
+end
 )
 ;
 extern
