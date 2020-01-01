@@ -207,11 +207,6 @@ nsComponentManagerUtils
 h
 '
 '
-nsCycleCollectionHoldDrop
-.
-h
-'
-'
 nsCycleCollectionNoteChild
 .
 h
@@ -452,6 +447,11 @@ h
 '
 '
 GenericFactory
+.
+h
+'
+'
+HoldDropJSObjects
 .
 h
 '

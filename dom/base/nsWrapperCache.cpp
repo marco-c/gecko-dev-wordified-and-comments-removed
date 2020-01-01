@@ -26,7 +26,9 @@ h
 #
 include
 "
-nsCycleCollectionHoldDrop
+mozilla
+/
+HoldDropJSObjects
 .
 h
 "
