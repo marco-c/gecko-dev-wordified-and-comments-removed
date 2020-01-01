@@ -34951,7 +34951,7 @@ ac_configure_args
 }
 tmpscript
 =
-python
+PYTHON
 -
 c
 '
