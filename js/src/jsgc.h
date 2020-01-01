@@ -4956,17 +4956,6 @@ xml
 }
 }
 ;
-JS_FRIEND_API
-(
-void
-)
-MarkWeakReferences
-(
-GCMarker
-*
-trc
-)
-;
 void
 MarkStackRangeConservatively
 (
