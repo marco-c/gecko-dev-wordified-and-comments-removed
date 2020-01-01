@@ -7957,6 +7957,18 @@ run
 int
 cmp_result
 ;
+JS_ASSERT_IF
+(
+JS_SORTING_VALUES
+elsize
+=
+=
+sizeof
+(
+Value
+)
+)
+;
 bool
 isValue
 =
@@ -9462,7 +9474,7 @@ elemsize
 sort_compare_strings
 cx
 mergesort_tmp
-JS_SORTING_VALUES
+JS_SORTING_GENERIC
 )
 )
 {
