@@ -1391,6 +1391,10 @@ WaveShaperNode
 .
 webidl
 \
+WaveTable
+.
+webidl
+\
 Window
 .
 webidl

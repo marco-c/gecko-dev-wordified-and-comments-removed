@@ -319,6 +319,10 @@ test_waveShaperZeroLengthCurve
 .
 html
 \
+test_waveTable
+.
+html
+\
 ting
 .
 ogg

@@ -250,6 +250,11 @@ WaveShaperNode
 .
 h
 '
+'
+WaveTable
+.
+h
+'
 ]
 CPP_SOURCES
 +
@@ -362,6 +367,11 @@ cpp
 '
 '
 WaveShaperNode
+.
+cpp
+'
+'
+WaveTable
 .
 cpp
 '
