@@ -97,6 +97,16 @@ nsIObserver
 aObserver
 )
 ;
+void
+DisableIdleTimeout
+(
+)
+;
+void
+EnableIdleTimeout
+(
+)
+;
 private
 :
 ~
@@ -182,6 +192,9 @@ mShutdown
 ;
 PRPackedBool
 mThreadIsShuttingDown
+;
+PRPackedBool
+mIdleTimeoutEnabled
 ;
 }
 ;
