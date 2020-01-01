@@ -1205,9 +1205,11 @@ rhs
 (
 )
 )
-tempFixed
+LDefinition
+:
+:
+BogusTemp
 (
-edx
 )
 )
 ;

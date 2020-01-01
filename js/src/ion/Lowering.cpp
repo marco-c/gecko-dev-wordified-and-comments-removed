@@ -2734,6 +2734,13 @@ add
 lir
 ins
 )
+&
+&
+assignSafepoint
+(
+lir
+ins
+)
 ;
 }
 bool
