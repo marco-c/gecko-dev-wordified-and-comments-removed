@@ -148,6 +148,14 @@ NULL
 XPIDLSRCS
 =
 \
+nsIDashboard
+.
+idl
+\
+nsIDashboardEventNotifier
+.
+idl
+\
 nsIApplicationCache
 .
 idl

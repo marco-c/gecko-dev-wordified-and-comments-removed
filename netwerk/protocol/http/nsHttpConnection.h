@@ -459,6 +459,15 @@ return
 mEverUsedSpdy
 ;
 }
+PRIntervalTime
+Rtt
+(
+)
+{
+return
+mRtt
+;
+}
 bool
 ReportedNPN
 (

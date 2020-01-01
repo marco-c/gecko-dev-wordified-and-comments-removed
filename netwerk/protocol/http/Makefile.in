@@ -189,6 +189,10 @@ PHttpChannelParams
 .
 h
 \
+HttpInfo
+.
+h
+\
 (
 NULL
 )
@@ -306,6 +310,10 @@ HttpChannelChild
 cpp
 \
 HttpChannelParentListener
+.
+cpp
+\
+HttpInfo
 .
 cpp
 \
