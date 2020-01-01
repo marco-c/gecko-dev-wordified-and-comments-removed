@@ -2679,6 +2679,12 @@ mTarget
 !
 =
 sErrorTarget
+&
+&
+mTarget
+!
+=
+nullptr
 ;
 }
 mozilla
