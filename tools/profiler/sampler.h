@@ -73,6 +73,12 @@ time
 NULL
 #
 define
+SAMPLER_FRAME_NUMBER
+(
+frameNumber
+)
+#
+define
 SAMPLER_GET_RESPONSIVENESS
 (
 )
