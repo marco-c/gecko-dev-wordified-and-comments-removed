@@ -24,6 +24,8 @@ member_
 type_
 kwtable_
 stylestruct_
+stylestructoffset_
+animtype_
 )
 eCSSProperty_
 #

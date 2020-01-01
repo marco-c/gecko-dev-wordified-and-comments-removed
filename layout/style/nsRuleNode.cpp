@@ -5255,6 +5255,8 @@ datastruct_
 member_
 type_
 kwtable_
+stylestructoffset_
+animtype_
 )
 \
 {
