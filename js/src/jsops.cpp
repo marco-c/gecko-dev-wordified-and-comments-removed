@@ -13331,7 +13331,7 @@ lval
 &
 &
 !
-JSVAL_IS_BOOLEAN
+JSVAL_IS_SPECIAL
 (
 lval
 )
