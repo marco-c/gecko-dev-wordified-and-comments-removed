@@ -835,6 +835,9 @@ WriteRegStr2
 insertmacro
 WriteRegDWORD2
 !
+insertmacro
+CheckIfRegistryKeyExists
+!
 include
 shared
 .
