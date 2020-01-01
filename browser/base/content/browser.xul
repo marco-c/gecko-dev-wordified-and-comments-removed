@@ -5870,6 +5870,17 @@ lockiconsize
 "
 true
 "
+aria
+-
+label
+=
+"
+&
+tabsToolbar
+.
+label
+;
+"
 context
 =
 "
