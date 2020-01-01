@@ -2365,7 +2365,7 @@ android
 scaleType
 "
 >
-centerCrop
+fitCenter
 <
 /
 item

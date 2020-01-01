@@ -1082,9 +1082,6 @@ URL
 Combined
 .
 TITLE
-Combined
-.
-THUMBNAIL
 }
 "
 "
