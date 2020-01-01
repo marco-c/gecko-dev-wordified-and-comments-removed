@@ -11848,12 +11848,12 @@ nullptr
 ;
 }
 }
-mozilla
-:
-:
 CycleCollectedJSRuntime
 *
-nsCycleCollector_currentJSRuntime
+CycleCollectedJSRuntime
+:
+:
+Get
 (
 )
 {

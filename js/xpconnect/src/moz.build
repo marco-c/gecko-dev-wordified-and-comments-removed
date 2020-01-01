@@ -228,11 +228,6 @@ XPCRuntimeService
 cpp
 '
 '
-XPCStack
-.
-cpp
-'
-'
 XPCString
 .
 cpp

@@ -16,10 +16,6 @@ DOMConstructor
 )
 DOMCI_CLASS
 (
-DOMException
-)
-DOMCI_CLASS
-(
 DeviceAcceleration
 )
 DOMCI_CLASS

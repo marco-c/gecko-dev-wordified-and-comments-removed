@@ -5949,6 +5949,11 @@ XPCJSRuntime
 (
 )
 {
+SetPendingException
+(
+nullptr
+)
+;
 JS
 :
 :

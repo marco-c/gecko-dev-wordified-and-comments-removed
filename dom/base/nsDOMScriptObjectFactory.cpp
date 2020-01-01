@@ -36,13 +36,6 @@ h
 #
 include
 "
-nsDOMException
-.
-h
-"
-#
-include
-"
 nsCRT
 .
 h

@@ -166,11 +166,6 @@ nsDOMClassInfoID
 h
 '
 '
-nsDOMException
-.
-h
-'
-'
 nsDOMJSUtils
 .
 h
@@ -320,6 +315,11 @@ DOMError
 h
 '
 '
+DOMException
+.
+h
+'
+'
 DOMRequest
 .
 h
@@ -375,6 +375,11 @@ DOMError
 cpp
 '
 '
+DOMException
+.
+cpp
+'
+'
 DOMRequest
 .
 cpp
@@ -401,11 +406,6 @@ cpp
 '
 '
 nsDOMClassInfo
-.
-cpp
-'
-'
-nsDOMException
 .
 cpp
 '
