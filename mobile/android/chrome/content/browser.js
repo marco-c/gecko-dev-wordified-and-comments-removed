@@ -20037,6 +20037,12 @@ allowPopupsForSite
 true
 )
 ;
+PopupBlockerObserver
+.
+showPopupsForSite
+(
+)
+;
 }
 }
 {
