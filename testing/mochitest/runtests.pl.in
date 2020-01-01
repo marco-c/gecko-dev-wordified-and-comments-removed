@@ -1526,6 +1526,7 @@ the
 profile
 and
 manifest
+#
 rmtree
 (
 profile_dir
@@ -3937,6 +3938,18 @@ buildbot
 /
 tinderbox
 logging
+#
+ENV
+{
+'
+XPCOM_DEBUG_BREAK
+'
+}
+=
+'
+stack
+'
+;
 open
 (
 STDERR
