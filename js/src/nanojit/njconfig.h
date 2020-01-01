@@ -64,6 +64,11 @@ soft_float
 :
 1
 ;
+uint32_t
+harden_function_alignment
+:
+1
+;
 }
 ;
 }

@@ -260,6 +260,10 @@ false
 ;
 #
 endif
+harden_function_alignment
+=
+false
+;
 #
 if
 defined
