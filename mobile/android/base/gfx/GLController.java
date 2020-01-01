@@ -139,7 +139,7 @@ GeckoGLController
 "
 ;
 private
-FlexibleGLSurfaceView
+LayerView
 mView
 ;
 private
@@ -226,7 +226,7 @@ EGL_NONE
 public
 GLController
 (
-FlexibleGLSurfaceView
+LayerView
 view
 )
 {
@@ -311,7 +311,7 @@ mEGLSurface
 ;
 }
 public
-FlexibleGLSurfaceView
+LayerView
 getView
 (
 )

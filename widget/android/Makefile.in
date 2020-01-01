@@ -475,7 +475,7 @@ AndroidDirectTexture
 .
 cpp
 \
-AndroidFlexViewWrapper
+AndroidLayerViewWrapper
 .
 cpp
 \
@@ -588,7 +588,7 @@ h
 AndroidJavaWrappers
 .
 h
-AndroidFlexViewWrapper
+AndroidLayerViewWrapper
 .
 h
 include
