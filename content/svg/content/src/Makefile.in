@@ -313,10 +313,6 @@ nsSVGPolylineElement
 .
 cpp
 \
-nsSVGScriptElement
-.
-cpp
-\
 nsSVGString
 .
 cpp
@@ -549,6 +545,10 @@ SVGPointListSMILType
 .
 cpp
 \
+SVGScriptElement
+.
+cpp
+\
 SVGStopElement
 .
 cpp
@@ -651,6 +651,10 @@ SVGMetadataElement
 h
 \
 SVGMPathElement
+.
+h
+\
+SVGScriptElement
 .
 h
 \

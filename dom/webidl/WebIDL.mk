@@ -475,6 +475,10 @@ SVGPreserveAspectRatio
 .
 webidl
 \
+SVGScriptElement
+.
+webidl
+\
 SVGStopElement
 .
 webidl
