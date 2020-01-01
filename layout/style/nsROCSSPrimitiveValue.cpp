@@ -1828,10 +1828,8 @@ return
 nullptr
 ;
 }
-already_AddRefed
-<
 nsDOMCSSRect
->
+*
 nsROCSSPrimitiveValue
 :
 :
@@ -1877,13 +1875,6 @@ null
 "
 )
 ;
-NS_ADDREF
-(
-mValue
-.
-mRect
-)
-;
 return
 mValue
 .
@@ -1905,6 +1896,8 @@ aRect
 ErrorResult
 error
 ;
+NS_IF_ADDREF
+(
 *
 aRect
 =
@@ -1912,9 +1905,6 @@ GetRectValue
 (
 error
 )
-.
-get
-(
 )
 ;
 return
