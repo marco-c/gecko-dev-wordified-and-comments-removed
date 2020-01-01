@@ -527,10 +527,6 @@ StackFrame
 *
 entryfp_
 ;
-FrameRegs
-&
-oldFrameRegs_
-;
 BailoutClosure
 *
 bailout_
@@ -636,16 +632,6 @@ return
 maybeTakeBailout
 (
 )
-;
-}
-FrameRegs
-&
-oldFrameRegs
-(
-)
-{
-return
-oldFrameRegs_
 ;
 }
 }
