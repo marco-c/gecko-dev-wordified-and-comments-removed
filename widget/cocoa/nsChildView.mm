@@ -10686,7 +10686,7 @@ void
 nsChildView
 :
 :
-DrawOver
+DrawWindowOverlay
 (
 LayerManager
 *

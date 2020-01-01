@@ -6631,7 +6631,7 @@ GetStyleContext
 )
 )
 {
-nsRect
+nsIntRect
 damageArea
 (
 0

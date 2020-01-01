@@ -455,7 +455,7 @@ CreateCompositor
 ;
 virtual
 void
-DrawOver
+DrawWindowOverlay
 (
 LayerManager
 *

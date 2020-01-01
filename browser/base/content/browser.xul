@@ -5401,7 +5401,7 @@ center
 "
 >
 <
-stack
+hbox
 id
 =
 "
@@ -5459,7 +5459,7 @@ src
 >
 <
 /
-stack
+hbox
 >
 <
 hbox

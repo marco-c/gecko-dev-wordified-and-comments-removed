@@ -1177,6 +1177,10 @@ test_bug646757
 .
 html
 \
+test_bug718809
+.
+html
+\
 test_font_inflation_reftests
 .
 html

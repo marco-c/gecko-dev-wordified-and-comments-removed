@@ -758,7 +758,7 @@ void
 AddBCDamageArea
 (
 const
-nsRect
+nsIntRect
 &
 aValue
 )
@@ -1786,7 +1786,7 @@ CalcBCBorders
 void
 ExpandBCDamageArea
 (
-nsRect
+nsIntRect
 &
 aRect
 )
