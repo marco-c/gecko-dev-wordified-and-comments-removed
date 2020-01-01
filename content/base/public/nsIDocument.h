@@ -1493,6 +1493,7 @@ aPrincipal
 =
 0
 ;
+virtual
 void
 SetContainer
 (
@@ -1500,15 +1501,7 @@ nsISupports
 *
 aContainer
 )
-{
-mDocumentContainer
-=
-do_GetWeakReference
-(
-aContainer
-)
 ;
-}
 already_AddRefed
 <
 nsISupports

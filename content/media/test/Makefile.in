@@ -721,6 +721,10 @@ manifest
 .
 js
 \
+reactivate_helper
+.
+html
+\
 seek1
 .
 js
@@ -830,6 +834,10 @@ test_playback
 html
 \
 test_playback_errors
+.
+html
+\
+test_reactivate
 .
 html
 \
