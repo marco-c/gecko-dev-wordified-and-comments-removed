@@ -769,6 +769,8 @@ footer
 class
 IonNativeExitFrameLayout
 {
+protected
+:
 IonExitFooterFrame
 footer_
 ;
@@ -849,6 +851,8 @@ argc_
 class
 IonDOMExitFrameLayout
 {
+protected
+:
 IonExitFooterFrame
 footer_
 ;
@@ -966,6 +970,8 @@ ION_FRAME_DOMMETHOD
 class
 IonDOMMethodExitFrameLayout
 {
+protected
+:
 IonExitFooterFrame
 footer_
 ;
