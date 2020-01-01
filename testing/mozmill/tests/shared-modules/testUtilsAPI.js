@@ -694,9 +694,11 @@ res
 /
 dtd
 /
-xhtml11
+htmlmathml
+-
+f
 .
-dtd
+ent
 "
 )
 ;

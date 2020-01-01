@@ -513,9 +513,11 @@ EXPORT_RESOURCE_CONTENT
 srcdir
 )
 /
-xhtml11
+htmlmathml
+-
+f
 .
-dtd
+ent
 \
 (
 NULL
