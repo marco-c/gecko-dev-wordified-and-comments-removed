@@ -18823,6 +18823,14 @@ smoothScroll
 let
 selected
 =
+!
+this
+.
+selectedItem
+.
+pinned
+&
+&
 this
 .
 selectedItem
@@ -18849,6 +18857,10 @@ visible
 ?
 if
 (
+!
+selected
+|
+|
 Math
 .
 max
