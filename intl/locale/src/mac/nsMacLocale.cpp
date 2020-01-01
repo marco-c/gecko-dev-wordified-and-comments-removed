@@ -958,7 +958,7 @@ verJapan
 }
 {
 "
-KP
+KR
 "
 verKorea
 }
