@@ -83,7 +83,7 @@ class
 AnyContextFlags
 {
 friend
-struct
+class
 SharedContext
 ;
 bool
@@ -118,7 +118,7 @@ class
 FunctionContextFlags
 {
 friend
-struct
+class
 FunctionBox
 ;
 bool

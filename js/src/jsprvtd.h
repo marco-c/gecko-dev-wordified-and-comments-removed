@@ -377,7 +377,7 @@ BytecodeEmitter
 struct
 Definition
 ;
-struct
+class
 FunctionBox
 ;
 struct

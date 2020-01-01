@@ -129,7 +129,7 @@ FuncStmtSet
 struct
 Parser
 ;
-struct
+class
 SharedContext
 ;
 typedef
