@@ -253,7 +253,7 @@ nsresult
 GetConnectedDevicePropertiesInternal
 (
 uint16_t
-aProfileId
+aServiceUuid
 BluetoothReplyRunnable
 *
 aRunnable
@@ -471,8 +471,10 @@ const
 nsAString
 &
 aDeviceAddress
+uint32_t
+aCod
 uint16_t
-aProfileId
+aServiceUuid
 BluetoothReplyRunnable
 *
 aRunnable
@@ -484,8 +486,12 @@ virtual
 void
 Disconnect
 (
+const
+nsAString
+&
+aDeviceAddress
 uint16_t
-aProfileId
+aServiceUuid
 BluetoothReplyRunnable
 *
 aRunnable
@@ -498,7 +504,7 @@ bool
 IsConnected
 (
 uint16_t
-aProfileId
+aServiceUuid
 )
 =
 0

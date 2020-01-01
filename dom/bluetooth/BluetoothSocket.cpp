@@ -327,7 +327,7 @@ mObserver
 mObserver
 -
 >
-OnConnectSuccess
+OnSocketConnectSuccess
 (
 this
 )
@@ -356,7 +356,7 @@ mObserver
 mObserver
 -
 >
-OnConnectError
+OnSocketConnectError
 (
 this
 )
@@ -385,7 +385,7 @@ mObserver
 mObserver
 -
 >
-OnDisconnect
+OnSocketDisconnect
 (
 this
 )

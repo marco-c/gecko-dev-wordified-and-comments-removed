@@ -1681,7 +1681,7 @@ GetConnectedDevicePropertiesInternal
 (
 aRequest
 .
-profileId
+serviceUuid
 (
 )
 mReplyRunnable
@@ -1985,7 +1985,12 @@ address
 )
 aRequest
 .
-profileId
+cod
+(
+)
+aRequest
+.
+serviceUuid
 (
 )
 mReplyRunnable
@@ -2034,7 +2039,12 @@ Disconnect
 (
 aRequest
 .
-profileId
+address
+(
+)
+aRequest
+.
+serviceUuid
 (
 )
 mReplyRunnable

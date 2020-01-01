@@ -304,6 +304,11 @@ BluetoothSocket
 .
 cpp
 '
+'
+BluetoothProfileController
+.
+cpp
+'
 ]
 if
 CONFIG

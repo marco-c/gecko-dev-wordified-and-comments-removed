@@ -67,6 +67,14 @@ nsAString
 aUuidStr
 )
 ;
+static
+BluetoothServiceClass
+GetBluetoothServiceClass
+(
+uint16_t
+aProfileId
+)
+;
 }
 ;
 enum

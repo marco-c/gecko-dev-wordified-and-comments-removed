@@ -57,7 +57,7 @@ aMessage
 ;
 virtual
 void
-OnConnectSuccess
+OnSocketConnectSuccess
 (
 BluetoothSocket
 *
@@ -68,7 +68,7 @@ aSocket
 ;
 virtual
 void
-OnConnectError
+OnSocketConnectError
 (
 BluetoothSocket
 *
@@ -79,7 +79,7 @@ aSocket
 ;
 virtual
 void
-OnDisconnect
+OnSocketDisconnect
 (
 BluetoothSocket
 *

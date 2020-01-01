@@ -355,7 +355,7 @@ BluetoothServiceChildProcess
 GetConnectedDevicePropertiesInternal
 (
 uint16_t
-aProfileId
+aServiceUuid
 BluetoothReplyRunnable
 *
 aRunnable
@@ -366,7 +366,7 @@ SendRequest
 aRunnable
 ConnectedDevicePropertiesRequest
 (
-aProfileId
+aServiceUuid
 )
 )
 ;
@@ -855,9 +855,10 @@ const
 nsAString
 &
 aDeviceAddress
-const
+uint32_t
+aCod
 uint16_t
-aProfileId
+aServiceUuid
 BluetoothReplyRunnable
 *
 aRunnable
@@ -872,7 +873,8 @@ nsString
 (
 aDeviceAddress
 )
-aProfileId
+aCod
+aServiceUuid
 )
 )
 ;
@@ -884,8 +886,11 @@ BluetoothServiceChildProcess
 Disconnect
 (
 const
+nsAString
+&
+aDeviceAddress
 uint16_t
-aProfileId
+aServiceUuid
 BluetoothReplyRunnable
 *
 aRunnable
@@ -896,7 +901,11 @@ SendRequest
 aRunnable
 DisconnectRequest
 (
-aProfileId
+nsString
+(
+aDeviceAddress
+)
+aServiceUuid
 )
 )
 ;
@@ -1269,7 +1278,7 @@ BluetoothServiceChildProcess
 IsConnected
 (
 uint16_t
-aProfileId
+aServiceUuid
 )
 {
 MOZ_CRASH

@@ -122,7 +122,7 @@ nsresult
 GetConnectedDevicePropertiesInternal
 (
 uint16_t
-aProfileId
+aServiceUuid
 BluetoothReplyRunnable
 *
 aRunnable
@@ -327,9 +327,10 @@ const
 nsAString
 &
 aDeviceAddress
-const
+uint32_t
+aCod
 uint16_t
-aProfileId
+aServiceUuid
 BluetoothReplyRunnable
 *
 aRunnable
@@ -341,8 +342,11 @@ void
 Disconnect
 (
 const
+nsAString
+&
+aDeviceAddress
 uint16_t
-aProfileId
+aServiceUuid
 BluetoothReplyRunnable
 *
 aRunnable
@@ -354,7 +358,7 @@ bool
 IsConnected
 (
 uint16_t
-aProfileId
+aServiceUuid
 )
 MOZ_OVERRIDE
 ;
