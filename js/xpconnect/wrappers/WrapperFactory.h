@@ -1,4 +1,10 @@
 #
+ifndef
+_xpc_WRAPPERFACTORY_H
+#
+define
+_xpc_WRAPPERFACTORY_H
+#
 include
 "
 jsapi
@@ -272,3 +278,5 @@ Wrapper
 WaiveXrayWrapperWrapper
 ;
 }
+#
+endif

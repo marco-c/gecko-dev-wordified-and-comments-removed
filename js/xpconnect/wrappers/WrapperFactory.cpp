@@ -1,13 +1,6 @@
 #
 include
 "
-WrapperFactory
-.
-h
-"
-#
-include
-"
 CrossOriginWrapper
 .
 h
@@ -1660,7 +1653,7 @@ wrapper
 FilteringWrapper
 <
 Xray
-SameOriginOrCrossOriginAccessiblePropertiesOnly
+LocationPolicy
 >
 :
 :
@@ -1763,7 +1756,7 @@ XrayWrapper
 <
 SameCompartmentSecurityWrapper
 >
-SameOriginOrCrossOriginAccessiblePropertiesOnly
+LocationPolicy
 >
 LW
 ;

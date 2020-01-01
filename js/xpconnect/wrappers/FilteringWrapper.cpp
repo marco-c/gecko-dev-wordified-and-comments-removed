@@ -597,7 +597,7 @@ XrayWrapper
 SameCompartmentSecurityWrapper
 >
 \
-SameOriginOrCrossOriginAccessiblePropertiesOnly
+LocationPolicy
 >
 #
 define
@@ -609,7 +609,7 @@ XrayWrapper
 CrossCompartmentSecurityWrapper
 >
 \
-SameOriginOrCrossOriginAccessiblePropertiesOnly
+LocationPolicy
 >
 template
 <
