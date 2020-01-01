@@ -10932,6 +10932,11 @@ canDrop
 aDragSession
 .
 sourceNode
+&
+&
+aDragSession
+.
+sourceNode
 .
 parentNode
 =
