@@ -187,6 +187,10 @@ NS_LITERAL_STRING
 low
 -
 memory
+-
+no
+-
+forward
 "
 )
 .
