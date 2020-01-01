@@ -43,6 +43,11 @@ DivPowTwoI
 \
 _
 (
+DivSelfI
+)
+\
+_
+(
 ModI
 )
 \
