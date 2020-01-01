@@ -12,6 +12,13 @@ nsISupports
 h
 "
 #
+include
+"
+nsEvent
+.
+h
+"
+#
 define
 NS_INATIVEKEYBINDINGS_IID
 \
@@ -55,6 +62,10 @@ type
 struct
 nsNativeKeyEvent
 {
+nsEvent
+*
+nativeEvent
+;
 PRUint32
 keyCode
 ;
