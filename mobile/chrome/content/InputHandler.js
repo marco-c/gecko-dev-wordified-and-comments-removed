@@ -42,6 +42,12 @@ break
 ;
 }
 else
+if
+(
+elem
+.
+boxObject
+)
 {
 scrollbox
 =
