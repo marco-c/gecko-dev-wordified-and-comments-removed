@@ -747,7 +747,7 @@ aGlobalObjectOwner
 :
 mJSObject
 (
-nsnull
+nullptr
 )
 mGlobalObjectOwner
 (
@@ -1101,7 +1101,7 @@ cx
 &
 gSharedGlobalClass
 principal
-nsnull
+nullptr
 false
 &
 mJSObject
@@ -1201,7 +1201,7 @@ JS
 NS_ENSURE_SUCCESS
 (
 rv
-nsnull
+nullptr
 )
 ;
 NS_ASSERTION
@@ -1234,7 +1234,7 @@ ClearGlobalObjectOwner
 {
 mGlobalObjectOwner
 =
-nsnull
+nullptr
 ;
 }
 void
@@ -1277,7 +1277,7 @@ if
 mScriptContext
 )
 return
-nsnull
+nullptr
 ;
 JSContext
 *
@@ -1296,7 +1296,7 @@ if
 cx
 )
 return
-nsnull
+nullptr
 ;
 JSObject
 *
@@ -1389,7 +1389,7 @@ mGlobalObjectOwner
 )
 {
 return
-nsnull
+nullptr
 ;
 }
 nsRefPtr
@@ -1665,7 +1665,7 @@ mBindingTable
 Enumerate
 (
 UnlinkProtoJSObjects
-nsnull
+nullptr
 )
 ;
 }
@@ -1864,7 +1864,7 @@ proto
 Trace
 (
 UnmarkXBLJSObject
-nsnull
+nullptr
 )
 ;
 return
@@ -1906,7 +1906,7 @@ mBindingTable
 Enumerate
 (
 UnmarkProtos
-nsnull
+nullptr
 )
 ;
 }
@@ -1974,11 +1974,11 @@ false
 )
 mBindingTable
 (
-nsnull
+nullptr
 )
 mFirstBinding
 (
-nsnull
+nullptr
 )
 {
 nsIURI
@@ -2224,10 +2224,10 @@ mBindingTable
 new
 nsObjectHashtable
 (
-nsnull
-nsnull
+nullptr
+nullptr
 DeletePrototypeBinding
-nsnull
+nullptr
 )
 ;
 NS_HOLD_JS_OBJECTS
@@ -2389,7 +2389,7 @@ aDocInfo
 *
 aDocInfo
 =
-nsnull
+nullptr
 ;
 nsCAutoString
 spec
@@ -2574,7 +2574,7 @@ getter_AddRefs
 domdoc
 )
 aURI
-nsnull
+nullptr
 principal
 )
 ;
@@ -3009,7 +3009,7 @@ if
 global
 )
 return
-nsnull
+nullptr
 ;
 mGlobalObject
 =

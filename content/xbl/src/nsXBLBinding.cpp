@@ -1909,7 +1909,7 @@ aBinding
 )
 mInsertionPointTable
 (
-nsnull
+nullptr
 )
 {
 NS_ASSERTION
@@ -2106,7 +2106,7 @@ tmp
 >
 mInsertionPointTable
 =
-nsnull
+nullptr
 ;
 NS_IMPL_CYCLE_COLLECTION_UNLINK_END
 NS_IMPL_CYCLE_COLLECTION_TRAVERSE_NATIVE_BEGIN
@@ -2787,7 +2787,7 @@ nsXBLInsertionPoint
 *
 pseudoPoint
 =
-nsnull
+nullptr
 ;
 PRUint32
 childCount
@@ -2906,7 +2906,7 @@ GetInsertionIndex
 }
 pseudoPoint
 =
-nsnull
+nullptr
 ;
 }
 if
@@ -2926,7 +2926,7 @@ PRUint32
 )
 -
 1
-nsnull
+nullptr
 )
 ;
 if
@@ -3908,7 +3908,7 @@ nsInsertionPointList
 *
 arr
 =
-nsnull
+nullptr
 ;
 GetInsertionPointsFor
 (
@@ -3921,7 +3921,7 @@ nsXBLInsertionPoint
 *
 insertionPoint
 =
-nsnull
+nullptr
 ;
 PRInt32
 arrCount
@@ -3974,7 +3974,7 @@ break
 ;
 insertionPoint
 =
-nsnull
+nullptr
 ;
 }
 if
@@ -4054,7 +4054,7 @@ mContent
 ;
 mContent
 =
-nsnull
+nullptr
 ;
 bindingManager
 -
@@ -4062,7 +4062,7 @@ bindingManager
 SetContentListFor
 (
 mBoundElement
-nsnull
+nullptr
 )
 ;
 bindingManager
@@ -4071,7 +4071,7 @@ bindingManager
 SetAnonymousNodesFor
 (
 mBoundElement
-nsnull
+nullptr
 )
 ;
 return
@@ -4086,7 +4086,7 @@ nsInsertionPointList
 *
 arr
 =
-nsnull
+nullptr
 ;
 GetInsertionPointsFor
 (
@@ -5509,7 +5509,7 @@ scriptObject
 else
 scriptObject
 =
-nsnull
+nullptr
 ;
 if
 (
@@ -5778,7 +5778,7 @@ mInsertionPointTable
 Enumerate
 (
 ChangeDocumentForDefaultContent
-nsnull
+nullptr
 )
 ;
 nsXBLBinding
@@ -5833,7 +5833,7 @@ bindingManager
 SetInsertionParent
 (
 child
-nsnull
+nullptr
 )
 ;
 }
@@ -5969,7 +5969,7 @@ JSObject
 *
 parent_proto
 =
-nsnull
+nullptr
 ;
 JSAutoRequest
 ar
@@ -6341,12 +6341,12 @@ cx
 global
 parent_proto
 c
-nsnull
+nullptr
 0
-nsnull
-nsnull
-nsnull
-nsnull
+nullptr
+nullptr
+nullptr
+nullptr
 )
 ;
 if
@@ -6514,7 +6514,7 @@ OwnerDoc
 (
 )
 :
-nsnull
+nullptr
 ;
 if
 (
@@ -6733,7 +6733,7 @@ nsInsertionPointList
 *
 list
 =
-nsnull
+nullptr
 ;
 mInsertionPointTable
 -
@@ -6872,7 +6872,7 @@ nsInsertionPointList
 *
 list
 =
-nsnull
+nullptr
 ;
 mInsertionPointTable
 -
@@ -7014,14 +7014,14 @@ mInsertionPointTable
 )
 {
 return
-nsnull
+nullptr
 ;
 }
 nsInsertionPointList
 *
 result
 =
-nsnull
+nullptr
 ;
 mInsertionPointTable
 -
@@ -7086,7 +7086,7 @@ aIndex
 )
 ;
 return
-nsnull
+nullptr
 ;
 }
 nsIContent
@@ -7142,7 +7142,7 @@ aMultipleInsertionPoints
 )
 ;
 return
-nsnull
+nullptr
 ;
 }
 nsXBLBinding
@@ -7196,7 +7196,7 @@ GetFirstStyleBinding
 (
 )
 :
-nsnull
+nullptr
 ;
 }
 bool
@@ -7339,6 +7339,6 @@ GetAnonymousNodes
 )
 ;
 return
-nsnull
+nullptr
 ;
 }

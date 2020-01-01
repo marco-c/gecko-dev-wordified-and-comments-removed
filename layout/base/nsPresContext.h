@@ -801,7 +801,7 @@ aSize
 )
 ;
 return
-nsnull
+nullptr
 ;
 }
 void
@@ -1594,7 +1594,7 @@ bool
 *
 aChanged
 =
-nsnull
+nullptr
 )
 ;
 static
@@ -3157,7 +3157,7 @@ LangGroupFontPrefs
 :
 mLangGroup
 (
-nsnull
+nullptr
 )
 mMinimumFontSize
 (
@@ -3353,13 +3353,13 @@ mLangGroupFontPrefs
 .
 mNext
 =
-nsnull
+nullptr
 ;
 mLangGroupFontPrefs
 .
 mLangGroup
 =
-nsnull
+nullptr
 ;
 }
 NS_HIDDEN_
@@ -3936,7 +3936,7 @@ Cancel
 ;
 mNotifyDidPaintTimer
 =
-nsnull
+nullptr
 ;
 }
 }
@@ -4089,7 +4089,7 @@ Revoke
 {
 mPresContext
 =
-nsnull
+nullptr
 ;
 }
 NS_IMETHOD
@@ -4143,7 +4143,7 @@ Cancel
 ;
 mUpdatePluginGeometryTimer
 =
-nsnull
+nullptr
 ;
 }
 }

@@ -816,7 +816,7 @@ nsHTMLEditRules
 :
 mDocChangeRange
 (
-nsnull
+nullptr
 )
 mListenerEnabled
 (
@@ -840,7 +840,7 @@ false
 )
 mUtilRange
 (
-nsnull
+nullptr
 )
 mJoinOffset
 (
@@ -1440,7 +1440,7 @@ DetachEditor
 {
 mHTMLEditor
 =
-nsnull
+nullptr
 ;
 return
 nsTextEditRules
@@ -1780,7 +1780,7 @@ htmlDoc
 >
 ChangeContentEditableCount
 (
-nsnull
+nullptr
 +
 1
 )
@@ -1942,7 +1942,7 @@ htmlDoc
 >
 ChangeContentEditableCount
 (
-nsnull
+nullptr
 -
 1
 )
@@ -4239,7 +4239,7 @@ nsIAtom
 *
 dummyProperty
 =
-nsnull
+nullptr
 ;
 nsCOMPtr
 <
@@ -4677,7 +4677,7 @@ res
 )
 temp
 =
-nsnull
+nullptr
 ;
 nodeToExamine
 =
@@ -7164,7 +7164,7 @@ mBogusNode
 ;
 mBogusNode
 =
-nsnull
+nullptr
 ;
 }
 return
@@ -8844,7 +8844,7 @@ mHTMLEditor
 >
 GetFirstSelectedCell
 (
-nsnull
+nullptr
 getter_AddRefs
 (
 cell
@@ -14174,7 +14174,7 @@ bInDifTblElems
 {
 curList
 =
-nsnull
+nullptr
 ;
 }
 }
@@ -14682,7 +14682,7 @@ curNode
 {
 prevListItem
 =
-nsnull
+nullptr
 ;
 PRInt32
 j
@@ -14916,7 +14916,7 @@ else
 {
 prevListItem
 =
-nsnull
+nullptr
 ;
 }
 }
@@ -15291,7 +15291,7 @@ aSelection
 &
 listType
 aEntireList
-nsnull
+nullptr
 aCancel
 aHandled
 aItemType
@@ -16646,7 +16646,7 @@ curParent
 {
 sibling
 =
-nsnull
+nullptr
 ;
 mHTMLEditor
 -
@@ -16807,7 +16807,7 @@ continue
 }
 sibling
 =
-nsnull
+nullptr
 ;
 if
 (
@@ -16964,7 +16964,7 @@ curNode
 ;
 curQuote
 =
-nsnull
+nullptr
 ;
 }
 else
@@ -17497,7 +17497,7 @@ curParent
 {
 sibling
 =
-nsnull
+nullptr
 ;
 mHTMLEditor
 -
@@ -17658,7 +17658,7 @@ continue
 }
 sibling
 =
-nsnull
+nullptr
 ;
 if
 (
@@ -17778,7 +17778,7 @@ res
 ;
 curQuote
 =
-nsnull
+nullptr
 ;
 }
 else
@@ -17827,7 +17827,7 @@ curList
 {
 sibling
 =
-nsnull
+nullptr
 ;
 mHTMLEditor
 -
@@ -17975,7 +17975,7 @@ bInDifTblElems
 )
 curQuote
 =
-nsnull
+nullptr
 ;
 }
 if
@@ -18072,7 +18072,7 @@ res
 ;
 curList
 =
-nsnull
+nullptr
 ;
 }
 }
@@ -19704,7 +19704,7 @@ AsDOMNode
 (
 )
 :
-nsnull
+nullptr
 ;
 return
 rv
@@ -20132,7 +20132,7 @@ propItem
 -
 >
 attr
-nsnull
+nullptr
 &
 bFirst
 &
@@ -21408,7 +21408,7 @@ mHTMLCSSUtils
 SetCSSEquivalentToHTMLStyle
 (
 curNode
-nsnull
+nullptr
 &
 attrName
 alignType
@@ -22447,7 +22447,7 @@ NS_ERROR_NULL_POINTER
 *
 outBRNode
 =
-nsnull
+nullptr
 ;
 nsCOMPtr
 <
@@ -28160,7 +28160,7 @@ aNode
 NS_ENSURE_TRUE
 (
 aNode
-nsnull
+nullptr
 )
 ;
 if
@@ -28171,7 +28171,7 @@ aNode
 )
 )
 return
-nsnull
+nullptr
 ;
 nsCOMPtr
 <
@@ -28576,7 +28576,7 @@ aNode
 NS_ENSURE_TRUE
 (
 aNode
-nsnull
+nullptr
 )
 ;
 if
@@ -28688,7 +28688,7 @@ GetNodeParent
 ;
 }
 return
-nsnull
+nullptr
 ;
 }
 nsresult
@@ -31712,8 +31712,8 @@ newBlock
 )
 *
 aBlockTag
-nsnull
-nsnull
+nullptr
+nullptr
 true
 )
 ;
@@ -32845,7 +32845,7 @@ j
 .
 attr
 )
-nsnull
+nullptr
 isSet
 &
 outValue
@@ -34766,7 +34766,7 @@ NS_ERROR_NULL_POINTER
 *
 outSelectableNode
 =
-nsnull
+nullptr
 ;
 nsresult
 res
@@ -38166,7 +38166,7 @@ else
 {
 tmp
 =
-nsnull
+nullptr
 ;
 }
 bool
@@ -39814,7 +39814,7 @@ curList
 {
 sibling
 =
-nsnull
+nullptr
 ;
 mHTMLEditor
 -
@@ -40019,7 +40019,7 @@ curList
 {
 sibling
 =
-nsnull
+nullptr
 ;
 mHTMLEditor
 -
@@ -40211,7 +40211,7 @@ curPositionedDiv
 ;
 curList
 =
-nsnull
+nullptr
 ;
 continue
 ;
@@ -40284,7 +40284,7 @@ res
 ;
 curList
 =
-nsnull
+nullptr
 ;
 }
 }
@@ -40663,7 +40663,7 @@ mBogusNode
 ;
 mBogusNode
 =
-nsnull
+nullptr
 ;
 }
 CreateBogusNodeIfNeeded

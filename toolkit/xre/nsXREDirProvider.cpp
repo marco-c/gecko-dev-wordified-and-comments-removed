@@ -372,7 +372,7 @@ nsXREDirProvider
 *
 gDirServiceProvider
 =
-nsnull
+nullptr
 ;
 nsXREDirProvider
 :
@@ -401,7 +401,7 @@ nsXREDirProvider
 {
 gDirServiceProvider
 =
-nsnull
+nullptr
 ;
 }
 nsXREDirProvider
@@ -1343,9 +1343,9 @@ getter_AddRefs
 (
 file
 )
-nsnull
-nsnull
-nsnull
+nullptr
+nullptr
+nullptr
 )
 ;
 }
@@ -1368,9 +1368,9 @@ getter_AddRefs
 (
 file
 )
-nsnull
-nsnull
-nsnull
+nullptr
+nullptr
+nullptr
 )
 ;
 }
@@ -2532,7 +2532,7 @@ rv
 {
 appEnum
 =
-nsnull
+nullptr
 ;
 }
 else
@@ -3124,7 +3124,7 @@ defaults
 "
 preferences
 "
-nsnull
+nullptr
 }
 ;
 #
@@ -3241,7 +3241,7 @@ NS_OK
 *
 aResult
 =
-nsnull
+nullptr
 ;
 if
 (
@@ -3269,7 +3269,7 @@ kAppendNothing
 ]
 =
 {
-nsnull
+nullptr
 }
 ;
 LoadDirsIntoArray
@@ -3453,7 +3453,7 @@ kAppendChromeDir
 "
 chrome
 "
-nsnull
+nullptr
 }
 ;
 nsCOMArray
@@ -3516,7 +3516,7 @@ kAppendPlugins
 "
 plugins
 "
-nsnull
+nullptr
 }
 ;
 nsCOMArray
@@ -3818,7 +3818,7 @@ obsSvc
 >
 NotifyObservers
 (
-nsnull
+nullptr
 "
 profile
 -
@@ -3860,13 +3860,13 @@ em
 >
 Observe
 (
-nsnull
+nullptr
 "
 addons
 -
 startup
 "
-nsnull
+nullptr
 )
 ;
 }
@@ -3894,7 +3894,7 @@ obsSvc
 >
 NotifyObservers
 (
-nsnull
+nullptr
 "
 load
 -
@@ -3902,7 +3902,7 @@ extension
 -
 defaults
 "
-nsnull
+nullptr
 )
 ;
 obsSvc
@@ -3910,7 +3910,7 @@ obsSvc
 >
 NotifyObservers
 (
-nsnull
+nullptr
 "
 profile
 -
@@ -3933,7 +3933,7 @@ after
 -
 change
 "
-nsnull
+nullptr
 "
 profile
 -
@@ -3991,7 +3991,7 @@ obsSvc
 >
 NotifyObservers
 (
-nsnull
+nullptr
 "
 safemode
 -
@@ -4048,7 +4048,7 @@ obsSvc
 >
 NotifyObservers
 (
-nsnull
+nullptr
 "
 profile
 -
@@ -4056,7 +4056,7 @@ initial
 -
 state
 "
-nsnull
+nullptr
 )
 ;
 }
@@ -4326,7 +4326,7 @@ JSRuntime
 *
 rt
 =
-nsnull
+nullptr
 ;
 rtsvc
 -

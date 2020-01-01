@@ -279,7 +279,7 @@ char
 *
 uri
 =
-nsnull
+nullptr
 ;
 r
 -
@@ -356,7 +356,7 @@ char
 *
 uri
 =
-nsnull
+nullptr
 ;
 rv
 =
@@ -1233,7 +1233,7 @@ NS_PRECONDITION
 uri
 !
 =
-nsnull
+nullptr
 "
 null
 ptr
@@ -1265,7 +1265,7 @@ files
 )
 =
 =
-nsnull
+nullptr
 )
 return
 NS_ERROR_OUT_OF_MEMORY
@@ -1299,7 +1299,7 @@ NS_PRECONDITION
 property
 !
 =
-nsnull
+nullptr
 "
 null
 ptr
@@ -1319,7 +1319,7 @@ NS_PRECONDITION
 target
 !
 =
-nsnull
+nullptr
 "
 null
 ptr
@@ -1339,7 +1339,7 @@ NS_PRECONDITION
 source
 !
 =
-nsnull
+nullptr
 "
 null
 ptr
@@ -1357,7 +1357,7 @@ NS_ERROR_NULL_POINTER
 *
 source
 =
-nsnull
+nullptr
 ;
 return
 NS_RDF_NO_VALUE
@@ -1412,7 +1412,7 @@ NS_PRECONDITION
 source
 !
 =
-nsnull
+nullptr
 "
 null
 ptr
@@ -1432,7 +1432,7 @@ NS_PRECONDITION
 property
 !
 =
-nsnull
+nullptr
 "
 null
 ptr
@@ -1452,7 +1452,7 @@ NS_PRECONDITION
 target
 !
 =
-nsnull
+nullptr
 "
 null
 ptr
@@ -1470,7 +1470,7 @@ NS_ERROR_NULL_POINTER
 *
 target
 =
-nsnull
+nullptr
 ;
 nsresult
 rv
@@ -1640,7 +1640,7 @@ rv
 GetURL
 (
 source
-nsnull
+nullptr
 getter_AddRefs
 (
 url
@@ -1773,7 +1773,7 @@ PRUnichar
 *
 uni
 =
-nsnull
+nullptr
 ;
 url
 -
@@ -2557,7 +2557,7 @@ NS_PRECONDITION
 source
 !
 =
-nsnull
+nullptr
 "
 null
 ptr
@@ -2577,7 +2577,7 @@ NS_PRECONDITION
 property
 !
 =
-nsnull
+nullptr
 "
 null
 ptr
@@ -2597,7 +2597,7 @@ NS_PRECONDITION
 targets
 !
 =
-nsnull
+nullptr
 "
 null
 ptr
@@ -2615,7 +2615,7 @@ NS_ERROR_NULL_POINTER
 *
 targets
 =
-nsnull
+nullptr
 ;
 if
 (
@@ -2787,7 +2787,7 @@ rv
 GetURL
 (
 source
-nsnull
+nullptr
 getter_AddRefs
 (
 url
@@ -3075,7 +3075,7 @@ NS_PRECONDITION
 source
 !
 =
-nsnull
+nullptr
 "
 null
 ptr
@@ -3095,7 +3095,7 @@ NS_PRECONDITION
 property
 !
 =
-nsnull
+nullptr
 "
 null
 ptr
@@ -3115,7 +3115,7 @@ NS_PRECONDITION
 target
 !
 =
-nsnull
+nullptr
 "
 null
 ptr
@@ -3135,7 +3135,7 @@ NS_PRECONDITION
 hasAssertion
 !
 =
-nsnull
+nullptr
 "
 null
 ptr
@@ -3585,7 +3585,7 @@ NS_PRECONDITION
 source
 !
 =
-nsnull
+nullptr
 "
 null
 ptr
@@ -3605,7 +3605,7 @@ NS_PRECONDITION
 labels
 !
 =
-nsnull
+nullptr
 "
 null
 ptr
@@ -4056,7 +4056,7 @@ DRIVE_NO_ROOT_DIR
 {
 if
 (
-nsnull
+nullptr
 !
 =
 (
@@ -4237,7 +4237,7 @@ volNum
 {
 if
 (
-nsnull
+nullptr
 !
 =
 (
@@ -4661,7 +4661,7 @@ char
 *
 parentURI
 =
-nsnull
+nullptr
 ;
 rv
 =
@@ -5033,7 +5033,7 @@ escLeafStr
 ;
 escLeafStr
 =
-nsnull
+nullptr
 ;
 PRInt32
 aOffset
@@ -5186,7 +5186,7 @@ aResult
 *
 aResult
 =
-nsnull
+nullptr
 ;
 nsresult
 rv
@@ -5196,7 +5196,7 @@ char
 *
 uri
 =
-nsnull
+nullptr
 ;
 rv
 =
@@ -5403,7 +5403,7 @@ aResult
 *
 aResult
 =
-nsnull
+nullptr
 ;
 nsresult
 rv
@@ -5413,7 +5413,7 @@ char
 *
 uri
 =
-nsnull
+nullptr
 ;
 rv
 =
@@ -5654,7 +5654,7 @@ char
 *
 uri
 =
-nsnull
+nullptr
 ;
 rv
 =
@@ -6114,7 +6114,7 @@ NS_OK
 *
 urlLiteral
 =
-nsnull
+nullptr
 ;
 nsCOMPtr
 <

@@ -6344,7 +6344,7 @@ selfref
 ptr
 %
 s
-nsnull
+nullptr
 %
 s
 )

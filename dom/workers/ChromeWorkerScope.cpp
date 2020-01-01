@@ -105,7 +105,7 @@ charset
 )
 ;
 return
-nsnull
+nullptr
 ;
 }
 char
@@ -138,7 +138,7 @@ result
 )
 {
 return
-nsnull
+nullptr
 ;
 }
 memcpy

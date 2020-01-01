@@ -767,15 +767,15 @@ Reset
 {
 mInnerIterator
 =
-nsnull
+nullptr
 ;
 mStartOuterContent
 =
-nsnull
+nullptr
 ;
 mEndOuterContent
 =
-nsnull
+nullptr
 ;
 nsCOMPtr
 <
@@ -986,7 +986,7 @@ MaybeSetupInnerIterator
 {
 mInnerIterator
 =
-nsnull
+nullptr
 ;
 nsCOMPtr
 <
@@ -2635,7 +2635,7 @@ content
 else
 mIterNode
 =
-nsnull
+nullptr
 ;
 mIterOffset
 =
@@ -3170,11 +3170,11 @@ ResetAll
 {
 mIterator
 =
-nsnull
+nullptr
 ;
 mLastBlockParent
 =
-nsnull
+nullptr
 ;
 }
 #
@@ -3499,7 +3499,7 @@ nsTextFragment
 *
 frag
 =
-nsnull
+nullptr
 ;
 PRInt32
 fragLen
@@ -3511,14 +3511,14 @@ PRUnichar
 *
 t2b
 =
-nsnull
+nullptr
 ;
 const
 char
 *
 t1b
 =
-nsnull
+nullptr
 ;
 bool
 inWhitespace
@@ -3600,7 +3600,7 @@ frag
 {
 tc
 =
-nsnull
+nullptr
 ;
 NextNode
 (
@@ -3725,7 +3725,7 @@ blockParent
 ;
 matchAnchorNode
 =
-nsnull
+nullptr
 ;
 matchAnchorOffset
 =
@@ -3774,7 +3774,7 @@ GetText
 {
 mIterator
 =
-nsnull
+nullptr
 ;
 mLastBlockParent
 =
@@ -3944,7 +3944,7 @@ Get2b
 ;
 t1b
 =
-nsnull
+nullptr
 ;
 #
 ifdef
@@ -3994,7 +3994,7 @@ Get1b
 ;
 t2b
 =
-nsnull
+nullptr
 ;
 #
 ifdef
@@ -4113,7 +4113,7 @@ fragLen
 endif
 frag
 =
-nsnull
+nullptr
 ;
 continue
 ;
@@ -4708,7 +4708,7 @@ else
 {
 startParent
 =
-nsnull
+nullptr
 ;
 }
 }
@@ -4762,7 +4762,7 @@ NS_OK
 }
 matchAnchorNode
 =
-nsnull
+nullptr
 ;
 }
 if
@@ -4969,7 +4969,7 @@ endif
 }
 matchAnchorNode
 =
-nsnull
+nullptr
 ;
 matchAnchorOffset
 =

@@ -722,7 +722,7 @@ nsJSContext
 *
 sContextList
 =
-nsnull
+nullptr
 ;
 nsScriptNameSpaceManager
 *
@@ -1114,7 +1114,7 @@ GetDocShell
 (
 )
 :
-nsnull
+nullptr
 ;
 if
 (
@@ -1164,7 +1164,7 @@ Dispatch
 win
 presContext
 aErrorEvent
-nsnull
+nullptr
 aStatus
 )
 ;
@@ -1304,7 +1304,7 @@ GetDocShell
 (
 )
 :
-nsnull
+nullptr
 ;
 if
 (
@@ -1506,7 +1506,7 @@ win
 presContext
 &
 errorevent
-nsnull
+nullptr
 &
 status
 )
@@ -1550,7 +1550,7 @@ if
 errorObject
 !
 =
-nsnull
+nullptr
 )
 {
 nsresult
@@ -1781,8 +1781,8 @@ if
 JS_DescribeScriptedCaller
 (
 cx
-nsnull
-nsnull
+nullptr
+nullptr
 )
 )
 {
@@ -1809,7 +1809,7 @@ nsAXPCNativeCallContext
 *
 cc
 =
-nsnull
+nullptr
 ;
 xpc
 -
@@ -2493,7 +2493,7 @@ xpc
 )
 {
 return
-nsnull
+nullptr
 ;
 }
 nsCOMPtr
@@ -2556,7 +2556,7 @@ win
 }
 }
 return
-nsnull
+nullptr
 ;
 }
 void
@@ -2886,7 +2886,7 @@ GetGlobalObject
 NS_ENSURE_TRUE
 (
 win
-nsnull
+nullptr
 )
 ;
 nsIDocShell
@@ -2903,7 +2903,7 @@ GetDocShell
 NS_ENSURE_TRUE
 (
 docShell
-nsnull
+nullptr
 )
 ;
 nsCOMPtr
@@ -2921,7 +2921,7 @@ docShell
 NS_ENSURE_TRUE
 (
 ireq
-nsnull
+nullptr
 )
 ;
 nsIPrompt
@@ -3292,7 +3292,7 @@ jsds_IsOn
 jsdHook
 !
 =
-nsnull
+nullptr
 )
 )
 |
@@ -3745,7 +3745,7 @@ BUTTON_POS_2
 JS_SetOperationCallback
 (
 cx
-nsnull
+nullptr
 )
 ;
 rv
@@ -4928,7 +4928,7 @@ false
 ;
 mTerminations
 =
-nsnull
+nullptr
 ;
 mScriptsEnabled
 =
@@ -4999,7 +4999,7 @@ mTerminations
 ;
 mGlobalObjectRef
 =
-nsnull
+nullptr
 ;
 DestroyJSContext
 (
@@ -5052,7 +5052,7 @@ return
 JS_SetContextPrivate
 (
 mContext
-nsnull
+nullptr
 )
 ;
 Preferences
@@ -5120,7 +5120,7 @@ mContext
 }
 mContext
 =
-nsnull
+nullptr
 ;
 }
 NS_IMPL_CYCLE_COLLECTION_CLASS
@@ -5680,7 +5680,7 @@ stack
 >
 Pop
 (
-nsnull
+nullptr
 )
 ;
 return
@@ -5801,7 +5801,7 @@ stack
 >
 Pop
 (
-nsnull
+nullptr
 )
 )
 )
@@ -6383,7 +6383,7 @@ stack
 >
 Pop
 (
-nsnull
+nullptr
 )
 ;
 return
@@ -6483,7 +6483,7 @@ stack
 >
 Pop
 (
-nsnull
+nullptr
 )
 ;
 }
@@ -6538,7 +6538,7 @@ stack
 >
 Pop
 (
-nsnull
+nullptr
 )
 )
 )
@@ -6960,7 +6960,7 @@ stack
 >
 Pop
 (
-nsnull
+nullptr
 )
 )
 )
@@ -7103,7 +7103,7 @@ aTarget
 *
 aRet
 =
-nsnull
+nullptr
 ;
 return
 NS_OK
@@ -7403,8 +7403,8 @@ fun
 JS_CompileUCFunctionForPrincipalsVersion
 (
 mContext
-nsnull
-nsnull
+nullptr
+nullptr
 nsAtomCString
 (
 aName
@@ -7673,7 +7673,7 @@ JS_CompileUCFunctionForPrincipalsVersion
 mContext
 aShared
 ?
-nsnull
+nullptr
 :
 target
 nsJSPrincipals
@@ -7927,7 +7927,7 @@ JSObject
 *
 target
 =
-nsnull
+nullptr
 ;
 nsresult
 rv
@@ -8016,7 +8016,7 @@ jsval
 *
 argv
 =
-nsnull
+nullptr
 ;
 JSObject
 *
@@ -8199,7 +8199,7 @@ JSVAL_NULL
 *
 arv
 =
-nsnull
+nullptr
 ;
 }
 else
@@ -8337,7 +8337,7 @@ JSObject
 *
 target
 =
-nsnull
+nullptr
 ;
 nsresult
 rv
@@ -8609,7 +8609,7 @@ global
 )
 {
 return
-nsnull
+nullptr
 ;
 }
 if
@@ -8694,7 +8694,7 @@ JSCLASS_PRIVATE_IS_NSISUPPORTS
 )
 {
 return
-nsnull
+nullptr
 ;
 }
 nsISupports
@@ -8893,7 +8893,7 @@ jsval
 *
 argv
 =
-nsnull
+nullptr
 ;
 XPCAutoRequest
 ar
@@ -9087,7 +9087,7 @@ if
 fastArray
 !
 =
-nsnull
+nullptr
 )
 return
 fastArray
@@ -9110,7 +9110,7 @@ aArgv
 *
 aArgv
 =
-nsnull
+nullptr
 ;
 *
 aArgc
@@ -9327,7 +9327,7 @@ if
 variant
 !
 =
-nsnull
+nullptr
 )
 {
 rv
@@ -9382,7 +9382,7 @@ NS_ASSERTION
 prim
 =
 =
-nsnull
+nullptr
 "
 Don
 '
@@ -10249,7 +10249,7 @@ nsIID
 *
 iid
 =
-nsnull
+nullptr
 ;
 p
 -
@@ -11222,8 +11222,8 @@ TraceMallocDumpAllocations
 0
 }
 {
-nsnull
-nsnull
+nullptr
+nullptr
 0
 0
 }
@@ -11330,7 +11330,7 @@ action
 sigaction
 (
 SIGALRM
-nsnull
+nullptr
 &
 action
 )
@@ -11355,7 +11355,7 @@ return
 sigaction
 (
 SIGPROF
-nsnull
+nullptr
 &
 action
 )
@@ -11380,7 +11380,7 @@ return
 sigaction
 (
 SIGPOLL
-nsnull
+nullptr
 &
 action
 )
@@ -11555,8 +11555,8 @@ JProfSaveCircularJS
 0
 }
 {
-nsnull
-nsnull
+nullptr
+nullptr
 0
 0
 }
@@ -11608,8 +11608,8 @@ DMDCheckJS
 0
 }
 {
-nsnull
-nsnull
+nullptr
+nullptr
 0
 0
 }
@@ -11774,7 +11774,7 @@ mTerminations
 ;
 mTerminations
 =
-nsnull
+nullptr
 ;
 for
 (
@@ -12487,7 +12487,7 @@ JSContext
 *
 iter
 =
-nsnull
+nullptr
 ;
 JSContext
 *
@@ -13680,7 +13680,7 @@ observerService
 >
 NotifyObservers
 (
-nsnull
+nullptr
 "
 cycle
 -
@@ -14029,7 +14029,7 @@ nsJSContext
 :
 CycleCollectNow
 (
-nsnull
+nullptr
 0
 false
 )
@@ -14290,7 +14290,7 @@ sShrinkGCBuffersTimer
 InitWithFuncCallback
 (
 ShrinkGCBuffersTimerFired
-nsnull
+nullptr
 NS_SHRINK_GC_BUFFERS_DELAY
 nsITimer
 :
@@ -14362,7 +14362,7 @@ sCCTimer
 InitWithFuncCallback
 (
 CCTimerFired
-nsnull
+nullptr
 NS_CC_SKIPPABLE_DELAY
 nsITimer
 :
@@ -14647,7 +14647,7 @@ observerService
 >
 NotifyObservers
 (
-nsnull
+nullptr
 "
 garbage
 -
@@ -15571,7 +15571,7 @@ sFullGCTimer
 =
 sCCTimer
 =
-nsnull
+nullptr
 ;
 sCCLockedOut
 =
@@ -15611,15 +15611,15 @@ false
 ;
 gNameSpaceManager
 =
-nsnull
+nullptr
 ;
 sRuntimeService
 =
-nsnull
+nullptr
 ;
 sRuntime
 =
-nsnull
+nullptr
 ;
 sIsInitialized
 =
@@ -15635,7 +15635,7 @@ sContextCount
 ;
 sSecurityManager
 =
-nsnull
+nullptr
 ;
 }
 static
@@ -16226,7 +16226,7 @@ dataArray
 )
 {
 return
-nsnull
+nullptr
 ;
 }
 MOZ_ASSERT
@@ -16272,7 +16272,7 @@ global
 )
 {
 return
-nsnull
+nullptr
 ;
 }
 nsCOMPtr
@@ -16315,7 +16315,7 @@ rv
 )
 {
 return
-nsnull
+nullptr
 ;
 }
 return
@@ -16336,7 +16336,7 @@ NS_ERROR_DOM_DATA_CLONE_ERR
 )
 ;
 return
-nsnull
+nullptr
 ;
 }
 JSBool
@@ -16393,7 +16393,7 @@ Native
 (
 )
 :
-nsnull
+nullptr
 ;
 nsCOMPtr
 <
@@ -17180,7 +17180,7 @@ dom
 .
 max_script_run_time
 "
-nsnull
+nullptr
 )
 ;
 Preferences
@@ -17203,7 +17203,7 @@ dom
 .
 max_chrome_script_run_time
 "
-nsnull
+nullptr
 )
 ;
 Preferences
@@ -17226,7 +17226,7 @@ dom
 .
 report_all_js_exceptions
 "
-nsnull
+nullptr
 )
 ;
 Preferences
@@ -17257,7 +17257,7 @@ mem
 .
 high_water_mark
 "
-nsnull
+nullptr
 )
 ;
 Preferences
@@ -17288,7 +17288,7 @@ mem
 .
 max
 "
-nsnull
+nullptr
 )
 ;
 Preferences
@@ -17319,7 +17319,7 @@ mem
 .
 gc_per_compartment
 "
-nsnull
+nullptr
 )
 ;
 Preferences
@@ -17350,7 +17350,7 @@ mem
 .
 gc_incremental
 "
-nsnull
+nullptr
 )
 ;
 Preferences
@@ -17381,7 +17381,7 @@ mem
 .
 gc_incremental_slice_ms
 "
-nsnull
+nullptr
 )
 ;
 Preferences
@@ -17447,7 +17447,7 @@ mem
 .
 gc_dynamic_mark_slice
 "
-nsnull
+nullptr
 )
 ;
 Preferences
@@ -17478,7 +17478,7 @@ mem
 .
 gc_dynamic_heap_growth
 "
-nsnull
+nullptr
 )
 ;
 Preferences
@@ -17748,7 +17748,7 @@ if
 sDidShutdown
 )
 return
-nsnull
+nullptr
 ;
 if
 (
@@ -17779,7 +17779,7 @@ Init
 NS_ENSURE_SUCCESS
 (
 rv
-nsnull
+nullptr
 )
 ;
 }
@@ -18009,7 +18009,7 @@ if
 aRuntime
 =
 =
-nsnull
+nullptr
 )
 return
 NS_ERROR_OUT_OF_MEMORY
@@ -18116,7 +18116,7 @@ aContext
 )
 mArgv
 (
-nsnull
+nullptr
 )
 mArgc
 (
@@ -18444,7 +18444,7 @@ result
 *
 result
 =
-nsnull
+nullptr
 ;
 if
 (
@@ -18601,7 +18601,7 @@ if
 ret
 =
 =
-nsnull
+nullptr
 )
 return
 NS_ERROR_OUT_OF_MEMORY
