@@ -699,6 +699,14 @@ browser_upgrade
 .
 rdf
 \
+browser_localerepository
+.
+js
+\
+locales_list
+.
+sjs
+\
 mock_autocomplete
 .
 json
