@@ -442,6 +442,7 @@ NotifyMaybeChannelError
 (
 )
 ;
+virtual
 void
 Clear
 (
