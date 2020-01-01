@@ -19151,7 +19151,7 @@ return
 NS_OK
 ;
 }
-NS_IMETHODIMP
+void
 nsTreeBodyFrame
 :
 :
@@ -19159,6 +19159,13 @@ DidSetStyleContext
 (
 )
 {
+nsLeafBoxFrame
+:
+:
+DidSetStyleContext
+(
+)
+;
 mStyleCache
 .
 Clear
@@ -19181,9 +19188,6 @@ mStringWidth
 =
 -
 1
-;
-return
-NS_OK
 ;
 }
 PRBool

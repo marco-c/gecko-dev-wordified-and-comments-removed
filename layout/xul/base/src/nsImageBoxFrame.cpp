@@ -1520,7 +1520,7 @@ nsnull
 ;
 }
 }
-NS_IMETHODIMP
+void
 nsImageBoxFrame
 :
 :
@@ -1528,6 +1528,13 @@ DidSetStyleContext
 (
 )
 {
+nsLeafBoxFrame
+:
+:
+DidSetStyleContext
+(
+)
+;
 const
 nsStyleList
 *
@@ -1552,7 +1559,6 @@ mUseSrcAttr
 mSuppressStyleCheck
 )
 return
-NS_OK
 ;
 const
 nsStyleDisplay
@@ -1594,7 +1600,6 @@ mAppearance
 )
 )
 return
-NS_OK
 ;
 nsCOMPtr
 <
@@ -1675,14 +1680,10 @@ equal
 )
 )
 return
-NS_OK
 ;
 UpdateImage
 (
 )
-;
-return
-NS_OK
 ;
 }
 void

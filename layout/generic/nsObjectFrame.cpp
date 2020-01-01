@@ -2562,7 +2562,7 @@ Destroy
 )
 ;
 }
-NS_IMETHODIMP
+void
 nsObjectFrame
 :
 :
@@ -2623,7 +2623,6 @@ visibility
 ;
 }
 }
-return
 nsObjectFrameSuper
 :
 :

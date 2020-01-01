@@ -393,7 +393,7 @@ mListStyleType
 NS_STYLE_LIST_STYLE_NONE
 ;
 }
-NS_IMETHODIMP
+void
 nsBulletFrame
 :
 :
@@ -401,6 +401,13 @@ DidSetStyleContext
 (
 )
 {
+nsFrame
+:
+:
+DidSetStyleContext
+(
+)
+;
 imgIRequest
 *
 newRequest
@@ -611,9 +618,6 @@ nsnull
 ;
 }
 }
-return
-NS_OK
-;
 }
 class
 nsDisplayBullet

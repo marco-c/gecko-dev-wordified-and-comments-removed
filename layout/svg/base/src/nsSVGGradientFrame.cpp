@@ -106,7 +106,7 @@ PR_FALSE
 )
 {
 }
-NS_IMETHODIMP
+void
 nsSVGGradientFrame
 :
 :
@@ -122,7 +122,6 @@ InvalidateRenderingObservers
 this
 )
 ;
-return
 nsSVGGradientFrameBase
 :
 :

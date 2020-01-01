@@ -102,7 +102,8 @@ aResult
 }
 #
 endif
-NS_IMETHOD
+virtual
+void
 DidSetStyleContext
 (
 )
@@ -132,7 +133,7 @@ aContext
 )
 ;
 }
-NS_IMETHODIMP
+void
 nsSVGLeafFrame
 :
 :
@@ -140,9 +141,6 @@ DidSetStyleContext
 (
 )
 {
-nsresult
-rv
-=
 nsFrame
 :
 :
@@ -157,8 +155,5 @@ InvalidateRenderingObservers
 (
 this
 )
-;
-return
-rv
 ;
 }

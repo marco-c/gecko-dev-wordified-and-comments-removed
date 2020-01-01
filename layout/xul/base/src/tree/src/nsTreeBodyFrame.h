@@ -367,7 +367,8 @@ nsDisplayListSet
 aLists
 )
 ;
-NS_IMETHOD
+virtual
+void
 DidSetStyleContext
 (
 )

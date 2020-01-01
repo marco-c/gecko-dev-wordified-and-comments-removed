@@ -268,7 +268,8 @@ Destroy
 (
 )
 ;
-NS_IMETHOD
+virtual
+void
 DidSetStyleContext
 (
 )

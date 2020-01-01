@@ -174,7 +174,7 @@ return
 NS_OK
 ;
 }
-NS_IMETHODIMP
+void
 nsSVGPathGeometryFrame
 :
 :
@@ -222,9 +222,6 @@ UpdateGraphic
 (
 this
 )
-;
-return
-NS_OK
 ;
 }
 nsIAtom

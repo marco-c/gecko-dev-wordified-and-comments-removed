@@ -206,7 +206,7 @@ PR_FALSE
 )
 {
 }
-NS_IMETHODIMP
+void
 nsSVGPatternFrame
 :
 :
@@ -222,7 +222,6 @@ InvalidateRenderingObservers
 this
 )
 ;
-return
 nsSVGPatternFrameBase
 :
 :

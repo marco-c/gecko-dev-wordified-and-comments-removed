@@ -1843,7 +1843,8 @@ isOkToTurnOn
 PR_FALSE
 )
 ;
-NS_IMETHOD
+virtual
+void
 DidSetStyleContext
 (
 )

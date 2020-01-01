@@ -361,7 +361,8 @@ nsIFrame
 aChildList
 )
 ;
-NS_IMETHOD
+virtual
+void
 DidSetStyleContext
 (
 )

@@ -120,7 +120,8 @@ GetCanvasTM
 (
 )
 ;
-NS_IMETHOD
+virtual
+void
 DidSetStyleContext
 (
 )

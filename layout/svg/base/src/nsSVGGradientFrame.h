@@ -77,7 +77,8 @@ float
 aGraphicOpacity
 )
 ;
-NS_IMETHOD
+virtual
+void
 DidSetStyleContext
 (
 )

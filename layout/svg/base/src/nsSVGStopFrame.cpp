@@ -79,7 +79,8 @@ aContext
 }
 public
 :
-NS_IMETHOD
+virtual
+void
 DidSetStyleContext
 (
 )
@@ -160,7 +161,7 @@ aResult
 endif
 }
 ;
-NS_IMETHODIMP
+void
 nsSVGStopFrame
 :
 :
@@ -182,9 +183,6 @@ InvalidateRenderingObservers
 (
 this
 )
-;
-return
-NS_OK
 ;
 }
 nsIAtom

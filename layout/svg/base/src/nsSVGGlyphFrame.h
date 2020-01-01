@@ -169,7 +169,8 @@ PRBool
 aAppend
 )
 ;
-NS_IMETHOD
+virtual
+void
 DidSetStyleContext
 (
 )

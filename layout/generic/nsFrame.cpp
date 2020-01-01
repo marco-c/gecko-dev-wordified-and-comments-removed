@@ -2038,7 +2038,7 @@ return
 NS_OK
 ;
 }
-NS_IMETHODIMP
+void
 nsFrame
 :
 :
@@ -2143,9 +2143,6 @@ SetImageNotifiers
 this
 notifierChain
 )
-;
-return
-NS_OK
 ;
 }
 nsMargin
