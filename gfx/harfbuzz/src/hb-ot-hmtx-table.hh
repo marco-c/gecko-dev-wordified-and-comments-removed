@@ -77,7 +77,10 @@ TRACE_SANITIZE
 )
 ;
 return
+TRACE_RETURN
+(
 true
+)
 ;
 }
 private

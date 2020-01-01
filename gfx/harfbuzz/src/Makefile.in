@@ -356,6 +356,12 @@ cc
 \
 hb
 -
+set
+.
+cc
+\
+hb
+-
 shape
 .
 cc
@@ -436,6 +442,12 @@ hb
 ot
 -
 shape
+.
+h
+\
+hb
+-
+set
 .
 h
 \

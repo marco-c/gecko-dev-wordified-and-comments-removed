@@ -501,6 +501,11 @@ const
 shaper_list
 )
 {
+hb_font_make_immutable
+(
+font
+)
+;
 if
 (
 likely

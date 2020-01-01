@@ -72,6 +72,8 @@ TRACE_SANITIZE
 )
 ;
 return
+TRACE_RETURN
+(
 c
 -
 >
@@ -106,6 +108,7 @@ minor
 =
 =
 0x5000
+)
 )
 )
 ;

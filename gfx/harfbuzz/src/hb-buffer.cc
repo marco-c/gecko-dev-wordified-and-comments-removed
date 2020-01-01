@@ -892,7 +892,7 @@ unsigned
 int
 num_out
 const
-uint16_t
+uint32_t
 *
 glyph_data
 )

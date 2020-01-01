@@ -1056,12 +1056,13 @@ features
 +
 ;
 }
-unsigned
-short
+hb_codepoint_t
 *
 gids
 =
 NULL
+*
+pg
 ;
 hb_gr_cluster_t
 *
@@ -1080,11 +1081,6 @@ uint32_t
 text
 =
 NULL
-;
-unsigned
-short
-*
-pg
 ;
 const
 gr_slot
@@ -1305,7 +1301,7 @@ dieout
 gids
 =
 (
-uint16_t
+hb_codepoint_t
 *
 )
 malloc
@@ -1314,7 +1310,7 @@ glyphlen
 *
 sizeof
 (
-uint16_t
+hb_codepoint_t
 )
 )
 ;

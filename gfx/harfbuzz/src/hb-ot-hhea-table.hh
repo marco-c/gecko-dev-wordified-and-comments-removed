@@ -59,6 +59,8 @@ TRACE_SANITIZE
 )
 ;
 return
+TRACE_RETURN
+(
 c
 -
 >
@@ -76,6 +78,7 @@ major
 =
 =
 1
+)
 )
 ;
 }

@@ -68,6 +68,17 @@ hh
 "
 #
 include
+"
+hb
+-
+cache
+-
+private
+.
+hh
+"
+#
+include
 <
 string
 .
@@ -2711,7 +2722,7 @@ face
 >
 index
 =
-0
+index
 ;
 }
 unsigned
