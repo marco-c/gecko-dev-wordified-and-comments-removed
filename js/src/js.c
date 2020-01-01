@@ -17855,6 +17855,18 @@ objp
 #
 ifdef
 LAZY_STANDARD_CLASSES
+if
+(
+(
+flags
+&
+JSRESOLVE_ASSIGNING
+)
+=
+=
+0
+)
+{
 JSBool
 resolved
 ;
@@ -17886,6 +17898,7 @@ obj
 return
 JS_TRUE
 ;
+}
 }
 #
 endif
