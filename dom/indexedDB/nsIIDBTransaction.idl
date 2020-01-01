@@ -458,6 +458,9 @@ idl
 interface
 nsIIDBDatabase
 ;
+interface
+nsIDOMDOMStringList
+;
 /
 *
 *
@@ -574,6 +577,11 @@ attribute
 unsigned
 short
 mode
+;
+readonly
+attribute
+nsIDOMDOMStringList
+objectStoreNames
 ;
 }
 ;
