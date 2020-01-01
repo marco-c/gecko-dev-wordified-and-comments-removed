@@ -317,7 +317,7 @@ nsIRequest
 aRequest
 )
 ;
-void
+PRBool
 UpdateMyFlags
 (
 PRBool
