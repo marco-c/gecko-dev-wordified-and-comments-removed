@@ -913,6 +913,13 @@ preview
 .
 The
 docshell
+should
+be
+a
+toplevel
+docshell
+and
+*
 is
 used
 to
@@ -921,11 +928,11 @@ the
 toplevel
 window
 .
-*
 See
 the
 documentation
 for
+*
 nsITaskbarTabPreview
 for
 more
