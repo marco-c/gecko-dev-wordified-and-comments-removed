@@ -2903,12 +2903,17 @@ SetPermissions
 0700
 )
 ;
+#
+ifndef
+ANDROID
 NS_ENSURE_SUCCESS
 (
 rv
 rv
 )
 ;
+#
+endif
 }
 rv
 =
