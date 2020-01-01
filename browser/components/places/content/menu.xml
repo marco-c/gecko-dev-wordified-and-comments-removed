@@ -2659,6 +2659,8 @@ ip
 =
 this
 .
+_rootView
+.
 insertionPoint
 ;
 return

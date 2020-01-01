@@ -6051,6 +6051,8 @@ ip
 =
 this
 .
+_self
+.
 insertionPoint
 ;
 return
