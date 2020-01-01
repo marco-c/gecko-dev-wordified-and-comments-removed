@@ -737,6 +737,9 @@ NS_ERROR_DOM_SVG_WRONG_TYPE_ERR
 float
 f
 ;
+nsresult
+rv
+=
 angle
 -
 >
@@ -744,6 +747,12 @@ GetValue
 (
 &
 f
+)
+;
+NS_ENSURE_SUCCESS
+(
+rv
+rv
 )
 ;
 NS_ENSURE_FINITE
