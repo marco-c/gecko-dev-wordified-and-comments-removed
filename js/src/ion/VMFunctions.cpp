@@ -1114,9 +1114,16 @@ types
 :
 TypeObject
 *
-type
+typeArg
 )
 {
+RootedTypeObject
+type
+(
+cx
+typeArg
+)
+;
 RootedObject
 obj
 (

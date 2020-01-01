@@ -7081,6 +7081,11 @@ stubs
 :
 UncachedCallResult
 ucr
+(
+f
+.
+cx
+)
 ;
 if
 (
@@ -7099,7 +7104,6 @@ frameSize
 staticArgc
 (
 )
-&
 ucr
 )
 ;
@@ -7119,7 +7123,6 @@ getArgc
 f
 )
 lowered
-&
 ucr
 )
 ;
