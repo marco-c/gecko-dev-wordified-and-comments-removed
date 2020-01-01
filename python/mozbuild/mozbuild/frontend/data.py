@@ -413,6 +413,14 @@ tier_dirs
 '
 tier_static_dirs
 '
+        
+'
+external_make_dirs
+'
+        
+'
+parallel_external_make_dirs
+'
     
 )
     
@@ -482,3 +490,17 @@ tier_static_dirs
 OrderedDict
 (
 )
+        
+self
+.
+external_make_dirs
+=
+[
+]
+        
+self
+.
+parallel_external_make_dirs
+=
+[
+]
