@@ -886,6 +886,12 @@ result
 =
 =
 E_OUTOFMEMORY
+|
+|
+result
+=
+=
+D3DERR_INVALIDCALL
 )
 ;
 ERR
@@ -979,6 +985,12 @@ result
 =
 =
 E_OUTOFMEMORY
+|
+|
+result
+=
+=
+D3DERR_INVALIDCALL
 )
 ;
 ERR
