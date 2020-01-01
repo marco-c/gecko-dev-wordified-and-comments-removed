@@ -8907,6 +8907,9 @@ classes
 .
 dex
 jars
+(
+ANDROID_COMPAT_LIB
+)
 jars
 /
 gecko

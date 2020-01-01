@@ -605,6 +605,9 @@ classes
 (
 ROBOTIUM_PATH
 )
+(
+ANDROID_COMPT_LIB
+)
 robocop
 .
 ap_

@@ -189,6 +189,10 @@ ANDROID_SDK
 android
 .
 jar
+:
+(
+ANDROID_COMPAT_LIB
+)
 endif
 #
 For
