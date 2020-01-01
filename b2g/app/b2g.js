@@ -3990,3 +3990,15 @@ activate
 2
 )
 ;
+pref
+(
+"
+browser
+.
+prompt
+.
+allowNative
+"
+false
+)
+;
