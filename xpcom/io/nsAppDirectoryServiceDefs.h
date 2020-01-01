@@ -305,4 +305,10 @@ NS_APP_INDEXEDDB_PARENT_DIR
 indexedDBPDir
 "
 #
+define
+NS_APP_PERMISSION_PARENT_DIR
+"
+permissionDBPDir
+"
+#
 endif

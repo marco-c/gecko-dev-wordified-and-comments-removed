@@ -145,6 +145,9 @@ PrefD
 "
 indexedDBPDir
 "
+"
+permissionDBPDir
+"
 ]
 ;
 if
