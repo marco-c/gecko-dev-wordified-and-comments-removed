@@ -2563,9 +2563,7 @@ exists
 let
 stream
 =
-Components
-.
-classes
+Cc
 [
 "
 mozilla
@@ -2586,9 +2584,7 @@ stream
 .
 createInstance
 (
-Components
-.
-interfaces
+Ci
 .
 nsIFileInputStream
 )
@@ -2645,7 +2641,9 @@ catch
 e
 )
 {
-sendError
+sandbox
+.
+asyncComplete
 (
 e
 .
@@ -2659,9 +2657,6 @@ e
 .
 message
 17
-e
-.
-stack
 )
 ;
 }
