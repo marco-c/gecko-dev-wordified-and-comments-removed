@@ -242,7 +242,8 @@ aOverride
 )
 ;
 NS_OVERRIDE
-nsresult
+nsIURI
+*
 GetBaseURIFromPackage
 (
 const
@@ -257,10 +258,6 @@ const
 nsCString
 &
 aPath
-nsIURI
-*
-*
-aResult
 )
 ;
 NS_OVERRIDE
