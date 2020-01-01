@@ -2188,13 +2188,6 @@ windows
 "
 )
 ;
-if
-(
-!
-mIsTopLevel
-)
-return
-;
 #
 ifdef
 ACCESSIBILITY
@@ -2232,13 +2225,6 @@ DispatchDeactivateEvent
 void
 )
 {
-if
-(
-!
-mIsTopLevel
-)
-return
-;
 nsGUIEvent
 event
 (
