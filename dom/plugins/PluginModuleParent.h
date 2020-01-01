@@ -403,6 +403,16 @@ AnswerProcessSomeEvents
 (
 )
 ;
+virtual
+bool
+RecvAppendNotesToCrashReport
+(
+const
+nsCString
+&
+aNotes
+)
+;
 static
 PluginInstanceParent
 *
@@ -832,6 +842,9 @@ void
 *
 aModule
 )
+;
+nsCString
+mCrashNotes
 ;
 PluginProcessParent
 *
