@@ -2544,9 +2544,6 @@ html
 void
 mozRequestAnimationFrame
 (
-[
-optional
-]
 in
 nsIFrameRequestCallback
 aCallback
