@@ -496,10 +496,6 @@ nsInternetCiter
 .
 cpp
 \
-nsAOLCiter
-.
-cpp
-\
 nsTextEditRulesBidi
 .
 cpp
