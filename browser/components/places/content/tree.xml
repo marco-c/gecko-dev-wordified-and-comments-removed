@@ -5787,6 +5787,9 @@ row
 .
 value
 orientation
+aEvent
+.
+dataTransfer
 )
 ;
 ]
@@ -5860,6 +5863,9 @@ canDrop
 (
 aEvent
 aDragSession
+aEvent
+.
+dataTransfer
 )
 )
 aEvent
