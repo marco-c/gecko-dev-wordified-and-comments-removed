@@ -53,9 +53,6 @@ class
 nsIScrollbarListener
 ;
 class
-nsISupportsArray
-;
-class
 nsITimer
 ;
 class
