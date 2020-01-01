@@ -20409,17 +20409,6 @@ true
 numPinned
 >
 0
-&
-&
-numPinned
-<
-this
-.
-tabbrowser
-.
-visibleTabs
-.
-length
 ;
 if
 (
