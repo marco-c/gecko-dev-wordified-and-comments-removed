@@ -495,6 +495,14 @@ test_bug635835
 .
 xul
 \
+test_fileconstructor
+.
+xul
+\
+fileconstructor_file
+.
+png
+\
 (
 NULL
 )
