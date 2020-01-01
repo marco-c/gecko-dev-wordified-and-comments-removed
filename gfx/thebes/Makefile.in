@@ -99,6 +99,10 @@ gfxImageSurface
 .
 h
 \
+gfxLineSegment
+.
+h
+\
 gfxMatrix
 .
 h
