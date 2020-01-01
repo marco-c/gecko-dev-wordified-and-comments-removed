@@ -789,8 +789,11 @@ i
 ;
 i
 <
-nargs
+CountArgSlots
 (
+fun
+(
+)
 )
 ;
 i
