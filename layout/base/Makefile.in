@@ -795,6 +795,17 @@ srcdir
 .
 .
 /
+style
+\
+-
+I
+(
+srcdir
+)
+/
+.
+.
+/
 generic
 \
 -
