@@ -1507,6 +1507,7 @@ endif
 DEFINES
 +
 =
+\
 -
 DOS_TARGET
 =
@@ -1514,6 +1515,17 @@ DOS_TARGET
 "
 (
 OS_TARGET
+)
+\
+"
+\
+-
+DMOZ_WIDGET_TOOLKIT
+=
+\
+"
+(
+MOZ_WIDGET_TOOLKIT
 )
 \
 "
