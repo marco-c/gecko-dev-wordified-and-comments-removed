@@ -68,7 +68,7 @@ already_AddRefed
 <
 SmsManager
 >
-CheckPermissionAndCreateInstance
+CreateInstanceIfAllowed
 (
 nsPIDOMWindow
 *
