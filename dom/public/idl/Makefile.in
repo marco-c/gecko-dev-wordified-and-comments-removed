@@ -449,8 +449,6 @@ storage
 json
 \
 offline
-\
-geolocation
 ifdef
 MOZ_SVG
 DIRS
