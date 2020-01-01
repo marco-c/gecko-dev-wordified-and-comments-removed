@@ -10163,16 +10163,6 @@ autocompletepopup
 "
 PopupAutoComplete
 "
-onclick
-=
-"
-contentAreaClick
-(
-event
-false
-)
-;
-"
 /
 >
 <
