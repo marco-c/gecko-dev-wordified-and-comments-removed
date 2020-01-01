@@ -680,6 +680,10 @@ nsIntSize
 aDisplay
 )
 :
+mDisplay
+(
+aDisplay
+)
 mOffset
 (
 aOffset
@@ -703,10 +707,6 @@ PR_FALSE
 mKeyframe
 (
 aKeyframe
-)
-mDisplay
-(
-aDisplay
 )
 {
 MOZ_COUNT_CTOR
