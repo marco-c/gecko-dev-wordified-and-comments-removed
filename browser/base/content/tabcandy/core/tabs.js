@@ -2195,6 +2195,8 @@ eventType
 {
 tabbrowser
 .
+tabContainer
+.
 addEventListener
 (
 eventType
@@ -2275,6 +2277,8 @@ eventType
 )
 {
 tabbrowser
+.
+tabContainer
 .
 removeEventListener
 (
