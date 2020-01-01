@@ -14056,7 +14056,7 @@ clone
 clone
 -
 >
-setTypeAndEmptyShape
+setTypeAndUniqueShape
 (
 cx
 type
@@ -14094,7 +14094,7 @@ clone
 clone
 -
 >
-setTypeAndEmptyShape
+setTypeAndUniqueShape
 (
 cx
 type
