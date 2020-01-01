@@ -1993,6 +1993,12 @@ nsCOMPtr
 <
 mozIStorageStatement
 >
+mDBPreviousQuery
+;
+nsCOMPtr
+<
+mozIStorageStatement
+>
 mDBAdaptiveQuery
 ;
 nsCOMPtr
@@ -2111,6 +2117,11 @@ AutoCompleteFullHistorySearch
 PRBool
 *
 aHasMoreResults
+)
+;
+nsresult
+AutoCompletePreviousSearch
+(
 )
 ;
 nsresult
