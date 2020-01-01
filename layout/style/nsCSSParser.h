@@ -225,7 +225,7 @@ aResult
 )
 ;
 nsresult
-ParseAndAppendDeclaration
+ParseDeclarations
 (
 const
 nsAString
@@ -250,12 +250,8 @@ Declaration
 *
 aDeclaration
 PRBool
-aParseOnlyOneDecl
-PRBool
 *
 aChanged
-PRBool
-aClearOldDecl
 )
 ;
 nsresult
