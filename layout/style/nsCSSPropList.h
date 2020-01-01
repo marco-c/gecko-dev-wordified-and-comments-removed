@@ -5338,7 +5338,9 @@ bidi
 unicode_bidi
 UnicodeBidi
 CSS_PROPERTY_PARSE_VALUE
-VARIANT_HK
+|
+CSS_PROPERTY_VALUE_PARSER_FUNCTION
+0
 kUnicodeBidiKTable
 CSS_PROP_NO_OFFSET
 eStyleAnimType_None
