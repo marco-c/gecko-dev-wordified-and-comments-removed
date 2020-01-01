@@ -4210,16 +4210,6 @@ MOZ_DELETE
 ;
 template
 <
-typename
-T
->
-struct
-RootMethods
-{
-}
-;
-template
-<
 >
 struct
 RootMethods
