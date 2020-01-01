@@ -143,6 +143,7 @@ nsIDOMEventListener
 aCallback
 bool
 aCapture
+const
 Nullable
 <
 bool
