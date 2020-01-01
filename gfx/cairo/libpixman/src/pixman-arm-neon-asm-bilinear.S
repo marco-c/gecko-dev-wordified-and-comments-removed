@@ -517,6 +517,9 @@ eabi_attribute
 arm
 .
 altmacro
+.
+p2align
+2
 #
 include
 "

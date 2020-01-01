@@ -264,6 +264,9 @@ armv4
 arm
 .
 altmacro
+.
+p2align
+2
 /
 *
 Supplementary

@@ -369,6 +369,9 @@ Tag_Advanced_SIMD_arch
 arm
 .
 altmacro
+.
+p2align
+2
 #
 include
 "
