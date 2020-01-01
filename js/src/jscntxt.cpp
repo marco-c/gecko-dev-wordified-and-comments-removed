@@ -462,6 +462,13 @@ traceMonitor
 ;
 #
 endif
+thread
+-
+>
+scriptsToGC
+=
+NULL
+;
 }
 return
 thread
