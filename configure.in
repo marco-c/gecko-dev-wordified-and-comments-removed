@@ -11322,6 +11322,7 @@ offsetof
 ac_has_wno_invalid_offsetof
 [
 AC_LANG_SAVE
+AC_LANG_CPLUSPLUS
 _SAVE_CXXFLAGS
 =
 "
