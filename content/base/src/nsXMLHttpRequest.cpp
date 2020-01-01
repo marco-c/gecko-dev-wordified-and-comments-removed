@@ -10137,6 +10137,10 @@ mChannel
 =
 nsnull
 ;
+mCORSPreflightChannel
+=
+nsnull
+;
 }
 else
 if
