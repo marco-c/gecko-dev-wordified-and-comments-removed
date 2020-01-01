@@ -134,13 +134,6 @@ h
 #
 include
 "
-jsarena
-.
-h
-"
-#
-include
-"
 jsfun
 .
 h
