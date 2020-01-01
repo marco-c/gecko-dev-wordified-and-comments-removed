@@ -359,12 +359,14 @@ Disconnect
 (
 )
 {
-MOZ_ASSERT
+if
 (
-!
 mDisconnected
 )
+{
+return
 ;
+}
 mDisconnected
 =
 true
