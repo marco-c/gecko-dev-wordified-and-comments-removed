@@ -681,13 +681,14 @@ mElement
 )
 ;
 return
+*
 tests
 -
 >
-mStringListAttributes
-[
+GetStringListAttribute
+(
 mAttrEnum
-]
+)
 ;
 }
 return
