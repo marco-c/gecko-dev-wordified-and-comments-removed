@@ -3840,6 +3840,15 @@ GetIDAttributeName
 )
 )
 {
+nsCOMPtr
+<
+nsIMutationObserver
+>
+kungFuDeathGrip
+(
+this
+)
+;
 RemoveElementFromRefMap
 (
 aContent
