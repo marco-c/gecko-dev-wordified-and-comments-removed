@@ -7573,6 +7573,11 @@ control
 -
 container
 "
+pack
+=
+"
+end
+"
 >
 <
 xul
