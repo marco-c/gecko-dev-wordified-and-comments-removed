@@ -28,7 +28,7 @@ ErrorCode
 checkSyntax
 (
 const
-UString
+String
 &
 pattern
 )
