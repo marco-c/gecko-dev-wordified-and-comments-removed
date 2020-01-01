@@ -5389,7 +5389,12 @@ Created
 {
 mTileSize
 =
-256
+mGL
+-
+>
+GetMaxTextureSize
+(
+)
 ;
 if
 (
