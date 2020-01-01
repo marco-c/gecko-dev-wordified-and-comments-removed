@@ -5117,6 +5117,16 @@ count
 (
 )
 ;
+JS_ASSERT
+(
+count
+<
+JSObject
+:
+:
+NELEMENTS_LIMIT
+)
+;
 size_t
 maxArraySlots
 =

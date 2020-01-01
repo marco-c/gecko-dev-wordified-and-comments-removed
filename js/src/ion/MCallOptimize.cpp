@@ -1580,7 +1580,7 @@ isConstant
 )
 )
 {
-int32
+uint32
 arg
 =
 argv1
@@ -1599,6 +1599,16 @@ toInt32
 (
 )
 ;
+if
+(
+arg
+<
+JSObject
+:
+:
+NELEMENTS_LIMIT
+)
+{
 if
 (
 !
@@ -1678,6 +1688,7 @@ InliningStatus_Error
 return
 InliningStatus_Inlined
 ;
+}
 }
 }
 }
