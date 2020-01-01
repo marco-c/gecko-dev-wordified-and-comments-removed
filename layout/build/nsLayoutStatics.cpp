@@ -532,6 +532,13 @@ nsFrameMessageManager
 .
 h
 "
+#
+include
+"
+nsRefreshDriver
+.
+h
+"
 extern
 void
 NS_ShutdownChainItemPool
@@ -1207,6 +1214,13 @@ InitializeStatics
 )
 ;
 nsIPresShell
+:
+:
+InitializeStatics
+(
+)
+;
+nsRefreshDriver
 :
 :
 InitializeStatics
