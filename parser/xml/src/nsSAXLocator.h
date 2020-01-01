@@ -19,6 +19,15 @@ nsString
 h
 "
 #
+include
+"
+mozilla
+/
+Attributes
+.
+h
+"
+#
 define
 NS_SAXLOCATOR_CONTRACTID
 "
@@ -77,6 +86,7 @@ a95e
 }
 class
 nsSAXLocator
+MOZ_FINAL
 :
 public
 nsISAXLocator
