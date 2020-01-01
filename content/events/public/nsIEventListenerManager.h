@@ -7,7 +7,7 @@ nsIEventListenerManager_h__
 #
 include
 "
-nsGUIEvent
+nsEvent
 .
 h
 "
@@ -85,7 +85,7 @@ PR_FALSE
 )
 mNoListenerForEvent
 (
-NS_EVENT_TYPE_NULL
+0
 )
 {
 }
