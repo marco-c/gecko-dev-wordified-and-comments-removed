@@ -450,6 +450,10 @@ test_wmode
 .
 xul
 \
+test_npapi_timers
+.
+xul
+\
 (
 NULL
 )
