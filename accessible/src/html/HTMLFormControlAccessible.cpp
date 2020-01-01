@@ -1181,6 +1181,10 @@ aContent
 aDoc
 )
 {
+mType
+=
+eHTMLTextFieldType
+;
 }
 NS_IMPL_ISUPPORTS_INHERITED2
 (

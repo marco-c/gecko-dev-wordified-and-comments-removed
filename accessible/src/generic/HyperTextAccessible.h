@@ -185,7 +185,6 @@ Accessible
 aAccessible
 )
 ;
-static
 nsresult
 ContentToRenderedOffset
 (
@@ -199,7 +198,6 @@ uint32_t
 aRenderedOffset
 )
 ;
-static
 nsresult
 RenderedToContentOffset
 (
