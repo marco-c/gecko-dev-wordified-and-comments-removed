@@ -21958,6 +21958,11 @@ about
 :
 addons
 "
+"
+about
+:
+permissions
+"
 ]
 QueryInterface
 :
