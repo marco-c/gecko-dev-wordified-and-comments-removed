@@ -339,12 +339,10 @@ IsPending
 const
 {
 return
-(
 mPump
-!
-=
-nsnull
-)
+|
+|
+mWaitingOnAsyncRedirect
 ;
 }
 void
@@ -673,6 +671,9 @@ mSynthProgressEvents
 ;
 PRPackedBool
 mWasOpened
+;
+PRPackedBool
+mWaitingOnAsyncRedirect
 ;
 }
 ;
