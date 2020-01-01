@@ -506,6 +506,15 @@ loadContext
 {
 mIsFromPrivateWindow
 =
+!
+nsContentUtils
+:
+:
+IsCallerChrome
+(
+)
+&
+&
 loadContext
 -
 >
