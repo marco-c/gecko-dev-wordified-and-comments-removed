@@ -265,6 +265,11 @@ uint32_t
 aNativeLength
 bool
 aExpandToClusterBoundaries
+uint32_t
+*
+aNewNativeOffset
+=
+nullptr
 )
 ;
 nsresult

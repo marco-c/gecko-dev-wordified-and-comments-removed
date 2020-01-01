@@ -1725,6 +1725,11 @@ FirstRectForCharacterRange
 NSRange
 &
 aRange
+NSRange
+*
+aActualRange
+=
+nullptr
 )
 ;
 NSUInteger
