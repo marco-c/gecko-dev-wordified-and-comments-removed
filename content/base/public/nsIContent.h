@@ -70,9 +70,6 @@ IMEState
 enum
 nsLinkState
 {
-eLinkState_Unknown
-=
-0
 eLinkState_Unvisited
 =
 1

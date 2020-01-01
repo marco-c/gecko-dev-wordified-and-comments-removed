@@ -817,6 +817,12 @@ Link
 ResetLinkState
 (
 false
+Link
+:
+:
+ElementHasHref
+(
+)
 )
 ;
 nsresult
@@ -965,6 +971,12 @@ Link
 ResetLinkState
 (
 false
+Link
+:
+:
+ElementHasHref
+(
+)
 )
 ;
 nsCOMPtr
@@ -1240,6 +1252,7 @@ ResetLinkState
 !
 !
 aNotify
+true
 )
 ;
 }
@@ -1507,6 +1520,7 @@ ResetLinkState
 !
 !
 aNotify
+false
 )
 ;
 }

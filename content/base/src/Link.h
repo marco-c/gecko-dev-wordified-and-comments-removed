@@ -61,13 +61,6 @@ NS_DECLARE_STATIC_IID_ACCESSOR
 (
 MOZILLA_DOM_LINK_IMPLEMENTATION_IID
 )
-static
-const
-nsLinkState
-defaultState
-=
-eLinkState_Unknown
-;
 Link
 (
 Element
@@ -244,6 +237,8 @@ ResetLinkState
 (
 bool
 aNotify
+bool
+aHasHref
 )
 ;
 Element
@@ -287,6 +282,12 @@ SizeOfExcludingThis
 (
 nsMallocSizeOfFun
 aMallocSizeOf
+)
+const
+;
+bool
+ElementHasHref
+(
 )
 const
 ;
@@ -394,6 +395,9 @@ mHistory
 ;
 uint16_t
 mLinkState
+;
+bool
+mNeedsRegistration
 ;
 bool
 mRegistered

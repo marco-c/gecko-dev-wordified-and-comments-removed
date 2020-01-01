@@ -657,6 +657,12 @@ Link
 ResetLinkState
 (
 false
+Link
+:
+:
+ElementHasHref
+(
+)
 )
 ;
 if
@@ -704,6 +710,12 @@ Link
 ResetLinkState
 (
 false
+Link
+:
+:
+ElementHasHref
+(
+)
 )
 ;
 nsIDocument
@@ -800,6 +812,7 @@ ResetLinkState
 !
 !
 aNotify
+true
 )
 ;
 }
@@ -860,6 +873,7 @@ ResetLinkState
 !
 !
 aNotify
+false
 )
 ;
 }
