@@ -107,6 +107,14 @@ test_SimpleTestGetTestFileURL
 .
 html
 \
+test_SpecialPowersLoadChromeScript
+.
+html
+\
+SpecialPowersLoadChromeScript
+.
+js
+\
 test_bug816847
 .
 html
