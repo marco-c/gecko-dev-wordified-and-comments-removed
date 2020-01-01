@@ -10395,7 +10395,7 @@ bool
 XPCJSRuntime
 :
 :
-gParisBindingsEnabled
+gExperimentalBindingsEnabled
 ;
 bool
 PreserveWrapper
@@ -10709,11 +10709,11 @@ Preferences
 AddBoolVarCache
 (
 &
-gParisBindingsEnabled
+gExperimentalBindingsEnabled
 "
 dom
 .
-paris_bindings
+experimental_bindings
 "
 false
 )
