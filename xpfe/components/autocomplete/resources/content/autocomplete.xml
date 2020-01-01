@@ -1452,7 +1452,7 @@ this
 setAttribute
 (
 '
-autoFill
+autofill
 '
 val
 )
@@ -1470,7 +1470,7 @@ this
 getAttribute
 (
 '
-autoFill
+autofill
 '
 )
 =
@@ -1532,7 +1532,7 @@ this
 setAttribute
 (
 '
-autoFillAfterMatch
+autofillaftermatch
 '
 val
 )
@@ -1550,7 +1550,7 @@ this
 getAttribute
 (
 '
-autoFillAfterMatch
+autofillaftermatch
 '
 )
 =
@@ -1598,7 +1598,7 @@ this
 setAttribute
 (
 '
-highlightNonMatches
+highlightnonmatches
 '
 val
 )
@@ -1616,7 +1616,7 @@ this
 getAttribute
 (
 '
-highlightNonMatches
+highlightnonmatches
 '
 )
 =
@@ -1671,7 +1671,7 @@ this
 getAttribute
 (
 '
-showCommentColumn
+showcommentcolumn
 '
 )
 =
@@ -1703,7 +1703,7 @@ this
 setAttribute
 (
 '
-showCommentColumn
+showcommentcolumn
 '
 val
 )
@@ -1761,7 +1761,7 @@ this
 setAttribute
 (
 '
-forceComplete
+forcecomplete
 '
 val
 )
@@ -1779,7 +1779,7 @@ this
 getAttribute
 (
 '
-forceComplete
+forcecomplete
 '
 )
 =
@@ -1894,7 +1894,7 @@ this
 setAttribute
 (
 '
-tabScrolling
+tabscrolling
 '
 val
 )
@@ -1912,7 +1912,7 @@ this
 getAttribute
 (
 '
-tabScrolling
+tabscrolling
 '
 )
 =
@@ -1941,7 +1941,7 @@ property
 name
 =
 "
-disableAutocomplete
+disableAutoComplete
 "
 onset
 =
@@ -1951,7 +1951,7 @@ this
 setAttribute
 (
 '
-disableAutocomplete
+disableautocomplete
 '
 val
 )
@@ -1969,7 +1969,7 @@ this
 getAttribute
 (
 '
-disableAutocomplete
+disableautocomplete
 '
 )
 =
@@ -2063,7 +2063,7 @@ this
 setAttribute
 (
 '
-ignoreBlurWhileSearching
+ignoreblurwhilesearching
 '
 val
 )
@@ -2081,7 +2081,7 @@ this
 getAttribute
 (
 '
-ignoreBlurWhileSearching
+ignoreblurwhilesearching
 '
 )
 =
@@ -2108,7 +2108,7 @@ this
 setAttribute
 (
 '
-minResultsForPopup
+minresultsforpopup
 '
 val
 )
@@ -2128,7 +2128,7 @@ this
 getAttribute
 (
 '
-minResultsForPopup
+minresultsforpopup
 '
 )
 ;
@@ -4857,7 +4857,7 @@ if
 (
 me
 .
-disableAutocomplete
+disableAutoComplete
 )
 return
 ;
@@ -5249,7 +5249,7 @@ if
 (
 this
 .
-disableAutocomplete
+disableAutoComplete
 )
 return
 ;
@@ -6179,7 +6179,7 @@ mNeedToFinish
 !
 this
 .
-disableAutocomplete
+disableAutoComplete
 )
 {
 /
@@ -7220,7 +7220,7 @@ if
 (
 this
 .
-disableAutocomplete
+disableAutoComplete
 )
 return
 ;
