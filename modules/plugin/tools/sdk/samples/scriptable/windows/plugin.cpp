@@ -150,6 +150,11 @@ nsPluginInstance
 (
 )
 {
+if
+(
+mScriptablePeer
+)
+{
 mScriptablePeer
 -
 >
@@ -158,11 +163,12 @@ SetInstance
 NULL
 )
 ;
-NS_IF_RELEASE
+NS_RELEASE
 (
 mScriptablePeer
 )
 ;
+}
 }
 static
 LRESULT
