@@ -3597,7 +3597,7 @@ searchString
 )
 ;
 "
-emptytext
+placeholder
 =
 "
 &
@@ -5721,7 +5721,7 @@ search
 -
 text
 "
-emptytext
+placeholder
 =
 "
 &

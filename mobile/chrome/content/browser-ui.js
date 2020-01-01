@@ -14438,6 +14438,12 @@ hidden
 =
 false
 ;
+BrowserUI
+.
+blurFocusedElement
+(
+)
+;
 window
 .
 addEventListener
