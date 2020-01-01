@@ -9276,10 +9276,14 @@ base
 )
 -
 >
+setSlotSpan
+(
 slotSpan
+(
+)
 +
-=
 argslen
+)
 ;
 if
 (

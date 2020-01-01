@@ -667,13 +667,12 @@ shape
 lastBinding
 -
 >
-getChild
+getChildBinding
 (
 cx
 child
 &
 lastBinding
-false
 )
 ;
 if

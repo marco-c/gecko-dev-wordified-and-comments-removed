@@ -1236,7 +1236,7 @@ BaseShapeEntry
 js
 :
 :
-BaseShape
+UnownedBaseShape
 *
 base
 ;
