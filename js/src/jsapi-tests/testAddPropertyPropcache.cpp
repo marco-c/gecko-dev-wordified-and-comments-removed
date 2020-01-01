@@ -5,13 +5,6 @@ tests
 .
 h
 "
-#
-include
-"
-jsxdrapi
-.
-h
-"
 static
 const
 int
