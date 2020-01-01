@@ -1268,7 +1268,7 @@ CAIRO_VERSION
 =
 1
 .
-4
+5
 .
 2
 GLITZ_VERSION
@@ -30906,7 +30906,7 @@ AM_PATH_NSPR
 (
 4
 .
-0
+7
 .
 0
 [
@@ -31467,7 +31467,7 @@ AM_PATH_NSS
 (
 3
 .
-0
+12
 .
 0
 [
