@@ -516,8 +516,6 @@ DIRS
 \
 find
 \
-filepicker
-\
 (
 NULL
 )
