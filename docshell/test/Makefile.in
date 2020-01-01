@@ -542,6 +542,14 @@ file_bug385434_3
 .
 html
 \
+test_bug509055
+.
+html
+\
+file_bug509055
+.
+html
+\
 (
 NULL
 )
