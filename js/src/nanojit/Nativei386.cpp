@@ -1557,6 +1557,7 @@ FpRegs
 evict
 (
 rr
+ins
 )
 ;
 if
@@ -3709,7 +3710,7 @@ ins
 EDX
 )
 ;
-evict
+evictIfActive
 (
 EAX
 )
@@ -3781,7 +3782,7 @@ allow
 <
 EAX
 ;
-evict
+evictIfActive
 (
 EDX
 )
@@ -6409,7 +6410,7 @@ FSTPQ
 SP
 )
 ;
-evict
+evictIfActive
 (
 FST0
 )
@@ -6951,6 +6952,7 @@ XmmRegs
 evict
 (
 rr
+ins
 )
 ;
 }
@@ -7914,7 +7916,7 @@ r
 }
 else
 {
-evict
+evictIfActive
 (
 EAX
 )
@@ -7959,7 +7961,7 @@ reg
 }
 else
 {
-evict
+evictIfActive
 (
 EAX
 )
