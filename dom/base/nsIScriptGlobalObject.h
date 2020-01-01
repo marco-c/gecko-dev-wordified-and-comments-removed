@@ -25,6 +25,15 @@ nsIGlobalObject
 .
 h
 "
+#
+include
+"
+js
+/
+TypeDecls
+.
+h
+"
 class
 nsIScriptContext
 ;
@@ -33,9 +42,6 @@ nsScriptErrorEvent
 ;
 class
 nsIScriptGlobalObject
-;
-class
-JSObject
 ;
 bool
 NS_HandleScriptError

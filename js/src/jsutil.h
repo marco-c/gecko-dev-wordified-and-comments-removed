@@ -43,9 +43,6 @@ Utility
 .
 h
 "
-struct
-JSContext
-;
 static
 JS_ALWAYS_INLINE
 void

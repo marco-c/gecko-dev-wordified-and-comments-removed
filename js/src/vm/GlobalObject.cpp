@@ -1119,9 +1119,6 @@ return
 NULL
 ;
 }
-JS
-:
-:
 RootedScriptSource
 sourceObject
 (

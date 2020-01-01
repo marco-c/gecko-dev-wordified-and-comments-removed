@@ -53,12 +53,6 @@ shared
 .
 h
 "
-class
-JSFunction
-;
-class
-JSScript
-;
 namespace
 js
 {

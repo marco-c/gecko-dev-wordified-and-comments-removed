@@ -121,6 +121,15 @@ Nullable
 .
 h
 "
+#
+include
+"
+js
+/
+TypeDecls
+.
+h
+"
 using
 mozilla
 :
@@ -157,9 +166,6 @@ nsEventChainPreVisitor
 ;
 class
 nsEventChainPostVisitor
-;
-struct
-JSContext
 ;
 class
 nsEventListenerManager

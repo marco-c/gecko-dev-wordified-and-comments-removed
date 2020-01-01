@@ -16,7 +16,7 @@ include
 "
 js
 /
-IdForward
+TypeDecls
 .
 h
 "
@@ -29,12 +29,6 @@ Utility
 .
 h
 "
-class
-JSObject
-;
-class
-JSString
-;
 #
 ifdef
 JS_USE_JSID_STRUCT_TYPES

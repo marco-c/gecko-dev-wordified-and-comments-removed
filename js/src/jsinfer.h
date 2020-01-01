@@ -56,9 +56,6 @@ Utility
 .
 h
 "
-class
-JSScript
-;
 namespace
 js
 {

@@ -18,9 +18,6 @@ stdio
 .
 h
 >
-class
-JSScript
-;
 namespace
 JS
 {

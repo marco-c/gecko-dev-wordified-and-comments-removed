@@ -141,9 +141,6 @@ warnings
 /
 #
 endif
-class
-JSObject
-;
 namespace
 js
 {

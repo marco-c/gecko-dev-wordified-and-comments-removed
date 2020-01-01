@@ -98,16 +98,6 @@ domstubs
 .
 idl
 "
-%
-{
-C
-+
-+
-struct
-JSContext
-;
-%
-}
 [
 scriptable
 uuid

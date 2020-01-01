@@ -398,12 +398,6 @@ class
 nsAXPCNativeCallContext
 ;
 struct
-JSContext
-;
-class
-JSObject
-;
-struct
 nsMessageListenerInfo
 {
 nsCOMPtr

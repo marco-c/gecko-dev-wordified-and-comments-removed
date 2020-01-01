@@ -68,9 +68,6 @@ struct
 JSCompartment
 ;
 class
-JSFunction
-;
-class
 JSFlatString
 ;
 class

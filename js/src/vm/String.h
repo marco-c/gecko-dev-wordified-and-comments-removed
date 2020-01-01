@@ -104,9 +104,6 @@ class
 JSStableString
 ;
 class
-JSString
-;
-class
 JSRope
 ;
 namespace

@@ -30,9 +30,6 @@ h
 struct
 JSRuntime
 ;
-class
-JSScript
-;
 namespace
 js
 {

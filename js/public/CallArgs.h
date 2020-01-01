@@ -56,12 +56,6 @@ Value
 .
 h
 "
-struct
-JSContext
-;
-class
-JSObject
-;
 typedef
 bool
 (

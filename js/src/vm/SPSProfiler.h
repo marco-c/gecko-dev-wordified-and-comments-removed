@@ -45,9 +45,6 @@ ProfilingStack
 .
 h
 "
-class
-JSFunction
-;
 namespace
 js
 {

@@ -52,12 +52,6 @@ TCPSERVERSOCKETCHILD_CID
 class
 nsITCPServerSocketInternal
 ;
-struct
-JSContext
-;
-struct
-JSObject
-;
 namespace
 mozilla
 {

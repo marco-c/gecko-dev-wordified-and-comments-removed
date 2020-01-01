@@ -73,12 +73,6 @@ nsAutoPtr
 .
 h
 "
-struct
-JSContext
-;
-class
-JSObject
-;
 class
 nsWrapperCache
 ;

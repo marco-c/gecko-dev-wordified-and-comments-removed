@@ -1695,7 +1695,7 @@ newDebuggerSource
 JSContext
 *
 cx
-JS
+js
 :
 :
 HandleScriptSource
@@ -2170,7 +2170,7 @@ wrapSource
 JSContext
 *
 cx
-JS
+js
 :
 :
 HandleScriptSource

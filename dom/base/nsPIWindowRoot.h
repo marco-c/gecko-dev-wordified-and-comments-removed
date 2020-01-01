@@ -31,9 +31,6 @@ nsIControllers
 class
 nsIController
 ;
-struct
-JSContext
-;
 #
 define
 NS_IWINDOWROOT_IID
