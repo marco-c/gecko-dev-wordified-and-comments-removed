@@ -1368,6 +1368,7 @@ bindings
 .
 xml
 )
+*
 content
 /
 browser
@@ -1422,6 +1423,7 @@ addDevice
 .
 xul
 )
+*
 content
 /
 browser
