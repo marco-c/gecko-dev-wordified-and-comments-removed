@@ -4290,6 +4290,11 @@ true
 ;
 }
 }
+NotifyRollupGeometryChange
+(
+gRollupListener
+)
+;
 if
 (
 mIsTopLevel
@@ -4462,6 +4467,11 @@ true
 ;
 }
 }
+NotifyRollupGeometryChange
+(
+gRollupListener
+)
+;
 if
 (
 mIsTopLevel
@@ -4672,6 +4682,11 @@ aY
 )
 ;
 }
+NotifyRollupGeometryChange
+(
+gRollupListener
+)
+;
 return
 NS_OK
 ;

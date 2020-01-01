@@ -577,6 +577,12 @@ false
 )
 ;
 virtual
+void
+NotifyGeometryChange
+(
+)
+;
+virtual
 bool
 ShouldRollupOnMouseWheelEvent
 (
