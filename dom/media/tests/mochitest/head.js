@@ -139,7 +139,7 @@ err
 function
 unexpectedCallbackAndFinish
 (
-obj
+aObj
 )
 {
 ok
@@ -152,7 +152,7 @@ callback
 with
 "
 +
-obj
+aObj
 )
 ;
 SimpleTest
