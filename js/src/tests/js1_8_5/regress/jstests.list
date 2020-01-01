@@ -221,3 +221,11 @@ regress
 583429
 .
 js
+script
+regress
+-
+yarr
+-
+regexp
+.
+js
