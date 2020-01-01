@@ -3785,6 +3785,7 @@ nsPIDOMWindow
 GetWindowInternal
 (
 )
+const
 ;
 virtual
 nsPIDOMWindow
@@ -4115,16 +4116,6 @@ nsAString
 aSheetSet
 PRBool
 aUpdateCSSLoader
-)
-;
-void
-RevokeAnimationFrameNotifications
-(
-)
-;
-void
-RescheduleAnimationFrameNotifications
-(
 )
 ;
 nsDocument
