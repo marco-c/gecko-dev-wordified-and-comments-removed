@@ -94,7 +94,7 @@ aboutPage
 .
 checkForUpdates
 .
-button
+link
 "
 Check
 for
