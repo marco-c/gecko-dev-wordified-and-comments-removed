@@ -692,8 +692,6 @@ virtual
 void
 DidAnimatePreserveAspectRatio
 (
-PRUint8
-aAttrEnum
 )
 ;
 enum
