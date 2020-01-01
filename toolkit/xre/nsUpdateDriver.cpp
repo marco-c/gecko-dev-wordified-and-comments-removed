@@ -4615,11 +4615,6 @@ char
 *
 argv
 ;
-NS_ENSURE_ARG_POINTER
-(
-aUpdate
-)
-;
 nsAutoCString
 binPath
 ;
@@ -5153,6 +5148,11 @@ defined
 (
 MOZ_WIDGET_GONK
 )
+NS_ENSURE_ARG_POINTER
+(
+aUpdate
+)
+;
 bool
 isOSUpdate
 ;
@@ -5524,6 +5524,9 @@ manager
 if
 (
 um
+&
+&
+mUpdate
 )
 {
 um
