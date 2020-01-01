@@ -10722,6 +10722,10 @@ mPathBuilder
 =
 nsnull
 ;
+mPathTransformWillUpdate
+=
+false
+;
 }
 return
 ;
