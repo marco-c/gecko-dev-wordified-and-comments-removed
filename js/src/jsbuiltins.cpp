@@ -2302,8 +2302,10 @@ v
 )
 )
 return
--
-1
+JSVAL_TO_BOOLEAN
+(
+JSVAL_VOID
+)
 ;
 JS_ASSERT
 (
