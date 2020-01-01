@@ -5697,6 +5697,16 @@ p
 hwndEmail
 &
 &
+IsWindowEnabled
+(
+GetDlgItem
+(
+hwndDlg
+IDC_RESTARTBUTTON
+)
+)
+&
+&
 !
 IsWindowEnabled
 (
