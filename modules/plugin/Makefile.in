@@ -499,6 +499,8 @@ default
 /
 os2
 endif
+ifdef
+PBBUILD
 ifeq
 (
 (
@@ -512,6 +514,7 @@ TOOL_DIRS
 default
 /
 mac
+endif
 endif
 ifdef
 ENABLE_TESTS
