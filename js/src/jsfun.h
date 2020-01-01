@@ -1607,6 +1607,16 @@ fun
 )
 ;
 extern
+JSAtom
+*
+js_FindDuplicateFormal
+(
+JSFunction
+*
+fun
+)
+;
+extern
 JSBool
 js_fun_apply
 (
