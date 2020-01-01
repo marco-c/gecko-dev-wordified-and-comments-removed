@@ -21,13 +21,6 @@ h
 #
 include
 "
-nsIObserver
-.
-h
-"
-#
-include
-"
 nsIURI
 .
 h
