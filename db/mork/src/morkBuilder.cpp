@@ -993,6 +993,10 @@ MORK_USED_1
 inPlace
 )
 ;
+mParser_InGroup
+=
+morkBool_kTrue
+;
 mork_pos
 startPos
 =
