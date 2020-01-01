@@ -1,0 +1,10 @@
+try
+{
+}
+catch
+(
+)
+{
+finally
+{
+}
