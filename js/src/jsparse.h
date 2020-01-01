@@ -165,6 +165,9 @@ kid
 jsint
 num
 ;
+JSBool
+hidden
+;
 }
 unary
 ;
@@ -213,10 +216,6 @@ pn_next
 JSTokenStream
 *
 pn_ts
-;
-JSAtom
-*
-pn_source
 ;
 }
 ;
@@ -348,6 +347,14 @@ pn_u
 unary
 .
 num
+#
+define
+pn_hidden
+pn_u
+.
+unary
+.
+hidden
 #
 define
 pn_atom
