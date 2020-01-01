@@ -646,7 +646,7 @@ recent
 history
 dialog
 (
-sanitize
+santize
 .
 xul
 )
@@ -696,10 +696,6 @@ bug
 )
 _BROWSER_FILES
 =
-\
-head
-.
-js
 \
 browser_typeAheadFind
 .
@@ -1199,6 +1195,10 @@ browser_tabs_isActive
 js
 \
 browser_tabs_owner
+.
+js
+\
+browser_urlbarAutoFillTrimURLs
 .
 js
 \
