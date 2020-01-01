@@ -107,6 +107,15 @@ mMaxTokenLen
 pType
 mPackage
 ;
+nsString
+mDomain
+;
+nsString
+mUsername
+;
+nsString
+mPassword
+;
 }
 ;
 #
