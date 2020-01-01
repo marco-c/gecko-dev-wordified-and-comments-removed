@@ -2355,7 +2355,7 @@ statusCode
 8
 ;
 File
-downloadDir
+baseUpdateDir
 =
 null
 ;
@@ -2370,7 +2370,7 @@ SDK_INT
 =
 8
 )
-downloadDir
+baseUpdateDir
 =
 getExternalFilesDir
 (
@@ -2380,7 +2380,7 @@ DIRECTORY_DOWNLOADS
 )
 ;
 else
-downloadDir
+baseUpdateDir
 =
 new
 File
@@ -2408,7 +2408,7 @@ File
 new
 File
 (
-downloadDir
+baseUpdateDir
 "
 updates
 "
