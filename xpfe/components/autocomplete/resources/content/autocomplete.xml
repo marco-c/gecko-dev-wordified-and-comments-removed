@@ -13345,10 +13345,14 @@ kids
 =
 textbox
 .
-getElementsByTagName
+getElementsByClassName
 (
 "
-menupopup
+autocomplete
+-
+history
+-
+popup
 "
 )
 ;
