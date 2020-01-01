@@ -3146,6 +3146,14 @@ top
 }
 }
 }
+content
+.
+setTimeout
+(
+function
+(
+)
+{
 sendAsyncMessage
 (
 "
@@ -3166,6 +3174,10 @@ zoomTo
 :
 rect
 }
+)
+;
+}
+0
 )
 ;
 break
