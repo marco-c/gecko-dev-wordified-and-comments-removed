@@ -9704,7 +9704,9 @@ lcbits
 =
 LC_ReadLIR
 |
-LC_Assembly
+LC_AfterDCE
+|
+LC_Native
 |
 LC_RegAlloc
 |
