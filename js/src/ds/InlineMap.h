@@ -77,7 +77,7 @@ DefaultHasher
 <
 K
 >
-TempAllocPolicy
+SystemAllocPolicy
 >
 WordMap
 ;
@@ -337,9 +337,6 @@ public
 explicit
 InlineMap
 (
-JSContext
-*
-cx
 )
 :
 inlNext
@@ -349,10 +346,6 @@ inlNext
 inlCount
 (
 0
-)
-map
-(
-cx
 )
 {
 checkStaticInvariants

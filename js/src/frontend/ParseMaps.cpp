@@ -326,15 +326,11 @@ AtomMapT
 *
 map
 =
-cx
--
->
-new_
+js_new
 <
 AtomMapT
 >
 (
-cx
 )
 ;
 if

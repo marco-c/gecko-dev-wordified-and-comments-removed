@@ -773,11 +773,6 @@ JSTracer
 trc
 )
 ;
-bool
-init
-(
-)
-;
 const
 char
 *
