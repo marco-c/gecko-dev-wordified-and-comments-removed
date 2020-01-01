@@ -718,6 +718,11 @@ dwMajorVersion
 =
 6
 ;
+PRBool
+safeMode
+=
+PR_FALSE
+;
 #
 ifdef
 CAIRO_HAS_D2D_SURFACE
@@ -796,11 +801,6 @@ runtime
 1
 "
 )
-;
-PRBool
-safeMode
-=
-PR_FALSE
 ;
 if
 (
