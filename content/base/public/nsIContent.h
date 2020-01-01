@@ -697,9 +697,8 @@ GetDesiredIMEState
 if
 (
 !
-HasFlag
+IsEditableInternal
 (
-NODE_IS_EDITABLE
 )
 )
 return
