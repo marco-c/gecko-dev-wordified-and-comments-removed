@@ -657,6 +657,17 @@ enterCompartmentDepth
 -
 ;
 }
+bool
+hasBeenEntered
+(
+)
+{
+return
+!
+!
+enterCompartmentDepth
+;
+}
 JS
 :
 :
