@@ -378,3 +378,8 @@ COMPONENT
 IOUTIL
 nsIOUtilConstructor
 )
+COMPONENT
+(
+CYCLE_COLLECTOR_LOGGER
+nsCycleCollectorLoggerConstructor
+)

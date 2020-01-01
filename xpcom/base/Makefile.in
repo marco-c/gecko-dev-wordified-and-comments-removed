@@ -698,6 +698,10 @@ nsIConsoleService
 .
 idl
 \
+nsICycleCollectorListener
+.
+idl
+\
 nsIDebug2
 .
 idl

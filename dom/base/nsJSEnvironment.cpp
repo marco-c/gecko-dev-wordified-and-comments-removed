@@ -1048,6 +1048,7 @@ nsJSContext
 :
 CC
 (
+nsnull
 )
 ;
 return
@@ -14430,6 +14431,9 @@ nsJSContext
 :
 CC
 (
+nsICycleCollectorListener
+*
+aListener
 )
 {
 NS_TIME_FUNCTION_MIN
@@ -14509,6 +14513,7 @@ sCollectedObjectsCounts
 =
 nsCycleCollector_collect
 (
+aListener
 )
 ;
 sCCSuspectedCount
@@ -14846,6 +14851,7 @@ nsJSContext
 :
 CC
 (
+nsnull
 )
 ;
 return
