@@ -246,8 +246,8 @@ ProcessPendingRequests
 )
 ;
 static
-nsresult
-DowngradePrincipalIfNeeded
+PRBool
+ShouldExecuteScript
 (
 nsIDocument
 *
