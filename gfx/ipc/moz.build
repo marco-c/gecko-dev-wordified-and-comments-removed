@@ -134,12 +134,12 @@ gfx
 =
 [
 '
-SharedDIBSurface
+SharedDIBWin
 .
 h
 '
 '
-SharedDIBWin
+SharedDIBSurface
 .
 h
 '
