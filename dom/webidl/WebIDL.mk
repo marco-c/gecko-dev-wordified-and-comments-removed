@@ -659,6 +659,10 @@ MouseEvent
 .
 webidl
 \
+MouseScrollEvent
+.
+webidl
+\
 MozActivity
 .
 webidl
