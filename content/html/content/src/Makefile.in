@@ -465,10 +465,6 @@ nsTextEditorState
 .
 cpp
 \
-nsHTMLElement
-.
-cpp
-\
 nsHTMLAnchorElement
 .
 cpp
