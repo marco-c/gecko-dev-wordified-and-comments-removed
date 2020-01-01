@@ -491,10 +491,6 @@ test_animLengthReadonly
 .
 xhtml
 \
-test_animLengthRelativeUnits
-.
-xhtml
-\
 test_animLengthUnits
 .
 xhtml
