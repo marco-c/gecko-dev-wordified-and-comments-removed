@@ -450,7 +450,7 @@ indexedDB
 CPPSRCS
 =
 \
-AsyncDatabaseConnection
+AsyncConnectionHelper
 .
 cpp
 \
@@ -487,10 +487,6 @@ dom
 /
 indexedDB
 =
-\
-AsyncDatabaseConnection
-.
-h
 \
 IDBDatabaseError
 .
