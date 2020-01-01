@@ -4323,6 +4323,11 @@ topsites
 -
 grid
 "
+class
+=
+"
+canSnapTiles
+"
 rows
 =
 "
