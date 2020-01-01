@@ -7101,6 +7101,8 @@ d
 ra
 )
 ;
+return
+;
 }
 if
 (
@@ -7116,6 +7118,8 @@ rr
 d
 ra
 )
+;
+return
 ;
 }
 NanoAssertMsg
