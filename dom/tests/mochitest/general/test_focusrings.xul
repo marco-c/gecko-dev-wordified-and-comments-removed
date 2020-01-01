@@ -2040,8 +2040,8 @@ appearance
 none
 ;
 }
-%
-23elem
+#
+elem
 :
 focus
 {
@@ -2052,8 +2052,8 @@ solid
 red
 ;
 }
-%
-23elem
+#
+elem
 :
 -
 moz
