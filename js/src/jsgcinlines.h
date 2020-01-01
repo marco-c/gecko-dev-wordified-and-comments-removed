@@ -422,10 +422,6 @@ GetGCObjectKind
 (
 size_t
 numSlots
-FinalizeKind
-fallback
-=
-FINALIZE_OBJECT0
 )
 {
 extern

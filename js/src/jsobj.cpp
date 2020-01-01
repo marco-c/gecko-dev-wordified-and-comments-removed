@@ -11957,9 +11957,7 @@ UndefinedValue
 JSBool
 junk
 ;
-if
-(
-!
+return
 js_DefineOwnProperty
 (
 cx
@@ -11973,12 +11971,6 @@ descval
 &
 junk
 )
-)
-return
-JS_FALSE
-;
-return
-JS_TRUE
 ;
 }
 static
@@ -16426,10 +16418,6 @@ GetGCObjectKind
 count
 +
 1
-gc
-:
-:
-FINALIZE_OBJECT2
 )
 ;
 js

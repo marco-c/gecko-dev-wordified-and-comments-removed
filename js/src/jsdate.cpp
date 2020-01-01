@@ -12334,12 +12334,8 @@ addr
 (
 )
 )
-)
-return
-NULL
-;
-if
-(
+|
+|
 !
 js_DefineProperty
 (
