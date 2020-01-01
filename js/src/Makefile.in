@@ -847,10 +847,6 @@ jsgc
 .
 cpp
 \
-jsgcchunk
-.
-cpp
-\
 jshash
 .
 cpp
