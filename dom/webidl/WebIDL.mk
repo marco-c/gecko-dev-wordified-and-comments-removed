@@ -199,10 +199,6 @@ DOMTransaction
 .
 webidl
 \
-DummyBinding
-.
-webidl
-\
 DynamicsCompressorNode
 .
 webidl
