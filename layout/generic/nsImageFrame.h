@@ -953,6 +953,12 @@ imgINotificationObserver
 >
 mListener
 ;
+nsCOMPtr
+<
+imgIContainer
+>
+mImage
+;
 nsSize
 mComputedSize
 ;
