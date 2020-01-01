@@ -2034,7 +2034,7 @@ if
 strArg
 -
 >
-isAtomized
+isAtom
 (
 )
 )

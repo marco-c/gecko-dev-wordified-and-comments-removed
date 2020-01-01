@@ -2671,7 +2671,7 @@ if
 JSString
 :
 :
-isStatic
+isGCThingStatic
 (
 thing
 )
@@ -7306,7 +7306,7 @@ if
 JSString
 :
 :
-isStatic
+isGCThingStatic
 (
 ptr
 )
@@ -9031,7 +9031,7 @@ if
 JSString
 :
 :
-isStatic
+isGCThingStatic
 (
 thing
 )
@@ -10010,12 +10010,11 @@ liveStrings
 JS_ASSERT
 (
 !
-JSString
-:
-:
-isStatic
-(
 str
+-
+>
+isStaticAtom
+(
 )
 )
 ;

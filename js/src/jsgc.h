@@ -2432,7 +2432,7 @@ if
 JSString
 :
 :
-isStatic
+isGCThingStatic
 (
 thing
 )

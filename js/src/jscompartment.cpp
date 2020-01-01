@@ -724,12 +724,11 @@ toString
 ;
 if
 (
-JSString
-:
-:
-isStatic
-(
 str
+-
+>
+isStaticAtom
+(
 )
 )
 return
@@ -760,7 +759,7 @@ if
 str
 -
 >
-isAtomized
+isAtom
 (
 )
 )

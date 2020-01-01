@@ -68,7 +68,7 @@ if
 str
 -
 >
-isAtomized
+isAtom
 (
 )
 )
