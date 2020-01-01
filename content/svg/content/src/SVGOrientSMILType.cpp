@@ -814,7 +814,7 @@ nsIDOMSVGMarkerElement
 SVG_MARKER_ORIENT_ANGLE
 |
 |
-aStartVal
+aEndVal
 .
 mU
 .
