@@ -181,7 +181,7 @@ statusIcons
 .
 firstChild
 .
-collapsed
+hidden
 "
 status
 icon

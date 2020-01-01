@@ -541,6 +541,15 @@ collapsed
 "
 ambient
 icon
+(
+"
++
+ambience
+.
+id
++
+"
+)
 is
 collapsed
 "
