@@ -49,7 +49,7 @@ js
 class
 HashableValue
 {
-RelocatableValue
+EncapsulatedValue
 value
 ;
 public
