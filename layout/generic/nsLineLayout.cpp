@@ -5106,7 +5106,7 @@ GetPrevContinuation
 nsLayoutUtils
 :
 :
-FrameIsInLastPartOfIBSplit
+FrameIsNonFirstInIBSplit
 (
 pfd
 -
@@ -5429,7 +5429,7 @@ GetNextContinuation
 nsLayoutUtils
 :
 :
-FrameIsInFirstPartOfIBSplit
+FrameIsNonLastInIBSplit
 (
 pfd
 -

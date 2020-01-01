@@ -1633,7 +1633,7 @@ aFrame
 ;
 static
 PRBool
-FrameIsInFirstPartOfIBSplit
+FrameIsNonFirstInIBSplit
 (
 const
 nsIFrame
@@ -1654,7 +1654,6 @@ NS_FRAME_IS_SPECIAL
 )
 &
 &
-!
 aFrame
 -
 >
@@ -1674,7 +1673,7 @@ IBSplitSpecialPrevSibling
 }
 static
 PRBool
-FrameIsInLastPartOfIBSplit
+FrameIsNonLastInIBSplit
 (
 const
 nsIFrame
@@ -1695,7 +1694,6 @@ NS_FRAME_IS_SPECIAL
 )
 &
 &
-!
 aFrame
 -
 >
