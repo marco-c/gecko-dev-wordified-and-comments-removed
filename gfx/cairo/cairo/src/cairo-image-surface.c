@@ -1293,15 +1293,7 @@ pixman_image_create_bits
 (
 pixman_format
 width
-?
-width
-:
-1
 height
-?
-height
-:
-1
 (
 uint32_t
 *
