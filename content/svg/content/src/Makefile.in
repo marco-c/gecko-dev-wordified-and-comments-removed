@@ -349,6 +349,10 @@ SVGFEFloodElement
 .
 cpp
 \
+SVGFEImageElement
+.
+cpp
+\
 SVGFEMergeElement
 .
 cpp
@@ -727,6 +731,10 @@ SVGFEBlendElement
 h
 \
 SVGFEFloodElement
+.
+h
+\
+SVGFEImageElement
 .
 h
 \
