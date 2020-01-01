@@ -5896,13 +5896,6 @@ GetParent
 {
 if
 (
-!
-frame
-)
-break
-;
-if
-(
 frame
 -
 >
