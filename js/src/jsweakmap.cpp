@@ -1978,6 +1978,9 @@ if
 map
 )
 {
+gc
+:
+:
 AutoSuppressGC
 suppress
 (
