@@ -404,6 +404,12 @@ DENY_ACTION
 =
 2
 ;
+const
+uint32_t
+PROMPT_ACTION
+=
+3
+;
 /
 *
 *

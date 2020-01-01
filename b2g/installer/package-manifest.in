@@ -1028,6 +1028,13 @@ BINPATH
 /
 components
 /
+dom_permissionsettings
+.
+xpt
+BINPATH
+/
+components
+/
 dom_sidebar
 .
 xpt
