@@ -201,7 +201,7 @@ isAGroup
 var
 tab
 =
-Page
+UI
 .
 getActiveTab
 (
@@ -233,7 +233,7 @@ _children
 .
 length
 )
-Page
+UI
 .
 setActiveTab
 (
@@ -259,7 +259,7 @@ item
 isATabItem
 )
 {
-Page
+UI
 .
 setActiveTab
 (

@@ -2353,7 +2353,7 @@ selectedTab
 tab
 )
 {
-Page
+UI
 .
 tabOnFocus
 (
