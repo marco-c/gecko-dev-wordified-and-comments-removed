@@ -23240,6 +23240,17 @@ aWindow
 )
 ;
 }
+get
+contentWindow
+(
+)
+{
+return
+gBrowser
+.
+contentWindow
+;
+}
 }
 function
 onViewToolbarsPopupShowing
