@@ -1439,7 +1439,7 @@ aPointsPerUnit
 )
 {
 return
-NSToCoordRound
+NSToCoordRoundWithClamp
 (
 aValue
 *
