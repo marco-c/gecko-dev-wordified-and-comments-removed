@@ -449,7 +449,7 @@ selectedProfile
 .
 profile
 .
-localDir
+rootDir
 .
 exists
 (
