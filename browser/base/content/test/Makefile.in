@@ -996,6 +996,10 @@ browser_bug624734
 .
 js
 \
+browser_bug628179
+.
+js
+\
 browser_contextSearchTabPosition
 .
 js
@@ -1297,6 +1301,10 @@ js
 browser_addon_bar_aomlistener
 .
 js
+\
+test_bug628179
+.
+html
 \
 (
 NULL

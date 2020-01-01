@@ -8123,6 +8123,14 @@ body
 [
 CDATA
 [
+if
+(
+this
+.
+hidden
+)
+return
+;
 var
 fm
 =
