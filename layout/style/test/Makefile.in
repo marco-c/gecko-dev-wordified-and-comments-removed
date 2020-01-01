@@ -567,7 +567,15 @@ test_initial_storage
 .
 html
 \
+test_property_database
+.
+html
+\
 css_properties
+.
+js
+\
+property_database
 .
 js
 \
