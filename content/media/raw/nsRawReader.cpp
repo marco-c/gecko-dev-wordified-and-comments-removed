@@ -257,7 +257,7 @@ NS_ENSURE_TRUE
 (
 dummy
 .
-valid
+isValid
 (
 )
 NS_ERROR_FAILURE
@@ -1273,7 +1273,7 @@ NS_ENSURE_TRUE
 (
 offset
 .
-valid
+isValid
 (
 )
 NS_ERROR_FAILURE

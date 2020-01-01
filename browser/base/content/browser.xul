@@ -10157,6 +10157,13 @@ toolbar
 -
 closebutton
 "
+class
+=
+"
+devtools
+-
+closebutton
+"
 oncommand
 =
 "
@@ -10379,6 +10386,13 @@ id
 developer
 -
 toolbar
+-
+closebutton
+"
+class
+=
+"
+devtools
 -
 closebutton
 "

@@ -2081,7 +2081,7 @@ if
 !
 audioWrittenOffset
 .
-valid
+isValid
 (
 )
 |
@@ -2089,7 +2089,7 @@ valid
 !
 frameOffset
 .
-valid
+isValid
 (
 )
 )
@@ -5144,7 +5144,7 @@ if
 !
 missingFrames
 .
-valid
+isValid
 (
 )
 |
@@ -5152,7 +5152,7 @@ valid
 !
 sampleTime
 .
-valid
+isValid
 (
 )
 )
@@ -5310,7 +5310,7 @@ if
 !
 playedUsecs
 .
-valid
+isValid
 (
 )
 )

@@ -1711,7 +1711,7 @@ if
 !
 t
 .
-valid
+isValid
 (
 )
 )
@@ -1730,7 +1730,7 @@ fps_numerator
 return
 t
 .
-valid
+isValid
 (
 )
 ?
@@ -1803,7 +1803,7 @@ if
 !
 t
 .
-valid
+isValid
 (
 )
 )
@@ -2959,7 +2959,7 @@ if
 !
 t
 .
-valid
+isValid
 (
 )
 )
@@ -4253,7 +4253,7 @@ USECS_PER_S
 return
 t
 .
-valid
+isValid
 (
 )
 ?
@@ -5183,7 +5183,7 @@ if
 !
 t
 .
-valid
+isValid
 (
 )
 )
@@ -5225,7 +5225,7 @@ if
 !
 t
 .
-valid
+isValid
 (
 )
 )
@@ -5270,7 +5270,7 @@ if
 !
 minPacketSize
 .
-valid
+isValid
 (
 )
 )
@@ -5460,7 +5460,7 @@ limit
 !
 offset
 .
-valid
+isValid
 (
 )
 |
@@ -5510,7 +5510,7 @@ if
 !
 time
 .
-valid
+isValid
 (
 )
 |
@@ -5553,7 +5553,7 @@ if
 !
 timeUsecs
 .
-valid
+isValid
 (
 )
 )
@@ -6170,7 +6170,7 @@ aDuration
 =
 duration
 .
-valid
+isValid
 (
 )
 ?
@@ -6185,7 +6185,7 @@ value
 return
 duration
 .
-valid
+isValid
 (
 )
 ?

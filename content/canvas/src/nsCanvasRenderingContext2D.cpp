@@ -402,13 +402,6 @@ h
 "
 #
 include
-"
-CheckedInt
-.
-h
-"
-#
-include
 <
 algorithm
 >
@@ -432,6 +425,15 @@ include
 mozilla
 /
 Assertions
+.
+h
+"
+#
+include
+"
+mozilla
+/
+CheckedInt
 .
 h
 "
@@ -16432,7 +16434,7 @@ if
 !
 len
 .
-valid
+isValid
 (
 )
 )
@@ -16478,7 +16480,7 @@ if
 !
 rightMost
 .
-valid
+isValid
 (
 )
 |
@@ -16486,7 +16488,7 @@ valid
 !
 bottomMost
 .
-valid
+isValid
 (
 )
 )
@@ -17078,7 +17080,7 @@ if
 !
 checkedDirtyX
 .
-valid
+isValid
 (
 )
 )
@@ -17133,7 +17135,7 @@ if
 !
 checkedDirtyY
 .
-valid
+isValid
 (
 )
 )
