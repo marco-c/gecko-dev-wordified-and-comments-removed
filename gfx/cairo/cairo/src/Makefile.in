@@ -497,6 +497,13 @@ OS_ARCH
 )
 WINNT
 )
+ifneq
+(
+(
+OS_TEST
+)
+x86_64
+)
 #
 FIXME
 :
@@ -508,6 +515,7 @@ OS_COMPILE_CFLAGS
 -
 GL
 -
+endif
 MODULE_OPTIMIZE_FLAGS
 =
 -
