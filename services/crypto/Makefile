@@ -1646,12 +1646,12 @@ h
 (
 headers
 )
-ifeq
+ifneq
 (
 (
 arch
 )
-x86
+arm
 )
 cppflags
 +
