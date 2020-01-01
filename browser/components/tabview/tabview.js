@@ -520,6 +520,11 @@ search
 js
 #
 include
+telemetry
+.
+js
+#
+include
 ui
 .
 js
