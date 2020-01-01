@@ -217,7 +217,7 @@ mContent
 HasAttr
 (
 kNameSpaceID_None
-nsAccessibilityAtoms
+nsGkAtoms
 :
 :
 multiple
@@ -306,7 +306,7 @@ mContent
 HasAttr
 (
 kNameSpaceID_None
-nsAccessibilityAtoms
+nsGkAtoms
 :
 :
 multiple
@@ -337,7 +337,7 @@ mContent
 HasAttr
 (
 kNameSpaceID_None
-nsAccessibilityAtoms
+nsGkAtoms
 :
 :
 multiple
@@ -460,7 +460,7 @@ if
 tag
 =
 =
-nsAccessibilityAtoms
+nsGkAtoms
 :
 :
 option
@@ -469,7 +469,7 @@ option
 tag
 =
 =
-nsAccessibilityAtoms
+nsGkAtoms
 :
 :
 optgroup
@@ -507,7 +507,7 @@ if
 tag
 =
 =
-nsAccessibilityAtoms
+nsGkAtoms
 :
 :
 optgroup
@@ -596,7 +596,7 @@ mContent
 GetAttr
 (
 kNameSpaceID_None
-nsAccessibilityAtoms
+nsGkAtoms
 :
 :
 label
@@ -1106,7 +1106,7 @@ NodeInfo
 >
 Equals
 (
-nsAccessibilityAtoms
+nsGkAtoms
 :
 :
 optgroup
@@ -1953,7 +1953,7 @@ Tag
 )
 !
 =
-nsAccessibilityAtoms
+nsGkAtoms
 :
 :
 option
@@ -2155,7 +2155,7 @@ Tag
 )
 !
 =
-nsAccessibilityAtoms
+nsGkAtoms
 :
 :
 select

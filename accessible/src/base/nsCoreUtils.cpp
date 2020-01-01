@@ -863,7 +863,7 @@ aContent
 HasAttr
 (
 kNameSpaceID_None
-nsAccessibilityAtoms
+nsGkAtoms
 :
 :
 accesskey
@@ -2621,11 +2621,11 @@ aContent
 AttrValueIs
 (
 kNameSpaceID_XLink
-nsAccessibilityAtoms
+nsGkAtoms
 :
 :
 type
-nsAccessibilityAtoms
+nsGkAtoms
 :
 :
 simple
@@ -2639,7 +2639,7 @@ aContent
 HasAttr
 (
 kNameSpaceID_XLink
-nsAccessibilityAtoms
+nsGkAtoms
 :
 :
 href
@@ -2693,7 +2693,7 @@ walkUp
 GetAttr
 (
 kNameSpaceID_None
-nsAccessibilityAtoms
+nsGkAtoms
 :
 :
 lang
@@ -2934,7 +2934,7 @@ NodeInfo
 >
 Equals
 (
-nsAccessibilityAtoms
+nsGkAtoms
 :
 :
 tree
@@ -3542,11 +3542,11 @@ content
 AttrValueIs
 (
 kNameSpaceID_None
-nsAccessibilityAtoms
+nsGkAtoms
 :
 :
 hidden
-nsAccessibilityAtoms
+nsGkAtoms
 :
 :
 _true

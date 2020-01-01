@@ -450,7 +450,7 @@ nsAccUtils
 SetAccAttr
 (
 aAttributes
-nsAccessibilityAtoms
+nsGkAtoms
 :
 :
 tableCellIndex
@@ -1106,7 +1106,7 @@ IDRefsIterator
 iter
 (
 mContent
-nsAccessibilityAtoms
+nsGkAtoms
 :
 :
 headers
@@ -1337,12 +1337,12 @@ scopeValues
 =
 {
 &
-nsAccessibilityAtoms
+nsGkAtoms
 :
 :
 col
 &
-nsAccessibilityAtoms
+nsGkAtoms
 :
 :
 row
@@ -1358,7 +1358,7 @@ mContent
 FindAttrValueIn
 (
 kNameSpaceID_None
-nsAccessibilityAtoms
+nsGkAtoms
 :
 :
 scope
@@ -1832,7 +1832,7 @@ mContent
 GetAttr
 (
 kNameSpaceID_None
-nsAccessibilityAtoms
+nsGkAtoms
 :
 :
 summary
@@ -5323,7 +5323,7 @@ mContent
 GetAttr
 (
 kNameSpaceID_None
-nsAccessibilityAtoms
+nsGkAtoms
 :
 :
 summary
@@ -5731,7 +5731,7 @@ mContent
 HasAttr
 (
 kNameSpaceID_None
-nsAccessibilityAtoms
+nsGkAtoms
 :
 :
 role
@@ -5767,7 +5767,7 @@ mContent
 GetAttr
 (
 kNameSpaceID_None
-nsAccessibilityAtoms
+nsGkAtoms
 :
 :
 summary

@@ -414,11 +414,11 @@ mContent
 AttrValueIs
 (
 kNameSpaceID_None
-nsAccessibilityAtoms
+nsGkAtoms
 :
 :
 seltype
-nsAccessibilityAtoms
+nsGkAtoms
 :
 :
 multiple
@@ -699,7 +699,7 @@ NodeInfo
 >
 Equals
 (
-nsAccessibilityAtoms
+nsGkAtoms
 :
 :
 listcols
@@ -775,7 +775,7 @@ NodeInfo
 >
 Equals
 (
-nsAccessibilityAtoms
+nsGkAtoms
 :
 :
 listcol
@@ -3186,11 +3186,11 @@ mContent
 AttrValueIs
 (
 kNameSpaceID_None
-nsAccessibilityAtoms
+nsGkAtoms
 :
 :
 type
-nsAccessibilityAtoms
+nsGkAtoms
 :
 :
 checkbox
@@ -3350,7 +3350,7 @@ NodeInfo
 >
 Equals
 (
-nsAccessibilityAtoms
+nsGkAtoms
 :
 :
 listcell
@@ -3364,7 +3364,7 @@ child
 GetAttr
 (
 kNameSpaceID_None
-nsAccessibilityAtoms
+nsGkAtoms
 :
 :
 label
@@ -4652,7 +4652,7 @@ nsAccUtils
 SetAccAttr
 (
 aAttributes
-nsAccessibilityAtoms
+nsGkAtoms
 :
 :
 tableCellIndex

@@ -7,13 +7,6 @@ nsCoreUtils_h_
 #
 include
 "
-nsAccessibilityAtoms
-.
-h
-"
-#
-include
-"
 nsIDOMNode
 .
 h
@@ -641,7 +634,7 @@ NodeInfo
 >
 Equals
 (
-nsAccessibilityAtoms
+nsGkAtoms
 :
 :
 th
@@ -654,7 +647,7 @@ aContent
 HasAttr
 (
 kNameSpaceID_None
-nsAccessibilityAtoms
+nsGkAtoms
 :
 :
 scope

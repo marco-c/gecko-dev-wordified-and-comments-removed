@@ -15,13 +15,6 @@ h
 #
 include
 "
-nsAccessibilityAtoms
-.
-h
-"
-#
-include
-"
 nsAccUtils
 .
 h
@@ -259,7 +252,7 @@ mContent
 GetAttr
 (
 kNameSpaceID_None
-nsAccessibilityAtoms
+nsGkAtoms
 :
 :
 alt
@@ -694,7 +687,7 @@ mContent
 GetAttr
 (
 kNameSpaceID_None
-nsAccessibilityAtoms
+nsGkAtoms
 :
 :
 src
@@ -716,7 +709,7 @@ nsAccUtils
 SetAccAttr
 (
 aAttributes
-nsAccessibilityAtoms
+nsGkAtoms
 :
 :
 src
@@ -751,10 +744,10 @@ mContent
 HasAttr
 (
 kNameSpaceID_None
-nsAccessibilityAtoms
+nsGkAtoms
 :
 :
-longDesc
+longdesc
 )
 ;
 }

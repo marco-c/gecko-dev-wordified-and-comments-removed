@@ -1192,7 +1192,7 @@ content
 GetAttr
 (
 kNameSpaceID_None
-nsAccessibilityAtoms
+nsGkAtoms
 :
 :
 aria_activedescendant
@@ -2100,7 +2100,7 @@ NodeInfo
 >
 Equals
 (
-nsAccessibilityAtoms
+nsGkAtoms
 :
 :
 tree

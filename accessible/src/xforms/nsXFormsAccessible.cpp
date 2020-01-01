@@ -779,7 +779,7 @@ nsTextEquivUtils
 GetTextEquivFromIDRefs
 (
 this
-nsAccessibilityAtoms
+nsGkAtoms
 :
 :
 aria_describedby
@@ -1120,7 +1120,7 @@ NodeInfo
 >
 Equals
 (
-nsAccessibilityAtoms
+nsGkAtoms
 :
 :
 select1
@@ -2183,7 +2183,7 @@ nodeInfo
 >
 Equals
 (
-nsAccessibilityAtoms
+nsGkAtoms
 :
 :
 item
@@ -2213,7 +2213,7 @@ nodeInfo
 >
 Equals
 (
-nsAccessibilityAtoms
+nsGkAtoms
 :
 :
 choices
@@ -2456,7 +2456,7 @@ nodeinfo
 >
 Equals
 (
-nsAccessibilityAtoms
+nsGkAtoms
 :
 :
 select
@@ -2498,7 +2498,7 @@ nodeinfo
 >
 Equals
 (
-nsAccessibilityAtoms
+nsGkAtoms
 :
 :
 select1

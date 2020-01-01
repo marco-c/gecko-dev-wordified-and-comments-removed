@@ -8,13 +8,6 @@ h
 #
 include
 "
-nsAccessibilityAtoms
-.
-h
-"
-#
-include
-"
 nsAccUtils
 .
 h
@@ -133,7 +126,7 @@ mContent
 GetAttr
 (
 kNameSpaceID_None
-nsAccessibilityAtoms
+nsGkAtoms
 :
 :
 value
@@ -237,7 +230,7 @@ Tag
 )
 =
 =
-nsAccessibilityAtoms
+nsGkAtoms
 :
 :
 caption
@@ -414,7 +407,7 @@ mContent
 GetAttr
 (
 kNameSpaceID_None
-nsAccessibilityAtoms
+nsGkAtoms
 :
 :
 href
@@ -442,7 +435,7 @@ mContent
 GetAttr
 (
 kNameSpaceID_None
-nsAccessibilityAtoms
+nsGkAtoms
 :
 :
 value
@@ -708,7 +701,7 @@ mContent
 GetAttr
 (
 kNameSpaceID_None
-nsAccessibilityAtoms
+nsGkAtoms
 :
 :
 href

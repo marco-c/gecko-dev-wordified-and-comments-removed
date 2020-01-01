@@ -3030,7 +3030,7 @@ content
 SetAttr
 (
 kNameSpaceID_None
-nsAccessibilityAtoms
+nsGkAtoms
 :
 :
 aria_selected
@@ -3052,7 +3052,7 @@ content
 UnsetAttr
 (
 kNameSpaceID_None
-nsAccessibilityAtoms
+nsGkAtoms
 :
 :
 aria_selected
@@ -4429,7 +4429,7 @@ nsAccUtils
 HasDefinedARIAToken
 (
 rowContent
-nsAccessibilityAtoms
+nsGkAtoms
 :
 :
 aria_selected
@@ -4443,11 +4443,11 @@ rowContent
 AttrValueIs
 (
 kNameSpaceID_None
-nsAccessibilityAtoms
+nsGkAtoms
 :
 :
 aria_selected
-nsAccessibilityAtoms
+nsGkAtoms
 :
 :
 _false
@@ -4783,7 +4783,7 @@ nsAccUtils
 SetAccAttr
 (
 aAttributes
-nsAccessibilityAtoms
+nsGkAtoms
 :
 :
 tableCellIndex

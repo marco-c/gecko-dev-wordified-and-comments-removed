@@ -8,13 +8,6 @@ h
 #
 include
 "
-nsAccessibilityAtoms
-.
-h
-"
-#
-include
-"
 nsINameSpaceManager
 .
 h
@@ -82,7 +75,7 @@ mContent
 GetAttr
 (
 kNameSpaceID_None
-nsAccessibilityAtoms
+nsGkAtoms
 :
 :
 acceltext

@@ -22,13 +22,6 @@ h
 #
 include
 "
-nsAccessibilityAtoms
-.
-h
-"
-#
-include
-"
 nsAccessibilityService
 .
 h
@@ -298,37 +291,37 @@ kRelationAttrs
 =
 {
 &
-nsAccessibilityAtoms
+nsGkAtoms
 :
 :
 aria_labelledby
 &
-nsAccessibilityAtoms
+nsGkAtoms
 :
 :
 aria_describedby
 &
-nsAccessibilityAtoms
+nsGkAtoms
 :
 :
 aria_owns
 &
-nsAccessibilityAtoms
+nsGkAtoms
 :
 :
 aria_controls
 &
-nsAccessibilityAtoms
+nsGkAtoms
 :
 :
 aria_flowto
 &
-nsAccessibilityAtoms
+nsGkAtoms
 :
 :
 _for
 &
-nsAccessibilityAtoms
+nsGkAtoms
 :
 :
 control
@@ -1047,7 +1040,7 @@ nsTextEquivUtils
 GetTextEquivFromIDRefs
 (
 this
-nsAccessibilityAtoms
+nsGkAtoms
 :
 :
 aria_describedby
@@ -3553,7 +3546,7 @@ if
 aAttribute
 =
 =
-nsAccessibilityAtoms
+nsGkAtoms
 :
 :
 aria_checked
@@ -3562,7 +3555,7 @@ aria_checked
 aAttribute
 =
 =
-nsAccessibilityAtoms
+nsGkAtoms
 :
 :
 aria_pressed
@@ -3730,7 +3723,7 @@ if
 aAttribute
 =
 =
-nsAccessibilityAtoms
+nsGkAtoms
 :
 :
 disabled
@@ -3739,7 +3732,7 @@ disabled
 aAttribute
 =
 =
-nsAccessibilityAtoms
+nsGkAtoms
 :
 :
 aria_disabled
@@ -3829,7 +3822,7 @@ if
 aAttribute
 =
 =
-nsAccessibilityAtoms
+nsGkAtoms
 :
 :
 alt
@@ -3838,7 +3831,7 @@ alt
 aAttribute
 =
 =
-nsAccessibilityAtoms
+nsGkAtoms
 :
 :
 title
@@ -3847,7 +3840,7 @@ title
 aAttribute
 =
 =
-nsAccessibilityAtoms
+nsGkAtoms
 :
 :
 aria_label
@@ -3856,7 +3849,7 @@ aria_label
 aAttribute
 =
 =
-nsAccessibilityAtoms
+nsGkAtoms
 :
 :
 aria_labelledby
@@ -3879,7 +3872,7 @@ if
 aAttribute
 =
 =
-nsAccessibilityAtoms
+nsGkAtoms
 :
 :
 aria_busy
@@ -3895,7 +3888,7 @@ AttrValueIs
 (
 aNameSpaceID
 aAttribute
-nsAccessibilityAtoms
+nsGkAtoms
 :
 :
 _true
@@ -3932,7 +3925,7 @@ if
 aAttribute
 =
 =
-nsAccessibilityAtoms
+nsGkAtoms
 :
 :
 selected
@@ -3941,7 +3934,7 @@ selected
 aAttribute
 =
 =
-nsAccessibilityAtoms
+nsGkAtoms
 :
 :
 aria_selected
@@ -3993,12 +3986,12 @@ strings
 =
 {
 &
-nsAccessibilityAtoms
+nsGkAtoms
 :
 :
 _empty
 &
-nsAccessibilityAtoms
+nsGkAtoms
 :
 :
 _false
@@ -4050,7 +4043,7 @@ if
 aAttribute
 =
 =
-nsAccessibilityAtoms
+nsGkAtoms
 :
 :
 contenteditable
@@ -4100,7 +4093,7 @@ if
 aAttribute
 =
 =
-nsAccessibilityAtoms
+nsGkAtoms
 :
 :
 aria_required
@@ -4135,7 +4128,7 @@ if
 aAttribute
 =
 =
-nsAccessibilityAtoms
+nsGkAtoms
 :
 :
 aria_invalid
@@ -4170,7 +4163,7 @@ if
 aAttribute
 =
 =
-nsAccessibilityAtoms
+nsGkAtoms
 :
 :
 aria_activedescendant
@@ -4250,7 +4243,7 @@ if
 aAttribute
 =
 =
-nsAccessibilityAtoms
+nsGkAtoms
 :
 :
 aria_grabbed
@@ -4259,7 +4252,7 @@ aria_grabbed
 aAttribute
 =
 =
-nsAccessibilityAtoms
+nsGkAtoms
 :
 :
 aria_dropeffect
@@ -4268,7 +4261,7 @@ aria_dropeffect
 aAttribute
 =
 =
-nsAccessibilityAtoms
+nsGkAtoms
 :
 :
 aria_hidden
@@ -4277,7 +4270,7 @@ aria_hidden
 aAttribute
 =
 =
-nsAccessibilityAtoms
+nsGkAtoms
 :
 :
 aria_sort
@@ -4298,7 +4291,7 @@ if
 aAttribute
 =
 =
-nsAccessibilityAtoms
+nsGkAtoms
 :
 :
 aria_expanded
@@ -4337,7 +4330,7 @@ aContent
 HasAttr
 (
 kNameSpaceID_None
-nsAccessibilityAtoms
+nsGkAtoms
 :
 :
 role
@@ -4352,7 +4345,7 @@ if
 aAttribute
 =
 =
-nsAccessibilityAtoms
+nsGkAtoms
 :
 :
 aria_checked
@@ -4361,7 +4354,7 @@ aria_checked
 aAttribute
 =
 =
-nsAccessibilityAtoms
+nsGkAtoms
 :
 :
 aria_pressed
@@ -4375,7 +4368,7 @@ kState
 aAttribute
 =
 =
-nsAccessibilityAtoms
+nsGkAtoms
 :
 :
 aria_checked
@@ -4432,7 +4425,7 @@ wasMixed
 mARIAAttrOldValue
 =
 =
-nsAccessibilityAtoms
+nsGkAtoms
 :
 :
 mixed
@@ -4448,7 +4441,7 @@ AttrValueIs
 (
 kNameSpaceID_None
 aAttribute
-nsAccessibilityAtoms
+nsGkAtoms
 :
 :
 mixed
@@ -4495,7 +4488,7 @@ if
 aAttribute
 =
 =
-nsAccessibilityAtoms
+nsGkAtoms
 :
 :
 aria_readonly
@@ -4530,7 +4523,7 @@ if
 aAttribute
 =
 =
-nsAccessibilityAtoms
+nsGkAtoms
 :
 :
 aria_valuetext
@@ -4540,7 +4533,7 @@ aria_valuetext
 aAttribute
 =
 =
-nsAccessibilityAtoms
+nsGkAtoms
 :
 :
 aria_valuenow
@@ -4554,7 +4547,7 @@ aContent
 HasAttr
 (
 kNameSpaceID_None
-nsAccessibilityAtoms
+nsGkAtoms
 :
 :
 aria_valuetext
@@ -4567,11 +4560,11 @@ aContent
 AttrValueIs
 (
 kNameSpaceID_None
-nsAccessibilityAtoms
+nsGkAtoms
 :
 :
 aria_valuetext
-nsAccessibilityAtoms
+nsGkAtoms
 :
 :
 _empty
@@ -5892,7 +5885,7 @@ if
 relAttr
 =
 =
-nsAccessibilityAtoms
+nsGkAtoms
 :
 :
 _for
@@ -5927,7 +5920,7 @@ Tag
 )
 !
 =
-nsAccessibilityAtoms
+nsGkAtoms
 :
 :
 label
@@ -5946,7 +5939,7 @@ Tag
 )
 !
 =
-nsAccessibilityAtoms
+nsGkAtoms
 :
 :
 output
@@ -5960,7 +5953,7 @@ if
 relAttr
 =
 =
-nsAccessibilityAtoms
+nsGkAtoms
 :
 :
 control
@@ -5995,7 +5988,7 @@ Tag
 )
 !
 =
-nsAccessibilityAtoms
+nsGkAtoms
 :
 :
 label
@@ -6014,7 +6007,7 @@ Tag
 )
 !
 =
-nsAccessibilityAtoms
+nsGkAtoms
 :
 :
 description
@@ -6414,7 +6407,7 @@ if
 aAttribute
 =
 =
-nsAccessibilityAtoms
+nsGkAtoms
 :
 :
 role
@@ -6467,7 +6460,7 @@ if
 aAttribute
 =
 =
-nsAccessibilityAtoms
+nsGkAtoms
 :
 :
 href
@@ -6476,7 +6469,7 @@ href
 aAttribute
 =
 =
-nsAccessibilityAtoms
+nsGkAtoms
 :
 :
 onclick
@@ -6509,7 +6502,7 @@ if
 aAttribute
 =
 =
-nsAccessibilityAtoms
+nsGkAtoms
 :
 :
 aria_multiselectable
@@ -6521,7 +6514,7 @@ aElement
 HasAttr
 (
 kNameSpaceID_None
-nsAccessibilityAtoms
+nsGkAtoms
 :
 :
 role
