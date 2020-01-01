@@ -1003,6 +1003,17 @@ aGlobal
 ;
 static
 bool
+HasPhoneNumberSupport
+(
+JSContext
+*
+JSObject
+*
+aGlobal
+)
+;
+static
+bool
 HasIdleSupport
 (
 JSContext
