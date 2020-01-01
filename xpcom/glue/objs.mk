@@ -469,6 +469,10 @@ nsWeakReference
 .
 cpp
 \
+nsGREGlue
+.
+cpp
+\
 nsVersionComparator
 .
 cpp
