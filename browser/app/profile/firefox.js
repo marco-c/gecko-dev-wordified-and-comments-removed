@@ -4878,7 +4878,7 @@ sessionstore
 .
 enabled
 "
-true
+false
 )
 ;
 pref
