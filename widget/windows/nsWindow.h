@@ -889,6 +889,12 @@ OnIMESelectionChange
 void
 )
 ;
+virtual
+nsIMEUpdatePreference
+GetIMEUpdatePreference
+(
+)
+;
 #
 endif
 NS_IMETHOD
