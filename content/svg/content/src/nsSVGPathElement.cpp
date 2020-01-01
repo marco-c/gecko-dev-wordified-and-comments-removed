@@ -430,10 +430,10 @@ distance
 &
 &
 i
++
+1
 <
 numSegments
--
-1
 )
 {
 nsCOMPtr
