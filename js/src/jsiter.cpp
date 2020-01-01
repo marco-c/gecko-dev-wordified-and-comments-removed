@@ -1493,10 +1493,10 @@ return
 true
 ;
 }
-namespace
-js
-{
 bool
+js
+:
+:
 VectorToIdArray
 (
 JSContext
@@ -1627,6 +1627,9 @@ JS_FRIEND_API
 (
 bool
 )
+js
+:
+:
 GetPropertyNames
 (
 JSContext
@@ -1657,7 +1660,6 @@ JSITER_HIDDEN
 props
 )
 ;
-}
 }
 size_t
 sCustomIteratorCount

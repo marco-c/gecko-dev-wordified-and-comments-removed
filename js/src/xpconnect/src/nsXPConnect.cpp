@@ -4150,7 +4150,7 @@ compartment
 (
 )
 ;
-JS
+js
 :
 :
 AutoSwitchCompartment
@@ -4340,7 +4340,7 @@ compartment
 }
 else
 {
-JS
+js
 :
 :
 AutoSwitchCompartment
@@ -4497,7 +4497,7 @@ compartment
 }
 else
 {
-JS
+js
 :
 :
 AutoSwitchCompartment

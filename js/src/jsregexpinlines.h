@@ -2809,7 +2809,7 @@ check
 obj
 -
 >
-getCompartment
+compartment
 (
 )
 re

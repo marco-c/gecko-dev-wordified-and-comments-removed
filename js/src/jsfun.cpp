@@ -8298,7 +8298,7 @@ finalizeUpvarsIfFlatClosure
 )
 ;
 }
-JS_PUBLIC_DATA
+JS_FRIEND_DATA
 (
 Class
 )
@@ -8372,11 +8372,9 @@ isFunction
 {
 if
 (
-obj
--
->
-isFunctionProxy
+IsFunctionProxy
 (
+obj
 )
 )
 return
