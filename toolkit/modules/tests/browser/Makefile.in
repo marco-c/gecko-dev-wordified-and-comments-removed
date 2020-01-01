@@ -98,10 +98,6 @@ browser_InlineSpellChecker
 .
 js
 \
-browser_Services
-.
-js
-\
 browser_Troubleshoot
 .
 js
