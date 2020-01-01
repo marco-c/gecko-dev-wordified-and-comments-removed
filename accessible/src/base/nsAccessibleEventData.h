@@ -60,6 +60,13 @@ nsString
 .
 h
 "
+#
+include
+"
+nsCycleCollectionParticipant
+.
+h
+"
 class
 nsIPresShell
 ;
@@ -162,7 +169,11 @@ nsAccEvent
 )
 {
 }
-NS_DECL_ISUPPORTS
+NS_DECL_CYCLE_COLLECTING_ISUPPORTS
+NS_DECL_CYCLE_COLLECTION_CLASS
+(
+nsAccEvent
+)
 NS_DECL_NSIACCESSIBLEEVENT
 static
 void
@@ -196,8 +207,6 @@ aIsAsynch
 PRBool
 mIsFromUserInput
 ;
-private
-:
 PRUint32
 mEventType
 ;
@@ -222,6 +231,8 @@ nsIAccessibleDocument
 >
 mDocAccessible
 ;
+private
+:
 static
 PRBool
 gLastEventFromUserInput
