@@ -248,11 +248,6 @@ GainNode
 h
 '
 '
-MediaElementAudioSourceNode
-.
-h
-'
-'
 MediaStreamAudioDestinationNode
 .
 h
@@ -379,11 +374,6 @@ cpp
 '
 '
 MediaBufferDecoder
-.
-cpp
-'
-'
-MediaElementAudioSourceNode
 .
 cpp
 '

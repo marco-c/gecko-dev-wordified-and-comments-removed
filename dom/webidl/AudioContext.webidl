@@ -284,17 +284,6 @@ createAnalyser
 Creator
 Throws
 ]
-MediaElementAudioSourceNode
-createMediaElementSource
-(
-HTMLMediaElement
-mediaElement
-)
-;
-[
-Creator
-Throws
-]
 MediaStreamAudioSourceNode
 createMediaStreamSource
 (

@@ -313,10 +313,6 @@ test_mediaDecoding
 .
 html
 \
-test_mediaElementAudioSourceNode
-.
-html
-\
 test_mediaStreamAudioDestinationNode
 .
 html

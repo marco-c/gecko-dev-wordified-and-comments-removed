@@ -737,10 +737,6 @@ Location
 .
 webidl
 \
-MediaElementAudioSourceNode
-.
-webidl
-\
 MediaError
 .
 webidl
