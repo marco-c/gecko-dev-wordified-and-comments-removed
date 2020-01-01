@@ -323,6 +323,10 @@ GainNode
 .
 webidl
 \
+Gamepad
+.
+webidl
+\
 HTMLAnchorElement
 .
 webidl
