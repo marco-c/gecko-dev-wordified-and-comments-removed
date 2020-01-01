@@ -14421,6 +14421,16 @@ forceHide
 "
 )
 ;
+var
+tabStripHide
+=
+!
+window
+.
+toolbar
+.
+visible
+;
 if
 (
 !
@@ -14429,6 +14439,10 @@ autoHide
 &
 !
 forceHide
+&
+&
+!
+tabStripHide
 )
 this
 .
