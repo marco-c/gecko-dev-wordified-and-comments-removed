@@ -5064,6 +5064,13 @@ Ci
 .
 nsIWritablePropertyBag2
 )
+.
+QueryInterface
+(
+Ci
+.
+nsIWritablePropertyBag
+)
 ;
 formInfo
 .
@@ -5097,7 +5104,7 @@ passwordField
 ;
 formInfo
 .
-setPropertyAsInterface
+setProperty
 (
 "
 foundLogins
