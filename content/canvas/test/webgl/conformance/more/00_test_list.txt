@@ -13,7 +13,6 @@ conformance
 methods
 .
 html
-#
 conformance
 /
 quickCheckAPI
