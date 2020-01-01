@@ -2260,6 +2260,10 @@ html
 headers
 ^
 \
+test_bug628938
+.
+html
+\
 (
 NULL
 )
