@@ -615,6 +615,12 @@ nsContentList
 (
 )
 ;
+using
+nsWrapperCache
+:
+:
+GetWrapper
+;
 virtual
 JSObject
 *

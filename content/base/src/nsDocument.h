@@ -422,6 +422,13 @@ Attributes
 h
 "
 #
+include
+"
+nsGenericElement
+.
+h
+"
+#
 define
 XML_DECLARATION_BITS_DECLARATION_EXISTS
 (

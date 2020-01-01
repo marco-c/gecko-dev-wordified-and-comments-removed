@@ -2066,12 +2066,12 @@ return
 NS_OK
 ;
 }
-nsContentList
+nsIHTMLCollection
 *
 FragmentOrElement
 :
 :
-GetChildrenList
+Children
 (
 )
 {

@@ -252,6 +252,12 @@ IsExplicitlySet
 )
 )
 {
+mozilla
+:
+:
+ErrorResult
+error
+;
 root
 -
 >
@@ -263,6 +269,7 @@ NS_LITERAL_STRING
 preserveAspectRatio
 "
 )
+error
 )
 ;
 }
@@ -361,6 +368,12 @@ IsExplicitlySet
 )
 )
 {
+mozilla
+:
+:
+ErrorResult
+error
+;
 root
 -
 >
@@ -372,6 +385,7 @@ NS_LITERAL_STRING
 viewBox
 "
 )
+error
 )
 ;
 }
@@ -497,6 +511,12 @@ IsExplicitlySet
 )
 )
 {
+mozilla
+:
+:
+ErrorResult
+error
+;
 root
 -
 >
@@ -508,6 +528,7 @@ NS_LITERAL_STRING
 zoomAndPan
 "
 )
+error
 )
 ;
 }

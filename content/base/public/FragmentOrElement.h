@@ -102,6 +102,9 @@ class
 nsIDOMNamedNodeMap
 ;
 class
+nsIHTMLCollection
+;
+class
 nsINodeInfo
 ;
 class
@@ -628,6 +631,12 @@ nsRuleWalker
 aRuleWalker
 )
 ;
+nsIHTMLCollection
+*
+Children
+(
+)
+;
 public
 :
 static
@@ -993,12 +1002,6 @@ ContentUnbinder
 ;
 nsAttrAndChildArray
 mAttrsAndChildren
-;
-nsContentList
-*
-GetChildrenList
-(
-)
 ;
 }
 ;

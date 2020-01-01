@@ -91,10 +91,13 @@ h
 #
 include
 "
-nsGenericHTMLElement
+nsRefPtrHashtable
 .
 h
 "
+class
+nsGenericHTMLElement
+;
 class
 nsXPCClassInfo
 ;
@@ -190,6 +193,12 @@ virtual
 HTMLPropertiesCollection
 (
 )
+;
+using
+nsWrapperCache
+:
+:
+GetWrapper
 ;
 virtual
 JSObject

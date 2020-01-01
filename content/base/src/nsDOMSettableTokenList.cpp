@@ -16,6 +16,13 @@ DOMSettableTokenListBinding
 .
 h
 "
+#
+include
+"
+nsGenericElement
+.
+h
+"
 nsDOMSettableTokenList
 :
 :

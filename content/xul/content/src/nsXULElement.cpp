@@ -578,6 +578,13 @@ nsCCUncollectableMarker
 .
 h
 "
+#
+include
+"
+nsICSSDeclaration
+.
+h
+"
 namespace
 css
 =
