@@ -967,6 +967,8 @@ dest
 basestring
 )
         
+if
+not
 File
 .
 copy
@@ -975,6 +977,32 @@ self
 dest
 skip_if_older
 )
+and
+\
+                
+os
+.
+path
+.
+getsize
+(
+self
+.
+path
+)
+>
+os
+.
+path
+.
+getsize
+(
+dest
+)
+:
+            
+return
+False
         
 try
 :
