@@ -576,6 +576,14 @@ PannerNode
 aPannerNode
 )
 ;
+void
+UnregisterPannerNode
+(
+PannerNode
+*
+aPannerNode
+)
+;
 private
 :
 void
