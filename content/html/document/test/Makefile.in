@@ -505,6 +505,16 @@ test_bug359657
 .
 html
 \
+test_bug369370
+.
+html
+\
+bug369370
+-
+popup
+.
+png
+\
 test_bug380383
 .
 html
