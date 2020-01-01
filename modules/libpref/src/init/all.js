@@ -9959,8 +9959,6 @@ drag
 .
 autoscroll
 .
-inner_frame
-.
 edge_width
 "
 32
@@ -9977,9 +9975,7 @@ drag
 .
 autoscroll
 .
-inner_frame
-.
-amount
+edge_scroll_amount
 "
 8
 )
@@ -30508,7 +30504,7 @@ mem
 .
 decode_bytes_at_a_time
 "
-200000
+4096
 )
 ;
 pref
@@ -30520,7 +30516,7 @@ mem
 .
 max_ms_before_yield
 "
-400
+5
 )
 ;
 pref
