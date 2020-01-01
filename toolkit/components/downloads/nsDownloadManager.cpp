@@ -4202,7 +4202,7 @@ id
 ;
 rv
 =
-mDBConn
+dbConn
 -
 >
 GetLastInsertRowID
