@@ -25,7 +25,8 @@ JSContext
 cx
 ParseNode
 *
-pn
+*
+pnp
 Parser
 *
 parser

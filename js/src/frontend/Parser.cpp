@@ -2556,6 +2556,7 @@ if
 FoldConstants
 (
 context
+&
 pn
 this
 )
@@ -3730,6 +3731,7 @@ if
 FoldConstants
 (
 context
+&
 pn
 this
 )
@@ -22002,6 +22004,7 @@ foldConstants
 FoldConstants
 (
 context
+&
 pn2
 this
 )
@@ -26360,6 +26363,7 @@ foldConstants
 FoldConstants
 (
 context
+&
 propExpr
 this
 )
@@ -30593,6 +30597,7 @@ foldConstants
 FoldConstants
 (
 context
+&
 pn2
 this
 )
@@ -31594,6 +31599,7 @@ foldConstants
 FoldConstants
 (
 context
+&
 pnval
 this
 )
