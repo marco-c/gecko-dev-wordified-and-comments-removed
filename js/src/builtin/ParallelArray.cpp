@@ -3922,6 +3922,12 @@ toScalar
 if
 (
 offset
+>
+=
+end
+|
+|
+offset
 +
 rowLength
 >
