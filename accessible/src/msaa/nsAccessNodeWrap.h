@@ -105,14 +105,14 @@ h
 define
 A11Y_TRYBLOCK_BEGIN
 \
-__try
+MOZ_SEH_TRY
 {
 #
 define
 A11Y_TRYBLOCK_END
 \
 }
-__except
+MOZ_SEH_EXCEPT
 (
 nsAccessNodeWrap
 :
