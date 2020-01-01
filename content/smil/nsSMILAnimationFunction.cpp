@@ -914,7 +914,7 @@ PR_FALSE
 if
 (
 !
-IsActive
+IsActiveOrFrozen
 (
 )
 |
@@ -1203,7 +1203,7 @@ self
 if
 (
 !
-IsActive
+IsActiveOrFrozen
 (
 )
 &
@@ -1211,7 +1211,7 @@ IsActive
 aOther
 -
 >
-IsActive
+IsActiveOrFrozen
 (
 )
 )
@@ -1221,7 +1221,7 @@ return
 ;
 if
 (
-IsActive
+IsActiveOrFrozen
 (
 )
 &
@@ -1230,7 +1230,7 @@ IsActive
 aOther
 -
 >
-IsActive
+IsActiveOrFrozen
 (
 )
 )

@@ -181,7 +181,7 @@ aOther
 const
 ;
 PRBool
-IsActive
+IsActiveOrFrozen
 (
 )
 const
