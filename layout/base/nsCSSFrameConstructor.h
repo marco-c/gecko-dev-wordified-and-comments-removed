@@ -2703,6 +2703,10 @@ mIsLineParticipant
 (
 false
 )
+mIsForSVGAElement
+(
+false
+)
 {
 }
 ~
@@ -2839,6 +2843,9 @@ mIsPopup
 ;
 bool
 mIsLineParticipant
+;
+bool
+mIsForSVGAElement
 ;
 FrameConstructionItemList
 mChildItems
@@ -3188,6 +3195,14 @@ ITEM_ALLOW_PAGE_BREAK
 define
 ITEM_IS_GENERATED_CONTENT
 0x4
+#
+define
+ITEM_IS_WITHIN_SVG_TEXT
+0x8
+#
+define
+ITEM_ALLOWS_TEXT_PATH_CHILD
+0x10
 void
 AddFrameConstructionItemsInternal
 (
@@ -3517,6 +3532,10 @@ aNameSpaceID
 nsIFrame
 *
 aParentFrame
+bool
+aIsWithinSVGText
+bool
+aAllowsTextPathChild
 nsStyleContext
 *
 aStyleContext
@@ -4014,6 +4033,10 @@ aState
 FrameConstructionItem
 &
 aParentItem
+bool
+aItemIsWithinSVGText
+bool
+aItemAllowsTextPathChild
 )
 ;
 bool
