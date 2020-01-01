@@ -5268,6 +5268,17 @@ html
 ref
 .
 html
+fails
+-
+if
+(
+MOZ_WIDGET_TOOLKIT
+=
+=
+"
+gtk2
+"
+)
 =
 =
 325292
@@ -5282,6 +5293,9 @@ html
 ref
 .
 html
+#
+bug
+499578
 =
 =
 325486
