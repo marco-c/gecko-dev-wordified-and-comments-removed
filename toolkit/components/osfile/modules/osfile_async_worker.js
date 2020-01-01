@@ -1262,7 +1262,6 @@ fromMsg
 path
 )
 bytes
-options
 )
 ;
 return
