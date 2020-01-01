@@ -164,10 +164,6 @@ pldhash
 .
 cpp
 \
-FileUtils
-.
-cpp
-\
 (
 NULL
 )
@@ -215,6 +211,10 @@ nsTextFormatter
 cpp
 \
 GenericFactory
+.
+cpp
+\
+FileUtils
 .
 cpp
 \
