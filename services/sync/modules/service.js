@@ -1770,6 +1770,12 @@ _onStartup
 (
 )
 {
+Status
+.
+service
+=
+STATUS_OK
+;
 this
 .
 _registerEngines
