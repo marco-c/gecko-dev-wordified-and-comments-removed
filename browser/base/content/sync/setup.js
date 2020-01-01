@@ -3200,7 +3200,7 @@ Weave
 .
 Identity
 .
-basicPssword
+basicPassword
 =
 document
 .
