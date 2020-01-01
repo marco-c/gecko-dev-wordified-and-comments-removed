@@ -117,7 +117,7 @@ testVar
 =
 testScope
 .
-addVar
+addItem
 (
 "
 something
@@ -129,7 +129,7 @@ duplVar
 =
 testScope
 .
-addVar
+addItem
 (
 "
 something
@@ -471,7 +471,7 @@ properties
 =
 testVar
 .
-addProperties
+addItems
 (
 {
 "

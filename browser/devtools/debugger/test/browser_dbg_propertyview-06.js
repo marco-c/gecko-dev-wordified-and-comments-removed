@@ -135,7 +135,7 @@ windowVar
 =
 globalScope
 .
-addVar
+addItem
 (
 "
 window
@@ -147,7 +147,7 @@ documentVar
 =
 globalScope
 .
-addVar
+addItem
 (
 "
 document
@@ -159,7 +159,7 @@ localVar0
 =
 localScope
 .
-addVar
+addItem
 (
 "
 localVariable
@@ -171,7 +171,7 @@ localVar1
 =
 localScope
 .
-addVar
+addItem
 (
 "
 localVar1
@@ -183,7 +183,7 @@ localVar2
 =
 localScope
 .
-addVar
+addItem
 (
 "
 localVar2
@@ -195,7 +195,7 @@ localVar3
 =
 localScope
 .
-addVar
+addItem
 (
 "
 localVar3
@@ -207,7 +207,7 @@ localVar4
 =
 localScope
 .
-addVar
+addItem
 (
 "
 localVar4
@@ -219,7 +219,7 @@ localVar5
 =
 localScope
 .
-addVar
+addItem
 (
 "
 localVar5
@@ -303,7 +303,7 @@ Object
 ;
 localVar5
 .
-addProperties
+addItems
 (
 {
 "
@@ -447,7 +447,7 @@ someProp5
 "
 )
 .
-addProperties
+addItems
 (
 {
 "
@@ -619,7 +619,7 @@ Window
 ;
 windowVar
 .
-addProperties
+addItems
 (
 {
 "
@@ -663,7 +663,7 @@ HTMLDocument
 ;
 documentVar
 .
-addProperties
+addItems
 (
 {
 "

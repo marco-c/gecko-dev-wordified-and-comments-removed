@@ -7330,7 +7330,7 @@ headerVar
 =
 headersScope
 .
-addVar
+addItem
 (
 header
 .
@@ -7493,7 +7493,7 @@ cookieVar
 =
 cookiesScope
 .
-addVar
+addItem
 (
 cookie
 .
@@ -8072,7 +8072,7 @@ headerVar
 =
 paramsScope
 .
-addVar
+addItem
 (
 param
 .
@@ -8291,7 +8291,7 @@ jsonScopeName
 ;
 jsonScope
 .
-addVar
+addItem
 (
 )
 .
