@@ -121,7 +121,10 @@ nsresult
 Write
 (
 const
-void
+mozilla
+:
+:
+AudioDataValue
 *
 aBuf
 uint32_t
