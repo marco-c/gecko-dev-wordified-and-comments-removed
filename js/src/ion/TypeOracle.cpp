@@ -1764,7 +1764,7 @@ TypeInferenceOracle
 :
 elementReadIsTypedArray
 (
-HandleScript
+RawScript
 script
 jsbytecode
 *
@@ -2672,7 +2672,7 @@ TypeInferenceOracle
 :
 elementWriteHasExtraIndexedProperty
 (
-UnrootedScript
+RawScript
 script
 jsbytecode
 *
@@ -2731,7 +2731,7 @@ TypeInferenceOracle
 :
 elementWriteIsPacked
 (
-UnrootedScript
+RawScript
 script
 jsbytecode
 *
@@ -3426,13 +3426,12 @@ TypeInferenceOracle
 :
 canEnterInlinedFunction
 (
-HandleScript
+RawScript
 caller
 jsbytecode
 *
 pc
-JSFunction
-*
+RawFunction
 target
 )
 {
