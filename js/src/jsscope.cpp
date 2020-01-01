@@ -759,11 +759,9 @@ shape
 {
 JS_ASSERT
 (
-ops
--
->
-isNative
+OPS_IS_NATIVE
 (
+ops
 )
 )
 ;
