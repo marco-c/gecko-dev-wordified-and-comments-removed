@@ -857,6 +857,7 @@ if
 zipItem
 )
 {
+const
 PRUint8
 *
 itemData
