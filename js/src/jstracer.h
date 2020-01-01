@@ -3591,15 +3591,6 @@ maxsz
 ;
 extern
 void
-js_FlushJITCache
-(
-JSContext
-*
-cx
-)
-;
-extern
-void
 js_PurgeJITOracle
 (
 )
