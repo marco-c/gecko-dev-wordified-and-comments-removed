@@ -1030,6 +1030,12 @@ getValidViewportMetrics
 )
 )
 ;
+mTarget
+.
+setForceRedraw
+(
+)
+;
 }
 break
 ;
