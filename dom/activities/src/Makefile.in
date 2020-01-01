@@ -163,6 +163,10 @@ ActivitiesService
 .
 jsm
 \
+ActivitiesServiceFilter
+.
+jsm
+\
 (
 NULL
 )
