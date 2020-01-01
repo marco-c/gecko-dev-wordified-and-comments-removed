@@ -452,10 +452,6 @@ test_dragstart
 .
 html
 \
-test_bug812744
-.
-html
-\
 (
 NULL
 )

@@ -259,8 +259,6 @@ aSourceDocument
 nsITransformObserver
 *
 aObserver
-bool
-aDocumentIsData
 )
 :
 mEs
@@ -274,10 +272,6 @@ aSourceDocument
 mObserver
 (
 aObserver
-)
-mDocumentIsData
-(
-aDocumentIsData
 )
 {
 }
@@ -299,9 +293,6 @@ nsCOMPtr
 nsITransformObserver
 >
 mObserver
-;
-bool
-mDocumentIsData
 ;
 }
 ;
@@ -416,7 +407,6 @@ EmptyString
 )
 kNameSpaceID_None
 mSourceDocument
-mDocumentIsData
 )
 ;
 if
@@ -467,7 +457,6 @@ handler
 createResultDocument
 (
 mSourceDocument
-mDocumentIsData
 )
 ;
 if
@@ -597,7 +586,6 @@ createResultDocument
 aName
 aNsID
 mSourceDocument
-mDocumentIsData
 )
 ;
 if
@@ -648,7 +636,6 @@ handler
 createResultDocument
 (
 mSourceDocument
-mDocumentIsData
 )
 ;
 if
@@ -2047,7 +2034,6 @@ mProcessor
 TransformToDoc
 (
 nullptr
-false
 )
 ;
 return
@@ -2420,7 +2406,6 @@ return
 TransformToDoc
 (
 aResult
-true
 )
 ;
 }
@@ -2434,8 +2419,6 @@ nsIDOMDocument
 *
 *
 aResult
-bool
-aCreateDataDocument
 )
 {
 nsAutoPtr
@@ -2510,7 +2493,6 @@ handlerFactory
 es
 sourceDOMDocument
 mObserver
-aCreateDataDocument
 )
 ;
 es
