@@ -9985,6 +9985,13 @@ JSVAL_LOWER_INCL_TAG_OF_GCTHING_SET
 ;
 return
 cond
+=
+=
+Equal
+?
+AboveOrEqual
+:
+Below
 ;
 }
 Assembler
@@ -10038,6 +10045,13 @@ JSVAL_LOWER_INCL_TAG_OF_GCTHING_SET
 ;
 return
 cond
+=
+=
+Equal
+?
+AboveOrEqual
+:
+Below
 ;
 }
 Assembler
