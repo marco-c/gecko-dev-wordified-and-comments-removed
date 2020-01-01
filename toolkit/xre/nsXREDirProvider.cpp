@@ -6937,7 +6937,7 @@ const
 nsACString
 *
 aVendorName
-PRBool
+bool
 aLocal
 )
 {
