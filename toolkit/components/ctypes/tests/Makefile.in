@@ -658,16 +658,6 @@ DEFINES
 ACDEFINES
 )
 \
--
-DCTYPES_TEST_LIB
-=
-\
-"
-(
-SHARED_LIBRARY
-)
-\
-"
 ^
 >
 (
