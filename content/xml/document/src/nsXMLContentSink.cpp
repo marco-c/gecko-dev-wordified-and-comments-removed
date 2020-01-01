@@ -334,13 +334,6 @@ h
 #
 include
 "
-nsIContentViewer
-.
-h
-"
-#
-include
-"
 nsContentPolicyUtils
 .
 h

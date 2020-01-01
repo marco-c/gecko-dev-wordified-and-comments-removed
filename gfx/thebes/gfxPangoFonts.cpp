@@ -4790,14 +4790,14 @@ fontEntry
 aStyle
 !
 =
-FONT_STYLE_NORMAL
+NS_FONT_STYLE_NORMAL
 )
 {
 style
 .
 style
 =
-FONT_STYLE_NORMAL
+NS_FONT_STYLE_NORMAL
 ;
 fontEntry
 =

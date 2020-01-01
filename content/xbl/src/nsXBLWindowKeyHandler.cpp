@@ -162,13 +162,6 @@ h
 #
 include
 "
-nsPIWindowRoot
-.
-h
-"
-#
-include
-"
 nsPIDOMWindow
 .
 h

@@ -11313,7 +11313,7 @@ sp
 .
 isMagic
 (
-JS_LAZY_ARGUMENTS
+JS_OPTIMIZED_ARGUMENTS
 )
 )
 {
@@ -11346,7 +11346,6 @@ numActualArgs
 return
 ;
 }
-else
 if
 (
 !

@@ -331,14 +331,6 @@ lir
 )
 ;
 bool
-visitFlatClosureUpvars
-(
-LFlatClosureUpvars
-*
-lir
-)
-;
-bool
 visitTypeBarrier
 (
 LTypeBarrier

@@ -28,6 +28,13 @@ AVVENDOR
 #
 include
 <
+objidl
+.
+h
+>
+#
+include
+<
 msoav
 .
 h

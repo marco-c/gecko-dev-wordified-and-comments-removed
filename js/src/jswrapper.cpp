@@ -1018,7 +1018,7 @@ setGeneric
 cx
 id
 vp
-false
+strict
 )
 )
 ;

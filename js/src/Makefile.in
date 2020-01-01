@@ -862,6 +862,10 @@ sharkctl
 .
 cpp
 \
+ArgumentsObject
+.
+cpp
+\
 ScopeObject
 .
 cpp
@@ -1033,6 +1037,10 @@ h
 jsatom
 .
 h
+\
+jsatom
+.
+tbl
 \
 jsclass
 .

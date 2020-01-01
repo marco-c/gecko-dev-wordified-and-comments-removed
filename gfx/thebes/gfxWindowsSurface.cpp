@@ -354,6 +354,11 @@ Init
 surf
 )
 ;
+if
+(
+mSurfaceValid
+)
+{
 int
 bytesPerPixel
 =
@@ -391,6 +396,7 @@ gfxWindowsSurface
 )
 )
 ;
+}
 if
 (
 CairoStatus

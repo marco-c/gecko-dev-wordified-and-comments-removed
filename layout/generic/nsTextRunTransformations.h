@@ -385,7 +385,6 @@ aOwnsFactory
 gfxTextRun
 (
 aParams
-aString
 aLength
 aFontGroup
 aFlags

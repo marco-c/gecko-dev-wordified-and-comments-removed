@@ -10800,8 +10800,12 @@ void
 AndroidBridge
 :
 :
-GetViewTransform
+SyncViewportInfo
 (
+const
+nsIntRect
+&
+aDisplayPort
 nsIntPoint
 &
 aScrollOffset
@@ -10829,8 +10833,9 @@ return
 client
 -
 >
-GetViewTransform
+SyncViewportInfo
 (
+aDisplayPort
 aScrollOffset
 aScaleX
 aScaleY
@@ -10944,16 +10949,6 @@ bool
 aPreventPanning
 )
 {
-ALOG_BRIDGE
-(
-"
-AndroidBridge
-:
-:
-PreventPanning
-"
-)
-;
 JNIEnv
 *
 env
@@ -11868,6 +11863,8 @@ nsPresContext
 CSSPixelsToAppUnits
 (
 srcX
+/
+scale
 )
 nsPresContext
 :
@@ -11875,6 +11872,8 @@ nsPresContext
 CSSPixelsToAppUnits
 (
 srcY
+/
+scale
 )
 nsPresContext
 :
@@ -11882,6 +11881,8 @@ nsPresContext
 CSSPixelsToAppUnits
 (
 srcW
+/
+scale
 )
 nsPresContext
 :
@@ -11889,6 +11890,8 @@ nsPresContext
 CSSPixelsToAppUnits
 (
 srcH
+/
+scale
 )
 )
 ;

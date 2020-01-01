@@ -220,13 +220,6 @@ h
 #
 include
 "
-nsXULDocument
-.
-h
-"
-#
-include
-"
 nsXULElement
 .
 h

@@ -810,7 +810,6 @@ GetDocument
 )
 ;
 }
-inline
 nsINode
 *
 OwnerDocAsNode

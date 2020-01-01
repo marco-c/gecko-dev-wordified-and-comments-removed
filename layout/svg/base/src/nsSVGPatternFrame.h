@@ -35,6 +35,9 @@ class
 nsSVGElement
 ;
 class
+nsSVGViewBox
+;
+class
 gfxContext
 ;
 class

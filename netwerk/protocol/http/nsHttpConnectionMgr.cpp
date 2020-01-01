@@ -1938,16 +1938,6 @@ conn
 nsnull
 )
 ;
-NS_ABORT_IF_FALSE
-(
-ent
-"
-no
-connection
-entry
-"
-)
-;
 if
 (
 !

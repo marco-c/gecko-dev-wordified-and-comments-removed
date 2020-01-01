@@ -3808,7 +3808,9 @@ script
 )
 -
 >
-usesArguments
+mayNeedArgsObj
+(
+)
 )
 {
 IonSpew

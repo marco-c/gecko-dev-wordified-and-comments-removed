@@ -2014,8 +2014,8 @@ DidResizeColumns
 (
 )
 ;
-}
 break
 ;
+}
 }
 }

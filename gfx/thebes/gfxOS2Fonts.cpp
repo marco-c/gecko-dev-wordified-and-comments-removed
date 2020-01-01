@@ -1997,7 +1997,7 @@ style
 )
 {
 case
-FONT_STYLE_ITALIC
+NS_FONT_STYLE_ITALIC
 :
 fcProperty
 =
@@ -2006,7 +2006,7 @@ FC_SLANT_ITALIC
 break
 ;
 case
-FONT_STYLE_OBLIQUE
+NS_FONT_STYLE_OBLIQUE
 :
 fcProperty
 =
@@ -2015,7 +2015,7 @@ FC_SLANT_OBLIQUE
 break
 ;
 case
-FONT_STYLE_NORMAL
+NS_FONT_STYLE_NORMAL
 :
 default
 :
@@ -2407,9 +2407,9 @@ mStyle
 style
 &
 (
-FONT_STYLE_ITALIC
+NS_FONT_STYLE_ITALIC
 |
-FONT_STYLE_OBLIQUE
+NS_FONT_STYLE_OBLIQUE
 )
 )
 )
@@ -3147,7 +3147,6 @@ gfxTextRun
 Create
 (
 aParams
-aString
 aLength
 this
 aFlags
@@ -3431,7 +3430,6 @@ gfxTextRun
 Create
 (
 aParams
-aString
 aLength
 this
 aFlags

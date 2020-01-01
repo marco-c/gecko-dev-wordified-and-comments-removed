@@ -3809,6 +3809,16 @@ GetIntrinsicRatio
 =
 0
 ;
+enum
+{
+eShrinkWrap
+=
+1
+<
+<
+0
+}
+;
 virtual
 nsSize
 ComputeSize
@@ -3826,8 +3836,8 @@ nsSize
 aBorder
 nsSize
 aPadding
-bool
-aShrinkWrap
+PRUint32
+aFlags
 )
 =
 0

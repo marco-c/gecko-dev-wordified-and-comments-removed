@@ -2948,21 +2948,11 @@ main
 )
 :
     
-dm_none
-=
-devicemanagerADB
-.
-DeviceManagerADB
-(
-None
-None
-)
-    
 automation
 =
 RemoteAutomation
 (
-dm_none
+None
 )
     
 parser
@@ -3060,7 +3050,13 @@ else
             
 dm
 =
-dm_none
+devicemanagerADB
+.
+DeviceManagerADB
+(
+None
+None
+)
     
 else
 :
