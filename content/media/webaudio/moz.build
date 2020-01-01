@@ -373,6 +373,11 @@ EnableWebAudioCheck
 cpp
 '
 '
+FFTBlock
+.
+cpp
+'
+'
 GainNode
 .
 cpp
