@@ -444,6 +444,11 @@ forEach
 Cu
 .
 reportError
+.
+bind
+(
+Cu
+)
 )
 ;
 const
