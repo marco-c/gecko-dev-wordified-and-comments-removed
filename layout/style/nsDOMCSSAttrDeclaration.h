@@ -138,6 +138,13 @@ DeclarationChanged
 (
 )
 ;
+virtual
+nsIDocument
+*
+DocToUpdate
+(
+)
+;
 nsCOMPtr
 <
 nsIContent

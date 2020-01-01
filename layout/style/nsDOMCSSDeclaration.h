@@ -48,6 +48,9 @@ class
 nsIPrincipal
 ;
 class
+nsIDocument
+;
+class
 CSS2PropertiesTearoff
 :
 public
@@ -236,6 +239,15 @@ aAllocate
 virtual
 nsresult
 DeclarationChanged
+(
+)
+=
+0
+;
+virtual
+nsIDocument
+*
+DocToUpdate
 (
 )
 =
