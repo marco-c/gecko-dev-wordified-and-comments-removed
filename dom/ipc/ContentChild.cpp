@@ -287,7 +287,6 @@ GetObserver
 ;
 return
 !
-!
 observer
 ;
 }
