@@ -82,6 +82,13 @@ nsHTMLFormElement
 h
 "
 #
+include
+"
+nsIFile
+.
+h
+"
+#
 define
 BF_DISABLED_CHANGED
 0
@@ -273,9 +280,6 @@ PRBool
 mInPrivateBrowsing
 ;
 }
-;
-class
-nsIRadioVisitor
 ;
 class
 nsHTMLInputElement

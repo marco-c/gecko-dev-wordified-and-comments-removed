@@ -669,6 +669,10 @@ nsIConstraintValidation
 .
 cpp
 \
+nsRadioVisitor
+.
+cpp
+\
 (
 NULL
 )
