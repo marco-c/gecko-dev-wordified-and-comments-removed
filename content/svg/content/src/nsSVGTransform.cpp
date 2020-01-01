@@ -529,9 +529,7 @@ if
 sy
 !
 =
-0
-.
-0f
+sx
 )
 nsTextFormatter
 :
