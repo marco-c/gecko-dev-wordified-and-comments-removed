@@ -377,6 +377,10 @@ MenuItemDefault
 .
 java
 \
+MultiChoicePreference
+.
+java
+\
 NSSBridge
 .
 java
