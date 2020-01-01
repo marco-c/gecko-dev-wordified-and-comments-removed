@@ -1353,14 +1353,6 @@ endif
 endif
 #
 }
-ifdef
-MOZ_DEBUG
-OS_CFLAGS
-+
-=
--
-DUSE_DEBUG
-endif
 OS_CXXFLAGS
 +
 =
