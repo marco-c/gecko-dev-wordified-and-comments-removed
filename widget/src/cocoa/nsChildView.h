@@ -110,7 +110,7 @@ h
 #
 include
 "
-nsplugindefs
+npapi
 .
 h
 "
@@ -228,8 +228,8 @@ mGeckoChild
 BOOL
 mIsPluginView
 ;
-BOOL
-mSendCarbonPluginEvents
+NPEventModel
+mPluginEventModel
 ;
 NSEvent
 *
