@@ -3596,12 +3596,6 @@ IsRequestFullScreenAllowed
 ;
 static
 bool
-IsFullScreenKeyInputRestricted
-(
-)
-;
-static
-bool
 HasPluginWithUncontrolledEventDispatch
 (
 nsIDocument
@@ -4204,10 +4198,6 @@ sIsFullScreenApiEnabled
 static
 bool
 sTrustedFullScreenOnly
-;
-static
-bool
-sFullScreenKeyInputRestricted
 ;
 static
 PRUint32

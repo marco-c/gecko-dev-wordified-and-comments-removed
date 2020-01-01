@@ -26936,15 +26936,6 @@ root
 IsFullScreenDoc
 (
 )
-|
-|
-!
-nsContentUtils
-:
-:
-IsFullScreenKeyInputRestricted
-(
-)
 )
 {
 return
