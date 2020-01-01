@@ -8,13 +8,6 @@ PluginPRLibrary
 h
 "
 #
-include
-<
-malloc
-.
-h
->
-#
 if
 defined
 (
@@ -26,6 +19,13 @@ defined
 (
 _M_IX86
 )
+#
+include
+<
+malloc
+.
+h
+>
 static
 int
 gNotOptimized
@@ -363,7 +363,6 @@ NPError
 error
 )
 {
-CALLING_CONVENTION_HACK
 if
 (
 mNP_GetValue
@@ -544,7 +543,6 @@ NPError
 error
 )
 {
-CALLING_CONVENTION_HACK
 if
 (
 !
