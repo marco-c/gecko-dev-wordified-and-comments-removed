@@ -204,7 +204,7 @@ SystemAllocPolicy
 ScriptMap
 ;
 ScriptMap
-evalScripts
+nonHeldScripts
 ;
 bool
 addDebuggeeGlobal
@@ -667,7 +667,7 @@ obj
 )
 ;
 void
-destroyEvalScript
+destroyNonHeldScript
 (
 JSScript
 *
@@ -955,7 +955,7 @@ scriptObj
 ;
 JSObject
 *
-wrapEvalScript
+wrapNonHeldScript
 (
 JSContext
 *
