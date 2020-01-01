@@ -8896,6 +8896,10 @@ mPathTransformWillUpdate
 =
 false
 ;
+mPath
+=
+nullptr
+;
 }
 }
 void
