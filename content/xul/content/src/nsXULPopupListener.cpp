@@ -831,6 +831,9 @@ return
 NS_OK
 ;
 }
+#
+ifndef
+NS_CONTEXT_MENU_IS_MOUSEUP
 nsresult
 nsXULPopupListener
 :
@@ -1163,6 +1166,8 @@ return
 rv
 ;
 }
+#
+endif
 void
 nsXULPopupListener
 :
