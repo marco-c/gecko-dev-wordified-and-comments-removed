@@ -4878,6 +4878,12 @@ return
 NS_OK
 ;
 }
+#
+if
+defined
+(
+USE_LINUX_QUOTACTL
+)
 static
 PRBool
 GetDeviceName
@@ -5078,6 +5084,8 @@ return
 ret
 ;
 }
+#
+endif
 NS_IMETHODIMP
 nsLocalFile
 :
