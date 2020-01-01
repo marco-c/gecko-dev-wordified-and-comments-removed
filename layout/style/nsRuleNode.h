@@ -1545,6 +1545,7 @@ nsRuleNode
 aHighestNode
 RuleDetail
 aRuleDetail
+const
 PRBool
 aInherited
 )
@@ -1572,6 +1573,7 @@ nsRuleNode
 aHighestNode
 RuleDetail
 aRuleDetail
+const
 PRBool
 aInherited
 )
@@ -1599,6 +1601,7 @@ nsRuleNode
 aHighestNode
 RuleDetail
 aRuleDetail
+const
 PRBool
 aInherited
 )
@@ -1626,6 +1629,7 @@ nsRuleNode
 aHighestNode
 RuleDetail
 aRuleDetail
+const
 PRBool
 aInherited
 )
@@ -1653,6 +1657,7 @@ nsRuleNode
 aHighestNode
 RuleDetail
 aRuleDetail
+const
 PRBool
 aInherited
 )
@@ -1680,6 +1685,7 @@ nsRuleNode
 aHighestNode
 RuleDetail
 aRuleDetail
+const
 PRBool
 aInherited
 )
@@ -1707,6 +1713,7 @@ nsRuleNode
 aHighestNode
 RuleDetail
 aRuleDetail
+const
 PRBool
 aInherited
 )
@@ -1734,6 +1741,7 @@ nsRuleNode
 aHighestNode
 RuleDetail
 aRuleDetail
+const
 PRBool
 aInherited
 )
@@ -1761,6 +1769,7 @@ nsRuleNode
 aHighestNode
 RuleDetail
 aRuleDetail
+const
 PRBool
 aInherited
 )
@@ -1788,6 +1797,7 @@ nsRuleNode
 aHighestNode
 RuleDetail
 aRuleDetail
+const
 PRBool
 aInherited
 )
@@ -1815,6 +1825,7 @@ nsRuleNode
 aHighestNode
 RuleDetail
 aRuleDetail
+const
 PRBool
 aInherited
 )
@@ -1842,6 +1853,7 @@ nsRuleNode
 aHighestNode
 RuleDetail
 aRuleDetail
+const
 PRBool
 aInherited
 )
@@ -1869,6 +1881,7 @@ nsRuleNode
 aHighestNode
 RuleDetail
 aRuleDetail
+const
 PRBool
 aInherited
 )
@@ -1896,6 +1909,7 @@ nsRuleNode
 aHighestNode
 RuleDetail
 aRuleDetail
+const
 PRBool
 aInherited
 )
@@ -1923,6 +1937,7 @@ nsRuleNode
 aHighestNode
 RuleDetail
 aRuleDetail
+const
 PRBool
 aInherited
 )
@@ -1950,6 +1965,7 @@ nsRuleNode
 aHighestNode
 RuleDetail
 aRuleDetail
+const
 PRBool
 aInherited
 )
@@ -1977,6 +1993,7 @@ nsRuleNode
 aHighestNode
 RuleDetail
 aRuleDetail
+const
 PRBool
 aInherited
 )
@@ -2004,6 +2021,7 @@ nsRuleNode
 aHighestNode
 RuleDetail
 aRuleDetail
+const
 PRBool
 aInherited
 )
@@ -2031,6 +2049,7 @@ nsRuleNode
 aHighestNode
 RuleDetail
 aRuleDetail
+const
 PRBool
 aInherited
 )
@@ -2058,6 +2077,7 @@ nsRuleNode
 aHighestNode
 RuleDetail
 aRuleDetail
+const
 PRBool
 aInherited
 )
@@ -2085,6 +2105,7 @@ nsRuleNode
 aHighestNode
 RuleDetail
 aRuleDetail
+const
 PRBool
 aInherited
 )
@@ -2115,6 +2136,7 @@ nsRuleNode
 aHighestNode
 RuleDetail
 aRuleDetail
+const
 PRBool
 aInherited
 )
@@ -2142,6 +2164,7 @@ nsRuleNode
 aHighestNode
 RuleDetail
 aRuleDetail
+const
 PRBool
 aInherited
 )
