@@ -10284,6 +10284,7 @@ html
 ref
 .
 html
+fails
 =
 =
 387344
@@ -10298,6 +10299,12 @@ html
 ref
 .
 html
+#
+scrolling
+rowgroups
+removed
+bug
+28800
 =
 =
 387876
@@ -14065,6 +14072,7 @@ html
 ref
 .
 html
+fails
 =
 =
 423823
@@ -14079,6 +14087,12 @@ html
 ref
 .
 html
+#
+scrolling
+rowgroups
+removed
+bug
+28800
 =
 =
 424074

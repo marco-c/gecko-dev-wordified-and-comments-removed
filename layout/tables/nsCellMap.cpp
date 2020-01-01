@@ -190,7 +190,6 @@ rgX
 ;
 InsertGroupCellMap
 (
-*
 rgFrame
 prior
 )
@@ -545,7 +544,7 @@ nsTableCellMap
 InsertGroupCellMap
 (
 nsTableRowGroupFrame
-&
+*
 aNewGroup
 nsTableRowGroupFrame
 *
@@ -2047,7 +2046,7 @@ nsTableCellMap
 InsertRows
 (
 nsTableRowGroupFrame
-&
+*
 aParent
 nsTArray
 <
@@ -2126,7 +2125,6 @@ if
 rg
 =
 =
-&
 aParent
 )
 {
@@ -5855,7 +5853,7 @@ nsCellMap
 nsCellMap
 (
 nsTableRowGroupFrame
-&
+*
 aRowGroup
 PRBool
 aIsBC
@@ -5871,7 +5869,6 @@ mContentRowCount
 )
 mRowGroupFrame
 (
-&
 aRowGroup
 )
 mNextSibling
@@ -5885,7 +5882,8 @@ aIsBC
 mPresContext
 (
 aRowGroup
-.
+-
+>
 PresContext
 (
 )
