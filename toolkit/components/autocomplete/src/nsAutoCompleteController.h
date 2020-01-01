@@ -278,9 +278,6 @@ mTree
 nsString
 mSearchString
 ;
-PRInt8
-mEnterAfterSearch
-;
 PRPackedBool
 mDefaultIndexCompleted
 ;
