@@ -519,10 +519,10 @@ const
 nsIntPoint
 &
 aOffset
-nsIntRect
-aScreenRect
-nsIntRect
-aTextureRect
+nsIntRegion
+aScreenRegion
+nsIntPoint
+aTextureOffset
 nsIntSize
 aTextureBounds
 )

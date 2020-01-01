@@ -48,6 +48,10 @@ ReusableTiledTextureOGL
 TiledTexture
 aTexture
 const
+nsIntPoint
+&
+aTileOrigin
+const
 nsIntRegion
 &
 aTileRegion
@@ -60,6 +64,10 @@ aResolution
 mTexture
 (
 aTexture
+)
+mTileOrigin
+(
+aTileOrigin
 )
 mTileRegion
 (
@@ -83,6 +91,10 @@ ReusableTiledTextureOGL
 }
 TiledTexture
 mTexture
+;
+const
+nsIntPoint
+mTileOrigin
 ;
 const
 nsIntRegion
