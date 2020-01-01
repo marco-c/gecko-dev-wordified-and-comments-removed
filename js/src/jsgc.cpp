@@ -1016,7 +1016,7 @@ getAllocKind
 &
 &
 !
-compartment
+zone
 -
 >
 rt
@@ -1057,7 +1057,7 @@ FreeSpan
 *
 list
 =
-compartment
+zone
 -
 >
 allocator
@@ -3749,7 +3749,7 @@ comp
 aheader
 -
 >
-compartment
+zone
 ;
 JSRuntime
 *
@@ -6570,7 +6570,7 @@ comp
 listHead
 -
 >
-compartment
+zone
 ;
 ArenaList
 finalized
@@ -14255,7 +14255,7 @@ arena
 >
 aheader
 .
-compartment
+zone
 -
 >
 isGCSweeping

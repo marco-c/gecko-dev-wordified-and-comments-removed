@@ -740,7 +740,7 @@ JS
 shadow
 :
 :
-Compartment
+Zone
 public
 js
 :
@@ -2336,6 +2336,14 @@ ionCompartment_
 endif
 }
 ;
+namespace
+JS
+{
+typedef
+JSCompartment
+Zone
+;
+}
 class
 js
 :

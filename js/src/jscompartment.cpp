@@ -449,7 +449,7 @@ JS
 shadow
 :
 :
-Compartment
+Zone
 *
 >
 (
@@ -465,7 +465,7 @@ JS
 shadow
 :
 :
-Compartment
+Zone
 *
 >
 (

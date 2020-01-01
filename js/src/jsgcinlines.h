@@ -967,7 +967,7 @@ initSpan
 singleAheader
 -
 >
-compartment
+zone
 singleAheader
 -
 >
@@ -1269,7 +1269,7 @@ JS_ASSERT
 aheader
 -
 >
-compartment
+zone
 -
 >
 rt
