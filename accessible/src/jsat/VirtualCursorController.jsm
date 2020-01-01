@@ -158,6 +158,7 @@ keypress
 this
 .
 onkeypress
+true
 )
 ;
 }
