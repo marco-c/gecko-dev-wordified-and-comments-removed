@@ -436,12 +436,6 @@ DataView
 39
 js_InitTypedArrayClasses
 )
-JS_PROTO
-(
-ParallelArray
-40
-js_InitParallelArrayClass
-)
 #
 undef
 XML_INIT
