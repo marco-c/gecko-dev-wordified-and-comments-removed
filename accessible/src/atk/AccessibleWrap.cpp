@@ -2855,16 +2855,12 @@ nsCOMPtr
 nsIPersistentProperties
 >
 attributes
-;
+=
 aAccessible
 -
 >
-GetAttributes
+Attributes
 (
-getter_AddRefs
-(
-attributes
-)
 )
 ;
 if
@@ -2888,7 +2884,7 @@ HASPOPUP
 )
 {
 nsAutoString
-oldValueUnused
+unused
 ;
 attributes
 -
@@ -2907,7 +2903,7 @@ NS_LITERAL_STRING
 true
 "
 )
-oldValueUnused
+unused
 )
 ;
 }
