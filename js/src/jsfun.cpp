@@ -10379,12 +10379,6 @@ u
 i
 .
 script
-obj
--
->
-compartment
-(
-)
 )
 ;
 }
