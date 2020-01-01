@@ -161,6 +161,15 @@ aChildList
 ;
 virtual
 nscoord
+GetPrefWidth
+(
+nsIRenderingContext
+*
+aRenderingContext
+)
+;
+virtual
+nscoord
 GetMinWidth
 (
 nsIRenderingContext
