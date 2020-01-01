@@ -257,6 +257,15 @@ ins
 isEffectful
 (
 )
+&
+&
+!
+ins
+-
+>
+neverHoist
+(
+)
 ;
 }
 }
