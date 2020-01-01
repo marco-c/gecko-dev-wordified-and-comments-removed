@@ -30,6 +30,15 @@ NS_tchar
 ;
 #
 endif
+#
+ifndef
+NULL
+#
+define
+NULL
+0
+#
+endif
 struct
 StringTable
 {
