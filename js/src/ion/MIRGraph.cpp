@@ -475,9 +475,7 @@ slots_
 return
 false
 ;
-MSnapshot
-*
-snapshot
+entrySnapshot_
 =
 new
 MSnapshot
@@ -491,7 +489,7 @@ pc
 if
 (
 !
-snapshot
+entrySnapshot_
 -
 >
 init
@@ -501,11 +499,6 @@ this
 )
 return
 false
-;
-add
-(
-snapshot
-)
 ;
 return
 true

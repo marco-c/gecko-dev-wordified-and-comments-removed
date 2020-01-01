@@ -305,13 +305,6 @@ true
 }
 #
 endif
-IonBuilder
-:
-:
-SetupOpcodeFlags
-(
-)
-;
 CheckLogging
 (
 )
