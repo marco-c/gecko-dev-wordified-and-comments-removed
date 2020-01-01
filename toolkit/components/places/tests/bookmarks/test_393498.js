@@ -563,7 +563,7 @@ now
 *
 1000
 -
-1
+20000
 ;
 bmsvc
 .
@@ -593,10 +593,9 @@ Google
 "
 )
 ;
-do_check_true
+is_time_ordered
 (
 oldLastModified
-<
 childNode
 .
 lastModified
