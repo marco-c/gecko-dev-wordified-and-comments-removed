@@ -186,6 +186,9 @@ GetParent
 if
 (
 parent
+&
+&
+parent
 -
 >
 IsHTML
