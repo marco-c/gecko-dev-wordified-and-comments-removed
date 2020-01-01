@@ -73,7 +73,7 @@ element
 addEventListener
 (
 "
-popuphiding
+popuphidden
 "
 this
 false
@@ -274,7 +274,7 @@ type
 {
 case
 "
-popuphiding
+popuphidden
 "
 :
 if
