@@ -6837,6 +6837,14 @@ None
 )
 ;
 }
+void
+printOpcode
+(
+FILE
+*
+fp
+)
+;
 }
 ;
 class
