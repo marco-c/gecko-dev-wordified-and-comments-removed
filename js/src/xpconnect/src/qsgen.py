@@ -4372,7 +4372,8 @@ code
 '
 ]
             
-else
+elif
+isGetter
 :
                 
 code
@@ -4382,9 +4383,15 @@ customMethodCall
 '
 getter_code
 '
-if
-isGetter
+]
+            
 else
+:
+                
+code
+=
+customMethodCall
+[
 '
 setter_code
 '
