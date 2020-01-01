@@ -51,6 +51,13 @@ h
 >
 #
 include
+<
+stdio
+.
+h
+>
+#
+include
 "
 nsAppShell
 .
@@ -165,7 +172,7 @@ jclass
 NS_EXPORT
 void
 JNICALL
-Java_org_mozilla_gecko_GeckoAppShell_setSurfaceView
+Java_org_mozilla_gecko_GeckoAppShell_setSoftwareLayerClient
 (
 JNIEnv
 *
@@ -327,6 +334,7 @@ nsAppShell
 :
 gAppShell
 )
+{
 nsAppShell
 :
 :
@@ -343,6 +351,7 @@ event
 )
 )
 ;
+}
 }
 NS_EXPORT
 void
@@ -377,7 +386,7 @@ false
 NS_EXPORT
 void
 JNICALL
-Java_org_mozilla_gecko_GeckoAppShell_setSurfaceView
+Java_org_mozilla_gecko_GeckoAppShell_setSoftwareLayerClient
 (
 JNIEnv
 *
@@ -395,7 +404,7 @@ Bridge
 )
 -
 >
-SetSurfaceView
+SetSoftwareLayerClient
 (
 jenv
 -

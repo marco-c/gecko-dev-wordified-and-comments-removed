@@ -961,7 +961,7 @@ GeckoEvent
 int
 etype
 Rect
-dirty
+rect
 )
 {
 if
@@ -985,7 +985,7 @@ etype
 ;
 mRect
 =
-dirty
+rect
 ;
 }
 public
