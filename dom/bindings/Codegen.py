@@ -14842,7 +14842,7 @@ n
 "
                 
 "
-nsDependentString
+FakeDependentString
 str
 ;
 \
@@ -15024,7 +15024,7 @@ declType
 CGGeneric
 (
 "
-nsDependentString
+FakeDependentString
 "
 )
             
