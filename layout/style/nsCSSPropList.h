@@ -2767,14 +2767,11 @@ eStyleAnimType_Sides_Bottom
 )
 CSS_PROP_BORDER
 (
--
-moz
--
 box
 -
 shadow
 box_shadow
-MozBoxShadow
+boxShadow
 CSS_PROPERTY_APPLIES_TO_FIRST_LETTER
 |
 CSS_PROPERTY_VALUE_LIST_USES_COMMAS

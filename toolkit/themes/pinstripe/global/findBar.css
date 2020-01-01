@@ -316,9 +316,6 @@ background
 :
 roundButtonBackground
 ;
--
-moz
--
 box
 -
 shadow
@@ -346,9 +343,6 @@ position
 :
 relative
 ;
--
-moz
--
 box
 -
 shadow
@@ -454,9 +448,6 @@ background
 :
 roundButtonPressedBackground
 ;
--
-moz
--
 box
 -
 shadow
@@ -490,9 +481,6 @@ background
 :
 roundButtonPressedBackground
 ;
--
-moz
--
 box
 -
 shadow
@@ -782,9 +770,6 @@ radius
 :
 4px
 ;
--
-moz
--
 box
 -
 shadow
@@ -814,9 +799,6 @@ border
 :
 none
 ;
--
-moz
--
 box
 -
 shadow
@@ -944,9 +926,6 @@ true
 "
 ]
 {
--
-moz
--
 box
 -
 shadow

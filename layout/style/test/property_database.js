@@ -3220,9 +3220,6 @@ invalid_values
 ]
 }
 "
--
-moz
--
 box
 -
 shadow
@@ -3232,7 +3229,7 @@ shadow
 domProp
 :
 "
-MozBoxShadow
+boxShadow
 "
 inherited
 :

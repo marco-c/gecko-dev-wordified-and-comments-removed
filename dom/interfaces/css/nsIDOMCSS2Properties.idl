@@ -3159,7 +3159,7 @@ on
 setting
 attribute
 DOMString
-MozBoxShadow
+boxShadow
 ;
 /
 /
