@@ -944,14 +944,6 @@ types
 TypeCompartment
 types
 ;
-bool
-condenseTypes
-(
-JSContext
-*
-cx
-)
-;
 struct
 TypeInferenceMemoryStats
 {

@@ -2464,11 +2464,6 @@ MarkTypeObjectFlags
 (
 cx
 obj
--
->
-getType
-(
-)
 types
 :
 :
@@ -2685,11 +2680,6 @@ MarkTypeObjectFlags
 (
 cx
 obj
--
->
-getType
-(
-)
 types
 :
 :
@@ -7016,7 +7006,7 @@ cx
 obj
 -
 >
-getType
+type
 (
 )
 js_StopIteration_str

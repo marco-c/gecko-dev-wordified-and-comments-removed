@@ -4700,11 +4700,6 @@ AddTypePropertyId
 (
 cx
 globalObj
--
->
-getType
-(
-)
 id
 rval
 )
