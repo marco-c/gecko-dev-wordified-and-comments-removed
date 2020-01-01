@@ -1337,7 +1337,7 @@ DIST
 )
 /
 include
-jsconfig_TARGETS
+jsconfig_TARGET
 :
 =
 export
