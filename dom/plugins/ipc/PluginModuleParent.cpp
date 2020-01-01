@@ -5582,6 +5582,15 @@ sandbox
 )
 ;
 }
+CrashReporter
+:
+:
+AppendExtraData
+(
+aDumpID
+notes
+)
+;
 GetIPCChannel
 (
 )
