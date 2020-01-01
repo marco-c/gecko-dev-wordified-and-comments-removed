@@ -713,9 +713,9 @@ android
 layout_width
 =
 "
-21
-.
-33dip
+dimen
+/
+browser_toolbar_lock_width
 "
 android
 :
