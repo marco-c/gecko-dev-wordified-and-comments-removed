@@ -2493,7 +2493,10 @@ self
 .
 children
 =
+list
+(
 children
+)
         
 self
 .
