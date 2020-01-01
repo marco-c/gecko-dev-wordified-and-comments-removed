@@ -33,14 +33,14 @@ nsCOMArray
 h
 "
 class
-nsDOMTouchPoint
+nsDOMTouch
 :
 public
-nsIDOMTouchPoint
+nsIDOMTouch
 {
 public
 :
-nsDOMTouchPoint
+nsDOMTouch
 (
 nsIDOMEventTarget
 *
@@ -122,9 +122,9 @@ aForce
 NS_DECL_CYCLE_COLLECTING_ISUPPORTS
 NS_DECL_CYCLE_COLLECTION_CLASS
 (
-nsDOMTouchPoint
+nsDOMTouch
 )
-NS_DECL_NSIDOMTOUCHPOINT
+NS_DECL_NSIDOMTOUCH
 protected
 :
 nsCOMPtr
@@ -185,7 +185,7 @@ NS_DECL_NSIDOMTOUCHLIST
 void
 Append
 (
-nsIDOMTouchPoint
+nsIDOMTouch
 *
 aPoint
 )
@@ -198,7 +198,7 @@ aPoint
 )
 ;
 }
-nsIDOMTouchPoint
+nsIDOMTouch
 *
 GetItemAt
 (
@@ -219,7 +219,7 @@ protected
 :
 nsCOMArray
 <
-nsIDOMTouchPoint
+nsIDOMTouch
 >
 mPoints
 ;

@@ -34745,7 +34745,7 @@ float
 aRotationAngle
 float
 aForce
-nsIDOMTouchPoint
+nsIDOMTouch
 *
 *
 aRetVal
@@ -34757,7 +34757,7 @@ NS_ADDREF
 aRetVal
 =
 new
-nsDOMTouchPoint
+nsDOMTouch
 (
 aTarget
 aIdentifier
@@ -34776,7 +34776,6 @@ aForce
 ;
 return
 NS_OK
-;
 ;
 }
 NS_IMETHODIMP
@@ -34861,7 +34860,7 @@ data
 ;
 nsCOMPtr
 <
-nsIDOMTouchPoint
+nsIDOMTouch
 >
 point
 =
@@ -34992,7 +34991,7 @@ i
 ;
 nsCOMPtr
 <
-nsIDOMTouchPoint
+nsIDOMTouch
 >
 point
 =
