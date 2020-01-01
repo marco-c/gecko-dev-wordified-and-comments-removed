@@ -516,8 +516,6 @@ NULL
 )
 DIRS
 =
-protocols
-\
 phone
 \
 (

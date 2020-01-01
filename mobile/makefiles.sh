@@ -462,13 +462,6 @@ phone
 Makefile
 mobile
 /
-components
-/
-protocols
-/
-Makefile
-mobile
-/
 installer
 /
 Makefile
