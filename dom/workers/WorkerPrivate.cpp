@@ -1307,11 +1307,9 @@ if
 (
 NS_SUCCEEDED
 (
-UnwrapObject
-<
-ImageData
->
+UNWRAP_OBJECT
 (
+ImageData
 aCx
 aObj
 imageData

@@ -449,11 +449,9 @@ nextPromise
 nsresult
 rv
 =
-UnwrapObject
-<
-Promise
->
+UNWRAP_OBJECT
 (
+Promise
 aCx
 valueObj
 nextPromise

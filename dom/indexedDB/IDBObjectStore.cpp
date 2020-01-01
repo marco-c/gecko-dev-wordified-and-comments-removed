@@ -6503,14 +6503,9 @@ if
 (
 NS_SUCCEEDED
 (
-UnwrapObject
-<
-file
-:
-:
-FileHandle
->
+UNWRAP_OBJECT
 (
+FileHandle
 aCx
 aObj
 fileHandle
