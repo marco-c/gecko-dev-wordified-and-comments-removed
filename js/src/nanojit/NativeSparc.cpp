@@ -3077,7 +3077,7 @@ underrunProtect
 LOpcode
 condop
 =
-cond
+ins
 -
 >
 opcode
@@ -3184,7 +3184,7 @@ r
 ;
 asm_fcmp
 (
-cond
+ins
 )
 ;
 }
