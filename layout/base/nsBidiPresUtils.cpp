@@ -586,7 +586,7 @@ NS_OK
 ;
 }
 static
-nsresult
+void
 JoinInlineAncestors
 (
 nsIFrame
