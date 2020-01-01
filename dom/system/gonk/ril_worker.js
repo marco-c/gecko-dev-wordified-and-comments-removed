@@ -4789,9 +4789,9 @@ writeUint32
 (
 RILQUIRKS_V5_LEGACY
 ?
-3
-:
 4
+:
+5
 )
 ;
 Buf
