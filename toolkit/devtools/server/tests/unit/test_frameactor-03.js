@@ -204,9 +204,6 @@ stopMe
 ;
 debugger
 ;
-"
-)
-"
 }
 +
 "

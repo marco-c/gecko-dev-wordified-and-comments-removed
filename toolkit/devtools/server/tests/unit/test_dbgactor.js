@@ -191,6 +191,9 @@ do_check_true
 false
 )
 ;
+return
+undefined
+;
 }
 )
 ;

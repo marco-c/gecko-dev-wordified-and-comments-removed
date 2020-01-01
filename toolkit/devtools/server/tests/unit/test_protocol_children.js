@@ -884,15 +884,6 @@ this
 )
 ;
 }
-toString
-:
-function
-(
-)
-"
-root
-actor
-"
 sayHello
 :
 simpleHello
@@ -1345,6 +1336,10 @@ _temporaryHolder
 )
 {
 return
+resolve
+(
+undefined
+)
 ;
 }
 this

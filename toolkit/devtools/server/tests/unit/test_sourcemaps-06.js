@@ -484,10 +484,11 @@ length
 0
 )
 {
-return
 aCallback
 (
 )
+;
+return
 ;
 }
 let
