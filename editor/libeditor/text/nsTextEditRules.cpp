@@ -1832,6 +1832,15 @@ node
 nullptr
 )
 ;
+mozilla
+:
+:
+dom
+:
+:
+NodeFilterHolder
+filter
+;
 nsNodeIterator
 iter
 (
@@ -1840,7 +1849,7 @@ nsIDOMNodeFilter
 :
 :
 SHOW_TEXT
-nullptr
+filter
 )
 ;
 while
