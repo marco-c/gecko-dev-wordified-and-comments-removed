@@ -5948,6 +5948,8 @@ file
 or
 stdout
 if
+self
+.
 UNIXISH
 :
 utility
@@ -5971,6 +5973,8 @@ imgoutput
 stdout
 '
 elif
+self
+.
 IS_MAC
 :
 utility
@@ -6006,6 +6010,8 @@ imgoutput
 file
 '
 elif
+self
+.
 IS_WIN32
 :
 self
