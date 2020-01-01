@@ -544,6 +544,14 @@ mList
 =
 null
 ;
+mTitle
+=
+null
+;
+mEmptyView
+=
+null
+;
 }
 Override
 public
