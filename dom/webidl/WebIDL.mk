@@ -259,6 +259,10 @@ HTMLFrameSetElement
 .
 webidl
 \
+HTMLHeadingElement
+.
+webidl
+\
 HTMLLabelElement
 .
 webidl
