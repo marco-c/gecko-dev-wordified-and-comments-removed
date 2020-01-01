@@ -127,6 +127,13 @@ CondVar
 which
 )
 ;
+void
+notifyAll
+(
+CondVar
+which
+)
+;
 private
 :
 PRLock
