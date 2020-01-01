@@ -136,6 +136,7 @@ enable
 debug
 -
 symbols
+#
 ac_add_options
 -
 -
