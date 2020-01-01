@@ -622,6 +622,11 @@ memory
 jemalloc
 /
 Makefile
+memory
+/
+build
+/
+Makefile
 "
 fi
 if
