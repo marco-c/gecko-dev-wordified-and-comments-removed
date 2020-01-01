@@ -559,6 +559,12 @@ secondstodays
 24
 ;
 return
+sprintf
+(
+"
+%
+d
+"
 (
 POSIX
 :
@@ -592,6 +598,7 @@ mktime
 )
 /
 secondstodays
+)
 ;
 }
 #
