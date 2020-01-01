@@ -6443,6 +6443,8 @@ const
 gfxMatrix
 &
 aMatrix
+TransformTypes
+aWhich
 )
 const
 {
