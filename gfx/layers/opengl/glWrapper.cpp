@@ -698,6 +698,17 @@ PRFuncPtr
 *
 )
 &
+CheckFramebufferStatusEXT
+"
+glCheckFramebufferStatusEXT
+"
+}
+{
+(
+PRFuncPtr
+*
+)
+&
 BufferData
 "
 glBufferData
