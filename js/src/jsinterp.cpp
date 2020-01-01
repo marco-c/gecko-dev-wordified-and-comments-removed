@@ -9842,14 +9842,10 @@ fprintf
 tracefp
 "
 %
-u
+d
 \
 n
 "
-(
-uintN
-)
-(
 regs
 -
 >
@@ -9858,7 +9854,6 @@ sp
 StackBase
 (
 fp
-)
 )
 )
 ;
@@ -10102,14 +10097,10 @@ fprintf
 tracefp
 "
 %
-u
+d
 \
 n
 "
-(
-uintN
-)
-(
 regs
 -
 >
@@ -10118,7 +10109,6 @@ sp
 StackBase
 (
 fp
-)
 )
 )
 ;
