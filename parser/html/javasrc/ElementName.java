@@ -536,6 +536,7 @@ SuppressWarnings
 unused
 "
 )
+Virtual
 private
 void
 destructor
