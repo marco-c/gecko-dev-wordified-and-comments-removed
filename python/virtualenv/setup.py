@@ -230,7 +230,7 @@ docs
 '
 index
 .
-txt
+rst
 '
 )
 )
@@ -282,7 +282,7 @@ docs
 '
 news
 .
-txt
+rst
 '
 )
 )
@@ -454,9 +454,11 @@ Development
 Status
 :
 :
-4
+5
 -
-Beta
+Production
+/
+Stable
 '
         
 '
