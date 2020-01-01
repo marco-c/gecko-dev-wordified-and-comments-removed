@@ -34,7 +34,7 @@ protected
 if
 1
 virtual
-nsresult
+bool
 RecvHello
 (
 )
@@ -43,13 +43,13 @@ RecvHello
 elif
 0
 virtual
-nsresult
+bool
 RecvPing
 (
 )
 ;
 virtual
-nsresult
+bool
 RecvPong
 (
 const
@@ -59,7 +59,7 @@ status
 )
 ;
 virtual
-nsresult
+bool
 RecvTellValue
 (
 const
@@ -73,7 +73,7 @@ val
 )
 ;
 virtual
-nsresult
+bool
 RecvTellValues
 (
 const

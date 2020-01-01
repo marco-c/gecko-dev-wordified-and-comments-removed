@@ -61,7 +61,16 @@ argv
 {
 #
 if
-1
+defined
+(
+XP_WIN
+)
+&
+&
+defined
+(
+DEBUG_bent
+)
 MessageBox
 (
 NULL

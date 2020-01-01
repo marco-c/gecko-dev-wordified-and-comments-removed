@@ -411,6 +411,10 @@ return
 true
 ;
 }
+default
+:
+break
+;
 }
 NS_NOTREACHED
 (
@@ -751,7 +755,7 @@ aObject
 )
 ;
 }
-nsresult
+bool
 PluginScriptableObjectChild
 :
 :
@@ -786,14 +790,14 @@ mObject
 nsnull
 ;
 return
-NS_OK
+true
 ;
 }
 return
 NS_ERROR_UNEXPECTED
 ;
 }
-nsresult
+bool
 PluginScriptableObjectChild
 :
 :
@@ -846,7 +850,7 @@ aHasMethod
 false
 ;
 return
-NS_OK
+true
 ;
 }
 *
@@ -868,10 +872,10 @@ aId
 )
 ;
 return
-NS_OK
+true
 ;
 }
-nsresult
+bool
 PluginScriptableObjectChild
 :
 :
@@ -934,7 +938,7 @@ aSuccess
 false
 ;
 return
-NS_OK
+true
 ;
 }
 nsAutoTArray
@@ -970,7 +974,7 @@ aSuccess
 false
 ;
 return
-NS_OK
+true
 ;
 }
 for
@@ -1011,7 +1015,7 @@ aSuccess
 false
 ;
 return
-NS_OK
+true
 ;
 }
 }
@@ -1056,7 +1060,7 @@ aSuccess
 false
 ;
 return
-NS_OK
+true
 ;
 }
 NPRemoteVariant
@@ -1079,7 +1083,7 @@ aSuccess
 false
 ;
 return
-NS_OK
+true
 ;
 }
 *
@@ -1093,10 +1097,10 @@ aResult
 convertedResult
 ;
 return
-NS_OK
+true
 ;
 }
-nsresult
+bool
 PluginScriptableObjectChild
 :
 :
@@ -1155,7 +1159,7 @@ aSuccess
 false
 ;
 return
-NS_OK
+true
 ;
 }
 nsAutoTArray
@@ -1191,7 +1195,7 @@ aSuccess
 false
 ;
 return
-NS_OK
+true
 ;
 }
 for
@@ -1232,7 +1236,7 @@ aSuccess
 false
 ;
 return
-NS_OK
+true
 ;
 }
 }
@@ -1273,7 +1277,7 @@ aSuccess
 false
 ;
 return
-NS_OK
+true
 ;
 }
 NPRemoteVariant
@@ -1296,7 +1300,7 @@ aSuccess
 false
 ;
 return
-NS_OK
+true
 ;
 }
 *
@@ -1310,10 +1314,10 @@ aResult
 convertedResult
 ;
 return
-NS_OK
+true
 ;
 }
-nsresult
+bool
 PluginScriptableObjectChild
 :
 :
@@ -1366,7 +1370,7 @@ aHasProperty
 false
 ;
 return
-NS_OK
+true
 ;
 }
 *
@@ -1388,10 +1392,10 @@ aId
 )
 ;
 return
-NS_OK
+true
 ;
 }
-nsresult
+bool
 PluginScriptableObjectChild
 :
 :
@@ -1447,7 +1451,7 @@ aSuccess
 false
 ;
 return
-NS_OK
+true
 ;
 }
 NPVariant
@@ -1480,7 +1484,7 @@ aSuccess
 false
 ;
 return
-NS_OK
+true
 ;
 }
 NPRemoteVariant
@@ -1508,10 +1512,10 @@ converted
 ;
 }
 return
-NS_OK
+true
 ;
 }
-nsresult
+bool
 PluginScriptableObjectChild
 :
 :
@@ -1568,7 +1572,7 @@ aSuccess
 false
 ;
 return
-NS_OK
+true
 ;
 }
 NPVariant
@@ -1590,7 +1594,7 @@ aSuccess
 false
 ;
 return
-NS_OK
+true
 ;
 }
 *
@@ -1614,10 +1618,10 @@ converted
 )
 ;
 return
-NS_OK
+true
 ;
 }
-nsresult
+bool
 PluginScriptableObjectChild
 :
 :
@@ -1670,7 +1674,7 @@ aSuccess
 false
 ;
 return
-NS_OK
+true
 ;
 }
 *
@@ -1692,10 +1696,10 @@ aId
 )
 ;
 return
-NS_OK
+true
 ;
 }
-nsresult
+bool
 PluginScriptableObjectChild
 :
 :
@@ -1750,7 +1754,7 @@ aSuccess
 false
 ;
 return
-NS_OK
+true
 ;
 }
 NPIdentifier
@@ -1785,7 +1789,7 @@ aSuccess
 false
 ;
 return
-NS_OK
+true
 ;
 }
 if
@@ -1816,7 +1820,7 @@ aSuccess
 false
 ;
 return
-NS_OK
+true
 ;
 }
 for
@@ -1891,10 +1895,10 @@ aSuccess
 true
 ;
 return
-NS_OK
+true
 ;
 }
-nsresult
+bool
 PluginScriptableObjectChild
 :
 :
@@ -1953,7 +1957,7 @@ aSuccess
 false
 ;
 return
-NS_OK
+true
 ;
 }
 nsAutoTArray
@@ -1989,7 +1993,7 @@ aSuccess
 false
 ;
 return
-NS_OK
+true
 ;
 }
 for
@@ -2030,7 +2034,7 @@ aSuccess
 false
 ;
 return
-NS_OK
+true
 ;
 }
 }
@@ -2071,7 +2075,7 @@ aSuccess
 false
 ;
 return
-NS_OK
+true
 ;
 }
 NPRemoteVariant
@@ -2094,7 +2098,7 @@ aSuccess
 false
 ;
 return
-NS_OK
+true
 ;
 }
 *
@@ -2108,6 +2112,6 @@ aResult
 convertedResult
 ;
 return
-NS_OK
+true
 ;
 }

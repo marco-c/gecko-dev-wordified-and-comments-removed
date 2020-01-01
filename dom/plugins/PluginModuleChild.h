@@ -277,7 +277,7 @@ PPluginModuleChild
 protected
 :
 virtual
-nsresult
+bool
 AnswerNP_Initialize
 (
 NPError
@@ -318,7 +318,7 @@ rv
 )
 ;
 virtual
-nsresult
+bool
 PPluginInstanceDestructor
 (
 PPluginInstanceChild
@@ -330,7 +330,7 @@ rv
 )
 ;
 virtual
-nsresult
+bool
 AnswerPPluginInstanceConstructor
 (
 PPluginInstanceChild

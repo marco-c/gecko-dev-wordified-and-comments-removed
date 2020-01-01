@@ -468,7 +468,7 @@ NPERR_GENERIC_ERROR
 ;
 }
 }
-nsresult
+bool
 PluginInstanceChild
 :
 :
@@ -513,7 +513,7 @@ NPERR_NO_ERROR
 )
 {
 return
-NS_OK
+true
 ;
 }
 PluginScriptableObjectChild
@@ -547,7 +547,7 @@ result
 NPERR_GENERIC_ERROR
 ;
 return
-NS_OK
+true
 ;
 }
 PluginModuleChild
@@ -566,10 +566,10 @@ value
 actor
 ;
 return
-NS_OK
+true
 ;
 }
-nsresult
+bool
 PluginInstanceChild
 :
 :
@@ -908,7 +908,7 @@ OS
 #
 endif
 return
-NS_OK
+true
 ;
 }
 bool
@@ -1574,7 +1574,7 @@ get
 )
 ;
 }
-nsresult
+bool
 PluginInstanceChild
 :
 :
@@ -1646,7 +1646,7 @@ break
 }
 }
 return
-NS_OK
+true
 ;
 }
 PBrowserStreamChild
@@ -1708,7 +1708,7 @@ stype
 )
 ;
 }
-nsresult
+bool
 PluginInstanceChild
 :
 :
@@ -1731,7 +1731,7 @@ delete
 stream
 ;
 return
-NS_OK
+true
 ;
 }
 PStreamNotifyChild
@@ -1778,7 +1778,7 @@ return
 NULL
 ;
 }
-nsresult
+bool
 PluginInstanceChild
 :
 :
@@ -1832,7 +1832,7 @@ delete
 sn
 ;
 return
-NS_OK
+true
 ;
 }
 PluginScriptableObjectChild

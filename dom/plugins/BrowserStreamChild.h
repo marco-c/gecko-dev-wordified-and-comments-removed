@@ -78,7 +78,7 @@ BrowserStreamChild
 {
 }
 virtual
-nsresult
+bool
 AnswerNPP_WriteReady
 (
 const
@@ -91,7 +91,7 @@ size
 )
 ;
 virtual
-nsresult
+bool
 AnswerNPP_Write
 (
 const
@@ -108,7 +108,7 @@ consumed
 )
 ;
 virtual
-nsresult
+bool
 AnswerNPP_StreamAsFile
 (
 const

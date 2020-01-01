@@ -32,7 +32,7 @@ HttpChannelParent
 )
 {
 }
-nsresult
+bool
 HttpChannelParent
 :
 :
@@ -55,6 +55,9 @@ asyncOpen
 msg
 "
 )
+;
+return
+true
 ;
 }
 }

@@ -196,7 +196,7 @@ rv
 )
 ;
 virtual
-nsresult
+bool
 PPluginInstanceDestructor
 (
 PPluginInstanceParent
@@ -238,7 +238,7 @@ aLibrary
 )
 ;
 virtual
-nsresult
+bool
 RecvNPN_GetStringIdentifier
 (
 const
@@ -251,7 +251,7 @@ aId
 )
 ;
 virtual
-nsresult
+bool
 RecvNPN_GetIntIdentifier
 (
 const
@@ -264,7 +264,7 @@ aId
 )
 ;
 virtual
-nsresult
+bool
 RecvNPN_UTF8FromIdentifier
 (
 const
@@ -277,7 +277,7 @@ aString
 )
 ;
 virtual
-nsresult
+bool
 RecvNPN_IntFromIdentifier
 (
 const
@@ -290,7 +290,7 @@ aInt
 )
 ;
 virtual
-nsresult
+bool
 RecvNPN_IdentifierIsString
 (
 const
@@ -303,7 +303,7 @@ aIsString
 )
 ;
 virtual
-nsresult
+bool
 RecvNPN_GetStringIdentifiers
 (
 const

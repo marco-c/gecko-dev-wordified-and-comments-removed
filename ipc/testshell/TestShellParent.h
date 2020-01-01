@@ -125,7 +125,7 @@ nsString
 aCommand
 )
 ;
-nsresult
+bool
 PTestShellCommandDestructor
 (
 PTestShellCommandParent
@@ -137,7 +137,7 @@ nsString
 aResponse
 )
 ;
-nsresult
+bool
 RecvPTestShellCommandDestructor
 (
 PTestShellCommandParent

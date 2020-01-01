@@ -58,7 +58,7 @@ TabChild
 )
 ;
 virtual
-nsresult
+bool
 RecvloadURL
 (
 const
@@ -68,7 +68,7 @@ uri
 )
 ;
 virtual
-nsresult
+bool
 Recvmove
 (
 const

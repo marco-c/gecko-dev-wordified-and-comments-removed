@@ -34,7 +34,7 @@ protected
 if
 1
 virtual
-nsresult
+bool
 RecvWorld
 (
 )
@@ -43,13 +43,13 @@ RecvWorld
 elif
 0
 virtual
-nsresult
+bool
 RecvPing
 (
 )
 ;
 virtual
-nsresult
+bool
 RecvPong
 (
 const
@@ -59,7 +59,7 @@ status
 )
 ;
 virtual
-nsresult
+bool
 RecvGetValue
 (
 const
@@ -69,7 +69,7 @@ key
 )
 ;
 virtual
-nsresult
+bool
 RecvGetValues
 (
 const
@@ -79,7 +79,7 @@ keys
 )
 ;
 virtual
-nsresult
+bool
 RecvSetValue
 (
 const

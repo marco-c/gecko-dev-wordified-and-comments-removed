@@ -189,7 +189,7 @@ mClosed
 true
 ;
 }
-nsresult
+bool
 BrowserStreamChild
 :
 :
@@ -215,7 +215,7 @@ size
 0
 ;
 return
-NS_OK
+true
 ;
 }
 mStream
@@ -245,10 +245,10 @@ mStream
 )
 ;
 return
-NS_OK
+true
 ;
 }
-nsresult
+bool
 BrowserStreamChild
 :
 :
@@ -279,7 +279,7 @@ consumed
 1
 ;
 return
-NS_OK
+true
 ;
 }
 *
@@ -332,10 +332,10 @@ mClosed
 true
 ;
 return
-NS_OK
+true
 ;
 }
-nsresult
+bool
 BrowserStreamChild
 :
 :
@@ -352,7 +352,7 @@ if
 mClosed
 )
 return
-NS_OK
+true
 ;
 mInstance
 -
@@ -377,7 +377,7 @@ get
 )
 ;
 return
-NS_OK
+true
 ;
 }
 }
