@@ -1904,6 +1904,14 @@ GetBounds
 )
 ;
 }
+nsRegion
+ToAppUnits
+(
+nscoord
+aAppUnitsPerPixel
+)
+const
+;
 nsIntRect
 GetLargestRectangle
 (

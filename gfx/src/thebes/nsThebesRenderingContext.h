@@ -526,7 +526,7 @@ NS_IMETHOD
 SetClipRegion
 (
 const
-nsIRegion
+nsIntRegion
 &
 aRegion
 nsClipCombine
