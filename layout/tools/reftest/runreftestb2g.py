@@ -3,15 +3,9 @@ ConfigParser
 import
 os
 import
-re
-import
 sys
 import
 tempfile
-import
-time
-import
-urllib
 import
 traceback
 SCRIPT_DIRECTORY
@@ -73,19 +67,10 @@ remotereftest
 import
 ReftestServer
 from
-mozprofile
+mozdevice
 import
-Profile
-from
-mozrunner
-import
-Runner
-import
-devicemanager
-import
-devicemanagerADB
-import
-manifestparser
+DeviceManagerADB
+DMError
 from
 marionette
 import
@@ -1991,8 +1976,6 @@ filename
 )
             
 except
-devicemanager
-.
 DMError
 :
                 
@@ -2912,8 +2895,6 @@ F_OK
 :
             
 raise
-devicemanager
-.
 DMError
 (
 '
@@ -3544,8 +3525,6 @@ remoteProfile
 )
         
 except
-devicemanager
-.
 DMError
 :
             
@@ -3654,8 +3633,6 @@ bundlesDir
 )
         
 except
-devicemanager
-.
 DMError
 :
             
@@ -3821,8 +3798,6 @@ remoteProfile
 )
         
 except
-devicemanager
-.
 DMError
 :
             
@@ -4135,8 +4110,6 @@ devicePort
     
 dm
 =
-devicemanagerADB
-.
 DeviceManagerADB
 (
 *

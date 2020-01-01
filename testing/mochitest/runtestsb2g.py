@@ -68,10 +68,11 @@ from
 runtests
 import
 MochitestServer
+from
+mozdevice
 import
-devicemanager
-import
-devicemanagerADB
+DeviceManagerADB
+DMError
 from
 marionette
 import
@@ -2846,8 +2847,6 @@ filename
 )
                 
 except
-devicemanager
-.
 DMError
 :
                     
@@ -3962,8 +3961,6 @@ remoteProfile
 )
         
 except
-devicemanager
-.
 DMError
 :
             
@@ -4074,8 +4071,6 @@ bundlesDir
 )
         
 except
-devicemanager
-.
 DMError
 :
             
@@ -4730,8 +4725,6 @@ devicePort
     
 dm
 =
-devicemanagerADB
-.
 DeviceManagerADB
 (
 *
