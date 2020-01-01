@@ -781,6 +781,10 @@ create
 (
 cx
 kind
+gc
+:
+:
+DefaultHeap
 shape
 type
 slots
@@ -1457,6 +1461,10 @@ create
 (
 cx
 FINALIZE_KIND
+gc
+:
+:
+DefaultHeap
 emptyDeclEnvShape
 type
 NULL
@@ -1721,6 +1729,10 @@ create
 (
 cx
 FINALIZE_KIND
+gc
+:
+:
+DefaultHeap
 shape
 type
 NULL
@@ -3132,6 +3144,10 @@ create
 (
 cx
 FINALIZE_KIND
+gc
+:
+:
+DefaultHeap
 shape
 type
 slots
@@ -3547,6 +3563,10 @@ create
 (
 cx
 FINALIZE_KIND
+gc
+:
+:
+DefaultHeap
 emptyBlockShape
 type
 NULL

@@ -16659,6 +16659,7 @@ cx
 ObjectClass
 NULL
 obj
+SingletonObject
 )
 )
 ;
@@ -16666,17 +16667,6 @@ if
 (
 !
 Reflect
-|
-|
-!
-JSObject
-:
-:
-setSingletonType
-(
-cx
-Reflect
-)
 )
 return
 NULL

@@ -164,6 +164,10 @@ RawObject
 proto
 =
 NULL
+NewObjectKind
+newKind
+=
+GenericObject
 )
 ;
 extern
@@ -181,6 +185,10 @@ RawObject
 proto
 =
 NULL
+NewObjectKind
+newKind
+=
+GenericObject
 )
 ;
 extern
@@ -198,6 +206,10 @@ RawObject
 proto
 =
 NULL
+NewObjectKind
+newKind
+=
+GenericObject
 )
 ;
 extern
@@ -238,6 +250,10 @@ RawObject
 proto
 =
 NULL
+NewObjectKind
+newKind
+=
+GenericObject
 )
 ;
 extern

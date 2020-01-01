@@ -42691,7 +42691,7 @@ JSObject
 *
 templateObject
 =
-js_CreateThisForFunctionWithProto
+CreateThisForFunctionWithProto
 (
 cx
 fun

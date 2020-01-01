@@ -1469,13 +1469,7 @@ clasp
 js
 :
 :
-Handle
-<
-js
-:
-:
 TaggedProto
->
 proto
 )
 ;

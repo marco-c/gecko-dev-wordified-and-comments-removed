@@ -92,6 +92,13 @@ struct
 Chunk
 ;
 enum
+InitialHeap
+{
+DefaultHeap
+TenuredHeap
+}
+;
+enum
 AllocKind
 {
 FINALIZE_OBJECT0
