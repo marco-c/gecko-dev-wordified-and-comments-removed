@@ -2292,6 +2292,10 @@ GetParentNode
 if
 (
 !
+parent
+|
+|
+!
 nsContentUtils
 :
 :
