@@ -11777,7 +11777,7 @@ vp
 undef
 JS_THIS
 static
-inline
+JS_ALWAYS_INLINE
 jsval
 JS_THIS
 (
