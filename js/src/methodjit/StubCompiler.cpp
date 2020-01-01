@@ -750,6 +750,9 @@ JSOP_GLOBALINC
 case
 JSOP_ARGINC
 :
+case
+JSOP_LOCALINC
+:
 stub
 =
 stubs
@@ -764,6 +767,9 @@ JSOP_GLOBALDEC
 :
 case
 JSOP_ARGDEC
+:
+case
+JSOP_LOCALDEC
 :
 stub
 =
@@ -780,6 +786,9 @@ JSOP_INCGLOBAL
 case
 JSOP_INCARG
 :
+case
+JSOP_INCLOCAL
+:
 stub
 =
 stubs
@@ -794,6 +803,9 @@ JSOP_DECGLOBAL
 :
 case
 JSOP_DECARG
+:
+case
+JSOP_DECLOCAL
 :
 stub
 =
