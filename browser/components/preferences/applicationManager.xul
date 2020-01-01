@@ -560,7 +560,7 @@ content
 /
 preferences
 /
-applicationManager
+applications
 .
 js
 "
@@ -588,7 +588,7 @@ content
 /
 preferences
 /
-applications
+applicationManager
 .
 js
 "
