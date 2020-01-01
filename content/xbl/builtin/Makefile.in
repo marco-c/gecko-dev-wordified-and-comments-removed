@@ -102,17 +102,6 @@ DIRS
 =
 mac
 else
-ifeq
-(
-android
-(
-MOZ_WIDGET_TOOLKIT
-)
-)
-DIRS
-=
-android
-else
 ifneq
 (
 (
@@ -131,7 +120,6 @@ else
 DIRS
 =
 emacs
-endif
 endif
 endif
 endif
