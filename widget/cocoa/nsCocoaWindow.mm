@@ -1122,10 +1122,13 @@ while
 running
 modal
 .
-NS_ASSERTION
+if
 (
-!
 mModal
+)
+{
+NS_WARNING
+(
 "
 Widget
 destroyed
@@ -1136,11 +1139,6 @@ modal
 "
 )
 ;
-if
-(
-mModal
-)
-{
 -
 -
 gXULModalLevel
