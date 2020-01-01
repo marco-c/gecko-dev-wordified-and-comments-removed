@@ -211,6 +211,11 @@ NS_IsMainThread
 )
 )
 ;
+if
+(
+sShutdownObservers
+)
+{
 ShutdownObserver
 *
 observer
@@ -239,6 +244,7 @@ Shutdown
 delete
 observer
 ;
+}
 }
 sShutdownObservers
 =
