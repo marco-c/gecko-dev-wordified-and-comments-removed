@@ -13494,6 +13494,19 @@ doubleFreeList
 NULL
 ;
 }
+#
+ifdef
+JS_THREADSAFE
+if
+(
+acx
+-
+>
+thread
+)
+#
+endif
+{
 fp
 =
 js_GetTopStackFrame
@@ -13575,6 +13588,7 @@ nextChain
 >
 dormantNext
 ;
+}
 }
 if
 (
