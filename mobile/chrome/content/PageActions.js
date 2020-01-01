@@ -1500,6 +1500,15 @@ visibleNodes
 .
 length
 ;
+if
+(
+visibleCount
+=
+=
+0
+)
+return
+;
 for
 (
 let
