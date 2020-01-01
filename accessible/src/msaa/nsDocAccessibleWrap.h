@@ -185,12 +185,6 @@ __RPC_FAR
 pszValue
 )
 ;
-virtual
-void
-FireAnchorJumpEvent
-(
-)
-;
 static
 void
 GetXPAccessibleForChildID

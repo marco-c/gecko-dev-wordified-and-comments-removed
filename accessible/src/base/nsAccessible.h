@@ -638,10 +638,6 @@ GetFirstAvailableAccessible
 nsIDOMNode
 *
 aStartNode
-PRBool
-aRequireLeaf
-=
-PR_FALSE
 )
 ;
 virtual

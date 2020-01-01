@@ -484,6 +484,10 @@ events
 .
 js
 \
+events_scroll
+.
+html
+\
 grid
 .
 js
@@ -690,6 +694,10 @@ xul
 test_events_mutation
 .
 html
+\
+test_events_scroll
+.
+xul
 \
 test_events_tree
 .
