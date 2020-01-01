@@ -3507,7 +3507,7 @@ true
 #
 ifdef
 MOZ_CRASHREPORTER
-MOZ_ASSERT
+if
 (
 ManagedPCrashReporterParent
 (
@@ -3519,7 +3519,7 @@ Length
 >
 0
 )
-;
+{
 CrashReporterParent
 *
 crashReporter
@@ -3589,6 +3589,7 @@ dumpID
 dumpID
 )
 ;
+}
 #
 endif
 }
