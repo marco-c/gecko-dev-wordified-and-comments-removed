@@ -286,6 +286,15 @@ z
 0
 ;
 }
+bool
+FuzzyEqual
+(
+const
+ThreeDPoint
+&
+other
+)
+;
 double
 x
 y
