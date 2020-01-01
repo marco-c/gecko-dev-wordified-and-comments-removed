@@ -254,12 +254,15 @@ return
 NewShortString
 (
 cx
+TwoByteChars
+(
 cb
 .
 begin
 (
 )
 length
+)
 )
 ;
 if
