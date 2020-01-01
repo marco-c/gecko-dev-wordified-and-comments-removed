@@ -3524,6 +3524,14 @@ cache
 )
 ;
 }
+bool
+TryPreserveWrapper
+(
+JSObject
+*
+obj
+)
+;
 JSBool
 InstanceClassHasProtoAtDepth
 (

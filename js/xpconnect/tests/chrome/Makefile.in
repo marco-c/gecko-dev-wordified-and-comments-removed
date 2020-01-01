@@ -317,6 +317,10 @@ test_wrappers
 .
 xul
 \
+test_paris_weakmap_keys
+.
+xul
+\
 (
 NULL
 )
