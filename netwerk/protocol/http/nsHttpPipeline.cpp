@@ -1469,10 +1469,10 @@ IsDone
 (
 )
 {
-PRBool
+bool
 done
 =
-PR_TRUE
+true
 ;
 PRUint32
 i
