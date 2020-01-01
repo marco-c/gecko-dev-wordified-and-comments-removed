@@ -700,6 +700,13 @@ ilocale
 =
 m
 ;
+iid
+=
+parseInt
+(
+iid
+)
+;
 if
 (
 ilocale
