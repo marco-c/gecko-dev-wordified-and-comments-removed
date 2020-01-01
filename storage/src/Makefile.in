@@ -519,6 +519,10 @@ mozStoragePrivateHelpers
 .
 cpp
 \
+mozStorageVariant
+.
+cpp
+\
 (
 NULL
 )
