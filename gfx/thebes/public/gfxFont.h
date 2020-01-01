@@ -1216,7 +1216,7 @@ gfxFontStyle
 aFontStyle
 PRBool
 &
-aNeedsBold
+aNeedsSyntheticBold
 )
 ;
 void
