@@ -2821,6 +2821,16 @@ return
 mFontSizeInflationForceEnabled
 ;
 }
+bool
+FontSizeInflationDisabledInMasterProcess
+(
+)
+const
+{
+return
+mFontSizeInflationDisabledInMasterProcess
+;
+}
 virtual
 void
 AddInvalidateHiddenPresShellObserver
@@ -3236,6 +3246,9 @@ mFontSizeInflationLineThreshold
 ;
 bool
 mFontSizeInflationForceEnabled
+;
+bool
+mFontSizeInflationDisabledInMasterProcess
 ;
 nscoord
 mMaxLineBoxWidth

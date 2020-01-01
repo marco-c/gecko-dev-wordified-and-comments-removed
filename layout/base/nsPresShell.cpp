@@ -41787,6 +41787,15 @@ FontSizeInflationForceEnabled
 (
 )
 ;
+mFontSizeInflationDisabledInMasterProcess
+=
+nsLayoutUtils
+:
+:
+FontSizeInflationDisabledInMasterProcess
+(
+)
+;
 }
 void
 nsIPresShell
