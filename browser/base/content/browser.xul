@@ -1148,6 +1148,11 @@ noautofocus
 "
 true
 "
+hidden
+=
+"
+true
+"
 /
 >
 <
@@ -1161,6 +1166,11 @@ orient
 =
 "
 vertical
+"
+hidden
+=
+"
+true
 "
 >
 <
