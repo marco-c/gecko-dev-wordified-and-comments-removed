@@ -77,9 +77,9 @@ mMatrix
 x0
 !
 =
-0
+mMatrix
 .
-0f
+y0
 )
 nsTextFormatter
 :
