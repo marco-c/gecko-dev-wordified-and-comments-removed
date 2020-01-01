@@ -1093,7 +1093,7 @@ const
 virtual
 nsIAtom
 *
-GetID
+DoGetID
 (
 )
 const

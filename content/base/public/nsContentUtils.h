@@ -2715,16 +2715,6 @@ aURI
 )
 ;
 static
-nsIAtom
-*
-IsNamedItem
-(
-Element
-*
-aElement
-)
-;
-static
 void
 GetOfflineAppManifest
 (

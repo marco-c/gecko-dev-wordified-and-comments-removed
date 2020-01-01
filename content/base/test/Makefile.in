@@ -1715,6 +1715,10 @@ test_bug544642
 .
 html
 \
+test_bug564863
+.
+xhtml
+\
 test_copypaste
 .
 html
