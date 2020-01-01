@@ -142,7 +142,7 @@ content
 /
 test
 /
-autodiscovery
+discovery
 .
 html
 "
