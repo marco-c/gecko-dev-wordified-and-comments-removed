@@ -744,6 +744,7 @@ let
 event
 =
 yield
+undefined
 ;
 let
 db
@@ -839,6 +840,7 @@ event
 event
 =
 yield
+undefined
 ;
 for
 (
@@ -891,6 +893,7 @@ count
 )
 ;
 yield
+undefined
 ;
 objectStore
 =
@@ -937,6 +940,7 @@ grabEventAndContinueHandler
 event
 =
 yield
+undefined
 ;
 is
 (
@@ -1099,6 +1103,7 @@ grabEventAndContinueHandler
 event
 =
 yield
+undefined
 ;
 is
 (
@@ -1261,6 +1266,7 @@ grabEventAndContinueHandler
 event
 =
 yield
+undefined
 ;
 is
 (
@@ -1423,6 +1429,7 @@ grabEventAndContinueHandler
 event
 =
 yield
+undefined
 ;
 is
 (
@@ -1583,6 +1590,7 @@ grabEventAndContinueHandler
 event
 =
 yield
+undefined
 ;
 is
 (
@@ -1742,6 +1750,7 @@ grabEventAndContinueHandler
 event
 =
 yield
+undefined
 ;
 is
 (
@@ -1899,6 +1908,7 @@ grabEventAndContinueHandler
 event
 =
 yield
+undefined
 ;
 is
 (
@@ -2034,5 +2044,6 @@ finishTest
 )
 ;
 yield
+undefined
 ;
 }

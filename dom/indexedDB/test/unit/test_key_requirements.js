@@ -28,25 +28,15 @@ Splendid
 Test
 "
 ;
-const
-description
-=
-"
-My
-Test
-Database
-"
-;
 let
 request
 =
-mozIndexedDB
+indexedDB
 .
 open
 (
 name
 1
-description
 )
 ;
 request
@@ -65,6 +55,7 @@ let
 event
 =
 yield
+undefined
 ;
 let
 db
@@ -139,6 +130,7 @@ grabEventAndContinueHandler
 event
 =
 yield
+undefined
 ;
 let
 key1
@@ -175,6 +167,7 @@ grabEventAndContinueHandler
 event
 =
 yield
+undefined
 ;
 is
 (
@@ -225,6 +218,7 @@ grabEventAndContinueHandler
 event
 =
 yield
+undefined
 ;
 is
 (
@@ -274,6 +268,7 @@ grabEventAndContinueHandler
 event
 =
 yield
+undefined
 ;
 is
 (
@@ -884,6 +879,7 @@ grabEventAndContinueHandler
 event
 =
 yield
+undefined
 ;
 is
 (
@@ -931,6 +927,7 @@ grabEventAndContinueHandler
 event
 =
 yield
+undefined
 ;
 is
 (
@@ -978,6 +975,7 @@ grabEventAndContinueHandler
 event
 =
 yield
+undefined
 ;
 is
 (
@@ -1012,8 +1010,11 @@ id
 ;
 request
 .
-onerror
-=
+addEventListener
+(
+"
+error
+"
 new
 ExpectError
 (
@@ -1021,6 +1022,7 @@ ExpectError
 ConstraintError
 "
 true
+)
 )
 ;
 request
@@ -1032,6 +1034,7 @@ unexpectedSuccessHandler
 event
 =
 yield
+undefined
 ;
 try
 {
@@ -1255,6 +1258,7 @@ grabEventAndContinueHandler
 event
 =
 yield
+undefined
 ;
 key1
 =
@@ -1292,6 +1296,7 @@ grabEventAndContinueHandler
 event
 =
 yield
+undefined
 ;
 is
 (
@@ -1343,6 +1348,7 @@ grabEventAndContinueHandler
 event
 =
 yield
+undefined
 ;
 is
 (
@@ -1576,11 +1582,13 @@ grabEventAndContinueHandler
 event
 =
 yield
+undefined
 ;
 finishTest
 (
 )
 ;
 yield
+undefined
 ;
 }

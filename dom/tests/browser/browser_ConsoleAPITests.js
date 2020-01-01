@@ -1244,6 +1244,7 @@ arg
 )
 ;
 yield
+undefined
 ;
 expect
 (
@@ -1275,6 +1276,7 @@ arg
 )
 ;
 yield
+undefined
 ;
 expect
 (
@@ -1328,6 +1330,7 @@ PI
 )
 ;
 yield
+undefined
 ;
 expect
 (
@@ -1361,6 +1364,7 @@ l
 )
 ;
 yield
+undefined
 ;
 expect
 (
@@ -1394,6 +1398,7 @@ c
 )
 ;
 yield
+undefined
 ;
 expect
 (
@@ -1439,6 +1444,7 @@ b
 )
 ;
 yield
+undefined
 ;
 expect
 (
@@ -1476,6 +1482,7 @@ a
 )
 ;
 yield
+undefined
 ;
 expect
 (
@@ -1505,6 +1512,7 @@ undefined
 )
 ;
 yield
+undefined
 ;
 let
 obj
@@ -1539,6 +1547,7 @@ a
 )
 ;
 yield
+undefined
 ;
 expect
 (
@@ -1562,6 +1571,7 @@ win
 )
 ;
 yield
+undefined
 ;
 expect
 (
@@ -1585,6 +1595,7 @@ arg
 )
 ;
 yield
+undefined
 ;
 let
 obj2
@@ -1631,18 +1642,21 @@ obj2
 )
 ;
 yield
+undefined
 ;
 startTraceTest
 (
 )
 ;
 yield
+undefined
 ;
 startLocationTest
 (
 )
 ;
 yield
+undefined
 ;
 }
 function

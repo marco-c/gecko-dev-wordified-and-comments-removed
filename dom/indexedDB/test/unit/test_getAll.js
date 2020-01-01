@@ -78,6 +78,7 @@ let
 event
 =
 yield
+undefined
 ;
 let
 db
@@ -134,6 +135,7 @@ grabEventAndContinueHandler
 event
 =
 yield
+undefined
 ;
 is
 (
@@ -240,8 +242,10 @@ next
 }
 }
 yield
+undefined
 ;
 yield
+undefined
 ;
 request
 =
@@ -280,6 +284,7 @@ grabEventAndContinueHandler
 event
 =
 yield
+undefined
 ;
 is
 (
@@ -389,6 +394,7 @@ grabEventAndContinueHandler
 event
 =
 yield
+undefined
 ;
 is
 (
@@ -506,6 +512,7 @@ grabEventAndContinueHandler
 event
 =
 yield
+undefined
 ;
 is
 (
@@ -615,6 +622,7 @@ grabEventAndContinueHandler
 event
 =
 yield
+undefined
 ;
 is
 (
@@ -724,6 +732,7 @@ grabEventAndContinueHandler
 event
 =
 yield
+undefined
 ;
 is
 (
@@ -833,6 +842,7 @@ grabEventAndContinueHandler
 event
 =
 yield
+undefined
 ;
 is
 (
@@ -951,6 +961,7 @@ grabEventAndContinueHandler
 event
 =
 yield
+undefined
 ;
 is
 (
@@ -1062,6 +1073,7 @@ grabEventAndContinueHandler
 event
 =
 yield
+undefined
 ;
 is
 (
@@ -1137,6 +1149,7 @@ grabEventAndContinueHandler
 event
 =
 yield
+undefined
 ;
 is
 (
@@ -1259,6 +1272,7 @@ grabEventAndContinueHandler
 event
 =
 yield
+undefined
 ;
 is
 (
@@ -1381,6 +1395,7 @@ grabEventAndContinueHandler
 event
 =
 yield
+undefined
 ;
 is
 (
@@ -1466,6 +1481,7 @@ grabEventAndContinueHandler
 event
 =
 yield
+undefined
 ;
 is
 (
@@ -1544,5 +1560,6 @@ finishTest
 )
 ;
 yield
+undefined
 ;
 }

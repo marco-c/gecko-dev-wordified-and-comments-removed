@@ -141,6 +141,7 @@ let
 event
 =
 yield
+undefined
 ;
 let
 db
@@ -308,6 +309,7 @@ unexpectedSuccessHandler
 event
 =
 yield
+undefined
 ;
 let
 objectStoreNames
@@ -549,6 +551,7 @@ let
 event
 =
 yield
+undefined
 ;
 let
 db
@@ -771,5 +774,6 @@ finishTest
 )
 ;
 yield
+undefined
 ;
 }

@@ -55,6 +55,7 @@ let
 event
 =
 yield
+undefined
 ;
 let
 db
@@ -150,6 +151,7 @@ let
 event
 =
 yield
+undefined
 ;
 let
 db
@@ -209,6 +211,7 @@ next
 )
 ;
 yield
+undefined
 ;
 db
 .
@@ -222,5 +225,6 @@ finishTest
 )
 ;
 yield
+undefined
 ;
 }

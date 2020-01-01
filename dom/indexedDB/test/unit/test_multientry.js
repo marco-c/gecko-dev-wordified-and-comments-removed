@@ -61,6 +61,7 @@ let
 event
 =
 yield
+undefined
 ;
 let
 db
@@ -671,6 +672,7 @@ let
 e
 =
 yield
+undefined
 ;
 req
 =
@@ -709,6 +711,7 @@ j
 e
 =
 yield
+undefined
 ;
 is
 (
@@ -781,6 +784,7 @@ continue
 e
 =
 yield
+undefined
 ;
 is
 (
@@ -852,6 +856,7 @@ j
 e
 =
 yield
+undefined
 ;
 is
 (
@@ -926,6 +931,7 @@ continue
 e
 =
 yield
+undefined
 ;
 is
 (
@@ -1423,6 +1429,7 @@ let
 e
 =
 yield
+undefined
 ;
 indexes
 =
@@ -1459,6 +1466,7 @@ let
 e
 =
 yield
+undefined
 ;
 ok
 (
@@ -1525,6 +1533,7 @@ j
 e
 =
 yield
+undefined
 ;
 is
 (
@@ -1593,6 +1602,7 @@ continue
 e
 =
 yield
+undefined
 ;
 is
 (
@@ -1665,6 +1675,7 @@ j
 e
 =
 yield
+undefined
 ;
 is
 (
@@ -1735,6 +1746,7 @@ continue
 e
 =
 yield
+undefined
 ;
 is
 (
@@ -1767,6 +1779,7 @@ onsuccess
 grabEventAndContinueHandler
 ;
 yield
+undefined
 ;
 let
 trans
@@ -1828,11 +1841,13 @@ oncomplete
 grabEventAndContinueHandler
 ;
 yield
+undefined
 ;
 finishTest
 (
 )
 ;
 yield
+undefined
 ;
 }

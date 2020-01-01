@@ -50,6 +50,7 @@ let
 event
 =
 yield
+undefined
 ;
 let
 db
@@ -84,6 +85,7 @@ foo
 )
 ;
 yield
+undefined
 ;
 let
 transaction1
@@ -213,11 +215,13 @@ continueToNextStep
 )
 ;
 yield
+undefined
 ;
 finishTest
 (
 )
 ;
 yield
+undefined
 ;
 }

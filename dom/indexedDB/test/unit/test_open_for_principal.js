@@ -82,6 +82,7 @@ let
 event
 =
 yield
+undefined
 ;
 is
 (
@@ -129,6 +130,7 @@ objectStoreName
 event
 =
 yield
+undefined
 ;
 is
 (
@@ -185,6 +187,7 @@ grabEventAndContinueHandler
 event
 =
 yield
+undefined
 ;
 is
 (
@@ -224,6 +227,7 @@ grabEventAndContinueHandler
 event
 =
 yield
+undefined
 ;
 is
 (
@@ -355,6 +359,7 @@ let
 event
 =
 yield
+undefined
 ;
 is
 (
@@ -400,6 +405,7 @@ objectStoreName
 event
 =
 yield
+undefined
 ;
 is
 (
@@ -453,6 +459,7 @@ grabEventAndContinueHandler
 event
 =
 yield
+undefined
 ;
 is
 (
@@ -499,11 +506,13 @@ grabEventAndContinueHandler
 event
 =
 yield
+undefined
 ;
 finishTest
 (
 )
 ;
 yield
+undefined
 ;
 }

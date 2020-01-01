@@ -127,6 +127,7 @@ let
 event
 =
 yield
+undefined
 ;
 let
 db
@@ -250,6 +251,7 @@ grabEventAndContinueHandler
 event
 =
 yield
+undefined
 ;
 ok
 (
@@ -300,6 +302,7 @@ next
 )
 ;
 yield
+undefined
 ;
 let
 request
@@ -328,6 +331,7 @@ let
 event
 =
 yield
+undefined
 ;
 let
 db
@@ -454,6 +458,7 @@ next
 ;
 }
 yield
+undefined
 ;
 }
 }
@@ -462,5 +467,6 @@ finishTest
 )
 ;
 yield
+undefined
 ;
 }

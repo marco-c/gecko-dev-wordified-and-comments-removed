@@ -67,6 +67,7 @@ let
 event
 =
 yield
+undefined
 ;
 let
 db
@@ -128,6 +129,7 @@ let
 event
 =
 yield
+undefined
 ;
 is
 (
@@ -533,14 +535,19 @@ stepNumber
 +
 ;
 yield
+undefined
 ;
 yield
+undefined
 ;
 yield
+undefined
 ;
 yield
+undefined
 ;
 yield
+undefined
 ;
 is
 (
@@ -559,5 +566,6 @@ finishTest
 )
 ;
 yield
+undefined
 ;
 }

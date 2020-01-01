@@ -73,6 +73,7 @@ let
 event
 =
 yield
+undefined
 ;
 if
 (
@@ -214,5 +215,6 @@ finishTest
 )
 ;
 yield
+undefined
 ;
 }

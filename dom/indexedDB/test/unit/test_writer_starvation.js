@@ -103,6 +103,7 @@ let
 event
 =
 yield
+undefined
 ;
 let
 db
@@ -179,6 +180,7 @@ grabEventAndContinueHandler
 event
 =
 yield
+undefined
 ;
 let
 key
@@ -200,6 +202,7 @@ key
 )
 ;
 yield
+undefined
 ;
 let
 continueReading
@@ -578,6 +581,7 @@ writerCount
 )
 ;
 yield
+undefined
 ;
 }
 while
@@ -607,6 +611,7 @@ next
 )
 ;
 yield
+undefined
 ;
 }
 is
@@ -628,5 +633,6 @@ finishTest
 )
 ;
 yield
+undefined
 ;
 }

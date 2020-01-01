@@ -209,6 +209,7 @@ grabEventAndContinueHandler
 event
 =
 yield
+undefined
 ;
 let
 db
@@ -347,6 +348,7 @@ grabEventAndContinueHandler
 event
 =
 yield
+undefined
 ;
 ok
 (
@@ -379,6 +381,7 @@ grabEventAndContinueHandler
 event
 =
 yield
+undefined
 ;
 ok
 (
@@ -432,6 +435,7 @@ grabEventAndContinueHandler
 event
 =
 yield
+undefined
 ;
 ok
 (
@@ -465,6 +469,7 @@ grabEventAndContinueHandler
 event
 =
 yield
+undefined
 ;
 ok
 (
@@ -522,6 +527,7 @@ grabEventAndContinueHandler
 event
 =
 yield
+undefined
 ;
 ok
 (
@@ -565,5 +571,6 @@ finishTest
 )
 ;
 yield
+undefined
 ;
 }

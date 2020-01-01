@@ -82,6 +82,7 @@ let
 event
 =
 yield
+undefined
 ;
 let
 db
@@ -279,5 +280,6 @@ finishTest
 ;
 }
 yield
+undefined
 ;
 }

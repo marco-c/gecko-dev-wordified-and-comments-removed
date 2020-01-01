@@ -78,6 +78,7 @@ let
 event
 =
 yield
+undefined
 ;
 let
 db
@@ -129,6 +130,7 @@ data
 )
 ;
 yield
+undefined
 ;
 db
 .
@@ -176,6 +178,7 @@ let
 event
 =
 yield
+undefined
 ;
 let
 db2
@@ -224,6 +227,7 @@ num
 )
 ;
 yield
+undefined
 ;
 let
 seenCount
@@ -327,6 +331,7 @@ continueToNextStep
 }
 ;
 yield
+undefined
 ;
 is
 (
@@ -344,5 +349,6 @@ finishTest
 )
 ;
 yield
+undefined
 ;
 }

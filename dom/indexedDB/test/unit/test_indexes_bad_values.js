@@ -471,6 +471,7 @@ let
 event
 =
 yield
+undefined
 ;
 let
 db
@@ -566,6 +567,7 @@ event
 event
 =
 yield
+undefined
 ;
 for
 (
@@ -677,8 +679,10 @@ next
 }
 }
 yield
+undefined
 ;
 yield
+undefined
 ;
 objectStore
 =
@@ -801,6 +805,7 @@ next
 }
 }
 yield
+undefined
 ;
 is
 (
@@ -878,6 +883,7 @@ next
 }
 }
 yield
+undefined
 ;
 is
 (
@@ -901,5 +907,6 @@ finishTest
 )
 ;
 yield
+undefined
 ;
 }

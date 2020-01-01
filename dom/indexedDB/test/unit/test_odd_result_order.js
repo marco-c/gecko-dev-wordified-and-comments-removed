@@ -62,6 +62,7 @@ let
 event
 =
 yield
+undefined
 ;
 let
 db
@@ -137,6 +138,7 @@ onsuccess
 continueToNextStep
 ;
 yield
+undefined
 ;
 objectStore
 =
@@ -177,6 +179,7 @@ grabEventAndContinueHandler
 event
 =
 yield
+undefined
 ;
 let
 key
@@ -201,6 +204,7 @@ continueToNextStep
 )
 ;
 yield
+undefined
 ;
 is
 (
@@ -250,6 +254,7 @@ grabEventAndContinueHandler
 event
 =
 yield
+undefined
 ;
 let
 obj
@@ -276,6 +281,7 @@ continueToNextStep
 )
 ;
 yield
+undefined
 ;
 is
 (
@@ -351,6 +357,7 @@ grabEventAndContinueHandler
 event
 =
 yield
+undefined
 ;
 key
 =
@@ -377,6 +384,7 @@ continueToNextStep
 )
 ;
 yield
+undefined
 ;
 ok
 (
@@ -398,5 +406,6 @@ finishTest
 )
 ;
 yield
+undefined
 ;
 }

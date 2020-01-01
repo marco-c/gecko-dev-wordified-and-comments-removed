@@ -60,6 +60,7 @@ let
 event
 =
 yield
+undefined
 ;
 let
 db
@@ -156,6 +157,7 @@ result
 }
 }
 yield
+undefined
 ;
 isnot
 (
@@ -244,6 +246,7 @@ continueToNextStep
 }
 }
 yield
+undefined
 ;
 is
 (
@@ -351,6 +354,7 @@ grabEventAndContinueHandler
 event
 =
 yield
+undefined
 ;
 ok
 (
@@ -476,6 +480,7 @@ continueToNextStep
 ;
 }
 yield
+undefined
 ;
 request
 =
@@ -519,6 +524,7 @@ grabEventAndContinueHandler
 event
 =
 yield
+undefined
 ;
 isnot
 (
@@ -541,5 +547,6 @@ finishTest
 )
 ;
 yield
+undefined
 ;
 }

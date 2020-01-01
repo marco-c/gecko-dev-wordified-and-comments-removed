@@ -675,6 +675,7 @@ iframe
 )
 ;
 yield
+undefined
 ;
 }
 }

@@ -146,5 +146,6 @@ finishTest
 )
 ;
 yield
+undefined
 ;
 }

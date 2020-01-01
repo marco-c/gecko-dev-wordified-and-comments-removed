@@ -47,7 +47,7 @@ c2
 let
 openRequest
 =
-mozIndexedDB
+indexedDB
 .
 open
 (
@@ -77,6 +77,7 @@ let
 event
 =
 yield
+undefined
 ;
 let
 db
@@ -887,7 +888,7 @@ i
 ;
 is
 (
-mozIndexedDB
+indexedDB
 .
 cmp
 (
@@ -939,7 +940,7 @@ j
 {
 is
 (
-mozIndexedDB
+indexedDB
 .
 cmp
 (
@@ -962,7 +963,7 @@ j
 ;
 is
 (
-mozIndexedDB
+indexedDB
 .
 cmp
 (
@@ -1008,7 +1009,7 @@ e
 {
 is
 (
-mozIndexedDB
+indexedDB
 .
 cmp
 (
@@ -1082,8 +1083,11 @@ i
 ;
 req
 .
-onerror
-=
+addEventListener
+(
+"
+error
+"
 new
 ExpectError
 (
@@ -1091,6 +1095,7 @@ ExpectError
 ConstraintError
 "
 true
+)
 )
 ;
 req
@@ -1100,6 +1105,7 @@ onsuccess
 unexpectedSuccessHandler
 ;
 yield
+undefined
 ;
 }
 else
@@ -1156,8 +1162,11 @@ i
 ;
 req
 .
-onerror
-=
+addEventListener
+(
+"
+error
+"
 new
 ExpectError
 (
@@ -1165,6 +1174,7 @@ ExpectError
 ConstraintError
 "
 true
+)
 )
 ;
 req
@@ -1174,6 +1184,7 @@ onsuccess
 unexpectedSuccessHandler
 ;
 yield
+undefined
 ;
 }
 }
@@ -1207,6 +1218,7 @@ i
 event
 =
 yield
+undefined
 ;
 let
 cursor
@@ -1219,7 +1231,7 @@ result
 ;
 is
 (
-mozIndexedDB
+indexedDB
 .
 cmp
 (
@@ -1290,6 +1302,7 @@ continue
 event
 =
 yield
+undefined
 ;
 is
 (
@@ -1440,7 +1453,7 @@ i
 {
 try
 {
-mozIndexedDB
+indexedDB
 .
 cmp
 (
@@ -1511,7 +1524,7 @@ code
 }
 try
 {
-mozIndexedDB
+indexedDB
 .
 cmp
 (
@@ -1659,11 +1672,13 @@ onsuccess
 grabEventAndContinueHandler
 ;
 yield
+undefined
 ;
 finishTest
 (
 )
 ;
 yield
+undefined
 ;
 }

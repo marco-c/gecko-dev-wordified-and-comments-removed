@@ -61,6 +61,7 @@ let
 event
 =
 yield
+undefined
 ;
 let
 db
@@ -332,6 +333,7 @@ let
 e
 =
 yield
+undefined
 ;
 is
 (
@@ -682,6 +684,7 @@ let
 e
 =
 yield
+undefined
 ;
 let
 key
@@ -812,6 +815,7 @@ grabEventAndContinueHandler
 e
 =
 yield
+undefined
 ;
 is
 (
@@ -982,11 +986,13 @@ onsuccess
 grabEventAndContinueHandler
 ;
 yield
+undefined
 ;
 finishTest
 (
 )
 ;
 yield
+undefined
 ;
 }

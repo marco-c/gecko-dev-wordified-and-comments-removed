@@ -990,6 +990,7 @@ start
 )
 ;
 yield
+undefined
 ;
 }
 }

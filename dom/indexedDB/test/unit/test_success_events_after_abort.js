@@ -50,6 +50,7 @@ let
 event
 =
 yield
+undefined
 ;
 let
 db
@@ -94,6 +95,7 @@ onerror
 errorHandler
 ;
 yield
+undefined
 ;
 objectStore
 =
@@ -199,6 +201,7 @@ abort
 event
 =
 yield
+undefined
 ;
 is
 (
@@ -299,5 +302,6 @@ finishTest
 )
 ;
 yield
+undefined
 ;
 }

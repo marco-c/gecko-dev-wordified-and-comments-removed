@@ -271,6 +271,7 @@ let
 event
 =
 yield
+undefined
 ;
 let
 db
@@ -497,8 +498,10 @@ test
 )
 ;
 yield
+undefined
 ;
 yield
+undefined
 ;
 store2
 .
@@ -586,8 +589,10 @@ store1
 )
 ;
 yield
+undefined
 ;
 yield
+undefined
 ;
 store2
 .
@@ -608,6 +613,7 @@ grabEventAndContinueHandler
 event
 =
 yield
+undefined
 ;
 is
 (
@@ -635,6 +641,7 @@ grabEventAndContinueHandler
 event
 =
 yield
+undefined
 ;
 is
 (
@@ -779,8 +786,10 @@ test
 )
 ;
 yield
+undefined
 ;
 yield
+undefined
 ;
 trans
 =
@@ -872,8 +881,10 @@ test
 )
 ;
 yield
+undefined
 ;
 yield
+undefined
 ;
 trans
 =
@@ -924,6 +935,7 @@ test
 )
 ;
 yield
+undefined
 ;
 trans
 .
@@ -963,6 +975,7 @@ test
 )
 ;
 yield
+undefined
 ;
 trans
 =
@@ -1017,6 +1030,7 @@ test
 )
 ;
 yield
+undefined
 ;
 trans
 .
@@ -1056,6 +1070,7 @@ test
 )
 ;
 yield
+undefined
 ;
 trans
 =
@@ -1110,6 +1125,7 @@ test
 )
 ;
 yield
+undefined
 ;
 trans
 .
@@ -1149,6 +1165,7 @@ test
 )
 ;
 yield
+undefined
 ;
 trans
 =
@@ -1201,6 +1218,7 @@ test
 )
 ;
 yield
+undefined
 ;
 trans
 .
@@ -1240,6 +1258,7 @@ test
 )
 ;
 yield
+undefined
 ;
 trans
 =
@@ -1355,8 +1374,10 @@ c2
 +
 ;
 yield
+undefined
 ;
 yield
+undefined
 ;
 trans
 =
@@ -1460,8 +1481,10 @@ c2
 +
 ;
 yield
+undefined
 ;
 yield
+undefined
 ;
 trans
 =
@@ -1518,6 +1541,7 @@ test
 )
 ;
 yield
+undefined
 ;
 trans
 .
@@ -1563,6 +1587,7 @@ c2
 +
 ;
 yield
+undefined
 ;
 trans
 =
@@ -1625,6 +1650,7 @@ test
 )
 ;
 yield
+undefined
 ;
 trans
 .
@@ -1670,6 +1696,7 @@ c2
 +
 ;
 yield
+undefined
 ;
 trans
 =
@@ -1732,6 +1759,7 @@ test
 )
 ;
 yield
+undefined
 ;
 trans
 .
@@ -1777,6 +1805,7 @@ c2
 +
 ;
 yield
+undefined
 ;
 trans
 =
@@ -1836,6 +1865,7 @@ test
 )
 ;
 yield
+undefined
 ;
 trans
 .
@@ -1881,6 +1911,7 @@ c2
 +
 ;
 yield
+undefined
 ;
 test
 =
@@ -2005,8 +2036,10 @@ c1
 2
 ;
 yield
+undefined
 ;
 yield
+undefined
 ;
 trans
 =
@@ -2128,8 +2161,10 @@ c2
 2
 ;
 yield
+undefined
 ;
 yield
+undefined
 ;
 test
 =
@@ -2274,8 +2309,10 @@ test
 )
 ;
 yield
+undefined
 ;
 yield
+undefined
 ;
 trans
 .
@@ -2356,8 +2393,10 @@ c2
 +
 ;
 yield
+undefined
 ;
 yield
+undefined
 ;
 trans
 .
@@ -2434,8 +2473,10 @@ test
 )
 ;
 yield
+undefined
 ;
 yield
+undefined
 ;
 trans
 .
@@ -2519,8 +2560,10 @@ c2
 +
 ;
 yield
+undefined
 ;
 yield
+undefined
 ;
 test
 =
@@ -2622,8 +2665,10 @@ test
 )
 ;
 yield
+undefined
 ;
 yield
+undefined
 ;
 trans
 .
@@ -2703,8 +2748,10 @@ test
 )
 ;
 yield
+undefined
 ;
 yield
+undefined
 ;
 trans
 .
@@ -2780,8 +2827,10 @@ test
 )
 ;
 yield
+undefined
 ;
 yield
+undefined
 ;
 trans
 .
@@ -2926,8 +2975,10 @@ c2
 +
 ;
 yield
+undefined
 ;
 yield
+undefined
 ;
 test
 =
@@ -3034,8 +3085,10 @@ c2
 +
 ;
 yield
+undefined
 ;
 yield
+undefined
 ;
 trans
 .
@@ -3078,8 +3131,10 @@ onsuccess
 grabEventAndContinueHandler
 ;
 yield
+undefined
 ;
 yield
+undefined
 ;
 trans
 .
@@ -3161,8 +3216,10 @@ c2
 +
 ;
 yield
+undefined
 ;
 yield
+undefined
 ;
 trans
 .
@@ -3205,8 +3262,10 @@ onsuccess
 grabEventAndContinueHandler
 ;
 yield
+undefined
 ;
 yield
+undefined
 ;
 trans
 =
@@ -3305,8 +3364,10 @@ c2
 +
 ;
 yield
+undefined
 ;
 yield
+undefined
 ;
 test
 =
@@ -3414,8 +3475,10 @@ c2
 +
 ;
 yield
+undefined
 ;
 yield
+undefined
 ;
 trans
 .
@@ -3452,8 +3515,10 @@ onsuccess
 grabEventAndContinueHandler
 ;
 yield
+undefined
 ;
 yield
+undefined
 ;
 trans
 .
@@ -3535,8 +3600,10 @@ c2
 +
 ;
 yield
+undefined
 ;
 yield
+undefined
 ;
 trans
 .
@@ -3573,8 +3640,10 @@ onsuccess
 grabEventAndContinueHandler
 ;
 yield
+undefined
 ;
 yield
+undefined
 ;
 trans
 =
@@ -3673,8 +3742,10 @@ c2
 +
 ;
 yield
+undefined
 ;
 yield
+undefined
 ;
 test
 =
@@ -3737,8 +3808,10 @@ onsuccess
 grabEventAndContinueHandler
 ;
 yield
+undefined
 ;
 yield
+undefined
 ;
 db
 .
@@ -3783,6 +3856,7 @@ unexpectedSuccessHandler
 event
 =
 yield
+undefined
 ;
 db
 =
@@ -3880,8 +3954,10 @@ c2
 +
 ;
 yield
+undefined
 ;
 yield
+undefined
 ;
 openRequest
 .
@@ -3890,11 +3966,13 @@ onsuccess
 grabEventAndContinueHandler
 ;
 yield
+undefined
 ;
 finishTest
 (
 )
 ;
 yield
+undefined
 ;
 }

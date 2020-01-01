@@ -73,7 +73,7 @@ baz
 let
 request
 =
-mozIndexedDB
+indexedDB
 .
 open
 (
@@ -103,6 +103,7 @@ let
 event
 =
 yield
+undefined
 ;
 let
 db
@@ -203,6 +204,7 @@ event
 event
 =
 yield
+undefined
 ;
 objectStore
 .
@@ -221,6 +223,7 @@ true
 )
 ;
 yield
+undefined
 ;
 let
 trans
@@ -287,6 +290,7 @@ let
 event
 =
 yield
+undefined
 ;
 is
 (
@@ -331,6 +335,7 @@ onsuccess
 grabEventAndContinueHandler
 ;
 yield
+undefined
 ;
 let
 request
@@ -360,6 +365,7 @@ let
 event
 =
 yield
+undefined
 ;
 is
 (
@@ -393,8 +399,11 @@ foopy
 ;
 request
 .
-onerror
-=
+addEventListener
+(
+"
+error
+"
 new
 ExpectError
 (
@@ -402,6 +411,7 @@ ExpectError
 ConstraintError
 "
 true
+)
 )
 ;
 request
@@ -417,13 +427,16 @@ oncomplete
 grabEventAndContinueHandler
 ;
 yield
+undefined
 ;
 yield
+undefined
 ;
 finishTest
 (
 )
 ;
 yield
+undefined
 ;
 }
