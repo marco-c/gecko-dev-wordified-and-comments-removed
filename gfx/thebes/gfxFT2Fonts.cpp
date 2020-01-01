@@ -46,15 +46,6 @@ defined
 XP_WIN
 )
 #
-ifdef
-WINCE
-#
-define
-SHGetSpecialFolderPathW
-SHGetSpecialFolderPath
-#
-endif
-#
 include
 "
 gfxWindowsPlatform

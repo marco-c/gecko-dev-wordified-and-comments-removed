@@ -1203,8 +1203,6 @@ win32
 surface
 .
 c
-ifndef
-WINCE
 ifdef
 MOZ_ENABLE_DWRITE_FONT
 CPPSRCS
@@ -1241,16 +1239,6 @@ win32
 font
 .
 c
-else
-EXPORTS_cairo
-+
-=
-cairo
--
-ddraw
-.
-h
-endif
 ifdef
 NS_PRINTING
 CSRCS
