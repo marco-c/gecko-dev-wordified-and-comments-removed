@@ -482,7 +482,6 @@ SP
 ORI
 (
 G1
--
 frameSize
 &
 0x3FF
@@ -491,7 +490,6 @@ G1
 ;
 SETHI
 (
--
 frameSize
 G1
 )
