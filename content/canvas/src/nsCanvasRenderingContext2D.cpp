@@ -7937,9 +7937,10 @@ GetDocument
 (
 )
 ;
-nsCString
+nsIAtom
+*
 language
-;
+=
 presShell
 -
 >
@@ -7950,12 +7951,6 @@ GetPresContext
 >
 GetLanguage
 (
-)
--
->
-ToUTF8String
-(
-language
 )
 ;
 nsCOMArray

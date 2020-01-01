@@ -16,7 +16,7 @@ NS_FONT_STRETCH_NORMAL
 16
 .
 0
-nsDependentCString
+NS_NewPermanentAtom
 (
 "
 en
@@ -39,7 +39,7 @@ NS_FONT_STRETCH_NORMAL
 16
 .
 0
-nsDependentCString
+NS_NewPermanentAtom
 (
 "
 en

@@ -469,9 +469,8 @@ const
 nsString
 &
 aFamilies
-const
-nsCString
-&
+nsIAtom
+*
 aLangGroup
 nsTArray
 <
@@ -656,8 +655,7 @@ ch
 void
 GetPrefFonts
 (
-const
-char
+nsIAtom
 *
 aLangGroup
 nsTArray

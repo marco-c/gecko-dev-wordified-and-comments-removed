@@ -506,9 +506,8 @@ gfxWindowsPlatform
 :
 GetFontList
 (
-const
-nsACString
-&
+nsIAtom
+*
 aLangGroup
 const
 nsACString

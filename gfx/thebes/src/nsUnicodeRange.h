@@ -5,6 +5,9 @@ nscore
 .
 h
 "
+class
+nsIAtom
+;
 const
 PRUint8
 kRangeCyrillic
@@ -342,8 +345,7 @@ PRUnichar
 ch
 )
 ;
-const
-char
+nsIAtom
 *
 LangGroupFromUnicodeRange
 (

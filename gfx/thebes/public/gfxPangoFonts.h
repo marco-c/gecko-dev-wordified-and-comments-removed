@@ -389,9 +389,8 @@ nsString
 >
 *
 aFcFamilyList
-const
-nsACString
-&
+nsIAtom
+*
 aLanguage
 )
 ;

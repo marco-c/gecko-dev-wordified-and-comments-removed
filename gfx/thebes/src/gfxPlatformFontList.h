@@ -136,9 +136,8 @@ nsnull
 void
 GetFontList
 (
-const
-nsACString
-&
+nsIAtom
+*
 aLangGroup
 const
 nsACString

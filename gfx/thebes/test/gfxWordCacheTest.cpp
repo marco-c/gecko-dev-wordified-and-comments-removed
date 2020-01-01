@@ -550,7 +550,7 @@ NS_FONT_STRETCH_NORMAL
 10
 .
 0
-nsDependentCString
+NS_NewPermanentAtom
 (
 "
 en

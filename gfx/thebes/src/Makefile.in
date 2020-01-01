@@ -78,6 +78,10 @@ gfxFontUtils
 .
 cpp
 \
+gfxAtoms
+.
+cpp
+\
 gfxMatrix
 .
 cpp

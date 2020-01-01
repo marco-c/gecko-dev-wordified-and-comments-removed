@@ -883,9 +883,8 @@ FontListData
 {
 FontListData
 (
-const
-nsACString
-&
+nsIAtom
+*
 aLangGroup
 const
 nsACString
@@ -913,9 +912,8 @@ aListOfFonts
 )
 {
 }
-const
-nsACString
-&
+nsIAtom
+*
 mLangGroup
 ;
 const
@@ -1092,9 +1090,8 @@ gfxPlatformFontList
 :
 GetFontList
 (
-const
-nsACString
-&
+nsIAtom
+*
 aLangGroup
 const
 nsACString

@@ -91,6 +91,9 @@ gfxTextRun
 class
 nsIURI
 ;
+class
+nsIAtom
+;
 enum
 eFontPrefLang
 {
@@ -300,9 +303,8 @@ virtual
 nsresult
 GetFontList
 (
-const
-nsACString
-&
+nsIAtom
+*
 aLangGroup
 const
 nsACString
@@ -480,8 +482,7 @@ PR_FALSE
 void
 GetPrefFonts
 (
-const
-char
+nsIAtom
 *
 aLanguage
 nsString
@@ -550,6 +551,15 @@ GetFontPrefLangFor
 (
 const
 char
+*
+aLang
+)
+;
+static
+eFontPrefLang
+GetFontPrefLangFor
+(
+nsIAtom
 *
 aLang
 )
