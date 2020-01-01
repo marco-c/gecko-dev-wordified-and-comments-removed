@@ -873,6 +873,8 @@ left
 rect
 .
 left
++
+aOffsetX
 ;
 var
 top
@@ -880,6 +882,8 @@ top
 rect
 .
 top
++
+aOffsetY
 ;
 if
 (
@@ -896,11 +900,7 @@ aEvent
 .
 type
 left
-+
-aOffsetX
 top
-+
-aOffsetY
 button
 clickCount
 modifiers
@@ -917,11 +917,7 @@ sendMouseEvent
 mousedown
 "
 left
-+
-aOffsetX
 top
-+
-aOffsetY
 button
 clickCount
 modifiers
@@ -935,11 +931,7 @@ sendMouseEvent
 mouseup
 "
 left
-+
-aOffsetX
 top
-+
-aOffsetY
 button
 clickCount
 modifiers

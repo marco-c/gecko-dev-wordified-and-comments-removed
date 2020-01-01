@@ -58,6 +58,11 @@ nsIWidget
 *
 GetWidget
 (
+nsPoint
+*
+aOffset
+=
+nsnull
 )
 ;
 }
