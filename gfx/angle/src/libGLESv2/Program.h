@@ -7,13 +7,6 @@ LIBGLESV2_PROGRAM_H_
 #
 include
 <
-d3dx9
-.
-h
->
-#
-include
-<
 string
 >
 #

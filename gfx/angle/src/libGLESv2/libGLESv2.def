@@ -371,7 +371,7 @@ problems
 with
 linking
 to
-undecored
+undecorated
 stdcall
 functions
 ;
@@ -385,6 +385,7 @@ APIs
 used
 by
 EGL
+.
 glGetProcAddress
 4
 =

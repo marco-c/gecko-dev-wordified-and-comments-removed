@@ -1239,6 +1239,13 @@ result
 )
 )
 ;
+InvalidateRect
+(
+mWindow
+NULL
+FALSE
+)
+;
 }
 if
 (

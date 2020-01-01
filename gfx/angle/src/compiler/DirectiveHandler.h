@@ -29,8 +29,6 @@ compiler
 /
 preprocessor
 /
-new
-/
 DirectiveHandler
 .
 h

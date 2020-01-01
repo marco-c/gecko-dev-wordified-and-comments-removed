@@ -574,6 +574,12 @@ resources
 extensionBehavior
 )
 ;
+hashFunction
+=
+resources
+.
+HashFunction
+;
 return
 true
 ;
@@ -890,6 +896,12 @@ compileOptions
 &
 SH_MAP_LONG_VARIABLE_NAMES
 )
+&
+&
+hashFunction
+=
+=
+NULL
 )
 mapLongVariableNames
 (
@@ -1099,6 +1111,12 @@ clear
 builtInFunctionEmulator
 .
 Cleanup
+(
+)
+;
+nameMap
+.
+clear
 (
 )
 ;
@@ -1467,6 +1485,7 @@ collect
 (
 attribs
 uniforms
+hashFunction
 )
 ;
 root

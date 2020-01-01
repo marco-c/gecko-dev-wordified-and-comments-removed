@@ -78,6 +78,15 @@ TOutputESSL
 outputESSL
 (
 sink
+getHashFunction
+(
+)
+getNameMap
+(
+)
+getSymbolTable
+(
+)
 )
 ;
 root

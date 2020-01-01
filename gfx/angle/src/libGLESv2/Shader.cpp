@@ -1194,6 +1194,7 @@ void
 compiler
 )
 {
+const
 char
 *
 source
@@ -1955,7 +1956,6 @@ clear
 )
 ;
 }
-;
 void
 VertexShader
 :

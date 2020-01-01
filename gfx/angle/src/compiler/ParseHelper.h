@@ -38,8 +38,6 @@ compiler
 /
 preprocessor
 /
-new
-/
 Preprocessor
 .
 h
@@ -625,6 +623,8 @@ identifier
 TPublicType
 &
 type
+bool
+array
 )
 ;
 bool

@@ -26,6 +26,14 @@ TOutputGLSL
 TInfoSinkBase
 &
 objSink
+ShHashFunction64
+hashFunction
+NameMap
+&
+nameMap
+TSymbolTable
+&
+symbolTable
 )
 ;
 protected

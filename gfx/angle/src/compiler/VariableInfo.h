@@ -77,6 +77,8 @@ attribs
 TVariableInfoList
 &
 uniforms
+ShHashFunction64
+hashFunction
 )
 ;
 virtual
@@ -158,6 +160,9 @@ mAttribs
 TVariableInfoList
 &
 mUniforms
+;
+ShHashFunction64
+mHashFunction
 ;
 }
 ;
