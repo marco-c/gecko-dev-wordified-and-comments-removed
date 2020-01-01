@@ -21,13 +21,6 @@ h
 #
 include
 "
-mozdrawingarea
-.
-h
-"
-#
-include
-"
 nsWeakReference
 .
 h
@@ -1712,9 +1705,9 @@ MozContainer
 *
 mContainer
 ;
-MozDrawingarea
+GdkWindow
 *
-mDrawingarea
+mGdkWindow
 ;
 GtkWindowGroup
 *

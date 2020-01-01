@@ -489,10 +489,6 @@ mozcontainer
 .
 c
 \
-mozdrawingarea
-.
-c
-\
 keysym2ucs
 .
 c
@@ -730,10 +726,6 @@ nsGTKToolkit
 h
 \
 nsIImageToPixbuf
-.
-h
-\
-mozdrawingarea
 .
 h
 \
