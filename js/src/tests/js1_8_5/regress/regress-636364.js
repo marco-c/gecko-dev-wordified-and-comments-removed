@@ -49,7 +49,7 @@ assertEq
 f
 (
 )
-this
+gsame
 )
 ;
 gsame
@@ -128,7 +128,7 @@ assertEq
 f
 (
 )
-this
+gnew
 )
 ;
 gnew
