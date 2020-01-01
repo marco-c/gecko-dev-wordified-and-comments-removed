@@ -97,7 +97,7 @@ nsGnomeModule
 .
 cpp
 \
-nsAlertsService
+nsSystemAlertsService
 .
 cpp
 \
