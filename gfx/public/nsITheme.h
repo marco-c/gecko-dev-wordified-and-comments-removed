@@ -219,6 +219,7 @@ aIsOverridable
 ;
 typedef
 enum
+Transparency
 {
 eOpaque
 =
@@ -226,7 +227,6 @@ eOpaque
 eTransparent
 eUnknownTransparency
 }
-Transparency
 ;
 virtual
 Transparency
