@@ -133,6 +133,17 @@ boolean
 ?
 bool
 )
+Constructor
+(
+TestInterface
+?
+iface
+)
+Constructor
+(
+TestNonCastableInterface
+iface
+)
 ]
 interface
 TestInterface
