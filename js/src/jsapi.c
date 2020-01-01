@@ -22669,13 +22669,13 @@ return
 ;
 JS_ASSERT
 (
+fp
+=
+=
 cx
 -
 >
 dormantFrameChain
-=
-=
-fp
 )
 ;
 cx
