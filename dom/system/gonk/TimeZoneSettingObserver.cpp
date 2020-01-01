@@ -686,10 +686,8 @@ return
 NS_ERROR_FAILURE
 ;
 }
-nsCString
-newTimezone
-=
 NS_ConvertUTF16toUTF8
+newTimezone
 (
 valueStr
 )
