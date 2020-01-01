@@ -129,13 +129,13 @@ ok
 (
 SocialSidebar
 .
-enabled
+opened
 "
 social
 sidebar
 should
 be
-on
+open
 by
 default
 "
