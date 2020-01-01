@@ -466,6 +466,7 @@ first
 .
 "
 )
+;
 return
 this
 .
@@ -3108,6 +3109,17 @@ this
 )
 ;
 }
+let
+listeners
+=
+this
+.
+_actionListeners
+.
+concat
+(
+)
+;
 for
 (
 let
@@ -3117,9 +3129,7 @@ i
 ;
 i
 <
-this
-.
-_actionListeners
+listeners
 .
 length
 ;
@@ -3131,9 +3141,7 @@ i
 let
 listener
 =
-this
-.
-_actionListeners
+listeners
 [
 i
 ]

@@ -117,6 +117,9 @@ function
 launchStyleEditorChrome
 (
 aCallback
+aSheet
+aLine
+aCol
 )
 {
 gChromeWindow
@@ -125,6 +128,9 @@ StyleEditor
 .
 openChrome
 (
+aSheet
+aLine
+aCol
 )
 ;
 if
@@ -207,6 +213,9 @@ function
 addTabAndLaunchStyleEditorChromeWhenLoaded
 (
 aCallback
+aSheet
+aLine
+aCol
 )
 {
 gBrowser
@@ -249,6 +258,9 @@ true
 launchStyleEditorChrome
 (
 aCallback
+aSheet
+aLine
+aCol
 )
 ;
 }
