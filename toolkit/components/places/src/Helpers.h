@@ -627,6 +627,15 @@ mozIStorageConnection
 aDBConn
 )
 ;
+bool
+GetHiddenState
+(
+bool
+aIsRedirect
+PRUint32
+aTransitionType
+)
+;
 }
 }
 #
