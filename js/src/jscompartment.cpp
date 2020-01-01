@@ -3493,10 +3493,8 @@ fun
 isInterpretedLazy
 (
 )
-)
-{
-JS_ASSERT
-(
+&
+&
 fun
 -
 >
@@ -3509,7 +3507,6 @@ maybeScript
 (
 )
 )
-;
 JS_ALWAYS_TRUE
 (
 fun
@@ -3521,7 +3518,6 @@ cx
 )
 )
 ;
-}
 }
 }
 return
