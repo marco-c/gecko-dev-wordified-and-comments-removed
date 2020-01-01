@@ -76,12 +76,10 @@ vp
 JSObject
 *
 replacer
-const
 js
 :
 :
 Value
-&
 space
 js
 :
