@@ -9233,16 +9233,11 @@ JSObject
 *
 newInnerJSObject
 =
-(
-JSObject
-*
-)
 aNewInner
 -
 >
-GetScriptGlobal
+GetGlobalJSObject
 (
-JAVASCRIPT
 )
 ;
 #
