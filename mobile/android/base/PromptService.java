@@ -3165,6 +3165,12 @@ if
 item
 .
 isGroup
+|
+|
+mSelected
+=
+=
+null
 )
 return
 ;
