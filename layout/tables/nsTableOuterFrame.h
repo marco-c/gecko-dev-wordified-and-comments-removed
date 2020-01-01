@@ -539,17 +539,6 @@ GetSkipSides
 )
 const
 ;
-#
-ifdef
-NS_DEBUG
-NS_IMETHOD
-VerifyTree
-(
-)
-const
-;
-#
-endif
 PRUint8
 GetCaptionSide
 (

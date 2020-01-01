@@ -497,12 +497,6 @@ aResult
 )
 const
 ;
-NS_IMETHOD
-VerifyTree
-(
-)
-const
-;
 #
 endif
 #
