@@ -4592,6 +4592,9 @@ statusMessage
 specific
 extension
 interfaces
+[
+NoInterfaceObject
+]
 interface
 WebGLExtensionStandardDerivatives
 {
@@ -4603,6 +4606,9 @@ FRAGMENT_SHADER_DERIVATIVE_HINT_OES
 ;
 }
 ;
+[
+NoInterfaceObject
+]
 interface
 WebGLExtensionLoseContext
 {
@@ -4618,6 +4624,9 @@ restoreContext
 ;
 }
 ;
+[
+NoInterfaceObject
+]
 interface
 WebGLExtensionTextureFilterAnisotropic
 {
@@ -4635,6 +4644,9 @@ MAX_TEXTURE_MAX_ANISOTROPY_EXT
 ;
 }
 ;
+[
+NoInterfaceObject
+]
 interface
 WebGLExtensionCompressedTextureS3TC
 {
@@ -4664,6 +4676,9 @@ COMPRESSED_RGBA_S3TC_DXT5_EXT
 ;
 }
 ;
+[
+NoInterfaceObject
+]
 interface
 WebGLExtensionCompressedTextureATC
 {
@@ -4687,6 +4702,9 @@ COMPRESSED_RGBA_ATC_INTERPOLATED_ALPHA_WEBGL
 ;
 }
 ;
+[
+NoInterfaceObject
+]
 interface
 WebGLExtensionCompressedTexturePVRTC
 {
@@ -4716,6 +4734,9 @@ COMPRESSED_RGBA_PVRTC_2BPPV1
 ;
 }
 ;
+[
+NoInterfaceObject
+]
 interface
 WebGLExtensionDepthTexture
 {
@@ -4727,6 +4748,9 @@ UNSIGNED_INT_24_8_WEBGL
 ;
 }
 ;
+[
+NoInterfaceObject
+]
 interface
 WebGLExtensionTextureFloat
 {
