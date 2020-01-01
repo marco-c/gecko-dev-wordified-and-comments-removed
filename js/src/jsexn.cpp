@@ -5641,13 +5641,6 @@ reportp
 ;
 if
 (
-!
-cx
--
->
-fp
-|
-|
 JSREPORT_IS_WARNING
 (
 reportp

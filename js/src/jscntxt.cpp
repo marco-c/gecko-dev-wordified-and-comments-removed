@@ -3358,6 +3358,13 @@ JSREPORT_EXCEPTION
 if
 (
 !
+cx
+-
+>
+fp
+|
+|
+!
 js_ErrorToException
 (
 cx

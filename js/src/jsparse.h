@@ -1031,6 +1031,10 @@ JSPrincipals
 *
 principals
 ;
+JSStackFrame
+*
+callerFrame
+;
 JSParseNode
 *
 nodeList
@@ -1085,7 +1089,10 @@ JSContext
 cx
 JSObject
 *
-obj
+scopeChain
+JSStackFrame
+*
+callerFrame
 JSPrincipals
 *
 principals
@@ -1188,6 +1195,9 @@ pc
 JSPrincipals
 *
 principals
+JSStackFrame
+*
+callerFrame
 const
 jschar
 *
