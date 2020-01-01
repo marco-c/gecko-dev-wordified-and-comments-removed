@@ -181,6 +181,10 @@ browser_scratchpad_bug_661762_wrong_window_focus
 .
 js
 \
+browser_scratchpad_bug_644413_modeline
+.
+js
+\
 head
 .
 js
