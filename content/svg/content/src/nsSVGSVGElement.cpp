@@ -3886,15 +3886,6 @@ GetPrimaryShell
 (
 )
 ;
-NS_ASSERTION
-(
-presShell
-"
-no
-presShell
-"
-)
-;
 if
 (
 presShell
