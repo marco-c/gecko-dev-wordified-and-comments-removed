@@ -336,7 +336,7 @@ nsINavHistoryService
 )
 ;
 let
-yesterday
+expirableTime
 =
 Date
 .
@@ -344,6 +344,8 @@ now
 (
 )
 -
+8
+*
 24
 *
 60
@@ -357,7 +359,7 @@ histsvc
 addVisit
 (
 theURI
-yesterday
+expirableTime
 *
 1000
 null

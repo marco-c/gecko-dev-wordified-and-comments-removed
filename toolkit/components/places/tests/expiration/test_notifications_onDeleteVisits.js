@@ -312,13 +312,9 @@ receivedNotifications
 let
 now
 =
-Date
-.
-now
+getExpirablePRTime
 (
 )
-*
-1000
 ;
 for
 (

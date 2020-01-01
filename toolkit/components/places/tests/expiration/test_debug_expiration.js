@@ -1,13 +1,9 @@
 let
 gNow
 =
-Date
-.
-now
+getExpirablePRTime
 (
 )
-*
-1000
 ;
 add_test
 (
