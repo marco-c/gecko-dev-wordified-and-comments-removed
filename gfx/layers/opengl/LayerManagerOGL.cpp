@@ -2375,14 +2375,7 @@ nsIntPoint
 )
 )
 ;
-static_cast
-<
-nsIWidget_MOZILLA_2_0_BRANCH
-*
->
-(
 mWidget
-)
 -
 >
 DrawOver
