@@ -124,6 +124,12 @@ this
 .
 _win
 )
+&
+&
+!
+PrivateBrowsingUtils
+.
+permanentPrivateBrowsing
 )
 {
 return
@@ -377,6 +383,11 @@ this
 .
 _win
 )
+|
+|
+PrivateBrowsingUtils
+.
+permanentPrivateBrowsing
 )
 {
 Components
