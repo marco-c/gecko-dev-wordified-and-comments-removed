@@ -986,7 +986,6 @@ mType
 eStyleSVGPaintType_Color
 |
 |
-(
 GetStyleSVG
 (
 )
@@ -998,16 +997,6 @@ mType
 =
 =
 eStyleSVGPaintType_Server
-&
-&
-(
-GetStateBits
-(
-)
-&
-NS_STATE_SVG_STROKE_PSERVER
-)
-)
 )
 return
 PR_TRUE
