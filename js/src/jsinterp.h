@@ -666,6 +666,9 @@ uint32
 brandfills
 ;
 uint32
+noprotos
+;
+uint32
 longchains
 ;
 uint32
