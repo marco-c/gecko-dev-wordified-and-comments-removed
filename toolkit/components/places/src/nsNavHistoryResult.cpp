@@ -7818,8 +7818,8 @@ mExpanded
 return
 NS_ERROR_NOT_AVAILABLE
 ;
-*
-_retval
+PRInt32
+nodeIndex
 =
 FindChild
 (
@@ -7835,8 +7835,7 @@ aNode
 ;
 if
 (
-*
-_retval
+nodeIndex
 =
 =
 -
@@ -7844,6 +7843,11 @@ _retval
 )
 return
 NS_ERROR_INVALID_ARG
+;
+*
+_retval
+=
+nodeIndex
 ;
 return
 NS_OK
