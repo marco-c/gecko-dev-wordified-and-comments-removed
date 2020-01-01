@@ -2709,6 +2709,12 @@ callee
 true
 )
 ;
+setTimeout
+(
+function
+(
+)
+{
 let
 event
 =
@@ -2737,6 +2743,10 @@ window
 dispatchEvent
 (
 event
+)
+;
+}
+0
 )
 ;
 }
