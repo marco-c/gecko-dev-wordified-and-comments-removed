@@ -7946,7 +7946,7 @@ return
 mozilla
 :
 :
-LAYER_ACTIVE
+LAYER_NONE
 ;
 }
 #
