@@ -13843,6 +13843,15 @@ TIMEOUT_EXIT
 )
 )
 ;
+if
+(
+JS_HAS_OPTION
+(
+cx
+JSOPTION_METHODJIT
+)
+)
+{
 LIns
 *
 counterPtr
@@ -13947,6 +13956,7 @@ LIR_label
 )
 )
 ;
+}
 }
 if
 (
@@ -36865,6 +36875,15 @@ ok
 ;
 if
 (
+JS_HAS_OPTION
+(
+cx
+JSOPTION_METHODJIT
+)
+)
+{
+if
+(
 lr
 -
 >
@@ -36924,6 +36943,7 @@ f
 ip
 )
 ;
+}
 }
 return
 ok
