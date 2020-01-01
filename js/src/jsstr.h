@@ -477,6 +477,9 @@ Value
 v
 )
 {
+AutoAssertCanGC
+cangc
+;
 #
 ifdef
 DEBUG
