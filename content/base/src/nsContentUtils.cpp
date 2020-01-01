@@ -5401,14 +5401,6 @@ sInitialized
 =
 PR_FALSE
 ;
-NS_HTMLParanoidFragmentSinkShutdown
-(
-)
-;
-NS_XHTMLParanoidFragmentSinkShutdown
-(
-)
-;
 NS_IF_RELEASE
 (
 sContentPolicyService

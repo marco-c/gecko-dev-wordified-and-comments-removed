@@ -260,6 +260,13 @@ h
 #
 include
 "
+nsTreeSanitizer
+.
+h
+"
+#
+include
+"
 nsCellMap
 .
 h
@@ -1514,6 +1521,13 @@ Shutdown
 )
 ;
 nsIPresShell
+:
+:
+ReleaseStatics
+(
+)
+;
+nsTreeSanitizer
 :
 :
 ReleaseStatics

@@ -2227,12 +2227,9 @@ const
 nsAString
 &
 aStr
-nsTArray
-<
-nsString
->
-&
-aTagStack
+nsIAtom
+*
+aContextLocalName
 nsIDocument
 *
 aTargetDoc
