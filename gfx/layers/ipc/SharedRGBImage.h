@@ -32,7 +32,7 @@ namespace
 layers
 {
 class
-DeprecatedSharedRGBImage
+SharedRGBImage
 :
 public
 Image
@@ -54,7 +54,7 @@ mImageFormat
 ;
 }
 ;
-DeprecatedSharedRGBImage
+SharedRGBImage
 (
 ISurfaceAllocator
 *
@@ -62,14 +62,14 @@ aAllocator
 )
 ;
 ~
-DeprecatedSharedRGBImage
+SharedRGBImage
 (
 )
 ;
 static
 already_AddRefed
 <
-DeprecatedSharedRGBImage
+SharedRGBImage
 >
 Create
 (
@@ -131,7 +131,7 @@ aResult
 )
 ;
 static
-DeprecatedSharedRGBImage
+SharedRGBImage
 *
 FromSurfaceDescriptor
 (

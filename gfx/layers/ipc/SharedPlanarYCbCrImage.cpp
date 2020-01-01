@@ -47,17 +47,17 @@ mozilla
 :
 ipc
 ;
-DeprecatedSharedPlanarYCbCrImage
+SharedPlanarYCbCrImage
 :
 :
 ~
-DeprecatedSharedPlanarYCbCrImage
+SharedPlanarYCbCrImage
 (
 )
 {
 MOZ_COUNT_DTOR
 (
-DeprecatedSharedPlanarYCbCrImage
+SharedPlanarYCbCrImage
 )
 ;
 if
@@ -85,7 +85,7 @@ desc
 }
 }
 void
-DeprecatedSharedPlanarYCbCrImage
+SharedPlanarYCbCrImage
 :
 :
 SetData
@@ -252,7 +252,7 @@ GetCrData
 }
 uint8_t
 *
-DeprecatedSharedPlanarYCbCrImage
+SharedPlanarYCbCrImage
 :
 :
 AllocateAndGetNewBuffer
@@ -317,7 +317,7 @@ GetData
 ;
 }
 void
-DeprecatedSharedPlanarYCbCrImage
+SharedPlanarYCbCrImage
 :
 :
 SetDataNoCopy
@@ -366,7 +366,7 @@ mCbCrSize
 }
 uint8_t
 *
-DeprecatedSharedPlanarYCbCrImage
+SharedPlanarYCbCrImage
 :
 :
 AllocateBuffer
@@ -434,7 +434,7 @@ uint8_t
 ;
 }
 bool
-DeprecatedSharedPlanarYCbCrImage
+SharedPlanarYCbCrImage
 :
 :
 Allocate
@@ -706,7 +706,7 @@ true
 ;
 }
 bool
-DeprecatedSharedPlanarYCbCrImage
+SharedPlanarYCbCrImage
 :
 :
 ToSurfaceDescriptor
@@ -752,7 +752,7 @@ true
 ;
 }
 bool
-DeprecatedSharedPlanarYCbCrImage
+SharedPlanarYCbCrImage
 :
 :
 DropToSurfaceDescriptor
@@ -794,9 +794,9 @@ return
 true
 ;
 }
-DeprecatedSharedPlanarYCbCrImage
+SharedPlanarYCbCrImage
 *
-DeprecatedSharedPlanarYCbCrImage
+SharedPlanarYCbCrImage
 :
 :
 FromSurfaceDescriptor
@@ -856,7 +856,7 @@ nullptr
 return
 reinterpret_cast
 <
-DeprecatedSharedPlanarYCbCrImage
+SharedPlanarYCbCrImage
 *
 >
 (

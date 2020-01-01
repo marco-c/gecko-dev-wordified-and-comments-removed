@@ -794,11 +794,11 @@ SurfaceDescriptor
 aDescriptor
 )
 {
-DeprecatedSharedPlanarYCbCrImage
+SharedPlanarYCbCrImage
 *
 sharedYCbCr
 =
-DeprecatedSharedPlanarYCbCrImage
+SharedPlanarYCbCrImage
 :
 :
 FromSurfaceDescriptor
@@ -822,11 +822,11 @@ return
 true
 ;
 }
-DeprecatedSharedRGBImage
+SharedRGBImage
 *
 sharedRGB
 =
-DeprecatedSharedRGBImage
+SharedRGBImage
 :
 :
 FromSurfaceDescriptor

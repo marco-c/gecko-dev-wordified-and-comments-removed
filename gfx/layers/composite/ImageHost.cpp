@@ -50,7 +50,7 @@ namespace
 layers
 {
 void
-DeprecatedImageHostSingle
+ImageHostSingle
 :
 :
 SetCompositor
@@ -84,7 +84,7 @@ aCompositor
 }
 }
 void
-DeprecatedImageHostSingle
+ImageHostSingle
 :
 :
 EnsureDeprecatedTextureHost
@@ -150,7 +150,7 @@ aTextureInfo
 ;
 }
 void
-DeprecatedImageHostSingle
+ImageHostSingle
 :
 :
 MakeDeprecatedTextureHost
@@ -229,7 +229,7 @@ compositor
 }
 }
 void
-DeprecatedImageHostSingle
+ImageHostSingle
 :
 :
 Composite
@@ -721,7 +721,7 @@ Unlock
 ifdef
 MOZ_LAYERS_HAVE_LOG
 void
-DeprecatedImageHostSingle
+ImageHostSingle
 :
 :
 PrintInfo
@@ -746,7 +746,7 @@ aTo
 nsPrintfCString
 (
 "
-DeprecatedImageHostSingle
+ImageHostSingle
 (
 0x
 %
@@ -815,7 +815,7 @@ get
 #
 endif
 bool
-DeprecatedImageHostBuffered
+ImageHostBuffered
 :
 :
 Update
@@ -869,7 +869,7 @@ IsValid
 ;
 }
 void
-DeprecatedImageHostBuffered
+ImageHostBuffered
 :
 :
 MakeDeprecatedTextureHost
@@ -889,7 +889,7 @@ TextureInfo
 aTextureInfo
 )
 {
-DeprecatedImageHostSingle
+ImageHostSingle
 :
 :
 MakeDeprecatedTextureHost
@@ -923,7 +923,7 @@ aAllocator
 }
 }
 void
-DeprecatedImageHostSingle
+ImageHostSingle
 :
 :
 Dump

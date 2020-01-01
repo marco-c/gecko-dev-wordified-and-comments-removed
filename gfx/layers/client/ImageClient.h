@@ -157,14 +157,14 @@ mPictureRect
 }
 ;
 class
-DeprecatedImageClientSingle
+ImageClientSingle
 :
 public
 ImageClient
 {
 public
 :
-DeprecatedImageClientSingle
+ImageClientSingle
 (
 CompositableForwarder
 *
