@@ -3402,7 +3402,7 @@ IsEmpty
 {
 nsTArray
 <
-nsString
+nsAutoString
 >
 *
 list
@@ -3411,7 +3411,7 @@ static_cast
 <
 nsTArray
 <
-nsString
+nsAutoString
 >
 *
 >
@@ -3467,7 +3467,7 @@ list
 {
 nsAutoTArray
 <
-nsString
+nsAutoString
 15
 >
 fonts
@@ -3564,7 +3564,7 @@ list
 {
 nsAutoTArray
 <
-nsString
+nsAutoString
 15
 >
 fonts
@@ -3604,7 +3604,7 @@ i
 )
 {
 const
-nsString
+nsAutoString
 &
 str
 =
