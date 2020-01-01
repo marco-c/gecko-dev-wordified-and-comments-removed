@@ -2006,6 +2006,15 @@ if
 (
 !
 aFrame
+|
+|
+!
+aFrame
+-
+>
+GetContent
+(
+)
 )
 return
 PR_FALSE
