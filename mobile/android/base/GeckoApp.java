@@ -395,7 +395,7 @@ android
 .
 graphics
 .
-Rect
+RectF
 ;
 import
 android
@@ -5730,7 +5730,7 @@ final
 View
 view
 final
-Rect
+RectF
 rect
 final
 boolean

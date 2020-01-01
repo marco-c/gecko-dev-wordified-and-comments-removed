@@ -161,7 +161,7 @@ PluginLayer
 (
 View
 view
-Rect
+RectF
 rect
 int
 maxDimension
@@ -413,7 +413,7 @@ public
 void
 reset
 (
-Rect
+RectF
 rect
 )
 {
@@ -540,7 +540,7 @@ mLastResolution
 public
 PluginLayoutParams
 (
-Rect
+RectF
 rect
 int
 maxDimension
@@ -649,17 +649,13 @@ public
 void
 reset
 (
-Rect
+RectF
 rect
 )
 {
 mRect
 =
-new
-RectF
-(
 rect
-)
 ;
 }
 public
