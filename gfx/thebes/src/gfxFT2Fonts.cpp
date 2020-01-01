@@ -3234,11 +3234,6 @@ aFontStyle
 gfxFont
 (
 aFontEntry
--
->
-GetName
-(
-)
 aFontStyle
 )
 mScaledFont
@@ -3988,7 +3983,9 @@ GetUniqueName
 )
 {
 return
-mName
+GetName
+(
+)
 ;
 }
 PRUint32
