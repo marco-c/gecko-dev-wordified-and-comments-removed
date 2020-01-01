@@ -932,7 +932,10 @@ JSObject
 global
 JSObject
 *
-parentProto
+receiver
+JSObject
+*
+protoProto
 JSClass
 *
 protoClass

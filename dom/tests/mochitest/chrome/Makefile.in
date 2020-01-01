@@ -568,6 +568,10 @@ test_sandbox_postMessage
 .
 html
 \
+test_sandbox_bindings
+.
+xul
+\
 (
 NULL
 )
