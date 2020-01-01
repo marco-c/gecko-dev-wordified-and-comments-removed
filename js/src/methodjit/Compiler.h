@@ -743,6 +743,13 @@ jsop_getelem
 (
 )
 ;
+void
+jsop_stricteq
+(
+JSOp
+op
+)
+;
 #
 define
 STUB_CALL_TYPE
