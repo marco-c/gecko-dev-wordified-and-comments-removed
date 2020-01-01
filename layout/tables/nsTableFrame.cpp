@@ -15924,9 +15924,6 @@ GetUnit
 case
 eStyleUnit_Auto
 :
-case
-eStyleUnit_Proportional
-:
 break
 ;
 case

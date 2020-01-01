@@ -191,9 +191,6 @@ eCSSUnit_Char
 eCSSUnit_Pixel
 =
 900
-eCSSUnit_Proportional
-=
-950
 eCSSUnit_Degree
 =
 1000
@@ -454,7 +451,7 @@ mUnit
 mUnit
 <
 =
-eCSSUnit_Proportional
+eCSSUnit_Pixel
 )
 )
 ;
@@ -506,7 +503,7 @@ mUnit
 mUnit
 <
 =
-eCSSUnit_Proportional
+eCSSUnit_Pixel
 )
 )
 ;
