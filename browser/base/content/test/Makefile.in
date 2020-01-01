@@ -561,6 +561,10 @@ page_style_sample
 .
 html
 \
+browser_ctrlTab
+.
+js
+\
 browser_selectTabAtIndex
 .
 js
