@@ -3616,6 +3616,12 @@ call
 1
 #
 iterobj
+objtop
+(
+JSMSG_BAD_ITERATOR_RETURN
+)
+#
+iterobj
 push
 #
 iterobj
@@ -3645,6 +3651,12 @@ obj
 flags
 call
 1
+#
+iterobj
+objtop
+(
+JSMSG_BAD_ITERATOR_RETURN
+)
 #
 iterobj
 push
