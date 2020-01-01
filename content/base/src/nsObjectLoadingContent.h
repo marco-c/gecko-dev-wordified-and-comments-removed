@@ -762,6 +762,11 @@ aIgnoreCurrentType
 )
 ;
 bool
+CheckJavaCodebase
+(
+)
+;
+bool
 CheckLoadPolicy
 (
 int16_t
