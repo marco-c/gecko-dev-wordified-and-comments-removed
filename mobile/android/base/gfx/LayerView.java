@@ -399,6 +399,11 @@ MATCH_PARENT
 }
 else
 {
+setWillNotCacheDrawing
+(
+false
+)
+;
 mSurfaceView
 =
 new
