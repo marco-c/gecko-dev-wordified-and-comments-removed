@@ -13310,11 +13310,12 @@ look
 )
 ;
 current
-.
-swap
-(
+=
 look
-)
+;
+look
+=
+nsnull
 ;
 continue
 ;
