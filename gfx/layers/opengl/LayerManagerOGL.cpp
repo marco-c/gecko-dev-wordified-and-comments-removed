@@ -3196,6 +3196,14 @@ LOCAL_GL_SRC_COLOR
 context
 -
 >
+fActiveTexture
+(
+LOCAL_GL_TEXTURE0
+)
+;
+context
+-
+>
 fBindTexture
 (
 LOCAL_GL_TEXTURE_2D
