@@ -472,8 +472,8 @@ HIRect
 inBoxRect
 PRInt32
 inState
-PRBool
-aIsEditable
+PRUint8
+aWidgetType
 nsIFrame
 *
 aFrame

@@ -163,6 +163,14 @@ _default
 ;
 }
 PRBool
+IsButtonTypeMenu
+(
+nsIFrame
+*
+aFrame
+)
+;
+PRBool
 IsChecked
 (
 nsIFrame
