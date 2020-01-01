@@ -6916,10 +6916,6 @@ getOrCreateScript
 (
 cx
 )
-.
-unsafeGet
-(
-)
 &
 &
 callee
@@ -6951,10 +6947,6 @@ callee
 -
 >
 nonLazyScript
-(
-)
-.
-unsafeGet
 (
 )
 )
@@ -27793,10 +27785,6 @@ fun
 nonLazyScript
 (
 )
-.
-unsafeGet
-(
-)
 )
 ;
 JS_ASSERT
@@ -28598,10 +28586,6 @@ toFunction
 getOrCreateScript
 (
 cx
-)
-.
-unsafeGet
-(
 )
 )
 return

@@ -403,8 +403,7 @@ asStaticBlock
 )
 ;
 }
-JSScript
-*
+UnrootedScript
 StaticScopeIter
 :
 :
@@ -413,9 +412,6 @@ funScript
 )
 const
 {
-AutoAssertNoGC
-nogc
-;
 JS_ASSERT
 (
 type
@@ -437,11 +433,6 @@ toFunction
 >
 nonLazyScript
 (
-)
-.
-get
-(
-nogc
 )
 ;
 }
@@ -6198,7 +6189,7 @@ if
 maybefp
 )
 {
-RawScript
+UnrootedScript
 script
 =
 maybefp
@@ -6206,11 +6197,6 @@ maybefp
 >
 script
 (
-)
-.
-get
-(
-nogc
 )
 ;
 unsigned

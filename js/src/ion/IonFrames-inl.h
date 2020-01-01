@@ -294,8 +294,7 @@ frameSize_
 ;
 }
 inline
-JSScript
-*
+UnrootedScript
 GetTopIonJSScript
 (
 JSContext

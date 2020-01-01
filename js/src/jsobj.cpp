@@ -27289,8 +27289,7 @@ hasScript
 )
 )
 {
-JSScript
-*
+UnrootedScript
 script
 =
 fun
@@ -27298,11 +27297,6 @@ fun
 >
 nonLazyScript
 (
-)
-.
-get
-(
-nogc
 )
 ;
 fprintf
@@ -29450,11 +29444,6 @@ i
 script
 (
 )
-.
-get
-(
-nogc
-)
 )
 ;
 unsigned
@@ -29467,11 +29456,6 @@ i
 .
 script
 (
-)
-.
-get
-(
-nogc
 )
 i
 .
@@ -29487,11 +29471,6 @@ i
 .
 script
 (
-)
-.
-get
-(
-nogc
 )
 ;
 sprinter

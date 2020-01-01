@@ -2936,7 +2936,7 @@ isInterpreted
 return
 false
 ;
-RawScript
+UnrootedScript
 script
 =
 fun
@@ -2944,11 +2944,6 @@ fun
 >
 nonLazyScript
 (
-)
-.
-get
-(
-nogc
 )
 ;
 if
@@ -4103,11 +4098,6 @@ fp
 >
 script
 (
-)
-.
-get
-(
-nogc
 )
 )
 ;

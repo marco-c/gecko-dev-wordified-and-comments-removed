@@ -742,11 +742,6 @@ f
 script
 (
 )
-.
-get
-(
-nogc
-)
 f
 .
 pc

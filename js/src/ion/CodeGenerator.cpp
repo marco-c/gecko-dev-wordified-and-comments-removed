@@ -1969,10 +1969,6 @@ fun
 nonLazyScript
 (
 )
-.
-unsafeGet
-(
-)
 )
 Address
 (

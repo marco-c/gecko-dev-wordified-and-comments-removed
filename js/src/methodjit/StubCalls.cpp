@@ -5523,11 +5523,6 @@ f
 script
 (
 )
-.
-get
-(
-nogc
-)
 )
 ;
 f
@@ -8487,8 +8482,7 @@ jpc
 =
 pc
 ;
-JSScript
-*
+UnrootedScript
 script
 =
 f
@@ -8500,11 +8494,6 @@ fp
 >
 script
 (
-)
-.
-get
-(
-nogc
 )
 ;
 Value
@@ -10600,7 +10589,7 @@ fun
 (
 )
 ;
-RawScript
+UnrootedScript
 script
 =
 fun
@@ -10608,11 +10597,6 @@ fun
 >
 nonLazyScript
 (
-)
-.
-get
-(
-nogc
 )
 ;
 if
@@ -10836,7 +10820,7 @@ frameAddr
 =
 repatchCode
 ;
-RawScript
+UnrootedScript
 script
 =
 f
@@ -10848,11 +10832,6 @@ fp
 >
 script
 (
-)
-.
-get
-(
-nogc
 )
 ;
 JS_ASSERT

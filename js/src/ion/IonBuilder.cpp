@@ -750,11 +750,6 @@ getCallTarget
 script
 (
 )
-.
-get
-(
-nogc
-)
 argc
 pc
 )
@@ -17995,10 +17990,6 @@ target
 -
 >
 nonLazyScript
-(
-)
-.
-unsafeGet
 (
 )
 )

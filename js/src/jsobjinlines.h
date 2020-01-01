@@ -5334,7 +5334,7 @@ extern
 bool
 js_IsDebugScopeSlow
 (
-JS
+js
 :
 :
 RawObject

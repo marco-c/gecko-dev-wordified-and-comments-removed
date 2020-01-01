@@ -138,8 +138,7 @@ inline
 CalleeToken
 CalleeToToken
 (
-JSScript
-*
+RawScript
 script
 )
 {
@@ -205,8 +204,7 @@ token
 }
 static
 inline
-JSScript
-*
+UnrootedScript
 CalleeTokenToScript
 (
 CalleeToken
@@ -226,8 +224,7 @@ CalleeToken_Script
 ;
 return
 (
-JSScript
-*
+RawScript
 )
 (
 uintptr_t
@@ -245,8 +242,7 @@ uintptr_t
 }
 static
 inline
-JSScript
-*
+UnrootedScript
 ScriptFromCalleeToken
 (
 CalleeToken
@@ -286,11 +282,6 @@ token
 nonLazyScript
 (
 )
-.
-get
-(
-nogc
-)
 ;
 }
 JS_NOT_REACHED
@@ -304,7 +295,10 @@ tag
 )
 ;
 return
+UnrootedScript
+(
 NULL
+)
 ;
 }
 class
@@ -803,8 +797,7 @@ js
 namespace
 ion
 {
-JSScript
-*
+UnrootedScript
 GetTopIonJSScript
 (
 JSContext

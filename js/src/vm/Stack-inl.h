@@ -3148,7 +3148,7 @@ inlined
 inlineIndex
 ]
 ;
-RawScript
+UnrootedScript
 script
 =
 frame
@@ -3159,11 +3159,6 @@ fun
 >
 nonLazyScript
 (
-)
-.
-get
-(
-nogc
 )
 ;
 if
@@ -3211,7 +3206,7 @@ script
 }
 #
 endif
-RawScript
+UnrootedScript
 script
 =
 fp
@@ -3219,11 +3214,6 @@ fp
 >
 script
 (
-)
-.
-get
-(
-nogc
 )
 ;
 if
