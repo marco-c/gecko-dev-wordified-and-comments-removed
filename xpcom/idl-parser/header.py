@@ -675,7 +675,7 @@ l
 append
 (
 '
-PRUint8
+uint8_t
 _argc
 '
 )
