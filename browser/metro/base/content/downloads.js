@@ -1048,7 +1048,7 @@ uri
 )
 BrowserUI
 .
-newTab
+addAndShowTab
 (
 uri
 Browser

@@ -822,7 +822,7 @@ win
 .
 BrowserUI
 .
-newTab
+addAndShowTab
 (
 url
 win

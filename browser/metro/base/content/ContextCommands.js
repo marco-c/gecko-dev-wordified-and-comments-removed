@@ -843,7 +843,7 @@ searchString
 ;
 BrowserUI
 .
-newTab
+addAndShowTab
 (
 defaultURI
 Browser
@@ -1035,7 +1035,7 @@ cc_openImageInNewTab
 {
 BrowserUI
 .
-newTab
+addAndShowTab
 (
 ContextMenuUI
 .
@@ -1098,7 +1098,7 @@ cc_openVideoInNewTab
 {
 BrowserUI
 .
-newTab
+addAndShowTab
 (
 ContextMenuUI
 .
