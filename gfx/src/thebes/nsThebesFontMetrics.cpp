@@ -197,9 +197,6 @@ sizeAdjust
 aFont
 .
 systemFont
-aFont
-.
-familyNameQuirks
 printerFont
 aFont
 .
