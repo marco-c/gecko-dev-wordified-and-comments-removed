@@ -71,3 +71,11 @@ arguments
 length
 .
 js
+script
+builtin
+-
+no
+-
+prototype
+.
+js
