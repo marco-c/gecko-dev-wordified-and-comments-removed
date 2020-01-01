@@ -2297,10 +2297,11 @@ selectionEnd
 {
 this
 .
+inputField
+.
 focus
 (
 )
-;
 this
 .
 editor
