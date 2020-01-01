@@ -3258,7 +3258,7 @@ _retval
 nsresult
 rv
 =
-ResolveAndStat
+Resolve
 (
 )
 ;
@@ -3268,12 +3268,6 @@ NS_FAILED
 (
 rv
 )
-&
-&
-rv
-!
-=
-NS_ERROR_FILE_NOT_FOUND
 )
 return
 rv
