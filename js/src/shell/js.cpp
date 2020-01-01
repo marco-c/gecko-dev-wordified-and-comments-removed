@@ -21157,6 +21157,8 @@ MJitDataStats
 0
 0
 )
+#
+endif
 JS_FN
 (
 "
@@ -21166,8 +21168,6 @@ MJitChunkLimit
 1
 0
 )
-#
-endif
 JS_FN
 (
 "
@@ -22980,6 +22980,8 @@ memory
 usage
 .
 "
+#
+endif
 "
 mjitChunkLimit
 (
@@ -22996,8 +22998,6 @@ mjit
 compilation
 .
 "
-#
-endif
 "
 stringstats
 (
