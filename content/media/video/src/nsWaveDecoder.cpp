@@ -279,13 +279,6 @@ PRInt64
 aBytes
 )
 ;
-void
-NotifyDownloadEnded
-(
-nsresult
-aStatus
-)
-;
 nsHTMLMediaElement
 :
 :
