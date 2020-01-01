@@ -871,6 +871,12 @@ nsIDOMHTMLCollection
 >
 mAnchors
 ;
+nsCOMPtr
+<
+nsIDOMHTMLCollection
+>
+mScripts
+;
 nsRefPtr
 <
 nsContentList
