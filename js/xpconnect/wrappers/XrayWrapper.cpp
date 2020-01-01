@@ -7947,6 +7947,12 @@ wrapper
 )
 )
 {
+nsDependentJSString
+name
+(
+id
+)
+;
 nsCOMPtr
 <
 nsIDOMWindow
@@ -7958,7 +7964,7 @@ win
 >
 GetChildWindow
 (
-id
+name
 )
 ;
 if

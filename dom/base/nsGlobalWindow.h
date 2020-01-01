@@ -1645,7 +1645,9 @@ nsIDOMWindow
 >
 GetChildWindow
 (
-jsid
+const
+nsAString
+&
 aName
 )
 ;
