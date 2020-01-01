@@ -231,7 +231,7 @@ FLING_STOPPED_THRESHOLD
 .
 1f
 ;
-private
+public
 static
 final
 float
