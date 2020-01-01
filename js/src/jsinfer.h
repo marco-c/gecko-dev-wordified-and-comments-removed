@@ -2961,6 +2961,12 @@ unsigned
 i
 )
 ;
+inline
+int
+getTypedArrayType
+(
+)
+;
 bool
 addProperty
 (

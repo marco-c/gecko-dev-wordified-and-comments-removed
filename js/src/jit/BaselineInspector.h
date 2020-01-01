@@ -136,6 +136,12 @@ sawDenseWrite
 )
 const
 ;
+bool
+sawTypedArrayWrite
+(
+)
+const
+;
 }
 ;
 class

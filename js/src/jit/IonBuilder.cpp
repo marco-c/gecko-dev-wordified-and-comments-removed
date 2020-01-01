@@ -36215,6 +36215,14 @@ icInspect
 sawDenseWrite
 (
 )
+&
+&
+!
+icInspect
+.
+sawTypedArrayWrite
+(
+)
 )
 return
 true
