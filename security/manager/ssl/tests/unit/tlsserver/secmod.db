@@ -22,7 +22,7 @@ tests
 /
 unit
 /
-test_ocsp_stapling
+tlsserver
 '
 certPrefix
 =
