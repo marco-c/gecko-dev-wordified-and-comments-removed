@@ -263,12 +263,6 @@ aScriptObject
 JSObject
 *
 aScopeObject
-nsAString
-*
-aRetValue
-bool
-*
-aIsUndefined
 )
 =
 0

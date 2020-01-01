@@ -235,12 +235,6 @@ aScriptObject
 JSObject
 *
 aScopeObject
-nsAString
-*
-aRetValue
-bool
-*
-aIsUndefined
 )
 ;
 virtual
