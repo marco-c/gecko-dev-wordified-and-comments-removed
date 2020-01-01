@@ -327,8 +327,6 @@ actual
 timejit
 <
 timenonjit
-/
-4
 ;
 reportCompare
 (
