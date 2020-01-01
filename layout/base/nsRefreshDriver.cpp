@@ -428,6 +428,7 @@ this
 >
 EnsureTimerStarted
 (
+false
 )
 ;
 return
@@ -455,6 +456,7 @@ this
 >
 EnsureTimerStarted
 (
+false
 )
 ;
 return
@@ -498,6 +500,7 @@ nsnull
 ;
 EnsureTimerStarted
 (
+false
 )
 ;
 return
@@ -541,6 +544,8 @@ nsRefreshDriver
 :
 EnsureTimerStarted
 (
+bool
+aAdjustingTimer
 )
 {
 if
@@ -558,10 +563,17 @@ mPresContext
 return
 ;
 }
+if
+(
+!
+aAdjustingTimer
+)
+{
 UpdateMostRecentRefresh
 (
 )
 ;
+}
 mTimer
 =
 do_CreateInstance
@@ -1491,6 +1503,7 @@ StopTimer
 ;
 EnsureTimerStarted
 (
+true
 )
 ;
 }
@@ -1579,6 +1592,7 @@ DoRefresh
 ;
 EnsureTimerStarted
 (
+false
 )
 ;
 }
@@ -1616,6 +1630,7 @@ StopTimer
 ;
 EnsureTimerStarted
 (
+true
 )
 ;
 }
@@ -1738,6 +1753,7 @@ nsnull
 ;
 EnsureTimerStarted
 (
+false
 )
 ;
 return
@@ -1790,6 +1806,7 @@ aDocument
 ;
 EnsureTimerStarted
 (
+false
 )
 ;
 }
