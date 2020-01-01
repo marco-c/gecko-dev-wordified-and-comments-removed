@@ -70,7 +70,7 @@ aFound
 ;
 already_AddRefed
 <
-nsIHanderInfo
+nsIHandlerInfo
 >
 GetProtocolInfoFromOS
 (
