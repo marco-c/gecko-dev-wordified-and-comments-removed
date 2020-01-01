@@ -650,11 +650,15 @@ InfoType
 aObserver
 )
 {
-MOZ_ASSERT
+if
 (
+!
 mObservers
 )
+{
+return
 ;
+}
 mObservers
 -
 >
