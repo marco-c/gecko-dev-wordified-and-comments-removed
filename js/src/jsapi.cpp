@@ -1814,6 +1814,9 @@ W
 str
 =
 ToString
+<
+CanGC
+>
 (
 cx
 *
@@ -2179,6 +2182,9 @@ JSTYPE_STRING
 str
 =
 ToString
+<
+CanGC
+>
 (
 cx
 value
@@ -2496,6 +2502,9 @@ value
 ;
 return
 ToString
+<
+CanGC
+>
 (
 cx
 value
@@ -14703,6 +14712,9 @@ if
 (
 !
 ValueToId
+<
+CanGC
+>
 (
 cx
 value
@@ -31003,7 +31015,10 @@ right
 )
 ;
 return
-js_ConcatStrings
+ConcatStrings
+<
+CanGC
+>
 (
 cx
 lstr

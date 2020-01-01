@@ -5199,6 +5199,9 @@ UnrootedString
 str
 =
 ToString
+<
+CanGC
+>
 (
 cx
 args
@@ -13977,6 +13980,9 @@ fmt
 (
 cx
 ToString
+<
+CanGC
+>
 (
 cx
 args

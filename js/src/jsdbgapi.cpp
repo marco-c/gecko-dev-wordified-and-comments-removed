@@ -1633,6 +1633,9 @@ if
 (
 !
 ValueToId
+<
+CanGC
+>
 (
 cx
 IdToValue
@@ -2648,13 +2651,12 @@ rootedFun
 ;
 script
 =
-JSFunction
-:
-:
+rootedFun
+-
+>
 getOrCreateScript
 (
 cx
-rootedFun
 )
 ;
 if
@@ -5869,6 +5871,9 @@ JSString
 str
 =
 ToString
+<
+CanGC
+>
 (
 cx
 v
@@ -6885,6 +6890,9 @@ thisValStr
 (
 cx
 ToString
+<
+CanGC
+>
 (
 cx
 thisVal

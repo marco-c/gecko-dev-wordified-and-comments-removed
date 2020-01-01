@@ -847,7 +847,8 @@ chunkIndex
 )
 ;
 inline
-UnrootedScript
+JSScript
+*
 script
 (
 )
@@ -3168,7 +3169,8 @@ CanMethodJIT
 JSContext
 *
 cx
-HandleScript
+JSScript
+*
 script
 jsbytecode
 *
@@ -3787,7 +3789,8 @@ pc
 ;
 }
 inline
-UnrootedScript
+JSScript
+*
 VMFrame
 :
 :
@@ -3795,9 +3798,6 @@ script
 (
 )
 {
-AutoAssertNoGC
-nogc
-;
 if
 (
 regs

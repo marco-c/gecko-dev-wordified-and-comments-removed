@@ -377,6 +377,9 @@ if
 (
 !
 ValueToId
+<
+CanGC
+>
 (
 cx
 v
@@ -15960,6 +15963,9 @@ offsets
 |
 !
 ValueToId
+<
+CanGC
+>
 (
 cx
 NumberValue
@@ -22272,6 +22278,9 @@ if
 (
 !
 ValueToId
+<
+CanGC
+>
 (
 cx
 argc
@@ -22880,6 +22889,9 @@ if
 (
 !
 ValueToId
+<
+CanGC
+>
 (
 cx
 args

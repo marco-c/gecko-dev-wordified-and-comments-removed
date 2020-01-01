@@ -1358,6 +1358,9 @@ JSString
 str
 =
 ToString
+<
+CanGC
+>
 (
 cx
 sourceValue
@@ -1414,6 +1417,9 @@ JSString
 flagStr
 =
 ToString
+<
+CanGC
+>
 (
 cx
 args
@@ -3186,6 +3192,9 @@ string
 (
 cx
 ToString
+<
+CanGC
+>
 (
 cx
 (
@@ -3278,6 +3287,9 @@ string
 (
 cx
 ToString
+<
+CanGC
+>
 (
 cx
 (

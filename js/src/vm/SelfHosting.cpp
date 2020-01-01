@@ -463,6 +463,9 @@ JSString
 str
 =
 ToString
+<
+CanGC
+>
 (
 cx
 val
@@ -511,6 +514,9 @@ JS_EncodeString
 (
 cx
 ToString
+<
+CanGC
+>
 (
 cx
 val
@@ -641,6 +647,9 @@ JSString
 str
 =
 ToString
+<
+CanGC
+>
 (
 cx
 args

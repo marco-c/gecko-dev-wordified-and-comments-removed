@@ -1580,6 +1580,9 @@ id
 )
 return
 ValueToId
+<
+CanGC
+>
 (
 cx
 Int32Value

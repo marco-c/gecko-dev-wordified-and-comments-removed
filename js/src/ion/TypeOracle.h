@@ -1031,7 +1031,8 @@ init
 JSContext
 *
 cx
-HandleScript
+JSScript
+*
 script
 )
 ;

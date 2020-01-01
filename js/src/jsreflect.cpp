@@ -18448,6 +18448,9 @@ src
 (
 cx
 ToString
+<
+CanGC
+>
 (
 cx
 JS_ARGV
@@ -18691,6 +18694,9 @@ str
 (
 cx
 ToString
+<
+CanGC
+>
 (
 cx
 prop

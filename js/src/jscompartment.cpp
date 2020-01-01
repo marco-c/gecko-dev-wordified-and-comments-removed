@@ -2270,6 +2270,9 @@ if
 (
 !
 ValueToId
+<
+CanGC
+>
 (
 cx
 value

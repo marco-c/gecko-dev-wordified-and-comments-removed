@@ -184,13 +184,12 @@ isInterpretedLazy
 &
 &
 !
-JSFunction
-:
-:
+fun
+-
+>
 getOrCreateScript
 (
 cx
-fun
 )
 )
 return

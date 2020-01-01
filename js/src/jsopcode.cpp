@@ -9138,6 +9138,9 @@ else
 str
 =
 ToString
+<
+CanGC
+>
 (
 cx
 key

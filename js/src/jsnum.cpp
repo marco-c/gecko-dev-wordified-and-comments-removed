@@ -1385,6 +1385,9 @@ JS_TRUE
 str
 =
 ToString
+<
+CanGC
+>
 (
 cx
 vp
@@ -2064,6 +2067,9 @@ inputString
 (
 cx
 ToString
+<
+CanGC
+>
 (
 cx
 args

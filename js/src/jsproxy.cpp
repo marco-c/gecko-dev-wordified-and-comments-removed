@@ -3381,6 +3381,9 @@ JSString
 str
 =
 ToString
+<
+CanGC
+>
 (
 cx
 IdToValue
@@ -3449,6 +3452,9 @@ JSString
 str
 =
 ToString
+<
+CanGC
+>
 (
 cx
 IdToValue
@@ -3840,6 +3846,9 @@ if
 (
 !
 ValueToId
+<
+CanGC
+>
 (
 cx
 v
@@ -5175,6 +5184,9 @@ JSString
 str
 =
 ToString
+<
+CanGC
+>
 (
 cx
 IdToValue
@@ -5341,6 +5353,9 @@ JSString
 str
 =
 ToString
+<
+CanGC
+>
 (
 cx
 IdToValue
@@ -7329,6 +7344,9 @@ JSString
 name
 =
 ToString
+<
+CanGC
+>
 (
 cx
 IdToValue
@@ -8374,6 +8392,9 @@ if
 (
 !
 ValueToId
+<
+CanGC
+>
 (
 cx
 v

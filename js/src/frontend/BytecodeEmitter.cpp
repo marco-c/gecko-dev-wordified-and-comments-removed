@@ -18463,6 +18463,9 @@ if
 (
 !
 InternNonIntElementId
+<
+CanGC
+>
 (
 cx
 obj

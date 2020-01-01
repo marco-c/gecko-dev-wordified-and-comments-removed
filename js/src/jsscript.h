@@ -1938,7 +1938,6 @@ JSContext
 cx
 )
 ;
-static
 inline
 bool
 ensureRanAnalysis
@@ -1946,14 +1945,8 @@ ensureRanAnalysis
 JSContext
 *
 cx
-JS
-:
-:
-HandleScript
-script
 )
 ;
-static
 inline
 bool
 ensureRanInference
@@ -1961,11 +1954,6 @@ ensureRanInference
 JSContext
 *
 cx
-JS
-:
-:
-HandleScript
-script
 )
 ;
 inline
