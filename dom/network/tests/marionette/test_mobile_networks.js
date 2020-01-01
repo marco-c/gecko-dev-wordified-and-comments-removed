@@ -87,7 +87,9 @@ is
 network
 .
 mcc
+"
 310
+"
 )
 ;
 is
@@ -95,7 +97,9 @@ is
 network
 .
 mnc
+"
 260
+"
 )
 ;
 }
@@ -130,7 +134,9 @@ is
 network
 .
 mcc
+"
 310
+"
 )
 ;
 is
@@ -138,7 +144,9 @@ is
 network
 .
 mnc
+"
 295
+"
 )
 ;
 }
@@ -200,7 +208,9 @@ is
 voice
 .
 lastKnownMcc
+"
 310
+"
 )
 ;
 let
@@ -248,7 +258,7 @@ is
 data
 .
 lastKnownMcc
-0
+null
 )
 ;
 testGetNetworks
