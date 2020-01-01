@@ -440,6 +440,7 @@ Create
 cx
 NULL
 NULL
+false
 true
 JSVERSION_DEFAULT
 )

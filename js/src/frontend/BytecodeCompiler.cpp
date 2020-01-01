@@ -550,6 +550,7 @@ Create
 cx
 principals
 originPrincipals
+compileAndGo
 noScriptRval
 version
 )
@@ -1265,6 +1266,7 @@ Create
 cx
 principals
 originPrincipals
+false
 false
 version
 )

@@ -151,12 +151,16 @@ foldConstants
 :
 1
 ;
+private
+:
 const
 bool
 compileAndGo
 :
 1
 ;
+public
+:
 Parser
 (
 JSContext

@@ -1511,6 +1511,8 @@ JSPrincipals
 *
 originPrincipals
 bool
+compileAndGo
+bool
 noScriptRval
 JSVersion
 version
