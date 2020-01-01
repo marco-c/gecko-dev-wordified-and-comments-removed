@@ -341,7 +341,9 @@ mk
 .
 create_rule
 (
+[
 target
+]
 )
     
 rule
