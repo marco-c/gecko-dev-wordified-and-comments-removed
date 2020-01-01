@@ -88,7 +88,9 @@ browser
 .
 messageManager
 "
-MozScrolledAreaChanged
+Browser
+:
+FirstPaint
 "
 gCurrentTest
 .
