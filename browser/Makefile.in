@@ -420,8 +420,6 @@ base
 \
 components
 \
-devtools
-\
 fuel
 \
 locales
@@ -433,6 +431,8 @@ NULL
 )
 DIRS
 =
+\
+devtools
 \
 app
 \
