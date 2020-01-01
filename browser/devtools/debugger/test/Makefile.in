@@ -601,6 +601,12 @@ line
 .
 js
 \
+browser_dbg_clean
+-
+exit
+.
+js
+\
 head
 .
 js
