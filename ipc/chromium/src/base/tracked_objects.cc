@@ -1784,7 +1784,7 @@ return
 false
 ;
 #
-endif
+else
 if
 (
 !
@@ -1850,6 +1850,8 @@ ACTIVE
 return
 true
 ;
+#
+endif
 }
 bool
 ThreadData
