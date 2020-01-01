@@ -11026,7 +11026,7 @@ SkipZoneForGC
 js
 :
 :
-GetObjectCompartment
+GetObjectZone
 (
 global
 )
