@@ -96,6 +96,15 @@ Ci
 nsILoginInfo
 ]
 )
+get
+wrappedJSObject
+(
+)
+{
+return
+this
+;
+}
 hostname
 :
 null
