@@ -755,6 +755,9 @@ nsIFrame
 *
 mResolvedChild
 ;
+#
+ifdef
+ACCESSIBILITY
 const
 DesiredA11yNotifications
 mDesiredA11yNotifications
@@ -776,6 +779,8 @@ mVisibleKidsOfHiddenElement
 bool
 mWasFrameVisible
 ;
+#
+endif
 }
 ;
 }

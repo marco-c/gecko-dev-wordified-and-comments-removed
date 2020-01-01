@@ -8370,6 +8370,9 @@ mResolvedChild
 (
 nullptr
 )
+#
+ifdef
+ACCESSIBILITY
 mDesiredA11yNotifications
 (
 eSendAllNotifications
@@ -8386,6 +8389,8 @@ mVisibleKidsOfHiddenElement
 (
 aVisibleKidsOfHiddenElement
 )
+#
+endif
 {
 }
 ElementRestyler
@@ -8488,6 +8493,9 @@ mResolvedChild
 (
 nullptr
 )
+#
+ifdef
+ACCESSIBILITY
 mDesiredA11yNotifications
 (
 aParentRestyler
@@ -8508,6 +8516,8 @@ aParentRestyler
 .
 mVisibleKidsOfHiddenElement
 )
+#
+endif
 {
 if
 (
@@ -8623,6 +8633,9 @@ mResolvedChild
 (
 nullptr
 )
+#
+ifdef
+ACCESSIBILITY
 mDesiredA11yNotifications
 (
 aParentRestyler
@@ -8643,6 +8656,8 @@ aParentRestyler
 .
 mVisibleKidsOfHiddenElement
 )
+#
+endif
 {
 }
 void
