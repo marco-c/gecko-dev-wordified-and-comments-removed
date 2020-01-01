@@ -80,7 +80,7 @@ PRInt32
 aIndex
 )
 ;
-PRInt32
+void
 SetRootFileForType
 (
 const
