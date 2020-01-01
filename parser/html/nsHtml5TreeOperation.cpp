@@ -463,7 +463,7 @@ const
 PRUnichar
 *
 aBuffer
-PRInt32
+PRUint32
 aLength
 nsIContent
 *
@@ -585,7 +585,7 @@ const
 PRUnichar
 *
 aBuffer
-PRInt32
+PRUint32
 aLength
 nsIContent
 *
@@ -2521,7 +2521,7 @@ mTwo
 .
 unicharPtr
 ;
-PRInt32
+PRUint32
 length
 =
 mInt
@@ -2636,7 +2636,7 @@ mTwo
 .
 unicharPtr
 ;
-PRInt32
+PRUint32
 length
 =
 mInt

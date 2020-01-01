@@ -1347,7 +1347,7 @@ const
 PRUnichar
 *
 aBuffer
-PRInt32
+PRUint32
 aLength
 nsIContent
 *
@@ -1364,7 +1364,7 @@ const
 PRUnichar
 *
 aBuffer
-PRInt32
+PRUint32
 aLength
 nsIContent
 *
