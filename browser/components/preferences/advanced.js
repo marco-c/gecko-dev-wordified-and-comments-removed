@@ -919,9 +919,9 @@ getElementById
 "
 layers
 .
-accelerate
--
-none
+acceleration
+.
+disabled
 "
 )
 ;
