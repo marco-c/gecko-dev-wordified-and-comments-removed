@@ -1494,10 +1494,13 @@ sp
 =
 stackbase
 =
+Jsvalify
+(
 args
 .
 getvp
 (
+)
 )
 ;
 *
