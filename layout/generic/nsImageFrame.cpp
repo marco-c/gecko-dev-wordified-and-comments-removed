@@ -8721,6 +8721,11 @@ GetPrefBranch
 (
 )
 ;
+if
+(
+prefBranch
+)
+{
 for
 (
 PRUint32
@@ -8752,6 +8757,7 @@ this
 PR_FALSE
 )
 ;
+}
 GetPrefs
 (
 )
