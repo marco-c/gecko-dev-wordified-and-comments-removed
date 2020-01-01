@@ -522,6 +522,9 @@ false
 ;
 #
 endif
+struct
+Clip
+;
 void
 AddLayerDisplayItem
 (
@@ -531,6 +534,10 @@ aLayer
 nsDisplayItem
 *
 aItem
+const
+Clip
+&
+aClip
 LayerState
 aLayerState
 const
@@ -543,9 +550,6 @@ aManager
 =
 nullptr
 )
-;
-struct
-Clip
 ;
 void
 AddThebesDisplayItem
@@ -677,6 +681,12 @@ nsDisplayItemGeometry
 *
 *
 aOldGeometry
+=
+nullptr
+Clip
+*
+*
+aOldClip
 =
 nullptr
 )
@@ -1200,6 +1210,9 @@ nsAutoPtr
 nsDisplayItemGeometry
 >
 mGeometry
+;
+Clip
+mClip
 ;
 uint32_t
 mDisplayItemKey
