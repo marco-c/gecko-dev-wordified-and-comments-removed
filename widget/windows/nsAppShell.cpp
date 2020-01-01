@@ -1001,7 +1001,7 @@ Run
 )
 ;
 #
-ifdef
+if
 MOZ_WINSDK_TARGETVER
 >
 =
