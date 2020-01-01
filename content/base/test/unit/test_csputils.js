@@ -1070,6 +1070,7 @@ a
 .
 com
 "
+undefined
 "
 http
 :
@@ -1096,6 +1097,7 @@ c
 .
 com
 "
+undefined
 "
 https
 :
@@ -1122,6 +1124,7 @@ a
 .
 com
 "
+undefined
 "
 http
 :
@@ -1150,6 +1153,7 @@ a
 .
 com
 "
+undefined
 "
 http
 :
@@ -1178,6 +1182,7 @@ c
 .
 com
 "
+undefined
 "
 http
 :
@@ -1204,6 +1209,7 @@ com
 :
 23
 "
+undefined
 "
 http
 :
@@ -1232,6 +1238,7 @@ a
 .
 com
 "
+undefined
 "
 http
 :
@@ -1262,6 +1269,7 @@ com
 :
 200
 "
+undefined
 "
 http
 :
@@ -1351,6 +1359,7 @@ a
 .
 com
 "
+undefined
 "
 https
 :
@@ -1435,6 +1444,7 @@ a
 .
 com
 "
+undefined
 "
 https
 :
@@ -1515,6 +1525,7 @@ create
 self
 '
 "
+undefined
 "
 https
 :
@@ -1612,6 +1623,7 @@ create
 javascript
 :
 "
+undefined
 "
 https
 :
@@ -1893,6 +1905,7 @@ CSPSourceList
 fromString
 (
 str
+undefined
 URI
 (
 "
@@ -1971,6 +1984,7 @@ a
 .
 com
 "
+undefined
 URI
 (
 "
@@ -2010,6 +2024,7 @@ com
 :
 88
 "
+undefined
 URI
 (
 "
@@ -5358,6 +5373,7 @@ a
 .
 com
 "
+undefined
 "
 https
 :
@@ -5442,6 +5458,7 @@ a
 .
 com
 "
+undefined
 "
 https
 :
@@ -5522,6 +5539,7 @@ create
 self
 '
 "
+undefined
 "
 https
 :
@@ -5653,6 +5671,7 @@ fromString
 none
 '
 "
+undefined
 "
 http
 :
@@ -5675,6 +5694,7 @@ fromString
 "
 *
 "
+undefined
 "
 http
 :
@@ -5699,6 +5719,7 @@ bar
 .
 com
 "
+undefined
 "
 http
 :
