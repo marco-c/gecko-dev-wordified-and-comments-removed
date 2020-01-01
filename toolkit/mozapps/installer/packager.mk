@@ -3493,9 +3493,6 @@ RUN_TEST_PROGRAM
 endif
 ifdef
 LIBXUL_SDK
-PRECOMPILE_DIR
-=
-XCurProcD
 PRECOMPILE_RESOURCE
 =
 app
@@ -3507,9 +3504,6 @@ LIBXUL_DIST
 /
 bin
 else
-PRECOMPILE_DIR
-=
-GreD
 PRECOMPILE_RESOURCE
 =
 gre
@@ -3588,16 +3582,6 @@ e
 "
 populate_startupcache
 (
-'
-(
-PRECOMPILE_DIR
-)
-'
-'
-(
-OMNIJAR_NAME
-)
-'
 '
 startupCache
 .
