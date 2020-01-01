@@ -16192,7 +16192,9 @@ serif
 he
 "
 "
-Raanana
+Times
+New
+Roman
 "
 )
 ;
@@ -16211,7 +16213,6 @@ he
 "
 "
 Arial
-Hebrew
 "
 )
 ;
@@ -16227,8 +16228,8 @@ monospace
 he
 "
 "
-Arial
-Hebrew
+Courier
+New
 "
 )
 ;
@@ -16244,8 +16245,9 @@ cursive
 he
 "
 "
-Corsiva
-Hebrew
+Times
+New
+Roman
 "
 )
 ;
@@ -16261,8 +16263,9 @@ fantasy
 he
 "
 "
-Corsiva
-Hebrew
+Times
+New
+Roman
 "
 )
 ;
@@ -16280,7 +16283,9 @@ serif
 he
 "
 "
-Raanana
+Times
+New
+Roman
 "
 )
 ;
@@ -16301,7 +16306,6 @@ he
 "
 "
 Arial
-Hebrew
 "
 )
 ;
@@ -16319,8 +16323,8 @@ monospace
 he
 "
 "
-Arial
-Hebrew
+Courier
+New
 "
 )
 ;
@@ -16338,8 +16342,9 @@ cursive
 he
 "
 "
-Corsiva
-Hebrew
+Times
+New
+Roman
 "
 )
 ;
@@ -16357,8 +16362,9 @@ fantasy
 he
 "
 "
-Corsiva
-Hebrew
+Times
+New
+Roman
 "
 )
 ;
