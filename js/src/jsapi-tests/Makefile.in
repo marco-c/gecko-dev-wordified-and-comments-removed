@@ -469,6 +469,10 @@ testGCChunkAlloc
 .
 cpp
 \
+testFuncCallback
+.
+cpp
+\
 testIntString
 .
 cpp
