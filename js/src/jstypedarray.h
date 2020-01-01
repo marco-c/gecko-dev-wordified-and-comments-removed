@@ -1628,8 +1628,7 @@ const
 CallArgs
 &
 args
-JSObject
-*
+HandleObject
 proto
 )
 ;

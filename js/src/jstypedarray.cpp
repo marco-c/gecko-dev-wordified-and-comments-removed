@@ -12906,8 +12906,7 @@ const
 CallArgs
 &
 args
-JSObject
-*
+HandleObject
 proto
 )
 {
@@ -13436,7 +13435,9 @@ construct
 cx
 bufobj
 args
-NULL
+NullPtr
+(
+)
 )
 ;
 }
