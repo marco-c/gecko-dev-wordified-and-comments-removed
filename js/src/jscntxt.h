@@ -2318,10 +2318,14 @@ tvr
 JS_PUSH_SINGLE_TEMP_ROOT
 (
 cx
+str
+?
 STRING_TO_JSVAL
 (
 str
 )
+:
+JSVAL_NULL
 tvr
 )
 #
