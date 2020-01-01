@@ -3660,11 +3660,9 @@ places
 ondblclick
 =
 "
-this
+PlacesOrganizer
 .
-controller
-.
-openSelectedNodeWithEvent
+onTreeDblClick
 (
 event
 )
