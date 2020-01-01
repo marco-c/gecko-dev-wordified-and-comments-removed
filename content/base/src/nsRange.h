@@ -220,16 +220,6 @@ aIndexInContainer
 ;
 virtual
 void
-NodeWillBeDestroyed
-(
-const
-nsINode
-*
-aNode
-)
-;
-virtual
-void
 ParentChainChanged
 (
 nsIContent
