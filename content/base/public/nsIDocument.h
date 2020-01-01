@@ -2343,6 +2343,15 @@ return
 mEventsSuppressed
 ;
 }
+virtual
+void
+PreLoadImage
+(
+nsIURI
+*
+uri
+)
+;
 protected
 :
 ~
