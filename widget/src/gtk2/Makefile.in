@@ -539,10 +539,6 @@ nsBidiKeyboard
 .
 cpp
 \
-nsCommonWidget
-.
-cpp
-\
 nsLookAndFeel
 .
 cpp
