@@ -270,6 +270,16 @@ if
 Keys
 .
 meta
+&
+&
+!
+this
+.
+item
+.
+overlapsWithOtherItems
+(
+)
 )
 {
 newRect
