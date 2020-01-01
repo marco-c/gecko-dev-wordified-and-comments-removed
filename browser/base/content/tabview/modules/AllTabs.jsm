@@ -246,6 +246,12 @@ open
 "
 select
 "
+"
+pinned
+"
+"
+unpinned
+"
 ]
 ;
 let

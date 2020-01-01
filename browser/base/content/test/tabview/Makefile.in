@@ -440,6 +440,10 @@ mk
 _BROWSER_FILES
 =
 \
+browser_tabview_alltabs
+.
+js
+\
 browser_tabview_apptabs
 .
 js
