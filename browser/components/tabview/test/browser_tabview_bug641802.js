@@ -17,12 +17,6 @@ gBrowser
 .
 selectedTab
 ;
-document
-.
-popupNode
-=
-tab
-;
 contextMenu
 .
 openPopup
@@ -35,6 +29,11 @@ end_after
 0
 true
 false
+{
+target
+:
+tab
+}
 )
 ;
 tvMenuPopup

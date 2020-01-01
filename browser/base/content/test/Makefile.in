@@ -697,6 +697,10 @@ bug
 _BROWSER_FILES
 =
 \
+head
+.
+js
+\
 browser_typeAheadFind
 .
 js
@@ -910,10 +914,6 @@ browser_zbug569342
 js
 \
 browser_bug575561
-.
-js
-\
-browser_bug575830
 .
 js
 \

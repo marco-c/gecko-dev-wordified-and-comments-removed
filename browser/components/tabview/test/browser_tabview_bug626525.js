@@ -794,14 +794,6 @@ win
 .
 document
 .
-popupNode
-=
-tab
-;
-win
-.
-document
-.
 getElementById
 (
 "
@@ -819,6 +811,11 @@ end_after
 0
 true
 false
+{
+target
+:
+tab
+}
 )
 ;
 }
