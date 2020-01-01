@@ -1974,7 +1974,7 @@ rank
 =
 0
 )
-return
+continue
 ;
 /
 /
