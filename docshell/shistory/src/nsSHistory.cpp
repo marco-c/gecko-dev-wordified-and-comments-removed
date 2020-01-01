@@ -5971,6 +5971,11 @@ if
 canNavigate
 )
 {
+mRequestedIndex
+=
+-
+1
+;
 return
 NS_OK
 ;
