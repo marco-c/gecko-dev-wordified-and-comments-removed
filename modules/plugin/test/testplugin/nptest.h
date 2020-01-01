@@ -289,5 +289,15 @@ InstanceData
 instanceData
 )
 ;
+void
+NoteIntentionalCrash
+(
+)
+;
+void
+IntentionalCrash
+(
+)
+;
 #
 endif
