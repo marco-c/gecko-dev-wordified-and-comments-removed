@@ -777,7 +777,7 @@ preference
 .
 value
 /
-1000
+1024
 ;
 }
 writeCacheSize
@@ -819,7 +819,7 @@ intValue
 :
 intValue
 *
-1000
+1024
 ;
 }
 clearCache
