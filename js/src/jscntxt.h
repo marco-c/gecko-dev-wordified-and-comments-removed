@@ -953,6 +953,10 @@ volatile
 JSBool
 gcIsNeeded
 ;
+volatile
+JSBool
+gcFlushCodeCaches
+;
 JSPackedBool
 gcPoke
 ;
