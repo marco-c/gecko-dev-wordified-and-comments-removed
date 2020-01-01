@@ -2165,6 +2165,10 @@ profile
 file
 =
 (
+DIST
+)
+/
+(
 TESTS_PATH
 )
 /
