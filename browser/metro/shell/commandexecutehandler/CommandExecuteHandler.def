@@ -1,0 +1,9 @@
+LIBRARY
+CommandExecuteHandler
+.
+dll
+EXPORTS
+DllCanUnloadNow
+PRIVATE
+DllGetClassObject
+PRIVATE
