@@ -8235,7 +8235,7 @@ OOM
 ;
 #
 endif
-DO
+BYTES
 (
 mkPath
 (
@@ -8282,7 +8282,7 @@ types
 "
 )
 ;
-DO
+BYTES
 (
 mkPath
 (
@@ -8329,7 +8329,7 @@ scripts
 "
 )
 ;
-DO
+BYTES
 (
 mkPath
 (
@@ -8376,7 +8376,7 @@ objects
 "
 )
 ;
-DO
+BYTES
 (
 mkPath
 (
@@ -8423,7 +8423,7 @@ objects
 "
 )
 ;
-DO
+BYTES
 (
 mkPath
 (
