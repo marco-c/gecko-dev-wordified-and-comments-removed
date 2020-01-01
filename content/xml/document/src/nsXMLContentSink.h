@@ -237,6 +237,12 @@ IsScriptExecuting
 (
 )
 ;
+virtual
+void
+ContinueInterruptedParsingAsync
+(
+)
+;
 NS_IMETHOD
 OnDocumentCreated
 (
@@ -291,6 +297,11 @@ aIsAlternate
 ;
 protected
 :
+void
+ContinueInterruptedParsingIfEnabled
+(
+)
+;
 virtual
 void
 MaybeStartLayout
