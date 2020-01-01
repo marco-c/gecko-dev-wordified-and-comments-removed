@@ -565,6 +565,10 @@ nanojit
 :
 LOpcode
 op
+bool
+ov
+=
+false
 )
 ;
 bool
