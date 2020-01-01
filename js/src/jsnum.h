@@ -16,7 +16,7 @@ h
 #
 include
 "
-jscntxt
+jsapi
 .
 h
 "
@@ -40,6 +40,9 @@ js_NegativeInfinity
 namespace
 js
 {
+class
+StringBuffer
+;
 extern
 bool
 InitRuntimeNumberState

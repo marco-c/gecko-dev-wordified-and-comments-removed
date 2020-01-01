@@ -8,13 +8,6 @@ PerfSpewer
 h
 "
 #
-include
-<
-stdarg
-.
-h
->
-#
 if
 defined
 (

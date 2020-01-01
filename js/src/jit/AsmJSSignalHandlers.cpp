@@ -10,13 +10,6 @@ h
 #
 include
 "
-jscntxt
-.
-h
-"
-#
-include
-"
 assembler
 /
 assembler

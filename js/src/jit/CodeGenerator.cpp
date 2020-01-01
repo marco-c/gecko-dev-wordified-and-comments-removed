@@ -10,6 +10,13 @@ h
 #
 include
 "
+jslibmath
+.
+h
+"
+#
+include
+"
 mozilla
 /
 Assertions

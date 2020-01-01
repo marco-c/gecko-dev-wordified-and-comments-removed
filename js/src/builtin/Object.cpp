@@ -26,13 +26,6 @@ h
 #
 include
 "
-jsobj
-.
-h
-"
-#
-include
-"
 frontend
 /
 BytecodeCompiler

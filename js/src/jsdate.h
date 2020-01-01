@@ -7,13 +7,6 @@ jsdate_h
 #
 include
 "
-jsapi
-.
-h
-"
-#
-include
-"
 jstypes
 .
 h
@@ -23,7 +16,7 @@ include
 "
 js
 /
-Date
+RootingAPI
 .
 h
 "
@@ -39,6 +32,13 @@ struct
 JSContext
 ;
 }
+namespace
+JS
+{
+class
+Value
+;
+}
 extern
 JSObject
 *
@@ -47,7 +47,7 @@ js_InitDateClass
 JSContext
 *
 cx
-js
+JS
 :
 :
 HandleObject
@@ -189,7 +189,7 @@ JSContext
 cx
 unsigned
 argc
-js
+JS
 :
 :
 Value

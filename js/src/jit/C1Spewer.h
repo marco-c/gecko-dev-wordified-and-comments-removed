@@ -10,7 +10,7 @@ DEBUG
 #
 include
 "
-jsscript
+jsapi
 .
 h
 "

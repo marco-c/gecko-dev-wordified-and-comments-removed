@@ -4,13 +4,6 @@ jscrashformat_h
 #
 define
 jscrashformat_h
-#
-include
-<
-string
-.
-h
->
 namespace
 js
 {

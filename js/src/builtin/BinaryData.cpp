@@ -10,15 +10,6 @@ h
 #
 include
 "
-mozilla
-/
-FloatingPoint
-.
-h
-"
-#
-include
-"
 jscompartment
 .
 h

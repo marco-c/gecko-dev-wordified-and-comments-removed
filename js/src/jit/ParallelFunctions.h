@@ -22,15 +22,6 @@ ForkJoin
 .
 h
 "
-#
-include
-"
-vm
-/
-ThreadPool
-.
-h
-"
 namespace
 js
 {

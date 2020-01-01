@@ -7,13 +7,6 @@ yarr_YarrInterpreter_h
 #
 include
 "
-jscntxt
-.
-h
-"
-#
-include
-"
 yarr
 /
 YarrPattern

@@ -23,16 +23,7 @@ h
 #
 include
 "
-jsnum
-.
-h
-"
-#
-include
-"
-vm
-/
-NumericConversions
+jsatom
 .
 h
 "

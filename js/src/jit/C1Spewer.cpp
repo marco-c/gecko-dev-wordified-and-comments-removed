@@ -13,13 +13,6 @@ h
 #
 include
 <
-stdarg
-.
-h
->
-#
-include
-<
 time
 .
 h

@@ -54,6 +54,15 @@ endif
 #
 include
 "
+vm
+/
+Probes
+.
+h
+"
+#
+include
+"
 jscntxtinlines
 .
 h

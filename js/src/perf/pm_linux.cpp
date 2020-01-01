@@ -49,13 +49,6 @@ h
 #
 include
 "
-jsutil
-.
-h
-"
-#
-include
-"
 perf
 /
 jsperf

@@ -13,6 +13,15 @@ HeapAPI
 .
 h
 "
+#
+include
+"
+js
+/
+RootingAPI
+.
+h
+"
 namespace
 JS
 {

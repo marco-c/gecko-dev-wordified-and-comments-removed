@@ -50,12 +50,17 @@ MCW_PC
 #
 endif
 #
+ifdef
+HAVE_LOCALECONV
+#
 include
 <
 locale
 .
 h
 >
+#
+endif
 #
 include
 <

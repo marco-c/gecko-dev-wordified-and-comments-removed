@@ -28,6 +28,13 @@ jstypes
 h
 "
 #
+include
+"
+jsversion
+.
+h
+"
+#
 if
 defined
 (

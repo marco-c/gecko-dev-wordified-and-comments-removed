@@ -16,13 +16,6 @@ h
 "
 #
 include
-<
-string
-.
-h
->
-#
-include
 "
 jsapi
 .
@@ -120,6 +113,13 @@ h
 include
 "
 jsboolinlines
+.
+h
+"
+#
+include
+"
+jsobjinlines
 .
 h
 "

@@ -5,13 +5,6 @@ jsprototypes_h
 define
 jsprototypes_h
 #
-include
-"
-jsversion
-.
-h
-"
-#
 define
 JS_FOR_EACH_PROTOTYPE
 (

@@ -9,6 +9,13 @@ h
 "
 #
 include
+<
+ctype
+.
+h
+>
+#
+include
 "
 jsprf
 .

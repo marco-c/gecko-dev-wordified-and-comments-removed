@@ -23,6 +23,13 @@ h
 #
 include
 "
+jsdbgapi
+.
+h
+"
+#
+include
+"
 jsfun
 .
 h

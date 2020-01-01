@@ -14,13 +14,6 @@ h
 #
 include
 "
-jsautooplen
-.
-h
-"
-#
-include
-"
 jsscript
 .
 h
