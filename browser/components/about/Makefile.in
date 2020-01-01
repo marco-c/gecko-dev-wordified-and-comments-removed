@@ -464,16 +464,6 @@ srcdir
 .
 /
 build
-ifdef
-MOZILLA_OFFICIAL
-DEFINES
-+
-=
--
-DOFFICIAL_BUILD
-=
-1
-endif
 include
 (
 topsrcdir
