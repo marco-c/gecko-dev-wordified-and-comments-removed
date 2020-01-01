@@ -9,9 +9,6 @@ include
 .
 .
 /
-.
-.
-/
 toolkit
 /
 themes
@@ -25,9 +22,6 @@ shared
 inc
 %
 include
-.
-.
-/
 .
 .
 /
