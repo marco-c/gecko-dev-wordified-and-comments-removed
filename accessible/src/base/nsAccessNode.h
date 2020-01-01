@@ -281,6 +281,17 @@ GetFrame
 (
 )
 ;
+nsIDOMNode
+*
+GetDOMNode
+(
+)
+const
+{
+return
+mDOMNode
+;
+}
 already_AddRefed
 <
 nsIPresShell
