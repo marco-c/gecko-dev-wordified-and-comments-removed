@@ -4146,10 +4146,17 @@ fromRaise
 (
 PR_FALSE
 )
+isRefocus
+(
+PR_FALSE
+)
 {
 }
 PRPackedBool
 fromRaise
+;
+PRPackedBool
+isRefocus
 ;
 }
 ;
