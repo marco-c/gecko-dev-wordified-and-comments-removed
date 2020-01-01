@@ -282,6 +282,8 @@ Intent
 intent
 )
 {
+mGeckoActivityOpened
+=
 checkIfGeckoActivity
 (
 intent
@@ -306,6 +308,8 @@ int
 request
 )
 {
+mGeckoActivityOpened
+=
 checkIfGeckoActivity
 (
 intent
@@ -321,7 +325,8 @@ request
 ;
 }
 private
-void
+static
+boolean
 checkIfGeckoActivity
 (
 Intent
@@ -339,9 +344,7 @@ activity
 the
 component
 and
-it
-'
-s
+its
 package
 name
 is
@@ -389,11 +392,7 @@ getComponent
 (
 )
 ;
-mGeckoActivityOpened
-=
-false
-;
-if
+return
 (
 component
 !
@@ -424,12 +423,7 @@ ANDROID_PACKAGE_NAME
 "
 )
 )
-{
-mGeckoActivityOpened
-=
-true
 ;
-}
 }
 Override
 public
