@@ -176,15 +176,6 @@ aMode
 )
 ;
 void
-SetupDualViewports
-(
-const
-gfxIntSize
-&
-aSize
-)
-;
-void
 FillTexturesBlackWhite
 (
 const
