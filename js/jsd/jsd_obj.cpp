@@ -338,9 +338,8 @@ cx
 JSObject
 *
 obj
-JSStackFrame
-*
-fp
+JSAbstractFramePtr
+frame
 )
 {
 JSDObject
@@ -396,10 +395,10 @@ ctorURL
 {
 script
 =
-JS_GetFrameScript
+frame
+.
+script
 (
-cx
-fp
 )
 ;
 if
@@ -442,7 +441,7 @@ jsd_FindOrCreateJSDScript
 jsdc
 cx
 script
-fp
+frame
 )
 ;
 JSD_UNLOCK_SCRIPTS

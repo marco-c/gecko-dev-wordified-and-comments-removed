@@ -113,7 +113,9 @@ jsd_FindOrCreateJSDScript
 jsdc
 cx
 script
-NULL
+JSNullFramePtr
+(
+)
 )
 ;
 JSD_UNLOCK_SCRIPTS
@@ -270,7 +272,9 @@ jsd_FindOrCreateJSDScript
 jsdc
 cx
 script
-NULL
+JSNullFramePtr
+(
+)
 )
 ;
 JSD_UNLOCK_SCRIPTS
@@ -406,7 +410,9 @@ jsd_FindOrCreateJSDScript
 jsdc
 cx
 script
-NULL
+JSNullFramePtr
+(
+)
 )
 ;
 JSD_UNLOCK_SCRIPTS

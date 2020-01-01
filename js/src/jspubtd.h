@@ -385,11 +385,6 @@ JSSecurityCallbacks
 ;
 typedef
 struct
-JSStackFrame
-JSStackFrame
-;
-typedef
-struct
 JSStructuredCloneCallbacks
 JSStructuredCloneCallbacks
 ;
