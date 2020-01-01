@@ -1854,6 +1854,10 @@ Ion
 .
 cpp
 \
+BitSet
+.
+cpp
+\
 (
 NULL
 )
