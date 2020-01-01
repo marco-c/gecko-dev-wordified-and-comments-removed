@@ -2199,16 +2199,9 @@ name
 interfacePrototype
 )
 )
-{
-xpc_UnmarkGrayObject
-(
-interfacePrototype
-)
-;
 return
 interfacePrototype
 ;
-}
 }
 else
 if

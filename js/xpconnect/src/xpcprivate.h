@@ -9462,12 +9462,6 @@ JSObject
 GetJSObject
 (
 )
-;
-JSObject
-*
-GetJSObjectPreserveColor
-(
-)
 const
 ;
 void

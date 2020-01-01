@@ -1082,14 +1082,6 @@ helper
 )
 ;
 }
-else
-{
-xpc_UnmarkGrayObject
-(
-mPrototypeNoHelper
-)
-;
-}
 return
 mPrototypeNoHelper
 ;
