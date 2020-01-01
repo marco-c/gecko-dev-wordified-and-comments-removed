@@ -113,9 +113,6 @@ char
 *
 profile
 ;
-PRTime
-startupTimestamp
-;
 }
 ;
 #
