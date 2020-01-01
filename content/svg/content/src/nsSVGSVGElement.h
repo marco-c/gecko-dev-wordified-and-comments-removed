@@ -606,16 +606,6 @@ aDoSetAttr
 ;
 virtual
 void
-DidChangeEnum
-(
-PRUint8
-aAttrEnum
-PRBool
-aDoSetAttr
-)
-;
-virtual
-void
 DidChangeViewBox
 (
 PRBool

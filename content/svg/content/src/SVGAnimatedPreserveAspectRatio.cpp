@@ -849,6 +849,14 @@ AnimationNeedsResample
 }
 #
 endif
+aSVGElement
+-
+>
+DidChangePreserveAspectRatio
+(
+aDoSetAttr
+)
+;
 return
 NS_OK
 ;
