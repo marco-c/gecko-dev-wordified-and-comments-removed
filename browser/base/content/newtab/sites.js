@@ -467,7 +467,7 @@ ifndef
 RELEASE_BUILD
 BackgroundPageThumbs
 .
-captureIfStale
+captureIfMissing
 (
 this
 .

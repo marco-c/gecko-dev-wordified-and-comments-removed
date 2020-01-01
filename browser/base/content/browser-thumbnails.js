@@ -388,7 +388,7 @@ aBrowser
 )
 PageThumbs
 .
-captureAndStore
+captureAndStoreIfStale
 (
 aBrowser
 )
