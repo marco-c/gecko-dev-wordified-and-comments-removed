@@ -501,6 +501,10 @@ DOMSVGTransform
 .
 cpp
 \
+DOMSVGTransformList
+.
+cpp
+\
 nsDOMSVGZoomEvent
 .
 cpp
@@ -733,10 +737,6 @@ nsSVGTitleElement
 .
 cpp
 \
-nsSVGTransformList
-.
-cpp
-\
 nsSVGTransformListParser
 .
 cpp
@@ -798,6 +798,10 @@ SVGPointList
 cpp
 \
 SVGTransform
+.
+cpp
+\
+SVGTransformList
 .
 cpp
 \
