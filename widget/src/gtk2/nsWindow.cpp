@@ -687,6 +687,13 @@ namespace
 mozilla
 ;
 using
+namespace
+mozilla
+:
+:
+widget
+;
+using
 mozilla
 :
 :
