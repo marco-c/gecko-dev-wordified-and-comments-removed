@@ -9213,7 +9213,7 @@ argc
 {
 if
 (
-JSVAL_IS_REGEXP
+VALUE_IS_REGEXP
 (
 cx
 argv
