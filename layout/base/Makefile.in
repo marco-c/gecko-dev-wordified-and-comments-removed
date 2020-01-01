@@ -151,6 +151,10 @@ nsDisplayItemTypes
 .
 h
 \
+nsDisplayItemTypesList
+.
+h
+\
 nsDisplayList
 .
 h
