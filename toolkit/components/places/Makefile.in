@@ -478,10 +478,6 @@ nsILivemarkService
 .
 idl
 \
-nsIMicrosummaryService
-.
-idl
-\
 nsINavBookmarksService
 .
 idl
@@ -696,10 +692,6 @@ nsTaggingService
 js
 \
 nsPlacesExpiration
-.
-js
-\
-nsMicrosummaryService
 .
 js
 \
