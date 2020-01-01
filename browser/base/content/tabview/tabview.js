@@ -423,11 +423,6 @@ trench
 js
 #
 include
-infoitems
-.
-js
-#
-include
 ui
 .
 js
