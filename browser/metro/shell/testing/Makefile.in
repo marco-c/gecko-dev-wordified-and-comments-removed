@@ -129,12 +129,6 @@ dist
 bin
 DIST_SUBDIR
 =
-PROGRAM
-=
-metrotestharness
-(
-BIN_SUFFIX
-)
 CPPSRCS
 =
 \

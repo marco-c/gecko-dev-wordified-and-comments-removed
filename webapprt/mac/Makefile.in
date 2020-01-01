@@ -112,14 +112,6 @@ nsinstall
 NSDISTMODE
 =
 copy
-PROGRAM
-=
-webapprt
--
-stub
-(
-BIN_SUFFIX
-)
 CMMSRCS
 =
 webapprt

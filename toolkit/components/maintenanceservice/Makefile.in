@@ -116,12 +116,6 @@ DEFINES
 =
 -
 DDISABLE_UPDATER_AUTHENTICODE_CHECK
-PROGRAM
-=
-maintenanceservice
-(
-BIN_SUFFIX
-)
 DIST_PROGRAM
 =
 maintenanceservice

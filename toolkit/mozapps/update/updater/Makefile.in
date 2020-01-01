@@ -127,12 +127,6 @@ cpp
 NULL
 )
 endif
-PROGRAM
-=
-updater
-(
-BIN_SUFFIX
-)
 #
 Don
 '

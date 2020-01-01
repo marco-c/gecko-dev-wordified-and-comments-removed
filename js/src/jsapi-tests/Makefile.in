@@ -86,14 +86,6 @@ config
 autoconf
 .
 mk
-PROGRAM
-=
-jsapi
--
-tests
-(
-BIN_SUFFIX
-)
 CPPSRCS
 =
 \
