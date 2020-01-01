@@ -242,6 +242,7 @@ window
 .
 if
 (
+!
 navigator
 .
 platform
@@ -249,7 +250,7 @@ platform
 startsWith
 (
 "
-Win
+Mac
 "
 )
 )
@@ -259,7 +260,7 @@ SimpleTest
 expectAssertions
 (
 0
-2
+5
 )
 ;
 }
