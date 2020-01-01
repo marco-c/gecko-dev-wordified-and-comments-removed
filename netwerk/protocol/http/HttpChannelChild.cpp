@@ -1316,6 +1316,12 @@ if
 (
 !
 mCanceled
+&
+&
+NS_SUCCEEDED
+(
+mStatus
+)
 )
 mStatus
 =
@@ -1335,7 +1341,7 @@ OnStopRequest
 (
 this
 mListenerContext
-statusCode
+mStatus
 )
 ;
 mListener
@@ -1361,7 +1367,7 @@ RemoveRequest
 (
 this
 nsnull
-statusCode
+mStatus
 )
 ;
 }
