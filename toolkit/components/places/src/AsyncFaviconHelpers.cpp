@@ -885,14 +885,6 @@ if
 (
 !
 canAddToHistory
-|
-|
-history
--
->
-IsHistoryDisabled
-(
-)
 )
 {
 mozIStorageStatement

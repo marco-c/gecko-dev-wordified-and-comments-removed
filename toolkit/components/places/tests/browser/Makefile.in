@@ -462,6 +462,14 @@ browser_visituri
 .
 js
 \
+browser_visituri_nohistory
+.
+js
+\
+browser_visituri_privatebrowsing
+.
+js
+\
 browser_settitle
 .
 js

@@ -11344,7 +11344,7 @@ canAdd
 ;
 if
 (
-InPrivateBrowsingMode
+IsHistoryDisabled
 (
 )
 )
@@ -24199,15 +24199,6 @@ NS_ENSURE_ARG
 (
 aURI
 )
-;
-if
-(
-IsHistoryDisabled
-(
-)
-)
-return
-NS_OK
 ;
 PRBool
 canAdd
