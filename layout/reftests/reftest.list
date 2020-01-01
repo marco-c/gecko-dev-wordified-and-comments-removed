@@ -752,15 +752,6 @@ inline
 -
 flex
 )
-#
-XXXdholbert
-Uncomment
-if
-MOZ_FLEXBOX
-is
-enabled
-:
-#
 include
 flexbox
 /
