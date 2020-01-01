@@ -761,7 +761,7 @@ rhsReg
 =
 frame
 .
-tempRegForConstant
+copyConstantIntoReg
 (
 rhs
 )
@@ -778,6 +778,13 @@ Assembler
 Overflow
 rhsReg
 reg
+)
+;
+frame
+.
+freeReg
+(
+rhsReg
 )
 ;
 }
