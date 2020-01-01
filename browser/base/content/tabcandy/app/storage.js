@@ -240,6 +240,8 @@ this
 ;
 Tabs
 .
+allTabs
+.
 forEach
 (
 function
