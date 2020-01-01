@@ -9986,16 +9986,6 @@ tt
 ;
 error
 :
-JS_ASSERT
-(
-cx
--
->
-isExceptionPending
-(
-)
-)
-;
 flags
 |
 =
