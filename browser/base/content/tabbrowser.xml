@@ -9870,6 +9870,10 @@ isWindowPrivate
 (
 window
 )
+&
+&
+!
+gMultiProcessBrowser
 )
 {
 docShellsSwapped
