@@ -245,6 +245,10 @@ test_peerConnection_bug835370
 .
 html
 \
+test_peerConnection_toJSON
+.
+html
+\
 head
 .
 js
