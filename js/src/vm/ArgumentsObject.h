@@ -7,6 +7,15 @@ vm_ArgumentsObject_h
 #
 include
 "
+mozilla
+/
+MemoryReporting
+.
+h
+"
+#
+include
+"
 jsfun
 .
 h
@@ -357,7 +366,10 @@ inline
 size_t
 sizeOfMisc
 (
-JSMallocSizeOfFun
+mozilla
+:
+:
+MallocSizeOf
 mallocSizeOf
 )
 const

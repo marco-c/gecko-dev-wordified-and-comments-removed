@@ -7,6 +7,15 @@ jsfriendapi_h
 #
 include
 "
+mozilla
+/
+MemoryReporting
+.
+h
+"
+#
+include
+"
 jsclass
 .
 h
@@ -1207,7 +1216,10 @@ size_t
 )
 SizeOfDataIfCDataObject
 (
-JSMallocSizeOfFun
+mozilla
+:
+:
+MallocSizeOf
 mallocSizeOf
 JSObject
 *

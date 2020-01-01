@@ -7,6 +7,15 @@ jsiter_h
 #
 include
 "
+mozilla
+/
+MemoryReporting
+.
+h
+"
+#
+include
+"
 jscntxt
 .
 h
@@ -445,7 +454,10 @@ ni
 size_t
 sizeOfMisc
 (
-JSMallocSizeOfFun
+mozilla
+:
+:
+MallocSizeOf
 mallocSizeOf
 )
 const

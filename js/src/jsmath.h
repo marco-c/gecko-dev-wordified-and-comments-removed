@@ -7,6 +7,15 @@ jsmath_h
 #
 include
 "
+mozilla
+/
+MemoryReporting
+.
+h
+"
+#
+include
+"
 jsapi
 .
 h
@@ -227,7 +236,10 @@ x
 size_t
 sizeOfIncludingThis
 (
-JSMallocSizeOfFun
+mozilla
+:
+:
+MallocSizeOf
 mallocSizeOf
 )
 ;

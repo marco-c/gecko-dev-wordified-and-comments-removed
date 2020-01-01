@@ -1,6 +1,15 @@
 #
 include
 "
+mozilla
+/
+MemoryReporting
+.
+h
+"
+#
+include
+"
 BaselineJIT
 .
 h
@@ -12097,7 +12106,10 @@ SizeOfIonData
 JSScript
 *
 script
-JSMallocSizeOfFun
+mozilla
+:
+:
+MallocSizeOf
 mallocSizeOf
 )
 {
