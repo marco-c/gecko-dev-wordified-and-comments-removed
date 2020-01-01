@@ -2439,6 +2439,9 @@ runOptions
 ;
 public
 :
+int32
+reportGranularity
+;
 JSLocaleCallbacks
 *
 localeCallbacks

@@ -1441,6 +1441,7 @@ linker
 .
 finalize
 (
+f
 )
 ;
 JaegerSpew
@@ -3000,6 +3001,7 @@ buffer
 .
 finalize
 (
+f
 )
 ;
 repatcher
@@ -4522,6 +4524,7 @@ linker
 .
 finalize
 (
+f
 )
 ;
 JaegerSpew
@@ -5058,6 +5061,7 @@ linker
 .
 finalize
 (
+f
 )
 ;
 JaegerSpew
@@ -6110,6 +6114,7 @@ linker
 .
 finalize
 (
+f
 )
 ;
 JaegerSpew
@@ -7688,6 +7693,7 @@ linker
 .
 finalize
 (
+f
 )
 ;
 JaegerSpew

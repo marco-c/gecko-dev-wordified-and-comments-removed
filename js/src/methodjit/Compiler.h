@@ -1557,6 +1557,8 @@ masm
 FrameState
 frame
 ;
+public
+:
 struct
 ActiveFrame
 {
@@ -1582,6 +1584,15 @@ inlineIndex
 VarType
 *
 varTypes
+;
+size_t
+mainCodeStart
+;
+size_t
+stubCodeStart
+;
+size_t
+inlinePCOffset
 ;
 bool
 needReturnValue
@@ -1630,6 +1641,8 @@ ActiveFrame
 ;
 }
 ;
+private
+:
 ActiveFrame
 *
 a
