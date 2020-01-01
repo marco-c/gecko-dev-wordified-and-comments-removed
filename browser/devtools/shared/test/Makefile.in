@@ -136,6 +136,10 @@ browser_toolbar_webconsole_errors_count
 .
 js
 \
+browser_layoutHelpers
+.
+js
+\
 head
 .
 js
@@ -155,6 +159,14 @@ browser_toolbar_basic
 html
 \
 browser_toolbar_webconsole_errors_count
+.
+html
+\
+browser_layoutHelpers
+.
+html
+\
+browser_layoutHelpers_iframe
 .
 html
 \
