@@ -802,6 +802,12 @@ nsAString
 aString
 )
 ;
+PRInt64
+SizeOf
+(
+)
+const
+;
 private
 :
 enum
