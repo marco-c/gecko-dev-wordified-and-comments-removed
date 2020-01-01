@@ -3,6 +3,7 @@ sendMouseEvent
 (
 aEvent
 aTarget
+aWindow
 )
 {
 if
@@ -63,6 +64,17 @@ type
 )
 ;
 }
+if
+(
+!
+aWindow
+)
+{
+aWindow
+=
+window
+;
+}
 netscape
 .
 security
@@ -79,6 +91,8 @@ UniversalBrowserWrite
 var
 event
 =
+aWindow
+.
 document
 .
 createEvent
@@ -108,7 +122,7 @@ true
 var
 viewArg
 =
-window
+aWindow
 ;
 var
 detailArg
@@ -274,6 +288,8 @@ buttonArg
 relatedTargetArg
 )
 ;
+aWindow
+.
 document
 .
 getElementById

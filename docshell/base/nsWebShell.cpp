@@ -4504,6 +4504,12 @@ aStatus
 NS_ERROR_PHISHING_URI
 |
 |
+aStatus
+=
+=
+NS_ERROR_UNSAFE_CONTENT_TYPE
+|
+|
 NS_ERROR_GET_MODULE
 (
 aStatus

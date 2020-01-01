@@ -510,6 +510,8 @@ imglib2
 \
 mimetype
 \
+jar
+\
 (
 NULL
 )

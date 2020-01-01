@@ -238,8 +238,11 @@ mLoadFlags
 nsresult
 mStatus
 ;
-PRBool
+PRPackedBool
 mIsPending
+;
+PRPackedBool
+mIsUnsafe
 ;
 nsJARInputThunk
 *
