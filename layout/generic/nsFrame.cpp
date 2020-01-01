@@ -15377,14 +15377,6 @@ GetContent
 if
 (
 blockContent
-&
-&
-blockContent
--
->
-IsEditable
-(
-)
 )
 {
 return
