@@ -1262,14 +1262,12 @@ rv
 rv
 )
 ;
+return
 SendAsyncMessageInternal
 (
 messageName
 json
 )
-;
-return
-NS_OK
 ;
 }
 NS_IMETHODIMP
