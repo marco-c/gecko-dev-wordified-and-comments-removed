@@ -342,6 +342,11 @@ SeekingStarted
 (
 )
 ;
+void
+PlaybackPositionChanged
+(
+)
+;
 private
 :
 void
@@ -368,6 +373,9 @@ nsCOMPtr
 nsIThread
 >
 mDecodeThread
+;
+float
+mCurrentTime
 ;
 float
 mInitialVolume

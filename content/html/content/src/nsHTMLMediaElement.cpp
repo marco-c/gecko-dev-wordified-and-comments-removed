@@ -1001,16 +1001,6 @@ Seek
 aCurrentTime
 )
 ;
-DispatchAsyncSimpleEvent
-(
-NS_LITERAL_STRING
-(
-"
-timeupdate
-"
-)
-)
-;
 return
 rv
 ;

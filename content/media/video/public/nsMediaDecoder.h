@@ -342,11 +342,6 @@ StopProgress
 )
 ;
 void
-MediaSizeChanged
-(
-)
-;
-void
 SetRGBData
 (
 PRInt32
