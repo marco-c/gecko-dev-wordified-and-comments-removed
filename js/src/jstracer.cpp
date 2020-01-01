@@ -49923,7 +49923,7 @@ obj_ins
 if
 (
 !
-obj
+aobj
 -
 >
 isNative
