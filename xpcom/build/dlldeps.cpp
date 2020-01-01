@@ -413,6 +413,8 @@ h
 #
 include
 "
+mozilla
+/
 Mutex
 .
 h
@@ -420,6 +422,8 @@ h
 #
 include
 "
+mozilla
+/
 Monitor
 .
 h
@@ -427,6 +431,8 @@ h
 #
 include
 "
+mozilla
+/
 CondVar
 .
 h
