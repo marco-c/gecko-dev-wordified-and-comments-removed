@@ -1335,6 +1335,7 @@ topsrcdir
 relative_topsrcdir
 relative_srcdir
 output_dir
+flavor
 )
 :
     
@@ -1411,6 +1412,12 @@ self
 output_dir
 =
 output_dir
+    
+self
+.
+flavor
+=
+flavor
     
 self
 .
@@ -2617,15 +2624,39 @@ else
 return
 False
     
+if
+self
+.
+flavor
+=
+=
+'
+win
+'
+:
+      
+top
+=
+self
+.
+relative_topsrcdir
+    
+else
+:
+      
+top
+=
+self
+.
+topsrcdir
+    
 WriteMakefile
 (
 output_file
 data
 build_file
 depth
-self
-.
-relative_topsrcdir
+top
                   
 swapslashes
 (
@@ -2635,9 +2666,7 @@ path
 .
 join
 (
-self
-.
-relative_topsrcdir
+top
 self
 .
 relative_srcdir
@@ -2805,6 +2834,16 @@ RelativePath
 gyp_file_dir
 objdir
 )
+  
+abs_srcdir
+=
+topsrcdir
++
+"
+/
+"
++
+relative_srcdir
   
 depth
 =
@@ -2991,6 +3030,7 @@ topsrcdir
 relative_topsrcdir
 relative_srcdir
 output_dir
+flavor
 )
   
 generator
@@ -3029,6 +3069,34 @@ generator
 .
 parallel_dirs
   
+if
+flavor
+=
+=
+'
+win
+'
+:
+    
+top
+=
+relative_topsrcdir
+    
+src
+=
+srcdir
+  
+else
+:
+    
+top
+=
+topsrcdir
+    
+src
+=
+abs_srcdir
+  
 WriteMakefile
 (
 makefile_path
@@ -3047,12 +3115,12 @@ depth
                 
 swapslashes
 (
-relative_topsrcdir
+top
 )
                 
 swapslashes
 (
-srcdir
+src
 )
                 
 swapslashes
