@@ -137,7 +137,7 @@ not
 built
 yet
 .
-STDCXX_COMPAT
+MOZ_LIBSTDCXX_HOST_VERSION
 =
 ifneq
 (

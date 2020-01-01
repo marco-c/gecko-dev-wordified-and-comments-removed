@@ -4362,8 +4362,15 @@ EXPAND_MKSHLIB_ARGS
 (
 MKSHLIB
 )
-ifdef
-STDCXX_COMPAT
+ifneq
+(
+(
+MOZ_LIBSTDCXX_TARGET_VERSION
+)
+(
+MOZ_LIBSTDCXX_HOST_VERSION
+)
+)
 ifneq
 (
 (
@@ -4485,6 +4492,8 @@ exit
 exit
 0
 endif
+ifdef
+MOZ_LIBSTDCXX_TARGET_VERSION
 EXTRA_LIBS
 +
 =
@@ -4508,6 +4517,9 @@ stdc
 +
 compat
 )
+endif
+ifdef
+MOZ_LIBSTDCXX_HOST_VERSION
 HOST_EXTRA_LIBS
 +
 =
@@ -4531,6 +4543,7 @@ stdc
 +
 compat
 )
+endif
 endif
 #
 autoconf

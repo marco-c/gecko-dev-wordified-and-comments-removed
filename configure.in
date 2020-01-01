@@ -65362,10 +65362,6 @@ STDCXX_COMPAT
 =
 1
 )
-AC_SUBST
-(
-STDCXX_COMPAT
-)
 if
 test
 -
@@ -65381,6 +65377,11 @@ CXX
 =
 "
 CXX
+"
+HOST_CXX
+=
+"
+HOST_CXX
 "
 PYTHON
 _topsrcdir
