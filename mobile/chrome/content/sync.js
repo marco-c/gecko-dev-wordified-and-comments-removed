@@ -36,6 +36,12 @@ _addListeners
 (
 )
 ;
+this
+.
+_updateOptions
+(
+)
+;
 Weave
 .
 Service

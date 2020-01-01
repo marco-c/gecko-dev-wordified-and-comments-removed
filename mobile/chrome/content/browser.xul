@@ -6385,6 +6385,11 @@ changeName
 this
 )
 "
+collapsed
+=
+"
+true
+"
 /
 >
 <
@@ -6443,6 +6448,11 @@ type
 "
 control
 "
+collapsed
+=
+"
+true
+"
 >
 <
 button
@@ -6484,6 +6494,11 @@ type
 =
 "
 control
+"
+collapsed
+=
+"
+true
 "
 >
 <
