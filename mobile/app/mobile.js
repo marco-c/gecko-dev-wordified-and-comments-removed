@@ -3039,7 +3039,7 @@ zoom
 .
 pageFitGranularity
 "
-10
+9
 )
 ;
 pref
