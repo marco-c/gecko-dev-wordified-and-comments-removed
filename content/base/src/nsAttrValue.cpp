@@ -5159,6 +5159,14 @@ Type
 =
 =
 eCSSStyleRule
+|
+|
+Type
+(
+)
+=
+=
+eEnum
 "
 Empty
 string
