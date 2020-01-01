@@ -290,7 +290,7 @@ sPreferences
 =
 nsnull
 ;
-nsIPrefBranch2
+nsIPrefBranch
 *
 Preferences
 :
