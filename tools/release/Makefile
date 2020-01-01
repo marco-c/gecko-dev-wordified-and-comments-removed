@@ -1229,6 +1229,15 @@ rm
 -
 rf
 /
+data
+/
+symbols
+/
+*
+rm
+-
+rf
+/
 home
 /
 ftp
