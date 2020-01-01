@@ -521,9 +521,11 @@ client
 .
 name
 "
-"
-Firefox
-"
+Svc
+.
+AppInfo
+.
+name
 )
 ;
 }
