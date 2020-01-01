@@ -265,13 +265,6 @@ nullptr
 ;
 }
 virtual
-nsXPCClassInfo
-*
-GetClassInfo
-(
-)
-;
-virtual
 nsIDOMNode
 *
 AsDOMNode

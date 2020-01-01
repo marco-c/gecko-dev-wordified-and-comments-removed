@@ -37,13 +37,6 @@ nsContentUtils
 .
 h
 "
-#
-include
-"
-nsDOMClassInfoID
-.
-h
-"
 using
 namespace
 mozilla
@@ -93,11 +86,6 @@ NS_IMPL_CYCLE_COLLECTING_RELEASE
 (
 nsDOMCSSValueList
 )
-DOMCI_DATA
-(
-CSSValueList
-nsDOMCSSValueList
-)
 NS_INTERFACE_MAP_BEGIN_CYCLE_COLLECTION
 (
 nsDOMCSSValueList
@@ -115,10 +103,6 @@ NS_INTERFACE_MAP_ENTRY_AMBIGUOUS
 (
 nsISupports
 CSSValue
-)
-NS_DOM_INTERFACE_MAP_ENTRY_CLASSINFO
-(
-CSSValueList
 )
 NS_INTERFACE_MAP_END
 NS_IMPL_CYCLE_COLLECTION_WRAPPERCACHE_1

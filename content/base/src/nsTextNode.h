@@ -135,13 +135,6 @@ aCloneText
 const
 ;
 virtual
-nsXPCClassInfo
-*
-GetClassInfo
-(
-)
-;
-virtual
 nsresult
 BindToTree
 (

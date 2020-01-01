@@ -359,11 +359,6 @@ this
 )
 ;
 }
-DOMCI_DATA
-(
-Screen
-nsScreen
-)
 NS_INTERFACE_MAP_BEGIN
 (
 nsScreen
@@ -371,10 +366,6 @@ nsScreen
 NS_INTERFACE_MAP_ENTRY
 (
 nsIDOMScreen
-)
-NS_DOM_INTERFACE_MAP_ENTRY_CLASSINFO
-(
-Screen
 )
 NS_INTERFACE_MAP_END_INHERITING
 (

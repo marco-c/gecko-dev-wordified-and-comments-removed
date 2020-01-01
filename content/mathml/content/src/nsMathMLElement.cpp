@@ -17,13 +17,6 @@ h
 #
 include
 "
-nsDOMClassInfoID
-.
-h
-"
-#
-include
-"
 nsGkAtoms
 .
 h
@@ -134,11 +127,6 @@ mozilla
 :
 dom
 ;
-DOMCI_NODE_DATA
-(
-MathMLElement
-nsMathMLElement
-)
 NS_INTERFACE_TABLE_HEAD
 (
 nsMathMLElement
@@ -169,10 +157,6 @@ Link
 )
 NS_OFFSET_AND_INTERFACE_TABLE_END
 NS_ELEMENT_INTERFACE_TABLE_TO_MAP_SEGUE
-NS_DOM_INTERFACE_MAP_ENTRY_CLASSINFO
-(
-MathMLElement
-)
 NS_ELEMENT_INTERFACE_MAP_END
 NS_IMPL_ADDREF_INHERITED
 (

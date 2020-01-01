@@ -414,13 +414,6 @@ aNotify
 )
 ;
 virtual
-nsXPCClassInfo
-*
-GetClassInfo
-(
-)
-;
-virtual
 nsIDOMNode
 *
 AsDOMNode

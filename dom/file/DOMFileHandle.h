@@ -27,7 +27,6 @@ FileHandle
 {
 public
 :
-NS_DECL_ISUPPORTS_INHERITED
 static
 already_AddRefed
 <

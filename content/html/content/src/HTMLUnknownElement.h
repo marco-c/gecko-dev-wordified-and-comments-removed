@@ -94,13 +94,6 @@ aResult
 const
 ;
 virtual
-nsXPCClassInfo
-*
-GetClassInfo
-(
-)
-;
-virtual
 nsIDOMNode
 *
 AsDOMNode

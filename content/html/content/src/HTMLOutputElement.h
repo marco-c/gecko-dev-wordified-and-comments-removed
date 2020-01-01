@@ -183,13 +183,6 @@ HTMLOutputElement
 nsGenericHTMLFormElement
 )
 virtual
-nsXPCClassInfo
-*
-GetClassInfo
-(
-)
-;
-virtual
 nsIDOMNode
 *
 AsDOMNode

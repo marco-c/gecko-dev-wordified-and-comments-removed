@@ -108,13 +108,6 @@ aResult
 const
 ;
 virtual
-nsXPCClassInfo
-*
-GetClassInfo
-(
-)
-;
-virtual
 nsresult
 AfterSetAttr
 (
