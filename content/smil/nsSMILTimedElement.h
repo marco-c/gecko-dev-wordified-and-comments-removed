@@ -81,7 +81,7 @@ nsSMILTimedElement
 (
 )
 ;
-PRBool
+nsresult
 BeginElementAt
 (
 double
@@ -92,7 +92,7 @@ nsSMILTimeContainer
 aContainer
 )
 ;
-PRBool
+nsresult
 EndElementAt
 (
 double

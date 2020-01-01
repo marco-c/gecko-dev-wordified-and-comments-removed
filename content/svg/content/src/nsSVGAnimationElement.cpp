@@ -1206,6 +1206,7 @@ RequestSample
 (
 )
 ;
+return
 mTimedElement
 .
 BeginElementAt
@@ -1213,9 +1214,6 @@ BeginElementAt
 offset
 mTimedDocumentRoot
 )
-;
-return
-NS_OK
 ;
 }
 NS_IMETHODIMP
@@ -1269,6 +1267,7 @@ RequestSample
 (
 )
 ;
+return
 mTimedElement
 .
 EndElementAt
@@ -1276,8 +1275,5 @@ EndElementAt
 offset
 mTimedDocumentRoot
 )
-;
-return
-NS_OK
 ;
 }
