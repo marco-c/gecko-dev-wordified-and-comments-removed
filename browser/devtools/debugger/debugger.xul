@@ -1085,6 +1085,15 @@ devtools
 -
 menulist
 "
+label
+=
+"
+&
+debuggerUI
+.
+emptyScriptText
+;
+"
 /
 >
 <
