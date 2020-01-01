@@ -143,11 +143,6 @@ jsm
 (
 NULL
 )
-EXTRA_PP_JS_MODULES
-=
-RecentWindow
-.
-jsm
 ifeq
 (
 (
