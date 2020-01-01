@@ -3153,13 +3153,6 @@ granted
 "
 "
 UniversalXPConnect
-UniversalBrowserRead
-UniversalBrowserWrite
-\
-UniversalPreferencesRead
-UniversalPreferencesWrite
-\
-UniversalFileRead
 "
 )
 ;
@@ -3316,13 +3309,6 @@ granted
 "
 "
 UniversalXPConnect
-UniversalBrowserRead
-UniversalBrowserWrite
-\
-UniversalPreferencesRead
-UniversalPreferencesWrite
-\
-UniversalFileRead
 "
 )
 ;

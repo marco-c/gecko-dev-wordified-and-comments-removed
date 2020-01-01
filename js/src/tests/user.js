@@ -78,11 +78,7 @@ p0
 granted
 "
 "
-UniversalPreferencesWrite
 UniversalXPConnect
-UniversalBrowserWrite
-UniversalPreferencesRead
-UniversalBrowserRead
 "
 )
 ;
@@ -121,11 +117,7 @@ p1
 granted
 "
 "
-UniversalPreferencesWrite
 UniversalXPConnect
-UniversalBrowserWrite
-UniversalPreferencesRead
-UniversalBrowserRead
 "
 )
 ;

@@ -1222,9 +1222,7 @@ granted
 %
 i
 "
-UniversalPreferencesWrite
 UniversalXPConnect
-UniversalPreferencesRead
 "
 )
 )

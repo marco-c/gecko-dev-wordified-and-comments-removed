@@ -13,7 +13,7 @@ PrivilegeManager
 enablePrivilege
 (
 "
-UniversalBrowserRead
+UniversalXPConnect
 "
 )
 ;

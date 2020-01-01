@@ -403,7 +403,7 @@ PrivilegeManager
 enablePrivilege
 (
 '
-UniversalBrowserRead
+UniversalXPConnect
 '
 )
 ;

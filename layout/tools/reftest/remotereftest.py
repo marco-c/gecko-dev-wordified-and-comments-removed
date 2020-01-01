@@ -2669,11 +2669,7 @@ p2
 granted
 "
 "
-UniversalPreferencesWrite
 UniversalXPConnect
-UniversalBrowserWrite
-UniversalPreferencesRead
-UniversalBrowserRead
 "
 )
 ;
