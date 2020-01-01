@@ -2508,6 +2508,11 @@ Browser
 closeTab
 (
 aTab
+|
+|
+Browser
+.
+selectedTab
 )
 ;
 }
