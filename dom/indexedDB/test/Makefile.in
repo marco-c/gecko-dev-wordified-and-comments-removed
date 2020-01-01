@@ -519,6 +519,10 @@ test_objectStore_remove_values
 .
 html
 \
+test_object_identity
+.
+html
+\
 test_open_empty_db
 .
 html
