@@ -480,6 +480,9 @@ script
 debugMode
 !
 =
+(
+bool
+)
 debug
 &
 &
