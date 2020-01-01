@@ -3082,7 +3082,7 @@ JS_IN_GROUP_CONTEXT
 0x10000
 JSPrinter
 *
-js_NewPrinter
+JS_NEW_PRINTER
 (
 JSContext
 *
@@ -3140,7 +3140,7 @@ pool
 0
 )
 ;
-JS_InitArenaPool
+JS_INIT_ARENA_POOL
 (
 &
 jp
@@ -10213,13 +10213,12 @@ obj
 ;
 jp2
 =
-js_NewPrinter
+JS_NEW_PRINTER
 (
 cx
-JS_GetFunctionName
-(
-fun
-)
+"
+nested_function
+"
 jp
 -
 >
@@ -25373,7 +25372,7 @@ NULL
 ;
 jp
 =
-js_NewPrinter
+JS_NEW_PRINTER
 (
 cx
 "

@@ -8575,7 +8575,7 @@ return
 JS_FALSE
 ;
 }
-JS_InitArenaPool
+JS_INIT_ARENA_POOL
 (
 &
 rt

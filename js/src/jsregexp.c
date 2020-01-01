@@ -17723,7 +17723,7 @@ skipped
 =
 0
 ;
-JS_InitArenaPool
+JS_INIT_ARENA_POOL
 (
 &
 gData

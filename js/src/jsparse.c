@@ -3321,7 +3321,7 @@ JSParseNode
 *
 pn
 ;
-JS_InitArenaPool
+JS_INIT_ARENA_POOL
 (
 &
 codePool
@@ -3335,7 +3335,7 @@ jsbytecode
 )
 )
 ;
-JS_InitArenaPool
+JS_INIT_ARENA_POOL
 (
 &
 notePool
