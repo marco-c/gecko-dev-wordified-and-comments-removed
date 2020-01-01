@@ -1055,13 +1055,6 @@ aContext
 #
 include
 "
-nsIDocument
-.
-h
-"
-#
-include
-"
 nsIScrollable
 .
 h

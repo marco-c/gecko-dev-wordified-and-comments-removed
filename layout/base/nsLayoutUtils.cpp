@@ -365,13 +365,6 @@ h
 #
 include
 "
-imgIContainer
-.
-h
-"
-#
-include
-"
 nsIImageLoadingContent
 .
 h
