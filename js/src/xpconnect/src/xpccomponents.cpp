@@ -11765,7 +11765,6 @@ XPCWrapper
 :
 UnsafeUnwrapSecurityWrapper
 (
-cx
 funobj
 )
 ;
@@ -14031,7 +14030,6 @@ XPCWrapper
 :
 UnsafeUnwrapSecurityWrapper
 (
-cx
 sandbox
 )
 ;
