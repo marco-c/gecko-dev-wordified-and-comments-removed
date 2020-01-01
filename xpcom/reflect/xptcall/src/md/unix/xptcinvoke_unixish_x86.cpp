@@ -216,6 +216,11 @@ params
 ifdef
 __GNUC__
 PRUint32
+methodIndexReg
+=
+methodIndex
+;
+PRUint32
 result
 ;
 PRUint32
@@ -747,10 +752,10 @@ g
 that
 )
 "
-g
+r
 "
 (
-methodIndex
+methodIndexReg
 )
 "
 1
