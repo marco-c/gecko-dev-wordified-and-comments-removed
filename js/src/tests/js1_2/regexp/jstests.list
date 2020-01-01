@@ -105,17 +105,10 @@ script
 character_class
 .
 js
-skip
 script
 compile
 .
 js
-#
-RegExp
-.
-compile
-removed
-.
 script
 control_characters
 .
