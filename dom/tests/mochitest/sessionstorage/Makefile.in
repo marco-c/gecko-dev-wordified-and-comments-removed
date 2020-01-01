@@ -448,6 +448,14 @@ frameNotEqual
 .
 html
 \
+file_http
+.
+html
+\
+file_https
+.
+html
+\
 test_sessionStorageBase
 .
 html
@@ -457,6 +465,10 @@ test_sessionStorageClone
 html
 \
 test_sessionStorageReplace
+.
+html
+\
+test_sessionStorageHttpHttps
 .
 html
 \
