@@ -139,9 +139,6 @@ app
 '
 fonts
 '
-'
-geckoview_library
-'
 ]
 if
 not
