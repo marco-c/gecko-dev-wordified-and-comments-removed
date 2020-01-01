@@ -186,6 +186,14 @@ i
 )
 )
 ;
+res
+.
+root
+.
+containerOpen
+=
+false
+;
 return
 results
 ;
