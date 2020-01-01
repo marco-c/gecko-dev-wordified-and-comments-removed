@@ -362,12 +362,7 @@ JSClass
 sNPObjectJSWrapperClass
 =
 {
-"
-NPObject
-JS
-wrapper
-class
-"
+NPRUNTIME_JSCLASS_NAME
 JSCLASS_HAS_PRIVATE
 |
 JSCLASS_NEW_RESOLVE

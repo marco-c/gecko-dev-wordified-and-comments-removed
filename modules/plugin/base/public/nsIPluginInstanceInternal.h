@@ -19,6 +19,15 @@ JSContext
 ;
 #
 define
+NPRUNTIME_JSCLASS_NAME
+"
+NPObject
+JS
+wrapper
+class
+"
+#
+define
 NS_IPLUGININSTANCEINTERNAL_IID
 \
 {
