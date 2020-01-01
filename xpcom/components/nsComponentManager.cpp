@@ -12097,7 +12097,7 @@ nsAutoArrayPtr
 char
 >
 buf
-=
+(
 new
 char
 [
@@ -12107,6 +12107,7 @@ size
 +
 1
 ]
+)
 ;
 if
 (
