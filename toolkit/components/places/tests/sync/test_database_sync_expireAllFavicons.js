@@ -545,6 +545,7 @@ kSyncPrefName
 SYNC_INTERVAL
 )
 ;
+let
 visitId
 =
 hs

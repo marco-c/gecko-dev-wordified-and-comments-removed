@@ -836,6 +836,7 @@ nsINavHistoryQueryOptions
 SORT_BY_TITLE_ASCENDING
 )
 ;
+let
 innerContainer
 =
 container
@@ -1166,6 +1167,7 @@ nsINavHistoryQueryOptions
 SORT_BY_TITLE_ASCENDING
 )
 ;
+let
 innerContainer
 =
 container

@@ -695,6 +695,7 @@ function
 aUserData
 )
 {
+var
 batchchange
 =
 [

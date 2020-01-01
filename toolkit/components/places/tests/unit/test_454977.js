@@ -258,6 +258,7 @@ nsINavHistoryQueryOptions
 .
 QUERY_TYPE_HISTORY
 ;
+var
 result
 =
 hs

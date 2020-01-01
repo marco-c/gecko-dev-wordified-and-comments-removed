@@ -8134,6 +8134,7 @@ a
 b
 )
 {
+let
 aDate
 =
 PlacesUtils
@@ -8145,6 +8146,7 @@ getDateForFile
 a
 )
 ;
+let
 bDate
 =
 PlacesUtils

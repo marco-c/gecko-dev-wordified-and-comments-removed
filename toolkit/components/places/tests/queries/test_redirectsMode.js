@@ -990,6 +990,7 @@ add_visits_to_database
 (
 )
 ;
+let
 includeHidden_options
 =
 [
@@ -997,6 +998,7 @@ true
 false
 ]
 ;
+let
 redirectsMode_options
 =
 [
@@ -1017,6 +1019,7 @@ nsINavHistoryQueryOptions
 REDIRECTS_MODE_TARGET
 ]
 ;
+let
 maxResults_options
 =
 [
@@ -1026,6 +1029,7 @@ maxResults_options
 null
 ]
 ;
+let
 sorting_options
 =
 [

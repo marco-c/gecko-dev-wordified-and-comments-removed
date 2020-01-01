@@ -685,6 +685,7 @@ this
 _placeId
 )
 ;
+let
 stmt
 =
 mDBConn
@@ -7505,6 +7506,7 @@ hash
 )
 )
 ;
+let
 stmt
 =
 mDBConn

@@ -2053,6 +2053,7 @@ bar
 "
 )
 ;
+var
 faviconURI
 =
 uri
