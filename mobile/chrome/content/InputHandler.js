@@ -1811,14 +1811,6 @@ this
 .
 _owner
 .
-allowNextClick
-(
-)
-;
-this
-.
-_owner
-.
 grab
 (
 this
