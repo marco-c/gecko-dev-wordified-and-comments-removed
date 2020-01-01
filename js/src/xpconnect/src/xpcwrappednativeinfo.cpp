@@ -1381,7 +1381,6 @@ name
 =
 INTERNED_STRING_TO_JSID
 (
-ccx
 str
 )
 ;
@@ -1608,7 +1607,6 @@ name
 =
 INTERNED_STRING_TO_JSID
 (
-ccx
 str
 )
 ;
@@ -1693,7 +1691,6 @@ interfaceName
 =
 INTERNED_STRING_TO_JSID
 (
-ccx
 str
 )
 ;

@@ -1859,17 +1859,6 @@ Shape
 child
 )
 ;
-void
-removeChildSlowly
-(
-js
-:
-:
-Shape
-*
-child
-)
-;
 }
 ;
 struct

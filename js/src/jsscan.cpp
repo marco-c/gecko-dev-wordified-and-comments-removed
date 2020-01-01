@@ -4612,6 +4612,7 @@ length
 )
 -
 contentIndex
+0
 )
 ;
 if
@@ -5518,6 +5519,7 @@ cb
 length
 (
 )
+0
 )
 ;
 }
@@ -6282,6 +6284,7 @@ addressOfNextRawChar
 )
 -
 identStart
+0
 )
 ;
 else

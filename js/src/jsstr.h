@@ -1422,7 +1422,7 @@ length
 inline
 JSAtom
 *
-morphAtomizedStringIntoAtom
+morphInternedStringIntoAtom
 (
 )
 ;

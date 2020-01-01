@@ -3428,7 +3428,7 @@ xdr
 cx
 buf
 len
-DoNotInternAtom
+0
 true
 )
 ;

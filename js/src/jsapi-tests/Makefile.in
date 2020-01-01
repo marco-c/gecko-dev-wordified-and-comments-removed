@@ -493,10 +493,6 @@ testIntString
 .
 cpp
 \
-testIntern
-.
-cpp
-\
 testLookup
 .
 cpp

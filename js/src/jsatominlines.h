@@ -86,6 +86,7 @@ js_AtomizeString
 (
 cx
 str
+0
 )
 ;
 return
@@ -137,6 +138,7 @@ js_AtomizeString
 (
 cx
 str
+0
 )
 ;
 return
@@ -552,6 +554,7 @@ js_AtomizeString
 (
 cx
 str
+0
 )
 ;
 if

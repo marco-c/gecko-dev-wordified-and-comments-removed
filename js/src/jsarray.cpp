@@ -973,6 +973,7 @@ buf
 )
 -
 start
+0
 )
 ;
 if

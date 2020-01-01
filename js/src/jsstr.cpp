@@ -11016,6 +11016,7 @@ js_AtomizeString
 (
 cx
 str
+0
 )
 ;
 if
@@ -20059,6 +20060,7 @@ begin
 (
 )
 length
+0
 )
 ;
 cb

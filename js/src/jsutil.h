@@ -243,10 +243,6 @@ void
 #
 endif
 #
-define
-JS_FREE_PATTERN
-0xDA
-#
 else
 #
 define
