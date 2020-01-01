@@ -235,7 +235,7 @@ nsTArray
 <
 nsRefPtr
 <
-FontEntry
+gfxFontEntry
 >
 >
 >
@@ -1008,9 +1008,8 @@ gfxPlatformGtk
 :
 GetFontList
 (
-const
-nsACString
-&
+nsIAtom
+*
 aLangGroup
 const
 nsACString
@@ -1963,6 +1962,7 @@ gfxFontStyle
 aStyle
 gfxUserFontSet
 *
+aUserFontSet
 )
 {
 return
@@ -1971,6 +1971,7 @@ gfxFT2FontGroup
 (
 aFamilies
 aStyle
+aUserFontSet
 )
 ;
 }
@@ -3119,7 +3120,7 @@ nsTArray
 <
 nsRefPtr
 <
-FontEntry
+gfxFontEntry
 >
 >
 *
@@ -3151,7 +3152,7 @@ nsTArray
 <
 nsRefPtr
 <
-FontEntry
+gfxFontEntry
 >
 >
 &
