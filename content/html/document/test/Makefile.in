@@ -690,6 +690,10 @@ test_bug482659
 .
 html
 \
+test_bug486741
+.
+html
+\
 (
 NULL
 )
