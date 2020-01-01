@@ -754,6 +754,7 @@ function
 initMenu
 :
 function
+CM_initMenu
 (
 aPopup
 aBrowser
@@ -816,6 +817,7 @@ initItems
 initItems
 :
 function
+CM_initItems
 (
 )
 {
@@ -871,6 +873,7 @@ initMetadataItems
 initOpenItems
 :
 function
+CM_initOpenItems
 (
 )
 {
@@ -935,6 +938,7 @@ shouldShow
 initNavigationItems
 :
 function
+CM_initNavigationItems
 (
 )
 {
@@ -1029,6 +1033,7 @@ shouldShow
 initSaveItems
 :
 function
+CM_initSaveItems
 (
 )
 {
@@ -1146,6 +1151,7 @@ onImage
 initViewItems
 :
 function
+CM_initViewItems
 (
 )
 {
@@ -1417,6 +1423,7 @@ hasBGImage
 initMiscItems
 :
 function
+CM_initMiscItems
 (
 )
 {
@@ -1542,6 +1549,8 @@ sep
 -
 bidi
 "
+top
+.
 gBidiUI
 )
 ;
@@ -1565,6 +1574,8 @@ this
 onTextInput
 &
 &
+top
+.
 gBidiUI
 )
 ;
@@ -1589,6 +1600,8 @@ this
 onTextInput
 &
 &
+top
+.
 gBidiUI
 )
 ;
@@ -6580,6 +6593,23 @@ target
 ownerDocument
 .
 defaultView
+)
+;
+}
+switchPageDirection
+:
+function
+CM_switchPageDirection
+(
+)
+{
+SwitchDocumentDirection
+(
+this
+.
+browser
+.
+contentWindow
 )
 ;
 }
