@@ -5480,11 +5480,6 @@ test
 Makefile
 testing
 /
-firebug
-/
-Makefile
-testing
-/
 mochitest
 /
 Makefile

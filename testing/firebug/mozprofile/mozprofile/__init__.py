@@ -1,4 +1,0 @@
-from
-profile
-import
-*
