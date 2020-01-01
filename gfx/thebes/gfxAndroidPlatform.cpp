@@ -1042,7 +1042,7 @@ false
 endif
 #
 ifdef
-MOZ_B2G
+MOZ_WIDGET_GONK
 return
 false
 ;
@@ -1087,7 +1087,7 @@ true
 endif
 #
 ifdef
-MOZ_B2G
+MOZ_WIDGET_GONK
 return
 XRE_GetProcessType
 (
