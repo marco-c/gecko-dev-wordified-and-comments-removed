@@ -6,8 +6,15 @@ define
 nsMathMLOperators_h___
 #
 include
+<
+stdint
+.
+h
+>
+#
+include
 "
-nsCoord
+nsStringFwd
 .
 h
 "

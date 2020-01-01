@@ -16,13 +16,6 @@ h
 #
 include
 "
-nsCOMPtr
-.
-h
-"
-#
-include
-"
 nsMathMLContainerFrame
 .
 h
