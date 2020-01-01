@@ -14512,10 +14512,6 @@ RootedFunction
 ctor
 (
 cx
-)
-;
-ctor
-=
 global
 -
 >
@@ -14529,6 +14525,7 @@ cx
 Date
 )
 MAXARGS
+)
 )
 ;
 if

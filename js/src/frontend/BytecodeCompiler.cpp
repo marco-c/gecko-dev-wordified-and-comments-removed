@@ -555,10 +555,6 @@ JSScript
 script
 (
 cx
-)
-;
-script
-=
 JSScript
 :
 :
@@ -573,6 +569,7 @@ noScriptRval
 globalObject
 version
 staticLevel
+)
 )
 ;
 if
@@ -1373,10 +1370,6 @@ JSScript
 script
 (
 cx
-)
-;
-script
-=
 JSScript
 :
 :
@@ -1391,6 +1384,7 @@ false
 globalObject
 version
 staticLevel
+)
 )
 ;
 if

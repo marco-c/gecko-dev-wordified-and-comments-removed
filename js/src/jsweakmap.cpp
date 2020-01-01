@@ -1842,10 +1842,6 @@ RootedFunction
 ctor
 (
 cx
-)
-;
-ctor
-=
 global
 -
 >
@@ -1859,6 +1855,7 @@ cx
 WeakMap
 )
 0
+)
 )
 ;
 if

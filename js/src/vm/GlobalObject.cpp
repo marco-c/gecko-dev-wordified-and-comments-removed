@@ -437,10 +437,6 @@ JSScript
 script
 (
 cx
-)
-;
-script
-=
 JSScript
 :
 :
@@ -455,6 +451,7 @@ true
 NULL
 JSVERSION_DEFAULT
 0
+)
 )
 ;
 if

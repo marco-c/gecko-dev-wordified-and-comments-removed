@@ -1073,12 +1073,6 @@ atom
 return
 false
 ;
-RootedFunction
-fun
-(
-cx
-)
-;
 Rooted
 <
 jsid
@@ -1092,8 +1086,10 @@ atom
 )
 )
 ;
+RootedFunction
 fun
-=
+(
+cx
 js_DefineFunction
 (
 cx
@@ -1111,6 +1107,7 @@ fs
 -
 >
 flags
+)
 )
 ;
 if
