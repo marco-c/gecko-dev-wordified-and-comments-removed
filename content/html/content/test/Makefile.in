@@ -1730,6 +1730,14 @@ file_srcdoc
 .
 html
 \
+test_bug893537
+.
+html
+\
+file_bug893537
+.
+html
+\
 (
 NULL
 )
