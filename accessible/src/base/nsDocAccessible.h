@@ -641,9 +641,9 @@ mFireEventTimerStarted
 ;
 nsTArray
 <
-nsCOMPtr
+nsRefPtr
 <
-nsIAccessibleEvent
+nsAccEvent
 >
 >
 mEventsToFire
