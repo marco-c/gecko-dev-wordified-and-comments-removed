@@ -467,6 +467,9 @@ Module
 *
 module
 ParseContext
+<
+FullParseHandler
+>
 *
 pc
 )
@@ -535,6 +538,11 @@ inGenexpLambda
 FunctionContextFlags
 funCxFlags
 ;
+template
+<
+typename
+ParseHandler
+>
 FunctionBox
 (
 JSContext
@@ -547,6 +555,9 @@ JSFunction
 *
 fun
 ParseContext
+<
+ParseHandler
+>
 *
 pc
 bool

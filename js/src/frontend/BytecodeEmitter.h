@@ -404,6 +404,9 @@ main
 current
 ;
 Parser
+<
+FullParseHandler
+>
 *
 const
 parser
@@ -492,6 +495,9 @@ BytecodeEmitter
 *
 parent
 Parser
+<
+FullParseHandler
+>
 *
 parser
 SharedContext
