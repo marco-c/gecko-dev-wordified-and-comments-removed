@@ -4403,14 +4403,6 @@ JSScript
 bucket
 )
 {
-if
-(
-!
-principals
-)
-return
-NULL
-;
 uintN
 count
 =
@@ -4496,6 +4488,9 @@ principals
 |
 |
 (
+principals
+&
+&
 script
 -
 >
