@@ -29305,6 +29305,12 @@ CHECK_REQUEST
 cx
 )
 ;
+assertSameCompartment
+(
+cx
+v
+)
+;
 const
 JSStructuredCloneCallbacks
 *
@@ -29370,6 +29376,12 @@ cx
 CHECK_REQUEST
 (
 cx
+)
+;
+assertSameCompartment
+(
+cx
+v
 )
 ;
 const
