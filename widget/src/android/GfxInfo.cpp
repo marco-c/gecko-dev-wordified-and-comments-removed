@@ -750,7 +750,6 @@ str
 NS_LITERAL_STRING
 (
 "
-samsung
 smdkc110
 "
 )
