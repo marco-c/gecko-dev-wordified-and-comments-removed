@@ -549,6 +549,7 @@ Solo
 getInstrumentation
 (
 )
+mActivity
 )
 ;
 mDriver
@@ -671,7 +672,7 @@ endTest
 ;
 mSolo
 .
-finalize
+finishOpenedActivities
 (
 )
 ;
@@ -689,14 +690,6 @@ printStackTrace
 )
 ;
 }
-getActivity
-(
-)
-.
-finish
-(
-)
-;
 super
 .
 tearDown

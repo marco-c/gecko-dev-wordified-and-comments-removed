@@ -1744,12 +1744,6 @@ tearDown
 throws
 Exception
 {
-super
-.
-tearDown
-(
-)
-;
 ContentResolver
 resolver
 =
@@ -1834,6 +1828,12 @@ String
 BOOKMARK_TITLE
 "
 }
+)
+;
+super
+.
+tearDown
+(
 )
 ;
 }

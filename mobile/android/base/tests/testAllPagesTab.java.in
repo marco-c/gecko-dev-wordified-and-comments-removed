@@ -993,12 +993,6 @@ tearDown
 throws
 Exception
 {
-super
-.
-tearDown
-(
-)
-;
 ContentResolver
 resolver
 =
@@ -1099,6 +1093,12 @@ robocop_big_link
 html
 "
 }
+)
+;
+super
+.
+tearDown
+(
 )
 ;
 }
