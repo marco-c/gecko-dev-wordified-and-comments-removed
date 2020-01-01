@@ -3347,6 +3347,15 @@ label
 /
 >
 <
+children
+includes
+=
+"
+popupnotificationcontent
+"
+/
+>
+<
 xul
 :
 spacer
