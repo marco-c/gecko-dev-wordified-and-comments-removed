@@ -648,6 +648,14 @@ browser_833286_atomic_backup
 .
 js
 \
+browser_916390_form_data_loss
+.
+js
+\
+browser_916390_sample
+.
+html
+\
 (
 filter
 disabled
