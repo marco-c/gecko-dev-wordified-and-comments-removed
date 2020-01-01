@@ -3735,10 +3735,11 @@ getURL
 )
 )
 )
-tab
+mDoorHangerPopup
 .
 removeTransientDoorHangers
 (
+tabId
 )
 ;
 tab
