@@ -46603,6 +46603,8 @@ toNumber
 (
 )
 ;
+CHECK_STATUS
+(
 guard
 (
 true
@@ -46633,6 +46635,7 @@ numeric
 )
 BRANCH_EXIT
 true
+)
 )
 ;
 }
