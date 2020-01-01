@@ -1416,7 +1416,7 @@ FindTrailingClear
 (
 )
 ;
-line_iterator
+void
 RemoveFloat
 (
 nsIFrame
