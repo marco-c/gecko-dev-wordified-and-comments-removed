@@ -1685,6 +1685,7 @@ image
 :
 url
 (
+"
 chrome
 :
 /
@@ -1702,6 +1703,7 @@ icons
 generic
 .
 png
+"
 )
 ;
 }
@@ -1727,6 +1729,7 @@ image
 :
 url
 (
+"
 chrome
 :
 /
@@ -1737,11 +1740,14 @@ skin
 /
 images
 /
-locked
+identity
 -
-hdpi
+icons
+-
+https
 .
 png
+"
 )
 ;
 }
@@ -1767,6 +1773,7 @@ image
 :
 url
 (
+"
 chrome
 :
 /
@@ -1777,11 +1784,16 @@ skin
 /
 images
 /
-locked
+identity
 -
-hdpi
+icons
+-
+https
+-
+ev
 .
 png
+"
 )
 ;
 }
