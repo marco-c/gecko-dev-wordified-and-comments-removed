@@ -457,7 +457,7 @@ style
 )
 {
 return
-eRestyle_Self
+eRestyle_Subtree
 ;
 }
 return

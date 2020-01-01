@@ -1125,7 +1125,7 @@ NS_EVENT_STATE_VISITED
 )
 {
 return
-eRestyle_Self
+eRestyle_Subtree
 ;
 }
 return
@@ -1232,7 +1232,7 @@ a
 )
 {
 return
-eRestyle_Self
+eRestyle_Subtree
 ;
 }
 if
@@ -1250,7 +1250,7 @@ mAttribute
 )
 {
 return
-eRestyle_Self
+eRestyle_Subtree
 ;
 }
 return

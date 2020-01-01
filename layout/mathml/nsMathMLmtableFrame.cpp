@@ -2184,7 +2184,7 @@ mContent
 AsElement
 (
 )
-eRestyle_Self
+eRestyle_Subtree
 nsChangeHint_ReflowFrame
 )
 ;
@@ -2994,7 +2994,7 @@ mContent
 AsElement
 (
 )
-eRestyle_Self
+eRestyle_Subtree
 nsChangeHint_ReflowFrame
 )
 ;
@@ -3225,7 +3225,7 @@ mContent
 AsElement
 (
 )
-eRestyle_Self
+eRestyle_Subtree
 nsChangeHint_ReflowFrame
 )
 ;

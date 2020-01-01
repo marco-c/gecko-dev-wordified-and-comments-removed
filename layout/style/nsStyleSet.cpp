@@ -5373,7 +5373,7 @@ data
 >
 mHint
 =
-eRestyle_Self
+eRestyle_Subtree
 ;
 return
 PR_FALSE

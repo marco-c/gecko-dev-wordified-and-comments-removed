@@ -286,7 +286,7 @@ nsChangeHint_ReconstructFrame
 enum
 nsRestyleHint
 {
-eRestyle_Self
+eRestyle_Subtree
 =
 0x1
 eRestyle_LaterSiblings

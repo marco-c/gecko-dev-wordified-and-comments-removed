@@ -15045,7 +15045,7 @@ FrameConstructor
 PostRestyleEvent
 (
 aElement
-eRestyle_Self
+eRestyle_Subtree
 nsChangeHint_ReconstructFrame
 )
 ;
@@ -15069,7 +15069,7 @@ FrameConstructor
 PostAnimationRestyleEvent
 (
 aElement
-eRestyle_Self
+eRestyle_Subtree
 NS_STYLE_HINT_NONE
 )
 ;
@@ -20521,7 +20521,7 @@ mDocument
 GetRootElement
 (
 )
-eRestyle_Self
+eRestyle_Subtree
 NS_STYLE_HINT_NONE
 )
 ;
@@ -21101,7 +21101,7 @@ mFrameConstructor
 PostRestyleEvent
 (
 root
-eRestyle_Self
+eRestyle_Subtree
 NS_STYLE_HINT_NONE
 )
 ;

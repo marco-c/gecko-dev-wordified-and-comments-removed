@@ -10229,7 +10229,7 @@ mOperator
 ?
 eRestyle_LaterSiblings
 :
-eRestyle_Self
+eRestyle_Subtree
 ;
 TreeMatchContext
 treeContext
@@ -10409,7 +10409,7 @@ mOperator
 ?
 eRestyle_LaterSiblings
 :
-eRestyle_Self
+eRestyle_Subtree
 ;
 TreeMatchContext
 treeContext
@@ -10577,7 +10577,7 @@ data
 .
 change
 |
-eRestyle_Self
+eRestyle_Subtree
 )
 ;
 }

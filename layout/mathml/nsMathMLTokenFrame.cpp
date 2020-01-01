@@ -1037,7 +1037,7 @@ mContent
 AsElement
 (
 )
-eRestyle_Self
+eRestyle_Subtree
 NS_STYLE_HINT_NONE
 )
 ;
