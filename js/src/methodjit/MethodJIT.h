@@ -2370,6 +2370,11 @@ purgePICs
 )
 ;
 void
+purgeNativeCallStubs
+(
+)
+;
+void
 trace
 (
 JSTracer
