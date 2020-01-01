@@ -108,12 +108,7 @@ SetType
 BiquadFilterType
 aType
 )
-{
-mType
-=
-aType
 ;
-}
 AudioParam
 *
 Frequency
