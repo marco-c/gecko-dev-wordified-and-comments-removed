@@ -13785,6 +13785,7 @@ return
 assignSnapshot
 (
 lir
+Bailout_CachedShapeGuard
 )
 &
 &
@@ -14009,6 +14010,7 @@ return
 assignSnapshot
 (
 lir
+Bailout_CachedShapeGuard
 )
 &
 &
