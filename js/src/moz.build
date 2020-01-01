@@ -342,11 +342,6 @@ jstypes
 h
 '
 '
-jsutil
-.
-h
-'
-'
 jsversion
 .
 h

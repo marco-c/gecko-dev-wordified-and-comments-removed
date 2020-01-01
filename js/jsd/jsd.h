@@ -53,13 +53,6 @@ h
 #
 include
 "
-jsutil
-.
-h
-"
-#
-include
-"
 jshash
 .
 h
