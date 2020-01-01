@@ -424,6 +424,7 @@ DIRS
 =
 public
 idl
+wrappers
 ifdef
 MOZ_JSLOADER
 DIRS

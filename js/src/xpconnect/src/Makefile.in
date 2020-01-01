@@ -432,9 +432,6 @@ mk
 MODULE
 =
 xpconnect
-DIRS
-=
-wrappers
 ifeq
 (
 xpconnect
@@ -708,6 +705,9 @@ I
 srcdir
 )
 /
+.
+.
+/
 wrappers
 \
 -
@@ -848,6 +848,7 @@ SHARED_LIBRARY_LIBS
 +
 =
 \
+.
 .
 /
 wrappers

@@ -402,9 +402,6 @@ DEPTH
 /
 .
 .
-/
-.
-.
 topsrcdir
 =
 top_srcdir
@@ -468,6 +465,8 @@ srcdir
 /
 .
 .
+/
+src
 \
 include
 (
