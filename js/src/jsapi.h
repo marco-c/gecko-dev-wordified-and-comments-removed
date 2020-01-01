@@ -9134,9 +9134,6 @@ JSContext
 cx
 )
 ;
-#
-ifdef
-JS_THREADSAFE
 extern
 JS_PUBLIC_API
 (
@@ -9173,8 +9170,6 @@ JSContext
 cx
 )
 ;
-#
-endif
 #
 ifdef
 DEBUG
