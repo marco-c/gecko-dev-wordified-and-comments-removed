@@ -167,7 +167,7 @@ false
 )
 mStoredStatus
 (
-0
+NS_OK
 )
 mStoredProgress
 (
