@@ -6852,11 +6852,6 @@ nsIApplicationCacheContainer
 NS_INTERFACE_TABLE_ENTRY
 (
 nsDocument
-nsITouchEventReceiver
-)
-NS_INTERFACE_TABLE_ENTRY
-(
-nsDocument
 nsIInlineEventHandlers
 )
 NS_INTERFACE_TABLE_ENTRY
@@ -48328,10 +48323,6 @@ v
 }
 #
 define
-TOUCH_EVENT
-EVENT
-#
-define
 DOCUMENT_ONLY_EVENT
 EVENT
 #
@@ -48344,9 +48335,6 @@ h
 #
 undef
 DOCUMENT_ONLY_EVENT
-#
-undef
-TOUCH_EVENT
 #
 undef
 EVENT

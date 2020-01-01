@@ -1724,8 +1724,6 @@ nsIApplicationCacheContainer
 public
 nsStubMutationObserver
 public
-nsITouchEventReceiver
-public
 nsIInlineEventHandlers
 public
 nsIObserver
@@ -2936,7 +2934,6 @@ GetPrincipal
 MOZ_OVERRIDE
 ;
 NS_DECL_NSIAPPLICATIONCACHECONTAINER
-NS_DECL_NSITOUCHEVENTRECEIVER
 NS_DECL_NSIINLINEEVENTHANDLERS
 NS_DECL_NSIOBSERVER
 virtual
