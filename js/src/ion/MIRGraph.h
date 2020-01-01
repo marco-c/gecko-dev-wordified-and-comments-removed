@@ -232,13 +232,6 @@ ins
 )
 ;
 void
-pushCopy
-(
-uint32
-slot
-)
-;
-void
 pushVariable
 (
 uint32
