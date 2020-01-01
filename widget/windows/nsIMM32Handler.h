@@ -1133,13 +1133,13 @@ mCompositionString
 nsString
 mLastDispatchedCompositionString
 ;
-nsTArray
+InfallibleTArray
 <
 uint32_t
 >
 mClauseArray
 ;
-nsTArray
+InfallibleTArray
 <
 uint8_t
 >
