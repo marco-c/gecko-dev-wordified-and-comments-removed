@@ -276,7 +276,6 @@ NS_ERROR_OUT_OF_MEMORY
 ;
 }
 }
-return
 mSupports
 -
 >
@@ -287,6 +286,9 @@ index
 -
 1
 )
+;
+return
+NS_OK
 ;
 }
 NS_IMETHODIMP
