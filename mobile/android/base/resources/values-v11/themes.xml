@@ -481,7 +481,9 @@ listViewStyle
 >
 style
 /
-GeckoList
+Widget
+.
+ListView
 <
 /
 item
