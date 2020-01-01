@@ -1253,10 +1253,8 @@ nsFrameJSScriptExecutorHolder
 sCachedScripts
 ;
 static
-nsRefPtr
-<
 nsScriptCacheCleaner
->
+*
 sScriptCacheCleaner
 ;
 }
