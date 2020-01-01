@@ -524,6 +524,14 @@ browser_tabview_firstrun_pref
 .
 js
 \
+search1
+.
+html
+\
+search2
+.
+html
+\
 (
 NULL
 )
