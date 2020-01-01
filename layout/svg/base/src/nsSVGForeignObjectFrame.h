@@ -97,15 +97,6 @@ nsIFrame
 aPrevInFlow
 )
 ;
-virtual
-void
-DestroyFrom
-(
-nsIFrame
-*
-aDestructRoot
-)
-;
 NS_IMETHOD
 AttributeChanged
 (
