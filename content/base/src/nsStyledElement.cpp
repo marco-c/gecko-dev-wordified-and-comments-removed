@@ -549,6 +549,7 @@ nsAttrValue
 attrValue
 (
 aStyleRule
+nsnull
 )
 ;
 PRUint8
@@ -1199,6 +1200,8 @@ aResult
 SetTo
 (
 rule
+&
+aValue
 )
 ;
 return

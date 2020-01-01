@@ -295,12 +295,15 @@ nsAString
 aValue
 )
 ;
-explicit
 nsAttrValue
 (
 nsICSSStyleRule
 *
 aValue
+const
+nsAString
+*
+aSerialized
 )
 ;
 #
@@ -427,6 +430,10 @@ SetTo
 nsICSSStyleRule
 *
 aValue
+const
+nsAString
+*
+aSerialized
 )
 ;
 #
