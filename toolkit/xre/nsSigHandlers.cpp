@@ -1934,11 +1934,16 @@ char
 ProgramName
 )
 {
+#
+if
+0
 SetUnhandledExceptionFilter
 (
 FpeHandler
 )
 ;
+#
+endif
 }
 #
 else
