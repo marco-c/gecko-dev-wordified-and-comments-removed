@@ -12,7 +12,9 @@ keys
 CFBundleName
 =
 "
+%
 APP_NAME
+%
 Software
 Update
 "
