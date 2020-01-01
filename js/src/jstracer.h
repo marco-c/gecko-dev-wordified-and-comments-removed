@@ -5076,7 +5076,7 @@ JSObject
 *
 &
 obj2
-jsuword
+PCVal
 &
 pcval
 )
@@ -5121,7 +5121,7 @@ obj2
 PropertyCacheEntry
 *
 entry
-jsuword
+PCVal
 &
 pcval
 )
@@ -5412,7 +5412,7 @@ obj_ins
 JSObject
 *
 obj2
-jsuword
+PCVal
 pcval
 uint32
 *
