@@ -899,6 +899,10 @@ UndoManager
 .
 webidl
 \
+URLUtils
+.
+webidl
+\
 USSDReceivedEvent
 .
 webidl
