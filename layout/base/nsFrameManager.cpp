@@ -8834,3 +8834,9 @@ RemoveUndisplayedEntry
 )
 ;
 }
+PRUint32
+nsFrameManagerBase
+:
+:
+sGlobalGenerationNumber
+;

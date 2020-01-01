@@ -113,6 +113,16 @@ mRootFrame
 aRootFrame
 ;
 }
+static
+PRUint32
+GetGlobalGenerationNumber
+(
+)
+{
+return
+sGlobalGenerationNumber
+;
+}
 protected
 :
 class
@@ -139,6 +149,10 @@ mUndisplayedMap
 ;
 bool
 mIsDestroyingFrames
+;
+static
+PRUint32
+sGlobalGenerationNumber
 ;
 }
 ;

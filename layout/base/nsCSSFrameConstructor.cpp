@@ -33533,6 +33533,10 @@ IncrementDOMGeneration
 }
 +
 +
+sGlobalGenerationNumber
+;
++
++
 mUpdateCount
 ;
 }
