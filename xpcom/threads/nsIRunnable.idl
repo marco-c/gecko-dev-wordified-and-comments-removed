@@ -431,6 +431,7 @@ idl
 "
 [
 scriptable
+function
 uuid
 (
 4a2abaf0
