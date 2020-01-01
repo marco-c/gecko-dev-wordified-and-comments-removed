@@ -415,8 +415,6 @@ lwbrk
 \
 strres
 \
-uconv
-\
 unicharutil
 \
 (
@@ -424,7 +422,14 @@ NULL
 )
 DIRS
 =
+\
+uconv
+\
 build
+\
+(
+NULL
+)
 include
 (
 topsrcdir
