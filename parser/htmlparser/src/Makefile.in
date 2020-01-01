@@ -470,6 +470,14 @@ intl
 \
 xpconnect
 \
+layout
+\
+widget
+\
+caps
+\
+js
+\
 (
 NULL
 )
