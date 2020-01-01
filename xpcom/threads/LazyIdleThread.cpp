@@ -120,13 +120,9 @@ ASSERT_OWNING_THREAD
 )
 #
 endif
-USING_INDEXEDDB_NAMESPACE
-using
+namespace
 mozilla
-:
-:
-MutexAutoLock
-;
+{
 LazyIdleThread
 :
 :
@@ -2042,4 +2038,5 @@ Shutdown
 return
 NS_OK
 ;
+}
 }

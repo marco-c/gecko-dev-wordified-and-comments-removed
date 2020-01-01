@@ -469,6 +469,10 @@ HangMonitor
 .
 cpp
 \
+LazyIdleThread
+.
+cpp
+\
 (
 NULL
 )
@@ -498,6 +502,10 @@ EXPORTS_mozilla
 =
 \
 HangMonitor
+.
+h
+\
+LazyIdleThread
 .
 h
 \

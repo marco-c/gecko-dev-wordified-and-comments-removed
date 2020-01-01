@@ -514,10 +514,6 @@ IndexedDatabaseManager
 .
 cpp
 \
-LazyIdleThread
-.
-cpp
-\
 OpenDatabaseHelper
 .
 cpp
@@ -585,10 +581,6 @@ IDBFactory
 h
 \
 Key
-.
-h
-\
-LazyIdleThread
 .
 h
 \
