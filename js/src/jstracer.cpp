@@ -6749,7 +6749,7 @@ if
 note
 )
 return
-true
+false
 ;
 switch
 (
