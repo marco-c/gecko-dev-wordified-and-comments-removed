@@ -572,7 +572,7 @@ NS_HTML_CONTENT_INTERFACE_TABLE3
 nsHTMLSelectElement
 nsIDOMHTMLSelectElement
 nsISelectElement
-nsConstraintValidation
+nsIConstraintValidation
 )
 NS_HTML_CONTENT_INTERFACE_TABLE_TO_MAP_SEGUE
 (
@@ -587,7 +587,7 @@ NS_IMPL_ELEMENT_CLONE
 (
 nsHTMLSelectElement
 )
-NS_IMPL_NSCONSTRAINTVALIDATION_EXCEPT_SETCUSTOMVALIDITY
+NS_IMPL_NSICONSTRAINTVALIDATION_EXCEPT_SETCUSTOMVALIDITY
 (
 nsHTMLSelectElement
 )
@@ -603,7 +603,7 @@ nsAString
 aError
 )
 {
-nsConstraintValidation
+nsIConstraintValidation
 :
 :
 SetCustomValidity

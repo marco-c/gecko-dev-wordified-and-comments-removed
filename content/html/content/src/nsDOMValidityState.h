@@ -14,7 +14,7 @@ h
 #
 include
 "
-nsConstraintValidation
+nsIConstraintValidation
 .
 h
 "
@@ -30,13 +30,13 @@ NS_DECL_ISUPPORTS
 NS_DECL_NSIDOMVALIDITYSTATE
 friend
 class
-nsConstraintValidation
+nsIConstraintValidation
 ;
 protected
 :
 nsDOMValidityState
 (
-nsConstraintValidation
+nsIConstraintValidation
 *
 aConstraintValidation
 )
@@ -56,7 +56,7 @@ inline
 PRBool
 GetValidityState
 (
-nsConstraintValidation
+nsIConstraintValidation
 :
 :
 ValidityStateType
@@ -77,7 +77,7 @@ aState
 )
 ;
 }
-nsConstraintValidation
+nsIConstraintValidation
 *
 mConstraintValidation
 ;

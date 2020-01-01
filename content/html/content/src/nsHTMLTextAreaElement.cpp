@@ -288,7 +288,7 @@ h
 #
 include
 "
-nsConstraintValidation
+nsIConstraintValidation
 .
 h
 "
@@ -331,7 +331,7 @@ nsIDOMNSEditableElement
 public
 nsStubMutationObserver
 public
-nsConstraintValidation
+nsIConstraintValidation
 {
 public
 :
@@ -1110,7 +1110,7 @@ nsIDOMNSHTMLTextAreaElement
 nsITextControlElement
 nsIDOMNSEditableElement
 nsIMutationObserver
-nsConstraintValidation
+nsIConstraintValidation
 )
 NS_HTML_CONTENT_INTERFACE_TABLE_TO_MAP_SEGUE
 (
@@ -1125,7 +1125,7 @@ NS_IMPL_ELEMENT_CLONE
 (
 nsHTMLTextAreaElement
 )
-NS_IMPL_NSCONSTRAINTVALIDATION_EXCEPT_SETCUSTOMVALIDITY
+NS_IMPL_NSICONSTRAINTVALIDATION_EXCEPT_SETCUSTOMVALIDITY
 (
 nsHTMLTextAreaElement
 )
@@ -4061,7 +4061,7 @@ nsAString
 aError
 )
 {
-nsConstraintValidation
+nsIConstraintValidation
 :
 :
 SetCustomValidity
@@ -4411,7 +4411,7 @@ default
 :
 rv
 =
-nsConstraintValidation
+nsIConstraintValidation
 :
 :
 GetValidationMessage

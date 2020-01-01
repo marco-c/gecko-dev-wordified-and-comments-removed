@@ -671,7 +671,7 @@ nsDOMValidityState
 .
 cpp
 \
-nsConstraintValidation
+nsIConstraintValidation
 .
 cpp
 \

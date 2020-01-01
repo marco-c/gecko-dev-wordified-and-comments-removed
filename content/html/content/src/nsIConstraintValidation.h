@@ -1,9 +1,9 @@
 #
 ifndef
-nsConstraintValidition_h___
+nsIConstraintValidition_h___
 #
 define
-nsConstraintValidition_h___
+nsIConstraintValidition_h___
 #
 include
 "
@@ -36,7 +36,7 @@ nsGenericHTMLFormElement
 ;
 #
 define
-NS_CONSTRAINTVALIDATION_IID
+NS_ICONSTRAINTVALIDATION_IID
 \
 {
 0xca3824dc
@@ -55,7 +55,7 @@ NS_CONSTRAINTVALIDATION_IID
 }
 }
 class
-nsConstraintValidation
+nsIConstraintValidation
 :
 public
 nsISupports
@@ -64,7 +64,7 @@ public
 :
 NS_DECLARE_STATIC_IID_ACCESSOR
 (
-NS_CONSTRAINTVALIDATION_IID
+NS_ICONSTRAINTVALIDATION_IID
 )
 ;
 friend
@@ -73,7 +73,7 @@ nsDOMValidityState
 ;
 virtual
 ~
-nsConstraintValidation
+nsIConstraintValidation
 (
 )
 ;
@@ -127,7 +127,7 @@ VALIDITY_STATE_CUSTOM_ERROR
 0x80
 }
 ;
-nsConstraintValidation
+nsIConstraintValidation
 (
 )
 ;
@@ -253,7 +253,7 @@ mCustomValidity
 ;
 #
 define
-NS_FORWARD_NSCONSTRAINTVALIDATION_EXCEPT_SETCUSTOMVALIDITY
+NS_FORWARD_NSICONSTRAINTVALIDATION_EXCEPT_SETCUSTOMVALIDITY
 \
 NS_IMETHOD
 GetValidity
@@ -266,7 +266,7 @@ aValidity
 {
 \
 return
-nsConstraintValidation
+nsIConstraintValidation
 :
 :
 GetValidity
@@ -310,7 +310,7 @@ aValidationMessage
 {
 \
 return
-nsConstraintValidation
+nsIConstraintValidation
 :
 :
 GetValidationMessage
@@ -331,7 +331,7 @@ aValidity
 {
 \
 return
-nsConstraintValidation
+nsIConstraintValidation
 :
 :
 CheckValidity
@@ -343,9 +343,9 @@ aValidity
 }
 #
 define
-NS_FORWARD_NSCONSTRAINTVALIDATION
+NS_FORWARD_NSICONSTRAINTVALIDATION
 \
-NS_FORWARD_NSCONSTRAINTVALIDATION_EXCEPT_SETCUSTOMVALIDITY
+NS_FORWARD_NSICONSTRAINTVALIDATION_EXCEPT_SETCUSTOMVALIDITY
 \
 NS_IMETHOD
 SetCustomValidity
@@ -357,7 +357,7 @@ aError
 )
 {
 \
-nsConstraintValidation
+nsIConstraintValidation
 :
 :
 SetCustomValidity
@@ -373,7 +373,7 @@ NS_OK
 }
 #
 define
-NS_IMPL_NSCONSTRAINTVALIDATION_EXCEPT_SETCUSTOMVALIDITY
+NS_IMPL_NSICONSTRAINTVALIDATION_EXCEPT_SETCUSTOMVALIDITY
 (
 _from
 )
@@ -392,7 +392,7 @@ aValidity
 {
 \
 return
-nsConstraintValidation
+nsIConstraintValidation
 :
 :
 GetValidity
@@ -442,7 +442,7 @@ aValidationMessage
 {
 \
 return
-nsConstraintValidation
+nsIConstraintValidation
 :
 :
 GetValidationMessage
@@ -466,7 +466,7 @@ aValidity
 {
 \
 return
-nsConstraintValidation
+nsIConstraintValidation
 :
 :
 CheckValidity
@@ -478,12 +478,12 @@ aValidity
 }
 #
 define
-NS_IMPL_NSCONSTRAINTVALIDATION
+NS_IMPL_NSICONSTRAINTVALIDATION
 (
 _from
 )
 \
-NS_IMPL_NSCONSTRAINTVALIDATION_EXCEPT_SETCUSTOMVALIDITY
+NS_IMPL_NSICONSTRAINTVALIDATION_EXCEPT_SETCUSTOMVALIDITY
 (
 _from
 )
@@ -501,7 +501,7 @@ aError
 )
 {
 \
-nsConstraintValidation
+nsIConstraintValidation
 :
 :
 SetCustomValidity
@@ -517,8 +517,8 @@ NS_OK
 }
 NS_DEFINE_STATIC_IID_ACCESSOR
 (
-nsConstraintValidation
-NS_CONSTRAINTVALIDATION_IID
+nsIConstraintValidation
+NS_ICONSTRAINTVALIDATION_IID
 )
 #
 endif

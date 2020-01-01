@@ -36,7 +36,7 @@ h
 #
 include
 "
-nsConstraintValidation
+nsIConstraintValidation
 .
 h
 "
@@ -50,7 +50,7 @@ nsIDOMHTMLOutputElement
 public
 nsStubMutationObserver
 public
-nsConstraintValidation
+nsIConstraintValidation
 {
 public
 :
@@ -276,7 +276,7 @@ NS_HTML_CONTENT_INTERFACE_TABLE3
 nsHTMLOutputElement
 nsIDOMHTMLOutputElement
 nsIMutationObserver
-nsConstraintValidation
+nsIConstraintValidation
 )
 NS_HTML_CONTENT_INTERFACE_TABLE_TO_MAP_SEGUE
 (
@@ -297,7 +297,7 @@ nsHTMLOutputElement
 Name
 name
 )
-NS_IMPL_NSCONSTRAINTVALIDATION
+NS_IMPL_NSICONSTRAINTVALIDATION
 (
 nsHTMLOutputElement
 )

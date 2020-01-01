@@ -70,7 +70,7 @@ h
 #
 include
 "
-nsConstraintValidation
+nsIConstraintValidation
 .
 h
 "
@@ -219,7 +219,7 @@ nsIDOMNSEditableElement
 public
 nsIFileControlElement
 public
-nsConstraintValidation
+nsIConstraintValidation
 {
 public
 :

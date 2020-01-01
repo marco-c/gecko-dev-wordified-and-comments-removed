@@ -1130,7 +1130,7 @@ imgIDecoderObserver
 nsIImageLoadingContent
 imgIContainerObserver
 nsIDOMNSEditableElement
-nsConstraintValidation
+nsIConstraintValidation
 )
 NS_HTML_CONTENT_INTERFACE_TABLE_TO_MAP_SEGUE
 (
@@ -1141,7 +1141,7 @@ NS_HTML_CONTENT_INTERFACE_TABLE_TAIL_CLASSINFO
 (
 HTMLInputElement
 )
-NS_IMPL_NSCONSTRAINTVALIDATION_EXCEPT_SETCUSTOMVALIDITY
+NS_IMPL_NSICONSTRAINTVALIDATION_EXCEPT_SETCUSTOMVALIDITY
 (
 nsHTMLInputElement
 )
@@ -11947,7 +11947,7 @@ nsAString
 aError
 )
 {
-nsConstraintValidation
+nsIConstraintValidation
 :
 :
 SetCustomValidity
@@ -12956,7 +12956,7 @@ default
 :
 rv
 =
-nsConstraintValidation
+nsIConstraintValidation
 :
 :
 GetValidationMessage

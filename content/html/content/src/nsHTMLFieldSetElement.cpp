@@ -50,7 +50,7 @@ h
 #
 include
 "
-nsConstraintValidation
+nsIConstraintValidation
 .
 h
 "
@@ -62,7 +62,7 @@ nsGenericHTMLFormElement
 public
 nsIDOMHTMLFieldSetElement
 public
-nsConstraintValidation
+nsIConstraintValidation
 {
 public
 :
@@ -215,7 +215,7 @@ NS_HTML_CONTENT_INTERFACE_TABLE2
 (
 nsHTMLFieldSetElement
 nsIDOMHTMLFieldSetElement
-nsConstraintValidation
+nsIConstraintValidation
 )
 NS_HTML_CONTENT_INTERFACE_TABLE_TO_MAP_SEGUE
 (
@@ -226,7 +226,7 @@ NS_HTML_CONTENT_INTERFACE_TABLE_TAIL_CLASSINFO
 (
 HTMLFieldSetElement
 )
-NS_IMPL_NSCONSTRAINTVALIDATION
+NS_IMPL_NSICONSTRAINTVALIDATION
 (
 nsHTMLFieldSetElement
 )
