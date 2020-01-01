@@ -6884,6 +6884,7 @@ CSS_PSEUDO_CLASS
 (
 _name
 _value
+_pref
 )
 \
 nsEventStates
@@ -6895,6 +6896,7 @@ CSS_STATE_DEPENDENT_PSEUDO_CLASS
 (
 _name
 _value
+_pref
 _states
 )
 \
@@ -6934,6 +6936,7 @@ CSS_PSEUDO_CLASS
 (
 _name
 _value
+_pref
 )
 \
 nsEventStates
@@ -6945,6 +6948,7 @@ CSS_STATE_PSEUDO_CLASS
 (
 _name
 _value
+_pref
 _states
 )
 \
