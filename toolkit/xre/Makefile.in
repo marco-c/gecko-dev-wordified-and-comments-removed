@@ -787,8 +787,6 @@ DEPTH
 /
 widget
 /
-src
-/
 xremoteclient
 /
 (
@@ -809,8 +807,6 @@ topsrcdir
 )
 /
 widget
-/
-src
 /
 xremoteclient
 endif

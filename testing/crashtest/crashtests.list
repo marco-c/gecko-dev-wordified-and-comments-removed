@@ -729,8 +729,6 @@ include
 /
 widget
 /
-src
-/
 cocoa
 /
 crashtests
@@ -747,8 +745,6 @@ include
 /
 widget
 /
-src
-/
 gtk2
 /
 crashtests
@@ -764,8 +760,6 @@ include
 .
 /
 widget
-/
-src
 /
 crashtests
 /

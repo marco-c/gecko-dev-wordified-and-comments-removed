@@ -609,8 +609,6 @@ tier_platform_dirs
 =
 widget
 /
-src
-/
 gtkxtbin
 endif
 endif
@@ -844,8 +842,6 @@ tier_platform_dirs
 +
 =
 widget
-/
-src
 /
 xremoteclient
 endif

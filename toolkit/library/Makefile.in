@@ -763,8 +763,6 @@ topsrcdir
 /
 widget
 /
-src
-/
 windows
 LOCAL_INCLUDES
 +
@@ -848,8 +846,6 @@ topsrcdir
 /
 widget
 /
-src
-/
 os2
 LOCAL_INCLUDES
 +
@@ -861,8 +857,6 @@ topsrcdir
 )
 /
 widget
-/
-src
 /
 os2
 LOCAL_INCLUDES
@@ -2160,8 +2154,6 @@ LIBXUL_DIST
 /
 widget
 /
-src
-/
 qt
 /
 faststartupqt
@@ -2371,8 +2363,6 @@ INSTALL
 need
 widget
 /
-src
-/
 windows
 for
 resource
@@ -2405,8 +2395,6 @@ topsrcdir
 /
 widget
 /
-src
-/
 windows
 \
 -
@@ -2416,8 +2404,6 @@ topsrcdir
 )
 /
 widget
-/
-src
 /
 build
 \

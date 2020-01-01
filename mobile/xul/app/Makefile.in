@@ -552,8 +552,6 @@ LIBXUL_DIST
 /
 widget
 /
-src
-/
 qt
 /
 faststartupqt
@@ -584,8 +582,6 @@ topsrcdir
 )
 /
 widget
-/
-src
 /
 qt
 /
