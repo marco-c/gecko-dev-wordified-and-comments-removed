@@ -2185,7 +2185,6 @@ if
 (
 ret
 <
-=
 0
 )
 {
@@ -2275,6 +2274,11 @@ t
 return
 ;
 }
+if
+(
+ret
+)
+{
 mIncoming
 =
 new
@@ -2315,6 +2319,7 @@ NS_DispatchToMainThread
 t
 )
 ;
+}
 if
 (
 ret
