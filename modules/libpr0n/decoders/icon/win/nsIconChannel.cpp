@@ -1,6 +1,15 @@
 #
 include
 "
+mozilla
+/
+Util
+.
+h
+"
+#
+include
+"
 nsIconChannel
 .
 h
@@ -172,6 +181,10 @@ wchar
 .
 h
 >
+using
+namespace
+mozilla
+;
 struct
 ICONFILEHEADER
 {
@@ -989,7 +1002,7 @@ get
 (
 )
 fileNativePath
-NS_ARRAY_LENGTH
+ArrayLength
 (
 fileNativePath
 )
@@ -1039,7 +1052,7 @@ GetShortPathNameW
 (
 specialNativePath
 specialNativePath
-NS_ARRAY_LENGTH
+ArrayLength
 (
 specialNativePath
 )

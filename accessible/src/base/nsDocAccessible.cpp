@@ -266,13 +266,9 @@ h
 "
 #
 endif
+using
 namespace
-dom
-=
 mozilla
-:
-:
-dom
 ;
 using
 namespace

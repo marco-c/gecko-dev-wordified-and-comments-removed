@@ -1,6 +1,15 @@
 #
 include
 "
+mozilla
+/
+Util
+.
+h
+"
+#
+include
+"
 nsCOMPtr
 .
 h
@@ -4434,7 +4443,7 @@ nsContentUtils
 eXBL_PROPERTIES
 aMessageName
 params
-NS_ARRAY_LENGTH
+ArrayLength
 (
 params
 )

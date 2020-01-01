@@ -20,6 +20,15 @@ h
 #
 include
 "
+mozilla
+/
+Util
+.
+h
+"
+#
+include
+"
 prtypes
 .
 h
@@ -7268,7 +7277,7 @@ AutoArrayRooter
 tvr
 (
 cx
-NS_ARRAY_LENGTH
+ArrayLength
 (
 vec
 )

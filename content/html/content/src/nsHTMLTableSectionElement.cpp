@@ -1,6 +1,15 @@
 #
 include
 "
+mozilla
+/
+Util
+.
+h
+"
+#
+include
+"
 nsIDOMHTMLTableSectionElem
 .
 h
@@ -82,6 +91,10 @@ nsContentUtils
 .
 h
 "
+using
+namespace
+mozilla
+;
 class
 nsHTMLTableSectionElement
 :
@@ -1250,7 +1263,7 @@ FindAttributeDependence
 (
 aAttribute
 map
-NS_ARRAY_LENGTH
+ArrayLength
 (
 map
 )

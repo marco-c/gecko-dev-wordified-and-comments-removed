@@ -12,6 +12,15 @@ h
 #
 include
 "
+mozilla
+/
+Util
+.
+h
+"
+#
+include
+"
 nsXULAppAPI
 .
 h
@@ -4615,7 +4624,7 @@ pref_LoadPrefsInDir
 (
 defaultPrefDir
 specialFiles
-NS_ARRAY_LENGTH
+ArrayLength
 (
 specialFiles
 )

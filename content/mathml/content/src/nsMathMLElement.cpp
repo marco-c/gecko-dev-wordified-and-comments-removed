@@ -1,6 +1,15 @@
 #
 include
 "
+mozilla
+/
+Util
+.
+h
+"
+#
+include
+"
 nsMathMLElement
 .
 h
@@ -89,6 +98,10 @@ mozAutoDocUpdate
 .
 h
 "
+using
+namespace
+mozilla
+;
 DOMCI_NODE_DATA
 (
 MathMLElement
@@ -633,7 +646,7 @@ FindAttributeDependence
 (
 aAttribute
 tokenMap
-NS_ARRAY_LENGTH
+ArrayLength
 (
 tokenMap
 )
@@ -663,7 +676,7 @@ FindAttributeDependence
 (
 aAttribute
 mstyleMap
-NS_ARRAY_LENGTH
+ArrayLength
 (
 mstyleMap
 )
@@ -883,7 +896,7 @@ FindAttributeDependence
 (
 aAttribute
 commonPresMap
-NS_ARRAY_LENGTH
+ArrayLength
 (
 commonPresMap
 )
@@ -1916,7 +1929,7 @@ i
 ;
 i
 <
-NS_ARRAY_LENGTH
+ArrayLength
 (
 sizes
 )

@@ -12,6 +12,15 @@ h
 #
 include
 "
+mozilla
+/
+Util
+.
+h
+"
+#
+include
+"
 nsWindow
 .
 h
@@ -27434,7 +27443,7 @@ GetUniChars
 (
 uniChars
 shiftStates
-NS_ARRAY_LENGTH
+ArrayLength
 (
 uniChars
 )
@@ -27479,7 +27488,7 @@ GetUniCharsWithShiftState
 virtualKeyCode
 capsLockState
 unshiftedChars
-NS_ARRAY_LENGTH
+ArrayLength
 (
 unshiftedChars
 )
@@ -27496,7 +27505,7 @@ capsLockState
 |
 eShift
 shiftedChars
-NS_ARRAY_LENGTH
+ArrayLength
 (
 shiftedChars
 )
@@ -28624,7 +28633,7 @@ i
 ;
 i
 <
-NS_ARRAY_LENGTH
+ArrayLength
 (
 sModifierKeyMap
 )
@@ -30647,7 +30656,7 @@ pGetProcessImageFileName
 (
 hProcess
 path
-NS_ARRAY_LENGTH
+ArrayLength
 (
 path
 )

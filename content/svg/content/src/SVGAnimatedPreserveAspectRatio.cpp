@@ -1,6 +1,15 @@
 #
 include
 "
+mozilla
+/
+Util
+.
+h
+"
+#
+include
+"
 SVGAnimatedPreserveAspectRatio
 .
 h
@@ -254,7 +263,7 @@ i
 ;
 i
 <
-NS_ARRAY_LENGTH
+ArrayLength
 (
 sAlignStrings
 )
@@ -366,7 +375,7 @@ i
 ;
 i
 <
-NS_ARRAY_LENGTH
+ArrayLength
 (
 sMeetOrSliceStrings
 )

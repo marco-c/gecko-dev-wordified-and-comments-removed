@@ -1,6 +1,15 @@
 #
 include
 "
+mozilla
+/
+Util
+.
+h
+"
+#
+include
+"
 nsSVGElement
 .
 h
@@ -9562,7 +9571,7 @@ aDocument
 AttributeParseWarning
 "
 strings
-NS_ARRAY_LENGTH
+ArrayLength
 (
 strings
 )

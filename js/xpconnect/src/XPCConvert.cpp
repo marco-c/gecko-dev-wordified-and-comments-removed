@@ -1,6 +1,15 @@
 #
 include
 "
+mozilla
+/
+Util
+.
+h
+"
+#
+include
+"
 xpcprivate
 .
 h
@@ -75,6 +84,10 @@ nsWrapperCacheInlines
 .
 h
 "
+using
+namespace
+mozilla
+;
 #
 ifdef
 STRICT_CHECK_OF_UNICODE
@@ -3490,7 +3503,7 @@ VOID_STRING
 ;
 length
 =
-NS_ARRAY_LENGTH
+ArrayLength
 (
 VOID_STRING
 )

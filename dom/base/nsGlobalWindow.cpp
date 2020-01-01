@@ -10,6 +10,15 @@ h
 #
 include
 "
+mozilla
+/
+Util
+.
+h
+"
+#
+include
+"
 nsGlobalWindow
 .
 h
@@ -18564,7 +18573,7 @@ eCOMMON_DIALOG_PROPERTIES
 ScriptDlgHeading
 "
 formatStrings
-NS_ARRAY_LENGTH
+ArrayLength
 (
 formatStrings
 )

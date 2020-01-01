@@ -1,6 +1,15 @@
 #
 include
 "
+mozilla
+/
+Util
+.
+h
+"
+#
+include
+"
 nsCOMPtr
 .
 h
@@ -247,6 +256,10 @@ Element
 .
 h
 "
+using
+namespace
+mozilla
+;
 class
 nsXBLAttributeEntry
 {
@@ -649,7 +662,7 @@ Point
 Entries
 "
 kBucketSizes
-NS_ARRAY_LENGTH
+ArrayLength
 (
 kBucketSizes
 )

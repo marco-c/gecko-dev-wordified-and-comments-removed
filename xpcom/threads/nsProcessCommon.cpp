@@ -1,6 +1,15 @@
 #
 include
 "
+mozilla
+/
+Util
+.
+h
+"
+#
+include
+"
 nsCOMPtr
 .
 h
@@ -2081,7 +2090,7 @@ NS_ERROR_FAILURE
 size_t
 attr_count
 =
-NS_ARRAY_LENGTH
+ArrayLength
 (
 pref_cpu_types
 )

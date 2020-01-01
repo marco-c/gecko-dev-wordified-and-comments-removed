@@ -1,4 +1,13 @@
 #
+include
+"
+mozilla
+/
+Util
+.
+h
+"
+#
 ifdef
 MOZ_LOGGING
 #
@@ -7560,7 +7569,7 @@ if
 (
 nsid
 <
-NS_ARRAY_LENGTH
+ArrayLength
 (
 kNSURIs
 )

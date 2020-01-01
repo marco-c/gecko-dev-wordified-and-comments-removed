@@ -1,6 +1,15 @@
 #
 include
 "
+mozilla
+/
+Util
+.
+h
+"
+#
+include
+"
 nsXMLHttpRequest
 .
 h
@@ -453,6 +462,10 @@ nsIFileChannel
 .
 h
 "
+using
+namespace
+mozilla
+;
 #
 define
 LOAD_STR
@@ -4952,7 +4965,7 @@ i
 ;
 i
 <
-NS_ARRAY_LENGTH
+ArrayLength
 (
 kCrossOriginSafeHeaders
 )
@@ -10726,7 +10739,7 @@ i
 ;
 i
 <
-NS_ARRAY_LENGTH
+ArrayLength
 (
 kInvalidHeaders
 )
@@ -10870,7 +10883,7 @@ i
 ;
 i
 <
-NS_ARRAY_LENGTH
+ArrayLength
 (
 kCrossOriginSafeHeaders
 )

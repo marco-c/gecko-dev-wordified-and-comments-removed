@@ -3,6 +3,15 @@ include
 "
 mozilla
 /
+Util
+.
+h
+"
+#
+include
+"
+mozilla
+/
 css
 /
 Declaration
@@ -1490,9 +1499,7 @@ subproptables
 *
 subprops_end
 =
-subproptables
-+
-NS_ARRAY_LENGTH
+ArrayEnd
 (
 subproptables
 )

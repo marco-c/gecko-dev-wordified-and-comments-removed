@@ -1,6 +1,15 @@
 #
 include
 "
+mozilla
+/
+Util
+.
+h
+"
+#
+include
+"
 MoreTestingAtoms
 .
 h
@@ -118,7 +127,10 @@ AddRefAtoms
 NS_RegisterStaticAtoms
 (
 MoreTestingAtoms_info
-NS_ARRAY_LENGTH
+mozilla
+:
+:
+ArrayLength
 (
 MoreTestingAtoms_info
 )

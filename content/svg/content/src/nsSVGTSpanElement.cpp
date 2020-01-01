@@ -1,6 +1,15 @@
 #
 include
 "
+mozilla
+/
+Util
+.
+h
+"
+#
+include
+"
 nsGkAtoms
 .
 h
@@ -33,6 +42,10 @@ nsContentUtils
 .
 h
 "
+using
+namespace
+mozilla
+;
 typedef
 nsSVGTextPositioningElement
 nsSVGTSpanElementBase
@@ -253,7 +266,7 @@ FindAttributeDependence
 (
 name
 map
-NS_ARRAY_LENGTH
+ArrayLength
 (
 map
 )

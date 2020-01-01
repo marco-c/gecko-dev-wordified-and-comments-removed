@@ -1,6 +1,15 @@
 #
 include
 "
+mozilla
+/
+Util
+.
+h
+"
+#
+include
+"
 nspr
 .
 h
@@ -498,6 +507,10 @@ nsWebBrowserPersist
 .
 h
 "
+using
+namespace
+mozilla
+;
 #
 define
 BUFFERED_OUTPUT_SIZE
@@ -15809,7 +15822,7 @@ i
 ;
 i
 <
-NS_ARRAY_LENGTH
+ArrayLength
 (
 kSpecialXHTMLTags
 )

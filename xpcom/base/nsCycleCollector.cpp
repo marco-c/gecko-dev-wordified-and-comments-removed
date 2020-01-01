@@ -38,6 +38,15 @@ h
 #
 include
 "
+mozilla
+/
+Util
+.
+h
+"
+#
+include
+"
 nsCycleCollectionParticipant
 .
 h
@@ -2612,7 +2621,7 @@ i
 ;
 i
 <
-NS_ARRAY_LENGTH
+ArrayLength
 (
 aBlock
 -
@@ -2652,7 +2661,7 @@ i
 }
 entries
 [
-NS_ARRAY_LENGTH
+ArrayLength
 (
 aBlock
 -
@@ -2775,9 +2784,7 @@ mEntries
 *
 eEnd
 =
-e
-+
-NS_ARRAY_LENGTH
+ArrayEnd
 (
 b
 -
@@ -3408,9 +3415,7 @@ mEntries
 *
 eEnd
 =
-e
-+
-NS_ARRAY_LENGTH
+ArrayEnd
 (
 b
 -
@@ -7056,9 +7061,7 @@ mEntries
 *
 eEnd
 =
-e
-+
-NS_ARRAY_LENGTH
+ArrayEnd
 (
 b
 -

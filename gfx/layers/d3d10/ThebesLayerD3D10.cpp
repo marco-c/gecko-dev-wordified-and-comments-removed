@@ -12,6 +12,15 @@ h
 #
 include
 "
+mozilla
+/
+Util
+.
+h
+"
+#
+include
+"
 ThebesLayerD3D10
 .
 h
@@ -1664,7 +1673,7 @@ new
 gfxTeeSurface
 (
 surfaces
-NS_ARRAY_LENGTH
+ArrayLength
 (
 surfaces
 )

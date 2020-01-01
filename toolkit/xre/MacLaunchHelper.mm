@@ -433,6 +433,15 @@ BLOCK
 #
 include
 "
+mozilla
+/
+Util
+.
+h
+"
+#
+include
+"
 prtypes
 .
 h
@@ -486,6 +495,10 @@ crt_externs
 .
 h
 >
+using
+namespace
+mozilla
+;
 namespace
 {
 cpu_type_t
@@ -682,7 +695,7 @@ pref_cpu_types
 size_t
 attr_count
 =
-NS_ARRAY_LENGTH
+ArrayLength
 (
 pref_cpu_types
 )
@@ -703,7 +716,7 @@ cpu_i386_types
 ;
 attr_count
 =
-NS_ARRAY_LENGTH
+ArrayLength
 (
 cpu_i386_types
 )
@@ -726,7 +739,7 @@ cpu_x64_86_types
 ;
 attr_count
 =
-NS_ARRAY_LENGTH
+ArrayLength
 (
 cpu_x64_86_types
 )

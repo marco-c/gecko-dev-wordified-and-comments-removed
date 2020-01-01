@@ -40,6 +40,15 @@ include
 "
 mozilla
 /
+Util
+.
+h
+"
+#
+include
+"
+mozilla
+/
 ipc
 /
 SyncChannel
@@ -234,6 +243,10 @@ h
 "
 #
 endif
+using
+namespace
+mozilla
+;
 using
 namespace
 mozilla
@@ -7812,7 +7825,7 @@ GetClassNameW
 (
 hWnd
 szClass
-NS_ARRAY_LENGTH
+ArrayLength
 (
 szClass
 )

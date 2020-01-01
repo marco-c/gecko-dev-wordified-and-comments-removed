@@ -1,6 +1,15 @@
 #
 include
 "
+mozilla
+/
+Util
+.
+h
+"
+#
+include
+"
 prtypes
 .
 h
@@ -124,6 +133,10 @@ nsUnicodeRange
 .
 h
 "
+using
+namespace
+mozilla
+;
 CTFontDescriptorRef
 gfxCoreTextShaper
 :
@@ -2359,7 +2372,7 @@ void
 *
 )
 values
-NS_ARRAY_LENGTH
+ArrayLength
 (
 keys
 )
@@ -2424,7 +2437,7 @@ void
 *
 )
 values
-NS_ARRAY_LENGTH
+ArrayLength
 (
 keys
 )
@@ -2463,7 +2476,7 @@ void
 *
 )
 featureSettings
-NS_ARRAY_LENGTH
+ArrayLength
 (
 featureSettings
 )
@@ -2533,7 +2546,7 @@ void
 *
 )
 attrValues
-NS_ARRAY_LENGTH
+ArrayLength
 (
 attrKeys
 )
@@ -2664,7 +2677,7 @@ void
 *
 )
 values
-NS_ARRAY_LENGTH
+ArrayLength
 (
 keys
 )

@@ -1,6 +1,15 @@
 #
 include
 "
+mozilla
+/
+Util
+.
+h
+"
+#
+include
+"
 nsPlaintextEditor
 .
 h
@@ -187,6 +196,10 @@ nsContentUtils
 .
 h
 "
+using
+namespace
+mozilla
+;
 NS_IMETHODIMP
 nsPlaintextEditor
 :
@@ -1920,7 +1933,7 @@ clipboard
 HasDataMatchingFlavors
 (
 textEditorFlavors
-NS_ARRAY_LENGTH
+ArrayLength
 (
 textEditorFlavors
 )

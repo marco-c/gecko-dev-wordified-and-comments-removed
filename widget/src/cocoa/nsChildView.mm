@@ -481,6 +481,15 @@ BLOCK
 *
 /
 #
+include
+"
+mozilla
+/
+Util
+.
+h
+"
+#
 ifdef
 MOZ_LOGGING
 #
@@ -756,6 +765,10 @@ ApplicationServices
 .
 h
 >
+using
+namespace
+mozilla
+;
 using
 namespace
 mozilla
@@ -9559,7 +9572,7 @@ i
 ;
 i
 <
-NS_ARRAY_LENGTH
+ArrayLength
 (
 eventTypes
 )

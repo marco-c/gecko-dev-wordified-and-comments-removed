@@ -1,6 +1,15 @@
 #
 include
 "
+mozilla
+/
+Util
+.
+h
+"
+#
+include
+"
 nsIAtom
 .
 h
@@ -110,6 +119,10 @@ txMozillaXMLOutput
 .
 h
 "
+using
+namespace
+mozilla
+;
 class
 txStylesheetCompilerState
 ;
@@ -3719,7 +3732,7 @@ i
 ;
 i
 <
-NS_ARRAY_LENGTH
+ArrayLength
 (
 descriptTable
 )
@@ -3806,7 +3819,7 @@ i
 ;
 i
 <
-NS_ARRAY_LENGTH
+ArrayLength
 (
 descriptTable
 )

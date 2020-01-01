@@ -8,6 +8,15 @@ h
 #
 include
 "
+mozilla
+/
+Util
+.
+h
+"
+#
+include
+"
 nsCSSScanner
 .
 h
@@ -1273,7 +1282,7 @@ CSS_REPORT_PARSE_ERRORS
 mError
 (
 mErrorBuf
-NS_ARRAY_LENGTH
+ArrayLength
 (
 mErrorBuf
 )
@@ -1309,7 +1318,7 @@ mLocalPushback
 ;
 mPushbackSize
 =
-NS_ARRAY_LENGTH
+ArrayLength
 (
 mLocalPushback
 )
@@ -2355,7 +2364,7 @@ get
 (
 )
 params
-NS_ARRAY_LENGTH
+ArrayLength
 (
 params
 )
@@ -2441,7 +2450,7 @@ get
 (
 )
 params
-NS_ARRAY_LENGTH
+ArrayLength
 (
 params
 )
@@ -2503,7 +2512,7 @@ ReportUnexpectedParams
 (
 aMessage
 params
-NS_ARRAY_LENGTH
+ArrayLength
 (
 params
 )
@@ -2678,7 +2687,7 @@ mLocalPushback
 ;
 mPushbackSize
 =
-NS_ARRAY_LENGTH
+ArrayLength
 (
 mLocalPushback
 )

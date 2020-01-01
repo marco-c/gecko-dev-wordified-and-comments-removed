@@ -1,6 +1,15 @@
 #
 include
 "
+mozilla
+/
+Util
+.
+h
+"
+#
+include
+"
 nsNullPrincipal
 .
 h
@@ -68,6 +77,10 @@ nsScriptSecurityManager
 .
 h
 "
+using
+namespace
+mozilla
+;
 NS_IMPL_CLASSINFO
 (
 nsNullPrincipal
@@ -315,7 +328,7 @@ NSID_LENGTH
 PRUint32
 prefixLen
 =
-NS_ARRAY_LENGTH
+ArrayLength
 (
 NS_NULLPRINCIPAL_PREFIX
 )

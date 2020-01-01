@@ -383,6 +383,15 @@ secport
 .
 h
 "
+#
+include
+"
+mozilla
+/
+Util
+.
+h
+"
 using
 namespace
 mozilla
@@ -4905,7 +4914,7 @@ PIPBundleFormatStringFromName
 (
 key
 params
-NS_ARRAY_LENGTH
+ArrayLength
 (
 params
 )

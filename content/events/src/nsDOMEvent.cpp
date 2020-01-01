@@ -10,6 +10,15 @@ h
 #
 include
 "
+mozilla
+/
+Util
+.
+h
+"
+#
+include
+"
 IPC
 /
 IPCMessageUtils
@@ -1929,7 +1938,7 @@ nsContentUtils
 eDOM_PROPERTIES
 aWarning
 strings
-NS_ARRAY_LENGTH
+ArrayLength
 (
 strings
 )

@@ -1,6 +1,15 @@
 #
 include
 "
+mozilla
+/
+Util
+.
+h
+"
+#
+include
+"
 nscore
 .
 h
@@ -113,6 +122,10 @@ nsRDFPropertyTestNode
 .
 h
 "
+using
+namespace
+mozilla
+;
 bool
 MemoryElement
 :
@@ -174,7 +187,7 @@ Init
 MemoryElement
 "
 bucketsizes
-NS_ARRAY_LENGTH
+ArrayLength
 (
 bucketsizes
 )
