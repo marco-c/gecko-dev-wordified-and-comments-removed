@@ -617,6 +617,16 @@ true
 Gecko
 .
 ImageView
+android
+:
+id
+=
+"
++
+id
+/
+awesome_bar_entry
+"
 style
 =
 "
