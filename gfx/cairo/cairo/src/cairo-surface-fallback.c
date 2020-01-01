@@ -3582,7 +3582,6 @@ _cairo_surface_release_source_image
 (
 surface
 image
-&
 image_extra
 )
 ;
@@ -3642,7 +3641,6 @@ _cairo_surface_release_source_image
 (
 surface
 image
-&
 image_extra
 )
 ;

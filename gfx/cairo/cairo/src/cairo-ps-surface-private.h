@@ -90,6 +90,9 @@ dsc_comment_target
 cairo_ps_level_t
 ps_level
 ;
+cairo_ps_level_t
+ps_level_used
+;
 cairo_surface_t
 *
 paginated_surface

@@ -42,7 +42,7 @@ CAIRO_FIXED_BITS
 #
 define
 CAIRO_FIXED_FRAC_BITS
-8
+16
 typedef
 int32_t
 cairo_fixed_t

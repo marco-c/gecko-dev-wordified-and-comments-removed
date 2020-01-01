@@ -5532,9 +5532,7 @@ status
 cairo_bo_edge_t
 stack_edges
 [
-CAIRO_STACK_BUFFER_SIZE
-/
-sizeof
+CAIRO_STACK_ARRAY_LENGTH
 (
 cairo_bo_edge_t
 )

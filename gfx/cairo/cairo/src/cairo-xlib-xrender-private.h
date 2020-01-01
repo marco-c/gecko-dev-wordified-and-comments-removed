@@ -5,13 +5,6 @@ CAIRO_XLIB_XRENDER_PRIVATE_H
 define
 CAIRO_XLIB_XRENDER_PRIVATE_H
 #
-include
-"
-cairoint
-.
-h
-"
-#
 if
 CAIRO_HAS_XLIB_XRENDER_SURFACE
 #
@@ -25,11 +18,6 @@ xrender
 .
 h
 "
-slim_hidden_proto
-(
-cairo_xlib_surface_create_with_xrender_format
-)
-;
 #
 include
 <

@@ -13,7 +13,7 @@ h
 >
 #
 if
-CAIRO_HAS_XLIB_SURFACE
+CAIRO_HAS_XLIB_XRENDER_SURFACE
 #
 include
 <
@@ -71,6 +71,7 @@ support
 for
 the
 xlib
+XRender
 backend
 #
 endif

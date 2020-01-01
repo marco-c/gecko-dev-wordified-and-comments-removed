@@ -98,6 +98,39 @@ h
 >
 #
 endif
+#
+if
+defined
+(
+__GNUC__
+)
+&
+&
+__GNUC__
+>
+=
+4
+#
+define
+PIXMAN_EXPORT
+__attribute__
+(
+(
+visibility
+(
+"
+default
+"
+)
+)
+)
+#
+else
+#
+define
+PIXMAN_EXPORT
+#
+endif
 typedef
 int
 pixman_bool_t
@@ -561,6 +594,7 @@ PIXMAN_OP_CONJOINT_ATOP_REVERSE
 PIXMAN_OP_CONJOINT_XOR
 =
 0x2b
+PIXMAN_OP_NONE
 }
 pixman_op_t
 ;
@@ -640,6 +674,7 @@ PIXMAN_REGION_PART
 }
 pixman_region_overlap_t
 ;
+PIXMAN_EXPORT
 void
 pixman_region_set_static_pointers
 (
@@ -654,6 +689,7 @@ pixman_region16_data_t
 broken_data
 )
 ;
+PIXMAN_EXPORT
 void
 pixman_region_init
 (
@@ -662,6 +698,7 @@ pixman_region16_t
 region
 )
 ;
+PIXMAN_EXPORT
 void
 pixman_region_init_rect
 (
@@ -680,6 +717,7 @@ int
 height
 )
 ;
+PIXMAN_EXPORT
 void
 pixman_region_init_with_extents
 (
@@ -691,6 +729,7 @@ pixman_box16_t
 extents
 )
 ;
+PIXMAN_EXPORT
 void
 pixman_region_fini
 (
@@ -699,6 +738,7 @@ pixman_region16_t
 region
 )
 ;
+PIXMAN_EXPORT
 void
 pixman_region_translate
 (
@@ -711,6 +751,7 @@ int
 y
 )
 ;
+PIXMAN_EXPORT
 pixman_bool_t
 pixman_region_copy
 (
@@ -722,6 +763,7 @@ pixman_region16_t
 source
 )
 ;
+PIXMAN_EXPORT
 pixman_bool_t
 pixman_region_intersect
 (
@@ -736,6 +778,7 @@ pixman_region16_t
 reg2
 )
 ;
+PIXMAN_EXPORT
 pixman_bool_t
 pixman_region_union
 (
@@ -750,6 +793,7 @@ pixman_region16_t
 reg2
 )
 ;
+PIXMAN_EXPORT
 pixman_bool_t
 pixman_region_union_rect
 (
@@ -771,6 +815,7 @@ int
 height
 )
 ;
+PIXMAN_EXPORT
 pixman_bool_t
 pixman_region_subtract
 (
@@ -785,6 +830,7 @@ pixman_region16_t
 regS
 )
 ;
+PIXMAN_EXPORT
 pixman_bool_t
 pixman_region_inverse
 (
@@ -799,6 +845,7 @@ pixman_box16_t
 invRect
 )
 ;
+PIXMAN_EXPORT
 pixman_bool_t
 pixman_region_contains_point
 (
@@ -814,6 +861,7 @@ pixman_box16_t
 box
 )
 ;
+PIXMAN_EXPORT
 pixman_region_overlap_t
 pixman_region_contains_rectangle
 (
@@ -825,6 +873,7 @@ pixman_box16_t
 prect
 )
 ;
+PIXMAN_EXPORT
 pixman_bool_t
 pixman_region_not_empty
 (
@@ -833,6 +882,7 @@ pixman_region16_t
 region
 )
 ;
+PIXMAN_EXPORT
 pixman_box16_t
 *
 pixman_region_extents
@@ -842,6 +892,7 @@ pixman_region16_t
 region
 )
 ;
+PIXMAN_EXPORT
 int
 pixman_region_n_rects
 (
@@ -850,6 +901,7 @@ pixman_region16_t
 region
 )
 ;
+PIXMAN_EXPORT
 pixman_box16_t
 *
 pixman_region_rectangles
@@ -862,6 +914,7 @@ int
 n_rects
 )
 ;
+PIXMAN_EXPORT
 pixman_bool_t
 pixman_region_equal
 (
@@ -873,6 +926,7 @@ pixman_region16_t
 region2
 )
 ;
+PIXMAN_EXPORT
 pixman_bool_t
 pixman_region_selfcheck
 (
@@ -881,6 +935,7 @@ pixman_region16_t
 region
 )
 ;
+PIXMAN_EXPORT
 void
 pixman_region_reset
 (
@@ -892,6 +947,7 @@ pixman_box16_t
 box
 )
 ;
+PIXMAN_EXPORT
 pixman_bool_t
 pixman_region_init_rects
 (
@@ -905,6 +961,7 @@ int
 count
 )
 ;
+PIXMAN_EXPORT
 pixman_bool_t
 pixman_blt
 (
@@ -936,6 +993,7 @@ int
 height
 )
 ;
+PIXMAN_EXPORT
 pixman_bool_t
 pixman_fill
 (
@@ -1752,6 +1810,7 @@ PIXMAN_TYPE_YV12
 }
 pixman_format_code_t
 ;
+PIXMAN_EXPORT
 pixman_image_t
 *
 pixman_image_create_solid_fill
@@ -1761,6 +1820,7 @@ pixman_color_t
 color
 )
 ;
+PIXMAN_EXPORT
 pixman_image_t
 *
 pixman_image_create_linear_gradient
@@ -1779,6 +1839,7 @@ int
 n_stops
 )
 ;
+PIXMAN_EXPORT
 pixman_image_t
 *
 pixman_image_create_radial_gradient
@@ -1801,6 +1862,7 @@ int
 n_stops
 )
 ;
+PIXMAN_EXPORT
 pixman_image_t
 *
 pixman_image_create_conical_gradient
@@ -1818,6 +1880,7 @@ int
 n_stops
 )
 ;
+PIXMAN_EXPORT
 pixman_image_t
 *
 pixman_image_create_bits
@@ -1835,6 +1898,7 @@ int
 rowstride_bytes
 )
 ;
+PIXMAN_EXPORT
 pixman_image_t
 *
 pixman_image_ref
@@ -1844,6 +1908,7 @@ pixman_image_t
 image
 )
 ;
+PIXMAN_EXPORT
 pixman_bool_t
 pixman_image_unref
 (
@@ -1852,6 +1917,7 @@ pixman_image_t
 image
 )
 ;
+PIXMAN_EXPORT
 pixman_bool_t
 pixman_image_set_clip_region
 (
@@ -1863,6 +1929,7 @@ pixman_region16_t
 region
 )
 ;
+PIXMAN_EXPORT
 void
 pixman_image_set_has_client_clip
 (
@@ -1873,6 +1940,7 @@ pixman_bool_t
 clien_clip
 )
 ;
+PIXMAN_EXPORT
 pixman_bool_t
 pixman_image_set_transform
 (
@@ -1885,6 +1953,7 @@ pixman_transform_t
 transform
 )
 ;
+PIXMAN_EXPORT
 void
 pixman_image_set_repeat
 (
@@ -1895,6 +1964,7 @@ pixman_repeat_t
 repeat
 )
 ;
+PIXMAN_EXPORT
 pixman_bool_t
 pixman_image_set_filter
 (
@@ -1911,6 +1981,7 @@ int
 n_filter_params
 )
 ;
+PIXMAN_EXPORT
 void
 pixman_image_set_filter_params
 (
@@ -1924,6 +1995,7 @@ int
 n_params
 )
 ;
+PIXMAN_EXPORT
 void
 pixman_image_set_source_clipping
 (
@@ -1934,6 +2006,7 @@ pixman_bool_t
 source_clipping
 )
 ;
+PIXMAN_EXPORT
 void
 pixman_image_set_alpha_map
 (
@@ -1949,6 +2022,7 @@ int16_t
 y
 )
 ;
+PIXMAN_EXPORT
 void
 pixman_image_set_component_alpha
 (
@@ -1959,6 +2033,7 @@ pixman_bool_t
 component_alpha
 )
 ;
+PIXMAN_EXPORT
 void
 pixman_image_set_accessors
 (
@@ -1971,6 +2046,7 @@ pixman_write_memory_func_t
 write_func
 )
 ;
+PIXMAN_EXPORT
 void
 pixman_image_set_indexed
 (
@@ -1983,6 +2059,7 @@ pixman_indexed_t
 indexed
 )
 ;
+PIXMAN_EXPORT
 uint32_t
 *
 pixman_image_get_data
@@ -1992,6 +2069,7 @@ pixman_image_t
 image
 )
 ;
+PIXMAN_EXPORT
 int
 pixman_image_get_width
 (
@@ -2000,6 +2078,7 @@ pixman_image_t
 image
 )
 ;
+PIXMAN_EXPORT
 int
 pixman_image_get_height
 (
@@ -2008,6 +2087,7 @@ pixman_image_t
 image
 )
 ;
+PIXMAN_EXPORT
 int
 pixman_image_get_stride
 (
@@ -2016,6 +2096,7 @@ pixman_image_t
 image
 )
 ;
+PIXMAN_EXPORT
 int
 pixman_image_get_depth
 (
@@ -2024,6 +2105,7 @@ pixman_image_t
 image
 )
 ;
+PIXMAN_EXPORT
 pixman_bool_t
 pixman_image_fill_rectangles
 (
@@ -2043,6 +2125,7 @@ pixman_rectangle16_t
 rects
 )
 ;
+PIXMAN_EXPORT
 pixman_bool_t
 pixman_compute_composite_region
 (
@@ -2076,6 +2159,7 @@ uint16_t
 height
 )
 ;
+PIXMAN_EXPORT
 void
 pixman_image_composite
 (
@@ -2274,6 +2358,7 @@ bot
 ;
 }
 ;
+PIXMAN_EXPORT
 pixman_fixed_t
 pixman_sample_ceil_y
 (
@@ -2283,6 +2368,7 @@ int
 bpp
 )
 ;
+PIXMAN_EXPORT
 pixman_fixed_t
 pixman_sample_floor_y
 (
@@ -2292,6 +2378,7 @@ int
 bpp
 )
 ;
+PIXMAN_EXPORT
 void
 pixman_edge_step
 (
@@ -2302,6 +2389,7 @@ int
 n
 )
 ;
+PIXMAN_EXPORT
 void
 pixman_edge_init
 (
@@ -2322,6 +2410,7 @@ pixman_fixed_t
 y_bot
 )
 ;
+PIXMAN_EXPORT
 void
 pixman_line_fixed_edge_init
 (
@@ -2342,6 +2431,7 @@ int
 y_off
 )
 ;
+PIXMAN_EXPORT
 void
 pixman_rasterize_edges
 (
@@ -2360,6 +2450,7 @@ pixman_fixed_t
 b
 )
 ;
+PIXMAN_EXPORT
 void
 pixman_add_traps
 (
@@ -2377,6 +2468,7 @@ pixman_trap_t
 traps
 )
 ;
+PIXMAN_EXPORT
 void
 pixman_add_trapezoids
 (
@@ -2395,6 +2487,7 @@ pixman_trapezoid_t
 traps
 )
 ;
+PIXMAN_EXPORT
 void
 pixman_rasterize_trapezoid
 (

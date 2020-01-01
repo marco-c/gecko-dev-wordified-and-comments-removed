@@ -2554,7 +2554,6 @@ return
 is_tight
 ;
 }
-cairo_private
 cairo_rectangle_list_t
 *
 _cairo_clip_copy_rectangle_list
