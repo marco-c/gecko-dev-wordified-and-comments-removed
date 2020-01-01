@@ -32528,6 +32528,9 @@ fps
 false
 )
 ;
+#
+ifndef
+MOZ_X11
 pref
 (
 "
@@ -32540,6 +32543,8 @@ enabled
 false
 )
 ;
+#
+endif
 #
 ifdef
 MOZ_X11

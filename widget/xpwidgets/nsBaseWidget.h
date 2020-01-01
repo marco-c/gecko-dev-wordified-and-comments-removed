@@ -1106,6 +1106,12 @@ return
 mWindowType
 ;
 }
+static
+bool
+UseOffMainThreadCompositing
+(
+)
+;
 protected
 :
 virtual
