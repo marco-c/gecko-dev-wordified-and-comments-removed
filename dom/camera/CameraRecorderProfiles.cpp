@@ -159,7 +159,10 @@ aCx
 codec
 )
 ;
-jsval
+JS
+:
+:
+Value
 v
 =
 STRING_TO_JSVAL
@@ -475,7 +478,10 @@ aCx
 codec
 )
 ;
-jsval
+JS
+:
+:
+Value
 v
 =
 STRING_TO_JSVAL
@@ -900,7 +906,10 @@ rv
 rv
 )
 ;
-jsval
+JS
+:
+:
+Value
 v
 =
 OBJECT_TO_JSVAL
