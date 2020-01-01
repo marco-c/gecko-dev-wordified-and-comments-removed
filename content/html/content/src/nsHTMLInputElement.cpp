@@ -2928,6 +2928,9 @@ GetEditorState
 if
 (
 state
+&
+&
+aFrame
 )
 {
 state
