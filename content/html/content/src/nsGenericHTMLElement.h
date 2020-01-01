@@ -1559,9 +1559,9 @@ GetFloatAttr
 nsIAtom
 *
 aAttr
-float
+double
 aDefault
-float
+double
 *
 aValue
 )
@@ -1575,7 +1575,7 @@ SetFloatAttr
 nsIAtom
 *
 aAttr
-float
+double
 aValue
 )
 ;
@@ -2910,14 +2910,14 @@ aValue
 }
 #
 define
-NS_IMPL_FLOAT_ATTR
+NS_IMPL_DOUBLE_ATTR
 (
 _class
 _method
 _atom
 )
 \
-NS_IMPL_FLOAT_ATTR_DEFAULT_VALUE
+NS_IMPL_DOUBLE_ATTR_DEFAULT_VALUE
 (
 _class
 _method
@@ -2928,7 +2928,7 @@ _atom
 )
 #
 define
-NS_IMPL_FLOAT_ATTR_DEFAULT_VALUE
+NS_IMPL_DOUBLE_ATTR_DEFAULT_VALUE
 (
 _class
 _method
@@ -2946,7 +2946,7 @@ Get
 #
 _method
 (
-float
+double
 *
 aValue
 )
@@ -2977,7 +2977,7 @@ Set
 #
 _method
 (
-float
+double
 aValue
 )
 \

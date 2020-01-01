@@ -4897,7 +4897,7 @@ ResetIfSet
 PRInt32
 ec
 ;
-float
+double
 val
 =
 PromiseFlatString
@@ -4905,7 +4905,7 @@ PromiseFlatString
 aString
 )
 .
-ToFloat
+ToDouble
 (
 &
 ec

@@ -590,7 +590,7 @@ const
 #
 endif
 inline
-float
+double
 GetFloatValue
 (
 )
@@ -897,7 +897,7 @@ mSVGValue
 ;
 #
 endif
-float
+double
 mFloatValue
 ;
 nsIntMargin
@@ -1382,7 +1382,7 @@ mSVGValue
 #
 endif
 inline
-float
+double
 nsAttrValue
 :
 :
