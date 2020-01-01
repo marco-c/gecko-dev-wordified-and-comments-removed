@@ -12750,6 +12750,12 @@ removeAllItems
 (
 )
 ;
+PageActions
+.
+updatePageSaveAs
+(
+)
+;
 BrowserSearch
 .
 updatePageSearchEngines
