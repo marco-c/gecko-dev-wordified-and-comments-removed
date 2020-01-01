@@ -2003,6 +2003,9 @@ transition
 transform
 metro_animation_duration
 metro_animation_easing
+bottom
+metro_animation_duration
+metro_animation_easing
 ;
 font
 -
