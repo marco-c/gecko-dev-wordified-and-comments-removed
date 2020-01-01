@@ -889,7 +889,14 @@ self
 .
 dump_syms
 =
+os
+.
+path
+.
+abspath
+(
 dump_syms
+)
         
 self
 .
