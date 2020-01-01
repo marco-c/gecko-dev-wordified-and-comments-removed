@@ -351,6 +351,10 @@ shell
 &
 (
 (
+Android
+|
+|
+(
 isDebugBuild
 &
 &
@@ -374,6 +378,7 @@ match
 /
 x86_64
 /
+)
 )
 )
 )
@@ -454,6 +459,9 @@ OS
 Linux
 "
 )
+|
+|
+Android
 |
 |
 xulRuntime
@@ -569,6 +577,9 @@ shell
 &
 &
 (
+Android
+|
+|
 xulRuntime
 .
 OS
