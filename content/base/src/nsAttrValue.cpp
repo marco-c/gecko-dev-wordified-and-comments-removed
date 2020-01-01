@@ -1641,10 +1641,13 @@ case
 eFloatValue
 :
 {
-nsAutoString
-str
+aResult
+.
+Truncate
+(
+)
 ;
-str
+aResult
 .
 AppendFloat
 (
@@ -1652,10 +1655,6 @@ GetFloatValue
 (
 )
 )
-;
-aResult
-=
-str
 ;
 break
 ;

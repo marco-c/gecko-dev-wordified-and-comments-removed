@@ -3344,10 +3344,7 @@ aColor
 aStr
 )
 ;
-nsString
-tmp
-;
-tmp
+aStr
 .
 AppendFloat
 (
@@ -3361,13 +3358,6 @@ NS_GET_A
 aColor
 )
 )
-)
-;
-aStr
-.
-Append
-(
-tmp
 )
 ;
 aStr
