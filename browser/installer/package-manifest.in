@@ -2021,6 +2021,13 @@ components
 /
 nsPlacesAutoComplete
 .
+manifest
+BINPATH
+/
+components
+/
+nsPlacesAutoComplete
+.
 js
 BINPATH
 /
