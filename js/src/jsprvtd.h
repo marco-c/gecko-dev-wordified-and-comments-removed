@@ -151,6 +151,9 @@ struct
 Class
 ;
 class
+AutoNameVector
+;
+class
 RegExpGuard
 ;
 class
@@ -312,6 +315,9 @@ StrictPropertyOp
 typedef
 JSPropertyDescriptor
 PropertyDescriptor
+;
+struct
+SourceCompressionToken
 ;
 namespace
 frontend
