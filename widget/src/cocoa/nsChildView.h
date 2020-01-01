@@ -448,6 +448,18 @@ _scrollPhase
 ;
 end
 #
+if
+!
+defined
+(
+MAC_OS_X_VERSION_10_7
+)
+|
+|
+MAC_OS_X_VERSION_MAX_ALLOWED
+<
+MAC_OS_X_VERSION_10_7
+#
 ifdef
 __LP64__
 enum
@@ -603,6 +615,8 @@ stop
 trackingHandler
 ;
 end
+#
+endif
 #
 endif
 interface
