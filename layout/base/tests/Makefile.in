@@ -553,6 +553,14 @@ decoration_line_rendering
 .
 js
 \
+test_bug495648
+.
+xul
+\
+bug495648
+.
+rdf
+\
 (
 NULL
 )
