@@ -654,10 +654,6 @@ mStreamOrderDirty
 =
 true
 ;
-mUserWarnedAboutCycles
-=
-false
-;
 }
 nsCOMPtr
 <
@@ -808,9 +804,6 @@ mNonRealtimeProcessing
 ;
 bool
 mStreamOrderDirty
-;
-bool
-mUserWarnedAboutCycles
 ;
 }
 ;
