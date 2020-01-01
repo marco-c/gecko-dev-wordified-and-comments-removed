@@ -7015,11 +7015,6 @@ nsIRadioGroupContainer
 NS_INTERFACE_TABLE_ENTRY
 (
 nsDocument
-nsIRadioGroupContainer_MOZILLA_2_0_BRANCH
-)
-NS_INTERFACE_TABLE_ENTRY
-(
-nsDocument
 nsIMutationObserver
 )
 NS_INTERFACE_TABLE_ENTRY

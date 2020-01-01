@@ -1603,7 +1603,7 @@ nsSupportsWeakReference
 public
 nsIScriptObjectPrincipal
 public
-nsIRadioGroupContainer_MOZILLA_2_0_BRANCH
+nsIRadioGroupContainer
 public
 nsIApplicationCacheContainer
 public

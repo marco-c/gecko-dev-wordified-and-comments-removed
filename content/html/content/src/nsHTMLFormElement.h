@@ -270,7 +270,7 @@ nsIWebProgressListener
 public
 nsIForm
 public
-nsIRadioGroupContainer_MOZILLA_2_0_BRANCH
+nsIRadioGroupContainer
 {
 public
 :
