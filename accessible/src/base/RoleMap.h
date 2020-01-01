@@ -926,7 +926,7 @@ chrome
 window
 "
 ATK_ROLE_FRAME
-NSAccessibilityUnknownRole
+NSAccessibilityGroupRole
 ROLE_SYSTEM_APPLICATION
 IA2_ROLE_FRAME
 eNoNameRule
