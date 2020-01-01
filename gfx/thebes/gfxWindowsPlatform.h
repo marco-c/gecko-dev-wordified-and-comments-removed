@@ -88,6 +88,9 @@ objbase
 .
 h
 >
+class
+nsIMemoryMultiReporter
+;
 struct
 DCFromContext
 {
@@ -935,6 +938,10 @@ gfxFontEntry
 >
 >
 mPrefFonts
+;
+nsIMemoryMultiReporter
+*
+mGPUAdapterMultiReporter
 ;
 }
 ;
