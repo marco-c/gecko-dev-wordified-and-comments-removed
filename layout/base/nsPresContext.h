@@ -1060,16 +1060,6 @@ return
 PR_FALSE
 ;
 }
-PRInt32
-FontScaler
-(
-)
-const
-{
-return
-mFontScaler
-;
-}
 const
 nscolor
 DefaultColor

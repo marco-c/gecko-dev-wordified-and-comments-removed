@@ -50,14 +50,6 @@ nsStyleUtil
 public
 :
 static
-float
-GetScalingFactor
-(
-PRInt32
-aScaler
-)
-;
-static
 nscoord
 CalcFontPointSize
 (
@@ -65,8 +57,6 @@ PRInt32
 aHTMLSize
 PRInt32
 aBasePointSize
-float
-aScalingFactor
 nsPresContext
 *
 aPresContext
@@ -84,8 +74,6 @@ nscoord
 aFontSize
 PRInt32
 aBasePointSize
-float
-aScalingFactor
 nsPresContext
 *
 aPresContext
@@ -103,8 +91,6 @@ nscoord
 aFontSize
 PRInt32
 aBasePointSize
-float
-aScalingFactor
 nsPresContext
 *
 aPresContext
