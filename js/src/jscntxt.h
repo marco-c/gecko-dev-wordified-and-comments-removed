@@ -942,6 +942,9 @@ SystemAllocPolicy
 EvalCache
 ;
 class
+PropertyIteratorObject
+;
+class
 NativeIterCache
 {
 static

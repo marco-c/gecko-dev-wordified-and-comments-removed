@@ -42728,7 +42728,10 @@ toObject
 (
 )
 .
-isPropertyIterator
+is
+<
+PropertyIteratorObject
+>
 (
 )
 &
@@ -43123,7 +43126,10 @@ if
 iteratorObject
 -
 >
-isPropertyIterator
+is
+<
+PropertyIteratorObject
+>
 (
 )
 &

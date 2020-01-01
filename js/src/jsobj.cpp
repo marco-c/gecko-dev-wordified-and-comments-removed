@@ -28264,7 +28264,10 @@ mallocSizeOf
 else
 if
 (
-isPropertyIterator
+is
+<
+PropertyIteratorObject
+>
 (
 )
 )
@@ -28274,7 +28277,10 @@ sizes
 >
 propertyIteratorData
 =
-asPropertyIterator
+as
+<
+PropertyIteratorObject
+>
 (
 )
 .

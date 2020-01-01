@@ -5345,7 +5345,10 @@ if
 iterobj
 -
 >
-isPropertyIterator
+is
+<
+PropertyIteratorObject
+>
 (
 )
 )
@@ -5357,7 +5360,10 @@ ni
 iterobj
 -
 >
-asPropertyIterator
+as
+<
+PropertyIteratorObject
+>
 (
 )
 .
@@ -5452,7 +5458,10 @@ if
 iterobj
 -
 >
-isPropertyIterator
+is
+<
+PropertyIteratorObject
+>
 (
 )
 )
@@ -5464,7 +5473,10 @@ ni
 iterobj
 -
 >
-asPropertyIterator
+as
+<
+PropertyIteratorObject
+>
 (
 )
 .

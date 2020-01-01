@@ -1855,7 +1855,10 @@ toObject
 )
 -
 >
-isPropertyIterator
+is
+<
+PropertyIteratorObject
+>
 (
 )
 &
@@ -1864,7 +1867,10 @@ isPropertyIterator
 obj
 -
 >
-asPropertyIterator
+as
+<
+PropertyIteratorObject
+>
 (
 )
 .
@@ -1969,7 +1975,10 @@ toObject
 (
 )
 .
-asPropertyIterator
+as
+<
+PropertyIteratorObject
+>
 (
 )
 )
