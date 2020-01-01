@@ -6496,7 +6496,6 @@ ComputeVisibility
 builder
 &
 visibleRegion
-nsnull
 )
 ;
 #
