@@ -233,7 +233,7 @@ it
 useful
 for
 debugging
-purporsed
+purposes
 to
 turn
 off
