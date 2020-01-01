@@ -3438,9 +3438,6 @@ GetUnderlyingFrame
 ;
 if
 (
-itemFrame
-&
-&
 IsFrameDescendantOfAny
 (
 itemFrame

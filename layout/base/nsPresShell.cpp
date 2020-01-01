@@ -18968,11 +18968,6 @@ GetUnderlyingFrame
 (
 )
 ;
-if
-(
-frame
-)
-{
 nsIContent
 *
 content
@@ -19317,7 +19312,6 @@ snap
 )
 )
 ;
-}
 }
 }
 }
@@ -22908,11 +22902,6 @@ GetUnderlyingFrame
 (
 )
 ;
-if
-(
-f
-)
-{
 nsCOMPtr
 <
 nsIImageLoadingContent
@@ -22980,7 +22969,6 @@ AppendElement
 content
 )
 ;
-}
 }
 }
 }

@@ -5699,9 +5699,6 @@ GetUnderlyingFrame
 if
 (
 f
-&
-&
-f
 -
 >
 PresContext
@@ -14315,11 +14312,6 @@ GetUnderlyingFrame
 (
 )
 ;
-if
-(
-f
-)
-{
 nsIFrame
 *
 activeScrolledRoot
@@ -14346,6 +14338,7 @@ result
 =
 LAYER_INACTIVE
 )
+{
 result
 =
 LAYER_ACTIVE
