@@ -1,10 +1,10 @@
 #
 include
-<
+"
 nsString
 .
 h
->
+"
 #
 include
 <

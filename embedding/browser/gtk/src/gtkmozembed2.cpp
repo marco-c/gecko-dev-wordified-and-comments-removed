@@ -42,11 +42,11 @@ h
 "
 #
 include
-<
+"
 nsIWebBrowser
 .
 h
->
+"
 #
 include
 "
