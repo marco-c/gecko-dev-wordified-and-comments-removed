@@ -44496,6 +44496,10 @@ build
 environment
 yet
 .
+LDFLAGS
+=
+CFLAGS
+=
 ac_configure_args
 =
 "

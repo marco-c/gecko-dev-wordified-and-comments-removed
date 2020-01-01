@@ -78203,8 +78203,6 @@ AC_OUTPUT_SUBDIRS
 (
 nsprpub
 )
-unset
-LDFLAGS
 LDFLAGS
 =
 "
@@ -78439,15 +78437,6 @@ mk
 .
 bak
 fi
-if
-test
--
-n
-"
-direct_nspr_config
-"
-;
-then
 dnl
 =
 =
@@ -78625,7 +78614,6 @@ _SUBDIR_HOST_LDFLAGS
 "
 RC
 =
-fi
 #
 Run
 the
