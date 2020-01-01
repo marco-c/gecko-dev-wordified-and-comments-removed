@@ -21064,10 +21064,6 @@ NS_FAILED
 (
 rv
 )
-|
-|
-!
-principal
 )
 return
 result
@@ -21097,10 +21093,6 @@ NS_FAILED
 (
 rv
 )
-|
-|
-!
-imgContainer
 )
 return
 result
@@ -23531,6 +23523,10 @@ imgIContainer
 >
 image
 ;
+if
+(
+NS_SUCCEEDED
+(
 aRequest
 -
 >
@@ -23541,10 +23537,7 @@ getter_AddRefs
 image
 )
 )
-;
-if
-(
-image
+)
 )
 {
 bool
@@ -23671,6 +23664,10 @@ imgIContainer
 >
 image
 ;
+if
+(
+NS_SUCCEEDED
+(
 aRequest
 -
 >
@@ -23681,10 +23678,7 @@ getter_AddRefs
 image
 )
 )
-;
-if
-(
-image
+)
 )
 {
 aPresContext
