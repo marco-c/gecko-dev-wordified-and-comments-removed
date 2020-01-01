@@ -1089,6 +1089,10 @@ h
 dom_quickstubs
 .
 h
+:
+dom_quickstubs
+.
+cpp
 dom_quickstubs
 .
 cpp
