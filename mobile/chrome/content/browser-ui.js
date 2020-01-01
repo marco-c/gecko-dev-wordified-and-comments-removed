@@ -825,6 +825,12 @@ this
 true
 )
 ;
+Shortcuts
+.
+restore
+(
+)
+;
 }
 update
 :
