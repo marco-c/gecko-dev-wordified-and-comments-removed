@@ -14084,8 +14084,9 @@ JSDOUBLE_IS_INT32
 d
 (
 int32_t
-&
+*
 )
+&
 tableIdx
 )
 )
