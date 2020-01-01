@@ -2249,7 +2249,7 @@ Element
 nsINodeInfo
 *
 aNodeInfo
-PRBool
+PRUint32
 aFromParser
 )
 \
@@ -2291,7 +2291,7 @@ Element
 nsINodeInfo
 *
 aNodeInfo
-PRBool
+PRUint32
 aFromParser
 )
 \
@@ -3781,10 +3781,10 @@ nsINodeInfo
 *
 aNodeInfo
 \
-PRBool
+PRUint32
 aFromParser
 =
-PR_FALSE
+0
 )
 ;
 #
@@ -3810,10 +3810,10 @@ nsINodeInfo
 *
 aNodeInfo
 \
-PRBool
+PRUint32
 aFromParser
 =
-PR_FALSE
+0
 )
 \
 {

@@ -122,7 +122,7 @@ aNodeInfo
 PRBool
 aFromParser
 =
-PR_FALSE
+0
 )
 ;
 virtual

@@ -179,7 +179,7 @@ aResult
 nsINodeInfo
 *
 aNodeInfo
-PRBool
+PRUint32
 aFromParser
 )
 ;
@@ -337,7 +337,7 @@ aResult
 nsINodeInfo
 *
 aNodeInfo
-PRBool
+PRUint32
 aFromParser
 )
 ;
@@ -824,7 +824,7 @@ aResult
 nsINodeInfo
 *
 aNodeInfo
-PRBool
+PRUint32
 aFromParser
 )
 {

@@ -427,7 +427,7 @@ aResult
 nsINodeInfo
 *
 aNodeInfo
-PRBool
+PRUint32
 aFromParser
 )
 ;
@@ -436,7 +436,7 @@ nsSVGSVGElement
 nsINodeInfo
 *
 aNodeInfo
-PRBool
+PRUint32
 aFromParser
 )
 ;

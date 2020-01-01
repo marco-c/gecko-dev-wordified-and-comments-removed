@@ -201,7 +201,7 @@ NS_NewHTMLAudioElement
 nsINodeInfo
 *
 aNodeInfo
-PRBool
+PRUint32
 aFromParser
 )
 {
@@ -325,7 +325,7 @@ nsHTMLAudioElement
 nsINodeInfo
 *
 aNodeInfo
-PRBool
+PRUint32
 aFromParser
 )
 :

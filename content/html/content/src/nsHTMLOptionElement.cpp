@@ -373,7 +373,7 @@ NS_NewHTMLOptionElement
 nsINodeInfo
 *
 aNodeInfo
-PRBool
+PRUint32
 aFromParser
 )
 {

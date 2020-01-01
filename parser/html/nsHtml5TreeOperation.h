@@ -54,7 +54,8 @@ eTreeOpFosterParent
 eTreeOpAppendToDocument
 eTreeOpAddAttributes
 eTreeOpDocumentMode
-eTreeOpCreateElement
+eTreeOpCreateElementNetwork
+eTreeOpCreateElementNotNetwork
 eTreeOpSetFormElement
 eTreeOpAppendText
 eTreeOpFosterParentText
@@ -577,6 +578,8 @@ nsIContent
 *
 *
 aTarget
+PRBool
+aFromNetwork
 )
 {
 NS_PRECONDITION
@@ -628,7 +631,11 @@ node
 ;
 mOpCode
 =
-eTreeOpCreateElement
+aFromNetwork
+?
+eTreeOpCreateElementNetwork
+:
+eTreeOpCreateElementNotNetwork
 ;
 mInt
 =

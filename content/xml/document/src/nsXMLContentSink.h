@@ -384,7 +384,7 @@ aResult
 PRBool
 *
 aAppendContent
-PRBool
+PRUint32
 aFromParser
 )
 ;

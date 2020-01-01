@@ -290,6 +290,9 @@ aNamespace
 aName
 aAttributes
 content
+!
+!
+mSpeculativeLoadStage
 )
 ;
 if

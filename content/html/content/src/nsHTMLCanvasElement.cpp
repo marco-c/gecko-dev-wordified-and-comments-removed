@@ -94,7 +94,7 @@ NS_NewHTMLCanvasElement
 nsINodeInfo
 *
 aNodeInfo
-PRBool
+PRUint32
 aFromParser
 )
 {

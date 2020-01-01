@@ -988,7 +988,7 @@ nsHTMLInputElement
 nsINodeInfo
 *
 aNodeInfo
-PRBool
+PRUint32
 aFromParser
 )
 ;
@@ -1918,7 +1918,7 @@ nsHTMLInputElement
 nsINodeInfo
 *
 aNodeInfo
-PRBool
+PRUint32
 aFromParser
 )
 :
