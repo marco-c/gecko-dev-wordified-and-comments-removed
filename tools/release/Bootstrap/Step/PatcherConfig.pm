@@ -111,7 +111,7 @@ config
 >
 Get
 (
-var
+sysvar
 =
 >
 '

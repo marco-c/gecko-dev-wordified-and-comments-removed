@@ -149,7 +149,7 @@ config
 >
 Get
 (
-var
+sysvar
 =
 >
 '
@@ -598,7 +598,7 @@ config
 >
 Get
 (
-var
+sysvar
 =
 >
 '

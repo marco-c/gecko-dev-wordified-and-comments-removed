@@ -260,7 +260,7 @@ config
 >
 Get
 (
-var
+sysvar
 =
 >
 '
