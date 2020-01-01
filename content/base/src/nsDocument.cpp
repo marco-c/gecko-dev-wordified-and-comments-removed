@@ -6864,11 +6864,6 @@ DropDocumentReference
 (
 )
 ;
-NS_RELEASE
-(
-mNodeInfoManager
-)
-;
 }
 if
 (
@@ -7753,11 +7748,6 @@ NS_IMPL_CYCLE_COLLECTION_TRAVERSE_NSCOMPTR
 (
 mCachedRootElement
 )
-NS_IMPL_CYCLE_COLLECTION_TRAVERSE_NATIVE_MEMBER
-(
-mNodeInfoManager
-nsNodeInfoManager
-)
 NS_IMPL_CYCLE_COLLECTION_TRAVERSE_NSCOMPTR
 (
 mSecurityInfo
@@ -8401,11 +8391,6 @@ NS_ENSURE_TRUE
 (
 mNodeInfoManager
 NS_ERROR_OUT_OF_MEMORY
-)
-;
-NS_ADDREF
-(
-mNodeInfoManager
 )
 ;
 nsresult
