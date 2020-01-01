@@ -1126,7 +1126,12 @@ background
 -
 color
 :
-transparent
+rgb
+(
+240
+240
+240
+)
 ;
 margin
 :
