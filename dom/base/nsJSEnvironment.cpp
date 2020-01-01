@@ -1754,6 +1754,12 @@ lineNr
 =
 0
 ;
+errorevent
+.
+fileName
+=
+nsnull
+;
 }
 nsEventDispatcher
 :
