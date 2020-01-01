@@ -1594,8 +1594,6 @@ aAvailableWidth
 nsRenderingContext
 *
 aRenderingContext
-bool
-aShouldBlink
 nsHTMLReflowMetrics
 &
 aMetrics

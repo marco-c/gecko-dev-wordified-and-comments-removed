@@ -43,7 +43,7 @@ boolean
 "
 browser
 .
-blink_allowed
+underline_anchors
 "
 }
 ;

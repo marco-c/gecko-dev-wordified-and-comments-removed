@@ -4077,15 +4077,6 @@ mReflowState
 -
 >
 rendContext
-psd
--
->
-mReflowState
--
->
-mFlags
-.
-mBlinks
 metrics
 aReflowStatus
 )

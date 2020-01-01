@@ -559,16 +559,6 @@ pref
 "
 browser
 .
-blink_allowed
-"
-true
-)
-;
-pref
-(
-"
-browser
-.
 enable_automatic_image_resizing
 "
 false
