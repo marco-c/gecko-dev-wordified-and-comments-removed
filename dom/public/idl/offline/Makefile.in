@@ -422,7 +422,7 @@ dom_offline
 GRE_MODULE
 =
 1
-SDK_XPIDLSRCS
+XPIDLSRCS
 =
 \
 nsIDOMOfflineResourceList
