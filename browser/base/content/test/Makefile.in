@@ -766,6 +766,10 @@ browser_sanitizeDialog
 .
 js
 \
+browser_tabs_owner
+.
+js
+\
 (
 NULL
 )
