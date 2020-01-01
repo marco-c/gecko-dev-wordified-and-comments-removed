@@ -443,7 +443,7 @@ config
 rules
 .
 mk
-_BROWSER_FILES
+_BROWSER_TEST_FILES
 =
 \
 browser_bug471962
@@ -454,6 +454,10 @@ browser_keyevents_during_autoscrolling
 .
 js
 \
+browser_bug295977_autoscroll_overflow
+.
+js
+\
 (
 NULL
 )
@@ -461,7 +465,7 @@ libs
 :
 :
 (
-_BROWSER_FILES
+_BROWSER_TEST_FILES
 )
 (
 INSTALL
