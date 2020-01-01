@@ -600,7 +600,7 @@ NS_IMETHODIMP
 nsCookie
 :
 :
-GetHttpOnly
+GetIsHttpOnly
 (
 PRBool
 *

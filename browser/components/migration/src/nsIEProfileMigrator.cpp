@@ -8392,6 +8392,7 @@ flagsValue
 &
 0x1
 PR_FALSE
+PR_FALSE
 PRInt64
 (
 expirationDate

@@ -4727,6 +4727,7 @@ mCurrCookie
 .
 isSecure
 PR_FALSE
+PR_FALSE
 PRInt64
 (
 mCurrCookie

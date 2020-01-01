@@ -15,13 +15,6 @@ h
 #
 include
 "
-nsICookieManager2
-.
-h
-"
-#
-include
-"
 nsIObserverService
 .
 h
