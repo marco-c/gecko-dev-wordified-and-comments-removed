@@ -188,7 +188,7 @@ ConditionallyStopPruneDeadConnectionsTimer
 )
 ;
 void
-ConditionallyStopReadTimeoutTick
+ConditionallyStopTimeoutTick
 (
 )
 ;
@@ -1575,10 +1575,10 @@ nsCOMPtr
 <
 nsITimer
 >
-mReadTimeoutTick
+mTimeoutTick
 ;
 bool
-mReadTimeoutTickArmed
+mTimeoutTickArmed
 ;
 nsClassHashtable
 <
@@ -1611,13 +1611,13 @@ ActivateTimeoutTick
 )
 ;
 void
-ReadTimeoutTick
+TimeoutTick
 (
 )
 ;
 static
 PLDHashOperator
-ReadTimeoutTickCB
+TimeoutTickCB
 (
 const
 nsACString
