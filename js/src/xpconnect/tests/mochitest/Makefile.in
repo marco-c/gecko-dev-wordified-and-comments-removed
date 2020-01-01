@@ -444,7 +444,7 @@ test_bug390488
 .
 html
 \
-test_xow
+test_wrappers
 .
 html
 \
