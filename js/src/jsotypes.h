@@ -129,18 +129,6 @@ JSInt64
 int64
 ;
 #
-ifdef
-HPUX
-#
-include
-<
-model
-.
-h
->
-#
-else
-#
 if
 !
 defined
@@ -174,8 +162,6 @@ typedef
 JSInt8
 int8
 ;
-#
-endif
 #
 endif
 #
