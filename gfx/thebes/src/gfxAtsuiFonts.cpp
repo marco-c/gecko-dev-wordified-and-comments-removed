@@ -3493,7 +3493,6 @@ charLang
 ;
 mLastPrefFirstFont
 =
-=
 (
 i
 =
