@@ -958,7 +958,7 @@ writtenLines
 =
 ln
     
-aLine
+filteredLine
 =
 self
 .
@@ -967,7 +967,20 @@ applyFilters
 aLine
 )
     
+if
+filteredLine
+!
+=
 aLine
+:
+      
+self
+.
+actionLevel
+=
+2
+    
+filteredLine
 =
 re
 .
@@ -980,7 +993,7 @@ n
 self
 .
 LE
-aLine
+filteredLine
 )
     
 self
@@ -989,7 +1002,7 @@ out
 .
 write
 (
-aLine
+filteredLine
 )
   
 def
