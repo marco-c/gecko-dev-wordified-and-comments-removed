@@ -474,6 +474,13 @@ anyway
 .
 STL_FLAGS
 =
+ifneq
+(
+(
+OS_TARGET
+)
+Android
+)
 PROGRAM
 =
 crashreporter
@@ -486,6 +493,7 @@ crashreporter
 (
 BIN_SUFFIX
 )
+endif
 LOCAL_INCLUDES
 =
 -
@@ -737,9 +745,9 @@ endif
 ifeq
 (
 (
-OS_ARCH
+MOZ_WIDGET_TOOLKIT
 )
-Linux
+gtk2
 )
 CPPSRCS
 +
