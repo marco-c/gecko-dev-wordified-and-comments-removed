@@ -1875,14 +1875,6 @@ type
 JSVAL_TYPE_INT32
 )
 {
-JS_ASSERT
-(
-op
-=
-=
-JSOP_DIV
-)
-;
 stubcc
 .
 linkExit
