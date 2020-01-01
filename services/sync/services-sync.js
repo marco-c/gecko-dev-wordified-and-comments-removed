@@ -20,8 +20,6 @@ mozilla
 .
 com
 /
-user
-/
 "
 )
 ;
