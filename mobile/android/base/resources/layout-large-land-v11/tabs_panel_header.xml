@@ -152,15 +152,6 @@ drawable
 /
 tab_indicator_divider
 "
-android
-:
-layout
-=
-"
-layout
-/
-tabs_panel_indicator
-"
 /
 >
 <
