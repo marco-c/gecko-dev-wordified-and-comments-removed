@@ -1785,6 +1785,17 @@ constructing
 )
 ;
 InliningStatus
+inlineMathMinMax
+(
+bool
+max
+uint32
+argc
+bool
+constructing
+)
+;
+InliningStatus
 inlineMathPow
 (
 uint32

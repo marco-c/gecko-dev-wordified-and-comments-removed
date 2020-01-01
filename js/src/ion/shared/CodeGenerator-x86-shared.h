@@ -387,6 +387,15 @@ public
 :
 virtual
 bool
+visitMinMaxD
+(
+LMinMaxD
+*
+ins
+)
+;
+virtual
+bool
 visitAbsD
 (
 LAbsD

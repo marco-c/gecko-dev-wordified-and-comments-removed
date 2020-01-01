@@ -527,6 +527,14 @@ ins
 )
 ;
 bool
+visitMinMax
+(
+MMinMax
+*
+ins
+)
+;
+bool
 visitAbs
 (
 MAbs
