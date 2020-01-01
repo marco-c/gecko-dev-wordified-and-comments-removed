@@ -98,7 +98,7 @@ function
 (
 )
 true
-killswitch
+visibilityswitch
 :
 "
 devtools
