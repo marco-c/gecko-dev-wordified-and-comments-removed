@@ -15,13 +15,6 @@ h
 #
 include
 "
-nsIDOMSVGRect
-.
-h
-"
-#
-include
-"
 gfxRect
 .
 h

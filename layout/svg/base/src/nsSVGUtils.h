@@ -136,9 +136,6 @@ class
 gfxImageSurface
 ;
 struct
-gfxRect
-;
-struct
 gfxMatrix
 ;
 struct
@@ -700,8 +697,9 @@ static
 float
 ObjectSpace
 (
-nsIDOMSVGRect
-*
+const
+gfxRect
+&
 aRect
 const
 nsSVGLength2
@@ -1086,10 +1084,7 @@ aFrame
 )
 ;
 static
-already_AddRefed
-<
-nsIDOMSVGRect
->
+gfxRect
 GetBBox
 (
 nsIFrame
@@ -1107,8 +1102,9 @@ const
 nsSVGLength2
 *
 aXYWH
-nsIDOMSVGRect
-*
+const
+gfxRect
+&
 aBBox
 nsIFrame
 *
