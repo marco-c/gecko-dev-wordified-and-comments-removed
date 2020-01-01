@@ -175,6 +175,11 @@ aAttribute
 )
 const
 ;
+void
+Invalidate
+(
+)
+;
 protected
 :
 virtual
