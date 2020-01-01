@@ -11173,6 +11173,14 @@ if
 desc
 .
 hasWritable
+&
+&
+shape
+-
+>
+isDataDescriptor
+(
+)
 )
 unchanged
 |
