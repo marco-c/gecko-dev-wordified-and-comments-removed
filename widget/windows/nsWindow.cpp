@@ -17645,16 +17645,10 @@ UpdateFontList
 didChange
 )
 ;
-if
-(
-didChange
-)
-{
 ForceFontUpdate
 (
 )
 ;
-}
 }
 }
 break
