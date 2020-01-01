@@ -12,6 +12,15 @@ jsatom
 .
 h
 "
+#
+include
+"
+vm
+/
+String
+.
+h
+"
 using
 namespace
 mozilla

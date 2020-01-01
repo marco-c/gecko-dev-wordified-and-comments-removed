@@ -52,13 +52,6 @@ h
 #
 include
 "
-jsstdint
-.
-h
-"
-#
-include
-"
 jstypes
 .
 h

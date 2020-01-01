@@ -1913,9 +1913,6 @@ prec
 uint32_t
 format
 ;
-#
-ifdef
-__cplusplus
 uint32_t
 type
 (
@@ -1929,8 +1926,6 @@ format
 )
 ;
 }
-#
-endif
 }
 ;
 extern
@@ -2278,9 +2273,6 @@ toDouble
 ;
 \
 JS_END_MACRO
-#
-ifdef
-__cplusplus
 namespace
 js
 {
@@ -2309,8 +2301,6 @@ pc
 )
 ;
 }
-#
-endif
 extern
 JSBool
 js_DecompileScript
@@ -2431,9 +2421,6 @@ JSDVG_IGNORE_STACK
 define
 JSDVG_SEARCH_STACK
 1
-#
-ifdef
-__cplusplus
 extern
 size_t
 js_GetVariableBytecodeLength
@@ -3296,18 +3283,10 @@ counts
 ;
 }
 #
-endif
-#
 if
 defined
 (
 DEBUG
-)
-&
-&
-defined
-(
-__cplusplus
 )
 extern
 JS_FRIEND_API
