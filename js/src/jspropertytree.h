@@ -441,6 +441,9 @@ dumpShapeStats
 (
 )
 ;
+#
+ifdef
+DEBUG
 static
 void
 dumpShapes
@@ -450,9 +453,6 @@ JSContext
 cx
 )
 ;
-#
-ifdef
-DEBUG
 static
 void
 meter

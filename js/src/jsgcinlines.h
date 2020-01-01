@@ -622,10 +622,12 @@ cx
 compartment
 -
 >
-compartmentStats
+arenas
 [
 thingKind
 ]
+.
+stats
 .
 alloc
 +
