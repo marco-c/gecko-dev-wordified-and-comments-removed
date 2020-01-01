@@ -1790,12 +1790,14 @@ rect
 nsIntSize
 size
 )
+compress
 ;
 UpdateFrame
 (
 FrameMetrics
 frame
 )
+compress
 ;
 /
 *

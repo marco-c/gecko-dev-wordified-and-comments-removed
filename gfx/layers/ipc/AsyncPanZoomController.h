@@ -544,14 +544,6 @@ ANIMATING_ZOOM
 WAITING_LISTENERS
 }
 ;
-enum
-ContentPainterStatus
-{
-CONTENT_IDLE
-CONTENT_PAINTING
-CONTENT_PAINTING_AND_PAINT_PENDING
-}
-;
 void
 SetState
 (
@@ -638,8 +630,8 @@ mState
 int
 mDPI
 ;
-ContentPainterStatus
-mContentPainterStatus
+bool
+mWaitingForContentToPaint
 ;
 bool
 mDisableNextTouchBatch
