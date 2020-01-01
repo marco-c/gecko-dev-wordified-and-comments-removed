@@ -4347,9 +4347,6 @@ nsIDocumentObserver
 mObservers
 ;
 nsWeakPtr
-mScriptObject
-;
-nsWeakPtr
 mScopeObject
 ;
 nsTArray

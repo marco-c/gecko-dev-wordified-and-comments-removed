@@ -17937,11 +17937,11 @@ if
 aScriptGlobalObject
 )
 {
-mScriptObject
-=
-nullptr
-;
 mHasHadScriptHandlingObject
+=
+true
+;
+mHasHadDefaultView
 =
 true
 ;
@@ -18125,7 +18125,7 @@ GetScriptHandlingObjectInternal
 )
 const
 {
-MOZ_ASSERT
+NS_ASSERTION
 (
 !
 mScriptGlobalObject
@@ -18142,6 +18142,15 @@ set
 "
 )
 ;
+if
+(
+mHasHadDefaultView
+)
+{
+return
+nullptr
+;
+}
 nsCOMPtr
 <
 nsIScriptGlobalObject
@@ -18150,7 +18159,7 @@ scriptHandlingObject
 =
 do_QueryReferent
 (
-mScriptObject
+mScopeObject
 )
 ;
 nsCOMPtr
@@ -18301,8 +18310,6 @@ here
 ;
 mScopeObject
 =
-mScriptObject
-=
 do_GetWeakReference
 (
 aScriptObject
@@ -18317,6 +18324,10 @@ mHasHadScriptHandlingObject
 =
 true
 ;
+mHasHadDefaultView
+=
+false
+;
 }
 }
 nsPIDOMWindow
@@ -18329,7 +18340,7 @@ GetWindowInternal
 )
 const
 {
-MOZ_ASSERT
+NS_ASSERTION
 (
 !
 mWindow
@@ -18390,7 +18401,7 @@ GetInnerWindowInternal
 (
 )
 {
-MOZ_ASSERT
+NS_ASSERTION
 (
 mRemovedFromDocShell
 "
