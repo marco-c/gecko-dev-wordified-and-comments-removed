@@ -234,6 +234,16 @@ classic
 /
 global
 /
+filefield
+.
+css
++
+skin
+/
+classic
+/
+global
+/
 filepicker
 .
 css
