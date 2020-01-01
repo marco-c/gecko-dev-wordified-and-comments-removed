@@ -6698,10 +6698,10 @@ if
 targetObj
 )
 {
-JSCLContextHelper
-cx
+JSAutoRequest
+ar
 (
-this
+mContext
 )
 ;
 if

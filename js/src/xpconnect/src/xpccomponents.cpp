@@ -13134,6 +13134,10 @@ JS_SetOperationCallback
 (
 mJSContext
 ContextHolderOperationCallback
+JS_GetOperationLimit
+(
+aOuterCx
+)
 )
 ;
 }
@@ -13208,6 +13212,15 @@ ok
 callback
 (
 origCx
+)
+;
+JS_SetOperationLimit
+(
+cx
+JS_GetOperationLimit
+(
+origCx
+)
 )
 ;
 return
