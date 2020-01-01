@@ -487,6 +487,10 @@ test_popup
 .
 xul
 \
+test_textbox
+.
+xul
+\
 test_tree
 .
 xul

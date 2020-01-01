@@ -104,6 +104,13 @@ nsIAccessibleStates
 STATE_PRESSED
 ;
 const
+STATE_PROTECTED
+=
+nsIAccessibleStates
+.
+STATE_PROTECTED
+;
+const
 STATE_READONLY
 =
 nsIAccessibleStates
