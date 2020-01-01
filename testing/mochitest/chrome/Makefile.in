@@ -434,11 +434,7 @@ test_sample
 .
 xul
 \
-test_synthesizeDragStart
-.
-xul
-\
-test_synthesizeDrop
+test_sanityChromeUtils
 .
 xul
 \
