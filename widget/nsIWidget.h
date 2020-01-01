@@ -28,6 +28,13 @@ h
 #
 include
 "
+nsStringGlue
+.
+h
+"
+#
+include
+"
 nsEvent
 .
 h
@@ -43,13 +50,6 @@ h
 include
 "
 nsWidgetInitData
-.
-h
-"
-#
-include
-"
-nsString
 .
 h
 "
