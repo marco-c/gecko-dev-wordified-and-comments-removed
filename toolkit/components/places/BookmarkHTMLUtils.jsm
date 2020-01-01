@@ -770,6 +770,15 @@ containerNesting
 =
 =
 0
+&
+&
+this
+.
+_frames
+.
+length
+>
+1
 )
 {
 this
