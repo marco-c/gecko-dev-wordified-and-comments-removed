@@ -83,7 +83,7 @@ update
 .
 interval
 "
-86400
+43200
 )
 ;
 pref
@@ -97,7 +97,7 @@ download
 .
 backgroundInterval
 "
-600
+60
 )
 ;
 pref
