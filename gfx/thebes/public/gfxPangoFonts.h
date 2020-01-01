@@ -455,6 +455,8 @@ PRUint32
 aUTF8Length
 PRUint32
 aUTF8HeaderLength
+PRBool
+aTake8BitPath
 )
 ;
 nsresult
