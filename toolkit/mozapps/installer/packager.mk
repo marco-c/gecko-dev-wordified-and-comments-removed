@@ -7574,7 +7574,9 @@ mkdir
 -
 p
 dirname
+(
 CHECKSUM_FILE
+)
 (
 PYTHON
 )
