@@ -246,6 +246,12 @@ aContext
 )
 {
 }
+nscoord
+GetConsumedHeight
+(
+)
+const
+;
 #
 ifdef
 DEBUG

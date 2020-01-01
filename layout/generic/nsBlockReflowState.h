@@ -123,6 +123,10 @@ bool
 aBottomMarginRoot
 bool
 aBlockNeedsFloatManager
+nscoord
+aConsumedHeight
+=
+NS_INTRINSICSIZE
 )
 ;
 nsFlowAreaRect
@@ -336,6 +340,11 @@ return
 result
 ;
 }
+nscoord
+GetConsumedHeight
+(
+)
+;
 void
 ReconstructMarginAbove
 (
@@ -547,6 +556,9 @@ mFlags
 ;
 uint8_t
 mFloatBreakType
+;
+nscoord
+mConsumedHeight
 ;
 void
 SetFlag
