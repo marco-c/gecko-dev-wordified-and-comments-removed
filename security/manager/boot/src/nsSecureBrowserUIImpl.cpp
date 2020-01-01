@@ -1161,10 +1161,13 @@ do_QueryReferent
 mWindow
 )
 ;
-MOZ_ASSERT
+if
 (
+!
 piwin
 )
+return
+NS_OK
 ;
 nsIDocShell
 *
