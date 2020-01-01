@@ -3074,20 +3074,6 @@ vf
 SDK
 )
 endif
-CREATE_PRECOMPLETE
-=
-(
-PYTHON
-)
-(
-MOZILLA_DIR
-)
-/
-config
-/
-createprecomplete
-.
-py
 ifdef
 MOZ_OMNIJAR
 GENERATE_CACHE
@@ -3440,7 +3426,7 @@ _BINPATH
 &
 &
 (
-CREATE_PRECOMPLETE
+CREATE_PRECOMPLETE_CMD
 )
 )
 &
@@ -3489,7 +3475,7 @@ _BINPATH
 &
 &
 (
-CREATE_PRECOMPLETE
+CREATE_PRECOMPLETE_CMD
 )
 )
 &
@@ -4542,7 +4528,7 @@ core
 &
 &
 (
-CREATE_PRECOMPLETE
+CREATE_PRECOMPLETE_CMD
 )
 )
 ifdef
