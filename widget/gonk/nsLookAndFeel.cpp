@@ -1052,7 +1052,7 @@ AssignLiteral
 "
 \
 "
-Feura
+Droid
 Sans
 \
 "
