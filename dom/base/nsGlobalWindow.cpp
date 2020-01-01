@@ -4181,6 +4181,10 @@ mWindowID
 )
 ;
 }
+-
+-
+gRefCnt
+;
 #
 ifdef
 DEBUG
