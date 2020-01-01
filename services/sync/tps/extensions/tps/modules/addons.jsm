@@ -678,12 +678,16 @@ _store
 ;
 store
 .
-installAddonsFromIDs
+installAddons
 (
 [
+{
+id
+:
 this
 .
 id
+}
 ]
 cb
 )
