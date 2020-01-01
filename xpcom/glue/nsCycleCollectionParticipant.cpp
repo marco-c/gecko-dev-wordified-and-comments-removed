@@ -221,8 +221,6 @@ char
 aName
 uint32_t
 aFlags
-=
-0
 )
 {
 nsAutoCString
