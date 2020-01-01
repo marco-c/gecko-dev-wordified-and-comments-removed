@@ -4450,6 +4450,9 @@ PRUint32
 aPattern
 )
 {
+AutoLocalJNIFrame
+frame
+;
 ALOG_BRIDGE
 (
 "
