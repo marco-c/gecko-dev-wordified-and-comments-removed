@@ -50,7 +50,9 @@ container
 not
 (
 [
-locked
+disable
+-
+transitions
 ]
 )
 >
@@ -68,7 +70,9 @@ container
 not
 (
 [
-locked
+disable
+-
+transitions
 ]
 )
 >
@@ -88,7 +92,9 @@ container
 not
 (
 [
-locked
+disable
+-
+transitions
 ]
 )
 >
@@ -113,7 +119,9 @@ container
 not
 (
 [
-locked
+disable
+-
+transitions
 ]
 )
 >
@@ -305,7 +313,9 @@ container
 not
 (
 [
-locked
+disable
+-
+transitions
 ]
 )
 {
