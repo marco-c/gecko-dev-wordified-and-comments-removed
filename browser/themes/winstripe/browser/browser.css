@@ -14479,16 +14479,6 @@ identity
 -
 box
 {
-cursor
-:
-help
-;
-background
--
-color
-:
-ThreeDFace
-;
 %
 ifdef
 MOZ_WIDGET_GTK2
