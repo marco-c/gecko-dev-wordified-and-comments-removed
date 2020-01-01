@@ -760,8 +760,6 @@ getChildList
 (
 "
 "
-[
-]
 )
 ;
 for

@@ -3876,8 +3876,6 @@ getChildList
 (
 "
 "
-{
-}
 )
 ;
 if
@@ -4002,8 +4000,6 @@ getChildList
 (
 "
 "
-{
-}
 )
 ;
 var
@@ -4156,8 +4152,6 @@ getChildList
 (
 "
 "
-{
-}
 )
 ;
 for

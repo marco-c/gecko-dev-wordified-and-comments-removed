@@ -1328,11 +1328,6 @@ getChildList
 (
 "
 "
-{
-value
-:
-0
-}
 )
 ;
 for
@@ -3708,8 +3703,6 @@ gPref
 getChildList
 (
 PREF_PARTNER_BRANCH
-{
-}
 )
 ;
 if

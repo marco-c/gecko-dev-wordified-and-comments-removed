@@ -1333,15 +1333,6 @@ function
 )
 {
 var
-count
-=
-{
-value
-:
-null
-}
-;
-var
 prefList
 =
 this
@@ -1352,7 +1343,6 @@ getChildList
 (
 "
 "
-count
 )
 ;
 var

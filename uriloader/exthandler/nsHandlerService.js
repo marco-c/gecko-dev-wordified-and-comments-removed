@@ -829,8 +829,6 @@ getChildList
 (
 "
 "
-{
-}
 )
 ;
 var

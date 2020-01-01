@@ -1219,11 +1219,6 @@ getChildList
 (
 "
 "
-{
-value
-:
-0
-}
 )
 ;
 for
