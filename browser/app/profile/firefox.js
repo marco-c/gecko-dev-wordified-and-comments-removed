@@ -7829,7 +7829,7 @@ previews
 .
 enable
 "
-true
+false
 )
 ;
 pref
