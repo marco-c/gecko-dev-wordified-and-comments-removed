@@ -38,6 +38,13 @@ MIRGraph
 graph
 )
 ;
+enum
+Observability
+{
+ConservativeObservability
+AggressiveObservability
+}
+;
 bool
 EliminatePhis
 (
@@ -47,6 +54,8 @@ mir
 MIRGraph
 &
 graph
+Observability
+observe
 )
 ;
 bool
@@ -108,6 +117,14 @@ graph
 ;
 void
 AssertGraphCoherency
+(
+MIRGraph
+&
+graph
+)
+;
+void
+AssertExtendedGraphCoherency
 (
 MIRGraph
 &
