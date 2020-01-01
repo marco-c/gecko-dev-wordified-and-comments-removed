@@ -9,7 +9,7 @@ a
 =
 immi
 65
-sti
+sti2c
 a
 ptr
 0
@@ -17,7 +17,7 @@ b
 =
 immi
 66
-sti
+sti2c
 b
 ptr
 1
@@ -25,7 +25,7 @@ c
 =
 immi
 67
-sti
+sti2c
 c
 ptr
 2
@@ -33,7 +33,7 @@ zero
 =
 immi
 0
-sti
+sti2c
 zero
 ptr
 3
