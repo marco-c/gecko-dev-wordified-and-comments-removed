@@ -18,6 +18,8 @@ Number
 )
 {
 \
+this
+.
 __defineGetter__
 (
 \
@@ -33,6 +35,8 @@ function
 \
 [
 (
+this
+.
 __defineGetter__
 (
 \
@@ -71,6 +75,8 @@ for
 (
 e
 in
+this
+.
 __defineSetter__
 (
 \

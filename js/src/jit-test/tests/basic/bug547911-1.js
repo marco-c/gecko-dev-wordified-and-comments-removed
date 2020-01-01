@@ -8,6 +8,8 @@ d
 =
 0
 ;
+this
+.
 __defineGetter__
 (
 "

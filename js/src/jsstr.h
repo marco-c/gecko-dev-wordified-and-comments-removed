@@ -4264,9 +4264,6 @@ js_str_escape
 JSContext
 *
 cx
-JSObject
-*
-obj
 uintN
 argc
 js

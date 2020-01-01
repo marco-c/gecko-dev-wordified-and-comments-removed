@@ -21,6 +21,8 @@ function
 with
 (
 \
+this
+.
 __defineGetter__
 (
 \

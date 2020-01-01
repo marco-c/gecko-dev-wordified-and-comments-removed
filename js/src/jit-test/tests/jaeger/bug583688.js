@@ -1,3 +1,5 @@
+this
+.
 __defineSetter__
 (
 "
@@ -11,6 +13,8 @@ function
 )
 try
 {
+this
+.
 __defineGetter__
 (
 "

@@ -110,6 +110,8 @@ function
 (
 )
 {
+this
+.
 watch
 (
 \

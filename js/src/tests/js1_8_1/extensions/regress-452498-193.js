@@ -52,6 +52,8 @@ printStatus
 summary
 )
 ;
+this
+.
 watch
 (
 "

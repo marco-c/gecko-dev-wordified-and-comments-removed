@@ -59,6 +59,8 @@ x
 )
 ;
 }
+this
+.
 __defineSetter__
 (
 "

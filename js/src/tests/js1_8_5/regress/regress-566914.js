@@ -19,6 +19,8 @@ eval
 code
 )
 }
+this
+.
 __defineGetter__
 (
 "

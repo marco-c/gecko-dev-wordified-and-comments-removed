@@ -1026,3 +1026,11 @@ preventExtensions
 idempotent
 .
 js
+script
+isPrototypeOf
+.
+js
+script
+propertyIsEnumerable
+.
+js

@@ -39,6 +39,8 @@ b
 (
 )
 ;
+this
+.
 __defineSetter__
 (
 "

@@ -3,6 +3,8 @@ setDebug
 true
 )
 ;
+this
+.
 __defineGetter__
 (
 "
