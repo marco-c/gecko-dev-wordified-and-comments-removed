@@ -170,12 +170,6 @@ nsIURI
 uri
 )
 ;
-void
-MainReleaseNoOp
-(
-)
-{
-}
 protected
 :
 nsresult
