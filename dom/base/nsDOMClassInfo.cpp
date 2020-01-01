@@ -1211,13 +1211,6 @@ h
 #
 include
 "
-nsIDOMDocumentRange
-.
-h
-"
-#
-include
-"
 nsIDOMDocumentTraversal
 .
 h
@@ -10250,11 +10243,6 @@ nsIDOMDocumentStyle
 DOM_CLASSINFO_MAP_ENTRY
 (
 nsIDOMNSDocumentStyle
-)
-\
-DOM_CLASSINFO_MAP_ENTRY
-(
-nsIDOMDocumentRange
 )
 \
 DOM_CLASSINFO_MAP_ENTRY

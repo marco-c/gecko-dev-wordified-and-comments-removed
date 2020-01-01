@@ -36,13 +36,6 @@ h
 #
 include
 "
-nsIDOMDocumentRange
-.
-h
-"
-#
-include
-"
 nsIDOMDocumentTraversal
 .
 h

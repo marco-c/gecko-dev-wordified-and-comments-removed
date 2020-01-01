@@ -428,10 +428,6 @@ nsIDOMRange
 .
 idl
 \
-nsIDOMDocumentRange
-.
-idl
-\
 (
 NULL
 )
