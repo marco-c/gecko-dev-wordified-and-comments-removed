@@ -43,7 +43,7 @@ RAX
 ;
 #
 ifdef
-_MSC_VER
+_WIN64
 const
 Register
 Assembler
@@ -3401,7 +3401,7 @@ X64_callrax
 }
 #
 ifdef
-_MSC_VER
+_WIN64
 int
 stk_used
 =
@@ -3502,7 +3502,7 @@ arg_index
 }
 #
 ifdef
-_MSC_VER
+_WIN64
 else
 if
 (
@@ -6797,7 +6797,7 @@ if
 (
 a
 <
-6
+NumArgRegs
 )
 {
 prepResultReg
@@ -7484,7 +7484,7 @@ clear
 ;
 #
 ifdef
-_MSC_VER
+_WIN64
 a
 .
 free
@@ -7724,7 +7724,7 @@ set
 #
 if
 defined
-_WIN64
+_MSC_VER
 DWORD
 tr
 ;
