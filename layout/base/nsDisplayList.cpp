@@ -3649,10 +3649,11 @@ aBuilder
 )
 )
 {
-nsTArray
+nsAutoTArray
 <
 nsIFrame
 *
+16
 >
 outFrames
 ;
