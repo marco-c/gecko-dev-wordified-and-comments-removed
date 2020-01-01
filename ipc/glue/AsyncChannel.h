@@ -267,6 +267,11 @@ Close
 (
 )
 ;
+void
+CloseWithError
+(
+)
+;
 virtual
 bool
 Send
