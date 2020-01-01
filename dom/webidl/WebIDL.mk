@@ -519,6 +519,10 @@ SVGGElement
 .
 webidl
 \
+SVGGradientElement
+.
+webidl
+\
 SVGGraphicsElement
 .
 webidl
@@ -528,6 +532,10 @@ SVGImageElement
 webidl
 \
 SVGLengthList
+.
+webidl
+\
+SVGLinearGradientElement
 .
 webidl
 \
@@ -580,6 +588,10 @@ SVGPolylineElement
 webidl
 \
 SVGPreserveAspectRatio
+.
+webidl
+\
+SVGRadialGradientElement
 .
 webidl
 \
@@ -648,6 +660,10 @@ SVGTransformList
 webidl
 \
 SVGTSpanElement
+.
+webidl
+\
+SVGUnitTypes
 .
 webidl
 \

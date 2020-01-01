@@ -213,10 +213,6 @@ nsSVGFilters
 .
 cpp
 \
-nsSVGGradientElement
-.
-cpp
-\
 nsSVGInteger
 .
 cpp
@@ -382,6 +378,10 @@ SVGFragmentIdentifier
 cpp
 \
 SVGGElement
+.
+cpp
+\
+SVGGradientElement
 .
 cpp
 \
@@ -695,6 +695,10 @@ SVGForeignObjectElement
 h
 \
 SVGGElement
+.
+h
+\
+SVGGradientElement
 .
 h
 \
