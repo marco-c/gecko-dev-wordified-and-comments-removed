@@ -8161,6 +8161,8 @@ JSAtom
 atom
 JSLocalKind
 localKind
+bool
+isArg
 )
 {
 JS_ASSERT
@@ -8191,6 +8193,10 @@ runtime
 atomState
 .
 argumentsAtom
+&
+&
+!
+isArg
 )
 return
 JS_TRUE
@@ -8424,6 +8430,7 @@ tc
 fun
 atom
 JSLOCAL_VAR
+true
 )
 )
 return
@@ -15395,6 +15402,7 @@ tc
 fun
 atom
 localKind
+false
 )
 )
 return
