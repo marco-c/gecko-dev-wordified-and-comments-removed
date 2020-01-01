@@ -1185,9 +1185,9 @@ Probes
 :
 discardMJITCode
 (
-JSContext
+FreeOp
 *
-cx
+fop
 mjit
 :
 :
@@ -1236,7 +1236,7 @@ p
 >
 discardMJITCode
 (
-cx
+fop
 jscr
 script
 address

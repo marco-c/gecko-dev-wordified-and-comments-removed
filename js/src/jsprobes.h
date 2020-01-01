@@ -558,9 +558,9 @@ virtual
 void
 discardMJITCode
 (
-JSContext
+FreeOp
 *
-cx
+fop
 mjit
 :
 :
@@ -703,9 +703,9 @@ stubCodeSize
 void
 discardMJITCode
 (
-JSContext
+FreeOp
 *
-cx
+fop
 mjit
 :
 :

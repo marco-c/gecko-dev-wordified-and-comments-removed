@@ -53,9 +53,9 @@ static
 void
 clearStackReferences
 (
-JSContext
+FreeOp
 *
-cx
+fop
 JSScript
 *
 script
@@ -65,9 +65,9 @@ static
 void
 clearStackReferencesAndChunk
 (
-JSContext
+FreeOp
 *
-cx
+fop
 JSScript
 *
 script

@@ -152,9 +152,12 @@ NULL
 void
 finish
 (
-JSContext
+js
+:
+:
+FreeOp
 *
-cx
+fop
 )
 ;
 bool

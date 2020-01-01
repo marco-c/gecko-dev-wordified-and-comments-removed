@@ -501,10 +501,6 @@ onBackgroundThread_
 ;
 public
 :
-JSContext
-*
-context
-;
 static
 FreeOp
 *
@@ -535,9 +531,6 @@ bool
 shouldFreeLater
 bool
 onBackgroundThread
-JSContext
-*
-cx
 )
 :
 JSFreeOp
@@ -551,10 +544,6 @@ shouldFreeLater
 onBackgroundThread_
 (
 onBackgroundThread
-)
-context
-(
-cx
 )
 {
 }
@@ -820,8 +809,8 @@ interpreterFrames
 JSContextCallback
 cxCallback
 ;
-JSCompartmentCallback
-compartmentCallback
+JSDestroyCompartmentCallback
+destroyCompartmentCallback
 ;
 js
 :
