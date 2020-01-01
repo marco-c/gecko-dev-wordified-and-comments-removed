@@ -212,6 +212,16 @@ nsMimeType
 ;
 NS_DECL_ISUPPORTS
 NS_DECL_NSIDOMMIMETYPE
+void
+DetachPlugin
+(
+)
+{
+mPlugin
+=
+nsnull
+;
+}
 protected
 :
 nsIDOMPlugin
