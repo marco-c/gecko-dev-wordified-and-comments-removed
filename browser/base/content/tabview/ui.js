@@ -1749,14 +1749,6 @@ focus
 ;
 gBrowser
 .
-tabContainer
-.
-adjustTabstrip
-(
-)
-;
-gBrowser
-.
 updateTitlebar
 (
 )
