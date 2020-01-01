@@ -488,6 +488,9 @@ _scheduletimer
 _unscheduletimer
 _popupcontextmenu
 _convertpoint
+NULL
+NULL
+NULL
 }
 ;
 static

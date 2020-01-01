@@ -3636,6 +3636,9 @@ child
 :
 :
 _convertpoint
+NULL
+NULL
+NULL
 }
 ;
 PluginInstanceChild
