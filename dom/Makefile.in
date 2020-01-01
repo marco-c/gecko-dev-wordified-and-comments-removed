@@ -422,6 +422,10 @@ canvas
 \
 interfaces
 /
+contacts
+\
+interfaces
+/
 core
 \
 interfaces
@@ -527,6 +531,8 @@ DIRS
 base
 \
 battery
+\
+contacts
 \
 power
 \

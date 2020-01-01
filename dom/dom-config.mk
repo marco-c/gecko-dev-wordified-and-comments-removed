@@ -27,6 +27,10 @@ src
 \
 dom
 /
+contacts
+\
+dom
+/
 src
 /
 events
