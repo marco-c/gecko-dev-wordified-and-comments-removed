@@ -1340,6 +1340,10 @@ WebGLActiveInfo
 )
 DOMCI_CLASS
 (
+WebGLExtension
+)
+DOMCI_CLASS
+(
 PaintRequest
 )
 DOMCI_CLASS
