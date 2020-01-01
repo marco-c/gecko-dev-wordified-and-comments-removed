@@ -7281,6 +7281,14 @@ d
 )
 |
 |
+endptr
+=
+=
+bp
++
+2
+|
+|
 SkipSpace
 (
 endptr
