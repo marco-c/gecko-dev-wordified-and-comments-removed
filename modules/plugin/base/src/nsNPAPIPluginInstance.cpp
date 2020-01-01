@@ -324,13 +324,6 @@ rv
 )
 return
 ;
-mOutputStream
--
->
-Close
-(
-)
-;
 NS_GetURLSpecFromFile
 (
 mTempFile
@@ -411,9 +404,6 @@ PRUint32
 aWriteCount
 )
 {
-PRUint32
-actualCount
-;
 mOutputStream
 -
 >
@@ -421,8 +411,7 @@ Write
 (
 aBuf
 aCount
-&
-actualCount
+aWriteCount
 )
 ;
 mOutputStream
@@ -538,6 +527,13 @@ Close
 void
 )
 {
+mOutputStream
+-
+>
+Close
+(
+)
+;
 mOwner
 -
 >
