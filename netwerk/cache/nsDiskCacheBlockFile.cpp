@@ -1732,15 +1732,6 @@ mFileSize
 maxFileSize
 )
 ;
-mozilla
-:
-:
-fallocate
-(
-mFD
-mFileSize
-)
-;
 }
 if
 (
