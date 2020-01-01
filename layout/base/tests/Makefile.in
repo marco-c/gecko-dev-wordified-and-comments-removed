@@ -1043,6 +1043,10 @@ test_bug582181
 .
 html
 \
+test_bug677878
+.
+html
+\
 test_flush_on_paint
 .
 html
