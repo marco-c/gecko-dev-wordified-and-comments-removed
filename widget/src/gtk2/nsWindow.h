@@ -278,6 +278,12 @@ args
 )
 #
 define
+LOGDRAG
+(
+args
+)
+#
+define
 LOGDRAW
 (
 args
