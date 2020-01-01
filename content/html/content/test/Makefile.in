@@ -1271,10 +1271,6 @@ test_bug557087
 .
 html
 \
-test_bug600155
-.
-html
-\
 test_bug598643
 .
 html
