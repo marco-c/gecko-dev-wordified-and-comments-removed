@@ -10707,6 +10707,9 @@ current
 &
 &
 gBrowser
+&
+&
+gBrowser
 .
 selectedTab
 .
