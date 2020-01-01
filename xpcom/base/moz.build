@@ -653,6 +653,16 @@ nsCrashOnException
 cpp
 '
 ]
+CSRCS
++
+=
+[
+'
+nsErrorAssertsC
+.
+c
+'
+]
 LIBXUL_LIBRARY
 =
 True

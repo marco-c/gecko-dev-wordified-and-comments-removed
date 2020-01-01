@@ -76,15 +76,6 @@ config
 autoconf
 .
 mk
-CSRCS
-=
-iccjpeg
-.
-c
-\
-(
-NULL
-)
 #
 Decoders
 need

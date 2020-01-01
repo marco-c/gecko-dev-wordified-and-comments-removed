@@ -135,6 +135,16 @@ LIBRARY_NAME
 '
 speex_resampler
 '
+CSRCS
++
+=
+[
+'
+resample
+.
+c
+'
+]
 MSVC_ENABLE_PGO
 =
 True

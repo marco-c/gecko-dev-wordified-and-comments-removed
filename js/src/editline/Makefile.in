@@ -89,14 +89,6 @@ mk
 FORCE_STATIC_LIB
 =
 1
-CSRCS
-=
-editline
-.
-c
-sysunix
-.
-c
 DEFINES
 +
 =

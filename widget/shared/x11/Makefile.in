@@ -79,16 +79,6 @@ mk
 LIBRARY_NAME
 =
 widget_shared_x11
-CSRCS
-=
-\
-keysym2ucs
-.
-c
-\
-(
-NULL
-)
 include
 (
 topsrcdir

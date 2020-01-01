@@ -82,16 +82,6 @@ xpcombase_s
 MOZILLA_INTERNAL_API
 =
 1
-CSRCS
-=
-\
-nsErrorAssertsC
-.
-c
-\
-(
-NULL
-)
 ifeq
 (
 (

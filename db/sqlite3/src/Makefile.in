@@ -342,16 +342,6 @@ MODULE_OPTIMIZE_FLAGS
 -
 O2
 endif
-CSRCS
-=
-\
-sqlite3
-.
-c
-\
-(
-NULL
-)
 #
 -
 DSQLITE_SECURE_DELETE

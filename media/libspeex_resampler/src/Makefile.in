@@ -155,16 +155,6 @@ DEFINES
 -
 DFLOATING_POINT
 endif
-CSRCS
-=
-\
-resample
-.
-c
-\
-(
-NULL
-)
 include
 (
 topsrcdir

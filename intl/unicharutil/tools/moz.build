@@ -103,3 +103,13 @@ PROGRAM
 '
 ucgendat
 '
+CSRCS
++
+=
+[
+'
+ucgendat
+.
+c
+'
+]
