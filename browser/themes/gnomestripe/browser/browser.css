@@ -165,17 +165,6 @@ top
 browser
 -
 bottombox
-:
-not
-(
-[
-lwthemefooter
-=
-"
-true
-"
-]
-)
 {
 background
 -
