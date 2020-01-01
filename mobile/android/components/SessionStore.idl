@@ -709,7 +709,7 @@ AString
 getTabValue
 (
 in
-nsIDOMNode
+jsval
 aTab
 in
 AString
@@ -768,7 +768,7 @@ void
 setTabValue
 (
 in
-nsIDOMNode
+jsval
 aTab
 in
 AString
@@ -810,7 +810,7 @@ void
 deleteTabValue
 (
 in
-nsIDOMNode
+jsval
 aTab
 in
 AString

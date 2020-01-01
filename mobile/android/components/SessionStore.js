@@ -5083,7 +5083,7 @@ browser
 =
 aTab
 .
-linkedBrowser
+browser
 ;
 let
 data
@@ -5122,7 +5122,7 @@ browser
 =
 aTab
 .
-linkedBrowser
+browser
 ;
 if
 (
@@ -5304,7 +5304,7 @@ browser
 =
 aTab
 .
-linkedBrowser
+browser
 ;
 if
 (
