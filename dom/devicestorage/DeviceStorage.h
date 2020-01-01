@@ -94,6 +94,12 @@ DEVICESTORAGE_SDCARD
 "
 sdcard
 "
+#
+define
+DEVICESTORAGE_CRASHES
+"
+crashes
+"
 namespace
 mozilla
 {
