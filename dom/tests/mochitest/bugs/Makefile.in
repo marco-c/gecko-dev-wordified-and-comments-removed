@@ -564,6 +564,12 @@ iframe_bug430276
 .
 html
 \
+iframe_bug430276
+-
+2
+.
+html
+\
 (
 NULL
 )
