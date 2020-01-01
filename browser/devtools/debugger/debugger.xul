@@ -2186,6 +2186,11 @@ searchbox
 -
 panel
 "
+level
+=
+"
+top
+"
 type
 =
 "
@@ -2457,6 +2462,11 @@ conditional
 breakpoint
 -
 panel
+"
+level
+=
+"
+top
 "
 type
 =
