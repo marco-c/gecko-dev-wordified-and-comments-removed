@@ -8794,8 +8794,10 @@ cx
 ts
 fun
 )
+;
+ok
 &
-&
+=
 js_CloseTokenStream
 (
 cx
