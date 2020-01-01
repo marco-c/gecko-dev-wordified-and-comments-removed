@@ -71,6 +71,12 @@ function
 provider
 )
 {
+provider
+.
+enabled
+=
+true
+;
 ok
 (
 provider

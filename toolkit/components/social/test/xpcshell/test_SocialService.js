@@ -388,7 +388,7 @@ do_check_true
 provider
 )
 ;
-do_check_true
+do_check_false
 (
 provider
 .
@@ -469,7 +469,7 @@ function
 provider
 )
 {
-do_check_true
+do_check_false
 (
 provider
 .
@@ -534,6 +534,19 @@ changed
 false
 )
 ;
+providers
+[
+providers
+.
+length
+-
+1
+]
+.
+enabled
+=
+true
+;
 SocialService
 .
 enabled
@@ -579,9 +592,8 @@ function
 provider
 )
 {
-do_check_true
+do_check_false
 (
-!
 provider
 .
 enabled
@@ -680,7 +692,7 @@ function
 provider
 )
 {
-do_check_true
+do_check_false
 (
 provider
 .
