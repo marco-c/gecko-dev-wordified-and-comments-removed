@@ -132,11 +132,6 @@ Test
 Database
 "
 ;
-const
-NS_ERROR_INVALID_ARG
-=
-0x80070057
-;
 let
 request
 =
@@ -267,8 +262,10 @@ is
 (
 e
 .
-result
-NS_ERROR_INVALID_ARG
+code
+IDBDatabaseException
+.
+DATA_ERR
 "
 Good
 error

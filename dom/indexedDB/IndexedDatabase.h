@@ -42,6 +42,13 @@ h
 #
 include
 "
+nsDOMError
+.
+h
+"
+#
+include
+"
 nsStringGlue
 .
 h

@@ -115,17 +115,6 @@ testSteps
 )
 {
 const
-CONSTRAINT_ERR
-=
-Components
-.
-interfaces
-.
-nsIIDBDatabaseException
-.
-CONSTRAINT_ERR
-;
-const
 name
 =
 window
@@ -282,6 +271,8 @@ onerror
 new
 ExpectError
 (
+IDBDatabaseException
+.
 CONSTRAINT_ERR
 )
 ;

@@ -552,5 +552,11 @@ DEADLOCK_ERR
 =
 33
 ;
+readonly
+attribute
+unsigned
+short
+code
+;
 }
 ;

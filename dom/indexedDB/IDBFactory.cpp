@@ -8,13 +8,6 @@ h
 #
 include
 "
-nsIIDBDatabaseException
-.
-h
-"
-#
-include
-"
 nsILocalFile
 .
 h
@@ -389,7 +382,7 @@ mLastIndexId
 )
 {
 }
-PRUint16
+nsresult
 DoDatabaseWork
 (
 mozIStorageConnection
@@ -397,7 +390,7 @@ mozIStorageConnection
 aConnection
 )
 ;
-PRUint16
+nsresult
 GetSuccessResult
 (
 nsIWritableVariant
@@ -3892,7 +3885,7 @@ gCurrentDatabaseIndex
 BAD_TLS_INDEX
 ;
 return
-NS_ERROR_FAILURE
+NS_ERROR_DOM_INDEXEDDB_UNKNOWN_ERR
 ;
 }
 nsContentUtils
@@ -3917,7 +3910,7 @@ IsEmpty
 )
 {
 return
-NS_ERROR_INVALID_ARG
+NS_ERROR_DOM_INDEXEDDB_NON_TRANSIENT_ERR
 ;
 }
 nsCOMPtr
@@ -3947,7 +3940,7 @@ principal
 NS_ENSURE_SUCCESS
 (
 rv
-nsnull
+NS_ERROR_DOM_INDEXEDDB_UNKNOWN_ERR
 )
 ;
 nsCString
@@ -3990,7 +3983,7 @@ origin
 NS_ENSURE_SUCCESS
 (
 rv
-nsnull
+NS_ERROR_DOM_INDEXEDDB_UNKNOWN_ERR
 )
 ;
 if
@@ -4020,7 +4013,7 @@ principal
 )
 ;
 return
-nsnull
+NS_ERROR_DOM_INDEXEDDB_UNKNOWN_ERR
 ;
 }
 }
@@ -4033,9 +4026,10 @@ GetScriptContextFromJSContext
 aCx
 )
 ;
-NS_ENSURE_STATE
+NS_ENSURE_TRUE
 (
 context
+NS_ERROR_DOM_INDEXEDDB_UNKNOWN_ERR
 )
 ;
 nsCOMPtr
@@ -4075,9 +4069,10 @@ GetCurrentInnerWindow
 )
 ;
 }
-NS_ENSURE_STATE
+NS_ENSURE_TRUE
 (
 innerWindow
+NS_ERROR_DOM_INDEXEDDB_UNKNOWN_ERR
 )
 ;
 nsRefPtr
@@ -4099,7 +4094,7 @@ innerWindow
 NS_ENSURE_TRUE
 (
 request
-NS_ERROR_FAILURE
+NS_ERROR_DOM_INDEXEDDB_UNKNOWN_ERR
 )
 ;
 nsRefPtr
@@ -4148,7 +4143,7 @@ GetOrCreate
 NS_ENSURE_TRUE
 (
 mgr
-NS_ERROR_FAILURE
+NS_ERROR_DOM_INDEXEDDB_UNKNOWN_ERR
 )
 ;
 rv
@@ -4166,7 +4161,7 @@ permissionHelper
 NS_ENSURE_SUCCESS
 (
 rv
-rv
+NS_ERROR_DOM_INDEXEDDB_UNKNOWN_ERR
 )
 ;
 request
@@ -4224,7 +4219,7 @@ rv
 )
 {
 return
-rv
+NS_ERROR_DOM_INDEXEDDB_UNKNOWN_ERR
 ;
 }
 nsRefPtr
@@ -4322,7 +4317,7 @@ rv
 )
 {
 return
-rv
+NS_ERROR_DOM_INDEXEDDB_UNKNOWN_ERR
 ;
 }
 PRUint16
@@ -4430,7 +4425,7 @@ rv
 )
 {
 return
-rv
+NS_ERROR_DOM_INDEXEDDB_UNKNOWN_ERR
 ;
 }
 PRUint16
@@ -4543,7 +4538,7 @@ rv
 )
 {
 return
-rv
+NS_ERROR_DOM_INDEXEDDB_UNKNOWN_ERR
 ;
 }
 rv
@@ -4562,7 +4557,7 @@ rv
 )
 {
 return
-rv
+NS_ERROR_DOM_INDEXEDDB_UNKNOWN_ERR
 ;
 }
 PRUint16
@@ -4645,7 +4640,7 @@ return
 NS_OK
 ;
 }
-PRUint16
+nsresult
 OpenDatabaseHelper
 :
 :
@@ -4724,10 +4719,7 @@ IsShuttingDown
 )
 {
 return
-nsIIDBDatabaseException
-:
-:
-UNKNOWN_ERR
+NS_ERROR_DOM_INDEXEDDB_UNKNOWN_ERR
 ;
 }
 nsCOMPtr
@@ -4754,10 +4746,7 @@ connection
 NS_ENSURE_SUCCESS
 (
 rv
-nsIIDBDatabaseException
-:
-:
-UNKNOWN_ERR
+NS_ERROR_DOM_INDEXEDDB_UNKNOWN_ERR
 )
 ;
 mDatabaseId
@@ -4796,10 +4785,7 @@ mObjectStores
 NS_ENSURE_SUCCESS
 (
 rv
-nsIIDBDatabaseException
-:
-:
-UNKNOWN_ERR
+NS_ERROR_DOM_INDEXEDDB_UNKNOWN_ERR
 )
 ;
 for
@@ -4893,10 +4879,10 @@ mLastObjectStoreId
 ;
 }
 return
-OK
+NS_OK
 ;
 }
-PRUint16
+nsresult
 OpenDatabaseHelper
 :
 :
@@ -5425,10 +5411,7 @@ hash
 )
 ;
 return
-nsIIDBDatabaseException
-:
-:
-UNKNOWN_ERR
+NS_ERROR_DOM_INDEXEDDB_UNKNOWN_ERR
 ;
 }
 dbInfo
@@ -5455,10 +5438,7 @@ mObjectStores
 NS_ENSURE_SUCCESS
 (
 rv
-nsIIDBDatabaseException
-:
-:
-UNKNOWN_ERR
+NS_ERROR_DOM_INDEXEDDB_UNKNOWN_ERR
 )
 ;
 NS_ASSERTION
@@ -5529,10 +5509,7 @@ db
 )
 {
 return
-nsIIDBDatabaseException
-:
-:
-UNKNOWN_ERR
+NS_ERROR_DOM_INDEXEDDB_UNKNOWN_ERR
 ;
 }
 aResult
@@ -5551,6 +5528,6 @@ db
 )
 ;
 return
-OK
+NS_OK
 ;
 }

@@ -985,12 +985,6 @@ return
 mTransaction
 ;
 }
-ObjectStoreInfo
-*
-GetObjectStoreInfo
-(
-)
-;
 protected
 :
 IDBObjectStore
