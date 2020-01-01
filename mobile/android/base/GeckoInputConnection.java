@@ -2441,6 +2441,16 @@ mIMEState
 =
 =
 IME_STATE_PASSWORD
+|
+|
+"
+password
+"
+.
+equalsIgnoreCase
+(
+mIMETypeHint
+)
 )
 outAttrs
 .
