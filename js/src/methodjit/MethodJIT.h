@@ -256,6 +256,13 @@ this
 }
 #
 endif
+static
+const
+uint32
+STACK_BASE_DIFFERENCE
+=
+0x38
+;
 #
 elif
 defined
