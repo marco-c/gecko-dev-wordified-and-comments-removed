@@ -62,15 +62,6 @@ endif
 #
 include
 "
-mozilla
-/
-unused
-.
-h
-"
-#
-include
-"
 npfunctions
 .
 h
@@ -1079,9 +1070,6 @@ DidComposite
 (
 )
 {
-unused
-<
-<
 SendNPP_DidComposite
 (
 )
