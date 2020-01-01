@@ -2014,6 +2014,9 @@ bool
 mUseGlobalHistory
 ;
 bool
+mInPrivateBrowsing
+;
+bool
 mFiredUnloadEvent
 ;
 bool
