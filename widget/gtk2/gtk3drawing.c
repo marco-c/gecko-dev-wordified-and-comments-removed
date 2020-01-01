@@ -12371,7 +12371,6 @@ moz_gtk_tree_header_sort_arrow_paint
 (
 cr
 rect
-cliprect
 state
 (
 GtkArrowType
@@ -12463,7 +12462,6 @@ moz_gtk_combo_box_entry_button_paint
 (
 cr
 rect
-cliprect
 state
 flags
 direction
@@ -12557,7 +12555,6 @@ moz_gtk_toolbar_separator_paint
 (
 cr
 rect
-cliprect
 direction
 )
 ;
@@ -12630,7 +12627,6 @@ moz_gtk_progress_chunk_paint
 (
 cr
 rect
-cliprect
 direction
 widget
 )
@@ -12720,7 +12716,6 @@ moz_gtk_menu_separator_paint
 (
 cr
 rect
-cliprect
 direction
 )
 ;
