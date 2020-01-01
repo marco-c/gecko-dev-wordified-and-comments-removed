@@ -5425,3 +5425,17 @@ line
 properties
 "
 )
+MSG_DEF
+(
+JSMSG_DEBUG_VARIABLE_NOT_FOUND
+294
+0
+JSEXN_TYPEERR
+"
+variable
+not
+found
+in
+environment
+"
+)
