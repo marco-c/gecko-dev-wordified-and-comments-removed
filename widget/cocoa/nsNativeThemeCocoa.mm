@@ -8479,7 +8479,7 @@ allowed
 to
 static_cast
 to
-nsHTMLMeterElement
+HTMLMeterElement
 we
 would
 be

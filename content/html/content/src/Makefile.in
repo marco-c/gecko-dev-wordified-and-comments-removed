@@ -190,6 +190,10 @@ HTMLMetaElement
 .
 h
 \
+HTMLMeterElement
+.
+h
+\
 HTMLModElement
 .
 h
@@ -400,7 +404,7 @@ HTMLMetaElement
 .
 cpp
 \
-nsHTMLMeterElement
+HTMLMeterElement
 .
 cpp
 \
