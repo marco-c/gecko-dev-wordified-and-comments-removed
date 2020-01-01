@@ -783,6 +783,10 @@ nsIRandomGenerator
 .
 idl
 \
+nsIStrictTransportSecurityService
+.
+idl
+\
 nsIURIWithPrincipal
 .
 idl

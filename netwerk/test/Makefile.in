@@ -555,6 +555,16 @@ cpp
 BIN_SUFFIX
 )
 )
+CPP_UNIT_TESTS
+=
+\
+TestSTSParser
+.
+cpp
+\
+(
+NULL
+)
 include
 (
 topsrcdir

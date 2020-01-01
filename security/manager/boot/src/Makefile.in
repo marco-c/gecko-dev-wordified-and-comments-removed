@@ -483,6 +483,10 @@ nsSecurityWarningDialogs
 .
 cpp
 \
+nsStrictTransportSecurityService
+.
+cpp
+\
 (
 NULL
 )
