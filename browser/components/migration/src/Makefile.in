@@ -473,6 +473,10 @@ cpp
 EXTRA_PP_COMPONENTS
 +
 =
+IEProfileMigrator
+.
+js
+\
 SafariProfileMigrator
 .
 js
