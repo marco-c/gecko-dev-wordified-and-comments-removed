@@ -2643,6 +2643,9 @@ JSObject
 *
 object
 ;
+uintN
+index
+;
 }
 ;
 #

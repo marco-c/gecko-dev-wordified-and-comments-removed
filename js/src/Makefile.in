@@ -1053,6 +1053,10 @@ jsopcode
 .
 h
 \
+jsopcodeinlines
+.
+h
+\
 jsotypes
 .
 h

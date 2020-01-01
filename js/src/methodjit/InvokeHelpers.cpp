@@ -722,17 +722,6 @@ entryFp
 JS_ASSERT
 (
 !
-fp
--
->
-hasBlockChain
-(
-)
-)
-;
-JS_ASSERT
-(
-!
 js_IsActiveWithOrBlock
 (
 cx

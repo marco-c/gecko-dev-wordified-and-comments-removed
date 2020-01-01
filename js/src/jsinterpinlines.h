@@ -107,10 +107,6 @@ setUndefined
 (
 )
 ;
-blockChain_
-=
-NULL
-;
 JS_ASSERT
 (
 annotation
@@ -278,10 +274,6 @@ rval_
 setUndefined
 (
 )
-;
-blockChain_
-=
-NULL
 ;
 SetValueRangeToUndefined
 (
@@ -562,10 +554,6 @@ setUndefined
 (
 )
 ;
-blockChain_
-=
-NULL
-;
 setAnnotation
 (
 prev
@@ -701,10 +689,6 @@ rval_
 setUndefined
 (
 )
-;
-blockChain_
-=
-NULL
 ;
 JS_ASSERT
 (

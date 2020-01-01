@@ -1059,6 +1059,9 @@ LeaveBlock
 VMFrame
 &
 f
+JSObject
+*
+blockChain
 )
 ;
 void
