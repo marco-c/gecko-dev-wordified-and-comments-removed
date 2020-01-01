@@ -14805,11 +14805,6 @@ JSOP_STRICTNE
 return
 JS_FALSE
 ;
-case
-JSOP_GROUP
-:
-break
-;
 default
 :
 if
