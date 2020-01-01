@@ -116,8 +116,6 @@ content
 /
 media
 /
-video
-/
 test
 /
 320x240
@@ -225,9 +223,8 @@ Content
 Duration
 "
 "
-Invalid
-Float
-Value
+-
+6
 "
 false
 )
@@ -275,12 +272,6 @@ bytes
 bytes
 .
 length
-)
-;
-bis
-.
-close
-(
 )
 ;
 }

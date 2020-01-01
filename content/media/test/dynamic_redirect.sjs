@@ -135,8 +135,6 @@ content
 /
 media
 /
-video
-/
 test
 /
 seek
@@ -285,8 +283,6 @@ tests
 content
 /
 media
-/
-video
 /
 test
 /

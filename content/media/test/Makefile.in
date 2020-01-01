@@ -401,9 +401,6 @@ DEPTH
 /
 .
 .
-/
-.
-.
 topsrcdir
 =
 top_srcdir
@@ -418,8 +415,6 @@ relativesrcdir
 content
 /
 media
-/
-video
 /
 test
 include

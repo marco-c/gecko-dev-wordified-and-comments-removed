@@ -116,8 +116,6 @@ content
 /
 media
 /
-video
-/
 test
 /
 320x240
@@ -226,7 +224,7 @@ Duration
 "
 "
 -
-6
+5
 "
 false
 )
@@ -274,6 +272,12 @@ bytes
 bytes
 .
 length
+)
+;
+bis
+.
+close
+(
 )
 ;
 }
