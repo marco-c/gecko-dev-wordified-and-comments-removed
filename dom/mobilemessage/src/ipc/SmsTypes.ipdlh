@@ -288,6 +288,9 @@ delivery
 ReadState
 read
 ;
+uint64_t
+threadId
+;
 }
 ;
 struct
