@@ -14,11 +14,11 @@ Toolbar
 ENTITY
 dialog
 .
-style
+dimensions
 "
 width
 :
-86ch
+92ch
 ;
 height
 :
