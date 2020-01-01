@@ -5722,7 +5722,7 @@ if
 !
 event
 .
-target
+originalTarget
 .
 rel
 .
@@ -5765,7 +5765,7 @@ href
 =
 event
 .
-target
+originalTarget
 .
 href
 ;
