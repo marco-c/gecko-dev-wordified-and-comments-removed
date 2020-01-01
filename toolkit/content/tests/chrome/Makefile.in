@@ -515,10 +515,6 @@ window_preferences
 .
 xul
 \
-test_autocomplete2
-.
-xul
-\
 (
 NULL
 )
