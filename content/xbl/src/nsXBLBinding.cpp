@@ -800,6 +800,12 @@ InstallField
 (
 context
 origObj
+content
+-
+>
+NodePrincipal
+(
+)
 protoBinding
 -
 >
