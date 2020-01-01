@@ -7750,10 +7750,6 @@ aEvent
 if
 (
 !
-isEditor
-&
-&
-!
 keyEvent
 -
 >
@@ -7788,6 +7784,15 @@ nsContentUtils
 ContentIsDraggable
 (
 content
+)
+&
+&
+!
+content
+-
+>
+IsEditable
+(
 )
 )
 {
