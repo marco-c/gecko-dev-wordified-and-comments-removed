@@ -4506,6 +4506,11 @@ mCg
 =
 cgContext
 ;
+CGContextRetain
+(
+mCg
+)
+;
 mData
 =
 nullptr
