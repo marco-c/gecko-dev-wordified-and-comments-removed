@@ -11530,7 +11530,7 @@ false
 backcolor
 "
 "
-cmd_backgroundColor
+cmd_highlight
 "
 "
 "
