@@ -507,6 +507,14 @@ test_bug537046
 .
 html
 \
+test_bug549262
+.
+html
+\
+file_bug549262
+.
+html
+\
 test_bug550434
 .
 html
