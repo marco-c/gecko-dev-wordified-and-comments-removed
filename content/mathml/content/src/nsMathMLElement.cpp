@@ -265,6 +265,10 @@ GetPresContext
 >
 PostRebuildAllStyleDataEvent
 (
+nsChangeHint
+(
+0
+)
 )
 ;
 }

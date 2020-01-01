@@ -5971,6 +5971,8 @@ nsPresContext
 :
 PostRebuildAllStyleDataEvent
 (
+nsChangeHint
+aExtraHint
 )
 {
 if
@@ -5992,6 +5994,7 @@ FrameConstructor
 >
 PostRebuildAllStyleDataEvent
 (
+aExtraHint
 )
 ;
 }

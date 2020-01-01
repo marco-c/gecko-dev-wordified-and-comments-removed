@@ -599,6 +599,8 @@ aExtraHint
 void
 PostRebuildAllStyleDataEvent
 (
+nsChangeHint
+aExtraHint
 )
 ;
 void
