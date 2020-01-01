@@ -401,7 +401,6 @@ tinderbox
 -
 works
 locally
-random
 =
 =
 444656
@@ -412,9 +411,6 @@ html
 ref
 .
 html
-#
-bug
-406299
 =
 =
 449555
