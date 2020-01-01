@@ -360,14 +360,6 @@ onLoad
 false
 )
 ;
-win
-.
-gBrowser
-.
-stop
-(
-)
-;
 windowsToClose
 .
 push
