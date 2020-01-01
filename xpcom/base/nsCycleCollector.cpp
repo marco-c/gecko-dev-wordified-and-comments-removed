@@ -5912,7 +5912,7 @@ AddNode
 (
 void
 *
-s
+aPtr
 nsCycleCollectionParticipant
 *
 aParticipant
@@ -6519,7 +6519,7 @@ AddNode
 (
 void
 *
-s
+aPtr
 nsCycleCollectionParticipant
 *
 aParticipant
@@ -6539,7 +6539,7 @@ PL_DHashTableOperate
 (
 &
 mPtrToNodeMap
-s
+aPtr
 PL_DHASH_ADD
 )
 )
@@ -6577,7 +6577,7 @@ mNodeBuilder
 .
 Add
 (
-s
+aPtr
 aParticipant
 )
 ;
