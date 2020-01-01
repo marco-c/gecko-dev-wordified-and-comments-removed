@@ -932,6 +932,10 @@ ECL_SRCS
 )
 \
 (
+STUBS_SRCS
+)
+\
+(
 LOWHASH_SRCS
 )
 \
