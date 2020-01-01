@@ -110,6 +110,7 @@ eDOMEvents_click
 eDOMEvents_dblclick
 eDOMEvents_mouseover
 eDOMEvents_mouseout
+eDOMEvents_MozMouseHittest
 eDOMEvents_mousemove
 eDOMEvents_contextmenu
 eDOMEvents_keydown
@@ -122,6 +123,7 @@ eDOMEvents_popstate
 eDOMEvents_beforeunload
 eDOMEvents_unload
 eDOMEvents_hashchange
+eDOMEvents_readystatechange
 eDOMEvents_abort
 eDOMEvents_error
 eDOMEvents_submit

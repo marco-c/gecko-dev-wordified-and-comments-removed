@@ -2690,12 +2690,12 @@ InsertCookieDBListener
 mUpdateListener
 =
 new
-InsertCookieDBListener
+UpdateCookieDBListener
 ;
 mRemoveListener
 =
 new
-InsertCookieDBListener
+RemoveCookieDBListener
 ;
 mCloseListener
 =

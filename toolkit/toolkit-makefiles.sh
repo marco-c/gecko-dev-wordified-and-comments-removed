@@ -685,6 +685,11 @@ dom
 plugins
 /
 Makefile
+js
+/
+jetpack
+/
+Makefile
 "
 MAKEFILES_editor
 =

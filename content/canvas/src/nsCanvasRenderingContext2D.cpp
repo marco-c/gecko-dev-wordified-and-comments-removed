@@ -2133,7 +2133,7 @@ ownerDoc
 ownerDoc
 -
 >
-GetPrimaryShell
+GetShell
 (
 )
 :
@@ -3042,6 +3042,10 @@ mem
 if
 (
 mValid
+&
+&
+!
+mDocShell
 )
 gCanvasMemoryUsed
 -
