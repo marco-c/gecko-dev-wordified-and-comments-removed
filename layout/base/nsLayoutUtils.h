@@ -2223,6 +2223,15 @@ nsFrameList
 aFrameList
 )
 ;
+static
+void
+AssertTreeOnlyEmptyNextInFlows
+(
+nsIFrame
+*
+aSubtreeRoot
+)
+;
 #
 endif
 }
