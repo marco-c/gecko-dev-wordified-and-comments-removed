@@ -557,6 +557,10 @@ cacheManifest
 headers
 ^
 \
+test_bug452451
+.
+html
+\
 (
 NULL
 )

@@ -1447,11 +1447,14 @@ MSG_DEF
 (
 JSMSG_BAD_QUANTIFIER
 46
-0
+1
 JSEXN_SYNTAXERR
 "
 invalid
 quantifier
+{
+0
+}
 "
 )
 MSG_DEF

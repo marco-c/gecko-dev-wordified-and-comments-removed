@@ -199,11 +199,3 @@ regress
 571014
 .
 js
-script
-regress
--
-yarr
--
-regexp
-.
-js

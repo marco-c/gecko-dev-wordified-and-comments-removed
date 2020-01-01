@@ -44,6 +44,8 @@ SyntaxError
 :
 invalid
 quantifier
+?
+asdf
 '
 ;
 printBugNumber
