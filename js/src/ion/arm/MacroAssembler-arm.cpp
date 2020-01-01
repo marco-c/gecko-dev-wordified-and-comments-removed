@@ -9803,7 +9803,7 @@ void
 MacroAssemblerARMCompat
 :
 :
-pushABIArg
+passABIArg
 (
 const
 MoveOperand
@@ -9980,7 +9980,7 @@ void
 MacroAssemblerARMCompat
 :
 :
-pushABIArg
+passABIArg
 (
 const
 Register
@@ -9988,7 +9988,7 @@ Register
 reg
 )
 {
-pushABIArg
+passABIArg
 (
 MoveOperand
 (
@@ -10001,7 +10001,7 @@ void
 MacroAssemblerARMCompat
 :
 :
-pushABIArg
+passABIArg
 (
 const
 FloatRegister
@@ -10009,7 +10009,7 @@ FloatRegister
 freg
 )
 {
-pushABIArg
+passABIArg
 (
 MoveOperand
 (
@@ -10311,7 +10311,7 @@ setupAlignedABICall
 1
 )
 ;
-pushABIArg
+passABIArg
 (
 r0
 )
