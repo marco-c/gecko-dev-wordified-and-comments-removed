@@ -205,14 +205,6 @@ test_audioBufferSourceNodeEnded
 .
 html
 \
-test_audioBufferSourceNodeGain
-.
-html
-\
-test_audioBufferSourceNodeGainInLoop
-.
-html
-\
 test_audioBufferSourceNodeLazyLoopParam
 .
 html
@@ -270,10 +262,6 @@ test_delayNodeSmallMaxDelay
 html
 \
 test_delayNodeWithGain
-.
-html
-\
-test_delayNodeWithGainAlternate
 .
 html
 \
