@@ -248,6 +248,17 @@ Desktop
 <
 !
 ENTITY
+editBookmarkDialog
+.
+title
+"
+Edit
+Bookmark
+"
+>
+<
+!
+ENTITY
 editBookmarkDone
 .
 label

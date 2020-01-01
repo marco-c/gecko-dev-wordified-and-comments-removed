@@ -10733,14 +10733,6 @@ _identityBox
 ;
 this
 .
-_identityPopup
-.
-focus
-(
-)
-;
-this
-.
 _identityBox
 .
 setAttribute
@@ -15853,7 +15845,7 @@ tab
 restoreViewportPosition
 (
 oldWidth
-w
+newWidth
 )
 ;
 }
