@@ -11395,6 +11395,17 @@ mOwner
 Invalidate
 (
 rect
++
+mOwner
+-
+>
+GetUsedBorderAndPadding
+(
+)
+.
+TopLeft
+(
+)
 )
 ;
 }
