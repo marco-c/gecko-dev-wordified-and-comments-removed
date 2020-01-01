@@ -472,6 +472,10 @@ smilXHR_helper
 .
 svg
 \
+test_smilChangeAfterFrozen
+.
+xhtml
+\
 test_smilCrossContainer
 .
 xhtml
