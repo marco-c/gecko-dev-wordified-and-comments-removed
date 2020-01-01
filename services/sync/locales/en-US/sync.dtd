@@ -15,11 +15,7 @@ logInItem
 .
 label
 "
-Sign
-In
-.
-.
-.
+Connect
 "
 >
 <
@@ -29,8 +25,7 @@ logOutItem
 .
 label
 "
-Sign
-Out
+Disconnect
 "
 >
 <
