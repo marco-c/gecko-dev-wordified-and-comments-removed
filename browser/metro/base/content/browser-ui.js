@@ -3014,6 +3014,12 @@ blur
 (
 )
 ;
+ContentAreaObserver
+.
+navBarWillBlur
+(
+)
+;
 return
 true
 ;

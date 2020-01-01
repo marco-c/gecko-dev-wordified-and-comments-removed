@@ -460,6 +460,12 @@ this
 navbarVisible
 )
 {
+BrowserUI
+.
+blurNavBar
+(
+)
+;
 this
 .
 dismissNavbar
