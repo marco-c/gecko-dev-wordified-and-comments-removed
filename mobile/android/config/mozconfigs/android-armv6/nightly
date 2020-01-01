@@ -71,14 +71,6 @@ topsrcdir
 android
 -
 ndk
--
-r8e
--
-arm
--
-gcc4
-.
-6
 "
 ac_add_options
 -
@@ -165,7 +157,7 @@ version
 =
 4
 .
-6
+7
 ac_add_options
 -
 -
