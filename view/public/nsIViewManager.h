@@ -431,6 +431,7 @@ aUpdateFlags
 0
 ;
 class
+NS_STACK_CLASS
 UpdateViewBatch
 {
 public

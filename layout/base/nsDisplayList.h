@@ -124,6 +124,7 @@ n
 #
 endif
 class
+NS_STACK_CLASS
 nsDisplayListBuilder
 {
 public

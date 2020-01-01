@@ -1472,6 +1472,8 @@ mFixupState
 }
 ;
 class
+NS_STACK_CLASS
+NS_FINAL_CLASS
 nsSelectionBatcher
 {
 private
@@ -1508,7 +1510,6 @@ StartBatchChanges
 )
 ;
 }
-virtual
 ~
 nsSelectionBatcher
 (

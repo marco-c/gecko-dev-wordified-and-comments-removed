@@ -1772,6 +1772,7 @@ aContent
 0
 ;
 struct
+NS_STACK_CLASS
 ContentOffsets
 {
 nsCOMPtr
@@ -1859,6 +1860,7 @@ aIgnoreSelectionStyle
 ;
 }
 struct
+NS_STACK_CLASS
 Cursor
 {
 nsCOMPtr

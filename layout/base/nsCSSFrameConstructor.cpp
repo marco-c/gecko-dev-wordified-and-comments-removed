@@ -5004,6 +5004,7 @@ nsFrameConstructorState
 }
 ;
 class
+NS_STACK_CLASS
 nsFrameConstructorState
 {
 public
@@ -7233,6 +7234,7 @@ NS_FRAME_HAS_CHILD_WITH_VIEW
 }
 }
 struct
+NS_STACK_CLASS
 nsAutoEnqueueBinding
 {
 nsAutoEnqueueBinding

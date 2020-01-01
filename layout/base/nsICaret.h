@@ -344,6 +344,7 @@ aInstancePtrResult
 )
 ;
 class
+NS_STACK_CLASS
 StCaretHider
 {
 public

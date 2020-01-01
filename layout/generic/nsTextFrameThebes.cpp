@@ -9694,6 +9694,7 @@ aLength
 #
 endif
 class
+NS_STACK_CLASS
 PropertyProvider
 :
 public
@@ -22720,6 +22721,7 @@ mStart
 ;
 }
 class
+NS_STACK_CLASS
 ClusterIterator
 {
 public
