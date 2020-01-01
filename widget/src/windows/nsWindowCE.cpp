@@ -1245,6 +1245,12 @@ PRInt32
 aMode
 )
 {
+#
+if
+defined
+(
+WINCE_HAVE_SOFTKB
+)
 if
 (
 aMode
@@ -1269,6 +1275,8 @@ return
 NS_OK
 ;
 }
+#
+endif
 nsresult
 rv
 ;
