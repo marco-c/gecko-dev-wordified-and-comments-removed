@@ -2950,6 +2950,11 @@ MPhi
 :
 public
 MDefinition
+public
+InlineForwardListNode
+<
+MPhi
+>
 {
 js
 :
