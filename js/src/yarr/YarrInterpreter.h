@@ -1059,11 +1059,13 @@ PassOwnPtr
 ByteDisjunction
 >
 body
+const
 Vector
 <
 ByteDisjunction
 *
 >
+&
 allParenthesesInfo
 YarrPattern
 &
