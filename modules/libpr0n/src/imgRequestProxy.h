@@ -15,13 +15,6 @@ h
 #
 include
 "
-nsISecurityInfoProvider
-.
-h
-"
-#
-include
-"
 imgIContainer
 .
 h
@@ -126,8 +119,6 @@ public
 imgIRequest
 public
 nsISupportsPriority
-public
-nsISecurityInfoProvider
 {
 public
 :
@@ -135,7 +126,6 @@ NS_DECL_ISUPPORTS
 NS_DECL_IMGIREQUEST
 NS_DECL_NSIREQUEST
 NS_DECL_NSISUPPORTSPRIORITY
-NS_DECL_NSISECURITYINFOPROVIDER
 imgRequestProxy
 (
 )
