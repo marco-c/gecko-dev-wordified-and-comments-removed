@@ -872,14 +872,6 @@ aType
 #
 endif
 void
-GetMimeType
-(
-nsCString
-&
-aMimeType
-)
-;
-void
 NotifyAddedSource
 (
 )
@@ -1556,9 +1548,6 @@ mHasAudio
 ;
 bool
 mDownloadSuspendedByCache
-;
-nsCString
-mMimeType
 ;
 }
 ;
