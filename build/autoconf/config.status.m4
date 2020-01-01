@@ -749,6 +749,14 @@ path
 join
 (
 topsrcdir
+{
+COMM_BUILD
+:
++
+'
+mozilla
+'
+}
 '
 build
 '
