@@ -6,11 +6,13 @@ define
 mozilla_SHA1_h_
 #
 include
-<
-stdint
+"
+mozilla
+/
+StandardInteger
 .
 h
->
+"
 namespace
 mozilla
 {
