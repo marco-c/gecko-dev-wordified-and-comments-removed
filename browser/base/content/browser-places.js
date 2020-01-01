@@ -1098,6 +1098,10 @@ aTopic
 aData
 )
 {
+retrieveToolbarIconsizesFromTheme
+(
+)
+;
 this
 .
 _self
