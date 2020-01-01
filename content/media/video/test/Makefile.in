@@ -644,11 +644,11 @@ r11025_s16_c1_trailing
 .
 wav
 \
-r11025_s16_c1_trunc
+r11025_u8_c1
 .
 wav
 \
-r11025_u8_c1
+r11025_u8_c1_trunc
 .
 wav
 \
