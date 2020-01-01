@@ -334,11 +334,15 @@ nodeKind
 :
 next
 (
-this
+thisDuringConstruction
+(
+)
 )
 prev
 (
-this
+thisDuringConstruction
+(
+)
 )
 isSentinel
 (
