@@ -115,6 +115,10 @@ CSSStyleDeclaration
 .
 webidl
 \
+DOMImplementation
+.
+webidl
+\
 DOMTokenList
 .
 webidl
