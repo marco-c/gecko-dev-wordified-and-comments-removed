@@ -116,7 +116,7 @@ true
 }
 already_AddRefed
 <
-nsIDOMSVGStringList
+DOMSVGStringList
 >
 SVGTests
 :
@@ -176,7 +176,7 @@ get
 }
 already_AddRefed
 <
-nsIDOMSVGStringList
+DOMSVGStringList
 >
 SVGTests
 :
@@ -236,7 +236,7 @@ get
 }
 already_AddRefed
 <
-nsIDOMSVGStringList
+DOMSVGStringList
 >
 SVGTests
 :

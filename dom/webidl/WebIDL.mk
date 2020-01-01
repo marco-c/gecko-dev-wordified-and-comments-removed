@@ -1099,6 +1099,10 @@ SVGStopElement
 .
 webidl
 \
+SVGStringList
+.
+webidl
+\
 SVGStyleElement
 .
 webidl

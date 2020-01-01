@@ -140,9 +140,6 @@ apply
 *
 /
 interface
-SVGStringList
-;
-interface
 SVGViewElement
 :
 SVGElement

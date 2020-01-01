@@ -32,9 +32,6 @@ class
 nsIAtom
 ;
 class
-nsIDOMSVGStringList
-;
-class
 nsString
 ;
 namespace
@@ -194,7 +191,7 @@ MaybeInvalidate
 ;
 already_AddRefed
 <
-nsIDOMSVGStringList
+DOMSVGStringList
 >
 RequiredFeatures
 (
@@ -202,7 +199,7 @@ RequiredFeatures
 ;
 already_AddRefed
 <
-nsIDOMSVGStringList
+DOMSVGStringList
 >
 RequiredExtensions
 (
@@ -210,7 +207,7 @@ RequiredExtensions
 ;
 already_AddRefed
 <
-nsIDOMSVGStringList
+DOMSVGStringList
 >
 SystemLanguage
 (

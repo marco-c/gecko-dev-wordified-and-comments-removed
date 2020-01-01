@@ -286,7 +286,7 @@ forget
 }
 already_AddRefed
 <
-nsIDOMSVGStringList
+DOMSVGStringList
 >
 SVGViewElement
 :

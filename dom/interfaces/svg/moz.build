@@ -158,11 +158,6 @@ nsIDOMSVGRect
 idl
 '
 '
-nsIDOMSVGStringList
-.
-idl
-'
-'
 nsIDOMSVGZoomEvent
 .
 idl

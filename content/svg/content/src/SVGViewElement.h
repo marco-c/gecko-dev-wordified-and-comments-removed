@@ -70,9 +70,6 @@ SVGViewElementBase
 class
 nsSVGOuterSVGFrame
 ;
-class
-nsIDOMSVGStringList
-;
 nsresult
 NS_NewSVGViewElement
 (
@@ -226,7 +223,7 @@ PreserveAspectRatio
 ;
 already_AddRefed
 <
-nsIDOMSVGStringList
+DOMSVGStringList
 >
 ViewTarget
 (
