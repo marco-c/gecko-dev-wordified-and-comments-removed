@@ -1194,6 +1194,13 @@ bin
 \
 components
 \
+xpcom_system
+.
+xpt
+bin
+\
+components
+\
 xpcom_components
 .
 xpt
