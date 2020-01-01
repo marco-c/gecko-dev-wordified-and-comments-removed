@@ -26735,6 +26735,14 @@ obj
 *
 _retval
 =
+JS_WrapValue
+(
+cx
+&
+v
+)
+&
+&
 JS_DefineProperty
 (
 cx
