@@ -31665,7 +31665,8 @@ TEST_BRANCH
 1
 TEST_REPO
 =
-tracemonkey
+.
+*
 TEST_BUILDTYPE
 =
 .
@@ -31748,7 +31749,8 @@ TEST_BRANCH
 1
 TEST_REPO
 =
-tracemonkey
+.
+*
 TEST_BUILDTYPE
 =
 .
