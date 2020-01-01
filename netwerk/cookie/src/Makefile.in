@@ -457,12 +457,6 @@ config
 rules
 .
 mk
-CXXFLAGS
-+
-=
-(
-WARNINGS_AS_ERRORS
-)
 DEFINES
 +
 =
