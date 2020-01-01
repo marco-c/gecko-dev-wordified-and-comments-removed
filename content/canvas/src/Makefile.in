@@ -549,10 +549,6 @@ nsGLPbufferOSMesa
 .
 cpp
 \
-SimpleBuffer
-.
-cpp
-\
 (
 NULL
 )

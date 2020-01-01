@@ -532,6 +532,8 @@ unsigned
 long
 GLintptr
 ;
+/
+/
 typedef
 long
 GLsizeiptr
@@ -3589,7 +3591,7 @@ glBufferData
 (
 GLenum
 target
-GLsizeiptr
+long
 size
 const
 void
@@ -3682,7 +3684,7 @@ in
 GLenum
 target
 in
-GLsizeiptr
+long
 offset
 in
 WebGLArrayBufferPtr
@@ -3699,7 +3701,7 @@ in
 GLenum
 target
 in
-GLsizeiptr
+long
 offset
 in
 WebGLArrayPtr
