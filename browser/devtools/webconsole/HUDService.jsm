@@ -8812,8 +8812,6 @@ createElementNS
 (
 XUL_NS
 "
-xul
-:
 hbox
 "
 )
@@ -8827,8 +8825,6 @@ createElementNS
 (
 XUL_NS
 "
-xul
-:
 label
 "
 )
@@ -8878,8 +8874,6 @@ createElementNS
 (
 XUL_NS
 "
-xul
-:
 hbox
 "
 )
@@ -8944,8 +8938,6 @@ createElementNS
 (
 XUL_NS
 "
-xul
-:
 label
 "
 )
@@ -9059,8 +9051,6 @@ createElementNS
 (
 XUL_NS
 "
-xul
-:
 label
 "
 )
@@ -20906,8 +20896,6 @@ createElementNS
 (
 XUL_NS
 "
-xul
-:
 vbox
 "
 )
@@ -20938,8 +20926,6 @@ createElementNS
 (
 XUL_NS
 "
-xul
-:
 image
 "
 )
@@ -20975,8 +20961,6 @@ createElementNS
 (
 XUL_NS
 "
-xul
-:
 spacer
 "
 )
@@ -21009,8 +20993,6 @@ createElementNS
 (
 XUL_NS
 "
-xul
-:
 description
 "
 )
@@ -21109,8 +21091,6 @@ createElementNS
 (
 XUL_NS
 "
-xul
-:
 hbox
 "
 )
@@ -21136,8 +21116,6 @@ createElementNS
 (
 XUL_NS
 "
-xul
-:
 label
 "
 )
@@ -21185,8 +21163,6 @@ createElementNS
 (
 XUL_NS
 "
-xul
-:
 label
 "
 )
@@ -21262,8 +21238,6 @@ createElementNS
 (
 XUL_NS
 "
-xul
-:
 richlistitem
 "
 )
@@ -21562,8 +21536,6 @@ createElementNS
 (
 XUL_NS
 "
-xul
-:
 label
 "
 )
