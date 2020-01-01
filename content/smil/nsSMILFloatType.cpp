@@ -26,6 +26,12 @@ math
 .
 h
 >
+nsSMILFloatType
+nsSMILFloatType
+:
+:
+sSingleton
+;
 void
 nsSMILFloatType
 :
@@ -110,12 +116,11 @@ aValue
 .
 mType
 =
+&
 nsSMILNullType
 :
 :
-Singleton
-(
-)
+sSingleton
 ;
 }
 nsresult

@@ -29,6 +29,12 @@ h
 namespace
 mozilla
 {
+SVGIntegerPairSMILType
+SVGIntegerPairSMILType
+:
+:
+sSingleton
+;
 void
 SVGIntegerPairSMILType
 :
@@ -137,12 +143,11 @@ aValue
 .
 mType
 =
+&
 nsSMILNullType
 :
 :
-Singleton
-(
-)
+sSingleton
 ;
 }
 nsresult

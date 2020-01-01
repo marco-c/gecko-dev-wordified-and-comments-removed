@@ -19,6 +19,12 @@ nsDebug
 .
 h
 "
+nsSMILNullType
+nsSMILNullType
+:
+:
+sSingleton
+;
 nsresult
 nsSMILNullType
 :
@@ -79,9 +85,8 @@ aDest
 .
 mType
 =
-Singleton
-(
-)
+&
+sSingleton
 ;
 return
 NS_OK

@@ -46,6 +46,12 @@ SWEEP_FLAG_IDX
 namespace
 mozilla
 {
+SVGPathSegListSMILType
+SVGPathSegListSMILType
+:
+:
+sSingleton
+;
 void
 SVGPathSegListSMILType
 :
@@ -144,12 +150,11 @@ aValue
 .
 mType
 =
+&
 nsSMILNullType
 :
 :
-Singleton
-(
-)
+sSingleton
 ;
 }
 nsresult
