@@ -669,3 +669,16 @@ foreign
 content
 "
 )
+CSS_ANON_BOX
+(
+mozSVGText
+"
+:
+-
+moz
+-
+svg
+-
+text
+"
+)
