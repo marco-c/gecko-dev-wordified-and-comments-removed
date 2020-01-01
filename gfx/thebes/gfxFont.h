@@ -750,6 +750,12 @@ return
 mName
 ;
 }
+virtual
+nsString
+RealFaceName
+(
+)
+;
 gfxFontFamily
 *
 Family
