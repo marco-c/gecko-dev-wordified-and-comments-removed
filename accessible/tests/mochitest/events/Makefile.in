@@ -512,6 +512,10 @@ test_scroll
 .
 xul
 \
+test_statechange
+.
+html
+\
 test_text
 .
 html

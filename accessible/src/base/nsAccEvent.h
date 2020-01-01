@@ -413,6 +413,14 @@ PRBool
 aIsExtraState
 PRBool
 aIsEnabled
+PRBool
+aIsAsynch
+=
+PR_FALSE
+EIsFromUserInput
+aIsFromUserInput
+=
+eAutoDetect
 )
 ;
 nsAccStateChangeEvent

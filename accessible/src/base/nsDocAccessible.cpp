@@ -3945,10 +3945,7 @@ PR_TRUE
 PR_TRUE
 )
 ;
-nsEventShell
-:
-:
-FireEvent
+FireDelayedAccessibleEvent
 (
 event
 )
