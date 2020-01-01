@@ -1442,7 +1442,7 @@ eventType
 EqualsLiteral
 (
 "
-mouseclick
+click
 "
 )
 )
