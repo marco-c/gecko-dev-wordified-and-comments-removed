@@ -12487,9 +12487,6 @@ setBottomCornerRounded
 NO
 ]
 ;
-#
-ifdef
-NS_LEOPARD_AND_LATER
 [
 self
 setAutorecalculatesContentBorderThickness
@@ -12512,8 +12509,6 @@ forEdge
 NSMaxYEdge
 ]
 ;
-#
-endif
 }
 return
 self
@@ -12690,9 +12685,6 @@ mUnifiedToolbarHeight
 =
 aToolbarHeight
 ;
-#
-ifdef
-NS_LEOPARD_AND_LATER
 [
 self
 setContentBorderThickness
@@ -12703,8 +12695,6 @@ forEdge
 NSMaxYEdge
 ]
 ;
-#
-endif
 /
 /
 Since
