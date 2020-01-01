@@ -749,6 +749,11 @@ SetupFlashMsgThrottle
 )
 ;
 void
+UnhookWinlessFlashThrottle
+(
+)
+;
+void
 FlashThrottleMessage
 (
 HWND
@@ -1038,6 +1043,9 @@ mPluginOffset
 ;
 WNDPROC
 mWinlessThrottleOldWndProc
+;
+HWND
+mWinlessHiddenMsgHWND
 ;
 #
 endif
