@@ -2197,6 +2197,15 @@ aTabIndex
 =
 0
 ;
+if
+(
+shouldFocus
+)
+*
+aTabIndex
+=
+0
+;
 }
 if
 (
