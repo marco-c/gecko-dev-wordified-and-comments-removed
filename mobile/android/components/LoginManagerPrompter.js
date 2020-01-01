@@ -897,8 +897,6 @@ callback
 :
 function
 (
-aNotificationBar
-aButton
 )
 {
 pwmgr
@@ -924,8 +922,6 @@ callback
 :
 function
 (
-aNotificationBar
-aButton
 )
 {
 pwmgr
@@ -1451,8 +1447,6 @@ callback
 :
 function
 (
-aNotificationBar
-aButton
 )
 {
 self
@@ -1479,8 +1473,6 @@ callback
 :
 function
 (
-aNotificationBar
-aButton
 )
 {
 }
