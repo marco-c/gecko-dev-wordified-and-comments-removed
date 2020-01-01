@@ -2010,7 +2010,7 @@ element
 element
 -
 >
-GetElementParent
+GetParentElement
 (
 )
 )

@@ -7117,7 +7117,7 @@ node
 node
 -
 >
-GetElementParent
+GetParentElement
 (
 )
 ;
