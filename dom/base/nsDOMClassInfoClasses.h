@@ -1176,10 +1176,6 @@ File
 )
 DOMCI_CLASS
 (
-FileException
-)
-DOMCI_CLASS
-(
 FileReader
 )
 DOMCI_CLASS
@@ -1489,10 +1485,6 @@ IDBVersionChangeEvent
 DOMCI_CLASS
 (
 IDBOpenDBRequest
-)
-DOMCI_CLASS
-(
-IDBDatabaseException
 )
 DOMCI_CLASS
 (

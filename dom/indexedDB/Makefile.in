@@ -720,10 +720,6 @@ nsIIDBDatabase
 .
 idl
 \
-nsIIDBDatabaseException
-.
-idl
-\
 nsIIDBFactory
 .
 idl

@@ -607,10 +607,6 @@ nsIDOMFileList
 .
 idl
 \
-nsIDOMFileException
-.
-idl
-\
 nsIDOMFormData
 .
 idl

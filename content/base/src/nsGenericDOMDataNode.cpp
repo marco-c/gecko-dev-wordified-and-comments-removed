@@ -1123,7 +1123,7 @@ aCount
 )
 {
 return
-NS_ERROR_DOM_DOMSTRING_SIZE_ERR
+NS_ERROR_OUT_OF_MEMORY
 ;
 }
 nsIDocument
