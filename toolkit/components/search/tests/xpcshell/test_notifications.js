@@ -168,14 +168,6 @@ defaultEngine
 =
 engine
 ;
-Services
-.
-search
-.
-currentEngine
-=
-engine
-;
 do_execute_soon
 (
 function
