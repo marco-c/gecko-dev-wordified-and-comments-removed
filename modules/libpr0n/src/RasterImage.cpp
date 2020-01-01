@@ -627,7 +627,7 @@ Length
 )
 ;
 }
-NS_IMETHODIMP
+nsresult
 RasterImage
 :
 :
@@ -1499,7 +1499,7 @@ return
 NS_OK
 ;
 }
-NS_IMETHODIMP
+nsresult
 RasterImage
 :
 :
@@ -1561,7 +1561,7 @@ return
 NS_OK
 ;
 }
-NS_IMETHODIMP
+nsresult
 RasterImage
 :
 :
@@ -1595,7 +1595,7 @@ return
 NS_OK
 ;
 }
-NS_IMETHODIMP
+nsresult
 RasterImage
 :
 :
@@ -2147,7 +2147,7 @@ return
 rv
 ;
 }
-NS_IMETHODIMP
+nsresult
 RasterImage
 :
 :
