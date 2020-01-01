@@ -16535,7 +16535,6 @@ CollapseToStart
 )
 ;
 }
-}
 if
 (
 selectAnchor
@@ -16598,6 +16597,7 @@ AddRange
 range
 )
 ;
+}
 }
 }
 nsPIDOMWindow
