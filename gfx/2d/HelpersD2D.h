@@ -532,7 +532,7 @@ PATTERN_RADIAL_GRADIENT
 )
 {
 return
-false
+true
 ;
 }
 const
@@ -563,7 +563,7 @@ mRadius1
 )
 {
 return
-true
+false
 ;
 }
 Point
@@ -608,11 +608,11 @@ mRadius2
 )
 {
 return
-true
+false
 ;
 }
 return
-false
+true
 ;
 }
 struct
