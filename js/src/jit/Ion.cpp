@@ -5872,6 +5872,17 @@ false
 if
 (
 !
+mir
+-
+>
+compilingAsmJS
+(
+)
+)
+{
+if
+(
+!
 ApplyTypeInformation
 (
 mir
@@ -5910,6 +5921,7 @@ types
 return
 false
 ;
+}
 if
 (
 graph
