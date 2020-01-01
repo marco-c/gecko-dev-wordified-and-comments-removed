@@ -812,6 +812,10 @@ test_bug761572
 .
 html
 \
+test_bug770106
+.
+html
+\
 test_maxLineBoxWidth
 .
 html
