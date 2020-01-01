@@ -432,6 +432,9 @@ com
 XPI_PKGNAME
 =
 canvas3d
+USE_EXTENSION_MANIFEST
+=
+1
 DIST_FILES
 =
 install
