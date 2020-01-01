@@ -5397,7 +5397,7 @@ ReportedNPN
 conn
 -
 >
-CanDirectlyActivate
+EverUsedSpdy
 (
 )
 )

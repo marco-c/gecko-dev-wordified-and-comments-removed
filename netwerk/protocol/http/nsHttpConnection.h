@@ -472,6 +472,15 @@ mUsingSpdy
 ;
 }
 bool
+EverUsedSpdy
+(
+)
+{
+return
+mEverUsedSpdy
+;
+}
+bool
 ReportedNPN
 (
 )
