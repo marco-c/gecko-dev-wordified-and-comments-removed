@@ -5,6 +5,9 @@ GFX_CANVASLAYEROGL_H
 define
 GFX_CANVASLAYEROGL_H
 #
+ifdef
+MOZ_IPC
+#
 include
 "
 mozilla
@@ -26,6 +29,8 @@ ShadowLayers
 .
 h
 "
+#
+endif
 #
 include
 "
@@ -195,6 +200,9 @@ mNeedsYFlip
 ;
 }
 ;
+#
+ifdef
+MOZ_IPC
 class
 ShadowCanvasLayerOGL
 :
@@ -308,6 +316,8 @@ mDeadweight
 ;
 }
 ;
+#
+endif
 }
 }
 #

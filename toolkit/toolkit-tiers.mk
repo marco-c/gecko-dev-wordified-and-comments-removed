@@ -616,6 +616,8 @@ gecko
 core
 components
 #
+ifdef
+MOZ_IPC
 tier_platform_dirs
 +
 =
@@ -626,6 +628,7 @@ ipc
 js
 /
 jetpack
+endif
 tier_platform_dirs
 +
 =

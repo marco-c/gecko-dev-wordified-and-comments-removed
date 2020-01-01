@@ -434,8 +434,6 @@ base
 /
 src
 \
-ipc
-\
 (
 NULL
 )
@@ -445,6 +443,13 @@ PARALLEL_DIRS
 +
 =
 printing
+endif
+ifdef
+MOZ_IPC
+PARALLEL_DIRS
++
+=
+ipc
 endif
 ifdef
 MOZ_MATHML

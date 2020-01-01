@@ -15,6 +15,9 @@ math
 h
 >
 #
+ifdef
+MOZ_IPC
+#
 include
 "
 mozilla
@@ -69,6 +72,8 @@ mozilla
 :
 unused
 ;
+#
+endif
 #
 include
 "
@@ -219,6 +224,9 @@ static
 gfxIntSize
 gAndroidScreenBounds
 ;
+#
+ifdef
+MOZ_IPC
 class
 ContentCreationNotifier
 ;
@@ -409,6 +417,8 @@ NS_IMPL_ISUPPORTS1
 ContentCreationNotifier
 nsIObserver
 )
+#
+endif
 static
 PRBool
 gMenu
@@ -3317,6 +3327,9 @@ height
 =
 newScreenHeight
 ;
+#
+ifdef
+MOZ_IPC
 if
 (
 XRE_GetProcessType
@@ -3460,6 +3473,8 @@ created
 )
 ;
 }
+#
+endif
 }
 case
 AndroidGeckoEvent
@@ -4958,6 +4973,9 @@ GetAndroidScreenBounds
 (
 )
 {
+#
+ifdef
+MOZ_IPC
 if
 (
 XRE_GetProcessType
@@ -4982,6 +5000,8 @@ GetScreenSize
 )
 ;
 }
+#
+endif
 return
 gAndroidScreenBounds
 ;

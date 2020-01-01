@@ -1,4 +1,7 @@
 #
+ifdef
+MOZ_IPC
+#
 include
 "
 base
@@ -7,6 +10,8 @@ basictypes
 .
 h
 "
+#
+endif
 #
 include
 "
@@ -116,6 +121,9 @@ plugins
 parent
 ;
 #
+ifdef
+MOZ_IPC
+#
 include
 "
 mozilla
@@ -144,6 +152,8 @@ plugins
 :
 ParentNPObject
 ;
+#
+endif
 static
 PLDHashTable
 sJSObjWrappers
@@ -186,6 +196,9 @@ NPObject
 obj
 )
 {
+#
+ifdef
+MOZ_IPC
 return
 obj
 -
@@ -200,6 +213,13 @@ GetClass
 (
 )
 ;
+#
+else
+return
+false
+;
+#
+endif
 }
 }
 class
@@ -5386,6 +5406,9 @@ JSIdToNPIdentifier
 id
 )
 ;
+#
+ifdef
+MOZ_IPC
 if
 (
 NPObjectIsOutOfProcessProxy
@@ -5522,6 +5545,8 @@ return
 JS_TRUE
 ;
 }
+#
+endif
 hasProperty
 =
 npobj

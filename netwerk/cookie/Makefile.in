@@ -507,6 +507,8 @@ XPCSHELL_TESTS
 test
 /
 unit
+ifdef
+MOZ_IPC
 EXPORTS_NAMESPACES
 =
 mozilla
@@ -573,6 +575,7 @@ XPCSHELL_TESTS
 test
 /
 unit_ipc
+endif
 endif
 endif
 include

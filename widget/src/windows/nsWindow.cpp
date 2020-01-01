@@ -1,4 +1,7 @@
 #
+ifdef
+MOZ_IPC
+#
 include
 "
 mozilla
@@ -9,6 +12,8 @@ RPCChannel
 .
 h
 "
+#
+endif
 #
 include
 "
@@ -983,6 +988,9 @@ sLresultFromObject
 ;
 #
 endif
+#
+ifdef
+MOZ_IPC
 const
 PRUnichar
 *
@@ -1008,6 +1016,8 @@ RegisterWindowMessageW
 kOOPPPluginFocusEventId
 )
 ;
+#
+endif
 MSG
 nsWindow
 :
@@ -16961,6 +16971,9 @@ aStatus
 nsEventStatus_eConsumeNoDefault
 ;
 }
+#
+ifdef
+MOZ_IPC
 bool
 nsWindow
 :
@@ -17378,6 +17391,8 @@ dwResult
 ;
 }
 }
+#
+endif
 static
 PRBool
 DisplaySystemMenu
@@ -17746,6 +17761,9 @@ GetNSWindowPtr
 hWnd
 )
 ;
+#
+ifdef
+MOZ_IPC
 if
 (
 someWindow
@@ -17760,6 +17778,8 @@ wParam
 lParam
 )
 ;
+#
+endif
 nsAutoRollup
 autoRollup
 ;
@@ -22031,6 +22051,9 @@ SetHasTaskbarIconBeenCreated
 ;
 #
 endif
+#
+ifdef
+MOZ_IPC
 if
 (
 msg
@@ -22073,6 +22096,8 @@ NS_DEACTIVATE
 }
 }
 }
+#
+endif
 }
 break
 ;
@@ -26360,6 +26385,9 @@ return
 PR_FALSE
 ;
 }
+#
+ifdef
+MOZ_IPC
 :
 :
 ReplyMessage
@@ -26371,6 +26399,8 @@ isVertical
 TRUE
 )
 ;
+#
+endif
 PRBool
 isControl
 ;
@@ -31475,6 +31505,9 @@ if
 parentWindow
 )
 {
+#
+ifdef
+MOZ_IPC
 :
 :
 ReplyMessage
@@ -31489,6 +31522,8 @@ TRUE
 0
 )
 ;
+#
+endif
 sIsProcessing
 =
 PR_TRUE
@@ -31839,6 +31874,9 @@ return
 PR_FALSE
 ;
 }
+#
+ifdef
+MOZ_IPC
 :
 :
 ReplyMessage
@@ -31846,6 +31884,8 @@ ReplyMessage
 0
 )
 ;
+#
+endif
 scrollevent
 .
 isShift

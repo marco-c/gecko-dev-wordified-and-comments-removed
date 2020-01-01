@@ -1,10 +1,15 @@
 #
+ifdef
+MOZ_IPC
+#
 include
 "
 gfxSharedImageSurface
 .
 h
 "
+#
+endif
 #
 include
 "
@@ -3893,6 +3898,9 @@ tex
 )
 ;
 }
+#
+ifdef
+MOZ_IPC
 ShadowImageLayerOGL
 :
 :
@@ -4281,5 +4289,7 @@ program
 )
 ;
 }
+#
+endif
 }
 }

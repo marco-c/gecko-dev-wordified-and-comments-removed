@@ -1,4 +1,7 @@
 #
+ifdef
+MOZ_IPC
+#
 include
 "
 base
@@ -16,6 +19,8 @@ IPCMessageUtils
 .
 h
 "
+#
+endif
 #
 include
 "
@@ -313,6 +318,9 @@ return
 NS_OK
 ;
 }
+#
+ifdef
+MOZ_IPC
 void
 nsDOMScrollAreaEvent
 :
@@ -542,6 +550,8 @@ return
 PR_TRUE
 ;
 }
+#
+endif
 nsresult
 NS_NewDOMScrollAreaEvent
 (

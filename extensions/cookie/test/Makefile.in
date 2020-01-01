@@ -666,6 +666,8 @@ relativesrcdir
 XPCSHELL_TESTS
 =
 unit
+ifdef
+MOZ_IPC
 #
 FIXME
 /
@@ -694,6 +696,7 @@ XPCSHELL_TESTS
 +
 =
 unit_ipc
+endif
 endif
 include
 (

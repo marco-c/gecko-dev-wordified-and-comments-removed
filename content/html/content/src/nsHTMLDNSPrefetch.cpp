@@ -1,4 +1,7 @@
 #
+ifdef
+MOZ_IPC
+#
 include
 "
 base
@@ -36,6 +39,8 @@ nsURLHelper
 .
 h
 "
+#
+endif
 #
 include
 "
@@ -371,6 +376,9 @@ rv
 return
 rv
 ;
+#
+ifdef
+MOZ_IPC
 if
 (
 IsNeckoChild
@@ -384,6 +392,8 @@ InitNeckoChild
 (
 )
 ;
+#
+endif
 sInitialized
 =
 PR_TRUE
@@ -482,6 +492,9 @@ PRUint16
 flags
 )
 {
+#
+ifdef
+MOZ_IPC
 if
 (
 IsNeckoChild
@@ -517,6 +530,8 @@ flags
 )
 ;
 }
+#
+endif
 if
 (
 !
@@ -623,6 +638,9 @@ PRUint16
 flags
 )
 {
+#
+ifdef
+MOZ_IPC
 if
 (
 IsNeckoChild
@@ -666,6 +684,8 @@ return
 NS_OK
 ;
 }
+#
+endif
 if
 (
 !

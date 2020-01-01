@@ -371,6 +371,9 @@ ptr
 )
 ;
 }
+#
+ifdef
+MOZ_IPC
 namespace
 mozilla
 {
@@ -383,6 +386,8 @@ sChildProcessType
 ;
 }
 }
+#
+endif
 void
 SetupErrorHandling
 (

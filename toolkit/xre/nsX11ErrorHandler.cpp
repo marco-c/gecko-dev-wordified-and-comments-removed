@@ -6,6 +6,9 @@ nsX11ErrorHandler
 h
 "
 #
+ifdef
+MOZ_IPC
+#
 include
 "
 mozilla
@@ -25,6 +28,8 @@ plugins
 :
 PluginProcessChild
 ;
+#
+endif
 #
 include
 "
@@ -532,6 +537,9 @@ notes
 ;
 break
 ;
+#
+ifdef
+MOZ_IPC
 case
 GeckoProcessType_Plugin
 :
@@ -556,6 +564,8 @@ notes
 }
 break
 ;
+#
+endif
 default
 :
 ;

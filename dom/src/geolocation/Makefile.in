@@ -601,12 +601,15 @@ android
 NULL
 )
 endif
+ifdef
+MOZ_IPC
 EXPORTS
 +
 =
 nsGeoPositionIPCSerialiser
 .
 h
+endif
 include
 (
 topsrcdir

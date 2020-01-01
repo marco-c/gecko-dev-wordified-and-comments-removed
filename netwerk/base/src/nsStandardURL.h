@@ -1068,6 +1068,9 @@ URLSegment
 &
 )
 ;
+#
+ifdef
+MOZ_IPC
 bool
 ReadSegment
 (
@@ -1097,6 +1100,8 @@ URLSegment
 &
 )
 ;
+#
+endif
 static
 void
 PrefsChanged

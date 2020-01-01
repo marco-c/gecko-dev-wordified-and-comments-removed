@@ -442,6 +442,10 @@ chromium
 config
 .
 mk
+ifdef
+MOZ_IPC
+#
+{
 DEFINES
 +
 =
@@ -656,6 +660,9 @@ pedantic
 OS_CXXFLAGS
 )
 )
+endif
+#
+}
 endif
 #
 }

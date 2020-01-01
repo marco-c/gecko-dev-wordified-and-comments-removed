@@ -418,6 +418,8 @@ prefetch_s
 LIBXUL_LIBRARY
 =
 1
+ifdef
+MOZ_IPC
 EXPORTS_NAMESPACES
 =
 mozilla
@@ -440,6 +442,7 @@ h
 (
 NULL
 )
+endif
 CPPSRCS
 =
 \
@@ -459,6 +462,15 @@ OfflineCacheUpdateGlue
 .
 cpp
 \
+(
+NULL
+)
+ifdef
+MOZ_IPC
+CPPSRCS
++
+=
+\
 OfflineCacheUpdateChild
 .
 cpp
@@ -466,10 +478,7 @@ cpp
 OfflineCacheUpdateParent
 .
 cpp
-\
-(
-NULL
-)
+endif
 XPIDLSRCS
 =
 \

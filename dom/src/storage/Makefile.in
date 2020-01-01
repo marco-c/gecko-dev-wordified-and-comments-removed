@@ -445,6 +445,8 @@ cpp
 nsDOMStorageMemoryDB
 .
 cpp
+ifdef
+MOZ_IPC
 CPPSRCS
 +
 =
@@ -469,6 +471,7 @@ h
 StorageParent
 .
 h
+endif
 endif
 #
 we

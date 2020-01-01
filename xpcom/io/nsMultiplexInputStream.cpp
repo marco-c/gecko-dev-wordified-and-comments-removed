@@ -1,4 +1,7 @@
 #
+ifdef
+MOZ_IPC
+#
 include
 "
 IPC
@@ -18,6 +21,8 @@ NeckoMessageUtils
 .
 h
 "
+#
+endif
 #
 include
 "
@@ -1501,6 +1506,9 @@ void
 aIter
 )
 {
+#
+ifdef
+MOZ_IPC
 using
 IPC
 :
@@ -1625,6 +1633,13 @@ PR_FALSE
 return
 PR_TRUE
 ;
+#
+else
+return
+PR_FALSE
+;
+#
+endif
 }
 void
 nsMultiplexInputStream
@@ -1640,6 +1655,9 @@ Message
 aMsg
 )
 {
+#
+ifdef
+MOZ_IPC
 using
 IPC
 :
@@ -1716,4 +1734,6 @@ aMsg
 mStatus
 )
 ;
+#
+endif
 }

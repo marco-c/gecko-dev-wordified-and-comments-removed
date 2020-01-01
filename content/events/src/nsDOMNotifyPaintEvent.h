@@ -56,6 +56,9 @@ aInvalidateRequests
 NS_DECL_ISUPPORTS_INHERITED
 NS_DECL_NSIDOMNOTIFYPAINTEVENT
 NS_FORWARD_TO_NSDOMEVENT
+#
+ifdef
+MOZ_IPC
 virtual
 void
 Serialize
@@ -87,6 +90,8 @@ void
 aIter
 )
 ;
+#
+endif
 private
 :
 nsRegion

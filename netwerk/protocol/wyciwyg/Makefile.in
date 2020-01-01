@@ -437,11 +437,14 @@ GRE_MODULE
 FORCE_STATIC_LIB
 =
 1
+ifdef
+MOZ_IPC
 EXPORTS_NAMESPACES
 =
 mozilla
 /
 net
+endif
 XPIDLSRCS
 =
 \
@@ -452,6 +455,8 @@ idl
 (
 NULL
 )
+ifdef
+MOZ_IPC
 EXPORTS_mozilla
 /
 net
@@ -469,6 +474,7 @@ h
 (
 NULL
 )
+endif
 CPPSRCS
 =
 \
@@ -484,6 +490,15 @@ nsWyciwygProtocolHandler
 .
 cpp
 \
+(
+NULL
+)
+ifdef
+MOZ_IPC
+CPPSRCS
++
+=
+\
 WyciwygChannelParent
 .
 cpp
@@ -495,6 +510,7 @@ cpp
 (
 NULL
 )
+endif
 LOCAL_INCLUDES
 =
 \

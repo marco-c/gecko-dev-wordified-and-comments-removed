@@ -40,6 +40,9 @@ nsThreadUtils
 h
 "
 #
+ifdef
+MOZ_IPC
+#
 include
 "
 mozilla
@@ -50,6 +53,8 @@ ShadowLayers
 .
 h
 "
+#
+endif
 class
 nsIWidget
 ;
@@ -84,8 +89,17 @@ class
 THEBES_API
 BasicLayerManager
 :
+#
+ifdef
+MOZ_IPC
 public
 ShadowLayerManager
+#
+else
+public
+LayerManager
+#
+endif
 {
 public
 :
@@ -644,6 +658,9 @@ mTransactionIncomplete
 ;
 }
 ;
+#
+ifdef
+MOZ_IPC
 class
 BasicShadowLayerManager
 :
@@ -862,6 +879,8 @@ mKeepAlive
 ;
 }
 ;
+#
+endif
 }
 }
 class

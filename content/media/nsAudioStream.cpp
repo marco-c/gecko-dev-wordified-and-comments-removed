@@ -1,4 +1,7 @@
 #
+ifdef
+MOZ_IPC
+#
 include
 "
 mozilla
@@ -54,6 +57,8 @@ mozilla
 :
 dom
 ;
+#
+endif
 #
 include
 <
@@ -151,6 +156,12 @@ if
 defined
 (
 ANDROID
+)
+&
+&
+defined
+(
+MOZ_IPC
 )
 #
 define
@@ -309,6 +320,9 @@ mInError
 ;
 }
 ;
+#
+ifdef
+MOZ_IPC
 class
 nsAudioStreamRemote
 :
@@ -874,6 +888,8 @@ mAudioChild
 ;
 }
 ;
+#
+endif
 void
 nsAudioStream
 :
@@ -2380,6 +2396,9 @@ samples
 )
 ;
 }
+#
+ifdef
+MOZ_IPC
 nsAudioStreamRemote
 :
 :
@@ -2910,3 +2929,5 @@ return
 mPaused
 ;
 }
+#
+endif

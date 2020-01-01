@@ -5,6 +5,9 @@ __mozilla_widget_nsShmImage_h__
 define
 __mozilla_widget_nsShmImage_h__
 #
+ifdef
+MOZ_IPC
+#
 include
 "
 mozilla
@@ -15,6 +18,8 @@ SharedMemorySysV
 .
 h
 "
+#
+endif
 #
 if
 defined

@@ -5,6 +5,9 @@ GFX_IMAGELAYEROGL_H
 define
 GFX_IMAGELAYEROGL_H
 #
+ifdef
+MOZ_IPC
+#
 include
 "
 mozilla
@@ -26,6 +29,8 @@ ShadowLayers
 .
 h
 "
+#
+endif
 #
 include
 "
@@ -673,6 +678,9 @@ mLayerProgram
 ;
 }
 ;
+#
+ifdef
+MOZ_IPC
 class
 ShadowImageLayerOGL
 :
@@ -781,6 +789,8 @@ mDeadweight
 ;
 }
 ;
+#
+endif
 }
 }
 #

@@ -1002,12 +1002,17 @@ nsIContentSecurityPolicy
 h
 "
 #
+ifdef
+MOZ_IPC
+#
 include
 "
 nsXULAppAPI
 .
 h
 "
+#
+endif
 using
 namespace
 mozilla
@@ -23695,6 +23700,9 @@ if
 appCacheChannel
 )
 {
+#
+ifdef
+MOZ_IPC
 if
 (
 GeckoProcessType_Default
@@ -23713,6 +23721,8 @@ PR_TRUE
 )
 ;
 else
+#
+endif
 appCacheChannel
 -
 >
@@ -33407,6 +33417,9 @@ SetInheritApplicationCache
 PR_FALSE
 )
 ;
+#
+ifdef
+MOZ_IPC
 if
 (
 GeckoProcessType_Default
@@ -33425,6 +33438,8 @@ PR_TRUE
 )
 ;
 else
+#
+endif
 appCacheChannel
 -
 >

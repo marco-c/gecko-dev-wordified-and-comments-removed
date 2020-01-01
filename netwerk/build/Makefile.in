@@ -598,6 +598,14 @@ LIB_SUFFIX
 )
 )
 \
+(
+NULL
+)
+ifdef
+MOZ_IPC
+SHARED_LIBRARY_LIBS
++
+=
 .
 .
 /
@@ -611,10 +619,7 @@ neckoipc_s
 (
 LIB_SUFFIX
 )
-\
-(
-NULL
-)
+endif
 ifeq
 (
 (

@@ -409,6 +409,8 @@ config
 autoconf
 .
 mk
+ifdef
+MOZ_IPC
 MODULE
 =
 gfxipc
@@ -510,6 +512,7 @@ chromium
 config
 .
 mk
+endif
 include
 (
 topsrcdir

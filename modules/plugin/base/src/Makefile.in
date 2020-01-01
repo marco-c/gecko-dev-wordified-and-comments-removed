@@ -707,6 +707,8 @@ config
 config
 .
 mk
+ifdef
+MOZ_IPC
 include
 (
 topsrcdir
@@ -721,6 +723,7 @@ chromium
 config
 .
 mk
+endif
 include
 (
 topsrcdir

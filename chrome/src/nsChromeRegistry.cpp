@@ -13,12 +13,17 @@ nsChromeRegistryChrome
 h
 "
 #
+ifdef
+MOZ_IPC
+#
 include
 "
 nsChromeRegistryContent
 .
 h
 "
+#
+endif
 #
 include
 <
@@ -2981,6 +2986,9 @@ nsChromeRegistry
 >
 cr
 ;
+#
+ifdef
+MOZ_IPC
 if
 (
 GeckoProcessType_Content
@@ -2998,6 +3006,8 @@ nsChromeRegistryContent
 )
 ;
 else
+#
+endif
 cr
 =
 new

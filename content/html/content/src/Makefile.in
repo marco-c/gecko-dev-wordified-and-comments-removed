@@ -435,6 +435,15 @@ nsClientRect
 .
 h
 \
+(
+NULL
+)
+ifdef
+MOZ_IPC
+EXPORTS
++
+=
+\
 nsHTMLDNSPrefetch
 .
 h
@@ -442,6 +451,7 @@ h
 (
 NULL
 )
+endif
 CPPSRCS
 =
 \

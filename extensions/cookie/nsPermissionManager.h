@@ -712,6 +712,9 @@ nsCString
 >
 mTypeArray
 ;
+#
+ifdef
+MOZ_IPC
 PRBool
 mUpdateChildProcess
 ;
@@ -727,6 +730,8 @@ mUpdateChildProcess
 PR_TRUE
 ;
 }
+#
+endif
 }
 ;
 #

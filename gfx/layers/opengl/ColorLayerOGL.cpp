@@ -186,6 +186,9 @@ aOffset
 )
 ;
 }
+#
+ifdef
+MOZ_IPC
 void
 ShadowColorLayerOGL
 :
@@ -208,5 +211,7 @@ aOffset
 )
 ;
 }
+#
+endif
 }
 }

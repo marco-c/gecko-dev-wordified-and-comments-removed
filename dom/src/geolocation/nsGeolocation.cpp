@@ -1,4 +1,7 @@
 #
+ifdef
+MOZ_IPC
+#
 include
 "
 nsContentPermissionHelper
@@ -108,6 +111,8 @@ TabChild
 .
 h
 "
+#
+endif
 #
 include
 "
@@ -1603,6 +1608,9 @@ mErrorCallback
 nsnull
 ;
 }
+#
+ifdef
+MOZ_IPC
 bool
 nsGeolocationRequest
 :
@@ -1638,6 +1646,8 @@ return
 true
 ;
 }
+#
+endif
 NS_INTERFACE_MAP_BEGIN
 (
 nsGeolocationService
@@ -2401,6 +2411,9 @@ SetDisconnectTimer
 (
 )
 ;
+#
+ifdef
+MOZ_IPC
 if
 (
 XRE_GetProcessType
@@ -2433,6 +2446,8 @@ return
 NS_OK
 ;
 }
+#
+endif
 nsCOMPtr
 <
 nsIObserverService
@@ -2606,6 +2621,9 @@ mDisconnectTimer
 nsnull
 ;
 }
+#
+ifdef
+MOZ_IPC
 if
 (
 XRE_GetProcessType
@@ -2637,6 +2655,8 @@ SendRemoveGeolocationListener
 return
 ;
 }
+#
+endif
 nsCOMPtr
 <
 nsIObserverService
@@ -3914,6 +3934,9 @@ nsGeolocationRequest
 request
 )
 {
+#
+ifdef
+MOZ_IPC
 if
 (
 XRE_GetProcessType
@@ -4009,6 +4032,8 @@ return
 true
 ;
 }
+#
+endif
 if
 (
 nsContentUtils

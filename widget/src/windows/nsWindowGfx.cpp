@@ -1,4 +1,7 @@
 #
+ifdef
+MOZ_IPC
+#
 include
 "
 mozilla
@@ -18,6 +21,8 @@ plugins
 :
 PluginInstanceParent
 ;
+#
+endif
 #
 include
 "
@@ -819,6 +824,9 @@ PRUint32
 aNestingLevel
 )
 {
+#
+ifdef
+MOZ_IPC
 if
 (
 mozilla
@@ -951,6 +959,11 @@ PR_TRUE
 ;
 }
 }
+#
+endif
+#
+ifdef
+MOZ_IPC
 if
 (
 mozilla
@@ -972,6 +985,8 @@ mPainting
 return
 PR_FALSE
 ;
+#
+endif
 nsPaintEvent
 willPaintEvent
 (

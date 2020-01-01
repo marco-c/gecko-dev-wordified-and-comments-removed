@@ -444,6 +444,8 @@ idl
 (
 NULL
 )
+ifdef
+MOZ_IPC
 EXPORTS_NAMESPACES
 =
 mozilla
@@ -466,6 +468,7 @@ h
 (
 NULL
 )
+endif
 CPPSRCS
 =
 \
@@ -485,6 +488,15 @@ nsFtpControlConnection
 .
 cpp
 \
+(
+NULL
+)
+ifdef
+MOZ_IPC
+CPPSRCS
++
+=
+\
 FTPChannelParent
 .
 cpp
@@ -496,6 +508,7 @@ cpp
 (
 NULL
 )
+endif
 #
 Use
 -

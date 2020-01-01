@@ -1,10 +1,15 @@
 #
+ifdef
+MOZ_IPC
+#
 include
 "
 IPCMessageUtils
 .
 h
 "
+#
+endif
 #
 include
 "
@@ -4249,6 +4254,9 @@ return
 NS_OK
 ;
 }
+#
+ifdef
+MOZ_IPC
 bool
 nsStandardURL
 :
@@ -4343,6 +4351,8 @@ mLen
 )
 ;
 }
+#
+endif
 void
 nsStandardURL
 :
@@ -13936,6 +13946,9 @@ void
 aIter
 )
 {
+#
+ifdef
+MOZ_IPC
 using
 IPC
 :
@@ -14301,6 +14314,13 @@ supportsFileURL
 return
 PR_TRUE
 ;
+#
+else
+return
+PR_FALSE
+;
+#
+endif
 }
 void
 nsStandardURL
@@ -14316,6 +14336,9 @@ Message
 aMsg
 )
 {
+#
+ifdef
+MOZ_IPC
 using
 IPC
 :
@@ -14454,6 +14477,8 @@ aMsg
 mHostEncoding
 )
 ;
+#
+endif
 }
 NS_IMETHODIMP
 nsStandardURL
