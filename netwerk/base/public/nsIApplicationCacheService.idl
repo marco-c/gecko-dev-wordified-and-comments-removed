@@ -695,6 +695,9 @@ groups
 void
 getGroups
 (
+[
+optional
+]
 out
 unsigned
 long
