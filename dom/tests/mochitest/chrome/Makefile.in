@@ -444,14 +444,6 @@ MozEnteredDomFullscreen_chrome
 .
 xul
 \
-test_dom_fullscreen_warning
-.
-xul
-\
-dom_fullscreen_warning
-.
-xul
-\
 test_fullscreen
 .
 xul
