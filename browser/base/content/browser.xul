@@ -2566,7 +2566,7 @@ homeButtonObserver
 onclick
 =
 "
-BrowserHomeClick
+BrowserGoHome
 (
 event
 )
