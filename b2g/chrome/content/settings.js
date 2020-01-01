@@ -403,7 +403,7 @@ volume
 .
 system
 '
-10
+15
 nsIAudioManager
 .
 STREAM_TYPE_SYSTEM
@@ -520,7 +520,7 @@ volume
 .
 fm
 '
-10
+15
 nsIAudioManager
 .
 STREAM_TYPE_FM
