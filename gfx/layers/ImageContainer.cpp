@@ -2214,7 +2214,7 @@ GetOffscreenFormat
 {
 return
 mOffscreenFormat
-!
+=
 =
 gfxASurface
 :
