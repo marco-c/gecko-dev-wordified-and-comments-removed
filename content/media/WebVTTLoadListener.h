@@ -165,7 +165,7 @@ webvtt_cue
 aCue
 )
 ;
-void
+int
 OnReportError
 (
 uint32_t
