@@ -273,6 +273,11 @@ US
 dic
 components
 /
+nsAddonRepository
+.
+js
+components
+/
 nsBackgroundUpdateService
 .
 js
