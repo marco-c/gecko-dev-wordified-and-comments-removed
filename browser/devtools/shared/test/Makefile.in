@@ -117,6 +117,10 @@ browser_layoutHelpers
 .
 js
 \
+browser_eventemitter_basic
+.
+js
+\
 head
 .
 js

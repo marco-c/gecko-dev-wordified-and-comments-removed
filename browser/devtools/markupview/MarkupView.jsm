@@ -1499,7 +1499,7 @@ this
 .
 _inspector
 .
-_emit
+emit
 (
 "
 markupmutation
@@ -2055,7 +2055,7 @@ this
 .
 _inspector
 .
-removeListener
+off
 (
 "
 select

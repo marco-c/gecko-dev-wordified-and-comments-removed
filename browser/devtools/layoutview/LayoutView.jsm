@@ -752,7 +752,7 @@ this
 .
 inspector
 .
-removeListener
+off
 (
 "
 select
@@ -766,7 +766,7 @@ this
 .
 inspector
 .
-removeListener
+off
 (
 "
 unlocked
