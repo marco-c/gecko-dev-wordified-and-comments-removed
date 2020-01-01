@@ -109,9 +109,16 @@ nr_ice_stun_server
 *
 stun_server
 ;
+nr_transport_addr
+stun_server_addr
+;
 void
 *
 delay_timer
+;
+void
+*
+resolver_handle
 ;
 union
 {
@@ -202,9 +209,6 @@ struct
 nr_ice_ctx_
 *
 ctx
-char
-*
-label
 nr_ice_component
 *
 component

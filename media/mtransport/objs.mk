@@ -685,6 +685,10 @@ nricemediastream
 .
 cpp
 \
+nriceresolverfake
+.
+cpp
+\
 nr_socket_prsock
 .
 cpp

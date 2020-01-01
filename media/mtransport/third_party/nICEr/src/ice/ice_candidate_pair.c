@@ -1802,9 +1802,6 @@ pctx
 -
 >
 ctx
-"
-prflx
-"
 pair
 -
 >
