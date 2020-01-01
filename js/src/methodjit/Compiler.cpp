@@ -1894,7 +1894,7 @@ i
 .
 callReturn
 =
-uint8
+uint16
 (
 (
 uint8

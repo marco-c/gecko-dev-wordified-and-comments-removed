@@ -361,8 +361,10 @@ JSC
 CodeLocationLabel
 storeBack
 ;
-uint8
+uint16
 callReturn
+:
+9
 ;
 JSC
 :
