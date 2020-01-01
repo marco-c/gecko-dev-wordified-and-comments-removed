@@ -811,13 +811,6 @@ nanojit
 :
 LIns
 *
-loop_header_ins
-;
-nanojit
-:
-:
-LIns
-*
 cx_ins
 ;
 nanojit
