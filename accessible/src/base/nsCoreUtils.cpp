@@ -197,6 +197,13 @@ h
 #
 include
 "
+nsIView
+.
+h
+"
+#
+include
+"
 nsContentCID
 .
 h
