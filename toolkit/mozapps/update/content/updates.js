@@ -3242,6 +3242,15 @@ function
 (
 )
 {
+if
+(
+!
+this
+.
+_licenseContent
+)
+return
+;
 var
 selectedIndex
 =
