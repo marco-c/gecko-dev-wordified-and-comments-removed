@@ -3987,12 +3987,13 @@ nsIFrame
 *
 >
 popups
-=
+;
 popMgr
 -
 >
 GetVisiblePopups
 (
+popups
 )
 ;
 if
