@@ -82,9 +82,7 @@ host
 =
 =
 "
-mochi
-.
-test
+localhost
 "
 ?
 "
@@ -94,9 +92,7 @@ org
 "
 :
 "
-mochi
-.
-test
+localhost
 :
 8888
 "
