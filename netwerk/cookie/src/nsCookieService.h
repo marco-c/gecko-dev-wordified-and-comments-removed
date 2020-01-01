@@ -518,11 +518,6 @@ PRInt64
 aServerTime
 PRBool
 aFromHttp
-mozIStorageBindingParamsArray
-*
-aParamsArray
-=
-NULL
 )
 ;
 void
@@ -546,11 +541,6 @@ char
 aCookieHeader
 PRBool
 aFromHttp
-mozIStorageBindingParamsArray
-*
-aParamsArray
-=
-NULL
 )
 ;
 void
