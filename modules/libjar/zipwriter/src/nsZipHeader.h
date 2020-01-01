@@ -154,6 +154,10 @@ mInited
 (
 PR_FALSE
 )
+mWriteOnClose
+(
+PR_FALSE
+)
 mExtraField
 (
 NULL
@@ -225,6 +229,9 @@ mIAttr
 ;
 PRPackedBool
 mInited
+;
+PRPackedBool
+mWriteOnClose
 ;
 nsCString
 mName
