@@ -198,15 +198,6 @@ aName
 )
 ;
 void
-OnIndexCreated
-(
-const
-nsAString
-&
-aName
-)
-;
-void
 OnObjectStoreRemoved
 (
 const
