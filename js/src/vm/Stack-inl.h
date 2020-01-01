@@ -1235,7 +1235,9 @@ size
 {
 size_t
 maxFrames
-=
+;
+if
+(
 cx
 -
 >
@@ -1258,9 +1260,14 @@ runtime
 trustedPrincipals
 (
 )
-?
+)
+maxFrames
+=
 MAX_FRAMES_TRUSTED
-:
+;
+else
+maxFrames
+=
 MAX_FRAMES
 ;
 if
