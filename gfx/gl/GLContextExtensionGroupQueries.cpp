@@ -276,7 +276,7 @@ GLExtensionGroup
 extensionGroup
 )
 {
-static_assert
+MOZ_ASSERT
 (
 ArrayLength
 (
