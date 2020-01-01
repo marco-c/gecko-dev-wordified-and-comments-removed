@@ -16,13 +16,6 @@ h
 #
 include
 "
-nsFormControlFrame
-.
-h
-"
-#
-include
-"
 nsHTMLButtonControlFrame
 .
 h
