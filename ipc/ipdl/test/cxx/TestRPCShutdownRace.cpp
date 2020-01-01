@@ -333,6 +333,11 @@ StartDeath
 "
 )
 ;
+PR_Sleep
+(
+1000
+)
+;
 if
 (
 !
