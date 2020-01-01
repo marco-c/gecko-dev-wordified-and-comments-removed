@@ -716,10 +716,6 @@ GeckoConnectivityReceiver
 .
 java
 \
-GeckoDirProvider
-.
-java
-\
 GeckoEvent
 .
 java
