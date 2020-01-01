@@ -1746,6 +1746,12 @@ dependence
 ref
 .
 html
+fails
+-
+if
+(
+winWidget
+)
 =
 =
 linear
@@ -1764,6 +1770,9 @@ onestopposition
 ref
 .
 html
+#
+bug
+638664
 =
 =
 linear
@@ -1782,6 +1791,12 @@ onestopposition
 ref2
 .
 html
+fails
+-
+if
+(
+winWidget
+)
 fails
 -
 if
