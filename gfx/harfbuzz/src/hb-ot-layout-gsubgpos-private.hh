@@ -667,7 +667,9 @@ c
 buffer
 -
 >
-out_len
+backtrack_len
+(
+)
 <
 count
 )
@@ -690,7 +692,9 @@ c
 buffer
 -
 >
-out_len
+backtrack_len
+(
+)
 -
 1
 ;
@@ -2562,7 +2566,9 @@ c
 buffer
 -
 >
-out_len
+backtrack_len
+(
+)
 <
 backtrackCount
 |
