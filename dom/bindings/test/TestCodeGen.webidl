@@ -1857,5 +1857,11 @@ c
 =
 5
 ;
+TestInterface
+someInterface
+;
+TestExternalInterface
+someExternalInterface
+;
 }
 ;
