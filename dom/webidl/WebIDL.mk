@@ -131,6 +131,10 @@ AudioProcessingEvent
 .
 webidl
 \
+BarProp
+.
+webidl
+\
 BatteryManager
 .
 webidl

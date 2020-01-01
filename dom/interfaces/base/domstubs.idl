@@ -123,10 +123,6 @@ long
 long
 DOMTimeStamp
 ;
-typedef
-double
-DOMHighResTimeStamp
-;
 /
 /
 Core
@@ -227,9 +223,6 @@ nsIDOMMimeType
 ;
 interface
 nsIDOMMimeTypeArray
-;
-interface
-nsIDOMBarProp
 ;
 interface
 nsIDOMNavigator

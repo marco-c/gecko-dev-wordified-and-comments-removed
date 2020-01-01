@@ -128,11 +128,6 @@ nsIContentURIGrouper
 idl
 '
 '
-nsIDOMBarProp
-.
-idl
-'
-'
 nsIDOMCRMFObject
 .
 idl
