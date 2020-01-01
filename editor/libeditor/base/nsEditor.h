@@ -2267,6 +2267,9 @@ mShouldTxnSetSelection
 PRPackedBool
 mDidPreDestroy
 ;
+PRPackedBool
+mDidPostCreate
+;
 nsCOMArray
 <
 nsIEditActionListener

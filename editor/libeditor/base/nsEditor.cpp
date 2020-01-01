@@ -601,6 +601,10 @@ mDidPreDestroy
 (
 PR_FALSE
 )
+mDidPostCreate
+(
+PR_FALSE
+)
 mDocDirtyState
 (
 -
@@ -1008,6 +1012,10 @@ mDidPreDestroy
 =
 PR_FALSE
 ;
+mDidPostCreate
+=
+PR_FALSE
+;
 return
 NS_OK
 ;
@@ -1039,6 +1047,16 @@ NS_ENSURE_SUCCESS
 rv
 rv
 )
+;
+if
+(
+!
+mDidPostCreate
+)
+{
+mDidPostCreate
+=
+PR_TRUE
 ;
 rv
 =
@@ -1088,6 +1106,7 @@ NotifyDocumentListeners
 eDocumentStateChanged
 )
 ;
+}
 nsCOMPtr
 <
 nsIContent
