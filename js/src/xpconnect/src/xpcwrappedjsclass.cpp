@@ -4984,6 +4984,12 @@ nsISupports
 jsval
 v
 ;
+nsCOMPtr
+<
+nsIXPConnectJSObjectHolder
+>
+holder
+;
 JSBool
 ok
 =
@@ -4995,7 +5001,10 @@ NativeInterface2JSObject
 ccx
 &
 v
-nsnull
+getter_AddRefs
+(
+holder
+)
 newThis
 newWrapperIID
 obj
