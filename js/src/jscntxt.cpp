@@ -5318,6 +5318,10 @@ return
 false
 ;
 }
+if
+(
+defaultCompartmentObject_
+)
 compartment
 =
 defaultCompartmentObject_
@@ -5326,6 +5330,11 @@ defaultCompartmentObject_
 compartment
 (
 )
+;
+else
+compartment
+=
+NULL
 ;
 enterCompartmentDepth_
 =
