@@ -6251,7 +6251,7 @@ getInstance
 (
 )
 .
-switchToTab
+selectTab
 (
 id
 )
@@ -6311,11 +6311,9 @@ new
 GeckoEvent
 (
 "
-switch
--
-to
--
 tab
+-
+select
 "
 "
 "
@@ -6451,9 +6449,9 @@ new
 GeckoEvent
 (
 "
-add
--
 tab
+-
+add
 "
 url
 )
@@ -6470,9 +6468,9 @@ new
 GeckoEvent
 (
 "
-load
--
 tab
+-
+load
 "
 url
 )

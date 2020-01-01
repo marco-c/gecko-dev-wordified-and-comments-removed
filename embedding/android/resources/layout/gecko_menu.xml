@@ -122,8 +122,9 @@ android
 title
 =
 "
-Show
-Tabs
+string
+/
+tabs
 "
 /
 >

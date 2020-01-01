@@ -183,6 +183,7 @@ containsKey
 id
 )
 )
+{
 tabs
 .
 remove
@@ -208,9 +209,10 @@ id
 )
 ;
 }
+}
 public
 Tab
-switchToTab
+selectTab
 (
 int
 id
