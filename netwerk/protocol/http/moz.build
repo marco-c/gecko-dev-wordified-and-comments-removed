@@ -239,6 +239,11 @@ PHttpChannelParams
 .
 h
 '
+'
+PSpdyPush3
+.
+h
+'
 ]
 CPP_SOURCES
 +
@@ -281,6 +286,11 @@ cpp
 '
 '
 NullHttpTransaction
+.
+cpp
+'
+'
+SpdyPush3
 .
 cpp
 '
