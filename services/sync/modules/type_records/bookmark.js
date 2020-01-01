@@ -348,9 +348,14 @@ PlacesItem
 "
 cleartext
 "
+[
+"
+predecessorid
+"
 "
 type
 "
+]
 )
 ;
 function
