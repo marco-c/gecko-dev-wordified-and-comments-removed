@@ -20276,7 +20276,6 @@ b
 ref
 .
 html
-fails
 HTTP
 (
 .
@@ -20296,10 +20295,6 @@ a
 ref
 .
 html
-#
-bug
-518172
-fails
 HTTP
 (
 .
@@ -20319,9 +20314,6 @@ b
 ref
 .
 html
-#
-bug
-518172
 =
 =
 520421
