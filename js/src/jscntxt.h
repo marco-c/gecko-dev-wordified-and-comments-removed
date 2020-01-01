@@ -4431,10 +4431,6 @@ OBJVECTOR
 =
 -
 16
-TYPE
-=
--
-17
 }
 ;
 private
