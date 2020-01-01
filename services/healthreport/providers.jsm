@@ -1968,7 +1968,7 @@ current
 "
 version
 :
-2
+3
 configureStorage
 :
 function
@@ -2219,7 +2219,7 @@ previous
 "
 version
 :
-2
+3
 DAILY_DISCRETE_NUMERIC_FIELDS
 :
 [
@@ -2366,7 +2366,7 @@ getMeasurement
 "
 previous
 "
-2
+3
 )
 ;
 return
@@ -2466,7 +2466,7 @@ getMeasurement
 "
 previous
 "
-2
+3
 )
 ;
 for

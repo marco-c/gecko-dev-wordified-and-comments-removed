@@ -566,7 +566,7 @@ getMeasurement
 "
 current
 "
-2
+3
 )
 ;
 let
@@ -903,7 +903,7 @@ getMeasurement
 "
 previous
 "
-2
+3
 )
 ;
 let
@@ -1209,6 +1209,19 @@ serialization
 "
 )
 ;
+yield
+sleep
+(
+1025
+)
+;
+recorder
+.
+onActivity
+(
+true
+)
+;
 let
 current
 =
@@ -1219,7 +1232,7 @@ getMeasurement
 "
 current
 "
-2
+3
 )
 ;
 let
@@ -1270,7 +1283,7 @@ do_check_eq
 fields
 .
 _v
-2
+3
 )
 ;
 do_check_eq
@@ -1278,7 +1291,7 @@ do_check_eq
 fields
 .
 activeTicks
-0
+1
 )
 ;
 do_check_eq
