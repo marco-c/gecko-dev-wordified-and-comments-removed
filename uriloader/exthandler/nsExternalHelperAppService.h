@@ -699,8 +699,10 @@ mDialog
 PRBool
 mKeepRequestAlive
 ;
+nsCOMPtr
+<
 nsIRequest
-*
+>
 mRequest
 ;
 }
