@@ -3,9 +3,11 @@
 ENTITY
 title
 "
-Application
+&
+brandShortName
+;
 Startup
-Timing
+History
 "
 >
 <
@@ -83,7 +85,7 @@ Version
 ENTITY
 chart
 "
-Chart
+Table
 "
 >
 <
