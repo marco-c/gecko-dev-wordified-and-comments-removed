@@ -7,13 +7,6 @@ frontend_Parser_h
 #
 include
 "
-jsprvtd
-.
-h
-"
-#
-include
-"
 jspubtd
 .
 h

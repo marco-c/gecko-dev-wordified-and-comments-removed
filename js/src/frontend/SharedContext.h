@@ -21,13 +21,6 @@ h
 #
 include
 "
-jsprvtd
-.
-h
-"
-#
-include
-"
 jspubtd
 .
 h

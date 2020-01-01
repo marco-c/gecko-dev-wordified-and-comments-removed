@@ -35,13 +35,6 @@ h
 #
 include
 "
-jsprvtd
-.
-h
-"
-#
-include
-"
 gc
 /
 Barrier
