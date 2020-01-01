@@ -666,7 +666,7 @@ PRInt32
 pos
 )
 ;
-void
+PRBool
 adoptionAgencyEndTag
 (
 nsIAtom
@@ -708,6 +708,17 @@ findInListOfActiveFormattingElementsContainsBetweenEndAndLastMarker
 nsIAtom
 *
 name
+)
+;
+void
+maybeForgetEarlierDuplicateFormattingElement
+(
+nsIAtom
+*
+name
+nsHtml5HtmlAttributes
+*
+attributes
 )
 ;
 PRInt32
@@ -1854,9 +1865,5 @@ NS_HTML5TREE_BUILDER_CHARSET_UNQUOTED
 define
 NS_HTML5TREE_BUILDER_NOT_FOUND_ON_STACK
 PR_INT32_MAX
-#
-define
-NS_HTML5TREE_BUILDER_AAA_MAX_ITERATIONS
-10
 #
 endif
