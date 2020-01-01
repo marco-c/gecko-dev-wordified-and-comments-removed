@@ -31,6 +31,9 @@ extendedAttrs
 =
 [
 "
+Throws
+"
+"
 TreatNullAs
 =
 EmptyString

@@ -162,17 +162,11 @@ now
 (
 )
 ;
-[
-Infallible
-]
 readonly
 attribute
 PerformanceTiming
 timing
 ;
-[
-Infallible
-]
 readonly
 attribute
 PerformanceNavigation

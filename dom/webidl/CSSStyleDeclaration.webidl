@@ -125,15 +125,12 @@ interface
 CSSStyleDeclaration
 {
 [
-GetterInfallible
+SetterThrows
 ]
 attribute
 DOMString
 cssText
 ;
-[
-Infallible
-]
 readonly
 attribute
 unsigned
@@ -235,9 +232,6 @@ DOMString
 property
 )
 ;
-[
-Infallible
-]
 readonly
 attribute
 CSSRule

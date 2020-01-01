@@ -197,9 +197,6 @@ reference
 to
 the
 canvas
-[
-Infallible
-]
 readonly
 attribute
 HTMLCanvasElement
@@ -338,9 +335,6 @@ resetTransform
 /
 /
 compositing
-[
-Infallible
-]
 attribute
 double
 globalAlpha
@@ -353,6 +347,9 @@ default
 .
 0
 )
+[
+Throws
+]
 attribute
 DOMString
 globalCompositeOperation
@@ -378,7 +375,7 @@ CanvasDrawingStyles
 interface
 )
 [
-SetterInfallible
+GetterThrows
 ]
 attribute
 any
@@ -391,7 +388,7 @@ default
 black
 )
 [
-SetterInfallible
+GetterThrows
 ]
 attribute
 any
@@ -465,9 +462,6 @@ repetition
 /
 /
 shadows
-[
-Infallible
-]
 attribute
 double
 shadowOffsetX
@@ -478,9 +472,6 @@ shadowOffsetX
 default
 0
 )
-[
-Infallible
-]
 attribute
 double
 shadowOffsetY
@@ -491,9 +482,6 @@ shadowOffsetY
 default
 0
 )
-[
-Infallible
-]
 attribute
 double
 shadowBlur
@@ -504,9 +492,6 @@ shadowBlur
 default
 0
 )
-[
-Infallible
-]
 attribute
 DOMString
 shadowColor
@@ -987,6 +972,9 @@ a
 WebIDL
 array
 .
+[
+Throws
+]
 attribute
 object
 mozCurrentTransform
@@ -1007,13 +995,13 @@ e
 .
 row
 major
+[
+Throws
+]
 attribute
 object
 mozCurrentTransformInverse
 ;
-[
-Infallible
-]
 attribute
 DOMString
 mozFillRule
@@ -1031,6 +1019,9 @@ default
 )
 *
 /
+[
+Throws
+]
 attribute
 any
 mozDash
@@ -1043,9 +1034,6 @@ null
 |
 *
 /
-[
-Infallible
-]
 attribute
 double
 mozDashOffset
@@ -1059,7 +1047,7 @@ default
 *
 /
 [
-GetterInfallible
+SetterThrows
 ]
 attribute
 DOMString
@@ -1085,9 +1073,6 @@ smoothed
 if
 scaled
 .
-[
-Infallible
-]
 attribute
 boolean
 mozImageSmoothingEnabled
@@ -1586,9 +1571,6 @@ line
 caps
 /
 joins
-[
-Infallible
-]
 attribute
 double
 lineWidth
@@ -1599,9 +1581,6 @@ lineWidth
 default
 1
 )
-[
-Infallible
-]
 attribute
 DOMString
 lineCap
@@ -1624,7 +1603,7 @@ butt
 "
 )
 [
-SetterInfallible
+GetterThrows
 ]
 attribute
 DOMString
@@ -1647,9 +1626,6 @@ default
 miter
 "
 )
-[
-Infallible
-]
 attribute
 double
 miterLimit
@@ -1706,7 +1682,7 @@ lineDashOffset
 /
 text
 [
-GetterInfallible
+SetterThrows
 ]
 attribute
 DOMString
@@ -1721,9 +1697,6 @@ sans
 -
 serif
 )
-[
-Infallible
-]
 attribute
 DOMString
 textAlign
@@ -1752,9 +1725,6 @@ default
 start
 "
 )
-[
-Infallible
-]
 attribute
 DOMString
 textBaseline
