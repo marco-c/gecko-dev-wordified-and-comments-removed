@@ -135,7 +135,13 @@ L
 NULL
 callback
 NULL
-true
+google_breakpad
+:
+:
+ExceptionHandler
+:
+:
+HANDLER_ALL
 )
 ;
 CrashFunction

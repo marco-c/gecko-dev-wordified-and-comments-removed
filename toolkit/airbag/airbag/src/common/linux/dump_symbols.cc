@@ -971,6 +971,10 @@ line
 .
 line_num
 =
+(
+unsigned
+short
+)
 cur_list
 -
 >
