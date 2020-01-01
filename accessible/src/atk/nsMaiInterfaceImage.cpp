@@ -15,7 +15,7 @@ h
 #
 include
 "
-nsHTMLImageAccessible
+ImageAccessible
 .
 h
 "
@@ -26,6 +26,17 @@ nsMai
 .
 h
 "
+using
+namespace
+mozilla
+;
+using
+namespace
+mozilla
+:
+:
+a11y
+;
 extern
 "
 C
@@ -86,7 +97,7 @@ IsImage
 )
 return
 ;
-nsHTMLImageAccessible
+ImageAccessible
 *
 image
 =

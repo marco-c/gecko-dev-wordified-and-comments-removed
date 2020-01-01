@@ -1,7 +1,7 @@
 #
 include
 "
-nsHTMLImageAccessible
+ImageAccessible
 .
 h
 "
@@ -117,10 +117,10 @@ mozilla
 :
 a11y
 ;
-nsHTMLImageAccessible
+ImageAccessible
 :
 :
-nsHTMLImageAccessible
+ImageAccessible
 (
 nsIContent
 *
@@ -144,12 +144,12 @@ eImageAccessible
 }
 NS_IMPL_ISUPPORTS_INHERITED1
 (
-nsHTMLImageAccessible
+ImageAccessible
 Accessible
 nsIAccessibleImage
 )
 PRUint64
-nsHTMLImageAccessible
+ImageAccessible
 :
 :
 NativeState
@@ -259,7 +259,7 @@ state
 ;
 }
 nsresult
-nsHTMLImageAccessible
+ImageAccessible
 :
 :
 GetNameInternal
@@ -335,7 +335,7 @@ NS_OK
 ;
 }
 role
-nsHTMLImageAccessible
+ImageAccessible
 :
 :
 NativeRole
@@ -350,7 +350,7 @@ GRAPHIC
 ;
 }
 PRUint8
-nsHTMLImageAccessible
+ImageAccessible
 :
 :
 ActionCount
@@ -380,7 +380,7 @@ actionCount
 ;
 }
 NS_IMETHODIMP
-nsHTMLImageAccessible
+ImageAccessible
 :
 :
 GetActionName
@@ -445,7 +445,7 @@ aName
 ;
 }
 NS_IMETHODIMP
-nsHTMLImageAccessible
+ImageAccessible
 :
 :
 DoAction
@@ -582,7 +582,7 @@ tmp
 ;
 }
 NS_IMETHODIMP
-nsHTMLImageAccessible
+ImageAccessible
 :
 :
 GetImagePosition
@@ -638,7 +638,7 @@ this
 ;
 }
 NS_IMETHODIMP
-nsHTMLImageAccessible
+ImageAccessible
 :
 :
 GetImageSize
@@ -668,7 +668,7 @@ aHeight
 ;
 }
 nsresult
-nsHTMLImageAccessible
+ImageAccessible
 :
 :
 GetAttributesInternal
@@ -750,7 +750,7 @@ already_AddRefed
 <
 nsIURI
 >
-nsHTMLImageAccessible
+ImageAccessible
 :
 :
 GetLongDescURI
@@ -948,7 +948,7 @@ nsnull
 ;
 }
 bool
-nsHTMLImageAccessible
+ImageAccessible
 :
 :
 IsLongDescIndex

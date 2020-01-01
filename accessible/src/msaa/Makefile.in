@@ -118,6 +118,10 @@ HyperTextAccessibleWrap
 .
 cpp
 \
+ImageAccessibleWrap
+.
+cpp
+\
 nsAccessNodeWrap
 .
 cpp
@@ -135,10 +139,6 @@ nsXULListboxAccessibleWrap
 cpp
 \
 nsXULTreeGridAccessibleWrap
-.
-cpp
-\
-nsHTMLImageAccessibleWrap
 .
 cpp
 \

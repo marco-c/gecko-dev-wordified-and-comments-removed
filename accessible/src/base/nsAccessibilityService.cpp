@@ -1142,7 +1142,7 @@ Accessible
 accessible
 =
 new
-nsHTMLImageAccessibleWrap
+ImageAccessibleWrap
 (
 aContent
 GetDocAccessible
@@ -6602,7 +6602,7 @@ nsnull
 accessible
 =
 new
-nsHTMLImageAccessibleWrap
+ImageAccessibleWrap
 (
 aContent
 aDoc
