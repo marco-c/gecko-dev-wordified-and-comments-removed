@@ -5345,6 +5345,15 @@ AppendElement
 host
 )
 ;
+if
+(
+!
+IsCanonicalizedIP
+(
+host
+)
+)
+{
 host
 .
 BeginReading
@@ -5424,6 +5433,7 @@ BeginReading
 begin
 )
 ;
+}
 }
 nsTArray
 <
