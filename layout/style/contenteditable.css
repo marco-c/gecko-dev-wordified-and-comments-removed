@@ -495,9 +495,8 @@ read
 write
 >
 input
-[
+:
 disabled
-]
 *
 |
 *
@@ -563,9 +562,8 @@ contenteditable
 true
 "
 ]
-[
+:
 disabled
-]
 input
 [
 contenteditable
