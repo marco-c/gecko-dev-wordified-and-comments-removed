@@ -366,6 +366,16 @@ packageEtag
 aApp
 .
 packageEtag
+manifestHash
+:
+aApp
+.
+manifestHash
+packageHash
+:
+aApp
+.
+packageHash
 installerAppId
 :
 aApp
