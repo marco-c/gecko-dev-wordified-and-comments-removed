@@ -1312,13 +1312,6 @@ BINPATH
 /
 components
 /
-jetpack
-.
-xpt
-BINPATH
-/
-components
-/
 jsdebugger
 .
 xpt
