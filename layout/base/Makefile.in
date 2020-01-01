@@ -507,10 +507,6 @@ nsIFrameTraversal
 .
 h
 \
-nsIImageMap
-.
-h
-\
 nsILayoutDebugger
 .
 h

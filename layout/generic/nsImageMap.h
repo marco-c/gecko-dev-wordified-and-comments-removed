@@ -46,13 +46,6 @@ nsIFrame
 .
 h
 "
-#
-include
-"
-nsIImageMap
-.
-h
-"
 class
 nsIDOMHTMLAreaElement
 ;
@@ -81,8 +74,6 @@ public
 nsStubMutationObserver
 public
 nsIDOMFocusListener
-public
-nsIImageMap
 {
 public
 :
@@ -164,7 +155,7 @@ nsIDOMEvent
 aEvent
 )
 ;
-NS_IMETHOD
+nsresult
 GetBoundsForAreaContent
 (
 nsIContent
