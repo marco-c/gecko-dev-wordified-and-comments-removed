@@ -521,11 +521,6 @@ Value
 (
 )
 .
-get
-(
-)
--
->
 WalkFormElements
 (
 formData
