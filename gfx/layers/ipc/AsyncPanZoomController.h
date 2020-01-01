@@ -310,7 +310,7 @@ aMetrics
 )
 ;
 static
-gfxSize
+CSSToScreenScale
 CalculateResolution
 (
 const
