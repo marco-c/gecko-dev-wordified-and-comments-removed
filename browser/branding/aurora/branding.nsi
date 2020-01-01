@@ -301,7 +301,7 @@ pixels
 !
 define
 APPNAME_BMP_WIDTH_DU
-157u
+158u
 !
 define
 APPNAME_BMP_HEIGHT_DU
