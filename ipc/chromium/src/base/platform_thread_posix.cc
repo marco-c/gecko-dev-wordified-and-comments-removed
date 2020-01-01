@@ -390,6 +390,10 @@ pthread_self
 %
 s
 "
+(
+void
+*
+)
 name
 )
 ;
