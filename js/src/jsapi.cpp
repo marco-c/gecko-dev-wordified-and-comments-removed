@@ -21469,17 +21469,6 @@ NULL
 0
 )
 ;
-JS_ASSERT
-(
-!
-script
--
->
-u
-.
-object
-)
-;
 JS_PUSH_TEMP_ROOT_SCRIPT
 (
 cx
@@ -21515,8 +21504,6 @@ script
 script
 -
 >
-u
-.
 object
 =
 obj
@@ -21561,8 +21548,6 @@ return
 script
 -
 >
-u
-.
 object
 ;
 }
