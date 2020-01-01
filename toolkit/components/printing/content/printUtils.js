@@ -876,7 +876,7 @@ PPROMPTSVC
 .
 showProgress
 (
-this
+window
 webBrowserPrint
 printSettings
 this
