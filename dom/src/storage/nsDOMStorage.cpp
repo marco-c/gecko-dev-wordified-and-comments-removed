@@ -636,7 +636,7 @@ NS_SUCCEEDED
 permissionManager
 -
 >
-TestExactPermission
+TestPermission
 (
 uri
 "
@@ -1393,7 +1393,7 @@ NS_ConvertUTF16toUTF8
 (
 aData
 )
-PR_FALSE
+PR_TRUE
 )
 ;
 #
@@ -1490,7 +1490,7 @@ gStorageDB
 RemoveOwners
 (
 domains
-PR_FALSE
+PR_TRUE
 PR_FALSE
 )
 ;
@@ -1860,7 +1860,7 @@ gStorageDB
 RemoveOwners
 (
 domains
-PR_FALSE
+PR_TRUE
 PR_TRUE
 )
 ;
