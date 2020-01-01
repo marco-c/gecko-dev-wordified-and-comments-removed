@@ -3617,6 +3617,12 @@ null
 ;
 this
 .
+downloading
+=
+false
+;
+this
+.
 _fireEvent
 (
 "
@@ -4139,6 +4145,14 @@ updateTime
 app
 .
 updateTime
+;
+this
+.
+_manifest
+=
+msg
+.
+manifest
 ;
 this
 .
