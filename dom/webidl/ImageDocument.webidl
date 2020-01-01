@@ -116,6 +116,9 @@ idl
 interface
 imgIRequest
 ;
+[
+ChromeOnly
+]
 interface
 ImageDocument
 :
