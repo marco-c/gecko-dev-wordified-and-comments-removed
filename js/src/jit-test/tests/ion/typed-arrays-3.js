@@ -508,7 +508,3 @@ arr
 ;
 }
 }
-testString
-(
-)
-;
