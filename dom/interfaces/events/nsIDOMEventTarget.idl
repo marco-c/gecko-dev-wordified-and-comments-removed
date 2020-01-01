@@ -1316,7 +1316,7 @@ DOMException
 *
 Returns
 the
-nsPIDOMEventTarget
+nsIDOMEventTarget
 object
 which
 should
@@ -1364,7 +1364,7 @@ GetTargetForDOMEvent
 *
 Returns
 the
-nsPIDOMEventTarget
+nsIDOMEventTarget
 object
 which
 should
@@ -1964,10 +1964,6 @@ GetJSContextForEventHandlers
 C
 +
 +
-typedef
-nsIDOMEventTarget
-nsPIDOMEventTarget
-;
 #
 define
 NS_IMPL_DOMTARGET_DEFAULTS
@@ -1975,7 +1971,7 @@ NS_IMPL_DOMTARGET_DEFAULTS
 _class
 )
 \
-nsPIDOMEventTarget
+nsIDOMEventTarget
 *
 _class
 :
@@ -1989,7 +1985,7 @@ this
 ;
 }
 \
-nsPIDOMEventTarget
+nsIDOMEventTarget
 *
 _class
 :

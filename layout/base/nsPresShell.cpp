@@ -26418,7 +26418,7 @@ oldTouch
 {
 nsCOMPtr
 <
-nsPIDOMEventTarget
+nsIDOMEventTarget
 >
 targetPtr
 ;
@@ -26848,7 +26848,7 @@ break
 }
 nsCOMPtr
 <
-nsPIDOMEventTarget
+nsIDOMEventTarget
 >
 targetPtr
 ;
@@ -28450,7 +28450,7 @@ continue
 }
 nsCOMPtr
 <
-nsPIDOMEventTarget
+nsIDOMEventTarget
 >
 targetPtr
 ;
@@ -28672,7 +28672,7 @@ true
 }
 nsCOMPtr
 <
-nsPIDOMEventTarget
+nsIDOMEventTarget
 >
 targetPtr
 ;
@@ -29411,7 +29411,7 @@ continue
 }
 nsCOMPtr
 <
-nsPIDOMEventTarget
+nsIDOMEventTarget
 >
 targetPtr
 ;
