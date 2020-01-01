@@ -18,3 +18,10 @@ tests
 submission
 /
 Mozilla
+tests
+/
+submission
+/
+Opera
+/
+microdata
