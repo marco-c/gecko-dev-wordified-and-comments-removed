@@ -2159,7 +2159,7 @@ slots
 namespace
 js
 {
-JSObject
+CallObject
 *
 CreateFunCallObject
 (
@@ -2171,7 +2171,7 @@ StackFrame
 fp
 )
 ;
-JSObject
+CallObject
 *
 CreateEvalCallObject
 (

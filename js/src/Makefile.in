@@ -865,6 +865,10 @@ sharkctl
 .
 cpp
 \
+CallObject
+.
+cpp
+\
 Debugger
 .
 cpp
@@ -1289,6 +1293,10 @@ EXPORTS_vm
 =
 \
 ArgumentsObject
+.
+h
+\
+CallObject
 .
 h
 \

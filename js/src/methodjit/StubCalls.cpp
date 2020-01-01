@@ -2768,14 +2768,10 @@ StackFrame
 *
 afp
 =
-(
-StackFrame
-*
-)
 argsobj
 -
 >
-getPrivate
+maybeStackFrame
 (
 )
 )
