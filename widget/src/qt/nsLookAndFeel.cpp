@@ -1444,9 +1444,6 @@ eMetric_MenusCanOverlapOSBar
 eMetric_SkipNavigatingDisabledMenuItem
 "
 "
-eMetric_DragFullWindow
-"
-"
 eMetric_DragThresholdX
 "
 "
@@ -1815,15 +1812,6 @@ break
 ;
 case
 eMetric_MenusCanOverlapOSBar
-:
-aMetric
-=
-1
-;
-break
-;
-case
-eMetric_DragFullWindow
 :
 aMetric
 =

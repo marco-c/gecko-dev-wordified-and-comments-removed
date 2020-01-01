@@ -348,17 +348,6 @@ nsLookAndFeelTypeInt
 "
 ui
 .
-dragFullWindow
-"
-eMetric_DragFullWindow
-PR_FALSE
-nsLookAndFeelTypeInt
-0
-}
-{
-"
-ui
-.
 dragThresholdX
 "
 eMetric_DragThresholdX
