@@ -657,6 +657,10 @@ TestStaticAtoms
 .
 cpp
 \
+TestUTF
+.
+cpp
+\
 (
 NULL
 )
