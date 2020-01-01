@@ -7967,7 +7967,7 @@ height
 )
 {
 return
-_cairo_meta_surface_create
+cairo_meta_surface_create
 (
 content
 width

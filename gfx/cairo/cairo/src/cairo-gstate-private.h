@@ -41,6 +41,10 @@ cairo_scaled_font_t
 *
 scaled_font
 ;
+cairo_scaled_font_t
+*
+previous_scaled_font
+;
 cairo_matrix_t
 font_matrix
 ;

@@ -11,10 +11,6 @@ mutex
 endif
 CAIRO_MUTEX_DECLARE
 (
-_cairo_pattern_solid_pattern_cache_lock
-)
-CAIRO_MUTEX_DECLARE
-(
 _cairo_pattern_solid_surface_cache_lock
 )
 CAIRO_MUTEX_DECLARE
