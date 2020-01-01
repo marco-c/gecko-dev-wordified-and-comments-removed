@@ -1800,6 +1800,13 @@ me
 endif
 #
 else
+#
+include
+"
+jscompat
+.
+h
+"
 JS_BEGIN_EXTERN_C
 static
 inline
@@ -1896,7 +1903,7 @@ v
 )
 )
 static
-JS_INLINE
+inline
 int
 js_CompareAndSwap
 (
