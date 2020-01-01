@@ -2351,11 +2351,14 @@ nsMenuFrame
 *
 menuFrame
 =
+do_QueryFrame
+(
 menuPopupFrame
 -
 >
-GetParentMenu
+GetParent
 (
+)
 )
 ;
 if

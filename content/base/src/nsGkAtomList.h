@@ -12010,13 +12010,6 @@ ListControlFrame
 )
 GK_ATOM
 (
-menuBarFrame
-"
-MenuBarFrame
-"
-)
-GK_ATOM
-(
 menuFrame
 "
 MenuFrame
