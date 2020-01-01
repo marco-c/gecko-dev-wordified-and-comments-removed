@@ -72,6 +72,15 @@ XPCJSMemoryReporter
 .
 h
 "
+#
+include
+"
+js
+/
+MemoryMetrics
+.
+h
+"
 using
 namespace
 mozilla
