@@ -28705,9 +28705,14 @@ OBJECT_FLAG_NON_PACKED_ARRAY
 ;
 if
 (
-IsTypedArrayProto
+IsTypedArrayProtoClass
 (
 self
+-
+>
+getClass
+(
+)
 )
 )
 type
