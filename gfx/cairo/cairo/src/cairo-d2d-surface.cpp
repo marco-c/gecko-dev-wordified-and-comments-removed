@@ -10842,8 +10842,10 @@ reset_clip
 d2dsurf
 )
 ;
-cairo_release_device
-(
+cairo_device_t
+*
+device
+=
 &
 d2dsurf
 -
@@ -10852,7 +10854,6 @@ device
 -
 >
 base
-)
 ;
 d2dsurf
 -
@@ -10860,6 +10861,11 @@ d2dsurf
 ~
 cairo_d2d_surface_t
 (
+)
+;
+cairo_release_device
+(
+device
 )
 ;
 return
