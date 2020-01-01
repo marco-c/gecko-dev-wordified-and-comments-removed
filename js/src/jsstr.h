@@ -2374,11 +2374,8 @@ JSString
 str
 )
 ;
-#
-ifdef
-__cplusplus
 extern
-bool
+JSBool
 JS_FASTCALL
 js_EqualStrings
 (
@@ -2390,8 +2387,6 @@ JSString
 str2
 )
 ;
-#
-endif
 extern
 jsint
 JS_FASTCALL

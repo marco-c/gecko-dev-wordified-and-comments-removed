@@ -561,7 +561,7 @@ d
 )
 ;
 }
-bool
+JSBool
 FASTCALL
 js_Array_dense_setelem
 (
@@ -665,7 +665,7 @@ i
 v
 ;
 return
-true
+JS_TRUE
 ;
 }
 return
@@ -680,10 +680,6 @@ i
 &
 v
 )
-?
-true
-:
-false
 ;
 }
 JSString
@@ -1850,7 +1846,7 @@ return
 v
 ;
 }
-bool
+JSBool
 FASTCALL
 js_Any_setelem
 (
@@ -1885,7 +1881,7 @@ id
 )
 )
 return
-false
+JS_FALSE
 ;
 return
 OBJ_SET_PROPERTY
@@ -2593,7 +2589,7 @@ return
 obj
 ;
 }
-bool
+JSBool
 FASTCALL
 js_AddProperty
 (
@@ -2690,7 +2686,7 @@ obj
 )
 ;
 return
-false
+JS_FALSE
 ;
 }
 }
@@ -2786,7 +2782,7 @@ scope
 )
 ;
 return
-false
+JS_FALSE
 ;
 }
 if
@@ -2831,7 +2827,7 @@ scope
 )
 ;
 return
-true
+JS_TRUE
 ;
 }
 sprop2
@@ -2882,7 +2878,7 @@ scope
 )
 ;
 return
-true
+JS_TRUE
 ;
 }
 slot
@@ -2908,10 +2904,10 @@ scope
 )
 ;
 return
-false
+JS_FALSE
 ;
 }
-bool
+JSBool
 FASTCALL
 js_HasNamedProperty
 (
@@ -2944,7 +2940,7 @@ id
 )
 )
 return
-JSVAL_ERROR_COOKIE
+JS_FALSE
 ;
 JSObject
 *

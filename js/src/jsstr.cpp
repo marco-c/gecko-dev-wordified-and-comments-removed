@@ -14416,7 +14416,7 @@ return
 h
 ;
 }
-bool
+JSBool
 JS_FASTCALL
 js_EqualStrings
 (
@@ -14456,7 +14456,7 @@ str1
 str2
 )
 return
-true
+JS_TRUE
 ;
 n
 =
@@ -14476,7 +14476,7 @@ str2
 )
 )
 return
-false
+JS_FALSE
 ;
 if
 (
@@ -14486,7 +14486,7 @@ n
 0
 )
 return
-true
+JS_TRUE
 ;
 s1
 =
@@ -14513,7 +14513,7 @@ s1
 s2
 )
 return
-false
+JS_FALSE
 ;
 +
 +
@@ -14534,7 +14534,7 @@ n
 )
 ;
 return
-true
+JS_TRUE
 ;
 }
 jsint
