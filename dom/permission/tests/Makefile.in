@@ -95,6 +95,12 @@ DIRS
 (
 NULL
 )
+MODULE
+=
+test_permission
+XPCSHELL_TESTS
+=
+unit
 include
 (
 topsrcdir
