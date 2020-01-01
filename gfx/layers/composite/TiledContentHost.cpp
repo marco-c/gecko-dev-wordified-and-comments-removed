@@ -1619,7 +1619,7 @@ aCompositor
 flags
 |
 =
-NewTile
+TEXTURE_NEW_TILE
 ;
 }
 mDeprecatedTextureHost

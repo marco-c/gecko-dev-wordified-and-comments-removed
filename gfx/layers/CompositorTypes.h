@@ -40,7 +40,7 @@ TextureFlags
 ;
 const
 TextureFlags
-UseNearestFilter
+TEXTURE_USE_NEAREST_FILTER
 =
 1
 <
@@ -49,7 +49,7 @@ UseNearestFilter
 ;
 const
 TextureFlags
-NeedsYFlip
+TEXTURE_NEEDS_Y_FLIP
 =
 1
 <
@@ -67,7 +67,7 @@ TEXTURE_DISALLOW_BIGIMAGE
 ;
 const
 TextureFlags
-AllowRepeat
+TEXTURE_ALLOW_REPEAT
 =
 1
 <
@@ -76,7 +76,7 @@ AllowRepeat
 ;
 const
 TextureFlags
-NewTile
+TEXTURE_NEW_TILE
 =
 1
 <
@@ -85,7 +85,7 @@ NewTile
 ;
 const
 TextureFlags
-ComponentAlpha
+TEXTURE_COMPONENT_ALPHA
 =
 1
 <

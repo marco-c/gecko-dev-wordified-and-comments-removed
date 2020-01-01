@@ -376,7 +376,7 @@ mNeedsYFlip
 flags
 |
 =
-NeedsYFlip
+TEXTURE_NEEDS_Y_FLIP
 ;
 }
 bool

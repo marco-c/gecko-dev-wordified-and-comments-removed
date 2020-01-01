@@ -641,7 +641,7 @@ GetFlags
 (
 )
 &
-NeedsYFlip
+TEXTURE_NEEDS_Y_FLIP
 )
 {
 effect
@@ -1548,7 +1548,7 @@ GetFlags
 (
 )
 &
-NeedsYFlip
+TEXTURE_NEEDS_Y_FLIP
 )
 {
 effect
