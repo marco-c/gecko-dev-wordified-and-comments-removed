@@ -1003,7 +1003,7 @@ tab
 )
 mBrowserToolbar
 .
-setReaderVisibility
+setReaderMode
 (
 tab
 .
