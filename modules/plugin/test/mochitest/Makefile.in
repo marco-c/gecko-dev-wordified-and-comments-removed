@@ -514,6 +514,10 @@ test_pluginstream_newstream
 .
 html
 \
+test_windowed_invalidate
+.
+html
+\
 (
 NULL
 )

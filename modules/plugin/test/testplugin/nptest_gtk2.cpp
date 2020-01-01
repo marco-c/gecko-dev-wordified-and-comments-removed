@@ -596,6 +596,13 @@ window
 .
 height
 ;
++
++
+instanceData
+-
+>
+paintCount
+;
 if
 (
 instanceData

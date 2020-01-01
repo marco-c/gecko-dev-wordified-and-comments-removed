@@ -178,6 +178,9 @@ int32_t
 lastMouseY
 ;
 int32_t
+paintCount
+;
+int32_t
 writeCount
 ;
 int32_t

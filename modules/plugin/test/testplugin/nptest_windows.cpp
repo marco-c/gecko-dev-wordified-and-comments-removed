@@ -998,6 +998,13 @@ window
 ps
 )
 ;
++
++
+instanceData
+-
+>
+paintCount
+;
 }
 int32_t
 pluginGetEdge

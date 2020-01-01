@@ -1677,6 +1677,8 @@ CGContextRestoreGState
 cgContext
 )
 ;
+break
+;
 }
 case
 DM_SOLID_COLOR
@@ -1797,6 +1799,13 @@ break
 ;
 }
 }
++
++
+instanceData
+-
+>
+paintCount
+;
 }
 int16_t
 pluginHandleEvent
