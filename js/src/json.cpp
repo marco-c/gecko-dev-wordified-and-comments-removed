@@ -1773,7 +1773,7 @@ d
 if
 (
 !
-ValueToNumber
+ToNumber
 (
 cx
 *
@@ -3236,7 +3236,7 @@ d
 if
 (
 !
-ValueToNumber
+ToNumber
 (
 cx
 space

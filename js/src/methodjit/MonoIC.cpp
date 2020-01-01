@@ -6835,7 +6835,10 @@ n
 Min
 (
 length
-JS_ARGS_LENGTH_MAX
+StackSpace
+:
+:
+ARGS_LENGTH_MAX
 )
 ;
 if
@@ -7085,7 +7088,10 @@ uintN
 JS_MIN
 (
 length
-JS_ARGS_LENGTH_MAX
+StackSpace
+:
+:
+ARGS_LENGTH_MAX
 )
 )
 ;

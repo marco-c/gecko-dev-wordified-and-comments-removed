@@ -243,6 +243,12 @@ regress
 2
 .
 js
+skip
+-
+if
+(
+Android
+)
 script
 regress
 -
@@ -698,6 +704,12 @@ regress
 2
 .
 js
+skip
+-
+if
+(
+Android
+)
 script
 regress
 -

@@ -436,7 +436,7 @@ JS_TRUE
 if
 (
 !
-ValueToNumber
+ToNumber
 (
 cx
 vp
@@ -510,7 +510,7 @@ JS_TRUE
 if
 (
 !
-ValueToNumber
+ToNumber
 (
 cx
 vp
@@ -644,7 +644,7 @@ JS_TRUE
 if
 (
 !
-ValueToNumber
+ToNumber
 (
 cx
 vp
@@ -778,7 +778,7 @@ JS_TRUE
 if
 (
 !
-ValueToNumber
+ToNumber
 (
 cx
 vp
@@ -989,7 +989,7 @@ JS_TRUE
 if
 (
 !
-ValueToNumber
+ToNumber
 (
 cx
 vp
@@ -999,14 +999,10 @@ vp
 &
 x
 )
-)
-return
-JS_FALSE
-;
-if
-(
+|
+|
 !
-ValueToNumber
+ToNumber
 (
 cx
 vp
@@ -1121,7 +1117,7 @@ JS_TRUE
 if
 (
 !
-ValueToNumber
+ToNumber
 (
 cx
 vp
@@ -1195,7 +1191,7 @@ JS_TRUE
 if
 (
 !
-ValueToNumber
+ToNumber
 (
 cx
 vp
@@ -1342,7 +1338,7 @@ JS_TRUE
 if
 (
 !
-ValueToNumber
+ToNumber
 (
 cx
 vp
@@ -1450,7 +1446,7 @@ JS_TRUE
 if
 (
 !
-ValueToNumber
+ToNumber
 (
 cx
 vp
@@ -1524,7 +1520,7 @@ JS_TRUE
 if
 (
 !
-ValueToNumber
+ToNumber
 (
 cx
 vp
@@ -1681,7 +1677,7 @@ i
 if
 (
 !
-ValueToNumber
+ToNumber
 (
 cx
 argv
@@ -1846,7 +1842,7 @@ i
 if
 (
 !
-ValueToNumber
+ToNumber
 (
 cx
 argv
@@ -2107,7 +2103,7 @@ JS_TRUE
 if
 (
 !
-ValueToNumber
+ToNumber
 (
 cx
 vp
@@ -2117,14 +2113,10 @@ vp
 &
 x
 )
-)
-return
-JS_FALSE
-;
-if
-(
+|
+|
 !
-ValueToNumber
+ToNumber
 (
 cx
 vp
@@ -2667,7 +2659,7 @@ JS_TRUE
 if
 (
 !
-ValueToNumber
+ToNumber
 (
 cx
 vp
@@ -2749,7 +2741,7 @@ JS_TRUE
 if
 (
 !
-ValueToNumber
+ToNumber
 (
 cx
 vp
@@ -2843,7 +2835,7 @@ JS_TRUE
 if
 (
 !
-ValueToNumber
+ToNumber
 (
 cx
 vp
@@ -2938,7 +2930,7 @@ JS_TRUE
 if
 (
 !
-ValueToNumber
+ToNumber
 (
 cx
 vp
