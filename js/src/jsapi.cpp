@@ -3080,7 +3080,7 @@ gcEmptyArenaPoolLifespan
 (
 0
 )
-gcNumFreeArenas
+gcNumArenasFreeCommitted
 (
 0
 )

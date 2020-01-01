@@ -257,7 +257,7 @@ ArenaSize
 const
 static
 uint32_t
-MaxFreeCommittedArenas
+FreeCommittedArenasThreshold
 =
 (
 32
@@ -2529,9 +2529,6 @@ inline
 void
 init
 (
-JSRuntime
-*
-rt
 )
 ;
 jsuint
