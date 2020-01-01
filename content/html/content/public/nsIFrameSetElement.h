@@ -52,6 +52,10 @@ mValue
 ;
 }
 ;
+#
+define
+NS_MAX_FRAMESET_SPEC_COUNT
+16000
 class
 nsIFrameSetElement
 :
