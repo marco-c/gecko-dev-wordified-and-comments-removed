@@ -20036,6 +20036,14 @@ MOZ_NTDDI_LONGHORN
 case
 WM_DWMCOMPOSITIONCHANGED
 :
+nsUXThemeData
+:
+:
+CheckForCompositor
+(
+PR_TRUE
+)
+;
 UpdateNonClientMargins
 (
 )
