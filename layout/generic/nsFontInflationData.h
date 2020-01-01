@@ -82,6 +82,16 @@ return
 mInflationEnabled
 ;
 }
+nscoord
+EffectiveWidth
+(
+)
+const
+{
+return
+mNCAWidth
+;
+}
 private
 :
 nsFontInflationData
@@ -204,6 +214,9 @@ aFrame
 nsIFrame
 *
 mBFCFrame
+;
+nscoord
+mNCAWidth
 ;
 nscoord
 mTextAmount

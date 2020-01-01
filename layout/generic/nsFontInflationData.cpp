@@ -1093,6 +1093,10 @@ mTextDirty
 true
 ;
 }
+mNCAWidth
+=
+newNCAWidth
+;
 mTextThreshold
 =
 newTextThreshold
