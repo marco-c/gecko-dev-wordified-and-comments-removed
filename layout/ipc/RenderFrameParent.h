@@ -348,9 +348,14 @@ const
 nsInputEvent
 &
 aEvent
+)
+;
+void
+ApplyZoomCompensationToEvent
+(
 nsInputEvent
 *
-aOutEvent
+aEvent
 )
 ;
 void
