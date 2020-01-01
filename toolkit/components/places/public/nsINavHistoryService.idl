@@ -1912,6 +1912,15 @@ correct
 type
 .
 *
+*
+throws
+NS_ERROR_NOT_AVAILABLE
+if
+containerOpen
+is
+false
+.
+*
 /
 readonly
 attribute
