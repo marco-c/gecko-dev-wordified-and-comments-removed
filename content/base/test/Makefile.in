@@ -559,7 +559,7 @@ subframe
 .
 html
 \
-test_bug308484
+test_xhr_forbidden_headers
 .
 html
 \
