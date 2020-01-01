@@ -815,13 +815,15 @@ d
 if
 (
 !
-JS_SetElement
+JS_DefineElement
 (
 cx
 obj
 i
-&
 elt
+nullptr
+nullptr
+0
 )
 )
 {
