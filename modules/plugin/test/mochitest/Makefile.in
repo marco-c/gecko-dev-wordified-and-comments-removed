@@ -514,6 +514,10 @@ test_streamNotify
 .
 html
 \
+test_cookies
+.
+html
+\
 (
 NULL
 )
