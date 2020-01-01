@@ -15,12 +15,12 @@ padding
 color
 :
 #
-fff
+000
 ;
 background
 :
 #
-4483d8
+8db8d8
 ;
 border
 -
@@ -29,7 +29,7 @@ top
 1px
 solid
 #
-396dcb
+6897bd
 ;
 border
 -
@@ -38,7 +38,7 @@ bottom
 1px
 solid
 #
-396dcb
+6897bd
 ;
 }
 notification
@@ -103,7 +103,7 @@ border
 color
 :
 #
-396dcb
+6897bd
 !
 important
 ;
@@ -114,8 +114,6 @@ buttons
 {
 padding
 :
-2
-.
-2mm
+1mm
 ;
 }

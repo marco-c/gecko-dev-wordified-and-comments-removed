@@ -603,6 +603,17 @@ repeat
 repeat
 ;
 }
+notification
+button
+{
+color
+:
+#
+000
+!
+important
+;
+}
 button
 .
 button
@@ -1669,11 +1680,6 @@ on
 selected
 ]
 {
-color
-:
-#
-fff
-;
 -
 moz
 -
@@ -3203,6 +3209,6 @@ background
 color
 :
 #
-4483d8
+8db8d8
 ;
 }
