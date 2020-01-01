@@ -1171,7 +1171,7 @@ SHARED_LIBRARY_LIBS
 DEPTH
 )
 /
-modules
+media
 /
 libfishsound
 /
@@ -1192,7 +1192,7 @@ LIB_SUFFIX
 DEPTH
 )
 /
-modules
+media
 /
 libogg
 /
@@ -1211,7 +1211,7 @@ LIB_SUFFIX
 DEPTH
 )
 /
-modules
+media
 /
 liboggplay
 /
@@ -1232,7 +1232,7 @@ LIB_SUFFIX
 DEPTH
 )
 /
-modules
+media
 /
 liboggz
 /
@@ -1253,7 +1253,7 @@ LIB_SUFFIX
 DEPTH
 )
 /
-modules
+media
 /
 liboggplay_audio
 /
@@ -1270,7 +1270,7 @@ LIB_SUFFIX
 DEPTH
 )
 /
-modules
+media
 /
 libtheora
 /
@@ -1289,7 +1289,7 @@ LIB_SUFFIX
 DEPTH
 )
 /
-modules
+media
 /
 libvorbis
 /
