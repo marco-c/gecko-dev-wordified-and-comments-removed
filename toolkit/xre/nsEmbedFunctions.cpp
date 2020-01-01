@@ -1418,8 +1418,9 @@ nsnull
 #
 ifdef
 OS_LINUX
-printf
+fprintf
 (
+stderr
 "
 TEST
 -
@@ -1957,8 +1958,9 @@ QuitTask
 #
 ifdef
 OS_LINUX
-printf
+fprintf
 (
+stderr
 "
 TEST
 -
