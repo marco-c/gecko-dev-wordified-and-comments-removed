@@ -3852,10 +3852,13 @@ objreg
 ;
 masm
 .
-testPtr
+cmpPtr
 (
 objreg
-objreg
+ImmWord
+(
+ION_DISABLED_SCRIPT
+)
 )
 ;
 if
@@ -3866,7 +3869,7 @@ bailoutIf
 Assembler
 :
 :
-Zero
+BelowOrEqual
 call
 -
 >
