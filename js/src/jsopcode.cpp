@@ -174,6 +174,13 @@ h
 #
 include
 "
+jsstaticcheck
+.
+h
+"
+#
+include
+"
 vm
 /
 Debugger

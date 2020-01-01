@@ -134,6 +134,13 @@ h
 #
 include
 "
+jsstaticcheck
+.
+h
+"
+#
+include
+"
 jswrapper
 .
 h

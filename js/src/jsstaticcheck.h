@@ -1,0 +1,8 @@
+#
+ifndef
+jsstaticcheck_h___
+#
+define
+jsstaticcheck_h___
+#
+endif

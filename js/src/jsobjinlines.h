@@ -82,6 +82,13 @@ h
 #
 include
 "
+jsstaticcheck
+.
+h
+"
+#
+include
+"
 jstypedarray
 .
 h

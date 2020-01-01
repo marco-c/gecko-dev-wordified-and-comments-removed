@@ -151,6 +151,13 @@ h
 #
 include
 "
+jsstaticcheck
+.
+h
+"
+#
+include
+"
 jsatominlines
 .
 h
