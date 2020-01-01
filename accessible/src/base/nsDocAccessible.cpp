@@ -4754,15 +4754,6 @@ nsAccessibilityAtoms
 :
 :
 onclick
-|
-|
-aAttribute
-=
-=
-nsAccessibilityAtoms
-:
-:
-aria_droppable
 )
 {
 InvalidateCacheSubtree
