@@ -994,6 +994,10 @@ valueOfAtom
 ;
 JSAtom
 *
+void0Atom
+;
+JSAtom
+*
 xmlAtom
 ;
 struct
