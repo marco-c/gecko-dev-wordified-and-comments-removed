@@ -4295,6 +4295,9 @@ background
 "
 backgroundHomescreen
 "
+"
+backgroundPerceivable
+"
 }
 ;
 for
@@ -4650,6 +4653,17 @@ priorityStr
 =
 "
 backgroundHomescreen
+"
+;
+break
+;
+case
+PROCESS_PRIORITY_BACKGROUND_PERCEIVABLE
+:
+priorityStr
+=
+"
+backgroundPerceivable
 "
 ;
 break

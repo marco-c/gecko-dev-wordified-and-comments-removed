@@ -98,6 +98,12 @@ bool
 aElementHidden
 )
 ;
+virtual
+bool
+ContentChannelIsActive
+(
+)
+;
 protected
 :
 void
