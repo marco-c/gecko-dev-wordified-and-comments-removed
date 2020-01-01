@@ -344,9 +344,6 @@ PRBool
 _retval
 )
 {
-nsresult
-rv
-=
 gfxPlatform
 :
 :
