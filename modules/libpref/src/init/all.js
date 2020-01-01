@@ -28154,7 +28154,7 @@ html5
 .
 enable
 "
-true
+false
 )
 ;
 pref
