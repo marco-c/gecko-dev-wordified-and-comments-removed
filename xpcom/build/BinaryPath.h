@@ -340,6 +340,8 @@ dummy
 aResult
 [
 MAXPATHLEN
+-
+1
 ]
 =
 '

@@ -4450,8 +4450,14 @@ aCx
 global
 )
 )
-|
-|
+)
+{
+return
+NULL
+;
+}
+if
+(
 !
 DefineOSFileConstants
 (

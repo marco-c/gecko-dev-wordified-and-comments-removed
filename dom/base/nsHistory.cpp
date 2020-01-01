@@ -127,6 +127,13 @@ h
 #
 include
 "
+nsDOMError
+.
+h
+"
+#
+include
+"
 nsContentUtils
 .
 h

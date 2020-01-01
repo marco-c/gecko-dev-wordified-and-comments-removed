@@ -195,6 +195,13 @@ WorkerPrivate
 h
 "
 #
+include
+"
+nsDOMError
+.
+h
+"
+#
 define
 MAX_CONCURRENT_SCRIPTS
 1000

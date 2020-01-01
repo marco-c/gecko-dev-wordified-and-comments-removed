@@ -8,6 +8,13 @@ h
 #
 include
 "
+nsDOMError
+.
+h
+"
+#
+include
+"
 nsIContent
 .
 h

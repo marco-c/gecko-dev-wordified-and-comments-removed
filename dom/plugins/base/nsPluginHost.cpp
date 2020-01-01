@@ -9841,10 +9841,6 @@ pluginTag
 {
 if
 (
-nsPluginTag
-*
-duplicate
-=
 HaveSamePlugin
 (
 pluginTag

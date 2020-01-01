@@ -76,6 +76,9 @@ log
 h
 >
 #
+undef
+ALOG
+#
 define
 ALOG
 (

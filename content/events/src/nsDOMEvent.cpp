@@ -35,6 +35,13 @@ h
 #
 include
 "
+nsDOMError
+.
+h
+"
+#
+include
+"
 nsDOMEvent
 .
 h

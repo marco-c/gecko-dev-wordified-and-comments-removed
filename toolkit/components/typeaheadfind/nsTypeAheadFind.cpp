@@ -4642,7 +4642,7 @@ frameTraversal
 aPresContext
 frame
 eLeaf
-FrameIteratorFlags
+nsFrameIterator
 :
 :
 FLAG_NONE

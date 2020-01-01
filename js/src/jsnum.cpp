@@ -2068,10 +2068,10 @@ true
 }
 }
 }
-JSString
-*
+RootedString
 inputString
-=
+(
+cx
 ToString
 (
 cx
@@ -2079,6 +2079,7 @@ args
 [
 0
 ]
+)
 )
 ;
 if
