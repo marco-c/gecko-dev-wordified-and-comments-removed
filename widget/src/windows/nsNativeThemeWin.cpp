@@ -12740,6 +12740,10 @@ gfxWindowsNativeDrawing
 CANNOT_COMPLEX_TRANSFORM
 ;
 }
+extern
+PRBool
+gDisableNativeTheme
+;
 NS_METHOD
 NS_NewNativeTheme
 (
@@ -12754,6 +12758,13 @@ void
 aResult
 )
 {
+if
+(
+gDisableNativeTheme
+)
+return
+NS_ERROR_NO_INTERFACE
+;
 if
 (
 aOuter
