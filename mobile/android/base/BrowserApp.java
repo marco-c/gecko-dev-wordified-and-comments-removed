@@ -7517,6 +7517,12 @@ commitAllowingStateLoss
 (
 )
 ;
+fm
+.
+popBackStack
+(
+)
+;
 }
 mHomePager
 .
