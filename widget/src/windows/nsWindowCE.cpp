@@ -825,8 +825,6 @@ eWindowType_popup
 style
 =
 WS_POPUP
-|
-WS_BORDER
 ;
 break
 ;
