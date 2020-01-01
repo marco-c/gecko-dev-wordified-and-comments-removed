@@ -12221,6 +12221,8 @@ wildcard
 foreach
 file
 (
+sort
+(
 OBJS
 )
 (
@@ -12252,6 +12254,7 @@ idl
 =
 .
 xpt
+)
 )
 (
 MDDEPDIR
