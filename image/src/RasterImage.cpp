@@ -5870,7 +5870,7 @@ imgFrame
 *
 frame
 =
-GetImgFrame
+GetImgFrameNoDecode
 (
 aFrameNum
 )
@@ -5964,7 +5964,7 @@ imgFrame
 *
 frame
 =
-GetImgFrame
+GetImgFrameNoDecode
 (
 aFrameNum
 )
@@ -6058,7 +6058,7 @@ imgFrame
 *
 frame
 =
-GetImgFrame
+GetImgFrameNoDecode
 (
 aFrameNum
 )
@@ -6150,7 +6150,7 @@ imgFrame
 *
 frame
 =
-GetImgFrame
+GetImgFrameNoDecode
 (
 aFrameNum
 )
@@ -6243,7 +6243,7 @@ imgFrame
 *
 frame
 =
-GetImgFrame
+GetImgFrameNoDecode
 (
 aFrameNum
 )
