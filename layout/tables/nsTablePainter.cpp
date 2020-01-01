@@ -346,6 +346,7 @@ mBackground
 {
 if
 (
+!
 mBackground
 -
 >
@@ -356,12 +357,9 @@ i
 .
 mImage
 .
-GetType
+IsEmpty
 (
 )
-!
-=
-eBackgroundImage_Null
 )
 return
 PR_TRUE

@@ -18923,6 +18923,7 @@ GetStyleBackground
 ;
 if
 (
+!
 background
 -
 >
@@ -18932,12 +18933,9 @@ BottomLayer
 .
 mImage
 .
-GetType
+IsEmpty
 (
 )
-!
-=
-eBackgroundImage_Null
 |
 |
 background
@@ -19256,6 +19254,7 @@ GetStyleBackground
 ;
 if
 (
+!
 background
 -
 >
@@ -19265,12 +19264,9 @@ BottomLayer
 .
 mImage
 .
-GetType
+IsEmpty
 (
 )
-!
-=
-eBackgroundImage_Null
 |
 |
 background

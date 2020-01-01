@@ -487,6 +487,16 @@ CSS_KEY
 -
 moz
 -
+image
+-
+rect
+_moz_image_rect
+)
+CSS_KEY
+(
+-
+moz
+-
 info
 _moz_info
 )
