@@ -27,6 +27,9 @@ pyc
 /
 )
 TAGS
+\
+.
+DS_Store
 #
 User
 files
