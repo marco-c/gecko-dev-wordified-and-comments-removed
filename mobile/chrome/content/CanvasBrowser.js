@@ -422,11 +422,6 @@ this
 _rgnPage
 ;
 let
-clearRegion
-=
-false
-;
-let
 drawls
 =
 [
@@ -531,13 +526,6 @@ rect
 continue
 ;
 }
-else
-{
-clearRegion
-=
-true
-;
-}
 drawls
 .
 push
@@ -588,7 +576,8 @@ height
 }
 if
 (
-clearRegion
+!
+viewingBoundsOnly
 )
 this
 .
@@ -634,8 +623,7 @@ this
 _drawRects
 (
 drawls
-!
-clearRegion
+viewingBoundsOnly
 )
 ;
 }
