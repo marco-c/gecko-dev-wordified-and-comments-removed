@@ -80,14 +80,14 @@ aAgent
 )
 ;
 virtual
-bool
-GetMuted
+AudioChannelState
+GetState
 (
 AudioChannelAgent
 *
 aAgent
 bool
-aMozHidden
+aElementHidden
 )
 ;
 virtual
