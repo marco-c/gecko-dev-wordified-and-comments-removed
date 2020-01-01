@@ -1789,6 +1789,7 @@ options
 tinderbox
 or
                              
+not
 ProgressBar
 .
 conservative_isatty

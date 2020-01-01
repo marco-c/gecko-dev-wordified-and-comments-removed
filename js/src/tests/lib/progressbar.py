@@ -19,8 +19,6 @@ win
 :
     
 from
-lib
-.
 terminal_win
 import
 Terminal
@@ -28,8 +26,6 @@ else
 :
     
 from
-lib
-.
 terminal_unix
 import
 Terminal
@@ -125,7 +121,6 @@ fmt
 :
         
 assert
-not
 self
 .
 conservative_isatty
@@ -703,14 +698,14 @@ try
             
 import
 android
+            
+return
+False
         
 except
 ImportError
 :
             
-return
-False
-        
 return
 sys
 .
@@ -719,3 +714,6 @@ stdout
 isatty
 (
 )
+        
+return
+False
