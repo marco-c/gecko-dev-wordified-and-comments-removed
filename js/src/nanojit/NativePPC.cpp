@@ -7172,12 +7172,6 @@ clear
 ;
 regs
 .
-used
-=
-0
-;
-regs
-.
 free
 =
 SavedRegs
