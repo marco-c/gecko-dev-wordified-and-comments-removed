@@ -3436,6 +3436,13 @@ nsIDOMKeyEvent
 DOM_VK_CANCEL
 #
 define
+NS_VK_HELP
+nsIDOMKeyEvent
+:
+:
+DOM_VK_HELP
+#
+define
 NS_VK_BACK
 nsIDOMKeyEvent
 :
