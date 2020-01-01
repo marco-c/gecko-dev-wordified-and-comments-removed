@@ -1017,7 +1017,7 @@ i
 )
 ;
 }
-Error
+TypeError
 )
 ;
 var
@@ -1124,7 +1124,7 @@ test_us_us
 )
 ;
 }
-Error
+TypeError
 )
 ;
 do_check_throws
@@ -1140,7 +1140,7 @@ test_us_us
 )
 ;
 }
-Error
+TypeError
 )
 ;
 }
@@ -1375,7 +1375,7 @@ i
 )
 ;
 }
-Error
+TypeError
 )
 ;
 var
@@ -1482,7 +1482,7 @@ test_ui_ui
 )
 ;
 }
-Error
+TypeError
 )
 ;
 do_check_throws
@@ -1498,7 +1498,7 @@ test_ui_ui
 )
 ;
 }
-Error
+TypeError
 )
 ;
 }
@@ -1747,7 +1747,7 @@ function
 (
 )
 {
-test_d_d
+test_f_f
 (
 vals
 [
@@ -1756,7 +1756,7 @@ i
 )
 ;
 }
-Error
+TypeError
 )
 ;
 var
@@ -2035,7 +2035,7 @@ i
 )
 ;
 }
-Error
+TypeError
 )
 ;
 var
@@ -2209,7 +2209,7 @@ i
 )
 ;
 }
-Error
+TypeError
 )
 ;
 var
@@ -2408,7 +2408,7 @@ test_i_if_floor
 )
 ;
 }
-Error
+TypeError
 )
 ;
 }
