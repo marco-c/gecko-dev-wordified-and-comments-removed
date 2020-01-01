@@ -8,7 +8,7 @@ h
 #
 include
 "
-nsSVGFilters
+nsGkAtoms
 .
 h
 "
@@ -16,6 +16,13 @@ h
 include
 "
 nsSVGEffects
+.
+h
+"
+#
+include
+"
+nsSVGFilters
 .
 h
 "

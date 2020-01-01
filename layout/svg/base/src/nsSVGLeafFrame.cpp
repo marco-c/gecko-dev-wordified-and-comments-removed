@@ -12,13 +12,6 @@ nsSVGEffects
 .
 h
 "
-#
-include
-"
-nsImageLoadingContent
-.
-h
-"
 class
 nsSVGLeafFrame
 :

@@ -5,13 +5,6 @@ nsSVGGenericContainerFrame
 .
 h
 "
-#
-include
-"
-nsSVGUtils
-.
-h
-"
 nsIFrame
 *
 NS_NewSVGGenericContainerFrame

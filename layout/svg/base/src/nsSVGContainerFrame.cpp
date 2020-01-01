@@ -19,13 +19,6 @@ nsSVGUtils
 .
 h
 "
-#
-include
-"
-nsSVGOuterSVGFrame
-.
-h
-"
 NS_QUERYFRAME_HEAD
 (
 nsSVGContainerFrame

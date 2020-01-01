@@ -8,7 +8,7 @@ h
 #
 include
 "
-nsRenderingContext
+gfxContext
 .
 h
 "
@@ -29,14 +29,7 @@ h
 #
 include
 "
-nsIDOMSVGAnimatedRect
-.
-h
-"
-#
-include
-"
-nsSVGSVGElement
+nsRenderingContext
 .
 h
 "
@@ -50,7 +43,7 @@ h
 #
 include
 "
-gfxContext
+nsSVGSVGElement
 .
 h
 "
