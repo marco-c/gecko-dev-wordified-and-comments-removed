@@ -1277,6 +1277,10 @@ friend
 class
 nsLineBox
 ;
+friend
+class
+nsContainerFrame
+;
 public
 :
 NS_IMETHOD
