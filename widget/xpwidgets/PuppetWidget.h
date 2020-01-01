@@ -565,6 +565,12 @@ GetDPI
 )
 ;
 virtual
+double
+GetDefaultScaleInternal
+(
+)
+;
+virtual
 bool
 NeedsPaint
 (
@@ -705,6 +711,9 @@ mNeedIMEStateInit
 ;
 float
 mDPI
+;
+double
+mDefaultScale
 ;
 }
 ;

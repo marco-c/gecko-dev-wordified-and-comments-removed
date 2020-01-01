@@ -1403,6 +1403,14 @@ float
 aDPI
 )
 ;
+void
+GetDefaultScale
+(
+double
+*
+aScale
+)
+;
 gfxSize
 GetZoom
 (

@@ -557,6 +557,15 @@ aValue
 ;
 virtual
 bool
+RecvGetDefaultScale
+(
+double
+*
+aValue
+)
+;
+virtual
+bool
 RecvGetWidgetNativeData
 (
 WindowsHandle
@@ -1232,6 +1241,9 @@ mOrientation
 float
 mDPI
 ;
+double
+mDefaultScale
+;
 bool
 mShown
 ;
@@ -1268,7 +1280,7 @@ GetRenderFrame
 )
 ;
 void
-TryCacheDPI
+TryCacheDPIAndScale
 (
 )
 ;
