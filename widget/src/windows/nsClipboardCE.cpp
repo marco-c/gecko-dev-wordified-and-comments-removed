@@ -693,7 +693,7 @@ nsISupportsArray
 >
 flavorList
 ;
-mTransferable
+aTransferable
 -
 >
 FlavorsTransferableCanImport
