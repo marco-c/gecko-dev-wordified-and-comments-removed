@@ -1305,6 +1305,12 @@ UserActivity
 nsEventStatus
 status
 ;
+aEvent
+.
+widget
+=
+gFocusedWindow
+;
 gFocusedWindow
 -
 >
