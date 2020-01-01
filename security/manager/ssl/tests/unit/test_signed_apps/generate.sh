@@ -230,7 +230,7 @@ passwordfile
 S
 -
 v
-3
+480
 -
 g
 2048
@@ -563,7 +563,3 @@ srcdir
 trusted_ca1
 .
 der
-rm
--
-Rf
-tmpdir
