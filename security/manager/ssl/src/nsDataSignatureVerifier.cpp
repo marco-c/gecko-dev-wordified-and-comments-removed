@@ -73,7 +73,7 @@ CERT_SignatureDataTemplate
 {
 SEC_ASN1_SEQUENCE
 0
-NULL
+nullptr
 sizeof
 (
 CERTSignedData
@@ -405,8 +405,8 @@ sigData
 .
 signatureAlgorithm
 )
-NULL
-NULL
+nullptr
+nullptr
 )
 ;
 SECKEY_DestroyPublicKey

@@ -68,11 +68,6 @@ nspr
 .
 h
 "
-extern
-"
-C
-"
-{
 #
 include
 "
@@ -122,7 +117,6 @@ secder
 .
 h
 "
-}
 NS_IMPL_ISUPPORTS1
 (
 nsCRLInfo

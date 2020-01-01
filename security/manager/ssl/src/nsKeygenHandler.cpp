@@ -1,8 +1,3 @@
-extern
-"
-C
-"
-{
 #
 include
 "
@@ -10,7 +5,6 @@ secdert
 .
 h
 "
-}
 #
 include
 "
@@ -60,11 +54,6 @@ secasn1
 .
 h
 "
-extern
-"
-C
-"
-{
 #
 include
 "
@@ -72,7 +61,6 @@ pk11pqg
 .
 h
 "
-}
 #
 include
 "
@@ -178,7 +166,7 @@ SECAlgorithmIDTemplate
 {
 DER_SEQUENCE
 0
-NULL
+nullptr
 sizeof
 (
 SECAlgorithmID
@@ -290,7 +278,7 @@ SECKEY_PQGParamsTemplate
 {
 SEC_ASN1_SEQUENCE
 0
-NULL
+nullptr
 sizeof
 (
 PQGParams
@@ -1090,7 +1078,7 @@ SECOidData
 *
 oidData
 =
-NULL
+nullptr
 ;
 SECOidTag
 curveOidTag
@@ -1196,7 +1184,7 @@ curveOidTag
 )
 =
 =
-NULL
+nullptr
 )
 {
 return
@@ -1207,8 +1195,8 @@ ecparams
 =
 SECITEM_AllocItem
 (
-NULL
-NULL
+nullptr
+nullptr
 (
 2
 +
@@ -1344,14 +1332,6 @@ new
 nsKeygenFormProcessor
 (
 )
-;
-if
-(
-!
-formProc
-)
-return
-NS_ERROR_OUT_OF_MEMORY
 ;
 nsCOMPtr
 <
@@ -2398,9 +2378,6 @@ str
 if
 (
 end
-!
-=
-nullptr
 )
 *
 end
@@ -2442,9 +2419,6 @@ end
 while
 (
 end
-!
-=
-nullptr
 )
 ;
 if
@@ -3166,9 +3140,6 @@ true
 if
 (
 slot
-!
-=
-nullptr
 )
 {
 PK11_FreeSlot

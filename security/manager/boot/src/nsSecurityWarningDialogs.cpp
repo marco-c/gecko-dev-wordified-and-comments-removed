@@ -78,13 +78,6 @@ h
 #
 include
 "
-nsAutoPtr
-.
-h
-"
-#
-include
-"
 mozilla
 /
 Telemetry
@@ -1063,9 +1056,6 @@ true
 if
 (
 prefName
-!
-=
-nullptr
 )
 {
 rv
@@ -1234,9 +1224,6 @@ message
 if
 (
 showAgainName
-!
-=
-nullptr
 )
 {
 mStringBundle
@@ -1450,9 +1437,6 @@ prefValue
 &
 &
 prefName
-!
-=
-nullptr
 )
 {
 mPrefBranch
