@@ -9,9 +9,9 @@ resource
 /
 services
 -
-sync
+common
 /
-util
+utils
 .
 js
 "
@@ -39,7 +39,7 @@ n
 let
 encoded
 =
-Utils
+CommonUtils
 .
 encodeUTF8
 (
@@ -49,7 +49,7 @@ str
 let
 decoded
 =
-Utils
+CommonUtils
 .
 decodeUTF8
 (

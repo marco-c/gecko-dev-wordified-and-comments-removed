@@ -9,9 +9,9 @@ resource
 /
 services
 -
-sync
+common
 /
-util
+utils
 .
 js
 "
@@ -53,7 +53,7 @@ data
 {
 do_check_eq
 (
-Utils
+CommonUtils
 .
 safeAtoB
 (
