@@ -152,6 +152,13 @@ MediaMetadataManager
 .
 h
 "
+#
+include
+"
+AudioChannelAgent
+.
+h
+"
 typedef
 uint16_t
 nsMediaNetworkState
@@ -182,6 +189,8 @@ mozilla
 :
 :
 MediaDecoderOwner
+public
+nsIAudioChannelAgentCallback
 {
 public
 :
@@ -292,6 +301,7 @@ aListener
 ;
 NS_DECL_NSIDOMHTMLMEDIAELEMENT
 NS_DECL_NSIOBSERVER
+NS_DECL_NSIAUDIOCHANNELAGENTCALLBACK
 NS_DECL_ISUPPORTS_INHERITED
 NS_DECL_CYCLE_COLLECTION_CLASS_INHERITED
 (
@@ -847,11 +857,6 @@ GetStream
 )
 ;
 }
-nsresult
-NotifyAudioChannelStateChanged
-(
-)
-;
 protected
 :
 class
@@ -1310,6 +1315,8 @@ aType
 nsresult
 UpdateChannelMuteState
 (
+bool
+aCanPlay
 )
 ;
 void
@@ -1603,6 +1610,12 @@ mChannelMuted
 ;
 bool
 mPlayingThroughTheAudioChannel
+;
+nsCOMPtr
+<
+nsIAudioChannelAgent
+>
+mAudioChannelAgent
 ;
 }
 ;
