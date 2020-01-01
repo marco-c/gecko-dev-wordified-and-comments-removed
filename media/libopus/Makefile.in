@@ -123,6 +123,10 @@ OS_ARCH
 )
 Linux
 Darwin
+DragonFly
+FreeBSD
+NetBSD
+OpenBSD
 )
 )
 DEFINES
