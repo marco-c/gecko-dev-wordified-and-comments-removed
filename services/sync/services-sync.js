@@ -110,7 +110,7 @@ ui
 .
 sharebookmarks
 "
-true
+false
 )
 ;
 pref
@@ -456,7 +456,7 @@ xmpp
 .
 enabled
 "
-true
+false
 )
 ;
 pref
