@@ -954,7 +954,7 @@ label
 &
 certmgr
 .
-view
+view2
 .
 label
 ;
@@ -1003,7 +1003,7 @@ label
 &
 certmgr
 .
-backup
+backup2
 .
 label
 ;
@@ -1052,7 +1052,7 @@ label
 &
 certmgr
 .
-backupall
+backupall2
 .
 label
 ;
@@ -1096,7 +1096,7 @@ label
 &
 certmgr
 .
-restore
+restore2
 .
 label
 ;
@@ -1140,7 +1140,7 @@ label
 &
 certmgr
 .
-delete
+delete2
 .
 label
 ;
