@@ -3924,7 +3924,6 @@ function
 {
 ok
 (
-!
 secondWindow
 .
 SocialChatBar
@@ -3933,9 +3932,8 @@ hasChats
 "
 second
 window
-still
+now
 has
-no
 chats
 "
 )
@@ -3949,14 +3947,14 @@ SocialChatBar
 chatbar
 .
 childElementCount
-2
+1
 "
 first
 window
-now
+still
 has
-2
-chats
+1
+chat
 "
 )
 ;
