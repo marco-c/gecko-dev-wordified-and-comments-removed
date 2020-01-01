@@ -748,7 +748,7 @@ input
 type
 =
 "
-hidden
+hiDDen
 "
 |
 <
