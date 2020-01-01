@@ -742,6 +742,17 @@ Height
 )
 )
 ;
+pat
+-
+>
+SetExtend
+(
+gfxPattern
+:
+:
+EXTEND_PAD
+)
+;
 aContext
 -
 >
