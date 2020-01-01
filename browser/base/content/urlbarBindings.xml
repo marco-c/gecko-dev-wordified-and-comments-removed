@@ -1755,10 +1755,9 @@ oncommand
 "
 gURLBar
 .
-value
-=
-'
-'
+select
+(
+)
 ;
 goDoCommand
 (

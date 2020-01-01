@@ -5160,10 +5160,9 @@ BrowserSearch
 .
 searchBar
 .
-value
-=
-'
-'
+select
+(
+)
 ;
 goDoCommand
 (
