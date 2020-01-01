@@ -420,6 +420,7 @@ StorageEventInit
 EventInit
 {
 DOMString
+?
 key
 ;
 DOMString

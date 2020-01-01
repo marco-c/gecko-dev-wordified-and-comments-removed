@@ -78,12 +78,6 @@ mk
 _TESTS
 =
 \
-test_event_constructor
-.
-html
-.
-json
-\
 test_storage_local_security
 .
 html
