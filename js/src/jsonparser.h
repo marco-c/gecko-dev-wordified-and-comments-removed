@@ -242,16 +242,6 @@ lastToken
 ;
 #
 endif
-JSONParser
-*
-thisDuringConstruction
-(
-)
-{
-return
-this
-;
-}
 public
 :
 JSONParser

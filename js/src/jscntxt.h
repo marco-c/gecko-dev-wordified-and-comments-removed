@@ -5140,16 +5140,6 @@ JSRuntime
 rt
 )
 ;
-JSContext
-*
-thisDuringConstruction
-(
-)
-{
-return
-this
-;
-}
 ~
 JSContext
 (

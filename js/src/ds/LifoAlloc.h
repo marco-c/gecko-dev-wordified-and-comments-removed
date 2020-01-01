@@ -209,16 +209,6 @@ limit
 bumpSpaceSize
 ;
 }
-BumpChunk
-*
-thisDuringConstruction
-(
-)
-{
-return
-this
-;
-}
 explicit
 BumpChunk
 (
@@ -234,7 +224,7 @@ char
 *
 >
 (
-thisDuringConstruction
+MOZ_THIS_IN_INITIALIZER_LIST
 (
 )
 )
