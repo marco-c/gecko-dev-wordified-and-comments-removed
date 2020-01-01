@@ -1579,9 +1579,9 @@ nullptr
 JSBool
 xpc_qsXPCOMObjectToJsval
 (
-XPCLazyCallContext
-&
-lccx
+JSContext
+*
+aCx
 qsObjectHelper
 &
 aHelper
@@ -1601,9 +1601,9 @@ rval
 JSBool
 xpc_qsVariantToJsval
 (
-XPCLazyCallContext
-&
-ccx
+JSContext
+*
+cx
 nsIVariant
 *
 p
