@@ -145,10 +145,14 @@ only
 .
 xul
 "
-role
+aria
+-
+describedby
 =
 "
-alert
+info
+.
+body
 "
 onload
 =

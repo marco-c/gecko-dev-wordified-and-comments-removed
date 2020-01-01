@@ -59,7 +59,7 @@ alertdialog
 nsIAccessibleRole
 :
 :
-ROLE_ALERT
+ROLE_DIALOG
 eNoValue
 eNoAction
 kNoReqStates
