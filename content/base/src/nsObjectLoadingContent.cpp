@@ -1630,6 +1630,15 @@ mContentType
 IsEmpty
 (
 )
+&
+&
+GetTypeOfContent
+(
+mContentType
+)
+!
+=
+eType_Document
 )
 |
 |

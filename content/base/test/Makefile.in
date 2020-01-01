@@ -1514,6 +1514,10 @@ bug444322
 .
 js
 \
+test_bug455472
+.
+html
+\
 test_bug455629
 .
 html
