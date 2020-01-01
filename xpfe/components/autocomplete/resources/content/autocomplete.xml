@@ -314,6 +314,10 @@ maxlength
 disabled
 size
 readonly
+placeholder
+tabindex
+accesskey
+mozactionhint
 userAction
 "
 /
