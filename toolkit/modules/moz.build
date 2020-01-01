@@ -176,6 +176,11 @@ PropertyListUtils
 jsm
 '
 '
+RemoteController
+.
+jsm
+'
+'
 RemoteSecurityUI
 .
 jsm
