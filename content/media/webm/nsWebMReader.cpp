@@ -232,7 +232,7 @@ stream
 decoder
 -
 >
-GetStream
+GetCurrentStream
 (
 )
 ;
@@ -399,7 +399,7 @@ stream
 decoder
 -
 >
-GetStream
+GetCurrentStream
 (
 )
 ;
@@ -482,7 +482,7 @@ stream
 decoder
 -
 >
-GetStream
+GetCurrentStream
 (
 )
 ;
@@ -2520,7 +2520,7 @@ offset
 mDecoder
 -
 >
-GetStream
+GetCurrentStream
 (
 )
 -
@@ -3744,7 +3744,7 @@ stream
 mDecoder
 -
 >
-GetStream
+GetCurrentStream
 (
 )
 ;
@@ -3824,7 +3824,7 @@ stream
 mDecoder
 -
 >
-GetStream
+GetCurrentStream
 (
 )
 ;

@@ -211,7 +211,7 @@ aElement
 virtual
 nsMediaStream
 *
-GetStream
+GetCurrentStream
 (
 )
 =

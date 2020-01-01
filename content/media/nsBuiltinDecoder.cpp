@@ -1517,7 +1517,7 @@ nsMediaStream
 nsBuiltinDecoder
 :
 :
-GetStream
+GetCurrentStream
 (
 )
 {
