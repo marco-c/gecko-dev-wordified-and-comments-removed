@@ -2044,9 +2044,8 @@ mSheet
 mSheet
 -
 >
-SetModified
+SetModifiedByChildRule
 (
-PR_TRUE
 )
 ;
 }
