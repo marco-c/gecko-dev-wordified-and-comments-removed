@@ -207,6 +207,17 @@ needsBarrier_
 (
 false
 )
+barrierMarker_
+(
+rt
+-
+>
+gcMarker
+.
+sizeLimit
+(
+)
+)
 gcBytes
 (
 0
