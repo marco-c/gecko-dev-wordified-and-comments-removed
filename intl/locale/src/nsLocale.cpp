@@ -64,6 +64,13 @@ h
 #
 include
 "
+nsVoidArray
+.
+h
+"
+#
+include
+"
 nsMemory
 .
 h

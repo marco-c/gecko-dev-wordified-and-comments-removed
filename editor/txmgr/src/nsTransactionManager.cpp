@@ -29,6 +29,13 @@ h
 #
 include
 "
+nsVoidArray
+.
+h
+"
+#
+include
+"
 nsTransactionManager
 .
 h

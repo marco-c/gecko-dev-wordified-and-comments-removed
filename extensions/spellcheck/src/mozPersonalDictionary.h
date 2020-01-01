@@ -21,6 +21,13 @@ h
 #
 include
 "
+nsVoidArray
+.
+h
+"
+#
+include
+"
 mozIPersonalDictionary
 .
 h

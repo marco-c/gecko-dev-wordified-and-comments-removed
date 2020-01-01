@@ -76,6 +76,13 @@ h
 #
 include
 "
+nsVoidArray
+.
+h
+"
+#
+include
+"
 nsTArray
 .
 h
@@ -530,10 +537,7 @@ MatchType
 aType
 )
 ;
-nsTArray
-<
-ProviderEntry
->
+nsVoidArray
 mArray
 ;
 }
