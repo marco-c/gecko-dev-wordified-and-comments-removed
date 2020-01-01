@@ -7716,6 +7716,8 @@ Context
 ACCESSIBILITY_SERVICE
 )
 ;
+try
+{
 accessibilityManager
 .
 sendAccessibilityEvent
@@ -7723,6 +7725,14 @@ sendAccessibilityEvent
 accEvent
 )
 ;
+}
+catch
+(
+IllegalStateException
+e
+)
+{
+}
 }
 }
 )
