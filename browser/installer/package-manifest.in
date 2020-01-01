@@ -2661,9 +2661,10 @@ BINPATH
 /
 res
 /
-maccharset
+MainMenu
 .
-properties
+nib
+/
 #
 endif
 ;
