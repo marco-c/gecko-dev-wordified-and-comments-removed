@@ -99,11 +99,9 @@ modules
 /
 commonjs
 /
-sdk
+promise
 /
 core
-/
-promise
 .
 js
 "
@@ -941,6 +939,9 @@ measurementTypes
 [
 ProfileMetadataMeasurement
 ]
+constantOnly
+:
+true
 getProfileCreationDays
 :
 function

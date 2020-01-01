@@ -56,11 +56,9 @@ modules
 /
 commonjs
 /
-sdk
+promise
 /
 core
-/
-promise
 .
 js
 "
@@ -1290,6 +1288,9 @@ Object
 freeze
 (
 {
+constantOnly
+:
+false
 getMeasurement
 :
 function
