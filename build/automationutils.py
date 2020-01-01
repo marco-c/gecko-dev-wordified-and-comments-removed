@@ -1651,6 +1651,10 @@ TEST
 PASS
 "
   
+numObjects
+=
+0
+  
 for
 line
 in
@@ -2022,6 +2026,25 @@ instance
 rest
 =
 "
+"
+        
+numObjects
++
+=
+1
+        
+if
+numObjects
+>
+5
+:
+          
+prefix
+=
+"
+TEST
+-
+INFO
 "
         
 log
