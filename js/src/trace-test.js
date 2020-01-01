@@ -28115,6 +28115,13 @@ join
 )
 ;
 }
+if
+(
+jitstats
+.
+archIsIA32
+)
+{
 testTableSwitch2
 .
 jitstats
@@ -28134,6 +28141,7 @@ traceCompleted
 3
 }
 ;
+}
 test
 (
 testTableSwitch2
