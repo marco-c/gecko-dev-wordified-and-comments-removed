@@ -476,6 +476,9 @@ memalign
 495a
 malloc_usable_size
 .
+467a
+jemalloc_stats
+.
 331
 336d
 319d
