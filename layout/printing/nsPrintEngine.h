@@ -229,9 +229,8 @@ aContainer
 nsIDocument
 *
 aDocument
-nsIDeviceContext
-*
-aDevContext
+float
+aScreenDPI
 nsIWidget
 *
 aParentWidget
@@ -948,9 +947,8 @@ nsISupports
 *
 mContainer
 ;
-nsIDeviceContext
-*
-mDeviceContext
+float
+mScreenDPI
 ;
 nsPrintData
 *
