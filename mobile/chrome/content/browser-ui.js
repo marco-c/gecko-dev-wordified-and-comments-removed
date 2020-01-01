@@ -1432,16 +1432,6 @@ loading
 "
 )
 ;
-ws
-.
-panTo
-(
-0
--
-60
-true
-)
-;
 this
 .
 _favicon
