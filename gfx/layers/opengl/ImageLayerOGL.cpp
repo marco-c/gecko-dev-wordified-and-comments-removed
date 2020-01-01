@@ -3377,6 +3377,11 @@ CairoImage
 (
 nsnull
 )
+mSize
+(
+0
+0
+)
 {
 NS_ASSERTION
 (
