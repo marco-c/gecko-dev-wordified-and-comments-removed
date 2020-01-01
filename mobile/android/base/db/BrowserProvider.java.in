@@ -10781,7 +10781,6 @@ new
 ProfileMigrator
 (
 mContext
-profileDir
 )
 ;
 boolean
@@ -10822,6 +10821,7 @@ migrator
 .
 launchPlaces
 (
+profileDir
 )
 ;
 needBookmarks
