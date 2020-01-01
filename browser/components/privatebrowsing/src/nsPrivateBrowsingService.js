@@ -2660,6 +2660,11 @@ private
 false
 )
 )
+aCmdLine
+.
+preventDefault
+=
+true
 ;
 else
 if
