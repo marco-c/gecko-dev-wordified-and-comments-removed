@@ -4778,12 +4778,15 @@ Assembler
 :
 Condition
 c
+bool
+isPatchable
 )
 {
 as_b
 (
 dest
 c
+isPatchable
 )
 ;
 }
@@ -13785,6 +13788,8 @@ getOffset
 ma_b
 (
 label
+Always
+true
 )
 ;
 return

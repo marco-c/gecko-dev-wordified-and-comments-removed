@@ -6112,6 +6112,10 @@ Condition
 c
 =
 Always
+bool
+isPatchable
+=
+false
 )
 ;
 BufferOffset
@@ -6121,6 +6125,10 @@ BOffImm
 off
 Condition
 c
+bool
+isPatchable
+=
+false
 )
 ;
 BufferOffset
@@ -6133,6 +6141,10 @@ Condition
 c
 =
 Always
+bool
+isPatchable
+=
+false
 )
 ;
 BufferOffset

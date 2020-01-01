@@ -1722,6 +1722,10 @@ Condition
 c
 =
 Always
+bool
+isPatchable
+=
+false
 )
 ;
 void

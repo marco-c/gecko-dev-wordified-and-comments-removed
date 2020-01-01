@@ -7788,6 +7788,8 @@ Register
 r
 Condition
 c
+bool
+isPatchable
 )
 {
 BufferOffset
@@ -7817,6 +7819,10 @@ c
 =
 =
 Always
+&
+&
+!
+isPatchable
 )
 m_buffer
 .
@@ -7876,6 +7882,8 @@ BOffImm
 off
 Condition
 c
+bool
+isPatchable
 )
 {
 m_buffer
@@ -7911,6 +7919,10 @@ c
 =
 =
 Always
+&
+&
+!
+isPatchable
 )
 m_buffer
 .
@@ -7933,6 +7945,8 @@ Label
 l
 Condition
 c
+bool
+isPatchable
 )
 {
 m_buffer
@@ -8016,6 +8030,7 @@ BOffImm
 old
 )
 c
+isPatchable
 )
 ;
 }
@@ -8037,6 +8052,7 @@ as_b
 (
 inv
 c
+isPatchable
 )
 ;
 }
