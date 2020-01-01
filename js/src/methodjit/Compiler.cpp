@@ -22658,7 +22658,7 @@ origCallee
 ;
 for
 (
-int
+unsigned
 i
 =
 0
@@ -22681,6 +22681,9 @@ peek
 (
 -
 (
+(
+int
+)
 i
 +
 1
@@ -32895,10 +32898,13 @@ return
 }
 if
 (
-mayPushUndefined
+knownPushedType
 (
 0
 )
+!
+=
+type
 )
 type
 =

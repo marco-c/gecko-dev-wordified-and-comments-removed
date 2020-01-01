@@ -1711,7 +1711,7 @@ JSVAL_TYPE_UNKNOWN
 ;
 for
 (
-int
+unsigned
 i
 =
 0
@@ -1735,6 +1735,9 @@ peek
 (
 -
 (
+(
+int
+)
 i
 +
 1
