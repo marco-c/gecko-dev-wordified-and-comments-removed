@@ -519,6 +519,10 @@ History
 .
 h
 \
+Database
+.
+h
+\
 (
 NULL
 )
@@ -586,6 +590,10 @@ PlaceInfo
 cpp
 \
 VisitInfo
+.
+cpp
+\
+Database
 .
 cpp
 \
@@ -717,10 +725,6 @@ EXTRA_JS_MODULES
 PlacesDBUtils
 .
 jsm
-\
-utils
-.
-js
 \
 (
 NULL

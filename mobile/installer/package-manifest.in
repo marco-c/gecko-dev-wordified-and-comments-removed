@@ -416,6 +416,16 @@ res
 layout
 #
 endif
+#
+ifdef
+MOZ_PLATFORM_MAEMO
+BINPATH
+/
+res
+/
+drawable
+#
+endif
 [
 browser
 ]

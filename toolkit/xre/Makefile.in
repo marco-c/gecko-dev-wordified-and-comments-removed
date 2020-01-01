@@ -598,6 +598,11 @@ CMMSRCS
 nsNativeAppSupportCocoa
 .
 mm
+EXPORTS
+=
+MacQuirks
+.
+h
 else
 ifeq
 (
@@ -640,9 +645,6 @@ MOCSRCS
 moc_nsNativeAppSupportQt
 .
 cpp
-(
-NULL
-)
 CPPSRCS
 +
 =

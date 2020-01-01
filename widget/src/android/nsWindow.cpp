@@ -839,9 +839,6 @@ aHandleEventFunction
 nsDeviceContext
 *
 aContext
-nsIToolkit
-*
-aToolkit
 nsWidgetInitData
 *
 aInitData
@@ -1030,7 +1027,6 @@ nsnull
 mBounds
 aHandleEventFunction
 aContext
-aToolkit
 aInitData
 )
 ;
