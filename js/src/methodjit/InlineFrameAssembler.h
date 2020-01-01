@@ -167,9 +167,6 @@ masm
 uint32
 frameDepth
 ;
-uint32
-argc
-;
 RegisterID
 funObjReg
 ;
@@ -220,12 +217,6 @@ frameDepth
 ic
 .
 frameDepth
-;
-argc
-=
-ic
-.
-argc
 ;
 funObjReg
 =
@@ -285,12 +276,6 @@ frameDepth
 gen
 .
 frameDepth
-;
-argc
-=
-gen
-.
-argc
 ;
 funObjReg
 =

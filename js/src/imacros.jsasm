@@ -2298,8 +2298,8 @@ end
 new
 .
 igroup
-apply
-JSOP_APPLY
+funapply
+JSOP_FUNAPPLY
 .
 imacro
 apply0
@@ -3882,6 +3882,13 @@ stop
 end
 #
 .
+end
+funapply
+.
+igroup
+funcall
+JSOP_FUNCALL
+.
 imacro
 call0
 #
@@ -4192,7 +4199,7 @@ end
 #
 .
 end
-apply
+funcall
 .
 igroup
 getprop
