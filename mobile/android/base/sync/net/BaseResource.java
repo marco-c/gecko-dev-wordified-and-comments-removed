@@ -772,12 +772,6 @@ HttpContext
 context
 )
 {
-addAuthCacheToContext
-(
-request
-context
-)
-;
 Credentials
 creds
 =
@@ -878,6 +872,12 @@ context
 )
 ;
 }
+addAuthCacheToContext
+(
+request
+context
+)
+;
 HttpParams
 params
 =
