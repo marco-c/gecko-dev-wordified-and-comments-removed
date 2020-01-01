@@ -25697,6 +25697,12 @@ slot
 v
 )
 ;
+GC_POKE
+(
+cx
+JS_NULL
+)
+;
 JS_UNLOCK_SCOPE
 (
 cx
