@@ -6559,6 +6559,17 @@ history
 "
 )
 ;
+if
+(
+!
+json
+[
+"
+downloadFiles
+"
+]
+)
+{
 Sanitizer
 .
 clearItem
@@ -6568,6 +6579,7 @@ downloads
 "
 )
 ;
+}
 break
 ;
 case
