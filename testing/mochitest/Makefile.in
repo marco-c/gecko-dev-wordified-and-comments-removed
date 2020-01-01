@@ -628,12 +628,6 @@ js
 \
 harness
 -
-a11y
-.
-xul
-\
-harness
--
 overlay
 .
 xul
@@ -677,12 +671,6 @@ browser
 harness
 .
 xul
-\
-redirect
--
-a11y
-.
-html
 \
 redirect
 .
