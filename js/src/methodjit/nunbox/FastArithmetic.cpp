@@ -2620,7 +2620,7 @@ const
 uint64
 DoubleNegMask
 =
-0x8000000000000000LLU
+0x8000000000000000ULL
 ;
 void
 mjit
@@ -2716,15 +2716,6 @@ feTypeReg
 ;
 if
 (
-!
-fe
--
->
-isTypeKnown
-(
-)
-&
-&
 !
 frame
 .
