@@ -71,9 +71,11 @@ this
 =
 =
 &
-JS_PROPERTY_CACHE
-(
 cx
+-
+>
+propertyCache
+(
 )
 )
 ;
@@ -292,9 +294,11 @@ this
 =
 =
 &
-JS_PROPERTY_CACHE
-(
 cx
+-
+>
+propertyCache
+(
 )
 )
 ;
