@@ -254,7 +254,7 @@ R
 .
 id
 .
-favimage
+favicon
 )
 ;
 }

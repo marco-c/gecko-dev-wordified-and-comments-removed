@@ -46,11 +46,9 @@ id
 =
 "
 +
-android
-:
 id
 /
-mainLayout
+main_layout
 "
 style
 =
@@ -95,11 +93,9 @@ id
 =
 "
 +
-android
-:
 id
 /
-geckoLayout
+gecko_layout
 "
 android
 :

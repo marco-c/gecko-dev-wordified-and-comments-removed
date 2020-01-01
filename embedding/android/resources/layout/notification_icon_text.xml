@@ -105,7 +105,7 @@ id
 +
 id
 /
-notificationImage
+notification_image
 "
 android
 :
@@ -140,7 +140,7 @@ id
 +
 id
 /
-notificationTitle
+notification_title
 "
 android
 :
@@ -224,7 +224,7 @@ id
 +
 id
 /
-notificationText
+notification_text
 "
 android
 :

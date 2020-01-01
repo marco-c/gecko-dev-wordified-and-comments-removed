@@ -307,7 +307,7 @@ R
 .
 id
 .
-notificationImage
+notification_image
 bm
 )
 ;
@@ -319,7 +319,7 @@ R
 .
 id
 .
-notificationTitle
+notification_title
 mTitle
 )
 ;
@@ -342,7 +342,7 @@ R
 .
 id
 .
-notificationText
+notification_text
 mText
 )
 ;
@@ -449,7 +449,7 @@ R
 .
 id
 .
-notificationImage
+notification_image
 mIcon
 )
 ;
@@ -461,7 +461,7 @@ R
 .
 id
 .
-notificationTitle
+notification_title
 mTitle
 )
 ;
@@ -568,7 +568,7 @@ R
 .
 id
 .
-notificationText
+notification_text
 text
 )
 ;
@@ -580,7 +580,7 @@ R
 .
 id
 .
-notificationProgressbar
+notification_progressbar
 (
 int
 )
