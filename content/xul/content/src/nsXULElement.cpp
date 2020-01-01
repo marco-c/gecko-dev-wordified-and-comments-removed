@@ -5086,6 +5086,12 @@ mCanHandle
 =
 false
 ;
+aVisitor
+.
+mAutomaticChromeDispatch
+=
+false
+;
 nsCOMPtr
 <
 nsIDOMDocument

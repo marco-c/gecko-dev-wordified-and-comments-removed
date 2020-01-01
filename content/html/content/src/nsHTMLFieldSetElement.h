@@ -144,6 +144,14 @@ aFormSubmission
 )
 ;
 virtual
+bool
+IsDisabledForEvents
+(
+uint32_t
+aMessage
+)
+;
+virtual
 nsresult
 Clone
 (

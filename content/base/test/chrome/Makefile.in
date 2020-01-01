@@ -233,6 +233,14 @@ test_csp_bug773891
 .
 html
 \
+test_bug816340
+.
+xul
+\
+file_bug816340
+.
+xul
+\
 test_domparsing
 .
 xul

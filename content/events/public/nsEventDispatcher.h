@@ -152,6 +152,10 @@ mCanHandle
 (
 true
 )
+mAutomaticChromeDispatch
+(
+true
+)
 mForceContentDispatch
 (
 false
@@ -199,6 +203,10 @@ mCanHandle
 =
 true
 ;
+mAutomaticChromeDispatch
+=
+true
+;
 mForceContentDispatch
 =
 false
@@ -222,6 +230,9 @@ nullptr
 }
 bool
 mCanHandle
+;
+bool
+mAutomaticChromeDispatch
 ;
 bool
 mForceContentDispatch
