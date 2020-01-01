@@ -1,5 +1,5 @@
-.
-listbox
+#
+itemList
 {
 -
 moz
@@ -8,10 +8,6 @@ appearance
 :
 listbox
 ;
-}
-#
-itemList
-{
 margin
 :
 10px
