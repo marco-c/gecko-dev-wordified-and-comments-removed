@@ -6769,7 +6769,7 @@ L
 )
 async
 =
-PR_FALSE
+false
 ;
 NS_tremove
 (
