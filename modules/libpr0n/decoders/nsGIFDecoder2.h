@@ -160,7 +160,7 @@ imagelib
 :
 RasterImage
 >
-mImageContainer
+mImage
 ;
 nsCOMPtr
 <
