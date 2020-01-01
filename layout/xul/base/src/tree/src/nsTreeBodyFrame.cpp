@@ -374,6 +374,13 @@ h
 "
 #
 endif
+#
+define
+ELLIPSIS
+PRUnichar
+(
+0x2026
+)
 static
 NS_DEFINE_CID
 (
@@ -5735,18 +5742,6 @@ width
 maxWidth
 )
 {
-const
-nsAdoptingString
-&
-kEllipsis
-=
-nsContentUtils
-:
-:
-GetLocalizedEllipsis
-(
-)
-;
 nscoord
 ellipsisWidth
 ;
@@ -5761,7 +5756,7 @@ aRenderingContext
 .
 GetWidth
 (
-kEllipsis
+ELLIPSIS
 ellipsisWidth
 )
 ;
@@ -5794,7 +5789,7 @@ aText
 .
 Assign
 (
-kEllipsis
+ELLIPSIS
 )
 ;
 else
@@ -5898,7 +5893,7 @@ aText
 .
 Append
 (
-kEllipsis
+ELLIPSIS
 )
 ;
 }
@@ -5997,7 +5992,7 @@ aText
 .
 Assign
 (
-kEllipsis
+ELLIPSIS
 )
 ;
 aText
@@ -6139,7 +6134,7 @@ aText
 .
 Append
 (
-kEllipsis
+ELLIPSIS
 )
 ;
 aText

@@ -1995,14 +1995,6 @@ nsIContent
 aContent
 )
 ;
-static
-const
-nsAdoptingString
-&
-GetLocalizedEllipsis
-(
-)
-;
 private
 :
 static
