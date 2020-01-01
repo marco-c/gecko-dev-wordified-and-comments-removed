@@ -61,6 +61,7 @@ aKey
 )
 {
 return
+(
 NS_PTR_TO_UINT32
 (
 aKey
@@ -74,9 +75,10 @@ get
 )
 >
 >
-4
+2
+)
 +
-NS_PTR_TO_INT32
+NS_PTR_TO_UINT32
 (
 aKey
 -
