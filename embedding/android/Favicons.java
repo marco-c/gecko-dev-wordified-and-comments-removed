@@ -1343,7 +1343,7 @@ src
 }
 catch
 (
-IOException
+Exception
 e
 )
 {
