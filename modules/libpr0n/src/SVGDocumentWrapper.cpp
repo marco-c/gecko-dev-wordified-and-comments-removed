@@ -1108,7 +1108,7 @@ do_QueryInterface
 mListener
 )
 ;
-if
+while
 (
 !
 parser
