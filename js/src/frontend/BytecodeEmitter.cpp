@@ -8303,12 +8303,13 @@ tokenStream
 )
 -
 >
-reportCompileErrorNumberVA
+reportStrictWarningErrorNumberVA
 (
 pn
-JSREPORT_STRICT
-|
-JSREPORT_WARNING
+sc
+-
+>
+strict
 errorNumber
 args
 )
