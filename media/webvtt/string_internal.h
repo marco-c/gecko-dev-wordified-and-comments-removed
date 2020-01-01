@@ -191,11 +191,11 @@ alloc
 webvtt_uint32
 length
 ;
-webvtt_byte
+char
 *
 text
 ;
-webvtt_byte
+char
 array
 [
 1
@@ -208,7 +208,7 @@ __WEBVTT_STRING_INLINE
 int
 webvtt_isalpha
 (
-webvtt_byte
+char
 ch
 )
 {
@@ -264,7 +264,7 @@ __WEBVTT_STRING_INLINE
 int
 webvtt_isdigit
 (
-webvtt_byte
+char
 ch
 )
 {
@@ -296,7 +296,7 @@ __WEBVTT_STRING_INLINE
 int
 webvtt_isalphanum
 (
-webvtt_byte
+char
 ch
 )
 {
@@ -320,7 +320,7 @@ __WEBVTT_STRING_INLINE
 int
 webvtt_iswhite
 (
-webvtt_byte
+char
 ch
 )
 {

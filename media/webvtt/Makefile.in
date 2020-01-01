@@ -83,11 +83,6 @@ DEFINES
 =
 \
 -
-DWEBVTT_NO_CONFIG_H
-=
-1
-\
--
 DWEBVTT_STATIC
 =
 1

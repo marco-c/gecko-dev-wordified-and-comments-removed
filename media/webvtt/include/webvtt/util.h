@@ -225,6 +225,15 @@ WEBVTT_CC_UNKNOWN
 endif
 #
 ifndef
+WEBVTT_HAVE_STDINT
+#
+define
+WEBVTT_HAVE_STDINT
+0
+#
+endif
+#
+ifndef
 WEBVTT_CALLBACK
 #
 define
@@ -280,7 +289,7 @@ __inline__
 #
 endif
 #
-ifdef
+if
 WEBVTT_HAVE_STDINT
 typedef
 int8_t
@@ -473,10 +482,6 @@ unsigned
 long
 long
 webvtt_ulonglong
-;
-typedef
-webvtt_uint8
-webvtt_byte
 ;
 typedef
 webvtt_int

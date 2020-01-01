@@ -128,7 +128,6 @@ M_WEBVTT
 0
 M_CUETEXT
 M_SKIP_CUE
-M_READ_LINE
 }
 webvtt_parse_mode
 ;
@@ -347,7 +346,7 @@ tstate
 webvtt_uint
 token_pos
 ;
-webvtt_byte
+char
 token
 [
 0x100
@@ -362,7 +361,7 @@ webvtt_lex
 webvtt_parser
 self
 const
-webvtt_byte
+char
 *
 buffer
 webvtt_uint
@@ -384,7 +383,7 @@ webvtt_string
 *
 pba
 const
-webvtt_byte
+char
 *
 buffer
 webvtt_uint
@@ -403,7 +402,7 @@ webvtt_lex_newline
 webvtt_parser
 self
 const
-webvtt_byte
+char
 *
 buffer
 webvtt_uint
@@ -439,7 +438,7 @@ webvtt_cue
 *
 cue
 const
-webvtt_byte
+char
 *
 text
 webvtt_uint
@@ -459,7 +458,7 @@ webvtt_cue
 *
 cue
 const
-webvtt_byte
+char
 *
 text
 webvtt_uint
@@ -479,7 +478,7 @@ webvtt_cue
 *
 cue
 const
-webvtt_byte
+char
 *
 text
 webvtt_uint
@@ -499,7 +498,7 @@ webvtt_cue
 *
 cue
 const
-webvtt_byte
+char
 *
 text
 webvtt_uint
@@ -519,7 +518,7 @@ webvtt_cue
 *
 cue
 const
-webvtt_byte
+char
 *
 text
 webvtt_uint
@@ -534,7 +533,7 @@ int
 parse_timestamp
 (
 const
-webvtt_byte
+char
 *
 b
 webvtt_timestamp
@@ -572,7 +571,7 @@ webvtt_read_cuetext
 webvtt_parser
 self
 const
-webvtt_byte
+char
 *
 b
 webvtt_uint
@@ -591,7 +590,7 @@ webvtt_proc_cuetext
 webvtt_parser
 self
 const
-webvtt_byte
+char
 *
 b
 webvtt_uint
@@ -610,7 +609,7 @@ parse_cueparams
 webvtt_parser
 self
 const
-webvtt_byte
+char
 *
 text
 webvtt_uint
