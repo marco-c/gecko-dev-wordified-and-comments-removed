@@ -6,7 +6,7 @@ ifdef
 MOZ_OFFICIAL_BRANDING
 fennec
 (
-MOZ_APP_VERSION
+DEB_PKG_VERSION
 )
 stable
 ;
@@ -17,9 +17,7 @@ low
 else
 fennec
 (
-MOZ_APP_VERSION
-~
-MOZ_APP_BUILDID
+DEB_PKG_VERSION
 )
 unstable
 ;
