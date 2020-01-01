@@ -1,4 +1,11 @@
 #
+include
+"
+readstrings
+.
+h
+"
+#
 define
 SVC_DISPLAY_NAME
 L
@@ -50,4 +57,15 @@ pNewAcl
 PSECURITY_DESCRIPTOR
 psd
 )
+;
+struct
+MaintenanceServiceStringTable
+{
+char
+serviceDescription
+[
+MAX_TEXT_LEN
+]
+;
+}
 ;

@@ -887,7 +887,10 @@ MAX_TEXT_LEN
 1
 ]
 =
+'
+\
 0
+'
 ;
 read
 +
@@ -985,7 +988,10 @@ MAX_TEXT_LEN
 1
 ]
 =
+'
+\
 0
+'
 ;
 strncpy
 (
@@ -1012,7 +1018,10 @@ MAX_TEXT_LEN
 1
 ]
 =
+'
+\
 0
+'
 ;
 return
 result
