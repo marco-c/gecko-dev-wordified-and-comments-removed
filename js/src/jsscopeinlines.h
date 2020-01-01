@@ -39,13 +39,6 @@ jsscope
 .
 h
 "
-#
-include
-"
-jsobjinlines
-.
-h
-"
 inline
 JSEmptyScope
 *
