@@ -84,6 +84,13 @@ Services
 .
 h
 "
+#
+include
+"
+nsIStringBundle
+.
+h
+"
 using
 namespace
 mozilla

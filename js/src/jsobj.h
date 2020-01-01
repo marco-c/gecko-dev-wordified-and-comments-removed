@@ -5134,7 +5134,7 @@ cx
 js
 :
 :
-HandleObject
+RawObject
 obj
 JSProtoKey
 key
@@ -5987,9 +5987,10 @@ js
 Value
 &
 v
-JSObject
-*
-*
+JS
+:
+:
+MutableHandleObject
 objp
 )
 ;

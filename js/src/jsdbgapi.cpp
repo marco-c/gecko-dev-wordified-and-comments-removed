@@ -7210,9 +7210,16 @@ JSContext
 cx
 JSObject
 *
-obj
+objArg
 )
 {
+RootedObject
+obj
+(
+cx
+objArg
+)
+;
 assertSameCompartment
 (
 cx

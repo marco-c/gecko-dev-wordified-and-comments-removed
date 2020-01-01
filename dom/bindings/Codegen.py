@@ -11314,10 +11314,9 @@ None
 )
     
 def
-onFailure
+onFailureNotAnObject
 (
 failureCode
-isWorker
 )
 :
         
@@ -11330,25 +11329,56 @@ CGGeneric
 failureCode
 or
                 
-"
+'
 return
-Throw
-<
-%
-s
->
+ThrowErrorMessage
 (
 cx
-NS_ERROR_XPC_BAD_CONVERT_JS
+MSG_NOT_OBJECT
 )
 ;
-"
-                
-%
-toStringBool
-(
-isWorker
+'
 )
+post
+=
+"
+\
+n
+"
+)
+    
+def
+onFailureBadType
+(
+failureCode
+typeName
+)
+:
+        
+return
+CGWrapper
+(
+CGGeneric
+(
+                
+failureCode
+or
+                
+'
+return
+ThrowErrorMessage
+(
+cx
+MSG_DOES_NOT_IMPLEMENT_INTERFACE
+"
+%
+s
+"
+)
+;
+'
+%
+typeName
 )
 post
 =
@@ -11505,7 +11535,6 @@ isDefinitelyObject
 type
                            
 codeToSetNull
-isWorker
 failureCode
 =
 None
@@ -11614,10 +11643,9 @@ n
                 
 CGIndenter
 (
-onFailure
+onFailureNotAnObject
 (
 failureCode
-isWorker
 )
 )
 .
@@ -12199,10 +12227,6 @@ mutableTypeName
 define
 (
 )
-                                          
-descriptorProvider
-.
-workers
 )
         
 return
@@ -12313,6 +12337,11 @@ type
 .
 flatMemberTypes
         
+names
+=
+[
+]
+        
 interfaceMemberTypes
 =
 filter
@@ -12414,6 +12443,13 @@ unionArgumentObj
 name
 )
 )
+)
+                
+names
+.
+append
+(
+name
 )
             
 interfaceObject
@@ -12580,6 +12616,13 @@ post
 }
 "
 )
+            
+names
+.
+append
+(
+name
+)
         
 else
 :
@@ -12706,6 +12749,13 @@ n
 }
 "
 )
+            
+names
+.
+append
+(
+name
+)
         
 else
 :
@@ -12805,6 +12855,13 @@ tryNext
 unionArgumentObj
 name
 )
+)
+            
+names
+.
+append
+(
+name
 )
         
 else
@@ -13383,6 +13440,13 @@ name
 )
 )
             
+names
+.
+append
+(
+name
+)
+            
 if
 hasObjectTypes
 :
@@ -13526,14 +13590,16 @@ n
                           
 "
 return
-Throw
-<
-%
-s
->
+ThrowErrorMessage
 (
 cx
-NS_ERROR_XPC_BAD_CONVERT_JS
+MSG_NOT_IN_UNION
+\
+"
+%
+s
+\
+"
 )
 ;
 \
@@ -13544,11 +13610,12 @@ n
 }
 "
 %
-toStringBool
-(
-descriptorProvider
+"
+"
 .
-workers
+join
+(
+names
 )
 )
         
@@ -14606,13 +14673,17 @@ templateBody
 =
 CGIndenter
 (
-onFailure
+onFailureBadType
 (
 failureCode
-                                                 
+                                                        
 descriptor
 .
-workers
+interface
+.
+identifier
+.
+name
 )
 )
 .
@@ -14751,9 +14822,6 @@ declName
 NULL
 "
                                           
-descriptor
-.
-workers
 failureCode
 )
         
@@ -15051,12 +15119,12 @@ constructInternal
              
 CGIndenter
 (
-onFailure
+onFailureBadType
 (
 failureCode
-descriptorProvider
+type
 .
-workers
+name
 )
 )
 .
@@ -15207,10 +15275,6 @@ NULL
 "
 %
 nullableTarget
-                                      
-descriptorProvider
-.
-workers
                                       
 failureCode
 )
@@ -15400,7 +15464,6 @@ data
 {
 %
 s
-0
 }
 ;
 \
@@ -15430,6 +15493,7 @@ data
 .
 join
 (
+[
 "
 '
 "
@@ -15445,6 +15509,13 @@ in
 defaultValue
 .
 value
+]
++
+[
+"
+0
+"
+]
 )
                   
 varName
@@ -16245,9 +16316,6 @@ declName
 NULL
 "
                                       
-descriptorProvider
-.
-workers
 failureCode
 )
         
@@ -19729,20 +19797,16 @@ double
 :
         
 return
-wrapAndSetPtr
+setValue
 (
 "
-JS_NewNumberValue
+JS_NumberValue
 (
-cx
 double
 (
 %
 s
 )
-{
-jsvalPtr
-}
 )
 "
 %

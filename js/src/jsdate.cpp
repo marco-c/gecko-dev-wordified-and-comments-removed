@@ -15993,8 +15993,7 @@ js_DateGetMsecSinceEpoch
 JSContext
 *
 cx
-JSObject
-*
+RawObject
 obj
 )
 {

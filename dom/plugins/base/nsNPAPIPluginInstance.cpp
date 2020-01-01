@@ -444,7 +444,7 @@ SharedPluginTexture
 {
 mCurrentHandle
 =
-nullptr
+0
 ;
 }
 TextureInfo
@@ -559,7 +559,7 @@ EnsureGLContext
 )
 )
 return
-nullptr
+0
 ;
 mNeedNewImage
 =
@@ -583,7 +583,7 @@ mHeight
 0
 )
 return
-nullptr
+0
 ;
 mCurrentHandle
 =
@@ -4647,7 +4647,7 @@ SurfaceTexture
 }
 else
 return
-nullptr
+0
 ;
 }
 void
@@ -5547,7 +5547,7 @@ aIsAsync
 library
 -
 >
-UseAsyncPainting
+IsOOP
 (
 )
 ;

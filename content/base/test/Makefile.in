@@ -2451,6 +2451,10 @@ test_XHR_parameters
 .
 html
 \
+test_ipc_messagemanager_blob
+.
+html
+\
 (
 NULL
 )

@@ -598,12 +598,10 @@ return
 script_
 ;
 }
-JSScript
-*
+HandleScript
 script
 (
 )
-const
 {
 JS_ASSERT
 (

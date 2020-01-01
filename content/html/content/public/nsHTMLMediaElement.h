@@ -751,7 +751,7 @@ gWaveTypes
 4
 ]
 [
-16
+15
 ]
 ;
 static
@@ -793,7 +793,7 @@ gWebMTypes
 2
 ]
 [
-17
+11
 ]
 ;
 static
@@ -835,7 +835,7 @@ gH264Types
 3
 ]
 [
-17
+16
 ]
 ;
 static

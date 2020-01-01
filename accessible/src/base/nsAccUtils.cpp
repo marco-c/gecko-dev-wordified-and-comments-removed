@@ -80,6 +80,13 @@ h
 #
 include
 "
+nsIMutableArray
+.
+h
+"
+#
+include
+"
 nsIDOMXULContainerElement
 .
 h

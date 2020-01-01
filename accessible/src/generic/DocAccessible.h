@@ -105,13 +105,6 @@ h
 #
 include
 "
-nsCOMArray
-.
-h
-"
-#
-include
-"
 nsIDocShellTreeNode
 .
 h

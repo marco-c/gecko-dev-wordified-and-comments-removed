@@ -9949,6 +9949,9 @@ class
 chromeclass
 -
 extrachrome
+sidebar
+-
+splitter
 "
 hidden
 =
@@ -10165,6 +10168,9 @@ class
 chromeclass
 -
 extrachrome
+sidebar
+-
+splitter
 "
 observes
 =

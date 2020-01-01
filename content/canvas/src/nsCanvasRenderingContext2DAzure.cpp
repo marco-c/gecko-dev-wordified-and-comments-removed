@@ -2383,9 +2383,6 @@ AzureCanvasEnabled
 (
 )
 {
-BackendType
-dontCare
-;
 return
 gfxPlatform
 :
@@ -2397,7 +2394,6 @@ GetPlatform
 >
 SupportsAzureCanvas
 (
-dontCare
 )
 ;
 }

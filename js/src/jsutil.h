@@ -23,12 +23,17 @@ Utility
 h
 "
 #
+ifdef
+USE_ZLIB
+#
 include
 "
 zlib
 .
 h
 "
+#
+endif
 struct
 JSContext
 ;

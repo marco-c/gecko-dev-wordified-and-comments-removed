@@ -18486,10 +18486,10 @@ filename
 lineno
 )
 ;
-JSScript
-*
+RootedScript
 script
-=
+(
+cx
 frontend
 :
 :
@@ -18503,6 +18503,7 @@ chars
 length
 NULL
 1
+)
 )
 ;
 if

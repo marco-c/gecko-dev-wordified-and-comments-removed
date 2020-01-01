@@ -607,6 +607,10 @@ CSSMozDocumentRule
 )
 DOMCI_CLASS
 (
+CSSSupportsRule
+)
+DOMCI_CLASS
+(
 BeforeUnloadEvent
 )
 DOMCI_CLASS
@@ -1216,6 +1220,10 @@ MessageEvent
 DOMCI_CLASS
 (
 DeviceStorage
+)
+DOMCI_CLASS
+(
+DeviceStorageChangeEvent
 )
 DOMCI_CLASS
 (

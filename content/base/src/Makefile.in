@@ -520,6 +520,10 @@ nsBlobProtocolHandler
 .
 cpp
 \
+nsBlobURI
+.
+cpp
+\
 nsFrameMessageManager
 .
 cpp

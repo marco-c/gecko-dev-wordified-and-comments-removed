@@ -3520,6 +3520,8 @@ const
 nsACString
 &
 aOrigin
+FactoryPrivilege
+mPrivilege
 nsIFile
 *
 *
@@ -3765,6 +3767,14 @@ ss
 NS_ERROR_FAILURE
 )
 ;
+if
+(
+mPrivilege
+!
+=
+Chrome
+)
+{
 rv
 =
 ss
@@ -3781,7 +3791,7 @@ GetIndexedDBQuotaMB
 *
 1024
 mQuotaCallbackSingleton
-nullptr
+nsnull
 )
 ;
 NS_ENSURE_SUCCESS
@@ -3790,6 +3800,7 @@ rv
 rv
 )
 ;
+}
 nsAutoTArray
 <
 nsString
@@ -4251,6 +4262,14 @@ AppendElement
 fileManager
 )
 ;
+if
+(
+mPrivilege
+!
+=
+Chrome
+)
+{
 rv
 =
 ss
@@ -4267,6 +4286,7 @@ rv
 rv
 )
 ;
+}
 validSubdirs
 .
 PutEntry
@@ -8852,6 +8872,7 @@ Create
 (
 aCx
 global
+nullptr
 getter_AddRefs
 (
 factory
