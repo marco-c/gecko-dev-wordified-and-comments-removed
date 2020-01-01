@@ -5271,7 +5271,7 @@ fp
 js_GetTopStackFrame
 (
 cx
-FRAME_EXPAND_TOP
+FRAME_EXPAND_ALL
 )
 ;
 while

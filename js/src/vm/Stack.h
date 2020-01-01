@@ -5687,14 +5687,6 @@ this
 }
 }
 ;
-enum
-FrameExpandKind
-{
-FRAME_EXPAND_NONE
-FRAME_EXPAND_TOP
-FRAME_EXPAND_ALL
-}
-;
 class
 StackIter
 {

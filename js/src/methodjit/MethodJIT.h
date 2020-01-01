@@ -2436,8 +2436,6 @@ ExpandInlineFrames
 JSCompartment
 *
 compartment
-bool
-all
 )
 ;
 void

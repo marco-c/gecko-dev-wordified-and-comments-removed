@@ -1647,7 +1647,6 @@ cx
 -
 >
 compartment
-false
 )
 ;
 JS_ASSERT
@@ -3021,7 +3020,6 @@ cx
 -
 >
 compartment
-true
 )
 ;
 if
