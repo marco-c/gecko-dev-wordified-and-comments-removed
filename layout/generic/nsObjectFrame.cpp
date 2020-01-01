@@ -4367,6 +4367,8 @@ nsObjectFrame
 :
 CallSetWindow
 (
+PRBool
+aCheckIsHidden
 )
 {
 NPWindow
@@ -4459,6 +4461,9 @@ ePluginPaintDisable
 endif
 if
 (
+aCheckIsHidden
+&
+&
 IsHidden
 (
 )
@@ -14620,6 +14625,7 @@ mObjectFrame
 >
 CallSetWindow
 (
+PR_FALSE
 )
 ;
 }
