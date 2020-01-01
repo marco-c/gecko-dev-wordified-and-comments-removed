@@ -1129,7 +1129,12 @@ bool
 invalidated
 =
 !
-currentIonScript
+script
+-
+>
+hasIonScript
+(
+)
 |
 |
 !
