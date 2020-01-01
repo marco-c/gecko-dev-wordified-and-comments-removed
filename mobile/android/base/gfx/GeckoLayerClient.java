@@ -1453,6 +1453,7 @@ mLayerController
 .
 abortPanZoomAnimation
 (
+false
 )
 ;
 }
@@ -1654,6 +1655,7 @@ mLayerController
 .
 abortPanZoomAnimation
 (
+true
 )
 ;
 }
