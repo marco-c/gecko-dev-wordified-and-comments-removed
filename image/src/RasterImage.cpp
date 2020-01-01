@@ -11092,6 +11092,12 @@ scale
 =
 scale
 )
+&
+&
+mLockCount
+=
+=
+1
 )
 {
 if
