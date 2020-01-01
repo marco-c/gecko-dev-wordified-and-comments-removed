@@ -883,11 +883,6 @@ kTileCrawlComeAgain
 /
 /
 millis
-const
-kInitialCacheCapacity
-=
-15
-;
 /
 *
 *
@@ -1023,6 +1018,7 @@ TileManager
 appendTile
 removeTile
 browserView
+cacheSize
 )
 {
 /
@@ -1118,7 +1114,7 @@ tile
 1
 -
 1
-kInitialCacheCapacity
+cacheSize
 )
 ;
 /
