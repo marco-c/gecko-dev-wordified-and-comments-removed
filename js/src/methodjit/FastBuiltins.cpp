@@ -6032,6 +6032,17 @@ types
 :
 OBJECT_FLAG_NON_DENSE_ARRAY
 )
+&
+&
+!
+types
+:
+:
+ArrayPrototypeHasIndexedProperty
+(
+cx
+outerScript
+)
 )
 {
 return
