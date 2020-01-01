@@ -1687,6 +1687,16 @@ A
 <
 !
 ENTITY
+addons
+.
+commandkey
+"
+A
+"
+>
+<
+!
+ENTITY
 errorConsoleCmd
 .
 label
