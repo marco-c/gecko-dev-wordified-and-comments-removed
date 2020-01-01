@@ -10679,6 +10679,13 @@ gfxASurface
 SurfaceTypeImage
 )
 {
+aSurface
+-
+>
+Flush
+(
+)
+;
 mPendingPluginCall
 =
 PR_TRUE
