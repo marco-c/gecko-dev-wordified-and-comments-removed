@@ -1129,6 +1129,10 @@ test_visited_reftests
 .
 html
 \
+animation_utils
+.
+js
+\
 css_properties
 .
 js
