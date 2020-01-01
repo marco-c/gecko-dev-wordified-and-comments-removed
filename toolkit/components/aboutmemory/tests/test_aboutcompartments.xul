@@ -1455,11 +1455,11 @@ Process
 \
 n
 \
+User
+Compartments
 \
 n
 \
-User
-Compartments
 \
 n
 \
@@ -1552,6 +1552,9 @@ Compartments
 \
 n
 \
+\
+n
+\
 [
 System
 Principal
@@ -1589,6 +1592,9 @@ n
 \
 Ghost
 Windows
+\
+n
+\
 \
 n
 \
@@ -1671,11 +1677,11 @@ n
 \
 n
 \
+User
+Compartments
 \
 n
 \
-User
-Compartments
 \
 n
 \
@@ -1692,6 +1698,9 @@ n
 \
 System
 Compartments
+\
+n
+\
 \
 n
 \
