@@ -479,6 +479,7 @@ aAttrEnum
 )
 {
 }
+virtual
 void
 DidAnimateLength
 (

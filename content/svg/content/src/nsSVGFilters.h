@@ -658,6 +658,14 @@ GetLengthInfo
 ;
 virtual
 void
+DidAnimateLength
+(
+PRUint8
+aAttrEnum
+)
+;
+virtual
+void
 DidAnimateNumber
 (
 PRUint8
