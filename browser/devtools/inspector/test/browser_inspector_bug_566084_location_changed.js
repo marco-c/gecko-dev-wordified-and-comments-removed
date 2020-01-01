@@ -136,7 +136,7 @@ toolbox
 =
 gDevTools
 .
-getToolboxForTarget
+getToolbox
 (
 target
 )
@@ -359,12 +359,16 @@ inspector
 =
 gDevTools
 .
-getPanelForTarget
+getToolbox
+(
+target
+)
+.
+getPanel
 (
 "
 inspector
 "
-target
 )
 ;
 ok

@@ -566,7 +566,7 @@ tab
 ;
 gDevTools
 .
-openToolboxForTab
+showToolbox
 (
 target
 "

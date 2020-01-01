@@ -286,6 +286,7 @@ gBrowser
 selectedTab
 )
 ;
+return
 gDevTools
 .
 closeToolbox
@@ -352,9 +353,10 @@ gBrowser
 selectedTab
 )
 ;
+return
 gDevTools
 .
-openToolboxForTab
+showToolbox
 (
 target
 "

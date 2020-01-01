@@ -223,7 +223,7 @@ tab1
 ;
 gDevTools
 .
-openToolboxForTab
+showToolbox
 (
 target1
 "
@@ -243,7 +243,7 @@ false
 "
 gDevTools
 .
-openToolboxForTab
+showToolbox
 (
 target1
 )
@@ -273,7 +273,7 @@ tab2
 ;
 gDevTools
 .
-openToolboxForTab
+showToolbox
 (
 target2
 "
@@ -293,7 +293,7 @@ false
 "
 gDevTools
 .
-openToolboxForTab
+showToolbox
 (
 target2
 )

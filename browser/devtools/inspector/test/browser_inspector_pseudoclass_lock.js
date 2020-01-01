@@ -693,7 +693,7 @@ toolbox
 =
 gDevTools
 .
-getToolboxForTarget
+getToolbox
 (
 target
 )

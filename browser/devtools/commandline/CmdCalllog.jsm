@@ -322,7 +322,7 @@ selectedTab
 ;
 gDevTools
 .
-openToolboxForTab
+showToolbox
 (
 target
 "
