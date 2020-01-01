@@ -1876,12 +1876,15 @@ define
 TRACE_TRIGGER_MASK
 0x3f
 extern
-void
+bool
 js_LoopEdge
 (
 JSContext
 *
 cx
+jsbytecode
+*
+pc
 )
 ;
 extern
@@ -1891,6 +1894,10 @@ js_AbortRecording
 JSContext
 *
 cx
+const
+char
+*
+reason
 )
 ;
 #
