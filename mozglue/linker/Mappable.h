@@ -166,7 +166,7 @@ MappableFile
 {
 }
 static
-MappableFile
+Mappable
 *
 Create
 (
@@ -236,7 +236,7 @@ MappableExtractFile
 )
 ;
 static
-MappableExtractFile
+Mappable
 *
 Create
 (
@@ -245,6 +245,9 @@ char
 *
 name
 Zip
+*
+zip
+Zip
 :
 :
 Stream
@@ -252,16 +255,6 @@ Stream
 stream
 )
 ;
-char
-*
-GetPath
-(
-)
-{
-return
-path
-;
-}
 private
 :
 MappableExtractFile
@@ -358,7 +351,7 @@ MappableDeflate
 )
 ;
 static
-MappableDeflate
+Mappable
 *
 Create
 (
@@ -454,7 +447,7 @@ MappableSeekableZStream
 )
 ;
 static
-MappableSeekableZStream
+Mappable
 *
 Create
 (
