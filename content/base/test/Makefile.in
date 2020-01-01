@@ -1146,6 +1146,17 @@ txt
 headers
 ^
 \
+file_XHR_binary1
+.
+bin
+\
+file_XHR_binary1
+.
+bin
+^
+headers
+^
+\
 test_bug428847
 .
 html
