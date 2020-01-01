@@ -429,10 +429,8 @@ from
 datetime
 import
 datetime
-from
-automation
 import
-Automation
+automation
 PORT
 =
 8888
@@ -512,11 +510,6 @@ __name__
 __main__
 '
 :
-automation
-=
-Automation
-(
-)
 httpd
 =
 EasyServer
