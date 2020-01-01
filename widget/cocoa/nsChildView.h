@@ -1364,6 +1364,12 @@ GetShouldAccelerate
 (
 )
 ;
+virtual
+bool
+UseOffMainThreadCompositing
+(
+)
+;
 NS_IMETHOD
 SetCursor
 (
