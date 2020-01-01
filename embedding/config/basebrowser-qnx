@@ -483,6 +483,11 @@ dom_html
 xpt
 components
 /
+dom_geolocation
+.
+xpt
+components
+/
 dom_offline
 .
 xpt

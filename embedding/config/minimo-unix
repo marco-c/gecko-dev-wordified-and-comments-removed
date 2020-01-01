@@ -385,6 +385,11 @@ dom_events
 xpt
 components
 /
+dom_geolocation
+.
+xpt
+components
+/
 dom_html
 .
 xpt

@@ -553,6 +553,13 @@ bin
 /
 components
 /
+dom_geolocation
+.
+xpt
+bin
+/
+components
+/
 dom_html
 .
 xpt

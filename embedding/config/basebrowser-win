@@ -702,6 +702,11 @@ dom_html
 xpt
 components
 \
+dom_geolocation
+.
+xpt
+components
+\
 dom_loadsave
 .
 xpt

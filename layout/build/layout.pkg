@@ -181,6 +181,17 @@ bin
 /
 components
 /
+dom_geolocation
+.
+xpt
+!
+xpt
+dist
+/
+bin
+/
+components
+/
 dom_html
 .
 xpt
