@@ -5001,7 +5001,7 @@ return
 mFrame
 -
 >
-GetOverflowRect
+GetVisualOverflowRect
 (
 )
 +

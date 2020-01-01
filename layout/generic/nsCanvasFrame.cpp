@@ -765,7 +765,7 @@ Invalidate
 aOldFrame
 -
 >
-GetOverflowRect
+GetVisualOverflowRect
 (
 )
 +
@@ -894,7 +894,7 @@ const
 nsRect
 result
 (
-GetOverflowRect
+GetVisualOverflowRect
 (
 )
 )

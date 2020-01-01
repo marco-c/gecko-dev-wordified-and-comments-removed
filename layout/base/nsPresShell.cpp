@@ -23237,7 +23237,7 @@ ancestorRect
 ancestorFrame
 -
 >
-GetOverflowRect
+GetVisualOverflowRect
 (
 )
 ;

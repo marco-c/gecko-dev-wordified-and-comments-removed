@@ -665,7 +665,7 @@ return
 listFrame
 -
 >
-GetOverflowRect
+GetVisualOverflowRect
 (
 )
 +

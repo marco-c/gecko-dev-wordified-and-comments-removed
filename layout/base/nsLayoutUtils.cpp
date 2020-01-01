@@ -4080,7 +4080,7 @@ aPresContext
 popup
 -
 >
-GetOverflowRect
+GetScrollableOverflowRect
 (
 )
 .
@@ -5909,7 +5909,7 @@ visibleRegion
 aFrame
 -
 >
-GetOverflowRectRelativeToSelf
+GetVisualOverflowRectRelativeToSelf
 (
 )
 ;
@@ -13576,7 +13576,7 @@ if
 aFrame
 -
 >
-GetOverflowRect
+GetScrollableOverflowRect
 (
 )
 .

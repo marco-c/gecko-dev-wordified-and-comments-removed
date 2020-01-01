@@ -1471,7 +1471,7 @@ invalidateArea
 containerFrame
 -
 >
-GetOverflowRect
+GetVisualOverflowRect
 (
 )
 ;

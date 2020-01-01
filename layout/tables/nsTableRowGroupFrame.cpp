@@ -9237,7 +9237,7 @@ overflowRect
 aFrame
 -
 >
-GetOverflowRect
+GetVisualOverflowRect
 (
 )
 ;

@@ -936,7 +936,7 @@ nsRect
 &
 aRect
 PRBool
-aRemoveOverflowArea
+aRemoveOverflowAreas
 )
 {
 NS_BOX_ASSERTION
@@ -1026,15 +1026,10 @@ aRect
 ;
 if
 (
-aRemoveOverflowArea
-&
-&
-HasOverflowRect
-(
-)
+aRemoveOverflowAreas
 )
 {
-ClearOverflowRect
+ClearOverflowRects
 (
 )
 ;
@@ -2543,7 +2538,7 @@ aDamageRect
 else
 damageRect
 =
-GetOverflowRect
+GetVisualOverflowRect
 (
 )
 ;

@@ -448,7 +448,7 @@ overflowRect
 aFrame
 -
 >
-GetOverflowRect
+GetVisualOverflowRect
 (
 )
 ;
@@ -4817,7 +4817,7 @@ return
 mFrame
 -
 >
-GetOverflowRect
+GetVisualOverflowRect
 (
 )
 +
@@ -5452,7 +5452,7 @@ return
 mFrame
 -
 >
-GetOverflowRect
+GetVisualOverflowRect
 (
 )
 +
@@ -9185,7 +9185,7 @@ return
 mFrame
 -
 >
-GetOverflowRect
+GetVisualOverflowRect
 (
 )
 +
@@ -9718,7 +9718,7 @@ mBounds
 aFrame
 -
 >
-GetOverflowRectRelativeToSelf
+GetVisualOverflowRectRelativeToSelf
 (
 )
 )

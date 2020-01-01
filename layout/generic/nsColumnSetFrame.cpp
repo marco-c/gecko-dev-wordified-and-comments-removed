@@ -1677,7 +1677,7 @@ r
 aChild
 -
 >
-GetOverflowRect
+GetVisualOverflowRect
 (
 )
 ;
@@ -2402,7 +2402,7 @@ shrinkingHeightOnly
 child
 -
 >
-GetOverflowRect
+GetScrollableOverflowRect
 (
 )
 .

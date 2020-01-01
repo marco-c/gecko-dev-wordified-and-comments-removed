@@ -4648,7 +4648,7 @@ nsRect
 &
 aRect
 PRBool
-aRemoveOverflowArea
+aRemoveOverflowAreas
 =
 PR_FALSE
 )
@@ -5030,7 +5030,7 @@ aOldRect
 const
 nsRect
 &
-aOldOverflowRect
+aOldVisualOverflowRect
 const
 nsSize
 &

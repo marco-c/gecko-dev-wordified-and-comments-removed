@@ -2737,7 +2737,7 @@ return
 aFrame
 -
 >
-GetOverflowRect
+GetVisualOverflowRect
 (
 )
 ;
@@ -4382,7 +4382,7 @@ nativeTheme
 aForFrame
 -
 >
-GetOverflowRectRelativeToSelf
+GetVisualOverflowRectRelativeToSelf
 (
 )
 +

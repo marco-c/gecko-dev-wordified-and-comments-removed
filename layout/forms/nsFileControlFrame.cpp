@@ -2953,7 +2953,7 @@ clipRect
 .
 width
 =
-GetOverflowRect
+GetVisualOverflowRect
 (
 )
 .

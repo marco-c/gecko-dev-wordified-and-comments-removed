@@ -132,7 +132,7 @@ nsRect
 &
 aRect
 PRBool
-aRemoveOverflowArea
+aRemoveOverflowAreas
 =
 PR_FALSE
 )

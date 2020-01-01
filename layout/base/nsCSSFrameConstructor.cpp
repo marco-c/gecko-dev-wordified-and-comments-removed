@@ -30441,7 +30441,7 @@ child
 child
 -
 >
-GetOverflowRectRelativeToSelf
+GetVisualOverflowRectRelativeToSelf
 (
 )
 )
@@ -30642,7 +30642,7 @@ InvalidateLayer
 aFrame
 -
 >
-GetOverflowRectRelativeToSelf
+GetVisualOverflowRectRelativeToSelf
 (
 )
 nsDisplayItem
@@ -30674,7 +30674,7 @@ InvalidateLayer
 aFrame
 -
 >
-GetOverflowRectRelativeToSelf
+GetVisualOverflowRectRelativeToSelf
 (
 )
 nsDisplayItem

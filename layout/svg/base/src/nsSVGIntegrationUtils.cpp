@@ -234,7 +234,7 @@ return
 aFrame
 -
 >
-GetOverflowRect
+GetVisualOverflowRect
 (
 )
 ;
@@ -626,7 +626,7 @@ return
 aFrame
 -
 >
-GetOverflowRect
+GetVisualOverflowRect
 (
 )
 ;

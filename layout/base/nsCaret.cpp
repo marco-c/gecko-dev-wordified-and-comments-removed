@@ -1717,7 +1717,7 @@ XMost
 scrolled
 -
 >
-GetOverflowRectRelativeToSelf
+GetVisualOverflowRectRelativeToSelf
 (
 )
 .
@@ -2205,7 +2205,7 @@ frame
 frame
 -
 >
-GetOverflowRect
+GetVisualOverflowRect
 (
 )
 .
