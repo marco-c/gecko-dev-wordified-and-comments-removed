@@ -1222,12 +1222,8 @@ menu
 menuContent
 -
 >
-IsNodeOfType
+IsXUL
 (
-nsINode
-:
-:
-eXUL
 )
 )
 {
