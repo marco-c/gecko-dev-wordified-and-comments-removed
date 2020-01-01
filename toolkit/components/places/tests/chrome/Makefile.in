@@ -464,6 +464,14 @@ test_342484
 .
 xul
 \
+test_341972a
+.
+xul
+\
+test_341972b
+.
+xul
+\
 (
 NULL
 )
