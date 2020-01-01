@@ -1507,6 +1507,7 @@ Utils
 .
 homeTab
 )
+{
 (
 this
 )
@@ -1515,6 +1516,11 @@ hide
 (
 )
 ;
+reconnected
+=
+true
+;
+}
 else
 {
 var
