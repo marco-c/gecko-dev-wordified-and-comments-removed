@@ -1425,7 +1425,7 @@ WaitForSingleObject
 pi
 .
 hProcess
-INFINITE
+10000
 )
 ;
 }
