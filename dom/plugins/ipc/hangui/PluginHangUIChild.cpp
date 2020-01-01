@@ -1409,6 +1409,11 @@ mParentWindow
 TRUE
 )
 ;
+SetForegroundWindow
+(
+mParentWindow
+)
+;
 break
 ;
 }
