@@ -18,6 +18,9 @@ nsIPrincipal
 .
 h
 "
+class
+nsCString
+;
 struct
 nsJSPrincipals
 :
@@ -40,8 +43,8 @@ nsIPrincipal
 *
 aPrincipal
 const
-char
-*
+nsCString
+&
 aCodebase
 )
 ;

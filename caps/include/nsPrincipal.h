@@ -215,6 +215,7 @@ nsHashtable
 mAnnotations
 ;
 nsHashtable
+*
 mCapabilities
 ;
 nsCString
