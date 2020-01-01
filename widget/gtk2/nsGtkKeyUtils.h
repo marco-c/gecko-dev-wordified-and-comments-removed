@@ -42,8 +42,10 @@ static
 PRUint32
 ComputeDOMKeyCode
 (
-guint
-aGDKKeyval
+const
+GdkEventKey
+*
+aGdkKeyEvent
 )
 ;
 static
