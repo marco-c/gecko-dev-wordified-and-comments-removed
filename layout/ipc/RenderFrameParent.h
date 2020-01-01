@@ -304,6 +304,9 @@ mContainer
 ViewMap
 mContentViews
 ;
+bool
+mFrameLoaderDestroyed
+;
 }
 ;
 }
