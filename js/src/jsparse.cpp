@@ -29105,6 +29105,7 @@ pn_atom
 case
 JSOP_CALL
 :
+{
 if
 (
 pn
@@ -29152,6 +29153,7 @@ TCF_GENEXP_LAMBDA
 )
 break
 ;
+}
 case
 JSOP_DEFFUN
 :
