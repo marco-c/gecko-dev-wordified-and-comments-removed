@@ -76,7 +76,16 @@ PRInt32
 aPosInSet
 PRInt32
 *
-aSizeSet
+aSetSize
+)
+;
+static
+PRBool
+HasAccGroupAttrs
+(
+nsIPersistentProperties
+*
+aAttributes
 )
 ;
 static
@@ -91,7 +100,7 @@ aLevel
 PRInt32
 aPosInSet
 PRInt32
-aSizeSet
+aSetSize
 )
 ;
 static

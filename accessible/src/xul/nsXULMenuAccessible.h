@@ -207,11 +207,11 @@ PRUint8
 _retval
 )
 ;
-NS_IMETHOD
-GetAttributes
+virtual
+nsresult
+GetAttributesInternal
 (
 nsIPersistentProperties
-*
 *
 aAttributes
 )

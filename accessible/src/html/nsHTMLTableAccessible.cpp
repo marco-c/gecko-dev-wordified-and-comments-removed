@@ -801,14 +801,13 @@ return
 NS_OK
 ;
 }
-NS_IMETHODIMP
+nsresult
 nsHTMLTableAccessible
 :
 :
-GetAttributes
+GetAttributesInternal
 (
 nsIPersistentProperties
-*
 *
 aAttributes
 )
@@ -829,7 +828,7 @@ rv
 nsAccessibleWrap
 :
 :
-GetAttributes
+GetAttributesInternal
 (
 aAttributes
 )
@@ -857,10 +856,7 @@ isProbablyForLayout
 nsAutoString
 oldValueUnused
 ;
-(
-*
 aAttributes
-)
 -
 >
 SetStringProperty

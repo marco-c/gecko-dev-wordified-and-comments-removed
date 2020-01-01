@@ -1925,14 +1925,13 @@ return
 NS_OK
 ;
 }
-NS_IMETHODIMP
+nsresult
 nsXULMenuitemAccessible
 :
 :
-GetAttributes
+GetAttributesInternal
 (
 nsIPersistentProperties
-*
 *
 aAttributes
 )
@@ -1954,7 +1953,7 @@ rv
 nsAccessible
 :
 :
-GetAttributes
+GetAttributesInternal
 (
 aAttributes
 )
@@ -1971,7 +1970,6 @@ nsAccessibilityUtils
 SetAccAttrsForXULSelectControlItem
 (
 mDOMNode
-*
 aAttributes
 )
 ;

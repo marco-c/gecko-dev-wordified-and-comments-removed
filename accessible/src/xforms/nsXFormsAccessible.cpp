@@ -923,14 +923,13 @@ aDescription
 )
 ;
 }
-NS_IMETHODIMP
+nsresult
 nsXFormsAccessible
 :
 :
-GetAttributes
+GetAttributesInternal
 (
 nsIPersistentProperties
-*
 *
 aAttributes
 )
@@ -946,7 +945,7 @@ rv
 nsHyperTextAccessible
 :
 :
-GetAttributes
+GetAttributesInternal
 (
 aAttributes
 )
@@ -981,10 +980,7 @@ nsAutoString
 unused
 ;
 return
-(
-*
 aAttributes
-)
 -
 >
 SetStringProperty

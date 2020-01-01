@@ -350,6 +350,15 @@ PRUint32
 aExtraState
 )
 ;
+virtual
+nsresult
+GetAttributesInternal
+(
+nsIPersistentProperties
+*
+aAttributes
+)
+;
 nsresult
 GetARIAState
 (

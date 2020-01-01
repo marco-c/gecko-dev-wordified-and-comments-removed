@@ -432,14 +432,13 @@ return
 NS_OK
 ;
 }
-NS_IMETHODIMP
+nsresult
 nsHTMLRadioButtonAccessible
 :
 :
-GetAttributes
+GetAttributesInternal
 (
 nsIPersistentProperties
-*
 *
 aAttributes
 )
@@ -461,7 +460,7 @@ rv
 nsRadioButtonAccessible
 :
 :
-GetAttributes
+GetAttributesInternal
 (
 aAttributes
 )
@@ -767,7 +766,6 @@ nsAccessibilityUtils
 :
 SetAccGroupAttrs
 (
-*
 aAttributes
 0
 indexOf
