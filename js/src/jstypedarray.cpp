@@ -3722,7 +3722,7 @@ isString
 {
 JS_ALWAYS_TRUE
 (
-ValueToNumber
+ToNumber
 (
 cx
 *
@@ -6304,12 +6304,15 @@ isMagic
 jsdouble
 dval
 ;
-ValueToNumber
+JS_ALWAYS_TRUE
+(
+ToNumber
 (
 cx
 v
 &
 dval
+)
 )
 ;
 return

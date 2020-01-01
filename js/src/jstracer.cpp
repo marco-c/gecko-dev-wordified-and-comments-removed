@@ -47501,7 +47501,7 @@ v
 ;
 JS_ALWAYS_TRUE
 (
-ValueToNumber
+ToNumber
 (
 cx
 tvr
@@ -50251,7 +50251,9 @@ addr
 =
 l
 ;
-ValueToNumber
+JS_ALWAYS_TRUE
+(
+ToNumber
 (
 cx
 tvr
@@ -50261,6 +50263,7 @@ value
 )
 &
 lnum
+)
 )
 ;
 *
@@ -50272,7 +50275,9 @@ addr
 =
 r
 ;
-ValueToNumber
+JS_ALWAYS_TRUE
+(
+ToNumber
 (
 cx
 tvr
@@ -50282,6 +50287,7 @@ value
 )
 &
 rnum
+)
 )
 ;
 }

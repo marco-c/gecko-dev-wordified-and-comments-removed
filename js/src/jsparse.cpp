@@ -39245,7 +39245,7 @@ d
 if
 (
 !
-ValueToNumber
+ToNumber
 (
 cx
 StringValue

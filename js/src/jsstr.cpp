@@ -6339,7 +6339,7 @@ d
 if
 (
 !
-ValueToNumber
+ToNumber
 (
 cx
 vp
@@ -12891,7 +12891,7 @@ d
 if
 (
 !
-ValueToNumber
+ToNumber
 (
 cx
 vp

@@ -7783,7 +7783,7 @@ d
 ;
 JS_ALWAYS_TRUE
 (
-ValueToNumber
+ToNumber
 (
 cx
 top
@@ -16134,7 +16134,7 @@ rd
 ;
 JS_ALWAYS_TRUE
 (
-ValueToNumber
+ToNumber
 (
 cx
 lhs
@@ -16145,7 +16145,7 @@ ld
 ;
 JS_ALWAYS_TRUE
 (
-ValueToNumber
+ToNumber
 (
 cx
 rhs

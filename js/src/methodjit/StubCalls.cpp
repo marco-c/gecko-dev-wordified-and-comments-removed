@@ -4531,7 +4531,7 @@ r
 if
 (
 !
-ValueToNumber
+ToNumber
 (
 cx
 lval
@@ -4540,9 +4540,8 @@ l
 )
 |
 |
-\
 !
-ValueToNumber
+ToNumber
 (
 cx
 rval
@@ -4550,15 +4549,12 @@ rval
 r
 )
 )
-{
 \
 THROWV
 (
 JS_FALSE
 )
 ;
-\
-}
 \
 cond
 =
@@ -5276,7 +5272,7 @@ r
 if
 (
 !
-ValueToNumber
+ToNumber
 (
 cx
 lval
@@ -5286,7 +5282,7 @@ l
 |
 |
 !
-ValueToNumber
+ToNumber
 (
 cx
 rval
@@ -5294,11 +5290,9 @@ rval
 r
 )
 )
-{
 return
 false
 ;
-}
 if
 (
 EQ
@@ -5792,7 +5786,7 @@ r
 if
 (
 !
-ValueToNumber
+ToNumber
 (
 cx
 lval
@@ -5802,7 +5796,7 @@ l
 |
 |
 !
-ValueToNumber
+ToNumber
 (
 cx
 rval
@@ -5919,7 +5913,7 @@ d2
 if
 (
 !
-ValueToNumber
+ToNumber
 (
 cx
 regs
@@ -5935,7 +5929,7 @@ d1
 |
 |
 !
-ValueToNumber
+ToNumber
 (
 cx
 regs
@@ -5949,12 +5943,10 @@ sp
 d2
 )
 )
-{
 THROW
 (
 )
 ;
-}
 double
 d
 =
@@ -6011,7 +6003,7 @@ d2
 if
 (
 !
-ValueToNumber
+ToNumber
 (
 cx
 regs
@@ -6027,7 +6019,7 @@ d1
 |
 |
 !
-ValueToNumber
+ToNumber
 (
 cx
 regs
@@ -6041,12 +6033,10 @@ sp
 d2
 )
 )
-{
 THROW
 (
 )
 ;
-}
 double
 d
 =
@@ -6112,7 +6102,7 @@ d2
 if
 (
 !
-ValueToNumber
+ToNumber
 (
 cx
 regs
@@ -6128,7 +6118,7 @@ d1
 |
 |
 !
-ValueToNumber
+ToNumber
 (
 cx
 regs
@@ -6142,12 +6132,10 @@ sp
 d2
 )
 )
-{
 THROW
 (
 )
 ;
-}
 if
 (
 d2
@@ -6397,7 +6385,7 @@ d2
 if
 (
 !
-ValueToNumber
+ToNumber
 (
 cx
 regs
@@ -6413,7 +6401,7 @@ d1
 |
 |
 !
-ValueToNumber
+ToNumber
 (
 cx
 regs
@@ -6427,12 +6415,10 @@ sp
 d2
 )
 )
-{
 THROW
 (
 )
 ;
-}
 if
 (
 d2
@@ -6981,7 +6967,7 @@ d
 if
 (
 !
-ValueToNumber
+ToNumber
 (
 f
 .
@@ -8562,7 +8548,7 @@ d
 if
 (
 !
-ValueToNumber
+ToNumber
 (
 cx
 ref
@@ -14747,7 +14733,7 @@ f
 if
 (
 !
-ValueToNumber
+ToNumber
 (
 f
 .

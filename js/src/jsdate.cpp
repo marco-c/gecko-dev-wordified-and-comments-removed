@@ -2382,7 +2382,7 @@ d
 if
 (
 !
-ValueToNumber
+ToNumber
 (
 cx
 argv
@@ -7534,7 +7534,7 @@ result
 if
 (
 !
-ValueToNumber
+ToNumber
 (
 cx
 vp
@@ -7730,7 +7730,7 @@ i
 if
 (
 !
-ValueToNumber
+ToNumber
 (
 cx
 argv
@@ -8313,7 +8313,7 @@ i
 if
 (
 !
-ValueToNumber
+ToNumber
 (
 cx
 argv
@@ -8784,7 +8784,7 @@ year
 if
 (
 !
-ValueToNumber
+ToNumber
 (
 cx
 vp
@@ -11798,7 +11798,7 @@ isString
 if
 (
 !
-ValueToNumber
+ToNumber
 (
 cx
 argv

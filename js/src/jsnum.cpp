@@ -1451,7 +1451,7 @@ x
 if
 (
 !
-ValueToNumber
+ToNumber
 (
 cx
 vp
@@ -1520,7 +1520,7 @@ x
 if
 (
 !
-ValueToNumber
+ToNumber
 (
 cx
 vp
@@ -2908,7 +2908,7 @@ argc
 if
 (
 !
-ValueToNumber
+ToNumber
 (
 cx
 &
@@ -6481,7 +6481,7 @@ cstrlen
 ;
 }
 bool
-ValueToNumberSlow
+ToNumberSlow
 (
 JSContext
 *
@@ -6723,7 +6723,7 @@ else
 if
 (
 !
-ValueToNumberSlow
+ToNumberSlow
 (
 cx
 v
@@ -6798,7 +6798,7 @@ else
 if
 (
 !
-ValueToNumberSlow
+ToNumberSlow
 (
 cx
 v
@@ -6987,7 +6987,7 @@ else
 if
 (
 !
-ValueToNumberSlow
+ToNumberSlow
 (
 cx
 v
@@ -7107,7 +7107,7 @@ else
 if
 (
 !
-ValueToNumberSlow
+ToNumberSlow
 (
 cx
 v
