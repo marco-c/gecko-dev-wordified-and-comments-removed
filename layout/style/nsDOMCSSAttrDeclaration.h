@@ -120,7 +120,7 @@ aParent
 )
 ;
 virtual
-nsISupports
+nsINode
 *
 GetParentObject
 (

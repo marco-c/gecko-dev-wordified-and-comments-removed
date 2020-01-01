@@ -137,7 +137,7 @@ Shutdown
 )
 ;
 virtual
-nsISupports
+nsINode
 *
 GetParentObject
 (

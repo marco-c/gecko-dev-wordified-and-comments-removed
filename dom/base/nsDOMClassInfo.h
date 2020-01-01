@@ -367,6 +367,9 @@ scope
 nsISupports
 *
 native
+nsWrapperCache
+*
+nativeWrapperCache
 JSObject
 *
 *

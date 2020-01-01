@@ -4025,7 +4025,7 @@ void
 )
 ;
 virtual
-nsISupports
+nsINode
 *
 GetParentObject
 (
