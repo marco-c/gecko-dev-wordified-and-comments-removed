@@ -218,7 +218,7 @@ clearSelection
 }
 this
 .
-clearContextualActions
+_clearContextualActions
 (
 )
 ;
@@ -841,17 +841,6 @@ show
 )
 ;
 }
-else
-{
-Elements
-.
-contextappbar
-.
-hide
-(
-)
-;
-}
 let
 idsToVisibleVerbs
 =
@@ -1123,7 +1112,7 @@ true
 )
 ;
 }
-clearContextualActions
+_clearContextualActions
 :
 function
 (
