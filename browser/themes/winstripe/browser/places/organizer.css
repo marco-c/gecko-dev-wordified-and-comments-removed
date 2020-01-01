@@ -9,7 +9,7 @@ min
 -
 height
 :
-30px
+36px
 ;
 }
 #
@@ -1798,6 +1798,17 @@ not
 (
 [
 disabled
+=
+"
+true
+"
+]
+)
+:
+not
+(
+[
+checked
 =
 "
 true
