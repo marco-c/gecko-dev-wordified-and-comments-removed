@@ -3730,9 +3730,8 @@ parent
 parent
 -
 >
-GetChildAt
+GetFirstChild
 (
-0
 )
 =
 =

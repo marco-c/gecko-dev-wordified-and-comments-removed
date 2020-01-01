@@ -419,12 +419,6 @@ js
 script
 regress
 -
-613452
-.
-js
-script
-regress
--
 627859
 .
 js
@@ -482,12 +476,6 @@ regress
 627984
 -
 7
-.
-js
-script
-regress
--
-630377
 .
 js
 script

@@ -69,6 +69,7 @@ HUDBox
 ;
 for
 (
+let
 i
 =
 0
@@ -131,6 +132,7 @@ HUDBox
 ;
 for
 (
+let
 i
 =
 0

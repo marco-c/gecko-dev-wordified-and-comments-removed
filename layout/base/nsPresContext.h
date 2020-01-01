@@ -3363,6 +3363,17 @@ nsIAtom
 *
 mLanguage
 ;
+public
+:
+nsIFrame
+*
+mCurrentInflationContainer
+;
+nscoord
+mCurrentInflationContainerWidth
+;
+protected
+:
 nsRefPtrHashtable
 <
 nsVoidPtrHashKey

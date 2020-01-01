@@ -3783,7 +3783,7 @@ aFont
 aStyleContext
 -
 >
-GetStyleVisibility
+GetStyleFont
 (
 )
 -
@@ -5735,7 +5735,7 @@ font
 mStyleContext
 -
 >
-GetStyleVisibility
+GetStyleFont
 (
 )
 -
@@ -8542,7 +8542,7 @@ theFont
 styleContext
 -
 >
-GetStyleVisibility
+GetStyleFont
 (
 )
 -

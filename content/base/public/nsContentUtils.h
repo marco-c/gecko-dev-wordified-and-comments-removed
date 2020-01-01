@@ -2772,12 +2772,6 @@ AddScriptBlocker
 ;
 static
 void
-AddScriptBlockerAndPreventAddingRunners
-(
-)
-;
-static
-void
 RemoveScriptBlocker
 (
 )

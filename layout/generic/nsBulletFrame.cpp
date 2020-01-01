@@ -5753,7 +5753,11 @@ nsLayoutUtils
 :
 FontSizeInflationFor
 (
-aReflowState
+this
+nsLayoutUtils
+:
+:
+eInReflow
 )
 ;
 SetFontSizeInflation

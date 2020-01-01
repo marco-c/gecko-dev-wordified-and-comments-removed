@@ -931,7 +931,6 @@ list
 >
 CalcHeightOfARow
 (
-aReflowState
 )
 ;
 if

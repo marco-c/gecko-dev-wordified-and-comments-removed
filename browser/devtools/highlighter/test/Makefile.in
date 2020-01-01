@@ -535,6 +535,10 @@ browser_inspector_duplicate_ruleview
 .
 js
 \
+browser_inspector_invalidate
+.
+js
+\
 head
 .
 js

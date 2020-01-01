@@ -3782,10 +3782,7 @@ return
 NULL
 ;
 }
-JS_PUBLIC_API
-(
 size_t
-)
 JS
 :
 :

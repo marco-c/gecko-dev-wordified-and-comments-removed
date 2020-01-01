@@ -4472,6 +4472,14 @@ mFrameDataSize
 6
 )
 ;
+if
+(
+self
+-
+>
+mDecompressBufferUsed
+)
+{
 PRUint32
 ratio
 =
@@ -4503,6 +4511,7 @@ SPDY_SYN_REPLY_RATIO
 ratio
 )
 ;
+}
 nsDependentCSubstring
 status
 version

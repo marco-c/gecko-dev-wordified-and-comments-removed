@@ -1084,7 +1084,6 @@ REJOIN_NONE
 REJOIN_RESUME
 REJOIN_TRAP
 REJOIN_FALLTHROUGH
-REJOIN_JUMP
 REJOIN_NATIVE
 REJOIN_NATIVE_LOWERED
 REJOIN_NATIVE_GETTER
@@ -2509,7 +2508,12 @@ nukeScriptDependentICs
 )
 ;
 size_t
-scriptDataSize
+computedSizeOfIncludingThis
+(
+)
+;
+size_t
+sizeOfIncludingThis
 (
 JSMallocSizeOfFun
 mallocSizeOf
@@ -2916,7 +2920,7 @@ pinline
 )
 ;
 size_t
-scriptDataSize
+sizeOfIncludingThis
 (
 JSMallocSizeOfFun
 mallocSizeOf

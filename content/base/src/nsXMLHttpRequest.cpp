@@ -7277,6 +7277,16 @@ nsISupports
 ctxt
 )
 {
+SAMPLE_LABEL
+(
+"
+nsXMLHttpRequest
+"
+"
+OnStartRequest
+"
+)
+;
 nsresult
 rv
 =

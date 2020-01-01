@@ -677,6 +677,9 @@ useZip
 )
 :
         
+try
+:
+          
 localZip
 =
 tempfile
@@ -689,7 +692,7 @@ mktemp
 .
 zip
 "
-        
+          
 remoteZip
 =
 remoteDir
@@ -700,7 +703,7 @@ adbdmtmp
 .
 zip
 "
-        
+          
 subprocess
 .
 check_output
@@ -722,7 +725,7 @@ cwd
 =
 localDir
 )
-        
+          
 self
 .
 pushFile
@@ -730,14 +733,14 @@ pushFile
 localZip
 remoteZip
 )
-        
+          
 os
 .
 remove
 (
 localZip
 )
-        
+          
 data
 =
 self
@@ -769,7 +772,7 @@ stdout
 read
 (
 )
-        
+          
 self
 .
 checkCmdAs
@@ -784,7 +787,7 @@ rm
 remoteZip
 ]
 )
-        
+          
 if
 (
 re
@@ -811,6 +814,21 @@ permitted
 data
 )
 )
+:
+            
+raise
+Exception
+(
+"
+unzip
+failed
+or
+permissions
+error
+"
+)
+        
+except
 :
           
 print

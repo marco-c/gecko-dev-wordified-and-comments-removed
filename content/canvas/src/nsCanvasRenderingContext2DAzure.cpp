@@ -11463,7 +11463,7 @@ language
 sc
 -
 >
-GetStyleVisibility
+GetStyleFont
 (
 )
 -

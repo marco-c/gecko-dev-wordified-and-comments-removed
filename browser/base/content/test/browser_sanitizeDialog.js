@@ -1,3 +1,9 @@
+let
+tempScope
+=
+{
+}
+;
 Cc
 [
 "
@@ -37,7 +43,15 @@ sanitize
 .
 js
 "
+tempScope
 )
+;
+let
+Sanitizer
+=
+tempScope
+.
+Sanitizer
 ;
 const
 dm

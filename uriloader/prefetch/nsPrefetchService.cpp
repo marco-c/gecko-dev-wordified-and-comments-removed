@@ -43,13 +43,6 @@ h
 #
 include
 "
-nsIDocCharset
-.
-h
-"
-#
-include
-"
 nsIWebProgress
 .
 h
