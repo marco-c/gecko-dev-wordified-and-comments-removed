@@ -3280,11 +3280,6 @@ put
 self
 .
 cb
-this
-.
-_file
-.
-data
 )
 ;
 }
@@ -3441,11 +3436,6 @@ put
 self
 .
 cb
-this
-.
-_file
-.
-data
 )
 ;
 }
