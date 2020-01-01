@@ -786,6 +786,10 @@ MediaStreamList
 .
 webidl
 \
+RTCIceServer
+.
+webidl
+\
 (
 NULL
 )

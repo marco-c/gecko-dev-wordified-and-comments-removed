@@ -117,6 +117,10 @@ test_peerConnection_bug827843
 .
 html
 \
+test_peerConnection_bug825703
+.
+html
+\
 head
 .
 js
