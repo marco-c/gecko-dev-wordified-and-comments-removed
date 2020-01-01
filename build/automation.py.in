@@ -4636,8 +4636,6 @@ kernel32
 GetExitCodeProcess
 (
 pHandle
-self
-.
 ctypes
 .
 byref
