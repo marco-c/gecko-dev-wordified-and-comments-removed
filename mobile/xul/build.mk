@@ -511,13 +511,13 @@ fast
 -
 package
 :
-MOZ_FAST_PACKAGE
-=
-1
 (
 MAKE
 )
 package
+MOZ_FAST_PACKAGE
+=
+1
 install
 :
 :
