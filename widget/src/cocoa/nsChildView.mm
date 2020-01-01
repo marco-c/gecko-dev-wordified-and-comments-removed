@@ -23720,6 +23720,15 @@ first
 if
 (
 !
+nsToolkit
+:
+:
+OnLeopardOrLater
+(
+)
+&
+&
+!
 keyUpAlreadySentKeyDown
 &
 &
