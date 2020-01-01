@@ -116,3 +116,13 @@ services
 -
 crypto
 '
+EXTRA_COMPONENTS
++
+=
+[
+'
+cryptoComponents
+.
+manifest
+'
+]

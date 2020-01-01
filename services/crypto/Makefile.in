@@ -90,17 +90,6 @@ js
 (
 NULL
 )
-EXTRA_COMPONENTS
-:
-=
-\
-cryptoComponents
-.
-manifest
-\
-(
-NULL
-)
 CRYPTO_MODULE_FILES
 :
 =

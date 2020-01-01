@@ -101,6 +101,16 @@ TEST_DIRS
 tests
 '
 ]
+EXTRA_COMPONENTS
++
+=
+[
+'
+DataReporting
+.
+manifest
+'
+]
 EXTRA_PP_COMPONENTS
 +
 =

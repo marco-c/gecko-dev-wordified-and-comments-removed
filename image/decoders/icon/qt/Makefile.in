@@ -84,11 +84,6 @@ LOCAL_INCLUDES
 (
 MOZ_QT_CFLAGS
 )
-EXTRA_COMPONENTS
-=
-gtkqticonsconverter
-.
-manifest
 include
 (
 topsrcdir

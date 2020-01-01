@@ -118,17 +118,6 @@ TESTING_JS_MODULE_DIR
 services
 /
 datareporting
-EXTRA_COMPONENTS
-:
-=
-\
-DataReporting
-.
-manifest
-\
-(
-NULL
-)
 include
 (
 topsrcdir

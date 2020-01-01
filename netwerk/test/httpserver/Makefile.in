@@ -92,16 +92,6 @@ mk
 NO_INTERFACES_MANIFEST
 =
 1
-EXTRA_COMPONENTS
-=
-\
-httpd
-.
-js
-\
-(
-NULL
-)
 ifdef
 XPI_NAME
 NO_JS_MANIFEST

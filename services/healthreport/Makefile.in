@@ -250,17 +250,6 @@ TESTING_JS_MODULE_DIR
 services
 /
 healthreport
-EXTRA_COMPONENTS
-:
-=
-\
-HealthReportComponents
-.
-manifest
-\
-(
-NULL
-)
 include
 (
 topsrcdir

@@ -148,17 +148,6 @@ js
 (
 NULL
 )
-EXTRA_COMPONENTS
-:
-=
-\
-servicesComponents
-.
-manifest
-\
-(
-NULL
-)
 PREF_JS_EXPORTS
 =
 (

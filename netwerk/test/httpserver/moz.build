@@ -120,3 +120,13 @@ xpcshell
 ini
 '
 ]
+EXTRA_COMPONENTS
++
+=
+[
+'
+httpd
+.
+js
+'
+]
