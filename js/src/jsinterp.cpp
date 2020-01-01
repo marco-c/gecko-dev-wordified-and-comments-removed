@@ -2508,6 +2508,11 @@ CanMethodJIT
 cx
 script
 fp
+-
+>
+isConstructing
+(
+)
 mjit
 :
 :
@@ -3348,7 +3353,7 @@ CanMethodJIT
 (
 cx
 script_
-fp
+false
 mjit
 :
 :
@@ -22483,11 +22488,7 @@ CanMethodJIT
 (
 cx
 script
-regs
-.
-fp
-(
-)
+construct
 request
 )
 ;

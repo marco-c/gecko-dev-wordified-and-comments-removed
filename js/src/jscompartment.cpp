@@ -2185,6 +2185,7 @@ ReleaseScriptCode
 (
 cx
 script
+!
 normal
 )
 ;

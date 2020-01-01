@@ -493,11 +493,8 @@ mjit
 TryCompile
 (
 cx
-ifg_
-.
-fp
-(
-)
+script_
+false
 )
 ;
 if
