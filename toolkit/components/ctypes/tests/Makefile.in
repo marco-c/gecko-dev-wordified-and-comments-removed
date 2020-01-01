@@ -84,9 +84,6 @@ jscttest
 FORCE_SHARED_LIB
 =
 1
-NO_DIST_INSTALL
-=
-1
 LOCAL_INCLUDES
 =
 \

@@ -98,6 +98,9 @@ MODULE
 '
 libandroidstagefrightgb234
 '
+NO_DIST_INSTALL
+=
+True
 if
 CONFIG
 [

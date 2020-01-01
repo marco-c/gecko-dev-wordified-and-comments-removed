@@ -98,6 +98,9 @@ MODULE
 '
 libandroidutils
 '
+NO_DIST_INSTALL
+=
+True
 if
 CONFIG
 [

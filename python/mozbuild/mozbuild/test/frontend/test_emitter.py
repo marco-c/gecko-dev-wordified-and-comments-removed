@@ -1181,6 +1181,12 @@ lib
 '
 ]
             
+NO_DIST_INSTALL
+=
+'
+1
+'
+            
 SDK_LIBRARY
 =
 [

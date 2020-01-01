@@ -193,9 +193,6 @@ install
 OMX
 media
 plugin
-NO_DIST_INSTALL
-=
-1
 NO_INSTALL
 =
 1

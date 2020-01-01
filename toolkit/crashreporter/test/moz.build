@@ -98,6 +98,9 @@ MODULE
 '
 crashreporter_test
 '
+NO_DIST_INSTALL
+=
+True
 XPCSHELL_TESTS_MANIFESTS
 +
 =
