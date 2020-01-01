@@ -563,7 +563,7 @@ h
 #
 include
 "
-nsIEmbeddingSiteWindow2
+nsIEmbeddingSiteWindow
 .
 h
 "
@@ -20501,7 +20501,7 @@ treeOwner
 ;
 nsCOMPtr
 <
-nsIEmbeddingSiteWindow2
+nsIEmbeddingSiteWindow
 >
 siteWindow
 (

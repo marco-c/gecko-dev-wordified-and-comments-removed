@@ -706,10 +706,6 @@ nsIEmbeddingSiteWindow
 )
 NS_INTERFACE_MAP_ENTRY
 (
-nsIEmbeddingSiteWindow2
-)
-NS_INTERFACE_MAP_ENTRY
-(
 nsIWebBrowserChromeFocus
 )
 NS_INTERFACE_MAP_ENTRY
