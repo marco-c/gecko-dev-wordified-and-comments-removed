@@ -10813,6 +10813,9 @@ typeBarriers
 barrier
 ;
 }
+#
+ifdef
+DEBUG
 static
 void
 PrintObjectCallback
@@ -10851,6 +10854,8 @@ cx
 )
 ;
 }
+#
+endif
 void
 TypeCompartment
 :
@@ -10978,6 +10983,16 @@ cx
 #
 ifdef
 DEBUG
+{
+AutoUnlockGC
+unlock
+(
+cx
+-
+>
+runtime
+)
+;
 IterateCells
 (
 cx
@@ -10990,6 +11005,7 @@ NULL
 PrintObjectCallback
 )
 ;
+}
 #
 endif
 printf
