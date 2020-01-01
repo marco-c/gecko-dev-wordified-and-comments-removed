@@ -510,7 +510,7 @@ if
 (
 gPrivateBrowsingUI
 .
-privateBrowsingEnabled
+privateWindow
 )
 return
 false
