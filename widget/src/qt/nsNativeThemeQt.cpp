@@ -478,10 +478,10 @@ ctm
 xx
 ctm
 .
-xy
+yx
 ctm
 .
-yx
+xy
 ctm
 .
 yy
