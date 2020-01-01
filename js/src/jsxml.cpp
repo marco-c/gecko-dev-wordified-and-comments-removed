@@ -15259,7 +15259,10 @@ str
 ;
 JS_ASSERT
 (
+JS_THREAD_DATA
+(
 cx
+)
 -
 >
 localRootStack
@@ -15543,7 +15546,10 @@ ns2
 ;
 JS_ASSERT
 (
+JS_THREAD_DATA
+(
 cx
+)
 -
 >
 localRootStack
@@ -22387,7 +22393,10 @@ tv
 ;
 JS_ASSERT
 (
+JS_THREAD_DATA
+(
 cx
+)
 -
 >
 localRootStack
