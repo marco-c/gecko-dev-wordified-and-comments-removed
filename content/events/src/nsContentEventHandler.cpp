@@ -1100,6 +1100,12 @@ GetStartParent
 (
 )
 ;
+NS_ENSURE_TRUE
+(
+startNode
+NS_ERROR_FAILURE
+)
+;
 nsINode
 *
 endNode
@@ -1109,6 +1115,12 @@ aRange
 >
 GetEndParent
 (
+)
+;
+NS_ENSURE_TRUE
+(
+endNode
+NS_ERROR_FAILURE
 )
 ;
 if
