@@ -7657,6 +7657,7 @@ return
 JS_TRUE
 ;
 }
+NS_SUPPRESS_STACK_CHECK
 JSBool
 XPCWrappedNative
 :
