@@ -4958,7 +4958,7 @@ certUsageObjectSigner
 :
 requiredKeyUsage
 =
-KU_DIGITAL_SIGNATURE_OR_NON_REPUDIATION
+KU_DIGITAL_SIGNATURE
 ;
 requiredCertType
 =
