@@ -202,7 +202,7 @@ modules
 /
 devtools
 /
-CmdCmd
+BuiltinCommands
 .
 jsm
 "
