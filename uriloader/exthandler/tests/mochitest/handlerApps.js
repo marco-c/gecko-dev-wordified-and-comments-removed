@@ -400,6 +400,15 @@ windowsDir
 clone
 (
 )
+.
+QueryInterface
+(
+Components
+.
+interfaces
+.
+nsILocalFile
+)
 ;
 exe
 .
