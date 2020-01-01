@@ -561,6 +561,12 @@ m_end
 m_freePtr
 ;
 }
+bool
+m_destroy
+;
+size_t
+m_gcNumber
+;
 private
 :
 static
@@ -1708,6 +1714,14 @@ n
 m_refCount
 (
 1
+)
+m_destroy
+(
+false
+)
+m_gcNumber
+(
+0
 )
 {
 size_t
