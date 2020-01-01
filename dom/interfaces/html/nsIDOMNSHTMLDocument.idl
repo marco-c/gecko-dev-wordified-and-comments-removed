@@ -646,6 +646,9 @@ op
 .
 *
 /
+[
+deprecated
+]
 void
 captureEvents
 (
@@ -654,6 +657,9 @@ long
 eventFlags
 )
 ;
+[
+deprecated
+]
 void
 releaseEvents
 (
@@ -662,6 +668,9 @@ long
 eventFlags
 )
 ;
+[
+deprecated
+]
 void
 routeEvent
 (

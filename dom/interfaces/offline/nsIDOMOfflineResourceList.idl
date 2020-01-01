@@ -529,9 +529,8 @@ managed
 entries
 .
 *
-status
-DEPRECATED
 *
+deprecated
 Clients
 should
 use
@@ -543,6 +542,9 @@ attribute
 .
 *
 /
+[
+deprecated
+]
 readonly
 attribute
 unsigned
@@ -564,9 +566,8 @@ managed
 entry
 .
 *
-status
-DEPRECATED
 *
+deprecated
 Clients
 should
 use
@@ -578,6 +579,9 @@ attribute
 .
 *
 /
+[
+deprecated
+]
 DOMString
 mozItem
 (

@@ -648,6 +648,9 @@ op
 .
 *
 /
+[
+deprecated
+]
 void
 captureEvents
 (
@@ -656,6 +659,9 @@ long
 eventFlags
 )
 ;
+[
+deprecated
+]
 void
 releaseEvents
 (
@@ -664,6 +670,9 @@ long
 eventFlags
 )
 ;
+[
+deprecated
+]
 void
 routeEvent
 (
@@ -672,11 +681,17 @@ nsIDOMEvent
 evt
 )
 ;
+[
+deprecated
+]
 void
 enableExternalCapture
 (
 )
 ;
+[
+deprecated
+]
 void
 disableExternalCapture
 (

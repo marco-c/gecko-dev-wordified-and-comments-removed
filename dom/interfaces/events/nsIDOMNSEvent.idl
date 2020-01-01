@@ -875,6 +875,9 @@ stopPropagation
 .
 *
 /
+[
+deprecated
+]
 void
 preventBubble
 (
@@ -893,6 +896,9 @@ stopPropagation
 .
 *
 /
+[
+deprecated
+]
 void
 preventCapture
 (
