@@ -34394,3 +34394,15 @@ dev_mode
 false
 )
 ;
+pref
+(
+"
+dom
+.
+mozApps
+.
+maxLocalId
+"
+10000
+)
+;
