@@ -1494,9 +1494,11 @@ DaylightSavingTA
 (
 jsdouble
 t
+JSContext
+*
+cx
 )
 {
-volatile
 int64
 PR_t
 ;
@@ -1599,9 +1601,15 @@ ms2us
 ;
 offset
 =
-PRMJ_DSTOffset
+cx
+-
+>
+dstOffsetCache
+.
+getDSTOffset
 (
 PR_t
+cx
 )
 ;
 JSLL_DIV
@@ -1627,6 +1635,9 @@ AdjustTime
 (
 jsdouble
 date
+JSContext
+*
+cx
 )
 {
 jsdouble
@@ -1635,6 +1646,7 @@ t
 DaylightSavingTA
 (
 date
+cx
 )
 +
 LocalTZA
@@ -1667,28 +1679,36 @@ return
 t
 ;
 }
-#
-define
+static
+jsdouble
 LocalTime
 (
+jsdouble
 t
+JSContext
+*
+cx
 )
-(
-(
+{
+return
 t
-)
 +
 AdjustTime
 (
 t
+cx
 )
-)
+;
+}
 static
 jsdouble
 UTC
 (
 jsdouble
 t
+JSContext
+*
+cx
 )
 {
 return
@@ -1699,6 +1719,7 @@ AdjustTime
 t
 -
 LocalTZA
+cx
 )
 ;
 }
@@ -2868,6 +2889,9 @@ str
 jsdouble
 *
 result
+JSContext
+*
+cx
 )
 {
 jsdouble
@@ -3509,6 +3533,7 @@ msec
 UTC
 (
 msec
+cx
 )
 ;
 }
@@ -3598,6 +3623,9 @@ str
 jsdouble
 *
 result
+JSContext
+*
+cx
 )
 {
 jsdouble
@@ -3694,6 +3722,7 @@ date_parseISOString
 (
 str
 result
+cx
 )
 )
 return
@@ -4981,6 +5010,7 @@ msec
 UTC
 (
 msec
+cx
 )
 ;
 }
@@ -5094,6 +5124,7 @@ date_parseString
 str
 &
 result
+cx
 )
 )
 {
@@ -5505,6 +5536,7 @@ result
 LocalTime
 (
 result
+cx
 )
 ;
 if
@@ -6844,6 +6876,7 @@ lorutime
 LocalTime
 (
 result
+cx
 )
 ;
 else
@@ -6997,6 +7030,7 @@ result
 UTC
 (
 result
+cx
 )
 ;
 return
@@ -7447,6 +7481,7 @@ local
 LocalTime
 (
 result
+cx
 )
 :
 result
@@ -7572,6 +7607,7 @@ result
 UTC
 (
 result
+cx
 )
 ;
 return
@@ -7874,6 +7910,7 @@ result
 LocalTime
 (
 result
+cx
 )
 :
 +
@@ -7913,6 +7950,7 @@ result
 UTC
 (
 result
+cx
 )
 ;
 return
@@ -8344,6 +8382,9 @@ timeval
 PRMJTime
 *
 split
+JSContext
+*
+cx
 )
 {
 jsint
@@ -8477,6 +8518,7 @@ tm_isdst
 DaylightSavingTA
 (
 timeval
+cx
 )
 !
 =
@@ -8562,6 +8604,7 @@ local
 LocalTime
 (
 date
+cx
 )
 ;
 jsint
@@ -8575,6 +8618,7 @@ floor
 AdjustTime
 (
 date
+cx
 )
 /
 msPerMinute
@@ -8600,6 +8644,7 @@ new_explode
 date
 &
 split
+cx
 )
 ;
 if
@@ -9077,6 +9122,7 @@ local
 LocalTime
 (
 utctime
+cx
 )
 ;
 new_explode
@@ -9084,6 +9130,7 @@ new_explode
 local
 &
 split
+cx
 )
 ;
 result_len
@@ -10551,6 +10598,7 @@ date_parseString
 str
 &
 d
+cx
 )
 )
 d
@@ -10600,6 +10648,7 @@ msec_time
 UTC
 (
 msec_time
+cx
 )
 ;
 msec_time
@@ -10811,6 +10860,7 @@ cx
 UTC
 (
 msec_time
+cx
 )
 )
 ;
@@ -11233,6 +11283,7 @@ obj
 UTC
 (
 local
+cx
 )
 )
 ;
@@ -11324,6 +11375,7 @@ obj
 UTC
 (
 local
+cx
 )
 )
 ;
@@ -11408,6 +11460,7 @@ obj
 UTC
 (
 local
+cx
 )
 )
 ;
@@ -11492,6 +11545,7 @@ obj
 UTC
 (
 local
+cx
 )
 )
 ;
@@ -11576,6 +11630,7 @@ obj
 UTC
 (
 local
+cx
 )
 )
 ;
@@ -11660,6 +11715,7 @@ obj
 UTC
 (
 local
+cx
 )
 )
 ;

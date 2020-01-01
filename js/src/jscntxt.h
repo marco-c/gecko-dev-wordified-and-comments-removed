@@ -145,6 +145,13 @@ jsvector
 h
 "
 #
+include
+"
+prmjtime
+.
+h
+"
+#
 ifdef
 _MSC_VER
 #
@@ -4806,6 +4813,9 @@ endif
 }
 JSClassProtoCache
 classProtoCache
+;
+DSTOffsetCache
+dstOffsetCache
 ;
 private
 :
