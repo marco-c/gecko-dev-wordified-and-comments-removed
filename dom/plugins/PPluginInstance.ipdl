@@ -503,10 +503,10 @@ using
 NPError
 ;
 using
-NPEvent
+NPRemoteWindow
 ;
 using
-NPRemoteWindow
+NPRemoteEvent
 ;
 using
 NPReason
@@ -616,7 +616,7 @@ result
 rpc
 NPP_HandleEvent
 (
-NPEvent
+NPRemoteEvent
 event
 )
 returns

@@ -185,7 +185,7 @@ bool
 AnswerNPP_HandleEvent
 (
 const
-NPEvent
+NPRemoteEvent
 &
 event
 int16_t
