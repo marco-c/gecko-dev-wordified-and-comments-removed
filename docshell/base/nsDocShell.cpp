@@ -30003,6 +30003,11 @@ nsIStructuredCloneContainer
 >
 scContainer
 ;
+if
+(
+shEntry
+)
+{
 nsresult
 rv
 =
@@ -30023,6 +30028,7 @@ rv
 rv
 )
 ;
+}
 document
 -
 >
