@@ -613,16 +613,18 @@ URL
 "
   
 return
+len
+(
 urlparse
 (
 thing
 )
 .
 scheme
-!
+)
+>
 =
-'
-'
+2
 def
 addCommonOptions
 (
