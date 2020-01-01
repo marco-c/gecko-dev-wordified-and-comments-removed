@@ -12323,7 +12323,7 @@ if
 mDocShell
 -
 >
-GetIsBrowserOrApp
+GetIsContentBoundary
 (
 )
 )
@@ -12407,7 +12407,7 @@ parent
 mDocShell
 -
 >
-GetSameTypeParentIgnoreBrowserAndAppBoundaries
+GetParentIgnoreBrowserFrame
 (
 getter_AddRefs
 (
@@ -12687,7 +12687,7 @@ mDocShell
 mDocShell
 -
 >
-GetIsInBrowserOrApp
+GetIsBelowContentBoundary
 (
 )
 )
@@ -26267,7 +26267,7 @@ IsFrame
 mDocShell
 -
 >
-GetIsBrowserOrApp
+GetIsContentBoundary
 (
 )
 )
@@ -28369,7 +28369,7 @@ mDocShell
 mDocShell
 -
 >
-GetIsBrowserOrApp
+GetIsContentBoundary
 (
 )
 )
@@ -28430,7 +28430,7 @@ parent
 mDocShell
 -
 >
-GetSameTypeParentIgnoreBrowserAndAppBoundaries
+GetParentIgnoreBrowserFrame
 (
 getter_AddRefs
 (
