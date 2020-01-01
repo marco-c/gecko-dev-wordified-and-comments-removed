@@ -285,6 +285,10 @@ sandbox
 \
 ipc
 /
+glue
+\
+ipc
+/
 testshell
 \
 js

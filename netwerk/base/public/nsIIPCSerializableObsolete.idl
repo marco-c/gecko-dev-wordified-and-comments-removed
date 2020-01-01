@@ -186,7 +186,7 @@ uuid
 )
 ]
 interface
-nsIIPCSerializable
+nsIIPCSerializableObsolete
 :
 nsISupports
 {

@@ -35,7 +35,7 @@ h
 #
 include
 "
-nsIIPCSerializable
+nsIIPCSerializableObsolete
 .
 h
 "
@@ -165,7 +165,7 @@ nsIStandardURL
 public
 nsISerializable
 public
-nsIIPCSerializable
+nsIIPCSerializableObsolete
 public
 nsIClassInfo
 public
@@ -179,7 +179,7 @@ NS_DECL_NSIURL
 NS_DECL_NSIFILEURL
 NS_DECL_NSISTANDARDURL
 NS_DECL_NSISERIALIZABLE
-NS_DECL_NSIIPCSERIALIZABLE
+NS_DECL_NSIIPCSERIALIZABLEOBSOLETE
 NS_DECL_NSICLASSINFO
 NS_DECL_NSIMUTABLE
 virtual

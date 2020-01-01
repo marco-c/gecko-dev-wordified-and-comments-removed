@@ -50,13 +50,6 @@ h
 #
 include
 "
-nsIIPCSerializable
-.
-h
-"
-#
-include
-"
 nsIClassInfo
 .
 h

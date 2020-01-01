@@ -1051,7 +1051,7 @@ nsIStreamBufferAccess
 )
 NS_INTERFACE_MAP_ENTRY
 (
-nsIIPCSerializable
+nsIIPCSerializableObsolete
 )
 NS_IMPL_QUERY_CLASSINFO
 (
@@ -1068,7 +1068,7 @@ nsIInputStream
 nsIBufferedInputStream
 nsISeekableStream
 nsIStreamBufferAccess
-nsIIPCSerializable
+nsIIPCSerializableObsolete
 )
 nsresult
 nsBufferedInputStream

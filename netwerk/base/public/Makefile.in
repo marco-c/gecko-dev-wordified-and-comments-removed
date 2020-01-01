@@ -236,7 +236,7 @@ nsIIOService2
 .
 idl
 \
-nsIIPCSerializable
+nsIIPCSerializableObsolete
 .
 idl
 \

@@ -3161,13 +3161,6 @@ resources
 "
 )
 ;
-int
-fd
-=
-aXSocketFd
-.
-fd
-;
 mPluginXSocketFdDup
 .
 forget
@@ -3178,7 +3171,11 @@ mPluginXSocketFdDup
 .
 reset
 (
-fd
+aXSocketFd
+.
+PlatformHandle
+(
+)
 )
 ;
 #

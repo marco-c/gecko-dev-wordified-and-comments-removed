@@ -7727,7 +7727,6 @@ SendBackUpXResources
 FileDescriptor
 (
 xSocketFd
-false
 )
 )
 ;
