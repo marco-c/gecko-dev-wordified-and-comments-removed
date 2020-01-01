@@ -508,10 +508,6 @@ MozMmsMessage
 )
 DOMCI_CLASS
 (
-MozSmsRequest
-)
-DOMCI_CLASS
-(
 MozSmsFilter
 )
 DOMCI_CLASS
