@@ -265,6 +265,11 @@ aSelLen
 )
 ;
 void
+NotifyAppShellReady
+(
+)
+;
+void
 NotifyXreExit
 (
 )
@@ -699,6 +704,9 @@ jEnableLocation
 ;
 jmethodID
 jReturnIMEQueryResult
+;
+jmethodID
+jNotifyAppShellReady
 ;
 jmethodID
 jNotifyXreExit
