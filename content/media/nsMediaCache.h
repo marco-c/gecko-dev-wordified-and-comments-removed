@@ -33,6 +33,9 @@ nsCOMPtr
 h
 "
 class
+nsByteRange
+;
+class
 nsMediaCache
 ;
 class
@@ -244,6 +247,17 @@ GetNextCachedData
 (
 PRInt64
 aOffset
+)
+;
+nsresult
+GetCachedRanges
+(
+nsTArray
+<
+nsByteRange
+>
+&
+aRanges
 )
 ;
 nsresult
