@@ -1201,6 +1201,10 @@ browser_tabs_owner
 .
 js
 \
+browser_urlbarCopying
+.
+js
+\
 browser_urlbarTrimURLs
 .
 js
