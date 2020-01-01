@@ -56,6 +56,9 @@ h
 "
 #
 endif
+#
+ifdef
+MOZ_IPC
 using
 namespace
 mozilla
@@ -63,9 +66,6 @@ mozilla
 :
 net
 ;
-#
-ifdef
-MOZ_IPC
 #
 include
 "
