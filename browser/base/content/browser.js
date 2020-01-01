@@ -6461,12 +6461,6 @@ init
 (
 )
 ;
-DownloadsButton
-.
-initializePlaceholder
-(
-)
-;
 retrieveToolbarIconsizesFromTheme
 (
 )
