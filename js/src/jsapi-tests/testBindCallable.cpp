@@ -30,9 +30,10 @@ v
 ;
 CHECK
 (
-JSVAL_IS_OBJECT
-(
 v
+.
+isObject
+(
 )
 )
 ;
@@ -61,9 +62,10 @@ func
 ;
 CHECK
 (
-JSVAL_IS_OBJECT
-(
 func
+.
+isObject
+(
 )
 )
 ;
