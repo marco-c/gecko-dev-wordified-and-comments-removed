@@ -1477,9 +1477,6 @@ nsIRDFNode
 *
 mValue
 ;
-PRInt32
-mCount
-;
 bool
 mTruthValue
 ;
@@ -1700,10 +1697,6 @@ aTarget
 mValue
 (
 nsnull
-)
-mCount
-(
-0
 )
 mTruthValue
 (
