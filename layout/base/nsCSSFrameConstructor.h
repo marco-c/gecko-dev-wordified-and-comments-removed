@@ -1898,6 +1898,8 @@ nsIContent
 aContent
 )
 ;
+public
+:
 nsIFrame
 *
 GetAbsoluteContainingBlock
@@ -1907,6 +1909,8 @@ nsIFrame
 aFrame
 )
 ;
+private
+:
 nsIFrame
 *
 GetFloatContainingBlock
