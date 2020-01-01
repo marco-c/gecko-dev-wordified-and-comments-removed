@@ -938,6 +938,7 @@ firefox
 or
 thunderbird
 "
+LINENO
 fi
 if
 [
@@ -1014,6 +1015,7 @@ of
 .
 0
 "
+LINENO
 fi
 executable
 =
@@ -1043,6 +1045,7 @@ returned
 empty
 path
 "
+LINENO
 fi
 if
 [
@@ -1069,6 +1072,7 @@ is
 not
 executable
 "
+LINENO
 fi
 TEST_BIN
 /
@@ -1121,6 +1125,7 @@ digits
 or
 _
 "
+LINENO
 fi
 if
 [
@@ -1164,6 +1169,7 @@ to
 windows
 path
 "
+LINENO
 fi
 else
 directoryospath
@@ -1209,6 +1215,7 @@ creating
 profile
 directory
 "
+LINENO
 fi
 if
 [
@@ -1241,6 +1248,7 @@ does
 not
 exist
 "
+LINENO
 fi
 echo
 "

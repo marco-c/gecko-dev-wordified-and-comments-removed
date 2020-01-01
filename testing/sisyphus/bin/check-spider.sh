@@ -466,6 +466,14 @@ TEST_BIN
 library
 .
 sh
+TEST_STARTUP_TRIES
+=
+{
+TEST_STARTUP_TRIES
+:
+-
+3
+}
 #
 #
 options
@@ -721,7 +729,7 @@ script
 returns
 exit
 code
-66
+2
 .
 EOF
 exit
@@ -894,6 +902,7 @@ firefox
 or
 thunderbird
 "
+LINENO
 fi
 if
 [
@@ -970,6 +979,7 @@ of
 .
 0
 "
+LINENO
 fi
 executable
 =
@@ -999,6 +1009,7 @@ returned
 empty
 path
 "
+LINENO
 fi
 if
 [
@@ -1025,6 +1036,7 @@ is
 not
 executable
 "
+LINENO
 fi
 if
 echo
@@ -1058,6 +1070,7 @@ digits
 or
 _
 "
+LINENO
 fi
 echo
 #
@@ -1158,11 +1171,11 @@ tries
 "
 -
 gt
-3
+TEST_STARTUP_TRIES
 ]
 ;
 then
-echo
+error
 "
 Failed
 to
@@ -1174,7 +1187,6 @@ Exiting
 .
 .
 "
-exit
-66
+LINENO
 fi
 done

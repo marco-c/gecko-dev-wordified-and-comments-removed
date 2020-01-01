@@ -512,6 +512,7 @@ client
 mk
 clean
 "
+LINENO
 fi
 ;
 ;
@@ -546,6 +547,7 @@ during
 SpiderMonkey
 clean
 "
+LINENO
 fi
 ;
 ;

@@ -851,6 +851,7 @@ firefox
 or
 thunderbird
 "
+LINENO
 fi
 executable
 =
@@ -880,6 +881,7 @@ returned
 empty
 path
 "
+LINENO
 fi
 if
 [
@@ -906,6 +908,7 @@ is
 not
 executable
 "
+LINENO
 fi
 executablepath
 =

@@ -621,6 +621,7 @@ product
 -
 branch
 "
+LINENO
 fi
 if
 [
@@ -739,6 +740,7 @@ product
 -
 branch
 "
+LINENO
 fi
 if
 !
@@ -799,6 +801,7 @@ TEST_DIR
 /
 xpi
 "
+LINENO
 fi
 if
 !
@@ -850,6 +853,7 @@ sh
 failed
 .
 "
+LINENO
 fi
 uninstall
 -

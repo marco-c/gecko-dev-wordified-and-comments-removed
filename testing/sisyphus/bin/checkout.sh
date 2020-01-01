@@ -498,6 +498,7 @@ not
 specified
 !
 "
+LINENO
 fi
 cd
 TREE
@@ -577,6 +578,7 @@ checkout
 of
 mozconfig
 "
+LINENO
 fi
 fi
 cd
@@ -603,6 +605,7 @@ checkout
 of
 tree
 "
+LINENO
 fi
 ;
 ;
@@ -688,6 +691,7 @@ js
 /
 src
 "
+LINENO
 fi
 if
 !
@@ -720,6 +724,7 @@ js
 /
 src
 "
+LINENO
 fi
 #
 end
@@ -736,6 +741,7 @@ unknown
 product
 product
 "
+LINENO
 ;
 ;
 esac

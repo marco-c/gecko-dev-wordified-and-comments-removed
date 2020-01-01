@@ -888,6 +888,7 @@ firefox
 or
 thunderbird
 "
+LINENO
 fi
 if
 [
@@ -964,6 +965,7 @@ of
 .
 0
 "
+LINENO
 fi
 executable
 =
@@ -993,6 +995,7 @@ returned
 empty
 path
 "
+LINENO
 fi
 if
 [
@@ -1019,6 +1022,7 @@ is
 not
 executable
 "
+LINENO
 fi
 if
 echo
@@ -1050,6 +1054,7 @@ digits
 or
 _
 "
+LINENO
 fi
 for
 extension
@@ -1059,6 +1064,8 @@ extensions
 all
 /
 *
+.
+xpi
 ;
 do
 if
@@ -1073,6 +1080,8 @@ extensions
 all
 /
 *
+.
+xpi
 "
 ]
 ]
@@ -1257,6 +1266,7 @@ to
 install
 extensionos
 "
+LINENO
 fi
 done
 #
@@ -1380,4 +1390,5 @@ install
 extensions
 page
 "
+LINENO
 fi

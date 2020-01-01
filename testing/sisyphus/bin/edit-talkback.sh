@@ -842,6 +842,7 @@ returned
 empty
 path
 "
+LINENO
 fi
 if
 [
@@ -868,6 +869,7 @@ is
 not
 executable
 "
+LINENO
 fi
 executablepath
 =
@@ -1577,6 +1579,7 @@ unknown
 os
 OSID
 "
+LINENO
 ;
 ;
 esac
@@ -1598,6 +1601,7 @@ empty
 talkback
 directory
 "
+LINENO
 fi
 mkdir
 -
@@ -1791,5 +1795,6 @@ os
 =
 OSID
 "
+LINENO
 esac
 fi

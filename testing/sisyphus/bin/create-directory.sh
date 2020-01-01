@@ -765,6 +765,7 @@ run
 as
 root
 "
+LINENO
 fi
 #
 get
@@ -799,6 +800,7 @@ is
 not
 accessible
 "
+LINENO
 fi
 directory
 =
@@ -833,6 +835,7 @@ not
 be
 root
 "
+LINENO
 fi
 parent
 =
@@ -896,6 +899,7 @@ subdirectory
 of
 parent
 "
+LINENO
 fi
 #
 clean

@@ -520,6 +520,7 @@ error
 during
 build
 "
+LINENO
 else
 echo
 "
@@ -533,6 +534,7 @@ a
 clobber
 build
 "
+LINENO
 if
 !
 make
@@ -555,6 +557,7 @@ during
 forced
 clobber
 "
+LINENO
 fi
 if
 !
@@ -578,6 +581,7 @@ during
 forced
 build
 "
+LINENO
 fi
 fi
 fi
@@ -803,6 +807,7 @@ returned
 empty
 path
 "
+LINENO
 fi
 executabledir
 =
@@ -962,6 +967,7 @@ js
 src
 clean
 "
+LINENO
 fi
 if
 !
@@ -988,6 +994,7 @@ js
 src
 build
 "
+LINENO
 fi
 ;
 ;

@@ -963,6 +963,7 @@ file
 type
 filetype
 "
+LINENO
 fi
 else
 case
@@ -1022,6 +1023,7 @@ file
 type
 filetype
 "
+LINENO
 fi
 ;
 ;
@@ -1178,6 +1180,7 @@ image
 :
 result
 "
+LINENO
 fi
 for
 app
@@ -1246,6 +1249,7 @@ returned
 empty
 directory
 "
+LINENO
 fi
 executabledir
 =
