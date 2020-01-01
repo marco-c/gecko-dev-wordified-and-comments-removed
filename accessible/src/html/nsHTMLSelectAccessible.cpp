@@ -4658,11 +4658,6 @@ STATE_HASPOPUP
 nsIAccessibleStates
 :
 :
-STATE_READONLY
-|
-nsIAccessibleStates
-:
-:
 STATE_FOCUSABLE
 ;
 return
