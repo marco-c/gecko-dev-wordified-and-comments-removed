@@ -1127,6 +1127,9 @@ mLocalPort
 uint16_t
 mRemotePort
 ;
+bool
+mUsingDtls
+;
 nsCOMPtr
 <
 nsITimer
