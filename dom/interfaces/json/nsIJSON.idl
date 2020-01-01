@@ -460,7 +460,7 @@ h
 %
 }
 native
-JSVal
+jsval
 (
 jsval
 )
@@ -609,7 +609,7 @@ it
 [
 noscript
 ]
-JSVal
+jsval
 decodeToJSVal
 (
 in

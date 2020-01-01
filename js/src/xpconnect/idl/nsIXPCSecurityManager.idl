@@ -491,7 +491,7 @@ JSObject
 )
 ;
 native
-JSVal
+jsval
 (
 jsval
 )
@@ -771,7 +771,7 @@ in
 nsIClassInfo
 aClassInfo
 in
-JSVal
+jsval
 aName
 inout
 voidPtr

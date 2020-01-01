@@ -539,7 +539,7 @@ in
 string
 aClassName
 in
-JSVal
+jsval
 aProperty
 in
 PRUint32
@@ -2432,7 +2432,7 @@ context
 stack
 then
 it
-supersedes
+supercedes
 this
 call
 .

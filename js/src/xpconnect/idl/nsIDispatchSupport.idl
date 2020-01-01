@@ -620,7 +620,7 @@ in
 COMVARIANTPtr
 comvar
 out
-JSVal
+jsval
 val
 )
 ;
@@ -661,7 +661,7 @@ void
 JSVal2COMVariant
 (
 in
-JSVal
+jsval
 var
 out
 COMVARIANT

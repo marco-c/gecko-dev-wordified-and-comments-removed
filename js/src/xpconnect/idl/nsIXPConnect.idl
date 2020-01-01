@@ -627,7 +627,7 @@ h
 /
 NB
 :
-JSVal
+jsval
 is
 declared
 in
@@ -1692,7 +1692,7 @@ nsIInterfaceInfo
 FindInterfaceWithMember
 (
 in
-JSVal
+jsval
 nameID
 )
 ;
@@ -1700,7 +1700,7 @@ nsIInterfaceInfo
 FindInterfaceWithName
 (
 in
-JSVal
+jsval
 nameID
 )
 ;
@@ -4266,7 +4266,7 @@ in
 boolean
 aAllowWrapper
 out
-JSVal
+jsval
 aVal
 out
 nsIXPConnectJSObjectHolder
@@ -4458,7 +4458,7 @@ result
 Wraps
 the
 given
-JSVal
+jsval
 in
 a
 nsIVariant
@@ -5005,7 +5005,7 @@ PRBool
 noGC
 )
 ;
-JSVal
+jsval
 variantToJS
 (
 in
@@ -5026,7 +5026,7 @@ in
 JSContextPtr
 ctx
 in
-JSVal
+jsval
 value
 )
 ;
@@ -5408,7 +5408,7 @@ method
 [
 noscript
 ]
-JSVal
+jsval
 evalInSandboxObject
 (
 in
@@ -5473,7 +5473,7 @@ wrap
 [
 noscript
 ]
-JSVal
+jsval
 getXOWForObject
 (
 in
@@ -5535,7 +5535,7 @@ wrap
 [
 noscript
 ]
-JSVal
+jsval
 getCOWForObject
 (
 in
@@ -6216,7 +6216,7 @@ details
 [
 noscript
 ]
-JSVal
+jsval
 getWrapperForObject
 (
 in

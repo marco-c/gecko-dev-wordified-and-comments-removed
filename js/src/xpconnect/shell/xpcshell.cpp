@@ -930,10 +930,7 @@ C
 "
 {
 extern
-JS_EXPORT_API
-(
 char
-)
 *
 readline
 (
@@ -944,10 +941,7 @@ prompt
 )
 ;
 extern
-JS_EXPORT_API
-(
 void
-)
 add_history
 (
 char

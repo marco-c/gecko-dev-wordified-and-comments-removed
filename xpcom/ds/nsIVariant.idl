@@ -812,7 +812,7 @@ h
 %
 }
 native
-JSVal
+jsval
 (
 jsval
 )
@@ -1085,7 +1085,7 @@ getAsISupports
 [
 noscript
 ]
-JSVal
+jsval
 getAsJSVal
 (
 )

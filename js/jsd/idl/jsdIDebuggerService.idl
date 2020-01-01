@@ -538,7 +538,7 @@ JSContext
 )
 ;
 native
-JSVal
+jsval
 (
 jsval
 )
@@ -2409,7 +2409,7 @@ jsdIValue
 wrapJSValue
 (
 in
-JSVal
+jsval
 value
 )
 ;
