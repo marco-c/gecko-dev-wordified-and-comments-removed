@@ -49,10 +49,7 @@ class
 TabChild
 :
 public
-IFrameEmbeddingProtocol
-:
-:
-Child
+IFrameEmbeddingProtocolChild
 {
 private
 :
@@ -94,7 +91,7 @@ aChannel
 ;
 virtual
 nsresult
-init
+Answerinit
 (
 const
 MagicWindowHandle
@@ -104,7 +101,7 @@ parentWidget
 ;
 virtual
 nsresult
-loadURL
+AnswerloadURL
 (
 const
 String
@@ -114,7 +111,7 @@ uri
 ;
 virtual
 nsresult
-move
+Answermove
 (
 const
 uint32_t
@@ -138,9 +135,6 @@ private
 :
 MagicWindowHandle
 mWidget
-;
-IFrameEmbeddingProtocolChild
-mChild
 ;
 nsCOMPtr
 <

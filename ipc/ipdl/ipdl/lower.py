@@ -4365,9 +4365,8 @@ Whitespace
 NL
 )
         
-if
-0
-and
+dispatches
+=
 p
 .
 decl
@@ -4377,6 +4376,21 @@ type
 isToplevel
 (
 )
+and
+p
+.
+decl
+.
+type
+.
+isManager
+(
+)
+        
+if
+0
+and
+dispatches
 :
             
 addDispatcher
@@ -4440,15 +4454,7 @@ talksSync
 if
 0
 and
-p
-.
-decl
-.
-type
-.
-isToplevel
-(
-)
+dispatches
 :
                 
 addDispatcher
@@ -4518,15 +4524,7 @@ talksRpc
 :
                 
 if
-p
-.
-decl
-.
-type
-.
-isToplevel
-(
-)
+dispatches
 :
                     
 addDispatcher
@@ -5172,6 +5170,16 @@ decl
 type
 .
 isToplevel
+(
+)
+and
+p
+.
+decl
+.
+type
+.
+isManager
 (
 )
 :

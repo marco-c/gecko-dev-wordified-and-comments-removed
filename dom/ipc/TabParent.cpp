@@ -99,10 +99,6 @@ parentWidget
 mSubprocess
 (
 )
-mParent
-(
-this
-)
 mMonitor
 (
 "
@@ -156,8 +152,6 @@ Wait
 )
 ;
 }
-mParent
-.
 Open
 (
 mSubprocess
@@ -167,9 +161,7 @@ GetChannel
 )
 )
 ;
-mParent
-.
-init
+Callinit
 (
 parentWidget
 )
@@ -233,9 +225,7 @@ GetSpec
 spec
 )
 ;
-mParent
-.
-loadURL
+CallloadURL
 (
 spec
 .
@@ -261,9 +251,7 @@ PRUint32
 height
 )
 {
-mParent
-.
-move
+Callmove
 (
 x
 y

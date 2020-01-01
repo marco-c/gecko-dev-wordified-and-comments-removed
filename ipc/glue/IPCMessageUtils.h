@@ -45,8 +45,7 @@ NPAPIProtocolMsgStart
 NPPProtocolMsgStart
 =
 0
-IFrameEmbedding_ParentToChildMsgStart
-IFrameEmbedding_ChildToParentMsgStart
+IFrameEmbeddingProtocolMsgStart
 LastMsgIndex
 }
 ;

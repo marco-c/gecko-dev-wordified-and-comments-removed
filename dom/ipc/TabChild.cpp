@@ -83,10 +83,6 @@ mWidget
 (
 0
 )
-mChild
-(
-this
-)
 {
 }
 TabChild
@@ -115,8 +111,6 @@ Channel
 aChannel
 )
 {
-mChild
-.
 Open
 (
 aChannel
@@ -131,7 +125,7 @@ nsresult
 TabChild
 :
 :
-init
+Answerinit
 (
 const
 MagicWindowHandle
@@ -266,7 +260,7 @@ nsresult
 TabChild
 :
 :
-loadURL
+AnswerloadURL
 (
 const
 String
@@ -327,7 +321,7 @@ nsresult
 TabChild
 :
 :
-move
+Answermove
 (
 const
 uint32_t
