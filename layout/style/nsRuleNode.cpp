@@ -27369,6 +27369,8 @@ mMinWidth
 SETCOORD_LPEH
 |
 SETCOORD_INITIAL_ZERO
+|
+SETCOORD_STORE_CALC
 aContext
 mPresContext
 canStoreInRuleTree
@@ -27390,6 +27392,8 @@ mMaxWidth
 SETCOORD_LPOEH
 |
 SETCOORD_INITIAL_NONE
+|
+SETCOORD_STORE_CALC
 aContext
 mPresContext
 canStoreInRuleTree
