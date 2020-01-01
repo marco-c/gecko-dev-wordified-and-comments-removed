@@ -748,7 +748,7 @@ backoff
 ;
 }
 public
-int
+long
 totalBackoffInMilliseconds
 (
 )
@@ -797,9 +797,12 @@ e
 )
 {
 }
-int
+long
 totalBackoff
 =
+(
+long
+)
 Math
 .
 max

@@ -438,6 +438,13 @@ sync
 /
 net
 /
+HttpResponseObserver
+.
+java
+sync
+/
+net
+/
 Resource
 .
 java
