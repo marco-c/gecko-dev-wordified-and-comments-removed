@@ -211,10 +211,6 @@ returnAddressPtr
 class
 IonActivationIterator
 {
-JSContext
-*
-cx_
-;
 uint8
 *
 top_
@@ -230,6 +226,13 @@ IonActivationIterator
 JSContext
 *
 cx
+)
+;
+IonActivationIterator
+(
+ThreadData
+*
+td
 )
 ;
 IonActivationIterator
@@ -251,6 +254,12 @@ return
 top_
 ;
 }
+bool
+more
+(
+)
+const
+;
 }
 ;
 }
