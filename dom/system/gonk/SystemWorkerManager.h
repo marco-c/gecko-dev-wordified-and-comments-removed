@@ -14,6 +14,13 @@ h
 #
 include
 "
+nsIRadioInterfaceLayer
+.
+h
+"
+#
+include
+"
 nsIObserver
 .
 h
@@ -153,9 +160,9 @@ cx
 ;
 nsCOMPtr
 <
-nsIWorkerHolder
+nsIRadioInterfaceLayer
 >
-mRILWorker
+mRIL
 ;
 #
 ifdef
