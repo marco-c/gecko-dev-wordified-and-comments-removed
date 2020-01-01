@@ -544,9 +544,6 @@ function
 sendMessageToJava
 (
 {
-gecko
-:
-{
 type
 :
 "
@@ -554,7 +551,6 @@ Sanitize
 :
 ClearHistory
 "
-}
 }
 )
 ;

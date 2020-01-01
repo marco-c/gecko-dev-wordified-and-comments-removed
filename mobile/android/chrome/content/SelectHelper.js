@@ -97,11 +97,7 @@ parse
 (
 sendMessageToJava
 (
-{
-gecko
-:
 list
-}
 )
 )
 ;

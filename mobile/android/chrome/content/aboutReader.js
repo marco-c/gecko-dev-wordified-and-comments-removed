@@ -1347,9 +1347,6 @@ gChromeWin
 sendMessageToJava
 (
 {
-gecko
-:
-{
 type
 :
 "
@@ -1374,7 +1371,6 @@ this
 _article
 .
 url
-}
 }
 )
 ;
@@ -1427,9 +1423,6 @@ gChromeWin
 sendMessageToJava
 (
 {
-gecko
-:
-{
 type
 :
 "
@@ -1444,7 +1437,6 @@ this
 _article
 .
 url
-}
 }
 )
 ;
@@ -1479,9 +1471,6 @@ gChromeWin
 sendMessageToJava
 (
 {
-gecko
-:
-{
 type
 :
 "
@@ -1489,7 +1478,6 @@ Reader
 :
 GoToReadingList
 "
-}
 }
 )
 ;
@@ -1515,9 +1503,6 @@ gChromeWin
 sendMessageToJava
 (
 {
-gecko
-:
-{
 type
 :
 "
@@ -1539,7 +1524,6 @@ this
 _article
 .
 title
-}
 }
 )
 ;
@@ -2246,9 +2230,6 @@ gChromeWin
 sendMessageToJava
 (
 {
-gecko
-:
-{
 type
 :
 "
@@ -2263,7 +2244,6 @@ this
 _article
 .
 url
-}
 }
 )
 ;

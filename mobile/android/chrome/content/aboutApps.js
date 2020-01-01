@@ -423,9 +423,6 @@ gChromeWin
 sendMessageToJava
 (
 {
-gecko
-:
-{
 type
 :
 "
@@ -459,7 +456,6 @@ shortcutType
 "
 webapp
 "
-}
 }
 )
 ;
