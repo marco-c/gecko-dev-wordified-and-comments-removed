@@ -10070,7 +10070,7 @@ rv
 xpc
 -
 >
-InitClasses
+InitClassesForOuterObject
 (
 mContext
 global
