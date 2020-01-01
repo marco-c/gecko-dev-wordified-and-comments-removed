@@ -1272,9 +1272,6 @@ if
 !
 mPrograms
 [
-gl
-:
-:
 RGBALayerProgramType
 ]
 .

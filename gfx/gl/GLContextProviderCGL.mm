@@ -823,9 +823,9 @@ LOCAL_GL_TEXTURE_RECTANGLE_ARB
 ;
 details
 .
-mProgramType
+mTextureFormat
 =
-RGBARectLayerProgramType
+FORMAT_R8G8B8A8
 ;
 return
 true

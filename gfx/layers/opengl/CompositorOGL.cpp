@@ -2586,9 +2586,6 @@ if
 !
 mPrograms
 [
-gl
-:
-:
 RGBALayerProgramType
 ]
 .
@@ -5177,9 +5174,6 @@ aTexture
 tex
 ;
 }
-gl
-:
-:
 ShaderProgramType
 CompositorOGL
 :
@@ -5204,9 +5198,6 @@ case
 EFFECT_SOLID_COLOR
 :
 return
-gl
-:
-:
 ColorLayerProgramType
 ;
 case
@@ -5250,11 +5241,14 @@ AsSourceOGL
 )
 ;
 return
+ShaderProgramFromSurfaceFormat
+(
 source
 -
 >
-GetShaderProgram
+GetTextureFormat
 (
+)
 )
 ;
 }
@@ -5262,9 +5256,6 @@ case
 EFFECT_YCBCR
 :
 return
-gl
-:
-:
 YCbCrLayerProgramType
 ;
 case
@@ -5278,9 +5269,6 @@ GetFBOLayerProgramType
 default
 :
 return
-gl
-:
-:
 RGBALayerProgramType
 ;
 }
@@ -5663,9 +5651,6 @@ maskType
 MaskNone
 ;
 }
-gl
-:
-:
 ShaderProgramType
 programType
 =
@@ -5698,9 +5683,6 @@ if
 programType
 =
 =
-gl
-:
-:
 RGBARectLayerProgramType
 )
 {
@@ -6001,9 +5983,6 @@ if
 programType
 =
 =
-gl
-:
-:
 RGBALayerExternalProgramType
 )
 {
@@ -6680,9 +6659,6 @@ program
 =
 GetProgram
 (
-gl
-:
-:
 ComponentAlphaPass1ProgramType
 maskType
 )
@@ -6707,9 +6683,6 @@ program
 =
 GetProgram
 (
-gl
-:
-:
 ComponentAlphaPass2ProgramType
 maskType
 )
