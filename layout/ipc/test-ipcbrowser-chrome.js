@@ -49,7 +49,7 @@ content
 ;
 }
 function
-viewManager
+frameLoader
 (
 )
 {
@@ -68,6 +68,17 @@ nsIFrameLoaderOwner
 )
 .
 frameLoader
+;
+}
+function
+viewManager
+(
+)
+{
+return
+frameLoader
+(
+)
 .
 QueryInterface
 (
