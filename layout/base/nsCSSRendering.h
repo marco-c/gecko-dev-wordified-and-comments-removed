@@ -193,8 +193,7 @@ aIsCanvas
 )
 ;
 static
-const
-nsStyleBackground
+nsStyleContext
 *
 FindNonTransparentBackground
 (
