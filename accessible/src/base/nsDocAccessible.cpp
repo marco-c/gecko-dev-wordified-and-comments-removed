@@ -6665,6 +6665,7 @@ if
 !
 containerAccessible
 )
+{
 GetAccessibleInParentChain
 (
 domNode
@@ -6675,6 +6676,16 @@ containerAccessible
 )
 )
 ;
+if
+(
+!
+containerAccessible
+)
+containerAccessible
+=
+this
+;
+}
 nsCOMPtr
 <
 nsIAccessibleTextChangeEvent
