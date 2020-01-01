@@ -140,6 +140,10 @@ nscolor
 sButtonInnerDarkBorder
 ;
 static
+nscolor
+sOddCellBackground
+;
+static
 PRUnichar
 sInvisibleCharacter
 ;
