@@ -2620,6 +2620,9 @@ PredictedDataSize
 (
 )
 ;
+#
+if
+0
 if
 (
 dataSize
@@ -2641,6 +2644,8 @@ kPreallocateLimit
 )
 )
 ;
+#
+endif
 }
 PRInt32
 bytesWritten
