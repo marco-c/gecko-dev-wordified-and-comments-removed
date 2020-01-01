@@ -81,6 +81,9 @@ const
 nsACString
 &
 aScheme
+PRBool
+*
+found
 )
 ;
 NS_IMETHODIMP
