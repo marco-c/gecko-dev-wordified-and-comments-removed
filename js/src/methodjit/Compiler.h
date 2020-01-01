@@ -1387,6 +1387,9 @@ HeapSlot
 *
 globalSlots
 ;
+SPSInstrumentation
+sps
+;
 Assembler
 masm
 ;

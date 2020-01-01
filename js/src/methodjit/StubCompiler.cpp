@@ -78,6 +78,13 @@ frame
 (
 frame
 )
+masm
+(
+&
+cc
+.
+sps
+)
 generation
 (
 1
