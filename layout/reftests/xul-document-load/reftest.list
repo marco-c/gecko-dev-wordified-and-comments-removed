@@ -250,3 +250,15 @@ green
 window
 .
 xul
+=
+=
+test022
+.
+xul
+reference
+-
+green
+-
+window
+.
+xul
