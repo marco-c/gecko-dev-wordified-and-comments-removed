@@ -2092,7 +2092,7 @@ return
 (
 globalDebugHooks
 .
-interruptHandler
+interruptHook
 |
 |
 globalDebugHooks

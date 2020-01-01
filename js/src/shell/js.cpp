@@ -6633,8 +6633,7 @@ pc
 jsval
 *
 rval
-void
-*
+jsval
 closure
 )
 {
@@ -6648,11 +6647,10 @@ caller
 ;
 str
 =
+JSVAL_TO_STRING
 (
-JSString
-*
-)
 closure
+)
 ;
 caller
 =
@@ -6828,7 +6826,10 @@ code
 +
 i
 TrapHandler
+STRING_TO_JSVAL
+(
 str
+)
 )
 ;
 }

@@ -34,8 +34,7 @@ pc
 jsval
 *
 rval
-void
-*
+jsval
 closure
 )
 {
@@ -44,6 +43,13 @@ JS_GC
 cx
 )
 ;
+if
+(
+JSVAL_IS_STRING
+(
+closure
+)
+)
 +
 +
 emptyTrapCallCount
@@ -290,7 +296,10 @@ cx
 script
 line2
 EmptyTrapHandler
+STRING_TO_JSVAL
+(
 trapClosure
+)
 )
 ;
 JS_SetTrap
@@ -299,7 +308,10 @@ cx
 script
 line6
 EmptyTrapHandler
+STRING_TO_JSVAL
+(
 trapClosure
+)
 )
 ;
 JS_GC
