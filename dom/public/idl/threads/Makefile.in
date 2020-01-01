@@ -448,7 +448,7 @@ GRE_MODULE
 1
 XPIDLSRCS
 =
-nsIDOMWorkers
+nsIDOMThreads
 .
 idl
 include
