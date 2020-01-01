@@ -901,7 +901,7 @@ function
 Weave_deepCopy
 (
 thing
-sort
+noSort
 )
 {
 if
@@ -977,7 +977,7 @@ thing
 i
 ]
 )
-sort
+noSort
 )
 ;
 }
@@ -1003,7 +1003,8 @@ thing
 ;
 if
 (
-sort
+!
+noSort
 )
 props
 =
