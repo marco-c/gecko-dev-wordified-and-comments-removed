@@ -108,12 +108,6 @@ PRBool
 aCompileEventHandlers
 )
 ;
-nsresult
-ReparseStyleAttribute
-(
-void
-)
-;
 static
 void
 ParseStyleAttribute
@@ -128,6 +122,8 @@ aValue
 nsAttrValue
 &
 aResult
+PRBool
+aForceInDataDoc
 )
 ;
 static
@@ -163,6 +159,13 @@ nsIDOMCSSStyleDeclaration
 *
 *
 aStyle
+)
+;
+nsresult
+ReparseStyleAttribute
+(
+PRBool
+aForceInDataDoc
 )
 ;
 }

@@ -213,6 +213,7 @@ ParseStyleAttribute
 this
 aValue
 aResult
+PR_FALSE
 )
 ;
 return
@@ -512,6 +513,7 @@ rv
 ;
 ReparseStyleAttribute
 (
+PR_FALSE
 )
 ;
 return
@@ -572,6 +574,7 @@ mStyle
 {
 ReparseStyleAttribute
 (
+PR_TRUE
 )
 ;
 nsresult
@@ -649,6 +652,8 @@ nsStyledElement
 :
 ReparseStyleAttribute
 (
+PRBool
+aForceInDataDoc
 )
 {
 if
@@ -717,6 +722,7 @@ ParseStyleAttribute
 this
 stringValue
 attrValue
+aForceInDataDoc
 )
 ;
 nsresult
@@ -760,6 +766,8 @@ aValue
 nsAttrValue
 &
 aResult
+PRBool
+aForceInDataDoc
 )
 {
 nsresult
@@ -781,6 +789,20 @@ GetOwnerDoc
 if
 (
 doc
+&
+&
+(
+aForceInDataDoc
+|
+|
+!
+doc
+-
+>
+IsLoadedAsData
+(
+)
+)
 )
 {
 PRBool

@@ -817,6 +817,7 @@ ParseStyleAttribute
 this
 stringValue
 attrValue
+PR_TRUE
 )
 ;
 rv
