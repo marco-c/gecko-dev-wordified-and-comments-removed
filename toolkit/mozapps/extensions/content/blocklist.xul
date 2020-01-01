@@ -909,6 +909,11 @@ start
 >
 <
 label
+id
+=
+"
+moreInfo
+"
 class
 =
 "
