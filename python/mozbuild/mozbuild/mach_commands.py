@@ -384,7 +384,7 @@ self
 .
 footer
 :
-                    
+                
 self
 .
 footer
@@ -1237,12 +1237,16 @@ terminal
 monitor
 )
         
+self
+.
 handler
 =
 TerminalLoggingHandler
 (
 )
         
+self
+.
 handler
 .
 setFormatter
@@ -1252,6 +1256,8 @@ log_manager
 terminal_formatter
 )
         
+self
+.
 handler
 .
 footer
@@ -1266,9 +1272,13 @@ log_manager
 .
 replace_terminal_handler
 (
+self
+.
 handler
 )
         
+self
+.
 handler
 .
 level
@@ -1472,7 +1482,29 @@ state_changed
             
 self
 .
+handler
+.
+acquire
+(
+)
+            
+try
+:
+                
+self
+.
 refresh
+(
+)
+            
+finally
+:
+                
+self
+.
+handler
+.
+release
 (
 )
 CommandProvider
