@@ -19,6 +19,13 @@ h
 #
 include
 "
+jsautooplen
+.
+h
+"
+#
+include
+"
 builtin
 /
 Eval

@@ -54,6 +54,13 @@ h
 #
 include
 "
+jsautooplen
+.
+h
+"
+#
+include
+"
 jscntxt
 .
 h
