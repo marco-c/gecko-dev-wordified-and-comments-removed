@@ -223,6 +223,15 @@ nsINode
 aNode
 )
 ;
+virtual
+void
+ParentChainChanged
+(
+nsIContent
+*
+aContent
+)
+;
 private
 :
 nsRange

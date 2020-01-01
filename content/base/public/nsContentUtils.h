@@ -510,6 +510,11 @@ nsINode
 aParent2
 PRInt32
 aOffset2
+PRBool
+*
+aDisconnected
+=
+nsnull
 )
 ;
 static
