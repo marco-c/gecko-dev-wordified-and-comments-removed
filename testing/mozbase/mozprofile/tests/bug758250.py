@@ -91,6 +91,9 @@ join
 (
 here
 '
+addons
+'
+'
 empty
 '
 )

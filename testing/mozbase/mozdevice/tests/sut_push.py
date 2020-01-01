@@ -5,6 +5,8 @@ MockAgent
 import
 mozdevice
 import
+mozlog
+import
 unittest
 import
 hashlib
@@ -579,14 +581,6 @@ False
 try
 :
                 
-mozdevice
-.
-DroidSUT
-.
-debug
-=
-4
-                
 d
 =
 mozdevice
@@ -607,6 +601,12 @@ port
 a
 .
 port
+                                       
+logLevel
+=
+mozlog
+.
+DEBUG
 )
                 
 d
