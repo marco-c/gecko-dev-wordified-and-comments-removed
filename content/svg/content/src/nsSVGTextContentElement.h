@@ -7,13 +7,6 @@ __NS_SVGTEXTCONTENTELEMENTBASE_H__
 #
 include
 "
-DOMSVGTests
-.
-h
-"
-#
-include
-"
 nsIDOMSVGTextContentElement
 .
 h
@@ -41,8 +34,6 @@ nsSVGTextContentElement
 :
 public
 nsSVGTextContentElementBase
-public
-DOMSVGTests
 {
 public
 :

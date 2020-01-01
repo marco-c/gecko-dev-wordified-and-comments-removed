@@ -7,13 +7,6 @@ __NS_SVGFILTERELEMENT_H__
 #
 include
 "
-DOMSVGTests
-.
-h
-"
-#
-include
-"
 nsIDOMSVGFilterElement
 .
 h
@@ -68,7 +61,7 @@ nsSVGString
 h
 "
 typedef
-nsSVGGraphicElement
+nsSVGElement
 nsSVGFilterElementBase
 ;
 class
@@ -78,8 +71,6 @@ public
 nsSVGFilterElementBase
 public
 nsIDOMSVGFilterElement
-public
-DOMSVGTests
 public
 nsIDOMSVGURIReference
 public

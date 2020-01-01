@@ -1040,7 +1040,7 @@ SVG_MARKER_ORIENT_ANGLE
 }
 }
 return
-nsSVGMarkerElementBase
+nsSVGElement
 :
 :
 UnsetAttr

@@ -7,13 +7,6 @@ __NS_SVGPATTERNELEMENT_H__
 #
 include
 "
-DOMSVGTests
-.
-h
-"
-#
-include
-"
 nsIDOMSVGFitToViewBox
 .
 h
@@ -99,8 +92,6 @@ public
 nsSVGPatternElementBase
 public
 nsIDOMSVGPatternElement
-public
-DOMSVGTests
 public
 nsIDOMSVGURIReference
 public

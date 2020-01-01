@@ -19,10 +19,6 @@ NS_INTERFACE_MAP_BEGIN
 (
 nsSVGPathGeometryElement
 )
-NS_INTERFACE_MAP_ENTRY
-(
-nsIDOMSVGTests
-)
 NS_INTERFACE_MAP_END_INHERITING
 (
 nsSVGPathGeometryElementBase

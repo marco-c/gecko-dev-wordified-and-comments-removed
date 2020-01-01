@@ -248,7 +248,7 @@ NS_INTERFACE_TABLE_HEAD
 (
 nsSVGAltGlyphElement
 )
-NS_NODE_INTERFACE_TABLE8
+NS_NODE_INTERFACE_TABLE7
 (
 nsSVGAltGlyphElement
 nsIDOMNode
@@ -257,7 +257,6 @@ nsIDOMSVGElement
 nsIDOMSVGAltGlyphElement
 nsIDOMSVGTextPositioningElement
 nsIDOMSVGTextContentElement
-nsIDOMSVGTests
 nsIDOMSVGURIReference
 )
 NS_DOM_INTERFACE_MAP_ENTRY_CLASSINFO

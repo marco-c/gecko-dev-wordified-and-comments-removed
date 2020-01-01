@@ -7,13 +7,6 @@ __NS_SVGCLIPPATHELEMENT_H__
 #
 include
 "
-DOMSVGTests
-.
-h
-"
-#
-include
-"
 nsIDOMSVGClipPathElement
 .
 h
@@ -50,8 +43,6 @@ public
 nsSVGClipPathElementBase
 public
 nsIDOMSVGClipPathElement
-public
-DOMSVGTests
 public
 nsIDOMSVGUnitTypes
 {

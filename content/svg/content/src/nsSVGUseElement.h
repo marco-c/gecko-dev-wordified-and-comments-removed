@@ -7,13 +7,6 @@ __NS_SVGUSEELEMENT_H__
 #
 include
 "
-DOMSVGTests
-.
-h
-"
-#
-include
-"
 mozilla
 /
 dom
@@ -137,8 +130,6 @@ public
 nsSVGUseElementBase
 public
 nsIDOMSVGUseElement
-public
-DOMSVGTests
 public
 nsIDOMSVGURIReference
 public
