@@ -770,6 +770,15 @@ GetExcludedOuterBCBorder
 )
 const
 ;
+nsMargin
+GetDeflationForBackground
+(
+nsPresContext
+*
+aPresContext
+)
+const
+;
 nscoord
 GetContinuousLeftBCBorderWidth
 (

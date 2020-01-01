@@ -85,9 +85,12 @@ PaintTable
 nsTableFrame
 *
 aTableFrame
+const
 nsMargin
-*
+&
 aDeflate
+PRBool
+aPaintTableBackground
 )
 ;
 nsresult
@@ -136,11 +139,10 @@ aFirstRowGroup
 nsTableRowGroupFrame
 *
 aLastRowGroup
+const
 nsMargin
-*
+&
 aDeflate
-=
-nsnull
 )
 ;
 nsresult
