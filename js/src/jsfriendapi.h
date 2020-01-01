@@ -2618,14 +2618,8 @@ DEBUG_MODE_GC
 \
 D
 (
-UNUSED3
+TRANSPLANT
 )
-/
-*
-was
-REFILL
-*
-/
 \
 \
 /
