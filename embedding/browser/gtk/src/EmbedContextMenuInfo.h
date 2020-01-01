@@ -49,7 +49,7 @@ h
 #
 include
 "
-nsIFrame
+nsRect
 .
 h
 "
@@ -185,6 +185,17 @@ nsIDOMNode
 aDOMNode
 )
 ;
+nsString
+GetCtxDocTitle
+(
+void
+)
+{
+return
+mCtxDocTitle
+;
+}
+;
 PRInt32
 mX
 mY
@@ -221,7 +232,7 @@ nsIDOMDocument
 >
 mCtxDocument
 ;
-nsIntRect
+nsRect
 mFormRect
 ;
 nsCOMPtr
@@ -268,7 +279,9 @@ CheckDomHtmlNode
 (
 nsIDOMNode
 *
-node
+aNode
+=
+nsnull
 )
 ;
 EmbedPrivate
@@ -280,6 +293,9 @@ nsCOMPtr
 nsIDOMNode
 >
 mOrigNode
+;
+nsString
+mCtxDocTitle
 ;
 }
 ;
