@@ -426,6 +426,17 @@ include
 "
 vm
 /
+ObjectImpl
+-
+inl
+.
+h
+"
+#
+include
+"
+vm
+/
 RegExpObject
 -
 inl
