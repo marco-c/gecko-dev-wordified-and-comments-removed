@@ -59,9 +59,6 @@ nsIContent
 class
 nsIObjectOutputStream
 ;
-class
-nsIScriptContext
-;
 struct
 nsXBLTextWithLineNumber
 {

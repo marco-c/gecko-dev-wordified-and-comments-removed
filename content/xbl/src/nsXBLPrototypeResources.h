@@ -32,9 +32,6 @@ class
 nsIAtom
 ;
 class
-nsIScriptContext
-;
-class
 nsSupportsHashtable
 ;
 class
