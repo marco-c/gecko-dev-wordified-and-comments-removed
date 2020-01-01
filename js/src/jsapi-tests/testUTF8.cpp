@@ -48,11 +48,9 @@ utf8_len
 )
 )
 ;
-CHECK
+CHECK_EQUAL
 (
 utf8_len
-=
-=
 4
 )
 ;
@@ -69,11 +67,9 @@ utf8_len
 )
 )
 ;
-CHECK
+CHECK_EQUAL
 (
 utf8_len
-=
-=
 4
 )
 ;

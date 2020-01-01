@@ -99,11 +99,9 @@ CHECK
 finishedAtom
 )
 ;
-CHECK
+CHECK_EQUAL
 (
 atom
-=
-=
 finishedAtom
 )
 ;
