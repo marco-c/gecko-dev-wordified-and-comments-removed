@@ -213,6 +213,17 @@ NotificationButton
 "
 ]
 "
+policies
+.
+js
+"
+:
+[
+"
+SyncScheduler
+"
+]
+"
 resource
 .
 js
