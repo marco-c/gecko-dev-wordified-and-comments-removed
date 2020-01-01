@@ -12352,7 +12352,7 @@ dst
 ;
 }
 case
-PNK_HOOK
+PNK_CONDITIONAL
 :
 {
 Value

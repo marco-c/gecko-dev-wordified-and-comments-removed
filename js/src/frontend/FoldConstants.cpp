@@ -2591,7 +2591,7 @@ pn3
 break
 ;
 case
-PNK_HOOK
+PNK_CONDITIONAL
 :
 switch
 (
