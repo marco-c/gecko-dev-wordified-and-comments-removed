@@ -851,6 +851,10 @@ gfxContext
 :
 OPERATOR_OVER
 )
+mForceIsolatedGroup
+(
+false
+)
 mContentFlags
 (
 0
