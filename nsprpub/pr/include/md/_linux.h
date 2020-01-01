@@ -1366,6 +1366,13 @@ __GLIBC_MINOR__
 =
 1
 )
+\
+|
+|
+defined
+(
+ANDROID
+)
 #
 define
 _PR_INET6

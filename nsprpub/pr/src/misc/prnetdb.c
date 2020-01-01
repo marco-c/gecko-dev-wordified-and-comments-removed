@@ -204,7 +204,6 @@ __GLIBC__
 =
 2
 )
-)
 \
 &
 &
@@ -212,6 +211,7 @@ __GLIBC__
 defined
 (
 ANDROID
+)
 )
 #
 define
