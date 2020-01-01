@@ -469,6 +469,12 @@ MODULE
 MODULE
 '
             
+SDK_LIBRARY
+=
+'
+SDK_LIBRARY
+'
+            
 SIMPLE_PROGRAMS
 =
 '
