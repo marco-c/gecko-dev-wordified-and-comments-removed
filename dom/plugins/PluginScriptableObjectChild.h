@@ -332,6 +332,11 @@ DropNPObject
 (
 )
 ;
+void
+NPObjectDestroyed
+(
+)
+;
 bool
 Evaluate
 (
