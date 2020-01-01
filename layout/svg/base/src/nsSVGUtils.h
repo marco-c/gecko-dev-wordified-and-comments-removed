@@ -1077,6 +1077,16 @@ nsIFrame
 aFrame
 )
 ;
+static
+nsIFrame
+*
+GetFirstNonAAncestorFrame
+(
+nsIFrame
+*
+aStartFrame
+)
+;
 #
 ifdef
 DEBUG
