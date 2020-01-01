@@ -20,15 +20,6 @@ interfaces
 nsIIDBObjectStore
 ;
 const
-IDBDatabaseException
-=
-Components
-.
-interfaces
-.
-nsIIDBDatabaseException
-;
-const
 name
 =
 this
