@@ -1616,7 +1616,8 @@ UnwrapObjectChecked
 JSContext
 *
 cx
-RawObject
+JSObject
+*
 obj
 )
 ;
@@ -1630,7 +1631,8 @@ UnwrapOneChecked
 JSContext
 *
 cx
-HandleObject
+JSObject
+*
 obj
 )
 ;
