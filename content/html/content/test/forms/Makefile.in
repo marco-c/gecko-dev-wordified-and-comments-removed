@@ -232,6 +232,10 @@ test_option_disabled
 .
 html
 \
+test_meter_element
+.
+html
+\
 (
 NULL
 )

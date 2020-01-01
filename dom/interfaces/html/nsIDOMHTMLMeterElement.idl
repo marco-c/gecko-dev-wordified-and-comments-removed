@@ -572,11 +572,6 @@ attribute
 double
 optimum
 ;
-readonly
-attribute
-nsIDOMHTMLFormElement
-form
-;
 /
 *
 *
