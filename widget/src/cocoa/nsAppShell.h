@@ -267,10 +267,6 @@ aInfo
 ;
 protected
 :
-NSAutoreleasePool
-*
-mMainPool
-;
 CFMutableArrayRef
 mAutoreleasePools
 ;
