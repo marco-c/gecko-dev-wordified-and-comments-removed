@@ -320,6 +320,11 @@ mCachedState
 nsnull
 )
 {
+AddStateBits
+(
+NS_BLOCK_FLOAT_MGR
+)
+;
 }
 nsFileControlFrame
 :
