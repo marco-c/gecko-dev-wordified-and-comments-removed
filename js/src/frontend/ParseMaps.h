@@ -1335,17 +1335,6 @@ Definition
 defn
 )
 ;
-bool
-addHoist
-(
-JSAtom
-*
-atom
-Definition
-*
-defn
-)
-;
 void
 updateFirst
 (
