@@ -456,15 +456,9 @@ else
 ifeq
 (
 (
-filter
--
-out
-WINCE
-WINNT
-(
 OS_ARCH
 )
-)
+WINNT
 )
 CPPSRCS
 +

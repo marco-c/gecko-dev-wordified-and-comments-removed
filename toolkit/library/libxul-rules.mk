@@ -480,13 +480,6 @@ MOZ_WIDGET_TOOLKIT
 )
 windows
 )
-ifneq
-(
-(
-OS_ARCH
-)
-WINCE
-)
 OS_LIBS
 +
 =
@@ -496,7 +489,6 @@ EXPAND_LIBNAME
 usp10
 oleaut32
 )
-endif
 endif
 export
 :

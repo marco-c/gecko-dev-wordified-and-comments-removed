@@ -593,13 +593,6 @@ url
 -
 classifier
 endif
-ifdef
-MOZ_FASTSTART
-PARALLEL_DIRS
-+
-=
-faststart
-endif
 DIRS
 +
 =
