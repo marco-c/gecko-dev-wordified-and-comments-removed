@@ -28,7 +28,7 @@ g_Big5HKSCSMappingTable
 ]
 =
 {
-g_ASCIIMapping
+g_ASCIIMappingTable
 g_ufBig5Mapping
 g_ufBig5HKSCSMapping
 }

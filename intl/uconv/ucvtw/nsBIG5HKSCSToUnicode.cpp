@@ -44,7 +44,7 @@ g_BIG5HKSCSMappingTableSet
 ]
 =
 {
-g_ASCIIMapping
+g_ASCIIMappingTable
 g_utBig5HKSCSMapping
 g_utBIG5Mapping
 g_utBig5HKSCSMapping
@@ -62,7 +62,7 @@ g_BIG5HKSCSRanges
 {
 {
 0x00
-0x7E
+0x7F
 }
 {
 0x81

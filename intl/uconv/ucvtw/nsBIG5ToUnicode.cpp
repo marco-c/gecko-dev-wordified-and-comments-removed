@@ -40,7 +40,7 @@ g_BIG5MappingTableSet
 ]
 =
 {
-g_ASCIIMapping
+g_ASCIIMappingTable
 g_utBIG5Mapping
 }
 ;
@@ -54,7 +54,7 @@ g_BIG5Ranges
 {
 {
 0x00
-0x7E
+0x7F
 }
 {
 0x81

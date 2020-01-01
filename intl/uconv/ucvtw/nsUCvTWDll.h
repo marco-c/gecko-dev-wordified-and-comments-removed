@@ -28,7 +28,7 @@ g_utBIG5Mapping
 extern
 const
 uint16_t
-g_ASCIIMapping
+g_ASCIIMappingTable
 [
 ]
 ;

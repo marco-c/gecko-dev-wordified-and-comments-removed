@@ -28,7 +28,7 @@ g_ufKSC5601Mapping
 extern
 const
 uint16_t
-g_ucvko_AsciiMapping
+g_ASCIIMappingTable
 [
 ]
 ;

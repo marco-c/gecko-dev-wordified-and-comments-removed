@@ -90,7 +90,7 @@ g_JOHABMappingTableSet
 ]
 =
 {
-g_ucvko_AsciiMapping
+g_ASCIIMappingTable
 g_HangulNullMapping
 g_utJohabJamoMapping
 g_utKSC5601Mapping
