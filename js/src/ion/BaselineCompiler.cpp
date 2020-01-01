@@ -2478,6 +2478,12 @@ op
 JSOP_ENTERBLOCK
 |
 |
+op
+=
+=
+JSOP_CALLPROP
+|
+|
 debugMode_
 )
 {

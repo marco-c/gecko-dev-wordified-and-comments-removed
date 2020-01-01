@@ -406,7 +406,7 @@ bufferUsed_
 header_
 -
 >
-copyStackTop
+copyStackBottom
 bufferUsed_
 )
 ;
@@ -3536,6 +3536,11 @@ baselineCallReturnAddr
 (
 )
 ;
+JS_ASSERT
+(
+baselineCallReturnAddr
+)
+;
 if
 (
 !
@@ -3819,6 +3824,11 @@ ionCompartment
 >
 getArgumentsRectifierReturnAddr
 (
+)
+;
+JS_ASSERT
+(
+rectReturnAddr
 )
 ;
 if
