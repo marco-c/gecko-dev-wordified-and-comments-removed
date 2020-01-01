@@ -129,6 +129,18 @@ aString
 ;
 static
 nsresult
+AppendFromValue
+(
+nsIAccessible
+*
+aAccessible
+nsAString
+*
+aString
+)
+;
+static
+nsresult
 AppendFromDOMChildren
 (
 nsIContent
@@ -152,7 +164,7 @@ aString
 )
 ;
 static
-void
+PRBool
 AppendString
 (
 nsAString
