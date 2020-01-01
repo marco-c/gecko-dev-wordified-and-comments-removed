@@ -480,6 +480,15 @@ return
 mSpdyPingTimeout
 ;
 }
+PRUint32
+ConnectTimeout
+(
+)
+{
+return
+mConnectTimeout
+;
+}
 bool
 PromptTempRedirect
 (
@@ -1188,6 +1197,9 @@ mSpdyPingThreshold
 ;
 PRIntervalTime
 mSpdyPingTimeout
+;
+PRUint32
+mConnectTimeout
 ;
 }
 ;
