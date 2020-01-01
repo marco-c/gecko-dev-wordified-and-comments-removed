@@ -13125,9 +13125,6 @@ policy
 cx
 handler
 proxy
-JS
-:
-:
 JSID_VOIDHANDLE
 BaseProxyHandler
 :
@@ -13460,9 +13457,6 @@ policy
 cx
 handler
 proxy
-JS
-:
-:
 JSID_VOIDHANDLE
 BaseProxyHandler
 :
@@ -14435,9 +14429,6 @@ policy
 cx
 handler
 proxy
-JS
-:
-:
 JSID_VOIDHANDLE
 BaseProxyHandler
 :
@@ -14539,9 +14530,6 @@ policy
 cx
 handler
 proxy
-JS
-:
-:
 JSID_VOIDHANDLE
 BaseProxyHandler
 :
@@ -14793,9 +14781,6 @@ policy
 cx
 handler
 proxy
-JS
-:
-:
 JSID_VOIDHANDLE
 BaseProxyHandler
 :
@@ -14892,9 +14877,6 @@ policy
 cx
 handler
 proxy
-JS
-:
-:
 JSID_VOIDHANDLE
 BaseProxyHandler
 :
@@ -15062,9 +15044,6 @@ policy
 cx
 handler
 proxy
-JS
-:
-:
 JSID_VOIDHANDLE
 BaseProxyHandler
 :
@@ -15222,9 +15201,6 @@ policy
 cx
 handler
 proxy
-JS
-:
-:
 JSID_VOIDHANDLE
 BaseProxyHandler
 :
@@ -15315,9 +15291,6 @@ policy
 cx
 handler
 proxy
-JS
-:
-:
 JSID_VOIDHANDLE
 BaseProxyHandler
 :

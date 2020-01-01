@@ -3663,9 +3663,6 @@ JS
 HandleId
 id
 =
-JS
-:
-:
 JSID_VOIDHANDLE
 unsigned
 argc
