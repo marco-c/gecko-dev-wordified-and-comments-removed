@@ -937,11 +937,11 @@ nullptr
 ;
 }
 }
-NS_IMPL_THREADSAFE_ADDREF
+NS_IMPL_ADDREF
 (
 AsyncStatement
 )
-NS_IMPL_THREADSAFE_RELEASE
+NS_IMPL_RELEASE
 (
 AsyncStatement
 )

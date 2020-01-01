@@ -694,7 +694,7 @@ return
 PL_DHASH_NEXT
 ;
 }
-NS_IMPL_THREADSAFE_ISUPPORTS2
+NS_IMPL_ISUPPORTS2
 (
 BindingParams
 mozIStorageBindingParams

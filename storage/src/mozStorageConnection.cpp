@@ -1976,7 +1976,7 @@ connection
 )
 ;
 }
-NS_IMPL_THREADSAFE_ADDREF
+NS_IMPL_ADDREF
 (
 Connection
 )
@@ -2031,10 +2031,9 @@ release
 nsrefcnt
 count
 =
-NS_AtomicDecrementRefcnt
-(
+-
+-
 mRefCnt
-)
 ;
 NS_LOG_RELEASE
 (
