@@ -464,11 +464,6 @@ ipc
 ipdl
 /
 Makefile
-ipc
-/
-testshell
-/
-Makefile
 dom
 /
 Makefile
@@ -688,11 +683,6 @@ Makefile
 dom
 /
 plugins
-/
-Makefile
-dom
-/
-ipc
 /
 Makefile
 "
