@@ -745,6 +745,10 @@ test_hover
 .
 html
 \
+test_ident_escaping
+.
+html
+\
 test_inherit_computation
 .
 html
