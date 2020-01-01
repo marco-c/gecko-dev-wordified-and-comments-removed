@@ -4689,6 +4689,8 @@ get
 ;
 nsEventStatus
 status
+=
+nsEventStatus_eIgnore
 ;
 if
 (
