@@ -382,10 +382,6 @@ test_bug512367
 .
 html
 \
-test_bug571981
-.
-html
-\
 test_bug677495
 .
 html

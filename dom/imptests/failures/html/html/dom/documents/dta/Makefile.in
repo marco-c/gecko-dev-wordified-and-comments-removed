@@ -47,16 +47,6 @@ MOCHITEST_FILES
 \
 test_document
 .
-body
--
-getter
-.
-html
-.
-json
-\
-test_document
-.
 title
 -
 03
