@@ -14362,7 +14362,12 @@ aInputValue
 let
 obj
 =
+XPCNativeWrapper
+.
+unwrap
+(
 aScope
+)
 ;
 let
 beginning
