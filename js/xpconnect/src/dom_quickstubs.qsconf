@@ -537,11 +537,6 @@ nsIIDBDatabase
 *
 '
 '
-nsIIDBIndex
-.
-*
-'
-'
 nsIIDBKeyRange
 .
 *

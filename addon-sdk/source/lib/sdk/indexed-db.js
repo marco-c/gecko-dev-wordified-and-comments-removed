@@ -369,14 +369,6 @@ nsIIDBDatabase
 ;
 exports
 .
-IDBIndex
-=
-Ci
-.
-nsIIDBIndex
-;
-exports
-.
 IDBRequest
 =
 Ci

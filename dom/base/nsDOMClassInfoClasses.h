@@ -298,10 +298,6 @@ IDBKeyRange
 )
 DOMCI_CLASS
 (
-IDBIndex
-)
-DOMCI_CLASS
-(
 IDBOpenDBRequest
 )
 DOMCI_CLASS

@@ -134,9 +134,6 @@ interface
 IDBRequest
 ;
 interface
-IDBIndex
-;
-interface
 IDBObjectStore
 {
 readonly

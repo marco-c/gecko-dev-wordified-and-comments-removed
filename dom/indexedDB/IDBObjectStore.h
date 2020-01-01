@@ -105,9 +105,6 @@ nsIScriptContext
 class
 nsPIDOMWindow
 ;
-class
-nsIIDBIndex
-;
 namespace
 mozilla
 {
@@ -659,7 +656,7 @@ mActorParent
 }
 already_AddRefed
 <
-nsIIDBIndex
+IDBIndex
 >
 CreateIndexInternal
 (
@@ -1175,7 +1172,7 @@ aRv
 ;
 already_AddRefed
 <
-nsIIDBIndex
+IDBIndex
 >
 CreateIndex
 (
@@ -1201,7 +1198,7 @@ aRv
 ;
 already_AddRefed
 <
-nsIIDBIndex
+IDBIndex
 >
 CreateIndex
 (
@@ -1230,7 +1227,7 @@ aRv
 ;
 already_AddRefed
 <
-nsIIDBIndex
+IDBIndex
 >
 Index
 (
@@ -1420,7 +1417,7 @@ aRv
 ;
 already_AddRefed
 <
-nsIIDBIndex
+IDBIndex
 >
 CreateIndex
 (
