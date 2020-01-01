@@ -1373,6 +1373,7 @@ sampleLengthDecoded
 =
 0
 ;
+unsigned
 int
 SAMPLES
 =
@@ -1561,6 +1562,7 @@ PLAYOUT_SAMPLE_FREQUENCY
 outFile
 )
 ;
+unsigned
 int
 numSamplesReadFromInput
 =
