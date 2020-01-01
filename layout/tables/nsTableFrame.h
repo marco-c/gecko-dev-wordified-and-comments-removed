@@ -1283,6 +1283,15 @@ GetFirstInFlow
 mTableLayoutStrategy
 ;
 }
+private
+:
+void
+ProcessRowInserted
+(
+nscoord
+aNewHeight
+)
+;
 public
 :
 nscoord
