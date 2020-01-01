@@ -53,6 +53,13 @@ nsAutoPtr
 .
 h
 "
+#
+include
+"
+nsIDOMSmsManager
+.
+h
+"
 class
 nsPluginArray
 ;
@@ -203,6 +210,12 @@ battery
 BatteryManager
 >
 mBatteryManager
+;
+nsCOMPtr
+<
+nsIDOMMozSmsManager
+>
+mSmsManager
 ;
 nsIDocShell
 *

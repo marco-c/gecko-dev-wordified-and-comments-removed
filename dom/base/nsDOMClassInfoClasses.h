@@ -1232,6 +1232,10 @@ MozBatteryManager
 )
 DOMCI_CLASS
 (
+MozSmsManager
+)
+DOMCI_CLASS
+(
 CSSFontFaceRule
 )
 DOMCI_CLASS
