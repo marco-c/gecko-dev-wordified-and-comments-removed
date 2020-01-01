@@ -1982,6 +1982,13 @@ buffer
 !
 =
 NULL
+&
+&
+!
+me
+-
+>
+shutdown
 )
 {
 oggplay_buffer_set_last_data
