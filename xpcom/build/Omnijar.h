@@ -25,13 +25,9 @@ nsString
 .
 h
 "
-#
-include
-"
+class
 nsIFile
-.
-h
-"
+;
 class
 nsZipArchive
 ;
