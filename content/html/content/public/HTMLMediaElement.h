@@ -1895,6 +1895,7 @@ bool
 aCanPlay
 )
 ;
+virtual
 void
 UpdateAudioChannelPlayingState
 (
