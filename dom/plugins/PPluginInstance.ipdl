@@ -511,6 +511,9 @@ NPRemoteWindow
 using
 NPReason
 ;
+using
+NPRect
+;
 namespace
 mozilla
 {
@@ -798,6 +801,13 @@ returns
 (
 NPError
 result
+)
+;
+async
+NPN_InvalidateRect
+(
+NPRect
+rect
 )
 ;
 child
