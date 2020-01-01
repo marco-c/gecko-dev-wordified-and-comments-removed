@@ -98,6 +98,7 @@ MockFilePicker
 .
 init
 (
+window
 )
 ;
 MockFilePicker

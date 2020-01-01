@@ -658,6 +658,7 @@ MockFilePicker
 .
 init
 (
+window
 )
 ;
 testOnWindow

@@ -9,6 +9,7 @@ MockFilePicker
 .
 init
 (
+window
 )
 ;
 function
