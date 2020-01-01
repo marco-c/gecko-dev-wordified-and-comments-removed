@@ -159,6 +159,13 @@ aEnable
 )
 ;
 void
+EnableLocation
+(
+bool
+aEnable
+)
+;
+void
 ReturnIMEQueryResult
 (
 const
@@ -356,6 +363,9 @@ jShowIME
 ;
 jmethodID
 jEnableAccelerometer
+;
+jmethodID
+jEnableLocation
 ;
 jmethodID
 jReturnIMEQueryResult
