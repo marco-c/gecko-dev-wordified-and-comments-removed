@@ -43,6 +43,15 @@ h
 #
 include
 "
+mozilla
+/
+LookAndFeel
+.
+h
+"
+#
+include
+"
 nsCSSRuleProcessor
 .
 h
