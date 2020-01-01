@@ -263,6 +263,14 @@ case
 cmd_delete
 "
 :
+return
+this
+.
+_hasRemovableSelection
+(
+false
+)
+;
 case
 "
 placesCmd_moveBookmarks
@@ -273,6 +281,7 @@ this
 .
 _hasRemovableSelection
 (
+true
 )
 ;
 case
@@ -891,9 +900,7 @@ itemId
 =
 PlacesUtils
 .
-bookmarks
-.
-toolbarFolder
+toolbarFolderId
 )
 {
 return
@@ -1327,6 +1334,7 @@ _hasRemovableSelection
 function
 PC__hasRemovableSelection
 (
+aIsMoveCommand
 )
 {
 if
@@ -1403,6 +1411,10 @@ false
 ;
 if
 (
+!
+aIsMoveCommand
+&
+&
 PlacesUtils
 .
 nodeIsFolder
