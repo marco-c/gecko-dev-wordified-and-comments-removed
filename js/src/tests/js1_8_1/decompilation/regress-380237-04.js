@@ -820,6 +820,9 @@ xx
 )
 ;
 "
+"
+ReferenceError
+"
 )
 ;
 rejectLHS
@@ -841,6 +844,9 @@ delete
 xx
 )
 ;
+"
+"
+ReferenceError
 "
 )
 ;
@@ -875,6 +881,9 @@ in
 )
 {
 }
+"
+"
+ReferenceError
 "
 )
 ;
@@ -938,6 +947,9 @@ xx
 3
 ;
 "
+"
+ReferenceError
+"
 )
 ;
 rejectLHS
@@ -961,6 +973,9 @@ xx
 =
 3
 ;
+"
+"
+ReferenceError
 "
 )
 ;
@@ -1018,6 +1033,9 @@ xx
 =
 3
 ;
+"
+"
+ReferenceError
 "
 )
 ;
@@ -1083,6 +1101,9 @@ xx
 3
 ]
 ;
+"
+"
+ReferenceError
 "
 )
 ;
@@ -1153,6 +1174,9 @@ xx
 ]
 ;
 "
+"
+ReferenceError
+"
 )
 ;
 rejectLHS
@@ -1211,6 +1235,9 @@ xx
 =
 3
 ;
+"
+"
+ReferenceError
 "
 )
 ;
@@ -1645,6 +1672,7 @@ rejectLHS
 (
 section
 pat
+expect
 )
 {
 print
@@ -1668,6 +1696,9 @@ ft
 ;
 expect
 =
+expect
+|
+|
 '
 SyntaxError
 '
