@@ -1012,7 +1012,7 @@ pos
 }
 public
 :
-void
+PRBool
 internalEncodingDeclaration
 (
 nsString

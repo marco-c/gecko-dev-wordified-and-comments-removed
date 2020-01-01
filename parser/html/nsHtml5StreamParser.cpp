@@ -2783,7 +2783,8 @@ if
 (
 mCharsetSource
 <
-kCharsetFromChannel
+=
+kCharsetFromMetaPrescan
 )
 {
 return
@@ -3507,7 +3508,7 @@ return
 rv
 ;
 }
-void
+PRBool
 nsHtml5StreamParser
 :
 :
@@ -3539,6 +3540,7 @@ kCharsetFromMetaTag
 )
 {
 return
+PR_FALSE
 ;
 }
 if
@@ -3547,6 +3549,7 @@ mReparseForbidden
 )
 {
 return
+PR_FALSE
 ;
 }
 nsCAutoString
@@ -3649,6 +3652,7 @@ available
 )
 ;
 return
+PR_FALSE
 ;
 }
 PRBool
@@ -3688,6 +3692,7 @@ failed
 )
 ;
 return
+PR_FALSE
 ;
 }
 if
@@ -3700,6 +3705,7 @@ mCharsetSource
 kCharsetFromMetaTag
 ;
 return
+PR_FALSE
 ;
 }
 nsCAutoString
@@ -3725,6 +3731,7 @@ rv
 )
 {
 return
+PR_FALSE
 ;
 }
 if
@@ -3868,6 +3875,7 @@ defined
 )
 {
 return
+PR_FALSE
 ;
 }
 mTreeBuilder
@@ -3885,6 +3893,9 @@ FlushTreeOpsAndDisarmTimer
 Interrupt
 (
 )
+;
+return
+PR_TRUE
 ;
 }
 void

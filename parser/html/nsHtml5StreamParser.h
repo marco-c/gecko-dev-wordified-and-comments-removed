@@ -227,7 +227,7 @@ nsDetectionConfident
 aConf
 )
 ;
-void
+PRBool
 internalEncodingDeclaration
 (
 nsString
