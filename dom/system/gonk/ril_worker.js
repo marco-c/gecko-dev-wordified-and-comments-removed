@@ -21380,10 +21380,15 @@ readString
 (
 )
 ;
-if
-(
+let
+rilMessageType
+=
 options
 .
+rilMessageType
+;
+if
+(
 rilMessageType
 !
 =
