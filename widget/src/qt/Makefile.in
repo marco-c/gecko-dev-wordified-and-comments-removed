@@ -477,6 +477,8 @@ thebes
 \
 cairo
 \
+unicharutil
+\
 (
 NULL
 )

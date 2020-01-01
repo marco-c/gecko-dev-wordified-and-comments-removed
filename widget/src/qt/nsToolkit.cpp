@@ -19,6 +19,13 @@ nsGUIEvent
 .
 h
 "
+#
+include
+"
+nsWidgetAtoms
+.
+h
+"
 static
 PRUintn
 gToolkitTLSIndex
@@ -64,6 +71,13 @@ PRThread
 aThread
 )
 {
+nsWidgetAtoms
+:
+:
+RegisterAtoms
+(
+)
+;
 return
 NS_OK
 ;

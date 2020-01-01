@@ -48,11 +48,12 @@ nsScreenQt
 int
 aScreen
 )
-{
-screen
-=
+:
+mScreen
+(
 aScreen
-;
+)
+{
 }
 nsScreenQt
 :
@@ -101,7 +102,7 @@ desktop
 >
 screenGeometry
 (
-screen
+mScreen
 )
 ;
 *
@@ -177,7 +178,7 @@ desktop
 >
 availableGeometry
 (
-screen
+mScreen
 )
 ;
 *

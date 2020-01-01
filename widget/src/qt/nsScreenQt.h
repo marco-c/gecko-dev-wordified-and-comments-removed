@@ -36,7 +36,7 @@ NS_DECL_NSISCREEN
 private
 :
 int
-screen
+mScreen
 ;
 }
 ;
