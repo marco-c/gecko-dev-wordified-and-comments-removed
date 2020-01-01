@@ -1274,7 +1274,7 @@ return
 cx
 -
 >
-hasRunOption
+hasOption
 (
 JSOPTION_STRICT_MODE
 )

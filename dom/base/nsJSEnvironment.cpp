@@ -4809,7 +4809,7 @@ context
 mContext
 newDefaultJSOptions
 &
-JSRUNOPTION_MASK
+JSOPTION_MASK
 )
 ;
 :

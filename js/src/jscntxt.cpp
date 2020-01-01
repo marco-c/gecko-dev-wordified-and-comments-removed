@@ -5576,7 +5576,7 @@ UndefinedValue
 (
 )
 )
-runOptions
+options_
 (
 0
 )
@@ -6959,7 +6959,7 @@ JS_METHODJIT
 methodJitEnabled
 =
 (
-runOptions
+options_
 &
 JSOPTION_METHODJIT
 )
@@ -7015,7 +7015,7 @@ defaultCompartmentObject_
 &
 &
 !
-hasRunOption
+hasOption
 (
 JSOPTION_UNROOTED_GLOBAL
 )

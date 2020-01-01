@@ -829,7 +829,7 @@ USES_BEFORE_INLINING
 cx
 -
 >
-hasRunOption
+hasOption
 (
 JSOPTION_METHODJIT_ALWAYS
 )
@@ -5469,7 +5469,7 @@ if
 cx
 -
 >
-hasRunOption
+hasOption
 (
 JSOPTION_METHODJIT_ALWAYS
 )
@@ -5795,7 +5795,7 @@ if
 cx
 -
 >
-hasRunOption
+hasOption
 (
 JSOPTION_METHODJIT_ALWAYS
 )
