@@ -198,8 +198,6 @@ XPI_NAME
 locale
 -
 *
-ifdef
-MOZ_PSM
 (
 MAKE
 )
@@ -226,7 +224,6 @@ XPI_NAME
 locale
 -
 *
-endif
 (
 MAKE
 )
@@ -297,8 +294,6 @@ chrome
 AB_CD
 =
 *
-ifdef
-MOZ_PSM
 (
 MAKE
 )
@@ -318,7 +313,6 @@ chrome
 AB_CD
 =
 *
-endif
 (
 MAKE
 )
