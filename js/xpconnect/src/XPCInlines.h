@@ -11,6 +11,13 @@ jsfriendapi
 .
 h
 "
+#
+include
+"
+jsutil
+.
+h
+"
 inline
 void
 XPCJSRuntime

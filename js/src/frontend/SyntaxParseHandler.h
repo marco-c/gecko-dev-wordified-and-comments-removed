@@ -28,6 +28,14 @@ js
 namespace
 frontend
 {
+template
+<
+typename
+ParseHandler
+>
+class
+Parser
+;
 class
 SyntaxParseHandler
 {

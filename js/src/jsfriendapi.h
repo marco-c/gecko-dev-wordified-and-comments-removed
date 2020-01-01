@@ -115,6 +115,9 @@ limit
 lval
 0
 )
+class
+JSLinearString
+;
 namespace
 JS
 {

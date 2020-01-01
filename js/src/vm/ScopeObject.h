@@ -46,6 +46,13 @@ h
 namespace
 js
 {
+namespace
+frontend
+{
+struct
+Definition
+;
+}
 class
 StaticScopeIter
 {

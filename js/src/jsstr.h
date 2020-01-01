@@ -70,6 +70,9 @@ class
 JSFlatString
 ;
 class
+JSLinearString
+;
+class
 JSStableString
 ;
 namespace

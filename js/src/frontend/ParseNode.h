@@ -56,6 +56,12 @@ class
 FullParseHandler
 ;
 class
+FunctionBox
+;
+class
+ObjectBox
+;
+class
 UpvarCookie
 {
 uint16_t

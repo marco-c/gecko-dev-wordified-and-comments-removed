@@ -99,9 +99,6 @@ js
 class
 AutoPropDescArrayRooter
 ;
-class
-BaseProxyHandler
-;
 struct
 GCMarker
 ;

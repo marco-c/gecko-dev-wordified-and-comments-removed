@@ -78,6 +78,9 @@ h
 namespace
 js
 {
+class
+Breakpoint
+;
 template
 <
 class

@@ -130,6 +130,16 @@ h
 namespace
 js
 {
+class
+RegExpShared
+;
+namespace
+frontend
+{
+class
+TokenStream
+;
+}
 enum
 RegExpRunStatus
 {
