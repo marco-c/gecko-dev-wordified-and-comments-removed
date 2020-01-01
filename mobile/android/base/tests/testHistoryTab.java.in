@@ -1550,12 +1550,6 @@ tearDown
 throws
 Exception
 {
-super
-.
-tearDown
-(
-)
-;
 ContentResolver
 resolver
 =
@@ -1783,6 +1777,12 @@ robocop_blank_01
 html
 "
 }
+)
+;
+super
+.
+tearDown
+(
 )
 ;
 }
