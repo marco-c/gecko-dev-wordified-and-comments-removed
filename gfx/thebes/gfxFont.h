@@ -508,15 +508,9 @@ language
 )
 ;
 }
-void
-ComputeWeightAndOffset
+PRInt8
+ComputeWeight
 (
-PRInt8
-*
-outBaseWeight
-PRInt8
-*
-outOffset
 )
 const
 ;

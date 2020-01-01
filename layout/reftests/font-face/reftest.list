@@ -1862,12 +1862,6 @@ style
 ref
 .
 html
-random
--
-if
-(
-gtk2Widget
-)
 HTTP
 (
 .
@@ -1887,9 +1881,6 @@ variations
 ref
 .
 html
-#
-bug
-419962
 #
 Leak
 test
