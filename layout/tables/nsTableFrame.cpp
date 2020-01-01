@@ -12353,7 +12353,10 @@ NS_UNCONSTRAINEDSIZE
 1
 -
 1
-false
+nsHTMLReflowState
+:
+:
+CALLER_WILL_INIT
 )
 ;
 InitChildReflowState
@@ -12486,7 +12489,10 @@ kidAvailSize
 1
 -
 1
-false
+nsHTMLReflowState
+:
+:
+CALLER_WILL_INIT
 )
 ;
 InitChildReflowState
@@ -13058,7 +13064,10 @@ kidAvailSize
 1
 -
 1
-false
+nsHTMLReflowState
+:
+:
+CALLER_WILL_INIT
 )
 ;
 InitChildReflowState
