@@ -521,6 +521,16 @@ I
 topsrcdir
 )
 /
+xpcom
+/
+tests
+\
+-
+I
+(
+topsrcdir
+)
+/
 toolkit
 /
 mozapps
