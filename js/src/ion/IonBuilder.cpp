@@ -10230,6 +10230,14 @@ NULL
 postCall
 )
 ;
+bottom
+-
+>
+setCallerResumePoint
+(
+callerResumePoint_
+)
+;
 Vector
 <
 MDefinition
