@@ -4359,6 +4359,13 @@ const
 ;
 inline
 bool
+isTypedArray
+(
+)
+const
+;
+inline
+bool
 isWeakMap
 (
 )
