@@ -1040,9 +1040,6 @@ Combined
 TITLE
 Combined
 .
-FAVICON
-Combined
-.
 DISPLAY
 Combined
 .
