@@ -71,9 +71,6 @@ MPL
 SHORT_LIBNAME
 =
 nkgnomevfs
-IS_COMPONENT
-=
-1
 LOCAL_INCLUDES
 =
 (

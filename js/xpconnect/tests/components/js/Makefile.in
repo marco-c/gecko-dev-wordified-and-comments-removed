@@ -54,9 +54,6 @@ MPL
 0
 /
 .
-IS_COMPONENT
-=
-1
 MODULE_NAME
 =
 xpconnect_test

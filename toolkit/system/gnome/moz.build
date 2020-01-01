@@ -175,3 +175,6 @@ mozgnome
 FAIL_ON_WARNINGS
 =
 True
+IS_COMPONENT
+=
+True

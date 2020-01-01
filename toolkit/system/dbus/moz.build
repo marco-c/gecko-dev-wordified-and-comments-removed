@@ -123,3 +123,6 @@ LIBRARY_NAME
 '
 dbusservice
 '
+IS_COMPONENT
+=
+True

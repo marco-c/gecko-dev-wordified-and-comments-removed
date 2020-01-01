@@ -111,3 +111,6 @@ LIBRARY_NAME
 '
 test656331
 '
+IS_COMPONENT
+=
+True

@@ -77,9 +77,6 @@ widgetutils
 FORCE_SHARED_LIB
 =
 1
-IS_COMPONENT
-=
-1
 EXTRA_DSO_LDOPTS
 =
 \

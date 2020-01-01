@@ -126,3 +126,6 @@ LIBRARY_NAME
 '
 xpctest
 '
+IS_COMPONENT
+=
+True

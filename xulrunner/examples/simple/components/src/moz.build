@@ -128,3 +128,6 @@ SimpleTest
 manifest
 '
 ]
+IS_COMPONENT
+=
+True

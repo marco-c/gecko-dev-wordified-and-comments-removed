@@ -123,3 +123,6 @@ LIBRARY_NAME
 '
 browsercomps
 '
+IS_COMPONENT
+=
+True

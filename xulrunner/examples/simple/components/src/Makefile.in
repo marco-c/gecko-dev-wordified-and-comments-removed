@@ -74,9 +74,6 @@ simple
 SHORT_LIBNAME
 =
 simpltst
-IS_COMPONENT
-=
-1
 EXTRA_DSO_LDOPTS
 =
 \
