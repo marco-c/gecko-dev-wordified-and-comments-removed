@@ -10692,9 +10692,8 @@ cond
 rval
 -
 >
-isBoolean
+isTrue
 (
-true
 )
 ;
 }

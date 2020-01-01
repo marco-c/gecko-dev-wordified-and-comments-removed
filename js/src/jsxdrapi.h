@@ -288,10 +288,7 @@ JSContext
 *
 cx
 ;
-js
-:
-:
-Class
+JSClass
 *
 *
 registry
@@ -555,7 +552,6 @@ JSXDRState
 xdr
 jsdouble
 *
-*
 dp
 )
 ;
@@ -695,7 +691,7 @@ JSXDR_BYTECODE_VERSION
 (
 0xb973c0de
 -
-62
+63
 )
 extern
 JSBool

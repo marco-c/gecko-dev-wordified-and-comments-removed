@@ -30470,9 +30470,8 @@ if
 vp
 -
 >
-isBoolean
+isTrue
 (
-true
 )
 )
 vp
