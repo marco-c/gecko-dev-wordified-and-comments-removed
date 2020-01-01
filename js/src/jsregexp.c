@@ -17766,7 +17766,7 @@ pool
 "
 RegExpPool
 "
-8096
+12288
 4
 &
 cx
