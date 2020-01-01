@@ -5693,7 +5693,12 @@ liveRegs
 ins
 -
 >
-liveRegisters
+safepoint
+(
+)
+-
+>
+liveRegs
 (
 )
 ;
