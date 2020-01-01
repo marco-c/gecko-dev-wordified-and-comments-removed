@@ -1275,7 +1275,6 @@ fun
 )
 ;
 extern
-JS_REQUIRES_STACK
 JSBool
 js_fun_apply
 (
@@ -1290,7 +1289,6 @@ vp
 )
 ;
 extern
-JS_REQUIRES_STACK
 JSBool
 js_fun_call
 (

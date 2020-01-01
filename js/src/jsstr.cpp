@@ -8102,7 +8102,6 @@ NULL
 ;
 }
 static
-JS_REQUIRES_STACK
 JSBool
 find_replen
 (
@@ -8171,6 +8170,11 @@ mark
 ;
 JSBool
 ok
+;
+js_LeaveTrace
+(
+cx
+)
 ;
 JSRegExpStatics
 save
@@ -9125,7 +9129,6 @@ JS_TRUE
 ;
 }
 static
-JS_REQUIRES_STACK
 JSBool
 str_replace
 (
@@ -9220,7 +9223,6 @@ vp
 ;
 }
 JSBool
-JS_REQUIRES_STACK
 js_StringReplaceHelper
 (
 JSContext
