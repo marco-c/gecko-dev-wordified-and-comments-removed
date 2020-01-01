@@ -1137,7 +1137,7 @@ hash
 UpdateFromStream
 (
 mInputStream
-fileSize
+aSize
 -
 CHECKSUM_SIZE
 )
