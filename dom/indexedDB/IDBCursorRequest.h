@@ -247,9 +247,9 @@ mCachedValue
 bool
 mHaveCachedValue
 ;
-JSContext
+JSRuntime
 *
-mJSContext
+mJSRuntime
 ;
 bool
 mContinueCalled
