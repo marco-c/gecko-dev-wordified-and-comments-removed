@@ -2140,7 +2140,10 @@ Length
 )
 =
 =
+PRUint32
+(
 txtLen
+)
 \
 "
 password
