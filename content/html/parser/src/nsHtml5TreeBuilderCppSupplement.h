@@ -2690,6 +2690,11 @@ NS_IMPL_CYCLE_COLLECTION_TRAVERSE_RAWPTR
 headPointer
 )
 ;
+if
+(
+stack
+)
+{
 for
 (
 PRInt32
@@ -2739,6 +2744,12 @@ nsHtml5StackNode
 )
 ;
 }
+}
+if
+(
+listOfActiveFormattingElements
+)
+{
 for
 (
 PRInt32
@@ -2795,6 +2806,7 @@ nsHtml5StackNode
 )
 )
 ;
+}
 }
 }
 const
