@@ -171,10 +171,6 @@ browser_bug673467
 .
 js
 \
-browser_bug808035
-.
-js
-\
 (
 NULL
 )
