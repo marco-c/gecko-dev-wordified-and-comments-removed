@@ -158,9 +158,8 @@ createExpected
 JSContext
 *
 cx
-StackFrame
-*
-fp
+TaggedFramePtr
+frame
 )
 ;
 static
@@ -184,9 +183,8 @@ createUnexpected
 JSContext
 *
 cx
-StackFrame
-*
-fp
+TaggedFramePtr
+frame
 )
 ;
 inline
@@ -360,9 +358,8 @@ static
 void
 MaybeForwardToCallObject
 (
-StackFrame
-*
-fp
+TaggedFramePtr
+frame
 JSObject
 *
 obj
