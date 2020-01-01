@@ -2693,6 +2693,10 @@ nullptr
 imgIContainer
 :
 :
+FRAME_CURRENT
+imgIContainer
+:
+:
 FLAG_SYNC_DECODE
 )
 ;

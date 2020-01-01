@@ -19752,6 +19752,10 @@ drawingParams
 mSubimage
 aImageSize
 aSVGContext
+imgIContainer
+:
+:
+FRAME_CURRENT
 aImageFlags
 )
 ;
