@@ -25,7 +25,7 @@ gBrowser
 addEventListener
 (
 "
-load
+DOMContentLoaded
 "
 testNormal
 false
@@ -57,7 +57,7 @@ gBrowser
 removeEventListener
 (
 "
-load
+DOMContentLoaded
 "
 testNormal
 false
@@ -222,8 +222,6 @@ trap
 html
 "
 ;
-window
-.
 setTimeout
 (
 testPhishing

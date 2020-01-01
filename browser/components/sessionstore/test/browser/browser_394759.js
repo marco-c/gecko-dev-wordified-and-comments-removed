@@ -261,6 +261,8 @@ newWin
 .
 gBrowser
 .
+selectedBrowser
+.
 addEventListener
 (
 "
@@ -274,6 +276,8 @@ aEvent
 newWin
 .
 gBrowser
+.
+selectedBrowser
 .
 removeEventListener
 (
@@ -486,6 +490,8 @@ newWin2
 .
 gBrowser
 .
+tabContainer
+.
 addEventListener
 (
 "
@@ -499,6 +505,8 @@ aEvent
 newWin2
 .
 gBrowser
+.
+tabContainer
 .
 removeEventListener
 (
@@ -904,10 +912,12 @@ win
 .
 gBrowser
 .
+selectedBrowser
+.
 addEventListener
 (
 "
-load
+DOMContentLoaded
 "
 function
 (
@@ -918,10 +928,12 @@ win
 .
 gBrowser
 .
+selectedBrowser
+.
 removeEventListener
 (
 "
-load
+DOMContentLoaded
 "
 arguments
 .
