@@ -1907,6 +1907,12 @@ dispatchEvent
 event
 )
 ;
+GroupItems
+.
+flushAppTabUpdates
+(
+)
+;
 TabItems
 .
 resumePainting
@@ -1947,6 +1953,12 @@ null
 dispatchEvent
 (
 event
+)
+;
+GroupItems
+.
+flushAppTabUpdates
+(
 )
 ;
 TabItems
