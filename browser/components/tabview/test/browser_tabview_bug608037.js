@@ -54,13 +54,11 @@ browser
 /
 browser
 /
-base
-/
-content
-/
-test
+components
 /
 tabview
+/
+test
 /
 dummy_page
 .
