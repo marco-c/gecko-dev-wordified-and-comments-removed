@@ -160,6 +160,11 @@ AddStatesSilently
 NS_EVENT_STATE_LTR
 )
 ;
+SetFlags
+(
+NODE_HAS_DIRECTION_LTR
+)
+;
 }
 static
 nsGenericHTMLElement
@@ -922,6 +927,13 @@ UpdateEditableState
 bool
 aNotify
 )
+;
+virtual
+nsEventStates
+IntrinsicState
+(
+)
+const
 ;
 void
 DoSetEditableFlag
