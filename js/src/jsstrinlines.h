@@ -106,6 +106,7 @@ Vector
 <
 jschar
 32
+ContextAllocPolicy
 >
 CharBuffer
 ;
