@@ -1191,7 +1191,7 @@ oncommand
 onRadioClick
 (
 '
-cookies
+cookie
 '
 )
 ;
