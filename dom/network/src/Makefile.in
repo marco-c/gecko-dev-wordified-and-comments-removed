@@ -206,14 +206,6 @@ Utils
 .
 cpp
 \
-USSDReceivedEvent
-.
-cpp
-\
-DataErrorEvent
-.
-cpp
-\
 TCPSocketParent
 .
 cpp
@@ -232,10 +224,6 @@ CPPSRCS
 =
 \
 MobileConnection
-.
-cpp
-\
-CFStateChangeEvent
 .
 cpp
 \

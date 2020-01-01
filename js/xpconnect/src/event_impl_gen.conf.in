@@ -169,6 +169,12 @@ MOZ_B2G_RIL
 CallEvent
 '
 '
+CFStateChangeEvent
+'
+'
+DataErrorEvent
+'
+'
 ICCCardLockErrorEvent
 '
 '
@@ -182,6 +188,9 @@ MozCellBroadcastEvent
 '
 '
 MozVoicemailEvent
+'
+'
+USSDReceivedEvent
 '
 #
 endif
