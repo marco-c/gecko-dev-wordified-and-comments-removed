@@ -4180,6 +4180,11 @@ showing
 #
 endif
 PRBool
+syncInvalidate
+=
+PR_FALSE
+;
+PRBool
 wasVisible
 =
 mIsVisible
@@ -4224,6 +4229,10 @@ mWindowType
 eWindowType_toplevel
 )
 {
+syncInvalidate
+=
+PR_TRUE
+;
 switch
 (
 mSizeMode
@@ -4609,7 +4618,7 @@ bState
 )
 Invalidate
 (
-PR_FALSE
+syncInvalidate
 )
 ;
 #
