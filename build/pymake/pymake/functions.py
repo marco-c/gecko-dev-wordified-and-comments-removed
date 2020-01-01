@@ -1420,7 +1420,7 @@ setting
         
 d
 =
-list
+set
 (
 self
 .
@@ -1437,18 +1437,15 @@ setting
 )
 )
         
-d
-.
-sort
-(
-)
-        
 util
 .
 joiniter
 (
 fd
+sorted
+(
 d
+)
 )
 class
 WordFunction
