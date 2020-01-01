@@ -555,13 +555,6 @@ config
 .
 h
 \
-gfx
-/
-gfx
--
-config
-.
-h
 netwerk
 /
 necko
