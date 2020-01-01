@@ -388,10 +388,9 @@ const
 nsRect
 &
 aDirtyRect
-const
-nsDisplayListSet
-&
-aLists
+nsDisplayList
+*
+aList
 )
 {
 nsIFrame
@@ -422,7 +421,7 @@ DisplayCaret
 (
 this
 aDirtyRect
-aLists
+aList
 )
 ;
 }
