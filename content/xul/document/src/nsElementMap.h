@@ -50,9 +50,6 @@ class
 nsString
 ;
 class
-nsISupportsArray
-;
-class
 nsElementMap
 {
 protected
