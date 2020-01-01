@@ -700,11 +700,11 @@ aContext
 )
 ;
 NS_IMETHODIMP
-GetIMEEnabled
+GetInputMode
 (
-PRUint32
-*
-aState
+IMEContext
+&
+aContext
 )
 ;
 void
@@ -821,6 +821,9 @@ mPlaced
 ;
 nsSizeMode
 mLastSizeMode
+;
+IMEContext
+mIMEContext
 ;
 void
 Initialize

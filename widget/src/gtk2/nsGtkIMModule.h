@@ -247,11 +247,11 @@ aContext
 )
 ;
 nsresult
-GetIMEEnabled
+GetInputMode
 (
-PRUint32
+IMEContext
 *
-aState
+aContext
 )
 ;
 nsresult
@@ -295,8 +295,8 @@ GtkIMContext
 *
 mDummyContext
 ;
-PRUint32
-mEnabled
+IMEContext
+mIMEContext
 ;
 PRUint32
 mCompositionStart

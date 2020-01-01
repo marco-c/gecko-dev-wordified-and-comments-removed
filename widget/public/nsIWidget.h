@@ -1860,6 +1860,16 @@ aContext
 =
 0
 ;
+NS_IMETHOD
+GetInputMode
+(
+IMEContext
+&
+aContext
+)
+=
+0
+;
 }
 ;
 NS_DEFINE_STATIC_IID_ACCESSOR

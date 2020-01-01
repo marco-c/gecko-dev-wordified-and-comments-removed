@@ -31,6 +31,8 @@ nsDOMWindowUtils
 public
 nsIDOMWindowUtils
 public
+nsIDOMWindowUtils_MOZILLA_2_0_BRANCH
+public
 nsSupportsWeakReference
 {
 public
@@ -49,6 +51,7 @@ nsDOMWindowUtils
 ;
 NS_DECL_ISUPPORTS
 NS_DECL_NSIDOMWINDOWUTILS
+NS_DECL_NSIDOMWINDOWUTILS_MOZILLA_2_0_BRANCH
 protected
 :
 nsRefPtr

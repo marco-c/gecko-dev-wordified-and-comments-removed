@@ -984,11 +984,11 @@ aContext
 )
 ;
 NS_IMETHOD
-GetIMEEnabled
+GetInputMode
 (
-PRUint32
-*
-aState
+IMEContext
+&
+aContext
 )
 ;
 NS_IMETHOD
@@ -1320,6 +1320,9 @@ mView
 ;
 nsCocoaTextInputHandler
 mTextInputHandler
+;
+IMEContext
+mIMEContext
 ;
 NSView
 <

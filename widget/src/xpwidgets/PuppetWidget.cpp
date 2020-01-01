@@ -1439,11 +1439,11 @@ NS_IMETHODIMP
 PuppetWidget
 :
 :
-GetIMEEnabled
+GetInputMode
 (
-PRUint32
-*
-aState
+IMEContext
+&
+aContext
 )
 {
 if
@@ -1456,7 +1456,10 @@ mTabChild
 >
 SendGetIMEEnabled
 (
-aState
+&
+aContext
+.
+mStatus
 )
 )
 return
