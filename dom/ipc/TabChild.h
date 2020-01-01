@@ -529,6 +529,12 @@ false
 )
 ;
 }
+using
+nsDOMEventTargetHelper
+:
+:
+AddEventListener
+;
 NS_IMETHOD
 AddEventListener
 (

@@ -88,6 +88,10 @@ FAIL_ON_WARNINGS
 CPPSRCS
 =
 \
+EventTarget
+.
+cpp
+\
 nsEventListenerManager
 .
 cpp
