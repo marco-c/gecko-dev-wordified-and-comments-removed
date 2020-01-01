@@ -140,6 +140,8 @@ inputType
 =
 "
 textUri
+|
+textNoSuggestions
 "
 android
 :
