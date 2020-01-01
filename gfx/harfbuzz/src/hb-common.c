@@ -7,6 +7,7 @@ private
 .
 h
 "
+HB_BEGIN_DECLS
 hb_tag_t
 hb_tag_from_string
 (
@@ -82,3 +83,4 @@ tag
 )
 ;
 }
+HB_END_DECLS

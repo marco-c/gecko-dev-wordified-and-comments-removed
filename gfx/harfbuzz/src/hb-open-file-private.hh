@@ -17,6 +17,7 @@ private
 .
 hh
 "
+HB_BEGIN_DECLS
 struct
 OpenTypeFontFile
 ;
@@ -925,5 +926,6 @@ tag
 ;
 }
 ;
+HB_END_DECLS
 #
 endif

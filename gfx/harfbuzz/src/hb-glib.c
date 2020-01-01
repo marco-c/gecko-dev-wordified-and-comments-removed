@@ -34,6 +34,7 @@ glib
 .
 h
 >
+HB_BEGIN_DECLS
 static
 hb_codepoint_t
 hb_glib_get_mirroring
@@ -143,3 +144,4 @@ return
 glib_ufuncs
 ;
 }
+HB_END_DECLS

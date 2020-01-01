@@ -26,12 +26,13 @@ face
 hb_buffer_t
 *
 buffer
+const
 hb_feature_t
 *
-features
+user_features
 unsigned
 int
-num_features
+num_user_features
 )
 ;
 HB_END_DECLS

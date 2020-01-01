@@ -54,6 +54,7 @@ uscript
 .
 h
 >
+HB_BEGIN_DECLS
 static
 hb_codepoint_t
 hb_icu_get_mirroring
@@ -895,9 +896,10 @@ LISU
 ;
 #
 endif
-MATCH_SCRIPT
+MATCH_SCRIPT2
 (
 MEITEI_MAYEK
+MEETEI_MAYEK
 )
 ;
 #
@@ -928,6 +930,22 @@ SAMARITAN
 MATCH_SCRIPT
 (
 TAI_VIET
+)
+;
+MATCH_SCRIPT
+(
+BATAK
+)
+;
+MATCH_SCRIPT
+(
+BRAHMI
+)
+;
+MATCH_SCRIPT2
+(
+MANDAEAN
+MANDAIC
 )
 ;
 }
@@ -963,3 +981,4 @@ return
 icu_ufuncs
 ;
 }
+HB_END_DECLS

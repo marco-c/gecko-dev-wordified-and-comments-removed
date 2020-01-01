@@ -1,9 +1,9 @@
 #
 ifndef
-HB_REFCOUNT_PRIVATE_H
+HB_OBJECT_PRIVATE_H
 #
 define
-HB_REFCOUNT_PRIVATE_H
+HB_OBJECT_PRIVATE_H
 #
 include
 "
@@ -13,6 +13,7 @@ private
 .
 h
 "
+HB_BEGIN_DECLS
 typedef
 struct
 {
@@ -154,9 +155,11 @@ HB_DEBUG_OBJECT
 #
 define
 HB_DEBUG_OBJECT
+(
 HB_DEBUG
 +
 0
+)
 #
 endif
 static
@@ -177,10 +180,13 @@ char
 function
 )
 {
-if
+(
+void
+)
 (
 HB_DEBUG_OBJECT
-)
+&
+&
 fprintf
 (
 stderr
@@ -206,6 +212,7 @@ HB_REFERENCE_COUNT_GET_VALUE
 ref_count
 )
 function
+)
 )
 ;
 }
@@ -522,5 +529,6 @@ return
 \
 }
 HB_STMT_END
+HB_END_DECLS
 #
 endif

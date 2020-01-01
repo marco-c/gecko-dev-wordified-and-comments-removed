@@ -70,6 +70,7 @@ stdio
 .
 h
 >
+HB_BEGIN_DECLS
 int
 main
 (
@@ -1178,7 +1179,7 @@ of
 type
 %
 d
-flags
+props
 0x
 %
 04X
@@ -1194,7 +1195,7 @@ get_type
 )
 lookup
 .
-get_flag
+get_props
 (
 )
 )
@@ -1359,3 +1360,4 @@ return
 0
 ;
 }
+HB_END_DECLS
