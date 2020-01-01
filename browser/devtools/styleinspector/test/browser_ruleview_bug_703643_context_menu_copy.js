@@ -1089,7 +1089,7 @@ ruleViewFrame
 contentDocument
 ;
 let
-rows
+rules
 =
 contentDoc
 .
@@ -1097,11 +1097,9 @@ querySelectorAll
 (
 "
 .
+ruleview
+-
 rule
--
-view
--
-row
 "
 )
 ;
@@ -1285,7 +1283,7 @@ n
 let
 elementRuleEditor
 =
-rows
+rules
 [
 0
 ]

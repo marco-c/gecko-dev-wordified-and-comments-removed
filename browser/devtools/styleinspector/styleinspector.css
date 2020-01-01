@@ -167,9 +167,11 @@ ruleview
 -
 enableproperty
 {
-visibility
+pointer
+-
+events
 :
-hidden
+none
 ;
 }
 .
