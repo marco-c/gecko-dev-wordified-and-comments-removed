@@ -447,6 +447,9 @@ destroyNameCb
 ;
 }
 ;
+#
+ifdef
+JS_THREADSAFE
 extern
 JS_PUBLIC_API
 (
@@ -479,6 +482,8 @@ JSMallocSizeOfFun
 mallocSizeOf
 )
 ;
+#
+endif
 extern
 JS_PUBLIC_API
 (
