@@ -230,10 +230,12 @@ Shutdown
 ;
 static
 CTFontRef
-CreateCopyWithDisabledLigatures
+CreateCTFontWithDisabledLigatures
 (
-CTFontRef
+ATSFontRef
 aFont
+CGFloat
+aSize
 )
 ;
 protected
