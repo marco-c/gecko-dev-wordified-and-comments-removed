@@ -580,10 +580,8 @@ DIST
 PKG_INST_PATH
 )
 (
-PKG_INST_BASENAME
+PKG_STUB_BASENAME
 )
--
-stub
 .
 exe
 "
@@ -598,10 +596,8 @@ DIST
 PKG_INST_PATH
 )
 (
-PKG_INST_BASENAME
+PKG_STUB_BASENAME
 )
--
-stub
 .
 exe
 "
