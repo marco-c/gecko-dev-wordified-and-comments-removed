@@ -3189,7 +3189,7 @@ lir
 >
 ins2
 (
-LIR_piadd
+LIR_addp
 fp_ins
 INS_CONSTWORD
 (
@@ -3917,6 +3917,15 @@ lir
 >
 insImmWord
 (
+(
+tree
+-
+>
+maxCallDepth
++
+1
+)
+*
 sizeof
 (
 FrameInfo

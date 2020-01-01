@@ -2483,7 +2483,6 @@ vp
 !
 VALUE_IS_XML
 (
-cx
 *
 vp
 )
@@ -3553,14 +3552,9 @@ arr
 if
 (
 !
-js_AddGCThingRoot
+JS_AddNamedObjectRoot
 (
 cx
-(
-void
-*
-*
-)
 &
 jp
 -

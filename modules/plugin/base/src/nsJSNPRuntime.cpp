@@ -5529,6 +5529,14 @@ npobj
 >
 parent
 ;
+if
+(
+!
+actor
+)
+return
+JS_FALSE
+;
 JSBool
 success
 =

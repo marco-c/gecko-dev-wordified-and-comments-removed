@@ -10431,7 +10431,6 @@ CreateExplicitWrapper
 (
 cx
 wn
-JS_TRUE
 rval
 )
 ;
@@ -12453,13 +12452,11 @@ JSObject
 *
 sandbox
 =
-JS_NewObjectWithGivenProto
+JS_NewGlobalObject
 (
 cx
 &
 SandboxClass
-nsnull
-nsnull
 )
 ;
 if

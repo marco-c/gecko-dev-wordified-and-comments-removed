@@ -68,8 +68,6 @@ cx
 XPCWrappedNative
 *
 wrapper
-JSBool
-deep
 jsval
 *
 rval

@@ -5271,6 +5271,7 @@ FUN_OBJECT
 (
 fun
 )
+proto
 )
 )
 return
