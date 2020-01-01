@@ -641,9 +641,7 @@ jar
 mn
 :
 :
-echo
--
-n
+printf
 "
 (
 AB_CD
