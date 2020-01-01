@@ -1655,12 +1655,9 @@ const
 PRInt32
 kInitialPoolSize
 =
-NS_SIZE_IN_HEAP
-(
 sizeof
 (
 nsEventTargetChainItem
-)
 )
 *
 NS_CHAIN_POOL_SIZE

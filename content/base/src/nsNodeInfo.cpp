@@ -138,14 +138,9 @@ const
 PRInt32
 kNodeInfoPoolInitialSize
 =
-(
-NS_SIZE_IN_HEAP
-(
 sizeof
 (
 nsNodeInfo
-)
-)
 )
 *
 64
