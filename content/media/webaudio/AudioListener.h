@@ -121,7 +121,7 @@ bool
 aTriedToWrap
 )
 ;
-double
+float
 DopplerFactor
 (
 )
@@ -134,7 +134,7 @@ mDopplerFactor
 void
 SetDopplerFactor
 (
-double
+float
 aDopplerFactor
 )
 {
@@ -143,7 +143,7 @@ mDopplerFactor
 aDopplerFactor
 ;
 }
-double
+float
 SpeedOfSound
 (
 )
@@ -156,7 +156,7 @@ mSpeedOfSound
 void
 SetSpeedOfSound
 (
-double
+float
 aSpeedOfSound
 )
 {
@@ -299,10 +299,10 @@ mUpVector
 ThreeDPoint
 mVelocity
 ;
-double
+float
 mDopplerFactor
 ;
-double
+float
 mSpeedOfSound
 ;
 }
