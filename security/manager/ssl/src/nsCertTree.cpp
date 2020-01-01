@@ -3040,9 +3040,9 @@ colIndex
 PRUint32
 arrayIndex
 =
-colIndex
-+
 absoluteCertOffset
++
+colIndex
 *
 mNumRows
 ;
