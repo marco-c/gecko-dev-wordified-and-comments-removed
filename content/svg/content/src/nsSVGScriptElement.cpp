@@ -313,7 +313,7 @@ nsIScriptLoaderObserver
 nsIScriptElement
 nsIMutationObserver
 )
-NS_INTERFACE_MAP_ENTRY_CONTENT_CLASSINFO
+NS_DOM_INTERFACE_MAP_ENTRY_CLASSINFO
 (
 SVGScriptElement
 )
