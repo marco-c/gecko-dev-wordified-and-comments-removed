@@ -72,15 +72,6 @@ height
 "
 800
 "
-onload
-=
-"
-setTimeout
-(
-restart
-0
-)
-"
 orient
 =
 "
