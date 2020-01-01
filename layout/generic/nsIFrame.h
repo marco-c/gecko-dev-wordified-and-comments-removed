@@ -1989,6 +1989,10 @@ const
 nsSize
 &
 aFrameSize
+const
+nsSize
+&
+aBorderArea
 PRIntn
 aSkipSides
 nscoord
