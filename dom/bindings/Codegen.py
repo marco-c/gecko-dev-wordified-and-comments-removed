@@ -8137,6 +8137,17 @@ args
 Argument
 (
 '
+JSContext
+*
+'
+'
+cx
+'
+)
+                
+Argument
+(
+'
 GlobalObject
 &
 '
@@ -8144,6 +8155,7 @@ GlobalObject
 global
 '
 )
+                
 Argument
 (
 '
@@ -8383,6 +8395,7 @@ result
 =
 ConstructNavigatorObjectHelper
 (
+aCx
 global
 rv
 )
@@ -66440,10 +66453,17 @@ gpi
 JS
 :
 :
+Rooted
+<
+JS
+:
+:
 Value
+>
 initReturn
-=
-JSVAL_VOID
+(
+cx
+)
 ;
     
 nsresult
@@ -66455,8 +66475,11 @@ gpi
 Init
 (
 window
-&
 initReturn
+.
+address
+(
+)
 )
 ;
     
@@ -66565,9 +66588,18 @@ nullptr
   
 }
   
+JS
+:
+:
+Rooted
+<
 JSObject
 *
+>
 jsImplObj
+(
+cx
+)
 ;
   
 if
@@ -66579,8 +66611,11 @@ implWrapped
 >
 GetJSObject
 (
-&
 jsImplObj
+.
+address
+(
+)
 )
 )
 )
@@ -67611,8 +67646,14 @@ ClassConstructor
 Argument
 (
 "
+JS
+:
+:
+Handle
+<
 JSObject
 *
+>
 "
 "
 aJSImplObject

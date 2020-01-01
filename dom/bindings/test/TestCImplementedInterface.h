@@ -33,8 +33,14 @@ public
 :
 TestCImplementedInterface
 (
+JS
+:
+:
+Handle
+<
 JSObject
 *
+>
 aJSImpl
 nsPIDOMWindow
 *
