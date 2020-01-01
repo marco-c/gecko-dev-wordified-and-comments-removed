@@ -740,6 +740,10 @@ cairo_quartz_surface_get_cg_context
 _moz_cairo_quartz_surface_get_cg_context
 #
 define
+cairo_quartz_surface_get_image
+_moz_cairo_quartz_surface_get_image
+#
+define
 cairo_rectangle
 _moz_cairo_rectangle
 #
