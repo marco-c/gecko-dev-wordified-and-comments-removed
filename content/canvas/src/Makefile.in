@@ -207,6 +207,10 @@ WebGLExtensionCompressedTextureS3TC
 .
 cpp
 \
+WebGLExtensionDepthTexture
+.
+cpp
+\
 (
 NULL
 )

@@ -2648,6 +2648,13 @@ nsIWebGLExtensionCompressedTextureS3TC
 nsIDOMWebGLRenderingContext
 '
 '
+nsIWebGLExtensionDepthTexture
+'
+:
+'
+nsIDOMWebGLRenderingContext
+'
+'
 nsIIndexedDatabaseUsageCallback
 '
 :

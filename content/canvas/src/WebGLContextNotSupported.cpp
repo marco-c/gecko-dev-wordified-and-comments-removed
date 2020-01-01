@@ -112,3 +112,8 @@ DOMCI_DATA
 WebGLExtensionCompressedTextureS3TC
 void
 )
+DOMCI_DATA
+(
+WebGLExtensionDepthTexture
+void
+)
