@@ -4160,16 +4160,6 @@ flashBar
 pref
 (
 "
-plugin
-.
-default_plugin_disabled
-"
-true
-)
-;
-pref
-(
-"
 pfs
 .
 datasource
