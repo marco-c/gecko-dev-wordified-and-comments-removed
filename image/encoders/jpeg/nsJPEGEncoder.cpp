@@ -1441,7 +1441,7 @@ pixelOut
 0
 ]
 =
-gfxPreMultiply
+GFX_PREMULTIPLY
 (
 pixelIn
 [
@@ -1455,7 +1455,7 @@ pixelOut
 1
 ]
 =
-gfxPreMultiply
+GFX_PREMULTIPLY
 (
 pixelIn
 [
@@ -1469,7 +1469,7 @@ pixelOut
 2
 ]
 =
-gfxPreMultiply
+GFX_PREMULTIPLY
 (
 pixelIn
 [
