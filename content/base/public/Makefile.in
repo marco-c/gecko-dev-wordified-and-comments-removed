@@ -597,10 +597,6 @@ NULL
 XPIDLSRCS
 =
 \
-nsIChromeRegistry
-.
-idl
-\
 nsIContentPolicy
 .
 idl

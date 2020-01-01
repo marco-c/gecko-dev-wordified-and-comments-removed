@@ -11,6 +11,9 @@ nscore
 .
 h
 "
+#
+ifdef
+XP_WIN
 PRInt32
 NS_COM_GLUE
 NS_CompareVersions
@@ -25,6 +28,8 @@ PRUnichar
 B
 )
 ;
+#
+endif
 PRInt32
 NS_COM_GLUE
 NS_CompareVersions

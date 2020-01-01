@@ -284,6 +284,16 @@ nsIPrefBranch
 prefs
 )
 ;
+#
+ifdef
+MOZ_OMNIJAR
+nsresult
+CheckOmnijarChrome
+(
+)
+;
+#
+endif
 static
 nsresult
 RefreshWindow

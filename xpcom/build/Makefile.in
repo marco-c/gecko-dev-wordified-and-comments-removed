@@ -566,6 +566,9 @@ chrome
 /
 src
 /
+(
+LIB_PREFIX
+)
 chrome_s
 .
 (
