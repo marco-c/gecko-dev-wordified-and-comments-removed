@@ -709,7 +709,10 @@ MOZ_CRASH
 (
 )
 ;
-JS_SetGlobalObject
+js
+:
+:
+SetDefaultObjectForContext
 (
 mSafeJSContext
 glob

@@ -5334,7 +5334,10 @@ tmp
 mContext
 )
 ;
-JS_SetGlobalObject
+js
+:
+:
+SetDefaultObjectForContext
 (
 tmp
 -

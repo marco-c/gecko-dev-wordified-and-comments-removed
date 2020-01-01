@@ -15670,7 +15670,10 @@ JSOPTION_DONT_REPORT_UNCAUGHT
 JSOPTION_PRIVATE_IS_NSISUPPORTS
 )
 ;
-JS_SetGlobalObject
+js
+:
+:
+SetDefaultObjectForContext
 (
 mJSContext
 aSandbox

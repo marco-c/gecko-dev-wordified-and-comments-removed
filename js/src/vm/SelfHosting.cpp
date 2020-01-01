@@ -3725,7 +3725,10 @@ cx
 selfHostingGlobal_
 )
 ;
-JS_SetGlobalObject
+js
+:
+:
+SetDefaultObjectForContext
 (
 cx
 selfHostingGlobal_
@@ -4007,7 +4010,10 @@ cx
 oldReporter
 )
 ;
-JS_SetGlobalObject
+js
+:
+:
+SetDefaultObjectForContext
 (
 cx
 savedGlobal

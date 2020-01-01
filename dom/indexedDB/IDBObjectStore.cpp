@@ -1976,7 +1976,10 @@ mGlobal
 NS_ERROR_OUT_OF_MEMORY
 )
 ;
-JS_SetGlobalObject
+js
+:
+:
+SetDefaultObjectForContext
 (
 mContext
 mGlobal

@@ -9376,7 +9376,10 @@ aCx
 aOuterObject
 )
 ;
-JS_SetGlobalObject
+js
+:
+:
+SetDefaultObjectForContext
 (
 aCx
 aOuterObject
@@ -11128,7 +11131,10 @@ FastGetGlobalJSObject
 ;
 #
 endif
-JS_SetGlobalObject
+js
+:
+:
+SetDefaultObjectForContext
 (
 cx
 mJSObject
