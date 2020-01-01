@@ -147,11 +147,14 @@ ons
 <
 !
 ENTITY
-installFromFile
+installAddonFromFile
 .
 label
 "
 Install
+Add
+-
+on
 From
 File
 "
@@ -159,7 +162,7 @@ File
 <
 !
 ENTITY
-installFromFile
+installAddonFromFile
 .
 accesskey
 "
