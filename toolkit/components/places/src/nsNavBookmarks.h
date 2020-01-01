@@ -223,6 +223,11 @@ PRInt64
 aItemId
 )
 ;
+nsresult
+FinalizeStatements
+(
+)
+;
 private
 :
 static
