@@ -495,10 +495,7 @@ deviceID
 *
 deviceID
 =
-nsCRT
-:
-:
-strdup
+NS_strdup
 (
 mDeviceID
 )
