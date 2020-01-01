@@ -652,10 +652,6 @@ nsRandomGenerator
 .
 cpp
 \
-NSSErrorsService
-.
-cpp
-\
 (
 NULL
 )
