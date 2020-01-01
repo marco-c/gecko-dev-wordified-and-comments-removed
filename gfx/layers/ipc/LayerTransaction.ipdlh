@@ -269,9 +269,6 @@ mozilla
 layers
 :
 :
-ImageLayer
-:
-:
 ScaleMode
 ;
 using

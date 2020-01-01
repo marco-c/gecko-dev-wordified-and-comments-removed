@@ -52,6 +52,13 @@ gfxPoint
 .
 h
 "
+#
+include
+"
+ImageTypes
+.
+h
+"
 namespace
 mozilla
 {

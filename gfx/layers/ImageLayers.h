@@ -49,14 +49,6 @@ Layer
 {
 public
 :
-enum
-ScaleMode
-{
-SCALE_NONE
-SCALE_STRETCH
-SCALE_SENTINEL
-}
-;
 virtual
 void
 SetContainer

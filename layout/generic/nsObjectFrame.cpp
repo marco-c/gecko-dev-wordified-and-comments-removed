@@ -7397,9 +7397,6 @@ imglayer
 SetScaleToSize
 (
 size
-ImageLayer
-:
-:
 SCALE_STRETCH
 )
 ;

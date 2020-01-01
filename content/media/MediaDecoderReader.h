@@ -48,13 +48,6 @@ h
 #
 include
 "
-ImageLayers
-.
-h
-"
-#
-include
-"
 AudioSampleFormat
 .
 h

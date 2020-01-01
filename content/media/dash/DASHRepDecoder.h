@@ -18,13 +18,6 @@ h
 #
 include
 "
-ImageLayers
-.
-h
-"
-#
-include
-"
 DASHDecoder
 .
 h
@@ -53,6 +46,13 @@ h
 namespace
 mozilla
 {
+namespace
+layers
+{
+class
+ImageContainer
+;
+}
 class
 DASHDecoder
 ;
