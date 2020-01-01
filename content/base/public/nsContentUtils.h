@@ -376,6 +376,9 @@ nsIChannel
 struct
 nsIntMargin
 ;
+class
+nsPIDOMWindow
+;
 #
 ifndef
 have_PrefChangedFunc_typedef
@@ -1009,6 +1012,13 @@ static
 nsIDocShell
 *
 GetDocShellFromCaller
+(
+)
+;
+static
+nsPIDOMWindow
+*
+GetWindowFromCaller
 (
 )
 ;

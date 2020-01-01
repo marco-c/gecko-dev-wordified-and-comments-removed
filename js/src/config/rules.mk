@@ -6213,7 +6213,9 @@ BIN_SUFFIX
 DIST
 )
 /
-bin
+(
+MOZ_APP_NAME
+)
 endif
 ifdef
 SHARED_LIBRARY
@@ -6239,7 +6241,9 @@ SHARED_LIBRARY_NAME
 DIST
 )
 /
-bin
+(
+MOZ_APP_NAME
+)
 endif
 endif
 #
