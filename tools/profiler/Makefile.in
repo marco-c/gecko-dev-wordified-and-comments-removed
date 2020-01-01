@@ -547,6 +547,14 @@ CPPSRCS
 +
 =
 \
+shared
+-
+libraries
+-
+linux
+.
+cc
+\
 platform
 -
 linux
