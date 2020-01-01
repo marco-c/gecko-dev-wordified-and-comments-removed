@@ -290,6 +290,7 @@ log
 config
 .
 status
+*
 config
 -
 defs
