@@ -141,9 +141,6 @@ class
 imgCacheValidator
 ;
 class
-imgLoader
-;
-class
 imgRequestProxy
 ;
 class
@@ -186,9 +183,6 @@ public
 :
 imgRequest
 (
-imgLoader
-*
-aLoader
 )
 ;
 virtual
@@ -543,10 +537,6 @@ private
 friend
 class
 imgMemoryReporter
-;
-imgLoader
-*
-mLoader
 ;
 nsCOMPtr
 <

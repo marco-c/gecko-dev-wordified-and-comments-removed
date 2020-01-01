@@ -407,9 +407,8 @@ if
 nsContentUtils
 :
 :
-GetImgLoaderForChannel
+GetImgLoader
 (
-nullptr
 )
 )
 {
@@ -1245,9 +1244,8 @@ if
 nsContentUtils
 :
 :
-GetImgLoaderForChannel
+GetImgLoader
 (
-nullptr
 )
 )
 {
@@ -1910,9 +1908,8 @@ if
 nsContentUtils
 :
 :
-GetImgLoaderForChannel
+GetImgLoader
 (
-aChannel
 )
 )
 {
@@ -1964,9 +1961,8 @@ rv
 nsContentUtils
 :
 :
-GetImgLoaderForChannel
+GetImgLoader
 (
-aChannel
 )
 -
 >
