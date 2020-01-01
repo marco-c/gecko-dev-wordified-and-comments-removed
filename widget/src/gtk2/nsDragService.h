@@ -195,7 +195,9 @@ aCallback
 void
 SourceEndDrag
 (
-void
+GdkDragContext
+*
+aContext
 )
 ;
 void

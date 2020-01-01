@@ -14478,7 +14478,7 @@ gpointer
 aData
 )
 {
-LOG
+LOGDRAG
 (
 (
 "
@@ -14830,7 +14830,7 @@ gpointer
 aData
 )
 {
-LOG
+LOGDRAG
 (
 (
 "
@@ -14945,7 +14945,7 @@ gpointer
 aData
 )
 {
-LOG
+LOGDRAG
 (
 (
 "
@@ -15326,7 +15326,7 @@ gpointer
 aData
 )
 {
-LOG
+LOGDRAG
 (
 (
 "
@@ -15395,7 +15395,7 @@ OnDragLeave
 void
 )
 {
-LOG
+LOGDRAG
 (
 (
 "
@@ -15521,7 +15521,7 @@ nscoord
 aY
 )
 {
-LOG
+LOGDRAG
 (
 (
 "
@@ -24631,7 +24631,7 @@ FireDragMotionTimer
 void
 )
 {
-LOG
+LOGDRAG
 (
 (
 "
@@ -24674,7 +24674,7 @@ FireDragLeaveTimer
 void
 )
 {
-LOG
+LOGDRAG
 (
 (
 "
