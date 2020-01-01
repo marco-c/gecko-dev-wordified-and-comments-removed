@@ -1182,6 +1182,10 @@ XPCOM_GLUE
 #
 define
 NS_CheckThreadSafe
+(
+owningThread
+msg
+)
 #
 else
 #
