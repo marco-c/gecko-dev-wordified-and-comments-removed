@@ -19,6 +19,13 @@ nsCSSProperty
 h
 "
 #
+include
+"
+nsWrapperCache
+.
+h
+"
+#
 define
 NS_ICSSDECLARATION_IID
 \
@@ -46,6 +53,8 @@ nsICSSDeclaration
 :
 public
 nsIDOMCSSStyleDeclaration
+public
+nsWrapperCache
 {
 public
 :
