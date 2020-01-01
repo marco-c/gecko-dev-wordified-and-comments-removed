@@ -1931,14 +1931,6 @@ JSDebugHooks
 *
 debugHooks
 ;
-JSScript
-*
-recorderScript
-;
-JSObject
-*
-recorderScriptObject
-;
 }
 ;
 #
