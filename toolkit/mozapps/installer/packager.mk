@@ -2401,9 +2401,9 @@ icons
 \
 *
 \
-(
-PREF_DIR
-)
+defaults
+/
+pref
 /
 channel
 -

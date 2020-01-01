@@ -1609,9 +1609,9 @@ locale
 *
 PREF_DIR
 =
-(
-PREF_DIR
-)
+defaults
+/
+pref
 BOTH_MANIFESTS
 =
 1
