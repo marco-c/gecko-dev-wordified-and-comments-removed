@@ -1396,15 +1396,6 @@ _fpuStkDepth
 ;
 )
 }
-#
-ifdef
-AVMPLUS_PORTING_API
-void
-*
-_endJit2Addr
-;
-#
-endif
 avmplus
 :
 :

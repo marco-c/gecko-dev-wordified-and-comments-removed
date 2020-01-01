@@ -3316,15 +3316,6 @@ nativePageSetup
 (
 )
 ;
-#
-ifdef
-AVMPLUS_PORTING_API
-_endJit2Addr
-=
-_nExitIns
-;
-#
-endif
 if
 (
 error
