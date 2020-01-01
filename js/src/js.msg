@@ -5034,3 +5034,17 @@ or
 null
 "
 )
+MSG_DEF
+(
+JSMSG_DEBUG_FRAME_NOT_LIVE
+274
+0
+JSEXN_ERR
+"
+stack
+frame
+is
+not
+live
+"
+)
