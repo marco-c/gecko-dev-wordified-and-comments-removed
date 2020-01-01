@@ -43,11 +43,11 @@ tabItem
 .
 addSubscriber
 (
-tabItem
 "
 savedCachedImageData
 "
 function
+onSaved
 (
 )
 {
@@ -55,10 +55,10 @@ tabItem
 .
 removeSubscriber
 (
-tabItem
 "
 savedCachedImageData
 "
+onSaved
 )
 ;
 ok

@@ -360,11 +360,11 @@ tabItem
 .
 addSubscriber
 (
-tabItem
 "
 zoomedIn
 "
 function
+onZoomedIn
 (
 )
 {
@@ -372,10 +372,10 @@ tabItem
 .
 removeSubscriber
 (
-tabItem
 "
 zoomedIn
 "
+onZoomedIn
 )
 ;
 is

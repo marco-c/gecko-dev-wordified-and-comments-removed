@@ -101,11 +101,11 @@ tabItem
 .
 addSubscriber
 (
-tabItem
 "
 updated
 "
 function
+onUpdated
 (
 )
 {
@@ -113,10 +113,10 @@ tabItem
 .
 removeSubscriber
 (
-tabItem
 "
 updated
 "
+onUpdated
 )
 ;
 ok

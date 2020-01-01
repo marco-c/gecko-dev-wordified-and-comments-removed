@@ -478,11 +478,11 @@ group
 .
 addSubscriber
 (
-group
 "
 close
 "
 function
+onClose
 (
 )
 {
@@ -490,10 +490,10 @@ group
 .
 removeSubscriber
 (
-group
 "
 close
 "
+onClose
 )
 ;
 ok
