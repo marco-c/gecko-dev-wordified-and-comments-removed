@@ -516,6 +516,17 @@ aMallocSizeOf
 )
 const
 ;
+virtual
+bool
+SizeOfIsMeasured
+(
+)
+const
+{
+return
+false
+;
+}
 enum
 MemoryLocation
 {

@@ -254,6 +254,14 @@ aMallocSizeOf
 const
 MOZ_OVERRIDE
 ;
+virtual
+bool
+SizeOfIsMeasured
+(
+)
+const
+MOZ_OVERRIDE
+;
 protected
 :
 gfxImageSurface
