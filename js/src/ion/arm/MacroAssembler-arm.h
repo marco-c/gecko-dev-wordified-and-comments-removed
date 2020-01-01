@@ -1723,6 +1723,12 @@ MacroAssemblerARM
 {
 public
 :
+using
+MacroAssemblerARM
+:
+:
+call
+;
 void
 j
 (

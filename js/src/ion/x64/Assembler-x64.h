@@ -1019,16 +1019,6 @@ ValueOperand
 JSReturnReg
 )
 ;
-static
-const
-ValueOperand
-JSCReturnOperand
-=
-ValueOperand
-(
-JSCReturnReg
-)
-;
 class
 Assembler
 :
