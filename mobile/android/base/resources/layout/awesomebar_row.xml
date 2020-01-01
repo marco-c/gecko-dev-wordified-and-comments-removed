@@ -121,9 +121,11 @@ android
 src
 =
 "
-drawable
+android
+:
+id
 /
-favicon
+empty
 "
 android
 :
