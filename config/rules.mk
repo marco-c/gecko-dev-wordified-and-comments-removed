@@ -1317,6 +1317,12 @@ DEF
 (
 DEFFILE
 )
+EXTRA_DEPS
++
+=
+(
+DEFFILE
+)
 endif
 ifdef
 MAPFILE
