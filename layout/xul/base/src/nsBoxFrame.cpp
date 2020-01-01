@@ -574,6 +574,12 @@ aParent
 aPrevInFlow
 )
 ;
+NS_ENSURE_SUCCESS
+(
+rv
+rv
+)
+;
 MarkIntrinsicWidthsDirty
 (
 )
@@ -601,6 +607,8 @@ ChildrenMustHaveWidgets
 )
 )
 {
+rv
+=
 nsHTMLContainerFrame
 :
 :
@@ -609,6 +617,12 @@ CreateViewForFrame
 this
 nsnull
 PR_TRUE
+)
+;
+NS_ENSURE_SUCCESS
+(
+rv
+rv
 )
 ;
 nsIView

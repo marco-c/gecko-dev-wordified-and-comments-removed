@@ -497,6 +497,12 @@ aParent
 aPrevInFlow
 )
 ;
+NS_ENSURE_SUCCESS
+(
+rv
+rv
+)
+;
 mTimerMediator
 =
 new
@@ -548,6 +554,8 @@ mMenuCanOverlapOSBar
 =
 tempBool
 ;
+rv
+=
 CreateViewForFrame
 (
 presContext
@@ -556,6 +564,12 @@ GetStyleContext
 (
 )
 PR_TRUE
+)
+;
+NS_ENSURE_SUCCESS
+(
+rv
+rv
 )
 ;
 nsIView
