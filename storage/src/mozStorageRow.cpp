@@ -741,7 +741,7 @@ PRUint16
 type
 ;
 nsIID
-interface
+interfaceIID
 ;
 return
 mData
@@ -757,7 +757,7 @@ GetAsArray
 &
 type
 &
-interface
+interfaceIID
 _size
 reinterpret_cast
 <
