@@ -2285,10 +2285,6 @@ masm
 .
 loadJSContext
 (
-cx
--
->
-runtime
 cxreg
 )
 ;

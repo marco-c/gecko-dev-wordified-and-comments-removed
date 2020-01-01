@@ -341,6 +341,11 @@ LDefinition
 :
 Type
 type
+=
+LDefinition
+:
+:
+GENERAL
 LDefinition
 :
 :
