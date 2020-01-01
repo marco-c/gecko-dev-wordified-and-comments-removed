@@ -1340,6 +1340,15 @@ lsensorservice
 -
 ldbus
 \
+-
+lstagefright
+\
+-
+lstagefright_omx
+\
+-
+lbinder
+\
 (
 NULL
 )
