@@ -140,7 +140,9 @@ NSAccessibilityStaticTextRole
 "
 AXWebArea
 "
-NSAccessibilityStaticTextRole
+"
+AXHeading
+"
 NSAccessibilityGroupRole
 NSAccessibilityGroupRole
 NSAccessibilityUnknownRole
