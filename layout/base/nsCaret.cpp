@@ -1436,7 +1436,7 @@ height
 theFrame
 -
 >
-GetSize
+GetContentRect
 (
 )
 .
@@ -1662,7 +1662,7 @@ height
 theFrame
 -
 >
-GetSize
+GetContentRect
 (
 )
 .
@@ -4926,7 +4926,7 @@ frameRect
 aFrame
 -
 >
-GetRect
+GetContentRect
 (
 )
 ;
