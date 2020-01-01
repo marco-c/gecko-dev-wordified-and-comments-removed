@@ -329,6 +329,13 @@ nsIAccessibleRole
 ROLE_LIST
 ;
 const
+ROLE_LISTBOX
+=
+nsIAccessibleRole
+.
+ROLE_LISTBOX
+;
+const
 ROLE_OPTION
 =
 nsIAccessibleRole

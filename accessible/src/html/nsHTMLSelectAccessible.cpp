@@ -1358,7 +1358,7 @@ aRole
 nsIAccessibleRole
 :
 :
-ROLE_LIST
+ROLE_LISTBOX
 ;
 return
 NS_OK
