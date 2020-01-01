@@ -1,9 +1,9 @@
 #
 ifndef
-OTS_HMTX_H_
+OTS_VMTX_H_
 #
 define
-OTS_HMTX_H_
+OTS_VMTX_H_
 #
 include
 "
@@ -22,7 +22,7 @@ namespace
 ots
 {
 struct
-OpenTypeHMTX
+OpenTypeVMTX
 {
 OpenTypeMetricsTable
 metrics

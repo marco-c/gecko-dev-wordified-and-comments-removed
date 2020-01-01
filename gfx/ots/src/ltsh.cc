@@ -277,6 +277,9 @@ file
 -
 >
 ltsh
+!
+=
+NULL
 ;
 }
 bool

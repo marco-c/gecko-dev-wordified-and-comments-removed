@@ -828,6 +828,9 @@ file
 -
 >
 kern
+!
+=
+NULL
 ;
 }
 bool

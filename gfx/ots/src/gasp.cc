@@ -1,10 +1,5 @@
 #
 include
-<
-new
->
-#
-include
 "
 gasp
 .
@@ -420,6 +415,9 @@ file
 -
 >
 gasp
+!
+=
+NULL
 ;
 }
 bool

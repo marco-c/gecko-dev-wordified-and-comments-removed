@@ -1,9 +1,9 @@
 #
 ifndef
-OTS_HMTX_H_
+OTS_VHEA_H_
 #
 define
-OTS_HMTX_H_
+OTS_VHEA_H_
 #
 include
 "
@@ -22,10 +22,10 @@ namespace
 ots
 {
 struct
-OpenTypeHMTX
+OpenTypeVHEA
 {
-OpenTypeMetricsTable
-metrics
+OpenTypeMetricsHeader
+header
 ;
 }
 ;

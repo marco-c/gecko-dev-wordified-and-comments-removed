@@ -57,6 +57,7 @@ off_
 )
 {
 }
+virtual
 bool
 WriteRaw
 (
@@ -131,6 +132,7 @@ return
 true
 ;
 }
+virtual
 bool
 Seek
 (
@@ -170,6 +172,7 @@ return
 true
 ;
 }
+virtual
 off_t
 Tell
 (
