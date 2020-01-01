@@ -452,6 +452,12 @@ DetermineWhetherToPrintPage
 (
 )
 ;
+nsIFrame
+*
+GetCurrentPageFrame
+(
+)
+;
 nsMargin
 mMargin
 ;
@@ -467,10 +473,6 @@ mSize
 nsSharedPageData
 *
 mPageData
-;
-nsIFrame
-*
-mCurrentPageFrame
 ;
 int32_t
 mPageNum
