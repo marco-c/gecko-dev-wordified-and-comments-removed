@@ -1816,10 +1816,6 @@ Buffer
 ;
 #
 endif
-NS_SetHasLoadedNewDLLs
-(
-)
-;
 if
 (
 gInXPCOMLoadOnMainThread
