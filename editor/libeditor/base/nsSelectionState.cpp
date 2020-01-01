@@ -83,10 +83,6 @@ nsCycleCollectionTraversalCallback
 cb
 )
 {
-nsRangeStore
-*
-item
-;
 for
 (
 PRUint32
