@@ -363,6 +363,8 @@ install
 ;
 gAppBrowser
 .
+webProgress
+.
 addProgressListener
 (
 progressListener
