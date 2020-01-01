@@ -4366,7 +4366,6 @@ InstantiateEmbeddedPlugin
 aMimeType
 aURI
 mInstanceOwner
-PR_TRUE
 )
 ;
 }

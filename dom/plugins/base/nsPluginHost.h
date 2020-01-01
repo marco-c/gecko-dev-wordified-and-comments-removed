@@ -838,8 +838,6 @@ aURL
 nsIPluginInstanceOwner
 *
 aOwner
-PRBool
-aAllowOpeningStreams
 )
 ;
 nsresult

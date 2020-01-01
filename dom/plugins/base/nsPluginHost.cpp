@@ -4222,8 +4222,6 @@ aURL
 nsIPluginInstanceOwner
 *
 aOwner
-PRBool
-aAllowOpeningStreams
 )
 {
 NS_ENSURE_ARG_POINTER
@@ -4385,9 +4383,6 @@ rv
 if
 (
 aURL
-&
-&
-aAllowOpeningStreams
 )
 {
 nsCOMPtr
@@ -4577,9 +4572,6 @@ scheme
 if
 (
 aURL
-&
-&
-aAllowOpeningStreams
 &
 &
 NS_SUCCEEDED
