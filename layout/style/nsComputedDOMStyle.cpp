@@ -6062,6 +6062,7 @@ nsIDOMCSSValue
 aValue
 )
 {
+*
 aValue
 =
 nsnull
@@ -6572,6 +6573,7 @@ nsIDOMCSSValue
 aValue
 )
 {
+*
 aValue
 =
 nsnull
@@ -6856,6 +6858,7 @@ nsIDOMCSSValue
 aValue
 )
 {
+*
 aValue
 =
 nsnull
@@ -7036,6 +7039,7 @@ nsIDOMCSSValue
 aValue
 )
 {
+*
 aValue
 =
 nsnull
@@ -7181,6 +7185,7 @@ nsIDOMCSSValue
 aValue
 )
 {
+*
 aValue
 =
 nsnull
