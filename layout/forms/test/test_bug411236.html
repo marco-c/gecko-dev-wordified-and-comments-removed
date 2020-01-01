@@ -269,9 +269,9 @@ service
 const
 prefSvcIID
 =
-Components
+SpecialPowers
 .
-interfaces
+Ci
 .
 nsIPrefService
 ;
@@ -280,12 +280,7 @@ prefs
 =
 SpecialPowers
 .
-wrap
-(
-Components
-)
-.
-classes
+Cc
 [
 prefSvcContractID
 ]
@@ -355,9 +350,9 @@ events
 var
 key
 =
-Components
+SpecialPowers
 .
-interfaces
+Ci
 .
 nsIDOMKeyEvent
 .

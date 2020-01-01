@@ -282,9 +282,9 @@ utils
 sendKeyEvent
 (
 type
-Components
+SpecialPowers
 .
-interfaces
+Ci
 .
 nsIDOMKeyEvent
 .
@@ -728,12 +728,7 @@ fm
 =
 SpecialPowers
 .
-wrap
-(
-Components
-)
-.
-classes
+Cc
 [
 "
 mozilla
@@ -750,9 +745,9 @@ manager
 .
 getService
 (
-Components
+SpecialPowers
 .
-interfaces
+Ci
 .
 nsIFocusManager
 )

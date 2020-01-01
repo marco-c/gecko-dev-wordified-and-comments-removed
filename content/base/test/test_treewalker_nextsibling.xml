@@ -265,9 +265,9 @@ function
 const
 nsIDOMNodeFilter
 =
-Components
+SpecialPowers
 .
-interfaces
+Ci
 .
 nsIDOMNodeFilter
 ;

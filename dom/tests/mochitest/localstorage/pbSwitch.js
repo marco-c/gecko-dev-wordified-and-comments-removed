@@ -19,6 +19,8 @@ try
 {
 _PBSvc
 =
+SpecialPowers
+.
 Components
 .
 classes
@@ -36,9 +38,9 @@ privatebrowsing
 .
 getService
 (
-Components
+SpecialPowers
 .
-interfaces
+Ci
 .
 nsIPrivateBrowsingService
 )
@@ -72,6 +74,8 @@ get_PBSvc
 var
 prefBranch
 =
+SpecialPowers
+.
 Components
 .
 classes
@@ -91,9 +95,9 @@ service
 .
 getService
 (
-Components
+SpecialPowers
 .
-interfaces
+Ci
 .
 nsIPrefBranch
 )
@@ -145,6 +149,8 @@ false
 var
 prefBranch
 =
+SpecialPowers
+.
 Components
 .
 classes
@@ -164,9 +170,9 @@ service
 .
 getService
 (
-Components
+SpecialPowers
 .
-interfaces
+Ci
 .
 nsIPrefBranch
 )

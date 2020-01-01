@@ -8,12 +8,7 @@ prefService
 =
 SpecialPowers
 .
-wrap
-(
-Components
-)
-.
-classes
+Cc
 [
 "
 mozilla
@@ -30,9 +25,9 @@ service
 .
 getService
 (
-Components
+SpecialPowers
 .
-interfaces
+Ci
 .
 nsIPrefService
 )

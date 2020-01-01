@@ -177,12 +177,7 @@ autocomplete
 /
 SpecialPowers
 .
-wrap
-(
-Components
-)
-.
-utils
+Cu
 .
 import
 (
@@ -205,6 +200,8 @@ window
 const
 Cc
 =
+SpecialPowers
+.
 Components
 .
 classes
@@ -212,9 +209,9 @@ classes
 const
 Ci
 =
-Components
+SpecialPowers
 .
-interfaces
+Ci
 ;
 function
 openContextMenuFor

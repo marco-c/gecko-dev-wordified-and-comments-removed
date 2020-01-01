@@ -1346,9 +1346,9 @@ if
 (
 bo
 instanceof
-Components
+SpecialPowers
 .
-interfaces
+Ci
 .
 nsIMenuBoxObject
 )
@@ -1407,9 +1407,9 @@ if
 (
 bo
 instanceof
-Components
+SpecialPowers
 .
-interfaces
+Ci
 .
 nsIMenuBoxObject
 )
@@ -1606,9 +1606,9 @@ menu
 .
 boxObject
 instanceof
-Components
+SpecialPowers
 .
-interfaces
+Ci
 .
 nsIMenuBoxObject
 )
@@ -1694,9 +1694,9 @@ menu
 .
 boxObject
 instanceof
-Components
+SpecialPowers
 .
-interfaces
+Ci
 .
 nsIMenuBoxObject
 )
