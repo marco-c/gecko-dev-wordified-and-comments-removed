@@ -1275,15 +1275,7 @@ cmdline
 Init
 (
 3
-const_cast
-<
-char
-*
-*
->
-(
 argv
-)
 nullptr
 nsICommandLine
 :
