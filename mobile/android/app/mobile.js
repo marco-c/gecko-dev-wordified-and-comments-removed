@@ -4989,7 +4989,7 @@ safebrowsing
 .
 enabled
 "
-false
+true
 )
 ;
 pref
@@ -5003,7 +5003,7 @@ malware
 .
 enabled
 "
-false
+true
 )
 ;
 pref
