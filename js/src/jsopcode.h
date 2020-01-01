@@ -1671,6 +1671,16 @@ pc
 =
 =
 JSOP_INDEXBASE
+\
+|
+|
+*
+(
+pc
+)
+=
+=
+JSOP_TRAP
 )
 \
 (
