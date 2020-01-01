@@ -1980,13 +1980,6 @@ Stop
 (
 )
 ;
-mInstance
--
->
-Destroy
-(
-)
-;
 nsCOMPtr
 <
 nsIPluginInstancePeer
