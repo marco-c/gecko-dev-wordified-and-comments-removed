@@ -1044,6 +1044,13 @@ NS_OK
 ;
 if
 (
+!
+dl
+-
+>
+mPrivate
+&
+&
 dl
 -
 >
@@ -11553,12 +11560,6 @@ exited
 0
 )
 {
-PauseAllDownloads
-(
-mCurrentPrivateDownloads
-true
-)
-;
 RemoveAllDownloads
 (
 mCurrentPrivateDownloads
