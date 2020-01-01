@@ -162,3 +162,16 @@ of
 jsprobes
 .
 cpp
+bug
+882904
+:
+move
+LIBS
+to
+moz
+.
+build
+(
+logic
+)
+.

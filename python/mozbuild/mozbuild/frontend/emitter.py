@@ -457,6 +457,12 @@ LIBRARY_NAME
 LIBRARY_NAME
 '
             
+LIBS
+=
+'
+LIBS
+'
+            
 MODULE
 =
 '
