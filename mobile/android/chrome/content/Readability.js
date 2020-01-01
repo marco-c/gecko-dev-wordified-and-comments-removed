@@ -692,7 +692,6 @@ relativeURI
 =
 null
 )
-{
 elems
 [
 i
@@ -707,7 +706,6 @@ relativeURI
 )
 )
 ;
-}
 }
 }
 convertRelativeURIs
@@ -1467,10 +1465,8 @@ tagName
 BR
 "
 )
-{
 break
 ;
-}
 }
 let
 sibling
@@ -1765,7 +1761,6 @@ false
 '
 '
 )
-{
 articleParagraphs
 [
 i
@@ -1781,7 +1776,6 @@ i
 ]
 )
 ;
-}
 }
 let
 brs
@@ -1847,7 +1841,6 @@ tagName
 P
 "
 )
-{
 br
 .
 parentNode
@@ -1857,7 +1850,6 @@ removeChild
 br
 )
 ;
-}
 }
 }
 _initializeNode
@@ -3432,12 +3424,10 @@ contentBonus
 =
 siblingScoreThreshold
 )
-{
 append
 =
 true
 ;
-}
 if
 (
 siblingNode
@@ -5677,7 +5667,6 @@ page
 score
 )
 )
-{
 topPage
 =
 possiblePages
@@ -5685,7 +5674,6 @@ possiblePages
 page
 ]
 ;
-}
 }
 }
 if
@@ -5842,7 +5830,6 @@ options
 .
 success
 )
-{
 options
 .
 success
@@ -5850,7 +5837,6 @@ success
 request
 )
 ;
-}
 }
 else
 {
@@ -5860,7 +5846,6 @@ options
 .
 error
 )
-{
 options
 .
 error
@@ -5868,7 +5853,6 @@ error
 request
 )
 ;
-}
 }
 }
 }
@@ -7738,11 +7722,9 @@ if
 !
 articleContent
 )
-{
 return
 null
 ;
-}
 this
 .
 _postProcessContent
