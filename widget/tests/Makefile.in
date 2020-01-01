@@ -551,6 +551,14 @@ _TEST_FILES
 taskbar_previews
 .
 xul
+\
+taskbar_progress
+.
+xul
+\
+(
+NULL
+)
 endif
 endif
 libs

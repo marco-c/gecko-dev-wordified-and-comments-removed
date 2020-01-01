@@ -689,6 +689,14 @@ idl
 nsITaskbarPreviewButton
 .
 idl
+\
+nsITaskbarProgress
+.
+idl
+\
+(
+NULL
+)
 endif
 ifeq
 (
