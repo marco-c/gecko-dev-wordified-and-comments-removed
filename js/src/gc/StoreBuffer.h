@@ -57,10 +57,12 @@ VerifierNursery
 {
 HashSet
 <
+const
 void
 *
 PointerHasher
 <
+const
 void
 *
 3
@@ -160,6 +162,7 @@ enable
 bool
 isInside
 (
+const
 void
 *
 cell
