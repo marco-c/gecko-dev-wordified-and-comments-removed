@@ -1622,6 +1622,9 @@ self
 )
 :
     
+try
+:
+      
 ip
 =
 socket
@@ -1633,6 +1636,30 @@ socket
 gethostname
 (
 )
+)
+    
+except
+socket
+.
+gaierror
+:
+      
+ip
+=
+socket
+.
+gethostbyname
+(
+socket
+.
+gethostname
+(
+)
++
+"
+.
+local
+"
 )
     
 if
