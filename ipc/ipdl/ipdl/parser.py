@@ -3000,7 +3000,7 @@ isinstance
 (
 p
 [
-0
+1
 ]
 QualifiedId
 )
