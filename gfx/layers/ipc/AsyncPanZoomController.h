@@ -34,6 +34,15 @@ include
 "
 mozilla
 /
+ReentrantMonitor
+.
+h
+"
+#
+include
+"
+mozilla
+/
 RefPtr
 .
 h
@@ -693,7 +702,7 @@ protected
 FrameMetrics
 mFrameMetrics
 ;
-Monitor
+ReentrantMonitor
 mMonitor
 ;
 private
