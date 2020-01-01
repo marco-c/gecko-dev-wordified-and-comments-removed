@@ -117,6 +117,9 @@ s
 __FUNCTION__
 )
 ;
+#
+ifdef
+MOZILLA_INTERNAL_API
 NS_ASSERTION
 (
 NS_IsMainThread
@@ -131,6 +134,8 @@ thread
 "
 )
 ;
+#
+endif
 WebrtcAudioConduit
 *
 obj
@@ -206,6 +211,9 @@ WebrtcAudioConduit
 (
 )
 {
+#
+ifdef
+MOZILLA_INTERNAL_API
 NS_ASSERTION
 (
 NS_IsMainThread
@@ -220,6 +228,8 @@ thread
 "
 )
 ;
+#
+endif
 CSFLogDebug
 (
 logTag
