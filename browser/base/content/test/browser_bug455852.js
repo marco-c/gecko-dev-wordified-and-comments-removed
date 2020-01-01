@@ -19,7 +19,9 @@ open
 "
 )
 ;
-content
+gBrowser
+.
+selectedBrowser
 .
 focus
 (

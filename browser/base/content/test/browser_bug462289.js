@@ -491,7 +491,9 @@ tab2
 "
 )
 ;
-content
+gBrowser
+.
+selectedBrowser
 .
 focus
 (

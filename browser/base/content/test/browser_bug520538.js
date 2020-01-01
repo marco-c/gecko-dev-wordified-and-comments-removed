@@ -12,7 +12,9 @@ tabs
 .
 length
 ;
-content
+gBrowser
+.
+selectedBrowser
 .
 focus
 (

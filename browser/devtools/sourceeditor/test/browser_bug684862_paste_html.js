@@ -283,7 +283,9 @@ function
 (
 )
 {
-content
+gBrowser
+.
+selectedBrowser
 .
 focus
 (

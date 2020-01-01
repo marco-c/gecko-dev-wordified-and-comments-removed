@@ -285,7 +285,9 @@ selectedTab
 =
 tab
 ;
-content
+gBrowser
+.
+selectedBrowser
 .
 focus
 (

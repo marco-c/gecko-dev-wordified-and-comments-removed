@@ -7785,9 +7785,9 @@ firstTabAdded
 ;
 }
 else
-window
+this
 .
-content
+selectedBrowser
 .
 focus
 (
