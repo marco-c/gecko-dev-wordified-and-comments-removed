@@ -13502,6 +13502,12 @@ destroy
 (
 )
 ;
+SiteIdentityPopup
+.
+clearInstance
+(
+)
+;
 Tabs
 .
 getInstance
