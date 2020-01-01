@@ -888,7 +888,7 @@ NS_ASSERTION
 aSheet
 -
 >
-GetApplicable
+IsApplicable
 (
 )
 "
@@ -978,7 +978,7 @@ NS_ASSERTION
 aSheet
 -
 >
-GetApplicable
+IsApplicable
 (
 )
 "
@@ -1069,7 +1069,7 @@ NS_ASSERTION
 aSheet
 -
 >
-GetComplete
+IsComplete
 (
 )
 "
@@ -1284,7 +1284,7 @@ NS_ASSERTION
 aSheet
 -
 >
-GetApplicable
+IsApplicable
 (
 )
 "

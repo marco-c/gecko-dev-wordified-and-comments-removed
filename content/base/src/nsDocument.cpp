@@ -8049,7 +8049,7 @@ if
 sheet
 -
 >
-GetApplicable
+IsApplicable
 (
 )
 )
@@ -8101,7 +8101,7 @@ if
 sheet
 -
 >
-GetApplicable
+IsApplicable
 (
 )
 )
@@ -8589,7 +8589,7 @@ if
 sheet
 -
 >
-GetApplicable
+IsApplicable
 (
 )
 )
@@ -8641,7 +8641,7 @@ if
 sheet
 -
 >
-GetApplicable
+IsApplicable
 (
 )
 )
@@ -13919,7 +13919,7 @@ if
 aSheet
 -
 >
-GetApplicable
+IsApplicable
 (
 )
 )
@@ -14048,7 +14048,7 @@ if
 aSheet
 -
 >
-GetApplicable
+IsApplicable
 (
 )
 )
@@ -14235,7 +14235,7 @@ if
 newSheet
 -
 >
-GetApplicable
+IsApplicable
 (
 )
 )
@@ -14307,7 +14307,7 @@ if
 aSheet
 -
 >
-GetApplicable
+IsApplicable
 (
 )
 )
@@ -14481,7 +14481,7 @@ if
 aSheet
 -
 >
-GetApplicable
+IsApplicable
 (
 )
 )
@@ -32030,7 +32030,7 @@ if
 sheet
 -
 >
-GetApplicable
+IsApplicable
 (
 )
 )
@@ -32130,7 +32130,7 @@ if
 sheet
 -
 >
-GetApplicable
+IsApplicable
 (
 )
 )

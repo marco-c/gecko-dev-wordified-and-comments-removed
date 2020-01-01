@@ -1515,7 +1515,7 @@ PRBool
 nsHTMLStyleSheet
 :
 :
-GetApplicable
+IsApplicable
 (
 )
 const
@@ -1539,7 +1539,7 @@ PRBool
 nsHTMLStyleSheet
 :
 :
-GetComplete
+IsComplete
 (
 )
 const

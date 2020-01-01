@@ -12399,7 +12399,7 @@ if
 aSheet
 -
 >
-GetApplicable
+IsApplicable
 (
 )
 &

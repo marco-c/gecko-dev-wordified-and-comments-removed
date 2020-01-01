@@ -20304,7 +20304,7 @@ if
 aStyleSheet
 -
 >
-GetApplicable
+IsApplicable
 (
 )
 &
@@ -20357,7 +20357,7 @@ if
 aStyleSheet
 -
 >
-GetApplicable
+IsApplicable
 (
 )
 &
