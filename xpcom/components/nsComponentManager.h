@@ -71,7 +71,7 @@ include
 "
 mozilla
 /
-ReentrantMonitor
+Mutex
 .
 h
 "
@@ -501,8 +501,8 @@ mContractIDs
 mozilla
 :
 :
-ReentrantMonitor
-mMon
+Mutex
+mLock
 ;
 static
 void
@@ -819,7 +819,7 @@ aFile
 )
 ;
 void
-RegisterCIDEntry
+RegisterCIDEntryLocked
 (
 const
 mozilla
@@ -837,7 +837,7 @@ aModule
 )
 ;
 void
-RegisterContractID
+RegisterContractIDLocked
 (
 const
 mozilla
