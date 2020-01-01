@@ -1817,7 +1817,7 @@ TypeInferenceOracle
 :
 elementReadIsTypedArray
 (
-RawScript
+HandleScript
 script
 jsbytecode
 *
@@ -1849,7 +1849,10 @@ StackTypeSet
 *
 id
 =
+DropUnrooted
+(
 script
+)
 -
 >
 analysis
@@ -2748,7 +2751,7 @@ TypeInferenceOracle
 :
 elementWriteHasExtraIndexedProperty
 (
-RawScript
+UnrootedScript
 script
 jsbytecode
 *
@@ -2807,7 +2810,7 @@ TypeInferenceOracle
 :
 elementWriteIsPacked
 (
-RawScript
+UnrootedScript
 script
 jsbytecode
 *
@@ -3502,12 +3505,13 @@ TypeInferenceOracle
 :
 canEnterInlinedFunction
 (
-RawScript
+HandleScript
 caller
 jsbytecode
 *
 pc
-RawFunction
+JSFunction
+*
 target
 )
 {
