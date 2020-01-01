@@ -2846,13 +2846,6 @@ text
 -
 popup
 "
-onpopupshowing
-=
-"
-goUpdateGlobalEditMenuItems
-(
-)
-"
 >
 <
 menuitem
