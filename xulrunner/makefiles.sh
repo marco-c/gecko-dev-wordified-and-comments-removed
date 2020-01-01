@@ -439,11 +439,4 @@ installer
 mac
 /
 Makefile
-xulrunner
-/
-installer
-/
-debian
-/
-changelog
 "
