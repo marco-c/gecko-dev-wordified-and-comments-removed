@@ -39,4 +39,12 @@ getClientsCount
 (
 )
 ;
+public
+boolean
+isLocalGUID
+(
+String
+guid
+)
+;
 }
