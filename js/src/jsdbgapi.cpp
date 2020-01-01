@@ -1543,11 +1543,9 @@ pc
 )
 {
 return
-js
-:
-:
-PCToLineNumber
+js_PCToLineNumber
 (
+cx
 script
 pc
 )
