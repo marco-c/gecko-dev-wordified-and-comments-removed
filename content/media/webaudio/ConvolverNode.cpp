@@ -702,6 +702,11 @@ ErrorResult
 aRv
 )
 {
+if
+(
+aBuffer
+)
+{
 switch
 (
 aBuffer
@@ -734,6 +739,7 @@ NS_ERROR_DOM_SYNTAX_ERR
 ;
 return
 ;
+}
 }
 mBuffer
 =
