@@ -1061,6 +1061,10 @@ browser_findbarClose
 .
 js
 \
+browser_homeDrop
+.
+js
+\
 browser_keywordBookmarklets
 .
 js
