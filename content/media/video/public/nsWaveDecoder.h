@@ -301,6 +301,9 @@ nsMediaStream
 mStream
 ;
 float
+mTimeOffset
+;
+float
 mEndedCurrentTime
 ;
 float
