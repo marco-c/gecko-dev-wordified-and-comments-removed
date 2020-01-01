@@ -3873,9 +3873,16 @@ read_length
 =
 remaining_length
 )
+{
+free
+(
+data
+)
+;
 return
 INVALID_PROFILE
 ;
+}
 profile
 =
 qcms_profile_from_memory
