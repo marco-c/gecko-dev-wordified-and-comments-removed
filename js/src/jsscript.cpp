@@ -5542,7 +5542,8 @@ if
 hook
 )
 {
-JS_KEEP_ATOMS
+AutoKeepAtoms
+keep
 (
 cx
 -
@@ -5570,14 +5571,6 @@ debugHooks
 -
 >
 newScriptHookData
-)
-;
-JS_UNKEEP_ATOMS
-(
-cx
--
->
-runtime
 )
 ;
 }

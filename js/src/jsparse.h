@@ -2668,6 +2668,12 @@ JSTreeContext
 *
 tc
 ;
+js
+:
+:
+AutoKeepAtoms
+keepAtoms
+;
 JSCompiler
 (
 JSContext
@@ -2748,6 +2754,13 @@ NULL
 tc
 (
 NULL
+)
+keepAtoms
+(
+cx
+-
+>
+runtime
 )
 {
 js

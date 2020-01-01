@@ -80715,7 +80715,8 @@ clearParent
 (
 )
 ;
-JS_LOCK_GC
+AutoLockGC
+lock
 (
 rt
 )
@@ -80751,11 +80752,6 @@ builtinFunctions
 [
 index
 ]
-;
-JS_UNLOCK_GC
-(
-rt
-)
 ;
 }
 }
