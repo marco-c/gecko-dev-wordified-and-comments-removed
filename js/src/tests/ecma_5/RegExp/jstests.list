@@ -67,6 +67,12 @@ lastIndex
 ToInteger
 .
 js
+script
+regress
+-
+576828
+.
+js
 skip
 -
 if
