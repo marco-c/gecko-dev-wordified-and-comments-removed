@@ -68,9 +68,6 @@ NotifyEvent
 ;
 }
 class
-nsWindow
-;
-class
 nsAppShell
 :
 public
@@ -202,14 +199,6 @@ const
 PRUnichar
 *
 aData
-)
-;
-void
-ResendLastResizeEvent
-(
-nsWindow
-*
-aDest
 )
 ;
 protected
