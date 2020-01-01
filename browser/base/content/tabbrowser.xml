@@ -12508,16 +12508,9 @@ front
 var
 targetTop
 =
-new
-XPCNativeWrapper
-(
 event
 .
 target
-"
-top
-"
-)
 .
 top
 ;
