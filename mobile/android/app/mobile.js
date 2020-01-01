@@ -5989,7 +5989,7 @@ chrome
 .
 dynamictoolbar
 "
-false
+true
 )
 ;
 #
