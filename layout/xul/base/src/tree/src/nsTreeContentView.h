@@ -424,12 +424,6 @@ nsIContent
 >
 mRoot
 ;
-nsCOMPtr
-<
-nsIContent
->
-mBody
-;
 nsIDocument
 *
 mDocument
