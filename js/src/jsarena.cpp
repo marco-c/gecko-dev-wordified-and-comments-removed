@@ -589,7 +589,7 @@ b
 JSArena
 *
 )
-malloc
+js_malloc
 (
 gross
 )
@@ -620,7 +620,7 @@ b
 JSArena
 *
 )
-malloc
+js_malloc
 (
 gross
 )
@@ -1023,7 +1023,7 @@ a
 JSArena
 *
 )
-realloc
+js_realloc
 (
 a
 gross
@@ -1055,7 +1055,7 @@ a
 JSArena
 *
 )
-realloc
+js_realloc
 (
 a
 gross
@@ -1517,7 +1517,7 @@ pool
 -
 )
 ;
-free
+js_free
 (
 a
 )
@@ -1723,7 +1723,7 @@ stats
 name
 )
 {
-free
+js_free
 (
 pool
 -

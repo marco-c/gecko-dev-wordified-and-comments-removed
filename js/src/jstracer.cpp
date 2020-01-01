@@ -19858,7 +19858,7 @@ label
 char
 *
 )
-malloc
+js_malloc
 (
 (
 filename
@@ -19920,7 +19920,7 @@ Fragment
 label
 )
 ;
-free
+js_free
 (
 label
 )
@@ -68026,9 +68026,11 @@ JS_StartTraceVis
 filename
 )
 ;
-JS_free
-(
 cx
+-
+>
+free
+(
 filename
 )
 ;

@@ -283,11 +283,6 @@ JSRuntime
 ;
 typedef
 struct
-JSRuntime
-JSTaskState
-;
-typedef
-struct
 JSScript
 JSScript
 ;

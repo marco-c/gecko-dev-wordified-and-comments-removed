@@ -1482,7 +1482,7 @@ buffer
 char
 *
 )
-malloc
+js_malloc
 (
 DTOBASESTR_BUFFER_SIZE
 )
@@ -1786,7 +1786,7 @@ UNLOCK_DTOA
 (
 )
 ;
-free
+js_free
 (
 buffer
 )
@@ -1990,7 +1990,7 @@ UNLOCK_DTOA
 (
 )
 ;
-free
+js_free
 (
 buffer
 )

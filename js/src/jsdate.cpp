@@ -8847,7 +8847,7 @@ if
 str
 )
 {
-free
+js_free
 (
 bytes
 )

@@ -848,6 +848,10 @@ jsstr
 .
 cpp
 \
+jstask
+.
+cpp
+\
 jsutil
 .
 cpp
@@ -1059,6 +1063,10 @@ jsstaticcheck
 h
 \
 jsstr
+.
+h
+\
+jstask
 .
 h
 \
@@ -1877,9 +1885,9 @@ js
 config
 .
 h
-js
+mozilla
 -
-confdefs
+config
 .
 h
 distclean
