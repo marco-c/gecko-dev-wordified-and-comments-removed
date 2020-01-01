@@ -4519,7 +4519,7 @@ a
 "
 a
 "
-true
+false
 )
 ;
 testKey
@@ -4551,7 +4551,7 @@ a
 "
 A
 "
-true
+false
 )
 ;
 /
@@ -4638,8 +4638,6 @@ false
 Alt
 -
 ctrl
-does
-not
 activate
 accesskeys
 testKey
@@ -4674,7 +4672,7 @@ a
 "
 a
 "
-false
+true
 )
 ;
 testKey
@@ -4709,7 +4707,7 @@ a
 "
 A
 "
-false
+true
 )
 ;
 /
@@ -4733,6 +4731,9 @@ keyCode
 :
 0
 ctrl
+:
+1
+alt
 :
 1
 chars
@@ -4766,6 +4767,9 @@ keyCode
 :
 0
 ctrl
+:
+1
+alt
 :
 1
 chars
@@ -4811,6 +4815,9 @@ keyCode
 ctrl
 :
 1
+alt
+:
+1
 chars
 :
 "
@@ -4843,6 +4850,9 @@ keyCode
 :
 0
 ctrl
+:
+1
+alt
 :
 1
 chars
@@ -4881,6 +4891,9 @@ keyCode
 :
 47
 ctrl
+:
+1
+alt
 :
 1
 chars
@@ -4923,6 +4936,9 @@ keyCode
 ctrl
 :
 1
+alt
+:
+1
 chars
 :
 "
@@ -4952,6 +4968,9 @@ keyCode
 :
 0
 ctrl
+:
+1
+alt
 :
 1
 chars
@@ -4985,6 +5004,9 @@ keyCode
 ctrl
 :
 1
+alt
+:
+1
 chars
 :
 "
@@ -5017,6 +5039,9 @@ keyCode
 :
 33
 ctrl
+:
+1
+alt
 :
 1
 chars
