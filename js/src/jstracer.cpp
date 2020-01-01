@@ -16971,6 +16971,7 @@ return
 found
 ;
 }
+JS_REQUIRES_STACK
 bool
 TraceRecorder
 :
@@ -19491,6 +19492,7 @@ return
 true
 ;
 }
+JS_REQUIRES_STACK
 static
 inline
 bool
