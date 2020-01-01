@@ -3856,7 +3856,7 @@ PR_TRUE
 ;
 }
 void
-ForcePluginGeometryUpdate
+SynchronousPluginGeometryUpdate
 (
 )
 ;
