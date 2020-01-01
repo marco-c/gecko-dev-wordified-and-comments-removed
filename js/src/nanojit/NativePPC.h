@@ -116,6 +116,10 @@ NJ_F2I_SUPPORTED
 define
 NJ_SOFTFLOAT_SUPPORTED
 0
+#
+define
+NJ_DIVI_SUPPORTED
+0
 enum
 ConditionRegister
 {

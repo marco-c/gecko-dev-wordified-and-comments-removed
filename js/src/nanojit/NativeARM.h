@@ -252,6 +252,10 @@ NJ_SOFTFLOAT_SUPPORTED
 1
 #
 define
+NJ_DIVI_SUPPORTED
+0
+#
+define
 NJ_CONSTANT_POOLS
 const
 int

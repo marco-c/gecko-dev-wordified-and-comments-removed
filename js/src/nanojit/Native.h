@@ -194,6 +194,15 @@ NJ_SOFTFLOAT_SUPPORTED
 #
 endif
 #
+ifndef
+NJ_DIVI_SUPPORTED
+#
+define
+NJ_DIVI_SUPPORTED
+0
+#
+endif
+#
 if
 NJ_SOFTFLOAT_SUPPORTED
 #
