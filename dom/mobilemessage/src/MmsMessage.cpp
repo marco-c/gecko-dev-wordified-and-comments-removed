@@ -128,7 +128,7 @@ MmsMessage
 int32_t
 aId
 DeliveryState
-aState
+aDelivery
 const
 nsTArray
 <
@@ -172,9 +172,9 @@ mId
 (
 aId
 )
-mState
+mDelivery
 (
-aState
+aDelivery
 )
 mDeliveryStatus
 (
@@ -221,7 +221,7 @@ aId
 const
 nsAString
 &
-aState
+aDelivery
 const
 JS
 :
@@ -279,11 +279,11 @@ aMessage
 nullptr
 ;
 DeliveryState
-state
+delivery
 ;
 if
 (
-aState
+aDelivery
 .
 Equals
 (
@@ -291,7 +291,7 @@ DELIVERY_SENT
 )
 )
 {
-state
+delivery
 =
 eDeliveryState_Sent
 ;
@@ -299,7 +299,7 @@ eDeliveryState_Sent
 else
 if
 (
-aState
+aDelivery
 .
 Equals
 (
@@ -307,7 +307,7 @@ DELIVERY_RECEIVED
 )
 )
 {
-state
+delivery
 =
 eDeliveryState_Received
 ;
@@ -315,7 +315,7 @@ eDeliveryState_Received
 else
 if
 (
-aState
+aDelivery
 .
 Equals
 (
@@ -323,7 +323,7 @@ DELIVERY_SENDING
 )
 )
 {
-state
+delivery
 =
 eDeliveryState_Sending
 ;
@@ -331,7 +331,7 @@ eDeliveryState_Sending
 else
 if
 (
-aState
+aDelivery
 .
 Equals
 (
@@ -339,7 +339,7 @@ DELIVERY_NOT_DOWNLOADED
 )
 )
 {
-state
+delivery
 =
 eDeliveryState_NotDownloaded
 ;
@@ -347,7 +347,7 @@ eDeliveryState_NotDownloaded
 else
 if
 (
-aState
+aDelivery
 .
 Equals
 (
@@ -355,7 +355,7 @@ DELIVERY_ERROR
 )
 )
 {
-state
+delivery
 =
 eDeliveryState_Error
 ;
@@ -926,7 +926,7 @@ new
 MmsMessage
 (
 aId
-state
+delivery
 deliveryStatus
 aSender
 receivers
@@ -996,22 +996,22 @@ NS_IMETHODIMP
 MmsMessage
 :
 :
-GetState
+GetDelivery
 (
 nsAString
 &
-aState
+aDelivery
 )
 {
 switch
 (
-mState
+mDelivery
 )
 {
 case
 eDeliveryState_Received
 :
-aState
+aDelivery
 =
 DELIVERY_RECEIVED
 ;
@@ -1020,7 +1020,7 @@ break
 case
 eDeliveryState_Sending
 :
-aState
+aDelivery
 =
 DELIVERY_SENDING
 ;
@@ -1029,7 +1029,7 @@ break
 case
 eDeliveryState_Sent
 :
-aState
+aDelivery
 =
 DELIVERY_SENT
 ;
@@ -1038,7 +1038,7 @@ break
 case
 eDeliveryState_Error
 :
-aState
+aDelivery
 =
 DELIVERY_ERROR
 ;
@@ -1047,7 +1047,7 @@ break
 case
 eDeliveryState_NotDownloaded
 :
-aState
+aDelivery
 =
 DELIVERY_NOT_DOWNLOADED
 ;
