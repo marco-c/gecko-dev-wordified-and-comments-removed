@@ -1556,6 +1556,7 @@ aTextureFormat
 )
 ;
 void
+THEBES_API
 ReadPixelsIntoImageSurface
 (
 GLint
