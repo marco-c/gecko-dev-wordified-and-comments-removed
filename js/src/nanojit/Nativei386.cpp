@@ -5452,8 +5452,6 @@ iffalsereg
 ;
 break
 ;
-debug_only
-(
 default
 :
 NanoAssert
@@ -5463,7 +5461,6 @@ NanoAssert
 ;
 break
 ;
-)
 }
 }
 else
