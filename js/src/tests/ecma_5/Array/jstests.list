@@ -18,6 +18,12 @@ ecma_5
 Array
 /
 script
+join
+-
+01
+.
+js
+script
 length
 -
 01
