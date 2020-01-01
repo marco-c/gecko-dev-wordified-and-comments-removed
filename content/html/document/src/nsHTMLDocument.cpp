@@ -13092,6 +13092,12 @@ NS_ERROR_FAILURE
 if
 (
 designMode
+&
+&
+oldState
+=
+=
+eOff
 )
 {
 rv
