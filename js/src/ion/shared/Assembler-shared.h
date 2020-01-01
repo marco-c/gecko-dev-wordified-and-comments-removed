@@ -78,6 +78,7 @@ value
 explicit
 ImmWord
 (
+const
 void
 *
 ptr

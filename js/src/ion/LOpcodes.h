@@ -193,6 +193,11 @@ OsrValue
 \
 _
 (
+ImplicitThis
+)
+\
+_
+(
 Slots
 )
 \
@@ -224,6 +229,11 @@ StoreSlotT
 _
 (
 GuardShape
+)
+\
+_
+(
+GuardClass
 )
 \
 _
