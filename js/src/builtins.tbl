@@ -759,16 +759,6 @@ FRAGMENT
 0
 0
 )
-BUILTIN2
-(
-extern
-OBJECT
-js_FastNewObject
-CONTEXT
-OBJECT
-0
-0
-)
 BUILTIN3
 (
 extern
