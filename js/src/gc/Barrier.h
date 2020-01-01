@@ -14,9 +14,7 @@ h
 #
 include
 "
-gc
-/
-Heap
+jscell
 .
 h
 "
@@ -515,6 +513,13 @@ struct
 TypeObject
 ;
 }
+typedef
+HeapPtr
+<
+JSAtom
+>
+HeapPtrAtom
+;
 typedef
 HeapPtr
 <

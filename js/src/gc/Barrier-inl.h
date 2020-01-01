@@ -7,9 +7,7 @@ jsgc_barrier_inl_h___
 #
 include
 "
-gc
-/
-Barrier
+jsgcmark
 .
 h
 "
@@ -18,7 +16,7 @@ include
 "
 gc
 /
-Marking
+Barrier
 .
 h
 "

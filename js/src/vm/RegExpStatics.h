@@ -14,9 +14,7 @@ h
 #
 include
 "
-gc
-/
-Barrier
+jsgcmark
 .
 h
 "
@@ -25,7 +23,7 @@ include
 "
 gc
 /
-Marking
+Barrier
 .
 h
 "
