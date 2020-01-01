@@ -5411,9 +5411,12 @@ verbose_only
 void
 live
 (
-GC
+Allocator
+&
+alloc
+Fragment
 *
-gc
+frag
 LirBuffer
 *
 lirbuf
