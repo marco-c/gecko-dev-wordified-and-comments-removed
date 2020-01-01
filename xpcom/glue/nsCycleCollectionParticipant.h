@@ -1766,7 +1766,7 @@ NS_IMPL_CYCLE_COLLECTION_TRAVERSE_SCRIPT_OBJECTS
 \
 TraverseScriptObjects
 (
-tmp
+p
 cb
 )
 ;
