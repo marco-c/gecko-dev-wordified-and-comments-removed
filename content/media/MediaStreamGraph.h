@@ -1561,8 +1561,10 @@ false
 )
 {
 }
+already_AddRefed
+<
 MediaInputPort
-*
+>
 AllocateInputPort
 (
 MediaStream
