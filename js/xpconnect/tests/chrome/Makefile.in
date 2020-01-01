@@ -269,6 +269,10 @@ file_expandosharing
 .
 jsm
 \
+test_exposeInDerived
+.
+xul
+\
 test_getweakmapkeys
 .
 xul
