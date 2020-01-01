@@ -28,6 +28,13 @@ h
 "
 #
 include
+"
+gfxWindowsPlatform
+.
+h
+"
+#
+include
 <
 d3d11
 .
