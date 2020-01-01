@@ -4986,6 +4986,9 @@ length
 1
 )
 {
+let
+newIndex
+;
 if
 (
 event
