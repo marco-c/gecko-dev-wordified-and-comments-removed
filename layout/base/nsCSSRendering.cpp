@@ -9768,7 +9768,11 @@ else
 {
 aNumDashSpaces
 =
+(
 aBorderLength
+-
+aDashLength
+)
 /
 (
 2
