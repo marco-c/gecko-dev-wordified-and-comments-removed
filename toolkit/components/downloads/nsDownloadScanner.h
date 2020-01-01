@@ -28,6 +28,13 @@ AVVENDOR
 #
 include
 <
+objdir
+.
+h
+>
+#
+include
+<
 msoav
 .
 h
