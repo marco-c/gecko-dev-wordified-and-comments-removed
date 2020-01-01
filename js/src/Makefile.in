@@ -1849,13 +1849,13 @@ ctypes
 /
 libffi
 )
+distclean
 clean
 :
 :
 (
 call
 SUBMAKE
-clean
 ctypes
 /
 libffi
