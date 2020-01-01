@@ -1413,7 +1413,7 @@ expander
 /
 >
 <
-div
+span
 class
 =
 "
@@ -1452,6 +1452,10 @@ name
 /
 >
 <
+/
+span
+>
+<
 div
 class
 =
@@ -1459,6 +1463,7 @@ class
 expander
 -
 content
+pi
 "
 >
 <
@@ -1479,6 +1484,14 @@ select
 div
 >
 <
+span
+class
+=
+"
+pi
+"
+>
+<
 xsl
 :
 text
@@ -1495,7 +1508,7 @@ text
 >
 <
 /
-div
+span
 >
 <
 /
@@ -1631,7 +1644,7 @@ expander
 /
 >
 <
-div
+span
 class
 =
 "
@@ -1656,6 +1669,10 @@ xsl
 text
 >
 <
+/
+span
+>
+<
 div
 class
 =
@@ -1663,6 +1680,7 @@ class
 expander
 -
 content
+comment
 "
 >
 <
@@ -1683,6 +1701,14 @@ select
 div
 >
 <
+span
+class
+=
+"
+comment
+"
+>
+<
 xsl
 :
 text
@@ -1700,7 +1726,7 @@ text
 >
 <
 /
-div
+span
 >
 <
 /
