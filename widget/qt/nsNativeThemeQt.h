@@ -188,15 +188,10 @@ bool
 )
 ThemeDrawsFocusForWidget
 (
-nsPresContext
-*
-aPresContext
-nsIFrame
-*
-aFrame
 uint8_t
 aWidgetType
 )
+MOZ_OVERRIDE
 ;
 bool
 ThemeNeedsComboboxDropmarker
