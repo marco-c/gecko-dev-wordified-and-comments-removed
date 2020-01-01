@@ -513,6 +513,10 @@ test_pluginstream_src
 .
 html
 \
+test_pluginstream_src_dynamic
+.
+html
+\
 test_pluginstream_geturl
 .
 html
