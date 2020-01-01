@@ -118,6 +118,15 @@ service
 .
 disabled
 "
+STATUS_DELAYED
+:
+"
+service
+.
+startup
+.
+delayed
+"
 LOGIN_SUCCEEDED
 :
 "
