@@ -134,7 +134,7 @@ aBucketSizes
 int32_t
 aNumBuckets
 int32_t
-aInitialSize
+aChunkSize
 int32_t
 aAlign
 =
