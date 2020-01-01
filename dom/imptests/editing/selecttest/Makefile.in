@@ -68,7 +68,7 @@ config
 rules
 .
 mk
-_TESTS
+_FILES
 =
 \
 test_addRange
@@ -121,13 +121,6 @@ test_selectAllChildren
 .
 html
 \
-(
-NULL
-)
-_TESTS
-+
-=
-\
 common
 .
 js
@@ -145,7 +138,7 @@ libs
 :
 :
 (
-_TESTS
+_FILES
 )
 (
 INSTALL

@@ -78,7 +78,7 @@ config
 rules
 .
 mk
-_TESTS
+_FILES
 =
 \
 test_interfaces
@@ -175,13 +175,6 @@ surroundContents
 .
 html
 \
-(
-NULL
-)
-_TESTS
-+
-=
-\
 common
 .
 js
@@ -201,7 +194,7 @@ libs
 :
 :
 (
-_TESTS
+_FILES
 )
 (
 INSTALL

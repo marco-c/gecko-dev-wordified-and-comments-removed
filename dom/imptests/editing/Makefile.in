@@ -69,14 +69,7 @@ config
 rules
 .
 mk
-_TESTS
-=
-\
-(
-NULL
-)
-_TESTS
-+
+_FILES
 =
 \
 implementation
@@ -94,7 +87,7 @@ libs
 :
 :
 (
-_TESTS
+_FILES
 )
 (
 INSTALL

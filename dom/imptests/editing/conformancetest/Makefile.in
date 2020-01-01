@@ -68,7 +68,7 @@ config
 rules
 .
 mk
-_TESTS
+_FILES
 =
 \
 test_runtest
@@ -78,13 +78,6 @@ html
 test_event
 .
 html
-\
-(
-NULL
-)
-_TESTS
-+
-=
 \
 data
 .
@@ -97,7 +90,7 @@ libs
 :
 :
 (
-_TESTS
+_FILES
 )
 (
 INSTALL

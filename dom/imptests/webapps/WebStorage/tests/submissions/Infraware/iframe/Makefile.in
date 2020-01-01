@@ -88,14 +88,7 @@ config
 rules
 .
 mk
-_TESTS
-=
-\
-(
-NULL
-)
-_TESTS
-+
+_FILES
 =
 \
 local_change_item_iframe
@@ -133,7 +126,7 @@ libs
 :
 :
 (
-_TESTS
+_FILES
 )
 (
 INSTALL

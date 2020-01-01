@@ -78,7 +78,7 @@ config
 rules
 .
 mk
-_TESTS
+_FILES
 =
 \
 test_body
@@ -139,13 +139,6 @@ throw
 .
 html
 \
-(
-NULL
-)
-_TESTS
-+
-=
-\
 nested
 -
 document
@@ -163,7 +156,7 @@ libs
 :
 :
 (
-_TESTS
+_FILES
 )
 (
 INSTALL
