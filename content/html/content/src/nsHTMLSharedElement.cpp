@@ -109,6 +109,12 @@ mozilla
 :
 dom
 ;
+namespace
+mozilla
+{
+namespace
+dom
+{
 extern
 nsAttrValue
 :
@@ -118,6 +124,8 @@ kListTypeTable
 [
 ]
 ;
+}
+}
 class
 nsHTMLSharedElement
 :
@@ -863,6 +871,12 @@ aResult
 ParseEnumValue
 (
 aValue
+mozilla
+:
+:
+dom
+:
+:
 kListTypeTable
 false
 )

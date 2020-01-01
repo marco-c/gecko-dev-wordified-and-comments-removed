@@ -170,6 +170,10 @@ HTMLLabelElement
 .
 h
 \
+HTMLSharedListElement
+.
+h
+\
 HTMLTitleElement
 .
 h
@@ -328,10 +332,6 @@ nsHTMLObjectElement
 .
 cpp
 \
-nsHTMLOListElement
-.
-cpp
-\
 nsHTMLSharedObjectElement
 .
 cpp
@@ -373,6 +373,10 @@ nsHTMLSharedElement
 cpp
 \
 nsHTMLSpanElement
+.
+cpp
+\
+HTMLSharedListElement
 .
 cpp
 \
