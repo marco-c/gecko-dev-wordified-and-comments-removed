@@ -185,6 +185,10 @@ const
 nsString
 &
 inTitle
+const
+nsString
+&
+inDefaultName
 PRBool
 inAllowMultiple
 nsCOMArray
