@@ -113,6 +113,7 @@ char
 *
 KeyTypePointer
 ;
+explicit
 nsCookieEntry
 (
 KeyTypePointer
