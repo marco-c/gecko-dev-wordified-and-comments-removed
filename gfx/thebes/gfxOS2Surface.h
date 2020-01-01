@@ -97,11 +97,7 @@ HPS
 GetPS
 (
 )
-{
-return
-mPS
 ;
-}
 gfxIntSize
 GetSize
 (
@@ -113,8 +109,8 @@ mSize
 }
 private
 :
-PRBool
-mHasWnd
+HWND
+mWnd
 ;
 HDC
 mDC

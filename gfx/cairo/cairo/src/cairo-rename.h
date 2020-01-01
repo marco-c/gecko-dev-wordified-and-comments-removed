@@ -464,6 +464,10 @@ cairo_os2_surface_create
 _moz_cairo_os2_surface_create
 #
 define
+cairo_os2_surface_create_for_window
+_moz_cairo_os2_surface_create_for_window
+#
+define
 cairo_os2_surface_get_manual_window_refresh
 _moz_cairo_os2_surface_get_manual_window_refresh
 #
@@ -482,6 +486,14 @@ _moz_cairo_os2_surface_set_manual_window_refresh
 define
 cairo_os2_surface_set_size
 _moz_cairo_os2_surface_set_size
+#
+define
+cairo_os2_surface_get_hps
+_moz_cairo_os2_surface_get_hps
+#
+define
+cairo_os2_surface_set_hps
+_moz_cairo_os2_surface_set_hps
 #
 define
 cairo_paint
