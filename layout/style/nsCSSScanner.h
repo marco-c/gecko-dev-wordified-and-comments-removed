@@ -418,6 +418,13 @@ PRUnichar
 aChar
 )
 ;
+PRBool
+LookAheadOrEOF
+(
+PRUnichar
+aChar
+)
+;
 void
 EatWhiteSpace
 (
