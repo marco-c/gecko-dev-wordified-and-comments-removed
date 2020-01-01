@@ -88,7 +88,7 @@ obs
 addObserver
 (
 cleanup
-TILT_DESTROYED
+DESTROYED
 false
 )
 ;
@@ -160,7 +160,7 @@ obs
 removeObserver
 (
 cleanup
-TILT_DESTROYED
+DESTROYED
 )
 ;
 gBrowser

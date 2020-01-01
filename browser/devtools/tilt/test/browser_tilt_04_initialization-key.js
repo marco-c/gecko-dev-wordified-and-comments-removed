@@ -226,7 +226,7 @@ obs
 addObserver
 (
 onTiltOpen
-TILT_INITIALIZED
+INITIALIZING
 false
 )
 ;
@@ -254,7 +254,7 @@ obs
 removeObserver
 (
 onTiltOpen
-TILT_INITIALIZED
+INITIALIZING
 )
 ;
 executeSoon
@@ -338,7 +338,7 @@ obs
 addObserver
 (
 onTiltClose
-TILT_DESTROYED
+DESTROYED
 false
 )
 ;

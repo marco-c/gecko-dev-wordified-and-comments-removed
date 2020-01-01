@@ -455,6 +455,12 @@ browser_tilt_01_lazy_getter
 js
 \
 browser_tilt_02_notifications
+-
+seq
+.
+js
+\
+browser_tilt_02_notifications
 .
 js
 \
