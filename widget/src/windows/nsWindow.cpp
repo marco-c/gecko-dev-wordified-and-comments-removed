@@ -14460,6 +14460,9 @@ nsAString
 aUnmodifiedCharacters
 )
 {
+#
+ifndef
+WINCE
 nsPrintfCString
 layoutName
 (
@@ -14843,6 +14846,13 @@ loadedLayout
 return
 NS_OK
 ;
+#
+else
+return
+NS_ERROR_NOT_IMPLEMENTED
+;
+#
+endif
 }
 void
 nsWindow
@@ -17944,6 +17954,9 @@ event
 }
 break
 ;
+#
+ifndef
+WINCE
 case
 WM_QUERYENDSESSION
 :
@@ -18219,9 +18232,6 @@ PR_TRUE
 ;
 break
 ;
-#
-ifndef
-WINCE
 case
 WM_DISPLAYCHANGE
 :
@@ -20151,6 +20161,9 @@ mLastKeyboardLayout
 }
 break
 ;
+#
+ifndef
+WINCE
 case
 WM_MOUSEACTIVATE
 :
@@ -20201,9 +20214,6 @@ PR_TRUE
 }
 break
 ;
-#
-ifndef
-WINCE
 case
 WM_WINDOWPOSCHANGING
 :
@@ -29182,6 +29192,9 @@ NS_ASSERTION
 sIMECursorPosition
 <
 =
+(
+long
+)
 sIMECompUnicode
 -
 >
