@@ -228,9 +228,6 @@ PRMonitor
 *
 mMonitor
 ;
-PRInt32
-mOnStateLocationChangeReentranceDetection
-;
 nsWeakPtr
 mWindow
 ;
@@ -309,6 +306,14 @@ mSubRequestsBrokenSecurity
 PRInt32
 mSubRequestsNoSecurity
 ;
+#
+ifdef
+DEBUG
+PRInt32
+mOnStateLocationChangeReentranceDetection
+;
+#
+endif
 static
 already_AddRefed
 <
