@@ -1442,11 +1442,9 @@ if
 f
 -
 >
-GetStateBits
+HasOverflowRect
 (
 )
-&
-NS_FRAME_OUTSIDE_CHILDREN
 )
 {
 nsRect

@@ -398,12 +398,10 @@ padding
 ;
 if
 (
-NS_FRAME_OUTSIDE_CHILDREN
-&
 frame
 -
 >
-GetStateBits
+HasOverflowRect
 (
 )
 )
