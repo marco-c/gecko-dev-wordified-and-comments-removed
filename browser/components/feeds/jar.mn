@@ -57,7 +57,6 @@ browser
 .
 jar
 :
-*
 content
 /
 browser
@@ -74,7 +73,6 @@ subscribe
 .
 xhtml
 )
-*
 content
 /
 browser
@@ -91,7 +89,6 @@ subscribe
 .
 js
 )
-*
 content
 /
 browser

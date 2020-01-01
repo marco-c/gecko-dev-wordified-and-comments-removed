@@ -57,7 +57,6 @@ browser
 .
 jar
 :
-*
 content
 /
 browser
@@ -67,7 +66,6 @@ preferences
 aboutPermissions
 .
 xul
-*
 content
 /
 browser
@@ -77,7 +75,6 @@ preferences
 aboutPermissions
 .
 js
-*
 content
 /
 browser
@@ -87,7 +84,6 @@ preferences
 aboutPermissions
 .
 css
-*
 content
 /
 browser
@@ -117,7 +113,6 @@ preferences
 advanced
 .
 js
-*
 content
 /
 browser
@@ -129,7 +124,6 @@ advanced
 scripts
 .
 xul
-*
 content
 /
 browser
@@ -149,7 +143,6 @@ preferences
 applications
 .
 js
-*
 content
 /
 browser
@@ -189,7 +182,6 @@ preferences
 cookies
 .
 xul
-*
 content
 /
 browser
@@ -199,7 +191,6 @@ preferences
 cookies
 .
 js
-*
 content
 /
 browser
@@ -209,7 +200,6 @@ preferences
 content
 .
 xul
-*
 content
 /
 browser
@@ -229,7 +219,6 @@ preferences
 connection
 .
 xul
-*
 content
 /
 browser
@@ -249,7 +238,6 @@ preferences
 fonts
 .
 xul
-*
 content
 /
 browser
@@ -259,7 +247,6 @@ preferences
 fonts
 .
 js
-*
 content
 /
 browser
@@ -269,7 +256,6 @@ preferences
 handlers
 .
 xml
-*
 content
 /
 browser
@@ -289,7 +275,6 @@ preferences
 languages
 .
 xul
-*
 content
 /
 browser
@@ -309,7 +294,6 @@ preferences
 main
 .
 xul
-*
 content
 /
 browser
@@ -329,7 +313,6 @@ preferences
 permissions
 .
 xul
-*
 content
 /
 browser
@@ -349,7 +332,6 @@ preferences
 preferences
 .
 xul
-*
 content
 /
 browser
@@ -359,7 +341,6 @@ preferences
 privacy
 .
 xul
-*
 content
 /
 browser
@@ -369,7 +350,6 @@ preferences
 privacy
 .
 js
-*
 content
 /
 browser
@@ -379,7 +359,6 @@ preferences
 sanitize
 .
 xul
-*
 content
 /
 browser
@@ -389,7 +368,6 @@ preferences
 security
 .
 xul
-*
 content
 /
 browser
@@ -399,7 +377,6 @@ preferences
 security
 .
 js
-*
 content
 /
 browser
@@ -409,7 +386,6 @@ preferences
 selectBookmark
 .
 xul
-*
 content
 /
 browser
@@ -422,7 +398,6 @@ js
 #
 ifdef
 MOZ_SERVICES_SYNC
-*
 content
 /
 browser
@@ -432,7 +407,6 @@ preferences
 sync
 .
 xul
-*
 content
 /
 browser

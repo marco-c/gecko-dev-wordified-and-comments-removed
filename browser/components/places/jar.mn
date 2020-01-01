@@ -73,7 +73,6 @@ the
 #
 attributes
 separately
-*
 content
 /
 browser
@@ -156,7 +155,6 @@ organizer
 .
 css
 )
-*
 content
 /
 browser
@@ -173,7 +171,6 @@ bookmarkProperties
 .
 xul
 )
-*
 content
 /
 browser
@@ -190,7 +187,6 @@ bookmarkProperties
 .
 js
 )
-*
 content
 /
 browser
@@ -224,7 +220,6 @@ menu
 .
 xml
 )
-*
 content
 /
 browser
@@ -241,7 +236,6 @@ tree
 .
 xml
 )
-*
 content
 /
 browser
@@ -258,7 +252,6 @@ controller
 .
 js
 )
-*
 content
 /
 browser
@@ -342,7 +335,6 @@ panel
 .
 xul
 )
-*
 content
 /
 browser
@@ -369,7 +361,6 @@ for
 the
 bookmarks
 sidebar
-*
 content
 /
 browser
@@ -386,7 +377,6 @@ bookmarksPanel
 .
 xul
 )
-*
 content
 /
 browser
@@ -420,7 +410,6 @@ sidebarUtils
 .
 js
 )
-*
 content
 /
 browser
@@ -437,7 +426,6 @@ moveBookmarks
 .
 xul
 )
-*
 content
 /
 browser
@@ -454,7 +442,6 @@ moveBookmarks
 .
 js
 )
-*
 content
 /
 browser
@@ -471,7 +458,6 @@ editBookmarkOverlay
 .
 xul
 )
-*
 content
 /
 browser

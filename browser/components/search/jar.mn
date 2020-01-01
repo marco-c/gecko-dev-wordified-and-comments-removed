@@ -90,7 +90,6 @@ searchbarBindings
 .
 css
 )
-*
 content
 /
 browser
@@ -107,7 +106,6 @@ engineManager
 .
 xul
 )
-*
 content
 /
 browser

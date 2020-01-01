@@ -10,7 +10,10 @@ version
 "
 ?
 >
-#
+<
+!
+-
+-
 This
 Source
 Code
@@ -24,7 +27,7 @@ of
 the
 Mozilla
 Public
-#
+-
 License
 v
 .
@@ -43,7 +46,7 @@ not
 distributed
 with
 this
-#
+-
 file
 You
 can
@@ -65,6 +68,9 @@ MPL
 0
 /
 .
+-
+-
+>
 <
 ?
 xml
@@ -3875,7 +3881,10 @@ deck
 /
 wizardpage
 >
-#
+<
+!
+-
+-
 In
 terms
 of
@@ -3890,7 +3899,6 @@ the
 '
 syncOptionsConfirm
 '
-#
 page
 above
 is
@@ -3906,7 +3914,6 @@ the
 wizard
 binding
 from
-#
 assuming
 that
 it
@@ -3923,7 +3930,6 @@ here
 This
 also
 means
-#
 that
 the
 wizard
@@ -3938,6 +3944,9 @@ wizardFinish
 (
 )
 .
+-
+-
+>
 <
 wizardpage
 >

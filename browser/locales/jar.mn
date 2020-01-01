@@ -210,7 +210,6 @@ dtd
 )
 #
 endif
-*
 locale
 /
 browser
@@ -708,7 +707,6 @@ openLocation
 .
 properties
 )
-*
 locale
 /
 browser
@@ -760,7 +758,6 @@ quitDialog
 .
 properties
 )
-*
 locale
 /
 browser
@@ -1343,7 +1340,6 @@ advanced
 .
 dtd
 )
-*
 locale
 /
 browser
@@ -1898,7 +1894,6 @@ browser
 -
 specific
 overrides
-*
 locale
 /
 browser
@@ -1916,7 +1911,6 @@ netError
 .
 dtd
 )
-*
 locale
 /
 browser
@@ -1934,7 +1928,6 @@ appstrings
 .
 properties
 )
-*
 locale
 /
 browser
