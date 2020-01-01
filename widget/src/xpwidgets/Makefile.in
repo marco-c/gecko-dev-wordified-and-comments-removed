@@ -485,10 +485,6 @@ nsPrintSession
 .
 cpp
 \
-nsWidgetAtoms
-.
-cpp
-\
 nsIdleService
 .
 cpp

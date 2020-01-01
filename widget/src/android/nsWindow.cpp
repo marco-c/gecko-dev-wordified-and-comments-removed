@@ -123,7 +123,7 @@ h
 #
 include
 "
-nsWidgetAtoms
+nsGkAtoms
 .
 h
 "
@@ -7505,7 +7505,7 @@ isLongPress
 {
 command
 =
-nsWidgetAtoms
+nsGkAtoms
 :
 :
 Clear
@@ -7525,7 +7525,7 @@ KEYCODE_VOLUME_UP
 :
 command
 =
-nsWidgetAtoms
+nsGkAtoms
 :
 :
 VolumeUp
@@ -7544,7 +7544,7 @@ KEYCODE_VOLUME_DOWN
 :
 command
 =
-nsWidgetAtoms
+nsGkAtoms
 :
 :
 VolumeDown
@@ -7629,7 +7629,7 @@ gMenuConsumed
 {
 command
 =
-nsWidgetAtoms
+nsGkAtoms
 :
 :
 Menu
@@ -7649,7 +7649,7 @@ KEYCODE_SEARCH
 :
 command
 =
-nsWidgetAtoms
+nsGkAtoms
 :
 :
 Search
@@ -7686,7 +7686,7 @@ nsCommandEvent
 event
 (
 PR_TRUE
-nsWidgetAtoms
+nsGkAtoms
 :
 :
 onAppCommand

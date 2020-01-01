@@ -538,7 +538,7 @@ h
 #
 include
 "
-nsWidgetAtoms
+nsGkAtoms
 .
 h
 "
@@ -1220,7 +1220,7 @@ mContent
 GetAttr
 (
 kNameSpaceID_None
-nsWidgetAtoms
+nsGkAtoms
 :
 :
 label
@@ -1440,11 +1440,11 @@ mContent
 AttrValueIs
 (
 kNameSpaceID_None
-nsWidgetAtoms
+nsGkAtoms
 :
 :
 disabled
-nsWidgetAtoms
+nsGkAtoms
 :
 :
 _true
@@ -2243,7 +2243,7 @@ mContent
 SetAttr
 (
 kNameSpaceID_None
-nsWidgetAtoms
+nsGkAtoms
 :
 :
 open
@@ -2430,7 +2430,7 @@ mContent
 UnsetAttr
 (
 kNameSpaceID_None
-nsWidgetAtoms
+nsGkAtoms
 :
 :
 open
@@ -2853,7 +2853,7 @@ if
 tag
 =
 =
-nsWidgetAtoms
+nsGkAtoms
 :
 :
 menuitem
@@ -2862,7 +2862,7 @@ menuitem
 tag
 =
 =
-nsWidgetAtoms
+nsGkAtoms
 :
 :
 menuseparator
@@ -2878,7 +2878,7 @@ if
 tag
 =
 =
-nsWidgetAtoms
+nsGkAtoms
 :
 :
 menu
@@ -3215,7 +3215,7 @@ inMenuItemContent
 GetAttr
 (
 kNameSpaceID_None
-nsWidgetAtoms
+nsGkAtoms
 :
 :
 label
@@ -3258,7 +3258,7 @@ Tag
 )
 =
 =
-nsWidgetAtoms
+nsGkAtoms
 :
 :
 menuseparator
@@ -3282,12 +3282,12 @@ strings
 =
 {
 &
-nsWidgetAtoms
+nsGkAtoms
 :
 :
 checkbox
 &
-nsWidgetAtoms
+nsGkAtoms
 :
 :
 radio
@@ -3302,7 +3302,7 @@ inMenuItemContent
 FindAttrValueIn
 (
 kNameSpaceID_None
-nsWidgetAtoms
+nsGkAtoms
 :
 :
 type
@@ -3781,7 +3781,7 @@ Tag
 )
 =
 =
-nsWidgetAtoms
+nsGkAtoms
 :
 :
 menuitem
@@ -3806,7 +3806,7 @@ grandChild
 GetAttr
 (
 kNameSpaceID_None
-nsWidgetAtoms
+nsGkAtoms
 :
 :
 command
@@ -3879,7 +3879,7 @@ commandContent
 GetAttr
 (
 kNameSpaceID_None
-nsWidgetAtoms
+nsGkAtoms
 :
 :
 disabled
@@ -3892,7 +3892,7 @@ grandChild
 GetAttr
 (
 kNameSpaceID_None
-nsWidgetAtoms
+nsGkAtoms
 :
 :
 disabled
@@ -3941,7 +3941,7 @@ grandChild
 UnsetAttr
 (
 kNameSpaceID_None
-nsWidgetAtoms
+nsGkAtoms
 :
 :
 disabled
@@ -3955,7 +3955,7 @@ grandChild
 SetAttr
 (
 kNameSpaceID_None
-nsWidgetAtoms
+nsGkAtoms
 :
 :
 disabled
@@ -4024,7 +4024,7 @@ commandContent
 GetAttr
 (
 kNameSpaceID_None
-nsWidgetAtoms
+nsGkAtoms
 :
 :
 checked
@@ -4037,7 +4037,7 @@ grandChild
 GetAttr
 (
 kNameSpaceID_None
-nsWidgetAtoms
+nsGkAtoms
 :
 :
 checked
@@ -4070,7 +4070,7 @@ grandChild
 SetAttr
 (
 kNameSpaceID_None
-nsWidgetAtoms
+nsGkAtoms
 :
 :
 checked
@@ -4089,7 +4089,7 @@ commandContent
 GetAttr
 (
 kNameSpaceID_None
-nsWidgetAtoms
+nsGkAtoms
 :
 :
 label
@@ -4102,7 +4102,7 @@ grandChild
 GetAttr
 (
 kNameSpaceID_None
-nsWidgetAtoms
+nsGkAtoms
 :
 :
 label
@@ -4135,7 +4135,7 @@ grandChild
 SetAttr
 (
 kNameSpaceID_None
-nsWidgetAtoms
+nsGkAtoms
 :
 :
 label
@@ -4440,7 +4440,7 @@ if
 tag
 =
 =
-nsWidgetAtoms
+nsGkAtoms
 :
 :
 menupopup
@@ -4535,7 +4535,7 @@ if
 tag
 =
 =
-nsWidgetAtoms
+nsGkAtoms
 :
 :
 menupopup
@@ -4600,7 +4600,7 @@ aMenuContent
 GetAttr
 (
 kNameSpaceID_None
-nsWidgetAtoms
+nsGkAtoms
 :
 :
 id
@@ -4680,7 +4680,7 @@ gConstructingMenu
 aAttribute
 =
 =
-nsWidgetAtoms
+nsGkAtoms
 :
 :
 open
@@ -4703,7 +4703,7 @@ if
 aAttribute
 =
 =
-nsWidgetAtoms
+nsGkAtoms
 :
 :
 disabled
@@ -4718,11 +4718,11 @@ mContent
 AttrValueIs
 (
 kNameSpaceID_None
-nsWidgetAtoms
+nsGkAtoms
 :
 :
 disabled
-nsWidgetAtoms
+nsGkAtoms
 :
 :
 _true
@@ -4737,7 +4737,7 @@ if
 aAttribute
 =
 =
-nsWidgetAtoms
+nsGkAtoms
 :
 :
 label
@@ -4749,7 +4749,7 @@ mContent
 GetAttr
 (
 kNameSpaceID_None
-nsWidgetAtoms
+nsGkAtoms
 :
 :
 label
@@ -4926,7 +4926,7 @@ if
 aAttribute
 =
 =
-nsWidgetAtoms
+nsGkAtoms
 :
 :
 hidden
@@ -4935,7 +4935,7 @@ hidden
 aAttribute
 =
 =
-nsWidgetAtoms
+nsGkAtoms
 :
 :
 collapsed
@@ -5205,7 +5205,7 @@ if
 aAttribute
 =
 =
-nsWidgetAtoms
+nsGkAtoms
 :
 :
 image

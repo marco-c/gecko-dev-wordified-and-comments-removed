@@ -106,7 +106,7 @@ h
 #
 include
 "
-nsWidgetAtoms
+nsGkAtoms
 .
 h
 "
@@ -10603,7 +10603,7 @@ APPCOMMAND_BROWSER_BACKWARD
 :
 command
 =
-nsWidgetAtoms
+nsGkAtoms
 :
 :
 Back
@@ -10615,7 +10615,7 @@ APPCOMMAND_BROWSER_FORWARD
 :
 command
 =
-nsWidgetAtoms
+nsGkAtoms
 :
 :
 Forward
@@ -10627,7 +10627,7 @@ APPCOMMAND_BROWSER_REFRESH
 :
 command
 =
-nsWidgetAtoms
+nsGkAtoms
 :
 :
 Reload
@@ -10639,7 +10639,7 @@ APPCOMMAND_BROWSER_STOP
 :
 command
 =
-nsWidgetAtoms
+nsGkAtoms
 :
 :
 Stop
@@ -10656,7 +10656,7 @@ nsCommandEvent
 event
 (
 PR_TRUE
-nsWidgetAtoms
+nsGkAtoms
 :
 :
 onAppCommand

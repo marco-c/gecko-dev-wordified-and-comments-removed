@@ -482,7 +482,7 @@ h
 #
 include
 "
-nsWidgetAtoms
+nsGkAtoms
 .
 h
 "
@@ -784,7 +784,7 @@ mContent
 GetAttr
 (
 kNameSpaceID_None
-nsWidgetAtoms
+nsGkAtoms
 :
 :
 command
@@ -881,11 +881,11 @@ mCommandContent
 AttrValueIs
 (
 kNameSpaceID_None
-nsWidgetAtoms
+nsGkAtoms
 :
 :
 disabled
-nsWidgetAtoms
+nsGkAtoms
 :
 :
 _true
@@ -902,11 +902,11 @@ mContent
 AttrValueIs
 (
 kNameSpaceID_None
-nsWidgetAtoms
+nsGkAtoms
 :
 :
 disabled
-nsWidgetAtoms
+nsGkAtoms
 :
 :
 _true
@@ -991,11 +991,11 @@ mContent
 AttrValueIs
 (
 kNameSpaceID_None
-nsWidgetAtoms
+nsGkAtoms
 :
 :
 checked
-nsWidgetAtoms
+nsGkAtoms
 :
 :
 _true
@@ -1075,7 +1075,7 @@ mContent
 SetAttr
 (
 kNameSpaceID_None
-nsWidgetAtoms
+nsGkAtoms
 :
 :
 checked
@@ -1223,11 +1223,11 @@ mContent
 AttrValueIs
 (
 kNameSpaceID_None
-nsWidgetAtoms
+nsGkAtoms
 :
 :
 autocheck
-nsWidgetAtoms
+nsGkAtoms
 :
 :
 _false
@@ -1563,7 +1563,7 @@ inCheckedContent
 GetAttr
 (
 kNameSpaceID_None
-nsWidgetAtoms
+nsGkAtoms
 :
 :
 name
@@ -1690,7 +1690,7 @@ sibling
 AttrValueIs
 (
 kNameSpaceID_None
-nsWidgetAtoms
+nsGkAtoms
 :
 :
 name
@@ -1704,7 +1704,7 @@ sibling
 SetAttr
 (
 kNameSpaceID_None
-nsWidgetAtoms
+nsGkAtoms
 :
 :
 checked
@@ -1747,7 +1747,7 @@ mContent
 GetAttr
 (
 kNameSpaceID_None
-nsWidgetAtoms
+nsGkAtoms
 :
 :
 key
@@ -1810,7 +1810,7 @@ keyContent
 GetAttr
 (
 kNameSpaceID_None
-nsWidgetAtoms
+nsGkAtoms
 :
 :
 key
@@ -1826,7 +1826,7 @@ keyContent
 GetAttr
 (
 kNameSpaceID_None
-nsWidgetAtoms
+nsGkAtoms
 :
 :
 modifiers
@@ -1996,7 +1996,7 @@ if
 aAttribute
 =
 =
-nsWidgetAtoms
+nsGkAtoms
 :
 :
 checked
@@ -2052,11 +2052,11 @@ mContent
 AttrValueIs
 (
 kNameSpaceID_None
-nsWidgetAtoms
+nsGkAtoms
 :
 :
 checked
-nsWidgetAtoms
+nsGkAtoms
 :
 :
 _true
@@ -2084,7 +2084,7 @@ if
 aAttribute
 =
 =
-nsWidgetAtoms
+nsGkAtoms
 :
 :
 hidden
@@ -2093,7 +2093,7 @@ hidden
 aAttribute
 =
 =
-nsWidgetAtoms
+nsGkAtoms
 :
 :
 collapsed
@@ -2102,7 +2102,7 @@ collapsed
 aAttribute
 =
 =
-nsWidgetAtoms
+nsGkAtoms
 :
 :
 label
@@ -2123,7 +2123,7 @@ if
 aAttribute
 =
 =
-nsWidgetAtoms
+nsGkAtoms
 :
 :
 key
@@ -2140,7 +2140,7 @@ if
 aAttribute
 =
 =
-nsWidgetAtoms
+nsGkAtoms
 :
 :
 image
@@ -2157,7 +2157,7 @@ if
 aAttribute
 =
 =
-nsWidgetAtoms
+nsGkAtoms
 :
 :
 disabled
@@ -2171,11 +2171,11 @@ aContent
 AttrValueIs
 (
 kNameSpaceID_None
-nsWidgetAtoms
+nsGkAtoms
 :
 :
 disabled
-nsWidgetAtoms
+nsGkAtoms
 :
 :
 _true
@@ -2241,7 +2241,7 @@ if
 aAttribute
 =
 =
-nsWidgetAtoms
+nsGkAtoms
 :
 :
 disabled
@@ -2274,7 +2274,7 @@ aContent
 GetAttr
 (
 kNameSpaceID_None
-nsWidgetAtoms
+nsGkAtoms
 :
 :
 disabled
@@ -2287,7 +2287,7 @@ mContent
 GetAttr
 (
 kNameSpaceID_None
-nsWidgetAtoms
+nsGkAtoms
 :
 :
 disabled
@@ -2336,7 +2336,7 @@ mContent
 UnsetAttr
 (
 kNameSpaceID_None
-nsWidgetAtoms
+nsGkAtoms
 :
 :
 disabled
@@ -2350,7 +2350,7 @@ mContent
 SetAttr
 (
 kNameSpaceID_None
-nsWidgetAtoms
+nsGkAtoms
 :
 :
 disabled
@@ -2381,11 +2381,11 @@ aContent
 AttrValueIs
 (
 kNameSpaceID_None
-nsWidgetAtoms
+nsGkAtoms
 :
 :
 disabled
-nsWidgetAtoms
+nsGkAtoms
 :
 :
 _true

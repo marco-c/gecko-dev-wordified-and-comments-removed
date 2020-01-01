@@ -509,13 +509,6 @@ h
 #
 include
 "
-nsWidgetAtoms
-.
-h
-"
-#
-include
-"
 nsGUIEvent
 .
 h

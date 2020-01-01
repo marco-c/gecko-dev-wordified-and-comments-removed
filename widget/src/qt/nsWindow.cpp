@@ -7326,7 +7326,7 @@ nsCommandEvent
 event
 (
 PR_TRUE
-nsWidgetAtoms
+nsGkAtoms
 :
 :
 onAppCommand
@@ -8120,7 +8120,7 @@ Key_Back
 return
 DispatchCommandEvent
 (
-nsWidgetAtoms
+nsGkAtoms
 :
 :
 Back
@@ -8135,7 +8135,7 @@ Key_Forward
 return
 DispatchCommandEvent
 (
-nsWidgetAtoms
+nsGkAtoms
 :
 :
 Forward
@@ -8150,7 +8150,7 @@ Key_Refresh
 return
 DispatchCommandEvent
 (
-nsWidgetAtoms
+nsGkAtoms
 :
 :
 Reload
@@ -8165,7 +8165,7 @@ Key_Stop
 return
 DispatchCommandEvent
 (
-nsWidgetAtoms
+nsGkAtoms
 :
 :
 Stop
@@ -8180,7 +8180,7 @@ Key_Search
 return
 DispatchCommandEvent
 (
-nsWidgetAtoms
+nsGkAtoms
 :
 :
 Search
@@ -8195,7 +8195,7 @@ Key_Favorites
 return
 DispatchCommandEvent
 (
-nsWidgetAtoms
+nsGkAtoms
 :
 :
 Bookmarks
@@ -8210,7 +8210,7 @@ Key_HomePage
 return
 DispatchCommandEvent
 (
-nsWidgetAtoms
+nsGkAtoms
 :
 :
 Home

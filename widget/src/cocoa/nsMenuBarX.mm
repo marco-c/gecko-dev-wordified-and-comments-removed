@@ -527,7 +527,7 @@ h
 #
 include
 "
-nsWidgetAtoms
+nsGkAtoms
 .
 h
 "
@@ -1181,7 +1181,7 @@ Tag
 )
 =
 =
-nsWidgetAtoms
+nsGkAtoms
 :
 :
 menu
@@ -2889,7 +2889,7 @@ shortcutContent
 GetAttr
 (
 kNameSpaceID_None
-nsWidgetAtoms
+nsGkAtoms
 :
 :
 key
@@ -3115,7 +3115,7 @@ menuContent
 SetAttr
 (
 kNameSpaceID_None
-nsWidgetAtoms
+nsGkAtoms
 :
 :
 hidden
@@ -3744,7 +3744,7 @@ keyContent
 GetAttr
 (
 kNameSpaceID_None
-nsWidgetAtoms
+nsGkAtoms
 :
 :
 key
@@ -3804,7 +3804,7 @@ keyContent
 GetAttr
 (
 kNameSpaceID_None
-nsWidgetAtoms
+nsGkAtoms
 :
 :
 modifiers

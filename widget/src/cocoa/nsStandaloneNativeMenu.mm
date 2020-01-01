@@ -475,7 +475,7 @@ h
 #
 include
 "
-nsWidgetAtoms
+nsGkAtoms
 .
 h
 "
@@ -606,7 +606,7 @@ IsXUL
 tag
 !
 =
-nsWidgetAtoms
+nsGkAtoms
 :
 :
 menu
@@ -615,7 +615,7 @@ menu
 tag
 !
 =
-nsWidgetAtoms
+nsGkAtoms
 :
 :
 menupopup

@@ -12,13 +12,6 @@ nsGTKToolkit
 .
 h
 "
-#
-include
-"
-nsWidgetAtoms
-.
-h
-"
 static
 PRUintn
 gToolkitTLSIndex
@@ -152,13 +145,6 @@ aThread
 )
 {
 CreateSharedGC
-(
-)
-;
-nsWidgetAtoms
-:
-:
-RegisterAtoms
 (
 )
 ;

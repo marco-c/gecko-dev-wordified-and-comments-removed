@@ -15,7 +15,7 @@ h
 #
 include
 "
-nsWidgetAtoms
+nsGkAtoms
 .
 h
 "
@@ -74,13 +74,6 @@ PRThread
 aThread
 )
 {
-nsWidgetAtoms
-:
-:
-RegisterAtoms
-(
-)
-;
 return
 NS_OK
 ;
