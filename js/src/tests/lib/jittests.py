@@ -2384,7 +2384,6 @@ len
 tests
 )
 options
-shell_args
 )
 )
     
@@ -2702,7 +2701,6 @@ return_queue
 notify_queue
 num_tests
 options
-shell_args
 )
 :
     
@@ -2721,7 +2719,6 @@ process_test_results
 gen
 num_tests
 options
-shell_args
 )
     
 return_queue
@@ -2737,7 +2734,6 @@ failures
 complete
 doing
 options
-shell_args
 )
 :
     
@@ -2933,7 +2929,7 @@ n
 def
 show_test
 (
-test
+res
 )
 :
             
@@ -2952,15 +2948,9 @@ subprocess
 .
 list2cmdline
 (
-test
+res
 .
-command
-(
-options
-.
-js_shell
-shell_args
-)
+cmd
 )
 )
             
@@ -2977,11 +2967,15 @@ print
 .
 join
 (
+res
+.
 test
 .
 jitflags
 +
 [
+res
+.
 test
 .
 path
@@ -3013,8 +3007,6 @@ timed_out
 show_test
 (
 res
-.
-test
 )
         
 print
@@ -3040,8 +3032,6 @@ timed_out
 show_test
 (
 res
-.
-test
 )
         
 return
@@ -3089,7 +3079,6 @@ process_test_results
 results
 num_tests
 options
-shell_args
 )
 :
     
@@ -3498,7 +3487,6 @@ failures
 complete
 doing
 options
-shell_args
 )
 def
 get_serial_results
@@ -3550,7 +3538,6 @@ len
 tests
 )
 options
-shell_args
 )
     
 return
