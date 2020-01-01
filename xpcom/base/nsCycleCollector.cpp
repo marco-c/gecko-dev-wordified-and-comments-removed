@@ -8264,6 +8264,15 @@ PR_FALSE
 ;
 #
 ifdef
+XP_OS2
+_heapmin
+(
+)
+;
+#
+endif
+#
+ifdef
 COLLECT_TIME_DEBUG
 printf
 (
