@@ -173,6 +173,15 @@ nsCSSPseudoClasses
 :
 :
 mozSystemMetric
+|
+|
+aAtom
+=
+=
+nsCSSPseudoClasses
+:
+:
+mozLocaleDir
 ;
 }
 PRBool
