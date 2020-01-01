@@ -17274,7 +17274,6 @@ HandleId
 JSID_EMPTYHANDLE
 ;
 }
-;
 namespace
 js
 {
