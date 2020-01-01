@@ -118,7 +118,7 @@ timeouts
 page
 load
 "
-300
+60000
 )
         
 test_html
