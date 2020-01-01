@@ -969,7 +969,10 @@ script
 >
 nslots
 +
-VALUES_PER_STACK_FRAME
+StackSpace
+:
+:
+STACK_EXTRA
 ;
 JS_ASSERT
 (

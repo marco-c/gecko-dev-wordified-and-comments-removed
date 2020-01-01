@@ -1146,7 +1146,7 @@ script
 uintN
 nvals
 =
-VALUES_PER_STACK_FRAME
+STACK_EXTRA
 +
 script
 -
@@ -2237,7 +2237,7 @@ numSlots
 (
 )
 +
-VALUES_PER_STACK_FRAME
+STACK_EXTRA
 ;
 return
 ensureSpace
@@ -2283,7 +2283,7 @@ numSlots
 (
 )
 +
-VALUES_PER_STACK_FRAME
+STACK_EXTRA
 ;
 return
 ensureSpace
