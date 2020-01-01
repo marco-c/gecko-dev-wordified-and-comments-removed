@@ -3852,6 +3852,10 @@ gcValidate
 (
 true
 )
+gcFullCompartmentChecks
+(
+false
+)
 gcCallback
 (
 NULL

@@ -3250,6 +3250,9 @@ endif
 bool
 gcValidate
 ;
+bool
+gcFullCompartmentChecks
+;
 JSGCCallback
 gcCallback
 ;
