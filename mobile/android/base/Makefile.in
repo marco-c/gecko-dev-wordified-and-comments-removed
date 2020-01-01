@@ -10887,9 +10887,9 @@ xml
 (
 call
 mkdir_deps
-(
-RES_DIRS
-)
+res
+/
+values
 )
 (
 MAKE
