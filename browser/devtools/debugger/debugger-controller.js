@@ -999,13 +999,13 @@ aPacket
 {
 if
 (
-aPacket
-.
-state
+aType
 =
 =
 "
-start
+will
+-
+navigate
 "
 )
 {
