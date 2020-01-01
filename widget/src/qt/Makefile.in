@@ -563,6 +563,10 @@ nsDragService
 .
 cpp
 \
+nsNativeThemeQt
+.
+cpp
+\
 mozqwidget
 .
 cpp
