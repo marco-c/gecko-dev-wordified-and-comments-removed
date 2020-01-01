@@ -597,9 +597,6 @@ CaptureRollupEvents
 nsIRollupListener
 *
 aListener
-nsIMenuRollup
-*
-aMenuRollup
 bool
 aDoCapture
 bool
@@ -755,6 +752,14 @@ nsWindow
 *
 FindTopLevel
 (
+)
+;
+bool
+DrawTo
+(
+gfxASurface
+*
+targetSurface
 )
 ;
 bool

@@ -427,7 +427,15 @@ __android_log_print
 (
 ANDROID_LOG_ERROR
 "
-nsConsoleService
+Gecko
+*
+*
+*
+Console
+Service
+*
+*
+*
 "
 "
 %
