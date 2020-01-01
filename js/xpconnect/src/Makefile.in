@@ -1307,15 +1307,6 @@ idl
 \
 -
 -
-header
--
-output
-DictionaryHelpers
-.
-h
-\
--
--
 stub
 -
 output
