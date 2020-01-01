@@ -19,6 +19,13 @@ mozISpellI18NManager
 h
 "
 #
+include
+"
+nsCycleCollectionParticipant
+.
+h
+"
+#
 define
 MOZ_SPELLI18NMANAGER_CONTRACTID
 "
@@ -76,8 +83,12 @@ mozISpellI18NManager
 {
 public
 :
-NS_DECL_ISUPPORTS
+NS_DECL_CYCLE_COLLECTING_ISUPPORTS
 NS_DECL_MOZISPELLI18NMANAGER
+NS_DECL_CYCLE_COLLECTION_CLASS
+(
+mozSpellI18NManager
+)
 mozSpellI18NManager
 (
 )

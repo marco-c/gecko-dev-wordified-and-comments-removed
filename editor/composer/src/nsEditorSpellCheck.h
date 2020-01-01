@@ -26,6 +26,13 @@ nsCOMPtr
 h
 "
 #
+include
+"
+nsCycleCollectionParticipant
+.
+h
+"
+#
 define
 NS_EDITORSPELLCHECK_CID
 \
@@ -80,7 +87,11 @@ nsEditorSpellCheck
 (
 )
 ;
-NS_DECL_ISUPPORTS
+NS_DECL_CYCLE_COLLECTING_ISUPPORTS
+NS_DECL_CYCLE_COLLECTION_CLASS
+(
+nsEditorSpellCheck
+)
 NS_DECL_NSIEDITORSPELLCHECK
 protected
 :

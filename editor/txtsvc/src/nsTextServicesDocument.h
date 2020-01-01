@@ -95,6 +95,13 @@ nsWeakReference
 .
 h
 "
+#
+include
+"
+nsCycleCollectionParticipant
+.
+h
+"
 class
 nsIRangeUtils
 ;
@@ -358,7 +365,11 @@ Shutdown
 (
 )
 ;
-NS_DECL_ISUPPORTS
+NS_DECL_CYCLE_COLLECTING_ISUPPORTS
+NS_DECL_CYCLE_COLLECTION_CLASS
+(
+nsTextServicesDocument
+)
 NS_IMETHOD
 InitWithEditor
 (

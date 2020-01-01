@@ -33,6 +33,13 @@ nsCOMPtr
 h
 "
 #
+include
+"
+nsCycleCollectionParticipant
+.
+h
+"
+#
 define
 MOZ_OSXSPELL_CONTRACTID
 "
@@ -88,8 +95,12 @@ mozISpellCheckingEngine
 {
 public
 :
-NS_DECL_ISUPPORTS
+NS_DECL_CYCLE_COLLECTING_ISUPPORTS
 NS_DECL_MOZISPELLCHECKINGENGINE
+NS_DECL_CYCLE_COLLECTION_CLASS
+(
+mozOSXSpell
+)
 mozOSXSpell
 (
 )

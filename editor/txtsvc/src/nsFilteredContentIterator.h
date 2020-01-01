@@ -46,6 +46,13 @@ nsIRangeUtils
 .
 h
 "
+#
+include
+"
+nsCycleCollectionParticipant
+.
+h
+"
 class
 nsFilteredContentIterator
 :
@@ -54,7 +61,11 @@ nsIContentIterator
 {
 public
 :
-NS_DECL_ISUPPORTS
+NS_DECL_CYCLE_COLLECTING_ISUPPORTS
+NS_DECL_CYCLE_COLLECTION_CLASS
+(
+nsFilteredContentIterator
+)
 nsFilteredContentIterator
 (
 nsITextServicesFilter
