@@ -76,11 +76,6 @@ nsIDOMDeviceStorageChangeEvent
 idl
 '
 '
-nsIDOMDeviceStorageCursor
-.
-idl
-'
-'
 nsIDOMNavigatorDeviceStorage
 .
 idl

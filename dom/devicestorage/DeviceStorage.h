@@ -359,7 +359,7 @@ uint8_t
 aArgc
 bool
 aEditable
-nsIDOMDeviceStorageCursor
+nsIDOMDOMCursor
 *
 *
 aRetval

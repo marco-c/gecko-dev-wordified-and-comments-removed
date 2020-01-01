@@ -77,7 +77,7 @@ interface
 nsIDOMDOMRequest
 ;
 interface
-nsIDOMDeviceStorageCursor
+nsIDOMDOMCursor
 ;
 interface
 nsIDOMDeviceStorageChangeEvent
@@ -100,15 +100,15 @@ since
 scriptable
 uuid
 (
-c611b701
+d0df738b
 -
-ddfc
+1c42
 -
-456d
+4b1a
 -
-893a
+84d0
 -
-3b3fcb30d9fd
+9a089d830974
 )
 builtinclass
 ]
@@ -180,7 +180,7 @@ aName
 optional_argc
 implicit_jscontext
 ]
-nsIDOMDeviceStorageCursor
+nsIDOMDOMCursor
 enumerate
 (
 [
@@ -206,7 +206,7 @@ options
 optional_argc
 implicit_jscontext
 ]
-nsIDOMDeviceStorageCursor
+nsIDOMDOMCursor
 enumerateEditable
 (
 [
