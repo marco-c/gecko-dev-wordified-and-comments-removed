@@ -1066,6 +1066,13 @@ thumbnails
 .
 js
 #
+include
+browser
+-
+webrtcUI
+.
+js
+#
 ifdef
 MOZ_SERVICES_SYNC
 #
@@ -6541,6 +6548,12 @@ AddonManager
 addAddonListener
 (
 AddonsMgrListener
+)
+;
+WebrtcIndicator
+.
+init
+(
 )
 ;
 gBrowser
