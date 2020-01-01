@@ -2002,6 +2002,7 @@ WorkerRunnable
 aPrivate
 WorkerThread
 UnchangedBusyCount
+SkipWhenClearing
 )
 mTask
 (
