@@ -158,6 +158,12 @@ WindowsPreviewPerTab
 .
 jsm
 \
+(
+NULL
+)
+EXTRA_PP_JS_MODULES
+=
+\
 WindowsJumpLists
 .
 jsm
