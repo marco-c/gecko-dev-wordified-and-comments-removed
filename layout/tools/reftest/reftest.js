@@ -5600,6 +5600,9 @@ shouldWaitForPendingPaints
 )
 {
 return
+gCurrentCanvas
+&
+&
 gWindowUtils
 .
 isMozAfterPaintPending
