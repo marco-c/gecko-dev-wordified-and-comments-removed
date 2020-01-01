@@ -667,6 +667,10 @@ nsHTMLTitleElement
 .
 cpp
 \
+nsHTMLUnknownElement
+.
+cpp
+\
 nsDOMValidityState
 .
 cpp
