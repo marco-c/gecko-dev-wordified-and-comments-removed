@@ -5818,7 +5818,7 @@ self
 )
 -
 >
-GetWidth
+Width
 (
 )
 ;
@@ -5865,7 +5865,7 @@ self
 )
 -
 >
-GetHeight
+Height
 (
 )
 ;

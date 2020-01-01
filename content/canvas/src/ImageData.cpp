@@ -128,7 +128,7 @@ aWidth
 *
 aWidth
 =
-GetWidth
+Width
 (
 )
 ;
@@ -150,7 +150,7 @@ aHeight
 *
 aHeight
 =
-GetHeight
+Height
 (
 )
 ;
