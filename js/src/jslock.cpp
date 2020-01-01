@@ -3317,7 +3317,7 @@ fl
 JSFatLock
 *
 )
-js_malloc
+malloc
 (
 sizeof
 (
