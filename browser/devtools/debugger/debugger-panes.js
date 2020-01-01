@@ -3238,6 +3238,8 @@ this
 _cache
 .
 size
+(
+)
 =
 =
 aLocations
@@ -3327,6 +3329,8 @@ this
 _cache
 .
 size
+(
+)
 =
 =
 this
@@ -4571,6 +4575,8 @@ this
 _store
 .
 size
+(
+)
 _store
 :
 null
@@ -4751,7 +4757,7 @@ Event
 {
 this
 .
-_toggled
+_userToggled
 =
 true
 ;
@@ -4805,7 +4811,7 @@ toggled
 )
 this
 .
-_toggled
+_userToggled
 get
 target
 (
@@ -5179,7 +5185,7 @@ null
 _target
 :
 null
-_toggled
+_userToggled
 :
 false
 }
