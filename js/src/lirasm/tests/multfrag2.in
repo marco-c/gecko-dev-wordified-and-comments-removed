@@ -3,13 +3,13 @@ begin
 sinpibytwo
 pi
 =
-quad
+float
 3
 .
 14
 half
 =
-quad
+float
 0
 .
 5
@@ -38,7 +38,7 @@ sinpibytwo
 fastcall
 bb
 =
-quad
+float
 5
 .
 53

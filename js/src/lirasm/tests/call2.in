@@ -1,12 +1,12 @@
 pi
 =
-quad
+float
 3
 .
 14
 half
 =
-quad
+float
 0
 .
 5

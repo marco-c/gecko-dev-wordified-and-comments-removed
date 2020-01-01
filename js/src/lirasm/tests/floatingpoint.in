@@ -1,12 +1,12 @@
 pi
 =
-quad
+float
 3
 .
 14
 two
 =
-quad
+float
 2
 .
 0
