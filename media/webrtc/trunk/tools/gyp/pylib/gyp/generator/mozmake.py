@@ -2646,39 +2646,15 @@ else
 return
 False
     
-if
-self
-.
-flavor
-=
-=
-'
-win
-'
-:
-      
-top
-=
-self
-.
-relative_topsrcdir
-    
-else
-:
-      
-top
-=
-self
-.
-topsrcdir
-    
 WriteMakefile
 (
 output_file
 data
 build_file
 depth
-top
+self
+.
+topsrcdir
                   
 swapslashes
 (
@@ -2694,7 +2670,9 @@ path
 .
 join
 (
-top
+self
+.
+topsrcdir
 self
 .
 relative_srcdir
@@ -3122,34 +3100,6 @@ generator
 .
 parallel_dirs
   
-if
-flavor
-=
-=
-'
-win
-'
-:
-    
-top
-=
-relative_topsrcdir
-    
-src
-=
-srcdir
-  
-else
-:
-    
-top
-=
-topsrcdir
-    
-src
-=
-abs_srcdir
-  
 WriteMakefile
 (
 makefile_path
@@ -3168,12 +3118,12 @@ depth
                 
 swapslashes
 (
-top
+topsrcdir
 )
                 
 swapslashes
 (
-src
+abs_srcdir
 )
                 
 swapslashes
