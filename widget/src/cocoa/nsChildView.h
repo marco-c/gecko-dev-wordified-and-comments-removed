@@ -1396,7 +1396,7 @@ NS_IMETHOD
 SetInputMode
 (
 const
-IMEContext
+InputContext
 &
 aContext
 )
@@ -1404,7 +1404,7 @@ aContext
 NS_IMETHOD
 GetInputMode
 (
-IMEContext
+InputContext
 &
 aContext
 )
@@ -1777,8 +1777,8 @@ TextInputHandler
 >
 mTextInputHandler
 ;
-IMEContext
-mIMEContext
+InputContext
+mInputContext
 ;
 NSView
 <

@@ -388,6 +388,13 @@ mozilla
 :
 dom
 ;
+using
+namespace
+mozilla
+:
+:
+widget
+;
 #
 define
 PRINTTAGF
@@ -1461,7 +1468,7 @@ aFlags
 PRUint32
 reason
 =
-IMEContext
+InputContext
 :
 :
 FOCUS_MOVED_UNKNOWN
@@ -1478,7 +1485,7 @@ FLAG_BYMOUSE
 {
 reason
 =
-IMEContext
+InputContext
 :
 :
 FOCUS_MOVED_BY_MOUSE
@@ -1497,7 +1504,7 @@ FLAG_BYKEY
 {
 reason
 =
-IMEContext
+InputContext
 :
 :
 FOCUS_MOVED_BY_KEY
@@ -1516,7 +1523,7 @@ FLAG_BYMOVEFOCUS
 {
 reason
 =
-IMEContext
+InputContext
 :
 :
 FOCUS_MOVED_BY_MOVEFOCUS
@@ -4465,7 +4472,7 @@ GetPresContext
 (
 )
 nsnull
-IMEContext
+InputContext
 :
 :
 FOCUS_REMOVED
@@ -6927,6 +6934,7 @@ if
 (
 mActiveWindow
 )
+{
 nsIMEStateManager
 :
 :
@@ -6939,12 +6947,13 @@ GetPresContext
 (
 )
 nsnull
-IMEContext
+InputContext
 :
 :
 FOCUS_REMOVED
 )
 ;
+}
 mFocusedContent
 =
 nsnull
@@ -8097,7 +8106,7 @@ OnChangeFocus
 (
 presContext
 nsnull
-IMEContext
+InputContext
 :
 :
 FOCUS_REMOVED
@@ -8221,7 +8230,7 @@ OnChangeFocus
 (
 presContext
 nsnull
-IMEContext
+InputContext
 :
 :
 FOCUS_REMOVED

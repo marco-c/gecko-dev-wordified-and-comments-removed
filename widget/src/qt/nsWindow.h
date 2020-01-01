@@ -675,7 +675,7 @@ NS_IMETHODIMP
 SetInputMode
 (
 const
-IMEContext
+InputContext
 &
 aContext
 )
@@ -683,7 +683,7 @@ aContext
 NS_IMETHODIMP
 GetInputMode
 (
-IMEContext
+InputContext
 &
 aContext
 )
@@ -809,8 +809,8 @@ mPlaced
 nsSizeMode
 mLastSizeMode
 ;
-IMEContext
-mIMEContext
+InputContext
+mInputContext
 ;
 void
 Initialize

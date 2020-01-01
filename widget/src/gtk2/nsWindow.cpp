@@ -380,6 +380,13 @@ using
 namespace
 mozilla
 ;
+using
+namespace
+mozilla
+:
+:
+widget
+;
 static
 bool
 sAccessibilityChecked
@@ -27119,7 +27126,7 @@ nsWindow
 SetInputMode
 (
 const
-IMEContext
+InputContext
 &
 aContext
 )
@@ -27146,7 +27153,7 @@ nsWindow
 :
 GetInputMode
 (
-IMEContext
+InputContext
 &
 aContext
 )
@@ -27159,12 +27166,12 @@ mIMModule
 {
 aContext
 .
-mStatus
+mIMEEnabled
 =
-nsIWidget
+InputContext
 :
 :
-IME_STATUS_DISABLED
+IME_DISABLED
 ;
 return
 NS_OK

@@ -53,6 +53,13 @@ using
 namespace
 mozilla
 ;
+using
+namespace
+mozilla
+:
+:
+widget
+;
 ITfThreadMgr
 *
 nsTextStore
@@ -7823,10 +7830,10 @@ lVal
 aState
 !
 =
-nsIWidget
+InputContext
 :
 :
-IME_STATUS_ENABLED
+IME_ENABLED
 ;
 nsRefPtr
 <

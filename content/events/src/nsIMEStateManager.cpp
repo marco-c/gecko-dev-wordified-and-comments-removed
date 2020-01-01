@@ -203,6 +203,13 @@ nsHTMLFormElement
 .
 h
 "
+using
+namespace
+mozilla
+:
+:
+widget
+;
 nsIContent
 *
 nsIMEStateManager
@@ -302,7 +309,7 @@ SetIMEState
 newState
 nsnull
 widget
-IMEContext
+InputContext
 :
 :
 FOCUS_REMOVED
@@ -424,7 +431,7 @@ SetIMEState
 newState
 nsnull
 widget
-IMEContext
+InputContext
 :
 :
 FOCUS_REMOVED
@@ -654,7 +661,7 @@ return
 NS_OK
 ;
 }
-IMEContext
+InputContext
 context
 ;
 if
@@ -683,7 +690,7 @@ if
 (
 context
 .
-mStatus
+mIMEEnabled
 =
 =
 nsContentUtils
@@ -793,12 +800,12 @@ reason
 =
 aInstalling
 ?
-IMEContext
+InputContext
 :
 :
 FOCUS_MOVED_TO_MENU
 :
-IMEContext
+InputContext
 :
 :
 FOCUS_MOVED_FROM_MENU
@@ -897,7 +904,7 @@ found
 return
 ;
 }
-IMEContext
+InputContext
 context
 ;
 nsresult
@@ -936,7 +943,7 @@ if
 (
 context
 .
-mStatus
+mIMEEnabled
 =
 =
 nsContentUtils
@@ -963,7 +970,7 @@ SetIMEState
 aNewIMEState
 aContent
 widget
-IMEContext
+InputContext
 :
 :
 EDITOR_STATE_MODIFIED
@@ -1219,12 +1226,12 @@ GetWidgetStatusFromIMEStatus
 aState
 )
 ;
-IMEContext
+InputContext
 context
 ;
 context
 .
-mStatus
+mIMEEnabled
 =
 state
 ;
@@ -1512,7 +1519,7 @@ mReason
 =
 aReason
 |
-IMEContext
+InputContext
 :
 :
 FOCUS_FROM_CONTENT_PROCESS
