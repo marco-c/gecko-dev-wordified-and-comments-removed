@@ -6465,7 +6465,7 @@ APP_TYPE_MAIL
 *
 result
 =
-mIsMailJavaScriptEnabled
+PR_FALSE
 ;
 }
 }
