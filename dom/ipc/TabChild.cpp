@@ -384,7 +384,7 @@ h
 #
 include
 "
-nsIEventListenerManager
+nsEventListenerManager
 .
 h
 "
@@ -1962,7 +1962,7 @@ DestroyCx
 )
 ;
 }
-nsIEventListenerManager
+nsEventListenerManager
 *
 elm
 =

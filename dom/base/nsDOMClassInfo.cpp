@@ -767,7 +767,7 @@ h
 #
 include
 "
-nsIEventListenerManager
+nsEventListenerManager
 .
 h
 "
@@ -30384,7 +30384,7 @@ return
 NS_OK
 ;
 }
-nsIEventListenerManager
+nsEventListenerManager
 *
 manager
 =

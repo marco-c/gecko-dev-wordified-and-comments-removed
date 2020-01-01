@@ -77,7 +77,7 @@ h
 #
 include
 "
-nsIEventListenerManager
+nsEventListenerManager
 .
 h
 "
@@ -2154,7 +2154,7 @@ virtual
 nsresult
 GetEventListenerManagerForAttr
 (
-nsIEventListenerManager
+nsEventListenerManager
 *
 *
 aManager

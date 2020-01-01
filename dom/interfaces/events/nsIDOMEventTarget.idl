@@ -473,6 +473,9 @@ nsEventChainPostVisitor
 struct
 JSContext
 ;
+class
+nsEventListenerManager
+;
 %
 }
 /
@@ -584,8 +587,14 @@ JSContextPtr
 JSContext
 )
 ;
-interface
-nsIEventListenerManager
+[
+ptr
+]
+native
+nsEventListenerManagerPtr
+(
+nsEventListenerManager
+)
 ;
 interface
 nsIScriptContext
@@ -1861,7 +1870,7 @@ exists
 notxpcom
 nostdcall
 ]
-nsIEventListenerManager
+nsEventListenerManagerPtr
 GetListenerManager
 (
 in

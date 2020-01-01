@@ -105,7 +105,7 @@ class
 nsEventChainPostVisitor
 ;
 class
-nsIEventListenerManager
+nsEventListenerManager
 ;
 class
 nsIPrincipal

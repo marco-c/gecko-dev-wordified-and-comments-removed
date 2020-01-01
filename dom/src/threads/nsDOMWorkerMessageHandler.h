@@ -571,7 +571,7 @@ aEventStatus
 }
 \
 virtual
-nsIEventListenerManager
+nsEventListenerManager
 *
 GetListenerManager
 (

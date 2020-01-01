@@ -85,7 +85,7 @@ h
 #
 include
 "
-nsIEventListenerManager
+nsEventListenerManager
 .
 h
 "
@@ -1311,7 +1311,7 @@ GetChromeEventHandler
 (
 )
 ;
-nsIEventListenerManager
+nsEventListenerManager
 *
 elm
 =

@@ -730,7 +730,7 @@ nsIEventListenerInfo
 >
 listenerInfos
 ;
-nsIEventListenerManager
+nsEventListenerManager
 *
 elm
 =

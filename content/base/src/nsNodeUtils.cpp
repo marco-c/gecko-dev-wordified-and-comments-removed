@@ -68,7 +68,7 @@ h
 #
 include
 "
-nsIEventListenerManager
+nsEventListenerManager
 .
 h
 "
@@ -1230,7 +1230,7 @@ IsInitialized
 )
 )
 {
-nsIEventListenerManager
+nsEventListenerManager
 *
 manager
 =
@@ -2679,7 +2679,7 @@ if
 window
 )
 {
-nsIEventListenerManager
+nsEventListenerManager
 *
 elm
 =

@@ -183,7 +183,7 @@ h
 #
 include
 "
-nsIEventListenerManager
+nsEventListenerManager
 .
 h
 "
@@ -2068,7 +2068,7 @@ nsXULElement
 :
 GetEventListenerManagerForAttr
 (
-nsIEventListenerManager
+nsEventListenerManager
 *
 *
 aManager

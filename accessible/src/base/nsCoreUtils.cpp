@@ -92,7 +92,7 @@ h
 #
 include
 "
-nsIEventListenerManager
+nsEventListenerManager
 .
 h
 "
@@ -211,7 +211,7 @@ aContent
 PR_FALSE
 )
 ;
-nsIEventListenerManager
+nsEventListenerManager
 *
 listenerManager
 =

@@ -400,7 +400,7 @@ h
 #
 include
 "
-nsIEventListenerManager
+nsEventListenerManager
 .
 h
 "
@@ -3196,7 +3196,7 @@ sysGroup
 )
 )
 ;
-nsIEventListenerManager
+nsEventListenerManager
 *
 elmP
 =
@@ -3347,7 +3347,7 @@ sysGroup
 )
 )
 ;
-nsIEventListenerManager
+nsEventListenerManager
 *
 elmP
 =

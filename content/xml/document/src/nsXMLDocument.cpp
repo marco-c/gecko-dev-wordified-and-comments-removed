@@ -253,7 +253,7 @@ h
 #
 include
 "
-nsIEventListenerManager
+nsEventListenerManager
 .
 h
 "
@@ -1800,9 +1800,9 @@ NS_ERROR_DOM_SECURITY_ERR
 ;
 }
 }
-nsCOMPtr
+nsRefPtr
 <
-nsIEventListenerManager
+nsEventListenerManager
 >
 elm
 (

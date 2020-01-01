@@ -191,7 +191,7 @@ h
 #
 include
 "
-nsIEventListenerManager
+nsEventListenerManager
 .
 h
 "
@@ -2740,7 +2740,7 @@ aName
 )
 )
 {
-nsIEventListenerManager
+nsEventListenerManager
 *
 manager
 =

@@ -188,7 +188,7 @@ class
 nsIControllers
 ;
 class
-nsIEventListenerManager
+nsEventListenerManager
 ;
 class
 nsIScrollableFrame
@@ -439,15 +439,6 @@ mCachedEventTearoffCount
 void
 LastRelease
 (
-)
-;
-nsresult
-GetDOM3EventTarget
-(
-nsIDOM3EventTarget
-*
-*
-aTarget
 )
 ;
 public
@@ -2509,7 +2500,7 @@ virtual
 nsresult
 GetEventListenerManagerForAttr
 (
-nsIEventListenerManager
+nsEventListenerManager
 *
 *
 aManager

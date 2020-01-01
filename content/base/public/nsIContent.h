@@ -56,7 +56,7 @@ class
 nsIContent
 ;
 class
-nsIEventListenerManager
+nsEventListenerManager
 ;
 class
 nsIURI

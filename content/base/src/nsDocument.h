@@ -126,7 +126,7 @@ h
 #
 include
 "
-nsIEventListenerManager
+nsEventListenerManager
 .
 h
 "
@@ -461,7 +461,7 @@ XML_DECLARATION_BITS_STANDALONE_YES
 3
 )
 class
-nsIEventListenerManager
+nsEventListenerManager
 ;
 class
 nsDOMStyleSheetList
@@ -2689,7 +2689,7 @@ aVisitor
 )
 ;
 virtual
-nsIEventListenerManager
+nsEventListenerManager
 *
 GetListenerManager
 (
@@ -3749,9 +3749,9 @@ mScriptObject
 nsWeakPtr
 mScopeObject
 ;
-nsCOMPtr
+nsRefPtr
 <
-nsIEventListenerManager
+nsEventListenerManager
 >
 mListenerManager
 ;

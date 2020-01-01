@@ -428,6 +428,10 @@ nsEventStateManager
 .
 h
 \
+nsEventListenerManager
+.
+h
+\
 (
 NULL
 )

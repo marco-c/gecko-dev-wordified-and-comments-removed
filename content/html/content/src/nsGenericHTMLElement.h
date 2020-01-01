@@ -1415,7 +1415,7 @@ virtual
 nsresult
 GetEventListenerManagerForAttr
 (
-nsIEventListenerManager
+nsEventListenerManager
 *
 *
 aManager

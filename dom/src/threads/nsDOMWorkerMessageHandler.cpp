@@ -1603,7 +1603,7 @@ return
 NS_ERROR_NOT_IMPLEMENTED
 ;
 }
-nsIEventListenerManager
+nsEventListenerManager
 *
 nsDOMWorkerMessageHandler
 :

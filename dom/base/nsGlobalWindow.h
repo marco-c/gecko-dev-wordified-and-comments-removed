@@ -247,7 +247,7 @@ h
 #
 include
 "
-nsIEventListenerManager
+nsEventListenerManager
 .
 h
 "
@@ -2887,9 +2887,9 @@ nsIPrincipal
 >
 mOpenerScriptPrincipal
 ;
-nsCOMPtr
+nsRefPtr
 <
-nsIEventListenerManager
+nsEventListenerManager
 >
 mListenerManager
 ;

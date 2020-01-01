@@ -425,10 +425,6 @@ nsMutationEvent
 .
 h
 \
-nsIEventListenerManager
-.
-h
-\
 nsIPrivateDOMEvent
 .
 h

@@ -11,7 +11,7 @@ class
 nsIDOMEventListener
 ;
 class
-nsIEventListenerManager
+nsEventListenerManager
 ;
 class
 nsIDOMEvent
@@ -39,7 +39,7 @@ h
 #
 include
 "
-nsIEventListenerManager
+nsEventListenerManager
 .
 h
 "
@@ -166,9 +166,9 @@ nsPIDOMWindow
 *
 mWindow
 ;
-nsCOMPtr
+nsRefPtr
 <
-nsIEventListenerManager
+nsEventListenerManager
 >
 mListenerManager
 ;
