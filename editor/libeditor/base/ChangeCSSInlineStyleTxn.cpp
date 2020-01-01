@@ -1048,6 +1048,8 @@ NS_ERROR_NOT_INITIALIZED
 }
 nsresult
 result
+=
+NS_OK
 ;
 if
 (

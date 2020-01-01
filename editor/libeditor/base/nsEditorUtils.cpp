@@ -1044,9 +1044,14 @@ doInsert
 =
 PR_TRUE
 ;
+#
+ifdef
+DEBUG
 nsresult
 hookResult
 =
+#
+endif
 override
 -
 >

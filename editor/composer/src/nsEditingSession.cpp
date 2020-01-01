@@ -3550,8 +3550,10 @@ if
 makeEditable
 )
 {
-PRBool
+bool
 needsSetup
+=
+false
 ;
 if
 (
@@ -3560,7 +3562,7 @@ mMakeWholeDocumentEditable
 {
 needsSetup
 =
-PR_TRUE
+true
 ;
 }
 else

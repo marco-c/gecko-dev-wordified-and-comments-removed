@@ -1594,9 +1594,14 @@ mSpellChecker
 NS_ERROR_NOT_INITIALIZED
 )
 ;
+#
+ifdef
+DEBUG
 nsresult
 rv
 =
+#
+endif
 SaveDefaultDictionary
 (
 )
