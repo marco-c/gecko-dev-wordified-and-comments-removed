@@ -544,7 +544,7 @@ Restore
 ENTITY
 cmd
 .
-restore
+restore2
 .
 accesskey
 "
