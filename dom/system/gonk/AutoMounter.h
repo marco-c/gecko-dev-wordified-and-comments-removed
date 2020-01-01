@@ -13,6 +13,9 @@ StandardInteger
 .
 h
 "
+class
+nsCString
+;
 namespace
 mozilla
 {
@@ -41,6 +44,17 @@ SetAutoMounterMode
 (
 int32_t
 aMode
+)
+;
+void
+SetAutoMounterSharingMode
+(
+const
+nsCString
+&
+aVolumeName
+bool
+aAllowSharing
 )
 ;
 void
