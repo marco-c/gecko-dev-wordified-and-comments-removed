@@ -182,7 +182,7 @@ this
 >
 startupTimestamp
 =
-PR_IntervalNow
+PR_Now
 (
 )
 ;

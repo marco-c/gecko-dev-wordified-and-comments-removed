@@ -2915,7 +2915,7 @@ nsXULAppInfo
 :
 GetLaunchTimestamp
 (
-PRUint32
+PRUint64
 *
 aTimestamp
 )
@@ -2930,7 +2930,7 @@ nsXULAppInfo
 :
 GetStartupTimestamp
 (
-PRUint32
+PRUint64
 *
 aTimestamp
 )

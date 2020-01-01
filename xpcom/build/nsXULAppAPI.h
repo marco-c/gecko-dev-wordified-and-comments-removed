@@ -113,7 +113,7 @@ char
 *
 profile
 ;
-PRIntervalTime
+PRTime
 startupTimestamp
 ;
 }
