@@ -10876,9 +10876,9 @@ else
 if
 (
 nflattened
-!
 =
-0
+=
+nupvars
 )
 {
 FUN_METER
