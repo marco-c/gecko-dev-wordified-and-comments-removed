@@ -14644,6 +14644,14 @@ nsRange
 this
 )
 ;
+mSourcePointer
+-
+>
+SetEnableGravitationOnElementRemoval
+(
+false
+)
+;
 rv
 =
 mSourcePointer
