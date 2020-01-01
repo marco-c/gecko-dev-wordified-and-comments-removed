@@ -54,9 +54,6 @@ nsIScriptGlobalObject
 class
 nsIDOMEventListener
 ;
-class
-nsJSRuntime
-;
 typedef
 nsXPCClassInfo
 *
@@ -140,14 +137,6 @@ aConstructorCID
 )
 =
 0
-;
-protected
-:
-nsRefPtr
-<
-nsJSRuntime
->
-mJSRuntime
 ;
 }
 ;

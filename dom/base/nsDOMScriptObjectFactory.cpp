@@ -203,14 +203,6 @@ swap
 gExceptionProvider
 )
 ;
-NS_CreateJSRuntime
-(
-getter_AddRefs
-(
-mJSRuntime
-)
-)
-;
 }
 NS_INTERFACE_MAP_BEGIN
 (
