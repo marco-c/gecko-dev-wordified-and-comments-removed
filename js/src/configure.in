@@ -17678,6 +17678,7 @@ all
 features
 =
 tmplife
+tmplrefstatic
 -
 norunpath
 "
