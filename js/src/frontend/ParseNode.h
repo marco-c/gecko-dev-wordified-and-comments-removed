@@ -5077,6 +5077,11 @@ JSFB_LEVEL_BITS
 uint32_t
 tcflags
 ;
+bool
+inWith
+:
+1
+;
 JSFunction
 *
 function
