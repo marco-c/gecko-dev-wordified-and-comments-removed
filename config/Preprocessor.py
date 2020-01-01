@@ -3502,6 +3502,8 @@ search
 (
 js
 |
+jsm
+|
 java
 )
 (
