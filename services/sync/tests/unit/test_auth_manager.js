@@ -429,9 +429,9 @@ do_check_eq
 (
 res
 .
-lastRequest
+lastChannel
 .
-status
+responseStatus
 200
 )
 ;
