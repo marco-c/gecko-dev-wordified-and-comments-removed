@@ -7372,11 +7372,15 @@ TypeObject
 obj
 bool
 notDense
+bool
+dynamic
+=
+true
 )
 ;
 inline
 void
-monitorTypeObject
+markTypeObjectUnknownProperties
 (
 js
 :

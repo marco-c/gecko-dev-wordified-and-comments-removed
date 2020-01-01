@@ -9494,8 +9494,6 @@ newScript
 :
 %
 s
-\
-n
 "
 name
 )
