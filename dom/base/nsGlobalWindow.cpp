@@ -36231,6 +36231,12 @@ rv
 rv
 )
 ;
+NS_ENSURE_TRUE
+(
+domReturn
+NS_OK
+)
+;
 domReturn
 .
 swap
