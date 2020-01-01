@@ -1617,8 +1617,10 @@ aFunctionId
 const
 ;
 static
+already_AddRefed
+<
 nsStringBuffer
-*
+>
 BufferFromString
 (
 const

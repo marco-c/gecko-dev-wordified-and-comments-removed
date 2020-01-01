@@ -15307,6 +15307,10 @@ BufferFromString
 (
 aString
 )
+.
+get
+(
+)
 ;
 if
 (

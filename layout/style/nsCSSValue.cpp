@@ -243,6 +243,10 @@ BufferFromString
 (
 aValue
 )
+.
+get
+(
+)
 ;
 if
 (
@@ -1921,6 +1925,10 @@ BufferFromString
 (
 aValue
 )
+.
+get
+(
+)
 ;
 if
 (
@@ -3043,8 +3051,10 @@ thisFunctionId
 aFunctionId
 ;
 }
+already_AddRefed
+<
 nsStringBuffer
-*
+>
 nsCSSValue
 :
 :

@@ -345,6 +345,10 @@ nsString
 valStr
 )
 )
+.
+get
+(
+)
 ;
 nsRefPtr
 <
