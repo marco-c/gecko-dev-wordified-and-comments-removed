@@ -6371,16 +6371,6 @@ pref
 "
 dom
 .
-experimental_forms_range
-"
-true
-)
-;
-pref
-(
-"
-dom
-.
 forms
 .
 color

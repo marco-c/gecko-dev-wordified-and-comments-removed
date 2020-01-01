@@ -127,16 +127,6 @@ user_pref
 "
 dom
 .
-experimental_forms_range
-"
-true
-)
-;
-user_pref
-(
-"
-dom
-.
 forms
 .
 color
