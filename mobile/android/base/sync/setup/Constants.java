@@ -173,6 +173,16 @@ isPair
 public
 static
 final
+String
+INTENT_EXTRA_IS_ACCOUNTERROR
+=
+"
+isAccountError
+"
+;
+public
+static
+final
 int
 FLAG_ACTIVITY_REORDER_TO_FRONT_NO_ANIMATION
 =
