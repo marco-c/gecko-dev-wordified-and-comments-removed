@@ -308,6 +308,14 @@ texture
 )
 )
 ;
+if
+(
+FAILED
+(
+hr
+)
+)
+{
 LayerManagerD3D10
 :
 :
@@ -328,6 +336,7 @@ surface
 hr
 )
 ;
+}
 return
 texture
 .
