@@ -713,7 +713,7 @@ op
 ;
 #
 ifdef
-ANDROID
+SK_BUILD_FOR_ANDROID
 char
 *
 toString

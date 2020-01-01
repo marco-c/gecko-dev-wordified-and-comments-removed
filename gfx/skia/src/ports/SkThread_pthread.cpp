@@ -296,9 +296,8 @@ pthread_mutex_t
 )
 )
 ;
-SkASSERT
+SkDEBUGFAIL
 (
-!
 "
 mutex
 storage

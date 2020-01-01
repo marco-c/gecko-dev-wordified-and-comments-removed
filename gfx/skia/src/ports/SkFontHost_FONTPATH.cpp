@@ -1518,17 +1518,3 @@ desc
 )
 ;
 }
-size_t
-SkFontHost
-:
-:
-ShouldPurgeFontCache
-(
-size_t
-sizeAllocatedSoFar
-)
-{
-return
-0
-;
-}

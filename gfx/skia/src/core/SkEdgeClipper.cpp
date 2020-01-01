@@ -3004,9 +3004,8 @@ break
 ;
 default
 :
-SkASSERT
+SkDEBUGFAIL
 (
-!
 "
 unexpected
 verb

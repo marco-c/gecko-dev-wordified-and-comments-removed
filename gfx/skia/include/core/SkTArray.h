@@ -1312,7 +1312,7 @@ int
 preAllocOrReserveCount
 )
 {
-GrAssert
+SkASSERT
 (
 count
 >
@@ -1320,7 +1320,7 @@ count
 0
 )
 ;
-GrAssert
+SkASSERT
 (
 preAllocOrReserveCount
 >
@@ -1375,7 +1375,7 @@ else
 {
 fAllocCount
 =
-GrMax
+SkMax32
 (
 fCount
 fReserveCount
@@ -1383,7 +1383,7 @@ fReserveCount
 ;
 fMemArray
 =
-GrMalloc
+sk_malloc_throw
 (
 fAllocCount
 *

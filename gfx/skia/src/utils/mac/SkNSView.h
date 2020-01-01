@@ -231,7 +231,7 @@ event
 ;
 -
 (
-void
+bool
 )
 attachGL
 ;

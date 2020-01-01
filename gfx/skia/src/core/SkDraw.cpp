@@ -702,7 +702,7 @@ if
 SkXfermode
 :
 :
-IsMode
+AsMode
 (
 paint
 .
@@ -1007,9 +1007,8 @@ break
 ;
 default
 :
-SkASSERT
+SkDEBUGFAIL
 (
-!
 "
 Can
 '
@@ -4366,9 +4365,8 @@ break
 ;
 default
 :
-SkASSERT
+SkDEBUGFAIL
 (
-!
 "
 bad
 rtype
@@ -10041,6 +10039,13 @@ stop
 )
 {
 const
+char
+*
+currentText
+=
+text
+;
+const
 SkGlyph
 *
 glyph
@@ -10169,7 +10174,7 @@ glyphCacheProc
 (
 cache
 &
-text
+currentText
 fx
 &
 fxMask
@@ -10722,9 +10727,8 @@ break
 ;
 default
 :
-SkASSERT
+SkDEBUGFAIL
 (
-!
 "
 unknown
 verb
@@ -11012,7 +11016,7 @@ true
 }
 #
 ifdef
-ANDROID
+SK_BUILD_FOR_ANDROID
 void
 SkDraw
 :

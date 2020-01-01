@@ -199,9 +199,8 @@ getXfermode
 )
 ;
 }
-SkASSERT
+SkDEBUGFAIL
 (
-!
 "
 never
 gets

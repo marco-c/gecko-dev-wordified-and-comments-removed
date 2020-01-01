@@ -114,7 +114,7 @@ GrMatrix
 matrix
 =
 NULL
-int
+StageMask
 stageEnableMask
 =
 0

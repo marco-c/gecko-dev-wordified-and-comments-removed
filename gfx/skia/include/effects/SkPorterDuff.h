@@ -48,7 +48,7 @@ kScreen_Mode
 kAdd_Mode
 #
 ifdef
-ANDROID
+SK_BUILD_FOR_ANDROID
 kOverlay_Mode
 #
 endif

@@ -121,9 +121,6 @@ int
 save
 (
 SaveFlags
-flags
-=
-kMatrixClip_SaveFlag
 )
 SK_OVERRIDE
 ;
@@ -140,9 +137,6 @@ SkPaint
 *
 paint
 SaveFlags
-flags
-=
-kARGB_ClipLayer_SaveFlag
 )
 SK_OVERRIDE
 ;
@@ -259,12 +253,6 @@ SkRegion
 :
 :
 Op
-op
-=
-SkRegion
-:
-:
-kIntersect_Op
 )
 SK_OVERRIDE
 ;
@@ -345,8 +333,6 @@ const
 SkPaint
 *
 paint
-=
-NULL
 )
 SK_OVERRIDE
 ;
@@ -370,8 +356,6 @@ const
 SkPaint
 *
 paint
-=
-NULL
 )
 SK_OVERRIDE
 ;
@@ -391,8 +375,6 @@ const
 SkPaint
 *
 paint
-=
-NULL
 )
 SK_OVERRIDE
 ;
@@ -412,8 +394,6 @@ const
 SkPaint
 *
 paint
-=
-NULL
 )
 SK_OVERRIDE
 ;

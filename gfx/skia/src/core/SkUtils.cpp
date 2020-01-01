@@ -675,7 +675,7 @@ if
 !
 defined
 (
-ANDROID
+SK_BUILD_FOR_ANDROID
 )
 |
 |
@@ -1345,9 +1345,8 @@ uni
 0x10FFFF
 )
 {
-SkASSERT
+SkDEBUGFAIL
 (
-!
 "
 bad
 unichar

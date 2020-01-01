@@ -218,6 +218,17 @@ mode
 )
 ;
 static
+bool
+IsMode
+(
+SkXfermode
+*
+xfer
+Mode
+mode
+)
+;
+static
 SkXfermode
 *
 Create
@@ -278,6 +289,9 @@ mode
 )
 ;
 }
+SK_DECLARE_FLATTENABLE_REGISTRAR
+(
+)
 protected
 :
 SkXfermode

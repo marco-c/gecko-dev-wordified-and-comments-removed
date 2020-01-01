@@ -2600,6 +2600,11 @@ path
 )
 const
 {
+SkASSERT
+(
+path
+)
+;
 if
 (
 this

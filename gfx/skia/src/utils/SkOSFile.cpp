@@ -724,6 +724,12 @@ defined
 (
 SK_BUILD_FOR_UNIX
 )
+|
+|
+defined
+(
+SK_BUILD_FOR_ANDROID
+)
 #
 if
 0

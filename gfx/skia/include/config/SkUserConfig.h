@@ -10,9 +10,6 @@ SK_DEBUG
 #
 endif
 #
-define
-SK_DISABLE_DITHER_32BIT_GRADIENT
-#
 ifdef
 SK_SAMPLES_FOR_X
 #
@@ -31,14 +28,6 @@ SK_B32_SHIFT
 define
 SK_A32_SHIFT
 24
-#
-endif
-#
-ifdef
-SK_BUILD_FOR_WIN32
-#
-define
-SK_IGNORE_STDINT_DOT_H
 #
 endif
 #

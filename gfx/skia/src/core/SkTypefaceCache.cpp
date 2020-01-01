@@ -355,12 +355,6 @@ count
 )
 )
 ;
-fArray
-.
-reset
-(
-)
-;
 }
 SkTypefaceCache
 &

@@ -102,9 +102,8 @@ int
 width
 )
 {
-SkASSERT
+SkDEBUGFAIL
 (
-!
 "
 how
 did
@@ -138,9 +137,8 @@ runs
 ]
 )
 {
-SkASSERT
+SkDEBUGFAIL
 (
-!
 "
 how
 did
@@ -168,9 +166,8 @@ SkAlpha
 alpha
 )
 {
-SkASSERT
+SkDEBUGFAIL
 (
-!
 "
 how
 did
@@ -197,9 +194,8 @@ SkIRect
 clip
 )
 {
-SkASSERT
+SkDEBUGFAIL
 (
-!
 "
 how
 did

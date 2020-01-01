@@ -40,6 +40,14 @@ ty
 ;
 virtual
 bool
+isOpaque
+(
+)
+const
+SK_OVERRIDE
+;
+virtual
+bool
 setContext
 (
 const
@@ -166,6 +174,9 @@ str
 )
 const
 ;
+SK_DECLARE_FLATTENABLE_REGISTRAR
+(
+)
 protected
 :
 SkBitmapProcShader

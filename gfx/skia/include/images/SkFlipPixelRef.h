@@ -267,6 +267,9 @@ SkFlattenableReadBuffer
 buffer
 )
 ;
+SK_DECLARE_PIXEL_REF_REGISTRAR
+(
+)
 protected
 :
 virtual

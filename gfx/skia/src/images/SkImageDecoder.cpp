@@ -663,10 +663,10 @@ setURI
 file
 )
 ;
-}
 return
 true
 ;
+}
 }
 return
 false

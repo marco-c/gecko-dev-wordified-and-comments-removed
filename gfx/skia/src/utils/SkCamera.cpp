@@ -2693,7 +2693,7 @@ next
 }
 #
 ifdef
-ANDROID
+SK_BUILD_FOR_ANDROID
 void
 Sk3DView
 :

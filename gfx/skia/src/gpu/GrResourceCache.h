@@ -825,6 +825,16 @@ GrResource
 *
 )
 ;
+bool
+hasKey
+(
+const
+GrResourceKey
+&
+key
+)
+const
+;
 void
 detach
 (

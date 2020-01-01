@@ -23,12 +23,14 @@ public
 SkEmptyShader
 (
 )
-;
+{
+}
 virtual
 uint32_t
 getFlags
 (
 )
+SK_OVERRIDE
 ;
 virtual
 uint8_t
@@ -36,6 +38,7 @@ getSpan16Alpha
 (
 )
 const
+SK_OVERRIDE
 ;
 virtual
 bool
@@ -44,16 +47,14 @@ setContext
 const
 SkBitmap
 &
-device
 const
 SkPaint
 &
-paint
 const
 SkMatrix
 &
-matrix
 )
+SK_OVERRIDE
 ;
 virtual
 void
@@ -70,6 +71,7 @@ span
 int
 count
 )
+SK_OVERRIDE
 ;
 virtual
 void
@@ -86,6 +88,7 @@ span
 int
 count
 )
+SK_OVERRIDE
 ;
 virtual
 void
@@ -102,6 +105,7 @@ alpha
 int
 count
 )
+SK_OVERRIDE
 ;
 protected
 :
@@ -116,6 +120,7 @@ Factory
 getFactory
 (
 )
+SK_OVERRIDE
 ;
 virtual
 void
@@ -124,6 +129,7 @@ flatten
 SkFlattenableWriteBuffer
 &
 )
+SK_OVERRIDE
 ;
 private
 :

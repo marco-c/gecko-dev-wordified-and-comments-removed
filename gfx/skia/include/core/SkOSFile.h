@@ -23,6 +23,12 @@ defined
 (
 SK_BUILD_FOR_UNIX
 )
+|
+|
+defined
+(
+SK_BUILD_FOR_ANDROID
+)
 #
 include
 <
@@ -214,6 +220,12 @@ SK_BUILD_FOR_MAC
 defined
 (
 SK_BUILD_FOR_UNIX
+)
+|
+|
+defined
+(
+SK_BUILD_FOR_ANDROID
 )
 DIR
 *

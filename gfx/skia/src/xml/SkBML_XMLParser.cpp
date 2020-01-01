@@ -560,9 +560,8 @@ break
 ;
 default
 :
-SkASSERT
+SkDEBUGFAIL
 (
-!
 "
 bad
 verb
@@ -756,9 +755,8 @@ return
 ;
 default
 :
-SkASSERT
+SkDEBUGFAIL
 (
-!
 "
 bad
 verb

@@ -230,9 +230,8 @@ float
 param
 )
 {
-SkASSERT
+SkDEBUGFAIL
 (
-!
 "
 looks
 like
@@ -371,9 +370,15 @@ SkScalarRoundToScalar
 (
 x
 )
-sk_float_round
+sk_float_floor
+(
 (
 x
+)
++
+0
+.
+5f
 )
 #
 define

@@ -209,6 +209,15 @@ const
 {
 if
 (
+!
+this
+-
+>
+isMultisampled
+(
+)
+|
+|
 fRTFBOID
 =
 =

@@ -1548,9 +1548,8 @@ break
 ;
 default
 :
-SkASSERT
+SkDEBUGFAIL
 (
-!
 "
 unknown
 segType
@@ -2033,9 +2032,8 @@ break
 ;
 default
 :
-SkASSERT
+SkDEBUGFAIL
 (
-!
 "
 unknown
 segType

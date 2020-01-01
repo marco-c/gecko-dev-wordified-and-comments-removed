@@ -1670,7 +1670,7 @@ self
 }
 -
 (
-void
+bool
 )
 attachGL
 {
@@ -1681,6 +1681,7 @@ nil
 =
 fGLContext
 )
+{
 fGLContext
 =
 [
@@ -1695,6 +1696,19 @@ createGLContext
 )
 ]
 ;
+if
+(
+NULL
+=
+=
+fGLContext
+)
+{
+return
+false
+;
+}
+}
 [
 fGLContext
 makeCurrentContext
@@ -1739,6 +1753,9 @@ GL_COLOR_BUFFER_BIT
 |
 GL_STENCIL_BUFFER_BIT
 )
+;
+return
+true
 ;
 }
 -

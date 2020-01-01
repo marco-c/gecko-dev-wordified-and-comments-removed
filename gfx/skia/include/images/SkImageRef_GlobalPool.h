@@ -59,6 +59,9 @@ SkFlattenableReadBuffer
 &
 )
 ;
+SK_DECLARE_PIXEL_REF_REGISTRAR
+(
+)
 static
 size_t
 GetRAMBudget

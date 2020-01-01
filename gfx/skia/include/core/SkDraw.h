@@ -256,7 +256,7 @@ const
 ;
 #
 ifdef
-ANDROID
+SK_BUILD_FOR_ANDROID
 void
 drawPosTextOnPath
 (
@@ -629,6 +629,9 @@ fXPos
 ;
 SkAutoKern
 fAutoKern
+;
+int
+fXYIndex
 ;
 }
 ;

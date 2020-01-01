@@ -108,6 +108,7 @@ setKeyData
 const
 uint32_t
 *
+SK_RESTRICT
 data
 )
 {
@@ -127,7 +128,8 @@ data
 KeySize
 )
 ;
-fHash
+uint32_t
+hash
 =
 0
 ;
@@ -144,7 +146,7 @@ len
 4
 )
 {
-fHash
+hash
 +
 =
 *
@@ -152,7 +154,7 @@ data
 +
 +
 ;
-fHash
+hash
 +
 =
 (
@@ -162,11 +164,11 @@ fHash
 10
 )
 ;
-fHash
+hash
 ^
 =
 (
-fHash
+hash
 >
 >
 6
@@ -178,7 +180,7 @@ len
 4
 ;
 }
-fHash
+hash
 +
 =
 (
@@ -188,7 +190,7 @@ fHash
 3
 )
 ;
-fHash
+hash
 ^
 =
 (
@@ -198,7 +200,7 @@ fHash
 11
 )
 ;
-fHash
+hash
 +
 =
 (
@@ -217,6 +219,10 @@ true
 ;
 #
 endif
+fHash
+=
+hash
+;
 }
 int
 compare

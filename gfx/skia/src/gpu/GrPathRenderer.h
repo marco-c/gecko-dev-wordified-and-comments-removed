@@ -136,11 +136,11 @@ virtual
 void
 drawPath
 (
-GrDrawTarget
+GrDrawState
 :
 :
-StageBitfield
-stages
+StageMask
+stageMask
 )
 =
 0

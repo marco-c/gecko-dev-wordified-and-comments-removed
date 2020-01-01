@@ -490,6 +490,9 @@ SkFlattenableReadBuffer
 &
 )
 ;
+SK_DECLARE_FLATTENABLE_REGISTRAR
+(
+)
 protected
 :
 virtual
