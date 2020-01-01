@@ -89,6 +89,13 @@ h
 #
 include
 "
+nsIOutputStream
+.
+h
+"
+#
+include
+"
 nsIRequestObserver
 .
 h
@@ -136,6 +143,13 @@ h
 include
 "
 nsICachingChannel
+.
+h
+"
+#
+include
+"
+nsURILoader
 .
 h
 "

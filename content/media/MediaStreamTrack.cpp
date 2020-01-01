@@ -26,6 +26,13 @@ nsServiceManagerUtils
 .
 h
 "
+#
+include
+"
+MediaStreamGraph
+.
+h
+"
 namespace
 mozilla
 {

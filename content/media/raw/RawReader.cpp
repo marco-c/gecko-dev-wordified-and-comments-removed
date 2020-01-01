@@ -33,13 +33,6 @@ VideoUtils
 .
 h
 "
-#
-include
-"
-nsISeekableStream
-.
-h
-"
 using
 namespace
 mozilla

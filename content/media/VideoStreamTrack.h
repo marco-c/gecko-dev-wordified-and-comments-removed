@@ -11,13 +11,6 @@ MediaStreamTrack
 .
 h
 "
-#
-include
-"
-DOMMediaStream
-.
-h
-"
 namespace
 mozilla
 {

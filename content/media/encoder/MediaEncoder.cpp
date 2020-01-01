@@ -13,13 +13,6 @@ MediaDecoder
 h
 "
 #
-include
-"
-nsIPrincipal
-.
-h
-"
-#
 ifdef
 MOZ_OGG
 #

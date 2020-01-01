@@ -107,13 +107,6 @@ MediaDecoderReader
 .
 h
 "
-#
-include
-"
-nsRect
-.
-h
-"
 namespace
 mozilla
 {
@@ -122,13 +115,6 @@ dom
 {
 class
 TimeRanges
-;
-}
-namespace
-layers
-{
-class
-PlanarYCbCrImage
 ;
 }
 class

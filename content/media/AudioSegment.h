@@ -14,6 +14,13 @@ h
 #
 include
 "
+nsISupportsImpl
+.
+h
+"
+#
+include
+"
 AudioSampleFormat
 .
 h

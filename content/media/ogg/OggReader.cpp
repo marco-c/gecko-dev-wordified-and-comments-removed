@@ -119,13 +119,6 @@ MediaMetadataManager
 .
 h
 "
-#
-include
-"
-nsISeekableStream
-.
-h
-"
 namespace
 mozilla
 {
