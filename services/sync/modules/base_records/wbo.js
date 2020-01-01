@@ -390,6 +390,7 @@ WBORec_toString
 {
 return
 "
+{
 id
 :
 "
@@ -467,6 +468,10 @@ this
 .
 cleartext
 )
++
+"
+}
+"
 ;
 }
 }
