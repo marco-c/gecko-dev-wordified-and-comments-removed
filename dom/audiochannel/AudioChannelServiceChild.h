@@ -83,8 +83,9 @@ virtual
 bool
 GetMuted
 (
-AudioChannelType
-aType
+AudioChannelAgent
+*
+aAgent
 bool
 aMozHidden
 )
