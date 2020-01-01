@@ -733,6 +733,14 @@ Value
 v
 )
 ;
+bool
+IsSlotMarked
+(
+HeapSlot
+*
+s
+)
+;
 void
 MarkSlot
 (
