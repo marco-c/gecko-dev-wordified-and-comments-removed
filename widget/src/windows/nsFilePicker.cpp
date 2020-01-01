@@ -174,15 +174,6 @@ MAX_PATH
 define
 MAX_EXTENSION_LENGTH
 10
-#
-ifndef
-BIF_USENEWUI
-#
-define
-BIF_USENEWUI
-0x50
-#
-endif
 nsFilePicker
 :
 :
