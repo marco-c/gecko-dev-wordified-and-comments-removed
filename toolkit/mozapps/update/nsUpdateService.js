@@ -6727,7 +6727,7 @@ telemetry
 getHistogramById
 (
 "
-UPDATE_STATUS
+UPDATER_STATUS_CODES
 "
 )
 .

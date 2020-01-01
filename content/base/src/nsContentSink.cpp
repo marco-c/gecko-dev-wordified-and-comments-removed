@@ -2575,7 +2575,10 @@ media
 =
 value
 ;
-ToLowerCase
+nsContentUtils
+:
+:
+ASCIIToLower
 (
 media
 )
@@ -3177,7 +3180,10 @@ IsEmpty
 )
 )
 {
-ToLowerCase
+nsContentUtils
+:
+:
+ASCIIToLower
 (
 header
 )
@@ -3257,7 +3263,10 @@ IsEmpty
 )
 )
 {
-ToLowerCase
+nsContentUtils
+:
+:
+ASCIIToLower
 (
 result
 )

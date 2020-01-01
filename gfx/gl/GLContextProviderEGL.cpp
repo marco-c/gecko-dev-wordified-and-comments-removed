@@ -9034,7 +9034,6 @@ forget
 )
 ;
 }
-;
 already_AddRefed
 <
 TextureImage
