@@ -4899,7 +4899,7 @@ prefs
 -
 languages
 "
-onchange
+oncommand
 =
 "
 PreferencesView
