@@ -1391,6 +1391,9 @@ LC
 :
 setItemAt
 (
+JSContext
+*
+cx
 ListType
 *
 list
@@ -1460,6 +1463,9 @@ LC
 :
 setNamedItem
 (
+JSContext
+*
+cx
 ListType
 *
 list
@@ -3479,6 +3485,7 @@ v
 &
 setItemAt
 (
+cx
 getListObject
 (
 proxy
@@ -3575,10 +3582,10 @@ v
 return
 false
 ;
-if
-(
+return
 setNamedItem
 (
+cx
 getListObject
 (
 proxy
@@ -3586,9 +3593,6 @@ proxy
 nameString
 value
 )
-)
-return
-true
 ;
 }
 if

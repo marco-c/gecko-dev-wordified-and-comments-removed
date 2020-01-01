@@ -827,7 +827,7 @@ true
 :
 Throw
 (
-nsnull
+cx
 rv
 )
 ;
@@ -3876,6 +3876,9 @@ Wrapper
 :
 setItemAt
 (
+JSContext
+*
+cx
 {
 nativeClass
 }
@@ -3997,6 +4000,9 @@ Wrapper
 :
 setNamedItem
 (
+JSContext
+*
+cx
 {
 nativeClass
 }

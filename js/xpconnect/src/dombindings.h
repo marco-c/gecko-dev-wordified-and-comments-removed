@@ -663,6 +663,9 @@ inline
 bool
 setItemAt
 (
+JSContext
+*
+cx
 ListType
 *
 list
@@ -716,6 +719,9 @@ inline
 bool
 setNamedItem
 (
+JSContext
+*
+cx
 ListType
 *
 list
