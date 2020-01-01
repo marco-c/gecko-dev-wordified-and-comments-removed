@@ -9,6 +9,13 @@ jsfile
 h
 "
 #
+include
+"
+jsstdint
+.
+h
+"
+#
 if
 defined
 (
