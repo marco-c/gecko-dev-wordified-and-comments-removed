@@ -480,10 +480,6 @@ nsDOMNodeAllocator
 >
 mNodeAllocator
 ;
-static
-PRUint32
-gNodeManagerCount
-;
 }
 ;
 #
