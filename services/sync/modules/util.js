@@ -4332,6 +4332,9 @@ about
 "
 errors
 "
+"
+sync
+"
 ]
 .
 forEach
