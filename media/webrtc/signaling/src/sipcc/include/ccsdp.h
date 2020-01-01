@@ -12,13 +12,6 @@ cpr_types
 h
 "
 #
-include
-"
-ccsdp_rtcp_fb
-.
-h
-"
-#
 define
 SIPSDP_ILBC_MODE20
 20
