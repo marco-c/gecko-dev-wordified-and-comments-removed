@@ -1293,6 +1293,17 @@ NeedsToHandleWithoutFollowingCharMessages
 const
 ;
 bool
+HandleKeyDownMessage
+(
+bool
+*
+aEventDispatched
+=
+nullptr
+)
+const
+;
+bool
 DispatchKeyDownEvent
 (
 bool
