@@ -375,7 +375,13 @@ Uses
 uses
 )
 ;
-void
+JSC
+:
+:
+MacroAssembler
+:
+:
+Label
 linkExit
 (
 Jump

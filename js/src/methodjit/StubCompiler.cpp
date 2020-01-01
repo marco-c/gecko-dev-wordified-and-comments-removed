@@ -319,7 +319,13 @@ return
 l
 ;
 }
-void
+JSC
+:
+:
+MacroAssembler
+:
+:
+Label
 StubCompiler
 :
 :
@@ -344,6 +350,9 @@ linkExitDirect
 j
 l
 )
+;
+return
+l
 ;
 }
 void
