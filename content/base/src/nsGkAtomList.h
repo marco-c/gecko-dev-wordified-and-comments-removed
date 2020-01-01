@@ -11001,6 +11001,13 @@ MaxElementWidthProperty
 )
 GK_ATOM
 (
+outlineInnerRectProperty
+"
+OutlineInnerRectProperty
+"
+)
+GK_ATOM
+(
 outOfFlowDirtyRectProperty
 "
 OutOfFlowDirtyRectProperty
@@ -11053,6 +11060,13 @@ GK_ATOM
 overflowPlaceholdersProperty
 "
 OverflowPlaceholdersProperty
+"
+)
+GK_ATOM
+(
+preEffectsBBoxProperty
+"
+PreEffectsBBoxProperty
 "
 )
 GK_ATOM

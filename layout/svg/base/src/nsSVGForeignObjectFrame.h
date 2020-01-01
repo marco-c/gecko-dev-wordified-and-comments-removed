@@ -339,6 +339,12 @@ PRBool
 aPropagate
 )
 ;
+virtual
+PRBool
+GetMatrixPropagation
+(
+)
+;
 NS_IMETHOD
 SetOverrideCTM
 (

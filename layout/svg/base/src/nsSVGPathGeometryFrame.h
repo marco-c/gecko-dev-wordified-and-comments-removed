@@ -111,10 +111,6 @@ nsSVGPathGeometryFrameBase
 (
 aContext
 )
-mPropagateTransform
-(
-PR_TRUE
-)
 {
 }
 public
@@ -296,6 +292,12 @@ PRBool
 aPropagate
 )
 ;
+virtual
+PRBool
+GetMatrixPropagation
+(
+)
+;
 NS_IMETHOD
 SetOverrideCTM
 (
@@ -446,9 +448,6 @@ nsCOMPtr
 nsIDOMSVGMatrix
 >
 mOverrideCTM
-;
-PRPackedBool
-mPropagateTransform
 ;
 }
 ;

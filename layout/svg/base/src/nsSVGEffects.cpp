@@ -347,15 +347,10 @@ mFilterRect
 filter
 -
 >
-GetInvalidationRegion
+GetFilterBBox
 (
 mFrame
-mFrame
--
->
-GetRect
-(
-)
+nsnull
 )
 ;
 }

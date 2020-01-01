@@ -54,10 +54,6 @@ mMetricsState
 (
 unsuspended
 )
-mPropagateTransform
-(
-PR_TRUE
-)
 mPositioningDirty
 (
 PR_TRUE
@@ -113,13 +109,6 @@ aResult
 }
 #
 endif
-NS_IMETHOD
-SetMatrixPropagation
-(
-PRBool
-aPropagate
-)
-;
 NS_IMETHOD
 SetOverrideCTM
 (
@@ -324,9 +313,6 @@ suspended
 ;
 UpdateState
 mMetricsState
-;
-PRPackedBool
-mPropagateTransform
 ;
 PRPackedBool
 mPositioningDirty

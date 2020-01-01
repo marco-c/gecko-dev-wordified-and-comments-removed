@@ -114,13 +114,6 @@ aFlags
 )
 ;
 NS_IMETHOD
-SetMatrixPropagation
-(
-PRBool
-aPropagate
-)
-;
-NS_IMETHOD
 SetOverrideCTM
 (
 nsIDOMSVGMatrix

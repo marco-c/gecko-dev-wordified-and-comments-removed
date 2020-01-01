@@ -349,11 +349,13 @@ SetMatrixPropagation
 PRBool
 aPropagate
 )
-{
-return
-NS_OK
 ;
-}
+virtual
+PRBool
+GetMatrixPropagation
+(
+)
+;
 NS_IMETHOD
 SetOverrideCTM
 (

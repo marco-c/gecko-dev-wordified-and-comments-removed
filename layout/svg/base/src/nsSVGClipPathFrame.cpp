@@ -136,7 +136,7 @@ ClipPaint
 nsSVGRenderState
 *
 aContext
-nsISVGChildFrame
+nsIFrame
 *
 aParent
 nsIDOMSVGMatrix
@@ -309,7 +309,7 @@ nsSVGClipPathFrame
 :
 ClipHitTest
 (
-nsISVGChildFrame
+nsIFrame
 *
 aParent
 nsIDOMSVGMatrix

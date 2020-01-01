@@ -2204,7 +2204,7 @@ value
 static
 nsIFrame
 *
-GetIBSplitSpecialPrevSibling
+GetIBSplitSpecialPrevSiblingForAnonymousBlock
 (
 nsIFrame
 *
@@ -33423,7 +33423,7 @@ nsIFrame
 *
 firstInline
 =
-GetIBSplitSpecialPrevSibling
+GetIBSplitSpecialPrevSiblingForAnonymousBlock
 (
 parentFrame
 )
@@ -51478,6 +51478,18 @@ blockFrame
 aNewFrame
 )
 ;
+if
+(
+inlineFrame
+)
+{
+MarkIBSpecialPrevSibling
+(
+inlineFrame
+blockFrame
+)
+;
+}
 #
 ifdef
 DEBUG
@@ -52549,7 +52561,7 @@ floatContainer
 =
 GetFloatContainingBlock
 (
-GetIBSplitSpecialPrevSibling
+GetIBSplitSpecialPrevSiblingForAnonymousBlock
 (
 floatContainer
 )

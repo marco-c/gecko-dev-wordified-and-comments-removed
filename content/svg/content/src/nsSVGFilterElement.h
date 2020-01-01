@@ -80,6 +80,10 @@ friend
 class
 nsSVGFilterFrame
 ;
+friend
+class
+nsAutoFilterInstance
+;
 protected
 :
 friend

@@ -157,13 +157,6 @@ aResult
 #
 endif
 NS_IMETHOD
-SetMatrixPropagation
-(
-PRBool
-aPropagate
-)
-;
-NS_IMETHOD
 SetOverrideCTM
 (
 nsIDOMSVGMatrix

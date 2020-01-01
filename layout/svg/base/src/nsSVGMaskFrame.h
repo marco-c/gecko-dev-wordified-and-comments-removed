@@ -81,7 +81,7 @@ ComputeMaskAlpha
 nsSVGRenderState
 *
 aContext
-nsISVGChildFrame
+nsIFrame
 *
 aParent
 nsIDOMSVGMatrix
@@ -194,7 +194,7 @@ mFrame
 ;
 }
 ;
-nsISVGChildFrame
+nsIFrame
 *
 mMaskParent
 ;
