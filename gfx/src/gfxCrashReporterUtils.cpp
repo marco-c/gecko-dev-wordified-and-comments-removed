@@ -202,8 +202,7 @@ aFeature
 )
 {
 }
-virtual
-nsresult
+NS_IMETHOD
 Run
 (
 )
