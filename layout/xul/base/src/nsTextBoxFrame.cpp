@@ -1479,9 +1479,6 @@ aBuilder
 return
 NS_OK
 ;
-nsresult
-rv
-=
 nsLeafBoxFrame
 :
 :
@@ -1492,13 +1489,6 @@ aDirtyRect
 aLists
 )
 ;
-NS_ENSURE_SUCCESS
-(
-rv
-rv
-)
-;
-return
 aLists
 .
 Content
@@ -1518,6 +1508,9 @@ aBuilder
 this
 )
 )
+;
+return
+NS_OK
 ;
 }
 void

@@ -353,7 +353,6 @@ if
 kid
 )
 {
-return
 BuildDisplayListForChild
 (
 aBuilder

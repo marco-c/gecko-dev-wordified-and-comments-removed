@@ -4437,7 +4437,6 @@ GetBounds
 +
 offset
 ;
-return
 aLists
 .
 Content
@@ -4460,6 +4459,9 @@ shadowTree
 bounds
 )
 )
+;
+return
+NS_OK
 ;
 }
 void

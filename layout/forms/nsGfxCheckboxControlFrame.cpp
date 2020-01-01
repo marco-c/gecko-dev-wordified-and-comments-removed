@@ -469,9 +469,6 @@ nsDisplayListSet
 aLists
 )
 {
-nsresult
-rv
-=
 nsFormControlFrame
 :
 :
@@ -480,12 +477,6 @@ BuildDisplayList
 aBuilder
 aDirtyRect
 aLists
-)
-;
-NS_ENSURE_SUCCESS
-(
-rv
-rv
 )
 ;
 if
@@ -522,7 +513,6 @@ IsThemed
 return
 NS_OK
 ;
-return
 aLists
 .
 Content
@@ -556,6 +546,9 @@ nsDisplayItem
 TYPE_CHECKED_CHECKBOX
 )
 )
+;
+return
+NS_OK
 ;
 }
 bool

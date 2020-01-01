@@ -1503,9 +1503,6 @@ nsDisplayListSet
 aLists
 )
 {
-nsresult
-rv
-=
 nsBoxFrame
 :
 :
@@ -1516,12 +1513,6 @@ aDirtyRect
 aLists
 )
 ;
-NS_ENSURE_SUCCESS
-(
-rv
-rv
-)
-;
 if
 (
 mInner
@@ -1530,7 +1521,6 @@ mInner
 mDragging
 )
 {
-return
 aLists
 .
 Outlines
@@ -1550,6 +1540,9 @@ aBuilder
 this
 )
 )
+;
+return
+NS_OK
 ;
 }
 return

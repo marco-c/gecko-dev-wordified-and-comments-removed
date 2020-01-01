@@ -1253,7 +1253,6 @@ isDraggingThumb
 )
 )
 {
-return
 aLists
 .
 Outlines
@@ -1274,8 +1273,10 @@ this
 )
 )
 ;
-}
 return
+NS_OK
+;
+}
 nsBoxFrame
 :
 :
@@ -1285,6 +1286,9 @@ aBuilder
 aDirtyRect
 aLists
 )
+;
+return
+NS_OK
 ;
 }
 NS_IMETHODIMP

@@ -1380,19 +1380,10 @@ PassPointerEventsToChildren
 return
 NS_OK
 ;
-nsresult
-rv
-=
 DisplayBorderBackgroundOutline
 (
 aBuilder
 aLists
-)
-;
-NS_ENSURE_SUCCESS
-(
-rv
-rv
 )
 ;
 if
@@ -1828,8 +1819,6 @@ if
 subdocRootFrame
 )
 {
-rv
-=
 subdocRootFrame
 -
 >
@@ -1890,8 +1879,6 @@ presContext
 )
 )
 {
-rv
-=
 presShell
 -
 >
@@ -1919,8 +1906,6 @@ nsIPresShell
 :
 FORCE_DRAW
 ;
-rv
-=
 presShell
 -
 >
@@ -2174,7 +2159,7 @@ DeleteAll
 )
 ;
 return
-rv
+NS_OK
 ;
 }
 nscoord

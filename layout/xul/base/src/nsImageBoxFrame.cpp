@@ -1226,9 +1226,6 @@ nsDisplayListSet
 aLists
 )
 {
-nsresult
-rv
-=
 nsLeafBoxFrame
 :
 :
@@ -1237,12 +1234,6 @@ BuildDisplayList
 aBuilder
 aDirtyRect
 aLists
-)
-;
-NS_ENSURE_SUCCESS
-(
-rv
-rv
 )
 ;
 if
@@ -1285,8 +1276,6 @@ NS_OK
 nsDisplayList
 list
 ;
-rv
-=
 list
 .
 AppendNewToTop
@@ -1300,12 +1289,6 @@ nsDisplayXULImage
 aBuilder
 this
 )
-)
-;
-NS_ENSURE_SUCCESS
-(
-rv
-rv
 )
 ;
 CreateOwnLayerIfNeeded
