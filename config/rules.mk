@@ -3738,7 +3738,7 @@ EXTRA_DSO_LDOPTS
 dynamiclib
 -
 install_name
-loader_path
+executable_path
 /
 (
 SHARED_LIBRARY
