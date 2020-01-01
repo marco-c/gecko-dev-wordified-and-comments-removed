@@ -1490,7 +1490,7 @@ get
 "
 syncInterval
 "
-SINGLE_USER_SYNC
+MULTI_MOBILE_SYNC
 )
 set
 syncInterval
