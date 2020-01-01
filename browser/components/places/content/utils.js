@@ -2522,6 +2522,7 @@ PU_showItemProperties
 (
 aItemId
 aType
+aReadOnly
 )
 {
 var
@@ -2539,6 +2540,9 @@ aType
 itemId
 :
 aItemId
+readOnly
+:
+aReadOnly
 }
 ;
 return
