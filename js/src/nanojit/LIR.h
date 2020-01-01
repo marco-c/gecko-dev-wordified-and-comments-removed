@@ -1666,9 +1666,6 @@ o
 ;
 }
 bool
-LIns
-:
-:
 isQuad
 (
 )
@@ -2033,9 +2030,6 @@ LIR_float
 ;
 }
 bool
-LIns
-:
-:
 isconstp
 (
 )
