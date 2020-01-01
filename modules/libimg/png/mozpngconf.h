@@ -1702,8 +1702,10 @@ MOZ_PNG_warning
 s1
 s2
 )
-"
-"
+(
+void
+)
+0
 #
 define
 MOZ_PNG_chunk_warn
@@ -1711,8 +1713,10 @@ MOZ_PNG_chunk_warn
 s1
 s2
 )
-"
-"
+(
+void
+)
+0
 #
 if
 PNG_LIBPNG_VER
