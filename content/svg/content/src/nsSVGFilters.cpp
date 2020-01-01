@@ -633,6 +633,9 @@ aUnitX
 nsSVGNumber2
 *
 aUnitY
+nsSVGElement
+*
+aElement
 )
 {
 ScaleInfo
@@ -708,6 +711,7 @@ aUnitX
 >
 GetAnimValue
 (
+aElement
 )
 nsIDOMSVGLength
 :
@@ -740,6 +744,7 @@ aUnitY
 >
 GetAnimValue
 (
+aElement
 )
 nsIDOMSVGLength
 :
@@ -20032,6 +20037,7 @@ DIVISOR
 .
 GetAnimValue
 (
+this
 )
 ;
 if
@@ -20111,6 +20117,7 @@ mNumberAttributes
 [
 KERNEL_UNIT_LENGTH_Y
 ]
+this
 )
 ;
 if
@@ -20173,6 +20180,7 @@ BIAS
 .
 GetAnimValue
 (
+this
 )
 ;
 }
@@ -22890,6 +22898,7 @@ mNumberAttributes
 [
 KERNEL_UNIT_LENGTH_Y
 ]
+this
 )
 ;
 if
@@ -23295,6 +23304,7 @@ SURFACE_SCALE
 .
 GetAnimValue
 (
+this
 )
 ;
 const
@@ -24017,6 +24027,7 @@ DIFFUSE_CONSTANT
 .
 GetAnimValue
 (
+this
 )
 *
 DOT
@@ -24480,6 +24491,7 @@ SPECULAR_EXPONENT
 .
 GetAnimValue
 (
+this
 )
 ;
 if
@@ -24583,6 +24595,7 @@ SPECULAR_CONSTANT
 .
 GetAnimValue
 (
+this
 )
 ;
 float
@@ -24621,6 +24634,7 @@ SPECULAR_EXPONENT
 .
 GetAnimValue
 (
+this
 )
 )
 ;
@@ -26792,6 +26806,7 @@ SCALE
 .
 GetAnimValue
 (
+this
 )
 ;
 if

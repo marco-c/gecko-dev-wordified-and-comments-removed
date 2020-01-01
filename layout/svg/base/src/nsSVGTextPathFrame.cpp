@@ -726,6 +726,7 @@ mPathLength
 .
 GetAnimValue
 (
+path
 )
 ;
 if

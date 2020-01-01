@@ -108,6 +108,9 @@ mBaseVal
 float
 GetAnimValue
 (
+nsSVGElement
+*
+aSVGElement
 )
 const
 {
@@ -244,6 +247,7 @@ mVal
 >
 GetAnimValue
 (
+mSVGElement
 )
 ;
 return
