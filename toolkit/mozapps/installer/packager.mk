@@ -8082,6 +8082,8 @@ pyc
 |
 xargs
 rm
+-
+f
 (
 cd
 (
@@ -8466,6 +8468,8 @@ pyc
 |
 xargs
 rm
+-
+f
 (
 cd
 (
