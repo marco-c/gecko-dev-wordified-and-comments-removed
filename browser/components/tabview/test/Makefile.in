@@ -635,6 +635,10 @@ browser_tabview_undo_group
 .
 js
 \
+browser_tabview_bug610242
+.
+js
+\
 dummy_page
 .
 html
