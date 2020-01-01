@@ -527,10 +527,6 @@ nsOS2Uni
 .
 cpp
 \
-nsPaletteOS2
-.
-cpp
-\
 nsPrintOS2
 .
 cpp
