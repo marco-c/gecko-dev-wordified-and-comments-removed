@@ -299,7 +299,7 @@ TEXTURE_CONTENT
 ;
 }
 virtual
-void
+bool
 EnsureAllocated
 (
 gfx

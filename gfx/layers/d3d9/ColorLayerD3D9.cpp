@@ -219,7 +219,7 @@ device
 >
 SetPixelShaderConstantF
 (
-0
+CBvColor
 color
 1
 )

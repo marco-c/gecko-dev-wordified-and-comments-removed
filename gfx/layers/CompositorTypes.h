@@ -11,6 +11,13 @@ LayersTypes
 .
 h
 "
+#
+include
+"
+nsXULAppAPI
+.
+h
+"
 namespace
 mozilla
 {
@@ -241,6 +248,7 @@ TEXTURE_YCBCR
 TEXTURE_SHARED_GL
 TEXTURE_SHARED_GL_EXTERNAL
 TEXTURE_STREAM_GL
+TEXTURE_FALLBACK
 }
 ;
 enum
@@ -284,6 +292,9 @@ TextureFactoryIdentifier
 LayersBackend
 mParentBackend
 ;
+GeckoProcessType
+mParentProcessId
+;
 int32_t
 mMaxTextureSize
 ;
@@ -299,6 +310,10 @@ LayersBackend
 aLayersBackend
 =
 LAYERS_NONE
+GeckoProcessType
+aParentProcessId
+=
+GeckoProcessType_Default
 int32_t
 aMaxTextureSize
 =
@@ -316,6 +331,10 @@ false
 mParentBackend
 (
 aLayersBackend
+)
+mParentProcessId
+(
+aParentProcessId
 )
 mMaxTextureSize
 (

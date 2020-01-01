@@ -189,7 +189,7 @@ TEXTURE_SHARED_GL
 ;
 }
 virtual
-void
+bool
 EnsureAllocated
 (
 gfx
@@ -352,7 +352,7 @@ TEXTURE_STREAM_GL
 ;
 }
 virtual
-void
+bool
 EnsureAllocated
 (
 gfx
@@ -367,6 +367,9 @@ gfxContentType
 aType
 )
 {
+return
+true
+;
 }
 virtual
 void

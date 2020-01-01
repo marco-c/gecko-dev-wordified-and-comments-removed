@@ -2076,6 +2076,14 @@ result
 bool
 canHaveRotation
 =
+gfxPlatform
+:
+:
+BufferRotationEnabled
+(
+)
+&
+&
 !
 (
 aFlags

@@ -625,6 +625,10 @@ AllocateForYCbCr
 (
 ySize
 cbCrSize
+data
+-
+>
+mStereoMode
 )
 )
 {

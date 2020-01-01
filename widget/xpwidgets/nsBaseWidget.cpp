@@ -3499,6 +3499,9 @@ GetPreferredCompositorBackend
 (
 )
 ;
+bool
+success
+;
 shadowManager
 =
 mCompositorChild
@@ -3510,11 +3513,13 @@ backendHint
 0
 &
 textureFactoryIdentifier
+&
+success
 )
 ;
 if
 (
-shadowManager
+success
 )
 {
 ShadowLayerForwarder
@@ -3575,8 +3580,9 @@ lm
 return
 ;
 }
-NS_WARNING
+NS_ASSERTION
 (
+false
 "
 Failed
 to
