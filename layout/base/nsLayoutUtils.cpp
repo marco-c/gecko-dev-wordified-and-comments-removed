@@ -12766,7 +12766,7 @@ y
 ;
 contentBottom
 =
-PR_MAX
+NS_MAX
 (
 contentBottom
 nsLayoutUtils
@@ -12785,7 +12785,7 @@ else
 {
 contentBottom
 =
-PR_MAX
+NS_MAX
 (
 contentBottom
 line
@@ -12885,7 +12885,7 @@ blockFrame
 {
 contentBottom
 =
-PR_MAX
+NS_MAX
 (
 contentBottom
 CalculateBlockContentBottom
@@ -12974,7 +12974,7 @@ y
 ;
 contentBottom
 =
-PR_MAX
+NS_MAX
 (
 contentBottom
 CalculateContentBottom
