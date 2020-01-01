@@ -78,10 +78,6 @@ mk
 MODULE
 =
 hyphenation
-DIRS
-=
-public
-src
 include
 (
 topsrcdir

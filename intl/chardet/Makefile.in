@@ -1,5 +1,4 @@
 #
-#
 This
 Source
 Code
@@ -76,10 +75,6 @@ config
 autoconf
 .
 mk
-DIRS
-=
-public
-src
 include
 (
 topsrcdir
