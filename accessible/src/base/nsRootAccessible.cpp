@@ -2778,12 +2778,16 @@ accessible
 PRBool
 isEnabled
 =
+!
+!
+(
 state
 &
 nsIAccessibleStates
 :
 :
 STATE_CHECKED
+)
 ;
 nsCOMPtr
 <
