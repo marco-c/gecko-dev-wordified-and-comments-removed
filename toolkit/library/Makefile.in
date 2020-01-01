@@ -1066,6 +1066,7 @@ COMPONENT_LIBS
 +
 =
 gtest
+xpcom_glue_gtest
 endif
 ifdef
 MOZ_ENABLE_PROFILER_SPS
