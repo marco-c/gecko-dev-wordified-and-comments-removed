@@ -93,6 +93,8 @@ NewScriptGlobalObject
 (
 PRBool
 aIsChrome
+PRBool
+aIsModalContentWindow
 nsIScriptGlobalObject
 *
 *

@@ -684,6 +684,8 @@ NewScriptGlobalObject
 (
 PRBool
 aIsChrome
+PRBool
+aIsModalContentWindow
 nsIScriptGlobalObject
 *
 *
@@ -694,6 +696,7 @@ return
 NS_NewScriptGlobalObject
 (
 aIsChrome
+aIsModalContentWindow
 aGlobal
 )
 ;
