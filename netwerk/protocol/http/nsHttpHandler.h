@@ -522,6 +522,15 @@ mParallelSpeculativeConnectLimit
 ;
 }
 bool
+CritialRequestPrioritization
+(
+)
+{
+return
+mCritialRequestPrioritization
+;
+}
+bool
 PromptTempRedirect
 (
 )
@@ -1306,6 +1315,9 @@ mConnectTimeout
 ;
 uint32_t
 mParallelSpeculativeConnectLimit
+;
+bool
+mCritialRequestPrioritization
 ;
 }
 ;
