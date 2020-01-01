@@ -1446,13 +1446,7 @@ return
 NS_OK
 ;
 }
-mozilla
-:
-:
-DebugOnly
-<
 nsresult
->
 rv
 ;
 if
