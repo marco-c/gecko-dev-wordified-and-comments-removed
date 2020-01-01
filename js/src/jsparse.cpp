@@ -590,6 +590,14 @@ pn_head
 {
 JS_ASSERT
 (
+pn_count
+=
+=
+0
+)
+;
+JS_ASSERT
+(
 pn_tail
 =
 =
