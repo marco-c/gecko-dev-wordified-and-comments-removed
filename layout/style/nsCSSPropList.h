@@ -1168,7 +1168,7 @@ radius
 topleft
 _moz_border_radius_topLeft
 MozBorderRadiusTopleft
-0
+CSS_PROPERTY_APPLIES_TO_FIRST_LETTER_AND_FIRST_LINE
 Margin
 mBorderRadius
 .
@@ -1188,7 +1188,7 @@ radius
 topright
 _moz_border_radius_topRight
 MozBorderRadiusTopright
-0
+CSS_PROPERTY_APPLIES_TO_FIRST_LETTER_AND_FIRST_LINE
 Margin
 mBorderRadius
 .
@@ -1208,7 +1208,7 @@ radius
 bottomright
 _moz_border_radius_bottomRight
 MozBorderRadiusBottomright
-0
+CSS_PROPERTY_APPLIES_TO_FIRST_LETTER_AND_FIRST_LINE
 Margin
 mBorderRadius
 .
@@ -1228,7 +1228,7 @@ radius
 bottomleft
 _moz_border_radius_bottomLeft
 MozBorderRadiusBottomleft
-0
+CSS_PROPERTY_APPLIES_TO_FIRST_LETTER_AND_FIRST_LINE
 Margin
 mBorderRadius
 .
@@ -1260,7 +1260,7 @@ radius
 topleft
 _moz_outline_radius_topLeft
 MozOutlineRadiusTopleft
-0
+CSS_PROPERTY_APPLIES_TO_FIRST_LETTER_AND_FIRST_LINE
 Margin
 mOutlineRadius
 .
@@ -1280,7 +1280,7 @@ radius
 topright
 _moz_outline_radius_topRight
 MozOutlineRadiusTopright
-0
+CSS_PROPERTY_APPLIES_TO_FIRST_LETTER_AND_FIRST_LINE
 Margin
 mOutlineRadius
 .
@@ -1300,7 +1300,7 @@ radius
 bottomright
 _moz_outline_radius_bottomRight
 MozOutlineRadiusBottomright
-0
+CSS_PROPERTY_APPLIES_TO_FIRST_LETTER_AND_FIRST_LINE
 Margin
 mOutlineRadius
 .
@@ -1320,7 +1320,7 @@ radius
 bottomleft
 _moz_outline_radius_bottomLeft
 MozOutlineRadiusBottomleft
-0
+CSS_PROPERTY_APPLIES_TO_FIRST_LETTER_AND_FIRST_LINE
 Margin
 mOutlineRadius
 .
@@ -1341,7 +1341,7 @@ system
 font
 _x_system_font
 X
-0
+CSS_PROPERTY_APPLIES_TO_FIRST_LETTER_AND_FIRST_LINE
 Font
 mSystemFont
 eCSSType_Value
@@ -1354,7 +1354,7 @@ CSS_PROP_BACKENDONLY
 azimuth
 azimuth
 Azimuth
-0
+CSS_PROPERTY_APPLIES_TO_FIRST_LETTER_AND_FIRST_LINE
 Aural
 mAzimuth
 eCSSType_Value
@@ -1374,7 +1374,7 @@ background
 attachment
 background_attachment
 BackgroundAttachment
-0
+CSS_PROPERTY_APPLIES_TO_FIRST_LETTER_AND_FIRST_LINE
 Color
 mBackAttachment
 eCSSType_Value
@@ -1390,7 +1390,7 @@ background
 clip
 _moz_background_clip
 MozBackgroundClip
-0
+CSS_PROPERTY_APPLIES_TO_FIRST_LETTER_AND_FIRST_LINE
 Color
 mBackClip
 eCSSType_Value
@@ -1403,7 +1403,7 @@ background
 color
 background_color
 BackgroundColor
-0
+CSS_PROPERTY_APPLIES_TO_FIRST_LETTER_AND_FIRST_LINE
 Color
 mBackColor
 eCSSType_Value
@@ -1416,7 +1416,7 @@ background
 image
 background_image
 BackgroundImage
-0
+CSS_PROPERTY_APPLIES_TO_FIRST_LETTER_AND_FIRST_LINE
 Color
 mBackImage
 eCSSType_Value
@@ -1434,7 +1434,7 @@ inline
 policy
 _moz_background_inline_policy
 MozBackgroundInlinePolicy
-0
+CSS_PROPERTY_APPLIES_TO_FIRST_LETTER_AND_FIRST_LINE
 Color
 mBackInlinePolicy
 eCSSType_Value
@@ -1450,7 +1450,7 @@ background
 origin
 _moz_background_origin
 MozBackgroundOrigin
-0
+CSS_PROPERTY_APPLIES_TO_FIRST_LETTER_AND_FIRST_LINE
 Color
 mBackOrigin
 eCSSType_Value
@@ -1463,7 +1463,7 @@ background
 position
 background_position
 BackgroundPosition
-0
+CSS_PROPERTY_APPLIES_TO_FIRST_LETTER_AND_FIRST_LINE
 Color
 mBackPosition
 eCSSType_ValuePair
@@ -1476,7 +1476,7 @@ background
 repeat
 background_repeat
 BackgroundRepeat
-0
+CSS_PROPERTY_APPLIES_TO_FIRST_LETTER_AND_FIRST_LINE
 Color
 mBackRepeat
 eCSSType_Value
@@ -1521,7 +1521,7 @@ bottom
 color
 border_bottom_color
 BorderBottomColor
-0
+CSS_PROPERTY_APPLIES_TO_FIRST_LETTER_AND_FIRST_LINE
 Margin
 mBorderColor
 .
@@ -1541,7 +1541,7 @@ bottom
 colors
 border_bottom_colors
 MozBorderBottomColors
-0
+CSS_PROPERTY_APPLIES_TO_FIRST_LETTER_AND_FIRST_LINE
 Margin
 mBorderColors
 .
@@ -1558,7 +1558,7 @@ bottom
 style
 border_bottom_style
 BorderBottomStyle
-0
+CSS_PROPERTY_APPLIES_TO_FIRST_LETTER
 Margin
 mBorderStyle
 .
@@ -1575,7 +1575,7 @@ bottom
 width
 border_bottom_width
 BorderBottomWidth
-0
+CSS_PROPERTY_APPLIES_TO_FIRST_LETTER_AND_FIRST_LINE
 Margin
 mBorderWidth
 .
@@ -1590,7 +1590,7 @@ border
 collapse
 border_collapse
 BorderCollapse
-0
+CSS_PROPERTY_APPLIES_TO_FIRST_LETTER_AND_FIRST_LINE
 Table
 mBorderCollapse
 eCSSType_Value
@@ -1645,7 +1645,7 @@ color
 value
 border_end_color_value
 X
-0
+CSS_PROPERTY_APPLIES_TO_FIRST_LETTER_AND_FIRST_LINE
 Margin
 mBorderEndColor
 eCSSType_Value
@@ -1681,7 +1681,7 @@ style
 value
 border_end_style_value
 X
-0
+CSS_PROPERTY_APPLIES_TO_FIRST_LETTER_AND_FIRST_LINE
 Margin
 mBorderEndStyle
 eCSSType_Value
@@ -1717,7 +1717,7 @@ width
 value
 border_end_width_value
 X
-0
+CSS_PROPERTY_APPLIES_TO_FIRST_LETTER_AND_FIRST_LINE
 Margin
 mBorderEndWidth
 eCSSType_Value
@@ -1735,7 +1735,7 @@ border
 image
 border_image
 MozBorderImage
-0
+CSS_PROPERTY_APPLIES_TO_FIRST_LETTER_AND_FIRST_LINE
 Margin
 mBorderImage
 eCSSType_Value
@@ -1775,7 +1775,7 @@ color
 value
 border_left_color_value
 X
-0
+CSS_PROPERTY_APPLIES_TO_FIRST_LETTER_AND_FIRST_LINE
 Margin
 mBorderColor
 .
@@ -1796,6 +1796,8 @@ ltr
 source
 border_left_color_ltr_source
 X
+CSS_PROPERTY_APPLIES_TO_FIRST_LETTER_AND_FIRST_LINE
+|
 CSS_PROPERTY_DIRECTIONAL_SOURCE
 Margin
 mBorderLeftColorLTRSource
@@ -1815,6 +1817,8 @@ rtl
 source
 border_left_color_rtl_source
 X
+CSS_PROPERTY_APPLIES_TO_FIRST_LETTER_AND_FIRST_LINE
+|
 CSS_PROPERTY_DIRECTIONAL_SOURCE
 Margin
 mBorderLeftColorRTLSource
@@ -1835,7 +1839,7 @@ left
 colors
 border_left_colors
 MozBorderLeftColors
-0
+CSS_PROPERTY_APPLIES_TO_FIRST_LETTER_AND_FIRST_LINE
 Margin
 mBorderColors
 .
@@ -1868,7 +1872,7 @@ style
 value
 border_left_style_value
 X
-0
+CSS_PROPERTY_APPLIES_TO_FIRST_LETTER
 Margin
 mBorderStyle
 .
@@ -1889,6 +1893,8 @@ ltr
 source
 border_left_style_ltr_source
 X
+CSS_PROPERTY_APPLIES_TO_FIRST_LETTER_AND_FIRST_LINE
+|
 CSS_PROPERTY_DIRECTIONAL_SOURCE
 Margin
 mBorderLeftStyleLTRSource
@@ -1908,6 +1914,8 @@ rtl
 source
 border_left_style_rtl_source
 X
+CSS_PROPERTY_APPLIES_TO_FIRST_LETTER_AND_FIRST_LINE
+|
 CSS_PROPERTY_DIRECTIONAL_SOURCE
 Margin
 mBorderLeftStyleRTLSource
@@ -1941,7 +1949,7 @@ width
 value
 border_left_width_value
 X
-0
+CSS_PROPERTY_APPLIES_TO_FIRST_LETTER_AND_FIRST_LINE
 Margin
 mBorderWidth
 .
@@ -1962,6 +1970,8 @@ ltr
 source
 border_left_width_ltr_source
 X
+CSS_PROPERTY_APPLIES_TO_FIRST_LETTER_AND_FIRST_LINE
+|
 CSS_PROPERTY_DIRECTIONAL_SOURCE
 Margin
 mBorderLeftWidthLTRSource
@@ -1981,6 +1991,8 @@ rtl
 source
 border_left_width_rtl_source
 X
+CSS_PROPERTY_APPLIES_TO_FIRST_LETTER_AND_FIRST_LINE
+|
 CSS_PROPERTY_DIRECTIONAL_SOURCE
 Margin
 mBorderLeftWidthRTLSource
@@ -2023,7 +2035,7 @@ color
 value
 border_right_color_value
 X
-0
+CSS_PROPERTY_APPLIES_TO_FIRST_LETTER_AND_FIRST_LINE
 Margin
 mBorderColor
 .
@@ -2044,6 +2056,8 @@ ltr
 source
 border_right_color_ltr_source
 X
+CSS_PROPERTY_APPLIES_TO_FIRST_LETTER_AND_FIRST_LINE
+|
 CSS_PROPERTY_DIRECTIONAL_SOURCE
 Margin
 mBorderRightColorLTRSource
@@ -2063,6 +2077,8 @@ rtl
 source
 border_right_color_rtl_source
 X
+CSS_PROPERTY_APPLIES_TO_FIRST_LETTER_AND_FIRST_LINE
+|
 CSS_PROPERTY_DIRECTIONAL_SOURCE
 Margin
 mBorderRightColorRTLSource
@@ -2083,7 +2099,7 @@ right
 colors
 border_right_colors
 MozBorderRightColors
-0
+CSS_PROPERTY_APPLIES_TO_FIRST_LETTER_AND_FIRST_LINE
 Margin
 mBorderColors
 .
@@ -2116,7 +2132,7 @@ style
 value
 border_right_style_value
 X
-0
+CSS_PROPERTY_APPLIES_TO_FIRST_LETTER
 Margin
 mBorderStyle
 .
@@ -2137,6 +2153,8 @@ ltr
 source
 border_right_style_ltr_source
 X
+CSS_PROPERTY_APPLIES_TO_FIRST_LETTER_AND_FIRST_LINE
+|
 CSS_PROPERTY_DIRECTIONAL_SOURCE
 Margin
 mBorderRightStyleLTRSource
@@ -2156,6 +2174,8 @@ rtl
 source
 border_right_style_rtl_source
 X
+CSS_PROPERTY_APPLIES_TO_FIRST_LETTER_AND_FIRST_LINE
+|
 CSS_PROPERTY_DIRECTIONAL_SOURCE
 Margin
 mBorderRightStyleRTLSource
@@ -2189,7 +2209,7 @@ width
 value
 border_right_width_value
 X
-0
+CSS_PROPERTY_APPLIES_TO_FIRST_LETTER_AND_FIRST_LINE
 Margin
 mBorderWidth
 .
@@ -2210,6 +2230,8 @@ ltr
 source
 border_right_width_ltr_source
 X
+CSS_PROPERTY_APPLIES_TO_FIRST_LETTER_AND_FIRST_LINE
+|
 CSS_PROPERTY_DIRECTIONAL_SOURCE
 Margin
 mBorderRightWidthLTRSource
@@ -2229,6 +2251,8 @@ rtl
 source
 border_right_width_rtl_source
 X
+CSS_PROPERTY_APPLIES_TO_FIRST_LETTER_AND_FIRST_LINE
+|
 CSS_PROPERTY_DIRECTIONAL_SOURCE
 Margin
 mBorderRightWidthRTLSource
@@ -2244,7 +2268,7 @@ border
 spacing
 border_spacing
 BorderSpacing
-0
+CSS_PROPERTY_APPLIES_TO_FIRST_LETTER_AND_FIRST_LINE
 Table
 mBorderSpacing
 eCSSType_ValuePair
@@ -2290,7 +2314,7 @@ color
 value
 border_start_color_value
 X
-0
+CSS_PROPERTY_APPLIES_TO_FIRST_LETTER_AND_FIRST_LINE
 Margin
 mBorderStartColor
 eCSSType_Value
@@ -2326,7 +2350,7 @@ style
 value
 border_start_style_value
 X
-0
+CSS_PROPERTY_APPLIES_TO_FIRST_LETTER_AND_FIRST_LINE
 Margin
 mBorderStartStyle
 eCSSType_Value
@@ -2362,7 +2386,7 @@ width
 value
 border_start_width_value
 X
-0
+CSS_PROPERTY_APPLIES_TO_FIRST_LETTER_AND_FIRST_LINE
 Margin
 mBorderStartWidth
 eCSSType_Value
@@ -2397,7 +2421,7 @@ top
 color
 border_top_color
 BorderTopColor
-0
+CSS_PROPERTY_APPLIES_TO_FIRST_LETTER_AND_FIRST_LINE
 Margin
 mBorderColor
 .
@@ -2417,7 +2441,7 @@ top
 colors
 border_top_colors
 MozBorderTopColors
-0
+CSS_PROPERTY_APPLIES_TO_FIRST_LETTER_AND_FIRST_LINE
 Margin
 mBorderColors
 .
@@ -2434,7 +2458,7 @@ top
 style
 border_top_style
 BorderTopStyle
-0
+CSS_PROPERTY_APPLIES_TO_FIRST_LETTER
 Margin
 mBorderStyle
 .
@@ -2451,7 +2475,7 @@ top
 width
 border_top_width
 BorderTopWidth
-0
+CSS_PROPERTY_APPLIES_TO_FIRST_LETTER_AND_FIRST_LINE
 Margin
 mBorderWidth
 .
@@ -2491,6 +2515,8 @@ box
 shadow
 box_shadow
 MozBoxShadow
+CSS_PROPERTY_APPLIES_TO_FIRST_LETTER_AND_FIRST_LINE
+|
 CSS_PROPERTY_VALUE_LIST_USES_COMMAS
 Margin
 mBoxShadow
@@ -2520,7 +2546,7 @@ caption
 side
 caption_side
 CaptionSide
-0
+CSS_PROPERTY_APPLIES_TO_FIRST_LETTER_AND_FIRST_LINE
 Table
 mCaptionSide
 eCSSType_Value
@@ -2553,7 +2579,7 @@ CSS_PROP_COLOR
 color
 color
 Color
-0
+CSS_PROPERTY_APPLIES_TO_FIRST_LETTER_AND_FIRST_LINE
 Color
 mColor
 eCSSType_Value
@@ -2569,7 +2595,7 @@ column
 count
 _moz_column_count
 MozColumnCount
-0
+CSS_PROPERTY_APPLIES_TO_FIRST_LETTER_AND_FIRST_LINE
 Column
 mColumnCount
 eCSSType_Value
@@ -2585,7 +2611,7 @@ column
 width
 _moz_column_width
 MozColumnWidth
-0
+CSS_PROPERTY_APPLIES_TO_FIRST_LETTER_AND_FIRST_LINE
 Column
 mColumnWidth
 eCSSType_Value
@@ -2601,7 +2627,7 @@ column
 gap
 _moz_column_gap
 MozColumnGap
-0
+CSS_PROPERTY_APPLIES_TO_FIRST_LETTER_AND_FIRST_LINE
 Column
 mColumnGap
 eCSSType_Value
@@ -2631,7 +2657,7 @@ rule
 color
 _moz_column_rule_color
 MozColumnRuleColor
-0
+CSS_PROPERTY_APPLIES_TO_FIRST_LETTER_AND_FIRST_LINE
 Column
 mColumnRuleColor
 eCSSType_Value
@@ -2649,7 +2675,7 @@ rule
 style
 _moz_column_rule_style
 MozColumnRuleStyle
-0
+CSS_PROPERTY_APPLIES_TO_FIRST_LETTER_AND_FIRST_LINE
 Column
 mColumnRuleStyle
 eCSSType_Value
@@ -2667,7 +2693,7 @@ rule
 width
 _moz_column_rule_width
 MozColumnRuleWidth
-0
+CSS_PROPERTY_APPLIES_TO_FIRST_LETTER_AND_FIRST_LINE
 Column
 mColumnRuleWidth
 eCSSType_Value
@@ -2678,7 +2704,7 @@ CSS_PROP_CONTENT
 content
 content
 Content
-0
+CSS_PROPERTY_APPLIES_TO_FIRST_LETTER_AND_FIRST_LINE
 Content
 mContent
 eCSSType_ValueList
@@ -2724,7 +2750,7 @@ cue
 after
 cue_after
 CueAfter
-0
+CSS_PROPERTY_APPLIES_TO_FIRST_LETTER_AND_FIRST_LINE
 Aural
 mCueAfter
 eCSSType_Value
@@ -2737,7 +2763,7 @@ cue
 before
 cue_before
 CueBefore
-0
+CSS_PROPERTY_APPLIES_TO_FIRST_LETTER_AND_FIRST_LINE
 Aural
 mCueBefore
 eCSSType_Value
@@ -2781,7 +2807,7 @@ CSS_PROP_BACKENDONLY
 elevation
 elevation
 Elevation
-0
+CSS_PROPERTY_APPLIES_TO_FIRST_LETTER_AND_FIRST_LINE
 Aural
 mElevation
 eCSSType_Value
@@ -2794,7 +2820,7 @@ empty
 cells
 empty_cells
 EmptyCells
-0
+CSS_PROPERTY_APPLIES_TO_FIRST_LETTER_AND_FIRST_LINE
 Table
 mEmptyCells
 eCSSType_Value
@@ -2805,7 +2831,7 @@ CSS_PROP_DISPLAY
 float
 float
 CssFloat
-0
+CSS_PROPERTY_APPLIES_TO_FIRST_LETTER
 Display
 mFloat
 eCSSType_Value
@@ -2821,7 +2847,7 @@ float
 edge
 float_edge
 MozFloatEdge
-0
+CSS_PROPERTY_APPLIES_TO_FIRST_LETTER_AND_FIRST_LINE
 Margin
 mFloatEdge
 eCSSType_Value
@@ -2841,7 +2867,7 @@ font
 family
 font_family
 FontFamily
-0
+CSS_PROPERTY_APPLIES_TO_FIRST_LETTER_AND_FIRST_LINE
 Font
 mFamily
 eCSSType_Value
@@ -2854,7 +2880,7 @@ font
 size
 font_size
 FontSize
-0
+CSS_PROPERTY_APPLIES_TO_FIRST_LETTER_AND_FIRST_LINE
 Font
 mSize
 eCSSType_Value
@@ -2869,7 +2895,7 @@ size
 adjust
 font_size_adjust
 FontSizeAdjust
-0
+CSS_PROPERTY_APPLIES_TO_FIRST_LETTER_AND_FIRST_LINE
 Font
 mSizeAdjust
 eCSSType_Value
@@ -2882,7 +2908,7 @@ font
 stretch
 font_stretch
 FontStretch
-0
+CSS_PROPERTY_APPLIES_TO_FIRST_LETTER_AND_FIRST_LINE
 Font
 mStretch
 eCSSType_Value
@@ -2895,7 +2921,7 @@ font
 style
 font_style
 FontStyle
-0
+CSS_PROPERTY_APPLIES_TO_FIRST_LETTER_AND_FIRST_LINE
 Font
 mStyle
 eCSSType_Value
@@ -2908,7 +2934,7 @@ font
 variant
 font_variant
 FontVariant
-0
+CSS_PROPERTY_APPLIES_TO_FIRST_LETTER_AND_FIRST_LINE
 Font
 mVariant
 eCSSType_Value
@@ -2921,7 +2947,7 @@ font
 weight
 font_weight
 FontWeight
-0
+CSS_PROPERTY_APPLIES_TO_FIRST_LETTER_AND_FIRST_LINE
 Font
 mWeight
 eCSSType_Value
@@ -2941,7 +2967,7 @@ image
 icon
 force_broken_image_icon
 MozForceBrokenImageIcon
-0
+CSS_PROPERTY_APPLIES_TO_FIRST_LETTER_AND_FIRST_LINE
 UserInterface
 mForceBrokenImageIcon
 eCSSType_Value
@@ -2968,7 +2994,7 @@ image
 region
 image_region
 MozImageRegion
-0
+CSS_PROPERTY_APPLIES_TO_FIRST_LETTER_AND_FIRST_LINE
 List
 mImageRegion
 eCSSType_Rect
@@ -2981,7 +3007,7 @@ ime
 mode
 ime_mode
 ImeMode
-0
+CSS_PROPERTY_APPLIES_TO_FIRST_LETTER_AND_FIRST_LINE
 UserInterface
 mIMEMode
 eCSSType_Value
@@ -3007,7 +3033,7 @@ letter
 spacing
 letter_spacing
 LetterSpacing
-0
+CSS_PROPERTY_APPLIES_TO_FIRST_LETTER_AND_FIRST_LINE
 Text
 mLetterSpacing
 eCSSType_Value
@@ -3020,7 +3046,7 @@ line
 height
 line_height
 LineHeight
-0
+CSS_PROPERTY_APPLIES_TO_FIRST_LETTER_AND_FIRST_LINE
 Text
 mLineHeight
 eCSSType_Value
@@ -3044,7 +3070,7 @@ style
 image
 list_style_image
 ListStyleImage
-0
+CSS_PROPERTY_APPLIES_TO_FIRST_LETTER_AND_FIRST_LINE
 List
 mImage
 eCSSType_Value
@@ -3059,7 +3085,7 @@ style
 position
 list_style_position
 ListStylePosition
-0
+CSS_PROPERTY_APPLIES_TO_FIRST_LETTER_AND_FIRST_LINE
 List
 mPosition
 eCSSType_Value
@@ -3074,7 +3100,7 @@ style
 type
 list_style_type
 ListStyleType
-0
+CSS_PROPERTY_APPLIES_TO_FIRST_LETTER_AND_FIRST_LINE
 List
 mType
 eCSSType_Value
@@ -3094,7 +3120,7 @@ margin
 bottom
 margin_bottom
 MarginBottom
-0
+CSS_PROPERTY_APPLIES_TO_FIRST_LETTER
 Margin
 mMargin
 .
@@ -3126,7 +3152,7 @@ end
 value
 margin_end_value
 X
-0
+CSS_PROPERTY_APPLIES_TO_FIRST_LETTER_AND_FIRST_LINE
 Margin
 mMarginEnd
 eCSSType_Value
@@ -3155,7 +3181,7 @@ left
 value
 margin_left_value
 X
-0
+CSS_PROPERTY_APPLIES_TO_FIRST_LETTER
 Margin
 mMargin
 .
@@ -3174,6 +3200,8 @@ ltr
 source
 margin_left_ltr_source
 X
+CSS_PROPERTY_APPLIES_TO_FIRST_LETTER_AND_FIRST_LINE
+|
 CSS_PROPERTY_DIRECTIONAL_SOURCE
 Margin
 mMarginLeftLTRSource
@@ -3191,6 +3219,8 @@ rtl
 source
 margin_left_rtl_source
 X
+CSS_PROPERTY_APPLIES_TO_FIRST_LETTER_AND_FIRST_LINE
+|
 CSS_PROPERTY_DIRECTIONAL_SOURCE
 Margin
 mMarginLeftRTLSource
@@ -3220,7 +3250,7 @@ right
 value
 margin_right_value
 X
-0
+CSS_PROPERTY_APPLIES_TO_FIRST_LETTER
 Margin
 mMargin
 .
@@ -3239,6 +3269,8 @@ ltr
 source
 margin_right_ltr_source
 X
+CSS_PROPERTY_APPLIES_TO_FIRST_LETTER_AND_FIRST_LINE
+|
 CSS_PROPERTY_DIRECTIONAL_SOURCE
 Margin
 mMarginRightLTRSource
@@ -3256,6 +3288,8 @@ rtl
 source
 margin_right_rtl_source
 X
+CSS_PROPERTY_APPLIES_TO_FIRST_LETTER_AND_FIRST_LINE
+|
 CSS_PROPERTY_DIRECTIONAL_SOURCE
 Margin
 mMarginRightRTLSource
@@ -3288,7 +3322,7 @@ start
 value
 margin_start_value
 X
-0
+CSS_PROPERTY_APPLIES_TO_FIRST_LETTER_AND_FIRST_LINE
 Margin
 mMarginStart
 eCSSType_Value
@@ -3303,7 +3337,7 @@ margin
 top
 margin_top
 MarginTop
-0
+CSS_PROPERTY_APPLIES_TO_FIRST_LETTER
 Margin
 mMargin
 .
@@ -3329,7 +3363,7 @@ CSS_PROP_BACKENDONLY
 marks
 marks
 Marks
-0
+CSS_PROPERTY_APPLIES_TO_FIRST_LETTER_AND_FIRST_LINE
 Page
 mMarks
 eCSSType_Value
@@ -3403,7 +3437,7 @@ CSS_PROP_BACKENDONLY
 orphans
 orphans
 Orphans
-0
+CSS_PROPERTY_APPLIES_TO_FIRST_LETTER_AND_FIRST_LINE
 Breaks
 mOrphans
 eCSSType_Value
@@ -3423,7 +3457,7 @@ outline
 color
 outline_color
 OutlineColor
-0
+CSS_PROPERTY_APPLIES_TO_FIRST_LETTER_AND_FIRST_LINE
 Margin
 mOutlineColor
 eCSSType_Value
@@ -3449,7 +3483,7 @@ outline
 width
 outline_width
 OutlineWidth
-0
+CSS_PROPERTY_APPLIES_TO_FIRST_LETTER_AND_FIRST_LINE
 Margin
 mOutlineWidth
 eCSSType_Value
@@ -3462,7 +3496,7 @@ outline
 offset
 outline_offset
 OutlineOffset
-0
+CSS_PROPERTY_APPLIES_TO_FIRST_LETTER_AND_FIRST_LINE
 Margin
 mOutlineOffset
 eCSSType_Value
@@ -3515,7 +3549,7 @@ padding
 bottom
 padding_bottom
 PaddingBottom
-0
+CSS_PROPERTY_APPLIES_TO_FIRST_LETTER
 Margin
 mPadding
 .
@@ -3547,7 +3581,7 @@ end
 value
 padding_end_value
 X
-0
+CSS_PROPERTY_APPLIES_TO_FIRST_LETTER_AND_FIRST_LINE
 Margin
 mPaddingEnd
 eCSSType_Value
@@ -3576,7 +3610,7 @@ left
 value
 padding_left_value
 X
-0
+CSS_PROPERTY_APPLIES_TO_FIRST_LETTER
 Margin
 mPadding
 .
@@ -3595,6 +3629,8 @@ ltr
 source
 padding_left_ltr_source
 X
+CSS_PROPERTY_APPLIES_TO_FIRST_LETTER_AND_FIRST_LINE
+|
 CSS_PROPERTY_DIRECTIONAL_SOURCE
 Margin
 mPaddingLeftLTRSource
@@ -3612,6 +3648,8 @@ rtl
 source
 padding_left_rtl_source
 X
+CSS_PROPERTY_APPLIES_TO_FIRST_LETTER_AND_FIRST_LINE
+|
 CSS_PROPERTY_DIRECTIONAL_SOURCE
 Margin
 mPaddingLeftRTLSource
@@ -3641,7 +3679,7 @@ right
 value
 padding_right_value
 X
-0
+CSS_PROPERTY_APPLIES_TO_FIRST_LETTER
 Margin
 mPadding
 .
@@ -3660,6 +3698,8 @@ ltr
 source
 padding_right_ltr_source
 X
+CSS_PROPERTY_APPLIES_TO_FIRST_LETTER_AND_FIRST_LINE
+|
 CSS_PROPERTY_DIRECTIONAL_SOURCE
 Margin
 mPaddingRightLTRSource
@@ -3677,6 +3717,8 @@ rtl
 source
 padding_right_rtl_source
 X
+CSS_PROPERTY_APPLIES_TO_FIRST_LETTER_AND_FIRST_LINE
+|
 CSS_PROPERTY_DIRECTIONAL_SOURCE
 Margin
 mPaddingRightRTLSource
@@ -3709,7 +3751,7 @@ start
 value
 padding_start_value
 X
-0
+CSS_PROPERTY_APPLIES_TO_FIRST_LETTER_AND_FIRST_LINE
 Margin
 mPaddingStart
 eCSSType_Value
@@ -3724,7 +3766,7 @@ padding
 top
 padding_top
 PaddingTop
-0
+CSS_PROPERTY_APPLIES_TO_FIRST_LETTER
 Margin
 mPadding
 .
@@ -3737,7 +3779,7 @@ CSS_PROP_BACKENDONLY
 page
 page
 Page
-0
+CSS_PROPERTY_APPLIES_TO_FIRST_LETTER_AND_FIRST_LINE
 Breaks
 mPage
 eCSSType_Value
@@ -3752,7 +3794,7 @@ break
 after
 page_break_after
 PageBreakAfter
-0
+CSS_PROPERTY_APPLIES_TO_FIRST_LETTER_AND_FIRST_LINE
 Display
 mBreakAfter
 eCSSType_Value
@@ -3767,7 +3809,7 @@ break
 before
 page_break_before
 PageBreakBefore
-0
+CSS_PROPERTY_APPLIES_TO_FIRST_LETTER_AND_FIRST_LINE
 Display
 mBreakBefore
 eCSSType_Value
@@ -3782,7 +3824,7 @@ break
 inside
 page_break_inside
 PageBreakInside
-0
+CSS_PROPERTY_APPLIES_TO_FIRST_LETTER_AND_FIRST_LINE
 Breaks
 mPageBreakInside
 eCSSType_Value
@@ -3802,7 +3844,7 @@ pause
 after
 pause_after
 PauseAfter
-0
+CSS_PROPERTY_APPLIES_TO_FIRST_LETTER_AND_FIRST_LINE
 Aural
 mPauseAfter
 eCSSType_Value
@@ -3815,7 +3857,7 @@ pause
 before
 pause_before
 PauseBefore
-0
+CSS_PROPERTY_APPLIES_TO_FIRST_LETTER_AND_FIRST_LINE
 Aural
 mPauseBefore
 eCSSType_Value
@@ -3826,7 +3868,7 @@ CSS_PROP_BACKENDONLY
 pitch
 pitch
 Pitch
-0
+CSS_PROPERTY_APPLIES_TO_FIRST_LETTER_AND_FIRST_LINE
 Aural
 mPitch
 eCSSType_Value
@@ -3839,7 +3881,7 @@ pitch
 range
 pitch_range
 PitchRange
-0
+CSS_PROPERTY_APPLIES_TO_FIRST_LETTER_AND_FIRST_LINE
 Aural
 mPitchRange
 eCSSType_Value
@@ -3872,7 +3914,7 @@ CSS_PROP_BACKENDONLY
 richness
 richness
 Richness
-0
+CSS_PROPERTY_APPLIES_TO_FIRST_LETTER_AND_FIRST_LINE
 Aural
 mRichness
 eCSSType_Value
@@ -3896,7 +3938,7 @@ CSS_PROP_BACKENDONLY
 size
 size
 Size
-0
+CSS_PROPERTY_APPLIES_TO_FIRST_LETTER_AND_FIRST_LINE
 Page
 mSize
 eCSSType_ValuePair
@@ -3907,7 +3949,7 @@ CSS_PROP_BACKENDONLY
 speak
 speak
 Speak
-0
+CSS_PROPERTY_APPLIES_TO_FIRST_LETTER_AND_FIRST_LINE
 Aural
 mSpeak
 eCSSType_Value
@@ -3920,7 +3962,7 @@ speak
 header
 speak_header
 SpeakHeader
-0
+CSS_PROPERTY_APPLIES_TO_FIRST_LETTER_AND_FIRST_LINE
 Aural
 mSpeakHeader
 eCSSType_Value
@@ -3933,7 +3975,7 @@ speak
 numeral
 speak_numeral
 SpeakNumeral
-0
+CSS_PROPERTY_APPLIES_TO_FIRST_LETTER_AND_FIRST_LINE
 Aural
 mSpeakNumeral
 eCSSType_Value
@@ -3946,7 +3988,7 @@ speak
 punctuation
 speak_punctuation
 SpeakPunctuation
-0
+CSS_PROPERTY_APPLIES_TO_FIRST_LETTER_AND_FIRST_LINE
 Aural
 mSpeakPunctuation
 eCSSType_Value
@@ -3959,7 +4001,7 @@ speech
 rate
 speech_rate
 SpeechRate
-0
+CSS_PROPERTY_APPLIES_TO_FIRST_LETTER_AND_FIRST_LINE
 Aural
 mSpeechRate
 eCSSType_Value
@@ -3970,7 +4012,7 @@ CSS_PROP_BACKENDONLY
 stress
 stress
 Stress
-0
+CSS_PROPERTY_APPLIES_TO_FIRST_LETTER_AND_FIRST_LINE
 Aural
 mStress
 eCSSType_Value
@@ -3983,7 +4025,7 @@ table
 layout
 table_layout
 TableLayout
-0
+CSS_PROPERTY_APPLIES_TO_FIRST_LETTER_AND_FIRST_LINE
 Table
 mLayout
 eCSSType_Value
@@ -3996,7 +4038,7 @@ text
 align
 text_align
 TextAlign
-0
+CSS_PROPERTY_APPLIES_TO_FIRST_LETTER_AND_FIRST_LINE
 Text
 mTextAlign
 eCSSType_Value
@@ -4009,7 +4051,7 @@ text
 decoration
 text_decoration
 TextDecoration
-0
+CSS_PROPERTY_APPLIES_TO_FIRST_LETTER_AND_FIRST_LINE
 Text
 mDecoration
 eCSSType_Value
@@ -4022,7 +4064,7 @@ text
 indent
 text_indent
 TextIndent
-0
+CSS_PROPERTY_APPLIES_TO_FIRST_LETTER_AND_FIRST_LINE
 Text
 mTextIndent
 eCSSType_Value
@@ -4035,6 +4077,8 @@ text
 shadow
 text_shadow
 TextShadow
+CSS_PROPERTY_APPLIES_TO_FIRST_LETTER_AND_FIRST_LINE
+|
 CSS_PROPERTY_VALUE_LIST_USES_COMMAS
 Text
 mTextShadow
@@ -4048,7 +4092,7 @@ text
 transform
 text_transform
 TextTransform
-0
+CSS_PROPERTY_APPLIES_TO_FIRST_LETTER_AND_FIRST_LINE
 Text
 mTextTransform
 eCSSType_Value
@@ -4168,7 +4212,7 @@ user
 select
 user_select
 MozUserSelect
-0
+CSS_PROPERTY_APPLIES_TO_FIRST_LETTER_AND_FIRST_LINE
 UserInterface
 mUserSelect
 eCSSType_Value
@@ -4181,7 +4225,7 @@ vertical
 align
 vertical_align
 VerticalAlign
-0
+CSS_PROPERTY_APPLIES_TO_FIRST_LETTER_AND_FIRST_LINE
 Text
 mVerticalAlign
 eCSSType_Value
@@ -4205,7 +4249,7 @@ voice
 family
 voice_family
 VoiceFamily
-0
+CSS_PROPERTY_APPLIES_TO_FIRST_LETTER_AND_FIRST_LINE
 Aural
 mVoiceFamily
 eCSSType_Value
@@ -4216,7 +4260,7 @@ CSS_PROP_BACKENDONLY
 volume
 volume
 Volume
-0
+CSS_PROPERTY_APPLIES_TO_FIRST_LETTER_AND_FIRST_LINE
 Aural
 mVolume
 eCSSType_Value
@@ -4229,7 +4273,7 @@ white
 space
 white_space
 WhiteSpace
-0
+CSS_PROPERTY_APPLIES_TO_FIRST_LETTER_AND_FIRST_LINE
 Text
 mWhiteSpace
 eCSSType_Value
@@ -4240,7 +4284,7 @@ CSS_PROP_BACKENDONLY
 widows
 widows
 Widows
-0
+CSS_PROPERTY_APPLIES_TO_FIRST_LETTER_AND_FIRST_LINE
 Breaks
 mWidows
 eCSSType_Value
@@ -4267,7 +4311,7 @@ window
 shadow
 _moz_window_shadow
 MozWindowShadow
-0
+CSS_PROPERTY_APPLIES_TO_FIRST_LETTER_AND_FIRST_LINE
 UserInterface
 mWindowShadow
 eCSSType_Value
@@ -4280,7 +4324,7 @@ word
 spacing
 word_spacing
 WordSpacing
-0
+CSS_PROPERTY_APPLIES_TO_FIRST_LETTER_AND_FIRST_LINE
 Text
 mWordSpacing
 eCSSType_Value
@@ -4293,7 +4337,7 @@ word
 wrap
 word_wrap
 WordWrap
-0
+CSS_PROPERTY_APPLIES_TO_FIRST_LETTER_AND_FIRST_LINE
 Text
 mWordWrap
 eCSSType_Value
@@ -4322,7 +4366,7 @@ box
 align
 box_align
 MozBoxAlign
-0
+CSS_PROPERTY_APPLIES_TO_FIRST_LETTER_AND_FIRST_LINE
 XUL
 mBoxAlign
 eCSSType_Value
@@ -4338,7 +4382,7 @@ box
 direction
 box_direction
 MozBoxDirection
-0
+CSS_PROPERTY_APPLIES_TO_FIRST_LETTER_AND_FIRST_LINE
 XUL
 mBoxDirection
 eCSSType_Value
@@ -4354,7 +4398,7 @@ box
 flex
 box_flex
 MozBoxFlex
-0
+CSS_PROPERTY_APPLIES_TO_FIRST_LETTER_AND_FIRST_LINE
 XUL
 mBoxFlex
 eCSSType_Value
@@ -4370,7 +4414,7 @@ box
 orient
 box_orient
 MozBoxOrient
-0
+CSS_PROPERTY_APPLIES_TO_FIRST_LETTER_AND_FIRST_LINE
 XUL
 mBoxOrient
 eCSSType_Value
@@ -4386,7 +4430,7 @@ box
 pack
 box_pack
 MozBoxPack
-0
+CSS_PROPERTY_APPLIES_TO_FIRST_LETTER_AND_FIRST_LINE
 XUL
 mBoxPack
 eCSSType_Value
@@ -4404,7 +4448,7 @@ ordinal
 group
 box_ordinal_group
 MozBoxOrdinalGroup
-0
+CSS_PROPERTY_APPLIES_TO_FIRST_LETTER_AND_FIRST_LINE
 XUL
 mBoxOrdinal
 eCSSType_Value
@@ -4420,7 +4464,7 @@ stack
 sizing
 stack_sizing
 MozStackSizing
-0
+CSS_PROPERTY_APPLIES_TO_FIRST_LETTER_AND_FIRST_LINE
 XUL
 mStackSizing
 eCSSType_Value
@@ -4442,7 +4486,7 @@ script
 level
 script_level
 ScriptLevel
-0
+CSS_PROPERTY_APPLIES_TO_FIRST_LETTER_AND_FIRST_LINE
 Font
 mScriptLevel
 eCSSType_Value
@@ -4460,7 +4504,7 @@ size
 multiplier
 script_size_multiplier
 ScriptSizeMultiplier
-0
+CSS_PROPERTY_APPLIES_TO_FIRST_LETTER_AND_FIRST_LINE
 Font
 mScriptSizeMultiplier
 eCSSType_Value
@@ -4478,7 +4522,7 @@ min
 size
 script_min_size
 ScriptMinSize
-0
+CSS_PROPERTY_APPLIES_TO_FIRST_LETTER_AND_FIRST_LINE
 Font
 mScriptMinSize
 eCSSType_Value
@@ -4501,7 +4545,7 @@ clip
 path
 clip_path
 ClipPath
-0
+CSS_PROPERTY_APPLIES_TO_FIRST_LETTER_AND_FIRST_LINE
 SVG
 mClipPath
 eCSSType_Value
@@ -4514,7 +4558,7 @@ clip
 rule
 clip_rule
 ClipRule
-0
+CSS_PROPERTY_APPLIES_TO_FIRST_LETTER_AND_FIRST_LINE
 SVG
 mClipRule
 eCSSType_Value
@@ -4527,7 +4571,7 @@ color
 interpolation
 color_interpolation
 ColorInterpolation
-0
+CSS_PROPERTY_APPLIES_TO_FIRST_LETTER_AND_FIRST_LINE
 SVG
 mColorInterpolation
 eCSSType_Value
@@ -4542,7 +4586,7 @@ interpolation
 filters
 color_interpolation_filters
 ColorInterpolationFilters
-0
+CSS_PROPERTY_APPLIES_TO_FIRST_LETTER_AND_FIRST_LINE
 SVG
 mColorInterpolationFilters
 eCSSType_Value
@@ -4555,7 +4599,7 @@ dominant
 baseline
 dominant_baseline
 DominantBaseline
-0
+CSS_PROPERTY_APPLIES_TO_FIRST_LETTER_AND_FIRST_LINE
 SVG
 mDominantBaseline
 eCSSType_Value
@@ -4566,7 +4610,7 @@ CSS_PROP_SVG
 fill
 fill
 Fill
-0
+CSS_PROPERTY_APPLIES_TO_FIRST_LETTER_AND_FIRST_LINE
 SVG
 mFill
 eCSSType_ValuePair
@@ -4579,7 +4623,7 @@ fill
 opacity
 fill_opacity
 FillOpacity
-0
+CSS_PROPERTY_APPLIES_TO_FIRST_LETTER_AND_FIRST_LINE
 SVG
 mFillOpacity
 eCSSType_Value
@@ -4592,7 +4636,7 @@ fill
 rule
 fill_rule
 FillRule
-0
+CSS_PROPERTY_APPLIES_TO_FIRST_LETTER_AND_FIRST_LINE
 SVG
 mFillRule
 eCSSType_Value
@@ -4603,7 +4647,7 @@ CSS_PROP_SVGRESET
 filter
 filter
 Filter
-0
+CSS_PROPERTY_APPLIES_TO_FIRST_LETTER_AND_FIRST_LINE
 SVG
 mFilter
 eCSSType_Value
@@ -4616,7 +4660,7 @@ flood
 color
 flood_color
 FloodColor
-0
+CSS_PROPERTY_APPLIES_TO_FIRST_LETTER_AND_FIRST_LINE
 SVG
 mFloodColor
 eCSSType_Value
@@ -4629,7 +4673,7 @@ flood
 opacity
 flood_opacity
 FloodOpacity
-0
+CSS_PROPERTY_APPLIES_TO_FIRST_LETTER_AND_FIRST_LINE
 SVG
 mFloodOpacity
 eCSSType_Value
@@ -4642,7 +4686,7 @@ lighting
 color
 lighting_color
 LightingColor
-0
+CSS_PROPERTY_APPLIES_TO_FIRST_LETTER_AND_FIRST_LINE
 SVG
 mLightingColor
 eCSSType_Value
@@ -4662,7 +4706,7 @@ marker
 end
 marker_end
 MarkerEnd
-0
+CSS_PROPERTY_APPLIES_TO_FIRST_LETTER_AND_FIRST_LINE
 SVG
 mMarkerEnd
 eCSSType_Value
@@ -4675,7 +4719,7 @@ marker
 mid
 marker_mid
 MarkerMid
-0
+CSS_PROPERTY_APPLIES_TO_FIRST_LETTER_AND_FIRST_LINE
 SVG
 mMarkerMid
 eCSSType_Value
@@ -4688,7 +4732,7 @@ marker
 start
 marker_start
 MarkerStart
-0
+CSS_PROPERTY_APPLIES_TO_FIRST_LETTER_AND_FIRST_LINE
 SVG
 mMarkerStart
 eCSSType_Value
@@ -4699,7 +4743,7 @@ CSS_PROP_SVGRESET
 mask
 mask
 Mask
-0
+CSS_PROPERTY_APPLIES_TO_FIRST_LETTER_AND_FIRST_LINE
 SVG
 mMask
 eCSSType_Value
@@ -4712,7 +4756,7 @@ pointer
 events
 pointer_events
 PointerEvents
-0
+CSS_PROPERTY_APPLIES_TO_FIRST_LETTER_AND_FIRST_LINE
 SVG
 mPointerEvents
 eCSSType_Value
@@ -4725,7 +4769,7 @@ shape
 rendering
 shape_rendering
 ShapeRendering
-0
+CSS_PROPERTY_APPLIES_TO_FIRST_LETTER_AND_FIRST_LINE
 SVG
 mShapeRendering
 eCSSType_Value
@@ -4738,7 +4782,7 @@ stop
 color
 stop_color
 StopColor
-0
+CSS_PROPERTY_APPLIES_TO_FIRST_LETTER_AND_FIRST_LINE
 SVG
 mStopColor
 eCSSType_Value
@@ -4751,7 +4795,7 @@ stop
 opacity
 stop_opacity
 StopOpacity
-0
+CSS_PROPERTY_APPLIES_TO_FIRST_LETTER_AND_FIRST_LINE
 SVG
 mStopOpacity
 eCSSType_Value
@@ -4762,7 +4806,7 @@ CSS_PROP_SVG
 stroke
 stroke
 Stroke
-0
+CSS_PROPERTY_APPLIES_TO_FIRST_LETTER_AND_FIRST_LINE
 SVG
 mStroke
 eCSSType_ValuePair
@@ -4775,6 +4819,8 @@ stroke
 dasharray
 stroke_dasharray
 StrokeDasharray
+CSS_PROPERTY_APPLIES_TO_FIRST_LETTER_AND_FIRST_LINE
+|
 CSS_PROPERTY_VALUE_LIST_USES_COMMAS
 SVG
 mStrokeDasharray
@@ -4788,7 +4834,7 @@ stroke
 dashoffset
 stroke_dashoffset
 StrokeDashoffset
-0
+CSS_PROPERTY_APPLIES_TO_FIRST_LETTER_AND_FIRST_LINE
 SVG
 mStrokeDashoffset
 eCSSType_Value
@@ -4801,7 +4847,7 @@ stroke
 linecap
 stroke_linecap
 StrokeLinecap
-0
+CSS_PROPERTY_APPLIES_TO_FIRST_LETTER_AND_FIRST_LINE
 SVG
 mStrokeLinecap
 eCSSType_Value
@@ -4814,7 +4860,7 @@ stroke
 linejoin
 stroke_linejoin
 StrokeLinejoin
-0
+CSS_PROPERTY_APPLIES_TO_FIRST_LETTER_AND_FIRST_LINE
 SVG
 mStrokeLinejoin
 eCSSType_Value
@@ -4827,7 +4873,7 @@ stroke
 miterlimit
 stroke_miterlimit
 StrokeMiterlimit
-0
+CSS_PROPERTY_APPLIES_TO_FIRST_LETTER_AND_FIRST_LINE
 SVG
 mStrokeMiterlimit
 eCSSType_Value
@@ -4840,7 +4886,7 @@ stroke
 opacity
 stroke_opacity
 StrokeOpacity
-0
+CSS_PROPERTY_APPLIES_TO_FIRST_LETTER_AND_FIRST_LINE
 SVG
 mStrokeOpacity
 eCSSType_Value
@@ -4853,7 +4899,7 @@ stroke
 width
 stroke_width
 StrokeWidth
-0
+CSS_PROPERTY_APPLIES_TO_FIRST_LETTER_AND_FIRST_LINE
 SVG
 mStrokeWidth
 eCSSType_Value
@@ -4866,7 +4912,7 @@ text
 anchor
 text_anchor
 TextAnchor
-0
+CSS_PROPERTY_APPLIES_TO_FIRST_LETTER_AND_FIRST_LINE
 SVG
 mTextAnchor
 eCSSType_Value
@@ -4879,7 +4925,7 @@ text
 rendering
 text_rendering
 TextRendering
-0
+CSS_PROPERTY_APPLIES_TO_FIRST_LETTER_AND_FIRST_LINE
 SVG
 mTextRendering
 eCSSType_Value
@@ -4897,7 +4943,7 @@ CSS_PROP_VISIBILITY
 X
 X
 X
-0
+CSS_PROPERTY_APPLIES_TO_FIRST_LETTER_AND_FIRST_LINE
 Display
 mLang
 eCSSType_Value
@@ -4908,7 +4954,7 @@ CSS_PROP_TABLE
 X
 X
 X
-0
+CSS_PROPERTY_APPLIES_TO_FIRST_LETTER_AND_FIRST_LINE
 Table
 mFrame
 eCSSType_Value
@@ -4919,7 +4965,7 @@ CSS_PROP_TABLE
 X
 X
 X
-0
+CSS_PROPERTY_APPLIES_TO_FIRST_LETTER_AND_FIRST_LINE
 Table
 mRules
 eCSSType_Value
@@ -4930,7 +4976,7 @@ CSS_PROP_TABLE
 X
 X
 X
-0
+CSS_PROPERTY_APPLIES_TO_FIRST_LETTER_AND_FIRST_LINE
 Table
 mCols
 eCSSType_Value
@@ -4941,7 +4987,7 @@ CSS_PROP_TABLE
 X
 X
 X
-0
+CSS_PROPERTY_APPLIES_TO_FIRST_LETTER_AND_FIRST_LINE
 Table
 mSpan
 eCSSType_Value
