@@ -5381,10 +5381,7 @@ id
 #
 else
 inline
-JS_FRIEND_API
-(
 void
-)
 assertEnteredPolicy
 (
 JSContext

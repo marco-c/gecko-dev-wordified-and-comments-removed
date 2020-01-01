@@ -2603,7 +2603,7 @@ BaselineInspector
 inspector
 ;
 size_t
-inliningDepth
+inliningDepth_
 ;
 Vector
 <
