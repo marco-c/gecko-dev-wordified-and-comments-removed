@@ -523,6 +523,14 @@ test_bug451286
 .
 xul
 \
+bug451540_window
+.
+xul
+\
+test_bug451540
+.
+xul
+\
 test_bug471776
 .
 xul
