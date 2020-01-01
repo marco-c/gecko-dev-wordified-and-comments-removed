@@ -392,7 +392,7 @@ const
 int
 NumSavedRegs
 =
-6
+1
 ;
 static
 const
