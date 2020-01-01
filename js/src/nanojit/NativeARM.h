@@ -1125,7 +1125,11 @@ hardenNopInsertion
 const
 Config
 &
+/
+*
 c
+*
+/
 )
 {
 return
