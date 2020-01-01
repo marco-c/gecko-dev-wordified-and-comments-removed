@@ -50,6 +50,12 @@ FilteringWrapper
 ;
 virtual
 bool
+isSafeToUnwrap
+(
+)
+;
+virtual
+bool
 getPropertyDescriptor
 (
 JSContext
