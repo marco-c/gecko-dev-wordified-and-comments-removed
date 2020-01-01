@@ -786,6 +786,12 @@ nsIntPoint
 >
 mStartPoint
 ;
+double
+mSwipeMaxPinchDelta
+;
+double
+mSwipeMinDistance
+;
 nsCOMPtr
 <
 nsIdleService
