@@ -1072,6 +1072,15 @@ browser
 /
 components
 /
+migration
+/
+tests
+/
+Makefile
+browser
+/
+components
+/
 places
 /
 tests
