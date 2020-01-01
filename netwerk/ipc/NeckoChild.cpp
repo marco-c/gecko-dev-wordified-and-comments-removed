@@ -857,8 +857,6 @@ AllocPRemoteOpenFileChild
 const
 URIParams
 &
-PBrowserChild
-*
 )
 {
 NS_NOTREACHED

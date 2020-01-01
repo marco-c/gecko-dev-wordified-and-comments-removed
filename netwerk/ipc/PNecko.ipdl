@@ -350,9 +350,6 @@ PRemoteOpenFile
 (
 URIParams
 fileuri
-nullable
-PBrowser
-browser
 )
 ;
 HTMLDNSPrefetch
