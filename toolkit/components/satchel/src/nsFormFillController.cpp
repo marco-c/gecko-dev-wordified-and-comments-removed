@@ -728,6 +728,12 @@ GetPopupOpen
 aPopupOpen
 )
 ;
+else
+*
+aPopupOpen
+=
+PR_FALSE
+;
 return
 NS_OK
 ;
