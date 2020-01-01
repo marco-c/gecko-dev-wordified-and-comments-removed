@@ -628,6 +628,11 @@ emitUseCountIncrement
 (
 )
 ;
+bool
+initScopeChain
+(
+)
+;
 void
 storeValue
 (
