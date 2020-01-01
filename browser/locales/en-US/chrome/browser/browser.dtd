@@ -2353,6 +2353,17 @@ Inspector
 <
 !
 ENTITY
+inspectSidebarCloseButton
+.
+tooltiptext
+"
+Close
+sidebar
+"
+>
+<
+!
+ENTITY
 devToolbarCloseButton
 .
 tooltiptext
@@ -4444,7 +4455,7 @@ emailImageCmd
 .
 accesskey
 "
-g
+a
 "
 >
 <
