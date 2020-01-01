@@ -3196,6 +3196,16 @@ options
 .
 certPath
 )
+options
+.
+symbolsPath
+=
+getFullPath
+(
+options
+.
+symbolsPath
+)
 debuggerInfo
 =
 None
