@@ -34,15 +34,7 @@ loopTableSize
 define
 TRACE_THRESHOLD
 10
-bool
-js_InitTracer
-(
-JSRuntime
-*
-rt
-)
-;
-bool
+uint32
 js_AllocateLoopTableSlots
 (
 JSContext
@@ -50,9 +42,6 @@ JSContext
 cx
 uint32
 nloops
-uint32
-*
-basep
 )
 ;
 void
@@ -74,7 +63,7 @@ JSContext
 *
 cx
 uint32
-index
+slot
 )
 ;
 #
