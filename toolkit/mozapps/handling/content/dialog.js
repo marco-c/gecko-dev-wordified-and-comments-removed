@@ -345,7 +345,7 @@ name
 ;
 elm
 .
-object
+obj
 =
 app
 ;
