@@ -358,6 +358,12 @@ this
 navbarVisible
 )
 {
+BrowserUI
+.
+updateURI
+(
+)
+;
 this
 .
 displayNavbar
