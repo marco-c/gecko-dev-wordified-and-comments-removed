@@ -3239,7 +3239,7 @@ status
 _cairo_win32_print_gdi_error
 (
 "
-_win32_scaled_font_set_world_transform
+_cairo_win32_printing_surface_paint_image_pattern
 "
 )
 ;
@@ -7262,6 +7262,9 @@ paginated_mode
 CAIRO_PAGINATED_MODE_ANALYZE
 )
 {
+#
+if
+CAIRO_HAS_WIN32_FONT
 if
 (
 cairo_scaled_font_get_type
@@ -7332,6 +7335,8 @@ return
 status
 ;
 }
+#
+endif
 return
 _cairo_win32_printing_surface_analyze_operation
 (
@@ -7425,6 +7430,9 @@ source
 opaque
 ;
 }
+#
+if
+CAIRO_HAS_WIN32_FONT
 if
 (
 cairo_scaled_font_get_type
@@ -7687,6 +7695,8 @@ return
 status
 ;
 }
+#
+endif
 SaveDC
 (
 surface
