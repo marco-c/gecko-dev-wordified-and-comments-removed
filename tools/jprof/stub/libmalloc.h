@@ -51,6 +51,9 @@ delTime
 u_long
 numpcs
 ;
+int
+thread
+;
 char
 *
 pcs
