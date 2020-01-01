@@ -1604,6 +1604,14 @@ res
 /
 layout
 /
+font_size_preference
+.
+xml
+\
+res
+/
+layout
+/
 gecko_app
 .
 xml
