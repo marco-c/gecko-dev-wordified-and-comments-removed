@@ -2251,8 +2251,11 @@ parent
 newParent
 ;
 }
+JS_FRIEND_API
+(
 JSObject
 *
+)
 getGlobal
 (
 )

@@ -3120,6 +3120,17 @@ scope
 return
 scope
 ;
+JSAutoEnterCompartment
+ac
+;
+ac
+.
+enterAndIgnoreErrors
+(
+cx
+obj
+)
+;
 obj
 =
 JS_GetGlobalForObject
