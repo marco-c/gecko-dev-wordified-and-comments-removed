@@ -3727,7 +3727,7 @@ get
 )
 ;
 }
-nsRefPtr
+StaticRefPtr
 <
 nsGeolocationService
 >

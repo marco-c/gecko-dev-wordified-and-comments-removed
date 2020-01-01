@@ -29,12 +29,6 @@ h
 namespace
 mozilla
 {
-SMILIntegerType
-SMILIntegerType
-:
-:
-sSingleton
-;
 void
 SMILIntegerType
 :
@@ -115,11 +109,12 @@ aValue
 .
 mType
 =
-&
 nsSMILNullType
 :
 :
-sSingleton
+Singleton
+(
+)
 ;
 }
 nsresult
