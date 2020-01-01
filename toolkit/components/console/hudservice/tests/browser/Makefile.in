@@ -496,6 +496,10 @@ browser_webconsole_bug_588730_text_node_insertion
 .
 js
 \
+browser_webconsole_bug_601667_filter_buttons
+.
+js
+\
 browser_webconsole_bug_597136_external_script_errors
 .
 js

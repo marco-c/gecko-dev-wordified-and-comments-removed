@@ -115,7 +115,7 @@ querySelector
 (
 "
 .
-jsterm
+webconsole
 -
 close
 -
