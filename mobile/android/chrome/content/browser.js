@@ -6846,6 +6846,7 @@ data
 isPrivate
 =
 =
+=
 true
 )
 pinned
@@ -6856,12 +6857,14 @@ data
 pinned
 =
 =
+=
 true
 )
 delayLoad
 :
 (
 delayLoad
+=
 =
 =
 true
@@ -6872,6 +6875,7 @@ desktopMode
 data
 .
 desktopMode
+=
 =
 =
 true
