@@ -1513,6 +1513,7 @@ _dragBy
 (
 dX
 dY
+aIsKinetic
 )
 {
 let
@@ -1536,6 +1537,7 @@ dY
 this
 .
 _targetScrollInterface
+aIsKinetic
 )
 ;
 if
@@ -4065,6 +4067,7 @@ round
 -
 dy
 )
+true
 )
 ;
 }
