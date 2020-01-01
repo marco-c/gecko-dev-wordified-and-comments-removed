@@ -284,6 +284,8 @@ nsRect
 aDirtyRect
 nsPoint
 aPt
+PRUint32
+aFlags
 )
 ;
 virtual
@@ -526,6 +528,8 @@ nsRect
 aDirtyRect
 nsPoint
 aPt
+PRUint32
+aFlags
 )
 ;
 void
@@ -847,6 +851,8 @@ nsRect
 aDirtyRect
 nsPoint
 aPt
+PRUint32
+aFlags
 )
 ;
 private

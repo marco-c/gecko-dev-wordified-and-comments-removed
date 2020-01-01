@@ -479,6 +479,8 @@ const
 nsPoint
 &
 aRenderPt
+PRUint32
+aBGPaintFlags
 )
 :
 mPresContext
@@ -508,6 +510,10 @@ nsnull
 mZeroBorder
 (
 aPresContext
+)
+mBGPaintFlags
+(
+aBGPaintFlags
 )
 {
 MOZ_COUNT_CTOR
@@ -961,7 +967,7 @@ mBackground
 tableData
 .
 mBorder
-0
+mBGPaintFlags
 )
 ;
 }
@@ -2552,7 +2558,7 @@ mColGroup
 -
 >
 mBorder
-0
+mBGPaintFlags
 &
 mCellRect
 )
@@ -2619,7 +2625,7 @@ colIndex
 mCol
 .
 mBorder
-0
+mBGPaintFlags
 &
 mCellRect
 )
@@ -2658,7 +2664,7 @@ mBackground
 mRowGroup
 .
 mBorder
-0
+mBGPaintFlags
 &
 mCellRect
 )
@@ -2697,7 +2703,7 @@ mBackground
 mRow
 .
 mBorder
-0
+mBGPaintFlags
 &
 mCellRect
 )
@@ -2724,6 +2730,7 @@ mCellRect
 TopLeft
 (
 )
+mBGPaintFlags
 )
 ;
 }

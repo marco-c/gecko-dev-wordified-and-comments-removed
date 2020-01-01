@@ -502,6 +502,11 @@ mSyncDecodeImages
 aSyncDecodeImages
 ;
 }
+PRUint32
+GetBackgroundPaintFlags
+(
+)
+;
 void
 SubtractFromVisibleRegion
 (

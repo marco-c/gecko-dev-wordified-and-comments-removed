@@ -3006,7 +3006,10 @@ aRenderingContext
 this
 rect
 backgroundRect
-0
+nsCSSRendering
+:
+:
+PAINTBG_SYNC_DECODE_IMAGES
 )
 ;
 nsLayoutUtils

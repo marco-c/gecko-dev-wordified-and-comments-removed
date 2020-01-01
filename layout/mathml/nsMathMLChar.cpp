@@ -7888,7 +7888,12 @@ rect
 backg
 *
 border
-0
+aBuilder
+-
+>
+GetBackgroundPaintFlags
+(
+)
 )
 ;
 }

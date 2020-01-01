@@ -280,6 +280,8 @@ const
 nsRect
 &
 aDirtyRect
+PRUint32
+aBGFlags
 )
 ;
 NS_IMETHOD
@@ -720,6 +722,12 @@ ToReferenceFrame
 mFrame
 )
 aDirtyRect
+aBuilder
+-
+>
+GetBackgroundPaintFlags
+(
+)
 )
 ;
 }
@@ -925,6 +933,8 @@ const
 nsRect
 &
 aDirtyRect
+PRUint32
+aBGFlags
 )
 {
 PRIntn
@@ -1018,7 +1028,7 @@ aRenderingContext
 this
 aDirtyRect
 rect
-0
+aBGFlags
 )
 ;
 nsCSSRendering

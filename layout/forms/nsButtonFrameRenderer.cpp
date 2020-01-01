@@ -681,6 +681,12 @@ pc
 aCtx
 aDirtyRect
 r
+aBuilder
+-
+>
+GetBackgroundPaintFlags
+(
+)
 )
 ;
 }
@@ -1011,6 +1017,8 @@ const
 nsRect
 &
 aRect
+PRUint32
+aBGFlags
 )
 {
 nsRect
@@ -1055,7 +1063,7 @@ aRenderingContext
 mFrame
 aDirtyRect
 buttonRect
-0
+aBGFlags
 )
 ;
 nsCSSRendering

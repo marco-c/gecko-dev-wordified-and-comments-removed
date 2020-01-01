@@ -72,6 +72,8 @@ const
 nsPoint
 &
 aPt
+PRUint32
+aBGPaintFlags
 )
 ;
 ~
@@ -365,6 +367,9 @@ mCellRect
 ;
 nsStyleBorder
 mZeroBorder
+;
+PRUint32
+mBGPaintFlags
 ;
 }
 ;

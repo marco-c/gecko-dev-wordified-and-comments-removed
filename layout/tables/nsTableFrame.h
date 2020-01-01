@@ -750,6 +750,8 @@ nsRect
 aDirtyRect
 nsPoint
 aPt
+PRUint32
+aBGPaintFlags
 )
 ;
 nsMargin
