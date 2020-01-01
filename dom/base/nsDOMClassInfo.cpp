@@ -25187,8 +25187,8 @@ JS_GetStringLength
 str
 )
 winVal
-nsnull
-nsnull
+JS_PropertyStub
+JS_PropertyStub
 JSPROP_READONLY
 |
 JSPROP_ENUMERATE
