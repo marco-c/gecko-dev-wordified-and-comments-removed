@@ -236,6 +236,10 @@ Block
 class
 nsCSSExpandedDataBlock
 {
+friend
+class
+nsCSSCompressedDataBlock
+;
 public
 :
 nsCSSExpandedDataBlock
@@ -247,6 +251,8 @@ nsCSSExpandedDataBlock
 (
 )
 ;
+private
+:
 nsCSSFont
 mFont
 ;
@@ -295,6 +301,8 @@ mSVG
 nsCSSColumn
 mColumn
 ;
+public
+:
 void
 Expand
 (
@@ -463,8 +471,6 @@ mPropertiesSet
 nsCSSPropertySet
 mPropertiesImportant
 ;
-public
-:
 nsCSSValue
 *
 PropertyAt
