@@ -3224,6 +3224,8 @@ collapse
 }
 #
 start
+-
+container
 [
 viewstate
 =
@@ -3243,6 +3245,8 @@ narrow
 title
 #
 start
+-
+container
 :
 not
 (
