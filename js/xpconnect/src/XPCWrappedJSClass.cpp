@@ -2956,12 +2956,11 @@ JSObject
 *
 inner
 =
-XPCWrapper
+js
 :
 :
-Unwrap
+UnwrapObject
 (
-cx
 result
 )
 ;
