@@ -28,6 +28,17 @@ gfx
 LayerController
 ;
 import
+org
+.
+mozilla
+.
+gecko
+.
+util
+.
+ConfigurationUtils
+;
+import
 android
 .
 R
@@ -4432,7 +4443,7 @@ actionLabel
 mIMEActionHint
 ;
 GeckoApp
-app
+context
 =
 GeckoApp
 .
@@ -4441,10 +4452,11 @@ mAppContext
 DisplayMetrics
 metrics
 =
-app
+ConfigurationUtils
 .
 getDisplayMetrics
 (
+context
 )
 ;
 if
@@ -4501,7 +4513,7 @@ InputMethods
 .
 getCurrentInputMethod
 (
-app
+context
 )
 ;
 if
@@ -4515,7 +4527,7 @@ prevInputMethod
 FormAssistPopup
 popup
 =
-app
+context
 .
 mFormAssistPopup
 ;
