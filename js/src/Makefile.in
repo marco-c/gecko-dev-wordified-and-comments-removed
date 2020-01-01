@@ -3491,14 +3491,9 @@ NSPR_PKGCONF_CHECK
 )
 "
 \
--
-DUSE_CXX11
-=
-"
 (
-USE_CXX11
+NULL
 )
-"
 (
 JS_CONFIG_NAME
 )
