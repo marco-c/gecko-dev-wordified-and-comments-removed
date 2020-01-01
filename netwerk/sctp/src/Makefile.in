@@ -116,12 +116,6 @@ EXPORTS_NAMESPACES
 mozilla
 /
 net
-XPIDLSRCS
-=
-\
-(
-NULL
-)
 ifeq
 (
 (

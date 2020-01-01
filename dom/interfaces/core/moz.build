@@ -91,6 +91,11 @@ nsIDOMDOMException
 idl
 '
 '
+nsIDOMDOMImplementation
+.
+idl
+'
+'
 nsIDOMDOMStringList
 .
 idl
