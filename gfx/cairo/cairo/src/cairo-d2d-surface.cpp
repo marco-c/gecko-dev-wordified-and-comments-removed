@@ -11504,6 +11504,10 @@ softTexture
 forget
 (
 )
+.
+drop
+(
+)
 ;
 *
 image_out_ret
@@ -11899,6 +11903,10 @@ image_extra
 softTexture
 .
 forget
+(
+)
+.
+drop
 (
 )
 ;
