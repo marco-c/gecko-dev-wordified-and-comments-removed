@@ -1506,6 +1506,10 @@ test_bug659596
 .
 html
 \
+test_bug659743
+.
+xml
+\
 (
 NULL
 )
