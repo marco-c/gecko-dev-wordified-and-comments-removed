@@ -442,6 +442,12 @@ DIRS
 +
 =
 mochitest
+\
+browser
+\
+(
+NULL
+)
 include
 (
 topsrcdir
