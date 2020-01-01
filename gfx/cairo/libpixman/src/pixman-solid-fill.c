@@ -35,7 +35,7 @@ if
 iter
 -
 >
-iter_flags
+flags
 &
 ITER_NARROW
 )

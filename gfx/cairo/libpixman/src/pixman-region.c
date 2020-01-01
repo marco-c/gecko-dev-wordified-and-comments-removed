@@ -7683,8 +7683,8 @@ return
 TRUE
 ;
 }
-PIXMAN_EXPORT
 pixman_bool_t
+PIXMAN_EXPORT
 PREFIX
 (
 _inverse
@@ -7927,8 +7927,8 @@ y
 ;
 }
 }
-PIXMAN_EXPORT
 pixman_region_overlap_t
+PIXMAN_EXPORT
 PREFIX
 (
 _contains_rectangle

@@ -1976,9 +1976,6 @@ DIV_ONE_UN8
 (
 sa
 *
-(
-uint32_t
-)
 da
 )
 <
@@ -2208,9 +2205,6 @@ ALPHA_8
 m
 )
 *
-(
-uint32_t
-)
 da
 )
 <
@@ -3452,9 +3446,6 @@ DIV_ONE_UN8
 (
 sa
 *
-(
-uint32_t
-)
 da
 )
 <
