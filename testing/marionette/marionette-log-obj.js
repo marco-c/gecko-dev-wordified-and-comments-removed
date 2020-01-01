@@ -1,3 +1,7 @@
+this
+.
+MarionetteLogObj
+=
 function
 MarionetteLogObj
 (
