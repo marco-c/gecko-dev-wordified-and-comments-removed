@@ -4263,6 +4263,7 @@ maxFit
 NSBIDI_RTL
 aPresContext
 aRenderingContext
+aRenderingContext
 aRect
 .
 XMost
@@ -4287,6 +4288,7 @@ str
 maxFit
 NSBIDI_LTR
 aPresContext
+aRenderingContext
 aRenderingContext
 aRect
 .

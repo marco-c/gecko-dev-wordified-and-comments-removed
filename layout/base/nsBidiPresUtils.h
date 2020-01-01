@@ -254,6 +254,9 @@ aPresContext
 nsIRenderingContext
 &
 aRenderingContext
+nsIRenderingContext
+&
+aTextRunConstructionContext
 nscoord
 aX
 nscoord
@@ -277,6 +280,7 @@ aLength
 aBaseDirection
 aPresContext
 aRenderingContext
+aTextRunConstructionContext
 MODE_DRAW
 aX
 aY
@@ -317,6 +321,7 @@ aText
 aLength
 aBaseDirection
 aPresContext
+aRenderingContext
 aRenderingContext
 MODE_MEASURE
 0
@@ -494,6 +499,9 @@ aPresContext
 nsIRenderingContext
 &
 aRenderingContext
+nsIRenderingContext
+&
+aTextRunConstructionContext
 Mode
 aMode
 nscoord
