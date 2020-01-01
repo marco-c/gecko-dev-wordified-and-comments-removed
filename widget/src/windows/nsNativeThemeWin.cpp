@@ -3549,6 +3549,11 @@ if
 IsDisabled
 (
 aFrame
+-
+>
+GetParent
+(
+)
 )
 )
 aState
@@ -3563,6 +3568,11 @@ eventState
 GetContentState
 (
 aFrame
+-
+>
+GetParent
+(
+)
 aWidgetType
 )
 ;
