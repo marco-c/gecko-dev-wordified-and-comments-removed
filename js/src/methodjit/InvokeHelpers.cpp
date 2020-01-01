@@ -2726,6 +2726,17 @@ down
 =
 fp
 ;
+fp
+-
+>
+savedPC
+=
+f
+.
+regs
+.
+pc
+;
 cx
 -
 >
