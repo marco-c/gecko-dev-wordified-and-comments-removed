@@ -174,7 +174,7 @@ aComparator
 ;
 static
 void
-EscapeCSSString
+AppendEscapedCSSString
 (
 const
 nsString
@@ -182,7 +182,7 @@ nsString
 aString
 nsAString
 &
-aReturn
+aResult
 )
 ;
 static
