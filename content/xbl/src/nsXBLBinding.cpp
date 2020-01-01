@@ -357,10 +357,10 @@ obj
 )
 )
 ;
-xpc
+nsContentUtils
 :
 :
-DeferredRelease
+DeferredFinalize
 (
 static_cast
 <

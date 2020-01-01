@@ -841,9 +841,6 @@ static
 void
 DelayedReleaseGCCallback
 (
-JSRuntime
-*
-rt
 JSGCStatus
 status
 )

@@ -3795,6 +3795,10 @@ gcSliceCallback
 JSFinalizeCallback
 gcFinalizeCallback
 ;
+void
+*
+gcCallbackData
+;
 js
 :
 :

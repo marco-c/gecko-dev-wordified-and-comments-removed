@@ -8773,15 +8773,6 @@ aRv
 )
 ;
 bool
-RegisterForDeferredFinalization
-(
-DeferredFinalizeStartFunction
-start
-DeferredFinalizeFunction
-run
-)
-;
-bool
 NonVoidByteStringToJsval
 (
 JSContext

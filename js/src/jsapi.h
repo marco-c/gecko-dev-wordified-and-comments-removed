@@ -3384,6 +3384,9 @@ JSRuntime
 rt
 JSGCStatus
 status
+void
+*
+data
 )
 ;
 typedef
@@ -9116,6 +9119,9 @@ JSRuntime
 rt
 JSGCCallback
 cb
+void
+*
+data
 )
 ;
 extern

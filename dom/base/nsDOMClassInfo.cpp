@@ -24137,10 +24137,10 @@ if
 doc
 )
 {
-xpc
+nsContentUtils
 :
 :
-DeferredRelease
+DeferredFinalize
 (
 doc
 )
