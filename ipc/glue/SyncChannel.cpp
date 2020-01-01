@@ -678,6 +678,15 @@ mMutex
 ;
 if
 (
+MaybeInterceptSpecialIOMessage
+(
+msg
+)
+)
+return
+;
+if
+(
 !
 AwaitingSyncReply
 (
