@@ -76,6 +76,9 @@ class
 PlanarYCbCrImage
 ;
 class
+ShmemYCbCrImage
+;
+class
 GLTexture
 {
 typedef
@@ -635,6 +638,16 @@ const
 YUVImage
 &
 yuv
+)
+;
+void
+UploadSharedYCbCrToTexture
+(
+ShmemYCbCrImage
+&
+aImage
+nsIntRect
+aPictureRect
 )
 ;
 nsRefPtr

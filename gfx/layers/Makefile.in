@@ -548,6 +548,10 @@ SharedImageUtils
 .
 h
 \
+ShmemYCbCrImage
+.
+h
+\
 (
 NULL
 )
@@ -612,6 +616,10 @@ ShadowLayerParent
 cpp
 \
 ShadowLayersParent
+.
+cpp
+\
+ShmemYCbCrImage
 .
 cpp
 \
