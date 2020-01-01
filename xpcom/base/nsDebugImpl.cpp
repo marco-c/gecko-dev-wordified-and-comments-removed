@@ -1336,12 +1336,17 @@ return
 case
 NS_ASSERT_TRAP
 :
+case
+NS_ASSERT_UNINITIALIZED
+:
 Break
 (
 buf
 .
 buffer
 )
+;
+return
 ;
 }
 }
