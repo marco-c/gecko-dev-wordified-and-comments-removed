@@ -1353,6 +1353,10 @@ WebGLExtension
 )
 DOMCI_CLASS
 (
+WebGLExtensionStandardDerivatives
+)
+DOMCI_CLASS
+(
 PaintRequest
 )
 DOMCI_CLASS

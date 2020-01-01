@@ -152,6 +152,9 @@ class
 WebGLUniformLocation
 ;
 class
+WebGLExtension
+;
+class
 WebGLZeroingObject
 ;
 class
@@ -1775,12 +1778,13 @@ enum
 WebGLExtensionID
 {
 WebGL_OES_texture_float
+WebGL_OES_standard_derivatives
 WebGLExtensionID_Max
 }
 ;
 nsCOMPtr
 <
-nsIWebGLExtension
+WebGLExtension
 >
 mEnabledExtensions
 [

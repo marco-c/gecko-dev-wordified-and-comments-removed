@@ -3451,6 +3451,9 @@ GL_ARB_texture_float
 "
 GL_EXT_unpack_subimage
 "
+"
+GL_OES_standard_derivatives
+"
 NULL
 }
 ;

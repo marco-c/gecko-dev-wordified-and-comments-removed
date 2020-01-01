@@ -2805,6 +2805,13 @@ nsIWebGLExtension
 nsIDOMWebGLRenderingContext
 '
 '
+nsIWebGLExtensionStandardDerivatives
+'
+:
+'
+nsIDOMWebGLRenderingContext
+'
+'
 nsIIndexedDatabaseUsageCallback
 '
 :
