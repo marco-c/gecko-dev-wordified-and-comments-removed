@@ -120,6 +120,13 @@ h
 #
 include
 "
+SharedCacheUnlockNotify
+.
+h
+"
+#
+include
+"
 prlog
 .
 h
@@ -1074,9 +1081,7 @@ mAsyncStatement
 int
 rc
 =
-:
-:
-sqlite3_prepare_v2
+moz_sqlite3_prepare_v2
 (
 mDBConnection
 -

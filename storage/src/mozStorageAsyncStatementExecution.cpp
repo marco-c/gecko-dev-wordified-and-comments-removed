@@ -89,6 +89,13 @@ mozStorageAsyncStatementExecution
 .
 h
 "
+#
+include
+"
+SharedCacheUnlockNotify
+.
+h
+"
 namespace
 mozilla
 {
@@ -994,9 +1001,7 @@ mDBMutex
 int
 rc
 =
-:
-:
-sqlite3_step
+moz_sqlite3_step
 (
 aStatement
 )
