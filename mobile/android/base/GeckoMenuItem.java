@@ -93,11 +93,6 @@ public
 static
 interface
 Layout
-<
-T
-extends
-View
->
 {
 public
 void
