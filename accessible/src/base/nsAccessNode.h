@@ -91,7 +91,7 @@ h
 #
 include
 "
-nsIAccessibilityService
+nsAccessibilityService
 .
 h
 "
@@ -490,13 +490,6 @@ static
 nsIDOMNode
 *
 gLastFocusedNode
-;
-static
-nsIAccessibilityService
-*
-GetAccService
-(
-)
 ;
 already_AddRefed
 <

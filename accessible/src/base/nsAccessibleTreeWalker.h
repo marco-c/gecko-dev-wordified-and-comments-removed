@@ -42,13 +42,6 @@ h
 #
 include
 "
-nsIAccessibilityService
-.
-h
-"
-#
-include
-"
 nsIWeakReference
 .
 h
@@ -193,12 +186,6 @@ nsCOMPtr
 nsIWeakReference
 >
 mWeakShell
-;
-nsCOMPtr
-<
-nsIAccessibilityService
->
-mAccService
 ;
 PRBool
 mWalkAnonContent
