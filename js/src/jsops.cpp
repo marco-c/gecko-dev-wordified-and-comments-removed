@@ -16325,6 +16325,9 @@ scopeChain
 ;
 if
 (
+0
+&
+&
 OBJ_GET_PARENT
 (
 cx
