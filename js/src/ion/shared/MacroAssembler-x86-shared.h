@@ -1692,7 +1692,7 @@ negativeZeroCheck
 true
 )
 {
-cvttsd2s
+cvttsd2si
 (
 src
 dest

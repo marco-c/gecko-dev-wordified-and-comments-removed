@@ -8385,6 +8385,15 @@ imm
 ;
 }
 void
+movq_i32r
+(
+int
+imm
+RegisterID
+dst
+)
+;
+void
 movq_i64r
 (
 int64_t
