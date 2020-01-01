@@ -2148,7 +2148,7 @@ bMustRevalidate
 aCacheEntry
 -
 >
-SetMustValidateIfExpired
+SetMustValidate
 (
 bMustRevalidate
 )
