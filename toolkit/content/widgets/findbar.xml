@@ -1247,13 +1247,6 @@ KeyEvent
 .
 DOM_VK_DOWN
 :
-win
-.
-scrollByLines
-(
-1
-)
-;
 controller
 .
 scrollLine
