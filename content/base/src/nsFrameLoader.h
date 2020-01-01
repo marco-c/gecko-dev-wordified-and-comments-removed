@@ -314,6 +314,11 @@ nsFrameLoader
 aSecondToSwap
 )
 ;
+void
+DestroyChild
+(
+)
+;
 #
 ifdef
 MOZ_IPC
