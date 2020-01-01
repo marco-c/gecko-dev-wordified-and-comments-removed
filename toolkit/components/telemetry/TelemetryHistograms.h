@@ -3018,9 +3018,6 @@ update
 performed
 "
 )
-#
-ifdef
-MOZ_THUNDERBIRD
 HISTOGRAM
 (
 THUNDERBIRD_GLODA_SIZE_MB
@@ -3091,11 +3088,6 @@ s
 )
 "
 )
-#
-endif
-#
-ifdef
-MOZ_PHOENIX
 HISTOGRAM
 (
 FX_TAB_ANIM_OPEN_MS
@@ -3155,8 +3147,6 @@ context
 menu
 "
 )
-#
-endif
 HISTOGRAM_BOOLEAN
 (
 INNERWINDOWS_WITH_MUTATION_LISTENERS
