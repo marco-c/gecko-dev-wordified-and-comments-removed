@@ -58,6 +58,8 @@ nsICSSStyleSheet
 >
 &
 aSheets
+PRUint8
+aSheetType
 )
 ;
 virtual
@@ -155,10 +157,7 @@ nsPresContext
 aPresContext
 nsTArray
 <
-nsRefPtr
-<
-nsCSSFontFaceRule
->
+nsFontFaceRuleContainer
 >
 &
 aArray
@@ -240,6 +239,9 @@ mRuleCascades
 nsPresContext
 *
 mLastPresContext
+;
+PRUint8
+mSheetType
 ;
 }
 ;

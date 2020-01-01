@@ -81,12 +81,10 @@ CreateHandler
 gfxFontEntry
 *
 aFontToLoad
-nsIURI
+const
+gfxFontFaceSrc
 *
-aFontURI
-nsIURI
-*
-aReferrerURI
+aFontFaceSrc
 gfxUserFontSet
 :
 :

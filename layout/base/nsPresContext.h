@@ -259,8 +259,8 @@ nsIRunnable
 class
 gfxUserFontSet
 ;
-class
-nsCSSFontFaceRule
+struct
+nsFontFaceRuleContainer
 ;
 #
 ifdef
@@ -2679,10 +2679,7 @@ mUserFontSet
 ;
 nsTArray
 <
-nsRefPtr
-<
-nsCSSFontFaceRule
->
+nsFontFaceRuleContainer
 >
 mFontFaceRules
 ;

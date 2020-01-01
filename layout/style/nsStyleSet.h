@@ -184,10 +184,7 @@ nsPresContext
 aPresContext
 nsTArray
 <
-nsRefPtr
-<
-nsCSSFontFaceRule
->
+nsFontFaceRuleContainer
 >
 &
 aArray
