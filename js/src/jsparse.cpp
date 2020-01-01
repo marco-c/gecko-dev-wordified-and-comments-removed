@@ -2390,13 +2390,10 @@ js_NewParsedObjectBox
 cx
 &
 pc
-FUN_OBJECT
-(
 callerFrame
 -
 >
-fun
-)
+callee
 )
 ;
 pob
