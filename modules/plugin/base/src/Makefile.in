@@ -461,10 +461,6 @@ nsJSNPRuntime
 .
 cpp
 \
-nsPluginTags
-.
-cpp
-\
 (
 NULL
 )
