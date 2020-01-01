@@ -5183,6 +5183,13 @@ endif
 }
 else
 {
+:
+:
+SetFocus
+(
+aHWnd
+)
+;
 aPrintSettings
 -
 >
