@@ -12416,6 +12416,10 @@ SetCurrentTime
 return
 ;
 }
+Pause
+(
+)
+;
 FireTimeUpdate
 (
 false
