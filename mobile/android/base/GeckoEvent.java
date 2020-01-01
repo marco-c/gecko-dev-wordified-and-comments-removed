@@ -1379,6 +1379,8 @@ createMotionEvent
 (
 MotionEvent
 m
+boolean
+keepInViewCoordinates
 )
 {
 GeckoEvent
@@ -1397,6 +1399,7 @@ event
 initMotionEvent
 (
 m
+keepInViewCoordinates
 )
 ;
 return
@@ -1409,6 +1412,8 @@ initMotionEvent
 (
 MotionEvent
 m
+boolean
+keepInViewCoordinates
 )
 {
 mAction
@@ -1577,6 +1582,7 @@ addMotionPoint
 i
 i
 m
+keepInViewCoordinates
 )
 ;
 }
@@ -1648,6 +1654,8 @@ int
 eventIndex
 MotionEvent
 event
+boolean
+keepInViewCoordinates
 )
 {
 try
@@ -1672,6 +1680,12 @@ eventIndex
 )
 )
 ;
+if
+(
+!
+keepInViewCoordinates
+)
+{
 geckoPoint
 =
 GeckoApp
@@ -1687,6 +1701,7 @@ convertViewPointToLayerPoint
 geckoPoint
 )
 ;
+}
 mPoints
 [
 index
