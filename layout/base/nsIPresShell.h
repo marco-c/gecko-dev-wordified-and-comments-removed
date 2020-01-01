@@ -251,7 +251,7 @@ endif
 class
 nsIWidget
 ;
-class
+struct
 nsArenaMemoryStats
 ;
 typedef

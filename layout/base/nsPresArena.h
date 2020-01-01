@@ -27,7 +27,7 @@ StandardInteger
 .
 h
 "
-class
+struct
 nsArenaMemoryStats
 ;
 #
