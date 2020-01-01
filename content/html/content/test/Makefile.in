@@ -1006,6 +1006,10 @@ file_bug546995
 .
 html
 \
+test_bug377624
+.
+html
+\
 (
 NULL
 )

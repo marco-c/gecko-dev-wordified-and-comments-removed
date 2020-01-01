@@ -530,6 +530,10 @@ bug564115_window
 .
 html
 \
+test_bug377624
+.
+html
+\
 (
 NULL
 )
