@@ -3722,7 +3722,10 @@ JS_ASSERT
 object
 -
 >
-isFunction
+is
+<
+JSFunction
+>
 (
 )
 )
@@ -3759,7 +3762,10 @@ JS_ASSERT
 object
 -
 >
-isFunction
+is
+<
+JSFunction
+>
 (
 )
 )

@@ -1617,7 +1617,10 @@ toObject
 (
 )
 .
-isFunction
+is
+<
+JSFunction
+>
 (
 )
 )
@@ -1975,7 +1978,10 @@ toObject
 (
 )
 .
-isFunction
+is
+<
+JSFunction
+>
 (
 )
 )

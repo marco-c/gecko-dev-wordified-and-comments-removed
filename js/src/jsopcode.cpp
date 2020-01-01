@@ -2958,7 +2958,10 @@ if
 obj
 -
 >
-isFunction
+is
+<
+JSFunction
+>
 (
 )
 )
@@ -2970,10 +2973,14 @@ str
 JS_DecompileFunction
 (
 cx
+&
 obj
 -
 >
-toFunction
+as
+<
+JSFunction
+>
 (
 )
 JS_DONT_PRETTY_PRINT

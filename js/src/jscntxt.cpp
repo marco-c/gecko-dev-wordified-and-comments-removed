@@ -5066,11 +5066,13 @@ toObject
 (
 )
 .
-toFunction
+as
+<
+JSFunction
+>
 (
 )
--
->
+.
 atom
 (
 )

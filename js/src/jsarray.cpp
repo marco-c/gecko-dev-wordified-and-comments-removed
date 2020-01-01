@@ -7021,7 +7021,10 @@ if
 !
 obj
 .
-isFunction
+is
+<
+JSFunction
+>
 (
 )
 )
@@ -7032,9 +7035,13 @@ JSFunction
 *
 fun
 =
+&
 obj
 .
-toFunction
+as
+<
+JSFunction
+>
 (
 )
 ;

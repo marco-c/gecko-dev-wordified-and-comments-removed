@@ -4611,7 +4611,10 @@ toObject
 (
 )
 .
-isFunction
+is
+<
+JSFunction
+>
 (
 )
 )
@@ -4649,6 +4652,7 @@ JSFunction
 *
 fun
 =
+&
 args
 [
 0
@@ -4658,7 +4662,10 @@ toObject
 (
 )
 .
-toFunction
+as
+<
+JSFunction
+>
 (
 )
 ;
@@ -4877,7 +4884,10 @@ toObject
 (
 )
 .
-isFunction
+is
+<
+JSFunction
+>
 (
 )
 )

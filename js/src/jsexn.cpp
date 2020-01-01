@@ -3083,11 +3083,13 @@ callee
 (
 )
 .
-toFunction
+as
+<
+JSFunction
+>
 (
 )
--
->
+.
 getExtendedSlot
 (
 0

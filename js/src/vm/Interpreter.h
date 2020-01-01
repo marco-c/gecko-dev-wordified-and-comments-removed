@@ -752,11 +752,13 @@ callee
 (
 )
 .
-toFunction
+as
+<
+JSFunction
+>
 (
 )
--
->
+.
 nonLazyScript
 (
 )

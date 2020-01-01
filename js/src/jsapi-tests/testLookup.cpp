@@ -166,7 +166,10 @@ CHECK
 funobj
 -
 >
-isFunction
+is
+<
+JSFunction
+>
 (
 )
 )

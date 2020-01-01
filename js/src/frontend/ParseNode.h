@@ -5407,7 +5407,10 @@ return
 object
 -
 >
-isFunction
+is
+<
+JSFunction
+>
 (
 )
 ;

@@ -467,7 +467,10 @@ toObject
 (
 )
 .
-isFunction
+is
+<
+JSFunction
+>
 (
 )
 )
@@ -495,7 +498,6 @@ callee
 const
 {
 return
-*
 getReservedSlot
 (
 CALLEE_SLOT
@@ -505,7 +507,10 @@ toObject
 (
 )
 .
-toFunction
+as
+<
+JSFunction
+>
 (
 )
 ;

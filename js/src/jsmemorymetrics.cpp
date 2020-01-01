@@ -810,7 +810,10 @@ if
 obj
 -
 >
-isFunction
+is
+<
+JSFunction
+>
 (
 )
 )

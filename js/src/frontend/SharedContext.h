@@ -632,10 +632,14 @@ function
 const
 {
 return
+&
 object
 -
 >
-toFunction
+as
+<
+JSFunction
+>
 (
 )
 ;
