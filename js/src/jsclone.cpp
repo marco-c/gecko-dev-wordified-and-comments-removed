@@ -551,6 +551,8 @@ datap
 {
 uint64_t
 u
+=
+0
 ;
 bool
 ok
