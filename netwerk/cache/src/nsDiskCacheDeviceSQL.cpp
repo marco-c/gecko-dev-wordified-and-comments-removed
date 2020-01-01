@@ -3355,6 +3355,7 @@ nsCOMPtr
 <
 mozIStorageStatement
 >
+&
 aStatement
 const
 char
