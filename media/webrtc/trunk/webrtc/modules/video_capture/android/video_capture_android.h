@@ -206,10 +206,6 @@ static
 jobject
 g_javaCmDevInfoObject
 ;
-static
-jobject
-g_javaContext
-;
 }
 ;
 }
