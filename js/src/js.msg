@@ -5705,3 +5705,17 @@ is
 required
 "
 )
+MSG_DEF
+(
+JSMSG_UNWRAP_DENIED
+326
+0
+JSEXN_ERR
+"
+permission
+denied
+to
+unwrap
+object
+"
+)
