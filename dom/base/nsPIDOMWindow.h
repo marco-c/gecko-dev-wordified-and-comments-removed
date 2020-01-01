@@ -1391,6 +1391,16 @@ GetSerial
 =
 0
 ;
+PRUint64
+WindowID
+(
+)
+const
+{
+return
+mWindowID
+;
+}
 protected
 :
 nsPIDOMWindow
@@ -1507,6 +1517,9 @@ nsCOMPtr
 nsIContent
 >
 mFocusedNode
+;
+PRUint64
+mWindowID
 ;
 }
 ;

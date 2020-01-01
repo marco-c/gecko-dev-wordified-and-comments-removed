@@ -6578,7 +6578,9 @@ aWindowID
 mWindow
 -
 >
-mWindowID
+WindowID
+(
+)
 ;
 return
 NS_OK
@@ -6639,7 +6641,9 @@ aWindowID
 inner
 -
 >
-mWindowID
+WindowID
+(
+)
 ;
 return
 NS_OK

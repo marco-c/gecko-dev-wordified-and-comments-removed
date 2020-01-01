@@ -3034,9 +3034,6 @@ nsIIDBFactory
 >
 mIndexedDB
 ;
-PRUint64
-mWindowID
-;
 PRUint32
 mDialogAbuseCount
 ;
