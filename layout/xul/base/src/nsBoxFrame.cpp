@@ -8890,7 +8890,7 @@ return
 false
 ;
 }
-nsIDOMTouch
+Touch
 *
 touch
 =
