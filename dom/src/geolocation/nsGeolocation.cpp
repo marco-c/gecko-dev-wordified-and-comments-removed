@@ -117,7 +117,7 @@ h
 endif
 #
 ifdef
-WINCE
+WINCE_WINDOWS_MOBILE
 #
 include
 "
@@ -1187,7 +1187,7 @@ MaemoLocationProvider
 endif
 #
 ifdef
-WINCE
+WINCE_WINDOWS_MOBILE
 if
 (
 !
