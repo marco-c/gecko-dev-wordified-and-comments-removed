@@ -2239,12 +2239,6 @@ case
 JSOP_CALLFCSLOT
 :
 case
-JSOP_ARGSUB
-:
-case
-JSOP_ARGCNT
-:
-case
 JSOP_DEBUGGER
 :
 case
