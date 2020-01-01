@@ -498,6 +498,17 @@ mRemoved
 =
 true
 ;
+if
+(
+!
+mStream
+-
+>
+IsDestroyed
+(
+)
+)
+{
 mStream
 -
 >
@@ -506,6 +517,7 @@ RemoveListener
 this
 )
 ;
+}
 }
 }
 virtual
