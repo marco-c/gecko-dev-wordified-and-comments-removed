@@ -2437,4 +2437,3 @@ return
 eBidiCat_L
 ;
 }
-;
