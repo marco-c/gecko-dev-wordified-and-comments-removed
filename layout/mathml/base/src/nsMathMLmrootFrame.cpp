@@ -1408,6 +1408,12 @@ mBoundingMetrics
 =
 mBoundingMetrics
 ;
+GatherAndStoreOverflow
+(
+&
+aDesiredSize
+)
+;
 aStatus
 =
 NS_FRAME_COMPLETE

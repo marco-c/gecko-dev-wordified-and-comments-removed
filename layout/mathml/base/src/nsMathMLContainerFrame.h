@@ -582,6 +582,14 @@ return
 ;
 }
 void
+GatherAndStoreOverflow
+(
+nsHTMLReflowMetrics
+*
+aMetrics
+)
+;
+void
 DidReflowChildren
 (
 nsIFrame

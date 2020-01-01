@@ -3766,6 +3766,12 @@ GetNextSibling
 }
 }
 }
+GatherAndStoreOverflow
+(
+&
+aDesiredStretchSize
+)
+;
 if
 (
 mFrames

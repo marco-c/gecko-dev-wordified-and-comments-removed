@@ -1770,6 +1770,15 @@ FixInterFrameSpacing
 aDesiredSize
 )
 ;
+mathMLFrame
+-
+>
+GatherAndStoreOverflow
+(
+&
+aDesiredSize
+)
+;
 aStatus
 =
 NS_FRAME_COMPLETE
