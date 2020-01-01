@@ -1715,12 +1715,6 @@ cx
 JSOPTION_VAROBJFIX
 )
 ;
-JS_SetVersion
-(
-cx
-JSVERSION_LATEST
-)
-;
 JS_SetErrorReporter
 (
 cx

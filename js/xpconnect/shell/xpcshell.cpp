@@ -6964,12 +6964,6 @@ cx
 my_ErrorReporter
 )
 ;
-JS_SetVersion
-(
-cx
-JSVERSION_LATEST
-)
-;
 }
 return
 true
@@ -8244,6 +8238,11 @@ JS
 :
 :
 SystemZone
+)
+.
+setVersion
+(
+JSVERSION_LATEST
 )
 ;
 nsCOMPtr

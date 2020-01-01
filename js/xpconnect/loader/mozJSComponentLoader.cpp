@@ -2116,12 +2116,6 @@ mContext
 return
 NS_ERROR_OUT_OF_MEMORY
 ;
-JS_SetVersion
-(
-mContext
-JSVERSION_LATEST
-)
-;
 nsCOMPtr
 <
 nsIScriptSecurityManager
@@ -3336,6 +3330,11 @@ JS
 :
 :
 SystemZone
+)
+.
+setVersion
+(
+JSVERSION_LATEST
 )
 ;
 rv

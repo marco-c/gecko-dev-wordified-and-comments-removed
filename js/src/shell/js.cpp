@@ -25841,12 +25841,6 @@ cx
 my_ErrorReporter
 )
 ;
-JS_SetVersion
-(
-cx
-JSVERSION_LATEST
-)
-;
 SetContextOptions
 (
 cx
@@ -25980,6 +25974,11 @@ JS
 :
 :
 FreshZone
+)
+.
+setVersion
+(
+JSVERSION_LATEST
 )
 ;
 RootedObject
