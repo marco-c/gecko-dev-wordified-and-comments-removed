@@ -623,6 +623,12 @@ Opened
 "
 )
 ;
+SelectionHelper
+.
+enabled
+=
+false
+;
 window
 .
 addEventListener
@@ -793,6 +799,12 @@ TapLong
 dumpEvents
 true
 )
+;
+SelectionHelper
+.
+enabled
+=
+true
 ;
 Browser
 .
@@ -2009,6 +2021,11 @@ shareable
 image
 -
 loaded
+"
+"
+content
+-
+text
 "
 ]
 )
