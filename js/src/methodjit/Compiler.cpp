@@ -340,7 +340,9 @@ frame
 (
 cx
 *
-this
+thisFromCtor
+(
+)
 masm
 stubcc
 )
@@ -20394,6 +20396,9 @@ peek
 (
 -
 (
+(
+int
+)
 argc
 +
 1
@@ -20455,6 +20460,9 @@ peek
 (
 -
 (
+(
+int
+)
 argc
 -
 i
@@ -21582,6 +21590,9 @@ peek
 (
 -
 (
+(
+int
+)
 argc
 +
 2
@@ -22208,6 +22219,9 @@ peek
 (
 -
 (
+(
+int
+)
 argc
 +
 2
@@ -22224,6 +22238,9 @@ peek
 (
 -
 (
+(
+int
+)
 argc
 +
 1
@@ -22641,7 +22658,7 @@ origCallee
 ;
 for
 (
-unsigned
+int
 i
 =
 0

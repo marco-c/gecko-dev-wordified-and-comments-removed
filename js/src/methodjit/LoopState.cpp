@@ -56,6 +56,9 @@ cx
 JSScript
 *
 script
+mjit
+:
+:
 Compiler
 *
 cc

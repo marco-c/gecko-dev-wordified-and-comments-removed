@@ -55,7 +55,7 @@ js
 namespace
 types
 {
-struct
+class
 TypeSet
 ;
 struct

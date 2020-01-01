@@ -1573,6 +1573,9 @@ peek
 (
 -
 (
+(
+int
+)
 argc
 +
 2
@@ -1589,6 +1592,9 @@ peek
 (
 -
 (
+(
+int
+)
 argc
 +
 1
@@ -1705,7 +1711,7 @@ JSVAL_TYPE_UNKNOWN
 ;
 for
 (
-unsigned
+int
 i
 =
 0
