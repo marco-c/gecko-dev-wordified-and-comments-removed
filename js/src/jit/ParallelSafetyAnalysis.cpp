@@ -791,10 +791,6 @@ ToDouble
 )
 SAFE_OP
 (
-ToFloat32
-)
-SAFE_OP
-(
 ToInt32
 )
 SAFE_OP

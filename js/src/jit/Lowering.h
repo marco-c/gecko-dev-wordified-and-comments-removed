@@ -913,14 +913,6 @@ convert
 )
 ;
 bool
-visitToFloat32
-(
-MToFloat32
-*
-convert
-)
-;
-bool
 visitToInt32
 (
 MToInt32

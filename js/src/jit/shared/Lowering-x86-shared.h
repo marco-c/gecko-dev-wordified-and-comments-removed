@@ -301,16 +301,6 @@ ins
 )
 ;
 bool
-lowerConstantFloat32
-(
-float
-d
-MInstruction
-*
-ins
-)
-;
-bool
 lowerTruncateDToInt32
 (
 MTruncateToInt32

@@ -795,16 +795,6 @@ return
 false
 ;
 }
-static
-bool
-allowFloat32Optimizations
-(
-)
-{
-return
-false
-;
-}
 }
 ;
 }
