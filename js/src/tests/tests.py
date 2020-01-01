@@ -492,7 +492,8 @@ self
 path
 )
         
-return
+cmd
+=
 js_cmd_prefix
 +
 Test
@@ -501,7 +502,26 @@ prefix_command
 (
 dir
 )
+        
+if
+self
+.
+debugMode
+:
+            
+cmd
 +
+=
+[
+'
+-
+d
+'
+]
+        
+cmd
++
+=
 [
 '
 -
@@ -516,6 +536,9 @@ self
 .
 path
 ]
+        
+return
+cmd
     
 def
 run
@@ -596,6 +619,7 @@ enable
 expect
 random
 slow
+debugMode
 )
 :
         
@@ -630,6 +654,12 @@ self
 slow
 =
 slow
+        
+self
+.
+debugMode
+=
+debugMode
     
 def
 __str__
@@ -696,6 +726,19 @@ ans
 =
 '
 slow
+'
+        
+if
+self
+.
+debugMode
+:
+            
+ans
++
+=
+'
+debugMode
 '
         
 return

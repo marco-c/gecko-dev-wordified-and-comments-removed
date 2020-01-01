@@ -341,7 +341,13 @@ script
 1
 .
 js
+require
+-
+or
+(
+debugMode
 skip
+)
 script
 trapflatclosure
 .
