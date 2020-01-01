@@ -53,6 +53,9 @@ isDefault
 guint8
 canDefault
 ;
+guint8
+depressed
+;
 gint32
 curpos
 ;
