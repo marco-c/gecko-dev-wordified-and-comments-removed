@@ -345,13 +345,6 @@ function
 )
 {
 }
-setJSDefaultStatus
-:
-function
-(
-)
-{
-}
 setOverLink
 :
 function
