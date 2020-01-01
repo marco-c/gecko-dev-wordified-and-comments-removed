@@ -459,6 +459,9 @@ script
 debugMode
 !
 =
+(
+bool
+)
 debug
 &
 &
@@ -478,6 +481,9 @@ script
 )
 )
 {
+js
+:
+:
 mjit
 :
 :
@@ -1298,6 +1304,9 @@ hasJITCode
 )
 )
 {
+js
+:
+:
 mjit
 :
 :
