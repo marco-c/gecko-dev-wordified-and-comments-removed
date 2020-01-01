@@ -422,6 +422,8 @@ android
 FORCE_STATIC_LIB
 =
 1
+STL_FLAGS
+=
 DEFINES
 +
 =
