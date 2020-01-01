@@ -1901,6 +1901,8 @@ sending
 jsonString
 )
 ;
+try
+{
 xhr
 .
 send
@@ -1908,6 +1910,13 @@ send
 jsonString
 )
 ;
+}
+catch
+(
+e
+)
+{
+}
 }
 onError
 :
