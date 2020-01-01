@@ -10,12 +10,6 @@ nsNSSDialogHelper
 {
 public
 :
-const
-static
-char
-*
-kDefaultOpenWindowParam
-;
 static
 nsresult
 openDialog
@@ -30,6 +24,10 @@ url
 nsISupports
 *
 params
+PRBool
+modal
+=
+PR_TRUE
 )
 ;
 }
