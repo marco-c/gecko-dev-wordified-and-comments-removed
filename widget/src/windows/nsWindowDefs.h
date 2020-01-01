@@ -27,6 +27,14 @@ h
 "
 #
 define
+MOZ_WM_APP_QUIT
+(
+WM_APP
++
+0x0300
+)
+#
+define
 WIN2K_VERSION
 0x500
 #
