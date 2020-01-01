@@ -443,14 +443,12 @@ JSScript
 Create
 (
 cx
-NullPtr
-(
-)
 false
 NULL
 NULL
 false
 true
+NULL
 JSVERSION_DEFAULT
 0
 )

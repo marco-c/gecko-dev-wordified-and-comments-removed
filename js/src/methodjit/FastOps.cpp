@@ -7170,7 +7170,6 @@ OOL_STUBCALL
 (
 STRICT_VARIANT
 (
-script
 stubs
 :
 :
@@ -8887,7 +8886,6 @@ OOL_STUBCALL
 (
 STRICT_VARIANT
 (
-script
 stubs
 :
 :
@@ -9949,7 +9947,6 @@ OOL_STUBCALL
 (
 STRICT_VARIANT
 (
-script
 ic
 :
 :
@@ -9964,7 +9961,6 @@ OOL_STUBCALL
 (
 STRICT_VARIANT
 (
-script
 stubs
 :
 :

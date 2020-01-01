@@ -4804,6 +4804,17 @@ class
 NewObjectCache
 ;
 inline
+bool
+hasContiguousSlots
+(
+uint32_t
+start
+uint32_t
+count
+)
+const
+;
+inline
 void
 invalidateSlotRange
 (

@@ -679,6 +679,16 @@ isBlockScope
 =
 true
 ;
+blockObj
+.
+setEnclosingBlock
+(
+ct
+-
+>
+blockChain
+)
+;
 stmt
 -
 >

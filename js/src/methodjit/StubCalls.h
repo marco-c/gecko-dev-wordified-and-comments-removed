@@ -1121,6 +1121,15 @@ f
 ;
 void
 JS_FASTCALL
+TypeNestingPrologue
+(
+VMFrame
+&
+f
+)
+;
+void
+JS_FASTCALL
 AnyFrameEpilogue
 (
 VMFrame

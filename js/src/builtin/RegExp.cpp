@@ -3085,7 +3085,9 @@ linearInput
 return
 false
 ;
+const
 Value
+&
 lastIndex
 =
 reobj
@@ -3150,7 +3152,7 @@ chars
 size_t
 length
 =
-linearInput
+input
 -
 >
 length
