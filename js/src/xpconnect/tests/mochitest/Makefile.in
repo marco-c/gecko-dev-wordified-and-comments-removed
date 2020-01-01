@@ -456,6 +456,10 @@ bug504877_helper
 .
 html
 \
+bug571849_helper
+.
+html
+\
 chrome_wrappers_helper
 .
 html
