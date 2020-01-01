@@ -1969,6 +1969,17 @@ MOZ_FAKELIBS
 =
 1
 endif
+ifeq
+(
+Android
+(
+OS_TARGET
+)
+)
+MOZ_FAKELIBS
+=
+1
+endif
 #
 This
 comes
