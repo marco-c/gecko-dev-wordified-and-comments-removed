@@ -1840,9 +1840,11 @@ test
 (
 )
 )
+{
 return
 true
 ;
+}
 mSolo
 .
 sleep
@@ -2029,9 +2031,11 @@ isNull
 i
 )
 )
+{
 return
 false
 ;
+}
 }
 else
 {
@@ -2062,9 +2066,11 @@ i
 )
 )
 )
+{
 return
 false
 ;
+}
 }
 }
 }
@@ -2293,9 +2299,11 @@ isNull
 i
 )
 )
+{
 return
 false
 ;
+}
 }
 else
 {
@@ -2326,9 +2334,11 @@ i
 )
 )
 )
+{
 return
 false
 ;
+}
 }
 }
 }
@@ -3163,6 +3173,7 @@ moveToFirst
 (
 )
 )
+{
 folderId
 =
 c
@@ -3179,6 +3190,7 @@ _id
 )
 )
 ;
+}
 }
 finally
 {
