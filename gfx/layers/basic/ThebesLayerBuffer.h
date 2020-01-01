@@ -130,6 +130,8 @@ aFlags
 gfxContext
 *
 aTarget
+float
+aOpacity
 )
 ;
 protected
@@ -167,6 +169,8 @@ XSide
 aXSide
 YSide
 aYSide
+float
+aOpacity
 )
 ;
 void
@@ -175,6 +179,8 @@ DrawBufferWithRotation
 gfxContext
 *
 aTarget
+float
+aOpacity
 )
 ;
 private
