@@ -394,11 +394,12 @@ BLOCK
 *
 .
 extern
-_invoke_copy_to_stack
+invoke_copy_to_stack
 .
 text
 .
 intel_syntax
+noprefix
 #
 #
 _XPTC__InvokebyIndex
@@ -418,10 +419,10 @@ params
 #
 .
 globl
-_XPTC__InvokebyIndex
+XPTC__InvokebyIndex
 .
 def
-_XPTC__InvokebyIndex
+XPTC__InvokebyIndex
 .
 scl
 3
@@ -430,7 +431,7 @@ type
 46
 .
 endef
-_XPTC__InvokebyIndex
+XPTC__InvokebyIndex
 :
 #
 #
@@ -601,7 +602,7 @@ sub
 rsp
 32
 call
-_invoke_copy_to_stack
+invoke_copy_to_stack
 #
 rcx
 =

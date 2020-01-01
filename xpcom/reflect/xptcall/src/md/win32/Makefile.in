@@ -477,6 +477,13 @@ srcdir
 .
 /
 unix
+ifneq
+(
+(
+TARGET_CPU
+)
+x86_64
+)
 DEFINES
 +
 =
@@ -484,6 +491,7 @@ DEFINES
 DMOZ_USE_STDCALL
 -
 DMOZ_NEED_LEADING_UNDERSCORE
+endif
 else
 #
 FIXME
