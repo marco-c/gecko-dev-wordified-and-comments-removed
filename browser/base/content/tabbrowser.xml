@@ -15270,7 +15270,17 @@ bug
 "
 608628
 .
+Call
+stack
+:
 "
++
+new
+Error
+(
+)
+.
+stack
 )
 ;
 }
