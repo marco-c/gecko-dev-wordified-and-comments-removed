@@ -66,6 +66,9 @@ nsBindingManager
 ;
 class
 nsNodeInfoManager
+:
+public
+nsISupports
 {
 public
 :
@@ -78,11 +81,8 @@ nsNodeInfoManager
 (
 )
 ;
-NS_DECL_CYCLE_COLLECTION_NATIVE_CLASS
-(
-nsNodeInfoManager
-)
-NS_INLINE_DECL_REFCOUNTING
+NS_DECL_CYCLE_COLLECTING_ISUPPORTS
+NS_DECL_CYCLE_COLLECTION_CLASS
 (
 nsNodeInfoManager
 )
