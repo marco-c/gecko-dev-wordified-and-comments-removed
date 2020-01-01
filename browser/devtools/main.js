@@ -951,15 +951,7 @@ inspectorStrings
 )
 key
 :
-l10n
-(
-"
-inspector
-.
-commandkey
-"
-inspectorStrings
-)
+null
 ordinal
 :
 2
