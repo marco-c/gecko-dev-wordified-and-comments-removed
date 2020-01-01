@@ -97,6 +97,12 @@ IonActivation
 *
 activation_
 ;
+void
+dumpBaseline
+(
+)
+const
+;
 public
 :
 IonFrameIterator
@@ -483,6 +489,12 @@ const
 SafepointIndex
 *
 safepoint
+(
+)
+const
+;
+size_t
+numBaselineStackValues
 (
 )
 const
