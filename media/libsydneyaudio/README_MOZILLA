@@ -215,3 +215,16 @@ AIX
 5
 .
 x
+bug562488_oss_destroy_crash
+.
+patch
+:
+Fix
+crash
+in
+OSS
+backend
+when
+destroying
+stream
+.

@@ -131,3 +131,10 @@ p3
 sydney_aix
 .
 patch
+patch
+-
+p3
+<
+bug562488_oss_destroy_crash
+.
+patch

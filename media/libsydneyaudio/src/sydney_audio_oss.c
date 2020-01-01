@@ -841,6 +841,9 @@ result
 =
 SA_SUCCESS
 ;
+pthread_t
+thread_id
+;
 if
 (
 s
@@ -861,6 +864,13 @@ s
 >
 mutex
 )
+;
+thread_id
+=
+s
+-
+>
+thread_id
 ;
 s
 -
@@ -913,6 +923,12 @@ s
 -
 >
 mutex
+)
+;
+pthread_join
+(
+thread_id
+NULL
 )
 ;
 if
