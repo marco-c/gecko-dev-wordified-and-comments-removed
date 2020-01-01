@@ -536,6 +536,12 @@ xhtml
 test_pointer
 -
 events
+.
+xhtml
+\
+test_pointer
+-
+events
 -
 2
 .
