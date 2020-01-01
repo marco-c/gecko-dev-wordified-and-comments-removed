@@ -731,6 +731,16 @@ moz
 -
 mac
 -
+disabledtoolbartext
+_moz_mac_disabledtoolbartext
+)
+CSS_KEY
+(
+-
+moz
+-
+mac
+-
 secondaryhighlight
 _moz_mac_secondaryhighlight
 )
