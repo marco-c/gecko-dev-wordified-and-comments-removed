@@ -3806,6 +3806,19 @@ CPP_PROG_LINK
 =
 1
 endif
+ifneq
+(
+(
+HOST_CPPSRCS
+)
+(
+HOST_CMMSRCS
+)
+)
+HOST_CPP_PROG_LINK
+=
+1
+endif
 #
 #
 Make
@@ -7302,7 +7315,7 @@ else
 ifeq
 (
 (
-CPP_PROG_LINK
+HOST_CPP_PROG_LINK
 )
 1
 )
@@ -7349,7 +7362,7 @@ HOST_EXTRA_LIBS
 )
 endif
 #
-CPP_PROG_LINK
+HOST_CPP_PROG_LINK
 endif
 endif
 #
