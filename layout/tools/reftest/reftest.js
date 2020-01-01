@@ -6896,6 +6896,9 @@ focusedWindow
 =
 gContainingWindow
 ;
+#
+ifdef
+XP_MACOSX
 try
 {
 var
@@ -6937,6 +6940,8 @@ ex
 )
 {
 }
+#
+endif
 return
 true
 ;
