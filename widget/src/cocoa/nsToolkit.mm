@@ -506,15 +506,6 @@ h
 #
 import
 <
-Carbon
-/
-Carbon
-.
-h
->
-#
-import
-<
 IOKit
 /
 pwr_mgt

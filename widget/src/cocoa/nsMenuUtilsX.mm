@@ -541,6 +541,15 @@ nsIDOMAbstractView
 .
 h
 "
+#
+include
+<
+Carbon
+/
+Carbon
+.
+h
+>
 void
 nsMenuUtilsX
 :

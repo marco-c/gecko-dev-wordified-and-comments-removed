@@ -33,15 +33,6 @@ nsMenuObjectX
 #
 import
 <
-Carbon
-/
-Carbon
-.
-h
->
-#
-import
-<
 Cocoa
 /
 Cocoa

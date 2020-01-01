@@ -447,15 +447,6 @@ h
 #
 include
 <
-Carbon
-/
-Carbon
-.
-h
->
-#
-include
-<
 CoreFoundation
 /
 CoreFoundation

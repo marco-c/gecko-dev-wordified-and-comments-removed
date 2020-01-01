@@ -48,9 +48,9 @@ XP_MACOSX
 #
 include
 <
-Carbon
+CoreServices
 /
-Carbon
+CoreServices
 .
 h
 >
