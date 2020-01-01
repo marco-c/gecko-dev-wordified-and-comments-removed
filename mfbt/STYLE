@@ -1309,7 +1309,7 @@ fully
 qualified
 include
 path
-then
+and
 substituting
 _
 for
@@ -1318,12 +1318,6 @@ and
 .
 in
 it
-and
-finally
-appending
-a
-trailing
-_
 .
 For
 example
@@ -1335,7 +1329,7 @@ Assertions
 h
 "
 becomes
-mozilla_Assertions_h_
+mozilla_Assertions_h
 .
 Nested
 preprocessor
