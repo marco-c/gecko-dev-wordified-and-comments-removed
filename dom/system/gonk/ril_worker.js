@@ -22831,7 +22831,7 @@ ctlv
 .
 value
 .
-text
+textString
 ;
 ctlv
 =
@@ -22978,7 +22978,7 @@ ctlv
 .
 value
 .
-text
+textString
 ;
 return
 textMsg
@@ -23069,7 +23069,7 @@ ctlv
 .
 value
 .
-text
+textString
 ;
 input
 .
@@ -23236,7 +23236,7 @@ ctlv
 .
 value
 .
-text
+textString
 ;
 ctlv
 =
@@ -23297,7 +23297,7 @@ ctlv
 .
 value
 .
-text
+textString
 ;
 }
 if
@@ -24263,6 +24263,8 @@ length
 )
 {
 return
+this
+.
 retrieveTextString
 (
 length
