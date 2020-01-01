@@ -1024,13 +1024,12 @@ JAVASCRIPT
 ;
 }
 virtual
-nsresult
+already_AddRefed
+<
+nsIScriptContext
+>
 CreateContext
 (
-nsIScriptContext
-*
-*
-ret
 )
 ;
 virtual
