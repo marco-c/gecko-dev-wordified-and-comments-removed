@@ -673,6 +673,10 @@ pc
 (
 )
 callerResumePoint
+MResumePoint
+:
+:
+ResumeAt
 )
 ;
 if
@@ -773,6 +777,10 @@ pc
 callerResumePoint
 (
 )
+MResumePoint
+:
+:
+ResumeAt
 )
 ;
 if

@@ -3789,6 +3789,8 @@ pc
 MResumePoint
 *
 parent
+Mode
+mode
 )
 {
 MResumePoint
@@ -3801,6 +3803,7 @@ MResumePoint
 block
 pc
 parent
+mode
 )
 ;
 if
@@ -3843,6 +3846,8 @@ pc
 MResumePoint
 *
 caller
+Mode
+mode
 )
 :
 MNode
@@ -3865,6 +3870,10 @@ pc
 caller_
 (
 caller
+)
+mode_
+(
+mode
 )
 {
 }
