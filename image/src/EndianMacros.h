@@ -12,6 +12,10 @@ WORDS_BIGENDIAN
 |
 defined
 IS_BIG_ENDIAN
+|
+|
+defined
+__BIG_ENDIAN__
 #
 define
 LITTLE_TO_NATIVE16
