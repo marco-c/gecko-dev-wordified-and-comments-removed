@@ -385,6 +385,15 @@ Ci
 nsIFile
 )
 ;
+this
+.
+_dirSvc
+.
+unregisterProvider
+(
+this
+)
+;
 }
 return
 profileDir
