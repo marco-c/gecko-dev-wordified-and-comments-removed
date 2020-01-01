@@ -1696,10 +1696,17 @@ JSObject
 aScope
 )
 {
+JS
+:
+:
+Rooted
+<
 JSObject
 *
+>
 obj
-=
+(
+aCx
 nsINode
 :
 :
@@ -1707,6 +1714,7 @@ WrapObject
 (
 aCx
 aScope
+)
 )
 ;
 if
