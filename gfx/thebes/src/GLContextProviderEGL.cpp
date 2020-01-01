@@ -2562,11 +2562,6 @@ EGL_NO_SURFACE
 break
 ;
 }
-if
-(
-aCreateContext
-)
-{
 EGLint
 cxattribs
 [
@@ -2610,7 +2605,6 @@ surface
 return
 nsnull
 ;
-}
 }
 nsRefPtr
 <
