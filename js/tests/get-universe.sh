@@ -538,6 +538,12 @@ TEST_BRANCH
 ^
 ]
 *
+TEST_REPO
+=
+[
+^
+]
+*
 TEST_BUILDTYPE
 =
 [
