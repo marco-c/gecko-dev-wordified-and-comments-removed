@@ -2488,6 +2488,16 @@ Help
 <
 !
 ENTITY
+developerMenu
+.
+label
+"
+Developer
+"
+>
+<
+!
+ENTITY
 openCmd
 .
 commandkey
