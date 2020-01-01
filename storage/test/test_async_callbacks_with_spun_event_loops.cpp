@@ -313,7 +313,6 @@ NS_IMPL_ISUPPORTS1
 UnownedCallback
 mozIStorageStatementCallback
 )
-;
 bool
 UnownedCallback
 :
