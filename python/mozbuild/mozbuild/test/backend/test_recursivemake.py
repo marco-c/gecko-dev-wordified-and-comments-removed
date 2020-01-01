@@ -345,9 +345,19 @@ readlines
 (
 )
 [
-3
+1
 :
 ]
+if
+not
+l
+.
+startswith
+(
+'
+#
+'
+)
 ]
         
 self
@@ -390,6 +400,7 @@ topsrcdir
             
 '
 VPATH
+:
 =
 %
 s
@@ -400,6 +411,10 @@ env
 topsrcdir
             
 '
+relativesrcdir
+:
+=
+.
 '
             
 '
@@ -419,6 +434,21 @@ mk
 '
             
 '
+FOO
+:
+=
+foo
+'
+            
+'
+'
+            
+'
+ifndef
+INCLUDED_RULES_MK
+'
+            
+'
 include
 (
 topsrcdir
@@ -429,6 +459,10 @@ config
 rules
 .
 mk
+'
+            
+'
+endif
 '
         
 ]
@@ -535,7 +569,7 @@ len
 (
 lines
 )
-9
+11
 )
         
 self

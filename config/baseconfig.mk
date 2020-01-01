@@ -1,6 +1,3 @@
-INCLUDED_AUTOCONF_MK
-=
-1
 includedir
 :
 =
