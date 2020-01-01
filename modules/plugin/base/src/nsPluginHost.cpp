@@ -795,7 +795,7 @@ kPluginRegistryVersion
 "
 0
 .
-11
+12
 "
 ;
 static
