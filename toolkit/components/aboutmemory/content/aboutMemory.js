@@ -1918,6 +1918,7 @@ process
 gMgr
 .
 hasMozMallocUsableSize
+false
 )
 ;
 }
@@ -2063,6 +2064,7 @@ process
 json
 .
 hasMozMallocUsableSize
+true
 )
 ;
 }
@@ -2377,6 +2379,7 @@ appendAboutMemoryMain
 aBody
 aProcess
 aHasMozMallocUsableSize
+aForceShowSmaps
 )
 {
 let
@@ -2399,6 +2402,7 @@ aProcess
 treesByProcess
 degeneratesByProcess
 heapTotalByProcess
+aForceShowSmaps
 )
 ;
 let
@@ -3190,6 +3194,7 @@ aProcessMemoryReports
 aTreesByProcess
 aDegeneratesByProcess
 aHeapTotalByProcess
+aForceShowSmaps
 )
 {
 function
@@ -3208,6 +3213,10 @@ aUnsafePath
 &
 !
 gVerbose
+&
+&
+!
+aForceShowSmaps
 )
 |
 |
@@ -3254,6 +3263,10 @@ smaps
 &
 !
 gVerbose
+&
+&
+!
+aForceShowSmaps
 )
 |
 |
@@ -5242,11 +5255,6 @@ treeName
 ]
 ;
 }
-if
-(
-gVerbose
-)
-{
 kSmapsTreeNames
 .
 forEach
@@ -5337,7 +5345,6 @@ aTreeName
 }
 )
 ;
-}
 let
 otherTrees
 =
