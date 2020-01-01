@@ -524,7 +524,6 @@ Entry
 *
 cur
 *
-const
 end
 ;
 public
