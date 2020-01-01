@@ -6289,14 +6289,6 @@ proto
 )
 NULL
 }
-{
-js_InitObjectClass
-EAGER_ATOM
-(
-parent
-)
-NULL
-}
 #
 if
 JS_HAS_TOSOURCE

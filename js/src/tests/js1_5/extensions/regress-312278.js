@@ -19,7 +19,7 @@ summary
 =
 '
 Do
-no
+not
 access
 GC
 -
@@ -82,9 +82,10 @@ function
 }
 }
 return
+parent
+(
 f
-.
-__parent__
+)
 ;
 }
 function

@@ -19,7 +19,6 @@ not
 crash
 calling
 __proto__
-__parent__
 "
 ;
 var
@@ -61,15 +60,6 @@ element
 >
 .
 __proto__
-(
-)
-;
-<
-element
-/
->
-.
-__parent__
 (
 )
 ;

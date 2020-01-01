@@ -72,9 +72,6 @@ __proto__
 __iterator__
 "
 "
-__parent__
-"
-"
 __exposedProps__
 "
 }

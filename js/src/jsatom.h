@@ -1014,10 +1014,6 @@ noSuchMethodAtom
 ;
 JSAtom
 *
-parentAtom
-;
-JSAtom
-*
 protoAtom
 ;
 JSAtom
@@ -1717,13 +1713,6 @@ extern
 const
 char
 js_object_str
-[
-]
-;
-extern
-const
-char
-js_parent_str
 [
 ]
 ;

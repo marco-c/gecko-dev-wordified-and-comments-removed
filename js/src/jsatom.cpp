@@ -380,7 +380,6 @@ js_message_str
 js_name_str
 js_next_str
 js_noSuchMethod_str
-js_parent_str
 js_proto_str
 js_set_str
 js_stack_str
@@ -706,16 +705,6 @@ js_object_str
 =
 "
 object
-"
-;
-const
-char
-js_parent_str
-[
-]
-=
-"
-__parent__
 "
 ;
 const
