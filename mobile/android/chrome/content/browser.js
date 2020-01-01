@@ -21601,7 +21601,7 @@ HTMLTextAreaElement
 )
 SelectionHandler
 .
-showThumb
+attachCaret
 (
 element
 )
