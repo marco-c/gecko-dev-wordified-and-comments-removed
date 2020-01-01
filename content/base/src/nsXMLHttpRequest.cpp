@@ -13344,6 +13344,17 @@ if
 safeHeader
 )
 {
+if
+(
+!
+mCORSUnsafeHeaders
+.
+Contains
+(
+header
+)
+)
+{
 mCORSUnsafeHeaders
 .
 AppendElement
@@ -13351,6 +13362,7 @@ AppendElement
 header
 )
 ;
+}
 }
 }
 nsresult
