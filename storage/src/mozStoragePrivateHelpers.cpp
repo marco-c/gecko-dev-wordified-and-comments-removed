@@ -642,12 +642,8 @@ msecd
 ;
 int64_t
 msec
-;
-LL_D2L
-(
-msec
+=
 msecd
-)
 ;
 return
 new
