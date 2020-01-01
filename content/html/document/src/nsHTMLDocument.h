@@ -830,17 +830,6 @@ GenerateParserKey
 void
 )
 ;
-virtual
-PRInt32
-GetDefaultNamespaceID
-(
-)
-const
-{
-return
-kNameSpaceID_XHTML
-;
-}
 nsCOMPtr
 <
 nsIDOMHTMLCollection
