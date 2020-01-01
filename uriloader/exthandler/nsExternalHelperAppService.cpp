@@ -6500,6 +6500,9 @@ MaybeCloseWindow
 (
 )
 ;
+#
+ifdef
+MOZ_IPC
 if
 (
 XRE_GetProcessType
@@ -6512,6 +6515,8 @@ GeckoProcessType_Content
 return
 NS_OK
 ;
+#
+endif
 rv
 =
 SetUpTempFile
