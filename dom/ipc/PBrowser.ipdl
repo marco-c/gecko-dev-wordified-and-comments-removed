@@ -1825,6 +1825,17 @@ rendering
 the
 document
 .
+The
+rendered
+image
+will
+be
+of
+size
+|
+renderSize
+|
+.
 *
 /
 PDocumentRenderer
@@ -1839,6 +1850,8 @@ PRUint32
 renderFlags
 bool
 flushLayout
+nsIntSize
+renderSize
 )
 ;
 /

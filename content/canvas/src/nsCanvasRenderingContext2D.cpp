@@ -16135,6 +16135,11 @@ aBGColor
 )
 renderDocFlags
 flush
+nsIntSize
+(
+mWidth
+mHeight
+)
 )
 ;
 if

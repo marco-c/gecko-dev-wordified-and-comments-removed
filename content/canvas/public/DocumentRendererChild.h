@@ -85,9 +85,10 @@ PRUint32
 renderFlags
 PRBool
 flushLayout
+const
 nsIntSize
-*
-renderedSize
+&
+renderSize
 nsCString
 &
 data
