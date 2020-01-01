@@ -4015,6 +4015,7 @@ NS_OK
 }
 class
 ProfileChangeStatusImpl
+MOZ_FINAL
 :
 public
 nsIProfileChangeStatus

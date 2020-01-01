@@ -43,6 +43,15 @@ nsString
 h
 "
 #
+include
+"
+mozilla
+/
+Attributes
+.
+h
+"
+#
 endif
 class
 nsIFile
@@ -131,6 +140,7 @@ ifdef
 MOZ_UPDATER
 class
 nsUpdateProcessor
+MOZ_FINAL
 :
 public
 nsIUpdateProcessor

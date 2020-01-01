@@ -106,6 +106,15 @@ h
 #
 include
 "
+mozilla
+/
+Attributes
+.
+h
+"
+#
+include
+"
 nsAppRunner
 .
 h
@@ -4598,6 +4607,7 @@ rv
 }
 class
 nsSingletonFactory
+MOZ_FINAL
 :
 public
 nsIFactory
