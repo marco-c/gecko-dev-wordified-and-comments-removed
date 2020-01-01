@@ -14143,7 +14143,7 @@ objformat
 |
 |
 echo
-aout
+elf
 !
 =
 "

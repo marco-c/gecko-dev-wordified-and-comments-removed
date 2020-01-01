@@ -522,7 +522,7 @@ objformat
 |
 |
 echo
-aout
+elf
 )
 ifeq
 (
