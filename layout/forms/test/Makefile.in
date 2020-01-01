@@ -217,10 +217,6 @@ test_listcontrol_search
 .
 html
 \
-test_button_inner_events
-.
-html
-\
 (
 NULL
 )
