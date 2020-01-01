@@ -170,6 +170,12 @@ EndLoad
 (
 )
 ;
+virtual
+PRBool
+IsLoadedAsData
+(
+)
+;
 NS_IMETHOD
 CloneNode
 (
@@ -245,6 +251,9 @@ mChannelIsPending
 ;
 PRPackedBool
 mCrossSiteAccessEnabled
+;
+PRPackedBool
+mLoadedAsData
 ;
 PRPackedBool
 mLoadedAsInteractiveData

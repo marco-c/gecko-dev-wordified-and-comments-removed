@@ -284,14 +284,6 @@ aResult
 =
 0
 ;
-virtual
-void
-DisableCookieAccess
-(
-)
-=
-0
-;
 }
 ;
 NS_DEFINE_STATIC_IID_ACCESSOR

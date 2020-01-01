@@ -398,11 +398,6 @@ GetCurrentHttpChannel
 (
 )
 ;
-nsresult
-CheckChannelForCrossSiteRequest
-(
-)
-;
 nsCOMPtr
 <
 nsISupports
@@ -432,12 +427,6 @@ nsCOMPtr
 nsIDOMDocument
 >
 mDocument
-;
-nsCOMPtr
-<
-nsIChannel
->
-mACGetChannel
 ;
 nsCOMArray
 <
@@ -577,12 +566,6 @@ mProgressEventSink
 ;
 PRUint32
 mState
-;
-nsTArray
-<
-nsCString
->
-mExtraRequestHeaders
 ;
 }
 ;
