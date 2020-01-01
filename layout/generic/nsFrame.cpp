@@ -963,7 +963,7 @@ void
 nsWeakFrame
 :
 :
-Init
+InitInternal
 (
 nsIFrame
 *
