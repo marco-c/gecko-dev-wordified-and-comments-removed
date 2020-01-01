@@ -76,6 +76,13 @@ nsInt64
 h
 "
 #
+include
+"
+nsIClassInfoImpl
+.
+h
+"
+#
 if
 defined
 (

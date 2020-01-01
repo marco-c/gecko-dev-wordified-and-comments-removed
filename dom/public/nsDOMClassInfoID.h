@@ -318,6 +318,9 @@ eDOMClassInfo_LoadStatusEvent_id
 eDOMClassInfoIDCount
 }
 ;
+class
+nsIClassInfo
+;
 extern
 nsIClassInfo
 *

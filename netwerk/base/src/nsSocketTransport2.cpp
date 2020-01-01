@@ -189,6 +189,13 @@ nsIProgrammingLanguage
 h
 "
 #
+include
+"
+nsIClassInfoImpl
+.
+h
+"
+#
 if
 defined
 (
