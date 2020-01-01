@@ -471,14 +471,6 @@ js_static
 (
 LIB_SUFFIX
 )
-ifdef
-JS_TYPE_INFERENCE
-LIBS
-+
-=
--
-lz
-endif
 LOCAL_INCLUDES
 +
 =

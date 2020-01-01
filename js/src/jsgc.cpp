@@ -9998,13 +9998,6 @@ nextToGC
 =
 NULL
 ;
-#
-ifdef
-JS_TYPE_INFERENCE
-continue
-;
-#
-endif
 js_DestroyCachedScript
 (
 cx

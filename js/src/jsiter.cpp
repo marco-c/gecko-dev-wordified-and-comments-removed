@@ -1940,7 +1940,6 @@ regs
 -
 >
 pc
-0
 (
 jstype
 )
@@ -6148,12 +6147,10 @@ script
 script
 -
 >
-typeMonitorResult
+typeMonitorUnknown
 (
 cx
 yieldpc
-0
-arg
 )
 ;
 }
