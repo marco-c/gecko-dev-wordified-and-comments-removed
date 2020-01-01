@@ -93,6 +93,10 @@ mCARenderer
 (
 nullptr
 )
+mWrapperCALayer
+(
+nullptr
+)
 mFBOTexture
 (
 0
@@ -228,7 +232,7 @@ aHeight
 )
 ;
 void
-DettachCALayer
+DetachCALayer
 (
 )
 ;
@@ -282,6 +286,10 @@ Destroy
 void
 *
 mCARenderer
+;
+void
+*
+mWrapperCALayer
 ;
 GLuint
 mFBOTexture
