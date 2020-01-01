@@ -100,16 +100,6 @@ aSize
 )
 ;
 virtual
-PRBool
-AreSimilarSurfacesSensitiveToContentType
-(
-)
-{
-return
-PR_FALSE
-;
-}
-virtual
 TextQuality
 GetTextQualityInTransparentSurfaces
 (
