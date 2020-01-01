@@ -643,6 +643,15 @@ gap
 :
 inherit
 ;
+-
+moz
+-
+column
+-
+rule
+:
+inherit
+;
 position
 :
 static
