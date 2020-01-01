@@ -11,9 +11,6 @@ onLocationChange
 "
 onStateChange
 "
-"
-onLinkIconAvailable
-"
 ]
 ;
 var
