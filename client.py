@@ -136,9 +136,7 @@ optparse
 import
 OptionParser
 from
-build
-.
-util
+subprocess
 import
 check_call
 topsrcdir
