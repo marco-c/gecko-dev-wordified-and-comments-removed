@@ -7,6 +7,15 @@ nsDOMEvent_h__
 #
 include
 "
+mozilla
+/
+Attributes
+.
+h
+"
+#
+include
+"
 nsIDOMEvent
 .
 h
@@ -415,6 +424,7 @@ CallArgs
 &
 aArgs
 )
+MOZ_OVERRIDE
 ;
 virtual
 nsresult

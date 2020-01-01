@@ -7,6 +7,15 @@ nsXBLEventHandler_h__
 #
 include
 "
+mozilla
+/
+Attributes
+.
+h
+"
+#
+include
+"
 nsCOMPtr
 .
 h
@@ -114,6 +123,7 @@ nsIDOMEvent
 *
 aEvent
 )
+MOZ_OVERRIDE
 ;
 }
 ;

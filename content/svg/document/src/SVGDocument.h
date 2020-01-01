@@ -9,6 +9,15 @@ include
 "
 mozilla
 /
+Attributes
+.
+h
+"
+#
+include
+"
+mozilla
+/
 dom
 /
 XMLDocument
@@ -133,6 +142,7 @@ nsINode
 aResult
 )
 const
+MOZ_OVERRIDE
 ;
 void
 GetDomain

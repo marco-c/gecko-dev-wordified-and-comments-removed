@@ -7,6 +7,15 @@ mozilla_dom_HTMLSourceElement_h
 #
 include
 "
+mozilla
+/
+Attributes
+.
+h
+"
+#
+include
+"
 nsIDOMHTMLSourceElement
 .
 h
@@ -78,6 +87,7 @@ nsINode
 aResult
 )
 const
+MOZ_OVERRIDE
 ;
 virtual
 nsresult
@@ -95,6 +105,7 @@ aBindingParent
 bool
 aCompileEventHandlers
 )
+MOZ_OVERRIDE
 ;
 virtual
 nsIDOMNode
@@ -102,6 +113,7 @@ nsIDOMNode
 AsDOMNode
 (
 )
+MOZ_OVERRIDE
 {
 return
 this
@@ -269,6 +281,7 @@ nsAString
 &
 text
 )
+MOZ_OVERRIDE
 ;
 virtual
 void
@@ -279,6 +292,7 @@ nsAString
 &
 text
 )
+MOZ_OVERRIDE
 ;
 }
 ;

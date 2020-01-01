@@ -9,6 +9,15 @@ include
 "
 mozilla
 /
+Attributes
+.
+h
+"
+#
+include
+"
+mozilla
+/
 ReentrantMonitor
 .
 h
@@ -332,6 +341,7 @@ NS_IMETHOD
 Run
 (
 )
+MOZ_OVERRIDE
 {
 mThread
 -

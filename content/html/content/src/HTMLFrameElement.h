@@ -7,6 +7,15 @@ mozilla_dom_HTMLFrameElement_h
 #
 include
 "
+mozilla
+/
+Attributes
+.
+h
+"
+#
+include
+"
 nsIDOMHTMLFrameElement
 .
 h
@@ -91,6 +100,7 @@ nsAttrValue
 &
 aResult
 )
+MOZ_OVERRIDE
 ;
 NS_IMETHOD_
 (
@@ -104,12 +114,14 @@ nsIAtom
 aAttribute
 )
 const
+MOZ_OVERRIDE
 ;
 nsMapRuleToAttributesFunc
 GetAttributeMappingFunction
 (
 )
 const
+MOZ_OVERRIDE
 ;
 virtual
 nsresult
@@ -124,6 +136,7 @@ nsINode
 aResult
 )
 const
+MOZ_OVERRIDE
 ;
 virtual
 nsIDOMNode
@@ -131,6 +144,7 @@ nsIDOMNode
 AsDOMNode
 (
 )
+MOZ_OVERRIDE
 {
 return
 this

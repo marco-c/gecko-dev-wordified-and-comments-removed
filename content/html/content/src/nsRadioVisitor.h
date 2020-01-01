@@ -7,6 +7,15 @@ _nsRadioVisitor_h__
 #
 include
 "
+mozilla
+/
+Attributes
+.
+h
+"
+#
+include
+"
 nsIRadioVisitor
 .
 h
@@ -43,6 +52,7 @@ nsIFormControl
 *
 aRadio
 )
+MOZ_OVERRIDE
 =
 0
 ;
@@ -76,6 +86,7 @@ nsIFormControl
 *
 aRadio
 )
+MOZ_OVERRIDE
 ;
 protected
 :
@@ -120,6 +131,7 @@ nsIFormControl
 *
 aRadio
 )
+MOZ_OVERRIDE
 ;
 protected
 :
@@ -174,6 +186,7 @@ nsIFormControl
 *
 aRadio
 )
+MOZ_OVERRIDE
 ;
 protected
 :

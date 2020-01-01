@@ -7,6 +7,15 @@ __NS_STYLEDELEMENT_H_
 #
 include
 "
+mozilla
+/
+Attributes
+.
+h
+"
+#
+include
+"
 nsString
 .
 h
@@ -76,6 +85,7 @@ GetClassAttributeName
 (
 )
 const
+MOZ_OVERRIDE
 ;
 virtual
 nsIAtom
@@ -84,6 +94,7 @@ GetIDAttributeName
 (
 )
 const
+MOZ_OVERRIDE
 ;
 virtual
 nsIAtom
@@ -92,6 +103,7 @@ DoGetID
 (
 )
 const
+MOZ_OVERRIDE
 ;
 virtual
 const
@@ -101,6 +113,7 @@ DoGetClasses
 (
 )
 const
+MOZ_OVERRIDE
 ;
 virtual
 mozilla
@@ -135,6 +148,7 @@ aSerialized
 bool
 aNotify
 )
+MOZ_OVERRIDE
 ;
 virtual
 nsresult
@@ -148,6 +162,7 @@ aAttribute
 bool
 aNotify
 )
+MOZ_OVERRIDE
 ;
 virtual
 nsresult
@@ -165,6 +180,7 @@ aValue
 bool
 aNotify
 )
+MOZ_OVERRIDE
 ;
 nsICSSDeclaration
 *
@@ -205,6 +221,7 @@ nsAttrValue
 &
 aResult
 )
+MOZ_OVERRIDE
 ;
 friend
 class

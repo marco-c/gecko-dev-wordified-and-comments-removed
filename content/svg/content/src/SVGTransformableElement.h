@@ -7,6 +7,15 @@ SVGTransformableElement_h
 #
 include
 "
+mozilla
+/
+Attributes
+.
+h
+"
+#
+include
+"
 nsSVGAnimatedTransformList
 .
 h
@@ -163,6 +172,7 @@ nsIAtom
 aAttribute
 )
 const
+MOZ_OVERRIDE
 ;
 nsChangeHint
 GetAttributeChangeHint
@@ -175,6 +185,7 @@ int32_t
 aModType
 )
 const
+MOZ_OVERRIDE
 ;
 virtual
 bool
@@ -200,6 +211,7 @@ aWhich
 eAllTransforms
 )
 const
+MOZ_OVERRIDE
 ;
 virtual
 const
@@ -209,6 +221,7 @@ GetAnimateMotionTransform
 (
 )
 const
+MOZ_OVERRIDE
 ;
 virtual
 void
@@ -219,6 +232,7 @@ gfxMatrix
 *
 aMatrix
 )
+MOZ_OVERRIDE
 ;
 virtual
 nsSVGAnimatedTransformList
@@ -230,6 +244,7 @@ aFlags
 =
 0
 )
+MOZ_OVERRIDE
 ;
 virtual
 nsIAtom
@@ -238,6 +253,7 @@ GetTransformListAttrName
 (
 )
 const
+MOZ_OVERRIDE
 {
 return
 nsGkAtoms
@@ -251,6 +267,7 @@ bool
 IsTransformable
 (
 )
+MOZ_OVERRIDE
 {
 return
 true

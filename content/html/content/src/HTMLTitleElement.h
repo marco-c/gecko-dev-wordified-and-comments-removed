@@ -124,6 +124,7 @@ nsINode
 aResult
 )
 const
+MOZ_OVERRIDE
 ;
 virtual
 nsresult
@@ -141,6 +142,7 @@ aBindingParent
 bool
 aCompileEventHandlers
 )
+MOZ_OVERRIDE
 ;
 virtual
 void
@@ -155,6 +157,7 @@ aNullParent
 =
 true
 )
+MOZ_OVERRIDE
 ;
 virtual
 void
@@ -163,6 +166,7 @@ DoneAddingChildren
 bool
 aHaveNotified
 )
+MOZ_OVERRIDE
 ;
 virtual
 nsIDOMNode
@@ -170,6 +174,7 @@ nsIDOMNode
 AsDOMNode
 (
 )
+MOZ_OVERRIDE
 {
 return
 this

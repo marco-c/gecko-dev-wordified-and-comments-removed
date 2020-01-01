@@ -113,6 +113,7 @@ JSObject
 >
 aScope
 )
+MOZ_OVERRIDE
 {
 return
 SVGRectBinding

@@ -7,6 +7,15 @@ __NS_SVGFILTERSELEMENT_H__
 #
 include
 "
+mozilla
+/
+Attributes
+.
+h
+"
+#
+include
+"
 gfxImageSurface
 .
 h
@@ -573,6 +582,7 @@ nsIAtom
 aAttribute
 )
 const
+MOZ_OVERRIDE
 ;
 virtual
 nsresult
@@ -597,6 +607,7 @@ HasValidDimensions
 (
 )
 const
+MOZ_OVERRIDE
 ;
 bool
 IsNodeOfType
@@ -605,6 +616,7 @@ uint32_t
 aFlags
 )
 const
+MOZ_OVERRIDE
 {
 return
 !

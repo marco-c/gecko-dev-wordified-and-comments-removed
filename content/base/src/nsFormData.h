@@ -7,6 +7,15 @@ nsFormData_h__
 #
 include
 "
+mozilla
+/
+Attributes
+.
+h
+"
+#
+include
+"
 nsIDOMFormData
 .
 h
@@ -230,6 +239,7 @@ nsIInputStream
 *
 aPostDataStream
 )
+MOZ_OVERRIDE
 ;
 virtual
 nsresult
@@ -244,6 +254,7 @@ nsAString
 &
 aValue
 )
+MOZ_OVERRIDE
 {
 FormDataTuple
 *
@@ -296,6 +307,7 @@ nsString
 &
 aFilename
 )
+MOZ_OVERRIDE
 {
 FormDataTuple
 *

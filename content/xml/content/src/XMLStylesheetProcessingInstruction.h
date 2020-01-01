@@ -9,6 +9,15 @@ include
 "
 mozilla
 /
+Attributes
+.
+h
+"
+#
+include
+"
+mozilla
+/
 dom
 /
 ProcessingInstruction
@@ -142,6 +151,7 @@ ErrorResult
 &
 aError
 )
+MOZ_OVERRIDE
 ;
 virtual
 nsresult
@@ -159,6 +169,7 @@ aBindingParent
 bool
 aCompileEventHandlers
 )
+MOZ_OVERRIDE
 ;
 virtual
 void
@@ -173,6 +184,7 @@ aNullParent
 =
 true
 )
+MOZ_OVERRIDE
 ;
 virtual
 void
@@ -182,6 +194,7 @@ nsIURI
 *
 aNewBaseURI
 )
+MOZ_OVERRIDE
 ;
 NS_IMETHOD
 GetCharset
@@ -190,6 +203,7 @@ nsAString
 &
 aCharset
 )
+MOZ_OVERRIDE
 ;
 protected
 :
@@ -209,6 +223,7 @@ bool
 *
 aIsInline
 )
+MOZ_OVERRIDE
 ;
 void
 GetStyleSheetInfo
@@ -229,6 +244,7 @@ bool
 *
 aIsAlternate
 )
+MOZ_OVERRIDE
 ;
 virtual
 nsGenericDOMDataNode
@@ -242,6 +258,7 @@ bool
 aCloneText
 )
 const
+MOZ_OVERRIDE
 ;
 }
 ;

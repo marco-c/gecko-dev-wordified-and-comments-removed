@@ -7,6 +7,15 @@ __NS_SVGPATHDATAPARSER_H__
 #
 include
 "
+mozilla
+/
+Attributes
+.
+h
+"
+#
+include
+"
 gfxPoint
 .
 h
@@ -194,6 +203,7 @@ nsresult
 Match
 (
 )
+MOZ_OVERRIDE
 ;
 nsresult
 MatchCoordPair
@@ -612,12 +622,14 @@ x
 float
 y
 )
+MOZ_OVERRIDE
 ;
 virtual
 nsresult
 StoreClosePath
 (
 )
+MOZ_OVERRIDE
 ;
 virtual
 nsresult
@@ -630,6 +642,7 @@ x
 float
 y
 )
+MOZ_OVERRIDE
 ;
 virtual
 nsresult
@@ -640,6 +653,7 @@ absCoords
 float
 x
 )
+MOZ_OVERRIDE
 ;
 virtual
 nsresult
@@ -650,6 +664,7 @@ absCoords
 float
 y
 )
+MOZ_OVERRIDE
 ;
 virtual
 nsresult
@@ -670,6 +685,7 @@ x2
 float
 y2
 )
+MOZ_OVERRIDE
 ;
 virtual
 nsresult
@@ -686,6 +702,7 @@ x2
 float
 y2
 )
+MOZ_OVERRIDE
 ;
 virtual
 nsresult
@@ -702,6 +719,7 @@ x1
 float
 y1
 )
+MOZ_OVERRIDE
 ;
 virtual
 nsresult
@@ -714,6 +732,7 @@ x
 float
 y
 )
+MOZ_OVERRIDE
 ;
 virtual
 nsresult
@@ -736,6 +755,7 @@ largeArcFlag
 bool
 sweepFlag
 )
+MOZ_OVERRIDE
 ;
 private
 :

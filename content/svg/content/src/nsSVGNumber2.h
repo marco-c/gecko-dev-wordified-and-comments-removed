@@ -292,6 +292,7 @@ float
 *
 aResult
 )
+MOZ_OVERRIDE
 {
 *
 aResult
@@ -313,6 +314,7 @@ SetBaseVal
 float
 aValue
 )
+MOZ_OVERRIDE
 {
 if
 (
@@ -347,6 +349,7 @@ float
 *
 aResult
 )
+MOZ_OVERRIDE
 {
 mSVGElement
 -
@@ -433,6 +436,7 @@ bool
 aPreventCachingOfSandwich
 )
 const
+MOZ_OVERRIDE
 ;
 virtual
 nsSMILValue
@@ -440,12 +444,14 @@ GetBaseValue
 (
 )
 const
+MOZ_OVERRIDE
 ;
 virtual
 void
 ClearAnimValue
 (
 )
+MOZ_OVERRIDE
 ;
 virtual
 nsresult
@@ -456,6 +462,7 @@ nsSMILValue
 &
 aValue
 )
+MOZ_OVERRIDE
 ;
 }
 ;

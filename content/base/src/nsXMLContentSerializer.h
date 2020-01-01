@@ -7,6 +7,15 @@ nsXMLContentSerializer_h__
 #
 include
 "
+mozilla
+/
+Attributes
+.
+h
+"
+#
+include
+"
 nsIContentSerializer
 .
 h
@@ -101,6 +110,7 @@ aIsCopying
 bool
 aRewriteEncodingDeclaration
 )
+MOZ_OVERRIDE
 ;
 NS_IMETHOD
 AppendText
@@ -116,6 +126,7 @@ nsAString
 &
 aStr
 )
+MOZ_OVERRIDE
 ;
 NS_IMETHOD
 AppendCDATASection
@@ -131,6 +142,7 @@ nsAString
 &
 aStr
 )
+MOZ_OVERRIDE
 ;
 NS_IMETHOD
 AppendProcessingInstruction
@@ -146,6 +158,7 @@ nsAString
 &
 aStr
 )
+MOZ_OVERRIDE
 ;
 NS_IMETHOD
 AppendComment
@@ -161,6 +174,7 @@ nsAString
 &
 aStr
 )
+MOZ_OVERRIDE
 ;
 NS_IMETHOD
 AppendDoctype
@@ -172,6 +186,7 @@ nsAString
 &
 aStr
 )
+MOZ_OVERRIDE
 ;
 NS_IMETHOD
 AppendElementStart
@@ -198,6 +213,7 @@ nsAString
 &
 aStr
 )
+MOZ_OVERRIDE
 ;
 NS_IMETHOD
 AppendElementEnd
@@ -215,6 +231,7 @@ nsAString
 &
 aStr
 )
+MOZ_OVERRIDE
 ;
 NS_IMETHOD
 Flush
@@ -223,6 +240,7 @@ nsAString
 &
 aStr
 )
+MOZ_OVERRIDE
 {
 return
 NS_OK
@@ -238,6 +256,7 @@ nsAString
 &
 aStr
 )
+MOZ_OVERRIDE
 ;
 protected
 :

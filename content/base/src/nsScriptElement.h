@@ -1,6 +1,15 @@
 #
 include
 "
+mozilla
+/
+Attributes
+.
+h
+"
+#
+include
+"
 nsIScriptLoaderObserver
 .
 h
@@ -57,6 +66,7 @@ nsresult
 FireErrorEvent
 (
 )
+MOZ_OVERRIDE
 ;
 protected
 :
@@ -73,6 +83,7 @@ bool
 MaybeProcessScript
 (
 )
+MOZ_OVERRIDE
 ;
 }
 ;

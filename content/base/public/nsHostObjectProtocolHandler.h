@@ -7,6 +7,15 @@ nsHostObjectProtocolHandler_h
 #
 include
 "
+mozilla
+/
+Attributes
+.
+h
+"
+#
+include
+"
 nsIProtocolHandler
 .
 h
@@ -72,6 +81,7 @@ int32_t
 *
 aDefaultPort
 )
+MOZ_OVERRIDE
 ;
 NS_IMETHOD
 GetProtocolFlags
@@ -80,6 +90,7 @@ uint32_t
 *
 aProtocolFlags
 )
+MOZ_OVERRIDE
 ;
 NS_IMETHOD
 NewURI
@@ -100,6 +111,7 @@ nsIURI
 *
 _retval
 )
+MOZ_OVERRIDE
 ;
 NS_IMETHOD
 NewChannel
@@ -112,6 +124,7 @@ nsIChannel
 *
 _retval
 )
+MOZ_OVERRIDE
 ;
 NS_IMETHOD
 AllowPort
@@ -126,6 +139,7 @@ bool
 *
 _retval
 )
+MOZ_OVERRIDE
 ;
 static
 nsresult
@@ -197,6 +211,7 @@ nsACString
 &
 result
 )
+MOZ_OVERRIDE
 ;
 }
 ;
@@ -215,6 +230,7 @@ nsACString
 &
 result
 )
+MOZ_OVERRIDE
 ;
 }
 ;
