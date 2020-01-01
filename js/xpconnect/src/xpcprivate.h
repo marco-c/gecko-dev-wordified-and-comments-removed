@@ -11186,6 +11186,15 @@ mWrapperWord
 newval
 ;
 }
+JSObject
+*
+GetSameCompartmentSecurityWrapper
+(
+JSContext
+*
+cx
+)
+;
 void
 NoteTearoffs
 (
