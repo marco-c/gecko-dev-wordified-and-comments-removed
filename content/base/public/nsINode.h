@@ -1915,6 +1915,11 @@ return
 NS_ERROR_NOT_IMPLEMENTED
 ;
 }
+nsresult
+Normalize
+(
+)
+;
 virtual
 already_AddRefed
 <

@@ -411,11 +411,6 @@ aPrefix
 )
 ;
 nsresult
-Normalize
-(
-)
-;
-nsresult
 IsSupported
 (
 const
