@@ -147,6 +147,10 @@ AudioDestinationNode
 this
 )
 )
+mSampleRate
+(
+44100
+)
 {
 SetIsDOMBinding
 (
