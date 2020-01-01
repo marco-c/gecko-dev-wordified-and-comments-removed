@@ -498,6 +498,10 @@ TestVersionComparator
 .
 cpp
 \
+TestTextFormatter
+.
+cpp
+\
 (
 NULL
 )
@@ -552,10 +556,6 @@ TestDeque
 cpp
 \
 TestStrings
-.
-cpp
-\
-TestTextFormatter
 .
 cpp
 \
