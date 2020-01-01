@@ -2145,6 +2145,14 @@ callInfo
 )
 ;
 InliningStatus
+inlineMathAtan2
+(
+CallInfo
+&
+callInfo
+)
+;
+InliningStatus
 inlineMathMinMax
 (
 CallInfo
