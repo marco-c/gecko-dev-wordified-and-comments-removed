@@ -121,3 +121,13 @@ SystemMessageManager
 manifest
 '
 ]
+EXTRA_JS_MODULES
++
+=
+[
+'
+SystemMessagePermissionsChecker
+.
+jsm
+'
+]

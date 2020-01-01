@@ -106,12 +106,6 @@ jsm
 (
 NULL
 )
-EXTRA_JS_MODULES
-=
-\
-(
-NULL
-)
 include
 (
 topsrcdir

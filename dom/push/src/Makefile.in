@@ -89,16 +89,6 @@ manifest
 (
 NULL
 )
-EXTRA_JS_MODULES
-=
-\
-PushService
-.
-jsm
-\
-(
-NULL
-)
 include
 (
 topsrcdir

@@ -96,17 +96,6 @@ manifest
 (
 NULL
 )
-EXTRA_JS_MODULES
-+
-=
-\
-SystemMessagePermissionsChecker
-.
-jsm
-\
-(
-NULL
-)
 include
 (
 topsrcdir

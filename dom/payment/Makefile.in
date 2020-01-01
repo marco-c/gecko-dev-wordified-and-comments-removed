@@ -97,17 +97,6 @@ manifest
 (
 NULL
 )
-EXTRA_JS_MODULES
-+
-=
-\
-Payment
-.
-jsm
-\
-(
-NULL
-)
 include
 (
 topsrcdir
