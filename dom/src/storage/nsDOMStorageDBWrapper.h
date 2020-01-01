@@ -65,6 +65,11 @@ nsDOMStorageDBWrapper
 (
 )
 ;
+void
+Close
+(
+)
+;
 nsresult
 Init
 (

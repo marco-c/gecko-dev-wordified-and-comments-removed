@@ -3397,7 +3397,7 @@ return
 accService
 -
 >
-CreateHyperTextAccessible
+CreateHTMLFileInputAccessible
 (
 mContent
 PresContext

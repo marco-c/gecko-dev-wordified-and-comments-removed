@@ -4633,13 +4633,6 @@ onMozAfterPaint
 )
 GK_ATOM
 (
-onMozBeforePaint
-"
-onMozBeforePaint
-"
-)
-GK_ATOM
-(
 onmozfullscreenchange
 "
 onmozfullscreenchange
@@ -11577,9 +11570,6 @@ math
 math
 "
 )
-#
-ifndef
-DISABLE_XFORMS_HOOKS
 GK_ATOM
 (
 avg
@@ -11666,8 +11656,6 @@ from
 dateTime
 "
 )
-#
-endif
 GK_ATOM
 (
 onMozSwipeGesture

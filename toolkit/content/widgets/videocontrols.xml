@@ -6980,11 +6980,11 @@ isVideoInFullScreen
 )
 ?
 "
-enterfullscreenlabel
+exitfullscreenlabel
 "
 :
 "
-exitfullscreenlabel
+enterfullscreenlabel
 "
 ;
 var

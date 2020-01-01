@@ -6003,7 +6003,7 @@ lastRowThisPage
 ;
 lastRowThisPage
 =
-firstTruncatedRow
+rowBefore
 ;
 aStatus
 =

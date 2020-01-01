@@ -581,6 +581,13 @@ MoveLoadsToBackground
 ;
 virtual
 void
+EnsureCacheUpToDate
+(
+)
+{
+}
+virtual
+void
 Pin
 (
 )
@@ -922,6 +929,12 @@ aCount
 ;
 virtual
 void
+EnsureCacheUpToDate
+(
+)
+;
+virtual
+void
 SetReadMode
 (
 nsMediaCacheStream
@@ -1240,9 +1253,6 @@ mLock
 ;
 nsChannelStatistics
 mChannelStatistics
-;
-PRUint32
-mCacheSuspendCount
 ;
 bool
 mIgnoreResume

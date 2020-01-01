@@ -610,11 +610,13 @@ chrome
 :
 /
 /
-global
+browser
 /
 skin
 /
-webConsole
+devtools
+/
+webconsole
 .
 css
 "
