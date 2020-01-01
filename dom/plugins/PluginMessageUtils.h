@@ -949,6 +949,16 @@ mDeleted
 ;
 }
 ;
+#
+ifdef
+XP_WIN
+UINT
+DoublePassRenderingEvent
+(
+)
+;
+#
+endif
 }
 }
 namespace

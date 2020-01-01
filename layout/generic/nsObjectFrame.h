@@ -715,14 +715,6 @@ mWidget
 nsIntRect
 mWindowlessRect
 ;
-#
-ifdef
-XP_WIN
-PRUint32
-mDoublePassEvent
-;
-#
-endif
 PRBool
 mPreventInstantiation
 ;
