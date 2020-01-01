@@ -72,7 +72,7 @@ class
 nsAppStartup
 :
 public
-nsIAppStartup
+nsIAppStartup2
 public
 nsIWindowCreator2
 public
@@ -84,6 +84,7 @@ public
 :
 NS_DECL_ISUPPORTS
 NS_DECL_NSIAPPSTARTUP
+NS_DECL_NSIAPPSTARTUP2
 NS_DECL_NSIWINDOWCREATOR
 NS_DECL_NSIWINDOWCREATOR2
 NS_DECL_NSIOBSERVER
