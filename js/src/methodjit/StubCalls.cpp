@@ -452,6 +452,11 @@ SetNameOperation
 cx
 f
 .
+script
+(
+)
+f
+.
 pc
 (
 )
