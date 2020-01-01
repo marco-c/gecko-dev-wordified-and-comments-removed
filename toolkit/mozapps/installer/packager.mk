@@ -2237,6 +2237,10 @@ content_unit_tests
 \
 necko_unit_tests
 \
+*
+.
+dSYM
+\
 (
 NULL
 )
