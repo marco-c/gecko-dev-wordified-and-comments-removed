@@ -1162,9 +1162,6 @@ gcMallocAndFreeBytes
 size_t
 gcTriggerMallocAndFreeBytes
 ;
-unsigned
-index
-;
 private
 :
 ptrdiff_t
