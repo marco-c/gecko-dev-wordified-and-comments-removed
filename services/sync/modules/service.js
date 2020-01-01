@@ -3297,10 +3297,11 @@ _log
 .
 error
 (
-e
+Utils
 .
-toString
+exceptionStr
 (
+e
 )
 )
 ;
