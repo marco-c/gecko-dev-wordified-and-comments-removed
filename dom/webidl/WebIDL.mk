@@ -1143,6 +1143,10 @@ WebSocket
 .
 webidl
 \
+WheelEvent
+.
+webidl
+\
 UndoManager
 .
 webidl
