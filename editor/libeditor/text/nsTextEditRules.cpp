@@ -784,7 +784,7 @@ nsTextEditRules
 :
 WillDoAction
 (
-nsTypedSelection
+Selection
 *
 aSelection
 nsRulesInfo
@@ -1288,7 +1288,7 @@ nsTextEditRules
 :
 WillInsertBreak
 (
-nsTypedSelection
+Selection
 *
 aSelection
 bool
@@ -2231,7 +2231,7 @@ nsEditor
 :
 OperationID
 aAction
-nsTypedSelection
+Selection
 *
 aSelection
 bool
@@ -3027,7 +3027,7 @@ nsTextEditRules
 :
 WillDeleteSelection
 (
-nsTypedSelection
+Selection
 *
 aSelection
 nsIEditor
@@ -4621,7 +4621,7 @@ nsTextEditRules
 :
 TruncateInsertionIfNeeded
 (
-nsTypedSelection
+Selection
 *
 aSelection
 const
@@ -4989,14 +4989,14 @@ mLastLength
 ;
 nsRefPtr
 <
-nsTypedSelection
+Selection
 >
 selection
 =
 mEditor
 -
 >
-GetTypedSelection
+GetSelection
 (
 )
 ;

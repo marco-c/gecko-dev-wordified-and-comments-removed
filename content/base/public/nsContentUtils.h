@@ -493,12 +493,12 @@ nsIDocumentLoaderFactory
 class
 nsIDOMHTMLInputElement
 ;
-class
-nsTypedSelection
-;
 namespace
 mozilla
 {
+class
+Selection
+;
 namespace
 layers
 {
@@ -3979,7 +3979,10 @@ static
 void
 GetSelectionInTextControl
 (
-nsTypedSelection
+mozilla
+:
+:
+Selection
 *
 aSelection
 Element

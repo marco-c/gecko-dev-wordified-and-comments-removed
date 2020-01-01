@@ -278,7 +278,9 @@ h
 #
 include
 "
-nsTypedSelection
+mozilla
+/
+Selection
 .
 h
 "

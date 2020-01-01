@@ -237,7 +237,9 @@ h
 #
 include
 "
-nsTypedSelection
+mozilla
+/
+Selection
 .
 h
 "
@@ -27949,11 +27951,6 @@ nsIContent
 >
 targetContent
 ;
-if
-(
-mCurrentEventFrame
-)
-{
 rv
 =
 mCurrentEventFrame
@@ -27968,7 +27965,6 @@ targetContent
 )
 )
 ;
-}
 if
 (
 NS_SUCCEEDED

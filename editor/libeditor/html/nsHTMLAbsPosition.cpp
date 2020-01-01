@@ -185,11 +185,11 @@ eNext
 ;
 nsRefPtr
 <
-nsTypedSelection
+Selection
 >
 selection
 =
-GetTypedSelection
+GetSelection
 (
 )
 ;
@@ -652,11 +652,11 @@ eNext
 ;
 nsRefPtr
 <
-nsTypedSelection
+Selection
 >
 selection
 =
-GetTypedSelection
+GetSelection
 (
 )
 ;

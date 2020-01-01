@@ -2481,7 +2481,7 @@ nsHTMLEditRules
 :
 WillDoAction
 (
-nsTypedSelection
+Selection
 *
 aSelection
 nsRulesInfo
@@ -6036,7 +6036,7 @@ nsEditor
 :
 OperationID
 aAction
-nsTypedSelection
+Selection
 *
 aSelection
 bool
@@ -7035,7 +7035,7 @@ nsHTMLEditRules
 :
 WillInsertBreak
 (
-nsTypedSelection
+Selection
 *
 aSelection
 bool
@@ -8616,7 +8616,7 @@ nsHTMLEditRules
 :
 WillDeleteSelection
 (
-nsTypedSelection
+Selection
 *
 aSelection
 nsIEditor
@@ -33234,14 +33234,14 @@ IsCSSEnabled
 ;
 nsRefPtr
 <
-nsTypedSelection
+Selection
 >
 selection
 =
 mHTMLEditor
 -
 >
-GetTypedSelection
+GetSelection
 (
 )
 ;
