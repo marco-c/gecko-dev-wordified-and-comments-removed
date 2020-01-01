@@ -7448,7 +7448,7 @@ PropertyTable
 )
 -
 >
-DeleteAll
+DeleteAllProperties
 (
 )
 ;
@@ -11360,7 +11360,7 @@ PropertyTable
 )
 -
 >
-DeleteAllFor
+DeleteAllPropertiesFor
 (
 aFrame
 )
@@ -11502,7 +11502,10 @@ return
 caret
 ;
 }
+NS_IMETHODIMP_
+(
 void
+)
 PresShell
 :
 :
