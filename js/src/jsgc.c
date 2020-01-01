@@ -1823,8 +1823,11 @@ NULL
 ;
 }
 }
+JS_FRIEND_API
+(
 uint8
 *
+)
 js_GetGCThingFlags
 (
 void
