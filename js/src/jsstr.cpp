@@ -5924,9 +5924,6 @@ Value
 vp
 )
 {
-Value
-t
-;
 JSString
 *
 str

@@ -1086,17 +1086,6 @@ Value
 {
 public
 :
-Value
-(
-)
-{
-data
-.
-asBits
-=
-0
-;
-}
 void
 setNull
 (
