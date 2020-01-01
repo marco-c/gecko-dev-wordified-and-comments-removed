@@ -744,11 +744,6 @@ mTileLayer
 .
 beginTransaction
 (
-mLayerController
-.
-getView
-(
-)
 )
 ;
 try
@@ -801,11 +796,6 @@ mTileLayer
 .
 beginTransaction
 (
-mLayerController
-.
-getView
-(
-)
 )
 ;
 if
