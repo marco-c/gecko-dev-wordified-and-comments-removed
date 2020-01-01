@@ -910,10 +910,10 @@ _NPEvent
 uint16_t
 event
 ;
-uint32_t
+uintptr_t
 wParam
 ;
-uint32_t
+uintptr_t
 lParam
 ;
 }
