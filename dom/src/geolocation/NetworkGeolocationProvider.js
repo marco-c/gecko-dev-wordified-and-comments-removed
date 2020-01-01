@@ -613,7 +613,7 @@ provider_url
 =
 prefService
 .
-getComplexValue
+getCharPref
 (
 "
 geo
@@ -622,12 +622,7 @@ wifi
 .
 uri
 "
-Ci
-.
-nsIPrefLocalizedString
 )
-.
-data
 ;
 LOG
 (
