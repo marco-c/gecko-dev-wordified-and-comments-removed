@@ -348,6 +348,8 @@ getTabForWindow
 request
 .
 window
+.
+top
 )
 ;
 if
