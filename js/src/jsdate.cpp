@@ -2652,9 +2652,11 @@ seenmonthname
 =
 JS_FALSE
 ;
-JSSTRING_CHARS_AND_LENGTH
-(
 str
+-
+>
+getCharsAndLength
+(
 s
 limit
 )

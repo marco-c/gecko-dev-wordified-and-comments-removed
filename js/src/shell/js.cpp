@@ -4469,7 +4469,7 @@ vp
 if
 (
 !
-js_StrictlyEqual
+JS_StrictlyEqual
 (
 cx
 argv

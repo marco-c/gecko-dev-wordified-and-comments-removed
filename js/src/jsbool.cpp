@@ -653,12 +653,14 @@ v
 )
 )
 return
-JSSTRING_LENGTH
-(
 JSVAL_TO_STRING
 (
 v
 )
+-
+>
+length
+(
 )
 !
 =
