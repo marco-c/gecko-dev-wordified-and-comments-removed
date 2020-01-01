@@ -488,6 +488,9 @@ OS_CXXFLAGS
 +
 =
 (
+MOZ_CAIRO_CFLAGS
+)
+(
 CAIRO_FT_CFLAGS
 )
 endif
@@ -502,7 +505,13 @@ OS_CXXFLAGS
 +
 =
 (
+MOZ_CAIRO_CFLAGS
+)
+(
 MOZ_PANGO_CFLAGS
+)
+(
+CAIRO_FT_CFLAGS
 )
 endif
 ifeq
@@ -516,7 +525,13 @@ OS_CXXFLAGS
 +
 =
 (
+MOZ_CAIRO_CFLAGS
+)
+(
 MOZ_PANGO_CFLAGS
+)
+(
+CAIRO_FT_CFLAGS
 )
 ifeq
 (
