@@ -4102,9 +4102,6 @@ PREF_ReaderCallback
 NULL
 )
 ;
-nsresult
-rv
-=
 PREF_ParseBuf
 (
 &
@@ -4124,7 +4121,7 @@ ps
 )
 ;
 return
-rv
+NS_OK
 ;
 }
 static

@@ -16200,7 +16200,7 @@ SetWindowCreator
 NS_ENSURE_SUCCESS
 (
 rv
-1
+NS_ERROR_FAILURE
 )
 ;
 NS_TIME_FUNCTION_MARK
@@ -16365,7 +16365,7 @@ service
 NS_ENSURE_TRUE
 (
 io
-1
+NS_ERROR_FAILURE
 )
 ;
 io
@@ -16403,7 +16403,7 @@ rv
 NS_ENSURE_SUCCESS
 (
 rv
-1
+NS_ERROR_FAILURE
 )
 ;
 startupNotifier
@@ -16440,7 +16440,7 @@ NS_APPSTARTUP_CONTRACTID
 NS_ENSURE_TRUE
 (
 appStartup
-1
+NS_ERROR_FAILURE
 )
 ;
 NS_TIME_FUNCTION_MARK
@@ -16620,7 +16620,7 @@ gDoProfileReset
 false
 ;
 return
-1
+NS_ERROR_FAILURE
 ;
 }
 }
@@ -16815,7 +16815,7 @@ workingDir
 NS_ENSURE_SUCCESS
 (
 rv
-1
+NS_ERROR_FAILURE
 )
 ;
 if
@@ -16846,7 +16846,7 @@ line
 NS_ENSURE_TRUE
 (
 cmdLine
-1
+NS_ERROR_FAILURE
 )
 ;
 rv
@@ -16868,7 +16868,7 @@ STATE_INITIAL_LAUNCH
 NS_ENSURE_SUCCESS
 (
 rv
-1
+NS_ERROR_FAILURE
 )
 ;
 nsCOMPtr
@@ -17026,7 +17026,7 @@ CreateHiddenWindow
 NS_ENSURE_SUCCESS
 (
 rv
-1
+NS_ERROR_FAILURE
 )
 ;
 #
@@ -17112,7 +17112,7 @@ line
 NS_ENSURE_TRUE
 (
 cmdLine
-1
+NS_ERROR_FAILURE
 )
 ;
 CommandLineServiceMac
@@ -17144,7 +17144,7 @@ STATE_INITIAL_LAUNCH
 NS_ENSURE_SUCCESS
 (
 rv
-1
+NS_ERROR_FAILURE
 )
 ;
 #
@@ -17225,7 +17225,7 @@ Run
 NS_ENSURE_SUCCESS_LOG
 (
 rv
-1
+NS_ERROR_FAILURE
 )
 ;
 appStartup

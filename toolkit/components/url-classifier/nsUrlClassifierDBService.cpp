@@ -2791,7 +2791,7 @@ rv
 )
 ;
 return
-true
+NS_OK
 ;
 }
 nsresult
