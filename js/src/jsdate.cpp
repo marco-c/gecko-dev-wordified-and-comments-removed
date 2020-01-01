@@ -156,6 +156,15 @@ include
 "
 vm
 /
+NumericConversions
+.
+h
+"
+#
+include
+"
+vm
+/
 StringBuffer
 .
 h
@@ -2479,7 +2488,7 @@ array
 loop
 ]
 =
-js_DoubleToInteger
+ToInteger
 (
 d
 )
@@ -8052,7 +8061,7 @@ nums
 i
 ]
 =
-js_DoubleToInteger
+ToInteger
 (
 nums
 [
@@ -8714,7 +8723,7 @@ nums
 i
 ]
 =
-js_DoubleToInteger
+ToInteger
 (
 nums
 [
@@ -9249,7 +9258,7 @@ true
 }
 year
 =
-js_DoubleToInteger
+ToInteger
 (
 year
 )

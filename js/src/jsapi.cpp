@@ -382,6 +382,15 @@ include
 "
 vm
 /
+NumericConversions
+.
+h
+"
+#
+include
+"
+vm
+/
 StringBuffer
 .
 h
@@ -1647,7 +1656,7 @@ double
 *
 )
 =
-js_DoubleToInteger
+ToInteger
 (
 d
 )
@@ -2701,7 +2710,7 @@ d
 )
 {
 return
-js_DoubleToECMAInt32
+ToInt32
 (
 d
 )
@@ -2718,7 +2727,7 @@ d
 )
 {
 return
-js_DoubleToECMAUint32
+ToUint32
 (
 d
 )
