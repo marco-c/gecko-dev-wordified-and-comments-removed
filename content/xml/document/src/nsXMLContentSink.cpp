@@ -2699,8 +2699,6 @@ kNameSpaceID_XHTML
 mHasProcessedBase
 )
 {
-rv
-=
 ProcessBASETag
 (
 aContent
