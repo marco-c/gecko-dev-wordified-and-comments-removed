@@ -2562,6 +2562,10 @@ mExtensionsLoaded
 )
 return
 ;
+mExtensionsLoaded
+=
+PR_TRUE
+;
 if
 (
 mXULAppDir
