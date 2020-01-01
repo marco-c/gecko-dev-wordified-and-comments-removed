@@ -293,7 +293,7 @@ mId
 int
 mDataLength
 ;
-nsAutoPtr
+nsAutoArrayPtr
 <
 uint8_t
 >

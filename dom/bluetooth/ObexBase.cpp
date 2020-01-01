@@ -520,6 +520,11 @@ content
 )
 )
 ;
+delete
+[
+]
+content
+;
 ptr
 +
 =
