@@ -2473,7 +2473,7 @@ pfnShutdown
 (
 NP_PLUGINSHUTDOWN
 )
-PR_FindSymbol
+PR_FindFunctionSymbol
 (
 aLibrary
 "
@@ -2534,7 +2534,7 @@ pfnInitialize
 (
 NP_PLUGINUNIXINIT
 )
-PR_FindSymbol
+PR_FindFunctionSymbol
 (
 aLibrary
 "
@@ -3725,7 +3725,7 @@ char
 (
 )
 )
-PR_FindSymbol
+PR_FindFunctionSymbol
 (
 fLibrary
 "
@@ -3843,7 +3843,7 @@ void
 *
 )
 )
-PR_FindSymbol
+PR_FindFunctionSymbol
 (
 fLibrary
 "

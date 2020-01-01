@@ -1318,7 +1318,7 @@ pfnGetMimeDesc
 (
 NP_GETMIMEDESCRIPTION
 )
-PR_FindSymbol
+PR_FindFunctionSymbol
 (
 pLibrary
 NP_GETMIMEDESCRIPTION_NAME
@@ -1366,7 +1366,7 @@ pfnMime
 (
 BP_GETSUPPORTEDMIMETYPES
 )
-PR_FindSymbol
+PR_FindFunctionSymbol
 (
 pLibrary
 "

@@ -1888,7 +1888,7 @@ nsGetFactory
 (
 nsFactoryProc
 )
-PR_FindSymbol
+PR_FindFunctionSymbol
 (
 pLibrary
 "
