@@ -592,12 +592,6 @@ tests
 length
 )
 {
-SimpleTest
-.
-finish
-(
-)
-;
 return
 i
 ;
