@@ -1527,8 +1527,11 @@ indexp
 )
 ;
 extern
+JS_FRIEND_API
+(
 jsuword
 *
+)
 js_GetLocalNameArray
 (
 JSContext
