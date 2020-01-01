@@ -306,6 +306,11 @@ nsStyleAnimation
 h
 '
 '
+nsStyleConsts
+.
+h
+'
+'
 nsStyleContext
 .
 h
