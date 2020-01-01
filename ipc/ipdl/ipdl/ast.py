@@ -190,18 +190,15 @@ accept
 self
 )
         
-if
+for
+mgr
+in
 p
 .
-manager
-is
-not
-None
+managers
 :
             
-p
-.
-manager
+mgr
 .
 accept
 (
@@ -264,7 +261,7 @@ ns
 pass
     
 def
-visitManagerStmt
+visitManager
 (
 self
 mgr
@@ -1325,6 +1322,13 @@ ASYNC
         
 self
 .
+managers
+=
+[
+]
+        
+self
+.
 managesStmts
 =
 [
@@ -1427,7 +1431,7 @@ components
 =
 components
 class
-ManagerStmt
+Manager
 (
 Node
 )

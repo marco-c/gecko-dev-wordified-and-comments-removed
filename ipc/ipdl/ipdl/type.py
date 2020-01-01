@@ -1319,9 +1319,11 @@ sendSemantics
         
 self
 .
-manager
+managers
 =
-None
+set
+(
+)
         
 self
 .
@@ -1375,6 +1377,36 @@ qname
 )
     
 def
+addManager
+(
+self
+mgrtype
+)
+:
+        
+assert
+mgrtype
+.
+isIPDL
+(
+)
+and
+mgrtype
+.
+isProtocol
+(
+)
+        
+self
+.
+managers
+.
+add
+(
+mgrtype
+)
+    
+def
 managedBy
 (
 self
@@ -1384,7 +1416,7 @@ mgr
         
 self
 .
-manager
+managers
 =
 mgr
     
@@ -1406,10 +1438,16 @@ isToplevel
 return
 self
         
-return
+for
+mgr
+in
 self
 .
-manager
+managers
+:
+            
+return
+mgr
 .
 toplevel
 (
@@ -1444,6 +1482,21 @@ return
 False
     
 def
+isManagedBy
+(
+self
+pt
+)
+:
+        
+return
+pt
+in
+self
+.
+managers
+    
+def
 isManager
 (
 self
@@ -1468,12 +1521,14 @@ self
 :
         
 return
+0
+<
+len
+(
 self
 .
-manager
-is
-not
-None
+managers
+)
     
 def
 isToplevel
@@ -3541,26 +3596,68 @@ enterScope
 p
 )
         
-if
+seenmgrs
+=
+set
+(
+)
+        
+for
+mgr
+in
 p
 .
-manager
-is
-not
-None
+managers
 :
             
-p
+if
+mgr
 .
+name
+in
+seenmgrs
+:
+                
+self
+.
+error
+(
+mgr
+.
+loc
+"
 manager
+%
+s
+'
+appears
+multiple
+times
+"
+                           
+mgr
+.
+name
+)
+                
+continue
+            
+seenmgrs
+.
+add
+(
+mgr
+.
+name
+)
+            
+mgr
 .
 of
 =
 p
             
-p
-.
-manager
+mgr
 .
 accept
 (
@@ -3589,11 +3686,15 @@ self
 )
         
 if
+0
+=
+=
+len
+(
 p
 .
-manager
-is
-None
+managers
+)
 and
 0
 =
@@ -3704,7 +3805,8 @@ loc
 "
 destructor
 declaration
-delete
+%
+s
 (
 .
 .
@@ -3720,6 +3822,7 @@ s
 '
 "
                     
+_DELETE_MSG
 p
 .
 name
@@ -4344,7 +4447,7 @@ p
 )
     
 def
-visitManagerStmt
+visitManager
 (
 self
 mgr
@@ -4491,15 +4594,6 @@ typename
 else
 :
             
-assert
-pdecl
-.
-type
-.
-manager
-is
-None
-            
 mgr
 .
 decl
@@ -4510,11 +4604,12 @@ pdecl
 .
 type
 .
-manager
-=
+addManager
+(
 mgrdecl
 .
 type
+)
     
 def
 visitManagesStmt
@@ -5821,12 +5916,14 @@ decl
 .
 shortname
         
+for
 mgrtype
-=
+in
 ptype
 .
-manager
-        
+managers
+:
+            
 if
 mgrtype
 is
@@ -5840,28 +5937,18 @@ needsMoreJuiceThan
 mgrtype
 )
 :
-            
-mgrname
-=
-p
-.
-manager
-.
-decl
-.
-shortname
-            
+                
 self
 .
 error
 (
-                
+                    
 p
 .
 decl
 .
 loc
-                
+                    
 "
 protocol
 %
@@ -5880,9 +5967,13 @@ s
 '
 provides
 "
-                
+                    
 pname
-mgrname
+mgrtype
+.
+name
+(
+)
 )
         
 if
@@ -6010,35 +6101,22 @@ mgs
 .
 loc
         
-for
-managed
-in
-ptype
-.
-manages
-:
-            
-if
-managed
-is
-mgstype
-:
-                
-break
-        
-else
-:
-            
 assert
-False
+ptype
+.
+isManagerOf
+(
+mgstype
+)
         
 if
+not
 mgstype
 .
-manager
-is
-not
+isManagedBy
+(
 ptype
+)
 :
             
 self
@@ -6078,7 +6156,7 @@ mgsname
 )
     
 def
-visitManagerStmt
+visitManager
 (
 self
 mgr
@@ -6122,9 +6200,10 @@ shortname
 assert
 ptype
 .
-manager
-is
+isManagedBy
+(
 mgrtype
+)
         
 loc
 =
