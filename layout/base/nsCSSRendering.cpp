@@ -14836,6 +14836,11 @@ aBorder
 width
 >
 2
+*
+twipsPerPixel
+|
+|
+horizontal
 )
 &
 &
@@ -14845,6 +14850,12 @@ aBorder
 height
 >
 2
+*
+twipsPerPixel
+|
+|
+!
+horizontal
 )
 )
 {
