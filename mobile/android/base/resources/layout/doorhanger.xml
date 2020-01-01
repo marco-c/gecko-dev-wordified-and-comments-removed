@@ -209,6 +209,15 @@ true
 "
 android
 :
+textColor
+=
+"
+color
+/
+doorhanger_text
+"
+android
+:
 visibility
 =
 "
