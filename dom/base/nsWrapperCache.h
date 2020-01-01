@@ -324,6 +324,14 @@ IsBlack
 (
 )
 ;
+bool
+IsBlackAndDoesNotNeedTracing
+(
+nsISupports
+*
+aThis
+)
+;
 void
 SetPreservingWrapper
 (
