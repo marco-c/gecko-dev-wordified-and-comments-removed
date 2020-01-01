@@ -1062,7 +1062,7 @@ InitStatements
 )
 ;
 nsresult
-MigrateFromVnToV1
+ForceMigrateBookmarksDB
 (
 mozIStorageConnection
 *
