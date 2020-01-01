@@ -535,10 +535,6 @@ mFile
 (
 aFile
 )
-mFd
-(
-nsnull
-)
 mFileLen
 (
 0
@@ -978,10 +974,6 @@ nsFastLoadFileUpdater
 nsIFile
 *
 mFile
-;
-PRFileDesc
-*
-mFd
 ;
 PRUint32
 mFileLen
