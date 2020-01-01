@@ -154,7 +154,7 @@ h
 #
 include
 "
-nsDOMProgressEvent
+nsIDOMProgressEvent
 .
 h
 "
@@ -2508,9 +2508,9 @@ nsIDocument
 DeprecatedOperations
 )
 ;
-nsRefPtr
+nsCOMPtr
 <
-nsDOMProgressEvent
+nsIDOMProgressEvent
 >
 mInner
 ;

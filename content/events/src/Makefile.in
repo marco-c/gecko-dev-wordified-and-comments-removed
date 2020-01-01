@@ -221,10 +221,6 @@ nsEventListenerService
 .
 cpp
 \
-nsDOMProgressEvent
-.
-cpp
-\
 nsDOMDataTransfer
 .
 cpp

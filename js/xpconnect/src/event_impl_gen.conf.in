@@ -107,6 +107,9 @@ simple_events
 =
 [
 '
+ProgressEvent
+'
+'
 StorageEvent
 '
 '

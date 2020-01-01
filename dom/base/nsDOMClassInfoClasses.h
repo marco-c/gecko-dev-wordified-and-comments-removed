@@ -1344,10 +1344,6 @@ MediaStream
 endif
 DOMCI_CLASS
 (
-ProgressEvent
-)
-DOMCI_CLASS
-(
 XMLHttpRequestUpload
 )
 DOMCI_CLASS
