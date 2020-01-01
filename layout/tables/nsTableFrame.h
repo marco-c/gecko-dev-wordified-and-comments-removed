@@ -1521,6 +1521,11 @@ nsMargin
 aBorderPadding
 )
 ;
+void
+CheckCollapsedColumns
+(
+)
+;
 nsITableLayoutStrategy
 *
 LayoutStrategy
