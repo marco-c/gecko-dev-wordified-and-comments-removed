@@ -2015,6 +2015,15 @@ norestorefocus
 "
 true
 "
+chromedir
+=
+"
+&
+locale
+.
+dir
+;
+"
 >
 <
 hbox
