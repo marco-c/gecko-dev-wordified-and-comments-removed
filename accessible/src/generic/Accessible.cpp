@@ -13673,7 +13673,7 @@ if
 parent
 -
 >
-IsDocumentNode
+IsDoc
 (
 )
 )

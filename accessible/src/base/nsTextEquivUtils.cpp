@@ -1054,7 +1054,7 @@ if
 aAccessible
 -
 >
-IsDocumentNode
+IsDoc
 (
 )
 )
