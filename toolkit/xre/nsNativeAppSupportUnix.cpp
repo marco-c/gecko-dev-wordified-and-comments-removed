@@ -604,7 +604,7 @@ argv1
 getenv
 (
 "
-MOZILLA_APP_LAUNCHER
+MOZ_APP_LAUNCHER
 "
 )
 ;
