@@ -199,6 +199,10 @@ WCC_evaluateJS
 (
 aString
 aOnResponse
+aOptions
+=
+{
+}
 )
 {
 let
@@ -218,6 +222,16 @@ evaluateJS
 text
 :
 aString
+bindObjectActor
+:
+aOptions
+.
+bindObjectActor
+frameActor
+:
+aOptions
+.
+frameActor
 }
 ;
 this
