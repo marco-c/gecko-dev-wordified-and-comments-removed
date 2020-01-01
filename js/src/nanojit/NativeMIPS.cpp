@@ -1917,7 +1917,7 @@ r
 {
 NanoAssert
 (
-isKnownReg
+deprecated_isKnownReg
 (
 r
 )
@@ -2085,7 +2085,7 @@ arg
 deprecated_getReg
 (
 )
-isKnownReg
+deprecated_isKnownReg
 (
 rr
 )
@@ -2658,7 +2658,7 @@ fr
 ;
 NanoAssert
 (
-isKnownReg
+deprecated_isKnownReg
 (
 v
 )
@@ -3277,7 +3277,7 @@ if
 cpu_has_fpu
 &
 &
-isKnownReg
+deprecated_isKnownReg
 (
 rr
 )
@@ -3527,7 +3527,7 @@ if
 cpu_has_fpu
 &
 &
-isKnownReg
+deprecated_isKnownReg
 (
 rd
 )
@@ -3555,7 +3555,7 @@ else
 NanoAssert
 (
 !
-isKnownReg
+deprecated_isKnownReg
 (
 rd
 )
@@ -5089,7 +5089,7 @@ rb
 ;
 NanoAssert
 (
-isKnownReg
+deprecated_isKnownReg
 (
 rr
 )
@@ -5097,7 +5097,7 @@ rr
 ;
 NanoAssert
 (
-isKnownReg
+deprecated_isKnownReg
 (
 ra
 )
@@ -5368,7 +5368,7 @@ allow
 ;
 NanoAssert
 (
-isKnownReg
+deprecated_isKnownReg
 (
 rb
 )

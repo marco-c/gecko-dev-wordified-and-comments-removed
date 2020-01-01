@@ -1830,9 +1830,8 @@ Assembler
 :
 getBaseReg
 (
-LIns
-*
-i
+LInsp
+base
 int
 &
 d
@@ -1846,7 +1845,7 @@ if
 PEDANTIC
 if
 (
-i
+base
 -
 >
 isop
@@ -1860,7 +1859,7 @@ d
 =
 findMemFor
 (
-i
+base
 )
 ;
 return
@@ -1879,7 +1878,7 @@ endif
 return
 findRegFor
 (
-i
+base
 allow
 )
 ;

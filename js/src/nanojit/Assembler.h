@@ -1168,7 +1168,7 @@ LIns
 )
 ;
 bool
-isKnownReg
+deprecated_isKnownReg
 (
 Register
 r

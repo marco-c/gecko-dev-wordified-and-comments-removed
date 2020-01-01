@@ -1838,7 +1838,7 @@ FpRegs
 ;
 NanoAssert
 (
-isKnownReg
+deprecated_isKnownReg
 (
 fp_reg
 )
@@ -2144,7 +2144,7 @@ r
 {
 NanoAssert
 (
-isKnownReg
+deprecated_isKnownReg
 (
 r
 )
@@ -2328,7 +2328,7 @@ arg
 deprecated_getReg
 (
 )
-isKnownReg
+deprecated_isKnownReg
 (
 rr
 )
@@ -2679,7 +2679,7 @@ LIR_fcall
 if
 (
 !
-isKnownReg
+deprecated_isKnownReg
 (
 rr
 )
@@ -4756,7 +4756,7 @@ _config
 arm_vfp
 &
 &
-isKnownReg
+deprecated_isKnownReg
 (
 rr
 )
@@ -4823,7 +4823,7 @@ else
 NanoAssert
 (
 !
-isKnownReg
+deprecated_isKnownReg
 (
 rr
 )
@@ -4875,7 +4875,7 @@ arm_vfp
 {
 if
 (
-isKnownReg
+deprecated_isKnownReg
 (
 rr
 )
@@ -5143,7 +5143,7 @@ FpRegs
 ;
 NanoAssert
 (
-isKnownReg
+deprecated_isKnownReg
 (
 rb
 )
@@ -5151,7 +5151,7 @@ rb
 ;
 NanoAssert
 (
-isKnownReg
+deprecated_isKnownReg
 (
 rv
 )
@@ -5367,7 +5367,7 @@ FpRegs
 ;
 NanoAssert
 (
-isKnownReg
+deprecated_isKnownReg
 (
 rb
 )
@@ -5375,7 +5375,7 @@ rb
 ;
 NanoAssert
 (
-isKnownReg
+deprecated_isKnownReg
 (
 rv
 )
@@ -5611,7 +5611,7 @@ _config
 arm_vfp
 &
 &
-isKnownReg
+deprecated_isKnownReg
 (
 rr
 )
@@ -7806,7 +7806,7 @@ GpRegs
 ;
 NanoAssert
 (
-isKnownReg
+deprecated_isKnownReg
 (
 srcr
 )
@@ -7860,7 +7860,7 @@ GpRegs
 ;
 NanoAssert
 (
-isKnownReg
+deprecated_isKnownReg
 (
 sr
 )
@@ -9144,7 +9144,7 @@ deprecated_getReg
 ;
 NanoAssert
 (
-isKnownReg
+deprecated_isKnownReg
 (
 rr
 )
@@ -9152,7 +9152,7 @@ rr
 ;
 NanoAssert
 (
-isKnownReg
+deprecated_isKnownReg
 (
 ra
 )
@@ -9255,7 +9255,7 @@ imm32
 ;
 NanoAssert
 (
-isKnownReg
+deprecated_isKnownReg
 (
 rs
 )
@@ -9453,7 +9453,7 @@ ins
 if
 (
 !
-isKnownReg
+deprecated_isKnownReg
 (
 rb
 )
@@ -9478,7 +9478,7 @@ rb
 }
 NanoAssert
 (
-isKnownReg
+deprecated_isKnownReg
 (
 rb
 )
@@ -9873,7 +9873,7 @@ deprecated_getReg
 ;
 NanoAssert
 (
-isKnownReg
+deprecated_isKnownReg
 (
 ra
 )

@@ -1026,7 +1026,7 @@ deprecated_getReg
 ;
 if
 (
-isKnownReg
+deprecated_isKnownReg
 (
 rr
 )
@@ -4107,7 +4107,7 @@ deprecated_getReg
 if
 (
 !
-isKnownReg
+deprecated_isKnownReg
 (
 rp
 )
@@ -5427,7 +5427,7 @@ deprecated_getReg
 ;
 if
 (
-isKnownReg
+deprecated_isKnownReg
 (
 r
 )
