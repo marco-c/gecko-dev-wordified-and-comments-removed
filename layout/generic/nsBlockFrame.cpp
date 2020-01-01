@@ -11209,12 +11209,6 @@ aCoord
 {
 return
 (
-aUnit
-=
-=
-eStyleUnit_Null
-|
-|
 (
 aUnit
 =
@@ -11267,12 +11261,6 @@ aCoord
 {
 return
 (
-aUnit
-=
-=
-eStyleUnit_Null
-|
-|
 aUnit
 =
 =

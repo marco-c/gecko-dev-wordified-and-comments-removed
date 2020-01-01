@@ -632,12 +632,6 @@ eStyleUnit_Coord
 aUnit
 =
 =
-eStyleUnit_Null
-|
-|
-aUnit
-=
-=
 eStyleUnit_Chars
 ;
 }
@@ -655,12 +649,6 @@ aUnit
 =
 =
 eStyleUnit_Coord
-|
-|
-aUnit
-=
-=
-eStyleUnit_Null
 |
 |
 aUnit

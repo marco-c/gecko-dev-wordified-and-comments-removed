@@ -10788,12 +10788,6 @@ GetCoordValue
 >
 0
 ;
-case
-eStyleUnit_Null
-:
-return
-PR_FALSE
-;
 default
 :
 return
