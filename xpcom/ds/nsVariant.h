@@ -1,4 +1,10 @@
 #
+ifndef
+nsVariant_h
+#
+define
+nsVariant_h
+#
 include
 "
 nsIVariant
@@ -947,3 +953,5 @@ NS_VARIANT_CLASSNAME
 "
 Variant
 "
+#
+endif
