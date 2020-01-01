@@ -335,6 +335,10 @@ HTMLMetaElement
 .
 webidl
 \
+HTMLMeterElement
+.
+webidl
+\
 HTMLModElement
 .
 webidl
