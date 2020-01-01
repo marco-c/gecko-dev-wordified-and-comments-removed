@@ -154,9 +154,6 @@ container
 css
 (
 "
--
-moz
--
 transition
 -
 property

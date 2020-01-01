@@ -3280,9 +3280,6 @@ fafbfd
 ebf3fd
 )
 ;
--
-moz
--
 transition
 :
 .
@@ -5625,9 +5622,6 @@ hsla
 0
 )
 ;
--
-moz
--
 transition
 -
 property
@@ -5642,9 +5636,6 @@ box
 -
 shadow
 ;
--
-moz
--
 transition
 -
 duration
@@ -6797,9 +6788,6 @@ shadow
 :
 none
 ;
--
-moz
--
 transition
 :
 none
@@ -6901,9 +6889,6 @@ rgba
 4
 )
 ;
--
-moz
--
 transition
 :
 background
@@ -7574,9 +7559,6 @@ forward
 -
 button
 {
--
-moz
--
 transition
 :
 opacity
@@ -7843,9 +7825,6 @@ hsla
 35
 )
 ;
--
-moz
--
 transition
 -
 property
@@ -7857,9 +7836,6 @@ box
 -
 shadow
 ;
--
-moz
--
 transition
 -
 duration
@@ -8119,9 +8095,6 @@ hsla
 2
 )
 ;
--
-moz
--
 transition
 :
 none
@@ -8174,9 +8147,6 @@ hsla
 65
 )
 ;
--
-moz
--
 transition
 :
 none
@@ -9822,9 +9792,6 @@ container
 #
 urlbar
 {
--
-moz
--
 transition
 :
 margin
@@ -10006,9 +9973,6 @@ container
 #
 urlbar
 {
--
-moz
--
 transition
 -
 delay
@@ -10767,9 +10731,6 @@ left
 :
 5px
 ;
--
-moz
--
 transition
 :
 padding
@@ -10821,9 +10782,6 @@ right
 :
 5px
 ;
--
-moz
--
 transition
 :
 padding
@@ -10868,9 +10826,6 @@ identity
 -
 box
 {
--
-moz
--
 transition
 -
 delay
@@ -15750,9 +15705,6 @@ scrollbutton
 -
 down
 {
--
-moz
--
 transition
 :
 1s
@@ -15783,9 +15735,6 @@ color
 :
 Highlight
 ;
--
-moz
--
 transition
 :
 none
