@@ -1667,6 +1667,8 @@ nsAString
 aFileFormat
 CameraPosition
 aPosition
+uint64_t
+aDateTime
 nsICameraTakePictureCallback
 *
 onSuccess
@@ -1732,6 +1734,7 @@ aSize
 aRotation
 aFileFormat
 aPosition
+aDateTime
 onSuccess
 onError
 )
