@@ -2424,6 +2424,8 @@ script
 jsbytecode
 *
 pc
+JSProtoKey
+key
 )
 ;
 bool
