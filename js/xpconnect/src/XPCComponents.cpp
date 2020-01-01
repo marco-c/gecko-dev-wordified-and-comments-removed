@@ -13380,7 +13380,7 @@ nullprincipal
 rv
 )
 ;
-NS_ASSERTION
+MOZ_ASSERT
 (
 NS_FAILED
 (
@@ -16181,7 +16181,7 @@ xpc_GetJSPrivate
 sandbox
 )
 ;
-NS_ASSERTION
+MOZ_ASSERT
 (
 sop
 "
@@ -17795,7 +17795,7 @@ callee
 )
 )
 ;
-NS_ASSERTION
+MOZ_ASSERT
 (
 v
 .
@@ -20271,7 +20271,7 @@ nsIComponentManager
 aManager
 )
 {
-NS_ASSERTION
+MOZ_ASSERT
 (
 aManager
 "

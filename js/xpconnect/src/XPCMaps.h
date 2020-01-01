@@ -678,7 +678,7 @@ GetIdentityObject
 )
 )
 ;
-NS_ASSERTION
+MOZ_ASSERT
 (
 !
 wrapperInMap

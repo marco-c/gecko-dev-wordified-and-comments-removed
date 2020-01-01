@@ -1101,7 +1101,7 @@ if
 success
 )
 {
-NS_ASSERTION
+MOZ_ASSERT
 (
 JS_IsExceptionPending
 (
@@ -3229,7 +3229,7 @@ params
 argnum
 ]
 ;
-NS_ABORT_IF_FALSE
+MOZ_ASSERT
 (
 arg_param
 .
@@ -3688,7 +3688,7 @@ void
 pp
 )
 {
-NS_ASSERTION
+MOZ_ASSERT
 (
 pp
 "
@@ -6287,7 +6287,7 @@ params
 i
 ]
 ;
-NS_ABORT_IF_FALSE
+MOZ_ASSERT
 (
 !
 param

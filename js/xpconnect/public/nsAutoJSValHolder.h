@@ -354,7 +354,7 @@ aOther
 )
 )
 {
-NS_ASSERTION
+MOZ_ASSERT
 (
 IsHeld
 (

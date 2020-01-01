@@ -1109,7 +1109,7 @@ XPCLock
 lock
 )
 {
-NS_ASSERTION
+MOZ_ASSERT
 (
 lock
 "
@@ -1140,7 +1140,7 @@ XPCLock
 lock
 )
 {
-NS_ASSERTION
+MOZ_ASSERT
 (
 lock
 "
@@ -1743,7 +1743,7 @@ XPCRootSetElem
 (
 )
 {
-NS_ASSERTION
+MOZ_ASSERT
 (
 !
 mNext
@@ -1754,7 +1754,7 @@ unlinked
 "
 )
 ;
-NS_ASSERTION
+MOZ_ASSERT
 (
 !
 mSelfp
@@ -1899,7 +1899,7 @@ chars
 return
 false
 ;
-NS_ASSERTION
+MOZ_ASSERT
 (
 IsEmpty
 (
@@ -2339,7 +2339,7 @@ index
 )
 const
 {
-NS_ASSERTION
+MOZ_ASSERT
 (
 index
 <
@@ -2367,7 +2367,7 @@ index
 )
 const
 {
-NS_ASSERTION
+MOZ_ASSERT
 (
 index
 <
@@ -2397,7 +2397,7 @@ index
 )
 const
 {
-NS_ASSERTION
+MOZ_ASSERT
 (
 index
 <
@@ -3224,7 +3224,7 @@ JSContext
 aJSContext
 )
 {
-NS_ASSERTION
+MOZ_ASSERT
 (
 JS_GetSecondContextPrivate
 (
@@ -4153,7 +4153,7 @@ s
 )
 const
 {
-NS_ASSERTION
+MOZ_ASSERT
 (
 mState
 >
@@ -5553,7 +5553,7 @@ jsval
 pval
 )
 {
-NS_ASSERTION
+MOZ_ASSERT
 (
 IsConstant
 (
@@ -5760,7 +5760,7 @@ SetWritableAttribute
 (
 )
 {
-NS_ASSERTION
+MOZ_ASSERT
 (
 mFlags
 =
@@ -5977,7 +5977,7 @@ uint16_t
 i
 )
 {
-NS_ASSERTION
+MOZ_ASSERT
 (
 i
 <
@@ -6549,7 +6549,7 @@ uint16_t
 i
 )
 {
-NS_ASSERTION
+MOZ_ASSERT
 (
 i
 <
@@ -8083,7 +8083,7 @@ XPCNativeScriptableInfo
 si
 )
 {
-NS_ASSERTION
+MOZ_ASSERT
 (
 !
 mScriptableInfo
@@ -8930,7 +8930,7 @@ XPCWrappedNativeScope
 s
 )
 {
-NS_ASSERTION
+MOZ_ASSERT
 (
 !
 IsTaggedScope
@@ -11962,7 +11962,7 @@ SetNameToNoString
 (
 )
 {
-NS_ASSERTION
+MOZ_ASSERT
 (
 !
 mName
@@ -12840,7 +12840,7 @@ SetResolveName
 mOld
 )
 ;
-NS_ASSERTION
+MOZ_ASSERT
 (
 old
 =

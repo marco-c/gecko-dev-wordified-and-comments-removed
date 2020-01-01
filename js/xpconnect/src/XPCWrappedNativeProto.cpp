@@ -122,7 +122,7 @@ XPCWrappedNativeProto
 (
 )
 {
-NS_ASSERTION
+MOZ_ASSERT
 (
 !
 mJSProtoObject
@@ -475,7 +475,7 @@ JSObject
 obj
 )
 {
-NS_ASSERTION
+MOZ_ASSERT
 (
 obj
 =
@@ -662,7 +662,7 @@ callPostCreatePrototype
 AutoJSContext
 cx
 ;
-NS_ASSERTION
+MOZ_ASSERT
 (
 scope
 "
@@ -671,7 +671,7 @@ param
 "
 )
 ;
-NS_ASSERTION
+MOZ_ASSERT
 (
 classInfo
 "

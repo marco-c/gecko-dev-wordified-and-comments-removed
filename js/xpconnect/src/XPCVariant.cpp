@@ -183,7 +183,7 @@ GetJSValPreserveColor
 (
 )
 ;
-NS_ASSERTION
+MOZ_ASSERT
 (
 JSVAL_IS_GCTHING
 (
@@ -897,7 +897,7 @@ tStr
 }
 else
 {
-NS_ASSERTION
+MOZ_ASSERT
 (
 val
 .
@@ -953,7 +953,7 @@ type
 tISup
 ;
 }
-NS_ASSERTION
+MOZ_ASSERT
 (
 state
 !
@@ -967,7 +967,7 @@ table
 "
 )
 ;
-NS_ASSERTION
+MOZ_ASSERT
 (
 type
 !
@@ -980,7 +980,7 @@ type
 "
 )
 ;
-NS_ASSERTION
+MOZ_ASSERT
 (
 type
 !
@@ -993,7 +993,7 @@ type
 "
 )
 ;
-NS_ASSERTION
+MOZ_ASSERT
 (
 type
 !
@@ -1016,7 +1016,7 @@ state
 type
 ]
 ;
-NS_ASSERTION
+MOZ_ASSERT
 (
 state
 !
@@ -1030,7 +1030,7 @@ table
 "
 )
 ;
-NS_ASSERTION
+MOZ_ASSERT
 (
 state
 !
@@ -1391,7 +1391,7 @@ str
 return
 false
 ;
-NS_ASSERTION
+MOZ_ASSERT
 (
 mData
 .
@@ -1480,7 +1480,7 @@ return
 true
 ;
 }
-NS_ASSERTION
+MOZ_ASSERT
 (
 val
 .
@@ -1931,7 +1931,7 @@ xpcvariant
 mReturnRawObject
 )
 {
-NS_ASSERTION
+MOZ_ASSERT
 (
 type
 =

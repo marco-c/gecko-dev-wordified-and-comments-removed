@@ -146,7 +146,7 @@ nsWrapperCache
 cache
 )
 {
-NS_ABORT_IF_FALSE
+MOZ_ASSERT
 (
 cache
 -
@@ -161,7 +161,7 @@ wrapper
 "
 )
 ;
-NS_ABORT_IF_FALSE
+MOZ_ASSERT
 (
 IS_WN_REFLECTOR
 (
@@ -1743,7 +1743,7 @@ GetWrapperCache
 (
 )
 ;
-NS_ASSERTION
+MOZ_ASSERT
 (
 !
 cache
@@ -1781,7 +1781,7 @@ cache
 nsresult
 rv
 ;
-NS_ASSERTION
+MOZ_ASSERT
 (
 !
 Scope
@@ -1915,7 +1915,7 @@ rv
 )
 )
 {
-NS_ASSERTION
+MOZ_ASSERT
 (
 NS_FAILED
 (
@@ -2175,7 +2175,7 @@ rv
 =
 NS_OK
 ;
-NS_ASSERTION
+MOZ_ASSERT
 (
 !
 xpc
@@ -2330,7 +2330,7 @@ rv
 )
 )
 {
-NS_ASSERTION
+MOZ_ASSERT
 (
 NS_FAILED
 (
@@ -2593,7 +2593,7 @@ nullptr
 )
 ;
 }
-NS_ASSERTION
+MOZ_ASSERT
 (
 !
 xpc
@@ -2659,7 +2659,7 @@ rv
 )
 )
 {
-NS_ASSERTION
+MOZ_ASSERT
 (
 NS_FAILED
 (
@@ -2755,7 +2755,7 @@ ToString
 (
 )
 ;
-NS_ASSERTION
+MOZ_ASSERT
 (
 wrapper
 -
@@ -2888,7 +2888,7 @@ GetFlatJSObject
 (
 )
 ;
-NS_ASSERTION
+MOZ_ASSERT
 (
 !
 cache
@@ -3143,7 +3143,7 @@ resultWrapper
 AutoJSContext
 cx
 ;
-NS_ASSERTION
+MOZ_ASSERT
 (
 Object
 "
@@ -3336,7 +3336,7 @@ rv
 )
 )
 {
-NS_ASSERTION
+MOZ_ASSERT
 (
 NS_FAILED
 (
@@ -3413,7 +3413,7 @@ setFlags
 FLAT_JS_OBJECT_VALID
 )
 ;
-NS_ASSERTION
+MOZ_ASSERT
 (
 mMaybeProto
 "
@@ -3423,7 +3423,7 @@ param
 "
 )
 ;
-NS_ASSERTION
+MOZ_ASSERT
 (
 mSet
 "
@@ -3488,7 +3488,7 @@ setFlags
 FLAT_JS_OBJECT_VALID
 )
 ;
-NS_ASSERTION
+MOZ_ASSERT
 (
 aScope
 "
@@ -3498,7 +3498,7 @@ param
 "
 )
 ;
-NS_ASSERTION
+MOZ_ASSERT
 (
 aSet
 "
@@ -3744,7 +3744,7 @@ XPCNativeScriptableInfo
 si
 )
 {
-NS_ASSERTION
+MOZ_ASSERT
 (
 mScriptableInfo
 "
@@ -3800,7 +3800,7 @@ XPCWrappedNativeProto
 p
 )
 {
-NS_ASSERTION
+MOZ_ASSERT
 (
 !
 IsWrapperExpired
@@ -3862,7 +3862,7 @@ XPCNativeScriptableCreateInfo
 sciProto
 )
 {
-NS_ASSERTION
+MOZ_ASSERT
 (
 classInfo
 "
@@ -3871,7 +3871,7 @@ param
 "
 )
 ;
-NS_ASSERTION
+MOZ_ASSERT
 (
 !
 sciProto
@@ -4069,7 +4069,7 @@ XPCNativeScriptableCreateInfo
 sciWrapper
 )
 {
-NS_ASSERTION
+MOZ_ASSERT
 (
 !
 sciWrapper
@@ -4155,7 +4155,7 @@ SetFlags
 flags
 )
 ;
-NS_ASSERTION
+MOZ_ASSERT
 (
 !
 (
@@ -4204,7 +4204,7 @@ scriptable
 "
 )
 ;
-NS_ASSERTION
+MOZ_ASSERT
 (
 !
 (
@@ -4266,7 +4266,7 @@ shared
 "
 )
 ;
-NS_ASSERTION
+MOZ_ASSERT
 (
 !
 (
@@ -4328,7 +4328,7 @@ shared
 "
 )
 ;
-NS_ASSERTION
+MOZ_ASSERT
 (
 !
 (
@@ -4377,7 +4377,7 @@ scriptable
 "
 )
 ;
-NS_ASSERTION
+MOZ_ASSERT
 (
 !
 (
@@ -4439,7 +4439,7 @@ shared
 "
 )
 ;
-NS_ASSERTION
+MOZ_ASSERT
 (
 !
 (
@@ -4501,7 +4501,7 @@ shared
 "
 )
 ;
-NS_ASSERTION
+MOZ_ASSERT
 (
 !
 (
@@ -4725,7 +4725,7 @@ JSCLASS_IS_GLOBAL
 )
 )
 ;
-NS_ASSERTION
+MOZ_ASSERT
 (
 jsclazz
 &
@@ -4891,7 +4891,7 @@ WN_XRAYEXPANDOCHAIN_SLOT
 JSVAL_NULL
 )
 ;
-NS_ASSERTION
+MOZ_ASSERT
 (
 1
 =
@@ -5117,7 +5117,7 @@ obj
 #
 ifdef
 XP_WIN
-NS_ASSERTION
+MOZ_ASSERT
 (
 *
 (
@@ -5135,7 +5135,7 @@ pointer
 "
 )
 ;
-NS_ASSERTION
+MOZ_ASSERT
 (
 *
 (
@@ -5241,7 +5241,7 @@ unsetFlags
 FLAT_JS_OBJECT_VALID
 )
 ;
-NS_ASSERTION
+MOZ_ASSERT
 (
 mIdentity
 "
@@ -5254,7 +5254,7 @@ pointer
 #
 ifdef
 XP_WIN
-NS_ASSERTION
+MOZ_ASSERT
 (
 *
 (
@@ -5272,7 +5272,7 @@ pointer
 "
 )
 ;
-NS_ASSERTION
+MOZ_ASSERT
 (
 *
 (
@@ -5794,7 +5794,7 @@ Get
 flat
 )
 ;
-NS_ASSERTION
+MOZ_ASSERT
 (
 wrapper
 -
@@ -5954,7 +5954,7 @@ GetGlobalJSObject
 )
 )
 ;
-NS_ASSERTION
+MOZ_ASSERT
 (
 aNewParent
 "
@@ -6252,7 +6252,7 @@ GetScriptableInfo
 )
 )
 {
-NS_ASSERTION
+MOZ_ASSERT
 (
 oldProto
 -
@@ -7696,7 +7696,7 @@ getProto
 (
 )
 ;
-NS_ASSERTION
+MOZ_ASSERT
 (
 proto
 &
@@ -7753,7 +7753,7 @@ proto
 our_proto
 ;
 }
-NS_ASSERTION
+MOZ_ASSERT
 (
 found_our_proto
 "
@@ -8673,7 +8673,7 @@ CallMode
 mode
 )
 {
-NS_ASSERTION
+MOZ_ASSERT
 (
 ccx
 .
@@ -9586,7 +9586,7 @@ IsRetval
 )
 )
 {
-NS_ASSERTION
+MOZ_ASSERT
 (
 paramIndex
 <
@@ -10064,7 +10064,7 @@ i
 mArgc
 )
 {
-NS_ASSERTION
+MOZ_ASSERT
 (
 mArgv
 [
@@ -10117,7 +10117,7 @@ false
 }
 else
 {
-NS_ASSERTION
+MOZ_ASSERT
 (
 paramInfo
 .
@@ -10151,7 +10151,7 @@ QueryInterfaceFastPath
 )
 const
 {
-NS_ASSERTION
+MOZ_ASSERT
 (
 mVTableIndex
 =
@@ -10845,7 +10845,7 @@ type
 =
 type
 ;
-NS_ABORT_IF_FALSE
+MOZ_ASSERT
 (
 !
 paramInfo
@@ -10991,7 +10991,7 @@ IsOut
 )
 )
 {
-NS_ASSERTION
+MOZ_ASSERT
 (
 i
 <
@@ -11343,7 +11343,7 @@ return
 false
 ;
 }
-NS_ABORT_IF_FALSE
+MOZ_ASSERT
 (
 datum_type
 .
@@ -11364,8 +11364,6 @@ not
 currently
 supported
 -
-"
-"
 see
 bug
 693337
@@ -11453,7 +11451,7 @@ IsOut
 )
 )
 {
-NS_ASSERTION
+MOZ_ASSERT
 (
 i
 <
@@ -11682,7 +11680,7 @@ nsXPTType
 type
 )
 {
-NS_ABORT_IF_FALSE
+MOZ_ASSERT
 (
 type
 .
@@ -11854,7 +11852,7 @@ break
 ;
 default
 :
-NS_ABORT_IF_FALSE
+MOZ_ASSERT
 (
 !
 type
@@ -11916,7 +11914,7 @@ TagPart
 (
 )
 ;
-NS_ABORT_IF_FALSE
+MOZ_ASSERT
 (
 !
 paramInfo
@@ -11933,7 +11931,7 @@ flags
 "
 )
 ;
-NS_ABORT_IF_FALSE
+MOZ_ASSERT
 (
 type_tag
 =
@@ -12244,7 +12242,7 @@ GetPrincipal
 equal
 )
 ;
-NS_ASSERTION
+MOZ_ASSERT
 (
 equal
 "
@@ -14092,7 +14090,7 @@ GetInterfaceInfo
 (
 )
 ;
-NS_ASSERTION
+MOZ_ASSERT
 (
 info1
 !
@@ -14475,7 +14473,7 @@ GetInterfaceCount
 )
 return
 ;
-NS_ASSERTION
+MOZ_ASSERT
 (
 proto
 |

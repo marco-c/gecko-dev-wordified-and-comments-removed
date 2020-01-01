@@ -3844,13 +3844,9 @@ do_QueryInterface
 native
 )
 ;
-NS_ASSERTION
+MOZ_ASSERT
 (
 initializer
-"
-what
-?
-"
 )
 ;
 nsresult
@@ -4083,13 +4079,9 @@ do_QueryInterface
 native
 )
 ;
-NS_ASSERTION
+MOZ_ASSERT
 (
 initializer
-"
-what
-?
-"
 )
 ;
 nsresult
@@ -8464,7 +8456,7 @@ JS_GetSecurityCallbacks
 rt
 )
 ;
-NS_ASSERTION
+MOZ_ASSERT
 (
 scb
 "
@@ -8931,7 +8923,7 @@ NS_ShutdownXPCOM
 NULL
 )
 ;
-NS_ASSERTION
+MOZ_ASSERT
 (
 NS_SUCCEEDED
 (

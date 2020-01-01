@@ -4988,7 +4988,7 @@ desc
 return
 false
 ;
-NS_ASSERTION
+MOZ_ASSERT
 (
 !
 desc
@@ -5106,7 +5106,7 @@ flags
 return
 false
 ;
-NS_ASSERTION
+MOZ_ASSERT
 (
 !
 desc
@@ -5734,7 +5734,7 @@ JSObject
 wrapper
 )
 {
-NS_ASSERTION
+MOZ_ASSERT
 (
 js
 :
@@ -5769,7 +5769,7 @@ GetHolder
 wrapper
 )
 ;
-NS_ASSERTION
+MOZ_ASSERT
 (
 holder
 "

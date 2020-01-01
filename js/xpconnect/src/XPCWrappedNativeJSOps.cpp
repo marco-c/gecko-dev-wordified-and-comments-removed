@@ -571,7 +571,7 @@ cx
 wrapper
 )
 ;
-NS_ASSERTION
+MOZ_ASSERT
 (
 JS_TypeOfValue
 (
@@ -1811,7 +1811,7 @@ propFlags
 )
 ;
 }
-NS_ASSERTION
+MOZ_ASSERT
 (
 member
 -
@@ -4143,7 +4143,7 @@ SetResolveName
 old
 )
 ;
-NS_ASSERTION
+MOZ_ASSERT
 (
 old
 =
@@ -4833,7 +4833,7 @@ XPCNativeScriptableCreateInfo
 sci
 )
 {
-NS_ASSERTION
+MOZ_ASSERT
 (
 sci
 "
@@ -4842,7 +4842,7 @@ param
 "
 )
 ;
-NS_ASSERTION
+MOZ_ASSERT
 (
 sci
 -
@@ -5002,7 +5002,7 @@ PopulateJSClass
 (
 )
 {
-NS_ASSERTION
+MOZ_ASSERT
 (
 mJSClass
 .
@@ -5609,7 +5609,7 @@ jsval
 vp
 )
 {
-NS_ASSERTION
+MOZ_ASSERT
 (
 JS_TypeOfValue
 (
@@ -5765,7 +5765,7 @@ jsval
 vp
 )
 {
-NS_ASSERTION
+MOZ_ASSERT
 (
 JS_TypeOfValue
 (
@@ -5972,7 +5972,7 @@ HandleObject
 obj
 )
 {
-NS_ASSERTION
+MOZ_ASSERT
 (
 js
 :
@@ -6314,7 +6314,7 @@ HandleId
 id
 )
 {
-NS_ASSERTION
+MOZ_ASSERT
 (
 js
 :
@@ -6520,7 +6520,7 @@ MutableHandleValue
 vp
 )
 {
-NS_ASSERTION
+MOZ_ASSERT
 (
 js
 :
@@ -6654,7 +6654,7 @@ HandleId
 id
 )
 {
-NS_ASSERTION
+MOZ_ASSERT
 (
 js
 :

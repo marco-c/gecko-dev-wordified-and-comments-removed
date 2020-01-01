@@ -175,7 +175,7 @@ forgetCanonical
 (
 )
 {
-NS_ASSERTION
+MOZ_ASSERT
 (
 mCanonical
 "

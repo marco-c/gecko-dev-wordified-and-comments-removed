@@ -1293,7 +1293,7 @@ if
 mWrappedNativeMap
 )
 {
-NS_ASSERTION
+MOZ_ASSERT
 (
 0
 =
@@ -1323,7 +1323,7 @@ if
 mWrappedNativeProtoMap
 )
 {
-NS_ASSERTION
+MOZ_ASSERT
 (
 0
 =
@@ -1353,7 +1353,7 @@ if
 mMainThreadWrappedNativeProtoMap
 )
 {
-NS_ASSERTION
+MOZ_ASSERT
 (
 0
 =
@@ -1879,12 +1879,10 @@ GetMapLock
 )
 )
 ;
-NS_ASSERTION
+MOZ_ASSERT
 (
+!
 gDyingScopes
-=
-=
-nullptr
 "
 JSGC_MARK_END
 without

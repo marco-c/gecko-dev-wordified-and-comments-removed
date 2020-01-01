@@ -202,7 +202,7 @@ char
 name
 )
 {
-NS_ASSERTION
+MOZ_ASSERT
 (
 !
 mName
@@ -219,7 +219,7 @@ set
 "
 )
 ;
-NS_ASSERTION
+MOZ_ASSERT
 (
 name
 "
@@ -274,7 +274,7 @@ SetNameToNoString
 (
 )
 ;
-NS_ASSERTION
+MOZ_ASSERT
 (
 mName
 "
@@ -578,7 +578,7 @@ char
 nameString
 )
 {
-NS_ASSERTION
+MOZ_ASSERT
 (
 nameString
 "
@@ -3155,7 +3155,7 @@ inst
 )
 )
 ;
-NS_ASSERTION
+MOZ_ASSERT
 (
 NS_FAILED
 (
@@ -3334,7 +3334,7 @@ ID
 )
 )
 {
-NS_ASSERTION
+MOZ_ASSERT
 (
 JS_IsExceptionPending
 (
@@ -3428,7 +3428,7 @@ srvc
 )
 )
 ;
-NS_ASSERTION
+MOZ_ASSERT
 (
 NS_FAILED
 (
@@ -3707,7 +3707,7 @@ toObject
 )
 )
 ;
-NS_ASSERTION
+MOZ_ASSERT
 (
 obj
 "
@@ -4082,7 +4082,7 @@ JSObject
 obj
 )
 {
-NS_ASSERTION
+MOZ_ASSERT
 (
 cx
 &

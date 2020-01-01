@@ -81,7 +81,7 @@ nsISupports
 p
 )
 ;
-NS_ASSERTION
+MOZ_ASSERT
 (
 CheckForRightISupports
 (
@@ -342,7 +342,7 @@ void
 aInstancePtr
 )
 {
-NS_ASSERTION
+MOZ_ASSERT
 (
 IsAggregatedToNative
 (
@@ -734,7 +734,7 @@ do_GetMainThread
 (
 )
 ;
-NS_ASSERTION
+MOZ_ASSERT
 (
 mainThread
 "
@@ -878,7 +878,7 @@ JSTracer
 trc
 )
 {
-NS_ASSERTION
+MOZ_ASSERT
 (
 mRefCnt
 >
@@ -1239,7 +1239,7 @@ if
 map
 )
 {
-NS_ASSERTION
+MOZ_ASSERT
 (
 map
 "
@@ -1644,7 +1644,7 @@ return_wrapper
 }
 }
 }
-NS_ASSERTION
+MOZ_ASSERT
 (
 root
 "
@@ -1653,7 +1653,7 @@ root
 "
 )
 ;
-NS_ASSERTION
+MOZ_ASSERT
 (
 clazz
 "
@@ -2181,7 +2181,7 @@ cur
 >
 mNext
 ;
-NS_ASSERTION
+MOZ_ASSERT
 (
 cur
 "
@@ -2334,7 +2334,7 @@ REFNSIID
 aIID
 )
 {
-NS_ASSERTION
+MOZ_ASSERT
 (
 !
 aIID
@@ -2423,7 +2423,7 @@ nsIInterfaceInfo
 info
 )
 {
-NS_ASSERTION
+MOZ_ASSERT
 (
 GetClass
 (
@@ -2435,7 +2435,7 @@ class
 "
 )
 ;
-NS_ASSERTION
+MOZ_ASSERT
 (
 GetClass
 (
