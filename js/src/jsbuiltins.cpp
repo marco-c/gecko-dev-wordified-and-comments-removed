@@ -1313,7 +1313,7 @@ vp
 )
 ;
 }
-JSString
+JSObject
 *
 FASTCALL
 js_String_p_split
@@ -1362,7 +1362,7 @@ NULL
 ;
 JS_ASSERT
 (
-JSVAL_IS_STRING
+JSVAL_IS_OBJECT
 (
 vp
 [
@@ -1372,7 +1372,7 @@ vp
 )
 ;
 return
-JSVAL_TO_STRING
+JSVAL_TO_OBJECT
 (
 vp
 [

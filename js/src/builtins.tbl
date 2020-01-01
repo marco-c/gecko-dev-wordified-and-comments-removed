@@ -780,7 +780,7 @@ LO
 LO
 LO
 P
-JSString
+JSObject
 *
 JSContext
 *
