@@ -453,6 +453,10 @@ nsEventNameList
 .
 h
 \
+nsVKList
+.
+h
+\
 (
 NULL
 )
