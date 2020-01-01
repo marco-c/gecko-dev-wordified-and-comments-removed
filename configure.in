@@ -72064,6 +72064,7 @@ z
 GLIB_GMODULE_LIBS
 }
 "
+\
 -
 a
 -
@@ -72073,6 +72074,18 @@ n
 GLIB_CONFIG
 }
 "
+\
+-
+a
+"
+{
+GLIB_CONFIG
+}
+"
+!
+=
+no
+\
 ;
 then
 GLIB_GMODULE_LIBS
