@@ -785,7 +785,7 @@ GetPresShell
 NS_ENSURE_TRUE
 (
 shell
-NS_ERROR_NOT_AVAILABLE
+PR_FALSE
 )
 ;
 nsIViewManager
