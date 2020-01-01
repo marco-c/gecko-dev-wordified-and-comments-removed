@@ -801,7 +801,7 @@ broken
 -
 image
 .
-gif
+png
 \
 (
 srcdir
@@ -811,7 +811,7 @@ loading
 -
 image
 .
-gif
+png
 \
 (
 NULL
