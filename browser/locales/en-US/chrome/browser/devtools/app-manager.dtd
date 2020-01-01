@@ -545,11 +545,10 @@ webapp
 ENTITY
 projects
 .
-noProject
+noProjects
 "
 No
-project
-linked
+projects
 .
 Add
 a
@@ -558,7 +557,7 @@ packaged
 app
 below
 (
-a
+local
 directory
 )
 or
