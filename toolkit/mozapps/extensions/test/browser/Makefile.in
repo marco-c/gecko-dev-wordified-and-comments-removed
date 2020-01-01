@@ -661,10 +661,6 @@ browser_eula
 .
 xml
 \
-discovery
-.
-html
-\
 redirect
 .
 sjs
