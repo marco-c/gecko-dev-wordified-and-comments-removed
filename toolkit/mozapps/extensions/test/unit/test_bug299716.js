@@ -1622,7 +1622,7 @@ addonsArray
 addonsArray
 .
 length
-true
+null
 )
 ;
 do_throw
@@ -1722,7 +1722,7 @@ addonsArray
 addonsArray
 .
 length
-true
+null
 )
 ;
 }
