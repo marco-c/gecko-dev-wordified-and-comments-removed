@@ -3724,9 +3724,13 @@ shell32
 SHChangeNotify
 (
 i
-0x08000000
+{
+SHCNE_ASSOCCHANGED
+}
 i
-0
+{
+SHCNF_DWORDFLUSH
+}
 i
 0
 i
