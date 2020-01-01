@@ -383,6 +383,10 @@ mParent
 true
 )
 ;
+mParent
+=
+nsnull
+;
 return
 NS_OK
 ;
