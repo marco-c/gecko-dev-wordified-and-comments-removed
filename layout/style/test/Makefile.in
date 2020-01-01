@@ -665,6 +665,10 @@ test_bug453896_deck
 .
 html
 \
+test_bug470769
+.
+html
+\
 test_cascade
 .
 html
