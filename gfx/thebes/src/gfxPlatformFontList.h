@@ -315,7 +315,7 @@ gfxFontEntry
 MakePlatformFont
 (
 const
-gfxFontEntry
+gfxProxyFontEntry
 *
 aProxyEntry
 const
@@ -340,8 +340,6 @@ nsAString
 &
 aFamilyName
 )
-=
-0
 ;
 protected
 :

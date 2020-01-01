@@ -202,6 +202,10 @@ gfxDDrawSurface
 .
 cpp
 \
+gfxFT2FontList
+.
+cpp
+\
 (
 NULL
 )
@@ -218,6 +222,14 @@ CPPSRCS
 gfxWindowsFonts
 .
 cpp
+\
+gfxGDIFontList
+.
+cpp
+\
+(
+NULL
+)
 endif
 CPPSRCS
 +

@@ -668,7 +668,7 @@ nsTArray
 <
 nsRefPtr
 <
-FontEntry
+gfxFontEntry
 >
 >
 &
@@ -682,7 +682,7 @@ nsTArray
 <
 nsRefPtr
 <
-FontEntry
+gfxFontEntry
 >
 >
 &
@@ -704,7 +704,7 @@ nsTArray
 <
 nsRefPtr
 <
-FontEntry
+gfxFontEntry
 >
 >
 *
@@ -722,7 +722,7 @@ nsTArray
 <
 nsRefPtr
 <
-FontEntry
+gfxFontEntry
 >
 >
 &

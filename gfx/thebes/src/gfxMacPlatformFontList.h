@@ -197,11 +197,14 @@ PlatformFontList
 )
 {
 return
-(
+static_cast
+<
 gfxMacPlatformFontList
 *
-)
+>
+(
 sPlatformFontList
+)
 ;
 }
 static
@@ -260,7 +263,7 @@ gfxFontEntry
 MakePlatformFont
 (
 const
-gfxFontEntry
+gfxProxyFontEntry
 *
 aProxyEntry
 const
