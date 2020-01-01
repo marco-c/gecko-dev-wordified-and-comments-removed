@@ -498,6 +498,10 @@ TransactionThreadPool
 .
 cpp
 \
+IDBIndexRequest
+.
+cpp
+\
 (
 NULL
 )

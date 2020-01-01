@@ -112,6 +112,12 @@ autoIncrement
 PRUint32
 databaseId
 ;
+nsTArray
+<
+nsString
+>
+indexNames
+;
 ObjectStoreInfo
 (
 )
