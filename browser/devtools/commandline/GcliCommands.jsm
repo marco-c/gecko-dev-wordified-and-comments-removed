@@ -1395,7 +1395,7 @@ gcli
 lookup
 (
 "
-editManual
+editManual2
 "
 )
 params
