@@ -1043,6 +1043,21 @@ Dtans
 '
 ]
             
+EXTRA_COMPONENTS
+=
+[
+'
+fans
+.
+js
+'
+'
+tans
+.
+js
+'
+]
+            
 SIMPLE_PROGRAMS
 =
 [

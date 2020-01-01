@@ -415,6 +415,12 @@ DEFINES
 DEFINES
 '
             
+EXTRA_COMPONENTS
+=
+'
+EXTRA_COMPONENTS
+'
+            
 MODULE
 =
 '
