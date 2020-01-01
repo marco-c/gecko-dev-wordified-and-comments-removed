@@ -326,9 +326,6 @@ hModResources
 HPS
 hpsScreen
 ;
-LONG
-lDisplayDepth
-;
 nsGfxModuleData
 (
 )
