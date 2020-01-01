@@ -385,7 +385,7 @@ PostMessage
 (
 message_hwnd_
 WM_NULL
-NULL
+0
 0
 )
 ;
@@ -1426,7 +1426,7 @@ CreateIoCompletionPort
 (
 INVALID_HANDLE_VALUE
 NULL
-NULL
+0
 1
 )
 )
@@ -1891,7 +1891,7 @@ item
 ULONG_PTR
 key
 =
-NULL
+0
 ;
 OVERLAPPED
 *

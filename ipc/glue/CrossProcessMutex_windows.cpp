@@ -265,7 +265,7 @@ mMutex
 aHandle
 &
 newHandle
-NULL
+0
 FALSE
 DUPLICATE_SAME_ACCESS
 )
