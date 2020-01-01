@@ -500,6 +500,10 @@ post
 .
 sjs
 \
+test_bug402210
+.
+html
+\
 (
 NULL
 )
