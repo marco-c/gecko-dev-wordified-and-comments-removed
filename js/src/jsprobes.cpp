@@ -664,9 +664,7 @@ FunctionName
 JSContext
 *
 cx
-const
-JSFunction
-*
+UnrootedFunction
 fun
 JSAutoByteString
 *
@@ -737,8 +735,7 @@ DTraceEnterJSFun
 JSContext
 *
 cx
-JSFunction
-*
+UnrootedFunction
 fun
 UnrootedScript
 script
@@ -776,8 +773,7 @@ DTraceExitJSFun
 JSContext
 *
 cx
-JSFunction
-*
+UnrootedFunction
 fun
 UnrootedScript
 script
@@ -977,8 +973,7 @@ ETWEnterJSFun
 JSContext
 *
 cx
-JSFunction
-*
+UnrootedFunction
 fun
 UnrootedScript
 script
@@ -1042,8 +1037,7 @@ ETWExitJSFun
 JSContext
 *
 cx
-JSFunction
-*
+UnrootedFunction
 fun
 UnrootedScript
 script
@@ -1107,8 +1101,7 @@ ETWCreateObject
 JSContext
 *
 cx
-JSObject
-*
+UnrootedObject
 obj
 )
 {
@@ -1167,8 +1160,7 @@ Probes
 :
 ETWFinalizeObject
 (
-JSObject
-*
+UnrootedObject
 obj
 )
 {
@@ -1201,8 +1193,7 @@ ETWResizeObject
 JSContext
 *
 cx
-JSObject
-*
+UnrootedObject
 obj
 size_t
 oldSize
@@ -1260,8 +1251,7 @@ ETWCreateString
 JSContext
 *
 cx
-JSString
-*
+UnrootedString
 string
 size_t
 length
@@ -1309,8 +1299,7 @@ Probes
 :
 ETWFinalizeString
 (
-JSString
-*
+UnrootedString
 string
 )
 {
@@ -1395,8 +1384,7 @@ ETWCalloutBegin
 JSContext
 *
 cx
-JSFunction
-*
+UnrootedFunction
 fun
 )
 {
@@ -1455,8 +1443,7 @@ ETWCalloutEnd
 JSContext
 *
 cx
-JSFunction
-*
+UnrootedFunction
 fun
 )
 {
@@ -1760,8 +1747,7 @@ Probes
 :
 ETWCustomMark
 (
-JSString
-*
+UnrootedString
 string
 )
 {
