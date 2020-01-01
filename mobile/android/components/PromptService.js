@@ -1743,6 +1743,10 @@ value
 aPassword
 .
 value
+|
+|
+"
+"
 }
 ]
 ;
