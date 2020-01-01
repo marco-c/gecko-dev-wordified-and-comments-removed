@@ -1626,6 +1626,7 @@ height
 )
 )
 FORMAT_B8G8R8A8
+mSigma
 )
 ;
 if
