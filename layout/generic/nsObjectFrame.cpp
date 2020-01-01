@@ -11286,7 +11286,7 @@ message
 NS_PLUGIN_FOCUS
 )
 {
-nsIFocusManager_MOZILLA_2_0_BRANCH
+nsIFocusManager
 *
 fm
 =
