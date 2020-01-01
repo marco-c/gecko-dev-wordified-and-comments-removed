@@ -521,6 +521,10 @@ browser_bug591663
 .
 js
 \
+browser_bug593535
+.
+js
+\
 browser_bug596336
 .
 js
@@ -638,6 +642,10 @@ browser_bug557956_9_2
 xpi
 \
 browser_bug591465
+.
+xml
+\
+browser_bug593535
 .
 xml
 \
