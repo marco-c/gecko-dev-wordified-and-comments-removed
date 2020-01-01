@@ -105,6 +105,10 @@ AudioChannelFormat
 .
 h
 \
+AudioEventTimeline
+.
+h
+\
 AudioNodeEngine
 .
 h
