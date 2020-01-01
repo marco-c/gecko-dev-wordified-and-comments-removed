@@ -646,7 +646,7 @@ DEFAULT_FRAGMENT_SHADER
 =
 "
 precision
-mediump
+highp
 float
 ;
 \
