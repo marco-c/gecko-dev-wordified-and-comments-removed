@@ -9519,9 +9519,7 @@ aDelayedStop
 mWidget
 )
 {
-GetView
-(
-)
+mInnerView
 -
 >
 DetachWidgetEventHandler
