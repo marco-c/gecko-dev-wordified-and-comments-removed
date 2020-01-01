@@ -2172,6 +2172,17 @@ return
 true
 ;
 }
+get
+scope
+(
+)
+{
+return
+AddonManager
+.
+SCOPE_PROFILE
+;
+}
 isCompatibleWith
 :
 function
