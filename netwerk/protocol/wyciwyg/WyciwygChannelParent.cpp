@@ -326,6 +326,14 @@ this
 )
 )
 ;
+if
+(
+!
+mChannel
+)
+return
+true
+;
 nsresult
 rv
 ;
@@ -415,6 +423,10 @@ nsString
 data
 )
 {
+if
+(
+mChannel
+)
 mChannel
 -
 >
@@ -439,6 +451,10 @@ nsresult
 reason
 )
 {
+if
+(
+mChannel
+)
 mChannel
 -
 >
@@ -467,6 +483,10 @@ nsCString
 aCharset
 )
 {
+if
+(
+mChannel
+)
 mChannel
 -
 >
@@ -492,6 +512,11 @@ nsCString
 aSecurityInfo
 )
 {
+if
+(
+mChannel
+)
+{
 nsCOMPtr
 <
 nsISupports
@@ -515,6 +540,7 @@ SetSecurityInfo
 securityInfo
 )
 ;
+}
 return
 true
 ;
