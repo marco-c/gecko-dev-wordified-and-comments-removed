@@ -1172,10 +1172,14 @@ sprop
 -
 >
 getter
+(
+)
 sprop
 -
 >
 setter
+(
+)
 SPROP_INVALID_SLOT
 sprop
 -
