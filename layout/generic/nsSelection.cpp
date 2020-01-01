@@ -19844,7 +19844,7 @@ if
 mAnchorFocusRange
 )
 return
-NS_ERROR_NOT_INITIALIZED
+NS_ERROR_DOM_INVALID_STATE_ERR
 ;
 if
 (
