@@ -1282,7 +1282,7 @@ _ID_Count
 -
 1
 false
-DOM_OBJECT_SLOT
+NULL
 }
 ;
 JSPropertySpec
@@ -1806,7 +1806,7 @@ _ID_Count
 -
 1
 false
-DOM_OBJECT_SLOT
+NULL
 }
 ;
 WorkerPrivate

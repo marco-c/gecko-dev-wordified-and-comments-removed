@@ -3185,7 +3185,7 @@ js
 SetReservedSlot
 (
 aObj
-DOM_GLOBAL_OBJECT_SLOT
+DOM_OBJECT_SLOT
 PRIVATE_TO_JSVAL
 (
 scope
@@ -4065,7 +4065,7 @@ _ID_Count
 -
 1
 false
-DOM_GLOBAL_OBJECT_SLOT
+NULL
 }
 ;
 JSPropertySpec
