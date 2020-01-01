@@ -973,6 +973,16 @@ JSString
 1
 1
 )
+BUILTIN1
+(
+ParseIntDouble
+F
+F
+jsdouble
+jsdouble
+1
+1
+)
 BUILTIN2
 (
 ParseFloat
