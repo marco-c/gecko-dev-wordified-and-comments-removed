@@ -770,6 +770,24 @@ successful
 '
 )
         
+if
+self
+.
+substs
+[
+'
+MOZ_BUILD_APP
+'
+]
+!
+=
+'
+mobile
+/
+android
+'
+:
+            
 app_path
 =
 self
@@ -780,7 +798,7 @@ get_binary_path
 app
 '
 )
-        
+            
 print
 (
 '
