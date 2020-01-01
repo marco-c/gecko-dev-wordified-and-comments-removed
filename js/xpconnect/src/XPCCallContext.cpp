@@ -71,7 +71,7 @@ mXPC
 nsXPConnect
 :
 :
-GetXPConnect
+XPConnect
 (
 )
 )
@@ -170,7 +170,7 @@ mXPC
 nsXPConnect
 :
 :
-GetXPConnect
+XPConnect
 (
 )
 )

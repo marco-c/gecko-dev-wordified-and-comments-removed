@@ -311,7 +311,7 @@ NS_FAILED
 nsXPConnect
 :
 :
-GetXPConnect
+XPConnect
 (
 )
 -
