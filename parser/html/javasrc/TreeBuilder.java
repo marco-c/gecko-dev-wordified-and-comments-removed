@@ -2599,7 +2599,7 @@ contextName
 {
 tokenizer
 .
-setContentModelFlag
+setStateAndEndTagExpectation
 (
 Tokenizer
 .
@@ -2666,7 +2666,7 @@ contextName
 {
 tokenizer
 .
-setContentModelFlag
+setStateAndEndTagExpectation
 (
 Tokenizer
 .
@@ -2688,7 +2688,7 @@ contextName
 {
 tokenizer
 .
-setContentModelFlag
+setStateAndEndTagExpectation
 (
 Tokenizer
 .
@@ -2710,7 +2710,7 @@ contextName
 {
 tokenizer
 .
-setContentModelFlag
+setStateAndEndTagExpectation
 (
 Tokenizer
 .
@@ -2723,7 +2723,7 @@ else
 {
 tokenizer
 .
-setContentModelFlag
+setStateAndEndTagExpectation
 (
 Tokenizer
 .
@@ -4712,27 +4712,14 @@ wantingComments
 return
 ;
 }
-commentloop
-:
-for
-(
-;
-;
-)
-{
-switch
+if
 (
 foreignFlag
+!
+=
+IN_FOREIGN
 )
 {
-case
-IN_FOREIGN
-:
-break
-commentloop
-;
-default
-:
 switch
 (
 mode
@@ -4784,9 +4771,7 @@ return
 default
 :
 break
-commentloop
 ;
-}
 }
 }
 flushCharacters
@@ -5984,14 +5969,14 @@ flushCharacters
 (
 )
 ;
-switch
+if
 (
 foreignFlag
+=
+=
+IN_FOREIGN
 )
 {
-case
-IN_FOREIGN
-:
 err
 (
 "
@@ -6045,8 +6030,6 @@ TreeBuilder
 .
 NOT_IN_FOREIGN
 ;
-default
-:
 }
 eofloop
 :
@@ -8202,7 +8185,7 @@ TEXT
 ;
 tokenizer
 .
-setContentModelFlag
+setStateAndEndTagExpectation
 (
 Tokenizer
 .
@@ -8251,7 +8234,7 @@ TEXT
 ;
 tokenizer
 .
-setContentModelFlag
+setStateAndEndTagExpectation
 (
 Tokenizer
 .
@@ -9419,7 +9402,7 @@ attributes
 ;
 tokenizer
 .
-setContentModelFlag
+setStateAndEndTagExpectation
 (
 Tokenizer
 .
@@ -10533,7 +10516,7 @@ formPointer
 ;
 tokenizer
 .
-setContentModelFlag
+setStateAndEndTagExpectation
 (
 Tokenizer
 .
@@ -10602,7 +10585,7 @@ TEXT
 ;
 tokenizer
 .
-setContentModelFlag
+setStateAndEndTagExpectation
 (
 Tokenizer
 .
@@ -10702,7 +10685,7 @@ TEXT
 ;
 tokenizer
 .
-setContentModelFlag
+setStateAndEndTagExpectation
 (
 Tokenizer
 .
@@ -11460,7 +11443,7 @@ TEXT
 ;
 tokenizer
 .
-setContentModelFlag
+setStateAndEndTagExpectation
 (
 Tokenizer
 .
@@ -11514,7 +11497,7 @@ TEXT
 ;
 tokenizer
 .
-setContentModelFlag
+setStateAndEndTagExpectation
 (
 Tokenizer
 .
@@ -11592,7 +11575,7 @@ TEXT
 ;
 tokenizer
 .
-setContentModelFlag
+setStateAndEndTagExpectation
 (
 Tokenizer
 .
@@ -11644,7 +11627,7 @@ TEXT
 ;
 tokenizer
 .
-setContentModelFlag
+setStateAndEndTagExpectation
 (
 Tokenizer
 .
@@ -11852,7 +11835,7 @@ TEXT
 ;
 tokenizer
 .
-setContentModelFlag
+setStateAndEndTagExpectation
 (
 Tokenizer
 .
@@ -12510,7 +12493,7 @@ TEXT
 ;
 tokenizer
 .
-setContentModelFlag
+setStateAndEndTagExpectation
 (
 Tokenizer
 .
@@ -12767,7 +12750,7 @@ TEXT
 ;
 tokenizer
 .
-setContentModelFlag
+setStateAndEndTagExpectation
 (
 Tokenizer
 .
@@ -13534,7 +13517,7 @@ TEXT
 ;
 tokenizer
 .
-setContentModelFlag
+setStateAndEndTagExpectation
 (
 Tokenizer
 .
@@ -13617,7 +13600,7 @@ TEXT
 ;
 tokenizer
 .
-setContentModelFlag
+setStateAndEndTagExpectation
 (
 Tokenizer
 .
@@ -13687,7 +13670,7 @@ TEXT
 ;
 tokenizer
 .
-setContentModelFlag
+setStateAndEndTagExpectation
 (
 Tokenizer
 .
@@ -13850,7 +13833,7 @@ TEXT
 ;
 tokenizer
 .
-setContentModelFlag
+setStateAndEndTagExpectation
 (
 Tokenizer
 .
