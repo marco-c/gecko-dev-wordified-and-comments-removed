@@ -38,6 +38,7 @@ method_
 flags_
 datastruct_
 member_
+parsevariant_
 kwtable_
 stylestructoffset_
 animtype_
@@ -50,6 +51,7 @@ method_
 flags_
 datastruct_
 member_
+parsevariant_
 kwtable_
 Font
 stylestructoffset_
@@ -65,6 +67,7 @@ method_
 flags_
 datastruct_
 member_
+parsevariant_
 kwtable_
 stylestructoffset_
 animtype_
@@ -77,6 +80,7 @@ method_
 flags_
 datastruct_
 member_
+parsevariant_
 kwtable_
 Color
 stylestructoffset_
@@ -92,6 +96,7 @@ method_
 flags_
 datastruct_
 member_
+parsevariant_
 kwtable_
 stylestructoffset_
 animtype_
@@ -104,6 +109,7 @@ method_
 flags_
 datastruct_
 member_
+parsevariant_
 kwtable_
 Background
 stylestructoffset_
@@ -119,6 +125,7 @@ method_
 flags_
 datastruct_
 member_
+parsevariant_
 kwtable_
 stylestructoffset_
 animtype_
@@ -131,6 +138,7 @@ method_
 flags_
 datastruct_
 member_
+parsevariant_
 kwtable_
 List
 stylestructoffset_
@@ -146,6 +154,7 @@ method_
 flags_
 datastruct_
 member_
+parsevariant_
 kwtable_
 stylestructoffset_
 animtype_
@@ -158,6 +167,7 @@ method_
 flags_
 datastruct_
 member_
+parsevariant_
 kwtable_
 Position
 stylestructoffset_
@@ -173,6 +183,7 @@ method_
 flags_
 datastruct_
 member_
+parsevariant_
 kwtable_
 stylestructoffset_
 animtype_
@@ -185,6 +196,7 @@ method_
 flags_
 datastruct_
 member_
+parsevariant_
 kwtable_
 Text
 stylestructoffset_
@@ -200,6 +212,7 @@ method_
 flags_
 datastruct_
 member_
+parsevariant_
 kwtable_
 stylestructoffset_
 animtype_
@@ -212,6 +225,7 @@ method_
 flags_
 datastruct_
 member_
+parsevariant_
 kwtable_
 TextReset
 stylestructoffset_
@@ -227,6 +241,7 @@ method_
 flags_
 datastruct_
 member_
+parsevariant_
 kwtable_
 stylestructoffset_
 animtype_
@@ -239,6 +254,7 @@ method_
 flags_
 datastruct_
 member_
+parsevariant_
 kwtable_
 Display
 stylestructoffset_
@@ -254,6 +270,7 @@ method_
 flags_
 datastruct_
 member_
+parsevariant_
 kwtable_
 stylestructoffset_
 animtype_
@@ -266,6 +283,7 @@ method_
 flags_
 datastruct_
 member_
+parsevariant_
 kwtable_
 Visibility
 stylestructoffset_
@@ -281,6 +299,7 @@ method_
 flags_
 datastruct_
 member_
+parsevariant_
 kwtable_
 stylestructoffset_
 animtype_
@@ -293,6 +312,7 @@ method_
 flags_
 datastruct_
 member_
+parsevariant_
 kwtable_
 Content
 stylestructoffset_
@@ -308,6 +328,7 @@ method_
 flags_
 datastruct_
 member_
+parsevariant_
 kwtable_
 stylestructoffset_
 animtype_
@@ -320,6 +341,7 @@ method_
 flags_
 datastruct_
 member_
+parsevariant_
 kwtable_
 Quotes
 stylestructoffset_
@@ -335,6 +357,7 @@ method_
 flags_
 datastruct_
 member_
+parsevariant_
 kwtable_
 stylestructoffset_
 animtype_
@@ -347,6 +370,7 @@ method_
 flags_
 datastruct_
 member_
+parsevariant_
 kwtable_
 UserInterface
 stylestructoffset_
@@ -362,6 +386,7 @@ method_
 flags_
 datastruct_
 member_
+parsevariant_
 kwtable_
 stylestructoffset_
 animtype_
@@ -374,6 +399,7 @@ method_
 flags_
 datastruct_
 member_
+parsevariant_
 kwtable_
 UIReset
 stylestructoffset_
@@ -389,6 +415,7 @@ method_
 flags_
 datastruct_
 member_
+parsevariant_
 kwtable_
 stylestructoffset_
 animtype_
@@ -401,6 +428,7 @@ method_
 flags_
 datastruct_
 member_
+parsevariant_
 kwtable_
 Table
 stylestructoffset_
@@ -416,6 +444,7 @@ method_
 flags_
 datastruct_
 member_
+parsevariant_
 kwtable_
 stylestructoffset_
 animtype_
@@ -428,6 +457,7 @@ method_
 flags_
 datastruct_
 member_
+parsevariant_
 kwtable_
 TableBorder
 stylestructoffset_
@@ -443,6 +473,7 @@ method_
 flags_
 datastruct_
 member_
+parsevariant_
 kwtable_
 stylestructoffset_
 animtype_
@@ -455,6 +486,7 @@ method_
 flags_
 datastruct_
 member_
+parsevariant_
 kwtable_
 Margin
 stylestructoffset_
@@ -470,6 +502,7 @@ method_
 flags_
 datastruct_
 member_
+parsevariant_
 kwtable_
 stylestructoffset_
 animtype_
@@ -482,6 +515,7 @@ method_
 flags_
 datastruct_
 member_
+parsevariant_
 kwtable_
 Padding
 stylestructoffset_
@@ -497,6 +531,7 @@ method_
 flags_
 datastruct_
 member_
+parsevariant_
 kwtable_
 stylestructoffset_
 animtype_
@@ -509,6 +544,7 @@ method_
 flags_
 datastruct_
 member_
+parsevariant_
 kwtable_
 Border
 stylestructoffset_
@@ -524,6 +560,7 @@ method_
 flags_
 datastruct_
 member_
+parsevariant_
 kwtable_
 stylestructoffset_
 animtype_
@@ -536,6 +573,7 @@ method_
 flags_
 datastruct_
 member_
+parsevariant_
 kwtable_
 Outline
 stylestructoffset_
@@ -551,6 +589,7 @@ method_
 flags_
 datastruct_
 member_
+parsevariant_
 kwtable_
 stylestructoffset_
 animtype_
@@ -563,6 +602,7 @@ method_
 flags_
 datastruct_
 member_
+parsevariant_
 kwtable_
 XUL
 stylestructoffset_
@@ -578,6 +618,7 @@ method_
 flags_
 datastruct_
 member_
+parsevariant_
 kwtable_
 stylestructoffset_
 animtype_
@@ -590,6 +631,7 @@ method_
 flags_
 datastruct_
 member_
+parsevariant_
 kwtable_
 Column
 stylestructoffset_
@@ -605,6 +647,7 @@ method_
 flags_
 datastruct_
 member_
+parsevariant_
 kwtable_
 stylestructoffset_
 animtype_
@@ -617,6 +660,7 @@ method_
 flags_
 datastruct_
 member_
+parsevariant_
 kwtable_
 SVG
 stylestructoffset_
@@ -632,6 +676,7 @@ method_
 flags_
 datastruct_
 member_
+parsevariant_
 kwtable_
 stylestructoffset_
 animtype_
@@ -644,6 +689,7 @@ method_
 flags_
 datastruct_
 member_
+parsevariant_
 kwtable_
 SVGReset
 stylestructoffset_
@@ -662,6 +708,7 @@ method_
 flags_
 datastruct_
 member_
+parsevariant_
 kwtable_
 )
 CSS_PROP
@@ -672,6 +719,7 @@ method_
 flags_
 datastruct_
 member_
+parsevariant_
 kwtable_
 BackendOnly
 CSS_PROP_NO_OFFSET
@@ -697,6 +745,7 @@ method_
 flags_
 datastruct_
 member_
+parsevariant_
 kwtable_
 stylestructoffset_
 animtype_
@@ -719,6 +768,7 @@ method_
 flags_
 datastruct_
 member_
+parsevariant_
 kwtable_
 stylestructoffset_
 animtype_
@@ -741,6 +791,7 @@ method_
 flags_
 datastruct_
 member_
+parsevariant_
 kwtable_
 stylestructoffset_
 animtype_
@@ -763,6 +814,7 @@ method_
 flags_
 datastruct_
 member_
+parsevariant_
 kwtable_
 stylestructoffset_
 animtype_
@@ -785,6 +837,7 @@ method_
 flags_
 datastruct_
 member_
+parsevariant_
 kwtable_
 stylestructoffset_
 animtype_
@@ -807,6 +860,7 @@ method_
 flags_
 datastruct_
 member_
+parsevariant_
 kwtable_
 stylestructoffset_
 animtype_
@@ -829,6 +883,7 @@ method_
 flags_
 datastruct_
 member_
+parsevariant_
 kwtable_
 stylestructoffset_
 animtype_
@@ -851,6 +906,7 @@ method_
 flags_
 datastruct_
 member_
+parsevariant_
 kwtable_
 stylestructoffset_
 animtype_
@@ -873,6 +929,7 @@ method_
 flags_
 datastruct_
 member_
+parsevariant_
 kwtable_
 stylestructoffset_
 animtype_
@@ -895,6 +952,7 @@ method_
 flags_
 datastruct_
 member_
+parsevariant_
 kwtable_
 stylestructoffset_
 animtype_
@@ -917,6 +975,7 @@ method_
 flags_
 datastruct_
 member_
+parsevariant_
 kwtable_
 stylestructoffset_
 animtype_
@@ -939,6 +998,7 @@ method_
 flags_
 datastruct_
 member_
+parsevariant_
 kwtable_
 stylestructoffset_
 animtype_
@@ -961,6 +1021,7 @@ method_
 flags_
 datastruct_
 member_
+parsevariant_
 kwtable_
 stylestructoffset_
 animtype_
@@ -983,6 +1044,7 @@ method_
 flags_
 datastruct_
 member_
+parsevariant_
 kwtable_
 stylestructoffset_
 animtype_
@@ -1005,6 +1067,7 @@ method_
 flags_
 datastruct_
 member_
+parsevariant_
 kwtable_
 stylestructoffset_
 animtype_
@@ -1027,6 +1090,7 @@ method_
 flags_
 datastruct_
 member_
+parsevariant_
 kwtable_
 stylestructoffset_
 animtype_
@@ -1049,6 +1113,7 @@ method_
 flags_
 datastruct_
 member_
+parsevariant_
 kwtable_
 stylestructoffset_
 animtype_
@@ -1071,6 +1136,7 @@ method_
 flags_
 datastruct_
 member_
+parsevariant_
 kwtable_
 stylestructoffset_
 animtype_
@@ -1093,6 +1159,7 @@ method_
 flags_
 datastruct_
 member_
+parsevariant_
 kwtable_
 stylestructoffset_
 animtype_
@@ -1115,6 +1182,7 @@ method_
 flags_
 datastruct_
 member_
+parsevariant_
 kwtable_
 stylestructoffset_
 animtype_
@@ -1137,6 +1205,7 @@ method_
 flags_
 datastruct_
 member_
+parsevariant_
 kwtable_
 stylestructoffset_
 animtype_
@@ -1159,6 +1228,7 @@ method_
 flags_
 datastruct_
 member_
+parsevariant_
 kwtable_
 stylestructoffset_
 animtype_
@@ -1181,6 +1251,7 @@ method_
 flags_
 datastruct_
 member_
+parsevariant_
 kwtable_
 stylestructoffset_
 animtype_
@@ -1203,6 +1274,7 @@ method_
 flags_
 datastruct_
 member_
+parsevariant_
 kwtable_
 )
 #
@@ -1223,6 +1295,7 @@ MozAppearance
 CSS_PROPERTY_PARSE_VALUE
 Display
 mAppearance
+0
 kAppearanceKTable
 CSS_PROP_NO_OFFSET
 eStyleAnimType_None
@@ -1258,6 +1331,7 @@ Margin
 mOutlineRadius
 .
 mTopLeft
+0
 nsnull
 offsetof
 (
@@ -1285,6 +1359,7 @@ Margin
 mOutlineRadius
 .
 mTopRight
+0
 nsnull
 offsetof
 (
@@ -1312,6 +1387,7 @@ Margin
 mOutlineRadius
 .
 mBottomRight
+0
 nsnull
 offsetof
 (
@@ -1339,6 +1415,7 @@ Margin
 mOutlineRadius
 .
 mBottomLeft
+0
 nsnull
 offsetof
 (
@@ -1360,6 +1437,7 @@ MozTabSize
 CSS_PROPERTY_PARSE_VALUE
 Text
 mTabSize
+0
 nsnull
 offsetof
 (
@@ -1386,6 +1464,7 @@ CSS_PROPERTY_PARSE_INACCESSIBLE
 CSS_PROPERTY_APPLIES_TO_FIRST_LETTER_AND_FIRST_LINE
 Font
 mSystemFont
+0
 kFontKTable
 CSS_PROP_NO_OFFSET
 eStyleAnimType_None
@@ -1402,6 +1481,7 @@ CSS_PROPERTY_PARSE_VALUE
 CSS_PROPERTY_VALUE_PARSER_FUNCTION
 Aural
 mAzimuth
+0
 kAzimuthKTable
 )
 CSS_PROP_SHORTHAND
@@ -1425,6 +1505,7 @@ CSS_PROPERTY_APPLIES_TO_FIRST_LETTER_AND_FIRST_LINE
 CSS_PROPERTY_VALUE_LIST_USES_COMMAS
 Color
 mBackAttachment
+0
 kBackgroundAttachmentKTable
 CSS_PROP_NO_OFFSET
 eStyleAnimType_None
@@ -1443,6 +1524,7 @@ CSS_PROPERTY_APPLIES_TO_FIRST_LETTER_AND_FIRST_LINE
 CSS_PROPERTY_VALUE_LIST_USES_COMMAS
 Color
 mBackClip
+0
 kBackgroundOriginKTable
 CSS_PROP_NO_OFFSET
 eStyleAnimType_None
@@ -1461,6 +1543,7 @@ CSS_PROPERTY_APPLIES_TO_FIRST_LETTER_AND_FIRST_LINE
 CSS_PROPERTY_IGNORED_WHEN_COLORS_DISABLED
 Color
 mBackColor
+0
 nsnull
 offsetof
 (
@@ -1487,6 +1570,7 @@ CSS_PROPERTY_IGNORED_WHEN_COLORS_DISABLED
 CSS_PROPERTY_START_IMAGE_LOADS
 Color
 mBackImage
+0
 nsnull
 CSS_PROP_NO_OFFSET
 eStyleAnimType_None
@@ -1508,6 +1592,7 @@ CSS_PROPERTY_PARSE_VALUE
 CSS_PROPERTY_APPLIES_TO_FIRST_LETTER_AND_FIRST_LINE
 Color
 mBackInlinePolicy
+0
 kBackgroundInlinePolicyKTable
 CSS_PROP_NO_OFFSET
 eStyleAnimType_None
@@ -1526,6 +1611,7 @@ CSS_PROPERTY_APPLIES_TO_FIRST_LETTER_AND_FIRST_LINE
 CSS_PROPERTY_VALUE_LIST_USES_COMMAS
 Color
 mBackOrigin
+0
 kBackgroundOriginKTable
 CSS_PROP_NO_OFFSET
 eStyleAnimType_None
@@ -1546,6 +1632,7 @@ CSS_PROPERTY_VALUE_LIST_USES_COMMAS
 CSS_PROPERTY_STORES_CALC
 Color
 mBackPosition
+0
 kBackgroundPositionKTable
 CSS_PROP_NO_OFFSET
 eStyleAnimType_Custom
@@ -1564,6 +1651,7 @@ CSS_PROPERTY_APPLIES_TO_FIRST_LETTER_AND_FIRST_LINE
 CSS_PROPERTY_VALUE_LIST_USES_COMMAS
 Color
 mBackRepeat
+0
 kBackgroundRepeatKTable
 CSS_PROP_NO_OFFSET
 eStyleAnimType_None
@@ -1584,6 +1672,7 @@ CSS_PROPERTY_VALUE_LIST_USES_COMMAS
 CSS_PROPERTY_STORES_CALC
 Color
 mBackSize
+0
 kBackgroundSizeKTable
 CSS_PROP_NO_OFFSET
 eStyleAnimType_Custom
@@ -1599,6 +1688,7 @@ MozBinding
 CSS_PROPERTY_PARSE_VALUE
 Display
 mBinding
+0
 nsnull
 CSS_PROP_NO_OFFSET
 eStyleAnimType_None
@@ -1637,6 +1727,7 @@ Margin
 mBorderColor
 .
 mBottom
+0
 kBorderColorKTable
 CSS_PROP_NO_OFFSET
 eStyleAnimType_Custom
@@ -1662,6 +1753,7 @@ Margin
 mBorderColors
 .
 mBottom
+0
 nsnull
 CSS_PROP_NO_OFFSET
 eStyleAnimType_None
@@ -1682,6 +1774,7 @@ Margin
 mBorderStyle
 .
 mBottom
+0
 kBorderStyleKTable
 CSS_PROP_NO_OFFSET
 eStyleAnimType_None
@@ -1702,6 +1795,7 @@ Margin
 mBorderWidth
 .
 mBottom
+0
 kBorderWidthKTable
 CSS_PROP_NO_OFFSET
 eStyleAnimType_Custom
@@ -1716,6 +1810,7 @@ BorderCollapse
 CSS_PROPERTY_PARSE_VALUE
 Table
 mBorderCollapse
+0
 kBorderCollapseKTable
 CSS_PROP_NO_OFFSET
 eStyleAnimType_None
@@ -1774,6 +1869,7 @@ CSS_PROPERTY_PARSE_INACCESSIBLE
 CSS_PROPERTY_APPLIES_TO_FIRST_LETTER
 Margin
 mBorderEndColor
+0
 kBorderColorKTable
 CSS_PROP_NO_OFFSET
 eStyleAnimType_None
@@ -1813,6 +1909,7 @@ CSS_PROPERTY_PARSE_INACCESSIBLE
 CSS_PROPERTY_APPLIES_TO_FIRST_LETTER
 Margin
 mBorderEndStyle
+0
 kBorderStyleKTable
 CSS_PROP_NO_OFFSET
 eStyleAnimType_None
@@ -1852,6 +1949,7 @@ CSS_PROPERTY_PARSE_INACCESSIBLE
 CSS_PROPERTY_APPLIES_TO_FIRST_LETTER
 Margin
 mBorderEndWidth
+0
 kBorderWidthKTable
 CSS_PROP_NO_OFFSET
 eStyleAnimType_None
@@ -1877,6 +1975,7 @@ CSS_PROPERTY_START_IMAGE_LOADS
 CSS_PROPERTY_IMAGE_IS_IN_ARRAY_0
 Margin
 mBorderImage
+0
 kBorderImageKTable
 CSS_PROP_NO_OFFSET
 eStyleAnimType_None
@@ -1926,6 +2025,7 @@ Margin
 mBorderColor
 .
 mLeft
+0
 kBorderColorKTable
 CSS_PROP_NO_OFFSET
 eStyleAnimType_Custom
@@ -1952,6 +2052,7 @@ CSS_PROPERTY_DIRECTIONAL_SOURCE
 CSS_PROPERTY_IGNORED_WHEN_COLORS_DISABLED
 Margin
 mBorderLeftColorLTRSource
+0
 kBoxPropSourceKTable
 CSS_PROP_NO_OFFSET
 eStyleAnimType_None
@@ -1978,6 +2079,7 @@ CSS_PROPERTY_DIRECTIONAL_SOURCE
 CSS_PROPERTY_IGNORED_WHEN_COLORS_DISABLED
 Margin
 mBorderLeftColorRTLSource
+0
 kBoxPropSourceKTable
 CSS_PROP_NO_OFFSET
 eStyleAnimType_None
@@ -2005,6 +2107,7 @@ Margin
 mBorderColors
 .
 mLeft
+0
 nsnull
 CSS_PROP_NO_OFFSET
 eStyleAnimType_None
@@ -2043,6 +2146,7 @@ Margin
 mBorderStyle
 .
 mLeft
+0
 kBorderStyleKTable
 CSS_PROP_NO_OFFSET
 eStyleAnimType_None
@@ -2067,6 +2171,7 @@ CSS_PROPERTY_APPLIES_TO_FIRST_LETTER
 CSS_PROPERTY_DIRECTIONAL_SOURCE
 Margin
 mBorderLeftStyleLTRSource
+0
 kBoxPropSourceKTable
 CSS_PROP_NO_OFFSET
 eStyleAnimType_None
@@ -2091,6 +2196,7 @@ CSS_PROPERTY_APPLIES_TO_FIRST_LETTER
 CSS_PROPERTY_DIRECTIONAL_SOURCE
 Margin
 mBorderLeftStyleRTLSource
+0
 kBoxPropSourceKTable
 CSS_PROP_NO_OFFSET
 eStyleAnimType_None
@@ -2131,6 +2237,7 @@ Margin
 mBorderWidth
 .
 mLeft
+0
 kBorderWidthKTable
 CSS_PROP_NO_OFFSET
 eStyleAnimType_Custom
@@ -2155,6 +2262,7 @@ CSS_PROPERTY_APPLIES_TO_FIRST_LETTER
 CSS_PROPERTY_DIRECTIONAL_SOURCE
 Margin
 mBorderLeftWidthLTRSource
+0
 kBoxPropSourceKTable
 CSS_PROP_NO_OFFSET
 eStyleAnimType_None
@@ -2179,6 +2287,7 @@ CSS_PROPERTY_APPLIES_TO_FIRST_LETTER
 CSS_PROPERTY_DIRECTIONAL_SOURCE
 Margin
 mBorderLeftWidthRTLSource
+0
 kBoxPropSourceKTable
 CSS_PROP_NO_OFFSET
 eStyleAnimType_None
@@ -2230,6 +2339,7 @@ Margin
 mBorderColor
 .
 mRight
+0
 kBorderColorKTable
 CSS_PROP_NO_OFFSET
 eStyleAnimType_Custom
@@ -2256,6 +2366,7 @@ CSS_PROPERTY_DIRECTIONAL_SOURCE
 CSS_PROPERTY_IGNORED_WHEN_COLORS_DISABLED
 Margin
 mBorderRightColorLTRSource
+0
 kBoxPropSourceKTable
 CSS_PROP_NO_OFFSET
 eStyleAnimType_None
@@ -2282,6 +2393,7 @@ CSS_PROPERTY_DIRECTIONAL_SOURCE
 CSS_PROPERTY_IGNORED_WHEN_COLORS_DISABLED
 Margin
 mBorderRightColorRTLSource
+0
 kBoxPropSourceKTable
 CSS_PROP_NO_OFFSET
 eStyleAnimType_None
@@ -2309,6 +2421,7 @@ Margin
 mBorderColors
 .
 mRight
+0
 nsnull
 CSS_PROP_NO_OFFSET
 eStyleAnimType_None
@@ -2347,6 +2460,7 @@ Margin
 mBorderStyle
 .
 mRight
+0
 kBorderStyleKTable
 CSS_PROP_NO_OFFSET
 eStyleAnimType_None
@@ -2371,6 +2485,7 @@ CSS_PROPERTY_APPLIES_TO_FIRST_LETTER
 CSS_PROPERTY_DIRECTIONAL_SOURCE
 Margin
 mBorderRightStyleLTRSource
+0
 kBoxPropSourceKTable
 CSS_PROP_NO_OFFSET
 eStyleAnimType_None
@@ -2395,6 +2510,7 @@ CSS_PROPERTY_APPLIES_TO_FIRST_LETTER
 CSS_PROPERTY_DIRECTIONAL_SOURCE
 Margin
 mBorderRightStyleRTLSource
+0
 kBoxPropSourceKTable
 CSS_PROP_NO_OFFSET
 eStyleAnimType_None
@@ -2435,6 +2551,7 @@ Margin
 mBorderWidth
 .
 mRight
+0
 kBorderWidthKTable
 CSS_PROP_NO_OFFSET
 eStyleAnimType_Custom
@@ -2459,6 +2576,7 @@ CSS_PROPERTY_APPLIES_TO_FIRST_LETTER
 CSS_PROPERTY_DIRECTIONAL_SOURCE
 Margin
 mBorderRightWidthLTRSource
+0
 kBoxPropSourceKTable
 CSS_PROP_NO_OFFSET
 eStyleAnimType_None
@@ -2483,6 +2601,7 @@ CSS_PROPERTY_APPLIES_TO_FIRST_LETTER
 CSS_PROPERTY_DIRECTIONAL_SOURCE
 Margin
 mBorderRightWidthRTLSource
+0
 kBoxPropSourceKTable
 CSS_PROP_NO_OFFSET
 eStyleAnimType_None
@@ -2499,6 +2618,7 @@ BorderSpacing
 CSS_PROPERTY_PARSE_FUNCTION
 Table
 mBorderSpacing
+0
 nsnull
 CSS_PROP_NO_OFFSET
 eStyleAnimType_Custom
@@ -2548,6 +2668,7 @@ CSS_PROPERTY_PARSE_INACCESSIBLE
 CSS_PROPERTY_APPLIES_TO_FIRST_LETTER
 Margin
 mBorderStartColor
+0
 kBorderColorKTable
 CSS_PROP_NO_OFFSET
 eStyleAnimType_None
@@ -2587,6 +2708,7 @@ CSS_PROPERTY_PARSE_INACCESSIBLE
 CSS_PROPERTY_APPLIES_TO_FIRST_LETTER
 Margin
 mBorderStartStyle
+0
 kBorderStyleKTable
 CSS_PROP_NO_OFFSET
 eStyleAnimType_None
@@ -2626,6 +2748,7 @@ CSS_PROPERTY_PARSE_INACCESSIBLE
 CSS_PROPERTY_APPLIES_TO_FIRST_LETTER
 Margin
 mBorderStartWidth
+0
 kBorderWidthKTable
 CSS_PROP_NO_OFFSET
 eStyleAnimType_None
@@ -2668,6 +2791,7 @@ Margin
 mBorderColor
 .
 mTop
+0
 kBorderColorKTable
 CSS_PROP_NO_OFFSET
 eStyleAnimType_Custom
@@ -2693,6 +2817,7 @@ Margin
 mBorderColors
 .
 mTop
+0
 nsnull
 CSS_PROP_NO_OFFSET
 eStyleAnimType_None
@@ -2713,6 +2838,7 @@ Margin
 mBorderStyle
 .
 mTop
+0
 kBorderStyleKTable
 CSS_PROP_NO_OFFSET
 eStyleAnimType_None
@@ -2733,6 +2859,7 @@ Margin
 mBorderWidth
 .
 mTop
+0
 kBorderWidthKTable
 CSS_PROP_NO_OFFSET
 eStyleAnimType_Custom
@@ -2775,6 +2902,7 @@ Margin
 mBorderRadius
 .
 mTopLeft
+0
 nsnull
 offsetof
 (
@@ -2803,6 +2931,7 @@ Margin
 mBorderRadius
 .
 mTopRight
+0
 nsnull
 offsetof
 (
@@ -2831,6 +2960,7 @@ Margin
 mBorderRadius
 .
 mBottomRight
+0
 nsnull
 offsetof
 (
@@ -2859,6 +2989,7 @@ Margin
 mBorderRadius
 .
 mBottomLeft
+0
 nsnull
 offsetof
 (
@@ -2879,6 +3010,7 @@ Position
 mOffset
 .
 mBottom
+0
 nsnull
 offsetof
 (
@@ -2903,6 +3035,7 @@ CSS_PROPERTY_VALUE_LIST_USES_COMMAS
 CSS_PROPERTY_IGNORED_WHEN_COLORS_DISABLED
 Margin
 mBoxShadow
+0
 kBoxShadowTypeKTable
 offsetof
 (
@@ -2924,6 +3057,7 @@ MozBoxSizing
 CSS_PROPERTY_PARSE_VALUE
 Position
 mBoxSizing
+0
 kBoxSizingKTable
 CSS_PROP_NO_OFFSET
 eStyleAnimType_None
@@ -2938,6 +3072,7 @@ CaptionSide
 CSS_PROPERTY_PARSE_VALUE
 Table
 mCaptionSide
+0
 kCaptionSideKTable
 CSS_PROP_NO_OFFSET
 eStyleAnimType_None
@@ -2950,6 +3085,7 @@ Clear
 CSS_PROPERTY_PARSE_VALUE
 Display
 mClear
+0
 kClearKTable
 CSS_PROP_NO_OFFSET
 eStyleAnimType_None
@@ -2962,6 +3098,7 @@ Clip
 CSS_PROPERTY_PARSE_FUNCTION
 Display
 mClip
+0
 nsnull
 offsetof
 (
@@ -2982,6 +3119,7 @@ CSS_PROPERTY_APPLIES_TO_FIRST_LETTER_AND_FIRST_LINE
 CSS_PROPERTY_IGNORED_WHEN_COLORS_DISABLED
 Color
 mColor
+0
 nsnull
 offsetof
 (
@@ -3003,6 +3141,7 @@ MozColumnCount
 CSS_PROPERTY_PARSE_VALUE
 Column
 mColumnCount
+0
 nsnull
 offsetof
 (
@@ -3024,6 +3163,7 @@ MozColumnWidth
 CSS_PROPERTY_PARSE_VALUE
 Column
 mColumnWidth
+0
 nsnull
 offsetof
 (
@@ -3045,6 +3185,7 @@ MozColumnGap
 CSS_PROPERTY_PARSE_VALUE
 Column
 mColumnGap
+0
 nsnull
 offsetof
 (
@@ -3082,6 +3223,7 @@ CSS_PROPERTY_PARSE_VALUE
 CSS_PROPERTY_IGNORED_WHEN_COLORS_DISABLED
 Column
 mColumnRuleColor
+0
 nsnull
 CSS_PROP_NO_OFFSET
 eStyleAnimType_Custom
@@ -3101,6 +3243,7 @@ MozColumnRuleStyle
 CSS_PROPERTY_PARSE_VALUE
 Column
 mColumnRuleStyle
+0
 kBorderStyleKTable
 CSS_PROP_NO_OFFSET
 eStyleAnimType_None
@@ -3120,6 +3263,7 @@ MozColumnRuleWidth
 CSS_PROPERTY_PARSE_VALUE
 Column
 mColumnRuleWidth
+0
 kBorderWidthKTable
 CSS_PROP_NO_OFFSET
 eStyleAnimType_Custom
@@ -3134,6 +3278,7 @@ CSS_PROPERTY_PARSE_FUNCTION
 CSS_PROPERTY_START_IMAGE_LOADS
 Content
 mContent
+0
 kContentKTable
 CSS_PROP_NO_OFFSET
 eStyleAnimType_None
@@ -3148,6 +3293,7 @@ CounterIncrement
 CSS_PROPERTY_PARSE_FUNCTION
 Content
 mCounterIncrement
+0
 nsnull
 CSS_PROP_NO_OFFSET
 eStyleAnimType_None
@@ -3162,6 +3308,7 @@ CounterReset
 CSS_PROPERTY_PARSE_FUNCTION
 Content
 mCounterReset
+0
 nsnull
 CSS_PROP_NO_OFFSET
 eStyleAnimType_None
@@ -3183,6 +3330,7 @@ CueAfter
 CSS_PROPERTY_PARSE_VALUE
 Aural
 mCueAfter
+0
 nsnull
 )
 CSS_PROP_BACKENDONLY
@@ -3195,6 +3343,7 @@ CueBefore
 CSS_PROPERTY_PARSE_VALUE
 Aural
 mCueBefore
+0
 nsnull
 )
 CSS_PROP_USERINTERFACE
@@ -3211,6 +3360,7 @@ CSS_PROPERTY_START_IMAGE_LOADS
 CSS_PROPERTY_IMAGE_IS_IN_ARRAY_0
 UserInterface
 mCursor
+0
 kCursorKTable
 CSS_PROP_NO_OFFSET
 eStyleAnimType_None
@@ -3223,6 +3373,7 @@ Direction
 CSS_PROPERTY_PARSE_VALUE
 Display
 mDirection
+0
 kDirectionKTable
 CSS_PROP_NO_OFFSET
 eStyleAnimType_None
@@ -3235,6 +3386,7 @@ Display
 CSS_PROPERTY_PARSE_VALUE
 Display
 mDisplay
+0
 kDisplayKTable
 offsetof
 (
@@ -3251,6 +3403,7 @@ Elevation
 CSS_PROPERTY_PARSE_VALUE
 Aural
 mElevation
+0
 kElevationKTable
 )
 CSS_PROP_TABLEBORDER
@@ -3263,6 +3416,7 @@ EmptyCells
 CSS_PROPERTY_PARSE_VALUE
 Table
 mEmptyCells
+0
 kEmptyCellsKTable
 CSS_PROP_NO_OFFSET
 eStyleAnimType_None
@@ -3277,6 +3431,7 @@ CSS_PROPERTY_PARSE_VALUE
 CSS_PROPERTY_APPLIES_TO_FIRST_LETTER
 Display
 mFloat
+0
 kFloatKTable
 CSS_PROP_NO_OFFSET
 eStyleAnimType_None
@@ -3294,6 +3449,7 @@ MozFloatEdge
 CSS_PROPERTY_PARSE_VALUE
 Margin
 mFloatEdge
+0
 kFloatEdgeKTable
 CSS_PROP_NO_OFFSET
 eStyleAnimType_None
@@ -3319,6 +3475,7 @@ CSS_PROPERTY_VALUE_PARSER_FUNCTION
 CSS_PROPERTY_APPLIES_TO_FIRST_LETTER_AND_FIRST_LINE
 Font
 mFamily
+0
 nsnull
 CSS_PROP_NO_OFFSET
 eStyleAnimType_None
@@ -3340,6 +3497,7 @@ CSS_PROPERTY_PARSE_VALUE
 CSS_PROPERTY_APPLIES_TO_FIRST_LETTER_AND_FIRST_LINE
 Font
 mFontFeatureSettings
+0
 nsnull
 CSS_PROP_NO_OFFSET
 eStyleAnimType_None
@@ -3361,6 +3519,7 @@ CSS_PROPERTY_PARSE_VALUE
 CSS_PROPERTY_APPLIES_TO_FIRST_LETTER_AND_FIRST_LINE
 Font
 mFontLanguageOverride
+0
 nsnull
 CSS_PROP_NO_OFFSET
 eStyleAnimType_None
@@ -3377,6 +3536,7 @@ CSS_PROPERTY_PARSE_VALUE
 CSS_PROPERTY_APPLIES_TO_FIRST_LETTER_AND_FIRST_LINE
 Font
 mSize
+0
 kFontSizeKTable
 offsetof
 (
@@ -3399,6 +3559,7 @@ CSS_PROPERTY_PARSE_VALUE
 CSS_PROPERTY_APPLIES_TO_FIRST_LETTER_AND_FIRST_LINE
 Font
 mSizeAdjust
+0
 nsnull
 offsetof
 (
@@ -3421,6 +3582,7 @@ CSS_PROPERTY_PARSE_VALUE
 CSS_PROPERTY_APPLIES_TO_FIRST_LETTER_AND_FIRST_LINE
 Font
 mStretch
+0
 kFontStretchKTable
 offsetof
 (
@@ -3443,6 +3605,7 @@ CSS_PROPERTY_PARSE_VALUE
 CSS_PROPERTY_APPLIES_TO_FIRST_LETTER_AND_FIRST_LINE
 Font
 mStyle
+0
 kFontStyleKTable
 offsetof
 (
@@ -3465,6 +3628,7 @@ CSS_PROPERTY_PARSE_VALUE
 CSS_PROPERTY_APPLIES_TO_FIRST_LETTER_AND_FIRST_LINE
 Font
 mVariant
+0
 kFontVariantKTable
 offsetof
 (
@@ -3489,6 +3653,7 @@ CSS_PROPERTY_VALUE_PARSER_FUNCTION
 CSS_PROPERTY_APPLIES_TO_FIRST_LETTER_AND_FIRST_LINE
 Font
 mWeight
+0
 kFontWeightKTable
 offsetof
 (
@@ -3516,6 +3681,7 @@ MozForceBrokenImageIcon
 CSS_PROPERTY_PARSE_VALUE
 UserInterface
 mForceBrokenImageIcon
+0
 nsnull
 CSS_PROP_NO_OFFSET
 eStyleAnimType_None
@@ -3530,6 +3696,7 @@ CSS_PROPERTY_PARSE_VALUE
 CSS_PROPERTY_STORES_CALC
 Position
 mHeight
+0
 nsnull
 offsetof
 (
@@ -3551,6 +3718,7 @@ MozImageRegion
 CSS_PROPERTY_PARSE_FUNCTION
 List
 mImageRegion
+0
 nsnull
 offsetof
 (
@@ -3569,6 +3737,7 @@ ImeMode
 CSS_PROPERTY_PARSE_VALUE
 UserInterface
 mIMEMode
+0
 kIMEModeKTable
 CSS_PROP_NO_OFFSET
 eStyleAnimType_None
@@ -3585,6 +3754,7 @@ Position
 mOffset
 .
 mLeft
+0
 nsnull
 offsetof
 (
@@ -3605,6 +3775,7 @@ CSS_PROPERTY_PARSE_VALUE
 CSS_PROPERTY_APPLIES_TO_FIRST_LETTER_AND_FIRST_LINE
 Text
 mLetterSpacing
+0
 nsnull
 offsetof
 (
@@ -3625,6 +3796,7 @@ CSS_PROPERTY_PARSE_VALUE
 CSS_PROPERTY_APPLIES_TO_FIRST_LETTER_AND_FIRST_LINE
 Text
 mLineHeight
+0
 kLineHeightKTable
 offsetof
 (
@@ -3656,6 +3828,7 @@ CSS_PROPERTY_PARSE_VALUE
 CSS_PROPERTY_START_IMAGE_LOADS
 List
 mImage
+0
 nsnull
 CSS_PROP_NO_OFFSET
 eStyleAnimType_None
@@ -3672,6 +3845,7 @@ ListStylePosition
 CSS_PROPERTY_PARSE_VALUE
 List
 mPosition
+0
 kListStylePositionKTable
 CSS_PROP_NO_OFFSET
 eStyleAnimType_None
@@ -3688,6 +3862,7 @@ ListStyleType
 CSS_PROPERTY_PARSE_VALUE
 List
 mType
+0
 kListStyleKTable
 CSS_PROP_NO_OFFSET
 eStyleAnimType_None
@@ -3715,6 +3890,7 @@ Margin
 mMargin
 .
 mBottom
+0
 nsnull
 offsetof
 (
@@ -3754,6 +3930,7 @@ CSS_PROPERTY_APPLIES_TO_FIRST_LETTER
 CSS_PROPERTY_STORES_CALC
 Margin
 mMarginEnd
+0
 nsnull
 CSS_PROP_NO_OFFSET
 eStyleAnimType_None
@@ -3792,6 +3969,7 @@ Margin
 mMargin
 .
 mLeft
+0
 nsnull
 offsetof
 (
@@ -3818,6 +3996,7 @@ CSS_PROPERTY_APPLIES_TO_FIRST_LETTER
 CSS_PROPERTY_DIRECTIONAL_SOURCE
 Margin
 mMarginLeftLTRSource
+0
 kBoxPropSourceKTable
 CSS_PROP_NO_OFFSET
 eStyleAnimType_None
@@ -3840,6 +4019,7 @@ CSS_PROPERTY_APPLIES_TO_FIRST_LETTER
 CSS_PROPERTY_DIRECTIONAL_SOURCE
 Margin
 mMarginLeftRTLSource
+0
 kBoxPropSourceKTable
 CSS_PROP_NO_OFFSET
 eStyleAnimType_None
@@ -3878,6 +4058,7 @@ Margin
 mMargin
 .
 mRight
+0
 nsnull
 offsetof
 (
@@ -3904,6 +4085,7 @@ CSS_PROPERTY_APPLIES_TO_FIRST_LETTER
 CSS_PROPERTY_DIRECTIONAL_SOURCE
 Margin
 mMarginRightLTRSource
+0
 kBoxPropSourceKTable
 CSS_PROP_NO_OFFSET
 eStyleAnimType_None
@@ -3926,6 +4108,7 @@ CSS_PROPERTY_APPLIES_TO_FIRST_LETTER
 CSS_PROPERTY_DIRECTIONAL_SOURCE
 Margin
 mMarginRightRTLSource
+0
 kBoxPropSourceKTable
 CSS_PROP_NO_OFFSET
 eStyleAnimType_None
@@ -3963,6 +4146,7 @@ CSS_PROPERTY_APPLIES_TO_FIRST_LETTER
 CSS_PROPERTY_STORES_CALC
 Margin
 mMarginStart
+0
 nsnull
 CSS_PROP_NO_OFFSET
 eStyleAnimType_None
@@ -3985,6 +4169,7 @@ Margin
 mMargin
 .
 mTop
+0
 nsnull
 offsetof
 (
@@ -4003,6 +4188,7 @@ MarkerOffset
 CSS_PROPERTY_PARSE_VALUE
 Content
 mMarkerOffset
+0
 nsnull
 offsetof
 (
@@ -4021,6 +4207,7 @@ CSS_PROPERTY_PARSE_VALUE
 CSS_PROPERTY_VALUE_PARSER_FUNCTION
 Page
 mMarks
+0
 kPageMarksKTable
 )
 CSS_PROP_POSITION
@@ -4035,6 +4222,7 @@ CSS_PROPERTY_PARSE_VALUE
 CSS_PROPERTY_STORES_CALC
 Position
 mMaxHeight
+0
 nsnull
 offsetof
 (
@@ -4055,6 +4243,7 @@ CSS_PROPERTY_PARSE_VALUE
 CSS_PROPERTY_STORES_CALC
 Position
 mMaxWidth
+0
 kWidthKTable
 offsetof
 (
@@ -4075,6 +4264,7 @@ CSS_PROPERTY_PARSE_VALUE
 CSS_PROPERTY_STORES_CALC
 Position
 mMinHeight
+0
 nsnull
 offsetof
 (
@@ -4095,6 +4285,7 @@ CSS_PROPERTY_PARSE_VALUE
 CSS_PROPERTY_STORES_CALC
 Position
 mMinWidth
+0
 kWidthKTable
 offsetof
 (
@@ -4111,6 +4302,7 @@ Opacity
 CSS_PROPERTY_PARSE_VALUE
 Display
 mOpacity
+0
 nsnull
 offsetof
 (
@@ -4127,6 +4319,7 @@ Orphans
 CSS_PROPERTY_PARSE_VALUE
 Breaks
 mOrphans
+0
 nsnull
 )
 CSS_PROP_SHORTHAND
@@ -4148,6 +4341,7 @@ CSS_PROPERTY_PARSE_VALUE
 CSS_PROPERTY_IGNORED_WHEN_COLORS_DISABLED
 Margin
 mOutlineColor
+0
 kOutlineColorKTable
 CSS_PROP_NO_OFFSET
 eStyleAnimType_Custom
@@ -4162,6 +4356,7 @@ OutlineStyle
 CSS_PROPERTY_PARSE_VALUE
 Margin
 mOutlineStyle
+0
 kBorderStyleKTable
 CSS_PROP_NO_OFFSET
 eStyleAnimType_None
@@ -4176,6 +4371,7 @@ OutlineWidth
 CSS_PROPERTY_PARSE_VALUE
 Margin
 mOutlineWidth
+0
 kBorderWidthKTable
 offsetof
 (
@@ -4194,6 +4390,7 @@ OutlineOffset
 CSS_PROPERTY_PARSE_VALUE
 Margin
 mOutlineOffset
+0
 nsnull
 offsetof
 (
@@ -4219,6 +4416,7 @@ OverflowX
 CSS_PROPERTY_PARSE_VALUE
 Display
 mOverflowX
+0
 kOverflowSubKTable
 CSS_PROP_NO_OFFSET
 eStyleAnimType_None
@@ -4233,6 +4431,7 @@ OverflowY
 CSS_PROPERTY_PARSE_VALUE
 Display
 mOverflowY
+0
 kOverflowSubKTable
 CSS_PROP_NO_OFFSET
 eStyleAnimType_None
@@ -4260,6 +4459,7 @@ Margin
 mPadding
 .
 mBottom
+0
 nsnull
 offsetof
 (
@@ -4299,6 +4499,7 @@ CSS_PROPERTY_APPLIES_TO_FIRST_LETTER
 CSS_PROPERTY_STORES_CALC
 Margin
 mPaddingEnd
+0
 nsnull
 CSS_PROP_NO_OFFSET
 eStyleAnimType_None
@@ -4337,6 +4538,7 @@ Margin
 mPadding
 .
 mLeft
+0
 nsnull
 offsetof
 (
@@ -4363,6 +4565,7 @@ CSS_PROPERTY_APPLIES_TO_FIRST_LETTER
 CSS_PROPERTY_DIRECTIONAL_SOURCE
 Margin
 mPaddingLeftLTRSource
+0
 kBoxPropSourceKTable
 CSS_PROP_NO_OFFSET
 eStyleAnimType_None
@@ -4385,6 +4588,7 @@ CSS_PROPERTY_APPLIES_TO_FIRST_LETTER
 CSS_PROPERTY_DIRECTIONAL_SOURCE
 Margin
 mPaddingLeftRTLSource
+0
 kBoxPropSourceKTable
 CSS_PROP_NO_OFFSET
 eStyleAnimType_None
@@ -4423,6 +4627,7 @@ Margin
 mPadding
 .
 mRight
+0
 nsnull
 offsetof
 (
@@ -4449,6 +4654,7 @@ CSS_PROPERTY_APPLIES_TO_FIRST_LETTER
 CSS_PROPERTY_DIRECTIONAL_SOURCE
 Margin
 mPaddingRightLTRSource
+0
 kBoxPropSourceKTable
 CSS_PROP_NO_OFFSET
 eStyleAnimType_None
@@ -4471,6 +4677,7 @@ CSS_PROPERTY_APPLIES_TO_FIRST_LETTER
 CSS_PROPERTY_DIRECTIONAL_SOURCE
 Margin
 mPaddingRightRTLSource
+0
 kBoxPropSourceKTable
 CSS_PROP_NO_OFFSET
 eStyleAnimType_None
@@ -4508,6 +4715,7 @@ CSS_PROPERTY_APPLIES_TO_FIRST_LETTER
 CSS_PROPERTY_STORES_CALC
 Margin
 mPaddingStart
+0
 nsnull
 CSS_PROP_NO_OFFSET
 eStyleAnimType_None
@@ -4530,6 +4738,7 @@ Margin
 mPadding
 .
 mTop
+0
 nsnull
 offsetof
 (
@@ -4546,6 +4755,7 @@ Page
 CSS_PROPERTY_PARSE_VALUE
 Breaks
 mPage
+0
 nsnull
 )
 CSS_PROP_DISPLAY
@@ -4560,6 +4770,7 @@ PageBreakAfter
 CSS_PROPERTY_PARSE_VALUE
 Display
 mBreakAfter
+0
 kPageBreakKTable
 CSS_PROP_NO_OFFSET
 eStyleAnimType_None
@@ -4576,6 +4787,7 @@ PageBreakBefore
 CSS_PROPERTY_PARSE_VALUE
 Display
 mBreakBefore
+0
 kPageBreakKTable
 CSS_PROP_NO_OFFSET
 eStyleAnimType_None
@@ -4592,6 +4804,7 @@ PageBreakInside
 CSS_PROPERTY_PARSE_VALUE
 Breaks
 mPageBreakInside
+0
 kPageBreakInsideKTable
 )
 CSS_PROP_SHORTHAND
@@ -4611,6 +4824,7 @@ PauseAfter
 CSS_PROPERTY_PARSE_VALUE
 Aural
 mPauseAfter
+0
 nsnull
 )
 CSS_PROP_BACKENDONLY
@@ -4623,6 +4837,7 @@ PauseBefore
 CSS_PROPERTY_PARSE_VALUE
 Aural
 mPauseBefore
+0
 nsnull
 )
 CSS_PROP_BACKENDONLY
@@ -4633,6 +4848,7 @@ Pitch
 CSS_PROPERTY_PARSE_VALUE
 Aural
 mPitch
+0
 kPitchKTable
 )
 CSS_PROP_BACKENDONLY
@@ -4645,6 +4861,7 @@ PitchRange
 CSS_PROPERTY_PARSE_VALUE
 Aural
 mPitchRange
+0
 nsnull
 )
 CSS_PROP_VISIBILITY
@@ -4657,6 +4874,7 @@ PointerEvents
 CSS_PROPERTY_PARSE_VALUE
 Display
 mPointerEvents
+0
 kPointerEventsKTable
 offsetof
 (
@@ -4673,6 +4891,7 @@ Position
 CSS_PROPERTY_PARSE_VALUE
 Display
 mPosition
+0
 kPositionKTable
 CSS_PROP_NO_OFFSET
 eStyleAnimType_None
@@ -4685,6 +4904,7 @@ Quotes
 CSS_PROPERTY_PARSE_FUNCTION
 Content
 mQuotes
+0
 nsnull
 CSS_PROP_NO_OFFSET
 eStyleAnimType_None
@@ -4697,6 +4917,7 @@ Resize
 CSS_PROPERTY_PARSE_VALUE
 Display
 mResize
+0
 kResizeKTable
 CSS_PROP_NO_OFFSET
 eStyleAnimType_None
@@ -4709,6 +4930,7 @@ Richness
 CSS_PROPERTY_PARSE_VALUE
 Aural
 mRichness
+0
 nsnull
 )
 CSS_PROP_POSITION
@@ -4723,6 +4945,7 @@ Position
 mOffset
 .
 mRight
+0
 nsnull
 offsetof
 (
@@ -4739,6 +4962,7 @@ Size
 CSS_PROPERTY_PARSE_FUNCTION
 Page
 mSize
+0
 kPageSizeKTable
 )
 CSS_PROP_BACKENDONLY
@@ -4749,6 +4973,7 @@ Speak
 CSS_PROPERTY_PARSE_VALUE
 Aural
 mSpeak
+0
 kSpeakKTable
 )
 CSS_PROP_BACKENDONLY
@@ -4761,6 +4986,7 @@ SpeakHeader
 CSS_PROPERTY_PARSE_VALUE
 Aural
 mSpeakHeader
+0
 kSpeakHeaderKTable
 )
 CSS_PROP_BACKENDONLY
@@ -4773,6 +4999,7 @@ SpeakNumeral
 CSS_PROPERTY_PARSE_VALUE
 Aural
 mSpeakNumeral
+0
 kSpeakNumeralKTable
 )
 CSS_PROP_BACKENDONLY
@@ -4785,6 +5012,7 @@ SpeakPunctuation
 CSS_PROPERTY_PARSE_VALUE
 Aural
 mSpeakPunctuation
+0
 kSpeakPunctuationKTable
 )
 CSS_PROP_BACKENDONLY
@@ -4797,6 +5025,7 @@ SpeechRate
 CSS_PROPERTY_PARSE_VALUE
 Aural
 mSpeechRate
+0
 kSpeechRateKTable
 )
 CSS_PROP_BACKENDONLY
@@ -4807,6 +5036,7 @@ Stress
 CSS_PROPERTY_PARSE_VALUE
 Aural
 mStress
+0
 nsnull
 )
 CSS_PROP_TABLE
@@ -4819,6 +5049,7 @@ TableLayout
 CSS_PROPERTY_PARSE_VALUE
 Table
 mLayout
+0
 kTableLayoutKTable
 CSS_PROP_NO_OFFSET
 eStyleAnimType_None
@@ -4833,6 +5064,7 @@ TextAlign
 CSS_PROPERTY_PARSE_VALUE
 Text
 mTextAlign
+0
 kTextAlignKTable
 CSS_PROP_NO_OFFSET
 eStyleAnimType_None
@@ -4851,6 +5083,7 @@ CSS_PROPERTY_VALUE_PARSER_FUNCTION
 CSS_PROPERTY_APPLIES_TO_FIRST_LETTER_AND_FIRST_LINE
 Text
 mDecoration
+0
 kTextDecorationKTable
 offsetof
 (
@@ -4871,6 +5104,7 @@ CSS_PROPERTY_PARSE_VALUE
 CSS_PROPERTY_STORES_CALC
 Text
 mTextIndent
+0
 nsnull
 offsetof
 (
@@ -4895,6 +5129,7 @@ CSS_PROPERTY_VALUE_LIST_USES_COMMAS
 CSS_PROPERTY_IGNORED_WHEN_COLORS_DISABLED
 Text
 mTextShadow
+0
 nsnull
 offsetof
 (
@@ -4915,6 +5150,7 @@ CSS_PROPERTY_PARSE_VALUE
 CSS_PROPERTY_APPLIES_TO_FIRST_LETTER_AND_FIRST_LINE
 Text
 mTextTransform
+0
 kTextTransformKTable
 CSS_PROP_NO_OFFSET
 eStyleAnimType_None
@@ -4930,6 +5166,7 @@ MozTransform
 CSS_PROPERTY_PARSE_FUNCTION
 Display
 mTransform
+0
 kDisplayKTable
 offsetof
 (
@@ -4953,6 +5190,7 @@ CSS_PROPERTY_PARSE_FUNCTION
 CSS_PROPERTY_STORES_CALC
 Display
 mTransformOrigin
+0
 kBackgroundPositionKTable
 CSS_PROP_NO_OFFSET
 eStyleAnimType_Custom
@@ -4969,6 +5207,7 @@ Position
 mOffset
 .
 mTop
+0
 nsnull
 offsetof
 (
@@ -5002,6 +5241,7 @@ CSS_PROPERTY_PARSE_FUNCTION
 CSS_PROPERTY_VALUE_LIST_USES_COMMAS
 Display
 mTransitionDelay
+0
 nsnull
 CSS_PROP_NO_OFFSET
 eStyleAnimType_None
@@ -5021,6 +5261,7 @@ CSS_PROPERTY_PARSE_FUNCTION
 CSS_PROPERTY_VALUE_LIST_USES_COMMAS
 Display
 mTransitionDuration
+0
 nsnull
 CSS_PROP_NO_OFFSET
 eStyleAnimType_None
@@ -5040,6 +5281,7 @@ CSS_PROPERTY_PARSE_FUNCTION
 CSS_PROPERTY_VALUE_LIST_USES_COMMAS
 Display
 mTransitionProperty
+0
 nsnull
 CSS_PROP_NO_OFFSET
 eStyleAnimType_None
@@ -5061,6 +5303,7 @@ CSS_PROPERTY_PARSE_FUNCTION
 CSS_PROPERTY_VALUE_LIST_USES_COMMAS
 Display
 mTransitionTimingFunction
+0
 kTransitionTimingFunctionKTable
 CSS_PROP_NO_OFFSET
 eStyleAnimType_None
@@ -5075,6 +5318,7 @@ UnicodeBidi
 CSS_PROPERTY_PARSE_VALUE
 Text
 mUnicodeBidi
+0
 kUnicodeBidiKTable
 CSS_PROP_NO_OFFSET
 eStyleAnimType_None
@@ -5092,6 +5336,7 @@ MozUserFocus
 CSS_PROPERTY_PARSE_VALUE
 UserInterface
 mUserFocus
+0
 kUserFocusKTable
 CSS_PROP_NO_OFFSET
 eStyleAnimType_None
@@ -5109,6 +5354,7 @@ MozUserInput
 CSS_PROPERTY_PARSE_VALUE
 UserInterface
 mUserInput
+0
 kUserInputKTable
 CSS_PROP_NO_OFFSET
 eStyleAnimType_None
@@ -5126,6 +5372,7 @@ MozUserModify
 CSS_PROPERTY_PARSE_VALUE
 UserInterface
 mUserModify
+0
 kUserModifyKTable
 CSS_PROP_NO_OFFSET
 eStyleAnimType_None
@@ -5143,6 +5390,7 @@ MozUserSelect
 CSS_PROPERTY_PARSE_VALUE
 UserInterface
 mUserSelect
+0
 kUserSelectKTable
 CSS_PROP_NO_OFFSET
 eStyleAnimType_None
@@ -5161,6 +5409,7 @@ CSS_PROPERTY_APPLIES_TO_FIRST_LETTER_AND_FIRST_LINE
 CSS_PROPERTY_STORES_CALC
 Text
 mVerticalAlign
+0
 kVerticalAlignKTable
 offsetof
 (
@@ -5177,6 +5426,7 @@ Visibility
 CSS_PROPERTY_PARSE_VALUE
 Display
 mVisibility
+0
 kVisibilityKTable
 offsetof
 (
@@ -5197,6 +5447,7 @@ CSS_PROPERTY_PARSE_VALUE
 CSS_PROPERTY_VALUE_PARSER_FUNCTION
 Aural
 mVoiceFamily
+0
 nsnull
 )
 CSS_PROP_BACKENDONLY
@@ -5207,6 +5458,7 @@ Volume
 CSS_PROPERTY_PARSE_VALUE
 Aural
 mVolume
+0
 kVolumeKTable
 )
 CSS_PROP_TEXT
@@ -5219,6 +5471,7 @@ WhiteSpace
 CSS_PROPERTY_PARSE_VALUE
 Text
 mWhiteSpace
+0
 kWhitespaceKTable
 CSS_PROP_NO_OFFSET
 eStyleAnimType_None
@@ -5231,6 +5484,7 @@ Widows
 CSS_PROPERTY_PARSE_VALUE
 Breaks
 mWidows
+0
 nsnull
 )
 CSS_PROP_POSITION
@@ -5243,6 +5497,7 @@ CSS_PROPERTY_PARSE_VALUE
 CSS_PROPERTY_STORES_CALC
 Position
 mWidth
+0
 kWidthKTable
 offsetof
 (
@@ -5264,6 +5519,7 @@ MozWindowShadow
 CSS_PROPERTY_PARSE_VALUE
 UserInterface
 mWindowShadow
+0
 kWindowShadowKTable
 CSS_PROP_NO_OFFSET
 eStyleAnimType_None
@@ -5280,6 +5536,7 @@ CSS_PROPERTY_PARSE_VALUE
 CSS_PROPERTY_APPLIES_TO_FIRST_LETTER_AND_FIRST_LINE
 Text
 mWordSpacing
+0
 nsnull
 offsetof
 (
@@ -5298,6 +5555,7 @@ WordWrap
 CSS_PROPERTY_PARSE_VALUE
 Text
 mWordWrap
+0
 kWordwrapKTable
 CSS_PROP_NO_OFFSET
 eStyleAnimType_None
@@ -5312,6 +5570,7 @@ ZIndex
 CSS_PROPERTY_PARSE_VALUE
 Position
 mZIndex
+0
 nsnull
 offsetof
 (
@@ -5333,6 +5592,7 @@ MozBoxAlign
 CSS_PROPERTY_PARSE_VALUE
 XUL
 mBoxAlign
+0
 kBoxAlignKTable
 CSS_PROP_NO_OFFSET
 eStyleAnimType_None
@@ -5350,6 +5610,7 @@ MozBoxDirection
 CSS_PROPERTY_PARSE_VALUE
 XUL
 mBoxDirection
+0
 kBoxDirectionKTable
 CSS_PROP_NO_OFFSET
 eStyleAnimType_None
@@ -5367,6 +5628,7 @@ MozBoxFlex
 CSS_PROPERTY_PARSE_VALUE
 XUL
 mBoxFlex
+0
 nsnull
 offsetof
 (
@@ -5388,6 +5650,7 @@ MozBoxOrient
 CSS_PROPERTY_PARSE_VALUE
 XUL
 mBoxOrient
+0
 kBoxOrientKTable
 CSS_PROP_NO_OFFSET
 eStyleAnimType_None
@@ -5405,6 +5668,7 @@ MozBoxPack
 CSS_PROPERTY_PARSE_VALUE
 XUL
 mBoxPack
+0
 kBoxPackKTable
 CSS_PROP_NO_OFFSET
 eStyleAnimType_None
@@ -5424,6 +5688,7 @@ MozBoxOrdinalGroup
 CSS_PROPERTY_PARSE_VALUE
 XUL
 mBoxOrdinal
+0
 nsnull
 CSS_PROP_NO_OFFSET
 eStyleAnimType_None
@@ -5441,6 +5706,7 @@ MozStackSizing
 CSS_PROPERTY_PARSE_VALUE
 XUL
 mStackSizing
+0
 kStackSizingKTable
 CSS_PROP_NO_OFFSET
 eStyleAnimType_None
@@ -5464,6 +5730,7 @@ ScriptLevel
 CSS_PROPERTY_PARSE_VALUE
 Font
 mScriptLevel
+0
 nsnull
 CSS_PROP_NO_OFFSET
 eStyleAnimType_None
@@ -5483,6 +5750,7 @@ ScriptSizeMultiplier
 CSS_PROPERTY_PARSE_VALUE
 Font
 mScriptSizeMultiplier
+0
 nsnull
 CSS_PROP_NO_OFFSET
 eStyleAnimType_None
@@ -5502,6 +5770,7 @@ ScriptMinSize
 CSS_PROPERTY_PARSE_VALUE
 Font
 mScriptMinSize
+0
 nsnull
 CSS_PROP_NO_OFFSET
 eStyleAnimType_None
@@ -5520,6 +5789,7 @@ ClipPath
 CSS_PROPERTY_PARSE_VALUE
 SVG
 mClipPath
+0
 nsnull
 CSS_PROP_NO_OFFSET
 eStyleAnimType_None
@@ -5534,6 +5804,7 @@ ClipRule
 CSS_PROPERTY_PARSE_VALUE
 SVG
 mClipRule
+0
 kFillRuleKTable
 offsetof
 (
@@ -5552,6 +5823,7 @@ ColorInterpolation
 CSS_PROPERTY_PARSE_VALUE
 SVG
 mColorInterpolation
+0
 kColorInterpolationKTable
 offsetof
 (
@@ -5572,6 +5844,7 @@ ColorInterpolationFilters
 CSS_PROPERTY_PARSE_VALUE
 SVG
 mColorInterpolationFilters
+0
 kColorInterpolationKTable
 offsetof
 (
@@ -5590,6 +5863,7 @@ DominantBaseline
 CSS_PROPERTY_PARSE_VALUE
 SVG
 mDominantBaseline
+0
 kDominantBaselineKTable
 offsetof
 (
@@ -5606,6 +5880,7 @@ Fill
 CSS_PROPERTY_PARSE_FUNCTION
 SVG
 mFill
+0
 nsnull
 offsetof
 (
@@ -5624,6 +5899,7 @@ FillOpacity
 CSS_PROPERTY_PARSE_VALUE
 SVG
 mFillOpacity
+0
 nsnull
 offsetof
 (
@@ -5642,6 +5918,7 @@ FillRule
 CSS_PROPERTY_PARSE_VALUE
 SVG
 mFillRule
+0
 kFillRuleKTable
 offsetof
 (
@@ -5658,6 +5935,7 @@ Filter
 CSS_PROPERTY_PARSE_VALUE
 SVG
 mFilter
+0
 nsnull
 CSS_PROP_NO_OFFSET
 eStyleAnimType_None
@@ -5672,6 +5950,7 @@ FloodColor
 CSS_PROPERTY_PARSE_VALUE
 SVG
 mFloodColor
+0
 nsnull
 offsetof
 (
@@ -5690,6 +5969,7 @@ FloodOpacity
 CSS_PROPERTY_PARSE_VALUE
 SVG
 mFloodOpacity
+0
 nsnull
 offsetof
 (
@@ -5708,6 +5988,7 @@ ImageRendering
 CSS_PROPERTY_PARSE_VALUE
 SVG
 mImageRendering
+0
 kImageRenderingKTable
 offsetof
 (
@@ -5726,6 +6007,7 @@ LightingColor
 CSS_PROPERTY_PARSE_VALUE
 SVG
 mLightingColor
+0
 nsnull
 offsetof
 (
@@ -5751,6 +6033,7 @@ MarkerEnd
 CSS_PROPERTY_PARSE_VALUE
 SVG
 mMarkerEnd
+0
 nsnull
 CSS_PROP_NO_OFFSET
 eStyleAnimType_None
@@ -5765,6 +6048,7 @@ MarkerMid
 CSS_PROPERTY_PARSE_VALUE
 SVG
 mMarkerMid
+0
 nsnull
 CSS_PROP_NO_OFFSET
 eStyleAnimType_None
@@ -5779,6 +6063,7 @@ MarkerStart
 CSS_PROPERTY_PARSE_VALUE
 SVG
 mMarkerStart
+0
 nsnull
 CSS_PROP_NO_OFFSET
 eStyleAnimType_None
@@ -5791,6 +6076,7 @@ Mask
 CSS_PROPERTY_PARSE_VALUE
 SVG
 mMask
+0
 nsnull
 CSS_PROP_NO_OFFSET
 eStyleAnimType_None
@@ -5805,6 +6091,7 @@ ShapeRendering
 CSS_PROPERTY_PARSE_VALUE
 SVG
 mShapeRendering
+0
 kShapeRenderingKTable
 offsetof
 (
@@ -5823,6 +6110,7 @@ StopColor
 CSS_PROPERTY_PARSE_VALUE
 SVG
 mStopColor
+0
 nsnull
 offsetof
 (
@@ -5841,6 +6129,7 @@ StopOpacity
 CSS_PROPERTY_PARSE_VALUE
 SVG
 mStopOpacity
+0
 nsnull
 offsetof
 (
@@ -5857,6 +6146,7 @@ Stroke
 CSS_PROPERTY_PARSE_FUNCTION
 SVG
 mStroke
+0
 nsnull
 offsetof
 (
@@ -5877,6 +6167,7 @@ CSS_PROPERTY_PARSE_FUNCTION
 CSS_PROPERTY_VALUE_LIST_USES_COMMAS
 SVG
 mStrokeDasharray
+0
 nsnull
 CSS_PROP_NO_OFFSET
 eStyleAnimType_Custom
@@ -5891,6 +6182,7 @@ StrokeDashoffset
 CSS_PROPERTY_PARSE_VALUE
 SVG
 mStrokeDashoffset
+0
 nsnull
 offsetof
 (
@@ -5909,6 +6201,7 @@ StrokeLinecap
 CSS_PROPERTY_PARSE_VALUE
 SVG
 mStrokeLinecap
+0
 kStrokeLinecapKTable
 offsetof
 (
@@ -5927,6 +6220,7 @@ StrokeLinejoin
 CSS_PROPERTY_PARSE_VALUE
 SVG
 mStrokeLinejoin
+0
 kStrokeLinejoinKTable
 offsetof
 (
@@ -5945,6 +6239,7 @@ StrokeMiterlimit
 CSS_PROPERTY_PARSE_VALUE
 SVG
 mStrokeMiterlimit
+0
 nsnull
 offsetof
 (
@@ -5963,6 +6258,7 @@ StrokeOpacity
 CSS_PROPERTY_PARSE_VALUE
 SVG
 mStrokeOpacity
+0
 nsnull
 offsetof
 (
@@ -5981,6 +6277,7 @@ StrokeWidth
 CSS_PROPERTY_PARSE_VALUE
 SVG
 mStrokeWidth
+0
 nsnull
 offsetof
 (
@@ -5999,6 +6296,7 @@ TextAnchor
 CSS_PROPERTY_PARSE_VALUE
 SVG
 mTextAnchor
+0
 kTextAnchorKTable
 offsetof
 (
@@ -6017,6 +6315,7 @@ TextRendering
 CSS_PROPERTY_PARSE_VALUE
 SVG
 mTextRendering
+0
 kTextRenderingKTable
 offsetof
 (
@@ -6036,6 +6335,7 @@ Lang
 CSS_PROPERTY_PARSE_VALUE
 Display
 mLang
+0
 nsnull
 CSS_PROP_NO_OFFSET
 eStyleAnimType_None
@@ -6048,6 +6348,7 @@ Cols
 CSS_PROPERTY_PARSE_VALUE
 Table
 mCols
+0
 nsnull
 CSS_PROP_NO_OFFSET
 eStyleAnimType_None
@@ -6060,6 +6361,7 @@ Span
 CSS_PROPERTY_PARSE_VALUE
 Table
 mSpan
+0
 nsnull
 CSS_PROP_NO_OFFSET
 eStyleAnimType_None
