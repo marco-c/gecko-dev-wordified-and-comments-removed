@@ -105,7 +105,7 @@ LayerManagerComposite
 aManager
 )
 :
-ImageLayer
+ShadowImageLayer
 (
 aManager
 nullptr

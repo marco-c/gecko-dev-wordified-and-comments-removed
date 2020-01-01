@@ -256,7 +256,7 @@ size
 )
 ;
 }
-LayerManagerComposite
+ShadowLayerManager
 :
 :
 PlatformSyncBeforeReplyUpdate
