@@ -7426,7 +7426,7 @@ MOZ_OVERRIDE
 {
 ScopeObject
 &
-scope
+scopeObj
 =
 proxy
 -
@@ -7450,7 +7450,7 @@ id
 &
 isFunctionScope
 (
-scope
+scopeObj
 )
 )
 {
@@ -7467,11 +7467,11 @@ JSBool
 found
 ;
 RootedObject
-rootedScope
+scope
 (
 cx
 &
-scope
+scopeObj
 )
 ;
 if
@@ -7480,7 +7480,7 @@ if
 JS_HasPropertyById
 (
 cx
-rootedScope
+scope
 id
 &
 found
@@ -7496,7 +7496,8 @@ found
 &
 &
 scope
-.
+-
+>
 isCall
 (
 )
@@ -7504,7 +7505,8 @@ isCall
 &
 !
 scope
-.
+-
+>
 asCall
 (
 )
@@ -7519,7 +7521,8 @@ script
 (
 cx
 scope
-.
+-
+>
 asCall
 (
 )
