@@ -645,6 +645,15 @@ aPoint
 )
 ;
 void
+HandleSingleTap
+(
+const
+nsIntPoint
+&
+aPoint
+)
+;
+void
 Activate
 (
 )
