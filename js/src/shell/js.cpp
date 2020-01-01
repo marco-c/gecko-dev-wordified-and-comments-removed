@@ -4709,6 +4709,8 @@ script
 -
 >
 filename
+(
+)
 )
 )
 return
@@ -7130,6 +7132,8 @@ script
 -
 >
 filename
+(
+)
 script
 -
 >
@@ -10167,6 +10171,8 @@ script
 -
 >
 filename
+(
+)
 )
 {
 JS_ReportErrorNumber
@@ -10189,6 +10195,8 @@ script
 -
 >
 filename
+(
+)
 "
 r
 "
@@ -10210,6 +10218,8 @@ script
 -
 >
 filename
+(
+)
 strerror
 (
 errno
@@ -10318,6 +10328,8 @@ script
 -
 >
 filename
+(
+)
 )
 ;
 ok
@@ -10450,6 +10462,8 @@ script
 -
 >
 filename
+(
+)
 )
 ;
 ok
@@ -12749,6 +12763,8 @@ script
 -
 >
 filename
+(
+)
 lineno
 rval
 .
@@ -13074,6 +13090,8 @@ fpscript
 -
 >
 filename
+(
+)
 JS_PCToLineNumber
 (
 cx
@@ -16310,6 +16328,8 @@ script
 -
 >
 filename
+(
+)
 )
 ;
 const
@@ -16354,6 +16374,8 @@ script
 -
 >
 filename
+(
+)
 pathname
 )
 ;
@@ -16933,6 +16955,8 @@ script
 -
 >
 filename
+(
+)
 )
 {
 args
@@ -16967,6 +16991,8 @@ script
 -
 >
 filename
+(
+)
 )
 ;
 if

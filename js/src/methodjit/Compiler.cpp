@@ -2942,6 +2942,8 @@ outerScript
 -
 >
 filename
+(
+)
 outerScript
 -
 >
@@ -3002,6 +3004,8 @@ outerScript
 -
 >
 filename
+(
+)
 outerScript
 -
 >
@@ -26873,6 +26877,8 @@ script
 -
 >
 filename
+(
+)
 script
 -
 >
@@ -27349,6 +27355,8 @@ script_
 -
 >
 filename
+(
+)
 script_
 -
 >

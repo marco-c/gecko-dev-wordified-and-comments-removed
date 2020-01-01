@@ -573,6 +573,8 @@ script
 -
 >
 filename
+(
+)
 script
 -
 >

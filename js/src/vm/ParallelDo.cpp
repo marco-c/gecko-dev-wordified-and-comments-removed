@@ -1080,6 +1080,8 @@ script
 -
 >
 filename
+(
+)
 PCToLineNumber
 (
 script
@@ -1130,6 +1132,8 @@ script
 -
 >
 filename
+(
+)
 PCToLineNumber
 (
 iter
@@ -1147,6 +1151,8 @@ script
 -
 >
 filename
+(
+)
 PCToLineNumber
 (
 script
@@ -1405,6 +1411,8 @@ nonLazyScript
 -
 >
 filename
+(
+)
 fun
 -
 >
@@ -1625,6 +1633,8 @@ script
 -
 >
 filename
+(
+)
 PCToLineNumber
 (
 script
@@ -1733,6 +1743,8 @@ script
 -
 >
 filename
+(
+)
 PCToLineNumber
 (
 script

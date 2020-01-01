@@ -202,6 +202,8 @@ script
 -
 >
 filename
+(
+)
 script
 -
 >
@@ -365,6 +367,8 @@ script
 -
 >
 filename
+(
+)
 script
 -
 >
@@ -4639,6 +4643,8 @@ script
 -
 >
 filename
+(
+)
 script
 -
 >
@@ -24579,6 +24585,8 @@ nonLazyScript
 -
 >
 filename
+(
+)
 callee
 -
 >
@@ -27168,6 +27176,8 @@ nonLazyScript
 -
 >
 filename
+(
+)
 callee
 -
 >
@@ -29325,6 +29335,8 @@ nonLazyScript
 -
 >
 filename
+(
+)
 fun
 -
 >
