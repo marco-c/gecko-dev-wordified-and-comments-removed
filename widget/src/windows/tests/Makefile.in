@@ -421,6 +421,8 @@ autoconf
 .
 mk
 ifndef
+BUILD_STATIC_LIBS
+ifndef
 MOZ_ENABLE_LIBXUL
 LOCAL_INCLUDES
 =
@@ -557,6 +559,7 @@ cpp
 (
 NULL
 )
+endif
 endif
 include
 (
