@@ -231,6 +231,10 @@ mDrawNormal
 =
 true
 ;
+mMirrored
+=
+false
+;
 }
 ~
 nsMathMLChar
@@ -325,8 +329,8 @@ nsBoundingMetrics
 aDesiredStretchSize
 PRUint32
 aStretchHint
-=
-NS_STRETCH_NORMAL
+bool
+aRTL
 )
 ;
 void
@@ -592,6 +596,9 @@ mScaleY
 ;
 bool
 mDrawNormal
+;
+bool
+mMirrored
 ;
 class
 StretchEnumContext

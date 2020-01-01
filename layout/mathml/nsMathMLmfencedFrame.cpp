@@ -1232,6 +1232,16 @@ delta
 -
 axisHeight
 ;
+bool
+isRTL
+=
+NS_MATHML_IS_RTL
+(
+mPresentationData
+.
+flags
+)
+;
 ReflowChar
 (
 aPresContext
@@ -1251,6 +1261,7 @@ em
 containerSize
 ascent
 descent
+isRTL
 )
 ;
 for
@@ -1291,6 +1302,7 @@ em
 containerSize
 ascent
 descent
+isRTL
 )
 ;
 }
@@ -1313,6 +1325,7 @@ em
 containerSize
 ascent
 descent
+isRTL
 )
 ;
 i
@@ -1337,16 +1350,6 @@ nsMathMLChar
 leftChar
 *
 rightChar
-;
-bool
-isRTL
-=
-NS_MATHML_IS_RTL
-(
-mPresentationData
-.
-flags
-)
 ;
 if
 (
@@ -1802,6 +1805,8 @@ aAscent
 nscoord
 &
 aDescent
+bool
+aRTL
 )
 {
 if
@@ -1851,6 +1856,8 @@ aRenderingContext
 NS_STRETCH_DIRECTION_VERTICAL
 aContainerSize
 charSize
+NS_STRETCH_NORMAL
+aRTL
 )
 ;
 if
