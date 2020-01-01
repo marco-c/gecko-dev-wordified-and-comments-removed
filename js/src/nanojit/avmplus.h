@@ -787,8 +787,10 @@ if
 (
 data
 )
-delete
+free
+(
 data
+)
 ;
 }
 void
