@@ -511,7 +511,7 @@ INTEL_CXX
 MODULE_OPTIMIZE_FLAGS
 =
 -
-Os
+O3
 -
 fstrict
 -
