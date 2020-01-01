@@ -14614,6 +14614,15 @@ isFunctionFrame
 )
 &
 &
+!
+fp
+-
+>
+runningInIon
+(
+)
+&
+&
 fp
 -
 >
