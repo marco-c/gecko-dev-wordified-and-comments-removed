@@ -12,6 +12,15 @@ h
 #
 include
 "
+mozilla
+/
+unused
+.
+h
+"
+#
+include
+"
 nsThreadUtils
 .
 h
@@ -679,6 +688,9 @@ Shutdown
 (
 )
 ;
+unused
+<
+<
 PAudioParent
 :
 :
