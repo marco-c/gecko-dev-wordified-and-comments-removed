@@ -388,6 +388,7 @@ PRIVILEGES_UNPRIVILEGED
 PRIVILEGES_CAMERA
 PRIVILEGES_VIDEO
 PRIVILEGES_INHERIT
+PRIVILEGES_LAST
 }
 ;
 #
@@ -556,6 +557,13 @@ arch
 GetCurrentProcessArchitecture
 (
 )
+)
+;
+void
+SetCurrentProcessPrivileges
+(
+ChildPrivileges
+privs
 )
 ;
 #
