@@ -1062,12 +1062,6 @@ void
 )
 ;
 void
-GrabKeyboard
-(
-void
-)
-;
-void
 ReleaseGrabs
 (
 void
@@ -1543,9 +1537,6 @@ mIsFullyObscured
 :
 1
 mRetryPointerGrab
-:
-1
-mRetryKeyboardGrab
 :
 1
 ;
