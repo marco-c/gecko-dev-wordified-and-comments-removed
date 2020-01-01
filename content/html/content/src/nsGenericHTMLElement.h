@@ -774,6 +774,7 @@ nsAttrValue
 aResult
 )
 ;
+static
 PRBool
 ParseDivAlignValue
 (
@@ -785,7 +786,6 @@ nsAttrValue
 &
 aResult
 )
-const
 ;
 static
 PRBool
