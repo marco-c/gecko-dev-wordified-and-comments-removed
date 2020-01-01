@@ -1840,6 +1840,9 @@ PRPackedBool
 mAllowImages
 ;
 PRPackedBool
+mAllowDNSPrefetch
+;
+PRPackedBool
 mFocusDocFirst
 ;
 PRPackedBool

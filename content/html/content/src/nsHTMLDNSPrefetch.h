@@ -166,15 +166,6 @@ PRUint16
 flags
 )
 ;
-static
-PRBool
-IsSecureBaseContext
-(
-nsIDocument
-*
-aDocument
-)
-;
 public
 :
 class
