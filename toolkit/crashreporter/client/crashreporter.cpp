@@ -2073,7 +2073,7 @@ wWinMain
 (
 HINSTANCE
 HINSTANCE
-LPSTR
+LPWSTR
 args
 int
 )
