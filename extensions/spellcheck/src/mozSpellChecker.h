@@ -273,7 +273,7 @@ mIgnoreList
 nsresult
 SetupDoc
 (
-PRUint32
+PRInt32
 *
 outBlockOffset
 )
