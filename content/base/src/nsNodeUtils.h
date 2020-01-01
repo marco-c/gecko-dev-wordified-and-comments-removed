@@ -321,6 +321,8 @@ nsINode
 aNode
 PRBool
 aDeep
+PRBool
+aCallUserDataHandlers
 nsIDOMNode
 *
 *
