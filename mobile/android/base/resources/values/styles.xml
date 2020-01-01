@@ -2102,11 +2102,9 @@ android
 background
 "
 >
-android
-:
-color
+drawable
 /
-transparent
+action_bar_button_inverse
 <
 /
 item
