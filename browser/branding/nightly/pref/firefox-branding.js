@@ -28,6 +28,12 @@ VERSION
 /
 whatsnew
 /
+?
+oldversion
+=
+%
+OLD_VERSION
+%
 "
 )
 ;
