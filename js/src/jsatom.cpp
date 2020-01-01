@@ -408,6 +408,9 @@ object
 Undefined
 ]
 "
+"
+of
+"
 js_proto_str
 js_set_str
 js_source_str

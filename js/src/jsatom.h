@@ -1170,6 +1170,13 @@ js
 :
 PropertyName
 *
+ofAtom
+;
+js
+:
+:
+PropertyName
+*
 protoAtom
 ;
 js
