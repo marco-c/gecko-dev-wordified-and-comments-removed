@@ -1208,6 +1208,17 @@ processLeakLog
 leakLogFile
 )
       
+if
+os
+.
+path
+.
+exists
+(
+leakLogFile
+)
+:
+        
 os
 .
 remove
