@@ -105,6 +105,12 @@ _INSTALL_TESTS
 call
 install_cmd
 (
+filter
+-
+out
+%
+~
+(
 wildcard
 (
 srcdir
@@ -115,6 +121,7 @@ dir
 )
 /
 *
+)
 )
 (
 testxpcobjdir
