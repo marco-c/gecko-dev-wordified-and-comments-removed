@@ -928,11 +928,11 @@ string
 name
 =
 "
-pref_cookies
+pref_cookies_menu
 "
 >
 &
-pref_cookies
+pref_cookies_menu
 ;
 <
 /
