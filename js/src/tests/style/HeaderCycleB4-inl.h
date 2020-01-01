@@ -5,9 +5,7 @@ tests
 /
 style
 /
-HeaderCycleB1
--
-inl
+jsheadercycleB5inlines
 .
 h
 "
@@ -18,7 +16,9 @@ tests
 /
 style
 /
-jsheadercycleB5inlines
+HeaderCycleB1
+-
+inl
 .
 h
 "
