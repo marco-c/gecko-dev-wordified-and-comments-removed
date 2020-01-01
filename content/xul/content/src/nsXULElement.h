@@ -2014,7 +2014,7 @@ nsIAtom
 *
 aName
 const
-nsAttrValue
+nsAString
 *
 aValue
 bool
@@ -2031,7 +2031,7 @@ nsIAtom
 *
 aName
 const
-nsAttrValue
+nsAString
 *
 aValue
 bool
@@ -2125,7 +2125,7 @@ void
 SetChromeMargins
 (
 const
-nsAttrValue
+nsAString
 *
 aValue
 )
