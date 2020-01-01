@@ -387,13 +387,6 @@ LOGTAG
 "
 RunGecko
 -
-URI
-=
-"
-+
-mUri
-+
-"
 args
 =
 "
