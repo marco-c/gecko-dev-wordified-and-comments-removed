@@ -2055,7 +2055,7 @@ init
 ;
 ExtensionsView
 .
-_delayedInit
+delayedInit
 (
 )
 ;
