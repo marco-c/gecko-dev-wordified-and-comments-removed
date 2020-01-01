@@ -1986,6 +1986,14 @@ PRUint32
 aState
 )
 ;
+static
+void
+NotifyInstalledMenuKeyboardListener
+(
+PRBool
+aInstalling
+)
+;
 private
 :
 static

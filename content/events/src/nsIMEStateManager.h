@@ -82,6 +82,14 @@ nsPresContext
 aPresContext
 )
 ;
+static
+void
+OnInstalledMenuKeyboardListener
+(
+PRBool
+aInstalling
+)
+;
 protected
 :
 static
@@ -153,6 +161,10 @@ static
 nsPIDOMWindow
 *
 sActiveWindow
+;
+static
+PRBool
+sInstalledMenuKeyboardListener
 ;
 }
 ;
