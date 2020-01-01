@@ -501,14 +501,6 @@ aResult
 )
 ;
 nsresult
-ReplaceNewlines
-(
-nsIDOMRange
-*
-aRange
-)
-;
-nsresult
 CreateTrailingBRIfNeeded
 (
 )
