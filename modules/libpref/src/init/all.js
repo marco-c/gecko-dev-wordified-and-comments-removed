@@ -5956,16 +5956,6 @@ pref
 "
 dom
 .
-xbl_scopes
-"
-true
-)
-;
-pref
-(
-"
-dom
-.
 omit_components_in_content
 "
 true

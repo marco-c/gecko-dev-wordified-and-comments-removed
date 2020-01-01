@@ -616,7 +616,7 @@ Func
 nsINode
 :
 :
-ShouldExposeUserData
+IsChromeOrXBL
 "
 ]
 any
@@ -639,7 +639,7 @@ Func
 nsINode
 :
 :
-ShouldExposeUserData
+IsChromeOrXBL
 "
 ]
 any

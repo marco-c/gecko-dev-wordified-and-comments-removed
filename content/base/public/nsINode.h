@@ -2427,7 +2427,7 @@ NS_OK
 }
 static
 bool
-ShouldExposeUserData
+IsChromeOrXBL
 (
 JSContext
 *
