@@ -83,13 +83,6 @@ BeginGIF
 (
 )
 ;
-void
-EndGIF
-(
-PRBool
-aSuccess
-)
-;
 nsresult
 BeginImageFrame
 (

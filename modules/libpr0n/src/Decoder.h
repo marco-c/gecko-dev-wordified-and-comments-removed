@@ -244,6 +244,11 @@ aRect
 )
 ;
 void
+PostDecodeDone
+(
+)
+;
+void
 PostDataError
 (
 )
@@ -284,6 +289,9 @@ mSizeDecode
 ;
 bool
 mInFrame
+;
+bool
+mDecodeDone
 ;
 bool
 mDataError
