@@ -31,7 +31,7 @@ testDir
 +
 "
 /
-helper
+helpers
 .
 js
 "
