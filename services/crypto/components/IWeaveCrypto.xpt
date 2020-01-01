@@ -1,6 +1,5 @@
 XPCOM
 TypeLib
-Y
 "
 Y
 F
@@ -10,13 +9,11 @@ A
 y
 nsISupports
 IWeaveCrypto
-'
-3
-;
-C
-S
-e
-v
+-
+?
+P
+d
+u
 algorithm
 algorithm
 keypairBits
@@ -29,8 +26,6 @@ generateRandomIV
 generateRandomBytes
 wrapSymmetricKey
 unwrapSymmetricKey
-rewrapPrivateKey
-verifyPassphrase
 DES_EDE3_CBC
 AES_128_CBC
 AES_192_CBC
