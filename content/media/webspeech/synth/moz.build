@@ -89,6 +89,11 @@ nsIDOMSpeechSynthesisEvent
 idl
 '
 '
+nsISpeechService
+.
+idl
+'
+'
 nsISynthVoiceRegistry
 .
 idl

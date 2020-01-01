@@ -98,6 +98,9 @@ nsISupports
 .
 idl
 "
+interface
+nsISpeechService
+;
 [
 scriptable
 builtinclass
@@ -187,7 +190,7 @@ void
 addVoice
 (
 in
-nsISupports
+nsISpeechService
 aService
 in
 DOMString
@@ -244,7 +247,7 @@ void
 removeVoice
 (
 in
-nsISupports
+nsISpeechService
 aService
 in
 DOMString

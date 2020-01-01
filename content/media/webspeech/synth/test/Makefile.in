@@ -95,6 +95,14 @@ test_setup
 .
 html
 \
+test_speech_simple
+.
+html
+\
+test_speech_queue
+.
+html
+\
 (
 NULL
 )

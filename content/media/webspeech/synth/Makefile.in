@@ -156,6 +156,10 @@ nsSynthVoiceRegistry
 .
 cpp
 \
+nsSpeechTask
+.
+cpp
+\
 (
 NULL
 )
@@ -196,6 +200,10 @@ SpeechSynthesisParent
 h
 \
 nsSynthVoiceRegistry
+.
+h
+\
+nsSpeechTask
 .
 h
 \
