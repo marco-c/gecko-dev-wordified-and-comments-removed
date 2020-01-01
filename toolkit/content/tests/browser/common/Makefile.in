@@ -441,10 +441,6 @@ mk
 _COMMON_FILES
 =
 \
-mockObjects
-.
-js
-\
 mockTransfer
 .
 js
