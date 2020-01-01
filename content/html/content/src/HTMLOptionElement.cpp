@@ -368,7 +368,7 @@ nsIDOMHTMLFormElement
 aForm
 )
 {
-NS_ADDREF
+NS_IF_ADDREF
 (
 *
 aForm
