@@ -3077,6 +3077,13 @@ script
 script
 -
 >
+clearAnalysis
+(
+)
+;
+script
+-
+>
 debugMode
 =
 enabled
