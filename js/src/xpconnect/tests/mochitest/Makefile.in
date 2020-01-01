@@ -460,6 +460,10 @@ chrome_wrappers_helper
 .
 html
 \
+file_evalInSandbox
+.
+html
+\
 test_bug92773
 .
 html
