@@ -167,6 +167,16 @@ def
 __init__
 (
 self
+apps
+=
+[
+'
+browser
+'
+'
+mail
+'
+]
 )
 :
     
@@ -180,6 +190,12 @@ object
 '
 '
 '
+    
+self
+.
+apps
+=
+apps
     
 pass
   
@@ -210,14 +226,9 @@ compare
 (
 apps
 =
-[
-'
-browser
-'
-'
-mail
-'
-]
+self
+.
+apps
 )
   
 def
