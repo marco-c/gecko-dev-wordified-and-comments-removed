@@ -116,9 +116,6 @@ StorageEvent
 MozSettingsEvent
 '
 '
-UserProximityEvent
-'
-'
 CustomEvent
 '
 '

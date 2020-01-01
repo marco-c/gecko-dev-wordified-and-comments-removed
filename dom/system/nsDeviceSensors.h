@@ -56,13 +56,6 @@ h
 #
 include
 "
-nsIDOMUserProximityEvent
-.
-h
-"
-#
-include
-"
 nsIDOMDeviceMotionEvent
 .
 h

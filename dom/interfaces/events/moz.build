@@ -308,11 +308,6 @@ nsIDOMUIEvent
 idl
 '
 '
-nsIDOMUserProximityEvent
-.
-idl
-'
-'
 nsIDOMWheelEvent
 .
 idl

@@ -2417,11 +2417,6 @@ StyleSheetChangeEvent
 .
 webidl
 '
-'
-UserProximityEvent
-.
-webidl
-'
 ]
 if
 CONFIG
@@ -2646,6 +2641,11 @@ webidl
 '
 '
 DeviceProximityEvent
+.
+webidl
+'
+'
+UserProximityEvent
 .
 webidl
 '

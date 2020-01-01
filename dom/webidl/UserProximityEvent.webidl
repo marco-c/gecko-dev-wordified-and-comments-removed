@@ -100,13 +100,6 @@ optional
 UserProximityEventInit
 eventInitDict
 )
-HeaderFile
-=
-"
-GeneratedEventClasses
-.
-h
-"
 ]
 interface
 UserProximityEvent
