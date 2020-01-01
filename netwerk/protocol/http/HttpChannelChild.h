@@ -385,12 +385,6 @@ mBufferedCallbacks
 bool
 mShouldBuffer
 ;
-mozilla
-:
-:
-Mutex
-mBufferLock
-;
 bool
 BufferOrDispatch
 (
