@@ -1230,7 +1230,10 @@ mObserver
 PRUint32
 mLockCount
 ;
-DiscardTrackerNode
+DiscardTracker
+:
+:
+Node
 mDiscardTrackerNode
 ;
 FallibleTArray
