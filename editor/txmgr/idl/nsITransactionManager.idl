@@ -622,9 +622,7 @@ the
 undo
 stack
 calls
-it
-'
-s
+its
 *
 undoTransaction
 (
@@ -658,9 +656,7 @@ the
 redo
 stack
 calls
-it
-'
-s
+its
 *
 redoTransaction
 (
