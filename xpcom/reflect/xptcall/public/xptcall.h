@@ -407,6 +407,12 @@ ptr
 =
 nsnull
 ;
+val
+.
+p
+=
+nsnull
+;
 switch
 (
 t
