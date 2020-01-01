@@ -300,8 +300,6 @@ PropertyStub
 EnumerateStub
 ResolveStub
 ConvertStub
-NULL
-JSCLASS_NO_OPTIONAL_MEMBERS
 }
 ;
 JSBool

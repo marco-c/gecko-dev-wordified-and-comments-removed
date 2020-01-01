@@ -805,13 +805,6 @@ xml
 extern
 JS_FRIEND_DATA
 (
-JSObjectOps
-)
-js_XMLObjectOps
-;
-extern
-JS_FRIEND_DATA
-(
 js
 :
 :
@@ -825,7 +818,7 @@ JS_FRIEND_DATA
 js
 :
 :
-ExtendedClass
+Class
 )
 js_NamespaceClass
 ;
@@ -835,7 +828,7 @@ JS_FRIEND_DATA
 js
 :
 :
-ExtendedClass
+Class
 )
 js_QNameClass
 ;
@@ -877,14 +870,13 @@ isXML
 const
 {
 return
-map
--
->
-ops
+getClass
+(
+)
 =
 =
 &
-js_XMLObjectOps
+js_XMLClass
 ;
 }
 inline
@@ -914,8 +906,6 @@ clasp
 =
 &
 js_QNameClass
-.
-base
 |
 |
 clasp
@@ -974,8 +964,6 @@ getClass
 =
 &
 js_NamespaceClass
-.
-base
 ;
 }
 inline
@@ -1005,8 +993,6 @@ clasp
 =
 &
 js_QNameClass
-.
-base
 |
 |
 clasp
