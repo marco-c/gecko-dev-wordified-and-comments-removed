@@ -866,7 +866,6 @@ clasp
 )
 shape
 type
-NULL
 )
 ;
 if

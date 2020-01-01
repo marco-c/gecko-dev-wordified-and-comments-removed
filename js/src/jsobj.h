@@ -1164,7 +1164,9 @@ js
 :
 HeapSlot
 *
-slots
+extantSlots
+=
+NULL
 )
 ;
 static
