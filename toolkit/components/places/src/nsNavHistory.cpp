@@ -479,6 +479,10 @@ EXPIRE_IDLE_TIME_IN_MSECS
 define
 MAX_EXPIRE_RECORDS_ON_IDLE
 200
+#
+define
+EXPIRATION_CAP_VISITS
+20000
 NS_IMPL_ADDREF
 (
 nsNavHistory
@@ -6324,6 +6328,10 @@ PREF_BROWSER_HISTORY_EXPIRE_DAYS
 mExpireDays
 )
 ;
+if
+(
+NS_FAILED
+(
 mPrefBranch
 -
 >
@@ -6333,6 +6341,11 @@ PREF_BROWSER_HISTORY_EXPIRE_VISITS
 &
 mExpireVisits
 )
+)
+)
+mExpireVisits
+=
+EXPIRATION_CAP_VISITS
 ;
 PRBool
 oldCompleteOnlyTyped
