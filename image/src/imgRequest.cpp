@@ -1540,7 +1540,7 @@ SetDataSize
 mImage
 -
 >
-GetDataSize
+SizeOfData
 (
 )
 )
