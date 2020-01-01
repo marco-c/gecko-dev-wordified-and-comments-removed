@@ -335,6 +335,13 @@ nsHtml5Module
 h
 "
 #
+include
+"
+nsCrossSiteListenerProxy
+.
+h
+"
+#
 ifdef
 MOZ_XUL
 #
@@ -1132,6 +1139,13 @@ nsHtml5Module
 :
 :
 InitializeStatics
+(
+)
+;
+nsCrossSiteListenerProxy
+:
+:
+Startup
 (
 )
 ;

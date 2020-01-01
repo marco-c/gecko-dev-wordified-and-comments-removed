@@ -550,10 +550,10 @@ CancelParsingEvents
 (
 )
 ;
+virtual
 PRBool
 CanInterrupt
 (
-void
 )
 ;
 void

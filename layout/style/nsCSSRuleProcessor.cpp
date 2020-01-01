@@ -11328,12 +11328,12 @@ nsMediaQueryResultCacheKey
 &
 mCacheKey
 ;
-PLDHashTable
-mRulesByWeight
-;
 PLArenaPool
 &
 mArena
+;
+PLDHashTable
+mRulesByWeight
 ;
 PRUint8
 mSheetType
