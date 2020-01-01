@@ -59,12 +59,6 @@ aOffset
 =
 0
 ;
-nscoord
-mAppUnitsPerDevPixel
-;
-nsIntPoint
-mPaintOffset
-;
 nsRect
 mBounds
 ;
