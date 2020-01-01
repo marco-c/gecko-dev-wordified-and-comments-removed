@@ -157,6 +157,9 @@ SLOW_MAR_DOWNLOAD_INTERVAL
 =
 100
 ;
+var
+gTimer
+;
 function
 handleRequest
 (
@@ -462,8 +465,7 @@ readFileBytes
 marFile
 )
 ;
-var
-timer
+gTimer
 =
 AUS_Cc
 [
@@ -485,7 +487,7 @@ AUS_Ci
 nsITimer
 )
 ;
-timer
+gTimer
 .
 initWithCallback
 (
