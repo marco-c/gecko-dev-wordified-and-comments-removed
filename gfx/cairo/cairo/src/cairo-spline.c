@@ -5,17 +5,6 @@ cairoint
 .
 h
 "
-#
-include
-"
-cairo
--
-slope
--
-private
-.
-h
-"
 cairo_bool_t
 _cairo_spline_init
 (

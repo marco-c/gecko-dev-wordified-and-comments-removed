@@ -24,9 +24,6 @@ const
 cairo_pattern_t
 *
 source
-cairo_clip_t
-*
-clip
 )
 ;
 cairo_private
@@ -46,9 +43,6 @@ const
 cairo_pattern_t
 *
 mask
-cairo_clip_t
-*
-clip
 )
 ;
 cairo_private
@@ -80,9 +74,6 @@ double
 tolerance
 cairo_antialias_t
 antialias
-cairo_clip_t
-*
-clip
 )
 ;
 cairo_private
@@ -107,9 +98,6 @@ double
 tolerance
 cairo_antialias_t
 antialias
-cairo_clip_t
-*
-clip
 )
 ;
 cairo_private
@@ -133,9 +121,6 @@ num_glyphs
 cairo_scaled_font_t
 *
 scaled_font
-cairo_clip_t
-*
-clip
 )
 ;
 cairo_private
@@ -183,9 +168,6 @@ width
 unsigned
 int
 height
-cairo_region_t
-*
-clip_region
 )
 ;
 cairo_private
@@ -242,9 +224,6 @@ cairo_trapezoid_t
 traps
 int
 num_traps
-cairo_region_t
-*
-clip_region
 )
 ;
 cairo_private
@@ -257,6 +236,8 @@ surface
 cairo_surface_t
 *
 src
+cairo_content_t
+content
 int
 src_x
 int

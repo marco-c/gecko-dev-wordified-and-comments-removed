@@ -110,9 +110,7 @@ gap
 \
 swapped
 =
-gap
->
-1
+0
 ;
 \
 for
@@ -201,6 +199,11 @@ swapped
 }
 while
 (
+gap
+>
+1
+|
+|
 swapped
 )
 ;

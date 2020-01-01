@@ -19,6 +19,10 @@ _cairo_analysis_surface_create
 cairo_surface_t
 *
 target
+int
+width
+int
+height
 )
 ;
 cairo_private
@@ -28,7 +32,6 @@ _cairo_analysis_surface_set_ctm
 cairo_surface_t
 *
 surface
-const
 cairo_matrix_t
 *
 ctm

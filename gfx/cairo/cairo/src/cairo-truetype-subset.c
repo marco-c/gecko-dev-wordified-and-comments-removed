@@ -841,15 +841,6 @@ font
 >
 base
 .
-ps_name
-=
-NULL
-;
-font
--
->
-base
-.
 font_name
 =
 NULL

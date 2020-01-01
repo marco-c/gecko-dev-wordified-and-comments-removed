@@ -130,9 +130,12 @@ cairo_surface_t
 *
 isurf
 =
-_cairo_image_surface_create_with_content
+cairo_image_surface_create
+(
+_cairo_format_from_content
 (
 content
+)
 width
 height
 )
@@ -297,7 +300,7 @@ CAIRO_STATUS_SUCCESS
 ;
 }
 static
-cairo_bool_t
+cairo_int_status_t
 _cairo_quartz_image_surface_get_extents
 (
 void
@@ -327,7 +330,7 @@ surface
 extents
 ;
 return
-TRUE
+CAIRO_STATUS_SUCCESS
 ;
 }
 static
@@ -459,10 +462,13 @@ NULL
 NULL
 NULL
 NULL
+NULL
+NULL
 _cairo_quartz_image_surface_get_extents
 NULL
 NULL
 _cairo_quartz_image_surface_flush
+NULL
 NULL
 NULL
 NULL

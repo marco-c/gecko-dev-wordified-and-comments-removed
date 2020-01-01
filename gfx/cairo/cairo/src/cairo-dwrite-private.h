@@ -250,7 +250,7 @@ mSystemCollection
 }
 ;
 cairo_int_status_t
-_cairo_dwrite_show_glyphs_on_d2d_surface
+cairo_dwrite_show_glyphs_on_d2d_surface
 (
 void
 *
@@ -269,8 +269,8 @@ num_glyphs
 cairo_scaled_font_t
 *
 scaled_font
-cairo_clip_t
+cairo_rectangle_int_t
 *
-clip
+extents
 )
 ;
