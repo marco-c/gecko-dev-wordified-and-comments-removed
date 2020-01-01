@@ -4770,7 +4770,7 @@ common
 /
 md5
 .
-c
+cc
 \
 src
 /
