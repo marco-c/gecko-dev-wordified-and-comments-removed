@@ -696,8 +696,6 @@ e
 {
 Utils
 .
-logger
-.
 log
 (
 e
@@ -1136,8 +1134,6 @@ mixIns
 )
 Utils
 .
-logging
-.
 log
 (
 "
@@ -1350,8 +1346,6 @@ e
 {
 Utils
 .
-logger
-.
 log
 (
 e
@@ -1409,8 +1403,6 @@ function
 "
 )
 Utils
-.
-logging
 .
 log
 (
@@ -1639,8 +1631,6 @@ browser
 ;
 Utils
 .
-logger
-.
 log
 (
 trackedWindows
@@ -1702,12 +1692,6 @@ navigator
 :
 browser
 "
-)
-;
-new
-BrowserWindow
-(
-chromeWindow
 )
 ;
 trackedWindows
@@ -2096,8 +2080,6 @@ e
 )
 {
 Utils
-.
-logger
 .
 log
 (
