@@ -8458,6 +8458,19 @@ true
 ;
 if
 (
+!
+(
+"
+applyBackgroundUpdates
+"
+in
+this
+.
+mAddon
+)
+|
+|
+(
 this
 .
 mAddon
@@ -8487,6 +8500,7 @@ AUTOUPDATE_DEFAULT
 AddonManager
 .
 autoUpdateDefault
+)
 )
 )
 {
