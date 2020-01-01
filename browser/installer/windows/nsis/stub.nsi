@@ -5450,6 +5450,13 @@ download
 .
 exe
 "
+\
+/
+CONNECTTIMEOUT
+120
+/
+RECEIVETIMEOUT
+120
 /
 END
 StrCpy
