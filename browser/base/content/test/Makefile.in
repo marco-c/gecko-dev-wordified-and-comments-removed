@@ -880,6 +880,10 @@ browser_CTP_drag_drop
 .
 js
 \
+browser_CTP_data_urls
+.
+js
+\
 browser_ctrlTab
 .
 js
@@ -1398,6 +1402,10 @@ plugin_test3
 html
 \
 plugin_two_types
+.
+html
+\
+plugin_data_url
 .
 html
 \
