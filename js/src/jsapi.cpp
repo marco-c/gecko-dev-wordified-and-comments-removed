@@ -7225,6 +7225,15 @@ gcIncrementalState
 =
 NO_INCREMENTAL
 )
+{
+PrepareForIncrementalGC
+(
+cx
+-
+>
+runtime
+)
+;
 FinishIncrementalGC
 (
 cx
@@ -7237,6 +7246,7 @@ gcreason
 TRANSPLANT
 )
 ;
+}
 JSCompartment
 *
 destination
