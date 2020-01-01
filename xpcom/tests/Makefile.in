@@ -523,6 +523,10 @@ BIN_SUFFIX
 CPP_UNIT_TESTS
 =
 \
+ShowAlignments
+.
+cpp
+\
 ShowSSEConfig
 .
 cpp
