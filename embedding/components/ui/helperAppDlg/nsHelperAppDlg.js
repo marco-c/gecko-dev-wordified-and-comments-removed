@@ -334,6 +334,7 @@ aLauncher
 aContext
 aDefaultFile
 aSuggestedFileExtension
+aForcePrompt
 )
 {
 var
@@ -491,6 +492,10 @@ autoDownload
 ;
 if
 (
+!
+aForcePrompt
+&
+&
 autoDownload
 &
 &

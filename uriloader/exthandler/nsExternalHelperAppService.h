@@ -436,6 +436,8 @@ nsAString
 aFilename
 PRUint32
 aReason
+PRBool
+aForceSave
 )
 ;
 ~
@@ -492,6 +494,9 @@ mTimer
 ;
 nsString
 mSuggestedFileName
+;
+PRPackedBool
+mForceSave
 ;
 PRPackedBool
 mCanceled
