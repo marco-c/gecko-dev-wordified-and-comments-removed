@@ -1205,7 +1205,7 @@ align
 start
 ;
 }
-.
+#
 tab
 -
 list
@@ -1224,7 +1224,7 @@ rgb
 )
 ;
 }
-.
+#
 tab
 -
 list
@@ -1321,7 +1321,7 @@ white
 important
 ;
 }
-.
+#
 newtab
 -
 button
@@ -1346,12 +1346,6 @@ rgba
 .
 9
 )
-;
-font
--
-size
-:
-24pt
 ;
 }
 #
