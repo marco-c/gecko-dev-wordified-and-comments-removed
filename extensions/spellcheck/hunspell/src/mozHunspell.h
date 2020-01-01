@@ -116,6 +116,9 @@ MOZ_HUNSPELL_CID
 }
 }
 class
+nsIMemoryReporter
+;
+class
 mozHunspell
 :
 public
@@ -140,6 +143,10 @@ mozHunspell
 )
 :
 mHunspell
+(
+nsnull
+)
+mHunspellReporter
 (
 nsnull
 )
@@ -210,6 +217,10 @@ mLanguage
 Hunspell
 *
 mHunspell
+;
+nsIMemoryReporter
+*
+mHunspellReporter
 ;
 }
 ;
