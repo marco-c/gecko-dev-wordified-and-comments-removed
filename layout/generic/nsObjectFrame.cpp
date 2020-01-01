@@ -5123,7 +5123,7 @@ GetParent
 )
 -
 >
-GetOffsetTo
+GetOffsetToCrossDoc
 (
 rootFrame
 )
