@@ -5404,7 +5404,11 @@ StyleRule
 >
 rule
 =
-NS_NewCSSStyleRule
+new
+css
+:
+:
+StyleRule
 (
 nsnull
 mDecl
