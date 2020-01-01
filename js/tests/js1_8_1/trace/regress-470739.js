@@ -179,6 +179,8 @@ actual
 timejit
 <
 timenonjit
+/
+2
 ;
 reportCompare
 (
