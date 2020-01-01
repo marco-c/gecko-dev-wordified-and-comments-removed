@@ -5907,9 +5907,6 @@ nsCSSValueList
 *
 mSpecifiedTransform
 ;
-nsStyleTransformMatrix
-mTransform
-;
 nsStyleCoord
 mTransformOrigin
 [

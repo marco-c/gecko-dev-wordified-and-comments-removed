@@ -2576,6 +2576,15 @@ Clone
 const
 ;
 void
+CloneInto
+(
+nsCSSValueList
+*
+aList
+)
+const
+;
+void
 AppendToString
 (
 nsCSSProperty
