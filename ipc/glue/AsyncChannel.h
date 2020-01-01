@@ -110,6 +110,7 @@ ChannelState
 ChannelClosed
 ChannelOpening
 ChannelConnected
+ChannelTimeout
 ChannelClosing
 ChannelError
 }
@@ -342,6 +343,11 @@ SendSpecialMessage
 Message
 *
 msg
+)
+;
+void
+SynchronouslyClose
+(
 )
 ;
 bool
