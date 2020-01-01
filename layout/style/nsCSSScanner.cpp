@@ -3514,13 +3514,6 @@ return
 PR_FALSE
 ;
 }
-if
-(
-ch
-<
-256
-)
-{
 PRUint8
 *
 lexTable
@@ -3561,6 +3554,11 @@ aToken
 }
 if
 (
+ch
+<
+256
+&
+&
 (
 lexTable
 [
@@ -3932,7 +3930,6 @@ mType
 =
 eCSSToken_URL
 ;
-}
 }
 }
 return
