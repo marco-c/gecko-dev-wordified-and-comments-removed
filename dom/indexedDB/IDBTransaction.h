@@ -204,7 +204,7 @@ already_AddRefed
 <
 mozIStorageStatement
 >
-RemoveStatement
+DeleteStatement
 (
 bool
 aAutoIncrement
