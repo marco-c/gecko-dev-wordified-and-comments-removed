@@ -1797,6 +1797,15 @@ trc
 ;
 static
 void
+markAll
+(
+JSTracer
+*
+trc
+)
+;
+static
+void
 sweepAll
 (
 FreeOp
@@ -2347,7 +2356,7 @@ private
 js
 :
 :
-HeapPtrObject
+EncapsulatedPtrObject
 handler
 ;
 JSCList
@@ -2412,7 +2421,7 @@ nextInSite
 )
 ;
 const
-HeapPtrObject
+EncapsulatedPtrObject
 &
 getHandler
 (
@@ -2423,7 +2432,7 @@ return
 handler
 ;
 }
-HeapPtrObject
+EncapsulatedPtrObject
 &
 getHandlerRef
 (
