@@ -6129,7 +6129,6 @@ about
 :
 firefox
 '
-true
 )
 ;
 "
@@ -6149,7 +6148,6 @@ about
 :
 fennec
 '
-true
 )
 ;
 "
