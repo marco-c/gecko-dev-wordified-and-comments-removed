@@ -134,13 +134,6 @@ SECTION
 TITLE
 )
 ;
-var
-TZ_ADJUST
-=
-TZ_PST
-*
-msPerHour
-;
 addNewTestCase
 (
 new
@@ -266,7 +259,7 @@ Date
 [
 TIME_1900
 -
-TZ_ADJUST
+PST_ADJUST
 -
 1
 1900
@@ -317,7 +310,7 @@ Date
 [
 TIME_1900
 -
-TZ_ADJUST
+PST_ADJUST
 1900
 0
 1
@@ -366,7 +359,7 @@ Date
 [
 TIME_1900
 -
-TZ_ADJUST
+PST_ADJUST
 +
 1
 1900

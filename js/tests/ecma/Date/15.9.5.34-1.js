@@ -43,20 +43,6 @@ date
 "
 )
 ;
-var
-now
-=
-(
-new
-Date
-(
-)
-)
-.
-valueOf
-(
-)
-;
 getFunctionCases
 (
 )
@@ -134,7 +120,7 @@ TDATE
 new
 Date
 (
-now
+TIME_NOW
 )
 ;
 (
@@ -153,7 +139,7 @@ UTCDateFromTime
 (
 SetMonth
 (
-now
+TIME_NOW
 11
 31
 )
@@ -162,7 +148,7 @@ LocalDateFromTime
 (
 SetMonth
 (
-now
+TIME_NOW
 11
 31
 )

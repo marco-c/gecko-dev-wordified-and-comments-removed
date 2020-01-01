@@ -1,12 +1,4 @@
 var
-testcases
-=
-new
-Array
-(
-)
-;
-var
 SECTION
 =
 "
