@@ -42,7 +42,10 @@ JS
 ANALYZE
 gcFunctions
 .
-txt
+lst
+suppressedFunctions
+.
+lst
 gcTypes
 .
 txt
