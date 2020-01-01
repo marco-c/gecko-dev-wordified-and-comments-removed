@@ -4806,11 +4806,11 @@ std
 max
 (
 origtaskpriority
-+
-aNice
 -
 origProcPriority
-origProcPriority
++
+aNice
+aNice
 )
 ;
 rv
