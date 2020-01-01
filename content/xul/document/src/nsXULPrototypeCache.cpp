@@ -1607,15 +1607,6 @@ RemoveFromCacheSet
 protoURI
 )
 ;
-PRInt32
-count
-=
-mCacheURITable
-.
-Count
-(
-)
-;
 nsCOMPtr
 <
 nsIObjectOutputStream
