@@ -28,13 +28,6 @@ h
 #
 include
 "
-nsWeakReference
-.
-h
-"
-#
-include
-"
 nsIWidget
 .
 h
@@ -68,8 +61,6 @@ public
 nsIMenuItem
 public
 nsIChangeObserver
-public
-nsSupportsWeakReference
 {
 public
 :

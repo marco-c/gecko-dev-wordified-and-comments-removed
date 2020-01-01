@@ -681,12 +681,11 @@ kMenuItemCID
 NS_MENUITEM_CID
 )
 ;
-NS_IMPL_ISUPPORTS3
+NS_IMPL_ISUPPORTS2
 (
 nsMenuX
 nsIMenu
 nsIChangeObserver
-nsISupportsWeakReference
 )
 nsMenuX
 :
