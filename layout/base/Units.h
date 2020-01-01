@@ -409,6 +409,17 @@ LayerPixel
 >
 ScreenToLayerScale
 ;
+typedef
+gfx
+:
+:
+ScaleFactor
+<
+ScreenPixel
+ScreenPixel
+>
+ScreenToScreenScale
+;
 struct
 CSSPixel
 {
