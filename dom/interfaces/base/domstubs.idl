@@ -123,16 +123,6 @@ long
 long
 DOMTimeStamp
 ;
-typedef
-unsigned
-long
-long
-DOMTimeMilliSec
-;
-typedef
-double
-DOMHighResTimeStamp
-;
 /
 /
 Core

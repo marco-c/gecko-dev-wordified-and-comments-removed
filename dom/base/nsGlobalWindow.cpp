@@ -12229,7 +12229,7 @@ nsGlobalWindow
 :
 GetPerformance
 (
-nsIDOMPerformance
+nsISupports
 *
 *
 aPerformance

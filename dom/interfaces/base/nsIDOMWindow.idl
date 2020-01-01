@@ -117,9 +117,6 @@ interface
 nsIDOMOfflineResourceList
 ;
 interface
-nsIDOMPerformance
-;
-interface
 nsIDOMStorage
 ;
 interface
@@ -2899,7 +2896,7 @@ statistics
 /
 readonly
 attribute
-nsIDOMPerformance
+nsISupports
 performance
 ;
 }
