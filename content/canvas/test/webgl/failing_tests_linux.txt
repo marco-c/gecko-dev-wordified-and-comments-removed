@@ -471,15 +471,6 @@ more
 /
 functions
 /
-texImage2DBadArgs
-.
-html
-conformance
-/
-more
-/
-functions
-/
 uniformfArrayLen1
 .
 html

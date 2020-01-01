@@ -157,15 +157,6 @@ more
 /
 functions
 /
-texImage2DBadArgs
-.
-html
-conformance
-/
-more
-/
-functions
-/
 uniformfBadArgs
 .
 html
