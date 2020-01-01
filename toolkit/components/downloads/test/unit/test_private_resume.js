@@ -3,6 +3,16 @@ run_test
 (
 )
 {
+if
+(
+oldDownloadManagerDisabled
+(
+)
+)
+{
+return
+;
+}
 Services
 .
 prefs

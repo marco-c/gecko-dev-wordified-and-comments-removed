@@ -12,6 +12,16 @@ run_test
 (
 )
 {
+if
+(
+oldDownloadManagerDisabled
+(
+)
+)
+{
+return
+;
+}
 var
 caughtException
 =

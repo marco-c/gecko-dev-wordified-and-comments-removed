@@ -33,6 +33,16 @@ run_test
 (
 )
 {
+if
+(
+oldDownloadManagerDisabled
+(
+)
+)
+{
+return
+;
+}
 do_test_pending
 (
 )

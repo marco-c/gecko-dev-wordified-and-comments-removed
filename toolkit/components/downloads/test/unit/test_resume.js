@@ -54,6 +54,16 @@ run_test
 (
 )
 {
+if
+(
+oldDownloadManagerDisabled
+(
+)
+)
+{
+return
+;
+}
 var
 data
 =
