@@ -233,7 +233,6 @@ MOZ_MTLOG_MODULE
 mtransport
 "
 )
-;
 static
 bool
 initialized

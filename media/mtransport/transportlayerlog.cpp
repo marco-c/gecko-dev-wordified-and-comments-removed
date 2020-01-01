@@ -28,7 +28,6 @@ MOZ_MTLOG_MODULE
 mtransport
 "
 )
-;
 void
 TransportLayerLogging
 :
