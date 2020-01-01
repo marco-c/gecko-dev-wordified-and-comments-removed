@@ -8482,7 +8482,7 @@ if
 !
 InsertTextAtSelectionInternal
 (
-nsDependentString
+nsDependentSubstring
 (
 pchText
 cch
@@ -11705,7 +11705,7 @@ if
 !
 InsertTextAtSelectionInternal
 (
-nsDependentString
+nsDependentSubstring
 (
 pchText
 cch
