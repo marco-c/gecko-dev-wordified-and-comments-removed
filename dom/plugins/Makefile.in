@@ -582,6 +582,10 @@ ENABLE_CXX_EXCEPTIONS
 CPPSRCS
 =
 \
+PluginMessageUtils
+.
+cpp
+\
 PluginInstanceChild
 .
 cpp
