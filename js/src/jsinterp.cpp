@@ -14612,7 +14612,7 @@ JSObject
 *
 obj
 =
-js_CloneRegExpObject
+CloneRegExpObject
 (
 cx
 script

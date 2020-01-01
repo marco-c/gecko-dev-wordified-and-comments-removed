@@ -3305,10 +3305,6 @@ bumpAlloc_
 (
 NULL
 )
-reCache_
-(
-NULL
-)
 nativeStackBase
 (
 0
@@ -3893,12 +3889,6 @@ BumpPointerAllocator
 >
 (
 bumpAlloc_
-)
-;
-JS_ASSERT
-(
-!
-reCache_
 )
 ;
 #
@@ -31144,7 +31134,6 @@ ExecuteRegExp
 (
 cx
 res
-&
 reobj
 -
 >
@@ -31332,7 +31321,6 @@ ExecuteRegExp
 (
 cx
 NULL
-&
 obj
 -
 >

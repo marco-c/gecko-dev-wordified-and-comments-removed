@@ -14538,7 +14538,7 @@ JSObject
 *
 re2
 =
-js_CloneRegExpObject
+CloneRegExpObject
 (
 cx
 re1

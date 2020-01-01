@@ -196,9 +196,6 @@ class
 RegExpObject
 ;
 class
-RegExpMatcher
-;
-class
 RegExpObjectBuilder
 ;
 class
@@ -215,9 +212,6 @@ detail
 {
 class
 RegExpCode
-;
-class
-RegExpCacheValue
 ;
 }
 enum
