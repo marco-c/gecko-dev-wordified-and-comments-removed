@@ -729,7 +729,7 @@ BINPATH
 /
 components
 /
-dom_telephony_worker
+dom_system_b2g
 .
 xpt
 #
