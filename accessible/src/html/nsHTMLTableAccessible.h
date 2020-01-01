@@ -61,9 +61,6 @@ aExtraState
 class
 nsITableLayout
 ;
-#
-define
-SHOW_LAYOUT_HEURISTIC
 class
 nsHTMLTableAccessible
 :
