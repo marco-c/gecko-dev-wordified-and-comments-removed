@@ -7,13 +7,6 @@ frontend_BytecodeCompiler_h
 #
 include
 "
-jsapi
-.
-h
-"
-#
-include
-"
 NamespaceImports
 .
 h
