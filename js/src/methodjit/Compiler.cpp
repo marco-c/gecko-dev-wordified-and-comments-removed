@@ -25072,6 +25072,16 @@ canCallHook
 usePropCache
 &
 &
+JSOp
+(
+*
+PC
+)
+=
+=
+JSOP_GETPROP
+&
+&
 analysis
 -
 >
