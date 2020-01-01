@@ -515,6 +515,7 @@ nsPresContext
 GetPresContext
 (
 )
+const
 {
 return
 mPresContext
@@ -525,6 +526,7 @@ nsIViewManager
 GetViewManager
 (
 )
+const
 {
 return
 mViewManager
@@ -930,6 +932,7 @@ PRBool
 IsSafeToFlush
 (
 )
+const
 =
 0
 ;

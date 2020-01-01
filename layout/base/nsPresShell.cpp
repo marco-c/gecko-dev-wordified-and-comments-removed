@@ -2877,6 +2877,7 @@ PRBool
 IsSafeToFlush
 (
 )
+const
 ;
 virtual
 NS_HIDDEN_
@@ -19031,6 +19032,7 @@ PresShell
 IsSafeToFlush
 (
 )
+const
 {
 PRBool
 isSafeToFlush
