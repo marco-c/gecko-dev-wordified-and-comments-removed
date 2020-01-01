@@ -166,6 +166,13 @@ Fill
 )
 ;
 void
+FillWithOpacity
+(
+gfxFloat
+aOpacity
+)
+;
+void
 NewPath
 (
 )
