@@ -1479,6 +1479,13 @@ kTextAlignKTable
 static
 const
 PRInt32
+kTextAlignLastKTable
+[
+]
+;
+static
+const
+PRInt32
 kTextBlinkKTable
 [
 ]
