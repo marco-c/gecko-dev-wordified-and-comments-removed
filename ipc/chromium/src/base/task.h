@@ -1665,6 +1665,10 @@ Cancel
 (
 )
 {
+function_
+=
+NULL
+;
 }
 private
 :
