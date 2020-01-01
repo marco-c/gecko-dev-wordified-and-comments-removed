@@ -4062,8 +4062,6 @@ StyleChangeReflow
 nsIFrame
 *
 aFrame
-nsChangeHint
-aHint
 )
 ;
 nsIFrame
