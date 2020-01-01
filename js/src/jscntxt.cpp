@@ -8593,14 +8593,11 @@ false
 #
 ifdef
 JS_THREADSAFE
-else
-{
 JS_YieldRequest
 (
 cx
 )
 ;
-}
 #
 endif
 JSOperationCallback

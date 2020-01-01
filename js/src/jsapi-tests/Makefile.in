@@ -437,6 +437,10 @@ selfTest
 .
 cpp
 \
+testBug604087
+.
+cpp
+\
 testClassGetter
 .
 cpp
@@ -517,7 +521,7 @@ testSetPropertyWithNativeGetterStubSetter
 .
 cpp
 \
-testBug604087
+testThreadGC
 .
 cpp
 \
