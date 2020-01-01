@@ -98,13 +98,6 @@ h
 #
 include
 "
-nsIDOMNSEventTarget
-.
-h
-"
-#
-include
-"
 nsIDOMStyleSheetList
 .
 h
@@ -1624,8 +1617,6 @@ nsSupportsWeakReference
 public
 nsIDOM3EventTarget
 public
-nsIDOMNSEventTarget
-public
 nsIScriptObjectPrincipal
 public
 nsIRadioGroupContainer_MOZILLA_2_0_BRANCH
@@ -2690,7 +2681,6 @@ NS_DECL_NSIDOMXMLDOCUMENT
 NS_DECL_NSIDOMDOCUMENTXBL
 NS_DECL_NSIDOMEVENTTARGET
 NS_DECL_NSIDOM3EVENTTARGET
-NS_DECL_NSIDOMNSEVENTTARGET
 virtual
 nsIPrincipal
 *

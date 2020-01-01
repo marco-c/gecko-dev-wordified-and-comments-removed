@@ -1087,7 +1087,7 @@ events
 '
 nsIDOMEventTarget
 .
-dispatchEvent
+addEventListener
 '
 '
 nsIDOMEventTarget
@@ -1095,9 +1095,9 @@ nsIDOMEventTarget
 removeEventListener
 '
 '
-nsIDOMNSEventTarget
+nsIDOMEventTarget
 .
-addEventListener
+dispatchEvent
 '
 '
 nsIDOMEvent

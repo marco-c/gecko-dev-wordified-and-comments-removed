@@ -240,12 +240,6 @@ nsXHREventTarget
 :
 :
 )
-NS_FORWARD_NSIDOMNSEVENTTARGET
-(
-nsXHREventTarget
-:
-:
-)
 NS_IMETHOD
 Notify
 (

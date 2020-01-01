@@ -121,13 +121,6 @@ h
 #
 include
 "
-nsIDOMNSEventTarget
-.
-h
-"
-#
-include
-"
 nsIDOMNavigator
 .
 h
@@ -777,8 +770,6 @@ nsIDOMEventTarget
 public
 nsIDOM3EventTarget
 public
-nsIDOMNSEventTarget
-public
 nsIDOMStorageWindow
 public
 nsIDOMStorageIndexedDB
@@ -920,7 +911,6 @@ NS_DECL_NSIDOMWINDOWPERFORMANCE
 NS_DECL_NSIDOMJSWINDOW
 NS_DECL_NSIDOMEVENTTARGET
 NS_DECL_NSIDOM3EVENTTARGET
-NS_DECL_NSIDOMNSEVENTTARGET
 NS_DECL_NSIDOMWINDOW_2_0_BRANCH
 virtual
 NS_HIDDEN_

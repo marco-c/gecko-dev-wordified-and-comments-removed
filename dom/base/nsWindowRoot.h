@@ -39,13 +39,6 @@ h
 #
 include
 "
-nsIDOMNSEventTarget
-.
-h
-"
-#
-include
-"
 nsIEventListenerManager
 .
 h
@@ -77,8 +70,6 @@ nsWindowRoot
 public
 nsIDOM3EventTarget
 public
-nsIDOMNSEventTarget
-public
 nsPIWindowRoot
 {
 public
@@ -99,7 +90,6 @@ nsWindowRoot
 NS_DECL_CYCLE_COLLECTING_ISUPPORTS
 NS_DECL_NSIDOMEVENTTARGET
 NS_DECL_NSIDOM3EVENTTARGET
-NS_DECL_NSIDOMNSEVENTTARGET
 virtual
 nsPIDOMWindow
 *

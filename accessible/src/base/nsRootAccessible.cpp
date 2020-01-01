@@ -275,13 +275,6 @@ h
 #
 include
 "
-nsIDOMNSEventTarget
-.
-h
-"
-#
-include
-"
 nsIPrivateDOMEvent
 .
 h
@@ -900,7 +893,7 @@ AddEventListeners
 {
 nsCOMPtr
 <
-nsIDOMNSEventTarget
+nsIDOMEventTarget
 >
 nstarget
 (

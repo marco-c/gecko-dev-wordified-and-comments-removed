@@ -502,10 +502,6 @@ nsIDOMBeforeUnloadEvent
 .
 idl
 \
-nsIDOMNSEventTarget
-.
-idl
-\
 nsIDOMSmartCardEvent
 .
 idl
