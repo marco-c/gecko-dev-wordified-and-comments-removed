@@ -668,10 +668,10 @@ DEBUG
 define
 XPC_DETECT_LEADING_UPPERCASE_ACCESS_ERRORS
 #
+endif
+#
 define
 XPC_CHECK_WRAPPER_THREADSAFETY
-#
-endif
 #
 if
 defined
