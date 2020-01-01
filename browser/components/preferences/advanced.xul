@@ -2728,7 +2728,7 @@ label
 =
 "
 &
-enableAddonsUpdate
+enableAddonsUpdate2
 .
 label
 ;
@@ -2737,7 +2737,7 @@ accesskey
 =
 "
 &
-enableAddonsUpdate
+enableAddonsUpdate2
 .
 accesskey
 ;

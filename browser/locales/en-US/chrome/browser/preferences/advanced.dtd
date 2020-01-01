@@ -493,11 +493,10 @@ F
 <
 !
 ENTITY
-enableAddonsUpdate
+enableAddonsUpdate2
 .
 label
 "
-Installed
 Add
 -
 ons
@@ -506,7 +505,7 @@ ons
 <
 !
 ENTITY
-enableAddonsUpdate
+enableAddonsUpdate2
 .
 accesskey
 "
