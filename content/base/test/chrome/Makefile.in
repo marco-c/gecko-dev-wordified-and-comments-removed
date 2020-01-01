@@ -251,6 +251,10 @@ frame_bug814638
 .
 xul
 \
+test_bug914381
+.
+html
+\
 (
 NULL
 )
