@@ -339,6 +339,10 @@ SVGPointList
 .
 webidl
 \
+SVGPreserveAspectRatio
+.
+webidl
+\
 SVGTransform
 .
 webidl
