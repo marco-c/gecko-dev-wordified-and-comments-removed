@@ -147,10 +147,6 @@ nsAccessiblePivot
 .
 cpp
 \
-nsAccTreeWalker
-.
-cpp
-\
 nsEventShell
 .
 cpp
@@ -176,6 +172,10 @@ TextAttrs
 cpp
 \
 TextUpdater
+.
+cpp
+\
+TreeWalker
 .
 cpp
 \
