@@ -114,9 +114,6 @@ BOOL
 bClassExists
 )
 {
-#
-ifndef
-WINCE
 bClassExists
 =
 FALSE
@@ -321,8 +318,6 @@ TRUE
 ;
 }
 }
-#
-endif
 return
 FALSE
 ;
@@ -4046,9 +4041,6 @@ GetDC
 m_hWndParent
 )
 ;
-#
-ifndef
-WINCE
 :
 :
 SetMapMode
@@ -4057,8 +4049,6 @@ hdc
 MM_HIMETRIC
 )
 ;
-#
-endif
 POINT
 rgptConvert
 [
@@ -4114,9 +4104,6 @@ pPtlHimetric
 >
 y
 ;
-#
-ifndef
-WINCE
 :
 :
 LPtoDP
@@ -4126,8 +4113,6 @@ rgptConvert
 2
 )
 ;
-#
-endif
 if
 (
 dwFlags
@@ -4273,9 +4258,6 @@ pPtfContainer
 y
 )
 ;
-#
-ifndef
-WINCE
 :
 :
 DPtoLP
@@ -4285,8 +4267,6 @@ rgptConvert
 2
 )
 ;
-#
-endif
 if
 (
 dwFlags

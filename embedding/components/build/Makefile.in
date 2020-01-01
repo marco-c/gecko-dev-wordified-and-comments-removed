@@ -529,8 +529,6 @@ ifdef
 MOZ_XUL
 ifdef
 NS_PRINTING
-ifndef
-WINCE
 SHARED_LIBRARY_LIBS
 +
 =
@@ -554,7 +552,6 @@ LIB_SUFFIX
 (
 NULL
 )
-endif
 endif
 endif
 LOCAL_INCLUDES
@@ -697,13 +694,6 @@ printingui
 src
 /
 win
-ifneq
-(
-(
-OS_ARCH
-)
-WINCE
-)
 OS_LIBS
 +
 =
@@ -713,7 +703,6 @@ EXPAND_LIBNAME
 winspool
 comdlg32
 )
-endif
 endif
 ifeq
 (
