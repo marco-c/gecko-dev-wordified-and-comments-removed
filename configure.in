@@ -58099,6 +58099,10 @@ architectures
 ;
 esac
 fi
+AC_SUBST
+(
+MOZ_THUMB2
+)
 dnl
 =
 =
