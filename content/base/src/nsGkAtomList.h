@@ -2081,13 +2081,6 @@ end_before
 )
 GK_ATOM
 (
-endsInDiacritic
-"
-EndsInDiacritic
-"
-)
-GK_ATOM
-(
 equalsize
 "
 equalsize
