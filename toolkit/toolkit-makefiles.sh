@@ -2493,11 +2493,6 @@ test
 Makefile
 netwerk
 /
-testserver
-/
-Makefile
-netwerk
-/
 locales
 /
 Makefile
