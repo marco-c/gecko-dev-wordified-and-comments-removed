@@ -1722,10 +1722,7 @@ return
 NS_OK
 ;
 }
-NS_IMETHODIMP_
-(
-void
-)
+NS_IMETHODIMP
 nsImageLoadingContent
 :
 :
@@ -1803,11 +1800,11 @@ mPendingRequestRegistered
 )
 ;
 }
+return
+NS_OK
+;
 }
-NS_IMETHODIMP_
-(
-void
-)
+NS_IMETHODIMP
 nsImageLoadingContent
 :
 :
@@ -1867,6 +1864,9 @@ mPendingRequestRegistered
 )
 ;
 }
+return
+NS_OK
+;
 }
 NS_IMETHODIMP
 nsImageLoadingContent

@@ -1080,9 +1080,6 @@ created
 .
 *
 /
-[
-notxpcom
-]
 void
 frameCreated
 (
@@ -1113,9 +1110,6 @@ destroyed
 .
 *
 /
-[
-notxpcom
-]
 void
 frameDestroyed
 (
