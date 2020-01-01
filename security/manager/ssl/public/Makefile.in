@@ -636,10 +636,6 @@ nsISMimeCert
 .
 idl
 \
-nsICipherInfo
-.
-idl
-\
 nsIStreamCipher
 .
 idl
