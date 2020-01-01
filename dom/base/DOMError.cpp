@@ -23,13 +23,6 @@ h
 #
 include
 "
-nsContentUtils
-.
-h
-"
-#
-include
-"
 nsDOMException
 .
 h

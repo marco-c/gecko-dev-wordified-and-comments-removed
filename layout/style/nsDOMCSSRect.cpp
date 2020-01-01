@@ -19,13 +19,6 @@ h
 #
 include
 "
-nsContentUtils
-.
-h
-"
-#
-include
-"
 nsDOMCSSRect
 .
 h

@@ -42,13 +42,6 @@ nsError
 .
 h
 "
-#
-include
-"
-nsContentUtils
-.
-h
-"
 using
 namespace
 mozilla

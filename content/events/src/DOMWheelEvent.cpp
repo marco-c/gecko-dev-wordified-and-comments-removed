@@ -22,13 +22,6 @@ h
 #
 include
 "
-nsContentUtils
-.
-h
-"
-#
-include
-"
 prtime
 .
 h

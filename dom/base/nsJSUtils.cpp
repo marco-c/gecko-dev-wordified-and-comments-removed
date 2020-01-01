@@ -22,13 +22,6 @@ h
 #
 include
 "
-prprf
-.
-h
-"
-#
-include
-"
 nsIScriptContext
 .
 h
@@ -86,13 +79,6 @@ h
 include
 "
 nsDOMJSUtils
-.
-h
-"
-#
-include
-"
-nsContentUtils
 .
 h
 "

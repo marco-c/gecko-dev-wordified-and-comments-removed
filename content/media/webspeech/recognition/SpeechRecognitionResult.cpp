@@ -1,13 +1,6 @@
 #
 include
 "
-nsContentUtils
-.
-h
-"
-#
-include
-"
 SpeechRecognitionResult
 .
 h

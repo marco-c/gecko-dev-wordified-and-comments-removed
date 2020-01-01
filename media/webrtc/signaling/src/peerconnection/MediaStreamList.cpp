@@ -36,13 +36,6 @@ MediaStreamListBinding
 h
 "
 #
-include
-"
-nsContentUtils
-.
-h
-"
-#
 endif
 #
 include

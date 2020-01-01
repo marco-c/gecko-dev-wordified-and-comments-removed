@@ -27,13 +27,6 @@ nsCycleCollectionParticipant
 .
 h
 "
-#
-include
-"
-nsContentUtils
-.
-h
-"
 namespace
 mozilla
 {

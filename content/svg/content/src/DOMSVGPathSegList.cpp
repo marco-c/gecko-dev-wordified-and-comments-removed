@@ -65,13 +65,6 @@ SVGPathSegListBinding
 .
 h
 "
-#
-include
-"
-nsContentUtils
-.
-h
-"
 namespace
 mozilla
 {

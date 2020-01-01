@@ -24,13 +24,6 @@ h
 #
 include
 "
-nsContentUtils
-.
-h
-"
-#
-include
-"
 mozIApplication
 .
 h

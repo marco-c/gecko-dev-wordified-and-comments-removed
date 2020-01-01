@@ -6,13 +6,6 @@ SourceBuffer
 h
 "
 #
-include
-"
-nsContentUtils
-.
-h
-"
-#
 ifdef
 PR_LOGGING
 extern

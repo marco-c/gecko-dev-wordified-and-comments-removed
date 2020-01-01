@@ -36,13 +36,6 @@ h
 #
 include
 "
-nsContentUtils
-.
-h
-"
-#
-include
-"
 nsStyleUtil
 .
 h

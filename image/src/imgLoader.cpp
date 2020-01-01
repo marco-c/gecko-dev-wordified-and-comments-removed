@@ -263,13 +263,6 @@ nsILoadGroupChild
 .
 h
 "
-#
-include
-"
-nsContentUtils
-.
-h
-"
 using
 namespace
 mozilla

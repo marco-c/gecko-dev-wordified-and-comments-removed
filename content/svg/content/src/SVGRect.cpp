@@ -12,13 +12,6 @@ h
 #
 include
 "
-nsContentUtils
-.
-h
-"
-#
-include
-"
 nsSVGElement
 .
 h

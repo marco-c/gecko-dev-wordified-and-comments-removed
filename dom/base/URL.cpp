@@ -54,13 +54,6 @@ h
 #
 include
 "
-nsContentUtils
-.
-h
-"
-#
-include
-"
 nsHostObjectProtocolHandler
 .
 h

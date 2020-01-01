@@ -37,13 +37,6 @@ h
 #
 include
 "
-nsContentUtils
-.
-h
-"
-#
-include
-"
 nsPluginArray
 .
 h
