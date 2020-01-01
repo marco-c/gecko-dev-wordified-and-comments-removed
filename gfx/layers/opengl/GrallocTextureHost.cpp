@@ -600,7 +600,6 @@ GetFormat
 (
 )
 const
-MOZ_OVERRIDE
 {
 if
 (

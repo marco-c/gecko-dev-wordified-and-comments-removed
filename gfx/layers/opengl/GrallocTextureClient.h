@@ -250,6 +250,8 @@ gfx
 :
 IntSize
 aCbCrSize
+StereoMode
+aStereoMode
 )
 MOZ_OVERRIDE
 ;
