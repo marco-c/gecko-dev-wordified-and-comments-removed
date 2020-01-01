@@ -4816,10 +4816,7 @@ HOST_OS_ARCH
 (
 OS_ARCH
 )
-(
-OS_TARGET
-)
-1LinuxLinuxLinux
+1LinuxLinux
 )
 ifneq
 (
