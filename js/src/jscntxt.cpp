@@ -5092,6 +5092,7 @@ last
 js_GC
 (
 cx
+NULL
 GC_LAST_CONTEXT
 )
 ;
@@ -5138,6 +5139,7 @@ JSDCM_FORCE_GC
 js_GC
 (
 cx
+NULL
 GC_NORMAL
 )
 ;
@@ -8399,6 +8401,10 @@ gcIsNeeded
 js_GC
 (
 cx
+rt
+-
+>
+gcTriggerCompartment
 GC_NORMAL
 )
 ;

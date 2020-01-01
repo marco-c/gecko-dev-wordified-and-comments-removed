@@ -1576,6 +1576,9 @@ nukeScriptDependentICs
 void
 sweepCallICs
 (
+JSContext
+*
+cx
 bool
 purgeAll
 )

@@ -3306,8 +3306,16 @@ int64
 gcJitReleaseTime
 ;
 volatile
-JSBool
+bool
 gcIsNeeded
+;
+JSCompartment
+*
+gcTriggerCompartment
+;
+JSCompartment
+*
+gcCurrentCompartment
 ;
 bool
 gcPoke

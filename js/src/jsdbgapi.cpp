@@ -3233,6 +3233,7 @@ if
 (
 IsAboutToBeFinalized
 (
+cx
 wp
 -
 >

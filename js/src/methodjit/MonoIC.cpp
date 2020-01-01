@@ -6129,6 +6129,9 @@ JITScript
 :
 sweepCallICs
 (
+JSContext
+*
+cx
 bool
 purgeAll
 )
@@ -6181,6 +6184,7 @@ purgeAll
 |
 IsAboutToBeFinalized
 (
+cx
 ic
 .
 fastGuardedObject
@@ -6201,6 +6205,7 @@ purgeAll
 |
 IsAboutToBeFinalized
 (
+cx
 ic
 .
 fastGuardedNative
@@ -6492,6 +6497,9 @@ ic
 :
 SweepCallICs
 (
+JSContext
+*
+cx
 JSScript
 *
 script
@@ -6514,6 +6522,7 @@ jitNormal
 >
 sweepCallICs
 (
+cx
 purgeAll
 )
 ;
@@ -6532,6 +6541,7 @@ jitCtor
 >
 sweepCallICs
 (
+cx
 purgeAll
 )
 ;

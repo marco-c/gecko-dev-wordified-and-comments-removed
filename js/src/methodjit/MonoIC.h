@@ -834,6 +834,9 @@ script
 void
 SweepCallICs
 (
+JSContext
+*
+cx
 JSScript
 *
 script
