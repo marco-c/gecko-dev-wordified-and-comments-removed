@@ -1082,8 +1082,13 @@ AndroidGeckoSurfaceView
 surfaceView
 )
 ;
-EGLSurface
+void
 RegisterCompositor
+(
+)
+;
+EGLSurface
+ProvideEGLSurface
 (
 )
 ;

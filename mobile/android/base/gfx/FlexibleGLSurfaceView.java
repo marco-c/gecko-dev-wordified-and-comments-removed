@@ -570,6 +570,12 @@ compositionResumeRequested
 (
 )
 ;
+mListener
+.
+renderRequested
+(
+)
+;
 }
 }
 public
