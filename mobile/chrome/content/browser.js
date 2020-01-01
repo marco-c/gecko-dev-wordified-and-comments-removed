@@ -54,6 +54,15 @@ kBrowserViewZoomLevelPrecision
 =
 10000
 ;
+const
+kDefaultMetadata
+=
+{
+allowZoom
+:
+true
+}
+;
 window
 .
 sizeToContent
@@ -12148,8 +12157,7 @@ this
 metaData
 |
 |
-{
-}
+kDefaultMetadata
 ;
 if
 (
