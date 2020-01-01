@@ -233,6 +233,9 @@ class
 MediaError
 ;
 class
+MediaSource
+;
+class
 HTMLMediaElement
 :
 public
@@ -863,6 +866,14 @@ SetRequestHeaders
 nsIHttpChannel
 *
 aChannel
+)
+;
+void
+RunInStableState
+(
+nsIRunnable
+*
+aRunnable
 )
 ;
 virtual
@@ -2065,6 +2076,12 @@ nsRefPtr
 StreamListener
 >
 mSrcStreamListener
+;
+nsRefPtr
+<
+MediaSource
+>
+mMediaSource
 ;
 nsCOMPtr
 <

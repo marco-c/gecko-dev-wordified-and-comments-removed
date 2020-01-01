@@ -784,6 +784,10 @@ test_texttrack
 .
 html
 \
+test_texttrackcue
+.
+html
+\
 test_timeupdate_small_files
 .
 html
@@ -1426,6 +1430,10 @@ mp3
 id3tags
 .
 mp3
+\
+basic
+.
+vtt
 \
 (
 NULL
