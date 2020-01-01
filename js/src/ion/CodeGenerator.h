@@ -455,14 +455,6 @@ lir
 )
 ;
 bool
-visitExcludeType
-(
-LExcludeType
-*
-lir
-)
-;
-bool
 visitCallNative
 (
 LCallNative
