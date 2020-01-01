@@ -1135,14 +1135,6 @@ true
 )
 ;
 void
-ensureFullRegs
-(
-FrameEntry
-*
-fe
-)
-;
-void
 allocForSameBinary
 (
 FrameEntry
@@ -1777,8 +1769,7 @@ Assembler
 masm
 Registers
 avail
-FrameEntry
-*
+uint32
 resumeAt
 FrameEntry
 *
@@ -1886,7 +1877,6 @@ FrameEntry
 *
 fe
 )
-const
 {
 return
 uint32
