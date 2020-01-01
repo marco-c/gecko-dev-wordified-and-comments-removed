@@ -2851,7 +2851,7 @@ mozilla
 dom
 :
 :
-binding
+oldproxybindings
 :
 :
 FileList

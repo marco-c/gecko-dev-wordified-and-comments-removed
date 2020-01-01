@@ -260,7 +260,7 @@ mozilla
 dom
 :
 :
-binding
+oldproxybindings
 :
 :
 SVGTransformList

@@ -39,7 +39,7 @@ namespace
 dom
 {
 namespace
-binding
+oldproxybindings
 {
 class
 ProxyHandler

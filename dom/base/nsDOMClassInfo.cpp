@@ -3292,6 +3292,17 @@ nsICanvasRenderingContextInternal
 .
 h
 "
+#
+include
+"
+mozilla
+/
+dom
+/
+BindingUtils
+.
+h
+"
 using
 namespace
 mozilla
@@ -16041,9 +16052,6 @@ mozilla
 dom
 :
 :
-binding
-:
-:
 Register
 (
 nameSpaceManager
@@ -16053,6 +16061,9 @@ mozilla
 :
 :
 dom
+:
+:
+oldproxybindings
 :
 :
 Register
@@ -25978,9 +25989,6 @@ mozilla
 dom
 :
 :
-binding
-:
-:
 DefineInterface
 define
 =
@@ -26026,9 +26034,6 @@ mozilla
 :
 :
 dom
-:
-:
-binding
 :
 :
 DefineConstructor
@@ -34302,7 +34307,7 @@ mozilla
 dom
 :
 :
-binding
+oldproxybindings
 :
 :
 HTMLCollection
@@ -34324,7 +34329,7 @@ mozilla
 dom
 :
 :
-binding
+oldproxybindings
 :
 :
 HTMLCollection

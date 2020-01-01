@@ -263,7 +263,7 @@ mozilla
 dom
 :
 :
-binding
+oldproxybindings
 :
 :
 SVGNumberList

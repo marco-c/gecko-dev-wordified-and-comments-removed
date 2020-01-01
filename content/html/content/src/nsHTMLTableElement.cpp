@@ -219,7 +219,7 @@ mozilla
 dom
 :
 :
-binding
+oldproxybindings
 :
 :
 HTMLCollection

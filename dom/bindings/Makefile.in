@@ -272,6 +272,10 @@ BindingUtils
 .
 cpp
 \
+DOMJSProxyHandler
+.
+cpp
+\
 (
 NULL
 )
@@ -302,6 +306,10 @@ BindingUtils
 h
 \
 DOMJSClass
+.
+h
+\
+DOMJSProxyHandler
 .
 h
 \
