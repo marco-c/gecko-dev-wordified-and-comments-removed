@@ -651,7 +651,7 @@ bytesToAlloc
 +
 +
 ;
-NS_ASSERTION
+MOZ_ASSERT
 (
 (
 bytesToAlloc
@@ -778,7 +778,7 @@ Header
 /
 elemSize
 ;
-NS_ASSERTION
+MOZ_ASSERT
 (
 newCapacity
 >
@@ -940,7 +940,7 @@ length
 0
 )
 {
-NS_ASSERTION
+MOZ_ASSERT
 (
 !
 IsAutoArray
@@ -1186,7 +1186,7 @@ size_t
 elemAlign
 )
 {
-NS_ASSERTION
+MOZ_ASSERT
 (
 index
 <
