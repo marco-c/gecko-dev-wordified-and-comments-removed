@@ -1,3 +1,13 @@
+if
+(
+typeof
+schedulegc
+!
+=
+'
+undefined
+'
+)
 schedulegc
 (
 11

@@ -1822,7 +1822,7 @@ JSOP_INCNAME
 incname
 "
 NULL
-3
+4
 0
 1
 15
@@ -1844,7 +1844,7 @@ JSOP_INCPROP
 incprop
 "
 NULL
-3
+4
 1
 1
 15
@@ -1866,7 +1866,7 @@ JSOP_INCELEM
 incelem
 "
 NULL
-1
+2
 2
 1
 15
@@ -1888,7 +1888,7 @@ JSOP_DECNAME
 decname
 "
 NULL
-3
+4
 0
 1
 15
@@ -1910,7 +1910,7 @@ JSOP_DECPROP
 decprop
 "
 NULL
-3
+4
 1
 1
 15
@@ -1932,7 +1932,7 @@ JSOP_DECELEM
 decelem
 "
 NULL
-1
+2
 2
 1
 15
@@ -1954,7 +1954,7 @@ JSOP_NAMEINC
 nameinc
 "
 NULL
-3
+4
 0
 1
 15
@@ -1978,7 +1978,7 @@ JSOP_PROPINC
 propinc
 "
 NULL
-3
+4
 1
 1
 15
@@ -2002,7 +2002,7 @@ JSOP_ELEMINC
 eleminc
 "
 NULL
-1
+2
 2
 1
 15
@@ -2026,7 +2026,7 @@ JSOP_NAMEDEC
 namedec
 "
 NULL
-3
+4
 0
 1
 15
@@ -2050,7 +2050,7 @@ JSOP_PROPDEC
 propdec
 "
 NULL
-3
+4
 1
 1
 15
@@ -2074,7 +2074,7 @@ JSOP_ELEMDEC
 elemdec
 "
 NULL
-1
+2
 2
 1
 15
@@ -4717,7 +4717,7 @@ JSOP_INCGNAME
 incgname
 "
 NULL
-3
+4
 0
 1
 15
@@ -4741,7 +4741,7 @@ JSOP_DECGNAME
 decgname
 "
 NULL
-3
+4
 0
 1
 15
@@ -4765,7 +4765,7 @@ JSOP_GNAMEINC
 gnameinc
 "
 NULL
-3
+4
 0
 1
 15
@@ -4791,7 +4791,7 @@ JSOP_GNAMEDEC
 gnamedec
 "
 NULL
-3
+4
 0
 1
 15

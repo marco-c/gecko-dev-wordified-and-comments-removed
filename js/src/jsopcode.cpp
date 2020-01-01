@@ -25137,7 +25137,11 @@ pc
 =
 GetDecomposeLength
 (
-op
+pc
+cs
+-
+>
+length
 )
 ;
 pc

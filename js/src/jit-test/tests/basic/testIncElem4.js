@@ -48,9 +48,3 @@ y
 x
 ]
 ;
-assertEq
-(
-counter
-50
-)
-;
