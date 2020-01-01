@@ -126,6 +126,11 @@ nsCanvasFrame
 h
 '
 '
+nsDirection
+.
+h
+'
+'
 nsFrameIdList
 .
 h

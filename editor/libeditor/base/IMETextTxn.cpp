@@ -66,6 +66,13 @@ h
 #
 include
 "
+nsIContent
+.
+h
+"
+#
+include
+"
 nsIEditor
 .
 h
