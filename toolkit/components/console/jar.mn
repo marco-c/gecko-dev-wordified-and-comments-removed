@@ -64,17 +64,3 @@ consoleBindings
 .
 xml
 )
-content
-/
-global
-/
-blank
-.
-html
-(
-content
-/
-blank
-.
-html
-)
