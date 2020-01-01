@@ -605,6 +605,17 @@ JSObject
 obj
 )
 ;
+jsval
+js_GetDenseArrayElementValue
+(
+JSObject
+*
+obj
+JSProperty
+*
+prop
+)
+;
 JS_END_EXTERN_C
 #
 endif
