@@ -1852,6 +1852,12 @@ aCopy
 .
 mSheetURI
 )
+mOriginalSheetURI
+(
+aCopy
+.
+mOriginalSheetURI
+)
 mBaseURI
 (
 aCopy

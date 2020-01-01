@@ -611,6 +611,10 @@ test_bug397427
 .
 html
 \
+test_bug405818
+.
+html
+\
 test_compute_data_with_start_struct
 .
 html
