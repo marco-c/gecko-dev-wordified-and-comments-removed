@@ -66,6 +66,7 @@ sys
 logging
 time
 traceback
+re
 from
 optparse
 import
@@ -106,6 +107,27 @@ make
 py
 '
 )
+)
+_simpleopts
+=
+re
+.
+compile
+(
+r
+'
+^
+[
+a
+-
+zA
+-
+Z
+]
++
+\
+s
+'
 )
 def
 parsemakeflags
@@ -171,18 +193,11 @@ return
 ]
     
 if
-makeflags
-[
-0
-]
-not
-in
+_simpleopts
+.
+match
 (
-'
--
-'
-'
-'
+makeflags
 )
 :
         
@@ -636,6 +651,38 @@ add_option
 (
 '
 -
+k
+'
+'
+-
+-
+keep
+-
+going
+'
+                      
+action
+=
+"
+store_true
+"
+                      
+dest
+=
+"
+keepgoing
+"
+default
+=
+False
+)
+        
+op
+.
+add_option
+(
+'
+-
 -
 debug
 -
@@ -822,6 +869,22 @@ longflags
 [
 ]
         
+if
+options
+.
+keepgoing
+:
+            
+shortflags
+.
+append
+(
+'
+k
+'
+)
+;
+        
 loglevel
 =
 logging
@@ -920,11 +983,12 @@ options
 directory
 )
         
-shortflags
+longflags
 .
 append
 (
 '
+-
 j
 %
 i
@@ -1098,29 +1162,30 @@ makefile
 realtargets
 tstack
 i
-firsterror
 )
 :
             
+assert
+error
+in
+(
+True
+False
+)
+            
 if
 error
-is
-not
-None
 :
                 
-print
-error
+context
+.
+defer
+(
+cb
+2
+)
                 
-if
-firsterror
-is
-None
-:
-                    
-firsterror
-=
-error
+return
             
 if
 i
@@ -1174,10 +1239,6 @@ context
 defer
 (
 cb
-firsterror
-and
-2
-or
 0
 )
             
@@ -1206,9 +1267,6 @@ i
 i
 +
 1
-firsterror
-=
-firsterror
 )
                 
 makefile
@@ -1225,8 +1283,6 @@ make
 (
 makefile
 tstack
-[
-]
 cb
 =
 deferredmake
@@ -1338,6 +1394,12 @@ env
 targets
 =
 targets
+                                         
+keepgoing
+=
+options
+.
+keepgoing
 )
                 
 try
@@ -1529,9 +1591,6 @@ tstack
 i
 =
 1
-firsterror
-=
-None
 )
             
 makefile
@@ -1548,8 +1607,6 @@ make
 (
 makefile
 tstack
-[
-]
 cb
 =
 deferredmake
