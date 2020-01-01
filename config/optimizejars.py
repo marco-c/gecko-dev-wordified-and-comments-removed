@@ -1978,6 +1978,14 @@ len
 cdir_data
 )
     
+dirend
+.
+disk_entries
+=
+dirend
+.
+cdir_entries
+    
 dirend_data
 =
 dirend
