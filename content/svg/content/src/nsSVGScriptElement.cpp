@@ -230,7 +230,7 @@ nsIAtom
 *
 aName
 const
-nsAString
+nsAttrValue
 *
 aValue
 bool
@@ -818,7 +818,7 @@ nsIAtom
 *
 aName
 const
-nsAString
+nsAttrValue
 *
 aValue
 bool

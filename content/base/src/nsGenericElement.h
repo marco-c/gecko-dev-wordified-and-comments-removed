@@ -2081,10 +2081,8 @@ bool
 aFireMutation
 bool
 aNotify
-const
-nsAString
-*
-aValueForAfterSetAttr
+bool
+aCallAfterSetAttr
 )
 ;
 virtual
@@ -2154,7 +2152,7 @@ nsIAtom
 *
 aName
 const
-nsAString
+nsAttrValue
 *
 aValue
 bool
