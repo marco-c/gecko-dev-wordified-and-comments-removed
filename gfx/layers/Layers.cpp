@@ -2648,6 +2648,7 @@ GetEffectiveClipRect
 ;
 if
 (
+(
 clipRect
 &
 &
@@ -2669,6 +2670,15 @@ GetVisibleRegion
 )
 .
 IsEmpty
+(
+)
+)
+|
+|
+child
+-
+>
+GetMaskLayer
 (
 )
 )
