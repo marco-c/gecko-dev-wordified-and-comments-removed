@@ -316,13 +316,11 @@ Type
 )
 const
 ;
-already_AddRefed
-<
 dom
 :
 :
 SVGMatrix
->
+*
 Matrix
 (
 )
