@@ -149,7 +149,7 @@ offset
 gc
 :
 :
-MarkThingOrValue
+MarkThingOrValueUnbarriered
 (
 trc
 reinterpret_cast

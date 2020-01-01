@@ -421,7 +421,7 @@ name
 )
 ;
 void
-MarkThingOrValue
+MarkThingOrValueUnbarriered
 (
 JSTracer
 *
