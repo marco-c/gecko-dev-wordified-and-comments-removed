@@ -917,7 +917,7 @@ return
 result
 ;
 }
-enumerateOwn
+keys
 :
 function
 (

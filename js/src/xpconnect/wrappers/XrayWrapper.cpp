@@ -3911,7 +3911,7 @@ Policy
 >
 :
 :
-enumerateOwn
+keys
 (
 JSContext
 *
@@ -3931,7 +3931,7 @@ return
 JSProxyHandler
 :
 :
-enumerateOwn
+keys
 (
 cx
 wrapper

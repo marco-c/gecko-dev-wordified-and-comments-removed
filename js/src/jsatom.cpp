@@ -532,7 +532,7 @@ has
 hasOwn
 "
 "
-enumerateOwn
+keys
 "
 "
 iterate

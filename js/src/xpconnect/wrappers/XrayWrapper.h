@@ -299,7 +299,7 @@ bp
 ;
 virtual
 bool
-enumerateOwn
+keys
 (
 JSContext
 *

@@ -441,7 +441,7 @@ Policy
 >
 :
 :
-enumerateOwn
+keys
 (
 JSContext
 *
@@ -458,7 +458,7 @@ return
 Base
 :
 :
-enumerateOwn
+keys
 (
 cx
 wrapper

@@ -936,7 +936,7 @@ bool
 JSWrapper
 :
 :
-enumerateOwn
+keys
 (
 JSContext
 *
@@ -2481,7 +2481,7 @@ bool
 JSCrossCompartmentWrapper
 :
 :
-enumerateOwn
+keys
 (
 JSContext
 *
@@ -2503,7 +2503,7 @@ NOTHING
 JSWrapper
 :
 :
-enumerateOwn
+keys
 (
 cx
 wrapper
