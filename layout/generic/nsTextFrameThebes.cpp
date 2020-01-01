@@ -15332,13 +15332,13 @@ StyleSet
 )
 -
 >
-ProbePseudoStyleFor
+ProbePseudoElementStyle
 (
 selectionContent
 nsCSSPseudoElements
 :
 :
-mozSelection
+ePseudo_mozSelection
 mFrame
 -
 >
