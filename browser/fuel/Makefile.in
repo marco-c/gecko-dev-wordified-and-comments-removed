@@ -154,6 +154,7 @@ Original
 Code
 is
 Mozilla
+Corporation
 .
 #
 Portions
@@ -423,6 +424,13 @@ DIRS
 =
 public
 src
+ifdef
+MOZ_MOCHITEST
+DIRS
++
+=
+test
+endif
 include
 (
 topsrcdir
