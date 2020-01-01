@@ -277,7 +277,7 @@ public
 static
 final
 int
-PAINT_BEFORE_FIRST
+PAINT_START
 =
 0
 ;
@@ -285,9 +285,17 @@ public
 static
 final
 int
-PAINT_AFTER_FIRST
+PAINT_BEFORE_FIRST
 =
 1
+;
+public
+static
+final
+int
+PAINT_AFTER_FIRST
+=
+2
 ;
 public
 boolean
@@ -324,7 +332,7 @@ this
 ;
 mPaintState
 =
-PAINT_BEFORE_FIRST
+PAINT_START
 ;
 mCheckerboardColor
 =
