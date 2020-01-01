@@ -688,9 +688,12 @@ DIST
 /
 bin
 /
-firefox
-.
-exe
+(
+MOZ_APP_NAME
+)
+(
+BIN_SUFFIX
+)
 (
 DIST
 )
