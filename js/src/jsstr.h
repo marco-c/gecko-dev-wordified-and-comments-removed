@@ -1231,15 +1231,6 @@ ptr
 )
 ;
 }
-#
-ifdef
-__SUNPRO_CC
-static
-JSInt64
-dummy
-;
-#
-endif
 static
 JSString
 unitStringTable
