@@ -757,7 +757,7 @@ IndexOf
 (
 aWindow
 )
-!
+=
 =
 NoIndex
 )
