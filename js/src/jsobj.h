@@ -851,6 +851,10 @@ nanojit
 :
 ValidateWriter
 ;
+friend
+class
+GetPropCompiler
+;
 union
 {
 js
