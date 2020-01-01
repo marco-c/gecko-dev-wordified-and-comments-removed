@@ -864,12 +864,12 @@ mOpenBlocked
 1
 ;
 PRUint32
-mOpenStarted
+mOpenRunning
 :
 1
 ;
 PRUint32
-mOpenRunning
+mChannelWasOpened
 :
 1
 ;
