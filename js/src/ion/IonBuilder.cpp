@@ -5016,7 +5016,7 @@ pop
 (
 )
 ;
-MBinaryBitInstruction
+MBinaryBitwiseInstruction
 *
 ins
 ;
