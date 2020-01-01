@@ -3277,6 +3277,12 @@ line
 &
 line
 ;
+data
+.
+lineContainer
+=
+curFrame
+;
 nsIFrame
 *
 kid
@@ -3729,6 +3735,12 @@ line
 =
 &
 line
+;
+data
+.
+lineContainer
+=
+curFrame
 ;
 nsIFrame
 *
