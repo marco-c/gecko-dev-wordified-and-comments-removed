@@ -501,6 +501,10 @@ browser_webconsole_consoleonpage
 .
 js
 \
+browser_webconsole_bug_587617_output_copy
+.
+js
+\
 (
 NULL
 )
