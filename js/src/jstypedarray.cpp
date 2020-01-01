@@ -3747,9 +3747,14 @@ if
 !
 nobj
 )
+{
+delete
+ntarray
+;
 return
 false
 ;
+}
 makeFastWithPrivate
 (
 cx
