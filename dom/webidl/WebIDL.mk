@@ -307,6 +307,10 @@ HTMLOptionsCollection
 .
 webidl
 \
+HTMLParagraphElement
+.
+webidl
+\
 HTMLPropertiesCollection
 .
 webidl
