@@ -943,6 +943,16 @@ INSTALL
 (
 _DEST_DIR
 )
+#
+XXX
+:
+need
+to
+fix
+bug
+447642
+ifdef
+ENABLE_TESTS
 libs
 :
 :
@@ -965,3 +975,4 @@ py
 gen
 -
 server
+endif
