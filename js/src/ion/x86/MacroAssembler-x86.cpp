@@ -81,13 +81,6 @@ return
 stackForArgs
 ;
 }
-static
-const
-uint32
-StackAlignment
-=
-16
-;
 void
 MacroAssemblerX86
 :

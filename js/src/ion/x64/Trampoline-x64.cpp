@@ -2077,6 +2077,12 @@ MoveOperand
 ;
 JS_ASSERT
 (
+!
+StackKeptAligned
+)
+;
+JS_ASSERT
+(
 functionWrappers_
 )
 ;
