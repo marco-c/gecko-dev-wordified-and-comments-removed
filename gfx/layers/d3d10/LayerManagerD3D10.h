@@ -317,7 +317,7 @@ const
 {
 return
 "
-D3D9
+D3D10
 "
 ;
 }
