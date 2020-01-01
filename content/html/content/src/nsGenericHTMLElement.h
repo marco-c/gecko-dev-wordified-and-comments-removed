@@ -53,6 +53,13 @@ nsGkAtoms
 .
 h
 "
+#
+include
+"
+nsContentCreatorFunctions
+.
+h
+"
 class
 nsIDOMAttr
 ;
@@ -2067,6 +2074,8 @@ already_AddRefed
 nsINodeInfo
 >
 aNodeInfo
+PRUint32
+aFromParser
 )
 :
 nsGenericHTMLElement
@@ -2074,6 +2083,13 @@ nsGenericHTMLElement
 aNodeInfo
 )
 {
+mNetworkCreated
+=
+aFromParser
+=
+=
+NS_FROM_PARSER_NETWORK
+;
 }
 virtual
 ~
@@ -2247,6 +2263,9 @@ nsRefPtr
 nsFrameLoader
 >
 mFrameLoader
+;
+PRPackedBool
+mNetworkCreated
 ;
 }
 ;

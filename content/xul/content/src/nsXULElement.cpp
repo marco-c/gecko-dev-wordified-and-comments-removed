@@ -8459,6 +8459,7 @@ nsFrameLoader
 Create
 (
 this
+PR_FALSE
 )
 ;
 NS_ENSURE_TRUE

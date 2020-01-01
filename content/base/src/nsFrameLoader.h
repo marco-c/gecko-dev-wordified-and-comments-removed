@@ -150,6 +150,8 @@ nsFrameLoader
 nsIContent
 *
 aOwner
+PRBool
+aNetworkCreated
 )
 :
 mOwnerContent
@@ -183,6 +185,10 @@ PR_FALSE
 mHideCalled
 (
 PR_FALSE
+)
+mNetworkCreated
+(
+aNetworkCreated
 )
 #
 ifdef
@@ -265,6 +271,8 @@ Create
 nsIContent
 *
 aOwner
+PRBool
+aNetworkCreated
 )
 ;
 NS_DECL_CYCLE_COLLECTING_ISUPPORTS
@@ -592,6 +600,11 @@ mInShow
 ;
 PRPackedBool
 mHideCalled
+:
+1
+;
+PRPackedBool
+mNetworkCreated
 :
 1
 ;

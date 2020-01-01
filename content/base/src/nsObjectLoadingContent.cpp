@@ -2104,6 +2104,10 @@ mSuppressed
 (
 PR_FALSE
 )
+mNetworkCreated
+(
+PR_TRUE
+)
 mFallbackReason
 (
 ePluginOtherState
@@ -2723,6 +2727,7 @@ nsFrameLoader
 Create
 (
 thisContent
+mNetworkCreated
 )
 ;
 if
@@ -5342,6 +5347,7 @@ nsFrameLoader
 Create
 (
 thisContent
+mNetworkCreated
 )
 ;
 if
@@ -8640,6 +8646,7 @@ nsFrameLoader
 Create
 (
 content
+PR_FALSE
 )
 ;
 if

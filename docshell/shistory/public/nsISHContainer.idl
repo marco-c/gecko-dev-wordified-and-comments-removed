@@ -523,7 +523,12 @@ new
 child
 SHEntry
 .
-Adds
+If
+offset
+is
+-
+1
+adds
 to
 the
 end

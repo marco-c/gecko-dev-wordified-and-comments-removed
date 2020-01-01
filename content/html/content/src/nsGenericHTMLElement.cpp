@@ -12593,6 +12593,7 @@ nsFrameLoader
 Create
 (
 this
+mNetworkCreated
 )
 ;
 return
@@ -12802,6 +12803,10 @@ LoadSrc
 )
 ;
 }
+mNetworkCreated
+=
+PR_FALSE
+;
 return
 rv
 ;
@@ -13023,6 +13028,7 @@ nsFrameLoader
 Create
 (
 dest
+PR_FALSE
 )
 ;
 NS_ENSURE_STATE

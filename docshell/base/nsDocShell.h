@@ -1741,6 +1741,14 @@ nsDocLoader
 aLoader
 )
 ;
+void
+ClearFrameHistory
+(
+nsISHEntry
+*
+aEntry
+)
+;
 class
 RestorePresentationEvent
 :
@@ -2044,6 +2052,9 @@ mIsPrintingOrPP
 PRPackedBool
 mSavingOldViewer
 ;
+PRPackedBool
+mDynamicallyCreated
+;
 #
 ifdef
 DEBUG
@@ -2052,6 +2063,9 @@ mInEnsureScriptEnv
 ;
 #
 endif
+PRUint64
+mHistoryID
+;
 static
 nsIURIFixup
 *
