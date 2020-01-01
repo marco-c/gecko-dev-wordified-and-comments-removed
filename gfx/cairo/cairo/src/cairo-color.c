@@ -184,8 +184,10 @@ blue
 )
 ;
 }
+static
+inline
 uint16_t
-_cairo_color_double_to_short
+_color_to_short
 (
 double
 d
@@ -233,7 +235,7 @@ color
 >
 red_short
 =
-_cairo_color_double_to_short
+_color_to_short
 (
 color
 -
@@ -251,7 +253,7 @@ color
 >
 green_short
 =
-_cairo_color_double_to_short
+_color_to_short
 (
 color
 -
@@ -269,7 +271,7 @@ color
 >
 blue_short
 =
-_cairo_color_double_to_short
+_color_to_short
 (
 color
 -
@@ -287,7 +289,7 @@ color
 >
 alpha_short
 =
-_cairo_color_double_to_short
+_color_to_short
 (
 color
 -

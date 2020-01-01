@@ -14,7 +14,7 @@ h
 CAIRO_BEGIN_DECLS
 cairo_surface_t
 *
-_cairo_test_fallback_surface_create
+_test_fallback_surface_create
 (
 cairo_content_t
 content

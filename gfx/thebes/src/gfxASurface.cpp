@@ -45,7 +45,7 @@ h
 endif
 #
 ifdef
-CAIRO_HAS_NQUARTZ_SURFACE
+CAIRO_HAS_QUARTZ_SURFACE
 #
 include
 "
@@ -370,14 +370,14 @@ csurf
 endif
 #
 ifdef
-CAIRO_HAS_NQUARTZ_SURFACE
+CAIRO_HAS_QUARTZ_SURFACE
 else
 if
 (
 stype
 =
 =
-CAIRO_SURFACE_TYPE_NQUARTZ
+CAIRO_SURFACE_TYPE_QUARTZ
 )
 {
 result

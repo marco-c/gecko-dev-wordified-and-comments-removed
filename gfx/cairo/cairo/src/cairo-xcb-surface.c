@@ -5041,7 +5041,6 @@ surface
 -
 >
 dpy
-8
 pixmap
 surface
 -
@@ -5063,6 +5062,7 @@ height
 1
 :
 height
+8
 )
 ;
 xcb_render_create_picture

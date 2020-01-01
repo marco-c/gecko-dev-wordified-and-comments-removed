@@ -37,12 +37,12 @@ test_fallback_surface_backend
 ;
 slim_hidden_proto
 (
-_cairo_test_fallback_surface_create
+_test_fallback_surface_create
 )
 ;
 cairo_surface_t
 *
-_cairo_test_fallback_surface_create
+_test_fallback_surface_create
 (
 cairo_content_t
 content
@@ -145,7 +145,7 @@ base
 }
 slim_hidden_def
 (
-_cairo_test_fallback_surface_create
+_test_fallback_surface_create
 )
 ;
 static
@@ -173,7 +173,7 @@ content
 )
 ;
 return
-_cairo_test_fallback_surface_create
+_test_fallback_surface_create
 (
 content
 width
