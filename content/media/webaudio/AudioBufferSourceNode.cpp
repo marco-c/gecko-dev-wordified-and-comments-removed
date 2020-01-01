@@ -2053,10 +2053,6 @@ mStopped
 (
 false
 )
-mOffsetAndDurationRemembered
-(
-false
-)
 {
 AudioBufferSourceNodeEngine
 *
@@ -2322,10 +2318,6 @@ min
 (
 )
 ;
-mOffsetAndDurationRemembered
-=
-true
-;
 }
 if
 (
@@ -2488,11 +2480,6 @@ nullptr
 )
 ;
 }
-if
-(
-mOffsetAndDurationRemembered
-)
-{
 SendOffsetAndDurationParametersToStream
 (
 ns
@@ -2500,7 +2487,6 @@ mOffset
 mDuration
 )
 ;
-}
 }
 void
 AudioBufferSourceNode

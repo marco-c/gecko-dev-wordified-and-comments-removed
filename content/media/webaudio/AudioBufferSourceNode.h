@@ -523,9 +523,6 @@ mStartCalled
 bool
 mStopped
 ;
-bool
-mOffsetAndDurationRemembered
-;
 }
 ;
 }
