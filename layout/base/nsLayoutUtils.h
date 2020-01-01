@@ -558,7 +558,7 @@ GetFloatFromPlaceholder
 (
 nsIFrame
 *
-aPossiblePlaceholder
+aPlaceholder
 )
 ;
 static
