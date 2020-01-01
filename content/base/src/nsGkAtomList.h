@@ -11301,13 +11301,6 @@ ChangeListProperty
 )
 GK_ATOM
 (
-collapseOffsetProperty
-"
-CollapseOffsetProperty
-"
-)
-GK_ATOM
-(
 computedOffsetProperty
 "
 ComputedOffsetProperty
