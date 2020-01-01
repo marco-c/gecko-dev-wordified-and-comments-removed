@@ -1735,7 +1735,7 @@ endif
 if
 defined
 (
-_M_IA32
+_M_IX86
 )
 |
 |
@@ -1854,7 +1854,7 @@ c
 =
 FPU_EXCEPTION_MASK
 ;
-X86SW
+X87SW
 (
 c
 )
@@ -1865,7 +1865,7 @@ FPU_STATUS_FLAGS
 ;
 #
 ifdef
-_M_IA32
+_M_IX86
 if
 (
 c
@@ -1905,7 +1905,7 @@ SSE_STATUS_FLAGS
 ;
 #
 ifdef
-_M_IA32
+_M_IX86
 }
 #
 endif
