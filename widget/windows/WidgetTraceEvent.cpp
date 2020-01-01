@@ -346,6 +346,10 @@ CloseHandle
 sEventHandle
 )
 ;
+sEventHandle
+=
+NULL
+;
 }
 void
 SignalTracerThread
