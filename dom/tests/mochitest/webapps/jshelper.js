@@ -1790,6 +1790,14 @@ installOrigin
 quote
 (
 )
+installTime
+:
+"
+!
+=
+=
+undefined
+"
 origin
 :
 "
