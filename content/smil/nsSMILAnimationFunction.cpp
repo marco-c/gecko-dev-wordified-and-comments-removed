@@ -3001,7 +3001,7 @@ nsSMILValue
 aResult
 PRBool
 &
-aCanCacheSoFar
+aPreventCachingOfSandwich
 )
 const
 {
@@ -3018,7 +3018,7 @@ attValue
 )
 {
 PRBool
-canCache
+preventCachingOfSandwich
 ;
 nsresult
 rv
@@ -3030,7 +3030,7 @@ ValueFromString
 attValue
 mAnimationElement
 aResult
-canCache
+preventCachingOfSandwich
 )
 ;
 if
@@ -3045,13 +3045,12 @@ PR_FALSE
 ;
 if
 (
-!
-canCache
+preventCachingOfSandwich
 )
 {
-aCanCacheSoFar
+aPreventCachingOfSandwich
 =
-PR_FALSE
+PR_TRUE
 ;
 }
 }
@@ -3113,7 +3112,7 @@ attValue
 )
 ;
 PRBool
-canCache
+preventCachingOfSandwich
 ;
 nsresult
 rv
@@ -3127,7 +3126,7 @@ attValue
 mAnimationElement
 aSMILAttr
 result
-canCache
+preventCachingOfSandwich
 )
 ;
 if
@@ -3142,8 +3141,7 @@ rv
 ;
 if
 (
-!
-canCache
+preventCachingOfSandwich
 )
 {
 mValueNeedsReparsingEverySample
@@ -3155,9 +3153,9 @@ PR_TRUE
 else
 {
 PRBool
-canCacheSoFar
+preventCachingOfSandwich
 =
-PR_TRUE
+PR_FALSE
 ;
 PRBool
 parseOk
@@ -3180,7 +3178,7 @@ nsGkAtoms
 to
 aSMILAttr
 to
-canCacheSoFar
+preventCachingOfSandwich
 )
 ;
 parseOk
@@ -3194,7 +3192,7 @@ nsGkAtoms
 from
 aSMILAttr
 from
-canCacheSoFar
+preventCachingOfSandwich
 )
 ;
 parseOk
@@ -3208,13 +3206,12 @@ nsGkAtoms
 by
 aSMILAttr
 by
-canCacheSoFar
+preventCachingOfSandwich
 )
 ;
 if
 (
-!
-canCacheSoFar
+preventCachingOfSandwich
 )
 {
 mValueNeedsReparsingEverySample

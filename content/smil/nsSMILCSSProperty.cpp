@@ -475,7 +475,7 @@ nsSMILValue
 aValue
 PRBool
 &
-aCanCache
+aPreventCachingOfSandwich
 )
 const
 {
@@ -512,9 +512,9 @@ return
 NS_ERROR_FAILURE
 ;
 }
-aCanCache
+aPreventCachingOfSandwich
 =
-PR_FALSE
+PR_TRUE
 ;
 return
 NS_OK

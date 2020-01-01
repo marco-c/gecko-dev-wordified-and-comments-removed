@@ -122,7 +122,7 @@ nsSMILValue
 aValue
 PRBool
 &
-aCanCache
+aPreventCachingOfSandwich
 )
 const
 {
@@ -193,9 +193,9 @@ transformType
 aValue
 )
 ;
-aCanCache
+aPreventCachingOfSandwich
 =
-PR_TRUE
+PR_FALSE
 ;
 return
 aValue

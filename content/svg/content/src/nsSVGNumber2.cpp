@@ -512,7 +512,7 @@ nsSMILValue
 aValue
 PRBool
 &
-aCanCache
+aPreventCachingOfSandwich
 )
 const
 {
@@ -564,9 +564,9 @@ aValue
 =
 val
 ;
-aCanCache
+aPreventCachingOfSandwich
 =
-PR_TRUE
+PR_FALSE
 ;
 return
 NS_OK

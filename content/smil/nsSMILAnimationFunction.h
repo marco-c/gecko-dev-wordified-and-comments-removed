@@ -595,7 +595,7 @@ nsSMILValue
 aResult
 PRBool
 &
-aCanCacheSoFar
+aPreventCachingOfSandwich
 )
 const
 ;
