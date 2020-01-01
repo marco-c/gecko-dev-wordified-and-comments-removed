@@ -295,6 +295,10 @@ Declaration
 .
 h
 \
+ErrorReporter
+.
+h
+\
 GroupRule
 .
 h
@@ -342,6 +346,10 @@ nsCSSDataBlock
 cpp
 \
 Declaration
+.
+cpp
+\
+ErrorReporter
 .
 cpp
 \

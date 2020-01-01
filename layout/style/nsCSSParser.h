@@ -172,13 +172,6 @@ aQuirkMode
 )
 ;
 nsresult
-SetSVGMode
-(
-bool
-aSVGMode
-)
-;
-nsresult
 SetChildLoader
 (
 mozilla
@@ -335,6 +328,10 @@ bool
 aChanged
 bool
 aIsImportant
+bool
+aIsSVGMode
+=
+false
 )
 ;
 nsresult

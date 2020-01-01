@@ -5099,13 +5099,6 @@ mDecl
 nullptr
 )
 {
-mParser
-.
-SetSVGMode
-(
-true
-)
-;
 }
 MappedAttrParser
 :
@@ -5227,6 +5220,7 @@ mDecl
 &
 changed
 false
+true
 )
 ;
 return
