@@ -627,16 +627,6 @@ I
 topsrcdir
 )
 /
-js
-/
-src
-\
--
-I
-(
-topsrcdir
-)
-/
 caps
 /
 include

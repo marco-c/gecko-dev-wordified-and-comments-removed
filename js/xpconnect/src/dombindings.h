@@ -315,10 +315,7 @@ JSObject
 proxy
 jsid
 id
-js
-:
-:
-PropertyDescriptor
+JSPropertyDescriptor
 *
 desc
 )
@@ -345,7 +342,7 @@ id
 bool
 *
 found
-js
+JS
 :
 :
 Value
@@ -756,7 +753,7 @@ id
 bool
 *
 found
-js
+JS
 :
 :
 Value
@@ -831,10 +828,7 @@ jsid
 id
 bool
 set
-js
-:
-:
-PropertyDescriptor
+JSPropertyDescriptor
 *
 desc
 )
@@ -852,10 +846,7 @@ jsid
 id
 bool
 set
-js
-:
-:
-PropertyDescriptor
+JSPropertyDescriptor
 *
 desc
 )
@@ -871,10 +862,7 @@ JSObject
 proxy
 jsid
 id
-js
-:
-:
-PropertyDescriptor
+JSPropertyDescriptor
 *
 desc
 )
@@ -938,7 +926,7 @@ cx
 JSObject
 *
 proxy
-js
+JS
 :
 :
 Value
@@ -992,7 +980,7 @@ JSObject
 receiver
 jsid
 id
-js
+JS
 :
 :
 Value
@@ -1014,7 +1002,7 @@ JSObject
 receiver
 uint32
 index
-js
+JS
 :
 :
 Value
@@ -1041,7 +1029,7 @@ jsid
 id
 bool
 strict
-js
+JS
 :
 :
 Value
@@ -1077,7 +1065,7 @@ JSObject
 proxy
 uintN
 flags
-js
+JS
 :
 :
 Value
@@ -1095,7 +1083,7 @@ JSObject
 *
 proxy
 const
-js
+JS
 :
 :
 Value
@@ -1268,10 +1256,7 @@ JSObject
 proxy
 jsid
 id
-js
-:
-:
-PropertyDescriptor
+JSPropertyDescriptor
 *
 desc
 )
@@ -1294,7 +1279,7 @@ id
 bool
 *
 found
-js
+JS
 :
 :
 Value
