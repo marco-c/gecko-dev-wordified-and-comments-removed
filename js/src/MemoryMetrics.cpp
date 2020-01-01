@@ -523,6 +523,7 @@ thingSize
 size_t
 slotsSize
 elementsSize
+miscSize
 ;
 obj
 -
@@ -537,6 +538,8 @@ mallocSizeOf
 slotsSize
 &
 elementsSize
+&
+miscSize
 )
 ;
 cStats
@@ -554,6 +557,14 @@ objectElements
 +
 =
 elementsSize
+;
+cStats
+-
+>
+objectMisc
++
+=
+miscSize
 ;
 break
 ;
@@ -1337,6 +1348,10 @@ objectSlots
 cStats
 .
 objectElements
++
+cStats
+.
+objectMisc
 ;
 rtStats
 -
