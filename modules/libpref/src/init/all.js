@@ -5874,6 +5874,16 @@ pref
 "
 dom
 .
+omit_components_in_content
+"
+false
+)
+;
+pref
+(
+"
+dom
+.
 experimental_forms
 "
 false
