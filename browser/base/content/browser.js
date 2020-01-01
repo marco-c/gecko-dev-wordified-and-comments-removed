@@ -9183,6 +9183,9 @@ Ci
 nsIDownloadManager
 )
 ;
+#
+ifdef
+XP_WIN
 if
 (
 Win7Features
@@ -9224,6 +9227,8 @@ window
 )
 ;
 }
+#
+endif
 }
 10000
 )
@@ -37033,6 +37038,9 @@ var
 gPluginHandler
 =
 {
+#
+ifdef
+MOZ_CRASHREPORTER
 get
 CrashSubmit
 (
@@ -37069,6 +37077,8 @@ this
 CrashSubmit
 ;
 }
+#
+endif
 makeNicePluginName
 :
 function
@@ -37801,6 +37811,9 @@ plugin
 )
 ;
 }
+#
+ifdef
+MOZ_CRASHREPORTER
 submitReport
 :
 function
@@ -37832,6 +37845,8 @@ browserDumpID
 )
 ;
 }
+#
+endif
 reloadPage
 :
 function
