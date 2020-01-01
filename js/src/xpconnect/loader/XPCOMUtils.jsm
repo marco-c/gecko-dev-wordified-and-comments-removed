@@ -35,6 +35,7 @@ XPCOMUtils
 generateQI
 :
 function
+XPCU_generateQI
 (
 interfaces
 )
@@ -70,6 +71,7 @@ i
 generateNSGetModule
 :
 function
+XPCU_generateNSGetModule
 (
 componentsArray
 postRegister
@@ -99,6 +101,7 @@ preUnregister
 generateModule
 :
 function
+XPCU_generateModule
 (
 componentsArray
 postRegister
@@ -683,6 +686,7 @@ nsICategoryManager
 _getFactory
 :
 function
+XPCOMUtils__getFactory
 (
 component
 )
