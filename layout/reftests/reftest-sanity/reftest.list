@@ -525,7 +525,7 @@ html
 <
 body
 >
-Win32
+Win
 data
 :
 text
@@ -541,6 +541,12 @@ write
 navigator
 .
 platform
+.
+substr
+(
+0
+3
+)
 )
 <
 /
