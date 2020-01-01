@@ -894,8 +894,13 @@ gradient
 )
 ;
 border
+-
+bottom
 :
-none
+1px
+solid
+#
+060a0d
 ;
 box
 -
