@@ -18755,8 +18755,6 @@ status
 nsIView
 *
 targetView
-;
-targetView
 =
 nsIView
 :
@@ -18769,7 +18767,12 @@ aEvent
 widget
 )
 ;
-mViewManager
+targetView
+-
+>
+GetViewManager
+(
+)
 -
 >
 DispatchEvent

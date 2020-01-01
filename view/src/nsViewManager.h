@@ -944,7 +944,7 @@ nsIViewObserver
 *
 mObserver
 ;
-nsIntPoint
+nsPoint
 mMouseLocation
 ;
 nsSize
