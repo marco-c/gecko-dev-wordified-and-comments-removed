@@ -4811,6 +4811,17 @@ setBailoutExpected
 (
 )
 ;
+iter
+.
+script
+(
+)
+-
+>
+updateBaselineOrIonRaw
+(
+)
+;
 BaselineStackBuilder
 builder
 (

@@ -4478,12 +4478,14 @@ temp
 ;
 }
 void
-loadBaselineOrIonCode
+loadBaselineOrIonRaw
 (
 Register
 script
 Register
-scratch
+dest
+ExecutionMode
+mode
 Label
 *
 failure

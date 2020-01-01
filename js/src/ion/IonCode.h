@@ -678,9 +678,6 @@ this
 }
 public
 :
-uint32_t
-slowCallCount
-;
 SnapshotOffset
 *
 bailoutTable

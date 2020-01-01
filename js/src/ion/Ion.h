@@ -155,12 +155,6 @@ bool
 eagerCompilation
 ;
 uint32_t
-slowCallLimit
-;
-uint32_t
-slowCallIncUseCount
-;
-uint32_t
 usesBeforeCompileParallel
 ;
 void
@@ -291,14 +285,6 @@ inlineUseCountRatio
 eagerCompilation
 (
 false
-)
-slowCallLimit
-(
-512
-)
-slowCallIncUseCount
-(
-5
 )
 usesBeforeCompileParallel
 (

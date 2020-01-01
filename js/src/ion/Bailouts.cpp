@@ -1406,6 +1406,17 @@ setBailoutExpected
 (
 )
 ;
+it
+.
+script
+(
+)
+-
+>
+updateBaselineOrIonRaw
+(
+)
+;
 BailoutClosure
 *
 br
