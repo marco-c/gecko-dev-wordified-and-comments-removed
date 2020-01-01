@@ -89,16 +89,6 @@ classic
 /
 global
 /
-dropmarker
-.
-css
-+
-skin
-/
-classic
-/
-global
-/
 button
 .
 css
