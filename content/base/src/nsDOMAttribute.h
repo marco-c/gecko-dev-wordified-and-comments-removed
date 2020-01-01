@@ -436,11 +436,6 @@ return
 GetContentInternal
 (
 )
--
->
-AsElement
-(
-)
 ;
 }
 static
@@ -472,7 +467,13 @@ nsIContent
 *
 mChild
 ;
-nsIContent
+mozilla
+:
+:
+dom
+:
+:
+Element
 *
 GetContentInternal
 (
