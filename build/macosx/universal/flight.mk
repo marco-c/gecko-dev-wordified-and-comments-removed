@@ -1082,6 +1082,8 @@ OBJDIR_ARCH_1
 )
 UNIVERSAL_BINARY
 =
+CHROME_JAR
+=
 package
 -
 tests
@@ -1094,6 +1096,8 @@ C
 OBJDIR_ARCH_2
 )
 UNIVERSAL_BINARY
+=
+CHROME_JAR
 =
 package
 -
