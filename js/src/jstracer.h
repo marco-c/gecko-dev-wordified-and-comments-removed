@@ -2540,6 +2540,7 @@ enum
 MonitorResult
 {
 MONITOR_RECORDING
+MONITOR_PROFILING
 MONITOR_NOT_RECORDING
 MONITOR_ERROR
 }
@@ -2580,6 +2581,10 @@ OP_LIMIT
 JSScript
 *
 script
+;
+JSStackFrame
+*
+entryfp
 ;
 jsbytecode
 *
@@ -2632,9 +2637,9 @@ maybeShortLoop
 struct
 InnerLoop
 {
-JSScript
+JSStackFrame
 *
-script
+entryfp
 ;
 jsbytecode
 *
@@ -2652,9 +2657,9 @@ InnerLoop
 }
 InnerLoop
 (
-JSScript
+JSStackFrame
 *
-script
+entryfp
 jsbytecode
 *
 top
@@ -2663,9 +2668,9 @@ jsbytecode
 bottom
 )
 :
-script
+entryfp
 (
-script
+entryfp
 )
 top
 (
@@ -2879,9 +2884,9 @@ false
 }
 LoopProfile
 (
-JSScript
+JSStackFrame
 *
-script
+entryfp
 jsbytecode
 *
 top
@@ -7334,6 +7339,7 @@ JSContext
 *
 uintN
 &
+bool
 )
 ;
 friend
