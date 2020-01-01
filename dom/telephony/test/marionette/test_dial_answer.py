@@ -59,13 +59,54 @@ self
 .
 marionette
         
-receiver
+self
 .
-set_context
+set_up_test_page
 (
+sender
 "
-chrome
+test
+.
+html
 "
+[
+"
+dom
+.
+telephony
+.
+app
+.
+phone
+.
+url
+"
+]
+)
+        
+self
+.
+set_up_test_page
+(
+receiver
+"
+test
+.
+html
+"
+[
+"
+dom
+.
+telephony
+.
+app
+.
+phone
+.
+url
+"
+]
 )
         
 self
@@ -87,18 +128,7 @@ navigator
 mozTelephony
 !
 =
-undefined
-&
-&
-window
-.
-navigator
-.
-mozTelephony
-!
-=
 null
-;
 "
 "
 "
@@ -112,9 +142,7 @@ execute_script
 "
 "
 "
-window
-.
-wrappedJSObject
+global
 .
 incoming
 =
@@ -153,9 +181,7 @@ test_incoming
 )
 ;
     
-window
-.
-wrappedJSObject
+global
 .
 incoming
 =
@@ -169,6 +195,9 @@ call
 "
 "
 "
+new_sandbox
+=
+False
 )
         
 toPhoneNumber
@@ -201,23 +230,12 @@ port
         
 sender
 .
-set_context
-(
-"
-chrome
-"
-)
-        
-sender
-.
 execute_script
 (
 "
 "
 "
-window
-.
-wrappedJSObject
+global
 .
 call
 =
@@ -240,6 +258,9 @@ s
 "
 %
 toPhoneNumber
+new_sandbox
+=
+False
 )
         
 receiver
@@ -258,9 +279,7 @@ execute_async_script
 "
 "
 "
-window
-.
-wrappedJSObject
+global
 .
 callstate
 =
@@ -276,9 +295,7 @@ function
 let
 call
 =
-window
-.
-wrappedJSObject
+global
 .
 incoming
 ;
@@ -308,9 +325,7 @@ test_connected
 )
 ;
         
-window
-.
-wrappedJSObject
+global
 .
 callstate
 =
@@ -339,9 +354,7 @@ function
 {
     
 return
-window
-.
-wrappedJSObject
+global
 .
 incoming
 !
@@ -354,6 +367,9 @@ null
 "
 "
 "
+new_sandbox
+=
+False
 )
         
 self
@@ -374,15 +390,11 @@ execute_script
 let
 call
 =
-window
-.
-wrappedJSObject
+global
 .
 call
 ;
-window
-.
-wrappedJSObject
+global
 .
 callstate
 =
@@ -413,9 +425,7 @@ test_connected
 )
 ;
     
-window
-.
-wrappedJSObject
+global
 .
 callstate
 =
@@ -431,6 +441,9 @@ state
 "
 "
 "
+new_sandbox
+=
+False
 )
         
 receiver
@@ -440,9 +453,7 @@ execute_async_script
 "
 "
 "
-window
-.
-wrappedJSObject
+global
 .
 incoming
 .
@@ -469,9 +480,7 @@ function
 {
     
 return
-window
-.
-wrappedJSObject
+global
 .
 callstate
 =
@@ -486,6 +495,9 @@ connected
 "
 "
 "
+new_sandbox
+=
+False
 )
         
 self
@@ -506,9 +518,7 @@ function
 )
 {
     
-window
-.
-wrappedJSObject
+global
 .
 incoming
 .
@@ -522,6 +532,7 @@ marionetteScriptFinished
 true
 )
 ;
+ 
 }
 function
 (
@@ -529,9 +540,7 @@ function
 {
     
 return
-window
-.
-wrappedJSObject
+global
 .
 callstate
 =
@@ -546,5 +555,8 @@ connected
 "
 "
 "
+new_sandbox
+=
+False
 )
 )
