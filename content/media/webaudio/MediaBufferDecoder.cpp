@@ -418,7 +418,7 @@ nsIThread
 >
 mDecodeThread
 ;
-nsAutoPtr
+nsRefPtr
 <
 MediaResource
 >
@@ -1265,8 +1265,10 @@ NS_IsMainThread
 )
 )
 ;
+nsRefPtr
+<
 BufferMediaResource
-*
+>
 resource
 =
 new
