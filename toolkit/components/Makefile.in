@@ -614,14 +614,11 @@ these
 just
 yet
 ifdef
-MOZ_XPINSTALL
-ifdef
 MOZ_RDF
 DIRS
 +
 =
 downloads
-endif
 endif
 endif
 #

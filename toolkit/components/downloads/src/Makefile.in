@@ -466,8 +466,6 @@ appshell
 \
 dom
 \
-xpinstall
-\
 embed_base
 \
 alerts

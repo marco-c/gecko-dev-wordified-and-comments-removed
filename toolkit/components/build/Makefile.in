@@ -667,8 +667,6 @@ this
 just
 yet
 ifdef
-MOZ_XPINSTALL
-ifdef
 MOZ_RDF
 SHARED_LIBRARY_LIBS
 +
@@ -688,7 +686,6 @@ download_s
 (
 LIB_SUFFIX
 )
-endif
 endif
 endif
 ifdef
