@@ -130,6 +130,10 @@ PaymentGlue
 .
 js
 \
+YoutubeProtocolHandler
+.
+js
+\
 (
 NULL
 )
