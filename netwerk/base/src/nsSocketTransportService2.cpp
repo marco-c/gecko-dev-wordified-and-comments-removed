@@ -678,7 +678,7 @@ AttachSocket
 handler
 =
 %
-x
+p
 ]
 \
 n
@@ -785,7 +785,7 @@ DetachSocket
 handler
 =
 %
-x
+p
 ]
 \
 n
@@ -946,7 +946,7 @@ AddToPollList
 handler
 =
 %
-x
+p
 ]
 \
 n
@@ -1102,7 +1102,7 @@ RemoveFromPollList
 handler
 =
 %
-x
+p
 ]
 \
 n
@@ -1260,7 +1260,7 @@ AddToIdleList
 handler
 =
 %
-x
+p
 ]
 \
 n
@@ -1380,7 +1380,7 @@ RemoveFromIdleList
 handler
 =
 %
-x
+p
 ]
 \
 n
@@ -3162,7 +3162,7 @@ u
 handler
 =
 %
-x
+p
 condition
 =
 %
@@ -3317,7 +3317,7 @@ u
 handler
 =
 %
-x
+p
 condition
 =
 %
