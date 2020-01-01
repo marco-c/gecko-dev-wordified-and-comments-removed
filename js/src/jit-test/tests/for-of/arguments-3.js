@@ -1,3 +1,15 @@
+Object
+.
+prototype
+.
+iterator
+=
+Array
+.
+prototype
+.
+iterator
+;
 var
 s
 ;
