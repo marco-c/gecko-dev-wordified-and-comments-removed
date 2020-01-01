@@ -3105,6 +3105,17 @@ length
 (
 )
 ;
+Rooted
+<
+JSRope
+*
+>
+ropeRoot
+(
+cx
+rope
+)
+;
 RootedString
 lhs
 (
@@ -3112,7 +3123,7 @@ cx
 js_NewDependentString
 (
 cx
-rope
+ropeRoot
 -
 >
 leftChild
@@ -3138,7 +3149,7 @@ cx
 js_NewDependentString
 (
 cx
-rope
+ropeRoot
 -
 >
 rightChild

@@ -4771,8 +4771,11 @@ UndefinedValue
 (
 )
 ;
-Value
+RootedValue
 rval
+(
+cx
+)
 ;
 if
 (
@@ -4788,8 +4791,11 @@ objectMetadataFunction
 )
 0
 NULL
-&
 rval
+.
+address
+(
+)
 )
 )
 {

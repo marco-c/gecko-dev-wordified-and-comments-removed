@@ -453,8 +453,7 @@ CanEnter
 JSContext
 *
 cx
-JSScript
-*
+HandleScript
 script
 AbstractFramePtr
 fp
