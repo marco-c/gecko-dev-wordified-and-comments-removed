@@ -11509,7 +11509,7 @@ NS_DOMClassInfo_SetXPCNativeWrapperClass
 (
 :
 :
-JS_GetClass
+JS_GET_CLASS
 (
 mContext
 JSVAL_TO_OBJECT

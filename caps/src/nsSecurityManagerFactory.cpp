@@ -1170,7 +1170,7 @@ JSClass
 *
 objectClass
 =
-JS_GetClass
+JS_GET_CLASS
 (
 cx
 obj
