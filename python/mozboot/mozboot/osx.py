@@ -141,7 +141,13 @@ compile
 (
 '
 Apple
+(
+?
+:
 clang
+|
+LLVM
+)
 version
 (
 \
