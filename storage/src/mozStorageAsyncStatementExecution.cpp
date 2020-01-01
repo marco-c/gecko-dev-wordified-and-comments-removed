@@ -1319,7 +1319,6 @@ i
 .
 finalize
 (
-mCallingThread
 )
 ;
 if
