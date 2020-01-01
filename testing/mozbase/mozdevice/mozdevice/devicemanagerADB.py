@@ -1270,7 +1270,7 @@ zip
                 
 subprocess
 .
-check_output
+Popen
 (
 [
 "
@@ -1288,6 +1288,21 @@ localZip
 cwd
 =
 localDir
+                                 
+stdout
+=
+subprocess
+.
+PIPE
+stderr
+=
+subprocess
+.
+PIPE
+)
+.
+communicate
+(
 )
                 
 self
