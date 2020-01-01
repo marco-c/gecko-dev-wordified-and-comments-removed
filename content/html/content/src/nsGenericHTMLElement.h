@@ -488,6 +488,14 @@ aContentEditable
 )
 ;
 nsresult
+GetIsContentEditable
+(
+PRBool
+*
+aContentEditable
+)
+;
+nsresult
 SetContentEditable
 (
 const

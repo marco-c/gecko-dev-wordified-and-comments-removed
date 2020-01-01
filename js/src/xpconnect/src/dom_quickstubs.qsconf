@@ -2108,6 +2108,11 @@ contentEditable
 '
 nsIDOMNSHTMLElement
 .
+isContentEditable
+'
+'
+nsIDOMNSHTMLElement
+.
 offsetParent
 '
 '
