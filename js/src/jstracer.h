@@ -832,6 +832,10 @@ exit
 bool
 trashTree
 ;
+jsbytecode
+*
+lastLoopEdge
+;
 bool
 isGlobal
 (
