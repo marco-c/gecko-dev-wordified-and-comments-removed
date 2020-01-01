@@ -817,13 +817,7 @@ aData
 JS
 :
 :
-Rooted
-<
-JS
-:
-:
 Value
->
 val
 ;
 if

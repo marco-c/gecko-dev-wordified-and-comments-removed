@@ -2315,17 +2315,8 @@ NS_OK
 JS
 :
 :
-Rooted
-<
-JS
-:
-:
 Value
->
 val
-(
-cx
-)
 ;
 if
 (
