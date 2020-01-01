@@ -2593,6 +2593,8 @@ const
 char
 *
 url
+PRBool
+aDefaultPlugin
 )
 {
 NS_ASSERTION
@@ -2638,6 +2640,10 @@ PL_strdup
 (
 url
 )
+;
+mDefaultPlugin
+=
+aDefaultPlugin
 ;
 }
 nsPluginInstanceTag
