@@ -326,7 +326,7 @@ privateBrowsing_reset
 {
 try
 {
-pb
+this
 .
 stop
 (
@@ -339,14 +339,14 @@ catch
 ex
 )
 {
-pb
+this
 .
 enabled
 =
 false
 ;
 }
-pb
+this
 .
 showPrompt
 =

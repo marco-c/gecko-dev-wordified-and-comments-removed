@@ -50,9 +50,6 @@ const
 LOCAL_TEST_PAGES
 =
 [
-{
-url
-:
 LOCAL_TEST_FOLDER
 +
 '
@@ -62,10 +59,6 @@ mozilla
 .
 html
 '
-}
-{
-url
-:
 LOCAL_TEST_FOLDER
 +
 '
@@ -75,7 +68,6 @@ mozilla_mission
 .
 html
 '
-}
 ]
 ;
 var
@@ -150,8 +142,6 @@ LOCAL_TEST_PAGES
 [
 0
 ]
-.
-url
 )
 ;
 controller
@@ -208,8 +198,6 @@ LOCAL_TEST_PAGES
 [
 1
 ]
-.
-url
 )
 ;
 controller
@@ -257,8 +245,6 @@ LOCAL_TEST_PAGES
 [
 0
 ]
-.
-url
 )
 ;
 }
