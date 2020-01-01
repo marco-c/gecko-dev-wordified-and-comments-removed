@@ -478,6 +478,10 @@ test_bug478219
 .
 xhtml
 \
+test_bug542914
+.
+html
+\
 bug477700_subframe
 .
 html

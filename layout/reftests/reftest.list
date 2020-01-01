@@ -342,6 +342,15 @@ reftest
 .
 list
 #
+editor
+/
+include
+editor
+/
+reftest
+.
+list
+#
 generated
 -
 content
