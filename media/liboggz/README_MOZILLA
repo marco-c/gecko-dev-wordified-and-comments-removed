@@ -262,3 +262,17 @@ when
 resetting
 streams
 .
+bug526097
+.
+patch
+:
+Length
+check
+mode_sizes
+array
+in
+vorbis
+auto
+metrics
+calculation
+.
