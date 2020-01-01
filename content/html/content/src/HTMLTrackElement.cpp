@@ -617,7 +617,7 @@ CreateTextTrack
 (
 )
 {
-DOMString
+nsString
 label
 srcLang
 ;
