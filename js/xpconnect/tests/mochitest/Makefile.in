@@ -407,6 +407,14 @@ test_bug809547
 .
 html
 \
+file_crosscompartment_weakmap
+.
+html
+\
+test_crosscompartment_weakmap
+.
+html
+\
 (
 NULL
 )
