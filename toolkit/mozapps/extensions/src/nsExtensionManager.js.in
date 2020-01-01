@@ -14447,6 +14447,8 @@ getDefaultBranch
 "
 )
 ;
+try
+{
 gDefaultTheme
 =
 defaults
@@ -14456,6 +14458,13 @@ getCharPref
 PREF_GENERAL_SKINS_SELECTEDSKIN
 )
 ;
+}
+catch
+(
+e
+)
+{
+}
 gOS
 =
 Cc
