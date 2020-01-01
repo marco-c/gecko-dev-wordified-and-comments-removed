@@ -672,6 +672,7 @@ JS_ASSERT
 (
 nativeLookup
 (
+cx
 ATOM_TO_JSID
 (
 cx

@@ -63376,6 +63376,7 @@ if
 (
 HasDataProperty
 (
+cx
 proto
 id
 &
@@ -66247,6 +66248,7 @@ obj
 >
 nativeLookup
 (
+cx
 id
 )
 )
@@ -66647,6 +66649,7 @@ obj
 >
 nativeContains
 (
+cx
 *
 shape
 )
@@ -66830,6 +66833,7 @@ obj
 >
 nativeContains
 (
+cx
 *
 shape
 )
@@ -68679,6 +68683,7 @@ obj
 >
 nativeLookup
 (
+cx
 id
 )
 )
@@ -77948,6 +77953,7 @@ obj2
 >
 nativeContains
 (
+cx
 *
 shape
 )

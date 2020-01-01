@@ -148,6 +148,7 @@ pobj
 >
 nativeContains
 (
+cx
 *
 shape
 )
@@ -1615,6 +1616,7 @@ pobj
 >
 nativeContains
 (
+cx
 id
 )
 )

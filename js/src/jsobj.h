@@ -1165,6 +1165,9 @@ Shape
 *
 nativeSearch
 (
+JSContext
+*
+cx
 jsid
 id
 bool
@@ -1182,6 +1185,9 @@ Shape
 *
 nativeLookup
 (
+JSContext
+*
+cx
 jsid
 id
 )
@@ -1190,6 +1196,9 @@ inline
 bool
 nativeContains
 (
+JSContext
+*
+cx
 jsid
 id
 )
@@ -1198,6 +1207,9 @@ inline
 bool
 nativeContains
 (
+JSContext
+*
+cx
 const
 js
 :
@@ -8325,6 +8337,9 @@ extern
 bool
 HasDataProperty
 (
+JSContext
+*
+cx
 JSObject
 *
 obj

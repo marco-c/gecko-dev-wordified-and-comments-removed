@@ -601,6 +601,7 @@ obj
 >
 nativeLookup
 (
+cx
 id
 )
 )
@@ -672,6 +673,7 @@ obj
 >
 nativeLookup
 (
+cx
 id
 )
 ;

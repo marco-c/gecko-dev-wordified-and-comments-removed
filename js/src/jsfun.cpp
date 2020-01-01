@@ -6005,6 +6005,7 @@ thisp
 >
 nativeLookup
 (
+cx
 ATOM_TO_JSID
 (
 fun
@@ -11066,6 +11067,7 @@ funobj
 >
 nativeLookup
 (
+cx
 id
 )
 ;
@@ -11094,6 +11096,7 @@ funobj
 >
 nativeLookup
 (
+cx
 id
 )
 ;

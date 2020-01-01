@@ -15281,6 +15281,7 @@ ctor
 >
 nativeLookup
 (
+cx
 id
 )
 ;
@@ -20266,6 +20267,7 @@ obj
 >
 nativeLookup
 (
+cx
 id
 )
 ;
@@ -24136,6 +24138,7 @@ obj
 >
 nativeLookup
 (
+cx
 id
 )
 ;
@@ -25158,6 +25161,7 @@ obj
 >
 nativeLookup
 (
+cx
 id
 )
 )
@@ -25684,6 +25688,7 @@ obj
 >
 nativeLookup
 (
+cx
 id
 )
 )
@@ -25765,6 +25770,7 @@ obj
 >
 nativeLookup
 (
+cx
 id
 )
 ;
@@ -27008,6 +27014,7 @@ pobj
 >
 nativeContains
 (
+cx
 *
 shape
 )
@@ -27344,6 +27351,7 @@ obj
 >
 nativeContains
 (
+cx
 *
 shape
 )
@@ -30288,6 +30296,9 @@ js
 bool
 HasDataProperty
 (
+JSContext
+*
+cx
 JSObject
 *
 obj
@@ -30310,6 +30321,7 @@ obj
 >
 nativeLookup
 (
+cx
 methodid
 )
 )

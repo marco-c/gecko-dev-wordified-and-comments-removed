@@ -3644,6 +3644,9 @@ TypeBarrier
 *
 typeBarriers
 (
+JSContext
+*
+cx
 uint32
 offset
 )
@@ -3659,6 +3662,7 @@ typeBarriers
 )
 pruneTypeBarriers
 (
+cx
 offset
 )
 ;
@@ -3678,6 +3682,9 @@ TypeBarrier
 *
 typeBarriers
 (
+JSContext
+*
+cx
 const
 jsbytecode
 *
@@ -3687,6 +3694,7 @@ pc
 return
 typeBarriers
 (
+cx
 pc
 -
 script
@@ -3745,6 +3753,9 @@ singletonId
 void
 pruneTypeBarriers
 (
+JSContext
+*
+cx
 uint32
 offset
 )
