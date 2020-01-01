@@ -63,6 +63,7 @@ function
 snapshotWindow
 (
 win
+withCaret
 )
 {
 var
@@ -121,6 +122,9 @@ UniversalXPConnect
 '
 )
 ;
+var
+ctx
+=
 el
 .
 getContext
@@ -129,6 +133,8 @@ getContext
 2d
 "
 )
+;
+ctx
 .
 drawWindow
 (
@@ -153,6 +159,13 @@ rgb
 255
 )
 "
+withCaret
+?
+ctx
+.
+DRAWWINDOW_DRAW_CARET
+:
+0
 )
 ;
 return
