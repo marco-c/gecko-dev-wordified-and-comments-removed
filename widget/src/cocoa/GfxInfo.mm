@@ -1121,7 +1121,7 @@ status
 nsIGfxInfo
 :
 :
-FEATURE_STATUS_UNKNOWN
+FEATURE_NO_INFO
 ;
 for
 (
@@ -1173,7 +1173,7 @@ status
 nsIGfxInfo
 :
 :
-FEATURE_BLOCKED
+FEATURE_BLOCKED_DEVICE
 ;
 }
 }
