@@ -50,10 +50,6 @@ gfxAlphaRecovery
 .
 cpp
 \
-gfxBlur
-.
-cpp
-\
 gfxContext
 .
 cpp

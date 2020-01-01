@@ -657,6 +657,10 @@ const
 nsRect
 &
 aDirtyRect
+const
+gfxRect
+*
+aSkipRect
 )
 ;
 void

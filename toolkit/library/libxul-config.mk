@@ -668,6 +668,8 @@ ucvutil_s
 \
 gkgfx
 \
+gfxutils
+\
 (
 NULL
 )

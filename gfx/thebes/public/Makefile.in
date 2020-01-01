@@ -44,10 +44,6 @@ gfxAlphaRecovery
 .
 h
 \
-gfxBlur
-.
-h
-\
 gfxColor
 .
 h
