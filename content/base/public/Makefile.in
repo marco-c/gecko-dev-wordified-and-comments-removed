@@ -267,6 +267,10 @@ nsIDocumentEncoder
 .
 idl
 \
+nsIDOMDataChannel
+.
+idl
+\
 nsIDOMFile
 .
 idl
