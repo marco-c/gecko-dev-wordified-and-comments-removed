@@ -466,6 +466,9 @@ test_malformed8
 (
 )
 {
+#
+ifndef
+DEBUG
 for
 (
 unsigned
@@ -562,6 +565,8 @@ return
 PR_FALSE
 ;
 }
+#
+endif
 return
 PR_TRUE
 ;
@@ -723,6 +728,9 @@ return
 PR_FALSE
 ;
 }
+#
+ifndef
+DEBUG
 for
 (
 unsigned
@@ -787,6 +795,8 @@ return
 PR_FALSE
 ;
 }
+#
+endif
 return
 PR_TRUE
 ;
@@ -837,17 +847,12 @@ test_invalid8
 "
 test_invalid8
 }
-#
-ifndef
-DEBUG
 {
 "
 test_malformed8
 "
 test_malformed8
 }
-#
-endif
 {
 "
 test_hashas16

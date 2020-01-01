@@ -654,6 +654,9 @@ return
 PR_FALSE
 ;
 }
+#
+ifndef
+DEBUG
 nsCOMPtr
 <
 nsIAtom
@@ -666,9 +669,6 @@ do_GetAtom
 "
 )
 ;
-#
-ifndef
-DEBUG
 for
 (
 unsigned

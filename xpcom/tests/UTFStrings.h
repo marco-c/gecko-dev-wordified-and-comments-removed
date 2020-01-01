@@ -618,6 +618,9 @@ x
 }
 }
 ;
+#
+ifndef
+DEBUG
 static
 const
 char
@@ -807,5 +810,7 @@ c
 }
 }
 ;
+#
+endif
 #
 endif
