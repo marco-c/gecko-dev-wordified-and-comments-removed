@@ -505,6 +505,10 @@ GfxDriverInfo
 .
 cpp
 \
+GfxInfoBase
+.
+cpp
+\
 (
 NULL
 )
