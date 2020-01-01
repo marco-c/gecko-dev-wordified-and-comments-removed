@@ -1965,10 +1965,6 @@ test_bug656283
 .
 html
 \
-test_blobbuilder
-.
-html
-\
 test_blobconstructor
 .
 html
