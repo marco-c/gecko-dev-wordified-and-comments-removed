@@ -260,6 +260,8 @@ boolean
 video
 boolean
 data
+boolean
+offer
 )
 ;
 void
@@ -371,6 +373,8 @@ boolean
 offer
 boolean
 notify_stream_added
+boolean
+create_answer
 )
 ;
 boolean
@@ -480,6 +484,8 @@ media
 uint16_t
 *
 inst_num
+uint16
+level
 )
 ;
 extern
@@ -518,6 +524,8 @@ uint16_t
 crypto_inst
 sdp_transport_e
 transport
+uint16
+level
 )
 ;
 extern
@@ -750,6 +758,17 @@ has_video
 boolean
 *
 has_data
+)
+;
+fsmdef_media_t
+*
+gsmsdp_find_media_by_media_type
+(
+fsmdef_dcb_t
+*
+dcb
+sdp_media_e
+media_type
 )
 ;
 #

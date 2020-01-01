@@ -2530,6 +2530,8 @@ media
 uint16_t
 *
 crypto_inst
+uint16
+dest_level
 )
 {
 sdp_transport_e
@@ -2549,9 +2551,6 @@ cc_sdp_p
 >
 dest_sdp
 ;
-uint16_t
-level
-;
 int
 sdpmode
 =
@@ -2568,13 +2567,6 @@ sdpmode
 )
 )
 ;
-level
-=
-media
--
->
-level
-;
 *
 crypto_inst
 =
@@ -2585,7 +2577,7 @@ remote_transport
 sdp_get_media_transport
 (
 sdp_p
-level
+dest_level
 )
 ;
 switch
@@ -2642,7 +2634,7 @@ gsmsdp_select_offer_crypto
 (
 dcb_p
 sdp_p
-level
+dest_level
 crypto_inst
 )
 )
@@ -2987,6 +2979,8 @@ media
 uint16_t
 *
 crypto_inst
+uint16
+level
 )
 {
 sdp_transport_e
@@ -3005,6 +2999,7 @@ dcb_p
 cc_sdp_p
 media
 crypto_inst
+level
 )
 ;
 }
@@ -4594,6 +4589,8 @@ uint16_t
 crypto_inst
 sdp_transport_e
 transport
+uint16
+dest_level
 )
 {
 const
@@ -4628,10 +4625,7 @@ level
 ;
 level
 =
-media
--
->
-level
+dest_level
 ;
 media
 -
