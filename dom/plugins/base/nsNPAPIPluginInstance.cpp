@@ -6405,6 +6405,16 @@ timerID
 )
 )
 {
+if
+(
+RUNNING
+!
+=
+mRunning
+)
+return
+0
+;
 nsNPAPITimer
 *
 newTimer
