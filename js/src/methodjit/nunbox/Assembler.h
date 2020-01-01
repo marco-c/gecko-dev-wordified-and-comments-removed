@@ -653,7 +653,7 @@ opcond
 Assembler
 :
 :
-GreaterThanOrEqual
+Below
 ;
 else
 opcond
@@ -661,7 +661,7 @@ opcond
 Assembler
 :
 :
-LessThan
+AboveOrEqual
 ;
 return
 branch32
@@ -708,7 +708,7 @@ opcond
 Assembler
 :
 :
-GreaterThanOrEqual
+Below
 ;
 else
 opcond
@@ -716,7 +716,7 @@ opcond
 Assembler
 :
 :
-LessThan
+AboveOrEqual
 ;
 return
 branch32
