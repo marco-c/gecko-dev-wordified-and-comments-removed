@@ -608,7 +608,7 @@ removeObjectStore
 (
 in
 DOMString
-storeName
+name
 )
 ;
 nsIIDBRequest
