@@ -153,7 +153,7 @@ patch
 -
 p0
 <
-int
+solaris
 -
 types
 .
