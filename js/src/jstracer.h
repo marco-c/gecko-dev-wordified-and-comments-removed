@@ -613,12 +613,6 @@ type
 bool
 verifyTypeStability
 (
-JSStackFrame
-*
-entryFrame
-JSStackFrame
-*
-currentFrame
 uint8
 *
 m
