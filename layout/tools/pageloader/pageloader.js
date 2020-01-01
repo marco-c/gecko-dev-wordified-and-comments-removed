@@ -955,6 +955,7 @@ load
 |
 (
 !
+(
 evt
 .
 originalTarget
@@ -962,6 +963,7 @@ instanceof
 Ci
 .
 nsIDOMHTMLDocument
+)
 |
 |
 evt
@@ -1063,6 +1065,7 @@ load
 |
 (
 !
+(
 evt
 .
 originalTarget
@@ -1070,6 +1073,7 @@ instanceof
 Ci
 .
 nsIDOMHTMLDocument
+)
 |
 |
 evt
