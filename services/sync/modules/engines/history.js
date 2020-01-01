@@ -2704,6 +2704,8 @@ HT__init
 {
 Tracker
 .
+prototype
+.
 _init
 .
 call
