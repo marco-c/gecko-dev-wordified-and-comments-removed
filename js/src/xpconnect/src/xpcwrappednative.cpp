@@ -14550,7 +14550,6 @@ n
 ;
 xpc_DumpJSStack
 (
-1
 ccx
 JS_TRUE
 JS_TRUE

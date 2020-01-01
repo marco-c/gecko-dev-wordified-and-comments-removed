@@ -674,12 +674,6 @@ JSTracerPtr
 JSTracer
 )
 ;
-native
-fd
-(
-int
-)
-;
 /
 *
 *
@@ -4756,9 +4750,6 @@ depth
 void
 debugDumpJSStack
 (
-in
-fd
-filedesc
 in
 PRBool
 showArgs
