@@ -5145,3 +5145,15 @@ the
 stack
 "
 )
+MSG_DEF
+(
+JSMSG_DEBUG_BAD_OFFSET
+279
+0
+JSEXN_TYPEERR
+"
+invalid
+script
+offset
+"
+)
