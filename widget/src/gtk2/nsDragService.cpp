@@ -4992,10 +4992,6 @@ mTargetDragDataReceived
 =
 PR_FALSE
 ;
-if
-(
-mTargetDragData
-)
 g_free
 (
 mTargetDragData
