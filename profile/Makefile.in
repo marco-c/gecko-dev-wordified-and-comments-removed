@@ -79,10 +79,6 @@ mk
 MODULE
 =
 profile
-DIRS
-=
-public
-dirserviceprovider
 include
 (
 topsrcdir
