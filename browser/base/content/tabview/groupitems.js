@@ -3870,7 +3870,7 @@ true
 _fadeAwayUndoButton
 :
 function
-GroupItem__fadeAwayUdoButton
+GroupItem__fadeAwayUndoButton
 (
 )
 {
@@ -4395,6 +4395,7 @@ updateGroupCloseButtons
 setupFadeAwayUndoButtonTimer
 :
 function
+GroupItem_setupFadeAwayUndoButtonTimer
 (
 )
 {
@@ -4438,6 +4439,7 @@ fadeAwayUndoButtonDelay
 _cancelFadeAwayUndoButtonTimer
 :
 function
+GroupItem__cancelFadeAwayUndoButtonTimer
 (
 )
 {
@@ -9722,7 +9724,7 @@ false
 getAppTabFavIconUrl
 :
 function
-GroupItems__getAppTabFavIconUrl
+GroupItems_getAppTabFavIconUrl
 (
 xulTab
 )
