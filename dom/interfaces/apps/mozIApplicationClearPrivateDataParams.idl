@@ -128,6 +128,8 @@ ba0e6c8e
 ]
 interface
 mozIApplicationClearPrivateDataParams
+:
+nsISupports
 {
 readonly
 attribute
