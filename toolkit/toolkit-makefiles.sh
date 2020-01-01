@@ -8787,6 +8787,15 @@ src
 /
 Makefile
 "
+fi
+if
+[
+"
+MOZ_VP8
+"
+]
+;
+then
 if
 [
 !
