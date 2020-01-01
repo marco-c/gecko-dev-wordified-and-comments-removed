@@ -6965,9 +6965,6 @@ num_glyphs
 cairo_scaled_font_t
 *
 scaled_font
-int
-*
-remaining_glyphs
 )
 ;
 static
@@ -9559,9 +9556,6 @@ num_glyphs
 cairo_scaled_font_t
 *
 scaled_font
-int
-*
-remaining_glyphs
 )
 {
 cairo_int_status_t
@@ -9622,7 +9616,7 @@ max_index
 cairo_xcb_surface_show_glyphs_func_t
 show_glyphs_func
 ;
-cairo_solid_pattern_t
+cairo_pattern_union_t
 solid_pattern
 ;
 if
@@ -9832,6 +9826,8 @@ _cairo_pattern_init_solid
 (
 &
 solid_pattern
+.
+solid
 CAIRO_COLOR_WHITE
 CAIRO_CONTENT_COLOR
 )

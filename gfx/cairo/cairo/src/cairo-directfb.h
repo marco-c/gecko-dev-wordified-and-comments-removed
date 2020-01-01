@@ -6,11 +6,11 @@ define
 CAIRO_DIRECTFB_H
 #
 include
-"
+<
 cairo
 .
 h
-"
+>
 #
 ifdef
 CAIRO_HAS_DIRECTFB_SURFACE

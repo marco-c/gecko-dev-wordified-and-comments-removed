@@ -627,7 +627,7 @@ font_matrix
 ctm
 options
 &
-_cairo_quartz_scaled_font_backend
+cairo_quartz_scaled_font_backend
 )
 ;
 if
@@ -3556,7 +3556,7 @@ glyph
 }
 const
 cairo_scaled_font_backend_t
-_cairo_quartz_scaled_font_backend
+cairo_quartz_scaled_font_backend
 =
 {
 CAIRO_FONT_TYPE_QUARTZ

@@ -6,11 +6,11 @@ define
 CAIRO_PS_H
 #
 include
-"
+<
 cairo
 .
 h
-"
+>
 #
 if
 CAIRO_HAS_PS_SURFACE

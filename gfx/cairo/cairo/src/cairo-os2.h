@@ -6,11 +6,11 @@ define
 _CAIRO_OS2_H_
 #
 include
-"
+<
 cairo
 .
 h
-"
+>
 CAIRO_BEGIN_DECLS
 cairo_public
 void

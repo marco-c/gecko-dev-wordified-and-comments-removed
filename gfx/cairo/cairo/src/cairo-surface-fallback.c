@@ -931,7 +931,7 @@ cairo_rectangle_int_t
 extents
 )
 {
-cairo_solid_pattern_t
+cairo_pattern_union_t
 solid_pattern
 ;
 cairo_status_t
@@ -959,6 +959,8 @@ _cairo_pattern_init_solid
 (
 &
 solid_pattern
+.
+solid
 CAIRO_COLOR_WHITE
 CAIRO_CONTENT_COLOR
 )
@@ -1116,10 +1118,10 @@ extents
 cairo_status_t
 status
 ;
-cairo_solid_pattern_t
+cairo_pattern_union_t
 solid_pattern
 ;
-cairo_surface_pattern_t
+cairo_pattern_union_t
 mask
 ;
 int
@@ -1162,6 +1164,8 @@ _cairo_pattern_init_solid
 (
 &
 solid_pattern
+.
+solid
 CAIRO_COLOR_WHITE
 CAIRO_CONTENT_COLOR
 )
@@ -1240,6 +1244,8 @@ _cairo_pattern_init_for_surface
 (
 &
 mask
+.
+surface
 clip_surface
 )
 ;
@@ -1424,7 +1430,7 @@ info
 =
 closure
 ;
-cairo_solid_pattern_t
+cairo_pattern_union_t
 pattern
 ;
 cairo_status_t
@@ -1459,6 +1465,8 @@ _cairo_pattern_init_solid
 (
 &
 pattern
+.
+solid
 CAIRO_COLOR_WHITE
 CAIRO_CONTENT_COLOR
 )
@@ -3080,7 +3088,7 @@ glyph_info
 =
 closure
 ;
-cairo_solid_pattern_t
+cairo_pattern_union_t
 pattern
 ;
 cairo_status_t
@@ -3165,6 +3173,8 @@ _cairo_pattern_init_solid
 (
 &
 pattern
+.
+solid
 CAIRO_COLOR_WHITE
 CAIRO_CONTENT_COLOR
 )
@@ -3470,7 +3480,7 @@ snapshot
 cairo_status_t
 status
 ;
-cairo_surface_pattern_t
+cairo_pattern_union_t
 pattern
 ;
 cairo_image_surface_t
@@ -3543,6 +3553,8 @@ _cairo_pattern_init_for_surface
 (
 &
 pattern
+.
+surface
 &
 image
 -

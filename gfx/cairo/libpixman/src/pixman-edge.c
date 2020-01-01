@@ -1179,7 +1179,6 @@ break
 #
 ifndef
 PIXMAN_FB_ACCESSORS
-PIXMAN_EXPORT
 void
 pixman_rasterize_edges
 (
