@@ -590,7 +590,7 @@ RecvAsyncOpen
 this
 =
 %
-x
+p
 uri
 =
 %
@@ -1818,7 +1818,7 @@ OnStartRequest
 this
 =
 %
-x
+p
 ]
 \
 n
@@ -2178,11 +2178,11 @@ OnStopRequest
 this
 =
 %
-x
+p
 status
 =
 %
-ul
+x
 ]
 \
 n
@@ -2243,7 +2243,7 @@ OnDataAvailable
 this
 =
 %
-x
+p
 ]
 \
 n

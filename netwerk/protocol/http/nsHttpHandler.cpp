@@ -958,7 +958,7 @@ nsHttpHandler
 this
 =
 %
-x
+p
 ]
 .
 \
@@ -1004,7 +1004,7 @@ nsHttpHandler
 this
 =
 %
-x
+p
 ]
 \
 n

@@ -157,7 +157,7 @@ nsWyciwygProtocolHandler
 this
 =
 %
-x
+p
 ]
 .
 \
@@ -186,7 +186,7 @@ nsWyciwygProtocolHandler
 this
 =
 %
-x
+p
 ]
 \
 n
