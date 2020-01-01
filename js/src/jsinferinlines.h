@@ -384,6 +384,10 @@ kindInt
 (
 Ion
 )
+pendingRecompilation
+(
+false
+)
 {
 }
 inline
@@ -1599,12 +1603,6 @@ setKind
 kind
 )
 ;
-co
-.
-pendingRecompilation
-=
-true
-;
 JS_ASSERT
 (
 !
@@ -1799,13 +1797,6 @@ compilerOutput
 (
 cx
 )
-;
-co
--
->
-pendingRecompilation
-=
-false
 ;
 if
 (
