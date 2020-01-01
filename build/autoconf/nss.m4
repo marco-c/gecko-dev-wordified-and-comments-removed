@@ -82,9 +82,7 @@ and
 NSS_LIBS
 AC_DEFUN
 (
-[
 AM_PATH_NSS
-]
 [
 dnl
 AC_ARG_WITH
