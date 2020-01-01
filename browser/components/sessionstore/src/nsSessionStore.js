@@ -10879,7 +10879,7 @@ entry
 {
 this
 .
-_extractHostsForCookies
+_extractHostsForCookiesFromEntry
 (
 entry
 aHosts
