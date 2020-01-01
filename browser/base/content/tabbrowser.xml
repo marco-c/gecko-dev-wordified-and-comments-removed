@@ -5467,9 +5467,11 @@ e
 }
 if
 (
-window
-.
+"
 TabView
+"
+in
+window
 )
 {
 let
@@ -5526,9 +5528,11 @@ CDATA
 [
 if
 (
-window
-.
+"
 TabView
+"
+in
+window
 &
 &
 TabView
