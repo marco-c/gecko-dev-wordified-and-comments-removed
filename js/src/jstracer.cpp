@@ -7876,7 +7876,7 @@ gc
 Fragmento
 (
 core
-18
+24
 )
 ;
 #
