@@ -800,7 +800,7 @@ wcslen
 wCwd
 )
 +
-3
+2
 ;
 WCHAR
 *
@@ -852,7 +852,7 @@ wcslen
 wCmd
 )
 +
-2
+1
 wCwd
 )
 ;
@@ -1904,6 +1904,11 @@ windowName
 MessageWindow
 "
 sizeof
+(
+windowName
+)
+-
+strlen
 (
 windowName
 )
