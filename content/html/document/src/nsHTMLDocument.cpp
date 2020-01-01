@@ -1512,6 +1512,11 @@ cb
 >
 NoteXPCOMChild
 (
+static_cast
+<
+nsIDOMNodeList
+*
+>
 entry
 -
 >
