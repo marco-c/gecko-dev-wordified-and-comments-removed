@@ -608,14 +608,6 @@ test_elm_media
 .
 html
 \
-test_elm_scale
-.
-xul
-\
-test_elm_scrollbar
-.
-html
-\
 test_elm_txtcntnr
 .
 html
