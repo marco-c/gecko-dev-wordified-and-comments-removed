@@ -1647,6 +1647,10 @@ mType
 =
 =
 TYPE_REPEATING_SLACK
+&
+&
+!
+mArmed
 )
 {
 SetDelayInternal
