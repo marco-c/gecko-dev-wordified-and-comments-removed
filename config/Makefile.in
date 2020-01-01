@@ -1059,6 +1059,12 @@ unit
 nsinstall
 .
 py
+\
+unit
+-
+printprereleasesuffix
+.
+py
 check
 :
 :
