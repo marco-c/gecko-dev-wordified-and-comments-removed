@@ -2094,7 +2094,7 @@ NS_ERROR_SIGNED_JAR_MANIFEST_INVALID
 if
 (
 !
-SEC_PKCS7VerifyDetachedSignature
+SEC_PKCS7VerifyDetachedSignatureAtTime
 (
 p7_info
 certUsageObjectSigner
@@ -2106,6 +2106,9 @@ get
 )
 HASH_AlgSHA1
 false
+PR_Now
+(
+)
 )
 )
 {
