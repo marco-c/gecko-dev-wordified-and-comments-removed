@@ -570,10 +570,6 @@ OBJHASHSET
 =
 -
 34
-BASELINECOMPILER
-=
--
-35
 }
 ;
 private
