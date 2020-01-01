@@ -25302,8 +25302,6 @@ obj
 &
 parser
 .
-tokenStream
-.
 isUnexpectedEOF
 (
 )
