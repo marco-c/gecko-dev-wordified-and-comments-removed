@@ -15605,7 +15605,9 @@ nsIdentifierMapEntry
 *
 entry
 =
-GetElementByIdInternal
+mIdentifierMap
+.
+GetEntry
 (
 aID
 )
@@ -15615,8 +15617,10 @@ if
 !
 entry
 )
+{
 return
 ;
+}
 entry
 -
 >
