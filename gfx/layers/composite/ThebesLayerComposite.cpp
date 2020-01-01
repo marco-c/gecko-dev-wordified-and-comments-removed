@@ -639,7 +639,7 @@ metrics
 .
 mResolution
 .
-scale
+width
 ;
 resolution
 .
@@ -650,7 +650,7 @@ metrics
 .
 mResolution
 .
-scale
+height
 ;
 }
 return
@@ -785,7 +785,7 @@ metrics
 .
 mResolution
 .
-scale
+width
 ;
 parentResolution
 .
@@ -796,7 +796,7 @@ metrics
 .
 mResolution
 .
-scale
+height
 ;
 }
 if
@@ -1086,7 +1086,7 @@ LayersPixelsPerCSSPixel
 (
 )
 .
-scale
+width
 )
 /
 scale
@@ -1105,7 +1105,7 @@ LayersPixelsPerCSSPixel
 (
 )
 .
-scale
+height
 )
 /
 scale

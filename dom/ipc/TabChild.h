@@ -1361,7 +1361,7 @@ double
 aScale
 )
 ;
-ScreenToScreenScale
+gfxSize
 GetZoom
 (
 )
