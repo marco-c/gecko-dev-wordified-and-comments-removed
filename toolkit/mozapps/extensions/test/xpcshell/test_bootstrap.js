@@ -623,7 +623,7 @@ do_check_eq
 (
 b1
 .
-getResourceURL
+getResourceURI
 (
 "
 bootstrap
@@ -631,6 +631,8 @@ bootstrap
 js
 "
 )
+.
+spec
 uri
 )
 ;

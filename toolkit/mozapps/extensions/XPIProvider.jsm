@@ -21774,7 +21774,7 @@ png
 return
 this
 .
-getResourceURL
+getResourceURI
 (
 "
 icon
@@ -21782,6 +21782,8 @@ icon
 png
 "
 )
+.
+spec
 ;
 return
 null
@@ -22068,7 +22070,7 @@ push
 (
 this
 .
-getResourceURL
+getResourceURI
 (
 "
 preview
@@ -22076,6 +22078,8 @@ preview
 png
 "
 )
+.
+spec
 )
 ;
 return
@@ -22841,7 +22845,7 @@ result
 }
 this
 .
-getResourceURL
+getResourceURI
 =
 function
 (
@@ -22916,8 +22920,6 @@ newFileURI
 (
 bundle
 )
-.
-spec
 ;
 }
 return
@@ -22926,8 +22928,6 @@ buildJarURI
 bundle
 aPath
 )
-.
-spec
 ;
 }
 }
