@@ -239,10 +239,8 @@ NULL
 }
 if
 (
+!
 mDone
-=
-=
-PR_FALSE
 )
 ReportDownload
 (

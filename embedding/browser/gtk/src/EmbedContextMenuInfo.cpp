@@ -2097,10 +2097,8 @@ aNoHref
 ;
 if
 (
+!
 aNoHref
-=
-=
-PR_FALSE
 )
 rv
 =
