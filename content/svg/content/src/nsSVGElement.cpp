@@ -3293,8 +3293,6 @@ aFlags
 (
 eCONTENT
 |
-eELEMENT
-|
 eSVG
 )
 )

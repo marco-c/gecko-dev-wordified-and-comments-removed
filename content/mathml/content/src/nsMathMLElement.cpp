@@ -1980,11 +1980,7 @@ return
 aFlags
 &
 ~
-(
 eCONTENT
-|
-eELEMENT
-)
 )
 ;
 }

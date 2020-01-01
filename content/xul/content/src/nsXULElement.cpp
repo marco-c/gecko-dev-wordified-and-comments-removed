@@ -9160,11 +9160,7 @@ return
 aFlags
 &
 ~
-(
 eCONTENT
-|
-eELEMENT
-)
 )
 ;
 }

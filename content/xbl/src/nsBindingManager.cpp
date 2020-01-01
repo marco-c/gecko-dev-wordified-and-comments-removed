@@ -5068,7 +5068,7 @@ NS_ASSERTION
 aData
 -
 >
-mContent
+mElement
 "
 How
 did
@@ -5085,7 +5085,7 @@ content
 aData
 -
 >
-mContent
+mElement
 ;
 do
 {
@@ -5127,7 +5127,7 @@ content
 aData
 -
 >
-mContent
+mElement
 )
 {
 if

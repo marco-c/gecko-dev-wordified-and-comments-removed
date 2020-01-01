@@ -2076,9 +2076,15 @@ static
 PRBool
 doMatchesSelector
 (
-nsIContent
+mozilla
+:
+:
+dom
+:
+:
+Element
 *
-aNode
+aElement
 const
 nsAString
 &

@@ -13995,11 +13995,7 @@ return
 aFlags
 &
 ~
-(
 eCONTENT
-|
-eELEMENT
-)
 )
 ;
 }
@@ -22887,6 +22883,11 @@ RuleProcessorData
 (
 aPresContext
 kid
+-
+>
+AsElement
+(
+)
 nsnull
 )
 ;
@@ -23453,9 +23454,9 @@ nsGenericElement
 :
 doMatchesSelector
 (
-nsIContent
+Element
 *
-aNode
+aElement
 const
 nsAString
 &
@@ -23483,7 +23484,7 @@ NS_SUCCEEDED
 (
 ParseSelectorList
 (
-aNode
+aElement
 aSelector
 getter_Transfers
 (
@@ -23499,7 +23500,7 @@ RuleProcessorData
 data
 (
 presContext
-aNode
+aElement
 nsnull
 )
 ;

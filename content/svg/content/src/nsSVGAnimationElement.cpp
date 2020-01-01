@@ -1370,8 +1370,6 @@ aFlags
 (
 eCONTENT
 |
-eELEMENT
-|
 eSVG
 |
 eANIMATION

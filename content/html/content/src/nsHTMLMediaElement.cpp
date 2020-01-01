@@ -8389,8 +8389,6 @@ aFlags
 (
 eCONTENT
 |
-eELEMENT
-|
 eMEDIA
 )
 )
