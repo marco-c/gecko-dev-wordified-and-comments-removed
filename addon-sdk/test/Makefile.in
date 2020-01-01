@@ -68,9 +68,6 @@ srcdir
 relativesrcdir
 =
 relativesrcdir
-DISABLED_XPCSHELL_TESTS
-=
-unit
 include
 (
 DEPTH

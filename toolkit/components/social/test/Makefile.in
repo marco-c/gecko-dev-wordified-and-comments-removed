@@ -87,14 +87,6 @@ turned
 off
 for
 android
-DISABLED_XPCSHELL_TESTS
-=
-\
-xpcshell
-\
-(
-NULL
-)
 endif
 include
 (

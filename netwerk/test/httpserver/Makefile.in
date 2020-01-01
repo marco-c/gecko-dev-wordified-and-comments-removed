@@ -123,9 +123,6 @@ manifest
 NULL
 )
 endif
-DISABLED_XPCSHELL_TESTS
-=
-test
 TESTING_JS_MODULES
 =
 httpd

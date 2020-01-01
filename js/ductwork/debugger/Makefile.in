@@ -128,9 +128,6 @@ jsm
 (
 NULL
 )
-DISABLED_XPCSHELL_TESTS
-=
-tests
 include
 (
 topsrcdir

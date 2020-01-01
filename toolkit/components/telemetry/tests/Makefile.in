@@ -83,14 +83,6 @@ mk
 MODULE
 =
 test_harness_telemetry
-DISABLED_XPCSHELL_TESTS
-=
-\
-unit
-\
-(
-NULL
-)
 include
 (
 topsrcdir

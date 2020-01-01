@@ -79,16 +79,6 @@ config
 autoconf
 .
 mk
-DISABLED_XPCSHELL_TESTS
-=
-\
-unit
-\
-schema_migration
-\
-(
-NULL
-)
 include
 (
 topsrcdir

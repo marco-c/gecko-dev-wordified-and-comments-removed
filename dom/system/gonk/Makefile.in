@@ -377,12 +377,6 @@ js
 (
 NULL
 )
-ifdef
-ENABLE_TESTS
-DISABLED_XPCSHELL_TESTS
-=
-tests
-endif
 include
 (
 topsrcdir

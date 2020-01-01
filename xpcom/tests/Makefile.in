@@ -491,9 +491,6 @@ LIBS
 -
 lpcap
 endif
-DISABLED_XPCSHELL_TESTS
-=
-unit
 #
 Make
 sure

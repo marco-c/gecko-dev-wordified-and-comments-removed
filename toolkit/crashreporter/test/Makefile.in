@@ -79,10 +79,6 @@ config
 autoconf
 .
 mk
-DISABLED_XPCSHELL_TESTS
-=
-unit
-unit_ipc
 LIBRARY_NAME
 =
 testcrasher

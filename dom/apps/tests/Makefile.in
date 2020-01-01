@@ -126,9 +126,6 @@ xul
 (
 NULL
 )
-DISABLED_XPCSHELL_TESTS
-=
-unit
 include
 (
 topsrcdir

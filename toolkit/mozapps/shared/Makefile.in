@@ -98,14 +98,6 @@ jsm
 (
 NULL
 )
-ifdef
-ENABLE_TESTS
-DISABLED_XPCSHELL_TESTS
-=
-test
-/
-unit
-endif
 include
 (
 topsrcdir
