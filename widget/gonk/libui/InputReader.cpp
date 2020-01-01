@@ -6640,16 +6640,6 @@ InputDevice
 device
 )
 {
-mHaveBtnTouch
-=
-device
--
->
-hasKey
-(
-BTN_TOUCH
-)
-;
 }
 void
 TouchButtonAccumulator
