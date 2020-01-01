@@ -3114,14 +3114,14 @@ downloadGuid
 =
 aSubject
 .
-data
-.
 QueryInterface
 (
 Ci
 .
 nsISupportsCString
 )
+.
+data
 ;
 DownloadsCommon
 .
