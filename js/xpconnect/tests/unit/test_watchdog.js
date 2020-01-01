@@ -618,6 +618,15 @@ stopHibernation
 1000000
 )
 ;
+const
+FUZZ_FACTOR
+=
+1
+*
+1000
+*
+1000
+;
 do_check_true
 (
 stateChange
@@ -629,6 +638,8 @@ now
 1000
 *
 1000
+-
+FUZZ_FACTOR
 )
 ;
 do_check_true
@@ -642,6 +653,8 @@ now
 1000
 *
 1000
+-
+FUZZ_FACTOR
 )
 ;
 do_check_true
@@ -655,6 +668,8 @@ now
 1000
 *
 1000
++
+FUZZ_FACTOR
 )
 ;
 do_check_true
@@ -668,6 +683,8 @@ now
 1000
 *
 1000
+-
+FUZZ_FACTOR
 )
 ;
 do_test_finished
