@@ -2105,17 +2105,6 @@ PRBool
 aNotify
 )
 ;
-virtual
-PRBool
-AcceptAutofocus
-(
-)
-const
-{
-return
-PR_FALSE
-;
-}
 void
 UpdateEditableFormControlState
 (

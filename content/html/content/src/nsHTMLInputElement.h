@@ -1288,17 +1288,6 @@ eIgnoreCase
 )
 ;
 }
-virtual
-PRBool
-AcceptAutofocus
-(
-)
-const
-{
-return
-PR_TRUE
-;
-}
 nsresult
 VisitGroup
 (

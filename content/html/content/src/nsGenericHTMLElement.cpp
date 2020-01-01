@@ -11259,7 +11259,7 @@ rv
 ;
 if
 (
-AcceptAutofocus
+IsAutofocusable
 (
 )
 &

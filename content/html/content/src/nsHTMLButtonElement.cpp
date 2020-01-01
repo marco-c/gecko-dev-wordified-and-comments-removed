@@ -485,17 +485,6 @@ GetClassInfo
 ;
 protected
 :
-virtual
-PRBool
-AcceptAutofocus
-(
-)
-const
-{
-return
-PR_TRUE
-;
-}
 PRUint8
 mType
 ;
