@@ -3688,12 +3688,6 @@ preserveWrapperCallback
 js
 :
 :
-ScriptFilenameTable
-scriptFilenameTable
-;
-js
-:
-:
 ScriptDataTable
 scriptDataTable
 ;

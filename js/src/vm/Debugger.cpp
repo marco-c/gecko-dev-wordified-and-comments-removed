@@ -12908,6 +12908,8 @@ script
 -
 >
 filename
+(
+)
 |
 |
 strcmp
@@ -12916,6 +12918,8 @@ script
 -
 >
 filename
+(
+)
 urlCString
 .
 ptr
@@ -14385,6 +14389,8 @@ script
 -
 >
 filename
+(
+)
 )
 {
 JSString
@@ -14401,6 +14407,8 @@ script
 -
 >
 filename
+(
+)
 )
 ;
 if

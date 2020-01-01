@@ -223,6 +223,8 @@ script_
 -
 >
 filename
+(
+)
 ;
 }
 unsigned
