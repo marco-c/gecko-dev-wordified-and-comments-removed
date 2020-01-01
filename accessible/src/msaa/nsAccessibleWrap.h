@@ -971,7 +971,6 @@ UpdateSystemCaret
 (
 )
 ;
-virtual
 nsAccessible
 *
 GetXPAccessibleFor

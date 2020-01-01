@@ -174,17 +174,6 @@ Shutdown
 )
 ;
 virtual
-nsAccessible
-*
-GetXPAccessibleFor
-(
-const
-VARIANT
-&
-varChild
-)
-;
-virtual
 void
 *
 GetNativeWindow

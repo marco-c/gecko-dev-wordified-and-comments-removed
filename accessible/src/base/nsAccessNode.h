@@ -402,8 +402,8 @@ IsElement
 )
 ;
 }
-PRBool
-IsDocument
+bool
+IsDocumentNode
 (
 )
 const
