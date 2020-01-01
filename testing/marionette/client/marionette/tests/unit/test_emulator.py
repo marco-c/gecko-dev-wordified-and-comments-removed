@@ -34,19 +34,9 @@ expected
 =
 [
 "
-gsm
-voice
-state
-:
-home
-"
-                    
-"
-gsm
-data
-state
-:
-home
+<
+build
+>
 "
                     
 "
@@ -69,8 +59,8 @@ execute_async_script
 runEmulatorCmd
 (
 "
-gsm
-status
+avd
+name
 "
 marionetteScriptFinished
 )
