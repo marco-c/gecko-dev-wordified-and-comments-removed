@@ -460,6 +460,7 @@ TTYputs
 (
 p
 )
+CONST
 CHAR
 *
 p
