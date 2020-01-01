@@ -7182,7 +7182,7 @@ sessionstore
 .
 restore_on_demand
 "
-false
+true
 )
 ;
 pref
