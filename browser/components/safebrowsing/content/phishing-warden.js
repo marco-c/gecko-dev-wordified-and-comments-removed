@@ -848,6 +848,14 @@ function
 {
 this
 .
+prefs_
+.
+removeAllObservers
+(
+)
+;
+this
+.
 progressListener_
 .
 callback
