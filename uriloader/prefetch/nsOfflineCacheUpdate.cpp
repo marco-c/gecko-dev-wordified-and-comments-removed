@@ -2460,7 +2460,7 @@ rv
 mManifestURI
 -
 >
-GetHostPort
+GetAsciiHost
 (
 mUpdateDomain
 )
@@ -2479,7 +2479,7 @@ rv
 mManifestURI
 -
 >
-GetSpec
+GetAsciiSpec
 (
 manifestSpec
 )

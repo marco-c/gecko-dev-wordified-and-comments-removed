@@ -196,7 +196,7 @@ MAX_URI_LENGTH
 2048
 static
 nsCAutoString
-gCachedHostPort
+gCachedAsciiHost
 ;
 static
 char
@@ -620,7 +620,7 @@ rv
 mManifestURI
 -
 >
-GetSpec
+GetAsciiSpec
 (
 mDynamicOwnerSpec
 )
@@ -665,9 +665,9 @@ rv
 innerURI
 -
 >
-GetHostPort
+GetAsciiHost
 (
-mHostPort
+mAsciiHost
 )
 ;
 NS_ENSURE_SUCCESS
@@ -1472,7 +1472,7 @@ mCacheSession
 >
 RemoveOwnedKey
 (
-mHostPort
+mAsciiHost
 mDynamicOwnerSpec
 key
 )
@@ -3612,7 +3612,7 @@ rv
 aURI
 -
 >
-GetSpec
+GetAsciiSpec
 (
 aKey
 )
@@ -3689,10 +3689,10 @@ if
 gCachedKeys
 &
 &
-mHostPort
+mAsciiHost
 =
 =
-gCachedHostPort
+gCachedAsciiHost
 )
 return
 NS_OK
@@ -3709,7 +3709,7 @@ mCacheSession
 >
 GetOwnedKeys
 (
-mHostPort
+mAsciiHost
 mDynamicOwnerSpec
 &
 gCachedKeysCount
@@ -3724,9 +3724,9 @@ NS_SUCCEEDED
 rv
 )
 )
-gCachedHostPort
+gCachedAsciiHost
 =
-mHostPort
+mAsciiHost
 ;
 return
 rv
@@ -3760,7 +3760,7 @@ gCachedKeysCount
 0
 ;
 }
-gCachedHostPort
+gCachedAsciiHost
 =
 "
 "
