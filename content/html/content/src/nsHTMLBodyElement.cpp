@@ -1597,7 +1597,7 @@ NS_IMPL_ELEMENT_CLONE
 (
 nsHTMLBodyElement
 )
-NS_IMPL_URI_ATTR
+NS_IMPL_STRING_ATTR
 (
 nsHTMLBodyElement
 Background
