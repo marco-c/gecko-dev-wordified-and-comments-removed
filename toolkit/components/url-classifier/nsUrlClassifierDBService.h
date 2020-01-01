@@ -35,6 +35,13 @@ h
 #
 include
 "
+nsIUrlClassifierPrefixSet
+.
+h
+"
+#
+include
+"
 nsIUrlClassifierHashCompleter
 .
 h
@@ -215,6 +222,12 @@ nsTArray
 nsCString
 >
 mGethashWhitelist
+;
+nsCOMPtr
+<
+nsIUrlClassifierPrefixSet
+>
+mPrefixSet
 ;
 static
 nsIThread
