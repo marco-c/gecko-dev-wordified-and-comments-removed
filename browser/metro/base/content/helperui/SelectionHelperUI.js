@@ -1486,6 +1486,7 @@ openEditSession
 aMsgTarget
 aX
 aY
+aSetFocus
 )
 {
 if
@@ -1513,6 +1514,14 @@ _setupDebugOptions
 (
 )
 ;
+let
+setFocus
+=
+aSetFocus
+|
+|
+false
+;
 this
 .
 _sendAsyncMessage
@@ -1523,6 +1532,9 @@ Browser
 SelectionStart
 "
 {
+setFocus
+:
+setFocus
 xPos
 :
 aX
