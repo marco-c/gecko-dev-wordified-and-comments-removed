@@ -42,6 +42,13 @@ h
 #
 include
 "
+nsIHTMLEditor_MOZILLA_2_0_BRANCH
+.
+h
+"
+#
+include
+"
 nsITableEditor
 .
 h
@@ -219,6 +226,8 @@ public
 nsPlaintextEditor
 public
 nsIHTMLEditor
+public
+nsIHTMLEditor_MOZILLA_2_0_BRANCH
 public
 nsIHTMLObjectResizer
 public
@@ -418,6 +427,7 @@ aState
 )
 ;
 NS_DECL_NSIHTMLEDITOR
+NS_DECL_NSIHTMLEDITOR_MOZILLA_2_0_BRANCH
 NS_DECL_NSIHTMLOBJECTRESIZER
 NS_DECL_NSIHTMLABSPOSEDITOR
 NS_DECL_NSIHTMLINLINETABLEEDITOR
