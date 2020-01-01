@@ -15825,9 +15825,9 @@ menuPopup
 )
 ;
 let
-allChecked
+someChecked
 =
-true
+false
 ;
 for
 (
@@ -15967,13 +15967,12 @@ checked
 ;
 if
 (
-!
 checked
 )
 {
-allChecked
+someChecked
 =
-false
+true
 ;
 }
 menuItem
@@ -16002,7 +16001,7 @@ setAttribute
 "
 checked
 "
-allChecked
+someChecked
 )
 ;
 }
