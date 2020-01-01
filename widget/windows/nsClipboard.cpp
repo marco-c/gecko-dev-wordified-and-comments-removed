@@ -1348,16 +1348,7 @@ NS_ERROR_FAILURE
 HWND
 nativeWin
 =
-(
-HWND
-)
-aWidget
--
->
-GetNativeData
-(
-NS_NATIVE_WINDOW
-)
+nullptr
 ;
 if
 (
