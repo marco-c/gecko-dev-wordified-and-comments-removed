@@ -19002,6 +19002,16 @@ setFunIsHeavyweight
 (
 )
 ;
+tc
+-
+>
+sc
+-
+>
+setBindingsAccessedDynamically
+(
+)
+;
 break
 ;
 #

@@ -4481,10 +4481,6 @@ enumerators
 (
 NULL
 )
-activeCompilations
-(
-0
-)
 #
 ifdef
 DEBUG
@@ -4492,8 +4488,16 @@ stackIterAssertionEnabled
 (
 true
 )
+okToAccessUnaliasedBindings
+(
+0
+)
 #
 endif
+activeCompilations
+(
+0
+)
 {
 PodZero
 (

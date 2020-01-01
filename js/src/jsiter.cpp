@@ -7203,6 +7203,7 @@ StackFrame
 DoPostBarrier
 >
 (
+cx
 genfp
 genvp
 stackfp
@@ -7216,6 +7217,13 @@ genfp
 -
 >
 initFloatingGenerator
+(
+)
+;
+stackfp
+-
+>
+setYielding
 (
 )
 ;

@@ -22092,6 +22092,11 @@ nesting
 >
 children
 )
+|
+|
+debugMode
+(
+)
 )
 {
 prepareStubCall
@@ -40208,7 +40213,7 @@ stubs
 :
 :
 EnterBlock
-REJOIN_NONE
+REJOIN_FALLTHROUGH
 )
 ;
 if
