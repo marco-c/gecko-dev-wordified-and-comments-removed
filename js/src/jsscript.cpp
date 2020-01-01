@@ -1823,6 +1823,13 @@ bindings
 cx
 )
 ;
+AutoBindingsRooter
+rooter
+(
+cx
+bindings
+)
+;
 uint32
 nameCount
 =
