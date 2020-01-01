@@ -281,7 +281,7 @@ FromParser
 aFromParser
 )
 :
-nsGenericHTMLFormElement
+nsGenericHTMLFormElementWithState
 (
 aNodeInfo
 )
@@ -345,7 +345,7 @@ NS_EVENT_STATE_VALID
 NS_IMPL_CYCLE_COLLECTION_INHERITED_3
 (
 HTMLTextAreaElement
-nsGenericHTMLFormElement
+nsGenericHTMLFormElementWithState
 mValidity
 mControllers
 mState
@@ -366,7 +366,7 @@ HTMLTextAreaElement
 )
 NS_HTML_CONTENT_INTERFACES
 (
-nsGenericHTMLFormElement
+nsGenericHTMLFormElementWithState
 )
 NS_INTERFACE_TABLE_INHERITED5
 (
@@ -400,7 +400,7 @@ aForm
 )
 {
 return
-nsGenericHTMLFormElement
+nsGenericHTMLFormElementWithState
 :
 :
 GetForm
@@ -656,7 +656,7 @@ aTabIndex
 {
 if
 (
-nsGenericHTMLFormElement
+nsGenericHTMLFormElementWithState
 :
 :
 IsHTMLFocusable
@@ -1453,7 +1453,7 @@ nsRuleData
 aData
 )
 {
-nsGenericHTMLFormElement
+nsGenericHTMLFormElementWithState
 :
 :
 MapDivAlignAttributeInto
@@ -1462,7 +1462,7 @@ aAttributes
 aData
 )
 ;
-nsGenericHTMLFormElement
+nsGenericHTMLFormElementWithState
 :
 :
 MapCommonAttributesInto
@@ -1490,7 +1490,7 @@ const
 nsChangeHint
 retval
 =
-nsGenericHTMLFormElement
+nsGenericHTMLFormElementWithState
 :
 :
 GetAttributeChangeHint
@@ -1823,7 +1823,7 @@ FireChangeEventIfNeeded
 ;
 }
 return
-nsGenericHTMLFormElement
+nsGenericHTMLFormElementWithState
 :
 :
 PreHandleEvent
@@ -2060,12 +2060,26 @@ if
 mInhibitStateRestoration
 )
 {
-RestoreFormControlState
+nsresult
+rv
+=
+GenerateStateKey
 (
-this
-this
 )
 ;
+if
+(
+NS_SUCCEEDED
+(
+rv
+)
+)
+{
+RestoreFormControlState
+(
+)
+;
+}
 }
 }
 mDoneAddingChildren
@@ -3902,7 +3916,7 @@ const
 nsEventStates
 state
 =
-nsGenericHTMLFormElement
+nsGenericHTMLFormElementWithState
 :
 :
 IntrinsicState
@@ -4095,7 +4109,7 @@ aCompileEventHandlers
 nsresult
 rv
 =
-nsGenericHTMLFormElement
+nsGenericHTMLFormElementWithState
 :
 :
 BindToTree
@@ -4141,7 +4155,7 @@ bool
 aNullParent
 )
 {
-nsGenericHTMLFormElement
+nsGenericHTMLFormElementWithState
 :
 :
 UnbindFromTree
@@ -4209,7 +4223,7 @@ true
 ;
 }
 return
-nsGenericHTMLFormElement
+nsGenericHTMLFormElementWithState
 :
 :
 BeforeSetAttr
@@ -4475,7 +4489,7 @@ aNotify
 ;
 }
 return
-nsGenericHTMLFormElement
+nsGenericHTMLFormElementWithState
 :
 :
 AfterSetAttr
@@ -4501,7 +4515,7 @@ aDest
 nsresult
 rv
 =
-nsGenericHTMLFormElement
+nsGenericHTMLFormElementWithState
 :
 :
 CopyInnerTo
@@ -5398,7 +5412,7 @@ UpdateBarredFromConstraintValidation
 (
 )
 ;
-nsGenericHTMLFormElement
+nsGenericHTMLFormElementWithState
 :
 :
 FieldSetDisabledChanged

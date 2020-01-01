@@ -120,7 +120,7 @@ HTMLTextAreaElement
 MOZ_FINAL
 :
 public
-nsGenericHTMLFormElement
+nsGenericHTMLFormElementWithState
 public
 nsIDOMHTMLTextAreaElement
 public
@@ -701,7 +701,7 @@ NS_DECL_NSIMUTATIONOBSERVER_CONTENTREMOVED
 NS_DECL_CYCLE_COLLECTION_CLASS_INHERITED
 (
 HTMLTextAreaElement
-nsGenericHTMLFormElement
+nsGenericHTMLFormElementWithState
 )
 virtual
 nsIDOMNode
@@ -881,7 +881,7 @@ aError
 ;
 }
 using
-nsGenericHTMLFormElement
+nsGenericHTMLFormElementWithState
 :
 :
 GetForm
@@ -1266,7 +1266,7 @@ GetEditor
 protected
 :
 using
-nsGenericHTMLFormElement
+nsGenericHTMLFormElementWithState
 :
 :
 IsSingleLineTextControl

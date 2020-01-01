@@ -455,7 +455,7 @@ FromParser
 aFromParser
 )
 :
-nsGenericHTMLFormElement
+nsGenericHTMLFormElementWithState
 (
 aNodeInfo
 )
@@ -551,7 +551,7 @@ DropReference
 NS_IMPL_CYCLE_COLLECTION_TRAVERSE_BEGIN_INHERITED
 (
 HTMLSelectElement
-nsGenericHTMLFormElement
+nsGenericHTMLFormElementWithState
 )
 NS_IMPL_CYCLE_COLLECTION_TRAVERSE
 (
@@ -565,7 +565,7 @@ NS_IMPL_CYCLE_COLLECTION_TRAVERSE_END
 NS_IMPL_CYCLE_COLLECTION_UNLINK_BEGIN_INHERITED
 (
 HTMLSelectElement
-nsGenericHTMLFormElement
+nsGenericHTMLFormElementWithState
 )
 NS_IMPL_CYCLE_COLLECTION_UNLINK
 (
@@ -588,7 +588,7 @@ HTMLSelectElement
 )
 NS_HTML_CONTENT_INTERFACES
 (
-nsGenericHTMLFormElement
+nsGenericHTMLFormElementWithState
 )
 NS_INTERFACE_TABLE_INHERITED2
 (
@@ -648,7 +648,7 @@ aForm
 )
 {
 return
-nsGenericHTMLFormElement
+nsGenericHTMLFormElementWithState
 :
 :
 GetForm
@@ -685,7 +685,7 @@ aNotify
 nsresult
 rv
 =
-nsGenericHTMLFormElement
+nsGenericHTMLFormElementWithState
 :
 :
 InsertChildAt
@@ -736,7 +736,7 @@ aIndex
 aNotify
 )
 ;
-nsGenericHTMLFormElement
+nsGenericHTMLFormElementWithState
 :
 :
 RemoveChildAt
@@ -4405,7 +4405,7 @@ aTabIndex
 {
 if
 (
-nsGenericHTMLFormElement
+nsGenericHTMLFormElementWithState
 :
 :
 IsHTMLFocusable
@@ -4647,7 +4647,7 @@ aCompileEventHandlers
 nsresult
 rv
 =
-nsGenericHTMLFormElement
+nsGenericHTMLFormElementWithState
 :
 :
 BindToTree
@@ -4689,7 +4689,7 @@ bool
 aNullParent
 )
 {
-nsGenericHTMLFormElement
+nsGenericHTMLFormElementWithState
 :
 :
 UnbindFromTree
@@ -4753,7 +4753,7 @@ true
 ;
 }
 return
-nsGenericHTMLFormElement
+nsGenericHTMLFormElementWithState
 :
 :
 BeforeSetAttr
@@ -4832,7 +4832,7 @@ aNotify
 ;
 }
 return
-nsGenericHTMLFormElement
+nsGenericHTMLFormElementWithState
 :
 :
 AfterSetAttr
@@ -4898,7 +4898,7 @@ aNotify
 nsresult
 rv
 =
-nsGenericHTMLFormElement
+nsGenericHTMLFormElementWithState
 :
 :
 UnsetAttr
@@ -5001,12 +5001,26 @@ if
 mInhibitStateRestoration
 )
 {
-RestoreFormControlState
+nsresult
+rv
+=
+GenerateStateKey
 (
-this
-this
 )
 ;
+if
+(
+NS_SUCCEEDED
+(
+rv
+)
+)
+{
+RestoreFormControlState
+(
+)
+;
+}
 }
 if
 (
@@ -5104,7 +5118,7 @@ nsRuleData
 aData
 )
 {
-nsGenericHTMLFormElement
+nsGenericHTMLFormElementWithState
 :
 :
 MapImageAlignAttributeInto
@@ -5113,7 +5127,7 @@ aAttributes
 aData
 )
 ;
-nsGenericHTMLFormElement
+nsGenericHTMLFormElementWithState
 :
 :
 MapCommonAttributesInto
@@ -5141,7 +5155,7 @@ const
 nsChangeHint
 retval
 =
-nsGenericHTMLFormElement
+nsGenericHTMLFormElementWithState
 :
 :
 GetAttributeChangeHint
@@ -5314,7 +5328,7 @@ NS_OK
 ;
 }
 return
-nsGenericHTMLFormElement
+nsGenericHTMLFormElementWithState
 :
 :
 PreHandleEvent
@@ -5395,7 +5409,7 @@ true
 ;
 }
 return
-nsGenericHTMLFormElement
+nsGenericHTMLFormElementWithState
 :
 :
 PostHandleEvent
@@ -5416,7 +5430,7 @@ const
 nsEventStates
 state
 =
-nsGenericHTMLFormElement
+nsGenericHTMLFormElementWithState
 :
 :
 IntrinsicState
@@ -6801,7 +6815,7 @@ UpdateBarredFromConstraintValidation
 (
 )
 ;
-nsGenericHTMLFormElement
+nsGenericHTMLFormElementWithState
 :
 :
 FieldSetDisabledChanged

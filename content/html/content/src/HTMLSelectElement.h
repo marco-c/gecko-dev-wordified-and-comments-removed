@@ -347,7 +347,7 @@ HTMLSelectElement
 MOZ_FINAL
 :
 public
-nsGenericHTMLFormElement
+nsGenericHTMLFormElementWithState
 public
 nsIDOMHTMLSelectElement
 public
@@ -479,7 +479,7 @@ GetForm
 const
 {
 return
-nsGenericHTMLFormElement
+nsGenericHTMLFormElementWithState
 :
 :
 GetForm
@@ -1212,7 +1212,7 @@ MOZ_OVERRIDE
 NS_DECL_CYCLE_COLLECTION_CLASS_INHERITED
 (
 HTMLSelectElement
-nsGenericHTMLFormElement
+nsGenericHTMLFormElementWithState
 )
 HTMLOptionsCollection
 *

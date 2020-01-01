@@ -45,7 +45,7 @@ HTMLButtonElement
 MOZ_FINAL
 :
 public
-nsGenericHTMLFormElement
+nsGenericHTMLFormElementWithState
 public
 nsIDOMHTMLButtonElement
 public
@@ -81,7 +81,7 @@ HTMLButtonElement
 NS_DECL_CYCLE_COLLECTION_CLASS_INHERITED
 (
 HTMLButtonElement
-nsGenericHTMLFormElement
+nsGenericHTMLFormElementWithState
 )
 NS_DECL_ISUPPORTS_INHERITED
 NS_FORWARD_NSIDOMNODE_TO_NSINODE

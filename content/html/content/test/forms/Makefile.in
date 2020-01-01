@@ -311,6 +311,10 @@ test_input_color_input_change_events
 .
 html
 \
+test_restore_form_elements
+.
+html
+\
 (
 NULL
 )
