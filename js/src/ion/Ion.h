@@ -96,6 +96,9 @@ bool
 rangeAnalysis
 ;
 bool
+uce
+;
+bool
 parallelCompilation
 ;
 uint32_t
@@ -202,6 +205,10 @@ edgeCaseAnalysis
 true
 )
 rangeAnalysis
+(
+true
+)
+uce
 (
 true
 )
