@@ -853,9 +853,9 @@ nsGenericElement
 aNodeInfo
 )
 {
-ClearIsElement
-(
-)
+mIsElement
+=
+false
 ;
 }
 nsDocumentFragment
