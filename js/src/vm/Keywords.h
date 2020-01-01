@@ -26,7 +26,6 @@ macro
 const
 const_
 TOK_CONST
-JSOP_DEFCONST
 JSVERSION_DEFAULT
 )
 #
@@ -43,7 +42,6 @@ macro
 const
 const_
 TOK_RESERVED
-JSOP_NOP
 JSVERSION_DEFAULT
 )
 #
@@ -63,7 +61,6 @@ macro
 let
 let
 TOK_LET
-JSOP_NOP
 JSVERSION_1_7
 )
 #
@@ -80,7 +77,6 @@ macro
 let
 let
 TOK_STRICT_RESERVED
-JSOP_NOP
 JSVERSION_1_7
 )
 #
@@ -97,7 +93,6 @@ macro
 false
 false_
 TOK_FALSE
-JSOP_FALSE
 JSVERSION_DEFAULT
 )
 \
@@ -106,7 +101,6 @@ macro
 true
 true_
 TOK_TRUE
-JSOP_TRUE
 JSVERSION_DEFAULT
 )
 \
@@ -115,7 +109,6 @@ macro
 null
 null
 TOK_NULL
-JSOP_NULL
 JSVERSION_DEFAULT
 )
 \
@@ -132,7 +125,6 @@ macro
 break
 break_
 TOK_BREAK
-JSOP_NOP
 JSVERSION_DEFAULT
 )
 \
@@ -141,7 +133,6 @@ macro
 case
 case_
 TOK_CASE
-JSOP_NOP
 JSVERSION_DEFAULT
 )
 \
@@ -150,7 +141,6 @@ macro
 catch
 catch_
 TOK_CATCH
-JSOP_NOP
 JSVERSION_DEFAULT
 )
 \
@@ -159,7 +149,6 @@ macro
 continue
 continue_
 TOK_CONTINUE
-JSOP_NOP
 JSVERSION_DEFAULT
 )
 \
@@ -168,7 +157,6 @@ macro
 debugger
 debugger
 TOK_DEBUGGER
-JSOP_NOP
 JSVERSION_DEFAULT
 )
 \
@@ -177,7 +165,6 @@ macro
 default
 default_
 TOK_DEFAULT
-JSOP_NOP
 JSVERSION_DEFAULT
 )
 \
@@ -186,7 +173,6 @@ macro
 delete
 delete_
 TOK_DELETE
-JSOP_NOP
 JSVERSION_DEFAULT
 )
 \
@@ -195,7 +181,6 @@ macro
 do
 do_
 TOK_DO
-JSOP_NOP
 JSVERSION_DEFAULT
 )
 \
@@ -204,7 +189,6 @@ macro
 else
 else_
 TOK_ELSE
-JSOP_NOP
 JSVERSION_DEFAULT
 )
 \
@@ -213,7 +197,6 @@ macro
 finally
 finally_
 TOK_FINALLY
-JSOP_NOP
 JSVERSION_DEFAULT
 )
 \
@@ -222,7 +205,6 @@ macro
 for
 for_
 TOK_FOR
-JSOP_NOP
 JSVERSION_DEFAULT
 )
 \
@@ -231,7 +213,6 @@ macro
 function
 function
 TOK_FUNCTION
-JSOP_NOP
 JSVERSION_DEFAULT
 )
 \
@@ -240,7 +221,6 @@ macro
 if
 if_
 TOK_IF
-JSOP_NOP
 JSVERSION_DEFAULT
 )
 \
@@ -249,7 +229,6 @@ macro
 in
 in
 TOK_IN
-JSOP_IN
 JSVERSION_DEFAULT
 )
 \
@@ -258,7 +237,6 @@ macro
 instanceof
 instanceof
 TOK_INSTANCEOF
-JSOP_INSTANCEOF
 JSVERSION_DEFAULT
 )
 \
@@ -267,7 +245,6 @@ macro
 new
 new_
 TOK_NEW
-JSOP_NEW
 JSVERSION_DEFAULT
 )
 \
@@ -276,7 +253,6 @@ macro
 return
 return_
 TOK_RETURN
-JSOP_NOP
 JSVERSION_DEFAULT
 )
 \
@@ -285,7 +261,6 @@ macro
 switch
 switch_
 TOK_SWITCH
-JSOP_NOP
 JSVERSION_DEFAULT
 )
 \
@@ -294,7 +269,6 @@ macro
 this
 this_
 TOK_THIS
-JSOP_THIS
 JSVERSION_DEFAULT
 )
 \
@@ -303,7 +277,6 @@ macro
 throw
 throw_
 TOK_THROW
-JSOP_NOP
 JSVERSION_DEFAULT
 )
 \
@@ -312,7 +285,6 @@ macro
 try
 try_
 TOK_TRY
-JSOP_NOP
 JSVERSION_DEFAULT
 )
 \
@@ -321,7 +293,6 @@ macro
 typeof
 typeof
 TOK_TYPEOF
-JSOP_TYPEOF
 JSVERSION_DEFAULT
 )
 \
@@ -330,7 +301,6 @@ macro
 var
 var
 TOK_VAR
-JSOP_DEFVAR
 JSVERSION_DEFAULT
 )
 \
@@ -339,7 +309,6 @@ macro
 void
 void_
 TOK_VOID
-JSOP_VOID
 JSVERSION_DEFAULT
 )
 \
@@ -348,7 +317,6 @@ macro
 while
 while_
 TOK_WHILE
-JSOP_NOP
 JSVERSION_DEFAULT
 )
 \
@@ -357,7 +325,6 @@ macro
 with
 with
 TOK_WITH
-JSOP_NOP
 JSVERSION_DEFAULT
 )
 \
@@ -379,7 +346,6 @@ macro
 class
 class_
 TOK_RESERVED
-JSOP_NOP
 JSVERSION_DEFAULT
 )
 \
@@ -388,7 +354,6 @@ macro
 enum
 enum_
 TOK_RESERVED
-JSOP_NOP
 JSVERSION_DEFAULT
 )
 \
@@ -397,7 +362,6 @@ macro
 export
 export
 TOK_RESERVED
-JSOP_NOP
 JSVERSION_DEFAULT
 )
 \
@@ -406,7 +370,6 @@ macro
 extends
 extends
 TOK_RESERVED
-JSOP_NOP
 JSVERSION_DEFAULT
 )
 \
@@ -415,7 +378,6 @@ macro
 import
 import
 TOK_RESERVED
-JSOP_NOP
 JSVERSION_DEFAULT
 )
 \
@@ -424,7 +386,6 @@ macro
 super
 super
 TOK_RESERVED
-JSOP_NOP
 JSVERSION_DEFAULT
 )
 \
@@ -446,7 +407,6 @@ macro
 implements
 implements
 TOK_STRICT_RESERVED
-JSOP_NOP
 JSVERSION_DEFAULT
 )
 \
@@ -455,7 +415,6 @@ macro
 interface
 interface
 TOK_STRICT_RESERVED
-JSOP_NOP
 JSVERSION_DEFAULT
 )
 \
@@ -464,7 +423,6 @@ macro
 package
 package
 TOK_STRICT_RESERVED
-JSOP_NOP
 JSVERSION_DEFAULT
 )
 \
@@ -473,7 +431,6 @@ macro
 private
 private_
 TOK_STRICT_RESERVED
-JSOP_NOP
 JSVERSION_DEFAULT
 )
 \
@@ -482,7 +439,6 @@ macro
 protected
 protected_
 TOK_STRICT_RESERVED
-JSOP_NOP
 JSVERSION_DEFAULT
 )
 \
@@ -491,7 +447,6 @@ macro
 public
 public_
 TOK_STRICT_RESERVED
-JSOP_NOP
 JSVERSION_DEFAULT
 )
 \
@@ -500,7 +455,6 @@ macro
 static
 static_
 TOK_STRICT_RESERVED
-JSOP_NOP
 JSVERSION_DEFAULT
 )
 \
@@ -531,7 +485,6 @@ macro
 yield
 yield
 TOK_YIELD
-JSOP_NOP
 JSVERSION_1_7
 )
 \
