@@ -8910,7 +8910,7 @@ obj
 >
 next
 =
-cx
+script
 -
 >
 compartment
@@ -8920,7 +8920,7 @@ types
 .
 objects
 ;
-cx
+script
 -
 >
 compartment
