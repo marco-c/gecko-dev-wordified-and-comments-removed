@@ -242,8 +242,6 @@ regexp_statics_class
 RegExpStatics
 "
 JSCLASS_HAS_PRIVATE
-|
-JSCLASS_MARK_IS_TRACE
 PropertyStub
 PropertyStub
 PropertyStub
@@ -258,10 +256,7 @@ NULL
 NULL
 NULL
 NULL
-JS_CLASS_TRACE
-(
 resc_trace
-)
 }
 ;
 static
@@ -2839,8 +2834,6 @@ JSObject
 REGEXP_CLASS_RESERVED_SLOTS
 )
 |
-JSCLASS_MARK_IS_TRACE
-|
 JSCLASS_HAS_CACHED_PROTO
 (
 JSProto_RegExp
@@ -2865,10 +2858,7 @@ NULL
 NULL
 js_XDRRegExpObject
 NULL
-JS_CLASS_TRACE
-(
 regexp_trace
-)
 }
 ;
 JSBool

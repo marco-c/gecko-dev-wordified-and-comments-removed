@@ -88,8 +88,6 @@ JSCLASS_HAS_RESERVED_SLOTS
 (
 LIBRARY_SLOTS
 )
-|
-JSCLASS_MARK_IS_TRACE
 JS_PropertyStub
 JS_PropertyStub
 JS_PropertyStub

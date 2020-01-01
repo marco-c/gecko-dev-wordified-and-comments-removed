@@ -1340,8 +1340,6 @@ JSCLASS_HAS_RESERVED_SLOTS
 (
 CTYPE_SLOTS
 )
-|
-JSCLASS_MARK_IS_TRACE
 JS_PropertyStub
 JS_PropertyStub
 JS_PropertyStub
@@ -1368,13 +1366,10 @@ CType
 :
 :
 HasInstance
-JS_CLASS_TRACE
-(
 CType
 :
 :
 Trace
-)
 NULL
 }
 ;
@@ -1435,8 +1430,6 @@ JSCLASS_HAS_RESERVED_SLOTS
 (
 CCLOSURE_SLOTS
 )
-|
-JSCLASS_MARK_IS_TRACE
 JS_PropertyStub
 JS_PropertyStub
 JS_PropertyStub
@@ -1454,13 +1447,10 @@ NULL
 NULL
 NULL
 NULL
-JS_CLASS_TRACE
-(
 CClosure
 :
 :
 Trace
-)
 NULL
 }
 ;

@@ -4427,8 +4427,6 @@ JSObject
 ARGS_CLASS_RESERVED_SLOTS
 )
 |
-JSCLASS_MARK_IS_TRACE
-|
 JSCLASS_HAS_CACHED_PROTO
 (
 JSProto_Object
@@ -4450,10 +4448,7 @@ NULL
 NULL
 NULL
 NULL
-JS_CLASS_TRACE
-(
 args_trace
-)
 }
 ;
 namespace
@@ -4477,8 +4472,6 @@ JSObject
 :
 ARGS_CLASS_RESERVED_SLOTS
 )
-|
-JSCLASS_MARK_IS_TRACE
 |
 JSCLASS_HAS_CACHED_PROTO
 (
@@ -4504,10 +4497,7 @@ NULL
 NULL
 NULL
 NULL
-JS_CLASS_TRACE
-(
 args_trace
-)
 }
 ;
 }
@@ -7193,8 +7183,6 @@ CALL_RESERVED_SLOTS
 JSCLASS_NEW_RESOLVE
 |
 JSCLASS_IS_ANONYMOUS
-|
-JSCLASS_MARK_IS_TRACE
 PropertyStub
 PropertyStub
 PropertyStub
@@ -7212,10 +7200,7 @@ NULL
 NULL
 NULL
 NULL
-JS_CLASS_TRACE
-(
 call_trace
-)
 }
 ;
 bool
@@ -9968,8 +9953,6 @@ JSFunction
 CLASS_RESERVED_SLOTS
 )
 |
-JSCLASS_MARK_IS_TRACE
-|
 JSCLASS_HAS_CACHED_PROTO
 (
 JSProto_Function
@@ -9991,10 +9974,7 @@ NULL
 NULL
 js_XDRFunctionObject
 fun_hasInstance
-JS_CLASS_TRACE
-(
 fun_trace
-)
 }
 ;
 JSString
