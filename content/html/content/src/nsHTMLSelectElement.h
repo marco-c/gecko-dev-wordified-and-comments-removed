@@ -954,15 +954,6 @@ GetSelectFrame
 (
 )
 ;
-void
-DispatchDOMEvent
-(
-const
-nsAString
-&
-aName
-)
-;
 PRBool
 IsCombobox
 (
