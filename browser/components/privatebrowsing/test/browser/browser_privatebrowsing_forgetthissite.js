@@ -416,7 +416,7 @@ popupshown
 arguments
 .
 callee
-false
+true
 )
 ;
 let
