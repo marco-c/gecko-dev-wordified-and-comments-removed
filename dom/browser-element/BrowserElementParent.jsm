@@ -1554,6 +1554,7 @@ _createEvent
 (
 evtName
 detail
+true
 )
 ;
 if
@@ -1603,6 +1604,8 @@ id
 )
 ;
 }
+return
+!
 this
 .
 _frameElement
