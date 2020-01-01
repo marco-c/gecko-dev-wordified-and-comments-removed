@@ -86,9 +86,12 @@ if
 (
 gTestsIndex
 <
+int
+(
 NS_ARRAY_LENGTH
 (
 gTests
+)
 )
 )
 {
