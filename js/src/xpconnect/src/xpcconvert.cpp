@@ -6247,7 +6247,7 @@ if
 wrapper
 -
 >
-NeedsSOW
+NeedsChromeWrapper
 (
 )
 )
@@ -6376,7 +6376,7 @@ v
 wrapper
 -
 >
-NeedsSOW
+NeedsChromeWrapper
 (
 )
 |
@@ -6427,7 +6427,7 @@ if
 wrapper
 -
 >
-NeedsSOW
+NeedsChromeWrapper
 (
 )
 )
@@ -6458,7 +6458,7 @@ if
 wrapper
 -
 >
-NeedsCOW
+IsDoubleWrapper
 (
 )
 )
