@@ -184,7 +184,7 @@ GetXMLHttpRequest
 )
 ;
 nsresult
-OpenRequest
+Open
 (
 const
 nsACString

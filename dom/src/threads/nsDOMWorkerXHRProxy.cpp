@@ -2882,7 +2882,7 @@ nsDOMWorkerXHRProxy
 MaybeDispatchPrematureAbortEvents
 (
 PRBool
-aFromOpenRequest
+aFromOpen
 )
 {
 NS_ASSERTION
@@ -2949,7 +2949,7 @@ rv
 ;
 if
 (
-aFromOpenRequest
+aFromOpen
 )
 {
 rv
@@ -3631,7 +3631,7 @@ nsresult
 nsDOMWorkerXHRProxy
 :
 :
-OpenRequest
+Open
 (
 const
 nsACString
@@ -3668,7 +3668,7 @@ aAsync
 ;
 RUN_PROXIED_FUNCTION
 (
-OpenRequest
+Open
 (
 aMethod
 aUrl
@@ -3710,7 +3710,7 @@ rv
 mXHR
 -
 >
-OpenRequest
+Open
 (
 aMethod
 aUrl
