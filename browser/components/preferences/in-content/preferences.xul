@@ -943,6 +943,16 @@ include
 content
 .
 xul
+#
+ifdef
+MOZ_SERVICES_SYNC
+#
+include
+sync
+.
+xul
+#
+endif
 <
 /
 prefpane
