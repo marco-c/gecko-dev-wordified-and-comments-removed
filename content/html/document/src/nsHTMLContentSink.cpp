@@ -5108,6 +5108,8 @@ return
 rv
 ;
 }
+continue
+;
 }
 mTextLength
 +
