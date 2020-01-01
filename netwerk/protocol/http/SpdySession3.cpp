@@ -3353,6 +3353,14 @@ thread
 "
 )
 ;
+#
+ifndef
+DEBUG
+return
+true
+;
+#
+endif
 if
 (
 !
