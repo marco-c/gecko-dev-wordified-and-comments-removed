@@ -384,17 +384,6 @@ Bridge
 (
 )
 ;
-if
-(
-bridge
-)
-bridge
--
->
-NotifyAppShellReady
-(
-)
-;
 nsCOMPtr
 <
 nsIObserverService
