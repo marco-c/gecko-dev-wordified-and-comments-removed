@@ -5658,6 +5658,13 @@ and
 abort
 "
         
+if
+not
+self
+.
+debuggerInfo
+:
+            
 self
 .
 env
