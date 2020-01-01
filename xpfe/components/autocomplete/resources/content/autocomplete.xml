@@ -365,7 +365,7 @@ popupset
 <
 xul
 :
-panel
+popup
 type
 =
 "

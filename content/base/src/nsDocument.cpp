@@ -14429,15 +14429,6 @@ tag
 nsGkAtoms
 :
 :
-panel
-|
-|
-tag
-=
-=
-nsGkAtoms
-:
-:
 tooltip
 )
 contractID
