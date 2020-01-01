@@ -26230,7 +26230,7 @@ aState
 aContent
 aStyleContext
 newFrame
-PR_FALSE
+PR_TRUE
 childItems
 PR_FALSE
 )
