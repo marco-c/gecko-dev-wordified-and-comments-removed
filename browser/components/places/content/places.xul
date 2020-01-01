@@ -942,6 +942,16 @@ OrganizerCommand_search
 :
 save
 "
+oncommand
+=
+"
+PlacesOrganizer
+.
+saveSearch
+(
+)
+;
+"
 /
 >
 <

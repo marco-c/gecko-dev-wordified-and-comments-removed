@@ -334,7 +334,7 @@ PR_FALSE
 )
 mExpandQueries
 (
-PR_FALSE
+PR_TRUE
 )
 mIncludeHidden
 (

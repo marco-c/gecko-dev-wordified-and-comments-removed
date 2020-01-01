@@ -1591,6 +1591,8 @@ link
 folder
 |
 mixed
+|
+query
 "
 forcehideselection
 =
@@ -1637,6 +1639,8 @@ separator
 link
 |
 folder
+|
+query
 "
 /
 >
@@ -1674,6 +1678,8 @@ selection
 =
 "
 mutable
+|
+query
 "
 /
 >
@@ -1733,6 +1739,8 @@ link
 folder
 |
 day
+|
+query
 "
 forcehideselection
 =

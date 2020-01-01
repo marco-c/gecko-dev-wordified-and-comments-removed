@@ -657,6 +657,8 @@ aResult
 nsresult
 QueryRowToResult
 (
+PRInt64
+aItemId
 const
 nsACString
 &
@@ -1628,6 +1630,9 @@ aIsDomain
 nsresult
 FilterResultSet
 (
+nsNavHistoryQueryResultNode
+*
+aParentNode
 const
 nsCOMArray
 <
