@@ -2783,11 +2783,13 @@ textbox
 )
 ;
 var
-uri
+loc
 =
 document
 .
-documentURIObject
+location
+.
+href
 ;
 var
 matches
@@ -2812,9 +2814,7 @@ i
 .
 exec
 (
-uri
-.
-path
+loc
 )
 ;
 if

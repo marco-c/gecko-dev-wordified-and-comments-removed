@@ -462,11 +462,14 @@ nsIPermissionManager
 .
 add
 (
+SpecialPowers
+.
+getDocumentURIObject
+(
 window
 .
 document
-.
-documentURIObject
+)
 "
 indexedDB
 "

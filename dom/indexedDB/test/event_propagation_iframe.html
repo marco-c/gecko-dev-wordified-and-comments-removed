@@ -535,11 +535,14 @@ UniversalXPConnect
 let
 uri
 =
+SpecialPowers
+.
+getDocumentURIObject
+(
 window
 .
 document
-.
-documentURIObject
+)
 ;
 Components
 .

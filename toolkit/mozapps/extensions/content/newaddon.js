@@ -109,9 +109,9 @@ spec
 =
 document
 .
-documentURIObject
+location
 .
-spec
+href
 ;
 let
 pos
