@@ -5064,6 +5064,14 @@ char
 info
 )
 ;
+bool
+BindArrayAttribToLocation0
+(
+WebGLProgram
+*
+program
+)
+;
 protected
 :
 void

@@ -368,6 +368,16 @@ NS_DECL_CYCLE_COLLECTION_SCRIPT_HOLDER_CLASS
 (
 WebGLProgram
 )
+std
+:
+:
+map
+<
+GLint
+nsCString
+>
+mActiveAttribMap
+;
 protected
 :
 WebGLuint
