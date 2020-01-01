@@ -2556,7 +2556,6 @@ endDrawing
 "
 "
 (
-IIII
 )
 V
 "
@@ -4821,10 +4820,6 @@ AndroidGeckoLayerClient
 :
 EndDrawing
 (
-const
-nsIntRect
-&
-aRect
 )
 {
 NS_ASSERTION
@@ -4881,18 +4876,6 @@ CallVoidMethod
 (
 wrapped_obj
 jEndDrawingMethod
-aRect
-.
-x
-aRect
-.
-y
-aRect
-.
-width
-aRect
-.
-height
 )
 ;
 }

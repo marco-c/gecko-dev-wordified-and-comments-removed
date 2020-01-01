@@ -703,10 +703,6 @@ aMetadata
 void
 EndDrawing
 (
-const
-nsIntRect
-&
-aRect
 )
 ;
 void
