@@ -5576,15 +5576,6 @@ aFirst
 .
 )
 {
-#
-ifdef
-MOZ_SMIL
-FlushAnimations
-(
-)
-;
-#
-endif
 LengthAttributesInfo
 info
 =
