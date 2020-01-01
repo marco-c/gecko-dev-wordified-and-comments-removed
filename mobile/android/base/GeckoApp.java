@@ -714,6 +714,10 @@ private
 PromptService
 mPromptService
 ;
+private
+FindInPageBar
+mFindInPageBar
+;
 protected
 DoorHangerPopup
 mDoorHangerPopup
@@ -744,11 +748,6 @@ private
 static
 AbsoluteLayout
 mPluginContainer
-;
-private
-static
-FindInPageBar
-mFindInPageBar
 ;
 private
 FullScreenHolder
