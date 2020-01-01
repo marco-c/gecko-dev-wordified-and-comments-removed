@@ -4605,6 +4605,16 @@ rsa_null_md5
 SSL_RSA_WITH_NULL_MD5
 }
 {
+"
+security
+.
+ssl3
+.
+rsa_seed_sha
+"
+TLS_RSA_WITH_SEED_CBC_SHA
+}
+{
 NULL
 0
 }
