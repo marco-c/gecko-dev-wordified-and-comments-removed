@@ -190,6 +190,9 @@ IccCardLockErrorEvent
 MozEmergencyCbModeEvent
 '
 '
+MozOtaStatusEvent
+'
+'
 MozWifiStatusChangeEvent
 '
 '

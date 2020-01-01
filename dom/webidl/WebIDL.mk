@@ -1943,6 +1943,10 @@ MozEmergencyCbModeEvent
 .
 webidl
 \
+MozOtaStatusEvent
+.
+webidl
+\
 MozVoicemailEvent
 .
 webidl

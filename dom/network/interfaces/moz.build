@@ -176,6 +176,11 @@ nsIDOMMozEmergencyCbModeEvent
 idl
 '
 '
+nsIDOMMozOtaStatusEvent
+.
+idl
+'
+'
 nsIDOMNetworkStats
 .
 idl
