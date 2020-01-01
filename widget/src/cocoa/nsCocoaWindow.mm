@@ -2983,6 +2983,17 @@ setContentView
 newContentView
 ]
 ;
+[
+newContentView
+setAutoresizingMask
+:
+(
+NSViewWidthSizable
+|
+NSViewHeightSizable
+)
+]
+;
 return
 NS_OK
 ;
