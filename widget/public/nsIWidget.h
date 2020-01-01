@@ -107,9 +107,6 @@ struct
 nsFont
 ;
 class
-nsIEventListener
-;
-class
 nsIRollupListener
 ;
 class
@@ -927,16 +924,6 @@ aIsSynchronous
 NS_IMETHOD
 Update
 (
-)
-=
-0
-;
-NS_IMETHOD
-AddEventListener
-(
-nsIEventListener
-*
-aListener
 )
 =
 0
