@@ -1043,7 +1043,7 @@ const
 size_t
 TYPE_LIFO_ALLOC_PRIMARY_CHUNK_SIZE
 =
-4
+128
 *
 1024
 ;
