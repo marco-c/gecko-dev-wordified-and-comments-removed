@@ -208,6 +208,9 @@ ffi_type
 >
 mFFITypes
 ;
+bool
+mIsVariadic
+;
 }
 ;
 struct
