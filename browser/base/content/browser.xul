@@ -1632,11 +1632,6 @@ ignorekeys
 "
 true
 "
-consumeoutsideclicks
-=
-"
-true
-"
 hidden
 =
 "
@@ -2528,11 +2523,6 @@ hidden
 true
 "
 noautofocus
-=
-"
-true
-"
-consumeoutsideclicks
 =
 "
 true
