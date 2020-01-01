@@ -134,15 +134,3 @@ undo
 Undo
 "
 >
-<
-!
-ENTITY
-addonAction
-.
-setDefault
-"
-Set
-as
-Default
-"
->
