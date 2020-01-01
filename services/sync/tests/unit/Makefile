@@ -90,6 +90,17 @@ os
 =
 WINNT
 else
+ifeq
+(
+(
+sys
+)
+SunOS
+)
+os
+=
+SunOS
+else
 (
 error
 Sorry
@@ -104,6 +115,7 @@ unsupported
 sys
 )
 )
+endif
 endif
 endif
 endif

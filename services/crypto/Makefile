@@ -626,6 +626,17 @@ ifeq
 (
 machine
 )
+i86pc
+)
+arch
+=
+x86
+else
+ifeq
+(
+(
+machine
+)
 ppc
 )
 arch
