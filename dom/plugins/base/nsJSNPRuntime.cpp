@@ -8800,9 +8800,6 @@ fieldValue
 NPVariant
 npv
 ;
-NPBool
-hasProperty
-;
 if
 (
 getPropertyResult
@@ -8812,10 +8809,6 @@ npv
 =
 *
 getPropertyResult
-;
-hasProperty
-=
-true
 ;
 }
 else
