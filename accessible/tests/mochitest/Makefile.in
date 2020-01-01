@@ -470,6 +470,10 @@ nsIAccessible_name
 .
 xbl
 \
+nsIAccessible_selects
+.
+js
+\
 nsIAccessibleEditableText
 .
 js
@@ -526,6 +530,10 @@ html
 test_nsIAccessible_name
 .
 xul
+\
+test_nsIAccessible_selects
+.
+html
 \
 test_nsIAccessible_focus
 .
