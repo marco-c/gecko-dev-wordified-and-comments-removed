@@ -827,6 +827,9 @@ path
 if
 (
 mappable
+&
+&
+mappable
 -
 >
 GetKind
