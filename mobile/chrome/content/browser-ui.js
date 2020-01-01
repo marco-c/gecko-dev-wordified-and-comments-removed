@@ -2100,6 +2100,9 @@ init
 (
 )
 ;
+#
+ifdef
+MOZ_IPC
 Cc
 [
 "
@@ -2128,6 +2131,8 @@ ensureContentProcess
 (
 )
 ;
+#
+endif
 WeaveGlue
 .
 init
