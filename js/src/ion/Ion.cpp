@@ -5210,6 +5210,14 @@ cx
 runtime
 )
 ;
+AutoFlushCache
+afc
+(
+"
+AttachFinishedCompilations
+"
+)
+;
 success
 =
 codegen
