@@ -616,6 +616,10 @@ nsIdleServiceX
 .
 mm
 \
+nsAccelerometerX
+.
+mm
+\
 (
 NULL
 )
