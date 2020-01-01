@@ -4470,7 +4470,7 @@ AvmCore
 :
 config
 .
-v6t2
+thumb2
 )
 {
 if
