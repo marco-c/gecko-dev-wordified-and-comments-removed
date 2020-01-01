@@ -491,6 +491,10 @@ test_nsRootAcc
 .
 xul
 \
+test_tree
+.
+xul
+\
 markuprules
 .
 xml

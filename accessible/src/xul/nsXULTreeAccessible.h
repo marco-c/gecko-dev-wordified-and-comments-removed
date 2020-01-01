@@ -610,6 +610,17 @@ IsExpandable
 (
 )
 ;
+void
+GetCellName
+(
+nsITreeColumn
+*
+aColumn
+nsAString
+&
+aName
+)
+;
 nsCOMPtr
 <
 nsITreeBoxObject
