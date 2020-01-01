@@ -541,6 +541,8 @@ unsigned
 i
 MaybeCheckAliasing
 checkAliasing
+=
+CHECK_ALIASING
 )
 const
 {
@@ -587,6 +589,8 @@ unsigned
 i
 MaybeCheckAliasing
 checkAliasing
+=
+CHECK_ALIASING
 )
 const
 {
@@ -645,6 +649,8 @@ unsigned
 i
 MaybeCheckAliasing
 checkAliasing
+=
+CHECK_ALIASING
 )
 const
 {
@@ -1505,6 +1511,16 @@ isEvalFrame
 }
 bool
 isDebuggerFrame
+(
+)
+const
+{
+return
+false
+;
+}
+bool
+isGeneratorFrame
 (
 )
 const
