@@ -911,7 +911,7 @@ js
 struct
 NativeIterator
 ;
-struct
+class
 RegExp
 ;
 }
