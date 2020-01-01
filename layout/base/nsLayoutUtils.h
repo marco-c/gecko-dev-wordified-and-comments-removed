@@ -1173,6 +1173,12 @@ nsFontMetrics
 *
 *
 aFontMetrics
+float
+aSizeInflation
+=
+1
+.
+0f
 )
 ;
 static
@@ -1186,6 +1192,12 @@ nsFontMetrics
 *
 *
 aFontMetrics
+float
+aSizeInflation
+=
+1
+.
+0f
 )
 ;
 static
