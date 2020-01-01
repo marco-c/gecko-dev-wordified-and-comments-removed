@@ -113,6 +113,13 @@ h
 #
 include
 "
+nsJSEnvironment
+.
+h
+"
+#
+include
+"
 nsIEventListenerManager
 .
 h
