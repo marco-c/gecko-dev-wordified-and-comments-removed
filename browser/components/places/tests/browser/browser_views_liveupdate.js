@@ -1371,15 +1371,6 @@ PSB_onEndUpdateBatch
 )
 {
 }
-onBeforeItemRemoved
-:
-function
-PSB_onBeforeItemRemoved
-(
-aItemId
-)
-{
-}
 onItemVisited
 :
 function

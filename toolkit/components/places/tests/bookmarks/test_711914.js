@@ -62,9 +62,6 @@ forceBookmarkCaching
 onItemMoved
 :
 forceBookmarkCaching
-onBeforeItemRemoved
-:
-forceBookmarkCaching
 onItemRemoved
 :
 function

@@ -238,9 +238,6 @@ onBeginUpdateBatch
 onEndUpdateBatch
 "
 "
-onBeforeItemRemoved
-"
-"
 onItemVisited
 "
 "

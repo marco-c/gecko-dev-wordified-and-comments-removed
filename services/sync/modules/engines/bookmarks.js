@@ -8396,12 +8396,5 @@ function
 )
 {
 }
-onBeforeItemRemoved
-:
-function
-(
-)
-{
-}
 }
 ;

@@ -174,13 +174,6 @@ finalize
 )
 ;
 }
-onBeforeItemRemoved
-:
-function
-(
-)
-{
-}
 onItemRemoved
 :
 function

@@ -2249,13 +2249,6 @@ function
 )
 {
 }
-onBeforeDeleteURI
-:
-function
-(
-)
-{
-}
 onPageChanged
 :
 function

@@ -119,14 +119,6 @@ null
 _itemAddedType
 :
 null
-onBeforeItemRemoved
-:
-function
-(
-id
-)
-{
-}
 onItemRemoved
 :
 function

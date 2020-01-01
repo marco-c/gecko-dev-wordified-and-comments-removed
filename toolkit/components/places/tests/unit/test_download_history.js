@@ -1185,13 +1185,6 @@ checkFinished
 ;
 }
 }
-onBeforeDeleteURI
-:
-function
-(
-)
-{
-}
 onDeleteURI
 :
 function

@@ -88,13 +88,6 @@ do_test_finished
 )
 ;
 }
-onBeforeItemRemoved
-:
-function
-(
-)
-{
-}
 onItemRemoved
 :
 function

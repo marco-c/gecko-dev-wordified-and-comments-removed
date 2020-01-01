@@ -240,13 +240,6 @@ function
 )
 {
 }
-onBeforeDeleteURI
-:
-function
-(
-)
-{
-}
 onDeleteURI
 :
 function
