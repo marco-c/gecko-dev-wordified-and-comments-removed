@@ -486,12 +486,6 @@ imgRequest
 >
 mRequest
 ;
-nsCOMPtr
-<
-nsIURI
->
-mKeyURI
-;
 PRUint32
 mDataSize
 ;

@@ -482,7 +482,7 @@ mGotData
 ;
 }
 void
-SetCacheable
+SetIsInCache
 (
 PRBool
 cacheable
@@ -628,7 +628,7 @@ mGotData
 1
 ;
 PRPackedBool
-mIsCacheable
+mIsInCache
 :
 1
 ;
