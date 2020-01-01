@@ -211,13 +211,8 @@ curClosedWindowCount
 var
 origWin
 ;
-let
-windowObserver
-=
-{
-observe
-:
 function
+windowObserver
 (
 aSubject
 aTopic
@@ -404,7 +399,7 @@ ww
 .
 unregisterNotification
 (
-this
+windowObserver
 )
 ;
 executeSoon
@@ -466,7 +461,6 @@ runNextTest
 ;
 break
 ;
-}
 }
 }
 ww

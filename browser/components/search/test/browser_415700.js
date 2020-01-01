@@ -50,13 +50,8 @@ Ci
 nsIObserverService
 )
 ;
-var
-observers
-=
-{
-observe
-:
 function
+observers
 (
 aSubject
 aTopic
@@ -109,8 +104,6 @@ break
 ;
 }
 }
-}
-;
 function
 test
 (

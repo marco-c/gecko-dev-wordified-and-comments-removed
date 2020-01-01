@@ -219,9 +219,6 @@ os
 .
 addObserver
 (
-{
-observe
-:
 function
 (
 aSubject
@@ -233,7 +230,9 @@ os
 .
 removeObserver
 (
-this
+arguments
+.
+callee
 aTopic
 )
 ;
@@ -254,7 +253,6 @@ executeSoon
 continue_test
 )
 ;
-}
 }
 "
 sessionstore

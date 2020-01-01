@@ -107,13 +107,8 @@ Ci
 nsIBrowserSearchService
 )
 ;
-var
-observer
-=
-{
-observe
-:
 function
+observer
 (
 aSub
 aTopic
@@ -201,7 +196,7 @@ obs
 .
 removeObserver
 (
-this
+observer
 "
 browser
 -
@@ -221,8 +216,6 @@ break
 ;
 }
 }
-}
-;
 obs
 .
 addObserver

@@ -476,13 +476,8 @@ testcl
 ;
 }
 }
-let
-observer
-=
-{
-observe
-:
 function
+observer
 (
 aSubject
 aTopic
@@ -509,8 +504,6 @@ silent
 )
 ;
 }
-}
-;
 ww
 .
 registerNotification

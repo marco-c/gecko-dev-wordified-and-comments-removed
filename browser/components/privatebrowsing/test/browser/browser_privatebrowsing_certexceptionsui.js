@@ -138,9 +138,6 @@ obsSvc
 .
 addObserver
 (
-{
-observe
-:
 function
 (
 aSubject
@@ -152,7 +149,9 @@ obsSvc
 .
 removeObserver
 (
-this
+arguments
+.
+callee
 "
 cert
 -
@@ -260,7 +259,6 @@ step2
 )
 ;
 }
-}
 "
 cert
 -
@@ -352,9 +350,6 @@ obsSvc
 .
 addObserver
 (
-{
-observe
-:
 function
 (
 aSubject
@@ -366,7 +361,9 @@ obsSvc
 .
 removeObserver
 (
-this
+arguments
+.
+callee
 "
 cert
 -
@@ -475,7 +472,6 @@ cleanup
 (
 )
 ;
-}
 }
 "
 cert

@@ -271,15 +271,12 @@ selectedWindow
 }
 ;
 let
-observer
-=
-{
 pass
-:
+=
 1
-observe
-:
+;
 function
+observer
 (
 aSubject
 aTopic
@@ -315,8 +312,6 @@ observed
 ;
 if
 (
-this
-.
 pass
 +
 +
@@ -426,7 +421,7 @@ os
 .
 removeObserver
 (
-this
+observer
 "
 sessionstore
 -
@@ -444,8 +439,6 @@ finish
 ;
 }
 }
-}
-;
 os
 .
 addObserver

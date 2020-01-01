@@ -131,13 +131,8 @@ feed_tab
 html
 "
 ;
-var
-observer
-=
-{
-observe
-:
 function
+observer
 (
 win
 topic
@@ -225,7 +220,6 @@ testLockDoubleClick
 ;
 break
 ;
-}
 }
 }
 function
