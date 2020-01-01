@@ -156,6 +156,10 @@ browser_newtab_bug723121
 .
 js
 \
+browser_newtab_bug725996
+.
+js
+\
 browser_newtab_bug734043
 .
 js
