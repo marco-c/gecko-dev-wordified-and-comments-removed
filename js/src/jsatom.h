@@ -816,16 +816,16 @@ emptyAtom
 ;
 JSAtom
 *
-typeAtoms
+booleanAtoms
 [
-JSTYPE_LIMIT
+2
 ]
 ;
 JSAtom
 *
-booleanAtoms
+typeAtoms
 [
-2
+JSTYPE_LIMIT
 ]
 ;
 JSAtom
@@ -1325,7 +1325,7 @@ js_common_atom_names
 ;
 #
 define
-JS_TYPE_STR
+JS_BOOLEAN_STR
 (
 type
 )
@@ -1341,7 +1341,7 @@ type
 )
 #
 define
-JS_BOOLEAN_STR
+JS_TYPE_STR
 (
 type
 )
@@ -1350,7 +1350,7 @@ js_common_atom_names
 [
 1
 +
-JSTYPE_LIMIT
+2
 +
 (
 type
@@ -1371,7 +1371,7 @@ JSAtom
 offsetof
 (
 JSAtomState
-typeAtoms
+booleanAtoms
 )
 -
 ATOM_OFFSET_START
@@ -1382,7 +1382,7 @@ JS_STATIC_ASSERT
 (
 1
 +
-JSTYPE_LIMIT
+2
 )
 *
 sizeof
@@ -1395,7 +1395,7 @@ JSAtom
 offsetof
 (
 JSAtomState
-booleanAtoms
+typeAtoms
 )
 -
 ATOM_OFFSET_START
