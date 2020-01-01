@@ -28056,6 +28056,16 @@ mCBReflowState
 &
 parentReflowState
 ;
+reflowState
+.
+mReflowDepth
+=
+aState
+.
+GetReflowDepth
+(
+)
+;
 if
 (
 aWidth

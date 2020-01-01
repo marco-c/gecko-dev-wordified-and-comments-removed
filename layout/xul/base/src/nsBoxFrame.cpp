@@ -2721,6 +2721,9 @@ aPresContext
 aReflowState
 .
 rendContext
+aReflowState
+.
+mReflowDepth
 )
 ;
 nsSize

@@ -895,6 +895,7 @@ PresContext
 aState
 .
 rendContext
+0
 )
 mStyles
 (
@@ -2883,6 +2884,7 @@ PresContext
 (
 )
 aRenderingContext
+0
 )
 ;
 nsSize
