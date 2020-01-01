@@ -768,13 +768,12 @@ return
 status
 ;
 }
-NS_IMETHOD
+virtual
+bool
 IsEnabled
 (
-bool
-*
-aState
 )
+const
 ;
 void
 OnDestroy

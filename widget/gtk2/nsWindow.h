@@ -475,13 +475,12 @@ bool
 aRepaint
 )
 ;
-NS_IMETHOD
+virtual
+bool
 IsEnabled
 (
-bool
-*
-aState
 )
+const
 ;
 NS_IMETHOD
 PlaceBehind
