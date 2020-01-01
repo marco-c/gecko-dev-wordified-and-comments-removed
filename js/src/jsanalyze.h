@@ -57,6 +57,11 @@ jumpTarget
 1
 ;
 bool
+fallthrough
+:
+1
+;
+bool
 analyzed
 :
 1

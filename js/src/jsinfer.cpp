@@ -4360,6 +4360,16 @@ return
 JSVAL_TYPE_INT32
 ;
 case
+(
+TYPE_FLAG_INT32
+|
+TYPE_FLAG_DOUBLE
+)
+:
+return
+JSVAL_TYPE_DOUBLE
+;
+case
 TYPE_FLAG_STRING
 :
 return
@@ -10031,6 +10041,9 @@ JSOP_RSH
 case
 JSOP_LSH
 :
+case
+JSOP_URSH
+:
 code
 -
 >
@@ -10099,9 +10112,6 @@ break
 ;
 case
 JSOP_DOUBLE
-:
-case
-JSOP_DIV
 :
 code
 -
@@ -12952,7 +12962,7 @@ case
 JSOP_MOD
 :
 case
-JSOP_URSH
+JSOP_DIV
 :
 code
 -
