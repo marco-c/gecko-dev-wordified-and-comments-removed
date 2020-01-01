@@ -170,7 +170,7 @@ android
 layout_marginRight
 =
 "
-50dip
+56dip
 "
 android
 :
@@ -365,7 +365,7 @@ android
 layout_marginRight
 =
 "
-22dip
+28dip
 "
 android
 :
