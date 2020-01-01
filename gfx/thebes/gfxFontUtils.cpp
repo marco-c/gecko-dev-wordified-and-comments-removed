@@ -9768,11 +9768,6 @@ NS_ERROR_FAILURE
 nsAutoString
 name
 ;
-nsresult
-rv
-;
-rv
-=
 DecodeFontName
 (
 nameTable
@@ -9798,15 +9793,6 @@ languageID
 )
 name
 )
-;
-if
-(
-NS_FAILED
-(
-rv
-)
-)
-continue
 ;
 PRUint32
 k
