@@ -5505,16 +5505,10 @@ JSObject
 obj
 (
 cx
-)
-;
 holder
 -
 >
 GetJSObject
-(
-obj
-.
-address
 (
 )
 )

@@ -68846,22 +68846,20 @@ nullptr
     
 }
     
-if
-(
-NS_FAILED
-(
+jsImplObj
+=
 implWrapped
 -
 >
 GetJSObject
 (
-jsImplObj
-.
-address
+)
+;
+    
+if
 (
-)
-)
-)
+!
+jsImplObj
 )
 {
       
