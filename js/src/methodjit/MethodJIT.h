@@ -2508,7 +2508,12 @@ nukeScriptDependentICs
 )
 ;
 size_t
-scriptDataSize
+computedSizeOfIncludingThis
+(
+)
+;
+size_t
+sizeOfIncludingThis
 (
 JSMallocSizeOfFun
 mallocSizeOf
@@ -2915,7 +2920,7 @@ pinline
 )
 ;
 size_t
-scriptDataSize
+sizeOfIncludingThis
 (
 JSMallocSizeOfFun
 mallocSizeOf

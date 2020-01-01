@@ -10547,9 +10547,8 @@ JS_ASSERT
 chunk
 -
 >
-scriptDataSize
+computedSizeOfIncludingThis
 (
-NULL
 )
 =
 =

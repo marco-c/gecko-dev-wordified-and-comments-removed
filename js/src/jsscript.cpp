@@ -7702,7 +7702,7 @@ size_t
 JSScript
 :
 :
-dataSize
+computedSizeOfData
 (
 )
 {
@@ -7761,7 +7761,7 @@ size_t
 JSScript
 :
 :
-dataSize
+sizeOfData
 (
 JSMallocSizeOfFun
 mallocSizeOf
@@ -7786,7 +7786,7 @@ return
 mallocSizeOf
 (
 data
-dataSize
+computedSizeOfData
 (
 )
 )
@@ -8179,7 +8179,7 @@ JS_POISON
 (
 data
 0xdb
-dataSize
+computedSizeOfData
 (
 )
 )
