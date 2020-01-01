@@ -178,7 +178,13 @@ public
 explicit
 nsDependentJSString
 (
+JS
+:
+:
+Handle
+<
 jsid
+>
 id
 )
 :
