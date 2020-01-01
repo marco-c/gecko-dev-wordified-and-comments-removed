@@ -24,6 +24,23 @@ buildMessagesTable
 messages_file
 )
     
+message_keys
+=
+messages
+.
+keys
+(
+)
+    
+message_keys
+.
+sort
+(
+reverse
+=
+True
+)
+    
 with
 open
 (
@@ -59,12 +76,8 @@ source_files
 )
 :
             
-output
-.
-write
-(
-replaceMessages
-(
+line
+=
 line
 if
 line
@@ -85,7 +98,16 @@ line
 \
 n
 '
+            
+output
+.
+write
+(
+replaceMessages
+(
+line
 messages
+message_keys
 )
 )
 def
@@ -177,6 +199,7 @@ replaceMessages
 (
 line
 messages
+message_keys
 )
 :
     
@@ -193,14 +216,9 @@ return
 line
     
 for
-message_str
-message_num
+key
 in
-messages
-.
-iteritems
-(
-)
+message_keys
 :
         
 line
@@ -209,8 +227,11 @@ line
 .
 replace
 (
-message_str
-message_num
+key
+messages
+[
+key
+]
 )
     
 return
