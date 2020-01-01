@@ -660,6 +660,14 @@ nsIFrame
 aFrame
 )
 ;
+bool
+IsDarkBackground
+(
+nsIFrame
+*
+aFrame
+)
+;
 private
 :
 uint32_t
