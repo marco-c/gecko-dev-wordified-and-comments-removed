@@ -27,6 +27,9 @@ xptiITestInterface
 do_check_true
 (
 id
+!
+=
+undefined
 "
 xptiITestInterface
 not
