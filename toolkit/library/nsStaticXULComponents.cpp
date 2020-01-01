@@ -262,6 +262,9 @@ MOZ_PREF_EXTENSIONS
 ifdef
 MOZ_ENABLE_GTK2
 #
+ifdef
+MOZ_ENABLE_GCONF
+#
 define
 SYSTEMPREF_MODULES
 \
@@ -283,6 +286,8 @@ MODULE
 (
 nsAutoConfigModule
 )
+#
+endif
 #
 endif
 #
