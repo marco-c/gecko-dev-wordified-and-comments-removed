@@ -463,6 +463,10 @@ scroll
 .
 html
 \
+test_aria_alert
+.
+html
+\
 test_aria_statechange
 .
 html
