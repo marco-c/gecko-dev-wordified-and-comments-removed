@@ -336,6 +336,11 @@ recommended
 addons
 .
 json
+BINPATH
+/
+distribution
+/
+*
 [
 browser
 ]
