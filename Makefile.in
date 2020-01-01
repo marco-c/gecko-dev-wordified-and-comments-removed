@@ -1251,6 +1251,8 @@ MAKE_SYM_STORE_ARGS
 :
 =
 -
+c
+-
 a
 "
 ppc
@@ -1273,6 +1275,8 @@ else
 MAKE_SYM_STORE_ARGS
 :
 =
+-
+c
 -
 a
 (
@@ -1321,6 +1325,8 @@ OS_ARCH
 MAKE_SYM_STORE_ARGS
 :
 =
+-
+c
 -
 -
 vcs
