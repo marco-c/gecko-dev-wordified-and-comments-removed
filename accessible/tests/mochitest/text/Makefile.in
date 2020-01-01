@@ -100,6 +100,10 @@ test_label
 .
 xul
 \
+test_multiline
+.
+html
+\
 test_passwords
 .
 html
