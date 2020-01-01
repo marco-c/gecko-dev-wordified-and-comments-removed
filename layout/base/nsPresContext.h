@@ -860,7 +860,7 @@ aSize
 )
 ;
 return
-nullptr
+nsnull
 ;
 }
 void
@@ -1653,7 +1653,7 @@ bool
 *
 aChanged
 =
-nullptr
+nsnull
 )
 ;
 static
@@ -3035,7 +3035,7 @@ GetPrimaryFrame
 ;
 }
 return
-nullptr
+nsnull
 ;
 }
 void
@@ -3283,7 +3283,7 @@ LangGroupFontPrefs
 :
 mLangGroup
 (
-nullptr
+nsnull
 )
 mMinimumFontSize
 (
@@ -3479,13 +3479,13 @@ mLangGroupFontPrefs
 .
 mNext
 =
-nullptr
+nsnull
 ;
 mLangGroupFontPrefs
 .
 mLangGroup
 =
-nullptr
+nsnull
 ;
 }
 NS_HIDDEN_
@@ -3605,8 +3605,10 @@ nsILinkHandler
 *
 mLinkHandler
 ;
+nsCOMPtr
+<
 nsIAtom
-*
+>
 mLanguage
 ;
 public
@@ -4056,7 +4058,7 @@ Cancel
 ;
 mNotifyDidPaintTimer
 =
-nullptr
+nsnull
 ;
 }
 }
@@ -4209,7 +4211,7 @@ Revoke
 {
 mPresContext
 =
-nullptr
+nsnull
 ;
 }
 NS_IMETHOD
@@ -4263,7 +4265,7 @@ Cancel
 ;
 mUpdatePluginGeometryTimer
 =
-nullptr
+nsnull
 ;
 }
 }
