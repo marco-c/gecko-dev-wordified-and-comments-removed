@@ -828,6 +828,16 @@ gfxPlatform
 gfxPlatform
 (
 )
+:
+mAzureBackendCollector
+(
+this
+&
+gfxPlatform
+:
+:
+GetAzureBackendInfo
+)
 {
 mUseHarfBuzzScripts
 =
