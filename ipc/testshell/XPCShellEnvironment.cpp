@@ -2450,9 +2450,6 @@ argv
 )
 )
 {
-if
-(
-!
 JS_ClearScope
 (
 cx
@@ -2464,9 +2461,6 @@ argv
 ]
 )
 )
-)
-return
-JS_FALSE
 ;
 }
 else

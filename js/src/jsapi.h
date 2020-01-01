@@ -8681,7 +8681,7 @@ rval
 extern
 JS_PUBLIC_API
 (
-JSBool
+void
 )
 JS_ClearScope
 (
