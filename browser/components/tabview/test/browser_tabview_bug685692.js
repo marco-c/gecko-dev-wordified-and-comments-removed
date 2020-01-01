@@ -205,13 +205,10 @@ function
 (
 )
 {
-cw
-.
-UI
-.
-setActive
-(
 groupItemOne
+.
+close
+(
 )
 ;
 hideTabView
