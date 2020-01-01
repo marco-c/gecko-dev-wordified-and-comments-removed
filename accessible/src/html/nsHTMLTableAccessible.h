@@ -399,7 +399,7 @@ PR_TRUE
 #
 ifdef
 SHOW_LAYOUT_HEURISTIC
-nsAutoString
+nsString
 mLayoutHeuristic
 ;
 #
