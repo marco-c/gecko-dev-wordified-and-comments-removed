@@ -1537,15 +1537,6 @@ constructorThis
 )
 )
 ;
-JS_RUNTIME_METER
-(
-cx
--
->
-runtime
-constructs
-)
-;
 }
 return
 ok
