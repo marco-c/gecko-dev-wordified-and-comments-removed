@@ -193,6 +193,9 @@ mComplete
 nsresult
 mStatus
 ;
+bool
+mAppend
+;
 nsCOMPtr
 <
 nsIFile
