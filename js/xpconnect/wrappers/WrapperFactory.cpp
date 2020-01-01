@@ -97,8 +97,8 @@ WrapperFactory
 WAIVE_XRAY_WRAPPER_FLAG
 )
 ;
-CrossOriginWrapper
-CrossOriginWrapper
+WaiveXrayWrapper
+WaiveXrayWrapper
 :
 :
 singleton
@@ -1367,7 +1367,7 @@ WAIVE_XRAY_WRAPPER_FLAG
 wrapper
 =
 &
-CrossOriginWrapper
+WaiveXrayWrapper
 :
 :
 singleton
