@@ -26567,11 +26567,7 @@ startOffset
 ;
 if
 (
-iter
-.
-GetSkippedOffset
-(
-)
+startOffset
 <
 =
 PRUint32
@@ -26586,11 +26582,7 @@ GetEnd
 &
 !
 (
-iter
-.
-GetSkippedOffset
-(
-)
+startOffset
 <
 PRUint32
 (
