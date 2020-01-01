@@ -23149,16 +23149,6 @@ if
 mostRecentDragWindow
 )
 {
-NS_WARNING
-(
-"
-Spurious
-drag
-leave
-signal
-"
-)
-;
 return
 ;
 }
