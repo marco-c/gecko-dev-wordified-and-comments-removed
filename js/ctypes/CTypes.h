@@ -207,6 +207,8 @@ void
 data
 bool
 wantPrimitive
+bool
+ownResult
 jsval
 *
 result
@@ -356,6 +358,9 @@ SLOT_REFERENT
 SLOT_DATA
 =
 2
+SLOT_OWNS
+=
+3
 CDATA_SLOTS
 }
 ;
@@ -1501,13 +1506,15 @@ JSContext
 cx
 JSObject
 *
-type
+typeObj
 JSObject
 *
-base
+refObj
 void
 *
 data
+bool
+ownResult
 )
 ;
 static
