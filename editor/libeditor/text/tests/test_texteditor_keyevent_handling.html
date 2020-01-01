@@ -1340,6 +1340,11 @@ Linux
 :
 native
 handler
+/
+/
+Mac
+:
+cmd_deleteCharForward
 check
 (
 aDescription
@@ -1354,6 +1359,9 @@ aIsReadonly
 |
 |
 kIsLinux
+|
+|
+kIsMac
 )
 ;
 reset
@@ -1372,6 +1380,11 @@ cmd_cutOrDelete
 Linux
 :
 cmd_cut
+/
+/
+Mac
+:
+cmd_deleteCharForward
 synthesizeKey
 (
 "
@@ -1395,10 +1408,7 @@ Delete
 "
 true
 true
-kIsWin
-|
-|
-kIsLinux
+true
 )
 ;
 reset
