@@ -455,6 +455,10 @@ nsIDocument
 .
 h
 \
+nsDeprecatedOperationList
+.
+h
+\
 nsIDocumentObserver
 .
 h
