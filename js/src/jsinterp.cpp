@@ -3536,15 +3536,9 @@ fp
 >
 initEvalFrame
 (
+cx
 script
 prev
-prev
--
->
-pc
-(
-cx
-)
 flags
 )
 ;
