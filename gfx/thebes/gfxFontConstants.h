@@ -84,15 +84,4 @@ define
 NS_FONT_STRETCH_ULTRA_EXPANDED
 4
 #
-define
-NS_FONT_STRETCH_WIDER
-10
-#
-define
-NS_FONT_STRETCH_NARROWER
-(
--
-10
-)
-#
 endif

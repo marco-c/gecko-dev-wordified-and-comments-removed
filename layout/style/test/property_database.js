@@ -20101,12 +20101,6 @@ other_values
 :
 [
 "
-wider
-"
-"
-narrower
-"
-"
 ultra
 -
 condensed

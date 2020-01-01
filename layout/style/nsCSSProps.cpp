@@ -3398,10 +3398,6 @@ kFontStretchKTable
 ]
 =
 {
-eCSSKeyword_wider
-NS_STYLE_FONT_STRETCH_WIDER
-eCSSKeyword_narrower
-NS_STYLE_FONT_STRETCH_NARROWER
 eCSSKeyword_ultra_condensed
 NS_STYLE_FONT_STRETCH_ULTRA_CONDENSED
 eCSSKeyword_extra_condensed
