@@ -122,6 +122,10 @@ test_nondomexception
 .
 html
 \
+test_screen_orientation
+.
+html
+\
 (
 NULL
 )
