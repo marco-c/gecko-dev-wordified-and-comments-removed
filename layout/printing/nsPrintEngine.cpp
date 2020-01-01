@@ -12553,6 +12553,10 @@ aIsPrinting
 if
 (
 mDocViewerPrint
+&
+&
+!
+mIsDoingPrintPreview
 )
 {
 mDocViewerPrint
