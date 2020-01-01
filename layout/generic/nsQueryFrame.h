@@ -353,9 +353,6 @@ nsXULLabelFrame_id
 nsXULScrollFrame_id
 SpacerFrame_id
 ViewportFrame_id
-NON_FRAME_MARKER
-=
-0x40000000
 }
 ;
 virtual
