@@ -1593,6 +1593,14 @@ aDocument
 IsVisible
 (
 )
+|
+|
+aDocument
+-
+>
+GetDisplayDocument
+(
+)
 )
 return
 nsnull
