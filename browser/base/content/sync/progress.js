@@ -363,7 +363,9 @@ max
 =
 Weave
 .
-Engines
+Service
+.
+engineManager
 .
 getEnabled
 (

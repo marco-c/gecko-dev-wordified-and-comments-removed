@@ -5387,7 +5387,9 @@ if
 (
 Weave
 .
-Engines
+Service
+.
+engineManager
 .
 get
 (
@@ -5560,7 +5562,9 @@ if
 (
 Weave
 .
-Engines
+Service
+.
+engineManager
 .
 get
 (
@@ -5728,7 +5732,9 @@ if
 (
 Weave
 .
-Engines
+Service
+.
+engineManager
 .
 get
 (
@@ -5829,7 +5835,9 @@ if
 !
 Weave
 .
-Engines
+Service
+.
+engineManager
 .
 get
 (

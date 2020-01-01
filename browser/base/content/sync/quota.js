@@ -444,7 +444,9 @@ engines
 {
 Weave
 .
-Engines
+Service
+.
+engineManager
 .
 get
 (
@@ -577,7 +579,9 @@ engine
 in
 Weave
 .
-Engines
+Service
+.
+engineManager
 .
 getEnabled
 (
