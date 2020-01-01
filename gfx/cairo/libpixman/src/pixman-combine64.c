@@ -1976,6 +1976,9 @@ DIV_ONE_UN16
 (
 sa
 *
+(
+uint64_t
+)
 da
 )
 <
@@ -2205,6 +2208,9 @@ ALPHA_16
 m
 )
 *
+(
+uint64_t
+)
 da
 )
 <
@@ -3446,6 +3452,9 @@ DIV_ONE_UN16
 (
 sa
 *
+(
+uint64_t
+)
 da
 )
 <
