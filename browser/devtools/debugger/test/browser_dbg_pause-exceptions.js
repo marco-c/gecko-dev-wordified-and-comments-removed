@@ -63,7 +63,7 @@ gDebugger
 =
 gPane
 .
-contentWindow
+panelWin
 ;
 gDebugger
 .
@@ -100,7 +100,7 @@ testWithFrame
 {
 gPane
 .
-contentWindow
+panelWin
 .
 gClient
 .
@@ -241,7 +241,7 @@ gCount
 ;
 gPane
 .
-contentWindow
+panelWin
 .
 gClient
 .
@@ -612,7 +612,7 @@ resumeAndFinish
 {
 gPane
 .
-contentWindow
+panelWin
 .
 gClient
 .

@@ -162,6 +162,14 @@ browser_styleeditor_sv_resize
 .
 js
 \
+head
+.
+js
+\
+helpers
+.
+js
+\
 four
 .
 html

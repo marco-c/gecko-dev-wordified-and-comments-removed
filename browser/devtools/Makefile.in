@@ -89,7 +89,7 @@ mk
 DIRS
 =
 \
-highlighter
+inspector
 \
 markupview
 \
@@ -114,6 +114,8 @@ layoutview
 shared
 \
 responsivedesign
+\
+framework
 \
 (
 NULL

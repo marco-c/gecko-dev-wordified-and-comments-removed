@@ -107,7 +107,7 @@ gDebugger
 =
 gPane
 .
-contentWindow
+panelWin
 ;
 gBreakpoints
 =
@@ -403,7 +403,9 @@ gBreakpoints
 =
 gPane
 .
-breakpoints
+getAllBreakpoints
+(
+)
 ;
 is
 (
