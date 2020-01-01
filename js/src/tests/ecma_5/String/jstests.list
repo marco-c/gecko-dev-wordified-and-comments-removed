@@ -69,3 +69,11 @@ split
 xregexp
 .
 js
+script
+string
+-
+object
+-
+length
+.
+js
