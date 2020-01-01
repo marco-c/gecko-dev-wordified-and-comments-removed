@@ -404,6 +404,13 @@ PRBool
 aActivateFlag
 )
 ;
+virtual
+nsIScrollableFrame
+*
+GetScrollTargetFrame
+(
+)
+;
 void
 OpenMenu
 (

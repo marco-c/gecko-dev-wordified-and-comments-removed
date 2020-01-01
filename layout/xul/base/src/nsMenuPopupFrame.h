@@ -668,6 +668,15 @@ nsIFrame
 aStart
 )
 ;
+nsIScrollableFrame
+*
+GetScrollFrame
+(
+nsIFrame
+*
+aStart
+)
+;
 void
 SetPreferredBounds
 (
