@@ -768,16 +768,6 @@ type
 "
 int
 "
-onchange
-=
-"
-gSecurityPane
-.
-onProviderChanged
-(
-)
-;
-"
 /
 >
 <
