@@ -275,10 +275,6 @@ nsSmartCardMonitor
 .
 cpp
 \
-nsSmartCardEvent
-.
-cpp
-\
 nsStreamCipher
 .
 cpp

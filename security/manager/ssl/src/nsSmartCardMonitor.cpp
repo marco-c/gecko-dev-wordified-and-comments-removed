@@ -29,7 +29,7 @@ h
 #
 include
 "
-nsSmartCardEvent
+nsIDOMSmartCardEvent
 .
 h
 "

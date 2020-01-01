@@ -783,10 +783,6 @@ MozCanvasPrintState
 )
 DOMCI_CLASS
 (
-SmartCardEvent
-)
-DOMCI_CLASS
-(
 WindowUtils
 )
 DOMCI_CLASS
