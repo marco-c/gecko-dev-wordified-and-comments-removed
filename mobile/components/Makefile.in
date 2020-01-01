@@ -489,10 +489,6 @@ GeolocationPrompt
 .
 js
 \
-AlertsService
-.
-js
-\
 XPIDialogService
 .
 js
@@ -536,6 +532,15 @@ js
 (
 NULL
 )
+ifndef
+ANDROID
+EXTRA_COMPONENTS
++
+=
+AlertsService
+.
+js
+endif
 DIRS
 =
 phone
