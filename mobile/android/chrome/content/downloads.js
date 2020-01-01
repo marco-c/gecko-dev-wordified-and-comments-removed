@@ -687,6 +687,12 @@ msgKey
 alertDownloadsDone
 "
 ;
+setTimeout
+(
+function
+(
+)
+{
 let
 message
 =
@@ -717,7 +723,9 @@ size
 :
 download
 .
-size
+targetFile
+.
+fileSize
 mimeType
 :
 download
@@ -738,6 +746,10 @@ type
 sendMessageToJava
 (
 message
+)
+;
+}
+0
 )
 ;
 }
