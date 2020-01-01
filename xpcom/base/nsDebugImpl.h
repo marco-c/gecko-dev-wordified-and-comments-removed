@@ -45,6 +45,16 @@ void
 aInstancePtr
 )
 ;
+static
+void
+SetMultiprocessMode
+(
+const
+char
+*
+aDesc
+)
+;
 }
 ;
 #
