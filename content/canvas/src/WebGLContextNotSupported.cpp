@@ -49,16 +49,6 @@ void
 )
 DOMCI_DATA
 (
-WebGLFramebuffer
-void
-)
-DOMCI_DATA
-(
-WebGLRenderbuffer
-void
-)
-DOMCI_DATA
-(
 WebGLActiveInfo
 void
 )

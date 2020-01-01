@@ -395,12 +395,16 @@ WebGLBuffer
 ;
 interface
 WebGLFramebuffer
+{
+}
 ;
 interface
 WebGLProgram
 ;
 interface
 WebGLRenderbuffer
+{
+}
 ;
 interface
 WebGLShader
