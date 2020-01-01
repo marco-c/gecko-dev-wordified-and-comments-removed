@@ -12752,8 +12752,8 @@ JSContext
 HandleScript
 jsbytecode
 *
-HandleValue
-HandleValue
+MutableHandleValue
+MutableHandleValue
 Value
 *
 )
