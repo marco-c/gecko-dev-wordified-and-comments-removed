@@ -1020,6 +1020,14 @@ atom
 )
 ;
 bool
+jsop_getname
+(
+JSAtom
+*
+atom
+)
+;
+bool
 jsop_getelem
 (
 )
