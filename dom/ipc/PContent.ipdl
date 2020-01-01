@@ -456,6 +456,9 @@ DeviceStorageAvailableParams
 nsString
 type
 ;
+nsString
+fullpath
+;
 }
 ;
 struct

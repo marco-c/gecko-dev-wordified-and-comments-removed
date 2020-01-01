@@ -304,6 +304,16 @@ nsACString
 aAccessResult
 )
 ;
+static
+bool
+IsVolumeBased
+(
+const
+nsAString
+&
+aType
+)
+;
 private
 :
 nsString
@@ -581,6 +591,9 @@ MOZ_WIDGET_GONK
 nsresult
 GetSDCardStatus
 (
+nsAString
+&
+aPath
 nsAString
 &
 aState
