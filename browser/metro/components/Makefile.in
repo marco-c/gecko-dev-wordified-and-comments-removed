@@ -152,10 +152,6 @@ ContentDispatchChooser
 .
 js
 \
-FormAutoComplete
-.
-js
-\
 LoginManagerPrompter
 .
 js
