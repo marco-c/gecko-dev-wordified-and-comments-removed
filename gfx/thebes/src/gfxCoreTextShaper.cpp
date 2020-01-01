@@ -409,6 +409,7 @@ endBidiWrap
 =
 {
 0x20
+0x2e
 0x202c
 }
 ;
