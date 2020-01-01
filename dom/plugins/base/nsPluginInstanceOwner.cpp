@@ -2810,6 +2810,18 @@ mWidgetVisible
 return
 NS_ERROR_FAILURE
 ;
+#
+if
+defined
+(
+XP_MACOSX
+)
+|
+|
+defined
+(
+MOZ_WIDGET_ANDROID
+)
 nsRefPtr
 <
 ImageContainer
@@ -2827,6 +2839,8 @@ container
 )
 )
 ;
+#
+endif
 #
 ifndef
 XP_MACOSX
