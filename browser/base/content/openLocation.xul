@@ -756,6 +756,13 @@ enablehistory
 "
 true
 "
+class
+=
+"
+uri
+-
+element
+"
 oninput
 =
 "
