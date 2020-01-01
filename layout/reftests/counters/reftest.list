@@ -1123,6 +1123,7 @@ c
 reference
 .
 html
+fails
 =
 =
 t1204
@@ -1147,6 +1148,16 @@ d
 reference
 .
 html
+#
+content
+:
+none
+unimplemented
+(
+need
+bug
+!
+)
 fails
 =
 =
