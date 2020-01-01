@@ -1841,7 +1841,6 @@ ADD_TO_CC
 (
 _kind
 )
-\
 (
 (
 _kind
@@ -1851,15 +1850,6 @@ _kind
 JSTRACE_OBJECT
 |
 |
-(
-_kind
-)
-=
-=
-JSTRACE_FUNCTION
-|
-|
-\
 (
 _kind
 )

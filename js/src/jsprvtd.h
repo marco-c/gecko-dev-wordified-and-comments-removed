@@ -732,10 +732,6 @@ JSString
 *
 string
 ;
-JSFunction
-*
-function
-;
 JSXML
 *
 xml
