@@ -1802,6 +1802,7 @@ true
 #
 endif
 static
+const
 JSFunctionSpec
 string_functions
 [
@@ -17774,6 +17775,7 @@ vp
 #
 endif
 static
+const
 JSFunctionSpec
 string_methods
 [
@@ -18579,6 +18581,7 @@ JS_TRUE
 ;
 }
 static
+const
 JSFunctionSpec
 string_static_methods
 [

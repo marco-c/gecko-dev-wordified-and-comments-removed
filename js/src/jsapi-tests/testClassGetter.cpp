@@ -146,6 +146,7 @@ JS_TRUE
 ;
 }
 static
+const
 JSFunctionSpec
 ptestFunctions
 [

@@ -15,12 +15,14 @@ namespace
 js
 {
 extern
+const
 JSFunctionSpec
 object_methods
 [
 ]
 ;
 extern
+const
 JSFunctionSpec
 object_static_methods
 [

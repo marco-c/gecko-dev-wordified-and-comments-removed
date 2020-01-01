@@ -18035,6 +18035,7 @@ true
 ;
 }
 static
+const
 JSFunctionSpec
 static_methods
 [

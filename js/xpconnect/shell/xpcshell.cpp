@@ -4243,6 +4243,7 @@ vp
 ;
 }
 static
+const
 JSFunctionSpec
 glob_functions
 [

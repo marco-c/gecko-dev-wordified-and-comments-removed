@@ -24835,6 +24835,7 @@ argc
 vp
 )
 ;
+const
 JSFunctionSpec
 *
 fs

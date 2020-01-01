@@ -374,6 +374,7 @@ properties
 ]
 ;
 static
+const
 JSFunctionSpec
 methods
 [
@@ -728,6 +729,7 @@ properties
 ]
 ;
 static
+const
 JSFunctionSpec
 methods
 [

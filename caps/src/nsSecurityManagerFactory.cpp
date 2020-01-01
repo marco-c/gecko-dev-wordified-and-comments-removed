@@ -243,6 +243,7 @@ cx
 ;
 }
 static
+const
 JSFunctionSpec
 PrivilegeManager_static_methods
 [

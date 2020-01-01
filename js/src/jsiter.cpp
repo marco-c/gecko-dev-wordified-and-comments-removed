@@ -4465,6 +4465,7 @@ args
 ;
 }
 static
+const
 JSFunctionSpec
 iterator_methods
 [
@@ -5138,6 +5139,7 @@ JS_ConvertStub
 NULL
 }
 ;
+const
 JSFunctionSpec
 ElementIteratorObject
 :
@@ -8660,6 +8662,7 @@ JSPROP_READONLY
 JSPROP_PERMANENT
 )
 static
+const
 JSFunctionSpec
 generator_methods
 [

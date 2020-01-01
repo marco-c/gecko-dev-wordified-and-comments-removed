@@ -3385,6 +3385,7 @@ JS_TRUE
 #
 endif
 static
+const
 JSFunctionSpec
 math_static_methods
 [

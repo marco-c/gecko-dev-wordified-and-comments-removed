@@ -14615,6 +14615,7 @@ args
 ;
 }
 static
+const
 JSFunctionSpec
 date_static_methods
 [
@@ -14652,6 +14653,7 @@ JS_FS_END
 }
 ;
 static
+const
 JSFunctionSpec
 date_methods
 [

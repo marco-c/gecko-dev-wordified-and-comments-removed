@@ -2298,6 +2298,7 @@ true
 #
 endif
 static
+const
 JSFunctionSpec
 collator_static_methods
 [
@@ -2322,6 +2323,7 @@ JS_FS_END
 }
 ;
 static
+const
 JSFunctionSpec
 collator_methods
 [
@@ -4887,6 +4889,7 @@ true
 #
 endif
 static
+const
 JSFunctionSpec
 numberFormat_static_methods
 [
@@ -4911,6 +4914,7 @@ JS_FS_END
 }
 ;
 static
+const
 JSFunctionSpec
 numberFormat_methods
 [
@@ -7279,6 +7283,7 @@ true
 #
 endif
 static
+const
 JSFunctionSpec
 dateTimeFormat_static_methods
 [
@@ -7303,6 +7308,7 @@ JS_FS_END
 }
 ;
 static
+const
 JSFunctionSpec
 dateTimeFormat_methods
 [
@@ -9797,6 +9803,7 @@ true
 #
 endif
 static
+const
 JSFunctionSpec
 intl_static_methods
 [

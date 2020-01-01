@@ -2498,6 +2498,7 @@ JS_FALSE
 }
 #
 endif
+const
 JSFunctionSpec
 gGlobalFunctions
 [

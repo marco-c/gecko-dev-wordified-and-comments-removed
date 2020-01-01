@@ -66,6 +66,7 @@ Class
 protoClass
 ;
 static
+const
 JSFunctionSpec
 methods
 [

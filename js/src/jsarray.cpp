@@ -12219,6 +12219,7 @@ define
 GENERIC
 JSFUN_GENERIC_NATIVE
 static
+const
 JSFunctionSpec
 array_methods
 [
@@ -12475,6 +12476,7 @@ JS_FS_END
 }
 ;
 static
+const
 JSFunctionSpec
 array_static_methods
 [

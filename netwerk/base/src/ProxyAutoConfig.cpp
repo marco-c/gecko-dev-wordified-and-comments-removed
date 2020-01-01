@@ -3424,6 +3424,7 @@ true
 ;
 }
 static
+const
 JSFunctionSpec
 PACGlobalFunctions
 [

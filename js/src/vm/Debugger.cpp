@@ -13789,6 +13789,7 @@ setUncaughtExceptionHook
 JS_PS_END
 }
 ;
+const
 JSFunctionSpec
 Debugger
 :
@@ -18229,6 +18230,7 @@ JS_PS_END
 }
 ;
 static
+const
 JSFunctionSpec
 DebuggerScript_methods
 [
@@ -21857,6 +21859,7 @@ JS_PS_END
 }
 ;
 static
+const
 JSFunctionSpec
 DebuggerFrame_methods
 [
@@ -26436,6 +26439,7 @@ JS_PS_END
 }
 ;
 static
+const
 JSFunctionSpec
 DebuggerObject_methods
 [
@@ -28316,6 +28320,7 @@ JS_PS_END
 }
 ;
 static
+const
 JSFunctionSpec
 DebuggerEnv_methods
 [

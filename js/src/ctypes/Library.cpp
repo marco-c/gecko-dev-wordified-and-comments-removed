@@ -128,6 +128,7 @@ JSPROP_READONLY
 JSPROP_PERMANENT
 )
 static
+const
 JSFunctionSpec
 sLibraryFunctions
 [

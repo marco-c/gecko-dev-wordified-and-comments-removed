@@ -1536,6 +1536,7 @@ properties
 ]
 ;
 static
+const
 JSFunctionSpec
 methods
 [

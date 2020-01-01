@@ -138,6 +138,7 @@ JS_TRUE
 ;
 }
 static
+const
 JSFunctionSpec
 s_functions
 [

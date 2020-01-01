@@ -16881,6 +16881,7 @@ JS_TRUE
 ;
 }
 static
+const
 JSFunctionSpec
 static_methods
 [

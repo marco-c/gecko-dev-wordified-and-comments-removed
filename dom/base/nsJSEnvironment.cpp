@@ -9443,6 +9443,7 @@ JS_TRUE
 ;
 }
 static
+const
 JSFunctionSpec
 TraceMallocFunctions
 [
@@ -9713,6 +9714,7 @@ JS_TRUE
 }
 }
 static
+const
 JSFunctionSpec
 DMDFunctions
 [
@@ -10033,6 +10035,7 @@ JS_TRUE
 ;
 }
 static
+const
 JSFunctionSpec
 JProfFunctions
 [

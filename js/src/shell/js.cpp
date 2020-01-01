@@ -25036,6 +25036,7 @@ JSOP_NULLWRAPPER
 }
 ;
 static
+const
 JSFunctionSpec
 dom_methods
 [

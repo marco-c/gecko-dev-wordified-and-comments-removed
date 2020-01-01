@@ -103,6 +103,7 @@ sProperties
 ]
 ;
 static
+const
 JSFunctionSpec
 sFunctions
 [
@@ -1537,6 +1538,7 @@ JSOP_NULLWRAPPER
 }
 }
 ;
+const
 JSFunctionSpec
 Event
 :
@@ -1662,6 +1664,7 @@ sProperties
 ]
 ;
 static
+const
 JSFunctionSpec
 sFunctions
 [
@@ -2691,6 +2694,7 @@ JSOP_NULLWRAPPER
 }
 }
 ;
+const
 JSFunctionSpec
 MessageEvent
 :
@@ -2734,6 +2738,7 @@ sProperties
 ]
 ;
 static
+const
 JSFunctionSpec
 sFunctions
 [
@@ -3525,6 +3530,7 @@ JSOP_NULLWRAPPER
 }
 }
 ;
+const
 JSFunctionSpec
 ErrorEvent
 :
@@ -3564,6 +3570,7 @@ sProperties
 ]
 ;
 static
+const
 JSFunctionSpec
 sFunctions
 [
@@ -4283,6 +4290,7 @@ JSOP_NULLWRAPPER
 }
 }
 ;
+const
 JSFunctionSpec
 ProgressEvent
 :
