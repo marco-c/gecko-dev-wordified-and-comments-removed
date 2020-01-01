@@ -5079,7 +5079,7 @@ JSVAL_BOOLEAN
 :
 *
 (
-bool
+JSBool
 *
 )
 slot
@@ -5406,6 +5406,10 @@ d
 &
 v
 )
+?
+true
+:
+false
 ;
 case
 JSVAL_STRING
@@ -7679,8 +7683,14 @@ anchor
 ;
 }
 #
-ifdef
+if
+defined
 DEBUG
+&
+&
+!
+defined
+WIN32
 char
 *
 label
@@ -8021,7 +8031,7 @@ exit
 =
 exit
 ;
-debug_only
+verbose_only
 (
 rec
 -
@@ -10287,7 +10297,7 @@ core
 24
 )
 ;
-debug_only
+verbose_only
 (
 fragmento
 -
@@ -10340,6 +10350,11 @@ fragmento
 fragmento
 ;
 }
+#
+if
+!
+defined
+XP_WIN
 debug_only
 (
 memset
@@ -10354,6 +10369,8 @@ stat
 )
 )
 ;
+#
+endif
 }
 extern
 void
@@ -14021,6 +14038,7 @@ lir
 insLoadi
 (
 dslots_ins
+0
 -
 sizeof
 (
@@ -16784,6 +16802,7 @@ thisval_ins
 =
 stack
 (
+0
 -
 (
 argc
