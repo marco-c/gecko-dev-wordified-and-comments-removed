@@ -73,6 +73,12 @@ aVolume
 ;
 virtual
 bool
+RecvMinWriteSample
+(
+)
+;
+virtual
+bool
 RecvDrain
 (
 )
@@ -93,6 +99,14 @@ virtual
 bool
 RecvShutdown
 (
+)
+;
+virtual
+bool
+SendMinWriteSampleDone
+(
+PRInt32
+minSamples
 )
 ;
 virtual

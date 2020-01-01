@@ -478,6 +478,10 @@ float
 aVolume
 )
 ;
+MinWriteSample
+(
+)
+;
 Drain
 (
 )
@@ -506,6 +510,12 @@ PRInt64
 offset
 PRInt64
 time
+)
+;
+MinWriteSampleDone
+(
+PRInt32
+sampleCount
 )
 ;
 DrainDone
