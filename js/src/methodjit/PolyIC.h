@@ -1774,7 +1774,7 @@ PICInfo
 ;
 void
 JS_FASTCALL
-SetProp
+SetPropOrName
 (
 VMFrame
 &
