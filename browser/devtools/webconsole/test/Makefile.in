@@ -577,6 +577,10 @@ browser_console_error_source_click
 .
 js
 \
+browser_console_clear_on_reload
+.
+js
+\
 head
 .
 js
