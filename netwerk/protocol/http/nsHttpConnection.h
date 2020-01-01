@@ -616,13 +616,6 @@ caps
 )
 ;
 void
-HandleAlternateProtocol
-(
-nsHttpResponseHead
-*
-)
-;
-void
 StartSpdy
 (
 uint8_t

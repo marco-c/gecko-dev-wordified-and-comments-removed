@@ -459,15 +459,6 @@ mCoalesceSpdy
 ;
 }
 bool
-UseAlternateProtocol
-(
-)
-{
-return
-mUseAlternateProtocol
-;
-}
-bool
 UseSpdyPersistentSettings
 (
 )
@@ -1422,9 +1413,6 @@ mSpdyV3
 ;
 bool
 mCoalesceSpdy
-;
-bool
-mUseAlternateProtocol
 ;
 bool
 mSpdyPersistentSettings
