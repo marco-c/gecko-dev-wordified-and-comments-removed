@@ -4752,7 +4752,7 @@ ShouldDoubleBuffer
 {
 #
 ifdef
-ANDROID
+MOZ_JAVA_COMPOSITOR
 return
 gl
 (
