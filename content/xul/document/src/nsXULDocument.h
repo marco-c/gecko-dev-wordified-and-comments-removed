@@ -1654,6 +1654,10 @@ mSetAttr
 (
 PR_FALSE
 )
+mNeedsAttrChange
+(
+PR_FALSE
+)
 {
 }
 nsDelayedBroadcastUpdate
@@ -1673,6 +1677,8 @@ nsAString
 aAttr
 PRBool
 aSetAttr
+PRBool
+aNeedsAttrChange
 )
 :
 mBroadcaster
@@ -1694,6 +1700,10 @@ aAttrName
 mSetAttr
 (
 aSetAttr
+)
+mNeedsAttrChange
+(
+aNeedsAttrChange
 )
 {
 }
@@ -1734,6 +1744,12 @@ mSetAttr
 aOther
 .
 mSetAttr
+)
+mNeedsAttrChange
+(
+aOther
+.
+mNeedsAttrChange
 )
 {
 }
@@ -1758,8 +1774,11 @@ nsIAtom
 >
 mAttrName
 ;
-PRBool
+PRPackedBool
 mSetAttr
+;
+PRPackedBool
+mNeedsAttrChange
 ;
 }
 ;
