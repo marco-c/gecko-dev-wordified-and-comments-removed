@@ -337,6 +337,9 @@ mSipccState
 aState
 ;
 }
+int
+mConnectionCounter
+;
 PeerConnectionImpl
 :
 :

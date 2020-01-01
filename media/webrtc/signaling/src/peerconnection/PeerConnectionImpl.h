@@ -1070,7 +1070,7 @@ aSignalingState
 ifdef
 MOZILLA_INTERNAL_API
 void
-setStartTime
+startCallTelem
 (
 )
 ;
