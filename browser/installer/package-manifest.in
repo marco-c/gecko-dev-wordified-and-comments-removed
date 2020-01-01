@@ -824,13 +824,6 @@ BINPATH
 /
 components
 /
-dom_threads
-.
-xpt
-BINPATH
-/
-components
-/
 dom_traversal
 .
 xpt
