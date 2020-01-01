@@ -4636,11 +4636,9 @@ Void
 Cursor
 >
 (
-getView
-(
-)
+GeckoAppShell
 .
-getHandler
+getMainHandler
 (
 )
 GeckoAppShell
