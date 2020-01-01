@@ -579,6 +579,10 @@ SVGPathSegList
 .
 webidl
 \
+SVGPatternElement
+.
+webidl
+\
 SVGPoint
 .
 webidl
