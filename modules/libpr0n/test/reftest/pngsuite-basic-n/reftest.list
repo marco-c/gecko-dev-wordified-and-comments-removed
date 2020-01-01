@@ -302,17 +302,6 @@ bit
 color
 )
 paletted
-fails
--
-if
-(
-MOZ_WIDGET_TOOLKIT
-=
-=
-"
-windows
-"
-)
 =
 =
 basn3p02
