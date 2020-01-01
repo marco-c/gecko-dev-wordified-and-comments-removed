@@ -13,7 +13,9 @@ MOZ_VTUNE
 #
 include
 "
-jitprofiling
+vtune
+/
+VTuneWrapper
 .
 h
 "
@@ -3462,6 +3464,11 @@ MOZ_VTUNE
 )
 if
 (
+IsVTuneProfilingActive
+(
+)
+&
+&
 !
 SendFunctionsToVTune
 (
