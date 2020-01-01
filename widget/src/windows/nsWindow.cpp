@@ -28649,12 +28649,6 @@ message
 "
 )
 ;
-ValidateWindow
-(
-aWnd
-NULL
-)
-;
 return
 ;
 }
