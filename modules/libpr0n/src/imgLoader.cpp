@@ -2897,6 +2897,10 @@ Init
 (
 aRequest
 aLoadGroup
+aRequest
+-
+>
+mImage
 uri
 aObserver
 )

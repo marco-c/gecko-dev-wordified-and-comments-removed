@@ -460,6 +460,10 @@ imgDiscardTracker
 .
 cpp
 \
+imgStatusTracker
+.
+cpp
+\
 (
 NULL
 )
