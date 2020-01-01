@@ -1,9 +1,9 @@
 #
 ifndef
-MOZILLA_A11Y_APPLICATION_ACCESSIBLE_WRAP_H__
+mozilla_a11y_ApplicationAccessibleWrap_h__
 #
 define
-MOZILLA_A11Y_APPLICATION_ACCESSIBLE_WRAP_H__
+mozilla_a11y_ApplicationAccessibleWrap_h__
 #
 include
 "
@@ -11,6 +11,12 @@ ApplicationAccessible
 .
 h
 "
+namespace
+mozilla
+{
+namespace
+a11y
+{
 class
 ApplicationAccessibleWrap
 :
@@ -35,5 +41,7 @@ Unload
 }
 }
 ;
+}
+}
 #
 endif
