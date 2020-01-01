@@ -1397,6 +1397,19 @@ autoconf213
 '
 HOMEBREW_AUTOCONF213
 )
+            
+(
+'
+terminal
+-
+notifier
+'
+'
+terminal
+-
+notifier
+'
+)
         
 ]
         
