@@ -638,6 +638,15 @@ delete
 mMessage
 ;
 }
+mJSException
+=
+JS
+:
+:
+UndefinedValue
+(
+)
+;
 if
 (
 !
