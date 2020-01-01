@@ -67,7 +67,7 @@ nsWindow
 *
 aParent
 const
-nsRect
+nsIntRect
 &
 aRect
 EVENT_CALLBACK
@@ -136,7 +136,7 @@ bState
 NS_IMETHOD
 GetClientBounds
 (
-nsRect
+nsIntRect
 &
 aRect
 )

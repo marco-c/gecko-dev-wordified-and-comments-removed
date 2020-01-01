@@ -162,7 +162,7 @@ nsWindow
 *
 aParent
 const
-nsRect
+nsIntRect
 &
 aRect
 EVENT_CALLBACK
@@ -180,7 +180,7 @@ HWND
 hwndO
 )
 {
-nsRect
+nsIntRect
 rect
 =
 aRect
@@ -190,7 +190,7 @@ if
 aParent
 )
 {
-nsRect
+nsIntRect
 clientRect
 ;
 aParent
@@ -605,7 +605,7 @@ frame
 "
 )
 ;
-nsRect
+nsIntRect
 frameRect
 =
 rect
@@ -949,7 +949,7 @@ nsFrameWindow
 :
 GetClientBounds
 (
-nsRect
+nsIntRect
 &
 aRect
 )

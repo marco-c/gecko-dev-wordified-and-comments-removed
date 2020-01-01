@@ -169,7 +169,7 @@ nsIWidget
 *
 aParent
 const
-nsRect
+nsIntRect
 &
 aRect
 EVENT_CALLBACK
@@ -200,7 +200,7 @@ Create
 nsNativeWidget
 aParent
 const
-nsRect
+nsIntRect
 &
 aRect
 EVENT_CALLBACK
@@ -308,7 +308,7 @@ aRepaint
 NS_IMETHOD
 GetClientBounds
 (
-nsRect
+nsIntRect
 &
 aRect
 )
@@ -338,7 +338,7 @@ aRaise
 NS_IMETHOD
 GetBounds
 (
-nsRect
+nsIntRect
 &
 aRect
 )
@@ -424,10 +424,10 @@ NS_IMETHOD
 WidgetToScreen
 (
 const
-nsRect
+nsIntRect
 &
 aOldRect
-nsRect
+nsIntRect
 &
 aNewRect
 )
@@ -436,10 +436,10 @@ NS_IMETHOD
 ScreenToWidget
 (
 const
-nsRect
+nsIntRect
 &
 aOldRect
-nsRect
+nsIntRect
 &
 aNewRect
 )
@@ -562,7 +562,7 @@ NS_IMETHOD
 Invalidate
 (
 const
-nsRect
+nsIntRect
 &
 aRect
 PRBool
@@ -592,7 +592,7 @@ PRInt32
 aDx
 PRInt32
 aDy
-nsRect
+nsIntRect
 *
 aClipRect
 )
@@ -609,7 +609,7 @@ aDy
 NS_IMETHOD
 ScrollRect
 (
-nsRect
+nsIntRect
 &
 aRect
 PRInt32
@@ -1103,7 +1103,7 @@ nsWindow
 *
 wndP
 const
-nsRect
+nsIntRect
 &
 rect
 EVENT_CALLBACK
@@ -1132,7 +1132,7 @@ nsWindow
 *
 aParent
 const
-nsRect
+nsIntRect
 &
 aRect
 EVENT_CALLBACK
@@ -1186,7 +1186,7 @@ InitEvent
 nsGUIEvent
 &
 event
-nsPoint
+nsIntPoint
 *
 pt
 =
@@ -1271,7 +1271,7 @@ aClientY
 void
 GetNonClientBounds
 (
-nsRect
+nsIntRect
 &
 aRect
 )
