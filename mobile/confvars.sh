@@ -434,6 +434,9 @@ branding
 configure
 .
 sh
+MOZ_SAFE_BROWSING
+=
+0
 MOZ_SERVICES_SYNC
 =
 1
