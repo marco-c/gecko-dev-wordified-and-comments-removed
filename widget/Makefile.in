@@ -544,6 +544,14 @@ XPIDLSRCS
 nsIWinMetroUtils
 .
 idl
+\
+MetroUIUtils
+.
+idl
+\
+(
+NULL
+)
 endif
 ifeq
 (
