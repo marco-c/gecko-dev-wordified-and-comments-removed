@@ -752,6 +752,7 @@ self
 =
 this
 ;
+iQ
 (
 window
 )
@@ -783,6 +784,7 @@ false
 }
 )
 ;
+iQ
 (
 window
 )
@@ -1091,6 +1093,7 @@ norm
 null
 &
 &
+iQ
 (
 "
 :
@@ -1181,6 +1184,7 @@ which
 )
 &
 &
+iQ
 (
 "
 :
@@ -1246,6 +1250,7 @@ minWidth
 =
 60
 ;
+iQ
 (
 Utils
 .
@@ -1788,14 +1793,16 @@ phantom
 "
 <
 div
-class
-=
+>
+"
+)
+.
+addClass
+(
 '
 group
 phantom
 '
->
-"
 )
 .
 css
@@ -1980,6 +1987,7 @@ remove
 ;
 }
 )
+;
 }
 function
 finalize
@@ -2001,6 +2009,7 @@ unbind
 "
 mousemove
 "
+updateSize
 )
 ;
 if
