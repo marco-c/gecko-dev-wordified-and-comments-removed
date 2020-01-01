@@ -192,10 +192,10 @@ Utils
 .
 assert
 (
-'
 tab
-'
+"
 tab
+"
 )
 ;
 this
@@ -228,10 +228,10 @@ Utils
 .
 assert
 (
-'
 tab
-'
+"
 tab
+"
 )
 ;
 var
