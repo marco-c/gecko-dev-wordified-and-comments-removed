@@ -101,14 +101,6 @@ html
 .
 json
 \
-test_Event
--
-defaultPrevented
-.
-html
-.
-json
-\
 test_EventTarget
 -
 dispatchEvent

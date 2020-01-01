@@ -2483,6 +2483,15 @@ aCancelableArg
 mEvent
 -
 >
+mFlags
+.
+mDefaultPrevented
+=
+false
+;
+mEvent
+-
+>
 target
 =
 nullptr
