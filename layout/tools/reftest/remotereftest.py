@@ -51,8 +51,8 @@ import
 Automation
 import
 devicemanager
-devicemanagerADB
-devicemanagerSUT
+import
+droid
 from
 remoteautomation
 import
@@ -3276,9 +3276,9 @@ deviceIP
                 
 dm
 =
-devicemanagerADB
+droid
 .
-DeviceManagerADB
+DroidADB
 (
 options
 .
@@ -3298,9 +3298,9 @@ else
                 
 dm
 =
-devicemanagerADB
+droid
 .
-DeviceManagerADB
+DroidADB
 (
 None
 None
@@ -3316,9 +3316,9 @@ else
             
 dm
 =
-devicemanagerSUT
+droid
 .
-DeviceManagerSUT
+DroidSUT
 (
 options
 .

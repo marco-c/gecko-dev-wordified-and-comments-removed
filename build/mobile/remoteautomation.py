@@ -368,12 +368,14 @@ self
 .
 _devicemanager
 .
-processExist
+getTopActivity
 (
+)
+=
+=
 proc
 .
 procName
-)
 )
 :
             
@@ -1472,12 +1474,14 @@ self
 .
 dm
 .
-processExist
+getTopActivity
 (
+)
+=
+=
 self
 .
 procName
-)
 )
 :
                 
