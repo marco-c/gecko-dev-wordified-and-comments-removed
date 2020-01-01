@@ -25,10 +25,10 @@ SnapshotReader
 .
 h
 "
-struct
+class
 JSFunction
 ;
-struct
+class
 JSScript
 ;
 namespace
@@ -967,6 +967,14 @@ InlineFrameIterator
 (
 const
 IonBailoutIterator
+*
+iter
+)
+;
+InlineFrameIterator
+(
+const
+InlineFrameIterator
 *
 iter
 )
