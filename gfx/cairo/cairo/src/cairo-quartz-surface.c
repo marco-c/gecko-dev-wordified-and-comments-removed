@@ -8616,7 +8616,7 @@ FALSE
 cairo_bool_t
 didForceFontSmoothing
 =
-TRUE
+FALSE
 ;
 if
 (
