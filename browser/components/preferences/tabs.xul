@@ -563,11 +563,6 @@ help
 .
 rdf
 "
-flex
-=
-"
-1
-"
 >
 <
 preferences
@@ -930,9 +925,6 @@ tabsSeparator
 XXX
 flex
 below
-and
-on
-prefpane
 is
 a
 hack
