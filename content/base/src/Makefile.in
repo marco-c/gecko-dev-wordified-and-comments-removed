@@ -519,6 +519,10 @@ nsCCUncollectableMarker
 .
 cpp
 \
+nsChannelPolicy
+.
+cpp
+\
 nsCommentNode
 .
 cpp

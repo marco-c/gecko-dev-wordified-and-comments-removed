@@ -48,8 +48,6 @@ public
 nsIDOMUIEvent
 public
 nsIDOMNSUIEvent
-public
-nsIPrivateCompositionEvent
 {
 public
 :
@@ -112,15 +110,6 @@ aIter
 ;
 #
 endif
-NS_IMETHOD
-GetCompositionReply
-(
-nsTextEventReply
-*
-*
-aReply
-)
-;
 NS_FORWARD_TO_NSDOMEVENT
 NS_FORWARD_NSIDOMNSEVENT
 (
