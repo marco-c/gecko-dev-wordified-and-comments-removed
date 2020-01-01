@@ -126,14 +126,12 @@ version
 config
 -
 >
-Get
+GetVersion
 (
-var
+longName
 =
 >
-'
-version
-'
+0
 )
 ;
 my
