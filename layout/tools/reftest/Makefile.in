@@ -593,6 +593,14 @@ runreftest
 .
 py
 \
+(
+srcdir
+)
+/
+remotereftest
+.
+py
+\
 automation
 .
 py
