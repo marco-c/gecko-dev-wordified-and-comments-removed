@@ -1714,6 +1714,10 @@ DEBUG
 OPT
 :
 REF
+-
+OPT
+:
+nowin98
 endif
 ifdef
 MOZ_QUANTIFY
