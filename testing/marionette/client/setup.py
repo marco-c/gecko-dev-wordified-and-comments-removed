@@ -12,7 +12,7 @@ version
 .
 5
 .
-18
+19
 '
 try
 :
@@ -107,6 +107,14 @@ mozdevice
 0
 .
 12
+'
+'
+moznetwork
+>
+=
+0
+.
+21
 '
 ]
 setup

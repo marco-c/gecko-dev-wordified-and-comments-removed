@@ -25,6 +25,8 @@ time
 import
 platform
 import
+moznetwork
+import
 xml
 .
 dom
@@ -39,7 +41,6 @@ TestManifest
 from
 mozhttpd
 import
-iface
 MozHttpd
 from
 marionette
@@ -1719,9 +1720,9 @@ self
         
 host
 =
-iface
+moznetwork
 .
-get_lan_ip
+get_ip
 (
 )
         
