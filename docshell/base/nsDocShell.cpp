@@ -35974,7 +35974,11 @@ rootSH
 (
 mLoadType
 &
+(
 LOAD_CMD_HISTORY
+|
+LOAD_CMD_RELOAD
+)
 )
 )
 {
