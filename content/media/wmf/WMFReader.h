@@ -149,7 +149,10 @@ ConfigureVideoDecoder
 (
 )
 ;
-IMFSourceReaderPtr
+RefPtr
+<
+IMFSourceReader
+>
 mSourceReader
 ;
 RefPtr
