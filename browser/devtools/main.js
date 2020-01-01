@@ -1393,7 +1393,7 @@ l10n
 "
 ToolboxStyleEditor
 .
-tooltip
+tooltip2
 "
 styleEditorStrings
 )
