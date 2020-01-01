@@ -798,6 +798,12 @@ Float32Array
 36
 js_InitTypedArrayClasses
 )
+JS_PROTO
+(
+Float64Array
+37
+js_InitTypedArrayClasses
+)
 #
 undef
 SCRIPT_INIT
