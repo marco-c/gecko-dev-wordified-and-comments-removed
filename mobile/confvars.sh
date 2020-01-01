@@ -434,6 +434,7 @@ in
 *
 -
 wince
+*
 )
 MOZ_APP_VERSION
 =
