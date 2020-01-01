@@ -3011,6 +3011,13 @@ GetCurrentJSContext
 )
 ;
 static
+JSContext
+*
+GetSafeJSContext
+(
+)
+;
+static
 bool
 EqualsIgnoreASCIICase
 (
