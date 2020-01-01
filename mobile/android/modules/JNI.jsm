@@ -428,7 +428,7 @@ lib
 declare
 (
 "
-FindClass
+jsjni_FindClass
 "
 ctypes
 .
@@ -510,7 +510,7 @@ lib
 declare
 (
 "
-GetStaticMethodID
+jsjni_GetStaticMethodID
 "
 ctypes
 .
@@ -612,7 +612,7 @@ lib
 declare
 (
 "
-ExceptionCheck
+jsjni_ExceptionCheck
 "
 ctypes
 .
@@ -659,7 +659,7 @@ lib
 declare
 (
 "
-CallStaticVoidMethodA
+jsjni_CallStaticVoidMethodA
 "
 ctypes
 .
@@ -771,7 +771,7 @@ lib
 declare
 (
 "
-CallStaticIntMethodA
+jsjni_CallStaticIntMethodA
 "
 ctypes
 .

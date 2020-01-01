@@ -37490,7 +37490,6 @@ callStaticIntMethod
 (
 cls
 method
-null
 )
 ;
 jni
