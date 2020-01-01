@@ -6270,7 +6270,7 @@ mCanceled
 )
 {
 return
-false
+nsnull
 ;
 }
 if
@@ -6286,7 +6286,7 @@ INVALID_STATE_ERR
 )
 ;
 return
-false
+nsnull
 ;
 }
 nsCString
@@ -6319,7 +6319,7 @@ aCx
 )
 {
 return
-false
+nsnull
 ;
 }
 return
@@ -6367,7 +6367,7 @@ mCanceled
 )
 {
 return
-false
+nsnull
 ;
 }
 if
@@ -6383,7 +6383,7 @@ INVALID_STATE_ERR
 )
 ;
 return
-false
+nsnull
 ;
 }
 nsDependentJSString
@@ -6402,7 +6402,7 @@ aHeader
 )
 {
 return
-false
+nsnull
 ;
 }
 nsCString
@@ -6439,7 +6439,7 @@ aCx
 )
 {
 return
-false
+nsnull
 ;
 }
 return
