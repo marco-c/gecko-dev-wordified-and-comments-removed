@@ -8724,7 +8724,6 @@ NS_IMPL_THREADSAFE_ISUPPORTS1
 nsUrlClassifierClassifyCallback
 nsIUrlClassifierCallback
 )
-;
 NS_IMETHODIMP
 nsUrlClassifierClassifyCallback
 :
