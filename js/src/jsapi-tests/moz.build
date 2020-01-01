@@ -370,6 +370,11 @@ testStringBuffer
 cpp
 '
 '
+testStructuredClone
+.
+cpp
+'
+'
 testToIntWidth
 .
 cpp
