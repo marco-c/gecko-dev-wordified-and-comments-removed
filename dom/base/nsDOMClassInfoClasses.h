@@ -1641,12 +1641,3 @@ DOMCI_CLASS
 (
 MozTimeManager
 )
-#
-ifdef
-MOZ_WEBRTC
-DOMCI_CLASS
-(
-DataChannel
-)
-#
-endif
