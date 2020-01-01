@@ -4665,6 +4665,11 @@ JSCompartment
 compartment
 )
 {
+MOZ_ASSERT
+(
+priv
+)
+;
 nsAutoPtr
 <
 xpc
