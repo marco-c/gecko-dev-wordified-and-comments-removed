@@ -5302,15 +5302,6 @@ maybeRegs
 )
 ;
 }
-ptrdiff_t
-spIndexOf
-(
-const
-Value
-*
-vp
-)
-;
 inline
 FrameRegs
 *
