@@ -31,13 +31,6 @@ h
 #
 include
 "
-nsISVGValue
-.
-h
-"
-#
-include
-"
 nsRect
 .
 h
@@ -86,9 +79,6 @@ nsIPresShell
 ;
 class
 nsIDOMSVGAnimatedPreserveAspectRatio
-;
-class
-nsISVGValueObserver
 ;
 class
 nsIAtom
