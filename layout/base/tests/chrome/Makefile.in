@@ -231,6 +231,14 @@ test_fixed_bg_scrolling_repaints
 .
 html
 \
+test_dialog_with_positioning
+.
+html
+\
+dialog_with_positioning_window
+.
+xul
+\
 blue
 -
 32x32
