@@ -354,12 +354,6 @@ transform
 ref
 .
 html
-fails
--
-if
-(
-Android
-)
 =
 =
 element
