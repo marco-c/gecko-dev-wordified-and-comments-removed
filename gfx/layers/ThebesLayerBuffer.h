@@ -133,6 +133,13 @@ mRegionToInvalidate
 ;
 }
 ;
+enum
+{
+PAINT_WILL_RESAMPLE
+=
+0x01
+}
+;
 PaintState
 BeginPaint
 (
@@ -145,6 +152,8 @@ float
 aXResolution
 float
 aYResolution
+PRUint32
+aFlags
 )
 ;
 virtual
