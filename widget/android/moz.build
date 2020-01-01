@@ -132,6 +132,11 @@ AndroidJavaWrappers
 .
 h
 '
+'
+GeneratedJNIWrappers
+.
+h
+'
 ]
 CPP_SOURCES
 +
@@ -164,6 +169,11 @@ cpp
 '
 '
 AndroidJavaWrappers
+.
+cpp
+'
+'
+GeneratedJNIWrappers
 .
 cpp
 '
