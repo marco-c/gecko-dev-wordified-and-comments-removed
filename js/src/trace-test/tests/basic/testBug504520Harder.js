@@ -127,10 +127,6 @@ x
 x
 x
 x
-x
-x
-x
-x
 y
 ]
 ;
@@ -148,10 +144,6 @@ var
 expected
 =
 [
-xz
-xz
-xz
-xz
 xz
 xz
 xz
