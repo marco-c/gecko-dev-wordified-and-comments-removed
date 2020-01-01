@@ -455,10 +455,6 @@ test_true_async
 .
 cpp
 \
-test_unlock_notify
-.
-cpp
-\
 (
 NULL
 )

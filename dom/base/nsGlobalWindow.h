@@ -385,13 +385,6 @@ h
 #
 include
 "
-nsIIndexedDatabaseRequest
-.
-h
-"
-#
-include
-"
 nsFrameMessageManager
 .
 h
@@ -2733,12 +2726,6 @@ nsCOMPtr
 nsIDocument
 >
 mSuspendedDoc
-;
-nsCOMPtr
-<
-nsIIndexedDatabaseRequest
->
-mIndexedDB
 ;
 PRUint64
 mWindowID

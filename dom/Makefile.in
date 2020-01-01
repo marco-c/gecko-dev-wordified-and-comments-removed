@@ -531,8 +531,6 @@ locales
 \
 plugins
 \
-indexedDB
-\
 (
 NULL
 )
