@@ -6649,6 +6649,7 @@ break
 case
 NS_THEME_MENUITEMTEXT
 :
+{
 SIZE
 size
 (
@@ -6667,6 +6668,7 @@ cx
 +
 2
 ;
+}
 break
 ;
 case
