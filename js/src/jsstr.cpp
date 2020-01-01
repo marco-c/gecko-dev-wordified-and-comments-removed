@@ -35539,8 +35539,13 @@ ucs4Char
 ;
 }
 #
-ifdef
+if
+defined
 DEBUG
+|
+|
+defined
+JS_DUMP_PROPTREE_STATS
 JS_FRIEND_API
 (
 size_t

@@ -1747,8 +1747,13 @@ loopStats
 #
 endif
 #
-ifdef
+if
+defined
 DEBUG
+|
+|
+defined
+JS_DUMP_PROPTREE_STATS
 jsrefcount
 inlineCalls
 ;
@@ -1802,6 +1807,9 @@ totalPropTreeNodes
 ;
 jsrefcount
 propTreeKidsChunks
+;
+jsrefcount
+middleDeleteFixups
 ;
 jsrefcount
 liveStrings

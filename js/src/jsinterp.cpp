@@ -420,7 +420,7 @@ if
 scope
 -
 >
-hasProperty
+has
 (
 sprop
 )
@@ -931,9 +931,7 @@ sprop
 scope
 -
 >
-lastProperty
-(
-)
+lastProp
 &
 &
 scope
