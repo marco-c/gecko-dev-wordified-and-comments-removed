@@ -284,6 +284,15 @@ regress
 bug629723
 .
 js
+skip
+-
+if
+(
+!
+xulRuntime
+.
+shell
+)
 script
 strict
 -
