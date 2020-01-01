@@ -630,6 +630,10 @@ AvailableMemoryTracker
 .
 h
 \
+StackWalk
+.
+h
+\
 (
 NULL
 )
