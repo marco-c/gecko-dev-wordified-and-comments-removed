@@ -153,8 +153,6 @@ CheckRequestApproved
 nsIRequest
 *
 aRequest
-PRBool
-aIsRedirect
 )
 ;
 nsCOMPtr
