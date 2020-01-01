@@ -108,6 +108,11 @@ attribute
 DOMString
 name
 ;
+readonly
+attribute
+DOMString
+id
+;
 }
 ;
 [
