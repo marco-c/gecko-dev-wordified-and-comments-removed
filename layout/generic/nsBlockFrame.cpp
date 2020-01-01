@@ -13708,6 +13708,12 @@ mDiscoveredClearance
 frame
 ;
 }
+aState
+.
+mPrevChild
+=
+frame
+;
 return
 NS_OK
 ;
