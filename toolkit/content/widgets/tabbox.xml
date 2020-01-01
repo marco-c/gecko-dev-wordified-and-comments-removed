@@ -638,7 +638,8 @@ tabs
 .
 selectedIndex
 :
-null
+-
+1
 ;
 "
 >
