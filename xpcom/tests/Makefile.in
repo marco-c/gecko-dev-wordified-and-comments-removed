@@ -893,14 +893,6 @@ srcdir
 /
 ds
 \
--
-I
-(
-srcdir
-)
-/
-services
-\
 (
 NULL
 )

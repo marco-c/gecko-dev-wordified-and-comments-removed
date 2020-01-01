@@ -552,17 +552,6 @@ srcdir
 .
 .
 /
-thread
-\
--
-I
-(
-srcdir
-)
-/
-.
-.
-/
 ds
 \
 -
