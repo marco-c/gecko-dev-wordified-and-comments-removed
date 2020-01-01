@@ -311,6 +311,10 @@ Screen
 .
 webidl
 \
+SVGAnimatedNumberList
+.
+webidl
+\
 SVGAnimatedPreserveAspectRatio
 .
 webidl
