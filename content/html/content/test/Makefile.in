@@ -860,6 +860,10 @@ form_submit_server
 .
 sjs
 \
+test_bug529819
+.
+html
+\
 (
 NULL
 )
