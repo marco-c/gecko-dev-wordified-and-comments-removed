@@ -16980,6 +16980,17 @@ initial_values
 auto
 "
 ]
+prerequisites
+:
+{
+"
+display
+"
+:
+"
+block
+"
+}
 other_values
 :
 [
