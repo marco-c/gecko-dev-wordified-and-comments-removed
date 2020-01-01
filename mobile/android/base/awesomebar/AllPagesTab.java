@@ -3080,7 +3080,11 @@ searchEngines
 "
 )
 ;
-mSearchEngines
+ArrayList
+<
+SearchEngine
+>
+searchEngines
 =
 new
 ArrayList
@@ -3170,7 +3174,7 @@ suggestTemplate
 null
 )
 {
-mSearchEngines
+searchEngines
 .
 add
 (
@@ -3227,7 +3231,7 @@ SUGGESTION_MAX
 }
 else
 {
-mSearchEngines
+searchEngines
 .
 add
 (
@@ -3241,6 +3245,10 @@ icon
 ;
 }
 }
+mSearchEngines
+=
+searchEngines
+;
 mCursorAdapter
 .
 notifyDataSetChanged
