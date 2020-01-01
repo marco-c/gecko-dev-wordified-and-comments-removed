@@ -424,6 +424,11 @@ CallSetProperty
 \
 _
 (
+DeleteProperty
+)
+\
+_
+(
 FlatClosureUpvars
 )
 \
