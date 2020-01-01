@@ -496,16 +496,6 @@ client
 endif
 #
 endif
-#
-ifdef
-MOZ_SPLASHSCREEN
-BINPATH
-/
-splash
-.
-bmp
-#
-endif
 ;
 [
 Components

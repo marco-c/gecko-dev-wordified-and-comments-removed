@@ -515,15 +515,6 @@ EventTracer
 .
 cpp
 endif
-ifdef
-MOZ_SPLASHSCREEN
-CPPSRCS
-+
-=
-nsSplashScreenDummy
-.
-cpp
-endif
 DEFINES
 +
 =

@@ -493,15 +493,6 @@ bmp
 (
 NULL
 )
-ifdef
-MOZ_SPLASHSCREEN
-WINDOWS_BRANDING_FILES
-+
-=
-splash
-.
-bmp
-endif
 OSX_BRANDING_FILES
 =
 \
