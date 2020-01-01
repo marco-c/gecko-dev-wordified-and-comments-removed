@@ -746,12 +746,6 @@ name
 "
 )
 ;
-gBrowser
-.
-stop
-(
-)
-;
 getNumberOfSearches
 (
 engineName
@@ -843,6 +837,12 @@ searchSubmit
 )
 .
 click
+(
+)
+;
+gBrowser
+.
+stop
 (
 )
 ;
