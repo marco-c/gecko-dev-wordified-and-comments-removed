@@ -371,6 +371,11 @@ hasRed
 =
 false
 ;
+let
+self
+=
+this
+;
 for
 (
 let
@@ -393,6 +398,12 @@ bb
 )
 )
 {
+isn
+.
+redInfo
+=
+undefined
+;
 walk_tree
 (
 isn
@@ -457,7 +468,7 @@ length
 )
 ]
 ;
-this
+self
 .
 hasRed
 =
@@ -520,7 +531,7 @@ t
 )
 ]
 ;
-this
+self
 .
 hasRed
 =
@@ -666,10 +677,11 @@ redInfo
 ]
 )
 ;
-delete
 isn
 .
 redInfo
+=
+undefined
 ;
 }
 if
