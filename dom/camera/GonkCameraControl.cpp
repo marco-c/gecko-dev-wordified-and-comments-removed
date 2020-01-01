@@ -3256,6 +3256,11 @@ Started
 )
 ;
 }
+OnPreviewStateChange
+(
+PREVIEW_STARTED
+)
+;
 return
 NS_OK
 ;
@@ -3326,6 +3331,11 @@ mDOMPreview
 nullptr
 ;
 }
+OnPreviewStateChange
+(
+PREVIEW_STOPPED
+)
+;
 return
 NS_OK
 ;
@@ -4436,6 +4446,11 @@ return
 NS_ERROR_FAILURE
 ;
 }
+OnPreviewStateChange
+(
+PREVIEW_STOPPED
+)
+;
 return
 NS_OK
 ;
