@@ -1869,6 +1869,9 @@ ACTIVITY_START
 BROADCAST
 =
 19
+VIEWPORT
+=
+20
 dummy_java_enum_list_end
 }
 ;
