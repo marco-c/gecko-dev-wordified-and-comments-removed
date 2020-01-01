@@ -294,7 +294,7 @@ GetSpan
 ;
 nsFrameList
 &
-GetChildList
+GetWritableChildList
 (
 )
 ;
@@ -455,7 +455,7 @@ nsFrameList
 nsTableColGroupFrame
 :
 :
-GetChildList
+GetWritableChildList
 (
 )
 {

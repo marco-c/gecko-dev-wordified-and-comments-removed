@@ -1130,7 +1130,7 @@ aNumColsToAdd
 )
 ;
 void
-CreateAnonymousColFrames
+AppendAnonymousColFrames
 (
 nsTableColGroupFrame
 *
@@ -1140,14 +1140,7 @@ aNumColsToAdd
 nsTableColType
 aColType
 PRBool
-aAddToColGroupAndTable
-nsIFrame
-*
-aPrevCol
-nsIFrame
-*
-*
-aFirstNewFrame
+aAddToTable
 )
 ;
 void
