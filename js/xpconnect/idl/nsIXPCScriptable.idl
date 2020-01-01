@@ -834,6 +834,12 @@ WANT_HASINSTANCE
 <
 15
 ;
+/
+/
+Unused
+bit
+here
+!
 const
 PRUint32
 USE_JSSTUB_FOR_ADDPROPERTY
@@ -915,6 +921,12 @@ ALLOW_PROP_MODS_TO_PROTOTYPE
 <
 25
 ;
+/
+/
+Unused
+bit
+here
+!
 const
 PRUint32
 DONT_REFLECT_INTERFACE_NAMES
