@@ -2006,10 +2006,6 @@ flags
 handle
 )
 ;
-Painted
-(
-)
-;
 FireDidTransactionCallback
 (
 )
