@@ -83,7 +83,7 @@ run
 (
 )
 {
-emit
+Q_EMIT
 symbolsLoadingFinished
 (
 mFunc

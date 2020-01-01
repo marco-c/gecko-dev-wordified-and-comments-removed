@@ -143,7 +143,7 @@ SwitchToBackground
 )
 ;
 public
-slots
+Q_SLOTS
 :
 static
 void

@@ -83,7 +83,7 @@ GetRotationTransform
 (
 )
 ;
-signals
+Q_SIGNALS
 :
 void
 orientationChanged

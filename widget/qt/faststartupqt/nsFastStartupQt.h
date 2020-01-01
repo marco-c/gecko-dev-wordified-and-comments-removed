@@ -209,7 +209,7 @@ painted
 )
 ;
 protected
-slots
+Q_SLOTS
 :
 void
 symbolsLoadingFinished

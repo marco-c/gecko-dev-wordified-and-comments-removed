@@ -301,7 +301,7 @@ openSession
 }
 else
 {
-emit
+Q_EMIT
 openConnectionSignal
 (
 )
