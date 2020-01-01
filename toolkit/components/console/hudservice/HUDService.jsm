@@ -15917,11 +15917,6 @@ aScope
 )
 ;
 let
-win
-=
-obj
-;
-let
 beginning
 =
 findCompletionBeginning
@@ -16076,7 +16071,6 @@ if
 (
 isNonNativeGetter
 (
-win
 obj
 prop
 )
