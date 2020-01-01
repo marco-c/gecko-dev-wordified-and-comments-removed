@@ -2543,7 +2543,6 @@ ptSvc
 sortFolderByName
 (
 srtFldId
-1
 )
 ;
 txn17

@@ -661,7 +661,6 @@ function
 placesSortFldrByName
 (
 aFolderId
-aFolderIndex
 )
 {
 return
@@ -669,7 +668,6 @@ new
 placesSortFolderByNameTransactions
 (
 aFolderId
-aFolderIndex
 )
 ;
 }
@@ -4347,7 +4345,6 @@ function
 placesSortFolderByNameTransactions
 (
 aFolderId
-aFolderIndex
 )
 {
 this
@@ -4355,12 +4352,6 @@ this
 _folderId
 =
 aFolderId
-;
-this
-.
-_folderIndex
-=
-aFolderIndex
 ;
 this
 .
