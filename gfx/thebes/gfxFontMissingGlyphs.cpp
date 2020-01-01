@@ -477,6 +477,9 @@ BOX_BORDER_OPACITY
 .
 5
 ;
+#
+ifndef
+MOZ_GFX_OPTIMIZE_MOBILE
 static
 void
 DrawHexChar
@@ -582,6 +585,8 @@ Fill
 )
 ;
 }
+#
+endif
 void
 gfxFontMissingGlyphs
 :

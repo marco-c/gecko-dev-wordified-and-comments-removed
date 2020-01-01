@@ -1367,6 +1367,9 @@ XP_WIN
 #
 endif
 }
+#
+ifndef
+MOZ_GFX_OPTIMIZE_MOBILE
 static
 already_AddRefed
 <
@@ -1626,6 +1629,8 @@ forget
 )
 ;
 }
+#
+endif
 struct
 NS_STACK_CLASS
 AutoCairoPixmanBugWorkaround
