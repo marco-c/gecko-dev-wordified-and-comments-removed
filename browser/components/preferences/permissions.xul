@@ -613,6 +613,17 @@ screenY
 width
 height
 "
+onkeypress
+=
+"
+gPermissionManager
+.
+onWindowKeyPress
+(
+event
+)
+;
+"
 >
 <
 script

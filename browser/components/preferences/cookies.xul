@@ -604,6 +604,17 @@ screenY
 width
 height
 "
+onkeypress
+=
+"
+gCookiesWindow
+.
+onWindowKeyPress
+(
+event
+)
+;
+"
 >
 <
 script
