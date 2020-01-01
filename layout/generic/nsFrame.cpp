@@ -27241,12 +27241,8 @@ scrollFrame
 mContent
 -
 >
-IsNodeOfType
+IsHTML
 (
-nsINode
-:
-:
-eHTML
 )
 &
 &

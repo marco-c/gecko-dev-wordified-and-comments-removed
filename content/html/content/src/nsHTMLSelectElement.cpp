@@ -1090,12 +1090,8 @@ optgroup
 aContent
 -
 >
-IsNodeOfType
+IsHTML
 (
-nsINode
-:
-:
-eHTML
 )
 )
 ;

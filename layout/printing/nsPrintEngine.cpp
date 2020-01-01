@@ -12786,12 +12786,8 @@ frameset
 child
 -
 >
-IsNodeOfType
+IsHTML
 (
-nsINode
-:
-:
-eHTML
 )
 )
 {

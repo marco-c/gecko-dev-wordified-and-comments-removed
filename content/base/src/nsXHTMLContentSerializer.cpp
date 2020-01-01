@@ -780,6 +780,8 @@ FindCharInSet
 &
 =
 +
+[
+]
 "
 start
 )
@@ -2095,12 +2097,8 @@ if
 child
 -
 >
-IsNodeOfType
+IsHTML
 (
-nsINode
-:
-:
-eHTML
 )
 &
 &

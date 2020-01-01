@@ -9190,8 +9190,6 @@ aFlags
 eCONTENT
 |
 eELEMENT
-|
-eXUL
 )
 )
 ;

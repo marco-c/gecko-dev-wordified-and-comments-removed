@@ -5289,12 +5289,8 @@ select
 aBoundElement
 -
 >
-IsNodeOfType
+IsHTML
 (
-nsINode
-:
-:
-eHTML
 )
 )
 )

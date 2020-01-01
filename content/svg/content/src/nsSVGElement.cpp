@@ -3300,8 +3300,6 @@ aFlags
 eCONTENT
 |
 eELEMENT
-|
-eSVG
 )
 )
 ;

@@ -1396,12 +1396,8 @@ kNameSpaceID_None
 mContent
 -
 >
-IsNodeOfType
+IsHTML
 (
-nsINode
-:
-:
-eHTML
 )
 )
 {

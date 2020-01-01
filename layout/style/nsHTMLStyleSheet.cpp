@@ -1962,12 +1962,8 @@ parent
 parent
 -
 >
-IsNodeOfType
+IsHTML
 (
-nsIContent
-:
-:
-eHTML
 )
 &
 &
@@ -2321,12 +2317,8 @@ content
 content
 -
 >
-IsNodeOfType
+IsHTML
 (
-nsINode
-:
-:
-eHTML
 )
 &
 &
