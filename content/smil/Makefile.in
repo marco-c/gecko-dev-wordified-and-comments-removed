@@ -599,6 +599,10 @@ nsSMILKeySpline
 .
 h
 \
+nsSMILMilestone
+.
+h
+\
 nsSMILTimeContainer
 .
 h
