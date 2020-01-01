@@ -463,6 +463,14 @@ hidden
 =
 true
 ;
+popup
+.
+clientWidth
+;
+/
+/
+flush
+layout
 is
 (
 popup
