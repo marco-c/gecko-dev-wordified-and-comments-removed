@@ -41,13 +41,6 @@ nsCOMPtr
 h
 "
 #
-include
-<
-windows
-.
-h
->
-#
 define
 SEC_SUCCESS
 (
@@ -222,7 +215,7 @@ HINSTANCE
 sspi_lib
 ;
 static
-PSecurityFunctionTableW
+PSecurityFunctionTable
 sspi
 ;
 static
@@ -231,7 +224,7 @@ InitSSPI
 (
 )
 {
-PSecurityFunctionTableW
+PSecurityFunctionTable
 (
 *
 initFun
@@ -253,9 +246,8 @@ n
 ;
 sspi_lib
 =
-LoadLibraryW
+LoadLibrary
 (
-L
 "
 secur32
 .
@@ -271,9 +263,8 @@ sspi_lib
 {
 sspi_lib
 =
-LoadLibraryW
+LoadLibrary
 (
-L
 "
 security
 .
@@ -307,7 +298,7 @@ NS_ERROR_UNEXPECTED
 initFun
 =
 (
-PSecurityFunctionTableW
+PSecurityFunctionTable
 (
 *
 )
@@ -806,14 +797,14 @@ return
 rv
 ;
 }
-SEC_WCHAR
+SEC_CHAR
 *
 package
 ;
 package
 =
 (
-SEC_WCHAR
+SEC_CHAR
 *
 )
 pTypeName
@@ -858,7 +849,7 @@ serviceFlags
 SECURITY_STATUS
 rc
 ;
-PSecPkgInfoW
+PSecPkgInfo
 pinfo
 ;
 rc
@@ -867,7 +858,7 @@ rc
 sspi
 -
 >
-QuerySecurityPackageInfoW
+QuerySecurityPackageInfo
 )
 (
 package
@@ -929,7 +920,7 @@ rc
 sspi
 -
 >
-AcquireCredentialsHandleW
+AcquireCredentialsHandle
 )
 (
 NULL
@@ -1197,7 +1188,7 @@ ob
 cbBuffer
 )
 ;
-SEC_WCHAR
+SEC_CHAR
 *
 sn
 ;
@@ -1216,7 +1207,7 @@ else
 sn
 =
 (
-SEC_WCHAR
+SEC_CHAR
 *
 )
 mServiceName
@@ -1231,7 +1222,7 @@ rc
 sspi
 -
 >
-InitializeSecurityContextW
+InitializeSecurityContext
 )
 (
 &
@@ -1740,7 +1731,7 @@ rc
 sspi
 -
 >
-QueryContextAttributesW
+QueryContextAttributes
 )
 (
 &

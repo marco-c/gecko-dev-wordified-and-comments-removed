@@ -468,7 +468,7 @@ winLocale
 LCID
 localeAsLCID
 ;
-PRUnichar
+char
 acp_name
 [
 6
@@ -530,7 +530,7 @@ rv
 }
 if
 (
-GetLocaleInfoW
+GetLocaleInfo
 (
 localeAsLCID
 LOCALE_IDEFAULTANSICODEPAGE
@@ -563,7 +563,7 @@ acp
 ;
 acp_key
 .
-Append
+AppendWithConversion
 (
 acp_name
 )

@@ -253,7 +253,7 @@ char
 const
 *
 argv
-PRUnichar
+char
 *
 *
 cmdLine
@@ -265,11 +265,9 @@ const
 *
 arg
 ;
-PRUnichar
+char
 *
 p
-;
-char
 *
 q
 ;
@@ -325,17 +323,12 @@ p
 cmdLine
 =
 (
-PRUnichar
+char
 *
 )
 PR_MALLOC
 (
 cmdLineSize
-*
-sizeof
-(
-PRUnichar
-)
 )
 ;
 if
@@ -801,7 +794,7 @@ defined
 (
 WINCE
 )
-STARTUPINFOW
+STARTUPINFO
 startupInfo
 ;
 PROCESS_INFORMATION
@@ -810,7 +803,7 @@ procInfo
 BOOL
 retVal
 ;
-PRUnichar
+char
 *
 cmdLine
 ;
@@ -861,7 +854,7 @@ startupInfo
 ;
 retVal
 =
-CreateProcessW
+CreateProcess
 (
 NULL
 cmdLine

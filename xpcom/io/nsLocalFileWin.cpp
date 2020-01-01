@@ -280,11 +280,11 @@ Init
 ;
 private
 :
-nsString
+nsCString
 mDrives
 ;
 const
-PRUnichar
+char
 *
 mLetter
 ;
@@ -10679,7 +10679,7 @@ NS_ERROR_OUT_OF_MEMORY
 if
 (
 !
-GetLogicalDriveStringsW
+GetLogicalDriveStrings
 (
 length
 mDrives
@@ -10804,10 +10804,10 @@ return
 NS_OK
 ;
 }
-nsString
+NS_ConvertASCIItoUTF16
 drive
 (
-mDrives
+mLetter
 )
 ;
 mLetter

@@ -1541,9 +1541,8 @@ hlib
 =
 :
 :
-LoadLibraryW
+LoadLibrary
 (
-L
 "
 xpcom
 .

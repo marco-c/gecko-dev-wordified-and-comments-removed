@@ -94,7 +94,6 @@ NS_PLUGINMANAGER_CID
 #
 define
 NS_PLUGIN_WINDOW_PROPERTY_ASSOCIATION
-L
 "
 MozillaPluginWindowPropertyAssociation
 "
@@ -589,7 +588,7 @@ nsPluginNativeWindowWin
 )
 :
 :
-GetPropW
+GetProp
 (
 hWnd
 NS_PLUGIN_WINDOW_PROPERTY_ASSOCIATION
@@ -1686,7 +1685,7 @@ nsPluginNativeWindowWin
 )
 :
 :
-GetPropW
+GetProp
 (
 hWnd
 NS_PLUGIN_WINDOW_PROPERTY_ASSOCIATION
@@ -1723,7 +1722,7 @@ if
 !
 :
 :
-SetPropW
+SetProp
 (
 hWnd
 NS_PLUGIN_WINDOW_PROPERTY_ASSOCIATION
@@ -1770,7 +1769,7 @@ hWnd
 )
 :
 :
-RemovePropW
+RemoveProp
 (
 hWnd
 NS_PLUGIN_WINDOW_PROPERTY_ASSOCIATION
