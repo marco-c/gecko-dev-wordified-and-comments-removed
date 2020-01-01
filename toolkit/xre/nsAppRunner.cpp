@@ -17375,6 +17375,9 @@ if
 mShuttingDown
 )
 {
+#
+ifdef
+XP_MACOSX
 rv
 =
 appStartup
@@ -17390,6 +17393,8 @@ rv
 NS_ERROR_FAILURE
 )
 ;
+#
+endif
 #
 if
 defined
