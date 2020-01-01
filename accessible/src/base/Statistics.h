@@ -87,7 +87,7 @@ Accumulate
 Telemetry
 :
 :
-ISIMPLE_DOM_USAGE
+A11Y_ISIMPLEDOM_USAGE
 1
 )
 ;
@@ -111,7 +111,7 @@ Accumulate
 Telemetry
 :
 :
-IACCESSIBLE_TABLE_USAGE
+A11Y_IATABLE_USAGE
 1
 )
 ;
@@ -130,7 +130,7 @@ Accumulate
 Telemetry
 :
 :
-XFORMS_ACCESSIBLE_USED
+A11Y_XFORMS_USAGE
 1
 )
 ;
