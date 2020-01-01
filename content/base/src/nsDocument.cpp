@@ -29018,15 +29018,6 @@ nullptr
 :
 mNodeInfoManager
 newScope
-?
-(
-JSContext
-*
-)
-cx
-:
-nullptr
-newScope
 nodesWithProperties
 )
 ;

@@ -281,7 +281,6 @@ true
 aDeep
 aNewNodeInfoManager
 nullptr
-nullptr
 aNodesWithProperties
 nullptr
 aResult
@@ -317,7 +316,6 @@ true
 aDeep
 nullptr
 nullptr
-nullptr
 dummyNodeWithProperties
 aNode
 -
@@ -339,12 +337,9 @@ aNode
 nsNodeInfoManager
 *
 aNewNodeInfoManager
-JSContext
-*
-aCx
 JSObject
 *
-aNewScope
+aReparentScope
 nsCOMArray
 <
 nsINode
@@ -368,8 +363,7 @@ aNode
 false
 true
 aNewNodeInfoManager
-aCx
-aNewScope
+aReparentScope
 aNodesWithProperties
 nullptr
 getter_AddRefs
@@ -482,12 +476,9 @@ aDeep
 nsNodeInfoManager
 *
 aNewNodeInfoManager
-JSContext
-*
-aCx
 JSObject
 *
-aNewScope
+aReparentScope
 nsCOMArray
 <
 nsINode
