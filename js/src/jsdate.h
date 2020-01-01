@@ -68,7 +68,7 @@ time
 )
 |
 |
-abs
+fabs
 (
 time
 )
