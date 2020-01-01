@@ -1387,9 +1387,6 @@ objectList
 JSEmittedObjectList
 regexpList
 ;
-uintN
-loopHeaders
-;
 JSCodeGenerator
 *
 parent

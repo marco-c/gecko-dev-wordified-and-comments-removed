@@ -5767,9 +5767,9 @@ JSOP_HEADER
 header
 "
 NULL
-2
+4
 0
 0
 0
-JOF_UINT8
+JOF_UINT24
 )
