@@ -2444,6 +2444,11 @@ else
 {
 ogg_int64_t
 pos
+;
+ogg_int64_t
+duration
+;
+pos
 =
 oggz_tell_units
 (
@@ -2453,7 +2458,6 @@ me
 oggz
 )
 ;
-ogg_int64_t
 duration
 =
 oggz_seek_units
@@ -2474,6 +2478,12 @@ me
 oggz
 pos
 SEEK_SET
+)
+;
+oggplay_seek_cleanup
+(
+me
+pos
 )
 ;
 return

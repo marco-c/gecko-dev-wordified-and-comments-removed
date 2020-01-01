@@ -507,6 +507,16 @@ OggPlaySeekTrash
 trash
 )
 ;
+void
+oggplay_seek_cleanup
+(
+OggPlay
+*
+me
+ogg_int64_t
+milliseconds
+)
+;
 typedef
 struct
 {
