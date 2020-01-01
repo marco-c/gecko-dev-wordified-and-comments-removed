@@ -1949,6 +1949,7 @@ nsnull
 ;
 if
 (
+!
 deviceType
 )
 {
