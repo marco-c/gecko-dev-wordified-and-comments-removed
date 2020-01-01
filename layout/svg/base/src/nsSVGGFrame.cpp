@@ -287,16 +287,8 @@ nsGkAtoms
 transform
 )
 {
-mCanvasTM
-=
-nsnull
-;
-nsSVGUtils
-:
-:
-NotifyChildrenOfSVGChange
+NotifySVGChanged
 (
-this
 TRANSFORM_CHANGED
 )
 ;
