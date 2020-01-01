@@ -60,10 +60,6 @@ TestRemove
 ;
 }
 ;
-static
-_TestDeque
-sTestDeque
-;
 class
 _Dealloc
 :
