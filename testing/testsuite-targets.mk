@@ -986,6 +986,7 @@ CHECK_TEST_ERROR
 crashtest
 :
 TEST_PATH
+?
 =
 testing
 /
@@ -1013,6 +1014,7 @@ CHECK_TEST_ERROR
 jstestbrowser
 :
 TEST_PATH
+?
 =
 js
 /
