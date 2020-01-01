@@ -768,7 +768,9 @@ telemetryValue
 let
 shutdownDuration
 =
-si
+Services
+.
+startup
 .
 lastShutdownDuration
 ;
