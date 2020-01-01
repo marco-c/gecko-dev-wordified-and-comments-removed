@@ -1161,10 +1161,9 @@ static
 void
 ApplyRelativePositioning
 (
-const
-nsStyleDisplay
+nsIFrame
 *
-aDisplay
+aFrame
 const
 nsMargin
 &
@@ -1185,7 +1184,7 @@ const
 {
 ApplyRelativePositioning
 (
-mStyleDisplay
+frame
 mComputedOffsets
 aPosition
 )

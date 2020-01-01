@@ -1789,14 +1789,8 @@ aPt
 ;
 }
 nsPoint
-GetRelativeOffset
+GetNormalPosition
 (
-const
-nsStyleDisplay
-*
-aDisplay
-=
-nullptr
 )
 const
 ;
@@ -2057,7 +2051,7 @@ nullptr
 )
 NS_DECLARE_FRAME_PROPERTY
 (
-ComputedOffsetProperty
+NormalPositionProperty
 DestroyPoint
 )
 NS_DECLARE_FRAME_PROPERTY
