@@ -309,6 +309,10 @@ testEnclosingFunction
 .
 cpp
 \
+testFindSCCs
+.
+cpp
+\
 (
 NULL
 )

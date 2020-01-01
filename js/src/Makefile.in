@@ -651,6 +651,10 @@ StoreBuffer
 .
 cpp
 \
+FindSCCs
+.
+cpp
+\
 StringBuffer
 .
 cpp
