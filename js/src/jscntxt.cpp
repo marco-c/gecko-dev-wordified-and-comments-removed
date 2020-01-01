@@ -8564,6 +8564,16 @@ rangeEndSeconds
 =
 INT64_MIN
 ;
+oldOffsetMilliseconds
+=
+0
+;
+oldRangeStartSeconds
+=
+oldRangeEndSeconds
+=
+INT64_MIN
+;
 #
 ifdef
 JS_METER_DST_OFFSET_CACHING

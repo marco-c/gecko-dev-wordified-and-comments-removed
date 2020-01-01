@@ -85,6 +85,13 @@ JSInt64
 rangeStartSeconds
 rangeEndSeconds
 ;
+JSInt64
+oldOffsetMilliseconds
+;
+JSInt64
+oldRangeStartSeconds
+oldRangeEndSeconds
+;
 #
 ifdef
 JS_METER_DST_OFFSET_CACHING
