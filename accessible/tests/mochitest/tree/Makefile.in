@@ -104,6 +104,10 @@ test_aria_globals
 .
 html
 \
+test_aria_grid
+.
+html
+\
 test_aria_imgmap
 .
 html

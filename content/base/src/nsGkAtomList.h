@@ -14899,6 +14899,13 @@ region
 )
 GK_ATOM
 (
+rowgroup
+"
+rowgroup
+"
+)
+GK_ATOM
+(
 rowheader
 "
 rowheader

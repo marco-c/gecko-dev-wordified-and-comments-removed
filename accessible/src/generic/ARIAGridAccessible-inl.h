@@ -80,7 +80,7 @@ tableRole
 roles
 :
 :
-SECTION
+GROUPING
 )
 {
 table
