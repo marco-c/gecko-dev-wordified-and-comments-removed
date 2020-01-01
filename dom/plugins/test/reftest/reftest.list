@@ -82,12 +82,6 @@ skip
 -
 if
 (
-Android
-)
-fails
--
-if
-(
 !
 haveTestPlugin
 )
@@ -109,9 +103,6 @@ update
 ref
 .
 html
-#
-bug
-731962
 fails
 -
 if
