@@ -207,11 +207,12 @@ kIPluginTagInfo2IID
 NS_IPLUGINTAGINFO2_IID
 )
 ;
-NS_IMPL_ISUPPORTS6
+NS_IMPL_ISUPPORTS7
 (
 nsPluginInstancePeerImpl
 nsIPluginInstancePeer
 nsIPluginInstancePeer2
+nsIPluginInstancePeer3
 nsIWindowlessPluginInstancePeer
 nsIPluginTagInfo
 nsIPluginTagInfo2

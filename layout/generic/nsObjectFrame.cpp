@@ -9452,9 +9452,9 @@ peer
 ;
 nsCOMPtr
 <
-nsIPluginInstancePeer2
+nsIPluginInstancePeer3
 >
-peer2
+peer3
 (
 do_QueryInterface
 (
@@ -9464,10 +9464,10 @@ peer
 ;
 if
 (
-peer2
+peer3
 )
 {
-peer2
+peer3
 -
 >
 InvalidateOwner
