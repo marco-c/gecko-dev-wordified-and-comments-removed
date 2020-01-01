@@ -438,6 +438,9 @@ mIsChromeOrResource
 bool
 mFoundFirstBinding
 ;
+nsString
+mCurrentBindingID
+;
 nsXBLPrototypeBinding
 *
 mBinding
