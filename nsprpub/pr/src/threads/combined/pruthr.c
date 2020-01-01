@@ -4238,7 +4238,7 @@ flags
 =
 _PR_SYSTEM
 ;
-PR_ATOMIC_INCREMENT
+PR_AtomicIncrement
 (
 &
 _pr_systemActive
@@ -4246,7 +4246,7 @@ _pr_systemActive
 ;
 }
 else
-PR_ATOMIC_INCREMENT
+PR_AtomicIncrement
 (
 &
 _pr_userActive
