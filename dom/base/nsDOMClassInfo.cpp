@@ -6688,7 +6688,7 @@ HTML
 nsJSUtils
 :
 :
-GetCurrentlyRunningCodeWindowID
+GetCurrentlyRunningCodeInnerWindowID
 (
 cx
 )
