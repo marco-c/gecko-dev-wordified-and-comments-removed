@@ -149,10 +149,6 @@ aPresContext
 aEvent
 )
 {
-SetIsDOMBinding
-(
-)
-;
 }
 NS_DECL_ISUPPORTS_INHERITED
 NS_FORWARD_TO_NSDOMEVENT

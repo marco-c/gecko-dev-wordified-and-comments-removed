@@ -65,10 +65,6 @@ aPresContext
 aEvent
 )
 {
-SetIsDOMBinding
-(
-)
-;
 }
 virtual
 JSObject

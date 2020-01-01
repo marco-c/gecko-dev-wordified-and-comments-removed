@@ -122,10 +122,6 @@ mData
 JSVAL_VOID
 )
 {
-SetIsDOMBinding
-(
-)
-;
 }
 nsDOMMessageEvent
 :

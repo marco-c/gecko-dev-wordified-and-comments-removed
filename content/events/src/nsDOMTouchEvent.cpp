@@ -401,10 +401,6 @@ PR_Now
 )
 ;
 }
-SetIsDOMBinding
-(
-)
-;
 }
 nsDOMTouchEvent
 :

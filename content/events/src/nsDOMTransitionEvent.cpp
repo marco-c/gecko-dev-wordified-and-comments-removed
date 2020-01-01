@@ -85,10 +85,6 @@ PR_Now
 )
 ;
 }
-SetIsDOMBinding
-(
-)
-;
 }
 nsDOMTransitionEvent
 :

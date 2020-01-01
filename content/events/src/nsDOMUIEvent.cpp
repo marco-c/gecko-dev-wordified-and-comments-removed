@@ -430,13 +430,6 @@ nullptr
 nullptr
 )
 ;
-e
--
->
-SetIsDOMBinding
-(
-)
-;
 bool
 trusted
 =
@@ -2359,13 +2352,6 @@ nsDOMUIEvent
 aOwner
 aPresContext
 aEvent
-)
-;
-it
--
->
-SetIsDOMBinding
-(
 )
 ;
 return
