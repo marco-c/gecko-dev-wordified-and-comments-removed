@@ -2220,7 +2220,7 @@ cmd_formPrevious
 oncommand
 =
 "
-FormHelper
+FormHelperUI
 .
 goToPrevious
 (
@@ -2239,7 +2239,7 @@ cmd_formNext
 oncommand
 =
 "
-FormHelper
+FormHelperUI
 .
 goToNext
 (
@@ -2258,9 +2258,9 @@ cmd_formClose
 oncommand
 =
 "
-FormHelper
+FormHelperUI
 .
-close
+hide
 (
 )
 ;
@@ -3850,9 +3850,9 @@ horizontal
 onclick
 =
 "
-FormHelper
+FormHelperUI
 .
-doAutoFill
+doAutoComplete
 (
 event
 .
@@ -7114,7 +7114,7 @@ done
 oncommand
 =
 "
-SelectHelper
+SelectHelperUI
 .
 hide
 (
