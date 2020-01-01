@@ -550,15 +550,6 @@ nsParserMsgUtils
 .
 cpp
 \
-(
-NULL
-)
-ifdef
-MOZ_VIEW_SOURCE
-CPPSRCS
-+
-=
-\
 nsViewSourceHTML
 .
 cpp
@@ -566,7 +557,6 @@ cpp
 (
 NULL
 )
-endif
 ifdef
 MOZ_DEBUG
 CPPSRCS

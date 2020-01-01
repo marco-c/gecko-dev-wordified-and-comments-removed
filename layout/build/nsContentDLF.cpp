@@ -271,12 +271,7 @@ TEXT_ECMASCRIPT
 APPLICATION_JAVASCRIPT
 APPLICATION_ECMASCRIPT
 APPLICATION_XJAVASCRIPT
-#
-ifdef
-MOZ_VIEW_SOURCE
 VIEWSOURCE_CONTENT_TYPE
-#
-endif
 APPLICATION_XHTML_XML
 0
 }
@@ -589,9 +584,6 @@ endif
 nsCAutoString
 type
 ;
-#
-ifdef
-MOZ_VIEW_SOURCE
 nsCOMPtr
 <
 nsIViewSourceChannel
@@ -877,8 +869,6 @@ aContentType
 TEXT_PLAIN
 ;
 }
-#
-endif
 int
 typeIndex
 =

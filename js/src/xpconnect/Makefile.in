@@ -425,16 +425,7 @@ DIRS
 public
 idl
 wrappers
-ifdef
-MOZ_JSLOADER
-DIRS
-+
-=
 loader
-endif
-DIRS
-+
-=
 src
 ifndef
 BUILD_STATIC_LIBS

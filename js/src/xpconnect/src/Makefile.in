@@ -844,8 +844,6 @@ MOZ_JS_LIBS
 (
 NULL
 )
-ifdef
-MOZ_JSLOADER
 SHARED_LIBRARY_LIBS
 =
 \
@@ -862,14 +860,6 @@ jsloader_s
 (
 LIB_SUFFIX
 )
-\
-(
-NULL
-)
-endif
-SHARED_LIBRARY_LIBS
-+
-=
 \
 .
 .
