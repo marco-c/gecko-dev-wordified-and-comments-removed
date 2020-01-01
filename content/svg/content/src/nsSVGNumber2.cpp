@@ -228,6 +228,13 @@ rest
 \
 0
 '
+|
+|
+!
+NS_FloatIsFinite
+(
+val
+)
 )
 {
 return

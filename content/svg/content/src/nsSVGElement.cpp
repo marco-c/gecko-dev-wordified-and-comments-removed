@@ -7043,6 +7043,13 @@ str
 =
 =
 rest
+|
+|
+!
+NS_FloatIsFinite
+(
+x
+)
 )
 {
 return
@@ -7112,6 +7119,13 @@ rest
 \
 0
 '
+|
+|
+!
+NS_FloatIsFinite
+(
+y
+)
 )
 {
 return
