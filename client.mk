@@ -521,8 +521,16 @@ was
 installed
 through
 fink
+ifeq
+(
+(
+strip
+(
 AUTOCONF
-?
+)
+)
+)
+AUTOCONF
 =
 (
 shell
@@ -559,6 +567,7 @@ bin
 /
 autoconf
 )
+endif
 ifeq
 (
 (
