@@ -7470,7 +7470,6 @@ nsIApplicationCacheAsyncCallback
 aCallback
 )
 {
-{
 nsresult
 rv
 ;
