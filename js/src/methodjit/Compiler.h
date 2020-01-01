@@ -631,6 +631,11 @@ jsop_setelem_slow
 )
 ;
 void
+jsop_getelem_slow
+(
+)
+;
+void
 jsop_bitop
 (
 JSOp
@@ -709,6 +714,11 @@ popped
 ;
 void
 jsop_setelem
+(
+)
+;
+void
+jsop_getelem
 (
 )
 ;
