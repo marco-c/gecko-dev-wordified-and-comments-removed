@@ -27,15 +27,6 @@ libjpeg
 turbo
 "
 #
-include
-"
-mozilla
-/
-Attributes
-.
-h
-"
-#
 define
 INLINE
-MOZ_ALWAYS_INLINE
+NS_ALWAYS_INLINE
