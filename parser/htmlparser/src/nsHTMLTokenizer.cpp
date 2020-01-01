@@ -178,12 +178,6 @@ eHTML_Quirks
 aDocType
 =
 =
-eHTML3_Quirks
-|
-|
-aDocType
-=
-=
 eHTML_Strict
 )
 {
