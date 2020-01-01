@@ -13160,7 +13160,7 @@ LINE_CAP_SQUARE
 ;
 else
 return
-NS_ERROR_NOT_IMPLEMENTED
+NS_OK
 ;
 mThebes
 -
@@ -13341,7 +13341,7 @@ LINE_JOIN_MITER
 ;
 else
 return
-NS_ERROR_NOT_IMPLEMENTED
+NS_OK
 ;
 mThebes
 -
@@ -15331,7 +15331,7 @@ OVER
 )
 else
 return
-NS_ERROR_NOT_IMPLEMENTED
+NS_OK
 ;
 #
 undef
