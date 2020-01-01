@@ -10854,6 +10854,15 @@ numListeners
 return
 NS_OK
 ;
+nsCOMArray
+<
+nsIDocumentStateListener
+>
+listeners
+(
+mDocStateListeners
+)
+;
 nsresult
 rv
 =
@@ -10887,7 +10896,7 @@ i
 {
 rv
 =
-mDocStateListeners
+listeners
 [
 i
 ]
@@ -10929,7 +10938,7 @@ i
 {
 rv
 =
-mDocStateListeners
+listeners
 [
 i
 ]
@@ -11010,7 +11019,7 @@ i
 {
 rv
 =
-mDocStateListeners
+listeners
 [
 i
 ]
