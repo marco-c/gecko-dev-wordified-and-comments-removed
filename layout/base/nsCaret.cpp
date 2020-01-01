@@ -2017,9 +2017,6 @@ GetStyleUserInterface
 ;
 if
 (
-#
-ifdef
-SUPPORT_USER_MODIFY
 (
 userinterface
 -
@@ -2031,8 +2028,6 @@ NS_STYLE_USER_MODIFY_READ_ONLY
 )
 |
 |
-#
-endif
 (
 userinterface
 -

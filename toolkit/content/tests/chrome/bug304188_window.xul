@@ -642,6 +642,8 @@ contentWindow
 html
 "
 false
+true
+false
 )
 ;
 gBrowser
