@@ -4681,9 +4681,13 @@ UpdateZoomConstraints
 (
 bool
 aAllowZoom
-float
+const
+CSSToScreenScale
+&
 aMinZoom
-float
+const
+CSSToScreenScale
+&
 aMaxZoom
 )
 {

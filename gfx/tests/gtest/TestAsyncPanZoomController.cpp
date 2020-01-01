@@ -1067,9 +1067,9 @@ metrics
 .
 mZoom
 =
-ScreenToScreenScale
+CSSToScreenScale
 (
-1
+6
 )
 ;
 metrics

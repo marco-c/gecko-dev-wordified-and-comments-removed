@@ -362,6 +362,12 @@ mozilla
 :
 CSSIntPoint
 ;
+using
+mozilla
+:
+:
+CSSToScreenScale
+;
 namespace
 mozilla
 {
@@ -1801,9 +1807,9 @@ UpdateZoomConstraints
 (
 bool
 aAllowZoom
-float
+CSSToScreenScale
 aMinZoom
-float
+CSSToScreenScale
 aMaxZoom
 )
 ;

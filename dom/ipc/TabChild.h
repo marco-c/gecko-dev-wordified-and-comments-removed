@@ -1417,7 +1417,7 @@ double
 aScale
 )
 ;
-ScreenToScreenScale
+CSSToScreenScale
 GetZoom
 (
 )

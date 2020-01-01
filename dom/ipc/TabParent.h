@@ -638,11 +638,11 @@ bool
 &
 aAllowZoom
 const
-float
+CSSToScreenScale
 &
 aMinZoom
 const
-float
+CSSToScreenScale
 &
 aMaxZoom
 )
