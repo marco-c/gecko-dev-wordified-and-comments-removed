@@ -461,6 +461,10 @@ AlertNotification
 .
 java
 \
+MemoryWatcher
+.
+java
+\
 (
 NULL
 )

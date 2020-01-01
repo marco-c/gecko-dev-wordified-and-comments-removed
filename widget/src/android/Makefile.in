@@ -507,10 +507,6 @@ nsPrintOptionsAndroid
 .
 cpp
 \
-nsMemoryWatcher
-.
-cpp
-\
 (
 NULL
 )
