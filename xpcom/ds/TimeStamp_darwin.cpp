@@ -489,6 +489,8 @@ TimeStamp
 :
 Now
 (
+bool
+aHighResolution
 )
 {
 return
