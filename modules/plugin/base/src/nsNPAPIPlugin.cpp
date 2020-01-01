@@ -1859,11 +1859,7 @@ CreatePlugin
 const
 char
 *
-aFileName
-const
-char
-*
-aFullPath
+aFilePath
 PRLibrary
 *
 aLibrary
@@ -1969,7 +1965,7 @@ aResult
 if
 (
 !
-aFileName
+aFilePath
 )
 return
 NS_OK
@@ -2284,7 +2280,7 @@ CCHMAXPATH
 strcpy
 (
 pluginPath
-aFileName
+aFilePath
 )
 ;
 char
@@ -2574,7 +2570,7 @@ NS_NewNativeLocalFile
 (
 nsDependentCString
 (
-aFullPath
+aFilePath
 )
 PR_TRUE
 getter_AddRefs

@@ -1427,7 +1427,7 @@ RemoveCachedPluginsInfo
 const
 char
 *
-filename
+filePath
 nsPluginTag
 *
 *

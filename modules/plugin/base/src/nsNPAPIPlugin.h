@@ -232,11 +232,7 @@ CreatePlugin
 const
 char
 *
-aFileName
-const
-char
-*
-aFullPath
+aFilePath
 PRLibrary
 *
 aLibrary
