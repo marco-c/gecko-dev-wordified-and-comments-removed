@@ -424,6 +424,9 @@ CPP_UNIT_TESTS
 TestNativeXMLHttpRequest
 .
 cpp
+TestPlainTextSerializer
+.
+cpp
 LOCAL_INCLUDES
 +
 =
@@ -455,6 +458,8 @@ string
 xpcom
 \
 xpconnect
+\
+htmlparser
 \
 (
 NULL
