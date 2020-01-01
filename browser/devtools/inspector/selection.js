@@ -178,6 +178,13 @@ if
 detached
 &
 &
+this
+.
+isNode
+(
+)
+&
+&
 !
 this
 .
