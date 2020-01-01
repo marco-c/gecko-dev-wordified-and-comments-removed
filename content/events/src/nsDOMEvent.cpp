@@ -629,6 +629,9 @@ devicemotion
 "
 deviceorientation
 "
+"
+deviceproximity
+"
 }
 ;
 static
@@ -7129,6 +7132,15 @@ return
 sEventNames
 [
 eDOMEvents_deviceorientation
+]
+;
+case
+NS_DEVICE_PROXIMITY
+:
+return
+sEventNames
+[
+eDOMEvents_deviceproximity
 ]
 ;
 case

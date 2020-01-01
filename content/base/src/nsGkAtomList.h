@@ -11812,6 +11812,13 @@ onMozTouchUp
 )
 GK_ATOM
 (
+ondevicemotion
+"
+ondevicemotion
+"
+)
+GK_ATOM
+(
 ondeviceorientation
 "
 ondeviceorientation
@@ -11819,9 +11826,9 @@ ondeviceorientation
 )
 GK_ATOM
 (
-ondevicemotion
+ondeviceproximity
 "
-ondevicemotion
+ondeviceproximity
 "
 )
 GK_ATOM

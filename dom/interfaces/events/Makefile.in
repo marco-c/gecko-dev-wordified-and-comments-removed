@@ -530,6 +530,10 @@ nsIDOMMozTouchEvent
 .
 idl
 \
+nsIDOMDeviceProximityEvent
+.
+idl
+\
 nsIDOMDeviceOrientationEvent
 .
 idl

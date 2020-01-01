@@ -490,6 +490,10 @@ nsDOMPopupBlockedEvent
 .
 cpp
 \
+nsDOMDeviceProximityEvent
+.
+cpp
+\
 nsDOMDeviceOrientationEvent
 .
 cpp
