@@ -470,6 +470,14 @@ ContentProcessProcess
 .
 h
 \
+TabParent
+.
+h
+\
+TabChild
+.
+h
+\
 (
 NULL
 )

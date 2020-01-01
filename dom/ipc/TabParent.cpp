@@ -249,9 +249,10 @@ mozilla
 namespace
 dom
 {
-NS_IMPL_ISUPPORTS1
+NS_IMPL_ISUPPORTS2
 (
 TabParent
+nsITabParent
 nsIWebProgress
 )
 TabParent

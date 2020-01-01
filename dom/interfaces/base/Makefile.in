@@ -558,6 +558,10 @@ nsITabChild
 .
 idl
 \
+nsITabParent
+.
+idl
+\
 (
 NULL
 )

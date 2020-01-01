@@ -236,6 +236,9 @@ NeckoChild
 :
 AllocPHttpChannel
 (
+PIFrameEmbeddingChild
+*
+iframeEmbedding
 )
 {
 NS_RUNTIMEABORT

@@ -68,6 +68,9 @@ NeckoParent
 :
 AllocPHttpChannel
 (
+PIFrameEmbeddingParent
+*
+iframeEmbedding
 )
 {
 HttpChannelParent
@@ -77,6 +80,7 @@ p
 new
 HttpChannelParent
 (
+iframeEmbedding
 )
 ;
 p

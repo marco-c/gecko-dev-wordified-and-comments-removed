@@ -54,6 +54,13 @@ h
 #
 include
 "
+nsITabParent
+.
+h
+"
+#
+include
+"
 nsIBrowserDOMWindow
 .
 h
@@ -198,6 +205,8 @@ TabParent
 :
 public
 PIFrameEmbeddingParent
+public
+nsITabParent
 public
 nsIWebProgress
 {
