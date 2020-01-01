@@ -96,6 +96,11 @@ nsIAtom
 aName
 )
 ;
+bool
+GeometryDependsOnCoordCtx
+(
+)
+;
 virtual
 bool
 IsMarkable
