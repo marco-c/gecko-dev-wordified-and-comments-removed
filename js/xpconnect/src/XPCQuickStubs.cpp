@@ -585,7 +585,6 @@ Op
 (
 JS_GetPrivate
 (
-cx
 ptrobj
 )
 )
@@ -684,7 +683,6 @@ JSPropertyOp
 (
 JS_GetPrivate
 (
-cx
 obj
 )
 )
@@ -827,7 +825,6 @@ pop
 ;
 JS_SetPrivate
 (
-cx
 ptrobj
 popp
 )

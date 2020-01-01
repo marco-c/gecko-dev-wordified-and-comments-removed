@@ -169,7 +169,6 @@ JS_FALSE
 }
 JS_SetPrivate
 (
-cx
 obj
 p
 )
@@ -209,7 +208,6 @@ PerfMeasurement
 )
 JS_GetPrivate
 (
-cx
 obj
 )
 )

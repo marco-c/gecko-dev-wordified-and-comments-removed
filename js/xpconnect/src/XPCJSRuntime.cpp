@@ -4587,11 +4587,6 @@ proto
 >
 SystemIsBeingShutDown
 (
-(
-JSContext
-*
-)
-arg
 )
 ;
 return
@@ -4604,9 +4599,6 @@ XPCJSRuntime
 :
 SystemIsBeingShutDown
 (
-JSContext
-*
-cx
 )
 {
 DOM_ClearInterfaces
@@ -4623,7 +4615,7 @@ mDetachedWrappedNativeProtoMap
 Enumerate
 (
 DetachedWrappedNativeProtoShutdownMarker
-cx
+nsnull
 )
 ;
 }
