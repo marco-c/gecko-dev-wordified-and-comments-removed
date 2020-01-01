@@ -781,7 +781,7 @@ time
 .
 sleep
 (
-5
+10
 )
         
 self
@@ -1011,7 +1011,7 @@ time
 .
 sleep
 (
-20
+40
 )
         
 if
