@@ -3683,6 +3683,16 @@ function
 (
 )
 {
+if
+(
+!
+this
+.
+passphrase
+)
+return
+false
+;
 try
 {
 let
