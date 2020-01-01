@@ -3990,6 +3990,7 @@ XPCContext
 :
 LANG_JS
 class
+MOZ_STACK_CLASS
 XPCCallContext
 :
 public
