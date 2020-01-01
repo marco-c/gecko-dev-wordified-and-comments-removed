@@ -25929,13 +25929,6 @@ WebGLintptr
 byteOffset
 )
 {
-byteOffset
-=
-int32_t
-(
-byteOffset
-)
-;
 if
 (
 !
