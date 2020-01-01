@@ -2512,14 +2512,11 @@ ownerObj
 nsCxPusher
 pusher
 ;
-NS_ENSURE_TRUE_VOID
-(
 pusher
 .
 Push
 (
 cx
-)
 )
 ;
 JSAutoRequest

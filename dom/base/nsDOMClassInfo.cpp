@@ -15541,14 +15541,11 @@ NS_ERROR_UNEXPECTED
 nsCxPusher
 pusher
 ;
-NS_ENSURE_STATE
-(
 pusher
 .
 Push
 (
 cx
-)
 )
 ;
 JSAutoRequest

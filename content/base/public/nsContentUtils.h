@@ -4629,7 +4629,7 @@ nsIDOMEventTarget
 aCurrentTarget
 )
 ;
-bool
+void
 Push
 (
 JSContext
@@ -4637,7 +4637,7 @@ JSContext
 cx
 )
 ;
-bool
+void
 PushNull
 (
 )
@@ -4659,7 +4659,7 @@ mScx
 }
 private
 :
-bool
+void
 DoPush
 (
 JSContext
