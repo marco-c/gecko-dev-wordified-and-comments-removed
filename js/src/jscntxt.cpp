@@ -377,6 +377,10 @@ pendingProxyOperation
 (
 NULL
 )
+interpreterFrames
+(
+NULL
+)
 {
 }
 ThreadData
