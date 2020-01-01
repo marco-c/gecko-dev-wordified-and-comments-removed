@@ -7374,6 +7374,16 @@ aKey
 {
 if
 (
+this
+.
+_disabledForMultiProcess
+)
+return
+"
+"
+;
+if
+(
 "
 __SSi
 "
