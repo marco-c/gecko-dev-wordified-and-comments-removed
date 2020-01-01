@@ -115,6 +115,15 @@ https
 :
 /
 /
+twitter
+.
+com
+"
+"
+https
+:
+/
+/
 api
 .
 twitter
