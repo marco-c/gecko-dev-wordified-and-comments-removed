@@ -4057,6 +4057,11 @@ mInXBLUpdate
 :
 1
 ;
+PRPackedBool
+mLoadedAsInteractiveData
+:
+1
+;
 PRUint8
 mXMLDeclarationBits
 ;
