@@ -589,7 +589,6 @@ return
 NS_OK
 ;
 }
-virtual
 nsresult
 GetClipboardEventTarget
 (
@@ -597,6 +596,16 @@ nsIDOMNode
 *
 *
 aEventTarget
+)
+;
+nsresult
+FireClipboardEvent
+(
+PRUint32
+msg
+PRBool
+*
+aPreventDefault
 )
 ;
 protected
