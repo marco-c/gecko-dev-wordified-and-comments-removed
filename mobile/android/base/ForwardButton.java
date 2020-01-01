@@ -584,7 +584,7 @@ R
 .
 drawable
 .
-address_bar_nav_button
+url_bar_nav_button
 )
 ;
 }

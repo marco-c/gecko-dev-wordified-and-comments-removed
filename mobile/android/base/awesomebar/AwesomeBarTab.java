@@ -968,7 +968,7 @@ R
 .
 string
 .
-awesomebar_switch_to_tab
+switch_to_tab
 )
 ;
 holder
@@ -981,7 +981,7 @@ R
 .
 drawable
 .
-ic_awesomebar_tab
+ic_url_bar_tab
 0
 0
 0

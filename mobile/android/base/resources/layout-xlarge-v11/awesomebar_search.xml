@@ -146,7 +146,7 @@ id
 +
 id
 /
-address_bar_bg
+url_bar_bg
 "
 android
 :
@@ -190,16 +190,12 @@ background
 "
 drawable
 /
-address_bar_bg
+url_bar_bg
 "
 /
 >
 <
-org
-.
-mozilla
-.
-gecko
+Gecko
 .
 ShapedButton
 android
@@ -217,7 +213,7 @@ style
 "
 style
 /
-AddressBar
+UrlBar
 .
 ImageButton
 "
@@ -288,7 +284,7 @@ style
 "
 style
 /
-AddressBar
+UrlBar
 .
 Button
 "
@@ -299,7 +295,7 @@ background
 "
 drawable
 /
-address_bar_url
+url_bar_entry
 "
 android
 :
@@ -373,7 +369,7 @@ hint
 "
 string
 /
-awesomebar_default_text
+url_bar_default_text
 "
 android
 :
@@ -382,7 +378,7 @@ textColor
 "
 color
 /
-awesome_bar_title
+url_bar_title
 "
 android
 :
@@ -391,7 +387,7 @@ textColorHint
 "
 color
 /
-awesome_bar_title_hint
+url_bar_title_hint
 "
 android
 :
@@ -510,7 +506,7 @@ style
 "
 style
 /
-AddressBar
+UrlBar
 .
 ImageButton
 .
@@ -553,7 +549,7 @@ src
 "
 drawable
 /
-ic_awesomebar_go
+ic_url_bar_go
 "
 /
 >

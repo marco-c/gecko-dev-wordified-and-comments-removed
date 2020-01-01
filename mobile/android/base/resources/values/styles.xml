@@ -1862,7 +1862,7 @@ style
 name
 =
 "
-AddressBar
+UrlBar
 .
 ImageButton
 .
@@ -1939,7 +1939,7 @@ style
 !
 -
 -
-Address
+URL
 bar
 -
 -
@@ -1949,7 +1949,7 @@ style
 name
 =
 "
-AddressBar
+UrlBar
 "
 >
 <
@@ -2005,7 +2005,7 @@ style
 !
 -
 -
-Address
+URL
 bar
 -
 Button
@@ -2017,7 +2017,7 @@ style
 name
 =
 "
-AddressBar
+UrlBar
 .
 Button
 "
@@ -2079,7 +2079,7 @@ style
 !
 -
 -
-Address
+URL
 bar
 -
 Image
@@ -2092,14 +2092,14 @@ style
 name
 =
 "
-AddressBar
+UrlBar
 .
 ImageButton
 "
 parent
 =
 "
-AddressBar
+UrlBar
 .
 Button
 "
@@ -2161,7 +2161,7 @@ style
 !
 -
 -
-Address
+URL
 bar
 -
 Image
@@ -2176,7 +2176,7 @@ style
 name
 =
 "
-AddressBar
+UrlBar
 .
 ImageButton
 .
@@ -2237,7 +2237,7 @@ style
 name
 =
 "
-AddressBar
+UrlBar
 .
 ImageButton
 .
@@ -2246,7 +2246,7 @@ Back
 parent
 =
 "
-AddressBar
+UrlBar
 .
 ImageButton
 .
@@ -2279,7 +2279,7 @@ style
 name
 =
 "
-AddressBar
+UrlBar
 .
 ImageButton
 .
@@ -2288,7 +2288,7 @@ Forward
 parent
 =
 "
-AddressBar
+UrlBar
 .
 ImageButton
 .
@@ -2320,7 +2320,7 @@ style
 !
 -
 -
-Address
+URL
 bar
 -
 Image
@@ -2335,7 +2335,7 @@ style
 name
 =
 "
-AddressBar
+UrlBar
 .
 ImageButton
 .

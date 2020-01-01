@@ -176,7 +176,7 @@ id
 +
 id
 /
-address_bar_bg
+url_bar_bg
 "
 android
 :
@@ -199,7 +199,7 @@ background
 "
 drawable
 /
-address_bar_bg
+url_bar_bg
 "
 /
 >
@@ -222,7 +222,7 @@ style
 "
 style
 /
-AddressBar
+UrlBar
 .
 ImageButton
 "
@@ -377,7 +377,7 @@ style
 "
 style
 /
-AddressBar
+UrlBar
 .
 ImageButton
 .
@@ -439,7 +439,7 @@ id
 +
 id
 /
-awesome_bar_entry
+url_bar_entry
 "
 android
 :
@@ -523,7 +523,7 @@ background
 "
 drawable
 /
-address_bar_url
+url_bar_entry
 "
 /
 >
@@ -540,7 +540,7 @@ style
 "
 style
 /
-AddressBar
+UrlBar
 .
 ImageButton
 .
@@ -591,7 +591,7 @@ style
 "
 style
 /
-AddressBar
+UrlBar
 .
 ImageButton
 "
@@ -665,7 +665,7 @@ background
 "
 drawable
 /
-address_bar_nav_button
+url_bar_nav_button
 "
 /
 >
@@ -679,14 +679,14 @@ id
 +
 id
 /
-awesome_bar_edit_container
+url_edit_container
 "
 style
 =
 "
 style
 /
-AddressBar
+UrlBar
 .
 Button
 "
@@ -765,14 +765,14 @@ id
 +
 id
 /
-awesome_bar_edit_text
+url_edit_text
 "
 style
 =
 "
 style
 /
-AddressBar
+UrlBar
 .
 Button
 "
@@ -806,7 +806,7 @@ hint
 "
 string
 /
-awesomebar_default_text
+url_bar_default_text
 "
 android
 :
@@ -815,7 +815,7 @@ textColor
 "
 color
 /
-awesome_bar_title
+url_bar_title
 "
 android
 :
@@ -824,7 +824,7 @@ textColorHint
 "
 color
 /
-awesome_bar_title_hint
+url_bar_title_hint
 "
 android
 :
@@ -938,7 +938,7 @@ style
 "
 style
 /
-AddressBar
+UrlBar
 .
 ImageButton
 .
@@ -951,7 +951,7 @@ src
 "
 drawable
 /
-ic_awesomebar_go
+ic_url_bar_go
 "
 android
 :
@@ -985,14 +985,14 @@ id
 +
 id
 /
-awesome_bar_display_container
+url_display_container
 "
 style
 =
 "
 style
 /
-AddressBar
+UrlBar
 .
 Button
 .
@@ -1034,7 +1034,7 @@ style
 "
 style
 /
-AddressBar
+UrlBar
 .
 ImageButton
 "
@@ -1110,7 +1110,7 @@ style
 "
 style
 /
-AddressBar
+UrlBar
 .
 ImageButton
 "
@@ -1177,14 +1177,14 @@ id
 +
 id
 /
-awesome_bar_title
+url_bar_title
 "
 style
 =
 "
 style
 /
-AddressBar
+UrlBar
 .
 Button
 "
@@ -1232,7 +1232,7 @@ textColor
 "
 color
 /
-awesome_bar_title
+url_bar_title
 "
 android
 :
@@ -1241,7 +1241,7 @@ textColorHint
 "
 color
 /
-awesome_bar_title_hint
+url_bar_title_hint
 "
 android
 :
@@ -1259,7 +1259,7 @@ hint
 "
 string
 /
-awesomebar_default_text
+url_bar_default_text
 "
 android
 :
@@ -1294,7 +1294,7 @@ style
 "
 style
 /
-AddressBar
+UrlBar
 .
 ImageButton
 .
@@ -1344,7 +1344,7 @@ style
 "
 style
 /
-AddressBar
+UrlBar
 .
 ImageButton
 .
@@ -1458,7 +1458,7 @@ style
 "
 style
 /
-AddressBar
+UrlBar
 .
 ImageButton
 "
@@ -1522,7 +1522,7 @@ style
 "
 style
 /
-AddressBar
+UrlBar
 .
 ImageButton
 "
@@ -1609,7 +1609,7 @@ background
 "
 drawable
 /
-address_bar_bg_shadow_repeat
+url_bar_bg_shadow_repeat
 "
 android
 :

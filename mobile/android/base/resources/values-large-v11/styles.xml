@@ -417,7 +417,7 @@ style
 name
 =
 "
-AddressBar
+UrlBar
 .
 ImageButton
 .
@@ -575,7 +575,7 @@ background
 >
 drawable
 /
-address_bar_nav_button
+url_bar_nav_button
 <
 /
 item
@@ -633,7 +633,7 @@ style
 name
 =
 "
-AddressBar
+UrlBar
 .
 Button
 .
