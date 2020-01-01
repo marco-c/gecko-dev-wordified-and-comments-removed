@@ -672,6 +672,11 @@ nsIRunnable
 aRunnable
 )
 ;
+PRBool
+IsCanceledNoLock
+(
+)
+;
 private
 :
 nsDOMWorker
