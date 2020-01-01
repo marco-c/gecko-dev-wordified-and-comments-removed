@@ -27,7 +27,6 @@ PUBLIC
 /
 /
 Apple
-Computer
 /
 /
 DTD
@@ -119,7 +118,7 @@ key
 <
 string
 >
-com
+org
 .
 mozilla
 .
