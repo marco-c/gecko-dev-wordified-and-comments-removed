@@ -839,6 +839,17 @@ this
 mConsoleListener
 )
 ;
+window
+.
+controllers
+.
+removeController
+(
+this
+.
+_controller
+)
+;
 ]
 ]
 >
