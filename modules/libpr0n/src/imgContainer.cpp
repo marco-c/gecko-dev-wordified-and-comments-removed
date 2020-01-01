@@ -110,6 +110,13 @@ gfxContext
 .
 h
 "
+using
+namespace
+mozilla
+:
+:
+imagelib
+;
 #
 if
 defined
@@ -556,7 +563,7 @@ discardable_source_bytes
 )
 ;
 }
-imgDiscardTracker
+DiscardTracker
 :
 :
 Remove
@@ -3808,7 +3815,7 @@ this
 ;
 rv
 =
-imgDiscardTracker
+DiscardTracker
 :
 :
 Reset
@@ -5013,7 +5020,7 @@ CanDiscard
 nsresult
 rv
 =
-imgDiscardTracker
+DiscardTracker
 :
 :
 Reset
@@ -8911,7 +8918,7 @@ activated
 ;
 rv
 =
-imgDiscardTracker
+DiscardTracker
 :
 :
 Reset
@@ -9450,7 +9457,7 @@ mError
 return
 NS_ERROR_FAILURE
 ;
-imgDiscardTracker
+DiscardTracker
 :
 :
 Remove
@@ -9537,7 +9544,7 @@ CanDiscard
 nsresult
 rv
 =
-imgDiscardTracker
+DiscardTracker
 :
 :
 Reset

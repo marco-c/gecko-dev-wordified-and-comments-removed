@@ -311,7 +311,13 @@ gDecodeOnDraw
 =
 decodeondraw
 ;
-imgDiscardTracker
+mozilla
+:
+:
+imagelib
+:
+:
+DiscardTracker
 :
 :
 ReloadTimeout
