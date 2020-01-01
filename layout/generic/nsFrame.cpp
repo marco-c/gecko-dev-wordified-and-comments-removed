@@ -878,16 +878,10 @@ nsIFrame
 :
 DumpFrameTree
 (
-nsIFrame
-*
-aFrame
 )
 {
 RootFrameList
 (
-aFrame
--
->
 PresContext
 (
 )
