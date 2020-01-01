@@ -977,6 +977,7 @@ placeURI
 !
 resetSearchBox
 )
+{
 this
 .
 _content
@@ -993,6 +994,7 @@ node
 .
 uri
 ;
+}
 PlacesSearchBox
 .
 hideSearchUI
