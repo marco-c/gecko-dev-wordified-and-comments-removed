@@ -29144,11 +29144,10 @@ Truncate
 ;
 if
 (
-LL_NE
-(
 modDate
+!
+=
 LL_ZERO
-)
 )
 {
 PRExplodedTime
