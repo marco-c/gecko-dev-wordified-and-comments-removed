@@ -3609,6 +3609,7 @@ JS_CLASS_TRACE
 (
 args_or_call_trace
 )
+NULL
 }
 ;
 const
@@ -3651,6 +3652,8 @@ PropertyStub
 EnumerateStub
 ResolveStub
 ConvertStub
+NULL
+JSCLASS_NO_OPTIONAL_MEMBERS
 }
 ;
 static
@@ -6350,6 +6353,7 @@ JS_CLASS_TRACE
 (
 args_or_call_trace
 )
+NULL
 }
 ;
 bool
@@ -9333,6 +9337,7 @@ JS_CLASS_TRACE
 (
 fun_trace
 )
+NULL
 }
 ;
 namespace

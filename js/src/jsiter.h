@@ -921,14 +921,14 @@ extern
 js
 :
 :
-Class
+ExtendedClass
 js_GeneratorClass
 ;
 extern
 js
 :
 :
-Class
+ExtendedClass
 js_IteratorClass
 ;
 extern

@@ -268,6 +268,7 @@ JS_CLASS_TRACE
 (
 exn_trace
 )
+NULL
 }
 ;
 typedef

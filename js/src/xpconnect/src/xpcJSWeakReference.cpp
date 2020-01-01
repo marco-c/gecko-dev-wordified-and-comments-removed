@@ -431,9 +431,10 @@ if
 obj
 -
 >
-getOps
-(
-)
+map
+-
+>
+ops
 -
 >
 thisObject
@@ -446,9 +447,10 @@ obj
 obj
 -
 >
-getOps
-(
-)
+map
+-
+>
+ops
 -
 >
 thisObject

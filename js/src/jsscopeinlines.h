@@ -90,6 +90,7 @@ JSEmptyScope
 >
 (
 cx
+ops
 clasp
 )
 ;

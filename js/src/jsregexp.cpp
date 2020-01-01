@@ -29030,6 +29030,7 @@ JS_CLASS_TRACE
 (
 regexp_trace
 )
+0
 }
 ;
 static
