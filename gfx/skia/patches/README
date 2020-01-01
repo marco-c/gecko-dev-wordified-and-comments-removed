@@ -118,6 +118,17 @@ that
 don
 .
 patch
+0018
+-
+Bug
+-
+817356
+-
+PPC
+-
+defines
+.
+patch
 0010
 -
 Bug
