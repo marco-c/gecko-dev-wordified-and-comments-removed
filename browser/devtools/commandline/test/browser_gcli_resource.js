@@ -855,12 +855,18 @@ prediction
 .
 value
 ;
+var
+context
+=
+null
+;
 return
 res
 .
 parseString
 (
 name
+context
 )
 .
 then
@@ -915,6 +921,7 @@ res
 stringify
 (
 value
+context
 )
 ;
 assert
