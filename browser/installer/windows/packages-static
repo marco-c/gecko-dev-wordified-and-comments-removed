@@ -405,13 +405,6 @@ bin
 \
 components
 \
-browsersearch
-.
-xpt
-bin
-\
-components
-\
 browser
 -
 feeds
@@ -1071,6 +1064,13 @@ bin
 components
 \
 toolkitprofile
+.
+xpt
+bin
+\
+components
+\
+toolkitsearch
 .
 xpt
 bin

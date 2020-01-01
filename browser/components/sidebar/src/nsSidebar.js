@@ -1115,9 +1115,11 @@ chrome
 :
 /
 /
-browser
+global
 /
 locale
+/
+search
 /
 search
 .
