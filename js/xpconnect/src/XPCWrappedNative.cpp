@@ -9356,7 +9356,7 @@ const
 mCallee
 ;
 const
-uint16
+uint16_t
 mVTableIndex
 ;
 const
@@ -9370,10 +9370,10 @@ nsXPTCVariant
 >
 mDispatchParams
 ;
-uint8
+uint8_t
 mJSContextIndex
 ;
-uint8
+uint8_t
 mOptArgcIndex
 ;
 jsval
@@ -9389,7 +9389,7 @@ JS_ALWAYS_INLINE
 JSBool
 GetArraySizeFromParam
 (
-uint8
+uint8_t
 paramIndex
 uint32_t
 *
@@ -9401,7 +9401,7 @@ JS_ALWAYS_INLINE
 JSBool
 GetInterfaceTypeFromParam
 (
-uint8
+uint8_t
 paramIndex
 const
 nsXPTType
@@ -9417,7 +9417,7 @@ JS_ALWAYS_INLINE
 JSBool
 GetOutParamSource
 (
-uint8
+uint8_t
 paramIndex
 jsval
 *
@@ -9442,7 +9442,7 @@ nsXPTCVariant
 *
 GetDispatchParam
 (
-uint8
+uint8_t
 paramIndex
 )
 {
@@ -9483,7 +9483,7 @@ nsXPTCVariant
 *
 GetDispatchParam
 (
-uint8
+uint8_t
 paramIndex
 )
 const
@@ -9524,7 +9524,7 @@ JS_ALWAYS_INLINE
 JSBool
 ConvertIndependentParam
 (
-uint8
+uint8_t
 i
 )
 ;
@@ -9538,7 +9538,7 @@ JS_ALWAYS_INLINE
 JSBool
 ConvertDependentParam
 (
-uint8
+uint8_t
 i
 )
 ;
@@ -10145,7 +10145,7 @@ CallMethodHelper
 (
 )
 {
-uint8
+uint8_t
 paramCount
 =
 mMethodInfo
@@ -10166,7 +10166,7 @@ Length
 {
 for
 (
-uint8
+uint8_t
 i
 =
 0
@@ -10385,7 +10385,7 @@ CallMethodHelper
 :
 GetArraySizeFromParam
 (
-uint8
+uint8_t
 paramIndex
 uint32_t
 *
@@ -10461,7 +10461,7 @@ CallMethodHelper
 :
 GetInterfaceTypeFromParam
 (
-uint8
+uint8_t
 paramIndex
 const
 nsXPTType
@@ -10489,7 +10489,7 @@ GetParam
 paramIndex
 )
 ;
-uint8
+uint8_t
 tag
 =
 datum_type
@@ -10626,7 +10626,7 @@ CallMethodHelper
 :
 GetOutParamSource
 (
-uint8
+uint8_t
 paramIndex
 jsval
 *
@@ -10763,7 +10763,7 @@ GatherAndConvertResults
 (
 )
 {
-uint8
+uint8_t
 paramCount
 =
 mMethodInfo
@@ -10775,7 +10775,7 @@ GetParamCount
 ;
 for
 (
-uint8
+uint8_t
 i
 =
 0
@@ -11508,7 +11508,7 @@ InitializeDispatchParams
 )
 {
 const
-uint8
+uint8_t
 wantsOptArgc
 =
 mMethodInfo
@@ -11523,7 +11523,7 @@ WantsOptArgc
 0
 ;
 const
-uint8
+uint8_t
 wantsJSContext
 =
 mMethodInfo
@@ -11538,7 +11538,7 @@ WantsContext
 0
 ;
 const
-uint8
+uint8_t
 paramCount
 =
 mMethodInfo
@@ -11548,12 +11548,12 @@ GetParamCount
 (
 )
 ;
-uint8
+uint8_t
 requiredArgs
 =
 paramCount
 ;
-uint8
+uint8_t
 hasRetval
 =
 0
@@ -11693,7 +11693,7 @@ hasRetval
 }
 for
 (
-uint8
+uint8_t
 i
 =
 0
@@ -11833,7 +11833,7 @@ foundDependentParam
 )
 {
 const
-uint8
+uint8_t
 paramCount
 =
 mMethodInfo
@@ -11845,7 +11845,7 @@ GetParamCount
 ;
 for
 (
-uint8
+uint8_t
 i
 =
 0
@@ -11912,7 +11912,7 @@ CallMethodHelper
 :
 ConvertIndependentParam
 (
-uint8
+uint8_t
 i
 )
 {
@@ -11940,7 +11940,7 @@ GetType
 (
 )
 ;
-uint8
+uint8_t
 type_tag
 =
 type
@@ -12258,7 +12258,7 @@ ConvertDependentParams
 )
 {
 const
-uint8
+uint8_t
 paramCount
 =
 mMethodInfo
@@ -12270,7 +12270,7 @@ GetParamCount
 ;
 for
 (
-uint8
+uint8_t
 i
 =
 0
@@ -12334,7 +12334,7 @@ CallMethodHelper
 :
 ConvertDependentParam
 (
-uint8
+uint8_t
 i
 )
 {
@@ -13015,7 +13015,7 @@ nsXPTParamInfo
 paramInfo
 )
 {
-uint8
+uint8_t
 type_tag
 =
 paramInfo

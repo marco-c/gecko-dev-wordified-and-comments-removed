@@ -46,7 +46,7 @@ nsXPCWrappedJSClass
 nsIXPCWrappedJSClass
 )
 static
-uint32
+uint32_t
 zero_methods_descriptor
 ;
 bool
@@ -567,7 +567,7 @@ this
 )
 ;
 }
-uint16
+uint16_t
 methodCount
 ;
 if
@@ -610,7 +610,7 @@ nsnull
 mDescriptors
 =
 new
-uint32
+uint32_t
 [
 wordCount
 ]
@@ -1034,7 +1034,7 @@ if
 id
 )
 {
-uint32
+uint32_t
 oldOpts
 =
 JS_SetOptions
@@ -1331,7 +1331,7 @@ type
 nsXPTType
 (
 (
-uint8
+uint8_t
 )
 TD_INTERFACE_TYPE
 )
@@ -3152,9 +3152,9 @@ const
 nsXPTParamInfo
 &
 param
-uint16
+uint16_t
 methodIndex
-uint8
+uint8_t
 paramIndex
 nsXPTCMiniVariant
 *
@@ -3164,7 +3164,7 @@ uint32_t
 result
 )
 {
-uint8
+uint8_t
 argnum
 ;
 nsresult
@@ -3302,7 +3302,7 @@ const
 nsXPTParamInfo
 &
 param
-uint16
+uint16_t
 methodIndex
 const
 nsXPTType
@@ -3316,7 +3316,7 @@ nsID
 result
 )
 {
-uint8
+uint8_t
 type_tag
 =
 type
@@ -3372,7 +3372,7 @@ nsXPTType
 T_INTERFACE_IS
 )
 {
-uint8
+uint8_t
 argnum
 ;
 nsresult
@@ -4673,7 +4673,7 @@ CallMethod
 nsXPCWrappedJS
 *
 wrapper
-uint16
+uint16_t
 methodIndex
 const
 XPTMethodDescriptor
@@ -4696,15 +4696,15 @@ argv
 =
 nsnull
 ;
-uint8
+uint8_t
 i
 ;
-uint8
+uint8_t
 argc
 =
 0
 ;
-uint8
+uint8_t
 paramCount
 =
 0
@@ -6213,7 +6213,7 @@ fval
 )
 )
 {
-uint32
+uint32_t
 oldOpts
 =
 JS_GetOptions
@@ -6513,7 +6513,7 @@ continue
 jsval
 val
 ;
-uint8
+uint8_t
 type_tag
 =
 type
@@ -7057,7 +7057,7 @@ paramCount
 {
 for
 (
-uint8
+uint8_t
 k
 =
 0
@@ -7467,7 +7467,7 @@ mInfo
 )
 )
 ;
-uint16
+uint16_t
 methodCount
 =
 0
@@ -7477,7 +7477,7 @@ if
 depth
 )
 {
-uint16
+uint16_t
 i
 ;
 nsCOMPtr
@@ -7616,7 +7616,7 @@ XPC_LOG_INDENT
 ;
 for
 (
-uint16
+uint16_t
 i
 =
 0

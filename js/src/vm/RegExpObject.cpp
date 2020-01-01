@@ -282,6 +282,7 @@ NULL
 ;
 reobj_
 =
+&
 obj
 -
 >
@@ -346,6 +347,7 @@ NULL
 ;
 reobj_
 =
+&
 clone
 -
 >
@@ -1419,7 +1421,7 @@ objp
 )
 ;
 RegExpObject
-*
+&
 reobj
 =
 (
@@ -1435,8 +1437,7 @@ asRegExp
 source
 =
 reobj
--
->
+.
 getSource
 (
 )
@@ -1444,8 +1445,7 @@ getSource
 flagsword
 =
 reobj
--
->
+.
 getFlags
 (
 )
@@ -1604,8 +1604,7 @@ obj
 asRegExp
 (
 )
--
->
+.
 finalize
 (
 cx
@@ -1640,8 +1639,7 @@ obj
 asRegExp
 (
 )
--
->
+.
 purge
 (
 trc
@@ -2685,12 +2683,14 @@ builder
 .
 clone
 (
+&
 obj
 -
 >
 asRegExp
 (
 )
+&
 proto
 -
 >

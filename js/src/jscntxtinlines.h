@@ -182,6 +182,7 @@ hasfp
 )
 )
 return
+&
 cx
 -
 >
@@ -194,7 +195,7 @@ scopeChain
 (
 )
 .
-getGlobal
+global
 (
 )
 ;
@@ -220,6 +221,7 @@ return
 NULL
 ;
 return
+&
 scope
 -
 >
@@ -2329,8 +2331,7 @@ parseMapPool_
 ;
 }
 static
-JS_FORCES_STACK
-JS_INLINE
+inline
 js
 :
 :

@@ -11651,7 +11651,7 @@ CallMethod
 nsXPCWrappedJS
 *
 wrapper
-uint16
+uint16_t
 methodIndex
 const
 XPTMethodDescriptor
@@ -11768,7 +11768,7 @@ scope
 JSBool
 IsReflectable
 (
-uint16
+uint16_t
 i
 )
 const
@@ -11801,7 +11801,7 @@ i
 void
 SetReflectable
 (
-uint16
+uint16_t
 i
 JSBool
 b
@@ -11866,9 +11866,9 @@ const
 nsXPTParamInfo
 &
 param
-uint16
+uint16_t
 methodIndex
-uint8
+uint8_t
 paramIndex
 nsXPTCMiniVariant
 *
@@ -11892,7 +11892,7 @@ const
 nsXPTParamInfo
 &
 param
-uint16
+uint16_t
 methodIndex
 const
 nsXPTType
@@ -11951,7 +11951,7 @@ mName
 nsIID
 mIID
 ;
-uint32
+uint32_t
 *
 mDescriptors
 ;

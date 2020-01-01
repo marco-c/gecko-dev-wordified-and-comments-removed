@@ -69,6 +69,15 @@ Services
 .
 h
 "
+#
+include
+"
+mozilla
+/
+Attributes
+.
+h
+"
 struct
 nsExpirationState
 {
@@ -956,6 +965,7 @@ mInAgeOneGeneration
 ;
 class
 ExpirationTrackerObserver
+MOZ_FINAL
 :
 public
 nsIObserver

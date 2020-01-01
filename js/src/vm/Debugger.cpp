@@ -515,6 +515,7 @@ maybeScript
 script
 )
 return
+&
 i
 .
 fp
@@ -526,7 +527,7 @@ scopeChain
 (
 )
 .
-getGlobal
+global
 (
 )
 ;
@@ -1913,6 +1914,7 @@ GlobalObject
 *
 global
 =
+&
 cx
 -
 >
@@ -1925,7 +1927,7 @@ scopeChain
 (
 )
 .
-getGlobal
+global
 (
 )
 ;
@@ -2149,6 +2151,7 @@ GlobalObject
 *
 global
 =
+&
 fp
 -
 >
@@ -2156,7 +2159,7 @@ scopeChain
 (
 )
 .
-getGlobal
+global
 (
 )
 ;
@@ -4236,6 +4239,7 @@ GlobalObject
 *
 global
 =
+&
 cx
 -
 >
@@ -4248,7 +4252,7 @@ scopeChain
 (
 )
 .
-getGlobal
+global
 (
 )
 ;
@@ -4875,6 +4879,7 @@ GlobalObject
 *
 scriptGlobal
 =
+&
 fp
 -
 >
@@ -4882,7 +4887,7 @@ scopeChain
 (
 )
 .
-getGlobal
+global
 (
 )
 ;
@@ -5304,6 +5309,7 @@ GlobalObject
 *
 global
 =
+&
 fp
 -
 >
@@ -5311,7 +5317,7 @@ scopeChain
 (
 )
 .
-getGlobal
+global
 (
 )
 ;
@@ -8348,10 +8354,11 @@ GlobalObject
 *
 global
 =
+&
 referent
 -
 >
-getGlobal
+global
 (
 )
 ;
@@ -8473,10 +8480,11 @@ GlobalObject
 *
 global
 =
+&
 referent
 -
 >
-getGlobal
+global
 (
 )
 ;
@@ -8596,10 +8604,11 @@ debuggees
 .
 lookup
 (
+&
 referent
 -
 >
-getGlobal
+global
 (
 )
 )
@@ -9241,6 +9250,7 @@ GlobalObject
 *
 debuggee
 =
+&
 GetProxyPrivate
 (
 &
@@ -9258,7 +9268,7 @@ toObject
 (
 )
 .
-getGlobal
+global
 (
 )
 ;
@@ -9833,6 +9843,7 @@ key
 ;
 if
 (
+&
 fp
 -
 >
@@ -9840,7 +9851,7 @@ scopeChain
 (
 )
 .
-getGlobal
+global
 (
 )
 =
@@ -14705,13 +14716,14 @@ cx
 ;
 global
 =
+&
 args
 .
 callee
 (
 )
 .
-getGlobal
+global
 (
 )
 ;
@@ -20874,7 +20886,7 @@ parent
 env
 -
 >
-scopeChain
+enclosingScope
 (
 )
 ;
@@ -21355,7 +21367,7 @@ env
 env
 -
 >
-scopeChain
+enclosingScope
 (
 )
 )

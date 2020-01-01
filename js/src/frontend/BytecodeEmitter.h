@@ -284,7 +284,7 @@ JSAtom
 *
 label
 ;
-JSObject
+StaticBlockObject
 *
 blockObj
 ;
@@ -791,7 +791,7 @@ StmtInfo
 *
 topScopeStmt
 ;
-JSObject
+StaticBlockObject
 *
 blockChain
 ;
@@ -2945,8 +2945,8 @@ tc
 StmtInfo
 *
 stmt
-JSObject
-*
+StaticBlockObject
+&
 blockObj
 ptrdiff_t
 top

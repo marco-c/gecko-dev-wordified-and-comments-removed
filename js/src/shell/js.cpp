@@ -19324,10 +19324,11 @@ obj
 getProto
 (
 )
+&
 obj
 -
 >
-getGlobal
+global
 (
 )
 &

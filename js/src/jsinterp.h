@@ -284,7 +284,6 @@ rval
 )
 ;
 extern
-JS_REQUIRES_STACK
 bool
 InvokeConstructorKernel
 (
@@ -362,7 +361,6 @@ rval
 )
 ;
 extern
-JS_REQUIRES_STACK
 bool
 InvokeConstructorWithGivenThis
 (
@@ -455,7 +453,6 @@ JSINTERP_BAILOUT
 }
 ;
 extern
-JS_REQUIRES_STACK
 JS_NEVER_INLINE
 bool
 Interpret
@@ -473,7 +470,6 @@ JSINTERP_NORMAL
 )
 ;
 extern
-JS_REQUIRES_STACK
 bool
 RunScript
 (
@@ -713,16 +709,14 @@ enabler
 }
 ;
 extern
-bool
+void
 UnwindScope
 (
 JSContext
 *
 cx
-jsint
+uint32_t
 stackDepth
-JSBool
-normalUnwind
 )
 ;
 extern
@@ -750,7 +744,7 @@ cx
 JSObject
 &
 obj
-int
+uint32_t
 stackDepth
 )
 ;

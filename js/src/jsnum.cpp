@@ -5115,6 +5115,7 @@ GlobalObject
 *
 global
 =
+&
 obj
 -
 >
@@ -5150,8 +5151,7 @@ numberProto
 asNumber
 (
 )
--
->
+.
 setPrimitiveValue
 (
 0

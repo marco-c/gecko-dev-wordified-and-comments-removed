@@ -1279,7 +1279,7 @@ isInForeign
 )
 ;
 bool
-isInForeignButNotHtmlIntegrationPoint
+isInForeignButNotHtmlOrMathTextIntegrationPoint
 (
 )
 ;

@@ -241,7 +241,7 @@ jsBytes
 mData
 =
 (
-PRUint64
+uint64_t
 *
 )
 malloc
@@ -347,7 +347,7 @@ rv
 mData
 =
 (
-PRUint64
+uint64_t
 *
 )
 malloc

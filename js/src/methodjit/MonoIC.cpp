@@ -343,7 +343,7 @@ ic
 )
 {
 JSObject
-*
+&
 obj
 =
 f
@@ -357,7 +357,7 @@ scopeChain
 (
 )
 .
-getGlobal
+global
 (
 )
 ;
@@ -406,8 +406,7 @@ Shape
 shape
 =
 obj
--
->
+.
 nativeLookup
 (
 f
@@ -518,8 +517,7 @@ ic
 shapeOffset
 )
 obj
--
->
+.
 lastProperty
 (
 )
@@ -529,8 +527,7 @@ uint32_t
 index
 =
 obj
--
->
+.
 dynamicSlotIndex
 (
 slot
@@ -1136,7 +1133,7 @@ ic
 )
 {
 JSObject
-*
+&
 obj
 =
 f
@@ -1150,7 +1147,7 @@ scopeChain
 (
 )
 .
-getGlobal
+global
 (
 )
 ;
@@ -1197,8 +1194,7 @@ Shape
 shape
 =
 obj
--
->
+.
 nativeLookup
 (
 f
@@ -1227,6 +1223,7 @@ UpdateSetGlobalName
 (
 f
 ic
+&
 obj
 shape
 )

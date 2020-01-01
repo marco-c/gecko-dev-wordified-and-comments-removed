@@ -3504,7 +3504,7 @@ char
 *
 name
 ;
-uint32
+uint32_t
 flag
 ;
 }
@@ -3546,7 +3546,7 @@ JSOPTION_XML
 }
 ;
 static
-uint32
+uint32_t
 MapContextOptionNameToFlag
 (
 JSContext

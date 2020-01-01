@@ -383,6 +383,7 @@ InvalidateCache
 (
 )
 ;
+const
 char
 *
 buf
@@ -394,6 +395,7 @@ for
 BeardBook
 "
 ;
+const
 char
 *
 id
@@ -545,6 +547,7 @@ TestWriteInvalidateRead
 nsresult
 rv
 ;
+const
 char
 *
 buf
@@ -555,6 +558,7 @@ competitive
 analysis
 "
 ;
+const
 char
 *
 id
@@ -834,6 +838,7 @@ InvalidateCache
 (
 )
 ;
+const
 char
 *
 id
@@ -1325,6 +1330,7 @@ InvalidateCache
 (
 )
 ;
+const
 char
 *
 buf
@@ -1338,6 +1344,7 @@ on
 BeardBook
 "
 ;
+const
 char
 *
 id

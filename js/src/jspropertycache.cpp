@@ -37,7 +37,6 @@ using
 namespace
 js
 ;
-JS_REQUIRES_STACK
 PropertyCacheEntry
 *
 PropertyCache
@@ -146,10 +145,15 @@ i
 )
 tmp
 =
+&
 tmp
 -
 >
-internalScopeChain
+asScope
+(
+)
+.
+enclosingScope
 (
 )
 ;
@@ -617,7 +621,6 @@ return
 atom
 ;
 }
-JS_REQUIRES_STACK
 JSAtom
 *
 PropertyCache
@@ -929,7 +932,7 @@ tmp
 pobj
 -
 >
-scopeChain
+enclosingScope
 (
 )
 ;

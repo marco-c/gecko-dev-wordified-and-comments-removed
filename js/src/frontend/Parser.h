@@ -90,6 +90,9 @@ BindData
 namespace
 js
 {
+class
+StaticBlockObject
+;
 enum
 FunctionSyntaxKind
 {
@@ -576,7 +579,7 @@ variables
 (
 ParseNodeKind
 kind
-JSObject
+StaticBlockObject
 *
 blockObj
 =
