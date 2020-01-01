@@ -114,7 +114,15 @@ testArgumentsObject
 .
 cpp
 \
+testBindCallable
+.
+cpp
+\
 testBug604087
+.
+cpp
+\
+testCallNonGenericMethodOnProxy
 .
 cpp
 \
@@ -283,10 +291,6 @@ testVersion
 cpp
 \
 testXDR
-.
-cpp
-\
-testBindCallable
 .
 cpp
 \
