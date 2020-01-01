@@ -68,10 +68,6 @@ TEST_PROT_TRFetcher
 (
 )
 ;
-TEST_G_ObjectSafeMap
-(
-)
-;
 TEST_PROT_URLCanonicalizer
 (
 )
