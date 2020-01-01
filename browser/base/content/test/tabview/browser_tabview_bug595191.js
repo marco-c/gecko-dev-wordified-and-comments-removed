@@ -344,7 +344,7 @@ EventUtils
 synthesizeKey
 (
 "
-e
+E
 "
 {
 accelKey
