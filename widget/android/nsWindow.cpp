@@ -8901,6 +8901,10 @@ selMask
 mIMEMaskSelectionUpdate
 )
 ;
+RemoveIMEComposition
+(
+)
+;
 nsSelectionEvent
 selEvent
 (
