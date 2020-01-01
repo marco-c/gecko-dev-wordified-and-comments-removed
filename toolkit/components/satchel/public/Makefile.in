@@ -439,6 +439,10 @@ nsIFormFillController
 .
 idl
 \
+nsIFormAutoComplete
+.
+idl
+\
 nsIFormHistory
 .
 idl

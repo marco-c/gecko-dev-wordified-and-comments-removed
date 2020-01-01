@@ -1652,6 +1652,13 @@ components
 nsBadCertHandler
 .
 js
+bin
+\
+components
+\
+nsFormAutoComplete
+.
+js
 ;
 Modules
 bin
