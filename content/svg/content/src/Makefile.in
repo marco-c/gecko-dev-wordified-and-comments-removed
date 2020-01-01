@@ -649,10 +649,6 @@ nsSVGPolylineElement
 .
 cpp
 \
-nsSVGPreserveAspectRatio
-.
-cpp
-\
 nsSVGScriptElement
 .
 cpp
@@ -758,6 +754,10 @@ SVGAnimatedPathSegList
 cpp
 \
 SVGAnimatedPointList
+.
+cpp
+\
+SVGAnimatedPreserveAspectRatio
 .
 cpp
 \

@@ -1,7 +1,7 @@
 #
 include
 "
-nsSVGPreserveAspectRatio
+SVGAnimatedPreserveAspectRatio
 .
 h
 "

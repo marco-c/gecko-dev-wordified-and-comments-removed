@@ -70,7 +70,7 @@ h
 #
 include
 "
-nsSVGPreserveAspectRatio
+SVGAnimatedPreserveAspectRatio
 .
 h
 "
