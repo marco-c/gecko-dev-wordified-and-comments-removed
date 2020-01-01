@@ -1045,6 +1045,13 @@ kRangeCID
 NS_RANGE_CID
 )
 ;
+#
+include
+"
+nsIMemoryReporter
+.
+h
+"
 using
 namespace
 mozilla
