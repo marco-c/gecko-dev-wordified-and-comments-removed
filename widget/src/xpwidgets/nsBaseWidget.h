@@ -123,11 +123,6 @@ aCapture
 )
 ;
 NS_IMETHOD
-Validate
-(
-)
-;
-NS_IMETHOD
 GetClientData
 (
 void

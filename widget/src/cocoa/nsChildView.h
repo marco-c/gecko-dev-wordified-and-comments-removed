@@ -842,11 +842,6 @@ PRBool
 aIsSynchronous
 )
 ;
-NS_IMETHOD
-Validate
-(
-)
-;
 virtual
 void
 *
