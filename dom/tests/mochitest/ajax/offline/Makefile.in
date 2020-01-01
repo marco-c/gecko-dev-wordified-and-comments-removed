@@ -462,6 +462,14 @@ test_cancelOfflineCache
 .
 html
 \
+test_lowDeviceStorage
+.
+html
+\
+test_lowDeviceStorageDuringUpdate
+.
+html
+\
 (
 NULL
 )
