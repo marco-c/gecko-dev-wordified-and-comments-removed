@@ -340,6 +340,5 @@ NS_IMPL_ISUPPORTS1
 PlaceInfo
 mozIPlaceInfo
 )
-;
 }
 }
