@@ -380,12 +380,7 @@ sharedNonNative
 JSObjectMap
 :
 :
-NON_NATIVE_START_MARKER
-JSObjectMap
-:
-:
 SHAPELESS
-0
 )
 ;
 Class
