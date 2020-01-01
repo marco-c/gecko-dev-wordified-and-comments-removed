@@ -884,7 +884,7 @@ Expr
 mParams
 ;
 static
-nsresult
+double
 evaluateToNumber
 (
 Expr
@@ -893,9 +893,6 @@ aExpr
 txIEvalContext
 *
 aContext
-double
-*
-aResult
 )
 ;
 static
