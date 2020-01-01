@@ -455,6 +455,10 @@ test_doc
 .
 html
 \
+test_gencontent
+.
+html
+\
 test_list_editabledoc
 .
 html
