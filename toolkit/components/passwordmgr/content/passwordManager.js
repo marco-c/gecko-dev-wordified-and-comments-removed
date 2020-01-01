@@ -1523,7 +1523,7 @@ keyCode
 46
 )
 {
-DeleteSignonSelected
+DeleteSignon
 (
 )
 ;
