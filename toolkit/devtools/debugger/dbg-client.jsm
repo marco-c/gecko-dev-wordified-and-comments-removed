@@ -610,6 +610,13 @@ tabNavigated
 "
 tabNavigated
 "
+"
+profilerStateChanged
+"
+:
+"
+profilerStateChanged
+"
 }
 ;
 const
