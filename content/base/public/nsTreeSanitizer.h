@@ -155,7 +155,7 @@ PRBool
 aAllowDangerousSrc
 )
 ;
-void
+PRBool
 SanitizeURL
 (
 mozilla
