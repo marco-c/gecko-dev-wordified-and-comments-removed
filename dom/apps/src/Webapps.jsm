@@ -3064,6 +3064,11 @@ receipts
 aData
 .
 receipts
+categories
+:
+aData
+.
+categories
 }
 }
 let
