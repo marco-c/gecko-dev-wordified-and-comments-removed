@@ -356,8 +356,6 @@ aContainer
 nsIContent
 *
 aChild
-PRInt32
-aIndex
 )
 ;
 void
