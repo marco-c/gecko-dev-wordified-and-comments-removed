@@ -24,6 +24,9 @@ nsIAtom
 class
 nsPresContext
 ;
+class
+nsMediaQueryResultCacheKey
+;
 #
 define
 NS_ICSS_GROUP_RULE_IID
@@ -162,6 +165,9 @@ UseForPresentation
 nsPresContext
 *
 aPresContext
+nsMediaQueryResultCacheKey
+&
+aKey
 )
 =
 0
