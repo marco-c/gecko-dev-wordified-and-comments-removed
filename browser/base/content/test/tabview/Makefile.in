@@ -480,6 +480,10 @@ browser_tabview_bug595804
 .
 js
 \
+browser_tabview_bug595930
+.
+js
+\
 browser_tabview_bug595943
 .
 js
