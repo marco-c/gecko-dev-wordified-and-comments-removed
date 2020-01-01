@@ -14,13 +14,6 @@ h
 #
 include
 "
-prtypes
-.
-h
-"
-#
-include
-"
 nsAutoPtr
 .
 h

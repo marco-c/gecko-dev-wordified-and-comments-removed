@@ -18201,7 +18201,7 @@ pluginGetClipboardText
 id
 )
 ;
-uint32
+uint32_t
 len
 =
 sel

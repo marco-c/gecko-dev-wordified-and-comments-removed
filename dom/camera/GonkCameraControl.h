@@ -16,13 +16,6 @@ h
 #
 include
 "
-prtypes
-.
-h
-"
-#
-include
-"
 prrwlock
 .
 h
