@@ -982,7 +982,7 @@ FireDelayedToolkitEvent
 nsIAccessibleEvent
 :
 :
-EVENT_ATK_TEXT_CARET_MOVE
+EVENT_TEXT_CARET_MOVED
 focusNode
 nsnull
 PR_FALSE
