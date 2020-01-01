@@ -4469,6 +4469,17 @@ base
 (
 )
 ;
+#
+ifdef
+DEBUG
+if
+(
+cx_
+-
+>
+stackIterAssertionEnabled
+)
+{
 JS_ASSERT_IF
 (
 !
@@ -4494,6 +4505,9 @@ pc_
 )
 )
 ;
+}
+#
+endif
 Value
 *
 vp

@@ -4235,6 +4235,14 @@ setUndefined
 )
 ;
 }
+#
+ifdef
+DEBUG
+bool
+stackIterAssertionEnabled
+;
+#
+endif
 private
 :
 JS_FRIEND_API
