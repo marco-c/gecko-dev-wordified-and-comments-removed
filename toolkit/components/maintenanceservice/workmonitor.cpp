@@ -2156,8 +2156,7 @@ LogFlush
 ;
 StartServiceUpdate
 (
-argc
-argv
+installDir
 )
 ;
 }
