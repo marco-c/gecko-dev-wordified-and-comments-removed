@@ -933,16 +933,6 @@ const
 uint32
 CALL_CLASS_FIXED_RESERVED_SLOTS
 ;
-extern
-JS_FRIEND_DATA
-(
-js
-:
-:
-Class
-)
-js_FunctionClass
-;
 inline
 bool
 JSObject

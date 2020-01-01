@@ -7083,16 +7083,10 @@ AutoExceptionRestorer
 JS_SetPendingException
 (
 mContext
-js
-:
-:
-Jsvalify
-(
 tvr
 .
-value
+jsval_value
 (
-)
 )
 )
 ;
