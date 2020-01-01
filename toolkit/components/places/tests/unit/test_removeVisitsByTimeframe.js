@@ -2371,6 +2371,10 @@ function
 (
 )
 {
+remove_all_bookmarks
+(
+)
+;
 DBConn
 (
 )
@@ -2382,10 +2386,6 @@ DELETE
 FROM
 moz_places
 "
-)
-;
-remove_all_bookmarks
-(
 )
 ;
 test

@@ -167,6 +167,9 @@ nsINavHistoryService
 .
 TRANSITION_EMBED
 :
+return
+false
+;
 case
 Ci
 .
@@ -625,14 +628,6 @@ add_visits_to_database
 (
 )
 {
-PlacesUtils
-.
-bhistory
-.
-removeAllPages
-(
-)
-;
 remove_all_bookmarks
 (
 )
@@ -672,11 +667,6 @@ Ci
 nsINavHistoryService
 .
 TRANSITION_BOOKMARK
-Ci
-.
-nsINavHistoryService
-.
-TRANSITION_EMBED
 Ci
 .
 nsINavHistoryService
