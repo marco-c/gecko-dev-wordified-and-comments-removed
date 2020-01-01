@@ -619,6 +619,7 @@ base
 (
 &
 CallClass
+NULL
 attrs
 getter
 setter

@@ -2552,6 +2552,13 @@ obj
 )
 const
 {
+JS_NOT_REACHED
+(
+"
+FIXME
+"
+)
+;
 return
 name
 (
@@ -2565,11 +2572,7 @@ nj
 :
 LIR_ldp
 obj
-offsetof
-(
-JSObject
-parent
-)
+0
 ACCSET_OBJ_PARENT
 )
 "

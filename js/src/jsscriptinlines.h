@@ -260,12 +260,15 @@ lastBinding
 {
 lastBinding
 =
-EmptyShape
+BaseShape
 :
 :
-getEmptyCallShape
+lookupInitialShape
 (
 cx
+&
+CallClass
+NULL
 )
 ;
 if

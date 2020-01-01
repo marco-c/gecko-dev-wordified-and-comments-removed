@@ -571,6 +571,17 @@ JSContext
 cx
 )
 ;
+bool
+setParent
+(
+JSContext
+*
+cx
+JSObject
+*
+obj
+)
+;
 enum
 {
 BINDING_COUNT_LIMIT

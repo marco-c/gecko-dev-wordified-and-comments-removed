@@ -549,6 +549,10 @@ Class
 *
 clasp
 ;
+JSObject
+*
+parent
+;
 }
 ;
 struct
@@ -574,9 +578,8 @@ type
 uint32
 flags
 ;
-JSObject
-*
-parent
+uint32
+_2
 ;
 js
 :
@@ -909,6 +912,12 @@ Object
 (
 obj
 )
+-
+>
+shape
+-
+>
+base
 -
 >
 parent
