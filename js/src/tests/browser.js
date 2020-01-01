@@ -901,9 +901,6 @@ true
 moar_xml
 :
 true
-relimit
-:
-true
 methodjit
 :
 true
