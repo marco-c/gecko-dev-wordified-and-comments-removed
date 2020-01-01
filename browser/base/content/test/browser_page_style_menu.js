@@ -7,12 +7,6 @@ waitForExplicitFinish
 (
 )
 ;
-finish
-(
-)
-;
-return
-;
 var
 tab
 =
@@ -273,7 +267,12 @@ item
 )
 item
 .
+getAttribute
+(
+"
 label
+"
+)
 =
 =
 title
