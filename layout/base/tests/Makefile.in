@@ -715,6 +715,10 @@ test_bug548545
 .
 xhtml
 \
+test_bug559499
+.
+html
+\
 test_flush_on_paint
 .
 html
