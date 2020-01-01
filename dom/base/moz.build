@@ -520,6 +520,11 @@ nsWindowRoot
 .
 cpp
 '
+'
+nsWrapperCache
+.
+cpp
+'
 ]
 EXTRA_COMPONENTS
 +
