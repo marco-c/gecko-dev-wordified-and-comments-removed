@@ -697,9 +697,6 @@ None
 busybox
 =
 None
-load_early
-=
-False
 )
 :
         
@@ -1055,13 +1052,10 @@ emulator
 setup
 (
 self
-gecko_path
-=
-gecko_path
                                 
-load_early
+gecko_path
 =
-load_early
+gecko_path
                                 
 busybox
 =
