@@ -409,10 +409,6 @@ aRefreshTime
 return
 ;
 }
-mNeedsRefreshes
-=
-false
-;
 if
 (
 mStyleRuleRefreshTime
@@ -435,6 +431,10 @@ aRefreshTime
 mStyleRule
 =
 nsnull
+;
+mNeedsRefreshes
+=
+false
 ;
 nsCSSPropertySet
 properties
