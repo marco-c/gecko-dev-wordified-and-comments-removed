@@ -31,6 +31,12 @@ FROM_PARSER_FRAGMENT
 <
 <
 2
+FROM_PARSER_XSLT
+=
+1
+<
+<
+3
 }
 ;
 }
