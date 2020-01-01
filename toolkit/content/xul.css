@@ -97,6 +97,16 @@ moz
 box
 ;
 }
+:
+root
+{
+text
+-
+rendering
+:
+optimizeLegibility
+;
+}
 *
 [
 hidden
