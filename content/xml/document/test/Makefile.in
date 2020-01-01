@@ -447,6 +447,10 @@ test_bug355213
 .
 xhtml
 \
+test_bug392338
+.
+html
+\
 test_bug399502
 .
 xhtml
