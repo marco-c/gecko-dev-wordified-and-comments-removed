@@ -206,6 +206,8 @@ is
 popup
 .
 itemCount
+14
++
 props
 .
 length
