@@ -2447,9 +2447,8 @@ mobile
 "
 )
 fetchNum
-/
 =
-10
+50
 ;
 this
 .
