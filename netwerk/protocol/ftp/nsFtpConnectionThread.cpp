@@ -9649,11 +9649,9 @@ false
 bool
 isPrivate
 =
-mChannel
--
->
-UsePrivateBrowsing
+NS_UsePrivateBrowsing
 (
+mChannel
 )
 ;
 const

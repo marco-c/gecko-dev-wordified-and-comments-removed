@@ -179,6 +179,12 @@ nsCString
 aProtocol
 bool
 aSecure
+bool
+haveLoadContext
+bool
+isContent
+bool
+usingPrivateBrowsing
 )
 ;
 Close

@@ -113,10 +113,6 @@ HttpBaseChannel
 (
 )
 :
-PrivateBrowsingConsumer
-(
-this
-)
 mStartPos
 (
 LL_MAXUINT
@@ -205,6 +201,10 @@ false
 mAllowSpdy
 (
 true
+)
+mPrivateBrowsing
+(
+false
 )
 mSuspendCount
 (
@@ -630,7 +630,7 @@ return
 rv
 ;
 }
-NS_IMPL_ISUPPORTS_INHERITED10
+NS_IMPL_ISUPPORTS_INHERITED9
 (
 HttpBaseChannel
 nsHashPropertyBag
@@ -643,7 +643,6 @@ nsIUploadChannel
 nsIUploadChannel2
 nsISupportsPriority
 nsITraceableChannel
-nsIPrivateBrowsingConsumer
 )
 NS_IMETHODIMP
 HttpBaseChannel
@@ -1000,6 +999,13 @@ aCallbacks
 mProgressSink
 =
 nsnull
+;
+mPrivateBrowsing
+=
+NS_UsePrivateBrowsing
+(
+this
+)
 ;
 return
 NS_OK
