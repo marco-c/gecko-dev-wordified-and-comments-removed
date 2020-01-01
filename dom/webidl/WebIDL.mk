@@ -151,10 +151,6 @@ DynamicsCompressorNode
 .
 webidl
 \
-Function
-.
-webidl
-\
 EventHandler
 .
 webidl
