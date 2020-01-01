@@ -6384,6 +6384,14 @@ kConstructorFuncMap
 {
 NS_DEFINE_CONSTRUCTOR_FUNC_DATA
 (
+Blob
+nsDOMMultipartFile
+:
+:
+NewBlob
+)
+NS_DEFINE_CONSTRUCTOR_FUNC_DATA
+(
 File
 nsDOMFileFile
 :
