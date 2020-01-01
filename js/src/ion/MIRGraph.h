@@ -1547,8 +1547,10 @@ MPhi
 >
 phis_
 ;
+FixedList
+<
 StackSlot
-*
+>
 slots_
 ;
 uint32
