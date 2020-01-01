@@ -53,6 +53,16 @@ public
 :
 FrameChildListIDs
 (
+)
+:
+mIDs
+(
+0
+)
+{
+}
+FrameChildListIDs
+(
 const
 FrameChildListIDs
 &
