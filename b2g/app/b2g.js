@@ -2925,7 +2925,7 @@ urlclassifier
 .
 randomizeclient
 "
-false
+true
 )
 ;
 pref
@@ -4487,6 +4487,6 @@ jsloader
 .
 reuseGlobal
 "
-false
+true
 )
 ;
