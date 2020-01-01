@@ -806,7 +806,7 @@ time
 nsWindow
 :
 :
-mLastButtonPressTime
+sLastButtonPressTime
 ;
 GdkDragContext
 *
