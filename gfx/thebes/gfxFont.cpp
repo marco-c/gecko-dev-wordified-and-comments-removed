@@ -6485,6 +6485,8 @@ invFontMatrix
 Matrix
 *
 mat
+=
+nsnull
 ;
 if
 (
@@ -6534,7 +6536,7 @@ mat
 &
 static_cast
 <
-LinearGradientPattern
+RadialGradientPattern
 *
 >
 (
@@ -6564,7 +6566,7 @@ mat
 &
 static_cast
 <
-LinearGradientPattern
+SurfacePattern
 *
 >
 (
@@ -6575,6 +6577,11 @@ pat
 mMatrix
 ;
 }
+if
+(
+mat
+)
+{
 *
 mat
 =
@@ -6588,6 +6595,7 @@ mat
 invFontMatrix
 )
 ;
+}
 }
 aDT
 -
