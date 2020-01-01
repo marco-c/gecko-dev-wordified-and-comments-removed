@@ -89,6 +89,17 @@ defined
 __OpenBSD__
 )
 #
+if
+__GNUC__
+>
+=
+3
+#
+define
+THUNK_BASED_THIS_ADJUST
+#
+else
+#
 include
 <
 sys
@@ -111,6 +122,8 @@ else
 #
 define
 CFRONT_STYLE_THIS_ADJUST
+#
+endif
 #
 endif
 #
