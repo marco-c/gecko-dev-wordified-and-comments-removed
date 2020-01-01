@@ -175,9 +175,14 @@ value
 def
 ;
 }
-static
+namespace
+mozilla
+{
+namespace
+widget
+{
 int32_t
-IsTouchPresent
+IsTouchDeviceSupportPresent
 (
 )
 {
@@ -214,6 +219,8 @@ NID_INTEGRATED_TOUCH
 )
 ;
 }
+}
+}
 nsLookAndFeel
 :
 :
@@ -240,7 +247,7 @@ Telemetry
 :
 :
 TOUCH_ENABLED_DEVICE
-IsTouchPresent
+IsTouchDeviceSupportPresent
 (
 )
 )
@@ -1316,7 +1323,7 @@ eIntID_TouchEnabled
 :
 aResult
 =
-IsTouchPresent
+IsTouchDeviceSupportPresent
 (
 )
 ;

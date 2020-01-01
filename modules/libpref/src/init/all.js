@@ -34495,7 +34495,7 @@ w3c_touch_events
 .
 enabled
 "
-true
+2
 )
 ;
 #
