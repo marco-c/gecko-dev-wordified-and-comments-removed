@@ -19,7 +19,7 @@ vector
 #
 include
 <
-iostream
+ostream
 >
 namespace
 mozilla
