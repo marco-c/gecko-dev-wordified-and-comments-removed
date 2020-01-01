@@ -311,7 +311,7 @@ PRUint32
 mCompositionStart
 ;
 nsString
-mCompositionString
+mDispatchedCompositionString
 ;
 GdkEventKey
 *
@@ -613,6 +613,10 @@ DispatchCompositionEnd
 PRBool
 DispatchTextEvent
 (
+const
+nsAString
+&
+aCompositionString
 PRBool
 aCheckAttr
 )
