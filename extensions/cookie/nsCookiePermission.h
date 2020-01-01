@@ -35,13 +35,6 @@ h
 #
 include
 "
-nsInt64
-.
-h
-"
-#
-include
-"
 prlong
 .
 h
@@ -119,7 +112,7 @@ nsIPermissionManager
 >
 mPermMgr
 ;
-nsInt64
+PRInt64
 mCookiesLifetimeSec
 ;
 PRUint8
