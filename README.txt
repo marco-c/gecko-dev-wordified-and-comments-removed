@@ -81,7 +81,7 @@ it
 to
 Bugzilla
 (
-http
+https
 :
 /
 /
