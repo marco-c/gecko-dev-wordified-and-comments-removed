@@ -1972,7 +1972,7 @@ rv
 bmSvc
 -
 >
-GetBookmarksRoot
+GetBookmarksMenuFolder
 (
 &
 root

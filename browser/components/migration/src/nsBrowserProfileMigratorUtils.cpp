@@ -1210,7 +1210,7 @@ rv
 bms
 -
 >
-GetBookmarksRoot
+GetBookmarksMenuFolder
 (
 &
 root

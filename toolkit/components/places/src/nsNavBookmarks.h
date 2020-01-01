@@ -253,11 +253,6 @@ InitDefaults
 )
 ;
 nsresult
-InitToolbarFolder
-(
-)
-;
-nsresult
 CreateRoot
 (
 mozIStorageStatement

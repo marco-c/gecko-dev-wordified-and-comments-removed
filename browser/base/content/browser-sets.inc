@@ -1018,7 +1018,7 @@ bookmarkCurrentPage
 true
 PlacesUtils
 .
-bookmarksRootId
+bookmarksMenuFolderId
 )
 ;
 "

@@ -697,7 +697,7 @@ aParent
 :
 PlacesUtils
 .
-unfiledRootId
+unfiledBookmarksFolderId
 ;
 var
 descAnno
