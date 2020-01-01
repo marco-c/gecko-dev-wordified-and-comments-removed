@@ -482,6 +482,13 @@ defined
 (
 __Userspace_os_Windows
 )
+&
+&
+!
+defined
+(
+__Userspace_os_Android
+)
 local_addr_
 .
 sconn_len
@@ -539,6 +546,13 @@ __Userspace_os_Linux
 defined
 (
 __Userspace_os_Windows
+)
+&
+&
+!
+defined
+(
+__Userspace_os_Android
 )
 remote_addr_
 .
