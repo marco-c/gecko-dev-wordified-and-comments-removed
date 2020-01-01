@@ -42,10 +42,6 @@ h
 class
 nsIPrefBranch
 ;
-#
-define
-NUMBER_OF_TYPES
-13
 class
 nsContentBlocker
 :
@@ -119,10 +115,10 @@ nsIPrefBranch2
 >
 mPrefBranchInternal
 ;
+static
 PRUint8
 mBehaviorPref
 [
-NUMBER_OF_TYPES
 ]
 ;
 }
