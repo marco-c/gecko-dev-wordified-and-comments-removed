@@ -1712,6 +1712,11 @@ if
 (
 unlikely
 (
+rows
+>
+0
+&
+&
 cols
 >
 =
