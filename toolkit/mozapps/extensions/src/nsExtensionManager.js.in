@@ -29019,8 +29019,8 @@ id
 installData
 .
 version
-undefined
-undefined
+null
+null
 )
 )
 installData
@@ -43275,8 +43275,8 @@ id
 aRemoteItem
 .
 version
-undefined
-undefined
+null
+null
 )
 )
 return
@@ -59670,8 +59670,8 @@ isAddonBlocklisted
 (
 id
 version
-undefined
-undefined
+null
+null
 )
 )
 return
