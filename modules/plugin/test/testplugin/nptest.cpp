@@ -7641,11 +7641,17 @@ NPN_InvokeDefault
 (
 npp
 selfObject
+argCount
+>
+1
+?
 &
 args
 [
 1
 ]
+:
+NULL
 argCount
 -
 1
