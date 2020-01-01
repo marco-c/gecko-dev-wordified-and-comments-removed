@@ -2251,6 +2251,11 @@ aBindingParent
 ;
 if
 (
+IsRootOfNativeAnonymousSubtree
+(
+)
+|
+|
 aParent
 -
 >
