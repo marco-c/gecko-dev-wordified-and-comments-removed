@@ -5750,7 +5750,7 @@ types
 '
 (
 numbers
-bool
+booleans
 and
 raw
 char
