@@ -3875,7 +3875,9 @@ newTitle
 =
 modifier
 ;
-window
+this
+.
+ownerDocument
 .
 title
 =
