@@ -173,6 +173,10 @@ gfxImageSurface
 endif
 return
 surface
+.
+forget
+(
+)
 ;
 }
 already_AddRefed
