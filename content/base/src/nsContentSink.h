@@ -674,6 +674,15 @@ PRBool
 aIgnorePendingSheets
 )
 ;
+static
+void
+NotifyDocElementCreated
+(
+nsIDocument
+*
+aDoc
+)
+;
 protected
 :
 void
