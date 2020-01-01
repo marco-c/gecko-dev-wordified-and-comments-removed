@@ -8,6 +8,13 @@ PluginPRLibrary
 h
 "
 #
+include
+"
+nsPluginSafety
+.
+h
+"
+#
 if
 defined
 (
@@ -144,6 +151,15 @@ env
 )
 return
 NS_ERROR_FAILURE
+;
+mozilla
+:
+:
+AutoLocalJNIFrame
+jniFrame
+(
+env
+)
 ;
 if
 (
@@ -792,6 +808,8 @@ mNPP_New
 return
 NS_ERROR_FAILURE
 ;
+MAIN_THREAD_JNI_REF_GUARD
+;
 *
 error
 =
@@ -836,6 +854,8 @@ return
 NS_ERROR_NOT_AVAILABLE
 ;
 }
+MAIN_THREAD_JNI_REF_GUARD
+;
 NPError
 result
 =
@@ -905,6 +925,8 @@ result
 Clear
 (
 )
+;
+MAIN_THREAD_JNI_REF_GUARD
 ;
 char
 *
