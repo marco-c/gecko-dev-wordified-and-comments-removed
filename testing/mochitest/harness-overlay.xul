@@ -826,6 +826,11 @@ frameholder
 >
 <
 iframe
+type
+=
+"
+content
+"
 scrolling
 =
 "
@@ -839,7 +844,12 @@ testframe
 width
 =
 "
-500
+550
+"
+height
+=
+"
+350
 "
 >
 <
