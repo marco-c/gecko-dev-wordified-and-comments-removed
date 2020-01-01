@@ -4869,6 +4869,14 @@ PL_DHASH_ADD
 )
 )
 ;
+if
+(
+!
+e
+)
+return
+nsnull
+;
 PtrInfo
 *
 result
