@@ -963,7 +963,8 @@ triggerOperationCallback
 {
 ionStackLimit
 =
-0
+-
+1
 ;
 JS_ATOMIC_SET
 (
