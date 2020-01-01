@@ -918,12 +918,12 @@ footer_
 if
 (
 lr
-!
 =
-LoopReturn_Success
+=
+LoopReturn_Error
 )
 return
-lr
+LoopReturn_Error
 ;
 graph
 .
@@ -932,7 +932,7 @@ unmarkBlocks
 )
 ;
 return
-LoopReturn_Success
+lr
 ;
 }
 Loop
