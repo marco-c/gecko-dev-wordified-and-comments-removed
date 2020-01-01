@@ -514,9 +514,6 @@ PRInt64
 mDuration
 ;
 PRPackedBool
-mNotifyOnShutdown
-;
-PRPackedBool
 mSeekable
 ;
 nsCOMPtr

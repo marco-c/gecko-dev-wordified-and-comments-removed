@@ -63,6 +63,15 @@ nsWaveDecoder
 )
 ;
 virtual
+PRBool
+Init
+(
+nsHTMLMediaElement
+*
+aElement
+)
+;
+virtual
 void
 GetCurrentURI
 (
@@ -328,9 +337,6 @@ mEndedDuration
 ;
 PRPackedBool
 mEnded
-;
-PRPackedBool
-mNotifyOnShutdown
 ;
 PRPackedBool
 mSeekable
