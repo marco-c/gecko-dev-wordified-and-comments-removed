@@ -531,8 +531,6 @@ xpt_dump
 xpt_link
 *
 \
-res
-\
 bloaturls
 .
 txt
