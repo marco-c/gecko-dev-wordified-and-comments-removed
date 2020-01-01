@@ -393,7 +393,7 @@ namespace
 layers
 {
 class
-LayerManagerOGL
+GLManager
 ;
 }
 }
@@ -2074,7 +2074,7 @@ mozilla
 layers
 :
 :
-LayerManagerOGL
+GLManager
 *
 aManager
 nsIntRect
@@ -2090,7 +2090,7 @@ mozilla
 layers
 :
 :
-LayerManagerOGL
+GLManager
 *
 aManager
 nsIntRect
