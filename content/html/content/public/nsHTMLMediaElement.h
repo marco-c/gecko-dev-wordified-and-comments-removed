@@ -120,7 +120,11 @@ h
 #
 include
 "
-nsTimeRanges
+mozilla
+/
+dom
+/
+TimeRanges
 .
 h
 "
@@ -1541,7 +1545,13 @@ AudioStream
 >
 mAudioStream
 ;
-nsTimeRanges
+mozilla
+:
+:
+dom
+:
+:
+TimeRanges
 mPlayed
 ;
 double

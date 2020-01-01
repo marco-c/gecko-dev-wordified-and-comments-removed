@@ -126,9 +126,6 @@ class
 nsIStreamListener
 ;
 class
-nsTimeRanges
-;
-class
 nsIMemoryReporter
 ;
 class
@@ -137,6 +134,17 @@ nsIPrincipal
 class
 nsITimer
 ;
+namespace
+mozilla
+{
+namespace
+dom
+{
+class
+TimeRanges
+;
+}
+}
 using
 namespace
 mozilla
@@ -765,7 +773,7 @@ virtual
 nsresult
 GetSeekable
 (
-nsTimeRanges
+TimeRanges
 *
 aSeekable
 )
@@ -881,7 +889,7 @@ virtual
 nsresult
 GetBuffered
 (
-nsTimeRanges
+TimeRanges
 *
 aBuffered
 )

@@ -50,7 +50,11 @@ h
 #
 include
 "
-nsTimeRanges
+mozilla
+/
+dom
+/
+TimeRanges
 .
 h
 "
@@ -4955,7 +4959,10 @@ WebMReader
 :
 GetBuffered
 (
-nsTimeRanges
+dom
+:
+:
+TimeRanges
 *
 aBuffered
 int64_t

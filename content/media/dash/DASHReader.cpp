@@ -1,7 +1,11 @@
 #
 include
 "
-nsTimeRanges
+mozilla
+/
+dom
+/
+TimeRanges
 .
 h
 "
@@ -1528,7 +1532,7 @@ DASHReader
 :
 GetBuffered
 (
-nsTimeRanges
+TimeRanges
 *
 aBuffered
 int64_t
@@ -1552,7 +1556,7 @@ decoder
 =
 nullptr
 ;
-nsTimeRanges
+TimeRanges
 audioBuffered
 videoBuffered
 ;

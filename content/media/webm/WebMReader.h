@@ -512,7 +512,7 @@ virtual
 nsresult
 GetBuffered
 (
-nsTimeRanges
+TimeRanges
 *
 aBuffered
 int64_t

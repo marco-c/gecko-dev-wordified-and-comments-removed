@@ -320,7 +320,13 @@ MOZ_OVERRIDE
 nsresult
 GetBuffered
 (
-nsTimeRanges
+mozilla
+:
+:
+dom
+:
+:
+TimeRanges
 *
 aBuffered
 int64_t

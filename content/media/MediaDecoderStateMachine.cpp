@@ -84,7 +84,11 @@ h
 #
 include
 "
-nsTimeRanges
+mozilla
+/
+dom
+/
+TimeRanges
 .
 h
 "
@@ -7525,7 +7529,7 @@ aLength
 aOffset
 )
 ;
-nsTimeRanges
+TimeRanges
 buffered
 ;
 if
@@ -8946,7 +8950,7 @@ work
 "
 )
 ;
-nsTimeRanges
+TimeRanges
 buffered
 ;
 nsresult
@@ -13085,7 +13089,7 @@ MediaDecoderStateMachine
 :
 GetBuffered
 (
-nsTimeRanges
+TimeRanges
 *
 aBuffered
 )

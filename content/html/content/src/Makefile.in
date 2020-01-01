@@ -113,10 +113,6 @@ nsHTMLDNSPrefetch
 .
 h
 \
-nsTimeRanges
-.
-h
-\
 (
 NULL
 )
@@ -315,6 +311,10 @@ HTMLTitleElement
 h
 \
 HTMLUnknownElement
+.
+h
+\
+TimeRanges
 .
 h
 \
@@ -642,7 +642,7 @@ HTMLSourceElement
 .
 cpp
 \
-nsTimeRanges
+TimeRanges
 .
 cpp
 \
