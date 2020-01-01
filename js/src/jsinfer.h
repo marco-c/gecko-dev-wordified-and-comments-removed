@@ -329,6 +329,7 @@ OBJECT_NONE
 OBJECT_UNKNOWN
 OBJECT_PACKED_ARRAY
 OBJECT_DENSE_ARRAY
+OBJECT_INLINEABLE_FUNCTION
 OBJECT_SCRIPTED_FUNCTION
 OBJECT_NATIVE_FUNCTION
 OBJECT_NO_SPECIAL_EQUALITY
@@ -953,6 +954,9 @@ bool
 isPackedArray
 ;
 bool
+isUninlineable
+;
+bool
 hasSpecialEquality
 ;
 JSObject
@@ -1096,6 +1100,14 @@ notDense
 ;
 void
 markUnknown
+(
+JSContext
+*
+cx
+)
+;
+void
+markUninlineable
 (
 JSContext
 *

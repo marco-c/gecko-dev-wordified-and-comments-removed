@@ -1841,6 +1841,15 @@ base
 (
 )
 ;
+fg
+-
+>
+regs_
+.
+inlined
+=
+NULL
+;
 pushSegmentAndFrame
 (
 cx
@@ -1950,6 +1959,15 @@ fp
 slots
 (
 )
+;
+fg
+-
+>
+regs_
+.
+inlined
+=
+NULL
 ;
 pushSegmentAndFrame
 (
@@ -5813,6 +5831,7 @@ fp
 js_GetTopStackFrame
 (
 cx
+FRAME_EXPAND_TOP
 )
 ;
 fp
@@ -8367,6 +8386,7 @@ fp
 js_GetTopStackFrame
 (
 cx
+FRAME_EXPAND_NONE
 )
 ;
 while

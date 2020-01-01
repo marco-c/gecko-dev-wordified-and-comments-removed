@@ -170,10 +170,6 @@ frameSize
 RegisterID
 funObjReg
 ;
-jsbytecode
-*
-pc
-;
 uint32
 flags
 ;
@@ -200,12 +196,6 @@ flags
 masm
 (
 masm
-)
-pc
-(
-ic
-.
-pc
 )
 flags
 (
@@ -266,12 +256,6 @@ flags
 masm
 (
 masm
-)
-pc
-(
-gen
-.
-pc
 )
 flags
 (

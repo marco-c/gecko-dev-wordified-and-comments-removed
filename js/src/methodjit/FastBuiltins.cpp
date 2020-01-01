@@ -1540,6 +1540,16 @@ JS_ASSERT
 callingNew
 )
 ;
+if
+(
+applyTricks
+=
+=
+LazyArgsObj
+)
+return
+Compile_InlineAbort
+;
 FrameEntry
 *
 origCallee
@@ -1593,7 +1603,7 @@ JSVAL_TYPE_OBJECT
 )
 )
 return
-Compile_Abort
+Compile_InlineAbort
 ;
 JSObject
 *
@@ -1622,7 +1632,7 @@ isFunction
 )
 )
 return
-Compile_Abort
+Compile_InlineAbort
 ;
 JSFunction
 *
@@ -1644,6 +1654,14 @@ fun
 maybeNative
 (
 )
+;
+if
+(
+!
+native
+)
+return
+Compile_InlineAbort
 ;
 JSValueType
 type
@@ -1715,7 +1733,7 @@ isTypeKnown
 )
 )
 return
-Compile_Abort
+Compile_InlineAbort
 ;
 }
 if
@@ -2098,6 +2116,6 @@ arg2
 }
 }
 return
-Compile_Abort
+Compile_InlineAbort
 ;
 }

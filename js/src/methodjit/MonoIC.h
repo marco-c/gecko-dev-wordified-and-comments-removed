@@ -599,9 +599,9 @@ JSObject
 *
 fastGuardedNative
 ;
-jsbytecode
+CallSite
 *
-pc
+call
 ;
 FrameSize
 frameSize
