@@ -423,7 +423,6 @@ public
 idl
 src
 qcms
-ycbcr
 layers
 ifdef
 MOZ_IPC

@@ -866,11 +866,6 @@ gfx
 Makefile
 gfx
 /
-ycbcr
-/
-Makefile
-gfx
-/
 idl
 /
 Makefile
