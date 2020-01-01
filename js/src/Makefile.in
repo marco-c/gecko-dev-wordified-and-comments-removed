@@ -1875,6 +1875,10 @@ LICM
 .
 cpp
 \
+ValueNumbering
+.
+cpp
+\
 (
 NULL
 )
