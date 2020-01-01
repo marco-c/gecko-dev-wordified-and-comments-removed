@@ -594,7 +594,7 @@ page
 "
 )
 ;
-ok
+is
 (
 TestWindow
 .
@@ -613,8 +613,6 @@ toString
 toLowerCase
 (
 )
-=
-=
 "
 a
 generic
@@ -770,7 +768,7 @@ this
 "
 )
 ;
-ok
+is
 (
 TestWindow
 .
@@ -789,8 +787,6 @@ toString
 toLowerCase
 (
 )
-=
-=
 "
 find
 this
