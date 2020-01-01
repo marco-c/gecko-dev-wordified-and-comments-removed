@@ -402,7 +402,7 @@ mDuration
 )
 mSeekable
 (
-PR_TRUE
+true
 )
 mReentrantMonitor
 (
@@ -422,15 +422,15 @@ PLAY_STATE_PAUSED
 )
 mResourceLoaded
 (
-PR_FALSE
+false
 )
 mIgnoreProgressData
 (
-PR_FALSE
+false
 )
 mInfiniteStream
 (
-PR_FALSE
+false
 )
 {
 MOZ_COUNT_CTOR
@@ -513,7 +513,7 @@ aElement
 )
 )
 return
-PR_FALSE
+false
 ;
 nsContentUtils
 :
@@ -533,7 +533,7 @@ GetImageContainer
 )
 ;
 return
-PR_TRUE
+true
 ;
 }
 void
@@ -567,7 +567,7 @@ return
 ;
 mShuttingDown
 =
-PR_TRUE
+true
 ;
 if
 (
@@ -1113,7 +1113,7 @@ i
 1
 ;
 return
-PR_FALSE
+false
 ;
 }
 aRanges
@@ -1138,7 +1138,7 @@ aIntervalIndex
 i
 ;
 return
-PR_TRUE
+true
 ;
 }
 }
@@ -1149,7 +1149,7 @@ length
 1
 ;
 return
-PR_FALSE
+false
 ;
 }
 nsresult
@@ -1728,7 +1728,7 @@ mDuration
 {
 SetInfinite
 (
-PR_TRUE
+true
 )
 ;
 }
@@ -1923,12 +1923,12 @@ return
 ;
 Progress
 (
-PR_FALSE
+false
 )
 ;
 mResourceLoaded
 =
-PR_TRUE
+true
 ;
 StopProgress
 (
@@ -2141,7 +2141,7 @@ IsInfinite
 {
 SetInfinite
 (
-PR_FALSE
+false
 )
 ;
 }
@@ -2324,7 +2324,7 @@ result
 .
 mDownloadRateReliable
 =
-PR_TRUE
+true
 ;
 result
 .
@@ -2336,7 +2336,7 @@ result
 .
 mPlaybackRateReliable
 =
-PR_TRUE
+true
 ;
 result
 .
@@ -2441,7 +2441,7 @@ length
 *
 aReliable
 =
-PR_TRUE
+true
 ;
 return
 length
@@ -2642,7 +2642,7 @@ UpdateReadyStateForData
 ;
 Progress
 (
-PR_FALSE
+false
 )
 ;
 }
@@ -3066,7 +3066,7 @@ PLAY_STATE_SEEKING
 ;
 seekWasAborted
 =
-PR_TRUE
+true
 ;
 }
 else
@@ -3170,7 +3170,7 @@ PLAY_STATE_SEEKING
 ;
 seekWasAborted
 =
-PR_TRUE
+true
 ;
 }
 else
@@ -3181,7 +3181,7 @@ UnpinForSeek
 ;
 fireEnded
 =
-PR_TRUE
+true
 ;
 ChangeState
 (
@@ -3903,7 +3903,7 @@ mStream
 >
 Suspend
 (
-PR_TRUE
+true
 )
 ;
 }
@@ -4007,7 +4007,7 @@ AssertCurrentThreadIn
 ;
 mIgnoreProgressData
 =
-PR_TRUE
+true
 ;
 if
 (
@@ -4068,7 +4068,7 @@ AssertCurrentThreadIn
 ;
 mIgnoreProgressData
 =
-PR_FALSE
+false
 ;
 if
 (

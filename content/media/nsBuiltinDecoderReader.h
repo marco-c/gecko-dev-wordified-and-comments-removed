@@ -105,11 +105,11 @@ STEREO_MODE_MONO
 )
 mHasAudio
 (
-PR_FALSE
+false
 )
 mHasVideo
 (
-PR_FALSE
+false
 )
 {
 }
@@ -576,11 +576,11 @@ aTimecode
 )
 mDuplicate
 (
-PR_TRUE
+true
 )
 mKeyframe
 (
-PR_FALSE
+false
 )
 {
 MOZ_COUNT_CTOR
@@ -644,7 +644,7 @@ aTimecode
 )
 mDuplicate
 (
-PR_FALSE
+false
 )
 mKeyframe
 (
@@ -1037,7 +1037,7 @@ x
 }
 mEndOfStream
 =
-PR_FALSE
+false
 ;
 }
 bool
@@ -1091,7 +1091,7 @@ mReentrantMonitor
 ;
 mEndOfStream
 =
-PR_TRUE
+true
 ;
 }
 PRInt64

@@ -58,7 +58,7 @@ PR_UINT32_MAX
 )
 {
 return
-PR_FALSE
+false
 ;
 }
 aResult
@@ -111,7 +111,7 @@ r64
 PR_UINT32_MAX
 )
 return
-PR_FALSE
+false
 ;
 aResult
 =
@@ -124,7 +124,7 @@ r64
 )
 ;
 return
-PR_TRUE
+true
 ;
 }
 bool
@@ -163,7 +163,7 @@ a
 b
 ;
 return
-PR_TRUE
+true
 ;
 }
 }
@@ -185,11 +185,11 @@ a
 b
 ;
 return
-PR_TRUE
+true
 ;
 }
 return
-PR_FALSE
+false
 ;
 }
 bool
@@ -301,13 +301,13 @@ a
 b
 ;
 return
-PR_TRUE
+true
 ;
 }
 else
 {
 return
-PR_FALSE
+false
 ;
 }
 }
@@ -355,13 +355,13 @@ a
 b
 ;
 return
-PR_TRUE
+true
 ;
 }
 else
 {
 return
-PR_FALSE
+false
 ;
 }
 }
@@ -475,7 +475,7 @@ b_hi
 )
 {
 return
-PR_FALSE
+false
 ;
 }
 NS_ASSERTION
@@ -519,7 +519,7 @@ PR_INT32_MAX
 )
 {
 return
-PR_FALSE
+false
 ;
 }
 q
@@ -543,7 +543,7 @@ PR_INT64_MAX
 )
 {
 return
-PR_FALSE
+false
 ;
 }
 if
@@ -564,7 +564,7 @@ aResult
 )
 {
 return
-PR_FALSE
+false
 ;
 }
 aResult
@@ -595,7 +595,7 @@ wrong
 )
 ;
 return
-PR_TRUE
+true
 ;
 }
 bool
@@ -624,7 +624,7 @@ x
 )
 )
 return
-PR_FALSE
+false
 ;
 aOutUsecs
 =
@@ -633,7 +633,7 @@ x
 aRate
 ;
 return
-PR_TRUE
+true
 ;
 }
 bool
@@ -662,7 +662,7 @@ x
 )
 )
 return
-PR_FALSE
+false
 ;
 aOutFrames
 =
@@ -671,7 +671,7 @@ x
 USECS_PER_S
 ;
 return
-PR_TRUE
+true
 ;
 }
 static

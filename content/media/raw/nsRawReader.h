@@ -81,7 +81,7 @@ HasAudio
 )
 {
 return
-PR_FALSE
+false
 ;
 }
 virtual
@@ -91,7 +91,7 @@ HasVideo
 )
 {
 return
-PR_TRUE
+true
 ;
 }
 virtual

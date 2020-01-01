@@ -641,7 +641,7 @@ page
 {
 readAllBOS
 =
-PR_TRUE
+true
 ;
 }
 else
@@ -1011,7 +1011,7 @@ mInfo
 .
 mHasVideo
 =
-PR_TRUE
+true
 ;
 mInfo
 .
@@ -1085,7 +1085,7 @@ mInfo
 .
 mHasAudio
 =
-PR_TRUE
+true
 ;
 mInfo
 .
@@ -1881,7 +1881,7 @@ Finish
 )
 ;
 return
-PR_FALSE
+false
 ;
 }
 NS_ASSERTION
@@ -1933,11 +1933,11 @@ Finish
 )
 ;
 return
-PR_FALSE
+false
 ;
 }
 return
-PR_TRUE
+true
 ;
 }
 nsresult
@@ -2409,7 +2409,7 @@ Finish
 )
 ;
 return
-PR_FALSE
+false
 ;
 }
 nsAutoReleasePacket
@@ -2490,7 +2490,7 @@ aTimeThreshold
 {
 aKeyframeSkip
 =
-PR_FALSE
+false
 ;
 nsresult
 res
@@ -2514,7 +2514,7 @@ res
 )
 {
 return
-PR_FALSE
+false
 ;
 }
 }
@@ -2530,11 +2530,11 @@ Finish
 )
 ;
 return
-PR_FALSE
+false
 ;
 }
 return
-PR_TRUE
+true
 ;
 }
 PRInt64
@@ -3151,7 +3151,7 @@ RangeEndTime
 (
 0
 aEndOffset
-PR_FALSE
+false
 )
 ;
 nsresult
@@ -3247,7 +3247,7 @@ false
 ;
 while
 (
-PR_TRUE
+true
 )
 {
 ogg_page
@@ -3311,7 +3311,7 @@ break
 }
 mustBackOff
 =
-PR_FALSE
+false
 ;
 prevChecksumAfterSeek
 =
@@ -3616,7 +3616,7 @@ prevChecksumAfterSeek
 {
 mustBackOff
 =
-PR_TRUE
+true
 ;
 continue
 ;
@@ -4433,7 +4433,7 @@ PageSync
 stream
 &
 mOggState
-PR_FALSE
+false
 mPageOffset
 stream
 -
@@ -4853,7 +4853,7 @@ aRanges
 keyframeTime
 aStartTime
 aEndTime
-PR_FALSE
+false
 )
 ;
 res
@@ -4959,7 +4959,7 @@ aRanges
 seekTarget
 aStartTime
 aEndTime
-PR_FALSE
+false
 )
 ;
 return
@@ -5184,7 +5184,7 @@ ranges
 aTarget
 aStartTime
 aEndTime
-PR_TRUE
+true
 )
 ;
 if
@@ -5765,7 +5765,7 @@ overflow
 ;
 while
 (
-PR_TRUE
+true
 )
 {
 ogg_int64_t
@@ -5819,7 +5819,7 @@ false
 ;
 while
 (
-PR_TRUE
+true
 )
 {
 if
@@ -6005,7 +6005,7 @@ maxBackStep
 ;
 mustBackoff
 =
-PR_FALSE
+false
 ;
 }
 else
@@ -6155,7 +6155,7 @@ PageSync
 stream
 &
 mOggState
-PR_FALSE
+false
 guess
 endOffset
 &
@@ -6204,7 +6204,7 @@ PAGE_SYNC_END_OF_RANGE
 {
 mustBackoff
 =
-PR_TRUE
+true
 ;
 SEEK_LOG
 (
@@ -6511,7 +6511,7 @@ break
 }
 mustBackoff
 =
-PR_TRUE
+true
 ;
 continue
 ;
@@ -6995,7 +6995,7 @@ stream
 sync
 .
 mState
-PR_TRUE
+true
 startOffset
 endOffset
 &
@@ -7191,7 +7191,7 @@ RangeEndTime
 (
 startOffset
 endOffset
-PR_TRUE
+true
 )
 ;
 if
@@ -7290,11 +7290,11 @@ aSerial
 )
 {
 return
-PR_TRUE
+true
 ;
 }
 }
 return
-PR_FALSE
+false
 ;
 }

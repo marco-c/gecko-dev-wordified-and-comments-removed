@@ -567,13 +567,13 @@ mInfo
 .
 mHasAudio
 =
-PR_TRUE
+true
 ;
 mInfo
 .
 mHasVideo
 =
-PR_FALSE
+false
 ;
 mInfo
 .
@@ -819,7 +819,7 @@ Finish
 )
 ;
 return
-PR_FALSE
+false
 ;
 }
 const
@@ -1127,7 +1127,7 @@ mChannels
 )
 ;
 return
-PR_TRUE
+true
 ;
 }
 bool
@@ -1162,7 +1162,7 @@ thread
 )
 ;
 return
-PR_FALSE
+false
 ;
 }
 nsresult
@@ -1565,7 +1565,7 @@ failed
 )
 ;
 return
-PR_FALSE
+false
 ;
 }
 if
@@ -1577,7 +1577,7 @@ read
 )
 {
 return
-PR_FALSE
+false
 ;
 }
 mDecoder
@@ -1614,7 +1614,7 @@ aSize
 )
 ;
 return
-PR_TRUE
+true
 ;
 }
 bool
@@ -1679,7 +1679,7 @@ riffHeader
 )
 {
 return
-PR_FALSE
+false
 ;
 }
 PR_STATIC_ASSERT
@@ -1720,7 +1720,7 @@ format
 )
 ;
 return
-PR_FALSE
+false
 ;
 }
 p
@@ -1750,11 +1750,11 @@ chunk
 )
 ;
 return
-PR_FALSE
+false
 ;
 }
 return
-PR_TRUE
+true
 ;
 }
 bool
@@ -1826,7 +1826,7 @@ chunkHeader
 )
 {
 return
-PR_FALSE
+false
 ;
 }
 PR_STATIC_ASSERT
@@ -1874,7 +1874,7 @@ aChunkSize
 chunkSize
 ;
 return
-PR_TRUE
+true
 ;
 }
 chunkSize
@@ -1951,7 +1951,7 @@ size
 )
 {
 return
-PR_FALSE
+false
 ;
 }
 chunkSize
@@ -2029,7 +2029,7 @@ fmtSize
 )
 {
 return
-PR_FALSE
+false
 ;
 }
 if
@@ -2046,7 +2046,7 @@ waveFormat
 )
 {
 return
-PR_FALSE
+false
 ;
 }
 PR_STATIC_ASSERT
@@ -2114,7 +2114,7 @@ supported
 )
 ;
 return
-PR_FALSE
+false
 ;
 }
 channels
@@ -2188,7 +2188,7 @@ extLength
 )
 {
 return
-PR_FALSE
+false
 ;
 }
 PR_STATIC_ASSERT
@@ -2240,7 +2240,7 @@ size
 )
 ;
 return
-PR_FALSE
+false
 ;
 }
 extra
@@ -2303,7 +2303,7 @@ extra
 )
 {
 return
-PR_FALSE
+false
 ;
 }
 }
@@ -2400,7 +2400,7 @@ metadata
 )
 ;
 return
-PR_FALSE
+false
 ;
 }
 ReentrantMonitorAutoEnter
@@ -2453,7 +2453,7 @@ FORMAT_S16_LE
 ;
 }
 return
-PR_TRUE
+true
 ;
 }
 bool
@@ -2506,7 +2506,7 @@ length
 )
 {
 return
-PR_FALSE
+false
 ;
 }
 PRInt64
@@ -2550,7 +2550,7 @@ range
 )
 ;
 return
-PR_FALSE
+false
 ;
 }
 ReentrantMonitorAutoEnter
@@ -2576,7 +2576,7 @@ offset
 )
 ;
 return
-PR_TRUE
+true
 ;
 }
 double

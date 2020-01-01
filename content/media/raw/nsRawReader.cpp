@@ -348,13 +348,13 @@ mInfo
 .
 mHasVideo
 =
-PR_TRUE
+true
 ;
 mInfo
 .
 mHasAudio
 =
-PR_FALSE
+false
 ;
 mInfo
 .
@@ -576,7 +576,7 @@ thread
 )
 ;
 return
-PR_FALSE
+false
 ;
 }
 bool
@@ -633,7 +633,7 @@ bytesRead
 NS_ENSURE_SUCCESS
 (
 rv
-PR_FALSE
+false
 )
 ;
 if
@@ -645,7 +645,7 @@ bytesRead
 )
 {
 return
-PR_FALSE
+false
 ;
 }
 aLength
@@ -660,7 +660,7 @@ bytesRead
 ;
 }
 return
-PR_TRUE
+true
 ;
 }
 bool
@@ -719,7 +719,7 @@ if
 mFrameSize
 )
 return
-PR_FALSE
+false
 ;
 PRInt64
 currentFrameTime
@@ -828,7 +828,7 @@ RAW_ID
 )
 {
 return
-PR_FALSE
+false
 ;
 }
 if
@@ -843,7 +843,7 @@ length
 )
 {
 return
-PR_FALSE
+false
 ;
 }
 parsed
@@ -1127,7 +1127,7 @@ if
 v
 )
 return
-PR_FALSE
+false
 ;
 mVideoQueue
 .
@@ -1152,7 +1152,7 @@ USECS_PER_S
 mFrameRate
 ;
 return
-PR_TRUE
+true
 ;
 }
 nsresult

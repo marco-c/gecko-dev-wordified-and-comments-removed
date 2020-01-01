@@ -350,7 +350,7 @@ return
 (
 mDoneReadingHeaders
 =
-PR_TRUE
+true
 )
 ;
 }
@@ -402,11 +402,11 @@ Deactivate
 {
 mActive
 =
-PR_FALSE
+false
 ;
 mDoneReadingHeaders
 =
-PR_TRUE
+true
 ;
 Reset
 (
