@@ -3913,7 +3913,6 @@ ISurfaceAllocator
 *
 aAllocator
 )
-MOZ_OVERRIDE
 {
 MOZ_ASSERT
 (
