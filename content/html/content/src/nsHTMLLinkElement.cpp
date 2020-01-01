@@ -50,13 +50,6 @@ h
 #
 include
 "
-nsPresContext
-.
-h
-"
-#
-include
-"
 nsIDOMStyleSheet
 .
 h

@@ -28,13 +28,6 @@ h
 #
 include
 "
-nsPresContext
-.
-h
-"
-#
-include
-"
 nsIImageFrame
 .
 h
@@ -104,6 +97,9 @@ nsSize
 ;
 class
 nsDisplayImage
+;
+class
+nsPresContext
 ;
 class
 nsImageFrame

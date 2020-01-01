@@ -12,9 +12,6 @@ nsQueryFrame
 h
 "
 class
-nsPresContext
-;
-class
 nsPresState
 ;
 class

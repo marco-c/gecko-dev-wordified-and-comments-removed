@@ -15,13 +15,6 @@ h
 #
 include
 "
-nsPresContext
-.
-h
-"
-#
-include
-"
 nsGkAtoms
 .
 h

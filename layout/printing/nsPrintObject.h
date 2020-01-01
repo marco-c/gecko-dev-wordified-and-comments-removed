@@ -21,13 +21,6 @@ h
 #
 include
 "
-nsPresContext
-.
-h
-"
-#
-include
-"
 nsIPresShell
 .
 h
@@ -67,6 +60,9 @@ nsIWidget
 .
 h
 "
+class
+nsPresContext
+;
 enum
 PrintObjectType
 {

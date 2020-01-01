@@ -42,13 +42,6 @@ h
 #
 include
 "
-nsPresContext
-.
-h
-"
-#
-include
-"
 nsBoxLayoutState
 .
 h
@@ -67,6 +60,9 @@ nsPIBoxObject
 .
 h
 "
+class
+nsPresContext
+;
 class
 nsListScrollSmoother
 ;

@@ -111,13 +111,6 @@ h
 #
 include
 "
-nsPresContext
-.
-h
-"
-#
-include
-"
 nsIScriptContext
 .
 h

@@ -17,9 +17,6 @@ nsIStyleSheet
 class
 nsICSSStyleSheet
 ;
-class
-nsPresContext
-;
 struct
 nsRuleData
 ;

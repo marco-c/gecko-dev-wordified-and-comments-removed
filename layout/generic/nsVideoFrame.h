@@ -28,13 +28,6 @@ h
 #
 include
 "
-nsPresContext
-.
-h
-"
-#
-include
-"
 nsIIOService
 .
 h
@@ -74,6 +67,9 @@ ImageLayers
 .
 h
 "
+class
+nsPresContext
+;
 nsIFrame
 *
 NS_NewVideoFrame

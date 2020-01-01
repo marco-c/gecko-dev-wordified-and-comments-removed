@@ -22,9 +22,6 @@ class
 nsIStyleSheet
 ;
 class
-nsPresContext
-;
-class
 nsIContent
 ;
 struct

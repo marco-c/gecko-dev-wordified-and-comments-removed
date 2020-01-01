@@ -36,13 +36,6 @@ h
 #
 include
 "
-nsPresContext
-.
-h
-"
-#
-include
-"
 nsContentList
 .
 h

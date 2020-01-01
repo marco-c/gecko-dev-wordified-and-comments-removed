@@ -19,9 +19,6 @@ nsFont
 h
 "
 class
-nsPresContext
-;
-class
 nsAString
 ;
 class

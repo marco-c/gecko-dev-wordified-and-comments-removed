@@ -288,13 +288,6 @@ h
 #
 include
 "
-nsPresContext
-.
-h
-"
-#
-include
-"
 nsIDocShellTreeItem
 .
 h

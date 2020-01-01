@@ -22,13 +22,6 @@ h
 #
 include
 "
-nsPresContext
-.
-h
-"
-#
-include
-"
 nsIPresShell
 .
 h

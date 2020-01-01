@@ -15,9 +15,6 @@ struct
 nsHTMLReflowState
 ;
 class
-nsPresContext
-;
-class
 nsIPercentHeightObserver
 {
 public

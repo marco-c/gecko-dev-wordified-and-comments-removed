@@ -638,13 +638,6 @@ h
 #
 include
 "
-nsPresContext
-.
-h
-"
-#
-include
-"
 nsIWebNavigation
 .
 h

@@ -15,13 +15,6 @@ h
 #
 include
 "
-nsPresContext
-.
-h
-"
-#
-include
-"
 nsEvent
 .
 h
@@ -54,6 +47,9 @@ nsNodeUtils
 .
 h
 "
+class
+nsPresContext
+;
 jArray
 <
 PRUnichar

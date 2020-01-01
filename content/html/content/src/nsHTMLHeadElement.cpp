@@ -33,13 +33,6 @@ nsStyleConsts
 .
 h
 "
-#
-include
-"
-nsPresContext
-.
-h
-"
 class
 nsHTMLHeadElement
 :

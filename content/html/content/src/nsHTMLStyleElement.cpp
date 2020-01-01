@@ -43,13 +43,6 @@ h
 #
 include
 "
-nsPresContext
-.
-h
-"
-#
-include
-"
 nsIDOMStyleSheet
 .
 h
@@ -93,6 +86,13 @@ h
 include
 "
 nsParserUtils
+.
+h
+"
+#
+include
+"
+nsThreadUtils
 .
 h
 "

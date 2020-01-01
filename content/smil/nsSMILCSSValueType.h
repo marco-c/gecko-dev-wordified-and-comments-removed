@@ -26,9 +26,6 @@ nscore
 h
 "
 class
-nsPresContext
-;
-class
 nsIContent
 ;
 class

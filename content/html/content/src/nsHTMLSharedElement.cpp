@@ -71,13 +71,6 @@ h
 #
 include
 "
-nsPresContext
-.
-h
-"
-#
-include
-"
 nsRuleData
 .
 h

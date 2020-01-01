@@ -60,9 +60,6 @@ class
 nsIDOMHTMLMapElement
 ;
 class
-nsPresContext
-;
-class
 nsIRenderingContext
 ;
 class

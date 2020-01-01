@@ -94,9 +94,6 @@ nsCSSParser
 class
 nsMediaList
 ;
-class
-nsPresContext
-;
 namespace
 mozilla
 {

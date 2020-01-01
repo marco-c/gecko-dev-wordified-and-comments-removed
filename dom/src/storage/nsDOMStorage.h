@@ -124,6 +124,13 @@ nsCycleCollectionParticipant
 h
 "
 #
+include
+"
+nsIObserver
+.
+h
+"
+#
 ifdef
 MOZ_STORAGE
 #

@@ -15,9 +15,6 @@ class
 nsIDOMHTMLFormElement
 ;
 class
-nsPresContext
-;
-class
 nsPresState
 ;
 class

@@ -73,6 +73,9 @@ class
 nsCSSStyleSheet
 ;
 class
+nsPresContext
+;
+class
 nsCSSStyleSheetInner
 {
 public

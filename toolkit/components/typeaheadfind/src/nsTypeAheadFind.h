@@ -57,13 +57,6 @@ h
 #
 include
 "
-nsPresContext
-.
-h
-"
-#
-include
-"
 nsISelection
 .
 h
@@ -98,6 +91,9 @@ h
 "
 class
 nsIPresShell
+;
+class
+nsPresContext
 ;
 #
 define

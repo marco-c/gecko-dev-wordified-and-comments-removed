@@ -58,9 +58,6 @@ class
 nsITransferable
 ;
 class
-nsPresContext
-;
-class
 nsIContent
 ;
 class

@@ -8,13 +8,6 @@ h
 #
 include
 "
-nsPresContext
-.
-h
-"
-#
-include
-"
 nsCOMPtr
 .
 h
