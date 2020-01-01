@@ -2221,7 +2221,7 @@ encoding
 "
 utf
 -
-16
+16le
 "
 labels
 :
@@ -2234,7 +2234,7 @@ utf
 "
 utf
 -
-16le
+16
 "
 ]
 }

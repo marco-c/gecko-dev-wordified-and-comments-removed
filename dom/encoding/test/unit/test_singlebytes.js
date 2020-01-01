@@ -1407,7 +1407,7 @@ encoding
 '
 utf
 -
-16
+16le
 '
 }
 {
@@ -1423,7 +1423,7 @@ encoding
 '
 utf
 -
-16
+16le
 '
 }
 {
@@ -2004,7 +2004,7 @@ encoding
 "
 utf
 -
-16
+16le
 "
 )
 ;
@@ -2978,7 +2978,7 @@ utf
 "
 utf
 -
-16
+16le
 "
 "
 utf
