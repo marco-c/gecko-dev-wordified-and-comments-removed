@@ -337,7 +337,7 @@ random
 -
 if
 (
-windowsWidget
+winWidget
 )
 =
 =
@@ -363,7 +363,7 @@ random
 -
 if
 (
-windowsWidget
+winWidget
 )
 =
 =

@@ -10786,7 +10786,7 @@ skip
 if
 (
 !
-windowsWidget
+winWidget
 )
 =
 =
@@ -11610,7 +11610,7 @@ fails
 -
 if
 (
-windowsWidget
+winWidget
 )
 fails
 -
@@ -11627,7 +11627,7 @@ cocoaWidget
 &
 &
 !
-windowsWidget
+winWidget
 )
 !
 =
@@ -18799,7 +18799,7 @@ random
 -
 if
 (
-windowsWidget
+winWidget
 )
 fails
 -

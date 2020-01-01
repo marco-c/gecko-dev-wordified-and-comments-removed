@@ -168,7 +168,7 @@ asserts
 -
 if
 (
-windowsWidget
+winWidget
 1
 )
 load

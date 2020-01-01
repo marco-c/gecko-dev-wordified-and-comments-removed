@@ -102,7 +102,7 @@ random
 -
 if
 (
-windowsWidget
+winWidget
 )
 HTTP
 (
@@ -384,7 +384,7 @@ random
 -
 if
 (
-windowsWidget
+winWidget
 )
 HTTP
 (
@@ -2351,7 +2351,7 @@ fails
 -
 if
 (
-windowsWidget
+winWidget
 )
 HTTP
 (

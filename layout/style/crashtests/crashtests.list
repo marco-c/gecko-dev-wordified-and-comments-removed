@@ -116,7 +116,7 @@ asserts
 -
 if
 (
-windowsWidget
+winWidget
 2
 )
 load

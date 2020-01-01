@@ -14,7 +14,7 @@ skip
 -
 if
 (
-windowsWidget
+winWidget
 )
 load
 428844
@@ -41,7 +41,7 @@ asserts
 -
 if
 (
-windowsWidget
+winWidget
 0
 -
 2

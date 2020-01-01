@@ -308,7 +308,7 @@ skip
 -
 if
 (
-windowsWidget
+winWidget
 )
 =
 =

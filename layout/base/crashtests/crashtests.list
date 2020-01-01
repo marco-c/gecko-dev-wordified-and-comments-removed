@@ -257,7 +257,7 @@ asserts
 -
 if
 (
-windowsWidget
+winWidget
 8
 )
 load
