@@ -429,6 +429,10 @@ test_bug343416
 .
 xul
 \
+test_keycodes
+.
+xul
+\
 (
 NULL
 )

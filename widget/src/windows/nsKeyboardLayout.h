@@ -527,6 +527,8 @@ endif
 void
 LoadLayout
 (
+HKL
+aLayout
 )
 ;
 void
