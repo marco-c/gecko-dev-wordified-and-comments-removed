@@ -577,6 +577,12 @@ CPPSRCS
 nsNativeAppSupportWin
 .
 cpp
+CPPSRCS
++
+=
+nsSetDllDirectory
+.
+cpp
 DEFINES
 +
 =

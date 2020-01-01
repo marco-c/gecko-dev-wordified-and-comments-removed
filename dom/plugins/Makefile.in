@@ -777,6 +777,16 @@ base
 src
 /
 \
+-
+I
+(
+topsrcdir
+)
+/
+toolkit
+/
+xre
+\
 (
 NULL
 )
