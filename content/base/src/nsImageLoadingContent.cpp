@@ -85,13 +85,6 @@ h
 #
 include
 "
-gfxIImageFrame
-.
-h
-"
-#
-include
-"
 imgILoader
 .
 h
@@ -534,9 +527,6 @@ FrameChanged
 imgIContainer
 *
 aContainer
-gfxIImageFrame
-*
-aFrame
 nsIntRect
 *
 aDirtyRect
@@ -547,7 +537,6 @@ LOOP_OVER_OBSERVERS
 FrameChanged
 (
 aContainer
-aFrame
 aDirtyRect
 )
 )
@@ -643,8 +632,7 @@ OnStartFrame
 imgIRequest
 *
 aRequest
-gfxIImageFrame
-*
+PRUint32
 aFrame
 )
 {
@@ -670,9 +658,8 @@ OnDataAvailable
 imgIRequest
 *
 aRequest
-gfxIImageFrame
-*
-aFrame
+PRBool
+aCurrentFrame
 const
 nsIntRect
 *
@@ -684,7 +671,7 @@ LOOP_OVER_OBSERVERS
 OnDataAvailable
 (
 aRequest
-aFrame
+aCurrentFrame
 aRect
 )
 )
@@ -702,8 +689,7 @@ OnStopFrame
 imgIRequest
 *
 aRequest
-gfxIImageFrame
-*
+PRUint32
 aFrame
 )
 {

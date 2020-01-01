@@ -85,6 +85,13 @@ h
 #
 include
 "
+imgIContainer
+.
+h
+"
+#
+include
+"
 nsIDocShell
 .
 h
@@ -163,13 +170,6 @@ h
 include
 "
 nsIInterfaceRequestorUtils
-.
-h
-"
-#
-include
-"
-nsIImage
 .
 h
 "
@@ -1854,7 +1854,7 @@ COPY_IMAGE_DATA
 {
 nsCOMPtr
 <
-nsIImage
+imgIContainer
 >
 image
 =

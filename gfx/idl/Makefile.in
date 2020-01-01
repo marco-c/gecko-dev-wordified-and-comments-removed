@@ -433,10 +433,6 @@ gfxIFormats
 .
 idl
 \
-gfxIImageFrame
-.
-idl
-\
 gfxidltypes
 .
 idl

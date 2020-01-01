@@ -103,9 +103,6 @@ gfxContext
 h
 "
 class
-nsIImage
-;
-class
 nsThebesRenderingContext
 :
 public

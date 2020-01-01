@@ -180,13 +180,6 @@ nsEscape
 .
 h
 "
-#
-include
-"
-nsIImage
-.
-h
-"
 UINT
 nsClipboard
 :

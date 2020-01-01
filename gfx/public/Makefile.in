@@ -475,10 +475,6 @@ nsIDeviceContext
 .
 h
 \
-nsIImage
-.
-h
-\
 nsGfxCIID
 .
 h

@@ -309,13 +309,6 @@ h
 #
 include
 "
-nsIImage
-.
-h
-"
-#
-include
-"
 nsXPCOM
 .
 h

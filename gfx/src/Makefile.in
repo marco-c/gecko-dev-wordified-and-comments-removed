@@ -449,7 +449,6 @@ NULL
 )
 DIRS
 =
-shared
 thebes
 ifdef
 MOZ_ENABLE_POSTSCRIPT

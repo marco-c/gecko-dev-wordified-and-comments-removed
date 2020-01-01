@@ -530,13 +530,6 @@ h
 #
 include
 "
-nsIImage
-.
-h
-"
-#
-include
-"
 nsICharsetConverterManager
 .
 h

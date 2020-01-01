@@ -179,6 +179,9 @@ class
 nsIURI
 ;
 class
+imgIContainer
+;
+class
 imgIDecoderObserver
 ;
 class
@@ -192,9 +195,6 @@ imgICache
 ;
 class
 nsIPrefBranch
-;
-class
-nsIImage
 ;
 class
 nsIImageLoadingContent
@@ -1369,7 +1369,7 @@ aURI
 static
 already_AddRefed
 <
-nsIImage
+imgIContainer
 >
 GetImageFromContent
 (

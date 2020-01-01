@@ -419,8 +419,7 @@ OnStopFrame
 imgIRequest
 *
 aRequest
-gfxIImageFrame
-*
+PRUint32
 aFrame
 )
 {
@@ -520,9 +519,6 @@ FrameChanged
 imgIContainer
 *
 aContainer
-gfxIImageFrame
-*
-newframe
 nsIntRect
 *
 dirtyRect

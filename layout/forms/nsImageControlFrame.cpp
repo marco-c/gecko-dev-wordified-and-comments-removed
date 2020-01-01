@@ -106,13 +106,6 @@ h
 #
 include
 "
-nsIImage
-.
-h
-"
-#
-include
-"
 nsStyleConsts
 .
 h

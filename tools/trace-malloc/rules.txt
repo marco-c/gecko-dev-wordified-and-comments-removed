@@ -748,13 +748,6 @@ NS_NewPermanentAtom
 <
 images
 >
-gfxImageFrame
-:
-:
-Init
-<
-images
->
 gif_write
 <
 images

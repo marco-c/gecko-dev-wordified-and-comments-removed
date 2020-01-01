@@ -33,9 +33,6 @@ imgIDecoderObserver
 h
 "
 class
-gfxIImageFrame
-;
-class
 nsBulletFrame
 :
 public
@@ -178,9 +175,8 @@ OnDataAvailable
 imgIRequest
 *
 aRequest
-gfxIImageFrame
-*
-aFrame
+PRBool
+aCurrentFrame
 const
 nsIntRect
 *
@@ -207,9 +203,6 @@ FrameChanged
 imgIContainer
 *
 aContainer
-gfxIImageFrame
-*
-aNewframe
 nsIntRect
 *
 aDirtyRect

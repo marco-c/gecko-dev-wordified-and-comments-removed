@@ -106,13 +106,6 @@ h
 #
 include
 "
-nsIImage
-.
-h
-"
-#
-include
-"
 nsIDocument
 .
 h
@@ -2196,9 +2189,6 @@ FrameChanged
 imgIContainer
 *
 container
-gfxIImageFrame
-*
-newframe
 nsIntRect
 *
 dirtyRect
@@ -2359,9 +2349,6 @@ FrameChanged
 imgIContainer
 *
 container
-gfxIImageFrame
-*
-newframe
 nsIntRect
 *
 dirtyRect
@@ -2382,7 +2369,6 @@ mFrame
 FrameChanged
 (
 container
-newframe
 dirtyRect
 )
 ;

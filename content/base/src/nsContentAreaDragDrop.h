@@ -58,9 +58,6 @@ class
 nsITransferable
 ;
 class
-nsIImage
-;
-class
 nsIPresShell
 ;
 class

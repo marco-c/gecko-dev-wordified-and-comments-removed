@@ -35,13 +35,6 @@ h
 #
 include
 "
-gfxIImageFrame
-.
-h
-"
-#
-include
-"
 GIF2
 .
 h
@@ -203,12 +196,6 @@ mImageContainer
 ;
 nsCOMPtr
 <
-gfxIImageFrame
->
-mImageFrame
-;
-nsCOMPtr
-<
 imgIDecoderObserver
 >
 mObserver
@@ -226,6 +213,9 @@ mImageData
 PRUint32
 *
 mColormap
+;
+PRUint32
+mColormapSize
 ;
 PRUint32
 mOldColor

@@ -32,7 +32,7 @@ NSIIMAGETOPIXBUF_IID
 }
 }
 class
-nsIImage
+imgIContainer
 ;
 typedef
 struct
@@ -58,7 +58,7 @@ GdkPixbuf
 )
 ConvertImageToPixbuf
 (
-nsIImage
+imgIContainer
 *
 aImage
 )

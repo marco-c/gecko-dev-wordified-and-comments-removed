@@ -22,7 +22,7 @@ h
 #
 include
 "
-nsIImage
+imgIContainer
 .
 h
 "
@@ -40,7 +40,7 @@ public
 :
 nsImageToClipboard
 (
-nsIImage
+imgIContainer
 *
 inImage
 )
@@ -85,7 +85,7 @@ aBitCount
 nsresult
 CreateFromImage
 (
-nsIImage
+imgIContainer
 *
 inImage
 HANDLE
@@ -95,7 +95,7 @@ outBitmap
 ;
 nsCOMPtr
 <
-nsIImage
+imgIContainer
 >
 mImage
 ;

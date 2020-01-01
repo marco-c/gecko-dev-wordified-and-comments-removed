@@ -230,9 +230,6 @@ class
 nsFrameManager
 ;
 class
-nsIImage
-;
-class
 nsILinkHandler
 ;
 class

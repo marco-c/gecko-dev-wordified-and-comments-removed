@@ -188,9 +188,8 @@ OnDataAvailable
 imgIRequest
 *
 aRequest
-gfxIImageFrame
-*
-aFrame
+PRBool
+aCurrentFrame
 const
 nsIntRect
 *
@@ -217,9 +216,6 @@ FrameChanged
 imgIContainer
 *
 aContainer
-gfxIImageFrame
-*
-newframe
 nsIntRect
 *
 dirtyRect
@@ -5955,9 +5951,8 @@ OnDataAvailable
 imgIRequest
 *
 aRequest
-gfxIImageFrame
-*
-aFrame
+PRBool
+aCurrentFrame
 const
 nsIntRect
 *
@@ -6052,9 +6047,6 @@ FrameChanged
 imgIContainer
 *
 aContainer
-gfxIImageFrame
-*
-aNewFrame
 nsIntRect
 *
 aDirtyRect
@@ -6236,9 +6228,8 @@ OnDataAvailable
 imgIRequest
 *
 aRequest
-gfxIImageFrame
-*
-aFrame
+PRBool
+aCurrentFrame
 const
 nsIntRect
 *
@@ -6260,7 +6251,7 @@ mFrame
 OnDataAvailable
 (
 aRequest
-aFrame
+aCurrentFrame
 aRect
 )
 ;
@@ -6311,9 +6302,6 @@ FrameChanged
 imgIContainer
 *
 aContainer
-gfxIImageFrame
-*
-newframe
 nsIntRect
 *
 dirtyRect
@@ -6334,7 +6322,6 @@ mFrame
 FrameChanged
 (
 aContainer
-newframe
 dirtyRect
 )
 ;

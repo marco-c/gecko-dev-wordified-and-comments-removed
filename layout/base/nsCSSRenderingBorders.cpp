@@ -15,13 +15,6 @@ h
 #
 include
 "
-nsIImage
-.
-h
-"
-#
-include
-"
 nsIFrame
 .
 h
@@ -128,13 +121,6 @@ h
 include
 "
 imgIContainer
-.
-h
-"
-#
-include
-"
-gfxIImageFrame
 .
 h
 "

@@ -33,13 +33,6 @@ imgIDecoderObserver
 h
 "
 #
-include
-"
-gfxIImageFrame
-.
-h
-"
-#
 define
 NS_ICONDECODER_CID
 \
@@ -103,12 +96,6 @@ nsCOMPtr
 imgIContainer
 >
 mImage
-;
-nsCOMPtr
-<
-gfxIImageFrame
->
-mFrame
 ;
 nsCOMPtr
 <

@@ -1266,9 +1266,6 @@ FrameChanged
 imgIContainer
 *
 container
-gfxIImageFrame
-*
-newframe
 nsIntRect
 *
 dirtyRect
@@ -1309,7 +1306,6 @@ mListener
 FrameChanged
 (
 container
-newframe
 dirtyRect
 )
 ;
@@ -1419,8 +1415,7 @@ imgRequestProxy
 :
 OnStartFrame
 (
-gfxIImageFrame
-*
+PRUint32
 frame
 )
 {
@@ -1470,9 +1465,8 @@ imgRequestProxy
 :
 OnDataAvailable
 (
-gfxIImageFrame
-*
-frame
+PRBool
+aCurrentFrame
 const
 nsIntRect
 *
@@ -1514,7 +1508,7 @@ mListener
 OnDataAvailable
 (
 this
-frame
+aCurrentFrame
 rect
 )
 ;
@@ -1526,8 +1520,7 @@ imgRequestProxy
 :
 OnStopFrame
 (
-gfxIImageFrame
-*
+PRUint32
 frame
 )
 {

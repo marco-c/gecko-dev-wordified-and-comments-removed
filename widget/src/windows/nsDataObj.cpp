@@ -71,13 +71,6 @@ h
 #
 include
 "
-nsIImage
-.
-h
-"
-#
-include
-"
 nsImageClipboard
 .
 h
@@ -3688,7 +3681,7 @@ len
 ;
 nsCOMPtr
 <
-nsIImage
+imgIContainer
 >
 image
 (
@@ -5975,7 +5968,7 @@ len
 ;
 nsCOMPtr
 <
-nsIImage
+imgIContainer
 >
 image
 (

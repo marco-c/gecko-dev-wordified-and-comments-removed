@@ -1237,7 +1237,10 @@ aHeight
 HBITMAP
 CreateTransparencyMask
 (
-PRInt32
+gfxASurface
+:
+:
+gfxImageFormat
 format
 PRUint8
 *
