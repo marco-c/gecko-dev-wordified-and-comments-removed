@@ -2589,6 +2589,9 @@ Stop
 if
 (
 mIsOffline
+&
+&
+mDestination
 )
 {
 mDestination
