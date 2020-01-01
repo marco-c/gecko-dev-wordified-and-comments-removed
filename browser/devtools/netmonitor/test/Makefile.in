@@ -85,6 +85,10 @@ browser_net_aaa_leaktest
 .
 js
 \
+browser_net_autoscroll
+.
+js
+\
 browser_net_simple
 -
 init
@@ -284,6 +288,14 @@ html
 html_sorting
 -
 test
+-
+page
+.
+html
+\
+html_infinite
+-
+get
 -
 page
 .
