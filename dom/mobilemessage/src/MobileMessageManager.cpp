@@ -61,6 +61,12 @@ h
 #
 include
 "
+mozilla
+/
+dom
+/
+mobilemessage
+/
 Constants
 .
 h

@@ -27,13 +27,6 @@ h
 #
 include
 "
-Types
-.
-h
-"
-#
-include
-"
 mozilla
 /
 Attributes
