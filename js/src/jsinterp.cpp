@@ -4320,6 +4320,9 @@ getGlobal
 chain
 ;
 }
+#
+if
+0
 if
 (
 script
@@ -4328,13 +4331,6 @@ script
 strictModeCode
 )
 {
-AutoScriptRooter
-root
-(
-cx
-script
-)
-;
 initialVarObj
 =
 NewCallObject
@@ -4408,6 +4404,8 @@ initialVarObj
 )
 ;
 }
+#
+endif
 JS_ASSERT
 (
 !
