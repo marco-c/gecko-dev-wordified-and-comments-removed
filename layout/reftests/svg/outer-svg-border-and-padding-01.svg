@@ -416,8 +416,16 @@ false
 setTimeout
 (
 hide_red_rects
-1000
+4000
 )
+;
+/
+/
+fallback
+for
+running
+outside
+reftest
 /
 /
 ]
