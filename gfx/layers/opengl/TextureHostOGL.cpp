@@ -272,6 +272,8 @@ gl
 GLContext
 *
 gl
+GLenum
+aTarget
 GLuint
 &
 aTexture
@@ -286,6 +288,24 @@ aTexture
 )
 return
 ;
+GLenum
+target
+=
+aTarget
+;
+if
+(
+target
+=
+=
+LOCAL_GL_TEXTURE_EXTERNAL
+)
+{
+target
+=
+LOCAL_GL_TEXTURE_2D
+;
+}
 gl
 -
 >
@@ -301,7 +321,7 @@ gl
 >
 fBindTexture
 (
-LOCAL_GL_TEXTURE_2D
+target
 aTexture
 )
 ;
@@ -310,7 +330,7 @@ gl
 >
 fTexParameteri
 (
-LOCAL_GL_TEXTURE_2D
+target
 LOCAL_GL_TEXTURE_MIN_FILTER
 LOCAL_GL_LINEAR
 )
@@ -320,7 +340,7 @@ gl
 >
 fTexParameteri
 (
-LOCAL_GL_TEXTURE_2D
+target
 LOCAL_GL_TEXTURE_MAG_FILTER
 LOCAL_GL_LINEAR
 )
@@ -330,7 +350,7 @@ gl
 >
 fTexParameteri
 (
-LOCAL_GL_TEXTURE_2D
+target
 LOCAL_GL_TEXTURE_WRAP_S
 LOCAL_GL_CLAMP_TO_EDGE
 )
@@ -340,7 +360,7 @@ gl
 >
 fTexParameteri
 (
-LOCAL_GL_TEXTURE_2D
+target
 LOCAL_GL_TEXTURE_WRAP_T
 LOCAL_GL_CLAMP_TO_EDGE
 )
@@ -1301,6 +1321,7 @@ Lock
 MakeTextureIfNeeded
 (
 mGL
+mTextureTarget
 mTextureHandle
 )
 ;
