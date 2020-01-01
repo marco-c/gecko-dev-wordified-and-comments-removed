@@ -1133,7 +1133,7 @@ mTextureFlags
 =
 aFlags
 |
-HostRelease
+TEXTURE_DEALLOCATE_HOST
 ;
 mContentType
 =

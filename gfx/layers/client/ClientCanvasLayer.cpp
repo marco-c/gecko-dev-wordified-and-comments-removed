@@ -427,7 +427,7 @@ Stream
 flags
 |
 =
-OwnByClient
+TEXTURE_DEALLOCATE_CLIENT
 ;
 }
 }

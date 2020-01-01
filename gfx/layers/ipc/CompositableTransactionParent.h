@@ -48,8 +48,6 @@ CompositableParentManager
 public
 ISurfaceAllocator
 {
-public
-:
 protected
 :
 bool

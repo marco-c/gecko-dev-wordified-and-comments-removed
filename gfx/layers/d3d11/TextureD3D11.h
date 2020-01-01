@@ -29,6 +29,17 @@ h
 #
 include
 "
+mozilla
+/
+layers
+/
+TextureHost
+.
+h
+"
+#
+include
+"
 gfxWindowsPlatform
 .
 h

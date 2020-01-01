@@ -18,6 +18,17 @@ ClientTiledThebesLayer
 .
 h
 "
+#
+include
+"
+mozilla
+/
+layers
+/
+TextureHost
+.
+h
+"
 namespace
 mozilla
 {

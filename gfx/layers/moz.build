@@ -565,6 +565,11 @@ Effects
 h
 '
 '
+ImageDataSerializer
+.
+h
+'
+'
 LayersTypes
 .
 h
@@ -1237,6 +1242,11 @@ cpp
 '
 '
 ImageContainer
+.
+cpp
+'
+'
+ImageDataSerializer
 .
 cpp
 '

@@ -1375,6 +1375,16 @@ image
 break
 ;
 }
+case
+EditReply
+:
+:
+TReplyTextureRemoved
+:
+{
+break
+;
+}
 default
 :
 NS_RUNTIMEABORT

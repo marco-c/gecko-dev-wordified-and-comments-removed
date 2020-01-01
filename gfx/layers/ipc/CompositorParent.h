@@ -398,6 +398,12 @@ bool
 aIsTesting
 )
 ;
+static
+bool
+IsInCompositorThread
+(
+)
+;
 protected
 :
 virtual
@@ -487,6 +493,7 @@ ForceComposition
 )
 ;
 inline
+static
 PlatformThreadId
 CompositorThreadID
 (
