@@ -471,6 +471,15 @@ return
 mUsingSpdy
 ;
 }
+bool
+ReportedNPN
+(
+)
+{
+return
+mReportedSpdy
+;
+}
 void
 ReadTimeoutTick
 (
