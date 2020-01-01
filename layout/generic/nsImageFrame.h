@@ -1171,7 +1171,15 @@ nsRenderingContext
 aCtx
 )
 ;
-already_AddRefed
+nsCOMPtr
+<
+imgIContainer
+>
+GetImage
+(
+)
+;
+nsRefPtr
 <
 ImageContainer
 >
