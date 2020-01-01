@@ -244,7 +244,7 @@ WIDGET_ATOM
 (
 menuFrame
 "
-menuFrame
+MenuFrame
 "
 )
 WIDGET_ATOM
