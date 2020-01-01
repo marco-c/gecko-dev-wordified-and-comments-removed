@@ -24318,6 +24318,8 @@ style
 WS_OVERLAPPED
 ;
 }
+break
+;
 default
 :
 NS_ASSERTION
