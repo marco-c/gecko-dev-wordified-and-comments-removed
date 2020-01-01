@@ -11676,6 +11676,7 @@ type
 =
 MIRType_Int32
 )
+{
 add
 -
 >
@@ -11684,6 +11685,14 @@ setTruncated
 true
 )
 ;
+add
+-
+>
+setCommutative
+(
+)
+;
+}
 return
 add
 ;
@@ -11943,6 +11952,10 @@ false
 setTruncated
 (
 true
+)
+;
+setCommutative
+(
 )
 ;
 }
