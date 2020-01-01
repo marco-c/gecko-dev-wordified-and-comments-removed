@@ -5198,9 +5198,6 @@ first
 {
 if
 (
-useCSS
-&
-&
 mHTMLCSSUtils
 -
 >
@@ -5283,9 +5280,6 @@ else
 {
 if
 (
-useCSS
-&
-&
 mHTMLCSSUtils
 -
 >
