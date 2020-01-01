@@ -1885,7 +1885,7 @@ ConstructTelemetryVFS
 ;
 #
 ifdef
-MOZ_MEMORY
+MOZ_STORAGE_MEMORY
 #
 include
 "
@@ -2042,7 +2042,7 @@ rc
 ;
 #
 ifdef
-MOZ_MEMORY
+MOZ_STORAGE_MEMORY
 rc
 =
 :
