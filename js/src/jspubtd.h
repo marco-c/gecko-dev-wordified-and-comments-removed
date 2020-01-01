@@ -1248,9 +1248,7 @@ s
 .
 u
 .
-tag
-.
-nanBits
+mask32
 =
 0
 ;
