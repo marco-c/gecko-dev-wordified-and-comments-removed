@@ -148,7 +148,7 @@ SetterThrows
 Pure
 ]
 attribute
-TextTrackKind
+DOMString
 kind
 ;
 [
