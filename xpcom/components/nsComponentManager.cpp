@@ -3706,12 +3706,6 @@ Clear
 (
 )
 ;
-mLoaderData
-.
-Clear
-(
-)
-;
 delete
 sStaticModules
 ;
