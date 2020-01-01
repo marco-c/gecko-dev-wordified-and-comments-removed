@@ -230,8 +230,11 @@ aGlobal
 "
 ctypes
 "
-&
 ctypes
+.
+address
+(
+)
 )
 )
 {

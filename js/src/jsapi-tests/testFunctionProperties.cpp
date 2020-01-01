@@ -73,8 +73,11 @@ obj
 "
 arguments
 "
-&
 y
+.
+address
+(
+)
 )
 )
 ;
@@ -93,8 +96,11 @@ obj
 "
 caller
 "
-&
 y
+.
+address
+(
+)
 )
 )
 ;

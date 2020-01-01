@@ -356,8 +356,11 @@ global
 "
 __XPCShellEnvironment
 "
-&
 v
+.
+address
+(
+)
 )
 |
 |

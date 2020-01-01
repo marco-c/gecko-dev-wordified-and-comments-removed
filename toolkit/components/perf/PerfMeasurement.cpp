@@ -175,8 +175,11 @@ JS_GetProperty
 cx
 parent
 name
-&
 prop
+.
+address
+(
+)
 )
 )
 return
@@ -223,8 +226,11 @@ obj
 "
 prototype
 "
-&
 prop
+.
+address
+(
+)
 )
 )
 return

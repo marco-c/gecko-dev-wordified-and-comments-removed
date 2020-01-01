@@ -5002,8 +5002,11 @@ mJSClass
 -
 >
 name
-&
 classObject
+.
+address
+(
+)
 )
 )
 {
