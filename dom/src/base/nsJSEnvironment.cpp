@@ -9391,6 +9391,14 @@ JSObject
 )
 aOuterGlobal
 ;
+:
+:
+JS_ClearScope
+(
+mContext
+myobject
+)
+;
 JSObject
 *
 proto
