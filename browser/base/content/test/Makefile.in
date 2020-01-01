@@ -876,6 +876,10 @@ browser_bug581242
 .
 js
 \
+browser_bookmarkAllPages
+.
+js
+\
 browser_contextSearchTabPosition
 .
 js
