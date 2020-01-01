@@ -3333,6 +3333,10 @@ getNode
 aNodeOrID
 )
 ;
+if
+(
+aChecker
+)
 aChecker
 .
 target
@@ -3370,6 +3374,10 @@ synthAction_check
 aEvent
 )
 {
+if
+(
+aChecker
+)
 aChecker
 .
 check

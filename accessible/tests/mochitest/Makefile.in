@@ -496,10 +496,6 @@ events
 .
 js
 \
-events_scroll
-.
-html
-\
 grid
 .
 js

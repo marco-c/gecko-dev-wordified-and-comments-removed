@@ -447,6 +447,14 @@ mk
 _TEST_FILES
 =
 \
+focus
+.
+html
+\
+scroll
+.
+html
+\
 test_attrs
 .
 html
@@ -483,6 +491,10 @@ html
 test_focus
 .
 xul
+\
+test_focus_name
+.
+html
 \
 test_focusdoc
 .
