@@ -493,10 +493,6 @@ test_painting
 .
 html
 \
-test_plugin_scroll_painting
-.
-html
-\
 test_pluginstream_err
 .
 html
@@ -649,6 +645,13 @@ html
 (
 NULL
 )
+#
+test_plugin_scroll_painting
+.
+html
+\
+bug
+596491
 #
 test_npruntime_npnsetexception
 .
