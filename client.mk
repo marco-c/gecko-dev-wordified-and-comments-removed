@@ -457,11 +457,13 @@ mozconfig
 file
 with
 #
-mk_add_options
-MOZ_CO_PROJECT
+ac_add_options
+-
+-
+enable
+-
+application
 =
-#
-suite
 browser
 #
 4
