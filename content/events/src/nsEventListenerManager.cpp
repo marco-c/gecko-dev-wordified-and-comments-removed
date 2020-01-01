@@ -6388,11 +6388,15 @@ nsIPresShell
 shell
 =
 aPresContext
+?
+aPresContext
 -
 >
 GetPresShell
 (
 )
+:
+nsnull
 ;
 if
 (
