@@ -1,6 +1,8 @@
 import
 sys
 import
+platform
+import
 os
 import
 re
@@ -2306,39 +2308,35 @@ platform
 return
 {
 '
-win32
+Windows
 '
 :
 Dumper_Win32
             
 '
-cygwin
-'
-:
-Dumper_Win32
-            
-'
-linux2
+Linux
 '
 :
 Dumper_Linux
             
 '
-sunos5
+Sunos5
 '
 :
 Dumper_Solaris
             
 '
-darwin
+Darwin
 '
 :
 Dumper_Mac
 }
 [
-sys
-.
 platform
+.
+system
+(
+)
 ]
 (
 *
