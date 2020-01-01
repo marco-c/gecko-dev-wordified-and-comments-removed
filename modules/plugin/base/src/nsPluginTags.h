@@ -168,8 +168,8 @@ char
 *
 aFileName
 const
-char
-*
+nsAString
+&
 aFullPath
 const
 char
@@ -344,7 +344,7 @@ mIsFlashPlugin
 nsCString
 mFileName
 ;
-nsCString
+nsString
 mFullPath
 ;
 nsCString

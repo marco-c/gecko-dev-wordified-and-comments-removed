@@ -70,7 +70,7 @@ char
 *
 fFileName
 ;
-char
+PRUnichar
 *
 fFullPath
 ;

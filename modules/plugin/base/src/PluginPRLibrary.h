@@ -42,8 +42,8 @@ public
 PluginPRLibrary
 (
 const
-char
-*
+nsAString
+&
 aFilePath
 PRLibrary
 *

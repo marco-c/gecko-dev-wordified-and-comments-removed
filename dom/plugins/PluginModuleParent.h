@@ -249,8 +249,8 @@ public
 PluginModuleParent
 (
 const
-char
-*
+nsAString
+&
 aFilePath
 )
 ;
@@ -290,8 +290,8 @@ PluginLibrary
 LoadModule
 (
 const
-char
-*
+nsAString
+&
 aFilePath
 )
 ;
