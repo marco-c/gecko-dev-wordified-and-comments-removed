@@ -3889,11 +3889,6 @@ browsercompsbase
 xpt
 components
 /
-browserplaces
-.
-xpt
-components
-/
 browsersearch
 .
 xpt
@@ -6305,3 +6300,13 @@ default
 winInspectorMain
 .
 ico
+components
+/
+nsPlacesTransactionsService
+.
+js
+components
+/
+browserplaces
+.
+xpt

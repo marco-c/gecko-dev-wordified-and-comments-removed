@@ -551,13 +551,6 @@ BINPATH
 /
 components
 /
-browserplaces
-.
-xpt
-BINPATH
-/
-components
-/
 browser
 -
 feeds
@@ -1604,13 +1597,6 @@ components
 BrowserPlaces
 .
 manifest
-BINPATH
-/
-components
-/
-nsPlacesTransactionsService
-.
-js
 BINPATH
 /
 components

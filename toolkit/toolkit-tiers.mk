@@ -624,6 +624,9 @@ tier_platform_dirs
 ipc
 js
 /
+ipc
+js
+/
 jetpack
 endif
 tier_platform_dirs

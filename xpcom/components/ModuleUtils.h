@@ -353,7 +353,17 @@ rv
 \
 inst
 =
+already_AddRefed
+<
+_InstanceClass
+>
+(
 _GetterProc
+(
+)
+)
+.
+get
 (
 )
 ;
