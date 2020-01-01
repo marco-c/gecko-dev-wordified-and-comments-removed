@@ -256,6 +256,10 @@ gfxDWriteFonts
 .
 cpp
 \
+gfxDWriteShaper
+.
+cpp
+\
 gfxDWriteTextAnalysis
 .
 cpp
