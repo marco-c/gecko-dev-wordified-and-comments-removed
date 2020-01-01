@@ -639,6 +639,13 @@ GetDownloadPosition
 (
 )
 ;
+void
+UpdatePlaybackOffset
+(
+PRInt64
+aOffset
+)
+;
 public
 :
 void

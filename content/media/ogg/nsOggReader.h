@@ -130,6 +130,8 @@ public
 SoundData
 (
 PRInt64
+aOffset
+PRInt64
 aTime
 PRInt64
 aDuration
@@ -142,6 +144,10 @@ PRUint32
 aChannels
 )
 :
+mOffset
+(
+aOffset
+)
 mTime
 (
 aTime
@@ -172,6 +178,8 @@ SoundData
 SoundData
 (
 PRInt64
+aOffset
+PRInt64
 aDuration
 PRUint32
 aSamples
@@ -182,6 +190,10 @@ PRUint32
 aChannels
 )
 :
+mOffset
+(
+aOffset
+)
 mTime
 (
 -
@@ -232,6 +244,10 @@ mChannels
 mSamples
 ;
 }
+const
+PRInt64
+mOffset
+;
 PRInt64
 mTime
 ;
@@ -266,6 +282,8 @@ VideoData
 Create
 (
 PRInt64
+aOffset
+PRInt64
 aTime
 th_ycbcr_buffer
 aBuffer
@@ -281,6 +299,8 @@ VideoData
 CreateDuplicate
 (
 PRInt64
+aOffset
+PRInt64
 aTime
 PRInt64
 aGranulepos
@@ -290,6 +310,7 @@ return
 new
 VideoData
 (
+aOffset
 aTime
 aGranulepos
 )
@@ -332,6 +353,9 @@ data
 }
 }
 PRInt64
+mOffset
+;
+PRInt64
 mTime
 ;
 PRInt64
@@ -351,11 +375,17 @@ private
 VideoData
 (
 PRInt64
+aOffset
+PRInt64
 aTime
 PRInt64
 aGranulepos
 )
 :
+mOffset
+(
+aOffset
+)
 mTime
 (
 aTime
@@ -393,6 +423,8 @@ th_ycbcr_buffer
 VideoData
 (
 PRInt64
+aOffset
+PRInt64
 aTime
 PRBool
 aKeyframe
@@ -400,6 +432,10 @@ PRInt64
 aGranulepos
 )
 :
+mOffset
+(
+aOffset
+)
 mTime
 (
 aTime
