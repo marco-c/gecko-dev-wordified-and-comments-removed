@@ -15645,11 +15645,10 @@ isWrapper
 |
 |
 !
-propobj
--
->
-isCallable
+JS_ObjectIsCallable
 (
+cx
+propobj
 )
 )
 continue
