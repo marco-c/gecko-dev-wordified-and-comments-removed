@@ -1605,7 +1605,13 @@ hal
 :
 Vibrate
 (
+nsTArray
+<
+uint32_t
+>
+(
 pattern
+)
 newID
 )
 ;

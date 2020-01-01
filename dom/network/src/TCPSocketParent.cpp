@@ -61,7 +61,7 @@ DeserializeUint8Array
 JSRawObject
 aObj
 const
-nsTArray
+InfallibleTArray
 <
 uint8_t
 >
