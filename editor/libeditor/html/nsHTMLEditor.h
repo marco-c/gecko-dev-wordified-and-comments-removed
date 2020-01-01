@@ -365,6 +365,15 @@ HasFocus
 (
 )
 ;
+virtual
+already_AddRefed
+<
+nsPIDOMEventTarget
+>
+GetPIDOMEventTarget
+(
+)
+;
 NS_IMETHOD
 GetPreferredIMEState
 (

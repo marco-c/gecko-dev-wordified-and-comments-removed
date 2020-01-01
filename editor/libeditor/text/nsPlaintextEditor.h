@@ -372,6 +372,15 @@ nsIDOMKeyEvent
 aKeyEvent
 )
 ;
+virtual
+already_AddRefed
+<
+nsPIDOMEventTarget
+>
+GetPIDOMEventTarget
+(
+)
+;
 NS_IMETHOD
 TypedText
 (
