@@ -11,7 +11,7 @@ tab
 -
 width
 :
-2
+4
 ;
 indent
 -
@@ -27,7 +27,7 @@ basic
 -
 offset
 :
-2
+4
 -
 *
 -
@@ -178,6 +178,9 @@ OfflineAudioContext
 :
 AudioContext
 {
+[
+Throws
+]
 void
 startRendering
 (

@@ -667,6 +667,9 @@ aFailureCallback
 void
 StartRendering
 (
+ErrorResult
+&
+aRv
 )
 ;
 IMPL_EVENT_HANDLER
@@ -854,6 +857,9 @@ mNumberOfChannels
 ;
 bool
 mIsOffline
+;
+bool
+mIsStarted
 ;
 }
 ;
