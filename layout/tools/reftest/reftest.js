@@ -1783,6 +1783,7 @@ getIntPref
 (
 p
 )
+;
 }
 }
 return
