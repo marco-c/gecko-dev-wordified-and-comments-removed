@@ -10044,6 +10044,17 @@ nsACString
 aContentType
 )
 {
+if
+(
+aFileExt
+.
+IsEmpty
+(
+)
+)
+return
+NS_ERROR_NOT_AVAILABLE
+;
 nsresult
 rv
 =
