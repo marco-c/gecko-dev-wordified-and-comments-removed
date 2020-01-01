@@ -1889,7 +1889,7 @@ xhtml
 (
 propnode
 .
-getAttribute
+hasAttribute
 (
 "
 title
@@ -1931,7 +1931,7 @@ img
 (
 propnode
 .
-getAttribute
+hasAttribute
 (
 "
 alt
@@ -1973,7 +1973,7 @@ area
 (
 propnode
 .
-getAttribute
+hasAttribute
 (
 "
 alt
@@ -3514,7 +3514,7 @@ if
 (
 in_node
 .
-getAttribute
+hasAttribute
 (
 Microformats
 [
@@ -4657,7 +4657,7 @@ td
 (
 in_mfnode
 .
-getAttribute
+hasAttribute
 (
 "
 headers
