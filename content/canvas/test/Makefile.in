@@ -4880,6 +4880,10 @@ path
 .
 html
 \
+test_bug405982
+.
+html
+\
 image_transparent50
 .
 png

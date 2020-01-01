@@ -2938,6 +2938,9 @@ CAIRO_STATUS_SUCCESS
 return
 NS_ERROR_FAILURE
 ;
+nsresult
+rv
+;
 const
 char
 encoderPrefix
@@ -3024,6 +3027,8 @@ if
 mImageSurfaceData
 )
 {
+rv
+=
 encoder
 -
 >
@@ -3048,6 +3053,12 @@ nsDependentString
 (
 aEncoderOptions
 )
+)
+;
+NS_ENSURE_SUCCESS
+(
+rv
+rv
 )
 ;
 }
@@ -3155,6 +3166,8 @@ cairo_destroy
 cr
 )
 ;
+rv
+=
 encoder
 -
 >
@@ -3183,6 +3196,12 @@ nsDependentString
 (
 aEncoderOptions
 )
+)
+;
+NS_ENSURE_SUCCESS
+(
+rv
+rv
 )
 ;
 }
