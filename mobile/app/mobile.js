@@ -1052,9 +1052,9 @@ pref
 "
 formhelper
 .
-enabled
+mode
 "
-true
+2
 )
 ;
 pref
