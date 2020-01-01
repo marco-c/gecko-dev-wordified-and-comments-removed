@@ -455,6 +455,10 @@ NULL
 CPPSRCS
 =
 \
+imgCache
+.
+cpp
+\
 imgContainer
 .
 cpp

@@ -441,6 +441,7 @@ unit
 #
 ifdef
 MOZ_MOCHITEST
+#
 DIRS
 +
 =
