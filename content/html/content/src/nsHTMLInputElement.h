@@ -1492,6 +1492,11 @@ GetValueAsDouble
 )
 const
 ;
+void
+UpdateHasRange
+(
+)
+;
 nsCOMPtr
 <
 nsIControllers
@@ -1595,6 +1600,11 @@ mCanShowValidUI
 ;
 bool
 mCanShowInvalidUI
+:
+1
+;
+bool
+mHasRange
 :
 1
 ;
