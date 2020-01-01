@@ -1202,12 +1202,12 @@ aSC
 ;
 static
 PRBool
-HasNonZeroSide
+HasNonZeroCorner
 (
 const
-nsStyleSides
+nsStyleCorners
 &
-aSides
+aCorners
 )
 ;
 static

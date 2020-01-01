@@ -1581,7 +1581,7 @@ ImageBorderDiffers
 )
 const
 ;
-nsStyleSides
+nsStyleCorners
 mBorderRadius
 ;
 nsStyleSides
@@ -2357,7 +2357,7 @@ MaxDifference
 ;
 #
 endif
-nsStyleSides
+nsStyleCorners
 mOutlineRadius
 ;
 nsStyleCoord
