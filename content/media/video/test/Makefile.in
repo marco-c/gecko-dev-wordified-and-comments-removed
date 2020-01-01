@@ -484,6 +484,14 @@ test_paused
 .
 html
 \
+test_progress1
+.
+html
+\
+test_progress2
+.
+html
+\
 test_readyState
 .
 html
@@ -567,6 +575,10 @@ ogg
 seek
 .
 ogg
+\
+big
+.
+wav
 \
 r11025_s16_c1
 .
