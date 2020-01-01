@@ -205,7 +205,7 @@ aIndex
 ;
 NS_DECL_NSIACCESSIBLEAPPLICATION
 virtual
-bool
+void
 Init
 (
 )

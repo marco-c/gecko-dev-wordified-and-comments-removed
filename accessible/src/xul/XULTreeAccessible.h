@@ -658,7 +658,7 @@ XULTreeItemAccessible
 XULTreeItemAccessibleBase
 )
 virtual
-bool
+void
 Init
 (
 )

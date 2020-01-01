@@ -50,7 +50,7 @@ ApplicationAccessibleWrap
 )
 ;
 virtual
-bool
+void
 Init
 (
 )

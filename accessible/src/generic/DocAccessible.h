@@ -223,7 +223,7 @@ aY
 ;
 NS_DECL_NSIDOCUMENTOBSERVER
 virtual
-bool
+void
 Init
 (
 )
