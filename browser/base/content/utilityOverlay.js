@@ -2633,6 +2633,9 @@ tab
 )
 ;
 }
+#
+ifdef
+MOZ_SERVICES_HEALTHREPORT
 function
 openHealthReport
 (
@@ -2651,6 +2654,8 @@ tab
 )
 ;
 }
+#
+endif
 function
 openFeedbackPage
 (

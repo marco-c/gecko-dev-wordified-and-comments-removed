@@ -2883,6 +2883,9 @@ event
 "
 /
 >
+#
+ifdef
+MOZ_SERVICES_HEALTHREPORT
 <
 menuitem
 id
@@ -2918,6 +2921,8 @@ event
 "
 /
 >
+#
+endif
 <
 menuitem
 id
