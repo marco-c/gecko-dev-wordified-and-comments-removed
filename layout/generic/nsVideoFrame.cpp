@@ -930,9 +930,11 @@ ImageLayer
 *
 >
 (
-GetLayerBuilderForManager
-(
 aManager
+-
+>
+GetLayerBuilder
+(
 )
 -
 >

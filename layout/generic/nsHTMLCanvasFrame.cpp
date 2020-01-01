@@ -57,6 +57,13 @@ h
 #
 include
 "
+Layers
+.
+h
+"
+#
+include
+"
 nsTransform2D
 .
 h
@@ -1255,9 +1262,11 @@ CanvasLayer
 *
 >
 (
-GetLayerBuilderForManager
-(
 aManager
+-
+>
+GetLayerBuilder
+(
 )
 -
 >

@@ -140,6 +140,9 @@ START_SCROLL_ID
 =
 2
 ;
+PRUint8
+gLayerManagerLayerBuilder
+;
 #
 ifdef
 MOZ_LAYERS_HAVE_LOG

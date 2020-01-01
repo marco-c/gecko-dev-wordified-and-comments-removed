@@ -7,13 +7,6 @@ GFX_READBACKPROCESSOR_H
 #
 include
 "
-ReadbackLayer
-.
-h
-"
-#
-include
-"
 ThebesLayerBuffer
 .
 h
@@ -31,6 +24,12 @@ mozilla
 namespace
 layers
 {
+class
+ContainerLayer
+;
+class
+ReadbackLayer
+;
 class
 ReadbackProcessor
 {

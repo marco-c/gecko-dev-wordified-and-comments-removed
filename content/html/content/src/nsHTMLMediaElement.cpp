@@ -384,6 +384,13 @@ nsIMediaList
 h
 "
 #
+include
+"
+ImageContainer
+.
+h
+"
+#
 ifdef
 MOZ_OGG
 #

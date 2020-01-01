@@ -199,6 +199,13 @@ WebGLRenderingContextBinding
 .
 h
 "
+#
+include
+"
+Layers
+.
+h
+"
 using
 namespace
 mozilla

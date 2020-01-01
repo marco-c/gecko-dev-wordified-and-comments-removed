@@ -221,6 +221,10 @@ VideoFrameContainer
 .
 cpp
 \
+VideoSegment
+.
+cpp
+\
 VideoUtils
 .
 cpp
