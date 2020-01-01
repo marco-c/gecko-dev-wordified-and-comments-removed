@@ -77,7 +77,7 @@ endif
 }
 s
 ;
-JSUint64
+uint64
 u64
 ;
 jsdouble
