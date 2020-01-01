@@ -94,6 +94,7 @@ protocol
 name
         
 pheader
+pcpp
 =
 File
 (
@@ -104,8 +105,17 @@ pname
 h
 '
 )
+File
+(
+pname
++
+'
+.
+cpp
+'
+)
         
-_GenerateProtocolHeader
+_GenerateProtocolCode
 (
 )
 .
@@ -113,6 +123,7 @@ lower
 (
 tu
 pheader
+pcpp
 )
         
 parentheader
@@ -204,6 +215,7 @@ parentheader
 childheader
 ]
 [
+pcpp
 parentcpp
 childcpp
 ]
@@ -217,6 +229,35 @@ _FREED_ACTOR_ID
 ExprLiteral
 .
 ONE
+_DISCLAIMER
+=
+Whitespace
+(
+'
+'
+'
+/
+/
+/
+/
+Automatically
+generated
+by
+ipdlc
+.
+/
+/
+Edit
+at
+your
+own
+risk
+/
+/
+'
+'
+'
+)
 class
 _struct
 :
@@ -8811,7 +8852,7 @@ protocolName
 name
 )
 class
-_GenerateProtocolHeader
+_GenerateProtocolCode
 (
 ipdl
 .
@@ -8825,9 +8866,6 @@ Visitor
 '
 '
 Creates
-a
-header
-containing
 code
 common
 to
@@ -8857,7 +8895,13 @@ None
         
 self
 .
-file
+hdrfile
+=
+None
+        
+self
+.
+cppfile
 =
 None
         
@@ -8867,13 +8911,21 @@ structUnionDefns
 =
 [
 ]
+        
+self
+.
+funcDefns
+=
+[
+]
     
 def
 lower
 (
 self
 tu
-outcxxfile
+cxxHeaderFile
+cxxFile
 )
 :
         
@@ -8887,9 +8939,15 @@ protocol
         
 self
 .
-file
+hdrfile
 =
-outcxxfile
+cxxHeaderFile
+        
+self
+.
+cppfile
+=
+cxxFile
         
 tu
 .
@@ -8906,58 +8964,30 @@ tu
 )
 :
         
-f
+hf
 =
 self
 .
-file
+hdrfile
         
-f
+hf
 .
 addthing
 (
-Whitespace
-(
-'
-'
-'
-/
-/
-/
-/
-Automatically
-generated
-by
-the
-IPDL
-compiler
-.
-/
-/
-Edit
-at
-your
-own
-risk
-/
-/
-'
-'
-'
-)
+_DISCLAIMER
 )
         
-f
+hf
 .
 addthings
 (
 _includeGuardStart
 (
-f
+hf
 )
 )
         
-f
+hf
 .
 addthing
 (
@@ -8978,16 +9008,7 @@ self
 tu
 )
         
-f
-.
-addthings
-(
-self
-.
-structUnionDefns
-)
-        
-f
+hf
 .
 addthing
 (
@@ -8996,14 +9017,126 @@ Whitespace
 NL
 )
         
-f
+hf
 .
 addthings
 (
 _includeGuardEnd
 (
-f
+hf
 )
+)
+        
+cf
+=
+self
+.
+cppfile
+        
+cf
+.
+addthings
+(
+[
+            
+_DISCLAIMER
+            
+Whitespace
+.
+NL
+            
+CppDirective
+(
+                
+'
+include
+'
+                
+'
+"
+'
++
+_protocolHeaderName
+(
+self
+.
+protocol
+'
+'
+)
++
+'
+.
+h
+"
+'
+)
+            
+Whitespace
+.
+NL
+        
+]
+)
+        
+ns
+=
+Namespace
+(
+self
+.
+protocol
+.
+name
+)
+        
+cf
+.
+addthing
+(
+_putInNamespaces
+(
+ns
+self
+.
+protocol
+.
+namespaces
+)
+)
+        
+ns
+.
+addstmts
+(
+(
+[
+Whitespace
+.
+NL
+]
+                     
++
+self
+.
+funcDefns
+                     
++
+[
+Whitespace
+.
+NL
+]
+)
+)
+        
+cf
+.
+addthings
+(
+self
+.
+structUnionDefns
 )
     
 def
@@ -9016,7 +9149,7 @@ inc
         
 self
 .
-file
+hdrfile
 .
 addthing
 (
@@ -9056,14 +9189,11 @@ methoddefns
 _splitClassDeclDefn
 (
 cls
-inlinedefns
-=
-1
 )
         
 self
 .
-file
+hdrfile
 .
 addthings
 (
@@ -9392,7 +9522,7 @@ p
         
 self
 .
-file
+hdrfile
 .
 addthing
 (
@@ -9520,7 +9650,7 @@ name
         
 self
 .
-file
+hdrfile
 .
 addthing
 (
@@ -9815,20 +9945,37 @@ NL
 ]
 )
         
-ns
-.
-addstmts
+tfDecl
+tfDefn
+=
+_splitFuncDeclDefn
 (
-[
 self
 .
 genTransitionFunc
 (
 )
+)
+        
+ns
+.
+addstmts
+(
+[
+tfDecl
 Whitespace
 .
 NL
 ]
+)
+        
+self
+.
+funcDefns
+.
+append
+(
+tfDefn
 )
         
 typedefs
@@ -10159,9 +10306,9 @@ mAction
         
 transitionfunc
 =
-MethodDefn
+FunctionDefn
 (
-MethodDecl
+FunctionDecl
 (
             
 '
@@ -10225,10 +10372,6 @@ ret
 Type
 .
 BOOL
-            
-inline
-=
-1
 )
 )
         
@@ -15491,43 +15634,13 @@ self
 .
 cppfile
         
-disclaimer
-=
-Whitespace
-(
-'
-'
-'
-/
-/
-/
-/
-Automatically
-generated
-by
-ipdlc
-.
-/
-/
-Edit
-at
-your
-own
-risk
-/
-/
-'
-'
-'
-)
-        
 hf
 .
 addthings
 (
             
 [
-disclaimer
+_DISCLAIMER
 ]
             
 +
@@ -15865,7 +15978,7 @@ addthings
 (
 [
             
-disclaimer
+_DISCLAIMER
             
 Whitespace
 .
@@ -32543,9 +32656,6 @@ def
 _splitClassDeclDefn
 (
 cls
-inlinedefns
-=
-0
 )
 :
     
@@ -32622,7 +32732,6 @@ stmt
 cls
 .
 name
-inlinedefns
 )
             
 cls
@@ -32657,7 +32766,6 @@ _splitMethodDefn
 (
 md
 clsname
-inlinedefn
 )
 :
     
@@ -32715,14 +32823,6 @@ warn_unused
 =
 0
     
-md
-.
-decl
-.
-inline
-=
-inlinedefn
-    
 for
 param
 in
@@ -32750,6 +32850,29 @@ None
 return
 saveddecl
 md
+def
+_splitFuncDeclDefn
+(
+fun
+)
+:
+    
+assert
+not
+fun
+.
+decl
+.
+inline
+    
+return
+StmtDecl
+(
+fun
+.
+decl
+)
+fun
 class
 _GenerateSkeletonImpl
 (
