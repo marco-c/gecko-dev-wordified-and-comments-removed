@@ -698,7 +698,7 @@ style
 =
 "
 &
-prefWindow
+prefWin
 .
 styleWin
 ;
@@ -725,7 +725,7 @@ style
 =
 "
 &
-prefWindow
+prefWin
 .
 styleGNOME
 ;

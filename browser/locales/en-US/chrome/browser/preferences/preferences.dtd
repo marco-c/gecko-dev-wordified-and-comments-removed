@@ -54,7 +54,7 @@ theme
 <
 !
 ENTITY
-prefWindow
+prefWin
 .
 styleWin
 "
@@ -62,6 +62,8 @@ width
 :
 42em
 ;
+min
+-
 height
 :
 44em
@@ -84,7 +86,7 @@ width
 <
 !
 ENTITY
-prefWindow
+prefWin
 .
 styleGNOME
 "
@@ -92,9 +94,11 @@ width
 :
 42em
 ;
+min
+-
 height
 :
-38
+44
 .
 5em
 ;
