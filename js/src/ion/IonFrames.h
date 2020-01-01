@@ -787,9 +787,16 @@ RESUME_CATCH
 static
 const
 uint32_t
-RESUME_FORCED_RETURN
+RESUME_FINALLY
 =
 2
+;
+static
+const
+uint32_t
+RESUME_FORCED_RETURN
+=
+3
 ;
 uint8_t
 *
@@ -805,6 +812,9 @@ target
 ;
 uint32_t
 kind
+;
+Value
+exception
 ;
 }
 ;

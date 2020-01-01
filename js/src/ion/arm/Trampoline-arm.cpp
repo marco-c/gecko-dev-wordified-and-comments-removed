@@ -2951,6 +2951,9 @@ break
 case
 Type_Int32
 :
+case
+Type_Pointer
+:
 outReg
 =
 r4
@@ -3341,6 +3344,9 @@ break
 ;
 case
 Type_Int32
+:
+case
+Type_Pointer
 :
 masm
 .
