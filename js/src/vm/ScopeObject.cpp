@@ -883,7 +883,7 @@ if
 callobj
 )
 {
-js_delete
+js_free
 (
 slots
 )
