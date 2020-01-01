@@ -49,6 +49,8 @@ resource
 /
 weave
 /
+ext
+/
 Observers
 .
 js
@@ -65,6 +67,8 @@ resource
 /
 /
 weave
+/
+ext
 /
 Preferences
 .
