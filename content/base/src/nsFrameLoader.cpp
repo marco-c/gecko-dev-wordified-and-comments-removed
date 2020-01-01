@@ -1893,14 +1893,6 @@ loadInfo
 NS_ERROR_FAILURE
 )
 ;
-if
-(
-!
-OwnerIsBrowserFrame
-(
-)
-)
-{
 loadInfo
 -
 >
@@ -1914,7 +1906,6 @@ NodePrincipal
 )
 )
 ;
-}
 nsCOMPtr
 <
 nsIURI
