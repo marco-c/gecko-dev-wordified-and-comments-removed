@@ -510,7 +510,9 @@ SYMBOL_SERVER_SSH_KEY
 +
 -
 i
+"
 SYMBOL_SERVER_SSH_KEY
+"
 }
 1
 \
@@ -545,7 +547,9 @@ SYMBOL_SERVER_SSH_KEY
 +
 -
 i
+"
 SYMBOL_SERVER_SSH_KEY
+"
 }
 \
 -
