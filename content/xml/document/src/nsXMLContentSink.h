@@ -632,17 +632,7 @@ mHasProcessedBase
 1
 ;
 PRUint8
-mAllowAutoXLinks
-:
-1
-;
-PRUint8
 mPrettyPrinting
-:
-1
-;
-PRUint8
-unused
 :
 1
 ;
