@@ -213,6 +213,16 @@ float
 aMaxScale
 )
 ;
+void
+PostDelayedTask
+(
+Task
+*
+aTask
+int
+aDelayMs
+)
+;
 bool
 SampleContentTransformForFrame
 (
