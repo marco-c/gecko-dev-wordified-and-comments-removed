@@ -124,6 +124,14 @@ include
 /
 webvtt
 /
+node
+.
+h
+\
+include
+/
+webvtt
+/
 parser
 .
 h
@@ -167,6 +175,10 @@ error
 c
 \
 lexer
+.
+c
+\
+node
 .
 c
 \
