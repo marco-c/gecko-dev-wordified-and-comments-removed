@@ -682,7 +682,7 @@ Clear
 (
 )
 ;
-PR_FREEIF
+moz_free
 (
 mText
 )
@@ -4269,7 +4269,7 @@ mText
 PRUnichar
 *
 )
-PR_MALLOC
+moz_malloc
 (
 sizeof
 (
@@ -4374,7 +4374,7 @@ mText
 PRUnichar
 *
 )
-PR_REALLOC
+moz_realloc
 (
 mText
 sizeof

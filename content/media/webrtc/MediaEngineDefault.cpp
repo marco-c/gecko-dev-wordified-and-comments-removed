@@ -48,6 +48,13 @@ ImageTypes
 h
 "
 #
+include
+"
+prmem
+.
+h
+"
+#
 ifdef
 MOZ_WIDGET_ANDROID
 #

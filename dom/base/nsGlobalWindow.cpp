@@ -130,13 +130,6 @@ h
 #
 include
 "
-prmem
-.
-h
-"
-#
-include
-"
 jsapi
 .
 h
