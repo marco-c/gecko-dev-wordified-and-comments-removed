@@ -681,6 +681,10 @@ test_audiowrite
 .
 html
 \
+test_mediarecorder_creation
+.
+html
+\
 test_mozHasAudio
 .
 html
