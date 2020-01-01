@@ -16095,10 +16095,6 @@ pe
 =
 mPrintEngine
 ;
-mPrintEngine
-=
-nullptr
-;
 if
 (
 GetIsPrintPreview
@@ -16116,6 +16112,10 @@ DestroyPrintingData
 }
 else
 {
+mPrintEngine
+=
+nullptr
+;
 pe
 -
 >
