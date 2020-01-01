@@ -143,11 +143,12 @@ aValue
 .
 mType
 =
-&
 nsSMILNullType
 :
 :
-sSingleton
+Singleton
+(
+)
 ;
 }
 nsresult
