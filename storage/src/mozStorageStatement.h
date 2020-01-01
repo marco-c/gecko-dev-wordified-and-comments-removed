@@ -40,6 +40,9 @@ sqlite3
 h
 >
 class
+mozStorageConnection
+;
+class
 mozStorageStatement
 :
 public
@@ -66,6 +69,17 @@ nsACString
 aSQLStatement
 )
 ;
+inline
+sqlite3_stmt
+*
+NativeStatement
+(
+)
+{
+return
+mDBStatement
+;
+}
 private
 :
 ~

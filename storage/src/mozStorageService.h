@@ -46,6 +46,13 @@ mozIStorageService
 .
 h
 "
+#
+include
+"
+mozStorageBackground
+.
+h
+"
 class
 mozStorageConnection
 ;
@@ -86,6 +93,9 @@ mozStorageService
 PRLock
 *
 mLock
+;
+mozStorageBackground
+mBackground
 ;
 protected
 :
