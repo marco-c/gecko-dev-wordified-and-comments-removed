@@ -10571,7 +10571,9 @@ updateMallocCounter
 cx
 -
 >
-compartment
+zone
+(
+)
 nbytes
 )
 ;

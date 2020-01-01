@@ -1510,9 +1510,12 @@ void
 *
 parallelAllocate
 (
-JSCompartment
+JS
+:
+:
+Zone
 *
-comp
+zone
 AllocKind
 thingKind
 size_t
