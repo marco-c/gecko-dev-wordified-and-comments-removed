@@ -632,6 +632,10 @@ nsIKeyModule
 .
 idl
 \
+nsIProtectedAuthThread
+.
+idl
+\
 nsIDataSignatureVerifier
 .
 idl
