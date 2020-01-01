@@ -531,6 +531,17 @@ DIRS
 tools
 /
 pageloader
+ifdef
+MOZ_DEBUG
+DIRS
++
+=
+tools
+/
+layout
+-
+debug
+endif
 endif
 include
 (
