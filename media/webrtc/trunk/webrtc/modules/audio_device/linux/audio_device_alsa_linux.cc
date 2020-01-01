@@ -2852,12 +2852,10 @@ return
 GetDevicesInfo
 (
 1
-false
+true
 index
 name
 kAdmMaxDeviceNameSize
-guid
-kAdmMaxGuidSize
 )
 ;
 }
@@ -2947,6 +2945,8 @@ false
 index
 name
 kAdmMaxDeviceNameSize
+guid
+kAdmMaxGuidSize
 )
 ;
 }
