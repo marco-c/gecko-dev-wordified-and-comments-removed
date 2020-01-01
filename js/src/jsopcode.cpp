@@ -9576,6 +9576,8 @@ obj
 JSFunction
 *
 fun
+=
+NULL
 ;
 JSString
 *

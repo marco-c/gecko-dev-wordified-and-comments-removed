@@ -5165,6 +5165,8 @@ processOneEvent
 Event
 *
 event
+=
+NULL
 ;
 {
 AutoLock

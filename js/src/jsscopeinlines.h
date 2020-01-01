@@ -58,6 +58,13 @@ jscntxtinlines
 .
 h
 "
+#
+include
+"
+jsobjinlines
+.
+h
+"
 inline
 void
 js
