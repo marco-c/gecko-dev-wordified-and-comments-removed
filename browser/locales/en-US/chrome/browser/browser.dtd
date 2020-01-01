@@ -1071,7 +1071,7 @@ Tabs
 <
 !
 ENTITY
-showAllBookmarks
+showAllBookmarks2
 .
 label
 "
@@ -2338,7 +2338,7 @@ A
 <
 !
 ENTITY
-preferencesCmd
+preferencesCmd2
 .
 label
 "
@@ -2348,7 +2348,7 @@ Options
 <
 !
 ENTITY
-preferencesCmd
+preferencesCmd2
 .
 accesskey
 "
