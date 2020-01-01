@@ -1375,6 +1375,10 @@ OpenWindowEventDetail
 )
 DOMCI_CLASS
 (
+AsyncScrollEventDetail
+)
+DOMCI_CLASS
+(
 DOMFileHandle
 )
 DOMCI_CLASS
