@@ -230,11 +230,6 @@ arguments
 )
 ;
 }
-classID
-:
-self
-.
-classID
 }
 ;
 }
