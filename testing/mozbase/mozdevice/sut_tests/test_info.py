@@ -60,9 +60,6 @@ memory
 '
 power
 '
-'
-process
-'
 )
         
 for
@@ -106,22 +103,3 @@ all
 =
 =
 "
-        
-data
-=
-self
-.
-dm
-.
-getInfo
-(
-'
-all
-'
-)
-        
-print
-str
-(
-data
-)
