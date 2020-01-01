@@ -225,6 +225,9 @@ VIBRATE
 "
 /
 >
+#
+ifdef
+MOZ_WEBSMS_BACKEND
 <
 !
 -
@@ -301,6 +304,8 @@ READ_SMS
 "
 /
 >
+#
+endif
 <
 uses
 -

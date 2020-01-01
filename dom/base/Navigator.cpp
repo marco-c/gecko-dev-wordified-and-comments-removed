@@ -3704,6 +3704,9 @@ IsSmsSupported
 )
 const
 {
+#
+ifdef
+MOZ_WEBSMS_BACKEND
 nsCOMPtr
 <
 nsISmsService
@@ -3738,6 +3741,13 @@ result
 return
 result
 ;
+#
+else
+return
+false
+;
+#
+endif
 }
 NS_IMETHODIMP
 Navigator
