@@ -13161,9 +13161,6 @@ sourceSurface
 )
 )
 ;
-#
-ifndef
-WINCE
 if
 (
 sourceSurface
@@ -13177,17 +13174,6 @@ NS_FAILED
 rv
 )
 )
-#
-else
-if
-(
-NS_FAILED
-(
-rv
-)
-)
-#
-endif
 sourceSurface
 =
 nsnull
