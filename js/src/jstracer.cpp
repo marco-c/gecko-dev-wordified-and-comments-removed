@@ -3667,7 +3667,7 @@ atomMap
 length
 ;
 bool
-omfgHack_sawMath
+FIXME_bug445262_sawMath
 =
 false
 ;
@@ -3717,7 +3717,7 @@ cx
 Math
 )
 )
-omfgHack_sawMath
+FIXME_bug445262_sawMath
 =
 true
 ;
@@ -3726,7 +3726,7 @@ else
 {
 if
 (
-omfgHack_sawMath
+FIXME_bug445262_sawMath
 )
 break
 ;
