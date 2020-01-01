@@ -700,10 +700,8 @@ mTimer
 nsHttpAuthCache
 mAuthCache
 ;
-nsRefPtr
-<
 nsHttpConnectionMgr
->
+*
 mConnMgr
 ;
 PRUint8
