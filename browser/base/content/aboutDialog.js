@@ -498,7 +498,7 @@ distribution
 .
 about
 "
-Component
+Components
 .
 interfaces
 .
