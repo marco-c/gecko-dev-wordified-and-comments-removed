@@ -6837,6 +6837,7 @@ CACHE_LOG_DEBUG
 CACHE
 :
 Revalidation
+should
 not
 performed
 because
@@ -6854,10 +6855,9 @@ n
 )
 )
 ;
-return
-NS_ERROR_FAILURE
-;
 }
+else
+{
 Telemetry
 :
 :
@@ -6870,6 +6870,7 @@ DISK_CACHE_REVALIDATION_SAFE
 1
 )
 ;
+}
 Telemetry
 :
 :
