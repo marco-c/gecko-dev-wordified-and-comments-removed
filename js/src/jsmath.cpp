@@ -2498,9 +2498,9 @@ int64_t
 cx
 -
 >
-link
-.
-next
+getNext
+(
+)
 )
 )
 ;
