@@ -253,6 +253,8 @@ nscolor
 aColor
 )
 {
+NS_OBJC_BEGIN_TRY_ABORT_BLOCK_NSRESULT
+;
 nsresult
 res
 =
@@ -1464,6 +1466,8 @@ break
 return
 res
 ;
+NS_OBJC_END_TRY_ABORT_BLOCK_NSRESULT
+;
 }
 nsresult
 nsLookAndFeel
@@ -2202,6 +2206,8 @@ float
 aDevPixPerCSSPixel
 )
 {
+NS_OBJC_BEGIN_TRY_ABORT_BLOCK_RETURN
+;
 /
 /
 hack
@@ -2835,5 +2841,10 @@ aFontName
 ;
 return
 true
+;
+NS_OBJC_END_TRY_ABORT_BLOCK_RETURN
+(
+false
+)
 ;
 }
