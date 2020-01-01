@@ -671,7 +671,7 @@ tablet_panel_controls
 %
 define
 tablet_panel_minwidth
-801px
+1024px
 %
 endif
 %
