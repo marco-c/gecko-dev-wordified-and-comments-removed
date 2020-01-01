@@ -6728,3 +6728,13 @@ status
 true
 )
 ;
+pref
+(
+"
+dom
+.
+min_background_timeout_value
+"
+900000
+)
+;
