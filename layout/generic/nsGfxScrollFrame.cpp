@@ -4897,7 +4897,7 @@ aState
 #
 endif
 nsSize
-max
+maxSize
 (
 NS_INTRINSICSIZE
 NS_INTRINSICSIZE
@@ -4905,7 +4905,7 @@ NS_INTRINSICSIZE
 ;
 AddBorderAndPadding
 (
-max
+maxSize
 )
 ;
 nsIBox
@@ -4915,11 +4915,11 @@ AddCSSMaxSize
 (
 aState
 this
-max
+maxSize
 )
 ;
 return
-max
+maxSize
 ;
 }
 #
