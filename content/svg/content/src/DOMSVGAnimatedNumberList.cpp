@@ -40,10 +40,9 @@ nsSVGAttrTearoffTable
 .
 h
 "
-using
 namespace
 mozilla
-;
+{
 static
 nsSVGAttrTearoffTable
 <
@@ -65,11 +64,18 @@ NS_IMPL_CYCLE_COLLECTING_RELEASE
 (
 DOMSVGAnimatedNumberList
 )
+}
 DOMCI_DATA
 (
 SVGAnimatedNumberList
+mozilla
+:
+:
 DOMSVGAnimatedNumberList
 )
+namespace
+mozilla
+{
 NS_INTERFACE_MAP_BEGIN_CYCLE_COLLECTION
 (
 DOMSVGAnimatedNumberList
@@ -418,4 +424,5 @@ GetAnimatedNumberList
 mAttrEnum
 )
 ;
+}
 }

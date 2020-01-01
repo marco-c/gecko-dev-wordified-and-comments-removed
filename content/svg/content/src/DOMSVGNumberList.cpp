@@ -40,10 +40,9 @@ nsCOMPtr
 .
 h
 "
-using
 namespace
 mozilla
-;
+{
 NS_IMPL_CYCLE_COLLECTION_CLASS
 (
 DOMSVGNumberList
@@ -101,11 +100,18 @@ NS_IMPL_CYCLE_COLLECTING_RELEASE
 (
 DOMSVGNumberList
 )
+}
 DOMCI_DATA
 (
 SVGNumberList
+mozilla
+:
+:
 DOMSVGNumberList
 )
+namespace
+mozilla
+{
 NS_INTERFACE_MAP_BEGIN_CYCLE_COLLECTION
 (
 DOMSVGNumberList
@@ -1297,5 +1303,6 @@ IsAnimValList
 )
 )
 ;
+}
 }
 }
