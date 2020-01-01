@@ -569,6 +569,16 @@ JSOP_DEBUGGER
 \
 _
 (
+JSOP_POPV
+)
+\
+_
+(
+JSOP_SETRVAL
+)
+\
+_
+(
 JSOP_RETURN
 )
 \

@@ -2706,6 +2706,17 @@ ok
 )
 ;
 bool
+StrictEvalPrologue
+(
+JSContext
+*
+cx
+BaselineFrame
+*
+frame
+)
+;
+bool
 HandleDebugTrap
 (
 JSContext

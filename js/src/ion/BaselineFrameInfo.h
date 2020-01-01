@@ -1018,7 +1018,6 @@ local
 )
 ;
 }
-inline
 Address
 addressOfArg
 (
@@ -1050,7 +1049,6 @@ arg
 )
 ;
 }
-inline
 Address
 addressOfThis
 (
@@ -1070,7 +1068,6 @@ offsetOfThis
 )
 ;
 }
-inline
 Address
 addressOfCallee
 (
@@ -1090,7 +1087,6 @@ offsetOfCalleeToken
 )
 ;
 }
-inline
 Address
 addressOfScopeChain
 (
@@ -1110,7 +1106,6 @@ reverseOffsetOfScopeChain
 )
 ;
 }
-inline
 Address
 addressOfBlockChain
 (
@@ -1130,7 +1125,6 @@ reverseOffsetOfBlockChain
 )
 ;
 }
-inline
 Address
 addressOfFlags
 (
@@ -1150,7 +1144,25 @@ reverseOffsetOfFlags
 )
 ;
 }
-inline
+Address
+addressOfEvalScript
+(
+)
+const
+{
+return
+Address
+(
+BaselineFrameReg
+BaselineFrame
+:
+:
+reverseOffsetOfEvalScript
+(
+)
+)
+;
+}
 Address
 addressOfReturnValue
 (
@@ -1170,7 +1182,6 @@ reverseOffsetOfReturnValue
 )
 ;
 }
-inline
 Address
 addressOfStackValue
 (
@@ -1235,7 +1246,6 @@ slot
 )
 ;
 }
-inline
 Address
 addressOfScratchValue
 (
