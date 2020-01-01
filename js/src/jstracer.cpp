@@ -14938,7 +14938,7 @@ uint8
 )
 >
 =
-MAX_SKIP_BYTES
+NJ_MAX_SKIP_PAYLOAD_SZB
 )
 {
 stackSlots
@@ -51892,7 +51892,7 @@ sizeof
 uint8
 )
 >
-MAX_SKIP_BYTES
+NJ_MAX_SKIP_PAYLOAD_SZB
 )
 ABORT_TRACE
 (

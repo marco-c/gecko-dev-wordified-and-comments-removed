@@ -3824,6 +3824,10 @@ _nExitIns
 ;
 _nSlot
 =
+(
+int
+*
+)
 pageDataStart
 (
 _nIns
@@ -3990,6 +3994,10 @@ _nIns
 ;
 _nSlot
 =
+(
+int
+*
+)
 pageDataStart
 (
 _nIns
@@ -4010,6 +4018,10 @@ _nSlot
 {
 _nSlot
 =
+(
+int
+*
+)
 pageDataStart
 (
 _nIns
