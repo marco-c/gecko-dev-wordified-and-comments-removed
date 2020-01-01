@@ -15907,9 +15907,9 @@ optimizeQuality
 -
 moz
 -
-disable
+crisp
 -
-resampling
+edges
 "
 ]
 invalid_values

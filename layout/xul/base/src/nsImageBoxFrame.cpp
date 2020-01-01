@@ -1508,6 +1508,13 @@ DrawSingleImage
 &
 aRenderingContext
 imgCon
+nsLayoutUtils
+:
+:
+GetGraphicsFilterForFrame
+(
+this
+)
 rect
 dirty
 hasSubRect

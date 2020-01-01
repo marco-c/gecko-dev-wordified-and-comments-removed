@@ -4475,6 +4475,13 @@ DrawSingleImage
 &
 aRenderingContext
 imgCon
+nsLayoutUtils
+:
+:
+GetGraphicsFilterForFrame
+(
+this
+)
 dest
 aDirtyRect
 )
@@ -5081,6 +5088,13 @@ DrawSingleImage
 &
 aRenderingContext
 aImage
+nsLayoutUtils
+:
+:
+GetGraphicsFilterForFrame
+(
+this
+)
 dest
 aDirtyRect
 )

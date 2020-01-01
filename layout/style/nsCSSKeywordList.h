@@ -3567,10 +3567,10 @@ CSS_KEY
 -
 moz
 -
-disable
+crisp
 -
-resampling
-_moz_disable_resampling
+edges
+_moz_crisp_edges
 )
 #
 endif
