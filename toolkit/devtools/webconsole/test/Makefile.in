@@ -133,6 +133,10 @@ test_object_actor_native_getters_lenient_this
 .
 html
 \
+test_nsiconsolemessage
+.
+html
+\
 network_requests_iframe
 .
 html

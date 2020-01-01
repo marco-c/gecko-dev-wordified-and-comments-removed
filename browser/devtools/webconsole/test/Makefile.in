@@ -561,6 +561,10 @@ browser_console_private_browsing
 .
 js
 \
+browser_console_nsiconsolemessage
+.
+js
+\
 head
 .
 js
