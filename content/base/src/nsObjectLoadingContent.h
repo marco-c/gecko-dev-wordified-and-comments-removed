@@ -505,11 +505,6 @@ aReason
 )
 ;
 bool
-ShouldPreview
-(
-)
-;
-bool
 CheckLoadPolicy
 (
 int16_t

@@ -193,6 +193,10 @@ nsPluginInstanceOwner
 .
 h
 \
+nsPluginPlayPreviewInfo
+.
+h
+\
 (
 NULL
 )
@@ -246,6 +250,10 @@ PluginPRLibrary
 cpp
 \
 nsPluginInstanceOwner
+.
+cpp
+\
+nsPluginPlayPreviewInfo
 .
 cpp
 \

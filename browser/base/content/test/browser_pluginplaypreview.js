@@ -545,6 +545,7 @@ ph
 registerPlayPreviewMimeType
 (
 mimeType
+true
 )
 ;
 var

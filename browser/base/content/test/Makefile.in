@@ -846,6 +846,10 @@ browser_pluginplaypreview
 .
 js
 \
+browser_pluginplaypreview2
+.
+js
+\
 browser_private_browsing_window
 .
 js
@@ -1000,10 +1004,6 @@ browser_urlbarStop
 js
 \
 browser_urlbarTrimURLs
-.
-js
-\
-browser_urlbar_search_healthreport
 .
 js
 \
