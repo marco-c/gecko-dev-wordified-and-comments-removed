@@ -179,10 +179,6 @@ EventListener
 .
 webidl
 \
-EventSource
-.
-webidl
-\
 EventTarget
 .
 webidl
@@ -219,6 +215,10 @@ HTMLCollection
 .
 webidl
 \
+HTMLDivElement
+.
+webidl
+\
 HTMLElement
 .
 webidl
@@ -248,10 +248,6 @@ NodeFilter
 webidl
 \
 NodeList
-.
-webidl
-\
-PaintRequest
 .
 webidl
 \
