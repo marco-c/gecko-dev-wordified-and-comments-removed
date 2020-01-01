@@ -10227,12 +10227,6 @@ XPIDLSRCS
 )
 )
 )
-#
-based
-on
-(
-XPIDL_LINK
-)
 XPT_PY
 ?
 =
