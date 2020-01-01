@@ -4175,6 +4175,14 @@ width
 ;
 }
 #
+infoBoxExpanderLabel
+{
+display
+:
+none
+;
+}
+#
 infoBox
 [
 minimal
