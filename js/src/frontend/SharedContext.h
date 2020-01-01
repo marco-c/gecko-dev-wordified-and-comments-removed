@@ -671,10 +671,6 @@ FunctionBox
 *
 kids
 ;
-FunctionBox
-*
-parent
-;
 Bindings
 bindings
 ;
