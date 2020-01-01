@@ -5819,15 +5819,6 @@ if
 script
 )
 {
-uint32
-tcflags
-=
-TCF_COMPILE_N_GO
-|
-TCF_NEED_MUTABLE_SCRIPT
-|
-TCF_COMPILE_FOR_EVAL
-;
 script
 =
 Compiler
@@ -5839,7 +5830,9 @@ cx
 scopeobj
 callerFrame
 principals
-tcflags
+TCF_COMPILE_N_GO
+|
+TCF_NEED_MUTABLE_SCRIPT
 str
 -
 >
