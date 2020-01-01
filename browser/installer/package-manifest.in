@@ -2709,6 +2709,16 @@ a285
 preview
 .
 png
+BINPATH
+/
+extensions
+/
+uriloader
+pdf
+.
+js
+.
+xpi
 #
 ifdef
 SHIP_FEEDBACK

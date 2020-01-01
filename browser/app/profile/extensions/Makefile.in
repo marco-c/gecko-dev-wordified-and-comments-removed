@@ -431,6 +431,7 @@ autoconf
 mk
 DIRS
 =
+\
 {
 972ce4c6
 -
@@ -442,6 +443,15 @@ a285
 -
 3208198ce6fd
 }
+\
+uriloader
+pdf
+.
+js
+\
+(
+NULL
+)
 include
 (
 topsrcdir
