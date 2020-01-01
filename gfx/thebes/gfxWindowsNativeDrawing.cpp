@@ -33,6 +33,13 @@ gfxAlphaRecovery
 .
 h
 "
+#
+include
+"
+gfxPattern
+.
+h
+"
 enum
 {
 RENDER_STATE_INIT
