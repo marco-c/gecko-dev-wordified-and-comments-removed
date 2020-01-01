@@ -919,6 +919,9 @@ OpusDecoder
 *
 mDecoder
 ;
+int
+mSkip
+;
 private
 :
 void
