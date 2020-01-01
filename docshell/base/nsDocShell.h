@@ -1077,16 +1077,6 @@ PRBool
 aDoHashchange
 )
 ;
-nsresult
-DispatchAsyncHashchange
-(
-)
-;
-nsresult
-FireHashchange
-(
-)
-;
 PRBool
 OnLoadingSite
 (
