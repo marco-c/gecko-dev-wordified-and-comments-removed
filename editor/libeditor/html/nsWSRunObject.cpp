@@ -1051,7 +1051,7 @@ aInOutParent
 int32_t
 *
 aInOutOffset
-nsIDOMDocument
+nsIDocument
 *
 aDoc
 )
