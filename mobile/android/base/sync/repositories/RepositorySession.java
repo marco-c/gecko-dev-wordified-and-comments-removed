@@ -744,7 +744,7 @@ try
 {
 storeWorkQueue
 .
-shutdown
+shutdownNow
 (
 )
 ;
