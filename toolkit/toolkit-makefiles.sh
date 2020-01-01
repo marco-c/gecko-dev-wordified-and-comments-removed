@@ -4990,6 +4990,13 @@ chrome
 Makefile
 layout
 /
+mathml
+/
+tests
+/
+Makefile
+layout
+/
 reftests
 /
 fonts
