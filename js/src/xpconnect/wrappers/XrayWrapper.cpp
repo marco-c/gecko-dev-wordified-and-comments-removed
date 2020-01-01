@@ -362,6 +362,7 @@ js
 GetProxyExtra
 (
 obj
+0
 )
 .
 toObject
