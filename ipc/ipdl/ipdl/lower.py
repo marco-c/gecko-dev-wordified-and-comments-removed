@@ -1693,7 +1693,7 @@ would
 turn
 into
 |
-nsTArray
+Array
 <
 ActorParent
 *
@@ -1887,7 +1887,7 @@ return
 Type
 (
 '
-nsTArray
+InfallibleTArray
 '
 T
 =
@@ -2040,12 +2040,13 @@ return
 ExprBinary
 (
         
-ExprVar
+ExprSelect
 (
+arr
 '
-nsTArray_base
-:
-:
+.
+'
+'
 NoIndex
 '
 )

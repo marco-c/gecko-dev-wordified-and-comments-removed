@@ -12908,7 +12908,7 @@ mBackSurface
 =
 nsnull
 ;
-nsTArray
+InfallibleTArray
 <
 PBrowserStreamChild
 *
