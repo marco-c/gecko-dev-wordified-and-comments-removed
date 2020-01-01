@@ -11,13 +11,6 @@ TelephonyParent
 .
 h
 "
-#
-include
-"
-nsServiceManagerUtils
-.
-h
-"
 USING_TELEPHONY_NAMESPACE
 NS_IMPL_ISUPPORTS1
 (

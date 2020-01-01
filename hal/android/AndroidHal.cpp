@@ -57,13 +57,6 @@ nsIScreenManager
 .
 h
 "
-#
-include
-"
-nsServiceManagerUtils
-.
-h
-"
 using
 namespace
 mozilla
