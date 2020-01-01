@@ -11017,6 +11017,10 @@ getCurrentNetworkInformation
 return
 GeckoNetworkManager
 .
+getInstance
+(
+)
+.
 getCurrentInformation
 (
 )
