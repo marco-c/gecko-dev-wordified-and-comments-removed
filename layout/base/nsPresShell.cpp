@@ -9818,6 +9818,7 @@ nsnull
 root
 0
 nsnull
+PR_FALSE
 )
 ;
 VERIFY_STYLE_TREE
@@ -18888,6 +18889,7 @@ aContainer
 aChild
 aIndexInContainer
 nsnull
+PR_FALSE
 )
 ;
 VERIFY_STYLE_TREE
