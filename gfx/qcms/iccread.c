@@ -586,6 +586,14 @@ src
 if
 (
 major_revision
+!
+=
+0x4
+)
+{
+if
+(
+major_revision
 >
 0x2
 )
@@ -615,6 +623,7 @@ revision
 "
 )
 ;
+}
 if
 (
 reserved1
