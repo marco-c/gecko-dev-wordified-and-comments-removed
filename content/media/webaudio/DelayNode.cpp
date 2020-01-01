@@ -1255,6 +1255,15 @@ aMaxDelay
 AudioNode
 (
 aContext
+2
+ChannelCountMode
+:
+:
+Max
+ChannelInterpretation
+:
+:
+Speakers
 )
 mDelay
 (

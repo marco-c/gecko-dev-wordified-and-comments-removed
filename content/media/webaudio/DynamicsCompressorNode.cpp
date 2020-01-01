@@ -723,6 +723,15 @@ aContext
 AudioNode
 (
 aContext
+2
+ChannelCountMode
+:
+:
+Explicit
+ChannelInterpretation
+:
+:
+Speakers
 )
 mThreshold
 (
