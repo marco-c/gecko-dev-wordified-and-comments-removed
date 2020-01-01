@@ -237,6 +237,15 @@ endif
 #
 endif
 #
+ifdef
+cairo_public
+#
+define
+PIXMAN_EXPORT
+cairo_public
+#
+else
+#
 if
 defined
 (
@@ -292,6 +301,8 @@ else
 #
 define
 PIXMAN_EXPORT
+#
+endif
 #
 endif
 #
