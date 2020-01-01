@@ -11,6 +11,13 @@ jsapi
 .
 h
 "
+#
+include
+"
+nsDebug
+.
+h
+"
 class
 nsAutoJSValHolder
 {
