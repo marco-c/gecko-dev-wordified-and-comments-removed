@@ -13454,6 +13454,13 @@ return
 rv
 ;
 }
+aScriptProto
+-
+>
+UnlinkJSObjects
+(
+)
+;
 NS_ASSERTION
 (
 !
