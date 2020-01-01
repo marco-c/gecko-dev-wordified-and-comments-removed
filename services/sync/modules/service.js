@@ -5063,6 +5063,12 @@ _ignorePrefObserver
 =
 false
 ;
+CollectionKeys
+.
+clear
+(
+)
+;
 Svc
 .
 Prefs
