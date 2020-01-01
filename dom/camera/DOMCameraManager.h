@@ -101,9 +101,13 @@ Attributes
 .
 h
 "
-class
+#
+include
+"
 nsPIDOMWindow
-;
+.
+h
+"
 namespace
 mozilla
 {
