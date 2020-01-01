@@ -2494,6 +2494,9 @@ Height
 )
 )
 ;
+#
+ifndef
+MOZ_GFX_OPTIMIZE_MOBILE
 if
 (
 aContext
@@ -2564,6 +2567,8 @@ doTile
 false
 ;
 }
+#
+endif
 gfxContext
 :
 :
