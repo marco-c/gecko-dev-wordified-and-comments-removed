@@ -333,8 +333,9 @@ Accessible
 *
 aCells
 )
-{
-}
+=
+0
+;
 virtual
 void
 SelectedCellIndices
