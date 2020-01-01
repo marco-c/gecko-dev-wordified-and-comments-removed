@@ -2821,13 +2821,15 @@ containerOpen
 =
 true
 ;
-return
 asContainer
 (
 result
 .
 root
 )
+;
+return
+result
 ;
 }
 showAddBookmarkUI

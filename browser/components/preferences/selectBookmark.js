@@ -220,6 +220,8 @@ selectedNode
 .
 itemId
 )
+.
+root
 ;
 var
 cc
