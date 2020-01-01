@@ -1146,6 +1146,10 @@ return
 FALSE
 ;
 }
+LogFinish
+(
+)
+;
 SERVICE_STATUS
 status
 ;
