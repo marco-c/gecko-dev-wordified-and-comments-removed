@@ -683,6 +683,10 @@ KeyboardEvent
 .
 webidl
 \
+KeyEvent
+.
+webidl
+\
 LinkStyle
 .
 webidl
