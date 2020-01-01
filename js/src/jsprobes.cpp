@@ -78,6 +78,13 @@ h
 #
 include
 "
+jsinterp
+.
+h
+"
+#
+include
+"
 jsobj
 .
 h

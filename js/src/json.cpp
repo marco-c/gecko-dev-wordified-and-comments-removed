@@ -59,6 +59,13 @@ h
 #
 include
 "
+jsinterp
+.
+h
+"
+#
+include
+"
 jsiter
 .
 h
