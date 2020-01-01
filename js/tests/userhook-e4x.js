@@ -116,16 +116,16 @@ wrappedJSObject
 ;
 }
 var
-testcases
+gTestcases
 =
 testwin
 .
-testcases
+gTestcases
 ;
 if
 (
 typeof
-testcases
+gTestcases
 =
 =
 '
@@ -145,7 +145,7 @@ i
 ;
 i
 <
-testcases
+gTestcases
 .
 length
 ;
@@ -157,7 +157,7 @@ i
 var
 testcase
 =
-testcases
+gTestcases
 [
 i
 ]

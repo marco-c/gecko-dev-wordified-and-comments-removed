@@ -1,3 +1,16 @@
+var
+gTestfile
+=
+'
+10
+.
+1
+.
+3
+.
+js
+'
+;
 test
 (
 )

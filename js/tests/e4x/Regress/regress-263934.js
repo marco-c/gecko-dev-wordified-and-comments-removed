@@ -1,3 +1,13 @@
+gTestfile
+=
+'
+regress
+-
+263934
+.
+js
+'
+;
 START
 (
 "
@@ -19,7 +29,7 @@ works
 "
 )
 ;
-BUG
+printBugNumber
 (
 263934
 )

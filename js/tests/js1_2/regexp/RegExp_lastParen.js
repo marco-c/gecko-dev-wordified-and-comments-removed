@@ -1,3 +1,11 @@
+gTestfile
+=
+'
+RegExp_lastParen
+.
+js
+'
+;
 var
 SECTION
 =

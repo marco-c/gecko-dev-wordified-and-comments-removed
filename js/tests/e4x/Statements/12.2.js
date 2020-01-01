@@ -1,3 +1,13 @@
+gTestfile
+=
+'
+12
+.
+2
+.
+js
+'
+;
 START
 (
 "

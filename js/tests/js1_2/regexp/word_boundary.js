@@ -1,3 +1,11 @@
+gTestfile
+=
+'
+word_boundary
+.
+js
+'
+;
 var
 SECTION
 =

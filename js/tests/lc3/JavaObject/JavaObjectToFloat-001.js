@@ -1,3 +1,13 @@
+gTestfile
+=
+'
+JavaObjectToFloat
+-
+001
+.
+js
+'
+;
 var
 SECTION
 =

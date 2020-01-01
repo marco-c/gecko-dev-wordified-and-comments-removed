@@ -1,5 +1,14 @@
 var
-bug
+gTestfile
+=
+'
+template
+.
+js
+'
+;
+var
+BUGNUMBER
 =
 99999
 ;
@@ -39,7 +48,7 @@ test
 ;
 printBugNumber
 (
-bug
+BUGNUMBER
 )
 ;
 printStatus

@@ -1,3 +1,11 @@
+gTestfile
+=
+'
+do_while
+.
+js
+'
+;
 var
 SECTION
 =

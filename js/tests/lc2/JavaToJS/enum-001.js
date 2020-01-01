@@ -1,3 +1,13 @@
+gTestfile
+=
+'
+enum
+-
+001
+.
+js
+'
+;
 var
 SECTION
 =

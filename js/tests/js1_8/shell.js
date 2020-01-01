@@ -1,3 +1,9 @@
+gTestsuite
+=
+'
+js1_8
+'
+;
 if
 (
 typeof

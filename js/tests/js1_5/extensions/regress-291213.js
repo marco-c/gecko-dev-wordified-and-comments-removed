@@ -1,5 +1,16 @@
 var
-bug
+gTestfile
+=
+'
+regress
+-
+291213
+.
+js
+'
+;
+var
+BUGNUMBER
 =
 291213
 ;

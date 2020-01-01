@@ -1,3 +1,13 @@
+gTestfile
+=
+'
+regress
+-
+9141
+.
+js
+'
+;
 var
 SECTION
 =

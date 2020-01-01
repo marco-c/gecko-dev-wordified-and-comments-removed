@@ -1,3 +1,13 @@
+gTestfile
+=
+'
+array
+-
+001
+.
+js
+'
+;
 var
 SECTION
 =
@@ -420,13 +430,6 @@ javaval
 type
 )
 ;
-testcases
-[
-testcases
-.
-length
-]
-=
 new
 TestCase
 (

@@ -1,5 +1,16 @@
 var
-bug
+gTestfile
+=
+'
+pi
+-
+generator
+.
+js
+'
+;
+var
+BUGNUMBER
 =
 "
 (
@@ -26,7 +37,7 @@ expect
 ;
 printBugNumber
 (
-bug
+BUGNUMBER
 )
 ;
 printStatus

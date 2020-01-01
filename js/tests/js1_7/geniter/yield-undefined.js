@@ -1,5 +1,16 @@
 var
-bug
+gTestfile
+=
+'
+yield
+-
+undefined
+.
+js
+'
+;
+var
+BUGNUMBER
 =
 "
 (
@@ -31,7 +42,7 @@ expect
 ;
 printBugNumber
 (
-bug
+BUGNUMBER
 )
 ;
 printStatus

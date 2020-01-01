@@ -1,3 +1,11 @@
+gTestfile
+=
+'
+Function_object
+.
+js
+'
+;
 var
 SECTION
 =

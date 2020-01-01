@@ -1,3 +1,13 @@
+gTestfile
+=
+'
+lexical
+-
+048
+.
+js
+'
+;
 var
 SECTION
 =

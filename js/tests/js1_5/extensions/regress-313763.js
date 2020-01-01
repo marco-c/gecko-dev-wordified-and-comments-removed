@@ -1,5 +1,16 @@
 var
-bug
+gTestfile
+=
+'
+regress
+-
+313763
+.
+js
+'
+;
+var
+BUGNUMBER
 =
 313763
 ;
@@ -28,7 +39,7 @@ expect
 ;
 printBugNumber
 (
-bug
+BUGNUMBER
 )
 ;
 printStatus

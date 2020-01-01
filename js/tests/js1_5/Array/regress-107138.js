@@ -1,4 +1,15 @@
 var
+gTestfile
+=
+'
+regress
+-
+107138
+.
+js
+'
+;
+var
 UBound
 =
 0
@@ -16,7 +27,7 @@ cnDASH
 '
 ;
 var
-bug
+BUGNUMBER
 =
 107138
 ;
@@ -810,7 +821,7 @@ test
 ;
 printBugNumber
 (
-bug
+BUGNUMBER
 )
 ;
 printStatus

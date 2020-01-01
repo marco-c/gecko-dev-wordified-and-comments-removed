@@ -1,3 +1,14 @@
+var
+gTestfile
+=
+'
+fe
+-
+002
+.
+js
+'
+;
 function
 f
 (

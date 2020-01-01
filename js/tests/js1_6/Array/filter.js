@@ -1,5 +1,14 @@
 var
-bug
+gTestfile
+=
+'
+filter
+.
+js
+'
+;
+var
+BUGNUMBER
 =
 "
 364603
@@ -43,7 +52,7 @@ expect
 ;
 printBugNumber
 (
-bug
+BUGNUMBER
 )
 ;
 printStatus

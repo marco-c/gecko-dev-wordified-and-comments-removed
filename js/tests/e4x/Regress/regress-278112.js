@@ -1,3 +1,13 @@
+gTestfile
+=
+'
+regress
+-
+278112
+.
+js
+'
+;
 START
 (
 '
@@ -13,7 +23,7 @@ namespaceDeclarations
 '
 )
 ;
-BUG
+printBugNumber
 (
 '
 278112

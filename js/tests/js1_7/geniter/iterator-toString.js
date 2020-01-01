@@ -1,5 +1,16 @@
 var
-bug
+gTestfile
+=
+'
+iterator
+-
+toString
+.
+js
+'
+;
+var
+BUGNUMBER
 =
 "
 (
@@ -30,7 +41,7 @@ expect
 ;
 printBugNumber
 (
-bug
+BUGNUMBER
 )
 ;
 printStatus

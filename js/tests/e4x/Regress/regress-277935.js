@@ -1,3 +1,13 @@
+gTestfile
+=
+'
+regress
+-
+277935
+.
+js
+'
+;
 START
 (
 '
@@ -14,7 +24,7 @@ node
 '
 )
 ;
-BUG
+printBugNumber
 (
 277935
 )

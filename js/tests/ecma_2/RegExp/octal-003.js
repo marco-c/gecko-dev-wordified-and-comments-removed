@@ -1,3 +1,13 @@
+gTestfile
+=
+'
+octal
+-
+003
+.
+js
+'
+;
 var
 SECTION
 =

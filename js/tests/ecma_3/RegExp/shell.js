@@ -1,3 +1,9 @@
+gTestsubsuite
+=
+'
+RegExp
+'
+;
 var
 MSG_PATTERN
 =
@@ -327,6 +333,7 @@ actualmatch
 .
 length
 ;
+var
 expected
 =
 formatArray
@@ -342,8 +349,10 @@ lActual
 lExpect
 )
 {
-reportFailure
+reportCompare
 (
+lExpect
+lActual
 state
 +
 ERR_LENGTH
@@ -370,8 +379,10 @@ expected
 actual
 )
 {
-reportFailure
+reportCompare
 (
+expected
+actual
 state
 +
 ERR_MATCH
@@ -404,8 +415,10 @@ expected
 =
 expectedmatch
 ;
-reportFailure
+reportCompare
 (
+expected
+actual
 state
 +
 ERR_UNEXP_MATCH
@@ -434,8 +447,10 @@ actual
 =
 actualmatch
 ;
-reportFailure
+reportCompare
 (
+expected
+actual
 state
 +
 ERR_NO_MATCH

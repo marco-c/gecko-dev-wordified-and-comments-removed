@@ -1,3 +1,11 @@
+gTestfile
+=
+'
+proto_12
+.
+js
+'
+;
 var
 SECTION
 =

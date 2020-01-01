@@ -1,3 +1,11 @@
+gTestfile
+=
+'
+RegExp_object
+.
+js
+'
+;
 var
 SECTION
 =

@@ -1,3 +1,15 @@
+gTestfile
+=
+'
+JavaObjectToBoolean
+-
+001
+-
+n
+.
+js
+'
+;
 var
 SECTION
 =

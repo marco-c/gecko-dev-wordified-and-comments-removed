@@ -1,5 +1,16 @@
 var
-bug
+gTestfile
+=
+'
+scope
+-
+001
+.
+js
+'
+;
+var
+BUGNUMBER
 =
 '
 53268
@@ -59,7 +70,7 @@ test
 ;
 printBugNumber
 (
-bug
+BUGNUMBER
 )
 ;
 printStatus

@@ -1,3 +1,17 @@
+gTestfile
+=
+'
+15
+.
+6
+.
+4
+-
+1
+.
+js
+'
+;
 var
 VERSION
 =

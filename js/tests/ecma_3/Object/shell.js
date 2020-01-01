@@ -1,3 +1,9 @@
+gTestsubsuite
+=
+'
+Object
+'
+;
 var
 cnNoObject
 =

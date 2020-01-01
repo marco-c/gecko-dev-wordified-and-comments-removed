@@ -1,3 +1,16 @@
+var
+gTestfile
+=
+'
+regress
+-
+96526
+-
+001
+.
+js
+'
+;
 printBugNumber
 (
 96526

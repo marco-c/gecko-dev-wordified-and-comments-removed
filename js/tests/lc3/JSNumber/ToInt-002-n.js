@@ -1,3 +1,15 @@
+gTestfile
+=
+'
+ToInt
+-
+002
+-
+n
+.
+js
+'
+;
 var
 SECTION
 =

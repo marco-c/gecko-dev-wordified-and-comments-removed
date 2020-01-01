@@ -1,3 +1,13 @@
+gTestfile
+=
+'
+regress
+-
+291930
+.
+js
+'
+;
 START
 (
 "
@@ -12,7 +22,7 @@ discarded
 "
 )
 ;
-BUG
+printBugNumber
 (
 291930
 )

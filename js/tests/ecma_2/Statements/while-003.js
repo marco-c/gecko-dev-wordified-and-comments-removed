@@ -1,3 +1,13 @@
+gTestfile
+=
+'
+while
+-
+003
+.
+js
+'
+;
 var
 SECTION
 =

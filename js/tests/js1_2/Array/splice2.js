@@ -1,3 +1,11 @@
+gTestfile
+=
+'
+splice2
+.
+js
+'
+;
 var
 SECTION
 =

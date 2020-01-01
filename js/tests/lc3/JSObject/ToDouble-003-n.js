@@ -1,3 +1,15 @@
+gTestfile
+=
+'
+ToDouble
+-
+003
+-
+n
+.
+js
+'
+;
 var
 SECTION
 =

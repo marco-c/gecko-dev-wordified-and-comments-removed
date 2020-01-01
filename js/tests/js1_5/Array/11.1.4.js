@@ -1,5 +1,18 @@
 var
-bug
+gTestfile
+=
+'
+11
+.
+1
+.
+4
+.
+js
+'
+;
+var
+BUGNUMBER
 =
 260106
 ;
@@ -40,7 +53,7 @@ array
 ;
 printBugNumber
 (
-bug
+BUGNUMBER
 )
 ;
 printStatus
@@ -71,6 +84,7 @@ array
 [
 1
 ]
+;
 actual
 =
 '
@@ -136,6 +150,7 @@ array
 [
 1
 ]
+;
 actual
 =
 '
@@ -201,6 +216,7 @@ array
 [
 1
 ]
+;
 actual
 =
 '
@@ -266,6 +282,7 @@ array
 [
 1
 ]
+;
 actual
 =
 '

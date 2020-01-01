@@ -1,3 +1,15 @@
+gTestfile
+=
+'
+11
+.
+4
+.
+5
+.
+js
+'
+;
 var
 SECTION
 =

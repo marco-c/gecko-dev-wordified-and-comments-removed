@@ -1,5 +1,16 @@
 var
-bug
+gTestfile
+=
+'
+lexical
+-
+001
+.
+js
+'
+;
+var
+BUGNUMBER
 =
 '
 49233
@@ -598,7 +609,7 @@ test
 ;
 printBugNumber
 (
-bug
+BUGNUMBER
 )
 ;
 printStatus

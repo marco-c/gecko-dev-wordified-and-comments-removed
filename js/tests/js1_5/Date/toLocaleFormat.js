@@ -1,5 +1,14 @@
 var
-bug
+gTestfile
+=
+'
+toLocaleFormat
+.
+js
+'
+;
+var
+BUGNUMBER
 =
 291494
 ;
@@ -39,7 +48,7 @@ test
 ;
 printBugNumber
 (
-bug
+BUGNUMBER
 )
 ;
 printStatus

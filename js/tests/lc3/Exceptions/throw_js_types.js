@@ -1,3 +1,11 @@
+gTestfile
+=
+'
+throw_js_types
+.
+js
+'
+;
 var
 SECTION
 =

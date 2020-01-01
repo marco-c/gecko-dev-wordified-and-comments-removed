@@ -1,5 +1,16 @@
 var
-bug
+gTestfile
+=
+'
+regress
+-
+71107
+.
+js
+'
+;
+var
+BUGNUMBER
 =
 71107
 ;
@@ -16,8 +27,6 @@ function
 -
 nesting
 chain
-.
-.
 .
 '
 ;
@@ -39,7 +48,7 @@ test
 ;
 printBugNumber
 (
-bug
+BUGNUMBER
 )
 ;
 printStatus

@@ -1,3 +1,13 @@
+gTestfile
+=
+'
+JavaObjectToDouble
+-
+001
+.
+js
+'
+;
 var
 SECTION
 =

@@ -1,3 +1,13 @@
+gTestfile
+=
+'
+ToClass
+-
+001
+.
+js
+'
+;
 var
 SECTION
 =

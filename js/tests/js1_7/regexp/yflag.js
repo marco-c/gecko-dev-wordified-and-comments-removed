@@ -1,5 +1,14 @@
 var
-bug
+gTestfile
+=
+'
+yflag
+.
+js
+'
+;
+var
+BUGNUMBER
 =
 371932
 ;
@@ -51,7 +60,7 @@ test
 ;
 printBugNumber
 (
-bug
+BUGNUMBER
 )
 ;
 printStatus

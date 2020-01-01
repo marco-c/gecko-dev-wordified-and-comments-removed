@@ -1,3 +1,13 @@
+gTestfile
+=
+'
+JavaObjectToShort
+-
+006
+.
+js
+'
+;
 var
 SECTION
 =

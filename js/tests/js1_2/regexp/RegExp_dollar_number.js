@@ -1,3 +1,11 @@
+gTestfile
+=
+'
+RegExp_dollar_number
+.
+js
+'
+;
 var
 SECTION
 =

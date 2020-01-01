@@ -1,3 +1,17 @@
+gTestfile
+=
+'
+13
+.
+4
+.
+3
+.
+10
+.
+js
+'
+;
 START
 (
 "
@@ -19,7 +33,7 @@ HasInstance
 "
 )
 ;
-BUG
+printBugNumber
 (
 288027
 )

@@ -1,4 +1,15 @@
 var
+gTestfile
+=
+'
+regress
+-
+123002
+.
+js
+'
+;
+var
 LENGTH_RHINO
 =
 1
@@ -14,7 +25,7 @@ UBound
 0
 ;
 var
-bug
+BUGNUMBER
 =
 123002
 ;
@@ -208,7 +219,7 @@ test
 ;
 printBugNumber
 (
-bug
+BUGNUMBER
 )
 ;
 printStatus

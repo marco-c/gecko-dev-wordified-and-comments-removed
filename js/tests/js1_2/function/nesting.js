@@ -1,3 +1,11 @@
+gTestfile
+=
+'
+nesting
+.
+js
+'
+;
 var
 SECTION
 =

@@ -1,4 +1,15 @@
 var
+gTestfile
+=
+'
+class
+-
+001
+.
+js
+'
+;
+var
 i
 =
 0
@@ -9,7 +20,7 @@ UBound
 0
 ;
 var
-bug
+BUGNUMBER
 =
 '
 (
@@ -436,7 +447,7 @@ test
 ;
 printBugNumber
 (
-bug
+BUGNUMBER
 )
 ;
 printStatus

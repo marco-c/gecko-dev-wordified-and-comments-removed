@@ -1172,7 +1172,7 @@ origtestcases
 =
 gWindow
 .
-testcases
+gTestcases
 ;
 for
 (
