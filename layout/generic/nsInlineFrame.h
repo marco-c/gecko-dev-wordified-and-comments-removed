@@ -284,13 +284,6 @@ GetBaseline
 )
 const
 ;
-virtual
-nscoord
-GetCaretBaseline
-(
-)
-const
-;
 PRBool
 IsLeftMost
 (
