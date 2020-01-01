@@ -1,6 +1,7 @@
 from
 __future__
 import
+absolute_import
 unicode_literals
 import
 argparse
@@ -33,13 +34,6 @@ config
 import
 ConfigSettings
 from
-mozbuild
-.
-logger
-import
-LoggingManager
-from
-mach
 .
 base
 import
@@ -52,7 +46,11 @@ CommandProvider
 Command
 )
 from
-mach
+.
+logging
+import
+LoggingManager
+from
 .
 registrar
 import
