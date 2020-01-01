@@ -959,6 +959,9 @@ bool
 mErrorLoad
 ;
 bool
+mWaitingForOnStopRequest
+;
+bool
 mProgressTimerIsActive
 ;
 bool

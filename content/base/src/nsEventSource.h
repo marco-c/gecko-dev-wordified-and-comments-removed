@@ -452,6 +452,9 @@ mGoingToDispatchAllMessages
 bool
 mWithCredentials
 ;
+bool
+mWaitingForOnStopRequest
+;
 nsCOMPtr
 <
 nsIUnicodeDecoder
