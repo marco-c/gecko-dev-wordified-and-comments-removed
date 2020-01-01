@@ -439,10 +439,6 @@ head
 .
 js
 \
-browser_bug510909
-.
-js
-\
 browser_updatessl
 .
 js
