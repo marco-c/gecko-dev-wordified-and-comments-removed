@@ -666,6 +666,14 @@ aNeedsBold
 aWaitForUserFont
 =
 (
+status
+!
+=
+STATUS_END_OF_LIST
+)
+&
+&
+(
 proxyEntry
 -
 >
