@@ -140,10 +140,10 @@ aContext
 nsIContent
 *
 aBoundElement
-void
+JSObject
 *
 aScriptObject
-void
+JSObject
 *
 aTargetClassObject
 const
