@@ -4979,12 +4979,6 @@ GetUnit
 )
 {
 case
-eStyleUnit_Null
-:
-return
-PR_FALSE
-;
-case
 eStyleUnit_Normal
 :
 aValue
@@ -5104,6 +5098,11 @@ eUnit_Integer
 )
 ;
 break
+;
+default
+:
+return
+PR_FALSE
 ;
 }
 return
