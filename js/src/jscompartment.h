@@ -933,6 +933,15 @@ FINALIZE_LIMIT
 ;
 #
 endif
+JSArenaPool
+pool
+;
+bool
+activeAnalysis
+;
+bool
+activeInference
+;
 js
 :
 :
