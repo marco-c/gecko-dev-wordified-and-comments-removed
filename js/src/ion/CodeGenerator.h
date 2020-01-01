@@ -2205,6 +2205,9 @@ IonScriptCounts
 *
 unassociatedScriptCounts_
 ;
+PerfSpewer
+perfSpewer_
+;
 }
 ;
 }
