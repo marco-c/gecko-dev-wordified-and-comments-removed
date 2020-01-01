@@ -726,10 +726,6 @@ nsIDOMNSHTMLFrameElement
 .
 idl
 \
-nsIDOMNSHTMLHRElement
-.
-idl
-\
 nsIDOMNSHTMLOptionCollectn
 .
 idl
