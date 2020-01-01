@@ -714,6 +714,10 @@ ThumbnailHelper
 .
 java
 \
+VideoPlayer
+.
+java
+\
 WebAppAllocator
 .
 java
@@ -2440,6 +2444,14 @@ res
 layout
 /
 validation_message
+.
+xml
+\
+res
+/
+layout
+/
+videoplayer
 .
 xml
 \
