@@ -15794,9 +15794,6 @@ PR_TRUE
 ;
 if
 (
-aURL
-&
-&
 !
 pluginTag
 )
