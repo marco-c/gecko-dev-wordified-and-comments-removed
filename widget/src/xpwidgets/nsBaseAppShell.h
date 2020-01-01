@@ -93,6 +93,12 @@ NativeEventCallback
 ;
 virtual
 void
+DoProcessMoreGeckoEvents
+(
+)
+;
+virtual
+void
 ScheduleNativeEventCallback
 (
 )
@@ -111,6 +117,9 @@ mayWait
 ;
 PRInt32
 mSuspendNativeCount
+;
+PRUint32
+mEventloopNestingLevel
 ;
 private
 :
@@ -141,9 +150,6 @@ mFavorPerf
 ;
 PRInt32
 mNativeEventPending
-;
-PRUint32
-mEventloopNestingLevel
 ;
 PRIntervalTime
 mStarvationDelay
