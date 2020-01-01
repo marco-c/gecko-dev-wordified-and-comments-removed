@@ -380,13 +380,6 @@ VisitedHandling
 )
 ;
 }
-const
-nsString
-*
-GetLang
-(
-)
-;
 nsEventStates
 ContentState
 (
@@ -465,10 +458,6 @@ mParentData
 ;
 private
 :
-nsString
-*
-mLanguage
-;
 nsEventStates
 mContentState
 ;
