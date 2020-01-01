@@ -6503,6 +6503,10 @@ weight
 (
 FONT_WEIGHT_NORMAL
 )
+stretch
+(
+NS_FONT_STRETCH_NORMAL
+)
 size
 (
 DEFAULT_PIXEL_FONT_SIZE
@@ -6535,6 +6539,8 @@ PRUint8
 aStyle
 PRUint16
 aWeight
+PRInt16
+aStretch
 gfxFloat
 aSize
 const
@@ -6570,6 +6576,10 @@ aFamilyNameQuirks
 weight
 (
 aWeight
+)
+stretch
+(
+aStretch
 )
 size
 (
@@ -6719,6 +6729,12 @@ weight
 aStyle
 .
 weight
+)
+stretch
+(
+aStyle
+.
+stretch
 )
 size
 (

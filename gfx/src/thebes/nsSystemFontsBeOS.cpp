@@ -296,6 +296,13 @@ decorations
 =
 FONT_DECORATION_NONE
 ;
+aFontStyle
+-
+>
+stretch
+=
+NS_FONT_STRETCH_NORMAL
+;
 font_family
 family
 ;

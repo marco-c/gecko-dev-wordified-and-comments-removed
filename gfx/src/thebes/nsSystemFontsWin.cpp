@@ -116,6 +116,13 @@ FONT_WEIGHT_BOLD
 FONT_WEIGHT_NORMAL
 )
 ;
+aFontStyle
+-
+>
+stretch
+=
+NS_FONT_STRETCH_NORMAL
+;
 float
 mPixelScale
 =

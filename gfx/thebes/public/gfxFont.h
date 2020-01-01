@@ -161,6 +161,8 @@ PRUint8
 aStyle
 PRUint16
 aWeight
+PRInt16
+aStretch
 gfxFloat
 aSize
 const
@@ -207,6 +209,9 @@ familyNameQuirks
 ;
 PRUint16
 weight
+;
+PRInt16
+stretch
 ;
 gfxFloat
 size
@@ -408,6 +413,16 @@ weight
 other
 .
 weight
+)
+&
+&
+(
+stretch
+=
+=
+other
+.
+stretch
 )
 &
 &

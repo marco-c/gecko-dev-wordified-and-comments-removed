@@ -204,6 +204,9 @@ style
 aFont
 .
 weight
+aFont
+.
+stretch
 size
 langGroup
 aFont

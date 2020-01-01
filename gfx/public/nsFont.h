@@ -120,6 +120,9 @@ familyNameQuirks
 PRUint16
 weight
 ;
+PRInt16
+stretch
+;
 PRUint8
 decorations
 ;
@@ -141,6 +144,8 @@ PRUint8
 aVariant
 PRUint16
 aWeight
+PRInt16
+aStretch
 PRUint8
 aDecoration
 nscoord
@@ -165,6 +170,8 @@ PRUint8
 aVariant
 PRUint16
 aWeight
+PRInt16
+aStretch
 PRUint8
 aDecoration
 nscoord

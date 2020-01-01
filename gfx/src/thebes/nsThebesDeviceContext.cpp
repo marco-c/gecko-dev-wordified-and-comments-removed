@@ -1656,6 +1656,15 @@ weight
 aFont
 -
 >
+stretch
+=
+fontStyle
+.
+stretch
+;
+aFont
+-
+>
 decorations
 =
 NS_FONT_DECORATION_NONE

@@ -236,6 +236,13 @@ weight
 aFontStyle
 -
 >
+stretch
+=
+NS_FONT_STRETCH_NORMAL
+;
+aFontStyle
+-
+>
 size
 =
 qFont

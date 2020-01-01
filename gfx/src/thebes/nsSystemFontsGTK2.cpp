@@ -715,6 +715,13 @@ pango_font_description_get_weight
 desc
 )
 ;
+aFontStyle
+-
+>
+stretch
+=
+NS_FONT_STRETCH_NORMAL
+;
 float
 size
 =

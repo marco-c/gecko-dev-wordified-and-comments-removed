@@ -5330,6 +5330,9 @@ style
 font
 .
 weight
+font
+.
+stretch
 textRunSize
 langGroup
 font

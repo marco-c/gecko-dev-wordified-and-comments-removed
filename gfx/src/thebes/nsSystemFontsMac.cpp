@@ -371,6 +371,13 @@ weight
 =
 FONT_WEIGHT_NORMAL
 ;
+aFontStyle
+-
+>
+stretch
+=
+NS_FONT_STRETCH_NORMAL
+;
 aFontName
 -
 >

@@ -255,6 +255,7 @@ gfxFontStyle
 style_western_normal_16
 (
 FONT_STYLE_NORMAL
+NS_FONT_STRETCH_NORMAL
 400
 16
 .

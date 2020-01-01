@@ -8283,6 +8283,7 @@ fontStyle
 (
 style
 weight
+NS_FONT_STRETCH_NORMAL
 size
 langGroup
 0

@@ -685,6 +685,13 @@ weight
 FONT_WEIGHT_NORMAL
 ;
 }
+aFontStyle
+-
+>
+stretch
+=
+NS_FONT_STRETCH_NORMAL
+;
 NS_NAMED_LITERAL_CSTRING
 (
 spcItalic
