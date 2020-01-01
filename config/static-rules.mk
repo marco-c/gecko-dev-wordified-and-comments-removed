@@ -44,10 +44,9 @@ nsStaticComponents
 cpp
 .
 in
-Makefile
-Makefile
-.
-in
+(
+GLOBAL_DEPS
+)
 (
 FINAL_LINK_COMP_NAMES
 )

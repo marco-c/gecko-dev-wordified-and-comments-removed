@@ -1139,10 +1139,9 @@ nsMetaModule
 cpp
 .
 in
-Makefile
-Makefile
-.
-in
+(
+GLOBAL_DEPS
+)
 (
 topsrcdir
 )

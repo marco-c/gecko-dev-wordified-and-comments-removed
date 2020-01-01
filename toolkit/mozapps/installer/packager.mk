@@ -2298,10 +2298,9 @@ MOZ_PKG_REMOVALS_GEN
 (
 MOZ_PKG_REMOVALS
 )
-Makefile
-Makefile
-.
-in
+(
+GLOBAL_DEPS
+)
 (
 PYTHON
 )
