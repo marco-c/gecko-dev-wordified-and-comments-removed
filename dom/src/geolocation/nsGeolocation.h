@@ -583,7 +583,7 @@ nsGeolocation
 (
 )
 ;
-void
+bool
 RegisterRequestWithPrompt
 (
 nsGeolocationRequest
