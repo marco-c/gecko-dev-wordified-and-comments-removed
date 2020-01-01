@@ -69,7 +69,7 @@ mDestroyCalled
 (
 PR_FALSE
 )
-mNeedsAsyncDestroy
+mInDestructor
 (
 PR_FALSE
 )
@@ -84,7 +84,7 @@ nsFrameLoader
 (
 )
 {
-mNeedsAsyncDestroy
+mInDestructor
 =
 PR_TRUE
 ;
@@ -214,7 +214,7 @@ mDestroyCalled
 1
 ;
 PRPackedBool
-mNeedsAsyncDestroy
+mInDestructor
 :
 1
 ;
