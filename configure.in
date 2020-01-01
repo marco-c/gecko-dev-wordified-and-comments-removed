@@ -47813,7 +47813,6 @@ AC_DEFINE
 MOZ_CRASHREPORTER
 )
 if
-(
 test
 "
 OS_TARGET
@@ -47831,7 +47830,6 @@ OS_ARCH
 "
 SunOS
 "
-)
 &
 &
 \
@@ -47910,7 +47908,6 @@ reporter
 )
 fi
 if
-(
 test
 "
 OS_ARCH
@@ -47920,7 +47917,6 @@ OS_ARCH
 "
 HOST_OS_ARCH
 "
-)
 ;
 then
 AC_MSG_ERROR
