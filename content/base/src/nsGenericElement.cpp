@@ -19307,6 +19307,7 @@ manager
 =
 GetEventListenerManagerForAttr
 (
+aEventName
 &
 defer
 )
@@ -20511,6 +20512,9 @@ nsGenericElement
 :
 GetEventListenerManagerForAttr
 (
+nsIAtom
+*
+aAttrName
 PRBool
 *
 aDefer

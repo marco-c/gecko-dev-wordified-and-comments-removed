@@ -2059,6 +2059,9 @@ nsEventListenerManager
 *
 GetEventListenerManagerForAttr
 (
+nsIAtom
+*
+aAttrName
 PRBool
 *
 aDefer

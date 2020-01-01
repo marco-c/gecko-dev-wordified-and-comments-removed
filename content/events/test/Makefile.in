@@ -723,6 +723,10 @@ empty
 .
 js
 \
+test_bug689564
+.
+html
+\
 (
 NULL
 )
