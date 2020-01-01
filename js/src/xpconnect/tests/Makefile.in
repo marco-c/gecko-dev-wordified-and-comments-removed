@@ -434,6 +434,7 @@ DIRS
 idl
 mochitest
 chrome
+components
 XPCSHELL_TESTS
 =
 unit
@@ -480,10 +481,3 @@ config
 rules
 .
 mk
-DEFINES
-+
-=
--
-DJS_THREADSAFE
--
-DJSFILE
