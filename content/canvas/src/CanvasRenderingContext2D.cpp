@@ -2432,10 +2432,6 @@ NS_INTERFACE_MAP_ENTRY_AMBIGUOUS
 nsISupports
 nsICanvasRenderingContextInternal
 )
-NS_DOM_INTERFACE_MAP_ENTRY_CLASSINFO
-(
-CanvasRenderingContext2D
-)
 NS_INTERFACE_MAP_END
 uint32_t
 CanvasRenderingContext2D

@@ -1063,10 +1063,6 @@ HTMLCanvasElement
 )
 DOMCI_CLASS
 (
-CanvasRenderingContext2D
-)
-DOMCI_CLASS
-(
 CanvasGradient
 )
 DOMCI_CLASS
