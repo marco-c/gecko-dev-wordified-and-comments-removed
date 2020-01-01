@@ -127,14 +127,6 @@ Create
 )
 COMPONENT
 (
-XPCOMPROXY
-nsProxyObjectManager
-:
-:
-Create
-)
-COMPONENT
-(
 TIMER
 nsTimerImplConstructor
 )

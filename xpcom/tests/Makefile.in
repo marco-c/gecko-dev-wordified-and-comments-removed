@@ -671,11 +671,6 @@ TestPriorityQueue
 cpp
 \
 #
-TestProxies
-.
-cpp
-\
-#
 TestStorageStream
 .
 cpp
