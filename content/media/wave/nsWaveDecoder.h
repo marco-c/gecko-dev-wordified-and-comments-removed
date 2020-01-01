@@ -300,16 +300,6 @@ DecodeError
 (
 )
 ;
-void
-RegisterShutdownObserver
-(
-)
-;
-void
-UnregisterShutdownObserver
-(
-)
-;
 float
 mInitialVolume
 ;

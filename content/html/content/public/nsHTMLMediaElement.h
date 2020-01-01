@@ -54,6 +54,13 @@ nsILoadGroup
 .
 h
 "
+#
+include
+"
+nsIObserver
+.
+h
+"
 typedef
 PRUint16
 nsMediaNetworkState
@@ -67,6 +74,8 @@ nsHTMLMediaElement
 :
 public
 nsGenericHTMLElement
+public
+nsIObserver
 {
 public
 :
@@ -100,6 +109,7 @@ aListener
 )
 ;
 NS_DECL_NSIDOMHTMLMEDIAELEMENT
+NS_DECL_NSIOBSERVER
 NS_DECL_ISUPPORTS_INHERITED
 NS_DECL_CYCLE_COLLECTION_CLASS_INHERITED
 (
@@ -649,15 +659,10 @@ AddRemoveSelfReference
 )
 ;
 void
-DoRelease
-(
-)
-{
-Release
+DoRemoveSelfReference
 (
 )
 ;
-}
 nsRefPtr
 <
 nsMediaDecoder
@@ -770,6 +775,9 @@ mHasPlayedOrSeeked
 ;
 PRPackedBool
 mHasSelfReference
+;
+PRPackedBool
+mShuttingDown
 ;
 nsRefPtr
 <

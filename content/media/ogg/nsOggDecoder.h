@@ -479,16 +479,6 @@ GetDownloadPosition
 private
 :
 void
-RegisterShutdownObserver
-(
-)
-;
-void
-UnregisterShutdownObserver
-(
-)
-;
-void
 DecodeError
 (
 )
