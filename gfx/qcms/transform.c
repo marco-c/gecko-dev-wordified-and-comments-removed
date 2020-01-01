@@ -7685,6 +7685,11 @@ return
 ;
 if
 (
+qcms_supports_iccv4
+)
+{
+if
+(
 profile
 -
 >
@@ -7701,6 +7706,7 @@ mBA
 )
 return
 ;
+}
 if
 (
 !
