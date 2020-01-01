@@ -465,6 +465,13 @@ id
 "
 crlviewer
 "
+windowtype
+=
+"
+mozilla
+:
+crlmanager
+"
 title
 =
 "
