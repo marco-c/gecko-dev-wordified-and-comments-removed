@@ -2418,6 +2418,14 @@ res
 /
 drawable
 /
+address_bar_forward_button
+.
+xml
+\
+res
+/
+drawable
+/
 address_bar_texture_port
 .
 png
