@@ -1678,7 +1678,7 @@ bool
 initCapacity
 (
 size_t
-capacity
+request
 )
 ;
 bool
@@ -2825,7 +2825,7 @@ AP
 initCapacity
 (
 size_t
-capacity
+request
 )
 {
 JS_ASSERT
@@ -2844,7 +2844,7 @@ usingInlineStorage
 ;
 if
 (
-capacity
+request
 =
 =
 0
@@ -2867,7 +2867,7 @@ this
 >
 malloc_
 (
-capacity
+request
 *
 sizeof
 (
@@ -2890,14 +2890,14 @@ newbuf
 ;
 mCapacity
 =
-capacity
+request
 ;
 #
 ifdef
 DEBUG
 mReserved
 =
-capacity
+request
 ;
 #
 endif
