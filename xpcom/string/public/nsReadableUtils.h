@@ -447,6 +447,10 @@ const
 nsACString
 &
 aString
+PRBool
+aRejectNonChar
+=
+PR_TRUE
 )
 ;
 PRBool

@@ -1920,6 +1920,8 @@ const
 nsACString
 &
 aString
+PRBool
+aRejectNonChar
 )
 {
 nsReadingIterator
@@ -2184,6 +2186,18 @@ return
 PR_FALSE
 ;
 }
+if
+(
+nonchar
+&
+&
+!
+aRejectNonChar
+)
+nonchar
+=
+PR_FALSE
+;
 while
 (
 ptr

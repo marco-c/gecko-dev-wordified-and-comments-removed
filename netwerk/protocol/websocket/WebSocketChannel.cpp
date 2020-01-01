@@ -3751,6 +3751,7 @@ if
 IsUTF8
 (
 utf8Data
+PR_FALSE
 )
 )
 {
@@ -3963,6 +3964,7 @@ if
 IsUTF8
 (
 mServerCloseReason
+PR_FALSE
 )
 )
 {
