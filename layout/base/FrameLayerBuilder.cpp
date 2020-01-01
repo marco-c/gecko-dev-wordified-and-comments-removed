@@ -5026,6 +5026,15 @@ mYScale
 .
 00001
 )
+|
+|
+data
+-
+>
+mAppUnitsPerDevPixel
+!
+=
+mAppUnitsPerDevPixel
 )
 {
 InvalidateEntireThebesLayer
