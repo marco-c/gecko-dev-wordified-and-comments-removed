@@ -230,6 +230,15 @@ return
 mWindowId
 ;
 }
+PRBool
+HasError
+(
+)
+{
+return
+mError
+;
+}
 protected
 :
 Image

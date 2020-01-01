@@ -1018,7 +1018,7 @@ mLockCount
 DiscardTrackerNode
 mDiscardTrackerNode
 ;
-nsTArray
+FallibleTArray
 <
 char
 >
