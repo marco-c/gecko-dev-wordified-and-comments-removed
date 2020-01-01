@@ -1118,6 +1118,14 @@ MAKE_SYM_STORE_ARGS
 =
 -
 c
+ifdef
+PDBSTR_PATH
+MAKE_SYM_STORE_ARGS
++
+=
+-
+i
+endif
 ifeq
 (
 (
