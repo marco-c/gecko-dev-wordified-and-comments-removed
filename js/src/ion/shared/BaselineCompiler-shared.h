@@ -66,6 +66,9 @@ masm
 bool
 ionCompileable_
 ;
+bool
+debugMode_
+;
 FrameInfo
 frame
 ;

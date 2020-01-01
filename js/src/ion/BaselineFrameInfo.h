@@ -38,6 +38,13 @@ h
 #
 include
 "
+BaselineFrame
+.
+h
+"
+#
+include
+"
 BaselineRegisters
 .
 h
@@ -45,8 +52,6 @@ h
 #
 include
 "
-ion
-/
 IonMacroAssembler
 .
 h
