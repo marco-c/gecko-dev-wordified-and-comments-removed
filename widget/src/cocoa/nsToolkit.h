@@ -107,6 +107,10 @@ SEL
 orgMethod
 SEL
 posedMethod
+PRBool
+classMethods
+=
+PR_FALSE
 )
 ;
 protected
