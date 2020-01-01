@@ -1090,6 +1090,9 @@ DeviceManagerD3D9
 :
 :
 RGBALAYER
+GetMaskLayer
+(
+)
 )
 ;
 }
@@ -1104,6 +1107,9 @@ DeviceManagerD3D9
 :
 :
 RGBLAYER
+GetMaskLayer
+(
+)
 )
 ;
 }

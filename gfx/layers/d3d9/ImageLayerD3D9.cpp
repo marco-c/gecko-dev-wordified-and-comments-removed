@@ -2366,6 +2366,9 @@ DeviceManagerD3D9
 :
 :
 YCBCRLAYER
+GetMaskLayer
+(
+)
 )
 ;
 if
@@ -3172,6 +3175,9 @@ DeviceManagerD3D9
 :
 :
 YCBCRLAYER
+GetMaskLayer
+(
+)
 )
 ;
 if
