@@ -186,7 +186,7 @@ NS_INTERFACE_TABLE_HEAD
 (
 nsSVGImageElement
 )
-NS_NODE_INTERFACE_TABLE9
+NS_NODE_INTERFACE_TABLE8
 (
 nsSVGImageElement
 nsIDOMNode
@@ -197,7 +197,6 @@ nsIDOMSVGImageElement
 nsIDOMSVGURIReference
 imgIDecoderObserver
 nsIImageLoadingContent
-imgIOnloadBlocker
 )
 NS_DOM_INTERFACE_MAP_ENTRY_CLASSINFO
 (

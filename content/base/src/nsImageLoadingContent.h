@@ -21,13 +21,6 @@ h
 #
 include
 "
-imgIOnloadBlocker
-.
-h
-"
-#
-include
-"
 mozilla
 /
 CORSMode
@@ -86,8 +79,6 @@ nsImageLoadingContent
 :
 public
 nsIImageLoadingContent
-public
-imgIOnloadBlocker
 {
 public
 :
@@ -104,7 +95,6 @@ nsImageLoadingContent
 NS_DECL_IMGICONTAINEROBSERVER
 NS_DECL_IMGIDECODEROBSERVER
 NS_DECL_NSIIMAGELOADINGCONTENT
-NS_DECL_IMGIONLOADBLOCKER
 protected
 :
 nsresult
@@ -545,6 +535,11 @@ mUserDisabled
 ;
 bool
 mSuppressed
+:
+1
+;
+bool
+mBlockingOnload
 :
 1
 ;

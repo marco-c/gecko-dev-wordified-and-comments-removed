@@ -278,7 +278,7 @@ STOP_DECODE
 ;
 aRequest
 .
-cancelAndForgetObserver
+cancel
 (
 0
 )

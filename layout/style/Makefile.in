@@ -620,10 +620,6 @@ GroupRule
 .
 h
 \
-ImageLoader
-.
-h
-\
 ImportRule
 .
 h
@@ -667,10 +663,6 @@ Declaration
 cpp
 \
 nsCSSKeywords
-.
-cpp
-\
-ImageLoader
 .
 cpp
 \

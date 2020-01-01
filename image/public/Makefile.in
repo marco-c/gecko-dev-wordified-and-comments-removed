@@ -453,10 +453,6 @@ imgILoader
 .
 idl
 \
-imgIOnloadBlocker
-.
-idl
-\
 imgIRequest
 .
 idl
