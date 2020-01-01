@@ -5806,14 +5806,6 @@ QMouseEvent
 aEvent
 )
 {
-mDrawingarea
--
->
-setCursor
-(
-mQCursor
-)
-;
 PRUint16
 domButton
 ;
