@@ -2767,6 +2767,17 @@ EventNameType_HTML
 }
 #
 endif
+{
+&
+nsGkAtoms
+:
+:
+onMozAfterPaint
+{
+NS_AFTERPAINT
+EventNameType_None
+}
+}
 }
 ;
 sEventTable

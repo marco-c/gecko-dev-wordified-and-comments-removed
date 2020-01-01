@@ -791,7 +791,6 @@ mFrame
 Invalidate
 (
 bounds
-PR_FALSE
 )
 ;
 }

@@ -5126,7 +5126,6 @@ aFrame
 Invalidate
 (
 rect
-PR_FALSE
 )
 ;
 }

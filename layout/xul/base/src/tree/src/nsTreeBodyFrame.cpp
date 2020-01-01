@@ -2949,15 +2949,8 @@ mUpdateBatchNest
 return
 NS_OK
 ;
-nsIFrame
-:
-:
-Invalidate
+InvalidateOverflowRect
 (
-GetOverflowRect
-(
-)
-PR_FALSE
 )
 ;
 return
@@ -3080,7 +3073,6 @@ nsIFrame
 Invalidate
 (
 columnRect
-PR_FALSE
 )
 ;
 return
@@ -3183,7 +3175,6 @@ nsLeafBoxFrame
 Invalidate
 (
 rowRect
-PR_FALSE
 )
 ;
 return
@@ -3327,7 +3318,6 @@ nsIFrame
 Invalidate
 (
 cellRect
-PR_FALSE
 )
 ;
 return
@@ -3510,7 +3500,6 @@ nsIFrame
 Invalidate
 (
 rangeRect
-PR_FALSE
 )
 ;
 return
@@ -3727,7 +3716,6 @@ nsIFrame
 Invalidate
 (
 rangeRect
-PR_FALSE
 )
 ;
 return

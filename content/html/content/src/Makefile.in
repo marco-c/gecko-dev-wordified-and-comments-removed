@@ -492,6 +492,10 @@ nsImageMapUtils
 .
 h
 \
+nsClientRect
+.
+h
+\
 (
 NULL
 )

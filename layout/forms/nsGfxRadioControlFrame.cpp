@@ -786,12 +786,8 @@ PRBool
 aChecked
 )
 {
-Invalidate
+InvalidateOverflowRect
 (
-GetOverflowRect
-(
-)
-PR_FALSE
 )
 ;
 return

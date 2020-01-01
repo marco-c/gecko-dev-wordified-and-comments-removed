@@ -2219,7 +2219,6 @@ PR_FALSE
 Invalidate
 (
 r
-PR_FALSE
 )
 ;
 return
@@ -2361,7 +2360,6 @@ endif
 Invalidate
 (
 r
-PR_FALSE
 )
 ;
 return
@@ -2635,7 +2633,6 @@ height
 Invalidate
 (
 r
-PR_FALSE
 )
 ;
 }
@@ -2703,7 +2700,6 @@ aDirtyRect
 Invalidate
 (
 r
-PR_FALSE
 )
 ;
 return
@@ -3579,7 +3575,6 @@ mRect
 .
 height
 )
-PR_FALSE
 )
 ;
 }

@@ -537,6 +537,10 @@ nsIDOMMessageEvent
 .
 idl
 \
+nsIDOMNotifyPaintEvent
+.
+idl
+\
 (
 NULL
 )

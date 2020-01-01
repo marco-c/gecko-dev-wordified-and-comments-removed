@@ -210,6 +210,7 @@ eDOMEvents_durationchange
 eDOMEvents_volumechange
 #
 endif
+eDOMEvents_afterpaint
 }
 ;
 nsDOMEvent

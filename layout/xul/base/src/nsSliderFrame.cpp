@@ -2873,10 +2873,14 @@ SetRect
 newThumbRect
 )
 ;
-Invalidate
+InvalidateWithFlags
 (
 clientRect
 aImmediateRedraw
+?
+INVALIDATE_IMMEDIATE
+:
+0
 )
 ;
 if

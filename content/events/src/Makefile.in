@@ -575,6 +575,10 @@ nsDOMDataTransfer
 .
 cpp
 \
+nsDOMNotifyPaintEvent
+.
+cpp
+\
 (
 NULL
 )

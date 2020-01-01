@@ -1475,7 +1475,6 @@ aOldFrame
 GetPosition
 (
 )
-PR_FALSE
 )
 ;
 mFrames

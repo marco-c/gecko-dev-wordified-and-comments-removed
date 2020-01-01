@@ -13538,7 +13538,6 @@ mFrame
 Invalidate
 (
 bounds
-PR_FALSE
 )
 ;
 }
@@ -22675,12 +22674,8 @@ NS_FRAME_IS_DIRTY
 )
 ;
 }
-Invalidate
+InvalidateOverflowRect
 (
-GetOverflowRect
-(
-)
-PR_FALSE
 )
 ;
 }

@@ -344,6 +344,7 @@ eDOMClassInfo_ProgressEvent_id
 eDOMClassInfo_XMLHttpRequestUpload_id
 eDOMClassInfo_NodeIterator_id
 eDOMClassInfo_DataTransfer_id
+eDOMClassInfo_NotifyPaintEvent_id
 eDOMClassInfoIDCount
 }
 ;

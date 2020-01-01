@@ -4900,7 +4900,6 @@ imgFrame
 Invalidate
 (
 dmgRect
-PR_FALSE
 )
 ;
 }

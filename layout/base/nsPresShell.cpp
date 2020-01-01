@@ -17888,7 +17888,6 @@ rootFrame
 Invalidate
 (
 rect
-PR_FALSE
 )
 ;
 }

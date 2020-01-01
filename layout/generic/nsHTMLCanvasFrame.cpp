@@ -585,7 +585,6 @@ mRect
 .
 height
 )
-PR_FALSE
 )
 ;
 }

@@ -2254,7 +2254,6 @@ frame
 Invalidate
 (
 r
-PR_FALSE
 )
 ;
 }
@@ -2294,7 +2293,6 @@ frame
 Invalidate
 (
 damageRect
-PR_FALSE
 )
 ;
 }

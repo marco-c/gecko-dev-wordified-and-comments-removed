@@ -2252,12 +2252,8 @@ GetTableCellSelection
 )
 )
 {
-Invalidate
+InvalidateOverflowRect
 (
-GetOverflowRect
-(
-)
-PR_FALSE
 )
 ;
 }
@@ -4169,12 +4165,8 @@ GetStateBits
 NS_FRAME_IS_DIRTY
 )
 {
-Invalidate
+InvalidateOverflowRect
 (
-GetOverflowRect
-(
-)
-PR_FALSE
 )
 ;
 }

@@ -2297,8 +2297,8 @@ aY
 nsIFrame
 *
 aForChild
-PRBool
-aImmediate
+PRUint32
+aFlags
 )
 {
 const
@@ -2355,7 +2355,7 @@ r
 aX
 aY
 this
-aImmediate
+aFlags
 )
 ;
 }
@@ -2371,7 +2371,7 @@ aDamageRect
 aX
 aY
 this
-aImmediate
+aFlags
 )
 ;
 }
