@@ -95,15 +95,7 @@ AccessibleWrap
 .
 mm
 \
-ApplicationAccessibleWrap
-.
-mm
-\
 DocAccessibleWrap
-.
-mm
-\
-nsAccessNodeWrap
 .
 mm
 \
@@ -128,6 +120,10 @@ mozHTMLAccessible
 mm
 \
 MacUtils
+.
+mm
+\
+Platform
 .
 mm
 \

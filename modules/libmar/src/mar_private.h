@@ -167,6 +167,13 @@ define
 PIB_MAX_PRODUCT_VERSION_SIZE
 31
 #
+include
+<
+stdio
+.
+h
+>
+#
 ifdef
 XP_WIN
 #
@@ -208,13 +215,6 @@ h
 >
 #
 endif
-#
-include
-<
-stdio
-.
-h
->
 #
 define
 HOST_TO_NETWORK64

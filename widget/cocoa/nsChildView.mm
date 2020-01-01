@@ -387,6 +387,17 @@ nsAccessibilityService
 h
 "
 #
+include
+"
+mozilla
+/
+a11y
+/
+Platform
+.
+h
+"
+#
 endif
 #
 include

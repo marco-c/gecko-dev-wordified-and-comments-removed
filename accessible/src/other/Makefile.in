@@ -91,11 +91,11 @@ LIBXUL_LIBRARY
 CPPSRCS
 =
 \
-nsAccessNodeWrap
+AccessibleWrap
 .
 cpp
 \
-AccessibleWrap
+Platform
 .
 cpp
 \

@@ -107,10 +107,6 @@ DocAccessibleWrap
 .
 cpp
 \
-nsAccessNodeWrap
-.
-cpp
-\
 nsMaiInterfaceComponent
 .
 cpp
@@ -156,6 +152,10 @@ nsMaiInterfaceDocument
 cpp
 \
 nsMaiInterfaceImage
+.
+cpp
+\
+Platform
 .
 cpp
 \
