@@ -1508,7 +1508,7 @@ IDBIndex
 :
 mId
 (
-LL_MININT
+INT64_MIN
 )
 mKeyPath
 (

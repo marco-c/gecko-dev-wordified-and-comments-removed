@@ -590,7 +590,7 @@ mEvictionFunction
 #
 define
 DCACHE_HASH_MAX
-LL_MAXINT
+INT64_MAX
 #
 define
 DCACHE_HASH_BITS

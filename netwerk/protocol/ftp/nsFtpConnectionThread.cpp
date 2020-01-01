@@ -323,7 +323,7 @@ false
 )
 mFileSize
 (
-LL_MAXUINT
+UINT64_MAX
 )
 mServerType
 (

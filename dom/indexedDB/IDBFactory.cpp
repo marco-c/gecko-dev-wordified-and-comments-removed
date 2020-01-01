@@ -297,7 +297,7 @@ ObjectStoreInfoMap
 :
 id
 (
-LL_MININT
+INT64_MIN
 )
 info
 (

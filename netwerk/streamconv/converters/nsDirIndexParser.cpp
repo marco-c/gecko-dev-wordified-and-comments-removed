@@ -1336,7 +1336,7 @@ aIdx
 >
 SetSize
 (
-LL_MAXUINT
+UINT64_MAX
 )
 ;
 }

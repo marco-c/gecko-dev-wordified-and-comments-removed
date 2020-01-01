@@ -1958,7 +1958,7 @@ if
 mLocation
 =
 =
-LL_MAXUINT
+UINT64_MAX
 )
 {
 *
@@ -2022,7 +2022,7 @@ aLocation
 {
 mLocation
 =
-LL_MAXUINT
+UINT64_MAX
 ;
 return
 NS_OK
@@ -2290,7 +2290,7 @@ if
 mLocation
 =
 =
-LL_MAXUINT
+UINT64_MAX
 )
 {
 return
@@ -2444,7 +2444,7 @@ if
 mLocation
 =
 =
-LL_MAXUINT
+UINT64_MAX
 )
 {
 return
@@ -2699,7 +2699,7 @@ NS_ASSERTION
 aSize
 !
 =
-LL_MAXUINT
+UINT64_MAX
 "
 Passed
 wrong
@@ -2720,7 +2720,7 @@ if
 mLocation
 =
 =
-LL_MAXUINT
+UINT64_MAX
 )
 {
 return
@@ -3255,7 +3255,7 @@ aAppend
 mLocation
 =
 =
-LL_MAXUINT
+UINT64_MAX
 )
 {
 return
@@ -3335,7 +3335,7 @@ location
 =
 aAppend
 ?
-LL_MAXUINT
+UINT64_MAX
 :
 mLocation
 ;
@@ -3377,7 +3377,7 @@ aAppend
 {
 mLocation
 =
-LL_MAXUINT
+UINT64_MAX
 ;
 }
 else

@@ -177,13 +177,13 @@ name
 nsCString
 origin
 ;
-PRUint64
+uint64_t
 version
 ;
-PRInt64
+int64_t
 nextObjectStoreId
 ;
-PRInt64
+int64_t
 nextIndexId
 ;
 }
@@ -360,7 +360,7 @@ IndexInfo
 :
 id
 (
-LL_MININT
+INT64_MIN
 )
 keyPath
 (
@@ -450,7 +450,7 @@ multiEntry
 nsString
 name
 ;
-PRInt64
+int64_t
 id
 ;
 KeyPath
@@ -524,7 +524,7 @@ id
 nsString
 name
 ;
-PRInt64
+int64_t
 id
 ;
 KeyPath
@@ -601,10 +601,10 @@ ObjectStoreInfo
 endif
 public
 :
-PRInt64
+int64_t
 nextAutoIncrementId
 ;
-PRInt64
+int64_t
 comittedAutoIncrementId
 ;
 NS_INLINE_DECL_THREADSAFE_REFCOUNTING
@@ -685,7 +685,7 @@ value
 ;
 }
 ;
-PRInt64
+int64_t
 indexId
 ;
 bool

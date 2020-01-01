@@ -44,7 +44,7 @@ mStatus
 )
 mContentLength
 (
-LL_MAXUINT
+UINT64_MAX
 )
 mCacheControlNoStore
 (

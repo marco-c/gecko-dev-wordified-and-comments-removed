@@ -2950,7 +2950,7 @@ NS_ASSERTION
 aObjectDataId
 !
 =
-LL_MININT
+INT64_MIN
 "
 Bad
 objectData
@@ -6463,7 +6463,7 @@ IDBObjectStore
 :
 mId
 (
-LL_MININT
+INT64_MIN
 )
 mKeyPath
 (

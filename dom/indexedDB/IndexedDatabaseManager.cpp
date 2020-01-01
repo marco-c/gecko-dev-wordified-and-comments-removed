@@ -7151,7 +7151,7 @@ aDelta
 if
 (
 (
-LL_MAXINT
+INT64_MAX
 -
 *
 aUsage
@@ -7178,7 +7178,7 @@ report
 *
 aUsage
 =
-LL_MAXINT
+INT64_MAX
 ;
 }
 else

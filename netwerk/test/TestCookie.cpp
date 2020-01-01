@@ -6985,7 +6985,7 @@ yes
 false
 false
 true
-LL_MAXINT
+INT64_MAX
 )
 )
 ;
@@ -7083,7 +7083,7 @@ yes
 false
 false
 true
-LL_MAXINT
+INT64_MAX
 )
 )
 ;
@@ -7491,7 +7491,7 @@ yes
 false
 false
 true
-LL_MININT
+INT64_MIN
 )
 )
 ;

@@ -11863,7 +11863,7 @@ cookieAttributes
 .
 expiryTime
 =
-LL_MAXINT
+INT64_MAX
 ;
 nsDependentCString
 savedCookieHeader
@@ -14587,7 +14587,7 @@ mDBState
 >
 cookieOldestTime
 =
-LL_MAXINT
+INT64_MAX
 ;
 }
 struct
@@ -14627,7 +14627,7 @@ aPurgeTime
 )
 oldestTime
 (
-LL_MAXINT
+INT64_MAX
 )
 purgeList
 (

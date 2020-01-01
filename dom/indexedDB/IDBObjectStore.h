@@ -417,7 +417,7 @@ NS_ASSERTION
 mId
 !
 =
-LL_MININT
+INT64_MIN
 "
 Don
 '

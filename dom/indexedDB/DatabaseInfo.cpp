@@ -35,7 +35,7 @@ DatabaseHash
 *
 gDatabaseHash
 =
-nsnull
+nullptr
 ;
 PLDHashOperator
 EnumerateObjectStoreNames
@@ -77,7 +77,7 @@ if
 array
 -
 >
-AppendElement
+InsertElementSorted
 (
 aData
 -
@@ -244,7 +244,7 @@ IndexInfo
 :
 id
 (
-LL_MININT
+INT64_MIN
 )
 keyPath
 (
@@ -581,7 +581,7 @@ aInfo
 -
 >
 id
-nsnull
+nullptr
 )
 )
 {
@@ -669,7 +669,7 @@ gDatabaseHash
 ;
 gDatabaseHash
 =
-nsnull
+nullptr
 ;
 }
 }
@@ -867,7 +867,7 @@ objectStoreHash
 Get
 (
 aName
-nsnull
+nullptr
 )
 ;
 }
@@ -912,7 +912,7 @@ aName
 ;
 }
 return
-nsnull
+nullptr
 ;
 }
 bool
@@ -993,7 +993,7 @@ aInfo
 -
 >
 name
-nsnull
+nullptr
 )
 )
 {
@@ -1099,20 +1099,6 @@ Clone
 (
 )
 {
-NS_ASSERTION
-(
-!
-cloned
-"
-Should
-never
-clone
-a
-clone
-!
-"
-)
-;
 nsRefPtr
 <
 DatabaseInfo

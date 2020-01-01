@@ -253,7 +253,7 @@ mNumIdleConns
 )
 mTimeOfNextWakeUp
 (
-LL_MAXUINT
+UINT64_MAX
 )
 mTimeoutTickArmed
 (
@@ -785,7 +785,7 @@ n
 ;
 mTimeOfNextWakeUp
 =
-LL_MAXUINT
+UINT64_MAX
 ;
 if
 (
@@ -9355,7 +9355,7 @@ n
 ;
 mTimeOfNextWakeUp
 =
-LL_MAXUINT
+UINT64_MAX
 ;
 if
 (

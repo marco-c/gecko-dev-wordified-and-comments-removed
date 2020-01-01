@@ -75,7 +75,7 @@ nsCookiePermission
 :
 mCookiesLifetimeSec
 (
-LL_MAXINT
+INT64_MAX
 )
 mCookiesLifetimePolicy
 (
