@@ -223,9 +223,6 @@ interface
 HTMLCanvasElement
 ;
 interface
-HTMLImageElement
-;
-interface
 HTMLVideoElement
 ;
 interface

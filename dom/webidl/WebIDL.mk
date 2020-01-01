@@ -271,6 +271,10 @@ HTMLHeadingElement
 .
 webidl
 \
+HTMLImageElement
+.
+webidl
+\
 HTMLLabelElement
 .
 webidl
