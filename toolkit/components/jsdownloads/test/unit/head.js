@@ -1467,7 +1467,7 @@ promiseNewPrivateDownloadList
 {
 Downloads
 .
-_privateDownloadList
+_promisePrivateDownloadList
 =
 null
 ;
