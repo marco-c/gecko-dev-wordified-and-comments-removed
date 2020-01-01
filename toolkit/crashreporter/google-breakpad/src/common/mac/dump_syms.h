@@ -223,6 +223,15 @@ ostream
 stream
 )
 ;
+bool
+ReadSymbolData
+(
+Module
+*
+*
+module
+)
+;
 private
 :
 class
