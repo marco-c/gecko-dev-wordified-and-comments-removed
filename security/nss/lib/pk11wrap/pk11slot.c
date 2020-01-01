@@ -3660,6 +3660,9 @@ return
 pk11_sha1SlotList
 ;
 case
+CKM_SHA224
+:
+case
 CKM_SHA256
 :
 return
@@ -8728,6 +8731,17 @@ i
 !
 =
 CKM_SHA_1
+)
+&
+&
+(
+type
+[
+i
+]
+!
+=
+CKM_SHA224
 )
 &
 &

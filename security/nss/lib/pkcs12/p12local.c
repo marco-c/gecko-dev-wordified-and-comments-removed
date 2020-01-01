@@ -125,6 +125,12 @@ return
 CKM_SHA_1_HMAC
 ;
 case
+SEC_OID_SHA224
+:
+return
+CKM_SHA224_HMAC
+;
+case
 SEC_OID_SHA256
 :
 return

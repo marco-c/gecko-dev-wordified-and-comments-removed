@@ -4574,6 +4574,15 @@ return
 HASH_AlgSHA1
 ;
 case
+CKM_SHA224
+:
+case
+CKG_MGF1_SHA224
+:
+return
+HASH_AlgSHA224
+;
+case
 CKM_SHA256
 :
 case
