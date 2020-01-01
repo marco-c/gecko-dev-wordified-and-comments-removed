@@ -9091,7 +9091,7 @@ NPPVpluginNeedsXEmbed
 {
 *
 (
-NPBool
+uint32_t
 *
 )
 value
@@ -9115,7 +9115,7 @@ NPPVpluginWantsAllNetworkStreams
 {
 *
 (
-NPBool
+uint32_t
 *
 )
 value
