@@ -416,6 +416,13 @@ navigator
 .
 mozApps
 .
+installPackage
+'
+'
+navigator
+.
+mozApps
+.
 mgmt
 .
 QueryInterface
