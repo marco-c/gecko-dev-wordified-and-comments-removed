@@ -1063,13 +1063,11 @@ if
 userSelectNode
 )
 {
+newSelectionParent
+=
 GetNodeLocation
 (
 userSelectNode
-address_of
-(
-newSelectionParent
-)
 &
 newSelectionOffset
 )
