@@ -128,10 +128,6 @@ Base64
 .
 cpp
 \
-nsAnonymousTemporaryFile
-.
-cpp
-\
 nsAppFileLocationProvider
 .
 cpp
@@ -261,6 +257,9 @@ CPPSRCS
 nsLocalFileWin
 .
 cpp
+nsMediaCacheRemover
+.
+cpp
 else
 CPPSRCS
 +
@@ -276,10 +275,6 @@ endif
 OS2
 EXPORTS
 =
-\
-nsAnonymousTemporaryFile
-.
-h
 \
 nsAppDirectoryServiceDefs
 .
