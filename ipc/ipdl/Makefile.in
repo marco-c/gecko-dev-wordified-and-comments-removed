@@ -239,6 +239,10 @@ exthandler
 \
 dom
 /
+devicestorage
+\
+dom
+/
 indexedDB
 /
 ipc
