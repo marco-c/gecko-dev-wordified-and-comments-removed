@@ -7140,6 +7140,14 @@ aContext
 IsHTMLTableRow
 (
 )
+|
+|
+aContext
+-
+>
+IsHTMLTable
+(
+)
 )
 newAcc
 =
