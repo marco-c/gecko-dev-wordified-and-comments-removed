@@ -431,9 +431,8 @@ const
 nsAString
 &
 aMimeType
-const
-nsAString
-&
+nsIVariant
+*
 aEncoderOptions
 nsAString
 &

@@ -704,6 +704,10 @@ test_toDataURL_lowercase_ascii
 .
 html
 \
+test_toDataURL_parameters
+.
+html
+\
 test_mozGetAsFile
 .
 html
