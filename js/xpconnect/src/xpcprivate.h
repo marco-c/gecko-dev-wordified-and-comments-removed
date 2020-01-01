@@ -13092,8 +13092,6 @@ jsval
 s
 JSUint32
 count
-JSUint32
-capacity
 const
 nsXPTType
 &
@@ -13146,8 +13144,6 @@ jsval
 s
 JSUint32
 count
-JSUint32
-capacity
 const
 nsXPTType
 &

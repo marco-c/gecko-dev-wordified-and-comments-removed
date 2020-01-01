@@ -1584,7 +1584,6 @@ array
 mArrayValue
 val
 len
-len
 type
 &
 id

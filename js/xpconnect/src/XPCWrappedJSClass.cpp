@@ -7041,7 +7041,6 @@ pv
 val
 val
 array_count
-array_count
 datum_type
 &
 param_iid
@@ -7076,7 +7075,6 @@ pv
 >
 val
 val
-array_count
 array_count
 datum_type
 nsnull
