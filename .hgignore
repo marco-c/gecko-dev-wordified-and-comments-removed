@@ -272,3 +272,9 @@ psutil
 /
 build
 /
+#
+Git
+repositories
+.
+git
+/

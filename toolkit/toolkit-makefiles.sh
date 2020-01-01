@@ -2471,6 +2471,11 @@ Makefile
 MAKEFILES_xulapp
 =
 "
+addon
+-
+sdk
+/
+Makefile
 toolkit
 /
 Makefile
@@ -3785,6 +3790,13 @@ ENABLE_TESTS
 then
 add_makefiles
 "
+addon
+-
+sdk
+/
+test
+/
+Makefile
 caps
 /
 tests
