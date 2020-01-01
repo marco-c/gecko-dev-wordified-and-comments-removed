@@ -143,7 +143,7 @@ mimeType
 {
 foundContentType
 =
-strdup
+g_strdup
 (
 (
 char
@@ -888,7 +888,7 @@ char
 *
 extensions
 =
-strdup
+g_strdup
 (
 PromiseFlatCString
 (
