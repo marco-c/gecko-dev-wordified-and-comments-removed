@@ -2212,13 +2212,6 @@ SetClientData
 )
 ;
 mWindow
--
->
-Destroy
-(
-)
-;
-mWindow
 =
 nsnull
 ;
