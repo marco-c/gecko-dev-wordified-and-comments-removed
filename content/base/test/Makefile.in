@@ -2721,6 +2721,10 @@ script
 .
 js
 \
+test_bug737565
+.
+html
+\
 (
 NULL
 )
