@@ -327,6 +327,14 @@ IsScrollingActive
 =
 0
 ;
+virtual
+void
+ResetScrollPositionForLayerPixelAlignment
+(
+)
+=
+0
+;
 }
 ;
 #
