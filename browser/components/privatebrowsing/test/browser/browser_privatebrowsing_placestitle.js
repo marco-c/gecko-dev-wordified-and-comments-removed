@@ -53,6 +53,10 @@ waitForExplicitFinish
 (
 )
 ;
+ignoreAllUncaughtExceptions
+(
+)
+;
 const
 TEST_URL
 =

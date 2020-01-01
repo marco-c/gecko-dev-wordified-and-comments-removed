@@ -1122,6 +1122,10 @@ test
 (
 )
 {
+ignoreAllUncaughtExceptions
+(
+)
+;
 nextTest
 (
 )
