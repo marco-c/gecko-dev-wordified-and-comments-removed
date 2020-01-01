@@ -77,7 +77,17 @@ this
 context
 )
 ;
+final
+RepositorySessionCreationDelegate
+deferredCreationDelegate
+=
 delegate
+.
+deferredCreationDelegate
+(
+)
+;
+deferredCreationDelegate
 .
 onSessionCreated
 (

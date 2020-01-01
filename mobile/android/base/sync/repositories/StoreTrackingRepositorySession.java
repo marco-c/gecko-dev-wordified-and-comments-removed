@@ -128,6 +128,8 @@ begin
 RepositorySessionBeginDelegate
 delegate
 )
+throws
+InvalidSessionTransitionException
 {
 RepositorySessionBeginDelegate
 deferredDelegate
@@ -402,6 +404,8 @@ finish
 RepositorySessionFinishDelegate
 delegate
 )
+throws
+InactiveSessionException
 {
 super
 .
