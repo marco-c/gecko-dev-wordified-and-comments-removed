@@ -3543,6 +3543,15 @@ parentNode
 .
 _placesNode
 event
+"
++
+"
+PlacesUIUtils
+.
+getViewForNode
+(
+this
+)
 )
 ;
 "
