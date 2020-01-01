@@ -3138,9 +3138,6 @@ v
 uint32
 type
 ;
-jsdouble
-d
-;
 if
 (
 xdr
@@ -3204,6 +3201,11 @@ type
 JSVAL_DOUBLE
 )
 {
+jsdouble
+d
+=
+0
+;
 if
 (
 !
