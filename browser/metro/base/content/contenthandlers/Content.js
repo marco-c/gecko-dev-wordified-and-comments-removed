@@ -1522,7 +1522,7 @@ if
 (
 Util
 .
-isTextInput
+isEditable
 (
 element
 )
