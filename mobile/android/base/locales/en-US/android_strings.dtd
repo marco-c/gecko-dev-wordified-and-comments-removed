@@ -359,6 +359,16 @@ Tab
 <
 !
 ENTITY
+new_tab_opened
+"
+New
+tab
+opened
+"
+>
+<
+!
+ENTITY
 settings
 "
 Settings
