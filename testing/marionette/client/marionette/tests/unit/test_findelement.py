@@ -608,7 +608,7 @@ found_el
 )
     
 def
-test_name
+test_by_name
 (
 self
 )
