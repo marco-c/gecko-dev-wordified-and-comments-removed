@@ -3912,6 +3912,14 @@ aFunc
 #
 ifdef
 MOZ_WIDGET_GONK
+MOZ_ASSERT
+(
+!
+NS_IsMainThread
+(
+)
+)
+;
 #
 endif
 nsRefPtr
