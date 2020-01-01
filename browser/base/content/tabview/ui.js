@@ -2844,6 +2844,17 @@ hideTabView
 (
 )
 ;
+if
+(
+this
+.
+_currentTab
+!
+=
+tab
+)
+return
+;
 let
 oldItem
 =

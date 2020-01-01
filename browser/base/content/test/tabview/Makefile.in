@@ -508,6 +508,10 @@ browser_tabview_bug598600
 .
 js
 \
+browser_tabview_bug599626
+.
+js
+\
 browser_tabview_dragdrop
 .
 js
@@ -569,6 +573,10 @@ search1
 html
 \
 search2
+.
+html
+\
+test_bug599626
 .
 html
 \
