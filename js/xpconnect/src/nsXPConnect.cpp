@@ -1773,7 +1773,7 @@ mChildTracer
 cccb
 )
 {
-JS_TRACER_INIT
+JS_TracerInit
 (
 &
 mChildTracer
@@ -2167,7 +2167,7 @@ mJSRoots
 cb
 )
 ;
-JS_TRACER_INIT
+JS_TracerInit
 (
 &
 trc
@@ -2811,7 +2811,7 @@ return
 JSTracer
 trc
 ;
-JS_TRACER_INIT
+JS_TracerInit
 (
 &
 trc
@@ -3736,7 +3736,7 @@ trc
 cb
 )
 ;
-JS_TRACER_INIT
+JS_TracerInit
 (
 &
 trc
@@ -4899,7 +4899,7 @@ JSCLASS_XPCONNECT_GLOBAL
 VerifyTraceXPCGlobalCalledTracer
 trc
 ;
-JS_TRACER_INIT
+JS_TracerInit
 (
 &
 trc

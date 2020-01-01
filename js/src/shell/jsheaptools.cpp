@@ -373,7 +373,7 @@ parent
 NULL
 )
 {
-JS_TRACER_INIT
+JS_TracerInit
 (
 this
 cx
