@@ -95,6 +95,10 @@ zipstruct
 .
 h
 \
+nsJARURI
+.
+h
+\
 nsZipArchive
 .
 h

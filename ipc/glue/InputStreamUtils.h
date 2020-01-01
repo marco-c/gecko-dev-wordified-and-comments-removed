@@ -11,7 +11,7 @@ mozilla
 /
 ipc
 /
-IPCSerializableParams
+InputStreamParams
 .
 h
 "

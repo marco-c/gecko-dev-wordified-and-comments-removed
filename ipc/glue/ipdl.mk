@@ -55,6 +55,15 @@ MPL
 .
 IPDLSRCS
 =
-IPCSerializableParams
+\
+InputStreamParams
 .
 ipdlh
+\
+URIParams
+.
+ipdlh
+\
+(
+NULL
+)

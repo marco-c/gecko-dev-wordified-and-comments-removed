@@ -16,6 +16,13 @@ nsFilePickerProxy
 .
 h
 "
+#
+include
+"
+nsNetUtil
+.
+h
+"
 NS_IMPL_ISUPPORTS1
 (
 nsFilePickerProxy

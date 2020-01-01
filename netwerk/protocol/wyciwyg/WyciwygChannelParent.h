@@ -93,10 +93,7 @@ bool
 RecvInit
 (
 const
-IPC
-:
-:
-URI
+URIParams
 &
 uri
 )
@@ -106,10 +103,7 @@ bool
 RecvAsyncOpen
 (
 const
-IPC
-:
-:
-URI
+URIParams
 &
 original
 const

@@ -61,7 +61,7 @@ protocol
 PBlob
 ;
 include
-IPCSerializableParams
+InputStreamParams
 ;
 namespace
 mozilla

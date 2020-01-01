@@ -52,10 +52,7 @@ bool
 RecvGetCookieString
 (
 const
-IPC
-:
-:
-URI
+URIParams
 &
 aHost
 const
@@ -76,10 +73,7 @@ bool
 RecvSetCookieString
 (
 const
-IPC
-:
-:
-URI
+URIParams
 &
 aHost
 const

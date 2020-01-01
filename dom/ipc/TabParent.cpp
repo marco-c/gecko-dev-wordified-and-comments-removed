@@ -4491,11 +4491,11 @@ TabParent
 AllocPOfflineCacheUpdate
 (
 const
-URI
+URIParams
 &
 aManifestURI
 const
-URI
+URIParams
 &
 aDocumentURI
 const

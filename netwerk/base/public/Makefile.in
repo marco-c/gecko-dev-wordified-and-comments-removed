@@ -236,10 +236,6 @@ nsIIOService2
 .
 idl
 \
-nsIIPCSerializableObsolete
-.
-idl
-\
 nsIMIMEInputStream
 .
 idl

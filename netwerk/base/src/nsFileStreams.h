@@ -88,13 +88,6 @@ nsIIPCSerializableInputStream
 .
 h
 "
-#
-include
-"
-nsIIPCSerializableObsolete
-.
-h
-"
 template
 <
 class
@@ -294,8 +287,6 @@ nsIFileInputStream
 public
 nsILineInputStream
 public
-nsIIPCSerializableObsolete
-public
 nsIIPCSerializableInputStream
 {
 public
@@ -303,7 +294,6 @@ public
 NS_DECL_ISUPPORTS_INHERITED
 NS_DECL_NSIFILEINPUTSTREAM
 NS_DECL_NSILINEINPUTSTREAM
-NS_DECL_NSIIPCSERIALIZABLEOBSOLETE
 NS_DECL_NSIIPCSERIALIZABLEINPUTSTREAM
 NS_IMETHOD
 Close
@@ -509,7 +499,6 @@ Init
 ;
 NS_DECL_ISUPPORTS_INHERITED
 NS_DECL_NSIPARTIALFILEINPUTSTREAM
-NS_DECL_NSIIPCSERIALIZABLEOBSOLETE
 NS_DECL_NSIIPCSERIALIZABLEINPUTSTREAM
 nsPartialFileInputStream
 (

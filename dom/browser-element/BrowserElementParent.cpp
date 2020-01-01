@@ -51,6 +51,13 @@ h
 #
 include
 "
+nsIInterfaceRequestorUtils
+.
+h
+"
+#
+include
+"
 nsVariant
 .
 h

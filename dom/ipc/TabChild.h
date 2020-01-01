@@ -1163,11 +1163,11 @@ POfflineCacheUpdateChild
 AllocPOfflineCacheUpdate
 (
 const
-URI
+URIParams
 &
 manifestURI
 const
-URI
+URIParams
 &
 documentURI
 const

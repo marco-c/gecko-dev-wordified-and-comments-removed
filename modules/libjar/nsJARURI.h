@@ -47,6 +47,13 @@ nsINestedURI
 h
 "
 #
+include
+"
+nsIIPCSerializableURI
+.
+h
+"
+#
 define
 NS_THIS_JARURI_IMPL_CID
 \
@@ -138,6 +145,8 @@ public
 nsIClassInfo
 public
 nsINestedURI
+public
+nsIIPCSerializableURI
 {
 public
 :
@@ -148,6 +157,7 @@ NS_DECL_NSIJARURI
 NS_DECL_NSISERIALIZABLE
 NS_DECL_NSICLASSINFO
 NS_DECL_NSINESTEDURI
+NS_DECL_NSIIPCSERIALIZABLEURI
 NS_DECLARE_STATIC_IID_ACCESSOR
 (
 NS_THIS_JARURI_IMPL_CID
