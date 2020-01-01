@@ -9828,6 +9828,15 @@ boolean
 isExternalURL
 )
 {
+mDoorHangerPopup
+=
+new
+DoorHangerPopup
+(
+this
+null
+)
+;
 mPluginContainer
 =
 (
