@@ -82,10 +82,6 @@ HUDService
 .
 jsm
 \
-PropertyPanel
-.
-jsm
-\
 NetworkPanel
 .
 jsm

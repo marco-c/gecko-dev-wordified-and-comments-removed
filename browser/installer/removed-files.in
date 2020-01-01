@@ -7947,11 +7947,6 @@ PopupNotifications
 jsm
 modules
 /
-PropertyPanel
-.
-jsm
-modules
-/
 reflect
 .
 jsm

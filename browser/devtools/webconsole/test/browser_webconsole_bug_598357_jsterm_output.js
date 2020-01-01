@@ -758,7 +758,7 @@ cpos
 pos
 ;
 let
-showsPropertyPanel
+showsVariablesView
 =
 inputValues
 [
@@ -1376,7 +1376,7 @@ length
 1
 ;
 let
-propertyPanelShown
+variablesViewShown
 =
 function
 (
@@ -1415,7 +1415,7 @@ variablesview
 -
 open
 "
-propertyPanelShown
+variablesViewShown
 )
 ;
 eventHandlers
@@ -1427,11 +1427,11 @@ null
 ;
 ok
 (
-showsPropertyPanel
+showsVariablesView
 "
 the
-property
-panel
+variables
+view
 shown
 for
 inputValues
@@ -1454,7 +1454,7 @@ true
 ;
 if
 (
-showsPropertyPanel
+showsVariablesView
 )
 {
 executeSoon
@@ -1476,14 +1476,14 @@ variablesview
 -
 open
 "
-propertyPanelShown
+variablesViewShown
 )
 ;
 eventHandlers
 .
 push
 (
-propertyPanelShown
+variablesViewShown
 )
 ;
 EventUtils
@@ -1518,7 +1518,7 @@ window
 ;
 if
 (
-showsPropertyPanel
+showsVariablesView
 )
 {
 yield
@@ -1634,8 +1634,8 @@ ok
 false
 "
 the
-property
-panel
+variables
+view
 failed
 to
 show
