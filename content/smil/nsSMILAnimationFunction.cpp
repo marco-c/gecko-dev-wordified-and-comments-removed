@@ -1137,7 +1137,9 @@ mFrozenValue
 }
 else
 {
-NS_ENSURE_SUCCESS
+if
+(
+NS_FAILED
 (
 InterpolateResult
 (
@@ -1146,8 +1148,12 @@ result
 aResult
 )
 )
+)
+return
 ;
-NS_ENSURE_SUCCESS
+if
+(
+NS_FAILED
 (
 AccumulateResult
 (
@@ -1155,6 +1161,8 @@ values
 result
 )
 )
+)
+return
 ;
 if
 (
