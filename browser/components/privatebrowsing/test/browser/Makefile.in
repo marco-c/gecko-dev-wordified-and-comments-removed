@@ -525,6 +525,14 @@ browser_privatebrowsing_popupmode
 .
 js
 \
+browser_privatebrowsing_protocolhandler
+.
+js
+\
+browser_privatebrowsing_protocolhandler_page
+.
+html
+\
 browser_privatebrowsing_searchbar
 .
 js
