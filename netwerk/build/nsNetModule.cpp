@@ -560,6 +560,12 @@ nsWifiMonitor
 .
 h
 "
+#
+undef
+LOG
+#
+undef
+LOG_ENABLED
 NS_GENERIC_FACTORY_CONSTRUCTOR
 (
 nsWifiMonitor
@@ -688,6 +694,12 @@ nsHttpHandler
 .
 h
 "
+#
+undef
+LOG
+#
+undef
+LOG_ENABLED
 #
 include
 "
