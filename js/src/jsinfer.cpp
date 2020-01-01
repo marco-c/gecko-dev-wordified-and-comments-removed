@@ -17950,6 +17950,17 @@ funType
 -
 >
 unknownProperties
+|
+|
+script
+-
+>
+fun
+-
+>
+isFunctionPrototype
+(
+)
 )
 {
 script
