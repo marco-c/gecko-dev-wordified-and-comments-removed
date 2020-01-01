@@ -2049,8 +2049,11 @@ tt
 bool
 matchContextualKeyword
 (
+Handle
+<
 PropertyName
 *
+>
 keyword
 )
 {
