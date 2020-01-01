@@ -394,6 +394,11 @@ PRInt32
 aEndPos
 )
 ;
+PRInt32
+GetCaretLineNumber
+(
+)
+;
 nsresult
 GetDOMPointByFrameOffset
 (

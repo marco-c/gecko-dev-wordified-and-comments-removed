@@ -498,6 +498,7 @@ aType
 )
 const
 ;
+virtual
 nsIFrame
 *
 GetFrameForNodeOffset
