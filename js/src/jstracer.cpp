@@ -24876,6 +24876,8 @@ cx
 {
 if
 (
+!
+(
 cx
 -
 >
@@ -24886,6 +24888,7 @@ cx
 -
 >
 methodJitEnabled
+)
 )
 return
 ;
