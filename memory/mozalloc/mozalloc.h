@@ -124,13 +124,12 @@ endif
 if
 defined
 (
-NS_ALWAYS_INLINE
+MOZ_ALWAYS_INLINE
 )
 #
 define
 MOZALLOC_INLINE
-NS_ALWAYS_INLINE
-inline
+MOZ_ALWAYS_INLINE
 #
 elif
 defined
