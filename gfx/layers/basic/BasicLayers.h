@@ -143,6 +143,16 @@ CreateImageContainer
 (
 )
 ;
+virtual
+LayersBackend
+GetBackendType
+(
+)
+{
+return
+LAYERS_BASIC
+;
+}
 #
 ifdef
 DEBUG
