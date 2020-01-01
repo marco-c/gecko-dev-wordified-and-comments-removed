@@ -86,6 +86,10 @@ mInitialized
 (
 false
 )
+mHasHadUpdate
+(
+false
+)
 mIsSeekable
 (
 false
@@ -187,6 +191,11 @@ return
 mPrincipal
 ;
 }
+void
+EnsureCacheUpdate
+(
+)
+;
 void
 NotifyDataLength
 (
@@ -306,6 +315,11 @@ aBytesPerSecond
 ;
 bool
 IsSeekable
+(
+)
+;
+bool
+AreAllStreamsForResourceSuspended
 (
 )
 ;
@@ -619,6 +633,9 @@ mResourceID
 ;
 bool
 mInitialized
+;
+bool
+mHasHadUpdate
 ;
 bool
 mIsSeekable

@@ -1812,6 +1812,13 @@ resourceIsLoaded
 )
 ;
 }
+mStream
+-
+>
+EnsureCacheUpToDate
+(
+)
+;
 if
 (
 mPlayState
@@ -1855,6 +1862,10 @@ ResourceLoaded
 )
 ;
 }
+NotifySuspendedStatusChanged
+(
+)
+;
 }
 void
 nsBuiltinDecoder
