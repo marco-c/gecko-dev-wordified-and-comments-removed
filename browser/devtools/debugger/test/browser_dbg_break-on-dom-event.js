@@ -458,6 +458,9 @@ synthesizeKey
 e
 "
 {
+shiftKey
+:
+1
 }
 content
 )
@@ -612,6 +615,9 @@ synthesizeKey
 e
 "
 {
+shiftKey
+:
+1
 }
 content
 )
@@ -741,6 +747,9 @@ synthesizeKey
 g
 "
 {
+shiftKey
+:
+1
 }
 content
 )
