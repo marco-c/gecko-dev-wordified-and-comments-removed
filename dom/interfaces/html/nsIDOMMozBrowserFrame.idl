@@ -146,11 +146,7 @@ nsISupports
 <
 iframe
 >
-and
-<
-frame
->
-elements
+element
 may
 have
 the
@@ -170,13 +166,9 @@ the
 <
 iframe
 >
-or
-<
-frame
->
-*
 element
 is
+*
 contained
 in
 a
@@ -193,10 +185,6 @@ An
 <
 iframe
 >
-or
-<
-frame
->
 element
 in
 a
@@ -205,8 +193,8 @@ document
 with
 the
 mozbrowser
-*
 attribute
+*
 emits
 a
 variety
@@ -218,7 +206,6 @@ things
 happen
 inside
 the
-*
 frame
 .
 *
