@@ -2497,7 +2497,7 @@ getInfo
 (
 )
 .
-AzureBackend
+AzureCanvasBackend
 =
 =
 "
@@ -2514,7 +2514,7 @@ getInfo
 (
 )
 .
-AzureBackend
+AzureCanvasBackend
 =
 =
 "
