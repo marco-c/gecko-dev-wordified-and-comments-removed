@@ -550,6 +550,10 @@ test_contentDuration6
 .
 html
 \
+test_delay_load
+.
+html
+\
 test_duration1
 .
 html
