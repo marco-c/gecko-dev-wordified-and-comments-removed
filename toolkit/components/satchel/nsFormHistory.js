@@ -1709,9 +1709,6 @@ dbConnection
 (
 )
 {
-let
-connection
-;
 delete
 FormHistory
 .
