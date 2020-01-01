@@ -4176,6 +4176,8 @@ getSiteURI
 (
 folder
 )
+.
+spec
 ;
 if
 (
