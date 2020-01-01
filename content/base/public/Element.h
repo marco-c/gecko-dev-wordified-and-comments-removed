@@ -1041,7 +1041,6 @@ true
 )
 MOZ_OVERRIDE
 ;
-virtual
 already_AddRefed
 <
 nsINodeInfo
@@ -1054,7 +1053,6 @@ nsAString
 aStr
 )
 const
-MOZ_OVERRIDE
 ;
 nsresult
 SetAttr

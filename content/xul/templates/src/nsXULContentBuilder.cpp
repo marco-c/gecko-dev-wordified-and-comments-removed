@@ -389,7 +389,7 @@ aNotify
 nsresult
 AddPersistentAttributes
 (
-nsIContent
+Element
 *
 aTemplateNode
 nsIXULTemplateResult
@@ -1021,7 +1021,6 @@ isUnique
 =
 aIsUnique
 ;
-{
 if
 (
 tmplKid
@@ -1054,7 +1053,17 @@ isUnique
 false
 ;
 }
-}
+MOZ_ASSERT_IF
+(
+isGenerationElement
+tmplKid
+-
+>
+IsElement
+(
+)
+)
+;
 nsIAtom
 *
 tag
@@ -1715,6 +1724,11 @@ rv
 AddPersistentAttributes
 (
 tmplKid
+-
+>
+AsElement
+(
+)
 aChild
 realKid
 )
@@ -2090,7 +2104,7 @@ nsXULContentBuilder
 :
 AddPersistentAttributes
 (
-nsIContent
+Element
 *
 aTemplateNode
 nsIXULTemplateResult

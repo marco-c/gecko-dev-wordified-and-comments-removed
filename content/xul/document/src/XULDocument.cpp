@@ -5239,10 +5239,7 @@ mApplyingPersistedAttrs
 return
 NS_OK
 ;
-nsresult
-rv
-;
-nsIContent
+Element
 *
 element
 =
@@ -5284,6 +5281,9 @@ GetExistingAttrNameFromQName
 (
 aAttr
 )
+;
+nsresult
+rv
 ;
 if
 (
