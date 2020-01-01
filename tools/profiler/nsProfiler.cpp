@@ -425,7 +425,6 @@ aStream
 "
 ;
 }
-static
 std
 :
 :
