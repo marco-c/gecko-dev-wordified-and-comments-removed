@@ -10953,7 +10953,7 @@ ifdef
 DEBUG
 LirWriter
 *
-sanity_filter
+validate_writer
 ;
 #
 endif
@@ -16370,12 +16370,17 @@ ifdef
 DEBUG
 lir
 =
-sanity_filter
+validate_writer
 =
 new
-SanityFilter
+ValidateWriter
 (
 lir
+"
+regexp
+writer
+pipeline
+"
 )
 ;
 #
@@ -16685,7 +16690,7 @@ lirBufWriter
 ifdef
 DEBUG
 delete
-sanity_filter
+validate_writer
 ;
 #
 endif
@@ -16812,7 +16817,7 @@ lirBufWriter
 ifdef
 DEBUG
 delete
-sanity_filter
+validate_writer
 ;
 #
 endif
