@@ -14281,7 +14281,9 @@ sprop
 scope
 -
 >
-lastProp
+lastProperty
+(
+)
 ;
 sprop
 ;
