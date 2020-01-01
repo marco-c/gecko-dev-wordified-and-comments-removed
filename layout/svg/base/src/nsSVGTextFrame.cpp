@@ -15,13 +15,6 @@ h
 #
 include
 "
-nsWeakReference
-.
-h
-"
-#
-include
-"
 SVGLengthList
 .
 h

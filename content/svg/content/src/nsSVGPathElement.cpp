@@ -57,13 +57,6 @@ h
 #
 include
 "
-nsISVGValueUtils
-.
-h
-"
-#
-include
-"
 nsSVGUtils
 .
 h
