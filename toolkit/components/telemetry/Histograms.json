@@ -13290,7 +13290,7 @@ revalidation
 "
 }
 "
-NETWORK_DISK_CACHE_OUTPUT_STREAM_CLOSE
+NETWORK_DISK_CACHE_STREAMIO_CLOSE
 "
 :
 {
@@ -13326,7 +13326,7 @@ description
 Time
 spent
 in
-nsDiskCacheOutputStream
+nsDiskCacheStreamIO
 :
 :
 Close
@@ -13343,7 +13343,7 @@ ms
 "
 }
 "
-NETWORK_DISK_CACHE_OUTPUT_STREAM_CLOSE_MAIN_THREAD
+NETWORK_DISK_CACHE_STREAMIO_CLOSE_MAIN_THREAD
 "
 :
 {
@@ -13379,7 +13379,7 @@ description
 Time
 spent
 in
-nsDiskCacheOutputStream
+nsDiskCacheStreamIO
 :
 :
 Close
