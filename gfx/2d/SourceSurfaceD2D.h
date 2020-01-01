@@ -135,10 +135,6 @@ ID2D1Bitmap
 >
 mBitmap
 ;
-uint8_t
-*
-mRawData
-;
 SurfaceFormat
 mFormat
 ;

@@ -924,7 +924,7 @@ ID2D1Bitmap
 >
 CreatePartialBitmapForSurface
 (
-SourceSurfaceD2D
+DataSourceSurface
 *
 aSurface
 Matrix
