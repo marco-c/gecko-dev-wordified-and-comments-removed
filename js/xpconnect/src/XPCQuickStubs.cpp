@@ -989,12 +989,8 @@ name
 ;
 if
 (
-XPCThrower
-:
-:
-CheckForPendingException
+JS_IsExceptionPending
 (
-rv
 cx
 )
 )
