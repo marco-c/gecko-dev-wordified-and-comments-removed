@@ -21,6 +21,12 @@ script
 typedarray
 .
 js
+script
+typedarray
+-
+prototype
+.
+js
 skip
 -
 if
