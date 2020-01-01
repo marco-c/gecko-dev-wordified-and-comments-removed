@@ -376,6 +376,11 @@ origin
 return
 ;
 }
+handleWindowClose
+(
+window
+)
+;
 SocialService
 .
 getProvider
@@ -1106,6 +1111,13 @@ close
 )
 ;
 }
+}
+function
+handleWindowClose
+(
+targetWindow
+)
+{
 let
 dwu
 =
