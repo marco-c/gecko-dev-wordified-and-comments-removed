@@ -196,6 +196,7 @@ cycleAction
 genForObject
 :
 function
+genForObject
 (
 aAccessible
 aForceName
@@ -269,6 +270,7 @@ flags
 genForAction
 :
 function
+genForAction
 (
 aObject
 aActionName
@@ -293,6 +295,7 @@ aActionName
 genForTabStateChange
 :
 function
+genForTabStateChange
 (
 aObject
 aTabState
@@ -891,6 +894,7 @@ utterance
 heading
 :
 function
+heading
 (
 aAccessible
 aRoleStr
@@ -974,6 +978,7 @@ utterance
 listitem
 :
 function
+listitem
 (
 aAccessible
 aRoleStr

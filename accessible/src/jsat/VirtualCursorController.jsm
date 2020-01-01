@@ -132,7 +132,7 @@ keypress
 '
 this
 .
-onkeypress
+_onkeypress
 true
 )
 ;
@@ -157,15 +157,15 @@ keypress
 '
 this
 .
-onkeypress
+_onkeypress
 true
 )
 ;
 }
-getBrowserApp
+_getBrowserApp
 :
 function
-getBrowserApp
+_getBrowserApp
 (
 )
 {
@@ -201,10 +201,10 @@ gBrowser
 ;
 }
 }
-onkeypress
+_onkeypress
 :
 function
-onkeypress
+_onkeypress
 (
 aEvent
 )
@@ -214,7 +214,7 @@ document
 =
 VirtualCursorController
 .
-getBrowserApp
+_getBrowserApp
 (
 )
 .
@@ -598,6 +598,7 @@ SimpleTraversalRule
 getMatchRoles
 :
 function
+SimpleTraversalRule_getmatchRoles
 (
 aRules
 )
@@ -634,6 +635,7 @@ PREFILTER_INVISIBLE
 match
 :
 function
+SimpleTraversalRule_match
 (
 aAccessible
 )
