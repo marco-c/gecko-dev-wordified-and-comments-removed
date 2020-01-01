@@ -840,7 +840,7 @@ std
 min
 (
 maxBufferSize
-20
+64
 )
 ;
 for
