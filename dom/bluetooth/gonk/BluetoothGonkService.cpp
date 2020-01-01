@@ -622,9 +622,11 @@ ret
 ;
 ret
 =
-StartStopGonkBluetooth
+BluetoothDBusService
+:
+:
+StopInternal
 (
-false
 )
 ;
 if
@@ -640,11 +642,9 @@ ret
 ;
 }
 return
-BluetoothDBusService
-:
-:
-StopInternal
+StartStopGonkBluetooth
 (
+false
 )
 ;
 }
