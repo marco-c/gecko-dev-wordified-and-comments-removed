@@ -2964,14 +2964,6 @@ cb
 DescribeNode
 (
 refcount
-sizeof
-(
-JSObject
-)
-"
-JS
-Object
-"
 )
 ;
 #

@@ -66,7 +66,7 @@ NS_OK
 ;
 #
 ifdef
-DEBUG
+DEBUG_CC
 char
 name
 [
@@ -159,13 +159,6 @@ mRefCnt
 get
 (
 )
-sizeof
-(
-XPCWrappedNative
-)
-"
-XPCWrappedNative
-"
 )
 ;
 #
