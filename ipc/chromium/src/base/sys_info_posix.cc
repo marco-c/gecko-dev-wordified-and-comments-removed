@@ -31,6 +31,9 @@ string
 h
 >
 #
+ifndef
+ANDROID
+#
 include
 <
 sys
@@ -39,6 +42,8 @@ statvfs
 .
 h
 >
+#
+endif
 #
 include
 <
@@ -294,6 +299,9 @@ wstring
 path
 )
 {
+#
+ifndef
+ANDROID
 struct
 statvfs
 stats
@@ -338,6 +346,14 @@ stats
 .
 f_frsize
 ;
+#
+else
+return
+-
+1
+;
+#
+endif
 }
 bool
 SysInfo

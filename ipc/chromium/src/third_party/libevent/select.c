@@ -182,6 +182,17 @@ y
 )
 #
 endif
+#
+ifdef
+ANDROID
+typedef
+unsigned
+long
+int
+fd_mask
+;
+#
+endif
 struct
 selectop
 {

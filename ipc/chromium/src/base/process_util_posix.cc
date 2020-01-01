@@ -403,6 +403,17 @@ ScopedDIRClose
 >
 ScopedDIR
 ;
+#
+ifdef
+ANDROID
+typedef
+unsigned
+long
+int
+rlim_t
+;
+#
+endif
 void
 CloseSuperfluousFds
 (

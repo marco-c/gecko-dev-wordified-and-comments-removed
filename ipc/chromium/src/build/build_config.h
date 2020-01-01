@@ -20,6 +20,12 @@ defined
 (
 __linux__
 )
+|
+|
+defined
+(
+ANDROID
+)
 #
 define
 OS_LINUX
