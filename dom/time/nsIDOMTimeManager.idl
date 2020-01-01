@@ -94,6 +94,9 @@ object
 or
 UTC
 seconds
+[
+implicit_jscontext
+]
 void
 set
 (
