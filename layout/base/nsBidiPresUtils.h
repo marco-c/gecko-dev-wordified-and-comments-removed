@@ -146,9 +146,6 @@ Resolve
 nsBlockFrame
 *
 aBlockFrame
-nsIFrame
-*
-aFirstChild
 PRBool
 aIsVisualFormControl
 )
