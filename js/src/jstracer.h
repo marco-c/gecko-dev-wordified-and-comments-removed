@@ -880,6 +880,10 @@ void
 *
 rpAtLastTreeCall
 ;
+JSObject
+*
+globalObj
+;
 }
 ;
 struct
@@ -1217,6 +1221,13 @@ nanojit
 LIns
 *
 eor_ins
+;
+nanojit
+:
+:
+LIns
+*
+globalObj_ins
 ;
 nanojit
 :
