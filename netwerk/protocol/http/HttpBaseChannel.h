@@ -130,6 +130,17 @@ nsIResumableChannel
 .
 h
 "
+#
+include
+"
+mozilla
+/
+net
+/
+NeckoCommon
+.
+h
+"
 namespace
 mozilla
 {
