@@ -2204,6 +2204,12 @@ mDecoder
 =
 nsnull
 ;
+mOutputStreams
+.
+Clear
+(
+)
+;
 }
 void
 nsHTMLMediaElement
