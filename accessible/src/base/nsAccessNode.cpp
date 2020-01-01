@@ -266,7 +266,9 @@ nsCoreUtils
 :
 GetDocShellTreeItemFor
 (
-mContent
+GetNode
+(
+)
 )
 ;
 NS_ASSERTION
@@ -436,10 +438,10 @@ IsEmpty
 )
 )
 {
-mContent
+mDoc
 -
 >
-OwnerDoc
+DocumentNode
 (
 )
 -
