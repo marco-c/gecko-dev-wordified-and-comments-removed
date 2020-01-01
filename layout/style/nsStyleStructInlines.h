@@ -32,6 +32,13 @@ imgIContainer
 .
 h
 "
+#
+include
+"
+nsIContent
+.
+h
+"
 inline
 void
 nsStyleBorder
