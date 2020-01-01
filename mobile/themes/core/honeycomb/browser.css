@@ -31,6 +31,10 @@ padding
 :
 0
 ;
+background
+:
+color_toolbar_background
+;
 border
 :
 none
@@ -1049,6 +1053,10 @@ urlbar
 -
 title
 {
+background
+:
+color_toolbar_background
+;
 padding
 :
 padding_xxxnormal
@@ -1953,7 +1961,7 @@ important
 ;
 background
 :
-color_background_default
+color_toolbar_background
 ;
 }
 .
@@ -6311,7 +6319,7 @@ solid
 ;
 background
 :
-color_background_default
+color_toolbar_background
 ;
 }
 #

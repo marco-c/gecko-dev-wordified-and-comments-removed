@@ -35,6 +35,11 @@ color_text_default
 222222
 %
 define
+color_toolbar_background
+#
+eaeaea
+%
+define
 color_divider_border
 #
 333333
