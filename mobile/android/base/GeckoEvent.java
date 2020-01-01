@@ -1295,6 +1295,8 @@ double
 size
 )
 {
+try
+{
 GeckoEvent
 event
 =
@@ -1414,6 +1416,17 @@ currentTimeMillis
 return
 event
 ;
+}
+catch
+(
+Exception
+e
+)
+{
+return
+null
+;
+}
 }
 public
 static
