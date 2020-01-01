@@ -1777,6 +1777,16 @@ ons
 <
 !
 ENTITY
+searchResultConnecting
+.
+label
+"
+Connecting
+"
+>
+<
+!
+ENTITY
 searchResultInstalling
 .
 label
