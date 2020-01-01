@@ -2011,12 +2011,6 @@ pAcc
 endif
 protected
 :
-nsCOMPtr
-<
-nsIWidget
->
-mParent
-;
 nsIntSize
 mLastSize
 ;
