@@ -2036,9 +2036,10 @@ format
 ;
 if
 (
+!
 gl
-&
-&
+|
+|
 !
 InitAndValidateGL
 (
