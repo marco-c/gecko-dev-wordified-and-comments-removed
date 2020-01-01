@@ -1067,12 +1067,12 @@ extraSct
 options
 .
 sourcePolicy
-=
+!
 =
 CompileOptions
 :
 :
-NO_SOURCE
+SAVE_SOURCE
 )
 ;
 SourceCompressionToken

@@ -1122,6 +1122,11 @@ JSRuntime
 rt
 )
 ;
+void
+clearTables
+(
+)
+;
 bool
 get
 (

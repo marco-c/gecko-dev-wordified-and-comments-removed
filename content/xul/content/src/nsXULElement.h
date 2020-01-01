@@ -843,6 +843,11 @@ aDocument
 nsIScriptGlobalObject
 *
 aGlobal
+nsIOffThreadScriptReceiver
+*
+aOffThreadReceiver
+=
+nullptr
 )
 ;
 void

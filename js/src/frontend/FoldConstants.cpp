@@ -3001,11 +3001,6 @@ CanGC
 >
 (
 cx
--
->
-asJSContext
-(
-)
 left
 right
 )
