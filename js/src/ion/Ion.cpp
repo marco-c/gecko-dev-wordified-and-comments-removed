@@ -1145,6 +1145,9 @@ LICM
 }
 LIRGraph
 lir
+(
+graph
+)
 ;
 LIRBuilder
 lirgen

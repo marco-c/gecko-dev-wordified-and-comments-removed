@@ -44,6 +44,9 @@ LIRGraph
 :
 LIRGraph
 (
+MIRGraph
+&
+mir
 )
 :
 numVirtualRegisters_
@@ -53,6 +56,10 @@ numVirtualRegisters_
 localSlotCount_
 (
 0
+)
+mir_
+(
+mir
 )
 {
 }

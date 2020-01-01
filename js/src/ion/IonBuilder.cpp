@@ -5366,9 +5366,6 @@ MBasicBlock
 NORMAL
 )
 ;
-if
-(
-!
 graph
 (
 )
@@ -5377,9 +5374,6 @@ addBlock
 (
 block
 )
-)
-return
-NULL
 ;
 return
 block
@@ -5414,9 +5408,6 @@ predecessor
 pc
 )
 ;
-if
-(
-!
 graph
 (
 )
@@ -5425,9 +5416,6 @@ addBlock
 (
 block
 )
-)
-return
-NULL
 ;
 return
 block
