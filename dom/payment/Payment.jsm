@@ -163,12 +163,6 @@ init
 {
 this
 .
-requestId
-=
-null
-;
-this
-.
 registeredProviders
 =
 null
@@ -254,22 +248,6 @@ process
 "
 )
 ;
-if
-(
-msg
-.
-requestId
-)
-{
-this
-.
-requestId
-=
-msg
-.
-requestId
-;
-}
 switch
 (
 name
@@ -305,12 +283,17 @@ registerPaymentProviders
 )
 ;
 }
+let
+requestId
+=
+msg
+.
+requestId
+;
 this
 .
 messageManagers
 [
-this
-.
 requestId
 ]
 =
@@ -347,6 +330,7 @@ this
 .
 getPaymentRequestInfo
 (
+requestId
 msg
 .
 jwts
@@ -393,6 +377,7 @@ this
 .
 paymentFailed
 (
+requestId
 "
 PAY_REQUEST_ERROR_DUPLICATED_JWT_TYPE
 "
@@ -430,6 +415,7 @@ this
 .
 paymentFailed
 (
+requestId
 "
 PAY_REQUEST_ERROR_NO_VALID_REQUEST_FOUND
 "
@@ -486,6 +472,7 @@ this
 .
 paymentFailed
 (
+requestId
 "
 INTERNAL_ERROR_CREATE_PAYMENT_GLUE_FAILED
 "
@@ -500,6 +487,7 @@ confirmPaymentSuccessCb
 function
 successCb
 (
+aRequestId
 aResult
 )
 {
@@ -550,6 +538,7 @@ this
 .
 paymentFailed
 (
+aRequestId
 "
 INTERNAL_ERROR_NO_VALID_SELECTED_PROVIDER
 "
@@ -619,6 +608,7 @@ this
 .
 paymentFailed
 (
+aRequestId
 "
 INTERNAL_ERROR_NO_JWT_ASSOCIATED_TO_REQUEST
 "
@@ -631,6 +621,7 @@ this
 .
 showPaymentFlow
 (
+aRequestId
 selectedProvider
 jwt
 )
@@ -648,6 +639,7 @@ glue
 .
 confirmPaymentRequest
 (
+requestId
 paymentRequests
 confirmPaymentSuccessCb
 .
@@ -688,7 +680,7 @@ this
 .
 messageManagers
 [
-this
+msg
 .
 requestId
 ]
@@ -701,7 +693,7 @@ name
 {
 requestId
 :
-this
+msg
 .
 requestId
 result
@@ -984,6 +976,7 @@ paymentFailed
 function
 paymentFailed
 (
+aRequestId
 aErrorMsg
 )
 {
@@ -994,9 +987,7 @@ this
 .
 messageManagers
 [
-this
-.
-requestId
+aRequestId
 ]
 ;
 mm
@@ -1011,9 +1002,7 @@ Failed
 {
 requestId
 :
-this
-.
-requestId
+aRequestId
 errorMsg
 :
 aErrorMsg
@@ -1026,6 +1015,7 @@ getPaymentRequestInfo
 function
 getPaymentRequestInfo
 (
+aRequestId
 aJwt
 )
 {
@@ -1039,6 +1029,7 @@ this
 .
 paymentFailed
 (
+aRequestId
 "
 INTERNAL_ERROR_CALL_WITH_MISSING_JWT
 "
@@ -1098,6 +1089,7 @@ this
 .
 paymentFailed
 (
+aRequestId
 "
 PAY_REQUEST_ERROR_WRONG_SEGMENTS_COUNT
 "
@@ -1144,6 +1136,7 @@ this
 .
 paymentFailed
 (
+aRequestId
 "
 PAY_REQUEST_ERROR_EMPTY_PAYLOAD
 "
@@ -1245,6 +1238,7 @@ this
 .
 paymentFailed
 (
+aRequestId
 "
 PAY_REQUEST_ERROR_ERROR_PARSING_JWT_PAYLOAD
 "
@@ -1264,6 +1258,7 @@ this
 .
 paymentFailed
 (
+aRequestId
 "
 PAY_REQUEST_ERROR_ERROR_DECODING_JWT
 "
@@ -1285,6 +1280,7 @@ this
 .
 paymentFailed
 (
+aRequestId
 "
 PAY_REQUEST_ERROR_NO_TYP_PARAMETER
 "
@@ -1306,6 +1302,7 @@ this
 .
 paymentFailed
 (
+aRequestId
 "
 PAY_REQUEST_ERROR_NO_REQUEST_PARAMETER
 "
@@ -1373,6 +1370,7 @@ this
 .
 paymentFailed
 (
+aRequestId
 "
 INTERNAL_ERROR_WRONG_REGISTERED_PAY_PROVIDER
 "
@@ -1423,6 +1421,7 @@ this
 .
 paymentFailed
 (
+aRequestId
 "
 INTERNAL_ERROR_NON_HTTPS_PROVIDER_URI
 "
@@ -1476,6 +1475,7 @@ this
 .
 paymentFailed
 (
+aRequestId
 "
 INTERNAL_ERROR_ERROR_CREATING_PAY_REQUEST
 "
@@ -1509,6 +1509,7 @@ showPaymentFlow
 function
 showPaymentFlow
 (
+aRequestId
 aPaymentProvider
 aJwt
 )
@@ -1610,6 +1611,7 @@ this
 .
 paymentFailed
 (
+aRequestId
 "
 INTERNAL_ERROR_CREATE_PAYMENT_GLUE_FAILED
 "
@@ -1623,6 +1625,7 @@ glue
 .
 showPaymentFlow
 (
+aRequestId
 paymentFlowInfo
 this
 .
