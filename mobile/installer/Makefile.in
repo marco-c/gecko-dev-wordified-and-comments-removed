@@ -2049,6 +2049,9 @@ mobile
 (
 DEB_PKG_NAME
 )
+deb_name
+.
+txt
 endif
 ifeq
 (
