@@ -628,7 +628,8 @@ false
 #
 ifdef
 JS_ION
-RawScript
+JSScript
+*
 script
 =
 iter
@@ -6248,7 +6249,8 @@ hasScript
 )
 )
 {
-RawScript
+JSScript
+*
 script
 =
 fun

@@ -228,7 +228,8 @@ StackFrame
 :
 initExecuteFrame
 (
-RawScript
+JSScript
+*
 script
 StackFrame
 *
@@ -411,7 +412,8 @@ u
 evalScript
 =
 (
-RawScript
+JSScript
+*
 )
 0xbad
 ;

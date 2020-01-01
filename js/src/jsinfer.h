@@ -72,10 +72,8 @@ Vector
 .
 h
 "
-ForwardDeclareJS
-(
-Script
-)
+class
+JSScript
 ;
 namespace
 js
@@ -3361,7 +3359,8 @@ TypeCallsite
 JSContext
 *
 cx
-RawScript
+JSScript
+*
 script
 jsbytecode
 *
@@ -3429,7 +3428,8 @@ inline
 unsigned
 NumTypeSets
 (
-RawScript
+JSScript
+*
 script
 )
 ;
@@ -3439,7 +3439,8 @@ HeapTypeSet
 *
 ReturnTypes
 (
-RawScript
+JSScript
+*
 script
 )
 ;
@@ -3449,7 +3450,8 @@ StackTypeSet
 *
 ThisTypes
 (
-RawScript
+JSScript
+*
 script
 )
 ;
@@ -3459,7 +3461,8 @@ StackTypeSet
 *
 ArgTypes
 (
-RawScript
+JSScript
+*
 script
 unsigned
 i
@@ -3471,7 +3474,8 @@ StackTypeSet
 *
 LocalTypes
 (
-RawScript
+JSScript
+*
 script
 unsigned
 i
@@ -3483,7 +3487,8 @@ StackTypeSet
 *
 SlotTypes
 (
-RawScript
+JSScript
+*
 script
 unsigned
 slot
@@ -3814,7 +3819,8 @@ Sweep
 FreeOp
 *
 fop
-RawScript
+JSScript
+*
 script
 )
 ;
@@ -4328,7 +4334,8 @@ addPendingRecompile
 JSContext
 *
 cx
-RawScript
+JSScript
+*
 script
 jsbytecode
 *

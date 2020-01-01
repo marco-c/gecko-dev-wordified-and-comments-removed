@@ -2291,7 +2291,8 @@ hasScript
 )
 )
 {
-RawScript
+JSScript
+*
 script
 =
 fun

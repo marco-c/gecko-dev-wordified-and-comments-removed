@@ -24,7 +24,8 @@ jsbytecode
 *
 pc
 ;
-RawScript
+JSScript
+*
 script
 ;
 }
@@ -119,7 +120,8 @@ addr
 jsbytecode
 *
 pc
-RawScript
+JSScript
+*
 script
 )
 {

@@ -304,7 +304,8 @@ ArgumentsData
 data
 )
 {
-RawScript
+JSScript
+*
 script
 =
 frame
@@ -429,7 +430,8 @@ calleeToken
 )
 )
 ;
-RawScript
+JSScript
+*
 script
 =
 callee

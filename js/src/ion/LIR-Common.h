@@ -16577,7 +16577,8 @@ getTemp
 )
 ;
 }
-RawScript
+JSScript
+*
 script
 (
 )

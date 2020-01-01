@@ -8860,7 +8860,8 @@ cv
 .
 v
 ;
-RawScript
+JSScript
+*
 parentScript
 =
 NULL
@@ -9099,7 +9100,8 @@ case
 JSOP_CALL
 :
 {
-RawScript
+JSScript
+*
 callee
 =
 NULL

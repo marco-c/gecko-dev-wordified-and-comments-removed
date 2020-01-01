@@ -286,7 +286,8 @@ mjit
 JITChunk
 *
 chunk
-RawScript
+JSScript
+*
 script
 jsbytecode
 *
@@ -366,7 +367,8 @@ char
 ScriptFilename
 (
 const
-RawScript
+JSScript
+*
 script
 )
 {
@@ -490,7 +492,8 @@ cx
 JSFunction
 *
 fun
-RawScript
+JSScript
+*
 script
 )
 {
@@ -529,7 +532,8 @@ cx
 JSFunction
 *
 fun
-RawScript
+JSScript
+*
 script
 )
 {

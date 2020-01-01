@@ -427,7 +427,8 @@ asStaticBlock
 )
 ;
 }
-RawScript
+JSScript
+*
 StaticScopeIter
 :
 :
@@ -6379,7 +6380,8 @@ if
 maybeframe
 )
 {
-RawScript
+JSScript
+*
 script
 =
 maybeframe

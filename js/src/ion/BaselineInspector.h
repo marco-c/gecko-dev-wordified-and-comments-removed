@@ -160,7 +160,8 @@ BaselineInspector
 JSContext
 *
 cx
-RawScript
+JSScript
+*
 rawScript
 )
 :

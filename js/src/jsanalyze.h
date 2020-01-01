@@ -273,7 +273,8 @@ inline
 unsigned
 GetDefCount
 (
-RawScript
+JSScript
+*
 script
 unsigned
 offset
@@ -347,7 +348,8 @@ inline
 unsigned
 GetUseCount
 (
-RawScript
+JSScript
+*
 script
 unsigned
 offset
@@ -740,7 +742,8 @@ FollowBranch
 JSContext
 *
 cx
-RawScript
+JSScript
+*
 script
 unsigned
 offset
@@ -856,7 +859,8 @@ inline
 uint32_t
 LocalSlot
 (
-RawScript
+JSScript
+*
 script
 uint32_t
 local
@@ -894,7 +898,8 @@ inline
 uint32_t
 TotalSlots
 (
-RawScript
+JSScript
+*
 script
 )
 {
@@ -916,7 +921,8 @@ inline
 uint32_t
 StackSlot
 (
-RawScript
+JSScript
+*
 script
 uint32_t
 index
@@ -936,7 +942,8 @@ inline
 uint32_t
 GetBytecodeSlot
 (
-RawScript
+JSScript
+*
 script
 jsbytecode
 *
@@ -1401,7 +1408,8 @@ backedge
 bool
 nonDecreasing
 (
-RawScript
+JSScript
+*
 script
 LoopAnalysis
 *
@@ -2627,7 +2635,8 @@ public
 :
 ScriptAnalysis
 (
-RawScript
+JSScript
+*
 script
 )
 {
@@ -4830,7 +4839,8 @@ Frame
 (
 uint32_t
 index
-RawScript
+JSScript
+*
 script
 uint32_t
 depth
@@ -4934,7 +4944,8 @@ i
 ]
 ;
 }
-RawScript
+JSScript
+*
 outerScript
 (
 )
@@ -5044,7 +5055,8 @@ v
 bool
 addInlineFrame
 (
-RawScript
+JSScript
+*
 script
 uint32_t
 depth
@@ -5085,7 +5097,8 @@ CrossScriptSSA
 JSContext
 *
 cx
-RawScript
+JSScript
+*
 outer
 )
 :

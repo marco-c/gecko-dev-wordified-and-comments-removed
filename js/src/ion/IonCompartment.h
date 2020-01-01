@@ -1344,7 +1344,8 @@ FinishInvalidation
 FreeOp
 *
 fop
-RawScript
+JSScript
+*
 script
 )
 ;

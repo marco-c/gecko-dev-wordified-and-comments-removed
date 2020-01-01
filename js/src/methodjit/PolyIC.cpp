@@ -13189,7 +13189,8 @@ jsbytecode
 *
 pc
 ;
-RawScript
+JSScript
+*
 script
 =
 cx

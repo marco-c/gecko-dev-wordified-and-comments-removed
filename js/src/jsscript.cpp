@@ -2004,7 +2004,8 @@ inline
 uint32_t
 FindBlockIndex
 (
-RawScript
+JSScript
+*
 script
 StaticBlockObject
 &
@@ -5097,7 +5098,8 @@ ScriptCountsMap
 Ptr
 GetScriptCountsMapEntry
 (
-RawScript
+JSScript
+*
 script
 )
 {
@@ -8743,7 +8745,8 @@ return
 size
 ;
 }
-RawScript
+JSScript
+*
 JSScript
 :
 :
@@ -10864,7 +10867,8 @@ CallDestroyScriptHook
 FreeOp
 *
 fop
-RawScript
+JSScript
+*
 script
 )
 {
@@ -11095,7 +11099,8 @@ js_GetSrcNote
 JSContext
 *
 cx
-RawScript
+JSScript
+*
 script
 jsbytecode
 *
@@ -11693,7 +11698,8 @@ js
 :
 PCToLineNumber
 (
-RawScript
+JSScript
+*
 script
 jsbytecode
 *
@@ -11746,7 +11752,8 @@ jsbytecode
 *
 js_LineNumberToPC
 (
-RawScript
+JSScript
+*
 script
 unsigned
 target
@@ -11939,7 +11946,8 @@ unsigned
 )
 js_GetScriptLineExtent
 (
-RawScript
+JSScript
+*
 script
 )
 {
@@ -12180,7 +12188,8 @@ NULL
 return
 ;
 }
-RawScript
+JSScript
+*
 script
 =
 iter
@@ -12236,9 +12245,11 @@ T
 *
 Rebase
 (
-RawScript
+JSScript
+*
 dst
-RawScript
+JSScript
+*
 src
 T
 *
@@ -12278,7 +12289,8 @@ off
 )
 ;
 }
-RawScript
+JSScript
+*
 js
 :
 :
@@ -13608,7 +13620,8 @@ init
 NULL
 )
 ;
-RawScript
+JSScript
+*
 cscript
 =
 CloneScript

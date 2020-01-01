@@ -21,7 +21,8 @@ inline
 unsigned
 StartArgSlot
 (
-RawScript
+JSScript
+*
 script
 JSFunction
 *
@@ -49,7 +50,8 @@ inline
 unsigned
 CountArgSlots
 (
-RawScript
+JSScript
+*
 script
 JSFunction
 *
@@ -93,7 +95,8 @@ public
 :
 CompileInfo
 (
-RawScript
+JSScript
+*
 script
 JSFunction
 *
@@ -244,7 +247,8 @@ nlocals_
 nstack_
 ;
 }
-RawScript
+JSScript
+*
 script
 (
 )

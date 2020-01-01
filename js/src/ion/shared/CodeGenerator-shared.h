@@ -1580,7 +1580,8 @@ framePushed_
 void
 setSource
 (
-RawScript
+JSScript
+*
 script
 jsbytecode
 *
@@ -1606,7 +1607,8 @@ return
 pc_
 ;
 }
-RawScript
+JSScript
+*
 script
 (
 )

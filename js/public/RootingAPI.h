@@ -3260,11 +3260,6 @@ ptr_
 }
 ForwardDeclareJS
 (
-Script
-)
-;
-ForwardDeclareJS
-(
 Object
 )
 ;

@@ -6358,7 +6358,8 @@ stepperCount
 =
 0
 ;
-RawScript
+JSScript
+*
 trappingScript
 =
 iter
@@ -20217,7 +20218,8 @@ thisobj
 iter
 )
 ;
-RawScript
+JSScript
+*
 script
 =
 iter

@@ -1701,7 +1701,8 @@ NoCompilerRunning
 bool
 init
 (
-RawScript
+JSScript
+*
 script
 bool
 constructing
@@ -3283,7 +3284,8 @@ hasSingletonType
 return
 false
 ;
-RawScript
+JSScript
+*
 script
 =
 fun
@@ -3424,7 +3426,8 @@ TypeScript
 :
 NumTypeSets
 (
-RawScript
+JSScript
+*
 script
 )
 {
@@ -3451,7 +3454,8 @@ TypeScript
 :
 ReturnTypes
 (
-RawScript
+JSScript
+*
 script
 )
 {
@@ -3501,7 +3505,8 @@ TypeScript
 :
 ThisTypes
 (
-RawScript
+JSScript
+*
 script
 )
 {
@@ -3551,7 +3556,8 @@ TypeScript
 :
 ArgTypes
 (
-RawScript
+JSScript
+*
 script
 unsigned
 i
@@ -3619,7 +3625,8 @@ TypeScript
 :
 LocalTypes
 (
-RawScript
+JSScript
+*
 script
 unsigned
 i
@@ -3683,7 +3690,8 @@ TypeScript
 :
 SlotTypes
 (
-RawScript
+JSScript
+*
 script
 unsigned
 slot
@@ -7460,7 +7468,8 @@ TypeCallsite
 JSContext
 *
 cx
-RawScript
+JSScript
+*
 script
 jsbytecode
 *

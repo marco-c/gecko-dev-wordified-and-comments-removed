@@ -35402,7 +35402,8 @@ JS_EncodeScript
 JSContext
 *
 cx
-RawScript
+JSScript
+*
 scriptArg
 uint32_t
 *

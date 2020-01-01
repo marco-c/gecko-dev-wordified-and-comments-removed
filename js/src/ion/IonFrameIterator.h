@@ -396,7 +396,8 @@ numActualArgs
 )
 const
 ;
-RawScript
+JSScript
+*
 script
 (
 )
@@ -852,7 +853,8 @@ unsigned
 formalEnd
 unsigned
 iterEnd
-RawScript
+JSScript
+*
 script
 )
 ;
@@ -1080,7 +1082,8 @@ count
 )
 const
 ;
-RawScript
+JSScript
+*
 script
 (
 )

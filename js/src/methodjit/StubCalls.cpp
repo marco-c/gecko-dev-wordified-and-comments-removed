@@ -10026,7 +10026,8 @@ fun
 (
 )
 ;
-RawScript
+JSScript
+*
 script
 =
 fun
@@ -10254,7 +10255,8 @@ frameAddr
 =
 repatchCode
 ;
-RawScript
+JSScript
+*
 script
 =
 f

@@ -177,7 +177,8 @@ PushMarkStack
 GCMarker
 *
 gcmarker
-RawScript
+JSScript
+*
 thing
 )
 ;
@@ -248,7 +249,8 @@ MarkChildren
 JSTracer
 *
 trc
-RawScript
+JSScript
+*
 script
 )
 ;
@@ -1973,7 +1975,8 @@ MarkInternal
 trc
 reinterpret_cast
 <
-RawScript
+JSScript
+*
 *
 >
 (
@@ -3799,7 +3802,8 @@ trc
 HeapPtr
 <
 GlobalObject
-RawScript
+JSScript
+*
 >
 *
 thingp
@@ -4165,7 +4169,8 @@ PushMarkStack
 GCMarker
 *
 gcmarker
-RawScript
+JSScript
+*
 thing
 )
 {
@@ -5284,7 +5289,8 @@ MarkChildren
 JSTracer
 *
 trc
-RawScript
+JSScript
+*
 script
 )
 {
@@ -8104,7 +8110,8 @@ MarkChildren
 trc
 static_cast
 <
-RawScript
+JSScript
+*
 >
 (
 thing

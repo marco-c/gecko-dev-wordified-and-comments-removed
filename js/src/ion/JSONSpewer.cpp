@@ -659,7 +659,8 @@ JSONSpewer
 :
 beginFunction
 (
-RawScript
+JSScript
+*
 script
 )
 {

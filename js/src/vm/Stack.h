@@ -794,7 +794,8 @@ isDebuggerFrame
 const
 ;
 inline
-RawScript
+JSScript
+*
 script
 (
 )
@@ -1212,7 +1213,8 @@ flags_
 ;
 union
 {
-RawScript
+JSScript
+*
 script
 ;
 JSFunction
@@ -1227,7 +1229,8 @@ union
 unsigned
 nactual
 ;
-RawScript
+JSScript
+*
 evalScript
 ;
 }
@@ -1518,7 +1521,8 @@ cx
 JSFunction
 &
 callee
-RawScript
+JSScript
+*
 script
 uint32_t
 nactual
@@ -1550,7 +1554,8 @@ nactual
 void
 initExecuteFrame
 (
-RawScript
+JSScript
+*
 script
 StackFrame
 *
@@ -2159,7 +2164,8 @@ JSContext
 cx
 )
 ;
-RawScript
+JSScript
+*
 script
 (
 )
@@ -4307,7 +4313,8 @@ prepareToRun
 StackFrame
 &
 fp
-RawScript
+JSScript
+*
 script
 )
 {
@@ -4346,7 +4353,8 @@ setToEndOfScript
 (
 )
 {
-RawScript
+JSScript
+*
 script
 =
 fp
@@ -5814,7 +5822,8 @@ true
 }
 ;
 inline
-RawScript
+JSScript
+*
 currentScript
 (
 jsbytecode
@@ -6630,7 +6639,8 @@ state_
 SCRIPTED
 ;
 }
-RawScript
+JSScript
+*
 script
 (
 )

@@ -624,7 +624,8 @@ Invalidate
 JSContext
 *
 cx
-RawScript
+JSScript
+*
 script
 ExecutionMode
 mode
@@ -640,7 +641,8 @@ Invalidate
 JSContext
 *
 cx
-RawScript
+JSScript
+*
 script
 bool
 resetUses
@@ -794,7 +796,8 @@ ForbidCompilation
 JSContext
 *
 cx
-RawScript
+JSScript
+*
 script
 )
 ;
@@ -804,7 +807,8 @@ ForbidCompilation
 JSContext
 *
 cx
-RawScript
+JSScript
+*
 script
 ExecutionMode
 mode
@@ -813,7 +817,8 @@ mode
 uint32_t
 UsesBeforeIonRecompile
 (
-RawScript
+JSScript
+*
 script
 jsbytecode
 *
@@ -823,7 +828,8 @@ pc
 void
 PurgeCaches
 (
-RawScript
+JSScript
+*
 script
 JS
 :
@@ -836,7 +842,8 @@ zone
 size_t
 SizeOfIonData
 (
-RawScript
+JSScript
+*
 script
 JSMallocSizeOfFun
 mallocSizeOf
@@ -848,7 +855,8 @@ DestroyIonScripts
 FreeOp
 *
 fop
-RawScript
+JSScript
+*
 script
 )
 ;
@@ -858,7 +866,8 @@ TraceIonScripts
 JSTracer
 *
 trc
-RawScript
+JSScript
+*
 script
 )
 ;

@@ -22827,7 +22827,8 @@ scopeChain
 PropertyName
 *
 name
-RawScript
+JSScript
+*
 script
 jsbytecode
 *
@@ -22874,7 +22875,8 @@ scopeChain
 PropertyName
 *
 name
-RawScript
+JSScript
+*
 script
 jsbytecode
 *
@@ -22927,7 +22929,8 @@ return
 name_
 ;
 }
-RawScript
+JSScript
+*
 script
 (
 )
@@ -28102,7 +28105,8 @@ inlineLevel_
 ;
 MFunctionBoundary
 (
-RawScript
+JSScript
+*
 script
 Type
 type
@@ -28163,7 +28167,8 @@ MFunctionBoundary
 *
 New
 (
-RawScript
+JSScript
+*
 script
 Type
 type
@@ -28183,7 +28188,8 @@ inlineLevel
 )
 ;
 }
-RawScript
+JSScript
+*
 script
 (
 )

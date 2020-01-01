@@ -355,7 +355,8 @@ profileString
 JSContext
 *
 cx
-RawScript
+JSScript
+*
 script
 JSFunction
 *
@@ -455,7 +456,8 @@ SPSProfiler
 :
 onScriptFinalized
 (
-RawScript
+JSScript
+*
 script
 )
 {
@@ -526,7 +528,8 @@ enter
 JSContext
 *
 cx
-RawScript
+JSScript
+*
 script
 JSFunction
 *
@@ -622,7 +625,8 @@ exit
 JSContext
 *
 cx
-RawScript
+JSScript
+*
 script
 JSFunction
 *
@@ -1009,7 +1013,8 @@ string
 void
 *
 sp
-RawScript
+JSScript
+*
 script
 jsbytecode
 *
@@ -1146,7 +1151,8 @@ allocProfileString
 JSContext
 *
 cx
-RawScript
+JSScript
+*
 script
 JSFunction
 *
@@ -1515,7 +1521,8 @@ SPSProfiler
 :
 ipToPC
 (
-RawScript
+JSScript
+*
 script
 size_t
 ip
@@ -1687,7 +1694,8 @@ JMChunkInfo
 :
 convert
 (
-RawScript
+JSScript
+*
 script
 size_t
 ip
@@ -2214,7 +2222,8 @@ mjit
 JITChunk
 *
 chunk
-RawScript
+JSScript
+*
 script
 jsbytecode
 *
@@ -2362,7 +2371,8 @@ SPSProfiler
 :
 unregisterScript
 (
-RawScript
+JSScript
+*
 script
 mjit
 :

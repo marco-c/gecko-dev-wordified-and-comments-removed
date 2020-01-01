@@ -2581,7 +2581,8 @@ flags
 )
 )
 {
-RawScript
+JSScript
+*
 script
 =
 cx

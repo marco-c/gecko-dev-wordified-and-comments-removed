@@ -1018,7 +1018,8 @@ result
 =
 TypeToArgProperties
 <
-RawScript
+JSScript
+*
 >
 :
 :

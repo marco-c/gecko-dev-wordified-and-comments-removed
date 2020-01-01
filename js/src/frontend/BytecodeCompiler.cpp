@@ -168,7 +168,8 @@ tokenStream
 ScriptSource
 *
 ss
-RawScript
+JSScript
+*
 script
 )
 {
@@ -317,7 +318,8 @@ return
 true
 ;
 }
-RawScript
+JSScript
+*
 frontend
 :
 :
