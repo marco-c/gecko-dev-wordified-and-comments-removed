@@ -137,17 +137,6 @@ must
 be
 nuked
 :
-hasAttributes
-"
-:
-true
-"
-Node
-member
-must
-be
-nuked
-:
 getUserData
 "
 :

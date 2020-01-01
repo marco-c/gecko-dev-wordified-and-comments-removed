@@ -603,11 +603,6 @@ DOMString
 ?
 localName
 ;
-boolean
-hasAttributes
-(
-)
-;
 [
 Throws
 Func
