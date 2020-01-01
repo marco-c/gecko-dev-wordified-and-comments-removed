@@ -581,6 +581,8 @@ nsRefPtr
 GLContext
 >
 aContext
+bool
+force
 )
 {
 ScopedGfxFeatureReporter
@@ -590,6 +592,7 @@ reporter
 GL
 Layers
 "
+force
 )
 ;
 NS_ABORT_IF_FALSE
