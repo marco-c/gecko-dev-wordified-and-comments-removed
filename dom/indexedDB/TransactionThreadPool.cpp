@@ -2158,7 +2158,6 @@ TransactionThreadPool
 MaybeFireCallback
 (
 DatabasesCompleteCallback
-&
 aCallback
 )
 {
