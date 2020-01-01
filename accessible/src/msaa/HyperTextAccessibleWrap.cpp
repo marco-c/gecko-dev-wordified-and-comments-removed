@@ -22,7 +22,7 @@ IMPL_IUNKNOWN_INHERITED2
 HyperTextAccessibleWrap
 AccessibleWrap
 ia2AccessibleHypertext
-CAccessibleEditableText
+ia2AccessibleEditableText
 )
 ;
 nsresult

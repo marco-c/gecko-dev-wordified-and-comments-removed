@@ -415,6 +415,15 @@ h
 #
 include
 "
+mozilla
+/
+Attributes
+.
+h
+"
+#
+include
+"
 sampler
 .
 h
@@ -3593,6 +3602,7 @@ GetLength
 ;
 class
 BreakSink
+MOZ_FINAL
 :
 public
 nsILineBreakSink

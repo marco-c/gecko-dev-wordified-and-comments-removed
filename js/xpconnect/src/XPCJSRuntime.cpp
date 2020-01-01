@@ -11661,7 +11661,7 @@ return
 true
 ;
 }
-JSBool
+bool
 XPCJSRuntime
 :
 :

@@ -74,6 +74,15 @@ nsIContent
 .
 h
 "
+#
+include
+"
+mozilla
+/
+Attributes
+.
+h
+"
 nsIFrame
 *
 NS_NewMenuFrame
@@ -132,6 +141,7 @@ nsMenuFrame
 ;
 class
 nsMenuTimerMediator
+MOZ_FINAL
 :
 public
 nsITimerCallback

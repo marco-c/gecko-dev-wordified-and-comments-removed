@@ -2630,9 +2630,12 @@ dbuf
 )
 ;
 }
-JSString
+JSFixedString
 *
-js_IntToString
+js
+:
+:
+Int32ToString
 (
 JSContext
 *
@@ -2720,7 +2723,7 @@ compartment
 ;
 if
 (
-JSString
+JSFixedString
 *
 str
 =

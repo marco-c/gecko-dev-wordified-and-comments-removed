@@ -28,6 +28,9 @@ h
 class
 nsRenderingContext
 ;
+class
+nsISVGChildFrame
+;
 typedef
 nsSVGContainerFrame
 nsSVGClipPathFrameBase
@@ -112,6 +115,12 @@ aPoint
 bool
 IsTrivial
 (
+nsISVGChildFrame
+*
+*
+aSingleChild
+=
+nsnull
 )
 ;
 bool

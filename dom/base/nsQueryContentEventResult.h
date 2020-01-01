@@ -19,6 +19,15 @@ nsRect
 .
 h
 "
+#
+include
+"
+mozilla
+/
+Attributes
+.
+h
+"
 class
 nsQueryContentEvent
 ;
@@ -27,6 +36,7 @@ nsIWidget
 ;
 class
 nsQueryContentEventResult
+MOZ_FINAL
 :
 public
 nsIQueryContentEventResult

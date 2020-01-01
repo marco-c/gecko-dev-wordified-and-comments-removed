@@ -8561,13 +8561,6 @@ newOffset
 ;
 if
 (
-Collapsed
-(
-)
-)
-{
-if
-(
 referenceNode
 )
 {
@@ -8655,7 +8648,6 @@ newOffset
 +
 +
 ;
-}
 }
 nsCOMPtr
 <

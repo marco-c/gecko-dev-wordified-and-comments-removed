@@ -2040,7 +2040,7 @@ CallerInnerWindow
 (
 )
 ;
-nsresult
+void
 InnerSetNewDocument
 (
 nsIDocument

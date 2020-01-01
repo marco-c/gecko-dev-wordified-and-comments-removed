@@ -1422,6 +1422,9 @@ case
 eCSSProperty_font_weight
 :
 case
+eCSSProperty_height
+:
+case
 eCSSProperty_image_rendering
 :
 case
@@ -1504,6 +1507,9 @@ eCSSProperty_text_rendering
 :
 case
 eCSSProperty_vector_effect
+:
+case
+eCSSProperty_width
 :
 case
 eCSSProperty_visibility

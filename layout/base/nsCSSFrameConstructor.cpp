@@ -10524,6 +10524,9 @@ isScrollable
 !
 isXUL
 ;
+#
+ifndef
+MOZ_WIDGET_ANDROID
 if
 (
 isHTML
@@ -10557,6 +10560,8 @@ isScrollable
 false
 ;
 }
+#
+endif
 if
 (
 isPaginated
@@ -47802,7 +47807,7 @@ top
 aFrame
 -
 >
-InvalidateOverflowRect
+InvalidateFrameSubtree
 (
 )
 ;
@@ -48206,7 +48211,7 @@ top
 aFrame
 -
 >
-InvalidateOverflowRect
+InvalidateFrameSubtree
 (
 )
 ;
@@ -48256,7 +48261,7 @@ pos
 aFrame
 -
 >
-InvalidateOverflowRect
+InvalidateFrameSubtree
 (
 )
 ;

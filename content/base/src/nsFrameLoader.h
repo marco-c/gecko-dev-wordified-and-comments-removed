@@ -78,6 +78,15 @@ Element
 .
 h
 "
+#
+include
+"
+mozilla
+/
+Attributes
+.
+h
+"
 class
 nsIURI
 ;
@@ -137,6 +146,7 @@ QX11EmbedContainer
 endif
 class
 nsContentView
+MOZ_FINAL
 :
 public
 nsIContentView
@@ -348,6 +358,7 @@ mConfig
 ;
 class
 nsFrameLoader
+MOZ_FINAL
 :
 public
 nsIFrameLoader

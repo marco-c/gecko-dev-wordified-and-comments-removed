@@ -54,6 +54,15 @@ nsIInterfaceRequestor
 .
 h
 "
+#
+include
+"
+mozilla
+/
+Attributes
+.
+h
+"
 static
 nsEventStatus
 HandleEvent
@@ -85,6 +94,7 @@ VIEW_WRAPPER_IID
 }
 class
 ViewWrapper
+MOZ_FINAL
 :
 public
 nsIInterfaceRequestor

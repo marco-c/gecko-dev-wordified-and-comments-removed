@@ -844,6 +844,14 @@ namespace
 xpc
 {
 bool
+DeferredRelease
+(
+nsISupports
+*
+obj
+)
+;
+bool
 Base64Encode
 (
 JSContext

@@ -242,6 +242,15 @@ h
 "
 #
 include
+"
+mozilla
+/
+Attributes
+.
+h
+"
+#
+include
 <
 math
 .
@@ -551,6 +560,7 @@ mLocator
 ;
 class
 nsDOMGeoPositionError
+MOZ_FINAL
 :
 public
 nsIDOMGeoPositionError

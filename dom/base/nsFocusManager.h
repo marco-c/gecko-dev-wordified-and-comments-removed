@@ -40,6 +40,15 @@ nsIWidget
 h
 "
 #
+include
+"
+mozilla
+/
+Attributes
+.
+h
+"
+#
 define
 FOCUSMETHOD_MASK
 0xF000
@@ -83,6 +92,7 @@ nsDelayedBlurOrFocusEvent
 ;
 class
 nsFocusManager
+MOZ_FINAL
 :
 public
 nsIFocusManager

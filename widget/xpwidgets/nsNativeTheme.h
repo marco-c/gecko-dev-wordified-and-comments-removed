@@ -122,6 +122,13 @@ nsNativeTheme
 (
 )
 ;
+virtual
+~
+nsNativeTheme
+(
+)
+{
+}
 nsEventStates
 GetContentState
 (

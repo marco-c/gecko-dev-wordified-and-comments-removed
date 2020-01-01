@@ -194,6 +194,15 @@ h
 #
 include
 "
+mozilla
+/
+Attributes
+.
+h
+"
+#
+include
+"
 plbase64
 .
 h
@@ -225,6 +234,7 @@ dom
 ;
 class
 DataOwnerAdapter
+MOZ_FINAL
 :
 public
 nsIInputStream

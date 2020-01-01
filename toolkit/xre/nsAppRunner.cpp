@@ -113,6 +113,15 @@ h
 #
 include
 "
+mozilla
+/
+AppData
+.
+h
+"
+#
+include
+"
 nsUpdateDriver
 .
 h
@@ -1052,7 +1061,7 @@ endif
 if
 defined
 (
-MOZ_WIDGET_GTK2
+MOZ_WIDGET_GTK
 )
 #
 if
@@ -11575,7 +11584,7 @@ excpreg
 endif
 #
 ifdef
-MOZ_WIDGET_GTK2
+MOZ_WIDGET_GTK
 #
 include
 "
@@ -12253,7 +12262,7 @@ endif
 if
 defined
 (
-MOZ_WIDGET_GTK2
+MOZ_WIDGET_GTK
 )
 mGdkDisplay
 (
@@ -12418,7 +12427,7 @@ endif
 if
 defined
 (
-MOZ_WIDGET_GTK2
+MOZ_WIDGET_GTK
 )
 GdkDisplay
 *
@@ -14454,7 +14463,7 @@ false
 if
 defined
 (
-MOZ_WIDGET_GTK2
+MOZ_WIDGET_GTK
 )
 |
 |
@@ -14692,7 +14701,15 @@ endif
 if
 defined
 (
-MOZ_WIDGET_GTK2
+MOZ_WIDGET_GTK
+)
+#
+if
+(
+MOZ_WIDGET_GTK
+=
+=
+2
 )
 if
 (
@@ -14708,6 +14725,8 @@ gdk_rgb_set_install
 TRUE
 )
 ;
+#
+endif
 if
 (
 !
@@ -14999,7 +15018,7 @@ endif
 if
 defined
 (
-MOZ_WIDGET_GTK2
+MOZ_WIDGET_GTK
 )
 mGdkDisplay
 =
@@ -15095,6 +15114,14 @@ false
 )
 ;
 }
+#
+if
+(
+MOZ_WIDGET_GTK
+=
+=
+2
+)
 gtk_widget_set_default_colormap
 (
 gdk_rgb_get_colormap
@@ -15102,6 +15129,8 @@ gdk_rgb_get_colormap
 )
 )
 ;
+#
+endif
 #
 endif
 #
@@ -15184,7 +15213,7 @@ HAVE_DESKTOP_STARTUP_ID
 &
 defined
 (
-MOZ_WIDGET_GTK2
+MOZ_WIDGET_GTK
 )
 if
 (
@@ -16979,7 +17008,7 @@ HAVE_DESKTOP_STARTUP_ID
 &
 defined
 (
-MOZ_WIDGET_GTK2
+MOZ_WIDGET_GTK
 )
 nsGTKToolkit
 *
@@ -17438,7 +17467,7 @@ log
 if
 defined
 (
-MOZ_WIDGET_GTK2
+MOZ_WIDGET_GTK
 )
 #
 ifdef
@@ -17707,7 +17736,7 @@ mProfileName
 ;
 #
 ifdef
-MOZ_WIDGET_GTK2
+MOZ_WIDGET_GTK
 MOZ_gdk_display_close
 (
 mGdkDisplay
@@ -17757,7 +17786,7 @@ NS_ERROR_LAUNCHED_CHILD_PROCESS
 }
 #
 ifdef
-MOZ_WIDGET_GTK2
+MOZ_WIDGET_GTK
 MOZ_gdk_display_close
 (
 mGdkDisplay

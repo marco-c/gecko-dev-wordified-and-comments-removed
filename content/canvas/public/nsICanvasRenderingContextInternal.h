@@ -160,6 +160,17 @@ mCanvasElement
 aParentCanvas
 ;
 }
+nsHTMLCanvasElement
+*
+GetParentObject
+(
+)
+const
+{
+return
+mCanvasElement
+;
+}
 NS_IMETHOD
 SetDimensions
 (

@@ -39,6 +39,15 @@ nsSVGElement
 .
 h
 "
+#
+include
+"
+mozilla
+/
+Attributes
+.
+h
+"
 namespace
 mozilla
 {
@@ -53,6 +62,7 @@ SVGNumberList
 ;
 class
 DOMSVGAnimatedNumberList
+MOZ_FINAL
 :
 public
 nsIDOMSVGAnimatedNumberList

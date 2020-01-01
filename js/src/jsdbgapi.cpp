@@ -7161,8 +7161,8 @@ DumpCallgrind
 #
 endif
 #
-ifdef
-MOZ_VTUNE
+if
+0
 JS_FN
 (
 "
@@ -7337,8 +7337,8 @@ true
 #
 endif
 #
-ifdef
-MOZ_VTUNE
+if
+0
 #
 include
 <

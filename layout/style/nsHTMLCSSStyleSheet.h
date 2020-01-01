@@ -29,6 +29,7 @@ h
 "
 class
 nsHTMLCSSStyleSheet
+MOZ_FINAL
 :
 public
 nsIStyleSheet

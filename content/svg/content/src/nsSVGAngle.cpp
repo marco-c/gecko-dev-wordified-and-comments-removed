@@ -168,6 +168,15 @@ SVGOrientSMILType
 .
 h
 "
+#
+include
+"
+mozilla
+/
+Attributes
+.
+h
+"
 using
 namespace
 mozilla
@@ -249,6 +258,7 @@ now
 /
 class
 DOMSVGAngle
+MOZ_FINAL
 :
 public
 nsIDOMSVGAngle

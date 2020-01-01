@@ -32,6 +32,15 @@ nsIFrame
 .
 h
 "
+#
+include
+"
+mozilla
+/
+Attributes
+.
+h
+"
 class
 nsTreeBodyFrame
 ;
@@ -77,6 +86,7 @@ NS_TREECOLUMN_IMPL_CID
 }
 class
 nsTreeColumn
+MOZ_FINAL
 :
 public
 nsITreeColumn
@@ -419,6 +429,7 @@ NS_TREECOLUMN_IMPL_CID
 )
 class
 nsTreeColumns
+MOZ_FINAL
 :
 public
 nsITreeColumns

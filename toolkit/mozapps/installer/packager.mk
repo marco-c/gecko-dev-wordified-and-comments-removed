@@ -8879,17 +8879,6 @@ SIGN_CHECKSUM_CMD
 =
 ifdef
 MOZ_SIGN_CMD
-ifeq
-(
-gpg
-(
-filter
-gpg
-(
-MOZ_EXTERNAL_SIGNING_FORMAT
-)
-)
-)
 #
 If
 we
@@ -9002,7 +8991,6 @@ PACKAGE
 .
 asc
 )
-endif
 endif
 checksum
 :

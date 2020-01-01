@@ -3440,7 +3440,15 @@ if
 (
 owner
 .
-toObjectOrNull
+isUndefined
+(
+)
+|
+|
+&
+owner
+.
+toObject
 (
 )
 !
@@ -3455,7 +3463,7 @@ js_GetErrorMessage
 NULL
 owner
 .
-isNull
+isUndefined
 (
 )
 ?
@@ -20793,7 +20801,7 @@ JSString
 *
 str
 =
-js_IntToString
+Int32ToString
 (
 cx
 JSID_TO_INT
@@ -24801,6 +24809,10 @@ objectProto
 (
 cx
 )
+envProto
+(
+cx
+)
 ;
 objProto
 =
@@ -24941,8 +24953,6 @@ objectProto
 return
 false
 ;
-JSObject
-*
 envProto
 =
 js_InitClass

@@ -1639,5 +1639,12 @@ eFromSubtree
 eNoRule
 eNoRule
 eFromSubtree
+eNoRule
+eFromSubtree
+eNoRule
+eFromSubtree
+eFromSubtreeIfRec
+eFromSubtree
+eFromSubtree
 }
 ;

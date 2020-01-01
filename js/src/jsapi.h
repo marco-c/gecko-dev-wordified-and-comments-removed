@@ -142,10 +142,6 @@ int32_t
 0x7fffffff
 )
 #
-define
-JS_Assert
-MOZ_Assert
-#
 ifdef
 __cplusplus
 namespace
@@ -18850,15 +18846,6 @@ jsval
 vp
 )
 ;
-#
-ifdef
-DEBUG
-#
-define
-JS_GC_ZEAL
-1
-#
-endif
 #
 ifdef
 JS_GC_ZEAL

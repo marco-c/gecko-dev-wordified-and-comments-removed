@@ -306,6 +306,15 @@ LookAndFeel
 .
 h
 "
+#
+include
+"
+mozilla
+/
+Attributes
+.
+h
+"
 using
 namespace
 mozilla
@@ -355,6 +364,7 @@ gLastKeyTime
 ;
 class
 nsListEventListener
+MOZ_FINAL
 :
 public
 nsIDOMEventListener

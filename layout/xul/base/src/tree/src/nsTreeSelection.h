@@ -32,6 +32,15 @@ nsCycleCollectionParticipant
 .
 h
 "
+#
+include
+"
+mozilla
+/
+Attributes
+.
+h
+"
 class
 nsITreeBoxObject
 ;
@@ -40,6 +49,7 @@ nsTreeRange
 ;
 class
 nsTreeSelection
+MOZ_FINAL
 :
 public
 nsINativeTreeSelection

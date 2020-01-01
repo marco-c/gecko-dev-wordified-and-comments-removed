@@ -374,8 +374,7 @@ cb
 NoteNativeChild
 (
 aMatch
-&
-NS_CYCLE_COLLECTION_NAME
+NS_CYCLE_COLLECTION_PARTICIPANT
 (
 nsXMLBindingSet
 )

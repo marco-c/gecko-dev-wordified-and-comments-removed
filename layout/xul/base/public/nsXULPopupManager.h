@@ -89,6 +89,15 @@ nsStyleConsts
 h
 "
 #
+include
+"
+mozilla
+/
+Attributes
+.
+h
+"
+#
 ifdef
 KeyPress
 #
@@ -816,6 +825,7 @@ mCloseMenuMode
 ;
 class
 nsXULPopupManager
+MOZ_FINAL
 :
 public
 nsIDOMEventListener

@@ -25,6 +25,15 @@ nsIDOMEventListener
 .
 h
 "
+#
+include
+"
+mozilla
+/
+Attributes
+.
+h
+"
 class
 nsMathMLmactionFrame
 :
@@ -163,6 +172,7 @@ MouseOut
 ;
 class
 MouseListener
+MOZ_FINAL
 :
 public
 nsIDOMEventListener
