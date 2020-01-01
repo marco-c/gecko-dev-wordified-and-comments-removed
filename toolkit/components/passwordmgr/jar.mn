@@ -80,6 +80,7 @@ passwordManager
 .
 xul
 )
+*
 content
 /
 passwordmgr
@@ -94,6 +95,7 @@ passwordManager
 .
 js
 )
+*
 content
 /
 passwordmgr
@@ -108,6 +110,7 @@ passwordManagerExceptions
 .
 js
 )
+*
 content
 /
 passwordmgr
@@ -122,6 +125,7 @@ passwordManagerExceptions
 .
 xul
 )
+*
 content
 /
 passwordmgr

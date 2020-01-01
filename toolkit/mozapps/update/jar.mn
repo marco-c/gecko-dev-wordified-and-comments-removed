@@ -65,6 +65,7 @@ content
 /
 mozapps
 /
+*
 content
 /
 mozapps
@@ -81,6 +82,7 @@ history
 .
 xul
 )
+*
 content
 /
 mozapps
@@ -113,6 +115,7 @@ updates
 .
 css
 )
+*
 content
 /
 mozapps
@@ -129,6 +132,7 @@ updates
 .
 js
 )
+*
 content
 /
 mozapps
@@ -145,6 +149,7 @@ updates
 .
 xml
 )
+*
 content
 /
 mozapps

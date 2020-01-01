@@ -164,6 +164,7 @@ about
 .
 xhtml
 )
+*
 content
 /
 global
@@ -176,6 +177,7 @@ aboutAbout
 .
 xhtml
 )
+*
 content
 /
 global
@@ -188,6 +190,7 @@ aboutRights
 .
 xhtml
 )
+*
 content
 /
 global
@@ -294,6 +297,7 @@ contentAreaUtils
 .
 js
 )
+*
 content
 /
 global
@@ -306,6 +310,7 @@ customizeCharset
 .
 js
 )
+*
 content
 /
 global
@@ -330,6 +335,7 @@ customizeToolbar
 .
 css
 )
+*
 content
 /
 global
@@ -342,6 +348,7 @@ customizeToolbar
 .
 js
 )
+*
 content
 /
 global
@@ -354,6 +361,8 @@ customizeToolbar
 .
 xul
 )
+*
++
 content
 /
 global
@@ -380,6 +389,8 @@ editMenuOverlay
 .
 xul
 )
+*
++
 content
 /
 global
@@ -406,6 +417,8 @@ finddialog
 .
 xul
 )
+*
++
 content
 /
 global
@@ -457,6 +470,8 @@ mozilla
 .
 xhtml
 )
+*
++
 content
 /
 global
@@ -494,6 +509,7 @@ resetProfile
 .
 js
 )
+*
 content
 /
 global
@@ -506,6 +522,7 @@ resetProfile
 .
 xul
 )
+*
 content
 /
 global
@@ -518,6 +535,7 @@ resetProfileProgress
 .
 xul
 )
+*
 content
 /
 global
@@ -530,6 +548,8 @@ treeUtils
 .
 js
 )
+*
++
 content
 /
 global
@@ -560,6 +580,8 @@ autocomplete
 .
 xml
 )
+*
++
 content
 /
 global
@@ -576,6 +598,8 @@ browser
 .
 xml
 )
+*
++
 content
 /
 global
@@ -592,6 +616,8 @@ button
 .
 xml
 )
+*
++
 content
 /
 global
@@ -608,6 +634,8 @@ checkbox
 .
 xml
 )
+*
++
 content
 /
 global
@@ -624,6 +652,8 @@ colorpicker
 .
 xml
 )
+*
++
 content
 /
 global
@@ -658,6 +688,8 @@ dialog
 .
 xml
 )
+*
++
 content
 /
 global
@@ -674,6 +706,7 @@ editor
 .
 xml
 )
+*
 content
 /
 global
@@ -725,6 +758,8 @@ findbar
 .
 xml
 )
+*
++
 content
 /
 global
@@ -741,6 +776,8 @@ general
 .
 xml
 )
+*
++
 content
 /
 global
@@ -775,6 +812,8 @@ listbox
 .
 xml
 )
+*
++
 content
 /
 global
@@ -791,6 +830,8 @@ menu
 .
 xml
 )
+*
++
 content
 /
 global
@@ -807,6 +848,8 @@ menulist
 .
 xml
 )
+*
++
 content
 /
 global
@@ -823,6 +866,8 @@ notification
 .
 xml
 )
+*
++
 content
 /
 global
@@ -839,6 +884,8 @@ numberbox
 .
 xml
 )
+*
++
 content
 /
 global
@@ -873,6 +920,8 @@ preferences
 .
 xml
 )
+*
++
 content
 /
 global
@@ -889,6 +938,8 @@ progressmeter
 .
 xml
 )
+*
++
 content
 /
 global
@@ -905,6 +956,8 @@ radio
 .
 xml
 )
+*
++
 content
 /
 global
@@ -921,6 +974,8 @@ resizer
 .
 xml
 )
+*
++
 content
 /
 global
@@ -937,6 +992,8 @@ richlistbox
 .
 xml
 )
+*
++
 content
 /
 global
@@ -953,6 +1010,8 @@ scale
 .
 xml
 )
+*
++
 content
 /
 global
@@ -969,6 +1028,8 @@ scrollbar
 .
 xml
 )
+*
++
 content
 /
 global
@@ -985,6 +1046,8 @@ scrollbox
 .
 xml
 )
+*
++
 content
 /
 global
@@ -1001,6 +1064,8 @@ splitter
 .
 xml
 )
+*
++
 content
 /
 global
@@ -1017,6 +1082,8 @@ spinbuttons
 .
 xml
 )
+*
++
 content
 /
 global
@@ -1051,6 +1118,8 @@ tabbox
 .
 xml
 )
+*
++
 content
 /
 global
@@ -1085,6 +1154,8 @@ textbox
 .
 xml
 )
+*
++
 content
 /
 global
@@ -1101,6 +1172,8 @@ toolbar
 .
 xml
 )
+*
++
 content
 /
 global
@@ -1153,6 +1226,8 @@ videocontrols
 .
 xml
 )
+*
++
 content
 /
 global
@@ -1190,6 +1265,7 @@ xml
 #
 ifdef
 XP_MACOSX
+*
 content
 /
 global

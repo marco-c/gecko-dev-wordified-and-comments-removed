@@ -57,6 +57,8 @@ toolkit
 .
 jar
 :
+*
++
 content
 /
 global
@@ -71,6 +73,8 @@ printdialog
 .
 js
 )
+*
++
 content
 /
 global
@@ -91,6 +95,8 @@ XP_UNIX
 #
 ifndef
 XP_MACOSX
+*
++
 content
 /
 global
@@ -105,6 +111,8 @@ printjoboptions
 .
 js
 )
+*
++
 content
 /
 global
@@ -123,6 +131,8 @@ xul
 endif
 #
 endif
+*
++
 content
 /
 global
@@ -137,6 +147,8 @@ printPageSetup
 .
 js
 )
+*
++
 content
 /
 global
@@ -151,6 +163,8 @@ printPageSetup
 .
 xul
 )
+*
++
 content
 /
 global
@@ -165,6 +179,8 @@ printPreviewBindings
 .
 xml
 )
+*
++
 content
 /
 global
@@ -179,6 +195,8 @@ printPreviewProgress
 .
 js
 )
+*
++
 content
 /
 global
@@ -193,6 +211,8 @@ printPreviewProgress
 .
 xul
 )
+*
++
 content
 /
 global
@@ -207,6 +227,8 @@ printProgress
 .
 js
 )
+*
++
 content
 /
 global
@@ -221,6 +243,8 @@ printProgress
 .
 xul
 )
+*
++
 content
 /
 global

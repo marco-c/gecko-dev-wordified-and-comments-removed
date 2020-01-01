@@ -57,6 +57,7 @@ toolkit
 .
 jar
 :
+*
 content
 /
 global

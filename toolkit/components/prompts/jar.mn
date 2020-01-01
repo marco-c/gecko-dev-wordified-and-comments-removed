@@ -57,6 +57,8 @@ toolkit
 .
 jar
 :
+*
++
 content
 /
 global
@@ -131,6 +133,7 @@ selectDialog
 .
 xul
 )
+*
 content
 /
 global

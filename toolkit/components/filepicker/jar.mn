@@ -57,6 +57,7 @@ toolkit
 .
 jar
 :
+*
 content
 /
 global
@@ -71,6 +72,7 @@ filepicker
 .
 xul
 )
+*
 content
 /
 global

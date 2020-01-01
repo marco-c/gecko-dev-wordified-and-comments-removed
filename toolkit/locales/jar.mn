@@ -363,6 +363,7 @@ config
 .
 properties
 )
+*
 locale
 /
 AB_CD
@@ -402,6 +403,7 @@ console
 .
 properties
 )
+*
 locale
 /
 AB_CD
@@ -421,6 +423,7 @@ contentAreaCommands
 .
 properties
 )
+*
 locale
 /
 AB_CD
@@ -519,6 +522,7 @@ dateFormat
 .
 properties
 )
+*
 locale
 /
 AB_CD
@@ -1509,6 +1513,7 @@ AB_CD
 /
 mozapps
 /
+*
 locale
 /
 AB_CD
@@ -1532,6 +1537,7 @@ unknownContentType
 .
 properties
 )
+*
 locale
 /
 AB_CD
@@ -1555,6 +1561,7 @@ unknownContentType
 .
 dtd
 )
+*
 locale
 /
 AB_CD
@@ -2312,6 +2319,7 @@ AB_CD
 /
 passwordmgr
 /
+*
 locale
 /
 AB_CD
@@ -2331,6 +2339,7 @@ passwordmgr
 .
 properties
 )
+*
 locale
 /
 AB_CD

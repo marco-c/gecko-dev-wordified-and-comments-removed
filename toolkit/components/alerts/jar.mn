@@ -57,6 +57,7 @@ toolkit
 .
 jar
 :
+*
 content
 /
 global
@@ -75,6 +76,7 @@ alert
 .
 xul
 )
+*
 content
 /
 global

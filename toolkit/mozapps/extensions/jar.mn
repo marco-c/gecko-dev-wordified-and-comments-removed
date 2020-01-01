@@ -98,6 +98,7 @@ extensions
 .
 css
 )
+*
 content
 /
 mozapps
@@ -167,6 +168,7 @@ content
 .
 js
 )
+*
 content
 /
 mozapps
@@ -183,6 +185,7 @@ about
 .
 xul
 )
+*
 content
 /
 mozapps
@@ -199,6 +202,7 @@ about
 .
 js
 )
+*
 content
 /
 mozapps
@@ -215,6 +219,7 @@ list
 .
 xul
 )
+*
 content
 /
 mozapps
@@ -231,6 +236,7 @@ list
 .
 js
 )
+*
 content
 /
 mozapps
@@ -247,6 +253,7 @@ blocklist
 .
 xul
 )
+*
 content
 /
 mozapps
@@ -263,6 +270,7 @@ blocklist
 .
 js
 )
+*
 content
 /
 mozapps
@@ -279,6 +287,7 @@ blocklist
 .
 css
 )
+*
 content
 /
 mozapps
@@ -295,6 +304,7 @@ blocklist
 .
 xml
 )
+*
 content
 /
 mozapps
@@ -311,6 +321,7 @@ selectAddons
 .
 xul
 )
+*
 content
 /
 mozapps
@@ -327,6 +338,7 @@ selectAddons
 .
 xml
 )
+*
 content
 /
 mozapps
@@ -343,6 +355,7 @@ selectAddons
 .
 js
 )
+*
 content
 /
 mozapps
@@ -376,6 +389,7 @@ update
 .
 xul
 )
+*
 content
 /
 mozapps
@@ -392,6 +406,7 @@ update
 .
 js
 )
+*
 content
 /
 mozapps
@@ -408,6 +423,7 @@ eula
 .
 xul
 )
+*
 content
 /
 mozapps
@@ -472,6 +488,7 @@ setting
 .
 xml
 )
+*
 content
 /
 mozapps
@@ -488,6 +505,7 @@ xpinstallConfirm
 .
 xul
 )
+*
 content
 /
 mozapps
@@ -520,6 +538,7 @@ xpinstallConfirm
 .
 css
 )
+*
 content
 /
 mozapps
