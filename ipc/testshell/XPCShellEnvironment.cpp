@@ -4744,7 +4744,10 @@ InitClassesWithNewWrappedGlobal
 cx
 backstagePass
 principal
-0
+nsIXPConnect
+:
+:
+FLAG_SYSTEM_GLOBAL_OBJECT
 getter_AddRefs
 (
 holder
