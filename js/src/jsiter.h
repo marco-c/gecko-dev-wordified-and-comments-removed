@@ -161,11 +161,12 @@ uint32
 slength
 uint32
 key
-jsval
-*
-parray
-uint32
-plength
+js
+:
+:
+AutoValueVector
+&
+props
 )
 ;
 void
