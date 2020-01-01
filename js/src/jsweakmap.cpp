@@ -2101,6 +2101,13 @@ check
 (
 )
 ;
+map
+-
+>
+clearWithoutCallingDestructors
+(
+)
+;
 #
 ifdef
 DEBUG
