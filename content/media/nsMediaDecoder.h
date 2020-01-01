@@ -872,6 +872,7 @@ return
 mVideoFrameContainer
 ;
 }
+virtual
 mozilla
 :
 :
