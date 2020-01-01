@@ -11,7 +11,7 @@ libtheora
 -
 1
 .
-0beta3
+0
 source
 distribution
 using
@@ -50,7 +50,7 @@ the
 patch
 in
 bug
-450265
+below
 .
 Bug
 455357

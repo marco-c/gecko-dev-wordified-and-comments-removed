@@ -14,6 +14,13 @@ _O_THEORA_THEORADEC_H_
 #
 include
 <
+stddef
+.
+h
+>
+#
+include
+<
 ogg
 /
 ogg

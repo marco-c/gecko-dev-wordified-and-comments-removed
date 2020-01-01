@@ -6,6 +6,13 @@ x86int
 h
 "
 #
+include
+<
+stddef
+.
+h
+>
+#
 if
 defined
 (
@@ -878,7 +885,7 @@ r
 "
 (
 (
-long
+ptrdiff_t
 )
 _dst_ystride
 )
@@ -890,7 +897,7 @@ r
 "
 (
 (
-long
+ptrdiff_t
 )
 _dst_ystride
 *
@@ -1310,7 +1317,7 @@ r
 "
 (
 (
-long
+ptrdiff_t
 )
 _dst_ystride
 )
@@ -1322,7 +1329,7 @@ r
 "
 (
 (
-long
+ptrdiff_t
 )
 _src_ystride
 )
@@ -1984,7 +1991,7 @@ r
 "
 (
 (
-long
+ptrdiff_t
 )
 _dst_ystride
 )

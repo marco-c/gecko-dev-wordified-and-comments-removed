@@ -66,7 +66,7 @@ PACKAGE_STRING
 libtheora
 1
 .
-0beta3
+0
 "
 #
 define
@@ -80,7 +80,7 @@ PACKAGE_VERSION
 "
 1
 .
-0beta3
+0
 "
 #
 define
@@ -92,5 +92,5 @@ VERSION
 "
 1
 .
-0beta3
+0
 "
