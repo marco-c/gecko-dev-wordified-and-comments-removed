@@ -17737,6 +17737,7 @@ win
 focus
 (
 )
+;
 win
 .
 BrowserSearch
@@ -17796,16 +17797,9 @@ window
 .
 openDialog
 (
-"
-chrome
-:
-/
-/
-browser
-/
-content
-/
-"
+getBrowserURL
+(
+)
 "
 _blank
 "
