@@ -352,14 +352,6 @@ return
 NS_OK
 ;
 }
-#
-define
-CONDITION_WAIT_TIME
-PR_TicksPerSecond
-(
-)
-/
-4
 void
 nsCertVerificationThread
 :
@@ -369,12 +361,6 @@ Run
 void
 )
 {
-const
-PRIntervalTime
-wait_time
-=
-CONDITION_WAIT_TIME
-;
 while
 (
 PR_TRUE
@@ -420,7 +406,7 @@ GetSize
 PR_WaitCondVar
 (
 mCond
-wait_time
+PR_INTERVAL_NO_TIMEOUT
 )
 ;
 }
