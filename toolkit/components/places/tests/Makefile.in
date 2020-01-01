@@ -138,6 +138,15 @@ test_bug_411966
 .
 html
 \
+(
+NULL
+)
+ifndef
+MOZ_PER_WINDOW_PRIVATE_BROWSING
+MOCHITEST_FILES
++
+=
+\
 mochitest
 /
 test_bug_461710
@@ -147,6 +156,7 @@ html
 (
 NULL
 )
+endif
 DIRS
 =
 \
