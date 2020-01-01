@@ -1801,7 +1801,6 @@ nsNPAPIPlugin
 ~
 nsNPAPIPlugin
 (
-void
 )
 {
 memset

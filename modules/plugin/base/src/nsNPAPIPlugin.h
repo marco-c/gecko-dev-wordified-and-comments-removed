@@ -198,7 +198,6 @@ virtual
 ~
 nsNPAPIPlugin
 (
-void
 )
 ;
 NS_DECL_ISUPPORTS
