@@ -597,10 +597,13 @@ to
 insert
 at
 or
--
-1
+*
+nsINavBookmarksService
+.
+DEFAULT_INDEX
 to
 append
+.
 *
 returns
 the
