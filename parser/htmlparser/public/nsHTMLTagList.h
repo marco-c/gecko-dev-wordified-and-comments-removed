@@ -423,7 +423,6 @@ Shared
 HTML_TAG
 (
 plaintext
-Span
 )
 HTML_TAG
 (
@@ -598,7 +597,6 @@ Shared
 HTML_TAG
 (
 xmp
-Span
 )
 HTML_OTHER
 (
