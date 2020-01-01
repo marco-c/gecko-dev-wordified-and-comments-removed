@@ -439,8 +439,6 @@ js
 \
 caps
 \
-xulapp
-\
 (
 NULL
 )
@@ -486,11 +484,11 @@ LIB_SUFFIX
 )
 \
 (
-LIBXUL_LIBS
+MOZ_JS_LIBS
 )
 \
 (
-MOZ_JS_LIBS
+XPCOM_LIBS
 )
 \
 (
@@ -500,9 +498,6 @@ NSPR_LIBS
 (
 NULL
 )
-NSDISTMODE
-=
-copy
 include
 (
 topsrcdir
