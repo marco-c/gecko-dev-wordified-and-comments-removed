@@ -634,6 +634,9 @@ DIST
 bin
 /
 TestCookie
+(
+BIN_SUFFIX
+)
 _RES_FILES
 =
 urlparse
