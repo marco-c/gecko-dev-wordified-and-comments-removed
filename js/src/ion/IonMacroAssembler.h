@@ -553,14 +553,14 @@ size
 ;
 }
 void
-PushVolatileRegsInMask
+PushRegsInMask
 (
 RegisterSet
 set
 )
 ;
 void
-PopVolatileRegsInMask
+PopRegsInMask
 (
 RegisterSet
 set

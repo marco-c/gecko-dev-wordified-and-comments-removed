@@ -4893,7 +4893,7 @@ cache
 ;
 masm
 .
-PushVolatileRegsInMask
+PushRegsInMask
 (
 liveRegs
 )
@@ -4966,7 +4966,7 @@ output
 ;
 masm
 .
-PopVolatileRegsInMask
+PopRegsInMask
 (
 liveRegs
 )
