@@ -6108,6 +6108,10 @@ importedScripts
 FileUtils
 .
 MODE_APPEND
+|
+FileUtils
+.
+MODE_WRONLY
 )
 ;
 }
