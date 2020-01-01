@@ -573,6 +573,12 @@ IPDLDIRS
 \
 dom
 /
+src
+/
+geolocation
+\
+dom
+/
 plugins
 \
 dom

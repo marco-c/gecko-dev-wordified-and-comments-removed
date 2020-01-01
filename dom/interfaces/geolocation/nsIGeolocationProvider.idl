@@ -405,6 +405,9 @@ interface
 nsIDOMWindow
 ;
 interface
+nsIDOMElement
+;
+interface
 nsIDOMGeoPosition
 ;
 interface
@@ -471,6 +474,11 @@ readonly
 attribute
 nsIDOMWindow
 requestingWindow
+;
+readonly
+attribute
+nsIDOMElement
+requestingElement
 ;
 void
 cancel

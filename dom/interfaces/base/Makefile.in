@@ -554,6 +554,10 @@ nsIQueryContentEventResult
 .
 idl
 \
+nsITabChild
+.
+idl
+\
 (
 NULL
 )
