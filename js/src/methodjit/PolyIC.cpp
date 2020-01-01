@@ -120,13 +120,6 @@ INLINE_PATH_LENGTH
 =
 64
 ;
-static
-const
-uint32
-MAX_STUBS
-=
-16
-;
 typedef
 JSC
 :
@@ -2422,7 +2415,7 @@ pic
 stubsGenerated
 =
 =
-MAX_STUBS
+MAX_PIC_STUBS
 )
 disable
 (
@@ -5813,7 +5806,7 @@ pic
 stubsGenerated
 =
 =
-MAX_STUBS
+MAX_PIC_STUBS
 )
 disable
 (
@@ -7797,7 +7790,7 @@ pic
 stubsGenerated
 =
 =
-MAX_STUBS
+MAX_PIC_STUBS
 )
 disable
 (
@@ -8968,7 +8961,7 @@ pic
 stubsGenerated
 =
 =
-MAX_STUBS
+MAX_PIC_STUBS
 )
 disable
 (
@@ -9694,7 +9687,7 @@ pic
 stubsGenerated
 =
 =
-MAX_STUBS
+MAX_PIC_STUBS
 )
 disable
 (
@@ -10705,7 +10698,7 @@ pic
 stubsGenerated
 =
 =
-MAX_STUBS
+MAX_PIC_STUBS
 )
 disable
 (
