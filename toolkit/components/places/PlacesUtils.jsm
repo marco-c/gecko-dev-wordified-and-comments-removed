@@ -9932,7 +9932,7 @@ transactionmanager
 "
 ]
 .
-getService
+createInstance
 (
 Ci
 .
