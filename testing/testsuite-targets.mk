@@ -483,7 +483,7 @@ mochitest
 a11y
 mochitest
 -
-oop
+ipcplugins
 RUN_MOCHITEST
 =
 \
@@ -642,7 +642,7 @@ CHECK_TEST_ERROR
 )
 mochitest
 -
-oop
+ipcplugins
 :
 (
 RUN_MOCHITEST
@@ -1263,7 +1263,7 @@ mochitest
 a11y
 mochitest
 -
-oop
+ipcplugins
 \
 reftest
 crashtest
