@@ -43,7 +43,6 @@ GeckoContentController
 )
 {
 }
-;
 virtual
 ~
 GeckoContentController
@@ -51,7 +50,6 @@ GeckoContentController
 )
 {
 }
-;
 }
 ;
 }
