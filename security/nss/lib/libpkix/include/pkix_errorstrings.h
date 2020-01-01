@@ -7923,7 +7923,7 @@ with
 the
 public
 key
-SEC_ERROR_BAD_SIGNATURE
+0
 )
 PKIX_ERRORENTRY
 (
@@ -8794,7 +8794,7 @@ failed
 Cert
 Signature
 checking
-SEC_ERROR_BAD_SIGNATURE
+0
 )
 PKIX_ERRORENTRY
 (
