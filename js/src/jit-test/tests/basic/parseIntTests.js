@@ -190,7 +190,7 @@ parseInt
 08
 "
 )
-0
+8
 )
 ;
 assertEq
@@ -201,6 +201,6 @@ parseInt
 09
 "
 )
-0
+9
 )
 ;

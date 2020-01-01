@@ -11,7 +11,7 @@ parseInt
 08
 "
 )
-0
+8
 )
 ;
 assertEq
@@ -22,7 +22,7 @@ parseInt
 09
 "
 )
-0
+9
 )
 ;
 assertEq
@@ -33,7 +33,7 @@ parseInt
 014
 "
 )
-12
+14
 )
 ;
 assertEq
@@ -55,7 +55,7 @@ parseInt
 00123
 "
 )
-83
+123
 )
 ;
 for
@@ -82,7 +82,7 @@ parseInt
 08
 "
 )
-0
+8
 )
 ;
 assertEq
@@ -93,7 +93,7 @@ parseInt
 09
 "
 )
-0
+9
 )
 ;
 assertEq
@@ -104,7 +104,7 @@ parseInt
 014
 "
 )
-12
+14
 )
 ;
 assertEq
@@ -126,7 +126,7 @@ parseInt
 00123
 "
 )
-83
+123
 )
 ;
 }
