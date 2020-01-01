@@ -241,6 +241,9 @@ runtime
 const
 ;
 inline
+JS
+:
+:
 Zone
 *
 tenuredZone
@@ -252,6 +255,9 @@ inline
 bool
 tenuredIsInsideZone
 (
+JS
+:
+:
 Zone
 *
 zone
@@ -1448,6 +1454,9 @@ FINALIZE_LIMIT
 void
 init
 (
+JS
+:
+:
 Zone
 *
 zoneArg
@@ -2544,6 +2553,9 @@ inline
 void
 addToAvailableList
 (
+JS
+:
+:
 Zone
 *
 zone
@@ -3504,6 +3516,9 @@ color
 )
 ;
 }
+JS
+:
+:
 Zone
 *
 Cell
@@ -3543,6 +3558,9 @@ Cell
 :
 tenuredIsInsideZone
 (
+JS
+:
+:
 Zone
 *
 zone
