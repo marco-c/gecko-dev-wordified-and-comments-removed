@@ -4369,6 +4369,15 @@ forget
 (
 )
 ;
+if
+(
+aXSocketFd
+.
+IsValid
+(
+)
+)
+{
 mPluginXSocketFdDup
 .
 reset
@@ -4380,6 +4389,7 @@ PlatformHandle
 )
 )
 ;
+}
 #
 endif
 return
