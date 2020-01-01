@@ -126,7 +126,10 @@ const
 char
 *
 )
+NS_INT32_TO_PTR
+(
 10
+)
 }
 {
 "
@@ -144,7 +147,10 @@ const
 char
 *
 )
+NS_INT32_TO_PTR
+(
 5
+)
 }
 {
 "
@@ -160,7 +166,10 @@ const
 char
 *
 )
+NS_INT32_TO_PTR
+(
 9
+)
 }
 {
 "
@@ -174,7 +183,10 @@ const
 char
 *
 )
+NS_INT32_TO_PTR
+(
 9
+)
 }
 }
 ;
@@ -261,9 +273,8 @@ index
 [
 1
 ]
+NS_PTR_TO_UINT32
 (
-PRUint32
-)
 kAliases
 [
 index
@@ -271,6 +282,7 @@ index
 [
 2
 ]
+)
 )
 )
 ;
