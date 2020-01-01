@@ -698,13 +698,6 @@ PRBool
 aCompileEventHandlers
 )
 {
-Link
-:
-:
-ResetLinkState
-(
-)
-;
 nsresult
 rv
 =
