@@ -446,12 +446,7 @@ rules
 mk
 _BROWSER_FILES
 =
-\
 browser_bug410900
-.
-js
-\
-browser_privacypane
 .
 js
 \

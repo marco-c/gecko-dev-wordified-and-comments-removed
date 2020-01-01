@@ -130,17 +130,4 @@ pb
 autoStarted
 )
 ;
-pb
-.
-privateBrowsingEnabled
-=
-true
-;
-do_check_true
-(
-pb
-.
-autoStarted
-)
-;
 }
