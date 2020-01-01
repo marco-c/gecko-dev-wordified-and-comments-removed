@@ -1210,11 +1210,7 @@ widget
 >
 SetTransparencyMode
 (
-viewHasTransparentContent
-?
-eTransparencyTransparent
-:
-eTransparencyOpaque
+mode
 )
 ;
 widget
