@@ -8,7 +8,7 @@ h
 #
 include
 "
-nsCRT
+nsMemory
 .
 h
 "

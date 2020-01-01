@@ -313,11 +313,6 @@ nsCheapSets
 h
 '
 '
-nsCppSharedAllocator
-.
-h
-'
-'
 nsExpirationTracker
 .
 h
