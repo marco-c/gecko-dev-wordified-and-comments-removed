@@ -32262,18 +32262,6 @@ depth
 blockDepth
 )
 )
-{
-if
-(
-JSID_IS_ATOM
-(
-shape
-.
-propid
-(
-)
-)
-)
 return
 JSID_TO_ATOM
 (
@@ -32284,7 +32272,6 @@ propid
 )
 )
 ;
-}
 }
 }
 chain
