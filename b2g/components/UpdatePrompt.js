@@ -2290,6 +2290,12 @@ _applyPromptTimer
 =
 =
 null
+&
+&
+!
+this
+.
+_waitingForIdle
 )
 {
 this
