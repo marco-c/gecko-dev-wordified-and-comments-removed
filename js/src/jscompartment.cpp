@@ -1764,7 +1764,7 @@ jsid
 idp
 )
 {
-JS_ASSERT
+MOZ_ASSERT
 (
 *
 idp
