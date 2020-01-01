@@ -2531,6 +2531,7 @@ newTab
 function
 newTab
 (
+aURI
 )
 {
 ws
@@ -2544,10 +2545,14 @@ this
 toolbarH
 )
 ;
+return
 Browser
 .
 addTab
 (
+aURI
+|
+|
 "
 about
 :

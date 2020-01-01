@@ -528,14 +528,13 @@ learnMore
 onclick
 =
 "
-Browser
+BrowserUI
 .
-addTab
+newTab
 (
 this
 .
 href
-true
 )
 ;
 return
