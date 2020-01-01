@@ -719,6 +719,7 @@ nullptr
 return
 NS_NewSVGRect
 (
+this
 nsSVGUtils
 :
 :

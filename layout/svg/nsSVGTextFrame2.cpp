@@ -12775,6 +12775,7 @@ dom
 :
 SVGRect
 (
+aContent
 r
 .
 x

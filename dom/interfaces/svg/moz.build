@@ -123,11 +123,6 @@ nsIDOMSVGAnimatedNumber
 idl
 '
 '
-nsIDOMSVGAnimatedRect
-.
-idl
-'
-'
 nsIDOMSVGAnimatedString
 .
 idl

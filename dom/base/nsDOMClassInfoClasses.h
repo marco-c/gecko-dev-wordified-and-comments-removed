@@ -284,10 +284,6 @@ SVGAnimatedNumber
 )
 DOMCI_CLASS
 (
-SVGAnimatedRect
-)
-DOMCI_CLASS
-(
 SVGAnimatedString
 )
 DOMCI_CLASS

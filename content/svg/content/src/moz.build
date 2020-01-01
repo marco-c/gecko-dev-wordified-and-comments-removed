@@ -182,6 +182,11 @@ SVGAnimatedLength
 h
 '
 '
+SVGAnimatedRect
+.
+h
+'
+'
 SVGAnimatedTransformList
 .
 h

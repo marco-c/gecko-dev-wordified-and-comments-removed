@@ -225,7 +225,7 @@ patternTransform
 }
 already_AddRefed
 <
-nsIDOMSVGAnimatedRect
+SVGAnimatedRect
 >
 ViewBox
 (

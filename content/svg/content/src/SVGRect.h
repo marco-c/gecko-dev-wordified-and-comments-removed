@@ -22,6 +22,13 @@ SVGIRect
 .
 h
 "
+#
+include
+"
+nsSVGElement
+.
+h
+"
 namespace
 mozilla
 {
@@ -39,6 +46,9 @@ public
 :
 SVGRect
 (
+nsIContent
+*
+aParent
 float
 x
 =
@@ -258,6 +268,9 @@ SVGRect
 >
 NS_NewSVGRect
 (
+nsIContent
+*
+aParent
 float
 x
 =
@@ -296,6 +309,9 @@ SVGRect
 >
 NS_NewSVGRect
 (
+nsIContent
+*
+aParent
 const
 gfxRect
 &

@@ -214,7 +214,7 @@ rv
 ;
 already_AddRefed
 <
-nsIDOMSVGAnimatedRect
+SVGAnimatedRect
 >
 ViewBox
 (

@@ -462,7 +462,7 @@ SVGMarkerElement
 )
 already_AddRefed
 <
-nsIDOMSVGAnimatedRect
+SVGAnimatedRect
 >
 SVGMarkerElement
 :
@@ -471,9 +471,9 @@ ViewBox
 (
 )
 {
-nsCOMPtr
+nsRefPtr
 <
-nsIDOMSVGAnimatedRect
+SVGAnimatedRect
 >
 rect
 ;

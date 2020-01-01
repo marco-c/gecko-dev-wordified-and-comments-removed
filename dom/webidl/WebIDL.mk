@@ -863,6 +863,10 @@ SVGAnimatedPreserveAspectRatio
 .
 webidl
 \
+SVGAnimatedRect
+.
+webidl
+\
 SVGAnimatedTransformList
 .
 webidl

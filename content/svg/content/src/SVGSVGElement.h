@@ -136,6 +136,9 @@ class
 SVGAngle
 ;
 class
+SVGAnimatedRect
+;
+class
 SVGMatrix
 ;
 class
@@ -953,7 +956,7 @@ rv
 ;
 already_AddRefed
 <
-nsIDOMSVGAnimatedRect
+SVGAnimatedRect
 >
 ViewBox
 (

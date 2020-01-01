@@ -264,6 +264,10 @@ SVGAnimatedPreserveAspectRatio
 .
 cpp
 \
+SVGAnimatedRect
+.
+cpp
+\
 SVGAnimatedTransformList
 .
 cpp
