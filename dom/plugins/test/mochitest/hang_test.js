@@ -699,6 +699,15 @@ extraData
 PluginCpuUsage
 "
 ]
+.
+replace
+(
+'
+'
+'
+.
+'
+)
 )
 ;
 if
