@@ -140,6 +140,16 @@ webapp
 headers
 ^
 \
+installs_allowed_from_chrome_mochitests
+.
+webapp
+\
+installs_allowed_from_example
+.
+com
+.
+webapp
+\
 invalid_launch_path
 .
 webapp
