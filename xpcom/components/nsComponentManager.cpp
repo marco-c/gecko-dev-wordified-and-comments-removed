@@ -1107,7 +1107,7 @@ if
 directoryService
 )
 return
-NULL
+nullptr
 ;
 nsCOMPtr
 <
@@ -1142,7 +1142,7 @@ rv
 )
 )
 return
-NULL
+nullptr
 ;
 return
 file
@@ -1191,7 +1191,7 @@ if
 f
 )
 return
-NULL
+nullptr
 ;
 f
 -
@@ -1711,7 +1711,7 @@ RegisterModule
 (
 &
 kXPCOMModule
-NULL
+nullptr
 )
 ;
 for
@@ -1743,7 +1743,7 @@ sStaticModules
 [
 i
 ]
-NULL
+nullptr
 )
 ;
 nsRefPtr
@@ -4193,7 +4193,7 @@ if
 e
 )
 return
-NULL
+nullptr
 ;
 return
 e
@@ -4237,7 +4237,7 @@ if
 entry
 )
 return
-NULL
+nullptr
 ;
 return
 entry
@@ -5215,14 +5215,14 @@ aEntry
 >
 mFactory
 =
-NULL
+nullptr
 ;
 aEntry
 -
 >
 mServiceObject
 =
-NULL
+nullptr
 ;
 return
 PL_DHASH_NEXT
@@ -5266,7 +5266,7 @@ mFactories
 EnumerateRead
 (
 FreeFactoryEntries
-NULL
+nullptr
 )
 ;
 return
@@ -6898,7 +6898,7 @@ if
 loader
 )
 return
-NULL
+nullptr
 ;
 mLoaderMap
 .
@@ -7686,7 +7686,7 @@ NS_OK
 *
 _retval
 =
-NULL
+nullptr
 ;
 return
 NS_ERROR_FACTORY_NOT_REGISTERED
@@ -7920,11 +7920,11 @@ factory
 :
 mCIDEntry
 (
-NULL
+nullptr
 )
 mModule
 (
-NULL
+nullptr
 )
 mFactory
 (
@@ -8036,7 +8036,7 @@ if
 mModule
 )
 return
-NULL
+nullptr
 ;
 if
 (
@@ -8049,7 +8049,7 @@ Load
 )
 )
 return
-NULL
+nullptr
 ;
 nsCOMPtr
 <
@@ -8159,7 +8159,7 @@ if
 factory
 )
 return
-NULL
+nullptr
 ;
 SafeMutexAutoLock
 lock
@@ -8395,7 +8395,7 @@ gComponentManager
 RegisterModule
 (
 aComponent
-NULL
+nullptr
 )
 ;
 return
