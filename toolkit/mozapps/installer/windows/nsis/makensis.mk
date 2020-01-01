@@ -515,6 +515,10 @@ ApplicationID
 .
 dll
 \
+InvokeShellVerb
+.
+dll
+\
 ShellLink
 .
 dll

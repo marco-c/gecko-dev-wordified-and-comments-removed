@@ -693,6 +693,9 @@ insertmacro
 IsHandlerForInstallDir
 !
 insertmacro
+IsPinnedToTaskBar
+!
+insertmacro
 LogDesktopShortcut
 !
 insertmacro
@@ -700,6 +703,9 @@ LogQuickLaunchShortcut
 !
 insertmacro
 LogStartMenuShortcut
+!
+insertmacro
+PinnedToStartMenuLnkCount
 !
 insertmacro
 RegCleanAppHandler
