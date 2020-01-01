@@ -10242,7 +10242,7 @@ document
 content
 -
 >
-GetDocument
+GetOwnerDoc
 (
 )
 ;
