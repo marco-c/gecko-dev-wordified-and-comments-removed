@@ -458,6 +458,10 @@ const
 char
 *
 val
+PRBool
+ignoreCase
+=
+PR_FALSE
 )
 ;
 PRBool
@@ -475,6 +479,10 @@ const
 char
 *
 val
+PRBool
+ignoreCase
+=
+PR_FALSE
 )
 ;
 PRBool
@@ -492,6 +500,10 @@ const
 URLSegment
 &
 s2
+PRBool
+ignoreCase
+=
+PR_FALSE
 )
 ;
 PRInt32
