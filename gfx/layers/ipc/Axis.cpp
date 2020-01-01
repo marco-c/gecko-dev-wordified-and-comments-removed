@@ -1224,10 +1224,7 @@ GetOrigin
 (
 )
 {
-gfx
-:
-:
-Point
+CSSPoint
 origin
 =
 mAsyncPanZoomController
@@ -1464,10 +1461,7 @@ AxisX
 GetPointOffset
 (
 const
-gfx
-:
-:
-Point
+CSSPoint
 &
 aPoint
 )
@@ -1543,10 +1537,7 @@ AxisY
 GetPointOffset
 (
 const
-gfx
-:
-:
-Point
+CSSPoint
 &
 aPoint
 )

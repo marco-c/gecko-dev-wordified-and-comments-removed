@@ -36,6 +36,13 @@ Rect
 .
 h
 "
+#
+include
+"
+Units
+.
+h
+"
 namespace
 mozilla
 {
@@ -424,10 +431,10 @@ gfx
 Rect
 mViewport
 ;
-gfx
+mozilla
 :
 :
-Point
+CSSPoint
 mScrollOffset
 ;
 ViewID

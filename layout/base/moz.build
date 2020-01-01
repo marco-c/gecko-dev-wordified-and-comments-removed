@@ -231,6 +231,11 @@ StackArena
 h
 '
 '
+Units
+.
+h
+'
+'
 nsArenaMemoryStats
 .
 h
