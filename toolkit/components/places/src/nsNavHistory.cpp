@@ -3892,7 +3892,6 @@ return
 NS_OK
 ;
 }
-;
 nsresult
 nsNavHistory
 :
