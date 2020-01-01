@@ -1577,6 +1577,14 @@ nsIDOMNode
 aNode
 )
 ;
+bool
+IsNodeInActiveEditor
+(
+nsINode
+*
+aNode
+)
+;
 NS_IMETHOD
 TabInTable
 (
