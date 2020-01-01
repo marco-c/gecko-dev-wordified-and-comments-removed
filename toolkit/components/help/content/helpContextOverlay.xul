@@ -668,7 +668,7 @@ label
 =
 "
 &
-textZoomEnlargeBtn
+fullZoomEnlargeBtn
 .
 label
 ;
@@ -677,7 +677,7 @@ accesskey
 =
 "
 &
-textZoomEnlargeBtn
+fullZoomEnlargeBtn
 .
 accesskey
 ;
@@ -686,12 +686,6 @@ oncommand
 =
 "
 ZoomManager
-.
-prototype
-.
-getInstance
-(
-)
 .
 enlarge
 (
@@ -713,7 +707,7 @@ label
 =
 "
 &
-textZoomReduceBtn
+fullZoomReduceBtn
 .
 label
 ;
@@ -722,7 +716,7 @@ accesskey
 =
 "
 &
-textZoomReduceBtn
+fullZoomReduceBtn
 .
 accesskey
 ;
@@ -731,12 +725,6 @@ oncommand
 =
 "
 ZoomManager
-.
-prototype
-.
-getInstance
-(
-)
 .
 reduce
 (
