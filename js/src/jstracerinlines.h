@@ -29,6 +29,9 @@ inline
 void
 prim_push_stack
 (
+JSContext
+*
+cx
 JSFrameRegs
 &
 regs
@@ -39,6 +42,7 @@ v
 {
 interp_prim_push_stack
 (
+cx
 regs
 v
 )
@@ -49,6 +53,9 @@ inline
 void
 prim_pop_stack
 (
+JSContext
+*
+cx
 JSFrameRegs
 &
 regs
@@ -59,6 +66,7 @@ v
 {
 interp_prim_pop_stack
 (
+cx
 regs
 v
 )
@@ -69,6 +77,9 @@ inline
 void
 prim_store_stack
 (
+JSContext
+*
+cx
 JSFrameRegs
 &
 regs
@@ -81,6 +92,7 @@ v
 {
 interp_prim_store_stack
 (
+cx
 regs
 n
 v
@@ -92,6 +104,9 @@ inline
 void
 prim_fetch_stack
 (
+JSContext
+*
+cx
 JSFrameRegs
 &
 regs
@@ -104,6 +119,7 @@ v
 {
 interp_prim_fetch_stack
 (
+cx
 regs
 n
 v
@@ -115,6 +131,9 @@ inline
 void
 prim_adjust_stack
 (
+JSContext
+*
+cx
 JSFrameRegs
 &
 regs
@@ -124,6 +143,7 @@ n
 {
 interp_prim_adjust_stack
 (
+cx
 regs
 n
 )
@@ -134,6 +154,9 @@ inline
 void
 prim_generate_constant
 (
+JSContext
+*
+cx
 jsval
 c
 jsval
@@ -143,6 +166,7 @@ v
 {
 interp_prim_generate_constant
 (
+cx
 c
 v
 )
@@ -153,6 +177,9 @@ inline
 void
 prim_boolean_to_jsval
 (
+JSContext
+*
+cx
 JSBool
 &
 b
@@ -163,6 +190,7 @@ v
 {
 interp_prim_boolean_to_jsval
 (
+cx
 b
 v
 )
@@ -173,6 +201,9 @@ inline
 void
 prim_string_to_jsval
 (
+JSContext
+*
+cx
 JSString
 *
 &
@@ -184,6 +215,7 @@ v
 {
 interp_prim_string_to_jsval
 (
+cx
 str
 v
 )
@@ -194,6 +226,9 @@ inline
 void
 prim_object_to_jsval
 (
+JSContext
+*
+cx
 JSObject
 *
 &
@@ -205,6 +240,7 @@ v
 {
 interp_prim_object_to_jsval
 (
+cx
 obj
 v
 )
@@ -215,6 +251,9 @@ inline
 void
 prim_id_to_jsval
 (
+JSContext
+*
+cx
 jsid
 &
 id
@@ -225,6 +264,7 @@ v
 {
 interp_prim_id_to_jsval
 (
+cx
 id
 v
 )
@@ -235,6 +275,9 @@ inline
 bool
 guard_jsdouble_is_int_and_int_fits_in_jsval
 (
+JSContext
+*
+cx
 jsdouble
 &
 d
@@ -246,6 +289,7 @@ i
 return
 interp_guard_jsdouble_is_int_and_int_fits_in_jsval
 (
+cx
 d
 i
 )
@@ -256,6 +300,9 @@ inline
 void
 prim_int_to_jsval
 (
+JSContext
+*
+cx
 jsint
 &
 i
@@ -266,6 +313,7 @@ v
 {
 interp_prim_int_to_jsval
 (
+cx
 i
 v
 )
@@ -301,6 +349,9 @@ inline
 bool
 guard_int_fits_in_jsval
 (
+JSContext
+*
+cx
 jsint
 &
 i
@@ -309,6 +360,7 @@ i
 return
 interp_guard_int_fits_in_jsval
 (
+cx
 i
 )
 ;
@@ -318,6 +370,9 @@ inline
 void
 prim_int_to_double
 (
+JSContext
+*
+cx
 jsint
 &
 i
@@ -328,6 +383,7 @@ d
 {
 interp_prim_int_to_double
 (
+cx
 i
 d
 )
@@ -338,6 +394,9 @@ inline
 bool
 guard_uint_fits_in_jsval
 (
+JSContext
+*
+cx
 uint32
 &
 u
@@ -346,6 +405,7 @@ u
 return
 interp_guard_uint_fits_in_jsval
 (
+cx
 u
 )
 ;
@@ -355,6 +415,9 @@ inline
 void
 prim_uint_to_jsval
 (
+JSContext
+*
+cx
 uint32
 &
 u
@@ -365,6 +428,7 @@ v
 {
 interp_prim_uint_to_jsval
 (
+cx
 u
 v
 )
@@ -375,6 +439,9 @@ inline
 void
 prim_uint_to_double
 (
+JSContext
+*
+cx
 uint32
 &
 u
@@ -385,6 +452,7 @@ d
 {
 interp_prim_uint_to_double
 (
+cx
 u
 d
 )
@@ -395,6 +463,9 @@ inline
 bool
 guard_jsval_is_int
 (
+JSContext
+*
+cx
 jsval
 &
 v
@@ -403,6 +474,7 @@ v
 return
 interp_guard_jsval_is_int
 (
+cx
 v
 )
 ;
@@ -412,6 +484,9 @@ inline
 void
 prim_jsval_to_int
 (
+JSContext
+*
+cx
 jsval
 &
 v
@@ -422,6 +497,7 @@ i
 {
 interp_prim_jsval_to_int
 (
+cx
 v
 i
 )
@@ -432,6 +508,9 @@ inline
 bool
 guard_jsval_is_double
 (
+JSContext
+*
+cx
 jsval
 &
 v
@@ -440,6 +519,7 @@ v
 return
 interp_guard_jsval_is_double
 (
+cx
 v
 )
 ;
@@ -449,6 +529,9 @@ inline
 void
 prim_jsval_to_double
 (
+JSContext
+*
+cx
 jsval
 &
 v
@@ -459,6 +542,7 @@ d
 {
 interp_prim_jsval_to_double
 (
+cx
 v
 d
 )
@@ -493,6 +577,9 @@ inline
 bool
 guard_jsval_is_null
 (
+JSContext
+*
+cx
 jsval
 &
 v
@@ -501,6 +588,7 @@ v
 return
 interp_guard_jsval_is_null
 (
+cx
 v
 )
 ;
@@ -534,6 +622,9 @@ inline
 void
 prim_int_to_uint
 (
+JSContext
+*
+cx
 jsint
 &
 i
@@ -544,6 +635,7 @@ u
 {
 interp_prim_int_to_uint
 (
+cx
 i
 u
 )
@@ -578,6 +670,9 @@ inline
 void
 prim_generate_boolean_constant
 (
+JSContext
+*
+cx
 JSBool
 c
 JSBool
@@ -587,6 +682,7 @@ b
 {
 interp_prim_generate_boolean_constant
 (
+cx
 c
 b
 )
@@ -597,6 +693,9 @@ inline
 bool
 guard_jsval_is_boolean
 (
+JSContext
+*
+cx
 jsval
 &
 v
@@ -605,6 +704,7 @@ v
 return
 interp_guard_jsval_is_boolean
 (
+cx
 v
 )
 ;
@@ -614,6 +714,9 @@ inline
 void
 prim_jsval_to_boolean
 (
+JSContext
+*
+cx
 jsval
 &
 v
@@ -624,6 +727,7 @@ b
 {
 interp_prim_jsval_to_boolean
 (
+cx
 v
 b
 )
@@ -634,6 +738,9 @@ inline
 void
 call_ValueToBoolean
 (
+JSContext
+*
+cx
 jsval
 &
 v
@@ -644,6 +751,7 @@ b
 {
 interp_call_ValueToBoolean
 (
+cx
 v
 b
 )
@@ -654,6 +762,9 @@ inline
 bool
 guard_jsval_is_primitive
 (
+JSContext
+*
+cx
 jsval
 &
 v
@@ -662,6 +773,7 @@ v
 return
 interp_guard_jsval_is_primitive
 (
+cx
 v
 )
 ;
@@ -671,6 +783,9 @@ inline
 void
 prim_jsval_to_object
 (
+JSContext
+*
+cx
 jsval
 &
 v
@@ -682,6 +797,7 @@ obj
 {
 interp_prim_jsval_to_object
 (
+cx
 v
 obj
 )
@@ -692,6 +808,9 @@ inline
 bool
 guard_obj_is_null
 (
+JSContext
+*
+cx
 JSObject
 *
 &
@@ -701,6 +820,7 @@ obj
 return
 interp_guard_obj_is_null
 (
+cx
 obj
 )
 ;
@@ -764,6 +884,9 @@ inline
 void
 prim_dadd
 (
+JSContext
+*
+cx
 jsdouble
 &
 a
@@ -777,6 +900,7 @@ r
 {
 interp_prim_dadd
 (
+cx
 a
 b
 r
@@ -788,6 +912,9 @@ inline
 void
 prim_dsub
 (
+JSContext
+*
+cx
 jsdouble
 &
 a
@@ -801,6 +928,7 @@ r
 {
 interp_prim_dsub
 (
+cx
 a
 b
 r
@@ -812,6 +940,9 @@ inline
 void
 prim_dmul
 (
+JSContext
+*
+cx
 jsdouble
 &
 a
@@ -825,6 +956,7 @@ r
 {
 interp_prim_dmul
 (
+cx
 a
 b
 r
@@ -908,6 +1040,9 @@ inline
 void
 prim_ior
 (
+JSContext
+*
+cx
 jsint
 &
 a
@@ -921,6 +1056,7 @@ r
 {
 interp_prim_ior
 (
+cx
 a
 b
 r
@@ -932,6 +1068,9 @@ inline
 void
 prim_ixor
 (
+JSContext
+*
+cx
 jsint
 &
 a
@@ -945,6 +1084,7 @@ r
 {
 interp_prim_ixor
 (
+cx
 a
 b
 r
@@ -956,6 +1096,9 @@ inline
 void
 prim_iand
 (
+JSContext
+*
+cx
 jsint
 &
 a
@@ -969,6 +1112,7 @@ r
 {
 interp_prim_iand
 (
+cx
 a
 b
 r
@@ -980,6 +1124,9 @@ inline
 void
 prim_ilsh
 (
+JSContext
+*
+cx
 jsint
 &
 a
@@ -993,6 +1140,7 @@ r
 {
 interp_prim_ilsh
 (
+cx
 a
 b
 r
@@ -1004,6 +1152,9 @@ inline
 void
 prim_irsh
 (
+JSContext
+*
+cx
 jsint
 &
 a
@@ -1017,6 +1168,7 @@ r
 {
 interp_prim_irsh
 (
+cx
 a
 b
 r
@@ -1028,6 +1180,9 @@ inline
 void
 prim_ursh
 (
+JSContext
+*
+cx
 uint32
 &
 a
@@ -1041,6 +1196,7 @@ r
 {
 interp_prim_ursh
 (
+cx
 a
 b
 r
@@ -1052,6 +1208,9 @@ inline
 bool
 guard_boolean_is_true
 (
+JSContext
+*
+cx
 JSBool
 &
 cond
@@ -1060,6 +1219,7 @@ cond
 return
 interp_guard_boolean_is_true
 (
+cx
 cond
 )
 ;
@@ -1069,6 +1229,9 @@ inline
 void
 prim_icmp_lt
 (
+JSContext
+*
+cx
 jsint
 &
 a
@@ -1082,6 +1245,7 @@ r
 {
 interp_prim_icmp_lt
 (
+cx
 a
 b
 r
@@ -1093,6 +1257,9 @@ inline
 void
 prim_icmp_le
 (
+JSContext
+*
+cx
 jsint
 &
 a
@@ -1106,6 +1273,7 @@ r
 {
 interp_prim_icmp_le
 (
+cx
 a
 b
 r
@@ -1117,6 +1285,9 @@ inline
 void
 prim_icmp_gt
 (
+JSContext
+*
+cx
 jsint
 &
 a
@@ -1130,6 +1301,7 @@ r
 {
 interp_prim_icmp_gt
 (
+cx
 a
 b
 r
@@ -1141,6 +1313,9 @@ inline
 void
 prim_icmp_ge
 (
+JSContext
+*
+cx
 jsint
 &
 a
@@ -1154,6 +1329,7 @@ r
 {
 interp_prim_icmp_ge
 (
+cx
 a
 b
 r
@@ -1165,6 +1341,9 @@ inline
 void
 prim_dcmp_lt
 (
+JSContext
+*
+cx
 bool
 ifnan
 jsdouble
@@ -1180,6 +1359,7 @@ r
 {
 interp_prim_dcmp_lt
 (
+cx
 ifnan
 a
 b
@@ -1192,6 +1372,9 @@ inline
 void
 prim_dcmp_le
 (
+JSContext
+*
+cx
 bool
 ifnan
 jsdouble
@@ -1207,6 +1390,7 @@ r
 {
 interp_prim_dcmp_le
 (
+cx
 ifnan
 a
 b
@@ -1219,6 +1403,9 @@ inline
 void
 prim_dcmp_gt
 (
+JSContext
+*
+cx
 bool
 ifnan
 jsdouble
@@ -1234,6 +1421,7 @@ r
 {
 interp_prim_dcmp_gt
 (
+cx
 ifnan
 a
 b
@@ -1246,6 +1434,9 @@ inline
 void
 prim_dcmp_ge
 (
+JSContext
+*
+cx
 bool
 ifnan
 jsdouble
@@ -1261,6 +1452,7 @@ r
 {
 interp_prim_dcmp_ge
 (
+cx
 ifnan
 a
 b
@@ -1273,6 +1465,9 @@ inline
 void
 prim_generate_int_constant
 (
+JSContext
+*
+cx
 jsint
 c
 jsint
@@ -1282,6 +1477,7 @@ v
 {
 interp_prim_generate_int_constant
 (
+cx
 c
 v
 )
@@ -1292,6 +1488,9 @@ inline
 void
 prim_jsval_to_string
 (
+JSContext
+*
+cx
 jsval
 &
 v
@@ -1303,6 +1502,7 @@ s
 {
 interp_prim_jsval_to_string
 (
+cx
 v
 s
 )
@@ -1313,6 +1513,9 @@ inline
 void
 call_CompareStrings
 (
+JSContext
+*
+cx
 JSString
 *
 &
@@ -1328,6 +1531,7 @@ r
 {
 interp_call_CompareStrings
 (
+cx
 a
 b
 r
@@ -1339,6 +1543,9 @@ inline
 bool
 guard_both_jsvals_are_int
 (
+JSContext
+*
+cx
 jsval
 &
 a
@@ -1350,6 +1557,7 @@ b
 return
 interp_guard_both_jsvals_are_int
 (
+cx
 a
 b
 )
@@ -1360,6 +1568,9 @@ inline
 bool
 guard_both_jsvals_are_string
 (
+JSContext
+*
+cx
 jsval
 &
 a
@@ -1371,6 +1582,7 @@ b
 return
 interp_guard_both_jsvals_are_string
 (
+cx
 a
 b
 )
