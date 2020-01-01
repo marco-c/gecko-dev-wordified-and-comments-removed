@@ -1003,6 +1003,13 @@ rv
 )
 ;
 nsresult
+OpenRedirectChannel
+(
+nsresult
+rv
+)
+;
+nsresult
 ProcessSTSHeader
 (
 )
