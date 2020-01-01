@@ -369,6 +369,8 @@ np
 ;
 t
 =
+:
+:
 _valid_subexp
 (
 &
@@ -517,6 +519,8 @@ expr
 int
 x
 =
+:
+:
 _valid_subexp
 (
 expr
@@ -818,6 +822,8 @@ p2
 }
 if
 (
+:
+:
 _shexp_match
 (
 str
@@ -1046,6 +1052,8 @@ x
 {
 switch
 (
+:
+:
 _shexp_match
 (
 &
@@ -1408,6 +1416,8 @@ case
 '
 :
 return
+:
+:
 _handle_union
 (
 &
@@ -1628,6 +1638,8 @@ x
 ;
 if
 (
+:
+:
 _shexp_match
 (
 str
@@ -1653,6 +1665,8 @@ break
 }
 if
 (
+:
+:
 _shexp_match
 (
 str
