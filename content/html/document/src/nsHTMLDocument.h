@@ -657,6 +657,12 @@ aWindowSizes
 )
 const
 ;
+virtual
+bool
+WillIgnoreCharsetOverride
+(
+)
+;
 void
 GetDomain
 (
@@ -1363,8 +1369,7 @@ nsACString
 aCharset
 )
 ;
-static
-bool
+void
 TryUserForcedCharset
 (
 nsIMarkupDocumentViewer
@@ -1382,7 +1387,7 @@ aCharset
 )
 ;
 static
-bool
+void
 TryCacheCharset
 (
 nsICachingChannel
@@ -1415,7 +1420,7 @@ aCharset
 ;
 static
 void
-UseWeakDocTypeDefault
+TryWeakDocTypeDefault
 (
 int32_t
 &
@@ -1426,7 +1431,7 @@ aCharset
 )
 ;
 static
-bool
+void
 TryDefaultCharset
 (
 nsIMarkupDocumentViewer
