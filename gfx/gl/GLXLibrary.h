@@ -47,7 +47,7 @@ mTriedInitializing
 (
 false
 )
-mUseTextureFromPixmap
+mHasTextureFromPixmap
 (
 false
 )
@@ -383,12 +383,12 @@ aPixmap
 )
 ;
 bool
-UseTextureFromPixmap
+HasTextureFromPixmap
 (
 )
 {
 return
-mUseTextureFromPixmap
+mHasTextureFromPixmap
 ;
 }
 bool
@@ -837,7 +837,7 @@ bool
 mTriedInitializing
 ;
 bool
-mUseTextureFromPixmap
+mHasTextureFromPixmap
 ;
 bool
 mDebug
