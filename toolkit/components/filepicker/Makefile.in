@@ -109,11 +109,6 @@ DISABLED_EXTRA_COMPONENTS
 nsFilePicker
 .
 js
-DISABLED_EXTRA_PP_COMPONENTS
-=
-nsFilePicker
-.
-manifest
 endif
 endif
 include
