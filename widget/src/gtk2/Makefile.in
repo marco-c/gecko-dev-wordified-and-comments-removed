@@ -723,6 +723,8 @@ EXTRA_DSO_LDOPTS
 =
 -
 lgtkxtbin
+-
+lXrender
 endif
 EXPORTS
 =
