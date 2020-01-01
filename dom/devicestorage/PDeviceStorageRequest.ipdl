@@ -158,7 +158,7 @@ paths
 struct
 FreeSpaceStorageResponse
 {
-int64_t
+uint64_t
 freeBytes
 ;
 }
@@ -166,7 +166,7 @@ freeBytes
 struct
 UsedSpaceStorageResponse
 {
-int64_t
+uint64_t
 usedBytes
 ;
 }

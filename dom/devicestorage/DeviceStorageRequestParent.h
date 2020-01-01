@@ -747,7 +747,7 @@ PostFreeSpaceResultEvent
 DeviceStorageRequestParent
 *
 aParent
-int64_t
+uint64_t
 aFreeSpace
 )
 ;
@@ -765,7 +765,7 @@ CancelableRun
 ;
 private
 :
-int64_t
+uint64_t
 mFreeSpace
 ;
 }
@@ -783,7 +783,11 @@ PostUsedSpaceResultEvent
 DeviceStorageRequestParent
 *
 aParent
-int64_t
+const
+nsAString
+&
+aType
+uint64_t
 aUsedSpace
 )
 ;
@@ -801,7 +805,10 @@ CancelableRun
 ;
 private
 :
-int64_t
+nsString
+mType
+;
+uint64_t
 mUsedSpace
 ;
 }
