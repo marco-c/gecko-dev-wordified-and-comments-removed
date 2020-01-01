@@ -140,6 +140,12 @@ mozilla
 :
 NegativeInfinity
 ;
+using
+JS
+:
+:
+GenericNaN
+;
 CodeGeneratorARM
 :
 :

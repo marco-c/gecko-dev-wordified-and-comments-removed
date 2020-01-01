@@ -114,6 +114,12 @@ mozilla
 :
 DoubleExponentShift
 ;
+using
+JS
+:
+:
+GenericNaN
+;
 CodeGeneratorX86
 :
 :
