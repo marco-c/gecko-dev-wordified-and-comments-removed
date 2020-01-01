@@ -6003,6 +6003,16 @@ js
 THING_ROOT_OBJECT
 ;
 }
+#
+ifdef
+DEBUG
+void
+dump
+(
+)
+;
+#
+endif
 private
 :
 static
