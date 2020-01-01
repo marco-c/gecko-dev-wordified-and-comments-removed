@@ -239,8 +239,6 @@ const
 nsRect
 &
 aFillArea
-PRBool
-aRepeat
 )
 ;
 static
