@@ -7,6 +7,15 @@ jspropertycache_h___
 #
 include
 "
+mozilla
+/
+PodOperations
+.
+h
+"
+#
+include
+"
 jsapi
 .
 h
@@ -353,6 +362,9 @@ PropertyCache
 (
 )
 {
+mozilla
+:
+:
 PodZero
 (
 this

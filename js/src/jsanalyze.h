@@ -9,6 +9,15 @@ include
 "
 mozilla
 /
+PodOperations
+.
+h
+"
+#
+include
+"
+mozilla
+/
 TypeTraits
 .
 h
@@ -108,6 +117,9 @@ Bytecode
 (
 )
 {
+mozilla
+:
+:
 PodZero
 (
 this
@@ -1924,6 +1936,9 @@ clear
 (
 )
 {
+mozilla
+:
+:
 PodZero
 (
 this
@@ -2271,6 +2286,9 @@ SSAPhiNode
 (
 )
 {
+mozilla
+:
+:
 PodZero
 (
 this
@@ -2447,6 +2465,9 @@ SSAUseChain
 (
 )
 {
+mozilla
+:
+:
 PodZero
 (
 this
@@ -2615,6 +2636,9 @@ RawScript
 script
 )
 {
+mozilla
+:
+:
 PodZero
 (
 this

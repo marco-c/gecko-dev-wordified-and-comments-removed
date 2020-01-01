@@ -7,6 +7,15 @@ FullParseHandler_h__
 #
 include
 "
+mozilla
+/
+PodOperations
+.
+h
+"
+#
+include
+"
 ParseNode
 .
 h
@@ -101,6 +110,9 @@ node
 return
 NULL
 ;
+mozilla
+:
+:
 PodAssign
 (
 node

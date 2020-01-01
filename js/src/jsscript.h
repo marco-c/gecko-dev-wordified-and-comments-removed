@@ -7,6 +7,15 @@ jsscript_h___
 #
 include
 "
+mozilla
+/
+PodOperations
+.
+h
+"
+#
+include
+"
 jsdbgapi
 .
 h
@@ -4940,6 +4949,9 @@ return
 false
 ;
 return
+mozilla
+:
+:
 PodEqual
 <
 jsbytecode

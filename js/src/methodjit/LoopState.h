@@ -13,6 +13,15 @@ jsjaeger_loopstate_h__
 #
 include
 "
+mozilla
+/
+PodOperations
+.
+h
+"
+#
+include
+"
 jsanalyze
 .
 h
@@ -249,6 +258,9 @@ InvariantEntry
 (
 )
 {
+mozilla
+:
+:
 PodZero
 (
 this

@@ -11,6 +11,15 @@ JS_METHODJIT
 define
 jsjaeger_h__
 #
+include
+"
+mozilla
+/
+PodOperations
+.
+h
+"
+#
 ifdef
 JSGC_INCREMENTAL
 #
@@ -2680,6 +2689,9 @@ ChunkDescriptor
 (
 )
 {
+mozilla
+:
+:
 PodZero
 (
 this
@@ -2741,6 +2753,9 @@ CrossChunkEdge
 (
 )
 {
+mozilla
+:
+:
 PodZero
 (
 this

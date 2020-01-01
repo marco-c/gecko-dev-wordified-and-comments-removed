@@ -6,6 +6,15 @@ define
 jsstr_h___
 #
 include
+"
+mozilla
+/
+PodOperations
+.
+h
+"
+#
+include
 <
 ctype
 .
@@ -787,7 +796,7 @@ nelem
 )
 {
 return
-js
+mozilla
 :
 :
 PodCopy

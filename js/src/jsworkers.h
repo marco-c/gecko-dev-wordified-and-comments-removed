@@ -16,6 +16,15 @@ h
 #
 include
 "
+mozilla
+/
+PodOperations
+.
+h
+"
+#
+include
+"
 jscntxt
 .
 h
@@ -129,6 +138,9 @@ WorkerThreadState
 (
 )
 {
+mozilla
+:
+:
 PodZero
 (
 this

@@ -1,7 +1,9 @@
 #
 include
 "
-jspropertycache
+mozilla
+/
+PodOperations
 .
 h
 "
@@ -16,6 +18,13 @@ h
 include
 "
 jsnum
+.
+h
+"
+#
+include
+"
+jspropertycache
 .
 h
 "
@@ -43,6 +52,12 @@ h
 using
 namespace
 js
+;
+using
+mozilla
+:
+:
+PodArrayZero
 ;
 PropertyCacheEntry
 *

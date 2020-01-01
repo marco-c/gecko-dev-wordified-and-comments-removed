@@ -36,6 +36,15 @@ include
 "
 mozilla
 /
+PodOperations
+.
+h
+"
+#
+include
+"
+mozilla
+/
 TypeTraits
 .
 h
@@ -3306,6 +3315,9 @@ AllocPolicy
 rhs
 )
 {
+mozilla
+:
+:
 PodAssign
 (
 this
@@ -3347,6 +3359,9 @@ capacity
 )
 )
 ;
+mozilla
+:
+:
 PodAssign
 (
 this
