@@ -80,11 +80,10 @@ MODULE
 accessibility
 LIBRARY_NAME
 =
-accessibility_toolkit_s
+accessibility_toolkit_msaa_s
 EXPORT_LIBRARY
 =
-.
-.
+1
 LIBXUL_LIBRARY
 =
 1
@@ -293,6 +292,9 @@ srcdir
 .
 .
 /
+.
+.
+/
 base
 \
 -
@@ -300,6 +302,9 @@ I
 (
 srcdir
 )
+/
+.
+.
 /
 .
 .
@@ -315,6 +320,9 @@ srcdir
 .
 .
 /
+.
+.
+/
 html
 \
 -
@@ -322,6 +330,9 @@ I
 (
 srcdir
 )
+/
+.
+.
 /
 .
 .
@@ -337,6 +348,9 @@ srcdir
 .
 .
 /
+.
+.
+/
 xul
 \
 -
@@ -347,8 +361,6 @@ srcdir
 /
 .
 .
-/
-windows
 /
 ia2
 \
@@ -361,8 +373,6 @@ srcdir
 .
 .
 /
-windows
-/
 sdn
 \
 -
@@ -374,8 +384,6 @@ srcdir
 .
 .
 /
-windows
-/
 uia
 \
 -
@@ -383,6 +391,9 @@ I
 (
 srcdir
 )
+/
+.
+.
 /
 .
 .
@@ -404,6 +415,9 @@ I
 (
 srcdir
 )
+/
+.
+.
 /
 .
 .
