@@ -342,7 +342,7 @@ defined
 XP_MACOSX
 )
 typedef
-int
+task_t
 ProcessHandle
 ;
 typedef

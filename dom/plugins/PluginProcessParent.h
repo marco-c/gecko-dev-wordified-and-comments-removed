@@ -81,6 +81,7 @@ plugins
 class
 PluginProcessParent
 :
+public
 mozilla
 :
 :
