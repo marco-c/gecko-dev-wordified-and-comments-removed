@@ -669,7 +669,6 @@ _dragData
 new
 DragData
 (
-this
 kTapRadius
 )
 ;
@@ -2843,16 +2842,9 @@ n
 function
 DragData
 (
-owner
 dragRadius
 )
 {
-this
-.
-_owner
-=
-owner
-;
 this
 .
 _dragRadius
