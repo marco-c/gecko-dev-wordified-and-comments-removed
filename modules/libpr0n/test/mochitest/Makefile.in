@@ -681,10 +681,6 @@ anim
 .
 svg
 \
-animation
-.
-svg
-\
 test_animSVGImage
 .
 html
@@ -706,10 +702,6 @@ animated
 gif
 .
 gif
-\
-test_svg_animatedGIF
-.
-html
 \
 (
 NULL
