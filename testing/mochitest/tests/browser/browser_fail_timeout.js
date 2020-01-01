@@ -33,7 +33,7 @@ waitForExplicitFinish
 setTimeout
 (
 end
-20000
+40000
 )
 ;
 }
