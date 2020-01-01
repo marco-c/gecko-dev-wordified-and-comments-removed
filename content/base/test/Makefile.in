@@ -442,6 +442,17 @@ test_bug218236
 .
 html
 \
+file_bug218236_multipart
+.
+txt
+\
+file_bug218236_multipart
+.
+txt
+^
+headers
+^
+\
 test_bug218277
 .
 html
