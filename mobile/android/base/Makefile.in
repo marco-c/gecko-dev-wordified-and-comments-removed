@@ -1139,12 +1139,6 @@ VirtualLayer
 .
 java
 \
-gfx
-/
-WidgetTileLayer
-.
-java
-\
 ui
 /
 Axis

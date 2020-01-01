@@ -702,8 +702,6 @@ const
 nsAString
 &
 aMetadata
-bool
-aHasDirectTexture
 )
 ;
 void
