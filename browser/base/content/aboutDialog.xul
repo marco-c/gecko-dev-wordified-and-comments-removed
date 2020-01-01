@@ -716,6 +716,11 @@ title
 "
 #
 endif
+role
+=
+"
+dialog
+"
 aria
 -
 describedby
@@ -724,6 +729,9 @@ describedby
 version
 distribution
 distributionId
+communityDesc
+contributeDesc
+trademark
 "
 >
 <
@@ -848,14 +856,6 @@ id
 =
 "
 detailsBox
-"
-aria
--
-describedby
-=
-"
-communityDesc
-contributeDesc
 "
 >
 <
