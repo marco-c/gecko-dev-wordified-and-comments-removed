@@ -309,11 +309,11 @@ _mm_shuffle_ps
 (
 _mm_castsi128_ps
 (
-b
+a
 )
 _mm_castsi128_ps
 (
-a
+b
 )
 _MM_SHUFFLE
 (
@@ -333,11 +333,11 @@ _mm_shuffle_ps
 (
 _mm_castsi128_ps
 (
-b
+a
 )
 _mm_castsi128_ps
 (
-a
+b
 )
 _MM_SHUFFLE
 (
