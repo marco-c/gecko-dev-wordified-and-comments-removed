@@ -4611,7 +4611,7 @@ endif
 if
 defined
 (
-HAVE_LIBDL
+HAVE_DLOPEN
 )
 |
 |

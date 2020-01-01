@@ -26786,7 +26786,7 @@ arenas_lock
 }
 #
 ifdef
-HAVE_LIBDL
+HAVE_DLOPEN
 #
 include
 <

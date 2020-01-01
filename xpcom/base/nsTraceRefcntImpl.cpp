@@ -170,7 +170,7 @@ h
 "
 #
 ifdef
-HAVE_LIBDL
+HAVE_DLOPEN
 #
 include
 <
@@ -3890,7 +3890,7 @@ nsnull
 ;
 #
 ifdef
-HAVE_LIBDL
+HAVE_DLOPEN
 {
 PRLibrary
 *
