@@ -6100,14 +6100,12 @@ if
 nsGkAtoms
 :
 :
-areaFrame
+blockFrame
 =
 =
 frameType
-)
-{
-if
-(
+&
+&
 nsGkAtoms
 :
 :
@@ -6136,7 +6134,6 @@ GetVerticalMarginBorderPadding
 secondAncestorRS
 )
 ;
-}
 }
 break
 ;
