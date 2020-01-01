@@ -15035,9 +15035,6 @@ message
 postMessage
 (
 message
-"
-*
-"
 )
 ;
 }
