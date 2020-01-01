@@ -3049,6 +3049,9 @@ LOADURL_DELAY_LOAD
 boolean
 background
 =
+delayLoad
+|
+|
 (
 flags
 &
