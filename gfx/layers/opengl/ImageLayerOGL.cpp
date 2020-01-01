@@ -3000,6 +3000,17 @@ GLContext
 gl
 )
 {
+if
+(
+!
+mBuffer
+|
+|
+!
+mHasData
+)
+return
+;
 GLint
 alignment
 ;
