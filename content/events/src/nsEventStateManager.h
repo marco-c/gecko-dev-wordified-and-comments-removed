@@ -276,10 +276,6 @@ GetContentState
 nsIContent
 *
 aContent
-PRBool
-aFollowLabels
-=
-PR_FALSE
 )
 ;
 PRBool
