@@ -322,16 +322,4 @@ DEFAULT_STACK_SIZE
 #
 endif
 #
-if
-defined
-(
-ANDROID
-)
-#
-define
-REMOTE_AUDIO
-1
-#
-endif
-#
 endif
