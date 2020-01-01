@@ -4360,6 +4360,11 @@ intended
 500
 ;
 let
+acceptable
+=
+250
+;
+let
 then
 =
 Date
@@ -4463,7 +4468,7 @@ do_check_true
 after
 >
 =
-intended
+acceptable
 )
 ;
 DataReportingPolicy
