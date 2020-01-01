@@ -7,7 +7,7 @@ nsSelectsAreaFrame_h___
 #
 include
 "
-nsAreaFrame
+nsBlockFrame
 .
 h
 "
@@ -18,7 +18,7 @@ class
 nsSelectsAreaFrame
 :
 public
-nsAreaFrame
+nsBlockFrame
 {
 public
 :
@@ -124,7 +124,7 @@ nsStyleContext
 aContext
 )
 :
-nsAreaFrame
+nsBlockFrame
 (
 aContext
 )

@@ -7,7 +7,7 @@ nsFileControlFrame_h___
 #
 include
 "
-nsAreaFrame
+nsBlockFrame
 .
 h
 "
@@ -54,7 +54,7 @@ class
 nsFileControlFrame
 :
 public
-nsAreaFrame
+nsBlockFrame
 public
 nsIFormControlFrame
 public
@@ -386,7 +386,7 @@ aFlags
 const
 {
 return
-nsAreaFrame
+nsBlockFrame
 :
 :
 IsFrameOfType

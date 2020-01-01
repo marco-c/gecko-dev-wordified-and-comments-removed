@@ -22,7 +22,7 @@ h
 #
 include
 "
-nsAreaFrame
+nsBlockFrame
 .
 h
 "

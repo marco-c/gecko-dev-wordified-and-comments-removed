@@ -665,6 +665,10 @@ nsListBoxLayout
 .
 cpp
 \
+nsXULLabelFrame
+.
+cpp
+\
 nsXULPopupManager
 .
 cpp

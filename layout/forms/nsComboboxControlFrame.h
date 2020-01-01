@@ -22,7 +22,7 @@ NS_SKIP_NOTIFY_INDEX
 #
 include
 "
-nsAreaFrame
+nsBlockFrame
 .
 h
 "
@@ -130,7 +130,7 @@ class
 nsComboboxControlFrame
 :
 public
-nsAreaFrame
+nsBlockFrame
 public
 nsIFormControlFrame
 public
@@ -323,7 +323,7 @@ aFlags
 const
 {
 return
-nsAreaFrame
+nsBlockFrame
 :
 :
 IsFrameOfType

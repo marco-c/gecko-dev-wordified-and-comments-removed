@@ -318,7 +318,7 @@ nsStyleContext
 aContext
 )
 :
-nsAreaFrame
+nsBlockFrame
 (
 aContext
 )
@@ -400,7 +400,7 @@ DestroyAnonymousContent
 mPostHr
 )
 ;
-nsAreaFrame
+nsBlockFrame
 :
 :
 Destroy
@@ -1080,7 +1080,7 @@ NS_OK
 ;
 }
 return
-nsAreaFrame
+nsBlockFrame
 :
 :
 QueryInterface
@@ -1177,7 +1177,7 @@ else
 {
 rv
 =
-nsAreaFrame
+nsBlockFrame
 :
 :
 AttributeChanged

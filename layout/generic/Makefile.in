@@ -589,10 +589,6 @@ nsAbsoluteContainingBlock
 .
 cpp
 \
-nsAreaFrame
-.
-cpp
-\
 nsBRFrame
 .
 cpp

@@ -189,7 +189,7 @@ this
 PR_FALSE
 )
 ;
-nsAreaFrame
+nsBlockFrame
 :
 :
 Destroy
@@ -241,7 +241,7 @@ NS_OK
 ;
 }
 return
-nsAreaFrame
+nsBlockFrame
 :
 :
 QueryInterface
@@ -313,7 +313,7 @@ PR_TRUE
 ;
 }
 return
-nsAreaFrame
+nsBlockFrame
 :
 :
 Reflow

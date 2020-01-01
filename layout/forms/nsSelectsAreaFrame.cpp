@@ -744,7 +744,7 @@ aLists
 nsresult
 rv
 =
-nsAreaFrame
+nsBlockFrame
 :
 :
 BuildDisplayList
@@ -905,7 +905,7 @@ NS_UNCONSTRAINEDSIZE
 nsresult
 rv
 =
-nsAreaFrame
+nsBlockFrame
 :
 :
 Reflow
