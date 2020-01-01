@@ -2129,7 +2129,7 @@ jsnpobj
 mJSObj
 )
 {
-JS_RemoveObjectRootRT
+js_RemoveRoot
 (
 sJSRuntime
 &

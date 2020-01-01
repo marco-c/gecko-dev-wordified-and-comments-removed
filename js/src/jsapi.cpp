@@ -10918,7 +10918,7 @@ CHECK_REQUEST
 cx
 )
 ;
-RemoveRoot
+js_RemoveRoot
 (
 cx
 -
@@ -10952,7 +10952,7 @@ CHECK_REQUEST
 cx
 )
 ;
-RemoveRoot
+js_RemoveRoot
 (
 cx
 -
@@ -10986,7 +10986,7 @@ CHECK_REQUEST
 cx
 )
 ;
-RemoveRoot
+js_RemoveRoot
 (
 cx
 -
@@ -11020,7 +11020,7 @@ CHECK_REQUEST
 cx
 )
 ;
-RemoveRoot
+js_RemoveRoot
 (
 cx
 -
@@ -11048,7 +11048,7 @@ jsval
 vp
 )
 {
-RemoveRoot
+js_RemoveRoot
 (
 rt
 (
@@ -11074,7 +11074,7 @@ JSString
 rp
 )
 {
-RemoveRoot
+js_RemoveRoot
 (
 rt
 (
@@ -11100,7 +11100,7 @@ JSObject
 rp
 )
 {
-RemoveRoot
+js_RemoveRoot
 (
 rt
 (
@@ -11126,7 +11126,7 @@ JSScript
 rp
 )
 {
-RemoveRoot
+js_RemoveRoot
 (
 rt
 (

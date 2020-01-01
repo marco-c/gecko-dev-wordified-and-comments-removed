@@ -1814,17 +1814,6 @@ char
 name
 )
 ;
-void
-RemoveRoot
-(
-JSRuntime
-*
-rt
-void
-*
-rp
-)
-;
 }
 extern
 JSBool
