@@ -8501,7 +8501,6 @@ rootPresContext
 >
 RequestUpdatePluginGeometry
 (
-mOuter
 )
 ;
 AdjustViews
