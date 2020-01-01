@@ -341,7 +341,7 @@ uint64_t
 d
 )
 )
-static
+inline
 uint64_t
 V
 (
@@ -419,7 +419,7 @@ d
 )
 ;
 }
-static
+inline
 bool
 SplitDriverVersion
 (
@@ -592,7 +592,7 @@ return
 true
 ;
 }
-static
+inline
 void
 PadDriverDecimal
 (
