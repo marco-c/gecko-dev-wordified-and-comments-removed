@@ -3130,8 +3130,6 @@ find_vanilla_new_calls
 LIBRARY
 )
 endif
-ifdef
-ENABLE_TRACEJIT
 ifndef
 WINCE
 JITFLAGS
@@ -3261,7 +3259,6 @@ js
 (
 BIN_SUFFIX
 )
-endif
 endif
 DIST_GARBAGE
 =
@@ -3596,10 +3593,12 @@ VtuneApi
 lib
 endif
 #
+BeOS
+and
 HP
 -
 UX
-does
+do
 not
 require
 the
@@ -3614,11 +3613,13 @@ ifeq
 (
 (
 filter
+BeOS
 HP
 -
 UX
 WINNT
 WINCE
+OpenVMS
 OS2
 (
 OS_ARCH
