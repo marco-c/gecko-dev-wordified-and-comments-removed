@@ -4401,7 +4401,7 @@ void
 Assembler
 :
 :
-asm_int
+asm_immi
 (
 LInsp
 ins
@@ -4457,7 +4457,7 @@ void
 Assembler
 :
 :
-asm_quad
+asm_immf
 (
 LInsp
 ins

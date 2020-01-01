@@ -525,7 +525,7 @@ SP
 FP
 )
 ;
-asm_int
+asm_immi
 (
 EAX
 int
@@ -1643,7 +1643,7 @@ isconst
 )
 )
 {
-asm_int
+asm_immi
 (
 r
 ins
@@ -1669,12 +1669,12 @@ if
 ins
 -
 >
-isconstq
+isconstf
 (
 )
 )
 {
-asm_quad
+asm_immf
 (
 r
 ins
@@ -5752,7 +5752,7 @@ void
 Assembler
 :
 :
-asm_int
+asm_immi
 (
 LInsp
 ins
@@ -5767,7 +5767,7 @@ ins
 GpRegs
 )
 ;
-asm_int
+asm_immi
 (
 rr
 ins
@@ -5789,7 +5789,7 @@ void
 Assembler
 :
 :
-asm_int
+asm_immi
 (
 Register
 r
@@ -5827,7 +5827,7 @@ void
 Assembler
 :
 :
-asm_quad
+asm_immf
 (
 Register
 r
@@ -5902,7 +5902,7 @@ r
 r
 )
 ;
-asm_int
+asm_immi
 (
 tr
 (
@@ -6006,7 +6006,7 @@ void
 Assembler
 :
 :
-asm_quad
+asm_immf
 (
 LInsp
 ins
@@ -6052,7 +6052,7 @@ rr
 FpRegs
 )
 ;
-asm_quad
+asm_immf
 (
 rr
 ins
@@ -6430,7 +6430,7 @@ isconst
 )
 )
 {
-asm_int
+asm_immi
 (
 r
 ins

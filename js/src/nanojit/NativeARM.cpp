@@ -5220,7 +5220,7 @@ underrunProtect
 4
 )
 ;
-asm_quad_nochk
+asm_immf_nochk
 (
 rv
 value
@@ -5450,7 +5450,7 @@ underrunProtect
 4
 )
 ;
-asm_quad_nochk
+asm_immf_nochk
 (
 rv
 value
@@ -5514,7 +5514,7 @@ void
 Assembler
 :
 :
-asm_quad_nochk
+asm_immf_nochk
 (
 Register
 rr
@@ -5568,7 +5568,7 @@ void
 Assembler
 :
 :
-asm_quad
+asm_immf
 (
 LInsp
 ins
@@ -5626,7 +5626,7 @@ underrunProtect
 4
 )
 ;
-asm_quad_nochk
+asm_immf_nochk
 (
 rr
 ins
@@ -10691,7 +10691,7 @@ void
 Assembler
 :
 :
-asm_int
+asm_immi
 (
 LInsp
 ins

@@ -3241,7 +3241,7 @@ void
 Assembler
 :
 :
-asm_quad
+asm_immf
 (
 LIns
 *
@@ -3327,7 +3327,7 @@ FP
 TAG
 (
 "
-asm_quad
+asm_immf
 (
 ins
 =
@@ -4029,7 +4029,7 @@ void
 Assembler
 :
 :
-asm_int
+asm_immi
 (
 LIns
 *
@@ -4059,7 +4059,7 @@ imm32
 TAG
 (
 "
-asm_int
+asm_immi
 (
 ins
 =
