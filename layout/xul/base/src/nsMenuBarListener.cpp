@@ -917,6 +917,12 @@ OpenMenu
 PR_TRUE
 )
 ;
+mAccessKeyDown
+=
+mAccessKeyDownCanceled
+=
+PR_FALSE
+;
 aKeyEvent
 -
 >
