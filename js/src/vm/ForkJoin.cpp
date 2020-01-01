@@ -282,7 +282,7 @@ runtime
 (
 )
 {
-MOZ_ASSUME_NOT_REACHED
+MOZ_ASSUME_UNREACHABLE
 (
 "
 Not
@@ -300,7 +300,7 @@ check
 (
 )
 {
-MOZ_ASSUME_NOT_REACHED
+MOZ_ASSUME_UNREACHABLE
 (
 "
 Not
@@ -326,7 +326,7 @@ Reason
 reason
 )
 {
-MOZ_ASSUME_NOT_REACHED
+MOZ_ASSUME_UNREACHABLE
 (
 "
 Not
@@ -358,7 +358,7 @@ Reason
 reason
 )
 {
-MOZ_ASSUME_NOT_REACHED
+MOZ_ASSUME_UNREACHABLE
 (
 "
 Not
@@ -387,7 +387,7 @@ jsbytecode
 currentPc
 )
 {
-MOZ_ASSUME_NOT_REACHED
+MOZ_ASSUME_UNREACHABLE
 (
 "
 Not
@@ -411,7 +411,7 @@ jsbytecode
 pc
 )
 {
-MOZ_ASSUME_NOT_REACHED
+MOZ_ASSUME_UNREACHABLE
 (
 "
 Not
@@ -1996,7 +1996,7 @@ break
 case
 NumForkJoinModes
 :
-MOZ_ASSUME_NOT_REACHED
+MOZ_ASSUME_UNREACHABLE
 (
 "
 Invalid

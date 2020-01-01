@@ -270,7 +270,7 @@ break
 ;
 default
 :
-MOZ_ASSUME_NOT_REACHED
+MOZ_ASSUME_UNREACHABLE
 (
 "
 Unexpected
@@ -441,7 +441,7 @@ break
 ;
 default
 :
-MOZ_ASSUME_NOT_REACHED
+MOZ_ASSUME_UNREACHABLE
 (
 "
 Unexpected
@@ -3616,7 +3616,7 @@ return
 ptr
 ;
 }
-MOZ_ASSUME_NOT_REACHED
+MOZ_ASSUME_UNREACHABLE
 (
 "
 unsupported
@@ -3983,7 +3983,7 @@ return
 ptr
 ;
 }
-MOZ_ASSUME_NOT_REACHED
+MOZ_ASSUME_UNREACHABLE
 (
 "
 unsupported
@@ -8226,7 +8226,7 @@ break
 ;
 default
 :
-MOZ_ASSUME_NOT_REACHED
+MOZ_ASSUME_UNREACHABLE
 (
 "
 SAY
@@ -8810,7 +8810,7 @@ PoolHintData
 :
 poolBOGUS
 :
-MOZ_ASSUME_NOT_REACHED
+MOZ_ASSUME_UNREACHABLE
 (
 "
 bogus
@@ -9025,7 +9025,7 @@ int
 offset
 )
 {
-MOZ_ASSUME_NOT_REACHED
+MOZ_ASSUME_UNREACHABLE
 (
 "
 ARMAssembler
@@ -10009,7 +10009,7 @@ opv_mul
 c
 )
 ;
-MOZ_ASSUME_NOT_REACHED
+MOZ_ASSUME_UNREACHABLE
 (
 "
 Feature
@@ -10034,7 +10034,7 @@ Condition
 c
 )
 {
-MOZ_ASSUME_NOT_REACHED
+MOZ_ASSUME_UNREACHABLE
 (
 "
 Feature
@@ -10059,7 +10059,7 @@ Condition
 c
 )
 {
-MOZ_ASSUME_NOT_REACHED
+MOZ_ASSUME_UNREACHABLE
 (
 "
 Feature
@@ -10967,7 +10967,7 @@ isDouble
 (
 )
 )
-MOZ_ASSUME_NOT_REACHED
+MOZ_ASSUME_UNREACHABLE
 (
 "
 non
@@ -11266,7 +11266,7 @@ b
 )
 ;
 else
-MOZ_ASSUME_NOT_REACHED
+MOZ_ASSUME_UNREACHABLE
 (
 "
 crazy
@@ -11585,7 +11585,7 @@ labelBranchOffset
 )
 ;
 else
-MOZ_ASSUME_NOT_REACHED
+MOZ_ASSUME_UNREACHABLE
 (
 "
 crazy

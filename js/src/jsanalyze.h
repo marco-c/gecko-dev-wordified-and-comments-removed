@@ -337,7 +337,7 @@ op
 ;
 default
 :
-MOZ_ASSUME_NOT_REACHED
+MOZ_ASSUME_UNREACHABLE
 (
 "
 unrecognized
@@ -411,7 +411,7 @@ JSOP_STRICTNE
 ;
 default
 :
-MOZ_ASSUME_NOT_REACHED
+MOZ_ASSUME_UNREACHABLE
 (
 "
 unrecognized
@@ -693,7 +693,7 @@ ThisSlot
 ;
 default
 :
-MOZ_ASSUME_NOT_REACHED
+MOZ_ASSUME_UNREACHABLE
 (
 "
 Bad

@@ -1728,7 +1728,7 @@ CallArgs
 args
 )
 {
-MOZ_ASSUME_NOT_REACHED
+MOZ_ASSUME_UNREACHABLE
 (
 "
 callable
@@ -1758,7 +1758,7 @@ CallArgs
 args
 )
 {
-MOZ_ASSUME_NOT_REACHED
+MOZ_ASSUME_UNREACHABLE
 (
 "
 callable
@@ -1817,7 +1817,7 @@ unsigned
 indent
 )
 {
-MOZ_ASSUME_NOT_REACHED
+MOZ_ASSUME_UNREACHABLE
 (
 "
 callable
@@ -1846,7 +1846,7 @@ RegExpGuard
 g
 )
 {
-MOZ_ASSUME_NOT_REACHED
+MOZ_ASSUME_UNREACHABLE
 (
 "
 This
