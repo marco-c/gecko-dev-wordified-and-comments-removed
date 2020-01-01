@@ -701,12 +701,6 @@ EXTRA_DSO_LDOPTS
 TK_LIBS
 )
 endif
-ifndef
-WINCE
-ENABLE_CXX_EXCEPTIONS
-=
-1
-endif
 include
 (
 topsrcdir

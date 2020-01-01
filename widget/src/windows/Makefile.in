@@ -714,12 +714,6 @@ ddraw
 .
 lib
 endif
-ifndef
-WINCE
-ENABLE_CXX_EXCEPTIONS
-=
-1
-endif
 ifdef
 MOZ_IPC
 include

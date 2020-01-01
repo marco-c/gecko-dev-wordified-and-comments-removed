@@ -448,9 +448,6 @@ CPPSRCS
 SharedDIB
 .
 cpp
-ENABLE_CXX_EXCEPTIONS
-=
-1
 ifeq
 (
 (
