@@ -1064,6 +1064,14 @@ nsIFrame
 aTargetFrame
 )
 ;
+void
+DoQuerySelectedText
+(
+nsQueryContentEvent
+*
+aEvent
+)
+;
 PRBool
 RemoteQueryContentEvent
 (
