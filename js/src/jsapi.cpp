@@ -11477,11 +11477,6 @@ jsid
 id
 )
 {
-CHECK_REQUEST
-(
-cx
-)
-;
 return
 Jsvalify
 (
@@ -11763,11 +11758,14 @@ obj
 )
 {
 return
+Jsvalify
+(
 obj
 -
 >
 getClass
 (
+)
 )
 ;
 }
