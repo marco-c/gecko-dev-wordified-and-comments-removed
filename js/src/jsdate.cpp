@@ -1931,7 +1931,10 @@ vp
 ;
 }
 Class
-js_DateClass
+js
+:
+:
+DateClass
 =
 {
 js_Date_str
@@ -5296,7 +5299,7 @@ ReportIncompatibleMethod
 cx
 vp
 &
-js_DateClass
+DateClass
 )
 ;
 return
@@ -6242,7 +6245,7 @@ ReportIncompatibleMethod
 cx
 vp
 &
-js_DateClass
+DateClass
 )
 ;
 return
@@ -7516,7 +7519,7 @@ ReportIncompatibleMethod
 cx
 vp
 &
-js_DateClass
+DateClass
 )
 ;
 return
@@ -12025,7 +12028,7 @@ cx
 obj
 NULL
 &
-js_DateClass
+DateClass
 js_Date
 MAXARGS
 NULL
@@ -12156,7 +12159,7 @@ NewBuiltinClassInstance
 (
 cx
 &
-js_DateClass
+DateClass
 )
 ;
 if

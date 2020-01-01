@@ -946,13 +946,9 @@ if
 obj
 -
 >
-getClass
+isStopIteration
 (
 )
-=
-=
-&
-js_StopIterationClass
 )
 return
 js_FindClassObject

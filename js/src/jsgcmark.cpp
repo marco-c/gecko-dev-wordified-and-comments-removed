@@ -3567,7 +3567,7 @@ clasp
 =
 =
 &
-js_ArrayClass
+ArrayClass
 )
 {
 if

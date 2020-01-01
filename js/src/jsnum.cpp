@@ -2888,7 +2888,10 @@ JS_FS_END
 }
 ;
 Class
-js_NumberClass
+js
+:
+:
+NumberClass
 =
 {
 js_Number_str
@@ -2995,7 +2998,7 @@ NewBuiltinClassInstance
 (
 cx
 &
-js_NumberClass
+NumberClass
 )
 ;
 if
@@ -3116,7 +3119,7 @@ s
 )
 )
 "
-js_NumberClass
+NumberClass
 .
 name
 numStr
@@ -5618,7 +5621,7 @@ cx
 obj
 NULL
 &
-js_NumberClass
+NumberClass
 Number
 1
 NULL
