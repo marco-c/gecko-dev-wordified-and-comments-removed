@@ -542,10 +542,6 @@ test_bug_444968
 .
 html
 \
-test_prompt_async
-.
-html
-\
 test_notifications
 .
 html
@@ -645,10 +641,6 @@ subtst_notifications_9
 html
 \
 subtst_notifications_10
-.
-html
-\
-subtst_prompt_async
 .
 html
 \
