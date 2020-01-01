@@ -8511,7 +8511,11 @@ tc
 >
 flags
 &
+(
 TCF_IN_FUNCTION
+|
+TCF_IN_FOR_INIT
+)
 )
 )
 {
