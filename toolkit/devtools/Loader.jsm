@@ -5,6 +5,9 @@ strict
 ;
 let
 {
+classes
+:
+Cc
 interfaces
 :
 Ci
