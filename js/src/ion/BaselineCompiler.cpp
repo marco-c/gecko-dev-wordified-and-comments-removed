@@ -1566,7 +1566,7 @@ JSContext
 *
 BaselineFrame
 *
-JSBool
+bool
 *
 )
 ;
@@ -6582,7 +6582,7 @@ JSContext
 *
 HandleValue
 HandleValue
-JSBool
+bool
 *
 )
 ;
@@ -7190,7 +7190,7 @@ JSContext
 *
 HandleValue
 HandlePropertyName
-JSBool
+bool
 *
 )
 ;
@@ -10562,7 +10562,7 @@ BaselineFrame
 jsbytecode
 *
 pc
-JSBool
+bool
 *
 )
 ;
@@ -10696,7 +10696,7 @@ JSContext
 *
 BaselineFrame
 *
-JSBool
+bool
 )
 ;
 static

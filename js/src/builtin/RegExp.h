@@ -163,7 +163,7 @@ HandleObject
 regexp
 HandleString
 input
-JSBool
+bool
 *
 result
 )

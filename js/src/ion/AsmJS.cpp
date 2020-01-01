@@ -37039,7 +37039,7 @@ IntArgReg0
 ;
 #
 endif
-JSBool
+bool
 (
 *
 pf
@@ -37068,13 +37068,8 @@ pf
 ;
 masm
 .
-branchTest32
+branchIfFalseBool
 (
-Assembler
-:
-:
-Zero
-ReturnReg
 ReturnReg
 throwLabel
 )
@@ -37265,7 +37260,7 @@ AllMask
 )
 )
 ;
-JSBool
+bool
 (
 *
 pf
@@ -37294,13 +37289,8 @@ pf
 ;
 masm
 .
-branchTest32
+branchIfFalseBool
 (
-Assembler
-:
-:
-Zero
-ReturnReg
 ReturnReg
 throwLabel
 )

@@ -139,7 +139,7 @@ dataRelocTableBytes_
 uint32_t
 preBarrierTableBytes_
 ;
-JSBool
+bool
 invalidated_
 ;
 #

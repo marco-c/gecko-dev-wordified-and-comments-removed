@@ -143,6 +143,15 @@ reg
 ;
 }
 void
+convertBoolToInt32
+(
+Register
+source
+Register
+dest
+)
+;
+void
 convertInt32ToDouble
 (
 const

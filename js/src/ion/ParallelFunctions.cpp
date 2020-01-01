@@ -1435,7 +1435,7 @@ MutableHandleValue
 lhs
 MutableHandleValue
 rhs
-JSBool
+bool
 *
 res
 )
@@ -1464,7 +1464,7 @@ MutableHandleValue
 lhs
 MutableHandleValue
 rhs
-JSBool
+bool
 *
 res
 )
@@ -1498,7 +1498,7 @@ MutableHandleValue
 lhs
 MutableHandleValue
 rhs
-JSBool
+bool
 *
 res
 )
@@ -1531,7 +1531,7 @@ MutableHandleValue
 lhs
 MutableHandleValue
 rhs
-JSBool
+bool
 *
 res
 )
@@ -1784,7 +1784,7 @@ MutableHandleValue
 lhs
 MutableHandleValue
 rhs
-JSBool
+bool
 *
 res
 )
@@ -1818,7 +1818,7 @@ MutableHandleValue
 lhs
 MutableHandleValue
 rhs
-JSBool
+bool
 *
 res
 )
@@ -1852,7 +1852,7 @@ MutableHandleValue
 lhs
 MutableHandleValue
 rhs
-JSBool
+bool
 *
 res
 )
@@ -1880,7 +1880,7 @@ MutableHandleValue
 lhs
 MutableHandleValue
 rhs
-JSBool
+bool
 *
 res
 )
@@ -1909,7 +1909,7 @@ MutableHandleValue
 lhs
 MutableHandleValue
 rhs
-JSBool
+bool
 *
 res
 )
@@ -1937,7 +1937,7 @@ MutableHandleValue
 lhs
 MutableHandleValue
 rhs
-JSBool
+bool
 *
 res
 )
@@ -1965,7 +1965,7 @@ HandleString
 lhs
 HandleString
 rhs
-JSBool
+bool
 *
 res
 )
@@ -2028,7 +2028,7 @@ HandleString
 v1
 HandleString
 v2
-JSBool
+bool
 *
 res
 )
@@ -2062,7 +2062,7 @@ HandleString
 v1
 HandleString
 v2
-JSBool
+bool
 *
 res
 )
