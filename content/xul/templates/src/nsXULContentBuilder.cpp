@@ -1812,7 +1812,7 @@ tmplKid
 aResourceNode
 realKid
 PR_FALSE
-aIsSelfReference
+PR_FALSE
 aChild
 PR_FALSE
 aMatch

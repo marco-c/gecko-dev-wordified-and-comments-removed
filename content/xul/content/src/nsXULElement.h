@@ -1926,13 +1926,8 @@ GetTemplateGenerated
 )
 {
 return
-!
-!
+HasFlag
 (
-GetFlags
-(
-)
-&
 XUL_ELEMENT_TEMPLATE_GENERATED
 )
 ;
