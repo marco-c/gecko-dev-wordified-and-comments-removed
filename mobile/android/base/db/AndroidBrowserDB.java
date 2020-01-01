@@ -908,16 +908,6 @@ c
 ;
 }
 public
-int
-getMaxHistoryCount
-(
-)
-{
-return
-250
-;
-}
-public
 void
 clearHistory
 (
