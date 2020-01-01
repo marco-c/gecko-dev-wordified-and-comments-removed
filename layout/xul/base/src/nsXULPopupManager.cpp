@@ -2287,6 +2287,13 @@ GetPrimaryShell
 (
 )
 ;
+if
+(
+!
+presShell
+)
+return
+;
 nsCOMPtr
 <
 nsICaret
@@ -2306,6 +2313,13 @@ getter_AddRefs
 caret
 )
 )
+;
+if
+(
+!
+caret
+)
+return
 ;
 caret
 -
