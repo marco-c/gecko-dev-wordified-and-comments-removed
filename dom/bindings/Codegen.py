@@ -25532,6 +25532,9 @@ n
         
 return
 variadicConversion
+sequenceWrapLevel
+=
+0
 def
 getWrapTemplateForType
 (
@@ -26024,6 +26027,24 @@ recTemplate
 recInfall
 )
         
+global
+sequenceWrapLevel
+        
+index
+=
+"
+sequenceIdx
+%
+d
+"
+%
+sequenceWrapLevel
+        
+sequenceWrapLevel
++
+=
+1
+        
 innerTemplate
 =
 wrapForType
@@ -26044,11 +26065,15 @@ result
 %
 s
 [
-i
+%
+s
 ]
 "
 %
+(
 result
+index
+)
                 
 '
 successCode
@@ -26099,6 +26124,11 @@ returnArray
 }
             
 )
+        
+sequenceWrapLevel
+-
+=
+1
         
 innerTemplate
 =
@@ -26167,17 +26197,20 @@ tmp
 for
 (
 uint32_t
-i
+%
+s
 =
 0
 ;
-i
+%
+s
 <
 length
 ;
 +
 +
-i
+%
+s
 )
 {
     
@@ -26228,7 +26261,8 @@ JS_DefineElement
 (
 cx
 returnArray
-i
+%
+s
 tmp
                           
 nullptr
@@ -26258,7 +26292,12 @@ define
 (
 )
           
+index
+index
+index
+          
 innerTemplate
+index
           
 CGIndenter
 (

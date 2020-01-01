@@ -2114,6 +2114,17 @@ long
 arg
 )
 ;
+sequence
+<
+sequence
+<
+long
+>
+>
+receiveSequenceOfSequences
+(
+)
+;
 /
 /
 Typed
