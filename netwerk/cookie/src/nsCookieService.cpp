@@ -2882,6 +2882,17 @@ failed
 )
 ;
 }
+mDBConn
+-
+>
+Close
+(
+)
+;
+mDBConn
+=
+nsnull
+;
 }
 else
 if
