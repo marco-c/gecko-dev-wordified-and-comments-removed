@@ -2575,6 +2575,15 @@ mUnicodeChar
 ;
 }
 int
+BaseUnicodeChar
+(
+)
+{
+return
+mBaseUnicodeChar
+;
+}
+int
 RepeatCount
 (
 )
@@ -2805,6 +2814,7 @@ mDomKeyLocation
 int
 mKeyCode
 mUnicodeChar
+mBaseUnicodeChar
 ;
 int
 mRepeatCount
@@ -3051,6 +3061,10 @@ jPointerIndexField
 static
 jfieldID
 jUnicodeCharField
+;
+static
+jfieldID
+jBaseUnicodeCharField
 ;
 static
 jfieldID
