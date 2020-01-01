@@ -173,6 +173,14 @@ browser_privatebrowsing_placestitle
 .
 js
 \
+browser_privatebrowsing_placesTitleNoUpdate
+.
+js
+\
+browser_privatebrowsing_placesTitleNoUpdate
+.
+html
+\
 browser_privatebrowsing_popupblocker
 .
 js
