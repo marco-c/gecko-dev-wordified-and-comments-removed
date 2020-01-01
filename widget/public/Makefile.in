@@ -607,6 +607,10 @@ nsIBidiKeyboard
 .
 idl
 \
+nsIFullScreen
+.
+idl
+\
 nsIScreen
 .
 idl

@@ -2205,6 +2205,11 @@ mDidInitJavaProperties
 1
 ;
 PRPackedBool
+mFullScreen
+:
+1
+;
+PRPackedBool
 mIsClosed
 :
 1

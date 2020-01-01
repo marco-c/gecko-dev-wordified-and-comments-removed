@@ -1110,13 +1110,6 @@ mWindowType
 eWindowType_toplevel
 )
 {
-if
-(
-aMode
-=
-=
-nsSizeMode_Normal
-)
 aMode
 =
 nsSizeMode_Maximized
@@ -1153,9 +1146,6 @@ switch
 aMode
 )
 {
-case
-nsSizeMode_Fullscreen
-:
 case
 nsSizeMode_Maximized
 :
