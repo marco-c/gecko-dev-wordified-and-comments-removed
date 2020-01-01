@@ -3022,7 +3022,7 @@ aIter
 const
 ChildIterator
 &
-aIter
+aLast
 )
 ;
 PRBool
