@@ -666,6 +666,17 @@ neckosystem_s
 (
 LIB_SUFFIX
 )
+OS_LIBS
++
+=
+\
+oleaut32
+.
+lib
+\
+(
+NULL
+)
 endif
 ifeq
 (
