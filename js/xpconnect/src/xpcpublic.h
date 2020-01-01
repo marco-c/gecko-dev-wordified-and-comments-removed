@@ -1475,6 +1475,16 @@ JSErrorReport
 rep
 )
 ;
+NS_EXPORT_
+(
+void
+)
+SimulateActivityCallback
+(
+bool
+aActive
+)
+;
 }
 namespace
 mozilla
