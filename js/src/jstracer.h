@@ -509,6 +509,16 @@ hashcode
 (
 )
 ;
+void
+captureStackTypes
+(
+JSContext
+*
+cx
+unsigned
+callDepth
+)
+;
 }
 ;
 class
