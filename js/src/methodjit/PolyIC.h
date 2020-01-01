@@ -609,8 +609,6 @@ idNeedsRemat
 ;
 int
 secondShapeGuard
-:
-8
 ;
 }
 get
@@ -658,8 +656,6 @@ stubsGenerated
 ;
 int
 shapeGuard
-:
-8
 ;
 uint32
 callReturn
