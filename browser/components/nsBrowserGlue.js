@@ -2916,6 +2916,10 @@ tabbrowser
 browsers
 .
 length
+-
+tabbrowser
+.
+_numPinnedTabs
 ;
 }
 this
@@ -3098,7 +3102,6 @@ showPrompt
 inPrivateBrowsing
 )
 return
-false
 ;
 var
 quitBundle
