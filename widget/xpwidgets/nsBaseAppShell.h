@@ -141,16 +141,6 @@ target
 )
 ;
 void
-IncrementEventloopNestingLevel
-(
-)
-;
-void
-DecrementEventloopNestingLevel
-(
-)
-;
-void
 RunSyncSectionsInternal
 (
 bool
