@@ -204,6 +204,9 @@ ElementReplaceEvent
 MozSmsEvent
 '
 '
+MozMmsEvent
+'
+'
 DeviceStorageChangeEvent
 '
 '

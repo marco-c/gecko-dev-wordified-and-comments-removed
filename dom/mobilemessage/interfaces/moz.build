@@ -71,6 +71,11 @@ nsIDOMMobileMessageManager
 idl
 '
 '
+nsIDOMMozMmsEvent
+.
+idl
+'
+'
 nsIDOMMozMmsMessage
 .
 idl
