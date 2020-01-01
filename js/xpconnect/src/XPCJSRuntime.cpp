@@ -283,9 +283,6 @@ __iterator__
 __exposedProps__
 "
 "
-__scriptOnly__
-"
-"
 baseURIObject
 "
 "
