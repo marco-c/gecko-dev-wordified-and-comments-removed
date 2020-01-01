@@ -11665,8 +11665,7 @@ false
 ;
 TokenPos
 subpos
-=
-{
+(
 pn
 -
 >
@@ -11679,7 +11678,7 @@ next
 pn_pos
 .
 end
-}
+)
 ;
 if
 (
