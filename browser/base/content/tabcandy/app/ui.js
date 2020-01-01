@@ -2505,6 +2505,11 @@ function
 (
 )
 {
+var
+me
+=
+this
+;
 setTimeout
 (
 function
@@ -2515,7 +2520,7 @@ try
 {
 if
 (
-this
+me
 .
 contentWindow
 .
@@ -2579,6 +2584,7 @@ Utils
 .
 log
 (
+e
 )
 }
 }
