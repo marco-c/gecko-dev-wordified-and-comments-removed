@@ -2993,7 +2993,7 @@ mLineHeight
 nsStyleCoord
 mTextIndent
 ;
-nsStyleCoord
+nscoord
 mWordSpacing
 ;
 nsRefPtr
