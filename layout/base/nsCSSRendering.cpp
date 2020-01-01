@@ -8300,6 +8300,14 @@ radii
 }
 if
 (
+borderRenderStyle
+&
+NS_STYLE_BORDER_STYLE_RULES_MARKER
+)
+return
+;
+if
+(
 radiiPtr
 )
 useSpecialDotDashSeparateSides
