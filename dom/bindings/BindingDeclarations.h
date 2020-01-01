@@ -953,7 +953,7 @@ mImpl
 ;
 }
 ;
-class
+struct
 FakeDependentString
 ;
 template
