@@ -5,7 +5,7 @@ sqlite
 .
 4
 .
-0
+1
 This
 version
 has
@@ -43,7 +43,7 @@ changes
 .
 html
 #
-version_3_4_0
+version_3_4_1
 -
 -
 Shawn
