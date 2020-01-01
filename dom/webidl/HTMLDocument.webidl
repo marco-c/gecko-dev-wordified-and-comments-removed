@@ -502,12 +502,5 @@ long
 eventFlags
 )
 ;
-void
-routeEvent
-(
-Event
-evt
-)
-;
 }
 ;
