@@ -600,6 +600,9 @@ aCurrLevelNode
 nsRuleNode
 *
 aLastPrevLevelNode
+nsRuleWalker
+*
+aRuleWalker
 )
 ;
 void
@@ -608,6 +611,9 @@ WalkRestrictionRule
 nsIAtom
 *
 aPseudoType
+nsRuleWalker
+*
+aRuleWalker
 )
 ;
 #
@@ -648,6 +654,9 @@ aCollectorFunc
 RuleProcessorData
 *
 aData
+nsRuleWalker
+*
+aRuleWalker
 )
 ;
 void
@@ -675,6 +684,9 @@ aPresContext
 nsStyleContext
 *
 aParentContext
+nsRuleNode
+*
+aRuleNode
 nsIAtom
 *
 aPseudoTag
@@ -731,10 +743,6 @@ mDefaultStyleData
 nsRuleNode
 *
 mRuleTree
-;
-nsRuleWalker
-*
-mRuleWalker
 ;
 PRUint32
 mUnusedRuleNodeCount
