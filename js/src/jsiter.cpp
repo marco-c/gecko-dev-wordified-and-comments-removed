@@ -3814,6 +3814,7 @@ NonGenericMethodGuard
 (
 cx
 args
+iterator_next
 &
 IteratorClass
 &
@@ -6537,6 +6538,8 @@ generator_op
 JSContext
 *
 cx
+Native
+native
 JSGeneratorOp
 op
 Value
@@ -6571,6 +6574,7 @@ NonGenericMethodGuard
 (
 cx
 args
+native
 &
 GeneratorClass
 &
@@ -6888,6 +6892,7 @@ return
 generator_op
 (
 cx
+generator_send
 JSGENOP_SEND
 vp
 argc
@@ -6912,6 +6917,7 @@ return
 generator_op
 (
 cx
+generator_next
 JSGENOP_NEXT
 vp
 argc
@@ -6936,6 +6942,7 @@ return
 generator_op
 (
 cx
+generator_throw
 JSGENOP_THROW
 vp
 argc
@@ -6960,6 +6967,7 @@ return
 generator_op
 (
 cx
+generator_close
 JSGENOP_CLOSE
 vp
 argc

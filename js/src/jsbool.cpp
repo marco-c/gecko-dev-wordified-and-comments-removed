@@ -209,6 +209,7 @@ BoxedPrimitiveMethodGuard
 (
 cx
 args
+bool_toSource
 &
 b
 &
@@ -317,6 +318,7 @@ bool
 (
 cx
 args
+bool_toString
 &
 b
 &
@@ -390,6 +392,7 @@ BoxedPrimitiveMethodGuard
 (
 cx
 args
+bool_valueOf
 &
 b
 &

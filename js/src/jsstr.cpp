@@ -2463,6 +2463,7 @@ BoxedPrimitiveMethodGuard
 (
 cx
 args
+str_toSource
 &
 str
 &
@@ -2762,6 +2763,7 @@ BoxedPrimitiveMethodGuard
 (
 cx
 args
+js_str_toString
 &
 str
 &

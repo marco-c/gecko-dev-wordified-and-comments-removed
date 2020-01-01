@@ -3875,7 +3875,7 @@ wrapper
 )
 -
 >
-isProxy
+isCrossCompartmentWrapper
 (
 )
 )

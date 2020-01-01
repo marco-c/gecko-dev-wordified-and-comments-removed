@@ -8283,6 +8283,8 @@ JSContext
 cx
 CallArgs
 args
+Native
+native
 Class
 *
 clasp
@@ -8351,6 +8353,7 @@ HandleNonGenericMethodClassMismatch
 (
 cx
 args
+native
 clasp
 )
 ;
@@ -8372,6 +8375,8 @@ JSContext
 cx
 CallArgs
 args
+Native
+native
 T
 *
 v
@@ -8434,6 +8439,7 @@ NonGenericMethodGuard
 (
 cx
 args
+native
 Behavior
 :
 :
