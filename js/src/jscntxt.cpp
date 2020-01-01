@@ -5088,7 +5088,7 @@ compartment
 >
 types
 .
-finish
+print
 (
 cx
 *
