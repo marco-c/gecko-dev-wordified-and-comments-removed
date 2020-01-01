@@ -915,6 +915,10 @@ ogv
 headers
 ^
 \
+browser_save_private_link
+.
+js
+\
 bug792517
 .
 html
@@ -1285,6 +1289,14 @@ social_worker
 .
 js
 \
+browser_bug676619
+.
+js
+\
+download_page
+.
+html
+\
 (
 NULL
 )
@@ -1359,10 +1371,6 @@ perwindowpb
 .
 js
 \
-browser_save_private_link_perwindowpb
-.
-js
-\
 (
 NULL
 )
@@ -1380,10 +1388,6 @@ browser_bug767836
 js
 \
 browser_save_link
-.
-js
-\
-browser_save_private_link
 .
 js
 \
