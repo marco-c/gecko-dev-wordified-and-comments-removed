@@ -219,6 +219,13 @@ int64_t
 entrySize
 )
 ;
+size_t
+SizeOfIncludingThis
+(
+nsMallocSizeOfFun
+aMallocSizeOf
+)
+;
 void
 SetCacheParentDirectory
 (

@@ -164,6 +164,13 @@ negative
 )
 ;
 }
+size_t
+SizeOfIncludingThis
+(
+nsMallocSizeOfFun
+aMallocSizeOf
+)
+;
 nsDiskCacheStreamIO
 (
 )

@@ -398,6 +398,12 @@ MemoryDeviceSize
 )
 ;
 static
+int64_t
+DiskDeviceHeapSize
+(
+)
+;
+static
 nsresult
 DoomEntry
 (

@@ -1798,6 +1798,13 @@ mHeader
 mEntryCount
 ;
 }
+size_t
+SizeOfExcludingThis
+(
+nsMallocSizeOfFun
+aMallocSizeOf
+)
+;
 private
 :
 nsresult

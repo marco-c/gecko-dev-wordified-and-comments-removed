@@ -184,6 +184,13 @@ ActiveBindings
 (
 )
 ;
+size_t
+SizeOfExcludingThis
+(
+nsMallocSizeOfFun
+aMallocSizeOf
+)
+;
 private
 :
 nsresult
