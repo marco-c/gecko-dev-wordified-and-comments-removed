@@ -10032,6 +10032,17 @@ getAllClients
 )
 )
 {
+if
+(
+!
+client
+.
+tabs
+.
+length
+)
+continue
+;
 tabs
 .
 push
