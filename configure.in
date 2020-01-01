@@ -17057,10 +17057,6 @@ _DEFINES_CFLAGS
 '
 -
 FI
-(
-DEPTH
-)
-/
 mozilla
 -
 config
@@ -17074,10 +17070,6 @@ _DEFINES_CXXFLAGS
 '
 -
 FI
-(
-DEPTH
-)
-/
 mozilla
 -
 config
