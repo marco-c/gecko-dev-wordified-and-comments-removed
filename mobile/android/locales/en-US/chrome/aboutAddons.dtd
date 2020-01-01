@@ -64,11 +64,12 @@ MPL
 ENTITY
 aboutAddons
 .
-title2
+title
 "
 Add
 -
 ons
+Manager
 "
 >
 <
