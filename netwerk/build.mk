@@ -495,6 +495,8 @@ because
 libpref
 needs
 it
+ifndef
+WINCE
 ifneq
 (
 1_
@@ -512,6 +514,7 @@ tier_necko_dirs
 modules
 /
 libreg
+endif
 endif
 ifndef
 MOZ_NO_XPCOM_OBSOLETE

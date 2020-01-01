@@ -421,7 +421,6 @@ OS_ARCH
 REQUIRES
 +
 =
-libreg
 widget
 gfx
 CPPSRCS
@@ -509,6 +508,10 @@ OS_ARCH
 )
 )
 )
+REQUIRES
++
+=
+libreg
 DEFINES
 +
 =
@@ -527,7 +530,6 @@ OS2
 REQUIRES
 +
 =
-libreg
 widget
 gfx
 CPPSRCS
@@ -619,6 +621,8 @@ NULL
 #
 ifndef
 MOZ_EMBEDDING_LEVEL_DEFAULT
+ifndef
+WINCE
 ifdef
 MOZ_XPINSTALL
 STATIC_LIBS
@@ -630,6 +634,7 @@ mozreg_s
 (
 NULL
 )
+endif
 endif
 #
 endif
