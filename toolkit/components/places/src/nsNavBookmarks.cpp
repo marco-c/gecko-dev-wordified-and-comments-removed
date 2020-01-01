@@ -10623,7 +10623,7 @@ IsVoid
 )
 rv
 =
-mDBInsertBookmark
+statement
 -
 >
 BindNullParameter
