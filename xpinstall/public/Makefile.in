@@ -487,15 +487,6 @@ h
 (
 NULL
 )
-PREF_JS_EXPORTS
-=
-(
-srcdir
-)
-/
-xpinstall
-.
-js
 include
 (
 topsrcdir
