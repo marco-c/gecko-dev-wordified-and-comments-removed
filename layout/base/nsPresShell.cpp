@@ -20665,6 +20665,10 @@ ContentRemoved
 aContainer
 aChild
 aIndexInContainer
+nsCSSFrameConstructor
+:
+:
+REMOVE_CONTENT
 &
 didReconstruct
 )
