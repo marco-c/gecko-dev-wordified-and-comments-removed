@@ -341,6 +341,11 @@ nsWindow
 .
 cpp
 '
+'
+GfxInfo
+.
+cpp
+'
 ]
 if
 CONFIG
