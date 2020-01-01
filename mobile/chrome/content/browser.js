@@ -32,9 +32,7 @@ gre
 /
 modules
 /
-spatial
--
-navigation
+SpatialNavigation
 .
 js
 "
