@@ -18,6 +18,7 @@ Cu
 .
 Sandbox
 (
+[
 '
 http
 :
@@ -29,6 +30,7 @@ google
 .
 com
 '
+]
 {
 wantXHRConstructor
 :
