@@ -3,8 +3,6 @@ include
 "
 common
 /
-linux
-/
 memory
 .
 h
@@ -245,7 +243,7 @@ allocator_
 ;
 wasteful_vector
 <
-int
+unsigned
 >
 v
 (

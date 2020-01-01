@@ -64,8 +64,6 @@ include
 "
 common
 /
-linux
-/
 memory
 .
 h
