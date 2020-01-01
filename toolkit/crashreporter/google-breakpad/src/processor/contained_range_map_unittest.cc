@@ -71,6 +71,8 @@ ASSERT_TRUE
 condition
 )
 )
+namespace
+{
 using
 google_airbag
 :
@@ -961,6 +963,7 @@ endif
 return
 true
 ;
+}
 }
 int
 main

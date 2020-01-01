@@ -19,15 +19,6 @@ include
 <
 vector
 >
-#
-include
-"
-processor
-/
-memory_region
-.
-h
-"
 namespace
 google_airbag
 {

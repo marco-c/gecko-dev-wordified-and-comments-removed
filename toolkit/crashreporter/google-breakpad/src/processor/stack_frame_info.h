@@ -12,7 +12,9 @@ string
 #
 include
 "
-google
+google_airbag
+/
+common
 /
 airbag_types
 .

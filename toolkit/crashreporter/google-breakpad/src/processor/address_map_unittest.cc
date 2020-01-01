@@ -103,6 +103,8 @@ e1
 e2
 )
 )
+namespace
+{
 using
 google_airbag
 :
@@ -994,6 +996,7 @@ count
 return
 true
 ;
+}
 }
 int
 main

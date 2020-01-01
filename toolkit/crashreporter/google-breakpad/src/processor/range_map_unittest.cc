@@ -37,6 +37,8 @@ scoped_ptr
 .
 h
 "
+namespace
+{
 using
 google_airbag
 :
@@ -170,6 +172,7 @@ range_test_count
 ;
 }
 ;
+static
 bool
 StoreTest
 (
@@ -286,6 +289,7 @@ return
 true
 ;
 }
+static
 bool
 RetrieveTest
 (
@@ -804,6 +808,7 @@ return
 true
 ;
 }
+static
 bool
 RunTests
 (
@@ -1526,6 +1531,7 @@ false
 return
 true
 ;
+}
 }
 int
 main

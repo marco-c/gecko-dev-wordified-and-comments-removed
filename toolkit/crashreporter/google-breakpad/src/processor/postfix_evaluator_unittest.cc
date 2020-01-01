@@ -27,7 +27,9 @@ h
 #
 include
 "
-google
+google_airbag
+/
+common
 /
 airbag_types
 .
@@ -36,12 +38,16 @@ h
 #
 include
 "
+google_airbag
+/
 processor
 /
 memory_region
 .
 h
 "
+namespace
+{
 using
 std
 :
@@ -230,6 +236,7 @@ validate_data
 ;
 }
 ;
+static
 bool
 RunTests
 (
@@ -1505,6 +1512,7 @@ false
 return
 true
 ;
+}
 }
 int
 main
