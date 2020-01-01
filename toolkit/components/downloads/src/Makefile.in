@@ -474,6 +474,8 @@ storage
 \
 xulapp
 \
+exthandler
+\
 (
 NULL
 )
