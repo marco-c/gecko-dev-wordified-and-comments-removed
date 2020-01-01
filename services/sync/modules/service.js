@@ -3797,8 +3797,6 @@ resetScore
 (
 )
 ;
-yield
-;
 }
 catch
 (
