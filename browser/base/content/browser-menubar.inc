@@ -4395,7 +4395,7 @@ accesskey
 =
 "
 &
-devToolbox
+devToolboxMenuItem
 .
 accesskey
 ;
