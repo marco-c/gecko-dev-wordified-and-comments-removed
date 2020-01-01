@@ -521,6 +521,15 @@ addListener
 listener
 )
 ;
+dm
+.
+addListener
+(
+getDownloadListener
+(
+)
+)
+;
 addDownload
 (
 )
