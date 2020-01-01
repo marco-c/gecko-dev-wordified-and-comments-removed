@@ -9339,21 +9339,6 @@ def
 #
 ifdef
 XP_WIN
-#
-ifdef
-WINCE
-#
-define
-WINDOWS_SANS_SERIF_FONT
-Tahoma
-#
-else
-#
-define
-WINDOWS_SANS_SERIF_FONT
-Arial
-#
-endif
 pref
 (
 "
@@ -9372,8 +9357,6 @@ Roman
 "
 )
 ;
-#
-expand
 pref
 (
 "
@@ -9388,7 +9371,7 @@ serif
 ar
 "
 "
-__WINDOWS_SANS_SERIF_FONT__
+Arial
 "
 )
 ;
@@ -9445,8 +9428,6 @@ Roman
 "
 )
 ;
-#
-expand
 pref
 (
 "
@@ -9461,7 +9442,7 @@ serif
 el
 "
 "
-__WINDOWS_SANS_SERIF_FONT__
+Arial
 "
 )
 ;
@@ -9516,8 +9497,6 @@ Narkisim
 "
 )
 ;
-#
-expand
 pref
 (
 "
@@ -9532,7 +9511,7 @@ serif
 he
 "
 "
-__WINDOWS_SANS_SERIF_FONT__
+Arial
 "
 )
 ;
@@ -9615,8 +9594,6 @@ New
 "
 )
 ;
-#
-expand
 pref
 (
 "
@@ -9634,7 +9611,7 @@ he
 Guttman
 Yad
 Ktav
-__WINDOWS_SANS_SERIF_FONT__
+Arial
 "
 )
 ;
@@ -9983,8 +9960,6 @@ Roman
 "
 )
 ;
-#
-expand
 pref
 (
 "
@@ -9999,7 +9974,7 @@ serif
 tr
 "
 "
-__WINDOWS_SANS_SERIF_FONT__
+Arial
 "
 )
 ;
@@ -10058,8 +10033,6 @@ Roman
 "
 )
 ;
-#
-expand
 pref
 (
 "
@@ -10076,7 +10049,7 @@ x
 baltic
 "
 "
-__WINDOWS_SANS_SERIF_FONT__
+Arial
 "
 )
 ;
@@ -10141,8 +10114,6 @@ Roman
 "
 )
 ;
-#
-expand
 pref
 (
 "
@@ -10161,7 +10132,7 @@ central
 euro
 "
 "
-__WINDOWS_SANS_SERIF_FONT__
+Arial
 "
 )
 ;
@@ -10228,8 +10199,6 @@ Roman
 "
 )
 ;
-#
-expand
 pref
 (
 "
@@ -10246,7 +10215,7 @@ x
 cyrillic
 "
 "
-__WINDOWS_SANS_SERIF_FONT__
+Arial
 "
 )
 ;
@@ -10309,8 +10278,6 @@ Roman
 "
 )
 ;
-#
-expand
 pref
 (
 "
@@ -10327,7 +10294,7 @@ x
 unicode
 "
 "
-__WINDOWS_SANS_SERIF_FONT__
+Arial
 "
 )
 ;
@@ -10390,8 +10357,6 @@ Roman
 "
 )
 ;
-#
-expand
 pref
 (
 "
@@ -10408,7 +10373,7 @@ x
 western
 "
 "
-__WINDOWS_SANS_SERIF_FONT__
+Arial
 "
 )
 ;
@@ -10592,8 +10557,6 @@ Roman
 "
 )
 ;
-#
-expand
 pref
 (
 "
@@ -10610,7 +10573,7 @@ zh
 TW
 "
 "
-__WINDOWS_SANS_SERIF_FONT__
+Arial
 "
 )
 ;
@@ -10715,8 +10678,6 @@ Roman
 "
 )
 ;
-#
-expand
 pref
 (
 "
@@ -10733,7 +10694,7 @@ zh
 HK
 "
 "
-__WINDOWS_SANS_SERIF_FONT__
+Arial
 "
 )
 ;
