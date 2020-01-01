@@ -8067,7 +8067,7 @@ NS_ERROR_FAILURE
 }
 outerObject
 =
-JS_TransplantWrapper
+JS_TransplantObject
 (
 cx
 mJSObject
