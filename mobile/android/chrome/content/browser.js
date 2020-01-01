@@ -9200,9 +9200,9 @@ this
 .
 browser
 .
-controllers
-.
 contentWindow
+.
+controllers
 .
 removeController
 (
