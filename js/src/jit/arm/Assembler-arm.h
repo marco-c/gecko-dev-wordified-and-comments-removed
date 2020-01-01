@@ -5024,8 +5024,8 @@ Assembler
 {
 public
 :
-typedef
 enum
+ARMCondition
 {
 EQ
 =
@@ -5073,7 +5073,6 @@ AL
 =
 0xe0000000
 }
-ARMCondition
 ;
 enum
 Condition
