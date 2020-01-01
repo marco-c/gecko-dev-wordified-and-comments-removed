@@ -1,7 +1,7 @@
 #
 include
 "
-CSFLogStream
+CSFLog
 .
 h
 "
