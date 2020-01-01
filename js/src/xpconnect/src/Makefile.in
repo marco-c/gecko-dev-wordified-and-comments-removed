@@ -889,7 +889,6 @@ builds
 .
 NOTPARALLEL
 :
-:
 endif
 endif
 endif
