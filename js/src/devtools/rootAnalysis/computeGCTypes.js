@@ -3,7 +3,7 @@ use
 strict
 "
 ;
-load
+loadRelativeToScript
 (
 '
 utility
@@ -12,7 +12,7 @@ js
 '
 )
 ;
-load
+loadRelativeToScript
 (
 '
 annotations
