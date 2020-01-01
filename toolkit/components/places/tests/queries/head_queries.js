@@ -408,7 +408,7 @@ DBConn
 (
 )
 .
-createStatement
+createAsyncStatement
 (
 "
 UPDATE
@@ -439,7 +439,7 @@ try
 {
 stmt
 .
-execute
+executeAsync
 (
 )
 ;
@@ -455,7 +455,7 @@ print
 Error
 while
 setting
-visit_count
+hidden
 .
 "
 )
