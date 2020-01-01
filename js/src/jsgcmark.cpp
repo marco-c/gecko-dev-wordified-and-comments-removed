@@ -199,6 +199,11 @@ JS_ASSERT
 thing
 -
 >
+asFreeCell
+(
+)
+-
+>
 isAligned
 (
 )
