@@ -484,12 +484,6 @@ domplate
 .
 jsm
 \
-content
-/
-stylePanel
-.
-jsm
-\
 (
 NULL
 )
