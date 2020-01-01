@@ -57,6 +57,11 @@ nsDOMWindowList
 ;
 NS_DECL_ISUPPORTS
 NS_DECL_NSIDOMWINDOWCOLLECTION
+uint32_t
+GetLength
+(
+)
+;
 NS_IMETHOD
 SetDocShell
 (

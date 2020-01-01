@@ -1350,6 +1350,11 @@ aRequireTrust
 ;
 NS_DECL_NSIDOMSTORAGEINDEXEDDB
 NS_DECL_NSIINTERFACEREQUESTOR
+uint32_t
+GetLength
+(
+)
+;
 nsGlobalWindow
 (
 nsGlobalWindow
@@ -3180,6 +3185,12 @@ aScriptable
 ;
 void
 CreatePerformanceObjectIfNeeded
+(
+)
+;
+nsDOMWindowList
+*
+GetWindowList
 (
 )
 ;
