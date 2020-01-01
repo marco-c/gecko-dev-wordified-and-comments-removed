@@ -498,7 +498,9 @@ distribution
 .
 about
 "
-Ci
+Component
+.
+interfaces
 .
 nsISupportsString
 )
