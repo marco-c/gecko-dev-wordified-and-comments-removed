@@ -44,7 +44,7 @@ Popup
 Anchor
 Tests
 "
-onload
+onfocus
 =
 "
 setTimeout
