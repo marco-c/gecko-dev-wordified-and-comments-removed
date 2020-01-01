@@ -1339,11 +1339,15 @@ cl
 -
 =
 NS_CERT_HEADER_LEN
++
+1
 ;
 cp
 +
 =
 NS_CERT_HEADER_LEN
++
+1
 ;
 certbegin
 =
@@ -1416,6 +1420,7 @@ while
 (
 cl
 >
+=
 NS_CERT_TRAILER_LEN
 )
 {
