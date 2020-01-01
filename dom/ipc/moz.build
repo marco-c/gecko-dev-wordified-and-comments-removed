@@ -231,6 +231,11 @@ AppProcessChecker
 h
 '
 '
+PreallocatedProcessManager
+.
+h
+'
+'
 ProcessPriorityManager
 .
 h

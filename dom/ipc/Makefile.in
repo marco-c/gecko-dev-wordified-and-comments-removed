@@ -126,6 +126,10 @@ PermissionMessageUtils
 .
 cpp
 \
+PreallocatedProcessManager
+.
+cpp
+\
 ProcessPriorityManager
 .
 cpp
