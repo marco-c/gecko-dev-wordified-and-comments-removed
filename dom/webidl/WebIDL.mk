@@ -799,6 +799,10 @@ SVGFECompositeElement
 .
 webidl
 \
+SVGFEDiffuseLightingElement
+.
+webidl
+\
 SVGFEDistantLightElement
 .
 webidl
