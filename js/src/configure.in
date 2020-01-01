@@ -5384,6 +5384,11 @@ echo
 |
 AS
 -
+o
+conftest
+.
+out
+-
 v
 2
 >
@@ -5406,6 +5411,12 @@ GNU_AS
 =
 1
 fi
+rm
+-
+f
+conftest
+.
+out
 if
 test
 "
