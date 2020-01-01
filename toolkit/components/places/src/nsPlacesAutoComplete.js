@@ -2614,7 +2614,9 @@ PAC_handleError
 aError
 )
 {
-Cu
+Components
+.
+utils
 .
 reportError
 (
