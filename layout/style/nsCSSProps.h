@@ -389,6 +389,13 @@ kBorderColorKTable
 static
 const
 PRInt32
+kBorderImageKTable
+[
+]
+;
+static
+const
+PRInt32
 kBorderStyleKTable
 [
 ]

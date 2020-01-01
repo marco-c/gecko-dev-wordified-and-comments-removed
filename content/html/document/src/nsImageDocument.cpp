@@ -2729,7 +2729,7 @@ GetStyleBorder
 )
 -
 >
-GetBorder
+GetActualBorder
 (
 )
 ;

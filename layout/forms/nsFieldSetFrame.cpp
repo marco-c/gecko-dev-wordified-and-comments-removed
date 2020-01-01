@@ -894,7 +894,7 @@ topBorder
 borderStyle
 -
 >
-GetBorderWidth
+GetActualBorderWidth
 (
 NS_SIDE_TOP
 )
