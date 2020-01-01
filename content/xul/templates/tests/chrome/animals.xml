@@ -11,6 +11,22 @@ version
 ?
 >
 <
+!
+DOCTYPE
+zoo
+[
+<
+!
+ATTLIST
+species
+id
+ID
+#
+REQUIRED
+>
+]
+>
+<
 zoo
 >
 <
@@ -30,6 +46,7 @@ id
 =
 "
 Chamaeleo
+-
 chamaelon
 "
 name
@@ -65,6 +82,7 @@ id
 =
 "
 Dromaius
+-
 novaehollandiae
 "
 name
@@ -85,6 +103,7 @@ id
 =
 "
 Tyto
+-
 alba
 "
 name
@@ -106,6 +125,7 @@ id
 =
 "
 Corvus
+-
 corax
 "
 name

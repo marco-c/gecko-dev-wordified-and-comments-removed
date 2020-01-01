@@ -14,6 +14,13 @@ h
 #
 include
 "
+nsIURI
+.
+h
+"
+#
+include
+"
 nsIRDFResource
 .
 h
@@ -72,7 +79,7 @@ aNode
 ;
 protected
 :
-PRUint32
+nsAutoString
 mId
 ;
 nsCOMPtr
