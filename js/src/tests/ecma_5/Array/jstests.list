@@ -36,6 +36,12 @@ toLocaleString
 .
 js
 script
+regress
+-
+599159
+.
+js
+script
 unshift
 -
 01
