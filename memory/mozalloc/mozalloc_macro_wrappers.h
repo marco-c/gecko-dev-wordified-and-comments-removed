@@ -49,6 +49,9 @@ _
 __
 )
 #
+undef
+strdup
+#
 define
 strdup
 (
