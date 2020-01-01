@@ -3559,6 +3559,9 @@ ok
 &
 &
 deleted
+=
+=
+JSVAL_TRUE
 )
 {
 JSBool
@@ -3653,6 +3656,9 @@ ok
 &
 &
 deleted
+=
+=
+JSVAL_TRUE
 )
 {
 JSBool

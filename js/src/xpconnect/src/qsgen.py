@@ -6884,8 +6884,7 @@ traceType
 js
 :
 :
-Value
-*
+ValueArgType
 "
     
 return
@@ -6986,7 +6985,7 @@ type
 traceType
 =
 "
-VALUEPTR
+VALUE
 "
     
 return
@@ -7686,15 +7685,20 @@ XPCVariant
 newVariant
 (
 ccx
-*
 js
 :
 :
 Jsvalify
 (
+js
+:
+:
+ValueArgToConstRef
+(
 {
 argVal
 }
+)
 )
 )
 )
@@ -7835,14 +7839,19 @@ s
                     
 "
 cx
-*
 js
 :
 :
 Jsvalify
 (
+js
+:
+:
+ValueArgToConstRef
+(
 %
 s
+)
 )
 &
 %

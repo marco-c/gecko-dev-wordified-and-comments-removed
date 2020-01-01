@@ -1536,8 +1536,10 @@ p
 ;
 if
 (
-!
+JSVAL_IS_NULL
+(
 str
+)
 )
 return
 JS_FALSE
@@ -10254,7 +10256,11 @@ pErr
 {
 NS_PRECONDITION
 (
+!
+JSVAL_IS_NULL
+(
 s
+)
 "
 bad
 param
