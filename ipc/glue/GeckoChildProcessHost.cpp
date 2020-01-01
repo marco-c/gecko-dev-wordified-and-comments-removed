@@ -193,15 +193,6 @@ ifdef
 ANDROID
 #
 include
-<
-sys
-/
-system_properties
-.
-h
->
-#
-include
 "
 APKOpen
 .
