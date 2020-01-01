@@ -423,6 +423,7 @@ from
 Linux
 config
 #
+#
 CC
 =
 gcc
@@ -430,6 +431,7 @@ gcc
 4
 .
 2
+#
 CXX
 =
 g
@@ -439,6 +441,14 @@ g
 4
 .
 2
+CC
+=
+gcc
+CXX
+=
+g
++
++
 CFLAGS
 +
 =
