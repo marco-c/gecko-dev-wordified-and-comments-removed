@@ -358,6 +358,14 @@ RemoveScrollListener
 )
 ;
 void
+InvalidateChildrenInSubtree
+(
+nsIDOMNode
+*
+aStartNode
+)
+;
+void
 RefreshNodes
 (
 nsIDOMNode
