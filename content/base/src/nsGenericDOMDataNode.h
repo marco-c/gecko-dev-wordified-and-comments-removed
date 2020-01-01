@@ -967,7 +967,6 @@ nsISMILAttr
 *
 GetAnimatedAttr
 (
-const
 nsIAtom
 *
 )

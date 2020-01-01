@@ -7977,7 +7977,6 @@ nsSVGElement
 :
 GetAnimatedAttr
 (
-const
 nsIAtom
 *
 aName
