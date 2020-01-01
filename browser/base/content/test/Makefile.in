@@ -434,6 +434,7 @@ rules
 mk
 _TEST_FILES
 =
+\
 test_feed_discovery
 .
 html
@@ -530,13 +531,6 @@ are
 unreliable
 :
 #
-browser_bug321000
-.
-js
-is
-bug
-474081
-#
 browser_bug423833
 .
 js
@@ -591,6 +585,11 @@ bug
 )
 _BROWSER_FILES
 =
+\
+browser_bug321000
+.
+js
+\
 browser_sanitize
 -
 timespans
