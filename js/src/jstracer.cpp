@@ -2163,7 +2163,7 @@ largestGuardID
 typedef
 HashMap
 <
-uint32_t
+uint32
 FragPI
 >
 FragStatsMap

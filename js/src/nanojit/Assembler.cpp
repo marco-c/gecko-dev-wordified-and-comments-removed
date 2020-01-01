@@ -3678,7 +3678,7 @@ _nSlot
 *
 sizeof
 (
-Nins
+NIns
 )
 ;
 )
