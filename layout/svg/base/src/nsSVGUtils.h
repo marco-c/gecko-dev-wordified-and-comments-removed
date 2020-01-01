@@ -772,11 +772,12 @@ PR_FALSE
 ;
 static
 void
-PaintChildWithEffects
+PaintFrameWithEffects
 (
 nsSVGRenderState
 *
 aContext
+const
 nsIntRect
 *
 aDirtyRect

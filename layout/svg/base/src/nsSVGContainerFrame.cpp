@@ -537,6 +537,7 @@ PaintSVG
 nsSVGRenderState
 *
 aContext
+const
 nsIntRect
 *
 aDirtyRect
@@ -596,7 +597,7 @@ GetNextSibling
 nsSVGUtils
 :
 :
-PaintChildWithEffects
+PaintFrameWithEffects
 (
 aContext
 aDirtyRect

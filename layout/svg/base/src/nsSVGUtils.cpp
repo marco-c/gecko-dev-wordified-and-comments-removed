@@ -4675,11 +4675,12 @@ void
 nsSVGUtils
 :
 :
-PaintChildWithEffects
+PaintFrameWithEffects
 (
 nsSVGRenderState
 *
 aContext
+const
 nsIntRect
 *
 aDirtyRect
