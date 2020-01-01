@@ -5640,6 +5640,17 @@ JS_FRIEND_API
 (
 void
 )
+DumpObject
+(
+JSObject
+*
+obj
+)
+;
+JS_FRIEND_API
+(
+void
+)
 DumpValue
 (
 const

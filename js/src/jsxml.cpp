@@ -8752,7 +8752,9 @@ cx
 )
 -
 >
-scopeChain
+scopeChainObj
+(
+)
 false
 )
 ;
@@ -35826,7 +35828,9 @@ tmp
 fp
 -
 >
-scopeChain
+scopeChainObj
+(
+)
 ;
 tmp
 ;
@@ -36957,7 +36961,9 @@ cx
 )
 -
 >
-scopeChain
+scopeChainObj
+(
+)
 ;
 do
 {

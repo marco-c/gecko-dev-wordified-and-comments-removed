@@ -9084,7 +9084,9 @@ if
 fp
 -
 >
-argsobj
+argsObj
+(
+)
 )
 JS_CALL_OBJECT_TRACER
 (
@@ -9092,7 +9094,9 @@ trc
 fp
 -
 >
-argsobj
+argsObj
+(
+)
 "
 arguments
 "
@@ -9143,7 +9147,9 @@ if
 fp
 -
 >
-scopeChain
+scopeChainObj
+(
+)
 )
 JS_CALL_OBJECT_TRACER
 (
@@ -9151,7 +9157,9 @@ trc
 fp
 -
 >
-scopeChain
+scopeChainObj
+(
+)
 "
 scope
 chain
@@ -9479,7 +9487,7 @@ state
 >
 nativeVp
 )
-TraceValues
+MarkValueRange
 (
 trc
 state

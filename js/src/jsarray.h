@@ -386,8 +386,8 @@ js
 :
 :
 Value
-&
-v
+*
+vp
 )
 ;
 JS_FRIEND_API
