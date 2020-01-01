@@ -6175,15 +6175,6 @@ CHECK_REQUEST
 cx
 )
 ;
-JS_ASSERT
-(
-!
-target
--
->
-isCachedEval
-)
-;
 GlobalObject
 *
 global
@@ -6191,7 +6182,9 @@ global
 target
 -
 >
-globalObject
+getGlobalObjectOrNull
+(
+)
 ;
 if
 (

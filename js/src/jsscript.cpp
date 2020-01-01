@@ -8393,6 +8393,15 @@ script
 callDestroyHook
 )
 ;
+JS_ASSERT
+(
+!
+script
+-
+>
+isActiveEval
+)
+;
 if
 (
 JSNewScriptHook
