@@ -21877,6 +21877,12 @@ aMessage
 aTotalProgress
 )
 {
+if
+(
+FullZoom
+.
+updateBackgroundTabs
+)
 FullZoom
 .
 onLocationChange
