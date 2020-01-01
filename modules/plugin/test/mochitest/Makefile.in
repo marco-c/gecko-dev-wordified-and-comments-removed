@@ -567,6 +567,10 @@ test_crashing2
 .
 html
 \
+test_hanging
+.
+html
+\
 crashing_subpage
 .
 html
@@ -642,6 +646,10 @@ _MOCHICHROME_FILES
 =
 \
 test_crash_notify
+.
+xul
+\
+test_crash_notify_no_report
 .
 xul
 \
