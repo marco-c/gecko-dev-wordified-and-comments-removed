@@ -751,7 +751,10 @@ aOutString
 {
 NS_ASSERTION
 (
+PRInt32
+(
 pos
+)
 <
 aInLength
 "
@@ -768,7 +771,10 @@ bug
 ;
 if
 (
+PRInt32
+(
 pos
+)
 >
 =
 aInLength
@@ -1217,7 +1223,10 @@ i
 0
 &
 &
+PRUint32
+(
 i
+)
 <
 pos
 &
@@ -1490,7 +1499,10 @@ i
 0
 &
 &
+PRUint32
+(
 i
+)
 <
 pos
 &
@@ -6160,10 +6172,7 @@ i
 =
 0
 ;
-PRUint32
-(
 i
-)
 <
 lengthOfInString
 ;
