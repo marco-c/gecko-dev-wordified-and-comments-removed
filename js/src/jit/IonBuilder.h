@@ -3231,6 +3231,9 @@ return
 analysis_
 ;
 }
+GSNCache
+gsn
+;
 jsbytecode
 *
 pc
