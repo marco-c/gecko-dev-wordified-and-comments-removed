@@ -36,6 +36,12 @@ txExecutionState
 aEs
 )
 ;
+virtual
+~
+txUnknownHandler
+(
+)
+;
 nsresult
 endDocument
 (

@@ -512,8 +512,6 @@ mEvalContext
 txAXMLEventHandler
 *
 handler
-=
-0
 ;
 rv
 =

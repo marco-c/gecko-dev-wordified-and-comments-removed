@@ -236,6 +236,11 @@ PRBool
 aNoFixup
 )
 ;
+~
+txMozillaXMLOutput
+(
+)
+;
 TX_DECL_TXAXMLEVENTHANDLER
 TX_DECL_TXAOUTPUTXMLEVENTHANDLER
 nsresult
