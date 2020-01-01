@@ -2956,8 +2956,12 @@ cutLength
 nsnull
 0
 PR_TRUE
+aCloneAfterOriginal
+?
 &
 details
+:
+nsnull
 )
 ;
 if
