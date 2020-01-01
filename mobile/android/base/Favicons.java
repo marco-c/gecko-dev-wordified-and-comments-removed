@@ -1189,6 +1189,11 @@ BitmapDrawable
 favicon
 )
 {
+synchronized
+(
+mDbHelper
+)
+{
 Log
 .
 d
@@ -1251,6 +1256,7 @@ mPageUrl
 mFaviconUrl
 )
 ;
+}
 }
 private
 BitmapDrawable
