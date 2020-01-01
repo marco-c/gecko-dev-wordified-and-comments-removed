@@ -120,13 +120,6 @@ h
 #
 include
 "
-nsISupportsArray
-.
-h
-"
-#
-include
-"
 nsRuleData
 .
 h

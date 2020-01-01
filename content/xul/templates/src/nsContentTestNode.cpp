@@ -8,13 +8,6 @@ h
 #
 include
 "
-nsISupportsArray
-.
-h
-"
-#
-include
-"
 nsIRDFResource
 .
 h

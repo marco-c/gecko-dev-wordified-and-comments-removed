@@ -98,9 +98,6 @@ class
 nsIScriptContext
 ;
 class
-nsISupportsArray
-;
-class
 nsSupportsHashtable
 ;
 class

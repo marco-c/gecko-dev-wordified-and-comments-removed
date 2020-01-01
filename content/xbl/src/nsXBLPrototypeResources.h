@@ -21,13 +21,6 @@ h
 #
 include
 "
-nsISupportsArray
-.
-h
-"
-#
-include
-"
 nsIStyleRuleProcessor
 .
 h

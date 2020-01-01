@@ -175,9 +175,6 @@ class
 nsIObserver
 ;
 class
-nsISupportsArray
-;
-class
 nsScriptLoader
 ;
 class
