@@ -2188,8 +2188,6 @@ noUpdatesFound
 "
 )
 ;
-return
-;
 }
 QueryInterface
 :
@@ -3391,6 +3389,14 @@ desiredChannel
 this
 .
 channelValue
+)
+;
+gAppUpdater
+.
+aus
+.
+pauseDownload
+(
 )
 ;
 gAppUpdater
