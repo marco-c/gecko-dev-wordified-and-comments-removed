@@ -487,6 +487,10 @@ temporarily
 disabled
 )
 \
+test_nsIAccessible_actions
+.
+xul
+\
 test_nsIAccessible_name
 .
 html
