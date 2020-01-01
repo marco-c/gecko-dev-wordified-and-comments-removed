@@ -2604,6 +2604,12 @@ nsIScriptContext
 aScriptContext
 )
 ;
+static
+PRBool
+CanAccessNativeAnon
+(
+)
+;
 private
 :
 static
