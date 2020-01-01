@@ -544,6 +544,10 @@ test_smilCSSPaced
 .
 xhtml
 \
+test_smilDynamicDelayedBeginElement
+.
+xhtml
+\
 test_smilMappedAttrFromTo
 .
 xhtml
