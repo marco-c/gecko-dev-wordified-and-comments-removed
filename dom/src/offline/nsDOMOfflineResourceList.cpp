@@ -8,7 +8,14 @@ h
 #
 include
 "
-nsDOMClassInfo
+nsDOMClassInfoID
+.
+h
+"
+#
+include
+"
+nsIScriptSecurityManager
 .
 h
 "

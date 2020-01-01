@@ -52,7 +52,14 @@ h
 #
 include
 "
-nsDOMClassInfo
+nsDOMClassInfoID
+.
+h
+"
+#
+include
+"
+nsDOMJSUtils
 .
 h
 "

@@ -190,13 +190,6 @@ h
 #
 include
 "
-nsDOMClassInfo
-.
-h
-"
-#
-include
-"
 nsSVGEffects
 .
 h

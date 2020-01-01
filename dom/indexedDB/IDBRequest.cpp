@@ -29,7 +29,7 @@ h
 #
 include
 "
-nsDOMClassInfo
+nsDOMClassInfoID
 .
 h
 "
@@ -37,6 +37,13 @@ h
 include
 "
 nsDOMJSUtils
+.
+h
+"
+#
+include
+"
+nsContentUtils
 .
 h
 "

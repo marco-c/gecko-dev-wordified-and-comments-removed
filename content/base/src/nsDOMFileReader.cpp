@@ -22,7 +22,7 @@ h
 #
 include
 "
-nsDOMClassInfo
+nsDOMClassInfoID
 .
 h
 "
@@ -218,13 +218,6 @@ h
 #
 include
 "
-nsIDOMClassInfo
-.
-h
-"
-#
-include
-"
 nsCExternalHandlerService
 .
 h
@@ -298,6 +291,13 @@ h
 include
 "
 jstypedarray
+.
+h
+"
+#
+include
+"
+nsDOMJSUtils
 .
 h
 "

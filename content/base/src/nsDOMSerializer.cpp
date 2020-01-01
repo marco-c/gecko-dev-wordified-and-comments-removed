@@ -15,7 +15,7 @@ h
 #
 include
 "
-nsIDOMClassInfo
+nsDOMClassInfoID
 .
 h
 "
