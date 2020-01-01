@@ -2558,7 +2558,7 @@ deflateInit
 (
 &
 mUpstreamZlib
-Z_DEFAULT_COMPRESSION
+Z_NO_COMPRESSION
 )
 ;
 deflateSetDictionary
