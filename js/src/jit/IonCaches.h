@@ -1761,6 +1761,8 @@ HandleObject
 obj
 HandleShape
 shape
+bool
+checkTypeset
 )
 ;
 bool
