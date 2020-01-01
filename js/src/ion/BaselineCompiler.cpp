@@ -1903,9 +1903,6 @@ offsetOfUseCount
 )
 )
 ;
-Label
-lowCount
-;
 masm
 .
 movePtr
@@ -1943,6 +1940,9 @@ store32
 countReg
 useCountAddr
 )
+;
+Label
+lowCount
 ;
 masm
 .
