@@ -1912,6 +1912,11 @@ function
 {
 try
 {
+delete
+this
+.
+_guidMap
+;
 return
 this
 .
