@@ -87,9 +87,6 @@ cairo_surface_t
 surface
 )
 ;
-#
-if
-CAIRO_HAS_WIN32_FONT
 cairo_public
 cairo_status_t
 cairo_win32_surface_set_can_convert_to_dib
@@ -113,6 +110,9 @@ cairo_bool_t
 can_convert
 )
 ;
+#
+if
+CAIRO_HAS_WIN32_FONT
 cairo_public
 cairo_font_face_t
 *

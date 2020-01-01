@@ -675,6 +675,17 @@ NS_ADDREF
 raw
 )
 ;
+cairo_win32_surface_set_can_convert_to_dib
+(
+raw
+-
+>
+CairoSurface
+(
+)
+TRUE
+)
+;
 return
 raw
 ;
