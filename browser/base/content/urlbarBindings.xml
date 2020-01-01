@@ -5104,6 +5104,7 @@ necessary
 .
 if
 (
+(
 !
 aURL
 &
@@ -5118,6 +5119,12 @@ this
 .
 _hideOverLinkImmediately
 )
+)
+|
+|
+this
+.
+focused
 )
 {
 this
