@@ -293,6 +293,8 @@ aLayer
 nsDisplayItem
 *
 aItem
+LayerState
+aLayerState
 )
 ;
 struct
@@ -698,6 +700,8 @@ Layer
 aLayer
 PRUint32
 aKey
+LayerState
+aLayerState
 )
 :
 mLayer
@@ -707,6 +711,10 @@ aLayer
 mDisplayItemKey
 (
 aKey
+)
+mLayerState
+(
+aLayerState
 )
 {
 }
@@ -718,6 +726,9 @@ mLayer
 ;
 PRUint32
 mDisplayItemKey
+;
+LayerState
+mLayerState
 ;
 }
 ;
@@ -819,7 +830,7 @@ ALLOW_MEMMOVE
 ;
 }
 PRBool
-HasContainerLayer
+HasNonEmptyContainerLayer
 (
 )
 ;
