@@ -1188,7 +1188,7 @@ APNPTR
 nanojit
 :
 :
-ACCSET_STORE_ANY
+ACC_STORE_ANY
 )
 JSBool
 JS_FASTCALL
@@ -1244,7 +1244,7 @@ VALUEPTR
 nanojit
 :
 :
-ACCSET_STORE_ANY
+ACC_STORE_ANY
 )
 static
 JSBool
@@ -4384,7 +4384,7 @@ OBJECT
 nanojit
 :
 :
-ACCSET_STORE_ANY
+ACC_STORE_ANY
 )
 JSFunction
 *
@@ -4833,7 +4833,7 @@ VALUEPTR
 nanojit
 :
 :
-ACCSET_STORE_ANY
+ACC_STORE_ANY
 )
 static
 JSBool
@@ -5832,7 +5832,7 @@ VALUE
 nanojit
 :
 :
-ACCSET_STORE_ANY
+ACC_STORE_ANY
 )
 JSBool
 JS_FASTCALL
@@ -5884,7 +5884,7 @@ VALUE
 nanojit
 :
 :
-ACCSET_STORE_ANY
+ACC_STORE_ANY
 )
 #
 endif
@@ -11610,7 +11610,7 @@ OBJECT
 nanojit
 :
 :
-ACCSET_STORE_ANY
+ACC_STORE_ANY
 )
 #
 endif
@@ -11752,7 +11752,7 @@ OBJECT
 nanojit
 :
 :
-ACCSET_STORE_ANY
+ACC_STORE_ANY
 )
 JS_REQUIRES_STACK
 JSObject

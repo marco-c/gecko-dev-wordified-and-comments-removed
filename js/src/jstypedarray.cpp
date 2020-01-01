@@ -1399,7 +1399,7 @@ DOUBLE
 nanojit
 :
 :
-ACCSET_NONE
+ACC_NONE
 )
 struct
 uint8_clamped

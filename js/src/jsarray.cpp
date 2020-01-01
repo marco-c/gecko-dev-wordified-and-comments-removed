@@ -4000,7 +4000,7 @@ VALUE
 nanojit
 :
 :
-ACCSET_STORE_ANY
+ACC_STORE_ANY
 )
 JSBool
 FASTCALL
@@ -4044,7 +4044,7 @@ INT32
 nanojit
 :
 :
-ACCSET_STORE_ANY
+ACC_STORE_ANY
 )
 JSBool
 FASTCALL
@@ -4088,7 +4088,7 @@ DOUBLE
 nanojit
 :
 :
-ACCSET_STORE_ANY
+ACC_STORE_ANY
 )
 #
 endif
@@ -9622,7 +9622,7 @@ VALUE
 nanojit
 :
 :
-ACCSET_STORE_ANY
+ACC_STORE_ANY
 )
 static
 JSBool
@@ -14295,7 +14295,7 @@ UINT32
 nanojit
 :
 :
-ACCSET_STORE_ANY
+ACC_STORE_ANY
 )
 #
 endif
@@ -14335,7 +14335,7 @@ OBJECT
 nanojit
 :
 :
-ACCSET_STORE_ANY
+ACC_STORE_ANY
 )
 #
 endif

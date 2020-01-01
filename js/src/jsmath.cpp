@@ -2591,7 +2591,7 @@ DOUBLE
 nanojit
 :
 :
-ACCSET_NONE
+ACC_NONE
 )
 )
 )
@@ -2783,7 +2783,7 @@ DOUBLE
 nanojit
 :
 :
-ACCSET_NONE
+ACC_NONE
 )
 )
 )
@@ -3130,7 +3130,7 @@ DOUBLE
 nanojit
 :
 :
-ACCSET_NONE
+ACC_NONE
 )
 )
 )
@@ -3148,7 +3148,7 @@ DOUBLE
 nanojit
 :
 :
-ACCSET_NONE
+ACC_NONE
 )
 )
 )
@@ -3167,7 +3167,7 @@ DOUBLE
 nanojit
 :
 :
-ACCSET_NONE
+ACC_NONE
 )
 )
 )
@@ -3185,7 +3185,7 @@ DOUBLE
 nanojit
 :
 :
-ACCSET_NONE
+ACC_NONE
 )
 )
 )
@@ -3203,7 +3203,7 @@ DOUBLE
 nanojit
 :
 :
-ACCSET_NONE
+ACC_NONE
 )
 )
 )
@@ -3222,7 +3222,7 @@ DOUBLE
 nanojit
 :
 :
-ACCSET_NONE
+ACC_NONE
 )
 )
 )
@@ -3241,7 +3241,7 @@ DOUBLE
 nanojit
 :
 :
-ACCSET_NONE
+ACC_NONE
 )
 )
 )
@@ -3260,7 +3260,7 @@ DOUBLE
 nanojit
 :
 :
-ACCSET_NONE
+ACC_NONE
 )
 )
 )
@@ -3278,7 +3278,7 @@ CONTEXT
 nanojit
 :
 :
-ACCSET_STORE_ANY
+ACC_STORE_ANY
 )
 )
 )
@@ -3296,7 +3296,7 @@ DOUBLE
 nanojit
 :
 :
-ACCSET_NONE
+ACC_NONE
 )
 )
 )
@@ -3314,7 +3314,7 @@ DOUBLE
 nanojit
 :
 :
-ACCSET_NONE
+ACC_NONE
 )
 )
 )

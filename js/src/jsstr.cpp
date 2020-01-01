@@ -6114,7 +6114,7 @@ INT32
 nanojit
 :
 :
-ACCSET_NONE
+ACC_NONE
 )
 int32
 FASTCALL
@@ -6183,7 +6183,7 @@ DOUBLE
 nanojit
 :
 :
-ACCSET_NONE
+ACC_NONE
 )
 jsdouble
 FASTCALL
@@ -6276,7 +6276,7 @@ STRING
 nanojit
 :
 :
-ACCSET_NONE
+ACC_NONE
 )
 #
 endif
@@ -14635,7 +14635,7 @@ THIS
 nanojit
 :
 :
-ACCSET_NONE
+ACC_NONE
 )
 )
 )
@@ -14655,7 +14655,7 @@ INT32
 nanojit
 :
 :
-ACCSET_NONE
+ACC_NONE
 )
 )
 )
@@ -14673,7 +14673,7 @@ THIS_STRING
 nanojit
 :
 :
-ACCSET_NONE
+ACC_NONE
 )
 )
 (
@@ -14688,7 +14688,7 @@ DOUBLE
 nanojit
 :
 :
-ACCSET_NONE
+ACC_NONE
 )
 )
 )
@@ -14708,7 +14708,7 @@ STRING
 nanojit
 :
 :
-ACCSET_NONE
+ACC_NONE
 )
 )
 )
@@ -21693,7 +21693,7 @@ STRING
 nanojit
 :
 :
-ACCSET_STORE_ANY
+ACC_STORE_ANY
 )
 #
 endif
@@ -22023,7 +22023,7 @@ INT32
 nanojit
 :
 :
-ACCSET_NONE
+ACC_NONE
 )
 )
 )
@@ -24257,7 +24257,7 @@ STRING
 nanojit
 :
 :
-ACCSET_NONE
+ACC_NONE
 )
 int32
 JS_FASTCALL
@@ -24393,7 +24393,7 @@ STRING
 nanojit
 :
 :
-ACCSET_NONE
+ACC_NONE
 )
 size_t
 js_strlen
