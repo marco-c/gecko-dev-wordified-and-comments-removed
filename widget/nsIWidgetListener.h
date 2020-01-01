@@ -194,6 +194,12 @@ WILL_SEND_DID_PAINT
 <
 <
 1
+PAINT_IS_ALTERNATE
+=
+1
+<
+<
+2
 }
 ;
 virtual

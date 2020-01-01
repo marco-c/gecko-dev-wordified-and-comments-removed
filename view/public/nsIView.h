@@ -532,10 +532,17 @@ bool
 aForceRepaint
 )
 {
+if
+(
+!
+mInAlternatePaint
+)
+{
 mForcedRepaint
 =
 aForceRepaint
 ;
+}
 }
 bool
 ForcedRepaint
@@ -669,6 +676,9 @@ mWidgetIsTopLevel
 ;
 bool
 mForcedRepaint
+;
+bool
+mInAlternatePaint
 ;
 virtual
 ~
