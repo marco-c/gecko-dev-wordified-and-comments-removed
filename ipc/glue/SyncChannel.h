@@ -31,8 +31,14 @@ AsyncChannel
 protected
 :
 typedef
-uint16
-MessageId
+IPC
+:
+:
+Message
+:
+:
+msgid_t
+msgid_t
 ;
 public
 :
@@ -433,7 +439,7 @@ mNextSeqno
 mNextSeqno
 ;
 }
-MessageId
+msgid_t
 mPendingReply
 ;
 bool
