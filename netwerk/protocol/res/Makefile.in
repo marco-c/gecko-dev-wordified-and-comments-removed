@@ -97,16 +97,6 @@ FAIL_ON_WARNINGS
 FORCE_STATIC_LIB
 =
 1
-XPIDLSRCS
-=
-\
-nsIResProtocolHandler
-.
-idl
-\
-(
-NULL
-)
 CPPSRCS
 =
 \

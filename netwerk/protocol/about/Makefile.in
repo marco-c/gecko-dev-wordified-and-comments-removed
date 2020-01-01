@@ -103,11 +103,6 @@ EXPORTS
 nsAboutProtocolUtils
 .
 h
-XPIDLSRCS
-=
-nsIAboutModule
-.
-idl
 CPPSRCS
 =
 \

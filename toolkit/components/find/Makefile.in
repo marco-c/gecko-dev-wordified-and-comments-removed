@@ -88,16 +88,6 @@ FORCE_STATIC_LIB
 LIBXUL_LIBRARY
 =
 1
-XPIDLSRCS
-=
-\
-nsIFindService
-.
-idl
-\
-(
-NULL
-)
 CPPSRCS
 =
 \

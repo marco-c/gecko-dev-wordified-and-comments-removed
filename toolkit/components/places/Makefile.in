@@ -78,16 +78,6 @@ mk
 MODULE
 =
 places
-XPIDLSRCS
-=
-\
-nsINavHistoryService
-.
-idl
-\
-(
-NULL
-)
 ifdef
 MOZ_PLACES
 LIBRARY_NAME

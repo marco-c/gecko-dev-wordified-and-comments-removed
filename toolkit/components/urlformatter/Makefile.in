@@ -79,16 +79,6 @@ mk
 MODULE
 =
 urlformatter
-XPIDLSRCS
-=
-\
-nsIURLFormatter
-.
-idl
-\
-(
-NULL
-)
 EXTRA_COMPONENTS
 =
 \

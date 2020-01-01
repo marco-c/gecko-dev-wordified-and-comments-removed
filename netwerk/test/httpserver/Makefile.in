@@ -126,16 +126,6 @@ manifest
 NULL
 )
 endif
-XPIDLSRCS
-=
-\
-nsIHttpServer
-.
-idl
-\
-(
-NULL
-)
 XPCSHELL_TESTS
 =
 test

@@ -78,16 +78,6 @@ mk
 MODULE
 =
 MobileComponents
-XPIDLSRCS
-=
-\
-SessionStore
-.
-idl
-\
-(
-NULL
-)
 EXTRA_PP_COMPONENTS
 =
 \

@@ -78,11 +78,6 @@ mk
 MODULE
 =
 alerts
-XPIDLSRCS
-=
-nsIAlertsService
-.
-idl
 LIBRARY_NAME
 =
 alerts_s

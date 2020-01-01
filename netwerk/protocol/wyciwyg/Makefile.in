@@ -101,16 +101,6 @@ EXPORTS_NAMESPACES
 mozilla
 /
 net
-XPIDLSRCS
-=
-\
-nsIWyciwygChannel
-.
-idl
-\
-(
-NULL
-)
 EXPORTS_mozilla
 /
 net

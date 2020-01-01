@@ -108,3 +108,13 @@ TEST_DIRS
 test
 '
 ]
+XPIDL_SOURCES
++
+=
+[
+'
+nsIAlertsService
+.
+idl
+'
+]

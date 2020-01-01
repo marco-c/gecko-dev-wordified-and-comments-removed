@@ -77,3 +77,13 @@ TEST_DIRS
 tests
 '
 ]
+XPIDL_SOURCES
++
+=
+[
+'
+nsINavHistoryService
+.
+idl
+'
+]

@@ -85,16 +85,6 @@ dom_xbl
 GRE_MODULE
 =
 1
-XPIDLSRCS
-=
-\
-nsIDOMDocumentXBL
-.
-idl
-\
-(
-NULL
-)
 include
 (
 topsrcdir

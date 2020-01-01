@@ -196,3 +196,13 @@ TEST_DIRS
 test_svc
 '
 ]
+XPIDL_SOURCES
++
+=
+[
+'
+nsIUpdateTimerManager
+.
+idl
+'
+]

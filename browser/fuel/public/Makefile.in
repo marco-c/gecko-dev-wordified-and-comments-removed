@@ -78,11 +78,6 @@ mk
 MODULE
 =
 fuel
-XPIDLSRCS
-=
-fuelIApplication
-.
-idl
 include
 (
 topsrcdir

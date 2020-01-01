@@ -137,16 +137,6 @@ h
 (
 NULL
 )
-XPIDLSRCS
-=
-\
-nsIEventListenerService
-.
-idl
-\
-(
-NULL
-)
 include
 (
 topsrcdir

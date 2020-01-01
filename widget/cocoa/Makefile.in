@@ -286,17 +286,6 @@ ComplexTextInputPanel
 .
 mm
 endif
-XPIDLSRCS
-+
-=
-\
-nsPIWidgetCocoa
-.
-idl
-\
-(
-NULL
-)
 SHARED_LIBRARY_LIBS
 =
 .

@@ -79,16 +79,6 @@ mk
 MODULE
 =
 composer
-XPIDLSRCS
-=
-\
-nsIEditingSession
-.
-idl
-\
-(
-NULL
-)
 include
 (
 topsrcdir

@@ -78,16 +78,6 @@ mk
 MODULE
 =
 captivedetect
-XPIDLSRCS
-=
-\
-nsICaptivePortalDetector
-.
-idl
-\
-(
-NULL
-)
 EXTRA_COMPONENTS
 =
 \

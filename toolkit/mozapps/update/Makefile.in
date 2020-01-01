@@ -78,11 +78,6 @@ mk
 MODULE
 =
 update
-XPIDLSRCS
-=
-nsIUpdateTimerManager
-.
-idl
 EXTRA_COMPONENTS
 =
 \

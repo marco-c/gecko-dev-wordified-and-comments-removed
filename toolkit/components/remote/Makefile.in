@@ -97,11 +97,6 @@ RemoteServiceModule
 LIBXUL_LIBRARY
 =
 1
-XPIDLSRCS
-=
-nsIRemoteService
-.
-idl
 CPPSRCS
 +
 =

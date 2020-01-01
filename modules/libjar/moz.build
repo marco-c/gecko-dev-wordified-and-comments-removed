@@ -85,3 +85,13 @@ TEST_TOOL_DIRS
 test
 '
 ]
+XPIDL_SOURCES
++
+=
+[
+'
+(
+MODULES_LIBJAR_LXPIDLSRCS
+)
+'
+]

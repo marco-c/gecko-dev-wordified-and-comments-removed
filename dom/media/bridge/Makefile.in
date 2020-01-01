@@ -100,11 +100,6 @@ EXPORT_LIBRARY
 LIBXUL_LIBRARY
 =
 1
-XPIDLSRCS
-=
-IPeerConnection
-.
-idl
 CPPSRCS
 =
 \

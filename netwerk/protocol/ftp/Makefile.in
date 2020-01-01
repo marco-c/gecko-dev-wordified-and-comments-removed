@@ -102,16 +102,6 @@ EXPORTS
 ftpCore
 .
 h
-XPIDLSRCS
-=
-\
-nsIFTPChannel
-.
-idl
-\
-(
-NULL
-)
 EXPORTS_NAMESPACES
 =
 mozilla

@@ -98,11 +98,6 @@ EXPORTS
 nsBrowserComponents
 .
 h
-XPIDLSRCS
-=
-nsIShellService
-.
-idl
 CPPSRCS
 =
 \

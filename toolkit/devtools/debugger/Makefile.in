@@ -121,16 +121,6 @@ MOZ_JS_LIBS
 (
 NULL
 )
-XPIDLSRCS
-=
-\
-nsIJSInspector
-.
-idl
-\
-(
-NULL
-)
 include
 (
 topsrcdir

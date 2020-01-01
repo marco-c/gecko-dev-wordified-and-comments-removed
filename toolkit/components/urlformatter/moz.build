@@ -69,3 +69,13 @@ TEST_DIRS
 tests
 '
 ]
+XPIDL_SOURCES
++
+=
+[
+'
+nsIURLFormatter
+.
+idl
+'
+]

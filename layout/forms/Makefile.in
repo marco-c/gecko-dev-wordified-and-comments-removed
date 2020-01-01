@@ -97,11 +97,6 @@ endif
 #
 !
 _MSC_VER
-XPIDLSRCS
-=
-nsICapturePicker
-.
-idl
 EXPORTS
 =
 \

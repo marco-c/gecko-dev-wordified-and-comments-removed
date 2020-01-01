@@ -93,17 +93,6 @@ services
 crypto
 -
 component
-XPIDLSRCS
-:
-=
-\
-nsISyncJPAKE
-.
-idl
-\
-(
-NULL
-)
 LIBRARY_NAME
 :
 =

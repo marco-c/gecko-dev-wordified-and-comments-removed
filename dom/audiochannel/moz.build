@@ -69,3 +69,13 @@ TEST_TOOL_DIRS
 tests
 '
 ]
+XPIDL_SOURCES
++
+=
+[
+'
+nsIAudioChannelAgent
+.
+idl
+'
+]

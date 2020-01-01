@@ -69,3 +69,13 @@ TEST_TOOL_DIRS
 test
 '
 ]
+XPIDL_SOURCES
++
+=
+[
+'
+nsIStartupCache
+.
+idl
+'
+]

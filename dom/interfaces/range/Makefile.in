@@ -85,16 +85,6 @@ dom_range
 GRE_MODULE
 =
 1
-SDK_XPIDLSRCS
-=
-\
-nsIDOMRange
-.
-idl
-\
-(
-NULL
-)
 include
 (
 topsrcdir

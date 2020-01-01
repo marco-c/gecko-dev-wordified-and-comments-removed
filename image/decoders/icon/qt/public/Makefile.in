@@ -78,11 +78,6 @@ mk
 MODULE
 =
 gtkqticonsconverter
-XPIDLSRCS
-=
-nsGtkQtIconsConverter
-.
-idl
 include
 (
 topsrcdir

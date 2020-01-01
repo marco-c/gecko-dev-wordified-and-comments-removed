@@ -114,16 +114,6 @@ DLL_SUFFIX
 )
 \
 "
-XPIDLSRCS
-=
-\
-nsIOSFileConstantsService
-.
-idl
-\
-(
-NULL
-)
 CPPSRCS
 =
 \

@@ -133,16 +133,6 @@ h
 (
 NULL
 )
-XPIDLSRCS
-=
-\
-nsICanvasGLPrivate
-.
-idl
-\
-(
-NULL
-)
 include
 (
 topsrcdir

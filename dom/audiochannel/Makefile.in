@@ -220,16 +220,6 @@ cpp
 (
 NULL
 )
-XPIDLSRCS
-=
-\
-nsIAudioChannelAgent
-.
-idl
-\
-(
-NULL
-)
 include
 (
 topsrcdir

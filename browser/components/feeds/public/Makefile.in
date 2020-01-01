@@ -81,17 +81,6 @@ MODULE
 browser
 -
 feeds
-XPIDLSRCS
-=
-nsIFeedResultService
-.
-idl
-nsIWebContentConverterRegistrar
-.
-idl
-nsIFeedWriter
-.
-idl
 include
 (
 topsrcdir

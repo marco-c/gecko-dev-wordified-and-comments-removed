@@ -81,16 +81,6 @@ worker
 XPIDL_MODULE
 =
 WorkerTest
-XPIDLSRCS
-=
-\
-nsIWorkerTest
-.
-idl
-\
-(
-NULL
-)
 EXTRA_COMPONENTS
 =
 \

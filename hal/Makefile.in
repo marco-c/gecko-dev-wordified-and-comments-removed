@@ -176,16 +176,6 @@ h
 (
 NULL
 )
-XPIDLSRCS
-=
-\
-nsIRecoveryService
-.
-idl
-\
-(
-NULL
-)
 CPPSRCS
 =
 \

@@ -156,16 +156,6 @@ src
 (
 NULL
 )
-XPIDLSRCS
-=
-\
-nsINavigatorBattery
-.
-idl
-\
-(
-NULL
-)
 include
 (
 topsrcdir

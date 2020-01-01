@@ -97,16 +97,6 @@ GRE_MODULE
 FORCE_STATIC_LIB
 =
 1
-XPIDLSRCS
-=
-\
-nsIViewSourceChannel
-.
-idl
-\
-(
-NULL
-)
 CPPSRCS
 =
 \

@@ -79,16 +79,6 @@ mk
 MODULE
 =
 lwbrk
-XPIDLSRCS
-=
-\
-nsISemanticUnitScanner
-.
-idl
-\
-(
-NULL
-)
 include
 (
 topsrcdir

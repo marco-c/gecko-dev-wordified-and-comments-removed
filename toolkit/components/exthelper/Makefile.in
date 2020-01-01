@@ -78,11 +78,6 @@ mk
 MODULE
 =
 exthelper
-XPIDLSRCS
-=
-extIApplication
-.
-idl
 include
 (
 topsrcdir

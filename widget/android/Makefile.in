@@ -223,16 +223,6 @@ cpp
 (
 NULL
 )
-XPIDLSRCS
-=
-\
-nsIAndroidBridge
-.
-idl
-\
-(
-NULL
-)
 SHARED_LIBRARY_LIBS
 =
 .

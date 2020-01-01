@@ -78,11 +78,6 @@ mk
 MODULE
 =
 migration
-XPIDLSRCS
-=
-nsIBrowserProfileMigrator
-.
-idl
 include
 (
 topsrcdir

@@ -103,16 +103,6 @@ GRE_MODULE
 EXPORT_LIBRARY
 =
 1
-XPIDLSRCS
-=
-\
-nsIIdentityCryptoService
-.
-idl
-\
-(
-NULL
-)
 CPPSRCS
 =
 \

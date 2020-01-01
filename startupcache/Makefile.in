@@ -136,15 +136,6 @@ h
 (
 NULL
 )
-XPIDLSRCS
-=
-nsIStartupCache
-.
-idl
-\
-(
-NULL
-)
 include
 (
 topsrcdir

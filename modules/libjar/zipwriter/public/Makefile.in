@@ -78,16 +78,6 @@ mk
 MODULE
 =
 zipwriter
-XPIDLSRCS
-=
-\
-nsIZipWriter
-.
-idl
-\
-(
-NULL
-)
 include
 (
 topsrcdir

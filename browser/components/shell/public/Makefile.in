@@ -79,11 +79,6 @@ mk
 MODULE
 =
 shellservice
-XPIDLSRCS
-=
-nsIShellService
-.
-idl
 ifeq
 (
 (

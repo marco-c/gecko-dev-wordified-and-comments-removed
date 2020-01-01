@@ -187,11 +187,6 @@ cpp
 (
 NULL
 )
-XPIDLSRCS
-=
-nsIIconURI
-.
-idl
 SHARED_LIBRARY_LIBS
 =
 (
