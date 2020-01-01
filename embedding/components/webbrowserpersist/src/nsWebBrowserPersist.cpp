@@ -865,10 +865,6 @@ mPersistResult
 (
 NS_OK
 )
-mWrapColumn
-(
-72
-)
 mTotalCurrentProgress
 (
 0
@@ -876,6 +872,10 @@ mTotalCurrentProgress
 mTotalMaxProgress
 (
 0
+)
+mWrapColumn
+(
+72
 )
 mEncodingFlags
 (
