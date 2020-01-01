@@ -5335,6 +5335,9 @@ mBorderRadius
 frameRect
 .
 width
+frameRect
+.
+height
 twipsRadii
 )
 ;

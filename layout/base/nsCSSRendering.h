@@ -119,8 +119,10 @@ nsStyleCorners
 aBorderRadius
 const
 nscoord
-&
 aFrameWidth
+const
+nscoord
+aFrameHeight
 nscoord
 aRadii
 [
