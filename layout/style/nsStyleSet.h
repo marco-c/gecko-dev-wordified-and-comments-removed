@@ -478,7 +478,7 @@ sheetType
 {
 eAgentSheet
 eUserSheet
-eHTMLPresHintSheet
+ePresHintSheet
 eDocSheet
 eStyleAttrSheet
 eOverrideSheet

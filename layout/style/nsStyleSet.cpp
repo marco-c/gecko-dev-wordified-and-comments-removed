@@ -629,7 +629,7 @@ eDocSheet
 aType
 =
 =
-eHTMLPresHintSheet
+ePresHintSheet
 |
 |
 aType
@@ -1219,7 +1219,7 @@ eDocSheet
 1
 <
 <
-eHTMLPresHintSheet
+ePresHintSheet
 |
 1
 <
@@ -2511,7 +2511,7 @@ aRuleWalker
 >
 SetLevel
 (
-eHTMLPresHintSheet
+ePresHintSheet
 PR_FALSE
 PR_FALSE
 )
@@ -2520,7 +2520,7 @@ if
 (
 mRuleProcessors
 [
-eHTMLPresHintSheet
+ePresHintSheet
 ]
 )
 (
@@ -2530,14 +2530,14 @@ aCollectorFunc
 (
 mRuleProcessors
 [
-eHTMLPresHintSheet
+ePresHintSheet
 ]
 aData
 )
 ;
 nsRuleNode
 *
-lastHTMLPresHintRN
+lastPresHintRN
 =
 aRuleWalker
 -
@@ -2740,7 +2740,7 @@ PR_FALSE
 AddImportantRules
 (
 lastDocRN
-lastHTMLPresHintRN
+lastPresHintRN
 aRuleWalker
 )
 ;
@@ -2753,7 +2753,7 @@ else
 AssertNoImportantRules
 (
 lastDocRN
-lastHTMLPresHintRN
+lastPresHintRN
 )
 ;
 }
@@ -2801,13 +2801,13 @@ ifdef
 DEBUG
 AssertNoCSSRules
 (
-lastHTMLPresHintRN
+lastPresHintRN
 lastUserRN
 )
 ;
 AssertNoImportantRules
 (
-lastHTMLPresHintRN
+lastPresHintRN
 lastUserRN
 )
 ;
@@ -3030,7 +3030,7 @@ if
 (
 mRuleProcessors
 [
-eHTMLPresHintSheet
+ePresHintSheet
 ]
 )
 (
@@ -3040,7 +3040,7 @@ aFunc
 (
 mRuleProcessors
 [
-eHTMLPresHintSheet
+ePresHintSheet
 ]
 aData
 )
