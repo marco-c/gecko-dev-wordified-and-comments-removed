@@ -173,6 +173,10 @@ test_bug726949
 .
 xul
 \
+test_bug732665
+.
+xul
+\
 test_bug738244
 .
 xul
