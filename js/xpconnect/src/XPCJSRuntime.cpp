@@ -2941,7 +2941,15 @@ if
 nsXPConnect
 :
 :
-XPConnect
+GetXPConnect
+(
+)
+&
+&
+nsXPConnect
+:
+:
+GetXPConnect
 (
 )
 -
@@ -2954,7 +2962,7 @@ GetRuntime
 nsXPConnect
 :
 :
-XPConnect
+GetXPConnect
 (
 )
 -
@@ -12181,7 +12189,7 @@ xpc
 nsXPConnect
 :
 :
-XPConnect
+GetXPConnect
 (
 )
 ;
@@ -12398,7 +12406,7 @@ xpc
 nsXPConnect
 :
 :
-XPConnect
+GetXPConnect
 (
 )
 ;
@@ -16308,6 +16316,8 @@ XPCLock
 lock
 )
 {
+if
+(
 nsXPConnect
 *
 xpc
@@ -16315,10 +16325,10 @@ xpc
 nsXPConnect
 :
 :
-XPConnect
+GetXPConnect
 (
 )
-;
+)
 JS
 :
 :

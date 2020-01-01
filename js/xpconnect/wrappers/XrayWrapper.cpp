@@ -9615,7 +9615,7 @@ xpc
 nsXPConnect
 :
 :
-XPConnect
+GetXPConnect
 (
 )
 ;

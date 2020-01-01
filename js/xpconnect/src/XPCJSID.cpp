@@ -2922,9 +2922,16 @@ xpc
 nsXPConnect
 :
 :
-XPConnect
+GetXPConnect
 (
 )
+;
+if
+(
+!
+xpc
+)
+return
 ;
 nsAXPCNativeCallContext
 *
@@ -3224,7 +3231,7 @@ rv
 nsXPConnect
 :
 :
-XPConnect
+GetXPConnect
 (
 )
 -
@@ -3520,7 +3527,7 @@ rv
 nsXPConnect
 :
 :
-XPConnect
+GetXPConnect
 (
 )
 -
@@ -3938,7 +3945,7 @@ xpc
 nsXPConnect
 :
 :
-XPConnect
+GetXPConnect
 (
 )
 ;
