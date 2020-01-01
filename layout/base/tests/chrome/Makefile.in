@@ -67,7 +67,13 @@ VPATH
 srcdir
 relativesrcdir
 =
-relativesrcdir
+layout
+/
+base
+/
+test
+/
+chrome
 include
 (
 DEPTH

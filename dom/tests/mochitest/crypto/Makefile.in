@@ -77,7 +77,13 @@ VPATH
 srcdir
 relativesrcdir
 =
-relativesrcdir
+dom
+/
+tests
+/
+mochitest
+/
+crypto
 include
 (
 DEPTH
