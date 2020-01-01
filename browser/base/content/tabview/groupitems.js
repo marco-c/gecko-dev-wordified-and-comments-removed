@@ -5959,9 +5959,7 @@ Items
 .
 arrange
 (
-this
-.
-_children
+null
 bb
 options
 )

@@ -684,10 +684,6 @@ browser_tabview_bug625424
 .
 js
 \
-browser_tabview_bug625666
-.
-js
-\
 browser_tabview_bug626368
 .
 js
@@ -753,10 +749,6 @@ browser_tabview_bug634085
 js
 \
 browser_tabview_bug634158
-.
-js
-\
-browser_tabview_bug634672
 .
 js
 \
