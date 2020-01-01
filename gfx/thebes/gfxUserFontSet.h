@@ -829,6 +829,9 @@ LOADING_FAILED
 LoadingState
 mLoadingState
 ;
+bool
+mUnsupportedFormat
+;
 nsTArray
 <
 gfxFontFaceSrc
