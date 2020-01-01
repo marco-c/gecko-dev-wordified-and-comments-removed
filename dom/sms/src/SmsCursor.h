@@ -84,6 +84,11 @@ nsIDOMMozSmsMessage
 aMessage
 )
 ;
+void
+Disconnect
+(
+)
+;
 private
 :
 PRInt32
