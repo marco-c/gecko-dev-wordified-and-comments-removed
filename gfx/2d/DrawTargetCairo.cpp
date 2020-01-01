@@ -2056,6 +2056,11 @@ cairo_pattern_destroy
 pat
 )
 ;
+cairo_surface_destroy
+(
+blursurf
+)
+;
 }
 void
 DrawTargetCairo
