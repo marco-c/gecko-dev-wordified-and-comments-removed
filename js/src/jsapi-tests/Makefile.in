@@ -457,6 +457,10 @@ testContexts
 .
 cpp
 \
+testCrossGlobal
+.
+cpp
+\
 testDebugger
 .
 cpp

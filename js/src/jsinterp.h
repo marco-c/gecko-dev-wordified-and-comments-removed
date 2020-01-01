@@ -2645,16 +2645,6 @@ GetScopeChain
 JSContext
 *
 cx
-)
-;
-extern
-JSObject
-*
-GetScopeChain
-(
-JSContext
-*
-cx
 JSStackFrame
 *
 fp
