@@ -1197,7 +1197,6 @@ oom
 ;
 }
 void
-*
 executableCopy
 (
 void
@@ -1205,7 +1204,14 @@ void
 buffer
 )
 {
-return
+ASSERT
+(
+!
+oom
+(
+)
+)
+;
 m_assembler
 .
 executableCopy
