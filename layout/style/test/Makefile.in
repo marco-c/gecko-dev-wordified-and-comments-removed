@@ -805,6 +805,14 @@ test_system_font_serialization
 .
 html
 \
+test_transitions_computed_values
+.
+html
+\
+test_transitions_computed_value_combinations
+.
+html
+\
 test_units_angle
 .
 html

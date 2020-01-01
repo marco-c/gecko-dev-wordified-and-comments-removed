@@ -1034,6 +1034,13 @@ kTextTransformKTable
 static
 const
 PRInt32
+kTransitionTimingFunctionKTable
+[
+]
+;
+static
+const
+PRInt32
 kUnicodeBidiKTable
 [
 ]
