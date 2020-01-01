@@ -1254,9 +1254,9 @@ value
 =
 "
 &
-signIn
+setup
 .
-password
+choosePassword
 .
 label
 ;
@@ -1265,9 +1265,9 @@ accesskey
 =
 "
 &
-signIn
+setup
 .
-password
+choosePassword
 .
 accesskey
 ;
