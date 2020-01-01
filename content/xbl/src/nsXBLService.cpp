@@ -262,6 +262,13 @@ h
 #
 include
 "
+nsContentErrors
+.
+h
+"
+#
+include
+"
 nsIPresShell
 .
 h
@@ -4949,7 +4956,7 @@ aBoundDocument
 NS_ENSURE_SUCCESS
 (
 rv
-rv
+NS_ERROR_XBL_BLOCKED
 )
 ;
 if
@@ -5007,7 +5014,7 @@ PR_TRUE
 NS_ENSURE_SUCCESS
 (
 rv
-rv
+NS_ERROR_XBL_BLOCKED
 )
 ;
 }
@@ -5019,7 +5026,7 @@ aBoundDocument
 AllowXULXBL
 (
 )
-NS_ERROR_NOT_AVAILABLE
+NS_ERROR_XBL_BLOCKED
 )
 ;
 }
