@@ -993,6 +993,13 @@ nsIFrame
 aRelativeTo
 )
 ;
+enum
+{
+EXCLUDE_BLUR_SHADOWS
+=
+0x01
+}
+;
 static
 nsRect
 GetTextShadowRectsUnion
@@ -1004,6 +1011,10 @@ aTextAndDecorationsRect
 nsIFrame
 *
 aFrame
+PRUint32
+aFlags
+=
+0
 )
 ;
 static
