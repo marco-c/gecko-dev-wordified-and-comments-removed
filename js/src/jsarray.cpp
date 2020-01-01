@@ -1489,7 +1489,10 @@ return
 js_ValueToStringId
 (
 cx
+DoubleTag
+(
 index
+)
 idp
 )
 ;
@@ -6919,10 +6922,13 @@ idr
 cx
 )
 ;
-Value
+CopyableValue
 idval
 (
+DoubleTag
+(
 MAXINDEX
+)
 )
 ;
 do

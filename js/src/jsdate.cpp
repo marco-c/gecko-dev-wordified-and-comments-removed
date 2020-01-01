@@ -5381,7 +5381,7 @@ obj
 >
 setDateUTCTime
 (
-Value
+DoubleTag
 (
 t
 )
@@ -5500,7 +5500,7 @@ obj
 >
 setDateLocalTime
 (
-Value
+DoubleTag
 (
 result
 )
