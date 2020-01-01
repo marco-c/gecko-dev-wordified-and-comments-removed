@@ -11249,7 +11249,6 @@ html
 ref
 .
 html
-fails
 =
 =
 421069
@@ -11260,10 +11259,6 @@ html
 ref
 .
 html
-#
-bug
-421069
-fails
 =
 =
 421069
@@ -11274,9 +11269,6 @@ html
 ref2
 .
 html
-#
-bug
-421069
 =
 =
 421069
