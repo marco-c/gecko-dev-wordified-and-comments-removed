@@ -2609,6 +2609,12 @@ rs
 )
 ;
 virtual
+ReadyState
+GetReadyStateEnum
+(
+)
+;
+virtual
 void
 ContentStatesChanged
 (

@@ -2000,6 +2000,17 @@ EventNameType_SVGSVG
 nsGkAtoms
 :
 :
+onhashchange
+{
+NS_HASHCHANGE
+EventNameType_HTMLXUL
+}
+}
+{
+&
+nsGkAtoms
+:
+:
 onbeforeunload
 {
 NS_BEFORE_PAGE_UNLOAD
