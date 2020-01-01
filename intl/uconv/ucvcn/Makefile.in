@@ -91,10 +91,6 @@ LIBXUL_LIBRARY
 CPPSRCS
 =
 \
-nsGB2312ToUnicodeV2
-.
-cpp
-\
 nsUnicodeToGB2312V2
 .
 cpp

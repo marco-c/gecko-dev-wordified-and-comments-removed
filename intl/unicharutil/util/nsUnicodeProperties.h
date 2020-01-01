@@ -7,13 +7,6 @@ NS_UNICODEPROPERTIES_H
 #
 include
 "
-prtypes
-.
-h
-"
-#
-include
-"
 nsBidiUtils
 .
 h
