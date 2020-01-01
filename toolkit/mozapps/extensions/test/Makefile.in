@@ -177,7 +177,7 @@ dir
 &
 zip
 -
-r
+qr
 (
 TESTXPI
 )
@@ -223,7 +223,7 @@ unpack
 TAR
 )
 -
-xPvf
+xPf
 -
 )
 sed
