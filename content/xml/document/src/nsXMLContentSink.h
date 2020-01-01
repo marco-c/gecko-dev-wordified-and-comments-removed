@@ -219,6 +219,12 @@ GetTarget
 (
 )
 ;
+virtual
+PRBool
+IsScriptExecuting
+(
+)
+;
 NS_IMETHOD
 OnDocumentCreated
 (
