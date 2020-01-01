@@ -3738,6 +3738,12 @@ endif
 endif
 ifdef
 SOLARIS_SUNPRO_CXX
+ifeq
+(
+(
+TARGET_CPU
+)
+sparc
 #
 Sun
 Studio
@@ -3829,6 +3835,9 @@ il
 endif
 #
 sparcv9
+endif
+#
+sparc
 endif
 #
 SOLARIS_SUNPRO_CXX
