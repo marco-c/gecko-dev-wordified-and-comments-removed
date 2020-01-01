@@ -13346,6 +13346,16 @@ aValue
 {
 if
 (
+aItemId
+!
+=
+mItemId
+)
+return
+NS_OK
+;
+if
+(
 aProperty
 .
 EqualsLiteral
