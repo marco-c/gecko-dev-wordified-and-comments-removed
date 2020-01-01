@@ -454,6 +454,14 @@ aContentCharset
 )
 ;
 NS_IMETHOD
+GetContentDisposition
+(
+nsACString
+&
+aContentDisposition
+)
+;
+NS_IMETHOD
 GetContentLength
 (
 PRInt64
