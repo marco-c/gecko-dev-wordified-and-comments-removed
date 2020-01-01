@@ -984,7 +984,9 @@ surfaceView
 mIMEState
 !
 =
-0
+GeckoSurfaceView
+.
+IME_STATE_DISABLED
 )
 imm
 .
