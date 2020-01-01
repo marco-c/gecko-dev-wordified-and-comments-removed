@@ -261,6 +261,13 @@ Canvas
 canvas
 )
 {
+if
+(
+mCanvasDelegate
+!
+=
+null
+)
 mCanvasDelegate
 .
 draw
@@ -273,6 +280,12 @@ getWidth
 getHeight
 (
 )
+)
+;
+else
+defaultDraw
+(
+canvas
 )
 ;
 }

@@ -406,11 +406,11 @@ int
 mTabsPaneWidth
 ;
 private
-ImageView
+ImageButton
 mBack
 ;
 private
-ImageView
+ImageButton
 mForward
 ;
 public
