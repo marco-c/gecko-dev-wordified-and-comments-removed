@@ -21981,7 +21981,7 @@ MOZ_OPTIMIZE_FLAGS
 =
 "
 -
-Os
+O2
 -
 freorder
 -
@@ -22004,7 +22004,7 @@ MOZ_OPTIMIZE_FLAGS
 =
 "
 -
-Os
+O2
 -
 freorder
 -
