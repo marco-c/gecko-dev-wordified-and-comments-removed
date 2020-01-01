@@ -14270,11 +14270,6 @@ SIMPLE_TAG_CREATE
 iframe
 NS_NewSubDocumentFrame
 )
-SIMPLE_TAG_CREATE
-(
-spacer
-NS_NewSpacerFrame
-)
 COMPLEX_TAG_CREATE
 (
 button

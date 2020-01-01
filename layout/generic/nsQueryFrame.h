@@ -346,7 +346,6 @@ nsTreeColFrame_id
 nsVideoFrame_id
 nsXULLabelFrame_id
 nsXULScrollFrame_id
-SpacerFrame_id
 ViewportFrame_id
 NON_FRAME_MARKER
 =

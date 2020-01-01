@@ -647,10 +647,6 @@ nsSimplePageSequence
 .
 cpp
 \
-nsSpacerFrame
-.
-cpp
-\
 nsSplittableFrame
 .
 cpp
