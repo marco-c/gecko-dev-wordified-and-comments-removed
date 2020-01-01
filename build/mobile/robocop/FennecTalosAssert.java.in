@@ -411,7 +411,9 @@ FennecTalosAssert
 {
 }
 /
-/
+*
+*
+*
 Write
 information
 to
@@ -419,6 +421,8 @@ a
 logfile
 and
 logcat
+*
+/
 public
 void
 dumpLog
@@ -441,7 +445,9 @@ message
 ;
 }
 /
-/
+*
+*
+*
 Set
 the
 filename
@@ -449,6 +455,8 @@ used
 for
 dumpLog
 .
+*
+/
 public
 void
 setLogFile

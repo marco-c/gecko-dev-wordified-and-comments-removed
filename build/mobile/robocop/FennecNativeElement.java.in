@@ -435,13 +435,6 @@ android
 .
 view
 .
-KeyEvent
-;
-import
-android
-.
-view
-.
 View
 ;
 import
@@ -528,11 +521,11 @@ mActivity
 ;
 private
 Integer
-id
+mId
 ;
 private
 Solo
-robocop
+mSolo
 ;
 public
 FennecNativeElement
@@ -545,9 +538,7 @@ Solo
 solo
 )
 {
-this
-.
-id
+mId
 =
 id
 ;
@@ -555,7 +546,7 @@ mActivity
 =
 activity
 ;
-robocop
+mSolo
 =
 solo
 ;
@@ -567,7 +558,7 @@ getId
 )
 {
 return
-id
+mId
 ;
 }
 public
@@ -610,7 +601,7 @@ mActivity
 .
 findViewById
 (
-id
+mId
 )
 ;
 if
@@ -670,7 +661,7 @@ find
 view
 "
 +
-id
+mId
 )
 ;
 }
@@ -713,7 +704,7 @@ printStackTrace
 }
 private
 Object
-text
+mText
 ;
 public
 String
@@ -752,7 +743,7 @@ mActivity
 .
 findViewById
 (
-id
+mId
 )
 ;
 if
@@ -770,7 +761,7 @@ EditText
 )
 v
 ;
-text
+mText
 =
 et
 .
@@ -801,7 +792,7 @@ getNextView
 (
 )
 ;
-text
+mText
 =
 (
 (
@@ -867,7 +858,7 @@ instanceof
 TextView
 )
 {
-text
+mText
 =
 (
 (
@@ -887,11 +878,6 @@ getText
 ;
 }
 }
-/
-/
-end
-of
-for
 }
 else
 if
@@ -901,7 +887,7 @@ instanceof
 TextView
 )
 {
-text
+mText
 =
 (
 (
@@ -937,7 +923,7 @@ find
 view
 "
 +
-id
+mId
 )
 ;
 }
@@ -956,7 +942,7 @@ for
 view
 "
 +
-id
+mId
 )
 ;
 }
@@ -1025,7 +1011,7 @@ printStackTrace
 }
 if
 (
-text
+mText
 =
 =
 null
@@ -1045,12 +1031,12 @@ for
 view
 "
 +
-id
+mId
 )
 ;
 }
 return
-text
+mText
 .
 toString
 (
@@ -1059,7 +1045,7 @@ toString
 }
 private
 boolean
-displayed
+mDisplayed
 ;
 public
 boolean
@@ -1076,7 +1062,7 @@ SynchronousQueue
 (
 )
 ;
-displayed
+mDisplayed
 =
 false
 ;
@@ -1105,7 +1091,7 @@ mActivity
 .
 findViewById
 (
-id
+mId
 )
 ;
 if
@@ -1116,7 +1102,7 @@ view
 null
 )
 {
-displayed
+mDisplayed
 =
 true
 ;
@@ -1158,7 +1144,7 @@ printStackTrace
 ;
 }
 return
-displayed
+mDisplayed
 ;
 }
 }
