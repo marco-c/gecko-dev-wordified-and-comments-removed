@@ -683,6 +683,14 @@ test_sorttemplate
 .
 xul
 \
+test_videocontrols
+.
+html
+\
+video
+.
+ogg
+\
 (
 NULL
 )
