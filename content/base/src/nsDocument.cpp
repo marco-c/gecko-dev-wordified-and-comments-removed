@@ -14716,9 +14716,6 @@ DestroyElementMaps
 )
 ;
 }
-nsresult
-rv
-=
 doRemoveChildAt
 (
 aIndex
@@ -14732,7 +14729,7 @@ mCachedRootElement
 nsnull
 ;
 return
-rv
+NS_OK
 ;
 }
 PRInt32

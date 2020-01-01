@@ -3674,7 +3674,7 @@ GetNameSpaceElement
 =
 0
 ;
-nsresult
+void
 doRemoveChildAt
 (
 PRUint32

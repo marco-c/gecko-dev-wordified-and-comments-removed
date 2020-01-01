@@ -16917,7 +16917,6 @@ if
 oldKid
 )
 {
-return
 doRemoveChildAt
 (
 aIndex
@@ -16931,7 +16930,7 @@ return
 NS_OK
 ;
 }
-nsresult
+void
 nsINode
 :
 :
@@ -17074,9 +17073,6 @@ aKid
 UnbindFromTree
 (
 )
-;
-return
-NS_OK
 ;
 }
 NS_IMETHODIMP
