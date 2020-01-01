@@ -119,6 +119,13 @@ disabled
 )
 WIDGET_ATOM
 (
+Clear
+"
+Clear
+"
+)
+WIDGET_ATOM
+(
 _false
 "
 false
