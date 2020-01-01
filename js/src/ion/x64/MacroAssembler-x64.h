@@ -407,6 +407,7 @@ offset
 4
 )
 ;
+}
 uint32_t
 Upper32Of
 (
