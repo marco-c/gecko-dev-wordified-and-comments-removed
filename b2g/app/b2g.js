@@ -3272,3 +3272,17 @@ timeout
 60
 )
 ;
+pref
+(
+"
+full
+-
+screen
+-
+api
+.
+enabled
+"
+true
+)
+;
