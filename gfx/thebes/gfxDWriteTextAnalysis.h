@@ -244,10 +244,6 @@ Run
 *
 *
 runHead
-DWRITE_LINE_BREAKPOINT
-*
-*
-breakpoints
 )
 ;
 IFACEMETHODIMP
@@ -429,12 +425,7 @@ Run
 mCurrentRun
 ;
 Run
-*
 mRunHead
-;
-DWRITE_LINE_BREAKPOINT
-*
-mBreakpoints
 ;
 }
 ;
