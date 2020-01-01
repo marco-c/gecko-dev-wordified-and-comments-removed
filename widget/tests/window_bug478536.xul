@@ -734,7 +734,7 @@ Components
 .
 interfaces
 .
-nsIPrefBranch2
+nsIPrefBranch
 )
 ;
 const
