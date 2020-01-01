@@ -598,8 +598,12 @@ a
 sampling
 profiler
 .
-ifndef
+ifeq
+(
+(
 MOZ_PROFILING
+)
+)
 MODULE_OPTIMIZE_FLAGS
 +
 =
