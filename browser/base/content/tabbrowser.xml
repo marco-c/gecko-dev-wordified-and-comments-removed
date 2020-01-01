@@ -6231,6 +6231,10 @@ focused
 .
 if
 (
+!
+gFindBarInitialized
+|
+|
 gFindBar
 .
 hidden
