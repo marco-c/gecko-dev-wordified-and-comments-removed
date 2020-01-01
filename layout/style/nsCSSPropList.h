@@ -3045,7 +3045,7 @@ CSS_PROPERTY_APPLIES_TO_FIRST_LETTER_AND_FIRST_LINE
 Text
 mLineHeight
 eCSSType_Value
-nsnull
+kLineHeightKTable
 )
 CSS_PROP_SHORTHAND
 (

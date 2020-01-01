@@ -1153,6 +1153,17 @@ aLength
 )
 ;
 static
+nscoord
+GetCenteredFontBaseline
+(
+nsIFontMetrics
+*
+aFontMetrics
+nscoord
+aLineHeight
+)
+;
+static
 PRBool
 GetFirstLineBaseline
 (

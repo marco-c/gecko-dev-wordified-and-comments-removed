@@ -5102,8 +5102,10 @@ NS_ERROR_OUT_OF_MEMORY
 }
 NS_ASSERTION
 (
+mRuleProcessors
 -
-1
+>
+NoIndex
 =
 =
 mRuleProcessors

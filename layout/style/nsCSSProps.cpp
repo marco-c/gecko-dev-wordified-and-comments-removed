@@ -3126,11 +3126,13 @@ PRInt32
 nsCSSProps
 :
 :
-kKeyEquivalentKTable
+kLineHeightKTable
 [
 ]
 =
 {
+eCSSKeyword__moz_block_height
+NS_STYLE_LINE_HEIGHT_BLOCK_HEIGHT
 eCSSKeyword_UNKNOWN
 -
 1

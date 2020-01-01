@@ -185,6 +185,16 @@ CSS_KEY
 -
 moz
 -
+block
+-
+height
+_moz_block_height
+)
+CSS_KEY
+(
+-
+moz
+-
 context
 -
 menu

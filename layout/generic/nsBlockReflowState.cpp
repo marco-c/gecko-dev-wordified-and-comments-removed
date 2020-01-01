@@ -421,14 +421,10 @@ end_lines
 ;
 mMinLineHeight
 =
-nsHTMLReflowState
-:
-:
-CalcLineHeight
-(
 aReflowState
 .
-frame
+CalcLineHeight
+(
 )
 ;
 }
