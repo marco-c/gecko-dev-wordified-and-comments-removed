@@ -3170,7 +3170,7 @@ statistics
   
 MAX_LEAK_COUNT
 =
-7
+5
   
 def
 __init__
