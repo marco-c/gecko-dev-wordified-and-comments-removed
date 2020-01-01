@@ -112,6 +112,10 @@ nsIEditorMailSupport
 .
 idl
 \
+nsIEditorObserver
+.
+idl
+\
 nsIEditorSpellCheck
 .
 idl

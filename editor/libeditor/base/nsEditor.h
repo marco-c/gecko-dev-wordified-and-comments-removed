@@ -217,6 +217,9 @@ class
 nsIEditActionListener
 ;
 class
+nsIEditorObserver
+;
+class
 nsIInlineSpellChecker
 ;
 class
@@ -2721,9 +2724,11 @@ nsIEditActionListener
 >
 mActionListeners
 ;
-EditActionListener
-*
-mEditActionListener
+nsCOMArray
+<
+nsIEditorObserver
+>
+mEditorObservers
 ;
 nsCOMArray
 <
