@@ -240,6 +240,13 @@ CreateRefLayer
 (
 )
 ;
+virtual
+void
+FlushRendering
+(
+)
+MOZ_OVERRIDE
+;
 ShadowableLayer
 *
 Hold

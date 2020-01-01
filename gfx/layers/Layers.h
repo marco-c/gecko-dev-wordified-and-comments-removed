@@ -1013,6 +1013,13 @@ SetIsFirstPaint
 {
 }
 virtual
+void
+FlushRendering
+(
+)
+{
+}
+virtual
 const
 char
 *
