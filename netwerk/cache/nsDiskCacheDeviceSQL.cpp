@@ -8876,6 +8876,8 @@ nsSpec
 ;
 PRInt32
 nsType
+=
+0
 ;
 nsCString
 nsData

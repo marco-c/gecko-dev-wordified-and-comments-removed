@@ -3959,6 +3959,8 @@ char
 p
 *
 q
+=
+nsnull
 *
 r
 ;

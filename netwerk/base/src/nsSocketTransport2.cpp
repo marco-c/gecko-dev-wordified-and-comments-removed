@@ -1171,6 +1171,8 @@ countRead
 PRFileDesc
 *
 fd
+=
+nsnull
 ;
 {
 MutexAutoLock
@@ -1269,6 +1271,8 @@ n
 ;
 nsresult
 rv
+=
+NS_OK
 ;
 {
 MutexAutoLock
@@ -1990,6 +1994,8 @@ NS_OK
 PRFileDesc
 *
 fd
+=
+nsnull
 ;
 {
 MutexAutoLock
@@ -2079,6 +2085,8 @@ n
 ;
 nsresult
 rv
+=
+NS_OK
 ;
 {
 MutexAutoLock
@@ -7499,6 +7507,8 @@ false
 PRFileDesc
 *
 fd
+=
+nsnull
 ;
 {
 MutexAutoLock
