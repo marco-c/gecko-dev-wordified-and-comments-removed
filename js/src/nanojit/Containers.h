@@ -810,6 +810,10 @@ k
 size_t
 *
 )
+(
+void
+*
+)
 data
 ;
 k
