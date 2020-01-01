@@ -73,7 +73,6 @@ define
 MOZALLOC_EXPORT
 #
 endif
-MOZ_NORETURN
 MOZALLOC_EXPORT
 void
 mozalloc_abort
