@@ -163,6 +163,11 @@ NULL
 =
 0
 ;
+raise
+(
+SIGABRT
+)
+;
 #
 else
 raise
