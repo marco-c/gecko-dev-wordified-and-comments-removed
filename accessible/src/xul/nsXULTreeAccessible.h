@@ -233,11 +233,7 @@ nsITreeView
 >
 mTreeView
 ;
-nsInterfaceHashtable
-<
-nsVoidHashKey
-nsIAccessNode
->
+nsAccessNodeHashtable
 *
 mAccessNodeCache
 ;

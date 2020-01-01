@@ -415,11 +415,7 @@ nsIAtom
 aAttribute
 )
 ;
-nsInterfaceHashtable
-<
-nsVoidHashKey
-nsIAccessNode
->
+nsAccessNodeHashtable
 mAccessNodeCache
 ;
 void

@@ -491,11 +491,7 @@ n
 mAccessNodeCache
 =
 new
-nsInterfaceHashtable
-<
-nsVoidHashKey
-nsIAccessNode
->
+nsAccessNodeHashtable
 ;
 mAccessNodeCache
 -
