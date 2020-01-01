@@ -2398,6 +2398,13 @@ JS_BIT
 (
 12
 )
+#
+define
+JSOPTION_UNROOTED_GLOBAL
+JS_BIT
+(
+13
+)
 extern
 JS_PUBLIC_API
 (
