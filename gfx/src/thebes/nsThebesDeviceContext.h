@@ -330,6 +330,14 @@ CheckDPIChange
 (
 )
 ;
+virtual
+PRBool
+SetPixelScale
+(
+float
+aScale
+)
+;
 nsNativeWidget
 GetWidget
 (
@@ -497,6 +505,11 @@ outScreen
 ;
 void
 CalcPrintingSize
+(
+)
+;
+void
+UpdateScaledAppUnits
 (
 )
 ;
