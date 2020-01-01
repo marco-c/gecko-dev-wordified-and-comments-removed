@@ -10122,6 +10122,12 @@ bool
 useValueNumbers
 )
 ;
+MDefinition
+*
+foldUnnecessaryBitop
+(
+)
+;
 virtual
 MDefinition
 *
