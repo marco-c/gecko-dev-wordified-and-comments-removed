@@ -27629,6 +27629,9 @@ height
 )
 return
 ;
+#
+ifdef
+CAIRO_HAS_D2D_SURFACE
 if
 (
 gfxWindowsPlatform
@@ -27680,6 +27683,8 @@ nsnull
 ;
 }
 else
+#
+endif
 {
 nsRefPtr
 <
@@ -28103,6 +28108,9 @@ hWnd
 winRect
 )
 ;
+#
+ifdef
+CAIRO_HAS_D2D_SURFACE
 if
 (
 gfxWindowsPlatform
@@ -28146,6 +28154,8 @@ PR_TRUE
 )
 ;
 }
+#
+endif
 PRBool
 updateSuccesful
 =
@@ -28172,6 +28182,9 @@ bf
 ULW_ALPHA
 )
 ;
+#
+ifdef
+CAIRO_HAS_D2D_SURFACE
 if
 (
 gfxWindowsPlatform
@@ -28223,6 +28236,8 @@ r
 )
 ;
 }
+#
+endif
 if
 (
 !
