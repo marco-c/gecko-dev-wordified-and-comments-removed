@@ -183,10 +183,6 @@ return
 mRemovedNodes
 ;
 }
-NS_IMPL_CYCLE_COLLECTION_CLASS
-(
-nsDOMMutationRecord
-)
 NS_INTERFACE_MAP_BEGIN_CYCLE_COLLECTION
 (
 nsDOMMutationRecord
@@ -1740,10 +1736,6 @@ true
 )
 ;
 }
-NS_IMPL_CYCLE_COLLECTION_CLASS
-(
-nsDOMMutationObserver
-)
 NS_INTERFACE_MAP_BEGIN_CYCLE_COLLECTION
 (
 nsDOMMutationObserver

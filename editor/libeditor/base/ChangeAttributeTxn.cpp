@@ -67,10 +67,6 @@ EditTxn
 )
 {
 }
-NS_IMPL_CYCLE_COLLECTION_CLASS
-(
-ChangeAttributeTxn
-)
 NS_IMPL_CYCLE_COLLECTION_UNLINK_BEGIN_INHERITED
 (
 ChangeAttributeTxn

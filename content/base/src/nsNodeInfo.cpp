@@ -666,10 +666,6 @@ type
 ;
 }
 }
-NS_IMPL_CYCLE_COLLECTION_CLASS
-(
-nsNodeInfo
-)
 NS_IMPL_CYCLE_COLLECTION_UNLINK_0
 (
 nsNodeInfo

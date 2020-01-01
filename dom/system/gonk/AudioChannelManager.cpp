@@ -65,10 +65,6 @@ dom
 namespace
 system
 {
-NS_IMPL_CYCLE_COLLECTION_CLASS
-(
-AudioChannelManager
-)
 NS_IMPL_CYCLE_COLLECTION_TRAVERSE_BEGIN_INHERITED
 (
 AudioChannelManager

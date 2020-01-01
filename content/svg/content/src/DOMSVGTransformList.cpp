@@ -137,10 +137,6 @@ i
 namespace
 mozilla
 {
-NS_IMPL_CYCLE_COLLECTION_CLASS
-(
-DOMSVGTransformList
-)
 NS_IMPL_CYCLE_COLLECTION_UNLINK_BEGIN
 (
 DOMSVGTransformList

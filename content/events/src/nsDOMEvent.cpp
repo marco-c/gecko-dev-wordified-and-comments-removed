@@ -331,10 +331,6 @@ mEvent
 ;
 }
 }
-NS_IMPL_CYCLE_COLLECTION_CLASS
-(
-nsDOMEvent
-)
 DOMCI_DATA
 (
 Event

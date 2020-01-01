@@ -1165,10 +1165,6 @@ mTxValue
 ;
 }
 ;
-NS_IMPL_CYCLE_COLLECTION_CLASS
-(
-txMozillaXSLTProcessor
-)
 NS_IMPL_CYCLE_COLLECTION_UNLINK_BEGIN
 (
 txMozillaXSLTProcessor

@@ -228,10 +228,6 @@ Disconnect
 )
 ;
 }
-NS_IMPL_CYCLE_COLLECTION_CLASS
-(
-nsXULCommandDispatcher
-)
 DOMCI_DATA
 (
 XULCommandDispatcher

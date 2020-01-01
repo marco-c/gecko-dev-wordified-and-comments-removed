@@ -68,10 +68,6 @@ PR_Now
 ;
 }
 }
-NS_IMPL_CYCLE_COLLECTION_CLASS
-(
-nsDOMXULCommandEvent
-)
 NS_IMPL_ADDREF_INHERITED
 (
 nsDOMXULCommandEvent

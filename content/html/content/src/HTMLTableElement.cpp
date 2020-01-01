@@ -279,10 +279,6 @@ TableRowsCollection
 )
 {
 }
-NS_IMPL_CYCLE_COLLECTION_CLASS
-(
-TableRowsCollection
-)
 NS_IMPL_CYCLE_COLLECTION_UNLINK_BEGIN
 (
 TableRowsCollection
@@ -1257,10 +1253,6 @@ aTriedToWrap
 )
 ;
 }
-NS_IMPL_CYCLE_COLLECTION_CLASS
-(
-HTMLTableElement
-)
 NS_IMPL_CYCLE_COLLECTION_UNLINK_BEGIN_INHERITED
 (
 HTMLTableElement

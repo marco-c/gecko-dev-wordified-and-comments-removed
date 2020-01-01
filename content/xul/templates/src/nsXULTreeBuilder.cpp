@@ -655,10 +655,6 @@ return
 rv
 ;
 }
-NS_IMPL_CYCLE_COLLECTION_CLASS
-(
-nsXULTreeBuilder
-)
 NS_IMPL_ADDREF_INHERITED
 (
 nsXULTreeBuilder

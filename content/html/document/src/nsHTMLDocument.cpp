@@ -1012,10 +1012,6 @@ mCompatMode
 eCompatibility_NavQuirks
 ;
 }
-NS_IMPL_CYCLE_COLLECTION_CLASS
-(
-nsHTMLDocument
-)
 NS_IMPL_CYCLE_COLLECTION_TRAVERSE_BEGIN_INHERITED
 (
 nsHTMLDocument

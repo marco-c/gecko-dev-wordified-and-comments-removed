@@ -649,10 +649,6 @@ Shutdown
 )
 ;
 }
-NS_IMPL_CYCLE_COLLECTION_NATIVE_CLASS
-(
-nsEventListenerManager
-)
 NS_IMPL_CYCLE_COLLECTION_ROOT_NATIVE
 (
 nsEventListenerManager

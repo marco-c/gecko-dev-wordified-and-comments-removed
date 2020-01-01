@@ -514,10 +514,6 @@ this
 )
 ;
 }
-NS_IMPL_CYCLE_COLLECTION_CLASS
-(
-nsNodeIterator
-)
 NS_IMPL_CYCLE_COLLECTION_UNLINK_BEGIN
 (
 nsNodeIterator

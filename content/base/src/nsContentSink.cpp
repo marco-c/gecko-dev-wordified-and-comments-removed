@@ -337,10 +337,6 @@ nsISupports
 nsIDocumentObserver
 )
 NS_INTERFACE_MAP_END
-NS_IMPL_CYCLE_COLLECTION_CLASS
-(
-nsContentSink
-)
 NS_IMPL_CYCLE_COLLECTION_UNLINK_BEGIN
 (
 nsContentSink

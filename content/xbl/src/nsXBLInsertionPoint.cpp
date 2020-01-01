@@ -70,10 +70,6 @@ mDefaultContent
 ;
 }
 }
-NS_IMPL_CYCLE_COLLECTION_NATIVE_CLASS
-(
-nsXBLInsertionPoint
-)
 NS_IMPL_CYCLE_COLLECTION_UNLINK_BEGIN
 (
 nsXBLInsertionPoint

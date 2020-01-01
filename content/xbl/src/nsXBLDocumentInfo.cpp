@@ -1676,10 +1676,6 @@ return
 kHashEnumerateNext
 ;
 }
-NS_IMPL_CYCLE_COLLECTION_CLASS
-(
-nsXBLDocumentInfo
-)
 NS_IMPL_CYCLE_COLLECTION_UNLINK_BEGIN
 (
 nsXBLDocumentInfo

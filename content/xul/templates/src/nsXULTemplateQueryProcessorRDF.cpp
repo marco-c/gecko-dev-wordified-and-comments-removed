@@ -243,10 +243,6 @@ nsXULTemplateQueryProcessorRDF
 :
 kRDF_type
 ;
-NS_IMPL_CYCLE_COLLECTION_CLASS
-(
-nsXULTemplateQueryProcessorRDF
-)
 NS_IMPL_CYCLE_COLLECTION_UNLINK_BEGIN
 (
 nsXULTemplateQueryProcessorRDF

@@ -105,10 +105,6 @@ DOMCI_DATA
 NotifyAudioAvailableEvent
 nsDOMNotifyAudioAvailableEvent
 )
-NS_IMPL_CYCLE_COLLECTION_CLASS
-(
-nsDOMNotifyAudioAvailableEvent
-)
 NS_IMPL_ADDREF_INHERITED
 (
 nsDOMNotifyAudioAvailableEvent

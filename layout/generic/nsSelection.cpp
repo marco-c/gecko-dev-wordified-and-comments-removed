@@ -1849,10 +1849,6 @@ mDelayedMouseEventClickCount
 0
 ;
 }
-NS_IMPL_CYCLE_COLLECTION_CLASS
-(
-nsFrameSelection
-)
 NS_IMPL_CYCLE_COLLECTION_UNLINK_BEGIN
 (
 nsFrameSelection
@@ -12538,10 +12534,6 @@ nullptr
 ;
 }
 }
-NS_IMPL_CYCLE_COLLECTION_CLASS
-(
-Selection
-)
 NS_IMPL_CYCLE_COLLECTION_UNLINK_BEGIN
 (
 Selection

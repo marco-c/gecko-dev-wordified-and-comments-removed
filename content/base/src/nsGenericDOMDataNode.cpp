@@ -343,10 +343,6 @@ mParent
 ;
 }
 }
-NS_IMPL_CYCLE_COLLECTION_CLASS
-(
-nsGenericDOMDataNode
-)
 NS_IMPL_CYCLE_COLLECTION_TRACE_BEGIN
 (
 nsGenericDOMDataNode

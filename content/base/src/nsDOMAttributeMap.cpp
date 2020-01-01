@@ -174,10 +174,6 @@ mContent
 nullptr
 ;
 }
-NS_IMPL_CYCLE_COLLECTION_CLASS
-(
-nsDOMAttributeMap
-)
 NS_IMPL_CYCLE_COLLECTION_UNLINK_BEGIN
 (
 nsDOMAttributeMap
