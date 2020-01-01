@@ -527,6 +527,7 @@ Debugger
 onEnterFrame
 (
 cx
+frame
 &
 rval
 )
@@ -740,6 +741,7 @@ Debugger
 onLeaveFrame
 (
 cx
+frame
 ok
 )
 ;
