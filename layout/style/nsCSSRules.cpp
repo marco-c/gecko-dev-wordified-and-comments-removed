@@ -9282,7 +9282,7 @@ NS_IMETHODIMP
 nsCSSKeyframesRule
 :
 :
-InsertRule
+AppendRule
 (
 const
 nsAString

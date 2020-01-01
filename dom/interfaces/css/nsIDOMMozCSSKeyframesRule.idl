@@ -128,7 +128,7 @@ nsIDOMCSSRuleList
 cssRules
 ;
 void
-insertRule
+appendRule
 (
 in
 DOMString
