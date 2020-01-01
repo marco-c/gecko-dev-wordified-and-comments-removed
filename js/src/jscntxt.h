@@ -3900,6 +3900,9 @@ contextList
 JSDebugHooks
 globalDebugHooks
 ;
+JSBool
+debugMode
+;
 #
 ifdef
 JS_TRACER
