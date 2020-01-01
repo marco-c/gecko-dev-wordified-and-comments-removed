@@ -3807,11 +3807,8 @@ true
 onget
 =
 "
-throw
-'
-Not
-Remoteable
-'
+return
+null
 "
 /
 >
