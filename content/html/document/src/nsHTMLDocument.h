@@ -781,11 +781,8 @@ nsDocument
 protected
 :
 nsresult
-GetPixelDimensions
+GetBodySize
 (
-nsIPresShell
-*
-aShell
 PRInt32
 *
 aWidth
