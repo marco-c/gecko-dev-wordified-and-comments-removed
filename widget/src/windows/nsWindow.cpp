@@ -2629,15 +2629,6 @@ WindowPopupClass
 (
 )
 {
-const
-LPCWSTR
-className
-=
-L
-"
-MozillaDropShadowWindowClass
-"
-;
 if
 (
 !
@@ -2729,7 +2720,7 @@ wc
 .
 lpszClassName
 =
-className
+kClassNameDropShadow
 ;
 nsWindow
 :
