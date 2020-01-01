@@ -8427,6 +8427,16 @@ GetFocus
 =
 =
 mPluginWindowHWND
+|
+|
+:
+:
+GetFocus
+(
+)
+!
+=
+mPluginParentHWND
 )
 return
 true
