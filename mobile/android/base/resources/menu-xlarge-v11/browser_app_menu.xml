@@ -560,6 +560,15 @@ char_encoding
 "
 android
 :
+icon
+=
+"
+drawable
+/
+ic_menu_character_encoding
+"
+android
+:
 visible
 =
 "
