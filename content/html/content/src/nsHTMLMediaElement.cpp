@@ -15768,6 +15768,12 @@ aPlaybackRate
 ;
 if
 (
+!
+mMuted
+)
+{
+if
+(
 mPlaybackRate
 <
 0
@@ -15796,6 +15802,7 @@ SetMutedInternal
 false
 )
 ;
+}
 }
 if
 (
