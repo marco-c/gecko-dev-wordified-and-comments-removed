@@ -99,6 +99,10 @@ nondestructive
 &
 unalias
 deactivate
+&
+&
+unalias
+pydoc
 '
 #
 Unset
@@ -218,4 +222,10 @@ prompt
 "
 unset
 env_name
+alias
+pydoc
+python
+-
+m
+pydoc
 rehash
