@@ -2898,6 +2898,9 @@ if
 activeAnalysis
 )
 {
+#
+ifdef
+JS_METHODJIT
 if
 (
 types
@@ -2952,6 +2955,8 @@ script
 ;
 }
 }
+#
+endif
 }
 else
 {
