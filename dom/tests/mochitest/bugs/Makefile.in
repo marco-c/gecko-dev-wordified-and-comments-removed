@@ -824,10 +824,6 @@ test_bug633133
 .
 html
 \
-test_bug641552
-.
-html
-\
 test_bug642026
 .
 html
@@ -837,6 +833,10 @@ test_bug648465
 html
 \
 test_bug654137
+.
+html
+\
+test_bug684544
 .
 html
 \
