@@ -154,6 +154,9 @@ virtual
 nsresult
 GetBuffered
 (
+dom
+:
+:
 TimeRanges
 *
 aBuffered
