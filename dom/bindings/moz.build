@@ -189,6 +189,11 @@ Nullable
 h
 '
 '
+OwningNonNull
+.
+h
+'
+'
 PrimitiveConversions
 .
 h

@@ -23,6 +23,17 @@ mozilla
 /
 dom
 /
+OwningNonNull
+.
+h
+"
+#
+include
+"
+mozilla
+/
+dom
+/
 PromiseBinding
 .
 h

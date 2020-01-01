@@ -68,6 +68,17 @@ h
 #
 include
 "
+mozilla
+/
+dom
+/
+OwningNonNull
+.
+h
+"
+#
+include
+"
 MediaStreamGraph
 .
 h
