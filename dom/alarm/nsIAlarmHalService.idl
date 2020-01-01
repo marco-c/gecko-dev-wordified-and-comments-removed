@@ -161,7 +161,6 @@ alarmHalService
 }
 [
 scriptable
-builtinclass
 uuid
 (
 057b1ee4
