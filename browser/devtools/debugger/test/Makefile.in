@@ -426,6 +426,10 @@ contextmenu
 .
 js
 \
+browser_dbg_bug786070_hide_nonenums
+.
+js
+\
 browser_dbg_displayName
 .
 js

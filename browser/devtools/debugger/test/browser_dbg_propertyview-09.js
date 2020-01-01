@@ -168,13 +168,10 @@ globalNodes
 =
 globalScope
 .
-querySelector
-(
-"
-.
-details
-"
-)
+childNodes
+[
+2
+]
 .
 childNodes
 ;
@@ -346,7 +343,7 @@ value
 "
 )
 "
-window
+uneval
 "
 "
 Should
@@ -357,7 +354,7 @@ property
 name
 for
 |
-window
+uneval
 |
 .
 "
@@ -387,7 +384,7 @@ value
 "
 [
 object
-Proxy
+Function
 ]
 "
 "
@@ -399,7 +396,7 @@ property
 value
 for
 |
-window
+uneval
 |
 .
 "
