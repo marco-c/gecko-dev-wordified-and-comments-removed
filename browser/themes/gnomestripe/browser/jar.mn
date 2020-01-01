@@ -17,6 +17,7 @@ classic
 /
 browser
 /
+*
 skin
 /
 classic
@@ -26,6 +27,11 @@ browser
 browser
 .
 css
+(
+browser
+.
+css
+)
 skin
 /
 classic
