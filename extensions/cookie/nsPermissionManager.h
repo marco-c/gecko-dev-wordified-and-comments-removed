@@ -443,8 +443,10 @@ GetXPCOMSingleton
 )
 ;
 static
-nsIPermissionManager
-*
+already_AddRefed
+<
+nsPermissionManager
+>
 GetSingleton
 (
 )
