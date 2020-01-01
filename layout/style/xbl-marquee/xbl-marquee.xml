@@ -4923,10 +4923,9 @@ style
 "
 display
 :
+inline
 -
-moz
--
-box
+block
 ;
 overflow
 :
