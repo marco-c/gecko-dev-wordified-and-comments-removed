@@ -230,6 +230,12 @@ js
 script
 regress
 -
+588339
+.
+js
+script
+regress
+-
 yarr
 -
 regexp
