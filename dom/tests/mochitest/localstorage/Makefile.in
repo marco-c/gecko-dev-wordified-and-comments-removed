@@ -274,6 +274,10 @@ test_localStorageFromChrome
 .
 xhtml
 \
+test_app_uninstall
+.
+html
+\
 (
 NULL
 )
