@@ -18344,6 +18344,7 @@ ptr
 outerPC
 (
 )
+NULL
 pinline
 frame
 .

@@ -749,6 +749,7 @@ cc
 outerPC
 (
 )
+NULL
 &
 inlinePatch
 slots

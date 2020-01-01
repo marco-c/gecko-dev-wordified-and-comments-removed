@@ -791,6 +791,9 @@ jit
 jsbytecode
 *
 pc
+CallSite
+*
+inlined
 FinalJump
 done
 )
@@ -810,6 +813,10 @@ jit
 pc
 (
 pc
+)
+inlined
+(
+inlined
 )
 done
 (
@@ -864,6 +871,10 @@ jit
 jsbytecode
 *
 pc
+;
+CallSite
+*
+inlined
 ;
 FinalJump
 done

@@ -1973,6 +1973,10 @@ jsbytecode
 *
 pc
 ;
+CallSite
+*
+inlined
+;
 JSC
 :
 :
@@ -2335,6 +2339,11 @@ m_size
 }
 void
 nukeScriptDependentICs
+(
+)
+;
+void
+purgeGetterPICs
 (
 )
 ;
