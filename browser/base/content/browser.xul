@@ -10352,11 +10352,6 @@ type
 "
 content
 "
-context
-=
-"
-contentAreaContextMenu
-"
 disableglobalhistory
 =
 "

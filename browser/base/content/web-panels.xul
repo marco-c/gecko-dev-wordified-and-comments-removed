@@ -660,6 +660,9 @@ new
 nsContextMenu
 (
 this
+getPanelBrowser
+(
+)
 event
 .
 shiftKey

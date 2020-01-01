@@ -256,11 +256,6 @@ flex
 "
 1
 "
-context
-=
-"
-contentAreaContextMenu
-"
 xbl
 :
 inherits
