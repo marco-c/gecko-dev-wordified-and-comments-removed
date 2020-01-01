@@ -10330,11 +10330,12 @@ IsJITBrokenHere
 &
 &
 !
-(
-runOptions
-&
-JSOPTION_TYPE_INFERENCE
-)
+compartment
+-
+>
+types
+.
+inferenceEnabled
 &
 &
 (

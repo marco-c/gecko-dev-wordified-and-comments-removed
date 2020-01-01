@@ -2652,6 +2652,9 @@ clearParent
 (
 )
 ;
+if
+(
+!
 obj
 -
 >
@@ -2662,6 +2665,9 @@ xdr
 >
 cx
 )
+)
+return
+false
 ;
 AlreadyIncRefed
 <

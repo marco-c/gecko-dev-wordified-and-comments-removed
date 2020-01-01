@@ -1334,7 +1334,8 @@ unsigned
 scriptCount
 ;
 TypeObject
-emptyObject
+*
+typeEmpty
 ;
 TypeObject
 *

@@ -36479,6 +36479,9 @@ obj
 return
 false
 ;
+if
+(
+!
 obj
 -
 >
@@ -36486,6 +36489,9 @@ clearType
 (
 cx
 )
+)
+return
+false
 ;
 vp
 -
