@@ -9042,7 +9042,6 @@ callback
 :
 function
 (
-notification
 )
 {
 request
