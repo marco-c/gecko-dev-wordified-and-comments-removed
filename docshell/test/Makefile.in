@@ -728,6 +728,14 @@ file_bug680257
 .
 html
 \
+test_bug691547
+.
+html
+\
+bug691547_frame
+.
+html
+\
 (
 NULL
 )
