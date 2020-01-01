@@ -68,10 +68,10 @@ btnSelecting
 .
 tooltip
 "
-Vyh
-ada
-kliknut
-m
+Pomocou
+my
+i
+vybra
 uzol
 na
 presk
@@ -509,7 +509,7 @@ saveCmd
 .
 key
 "
-U
+S
 "
 >
 <
