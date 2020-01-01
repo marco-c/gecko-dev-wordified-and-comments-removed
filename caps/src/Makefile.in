@@ -494,3 +494,13 @@ src
 xpconnect
 /
 src
+\
+-
+I
+(
+topsrcdir
+)
+/
+dom
+/
+base
