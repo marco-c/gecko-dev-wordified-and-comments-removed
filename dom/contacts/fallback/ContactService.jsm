@@ -813,7 +813,7 @@ getAll
 (
 function
 (
-aContact
+aContacts
 )
 {
 mm
@@ -833,9 +833,9 @@ cursorId
 msg
 .
 cursorId
-contact
+contacts
 :
-aContact
+aContacts
 }
 )
 ;
@@ -869,9 +869,6 @@ aErrorMsg
 msg
 .
 findOptions
-msg
-.
-cursorId
 )
 ;
 break
