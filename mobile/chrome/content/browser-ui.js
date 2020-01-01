@@ -6964,6 +6964,14 @@ _currentElement
 )
 return
 ;
+if
+(
+aElement
+instanceof
+Ci
+.
+nsIDOMXULLabelElement
+)
 this
 .
 _currentElement
