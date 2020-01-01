@@ -1228,7 +1228,6 @@ html
 ref
 .
 html
-random
 HTTP
 (
 .
@@ -1246,9 +1245,6 @@ html
 ref
 .
 html
-#
-bug
-482596
 random
 HTTP
 (
