@@ -193,11 +193,13 @@ aCallback
 )
 ;
 void
-SourceEndDrag
+SourceEndDragSession
 (
 GdkDragContext
 *
 aContext
+gint
+aResult
 )
 ;
 void
