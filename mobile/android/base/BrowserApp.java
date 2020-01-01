@@ -3669,6 +3669,8 @@ getContent
 (
 )
 ;
+try
+{
 Drawable
 drawable
 =
@@ -3689,6 +3691,16 @@ setIcon
 drawable
 )
 ;
+}
+finally
+{
+is
+.
+close
+(
+)
+;
+}
 }
 catch
 (
