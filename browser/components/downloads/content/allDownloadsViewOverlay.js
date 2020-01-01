@@ -187,7 +187,6 @@ resource
 :
 /
 /
-gre
 /
 modules
 /
