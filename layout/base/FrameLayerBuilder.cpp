@@ -9743,6 +9743,15 @@ ownLayer
 SetIsFixedPosition
 (
 isFixed
+&
+&
+type
+!
+=
+nsDisplayItem
+:
+:
+TYPE_TRANSFORM
 )
 ;
 NS_ASSERTION
