@@ -1096,7 +1096,7 @@ break
 ;
 }
 case
-eCSSProperty__moz_border_radius
+eCSSProperty_border_radius
 :
 case
 eCSSProperty__moz_outline_radius

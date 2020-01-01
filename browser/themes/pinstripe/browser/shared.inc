@@ -225,9 +225,6 @@ rgba
 4
 )
 ;
--
-moz
--
 border
 -
 radius
