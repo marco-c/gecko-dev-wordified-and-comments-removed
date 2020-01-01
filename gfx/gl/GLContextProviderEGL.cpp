@@ -14,8 +14,13 @@ defined
 XP_UNIX
 )
 #
-ifdef
-MOZ_WIDGET_GTK2
+if
+(
+MOZ_WIDGET_GTK
+>
+=
+2
+)
 #
 include
 <
