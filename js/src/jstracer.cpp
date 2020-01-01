@@ -51291,6 +51291,12 @@ JSRS_STOP
 ;
 if
 (
+SCOPE_IS_BRANDED
+(
+scope
+)
+&
+&
 VALUE_IS_FUNCTION
 (
 cx
@@ -51309,6 +51315,9 @@ function
 valued
 property
 set
+in
+branded
+scope
 "
 )
 ;
