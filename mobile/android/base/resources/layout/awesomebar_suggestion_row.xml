@@ -126,6 +126,13 @@ awesomebar_row_height
 "
 android
 :
+gravity
+=
+"
+center_vertical
+"
+android
+:
 padding
 =
 "
