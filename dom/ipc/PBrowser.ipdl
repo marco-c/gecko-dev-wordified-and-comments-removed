@@ -991,6 +991,8 @@ IMEOpen
 nsString
 type
 nsString
+inputmode
+nsString
 actionHint
 PRInt32
 cause

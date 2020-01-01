@@ -3427,6 +3427,8 @@ state
 String
 typeHint
 String
+modeHint
+String
 actionHint
 boolean
 landscapeFS
@@ -3445,6 +3447,7 @@ notifyIMEEnabled
 (
 state
 typeHint
+modeHint
 actionHint
 )
 ;
