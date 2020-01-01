@@ -2807,6 +2807,11 @@ NO
 src
 searchplugins
 /
+termiadur
+.
+xml
+searchplugins
+/
 universal
 -
 pt
