@@ -3161,7 +3161,9 @@ JSVAL_BITS
 v
 )
 (
+(
 v
+)
 .
 asBits
 )
@@ -3190,7 +3192,9 @@ JSID_BITS
 id
 )
 (
+(
 id
+)
 .
 asBits
 )
