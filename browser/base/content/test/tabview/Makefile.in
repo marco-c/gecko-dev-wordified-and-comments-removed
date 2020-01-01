@@ -444,10 +444,6 @@ browser_tabview_apptabs
 .
 js
 \
-browser_tabview_bug580412
-.
-js
-\
 browser_tabview_bug587040
 .
 js
@@ -456,15 +452,7 @@ browser_tabview_bug587990
 .
 js
 \
-browser_tabview_bug590606
-.
-js
-\
 browser_tabview_bug591706
-.
-js
-\
-browser_tabview_bug594176
 .
 js
 \
