@@ -199,6 +199,9 @@ TRUE
 }
 ;
 typedef
+mozilla
+:
+:
 Scoped
 <
 ScopedResourceUpdateTraits
