@@ -145,6 +145,10 @@ MSStdInt
 .
 h
 \
+NullPtr
+.
+h
+\
 RangedPtr
 .
 h
