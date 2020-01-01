@@ -897,6 +897,7 @@ Layer
 aGraph
 )
 {
+const
 nsTArray
 <
 DirectedGraph
@@ -908,6 +909,7 @@ Layer
 :
 Edge
 >
+&
 edges
 =
 aGraph

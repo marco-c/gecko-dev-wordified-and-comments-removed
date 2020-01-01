@@ -1107,12 +1107,15 @@ StartFrameTimeRecording
 (
 )
 ;
+void
+StopFrameTimeRecording
+(
 nsTArray
 <
 float
 >
-StopFrameTimeRecording
-(
+&
+aTimes
 )
 ;
 void
