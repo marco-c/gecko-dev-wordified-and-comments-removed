@@ -251,6 +251,13 @@ h
 #
 include
 "
+nsIPresShell
+.
+h
+"
+#
+include
+"
 nsDragService
 .
 h
