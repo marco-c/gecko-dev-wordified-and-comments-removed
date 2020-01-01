@@ -3308,6 +3308,15 @@ tr_
 tr_
 -
 >
+wasDeepAborted
+(
+)
+&
+&
+!
+tr_
+-
+>
 record_
 #
 #
