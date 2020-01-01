@@ -1,3 +1,4 @@
+#
 skip
 -
 if
@@ -14,6 +15,7 @@ sjs
 bug415761
 .
 ico
+#
 skip
 -
 if
