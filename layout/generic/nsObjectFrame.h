@@ -561,14 +561,9 @@ mInstanceOwner
 nsRect
 mWindowlessRect
 ;
-#
-ifdef
-DEBUG
 PRBool
 mInstantiating
 ;
-#
-endif
 }
 ;
 #
