@@ -2681,7 +2681,7 @@ this
 .
 _downloadToDataItemMap
 .
-remove
+delete
 (
 aDownload
 )
@@ -4977,7 +4977,11 @@ this
 .
 speed
 =
-0
+this
+.
+_download
+.
+speed
 ;
 this
 .
