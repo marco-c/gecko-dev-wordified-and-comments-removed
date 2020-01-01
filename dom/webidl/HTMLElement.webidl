@@ -488,23 +488,14 @@ attribute
 DOMString
 className
 ;
-[
-SetterThrows
-]
 attribute
 EventHandler
 oncopy
 ;
-[
-SetterThrows
-]
 attribute
 EventHandler
 oncut
 ;
-[
-SetterThrows
-]
 attribute
 EventHandler
 onpaste
@@ -591,7 +582,6 @@ interface
 TouchEventHandlers
 {
 [
-SetterThrows
 Func
 =
 "
@@ -606,7 +596,6 @@ EventHandler
 ontouchstart
 ;
 [
-SetterThrows
 Func
 =
 "
@@ -621,7 +610,6 @@ EventHandler
 ontouchend
 ;
 [
-SetterThrows
 Func
 =
 "
@@ -636,7 +624,6 @@ EventHandler
 ontouchmove
 ;
 [
-SetterThrows
 Func
 =
 "
@@ -651,7 +638,6 @@ EventHandler
 ontouchenter
 ;
 [
-SetterThrows
 Func
 =
 "
@@ -666,7 +652,6 @@ EventHandler
 ontouchleave
 ;
 [
-SetterThrows
 Func
 =
 "

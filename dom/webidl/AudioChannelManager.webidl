@@ -226,9 +226,6 @@ unplugged
 .
 *
 /
-[
-SetterThrows
-]
 attribute
 EventHandler
 onheadphoneschange

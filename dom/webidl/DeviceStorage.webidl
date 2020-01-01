@@ -104,9 +104,6 @@ DeviceStorage
 :
 EventTarget
 {
-[
-SetterThrows
-]
 attribute
 EventHandler
 onchange

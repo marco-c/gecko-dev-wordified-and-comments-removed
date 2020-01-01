@@ -238,9 +238,6 @@ enabled
 .
 *
 /
-[
-SetterThrows
-]
 attribute
 EventHandler
 onenabled
@@ -257,9 +254,6 @@ disabled
 .
 *
 /
-[
-SetterThrows
-]
 attribute
 EventHandler
 ondisabled
@@ -290,9 +284,6 @@ changes
 .
 *
 /
-[
-SetterThrows
-]
 attribute
 EventHandler
 onantennaavailablechange
@@ -312,9 +303,6 @@ changed
 .
 *
 /
-[
-SetterThrows
-]
 attribute
 EventHandler
 onfrequencychange

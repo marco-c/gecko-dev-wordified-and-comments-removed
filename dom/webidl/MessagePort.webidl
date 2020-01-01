@@ -185,9 +185,6 @@ close
 /
 event
 handlers
-[
-SetterThrows
-]
 attribute
 EventHandler
 onmessage

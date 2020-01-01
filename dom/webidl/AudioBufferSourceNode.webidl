@@ -214,9 +214,6 @@ when
 0
 )
 ;
-[
-SetterThrows
-]
 attribute
 EventHandler
 onended

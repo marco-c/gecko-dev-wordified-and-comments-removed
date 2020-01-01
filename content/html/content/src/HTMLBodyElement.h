@@ -234,9 +234,6 @@ name_
 type_
 *
 handler
-ErrorResult
-&
-error
 )
 ;
 #

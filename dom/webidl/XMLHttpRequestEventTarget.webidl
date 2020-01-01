@@ -155,6 +155,8 @@ event
 handlers
 [
 SetterThrows
+=
+Workers
 GetterThrows
 =
 Workers
@@ -165,6 +167,8 @@ onloadstart
 ;
 [
 SetterThrows
+=
+Workers
 GetterThrows
 =
 Workers
@@ -175,6 +179,8 @@ onprogress
 ;
 [
 SetterThrows
+=
+Workers
 GetterThrows
 =
 Workers
@@ -185,6 +191,8 @@ onabort
 ;
 [
 SetterThrows
+=
+Workers
 GetterThrows
 =
 Workers
@@ -195,6 +203,8 @@ onerror
 ;
 [
 SetterThrows
+=
+Workers
 GetterThrows
 =
 Workers
@@ -205,6 +215,8 @@ onload
 ;
 [
 SetterThrows
+=
+Workers
 GetterThrows
 =
 Workers
@@ -215,6 +227,8 @@ ontimeout
 ;
 [
 SetterThrows
+=
+Workers
 GetterThrows
 =
 Workers

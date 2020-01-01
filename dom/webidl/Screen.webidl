@@ -241,9 +241,6 @@ attribute
 DOMString
 mozOrientation
 ;
-[
-SetterThrows
-]
 attribute
 EventHandler
 onmozorientationchange

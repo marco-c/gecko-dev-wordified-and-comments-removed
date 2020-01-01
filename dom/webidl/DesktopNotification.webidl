@@ -143,16 +143,10 @@ show
 (
 )
 ;
-[
-SetterThrows
-]
 attribute
 EventHandler
 onclick
 ;
-[
-SetterThrows
-]
 attribute
 EventHandler
 onclose

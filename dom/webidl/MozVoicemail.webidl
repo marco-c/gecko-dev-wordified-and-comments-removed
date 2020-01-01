@@ -221,9 +221,6 @@ has
 changed
 *
 /
-[
-SetterThrows
-]
 attribute
 EventHandler
 onstatuschanged

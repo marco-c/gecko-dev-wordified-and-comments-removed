@@ -234,9 +234,6 @@ VTTCue
 cue
 )
 ;
-[
-SetterThrows
-]
 attribute
 EventHandler
 oncuechange

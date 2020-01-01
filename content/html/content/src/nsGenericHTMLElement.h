@@ -1187,13 +1187,6 @@ dom
 EventHandlerNonNull
 *
 handler
-\
-mozilla
-:
-:
-ErrorResult
-&
-error
 )
 ;
 #
@@ -1259,13 +1252,6 @@ dom
 EventHandlerNonNull
 *
 handler
-\
-mozilla
-:
-:
-ErrorResult
-&
-error
 )
 ;
 #

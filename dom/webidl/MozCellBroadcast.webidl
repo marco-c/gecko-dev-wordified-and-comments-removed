@@ -142,9 +142,6 @@ received
 .
 *
 /
-[
-SetterThrows
-]
 attribute
 EventHandler
 onreceived

@@ -183,9 +183,6 @@ startRendering
 (
 )
 ;
-[
-SetterThrows
-]
 attribute
 EventHandler
 oncomplete

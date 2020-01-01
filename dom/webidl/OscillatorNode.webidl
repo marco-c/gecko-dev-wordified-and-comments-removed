@@ -256,9 +256,6 @@ PeriodicWave
 periodicWave
 )
 ;
-[
-SetterThrows
-]
 attribute
 EventHandler
 onended

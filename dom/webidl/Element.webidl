@@ -548,7 +548,6 @@ Mozilla
 specific
 stuff
 [
-SetterThrows
 LenientThis
 ]
 attribute
@@ -556,16 +555,12 @@ EventHandler
 onmouseenter
 ;
 [
-SetterThrows
 LenientThis
 ]
 attribute
 EventHandler
 onmouseleave
 ;
-[
-SetterThrows
-]
 attribute
 EventHandler
 onwheel

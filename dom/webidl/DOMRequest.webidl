@@ -129,16 +129,10 @@ nsISupports
 ?
 error
 ;
-[
-SetterThrows
-]
 attribute
 EventHandler
 onsuccess
 ;
-[
-SetterThrows
-]
 attribute
 EventHandler
 onerror

@@ -216,16 +216,10 @@ attribute
 IDBRequestReadyState
 readyState
 ;
-[
-SetterThrows
-]
 attribute
 EventHandler
 onsuccess
 ;
-[
-SetterThrows
-]
 attribute
 EventHandler
 onerror

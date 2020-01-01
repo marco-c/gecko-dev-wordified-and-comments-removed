@@ -313,16 +313,10 @@ getCueAsHTML
 (
 )
 ;
-[
-SetterThrows
-]
 attribute
 EventHandler
 onenter
 ;
-[
-SetterThrows
-]
 attribute
 EventHandler
 onexit

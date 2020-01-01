@@ -158,9 +158,6 @@ ScriptProcessorNode
 :
 AudioNode
 {
-[
-SetterThrows
-]
 attribute
 EventHandler
 onaudioprocess

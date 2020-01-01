@@ -123,9 +123,6 @@ LockedFile
 ?
 lockedFile
 ;
-[
-SetterThrows
-]
 attribute
 EventHandler
 onprogress

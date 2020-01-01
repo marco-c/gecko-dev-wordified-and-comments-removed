@@ -161,16 +161,10 @@ DOMString
 id
 )
 ;
-[
-SetterThrows
-]
 attribute
 EventHandler
 onaddtrack
 ;
-[
-SetterThrows
-]
 attribute
 EventHandler
 onremovetrack

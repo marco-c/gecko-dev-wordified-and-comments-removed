@@ -132,16 +132,10 @@ getFile
 (
 )
 ;
-[
-SetterThrows
-]
 attribute
 EventHandler
 onabort
 ;
-[
-SetterThrows
-]
 attribute
 EventHandler
 onerror

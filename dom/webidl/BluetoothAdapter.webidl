@@ -353,9 +353,6 @@ attribute
 any
 uuids
 ;
-[
-SetterThrows
-]
 attribute
 EventHandler
 ondevicefound
@@ -368,9 +365,6 @@ pairing
 process
 is
 completed
-[
-SetterThrows
-]
 attribute
 EventHandler
 onpairedstatuschanged
@@ -383,9 +377,6 @@ a2dp
 connection
 status
 changed
-[
-SetterThrows
-]
 attribute
 EventHandler
 ona2dpstatuschanged
@@ -398,9 +389,6 @@ handsfree
 connection
 status
 changed
-[
-SetterThrows
-]
 attribute
 EventHandler
 onhfpstatuschanged
@@ -413,9 +401,6 @@ sco
 connection
 status
 changed
-[
-SetterThrows
-]
 attribute
 EventHandler
 onscostatuschanged
@@ -431,9 +416,6 @@ current
 media
 play
 status
-[
-SetterThrows
-]
 attribute
 EventHandler
 onrequestmediaplaystatus

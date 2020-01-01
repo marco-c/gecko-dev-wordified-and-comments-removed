@@ -893,13 +893,6 @@ dom
 EventHandlerNonNull
 *
 aCallback
-\
-mozilla
-:
-:
-ErrorResult
-&
-aRv
 )
 \
 {
@@ -924,9 +917,7 @@ _event
 EmptyString
 (
 )
-\
 aCallback
-aRv
 )
 ;
 \
@@ -942,9 +933,7 @@ NS_LITERAL_STRING
 #
 _event
 )
-\
 aCallback
-aRv
 )
 ;
 \

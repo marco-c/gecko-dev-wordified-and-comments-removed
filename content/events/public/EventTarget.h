@@ -268,9 +268,6 @@ aTypeString
 EventHandlerNonNull
 *
 aHandler
-ErrorResult
-&
-rv
 )
 ;
 }

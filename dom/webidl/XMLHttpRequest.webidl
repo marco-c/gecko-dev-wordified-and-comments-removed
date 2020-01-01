@@ -368,6 +368,8 @@ event
 handler
 [
 SetterThrows
+=
+Workers
 GetterThrows
 =
 Workers

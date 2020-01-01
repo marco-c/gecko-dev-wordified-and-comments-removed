@@ -2691,10 +2691,6 @@ callable
 \
 }
 \
-ErrorResult
-rv
-;
-\
 forwardto_
 :
 :
@@ -2704,16 +2700,11 @@ SetOn
 name_
 (
 handler
-rv
 )
 ;
 \
 return
-rv
-.
-ErrorCode
-(
-)
+NS_OK
 ;
 \
 }
@@ -2858,9 +2849,6 @@ name_
 type_
 *
 handler
-ErrorResult
-&
-error
 )
 \
 {
@@ -2927,7 +2915,6 @@ SetOn
 name_
 (
 handler
-error
 )
 ;
 \
