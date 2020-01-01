@@ -38,6 +38,11 @@ waitForExplicitFinish
 (
 )
 ;
+requestLongerTimeout
+(
+2
+)
+;
 setTimeout
 (
 runNextTest
