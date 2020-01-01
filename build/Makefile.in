@@ -512,8 +512,6 @@ android
 MOZ_WIDGET_TOOLKIT
 )
 )
-ifdef
-MOZ_UPDATER
 DIST_FILES
 +
 =
@@ -522,7 +520,6 @@ update
 settings
 .
 ini
-endif
 endif
 ifdef
 LIBXUL_SDK
@@ -1192,8 +1189,6 @@ android
 MOZ_WIDGET_TOOLKIT
 )
 )
-ifdef
-MOZ_UPDATER
 update
 -
 settings
@@ -1235,7 +1230,6 @@ update
 settings
 .
 ini
-endif
 endif
 ifdef
 MOZ_APP_BASENAME
