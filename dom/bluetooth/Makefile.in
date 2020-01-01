@@ -307,7 +307,7 @@ MOZ_B2G_RIL
 CPPSRCS
 +
 =
-BluetoothRilListener
+BluetoothTelephonyListener
 .
 cpp
 endif

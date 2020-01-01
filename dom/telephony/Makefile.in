@@ -139,6 +139,10 @@ nsIDOMCallEvent
 .
 idl
 \
+nsITelephonyProvider
+.
+idl
+\
 (
 NULL
 )

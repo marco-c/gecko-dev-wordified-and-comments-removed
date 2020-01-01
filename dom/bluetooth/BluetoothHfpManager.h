@@ -14,7 +14,7 @@ h
 #
 include
 "
-BluetoothRilListener
+BluetoothTelephonyListener
 .
 h
 "
@@ -388,7 +388,7 @@ mCurrentCallArray
 ;
 nsAutoPtr
 <
-BluetoothRilListener
+BluetoothTelephonyListener
 >
 mListener
 ;
