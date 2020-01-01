@@ -1095,6 +1095,11 @@ mDocShell
 )
 )
 ;
+if
+(
+shellAsWin
+)
+{
 shellAsWin
 -
 >
@@ -1107,6 +1112,7 @@ aHeight
 false
 )
 ;
+}
 if
 (
 !
