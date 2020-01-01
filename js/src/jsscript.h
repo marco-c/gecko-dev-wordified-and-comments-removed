@@ -1812,6 +1812,11 @@ shouldInline
 :
 1
 ;
+bool
+uninlineable
+:
+1
+;
 #
 ifdef
 JS_ION
