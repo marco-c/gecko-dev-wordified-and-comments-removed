@@ -891,10 +891,8 @@ caretOn
 if
 (
 caretOn
-)
-{
-if
-(
+|
+|
 nsContentUtils
 :
 :
@@ -907,6 +905,7 @@ browsewithcaret
 "
 )
 )
+{
 return
 DoCommandBrowseWithCaretOn
 (

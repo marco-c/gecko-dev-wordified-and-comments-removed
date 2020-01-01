@@ -599,6 +599,10 @@ window_keys
 .
 xul
 \
+test_showcaret
+.
+xul
+\
 (
 NULL
 )
