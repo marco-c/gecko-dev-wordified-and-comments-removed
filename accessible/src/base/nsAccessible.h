@@ -734,6 +734,8 @@ aContent
 nsAString
 *
 aFlatString
+PRBool
+aIsRootHidden
 )
 ;
 virtual
