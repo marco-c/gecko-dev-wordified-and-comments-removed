@@ -6998,6 +6998,10 @@ marked
 (
 false
 )
+newScriptCleared
+(
+false
+)
 newScript
 (
 NULL
