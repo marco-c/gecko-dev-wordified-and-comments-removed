@@ -621,6 +621,10 @@ mMaxRenderbufferSize
 (
 0
 )
+mNeedsTextureSizeChecks
+(
+false
+)
 mWorkAroundDriverBugs
 (
 true
@@ -1172,6 +1176,7 @@ VendorNVIDIA
 VendorATI
 VendorQualcomm
 VendorImagination
+VendorNouveau
 VendorOther
 }
 ;
@@ -4701,6 +4706,9 @@ GLint
 mMaxRenderbufferSize
 ;
 bool
+mNeedsTextureSizeChecks
+;
+bool
 mWorkAroundDriverBugs
 ;
 bool
@@ -4715,18 +4723,9 @@ height
 )
 const
 {
-#
-ifdef
-XP_MACOSX
 if
 (
-mWorkAroundDriverBugs
-&
-&
-mVendor
-=
-=
-VendorIntel
+mNeedsTextureSizeChecks
 )
 {
 GLsizei
@@ -4768,8 +4767,6 @@ height
 maxSize
 ;
 }
-#
-endif
 return
 true
 ;
