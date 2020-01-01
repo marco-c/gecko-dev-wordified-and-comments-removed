@@ -785,11 +785,10 @@ tl
 :
 StaticAssert
 <
-!
 tl
 :
 :
-IsPostBarrieredType
+IsRelocatableHeapType
 <
 T
 >
