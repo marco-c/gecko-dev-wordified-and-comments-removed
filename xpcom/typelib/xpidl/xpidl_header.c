@@ -1287,7 +1287,7 @@ NS_SCRIPTABLE
 deprecated
 ?
 "
-NS_DEPRECATED
+MOZ_DEPRECATED
 "
 :
 "
@@ -4647,7 +4647,7 @@ deprecated
 fputs
 (
 "
-NS_DEPRECATED
+MOZ_DEPRECATED
 "
 outfile
 )
@@ -6157,7 +6157,7 @@ deprecated
 fputs
 (
 "
-NS_DEPRECATED
+MOZ_DEPRECATED
 "
 outfile
 )

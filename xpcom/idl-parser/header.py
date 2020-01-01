@@ -2271,7 +2271,7 @@ fd
 write
 (
 "
-NS_DEPRECATED
+MOZ_DEPRECATED
 "
 )
     

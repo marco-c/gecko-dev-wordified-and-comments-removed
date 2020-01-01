@@ -693,7 +693,7 @@ __GNUC_MINOR__
 )
 #
 define
-NS_DEPRECATED
+MOZ_DEPRECATED
 __attribute__
 (
 (
@@ -716,7 +716,7 @@ _MSC_VER
 )
 #
 define
-NS_DEPRECATED
+MOZ_DEPRECATED
 __declspec
 (
 deprecated
@@ -725,7 +725,7 @@ deprecated
 else
 #
 define
-NS_DEPRECATED
+MOZ_DEPRECATED
 #
 endif
 #
