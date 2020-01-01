@@ -162,10 +162,6 @@ mScrollPositionX
 PRInt32
 mScrollPositionY
 ;
-nsISHEntry
-*
-mParent
-;
 nsCOMArray
 <
 nsISHEntry
