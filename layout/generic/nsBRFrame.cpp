@@ -419,7 +419,7 @@ if
 ll
 -
 >
-CanPlaceFloatNow
+LineIsEmpty
 (
 )
 |

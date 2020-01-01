@@ -2268,7 +2268,7 @@ IsEmpty
 (
 aLineLayout
 .
-CanPlaceFloatNow
+LineIsEmpty
 (
 )
 |

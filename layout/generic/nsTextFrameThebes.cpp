@@ -26410,7 +26410,7 @@ atStartOfLine
 =
 lineLayout
 .
-CanPlaceFloatNow
+LineIsEmpty
 (
 )
 ;
