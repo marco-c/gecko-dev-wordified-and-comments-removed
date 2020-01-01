@@ -6659,6 +6659,13 @@ tracefp
 =
 stderr
 ;
+cx
+-
+>
+tracePrevOp
+=
+JSOP_LIMIT
+;
 }
 void
 js_traceoff

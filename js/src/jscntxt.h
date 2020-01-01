@@ -2211,6 +2211,9 @@ void
 *
 tracefp
 ;
+JSOp
+tracePrevOp
+;
 #
 endif
 JSErrorReporter
