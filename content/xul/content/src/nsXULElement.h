@@ -2235,6 +2235,12 @@ nsIAtom
 aLocalName
 )
 ;
+nsIWidget
+*
+GetWindowWidget
+(
+)
+;
 nsresult
 HideWindowChrome
 (
@@ -2249,6 +2255,13 @@ nscolor
 aColor
 PRBool
 aActive
+)
+;
+void
+SetDrawsInTitlebar
+(
+PRBool
+aState
 )
 ;
 const

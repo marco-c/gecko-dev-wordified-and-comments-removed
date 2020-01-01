@@ -1116,6 +1116,16 @@ aActive
 0
 ;
 virtual
+void
+SetDrawsInTitlebar
+(
+PRBool
+aState
+)
+=
+0
+;
+virtual
 PRBool
 ShowsResizeIndicator
 (
