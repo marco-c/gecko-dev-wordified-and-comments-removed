@@ -5950,10 +5950,16 @@ height
 }
 screenRectPixels
 .
-SizeBy
+SizeTo
 (
+screenRectPixels
+.
+width
 -
 3
+screenRectPixels
+.
+height
 -
 3
 )

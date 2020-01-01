@@ -4795,13 +4795,12 @@ gfxRect
 scaledRect
 =
 aRect
-*
-aFactor
 ;
 scaledRect
 .
-RoundOut
+ScaleRoundOut
 (
+aFactor
 )
 ;
 ConstrainToCoordValues

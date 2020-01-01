@@ -482,6 +482,10 @@ BasePoint
 .
 h
 \
+BaseRect
+.
+h
+\
 BaseSize
 .
 h
