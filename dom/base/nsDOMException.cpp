@@ -203,6 +203,9 @@ nsIDOMDOMException
 :
 :
 DATA_CLONE_ERR
+EncodingError
+=
+0
 TypeError
 =
 0

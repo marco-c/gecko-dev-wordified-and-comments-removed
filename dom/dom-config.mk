@@ -66,6 +66,10 @@ battery
 \
 dom
 /
+encoding
+\
+dom
+/
 file
 \
 dom

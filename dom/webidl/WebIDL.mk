@@ -195,6 +195,14 @@ SVGTransformList
 .
 webidl
 \
+TextDecoder
+.
+webidl
+\
+TextEncoder
+.
+webidl
+\
 WebSocket
 .
 webidl
