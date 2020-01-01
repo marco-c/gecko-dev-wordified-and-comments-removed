@@ -28962,13 +28962,6 @@ scriptRoot
 pc
 )
 ;
-monitorResult
-(
-ins
-barrier
-types
-)
-;
 return
 pushTypeBarrier
 (
