@@ -4273,6 +4273,11 @@ if
 stacks_enabled
 )
 {
+*
+immediate_abort
+=
+0
+;
 if
 (
 info
