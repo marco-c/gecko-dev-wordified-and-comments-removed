@@ -741,6 +741,10 @@ runtimeThreadsStackCommitted
 (
 0
 )
+xpconnect
+(
+0
+)
 gcHeapChunkTotal
 (
 0
@@ -835,6 +839,9 @@ runtimeThreadsRegexpCode
 ;
 PRInt64
 runtimeThreadsStackCommitted
+;
+PRInt64
+xpconnect
 ;
 PRInt64
 gcHeapChunkTotal
