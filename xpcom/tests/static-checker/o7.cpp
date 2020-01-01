@@ -19,7 +19,7 @@ __attribute__
 user
 (
 "
-inoutparam
+NS_inoutparam
 "
 )
 )

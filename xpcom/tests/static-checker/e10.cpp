@@ -14,6 +14,9 @@ typedef
 short
 PRUnichar
 ;
+class
+nsACString
+;
 nsresult
 bar
 (
