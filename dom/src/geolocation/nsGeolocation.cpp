@@ -493,12 +493,13 @@ NS_IMPL_CYCLE_COLLECTING_RELEASE
 (
 nsGeolocationRequest
 )
-NS_IMPL_CYCLE_COLLECTION_3
+NS_IMPL_CYCLE_COLLECTION_4
 (
 nsGeolocationRequest
 mCallback
 mErrorCallback
 mOptions
+mLocator
 )
 void
 nsGeolocationRequest

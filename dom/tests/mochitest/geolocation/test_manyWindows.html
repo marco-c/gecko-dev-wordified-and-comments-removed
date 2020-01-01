@@ -229,7 +229,7 @@ Bug
 var
 numberOfWindows
 =
-2
+5
 ;
 /
 /
@@ -303,6 +303,11 @@ height
 )
 ;
 }
+function
+closeWindows
+(
+)
+{
 for
 (
 var
@@ -332,6 +337,7 @@ totalWindows
 -
 -
 ;
+}
 }
 SimpleTest
 .
@@ -392,6 +398,12 @@ setInterval
 (
 checkDone
 1000
+)
+;
+setTimeout
+(
+closeWindows
+5000
 )
 ;
 <

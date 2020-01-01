@@ -236,8 +236,10 @@ nsIDOMGeoPositionOptions
 >
 mOptions
 ;
+nsRefPtr
+<
 nsGeolocation
-*
+>
 mLocator
 ;
 }
