@@ -1608,14 +1608,6 @@ test_bug466409
 .
 html
 \
-test_bug482935
-.
-html
-\
-bug482935
-.
-sjs
-\
 test_classList
 .
 html
