@@ -1621,6 +1621,18 @@ telemetry
 pref
 (
 "
+toolkit
+.
+telemetry
+.
+debugSlowSql
+"
+false
+)
+;
+pref
+(
+"
 devtools
 .
 debugger
@@ -10955,7 +10967,7 @@ pixels
 .
 durationMaxMS
 "
-800
+400
 )
 ;
 pref

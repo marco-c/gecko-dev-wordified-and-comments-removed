@@ -3184,6 +3184,8 @@ const
 ContextFormat
 &
 aFormat
+const
+ContextFlags
 )
 {
 if

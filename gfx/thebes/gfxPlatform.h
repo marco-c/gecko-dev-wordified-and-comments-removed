@@ -436,12 +436,6 @@ GetPlatform
 ;
 static
 void
-Init
-(
-)
-;
-static
-void
 Shutdown
 (
 )
@@ -1230,6 +1224,12 @@ mPreferredDrawTargetBackend
 ;
 private
 :
+static
+void
+Init
+(
+)
+;
 virtual
 qcms_profile
 *

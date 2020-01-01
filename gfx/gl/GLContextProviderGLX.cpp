@@ -5124,6 +5124,8 @@ const
 ContextFormat
 &
 aFormat
+const
+ContextFlags
 )
 {
 nsRefPtr

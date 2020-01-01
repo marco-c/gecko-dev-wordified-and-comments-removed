@@ -465,7 +465,10 @@ lParam
 static
 nsRefPtrHashtable
 <
-nsVoidPtrHashKey
+nsPtrHashKey
+<
+void
+>
 nsDocAccessible
 >
 sHWNDCache

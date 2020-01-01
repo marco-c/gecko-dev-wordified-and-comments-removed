@@ -1433,7 +1433,10 @@ NS_OK
 static
 nsInterfaceHashtable
 <
-nsVoidPtrHashKey
+nsPtrHashKey
+<
+PContentDialogChild
+>
 nsIDialogParamBlock
 >
 gActiveDialogs

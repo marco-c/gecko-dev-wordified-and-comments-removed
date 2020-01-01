@@ -5858,8 +5858,7 @@ static
 PLDHashOperator
 MarkXBLHandlers
 (
-const
-void
+nsXBLPrototypeHandler
 *
 aKey
 JSObject
@@ -6267,8 +6266,7 @@ static
 PLDHashOperator
 TraceXBLHandlers
 (
-const
-void
+nsXBLPrototypeHandler
 *
 aKey
 JSObject

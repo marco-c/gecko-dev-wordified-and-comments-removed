@@ -2125,7 +2125,10 @@ mCycleCollectionContext
 typedef
 nsBaseHashtable
 <
-nsVoidPtrHashKey
+nsPtrHashKey
+<
+void
+>
 nsISupports
 *
 nsISupports

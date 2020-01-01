@@ -734,6 +734,14 @@ started
 false
 ;
 }
+setHighAccuracy
+:
+function
+(
+enable
+)
+{
+}
 getAccessTokenForURL
 :
 function

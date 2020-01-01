@@ -772,8 +772,7 @@ static
 PLDHashOperator
 destroy_loads
 (
-const
-void
+nsIFrame
 *
 aKey
 nsRefPtr
@@ -1404,8 +1403,7 @@ static
 PLDHashOperator
 TraverseImageLoader
 (
-const
-void
+nsIFrame
 *
 aKey
 nsRefPtr
@@ -5368,8 +5366,7 @@ static
 PLDHashOperator
 set_animation_mode
 (
-const
-void
+nsIFrame
 *
 aKey
 nsRefPtr

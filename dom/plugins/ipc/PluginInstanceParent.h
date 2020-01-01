@@ -1192,7 +1192,10 @@ mNotifySink
 ;
 nsDataHashtable
 <
-nsVoidPtrHashKey
+nsPtrHashKey
+<
+NPObject
+>
 PluginScriptableObjectParent
 *
 >

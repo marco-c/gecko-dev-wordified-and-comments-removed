@@ -1034,6 +1034,13 @@ if
 gGlobalsInitialized
 )
 {
+gfxPlatform
+:
+:
+GetPlatform
+(
+)
+;
 gGlobalsInitialized
 =
 true

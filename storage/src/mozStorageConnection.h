@@ -244,6 +244,15 @@ setClosedState
 (
 )
 ;
+int
+executeSql
+(
+const
+char
+*
+aSqlString
+)
+;
 enum
 DatabaseElementType
 {

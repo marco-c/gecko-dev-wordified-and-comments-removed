@@ -3657,6 +3657,9 @@ case
 case
 307
 :
+case
+308
+:
 rv
 =
 NS_ERROR_CONNECTION_REFUSED
@@ -4405,6 +4408,9 @@ case
 :
 case
 307
+:
+case
+308
 :
 case
 303

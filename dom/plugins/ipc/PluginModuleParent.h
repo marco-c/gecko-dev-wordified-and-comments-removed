@@ -1272,7 +1272,10 @@ mNPNIface
 ;
 nsDataHashtable
 <
-nsVoidPtrHashKey
+nsPtrHashKey
+<
+void
+>
 PluginIdentifierParent
 *
 >
