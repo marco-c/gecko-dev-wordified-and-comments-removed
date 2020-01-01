@@ -13496,6 +13496,15 @@ endif
 if
 (
 deleteTempFileOnExit
+|
+|
+nsDownloadManager
+:
+:
+gDownloadManagerService
+-
+>
+mInPrivateBrowsing
 )
 {
 nsCOMPtr

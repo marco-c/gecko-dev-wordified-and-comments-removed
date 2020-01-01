@@ -302,6 +302,16 @@ aExists
 =
 0
 ;
+PRBool
+InPrivateBrowsing
+(
+)
+const
+{
+return
+mInPrivateBrowsing
+;
+}
 protected
 :
 NS_HIDDEN_
