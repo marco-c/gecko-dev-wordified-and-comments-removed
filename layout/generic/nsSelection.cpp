@@ -16868,14 +16868,6 @@ return
 NS_OK
 ;
 presShell
--
->
-FlushPendingNotifications
-(
-Flush_Frames
-)
-;
-presShell
 =
 aPresContext
 -

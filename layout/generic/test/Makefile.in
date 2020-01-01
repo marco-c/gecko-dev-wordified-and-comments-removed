@@ -665,6 +665,10 @@ test_bug514732
 .
 html
 \
+test_bug527306
+.
+html
+\
 test_movement_by_characters
 .
 html
