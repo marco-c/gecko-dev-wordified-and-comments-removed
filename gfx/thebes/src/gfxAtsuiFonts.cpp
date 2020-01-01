@@ -4274,7 +4274,7 @@ SetMissing
 }
 static
 void
-DisableLigaturesInStyle
+DisableOptionalLigaturesInStyle
 (
 ATSUStyle
 aStyle
@@ -4284,11 +4284,9 @@ static
 ATSUFontFeatureType
 selectors
 [
-9
 ]
 =
 {
-kRequiredLigaturesOffSelector
 kCommonLigaturesOffSelector
 kRareLigaturesOffSelector
 kLogosOffSelector
@@ -4310,7 +4308,6 @@ selectors
 ]
 =
 {
-kLigaturesType
 kLigaturesType
 kLigaturesType
 kLigaturesType
@@ -4598,7 +4595,7 @@ GetFlags
 (
 )
 &
-TEXT_DISABLE_LIGATURES
+TEXT_DISABLE_OPTIONAL_LIGATURES
 )
 {
 status
@@ -4625,7 +4622,7 @@ AppendElement
 mainStyle
 )
 ;
-DisableLigaturesInStyle
+DisableOptionalLigaturesInStyle
 (
 mainStyle
 )

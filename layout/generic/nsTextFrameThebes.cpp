@@ -5331,7 +5331,7 @@ return
 }
 static
 PRBool
-ShouldDisableLigatures
+ShouldDisableOptionalLigatures
 (
 const
 nsStyleText
@@ -5559,13 +5559,13 @@ GetStyleVisibility
 mLangGroup
 &
 &
-ShouldDisableLigatures
+ShouldDisableOptionalLigatures
 (
 textStyle1
 )
 =
 =
-ShouldDisableLigatures
+ShouldDisableOptionalLigatures
 (
 sc2
 -
@@ -7730,7 +7730,7 @@ TEXT_TRAILING_WHITESPACE
 }
 if
 (
-ShouldDisableLigatures
+ShouldDisableOptionalLigatures
 (
 firstFrame
 -
@@ -7747,7 +7747,7 @@ textFlags
 gfxTextRunFactory
 :
 :
-TEXT_DISABLE_LIGATURES
+TEXT_DISABLE_OPTIONAL_LIGATURES
 ;
 }
 gfxSkipChars
