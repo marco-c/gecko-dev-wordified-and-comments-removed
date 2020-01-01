@@ -4040,13 +4040,6 @@ getResultNode
 (
 )
 ;
-var
-wasOpen
-=
-resultNode
-.
-containerOpen
-;
 resultNode
 .
 containerOpen
