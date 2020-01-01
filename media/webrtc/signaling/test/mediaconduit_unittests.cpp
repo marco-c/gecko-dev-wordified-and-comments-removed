@@ -48,6 +48,13 @@ h
 #
 include
 "
+nsIEventTarget
+.
+h
+"
+#
+include
+"
 nsStaticComponents
 .
 h
