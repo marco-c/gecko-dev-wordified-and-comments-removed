@@ -587,6 +587,12 @@ EXTRA_DSO_LDOPTS
 (
 MOZ_GTK2_LIBS
 )
+(
+XLDFLAGS
+)
+(
+XLIBS
+)
 endif
 install
 -
