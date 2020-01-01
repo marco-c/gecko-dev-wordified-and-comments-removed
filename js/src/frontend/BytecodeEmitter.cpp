@@ -31691,7 +31691,7 @@ pn_kid1
 )
 )
 return
-JS_FALSE
+false
 ;
 ptrdiff_t
 noteIndex
@@ -31710,7 +31710,7 @@ noteIndex
 0
 )
 return
-JS_FALSE
+false
 ;
 ptrdiff_t
 beq
@@ -31742,7 +31742,7 @@ pn_kid2
 )
 )
 return
-JS_FALSE
+false
 ;
 ptrdiff_t
 jmp
@@ -31762,7 +31762,7 @@ jmp
 0
 )
 return
-JS_FALSE
+false
 ;
 CHECK_AND_SET_JUMP_OFFSET_AT
 (
@@ -31802,7 +31802,7 @@ pn_kid3
 )
 )
 return
-JS_FALSE
+false
 ;
 CHECK_AND_SET_JUMP_OFFSET_AT
 (
@@ -31811,9 +31811,7 @@ bce
 jmp
 )
 ;
-if
-(
-!
+return
 SetSrcNoteOffset
 (
 cx
@@ -31824,12 +31822,6 @@ jmp
 -
 beq
 )
-)
-return
-JS_FALSE
-;
-return
-true
 ;
 }
 JSBool
