@@ -40,10 +40,6 @@ JSObject
 *
 obj
 \
-JSObject
-*
-callee
-\
 _interface
 *
 *
@@ -80,7 +76,6 @@ castNativeFromWrapper
 (
 cx
 obj
-callee
 _bit
 \
 pThisRef
@@ -343,9 +338,6 @@ cx
 JSObject
 *
 obj
-JSObject
-*
-callee
 nsGenericElement
 *
 *
@@ -381,7 +373,6 @@ nsIContent
 (
 cx
 obj
-callee
 &
 content
 pThisRef
