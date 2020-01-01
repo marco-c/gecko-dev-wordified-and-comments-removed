@@ -2319,6 +2319,9 @@ HandleToken
 CToken
 *
 aToken
+nsIParser
+*
+aParser
 )
 {
 if
