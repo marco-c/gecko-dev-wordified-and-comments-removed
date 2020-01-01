@@ -14166,12 +14166,15 @@ NS_ERROR_DOM_SECURITY_ERR
 }
 if
 (
+!
+(
 flags
 &
 nsIDOMCanvasRenderingContext2D
 :
 :
 DRAWWINDOW_DO_NOT_FLUSH
+)
 )
 FlushLayoutForTree
 (
