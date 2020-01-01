@@ -1995,13 +1995,6 @@ self
 =
 this
 ;
-var
-tabbox
-=
-gBrowser
-.
-mTabBox
-;
 gWindow
 .
 addEventListener
