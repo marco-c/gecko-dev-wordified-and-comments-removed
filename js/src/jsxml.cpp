@@ -37677,7 +37677,7 @@ tmp
 tmp
 -
 >
-getParentOrScopeChain
+scopeChain
 (
 )
 )
@@ -38824,7 +38824,7 @@ obj
 obj
 -
 >
-getParentOrScopeChain
+scopeChain
 (
 )
 )

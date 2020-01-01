@@ -1411,7 +1411,7 @@ while
 parent
 -
 >
-isScope
+isInternalScope
 (
 )
 )
@@ -1420,7 +1420,7 @@ parent
 parent
 -
 >
-getParentMaybeScope
+scopeChain
 (
 )
 ;

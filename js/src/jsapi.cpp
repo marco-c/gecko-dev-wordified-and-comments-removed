@@ -14342,6 +14342,17 @@ JSObject
 obj
 )
 {
+JS_ASSERT
+(
+!
+obj
+-
+>
+isInternalScope
+(
+)
+)
+;
 assertSameCompartment
 (
 cx
@@ -14385,7 +14396,7 @@ JS_ASSERT
 obj
 -
 >
-isScope
+isInternalScope
 (
 )
 )
@@ -21350,7 +21361,7 @@ obj
 obj
 -
 >
-getParentOrScopeChain
+scopeChain
 (
 )
 ;

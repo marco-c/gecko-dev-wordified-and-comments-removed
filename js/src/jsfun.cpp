@@ -3413,7 +3413,7 @@ if
 envobj
 -
 >
-setScopeChain
+setInternalScopeChain
 (
 cx
 &
@@ -4272,7 +4272,7 @@ env
 =
 callobj
 .
-scopeChain
+internalScopeChain
 (
 )
 ;

@@ -1459,12 +1459,9 @@ JSContext
 *
 cx
 const
-js
-:
-:
-Shape
+BaseShape
 &
-child
+base
 Shape
 *
 *

@@ -11032,7 +11032,7 @@ obj2
 obj2
 -
 >
-scopeChain
+internalScopeChain
 (
 )
 ;
@@ -11096,7 +11096,7 @@ parent
 parent
 -
 >
-getParentOrScopeChain
+scopeChain
 (
 )
 )

@@ -600,7 +600,7 @@ env
 =
 obj
 .
-scopeChain
+internalScopeChain
 (
 )
 ;

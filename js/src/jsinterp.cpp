@@ -1154,7 +1154,7 @@ limitClone
 limitClone
 -
 >
-scopeChain
+internalScopeChain
 (
 )
 ;
@@ -1287,7 +1287,7 @@ if
 newChild
 -
 >
-setScopeChain
+setInternalScopeChain
 (
 cx
 clone
@@ -1307,7 +1307,7 @@ if
 newChild
 -
 >
-setScopeChain
+setInternalScopeChain
 (
 cx
 &
@@ -5821,7 +5821,7 @@ setScopeChainNoCallObj
 withobj
 -
 >
-scopeChain
+internalScopeChain
 (
 )
 )
@@ -10777,7 +10777,7 @@ obj
 obj
 -
 >
-getParentOrScopeChain
+scopeChain
 (
 )
 )
@@ -28434,7 +28434,7 @@ obj2
 obj2
 -
 >
-scopeChain
+internalScopeChain
 (
 )
 ;
@@ -28502,7 +28502,7 @@ parent
 parent
 -
 >
-getParentOrScopeChain
+scopeChain
 (
 )
 )

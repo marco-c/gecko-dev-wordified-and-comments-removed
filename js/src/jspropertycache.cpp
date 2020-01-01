@@ -162,7 +162,7 @@ tmp
 tmp
 -
 >
-scopeChain
+internalScopeChain
 (
 )
 ;
@@ -934,7 +934,7 @@ tmp
 pobj
 -
 >
-scopeChain
+internalScopeChain
 (
 )
 ;

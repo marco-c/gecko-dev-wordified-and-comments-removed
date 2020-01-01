@@ -180,7 +180,7 @@ global
 obj
 -
 >
-getParentMaybeScope
+getParent
 (
 )
 )
@@ -190,7 +190,7 @@ JS_ASSERT
 obj
 -
 >
-getParentMaybeScope
+getParent
 (
 )
 =
@@ -318,7 +318,7 @@ if
 obj
 -
 >
-setScopeChain
+setInternalScopeChain
 (
 cx
 &

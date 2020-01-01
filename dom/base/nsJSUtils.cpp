@@ -22,13 +22,6 @@ h
 #
 include
 "
-jsfriendapi
-.
-h
-"
-#
-include
-"
 prprf
 .
 h
@@ -288,11 +281,9 @@ nsnull
 ;
 glob
 =
-js
-:
-:
-GetObjectGlobal
+JS_GetGlobalForObject
 (
+aContext
 glob
 )
 ;

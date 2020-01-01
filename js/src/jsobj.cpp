@@ -4377,7 +4377,7 @@ o
 o
 -
 >
-getParentOrScopeChain
+scopeChain
 (
 )
 )
@@ -17673,7 +17673,7 @@ if
 obj
 -
 >
-setScopeChain
+setInternalScopeChain
 (
 cx
 parent
@@ -17968,7 +17968,7 @@ global
 clone
 -
 >
-getParentMaybeScope
+getParent
 (
 )
 )
@@ -17978,7 +17978,7 @@ JS_ASSERT
 clone
 -
 >
-getParentMaybeScope
+getParent
 (
 )
 =
@@ -18313,7 +18313,7 @@ setScopeChainNoCallObj
 obj
 -
 >
-scopeChain
+internalScopeChain
 (
 )
 )
@@ -26191,7 +26191,7 @@ obj
 obj
 -
 >
-getParentOrScopeChain
+scopeChain
 (
 )
 )
@@ -28009,7 +28009,7 @@ parent
 obj
 -
 >
-getParentOrScopeChain
+scopeChain
 (
 )
 ;
@@ -28224,7 +28224,7 @@ parent
 obj
 -
 >
-getParentOrScopeChain
+scopeChain
 (
 )
 ;
@@ -28280,7 +28280,7 @@ parent
 obj
 -
 >
-getParentOrScopeChain
+scopeChain
 (
 )
 ;
@@ -28495,7 +28495,7 @@ JS_ASSERT_IF
 obj
 -
 >
-isScope
+isInternalScope
 (
 )
 pobj
@@ -28555,7 +28555,7 @@ parent
 obj
 -
 >
-getParentOrScopeChain
+scopeChain
 (
 )
 ;
@@ -28614,7 +28614,7 @@ parent
 obj
 -
 >
-getParentOrScopeChain
+scopeChain
 (
 )
 ;
@@ -37299,7 +37299,7 @@ ObjectOrNullValue
 obj
 -
 >
-getParentMaybeScope
+getParent
 (
 )
 )

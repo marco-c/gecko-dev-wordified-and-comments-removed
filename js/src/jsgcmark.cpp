@@ -3373,7 +3373,7 @@ parent
 obj
 -
 >
-getParentMaybeScope
+getParent
 (
 )
 )
@@ -3758,7 +3758,7 @@ parent
 obj
 -
 >
-getParentMaybeScope
+getParent
 (
 )
 )

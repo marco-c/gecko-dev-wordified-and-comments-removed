@@ -26354,7 +26354,7 @@ scope
 scope
 -
 >
-scopeChain
+internalScopeChain
 (
 )
 ;
@@ -26463,7 +26463,7 @@ parent
 scope
 -
 >
-scopeChain
+internalScopeChain
 (
 )
 )
@@ -26928,7 +26928,7 @@ scope
 scope
 -
 >
-scopeChain
+internalScopeChain
 (
 )
 ;
@@ -26985,7 +26985,7 @@ scope
 scope
 -
 >
-scopeChain
+internalScopeChain
 (
 )
 ;
