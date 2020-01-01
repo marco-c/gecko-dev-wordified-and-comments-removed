@@ -1120,9 +1120,9 @@ bundle
 .
 getFormattedString
 (
-pref
+autoStart
 .
-value
+checked
 ?
 "
 featureEnableRequiresRestart
