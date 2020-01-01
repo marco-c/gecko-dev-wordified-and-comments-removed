@@ -5342,6 +5342,7 @@ JSOPTION_UNROOTED_GLOBAL
 MarkObjectRoot
 (
 trc
+&
 globalObject
 "
 global

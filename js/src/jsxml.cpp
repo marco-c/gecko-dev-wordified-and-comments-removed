@@ -3902,8 +3902,8 @@ root
 MarkXML
 (
 trc
+&
 (
-const
 HeapPtr
 <
 JSXML
@@ -3958,8 +3958,8 @@ root
 MarkObject
 (
 trc
+&
 (
-const
 HeapPtr
 <
 JSObject
@@ -36688,6 +36688,7 @@ object
 MarkObject
 (
 trc
+&
 xml
 -
 >
@@ -36707,6 +36708,7 @@ name
 MarkObject
 (
 trc
+&
 xml
 -
 >
@@ -36726,6 +36728,7 @@ parent
 MarkXML
 (
 trc
+&
 xml
 -
 >
@@ -36753,6 +36756,7 @@ xml_value
 MarkString
 (
 trc
+&
 xml
 -
 >
@@ -36817,6 +36821,7 @@ xml_target
 MarkXML
 (
 trc
+&
 xml
 -
 >
@@ -36836,6 +36841,7 @@ xml_targetprop
 MarkObject
 (
 trc
+&
 xml
 -
 >
@@ -39608,6 +39614,7 @@ list
 MarkXML
 (
 trc
+&
 filter
 -
 >
@@ -39627,6 +39634,7 @@ result
 MarkXML
 (
 trc
+&
 filter
 -
 >
@@ -39646,6 +39654,7 @@ kid
 MarkXML
 (
 trc
+&
 filter
 -
 >

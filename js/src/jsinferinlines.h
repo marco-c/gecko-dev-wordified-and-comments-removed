@@ -3436,6 +3436,7 @@ gc
 MarkObject
 (
 trc
+&
 global
 "
 script_global
@@ -6483,6 +6484,7 @@ comp
 barrierTracer
 (
 )
+&
 newScript
 -
 >

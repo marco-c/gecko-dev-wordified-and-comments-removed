@@ -414,7 +414,6 @@ str
 MarkString
 (
 trc
-*
 str
 "
 prop
@@ -428,6 +427,7 @@ obj
 MarkObject
 (
 trc
+&
 obj
 "
 obj

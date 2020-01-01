@@ -470,12 +470,11 @@ Mark
 JSTracer
 *
 trc
-const
 HeapPtr
 <
 T
 >
-&
+*
 thing
 const
 char
@@ -493,7 +492,8 @@ MarkInternal
 (
 trc
 thing
-.
+-
+>
 get
 (
 )
@@ -514,7 +514,8 @@ JSTracer
 trc
 T
 *
-thing
+*
+thingp
 const
 char
 *
@@ -530,7 +531,8 @@ name
 MarkInternal
 (
 trc
-thing
+*
+thingp
 )
 ;
 }
@@ -680,12 +682,11 @@ base
 JSTracer
 *
 trc
-const
 HeapPtr
 <
 type
 >
-&
+*
 thing
 const
 char
@@ -724,7 +725,8 @@ JSTracer
 trc
 type
 *
-thing
+*
+thingp
 const
 char
 *
@@ -739,7 +741,7 @@ type
 >
 (
 trc
-thing
+thingp
 name
 )
 ;
@@ -1627,13 +1629,12 @@ MarkShape
 JSTracer
 *
 trc
-const
 HeapPtr
 <
 const
 Shape
 >
-&
+*
 thing
 const
 char
@@ -1657,7 +1658,8 @@ Shape
 >
 (
 thing
-.
+-
+>
 get
 (
 )
@@ -3040,6 +3042,7 @@ obj
 MarkTypeObject
 (
 trc
+&
 obj
 -
 >
@@ -3590,7 +3593,6 @@ MarkChildren
 JSTracer
 *
 trc
-const
 Shape
 *
 shape
@@ -3636,10 +3638,11 @@ previous
 MarkShape
 (
 trc
+&
 shape
 -
 >
-previous
+previousRef
 (
 )
 "
@@ -4200,6 +4203,7 @@ proto
 MarkObject
 (
 trc
+&
 type
 -
 >
@@ -4228,6 +4232,7 @@ lazy
 MarkObject
 (
 trc
+&
 type
 -
 >
@@ -4248,6 +4253,7 @@ newScript
 MarkObject
 (
 trc
+&
 type
 -
 >
@@ -4263,6 +4269,7 @@ type_new_function
 MarkShape
 (
 trc
+&
 type
 -
 >
@@ -4286,6 +4293,7 @@ interpretedFunction
 MarkObject
 (
 trc
+&
 type
 -
 >

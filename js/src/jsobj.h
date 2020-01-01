@@ -3022,7 +3022,6 @@ return
 type_
 ;
 }
-const
 js
 :
 :
@@ -3040,7 +3039,6 @@ TypeObject
 typeFromGC
 (
 )
-const
 {
 return
 type_
