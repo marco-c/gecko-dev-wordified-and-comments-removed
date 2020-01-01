@@ -5068,9 +5068,14 @@ size
 0
 )
 {
+MOZ_ASSERT
+(
+fileIndex
+)
+;
 while
 (
-1
+fileIndex
 )
 {
 uint32_t
