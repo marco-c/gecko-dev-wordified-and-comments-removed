@@ -118,7 +118,7 @@ const
 aUrl
 )
 {
-NS_ENSURE_FALSE
+NS_ENSURE_FALSE_VOID
 (
 aUrl
 .
@@ -209,7 +209,7 @@ SegmentBase
 aBase
 )
 {
-NS_ENSURE_TRUE
+NS_ENSURE_TRUE_VOID
 (
 aBase
 )

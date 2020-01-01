@@ -575,7 +575,7 @@ NS_LITERAL_STRING
 nsAutoString
 tagName
 ;
-NS_ENSURE_SUCCESS
+NS_ENSURE_SUCCESS_VOID
 (
 aElem
 -
@@ -607,7 +607,7 @@ nsIDOMNamedNodeMap
 >
 attributes
 ;
-NS_ENSURE_SUCCESS
+NS_ENSURE_SUCCESS_VOID
 (
 aElem
 -
@@ -624,7 +624,7 @@ attributes
 uint32_t
 count
 ;
-NS_ENSURE_SUCCESS
+NS_ENSURE_SUCCESS_VOID
 (
 attributes
 -
@@ -667,7 +667,7 @@ nsIDOMNode
 >
 node
 ;
-NS_ENSURE_SUCCESS
+NS_ENSURE_SUCCESS_VOID
 (
 attributes
 -
@@ -685,7 +685,7 @@ node
 nsAutoString
 nodeName
 ;
-NS_ENSURE_SUCCESS
+NS_ENSURE_SUCCESS_VOID
 (
 node
 -
@@ -704,7 +704,7 @@ nodeName
 nsAutoString
 nodeValue
 ;
-NS_ENSURE_SUCCESS
+NS_ENSURE_SUCCESS_VOID
 (
 node
 -
@@ -778,7 +778,7 @@ nsIDOMElement
 >
 child
 ;
-NS_ENSURE_SUCCESS
+NS_ENSURE_SUCCESS_VOID
 (
 aElem
 -
@@ -803,7 +803,7 @@ child
 offset
 )
 ;
-NS_ENSURE_SUCCESS
+NS_ENSURE_SUCCESS_VOID
 (
 child
 -
@@ -830,7 +830,7 @@ nsIDOMElement
 aRoot
 )
 {
-NS_ENSURE_TRUE
+NS_ENSURE_TRUE_VOID
 (
 aRoot
 )
@@ -838,7 +838,7 @@ aRoot
 DASHMPDProfile
 profile
 ;
-NS_ENSURE_SUCCESS
+NS_ENSURE_SUCCESS_VOID
 (
 GetProfile
 (

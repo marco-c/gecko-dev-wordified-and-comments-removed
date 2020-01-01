@@ -98,7 +98,7 @@ const
 aMIMEType
 )
 {
-NS_ENSURE_FALSE
+NS_ENSURE_FALSE_VOID
 (
 aMIMEType
 .
@@ -155,7 +155,7 @@ Representation
 aRep
 )
 {
-NS_ENSURE_TRUE
+NS_ENSURE_TRUE_VOID
 (
 aRep
 )

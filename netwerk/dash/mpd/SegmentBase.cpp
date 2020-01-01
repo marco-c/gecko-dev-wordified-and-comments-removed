@@ -33,12 +33,12 @@ aEndBytes
 )
 const
 {
-NS_ENSURE_TRUE
+NS_ENSURE_TRUE_VOID
 (
 aStartBytes
 )
 ;
-NS_ENSURE_TRUE
+NS_ENSURE_TRUE_VOID
 (
 aEndBytes
 )
@@ -69,12 +69,12 @@ aEndBytes
 )
 const
 {
-NS_ENSURE_TRUE
+NS_ENSURE_TRUE_VOID
 (
 aStartBytes
 )
 ;
-NS_ENSURE_TRUE
+NS_ENSURE_TRUE_VOID
 (
 aEndBytes
 )
@@ -148,7 +148,7 @@ int64_t
 aEnd
 )
 {
-NS_ENSURE_TRUE
+NS_ENSURE_TRUE_VOID
 (
 !
 aRangeStr
@@ -227,7 +227,7 @@ ToInteger64
 rv
 )
 ;
-NS_ENSURE_SUCCESS
+NS_ENSURE_SUCCESS_VOID
 (
 rv
 )
@@ -250,7 +250,7 @@ ToInteger64
 rv
 )
 ;
-NS_ENSURE_SUCCESS
+NS_ENSURE_SUCCESS_VOID
 (
 rv
 )

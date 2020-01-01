@@ -1869,7 +1869,7 @@ nsMappedAttributes
 aMapped
 )
 {
-NS_ENSURE_TRUE
+NS_ENSURE_TRUE_VOID
 (
 aMapped
 )

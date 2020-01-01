@@ -5379,7 +5379,7 @@ mSwitchingCluster
 return
 ;
 }
-NS_ENSURE_TRUE
+NS_ENSURE_TRUE_VOID
 (
 (
 uint32_t
@@ -5397,12 +5397,12 @@ mSwitchingCluster
 =
 aSubsegmentIdx
 ;
-NS_ENSURE_TRUE
+NS_ENSURE_TRUE_VOID
 (
 aNextReader
 )
 ;
-NS_ENSURE_TRUE
+NS_ENSURE_TRUE_VOID
 (
 aNextReader
 !
@@ -5506,7 +5506,7 @@ mSeekToCluster
 return
 ;
 }
-NS_ENSURE_TRUE
+NS_ENSURE_TRUE_VOID
 (
 aIdx
 <
@@ -5659,7 +5659,7 @@ set
 "
 )
 ;
-NS_ENSURE_TRUE
+NS_ENSURE_TRUE_VOID
 (
 aIdx
 <
@@ -5729,7 +5729,7 @@ aIdx
 mStart
 )
 ;
-NS_ENSURE_TRUE
+NS_ENSURE_TRUE_VOID
 (
 r
 =
