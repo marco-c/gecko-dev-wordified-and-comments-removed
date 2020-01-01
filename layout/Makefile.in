@@ -522,12 +522,6 @@ reftests
 fonts
 /
 mplus
-DIRS
-+
-=
-tools
-/
-pageloader
 ifdef
 MOZ_DEBUG
 DIRS

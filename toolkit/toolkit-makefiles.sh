@@ -5049,13 +5049,6 @@ layout
 /
 tools
 /
-pageloader
-/
-Makefile
-layout
-/
-tools
-/
 reftest
 /
 Makefile
