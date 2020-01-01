@@ -5728,6 +5728,9 @@ after
 destroying
 the
 JSRuntime
+at
+%
+p
 .
 \
 n
@@ -5757,6 +5760,7 @@ finalized
 \
 n
 "
+rt
 )
 ;
 }
@@ -5779,6 +5783,9 @@ after
 destroying
 the
 JSRuntime
+at
+%
+p
 .
 \
 n
@@ -5813,6 +5820,7 @@ unsigned
 long
 )
 leakedroots
+rt
 )
 ;
 }
