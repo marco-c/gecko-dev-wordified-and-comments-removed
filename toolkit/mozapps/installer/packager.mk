@@ -1291,6 +1291,10 @@ update
 .
 locale
 \
+removed
+-
+files
+\
 (
 NULL
 )
