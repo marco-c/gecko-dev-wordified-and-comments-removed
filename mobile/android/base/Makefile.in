@@ -186,6 +186,12 @@ java
 \
 util
 /
+GamepadUtils
+.
+java
+\
+util
+/
 GeckoBackgroundThread
 .
 java
