@@ -102,11 +102,6 @@ dom
 =
 [
 '
-FakeSpeechRecognitionService
-.
-h
-'
-'
 SpeechGrammar
 .
 h
@@ -138,6 +133,13 @@ h
 '
 '
 SpeechStreamListener
+.
+h
+'
+'
+test
+/
+FakeSpeechRecognitionService
 .
 h
 '

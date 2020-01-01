@@ -381,6 +381,8 @@ ipc
 =
 [
 '
+ipc
+/
 BluetoothMessageUtils
 .
 h
