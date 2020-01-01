@@ -5488,6 +5488,15 @@ GetSize
 (
 )
 ;
+if
+(
+docSize
+.
+width
+>
+0
+)
+{
 PRInt32
 percentageOfDocWidth
 =
@@ -5531,6 +5540,7 @@ width
 "
 )
 ;
+}
 }
 }
 if
