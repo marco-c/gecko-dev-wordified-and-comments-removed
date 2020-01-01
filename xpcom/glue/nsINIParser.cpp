@@ -248,9 +248,6 @@ nsILocalFile
 aFile
 )
 {
-nsresult
-rv
-;
 AutoFILE
 fd
 ;
@@ -260,6 +257,7 @@ XP_WIN
 nsAutoString
 path
 ;
+nsresult
 rv
 =
 aFile
@@ -293,8 +291,6 @@ else
 nsCAutoString
 path
 ;
-rv
-=
 aFile
 -
 >
