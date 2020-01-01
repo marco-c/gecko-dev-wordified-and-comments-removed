@@ -120,6 +120,13 @@ h
 #
 include
 "
+Image
+.
+h
+"
+#
+include
+"
 ScriptedNotificationObserver
 .
 h
