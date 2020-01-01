@@ -1159,6 +1159,11 @@ nsIDOMCSS2Properties
 *
 '
 '
+nsIDOMSVGCSS2Properties
+.
+*
+'
+'
 nsIDOMNSCSS2Properties
 .
 *
