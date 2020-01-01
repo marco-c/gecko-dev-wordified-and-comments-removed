@@ -14008,6 +14008,15 @@ function
 (
 )
 {
+#
+ifdef
+MENUBAR_CAN_AUTOHIDE
+updateAppButtonDisplay
+(
+)
+;
+#
+endif
 gNavToolbox
 .
 hidden
@@ -24856,6 +24865,10 @@ updateAppButtonDisplay
 var
 displayAppButton
 =
+!
+gInPrintPreviewMode
+&
+&
 window
 .
 menubar
