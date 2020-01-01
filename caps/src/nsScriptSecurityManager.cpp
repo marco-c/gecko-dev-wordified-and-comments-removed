@@ -6465,7 +6465,7 @@ APP_TYPE_MAIL
 *
 result
 =
-PR_FALSE
+mIsMailJavaScriptEnabled
 ;
 }
 }
@@ -15493,13 +15493,7 @@ temp
 ;
 mIsMailJavaScriptEnabled
 =
-NS_SUCCEEDED
-(
-rv
-)
-&
-&
-temp
+PR_FALSE
 ;
 rv
 =
