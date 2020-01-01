@@ -69,9 +69,6 @@ function
 (
 )
 {
-#
-1
-#
 }
 }
 catch
