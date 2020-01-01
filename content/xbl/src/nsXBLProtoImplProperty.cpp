@@ -96,6 +96,8 @@ const
 PRUnichar
 *
 aReadOnly
+uint32_t
+aLineNumber
 )
 :
 nsXBLProtoImplMember
@@ -166,6 +168,7 @@ if
 (
 aGetter
 )
+{
 AppendGetterText
 (
 nsDependentString
@@ -174,10 +177,17 @@ aGetter
 )
 )
 ;
+SetGetterLineNumber
+(
+aLineNumber
+)
+;
+}
 if
 (
 aSetter
 )
+{
 AppendSetterText
 (
 nsDependentString
@@ -186,6 +196,12 @@ aSetter
 )
 )
 ;
+SetSetterLineNumber
+(
+aLineNumber
+)
+;
+}
 }
 nsXBLProtoImplProperty
 :

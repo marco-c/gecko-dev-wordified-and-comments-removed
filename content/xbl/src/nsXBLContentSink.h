@@ -311,6 +311,8 @@ PRUnichar
 *
 *
 aAtts
+uint32_t
+aLineNumber
 )
 ;
 void
