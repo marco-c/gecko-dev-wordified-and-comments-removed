@@ -6968,8 +6968,6 @@ abstract_surface
 cairo_surface_t
 *
 src
-cairo_content_t
-content
 int
 src_x
 int

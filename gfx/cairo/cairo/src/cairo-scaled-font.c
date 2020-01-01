@@ -8295,15 +8295,6 @@ surface
 base
 )
 ;
-_cairo_debug_check_image_surface_is_defined
-(
-&
-surface
--
->
-base
-)
-;
 scaled_glyph
 -
 >

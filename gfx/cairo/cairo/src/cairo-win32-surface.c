@@ -1611,8 +1611,6 @@ abstract_surface
 cairo_surface_t
 *
 src
-cairo_content_t
-content
 int
 src_x
 int
@@ -1648,12 +1646,10 @@ pattern
 ;
 src_content
 =
+cairo_surface_get_content
+(
 src
--
->
-content
-&
-content
+)
 ;
 new_surface
 =
