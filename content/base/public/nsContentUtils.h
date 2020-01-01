@@ -2851,6 +2851,10 @@ GetViewportInfo
 nsIDocument
 *
 aDocument
+uint32_t
+aDisplayWidth
+uint32_t
+aDisplayHeight
 )
 ;
 static
