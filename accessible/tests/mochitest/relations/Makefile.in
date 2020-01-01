@@ -461,6 +461,10 @@ bug
 _TEST_FILES
 =
 \
+test_embeds
+.
+xul
+\
 test_general
 .
 html
