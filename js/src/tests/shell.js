@@ -162,6 +162,17 @@ var
 EXPECTED
 ;
 function
+testPassesUnlessItThrows
+(
+)
+{
+print
+(
+PASSED
+)
+;
+}
+function
 AddTestCase
 (
 description
