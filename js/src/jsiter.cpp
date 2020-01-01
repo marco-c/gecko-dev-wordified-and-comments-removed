@@ -7066,6 +7066,13 @@ NULL
 }
 #
 endif
+MarkStandardClassInitializedNoProto
+(
+obj
+&
+js_StopIterationClass
+)
+;
 return
 js_InitClass
 (
