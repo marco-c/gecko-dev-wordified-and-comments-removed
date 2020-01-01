@@ -1131,6 +1131,10 @@ plugin_clickToPlayDeny
 .
 html
 \
+plugin_bug744745
+.
+html
+\
 plugin_bug749455
 .
 html
@@ -1244,6 +1248,10 @@ browser_lastAccessedTab
 js
 \
 browser_bug734076
+.
+js
+\
+browser_bug744745
 .
 js
 \
