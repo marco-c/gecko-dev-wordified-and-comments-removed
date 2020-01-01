@@ -10379,6 +10379,10 @@ mUpdatePluginGeometryForFrame
 (
 nsnull
 )
+mDOMGeneration
+(
+0
+)
 mNeedsToUpdatePluginGeometry
 (
 PR_FALSE
