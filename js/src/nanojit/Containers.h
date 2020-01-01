@@ -96,6 +96,11 @@ reset
 (
 )
 ;
+void
+resetAndAlloc
+(
+)
+;
 bool
 setFrom
 (
