@@ -2125,13 +2125,9 @@ JSONObject
 message
 )
 {
-GeckoAppShell
+ThreadUtils
 .
-getMainHandler
-(
-)
-.
-post
+postToUiThread
 (
 new
 Runnable
