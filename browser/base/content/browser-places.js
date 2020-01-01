@@ -5519,6 +5519,9 @@ return
 if
 (
 aURI
+&
+&
+aURI
 .
 equals
 (
