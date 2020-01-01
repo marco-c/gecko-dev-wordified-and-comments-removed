@@ -426,7 +426,7 @@ if
 presContext
 )
 return
-NS_ERROR_FAILURE
+false
 ;
 nscolor
 bgColor
