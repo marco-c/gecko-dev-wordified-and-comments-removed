@@ -10917,6 +10917,14 @@ color
 :
 transparent
 ;
+font
+-
+size
+:
+font_snormal
+!
+important
+;
 }
 #
 appmenu
@@ -10988,7 +10996,7 @@ font
 -
 size
 :
-font_tiny
+font_xxtiny
 ;
 display
 :
