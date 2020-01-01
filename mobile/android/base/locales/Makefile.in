@@ -422,12 +422,12 @@ base
 locales
 include
 (
-DEPTH
+topsrcdir
 )
 /
 config
 /
-autoconf
+config
 .
 mk
 #
