@@ -1,6 +1,10 @@
 include
 protocol
+"
 multiManaged
+.
+ipdl
+"
 ;
 protocol
 multiManager1

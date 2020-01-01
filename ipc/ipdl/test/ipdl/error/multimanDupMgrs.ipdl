@@ -1,6 +1,10 @@
 include
 protocol
+"
 multimanDupMgrsMgr
+.
+ipdl
+"
 ;
 protocol
 multimanDupMgrs
