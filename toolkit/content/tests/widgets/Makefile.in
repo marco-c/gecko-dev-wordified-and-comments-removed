@@ -635,6 +635,10 @@ frame_popupremoving_frame
 .
 xul
 \
+test_position
+.
+xul
+\
 (
 NULL
 )
