@@ -13379,6 +13379,13 @@ append
 None
 )
                     
+newunionvars
+.
+append
+(
+None
+)
+                    
 continue
                 
 pvar
@@ -13834,6 +13841,13 @@ newunion
 in
 newunionvars
 :
+                
+if
+newunion
+is
+None
+:
+continue
                 
 decl
 _
