@@ -1499,3 +1499,14 @@ INSTALL
 ^
 .
 endif
+ifdef
+MOZ_DEBUG
+ifdef
+ENABLE_TESTS
+DEFINES
++
+=
+-
+DENABLE_LAYOUTDEBUG
+endif
+endif
