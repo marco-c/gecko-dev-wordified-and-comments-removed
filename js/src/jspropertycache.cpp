@@ -88,7 +88,9 @@ cx
 runtime
 -
 >
-gcRunning
+isHeapBusy
+(
+)
 )
 ;
 JS_ASSERT_IF

@@ -693,7 +693,9 @@ if
 rt
 -
 >
-gcRunning
+isHeapBusy
+(
+)
 )
 {
 return
@@ -755,7 +757,9 @@ JS_ASSERT
 rt
 -
 >
-gcRunning
+isHeapBusy
+(
+)
 )
 ;
 if
@@ -783,7 +787,9 @@ JS_ASSERT
 rt
 -
 >
-gcRunning
+isHeapBusy
+(
+)
 )
 ;
 JS_ASSERT
@@ -810,7 +816,9 @@ JS_ASSERT
 rt
 -
 >
-gcRunning
+isHeapBusy
+(
+)
 )
 ;
 JS_ASSERT
@@ -1676,7 +1684,9 @@ JS_ASSERT
 rt
 -
 >
-gcRunning
+isHeapBusy
+(
+)
 )
 ;
 PrepareCompartmentForGC

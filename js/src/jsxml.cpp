@@ -4380,7 +4380,9 @@ runtime
 )
 -
 >
-gcRunning
+isHeapBusy
+(
+)
 )
 {
 for

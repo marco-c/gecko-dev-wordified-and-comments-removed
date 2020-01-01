@@ -3374,7 +3374,9 @@ if
 rt
 -
 >
-gcRunning
+isHeapBusy
+(
+)
 )
 dmgc
 .

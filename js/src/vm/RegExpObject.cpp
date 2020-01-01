@@ -1156,7 +1156,9 @@ trc
 runtime
 -
 >
-gcRunning
+isHeapBusy
+(
+)
 &
 &
 IS_GC_MARKING_TRACER

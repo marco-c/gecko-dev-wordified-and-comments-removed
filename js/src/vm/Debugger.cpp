@@ -962,7 +962,9 @@ runtime
 )
 -
 >
-gcRunning
+isHeapBusy
+(
+)
 )
 {
 recompile
@@ -1448,7 +1450,9 @@ compartment
 rt
 -
 >
-gcRunning
+isHeapBusy
+(
+)
 )
 ;
 JS_REMOVE_LINK
