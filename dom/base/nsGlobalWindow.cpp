@@ -341,6 +341,15 @@ h
 #
 include
 "
+mozilla
+/
+Attributes
+.
+h
+"
+#
+include
+"
 nsIFrame
 .
 h
@@ -2240,6 +2249,7 @@ allowPopState
 ;
 class
 nsDOMMozURLProperty
+MOZ_FINAL
 :
 public
 nsIDOMMozURLProperty
@@ -2546,6 +2556,7 @@ NS_OK
 }
 class
 nsGlobalWindowObserver
+MOZ_FINAL
 :
 public
 nsIObserver
@@ -6635,6 +6646,7 @@ WINDOWSTATEHOLDER_IID
 }
 class
 WindowStateHolder
+MOZ_FINAL
 :
 public
 nsISupports

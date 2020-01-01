@@ -25,6 +25,15 @@ nsISmsRequestManager
 .
 h
 "
+#
+include
+"
+mozilla
+/
+Attributes
+.
+h
+"
 namespace
 mozilla
 {
@@ -36,6 +45,7 @@ sms
 {
 class
 SmsRequestManager
+MOZ_FINAL
 :
 nsISmsRequestManager
 {

@@ -25,6 +25,15 @@ nsCOMPtr
 .
 h
 "
+#
+include
+"
+mozilla
+/
+Attributes
+.
+h
+"
 class
 nsIDOMMozSmsMessage
 ;
@@ -42,6 +51,7 @@ sms
 {
 class
 SmsCursor
+MOZ_FINAL
 :
 public
 nsIDOMMozSmsCursor

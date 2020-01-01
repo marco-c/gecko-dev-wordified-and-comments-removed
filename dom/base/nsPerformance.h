@@ -46,6 +46,15 @@ nsAutoPtr
 .
 h
 "
+#
+include
+"
+mozilla
+/
+Attributes
+.
+h
+"
 class
 nsIDocument
 ;
@@ -60,6 +69,7 @@ nsITimedChannel
 ;
 class
 nsPerformanceTiming
+MOZ_FINAL
 :
 public
 nsIDOMPerformanceTiming
@@ -101,6 +111,7 @@ mChannel
 ;
 class
 nsPerformanceNavigation
+MOZ_FINAL
 :
 public
 nsIDOMPerformanceNavigation
@@ -133,6 +144,7 @@ mData
 ;
 class
 nsPerformance
+MOZ_FINAL
 :
 public
 nsIDOMPerformance

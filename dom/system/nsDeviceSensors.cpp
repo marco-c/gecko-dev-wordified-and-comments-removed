@@ -88,6 +88,15 @@ Preferences
 .
 h
 "
+#
+include
+"
+mozilla
+/
+Attributes
+.
+h
+"
 using
 namespace
 mozilla
@@ -126,6 +135,7 @@ NoIndex
 ;
 class
 nsDeviceSensorData
+MOZ_FINAL
 :
 public
 nsIDeviceSensorData

@@ -117,6 +117,15 @@ nsNetUtil
 .
 h
 "
+#
+include
+"
+mozilla
+/
+Attributes
+.
+h
+"
 using
 namespace
 mozilla
@@ -132,6 +141,7 @@ TEMP_TABLE_MAX_AGE
 seconds
 class
 nsReverseStringSQLFunction
+MOZ_FINAL
 :
 public
 mozIStorageFunction
@@ -249,6 +259,7 @@ NS_OK
 }
 class
 nsIsOfflineSQLFunction
+MOZ_FINAL
 :
 public
 mozIStorageFunction

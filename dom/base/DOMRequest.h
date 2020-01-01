@@ -35,6 +35,15 @@ h
 #
 include
 "
+mozilla
+/
+Attributes
+.
+h
+"
+#
+include
+"
 nsCOMPtr
 .
 h
@@ -171,6 +180,7 @@ UnrootResultVal
 ;
 class
 DOMRequestService
+MOZ_FINAL
 :
 public
 nsIDOMRequestService

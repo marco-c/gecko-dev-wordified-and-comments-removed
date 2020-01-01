@@ -11,6 +11,15 @@ nsISmsDatabaseService
 .
 h
 "
+#
+include
+"
+mozilla
+/
+Attributes
+.
+h
+"
 namespace
 mozilla
 {
@@ -22,6 +31,7 @@ sms
 {
 class
 SmsDatabaseService
+MOZ_FINAL
 :
 public
 nsISmsDatabaseService

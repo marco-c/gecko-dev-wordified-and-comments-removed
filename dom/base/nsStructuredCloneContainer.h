@@ -19,6 +19,15 @@ jsapi
 h
 "
 #
+include
+"
+mozilla
+/
+Attributes
+.
+h
+"
+#
 define
 NS_STRUCTUREDCLONECONTAINER_CLASSNAME
 "
@@ -82,6 +91,7 @@ b85f
 }
 class
 nsStructuredCloneContainer
+MOZ_FINAL
 :
 public
 nsIStructuredCloneContainer

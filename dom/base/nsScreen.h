@@ -59,6 +59,15 @@ nsDOMEventTargetHelper
 .
 h
 "
+#
+include
+"
+mozilla
+/
+Attributes
+.
+h
+"
 class
 nsIDocShell
 ;
@@ -168,6 +177,7 @@ private
 :
 class
 FullScreenEventListener
+MOZ_FINAL
 :
 public
 nsIDOMEventListener

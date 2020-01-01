@@ -443,6 +443,15 @@ h
 #
 include
 "
+mozilla
+/
+Attributes
+.
+h
+"
+#
+include
+"
 sampler
 .
 h
@@ -768,6 +777,7 @@ sGCOnMemoryPressure
 ;
 class
 nsMemoryPressureObserver
+MOZ_FINAL
 :
 public
 nsIObserver
@@ -16594,6 +16604,7 @@ NS_OK
 }
 class
 nsJSArgArray
+MOZ_FINAL
 :
 public
 nsIJSArgArray

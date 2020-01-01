@@ -308,6 +308,7 @@ mCreating
 ;
 class
 FinishHelper
+MOZ_FINAL
 :
 public
 nsIRunnable

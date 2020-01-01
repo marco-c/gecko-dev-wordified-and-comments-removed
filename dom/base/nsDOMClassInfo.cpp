@@ -409,6 +409,15 @@ h
 #
 include
 "
+mozilla
+/
+Attributes
+.
+h
+"
+#
+include
+"
 nsIDocShell
 .
 h
@@ -38258,6 +38267,7 @@ _result
 }
 class
 nsPluginProtoChainInstallRunner
+MOZ_FINAL
 :
 public
 nsIRunnable

@@ -26,6 +26,15 @@ nsEvent
 .
 h
 "
+#
+include
+"
+mozilla
+/
+Attributes
+.
+h
+"
 class
 nsGlobalWindow
 ;
@@ -34,6 +43,7 @@ nsIPresShell
 ;
 class
 nsDOMWindowUtils
+MOZ_FINAL
 :
 public
 nsIDOMWindowUtils

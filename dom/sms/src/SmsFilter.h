@@ -31,6 +31,15 @@ Types
 .
 h
 "
+#
+include
+"
+mozilla
+/
+Attributes
+.
+h
+"
 namespace
 mozilla
 {
@@ -42,6 +51,7 @@ sms
 {
 class
 SmsFilter
+MOZ_FINAL
 :
 public
 nsIDOMMozSmsFilter

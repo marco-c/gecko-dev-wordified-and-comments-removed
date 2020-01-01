@@ -56,6 +56,15 @@ nsArenaMemoryStats
 h
 "
 #
+include
+"
+mozilla
+/
+Attributes
+.
+h
+"
+#
 define
 NS_DECL_SIZEOF_EXCLUDING_THIS
 \
@@ -137,6 +146,7 @@ mPropertyTables
 ;
 class
 nsWindowMemoryReporter
+MOZ_FINAL
 :
 public
 nsIMemoryMultiReporter
@@ -160,6 +170,7 @@ private
 :
 class
 GhostURLsReporter
+MOZ_FINAL
 :
 public
 nsIMemoryMultiReporter
@@ -187,6 +198,7 @@ mWindowReporter
 ;
 class
 NumGhostsReporter
+MOZ_FINAL
 :
 public
 nsIMemoryReporter
