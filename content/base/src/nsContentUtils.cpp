@@ -6182,6 +6182,9 @@ param
 )
 |
 |
+#
+ifdef
+MOZ_MEDIA
 (
 aLocalName
 =
@@ -6193,6 +6196,8 @@ source
 )
 |
 |
+#
+endif
 (
 aLocalName
 =
@@ -16055,6 +16060,7 @@ doc
 ;
 NS_ASSERTION
 (
+(
 aChild
 -
 >
@@ -16079,6 +16085,7 @@ aChild
 >
 IsInNativeAnonymousSubtree
 (
+)
 )
 |
 |
