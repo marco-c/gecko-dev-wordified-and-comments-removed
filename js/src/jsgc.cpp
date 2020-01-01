@@ -5579,10 +5579,9 @@ rt
 {
 #
 ifdef
-JS_ARENAMETER
+DEBUG
 JS_DumpArenaStats
 (
-stdout
 )
 ;
 #

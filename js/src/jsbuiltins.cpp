@@ -1819,13 +1819,13 @@ frame
 .
 regs
 ;
-JS_ARENA_RELEASE
-(
-&
 cx
 -
 >
 stackPool
+.
+release
+(
 ifp
 -
 >
