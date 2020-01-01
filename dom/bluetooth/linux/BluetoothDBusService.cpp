@@ -738,7 +738,7 @@ AudioSink
 }
 ;
 static
-nsAutoPtr
+nsRefPtr
 <
 RawDBusConnection
 >
