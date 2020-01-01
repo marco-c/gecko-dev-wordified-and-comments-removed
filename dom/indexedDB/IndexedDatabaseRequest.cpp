@@ -742,6 +742,11 @@ NOT
 NULL
 "
 "
+object_data_key
+NOT
+NULL
+"
+"
 value
 TEXT
 NOT
@@ -861,6 +866,11 @@ NULL
 "
 object_data_id
 INTEGER
+NOT
+NULL
+"
+"
+object_data_key
 NOT
 NULL
 "
