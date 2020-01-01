@@ -284,9 +284,9 @@ KeyedHash
 PRUint32
 aPref
 PRUint32
-aDomain
+aHostKey
 PRUint32
-aKey
+aUserKey
 PRUint32
 *
 aOut
