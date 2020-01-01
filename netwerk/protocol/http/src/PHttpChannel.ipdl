@@ -454,11 +454,7 @@ BLOCK
 /
 include
 protocol
-"
 PNecko
-.
-ipdl
-"
 ;
 include
 "

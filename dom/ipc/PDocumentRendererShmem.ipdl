@@ -421,11 +421,7 @@ BLOCK
 /
 include
 protocol
-"
 PIFrameEmbedding
-.
-ipdl
-"
 ;
 namespace
 mozilla
