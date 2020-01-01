@@ -54,17 +54,6 @@ Details
 ENTITY
 sync
 .
-synchronize
-"
-Enable
-Sync
-"
->
-<
-!
-ENTITY
-sync
-.
 deviceName
 "
 This
