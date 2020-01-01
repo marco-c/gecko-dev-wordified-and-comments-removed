@@ -8,7 +8,7 @@ namespace
 js
 {
 struct
-TreeContext
+Parser
 ;
 namespace
 frontend
@@ -16,9 +16,9 @@ frontend
 bool
 AnalyzeFunctions
 (
-TreeContext
+Parser
 *
-tc
+parser
 )
 ;
 }
