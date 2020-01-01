@@ -237,6 +237,10 @@ nsIDOMGlobalPropertyInitializer
 .
 idl
 \
+nsIDOMGlobalObjectConstructor
+.
+idl
+\
 nsIStructuredCloneContainer
 .
 idl
