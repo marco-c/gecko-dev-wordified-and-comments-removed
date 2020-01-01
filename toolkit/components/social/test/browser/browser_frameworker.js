@@ -856,9 +856,11 @@ http
 :
 /
 /
-foo
+mochi
 .
-bar
+test
+:
+8888
 /
 error
 "
