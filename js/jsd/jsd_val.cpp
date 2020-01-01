@@ -1319,14 +1319,8 @@ JSDValue
 jsdval
 )
 {
-JSContext
-*
+AutoSafeJSContext
 cx
-=
-JSD_GetDefaultJSContext
-(
-jsdc
-)
 ;
 JS
 :
