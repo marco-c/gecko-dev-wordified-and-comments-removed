@@ -244,6 +244,11 @@ id
 "
 panel
 "
+norestorefocus
+=
+"
+true
+"
 onpopupshown
 =
 "
