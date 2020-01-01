@@ -6137,6 +6137,14 @@ rv
 rv
 )
 ;
+widgetBounds
+.
+MoveTo
+(
+0
+0
+)
+;
 NS_ENSURE_TRUE
 (
 popupFrame
