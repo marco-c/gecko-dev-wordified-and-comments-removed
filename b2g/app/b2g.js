@@ -3471,7 +3471,7 @@ update
 .
 auto
 "
-true
+false
 )
 ;
 pref
@@ -3483,7 +3483,7 @@ update
 .
 silent
 "
-true
+false
 )
 ;
 pref
