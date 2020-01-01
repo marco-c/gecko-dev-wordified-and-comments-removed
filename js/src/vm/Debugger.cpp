@@ -132,6 +132,17 @@ h
 #
 include
 "
+gc
+/
+FindSCCs
+-
+inl
+.
+h
+"
+#
+include
+"
 vm
 /
 Stack
@@ -8023,6 +8034,9 @@ gc
 :
 :
 ComponentFinder
+<
+JSCompartment
+>
 &
 finder
 )

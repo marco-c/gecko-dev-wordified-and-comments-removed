@@ -578,6 +578,9 @@ gc
 :
 :
 GraphNodeBase
+<
+JSCompartment
+>
 {
 JSRuntime
 *
@@ -1687,7 +1690,6 @@ purge
 (
 )
 ;
-virtual
 void
 findOutgoingEdges
 (
@@ -1698,6 +1700,9 @@ gc
 :
 :
 ComponentFinder
+<
+JSCompartment
+>
 &
 finder
 )

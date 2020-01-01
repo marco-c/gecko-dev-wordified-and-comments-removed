@@ -1787,7 +1787,7 @@ current
 rt
 -
 >
-gcCompartmentGroup
+gcCurrentCompartmentGroup
 ;
 }
 bool
@@ -1797,10 +1797,8 @@ done
 const
 {
 return
+!
 current
-=
-=
-NULL
 ;
 }
 void
@@ -1818,9 +1816,11 @@ done
 ;
 current
 =
-NextGraphNode
-(
 current
+-
+>
+nextNodeInGroup
+(
 )
 ;
 }

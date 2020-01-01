@@ -3907,11 +3907,11 @@ gcCompartmentGroupIndex
 (
 0
 )
-gcRemainingCompartmentGroups
+gcCompartmentGroups
 (
 NULL
 )
-gcCompartmentGroup
+gcCurrentCompartmentGroup
 (
 NULL
 )

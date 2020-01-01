@@ -2240,11 +2240,11 @@ gcCompartmentGroupIndex
 ;
 JSCompartment
 *
-gcRemainingCompartmentGroups
+gcCompartmentGroups
 ;
 JSCompartment
 *
-gcCompartmentGroup
+gcCurrentCompartmentGroup
 ;
 int
 gcSweepPhase
