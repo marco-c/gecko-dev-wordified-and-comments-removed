@@ -444,8 +444,8 @@ true
 false
 true
 false
-false
-false
+true
+true
 false
 true
 true
@@ -568,6 +568,10 @@ arenaListsToSweep
 FINALIZE_LIMIT
 ]
 ;
+ArenaHeader
+*
+gcShapeArenasToSweep
+;
 public
 :
 ArenaLists
@@ -642,6 +646,10 @@ arenaListsToSweep
 [
 i
 ]
+=
+NULL
+;
+gcShapeArenasToSweep
 =
 NULL
 ;

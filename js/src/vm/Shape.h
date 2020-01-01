@@ -3286,6 +3286,11 @@ const
 #
 endif
 void
+sweep
+(
+)
+;
+void
 finalize
 (
 FreeOp
