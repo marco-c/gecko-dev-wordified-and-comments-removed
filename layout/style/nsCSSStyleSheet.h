@@ -632,6 +632,16 @@ PRUint32
 aReturn
 )
 ;
+NS_IMETHOD_
+(
+nsIURI
+*
+)
+GetOriginalURI
+(
+)
+const
+;
 NS_IMETHOD
 StyleSheetLoaded
 (
