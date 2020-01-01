@@ -5250,6 +5250,10 @@ result
 )
 ;
 }
+NotifyEditorObservers
+(
+)
+;
 return
 result
 ;
@@ -5380,6 +5384,10 @@ result
 )
 ;
 }
+NotifyEditorObservers
+(
+)
+;
 return
 result
 ;

@@ -2705,10 +2705,6 @@ break
 ;
 }
 }
-NotifyEditorObservers
-(
-)
-;
 return
 result
 ;
@@ -2952,10 +2948,6 @@ break
 ;
 }
 }
-NotifyEditorObservers
-(
-)
-;
 return
 result
 ;
