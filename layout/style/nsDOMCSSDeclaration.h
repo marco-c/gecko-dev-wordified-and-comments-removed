@@ -37,9 +37,6 @@ nsIPrincipal
 class
 nsIDocument
 ;
-class
-nsICSSRule
-;
 namespace
 mozilla
 {
@@ -51,6 +48,9 @@ Declaration
 ;
 class
 Loader
+;
+class
+Rule
 ;
 }
 }
@@ -278,7 +278,13 @@ static
 void
 GetCSSParsingEnvironmentForRule
 (
-nsICSSRule
+mozilla
+:
+:
+css
+:
+:
+Rule
 *
 aRule
 CSSParsingEnvironment

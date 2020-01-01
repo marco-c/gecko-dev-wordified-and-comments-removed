@@ -40,9 +40,6 @@ nsCOMPtr
 h
 "
 class
-nsICSSRule
-;
-class
 nsCSSStyleSheet
 ;
 class
@@ -74,6 +71,9 @@ mozilla
 namespace
 css
 {
+class
+Rule
+;
 class
 Declaration
 ;
@@ -281,7 +281,13 @@ nsIPrincipal
 aSheetPrincipal
 nsCOMArray
 <
-nsICSSRule
+mozilla
+:
+:
+css
+:
+:
+Rule
 >
 &
 aResult

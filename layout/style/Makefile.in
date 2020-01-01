@@ -520,10 +520,6 @@ nsICSSPseudoComparator
 .
 h
 \
-nsICSSRule
-.
-h
-\
 nsICSSRuleList
 .
 h
@@ -625,6 +621,10 @@ Loader
 h
 \
 NameSpaceRule
+.
+h
+\
+Rule
 .
 h
 \

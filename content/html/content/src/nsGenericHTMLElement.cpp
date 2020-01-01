@@ -1246,9 +1246,15 @@ nsAttrValue
 eCSSStyleRule
 )
 {
-nsCOMPtr
+nsRefPtr
 <
-nsICSSRule
+mozilla
+:
+:
+css
+:
+:
+Rule
 >
 ruleClone
 =

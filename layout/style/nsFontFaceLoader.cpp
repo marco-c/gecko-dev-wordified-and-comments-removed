@@ -2142,7 +2142,13 @@ GetType
 )
 =
 =
-nsICSSRule
+mozilla
+:
+:
+css
+:
+:
+Rule
 :
 :
 FONT_FACE_RULE

@@ -7,6 +7,10 @@ mozilla_css_GroupRule_h__
 #
 include
 "
+mozilla
+/
+css
+/
 Rule
 .
 h
@@ -104,7 +108,7 @@ public
 void
 AppendStyleRule
 (
-nsICSSRule
+Rule
 *
 aRule
 )
@@ -123,7 +127,7 @@ Count
 )
 ;
 }
-nsICSSRule
+Rule
 *
 GetStyleRuleAt
 (
@@ -135,7 +139,7 @@ const
 typedef
 nsCOMArray
 <
-nsICSSRule
+Rule
 >
 :
 :
@@ -167,7 +171,7 @@ PRUint32
 aIndex
 nsCOMArray
 <
-nsICSSRule
+Rule
 >
 &
 aRules
@@ -176,10 +180,10 @@ aRules
 nsresult
 ReplaceStyleRule
 (
-nsICSSRule
+Rule
 *
 aOld
-nsICSSRule
+Rule
 *
 aNew
 )
@@ -246,7 +250,7 @@ aIndex
 ;
 nsCOMArray
 <
-nsICSSRule
+Rule
 >
 mRules
 ;

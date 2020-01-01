@@ -7,6 +7,10 @@ mozilla_css_ImportRule_h__
 #
 include
 "
+mozilla
+/
+css
+/
 Rule
 .
 h
@@ -120,7 +124,7 @@ const
 virtual
 already_AddRefed
 <
-nsICSSRule
+Rule
 >
 Clone
 (
