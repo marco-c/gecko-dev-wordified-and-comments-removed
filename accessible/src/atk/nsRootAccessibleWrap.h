@@ -30,6 +30,11 @@ AtkObject
 aAccessible
 )
 ;
+~
+nsNativeRootAccessibleWrap
+(
+)
+;
 }
 ;
 #
