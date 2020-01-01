@@ -13,7 +13,7 @@ stability
 "
 :
 "
-unstable
+stable
 "
 }
 ;
