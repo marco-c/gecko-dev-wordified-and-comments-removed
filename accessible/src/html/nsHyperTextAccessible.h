@@ -714,7 +714,7 @@ aHTOffset
 nsresult
 GetSpellTextAttribute
 (
-nsIDOMNode
+nsINode
 *
 aNode
 PRInt32
