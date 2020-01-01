@@ -11853,6 +11853,7 @@ NamespaceID
 (
 )
 nodeInfo
+PR_FALSE
 )
 ;
 NS_ENSURE_SUCCESS
@@ -21270,6 +21271,7 @@ NS_NewElement
 aResult
 elementType
 nodeInfo
+PR_FALSE
 )
 ;
 }

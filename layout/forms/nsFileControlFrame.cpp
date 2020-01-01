@@ -591,6 +591,7 @@ getter_AddRefs
 mTextContent
 )
 nodeInfo
+PR_FALSE
 )
 ;
 if
@@ -762,6 +763,7 @@ getter_AddRefs
 mBrowse
 )
 nodeInfo
+PR_FALSE
 )
 ;
 if

@@ -2205,6 +2205,7 @@ mOpenedElement
 )
 aElemType
 ni
+PR_FALSE
 )
 ;
 if
@@ -4348,6 +4349,7 @@ NS_NewHTMLElement
 (
 aResult
 ni
+PR_FALSE
 )
 ;
 }

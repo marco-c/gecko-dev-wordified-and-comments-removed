@@ -7244,6 +7244,7 @@ mHScrollbarContent
 )
 kNameSpaceID_XUL
 nodeInfo
+PR_FALSE
 )
 ;
 NS_ENSURE_SUCCESS
@@ -7300,6 +7301,7 @@ mVScrollbarContent
 )
 kNameSpaceID_XUL
 nodeInfo
+PR_FALSE
 )
 ;
 NS_ENSURE_SUCCESS
@@ -7376,6 +7378,7 @@ mScrollCornerContent
 )
 kNameSpaceID_XUL
 nodeInfo
+PR_FALSE
 )
 ;
 NS_ENSURE_SUCCESS

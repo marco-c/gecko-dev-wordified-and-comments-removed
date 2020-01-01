@@ -2197,6 +2197,8 @@ aResult
 nsINodeInfo
 *
 aNodeInfo
+PRBool
+aFromParser
 )
 {
 *
@@ -2318,7 +2320,7 @@ HTMLCaseSensitiveAtomTagToId
 name
 )
 aNodeInfo
-PR_FALSE
+aFromParser
 )
 .
 get
@@ -11980,6 +11982,7 @@ getter_AddRefs
 element
 )
 nodeInfo
+PR_FALSE
 )
 ;
 NS_ENSURE_SUCCESS

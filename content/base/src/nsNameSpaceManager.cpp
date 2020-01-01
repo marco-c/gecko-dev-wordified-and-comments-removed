@@ -906,6 +906,8 @@ aElementType
 nsINodeInfo
 *
 aNodeInfo
+PRBool
+aFromParser
 )
 {
 if
@@ -921,6 +923,7 @@ NS_NewHTMLElement
 (
 aResult
 aNodeInfo
+aFromParser
 )
 ;
 }

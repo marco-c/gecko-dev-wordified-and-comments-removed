@@ -409,6 +409,12 @@ PopContent
 (
 )
 ;
+PRBool
+HaveNotifiedForCurrentContent
+(
+)
+const
+;
 nsresult
 ProcessBASETag
 (

@@ -51,6 +51,8 @@ aElementType
 nsINodeInfo
 *
 aNodeInfo
+PRBool
+aFromParser
 )
 ;
 nsresult
@@ -147,6 +149,8 @@ aResult
 nsINodeInfo
 *
 aNodeInfo
+PRBool
+aFromParser
 )
 ;
 already_AddRefed
