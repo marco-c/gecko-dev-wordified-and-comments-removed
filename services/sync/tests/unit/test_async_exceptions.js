@@ -247,4 +247,12 @@ i
 4
 )
 ;
+do_check_eq
+(
+Async
+.
+outstandingGenerators
+0
+)
+;
 }
