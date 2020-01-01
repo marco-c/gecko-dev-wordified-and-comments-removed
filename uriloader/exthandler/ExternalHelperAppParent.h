@@ -51,7 +51,7 @@ namespace
 dom
 {
 class
-TabParent
+ContentParent
 ;
 class
 ExternalHelperAppParent
@@ -127,7 +127,7 @@ contentLength
 void
 Init
 (
-TabParent
+ContentParent
 *
 parent
 const
