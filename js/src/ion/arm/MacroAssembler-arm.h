@@ -3012,6 +3012,16 @@ bool
 enabled
 )
 ;
+static
+size_t
+ToggledCallSize
+(
+)
+{
+return
+12
+;
+}
 CodeOffsetLabel
 pushWithPatch
 (

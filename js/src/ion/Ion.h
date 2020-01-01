@@ -113,6 +113,9 @@ bool
 parallelCompilation
 ;
 uint32_t
+baselineUsesBeforeCompile
+;
+uint32_t
 usesBeforeCompile
 ;
 uint32_t
@@ -169,6 +172,10 @@ usesBeforeCompileNoJaeger
 =
 0
 ;
+baselineUsesBeforeCompile
+=
+0
+;
 parallelCompilation
 =
 false
@@ -221,6 +228,10 @@ true
 parallelCompilation
 (
 false
+)
+baselineUsesBeforeCompile
+(
+10
 )
 usesBeforeCompile
 (
