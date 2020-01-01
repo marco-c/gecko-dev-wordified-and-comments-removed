@@ -483,6 +483,10 @@ test_create_index
 .
 html
 \
+test_create_index_with_integer_keys
+.
+html
+\
 test_create_objectStore
 .
 html
