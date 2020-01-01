@@ -420,12 +420,6 @@ eStyleUnit_Calc_Times_R
 case
 eStyleUnit_Calc_Divided
 :
-case
-eStyleUnit_Calc_Minimum
-:
-case
-eStyleUnit_Calc_Maximum
-:
 return
 *
 this

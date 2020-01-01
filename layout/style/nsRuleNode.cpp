@@ -1154,12 +1154,6 @@ eCSSUnit_Calc_Times_R
 case
 eCSSUnit_Calc_Divided
 :
-case
-eCSSUnit_Calc_Minimum
-:
-case
-eCSSUnit_Calc_Maximum
-:
 {
 CalcLengthCalcOps
 ops

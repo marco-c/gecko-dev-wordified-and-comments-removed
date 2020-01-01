@@ -341,12 +341,6 @@ eCSSUnit_Calc_Times_R
 eCSSUnit_Calc_Divided
 =
 30
-eCSSUnit_Calc_Minimum
-=
-31
-eCSSUnit_Calc_Maximum
-=
-32
 eCSSUnit_URL
 =
 40
@@ -817,7 +811,7 @@ mUnit
 mUnit
 <
 =
-eCSSUnit_Calc_Maximum
+eCSSUnit_Calc_Divided
 ;
 }
 PRBool
@@ -855,7 +849,7 @@ mUnit
 mUnit
 <
 =
-eCSSUnit_Calc_Maximum
+eCSSUnit_Calc_Divided
 ;
 }
 PRInt32

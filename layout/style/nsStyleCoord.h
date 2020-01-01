@@ -95,12 +95,6 @@ eStyleUnit_Calc_Times_R
 eStyleUnit_Calc_Divided
 =
 44
-eStyleUnit_Calc_Minimum
-=
-45
-eStyleUnit_Calc_Maximum
-=
-46
 }
 ;
 typedef
@@ -282,7 +276,7 @@ mUnit
 mUnit
 <
 =
-eStyleUnit_Calc_Maximum
+eStyleUnit_Calc_Divided
 ;
 }
 PRBool
