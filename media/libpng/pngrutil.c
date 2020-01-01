@@ -19061,15 +19061,6 @@ pass
 =
 0
 ;
-png_ptr
--
->
-flags
-&
-=
-~
-PNG_FLAG_ROW_INIT
-;
 }
 void
 png_read_reinit
