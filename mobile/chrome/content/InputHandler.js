@@ -2049,6 +2049,7 @@ this
 notify
 :
 function
+kineticTimerCallback
 (
 timer
 )
@@ -3588,6 +3589,7 @@ window
 setTimeout
 (
 function
+_clickTimeout
 (
 self
 )
