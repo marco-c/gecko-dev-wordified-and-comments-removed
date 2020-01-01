@@ -142,8 +142,6 @@ enum
 nsParamName
 {
 MAX_CONNECTIONS
-MAX_CONNECTIONS_PER_HOST
-MAX_CONNECTIONS_PER_PROXY
 MAX_PERSISTENT_CONNECTIONS_PER_HOST
 MAX_PERSISTENT_CONNECTIONS_PER_PROXY
 MAX_REQUEST_DELAY
@@ -160,10 +158,6 @@ Init
 (
 PRUint16
 maxConnections
-PRUint16
-maxConnectionsPerHost
-PRUint16
-maxConnectionsPerProxy
 PRUint16
 maxPersistentConnectionsPerHost
 PRUint16
@@ -938,12 +932,6 @@ mSocketThreadTarget
 ;
 PRUint16
 mMaxConns
-;
-PRUint16
-mMaxConnsPerHost
-;
-PRUint16
-mMaxConnsPerProxy
 ;
 PRUint16
 mMaxPersistConnsPerHost

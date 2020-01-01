@@ -2274,6 +2274,8 @@ http
 .
 max
 -
+persistent
+-
 connections
 -
 per
