@@ -315,7 +315,7 @@ void
 GetMimeTypeFromExtension
 (
 const
-nsCString
+nsACString
 &
 aFileExt
 nsCString

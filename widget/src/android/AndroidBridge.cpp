@@ -1872,7 +1872,7 @@ AndroidBridge
 GetMimeTypeFromExtension
 (
 const
-nsCString
+nsACString
 &
 aFileExt
 nsCString
