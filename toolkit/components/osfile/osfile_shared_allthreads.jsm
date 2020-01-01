@@ -148,6 +148,7 @@ let
 defineLazyGetter
 =
 function
+defineLazyGetter
 (
 object
 name
@@ -208,6 +209,16 @@ value
 )
 ;
 }
+;
+exports
+.
+OS
+.
+Shared
+.
+defineLazyGetter
+=
+defineLazyGetter
 ;
 exports
 .
