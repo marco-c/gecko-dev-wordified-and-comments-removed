@@ -4183,6 +4183,12 @@ rv
 NS_IMPL_BOOL_ATTR
 (
 nsHTMLSelectElement
+Autofocus
+autofocus
+)
+NS_IMPL_BOOL_ATTR
+(
+nsHTMLSelectElement
 Disabled
 disabled
 )

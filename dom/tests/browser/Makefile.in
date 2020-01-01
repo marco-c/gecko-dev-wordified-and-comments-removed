@@ -435,6 +435,13 @@ browser_focus_steal_from_chrome
 .
 js
 \
+browser_autofocus_background
+.
+js
+\
+(
+NULL
+)
 libs
 :
 :

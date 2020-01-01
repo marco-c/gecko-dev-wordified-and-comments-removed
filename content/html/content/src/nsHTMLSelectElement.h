@@ -1012,6 +1012,17 @@ VerifyOptionsArray
 ;
 #
 endif
+virtual
+PRBool
+AcceptAutofocus
+(
+)
+const
+{
+return
+PR_TRUE
+;
+}
 nsRefPtr
 <
 nsHTMLOptionCollection
