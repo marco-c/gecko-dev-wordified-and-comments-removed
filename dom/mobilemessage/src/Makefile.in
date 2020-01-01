@@ -194,16 +194,6 @@ topsrcdir
 /
 dom
 /
-telephony
-\
--
-I
-(
-topsrcdir
-)
-/
-dom
-/
 system
 /
 gonk

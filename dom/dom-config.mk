@@ -245,10 +245,6 @@ gonk
 \
 dom
 /
-telephony
-\
-dom
-/
 wifi
 \
 dom
