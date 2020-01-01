@@ -726,6 +726,10 @@ contentType
 .
 sjs
 \
+test_streams_srcObject
+.
+html
+\
 (
 NULL
 )
