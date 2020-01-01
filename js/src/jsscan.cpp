@@ -4252,9 +4252,6 @@ end
 .
 lineno
 =
-(
-uint16
-)
 ts
 -
 >
@@ -4668,9 +4665,6 @@ end
 .
 lineno
 =
-(
-uint16
-)
 ts
 -
 >
@@ -5175,9 +5169,6 @@ end
 .
 lineno
 =
-(
-uint16
-)
 ts
 -
 >
@@ -6748,9 +6739,6 @@ end
 .
 lineno
 =
-(
-uint16
-)
 ts
 -
 >
@@ -7869,9 +7857,6 @@ end
 .
 lineno
 =
-(
-uint16
-)
 ts
 -
 >
