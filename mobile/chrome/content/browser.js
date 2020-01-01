@@ -1560,6 +1560,12 @@ dispatchEvent
 event
 )
 ;
+this
+.
+selectedTab
+=
+nextTab
+;
 tab
 .
 destroy
@@ -1605,12 +1611,6 @@ t
 updateThumbnail
 (
 )
-;
-this
-.
-selectedTab
-=
-nextTab
 ;
 }
 get
