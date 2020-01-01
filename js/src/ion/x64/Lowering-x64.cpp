@@ -1119,7 +1119,7 @@ useRegister
 div
 -
 >
-lhs
+rhs
 (
 )
 )
