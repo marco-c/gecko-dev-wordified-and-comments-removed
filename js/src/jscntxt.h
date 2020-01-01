@@ -294,9 +294,6 @@ cx
 )
 cnt
 )
-#
-ifdef
-JS_TRACER
 namespace
 nanojit
 {
@@ -338,14 +335,9 @@ class
 Seq
 ;
 }
-#
-endif
 namespace
 js
 {
-#
-ifdef
-JS_TRACER
 static
 const
 size_t
@@ -722,8 +714,6 @@ callstack_buf
 }
 }
 ;
-#
-endif
 struct
 GlobalState
 {
@@ -1021,9 +1011,6 @@ saved
 }
 }
 ;
-#
-ifdef
-JS_TRACER
 typedef
 HashMap
 <
@@ -1038,9 +1025,6 @@ jsbytecode
 SystemAllocPolicy
 >
 RecordAttemptMap
-;
-class
-Oracle
 ;
 struct
 TraceMonitor
@@ -1086,10 +1070,6 @@ assembler
 FrameInfoCache
 *
 frameCache
-;
-Oracle
-*
-oracle
 ;
 TraceRecorder
 *
@@ -1185,8 +1165,6 @@ const
 }
 ;
 }
-#
-endif
 #
 ifdef
 JS_TRACER
