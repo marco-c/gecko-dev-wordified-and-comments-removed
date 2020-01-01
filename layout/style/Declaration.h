@@ -707,6 +707,8 @@ aResult
 )
 const
 ;
+public
+:
 nsCSSProperty
 OrderValueAt
 (
@@ -727,6 +729,8 @@ aValue
 )
 ;
 }
+private
+:
 nsAutoTArray
 <
 PRUint8
