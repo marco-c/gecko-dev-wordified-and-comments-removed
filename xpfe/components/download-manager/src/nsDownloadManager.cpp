@@ -181,17 +181,12 @@ nsInt64
 h
 "
 #
-ifdef
-MOZ_XUL_APP
-#
 include
 "
 nsToolkitCompsCID
 .
 h
 "
-#
-endif
 #
 define
 DOWNLOAD_MANAGER_FE_URL
