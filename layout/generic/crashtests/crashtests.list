@@ -102,15 +102,11 @@ load
 .
 html
 asserts
-(
-2
-)
-asserts
 -
 if
 (
 gtk2Widget
-17
+13
 )
 load
 323386
