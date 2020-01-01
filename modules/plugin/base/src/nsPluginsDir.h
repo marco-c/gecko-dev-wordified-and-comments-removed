@@ -40,9 +40,6 @@ PRLibrary
 struct
 nsPluginInfo
 {
-PRUint32
-fPluginInfoSize
-;
 char
 *
 fName
