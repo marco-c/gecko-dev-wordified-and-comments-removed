@@ -2626,17 +2626,6 @@ Mark
 (
 )
 {
-if
-(
-mStyleIfVisited
-)
-mStyleIfVisited
--
->
-Mark
-(
-)
-;
 mRuleNode
 -
 >
