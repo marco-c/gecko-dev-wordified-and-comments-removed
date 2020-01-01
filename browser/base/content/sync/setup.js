@@ -2641,7 +2641,9 @@ value
 =
 Weave
 .
-Clients
+Service
+.
+clientsEngine
 .
 localName
 ;
@@ -5956,7 +5958,9 @@ name
 in
 Weave
 .
-Clients
+Service
+.
+clientsEngine
 .
 stats
 .
@@ -5970,7 +5974,9 @@ name
 =
 Weave
 .
-Clients
+Service
+.
+clientsEngine
 .
 localName
 )

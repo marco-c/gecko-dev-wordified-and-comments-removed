@@ -460,7 +460,9 @@ value
 =
 Weave
 .
-Clients
+Service
+.
+clientsEngine
 .
 localName
 ;
