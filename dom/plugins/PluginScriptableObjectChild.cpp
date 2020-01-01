@@ -3083,14 +3083,11 @@ mObject
 }
 else
 {
-PluginModuleChild
+PluginScriptableObjectChild
 :
 :
-sBrowserFuncs
-.
-releaseobject
+AnswerInvalidate
 (
-mObject
 )
 ;
 }
