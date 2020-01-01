@@ -468,6 +468,12 @@ loc
 "
 line
 "
+"
+Infinity
+"
+"
+NaN
+"
 #
 if
 JS_HAS_XML_SUPPORT
