@@ -88744,8 +88744,9 @@ cx
 str
 -
 >
-chars
+getChars
 (
+cx
 )
 str
 -
