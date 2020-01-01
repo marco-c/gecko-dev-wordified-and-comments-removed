@@ -2172,10 +2172,12 @@ aDoContinue
 nsresult
 RelativizeURIInFragmentList
 (
+const
 nsCOMArray
 <
 nsIDOMNode
 >
+&
 aNodeList
 const
 nsAString
