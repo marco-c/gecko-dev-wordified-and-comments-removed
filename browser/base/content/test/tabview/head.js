@@ -1777,15 +1777,9 @@ observe
 topic
 )
 ;
-executeSoon
-(
-function
-(
-)
 afterAllTabsLoaded
 (
 callback
-)
 )
 ;
 }
