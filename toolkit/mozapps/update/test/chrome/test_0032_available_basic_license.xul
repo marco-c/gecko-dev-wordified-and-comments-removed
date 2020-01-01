@@ -420,9 +420,8 @@ url
 ;
 gAUS
 .
-notify
+checkForBackgroundUpdates
 (
-null
 )
 ;
 }
