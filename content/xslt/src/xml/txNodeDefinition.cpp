@@ -741,7 +741,6 @@ URIUtils
 :
 resolveHref
 (
-*
 baseUrls
 [
 -

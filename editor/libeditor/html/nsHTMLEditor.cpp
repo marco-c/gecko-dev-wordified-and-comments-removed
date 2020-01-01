@@ -17185,7 +17185,7 @@ nsAString
 aURL
 )
 {
-PRInt32
+PRUint32
 foundIndex
 ;
 foundIndex
@@ -17200,8 +17200,11 @@ aURL
 if
 (
 foundIndex
-<
-0
+=
+=
+mStyleSheetURLs
+.
+NoIndex
 )
 return
 NS_ERROR_FAILURE
@@ -17262,7 +17265,7 @@ aStyleSheet
 =
 0
 ;
-PRInt32
+PRUint32
 foundIndex
 ;
 foundIndex
@@ -17277,8 +17280,11 @@ aURL
 if
 (
 foundIndex
-<
-0
+=
+=
+mStyleSheetURLs
+.
+NoIndex
 )
 return
 NS_OK
