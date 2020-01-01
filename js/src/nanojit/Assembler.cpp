@@ -474,6 +474,9 @@ countActive
 )
 )
 ;
+#
+ifdef
+NANOJIT_IA32
 debug_only
 (
 _fpuStkDepth
@@ -481,6 +484,8 @@ _fpuStkDepth
 0
 ;
 )
+#
+endif
 }
 Register
 Assembler
@@ -2761,6 +2766,9 @@ _inExit
 =
 true
 ;
+#
+ifdef
+NANOJIT_IA32
 debug_only
 (
 _sv_fpuStkDepth
@@ -2772,6 +2780,8 @@ _fpuStkDepth
 0
 ;
 )
+#
+endif
 nFragExit
 (
 guard
@@ -3764,6 +3774,9 @@ setCode
 _nIns
 )
 ;
+#
+ifdef
+NANOJIT_IA32
 NanoAssertMsgf
 (
 _fpuStkDepth
@@ -3780,6 +3793,8 @@ n
 _fpuStkDepth
 )
 ;
+#
+endif
 debug_only
 (
 pageValidate
