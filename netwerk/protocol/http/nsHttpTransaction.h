@@ -570,6 +570,9 @@ mPipelinePosition
 PRInt64
 mMaxPipelineObjectSize
 ;
+nsHttpVersion
+mHttpVersion
+;
 bool
 mClosed
 ;
