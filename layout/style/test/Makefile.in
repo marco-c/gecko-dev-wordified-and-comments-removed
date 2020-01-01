@@ -583,6 +583,10 @@ test_bug379741
 .
 html
 \
+test_bug382027
+.
+html
+\
 test_bug383075
 .
 html
