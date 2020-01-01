@@ -2160,6 +2160,15 @@ Destroy
 virtual
 NS_HIDDEN_
 (
+void
+)
+SaveState
+(
+)
+;
+virtual
+NS_HIDDEN_
+(
 already_AddRefed
 <
 nsILayoutHistoryState
@@ -2611,6 +2620,11 @@ mRadioGroups
 ;
 PRPackedBool
 mIsGoingAway
+:
+1
+;
+PRPackedBool
+mSavedState
 :
 1
 ;

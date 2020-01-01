@@ -10962,7 +10962,7 @@ void
 nsGenericHTMLFormElement
 :
 :
-DestroyContent
+SaveSubtreeState
 (
 )
 {
@@ -10973,7 +10973,7 @@ SaveState
 nsGenericHTMLElement
 :
 :
-DestroyContent
+SaveSubtreeState
 (
 )
 ;

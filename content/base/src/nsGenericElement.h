@@ -1116,6 +1116,12 @@ DestroyContent
 (
 )
 ;
+virtual
+void
+SaveSubtreeState
+(
+)
+;
 #
 ifdef
 DEBUG

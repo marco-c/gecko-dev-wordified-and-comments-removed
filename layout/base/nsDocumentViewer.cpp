@@ -4619,7 +4619,7 @@ mSHEntry
 mDocument
 -
 >
-Destroy
+SaveState
 (
 )
 ;
