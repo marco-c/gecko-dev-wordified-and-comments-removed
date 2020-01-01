@@ -61,14 +61,6 @@ MPL
 0
 /
 .
-DIRS
-+
-=
-[
-'
-src
-'
-]
 TEST_DIRS
 +
 =
