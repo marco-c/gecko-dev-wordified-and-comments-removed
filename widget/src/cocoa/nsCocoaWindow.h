@@ -800,6 +800,11 @@ aRect
 )
 ;
 void
+ReportMoveEvent
+(
+)
+;
+void
 ReportSizeEvent
 (
 NSRect
