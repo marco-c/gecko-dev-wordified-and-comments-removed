@@ -1030,7 +1030,7 @@ c
 if
 (
 !
-JS_DefinePropertyWithType
+JS_DefineProperty
 (
 cx
 ctor

@@ -5778,7 +5778,7 @@ runtime
 if
 (
 !
-JS_DefinePropertyWithType
+JS_DefineProperty
 (
 cx
 obj
@@ -5805,7 +5805,7 @@ NULL
 if
 (
 !
-JS_DefinePropertyWithType
+JS_DefineProperty
 (
 cx
 obj

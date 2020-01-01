@@ -3451,7 +3451,7 @@ return
 if
 (
 !
-JS_DefinePropertyWithType
+JS_DefineProperty
 (
 cx
 obj
@@ -25690,7 +25690,7 @@ arguments
 |
 |
 !
-JS_DefinePropertyWithType
+JS_DefineProperty
 (
 cx
 inner
