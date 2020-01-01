@@ -767,10 +767,7 @@ automation
 .
 DEFAULT_APP
 )
-(
 status
-start
-)
 =
 automation
 .

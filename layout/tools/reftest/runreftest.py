@@ -723,10 +723,7 @@ n
 "
 )
     
-(
 status
-start
-)
 =
 automation
 .
@@ -737,9 +734,8 @@ browserEnv
 options
 .
 app
-                                        
 profileDir
-                                        
+                               
 extraArgs
 =
 [
@@ -805,10 +801,7 @@ args
 ]
 )
     
-(
 status
-start
-)
 =
 automation
 .
@@ -819,9 +812,8 @@ browserEnv
 options
 .
 app
-                                        
 profileDir
-                                        
+                               
 extraArgs
 =
 [
