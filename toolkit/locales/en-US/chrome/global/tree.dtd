@@ -1,11 +1,12 @@
 <
 !
 ENTITY
-restoreNaturalOrder
+restoreColumnOrder
 .
 label
 "
 Restore
-Defaults
+Column
+Order
 "
 >
