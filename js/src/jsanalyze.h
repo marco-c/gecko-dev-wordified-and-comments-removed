@@ -1614,6 +1614,10 @@ JSContext
 cx
 jsid
 id
+bool
+localName
+=
+false
 )
 ;
 inline
@@ -1676,6 +1680,8 @@ Variable
 *
 &
 var
+bool
+localName
 )
 ;
 #
