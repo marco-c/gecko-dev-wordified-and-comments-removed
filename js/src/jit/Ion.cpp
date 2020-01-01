@@ -56,7 +56,7 @@ include
 "
 jit
 /
-AsmJSModule
+AliasAnalysis
 .
 h
 "
@@ -65,7 +65,7 @@ include
 "
 jit
 /
-AliasAnalysis
+AsmJSModule
 .
 h
 "

@@ -14,14 +14,14 @@ h
 #
 include
 "
-jsdbgapi
+jsapi
 .
 h
 "
 #
 include
 "
-jsapi
+jsdbgapi
 .
 h
 "

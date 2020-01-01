@@ -32,14 +32,14 @@ h
 #
 include
 "
-jsobj
+jslock
 .
 h
 "
 #
 include
 "
-jslock
+jsobj
 .
 h
 "

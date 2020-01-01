@@ -20,14 +20,14 @@ JS_THREADSAFE
 #
 include
 "
-prthread
+prprf
 .
 h
 "
 #
 include
 "
-prprf
+prthread
 .
 h
 "

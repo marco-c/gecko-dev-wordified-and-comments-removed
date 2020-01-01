@@ -94,14 +94,14 @@ h
 #
 include
 "
-jsobjinlines
+jsinferinlines
 .
 h
 "
 #
 include
 "
-jsinferinlines
+jsobjinlines
 .
 h
 "

@@ -78,14 +78,14 @@ JS_OOM_DO_BACKTRACES
 #
 include
 <
-stdio
+execinfo
 .
 h
 >
 #
 include
 <
-execinfo
+stdio
 .
 h
 >
