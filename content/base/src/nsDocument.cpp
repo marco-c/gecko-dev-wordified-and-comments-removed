@@ -727,12 +727,17 @@ nsFrameLoader
 h
 "
 #
+ifdef
+MOZ_MEDIA
+#
 include
 "
 nsHTMLMediaElement
 .
 h
 "
+#
+endif
 #
 include
 "

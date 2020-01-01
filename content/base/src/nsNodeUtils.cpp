@@ -137,12 +137,17 @@ nsGenericHTMLElement
 h
 "
 #
+ifdef
+MOZ_MEDIA
+#
 include
 "
 nsHTMLMediaElement
 .
 h
 "
+#
+endif
 #
 define
 IMPL_MUTATION_NOTIFICATION
