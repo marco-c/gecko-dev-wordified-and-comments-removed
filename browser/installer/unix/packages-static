@@ -1005,13 +1005,6 @@ bin
 /
 components
 /
-privatebrowsing
-.
-xpt
-bin
-/
-components
-/
 proxyObjInst
 .
 xpt
