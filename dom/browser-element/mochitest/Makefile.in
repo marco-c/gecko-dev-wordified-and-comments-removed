@@ -313,6 +313,14 @@ browserElement_BackForward
 .
 js
 \
+browserElement_Principal
+.
+js
+\
+test_browserElement_inproc_Principal
+.
+html
+\
 (
 NULL
 )
@@ -420,6 +428,10 @@ test_browserElement_oop_SecurityChange
 html
 \
 test_browserElement_oop_BackForward
+.
+html
+\
+test_browserElement_oop_Principal
 .
 html
 \

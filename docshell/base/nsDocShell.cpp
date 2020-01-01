@@ -33736,6 +33736,10 @@ if
 (
 !
 document
+&
+&
+!
+mIsBrowserFrame
 )
 {
 nsCOMPtr
