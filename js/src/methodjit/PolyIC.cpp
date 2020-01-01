@@ -3622,6 +3622,10 @@ if
 (
 !
 proto
+|
+|
+!
+proto
 -
 >
 isNative
