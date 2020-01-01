@@ -255,7 +255,7 @@ pass
 MAX_PASS
 )
 {
-SetTimeout
+setTimeout
 (
 500
 arguments
