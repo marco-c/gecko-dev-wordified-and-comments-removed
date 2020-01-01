@@ -32309,7 +32309,6 @@ this
 .
 _listening
 )
-{
 gDownloadMgr
 .
 removeListener
@@ -32317,7 +32316,6 @@ removeListener
 this
 )
 ;
-}
 }
 updateStatus
 :
