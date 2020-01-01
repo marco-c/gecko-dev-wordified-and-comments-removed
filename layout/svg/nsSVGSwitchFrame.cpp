@@ -289,8 +289,6 @@ not
 an
 SVG
 switch
-\
-n
 "
 )
 ;

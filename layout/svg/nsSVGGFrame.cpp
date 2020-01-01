@@ -123,8 +123,6 @@ doesn
 t
 support
 nsIDOMSVGTransformable
-\
-n
 "
 )
 ;
