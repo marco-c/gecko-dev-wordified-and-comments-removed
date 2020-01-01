@@ -2667,6 +2667,17 @@ void
 aHolder
 )
 ;
+nsresult
+TestJSHolder
+(
+void
+*
+aHolder
+bool
+*
+aRetval
+)
+;
 static
 void
 SuspectWrappedNative
