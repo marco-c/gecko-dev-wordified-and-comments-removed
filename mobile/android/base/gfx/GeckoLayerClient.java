@@ -178,14 +178,6 @@ public
 static
 final
 int
-LAYER_CLIENT_TYPE_SOFTWARE
-=
-1
-;
-public
-static
-final
-int
 LAYER_CLIENT_TYPE_GL
 =
 2

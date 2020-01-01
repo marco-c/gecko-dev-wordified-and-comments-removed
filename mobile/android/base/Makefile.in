@@ -1009,12 +1009,6 @@ java
 \
 gfx
 /
-GeckoSoftwareLayerClient
-.
-java
-\
-gfx
-/
 GLController
 .
 java
