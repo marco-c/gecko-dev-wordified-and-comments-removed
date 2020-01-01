@@ -2340,14 +2340,14 @@ _placesNode
 &
 node
 .
-firstChild
+lastChild
 .
 _placesView
 )
 return
 node
 .
-firstChild
+lastChild
 .
 _placesView
 ;

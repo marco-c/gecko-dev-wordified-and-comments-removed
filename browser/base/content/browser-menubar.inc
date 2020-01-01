@@ -4243,9 +4243,9 @@ accesskey
 ondragenter
 =
 "
-PlacesMenuDNDController
+PlacesMenuDNDHandler
 .
-onBookmarksMenuDragEnter
+onDragEnter
 (
 event
 )
@@ -4254,7 +4254,7 @@ event
 ondragover
 =
 "
-BookmarksMenuDropHandler
+PlacesMenuDNDHandler
 .
 onDragOver
 (
@@ -4265,7 +4265,7 @@ event
 ondrop
 =
 "
-BookmarksMenuDropHandler
+PlacesMenuDNDHandler
 .
 onDrop
 (
