@@ -14,8 +14,14 @@ h
 class
 mozStorageStatement
 ;
+namespace
+mozilla
+{
+namespace
+storage
+{
 class
-mozStorageStatementJSHelper
+StatementJSHelper
 :
 public
 nsIXPCScriptable
@@ -54,5 +60,7 @@ jsval
 ;
 }
 ;
+}
+}
 #
 endif

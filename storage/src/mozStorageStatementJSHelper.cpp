@@ -68,13 +68,12 @@ jsapi
 .
 h
 "
-using
 namespace
 mozilla
-:
-:
+{
+namespace
 storage
-;
+{
 static
 JSBool
 stepFunc
@@ -136,6 +135,8 @@ rv
 )
 )
 {
+:
+:
 JS_ReportError
 (
 aCtx
@@ -265,6 +266,8 @@ rv
 )
 )
 {
+:
+:
 JS_ReportError
 (
 aCtx
@@ -298,7 +301,7 @@ JS_TRUE
 ;
 }
 nsresult
-mozStorageStatementJSHelper
+StatementJSHelper
 :
 :
 getRow
@@ -362,11 +365,12 @@ nsCOMPtr
 mozIStorageStatementRow
 >
 row
-=
+(
 new
-mozStorageStatementRow
+StatementRow
 (
 aStatement
+)
 )
 ;
 NS_ENSURE_TRUE
@@ -464,7 +468,7 @@ NS_OK
 ;
 }
 nsresult
-mozStorageStatementJSHelper
+StatementJSHelper
 :
 :
 getParams
@@ -530,7 +534,7 @@ mozIStorageStatementParams
 params
 =
 new
-mozStorageStatementParams
+StatementParams
 (
 aStatement
 )
@@ -633,7 +637,7 @@ NS_IMETHODIMP_
 (
 nsrefcnt
 )
-mozStorageStatementJSHelper
+StatementJSHelper
 :
 :
 AddRef
@@ -648,7 +652,7 @@ NS_IMETHODIMP_
 (
 nsrefcnt
 )
-mozStorageStatementJSHelper
+StatementJSHelper
 :
 :
 Release
@@ -661,7 +665,7 @@ return
 }
 NS_INTERFACE_MAP_BEGIN
 (
-mozStorageStatementJSHelper
+StatementJSHelper
 )
 NS_INTERFACE_MAP_ENTRY
 (
@@ -675,12 +679,12 @@ NS_INTERFACE_MAP_END
 #
 define
 XPC_MAP_CLASSNAME
-mozStorageStatementJSHelper
+StatementJSHelper
 #
 define
 XPC_MAP_QUOTED_CLASSNAME
 "
-mozStorageStatementJSHelper
+StatementJSHelper
 "
 #
 define
@@ -703,7 +707,7 @@ xpc_map_end
 h
 "
 NS_IMETHODIMP
-mozStorageStatementJSHelper
+StatementJSHelper
 :
 :
 GetProperty
@@ -795,6 +799,8 @@ char
 *
 propName
 =
+:
+:
 JS_GetStringBytes
 (
 JSVAL_TO_STRING
@@ -805,6 +811,8 @@ aId
 ;
 if
 (
+:
+:
 strcmp
 (
 propName
@@ -827,6 +835,8 @@ _result
 ;
 if
 (
+:
+:
 strcmp
 (
 propName
@@ -852,7 +862,7 @@ NS_OK
 ;
 }
 NS_IMETHODIMP
-mozStorageStatementJSHelper
+StatementJSHelper
 :
 :
 NewResolve
@@ -895,6 +905,8 @@ char
 *
 name
 =
+:
+:
 JS_GetStringBytes
 (
 JSVAL_TO_STRING
@@ -905,6 +917,8 @@ aId
 ;
 if
 (
+:
+:
 strcmp
 (
 name
@@ -920,6 +934,8 @@ step
 *
 _retval
 =
+:
+:
 JS_DefineFunction
 (
 aCtx
@@ -950,4 +966,6 @@ NS_OK
 return
 NS_OK
 ;
+}
+}
 }
