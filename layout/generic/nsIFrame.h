@@ -66,13 +66,6 @@ h
 #
 include
 "
-nsStyleStructFwd
-.
-h
-"
-#
-include
-"
 nsHTMLReflowMetrics
 .
 h
