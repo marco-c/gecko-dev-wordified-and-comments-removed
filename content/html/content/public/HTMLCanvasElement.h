@@ -259,10 +259,7 @@ aContextId
 const
 Optional
 <
-JS
-:
-:
-Value
+LazyRootedValue
 >
 &
 aContextOptions
@@ -336,10 +333,7 @@ aType
 const
 Optional
 <
-JS
-:
-:
-Value
+LazyRootedValue
 >
 &
 aParams

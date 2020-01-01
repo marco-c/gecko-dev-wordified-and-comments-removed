@@ -182,7 +182,6 @@ JS
 :
 :
 Value
-&
 aData
 const
 nsAString

@@ -24317,50 +24317,33 @@ isMember
 "
 Dictionary
 "
+or
+not
+isMember
 :
             
 declType
 =
 "
-RootedJSValue
+LazyRootedValue
 "
             
 templateBody
 =
-(
 "
-if
-(
-!
 {
 declName
 }
 .
-SetValue
+construct
 (
 cx
 {
 val
 }
 )
-)
-{
-\
-n
-"
-                            
-"
-return
-false
 ;
-\
-n
 "
-                            
-"
-}
-"
-)
             
 nullHandling
 =
@@ -24369,9 +24352,9 @@ nullHandling
 declName
 }
 .
-SetValue
+construct
 (
-nullptr
+cx
 JS
 :
 :
@@ -24379,11 +24362,10 @@ NullValue
 (
 )
 )
+;
 "
         
 elif
-isMember
-and
 isMember
 !
 =
@@ -62648,6 +62630,7 @@ doGetArgType
 self
 type
 optional
+variadic
 isMember
 )
 :
@@ -63259,13 +63242,33 @@ isAny
 )
 :
             
-return
+if
+optional
+and
+not
+variadic
+:
+                
+declType
+=
+"
+LazyRootedValue
+"
+            
+else
+:
+                
+declType
+=
 "
 JS
 :
 :
 Value
 "
+            
+return
+declType
 False
 False
         
@@ -63456,6 +63459,7 @@ doGetArgType
 (
 type
 optional
+variadic
                                                         
 isMember
 or
