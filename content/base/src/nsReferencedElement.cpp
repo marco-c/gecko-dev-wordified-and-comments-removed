@@ -532,11 +532,8 @@ if
 (
 !
 documentURL
-)
-return
-;
-if
-(
+|
+|
 !
 EqualExceptRef
 (
