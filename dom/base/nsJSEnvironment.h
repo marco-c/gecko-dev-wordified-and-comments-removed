@@ -284,7 +284,7 @@ aTarget
 JSObject
 *
 aScope
-void
+JSObject
 *
 aHandler
 nsIArray
