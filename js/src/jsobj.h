@@ -1385,6 +1385,9 @@ regExpStaticsSize
 size_t
 *
 propertyIteratorDataSize
+size_t
+*
+ctypesDataSize
 )
 const
 ;

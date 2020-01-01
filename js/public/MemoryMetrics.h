@@ -505,6 +505,10 @@ objectsExtraPropertyIteratorData
 (
 0
 )
+objectsExtraCtypesData
+(
+0
+)
 objectsExtraPrivate
 (
 0
@@ -716,6 +720,12 @@ other
 .
 objectsExtraPropertyIteratorData
 )
+objectsExtraCtypesData
+(
+other
+.
+objectsExtraCtypesData
+)
 objectsExtraPrivate
 (
 other
@@ -889,6 +899,9 @@ objectsExtraRegExpStatics
 ;
 size_t
 objectsExtraPropertyIteratorData
+;
+size_t
+objectsExtraCtypesData
 ;
 size_t
 objectsExtraPrivate
@@ -1082,6 +1095,11 @@ objectsExtraRegExpStatics
 ADD
 (
 objectsExtraPropertyIteratorData
+)
+;
+ADD
+(
+objectsExtraCtypesData
 )
 ;
 ADD
