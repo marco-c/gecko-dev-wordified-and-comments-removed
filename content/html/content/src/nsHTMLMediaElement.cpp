@@ -823,6 +823,9 @@ mElement
 =
 nsnull
 ;
+return
+NS_OK
+;
 }
 NS_IMETHODIMP
 nsHTMLMediaElement
