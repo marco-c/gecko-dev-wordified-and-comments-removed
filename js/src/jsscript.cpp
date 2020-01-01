@@ -8991,7 +8991,7 @@ tn
 kind
 =
 =
-JSTN_FINALLY
+JSTRY_FINALLY
 )
 return
 JS_TRUE
@@ -9004,7 +9004,7 @@ tn
 kind
 =
 =
-JSTN_CATCH
+JSTRY_CATCH
 )
 ;
 }

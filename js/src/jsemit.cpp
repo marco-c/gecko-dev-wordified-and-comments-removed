@@ -20490,7 +20490,7 @@ NewTryNote
 (
 cx
 cg
-JSTN_ITER
+JSTRY_ITER
 cg
 -
 >
@@ -21651,7 +21651,7 @@ NewTryNote
 (
 cx
 cg
-JSTN_CATCH
+JSTRY_CATCH
 depth
 tryStart
 tryEnd
@@ -21675,7 +21675,7 @@ NewTryNote
 (
 cx
 cg
-JSTN_FINALLY
+JSTRY_FINALLY
 depth
 tryStart
 finallyStart
