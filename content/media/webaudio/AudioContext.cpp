@@ -502,7 +502,7 @@ aMaxDelayTime
 &
 aMaxDelayTime
 <
-3
+180
 .
 )
 {
