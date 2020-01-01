@@ -38,7 +38,7 @@ healthreport
 .
 serviceEnabled
 "
-false
+true
 )
 ;
 pref
