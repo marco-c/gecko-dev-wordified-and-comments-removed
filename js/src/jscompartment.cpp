@@ -777,7 +777,7 @@ if
 cx
 -
 >
-running
+hasfp
 (
 )
 )
