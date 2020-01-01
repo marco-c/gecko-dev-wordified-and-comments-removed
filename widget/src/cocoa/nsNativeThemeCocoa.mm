@@ -7882,6 +7882,16 @@ kThemeTrackNothingToScroll
 return
 ;
 }
+aTdi
+.
+trackInfo
+.
+scrollbar
+.
+pressState
+=
+0
+;
 /
 /
 Only
