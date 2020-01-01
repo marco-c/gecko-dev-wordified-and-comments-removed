@@ -64,6 +64,13 @@ h
 #
 include
 "
+nsAutoPtr
+.
+h
+"
+#
+include
+"
 imgRequest
 .
 h
@@ -289,8 +296,10 @@ friend
 class
 imgCacheValidator
 ;
+nsRefPtr
+<
 imgRequest
-*
+>
 mOwner
 ;
 imgIDecoderObserver

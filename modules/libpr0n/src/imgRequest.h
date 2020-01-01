@@ -98,7 +98,7 @@ h
 #
 include
 "
-nsVoidArray
+nsTObserverArray
 .
 h
 "
@@ -206,8 +206,6 @@ AddProxy
 imgRequestProxy
 *
 proxy
-PRBool
-aNotify
 )
 ;
 nsresult
@@ -438,7 +436,10 @@ nsIProperties
 >
 mProperties
 ;
-nsAutoVoidArray
+nsTObserverArray
+<
+imgRequestProxy
+>
 mObservers
 ;
 PRPackedBool

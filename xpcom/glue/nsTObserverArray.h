@@ -37,6 +37,7 @@ Iterator_base
 (
 PRInt32
 aPosition
+const
 nsTObserverArray_base
 &
 aArray
@@ -142,6 +143,7 @@ Iterator_base
 *
 mNext
 ;
+const
 nsTObserverArray_base
 &
 mArray
@@ -174,6 +176,7 @@ PRInt32
 aAdjustment
 )
 ;
+mutable
 Iterator_base
 *
 mIterators
@@ -400,6 +403,7 @@ public
 :
 ForwardIterator
 (
+const
 nsTObserverArray
 <
 T
