@@ -82,9 +82,6 @@ mk
 FORCE_STATIC_LIB
 =
 1
-MODULE_NAME
-=
-nsTextServicesModule
 LIBXUL_LIBRARY
 =
 1

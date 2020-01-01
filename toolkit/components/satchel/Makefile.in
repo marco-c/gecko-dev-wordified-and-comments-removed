@@ -75,12 +75,6 @@ config
 autoconf
 .
 mk
-MODULE_NAME
-=
-satchel
-IS_COMPONENT
-=
-1
 LIBXUL_LIBRARY
 =
 1

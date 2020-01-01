@@ -82,9 +82,6 @@ FORCE_STATIC_LIB
 LIBXUL_LIBRARY
 =
 1
-MODULE_NAME
-=
-nsBrowserModule
 include
 (
 topsrcdir

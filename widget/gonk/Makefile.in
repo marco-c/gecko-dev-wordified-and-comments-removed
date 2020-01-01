@@ -165,12 +165,6 @@ widget_gonk
 EXPORT_LIBRARY
 =
 1
-IS_COMPONENT
-=
-1
-MODULE_NAME
-=
-nsWidgetGonkModule
 LIBXUL_LIBRARY
 =
 1

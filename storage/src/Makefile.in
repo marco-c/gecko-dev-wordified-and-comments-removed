@@ -76,9 +76,6 @@ config
 autoconf
 .
 mk
-MODULE_NAME
-=
-mozStorageModule
 FORCE_STATIC_LIB
 =
 1

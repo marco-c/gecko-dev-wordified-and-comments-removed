@@ -82,9 +82,6 @@ imglib2_s
 FORCE_STATIC_LIB
 =
 1
-MODULE_NAME
-=
-nsImageLib2Module
 LIBXUL_LIBRARY
 =
 1

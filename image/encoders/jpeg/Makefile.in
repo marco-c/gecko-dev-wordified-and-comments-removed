@@ -78,9 +78,6 @@ mk
 FORCE_STATIC_LIB
 =
 1
-MODULE_NAME
-=
-imgEncoderJPEGModule
 LIBXUL_LIBRARY
 =
 1
