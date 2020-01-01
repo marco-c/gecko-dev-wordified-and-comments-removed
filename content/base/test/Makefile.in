@@ -813,10 +813,6 @@ txt
 headers
 ^
 \
-test_bug333198
-.
-html
-\
 test_bug402150
 .
 html
