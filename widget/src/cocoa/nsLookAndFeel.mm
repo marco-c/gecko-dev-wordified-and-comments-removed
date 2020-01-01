@@ -2455,7 +2455,7 @@ case
 eColor__moz_cellhighlight
 :
 case
-eColor__moz_html_cellhighlighttext
+eColor__moz_html_cellhighlight
 :
 case
 eColor__moz_mac_secondaryhighlight
