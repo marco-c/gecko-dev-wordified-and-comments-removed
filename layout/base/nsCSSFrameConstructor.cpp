@@ -37566,10 +37566,6 @@ PR_TRUE
 PRInt32
 namespaceID
 ;
-nsIAtom
-*
-tag
-=
 aDocument
 -
 >
