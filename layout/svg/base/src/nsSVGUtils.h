@@ -354,6 +354,13 @@ aContext
 ;
 nsSVGRenderState
 (
+gfxContext
+*
+aContext
+)
+;
+nsSVGRenderState
+(
 gfxASurface
 *
 aSurface
