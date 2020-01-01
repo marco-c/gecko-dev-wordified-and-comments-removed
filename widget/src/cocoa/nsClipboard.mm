@@ -2791,6 +2791,12 @@ dataSize
 NSString
 *
 nativeString
+;
+if
+(
+data
+)
+nativeString
 =
 [
 NSString
@@ -2812,6 +2818,14 @@ sizeof
 PRUnichar
 )
 )
+]
+;
+else
+nativeString
+=
+[
+NSString
+string
 ]
 ;
 /
