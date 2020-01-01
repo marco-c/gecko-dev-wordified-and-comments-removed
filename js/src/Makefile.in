@@ -2267,6 +2267,12 @@ config
 .
 status
 \
+config
+/
+autoconf
+.
+mk
+\
 unallmakefiles
 js
 -
