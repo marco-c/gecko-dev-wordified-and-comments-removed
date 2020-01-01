@@ -2069,7 +2069,7 @@ opener
 )
 {
 var
-chromeWin
+webnav
 =
 notifyWindow
 .
@@ -2086,6 +2086,11 @@ Ci
 .
 nsIWebNavigation
 )
+;
+var
+chromeWin
+=
+webnav
 .
 QueryInterface
 (
@@ -2129,6 +2134,16 @@ getAttribute
 chromehidden
 "
 )
+&
+&
+webnav
+.
+sessionHistory
+.
+count
+=
+=
+1
 )
 {
 this
