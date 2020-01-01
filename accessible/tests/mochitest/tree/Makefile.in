@@ -503,6 +503,10 @@ test_select
 .
 html
 \
+test_table
+.
+html
+\
 test_tree
 .
 xul

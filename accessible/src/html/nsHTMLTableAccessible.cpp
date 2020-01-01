@@ -1744,6 +1744,14 @@ NS_OK
 ;
 }
 }
+*
+aRole
+=
+nsIAccessibleRole
+:
+:
+ROLE_COLUMNHEADER
+;
 return
 NS_OK
 ;
