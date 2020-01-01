@@ -923,9 +923,9 @@ bs
 .
 insertBookmark
 (
-bs
+PlacesUtils
 .
-toolbarFolder
+toolbarFolderId
 uri
 (
 "
