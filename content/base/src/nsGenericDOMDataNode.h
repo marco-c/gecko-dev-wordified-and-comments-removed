@@ -21,13 +21,6 @@ h
 #
 include
 "
-nsIDOMEventTarget
-.
-h
-"
-#
-include
-"
 nsTextFragment
 .
 h
@@ -153,7 +146,6 @@ nsIContent
 public
 :
 NS_DECL_CYCLE_COLLECTING_ISUPPORTS
-NS_DECL_NSIDOMEVENTTARGET
 nsGenericDOMDataNode
 (
 already_AddRefed

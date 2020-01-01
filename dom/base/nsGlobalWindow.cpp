@@ -28604,7 +28604,7 @@ nsIDOMEvent
 aEvent
 PRBool
 *
-_retval
+aRetVal
 )
 {
 FORWARD_TO_INNER
@@ -28612,7 +28612,7 @@ FORWARD_TO_INNER
 DispatchEvent
 (
 aEvent
-_retval
+aRetVal
 )
 NS_OK
 )
@@ -28683,7 +28683,7 @@ status
 )
 ;
 *
-_retval
+aRetVal
 =
 (
 status
@@ -28882,7 +28882,7 @@ aUseCapture
 PRBool
 aWantsUntrusted
 PRUint8
-optional_argc
+aOptionalArgc
 )
 {
 NS_ASSERTION
@@ -28891,7 +28891,7 @@ NS_ASSERTION
 aWantsUntrusted
 |
 |
-optional_argc
+aOptionalArgc
 >
 1
 "
@@ -28982,7 +28982,7 @@ aWantsUntrusted
 |
 |
 (
-optional_argc
+aOptionalArgc
 <
 2
 &

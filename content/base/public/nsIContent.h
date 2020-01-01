@@ -1488,6 +1488,15 @@ GetBaseURI
 )
 const
 ;
+virtual
+nsresult
+PreHandleEvent
+(
+nsEventChainPreVisitor
+&
+aVisitor
+)
+;
 protected
 :
 virtual

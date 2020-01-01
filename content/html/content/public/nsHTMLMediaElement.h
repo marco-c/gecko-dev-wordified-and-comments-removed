@@ -389,6 +389,12 @@ return
 mPrintSurface
 ;
 }
+using
+nsGenericHTMLElement
+:
+:
+DispatchEvent
+;
 nsresult
 DispatchEvent
 (

@@ -287,7 +287,7 @@ nsIDOMEvent
 aEvt
 PRBool
 *
-_retval
+aRetVal
 )
 {
 nsEventStatus
@@ -319,7 +319,7 @@ status
 )
 ;
 *
-_retval
+aRetVal
 =
 (
 status
@@ -538,7 +538,7 @@ aUseCapture
 PRBool
 aWantsUntrusted
 PRUint8
-optional_argc
+aOptionalArgc
 )
 {
 NS_ASSERTION
@@ -547,7 +547,7 @@ NS_ASSERTION
 aWantsUntrusted
 |
 |
-optional_argc
+aOptionalArgc
 >
 1
 "

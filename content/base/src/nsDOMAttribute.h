@@ -130,7 +130,15 @@ NS_DECL_CYCLE_COLLECTING_ISUPPORTS
 NS_DECL_NSIDOMNODE
 NS_DECL_NSIDOMATTR
 NS_DECL_NSIDOM3ATTR
-NS_DECL_NSIDOMEVENTTARGET
+virtual
+nsresult
+PreHandleEvent
+(
+nsEventChainPreVisitor
+&
+aVisitor
+)
+;
 void
 SetMap
 (

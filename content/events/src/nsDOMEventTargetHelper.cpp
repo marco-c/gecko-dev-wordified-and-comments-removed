@@ -235,7 +235,7 @@ aUseCapture
 PRBool
 aWantsUntrusted
 PRUint8
-optional_argc
+aOptionalArgc
 )
 {
 NS_ASSERTION
@@ -244,7 +244,7 @@ NS_ASSERTION
 aWantsUntrusted
 |
 |
-optional_argc
+aOptionalArgc
 >
 1
 "
@@ -274,7 +274,7 @@ aWantsUntrusted
 explicit
 by
 making
-optional_argc
+aOptionalArgc
 non
 -
 zero
@@ -307,7 +307,7 @@ NS_EVENT_FLAG_BUBBLE
 ;
 if
 (
-optional_argc
+aOptionalArgc
 <
 2
 )
