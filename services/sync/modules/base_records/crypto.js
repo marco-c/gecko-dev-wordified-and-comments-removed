@@ -848,7 +848,7 @@ pubkeyUri
 =
 this
 .
-uri
+baseUri
 .
 resolve
 (
