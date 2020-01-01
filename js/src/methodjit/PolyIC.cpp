@@ -13128,6 +13128,10 @@ sp
 -
 1
 ]
+script
+-
+>
+strictModeCode
 )
 )
 THROW
@@ -13206,10 +13210,13 @@ pic
 .
 atom
 ;
+STRICT_VARIANT
+(
 stubs
 :
 :
 SetName
+)
 (
 f
 atom

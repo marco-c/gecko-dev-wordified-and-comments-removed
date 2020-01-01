@@ -20459,6 +20459,7 @@ Valueify
 (
 vp
 )
+false
 )
 ;
 goto
@@ -23192,6 +23193,8 @@ id
 Value
 *
 vp
+JSBool
+strict
 )
 {
 return
@@ -23332,6 +23335,8 @@ id
 Value
 *
 rval
+JSBool
+strict
 )
 {
 JSXML
@@ -23402,7 +23407,7 @@ id
 )
 ;
 return
-JS_FALSE
+false
 ;
 }
 DeleteListElement
@@ -23431,7 +23436,7 @@ if
 nameqn
 )
 return
-JS_FALSE
+false
 ;
 if
 (
@@ -23448,6 +23453,7 @@ cx
 obj
 funid
 rval
+false
 )
 ;
 DeleteNamedProperty
@@ -23486,10 +23492,11 @@ cx
 obj
 id
 rval
+false
 )
 )
 return
-JS_FALSE
+false
 ;
 rval
 -
@@ -23500,7 +23507,7 @@ true
 )
 ;
 return
-JS_TRUE
+true
 ;
 }
 JSBool
@@ -28328,6 +28335,7 @@ tvr
 addr
 (
 )
+false
 )
 )
 return

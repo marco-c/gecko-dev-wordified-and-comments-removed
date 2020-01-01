@@ -7420,10 +7420,13 @@ stubcc
 .
 call
 (
+STRICT_VARIANT
+(
 stubs
 :
 :
 SetElem
+)
 )
 ;
 frame
@@ -7977,10 +7980,13 @@ stubcc
 .
 call
 (
+STRICT_VARIANT
+(
 stubs
 :
 :
 SetElem
+)
 )
 ;
 frame

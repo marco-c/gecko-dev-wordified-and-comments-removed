@@ -3110,6 +3110,7 @@ tvr
 addr
 (
 )
+false
 )
 &
 &
@@ -3119,6 +3120,7 @@ cx
 obj
 id
 vp
+false
 )
 ;
 }
@@ -3740,6 +3742,7 @@ tvr
 addr
 (
 )
+true
 )
 &
 &
@@ -3749,6 +3752,7 @@ cx
 obj
 id
 vp
+true
 )
 ;
 }
@@ -8120,6 +8124,8 @@ arity
 )
 FUN_ARITY
 JSPROP_PERMANENT
+|
+JSPROP_READONLY
 }
 {
 ATOM_OFFSET
@@ -8128,6 +8134,8 @@ name
 )
 FUN_NAME
 JSPROP_PERMANENT
+|
+JSPROP_READONLY
 }
 }
 ;
@@ -8449,7 +8457,6 @@ JSRESOLVE_ASSIGNING
 )
 &
 &
-!
 JSID_IS_ATOM
 (
 id
@@ -8461,7 +8468,7 @@ runtime
 >
 atomState
 .
-lengthAtom
+classPrototypeAtom
 )
 )
 {

@@ -3272,6 +3272,13 @@ Value
 *
 consts
 ;
+nanojit
+:
+:
+LIns
+*
+strictModeCode_ins
+;
 Queue
 <
 jsbytecode

@@ -5115,6 +5115,8 @@ id
 Value
 *
 vp
+JSBool
+strict
 )
 {
 return
@@ -5267,6 +5269,8 @@ id
 Value
 *
 rval
+JSBool
+strict
 )
 {
 bool
