@@ -8,7 +8,7 @@ gray
 area
 whether
 |
-delete
+__delete__
 |
 should
 be
@@ -54,7 +54,7 @@ M1
 ;
 child
 :
-delete
+__delete__
 (
 )
 ;
@@ -62,7 +62,7 @@ state
 START
 :
 send
-delete
+__delete__
 ;
 recv
 M1

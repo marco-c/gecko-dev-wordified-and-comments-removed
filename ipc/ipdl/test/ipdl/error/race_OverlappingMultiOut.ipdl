@@ -11,13 +11,14 @@ Msg1_
 (
 )
 ;
-delete
+__delete__
 (
 )
 ;
 suppressUndeleteableError
 (
 )
+;
 parent
 :
 Msg2
@@ -33,7 +34,7 @@ state
 _
 :
 send
-delete
+__delete__
 ;
 send
 suppressUndeleteableError

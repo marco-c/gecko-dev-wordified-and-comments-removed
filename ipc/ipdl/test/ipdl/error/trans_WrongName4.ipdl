@@ -9,7 +9,7 @@ Msg
 (
 )
 ;
-delete
+__delete__
 (
 )
 ;
@@ -22,7 +22,6 @@ goto
 S1
 ;
 send
-delete
-;
+__delete__
 }
 ;

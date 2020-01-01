@@ -9,7 +9,7 @@ Msg
 (
 )
 ;
-delete
+__delete__
 (
 )
 state
@@ -24,7 +24,7 @@ start
 state_
 :
 recv
-delete
+__delete__
 ;
 }
 ;

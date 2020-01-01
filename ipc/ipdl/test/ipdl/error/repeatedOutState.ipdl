@@ -7,7 +7,7 @@ Msg
 (
 )
 ;
-delete
+__delete__
 (
 )
 ;
@@ -59,7 +59,7 @@ goto
 S4
 ;
 send
-delete
+__delete__
 ;
 }
 ;

@@ -9,7 +9,7 @@ Msg
 (
 )
 ;
-delete
+__delete__
 (
 )
 ;
@@ -22,7 +22,7 @@ goto
 S1
 ;
 recv
-delete
+__delete__
 ;
 }
 ;

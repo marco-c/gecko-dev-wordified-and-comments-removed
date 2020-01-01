@@ -16,7 +16,7 @@ Msg
 (
 )
 ;
-delete
+__delete__
 (
 )
 ;
@@ -41,7 +41,7 @@ state
 _
 :
 send
-delete
+__delete__
 ;
 }
 ;

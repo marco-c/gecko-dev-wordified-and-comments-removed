@@ -17,7 +17,7 @@ managerNoCtor
 empty
 child
 :
-delete
+__delete__
 (
 )
 ;

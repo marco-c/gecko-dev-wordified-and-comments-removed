@@ -11,7 +11,7 @@ Msg1_
 (
 )
 ;
-delete
+__delete__
 (
 )
 ;
@@ -52,7 +52,7 @@ state
 _
 :
 send
-delete
+__delete__
 ;
 send
 suppressUndeleteableError
