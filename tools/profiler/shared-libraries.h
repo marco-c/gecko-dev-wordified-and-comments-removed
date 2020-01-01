@@ -345,7 +345,6 @@ mName
 }
 private
 :
-explicit
 SharedLibrary
 (
 )
