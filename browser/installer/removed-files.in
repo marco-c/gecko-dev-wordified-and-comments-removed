@@ -7201,6 +7201,16 @@ components
 nsWifiWorker
 .
 manifest
+components
+/
+nsDOMWifiManager
+.
+js
+components
+/
+nsDOMWifiManager
+.
+manifest
 #
 endif
 components
