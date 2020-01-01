@@ -1288,6 +1288,10 @@ mExpireSites
 (
 0
 )
+mNumVisitsForFrecency
+(
+10
+)
 mAutoCompleteOnlyTyped
 (
 PR_FALSE
