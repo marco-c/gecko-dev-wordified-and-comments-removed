@@ -1,13 +1,3 @@
-include
-(
-DEPTH
-)
-/
-config
-/
-emptyvars
-.
-mk
 ALLSUBSTS
 include
 (
