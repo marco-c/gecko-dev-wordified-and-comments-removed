@@ -507,6 +507,10 @@ AddonUpdateService
 .
 js
 \
+SessionStore
+.
+js
+\
 (
 NULL
 )
