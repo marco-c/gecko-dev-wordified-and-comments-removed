@@ -237,6 +237,8 @@ Update
 nsIDOMGeoPosition
 *
 aPosition
+bool
+aIsBetter
 )
 ;
 void
@@ -323,6 +325,9 @@ mAllowed
 ;
 bool
 mCleared
+;
+bool
+mIsFirstUpdate
 ;
 bool
 mIsWatchPositionRequest
@@ -462,6 +467,14 @@ GetCachedPosition
 (
 )
 ;
+PRBool
+IsBetterPosition
+(
+nsIDOMGeoPosition
+*
+aSomewhere
+)
+;
 nsresult
 StartDevice
 (
@@ -556,6 +569,8 @@ Update
 nsIDOMGeoPosition
 *
 aPosition
+bool
+aIsBetter
 )
 ;
 bool
