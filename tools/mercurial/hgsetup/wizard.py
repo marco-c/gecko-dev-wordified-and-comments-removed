@@ -607,7 +607,7 @@ hg
 except
 which
 .
-whichError
+WhichError
 as
 e
 :
