@@ -3531,6 +3531,15 @@ PR_FALSE
 PR_FALSE
 )
 ;
+PRBool
+shouldReflowAllKids
+=
+aReflowState
+.
+ShouldReflowAllKids
+(
+)
+;
 for
 (
 nsIFrame
@@ -3581,6 +3590,9 @@ continue
 }
 if
 (
+shouldReflowAllKids
+|
+|
 NS_SUBTREE_DIRTY
 (
 frame
