@@ -18325,6 +18325,12 @@ scaleFactor
 .
 0
 ;
+#
+if
+defined
+(
+XP_MACOSX
+)
 if
 (
 mWidget
@@ -18442,6 +18448,8 @@ scaleFactor
 }
 }
 }
+#
+endif
 *
 result
 =
