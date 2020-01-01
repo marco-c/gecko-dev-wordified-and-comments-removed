@@ -2276,6 +2276,9 @@ Release
 )
 ;
 }
+UserDataKey
+kThebesSurfaceKey
+;
 void
 DestroyThebesSurface
 (
@@ -2305,9 +2308,6 @@ Release
 )
 ;
 }
-UserDataKey
-ThebesSurfaceKey
-;
 already_AddRefed
 <
 gfxASurface
@@ -2332,7 +2332,7 @@ aTarget
 GetUserData
 (
 &
-ThebesSurfaceKey
+kThebesSurfaceKey
 )
 ;
 if
@@ -2496,7 +2496,7 @@ aTarget
 AddUserData
 (
 &
-ThebesSurfaceKey
+kThebesSurfaceKey
 surf
 .
 get
