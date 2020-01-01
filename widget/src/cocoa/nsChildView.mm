@@ -15092,11 +15092,6 @@ retain
 ]
 ;
 }
-[
-mGLContext
-makeCurrentContext
-]
-;
 mGeckoChild
 -
 >
@@ -15104,11 +15099,6 @@ DispatchWindowEvent
 (
 paintEvent
 )
-;
-[
-mGLContext
-flushBuffer
-]
 ;
 return
 ;
