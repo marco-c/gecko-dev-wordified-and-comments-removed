@@ -1,9 +1,9 @@
 #
 ifndef
-DeleteElementTxn_h__
+DeleteNodeTxn_h__
 #
 define
-DeleteElementTxn_h__
+DeleteNodeTxn_h__
 #
 include
 "
@@ -32,7 +32,7 @@ class
 nsEditor
 ;
 class
-DeleteElementTxn
+DeleteNodeTxn
 :
 public
 EditTxn
@@ -53,14 +53,14 @@ nsRangeUpdater
 aRangeUpdater
 )
 ;
-DeleteElementTxn
+DeleteNodeTxn
 (
 )
 ;
 NS_DECL_ISUPPORTS_INHERITED
 NS_DECL_CYCLE_COLLECTION_CLASS_INHERITED
 (
-DeleteElementTxn
+DeleteNodeTxn
 EditTxn
 )
 NS_DECL_EDITTXN

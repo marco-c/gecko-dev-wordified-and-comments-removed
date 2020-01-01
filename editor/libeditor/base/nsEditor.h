@@ -207,7 +207,7 @@ class
 InsertElementTxn
 ;
 class
-DeleteElementTxn
+DeleteNodeTxn
 ;
 class
 InsertTextTxn
@@ -841,12 +841,12 @@ aTxn
 )
 ;
 nsresult
-CreateTxnForDeleteElement
+CreateTxnForDeleteNode
 (
 nsINode
 *
 aNode
-DeleteElementTxn
+DeleteNodeTxn
 *
 *
 aTxn

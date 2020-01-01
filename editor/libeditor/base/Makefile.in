@@ -190,7 +190,7 @@ CreateElementTxn
 .
 cpp
 \
-DeleteElementTxn
+DeleteNodeTxn
 .
 cpp
 \
