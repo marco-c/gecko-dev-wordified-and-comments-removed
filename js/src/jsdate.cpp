@@ -2564,7 +2564,7 @@ msec_time
 vp
 -
 >
-setDouble
+setNumber
 (
 msec_time
 )
@@ -5123,7 +5123,7 @@ result
 vp
 -
 >
-setDouble
+setNumber
 (
 result
 )
@@ -5169,7 +5169,7 @@ vp
 vp
 -
 >
-setDouble
+setNumber
 (
 NowAsMillis
 (
@@ -5381,7 +5381,7 @@ obj
 >
 setDateUTCTime
 (
-DoubleTag
+NumberTag
 (
 t
 )
@@ -5391,12 +5391,14 @@ if
 (
 vp
 )
+*
 vp
+=
+obj
 -
 >
-setDouble
+getDateUTCTime
 (
-t
 )
 ;
 return
@@ -5501,7 +5503,7 @@ obj
 >
 setDateLocalTime
 (
-DoubleTag
+NumberTag
 (
 result
 )
@@ -5556,7 +5558,7 @@ JS_FALSE
 vp
 -
 >
-setDouble
+setNumber
 (
 result
 )
@@ -5630,7 +5632,7 @@ result
 vp
 -
 >
-setDouble
+setNumber
 (
 result
 )
@@ -5738,7 +5740,7 @@ result
 vp
 -
 >
-setDouble
+setNumber
 (
 result
 )
@@ -5800,7 +5802,7 @@ result
 vp
 -
 >
-setDouble
+setNumber
 (
 result
 )
@@ -5862,7 +5864,7 @@ result
 vp
 -
 >
-setDouble
+setNumber
 (
 result
 )
@@ -5924,7 +5926,7 @@ result
 vp
 -
 >
-setDouble
+setNumber
 (
 result
 )
@@ -5986,7 +5988,7 @@ result
 vp
 -
 >
-setDouble
+setNumber
 (
 result
 )
@@ -6048,7 +6050,7 @@ result
 vp
 -
 >
-setDouble
+setNumber
 (
 result
 )
@@ -6110,7 +6112,7 @@ result
 vp
 -
 >
-setDouble
+setNumber
 (
 result
 )
@@ -6172,7 +6174,7 @@ result
 vp
 -
 >
-setDouble
+setNumber
 (
 result
 )
@@ -6234,7 +6236,7 @@ result
 vp
 -
 >
-setDouble
+setNumber
 (
 result
 )
@@ -6296,7 +6298,7 @@ result
 vp
 -
 >
-setDouble
+setNumber
 (
 result
 )
@@ -6358,7 +6360,7 @@ result
 vp
 -
 >
-setDouble
+setNumber
 (
 result
 )
@@ -6420,7 +6422,7 @@ result
 vp
 -
 >
-setDouble
+setNumber
 (
 result
 )
@@ -6482,7 +6484,7 @@ result
 vp
 -
 >
-setDouble
+setNumber
 (
 result
 )
@@ -6565,7 +6567,7 @@ msPerMinute
 vp
 -
 >
-setDouble
+setNumber
 (
 result
 )
@@ -6756,7 +6758,7 @@ result
 vp
 -
 >
-setDouble
+setNumber
 (
 result
 )
