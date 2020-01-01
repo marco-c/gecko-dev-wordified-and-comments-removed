@@ -13226,11 +13226,6 @@ bin
 purgecaches
 ;
 fi
-.
-DEFAULT_GOAL
-:
-=
-default
 #
 #
 #
