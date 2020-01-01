@@ -146,11 +146,6 @@ i
 firstChild
 .
 textContent
-"
-bp
--
-"
-+
 crashes
 [
 i

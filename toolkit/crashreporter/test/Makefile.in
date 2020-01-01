@@ -451,6 +451,12 @@ js
 \
 browser
 /
+crashreport
+.
+sjs
+\
+browser
+/
 browser_aboutCrashes
 .
 js
@@ -458,6 +464,12 @@ js
 browser
 /
 browser_bug471404
+.
+js
+\
+browser
+/
+browser_aboutCrashesResubmit
 .
 js
 \
