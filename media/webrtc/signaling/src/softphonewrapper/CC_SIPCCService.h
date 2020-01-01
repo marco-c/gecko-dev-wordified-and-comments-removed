@@ -144,7 +144,7 @@ CSF
 class
 PhoneConfig
 ;
-DECLARE_NS_PTR
+DECLARE_PTR
 (
 CC_SIPCCService
 )

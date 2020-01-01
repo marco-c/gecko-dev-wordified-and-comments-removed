@@ -231,10 +231,6 @@ handles
 i
 ]
 )
-.
-get
-(
-)
 ;
 callsVector
 .
@@ -318,10 +314,6 @@ lines
 [
 i
 ]
-)
-.
-get
-(
 )
 ;
 linesVector
@@ -407,10 +399,6 @@ features
 i
 ]
 )
-.
-get
-(
-)
 ;
 featuresVector
 .
@@ -494,10 +482,6 @@ callServers
 [
 i
 ]
-)
-.
-get
-(
 )
 ;
 callServersVector

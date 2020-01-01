@@ -123,10 +123,6 @@ deviceHandle
 ;
 return
 pSIPCCDevice
-.
-get
-(
-)
 ;
 }
 CC_SIPCCDevice
@@ -179,10 +175,6 @@ CC_SIPCCDeviceInfo
 wrap
 (
 deviceInfoRef
-)
-.
-get
-(
 )
 ;
 CCAPI_Device_releaseDeviceInfo
@@ -262,10 +254,6 @@ CC_SIPCCCall
 wrap
 (
 callHandle
-)
-.
-get
-(
 )
 ;
 }
