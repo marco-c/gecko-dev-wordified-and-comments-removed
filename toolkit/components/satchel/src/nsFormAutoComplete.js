@@ -187,7 +187,7 @@ _prefBranch
 null
 _debug
 :
-false
+true
 _enabled
 :
 true
@@ -689,6 +689,12 @@ shutdown
 self
 .
 _dbStmts
+=
+null
+;
+self
+.
+__formHistory
 =
 null
 ;

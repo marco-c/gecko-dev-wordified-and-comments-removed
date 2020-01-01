@@ -448,6 +448,10 @@ EXPORT_LIBRARY
 EXTRA_COMPONENTS
 =
 \
+nsFormHistory
+.
+js
+\
 nsFormAutoComplete
 .
 js
@@ -458,10 +462,6 @@ NULL
 CPPSRCS
 =
 nsFormFillController
-.
-cpp
-\
-nsStorageFormHistory
 .
 cpp
 \
