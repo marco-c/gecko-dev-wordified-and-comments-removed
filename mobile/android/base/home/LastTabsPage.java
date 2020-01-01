@@ -448,7 +448,7 @@ R
 .
 layout
 .
-home_list_with_title
+home_last_tabs_page
 container
 false
 )

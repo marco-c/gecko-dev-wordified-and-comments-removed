@@ -418,7 +418,7 @@ R
 .
 layout
 .
-home_list_with_title
+home_history_page
 container
 false
 )
