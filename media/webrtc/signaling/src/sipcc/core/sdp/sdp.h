@@ -3492,6 +3492,17 @@ sctpport
 )
 ;
 extern
+int32
+sdp_get_media_sctp_port
+(
+void
+*
+sdp_ptr
+u16
+level
+)
+;
+extern
 sdp_result_e
 sdp_set_media_portcount
 (
