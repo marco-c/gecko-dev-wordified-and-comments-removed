@@ -102,7 +102,7 @@ mOpenWith
 private
 :
 static
-BOOL
+INT_PTR
 CALLBACK
 LaunchProc
 (
@@ -684,7 +684,7 @@ IDC_OPENWITHAPP
 ;
 }
 }
-BOOL
+INT_PTR
 CALLBACK
 AppLauncherDlg
 :
@@ -743,10 +743,10 @@ mHwndDlg
 =
 hwndDlg
 ;
-SetWindowLong
+SetWindowLongPtr
 (
 hwndDlg
-DWL_USER
+DWLP_USER
 lParam
 )
 ;
@@ -759,10 +759,10 @@ pThis
 AppLauncherDlg
 *
 )
-GetWindowLong
+GetWindowLongPtr
 (
 hwndDlg
-DWL_USER
+DWLP_USER
 )
 ;
 }
@@ -908,7 +908,7 @@ OnCancel
 )
 ;
 static
-BOOL
+INT_PTR
 CALLBACK
 ProgressProc
 (
@@ -1182,7 +1182,7 @@ return
 NS_OK
 ;
 }
-BOOL
+INT_PTR
 CALLBACK
 ProgressDlg
 :
@@ -1221,10 +1221,10 @@ ProgressDlg
 )
 lParam
 ;
-SetWindowLong
+SetWindowLongPtr
 (
 hwndDlg
-DWL_USER
+DWLP_USER
 lParam
 )
 ;
@@ -1237,10 +1237,10 @@ pThis
 ProgressDlg
 *
 )
-GetWindowLong
+GetWindowLongPtr
 (
 hwndDlg
-DWL_USER
+DWLP_USER
 )
 ;
 }

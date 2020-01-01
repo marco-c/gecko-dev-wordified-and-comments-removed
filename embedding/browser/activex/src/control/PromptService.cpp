@@ -220,7 +220,7 @@ _retval
 protected
 :
 static
-BOOL
+INT_PTR
 CALLBACK
 ConfirmProc
 (
@@ -235,7 +235,7 @@ lParam
 )
 ;
 static
-BOOL
+INT_PTR
 CALLBACK
 PromptProc
 (
@@ -1643,7 +1643,7 @@ return
 NS_OK
 ;
 }
-BOOL
+INT_PTR
 CALLBACK
 PromptDlg
 :
@@ -1668,10 +1668,10 @@ pThis
 PromptDlg
 *
 )
-GetWindowLong
+GetWindowLongPtr
 (
 hwndDlg
-DWL_USER
+DWLP_USER
 )
 ;
 switch
@@ -1682,10 +1682,10 @@ uMsg
 case
 WM_INITDIALOG
 :
-SetWindowLong
+SetWindowLongPtr
 (
 hwndDlg
-DWL_USER
+DWLP_USER
 lParam
 )
 ;
@@ -2142,7 +2142,7 @@ return
 FALSE
 ;
 }
-BOOL
+INT_PTR
 CALLBACK
 PromptDlg
 :
@@ -2167,10 +2167,10 @@ pThis
 PromptDlg
 *
 )
-GetWindowLong
+GetWindowLongPtr
 (
 hwndDlg
-DWL_USER
+DWLP_USER
 )
 ;
 int
@@ -2184,10 +2184,10 @@ uMsg
 case
 WM_INITDIALOG
 :
-SetWindowLong
+SetWindowLongPtr
 (
 hwndDlg
-DWL_USER
+DWLP_USER
 lParam
 )
 ;

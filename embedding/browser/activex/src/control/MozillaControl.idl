@@ -2055,7 +2055,7 @@ HWND
 out
 retval
 ]
-long
+SHANDLE_PTR
 *
 pHWND
 )

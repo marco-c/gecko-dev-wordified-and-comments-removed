@@ -60,7 +60,7 @@ riid
 LPVOID
 *
 ppv
-DWORD
+DWORD_PTR
 dw
 )
 {
