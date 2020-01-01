@@ -15562,7 +15562,10 @@ ScrolledAreaEvent
 this
 )
 ;
-NS_DispatchToCurrentThread
+nsContentUtils
+:
+:
+AddScriptRunner
 (
 mScrolledAreaEvent
 .
