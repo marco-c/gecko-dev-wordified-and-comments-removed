@@ -3462,12 +3462,6 @@ selectedIndex
 =
 1
 ;
-infoBox
-.
-hidden
-=
-false
-;
 if
 (
 aSelectedNode
@@ -3566,12 +3560,6 @@ detailsDeck
 selectedIndex
 =
 0
-;
-infoBox
-.
-hidden
-=
-true
 ;
 var
 selectItemDesc
