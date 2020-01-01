@@ -47,6 +47,9 @@ DummyFrameGuard
 class
 GeneratorFrameGuard
 ;
+class
+ArgumentsObject
+;
 namespace
 mjit
 {
@@ -514,7 +517,7 @@ union
 uintN
 nactual
 ;
-JSObject
+ArgumentsObject
 *
 obj
 ;
@@ -706,9 +709,6 @@ script
 JSObject
 &
 chain
-StackFrame
-*
-prev
 uint32
 flags
 )
@@ -1524,7 +1524,7 @@ HAS_ARGS_OBJ
 )
 ;
 }
-JSObject
+ArgumentsObject
 &
 argsObj
 (
@@ -1553,7 +1553,7 @@ args
 obj
 ;
 }
-JSObject
+ArgumentsObject
 *
 maybeArgsObj
 (
@@ -1577,7 +1577,7 @@ inline
 void
 setArgsObj
 (
-JSObject
+ArgumentsObject
 &
 obj
 )
@@ -2515,12 +2515,14 @@ DEBUGGER
 ;
 }
 bool
-isDirectEvalOrDebuggerFrame
+isEvalOrDebuggerFrame
 (
 )
 const
 {
 return
+!
+!
 (
 flags_
 &
@@ -2529,14 +2531,6 @@ EVAL
 |
 DEBUGGER
 )
-)
-&
-&
-!
-(
-flags_
-&
-GLOBAL
 )
 ;
 }
