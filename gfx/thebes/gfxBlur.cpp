@@ -44,6 +44,14 @@ gfxAlphaBoxBlur
 (
 )
 {
+mContext
+=
+nullptr
+;
+mImageSurface
+=
+nullptr
+;
 delete
 mBlur
 ;
