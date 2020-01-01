@@ -82,7 +82,7 @@ dumpbin
 '
 '
 -
-imports
+dependents
 '
 lib
 ]
@@ -147,6 +147,15 @@ group
 1
 )
 )
+        
+elif
+len
+(
+deps
+)
+:
+             
+break
     
 proc
 .
