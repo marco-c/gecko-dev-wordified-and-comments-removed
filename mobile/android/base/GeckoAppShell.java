@@ -410,6 +410,14 @@ WPL_STATE_IS_DOCUMENT
 0x00020000
 ;
 static
+public
+final
+int
+WPL_STATE_IS_NETWORK
+=
+0x00040000
+;
+static
 private
 File
 sCacheFile

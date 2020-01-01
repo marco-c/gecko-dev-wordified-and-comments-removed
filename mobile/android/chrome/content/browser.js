@@ -9087,7 +9087,7 @@ Ci
 .
 nsIWebProgressListener
 .
-STATE_IS_DOCUMENT
+STATE_IS_NETWORK
 )
 {
 let
