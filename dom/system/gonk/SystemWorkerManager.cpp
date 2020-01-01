@@ -423,7 +423,7 @@ false
 uint32_t
 type
 =
-JS_GetTypedArrayType
+JS_GetArrayBufferViewType
 (
 obj
 )
@@ -1076,7 +1076,7 @@ false
 uint32_t
 type
 =
-JS_GetTypedArrayType
+JS_GetArrayBufferViewType
 (
 obj
 )

@@ -7558,7 +7558,7 @@ nullptr
 ;
 switch
 (
-JS_GetTypedArrayType
+JS_GetArrayBufferViewType
 (
 jsArray
 )

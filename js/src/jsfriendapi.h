@@ -4286,6 +4286,7 @@ TYPE_UINT32
 TYPE_FLOAT32
 TYPE_FLOAT64
 TYPE_UINT8_CLAMPED
+TYPE_DATAVIEW
 TYPE_MAX
 }
 ;
@@ -5132,7 +5133,7 @@ JS_FRIEND_API
 (
 JSArrayBufferViewType
 )
-JS_GetTypedArrayType
+JS_GetArrayBufferViewType
 (
 JSObject
 *

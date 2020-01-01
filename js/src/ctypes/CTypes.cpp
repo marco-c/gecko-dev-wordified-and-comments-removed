@@ -9731,7 +9731,7 @@ elementTypeCode
 ;
 switch
 (
-JS_GetTypedArrayType
+JS_GetArrayBufferViewType
 (
 valObj
 )
