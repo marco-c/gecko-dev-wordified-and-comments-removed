@@ -140,7 +140,7 @@ OutputRow
 (
 )
 ;
-PRBool
+bool
 DoLzw
 (
 const
@@ -197,10 +197,10 @@ mLastFlushedPass
 PRUint8
 mColorMask
 ;
-PRPackedBool
+bool
 mGIFOpen
 ;
-PRPackedBool
+bool
 mSawTransparency
 ;
 gif_struct

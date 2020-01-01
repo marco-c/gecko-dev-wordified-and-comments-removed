@@ -384,7 +384,7 @@ this
 }
 NS_IMETHODIMP_
 (
-PRBool
+bool
 )
 nsSVGGradientElement
 :

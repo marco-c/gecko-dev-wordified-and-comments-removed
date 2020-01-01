@@ -235,7 +235,7 @@ gfxMatrix
 >
 mMaskParentMatrix
 ;
-PRPackedBool
+bool
 mInUse
 ;
 virtual

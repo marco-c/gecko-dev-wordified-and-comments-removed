@@ -127,7 +127,7 @@ Merge
 nsITransaction
 *
 aTransaction
-PRBool
+bool
 *
 aDidMerge
 )
@@ -143,7 +143,7 @@ aResult
 protected
 :
 virtual
-PRBool
+bool
 IsSequentialInsert
 (
 InsertTextTxn

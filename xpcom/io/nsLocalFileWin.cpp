@@ -887,7 +887,7 @@ QuadPart
 ;
 }
 static
-PRBool
+bool
 IsShortcutPath
 (
 const
@@ -972,7 +972,7 @@ PRFilePrivate
 PRInt32
 state
 ;
-PRBool
+bool
 nonblocking
 ;
 _PRTriStateBool
@@ -985,7 +985,7 @@ next
 PRIntn
 lockCount
 ;
-PRBool
+bool
 appendMode
 ;
 _MDFileDesc
@@ -1530,7 +1530,7 @@ handle
 WIN32_FIND_DATAW
 data
 ;
-PRBool
+bool
 firstEntry
 ;
 }
@@ -2136,7 +2136,7 @@ NS_OK
 NS_IMETHOD
 HasMoreElements
 (
-PRBool
+bool
 *
 result
 )
@@ -2303,7 +2303,7 @@ result
 nsresult
 rv
 ;
-PRBool
+bool
 hasMore
 ;
 rv
@@ -2357,10 +2357,10 @@ result
 =
 nsnull
 ;
-PRBool
+bool
 hasMore
 =
-PR_FALSE
+false
 ;
 nsresult
 rv
@@ -3556,7 +3556,7 @@ rv
 NS_ERROR_FILE_ACCESS_DENIED
 )
 {
-PRBool
+bool
 isdir
 ;
 if
@@ -3724,7 +3724,7 @@ const
 nsAFlatString
 &
 node
-PRBool
+bool
 multipleComponents
 )
 {
@@ -5134,11 +5134,11 @@ const
 nsAString
 &
 newName
-PRBool
+bool
 followSymlinks
-PRBool
+bool
 move
-PRBool
+bool
 skipNtfsAclReset
 )
 {
@@ -5582,9 +5582,9 @@ const
 nsAString
 &
 newName
-PRBool
+bool
 followSymlinks
-PRBool
+bool
 move
 )
 {
@@ -5659,7 +5659,7 @@ newParentDir
 return
 NS_ERROR_FILE_DESTINATION_NOT_DIR
 ;
-PRBool
+bool
 exists
 ;
 newParentDir
@@ -5701,7 +5701,7 @@ rv
 }
 else
 {
-PRBool
+bool
 isDir
 ;
 newParentDir
@@ -5724,7 +5724,7 @@ if
 followSymlinks
 )
 {
-PRBool
+bool
 isLink
 ;
 newParentDir
@@ -5812,12 +5812,12 @@ NS_ERROR_FILE_DESTINATION_NOT_DIR
 }
 }
 }
-PRBool
+bool
 done
 =
-PR_FALSE
+false
 ;
-PRBool
+bool
 isDir
 ;
 IsDirectory
@@ -5826,7 +5826,7 @@ IsDirectory
 isDir
 )
 ;
-PRBool
+bool
 isSymlink
 ;
 IsSymlink
@@ -5938,7 +5938,7 @@ IsEmpty
 )
 )
 {
-PRBool
+bool
 isLink
 ;
 IsSymlink
@@ -6078,7 +6078,7 @@ rv
 }
 else
 {
-PRBool
+bool
 isWritable
 ;
 target
@@ -6117,7 +6117,7 @@ targetIterator
 )
 )
 ;
-PRBool
+bool
 more
 ;
 targetIterator
@@ -6170,7 +6170,7 @@ return
 rv
 ;
 }
-PRBool
+bool
 more
 ;
 while
@@ -6224,7 +6224,7 @@ if
 file
 )
 {
-PRBool
+bool
 isDir
 isLink
 ;
@@ -6508,7 +6508,7 @@ CHECK_mWorkingPath
 (
 )
 ;
-PRBool
+bool
 isFile
 ;
 nsresult
@@ -6612,7 +6612,7 @@ nsLocalFile
 :
 Remove
 (
-PRBool
+bool
 recursive
 )
 {
@@ -6620,7 +6620,7 @@ CHECK_mWorkingPath
 (
 )
 ;
-PRBool
+bool
 isDir
 isLink
 ;
@@ -6706,7 +6706,7 @@ rv
 return
 rv
 ;
-PRBool
+bool
 more
 ;
 while
@@ -7267,7 +7267,7 @@ rv
 return
 rv
 ;
-PRBool
+bool
 isWritable
 isExecutable
 ;
@@ -7368,7 +7368,7 @@ INVALID_FILE_ATTRIBUTES
 return
 NS_ERROR_FILE_INVALID_PATH
 ;
-PRBool
+bool
 isWritable
 =
 !
@@ -8078,7 +8078,7 @@ nsLocalFile
 :
 Exists
 (
-PRBool
+bool
 *
 _retval
 )
@@ -8132,7 +8132,7 @@ nsLocalFile
 :
 IsWritable
 (
-PRBool
+bool
 *
 aIsWritable
 )
@@ -8334,7 +8334,7 @@ nsLocalFile
 :
 IsReadable
 (
-PRBool
+bool
 *
 _retval
 )
@@ -8385,7 +8385,7 @@ nsLocalFile
 :
 IsExecutable
 (
-PRBool
+bool
 *
 _retval
 )
@@ -8407,7 +8407,7 @@ PR_FALSE
 nsresult
 rv
 ;
-PRBool
+bool
 isFile
 ;
 rv
@@ -8436,7 +8436,7 @@ isFile
 return
 NS_OK
 ;
-PRBool
+bool
 symLink
 ;
 rv
@@ -8909,7 +8909,7 @@ nsLocalFile
 :
 IsDirectory
 (
-PRBool
+bool
 *
 _retval
 )
@@ -8958,7 +8958,7 @@ nsLocalFile
 :
 IsFile
 (
-PRBool
+bool
 *
 _retval
 )
@@ -9007,7 +9007,7 @@ nsLocalFile
 :
 IsHidden
 (
-PRBool
+bool
 *
 _retval
 )
@@ -9028,7 +9028,7 @@ HasFileAttribute
 (
 DWORD
 fileAttrib
-PRBool
+bool
 *
 _retval
 )
@@ -9108,7 +9108,7 @@ nsLocalFile
 :
 IsSymlink
 (
-PRBool
+bool
 *
 _retval
 )
@@ -9179,7 +9179,7 @@ nsLocalFile
 :
 IsSpecial
 (
-PRBool
+bool
 *
 _retval
 )
@@ -9201,7 +9201,7 @@ Equals
 nsIFile
 *
 inFile
-PRBool
+bool
 *
 _retval
 )
@@ -9291,9 +9291,9 @@ Contains
 nsIFile
 *
 inFile
-PRBool
+bool
 recur
-PRBool
+bool
 *
 _retval
 )
@@ -9435,7 +9435,7 @@ Truncate
 #
 if
 STRICT_FAKE_SYMLINKS
-PRBool
+bool
 symLink
 ;
 nsresult
@@ -9487,7 +9487,7 @@ nsLocalFile
 :
 GetFollowLinks
 (
-PRBool
+bool
 *
 aFollowLinks
 )
@@ -9507,7 +9507,7 @@ nsLocalFile
 :
 SetFollowLinks
 (
-PRBool
+bool
 aFollowLinks
 )
 {
@@ -9614,7 +9614,7 @@ return
 NS_OK
 ;
 }
-PRBool
+bool
 isDir
 ;
 rv
@@ -9761,7 +9761,7 @@ aPersistentDescriptor
 ;
 }
 static
-PRBool
+bool
 IsXPOrGreater
 (
 )
@@ -10206,7 +10206,7 @@ return
 NS_ERROR_FAILURE
 ;
 }
-PRBool
+bool
 isDirectory
 ;
 nsresult
@@ -10708,7 +10708,7 @@ const
 nsAString
 &
 path
-PRBool
+bool
 followLinks
 nsILocalFile
 *
@@ -11341,7 +11341,7 @@ const
 nsACString
 &
 path
-PRBool
+bool
 followLinks
 nsILocalFile
 *
@@ -11471,7 +11471,7 @@ Equals
 nsIHashable
 *
 aOther
-PRBool
+bool
 *
 aResult
 )
@@ -11730,7 +11730,7 @@ nsDriveEnumerator
 :
 HasMoreElements
 (
-PRBool
+bool
 *
 aHasMore
 )

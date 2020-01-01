@@ -307,7 +307,7 @@ PL_DHASH_REMOVE
 ;
 }
 static
-PRBool
+bool
 LanguagesMatch
 (
 const
@@ -599,10 +599,10 @@ PackageEntry
 return
 NS_ERROR_FAILURE
 ;
-PRBool
+bool
 safeMode
 =
-PR_FALSE
+false
 ;
 nsCOMPtr
 <
@@ -1102,7 +1102,7 @@ const
 nsACString
 &
 package
-PRBool
+bool
 *
 aResult
 )
@@ -1352,10 +1352,10 @@ prefs
 nsresult
 rv
 ;
-PRBool
+bool
 matchOSLocale
 =
-PR_FALSE
+false
 ;
 rv
 =
@@ -2371,7 +2371,7 @@ PL_DHASH_NEXT
 ;
 }
 static
-PRBool
+bool
 CanLoadResource
 (
 nsIURI
@@ -2379,10 +2379,10 @@ nsIURI
 aResourceURI
 )
 {
-PRBool
+bool
 isLocalResource
 =
-PR_FALSE
+false
 ;
 (
 void
@@ -2681,7 +2681,7 @@ str
 )
 ;
 }
-PRBool
+bool
 nsChromeRegistryChrome
 :
 :
@@ -2779,7 +2779,7 @@ PackageEntry
 )
 ;
 }
-PRBool
+bool
 nsChromeRegistryChrome
 :
 :
@@ -3300,7 +3300,7 @@ i
 -
 )
 {
-PRBool
+bool
 equals
 ;
 if
@@ -5047,10 +5047,10 @@ do_QueryInterface
 ph
 )
 ;
-PRBool
+bool
 exists
 =
-PR_FALSE
+false
 ;
 rv
 =

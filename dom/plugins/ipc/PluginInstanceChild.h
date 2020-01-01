@@ -963,7 +963,7 @@ HookSetWindowLongPtr
 ;
 static
 inline
-PRBool
+bool
 SetWindowLongHookCheck
 (
 HWND
@@ -1805,7 +1805,7 @@ MOZ_PLATFORM_MAEMO
 =
 6
 )
-PRPackedBool
+bool
 mMaemoImageRendering
 ;
 #

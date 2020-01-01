@@ -906,7 +906,7 @@ txExecutionState
 aEs
 )
 {
-PRBool
+bool
 exprRes
 ;
 nsresult
@@ -1229,7 +1229,7 @@ walker
 aNode
 )
 ;
-PRBool
+bool
 hasChild
 =
 walker
@@ -1419,7 +1419,7 @@ moveToParent
 )
 ;
 }
-PRBool
+bool
 hasChild
 =
 walker
@@ -2401,7 +2401,7 @@ txMessage
 :
 txMessage
 (
-PRBool
+bool
 aTerminate
 )
 :
@@ -3264,7 +3264,7 @@ txPushStringHandler
 :
 txPushStringHandler
 (
-PRBool
+bool
 aOnlyText
 )
 :
@@ -3908,10 +3908,10 @@ nsId
 kNameSpaceID_Unknown
 ;
 }
-PRBool
+bool
 success
 =
-PR_TRUE
+true
 ;
 if
 (
@@ -4106,7 +4106,7 @@ const
 nsAString
 &
 aStr
-PRBool
+bool
 aDOE
 )
 :
@@ -4154,7 +4154,7 @@ nsAutoPtr
 Expr
 >
 aExpr
-PRBool
+bool
 aDOE
 )
 :

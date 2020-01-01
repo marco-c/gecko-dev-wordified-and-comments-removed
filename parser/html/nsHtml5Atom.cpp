@@ -349,7 +349,7 @@ NS_ERROR_NOT_IMPLEMENTED
 }
 NS_IMETHODIMP_
 (
-PRBool
+bool
 )
 nsHtml5Atom
 :
@@ -372,7 +372,7 @@ const
 nsAString
 &
 aString
-PRBool
+bool
 *
 aResult
 )
@@ -394,7 +394,7 @@ NS_ERROR_NOT_IMPLEMENTED
 }
 NS_IMETHODIMP_
 (
-PRBool
+bool
 )
 nsHtml5Atom
 :

@@ -208,9 +208,9 @@ const
 nsAString
 &
 typeArg
-PRBool
+bool
 canBubbleArg
-PRBool
+bool
 cancelableArg
 const
 nsAString

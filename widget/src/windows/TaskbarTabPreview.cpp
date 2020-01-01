@@ -191,7 +191,7 @@ TaskbarTabPreview
 :
 ShowActive
 (
-PRBool
+bool
 active
 )
 {
@@ -631,7 +631,7 @@ wParam
 WA_ACTIVE
 )
 {
-PRBool
+bool
 activateWindow
 ;
 nsresult
@@ -732,7 +732,7 @@ wParam
 SC_MAXIMIZE
 )
 {
-PRBool
+bool
 activateWindow
 ;
 nsresult
@@ -1258,7 +1258,7 @@ DetachFromNSWindow
 )
 ;
 }
-PRBool
+bool
 TaskbarTabPreview
 :
 :
@@ -1560,7 +1560,7 @@ if
 mNext
 )
 {
-PRBool
+bool
 visible
 ;
 nsresult

@@ -58,7 +58,7 @@ gIOService
 nsnull
 ;
 static
-PRBool
+bool
 load_sync_1
 (
 nsISupports
@@ -505,7 +505,7 @@ NS_OK
 ;
 }
 static
-PRBool
+bool
 load_async_1
 (
 nsISupports
@@ -852,7 +852,7 @@ return
 nsresult
 rv
 ;
-PRBool
+bool
 sync
 ;
 if

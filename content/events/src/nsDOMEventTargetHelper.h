@@ -140,7 +140,7 @@ NS_DECL_CYCLE_COLLECTION_CLASS
 nsDOMEventTargetHelper
 )
 NS_DECL_NSIDOMEVENTTARGET
-PRBool
+bool
 HasListenersFor
 (
 const

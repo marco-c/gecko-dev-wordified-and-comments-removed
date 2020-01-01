@@ -288,7 +288,7 @@ nsSize
 aSize
 nscoord
 aSize2
-PRBool
+bool
 aIsHorizontal
 )
 {
@@ -961,7 +961,7 @@ GetTotalMargin
 nsIBox
 *
 aBox
-PRBool
+bool
 aIsHorizontal
 )
 {

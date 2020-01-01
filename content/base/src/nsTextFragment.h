@@ -258,7 +258,7 @@ nsTextFragment
 aOther
 )
 ;
-PRBool
+bool
 Is2b
 (
 )
@@ -270,7 +270,7 @@ mState
 mIs2b
 ;
 }
-PRBool
+bool
 IsBidi
 (
 )
@@ -348,7 +348,7 @@ mState
 mLength
 ;
 }
-PRBool
+bool
 CanGrowBy
 (
 size_t
@@ -390,7 +390,7 @@ PRUnichar
 aBuffer
 PRInt32
 aLength
-PRBool
+bool
 aUpdateBidi
 )
 ;
@@ -403,7 +403,7 @@ PRUnichar
 aBuffer
 PRUint32
 aLength
-PRBool
+bool
 aUpdateBidi
 )
 ;

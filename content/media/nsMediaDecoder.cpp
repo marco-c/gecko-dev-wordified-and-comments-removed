@@ -221,7 +221,7 @@ this
 )
 ;
 }
-PRBool
+bool
 nsMediaDecoder
 :
 :
@@ -330,10 +330,10 @@ GetPrimaryFrame
 (
 )
 ;
-PRBool
+bool
 invalidateFrame
 =
-PR_FALSE
+false
 ;
 {
 MutexAutoLock
@@ -515,7 +515,7 @@ nsMediaDecoder
 :
 Progress
 (
-PRBool
+bool
 aTimer
 )
 {
@@ -1006,7 +1006,7 @@ Unpin
 )
 ;
 }
-PRBool
+bool
 nsMediaDecoder
 :
 :

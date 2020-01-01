@@ -641,7 +641,7 @@ nsApplicationAccessible
 :
 SetSelected
 (
-PRBool
+bool
 aIsSelected
 )
 {
@@ -952,7 +952,7 @@ IsShutdown
 )
 ;
 }
-PRBool
+bool
 nsApplicationAccessible
 :
 :
@@ -1121,10 +1121,10 @@ rv
 )
 return
 ;
-PRBool
+bool
 hasMore
 =
-PR_FALSE
+false
 ;
 windowEnumerator
 -

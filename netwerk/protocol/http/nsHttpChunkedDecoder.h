@@ -68,7 +68,7 @@ delete
 mTrailers
 ;
 }
-PRBool
+bool
 ReachedEOF
 (
 )
@@ -150,10 +150,10 @@ mChunkRemaining
 nsCString
 mLineBuf
 ;
-PRPackedBool
+bool
 mReachedEOF
 ;
-PRPackedBool
+bool
 mWaitEOF
 ;
 }

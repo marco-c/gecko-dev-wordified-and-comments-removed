@@ -447,7 +447,7 @@ Init
 nsLocalFile
 *
 parent
-PRBool
+bool
 ignored
 )
 ;
@@ -524,7 +524,7 @@ Init
 nsLocalFile
 *
 parent
-PRBool
+bool
 resolveSymlinks
 )
 {
@@ -605,7 +605,7 @@ nsDirEnumeratorUnix
 :
 HasMoreElements
 (
-PRBool
+bool
 *
 result
 )
@@ -1031,7 +1031,7 @@ aInstancePtr
 )
 ;
 }
-PRBool
+bool
 nsLocalFile
 :
 :
@@ -2399,7 +2399,7 @@ get
 }
 else
 {
-PRBool
+bool
 targetExists
 ;
 if
@@ -2451,7 +2451,7 @@ rv
 }
 else
 {
-PRBool
+bool
 targetIsDirectory
 ;
 if
@@ -2578,7 +2578,7 @@ newParent
 nsresult
 rv
 ;
-PRBool
+bool
 dirCheck
 isSymlink
 ;
@@ -2810,10 +2810,10 @@ dirIterator
 return
 rv
 ;
-PRBool
+bool
 hasMore
 =
-PR_FALSE
+false
 ;
 while
 (
@@ -3193,7 +3193,7 @@ return
 rv
 ;
 }
-PRBool
+bool
 isDirectory
 ;
 if
@@ -3444,7 +3444,7 @@ rv
 return
 rv
 ;
-PRBool
+bool
 specialFile
 ;
 if
@@ -3856,7 +3856,7 @@ nsLocalFile
 :
 Remove
 (
-PRBool
+bool
 recursive
 )
 {
@@ -3868,7 +3868,7 @@ ENSURE_STAT_CACHE
 (
 )
 ;
-PRBool
+bool
 isSymLink
 ;
 nsresult
@@ -3968,7 +3968,7 @@ rv
 return
 rv
 ;
-PRBool
+bool
 more
 ;
 while
@@ -4854,7 +4854,7 @@ defined
 USE_LINUX_QUOTACTL
 )
 static
-PRBool
+bool
 GetDeviceName
 (
 int
@@ -4866,7 +4866,7 @@ nsACString
 deviceName
 )
 {
-PRBool
+bool
 ret
 =
 false
@@ -5510,7 +5510,7 @@ nsLocalFile
 :
 Exists
 (
-PRBool
+bool
 *
 _retval
 )
@@ -5552,7 +5552,7 @@ nsLocalFile
 :
 IsWritable
 (
-PRBool
+bool
 *
 _retval
 )
@@ -5610,7 +5610,7 @@ nsLocalFile
 :
 IsReadable
 (
-PRBool
+bool
 *
 _retval
 )
@@ -5668,7 +5668,7 @@ nsLocalFile
 :
 IsExecutable
 (
-PRBool
+bool
 *
 _retval
 )
@@ -5682,7 +5682,7 @@ NS_ENSURE_ARG_POINTER
 _retval
 )
 ;
-PRBool
+bool
 symLink
 ;
 nsresult
@@ -6083,7 +6083,7 @@ nsLocalFile
 :
 IsDirectory
 (
-PRBool
+bool
 *
 _retval
 )
@@ -6122,7 +6122,7 @@ nsLocalFile
 :
 IsFile
 (
-PRBool
+bool
 *
 _retval
 )
@@ -6161,7 +6161,7 @@ nsLocalFile
 :
 IsHidden
 (
-PRBool
+bool
 *
 _retval
 )
@@ -6207,7 +6207,7 @@ nsLocalFile
 :
 IsSymlink
 (
-PRBool
+bool
 *
 _retval
 )
@@ -6267,7 +6267,7 @@ nsLocalFile
 :
 IsSpecial
 (
-PRBool
+bool
 *
 _retval
 )
@@ -6333,7 +6333,7 @@ Equals
 nsIFile
 *
 inFile
-PRBool
+bool
 *
 _retval
 )
@@ -6408,9 +6408,9 @@ Contains
 nsIFile
 *
 inFile
-PRBool
+bool
 recur
-PRBool
+bool
 *
 _retval
 )
@@ -6974,7 +6974,7 @@ nsLocalFile
 :
 GetFollowLinks
 (
-PRBool
+bool
 *
 aFollowLinks
 )
@@ -6994,7 +6994,7 @@ nsLocalFile
 :
 SetFollowLinks
 (
-PRBool
+bool
 aFollowLinks
 )
 {
@@ -7473,7 +7473,7 @@ gnomevfs
 return
 NS_ERROR_FAILURE
 ;
-PRBool
+bool
 isDirectory
 ;
 if
@@ -8025,7 +8025,7 @@ const
 nsACString
 &
 path
-PRBool
+bool
 followSymlinks
 nsILocalFile
 *
@@ -8459,7 +8459,7 @@ Equals
 nsIHashable
 *
 aOther
-PRBool
+bool
 *
 aResult
 )
@@ -8536,7 +8536,7 @@ const
 nsAString
 &
 path
-PRBool
+bool
 followLinks
 nsILocalFile
 *
@@ -8951,7 +8951,7 @@ CHECK_mPath
 (
 )
 ;
-PRBool
+bool
 isDir
 ;
 IsDirectory
@@ -9432,11 +9432,11 @@ LaunchWithDoc
 nsILocalFile
 *
 aDocToLoad
-PRBool
+bool
 aLaunchInBackground
 )
 {
-PRBool
+bool
 isExecutable
 ;
 nsresult
@@ -9624,7 +9624,7 @@ OpenDocWithApp
 nsILocalFile
 *
 aAppToOpenWith
-PRBool
+bool
 aLaunchInBackground
 )
 {
@@ -9696,7 +9696,7 @@ appFileMac
 return
 rv
 ;
-PRBool
+bool
 isExecutable
 ;
 rv
@@ -9841,7 +9841,7 @@ nsLocalFile
 :
 IsPackage
 (
-PRBool
+bool
 *
 _retval
 )
@@ -9941,10 +9941,10 @@ nsAString
 outBundleName
 )
 {
-PRBool
+bool
 isPackage
 =
-PR_FALSE
+false
 ;
 nsresult
 rv
@@ -10184,7 +10184,7 @@ const
 FSRef
 *
 aFSRef
-PRBool
+bool
 aFollowLinks
 nsILocalFileMac
 *
@@ -10267,7 +10267,7 @@ NS_NewLocalFileWithCFURL
 const
 CFURLRef
 aURL
-PRBool
+bool
 aFollowLinks
 nsILocalFileMac
 *

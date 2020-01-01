@@ -209,7 +209,7 @@ const
 ;
 protected
 :
-PRBool
+bool
 IsMulticolumn
 (
 )
@@ -302,7 +302,7 @@ aSetSize
 )
 ;
 virtual
-PRBool
+bool
 GetAllowsAnonChildAccessibles
 (
 )
@@ -325,7 +325,7 @@ GetListAccessible
 ;
 private
 :
-PRBool
+bool
 mIsCheckbox
 ;
 }

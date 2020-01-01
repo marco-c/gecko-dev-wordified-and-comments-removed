@@ -141,7 +141,7 @@ aBuffer
 StringType
 &
 aLine
-PRBool
+bool
 *
 more
 )

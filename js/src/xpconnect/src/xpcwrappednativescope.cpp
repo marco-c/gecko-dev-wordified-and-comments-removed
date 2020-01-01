@@ -39,7 +39,7 @@ int
 DEBUG_TotalScopeTraversalCount
 ;
 static
-PRBool
+bool
 DEBUG_DumpedStats
 ;
 #

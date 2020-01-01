@@ -37,7 +37,7 @@ nsIAtom
 {
 public
 :
-PRBool
+bool
 Equals
 (
 const
@@ -73,7 +73,7 @@ PRInt32
 {
 public
 :
-PRBool
+bool
 Equals
 (
 const
@@ -105,7 +105,7 @@ nsXMLNameSpaceMap
 :
 Create
 (
-PRBool
+bool
 aForXML
 )
 {

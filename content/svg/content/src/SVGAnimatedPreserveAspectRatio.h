@@ -175,7 +175,7 @@ mMeetOrSlice
 void
 SetDefer
 (
-PRBool
+bool
 aDefer
 )
 {
@@ -185,7 +185,7 @@ aDefer
 ;
 }
 ;
-PRBool
+bool
 GetDefer
 (
 )
@@ -204,7 +204,7 @@ mAlign
 PRUint8
 mMeetOrSlice
 ;
-PRPackedBool
+bool
 mDefer
 ;
 }
@@ -266,7 +266,7 @@ aValue
 nsSVGElement
 *
 aSVGElement
-PRBool
+bool
 aDoSetAttr
 )
 ;
@@ -332,7 +332,7 @@ return
 mAnimVal
 ;
 }
-PRBool
+bool
 IsAnimated
 (
 )
@@ -342,7 +342,7 @@ return
 mIsAnimated
 ;
 }
-PRBool
+bool
 IsExplicitlySet
 (
 )
@@ -389,10 +389,10 @@ mAnimVal
 SVGPreserveAspectRatio
 mBaseVal
 ;
-PRPackedBool
+bool
 mIsAnimated
 ;
-PRPackedBool
+bool
 mIsBaseSet
 ;
 nsresult
@@ -830,7 +830,7 @@ aSrcElement
 nsSMILValue
 &
 aValue
-PRBool
+bool
 &
 aPreventCachingOfSandwich
 )

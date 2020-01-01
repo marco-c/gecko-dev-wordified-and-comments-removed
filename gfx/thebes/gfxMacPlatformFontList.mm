@@ -939,7 +939,7 @@ aWeight
 gfxFontFamily
 *
 aFamily
-PRBool
+bool
 aIsStandardFace
 )
 :
@@ -1192,7 +1192,7 @@ return
 NS_ERROR_FAILURE
 ;
 }
-PRPackedBool
+bool
 unicodeFont
 symbolFont
 ;
@@ -1284,7 +1284,7 @@ or
 opentype
 layout
 tables
-PRBool
+bool
 hasAATLayout
 =
 HasFontTable
@@ -1326,7 +1326,7 @@ t
 )
 )
 ;
-PRBool
+bool
 hasGSUB
 =
 HasFontTable
@@ -1348,7 +1348,7 @@ B
 )
 )
 ;
-PRBool
+bool
 hasGPOS
 =
 HasFontTable
@@ -1471,10 +1471,10 @@ rangeEnd
 )
 )
 {
-PRBool
+bool
 omitRange
 =
-PR_TRUE
+true
 ;
 if
 (
@@ -1759,7 +1759,7 @@ const
 gfxFontStyle
 *
 aFontStyle
-PRBool
+bool
 aNeedsBold
 )
 {
@@ -1773,7 +1773,7 @@ aNeedsBold
 )
 ;
 }
-PRBool
+bool
 MacOSFontEntry
 :
 :
@@ -1850,7 +1850,7 @@ aWeight
 gfxFontFamily
 *
 aFamily
-PRBool
+bool
 aIsStandardFace
 )
 :
@@ -1891,7 +1891,7 @@ aItalicStyle
 gfxUserFontData
 *
 aUserFontData
-PRBool
+bool
 aIsLocal
 )
 :
@@ -2193,7 +2193,7 @@ return
 NS_OK
 ;
 }
-PRBool
+bool
 ATSFontEntry
 :
 :
@@ -2272,7 +2272,7 @@ aWeight
 gfxFontFamily
 *
 aFamily
-PRBool
+bool
 aIsStandardFace
 )
 :
@@ -2302,9 +2302,9 @@ PRUint16
 aStretch
 PRUint32
 aItalicStyle
-PRBool
+bool
 aIsUserFont
-PRBool
+bool
 aIsLocal
 )
 :
@@ -2543,7 +2543,7 @@ return
 rval
 ;
 }
-PRBool
+bool
 CGFontEntry
 :
 :
@@ -2832,7 +2832,7 @@ the
 same
 weight
 value
-PRBool
+bool
 needToCheckLightFaces
 =
 (
@@ -2926,10 +2926,10 @@ objectAtIndex
 INDEX_FONT_FACE_NAME
 ]
 ;
-PRBool
+bool
 isStandardFace
 =
-PR_FALSE
+false
 ;
 if
 (
@@ -4285,7 +4285,7 @@ doesn
 t
 exist
 already
-PRBool
+bool
 found
 ;
 gfxFontFamily
@@ -4391,7 +4391,7 @@ endif
 }
 }
 }
-PRBool
+bool
 gfxMacPlatformFontList
 :
 :
@@ -4755,7 +4755,7 @@ const
 gfxFontStyle
 *
 aStyle
-PRBool
+bool
 &
 aNeedsBold
 )

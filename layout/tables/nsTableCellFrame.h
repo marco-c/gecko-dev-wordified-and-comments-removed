@@ -239,7 +239,7 @@ aReflowState
 )
 ;
 virtual
-PRBool
+bool
 NeedsToObserve
 (
 const
@@ -347,7 +347,7 @@ GetType
 const
 ;
 virtual
-PRBool
+bool
 IsContainingBlock
 (
 )
@@ -380,7 +380,7 @@ GetVerticalAlign
 )
 const
 ;
-PRBool
+bool
 HasVerticalAlignBaseline
 (
 )
@@ -395,7 +395,7 @@ GetVerticalAlign
 NS_STYLE_VERTICAL_ALIGN_BASELINE
 ;
 }
-PRBool
+bool
 CellHasVisibleContent
 (
 nscoord
@@ -494,7 +494,7 @@ nsHTMLReflowMetrics
 aDesiredSize
 )
 ;
-PRBool
+bool
 GetContentEmpty
 (
 )
@@ -502,11 +502,11 @@ GetContentEmpty
 void
 SetContentEmpty
 (
-PRBool
+bool
 aContentEmpty
 )
 ;
-PRBool
+bool
 HasPctOverHeight
 (
 )
@@ -514,7 +514,7 @@ HasPctOverHeight
 void
 SetHasPctOverHeight
 (
-PRBool
+bool
 aValue
 )
 ;
@@ -666,7 +666,7 @@ height
 ;
 }
 inline
-PRBool
+bool
 nsTableCellFrame
 :
 :
@@ -692,7 +692,7 @@ nsTableCellFrame
 :
 SetContentEmpty
 (
-PRBool
+bool
 aContentEmpty
 )
 {
@@ -718,7 +718,7 @@ NS_TABLE_CELL_CONTENT_EMPTY
 }
 }
 inline
-PRBool
+bool
 nsTableCellFrame
 :
 :
@@ -744,7 +744,7 @@ nsTableCellFrame
 :
 SetHasPctOverHeight
 (
-PRBool
+bool
 aValue
 )
 {
@@ -806,7 +806,7 @@ GetUsedBorder
 const
 ;
 virtual
-PRBool
+bool
 GetBorderRadii
 (
 nscoord

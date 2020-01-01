@@ -11438,7 +11438,7 @@ callback
 "
 )
 ;
-PRBool
+bool
 found
 =
 extraGCCallbacks

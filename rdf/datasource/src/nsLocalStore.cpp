@@ -263,7 +263,7 @@ aProperty
 nsIRDFNode
 *
 aTarget
-PRBool
+bool
 aTruthValue
 nsIRDFResource
 *
@@ -293,7 +293,7 @@ aProperty
 nsIRDFNode
 *
 aTarget
-PRBool
+bool
 aTruthValue
 nsISimpleEnumerator
 *
@@ -323,7 +323,7 @@ aSource
 nsIRDFResource
 *
 aProperty
-PRBool
+bool
 aTruthValue
 nsIRDFNode
 *
@@ -353,7 +353,7 @@ aSource
 nsIRDFResource
 *
 aProperty
-PRBool
+bool
 aTruthValue
 nsISimpleEnumerator
 *
@@ -386,7 +386,7 @@ aProperty
 nsIRDFNode
 *
 aTarget
-PRBool
+bool
 aTruthValue
 )
 {
@@ -501,9 +501,9 @@ aProperty
 nsIRDFNode
 *
 aTarget
-PRBool
+bool
 aTruthValue
-PRBool
+bool
 *
 hasAssertion
 )
@@ -555,7 +555,7 @@ aNode
 nsIRDFResource
 *
 aArc
-PRBool
+bool
 *
 _retval
 )
@@ -581,7 +581,7 @@ aSource
 nsIRDFResource
 *
 aArc
-PRBool
+bool
 *
 _retval
 )
@@ -687,7 +687,7 @@ aCommand
 nsISupportsArray
 *
 aArguments
-PRBool
+bool
 *
 aResult
 )
@@ -737,7 +737,7 @@ EndUpdateBatch
 NS_IMETHOD
 GetLoaded
 (
-PRBool
+bool
 *
 _result
 )
@@ -768,7 +768,7 @@ aURI
 NS_IMETHOD
 Refresh
 (
-PRBool
+bool
 sync
 )
 ;
@@ -971,7 +971,7 @@ LocalStoreImpl
 :
 GetLoaded
 (
-PRBool
+bool
 *
 _result
 )
@@ -1107,7 +1107,7 @@ LocalStoreImpl
 :
 Refresh
 (
-PRBool
+bool
 sync
 )
 {
@@ -1476,10 +1476,10 @@ defaultRDF
 return
 NS_ERROR_UNEXPECTED
 ;
-PRBool
+bool
 fileExistsFlag
 =
-PR_FALSE
+false
 ;
 aFile
 -
@@ -1540,10 +1540,10 @@ rv
 return
 rv
 ;
-PRBool
+bool
 fileExistsFlag
 =
-PR_FALSE
+false
 ;
 (
 void
@@ -1858,7 +1858,7 @@ aCommand
 nsISupportsArray
 *
 aArguments
-PRBool
+bool
 *
 aResult
 )

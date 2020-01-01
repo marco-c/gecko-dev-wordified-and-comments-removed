@@ -86,7 +86,7 @@ ClearGroupsHash
 protected
 :
 static
-PRBool
+bool
 ClearEnumerator
 (
 nsHashKey

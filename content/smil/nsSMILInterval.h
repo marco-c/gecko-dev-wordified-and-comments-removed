@@ -43,10 +43,10 @@ nsSMILInterval
 void
 Unlink
 (
-PRBool
+bool
 aFiltered
 =
-PR_FALSE
+false
 )
 ;
 const
@@ -208,7 +208,7 @@ InstanceTimeList
 aTimes
 )
 ;
-PRBool
+bool
 IsDependencyChainLink
 (
 )
@@ -231,10 +231,10 @@ mEnd
 InstanceTimeList
 mDependentTimes
 ;
-PRPackedBool
+bool
 mBeginFixed
 ;
-PRPackedBool
+bool
 mEndFixed
 ;
 }

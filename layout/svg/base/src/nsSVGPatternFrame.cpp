@@ -713,7 +713,7 @@ Height
 (
 )
 ;
-PRBool
+bool
 resultOverflows
 ;
 gfxIntSize

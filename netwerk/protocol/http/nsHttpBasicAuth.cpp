@@ -82,7 +82,7 @@ const
 char
 *
 challenge
-PRBool
+bool
 isProxyAuth
 nsISupports
 *
@@ -92,7 +92,7 @@ nsISupports
 *
 *
 continuationState
-PRBool
+bool
 *
 identityInvalid
 )
@@ -119,7 +119,7 @@ const
 char
 *
 challenge
-PRBool
+bool
 isProxyAuth
 const
 PRUnichar
@@ -181,7 +181,7 @@ aFlags
 =
 0
 ;
-PRBool
+bool
 isBasicAuth
 =
 !

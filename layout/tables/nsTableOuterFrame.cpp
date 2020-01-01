@@ -250,7 +250,7 @@ nsSize
 aBorder
 nsSize
 aPadding
-PRBool
+bool
 aShrinkWrap
 )
 {
@@ -690,7 +690,7 @@ nsnull
 }
 #
 endif
-PRBool
+bool
 nsTableOuterFrame
 :
 :
@@ -1425,7 +1425,7 @@ nsTableOuterFrame
 :
 SetSelected
 (
-PRBool
+bool
 aSelected
 SelectionType
 aType
@@ -2165,7 +2165,7 @@ nsSize
 aBorder
 nsSize
 aPadding
-PRBool
+bool
 aShrinkWrap
 )
 {
@@ -4316,7 +4316,7 @@ GetVisualOverflowRect
 (
 )
 ;
-PRBool
+bool
 innerFirstReflow
 =
 (
@@ -4341,7 +4341,7 @@ origCaptionRect
 nsRect
 origCaptionVisualOverflow
 ;
-PRBool
+bool
 captionFirstReflow
 ;
 if
@@ -5126,7 +5126,7 @@ aActualRowSpan
 PRInt32
 &
 aActualColSpan
-PRBool
+bool
 &
 aIsSelected
 )

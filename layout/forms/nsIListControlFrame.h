@@ -83,7 +83,7 @@ virtual
 void
 CaptureMouseEvents
 (
-PRBool
+bool
 aGrabMouseEvents
 )
 =

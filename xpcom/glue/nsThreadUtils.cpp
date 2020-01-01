@@ -346,10 +346,10 @@ NS_IsMainThread
 (
 )
 {
-PRBool
+bool
 result
 =
-PR_FALSE
+false
 ;
 nsCOMPtr
 <
@@ -429,10 +429,10 @@ NS_IsMainThread
 (
 )
 {
-PRBool
+bool
 result
 =
-PR_FALSE
+false
 ;
 nsThreadManager
 :
@@ -664,7 +664,7 @@ for
 ;
 )
 {
-PRBool
+bool
 processedEvent
 ;
 rv
@@ -712,7 +712,7 @@ rv
 #
 endif
 inline
-PRBool
+bool
 hasPendingEvents
 (
 nsIThread
@@ -720,7 +720,7 @@ nsIThread
 thread
 )
 {
-PRBool
+bool
 val
 ;
 return
@@ -740,7 +740,7 @@ val
 val
 ;
 }
-PRBool
+bool
 NS_HasPendingEvents
 (
 nsIThread
@@ -801,13 +801,13 @@ thread
 )
 ;
 }
-PRBool
+bool
 NS_ProcessNextEvent
 (
 nsIThread
 *
 thread
-PRBool
+bool
 mayWait
 )
 {
@@ -872,7 +872,7 @@ get
 }
 #
 endif
-PRBool
+bool
 val
 ;
 return

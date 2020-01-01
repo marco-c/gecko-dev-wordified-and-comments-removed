@@ -523,7 +523,7 @@ nsGkAtoms
 placeholderFrame
 ;
 }
-PRBool
+bool
 nsPlaceholderFrame
 :
 :

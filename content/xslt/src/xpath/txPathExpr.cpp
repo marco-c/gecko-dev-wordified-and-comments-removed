@@ -908,7 +908,7 @@ expr
 aExpr
 ;
 }
-PRBool
+bool
 PathExpr
 :
 :

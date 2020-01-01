@@ -93,7 +93,7 @@ GetStandardEditMenuItem
 (
 )
 ;
-PRBool
+bool
 NodeIsHiddenOrCollapsed
 (
 nsIContent

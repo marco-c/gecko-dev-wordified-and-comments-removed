@@ -897,13 +897,13 @@ nsCocoaWindow
 .
 mm
 extern
-PRBool
+bool
 gConsumeRollupEvent
 ;
-PRBool
+bool
 gChildViewMethodsSwizzled
 =
-PR_FALSE
+false
 ;
 extern
 nsISupportsArray
@@ -985,10 +985,10 @@ gRollupWidget
 =
 nsnull
 ;
-PRBool
+bool
 gUserCancelledDrag
 =
-PR_FALSE
+false
 ;
 PRUint32
 nsChildView
@@ -3481,7 +3481,7 @@ nsChildView
 :
 IsVisible
 (
-PRBool
+bool
 &
 outState
 )
@@ -4194,7 +4194,7 @@ nsChildView
 :
 Show
 (
-PRBool
+bool
 aState
 )
 {
@@ -4586,7 +4586,7 @@ nsChildView
 :
 Enable
 (
-PRBool
+bool
 aState
 )
 {
@@ -4600,7 +4600,7 @@ nsChildView
 :
 IsEnabled
 (
-PRBool
+bool
 *
 aState
 )
@@ -4627,7 +4627,7 @@ nsChildView
 :
 SetFocus
 (
-PRBool
+bool
 aRaise
 )
 {
@@ -4841,7 +4841,7 @@ nsChildView
 :
 ConstrainPosition
 (
-PRBool
+bool
 aAllowSlop
 PRInt32
 *
@@ -4972,7 +4972,7 @@ PRInt32
 aWidth
 PRInt32
 aHeight
-PRBool
+bool
 aRepaint
 )
 {
@@ -5073,7 +5073,7 @@ PRInt32
 aWidth
 PRInt32
 aHeight
-PRBool
+bool
 aRepaint
 )
 {
@@ -5251,7 +5251,7 @@ resizeIndicatorHeight
 =
 15
 ;
-PRBool
+bool
 nsChildView
 :
 :
@@ -5614,7 +5614,7 @@ outClipRect
 nsIntPoint
 &
 outOrigin
-PRBool
+bool
 &
 outWidgetVisible
 )
@@ -5830,7 +5830,7 @@ viewOrigin
 y
 )
 ;
-PRBool
+bool
 isVisible
 ;
 IsVisible
@@ -6418,7 +6418,7 @@ or
 paint
 .
 )
-PRBool
+bool
 isQDPlugin
 =
 [
@@ -6738,7 +6738,7 @@ if
 pluginRegion
 )
 {
-PRBool
+bool
 portChanged
 =
 (
@@ -6820,7 +6820,7 @@ coordinates
 nsIntPoint
 origin
 ;
-PRBool
+bool
 visible
 ;
 GetPluginClipRect
@@ -8228,7 +8228,7 @@ const
 nsIntRect
 &
 aRect
-PRBool
+bool
 aIsSynchronous
 )
 {
@@ -8334,7 +8334,7 @@ NS_OK
 NS_OBJC_END_TRY_ABORT_BLOCK_NSRESULT
 ;
 }
-PRBool
+bool
 nsChildView
 :
 :
@@ -8688,10 +8688,10 @@ IsEmpty
 )
 )
 ;
-PRBool
+bool
 repaint
 =
-PR_FALSE
+false
 ;
 #
 ifndef
@@ -8953,7 +8953,7 @@ mParentWidget
 ;
 }
 }
-PRBool
+bool
 restoreIsDispatchPaint
 =
 mIsDispatchPaint
@@ -8993,7 +8993,7 @@ return
 NS_OK
 ;
 }
-PRBool
+bool
 nsChildView
 :
 :
@@ -9025,7 +9025,7 @@ status
 pragma
 mark
 -
-PRBool
+bool
 nsChildView
 :
 :
@@ -9056,7 +9056,7 @@ event
 )
 ;
 }
-PRBool
+bool
 nsChildView
 :
 :
@@ -9107,7 +9107,7 @@ moveEvent
 )
 ;
 }
-PRBool
+bool
 nsChildView
 :
 :
@@ -9363,9 +9363,9 @@ aListener
 nsIMenuRollup
 *
 aMenuRollup
-PRBool
+bool
 aDoCapture
-PRBool
+bool
 aConsumeRollupEvent
 )
 {
@@ -9443,7 +9443,7 @@ NS_OBJC_END_TRY_ABORT_BLOCK_NSRESULT
 static
 *
 /
-PRBool
+bool
 nsChildView
 :
 :
@@ -9610,7 +9610,7 @@ GetCurrentInputEventCount
 )
 ;
 }
-PRBool
+bool
 nsChildView
 :
 :
@@ -9711,7 +9711,7 @@ nsChildView
 :
 SetIMEOpenState
 (
-PRBool
+bool
 aState
 )
 {
@@ -9753,7 +9753,7 @@ nsChildView
 :
 GetIMEOpenState
 (
-PRBool
+bool
 *
 aState
 )
@@ -9966,7 +9966,7 @@ GetToggledKeyState
 (
 PRUint32
 aKeyCode
-PRBool
+bool
 *
 aLEDState
 )
@@ -10053,7 +10053,7 @@ nsChildView
 :
 OnIMEFocusChange
 (
-PRBool
+bool
 aFocus
 )
 {
@@ -13969,7 +13969,7 @@ CGContextRef
 )
 aContext
 {
-PRBool
+bool
 isVisible
 ;
 if
@@ -14845,7 +14845,7 @@ kungFuDeathGrip
 self
 )
 ;
-PRBool
+bool
 painted
 ;
 {
@@ -16083,10 +16083,10 @@ is
 to
 roll
 up
-PRBool
+bool
 shouldRollup
 =
-PR_TRUE
+true
 ;
 /
 /
@@ -22018,7 +22018,7 @@ scrollDeltaPixels
 =
 0
 ;
-PRBool
+bool
 checkPixels
 =
 Preferences
@@ -24401,10 +24401,10 @@ kungFuDeathGrip
 self
 )
 ;
-PRBool
+bool
 handled
 =
-PR_FALSE
+false
 ;
 if
 (
@@ -25953,10 +25953,10 @@ the
 Drag
 Session
 .
-PRBool
+bool
 canDrop
 =
-PR_FALSE
+false
 ;
 if
 (

@@ -98,9 +98,9 @@ const
 nsAString
 &
 aEventTypeArg
-PRBool
+bool
 aCanBubbleArg
-PRBool
+bool
 aCancelableArg
 nsIDOMDeviceAcceleration
 *

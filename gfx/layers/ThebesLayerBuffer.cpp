@@ -550,7 +550,7 @@ aFlags
 PaintState
 result
 ;
-PRBool
+bool
 canHaveRotation
 =
 !
@@ -576,7 +576,7 @@ contentType
 nsIntRegion
 neededRegion
 ;
-PRBool
+bool
 canReuseBuffer
 ;
 nsIntRect
@@ -1220,7 +1220,7 @@ buffer
 "
 )
 ;
-PRBool
+bool
 isClear
 =
 mBuffer

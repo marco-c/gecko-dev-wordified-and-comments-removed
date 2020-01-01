@@ -636,7 +636,7 @@ return
 mResult
 ;
 }
-PRBool
+bool
 GetCompleted
 (
 )
@@ -677,7 +677,7 @@ nsIEventTarget
 target
 )
 ;
-PRBool
+bool
 IsSync
 (
 )
@@ -736,14 +736,14 @@ mOwner
 void
 RefCountInInterfacePointers
 (
-PRBool
+bool
 addRef
 )
 ;
 void
 CopyStrings
 (
-PRBool
+bool
 copy
 )
 ;
@@ -800,7 +800,7 @@ GetInstance
 )
 ;
 static
-PRBool
+bool
 IsManagerShutdown
 (
 )

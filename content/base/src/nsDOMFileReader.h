@@ -421,10 +421,10 @@ mResult
 PRUint16
 mReadyState
 ;
-PRBool
+bool
 mProgressEventWasDelayed
 ;
-PRBool
+bool
 mTimerIsActive
 ;
 nsCOMPtr

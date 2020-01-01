@@ -577,7 +577,7 @@ TaskbarPreview
 :
 SetVisible
 (
-PRBool
+bool
 visible
 )
 {
@@ -621,7 +621,7 @@ TaskbarPreview
 :
 GetVisible
 (
-PRBool
+bool
 *
 visible
 )
@@ -641,7 +641,7 @@ TaskbarPreview
 :
 SetActive
 (
-PRBool
+bool
 active
 )
 {
@@ -684,7 +684,7 @@ TaskbarPreview
 :
 GetActive
 (
-PRBool
+bool
 *
 active
 )
@@ -914,7 +914,7 @@ return
 NS_OK
 ;
 }
-PRBool
+bool
 TaskbarPreview
 :
 :
@@ -1193,7 +1193,7 @@ lParam
 )
 ;
 }
-PRBool
+bool
 TaskbarPreview
 :
 :
@@ -1319,7 +1319,7 @@ EnableCustomDrawing
 (
 HWND
 aHWND
-PRBool
+bool
 aEnable
 )
 {
@@ -1417,7 +1417,7 @@ PRUint32
 width
 PRUint32
 height
-PRBool
+bool
 isPreview
 )
 {
@@ -1481,10 +1481,10 @@ rv
 )
 return
 ;
-PRBool
+bool
 drawFrame
 =
-PR_FALSE
+false
 ;
 if
 (
@@ -1601,7 +1601,7 @@ ResetRenderingContext
 )
 ;
 }
-PRBool
+bool
 TaskbarPreview
 :
 :

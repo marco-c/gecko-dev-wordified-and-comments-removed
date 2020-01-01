@@ -1365,7 +1365,7 @@ nsBMPEncoder
 :
 IsNonBlocking
 (
-PRBool
+bool
 *
 _retval
 )

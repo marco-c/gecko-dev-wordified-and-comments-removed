@@ -61,7 +61,7 @@ widget
 {
 namespace
 {
-PRBool
+bool
 WindowHookProc
 (
 void
@@ -331,7 +331,7 @@ TaskbarWindowPreview
 :
 ShowActive
 (
-PRBool
+bool
 active
 )
 {
@@ -521,7 +521,7 @@ TaskbarWindowPreview
 :
 SetEnableCustomDrawing
 (
-PRBool
+bool
 aEnable
 )
 {
@@ -623,7 +623,7 @@ TaskbarWindowPreview
 :
 GetEnableCustomDrawing
 (
-PRBool
+bool
 *
 aEnable
 )
@@ -760,7 +760,7 @@ if
 aStatusIcon
 )
 {
-PRBool
+bool
 isAnimated
 ;
 rv
@@ -1122,7 +1122,7 @@ lParam
 )
 ;
 }
-PRBool
+bool
 TaskbarWindowPreview
 :
 :

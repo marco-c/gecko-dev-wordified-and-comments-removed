@@ -95,7 +95,7 @@ nsXULTemplateResultStorage
 :
 GetIsContainer
 (
-PRBool
+bool
 *
 aIsContainer
 )
@@ -115,7 +115,7 @@ nsXULTemplateResultStorage
 :
 GetIsEmpty
 (
-PRBool
+bool
 *
 aIsEmpty
 )
@@ -135,7 +135,7 @@ nsXULTemplateResultStorage
 :
 GetMayProcessChildren
 (
-PRBool
+bool
 *
 aMayProcessChildren
 )

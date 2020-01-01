@@ -527,7 +527,7 @@ Run
 ;
 protected
 :
-PRBool
+bool
 IsCancelled
 (
 )
@@ -1328,7 +1328,7 @@ nsHTMLMediaElement
 :
 GetMozAutoplayEnabled
 (
-PRBool
+bool
 *
 aAutoplayEnabled
 )
@@ -1372,7 +1372,7 @@ nsHTMLMediaElement
 :
 GetEnded
 (
-PRBool
+bool
 *
 aEnded
 )
@@ -1583,10 +1583,10 @@ mCurrentLoadID
 +
 +
 ;
-PRBool
+bool
 fireTimeUpdate
 =
-PR_FALSE
+false
 ;
 if
 (
@@ -2032,7 +2032,7 @@ NS_OK
 ;
 }
 static
-PRBool
+bool
 HasSourceChildren
 (
 nsIContent
@@ -2468,7 +2468,7 @@ aTime
 )
 ;
 }
-PRBool
+bool
 nsHTMLMediaElement
 :
 :
@@ -2963,7 +2963,7 @@ LoadFromSourceChildren
 }
 }
 static
-PRBool
+bool
 IsAutoplayEnabled
 (
 )
@@ -3929,7 +3929,7 @@ nsHTMLMediaElement
 :
 GetSeeking
 (
-PRBool
+bool
 *
 aSeeking
 )
@@ -4283,7 +4283,7 @@ nsHTMLMediaElement
 :
 GetPaused
 (
-PRBool
+bool
 *
 aPaused
 )
@@ -4359,7 +4359,7 @@ Pause
 )
 ;
 }
-PRBool
+bool
 oldPaused
 =
 mPaused
@@ -4652,7 +4652,7 @@ nsHTMLMediaElement
 :
 GetMuted
 (
-PRBool
+bool
 *
 aMuted
 )
@@ -4672,7 +4672,7 @@ nsHTMLMediaElement
 :
 SetMuted
 (
-PRBool
+bool
 aMuted
 )
 {
@@ -5091,7 +5091,7 @@ nsHTMLMediaElement
 :
 SetPlayedOrSeeked
 (
-PRBool
+bool
 aValue
 )
 {
@@ -5360,7 +5360,7 @@ return
 NS_OK
 ;
 }
-PRBool
+bool
 nsHTMLMediaElement
 :
 :
@@ -5556,7 +5556,7 @@ const
 nsAString
 &
 aValue
-PRBool
+bool
 aNotify
 )
 {
@@ -5691,7 +5691,7 @@ aNameSpaceID
 nsIAtom
 *
 aAttr
-PRBool
+bool
 aNotify
 )
 {
@@ -5786,7 +5786,7 @@ aParent
 nsIContent
 *
 aBindingParent
-PRBool
+bool
 aCompileEventHandlers
 )
 {
@@ -5851,9 +5851,9 @@ nsHTMLMediaElement
 :
 UnbindFromTree
 (
-PRBool
+bool
 aDeep
-PRBool
+bool
 aNullParent
 )
 {
@@ -5930,7 +5930,7 @@ nsnull
 }
 ;
 static
-PRBool
+bool
 IsRawEnabled
 (
 )
@@ -5952,7 +5952,7 @@ enabled
 ;
 }
 static
-PRBool
+bool
 IsRawType
 (
 const
@@ -6575,7 +6575,7 @@ return
 CANPLAY_NO
 ;
 }
-PRBool
+bool
 nsHTMLMediaElement
 :
 :
@@ -6646,7 +6646,7 @@ PR_FALSE
 ;
 }
 static
-PRBool
+bool
 CodecListContains
 (
 char
@@ -6819,10 +6819,10 @@ codecs
 '
 )
 ;
-PRBool
+bool
 expectMoreTokens
 =
-PR_FALSE
+false
 ;
 while
 (
@@ -7670,7 +7670,7 @@ rv
 rv
 )
 ;
-PRBool
+bool
 equal
 ;
 if
@@ -7916,7 +7916,7 @@ nsHTMLMediaElement
 :
 FirstFrameLoaded
 (
-PRBool
+bool
 aResourceFullyLoaded
 )
 {
@@ -8548,7 +8548,7 @@ stalled
 ;
 }
 }
-PRBool
+bool
 nsHTMLMediaElement
 :
 :
@@ -8567,7 +8567,7 @@ media
 .
 enforce_same_site_origin
 "
-PR_TRUE
+true
 )
 ;
 }
@@ -8990,7 +8990,7 @@ canplaythrough
 ;
 }
 }
-PRBool
+bool
 nsHTMLMediaElement
 :
 :
@@ -9308,7 +9308,7 @@ rv
 rv
 )
 ;
-PRBool
+bool
 dummy
 ;
 return
@@ -9527,7 +9527,7 @@ return
 NS_OK
 ;
 }
-PRBool
+bool
 nsHTMLMediaElement
 :
 :
@@ -9567,7 +9567,7 @@ IsPlaybackEnded
 )
 ;
 }
-PRBool
+bool
 nsHTMLMediaElement
 :
 :
@@ -9657,7 +9657,7 @@ GetOwnerDoc
 (
 )
 ;
-PRBool
+bool
 pauseForInactiveDocument
 =
 ownerDoc
@@ -9780,7 +9780,7 @@ GetOwnerDoc
 (
 )
 ;
-PRBool
+bool
 needSelfReference
 =
 !
@@ -9974,7 +9974,7 @@ return
 NS_OK
 ;
 }
-PRBool
+bool
 nsHTMLMediaElement
 :
 :
@@ -10357,7 +10357,7 @@ nsHTMLMediaElement
 :
 ChangeDelayLoadStatus
 (
-PRBool
+bool
 aDelay
 )
 {
@@ -10870,7 +10870,7 @@ nsHTMLMediaElement
 :
 FireTimeUpdate
 (
-PRBool
+bool
 aPeriodic
 )
 {

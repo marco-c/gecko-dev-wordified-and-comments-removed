@@ -1570,10 +1570,10 @@ jar
 =
 false
 ;
-PRBool
+bool
 equals
 =
-PR_FALSE
+false
 ;
 appDir
 -
@@ -7175,7 +7175,7 @@ const
 nsIID
 &
 aIID
-PRBool
+bool
 *
 result
 )
@@ -7355,7 +7355,7 @@ const
 nsIID
 &
 aIID
-PRBool
+bool
 *
 result
 )
@@ -8477,7 +8477,7 @@ const
 nsCID
 &
 aClass
-PRBool
+bool
 *
 _retval
 )
@@ -8509,7 +8509,7 @@ const
 char
 *
 aClass
-PRBool
+bool
 *
 _retval
 )

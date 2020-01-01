@@ -104,7 +104,7 @@ nsXULTemplateResultRDF
 :
 GetIsContainer
 (
-PRBool
+bool
 *
 aIsContainer
 )
@@ -152,7 +152,7 @@ nsXULTemplateResultRDF
 :
 GetIsEmpty
 (
-PRBool
+bool
 *
 aIsEmpty
 )
@@ -200,7 +200,7 @@ nsXULTemplateResultRDF
 :
 GetMayProcessChildren
 (
-PRBool
+bool
 *
 aMayProcessChildren
 )
@@ -319,7 +319,7 @@ if
 processor
 )
 {
-PRBool
+bool
 found
 ;
 rv
@@ -594,7 +594,7 @@ aValue
 )
 ;
 }
-PRBool
+bool
 nsXULTemplateResultRDF
 :
 :
@@ -659,7 +659,7 @@ return
 PR_FALSE
 ;
 }
-PRBool
+bool
 nsXULTemplateResultRDF
 :
 :

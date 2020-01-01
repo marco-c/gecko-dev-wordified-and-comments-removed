@@ -387,7 +387,7 @@ this
 }
 NS_IMETHODIMP_
 (
-PRBool
+bool
 )
 nsSVGTextPathElement
 :
@@ -439,7 +439,7 @@ name
 )
 ;
 }
-PRBool
+bool
 nsSVGTextPathElement
 :
 :

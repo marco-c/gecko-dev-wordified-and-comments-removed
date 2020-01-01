@@ -110,7 +110,7 @@ aArray
 nsISupports
 *
 aElement
-PRBool
+bool
 aOwnsWeak
 )
 {

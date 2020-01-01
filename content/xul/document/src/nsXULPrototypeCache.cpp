@@ -160,10 +160,10 @@ mozilla
 scache
 ;
 static
-PRBool
+bool
 gDisableXULCache
 =
-PR_FALSE
+false
 ;
 static
 const
@@ -1364,7 +1364,7 @@ Clear
 )
 ;
 }
-PRBool
+bool
 nsXULPrototypeCache
 :
 :
@@ -1378,10 +1378,10 @@ gDisableXULCache
 ;
 }
 static
-PRBool
+bool
 gDisableXULDiskCache
 =
-PR_FALSE
+false
 ;
 void
 nsXULPrototypeCache
@@ -1734,7 +1734,7 @@ nsIStorageStream
 >
 storageStream
 ;
-PRBool
+bool
 found
 =
 mOutputStreamTable
@@ -1868,7 +1868,7 @@ nsIStorageStream
 >
 storageStream
 ;
-PRBool
+bool
 found
 =
 mOutputStreamTable
@@ -2003,7 +2003,7 @@ HasData
 nsIURI
 *
 uri
-PRBool
+bool
 *
 exists
 )
@@ -2167,7 +2167,7 @@ void
 aClosure
 )
 {
-PRBool
+bool
 wasEnabled
 =
 !

@@ -121,11 +121,11 @@ const
 nsHTMLReflowMetrics
 &
 aMetrics
-PRBool
+bool
 aTopMarginRoot
-PRBool
+bool
 aBottomMarginRoot
-PRBool
+bool
 aBlockNeedsFloatManager
 )
 :
@@ -485,7 +485,7 @@ nsIFrame
 aFrame
 PRInt32
 aCount
-PRBool
+bool
 aIsBlock
 )
 {
@@ -826,7 +826,7 @@ const
 nsFlowAreaRect
 &
 aFloatAvailableSpace
-PRBool
+bool
 aBlockAvoidsFloats
 nsRect
 &
@@ -2024,7 +2024,7 @@ stdout
 endif
 }
 }
-PRBool
+bool
 nsBlockReflowState
 :
 :
@@ -2275,7 +2275,7 @@ dx
 dy
 )
 ;
-PRBool
+bool
 placed
 ;
 nsRect
@@ -2435,7 +2435,7 @@ return
 placed
 ;
 }
-PRBool
+bool
 nsBlockReflowState
 :
 :
@@ -2597,7 +2597,7 @@ LeftRight
 )
 ;
 }
-PRBool
+bool
 nsBlockReflowState
 :
 :
@@ -2759,7 +2759,7 @@ floatMargin
 nsReflowStatus
 reflowStatus
 ;
-PRBool
+bool
 isLetter
 =
 aFloat
@@ -2873,12 +2873,12 @@ type
 "
 )
 ;
-PRBool
+bool
 keepFloatOnSameLine
 =
-PR_FALSE
+false
 ;
-PRBool
+bool
 mustPlaceFloat
 =
 mReflowState
@@ -3249,7 +3249,7 @@ if
 isLetter
 )
 {
-PRBool
+bool
 pushedDown
 =
 mY
@@ -3389,7 +3389,7 @@ GetRelativeOffset
 floatDisplay
 )
 ;
-PRBool
+bool
 moved
 =
 aFloat
@@ -3961,7 +3961,7 @@ n
 }
 #
 endif
-PRBool
+bool
 placed
 =
 FlowAndPlaceFloat

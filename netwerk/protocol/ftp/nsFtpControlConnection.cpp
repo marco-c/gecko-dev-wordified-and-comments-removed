@@ -343,7 +343,7 @@ this
 )
 ;
 }
-PRBool
+bool
 nsFtpControlConnection
 :
 :
@@ -359,10 +359,10 @@ mSocket
 return
 PR_FALSE
 ;
-PRBool
+bool
 isAlive
 =
-PR_FALSE
+false
 ;
 mSocket
 -

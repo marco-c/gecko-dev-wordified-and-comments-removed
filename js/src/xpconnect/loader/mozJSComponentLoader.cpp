@@ -3575,10 +3575,10 @@ script
 =
 nsnull
 ;
-PRBool
+bool
 writeToCache
 =
-PR_FALSE
+false
 ;
 StartupCache
 *

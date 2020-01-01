@@ -161,7 +161,7 @@ MostRecentRefreshEpochTime
 )
 const
 ;
-PRBool
+bool
 AddRefreshObserver
 (
 nsARefreshObserver
@@ -171,7 +171,7 @@ mozFlushType
 aFlushType
 )
 ;
-PRBool
+bool
 RemoveRefreshObserver
 (
 nsARefreshObserver
@@ -181,7 +181,7 @@ mozFlushType
 aFlushType
 )
 ;
-PRBool
+bool
 AddStyleFlushObserver
 (
 nsIPresShell
@@ -208,7 +208,7 @@ observer
 "
 )
 ;
-PRBool
+bool
 appended
 =
 mStyleFlushObservers
@@ -246,7 +246,7 @@ aShell
 )
 ;
 }
-PRBool
+bool
 AddLayoutFlushObserver
 (
 nsIPresShell
@@ -271,7 +271,7 @@ observer
 "
 )
 ;
-PRBool
+bool
 appended
 =
 mLayoutFlushObservers
@@ -309,7 +309,7 @@ aShell
 )
 ;
 }
-PRBool
+bool
 IsLayoutFlushObserver
 (
 nsIPresShell
@@ -326,7 +326,7 @@ aShell
 )
 ;
 }
-PRBool
+bool
 ScheduleBeforePaintEvent
 (
 nsIDocument
@@ -403,7 +403,7 @@ mPresContext
 #
 ifdef
 DEBUG
-PRBool
+bool
 IsRefreshObserver
 (
 nsARefreshObserver

@@ -1332,7 +1332,7 @@ attribute
 nsAutoString
 imageURIString
 ;
-PRBool
+bool
 hasImageAttr
 =
 mContent
@@ -2225,7 +2225,7 @@ looking
 misaligned
 .
 static
-PRBool
+bool
 sInitializedPlaceholder
 ;
 static
@@ -2496,7 +2496,7 @@ OnDataAvailable
 imgIRequest
 *
 aRequest
-PRBool
+bool
 aCurrentFrame
 const
 nsIntRect
@@ -2792,7 +2792,7 @@ return
 NS_ERROR_FAILURE
 ;
 }
-PRBool
+bool
 createSubImage
 =
 !
@@ -3222,7 +3222,7 @@ OnStopRequest
 imgIRequest
 *
 aRequest
-PRBool
+bool
 aIsLastPart
 )
 {

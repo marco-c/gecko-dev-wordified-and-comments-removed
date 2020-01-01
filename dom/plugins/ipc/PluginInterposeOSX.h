@@ -209,7 +209,7 @@ aDataLength
 )
 ;
 static
-PRBool
+bool
 GetNativeCursorsSupported
 (
 )

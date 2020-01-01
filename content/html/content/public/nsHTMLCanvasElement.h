@@ -236,7 +236,7 @@ GetSize
 (
 )
 ;
-PRBool
+bool
 IsWriteOnly
 (
 )
@@ -273,7 +273,7 @@ PRInt32
 index
 )
 ;
-PRBool
+bool
 GetIsOpaque
 (
 )
@@ -300,7 +300,7 @@ aFilter
 )
 ;
 virtual
-PRBool
+bool
 ParseAttribute
 (
 PRInt32
@@ -341,7 +341,7 @@ const
 nsAString
 &
 aValue
-PRBool
+bool
 aNotify
 )
 {
@@ -372,7 +372,7 @@ const
 nsAString
 &
 aValue
-PRBool
+bool
 aNotify
 )
 ;
@@ -416,7 +416,7 @@ LayerManager
 aManager
 )
 ;
-PRBool
+bool
 ShouldForceInactiveLayer
 (
 LayerManager
@@ -512,7 +512,7 @@ const
 nsAString
 &
 aContextId
-PRBool
+bool
 aForceThebes
 nsICanvasRenderingContextInternal
 *
@@ -531,7 +531,7 @@ mCurrentContext
 ;
 public
 :
-PRPackedBool
+bool
 mWriteOnly
 ;
 }

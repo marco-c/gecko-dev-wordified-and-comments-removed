@@ -138,7 +138,7 @@ A
 ;
 }
 static
-PRBool
+bool
 IsDecimal
 (
 const
@@ -189,7 +189,7 @@ PR_TRUE
 ;
 }
 static
-PRBool
+bool
 IsHex
 (
 const
@@ -297,7 +297,7 @@ PR_TRUE
 ;
 }
 static
-PRBool
+bool
 IsOctal
 (
 const
@@ -1120,10 +1120,10 @@ Length
 return
 ;
 }
-PRBool
+bool
 allowOctal
 =
-PR_TRUE
+true
 ;
 PRUint32
 i
@@ -1378,7 +1378,7 @@ nsACString
 num
 PRUint32
 bytes
-PRBool
+bool
 allowOctal
 nsACString
 &
@@ -1616,7 +1616,7 @@ val
 ;
 }
 }
-PRBool
+bool
 nsUrlClassifierUtils
 :
 :
@@ -1626,17 +1626,17 @@ const
 nsACString
 &
 url
-PRBool
+bool
 foldSlashes
 nsACString
 &
 _retval
 )
 {
-PRBool
+bool
 changed
 =
-PR_FALSE
+false
 ;
 const
 char
@@ -1786,7 +1786,7 @@ return
 changed
 ;
 }
-PRBool
+bool
 nsUrlClassifierUtils
 :
 :

@@ -107,7 +107,7 @@ GetRootDocumentAccessible
 nsIPresShell
 *
 aPresShell
-PRBool
+bool
 aCanCreate
 )
 ;
@@ -558,7 +558,7 @@ aTarget
 )
 ;
 static
-PRBool
+bool
 IsShutdown
 (
 )
@@ -683,7 +683,7 @@ nsAccessibilityService
 ;
 private
 :
-PRBool
+bool
 Init
 (
 )
@@ -787,10 +787,10 @@ nsAccessibilityService
 gAccessibilityService
 ;
 static
-PRBool
+bool
 gIsShutdown
 ;
-PRBool
+bool
 HasUniversalAriaProperty
 (
 nsIContent

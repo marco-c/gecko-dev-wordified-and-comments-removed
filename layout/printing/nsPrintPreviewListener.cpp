@@ -512,7 +512,7 @@ if
 keyEvent
 )
 {
-PRBool
+bool
 b
 ;
 keyEvent
@@ -886,7 +886,7 @@ do_QueryInterface
 fromContent
 )
 ;
-PRBool
+bool
 forward
 =
 (

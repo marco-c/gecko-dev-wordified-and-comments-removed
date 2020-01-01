@@ -138,7 +138,7 @@ mRecycleTimer
 PRUint32
 mRecycleAfter
 ;
-PRBool
+bool
 mTouched
 ;
 #
@@ -198,10 +198,10 @@ Malloc
 (
 PRSize
 size
-PRBool
+bool
 zeroit
 =
-PR_FALSE
+false
 )
 ;
 void

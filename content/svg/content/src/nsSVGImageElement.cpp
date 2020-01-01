@@ -398,9 +398,9 @@ nsSVGImageElement
 :
 LoadSVGImage
 (
-PRBool
+bool
 aForce
-PRBool
+bool
 aNotify
 )
 {
@@ -485,7 +485,7 @@ const
 nsAString
 *
 aValue
-PRBool
+bool
 aNotify
 )
 {
@@ -628,7 +628,7 @@ aParent
 nsIContent
 *
 aBindingParent
-PRBool
+bool
 aCompileEventHandlers
 )
 {
@@ -721,7 +721,7 @@ ImageState
 }
 NS_IMETHODIMP_
 (
-PRBool
+bool
 )
 nsSVGImageElement
 :

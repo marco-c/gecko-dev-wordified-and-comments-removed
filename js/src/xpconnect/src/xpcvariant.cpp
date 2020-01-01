@@ -3678,7 +3678,7 @@ XPCVariant
 :
 GetAsBool
 (
-PRBool
+bool
 *
 _retval
 )

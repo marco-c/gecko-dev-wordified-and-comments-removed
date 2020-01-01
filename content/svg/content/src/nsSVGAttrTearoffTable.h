@@ -148,7 +148,7 @@ nsnull
 #
 ifdef
 DEBUG
-PRBool
+bool
 found
 =
 #
@@ -263,7 +263,7 @@ return
 #
 ifdef
 DEBUG
-PRBool
+bool
 result
 =
 #

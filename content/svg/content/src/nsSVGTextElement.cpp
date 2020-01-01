@@ -171,7 +171,7 @@ nsSVGTextElementBase
 )
 NS_IMETHOD_
 (
-PRBool
+bool
 )
 IsAttributeMapped
 (
@@ -1046,7 +1046,7 @@ NS_ERROR_NOT_IMPLEMENTED
 }
 NS_IMETHODIMP_
 (
-PRBool
+bool
 )
 nsSVGTextElement
 :

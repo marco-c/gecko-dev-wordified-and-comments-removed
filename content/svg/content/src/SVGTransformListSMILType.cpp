@@ -259,7 +259,7 @@ mU
 mPtr
 )
 ;
-PRBool
+bool
 result
 =
 dstTransforms
@@ -291,7 +291,7 @@ return
 NS_OK
 ;
 }
-PRBool
+bool
 SVGTransformListSMILType
 :
 :
@@ -1676,7 +1676,7 @@ NS_OK
 NS_ERROR_OUT_OF_MEMORY
 ;
 }
-PRBool
+bool
 SVGTransformListSMILType
 :
 :
@@ -1787,7 +1787,7 @@ return
 PR_TRUE
 ;
 }
-PRBool
+bool
 SVGTransformListSMILType
 :
 :

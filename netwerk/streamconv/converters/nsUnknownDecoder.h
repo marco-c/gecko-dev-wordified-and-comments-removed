@@ -131,7 +131,7 @@ nsIStreamListener
 >
 mNextListener
 ;
-PRBool
+bool
 AllowSniffing
 (
 nsIRequest
@@ -139,7 +139,7 @@ nsIRequest
 aRequest
 )
 ;
-PRBool
+bool
 TryContentSniffers
 (
 nsIRequest
@@ -147,7 +147,7 @@ nsIRequest
 aRequest
 )
 ;
-PRBool
+bool
 SniffForHTML
 (
 nsIRequest
@@ -155,7 +155,7 @@ nsIRequest
 aRequest
 )
 ;
-PRBool
+bool
 SniffForXML
 (
 nsIRequest
@@ -163,7 +163,7 @@ nsIRequest
 aRequest
 )
 ;
-PRBool
+bool
 SniffURI
 (
 nsIRequest
@@ -171,7 +171,7 @@ nsIRequest
 aRequest
 )
 ;
-PRBool
+bool
 LastDitchSniff
 (
 nsIRequest
@@ -183,7 +183,7 @@ struct
 nsSnifferEntry
 {
 typedef
-PRBool
+bool
 (
 nsUnknownDecoder
 :
@@ -270,7 +270,7 @@ mBuffer
 PRUint32
 mBufferLen
 ;
-PRBool
+bool
 mRequireHTMLsuffix
 ;
 nsCString

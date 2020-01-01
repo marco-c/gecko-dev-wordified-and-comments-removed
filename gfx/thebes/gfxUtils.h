@@ -184,7 +184,7 @@ aFormat
 )
 ;
 static
-PRBool
+bool
 GfxRectToIntRect
 (
 const

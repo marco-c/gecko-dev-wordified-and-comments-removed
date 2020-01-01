@@ -260,7 +260,7 @@ FindEntry
 nsCString
 *
 key
-PRBool
+bool
 *
 collision
 )
@@ -517,7 +517,7 @@ const
 nsACString
 &
 key
-PRBool
+bool
 *
 isOwned
 )
@@ -557,7 +557,7 @@ nsCSubstring
 clientID
 )
 ;
-PRBool
+bool
 IsActiveCache
 (
 const
@@ -649,12 +649,12 @@ ctx
 )
 ;
 static
-PRBool
+bool
 GetStrictFileOriginPolicy
 (
 )
 ;
-PRBool
+bool
 Initialized
 (
 )
@@ -695,7 +695,7 @@ DeleteEntry
 nsCacheEntry
 *
 entry
-PRBool
+bool
 deleteData
 )
 ;
@@ -717,7 +717,7 @@ DisableEvictionObserver
 (
 )
 ;
-PRBool
+bool
 CanUseCache
 (
 nsIURI

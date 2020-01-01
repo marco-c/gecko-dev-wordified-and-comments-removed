@@ -169,7 +169,7 @@ mName
 nsCString
 mASCIIOrigin
 ;
-PRBool
+bool
 mHasPrompted
 ;
 PRUint32

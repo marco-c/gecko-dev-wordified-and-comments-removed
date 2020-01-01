@@ -178,7 +178,7 @@ nsNSSCertificateFakeTransport
 :
 GetIsSelfSigned
 (
-PRBool
+bool
 *
 aIsSelfSigned
 )
@@ -361,7 +361,7 @@ const
 nsAString
 &
 aEmailAddress
-PRBool
+bool
 *
 result
 )
@@ -904,7 +904,7 @@ nsNSSCertificateFakeTransport
 :
 GetUsagesArray
 (
-PRBool
+bool
 localOnly
 PRUint32
 *
@@ -964,7 +964,7 @@ nsNSSCertificateFakeTransport
 :
 GetUsagesString
 (
-PRBool
+bool
 localOnly
 PRUint32
 *
@@ -1023,7 +1023,7 @@ Equals
 nsIX509Cert
 *
 other
-PRBool
+bool
 *
 result
 )

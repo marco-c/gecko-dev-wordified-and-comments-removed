@@ -201,7 +201,7 @@ mStreamConverter
 nsWeakPtr
 mWeakPtrPluginStreamListenerPeer
 ;
-PRBool
+bool
 mRemoveMagicNumber
 ;
 }
@@ -527,10 +527,10 @@ responseCode
 200
 )
 {
-PRBool
+bool
 bWantsAllNetworkStreams
 =
-PR_FALSE
+false
 ;
 rv
 =
@@ -656,7 +656,7 @@ get
 )
 )
 ;
-PRBool
+bool
 found
 =
 pslp
@@ -1014,7 +1014,7 @@ return
 mKey
 ;
 }
-PRBool
+bool
 Equals
 (
 const
@@ -1579,10 +1579,10 @@ rv
 =
 NS_OK
 ;
-PRBool
+bool
 useExistingCacheFile
 =
-PR_FALSE
+false
 ;
 nsRefPtr
 <
@@ -2111,10 +2111,10 @@ responseCode
 206
 )
 {
-PRBool
+bool
 bWantsAllNetworkStreams
 =
-PR_FALSE
+false
 ;
 rv
 =
@@ -2708,7 +2708,7 @@ nsPluginStreamListenerPeer
 :
 IsSeekable
 (
-PRBool
+bool
 *
 result
 )
@@ -3474,7 +3474,7 @@ return
 NS_OK
 ;
 }
-PRBool
+bool
 nsPluginStreamListenerPeer
 :
 :
@@ -3988,7 +3988,7 @@ if
 mp
 )
 {
-PRBool
+bool
 found
 =
 mRequests
@@ -4532,10 +4532,10 @@ SetStreamListenerPeer
 this
 )
 ;
-PRBool
+bool
 useLocalCache
 =
-PR_FALSE
+false
 ;
 nsCOMPtr
 <

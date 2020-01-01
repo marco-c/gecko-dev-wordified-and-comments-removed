@@ -646,7 +646,7 @@ NSEvent
 gLastDragMouseDownEvent
 ;
 extern
-PRBool
+bool
 gUserCancelledDrag
 ;
 /
@@ -3176,7 +3176,7 @@ const
 char
 *
 aDataFlavor
-PRBool
+bool
 *
 _retval
 )
@@ -3724,7 +3724,7 @@ nsDragService
 :
 EndDragSession
 (
-PRBool
+bool
 aDoneDrag
 )
 {

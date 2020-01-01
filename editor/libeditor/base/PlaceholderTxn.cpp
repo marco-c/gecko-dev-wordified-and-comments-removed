@@ -348,7 +348,7 @@ Merge
 nsITransaction
 *
 aTransaction
-PRBool
+bool
 *
 aDidMerge
 )
@@ -497,7 +497,7 @@ editTxn
 }
 else
 {
-PRBool
+bool
 didMerge
 ;
 mIMETextTxn
@@ -658,7 +658,7 @@ mName
 )
 )
 {
-PRBool
+bool
 isSame
 ;
 plcTxn
@@ -782,7 +782,7 @@ StartSelectionEquals
 nsSelectionState
 *
 aSelState
-PRBool
+bool
 *
 aResult
 )

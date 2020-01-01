@@ -135,7 +135,7 @@ nsSize
 aBorder
 nsSize
 aPadding
-PRBool
+bool
 aShrinkWrap
 )
 {
@@ -633,7 +633,7 @@ aResult
 }
 #
 endif
-PRBool
+bool
 nsPageContentFrame
 :
 :

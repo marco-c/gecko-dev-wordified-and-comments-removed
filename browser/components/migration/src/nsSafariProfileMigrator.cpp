@@ -362,10 +362,10 @@ rv
 =
 NS_OK
 ;
-PRBool
+bool
 replace
 =
-PR_FALSE
+false
 ;
 if
 (
@@ -478,7 +478,7 @@ const
 PRUnichar
 *
 aProfile
-PRBool
+bool
 aReplace
 PRUint16
 *
@@ -708,10 +708,10 @@ systemPrefsDir
 aResult
 )
 ;
-PRBool
+bool
 hasContentStylesheet
 =
-PR_FALSE
+false
 ;
 if
 (
@@ -783,7 +783,7 @@ nsSafariProfileMigrator
 :
 GetSourceExists
 (
-PRBool
+bool
 *
 aResult
 )
@@ -817,7 +817,7 @@ nsSafariProfileMigrator
 :
 GetSourceHasMultipleProfiles
 (
-PRBool
+bool
 *
 aResult
 )
@@ -860,7 +860,7 @@ nsILocalFile
 aPListFile
 )
 {
-PRBool
+bool
 exists
 ;
 aPListFile
@@ -1139,7 +1139,7 @@ aString
 nsnull
 ;
 }
-PRBool
+bool
 GetDictionaryStringValue
 (
 CFDictionaryRef
@@ -1231,7 +1231,7 @@ return
 PR_FALSE
 ;
 }
-PRBool
+bool
 GetDictionaryCStringValue
 (
 CFDictionaryRef
@@ -1326,7 +1326,7 @@ return
 PR_FALSE
 ;
 }
-PRBool
+bool
 GetArrayStringValue
 (
 CFArrayRef
@@ -2734,7 +2734,7 @@ desktopFolder
 )
 )
 ;
-PRBool
+bool
 equals
 ;
 downloadFolder
@@ -3287,7 +3287,7 @@ return
 ;
 do
 {
-PRBool
+bool
 hasMore
 ;
 arcLabels
@@ -3659,7 +3659,7 @@ nsSafariProfileMigrator
 :
 CopyPreferences
 (
-PRBool
+bool
 aReplace
 )
 {
@@ -4121,7 +4121,7 @@ nsSafariProfileMigrator
 :
 CopyCookies
 (
-PRBool
+bool
 aReplace
 )
 {
@@ -4514,7 +4514,7 @@ nsSafariProfileMigrator
 :
 CopyHistory
 (
-PRBool
+bool
 aReplace
 )
 {
@@ -4609,7 +4609,7 @@ nsSafariProfileMigrator
 :
 CopyHistoryBatched
 (
-PRBool
+bool
 aReplace
 )
 {
@@ -4938,7 +4938,7 @@ nsSafariProfileMigrator
 :
 CopyBookmarks
 (
-PRBool
+bool
 aReplace
 )
 {
@@ -5033,7 +5033,7 @@ nsSafariProfileMigrator
 :
 CopyBookmarksBatched
 (
-PRBool
+bool
 aReplace
 )
 {
@@ -5484,7 +5484,7 @@ aParentFolder
 nsINavBookmarksService
 *
 aBookmarksService
-PRBool
+bool
 aIsAtRootLevel
 )
 {
@@ -5873,7 +5873,7 @@ return
 rv
 ;
 }
-PRBool
+bool
 nsSafariProfileMigrator
 :
 :
@@ -5881,10 +5881,10 @@ HasFormDataToImport
 (
 )
 {
-PRBool
+bool
 hasFormData
 =
-PR_FALSE
+false
 ;
 CFDictionaryRef
 safariPrefs
@@ -5935,7 +5935,7 @@ nsSafariProfileMigrator
 :
 CopyFormData
 (
-PRBool
+bool
 aReplace
 )
 {
@@ -6113,7 +6113,7 @@ nsSafariProfileMigrator
 :
 ProfileHasContentStyleSheet
 (
-PRBool
+bool
 *
 outExists
 )
@@ -6356,10 +6356,10 @@ rv
 )
 )
 {
-PRBool
+bool
 exists
 =
-PR_FALSE
+false
 ;
 file
 -
@@ -6414,7 +6414,7 @@ nsSafariProfileMigrator
 :
 CopyOtherData
 (
-PRBool
+bool
 aReplace
 )
 {
@@ -6503,7 +6503,7 @@ if
 safariPrefs
 )
 {
-PRBool
+bool
 foundPref
 =
 GetDictionaryCStringValue

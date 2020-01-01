@@ -1381,14 +1381,14 @@ return
 mValue
 ;
 }
-PRBool
+bool
 valid
 (
 )
 const
 {
 return
-PRBool
+bool
 (
 mIsValid
 )
@@ -1613,7 +1613,7 @@ result
 )
 ;
 }
-PRBool
+bool
 operator
 =
 =
@@ -1626,7 +1626,7 @@ other
 const
 {
 return
-PRBool
+bool
 (
 mIsValid
 &
@@ -1748,7 +1748,7 @@ template
 typename
 U
 >
-PRBool
+bool
 operator
 !
 =
@@ -2291,7 +2291,7 @@ typename
 U
 >
 inline
-PRBool
+bool
 operator
 =
 =
@@ -2328,7 +2328,7 @@ typename
 U
 >
 inline
-PRBool
+bool
 operator
 =
 =

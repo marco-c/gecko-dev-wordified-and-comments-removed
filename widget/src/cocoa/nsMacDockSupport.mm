@@ -528,7 +528,7 @@ nsMacDockSupport
 :
 ActivateApplication
 (
-PRBool
+bool
 aIgnoreOtherApplications
 )
 {

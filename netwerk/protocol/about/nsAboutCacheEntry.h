@@ -159,7 +159,7 @@ nsIURI
 *
 nsCString
 &
-PRBool
+bool
 &
 nsCString
 &

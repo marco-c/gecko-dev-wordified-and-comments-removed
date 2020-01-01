@@ -134,7 +134,7 @@ DoMouseClick
 nsGUIEvent
 *
 aEvent
-PRBool
+bool
 aTrustEvent
 )
 ;

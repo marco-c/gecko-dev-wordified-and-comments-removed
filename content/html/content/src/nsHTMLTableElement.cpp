@@ -3367,7 +3367,7 @@ NS_STYLE_TABLE_LAYOUT_FIXED
 }
 }
 ;
-PRBool
+bool
 nsHTMLTableElement
 :
 :
@@ -5050,7 +5050,7 @@ aData
 }
 NS_IMETHODIMP_
 (
-PRBool
+bool
 )
 nsHTMLTableElement
 :
@@ -5667,7 +5667,7 @@ aParent
 nsIContent
 *
 aBindingParent
-PRBool
+bool
 aCompileEventHandlers
 )
 {
@@ -5694,9 +5694,9 @@ nsHTMLTableElement
 :
 UnbindFromTree
 (
-PRBool
+bool
 aDeep
-PRBool
+bool
 aNullParent
 )
 {
@@ -5729,7 +5729,7 @@ const
 nsAString
 *
 aValue
-PRBool
+bool
 aNotify
 )
 {
@@ -5783,7 +5783,7 @@ const
 nsAString
 *
 aValue
-PRBool
+bool
 aNotify
 )
 {

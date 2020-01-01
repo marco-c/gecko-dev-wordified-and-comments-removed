@@ -172,7 +172,7 @@ mProbers
 NUM_OF_PROBERS
 ]
 ;
-PRBool
+bool
 mIsActive
 [
 NUM_OF_PROBERS

@@ -322,7 +322,7 @@ GetVectorImageTransform
 (
 )
 ;
-PRBool
+bool
 TransformContextForPainting
 (
 gfxContext
@@ -816,7 +816,7 @@ GetCanvasTM
 )
 ;
 }
-PRBool
+bool
 nsSVGImageFrame
 :
 :

@@ -2134,7 +2134,7 @@ return
 0
 ;
 }
-PRBool
+bool
 CaseInsensitiveUTF8CharsEqual
 (
 const
@@ -2163,7 +2163,7 @@ char
 *
 *
 aRightNext
-PRBool
+bool
 *
 aErr
 )

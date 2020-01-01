@@ -82,7 +82,7 @@ aList
 nsSVGElement
 *
 aElement
-PRBool
+bool
 aIsAnimValList
 )
 ;
@@ -177,7 +177,7 @@ SVGPointList
 aNewValue
 )
 ;
-PRBool
+bool
 AttrIsAnimating
 (
 )
@@ -190,7 +190,7 @@ DOMSVGPointList
 nsSVGElement
 *
 aElement
-PRBool
+bool
 aIsAnimValList
 )
 :
@@ -230,7 +230,7 @@ get
 )
 ;
 }
-PRBool
+bool
 IsAnimValList
 (
 )
@@ -286,7 +286,7 @@ nsSVGElement
 >
 mElement
 ;
-PRPackedBool
+bool
 mIsAnimValList
 ;
 }

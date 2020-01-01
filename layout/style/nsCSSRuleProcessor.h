@@ -122,7 +122,7 @@ FreeSystemMetrics
 )
 ;
 static
-PRBool
+bool
 HasSystemMetric
 (
 nsIAtom
@@ -131,7 +131,7 @@ aMetric
 )
 ;
 static
-PRBool
+bool
 SelectorListMatches
 (
 mozilla
@@ -184,12 +184,12 @@ nsRuleWalker
 :
 VisitedHandlingType
 aVisitedHandling
-PRBool
+bool
 aIsRelevantLink
 )
 ;
 static
-PRBool
+bool
 IsLink
 (
 mozilla
@@ -254,7 +254,7 @@ aData
 )
 ;
 virtual
-PRBool
+bool
 HasDocumentStateDependentStyle
 (
 StateRuleProcessorData
@@ -272,7 +272,7 @@ aData
 )
 ;
 virtual
-PRBool
+bool
 MediumFeaturesChanged
 (
 nsPresContext
@@ -287,7 +287,7 @@ SizeOf
 )
 const
 ;
-PRBool
+bool
 AppendFontFaceRules
 (
 nsPresContext
@@ -301,7 +301,7 @@ nsFontFaceRuleContainer
 aArray
 )
 ;
-PRBool
+bool
 AppendKeyframesRules
 (
 nsPresContext
@@ -375,7 +375,7 @@ endif
 private
 :
 static
-PRBool
+bool
 CascadeSheet
 (
 nsCSSStyleSheet

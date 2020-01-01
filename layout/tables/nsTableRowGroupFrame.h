@@ -295,7 +295,7 @@ GetType
 const
 ;
 virtual
-PRBool
+bool
 IsContainingBlock
 (
 )
@@ -411,7 +411,7 @@ GetNumLines
 )
 ;
 virtual
-PRBool
+bool
 GetDirection
 (
 )
@@ -460,10 +460,10 @@ nsIFrame
 *
 *
 aFrameFound
-PRBool
+bool
 *
 aXIsBeforeFirstFrame
-PRBool
+bool
 *
 aXIsAfterLastFrame
 )
@@ -476,7 +476,7 @@ CheckLineOrder
 (
 PRInt32
 aLine
-PRBool
+bool
 *
 aIsReordered
 nsIFrame
@@ -543,7 +543,7 @@ mOverflowBelow
 )
 {
 }
-PRBool
+bool
 AppendFrame
 (
 nsIFrame
@@ -613,7 +613,7 @@ InitChildReflowState
 nsPresContext
 &
 aPresContext
-PRBool
+bool
 aBorderCollapse
 nsHTMLReflowState
 &
@@ -701,7 +701,7 @@ aReflowState
 nsReflowStatus
 &
 aStatus
-PRBool
+bool
 *
 aPageBreakBeforeEnd
 =
@@ -748,7 +748,7 @@ aFirstRow
 nsTableRowFrame
 &
 aLastRow
-PRBool
+bool
 aFirstRowIsTopOfPage
 nscoord
 aSpanningRowBottom
@@ -780,7 +780,7 @@ nsIFrame
 aContRowFrame
 )
 ;
-PRBool
+bool
 IsSimpleRowFrame
 (
 nsTableFrame
@@ -824,7 +824,7 @@ mLeftContBorderWidth
 ;
 public
 :
-PRBool
+bool
 IsRepeatable
 (
 )
@@ -833,11 +833,11 @@ const
 void
 SetRepeatable
 (
-PRBool
+bool
 aRepeatable
 )
 ;
-PRBool
+bool
 HasStyleHeight
 (
 )
@@ -846,17 +846,17 @@ const
 void
 SetHasStyleHeight
 (
-PRBool
+bool
 aValue
 )
 ;
-PRBool
+bool
 HasInternalBreakBefore
 (
 )
 const
 ;
-PRBool
+bool
 HasInternalBreakAfter
 (
 )
@@ -865,7 +865,7 @@ const
 }
 ;
 inline
-PRBool
+bool
 nsTableRowGroupFrame
 :
 :
@@ -892,7 +892,7 @@ nsTableRowGroupFrame
 :
 SetRepeatable
 (
-PRBool
+bool
 aRepeatable
 )
 {
@@ -918,7 +918,7 @@ NS_ROWGROUP_REPEATABLE
 }
 }
 inline
-PRBool
+bool
 nsTableRowGroupFrame
 :
 :
@@ -945,7 +945,7 @@ nsTableRowGroupFrame
 :
 SetHasStyleHeight
 (
-PRBool
+bool
 aValue
 )
 {

@@ -227,7 +227,7 @@ m_totalDataForkWritten
 PRInt32
 m_totalResourceForkWritten
 ;
-PRBool
+bool
 m_headerOk
 ;
 PRInt32

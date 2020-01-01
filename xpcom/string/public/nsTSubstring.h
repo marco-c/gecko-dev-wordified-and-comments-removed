@@ -526,7 +526,7 @@ return
 mLength
 ;
 }
-PRBool
+bool
 IsEmpty
 (
 )
@@ -539,7 +539,7 @@ mLength
 0
 ;
 }
-PRBool
+bool
 IsVoid
 (
 )
@@ -556,7 +556,7 @@ F_VOIDED
 0
 ;
 }
-PRBool
+bool
 IsTerminated
 (
 )
@@ -705,7 +705,7 @@ offset
 )
 const
 ;
-PRBool
+bool
 NS_FASTCALL
 Equals
 (
@@ -715,7 +715,7 @@ self_type
 )
 const
 ;
-PRBool
+bool
 NS_FASTCALL
 Equals
 (
@@ -728,7 +728,7 @@ comparator_type
 )
 const
 ;
-PRBool
+bool
 NS_FASTCALL
 Equals
 (
@@ -739,7 +739,7 @@ data
 )
 const
 ;
-PRBool
+bool
 NS_FASTCALL
 Equals
 (
@@ -754,7 +754,7 @@ comp
 )
 const
 ;
-PRBool
+bool
 NS_FASTCALL
 EqualsASCII
 (
@@ -767,7 +767,7 @@ len
 )
 const
 ;
-PRBool
+bool
 NS_FASTCALL
 EqualsASCII
 (
@@ -782,7 +782,7 @@ const
 ifdef
 NS_DISABLE_LITERAL_TEMPLATE
 inline
-PRBool
+bool
 EqualsLiteral
 (
 const
@@ -807,7 +807,7 @@ int
 N
 >
 inline
-PRBool
+bool
 EqualsLiteral
 (
 const
@@ -838,7 +838,7 @@ int
 N
 >
 inline
-PRBool
+bool
 EqualsLiteral
 (
 char
@@ -871,7 +871,7 @@ N
 }
 #
 endif
-PRBool
+bool
 NS_FASTCALL
 LowerCaseEqualsASCII
 (
@@ -884,7 +884,7 @@ len
 )
 const
 ;
-PRBool
+bool
 NS_FASTCALL
 LowerCaseEqualsASCII
 (
@@ -899,7 +899,7 @@ const
 ifdef
 NS_DISABLE_LITERAL_TEMPLATE
 inline
-PRBool
+bool
 LowerCaseEqualsLiteral
 (
 const
@@ -924,7 +924,7 @@ int
 N
 >
 inline
-PRBool
+bool
 LowerCaseEqualsLiteral
 (
 const
@@ -955,7 +955,7 @@ int
 N
 >
 inline
-PRBool
+bool
 LowerCaseEqualsLiteral
 (
 char
@@ -2016,7 +2016,7 @@ sEmptyBuffer
 )
 ;
 }
-PRBool
+bool
 NS_FASTCALL
 SetCapacity
 (
@@ -2132,7 +2132,7 @@ void
 NS_FASTCALL
 SetIsVoid
 (
-PRBool
+bool
 )
 ;
 void
@@ -2376,7 +2376,7 @@ Finalize
 (
 )
 ;
-PRBool
+bool
 NS_FASTCALL
 MutatePrep
 (
@@ -2391,7 +2391,7 @@ PRUint32
 old_flags
 )
 ;
-PRBool
+bool
 ReplacePrep
 (
 index_type
@@ -2470,7 +2470,7 @@ newTotalLen
 )
 ;
 }
-PRBool
+bool
 NS_FASTCALL
 ReplacePrepInternal
 (
@@ -2491,7 +2491,7 @@ Capacity
 )
 const
 ;
-PRBool
+bool
 NS_FASTCALL
 EnsureMutable
 (
@@ -2505,7 +2505,7 @@ size_type
 )
 )
 ;
-PRBool
+bool
 IsDependentOn
 (
 const
@@ -2645,7 +2645,7 @@ nsTDefaultStringComparator_CharT
 )
 ;
 inline
-PRBool
+bool
 operator
 !
 =
@@ -2677,7 +2677,7 @@ rhs
 ;
 }
 inline
-PRBool
+bool
 operator
 <
 (
@@ -2708,7 +2708,7 @@ rhs
 ;
 }
 inline
-PRBool
+bool
 operator
 <
 =
@@ -2741,7 +2741,7 @@ rhs
 ;
 }
 inline
-PRBool
+bool
 operator
 =
 =
@@ -2772,7 +2772,7 @@ rhs
 ;
 }
 inline
-PRBool
+bool
 operator
 >
 =
@@ -2805,7 +2805,7 @@ rhs
 ;
 }
 inline
-PRBool
+bool
 operator
 >
 (

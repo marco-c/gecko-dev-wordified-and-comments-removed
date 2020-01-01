@@ -240,7 +240,7 @@ mImageBufferSize
 PRUint32
 mImageBufferReadPoint
 ;
-PRPackedBool
+bool
 mFinished
 ;
 nsCOMPtr

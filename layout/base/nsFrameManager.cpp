@@ -425,7 +425,7 @@ placeholderFrame
 }
 ;
 static
-PRBool
+bool
 PlaceholderMapMatchEntry
 (
 PLDHashTable
@@ -2053,7 +2053,7 @@ nsIFrame
 aOldFrame
 )
 {
-PRBool
+bool
 wasDestroyingFrames
 =
 mIsDestroyingFrames
@@ -3781,7 +3781,7 @@ nsStyleContext
 *
 prevContinuationContext
 ;
-PRBool
+bool
 copyFromContinuation
 =
 prevContinuation
@@ -4597,7 +4597,7 @@ AddRef
 #
 ifdef
 ACCESSIBILITY
-PRBool
+bool
 wasFrameVisible
 =
 nsIPresShell
@@ -5111,7 +5111,7 @@ nsStyleContext
 *
 prevContinuationContext
 ;
-PRBool
+bool
 copyFromContinuation
 =
 prevContinuation
@@ -5765,7 +5765,7 @@ break
 ;
 }
 }
-PRBool
+bool
 checkUndisplayed
 ;
 nsIContent
@@ -6344,7 +6344,7 @@ aDesiredA11yNotifications
 eSendAllNotifications
 )
 {
-PRBool
+bool
 isFrameVisible
 =
 newContext
@@ -6920,7 +6920,7 @@ aMinChange
 RestyleTracker
 &
 aRestyleTracker
-PRBool
+bool
 aRestyleDescendants
 )
 {

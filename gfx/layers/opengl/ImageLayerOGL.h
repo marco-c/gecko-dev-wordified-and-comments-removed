@@ -113,7 +113,7 @@ GLTexture
 aOther
 )
 ;
-PRBool
+bool
 IsAllocated
 (
 )
@@ -359,7 +359,7 @@ GetCurrentSize
 )
 ;
 virtual
-PRBool
+bool
 SetLayerManager
 (
 LayerManager
@@ -541,7 +541,7 @@ GLContext
 gl
 )
 ;
-PRBool
+bool
 HasData
 (
 )
@@ -550,7 +550,7 @@ return
 mHasData
 ;
 }
-PRBool
+bool
 HasTextures
 (
 )
@@ -644,7 +644,7 @@ mData
 gfxIntSize
 mSize
 ;
-PRPackedBool
+bool
 mHasData
 ;
 }
@@ -807,7 +807,7 @@ aOffset
 ;
 private
 :
-PRBool
+bool
 Init
 (
 const

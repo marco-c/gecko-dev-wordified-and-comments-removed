@@ -522,7 +522,7 @@ readCursor
 =
 aBuffer
 ;
-PRBool
+bool
 firstTime
 =
 mSegmentedBuffer
@@ -801,7 +801,7 @@ nsStorageStream
 :
 IsNonBlocking
 (
-PRBool
+bool
 *
 aNonBlocking
 )
@@ -932,7 +932,7 @@ nsStorageStream
 :
 GetWriteInProgress
 (
-PRBool
+bool
 *
 aWriteInProgress
 )
@@ -1640,10 +1640,10 @@ aCount
 -
 remainingCapacity
 ;
-PRBool
+bool
 isWriteInProgress
 =
-PR_FALSE
+false
 ;
 if
 (
@@ -1687,7 +1687,7 @@ nsStorageInputStream
 :
 IsNonBlocking
 (
-PRBool
+bool
 *
 aNonBlocking
 )

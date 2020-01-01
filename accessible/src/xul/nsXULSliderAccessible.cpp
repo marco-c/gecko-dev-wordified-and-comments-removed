@@ -508,7 +508,7 @@ aValue
 )
 ;
 }
-PRBool
+bool
 nsXULSliderAccessible
 :
 :

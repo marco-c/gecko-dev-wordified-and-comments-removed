@@ -510,10 +510,10 @@ gfxASurface
 >
 newSurface
 ;
-PRBool
+bool
 needsClear
 =
-PR_TRUE
+true
 ;
 gfxASurface
 :
@@ -802,7 +802,7 @@ aCallback
 void
 *
 aClosure
-PRBool
+bool
 &
 aAborted
 )
@@ -937,7 +937,7 @@ aLength
 )
 ;
 }
-PRBool
+bool
 gfxPlatformGtk
 :
 :
@@ -1443,7 +1443,7 @@ aCallback
 void
 *
 aClosure
-PRBool
+bool
 &
 aAborted
 )
@@ -3153,7 +3153,7 @@ return
 nsnull
 ;
 }
-PRBool
+bool
 gfxPlatformGtk
 :
 :

@@ -274,7 +274,7 @@ SurfaceDescriptor
 aNewFrontSurface
 )
 ;
-PRBool
+bool
 EndTransaction
 (
 InfallibleTArray
@@ -310,7 +310,7 @@ mParentBackend
 aBackendType
 ;
 }
-PRBool
+bool
 HasShadowManager
 (
 )
@@ -333,7 +333,7 @@ return
 mShadowManager
 ;
 }
-PRBool
+bool
 AllocDoubleBuffer
 (
 const
@@ -363,7 +363,7 @@ gfxSharedImageSurface
 aSurface
 )
 ;
-PRBool
+bool
 AllocBuffer
 (
 const
@@ -381,7 +381,7 @@ gfxSharedImageSurface
 aBuffer
 )
 ;
-PRBool
+bool
 AllocDoubleBuffer
 (
 const
@@ -401,7 +401,7 @@ SurfaceDescriptor
 aBackBuffer
 )
 ;
-PRBool
+bool
 AllocBuffer
 (
 const
@@ -486,7 +486,7 @@ mShadowManager
 ;
 private
 :
-PRBool
+bool
 PlatformAllocDoubleBuffer
 (
 const
@@ -506,7 +506,7 @@ SurfaceDescriptor
 aBackBuffer
 )
 ;
-PRBool
+bool
 PlatformAllocBuffer
 (
 const
@@ -536,7 +536,7 @@ SurfaceDescriptor
 aDescriptor
 )
 ;
-PRBool
+bool
 PlatformDestroySharedSurface
 (
 SurfaceDescriptor
@@ -683,7 +683,7 @@ ShadowLayerManager
 )
 {
 }
-PRBool
+bool
 PlatformDestroySharedSurface
 (
 SurfaceDescriptor
@@ -714,7 +714,7 @@ AsLayer
 =
 0
 ;
-PRBool
+bool
 HasShadow
 (
 )
@@ -965,7 +965,7 @@ mShadowTransform
 nsIntRect
 mShadowClipRect
 ;
-PRPackedBool
+bool
 mUseShadowClipRect
 ;
 }
@@ -1342,7 +1342,7 @@ aImplData
 }
 }
 ;
-PRBool
+bool
 IsSurfaceDescriptorValid
 (
 const

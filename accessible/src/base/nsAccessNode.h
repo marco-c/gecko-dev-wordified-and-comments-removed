@@ -237,7 +237,7 @@ GetCurrentFocus
 )
 ;
 virtual
-PRBool
+bool
 Init
 (
 )
@@ -341,7 +341,7 @@ GetOwnerDoc
 nsnull
 ;
 }
-PRBool
+bool
 IsContent
 (
 )
@@ -491,7 +491,7 @@ static
 void
 NotifyA11yInitOrShutdown
 (
-PRBool
+bool
 aIsInit
 )
 ;
@@ -501,7 +501,7 @@ nsIStringBundle
 gStringBundle
 ;
 static
-PRBool
+bool
 gIsFormFillEnabled
 ;
 private

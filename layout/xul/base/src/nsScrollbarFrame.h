@@ -126,7 +126,7 @@ aEvent
 nsEventStatus
 *
 aEventStatus
-PRBool
+bool
 aControlHeld
 )
 ;
@@ -191,7 +191,7 @@ aStatus
 )
 ;
 virtual
-PRBool
+bool
 IsContainingBlock
 (
 )
@@ -220,13 +220,13 @@ GetScrollbarMediator
 )
 ;
 virtual
-PRBool
+bool
 DoesClipChildren
 (
 )
 {
 return
-PR_TRUE
+true
 ;
 }
 private

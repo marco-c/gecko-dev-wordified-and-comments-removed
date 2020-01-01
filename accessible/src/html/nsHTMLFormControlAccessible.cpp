@@ -343,10 +343,10 @@ states
 :
 CHECKABLE
 ;
-PRBool
+bool
 checkState
 =
-PR_FALSE
+false
 ;
 nsCOMPtr
 <
@@ -475,10 +475,10 @@ states
 :
 CHECKABLE
 ;
-PRBool
+bool
 checked
 =
-PR_FALSE
+false
 ;
 nsCOMPtr
 <
@@ -2083,7 +2083,7 @@ ContextStack
 "
 )
 ;
-PRBool
+bool
 pushed
 =
 stack

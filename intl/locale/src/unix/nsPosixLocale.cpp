@@ -41,7 +41,7 @@ nsReadableUtils
 h
 "
 static
-PRBool
+bool
 ParseLocaleString
 (
 const
@@ -472,7 +472,7 @@ NS_ERROR_FAILURE
 ;
 }
 static
-PRBool
+bool
 ParseLocaleString
 (
 const

@@ -1039,7 +1039,7 @@ Preferences
 GetBool
 (
 sAllowPushStatePrefStr
-PR_FALSE
+false
 )
 )
 {
@@ -1161,7 +1161,7 @@ Preferences
 GetBool
 (
 sAllowReplaceStatePrefStr
-PR_FALSE
+false
 )
 )
 {

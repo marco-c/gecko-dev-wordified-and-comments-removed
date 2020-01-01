@@ -571,7 +571,7 @@ virtual
 bool
 RecvClipboardHasText
 (
-PRBool
+bool
 *
 hasText
 )
@@ -616,7 +616,7 @@ virtual
 bool
 RecvGetShowPasswordSetting
 (
-PRBool
+bool
 *
 showPassword
 )
@@ -688,7 +688,7 @@ PRInt16
 &
 selectedType
 const
-PRBool
+bool
 &
 addToRecentDocs
 const
@@ -748,7 +748,7 @@ nsString
 &
 aText
 const
-PRBool
+bool
 &
 aTextClickable
 const

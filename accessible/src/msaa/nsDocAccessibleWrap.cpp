@@ -1100,10 +1100,10 @@ GetNativeWindow
 )
 )
 ;
-PRBool
+bool
 isActive
 =
-PR_TRUE
+true
 ;
 PRInt32
 x

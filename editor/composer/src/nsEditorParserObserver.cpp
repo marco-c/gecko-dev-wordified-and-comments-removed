@@ -378,7 +378,7 @@ nsEditorParserObserver
 :
 GetBadTagFound
 (
-PRBool
+bool
 *
 aFound
 )

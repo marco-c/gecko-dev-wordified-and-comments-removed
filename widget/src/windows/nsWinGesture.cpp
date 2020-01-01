@@ -224,10 +224,10 @@ closeTouchInputHandle
 nsnull
 ;
 static
-PRBool
+bool
 gEnableSingleFingerPanEvents
 =
-PR_FALSE
+false
 ;
 nsWinGesture
 :
@@ -269,7 +269,7 @@ mPixelScrollOverflow
 0
 ;
 }
-PRBool
+bool
 nsWinGesture
 :
 :
@@ -603,7 +603,7 @@ gestures
 .
 enable_single_finger_input
 "
-PR_FALSE
+false
 )
 ;
 return
@@ -614,7 +614,7 @@ PR_TRUE
 define
 GCOUNT
 5
-PRBool
+bool
 nsWinGesture
 :
 :
@@ -896,7 +896,7 @@ config
 )
 ;
 }
-PRBool
+bool
 nsWinGesture
 :
 :
@@ -911,7 +911,7 @@ getGestureInfo
 nsnull
 ;
 }
-PRBool
+bool
 nsWinGesture
 :
 :
@@ -937,7 +937,7 @@ TWF_WANTPALM
 )
 ;
 }
-PRBool
+bool
 nsWinGesture
 :
 :
@@ -962,7 +962,7 @@ hWnd
 )
 ;
 }
-PRBool
+bool
 nsWinGesture
 :
 :
@@ -997,7 +997,7 @@ TOUCHINPUT
 )
 ;
 }
-PRBool
+bool
 nsWinGesture
 :
 :
@@ -1022,7 +1022,7 @@ hTouchInput
 )
 ;
 }
-PRBool
+bool
 nsWinGesture
 :
 :
@@ -1077,7 +1077,7 @@ pGestureInfo
 )
 ;
 }
-PRBool
+bool
 nsWinGesture
 :
 :
@@ -1106,7 +1106,7 @@ hGestureInfo
 )
 ;
 }
-PRBool
+bool
 nsWinGesture
 :
 :
@@ -1145,7 +1145,7 @@ pExtraArgs
 )
 ;
 }
-PRBool
+bool
 nsWinGesture
 :
 :
@@ -1185,7 +1185,7 @@ GESTURECONFIG
 )
 ;
 }
-PRBool
+bool
 nsWinGesture
 :
 :
@@ -1228,7 +1228,7 @@ GESTURECONFIG
 )
 ;
 }
-PRBool
+bool
 nsWinGesture
 :
 :
@@ -1253,7 +1253,7 @@ hWnd
 )
 ;
 }
-PRBool
+bool
 nsWinGesture
 :
 :
@@ -1279,7 +1279,7 @@ TRUE
 )
 ;
 }
-PRBool
+bool
 nsWinGesture
 :
 :
@@ -1313,7 +1313,7 @@ fInInertia
 )
 ;
 }
-PRBool
+bool
 nsWinGesture
 :
 :
@@ -1382,7 +1382,7 @@ return
 PR_FALSE
 ;
 }
-PRBool
+bool
 nsWinGesture
 :
 :
@@ -1758,7 +1758,7 @@ return
 PR_TRUE
 ;
 }
-PRBool
+bool
 nsWinGesture
 :
 :
@@ -2030,7 +2030,7 @@ PR_TRUE
 ;
 }
 inline
-PRBool
+bool
 TestTransition
 (
 PRInt32
@@ -2080,7 +2080,7 @@ HWND
 hWnd
 PRInt32
 scrollOverflow
-PRBool
+bool
 &
 endFeedback
 )
@@ -2177,7 +2177,7 @@ HWND
 hWnd
 PRInt32
 scrollOverflow
-PRBool
+bool
 &
 endFeedback
 )
@@ -2272,7 +2272,7 @@ PanFeedbackFinalize
 (
 HWND
 hWnd
-PRBool
+bool
 endFeedback
 )
 {
@@ -2325,7 +2325,7 @@ mPanInertiaActive
 )
 ;
 }
-PRBool
+bool
 nsWinGesture
 :
 :
@@ -2425,7 +2425,7 @@ return
 PR_FALSE
 ;
 }
-PRBool
+bool
 nsWinGesture
 :
 :

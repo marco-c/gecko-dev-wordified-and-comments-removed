@@ -101,9 +101,9 @@ const
 nsAString
 &
 aType
-PRBool
+bool
 aCanBubble
-PRBool
+bool
 aCancelable
 nsIVariant
 *

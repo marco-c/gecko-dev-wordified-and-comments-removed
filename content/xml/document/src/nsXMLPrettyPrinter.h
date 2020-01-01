@@ -55,7 +55,7 @@ PrettyPrint
 nsIDocument
 *
 aDocument
-PRBool
+bool
 *
 aDidPrettyPrint
 )
@@ -82,7 +82,7 @@ mDocument
 PRUint32
 mUpdateDepth
 ;
-PRPackedBool
+bool
 mUnhookPending
 ;
 }

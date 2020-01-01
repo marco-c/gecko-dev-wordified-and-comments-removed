@@ -107,7 +107,7 @@ Create4BytesDecoder
 (
 )
 ;
-PRBool
+bool
 TryExtensionDecoder
 (
 const
@@ -119,7 +119,7 @@ PRUnichar
 aDest
 )
 ;
-PRBool
+bool
 Try4BytesDecoder
 (
 const
@@ -132,7 +132,7 @@ aDest
 )
 ;
 virtual
-PRBool
+bool
 DecodeToSurrogate
 (
 const
@@ -181,7 +181,7 @@ Create4BytesDecoder
 )
 ;
 virtual
-PRBool
+bool
 DecodeToSurrogate
 (
 const

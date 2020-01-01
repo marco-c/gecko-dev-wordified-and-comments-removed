@@ -125,7 +125,7 @@ OnDataAvailable
 imgIRequest
 *
 aRequest
-PRBool
+bool
 aCurrentFrame
 const
 nsIntRect
@@ -182,7 +182,7 @@ nsITreeBoxObject
 *
 mTree
 ;
-PRBool
+bool
 mInvalidationSuppressed
 ;
 class

@@ -155,7 +155,7 @@ bprin
 return
 true
 ;
-PRBool
+bool
 equals
 ;
 nsresult
@@ -337,7 +337,7 @@ return
 false
 ;
 }
-PRBool
+bool
 privileged
 ;
 nsIPrincipal
@@ -1418,7 +1418,7 @@ obj
 )
 ;
 }
-PRBool
+bool
 subsumes
 ;
 return
@@ -1758,7 +1758,7 @@ fp
 NULL
 ;
 }
-PRBool
+bool
 privileged
 ;
 if
@@ -2016,7 +2016,7 @@ ssm
 return
 true
 ;
-PRBool
+bool
 privileged
 ;
 return
@@ -2327,7 +2327,7 @@ return
 false
 ;
 }
-PRBool
+bool
 privileged
 ;
 if

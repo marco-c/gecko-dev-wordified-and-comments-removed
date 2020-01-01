@@ -131,7 +131,7 @@ return
 this
 ;
 }
-PRBool
+bool
 operator
 !
 (

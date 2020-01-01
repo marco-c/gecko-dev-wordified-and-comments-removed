@@ -273,9 +273,9 @@ const
 char
 *
 aCharSet
-PRBool
+bool
 aIsCopying
-PRBool
+bool
 aRewriteEncodingDeclaration
 )
 {
@@ -379,7 +379,7 @@ return
 NS_OK
 ;
 }
-PRBool
+bool
 nsXHTMLContentSerializer
 :
 :
@@ -408,10 +408,10 @@ Length
 (
 )
 ;
-PRBool
+bool
 rv
 =
-PR_FALSE
+false
 ;
 aLastNewlineOffset
 =
@@ -1000,7 +1000,7 @@ nsAString
 aStr
 PRUint32
 aSkipAttr
-PRBool
+bool
 aAddNSAttr
 )
 {
@@ -1362,10 +1362,10 @@ Truncate
 )
 ;
 }
-PRBool
+bool
 addNSAttr
 =
-PR_FALSE
+false
 ;
 if
 (
@@ -1416,10 +1416,10 @@ nameStr
 attrName
 )
 ;
-PRBool
+bool
 isJS
 =
-PR_FALSE
+false
 ;
 if
 (
@@ -1876,7 +1876,7 @@ if
 parserService
 )
 {
-PRBool
+bool
 isContainer
 ;
 parserService
@@ -1977,10 +1977,10 @@ nsGkAtoms
 head
 )
 {
-PRBool
+bool
 hasMeta
 =
-PR_FALSE
+false
 ;
 for
 (
@@ -2289,7 +2289,7 @@ return
 NS_OK
 ;
 }
-PRBool
+bool
 nsXHTMLContentSerializer
 :
 :
@@ -2298,7 +2298,7 @@ CheckElementStart
 nsIContent
 *
 aContent
-PRBool
+bool
 &
 aForceFormat
 nsAString
@@ -2405,7 +2405,7 @@ return
 PR_TRUE
 ;
 }
-PRBool
+bool
 nsXHTMLContentSerializer
 :
 :
@@ -2414,7 +2414,7 @@ CheckElementEnd
 nsIContent
 *
 aContent
-PRBool
+bool
 &
 aForceFormat
 nsAString
@@ -2564,7 +2564,7 @@ if
 parserService
 )
 {
-PRBool
+bool
 isContainer
 ;
 parserService
@@ -2598,7 +2598,7 @@ return
 PR_TRUE
 ;
 }
-PRBool
+bool
 dummyFormat
 ;
 return
@@ -2665,7 +2665,7 @@ aOutputStr
 )
 ;
 }
-PRBool
+bool
 nsXHTMLContentSerializer
 :
 :
@@ -3180,7 +3180,7 @@ return
 PR_FALSE
 ;
 }
-PRBool
+bool
 nsXHTMLContentSerializer
 :
 :
@@ -3301,7 +3301,7 @@ if
 parserService
 )
 {
-PRBool
+bool
 res
 ;
 parserService
@@ -3328,7 +3328,7 @@ return
 mAddSpace
 ;
 }
-PRBool
+bool
 nsXHTMLContentSerializer
 :
 :
@@ -3550,7 +3550,7 @@ return
 PR_FALSE
 ;
 }
-PRBool
+bool
 nsXHTMLContentSerializer
 :
 :
@@ -3684,7 +3684,7 @@ return
 PR_FALSE
 ;
 }
-PRBool
+bool
 nsXHTMLContentSerializer
 :
 :
@@ -3920,7 +3920,7 @@ if
 parserService
 )
 {
-PRBool
+bool
 res
 ;
 parserService
@@ -4143,10 +4143,10 @@ nsAString
 aStr
 )
 {
-PRBool
+bool
 found
 =
-PR_FALSE
+false
 ;
 nsCOMPtr
 <
@@ -4427,7 +4427,7 @@ PR_FALSE
 ;
 }
 }
-PRBool
+bool
 nsXHTMLContentSerializer
 :
 :
@@ -4540,7 +4540,7 @@ return
 PR_FALSE
 ;
 }
-PRBool
+bool
 nsXHTMLContentSerializer
 :
 :

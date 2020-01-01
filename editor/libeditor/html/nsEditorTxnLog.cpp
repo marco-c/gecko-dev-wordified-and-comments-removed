@@ -163,7 +163,7 @@ aTxMgr
 nsITransaction
 *
 aTransaction
-PRBool
+bool
 *
 aInterrupt
 )
@@ -301,7 +301,7 @@ aTxMgr
 nsITransaction
 *
 aTransaction
-PRBool
+bool
 *
 aInterrupt
 )
@@ -486,7 +486,7 @@ aTxMgr
 nsITransaction
 *
 aTransaction
-PRBool
+bool
 *
 aInterrupt
 )
@@ -668,7 +668,7 @@ WillBeginBatch
 nsITransactionManager
 *
 aTxMgr
-PRBool
+bool
 *
 aInterrupt
 )
@@ -800,7 +800,7 @@ WillEndBatch
 nsITransactionManager
 *
 aTxMgr
-PRBool
+bool
 *
 aInterrupt
 )
@@ -938,7 +938,7 @@ aTopTransaction
 nsITransaction
 *
 aTransaction
-PRBool
+bool
 *
 aInterrupt
 )
@@ -1016,7 +1016,7 @@ aTopTransaction
 nsITransaction
 *
 aTransaction
-PRBool
+bool
 aDidMerge
 nsresult
 aMergeResult

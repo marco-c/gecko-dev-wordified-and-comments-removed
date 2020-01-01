@@ -131,7 +131,7 @@ aString
 nsCString
 mBuffer
 ;
-PRBool
+bool
 mSentHeading
 ;
 nsIStreamListener

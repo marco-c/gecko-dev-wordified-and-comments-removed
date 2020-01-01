@@ -51,7 +51,7 @@ PRTime
 mNotBefore
 mNotAfter
 ;
-PRBool
+bool
 mTimesInitialized
 ;
 }

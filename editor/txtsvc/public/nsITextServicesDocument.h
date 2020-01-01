@@ -196,7 +196,7 @@ NextBlock
 NS_IMETHOD
 IsDone
 (
-PRBool
+bool
 *
 aIsDone
 )

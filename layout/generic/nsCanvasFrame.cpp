@@ -294,7 +294,7 @@ nsCanvasFrame
 :
 SetHasFocus
 (
-PRBool
+bool
 aHasFocus
 )
 {
@@ -1313,10 +1313,10 @@ focusContent
 )
 )
 ;
-PRBool
+bool
 hasFocus
 =
-PR_FALSE
+false
 ;
 nsCOMPtr
 <
@@ -1971,7 +1971,7 @@ GetRect
 (
 )
 ;
-PRBool
+bool
 kidDirty
 =
 (
@@ -2422,7 +2422,7 @@ HasAbsoluteFrames
 )
 )
 {
-PRBool
+bool
 widthChanged
 =
 aDesiredSize
@@ -2434,7 +2434,7 @@ mRect
 .
 width
 ;
-PRBool
+bool
 heightChanged
 =
 aDesiredSize

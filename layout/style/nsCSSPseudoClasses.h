@@ -61,7 +61,7 @@ aAtom
 )
 ;
 static
-PRBool
+bool
 HasStringArg
 (
 Type
@@ -69,7 +69,7 @@ aType
 )
 ;
 static
-PRBool
+bool
 HasNthPairArg
 (
 Type
@@ -77,7 +77,7 @@ aType
 )
 ;
 static
-PRBool
+bool
 HasSelectorListArg
 (
 Type

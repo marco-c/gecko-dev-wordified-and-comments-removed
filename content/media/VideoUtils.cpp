@@ -19,7 +19,7 @@ prtypes
 .
 h
 "
-PRBool
+bool
 AddOverflow32
 (
 PRUint32
@@ -75,7 +75,7 @@ return
 true
 ;
 }
-PRBool
+bool
 MulOverflow32
 (
 PRUint32
@@ -127,7 +127,7 @@ return
 PR_TRUE
 ;
 }
-PRBool
+bool
 AddOverflow
 (
 PRInt64
@@ -192,7 +192,7 @@ return
 PR_FALSE
 ;
 }
-PRBool
+bool
 MulOverflow
 (
 PRInt64
@@ -598,7 +598,7 @@ return
 PR_TRUE
 ;
 }
-PRBool
+bool
 FramesToUsecs
 (
 PRInt64
@@ -636,7 +636,7 @@ return
 PR_TRUE
 ;
 }
-PRBool
+bool
 UsecsToFrames
 (
 PRInt64

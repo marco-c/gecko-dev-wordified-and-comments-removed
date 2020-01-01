@@ -265,7 +265,7 @@ nsXULPopupListener
 nsIDOMElement
 *
 aElement
-PRBool
+bool
 aIsContext
 )
 :
@@ -542,7 +542,7 @@ NS_ERROR_FAILURE
 ;
 }
 }
-PRBool
+bool
 preventDefault
 ;
 domNSEvent
@@ -565,7 +565,7 @@ targetNode
 mIsContext
 )
 {
-PRBool
+bool
 eventEnabled
 =
 Preferences
@@ -582,7 +582,7 @@ contextmenu
 .
 enabled
 "
-PR_TRUE
+true
 )
 ;
 if
@@ -964,7 +964,7 @@ GetStyleUserInterface
 (
 )
 ;
-PRBool
+bool
 suppressBlur
 =
 (

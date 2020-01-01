@@ -633,7 +633,7 @@ GetLoadFlags
 loadFlags
 )
 ;
-PRBool
+bool
 background
 =
 (
@@ -781,7 +781,7 @@ OnDataAvailable
 imgIRequest
 *
 aRequest
-PRBool
+bool
 aCurrentFrame
 const
 nsIntRect
@@ -1099,10 +1099,10 @@ if
 shell
 )
 {
-PRBool
+bool
 doRequestDecode
 =
-PR_FALSE
+false
 ;
 if
 (
@@ -1212,7 +1212,7 @@ OnStopRequest
 imgIRequest
 *
 aRequest
-PRBool
+bool
 aLastPart
 )
 {
@@ -1280,7 +1280,7 @@ nsImageLoadingContent
 :
 GetLoadingEnabled
 (
-PRBool
+bool
 *
 aLoadingEnabled
 )
@@ -1311,7 +1311,7 @@ nsImageLoadingContent
 :
 SetLoadingEnabled
 (
-PRBool
+bool
 aLoadingEnabled
 )
 {
@@ -2102,9 +2102,9 @@ const
 nsAString
 &
 aNewURI
-PRBool
+bool
 aForce
-PRBool
+bool
 aNotify
 )
 {
@@ -2151,7 +2151,7 @@ rv
 rv
 )
 ;
-PRBool
+bool
 equal
 ;
 if
@@ -2226,9 +2226,9 @@ LoadImage
 nsIURI
 *
 aNewURI
-PRBool
+bool
 aForce
-PRBool
+bool
 aNotify
 nsIDocument
 *
@@ -2326,7 +2326,7 @@ currentURI
 )
 )
 ;
-PRBool
+bool
 equal
 ;
 if
@@ -2605,7 +2605,7 @@ nsImageLoadingContent
 :
 ForceImageState
 (
-PRBool
+bool
 aForce
 nsEventStates
 :
@@ -2715,7 +2715,7 @@ nsImageLoadingContent
 :
 UpdateImageState
 (
-PRBool
+bool
 aNotify
 )
 {
@@ -2900,7 +2900,7 @@ nsImageLoadingContent
 :
 CancelImageRequests
 (
-PRBool
+bool
 aNotify
 )
 {
@@ -2931,7 +2931,7 @@ UseAsPrimaryRequest
 imgIRequest
 *
 aRequest
-PRBool
+bool
 aNotify
 )
 {
@@ -3521,7 +3521,7 @@ nsImageLoadingContent
 :
 SetBlockingOnload
 (
-PRBool
+bool
 aBlocking
 )
 {

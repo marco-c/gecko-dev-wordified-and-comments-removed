@@ -714,7 +714,7 @@ height
 NS_OBJC_END_TRY_ABORT_BLOCK
 ;
 }
-PRBool
+bool
 NS_NPAPI_CocoaWindowIsMain
 (
 void
@@ -744,7 +744,7 @@ aWindow
 ;
 return
 (
-PRBool
+bool
 )
 [
 window

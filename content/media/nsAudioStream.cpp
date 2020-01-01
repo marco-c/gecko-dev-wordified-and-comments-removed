@@ -291,7 +291,7 @@ GetPositionInFrames
 (
 )
 ;
-PRBool
+bool
 IsPaused
 (
 )
@@ -319,10 +319,10 @@ mChannels
 SampleFormat
 mFormat
 ;
-PRPackedBool
+bool
 mPaused
 ;
-PRPackedBool
+bool
 mInError
 ;
 }
@@ -409,7 +409,7 @@ GetPositionInFrames
 (
 )
 ;
-PRBool
+bool
 IsPaused
 (
 )
@@ -439,7 +439,7 @@ mChannels
 PRInt32
 mBytesPerFrame
 ;
-PRPackedBool
+bool
 mPaused
 ;
 friend
@@ -831,7 +831,7 @@ AudioPauseEvent
 AudioChild
 *
 aChild
-PRBool
+bool
 pause
 )
 {
@@ -891,7 +891,7 @@ AudioChild
 >
 mAudioChild
 ;
-PRBool
+bool
 mPause
 ;
 }
@@ -2389,7 +2389,7 @@ return
 1
 ;
 }
-PRBool
+bool
 nsNativeAudioStream
 :
 :
@@ -3022,7 +3022,7 @@ return
 result
 ;
 }
-PRBool
+bool
 nsRemotedAudioStream
 :
 :

@@ -718,7 +718,7 @@ locale
 async
 SetOffline
 (
-PRBool
+bool
 offline
 )
 ;
@@ -882,7 +882,7 @@ PRInt16
 mode
 PRInt16
 selectedType
-PRBool
+bool
 addToRecentDocs
 nsString
 title
@@ -970,7 +970,7 @@ nsString
 title
 nsString
 text
-PRBool
+bool
 textClickable
 nsString
 cookie
@@ -1114,7 +1114,7 @@ ClipboardHasText
 )
 returns
 (
-PRBool
+bool
 hasText
 )
 ;
@@ -1154,7 +1154,7 @@ GetShowPasswordSetting
 )
 returns
 (
-PRBool
+bool
 showPassword
 )
 ;

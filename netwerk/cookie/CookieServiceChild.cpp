@@ -301,7 +301,7 @@ val
 :
 BEHAVIOR_ACCEPT
 ;
-PRBool
+bool
 boolval
 ;
 if
@@ -408,7 +408,7 @@ aCookieString
 =
 NULL
 ;
-PRBool
+bool
 isForeign
 =
 true
@@ -505,7 +505,7 @@ NS_ENSURE_ARG_POINTER
 aCookieString
 )
 ;
-PRBool
+bool
 isForeign
 =
 true

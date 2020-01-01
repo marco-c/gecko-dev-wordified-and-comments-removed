@@ -416,7 +416,7 @@ prevSibling
 }
 }
 }
-PRBool
+bool
 nsFrameList
 :
 :
@@ -657,7 +657,7 @@ Destroy
 )
 ;
 }
-PRBool
+bool
 nsFrameList
 :
 :
@@ -1502,7 +1502,7 @@ return
 1
 ;
 }
-PRBool
+bool
 nsFrameList
 :
 :
@@ -1763,7 +1763,7 @@ CompareByContentOrderComparator
 {
 public
 :
-PRBool
+bool
 Equals
 (
 const
@@ -1784,7 +1784,7 @@ aA
 aB
 ;
 }
-PRBool
+bool
 LessThan
 (
 const

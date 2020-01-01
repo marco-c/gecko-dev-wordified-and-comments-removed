@@ -107,7 +107,7 @@ nsStatis
 }
 ;
 virtual
-PRBool
+bool
 HandleData
 (
 const
@@ -167,7 +167,7 @@ nsBaseStatis
 }
 ;
 virtual
-PRBool
+bool
 HandleData
 (
 const
@@ -223,10 +223,10 @@ mLWordLen
 float
 mR
 ;
-PRBool
+bool
 mTailByte
 ;
-PRBool
+bool
 mLastLChar
 ;
 }
@@ -297,7 +297,7 @@ mR
 aR
 ;
 }
-PRBool
+bool
 nsBaseStatis
 :
 :
@@ -375,7 +375,7 @@ aBuf
 i
 ]
 ;
-PRBool
+bool
 thisLChar
 =
 (
@@ -633,7 +633,7 @@ nsSimpleStatis
 }
 ;
 virtual
-PRBool
+bool
 HandleData
 (
 const
@@ -682,7 +682,7 @@ char
 *
 mCharset
 ;
-PRBool
+bool
 mTailByte
 ;
 }
@@ -733,7 +733,7 @@ mCharset
 aCharset
 ;
 }
-PRBool
+bool
 nsSimpleStatis
 :
 :
@@ -811,7 +811,7 @@ aBuf
 i
 ]
 ;
-PRBool
+bool
 thisLChar
 =
 (
@@ -1472,10 +1472,10 @@ return
 size_t
 sz
 ;
-PRBool
+bool
 done
 =
-PR_FALSE
+false
 ;
 nsSimpleStatis
 ks

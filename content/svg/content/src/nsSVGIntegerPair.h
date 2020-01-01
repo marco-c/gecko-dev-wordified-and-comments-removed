@@ -119,7 +119,7 @@ aValue
 nsSVGElement
 *
 aSVGElement
-PRBool
+bool
 aDoSetAttr
 )
 ;
@@ -141,7 +141,7 @@ aIndex
 nsSVGElement
 *
 aSVGElement
-PRBool
+bool
 aDoSetAttr
 )
 ;
@@ -155,7 +155,7 @@ aValue2
 nsSVGElement
 *
 aSVGElement
-PRBool
+bool
 aDoSetAttr
 )
 ;
@@ -217,7 +217,7 @@ eFirst
 ]
 ;
 }
-PRBool
+bool
 IsExplicitlySet
 (
 )
@@ -275,10 +275,10 @@ mBaseVal
 PRUint8
 mAttrEnum
 ;
-PRPackedBool
+bool
 mIsAnimated
 ;
-PRPackedBool
+bool
 mIsBaseSet
 ;
 public
@@ -469,7 +469,7 @@ aSrcElement
 nsSMILValue
 &
 aValue
-PRBool
+bool
 &
 aPreventCachingOfSandwich
 )

@@ -286,7 +286,7 @@ mLParam
 ;
 }
 ;
-PRBool
+bool
 InUse
 (
 )
@@ -576,7 +576,7 @@ mPluginType
 }
 ;
 static
-PRBool
+bool
 ProcessFlashMessageDelayed
 (
 nsPluginNativeWindowOS2
@@ -836,10 +836,10 @@ nsPluginType_Other
 }
 }
 }
-PRBool
+bool
 enablePopups
 =
-PR_FALSE
+false
 ;
 switch
 (

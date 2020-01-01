@@ -76,7 +76,7 @@ PRUint32
 &
 flags
 const
-PRBool
+bool
 &
 flush
 const

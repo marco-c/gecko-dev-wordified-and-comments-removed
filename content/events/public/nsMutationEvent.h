@@ -49,7 +49,7 @@ public
 :
 nsMutationEvent
 (
-PRBool
+bool
 isTrusted
 PRUint32
 msg

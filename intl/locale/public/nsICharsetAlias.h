@@ -117,7 +117,7 @@ const
 nsACString
 &
 aCharset2
-PRBool
+bool
 *
 aResult
 )

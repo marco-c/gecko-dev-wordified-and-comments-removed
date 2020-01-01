@@ -301,10 +301,10 @@ AppendLiteral
 )
 ;
 }
-PRBool
+bool
 isScheme
 =
-PR_FALSE
+false
 ;
 nsXPIDLCString
 schemeString

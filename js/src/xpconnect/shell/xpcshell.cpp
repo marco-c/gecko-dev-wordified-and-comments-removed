@@ -360,7 +360,7 @@ XPCShellDirProvider
 )
 {
 }
-PRBool
+bool
 SetGREDir
 (
 const
@@ -817,7 +817,7 @@ locationObj
 =
 NULL
 ;
-PRBool
+bool
 symlink
 ;
 if
@@ -6698,7 +6698,7 @@ cx
 nsIPrincipal
 *
 principal
-PRBool
+bool
 *
 _retval
 )
@@ -6925,7 +6925,7 @@ const
 char
 *
 capability
-PRBool
+bool
 *
 _retval
 )
@@ -7051,7 +7051,7 @@ FullTrustSecMan
 :
 SubjectPrincipalIsSystem
 (
-PRBool
+bool
 *
 _retval
 )
@@ -7095,7 +7095,7 @@ aSourceURI
 nsIURI
 *
 aTargetURI
-PRBool
+bool
 reportError
 )
 {
@@ -7176,7 +7176,7 @@ IsSystemPrincipal
 nsIPrincipal
 *
 aPrincipal
-PRBool
+bool
 *
 _retval
 )
@@ -7409,7 +7409,7 @@ nsIInterfaceInfo
 aInterfaceInfo
 PRUint16
 aMethodIndex
-PRBool
+bool
 *
 aHideFirstParamFromJS
 nsIID
@@ -9362,7 +9362,7 @@ return
 result
 ;
 }
-PRBool
+bool
 XPCShellDirProvider
 :
 :
@@ -9439,7 +9439,7 @@ const
 char
 *
 prop
-PRBool
+bool
 *
 persistent
 nsIFile

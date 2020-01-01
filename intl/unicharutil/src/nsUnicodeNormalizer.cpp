@@ -1304,9 +1304,9 @@ static
 nsresult
 mdn_normalize
 (
-PRBool
+bool
 do_composition
-PRBool
+bool
 compat
 const
 nsAString

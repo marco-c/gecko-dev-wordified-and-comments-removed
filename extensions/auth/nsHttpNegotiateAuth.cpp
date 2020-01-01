@@ -269,7 +269,7 @@ const
 char
 *
 challenge
-PRBool
+bool
 isProxyAuth
 nsISupports
 *
@@ -279,7 +279,7 @@ nsISupports
 *
 *
 continuationState
-PRBool
+bool
 *
 identityInvalid
 )
@@ -418,7 +418,7 @@ service
 }
 else
 {
-PRBool
+bool
 allowed
 =
 TestPref
@@ -453,7 +453,7 @@ return
 NS_ERROR_ABORT
 ;
 }
-PRBool
+bool
 delegation
 =
 TestPref
@@ -699,7 +699,7 @@ const
 char
 *
 challenge
-PRBool
+bool
 isProxyAuth
 const
 PRUnichar
@@ -787,7 +787,7 @@ param
 #
 ifdef
 DEBUG
-PRBool
+bool
 isGssapiAuth
 =
 !
@@ -1112,7 +1112,7 @@ return
 rv
 ;
 }
-PRBool
+bool
 nsHttpNegotiateAuth
 :
 :
@@ -1143,7 +1143,7 @@ prefs
 return
 PR_FALSE
 ;
-PRBool
+bool
 val
 ;
 nsresult
@@ -1173,7 +1173,7 @@ return
 val
 ;
 }
-PRBool
+bool
 nsHttpNegotiateAuth
 :
 :
@@ -1404,7 +1404,7 @@ return
 PR_FALSE
 ;
 }
-PRBool
+bool
 nsHttpNegotiateAuth
 :
 :

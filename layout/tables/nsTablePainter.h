@@ -91,7 +91,7 @@ const
 nsMargin
 &
 aDeflate
-PRBool
+bool
 aPaintTableBackground
 )
 ;
@@ -153,7 +153,7 @@ PaintRowGroup
 nsTableRowGroupFrame
 *
 aFrame
-PRBool
+bool
 aPassThrough
 )
 ;
@@ -163,7 +163,7 @@ PaintRow
 nsTableRowFrame
 *
 aFrame
-PRBool
+bool
 aPassThrough
 )
 ;
@@ -173,7 +173,7 @@ PaintCell
 nsTableCellFrame
 *
 aFrame
-PRBool
+bool
 aPassSelf
 )
 ;
@@ -203,7 +203,7 @@ mFrame
 nsRect
 mRect
 ;
-PRBool
+bool
 mVisible
 ;
 const
@@ -211,7 +211,7 @@ nsStyleBorder
 *
 mBorder
 ;
-PRBool
+bool
 IsVisible
 (
 )
@@ -264,7 +264,7 @@ SetData
 (
 )
 ;
-PRBool
+bool
 ShouldSetBCBorder
 (
 )
@@ -338,7 +338,7 @@ mCompatMode
 ;
 #
 endif
-PRBool
+bool
 mIsBorderCollapse
 ;
 Origin

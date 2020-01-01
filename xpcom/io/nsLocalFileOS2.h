@@ -159,7 +159,7 @@ nsLocalFile
 )
 {
 }
-PRPackedBool
+bool
 mDirty
 ;
 nsCString
@@ -193,7 +193,7 @@ const
 nsACString
 &
 newName
-PRBool
+bool
 move
 )
 ;
@@ -210,7 +210,7 @@ const
 nsACString
 &
 newName
-PRBool
+bool
 move
 )
 ;
@@ -228,7 +228,7 @@ const
 nsAFlatCString
 &
 node
-PRBool
+bool
 multipleComponents
 )
 ;

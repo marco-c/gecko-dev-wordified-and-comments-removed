@@ -2564,10 +2564,10 @@ dataLen
 =
 0
 ;
-PRBool
+bool
 dataFound
 =
-PR_FALSE
+false
 ;
 if
 (
@@ -2975,7 +2975,7 @@ return
 res
 ;
 }
-PRBool
+bool
 nsClipboard
 :
 :
@@ -3146,7 +3146,7 @@ return
 PR_TRUE
 ;
 }
-PRBool
+bool
 nsClipboard
 :
 :
@@ -3166,10 +3166,10 @@ PRUint32
 outDataLen
 )
 {
-PRBool
+bool
 dataFound
 =
-PR_FALSE
+false
 ;
 nsresult
 loadResult
@@ -3278,7 +3278,7 @@ return
 dataFound
 ;
 }
-PRBool
+bool
 nsClipboard
 :
 :
@@ -3298,10 +3298,10 @@ PRUint32
 outDataLen
 )
 {
-PRBool
+bool
 dataFound
 =
-PR_FALSE
+false
 ;
 nsresult
 loadResult
@@ -3577,7 +3577,7 @@ return
 dataFound
 ;
 }
-PRBool
+bool
 nsClipboard
 :
 :
@@ -3597,10 +3597,10 @@ PRUint32
 outDataLen
 )
 {
-PRBool
+bool
 dataFound
 =
-PR_FALSE
+false
 ;
 void
 *
@@ -3747,7 +3747,7 @@ tempOutData
 nsCString
 urlUnescapedA
 ;
-PRBool
+bool
 unescaped
 =
 NS_UnescapeURL
@@ -3936,7 +3936,7 @@ outURL
 )
 ;
 }
-PRBool
+bool
 nsClipboard
 :
 :
@@ -4063,7 +4063,7 @@ PRUint32
 aLength
 PRInt32
 aWhichClipboard
-PRBool
+bool
 *
 _retval
 )

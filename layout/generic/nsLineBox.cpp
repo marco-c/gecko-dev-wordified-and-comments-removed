@@ -83,7 +83,7 @@ nsIFrame
 aFrame
 PRInt32
 aCount
-PRBool
+bool
 aIsBlock
 )
 :
@@ -260,7 +260,7 @@ nsIFrame
 aFrame
 PRInt32
 aCount
-PRBool
+bool
 aIsBlock
 )
 {
@@ -1205,7 +1205,7 @@ return
 frame
 ;
 }
-PRBool
+bool
 nsLineBox
 :
 :
@@ -1300,7 +1300,7 @@ return
 1
 ;
 }
-PRBool
+bool
 nsLineBox
 :
 :
@@ -1387,7 +1387,7 @@ return
 PR_TRUE
 ;
 }
-PRBool
+bool
 nsLineBox
 :
 :
@@ -1421,7 +1421,7 @@ mFlags
 mEmptyCacheState
 ;
 }
-PRBool
+bool
 result
 ;
 if
@@ -1720,7 +1720,7 @@ match
 endif
 }
 }
-PRBool
+bool
 nsLineBox
 :
 :
@@ -1900,7 +1900,7 @@ nsCollapsingMargin
 )
 ;
 }
-PRBool
+bool
 nsLineBox
 :
 :
@@ -1910,10 +1910,10 @@ nsCollapsingMargin
 aValue
 )
 {
-PRBool
+bool
 changed
 =
-PR_FALSE
+false
 ;
 if
 (
@@ -2252,7 +2252,7 @@ aFreeList
 }
 }
 }
-PRBool
+bool
 nsLineBox
 :
 :
@@ -2561,7 +2561,7 @@ Init
 nsLineList
 &
 aLines
-PRBool
+bool
 aRightToLeft
 )
 {
@@ -2683,7 +2683,7 @@ return
 mNumLines
 ;
 }
-PRBool
+bool
 nsLineIterator
 :
 :
@@ -2939,7 +2939,7 @@ CheckLineOrder
 (
 PRInt32
 aLine
-PRBool
+bool
 *
 aIsReordered
 nsIFrame
@@ -3079,10 +3079,10 @@ nsIFrame
 *
 *
 aFrameFound
-PRBool
+bool
 *
 aXIsBeforeFirstFrame
-PRBool
+bool
 *
 aXIsAfterLastFrame
 )

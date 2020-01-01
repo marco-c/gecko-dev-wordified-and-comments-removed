@@ -575,7 +575,7 @@ nsNullPrincipalURI
 :
 GetHasRef
 (
-PRBool
+bool
 *
 result
 )
@@ -739,7 +739,7 @@ Equals
 nsIURI
 *
 aOther
-PRBool
+bool
 *
 _equals
 )
@@ -820,7 +820,7 @@ EqualsExceptRef
 nsIURI
 *
 aOther
-PRBool
+bool
 *
 _equals
 )
@@ -866,7 +866,7 @@ const
 char
 *
 aScheme
-PRBool
+bool
 *
 _schemeIs
 )

@@ -84,7 +84,7 @@ Place
 nsRenderingContext
 &
 aRenderingContext
-PRBool
+bool
 aPlaceOrigin
 nsHTMLReflowMetrics
 &
@@ -176,7 +176,7 @@ ProcessAttributes
 )
 ;
 static
-PRBool
+bool
 ParseAttribute
 (
 nsString

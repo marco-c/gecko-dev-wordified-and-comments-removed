@@ -89,10 +89,10 @@ eTypeExternalConstructorAlias
 }
 mType
 ;
-PRBool
+bool
 mChromeOnly
 ;
-PRBool
+bool
 mDisabled
 ;
 union
@@ -208,9 +208,9 @@ char
 aClassName
 PRInt32
 aDOMClassInfoID
-PRBool
+bool
 aPrivileged
-PRBool
+bool
 aDisabled
 const
 PRUnichar
@@ -230,7 +230,7 @@ const
 nsIID
 *
 aConstructorProtoIID
-PRBool
+bool
 *
 aFoundOld
 )
@@ -238,7 +238,7 @@ aFoundOld
 nsresult
 RegisterExternalInterfaces
 (
-PRBool
+bool
 aAsProto
 )
 ;
@@ -274,7 +274,7 @@ nsIID
 aInterfaces
 PRUint32
 aScriptableFlags
-PRBool
+bool
 aHasClassInterface
 const
 nsCID
@@ -342,7 +342,7 @@ const
 nsIID
 *
 aIfIID
-PRBool
+bool
 *
 aFoundOld
 )
@@ -368,7 +368,7 @@ mGlobalNames
 PLDHashTable
 mNavigatorNames
 ;
-PRPackedBool
+bool
 mIsInitialized
 ;
 }

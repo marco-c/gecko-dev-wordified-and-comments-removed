@@ -451,7 +451,7 @@ aParentStyleContext
 nsMathMLChar
 *
 aMathMLChar
-PRBool
+bool
 aIsMutableChar
 )
 {
@@ -614,7 +614,7 @@ aFrame
 nsPresentationData
 &
 aPresentationData
-PRBool
+bool
 aClimbTree
 )
 {
@@ -842,7 +842,7 @@ element
 )
 ;
 }
-PRBool
+bool
 nsMathMLFrame
 :
 :
@@ -1357,7 +1357,7 @@ return
 0
 ;
 }
-PRBool
+bool
 nsMathMLFrame
 :
 :

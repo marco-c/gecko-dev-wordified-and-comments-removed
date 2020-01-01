@@ -283,7 +283,7 @@ nsIURI
 other
 RefHandlingEnum
 refHandlingMode
-PRBool
+bool
 *
 result
 )

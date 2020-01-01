@@ -52,7 +52,7 @@ nsDOMStringList
 ;
 NS_DECL_ISUPPORTS
 NS_DECL_NSIDOMDOMSTRINGLIST
-PRBool
+bool
 Add
 (
 const
@@ -103,7 +103,7 @@ nsNameList
 ;
 NS_DECL_ISUPPORTS
 NS_DECL_NSIDOMNAMELIST
-PRBool
+bool
 Add
 (
 const

@@ -1234,7 +1234,7 @@ nsGkAtoms
 viewportFrame
 ;
 }
-PRBool
+bool
 ViewportFrame
 :
 :

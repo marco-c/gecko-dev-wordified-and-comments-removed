@@ -45,9 +45,9 @@ NS_DECL_NSIDOMCSSVALUELIST
 NS_DECL_NSIDOMCSSVALUE
 nsDOMCSSValueList
 (
-PRBool
+bool
 aCommaDelimited
-PRBool
+bool
 aReadonly
 )
 ;
@@ -145,10 +145,10 @@ aSupports
 }
 private
 :
-PRPackedBool
+bool
 mCommaDelimited
 ;
-PRPackedBool
+bool
 mReadonly
 ;
 InfallibleTArray

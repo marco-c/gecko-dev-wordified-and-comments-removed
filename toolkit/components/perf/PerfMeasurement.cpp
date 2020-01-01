@@ -299,7 +299,7 @@ argv
 jsval
 *
 vp
-PRBool
+bool
 *
 _retval
 )

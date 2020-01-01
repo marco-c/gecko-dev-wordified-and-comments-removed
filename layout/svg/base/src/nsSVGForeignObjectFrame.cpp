@@ -1639,10 +1639,10 @@ PRUint32
 aFlags
 )
 {
-PRBool
+bool
 reflow
 =
-PR_FALSE
+false
 ;
 if
 (

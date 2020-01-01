@@ -146,7 +146,7 @@ using
 namespace
 mozilla
 ;
-PRBool
+bool
 nsSMILTimedElement
 :
 :
@@ -259,7 +259,7 @@ Serial
 )
 ;
 }
-PRBool
+bool
 nsSMILTimedElement
 :
 :
@@ -584,7 +584,7 @@ nsSMILTimedElement
 &
 mTimedElement
 ;
-PRPackedBool
+bool
 mDidSetFlag
 ;
 }
@@ -1233,7 +1233,7 @@ AddInstanceTime
 nsSMILInstanceTime
 *
 aInstanceTime
-PRBool
+bool
 aIsBegin
 )
 {
@@ -1387,7 +1387,7 @@ aInstanceTime
 nsSMILTimeValue
 &
 aUpdatedTime
-PRBool
+bool
 aIsBegin
 )
 {
@@ -1431,7 +1431,7 @@ InstanceTimeComparator
 )
 )
 ;
-PRBool
+bool
 changedCurrentInterval
 =
 mCurrentInterval
@@ -1475,7 +1475,7 @@ RemoveInstanceTime
 nsSMILInstanceTime
 *
 aInstanceTime
-PRBool
+bool
 aIsBegin
 )
 {
@@ -1527,7 +1527,7 @@ mozilla
 :
 DebugOnly
 <
-PRBool
+bool
 >
 found
 =
@@ -1583,7 +1583,7 @@ aCreator
 )
 {
 }
-PRBool
+bool
 operator
 (
 )
@@ -1654,7 +1654,7 @@ const
 nsSMILTimeValueSpec
 *
 aCreator
-PRBool
+bool
 aIsBegin
 )
 {
@@ -1783,7 +1783,7 @@ DoSampleAt
 (
 nsSMILTime
 aContainerTime
-PRBool
+bool
 aEndOnly
 )
 {
@@ -1851,10 +1851,10 @@ aEndOnly
 )
 return
 ;
-PRBool
+bool
 finishedSeek
 =
-PR_FALSE
+false
 ;
 if
 (
@@ -1911,7 +1911,7 @@ finishedSeek
 PR_TRUE
 ;
 }
-PRBool
+bool
 stateChanged
 ;
 nsSMILTimeValue
@@ -2142,7 +2142,7 @@ case
 STATE_ACTIVE
 :
 {
-PRBool
+bool
 didApplyEarlyEnd
 =
 ApplyEarlyEnd
@@ -2501,7 +2501,7 @@ PR_FALSE
 }
 namespace
 {
-PRBool
+bool
 RemoveNonDynamic
 (
 nsSMILInstanceTime
@@ -2775,7 +2775,7 @@ rewind
 }
 namespace
 {
-PRBool
+bool
 RemoveNonDOM
 (
 nsSMILInstanceTime
@@ -2803,7 +2803,7 @@ ShouldPreserve
 ;
 }
 }
-PRBool
+bool
 nsSMILTimedElement
 :
 :
@@ -2827,10 +2827,10 @@ nsresult
 aParseResult
 )
 {
-PRBool
+bool
 foundMatch
 =
-PR_TRUE
+true
 ;
 nsresult
 parseResult
@@ -3055,7 +3055,7 @@ return
 foundMatch
 ;
 }
-PRBool
+bool
 nsSMILTimedElement
 :
 :
@@ -3066,10 +3066,10 @@ nsIAtom
 aAttribute
 )
 {
-PRBool
+bool
 foundMatch
 =
-PR_TRUE
+true
 ;
 if
 (
@@ -3349,7 +3349,7 @@ aDurSpec
 nsSMILTimeValue
 duration
 ;
-PRBool
+bool
 isMedia
 ;
 nsresult
@@ -3491,7 +3491,7 @@ aMinSpec
 nsSMILTimeValue
 duration
 ;
-PRBool
+bool
 isMedia
 ;
 nsresult
@@ -3621,7 +3621,7 @@ aMaxSpec
 nsSMILTimeValue
 duration
 ;
-PRBool
+bool
 isMedia
 ;
 nsresult
@@ -3756,7 +3756,7 @@ aRestartSpec
 nsAttrValue
 temp
 ;
-PRBool
+bool
 parseResult
 =
 temp
@@ -3999,7 +3999,7 @@ mFillMode
 nsAttrValue
 temp
 ;
-PRBool
+bool
 parseResult
 =
 temp
@@ -4026,7 +4026,7 @@ GetEnumValue
 :
 FILL_REMOVE
 ;
-PRBool
+bool
 isFillable
 =
 HasPlayed
@@ -4218,7 +4218,7 @@ aDependent
 )
 ;
 }
-PRBool
+bool
 nsSMILTimedElement
 :
 :
@@ -4760,7 +4760,7 @@ aSpec
 Element
 *
 aContextNode
-PRBool
+bool
 aIsBegin
 RemovalTestFunction
 aRemove
@@ -4964,7 +4964,7 @@ aFunction
 )
 {
 }
-PRBool
+bool
 operator
 (
 )
@@ -5098,7 +5098,7 @@ Clear
 )
 ;
 }
-PRBool
+bool
 nsSMILTimedElement
 :
 :
@@ -5129,10 +5129,10 @@ end
 "
 )
 ;
-PRBool
+bool
 updated
 =
-PR_FALSE
+false
 ;
 if
 (
@@ -5246,7 +5246,7 @@ aCurrentIntervalBegin
 )
 {
 }
-PRBool
+bool
 operator
 (
 )
@@ -5739,7 +5739,7 @@ aCutoff
 )
 {
 }
-PRBool
+bool
 operator
 (
 )
@@ -5815,7 +5815,7 @@ aTimesToKeep
 )
 {
 }
-PRBool
+bool
 operator
 (
 )
@@ -5992,7 +5992,7 @@ removeBelowThreshold
 ;
 }
 }
-PRBool
+bool
 nsSMILTimedElement
 :
 :
@@ -6069,10 +6069,10 @@ PR_FALSE
 nsSMILTimeValue
 beginAfter
 ;
-PRBool
+bool
 prevIntervalWasZeroDur
 =
-PR_FALSE
+false
 ;
 if
 (
@@ -6439,7 +6439,7 @@ endPos
 )
 ;
 }
-PRBool
+bool
 openEndedIntervalOk
 =
 mEndSpecs
@@ -7534,7 +7534,7 @@ nsSMILTimedElement
 :
 UpdateCurrentInterval
 (
-PRBool
+bool
 aForceChangeNotice
 )
 {
@@ -7673,15 +7673,15 @@ NotifyNewInterval
 }
 else
 {
-PRBool
+bool
 beginChanged
 =
-PR_FALSE
+false
 ;
-PRBool
+bool
 endChanged
 =
-PR_FALSE
+false
 ;
 if
 (
@@ -8107,7 +8107,7 @@ nsSMILTime
 aCurrentTime
 double
 aOffsetSeconds
-PRBool
+bool
 aIsBegin
 )
 {
@@ -8248,7 +8248,7 @@ mPrevRegisteredMilestone
 nextMilestone
 ;
 }
-PRBool
+bool
 nsSMILTimedElement
 :
 :
@@ -8585,9 +8585,9 @@ NotifyChangedInterval
 nsSMILInterval
 *
 aInterval
-PRBool
+bool
 aBeginObjectChanged
-PRBool
+bool
 aEndObjectChanged
 )
 {
@@ -8830,7 +8830,7 @@ get
 )
 ;
 }
-PRBool
+bool
 nsSMILTimedElement
 :
 :
@@ -8866,7 +8866,7 @@ IsDefinite
 )
 ;
 }
-PRBool
+bool
 nsSMILTimedElement
 :
 :

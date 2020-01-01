@@ -169,7 +169,7 @@ false
 "
 ;
 static
-PRBool
+bool
 pref_GrowBuf
 (
 PrefParseState
@@ -329,7 +329,7 @@ PR_TRUE
 ;
 }
 static
-PRBool
+bool
 pref_DoCallback
 (
 PrefParseState
@@ -557,7 +557,7 @@ lb
 )
 ;
 }
-PRBool
+bool
 PREF_ParseBuf
 (
 PrefParseState
@@ -2576,7 +2576,7 @@ PrefValue
 val
 PrefType
 type
-PRBool
+bool
 defPref
 )
 {

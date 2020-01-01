@@ -39,10 +39,10 @@ MAX_GBK_LENGTH
 *
 /
 static
-PRBool
+bool
 gInitToGBKTable
 =
-PR_FALSE
+false
 ;
 static
 const
@@ -71,7 +71,7 @@ gUnicodeToGBKTable
 0x4e00
 ]
 ;
-PRBool
+bool
 nsGBKConvUtil
 :
 :
@@ -79,7 +79,7 @@ UnicodeToGBKChar
 (
 PRUnichar
 aChar
-PRBool
+bool
 aToGL
 char
 *
@@ -107,10 +107,10 @@ first
 "
 )
 ;
-PRBool
+bool
 found
 =
-PR_FALSE
+false
 ;
 *
 aOutByte1

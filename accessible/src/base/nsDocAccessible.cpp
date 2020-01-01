@@ -2066,7 +2066,7 @@ return
 NS_OK
 ;
 }
-PRBool
+bool
 isEditable
 ;
 editor
@@ -2182,7 +2182,7 @@ return
 accessible
 ;
 }
-PRBool
+bool
 nsDocAccessible
 :
 :
@@ -2720,7 +2720,7 @@ GetItemType
 itemType
 )
 ;
-PRBool
+bool
 isContent
 =
 (
@@ -3828,7 +3828,7 @@ nsGkAtoms
 aria_busy
 )
 {
-PRBool
+bool
 isOn
 =
 aContent

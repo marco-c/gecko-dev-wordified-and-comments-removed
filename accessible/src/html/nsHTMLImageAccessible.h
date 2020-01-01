@@ -95,12 +95,12 @@ ActionCount
 ;
 private
 :
-PRBool
+bool
 HasLongDesc
 (
 )
 ;
-PRBool
+bool
 IsValidLongDescIndex
 (
 PRUint8

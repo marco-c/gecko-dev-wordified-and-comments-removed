@@ -70,7 +70,7 @@ h
 "
 static
 inline
-PRBool
+bool
 NodeHasChildren
 (
 nsINode
@@ -140,13 +140,13 @@ parent
 ;
 }
 static
-PRBool
+bool
 NodeIsInTraversalRange
 (
 nsINode
 *
 aNode
-PRBool
+bool
 aIsPreMode
 nsINode
 *
@@ -298,7 +298,7 @@ nsContentIterator
 explicit
 nsContentIterator
 (
-PRBool
+bool
 aPre
 )
 ;
@@ -367,7 +367,7 @@ GetCurrentNode
 )
 ;
 virtual
-PRBool
+bool
 IsDone
 (
 )
@@ -517,10 +517,10 @@ mIndexes
 PRInt32
 mCachedIndex
 ;
-PRBool
+bool
 mIsDone
 ;
-PRBool
+bool
 mPre
 ;
 private
@@ -665,7 +665,7 @@ nsContentIterator
 :
 nsContentIterator
 (
-PRBool
+bool
 aPre
 )
 :
@@ -888,7 +888,7 @@ endNode
 NS_ERROR_FAILURE
 )
 ;
-PRBool
+bool
 startIsData
 =
 startNode
@@ -1180,7 +1180,7 @@ nsnull
 ;
 }
 }
-PRBool
+bool
 endIsData
 =
 endNode
@@ -3088,7 +3088,7 @@ mIndexes
 )
 ;
 }
-PRBool
+bool
 nsContentIterator
 :
 :
@@ -4238,7 +4238,7 @@ firstCandidate
 nsnull
 )
 ;
-PRBool
+bool
 nodeBefore
 nodeAfter
 ;
@@ -4790,7 +4790,7 @@ outAncestor
 return
 NS_ERROR_NULL_POINTER
 ;
-PRBool
+bool
 nodeBefore
 nodeAfter
 ;

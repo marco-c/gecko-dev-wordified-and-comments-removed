@@ -95,7 +95,7 @@ nsIAtom
 aAttribute
 )
 {
-PRBool
+bool
 isAffected
 ;
 if
@@ -232,7 +232,7 @@ PR_TRUE
 ;
 }
 }
-PRBool
+bool
 SVGMotionSMILAnimationFunction
 :
 :
@@ -418,7 +418,7 @@ return
 PR_TRUE
 ;
 }
-PRBool
+bool
 SVGMotionSMILAnimationFunction
 :
 :
@@ -775,10 +775,10 @@ aContextElem
 )
 )
 ;
-PRBool
+bool
 success
 =
-PR_FALSE
+false
 ;
 if
 (
@@ -1127,7 +1127,7 @@ Length
 )
 )
 {
-PRBool
+bool
 ok
 =
 path
@@ -1237,7 +1237,7 @@ gfxMatrix
 )
 )
 ;
-PRBool
+bool
 ok
 =
 path
@@ -1377,7 +1377,7 @@ mIsPathStale
 PR_FALSE
 ;
 }
-PRBool
+bool
 SVGMotionSMILAnimationFunction
 :
 :
@@ -1386,7 +1386,7 @@ GenerateValuesForPathAndPoints
 gfxFlattenedPath
 *
 aPath
-PRBool
+bool
 aIsKeyPoints
 nsTArray
 <
@@ -1590,7 +1590,7 @@ vertices
 "
 )
 ;
-PRBool
+bool
 isUsingKeyPoints
 =
 !
@@ -1600,7 +1600,7 @@ IsEmpty
 (
 )
 ;
-PRBool
+bool
 success
 =
 GenerateValuesForPathAndPoints
@@ -1652,7 +1652,7 @@ CheckKeyPoints
 )
 ;
 }
-PRBool
+bool
 SVGMotionSMILAnimationFunction
 :
 :

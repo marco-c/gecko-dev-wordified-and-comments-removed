@@ -78,7 +78,7 @@ nsGenericHTMLElement
 )
 NS_DECL_NSIDOMHTMLTABLEELEMENT
 virtual
-PRBool
+bool
 ParseAttribute
 (
 PRInt32
@@ -104,7 +104,7 @@ const
 ;
 NS_IMETHOD_
 (
-PRBool
+bool
 )
 IsAttributeMapped
 (
@@ -149,7 +149,7 @@ aParent
 nsIContent
 *
 aBindingParent
-PRBool
+bool
 aCompileEventHandlers
 )
 ;
@@ -157,14 +157,14 @@ virtual
 void
 UnbindFromTree
 (
-PRBool
+bool
 aDeep
 =
-PR_TRUE
-PRBool
+true
+bool
 aNullParent
 =
-PR_TRUE
+true
 )
 ;
 virtual
@@ -180,7 +180,7 @@ const
 nsAString
 *
 aValue
-PRBool
+bool
 aNotify
 )
 ;
@@ -197,7 +197,7 @@ const
 nsAString
 *
 aValue
-PRBool
+bool
 aNotify
 )
 ;

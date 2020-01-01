@@ -147,7 +147,7 @@ nsGenericHTMLFrameElement
 NS_DECL_NSIDOMHTMLIFRAMEELEMENT
 NS_DECL_NSIDOMGETSVGDOCUMENT
 virtual
-PRBool
+bool
 ParseAttribute
 (
 PRInt32
@@ -166,7 +166,7 @@ aResult
 ;
 NS_IMETHOD_
 (
-PRBool
+bool
 )
 IsAttributeMapped
 (
@@ -395,7 +395,7 @@ aResult
 )
 ;
 }
-PRBool
+bool
 nsHTMLIFrameElement
 :
 :
@@ -1064,7 +1064,7 @@ aData
 }
 NS_IMETHODIMP_
 (
-PRBool
+bool
 )
 nsHTMLIFrameElement
 :

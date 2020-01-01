@@ -865,7 +865,7 @@ on
 our
 own
 content
-PRBool
+bool
 isEnabled
 ;
 if
@@ -1038,7 +1038,7 @@ nsMenuItemX
 :
 SetChecked
 (
-PRBool
+bool
 aIsChecked
 )
 {
@@ -1273,7 +1273,7 @@ const
 nsString
 &
 eventName
-PRBool
+bool
 *
 preventDefaultCalled
 )

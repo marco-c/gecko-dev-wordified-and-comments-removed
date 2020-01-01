@@ -972,7 +972,7 @@ gfxIntSize
 )
 ;
 }
-PRBool
+bool
 ImageContainerD3D9
 :
 :

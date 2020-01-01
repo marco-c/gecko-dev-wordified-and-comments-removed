@@ -118,7 +118,7 @@ void
 *
 key
 ;
-PRPackedBool
+bool
 mCritInit
 [
 max_criterions
@@ -234,7 +234,7 @@ nsCertOverride
 OverrideBits
 mOverrideBits
 ;
-PRBool
+bool
 mIsTemporary
 ;
 nsCOMPtr

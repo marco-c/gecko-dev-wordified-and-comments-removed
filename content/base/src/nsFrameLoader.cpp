@@ -1163,7 +1163,7 @@ nsFrameLoader
 nsIContent
 *
 aOwner
-PRBool
+bool
 aNetworkCreated
 )
 :
@@ -1243,7 +1243,7 @@ Create
 nsIContent
 *
 aOwner
-PRBool
+bool
 aNetworkCreated
 )
 {
@@ -1898,7 +1898,7 @@ SetReferrer
 referrer
 )
 ;
-PRBool
+bool
 tmpState
 =
 mNeedsAsyncDestroy
@@ -2334,7 +2334,7 @@ aItem
 nsIDOMEventTarget
 *
 aChromeEventHandler
-PRBool
+bool
 aFireIfShowing
 )
 {
@@ -2609,7 +2609,7 @@ aHandler
 }
 }
 static
-PRBool
+bool
 AddTreeItemToTreeOwner
 (
 nsIDocShellTreeItem
@@ -2653,10 +2653,10 @@ content
 nsAutoString
 value
 ;
-PRBool
+bool
 isContent
 =
-PR_FALSE
+false
 ;
 if
 (
@@ -2751,10 +2751,10 @@ aItem
 )
 ;
 }
-PRBool
+bool
 retval
 =
-PR_FALSE
+false
 ;
 if
 (
@@ -2774,7 +2774,7 @@ retval
 =
 PR_TRUE
 ;
-PRBool
+bool
 is_primary
 =
 value
@@ -2793,7 +2793,7 @@ if
 aOwner
 )
 {
-PRBool
+bool
 is_targetable
 =
 is_primary
@@ -2828,7 +2828,7 @@ retval
 ;
 }
 static
-PRBool
+bool
 AllDescendantsOfType
 (
 nsIDocShellTreeItem
@@ -2967,7 +2967,7 @@ PR_FALSE
 }
 }
 ;
-PRBool
+bool
 nsFrameLoader
 :
 :
@@ -3404,10 +3404,10 @@ if
 editorDocshell
 )
 {
-PRBool
+bool
 editable
 =
-PR_FALSE
+false
 hasEditingSession
 =
 PR_FALSE
@@ -3894,7 +3894,7 @@ return
 NS_ERROR_NOT_IMPLEMENTED
 ;
 }
-PRBool
+bool
 equal
 ;
 nsresult
@@ -5414,10 +5414,10 @@ nsIDocument
 >
 doc
 ;
-PRBool
+bool
 dynamicSubframeRemoval
 =
-PR_FALSE
+false
 ;
 if
 (
@@ -5657,7 +5657,7 @@ nsFrameLoader
 :
 GetDepthTooGreat
 (
-PRBool
+bool
 *
 aDepthTooGreat
 )
@@ -5739,7 +5739,7 @@ tabs
 .
 disabled
 "
-PR_FALSE
+false
 )
 )
 {
@@ -6721,7 +6721,7 @@ if
 parentURI
 )
 {
-PRBool
+bool
 equal
 ;
 rv
@@ -7865,7 +7865,7 @@ PRInt32
 aClickCount
 PRInt32
 aModifiers
-PRBool
+bool
 aIgnoreRootScrollFrame
 )
 {
@@ -7906,7 +7906,7 @@ const
 nsAString
 &
 aType
-PRBool
+bool
 aCapture
 )
 {
@@ -7953,7 +7953,7 @@ PRInt32
 aCharCode
 PRInt32
 aModifiers
-PRBool
+bool
 aPreventDefault
 )
 {
@@ -7988,7 +7988,7 @@ nsFrameLoader
 :
 GetDelayRemoteDialogs
 (
-PRBool
+bool
 *
 aRetVal
 )
@@ -8008,7 +8008,7 @@ nsFrameLoader
 :
 SetDelayRemoteDialogs
 (
-PRBool
+bool
 aDelay
 )
 {

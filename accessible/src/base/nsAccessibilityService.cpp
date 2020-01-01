@@ -427,13 +427,13 @@ gAccessibilityService
 =
 nsnull
 ;
-PRBool
+bool
 nsAccessibilityService
 :
 :
 gIsShutdown
 =
-PR_TRUE
+true
 ;
 nsAccessibilityService
 :
@@ -608,7 +608,7 @@ GetRootDocumentAccessible
 nsIPresShell
 *
 aPresShell
-PRBool
+bool
 aCanCreate
 )
 {
@@ -4435,7 +4435,7 @@ nsnull
 ;
 }
 static
-PRBool
+bool
 HasRelatedContent
 (
 nsIContent
@@ -4956,7 +4956,7 @@ return
 nsnull
 ;
 }
-PRBool
+bool
 isHTML
 =
 content
@@ -5124,10 +5124,10 @@ newAcc
 isHTML
 )
 {
-PRBool
+bool
 tryTagNameOrFrame
 =
-PR_TRUE
+true
 ;
 nsIAtom
 *
@@ -5144,7 +5144,7 @@ GetType
 (
 )
 ;
-PRBool
+bool
 partOfHTMLTable
 =
 frameType
@@ -5900,7 +5900,7 @@ newAcc
 nsnull
 ;
 }
-PRBool
+bool
 nsAccessibilityService
 :
 :
@@ -6038,7 +6038,7 @@ ShutdownAccessibility
 )
 ;
 }
-PRBool
+bool
 nsAccessibilityService
 :
 :

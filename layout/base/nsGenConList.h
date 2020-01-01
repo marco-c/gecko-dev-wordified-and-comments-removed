@@ -79,7 +79,7 @@ aContentIndex
 {
 }
 virtual
-PRBool
+bool
 InitTextFrame
 (
 nsGenConList
@@ -332,7 +332,7 @@ nsGenConNode
 aNode
 )
 ;
-PRBool
+bool
 DestroyNodesFor
 (
 nsIFrame
@@ -341,7 +341,7 @@ aFrame
 )
 ;
 static
-PRBool
+bool
 NodeAfter
 (
 const
@@ -372,7 +372,7 @@ mSize
 -
 ;
 }
-PRBool
+bool
 IsLast
 (
 nsGenConNode

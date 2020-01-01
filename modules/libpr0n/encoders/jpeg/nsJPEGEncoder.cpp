@@ -1158,7 +1158,7 @@ nsJPEGEncoder
 :
 IsNonBlocking
 (
-PRBool
+bool
 *
 _retval
 )

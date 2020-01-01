@@ -108,7 +108,7 @@ h
 >
 #
 endif
-PRBool
+bool
 nsGNOMERegistry
 :
 :
@@ -187,7 +187,7 @@ if
 gconf
 )
 {
-PRBool
+bool
 isEnabled
 ;
 nsCAutoString
@@ -378,7 +378,7 @@ name
 }
 else
 {
-PRBool
+bool
 isEnabled
 ;
 if

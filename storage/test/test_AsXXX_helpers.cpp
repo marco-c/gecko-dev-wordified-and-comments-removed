@@ -264,7 +264,7 @@ do_check_true
 valueArray
 )
 ;
-PRBool
+bool
 hasMore
 ;
 do_check_true

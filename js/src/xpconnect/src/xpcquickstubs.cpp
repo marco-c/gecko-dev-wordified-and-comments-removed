@@ -1737,10 +1737,10 @@ xpc_qsHashEntry
 table
 )
 {
-PRBool
+bool
 definedProperty
 =
-PR_FALSE
+false
 ;
 for
 (

@@ -121,7 +121,7 @@ JSObject
 *
 mCachedArray
 ;
-PRPackedBool
+bool
 mAllowAudioData
 ;
 }

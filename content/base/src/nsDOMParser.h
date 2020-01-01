@@ -94,7 +94,7 @@ public
 :
 AttemptedInitMarker
 (
-PRPackedBool
+bool
 *
 aAttemptedInit
 )
@@ -118,7 +118,7 @@ PR_TRUE
 }
 private
 :
-PRPackedBool
+bool
 *
 mAttemptedInit
 ;
@@ -151,10 +151,10 @@ mBaseURI
 nsWeakPtr
 mScriptHandlingObject
 ;
-PRPackedBool
+bool
 mLoopingForSyncLoad
 ;
-PRPackedBool
+bool
 mAttemptedInit
 ;
 }

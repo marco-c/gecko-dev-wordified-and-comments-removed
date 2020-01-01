@@ -122,7 +122,7 @@ mSegmentSize
 PRUint32
 mSegmentSizeLog2
 ;
-PRBool
+bool
 mWriteInProgress
 ;
 PRInt32

@@ -128,7 +128,7 @@ DetachFromNSWindow
 (
 )
 ;
-PRBool
+bool
 IsWindowAvailable
 (
 )
@@ -138,7 +138,7 @@ virtual
 nsresult
 ShowActive
 (
-PRBool
+bool
 active
 )
 =
@@ -165,7 +165,7 @@ LPARAM
 lParam
 )
 ;
-PRBool
+bool
 CanMakeTaskbarCalls
 (
 )
@@ -182,7 +182,7 @@ EnableCustomDrawing
 (
 HWND
 aHWND
-PRBool
+bool
 aEnable
 )
 ;
@@ -201,7 +201,7 @@ mController
 HWND
 mWnd
 ;
-PRBool
+bool
 mVisible
 ;
 private
@@ -218,12 +218,12 @@ PRUint32
 width
 PRUint32
 height
-PRBool
+bool
 isPreview
 )
 ;
 static
-PRBool
+bool
 MainWindowHook
 (
 void

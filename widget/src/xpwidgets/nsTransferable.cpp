@@ -650,7 +650,7 @@ mCacheFileName
 )
 )
 ;
-PRBool
+bool
 exists
 ;
 if
@@ -1161,10 +1161,10 @@ break
 ;
 }
 }
-PRBool
+bool
 found
 =
-PR_FALSE
+false
 ;
 if
 (
@@ -1201,10 +1201,10 @@ ElementAt
 i
 )
 ;
-PRBool
+bool
 canConvert
 =
-PR_FALSE
+false
 ;
 mFormatConv
 -
@@ -1581,10 +1581,10 @@ ElementAt
 i
 )
 ;
-PRBool
+bool
 canConvert
 =
-PR_FALSE
+false
 ;
 mFormatConv
 -
@@ -1782,7 +1782,7 @@ nsTransferable
 :
 IsLargeDataSet
 (
-PRBool
+bool
 *
 _retval
 )

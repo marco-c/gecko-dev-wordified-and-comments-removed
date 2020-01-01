@@ -63,7 +63,7 @@ void
 NS_IMETHOD
 GetIsTransient
 (
-PRBool
+bool
 *
 aIsTransient
 )
@@ -74,7 +74,7 @@ Merge
 nsITransaction
 *
 aTransaction
-PRBool
+bool
 *
 aDidMerge
 )

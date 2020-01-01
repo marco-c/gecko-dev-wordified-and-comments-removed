@@ -935,7 +935,7 @@ return
 res
 ;
 }
-PRBool
+bool
 exactLength
 =
 (
@@ -1404,7 +1404,7 @@ return
 res
 ;
 }
-PRBool
+bool
 exactLength
 =
 (

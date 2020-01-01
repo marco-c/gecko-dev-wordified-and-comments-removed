@@ -80,7 +80,7 @@ nsIContent
 aMap
 )
 ;
-PRBool
+bool
 IsInside
 (
 nscoord
@@ -151,10 +151,10 @@ SearchForAreas
 nsIContent
 *
 aParent
-PRBool
+bool
 &
 aFoundArea
-PRBool
+bool
 &
 aFoundAnchor
 )
@@ -193,7 +193,7 @@ Area
 >
 mAreas
 ;
-PRBool
+bool
 mContainsBlockContents
 ;
 }

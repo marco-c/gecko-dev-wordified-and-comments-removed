@@ -482,7 +482,7 @@ aCallback
 void
 *
 aClosure
-PRBool
+bool
 &
 aAborted
 )
@@ -664,7 +664,7 @@ aLength
 )
 ;
 }
-PRBool
+bool
 gfxPlatformMac
 :
 :
@@ -889,7 +889,7 @@ threshold
 =
 0
 ;
-PRBool
+bool
 useAntiAliasingThreshold
 =
 Preferences
@@ -902,7 +902,7 @@ gfx
 .
 use_text_smoothing_setting
 "
-PR_FALSE
+false
 )
 ;
 if

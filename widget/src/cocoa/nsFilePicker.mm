@@ -590,10 +590,10 @@ kSaveTypeControlTag
 1
 ;
 static
-PRBool
+bool
 gCallSecretHiddenFileAPI
 =
-PR_FALSE
+false
 ;
 const
 char
@@ -791,10 +791,10 @@ panel
 {
 NS_OBJC_BEGIN_TRY_ABORT_BLOCK
 ;
-PRBool
+bool
 show
 =
-PR_FALSE
+false
 ;
 if
 (
@@ -2191,7 +2191,7 @@ const
 nsString
 &
 inTitle
-PRBool
+bool
 inAllowMultiple
 nsCOMArray
 <

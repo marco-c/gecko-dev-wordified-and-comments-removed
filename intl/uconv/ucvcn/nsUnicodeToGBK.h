@@ -129,7 +129,7 @@ mSurrogateHigh
 nsGBKConvUtil
 mUtil
 ;
-PRBool
+bool
 TryExtensionEncoder
 (
 PRUnichar
@@ -142,7 +142,7 @@ PRInt32
 aOutLen
 )
 ;
-PRBool
+bool
 Try4BytesEncoder
 (
 PRUnichar
@@ -156,7 +156,7 @@ aOutLen
 )
 ;
 virtual
-PRBool
+bool
 EncodeSurrogate
 (
 PRUnichar
@@ -210,7 +210,7 @@ Create4BytesEncoder
 )
 ;
 virtual
-PRBool
+bool
 EncodeSurrogate
 (
 PRUnichar

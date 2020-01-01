@@ -4598,7 +4598,7 @@ code
 '
 :
 '
-PRBool
+bool
 result
 =
 self
@@ -4877,7 +4877,7 @@ code
 '
 :
 '
-PRBool
+bool
 result
 =
 self
@@ -4937,7 +4937,7 @@ code
 '
 :
 '
-PRBool
+bool
 result
 =
 self

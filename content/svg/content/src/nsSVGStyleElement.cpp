@@ -124,7 +124,7 @@ aParent
 nsIContent
 *
 aBindingParent
-PRBool
+bool
 aCompileEventHandlers
 )
 ;
@@ -132,14 +132,14 @@ virtual
 void
 UnbindFromTree
 (
-PRBool
+bool
 aDeep
 =
-PR_TRUE
-PRBool
+true
+bool
 aNullParent
 =
-PR_TRUE
+true
 )
 ;
 nsresult
@@ -154,7 +154,7 @@ const
 nsAString
 &
 aValue
-PRBool
+bool
 aNotify
 )
 {
@@ -185,7 +185,7 @@ const
 nsAString
 &
 aValue
-PRBool
+bool
 aNotify
 )
 ;
@@ -198,7 +198,7 @@ aNameSpaceID
 nsIAtom
 *
 aAttribute
-PRBool
+bool
 aNotify
 )
 ;
@@ -245,7 +245,7 @@ nsIURI
 >
 GetStyleSheetURL
 (
-PRBool
+bool
 *
 aIsInline
 )
@@ -262,7 +262,7 @@ aType
 nsAString
 &
 aMedia
-PRBool
+bool
 *
 aIsAlternate
 )
@@ -361,7 +361,7 @@ aParent
 nsIContent
 *
 aBindingParent
-PRBool
+bool
 aCompileEventHandlers
 )
 {
@@ -424,9 +424,9 @@ nsSVGStyleElement
 :
 UnbindFromTree
 (
-PRBool
+bool
 aDeep
-PRBool
+bool
 aNullParent
 )
 {
@@ -473,7 +473,7 @@ const
 nsAString
 &
 aValue
-PRBool
+bool
 aNotify
 )
 {
@@ -554,7 +554,7 @@ aNameSpaceID
 nsIAtom
 *
 aAttribute
-PRBool
+bool
 aNotify
 )
 {
@@ -962,7 +962,7 @@ nsSVGStyleElement
 :
 GetStyleSheetURL
 (
-PRBool
+bool
 *
 aIsInline
 )
@@ -991,7 +991,7 @@ aType
 nsAString
 &
 aMedia
-PRBool
+bool
 *
 aIsAlternate
 )

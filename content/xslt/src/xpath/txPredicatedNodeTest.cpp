@@ -68,7 +68,7 @@ sensitive
 )
 ;
 }
-PRBool
+bool
 txPredicatedNodeTest
 :
 :
@@ -158,7 +158,7 @@ return
 5
 ;
 }
-PRBool
+bool
 txPredicatedNodeTest
 :
 :

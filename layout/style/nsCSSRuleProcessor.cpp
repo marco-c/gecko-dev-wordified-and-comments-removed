@@ -363,10 +363,10 @@ css
 visited_links_enabled
 "
 static
-PRBool
+bool
 gSupportVisitedPseudo
 =
-PR_TRUE
+true
 ;
 static
 nsTArray
@@ -619,7 +619,7 @@ ops
 ;
 }
 static
-PRBool
+bool
 RuleHash_CIMatchEntry
 (
 PLDHashTable
@@ -703,7 +703,7 @@ match_atom
 ;
 }
 static
-PRBool
+bool
 RuleHash_CSMatchEntry
 (
 PLDHashTable
@@ -767,7 +767,7 @@ entry_atom
 ;
 }
 static
-PRBool
+bool
 RuleHash_InitEntry
 (
 PLDHashTable
@@ -842,7 +842,7 @@ RuleHashTableEntry
 ;
 }
 static
-PRBool
+bool
 RuleHash_TagTable_MatchEntry
 (
 PLDHashTable
@@ -904,7 +904,7 @@ entry_atom
 ;
 }
 static
-PRBool
+bool
 RuleHash_TagTable_InitEntry
 (
 PLDHashTable
@@ -1115,7 +1115,7 @@ key
 ;
 }
 static
-PRBool
+bool
 RuleHash_NameSpaceTable_MatchEntry
 (
 PLDHashTable
@@ -1320,7 +1320,7 @@ public
 :
 RuleHash
 (
-PRBool
+bool
 aQuirksMode
 )
 ;
@@ -1526,7 +1526,7 @@ RuleHash
 :
 RuleHash
 (
-PRBool
+bool
 aQuirksMode
 )
 :
@@ -3355,7 +3355,7 @@ AtomSelectorEntry
 ;
 }
 static
-PRBool
+bool
 AtomSelector_InitEntry
 (
 PLDHashTable
@@ -3496,7 +3496,7 @@ RuleCascadeData
 nsIAtom
 *
 aMedium
-PRBool
+bool
 aQuirksMode
 )
 :
@@ -3788,7 +3788,7 @@ RuleCascadeData
 mNext
 ;
 const
-PRBool
+bool
 mQuirksMode
 ;
 }
@@ -4188,7 +4188,7 @@ Init
 (
 )
 ;
-PRBool
+bool
 InPrivateBrowsing
 (
 )
@@ -4200,7 +4200,7 @@ mInPrivateBrowsing
 }
 private
 :
-PRBool
+bool
 mInPrivateBrowsing
 ;
 }
@@ -4570,7 +4570,7 @@ NS_OK
 ;
 }
 static
-PRBool
+bool
 InitSystemMetrics
 (
 )
@@ -5313,7 +5313,7 @@ gPrivateBrowsingObserver
 )
 ;
 }
-PRBool
+bool
 nsCSSRuleProcessor
 :
 :
@@ -5450,7 +5450,7 @@ return
 state
 ;
 }
-PRBool
+bool
 nsCSSRuleProcessor
 :
 :
@@ -5503,7 +5503,7 @@ nsRuleWalker
 :
 VisitedHandlingType
 aVisitedHandling
-PRBool
+bool
 aIsRelevantLink
 )
 {
@@ -5627,14 +5627,14 @@ nsEventStates
 mStateMask
 ;
 const
-PRBool
+bool
 mIsRelevantLink
 ;
 NodeMatchContext
 (
 nsEventStates
 aStateMask
-PRBool
+bool
 aIsRelevantLink
 )
 :
@@ -5651,7 +5651,7 @@ aIsRelevantLink
 }
 ;
 static
-PRBool
+bool
 ValueIncludes
 (
 const
@@ -5783,7 +5783,7 @@ PR_FALSE
 ;
 }
 inline
-PRBool
+bool
 IsQuirkEventSensitive
 (
 nsIAtom
@@ -5792,7 +5792,7 @@ aContentTag
 )
 {
 return
-PRBool
+bool
 (
 (
 nsGkAtoms
@@ -5863,15 +5863,15 @@ aContentTag
 }
 static
 inline
-PRBool
+bool
 IsSignificantChild
 (
 nsIContent
 *
 aChild
-PRBool
+bool
 aTextIsSignificant
-PRBool
+bool
 aWhitespaceIsSignificant
 )
 {
@@ -5888,7 +5888,7 @@ aWhitespaceIsSignificant
 ;
 }
 static
-PRBool
+bool
 AttrMatchesValue
 (
 const
@@ -5899,7 +5899,7 @@ const
 nsString
 &
 aValue
-PRBool
+bool
 isHTML
 )
 {
@@ -6129,7 +6129,7 @@ PR_FALSE
 }
 static
 inline
-PRBool
+bool
 edgeChildMatches
 (
 Element
@@ -6138,9 +6138,9 @@ aElement
 TreeMatchContext
 &
 aTreeMatchContext
-PRBool
+bool
 checkFirst
-PRBool
+bool
 checkLast
 )
 {
@@ -6226,7 +6226,7 @@ PR_TRUE
 }
 static
 inline
-PRBool
+bool
 nthChildGenericMatches
 (
 Element
@@ -6238,9 +6238,9 @@ aTreeMatchContext
 nsPseudoClassList
 *
 pseudoClass
-PRBool
+bool
 isOfType
-PRBool
+bool
 isFromEnd
 )
 {
@@ -6398,7 +6398,7 @@ b
 }
 static
 inline
-PRBool
+bool
 edgeOfTypeMatches
 (
 Element
@@ -6407,9 +6407,9 @@ aElement
 TreeMatchContext
 &
 aTreeMatchContext
-PRBool
+bool
 checkFirst
-PRBool
+bool
 checkLast
 )
 {
@@ -6510,7 +6510,7 @@ PR_TRUE
 }
 static
 inline
-PRBool
+bool
 checkGenericEmptyMatches
 (
 Element
@@ -6519,7 +6519,7 @@ aElement
 TreeMatchContext
 &
 aTreeMatchContext
-PRBool
+bool
 isWhitespaceSignificant
 )
 {
@@ -6654,7 +6654,7 @@ ePseudoClass_NotPseudoClass
 )
 ;
 static
-PRBool
+bool
 SelectorMatches
 (
 Element
@@ -6669,7 +6669,7 @@ aNodeMatchContext
 TreeMatchContext
 &
 aTreeMatchContext
-PRBool
+bool
 *
 const
 aDependence
@@ -6859,7 +6859,7 @@ id
 )
 {
 const
-PRBool
+bool
 isCaseSensitive
 =
 aTreeMatchContext
@@ -6997,7 +6997,7 @@ PR_FALSE
 ;
 }
 const
-PRBool
+bool
 isCaseSensitive
 =
 aTreeMatchContext
@@ -7046,7 +7046,7 @@ mNext
 }
 }
 const
-PRBool
+bool
 isNegated
 =
 (
@@ -8326,7 +8326,7 @@ nsCSSPseudoClasses
 ePseudoClass_mozLocaleDir
 :
 {
-PRBool
+bool
 docIsRTL
 =
 aTreeMatchContext
@@ -8800,10 +8800,10 @@ PR_FALSE
 }
 }
 }
-PRBool
+bool
 result
 =
-PR_TRUE
+true
 ;
 if
 (
@@ -8856,7 +8856,7 @@ matchAttribute
 ;
 do
 {
-PRBool
+bool
 isHTML
 =
 (
@@ -8983,7 +8983,7 @@ value
 #
 ifdef
 DEBUG
-PRBool
+bool
 hasAttr
 =
 #
@@ -9122,7 +9122,7 @@ value
 #
 ifdef
 DEBUG
-PRBool
+bool
 hasAttr
 =
 #
@@ -9207,10 +9207,10 @@ negation
 mNegations
 )
 {
-PRBool
+bool
 dependence
 =
-PR_FALSE
+false
 ;
 result
 =
@@ -9274,7 +9274,7 @@ PRUnichar
 )
 )
 static
-PRBool
+bool
 SelectorMatchesTree
 (
 Element
@@ -9286,7 +9286,7 @@ aSelector
 TreeMatchContext
 &
 aTreeMatchContext
-PRBool
+bool
 aLookForRelevantLink
 )
 {
@@ -10483,7 +10483,7 @@ return
 hint
 ;
 }
-PRBool
+bool
 nsCSSRuleProcessor
 :
 :
@@ -11284,7 +11284,7 @@ data
 change
 ;
 }
-PRBool
+bool
 nsCSSRuleProcessor
 :
 :
@@ -11381,7 +11381,7 @@ return
 n
 ;
 }
-PRBool
+bool
 nsCSSRuleProcessor
 :
 :
@@ -11433,7 +11433,7 @@ return
 PR_TRUE
 ;
 }
-PRBool
+bool
 nsCSSRuleProcessor
 :
 :
@@ -11531,7 +11531,7 @@ NS_OK
 ;
 }
 inline
-PRBool
+bool
 IsStateSelector
 (
 nsCSSSelector
@@ -11602,7 +11602,7 @@ PR_FALSE
 ;
 }
 static
-PRBool
+bool
 AddSelector
 (
 RuleCascadeData
@@ -12152,7 +12152,7 @@ PR_TRUE
 ;
 }
 static
-PRBool
+bool
 AddRule
 (
 RuleSelectorPair
@@ -12635,7 +12635,7 @@ key
 ;
 }
 static
-PRBool
+bool
 MatchWeightEntry
 (
 PLDHashTable
@@ -12679,7 +12679,7 @@ key
 ;
 }
 static
-PRBool
+bool
 InitWeightEntry
 (
 PLDHashTable
@@ -12902,7 +12902,7 @@ mSheetType
 }
 ;
 static
-PRBool
+bool
 CascadeRuleEnumFunc
 (
 css
@@ -13260,7 +13260,7 @@ return
 PR_TRUE
 ;
 }
-PRBool
+bool
 nsCSSRuleProcessor
 :
 :
@@ -13893,7 +13893,7 @@ forget
 return
 ;
 }
-PRBool
+bool
 nsCSSRuleProcessor
 :
 :

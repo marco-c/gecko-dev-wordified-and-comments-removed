@@ -79,7 +79,7 @@ OnDataAvailable
 imgIRequest
 *
 aRequest
-PRBool
+bool
 aCurrentFrame
 const
 nsIntRect
@@ -156,7 +156,7 @@ OnStopRequest
 imgIRequest
 *
 aRequest
-PRBool
+bool
 aIsLastPart
 )
 {

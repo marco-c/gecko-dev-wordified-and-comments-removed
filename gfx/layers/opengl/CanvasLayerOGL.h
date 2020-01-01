@@ -204,13 +204,13 @@ MakeTexture
 GLuint
 mTexture
 ;
-PRPackedBool
+bool
 mDelayedUpdates
 ;
-PRPackedBool
+bool
 mGLBufferIsPremultiplied
 ;
-PRPackedBool
+bool
 mNeedsYFlip
 ;
 #
@@ -353,7 +353,7 @@ TextureImage
 >
 mTexImage
 ;
-PRPackedBool
+bool
 mNeedsYFlip
 ;
 }

@@ -891,9 +891,9 @@ float
 r2
 float
 angle
-PRBool
+bool
 largeArcFlag
-PRBool
+bool
 sweepFlag
 nsIDOMSVGPathSegArcAbs
 *
@@ -956,9 +956,9 @@ float
 r2
 float
 angle
-PRBool
+bool
 largeArcFlag
-PRBool
+bool
 sweepFlag
 nsIDOMSVGPathSegArcRel
 *
@@ -1533,7 +1533,7 @@ NS_ERROR_NOT_IMPLEMENTED
 }
 NS_IMETHODIMP_
 (
-PRBool
+bool
 )
 nsSVGPathElement
 :
@@ -1609,7 +1609,7 @@ aMatrix
 )
 ;
 }
-PRBool
+bool
 nsSVGPathElement
 :
 :
@@ -1640,7 +1640,7 @@ nsGkAtoms
 pathLength
 ;
 }
-PRBool
+bool
 nsSVGPathElement
 :
 :

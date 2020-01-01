@@ -1125,7 +1125,7 @@ mozIStorageConnection
 aDBConn
 )
 {
-PRBool
+bool
 exists
 ;
 nsresult
@@ -5494,10 +5494,10 @@ rv
 rv
 )
 ;
-PRBool
+bool
 hasMore
 =
-PR_FALSE
+false
 ;
 while
 (
@@ -5565,7 +5565,7 @@ rv
 )
 continue
 ;
-PRBool
+bool
 added
 =
 _results
@@ -5798,10 +5798,10 @@ rv
 rv
 )
 ;
-PRBool
+bool
 hasMore
 =
-PR_FALSE
+false
 ;
 while
 (
@@ -6191,10 +6191,10 @@ rv
 rv
 )
 ;
-PRBool
+bool
 hasResult
 =
-PR_FALSE
+false
 ;
 while
 (
@@ -6502,7 +6502,7 @@ const
 nsACString
 &
 aName
-PRBool
+bool
 *
 _retval
 )
@@ -6550,7 +6550,7 @@ const
 nsACString
 &
 aName
-PRBool
+bool
 *
 _retval
 )
@@ -7064,7 +7064,7 @@ aSourceURI
 nsIURI
 *
 aDestURI
-PRBool
+bool
 aOverwriteDest
 )
 {
@@ -7350,7 +7350,7 @@ rv
 rv
 )
 ;
-PRBool
+bool
 hasResult
 ;
 while
@@ -7601,7 +7601,7 @@ PRInt64
 aSourceItemId
 PRInt64
 aDestItemId
-PRBool
+bool
 aOverwriteDest
 )
 {
@@ -7857,7 +7857,7 @@ rv
 rv
 )
 ;
-PRBool
+bool
 hasResult
 ;
 while
@@ -8275,7 +8275,7 @@ const
 nsACString
 &
 aName
-PRBool
+bool
 *
 _hasAnno
 )
@@ -8383,7 +8383,7 @@ rv
 rv
 )
 ;
-PRBool
+bool
 hasResult
 ;
 rv
@@ -8576,10 +8576,10 @@ rv
 rv
 )
 ;
-PRBool
+bool
 hasResult
 =
-PR_FALSE
+false
 ;
 rv
 =
@@ -8619,7 +8619,7 @@ return
 NS_OK
 ;
 }
-PRBool
+bool
 nsAnnotationService
 :
 :
@@ -8824,7 +8824,7 @@ rv
 rv
 )
 ;
-PRBool
+bool
 hasResult
 ;
 rv

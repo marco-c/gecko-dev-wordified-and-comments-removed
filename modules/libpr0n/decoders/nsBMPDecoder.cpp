@@ -219,7 +219,7 @@ nsBMPDecoder
 :
 SetUseAlphaData
 (
-PRBool
+bool
 useAlphaData
 )
 {
@@ -365,7 +365,7 @@ return
 pixelArraySize
 ;
 }
-PRBool
+bool
 nsBMPDecoder
 :
 :
@@ -483,10 +483,10 @@ aLength
 PRUint8
 pos
 ;
-PRBool
+bool
 started
 =
-PR_FALSE
+false
 ;
 aBegin
 =

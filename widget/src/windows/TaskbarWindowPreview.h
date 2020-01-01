@@ -119,7 +119,7 @@ virtual
 nsresult
 ShowActive
 (
-PRBool
+bool
 active
 )
 ;
@@ -166,10 +166,10 @@ UpdateButtons
 (
 )
 ;
-PRBool
+bool
 mCustomDrawing
 ;
-PRBool
+bool
 mHaveButtons
 ;
 THUMBBUTTON
@@ -216,7 +216,7 @@ nsString
 mIconDescription
 ;
 static
-PRBool
+bool
 TaskbarWindowHook
 (
 void

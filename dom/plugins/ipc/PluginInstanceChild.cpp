@@ -2297,7 +2297,7 @@ AssertPluginThread
 (
 )
 ;
-PRBool
+PRUint32
 value
 =
 0
@@ -2366,7 +2366,7 @@ AssertPluginThread
 #
 ifdef
 MOZ_X11
-PRBool
+PRUint32
 needsXEmbed
 =
 0
@@ -6210,7 +6210,7 @@ L
 MozillaIPCOldWndProc
 "
 ;
-PRBool
+bool
 PluginInstanceChild
 :
 :

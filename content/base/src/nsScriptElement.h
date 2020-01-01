@@ -62,7 +62,7 @@ aFromParser
 protected
 :
 virtual
-PRBool
+bool
 HasScriptContent
 (
 )

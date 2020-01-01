@@ -27,10 +27,10 @@ aSink
 nsIEventTarget
 *
 aTarget
-PRBool
+bool
 aCoalesceAllEvents
 =
-PR_FALSE
+false
 )
 ;
 #

@@ -222,7 +222,7 @@ nsBinaryOutputStream
 :
 IsNonBlocking
 (
-PRBool
+bool
 *
 aNonBlocking
 )
@@ -341,7 +341,7 @@ nsBinaryOutputStream
 :
 WriteBoolean
 (
-PRBool
+bool
 aBoolean
 )
 {
@@ -994,7 +994,7 @@ WriteObject
 nsISupports
 *
 aObject
-PRBool
+bool
 aIsStrongRef
 )
 {
@@ -1046,7 +1046,7 @@ const
 nsIID
 &
 aIID
-PRBool
+bool
 aIsStrongRef
 )
 {
@@ -1701,7 +1701,7 @@ nsBinaryInputStream
 :
 IsNonBlocking
 (
-PRBool
+bool
 *
 aNonBlocking
 )
@@ -1780,7 +1780,7 @@ nsBinaryInputStream
 :
 ReadBoolean
 (
-PRBool
+bool
 *
 aBoolean
 )
@@ -2328,7 +2328,7 @@ PRUnichar
 *
 mWriteCursor
 ;
-PRPackedBool
+bool
 mHasCarryoverByte
 ;
 char
@@ -2916,7 +2916,7 @@ nsBinaryInputStream
 :
 ReadObject
 (
-PRBool
+bool
 aIsStrongRef
 nsISupports
 *

@@ -201,7 +201,7 @@ nsIContent
 aKid
 PRUint32
 aIndex
-PRBool
+bool
 aNotify
 )
 {
@@ -243,7 +243,7 @@ RemoveChildAt
 (
 PRUint32
 aIndex
-PRBool
+bool
 aNotify
 )
 {
@@ -278,7 +278,7 @@ rv
 }
 NS_IMETHODIMP_
 (
-PRBool
+bool
 )
 nsSVGSwitchElement
 :
@@ -343,7 +343,7 @@ FindActiveChild
 )
 const
 {
-PRBool
+bool
 allowReorder
 =
 AttrValueIs

@@ -1174,11 +1174,11 @@ BUF_LOG_LENGTH
 ]
 ;
 const
-PRBool
+bool
 mHasMinMs
 ;
 const
-PRBool
+bool
 mEnabled
 ;
 const

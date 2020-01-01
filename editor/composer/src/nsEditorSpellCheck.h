@@ -174,7 +174,7 @@ mEditor
 nsString
 mPreferredLang
 ;
-PRPackedBool
+bool
 mUpdateDictionaryRunning
 ;
 public

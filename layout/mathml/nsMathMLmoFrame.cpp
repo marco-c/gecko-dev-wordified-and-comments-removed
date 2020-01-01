@@ -156,7 +156,7 @@ eMathMLFrameType_OperatorInvisible
 eMathMLFrameType_OperatorOrdinary
 ;
 }
-PRBool
+bool
 nsMathMLmoFrame
 :
 :
@@ -184,10 +184,10 @@ aFrame
 return
 PR_FALSE
 ;
-PRBool
+bool
 isSelected
 =
-PR_FALSE
+false
 ;
 aFrame
 -
@@ -272,7 +272,7 @@ return
 PR_TRUE
 ;
 }
-PRBool
+bool
 nsMathMLmoFrame
 :
 :
@@ -331,7 +331,7 @@ rv
 =
 NS_OK
 ;
-PRBool
+bool
 useMathMLChar
 =
 UseMathMLChar
@@ -379,10 +379,10 @@ rv
 rv
 )
 ;
-PRBool
+bool
 isSelected
 =
-PR_FALSE
+false
 ;
 nsRect
 selectedRect
@@ -696,7 +696,7 @@ allFlags
 &
 NS_MATHML_OPERATOR_MOVABLELIMITS
 ;
-PRBool
+bool
 isMutable
 =
 NS_MATHML_OPERATOR_IS_STRETCHY
@@ -1320,7 +1320,7 @@ GetData
 data
 )
 ;
-PRBool
+bool
 found
 =
 nsMathMLOperators
@@ -2359,7 +2359,7 @@ nsOperatorFlags
 aFlags
 nsPresentationData
 aPresentationData
-PRBool
+bool
 aIsVertical
 )
 {
@@ -2584,7 +2584,7 @@ NSToCoordRound
 em
 )
 ;
-PRBool
+bool
 useMathMLChar
 =
 UseMathMLChar
@@ -2601,10 +2601,10 @@ aDesiredStretchSize
 .
 mBoundingMetrics
 ;
-PRBool
+bool
 isVertical
 =
-PR_FALSE
+false
 ;
 if
 (
@@ -3272,7 +3272,7 @@ mFlags
 )
 )
 {
-PRBool
+bool
 largeopOnly
 =
 (
@@ -3385,7 +3385,7 @@ descent
 }
 }
 }
-PRBool
+bool
 isAccent
 =
 NS_MATHML_EMBELLISH_IS_ACCENT

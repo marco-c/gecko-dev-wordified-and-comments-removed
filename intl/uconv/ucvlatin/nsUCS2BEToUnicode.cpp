@@ -89,7 +89,7 @@ aDest
 PRInt32
 *
 aDestLength
-PRBool
+bool
 aSwapBytes
 )
 {

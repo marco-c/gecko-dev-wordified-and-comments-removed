@@ -666,16 +666,16 @@ nsIWidget
 gRollupWidget
 ;
 static
-PRBool
+bool
 gConstructingMenu
 =
-PR_FALSE
+false
 ;
 static
-PRBool
+bool
 gMenuMethodsSwizzled
 =
-PR_FALSE
+false
 ;
 PRInt32
 nsMenuX
@@ -2277,7 +2277,7 @@ the
 menu
 at
 all
-PRBool
+bool
 keepProcessing
 =
 OnOpen
@@ -2936,7 +2936,7 @@ nsMenuX
 :
 SetRebuild
 (
-PRBool
+bool
 aNeedsRebuild
 )
 {
@@ -2956,7 +2956,7 @@ nsMenuX
 :
 SetEnabled
 (
-PRBool
+bool
 aIsEnabled
 )
 {
@@ -3003,7 +3003,7 @@ nsMenuX
 :
 GetEnabled
 (
-PRBool
+bool
 *
 aIsEnabled
 )
@@ -3543,7 +3543,7 @@ of
 the
 menu
 .
-PRBool
+bool
 nsMenuX
 :
 :
@@ -4178,7 +4178,7 @@ of
 the
 menu
 .
-PRBool
+bool
 nsMenuX
 :
 :
@@ -4570,7 +4570,7 @@ return
 mNativeMenuItem
 ;
 }
-PRBool
+bool
 nsMenuX
 :
 :
@@ -4581,10 +4581,10 @@ nsIContent
 aMenuContent
 )
 {
-PRBool
+bool
 retval
 =
-PR_FALSE
+false
 ;
 if
 (
@@ -4946,7 +4946,7 @@ SetRebuild
 PR_TRUE
 )
 ;
-PRBool
+bool
 contentIsHiddenOrCollapsed
 =
 nsMenuUtilsX
@@ -5496,7 +5496,7 @@ nsMenuItemX
 target
 )
 ;
-PRBool
+bool
 handlerCalledPreventDefault
 ;
 /

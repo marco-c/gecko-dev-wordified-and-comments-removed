@@ -68,7 +68,7 @@ aClass
 {
 }
 static
-PRBool
+bool
 HandlerExists
 (
 const
@@ -82,7 +82,7 @@ protected
 NS_IMETHOD
 GetHasDefaultHandler
 (
-PRBool
+bool
 *
 _retval
 )

@@ -663,7 +663,7 @@ PR_FALSE
 ReentrantMonitor
 mMon
 ;
-PRBool
+bool
 mInitialized
 ;
 }
@@ -675,7 +675,7 @@ nsThread
 *
 joiningThread
 ;
-PRBool
+bool
 shutdownAck
 ;
 }
@@ -1472,7 +1472,7 @@ nsThread
 :
 IsOnCurrentThread
 (
-PRBool
+bool
 *
 result
 )
@@ -1690,7 +1690,7 @@ nsThread
 :
 HasPendingEvents
 (
-PRBool
+bool
 *
 result
 )
@@ -2048,9 +2048,9 @@ nsThread
 :
 ProcessNextEvent
 (
-PRBool
+bool
 mayWait
-PRBool
+bool
 *
 result
 )
@@ -2090,7 +2090,7 @@ PR_GetCurrentThread
 mThread
 )
 ;
-PRBool
+bool
 notifyGlobalObserver
 =
 (
@@ -2693,7 +2693,7 @@ return
 NS_OK
 ;
 }
-PRBool
+bool
 nsThread
 :
 :
@@ -2707,7 +2707,7 @@ nsIRunnable
 event
 )
 {
-PRBool
+bool
 val
 ;
 if

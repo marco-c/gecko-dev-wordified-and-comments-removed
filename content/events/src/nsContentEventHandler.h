@@ -254,7 +254,7 @@ PRUint32
 aNativeOffset
 PRUint32
 aNativeLength
-PRBool
+bool
 aExpandToClusterBoundaries
 )
 ;
@@ -290,7 +290,7 @@ ExpandToClusterBoundary
 nsIContent
 *
 aContent
-PRBool
+bool
 aForward
 PRUint32
 *

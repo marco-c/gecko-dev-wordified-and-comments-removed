@@ -476,7 +476,7 @@ ItemData
 nsString
 value
 ;
-PRBool
+bool
 secure
 ;
 }
@@ -721,7 +721,7 @@ returns
 (
 nsString
 value
-PRBool
+bool
 secure
 nsresult
 rv
@@ -734,7 +734,7 @@ nsString
 key
 nsString
 value
-PRBool
+bool
 secure
 )
 returns
@@ -748,7 +748,7 @@ SetSecure
 (
 nsString
 key
-PRBool
+bool
 secure
 )
 returns

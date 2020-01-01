@@ -171,13 +171,13 @@ gmGetGUIThreadInfo
 =
 nsnull
 ;
-PRBool
+bool
 nsAccessNodeWrap
 :
 :
 gIsIA2Disabled
 =
-PR_FALSE
+false
 ;
 AccTextChangeEvent
 *
@@ -2814,7 +2814,7 @@ E_FAIL
 ;
 }
 }
-PRBool
+bool
 nsAccessNodeWrap
 :
 :

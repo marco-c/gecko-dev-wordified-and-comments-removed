@@ -83,7 +83,7 @@ TX_IMPL_EXPR_STUBS_0
 RootExpr
 NODESET_RESULT
 )
-PRBool
+bool
 RootExpr
 :
 :

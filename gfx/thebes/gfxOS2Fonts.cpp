@@ -2516,7 +2516,7 @@ return
 mScaledFont
 ;
 }
-PRBool
+bool
 gfxOS2Font
 :
 :
@@ -3061,7 +3061,7 @@ static
 PRInt32
 AppendDirectionalIndicatorUTF8
 (
-PRBool
+bool
 aIsRTL
 nsACString
 &
@@ -3476,7 +3476,7 @@ char
 aString
 )
 ;
-PRBool
+bool
 isRTL
 =
 textRun
@@ -4039,10 +4039,10 @@ aUTF8
 aUTF8Length
 )
 {
-PRBool
+bool
 glyphFound
 =
-PR_FALSE
+false
 ;
 PRUint8
 chLen
@@ -5009,7 +5009,7 @@ CairoScaledFont
 )
 ;
 }
-PRBool
+bool
 gfxOS2FontGroup
 :
 :
@@ -5023,7 +5023,7 @@ const
 nsACString
 &
 aGenericName
-PRBool
+bool
 aUseFontSet
 void
 *

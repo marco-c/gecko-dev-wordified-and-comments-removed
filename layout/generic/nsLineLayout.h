@@ -135,9 +135,9 @@ nscoord
 aWidth
 nscoord
 aHeight
-PRBool
+bool
 aImpactedByFloats
-PRBool
+bool
 aIsTopOfPage
 )
 ;
@@ -198,7 +198,7 @@ PRInt32
 aNewCount
 )
 ;
-PRBool
+bool
 IsZeroHeight
 (
 )
@@ -215,7 +215,7 @@ aReflowStatus
 nsHTMLReflowMetrics
 *
 aMetrics
-PRBool
+bool
 &
 aPushedFrame
 )
@@ -251,7 +251,7 @@ VerticalAlignLine
 (
 )
 ;
-PRBool
+bool
 TrimTrailingWhiteSpace
 (
 )
@@ -262,7 +262,7 @@ HorizontalAlignFrames
 nsRect
 &
 aLineBounds
-PRBool
+bool
 aAllowJustify
 )
 ;
@@ -337,7 +337,7 @@ SetFlag
 (
 PRUint32
 aFlag
-PRBool
+bool
 aValue
 )
 {
@@ -392,7 +392,7 @@ aFlag
 ;
 }
 }
-PRBool
+bool
 GetFlag
 (
 PRUint32
@@ -442,7 +442,7 @@ mTextJustificationNumLetters
 aNumLetters
 ;
 }
-PRBool
+bool
 LineIsEmpty
 (
 )
@@ -455,7 +455,7 @@ LL_LINEISEMPTY
 )
 ;
 }
-PRBool
+bool
 LineAtStart
 (
 )
@@ -468,13 +468,13 @@ LL_LINEATSTART
 )
 ;
 }
-PRBool
+bool
 LineIsBreakable
 (
 )
 const
 ;
-PRBool
+bool
 GetLineEndsInBR
 (
 )
@@ -490,7 +490,7 @@ LL_LINEENDSINBR
 void
 SetLineEndsInBR
 (
-PRBool
+bool
 aOn
 )
 {
@@ -501,7 +501,7 @@ aOn
 )
 ;
 }
-PRBool
+bool
 AddFloat
 (
 nsIFrame
@@ -535,7 +535,7 @@ mTrimmableWidth
 aTrimmableWidth
 ;
 }
-PRBool
+bool
 GetFirstLetterStyleOK
 (
 )
@@ -551,7 +551,7 @@ LL_FIRSTLETTERSTYLEOK
 void
 SetFirstLetterStyleOK
 (
-PRBool
+bool
 aSetting
 )
 {
@@ -562,7 +562,7 @@ aSetting
 )
 ;
 }
-PRBool
+bool
 GetInFirstLetter
 (
 )
@@ -578,7 +578,7 @@ LL_INFIRSTLETTER
 void
 SetInFirstLetter
 (
-PRBool
+bool
 aSetting
 )
 {
@@ -589,7 +589,7 @@ aSetting
 )
 ;
 }
-PRBool
+bool
 GetInFirstLine
 (
 )
@@ -605,7 +605,7 @@ LL_INFIRSTLINE
 void
 SetInFirstLine
 (
-PRBool
+bool
 aSetting
 )
 {
@@ -628,7 +628,7 @@ PR_TRUE
 )
 ;
 }
-PRBool
+bool
 GetDirtyNextLine
 (
 )
@@ -644,7 +644,7 @@ nsPresContext
 *
 mPresContext
 ;
-PRBool
+bool
 NotifyOptionalBreakPosition
 (
 nsIContent
@@ -652,7 +652,7 @@ nsIContent
 aContent
 PRInt32
 aOffset
-PRBool
+bool
 aFits
 gfxBreakPriority
 aPriority
@@ -816,7 +816,7 @@ return
 mLastOptionalBreakContent
 ;
 }
-PRBool
+bool
 NeedsBackup
 (
 )
@@ -847,7 +847,7 @@ mForceBreakContentOffset
 aOffset
 ;
 }
-PRBool
+bool
 HaveForcedBreakPosition
 (
 )
@@ -1084,7 +1084,7 @@ SetFlag
 (
 PRUint32
 aFlag
-PRBool
+bool
 aValue
 )
 {
@@ -1151,7 +1151,7 @@ aFlag
 ;
 }
 }
-PRBool
+bool
 GetFlag
 (
 PRUint32
@@ -1251,22 +1251,22 @@ nsHTMLReflowState
 *
 mReflowState
 ;
-PRPackedBool
+bool
 mNoWrap
 ;
 PRUint8
 mDirection
 ;
-PRPackedBool
+bool
 mChangedFrameDirection
 ;
-PRPackedBool
+bool
 mZeroEffectiveSpanBox
 ;
-PRPackedBool
+bool
 mContainsFloat
 ;
-PRPackedBool
+bool
 mHasNonemptyContent
 ;
 nscoord
@@ -1443,7 +1443,7 @@ PerSpanData
 psd
 )
 ;
-PRBool
+bool
 InBlockContext
 (
 )
@@ -1475,7 +1475,7 @@ nsHTMLReflowState
 aReflowState
 )
 ;
-PRBool
+bool
 CanPlaceFrame
 (
 PerFrameData
@@ -1483,11 +1483,11 @@ PerFrameData
 pfd
 PRUint8
 aFrameDirection
-PRBool
+bool
 aNotSafeToBreak
-PRBool
+bool
 aFrameCanContinueTextRun
-PRBool
+bool
 aCanRollBackBeforeFrame
 nsHTMLReflowMetrics
 &
@@ -1495,7 +1495,7 @@ aMetrics
 nsReflowStatus
 &
 aStatus
-PRBool
+bool
 *
 aOptionalBreakAfterFits
 )
@@ -1542,7 +1542,7 @@ nsOverflowAreas
 aOverflowAreas
 )
 ;
-PRBool
+bool
 TrimTrailingWhiteSpaceIn
 (
 PerSpanData

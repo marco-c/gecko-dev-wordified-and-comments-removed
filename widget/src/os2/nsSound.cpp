@@ -132,7 +132,7 @@ define
 EVENT_CNT
 7
 static
-PRBool
+bool
 sDllError
 =
 FALSE
@@ -197,7 +197,7 @@ void
 )
 ;
 static
-PRBool
+bool
 initDlls
 (
 void
@@ -1029,7 +1029,7 @@ void
 )
 {
 static
-PRBool
+bool
 sSoundInit
 =
 FALSE
@@ -1423,14 +1423,14 @@ return
 ;
 }
 static
-PRBool
+bool
 initDlls
 (
 void
 )
 {
 static
-PRBool
+bool
 sDllInit
 =
 FALSE

@@ -191,7 +191,7 @@ return
 NS_OK
 ;
 }
-PRBool
+bool
 nsScrollbarFrame
 :
 :
@@ -329,7 +329,7 @@ aEvent
 nsEventStatus
 *
 aEventStatus
-PRBool
+bool
 aControlHeld
 )
 {

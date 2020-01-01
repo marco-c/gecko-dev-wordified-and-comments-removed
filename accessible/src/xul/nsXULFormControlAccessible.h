@@ -137,7 +137,7 @@ CacheChildren
 (
 )
 ;
-PRBool
+bool
 ContainsMenu
 (
 )
@@ -268,10 +268,10 @@ ActionCount
 ;
 private
 :
-PRBool
+bool
 DropmarkerOpen
 (
-PRBool
+bool
 aToggleOpen
 )
 ;
@@ -476,7 +476,7 @@ aSetSize
 )
 ;
 static
-PRBool
+bool
 IsSeparator
 (
 nsAccessible
@@ -635,7 +635,7 @@ NativeState
 )
 ;
 virtual
-PRBool
+bool
 GetAllowsAnonChildAccessibles
 (
 )

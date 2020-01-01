@@ -179,7 +179,7 @@ UpdateBusyState
 nsIWebBrowserChrome
 *
 aChrome
-PRBool
+bool
 aBusy
 )
 ;
@@ -258,7 +258,7 @@ ShowWindow
 nsIWebBrowserChrome
 *
 aChrome
-PRBool
+bool
 aShow
 )
 ;
@@ -385,10 +385,10 @@ mNativeWindow
 PRUint32
 mChromeFlags
 ;
-PRBool
+bool
 mContinueModalLoop
 ;
-PRBool
+bool
 mSizeSet
 ;
 nsCOMPtr

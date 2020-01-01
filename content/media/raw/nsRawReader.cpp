@@ -537,7 +537,7 @@ return
 NS_OK
 ;
 }
-PRBool
+bool
 nsRawReader
 :
 :
@@ -579,7 +579,7 @@ return
 PR_FALSE
 ;
 }
-PRBool
+bool
 nsRawReader
 :
 :
@@ -663,13 +663,13 @@ return
 PR_TRUE
 ;
 }
-PRBool
+bool
 nsRawReader
 :
 :
 DecodeVideoFrame
 (
-PRBool
+bool
 &
 aKeyframeSkip
 PRInt64
@@ -1298,10 +1298,10 @@ GetSize
 0
 )
 {
-PRBool
+bool
 keyframeSkip
 =
-PR_FALSE
+false
 ;
 if
 (

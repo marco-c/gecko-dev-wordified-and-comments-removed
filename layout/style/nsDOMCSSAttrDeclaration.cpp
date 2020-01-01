@@ -114,7 +114,7 @@ aElement
 #
 ifdef
 MOZ_SMIL
-PRBool
+bool
 aIsSMILOverride
 #
 endif
@@ -374,7 +374,7 @@ nsDOMCSSAttributeDeclaration
 :
 GetCSSDeclaration
 (
-PRBool
+bool
 aAllocate
 )
 {

@@ -478,7 +478,7 @@ aResult
 const
 ;
 inline
-PRBool
+bool
 IsEmptyString
 (
 )
@@ -506,7 +506,7 @@ GetIntegerValue
 )
 const
 ;
-PRBool
+bool
 GetColorValue
 (
 nscolor
@@ -566,7 +566,7 @@ GetDoubleValue
 )
 const
 ;
-PRBool
+bool
 GetIntMarginValue
 (
 nsIntMargin
@@ -581,7 +581,7 @@ GetEnumString
 nsAString
 &
 aResult
-PRBool
+bool
 aRealTag
 )
 const
@@ -607,7 +607,7 @@ HashValue
 )
 const
 ;
-PRBool
+bool
 Equals
 (
 const
@@ -617,7 +617,7 @@ aOther
 )
 const
 ;
-PRBool
+bool
 Equals
 (
 const
@@ -629,7 +629,7 @@ aCaseSensitive
 )
 const
 ;
-PRBool
+bool
 Equals
 (
 nsIAtom
@@ -640,7 +640,7 @@ aCaseSensitive
 )
 const
 ;
-PRBool
+bool
 Contains
 (
 nsIAtom
@@ -691,7 +691,7 @@ value
 ;
 }
 ;
-PRBool
+bool
 ParseEnumValue
 (
 const
@@ -702,7 +702,7 @@ const
 EnumTable
 *
 aTable
-PRBool
+bool
 aCaseSensitive
 const
 EnumTable
@@ -712,7 +712,7 @@ aDefaultValue
 nsnull
 )
 ;
-PRBool
+bool
 ParseSpecialIntValue
 (
 const
@@ -721,7 +721,7 @@ nsAString
 aString
 )
 ;
-PRBool
+bool
 ParseIntValue
 (
 const
@@ -739,7 +739,7 @@ PR_INT32_MAX
 )
 ;
 }
-PRBool
+bool
 ParseIntWithBounds
 (
 const
@@ -754,7 +754,7 @@ aMax
 PR_INT32_MAX
 )
 ;
-PRBool
+bool
 ParseNonNegativeIntValue
 (
 const
@@ -763,7 +763,7 @@ nsAString
 aString
 )
 ;
-PRBool
+bool
 ParsePositiveIntValue
 (
 const
@@ -772,7 +772,7 @@ nsAString
 aString
 )
 ;
-PRBool
+bool
 ParseColor
 (
 const
@@ -781,7 +781,7 @@ nsAString
 aString
 )
 ;
-PRBool
+bool
 ParseDoubleValue
 (
 const
@@ -790,7 +790,7 @@ nsAString
 aString
 )
 ;
-PRBool
+bool
 ParseLazyURIValue
 (
 const
@@ -799,7 +799,7 @@ nsAString
 aString
 )
 ;
-PRBool
+bool
 ParseIntMarginValue
 (
 const
@@ -979,12 +979,12 @@ GetIntInternal
 )
 const
 ;
-PRBool
+bool
 EnsureEmptyMiscContainer
 (
 )
 ;
-PRBool
+bool
 EnsureEmptyAtomArray
 (
 )
@@ -1007,17 +1007,17 @@ const
 nsAString
 &
 aValue
-PRBool
+bool
 *
 aStrict
 PRInt32
 *
 aErrorCode
-PRBool
+bool
 aCanBePercent
 =
-PR_FALSE
-PRBool
+false
+bool
 *
 aIsPercent
 =
@@ -1398,7 +1398,7 @@ mDoubleValue
 ;
 }
 inline
-PRBool
+bool
 nsAttrValue
 :
 :
@@ -1674,7 +1674,7 @@ NS_ATTRVALUE_INTEGERTYPE_MULTIPLIER
 ;
 }
 inline
-PRBool
+bool
 nsAttrValue
 :
 :

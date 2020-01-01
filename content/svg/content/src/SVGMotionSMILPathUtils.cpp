@@ -87,7 +87,7 @@ gfxPoint
 )
 ;
 }
-PRBool
+bool
 SVGMotionSMILPathUtils
 :
 :
@@ -157,7 +157,7 @@ return
 PR_TRUE
 ;
 }
-PRBool
+bool
 SVGMotionSMILPathUtils
 :
 :
@@ -238,7 +238,7 @@ return
 PR_TRUE
 ;
 }
-PRBool
+bool
 SVGMotionSMILPathUtils
 :
 :
@@ -330,7 +330,7 @@ GetFlattenedPath
 )
 ;
 }
-PRBool
+bool
 SVGMotionSMILPathUtils
 :
 :
@@ -506,7 +506,7 @@ nsAString
 aValueStr
 )
 {
-PRBool
+bool
 success
 ;
 if

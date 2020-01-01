@@ -509,10 +509,10 @@ cx
 ifdef
 XPC_TRACK_PROTO_STATS
 static
-PRBool
+bool
 DEBUG_DumpedStats
 =
-PR_FALSE
+false
 ;
 if
 (

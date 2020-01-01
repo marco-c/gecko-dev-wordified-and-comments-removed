@@ -500,7 +500,7 @@ aResult
 nsIScriptElement
 *
 aElement
-PRBool
+bool
 aIsInline
 nsIURI
 *
@@ -554,7 +554,7 @@ aResult
 nsIScriptElement
 *
 aElement
-PRBool
+bool
 aIsInline
 )
 {
@@ -857,7 +857,7 @@ this
 ;
 }
 }
-PRBool
+bool
 nsContentSink
 :
 :
@@ -929,7 +929,7 @@ nsContentSink
 :
 sEnablePerfMode
 ;
-PRBool
+bool
 nsContentSink
 :
 :
@@ -1384,7 +1384,7 @@ StyleSheetLoaded
 nsCSSStyleSheet
 *
 aSheet
-PRBool
+bool
 aWasAlternate
 nsresult
 aStatus
@@ -1496,7 +1496,7 @@ aResult
 nsIScriptElement
 *
 aElement
-PRBool
+bool
 aIsInline
 nsIURI
 *
@@ -1694,7 +1694,7 @@ aResult
 nsIScriptElement
 *
 aElement
-PRBool
+bool
 aIsInline
 )
 {
@@ -2242,7 +2242,7 @@ value
 )
 ;
 }
-PRBool
+bool
 nsContentSink
 :
 :
@@ -2341,7 +2341,7 @@ return
 PR_FALSE
 ;
 }
-PRBool
+bool
 same
 ;
 rv
@@ -2392,10 +2392,10 @@ rv
 =
 NS_OK
 ;
-PRBool
+bool
 seenParameters
 =
-PR_FALSE
+false
 ;
 nsAutoString
 href
@@ -2498,10 +2498,10 @@ end
 -
 1
 ;
-PRBool
+bool
 needsUnescape
 =
-PR_FALSE
+false
 ;
 while
 (
@@ -3388,7 +3388,7 @@ return
 NS_OK
 ;
 }
-PRBool
+bool
 hasPrefetch
 =
 linkTypes
@@ -3482,7 +3482,7 @@ return
 NS_OK
 ;
 }
-PRBool
+bool
 isAlternate
 =
 linkTypes
@@ -3522,7 +3522,7 @@ const
 nsSubstring
 &
 aHref
-PRBool
+bool
 aAlternate
 const
 nsSubstring
@@ -3634,7 +3634,7 @@ return
 NS_OK
 ;
 }
-PRBool
+bool
 isAlternate
 ;
 rv
@@ -3885,7 +3885,7 @@ aHref
 nsIContent
 *
 aSource
-PRBool
+bool
 aExplicit
 )
 {
@@ -4236,7 +4236,7 @@ aLoadApplicationCache
 nsIURI
 *
 aManifestURI
-PRBool
+bool
 aFetchedWithHTTPGetOrEquiv
 CacheSelectionAction
 *
@@ -4321,10 +4321,10 @@ rv
 rv
 )
 ;
-PRBool
+bool
 equal
 =
-PR_FALSE
+false
 ;
 rv
 =
@@ -4749,7 +4749,7 @@ if
 applicationCacheChannel
 )
 {
-PRBool
+bool
 loadedFromApplicationCache
 ;
 rv
@@ -4922,10 +4922,10 @@ NodePrincipal
 return
 ;
 }
-PRBool
+bool
 fetchedWithHTTPGetOrEquiv
 =
-PR_FALSE
+false
 ;
 nsCOMPtr
 <
@@ -5185,7 +5185,7 @@ nsContentSink
 :
 StartLayout
 (
-PRBool
+bool
 aIgnorePendingSheets
 )
 {
@@ -5544,7 +5544,7 @@ return
 NS_OK
 ;
 }
-PRBool
+bool
 nsContentSink
 :
 :
@@ -6162,7 +6162,7 @@ nsContentSink
 :
 FavorPerformanceHint
 (
-PRBool
+bool
 perfOverStarvation
 PRUint32
 starvationDelay
@@ -6277,7 +6277,7 @@ nsContentSink
 :
 DidBuildModelImpl
 (
-PRBool
+bool
 aTerminated
 )
 {
@@ -6432,7 +6432,7 @@ PR_TRUE
 ;
 }
 }
-PRBool
+bool
 nsContentSink
 :
 :
@@ -6537,7 +6537,7 @@ GetLastUserEventTime
 lastEventTime
 )
 ;
-PRBool
+bool
 newDynLower
 =
 (

@@ -74,7 +74,7 @@ nsSVGDefsElementBase
 )
 NS_IMETHOD_
 (
-PRBool
+bool
 )
 IsAttributeMapped
 (
@@ -171,7 +171,7 @@ nsSVGDefsElement
 )
 NS_IMETHODIMP_
 (
-PRBool
+bool
 )
 nsSVGDefsElement
 :

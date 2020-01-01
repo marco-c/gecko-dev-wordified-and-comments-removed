@@ -771,7 +771,7 @@ gGeckoAppModalWindowList
 =
 NULL
 ;
-PRBool
+bool
 gConsumeRollupEvent
 ;
 /
@@ -1733,7 +1733,7 @@ native
 tooltips
 )
 static
-PRBool
+bool
 UseNativePopupWindows
 (
 )
@@ -2114,7 +2114,7 @@ nsBorderStyle
 aBorderStyle
 )
 {
-PRBool
+bool
 allOrDefault
 =
 (
@@ -2336,7 +2336,7 @@ NSRect
 aRect
 nsBorderStyle
 aBorderStyle
-PRBool
+bool
 aRectIsFrameRect
 )
 {
@@ -3651,7 +3651,7 @@ nsCocoaWindow
 :
 IsVisible
 (
-PRBool
+bool
 &
 aState
 )
@@ -3682,7 +3682,7 @@ nsCocoaWindow
 :
 SetModal
 (
-PRBool
+bool
 aState
 )
 {
@@ -4292,7 +4292,7 @@ nsCocoaWindow
 :
 Show
 (
-PRBool
+bool
 bState
 )
 {
@@ -4488,10 +4488,10 @@ more
 child
 sheets
 .
-PRBool
+bool
 parentIsSheet
 =
-PR_FALSE
+false
 ;
 if
 (
@@ -5341,10 +5341,10 @@ siblingSheetToShow
 =
 nsnull
 ;
-PRBool
+bool
 parentIsSheet
 =
-PR_FALSE
+false
 ;
 if
 (
@@ -5485,10 +5485,10 @@ grandparentWidget
 )
 )
 ;
-PRBool
+bool
 grandparentIsSheet
 =
-PR_FALSE
+false
 ;
 if
 (
@@ -6681,7 +6681,7 @@ nsCocoaWindow
 :
 Enable
 (
-PRBool
+bool
 aState
 )
 {
@@ -6695,7 +6695,7 @@ nsCocoaWindow
 :
 IsEnabled
 (
-PRBool
+bool
 *
 aState
 )
@@ -6719,7 +6719,7 @@ nsCocoaWindow
 :
 ConstrainPosition
 (
-PRBool
+bool
 aAllowSlop
 PRInt32
 *
@@ -6853,7 +6853,7 @@ aPlacement
 nsIWidget
 *
 aWidget
-PRBool
+bool
 aActivate
 )
 {
@@ -7089,7 +7089,7 @@ nsCocoaWindow
 :
 HideWindowChrome
 (
-PRBool
+bool
 aShouldHide
 )
 {
@@ -7370,7 +7370,7 @@ nsCocoaWindow
 :
 MakeFullScreen
 (
-PRBool
+bool
 aFullScreen
 )
 {
@@ -7493,7 +7493,7 @@ PRInt32
 aWidth
 PRInt32
 aHeight
-PRBool
+bool
 aRepaint
 )
 {
@@ -7663,7 +7663,7 @@ PRInt32
 aWidth
 PRInt32
 aHeight
-PRBool
+bool
 aRepaint
 )
 {
@@ -7967,7 +7967,7 @@ const
 nsIntRect
 &
 aRect
-PRBool
+bool
 aIsSynchronous
 )
 {
@@ -8100,7 +8100,7 @@ knows
 about
 it
 .
-PRBool
+bool
 nsCocoaWindow
 :
 :
@@ -8191,7 +8191,7 @@ nsCocoaWindow
 :
 GetChildSheet
 (
-PRBool
+bool
 aShown
 nsCocoaWindow
 *
@@ -8345,7 +8345,7 @@ nsCocoaWindow
 :
 GetIsSheet
 (
-PRBool
+bool
 *
 isSheet
 )
@@ -8830,7 +8830,7 @@ nsCocoaWindow
 :
 SetFocus
 (
-PRBool
+bool
 aState
 )
 {
@@ -9095,9 +9095,9 @@ aListener
 nsIMenuRollup
 *
 aMenuRollup
-PRBool
+bool
 aDoCapture
-PRBool
+bool
 aConsumeRollupEvent
 )
 {
@@ -9468,7 +9468,7 @@ NS_OK
 NS_OBJC_END_TRY_ABORT_BLOCK_NSRESULT
 ;
 }
-PRBool
+bool
 nsCocoaWindow
 :
 :
@@ -9533,7 +9533,7 @@ nsCocoaWindow
 :
 SetShowsToolbarButton
 (
-PRBool
+bool
 aShow
 )
 {
@@ -9557,7 +9557,7 @@ SetWindowTitlebarColor
 (
 nscolor
 aColor
-PRBool
+bool
 aActive
 )
 {
@@ -9809,7 +9809,7 @@ nsCocoaWindow
 :
 SetDrawsInTitlebar
 (
-PRBool
+bool
 aState
 )
 {
@@ -10066,7 +10066,7 @@ NO
 ;
 }
 }
-PRBool
+bool
 nsCocoaWindow
 :
 :
@@ -10220,7 +10220,7 @@ ChildView
 shouldFocusPlugin
 ]
 .
-PRBool
+bool
 nsCocoaWindow
 :
 :
@@ -11523,7 +11523,7 @@ mGeckoWindow
 }
 -
 (
-PRBool
+bool
 )
 toplevelActiveState
 {

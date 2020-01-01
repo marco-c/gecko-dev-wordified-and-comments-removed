@@ -1037,7 +1037,7 @@ double
 )
 )
 static
-PRBool
+bool
 ConditionRect
 (
 gfxRect
@@ -1822,7 +1822,7 @@ nsRenderingContext
 :
 SetTextRunRTL
 (
-PRBool
+bool
 aIsRTL
 )
 {
@@ -2409,7 +2409,7 @@ this
 return
 ;
 }
-PRBool
+bool
 isRTL
 =
 mFontMetrics

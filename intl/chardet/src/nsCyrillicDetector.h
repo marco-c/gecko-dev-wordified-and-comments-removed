@@ -290,7 +290,7 @@ aCharset
 =
 0
 ;
-PRBool
+bool
 mDone
 ;
 private
@@ -374,7 +374,7 @@ char
 aBuf
 PRUint32
 aLen
-PRBool
+bool
 *
 oDontFeedMe
 )

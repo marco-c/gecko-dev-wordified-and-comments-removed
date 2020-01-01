@@ -73,7 +73,7 @@ nsXBLEventHandler
 )
 ;
 virtual
-PRBool
+bool
 EventMatched
 (
 nsIDOMEvent
@@ -110,7 +110,7 @@ nsXBLMouseEventHandler
 ;
 private
 :
-PRBool
+bool
 EventMatched
 (
 nsIDOMEvent
@@ -163,7 +163,7 @@ aProtoHandler
 )
 ;
 }
-PRBool
+bool
 Matches
 (
 nsIAtom
@@ -238,7 +238,7 @@ mType
 void
 SetIsBoundToChrome
 (
-PRBool
+bool
 aIsBoundToChrome
 )
 {
@@ -253,7 +253,7 @@ nsXBLKeyEventHandler
 (
 )
 ;
-PRBool
+bool
 ExecuteMatchedHandlers
 (
 nsIDOMKeyEvent
@@ -261,7 +261,7 @@ nsIDOMKeyEvent
 aEvent
 PRUint32
 aCharCode
-PRBool
+bool
 aIgnoreShiftKey
 )
 ;
@@ -284,7 +284,7 @@ mPhase
 PRUint8
 mType
 ;
-PRPackedBool
+bool
 mIsBoundToChrome
 ;
 }

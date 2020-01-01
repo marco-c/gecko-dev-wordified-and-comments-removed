@@ -128,7 +128,7 @@ inCmdLine
 PRUnichar
 *
 compareCmdLine
-PRBool
+bool
 passes
 int
 testNum
@@ -148,7 +148,7 @@ inArgc
 int
 outArgc
 ;
-PRBool
+bool
 isEqual
 ;
 PRUnichar

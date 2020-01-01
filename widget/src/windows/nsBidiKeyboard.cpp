@@ -208,7 +208,7 @@ nsBidiKeyboard
 :
 IsLangRTL
 (
-PRBool
+bool
 *
 aIsRTL
 )
@@ -404,7 +404,7 @@ nsBidiKeyboard
 :
 GetHaveBidiKeyboards
 (
-PRBool
+bool
 *
 aResult
 )
@@ -476,15 +476,15 @@ localeName
 KL_NAMELENGTH
 ]
 ;
-PRBool
+bool
 isLTRKeyboardSet
 =
-PR_FALSE
+false
 ;
-PRBool
+bool
 isRTLKeyboardSet
 =
-PR_FALSE
+false
 ;
 keyboards
 =
@@ -801,7 +801,7 @@ return
 NS_OK
 ;
 }
-PRBool
+bool
 nsBidiKeyboard
 :
 :

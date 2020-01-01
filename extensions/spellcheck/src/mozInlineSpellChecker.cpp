@@ -228,7 +228,7 @@ define
 MISSPELLED_WORD_COUNT_PENALTY
 4
 static
-PRBool
+bool
 ContentIsDescendantOf
 (
 nsINode
@@ -648,7 +648,7 @@ mozInlineSpellStatus
 :
 InitForNavigation
 (
-PRBool
+bool
 aForceCheck
 PRInt32
 aNewPositionOffset
@@ -662,7 +662,7 @@ nsIDOMNode
 aNewAnchorNode
 PRInt32
 aNewAnchorOffset
-PRBool
+bool
 *
 aContinue
 )
@@ -1221,10 +1221,10 @@ rv
 rv
 )
 ;
-PRBool
+bool
 isInRange
 =
-PR_FALSE
+false
 ;
 if
 (
@@ -1783,7 +1783,7 @@ mozInlineSpellChecker
 :
 Cleanup
 (
-PRBool
+bool
 aDestroyingFrames
 )
 {
@@ -1852,7 +1852,7 @@ return
 rv
 ;
 }
-PRBool
+bool
 mozInlineSpellChecker
 :
 :
@@ -1904,10 +1904,10 @@ rv
 PR_FALSE
 )
 ;
-PRBool
+bool
 canSpellCheck
 =
-PR_FALSE
+false
 ;
 rv
 =
@@ -2217,7 +2217,7 @@ mozInlineSpellChecker
 :
 GetEnableRealTimeSpell
 (
-PRBool
+bool
 *
 aEnabled
 )
@@ -2245,7 +2245,7 @@ mozInlineSpellChecker
 :
 SetEnableRealTimeSpell
 (
-PRBool
+bool
 aEnabled
 )
 {
@@ -3794,7 +3794,7 @@ aEditor
 nsIDOMNode
 *
 aNode
-PRBool
+bool
 *
 checkSpelling
 )
@@ -4231,7 +4231,7 @@ rv
 rv
 )
 ;
-PRBool
+bool
 doneChecking
 ;
 for
@@ -4336,7 +4336,7 @@ aSpellCheckSelection
 mozInlineSpellStatus
 *
 aStatus
-PRBool
+bool
 *
 aDoneChecking
 )
@@ -4377,7 +4377,7 @@ editor
 return
 NS_ERROR_FAILURE
 ;
-PRBool
+bool
 iscollapsed
 ;
 nsresult
@@ -4590,7 +4590,7 @@ nsIDOMRange
 >
 wordRange
 ;
-PRBool
+bool
 dontCheckWord
 ;
 while
@@ -4717,10 +4717,10 @@ originalRangeCount
 0
 )
 {
-PRBool
+bool
 inCreatedRange
 =
-PR_FALSE
+false
 ;
 if
 (
@@ -4807,7 +4807,7 @@ dontCheckWord
 )
 continue
 ;
-PRBool
+bool
 checkSpelling
 ;
 rv
@@ -4838,10 +4838,10 @@ if
 noCheckRange
 )
 {
-PRBool
+bool
 inExclusion
 =
-PR_FALSE
+false
 ;
 noCheckRange
 -
@@ -4861,7 +4861,7 @@ inExclusion
 continue
 ;
 }
-PRBool
+bool
 isMisspelled
 ;
 aWordUtil
@@ -5208,10 +5208,10 @@ mRange
 return
 NS_OK
 ;
-PRBool
+bool
 doneChecking
 =
-PR_TRUE
+true
 ;
 if
 (
@@ -5432,7 +5432,7 @@ if
 checkRange
 )
 {
-PRBool
+bool
 collapsed
 ;
 checkRange
@@ -5746,7 +5746,7 @@ return
 NS_OK
 ;
 }
-PRBool
+bool
 ContentIsDescendantOf
 (
 nsINode
@@ -5820,7 +5820,7 @@ mozInlineSpellChecker
 :
 HandleNavigationEvent
 (
-PRBool
+bool
 aForceWordSpellCheck
 PRInt32
 aNewPositionOffset
@@ -5862,7 +5862,7 @@ rv
 rv
 )
 ;
-PRBool
+bool
 shouldPost
 ;
 mozInlineSpellStatus

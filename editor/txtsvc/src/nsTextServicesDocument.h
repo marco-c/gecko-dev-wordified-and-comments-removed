@@ -441,7 +441,7 @@ NextBlock
 NS_IMETHOD
 IsDone
 (
-PRBool
+bool
 *
 aIsDone
 )
@@ -782,7 +782,7 @@ nsIDOMNode
 aParent
 PRInt32
 aOffset
-PRBool
+bool
 aToStart
 nsIDOMRange
 *
@@ -874,7 +874,7 @@ aContent
 )
 ;
 static
-PRBool
+bool
 IsBlockNode
 (
 nsIContent
@@ -883,7 +883,7 @@ aContent
 )
 ;
 static
-PRBool
+bool
 IsTextNode
 (
 nsIContent
@@ -892,7 +892,7 @@ aContent
 )
 ;
 static
-PRBool
+bool
 IsTextNode
 (
 nsIDOMNode
@@ -901,7 +901,7 @@ aNode
 )
 ;
 static
-PRBool
+bool
 DidSkip
 (
 nsIContentIterator
@@ -919,7 +919,7 @@ aFilteredIter
 )
 ;
 static
-PRBool
+bool
 HasSameBlockNodeParent
 (
 nsIContent
@@ -937,7 +937,7 @@ PRInt32
 aOffset
 PRInt32
 aLength
-PRBool
+bool
 aDoUpdate
 )
 ;
@@ -983,12 +983,12 @@ PRInt32
 aSelLength
 )
 ;
-PRBool
+bool
 SelectionIsCollapsed
 (
 )
 ;
-PRBool
+bool
 SelectionIsValid
 (
 )
@@ -1045,7 +1045,7 @@ aOffsetTable
 nsIDOMNode
 *
 aNode
-PRBool
+bool
 *
 aHasEntry
 PRInt32

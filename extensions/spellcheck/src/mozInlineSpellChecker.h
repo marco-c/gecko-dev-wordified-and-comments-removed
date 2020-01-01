@@ -157,7 +157,7 @@ aEndOffset
 nsresult
 InitForNavigation
 (
-PRBool
+bool
 aForceCheck
 PRInt32
 aNewPositionOffset
@@ -171,7 +171,7 @@ nsIDOMNode
 aNewAnchorNode
 PRInt32
 aNewAnchorOffset
-PRBool
+bool
 *
 aContinue
 )
@@ -249,7 +249,7 @@ nsIDOMRange
 >
 mOldNavigationAnchorRange
 ;
-PRBool
+bool
 mForceNavigationWordCheck
 ;
 PRInt32
@@ -383,7 +383,7 @@ mCurrentSelectionAnchorNode
 PRInt32
 mCurrentSelectionOffset
 ;
-PRBool
+bool
 mNeedsCheckAfterNavigation
 ;
 enum
@@ -484,7 +484,7 @@ mozInlineSpellChecker
 nsIDOMEventListener
 )
 static
-PRBool
+bool
 CanEnableInlineSpellChecking
 (
 )
@@ -553,7 +553,7 @@ aEditor
 nsIDOMNode
 *
 aNode
-PRBool
+bool
 *
 aCheckSpelling
 )
@@ -611,7 +611,7 @@ aSpellCheckSelection
 mozInlineSpellStatus
 *
 aStatus
-PRBool
+bool
 *
 aDoneChecking
 )
@@ -663,7 +663,7 @@ nsIDOMRange
 aRange
 )
 ;
-PRBool
+bool
 SpellCheckSelectionIsFull
 (
 )
@@ -707,7 +707,7 @@ UnregisterEventListeners
 nsresult
 HandleNavigationEvent
 (
-PRBool
+bool
 aForceWordSpellCheck
 PRInt32
 aNewPositionOffset

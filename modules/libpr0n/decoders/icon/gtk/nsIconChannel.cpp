@@ -312,10 +312,10 @@ gLibGnomeVFS
 nsnull
 ;
 static
-PRBool
+bool
 gTriedToLoadGnomeLibs
 =
-PR_FALSE
+false
 ;
 static
 _GnomeIconLookup_fn
@@ -1763,7 +1763,7 @@ GetAsciiSpec
 spec
 )
 ;
-PRBool
+bool
 isFile
 ;
 if
@@ -2146,7 +2146,7 @@ if
 fileURI
 )
 {
-PRBool
+bool
 isFile
 ;
 nsCAutoString
@@ -2687,7 +2687,7 @@ direction
 GTK_TEXT_DIR_RTL
 ;
 }
-PRBool
+bool
 forceDirection
 =
 direction
@@ -2698,10 +2698,10 @@ GTK_TEXT_DIR_NONE
 nsCAutoString
 stockID
 ;
-PRBool
+bool
 useIconName
 =
-PR_FALSE
+false
 ;
 if
 (

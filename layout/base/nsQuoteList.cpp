@@ -12,7 +12,7 @@ nsReadableUtils
 .
 h
 "
-PRBool
+bool
 nsQuoteNode
 :
 :
@@ -52,10 +52,10 @@ nsQuoteList
 aList
 )
 ;
-PRBool
+bool
 dirty
 =
-PR_FALSE
+false
 ;
 quoteList
 -

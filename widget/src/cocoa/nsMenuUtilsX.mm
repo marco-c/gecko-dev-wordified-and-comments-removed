@@ -715,7 +715,7 @@ SetTrusted
 PR_TRUE
 )
 ;
-PRBool
+bool
 dummy
 ;
 target
@@ -1586,7 +1586,7 @@ standardEditMenuItem
 NS_OBJC_END_TRY_ABORT_BLOCK_NIL
 ;
 }
-PRBool
+bool
 nsMenuUtilsX
 :
 :

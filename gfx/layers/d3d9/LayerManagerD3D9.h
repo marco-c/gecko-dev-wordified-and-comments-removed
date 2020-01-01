@@ -221,7 +221,7 @@ LayerManagerD3D9
 (
 )
 ;
-PRBool
+bool
 Initialize
 (
 )
@@ -520,7 +520,7 @@ DeviceWasRemoved
 void
 SetClippingEnabled
 (
-PRBool
+bool
 aEnabled
 )
 ;

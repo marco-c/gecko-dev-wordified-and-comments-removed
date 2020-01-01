@@ -645,10 +645,10 @@ empty
 +
 start
 ;
-PRBool
+bool
 haveTwoColons
 =
-PR_TRUE
+true
 ;
 if
 (
@@ -1318,7 +1318,7 @@ nsComputedDOMStyle
 :
 GetCSSDeclaration
 (
-PRBool
+bool
 )
 {
 NS_RUNTIMEABORT
@@ -4122,7 +4122,7 @@ nsRect
 )
 )
 ;
-PRBool
+bool
 dummy
 ;
 gfx3DMatrix
@@ -4157,7 +4157,7 @@ AppUnitsPerCSSPixel
 )
 )
 ;
-PRBool
+bool
 is3D
 =
 !
@@ -6170,10 +6170,10 @@ gradient
 )
 ;
 }
-PRBool
+bool
 needSep
 =
-PR_FALSE
+false
 ;
 nsAutoString
 tokenString
@@ -8898,7 +8898,7 @@ else
 #
 ifdef
 DEBUG
-PRBool
+bool
 res
 =
 #
@@ -9191,7 +9191,7 @@ nsStyleCorners
 aRadius
 PRUint8
 aFullCorner
-PRBool
+bool
 aIsBorder
 )
 {
@@ -9430,7 +9430,7 @@ const
 nscolor
 &
 aDefaultColor
-PRBool
+bool
 aIsBoxShadow
 )
 {
@@ -10436,7 +10436,7 @@ nsnull
 nscolor
 color
 ;
-PRBool
+bool
 isForegroundColor
 ;
 textReset
@@ -10609,7 +10609,7 @@ GetROCSSPrimitiveValue
 nscolor
 color
 ;
-PRBool
+bool
 isForeground
 ;
 GetStyleTextReset
@@ -13413,10 +13413,10 @@ GetROCSSPrimitiveValue
 (
 )
 ;
-PRBool
+bool
 calcHeight
 =
-PR_FALSE
+false
 ;
 if
 (
@@ -13576,10 +13576,10 @@ GetROCSSPrimitiveValue
 (
 )
 ;
-PRBool
+bool
 calcWidth
 =
-PR_FALSE
+false
 ;
 if
 (
@@ -13976,7 +13976,7 @@ nsComputedDOMStyle
 :
 GetROCSSValueList
 (
-PRBool
+bool
 aCommaDelimited
 )
 {
@@ -14770,7 +14770,7 @@ return
 val
 ;
 }
-PRBool
+bool
 nsComputedDOMStyle
 :
 :
@@ -15146,7 +15146,7 @@ GetROCSSPrimitiveValue
 nscolor
 color
 ;
-PRBool
+bool
 foreground
 ;
 GetStyleBorder
@@ -15332,7 +15332,7 @@ const
 nsStyleCoord
 &
 aCoord
-PRBool
+bool
 aClampNegativeCalc
 PercentageBaseGetter
 aPercentageBaseGetter
@@ -15795,7 +15795,7 @@ PercentageBaseGetter
 aPercentageBaseGetter
 nscoord
 aDefaultValue
-PRBool
+bool
 aClampNegativeCalc
 )
 {
@@ -15920,7 +15920,7 @@ return
 aDefaultValue
 ;
 }
-PRBool
+bool
 nsComputedDOMStyle
 :
 :
@@ -15979,7 +15979,7 @@ return
 PR_TRUE
 ;
 }
-PRBool
+bool
 nsComputedDOMStyle
 :
 :
@@ -16038,7 +16038,7 @@ return
 PR_TRUE
 ;
 }
-PRBool
+bool
 nsComputedDOMStyle
 :
 :
@@ -16078,7 +16078,7 @@ return
 PR_TRUE
 ;
 }
-PRBool
+bool
 nsComputedDOMStyle
 :
 :
@@ -16118,7 +16118,7 @@ return
 PR_TRUE
 ;
 }
-PRBool
+bool
 nsComputedDOMStyle
 :
 :
@@ -16177,7 +16177,7 @@ return
 PR_TRUE
 ;
 }
-PRBool
+bool
 nsComputedDOMStyle
 :
 :
@@ -16243,7 +16243,7 @@ nsComputedDOMStyle
 :
 GetSVGPaintFor
 (
-PRBool
+bool
 aFill
 )
 {

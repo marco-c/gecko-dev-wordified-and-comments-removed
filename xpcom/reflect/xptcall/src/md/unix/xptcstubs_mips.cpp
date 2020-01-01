@@ -522,7 +522,7 @@ val
 b
 =
 (
-PRBool
+bool
 )
 *
 ap

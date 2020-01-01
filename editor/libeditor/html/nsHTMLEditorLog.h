@@ -239,7 +239,7 @@ const
 nsAString
 &
 aQuotedText
-PRBool
+bool
 aAddCites
 nsIDOMNode
 *
@@ -258,7 +258,7 @@ const
 nsAString
 &
 aCitation
-PRBool
+bool
 aInsertHTML
 nsIDOMNode
 *
@@ -304,7 +304,7 @@ const
 nsAString
 &
 aListType
-PRBool
+bool
 entireList
 const
 nsAString
@@ -336,7 +336,7 @@ InsertElementAtSelection
 nsIDOMElement
 *
 aElement
-PRBool
+bool
 aDeleteSelection
 )
 ;
@@ -353,7 +353,7 @@ InsertTableCell
 (
 PRInt32
 aNumber
-PRBool
+bool
 aAfter
 )
 ;
@@ -362,7 +362,7 @@ InsertTableColumn
 (
 PRInt32
 aNumber
-PRBool
+bool
 aAfter
 )
 ;
@@ -371,7 +371,7 @@ InsertTableRow
 (
 PRInt32
 aNumber
-PRBool
+bool
 aAfter
 )
 ;
@@ -409,7 +409,7 @@ aNumber
 NS_IMETHOD
 JoinTableCells
 (
-PRBool
+bool
 aMergeNonContiguousContents
 )
 ;

@@ -270,7 +270,7 @@ aPredicate
 nsIRDFNode
 *
 aObject
-PRBool
+bool
 aTruthValue
 )
 {

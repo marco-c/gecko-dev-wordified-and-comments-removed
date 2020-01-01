@@ -138,7 +138,7 @@ DOMSVGPathSegList
 aList
 PRUint32
 aListIndex
-PRBool
+bool
 aIsAnimValItem
 )
 :
@@ -271,7 +271,7 @@ DOMSVGPathSegList
 aList
 PRUint32
 aListIndex
-PRBool
+bool
 aIsAnimValItem
 )
 {
@@ -504,7 +504,7 @@ dataIndex
 #
 ifdef
 DEBUG
-PRBool
+bool
 DOMSVGPathSeg
 :
 :
@@ -687,7 +687,7 @@ aList
 PRUint32
 aListIndex
 \
-PRBool
+bool
 aIsAnimValItem
 )
 \
@@ -1153,7 +1153,7 @@ IMPL_PROP_WITH_TYPE
 segName
 propName
 index
-PRBool
+bool
 )
 class
 DOMSVGPathSegClosePath
@@ -1953,9 +1953,9 @@ float
 r2
 float
 angle
-PRBool
+bool
 largeArcFlag
-PRBool
+bool
 sweepFlag
 float
 x
@@ -2098,9 +2098,9 @@ float
 r2
 float
 angle
-PRBool
+bool
 largeArcFlag
-PRBool
+bool
 sweepFlag
 float
 x
@@ -2797,7 +2797,7 @@ DOMSVGPathSegList
 aList
 PRUint32
 aListIndex
-PRBool
+bool
 aIsAnimValItem
 )
 {
@@ -3367,9 +3367,9 @@ float
 r2
 float
 angle
-PRBool
+bool
 largeArcFlag
-PRBool
+bool
 sweepFlag
 )
 {
@@ -3401,9 +3401,9 @@ float
 r2
 float
 angle
-PRBool
+bool
 largeArcFlag
-PRBool
+bool
 sweepFlag
 )
 {

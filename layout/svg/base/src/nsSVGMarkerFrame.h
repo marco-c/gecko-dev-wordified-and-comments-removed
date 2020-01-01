@@ -236,10 +236,10 @@ nsSVGSVGElement
 aContext
 )
 ;
-PRPackedBool
+bool
 mInUse
 ;
-PRPackedBool
+bool
 mInUse2
 ;
 }

@@ -46,7 +46,7 @@ nsnull
 #
 endif
 typedef
-PRBool
+bool
 (
 *
 _XScreenSaverQueryExtension_fn
@@ -92,10 +92,10 @@ info
 )
 ;
 static
-PRBool
+bool
 sInitialized
 =
-PR_FALSE
+false
 ;
 static
 _XScreenSaverQueryExtension_fn

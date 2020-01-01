@@ -258,10 +258,10 @@ rv
 return
 1
 ;
-PRBool
+bool
 success
 =
-PR_FALSE
+false
 ;
 char
 *

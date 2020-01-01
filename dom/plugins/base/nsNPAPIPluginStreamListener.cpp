@@ -407,7 +407,7 @@ nsPluginStreamToFile
 :
 IsNonBlocking
 (
-PRBool
+bool
 *
 aNonBlocking
 )
@@ -1166,7 +1166,7 @@ GetNPP
 npp
 )
 ;
-PRBool
+bool
 seekable
 ;
 char
@@ -1622,7 +1622,7 @@ nsnull
 ;
 }
 }
-PRBool
+bool
 nsNPAPIPluginStreamListener
 :
 :

@@ -293,10 +293,10 @@ mSource
 ;
 private
 :
-PRPackedBool
+bool
 mLoopFlag
 ;
-PRPackedBool
+bool
 mNoHRefURI
 ;
 }

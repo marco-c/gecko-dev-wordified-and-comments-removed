@@ -721,7 +721,7 @@ return
 JS_TRUE
 ;
 }
-PRBool
+bool
 didInstall
 ;
 nsresult
@@ -1370,7 +1370,7 @@ GetCurrentDoc
 (
 )
 ;
-PRBool
+bool
 allowScripts
 =
 AllowScripts
@@ -1605,7 +1605,7 @@ aElement
 )
 ;
 }
-PRBool
+bool
 nsXBLBinding
 :
 :
@@ -2549,7 +2549,7 @@ GetChildCount
 (
 )
 ;
-PRBool
+bool
 hasContent
 =
 (
@@ -2558,7 +2558,7 @@ contentCount
 0
 )
 ;
-PRBool
+bool
 hasInsertionPoints
 =
 mPrototypeBinding
@@ -2954,10 +2954,10 @@ index
 =
 0
 ;
-PRBool
+bool
 multiplePoints
 =
-PR_FALSE
+false
 ;
 nsIContent
 *
@@ -3540,7 +3540,7 @@ manager
 )
 return
 ;
-PRBool
+bool
 isChromeDoc
 =
 nsContentUtils
@@ -3556,7 +3556,7 @@ GetOwnerDoc
 )
 )
 ;
-PRBool
+bool
 isChromeBinding
 =
 mPrototypeBinding
@@ -3707,7 +3707,7 @@ flags
 NS_EVENT_FLAG_SYSTEM_EVENT
 ;
 }
-PRBool
+bool
 hasAllowUntrustedAttr
 =
 curr
@@ -4023,9 +4023,9 @@ nsIAtom
 aAttribute
 PRInt32
 aNameSpaceID
-PRBool
+bool
 aRemoveFlag
-PRBool
+bool
 aNotify
 )
 {
@@ -4181,7 +4181,7 @@ manager
 return
 ;
 }
-PRBool
+bool
 isChromeBinding
 =
 mPrototypeBinding
@@ -5009,7 +5009,7 @@ nsnull
 }
 }
 }
-PRBool
+bool
 nsXBLBinding
 :
 :
@@ -5655,7 +5655,7 @@ return
 NS_OK
 ;
 }
-PRBool
+bool
 nsXBLBinding
 :
 :
@@ -5795,7 +5795,7 @@ GetDocument
 (
 )
 ;
-PRBool
+bool
 canExecute
 ;
 nsresult
@@ -5833,7 +5833,7 @@ return
 PR_FALSE
 ;
 }
-PRBool
+bool
 haveCert
 ;
 doc
@@ -5860,7 +5860,7 @@ return
 PR_TRUE
 ;
 }
-PRBool
+bool
 subsumes
 ;
 rv
@@ -6048,7 +6048,7 @@ aParent
 }
 }
 }
-PRBool
+bool
 nsXBLBinding
 :
 :
@@ -6339,7 +6339,7 @@ GetSingleInsertionPoint
 PRUint32
 *
 aIndex
-PRBool
+bool
 *
 aMultipleInsertionPoints
 )
@@ -6439,7 +6439,7 @@ GetFirstStyleBinding
 nsnull
 ;
 }
-PRBool
+bool
 nsXBLBinding
 :
 :
@@ -6508,7 +6508,7 @@ ExecuteDetachedHandler
 )
 ;
 }
-PRBool
+bool
 nsXBLBinding
 :
 :

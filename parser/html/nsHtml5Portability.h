@@ -270,7 +270,7 @@ str
 )
 ;
 static
-PRBool
+bool
 localEqualsBuffer
 (
 nsIAtom
@@ -286,7 +286,7 @@ length
 )
 ;
 static
-PRBool
+bool
 lowerCaseLiteralIsPrefixOfIgnoreAsciiCaseString
 (
 const
@@ -299,7 +299,7 @@ string
 )
 ;
 static
-PRBool
+bool
 lowerCaseLiteralEqualsIgnoreAsciiCaseString
 (
 const
@@ -312,7 +312,7 @@ string
 )
 ;
 static
-PRBool
+bool
 literalEqualsString
 (
 const
@@ -325,7 +325,7 @@ string
 )
 ;
 static
-PRBool
+bool
 stringEqualsString
 (
 nsString

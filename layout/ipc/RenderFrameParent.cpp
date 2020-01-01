@@ -1480,7 +1480,7 @@ layer
 }
 }
 static
-PRBool
+bool
 IsTempLayerManager
 (
 LayerManager

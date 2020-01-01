@@ -949,7 +949,7 @@ aParent
 nsIContent
 *
 aBindingParent
-PRBool
+bool
 aCompileEventHandlers
 )
 {
@@ -1079,7 +1079,7 @@ const
 nsAString
 *
 aValue
-PRBool
+bool
 aNotify
 )
 {
@@ -1230,7 +1230,7 @@ aNotify
 )
 ;
 }
-PRBool
+bool
 nsSVGElement
 :
 :
@@ -1423,10 +1423,10 @@ rv
 =
 NS_OK
 ;
-PRBool
+bool
 foundMatch
 =
-PR_FALSE
+false
 ;
 if
 (
@@ -2816,7 +2816,7 @@ aNamespaceID
 nsIAtom
 *
 aName
-PRBool
+bool
 aNotify
 )
 {
@@ -3862,7 +3862,7 @@ return
 retval
 ;
 }
-PRBool
+bool
 nsSVGElement
 :
 :
@@ -4674,7 +4674,7 @@ const
 nsAString
 &
 aVersion
-PRBool
+bool
 *
 aReturn
 )
@@ -4960,7 +4960,7 @@ AttrNameAt
 i
 )
 ;
-PRBool
+bool
 modification
 =
 !
@@ -5145,7 +5145,7 @@ NS_ERROR_UNEXPECTED
 NS_OK
 ;
 }
-PRBool
+bool
 hasListeners
 =
 nsContentUtils
@@ -5425,7 +5425,7 @@ aMappedAttrName
 )
 )
 ;
-PRBool
+bool
 changed
 ;
 mParser
@@ -5500,7 +5500,7 @@ forget
 ;
 }
 }
-PRBool
+bool
 nsSVGElement
 :
 :
@@ -6707,7 +6707,7 @@ DidChangeLength
 (
 PRUint8
 aAttrEnum
-PRBool
+bool
 aDoSetAttr
 )
 {
@@ -7095,7 +7095,7 @@ DidChangeLengthList
 (
 PRUint8
 aAttrEnum
-PRBool
+bool
 aDoSetAttr
 )
 {
@@ -7479,7 +7479,7 @@ DidChangeNumberList
 (
 PRUint8
 aAttrEnum
-PRBool
+bool
 aDoSetAttr
 )
 {
@@ -7777,7 +7777,7 @@ nsSVGElement
 :
 DidChangePointList
 (
-PRBool
+bool
 aDoSetAttr
 )
 {
@@ -7899,7 +7899,7 @@ nsSVGElement
 :
 DidChangePathSegList
 (
-PRBool
+bool
 aDoSetAttr
 )
 {
@@ -8057,7 +8057,7 @@ DidChangeNumber
 (
 PRUint8
 aAttrEnum
-PRBool
+bool
 aDoSetAttr
 )
 {
@@ -8367,7 +8367,7 @@ DidChangeNumberPair
 (
 PRUint8
 aAttrEnum
-PRBool
+bool
 aDoSetAttr
 )
 {
@@ -8569,7 +8569,7 @@ DidChangeInteger
 (
 PRUint8
 aAttrEnum
-PRBool
+bool
 aDoSetAttr
 )
 {
@@ -8879,7 +8879,7 @@ DidChangeIntegerPair
 (
 PRUint8
 aAttrEnum
-PRBool
+bool
 aDoSetAttr
 )
 {
@@ -9087,7 +9087,7 @@ DidChangeAngle
 (
 PRUint8
 aAttrEnum
-PRBool
+bool
 aDoSetAttr
 )
 {
@@ -9288,7 +9288,7 @@ DidChangeBoolean
 (
 PRUint8
 aAttrEnum
-PRBool
+bool
 aDoSetAttr
 )
 {
@@ -9489,7 +9489,7 @@ DidChangeEnum
 (
 PRUint8
 aAttrEnum
-PRBool
+bool
 aDoSetAttr
 )
 {
@@ -9652,7 +9652,7 @@ nsSVGElement
 :
 DidChangeViewBox
 (
-PRBool
+bool
 aDoSetAttr
 )
 {
@@ -9773,7 +9773,7 @@ nsSVGElement
 :
 DidChangePreserveAspectRatio
 (
-PRBool
+bool
 aDoSetAttr
 )
 {
@@ -9881,7 +9881,7 @@ nsSVGElement
 :
 DidChangeTransformList
 (
-PRBool
+bool
 aDoSetAttr
 )
 {

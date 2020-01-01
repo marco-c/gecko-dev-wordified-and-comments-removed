@@ -56,10 +56,10 @@ nsILocalFile
 *
 *
 aLocalFile
-PRBool
+bool
 aLocal
 =
-PR_FALSE
+false
 )
 ;
 NS_METHOD
@@ -69,10 +69,10 @@ nsILocalFile
 *
 *
 aLocalFile
-PRBool
+bool
 aLocal
 =
-PR_FALSE
+false
 )
 ;
 #
@@ -82,7 +82,7 @@ defined
 XP_MACOSX
 )
 static
-PRBool
+bool
 IsOSXLeopard
 (
 )

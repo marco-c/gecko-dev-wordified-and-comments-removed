@@ -175,7 +175,7 @@ filters
 FilterFuncPtr
 mFilterFunc
 ;
-PRBool
+bool
 mIsDeep
 ;
 IteratorState

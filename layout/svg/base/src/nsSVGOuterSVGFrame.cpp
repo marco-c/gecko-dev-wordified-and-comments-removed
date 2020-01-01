@@ -1119,7 +1119,7 @@ nsSize
 aBorder
 nsSize
 aPadding
-PRBool
+bool
 aShrinkWrap
 )
 {
@@ -1782,7 +1782,7 @@ nsDidReflowStatus
 aStatus
 )
 {
-PRBool
+bool
 firstReflow
 =
 (
@@ -2195,7 +2195,7 @@ ToReferenceFrame
 }
 static
 inline
-PRBool
+bool
 DependsOnIntrinsicSize
 (
 const
@@ -2901,7 +2901,7 @@ rect
 )
 ;
 }
-PRBool
+bool
 nsSVGOuterSVGFrame
 :
 :
@@ -2996,7 +2996,7 @@ return
 PR_TRUE
 ;
 }
-PRBool
+bool
 nsSVGOuterSVGFrame
 :
 :
@@ -3554,7 +3554,7 @@ aFrame
 )
 ;
 }
-PRBool
+bool
 nsSVGOuterSVGFrame
 :
 :
@@ -3713,7 +3713,7 @@ return
 PR_FALSE
 ;
 }
-PRBool
+bool
 nsSVGOuterSVGFrame
 :
 :

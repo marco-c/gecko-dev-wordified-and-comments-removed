@@ -283,7 +283,7 @@ aPrimaryFrame
 )
 ;
 static
-PRBool
+bool
 IsGeneratedContentFor
 (
 nsIContent
@@ -458,7 +458,7 @@ nsnull
 )
 ;
 static
-PRBool
+bool
 IsProperAncestorFrame
 (
 nsIFrame
@@ -475,7 +475,7 @@ nsnull
 )
 ;
 static
-PRBool
+bool
 IsProperAncestorFrameCrossDoc
 (
 nsIFrame
@@ -492,7 +492,7 @@ nsnull
 )
 ;
 static
-PRBool
+bool
 IsAncestorFrameCrossDoc
 (
 nsIFrame
@@ -532,7 +532,7 @@ aItem
 nsDisplayListBuilder
 *
 aBuilder
-PRBool
+bool
 *
 aShouldFixToViewport
 =
@@ -540,7 +540,7 @@ nsnull
 )
 ;
 static
-PRBool
+bool
 ScrolledByViewportScrolling
 (
 nsIFrame
@@ -617,7 +617,7 @@ aFrame
 )
 ;
 static
-PRBool
+bool
 HasPseudoStyle
 (
 nsIContent
@@ -743,7 +743,7 @@ ViewID
 >
 &
 aOutIDs
-PRBool
+bool
 aIgnoreRootScrollFrame
 )
 ;
@@ -757,14 +757,14 @@ nsIFrame
 aFrame
 nsPoint
 aPt
-PRBool
+bool
 aShouldIgnoreSuppression
 =
-PR_FALSE
-PRBool
+false
+bool
 aIgnoreRootScrollFrame
 =
-PR_FALSE
+false
 )
 ;
 static
@@ -785,14 +785,14 @@ nsIFrame
 >
 &
 aOutFrames
-PRBool
+bool
 aShouldIgnoreSuppression
 =
-PR_FALSE
-PRBool
+false
+bool
 aIgnoreRootScrollFrame
 =
-PR_FALSE
+false
 )
 ;
 static
@@ -967,7 +967,7 @@ aFrame
 )
 ;
 static
-PRBool
+bool
 BinarySearchForPosition
 (
 nsRenderingContext
@@ -1056,7 +1056,7 @@ mResultRect
 nsRect
 mFirstRect
 ;
-PRPackedBool
+bool
 mSeenFirstRect
 ;
 RectAccumulator
@@ -1272,7 +1272,7 @@ aFrame
 )
 ;
 static
-PRBool
+bool
 IsViewportScrollbarFrame
 (
 nsIFrame
@@ -1383,7 +1383,7 @@ result
 ;
 }
 static
-PRBool
+bool
 IsAutoHeight
 (
 const
@@ -1432,7 +1432,7 @@ HasPercent
 ;
 }
 static
-PRBool
+bool
 IsPaddingZero
 (
 const
@@ -1524,7 +1524,7 @@ aCoord
 ;
 }
 static
-PRBool
+bool
 IsMarginZero
 (
 const
@@ -1820,7 +1820,7 @@ aLineHeight
 )
 ;
 static
-PRBool
+bool
 GetFirstLineBaseline
 (
 const
@@ -1883,7 +1883,7 @@ result
 }
 ;
 static
-PRBool
+bool
 GetFirstLinePosition
 (
 const
@@ -1896,7 +1896,7 @@ aResult
 )
 ;
 static
-PRBool
+bool
 GetLastLineBaseline
 (
 const
@@ -2146,7 +2146,7 @@ aDestArea
 )
 ;
 static
-PRBool
+bool
 HasNonZeroCorner
 (
 const
@@ -2156,7 +2156,7 @@ aCorners
 )
 ;
 static
-PRBool
+bool
 HasNonZeroCornerOnSide
 (
 const
@@ -2186,7 +2186,7 @@ aCSSRootFrame
 )
 ;
 static
-PRBool
+bool
 IsPopup
 (
 nsIFrame
@@ -2252,7 +2252,7 @@ aDocShell
 )
 ;
 static
-PRBool
+bool
 IsReallyFixedPos
 (
 nsIFrame
@@ -2261,7 +2261,7 @@ aFrame
 )
 ;
 static
-PRBool
+bool
 FrameIsNonFirstInIBSplit
 (
 const
@@ -2307,7 +2307,7 @@ IBSplitSpecialPrevSibling
 ;
 }
 static
-PRBool
+bool
 FrameIsNonLastInIBSplit
 (
 const
@@ -2428,13 +2428,13 @@ imgIRequest
 >
 mImageRequest
 ;
-PRPackedBool
+bool
 mIsWriteOnly
 ;
-PRPackedBool
+bool
 mIsStillLoading
 ;
-PRPackedBool
+bool
 mCORSUsed
 ;
 }
@@ -2463,7 +2463,7 @@ aDocument
 )
 ;
 static
-PRBool
+bool
 NeedsPrintPreviewBackground
 (
 nsPresContext
@@ -2533,7 +2533,7 @@ PRInt32
 aStartOffset
 PRInt32
 aEndOffset
-PRBool
+bool
 aFollowContinuations
 nsFontFaceList
 *
@@ -2541,7 +2541,7 @@ aFontFaceList
 )
 ;
 static
-PRBool
+bool
 Are3DTransformsEnabled
 (
 )

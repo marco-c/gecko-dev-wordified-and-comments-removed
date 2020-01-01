@@ -103,7 +103,7 @@ const
 0
 ;
 virtual
-PRBool
+bool
 Equals
 (
 const
@@ -182,7 +182,7 @@ PR_TRUE
 }
 ;
 typedef
-PRBool
+bool
 (
 *
 nsHashtableEnumFunc
@@ -264,7 +264,7 @@ mLock
 PLDHashTable
 mHashtable
 ;
-PRBool
+bool
 mEnumerating
 ;
 public
@@ -275,10 +275,10 @@ PRUint32
 aSize
 =
 16
-PRBool
+bool
 threadSafe
 =
-PR_FALSE
+false
 )
 ;
 virtual
@@ -299,7 +299,7 @@ mHashtable
 entryCount
 ;
 }
-PRBool
+bool
 Exists
 (
 nsHashKey
@@ -442,10 +442,10 @@ PRUint32
 aSize
 =
 16
-PRBool
+bool
 threadSafe
 =
-PR_FALSE
+false
 )
 ;
 ~
@@ -464,7 +464,7 @@ Reset
 (
 )
 ;
-PRBool
+bool
 RemoveAndDelete
 (
 nsHashKey
@@ -524,10 +524,10 @@ PRUint32
 aSize
 =
 16
-PRBool
+bool
 threadSafe
 =
-PR_FALSE
+false
 )
 :
 nsHashtable
@@ -557,7 +557,7 @@ Count
 )
 ;
 }
-PRBool
+bool
 Exists
 (
 nsHashKey
@@ -575,7 +575,7 @@ aKey
 )
 ;
 }
-PRBool
+bool
 Put
 (
 nsHashKey
@@ -601,7 +601,7 @@ nsHashKey
 aKey
 )
 ;
-PRBool
+bool
 Remove
 (
 nsHashKey
@@ -651,7 +651,7 @@ Reset
 private
 :
 static
-PRBool
+bool
 ReleaseElement
 (
 nsHashKey
@@ -783,7 +783,7 @@ mKey
 )
 ;
 }
-PRBool
+bool
 Equals
 (
 const
@@ -909,7 +909,7 @@ return
 mKey
 ;
 }
-PRBool
+bool
 Equals
 (
 const
@@ -1038,7 +1038,7 @@ mKey
 )
 ;
 }
-PRBool
+bool
 Equals
 (
 const
@@ -1189,7 +1189,7 @@ void
 )
 const
 ;
-PRBool
+bool
 Equals
 (
 const
@@ -1331,7 +1331,7 @@ void
 )
 const
 ;
-PRBool
+bool
 Equals
 (
 const

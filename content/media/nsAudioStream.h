@@ -178,7 +178,7 @@ GetPositionInFrames
 0
 ;
 virtual
-PRBool
+bool
 IsPaused
 (
 )

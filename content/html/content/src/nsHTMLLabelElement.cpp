@@ -322,7 +322,7 @@ aParent
 nsIContent
 *
 aBindingParent
-PRBool
+bool
 aCompileEventHandlers
 )
 {
@@ -345,9 +345,9 @@ nsHTMLLabelElement
 :
 UnbindFromTree
 (
-PRBool
+bool
 aDeep
-PRBool
+bool
 aNullParent
 )
 {
@@ -362,7 +362,7 @@ aNullParent
 ;
 }
 static
-PRBool
+bool
 EventTargetIn
 (
 nsEvent
@@ -705,10 +705,10 @@ labelMouseDownPtProperty
 )
 )
 ;
-PRBool
+bool
 dragSelect
 =
-PR_FALSE
+false
 ;
 if
 (
@@ -954,7 +954,7 @@ const
 nsAString
 &
 aValue
-PRBool
+bool
 aNotify
 )
 {
@@ -983,7 +983,7 @@ aNameSpaceID
 nsIAtom
 *
 aAttribute
-PRBool
+bool
 aNotify
 )
 {
@@ -1005,9 +1005,9 @@ nsHTMLLabelElement
 :
 PerformAccesskey
 (
-PRBool
+bool
 aKeyCausesActivation
-PRBool
+bool
 aIsTrustedEvent
 )
 {

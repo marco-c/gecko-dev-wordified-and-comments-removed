@@ -369,7 +369,7 @@ mCurrentProgress
 PRInt64
 mMaxProgress
 ;
-PRBool
+bool
 mUploading
 ;
 nsAutoPtr
@@ -381,7 +381,7 @@ mLastStatus
 }
 ;
 static
-PRBool
+bool
 RequestInfoHashInitEntry
 (
 PLDHashTable
@@ -1158,7 +1158,7 @@ return
 rv
 ;
 }
-PRBool
+bool
 nsDocLoader
 :
 :
@@ -1195,7 +1195,7 @@ return
 PR_FALSE
 ;
 }
-PRBool
+bool
 busy
 ;
 rv
@@ -1664,10 +1664,10 @@ count
 }
 #
 endif
-PRBool
+bool
 bJustStartedLoading
 =
-PR_FALSE
+false
 ;
 nsLoadFlags
 loadFlags
@@ -1949,10 +1949,10 @@ count
 }
 #
 endif
-PRBool
+bool
 bFireTransferring
 =
-PR_FALSE
+false
 ;
 nsRequestInfo
 *
@@ -2382,7 +2382,7 @@ nsDocLoader
 :
 DocLoaderIsEmpty
 (
-PRBool
+bool
 aFlushLayout
 )
 {
@@ -3365,7 +3365,7 @@ nsDocLoader
 :
 GetIsLoadingDocument
 (
-PRBool
+bool
 *
 aIsLoadingDocument
 )
@@ -3902,7 +3902,7 @@ if
 info
 )
 {
-PRBool
+bool
 uploading
 =
 (
@@ -5075,7 +5075,7 @@ aMessage
 ;
 }
 }
-PRBool
+bool
 nsDocLoader
 :
 :
@@ -5089,14 +5089,14 @@ nsIURI
 aURI
 PRInt32
 aDelay
-PRBool
+bool
 aSameURI
 )
 {
-PRBool
+bool
 allowRefresh
 =
-PR_TRUE
+true
 ;
 PRInt32
 count
@@ -5214,7 +5214,7 @@ listener2
 )
 continue
 ;
-PRBool
+bool
 listenerAllowedRefresh
 ;
 nsresult

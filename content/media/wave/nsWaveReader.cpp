@@ -536,7 +536,7 @@ thread
 "
 )
 ;
-PRBool
+bool
 loaded
 =
 LoadRIFFChunk
@@ -633,7 +633,7 @@ return
 NS_OK
 ;
 }
-PRBool
+bool
 nsWaveReader
 :
 :
@@ -1130,13 +1130,13 @@ return
 PR_TRUE
 ;
 }
-PRBool
+bool
 nsWaveReader
 :
 :
 DecodeVideoFrame
 (
-PRBool
+bool
 &
 aKeyframeSkip
 PRInt64
@@ -1487,7 +1487,7 @@ return
 NS_OK
 ;
 }
-PRBool
+bool
 nsWaveReader
 :
 :
@@ -1617,7 +1617,7 @@ return
 PR_TRUE
 ;
 }
-PRBool
+bool
 nsWaveReader
 :
 :
@@ -1757,7 +1757,7 @@ return
 PR_TRUE
 ;
 }
-PRBool
+bool
 nsWaveReader
 :
 :
@@ -1962,7 +1962,7 @@ size
 }
 }
 }
-PRBool
+bool
 nsWaveReader
 :
 :
@@ -2456,7 +2456,7 @@ return
 PR_TRUE
 ;
 }
-PRBool
+bool
 nsWaveReader
 :
 :

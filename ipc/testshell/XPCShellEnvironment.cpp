@@ -304,7 +304,7 @@ XPCShellDirProvider
 )
 {
 }
-PRBool
+bool
 SetGREDir
 (
 const
@@ -3446,7 +3446,7 @@ cx
 nsIPrincipal
 *
 principal
-PRBool
+bool
 *
 _retval
 )
@@ -3637,7 +3637,7 @@ const
 char
 *
 capability
-PRBool
+bool
 *
 _retval
 )
@@ -3763,7 +3763,7 @@ FullTrustSecMan
 :
 SubjectPrincipalIsSystem
 (
-PRBool
+bool
 *
 _retval
 )
@@ -3807,7 +3807,7 @@ aSourceURI
 nsIURI
 *
 aTargetURI
-PRBool
+bool
 reportError
 )
 {
@@ -3888,7 +3888,7 @@ IsSystemPrincipal
 nsIPrincipal
 *
 aPrincipal
-PRBool
+bool
 *
 _retval
 )
@@ -4023,7 +4023,7 @@ NS_IMPL_QUERY_INTERFACE1
 XPCShellDirProvider
 nsIDirectoryServiceProvider
 )
-PRBool
+bool
 XPCShellDirProvider
 :
 :
@@ -4064,7 +4064,7 @@ const
 char
 *
 prop
-PRBool
+bool
 *
 persistent
 nsIFile

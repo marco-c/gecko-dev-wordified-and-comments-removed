@@ -105,10 +105,10 @@ mPipeOut
 nsresult
 mStatus
 ;
-PRPackedBool
+bool
 mKeepWaiting
 ;
-PRPackedBool
+bool
 mDone
 ;
 }

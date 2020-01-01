@@ -79,7 +79,7 @@ aPath
 )
 ;
 typedef
-PRBool
+bool
 (
 *
 INISectionCallback
@@ -105,7 +105,7 @@ aClosure
 )
 ;
 typedef
-PRBool
+bool
 (
 *
 INIStringCallback

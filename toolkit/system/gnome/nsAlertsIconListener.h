@@ -105,7 +105,7 @@ const
 nsAString
 &
 aAlertText
-PRBool
+bool
 aAlertTextClickable
 const
 nsAString
@@ -149,10 +149,10 @@ mAlertListener
 nsString
 mAlertCookie
 ;
-PRPackedBool
+bool
 mLoadedFrame
 ;
-PRPackedBool
+bool
 mAlertHasAction
 ;
 NotifyNotification

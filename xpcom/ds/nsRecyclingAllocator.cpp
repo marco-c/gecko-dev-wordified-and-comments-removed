@@ -256,7 +256,7 @@ Malloc
 (
 PRSize
 bytes
-PRBool
+bool
 zeroit
 )
 {
@@ -926,7 +926,7 @@ nsRecyclingAllocatorImpl
 :
 HeapMinimize
 (
-PRBool
+bool
 immediate
 )
 {
@@ -940,7 +940,7 @@ nsRecyclingAllocatorImpl
 :
 IsLowMemory
 (
-PRBool
+bool
 *
 lowmemoryb_ptr
 )

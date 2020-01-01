@@ -110,7 +110,7 @@ aFlags
 nsIInterfaceRequestor
 *
 aWindowContext
-PRBool
+bool
 aChannelOpen
 nsIStreamListener
 *

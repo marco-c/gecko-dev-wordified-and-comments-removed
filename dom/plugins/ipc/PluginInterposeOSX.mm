@@ -1405,10 +1405,10 @@ height
 *
 rowBytes
 ;
-PRBool
+bool
 isTransparent
 =
-PR_TRUE
+true
 ;
 uint8_t
 *
@@ -3228,7 +3228,7 @@ the
 plugin
 process
 .
-PRBool
+bool
 NSCursorInfo
 :
 :

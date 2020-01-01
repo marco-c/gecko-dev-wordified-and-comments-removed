@@ -372,7 +372,7 @@ NS_OK
 NS_IMETHOD
 DidBuildModel
 (
-PRBool
+bool
 aTerminated
 )
 ;
@@ -454,7 +454,7 @@ nsIStreamListener
 >
 mListener
 ;
-PRPackedBool
+bool
 mCheckedForXML
 ;
 protected
@@ -811,7 +811,7 @@ aSourceText
 nsIScriptError
 *
 aError
-PRBool
+bool
 *
 _retval
 )
@@ -859,7 +859,7 @@ txStylesheetSink
 :
 DidBuildModel
 (
-PRBool
+bool
 aTerminated
 )
 {
@@ -1167,7 +1167,7 @@ uri
 )
 )
 ;
-PRBool
+bool
 sniff
 ;
 if
@@ -1297,10 +1297,10 @@ nsresult
 aStatusCode
 )
 {
-PRBool
+bool
 success
 =
-PR_TRUE
+true
 ;
 nsCOMPtr
 <

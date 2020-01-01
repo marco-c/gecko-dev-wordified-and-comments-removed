@@ -195,7 +195,7 @@ TaskbarPreviewButton
 :
 GetDismissOnClick
 (
-PRBool
+bool
 *
 dismiss
 )
@@ -226,7 +226,7 @@ TaskbarPreviewButton
 :
 SetDismissOnClick
 (
-PRBool
+bool
 dismiss
 )
 {
@@ -266,7 +266,7 @@ TaskbarPreviewButton
 :
 GetHasBorder
 (
-PRBool
+bool
 *
 hasBorder
 )
@@ -297,7 +297,7 @@ TaskbarPreviewButton
 :
 SetHasBorder
 (
-PRBool
+bool
 hasBorder
 )
 {
@@ -337,7 +337,7 @@ TaskbarPreviewButton
 :
 GetDisabled
 (
-PRBool
+bool
 *
 disabled
 )
@@ -368,7 +368,7 @@ TaskbarPreviewButton
 :
 SetDisabled
 (
-PRBool
+bool
 disabled
 )
 {
@@ -533,7 +533,7 @@ TaskbarPreviewButton
 :
 GetVisible
 (
-PRBool
+bool
 *
 visible
 )
@@ -564,7 +564,7 @@ TaskbarPreviewButton
 :
 SetVisible
 (
-PRBool
+bool
 visible
 )
 {

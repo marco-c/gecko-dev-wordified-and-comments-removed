@@ -371,7 +371,7 @@ temp
 )
 ;
 }
-PRBool
+bool
 SVGLengthList
 :
 :

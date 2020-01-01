@@ -897,7 +897,7 @@ mode
 ]
 ;
 }
-PRBool
+bool
 nsHtml5AttributeName
 :
 :

@@ -53,9 +53,9 @@ const
 nsAString
 &
 aEventTypeArg
-PRBool
+bool
 aCanBubbleArg
-PRBool
+bool
 aCancelableArg
 double
 aAlpha
@@ -63,7 +63,7 @@ double
 aBeta
 double
 aGamma
-PRBool
+bool
 aAbsolute
 )
 {
@@ -187,7 +187,7 @@ nsDOMDeviceOrientationEvent
 :
 GetAbsolute
 (
-PRBool
+bool
 *
 aAbsolute
 )

@@ -452,7 +452,7 @@ aHeight
 NS_IMETHOD
 SetSelected
 (
-PRBool
+bool
 aSelect
 )
 ;
@@ -632,7 +632,7 @@ nsnull
 )
 const
 ;
-PRBool
+bool
 IsExpandable
 (
 )
@@ -721,7 +721,7 @@ IsDefunct
 const
 ;
 virtual
-PRBool
+bool
 Init
 (
 )

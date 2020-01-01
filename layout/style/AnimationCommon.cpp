@@ -242,7 +242,7 @@ nsRestyleHint
 )
 ;
 }
-PRBool
+bool
 CommonAnimationManager
 :
 :
@@ -275,7 +275,7 @@ nsRestyleHint
 )
 ;
 }
-PRBool
+bool
 CommonAnimationManager
 :
 :
@@ -307,7 +307,7 @@ this
 )
 ;
 }
-PRBool
+bool
 CommonAnimationManager
 :
 :
@@ -326,7 +326,7 @@ Value
 aComputedValue
 )
 {
-PRBool
+bool
 result
 =
 nsStyleAnimation
@@ -518,7 +518,7 @@ eCSSUnit_Null
 #
 ifdef
 DEBUG
-PRBool
+bool
 ok
 =
 #

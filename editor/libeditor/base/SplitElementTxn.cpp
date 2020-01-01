@@ -37,10 +37,10 @@ h
 ifdef
 NS_DEBUG
 static
-PRBool
+bool
 gNoisy
 =
-PR_FALSE
+false
 ;
 #
 endif
@@ -392,7 +392,7 @@ if
 mNewLeftNode
 )
 {
-PRBool
+bool
 bAdjustSelection
 ;
 mEditor

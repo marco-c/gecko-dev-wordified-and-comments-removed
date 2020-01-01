@@ -1391,7 +1391,7 @@ e
 )
 )
 ;
-PRBool
+bool
 more
 ;
 while
@@ -2168,7 +2168,7 @@ ContentChild
 RecvSetOffline
 (
 const
-PRBool
+bool
 &
 offline
 )

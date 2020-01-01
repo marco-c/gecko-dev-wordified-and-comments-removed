@@ -181,7 +181,7 @@ mWrapperPtrBits
 0
 ;
 }
-PRBool
+bool
 PreservingWrapper
 (
 )
@@ -208,7 +208,7 @@ mWrapperPtrBits
 WRAPPER_IS_PROXY
 ;
 }
-PRBool
+bool
 IsProxy
 (
 )
@@ -229,7 +229,7 @@ private
 void
 SetPreservingWrapper
 (
-PRBool
+bool
 aPreserve
 )
 {

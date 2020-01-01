@@ -158,7 +158,7 @@ stmt
 )
 )
 ;
-PRBool
+bool
 hasResult
 ;
 do_check_success
@@ -346,7 +346,7 @@ stmt
 )
 )
 ;
-PRBool
+bool
 hasResult
 ;
 nsresult
@@ -654,7 +654,7 @@ WaitFor
 WRITE_LOCK
 )
 ;
-PRBool
+bool
 hasResult
 ;
 rv
@@ -774,7 +774,7 @@ RunInBackground
 (
 )
 ;
-PRBool
+bool
 hasResult
 ;
 rv
@@ -907,7 +907,7 @@ RunInBackground
 (
 )
 ;
-PRBool
+bool
 hasResult
 ;
 rv

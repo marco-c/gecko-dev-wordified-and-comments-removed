@@ -410,14 +410,14 @@ aValue
 endif
 private
 :
-PRBool
+bool
 ComputeMargin
 (
 nscoord
 aContainingBlockWidth
 )
 ;
-PRBool
+bool
 ComputePadding
 (
 nscoord
@@ -684,10 +684,10 @@ aContainingBlockHeight
 =
 -
 1
-PRBool
+bool
 aInit
 =
-PR_TRUE
+true
 )
 ;
 void
@@ -788,7 +788,7 @@ aContentHeight
 )
 const
 ;
-PRBool
+bool
 ShouldReflowAllKids
 (
 )
@@ -890,7 +890,7 @@ aStatus
 )
 const
 ;
-PRBool
+bool
 WillReflowAgainForClearance
 (
 )

@@ -194,7 +194,7 @@ Destroy
 (
 )
 ;
-PRBool
+bool
 Initialize
 (
 )
@@ -208,7 +208,7 @@ CreateContext
 )
 ;
 }
-PRBool
+bool
 Initialize
 (
 nsRefPtr
@@ -477,10 +477,10 @@ aContainer
 void
 MakeCurrent
 (
-PRBool
+bool
 aForce
 =
-PR_FALSE
+false
 )
 {
 if
@@ -629,9 +629,9 @@ ColorTextureLayerProgram
 *
 GetBasicLayerProgram
 (
-PRBool
+bool
 aOpaque
-PRBool
+bool
 aIsRGB
 )
 {
@@ -1462,7 +1462,7 @@ mQuadVBO
 nsIntRegion
 mClippingRegion
 ;
-PRPackedBool
+bool
 mHasBGRA
 ;
 LayerOGL
@@ -1572,7 +1572,7 @@ CopyProgram
 mFPS
 ;
 static
-PRBool
+bool
 sDrawFPS
 ;
 }
@@ -1701,7 +1701,7 @@ LayerManagerOGL
 *
 mOGLManager
 ;
-PRPackedBool
+bool
 mDestroyed
 ;
 }

@@ -219,13 +219,13 @@ gStringBundle
 =
 0
 ;
-PRBool
+bool
 nsAccessNode
 :
 :
 gIsFormFillEnabled
 =
-PR_FALSE
+false
 ;
 nsApplicationAccessible
 *
@@ -384,7 +384,7 @@ return
 mContent
 ;
 }
-PRBool
+bool
 nsAccessNode
 :
 :
@@ -627,7 +627,7 @@ nsAccessNode
 :
 NotifyA11yInitOrShutdown
 (
-PRBool
+bool
 aIsInit
 )
 {

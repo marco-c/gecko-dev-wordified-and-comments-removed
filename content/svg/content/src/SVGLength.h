@@ -148,7 +148,7 @@ return
 this
 ;
 }
-PRBool
+bool
 operator
 =
 =
@@ -186,7 +186,7 @@ aValue
 )
 const
 ;
-PRBool
+bool
 SetValueFromString
 (
 const
@@ -292,7 +292,7 @@ aAxis
 )
 ;
 }
-PRBool
+bool
 SetFromUserUnitValue
 (
 float
@@ -371,7 +371,7 @@ aAxis
 )
 const
 ;
-PRBool
+bool
 ConvertToUnit
 (
 PRUint32
@@ -429,7 +429,7 @@ return
 PR_FALSE
 ;
 }
-PRBool
+bool
 IsPercentage
 (
 )
@@ -446,7 +446,7 @@ SVG_LENGTHTYPE_PERCENTAGE
 ;
 }
 static
-PRBool
+bool
 IsValidUnitType
 (
 PRUint16
@@ -476,7 +476,7 @@ private
 #
 ifdef
 DEBUG
-PRBool
+bool
 IsValid
 (
 )

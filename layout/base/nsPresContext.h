@@ -562,13 +562,13 @@ GetRootPresContext
 )
 ;
 virtual
-PRBool
+bool
 IsRoot
 (
 )
 {
 return
-PR_FALSE
+false
 ;
 }
 nsIDocument
@@ -707,7 +707,7 @@ aExtraHint
 void
 MediaFeatureValuesChanged
 (
-PRBool
+bool
 aCallerWillRebuildStyleData
 )
 ;
@@ -923,7 +923,7 @@ aFontID
 )
 const
 ;
-PRBool
+bool
 GetCachedBoolPref
 (
 nsPresContext_CachedBoolPrefType
@@ -1121,7 +1121,7 @@ mBodyTextColor
 aColor
 ;
 }
-PRBool
+bool
 GetUseFocusColors
 (
 )
@@ -1141,7 +1141,7 @@ return
 mFocusRingWidth
 ;
 }
-PRBool
+bool
 GetFocusRingOnAnything
 (
 )
@@ -1373,7 +1373,7 @@ PostMediaFeatureValuesChangedEvent
 ;
 }
 }
-PRBool
+bool
 IsPaginated
 (
 )
@@ -1389,11 +1389,11 @@ void
 )
 SetPaginatedScrolling
 (
-PRBool
+bool
 aResult
 )
 ;
-PRBool
+bool
 HasPaginatedScrolling
 (
 )
@@ -1424,7 +1424,7 @@ mPageSize
 aSize
 ;
 }
-PRBool
+bool
 IsRootPaginatedDocument
 (
 )
@@ -1436,7 +1436,7 @@ mIsRootPaginatedDocument
 void
 SetIsRootPaginatedDocument
 (
-PRBool
+bool
 aIsRootPaginatedDocument
 )
 {
@@ -2131,7 +2131,7 @@ ScrollbarStyles
 )
 {
 }
-PRBool
+bool
 operator
 =
 =
@@ -2160,7 +2160,7 @@ mVertical
 mVertical
 ;
 }
-PRBool
+bool
 operator
 !
 =
@@ -2222,7 +2222,7 @@ return
 mViewportStyleOverflow
 ;
 }
-PRBool
+bool
 GetBackgroundImageDraw
 (
 )
@@ -2235,7 +2235,7 @@ mDrawImageBackground
 void
 SetBackgroundImageDraw
 (
-PRBool
+bool
 aCanDraw
 )
 {
@@ -2263,7 +2263,7 @@ mDrawImageBackground
 aCanDraw
 ;
 }
-PRBool
+bool
 GetBackgroundColorDraw
 (
 )
@@ -2276,7 +2276,7 @@ mDrawColorBackground
 void
 SetBackgroundColorDraw
 (
-PRBool
+bool
 aCanDraw
 )
 {
@@ -2308,7 +2308,7 @@ aCanDraw
 ifdef
 IBMBIDI
 virtual
-PRBool
+bool
 BidiEnabledExternal
 (
 )
@@ -2320,7 +2320,7 @@ BidiEnabledInternal
 )
 ;
 }
-PRBool
+bool
 BidiEnabledInternal
 (
 )
@@ -2340,7 +2340,7 @@ GetBidiEnabled
 #
 ifdef
 _IMPL_NS_LAYOUT
-PRBool
+bool
 BidiEnabled
 (
 )
@@ -2354,7 +2354,7 @@ BidiEnabledInternal
 }
 #
 else
-PRBool
+bool
 BidiEnabled
 (
 )
@@ -2380,7 +2380,7 @@ const
 void
 SetVisualMode
 (
-PRBool
+bool
 aIsVisual
 )
 {
@@ -2408,7 +2408,7 @@ mIsVisual
 aIsVisual
 ;
 }
-PRBool
+bool
 IsVisualMode
 (
 )
@@ -2426,10 +2426,10 @@ SetBidi
 (
 PRUint32
 aBidiOptions
-PRBool
+bool
 aForceRestyle
 =
-PR_FALSE
+false
 )
 ;
 NS_HIDDEN_
@@ -2446,7 +2446,7 @@ endif
 void
 SetIsRenderingOnlySelection
 (
-PRBool
+bool
 aResult
 )
 {
@@ -2474,7 +2474,7 @@ mIsRenderingOnlySelection
 aResult
 ;
 }
-PRBool
+bool
 IsRenderingOnlySelection
 (
 )
@@ -2486,7 +2486,7 @@ mIsRenderingOnlySelection
 }
 NS_HIDDEN_
 (
-PRBool
+bool
 )
 IsTopLevelWindowInactive
 (
@@ -2551,7 +2551,7 @@ mPropertyTable
 }
 NS_HIDDEN_
 (
-PRBool
+bool
 )
 EnsureVisible
 (
@@ -2588,7 +2588,7 @@ return
 mBorderWidthTable
 ;
 }
-PRBool
+bool
 IsDynamic
 (
 )
@@ -2608,7 +2608,7 @@ eContext_Galley
 )
 ;
 }
-PRBool
+bool
 IsScreen
 (
 )
@@ -2637,7 +2637,7 @@ eContext_PrintPreview
 )
 ;
 }
-PRBool
+bool
 IsChrome
 (
 )
@@ -2697,7 +2697,7 @@ InvalidateIsChromeCacheExternal
 #
 endif
 virtual
-PRBool
+bool
 HasAuthorSpecifiedRules
 (
 nsIFrame
@@ -2708,7 +2708,7 @@ ruleTypeMask
 )
 const
 ;
-PRBool
+bool
 UseDocumentColors
 (
 )
@@ -2726,7 +2726,7 @@ IsChrome
 )
 ;
 }
-PRBool
+bool
 SupressingResizeReflow
 (
 )
@@ -2801,7 +2801,7 @@ UserFontSetUpdated
 (
 )
 ;
-PRBool
+bool
 EnsureSafeToHandOutCSSRules
 (
 )
@@ -2827,7 +2827,7 @@ FireDOMPaintEvent
 (
 )
 ;
-PRBool
+bool
 IsDOMPaintEventPending
 (
 )
@@ -2857,7 +2857,7 @@ Clear
 )
 ;
 }
-PRBool
+bool
 IsProcessingRestyles
 (
 )
@@ -2870,7 +2870,7 @@ mProcessingRestyles
 void
 SetProcessingRestyles
 (
-PRBool
+bool
 aProcessing
 )
 {
@@ -2879,7 +2879,7 @@ NS_ASSERTION
 aProcessing
 !
 =
-PRBool
+bool
 (
 mProcessingRestyles
 )
@@ -2895,7 +2895,7 @@ mProcessingRestyles
 aProcessing
 ;
 }
-PRBool
+bool
 IsProcessingAnimationStyleChange
 (
 )
@@ -2908,7 +2908,7 @@ mProcessingAnimationStyleChange
 void
 SetProcessingAnimationStyleChange
 (
-PRBool
+bool
 aProcessing
 )
 {
@@ -2917,7 +2917,7 @@ NS_ASSERTION
 aProcessing
 !
 =
-PRBool
+bool
 (
 mProcessingAnimationStyleChange
 )
@@ -2936,7 +2936,7 @@ aProcessing
 void
 ReflowStarted
 (
-PRBool
+bool
 aInterruptible
 )
 ;
@@ -3020,15 +3020,15 @@ nsPresContext
 *
 mCtx
 ;
-PRBool
+bool
 mInterruptsEnabled
 ;
-PRBool
+bool
 mHasPendingInterrupt
 ;
 }
 ;
-PRBool
+bool
 CheckForInterrupt
 (
 nsIFrame
@@ -3036,7 +3036,7 @@ nsIFrame
 aFrame
 )
 ;
-PRBool
+bool
 HasPendingInterrupt
 (
 )
@@ -3137,7 +3137,7 @@ DestroyImageLoaders
 (
 )
 ;
-PRBool
+bool
 GetContainsUpdatePluginGeometryFrame
 (
 )
@@ -3149,7 +3149,7 @@ mContainsUpdatePluginGeometryFrame
 void
 SetContainsUpdatePluginGeometryFrame
 (
-PRBool
+bool
 aValue
 )
 {
@@ -3158,7 +3158,7 @@ mContainsUpdatePluginGeometryFrame
 aValue
 ;
 }
-PRBool
+bool
 MayHaveFixedBackgroundFrames
 (
 )
@@ -3199,7 +3199,7 @@ return
 result
 ;
 }
-PRBool
+bool
 IsRootContentDocument
 (
 )
@@ -3357,7 +3357,7 @@ AppUnitsPerDevPixelChanged
 (
 )
 ;
-PRBool
+bool
 MayHavePaintEventListener
 (
 )
@@ -3376,17 +3376,17 @@ FlushUserFontSet
 )
 ;
 }
-PRBool
+bool
 HavePendingInputEvent
 (
 )
 ;
-PRBool
+bool
 HasCachedStyleData
 (
 )
 ;
-PRBool
+bool
 IsChromeSlow
 (
 )
@@ -3783,7 +3783,7 @@ mIsChrome
 #
 ifdef
 DEBUG
-PRBool
+bool
 mInitialized
 ;
 #
@@ -3940,13 +3940,13 @@ DidApplyPluginGeometryUpdates
 )
 ;
 virtual
-PRBool
+bool
 IsRoot
 (
 )
 {
 return
-PR_TRUE
+true
 ;
 }
 void
@@ -4021,7 +4021,7 @@ mUpdatePluginGeometryForFrame
 PRUint32
 mDOMGeneration
 ;
-PRPackedBool
+bool
 mNeedsToUpdatePluginGeometry
 ;
 }

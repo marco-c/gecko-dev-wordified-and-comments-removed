@@ -1004,7 +1004,7 @@ do_check_true
 notifiedURI
 )
 ;
-PRBool
+bool
 isOurURI
 ;
 nsresult
@@ -1165,7 +1165,7 @@ new_test_uri
 )
 )
 ;
-PRBool
+bool
 urisEqual
 ;
 nsresult

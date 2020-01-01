@@ -149,13 +149,13 @@ mExpiration
 PRIntervalTime
 mLastUsed
 ;
-PRPackedBool
+bool
 mExpired
 ;
 }
 ;
 static
-PRBool
+bool
 error
 ;
 static
@@ -177,7 +177,7 @@ iterations
 2
 ;
 static
-PRBool
+bool
 logging
 =
 0
@@ -815,7 +815,7 @@ PRUint32
 K
 >
 static
-PRBool
+bool
 test_random
 (
 )
@@ -939,7 +939,7 @@ error
 ;
 }
 static
-PRBool
+bool
 test_random3
 (
 )
@@ -954,7 +954,7 @@ test_random
 ;
 }
 static
-PRBool
+bool
 test_random4
 (
 )
@@ -969,7 +969,7 @@ test_random
 ;
 }
 static
-PRBool
+bool
 test_random8
 (
 )
@@ -984,7 +984,7 @@ test_random
 ;
 }
 typedef
-PRBool
+bool
 (
 *
 TestFunc

@@ -124,7 +124,7 @@ const
 nsACString
 &
 aPublicKey
-PRBool
+bool
 *
 _retval
 )

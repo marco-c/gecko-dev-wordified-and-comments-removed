@@ -260,7 +260,7 @@ aTopContent
 )
 ;
 static
-PRBool
+bool
 HasDefinedARIAToken
 (
 nsIContent
@@ -471,7 +471,7 @@ aNode
 )
 ;
 static
-PRBool
+bool
 IsARIASelected
 (
 nsAccessible
@@ -596,7 +596,7 @@ aAtom
 )
 ;
 static
-PRBool
+bool
 GetLiveAttrValue
 (
 PRUint32
@@ -610,7 +610,7 @@ aValue
 ifdef
 DEBUG_A11Y
 static
-PRBool
+bool
 IsTextInterfaceSupportCorrect
 (
 nsAccessible
@@ -621,7 +621,7 @@ aAccessible
 #
 endif
 static
-PRBool
+bool
 IsText
 (
 nsIAccessible
@@ -666,7 +666,7 @@ aAccessible
 )
 ;
 static
-PRBool
+bool
 IsEmbeddedObject
 (
 nsIAccessible
@@ -786,7 +786,7 @@ aState64
 ;
 }
 static
-PRBool
+bool
 MustPrune
 (
 nsIAccessible

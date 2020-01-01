@@ -88,7 +88,7 @@ aProperty
 nsIRDFNode
 *
 aTarget
-PRBool
+bool
 aTruthValue
 nsIRDFResource
 *
@@ -107,7 +107,7 @@ aProperty
 nsIRDFNode
 *
 aTarget
-PRBool
+bool
 aTruthValue
 nsISimpleEnumerator
 *
@@ -126,7 +126,7 @@ aSource
 nsIRDFResource
 *
 aProperty
-PRBool
+bool
 aTruthValue
 nsIRDFNode
 *
@@ -145,7 +145,7 @@ aSource
 nsIRDFResource
 *
 aProperty
-PRBool
+bool
 aTruthValue
 nsISimpleEnumerator
 *
@@ -167,7 +167,7 @@ aProperty
 nsIRDFNode
 *
 aTarget
-PRBool
+bool
 aTruthValue
 )
 =
@@ -201,9 +201,9 @@ aProperty
 nsIRDFNode
 *
 aTarget
-PRBool
+bool
 aTruthValue
-PRBool
+bool
 *
 _retval
 )
@@ -302,7 +302,7 @@ aCommand
 nsISupportsArray
 *
 aArguments
-PRBool
+bool
 *
 _retval
 )

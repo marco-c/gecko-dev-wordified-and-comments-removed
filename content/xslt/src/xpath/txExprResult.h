@@ -191,7 +191,7 @@ stringValuePointer
 ;
 \
 virtual
-PRBool
+bool
 booleanValue
 (
 )

@@ -602,7 +602,7 @@ aFilename
 ;
 protected
 :
-PRBool
+bool
 IsFlavourPresent
 (
 const
@@ -730,7 +730,7 @@ aFE
 STGMEDIUM
 &
 aSTG
-PRBool
+bool
 aIsUnicode
 )
 ;
@@ -768,7 +768,7 @@ aFE
 STGMEDIUM
 &
 aSTG
-PRBool
+bool
 aIsUnicode
 )
 ;
@@ -1240,7 +1240,7 @@ nsITimer
 >
 mTimer
 ;
-PRBool
+bool
 LookupArbitraryFormat
 (
 FORMATETC
@@ -1253,7 +1253,7 @@ BOOL
 aAddorUpdate
 )
 ;
-PRBool
+bool
 CopyMediumData
 (
 STGMEDIUM

@@ -96,10 +96,10 @@ XPCOMFunctions
 xpcomFunctions
 ;
 static
-PRBool
+bool
 do_preload
 =
-PR_FALSE
+false
 ;
 extern
 "
@@ -696,7 +696,7 @@ const
 nsAString
 &
 path
-PRBool
+bool
 followLinks
 nsILocalFile
 *
@@ -735,7 +735,7 @@ const
 nsACString
 &
 path
-PRBool
+bool
 followLinks
 nsILocalFile
 *
@@ -937,7 +937,7 @@ PRUnichar
 *
 *
 aBuf
-PRBool
+bool
 *
 aTerm
 )
@@ -1174,7 +1174,7 @@ nsAString
 &
 aStr
 const
-PRBool
+bool
 aIsVoid
 )
 {
@@ -1195,7 +1195,7 @@ aIsVoid
 }
 XPCOM_API
 (
-PRBool
+bool
 )
 NS_StringGetIsVoid
 (
@@ -1335,7 +1335,7 @@ char
 *
 *
 aBuf
-PRBool
+bool
 *
 aTerm
 )
@@ -1572,7 +1572,7 @@ nsACString
 &
 aStr
 const
-PRBool
+bool
 aIsVoid
 )
 {
@@ -1593,7 +1593,7 @@ aIsVoid
 }
 XPCOM_API
 (
-PRBool
+bool
 )
 NS_CStringGetIsVoid
 (
@@ -2169,7 +2169,7 @@ params
 }
 XPCOM_API
 (
-PRBool
+bool
 )
 NS_CycleCollectorSuspect
 (
@@ -2199,7 +2199,7 @@ obj
 }
 XPCOM_API
 (
-PRBool
+bool
 )
 NS_CycleCollectorForget
 (
@@ -2260,7 +2260,7 @@ obj
 }
 XPCOM_API
 (
-PRBool
+bool
 )
 NS_CycleCollectorForget2
 (

@@ -100,7 +100,7 @@ define
 kNameSpaceID_Wildcard
 PR_INT32_MIN
 typedef
-PRBool
+bool
 (
 *
 nsContentListMatchFunc
@@ -261,7 +261,7 @@ IndexOf
 nsIContent
 *
 aContent
-PRBool
+bool
 aDoFlush
 )
 ;
@@ -490,10 +490,10 @@ aHTMLMatchAtom
 nsIAtom
 *
 aXMLMatchAtom
-PRBool
+bool
 aDeep
 =
-PR_TRUE
+true
 )
 ;
 nsContentList
@@ -508,10 +508,10 @@ aDestroyFunc
 void
 *
 aData
-PRBool
+bool
 aDeep
 =
-PR_TRUE
+true
 nsIAtom
 *
 aMatchAtom
@@ -521,10 +521,10 @@ PRInt32
 aMatchNameSpaceId
 =
 kNameSpaceID_None
-PRBool
+bool
 aFuncMayDependOnAttr
 =
-PR_TRUE
+true
 )
 ;
 virtual
@@ -541,7 +541,7 @@ IndexOf
 nsIContent
 *
 aContent
-PRBool
+bool
 aDoFlush
 )
 ;
@@ -595,7 +595,7 @@ PRUint32
 )
 Length
 (
-PRBool
+bool
 aDoFlush
 )
 ;
@@ -608,7 +608,7 @@ Item
 (
 PRUint32
 aIndex
-PRBool
+bool
 aDoFlush
 )
 ;
@@ -623,7 +623,7 @@ const
 nsAString
 &
 aName
-PRBool
+bool
 aDoFlush
 )
 ;
@@ -698,7 +698,7 @@ list
 )
 ;
 }
-PRBool
+bool
 MatchesKey
 (
 const
@@ -759,7 +759,7 @@ mMatchNameSpaceId
 }
 protected
 :
-PRBool
+bool
 Match
 (
 mozilla
@@ -773,7 +773,7 @@ Element
 aElement
 )
 ;
-PRBool
+bool
 MatchSelf
 (
 nsIContent
@@ -788,7 +788,7 @@ PRUint32
 aNeededLength
 )
 ;
-PRBool
+bool
 MayContainRelevantNodes
 (
 nsINode
@@ -815,7 +815,7 @@ inline
 void
 BringSelfUpToDate
 (
-PRBool
+bool
 aDoFlush
 )
 ;
@@ -1080,7 +1080,7 @@ nsCacheableFuncStringContentList
 (
 )
 ;
-PRBool
+bool
 Equals
 (
 const
@@ -1117,7 +1117,7 @@ aKey
 mString
 ;
 }
-PRBool
+bool
 AllocatedData
 (
 )

@@ -77,7 +77,7 @@ const
 PRUnichar
 *
 showAgainName
-PRBool
+bool
 aAsync
 )
 ;
@@ -99,7 +99,7 @@ const
 PRUnichar
 *
 showAgainName
-PRBool
+bool
 *
 _result
 )

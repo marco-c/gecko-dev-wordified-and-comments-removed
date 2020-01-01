@@ -274,7 +274,7 @@ virtual
 void
 SetDelayedConversion
 (
-PRBool
+bool
 aDelayed
 )
 {
@@ -375,7 +375,7 @@ mData
 PRUint32
 mBufferSize
 ;
-PRPackedBool
+bool
 mDelayedConversion
 ;
 }
@@ -800,7 +800,7 @@ virtual
 void
 SetDelayedConversion
 (
-PRBool
+bool
 aDelayed
 )
 {
@@ -846,7 +846,7 @@ GetCurrentSize
 )
 ;
 virtual
-PRBool
+bool
 SetLayerManager
 (
 LayerManager
@@ -906,13 +906,13 @@ mScaleHint
 gfxImageFormat
 mOffscreenFormat
 ;
-PRPackedBool
+bool
 mDelayed
 ;
 }
 ;
 static
-PRBool
+bool
 FormatInList
 (
 const
@@ -1302,7 +1302,7 @@ mScaleHint
 aScaleHint
 ;
 }
-PRBool
+bool
 BasicImageContainer
 :
 :

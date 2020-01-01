@@ -144,7 +144,7 @@ ntlm
 "
 ;
 static
-PRBool
+bool
 MatchesBaseURI
 (
 const
@@ -374,7 +374,7 @@ PR_FALSE
 ;
 }
 static
-PRBool
+bool
 TestPref
 (
 nsIURI
@@ -603,7 +603,7 @@ PR_FALSE
 ;
 }
 static
-PRBool
+bool
 ForceGenericNTLM
 (
 )
@@ -627,10 +627,10 @@ prefs
 return
 PR_FALSE
 ;
-PRBool
+bool
 flag
 =
-PR_FALSE
+false
 ;
 if
 (
@@ -677,13 +677,13 @@ flag
 ;
 }
 static
-PRBool
+bool
 CanUseDefaultCredentials
 (
 nsIHttpAuthenticableChannel
 *
 channel
-PRBool
+bool
 isProxyAuth
 )
 {
@@ -711,7 +711,7 @@ if
 isProxyAuth
 )
 {
-PRBool
+bool
 val
 ;
 if
@@ -773,7 +773,7 @@ uri
 )
 )
 ;
-PRBool
+bool
 isTrustedHost
 =
 (
@@ -843,7 +843,7 @@ const
 char
 *
 challenge
-PRBool
+bool
 isProxyAuth
 nsISupports
 *
@@ -853,7 +853,7 @@ nsISupports
 *
 *
 continuationState
-PRBool
+bool
 *
 identityInvalid
 )
@@ -911,7 +911,7 @@ nsISupports
 >
 module
 ;
-PRBool
+bool
 forceGeneric
 =
 ForceGenericNTLM
@@ -1152,7 +1152,7 @@ const
 char
 *
 challenge
-PRBool
+bool
 isProxyAuth
 const
 PRUnichar

@@ -121,7 +121,7 @@ rv
 )
 )
 {
-PRBool
+bool
 permission
 ;
 rv
@@ -342,10 +342,10 @@ if
 prefBranch
 )
 {
-PRBool
+bool
 permission
 =
-PR_TRUE
+true
 ;
 prefBranch
 -

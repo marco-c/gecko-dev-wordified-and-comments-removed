@@ -279,14 +279,14 @@ piValues
 PFNWGLGETPIXELFORMATATTRIBIVPROC
 fGetPixelFormatAttribiv
 ;
-PRBool
+bool
 EnsureInitialized
 (
 )
 ;
 private
 :
-PRBool
+bool
 mInitialized
 ;
 PRLibrary

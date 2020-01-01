@@ -42,7 +42,7 @@ namespace
 gfx
 ;
 inline
-PRBool
+bool
 CheckSaneSubrectSize
 (
 PRInt32
@@ -147,9 +147,9 @@ aCanvasElement
 nsIPrincipal
 *
 aPrincipal
-PRBool
+bool
 forceWriteOnly
-PRBool
+bool
 CORSUsed
 )
 ;
@@ -267,7 +267,7 @@ _f
 return
 PR_FALSE
 inline
-PRBool
+bool
 FloatValidate
 (
 double
@@ -284,7 +284,7 @@ PR_TRUE
 ;
 }
 inline
-PRBool
+bool
 FloatValidate
 (
 double
@@ -308,7 +308,7 @@ PR_TRUE
 ;
 }
 inline
-PRBool
+bool
 FloatValidate
 (
 double
@@ -339,7 +339,7 @@ PR_TRUE
 ;
 }
 inline
-PRBool
+bool
 FloatValidate
 (
 double
@@ -377,7 +377,7 @@ PR_TRUE
 ;
 }
 inline
-PRBool
+bool
 FloatValidate
 (
 double
@@ -422,7 +422,7 @@ PR_TRUE
 ;
 }
 inline
-PRBool
+bool
 FloatValidate
 (
 double

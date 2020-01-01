@@ -53,7 +53,7 @@ nsHttpRequestHead
 *
 nsHttpResponseHead
 *
-PRBool
+bool
 *
 reset
 )
@@ -129,7 +129,7 @@ nsISupports
 0
 ;
 virtual
-PRBool
+bool
 IsPersistent
 (
 )
@@ -137,7 +137,7 @@ IsPersistent
 0
 ;
 virtual
-PRBool
+bool
 IsReused
 (
 )
@@ -159,7 +159,7 @@ length
 0
 ;
 virtual
-PRBool
+bool
 LastTransactionExpectedNoContent
 (
 )
@@ -170,7 +170,7 @@ virtual
 void
 SetLastTransactionExpectedNoContent
 (
-PRBool
+bool
 )
 =
 0
@@ -199,7 +199,7 @@ nsHttpRequestHead
 *
 nsHttpResponseHead
 *
-PRBool
+bool
 *
 reset
 )
@@ -261,13 +261,13 @@ nsISupports
 )
 ;
 \
-PRBool
+bool
 IsPersistent
 (
 )
 ;
 \
-PRBool
+bool
 IsReused
 (
 )
@@ -283,7 +283,7 @@ PRUint32
 )
 ;
 \
-PRBool
+bool
 LastTransactionExpectedNoContent
 (
 )
@@ -292,7 +292,7 @@ LastTransactionExpectedNoContent
 void
 SetLastTransactionExpectedNoContent
 (
-PRBool
+bool
 )
 ;
 \

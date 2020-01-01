@@ -596,7 +596,7 @@ char
 *
 OnOrOff
 (
-PRBool
+bool
 aBool
 )
 {
@@ -618,7 +618,7 @@ char
 *
 TrueOrFalse
 (
-PRBool
+bool
 aBool
 )
 {
@@ -2082,7 +2082,7 @@ return
 gCurrentKeyboardLayout
 ;
 }
-PRBool
+bool
 TISInputSourceWrapper
 :
 :
@@ -2699,7 +2699,7 @@ InitByLayoutID
 (
 SInt32
 aLayoutID
-PRBool
+bool
 aOverrideKeyboard
 )
 {
@@ -3021,7 +3021,7 @@ return
 mUCKeyboardLayout
 ;
 }
-PRBool
+bool
 TISInputSourceWrapper
 :
 :
@@ -3058,7 +3058,7 @@ ret
 )
 ;
 }
-PRBool
+bool
 TISInputSourceWrapper
 :
 :
@@ -3095,7 +3095,7 @@ aStr
 nsnull
 ;
 }
-PRBool
+bool
 TISInputSourceWrapper
 :
 :
@@ -3141,7 +3141,7 @@ IsEmpty
 )
 ;
 }
-PRBool
+bool
 TISInputSourceWrapper
 :
 :
@@ -3172,7 +3172,7 @@ IsASCIICapable
 )
 ;
 }
-PRBool
+bool
 TISInputSourceWrapper
 :
 :
@@ -3214,7 +3214,7 @@ str
 kCFCompareEqualTo
 ;
 }
-PRBool
+bool
 TISInputSourceWrapper
 :
 :
@@ -3254,7 +3254,7 @@ aLanguageList
 nsnull
 ;
 }
-PRBool
+bool
 TISInputSourceWrapper
 :
 :
@@ -3321,7 +3321,7 @@ aPrimaryLanguage
 nsnull
 ;
 }
-PRBool
+bool
 TISInputSourceWrapper
 :
 :
@@ -3373,7 +3373,7 @@ IsEmpty
 )
 ;
 }
-PRBool
+bool
 TISInputSourceWrapper
 :
 :
@@ -3408,7 +3408,7 @@ layout
 nsAutoString
 str
 ;
-PRBool
+bool
 ret
 =
 TranslateToString
@@ -3473,7 +3473,7 @@ mIsRTL
 0
 ;
 }
-PRBool
+bool
 TISInputSourceWrapper
 :
 :
@@ -4170,7 +4170,7 @@ US
 "
 )
 ;
-PRBool
+bool
 isRomanKeyboardLayout
 =
 IsASCIICapable
@@ -4543,7 +4543,7 @@ Dvorak
 -
 QWERTY
 .
-PRBool
+bool
 isCmdSwitchLayout
 =
 uncmdedChar
@@ -4575,7 +4575,7 @@ e
 Dvorak
 -
 QWERTY
-PRBool
+bool
 isDvorakQWERTY
 =
 isCmdSwitchLayout
@@ -4950,7 +4950,7 @@ an
 alternative
 char
 .
-PRBool
+bool
 hasCmdShiftOnlyChar
 =
 cmdedChar
@@ -6217,7 +6217,7 @@ uninstallTextInputHandler
 ]
 ;
 }
-PRBool
+bool
 TextInputHandler
 :
 :
@@ -6687,7 +6687,7 @@ isMeta
 =
 PR_FALSE
 ;
-PRBool
+bool
 cmEventHandled
 =
 DispatchEvent
@@ -6964,17 +6964,17 @@ caching
 IsIMEComposing
 first
 .
-PRBool
+bool
 wasComposing
 =
 IsIMEComposing
 (
 )
 ;
-PRBool
+bool
 interpretKeyEventsCalled
 =
-PR_FALSE
+false
 ;
 if
 (
@@ -7994,7 +7994,7 @@ modifierBit
 )
 )
 {
-PRBool
+bool
 isKeyDown
 =
 (
@@ -8076,7 +8076,7 @@ DispatchKeyEventForFlagsChanged
 NSEvent
 *
 aNativeEvent
-PRBool
+bool
 aDispatchKeyDown
 )
 {
@@ -8883,7 +8883,7 @@ of
 keypress
 event
 .
-PRBool
+bool
 keyPressHandled
 =
 DispatchEvent
@@ -8935,7 +8935,7 @@ PR_TRUE
 NS_OBJC_END_TRY_ABORT_BLOCK
 ;
 }
-PRBool
+bool
 TextInputHandler
 :
 :
@@ -9185,13 +9185,13 @@ methods
 *
 *
 /
-PRBool
+bool
 IMEInputHandler
 :
 :
 sStaticMembersInitialized
 =
-PR_FALSE
+false
 ;
 CFStringRef
 IMEInputHandler
@@ -12102,7 +12102,7 @@ mRangeType
 NS_OBJC_END_TRY_ABORT_BLOCK
 ;
 }
-PRBool
+bool
 IMEInputHandler
 :
 :
@@ -12118,7 +12118,7 @@ aAttrString
 NSRange
 &
 aSelectedRange
-PRBool
+bool
 aDoCommit
 )
 {
@@ -13124,7 +13124,7 @@ string
 ]
 )
 ;
-PRBool
+bool
 doCommit
 =
 str
@@ -13671,7 +13671,7 @@ result
 NS_OBJC_END_TRY_ABORT_BLOCK_NIL
 ;
 }
-PRBool
+bool
 IMEInputHandler
 :
 :
@@ -14122,7 +14122,7 @@ this
 nsIntRect
 r
 ;
-PRBool
+bool
 useCaretRect
 =
 (
@@ -14872,7 +14872,7 @@ IMEInputHandler
 :
 OnFocusChangeInGecko
 (
-PRBool
+bool
 aFocus
 )
 {
@@ -15078,7 +15078,7 @@ ResetTimer
 )
 ;
 }
-PRBool
+bool
 IMEInputHandler
 :
 :
@@ -16018,7 +16018,7 @@ SendCommittedText
 NS_OBJC_END_TRY_ABORT_BLOCK
 ;
 }
-PRBool
+bool
 IMEInputHandler
 :
 :
@@ -16090,7 +16090,7 @@ PR_FALSE
 )
 ;
 }
-PRBool
+bool
 IMEInputHandler
 :
 :
@@ -16121,7 +16121,7 @@ IMEInputHandler
 :
 SetASCIICapableOnly
 (
-PRBool
+bool
 aASCIICapableOnly
 )
 {
@@ -16153,7 +16153,7 @@ IMEInputHandler
 :
 EnableIME
 (
-PRBool
+bool
 aEnableIME
 )
 {
@@ -16181,7 +16181,7 @@ IMEInputHandler
 :
 SetIMEOpenState
 (
-PRBool
+bool
 aOpenIME
 )
 {
@@ -16336,10 +16336,10 @@ time
 )
 .
 static
-PRBool
+bool
 sIsPrefferredIMESearched
 =
-PR_FALSE
+false
 ;
 if
 (
@@ -16477,10 +16477,10 @@ locale
 continue
 ;
 }
-PRBool
+bool
 changed
 =
-PR_FALSE
+false
 ;
 CFStringRef
 lang
@@ -17090,7 +17090,7 @@ NP_NO_CARBON
 static
 *
 /
-PRBool
+bool
 PluginTextInputHandler
 :
 :
@@ -17231,7 +17231,7 @@ aCocoaKeyEvent
 EventRecord
 &
 aCarbonKeyEvent
-PRBool
+bool
 aMakeKeyDownEventIfNSFlagsChanged
 )
 {
@@ -19010,10 +19010,10 @@ else
 #
 ifdef
 NP_NO_CARBON
-PRBool
+bool
 wasInComposition
 =
-PR_FALSE
+false
 ;
 if
 (
@@ -19801,7 +19801,7 @@ endif
 ifndef
 NP_NO_CARBON
 }
-PRBool
+bool
 PluginTextInputHandler
 :
 :
@@ -19842,7 +19842,7 @@ ifdef
 NP_NO_CARBON
 else
 }
-PRBool
+bool
 PluginTextInputHandler
 :
 :
@@ -20920,7 +20920,7 @@ FinalizeCurrentKeyboardLayout
 ;
 }
 }
-PRBool
+bool
 TextInputHandlerBase
 :
 :
@@ -20980,7 +20980,7 @@ return
 PR_TRUE
 ;
 }
-PRBool
+bool
 TextInputHandlerBase
 :
 :
@@ -21308,7 +21308,7 @@ window
 windowNumber
 ]
 ;
-PRBool
+bool
 sendFlagsChangedEvent
 =
 IsModifierKey
@@ -21485,7 +21485,7 @@ NS_OBJC_END_TRY_ABORT_BLOCK_NSRESULT
 static
 *
 /
-PRBool
+bool
 TextInputHandlerBase
 :
 :
@@ -22334,7 +22334,7 @@ NS_OBJC_END_TRY_ABORT_BLOCK_RETURN
 static
 *
 /
-PRBool
+bool
 TextInputHandlerBase
 :
 :
@@ -22523,7 +22523,7 @@ PR_FALSE
 static
 *
 /
-PRBool
+bool
 TextInputHandlerBase
 :
 :
@@ -22637,7 +22637,7 @@ isAlt
 static
 *
 /
-PRBool
+bool
 TextInputHandlerBase
 :
 :

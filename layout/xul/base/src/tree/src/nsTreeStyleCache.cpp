@@ -351,7 +351,7 @@ return
 result
 ;
 }
-PRBool
+bool
 nsTreeStyleCache
 :
 :
@@ -388,7 +388,7 @@ return
 PR_TRUE
 ;
 }
-PRBool
+bool
 nsTreeStyleCache
 :
 :

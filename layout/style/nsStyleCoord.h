@@ -112,7 +112,7 @@ mLength
 float
 mPercent
 ;
-PRPackedBool
+bool
 mHasPercent
 ;
 bool
@@ -246,7 +246,7 @@ nsStyleCoord
 aCopy
 )
 ;
-PRBool
+bool
 operator
 =
 =
@@ -258,7 +258,7 @@ aOther
 )
 const
 ;
-PRBool
+bool
 operator
 !
 =
@@ -293,7 +293,7 @@ return
 mUnit
 ;
 }
-PRBool
+bool
 IsAngleValue
 (
 )
@@ -312,7 +312,7 @@ mUnit
 eStyleUnit_Radian
 ;
 }
-PRBool
+bool
 IsCalcUnit
 (
 )
@@ -325,7 +325,7 @@ eStyleUnit_Calc
 mUnit
 ;
 }
-PRBool
+bool
 IsPointerValue
 (
 )
@@ -337,7 +337,7 @@ IsCalcUnit
 )
 ;
 }
-PRBool
+bool
 IsCoordPercentCalcUnit
 (
 )
@@ -361,7 +361,7 @@ IsCalcUnit
 )
 ;
 }
-PRBool
+bool
 CalcHasPercent
 (
 )
@@ -376,7 +376,7 @@ GetCalcValue
 mHasPercent
 ;
 }
-PRBool
+bool
 HasPercent
 (
 )
@@ -401,7 +401,7 @@ CalcHasPercent
 )
 ;
 }
-PRBool
+bool
 ConvertsToLength
 (
 )
@@ -565,7 +565,7 @@ nsStyleSides
 (
 )
 ;
-PRBool
+bool
 operator
 =
 =
@@ -577,7 +577,7 @@ aOther
 )
 const
 ;
-PRBool
+bool
 operator
 !
 =
@@ -763,7 +763,7 @@ nsStyleCorners
 (
 )
 ;
-PRBool
+bool
 operator
 =
 =
@@ -775,7 +775,7 @@ aOther
 )
 const
 ;
-PRBool
+bool
 operator
 !
 =
@@ -974,7 +974,7 @@ nsStyleUnion
 ;
 }
 inline
-PRBool
+bool
 nsStyleCoord
 :
 :
@@ -1330,7 +1330,7 @@ nsStyleUnion
 ;
 }
 inline
-PRBool
+bool
 nsStyleSides
 :
 :
@@ -1681,7 +1681,7 @@ aCoord
 ;
 }
 inline
-PRBool
+bool
 nsStyleCorners
 :
 :

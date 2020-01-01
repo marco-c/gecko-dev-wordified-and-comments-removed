@@ -295,7 +295,7 @@ vp
 )
 ;
 }
-PRBool
+bool
 AttachNewConstructorObject
 (
 XPCCallContext

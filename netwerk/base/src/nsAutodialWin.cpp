@@ -296,7 +296,7 @@ return
 result
 ;
 }
-PRBool
+bool
 nsAutodial
 :
 :
@@ -859,7 +859,7 @@ sizeof
 rasDialDlg
 )
 ;
-PRBool
+bool
 dialed
 =
 (
@@ -1001,7 +1001,7 @@ sizeof
 rasPBDlg
 )
 ;
-PRBool
+bool
 dialed
 =
 (
@@ -1108,7 +1108,7 @@ return
 NS_OK
 ;
 }
-PRBool
+bool
 nsAutodial
 :
 :
@@ -1668,7 +1668,7 @@ return
 NS_OK
 ;
 }
-PRBool
+bool
 nsAutodial
 :
 :
@@ -1820,7 +1820,7 @@ SERVICE_RUNNING
 )
 ;
 }
-PRBool
+bool
 nsAutodial
 :
 :
@@ -2207,7 +2207,7 @@ return
 location
 ;
 }
-PRBool
+bool
 nsAutodial
 :
 :
@@ -2278,7 +2278,7 @@ return
 enabled
 ;
 }
-PRBool
+bool
 nsAutodial
 :
 :
@@ -2462,7 +2462,7 @@ return
 PR_TRUE
 ;
 }
-PRBool
+bool
 nsAutodial
 :
 :

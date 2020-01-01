@@ -628,10 +628,10 @@ rv
 nsAutoString
 resourceid
 ;
-PRBool
+bool
 stringmode
 =
-PR_FALSE
+false
 ;
 for
 (
@@ -1650,7 +1650,7 @@ memory
 )
 ;
 }
-PRBool
+bool
 nsTreeRows
 :
 :

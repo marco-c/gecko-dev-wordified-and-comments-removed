@@ -104,7 +104,7 @@ nsTextFragment
 h
 "
 inline
-PRBool
+bool
 IsIgnorableCharacter
 (
 PRUnichar
@@ -133,7 +133,7 @@ ch
 ;
 }
 inline
-PRBool
+bool
 IsConditionalPunctuation
 (
 PRUnichar
@@ -341,7 +341,7 @@ NS_OK
 ;
 }
 static
-PRBool
+bool
 IsTextNode
 (
 nsIDOMNode
@@ -1166,7 +1166,7 @@ nsIDOMRange
 *
 *
 aRange
-PRBool
+bool
 *
 aSkipChecking
 )
@@ -1414,7 +1414,7 @@ NS_OK
 ;
 }
 static
-PRBool
+bool
 IsDOMWordSeparator
 (
 PRUnichar
@@ -1512,7 +1512,7 @@ PR_FALSE
 ;
 }
 static
-PRBool
+bool
 IsBRElement
 (
 nsIDOMNode
@@ -1641,7 +1641,7 @@ prev
 ;
 }
 static
-PRBool
+bool
 ContainsDOMWordSeparator
 (
 nsIDOMNode
@@ -1833,7 +1833,7 @@ PR_FALSE
 ;
 }
 static
-PRBool
+bool
 IsBreakElement
 (
 nsIDOMWindow
@@ -2053,7 +2053,7 @@ nsIDOMWindow
 *
 mDocView
 ;
-PRPackedBool
+bool
 mLeftBreakElement
 ;
 }
@@ -2272,10 +2272,10 @@ Clear
 (
 )
 ;
-PRBool
+bool
 seenSoftEnd
 =
-PR_FALSE
+false
 ;
 while
 (
@@ -2297,10 +2297,10 @@ seenSoftEnd
 PR_TRUE
 ;
 }
-PRBool
+bool
 exit
 =
-PR_FALSE
+false
 ;
 if
 (
@@ -3077,7 +3077,7 @@ PRInt32
 aSoftTextOffset
 DOMMapHint
 aHint
-PRBool
+bool
 aSearchForward
 )
 {
@@ -3382,7 +3382,7 @@ ClassifyCharacter
 (
 PRInt32
 aIndex
-PRBool
+bool
 aRecurse
 )
 const
@@ -3407,7 +3407,7 @@ FindSpecialWord
 (
 )
 ;
-PRBool
+bool
 ShouldSkipWord
 (
 PRInt32
@@ -3426,7 +3426,7 @@ ClassifyCharacter
 (
 PRInt32
 aIndex
-PRBool
+bool
 aRecurse
 )
 const
@@ -3950,10 +3950,10 @@ FindSpecialWord
 PRInt32
 i
 ;
-PRBool
+bool
 foundDot
 =
-PR_FALSE
+false
 ;
 PRInt32
 firstColon
@@ -4269,7 +4269,7 @@ return
 1
 ;
 }
-PRBool
+bool
 WordSplitState
 :
 :

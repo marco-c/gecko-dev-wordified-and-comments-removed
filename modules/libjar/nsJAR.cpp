@@ -116,7 +116,7 @@ public
 JARManifestItemType
 mType
 ;
-PRBool
+bool
 entryVerified
 ;
 PRInt16
@@ -171,7 +171,7 @@ nsJARManifestItem
 {
 }
 static
-PRBool
+bool
 DeleteManifestEntry
 (
 nsHashKey
@@ -484,7 +484,7 @@ mOpened
 return
 NS_ERROR_FAILURE
 ;
-PRBool
+bool
 exist
 ;
 nsresult
@@ -1084,7 +1084,7 @@ const
 nsACString
 &
 aEntryName
-PRBool
+bool
 *
 result
 )
@@ -2159,7 +2159,7 @@ rv
 return
 rv
 ;
-PRBool
+bool
 more
 ;
 rv
@@ -2789,10 +2789,10 @@ curItemMF
 =
 nsnull
 ;
-PRBool
+bool
 foundName
 =
-PR_FALSE
+false
 ;
 if
 (
@@ -2904,7 +2904,7 @@ mType
 JAR_INTERNAL
 )
 {
-PRBool
+bool
 exists
 ;
 nsresult
@@ -3979,7 +3979,7 @@ nsJAREnumerator
 :
 HasMore
 (
-PRBool
+bool
 *
 aResult
 )
@@ -4066,7 +4066,7 @@ if
 mName
 )
 {
-PRBool
+bool
 bMore
 ;
 nsresult
@@ -4293,7 +4293,7 @@ nsJARItem
 :
 GetIsDirectory
 (
-PRBool
+bool
 *
 aIsDirectory
 )
@@ -4318,7 +4318,7 @@ nsJARItem
 :
 GetIsSynthetic
 (
-PRBool
+bool
 *
 aIsSynthetic
 )
@@ -4503,7 +4503,7 @@ NS_OK
 ;
 }
 static
-PRBool
+bool
 DropZipReaderCache
 (
 nsHashKey
@@ -4803,7 +4803,7 @@ rv
 #
 ifdef
 DEBUG
-PRBool
+bool
 collision
 =
 #
@@ -5061,7 +5061,7 @@ rv
 #
 ifdef
 DEBUG
-PRBool
+bool
 collision
 =
 #
@@ -5102,7 +5102,7 @@ rv
 ;
 }
 static
-PRBool
+bool
 FindOldestZip
 (
 nsHashKey
@@ -5199,13 +5199,13 @@ nsJAR
 *
 zip
 ;
-PRBool
+bool
 found
 ;
 }
 ;
 static
-PRBool
+bool
 FindZip
 (
 nsHashKey
@@ -5525,7 +5525,7 @@ NS_OK
 ;
 }
 static
-PRBool
+bool
 FindFlushableZip
 (
 nsHashKey
@@ -5666,7 +5666,7 @@ break
 #
 ifdef
 DEBUG
-PRBool
+bool
 removed
 =
 #

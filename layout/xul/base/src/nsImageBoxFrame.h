@@ -391,10 +391,10 @@ mListener
 PRInt32
 mLoadFlags
 ;
-PRPackedBool
+bool
 mUseSrcAttr
 ;
-PRPackedBool
+bool
 mSuppressStyleCheck
 ;
 }

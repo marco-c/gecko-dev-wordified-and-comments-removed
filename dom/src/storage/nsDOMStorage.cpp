@@ -513,7 +513,7 @@ NS_OK
 ;
 }
 static
-PRBool
+bool
 IsCallerSecure
 (
 )
@@ -607,10 +607,10 @@ return
 PR_FALSE
 ;
 }
-PRBool
+bool
 isHttps
 =
-PR_FALSE
+false
 ;
 rv
 =
@@ -723,7 +723,7 @@ nsIPermissionManager
 UNKNOWN_ACTION
 ;
 }
-PRBool
+bool
 IsOfflineAllowed
 (
 const
@@ -1371,7 +1371,7 @@ rv
 rv
 )
 ;
-PRBool
+bool
 hasMore
 ;
 while
@@ -3517,7 +3517,7 @@ aKey
 nsAString
 &
 aValue
-PRBool
+bool
 *
 aSecure
 )
@@ -3594,7 +3594,7 @@ aKey
 nsAString
 &
 aValue
-PRBool
+bool
 *
 aSecure
 )
@@ -3702,7 +3702,7 @@ const
 nsAString
 &
 aValue
-PRBool
+bool
 aSecure
 )
 {
@@ -3939,7 +3939,7 @@ const
 nsAString
 &
 aKey
-PRBool
+bool
 aSecure
 )
 {
@@ -4325,7 +4325,7 @@ NS_OK
 struct
 KeysArrayBuilderStruct
 {
-PRBool
+bool
 callerIsSecure
 ;
 nsTArray
@@ -4471,7 +4471,7 @@ public
 :
 ItemCounterState
 (
-PRBool
+bool
 aIsCallerSecure
 )
 :
@@ -4485,7 +4485,7 @@ mCount
 )
 {
 }
-PRBool
+bool
 mIsCallerSecure
 ;
 PRUint32
@@ -4609,7 +4609,7 @@ public
 :
 IndexFinderData
 (
-PRBool
+bool
 aIsCallerSecure
 PRUint32
 aWantedIndex
@@ -4633,7 +4633,7 @@ nsnull
 )
 {
 }
-PRBool
+bool
 mIsCallerSecure
 ;
 PRUint32
@@ -4876,7 +4876,7 @@ UseDB
 )
 )
 {
-PRBool
+bool
 secure
 ;
 nsAutoString
@@ -5245,7 +5245,7 @@ rv
 nsAutoString
 value
 ;
-PRBool
+bool
 secureItem
 ;
 rv
@@ -5377,12 +5377,12 @@ void
 userArg
 )
 {
-PRBool
+bool
 *
 secure
 =
 (
-PRBool
+bool
 *
 )
 userArg
@@ -5445,10 +5445,10 @@ Count
 (
 )
 ;
-PRBool
+bool
 foundSecureItem
 =
-PR_FALSE
+false
 ;
 mItems
 .
@@ -5688,7 +5688,7 @@ GetDomainURI
 nsIPrincipal
 *
 aPrincipal
-PRBool
+bool
 aIncludeDomain
 nsIURI
 *
@@ -5985,13 +5985,13 @@ return
 NS_OK
 ;
 }
-PRBool
+bool
 nsDOMStorage
 :
 :
 CanUseStorage
 (
-PRPackedBool
+bool
 *
 aSessionOnly
 )
@@ -6249,7 +6249,7 @@ return
 PR_TRUE
 ;
 }
-PRBool
+bool
 nsDOMStorage
 :
 :
@@ -6339,7 +6339,7 @@ subjectPrincipal
 )
 ;
 }
-PRBool
+bool
 nsDOMStorage
 :
 :
@@ -6350,7 +6350,7 @@ nsIURI
 aURI
 )
 {
-PRBool
+bool
 isAbout
 ;
 return
@@ -6988,7 +6988,7 @@ return
 nsnull
 ;
 }
-PRBool
+bool
 nsDOMStorage
 :
 :
@@ -7081,7 +7081,7 @@ return
 nsnull
 ;
 }
-PRBool
+bool
 nsDOMStorage
 :
 :
@@ -7119,7 +7119,7 @@ ssm
 return
 PR_FALSE
 ;
-PRBool
+bool
 isSystem
 ;
 nsresult
@@ -7145,7 +7145,7 @@ rv
 isSystem
 ;
 }
-PRBool
+bool
 nsDOMStorage
 :
 :
@@ -7679,7 +7679,7 @@ return
 result
 ;
 }
-PRBool
+bool
 nsDOMStorage2
 :
 :
@@ -7796,7 +7796,7 @@ return
 mPrincipal
 ;
 }
-PRBool
+bool
 nsDOMStorage2
 :
 :
@@ -7837,7 +7837,7 @@ aPrincipal
 return
 PR_TRUE
 ;
-PRBool
+bool
 subsumes
 ;
 nsresult
@@ -8427,7 +8427,7 @@ aResult
 nsnull
 )
 ;
-PRPackedBool
+bool
 sessionOnly
 ;
 if
@@ -8453,7 +8453,7 @@ nsnull
 ;
 }
 }
-PRBool
+bool
 isSystem
 =
 nsContentUtils
@@ -8531,7 +8531,7 @@ return
 rv
 ;
 }
-PRBool
+bool
 nsDOMStorageList
 :
 :
@@ -8571,7 +8571,7 @@ const
 nsACString
 &
 aCurrentDomain
-PRBool
+bool
 aNoCurrentDomainCheck
 nsresult
 *
@@ -8772,7 +8772,7 @@ return
 storage
 ;
 }
-PRBool
+bool
 nsDOMStorageList
 :
 :
@@ -9046,7 +9046,7 @@ const
 nsAString
 &
 aValue
-PRBool
+bool
 aSecure
 )
 :
@@ -9083,7 +9083,7 @@ nsDOMStorageItem
 :
 GetSecure
 (
-PRBool
+bool
 *
 aSecure
 )
@@ -9151,7 +9151,7 @@ nsDOMStorageItem
 :
 SetSecure
 (
-PRBool
+bool
 aSecure
 )
 {
@@ -9247,7 +9247,7 @@ UseDB
 )
 )
 {
-PRBool
+bool
 secure
 ;
 nsresult
@@ -9347,7 +9347,7 @@ CacheStoragePermissions
 return
 NS_ERROR_DOM_INVALID_ACCESS_ERR
 ;
-PRBool
+bool
 secureCaller
 =
 IsCallerSecure
@@ -9376,7 +9376,7 @@ secureCaller
 )
 ;
 }
-PRBool
+bool
 secureItem
 =
 IsSecure
@@ -9596,9 +9596,9 @@ const
 nsAString
 &
 typeArg
-PRBool
+bool
 canBubbleArg
-PRBool
+bool
 cancelableArg
 const
 nsAString
@@ -9723,9 +9723,9 @@ const
 nsAString
 &
 aTypeArg
-PRBool
+bool
 aCanBubbleArg
-PRBool
+bool
 aCancelableArg
 const
 nsAString

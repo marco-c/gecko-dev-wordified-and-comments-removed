@@ -199,7 +199,7 @@ gfxMatrix
 aMatrix
 )
 ;
-PRBool
+bool
 Is2D
 (
 gfxMatrix
@@ -208,13 +208,13 @@ aMatrix
 )
 const
 ;
-PRBool
+bool
 Is2D
 (
 )
 const
 ;
-PRBool
+bool
 CanDraw2D
 (
 gfxMatrix
@@ -225,7 +225,7 @@ nsnull
 )
 const
 ;
-PRBool
+bool
 IsIdentity
 (
 )
@@ -611,7 +611,7 @@ GetNormalVector
 )
 const
 ;
-PRBool
+bool
 IsSingular
 (
 )

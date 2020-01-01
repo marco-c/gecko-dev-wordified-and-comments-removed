@@ -50,7 +50,7 @@ aLoaderPrincipal
 nsILoadGroup
 *
 aLoadGroup
-PRBool
+bool
 aForceToXML
 nsIDOMDocument
 *

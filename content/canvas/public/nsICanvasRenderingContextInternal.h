@@ -242,7 +242,7 @@ GetSurfaceSnapshot
 NS_IMETHOD
 SetIsOpaque
 (
-PRBool
+bool
 isOpaque
 )
 =
@@ -276,7 +276,7 @@ aManager
 0
 ;
 virtual
-PRBool
+bool
 ShouldForceInactiveLayer
 (
 LayerManager
@@ -285,7 +285,7 @@ aManager
 )
 {
 return
-PR_FALSE
+false
 ;
 }
 virtual
@@ -322,7 +322,7 @@ NS_OK
 NS_IMETHOD
 SetIsIPC
 (
-PRBool
+bool
 isIPC
 )
 =

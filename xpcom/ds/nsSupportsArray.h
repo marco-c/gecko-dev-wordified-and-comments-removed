@@ -203,7 +203,7 @@ aElement
 }
 NS_IMETHOD_
 (
-PRBool
+bool
 )
 MoveElement
 (
@@ -230,7 +230,7 @@ void
 ;
 NS_IMETHOD_
 (
-PRBool
+bool
 )
 Equals
 (
@@ -365,7 +365,7 @@ NS_OK
 }
 NS_IMETHOD_
 (
-PRBool
+bool
 )
 InsertElementAt
 (
@@ -378,7 +378,7 @@ aIndex
 ;
 NS_IMETHOD_
 (
-PRBool
+bool
 )
 ReplaceElementAt
 (
@@ -391,7 +391,7 @@ aIndex
 ;
 NS_IMETHOD_
 (
-PRBool
+bool
 )
 RemoveElementAt
 (
@@ -409,7 +409,7 @@ aIndex
 }
 NS_IMETHOD_
 (
-PRBool
+bool
 )
 RemoveElement
 (
@@ -425,7 +425,7 @@ aStartIndex
 ;
 NS_IMETHOD_
 (
-PRBool
+bool
 )
 RemoveLastElement
 (
@@ -478,7 +478,7 @@ NS_ERROR_FAILURE
 }
 NS_IMETHOD_
 (
-PRBool
+bool
 )
 AppendElements
 (
@@ -503,7 +503,7 @@ void
 ;
 NS_IMETHOD_
 (
-PRBool
+bool
 )
 EnumerateForwards
 (
@@ -516,7 +516,7 @@ aData
 ;
 NS_IMETHOD_
 (
-PRBool
+bool
 )
 EnumerateBackwards
 (
@@ -538,7 +538,7 @@ _retval
 ;
 NS_IMETHOD_
 (
-PRBool
+bool
 )
 InsertElementsAt
 (
@@ -551,7 +551,7 @@ aIndex
 ;
 NS_IMETHOD_
 (
-PRBool
+bool
 )
 RemoveElementsAt
 (
@@ -563,7 +563,7 @@ aCount
 ;
 NS_IMETHOD_
 (
-PRBool
+bool
 )
 SizeTo
 (
@@ -581,7 +581,7 @@ void
 ;
 NS_IMETHOD_
 (
-PRBool
+bool
 )
 GrowArrayBy
 (

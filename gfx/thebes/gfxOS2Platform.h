@@ -136,7 +136,7 @@ aCallback
 void
 *
 aClosure
-PRBool
+bool
 &
 aAborted
 )
@@ -183,7 +183,7 @@ gfxOS2Font
 aFont
 )
 ;
-PRBool
+bool
 noFontWithChar
 (
 PRUint32

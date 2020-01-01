@@ -72,7 +72,7 @@ mSize
 0
 ;
 }
-PRBool
+bool
 nsGenConList
 :
 :
@@ -95,10 +95,10 @@ nsGenConNode
 *
 node
 ;
-PRBool
+bool
 destroyed
 =
-PR_FALSE
+false
 ;
 while
 (
@@ -122,7 +122,7 @@ Next
 mFirstNode
 )
 ;
-PRBool
+bool
 isLastNode
 =
 node
@@ -330,7 +330,7 @@ return
 0
 ;
 }
-PRBool
+bool
 nsGenConList
 :
 :

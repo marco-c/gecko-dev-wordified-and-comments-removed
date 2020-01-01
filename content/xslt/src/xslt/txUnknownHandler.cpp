@@ -189,7 +189,7 @@ const
 nsSubstring
 &
 aData
-PRBool
+bool
 aDOE
 )
 {
@@ -511,7 +511,7 @@ aLowercaseLocalName
 owner
 ;
 }
-PRBool
+bool
 htmlRoot
 =
 aNsID
@@ -614,7 +614,7 @@ mResultHandler
 "
 )
 ;
-PRBool
+bool
 htmlRoot
 =
 aNsID
@@ -680,7 +680,7 @@ txUnknownHandler
 :
 createHandlerAndFlush
 (
-PRBool
+bool
 aHTMLRoot
 const
 nsSubstring

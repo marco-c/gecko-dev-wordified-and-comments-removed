@@ -262,7 +262,7 @@ return
 sBridge
 ;
 }
-PRBool
+bool
 AndroidBridge
 :
 :
@@ -1614,7 +1614,7 @@ AndroidBridge
 :
 AttachThread
 (
-PRBool
+bool
 asDaemon
 )
 {
@@ -1763,7 +1763,7 @@ return
 jEnv
 ;
 }
-PRBool
+bool
 AndroidBridge
 :
 :
@@ -2784,7 +2784,7 @@ app
 ;
 }
 }
-PRBool
+bool
 AndroidBridge
 :
 :
@@ -2941,7 +2941,7 @@ return
 PR_TRUE
 ;
 }
-PRBool
+bool
 AndroidBridge
 :
 :
@@ -3094,7 +3094,7 @@ return
 PR_TRUE
 ;
 }
-PRBool
+bool
 AndroidBridge
 :
 :
@@ -4195,7 +4195,7 @@ AndroidBridge
 :
 SetFullScreen
 (
-PRBool
+bool
 aFullScreen
 )
 {
@@ -4271,7 +4271,7 @@ AndroidBridge
 :
 PerformHapticFeedback
 (
-PRBool
+bool
 aIsLongPress
 )
 {
@@ -5508,7 +5508,7 @@ on
 )
 ;
 }
-PRBool
+bool
 mozilla_AndroidBridge_SetMainThread
 (
 void
@@ -5555,7 +5555,7 @@ JNIEnv
 *
 mozilla_AndroidBridge_AttachThread
 (
-PRBool
+bool
 asDaemon
 )
 {
@@ -5869,7 +5869,7 @@ PostToJavaThread
 nsIRunnable
 *
 aRunnable
-PRBool
+bool
 aMainThread
 )
 {

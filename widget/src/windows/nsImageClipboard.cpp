@@ -2055,10 +2055,10 @@ aLength
 PRUint8
 pos
 ;
-PRBool
+bool
 started
 =
-PR_FALSE
+false
 ;
 aBegin
 =

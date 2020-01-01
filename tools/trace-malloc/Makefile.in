@@ -412,10 +412,6 @@ SIMPLECSRCS
 +
 =
 \
-bloatblame
-.
-c
-\
 leakstats
 .
 c
@@ -449,6 +445,10 @@ SIMPLECPPSRCS
 =
 \
 leaksoup
+.
+cpp
+\
+bloatblame
 .
 cpp
 \

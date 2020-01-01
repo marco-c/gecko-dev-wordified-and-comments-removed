@@ -93,7 +93,7 @@ const
 nsACString
 &
 aFileExt
-PRBool
+bool
 *
 aFound
 )
@@ -105,7 +105,7 @@ const
 nsACString
 &
 aScheme
-PRBool
+bool
 *
 found
 nsIHandlerInfo
@@ -135,7 +135,7 @@ const
 char
 *
 aScheme
-PRBool
+bool
 *
 aHandlerExists
 )

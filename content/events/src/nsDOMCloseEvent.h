@@ -58,7 +58,7 @@ NS_FORWARD_TO_NSDOMEVENT
 NS_DECL_NSIDOMCLOSEEVENT
 private
 :
-PRBool
+bool
 mWasClean
 ;
 PRUint16

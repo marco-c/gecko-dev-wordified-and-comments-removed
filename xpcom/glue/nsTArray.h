@@ -389,7 +389,7 @@ mHdr
 mLength
 ;
 }
-PRBool
+bool
 IsEmpty
 (
 )
@@ -444,7 +444,7 @@ nsTArray_base
 (
 )
 ;
-PRBool
+bool
 EnsureCapacity
 (
 size_type
@@ -510,7 +510,7 @@ mLength
 n
 ;
 }
-PRBool
+bool
 InsertSlotsAt
 (
 index_type
@@ -528,7 +528,7 @@ template
 class
 Allocator
 >
-PRBool
+bool
 SwapArrayElements
 (
 nsTArray_base
@@ -570,19 +570,19 @@ Alloc
 &
 mArray
 ;
-PRBool
+bool
 mIsAuto
 ;
 }
 ;
-PRBool
+bool
 EnsureNotUsingAutoArrayBuffer
 (
 size_type
 elemSize
 )
 ;
-PRBool
+bool
 IsAutoArray
 (
 )
@@ -666,7 +666,7 @@ aligned
 )
 ;
 }
-PRBool
+bool
 UsesAutoArrayBuffer
 (
 )
@@ -946,7 +946,7 @@ nsDefaultComparator
 {
 public
 :
-PRBool
+bool
 Equals
 (
 const
@@ -967,7 +967,7 @@ a
 b
 ;
 }
-PRBool
+bool
 LessThan
 (
 const
@@ -1571,7 +1571,7 @@ Item
 class
 Comparator
 >
-PRBool
+bool
 Contains
 (
 const
@@ -1602,7 +1602,7 @@ template
 class
 Item
 >
-PRBool
+bool
 Contains
 (
 const
@@ -2340,7 +2340,7 @@ Item
 class
 Comparator
 >
-PRBool
+bool
 GreatestIndexLtEq
 (
 const
@@ -2480,7 +2480,7 @@ Item
 class
 Comparator
 >
-PRBool
+bool
 GreatestIndexLtEq
 (
 const
@@ -2512,7 +2512,7 @@ template
 class
 Item
 >
-PRBool
+bool
 GreatestIndexLtEq
 (
 const
@@ -3058,7 +3058,7 @@ Item
 class
 Comparator
 >
-PRBool
+bool
 RemoveElement
 (
 const
@@ -3105,7 +3105,7 @@ template
 class
 Item
 >
-PRBool
+bool
 RemoveElement
 (
 const
@@ -3135,7 +3135,7 @@ Item
 class
 Comparator
 >
-PRBool
+bool
 RemoveElementSorted
 (
 const
@@ -3151,7 +3151,7 @@ comp
 index_type
 index
 ;
-PRBool
+bool
 found
 =
 GreatestIndexLtEq
@@ -3180,7 +3180,7 @@ template
 class
 Item
 >
-PRBool
+bool
 RemoveElementSorted
 (
 const
@@ -3208,7 +3208,7 @@ template
 class
 Allocator
 >
-PRBool
+bool
 SwapElements
 (
 nsTArray
@@ -3234,7 +3234,7 @@ elem_type
 )
 ;
 }
-PRBool
+bool
 SetCapacity
 (
 size_type
@@ -3255,7 +3255,7 @@ elem_type
 )
 ;
 }
-PRBool
+bool
 SetLength
 (
 size_type
@@ -3336,7 +3336,7 @@ newLen
 )
 ;
 }
-PRBool
+bool
 EnsureLengthAtLeast
 (
 size_type

@@ -56,7 +56,7 @@ nsAndroidNetworkLinkService
 :
 GetIsLinkUp
 (
-PRBool
+bool
 *
 aIsUp
 )
@@ -126,7 +126,7 @@ nsAndroidNetworkLinkService
 :
 GetLinkStatusKnown
 (
-PRBool
+bool
 *
 aIsKnown
 )

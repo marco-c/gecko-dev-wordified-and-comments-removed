@@ -173,10 +173,10 @@ C
 locObj
 )
 ;
-PRBool
+bool
 f24Hour
 =
-PR_FALSE
+false
 ;
 UniQueryLocaleItem
 (

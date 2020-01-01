@@ -165,13 +165,13 @@ wchar_t
 *
 gMozillaJumpListIDGeneric
 ;
-PRPackedBool
+bool
 JumpListBuilder
 :
 :
 sBuildingList
 =
-PR_FALSE
+false
 ;
 const
 char
@@ -338,7 +338,7 @@ JumpListBuilder
 :
 GetIsListCommitted
 (
-PRBool
+bool
 *
 aCommit
 )
@@ -451,7 +451,7 @@ InitListBuild
 nsIMutableArray
 *
 removedItems
-PRBool
+bool
 *
 _retval
 )
@@ -836,10 +836,10 @@ rv
 ;
 do
 {
-PRBool
+bool
 hasMore
 =
-PR_FALSE
+false
 ;
 if
 (
@@ -941,7 +941,7 @@ ico
 )
 )
 {
-PRBool
+bool
 exists
 ;
 if
@@ -998,7 +998,7 @@ const
 nsAString
 &
 catName
-PRBool
+bool
 *
 _retval
 )
@@ -1689,7 +1689,7 @@ JumpListBuilder
 :
 CommitListBuild
 (
-PRBool
+bool
 *
 _retval
 )
@@ -1749,7 +1749,7 @@ JumpListBuilder
 :
 DeleteActiveList
 (
-PRBool
+bool
 *
 _retval
 )
@@ -1818,7 +1818,7 @@ return
 NS_OK
 ;
 }
-PRBool
+bool
 JumpListBuilder
 :
 :
@@ -2157,7 +2157,7 @@ kPrefTaskbarEnabled
 )
 )
 {
-PRBool
+bool
 enabled
 =
 Preferences
@@ -2841,7 +2841,7 @@ rv
 rv
 )
 ;
-PRBool
+bool
 exists
 ;
 rv
@@ -2878,7 +2878,7 @@ ico
 )
 )
 {
-PRBool
+bool
 exists
 ;
 if
@@ -3015,10 +3015,10 @@ rv
 ;
 do
 {
-PRBool
+bool
 hasMore
 =
-PR_FALSE
+false
 ;
 if
 (
@@ -3120,7 +3120,7 @@ ico
 )
 )
 {
-PRBool
+bool
 exists
 ;
 if

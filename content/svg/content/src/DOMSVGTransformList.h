@@ -213,7 +213,7 @@ mAList
 mElement
 ;
 }
-PRBool
+bool
 IsAnimValList
 (
 )

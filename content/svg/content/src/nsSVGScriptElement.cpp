@@ -185,7 +185,7 @@ FreezeUriAsyncDefer
 )
 ;
 virtual
-PRBool
+bool
 HasScriptContent
 (
 )
@@ -202,12 +202,12 @@ virtual
 nsresult
 DoneAddingChildren
 (
-PRBool
+bool
 aHaveNotified
 )
 ;
 virtual
-PRBool
+bool
 IsDoneAddingChildren
 (
 )
@@ -225,7 +225,7 @@ aParent
 nsIContent
 *
 aBindingParent
-PRBool
+bool
 aCompileEventHandlers
 )
 ;
@@ -686,7 +686,7 @@ mFrozen
 PR_TRUE
 ;
 }
-PRBool
+bool
 nsSVGScriptElement
 :
 :
@@ -793,7 +793,7 @@ nsSVGScriptElement
 :
 DoneAddingChildren
 (
-PRBool
+bool
 aHaveNotified
 )
 {
@@ -823,7 +823,7 @@ return
 rv
 ;
 }
-PRBool
+bool
 nsSVGScriptElement
 :
 :
@@ -850,7 +850,7 @@ aParent
 nsIContent
 *
 aBindingParent
-PRBool
+bool
 aCompileEventHandlers
 )
 {

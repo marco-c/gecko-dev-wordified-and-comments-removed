@@ -57,7 +57,7 @@ NS_OK
 ;
 }
 virtual
-PRBool
+bool
 IsLeaf
 (
 )

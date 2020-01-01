@@ -2605,7 +2605,7 @@ const
 PRUnichar
 *
 aPubid
-PRBool
+bool
 aHasInternalSubset
 )
 {
@@ -3150,10 +3150,10 @@ rv
 rv
 )
 ;
-PRBool
+bool
 isChrome
 =
-PR_FALSE
+false
 ;
 uri
 -
@@ -4032,7 +4032,7 @@ mInnerWindowID
 )
 ;
 }
-PRBool
+bool
 shouldReportError
 =
 NS_SUCCEEDED
@@ -4132,7 +4132,7 @@ PRUnichar
 aBuffer
 PRUint32
 aLength
-PRBool
+bool
 aIsFinal
 PRUint32
 *
@@ -4462,7 +4462,7 @@ ConsumeToken
 nsScanner
 &
 aScanner
-PRBool
+bool
 &
 aFlushTokens
 )
@@ -4560,7 +4560,7 @@ mExpatBuffered
 )
 )
 {
-PRBool
+bool
 noMoreBuffers
 =
 start
@@ -4571,7 +4571,7 @@ end
 &
 mIsFinalChunk
 ;
-PRBool
+bool
 blocked
 =
 BlockedOrInterrupted
@@ -5517,7 +5517,7 @@ if
 win
 )
 {
-PRBool
+bool
 aHasHadScriptHandlingObject
 ;
 nsIScriptGlobalObject
@@ -5719,8 +5719,8 @@ BuildModel
 nsITokenizer
 *
 aTokenizer
-PRBool
-PRBool
+bool
+bool
 const
 nsCString
 *
@@ -5762,7 +5762,7 @@ nsExpatDriver
 :
 WillTokenize
 (
-PRBool
+bool
 aIsFinalChunk
 nsTokenAllocator
 *
@@ -5783,7 +5783,7 @@ nsExpatDriver
 :
 DidTokenize
 (
-PRBool
+bool
 aIsFinalChunk
 )
 {
@@ -6020,7 +6020,7 @@ NS_OK
 }
 NS_IMETHODIMP_
 (
-PRBool
+bool
 )
 nsExpatDriver
 :
@@ -6038,7 +6038,7 @@ PR_TRUE
 }
 NS_IMETHODIMP_
 (
-PRBool
+bool
 )
 nsExpatDriver
 :

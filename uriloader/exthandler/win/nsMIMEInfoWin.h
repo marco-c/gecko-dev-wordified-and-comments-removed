@@ -107,7 +107,7 @@ aFile
 NS_IMETHOD
 GetHasDefaultHandler
 (
-PRBool
+bool
 *
 _retval
 )
@@ -167,7 +167,7 @@ nsIFile
 >
 mDefaultApplication
 ;
-PRBool
+bool
 GetLocalHandlerApp
 (
 const
@@ -182,7 +182,7 @@ nsILocalHandlerApp
 aApp
 )
 ;
-PRBool
+bool
 GetAppsVerbCommandHandler
 (
 const
@@ -192,11 +192,11 @@ appExeName
 nsAString
 &
 applicationPath
-PRBool
+bool
 bEdit
 )
 ;
-PRBool
+bool
 GetProgIDVerbCommandHandler
 (
 const
@@ -206,11 +206,11 @@ appProgIDName
 nsAString
 &
 applicationPath
-PRBool
+bool
 bEdit
 )
 ;
-PRBool
+bool
 GetDllLaunchInfo
 (
 nsIFile
@@ -222,7 +222,7 @@ aFile
 nsAString
 &
 args
-PRBool
+bool
 bEdit
 )
 ;

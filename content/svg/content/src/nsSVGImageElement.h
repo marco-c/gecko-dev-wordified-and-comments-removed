@@ -148,7 +148,7 @@ const
 nsAString
 *
 aValue
-PRBool
+bool
 aNotify
 )
 ;
@@ -165,7 +165,7 @@ aParent
 nsIContent
 *
 aBindingParent
-PRBool
+bool
 aCompileEventHandlers
 )
 ;
@@ -178,7 +178,7 @@ const
 ;
 NS_IMETHOD_
 (
-PRBool
+bool
 )
 IsAttributeMapped
 (
@@ -238,9 +238,9 @@ protected
 nsresult
 LoadSVGImage
 (
-PRBool
+bool
 aForce
-PRBool
+bool
 aNotify
 )
 ;

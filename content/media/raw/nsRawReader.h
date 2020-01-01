@@ -58,16 +58,16 @@ ResetDecode
 )
 ;
 virtual
-PRBool
+bool
 DecodeAudioData
 (
 )
 ;
 virtual
-PRBool
+bool
 DecodeVideoFrame
 (
-PRBool
+bool
 &
 aKeyframeSkip
 PRInt64
@@ -75,7 +75,7 @@ aTimeThreshold
 )
 ;
 virtual
-PRBool
+bool
 HasAudio
 (
 )
@@ -85,7 +85,7 @@ PR_FALSE
 ;
 }
 virtual
-PRBool
+bool
 HasVideo
 (
 )
@@ -130,7 +130,7 @@ aStartTime
 ;
 private
 :
-PRBool
+bool
 ReadFromStream
 (
 nsMediaStream

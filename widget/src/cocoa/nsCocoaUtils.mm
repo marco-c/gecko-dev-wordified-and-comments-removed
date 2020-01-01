@@ -1097,7 +1097,7 @@ nsCocoaUtils
 :
 HideOSChromeOnScreen
 (
-PRBool
+bool
 aShouldHide
 NSScreen
 *

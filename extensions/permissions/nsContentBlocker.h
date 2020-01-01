@@ -95,10 +95,10 @@ nsIURI
 aFirstURI
 PRInt32
 aContentType
-PRBool
+bool
 *
 aPermission
-PRBool
+bool
 *
 aFromPrefs
 )

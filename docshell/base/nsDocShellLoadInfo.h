@@ -82,13 +82,13 @@ nsISupports
 >
 mOwner
 ;
-PRPackedBool
+bool
 mInheritOwner
 ;
-PRPackedBool
+bool
 mOwnerIsExplicit
 ;
-PRPackedBool
+bool
 mSendReferrer
 ;
 nsDocShellInfoLoadType

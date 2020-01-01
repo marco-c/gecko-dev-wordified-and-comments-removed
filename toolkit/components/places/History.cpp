@@ -2134,7 +2134,7 @@ navHistory
 false
 )
 ;
-PRBool
+bool
 canAdd
 ;
 nsresult
@@ -3327,7 +3327,7 @@ rv
 false
 )
 ;
-PRBool
+bool
 hasResult
 ;
 rv
@@ -6060,7 +6060,7 @@ rv
 false
 )
 ;
-PRBool
+bool
 hasResult
 ;
 rv
@@ -6688,7 +6688,7 @@ navHistory
 NS_ERROR_OUT_OF_MEMORY
 )
 ;
-PRBool
+bool
 canAdd
 ;
 nsresult
@@ -6725,7 +6725,7 @@ if
 aLastVisitedURI
 )
 {
-PRBool
+bool
 same
 ;
 rv
@@ -7608,7 +7608,7 @@ navHistory
 NS_ERROR_FAILURE
 )
 ;
-PRBool
+bool
 canAdd
 ;
 nsresult

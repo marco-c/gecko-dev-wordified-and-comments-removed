@@ -52,7 +52,7 @@ const
 nsACString
 &
 val
-PRBool
+bool
 merge
 )
 {
@@ -185,7 +185,7 @@ Flatten
 nsACString
 &
 buf
-PRBool
+bool
 pruneTransients
 )
 {
@@ -912,7 +912,7 @@ val
 )
 )
 ;
-PRBool
+bool
 dummy
 ;
 net_ParseContentType
@@ -1333,7 +1333,7 @@ return
 NS_OK
 ;
 }
-PRBool
+bool
 nsHttpResponseHead
 :
 :
@@ -1540,7 +1540,7 @@ return
 PR_FALSE
 ;
 }
-PRBool
+bool
 nsHttpResponseHead
 :
 :
@@ -1563,7 +1563,7 @@ revalidate
 )
 ;
 }
-PRBool
+bool
 nsHttpResponseHead
 :
 :
@@ -1619,7 +1619,7 @@ bytes
 )
 ;
 }
-PRBool
+bool
 nsHttpResponseHead
 :
 :

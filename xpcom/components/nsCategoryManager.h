@@ -284,7 +284,7 @@ NS_DECL_NSICATEGORYMANAGER
 NS_METHOD
 SuppressNotifications
 (
-PRBool
+bool
 aSuppress
 )
 ;
@@ -402,7 +402,7 @@ mozilla
 Mutex
 mLock
 ;
-PRBool
+bool
 mSuppressNotifications
 ;
 }

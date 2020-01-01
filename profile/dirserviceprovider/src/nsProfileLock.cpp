@@ -132,10 +132,10 @@ defined
 XP_UNIX
 )
 static
-PRBool
+bool
 sDisableSignalHandling
 =
-PR_FALSE
+false
 ;
 #
 endif
@@ -400,7 +400,7 @@ nsProfileLock
 :
 RemovePidLockFiles
 (
-PRBool
+bool
 aFatalSignal
 )
 {
@@ -933,7 +933,7 @@ rv
 ;
 }
 static
-PRBool
+bool
 IsSymlinkStaleLock
 (
 struct
@@ -944,7 +944,7 @@ const
 char
 *
 aFileName
-PRBool
+bool
 aHaveFcntlLock
 )
 {
@@ -1143,7 +1143,7 @@ const
 nsACString
 &
 lockFilePath
-PRBool
+bool
 aHaveFcntlLock
 )
 {
@@ -1689,7 +1689,7 @@ NS_ENSURE_STATE
 mHaveLock
 )
 ;
-PRBool
+bool
 isDir
 ;
 rv
@@ -2442,7 +2442,7 @@ nsProfileLock
 :
 Unlock
 (
-PRBool
+bool
 aFatalSignal
 )
 {

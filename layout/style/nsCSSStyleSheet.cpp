@@ -615,7 +615,7 @@ return
 1
 ;
 }
-PRBool
+bool
 nsMediaExpression
 :
 :
@@ -1611,7 +1611,7 @@ const
 nsMediaExpression
 *
 aExpression
-PRBool
+bool
 aExpressionMatches
 )
 {
@@ -1727,7 +1727,7 @@ eentry
 )
 ;
 }
-PRBool
+bool
 nsMediaQueryResultCacheKey
 :
 :
@@ -2659,7 +2659,7 @@ forget
 )
 ;
 }
-PRBool
+bool
 nsMediaQuery
 :
 :
@@ -2681,7 +2681,7 @@ mHadUnknownExpression
 return
 PR_FALSE
 ;
-PRBool
+bool
 match
 =
 mMediaType
@@ -2986,10 +2986,10 @@ aMediaText
 nsCSSParser
 parser
 ;
-PRBool
+bool
 htmlMode
 =
-PR_FALSE
+false
 ;
 if
 (
@@ -3033,7 +3033,7 @@ htmlMode
 )
 ;
 }
-PRBool
+bool
 nsMediaList
 :
 :
@@ -3793,7 +3793,7 @@ buf
 #
 ifdef
 DEBUG
-PRBool
+bool
 ok
 =
 #
@@ -3969,7 +3969,7 @@ nullprincipal
 ;
 }
 static
-PRBool
+bool
 SetStyleSheetReference
 (
 css
@@ -4009,7 +4009,7 @@ PR_TRUE
 ;
 }
 static
-PRBool
+bool
 CloneRuleInto
 (
 css
@@ -4157,7 +4157,7 @@ mDocument
 }
 }
 ;
-PRBool
+bool
 nsCSSStyleSheet
 :
 :
@@ -4706,7 +4706,7 @@ urlSpec
 ;
 }
 static
-PRBool
+bool
 CreateNameSpace
 (
 css
@@ -5551,7 +5551,7 @@ css
 )
 ;
 }
-PRBool
+bool
 nsCSSStyleSheet
 :
 :
@@ -5603,7 +5603,7 @@ mMedia
 aMedia
 ;
 }
-PRBool
+bool
 nsCSSStyleSheet
 :
 :
@@ -5621,7 +5621,7 @@ StyleRuleCount
 0
 ;
 }
-PRBool
+bool
 nsCSSStyleSheet
 :
 :
@@ -5647,11 +5647,11 @@ nsCSSStyleSheet
 :
 SetEnabled
 (
-PRBool
+bool
 aEnabled
 )
 {
-PRBool
+bool
 oldDisabled
 =
 mDisabled
@@ -5697,7 +5697,7 @@ mDisabled
 }
 }
 }
-PRBool
+bool
 nsCSSStyleSheet
 :
 :
@@ -6833,7 +6833,7 @@ return
 eUniqueInner_ClonedInner
 ;
 }
-PRBool
+bool
 nsCSSStyleSheet
 :
 :
@@ -7451,7 +7451,7 @@ return
 NS_ERROR_DOM_SECURITY_ERR
 ;
 }
-PRBool
+bool
 subsumes
 ;
 rv
@@ -7588,7 +7588,7 @@ nsCSSStyleSheet
 :
 GetDisabled
 (
-PRBool
+bool
 *
 aDisabled
 )
@@ -7608,7 +7608,7 @@ nsCSSStyleSheet
 :
 SetDisabled
 (
-PRBool
+bool
 aDisabled
 )
 {
@@ -8581,7 +8581,7 @@ NS_ERROR_DOM_HIERARCHY_REQUEST_ERR
 ;
 }
 }
-PRBool
+bool
 insertResult
 =
 mInner
@@ -8681,10 +8681,10 @@ result
 )
 ;
 }
-PRBool
+bool
 notify
 =
-PR_TRUE
+true
 ;
 if
 (
@@ -9542,7 +9542,7 @@ StyleSheetLoaded
 nsCSSStyleSheet
 *
 aSheet
-PRBool
+bool
 aWasAlternate
 nsresult
 aStatus

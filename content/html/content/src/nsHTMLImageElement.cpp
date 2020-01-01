@@ -308,7 +308,7 @@ NS_DECL_NSIDOMHTMLIMAGEELEMENT
 NS_IMETHOD
 GetDraggable
 (
-PRBool
+bool
 *
 aDraggable
 )
@@ -341,7 +341,7 @@ argv
 )
 ;
 virtual
-PRBool
+bool
 ParseAttribute
 (
 PRInt32
@@ -373,7 +373,7 @@ const
 ;
 NS_IMETHOD_
 (
-PRBool
+bool
 )
 IsAttributeMapped
 (
@@ -400,12 +400,12 @@ nsEventChainPreVisitor
 aVisitor
 )
 ;
-PRBool
+bool
 IsHTMLFocusable
 (
-PRBool
+bool
 aWithMouse
-PRBool
+bool
 *
 aIsFocusable
 PRInt32
@@ -425,7 +425,7 @@ const
 nsAString
 &
 aValue
-PRBool
+bool
 aNotify
 )
 {
@@ -456,7 +456,7 @@ const
 nsAString
 &
 aValue
-PRBool
+bool
 aNotify
 )
 ;
@@ -469,7 +469,7 @@ aNameSpaceID
 nsIAtom
 *
 aAttribute
-PRBool
+bool
 aNotify
 )
 ;
@@ -486,7 +486,7 @@ aParent
 nsIContent
 *
 aBindingParent
-PRBool
+bool
 aCompileEventHandlers
 )
 ;
@@ -825,7 +825,7 @@ nsHTMLImageElement
 :
 GetDraggable
 (
-PRBool
+bool
 *
 aDraggable
 )
@@ -858,7 +858,7 @@ nsHTMLImageElement
 :
 GetComplete
 (
-PRBool
+bool
 *
 aComplete
 )
@@ -1299,7 +1299,7 @@ PR_TRUE
 )
 ;
 }
-PRBool
+bool
 nsHTMLImageElement
 :
 :
@@ -1520,7 +1520,7 @@ retval
 }
 NS_IMETHODIMP_
 (
-PRBool
+bool
 )
 nsHTMLImageElement
 :
@@ -1632,10 +1632,10 @@ nsMouseEvent
 eLeftButton
 )
 {
-PRBool
+bool
 isMap
 =
-PR_FALSE
+false
 ;
 GetIsMap
 (
@@ -1666,15 +1666,15 @@ aVisitor
 )
 ;
 }
-PRBool
+bool
 nsHTMLImageElement
 :
 :
 IsHTMLFocusable
 (
-PRBool
+bool
 aWithMouse
-PRBool
+bool
 *
 aIsFocusable
 PRInt32
@@ -1833,7 +1833,7 @@ const
 nsAString
 &
 aValue
-PRBool
+bool
 aNotify
 )
 {
@@ -1926,7 +1926,7 @@ aNameSpaceID
 nsIAtom
 *
 aAttribute
-PRBool
+bool
 aNotify
 )
 {
@@ -1980,7 +1980,7 @@ aParent
 nsIContent
 *
 aBindingParent
-PRBool
+bool
 aCompileEventHandlers
 )
 {

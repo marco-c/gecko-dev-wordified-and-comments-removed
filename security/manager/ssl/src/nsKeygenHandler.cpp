@@ -1636,7 +1636,7 @@ i
 =
 0
 ;
-PRBool
+bool
 canceled
 ;
 nsresult
@@ -2388,10 +2388,10 @@ str
 =
 keyparamsString
 ;
-PRBool
+bool
 found_match
 =
-PR_FALSE
+false
 ;
 do
 {

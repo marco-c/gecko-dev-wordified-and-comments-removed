@@ -596,7 +596,7 @@ rv
 rv
 )
 ;
-PRBool
+bool
 isSelected
 ;
 for
@@ -841,7 +841,7 @@ rv
 rv
 )
 ;
-PRBool
+bool
 isSelected
 ;
 for
@@ -1238,7 +1238,7 @@ rv
 rv
 )
 ;
-PRBool
+bool
 isSelected
 ;
 for
@@ -1838,7 +1838,7 @@ IsColumnSelected
 (
 PRInt32
 aColumnIndex
-PRBool
+bool
 *
 aIsSelected
 )
@@ -1921,7 +1921,7 @@ IsRowSelected
 (
 PRInt32
 aRowIndex
-PRBool
+bool
 *
 aIsSelected
 )
@@ -1992,7 +1992,7 @@ PRInt32
 aRowIndex
 PRInt32
 aColumnIndex
-PRBool
+bool
 *
 aIsSelected
 )
@@ -2124,7 +2124,7 @@ nsXULTreeGridAccessible
 :
 IsProbablyForLayout
 (
-PRBool
+bool
 *
 aIsProbablyForLayout
 )
@@ -3414,10 +3414,10 @@ ActionCount
 (
 )
 {
-PRBool
+bool
 isCycler
 =
-PR_FALSE
+false
 ;
 mColumn
 -
@@ -3507,10 +3507,10 @@ IsDefunct
 return
 NS_ERROR_FAILURE
 ;
-PRBool
+bool
 isCycler
 =
-PR_FALSE
+false
 ;
 mColumn
 -
@@ -3647,10 +3647,10 @@ IsDefunct
 return
 NS_ERROR_FAILURE
 ;
-PRBool
+bool
 isCycler
 =
-PR_FALSE
+false
 ;
 mColumn
 -
@@ -4106,7 +4106,7 @@ nsXULTreeGridCellAccessible
 :
 IsSelected
 (
-PRBool
+bool
 *
 aIsSelected
 )
@@ -4201,7 +4201,7 @@ mTreeView
 mColumn
 ;
 }
-PRBool
+bool
 nsXULTreeGridCellAccessible
 :
 :
@@ -4392,10 +4392,10 @@ tableCellIndex
 stringIdx
 )
 ;
-PRBool
+bool
 isCycler
 =
-PR_FALSE
+false
 ;
 nsresult
 rv
@@ -4494,10 +4494,10 @@ if
 selection
 )
 {
-PRBool
+bool
 isSelected
 =
-PR_FALSE
+false
 ;
 selection
 -
@@ -4699,7 +4699,7 @@ mCachedTextEquiv
 textEquiv
 )
 {
-PRBool
+bool
 isEnabled
 =
 textEquiv
@@ -4962,7 +4962,7 @@ mColumn
 )
 ;
 }
-PRBool
+bool
 nsXULTreeGridCellAccessible
 :
 :
@@ -4971,10 +4971,10 @@ IsEditable
 )
 const
 {
-PRBool
+bool
 isEditable
 =
-PR_FALSE
+false
 ;
 nsresult
 rv

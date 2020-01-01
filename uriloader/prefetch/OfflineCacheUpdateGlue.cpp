@@ -479,7 +479,7 @@ appCacheChannel
 )
 return
 ;
-PRBool
+bool
 loadedFromAppCache
 ;
 appCacheChannel

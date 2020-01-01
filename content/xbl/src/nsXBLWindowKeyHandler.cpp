@@ -270,7 +270,7 @@ sUserHTMLBindingStr
 [
 ]
 ;
-PRBool
+bool
 mInitialized
 ;
 public
@@ -801,7 +801,7 @@ valKey
 valCharCode
 valKeyCode
 ;
-PRBool
+bool
 attrExists
 =
 key
@@ -912,7 +912,7 @@ nsXBLWindowKeyHandler
 :
 EnsureHandlers
 (
-PRBool
+bool
 *
 aIsEditor
 )
@@ -1019,7 +1019,7 @@ LoadDocInfo
 (
 )
 ;
-PRBool
+bool
 isEditor
 =
 IsEditor
@@ -1085,10 +1085,10 @@ GetEditorKeyBindings
 )
 {
 static
-PRBool
+bool
 noBindings
 =
-PR_FALSE
+false
 ;
 if
 (
@@ -1216,7 +1216,7 @@ do_QueryInterface
 aKeyEvent
 )
 ;
-PRBool
+bool
 prevent
 ;
 domNSEvent
@@ -1235,10 +1235,10 @@ prevent
 return
 NS_OK
 ;
-PRBool
+bool
 trustedEvent
 =
-PR_FALSE
+false
 ;
 if
 (
@@ -1263,7 +1263,7 @@ trustedEvent
 return
 NS_OK
 ;
-PRBool
+bool
 isEditor
 ;
 nsresult
@@ -1419,10 +1419,10 @@ controllers
 )
 ;
 }
-PRBool
+bool
 handled
 =
-PR_FALSE
+false
 ;
 if
 (
@@ -1625,7 +1625,7 @@ eventTypeAtom
 )
 ;
 }
-PRBool
+bool
 nsXBLWindowKeyHandler
 :
 :
@@ -1642,7 +1642,7 @@ nsIDOMKeyEvent
 inEvent
 PRUint32
 aCharCode
-PRBool
+bool
 aIgnoreShiftKey
 )
 {
@@ -1673,7 +1673,7 @@ sNativeEditorBindings
 )
 ;
 }
-PRBool
+bool
 nsXBLWindowKeyHandler
 :
 :
@@ -1900,7 +1900,7 @@ return
 NS_OK
 ;
 }
-PRBool
+bool
 nsXBLWindowKeyHandler
 :
 :
@@ -1917,7 +1917,7 @@ nsXBLPrototypeHandler
 aHandler
 PRUint32
 aCharCode
-PRBool
+bool
 aIgnoreShiftKey
 )
 {
@@ -1956,7 +1956,7 @@ GetNextHandler
 )
 )
 {
-PRBool
+bool
 stopped
 =
 privateEvent

@@ -49,7 +49,7 @@ getLength
 )
 ;
 inline
-PRBool
+bool
 isEmpty
 (
 )

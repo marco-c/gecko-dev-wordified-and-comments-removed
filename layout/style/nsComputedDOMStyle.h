@@ -205,7 +205,7 @@ aContent
 void
 SetExposeVisitedStyle
 (
-PRBool
+bool
 aExpose
 )
 {
@@ -239,7 +239,7 @@ Declaration
 *
 GetCSSDeclaration
 (
-PRBool
+bool
 )
 ;
 virtual
@@ -352,7 +352,7 @@ nsStyleCorners
 aRadius
 PRUint8
 aFullCorner
-PRBool
+bool
 aIsBorder
 )
 ;
@@ -500,11 +500,11 @@ nsIDOMCSSValue
 *
 GetSVGPaintFor
 (
-PRBool
+bool
 aFill
 )
 ;
-PRBool
+bool
 GetLineHeightCoord
 (
 nscoord
@@ -523,7 +523,7 @@ const
 nscolor
 &
 aDefaultColor
-PRBool
+bool
 aIsBoxShadow
 )
 ;
@@ -1772,7 +1772,7 @@ nsDOMCSSValueList
 *
 GetROCSSValueList
 (
-PRBool
+bool
 aCommaDelimited
 )
 ;
@@ -1799,7 +1799,7 @@ aValue
 )
 ;
 typedef
-PRBool
+bool
 (
 nsComputedDOMStyle
 :
@@ -1822,7 +1822,7 @@ const
 nsStyleCoord
 &
 aCoord
-PRBool
+bool
 aClampNegativeCalc
 PercentageBaseGetter
 aPercentageBaseGetter
@@ -1856,11 +1856,11 @@ PercentageBaseGetter
 aPercentageBaseGetter
 nscoord
 aDefaultValue
-PRBool
+bool
 aClampNegativeCalc
 )
 ;
-PRBool
+bool
 GetCBContentWidth
 (
 nscoord
@@ -1868,7 +1868,7 @@ nscoord
 aWidth
 )
 ;
-PRBool
+bool
 GetCBContentHeight
 (
 nscoord
@@ -1876,7 +1876,7 @@ nscoord
 aWidth
 )
 ;
-PRBool
+bool
 GetFrameBoundsWidthForTransform
 (
 nscoord
@@ -1884,7 +1884,7 @@ nscoord
 aWidth
 )
 ;
-PRBool
+bool
 GetFrameBoundsHeightForTransform
 (
 nscoord
@@ -1892,7 +1892,7 @@ nscoord
 aHeight
 )
 ;
-PRBool
+bool
 GetFrameBorderRectWidth
 (
 nscoord
@@ -1900,7 +1900,7 @@ nscoord
 aWidth
 )
 ;
-PRBool
+bool
 GetFrameBorderRectHeight
 (
 nscoord
@@ -1930,7 +1930,7 @@ mProperty
 ComputeMethod
 mGetter
 ;
-PRBool
+bool
 mNeedsLayoutFlush
 ;
 }
@@ -1979,13 +1979,13 @@ nsIPresShell
 *
 mPresShell
 ;
-PRPackedBool
+bool
 mExposeVisitedStyle
 ;
 #
 ifdef
 DEBUG
-PRBool
+bool
 mFlushedPendingReflows
 ;
 #

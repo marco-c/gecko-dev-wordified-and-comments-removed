@@ -136,10 +136,10 @@ const
 nsSize
 &
 aAvailableSpace
-PRBool
+bool
 aInit
 =
-PR_TRUE
+true
 )
 :
 nsHTMLReflowState
@@ -309,7 +309,7 @@ const
 nsSize
 &
 aAvailSize
-PRBool
+bool
 aBorderCollapse
 nsTableCellReflowState
 &
@@ -448,7 +448,7 @@ SetPctHeight
 (
 float
 aPctValue
-PRBool
+bool
 aForce
 )
 {
@@ -2579,7 +2579,7 @@ aBuilder
 return
 NS_OK
 ;
-PRBool
+bool
 isRoot
 =
 aBuilder
@@ -2978,9 +2978,9 @@ nsTableFrame
 aTableFrame
 nscoord
 aCellSpacingX
-PRBool
+bool
 aIsLeftToRight
-PRBool
+bool
 aCheckVisibility
 )
 {
@@ -3014,10 +3014,10 @@ colX
 +
 )
 {
-PRBool
+bool
 isCollapsed
 =
-PR_FALSE
+false
 ;
 if
 (
@@ -3061,7 +3061,7 @@ GetStyleVisibility
 (
 )
 ;
-PRBool
+bool
 collapseCol
 =
 (
@@ -3097,7 +3097,7 @@ GetStyleVisibility
 (
 )
 ;
-PRBool
+bool
 collapseGroup
 =
 (
@@ -3183,10 +3183,10 @@ colX
 -
 )
 {
-PRBool
+bool
 isCollapsed
 =
-PR_FALSE
+false
 ;
 if
 (
@@ -3230,7 +3230,7 @@ GetStyleVisibility
 (
 )
 ;
-PRBool
+bool
 collapseCol
 =
 (
@@ -3266,7 +3266,7 @@ GetStyleVisibility
 (
 )
 ;
-PRBool
+bool
 collapseGroup
 =
 (
@@ -3463,7 +3463,7 @@ aStatus
 =
 NS_FRAME_COMPLETE
 ;
-PRBool
+bool
 borderCollapse
 =
 (
@@ -3485,7 +3485,7 @@ IsBorderCollapse
 )
 )
 ;
-PRBool
+bool
 isPaginated
 =
 aPresContext
@@ -3664,10 +3664,10 @@ NS_FRAME_REFLOW_FINISHED
 continue
 ;
 }
-PRBool
+bool
 doReflowChild
 =
-PR_TRUE
+true
 ;
 if
 (
@@ -3895,7 +3895,7 @@ GetVisualOverflowRect
 (
 )
 ;
-PRBool
+bool
 firstReflow
 =
 (
@@ -4650,7 +4650,7 @@ GetStyleVisibility
 (
 )
 ;
-PRBool
+bool
 collapseRow
 =
 (
@@ -4757,7 +4757,7 @@ const
 nsHTMLReflowState
 &
 aReflowState
-PRBool
+bool
 aIsTopOfPage
 nsTableCellFrame
 *
@@ -4820,7 +4820,7 @@ width
 aAvailableHeight
 )
 ;
-PRBool
+bool
 borderCollapse
 =
 (
@@ -4883,7 +4883,7 @@ NS_FRAME_NO_MOVE_FRAME
 aStatus
 )
 ;
-PRBool
+bool
 fullyComplete
 =
 NS_FRAME_IS_COMPLETE
@@ -4989,9 +4989,9 @@ nscoord
 aRowOffset
 nscoord
 aWidth
-PRBool
+bool
 aCollapseGroup
-PRBool
+bool
 &
 aDidCollapse
 )
@@ -5005,7 +5005,7 @@ GetStyleVisibility
 (
 )
 ;
-PRBool
+bool
 collapseRow
 =
 (
@@ -5451,10 +5451,10 @@ actualColSpan
 =
 cellColSpan
 ;
-PRBool
+bool
 isVisible
 =
-PR_FALSE
+false
 ;
 for
 (
@@ -5500,7 +5500,7 @@ GetStyleVisibility
 (
 )
 ;
-PRBool
+bool
 collapseCol
 =
 (
@@ -5536,7 +5536,7 @@ GetStyleVisibility
 (
 )
 ;
-PRBool
+bool
 collapseGroup
 =
 (
@@ -5549,7 +5549,7 @@ groupVis
 mVisible
 )
 ;
-PRBool
+bool
 isCollapsed
 =
 collapseCol
@@ -5716,7 +5716,7 @@ GetStyleVisibility
 (
 )
 ;
-PRBool
+bool
 collapseNextRow
 =
 (

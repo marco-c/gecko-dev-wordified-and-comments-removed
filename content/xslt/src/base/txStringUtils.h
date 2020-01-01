@@ -34,7 +34,7 @@ nsCaseInsensitiveStringComparator
 txCaseInsensitiveStringComparator
 ;
 inline
-PRBool
+bool
 TX_StringEqualsAtom
 (
 const

@@ -101,7 +101,7 @@ mServiceFlags
 nsString
 mUsername
 ;
-PRBool
+bool
 mComplete
 ;
 }

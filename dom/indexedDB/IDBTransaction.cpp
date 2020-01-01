@@ -3732,7 +3732,7 @@ OnProcessNextEvent
 nsIThreadInternal
 *
 aThread
-PRBool
+bool
 aMayWait
 PRUint32
 aRecursionDepth
@@ -4176,7 +4176,7 @@ event
 NS_ERROR_DOM_INDEXEDDB_UNKNOWN_ERR
 )
 ;
-PRBool
+bool
 dummy
 ;
 if

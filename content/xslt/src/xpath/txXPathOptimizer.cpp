@@ -99,7 +99,7 @@ return
 NS_ERROR_FAILURE
 ;
 }
-PRBool
+bool
 isStripSpaceAllowed
 (
 const

@@ -411,12 +411,6 @@ TestString
 ]
 )
 ;
-TestPRBool
-(
-[
-]
-)
-;
 TestPRInt32
 (
 [
@@ -755,12 +749,6 @@ TestWchar
 }
 function
 TestString
-(
-)
-{
-}
-function
-TestPRBool
 (
 )
 {

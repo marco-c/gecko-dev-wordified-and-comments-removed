@@ -291,7 +291,7 @@ nsIDOMSVGLength
 sAnimSVGLengthTearoffTable
 ;
 static
-PRBool
+bool
 IsValidUnitType
 (
 PRUint16
@@ -1665,7 +1665,7 @@ aValueAsString
 nsSVGElement
 *
 aSVGElement
-PRBool
+bool
 aDoSetAttr
 )
 {
@@ -2006,7 +2006,7 @@ nsISMILAnimationElement
 nsSMILValue
 &
 aValue
-PRBool
+bool
 &
 aPreventCachingOfSandwich
 )

@@ -398,7 +398,7 @@ if
 blockParent
 )
 {
-PRBool
+bool
 isValid
 ;
 nsBlockInFlowLineIterator
@@ -892,7 +892,7 @@ NS_OK
 ;
 }
 static
-PRBool
+bool
 DrawCJKCaret
 (
 nsIFrame
@@ -1238,7 +1238,7 @@ nsCaret
 :
 SetCaretVisible
 (
-PRBool
+bool
 inMakeVisible
 )
 {
@@ -1280,7 +1280,7 @@ nsCaret
 :
 GetCaretVisible
 (
-PRBool
+bool
 *
 outMakeVisible
 )
@@ -1313,7 +1313,7 @@ nsCaret
 :
 SetCaretReadOnly
 (
-PRBool
+bool
 inMakeReadonly
 )
 {
@@ -1890,7 +1890,7 @@ nsCaret
 :
 SetVisibilityDuringSelection
 (
-PRBool
+bool
 aVisibility
 )
 {
@@ -2705,7 +2705,7 @@ KillTimer
 )
 ;
 }
-PRBool
+bool
 nsCaret
 :
 :
@@ -2723,7 +2723,7 @@ HINT
 aFrameHint
 PRUint8
 aBidiLevel
-PRBool
+bool
 aInvalidate
 )
 {
@@ -3850,13 +3850,13 @@ return
 NS_OK
 ;
 }
-PRBool
+bool
 nsCaret
 :
 :
 MustDrawCaret
 (
-PRBool
+bool
 aIgnoreDrawnState
 )
 {
@@ -3890,7 +3890,7 @@ domSelection
 return
 PR_FALSE
 ;
-PRBool
+bool
 isCollapsed
 ;
 if
@@ -3930,7 +3930,7 @@ return
 isCollapsed
 ;
 }
-PRBool
+bool
 nsCaret
 :
 :
@@ -4145,7 +4145,7 @@ nsCaret
 :
 DrawCaret
 (
-PRBool
+bool
 aInvalidate
 )
 {
@@ -4253,10 +4253,10 @@ privateSelection
 )
 return
 ;
-PRBool
+bool
 isCollapsed
 =
-PR_FALSE
+false
 ;
 domSelection
 -
@@ -4278,7 +4278,7 @@ isCollapsed
 )
 return
 ;
-PRBool
+bool
 hintRight
 ;
 privateSelection
@@ -4456,7 +4456,7 @@ ToggleDrawnStatus
 )
 ;
 }
-PRBool
+bool
 nsCaret
 :
 :
@@ -4549,10 +4549,10 @@ SetEmpty
 (
 )
 ;
-PRBool
+bool
 isCaretRTL
 =
-PR_FALSE
+false
 ;
 nsIBidiKeyboard
 *
@@ -4821,7 +4821,7 @@ nsCaret
 :
 SetIgnoreUserModify
 (
-PRBool
+bool
 aIgnoreUserModify
 )
 {

@@ -61,7 +61,7 @@ nsCOMPtr
 .
 h
 "
-PRBool
+bool
 LoopInDir
 (
 nsILocalFile
@@ -105,7 +105,7 @@ entries
 return
 PR_FALSE
 ;
-PRBool
+bool
 hasMore
 ;
 while
@@ -189,7 +189,7 @@ name
 return
 PR_FALSE
 ;
-PRBool
+bool
 isDir
 ;
 printf

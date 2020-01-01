@@ -169,7 +169,7 @@ aH2
 ;
 }
 inline
-PRBool
+bool
 NS_UpdateHint
 (
 nsChangeHint
@@ -191,7 +191,7 @@ aDest
 aSrc
 )
 ;
-PRBool
+bool
 changed
 =
 (
@@ -214,7 +214,7 @@ changed
 ;
 }
 inline
-PRBool
+bool
 NS_IsHintSubset
 (
 nsChangeHint

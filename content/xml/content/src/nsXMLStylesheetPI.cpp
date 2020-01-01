@@ -141,7 +141,7 @@ aParent
 nsIContent
 *
 aBindingParent
-PRBool
+bool
 aCompileEventHandlers
 )
 ;
@@ -149,14 +149,14 @@ virtual
 void
 UnbindFromTree
 (
-PRBool
+bool
 aDeep
 =
-PR_TRUE
-PRBool
+true
+bool
 aNullParent
 =
-PR_TRUE
+true
 )
 ;
 virtual
@@ -197,7 +197,7 @@ nsIURI
 >
 GetStyleSheetURL
 (
-PRBool
+bool
 *
 aIsInline
 )
@@ -214,7 +214,7 @@ aType
 nsAString
 &
 aMedia
-PRBool
+bool
 *
 aIsAlternate
 )
@@ -227,7 +227,7 @@ CloneDataNode
 nsINodeInfo
 *
 aNodeInfo
-PRBool
+bool
 aCloneText
 )
 const
@@ -316,7 +316,7 @@ aParent
 nsIContent
 *
 aBindingParent
-PRBool
+bool
 aCompileEventHandlers
 )
 {
@@ -379,9 +379,9 @@ nsXMLStylesheetPI
 :
 UnbindFromTree
 (
-PRBool
+bool
 aDeep
-PRBool
+bool
 aNullParent
 )
 {
@@ -503,7 +503,7 @@ nsXMLStylesheetPI
 :
 GetStyleSheetURL
 (
-PRBool
+bool
 *
 aIsInline
 )
@@ -631,7 +631,7 @@ aType
 nsAString
 &
 aMedia
-PRBool
+bool
 *
 aIsAlternate
 )
@@ -841,7 +841,7 @@ CloneDataNode
 nsINodeInfo
 *
 aNodeInfo
-PRBool
+bool
 aCloneText
 )
 const

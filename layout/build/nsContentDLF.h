@@ -188,7 +188,7 @@ EnsureUAStyleSheet
 )
 ;
 static
-PRBool
+bool
 IsImageContentType
 (
 const

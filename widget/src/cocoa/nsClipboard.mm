@@ -1681,7 +1681,7 @@ source
 NULL
 )
 ;
-PRBool
+bool
 successfullyConverted
 =
 CGImageDestinationFinalize
@@ -2164,7 +2164,7 @@ PRUint32
 aLength
 PRInt32
 aWhichClipboard
-PRBool
+bool
 *
 outResult
 )
@@ -3120,7 +3120,7 @@ imageRef
 NULL
 )
 ;
-PRBool
+bool
 successfullyConverted
 =
 CGImageDestinationFinalize
@@ -3613,7 +3613,7 @@ pasteboardOutputDict
 NS_OBJC_END_TRY_ABORT_BLOCK_NIL
 ;
 }
-PRBool
+bool
 nsClipboard
 :
 :

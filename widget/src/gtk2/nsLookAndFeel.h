@@ -91,7 +91,7 @@ GetPasswordCharacterImpl
 )
 ;
 virtual
-PRBool
+bool
 GetEchoPasswordImpl
 (
 )
@@ -175,7 +175,7 @@ float
 sCaretRatio
 ;
 static
-PRBool
+bool
 sMenuSupportsDrag
 ;
 static

@@ -64,7 +64,7 @@ const
 0
 ;
 virtual
-PRBool
+bool
 IsEqual
 (
 const

@@ -117,7 +117,7 @@ nsSVGAltGlyphElementBase
 )
 NS_IMETHOD_
 (
-PRBool
+bool
 )
 IsAttributeMapped
 (
@@ -158,7 +158,7 @@ GetStringInfo
 )
 ;
 virtual
-PRBool
+bool
 IsEventName
 (
 nsIAtom
@@ -401,7 +401,7 @@ PR_TRUE
 }
 NS_IMETHODIMP_
 (
-PRBool
+bool
 )
 nsSVGAltGlyphElement
 :
@@ -453,7 +453,7 @@ name
 )
 ;
 }
-PRBool
+bool
 nsSVGAltGlyphElement
 :
 :

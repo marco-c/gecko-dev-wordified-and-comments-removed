@@ -394,7 +394,7 @@ Length
 ;
 }
 }
-PRBool
+bool
 DOMSVGAnimatedLengthList
 :
 :

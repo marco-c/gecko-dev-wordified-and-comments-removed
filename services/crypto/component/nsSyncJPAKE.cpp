@@ -92,7 +92,7 @@ nsString
 h
 >
 static
-PRBool
+bool
 hex_from_2char
 (
 const
@@ -308,7 +308,7 @@ PR_TRUE
 ;
 }
 static
-PRBool
+bool
 fromHex
 (
 const
@@ -459,7 +459,7 @@ NS_OK
 ;
 }
 static
-PRBool
+bool
 toHexString
 (
 const
@@ -1287,10 +1287,10 @@ IsEmpty
 )
 )
 ;
-PRBool
+bool
 foundNonZero
 =
-PR_FALSE
+false
 ;
 for
 (
@@ -1739,10 +1739,10 @@ ulRLen
 sizeof
 gxABuf
 ;
-PRBool
+bool
 gx4Good
 =
-PR_FALSE
+false
 ;
 for
 (

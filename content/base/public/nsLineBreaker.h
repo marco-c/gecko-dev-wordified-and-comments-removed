@@ -59,7 +59,7 @@ PRUint32
 aStart
 PRUint32
 aLength
-PRPackedBool
+bool
 *
 aCapitalize
 )
@@ -84,7 +84,7 @@ nsLineBreaker
 ;
 static
 inline
-PRBool
+bool
 IsSpace
 (
 PRUnichar
@@ -100,7 +100,7 @@ u
 }
 static
 inline
-PRBool
+bool
 IsComplexASCIIChar
 (
 PRUnichar
@@ -163,7 +163,7 @@ u
 }
 static
 inline
-PRBool
+bool
 IsComplexChar
 (
 PRUnichar
@@ -320,7 +320,7 @@ aSink
 nsresult
 Reset
 (
-PRBool
+bool
 *
 aTrailingBreak
 )
@@ -426,16 +426,16 @@ nsIAtom
 *
 mCurrentWordLangGroup
 ;
-PRPackedBool
+bool
 mCurrentWordContainsMixedLang
 ;
-PRPackedBool
+bool
 mCurrentWordContainsComplexChar
 ;
-PRPackedBool
+bool
 mAfterBreakableSpace
 ;
-PRPackedBool
+bool
 mBreakHere
 ;
 }

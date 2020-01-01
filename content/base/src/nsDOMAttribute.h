@@ -100,7 +100,7 @@ const
 nsAString
 &
 aValue
-PRBool
+bool
 aNsAware
 )
 ;
@@ -146,7 +146,7 @@ aDocument
 )
 ;
 virtual
-PRBool
+bool
 IsNodeOfType
 (
 PRUint32
@@ -203,7 +203,7 @@ nsIContent
 aKid
 PRUint32
 aIndex
-PRBool
+bool
 aNotify
 )
 ;
@@ -214,7 +214,7 @@ AppendChildTo
 nsIContent
 *
 aKid
-PRBool
+bool
 aNotify
 )
 ;
@@ -224,7 +224,7 @@ RemoveChildAt
 (
 PRUint32
 aIndex
-PRBool
+bool
 aNotify
 )
 ;
@@ -299,7 +299,7 @@ GetContentInternal
 ;
 }
 static
-PRBool
+bool
 sInitialized
 ;
 private

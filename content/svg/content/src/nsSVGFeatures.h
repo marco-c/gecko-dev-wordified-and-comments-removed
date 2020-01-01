@@ -23,7 +23,7 @@ nsSVGFeatures
 public
 :
 static
-PRBool
+bool
 HaveFeature
 (
 nsISupports
@@ -57,7 +57,7 @@ const
 kIgnoreSystemLanguage
 ;
 static
-PRBool
+bool
 PassesConditionalProcessingTests
 (
 nsIContent
@@ -74,7 +74,7 @@ nsnull
 private
 :
 static
-PRBool
+bool
 HaveFeatures
 (
 nsISupports
@@ -87,7 +87,7 @@ aFeatures
 )
 ;
 static
-PRBool
+bool
 HaveExtension
 (
 const
@@ -97,7 +97,7 @@ aExtension
 )
 ;
 static
-PRBool
+bool
 HaveExtensions
 (
 const
@@ -107,7 +107,7 @@ aExtensions
 )
 ;
 static
-PRBool
+bool
 MatchesLanguagePreferences
 (
 const
@@ -121,7 +121,7 @@ aAcceptLangs
 )
 ;
 static
-PRBool
+bool
 ElementSupportsAttributes
 (
 const

@@ -1658,7 +1658,7 @@ css
 ImportRule
 )
 static
-PRBool
+bool
 CloneRuleInto
 (
 css
@@ -1732,7 +1732,7 @@ Rule
 {
 }
 static
-PRBool
+bool
 SetParentRuleReference
 (
 Rule
@@ -1860,7 +1860,7 @@ GroupRule
 Rule
 )
 static
-PRBool
+bool
 SetStyleSheetReference
 (
 Rule
@@ -2070,7 +2070,7 @@ aIndex
 )
 ;
 }
-PRBool
+bool
 GroupRule
 :
 :
@@ -3163,7 +3163,7 @@ aIndex
 )
 ;
 }
-PRBool
+bool
 MediaRule
 :
 :
@@ -3890,7 +3890,7 @@ aIndex
 )
 ;
 }
-PRBool
+bool
 DocumentRule
 :
 :
@@ -6874,7 +6874,7 @@ nsCSSKeyframeStyleDeclaration
 :
 GetCSSDeclaration
 (
-PRBool
+bool
 aAllocate
 )
 {
@@ -8294,7 +8294,7 @@ return
 NS_OK
 ;
 }
-PRBool
+bool
 nsCSSKeyframesRule
 :
 :

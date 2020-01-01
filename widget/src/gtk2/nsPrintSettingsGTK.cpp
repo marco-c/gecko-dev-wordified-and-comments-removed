@@ -1074,7 +1074,7 @@ nsPrintSettingsGTK
 :
 GetPrintReversed
 (
-PRBool
+bool
 *
 aPrintReversed
 )
@@ -1097,7 +1097,7 @@ nsPrintSettingsGTK
 :
 SetPrintReversed
 (
-PRBool
+bool
 aPrintReversed
 )
 {
@@ -1117,7 +1117,7 @@ nsPrintSettingsGTK
 :
 GetPrintInColor
 (
-PRBool
+bool
 *
 aPrintInColor
 )
@@ -1140,7 +1140,7 @@ nsPrintSettingsGTK
 :
 SetPrintInColor
 (
-PRBool
+bool
 aPrintInColor
 )
 {

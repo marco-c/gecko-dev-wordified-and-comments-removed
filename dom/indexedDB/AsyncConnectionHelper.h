@@ -322,7 +322,7 @@ mTimeoutDuration
 nsresult
 mResultCode
 ;
-PRPackedBool
+bool
 mDispatched
 ;
 }

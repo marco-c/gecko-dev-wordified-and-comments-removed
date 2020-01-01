@@ -45,7 +45,7 @@ nsSVGStringProxyValue
 (
 )
 ;
-PRBool
+bool
 Init
 (
 nsISVGValue
@@ -104,7 +104,7 @@ nsISVGValue
 >
 mProxiedValue
 ;
-PRPackedBool
+bool
 mUseCachedValue
 ;
 }
@@ -233,7 +233,7 @@ n
 #
 endif
 }
-PRBool
+bool
 nsSVGStringProxyValue
 :
 :

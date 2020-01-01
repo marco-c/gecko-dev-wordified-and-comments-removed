@@ -184,13 +184,13 @@ mTexture
 PRUint32
 mCanvasFramebuffer
 ;
-PRPackedBool
+bool
 mDataIsPremultiplied
 ;
-PRPackedBool
+bool
 mNeedsYFlip
 ;
-PRPackedBool
+bool
 mHasAlpha
 ;
 }
@@ -306,7 +306,7 @@ bool
 needYFlip
 )
 ;
-PRPackedBool
+bool
 mNeedsYFlip
 ;
 nsRefPtr

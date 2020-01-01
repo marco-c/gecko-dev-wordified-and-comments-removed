@@ -498,7 +498,7 @@ val
 b
 =
 (
-PRBool
+bool
 )
 theParam
 ;

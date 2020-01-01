@@ -877,7 +877,7 @@ holder
 return
 false
 ;
-PRBool
+bool
 retval
 =
 true
@@ -1021,7 +1021,7 @@ holder
 return
 false
 ;
-PRBool
+bool
 retval
 =
 true
@@ -2537,7 +2537,7 @@ if
 ssm
 )
 {
-PRBool
+bool
 privileged
 ;
 if
@@ -3092,7 +3092,7 @@ return
 true
 ;
 }
-PRBool
+bool
 retval
 =
 true
@@ -4985,10 +4985,10 @@ IsValid
 return
 false
 ;
-PRBool
+bool
 ok
 =
-PR_TRUE
+true
 ;
 nsresult
 rv
@@ -5138,10 +5138,10 @@ IsValid
 return
 false
 ;
-PRBool
+bool
 ok
 =
-PR_TRUE
+true
 ;
 nsresult
 rv

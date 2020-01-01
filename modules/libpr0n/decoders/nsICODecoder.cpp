@@ -296,7 +296,7 @@ GetDecodeDone
 ;
 }
 }
-PRBool
+bool
 nsICODecoder
 :
 :

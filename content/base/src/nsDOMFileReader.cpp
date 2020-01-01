@@ -2346,7 +2346,7 @@ progress
 )
 return
 ;
-PRBool
+bool
 known
 ;
 PRUint64
@@ -2972,7 +2972,7 @@ Init
 this
 )
 ;
-PRBool
+bool
 done
 ;
 rv

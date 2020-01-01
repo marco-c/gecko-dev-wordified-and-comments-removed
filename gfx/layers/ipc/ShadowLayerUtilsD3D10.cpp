@@ -36,7 +36,7 @@ mozilla
 namespace
 layers
 {
-PRBool
+bool
 ShadowLayerForwarder
 :
 :
@@ -59,7 +59,7 @@ return
 PR_FALSE
 ;
 }
-PRBool
+bool
 ShadowLayerForwarder
 :
 :
@@ -98,7 +98,7 @@ return
 nsnull
 ;
 }
-PRBool
+bool
 ShadowLayerForwarder
 :
 :
@@ -121,7 +121,7 @@ PlatformSyncBeforeUpdate
 )
 {
 }
-PRBool
+bool
 ShadowLayerManager
 :
 :

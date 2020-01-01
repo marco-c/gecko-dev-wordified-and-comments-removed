@@ -199,7 +199,7 @@ mImage
 aImage
 ;
 }
-PRBool
+bool
 imgStatusTracker
 :
 :
@@ -999,7 +999,7 @@ imgRequestProxy
 aProxy
 nsresult
 aStatus
-PRBool
+bool
 aOnlySendStopRequest
 )
 {
@@ -1405,7 +1405,7 @@ imgStatusTracker
 :
 RecordDataAvailable
 (
-PRBool
+bool
 aCurrentFrame
 const
 nsIntRect
@@ -1437,7 +1437,7 @@ SendDataAvailable
 imgRequestProxy
 *
 aProxy
-PRBool
+bool
 aCurrentFrame
 const
 nsIntRect
@@ -1921,7 +1921,7 @@ imgStatusTracker
 :
 RecordStopRequest
 (
-PRBool
+bool
 aLastPart
 nsresult
 aStatus
@@ -1961,7 +1961,7 @@ SendStopRequest
 imgRequestProxy
 *
 aProxy
-PRBool
+bool
 aLastPart
 nsresult
 aStatus

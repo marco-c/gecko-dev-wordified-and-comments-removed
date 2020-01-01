@@ -1636,7 +1636,7 @@ PRUint64
 aTrueState
 PRUint64
 aFalseState
-PRBool
+bool
 aDefinedIfAbsent
 )
 :
@@ -1873,7 +1873,7 @@ mDefaultState
 aState1
 ;
 }
-PRBool
+bool
 nsStateMapEntry
 :
 :
@@ -1919,7 +1919,7 @@ entry
 mIsToken
 )
 {
-PRBool
+bool
 hasAttr
 =
 aContent
@@ -2075,10 +2075,10 @@ attrValue
 return
 PR_TRUE
 ;
-PRBool
+bool
 applyDefaultStates
 =
-PR_TRUE
+true
 ;
 if
 (

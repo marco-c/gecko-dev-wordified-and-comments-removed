@@ -509,7 +509,7 @@ mRetainingManager
 ;
 }
 static
-PRBool
+bool
 NeedToInvalidateFixedDisplayItem
 (
 nsDisplayListBuilder
@@ -521,7 +521,7 @@ aItem
 )
 ;
 static
-PRBool
+bool
 HasRetainedLayerFor
 (
 nsIFrame
@@ -655,7 +655,7 @@ RoundedRect
 >
 mRoundedClipRects
 ;
-PRPackedBool
+bool
 mHaveClipRect
 ;
 Clip
@@ -847,7 +847,7 @@ aFrame
 void
 *
 aPropertyValue
-PRBool
+bool
 aRemoveFromFramesWithLayers
 )
 ;
@@ -934,7 +934,7 @@ ALLOW_MEMMOVE
 )
 ;
 }
-PRBool
+bool
 HasNonEmptyContainerLayer
 (
 )
@@ -985,7 +985,7 @@ mItem
 Clip
 mClip
 ;
-PRPackedBool
+bool
 mInactiveLayer
 ;
 }
@@ -1077,7 +1077,7 @@ mContainerLayerFrame
 nsIntPoint
 mLastPaintOffset
 ;
-PRPackedBool
+bool
 mHasExplicitLastPaintOffset
 ;
 enum
@@ -1124,7 +1124,7 @@ void
 aUserArg
 )
 ;
-PRBool
+bool
 CheckDOMModified
 (
 )
@@ -1152,10 +1152,10 @@ mThebesLayerItems
 PRUint32
 mInitialDOMGeneration
 ;
-PRPackedBool
+bool
 mDetectedDOMModification
 ;
-PRPackedBool
+bool
 mInvalidateAllLayers
 ;
 }

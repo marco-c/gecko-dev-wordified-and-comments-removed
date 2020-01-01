@@ -139,13 +139,13 @@ mEventID
 ;
 }
 ;
-PRPackedBool
+bool
 mLinkUp
 ;
-PRPackedBool
+bool
 mStatusKnown
 ;
-PRPackedBool
+bool
 mCheckAttempted
 ;
 nsresult

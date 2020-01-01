@@ -285,7 +285,7 @@ return
 end
 ;
 }
-PRBool
+bool
 nsHtml5UTF16Buffer
 :
 :
@@ -305,7 +305,7 @@ nsHtml5UTF16Buffer
 :
 adjust
 (
-PRBool
+bool
 lastWasCR
 )
 {

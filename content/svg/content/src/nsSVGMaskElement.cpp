@@ -399,7 +399,7 @@ sEnumInfo
 }
 NS_IMETHODIMP_
 (
-PRBool
+bool
 )
 nsSVGMaskElement
 :

@@ -325,7 +325,7 @@ link
 )
 )
 {
-PRBool
+bool
 hasAttr
 ;
 content
@@ -495,7 +495,7 @@ a
 )
 )
 {
-PRBool
+bool
 hasAttr
 ;
 content
@@ -849,7 +849,7 @@ aRequest
 )
 ;
 }
-PRBool
+bool
 nsContextMenuInfo
 :
 :

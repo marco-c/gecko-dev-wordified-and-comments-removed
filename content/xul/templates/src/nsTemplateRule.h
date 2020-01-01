@@ -111,9 +111,9 @@ aRelation
 nsIAtom
 *
 aTargetVariable
-PRBool
+bool
 mIgnoreCase
-PRBool
+bool
 mNegate
 )
 ;
@@ -130,11 +130,11 @@ const
 nsAString
 &
 aTargets
-PRBool
+bool
 mIgnoreCase
-PRBool
+bool
 mNegate
-PRBool
+bool
 aIsMultiple
 )
 ;
@@ -151,9 +151,9 @@ aRelation
 nsIAtom
 *
 aTargetVariable
-PRBool
+bool
 mIgnoreCase
-PRBool
+bool
 mNegate
 )
 ;
@@ -200,7 +200,7 @@ nsAString
 aRelation
 )
 ;
-PRBool
+bool
 CheckMatch
 (
 nsIXULTemplateResult
@@ -208,7 +208,7 @@ nsIXULTemplateResult
 aResult
 )
 ;
-PRBool
+bool
 CheckMatchStrings
 (
 const
@@ -247,10 +247,10 @@ nsString
 >
 mTargetList
 ;
-PRPackedBool
+bool
 mIgnoreCase
 ;
-PRPackedBool
+bool
 mNegate
 ;
 nsTemplateCondition
@@ -385,7 +385,7 @@ nsTemplateCondition
 aConditions
 )
 ;
-PRBool
+bool
 CheckMatch
 (
 nsIXULTemplateResult
@@ -394,7 +394,7 @@ aResult
 )
 const
 ;
-PRBool
+bool
 HasBinding
 (
 nsIAtom

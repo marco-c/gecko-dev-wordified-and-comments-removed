@@ -426,7 +426,7 @@ define
 NTLM_RESP_LEN
 24
 static
-PRBool
+bool
 SendLM
 (
 )
@@ -450,7 +450,7 @@ prefs
 return
 PR_FALSE
 ;
-PRBool
+bool
 val
 ;
 nsresult
@@ -2413,7 +2413,7 @@ rv
 return
 rv
 ;
-PRBool
+bool
 unicode
 =
 (
@@ -3374,7 +3374,7 @@ void
 inToken
 PRUint32
 inTokenLen
-PRBool
+bool
 confidential
 void
 *

@@ -263,7 +263,7 @@ PRUint16
 aWeight
 PRInt16
 aStretch
-PRBool
+bool
 aItalic
 )
 :
@@ -322,7 +322,7 @@ PRUint16
 aWeight
 PRInt16
 aStretch
-PRBool
+bool
 aItalic
 )
 :
@@ -371,7 +371,7 @@ gfxDWriteFontEntry
 )
 ;
 virtual
-PRBool
+bool
 IsSymbolFont
 (
 )
@@ -395,7 +395,7 @@ ReadCMAP
 (
 )
 ;
-PRBool
+bool
 IsCJKFont
 (
 )
@@ -440,7 +440,7 @@ const
 gfxFontStyle
 *
 aFontStyle
-PRBool
+bool
 aNeedsBold
 )
 ;
@@ -458,7 +458,7 @@ DWRITE_FONT_SIMULATIONS_NONE
 )
 ;
 static
-PRBool
+bool
 InitLogFont
 (
 IDWriteFont
@@ -537,7 +537,7 @@ const
 gfxFontStyle
 *
 aStyle
-PRBool
+bool
 &
 aNeedsBold
 )
@@ -575,7 +575,7 @@ aLength
 )
 ;
 virtual
-PRBool
+bool
 ResolveFontName
 (
 const
@@ -587,7 +587,7 @@ nsAString
 aResolvedFontName
 )
 ;
-PRBool
+bool
 GetStandardFamilyName
 (
 const
@@ -609,7 +609,7 @@ return
 mGDIInterop
 ;
 }
-PRBool
+bool
 UseGDIFontTableAccess
 (
 )
@@ -689,7 +689,7 @@ FontTable
 FontTable
 mFontSubstitutes
 ;
-PRBool
+bool
 mInitialized
 ;
 virtual
@@ -701,7 +701,7 @@ DelayedInitFontList
 gfxFloat
 mForceGDIClassicMaxFontSize
 ;
-PRBool
+bool
 mGDIFontTableAccess
 ;
 nsRefPtr

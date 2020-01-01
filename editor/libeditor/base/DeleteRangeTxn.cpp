@@ -72,10 +72,10 @@ h
 ifdef
 NS_DEBUG
 static
-PRBool
+bool
 gNoisy
 =
-PR_FALSE
+false
 ;
 #
 endif
@@ -800,7 +800,7 @@ result
 result
 )
 ;
-PRBool
+bool
 bAdjustSelection
 ;
 mEditor

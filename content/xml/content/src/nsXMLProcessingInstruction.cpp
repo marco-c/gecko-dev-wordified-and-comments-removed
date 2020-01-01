@@ -324,7 +324,7 @@ return
 NS_OK
 ;
 }
-PRBool
+bool
 nsXMLProcessingInstruction
 :
 :
@@ -358,7 +358,7 @@ aValue
 )
 ;
 }
-PRBool
+bool
 nsXMLProcessingInstruction
 :
 :
@@ -395,7 +395,7 @@ CloneDataNode
 nsINodeInfo
 *
 aNodeInfo
-PRBool
+bool
 aCloneText
 )
 const
@@ -563,7 +563,7 @@ FILE
 out
 PRInt32
 aIndent
-PRBool
+bool
 aDumpAll
 )
 const

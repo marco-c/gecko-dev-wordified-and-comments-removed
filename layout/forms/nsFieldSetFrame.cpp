@@ -229,7 +229,7 @@ nsSize
 aBorder
 nsSize
 aPadding
-PRBool
+bool
 aShrinkWrap
 )
 ;
@@ -332,7 +332,7 @@ GetType
 const
 ;
 virtual
-PRBool
+bool
 IsContainingBlock
 (
 )
@@ -485,7 +485,7 @@ nsGkAtoms
 fieldSetFrame
 ;
 }
-PRBool
+bool
 nsFieldSetFrame
 :
 :
@@ -1452,7 +1452,7 @@ nsSize
 aBorder
 nsSize
 aPadding
-PRBool
+bool
 aShrinkWrap
 )
 {
@@ -1560,10 +1560,10 @@ aStatus
 =
 NS_FRAME_COMPLETE
 ;
-PRBool
+bool
 reflowContent
 ;
-PRBool
+bool
 reflowLegend
 ;
 if

@@ -2486,10 +2486,10 @@ STGMEDIUM
 )
 ;
 }
-PRBool
+bool
 result
 =
-PR_TRUE
+true
 ;
 if
 (
@@ -2557,7 +2557,7 @@ return
 S_OK
 ;
 }
-PRBool
+bool
 nsDataObj
 :
 :
@@ -2783,7 +2783,7 @@ return
 PR_TRUE
 ;
 }
-PRBool
+bool
 nsDataObj
 :
 :
@@ -3381,7 +3381,7 @@ aFE
 STGMEDIUM
 &
 aSTG
-PRBool
+bool
 aIsUnicode
 )
 {
@@ -3736,7 +3736,7 @@ break
 }
 }
 static
-PRBool
+bool
 CreateFilenameFromTextA
 (
 nsString
@@ -3886,7 +3886,7 @@ PR_FALSE
 }
 }
 static
-PRBool
+bool
 CreateFilenameFromTextW
 (
 nsString
@@ -4002,7 +4002,7 @@ pageInfo
 properties
 "
 static
-PRBool
+bool
 GetLocalizedString
 (
 const
@@ -4716,7 +4716,7 @@ return
 S_OK
 ;
 }
-PRBool
+bool
 nsDataObj
 :
 :
@@ -4728,10 +4728,10 @@ char
 inFlavour
 )
 {
-PRBool
+bool
 retval
 =
-PR_FALSE
+false
 ;
 NS_ENSURE_TRUE
 (
@@ -8144,7 +8144,7 @@ aFE
 STGMEDIUM
 &
 aSTG
-PRBool
+bool
 aIsUnicode
 )
 {

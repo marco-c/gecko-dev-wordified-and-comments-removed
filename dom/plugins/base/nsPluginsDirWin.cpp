@@ -597,7 +597,7 @@ array
 ;
 }
 static
-PRBool
+bool
 CanLoadPlugin
 (
 const
@@ -624,10 +624,10 @@ defined
 (
 _M_IA64
 )
-PRBool
+bool
 canLoad
 =
-PR_FALSE
+false
 ;
 HANDLE
 file
@@ -839,7 +839,7 @@ PR_TRUE
 #
 endif
 }
-PRBool
+bool
 nsPluginsDir
 :
 :
@@ -1072,10 +1072,10 @@ plugin
 return
 NS_ERROR_NULL_POINTER
 ;
-PRBool
+bool
 protectCurrentDirectory
 =
-PR_TRUE
+true
 ;
 nsAutoString
 pluginFolderPath

@@ -154,7 +154,7 @@ Mutex
 >
 mLock
 ;
-PRBool
+bool
 mInitialized
 ;
 }

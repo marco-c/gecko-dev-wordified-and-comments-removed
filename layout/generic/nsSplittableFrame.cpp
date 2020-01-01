@@ -438,7 +438,7 @@ lastContinuation
 #
 ifdef
 DEBUG
-PRBool
+bool
 nsSplittableFrame
 :
 :
@@ -495,7 +495,7 @@ return
 PR_FALSE
 ;
 }
-PRBool
+bool
 nsSplittableFrame
 :
 :

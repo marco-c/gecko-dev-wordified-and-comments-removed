@@ -1698,7 +1698,7 @@ RasterImage
 :
 GetCurrentFrameIsOpaque
 (
-PRBool
+bool
 *
 aIsOpaque
 )
@@ -1875,7 +1875,7 @@ RasterImage
 :
 GetAnimated
 (
-PRBool
+bool
 *
 aAnimated
 )
@@ -7123,7 +7123,7 @@ UnlockImageData
 )
 ;
 }
-PRBool
+bool
 RasterImage
 :
 :
@@ -8013,7 +8013,7 @@ const
 char
 *
 prop
-PRBool
+bool
 *
 _retval
 )
@@ -10068,7 +10068,7 @@ return
 rv
 ;
 }
-PRBool
+bool
 RasterImage
 :
 :
@@ -10093,10 +10093,10 @@ decoder
 "
 )
 ;
-PRBool
+bool
 decodeFinished
 =
-PR_FALSE
+false
 ;
 NS_ABORT_IF_FALSE
 (

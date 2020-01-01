@@ -5555,13 +5555,13 @@ DrawCheckboxOrRadio
 (
 CGContextRef
 cgContext
-PRBool
+bool
 inCheckbox
 const
 HIRect
 &
 inBoxRect
-PRBool
+bool
 inSelected
 nsEventStates
 inState
@@ -6391,7 +6391,7 @@ origin
 y
 )
 ;
-PRBool
+bool
 drawDirect
 ;
 HIRect
@@ -6844,7 +6844,7 @@ const
 HIRect
 &
 inBoxRect
-PRBool
+bool
 inIsDefault
 ThemeButtonValue
 inValue
@@ -7222,7 +7222,7 @@ width
 =
 1
 ;
-PRBool
+bool
 isLast
 =
 IsLastTreeHeaderCell
@@ -7768,7 +7768,7 @@ const
 HIRect
 &
 inBoxRect
-PRBool
+bool
 inDisabled
 nsEventStates
 inState
@@ -8411,9 +8411,9 @@ const
 HIRect
 &
 inBoxRect
-PRBool
+bool
 inIsIndeterminate
-PRBool
+bool
 inIsHorizontal
 double
 inValue
@@ -8591,9 +8591,9 @@ HIRect
 inBoxRect
 nsEventStates
 inState
-PRBool
+bool
 inIsVertical
-PRBool
+bool
 inIsReverse
 PRInt32
 inCurrentValue
@@ -9699,7 +9699,7 @@ const
 CGSize
 &
 aSize
-PRBool
+bool
 aShouldGetButtonStates
 )
 {
@@ -9757,7 +9757,7 @@ pageincrement
 10
 )
 ;
-PRBool
+bool
 isHorizontal
 =
 aFrame
@@ -9782,7 +9782,7 @@ horizontal
 eCaseMatters
 )
 ;
-PRBool
+bool
 isSmall
 =
 aFrame
@@ -10445,7 +10445,7 @@ scrollbarFrame
 ;
 }
 static
-PRBool
+bool
 ToolbarCanBeUnified
 (
 CGContextRef
@@ -11700,10 +11700,10 @@ kThemeMenuTypePopUp
 )
 }
 ;
-PRBool
+bool
 isLeftOfParent
 =
-PR_FALSE
+false
 ;
 if
 (
@@ -11999,7 +11999,7 @@ case
 NS_THEME_RADIO
 :
 {
-PRBool
+bool
 isCheckbox
 =
 (
@@ -13015,7 +13015,7 @@ maxpos
 =
 100
 ;
-PRBool
+bool
 reverse
 =
 aFrame
@@ -14245,7 +14245,7 @@ DoubleMax
 ]
 )
 {
-PRBool
+bool
 isHorizontal
 =
 (
@@ -14272,7 +14272,7 @@ scrollbarFrame
 return
 NS_ERROR_FAILURE
 ;
-PRBool
+bool
 isSmall
 =
 (
@@ -14451,7 +14451,7 @@ CSS
 padding
 values
 .
-PRBool
+bool
 nsNativeThemeCocoa
 :
 :
@@ -14560,7 +14560,7 @@ return
 PR_FALSE
 ;
 }
-PRBool
+bool
 nsNativeThemeCocoa
 :
 :
@@ -14750,7 +14750,7 @@ aWidgetType
 nsIntSize
 *
 aResult
-PRBool
+bool
 *
 aIsOverridable
 )
@@ -15285,7 +15285,7 @@ scrollbarFrame
 return
 NS_ERROR_FAILURE
 ;
-PRBool
+bool
 isSmall
 =
 (
@@ -15303,7 +15303,7 @@ mAppearance
 NS_THEME_SCROLLBAR_SMALL
 )
 ;
-PRBool
+bool
 isHorizontal
 =
 (
@@ -15723,7 +15723,7 @@ aWidgetType
 nsIAtom
 *
 aAttribute
-PRBool
+bool
 *
 aShouldRepaint
 )
@@ -16027,7 +16027,7 @@ return
 NS_OK
 ;
 }
-PRBool
+bool
 nsNativeThemeCocoa
 :
 :
@@ -16476,7 +16476,7 @@ return
 PR_FALSE
 ;
 }
-PRBool
+bool
 nsNativeThemeCocoa
 :
 :
@@ -16521,7 +16521,7 @@ return
 PR_TRUE
 ;
 }
-PRBool
+bool
 nsNativeThemeCocoa
 :
 :
@@ -16575,7 +16575,7 @@ return
 PR_FALSE
 ;
 }
-PRBool
+bool
 nsNativeThemeCocoa
 :
 :

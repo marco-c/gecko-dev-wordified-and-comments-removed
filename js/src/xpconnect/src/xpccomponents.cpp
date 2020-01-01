@@ -105,7 +105,7 @@ errNum
 JSContext
 *
 cx
-PRBool
+bool
 *
 retval
 )
@@ -872,7 +872,7 @@ statep
 jsid
 *
 idp
-PRBool
+bool
 *
 _retval
 )
@@ -1051,7 +1051,7 @@ char
 *
 name
 ;
-PRBool
+bool
 scriptable
 ;
 if
@@ -1184,7 +1184,7 @@ JSObject
 *
 *
 objp
-PRBool
+bool
 *
 _retval
 )
@@ -2038,7 +2038,7 @@ statep
 jsid
 *
 idp
-PRBool
+bool
 *
 _retval
 )
@@ -2223,7 +2223,7 @@ JSString
 *
 jsstr
 ;
-PRBool
+bool
 scriptable
 ;
 if
@@ -2361,7 +2361,7 @@ JSObject
 *
 *
 objp
-PRBool
+bool
 *
 _retval
 )
@@ -3215,7 +3215,7 @@ statep
 jsid
 *
 idp
-PRBool
+bool
 *
 _retval
 )
@@ -3320,7 +3320,7 @@ nsISupports
 >
 isup
 ;
-PRBool
+bool
 hasMore
 ;
 e
@@ -3503,7 +3503,7 @@ JSObject
 *
 *
 objp
-PRBool
+bool
 *
 _retval
 )
@@ -4187,7 +4187,7 @@ statep
 jsid
 *
 idp
-PRBool
+bool
 *
 _retval
 )
@@ -4292,7 +4292,7 @@ nsISupports
 >
 isup
 ;
-PRBool
+bool
 hasMore
 ;
 e
@@ -4457,7 +4457,7 @@ NS_OK
 }
 }
 static
-PRBool
+bool
 IsRegisteredCLSID
 (
 const
@@ -4466,7 +4466,7 @@ char
 str
 )
 {
-PRBool
+bool
 registered
 ;
 nsID
@@ -4552,7 +4552,7 @@ JSObject
 *
 *
 objp
-PRBool
+bool
 *
 _retval
 )
@@ -5246,7 +5246,7 @@ statep
 jsid
 *
 idp
-PRBool
+bool
 *
 _retval
 )
@@ -5449,7 +5449,7 @@ JSObject
 *
 *
 objp
-PRBool
+bool
 *
 _retval
 )
@@ -5624,7 +5624,7 @@ argv
 jsval
 *
 vp
-PRBool
+bool
 *
 _retval
 )
@@ -6090,7 +6090,7 @@ argv
 jsval
 *
 vp
-PRBool
+bool
 *
 _retval
 )
@@ -6131,7 +6131,7 @@ argv
 jsval
 *
 vp
-PRBool
+bool
 *
 _retval
 )
@@ -6172,7 +6172,7 @@ argv
 jsval
 *
 vp
-PRBool
+bool
 *
 _retval
 )
@@ -6376,10 +6376,10 @@ const
 jsval
 &
 val
-PRBool
+bool
 *
 bp
-PRBool
+bool
 *
 _retval
 )
@@ -6456,7 +6456,7 @@ argv
 jsval
 *
 vp
-PRBool
+bool
 *
 _retval
 )
@@ -6922,7 +6922,7 @@ argv
 jsval
 *
 vp
-PRBool
+bool
 *
 _retval
 )
@@ -6963,7 +6963,7 @@ argv
 jsval
 *
 vp
-PRBool
+bool
 *
 _retval
 )
@@ -7004,7 +7004,7 @@ argv
 jsval
 *
 vp
-PRBool
+bool
 *
 _retval
 )
@@ -7486,10 +7486,10 @@ const
 jsval
 &
 val
-PRBool
+bool
 *
 bp
-PRBool
+bool
 *
 _retval
 )
@@ -7605,7 +7605,7 @@ argv
 jsval
 *
 vp
-PRBool
+bool
 *
 _retval
 )
@@ -8216,7 +8216,7 @@ argv
 jsval
 *
 vp
-PRBool
+bool
 *
 _retval
 )
@@ -8257,7 +8257,7 @@ argv
 jsval
 *
 vp
-PRBool
+bool
 *
 _retval
 )
@@ -8298,7 +8298,7 @@ argv
 jsval
 *
 vp
-PRBool
+bool
 *
 _retval
 )
@@ -8639,7 +8639,7 @@ argv
 jsval
 *
 vp
-PRBool
+bool
 *
 _retval
 )
@@ -9105,7 +9105,7 @@ argv
 jsval
 *
 vp
-PRBool
+bool
 *
 _retval
 )
@@ -9146,7 +9146,7 @@ argv
 jsval
 *
 vp
-PRBool
+bool
 *
 _retval
 )
@@ -9187,7 +9187,7 @@ argv
 jsval
 *
 vp
-PRBool
+bool
 *
 _retval
 )
@@ -10048,10 +10048,10 @@ const
 jsval
 &
 val
-PRBool
+bool
 *
 bp
-PRBool
+bool
 *
 _retval
 )
@@ -10125,7 +10125,7 @@ argv
 jsval
 *
 vp
-PRBool
+bool
 *
 _retval
 )
@@ -12762,7 +12762,7 @@ argv
 jsval
 *
 vp
-PRBool
+bool
 *
 _retval
 )
@@ -12803,7 +12803,7 @@ argv
 jsval
 *
 vp
-PRBool
+bool
 *
 _retval
 )
@@ -12844,7 +12844,7 @@ argv
 jsval
 *
 vp
-PRBool
+bool
 *
 _retval
 )
@@ -14132,7 +14132,7 @@ PRInt32
 lineNo
 JSVersion
 jsVersion
-PRBool
+bool
 returnStringOnly
 jsval
 *
@@ -14177,7 +14177,7 @@ cx
 fp
 )
 ;
-PRBool
+bool
 system
 ;
 ssm
@@ -16885,7 +16885,7 @@ IsSuccessCode
 (
 nsresult
 result
-PRBool
+bool
 *
 out
 )
@@ -17034,7 +17034,7 @@ JSObject
 *
 *
 objp
-PRBool
+bool
 *
 _retval
 )
@@ -17150,7 +17150,7 @@ id
 jsval
 *
 vp
-PRBool
+bool
 *
 _retval
 )
@@ -17175,7 +17175,7 @@ xpcc
 return
 NS_ERROR_FAILURE
 ;
-PRBool
+bool
 doResult
 =
 JS_FALSE
@@ -17312,7 +17312,7 @@ id
 jsval
 *
 vp
-PRBool
+bool
 *
 _retval
 )

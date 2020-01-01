@@ -114,7 +114,7 @@ AudioPauseEvent
 nsAudioStream
 *
 owner
-PRBool
+bool
 aPause
 )
 {
@@ -163,7 +163,7 @@ nsAudioStream
 >
 mOwner
 ;
-PRBool
+bool
 mPause
 ;
 }

@@ -104,10 +104,10 @@ Step
 (
 )
 {
-PRBool
+bool
 done
 =
-PR_FALSE
+false
 ;
 mSearchProcess
 -

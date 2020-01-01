@@ -76,7 +76,7 @@ precedenceMatrix
 float
 mTypicalPositiveRatio
 ;
-PRBool
+bool
 keepEnglishLetter
 ;
 const
@@ -128,7 +128,7 @@ const
 SequenceModel
 *
 model
-PRBool
+bool
 reversed
 nsCharSetProber
 *
@@ -205,7 +205,7 @@ SetOpion
 )
 {
 }
-PRBool
+bool
 KeepEnglishLetters
 (
 )
@@ -240,7 +240,7 @@ const
 mModel
 ;
 const
-PRBool
+bool
 mReversed
 ;
 unsigned

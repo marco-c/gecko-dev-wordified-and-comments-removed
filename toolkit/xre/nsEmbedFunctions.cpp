@@ -1011,7 +1011,7 @@ defined
 (
 MOZ_CRASHREPORTER
 )
-PRBool
+bool
 XRE_TakeMinidumpForChild
 (
 PRUint32
@@ -1033,7 +1033,7 @@ aDump
 )
 ;
 }
-PRBool
+bool
 XRE_SetRemoteExceptionHandler
 (
 const

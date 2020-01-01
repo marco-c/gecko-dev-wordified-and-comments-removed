@@ -78,7 +78,7 @@ aLists
 )
 ;
 virtual
-PRBool
+bool
 IsContainingBlock
 (
 )
@@ -126,13 +126,13 @@ aPD
 )
 ;
 virtual
-PRBool
+bool
 HonorPrintBackgroundSettings
 (
 )
 {
 return
-PR_FALSE
+false
 ;
 }
 void
@@ -353,7 +353,7 @@ GetIntrinsicHeight
 (
 )
 ;
-PRBool
+bool
 mHaveReflowed
 ;
 friend

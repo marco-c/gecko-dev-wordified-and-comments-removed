@@ -297,7 +297,7 @@ return
 rv
 ;
 }
-PRBool
+bool
 nsPluginsDir
 :
 :
@@ -2034,7 +2034,7 @@ ret
 ;
 }
 static
-PRBool
+bool
 IsCompatibleArch
 (
 nsIFile
@@ -2061,10 +2061,10 @@ pluginURL
 return
 PR_FALSE
 ;
-PRBool
+bool
 isPluginFile
 =
-PR_FALSE
+false
 ;
 CFBundleRef
 pluginBundle

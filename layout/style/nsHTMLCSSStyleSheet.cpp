@@ -414,7 +414,7 @@ nsRestyleHint
 )
 ;
 }
-PRBool
+bool
 nsHTMLCSSStyleSheet
 :
 :
@@ -471,7 +471,7 @@ nsRestyleHint
 )
 ;
 }
-PRBool
+bool
 nsHTMLCSSStyleSheet
 :
 :
@@ -581,7 +581,7 @@ html
 )
 ;
 }
-PRBool
+bool
 nsHTMLCSSStyleSheet
 :
 :
@@ -594,7 +594,7 @@ return
 PR_TRUE
 ;
 }
-PRBool
+bool
 nsHTMLCSSStyleSheet
 :
 :
@@ -613,12 +613,12 @@ nsHTMLCSSStyleSheet
 :
 SetEnabled
 (
-PRBool
+bool
 aEnabled
 )
 {
 }
-PRBool
+bool
 nsHTMLCSSStyleSheet
 :
 :

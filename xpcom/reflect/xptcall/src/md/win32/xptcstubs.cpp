@@ -523,7 +523,7 @@ b
 *
 (
 (
-PRBool
+bool
 *
 )
 ap

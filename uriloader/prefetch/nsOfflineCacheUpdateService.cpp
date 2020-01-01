@@ -1565,7 +1565,7 @@ mUpdates
 i
 ]
 ;
-PRBool
+bool
 partial
 ;
 rv
@@ -1615,7 +1615,7 @@ if
 manifestURI
 )
 {
-PRBool
+bool
 equals
 ;
 rv
@@ -1862,7 +1862,7 @@ aPrincipal
 nsIPrefBranch
 *
 aPrefBranch
-PRBool
+bool
 *
 aAllowed
 )
@@ -1914,7 +1914,7 @@ aURI
 nsIPrefBranch
 *
 aPrefBranch
-PRBool
+bool
 *
 aAllowed
 )
@@ -1951,7 +1951,7 @@ innerURI
 return
 NS_OK
 ;
-PRBool
+bool
 match
 ;
 nsresult
@@ -2103,7 +2103,7 @@ Preferences
 GetBool
 (
 kPrefName
-PR_FALSE
+false
 )
 ;
 }

@@ -135,7 +135,7 @@ CSSPseudoClasses_info
 )
 ;
 }
-PRBool
+bool
 nsCSSPseudoClasses
 :
 :
@@ -170,7 +170,7 @@ aType
 ePseudoClass_mozLocaleDir
 ;
 }
-PRBool
+bool
 nsCSSPseudoClasses
 :
 :

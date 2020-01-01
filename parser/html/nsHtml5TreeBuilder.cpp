@@ -1524,7 +1524,7 @@ publicIdentifier
 nsString
 *
 systemIdentifier
-PRBool
+bool
 forceQuirks
 )
 {
@@ -3186,7 +3186,7 @@ elementName
 nsHtml5HtmlAttributes
 *
 attributes
-PRBool
+bool
 selfClosing
 )
 {
@@ -8149,7 +8149,7 @@ attributes
 ;
 }
 }
-PRBool
+bool
 nsHtml5TreeBuilder
 :
 :
@@ -12001,7 +12001,7 @@ return
 }
 }
 }
-PRBool
+bool
 nsHtml5TreeBuilder
 :
 :
@@ -12044,7 +12044,7 @@ publicIdentifier
 nsString
 *
 systemIdentifier
-PRBool
+bool
 html4SpecificAdditionalErrorChecks
 )
 {
@@ -12072,7 +12072,7 @@ m
 ;
 }
 }
-PRBool
+bool
 nsHtml5TreeBuilder
 :
 :
@@ -12224,7 +12224,7 @@ return
 PR_FALSE
 ;
 }
-PRBool
+bool
 nsHtml5TreeBuilder
 :
 :
@@ -12239,7 +12239,7 @@ publicIdentifier
 nsString
 *
 systemIdentifier
-PRBool
+bool
 forceQuirks
 )
 {
@@ -13110,7 +13110,7 @@ pop
 ;
 }
 }
-PRBool
+bool
 nsHtml5TreeBuilder
 :
 :
@@ -13129,7 +13129,7 @@ return
 PR_TRUE
 ;
 }
-PRBool
+bool
 nsHtml5TreeBuilder
 :
 :
@@ -13646,7 +13646,7 @@ listPtr
 -
 ;
 }
-PRBool
+bool
 nsHtml5TreeBuilder
 :
 :
@@ -13756,10 +13756,10 @@ formattingEltStackPos
 =
 currentPtr
 ;
-PRBool
+bool
 inScope
 =
-PR_TRUE
+true
 ;
 while
 (
@@ -14765,7 +14765,7 @@ return
 0
 ;
 }
-PRBool
+bool
 nsHtml5TreeBuilder
 :
 :
@@ -15186,7 +15186,7 @@ node
 )
 ;
 }
-PRBool
+bool
 nsHtml5TreeBuilder
 :
 :
@@ -15932,10 +15932,10 @@ node
 )
 ;
 }
-PRBool
+bool
 markAsHtmlIntegrationPoint
 =
-PR_FALSE
+false
 ;
 if
 (
@@ -15978,7 +15978,7 @@ node
 )
 ;
 }
-PRBool
+bool
 nsHtml5TreeBuilder
 :
 :
@@ -16728,7 +16728,7 @@ requestSuspension
 )
 ;
 }
-PRBool
+bool
 nsHtml5TreeBuilder
 :
 :
@@ -16755,7 +16755,7 @@ ns
 kNameSpaceID_XHTML
 ;
 }
-PRBool
+bool
 nsHtml5TreeBuilder
 :
 :
@@ -16809,7 +16809,7 @@ nsIContent
 *
 *
 node
-PRBool
+bool
 quirks
 )
 {
@@ -16873,7 +16873,7 @@ currentPtr
 node
 ;
 }
-PRBool
+bool
 nsHtml5TreeBuilder
 :
 :
@@ -16891,7 +16891,7 @@ nsHtml5TreeBuilder
 :
 setScriptingEnabled
 (
-PRBool
+bool
 scriptingEnabled
 )
 {
@@ -17068,7 +17068,7 @@ charBufferLen
 ;
 }
 }
-PRBool
+bool
 nsHtml5TreeBuilder
 :
 :
@@ -17417,7 +17417,7 @@ quirks
 )
 ;
 }
-PRBool
+bool
 nsHtml5TreeBuilder
 :
 :
@@ -18365,7 +18365,7 @@ return
 originalMode
 ;
 }
-PRBool
+bool
 nsHtml5TreeBuilder
 :
 :
@@ -18377,7 +18377,7 @@ return
 framesetOk
 ;
 }
-PRBool
+bool
 nsHtml5TreeBuilder
 :
 :
@@ -18389,7 +18389,7 @@ return
 needToDropLF
 ;
 }
-PRBool
+bool
 nsHtml5TreeBuilder
 :
 :

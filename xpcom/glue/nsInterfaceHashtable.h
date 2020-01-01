@@ -75,7 +75,7 @@ Interface
 >
 base_type
 ;
-PRBool
+bool
 Get
 (
 KeyType
@@ -104,7 +104,7 @@ GetWeak
 (
 KeyType
 aKey
-PRBool
+bool
 *
 aFound
 =
@@ -164,7 +164,7 @@ Interface
 >
 base_type
 ;
-PRBool
+bool
 Get
 (
 KeyType
@@ -185,7 +185,7 @@ KeyClass
 class
 Interface
 >
-PRBool
+bool
 nsInterfaceHashtable
 <
 KeyClass
@@ -349,7 +349,7 @@ GetWeak
 (
 KeyType
 aKey
-PRBool
+bool
 *
 aFound
 )
@@ -412,7 +412,7 @@ KeyClass
 class
 Interface
 >
-PRBool
+bool
 nsInterfaceHashtableMT
 <
 KeyClass

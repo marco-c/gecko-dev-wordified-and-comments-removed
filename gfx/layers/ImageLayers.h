@@ -219,7 +219,7 @@ virtual
 void
 SetDelayedConversion
 (
-PRBool
+bool
 aDelayed
 )
 {
@@ -283,7 +283,7 @@ GetCurrentSize
 0
 ;
 virtual
-PRBool
+bool
 SetLayerManager
 (
 LayerManager
@@ -495,7 +495,7 @@ mPaintCount
 TimeStamp
 mPaintTime
 ;
-PRPackedBool
+bool
 mPreviousImagePainted
 ;
 }
@@ -823,7 +823,7 @@ virtual
 void
 SetDelayedConversion
 (
-PRBool
+bool
 aDelayed
 )
 {

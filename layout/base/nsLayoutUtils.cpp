@@ -622,7 +622,7 @@ return
 sContentMap
 ;
 }
-PRBool
+bool
 nsLayoutUtils
 :
 :
@@ -631,14 +631,14 @@ Are3DTransformsEnabled
 )
 {
 static
-PRBool
+bool
 s3DTransformsEnabled
 ;
 static
-PRBool
+bool
 s3DTransformPrefCached
 =
-PR_FALSE
+false
 ;
 if
 (
@@ -1625,7 +1625,7 @@ GetParent
 (
 )
 ;
-PRBool
+bool
 found
 =
 parent
@@ -2080,7 +2080,7 @@ return
 nsnull
 ;
 }
-PRBool
+bool
 nsLayoutUtils
 :
 :
@@ -2348,7 +2348,7 @@ GetClientData
 )
 ;
 }
-PRBool
+bool
 nsLayoutUtils
 :
 :
@@ -2414,7 +2414,7 @@ return
 PR_FALSE
 ;
 }
-PRBool
+bool
 nsLayoutUtils
 :
 :
@@ -2450,7 +2450,7 @@ aCommonAncestor
 )
 ;
 }
-PRBool
+bool
 nsLayoutUtils
 :
 :
@@ -2968,7 +2968,7 @@ aFrame
 ;
 }
 static
-PRBool
+bool
 IsFrameAfter
 (
 nsIFrame
@@ -3772,7 +3772,7 @@ aItem
 nsDisplayListBuilder
 *
 aBuilder
-PRBool
+bool
 *
 aShouldFixToViewport
 )
@@ -3894,7 +3894,7 @@ ReferenceFrame
 ;
 }
 }
-PRBool
+bool
 nsLayoutUtils
 :
 :
@@ -4213,7 +4213,7 @@ return
 nsnull
 ;
 }
-PRBool
+bool
 nsLayoutUtils
 :
 :
@@ -4493,10 +4493,10 @@ rootFrame
 =
 aFrame
 ;
-PRBool
+bool
 transformFound
 =
-PR_FALSE
+false
 ;
 for
 (
@@ -6061,7 +6061,7 @@ stdio
 h
 >
 static
-PRBool
+bool
 gDumpPaintList
 =
 getenv
@@ -6075,10 +6075,10 @@ MOZ_DUMP_PAINT_LIST
 0
 ;
 static
-PRBool
+bool
 gDumpEventList
 =
-PR_FALSE
+false
 ;
 #
 endif
@@ -6101,7 +6101,7 @@ ViewID
 >
 &
 aOutIDs
-PRBool
+bool
 aIgnoreRootScrollFrame
 )
 {
@@ -6249,9 +6249,9 @@ nsIFrame
 aFrame
 nsPoint
 aPt
-PRBool
+bool
 aShouldIgnoreSuppression
-PRBool
+bool
 aIgnoreRootScrollFrame
 )
 {
@@ -6328,9 +6328,9 @@ nsIFrame
 >
 &
 aOutFrames
-PRBool
+bool
 aShouldIgnoreSuppression
-PRBool
+bool
 aIgnoreRootScrollFrame
 )
 {
@@ -7115,7 +7115,7 @@ displayport
 ;
 }
 }
-PRBool
+bool
 ignoreViewportScrolling
 =
 presShell
@@ -7166,7 +7166,7 @@ visibleRegion
 aDirtyRegion
 ;
 }
-PRBool
+bool
 willFlushRetainedLayers
 =
 (
@@ -7560,7 +7560,7 @@ list
 )
 ;
 const
-PRBool
+bool
 paintAllContinuations
 =
 aFlags
@@ -8380,7 +8380,7 @@ return
 0
 ;
 }
-PRBool
+bool
 nsLayoutUtils
 :
 :
@@ -9897,7 +9897,7 @@ return
 result
 ;
 }
-PRBool
+bool
 nsLayoutUtils
 :
 :
@@ -10083,7 +10083,7 @@ result
 ;
 }
 static
-PRBool
+bool
 GetAbsoluteCoord
 (
 const
@@ -10183,7 +10183,7 @@ PR_TRUE
 ;
 }
 static
-PRBool
+bool
 GetPercentHeight
 (
 const
@@ -10595,7 +10595,7 @@ PROP_MIN_WIDTH
 }
 ;
 static
-PRBool
+bool
 GetIntrinsicCoord
 (
 const
@@ -10986,7 +10986,7 @@ min
 nscoord
 maxw
 ;
-PRBool
+bool
 haveFixedMaxWidth
 =
 GetAbsoluteCoord
@@ -10998,7 +10998,7 @@ maxw
 nscoord
 minw
 ;
-PRBool
+bool
 haveFixedMinWidth
 =
 GetAbsoluteCoord
@@ -11782,10 +11782,10 @@ size
 0
 )
 ;
-PRBool
+bool
 canOverride
 =
-PR_TRUE
+true
 ;
 nsPresContext
 *
@@ -12502,7 +12502,7 @@ GetStylePosition
 )
 ;
 const
-PRBool
+bool
 isAutoWidth
 =
 stylePos
@@ -12518,7 +12518,7 @@ GetUnit
 eStyleUnit_Auto
 ;
 const
-PRBool
+bool
 isAutoHeight
 =
 IsAutoHeight
@@ -12893,7 +12893,7 @@ width
 "
 )
 ;
-PRBool
+bool
 hasIntrinsicWidth
 hasIntrinsicHeight
 ;
@@ -13909,7 +13909,7 @@ aColor
 ;
 }
 static
-PRBool
+bool
 ShouldDarkenColors
 (
 nsPresContext
@@ -14660,7 +14660,7 @@ leading
 2
 ;
 }
-PRBool
+bool
 nsLayoutUtils
 :
 :
@@ -14702,7 +14702,7 @@ return
 PR_TRUE
 ;
 }
-PRBool
+bool
 nsLayoutUtils
 :
 :
@@ -15109,7 +15109,7 @@ return
 PR_FALSE
 ;
 }
-PRBool
+bool
 nsLayoutUtils
 :
 :
@@ -16078,10 +16078,10 @@ mFillRect
 nsIntRect
 mSubimage
 ;
-PRPackedBool
+bool
 mShouldDraw
 ;
-PRPackedBool
+bool
 mResetCTM
 ;
 SnappedImageDrawingParameters
@@ -16112,7 +16112,7 @@ const
 nsIntRect
 &
 aSubimage
-PRBool
+bool
 aResetCTM
 )
 :
@@ -16222,10 +16222,10 @@ aDirty
 aAppUnitsPerDevPixel
 )
 ;
-PRBool
+bool
 ignoreScale
 =
-PR_FALSE
+false
 ;
 #
 ifdef
@@ -16241,7 +16241,7 @@ fill
 =
 devPixelFill
 ;
-PRBool
+bool
 didSnap
 =
 aCtx
@@ -17836,7 +17836,7 @@ wholeSizeY
 ;
 }
 static
-PRBool
+bool
 NonZeroStyleCoord
 (
 const
@@ -17883,7 +17883,7 @@ return
 PR_TRUE
 ;
 }
-PRBool
+bool
 nsLayoutUtils
 :
 :
@@ -17921,7 +17921,7 @@ PR_FALSE
 ;
 }
 static
-PRBool
+bool
 IsCornerAdjacentToSide
 (
 PRUint8
@@ -18077,7 +18077,7 @@ aCorner
 )
 ;
 }
-PRBool
+bool
 nsLayoutUtils
 :
 :
@@ -18439,7 +18439,7 @@ return
 eTransparencyOpaque
 ;
 }
-PRBool
+bool
 nsLayoutUtils
 :
 :
@@ -18570,7 +18570,7 @@ parent
 }
 }
 static
-PRBool
+bool
 IsNonzeroCoord
 (
 const
@@ -18999,7 +18999,7 @@ return
 nsnull
 ;
 }
-PRBool
+bool
 nsLayoutUtils
 :
 :
@@ -19126,7 +19126,7 @@ do_QueryInterface
 aElement
 )
 ;
-PRBool
+bool
 forceCopy
 =
 (
@@ -19138,7 +19138,7 @@ SFE_WANT_NEW_SURFACE
 =
 0
 ;
-PRBool
+bool
 wantImageSurface
 =
 (
@@ -20922,7 +20922,7 @@ PRInt32
 aStartOffset
 PRInt32
 aEndOffset
-PRBool
+bool
 aFollowContinuations
 nsFontFaceList
 *

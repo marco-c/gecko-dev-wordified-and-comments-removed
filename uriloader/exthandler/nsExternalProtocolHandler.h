@@ -66,7 +66,7 @@ nsExternalProtocolHandler
 ;
 protected
 :
-PRBool
+bool
 HaveExternalProtocolHandler
 (
 nsIURI

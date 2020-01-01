@@ -352,7 +352,7 @@ PRUint32
 aGeckoAction
 )
 {
-PRBool
+bool
 isEnabled
 ;
 if
@@ -565,7 +565,7 @@ DRAGDROP_ACTION_LINK
 }
 }
 inline
-PRBool
+bool
 IsKeyDown
 (
 char
@@ -839,7 +839,7 @@ aEventType
 NS_DRAGDROP_DROP
 )
 {
-PRBool
+bool
 canDrop
 ;
 currSession

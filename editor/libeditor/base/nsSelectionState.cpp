@@ -431,7 +431,7 @@ return
 NS_OK
 ;
 }
-PRBool
+bool
 nsSelectionState
 :
 :
@@ -478,10 +478,10 @@ range
 PR_FALSE
 )
 ;
-PRBool
+bool
 bIsCollapsed
 =
-PR_FALSE
+false
 ;
 range
 -
@@ -496,7 +496,7 @@ return
 bIsCollapsed
 ;
 }
-PRBool
+bool
 nsSelectionState
 :
 :
@@ -696,7 +696,7 @@ Clear
 )
 ;
 }
-PRBool
+bool
 nsSelectionState
 :
 :

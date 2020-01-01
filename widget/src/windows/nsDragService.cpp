@@ -257,7 +257,7 @@ mDataObject
 )
 ;
 }
-PRBool
+bool
 nsDragService
 :
 :
@@ -1961,7 +1961,7 @@ const
 char
 *
 aDataFlavor
-PRBool
+bool
 *
 _retval
 )
@@ -2310,7 +2310,7 @@ return
 NS_OK
 ;
 }
-PRBool
+bool
 nsDragService
 :
 :
@@ -2321,10 +2321,10 @@ IDataObject
 inDataObj
 )
 {
-PRBool
+bool
 isCollection
 =
-PR_FALSE
+false
 ;
 static
 UINT
@@ -2392,7 +2392,7 @@ nsDragService
 :
 EndDragSession
 (
-PRBool
+bool
 aDoneDrag
 )
 {

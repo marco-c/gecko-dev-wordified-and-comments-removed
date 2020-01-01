@@ -61,13 +61,13 @@ nsIObserver
 >
 mStatusObserver
 ;
-PRBool
+bool
 mIAmRunning
 ;
-PRBool
+bool
 mStatusObserverNotified
 ;
-PRBool
+bool
 mLoginReady
 ;
 PRThread

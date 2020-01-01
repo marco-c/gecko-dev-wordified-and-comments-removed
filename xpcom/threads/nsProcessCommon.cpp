@@ -302,7 +302,7 @@ NS_ENSURE_ARG_POINTER
 executable
 )
 ;
-PRBool
+bool
 isFile
 ;
 nsresult
@@ -1309,7 +1309,7 @@ nsProcess
 :
 Run
 (
-PRBool
+bool
 blocking
 const
 char
@@ -1347,7 +1347,7 @@ count
 nsIObserver
 *
 observer
-PRBool
+bool
 holdWeak
 )
 {
@@ -1368,7 +1368,7 @@ nsProcess
 :
 CopyArgsAndRunProcess
 (
-PRBool
+bool
 blocking
 const
 char
@@ -1380,7 +1380,7 @@ count
 nsIObserver
 *
 observer
-PRBool
+bool
 holdWeak
 )
 {
@@ -1513,7 +1513,7 @@ nsProcess
 :
 Runw
 (
-PRBool
+bool
 blocking
 const
 PRUnichar
@@ -1551,7 +1551,7 @@ count
 nsIObserver
 *
 observer
-PRBool
+bool
 holdWeak
 )
 {
@@ -1572,7 +1572,7 @@ nsProcess
 :
 CopyArgsAndRunProcessw
 (
-PRBool
+bool
 blocking
 const
 PRUnichar
@@ -1584,7 +1584,7 @@ count
 nsIObserver
 *
 observer
-PRBool
+bool
 holdWeak
 )
 {
@@ -1734,7 +1734,7 @@ nsProcess
 :
 RunProcess
 (
-PRBool
+bool
 blocking
 char
 *
@@ -1743,9 +1743,9 @@ my_argv
 nsIObserver
 *
 observer
-PRBool
+bool
 holdWeak
-PRBool
+bool
 argsUTF8
 )
 {
@@ -2325,7 +2325,7 @@ nsProcess
 :
 GetIsRunning
 (
-PRBool
+bool
 *
 aIsRunning
 )

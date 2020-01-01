@@ -32,7 +32,7 @@ gfxSize
 size
 gfxImageFormat
 format
-PRBool
+bool
 aForPrinting
 )
 :
@@ -136,7 +136,7 @@ const
 gfxSize
 &
 size
-PRBool
+bool
 aForPrinting
 )
 :
@@ -213,7 +213,7 @@ gfxQuartzSurface
 cairo_surface_t
 *
 csurf
-PRBool
+bool
 aForPrinting
 )
 :
@@ -269,7 +269,7 @@ long
 stride
 gfxImageFormat
 format
-PRBool
+bool
 aForPrinting
 )
 :

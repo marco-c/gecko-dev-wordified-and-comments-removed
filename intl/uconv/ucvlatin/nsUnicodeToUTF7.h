@@ -101,7 +101,7 @@ aValue
 )
 ;
 virtual
-PRBool
+bool
 DirectEncodable
 (
 PRUnichar
@@ -159,7 +159,7 @@ nsUnicodeToUTF7
 protected
 :
 virtual
-PRBool
+bool
 DirectEncodable
 (
 PRUnichar

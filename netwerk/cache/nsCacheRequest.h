@@ -115,7 +115,7 @@ nsICacheListener
 listener
 nsCacheAccessMode
 accessRequested
-PRBool
+bool
 blockingMode
 nsCacheSession
 *
@@ -361,7 +361,7 @@ mInfo
 eStreamBasedMask
 ;
 }
-PRBool
+bool
 IsStreamBased
 (
 )
@@ -388,7 +388,7 @@ mInfo
 eDoomEntriesIfExpiredMask
 ;
 }
-PRBool
+bool
 WillDoomEntriesIfExpired
 (
 )
@@ -417,7 +417,7 @@ mInfo
 eBlockingModeMask
 ;
 }
-PRBool
+bool
 IsBlocking
 (
 )
@@ -435,7 +435,7 @@ eBlockingModeMask
 )
 ;
 }
-PRBool
+bool
 IsNonBlocking
 (
 )
@@ -522,7 +522,7 @@ mInfo
 eWaitingForValidationMask
 ;
 }
-PRBool
+bool
 WaitingForValidation
 (
 )

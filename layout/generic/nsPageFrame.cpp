@@ -763,7 +763,7 @@ aResult
 }
 #
 endif
-PRBool
+bool
 nsPageFrame
 :
 :

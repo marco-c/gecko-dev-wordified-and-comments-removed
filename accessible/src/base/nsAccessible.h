@@ -476,7 +476,7 @@ InvalidateChildren
 )
 ;
 virtual
-PRBool
+bool
 AppendChild
 (
 nsAccessible
@@ -485,7 +485,7 @@ aChild
 )
 ;
 virtual
-PRBool
+bool
 InsertChildAt
 (
 PRUint32
@@ -496,7 +496,7 @@ aChild
 )
 ;
 virtual
-PRBool
+bool
 RemoveChild
 (
 nsAccessible
@@ -546,7 +546,7 @@ IndexInParent
 )
 const
 ;
-PRBool
+bool
 HasChildren
 (
 )
@@ -734,7 +734,7 @@ aAccEvent
 )
 ;
 virtual
-PRBool
+bool
 GetAllowsAnonChildAccessibles
 (
 )
@@ -1373,10 +1373,10 @@ nsIFrame
 aRelativeFrame
 )
 ;
-PRBool
+bool
 IsVisible
 (
-PRBool
+bool
 *
 aIsOffscreen
 )

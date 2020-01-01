@@ -518,7 +518,7 @@ AsyncPaintWaitEvent
 nsIContent
 *
 aContent
-PRBool
+bool
 aFinished
 )
 :
@@ -580,7 +580,7 @@ nsIContent
 >
 mContent
 ;
-PRPackedBool
+bool
 mFinished
 ;
 }
@@ -726,7 +726,7 @@ owner
 }
 #
 endif
-PRBool
+bool
 nsPluginInstanceOwner
 :
 :
@@ -974,7 +974,7 @@ rect
 ;
 }
 }
-PRBool
+bool
 nsPluginInstanceOwner
 :
 :
@@ -1000,10 +1000,10 @@ GetImageContainer
 ;
 #
 endif
-PRBool
+bool
 useAsyncRendering
 ;
-PRBool
+bool
 result
 =
 (
@@ -6201,7 +6201,7 @@ return
 drawingModel
 ;
 }
-PRBool
+bool
 nsPluginInstanceOwner
 :
 :
@@ -6217,7 +6217,7 @@ mInstance
 return
 PR_FALSE
 ;
-PRBool
+bool
 coreAnimation
 ;
 if
@@ -8291,10 +8291,10 @@ PreventDefault
 ;
 }
 static
-PRBool
+bool
 sInKeyDispatch
 =
-PR_FALSE
+false
 ;
 if
 (
@@ -13001,7 +13001,7 @@ nsPluginInstanceOwner
 :
 PrepareToStop
 (
-PRBool
+bool
 aDelayedStop
 )
 {
@@ -14572,7 +14572,7 @@ Renderer
 DRAW_SUPPORTS_ALTERNATE_VISUAL
 ;
 }
-PRBool
+bool
 transparent
 ;
 mInstance
@@ -14823,10 +14823,10 @@ instance
 return
 NS_ERROR_FAILURE
 ;
-PRBool
+bool
 doupdatewindow
 =
-PR_FALSE
+false
 ;
 if
 (
@@ -15569,7 +15569,7 @@ nsPluginInstanceOwner
 :
 StartTimer
 (
-PRBool
+bool
 isVisible
 )
 {
@@ -16296,10 +16296,10 @@ if
 mWidget
 )
 {
-PRBool
+bool
 windowless
 =
-PR_FALSE
+false
 ;
 mInstance
 -
@@ -16824,7 +16824,7 @@ pluginOrigin
 nsIntRect
 widgetClip
 ;
-PRBool
+bool
 widgetVisible
 ;
 pluginWidget
@@ -17464,7 +17464,7 @@ nsPluginInstanceOwner
 :
 UpdateWindowPositionAndClipRect
 (
-PRBool
+bool
 aSetWindow
 )
 {
@@ -17501,7 +17501,7 @@ oldWindow
 *
 mPluginWindow
 ;
-PRBool
+bool
 windowless
 =
 (
@@ -17820,7 +17820,7 @@ nsPluginInstanceOwner
 :
 UpdateWindowVisibility
 (
-PRBool
+bool
 aVisible
 )
 {
@@ -17840,7 +17840,7 @@ nsPluginInstanceOwner
 :
 UpdateDocumentActiveState
 (
-PRBool
+bool
 aIsActive
 )
 {

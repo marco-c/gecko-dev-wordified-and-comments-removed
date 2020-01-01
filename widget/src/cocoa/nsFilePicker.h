@@ -198,7 +198,7 @@ const
 nsString
 &
 inTitle
-PRBool
+bool
 inAllowMultiple
 nsCOMArray
 <

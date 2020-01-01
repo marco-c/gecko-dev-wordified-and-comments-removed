@@ -1097,7 +1097,7 @@ GfxInfo
 :
 GetD2DEnabled
 (
-PRBool
+bool
 *
 aEnabled
 )
@@ -1112,7 +1112,7 @@ GfxInfo
 :
 GetAzureEnabled
 (
-PRBool
+bool
 *
 aEnabled
 )
@@ -1127,7 +1127,7 @@ GfxInfo
 :
 GetDWriteEnabled
 (
-PRBool
+bool
 *
 aEnabled
 )
@@ -1581,7 +1581,7 @@ GfxInfo
 :
 GetIsGPU2Active
 (
-PRBool
+bool
 *
 aIsGPU2Active
 )
@@ -1860,10 +1860,10 @@ nsIGfxInfo
 FEATURE_OPENGL_LAYERS
 )
 {
-PRBool
+bool
 foundGoodDevice
 =
-PR_FALSE
+false
 ;
 if
 (

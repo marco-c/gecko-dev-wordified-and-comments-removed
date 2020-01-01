@@ -477,7 +477,7 @@ PRUint32
 sPendingLoadCount
 ;
 static
-PRBool
+bool
 sLoadingInProgress
 ;
 static
@@ -485,7 +485,7 @@ PRUint32
 sCCollectedWaitingForGC
 ;
 static
-PRBool
+bool
 sPostGCEventsToConsole
 ;
 nsScriptNameSpaceManager
@@ -530,11 +530,11 @@ JSGCCallback
 gOldJSGCCallback
 ;
 static
-PRBool
+bool
 sIsInitialized
 ;
 static
-PRBool
+bool
 sDidShutdown
 ;
 static
@@ -555,7 +555,7 @@ nsIScriptSecurityManager
 sSecurityManager
 ;
 static
-PRBool
+bool
 sGCOnMemoryPressure
 ;
 class
@@ -647,7 +647,7 @@ Elements
 )
 {
 }
-PRBool
+bool
 SetCapacity
 (
 JSContext
@@ -657,7 +657,7 @@ size_t
 capacity
 )
 {
-PRBool
+bool
 ok
 =
 vals
@@ -814,7 +814,7 @@ mPtr
 ;
 }
 ;
-PRBool
+bool
 NS_HandleScriptError
 (
 nsIScriptGlobalObject
@@ -828,10 +828,10 @@ nsEventStatus
 aStatus
 )
 {
-PRBool
+bool
 called
 =
-PR_FALSE
+false
 ;
 nsCOMPtr
 <
@@ -957,7 +957,7 @@ const
 nsAString
 &
 aSourceLine
-PRBool
+bool
 aDispatchEvent
 PRUint64
 aInnerWindowID
@@ -1135,7 +1135,7 @@ NS_ENSURE_STATE
 p
 )
 ;
-PRBool
+bool
 sameOrigin
 =
 mFileName
@@ -1545,25 +1545,25 @@ mFileName
 nsString
 mSourceLine
 ;
-PRBool
+bool
 mDispatchEvent
 ;
 PRUint64
 mInnerWindowID
 ;
 static
-PRBool
+bool
 sHandlingScriptError
 ;
 }
 ;
-PRBool
+bool
 ScriptErrorEvent
 :
 :
 sHandlingScriptError
 =
-PR_FALSE
+false
 ;
 void
 NS_ScriptErrorReporter
@@ -2857,7 +2857,7 @@ JS_GetGlobalForScopeChain
 cx
 )
 ;
-PRBool
+bool
 isTrackingChromeCodeTime
 =
 global
@@ -2953,7 +2953,7 @@ cx
 NULL
 )
 ;
-PRBool
+bool
 debugPossible
 =
 (
@@ -2989,10 +2989,10 @@ if
 debugPossible
 )
 {
-PRBool
+bool
 jsds_IsOn
 =
-PR_FALSE
+false
 ;
 const
 char
@@ -3473,10 +3473,10 @@ buttonPressed
 =
 0
 ;
-PRBool
+bool
 neverShowDlgChk
 =
-PR_FALSE
+false
 ;
 PRUint32
 buttonFlags
@@ -4137,7 +4137,7 @@ GetBool
 js_memlog_option_str
 )
 ;
-PRBool
+bool
 strict
 =
 Preferences
@@ -4187,7 +4187,7 @@ global
 )
 )
 ;
-PRBool
+bool
 useTraceJIT
 =
 Preferences
@@ -4202,7 +4202,7 @@ js_tracejit_chrome_str
 js_tracejit_content_str
 )
 ;
-PRBool
+bool
 useMethodJIT
 =
 Preferences
@@ -4217,7 +4217,7 @@ js_methodjit_chrome_str
 js_methodjit_content_str
 )
 ;
-PRBool
+bool
 useProfiling
 =
 Preferences
@@ -4232,7 +4232,7 @@ js_profiling_chrome_str
 js_profiling_content_str
 )
 ;
-PRBool
+bool
 usePCCounts
 =
 Preferences
@@ -4247,7 +4247,7 @@ js_pccounts_chrome_str
 js_pccounts_content_str
 )
 ;
-PRBool
+bool
 useMethodJITAlways
 =
 Preferences
@@ -4258,7 +4258,7 @@ GetBool
 js_methodjit_always_str
 )
 ;
-PRBool
+bool
 useTypeInference
 =
 !
@@ -4289,10 +4289,10 @@ if
 xr
 )
 {
-PRBool
+bool
 safeMode
 =
-PR_FALSE
+false
 ;
 xr
 -
@@ -4433,7 +4433,7 @@ JSOPTION_TYPE_INFERENCE
 #
 ifdef
 DEBUG
-PRBool
+bool
 strictDebug
 =
 Preferences
@@ -4471,7 +4471,7 @@ JSOPTION_STRICT
 }
 #
 endif
-PRBool
+bool
 werror
 =
 Preferences
@@ -4498,7 +4498,7 @@ newDefaultJSOptions
 ~
 JSOPTION_WERROR
 ;
-PRBool
+bool
 relimit
 =
 Preferences
@@ -4573,7 +4573,7 @@ js_zeal_frequency_str
 JS_DEFAULT_ZEAL_FREQ
 )
 ;
-PRBool
+bool
 compartment
 =
 Preferences
@@ -4582,7 +4582,7 @@ Preferences
 GetBool
 (
 js_zeal_compartment_str
-PR_FALSE
+false
 )
 ;
 if
@@ -4836,7 +4836,7 @@ js_options_dot_str
 this
 )
 ;
-PRBool
+bool
 do_gc
 =
 mGCOnDestruction
@@ -5109,7 +5109,7 @@ aVersion
 void
 *
 aRetValue
-PRBool
+bool
 *
 aIsUndefined
 )
@@ -5271,10 +5271,10 @@ mContext
 jsprin
 )
 ;
-PRBool
+bool
 ok
 =
-PR_FALSE
+false
 ;
 rv
 =
@@ -5609,7 +5609,7 @@ val
 nsAString
 *
 result
-PRBool
+bool
 *
 isUndefined
 )
@@ -5794,7 +5794,7 @@ aVersion
 nsAString
 *
 aRetValue
-PRBool
+bool
 *
 aIsUndefined
 )
@@ -5967,10 +5967,10 @@ jsprin
 )
 ;
 }
-PRBool
+bool
 ok
 =
-PR_FALSE
+false
 ;
 rv
 =
@@ -6409,10 +6409,10 @@ mContext
 jsprin
 )
 ;
-PRBool
+bool
 ok
 =
-PR_FALSE
+false
 ;
 rv
 =
@@ -6569,7 +6569,7 @@ aScopeObject
 nsAString
 *
 aRetValue
-PRBool
+bool
 *
 aIsUndefined
 )
@@ -6871,7 +6871,7 @@ rv
 #
 ifdef
 DEBUG
-PRBool
+bool
 AtomIsEventHandlerName
 (
 nsIAtom
@@ -7420,7 +7420,7 @@ PRUint32
 aLineNo
 PRUint32
 aVersion
-PRBool
+bool
 aShared
 void
 *
@@ -8086,7 +8086,7 @@ rv
 +
 mExecuteDepth
 ;
-PRBool
+bool
 ok
 =
 :
@@ -9047,7 +9047,7 @@ CreateNativeGlobalForInner
 nsIScriptGlobalObject
 *
 aNewInner
-PRBool
+bool
 aIsChrome
 nsIPrincipal
 *
@@ -9953,7 +9953,7 @@ construct
 mContext
 )
 ;
-PRBool
+bool
 ok
 =
 aTempStorage
@@ -10526,7 +10526,7 @@ p
 NS_ERROR_UNEXPECTED
 )
 ;
-PRBool
+bool
 data
 ;
 p
@@ -11222,10 +11222,10 @@ JSContext
 cx
 )
 {
-PRBool
+bool
 hasCap
 =
-PR_FALSE
+false
 ;
 nsresult
 rv
@@ -11992,7 +11992,7 @@ signal
 h
 >
 inline
-PRBool
+bool
 IsJProfAction
 (
 struct
@@ -12443,7 +12443,7 @@ ClearScope
 void
 *
 aGlobalObj
-PRBool
+bool
 aClearFromProtoChain
 )
 {
@@ -12739,7 +12739,7 @@ mIsInitialized
 PR_TRUE
 ;
 }
-PRBool
+bool
 nsJSContext
 :
 :
@@ -12767,7 +12767,7 @@ nsJSContext
 :
 ScriptEvaluated
 (
-PRBool
+bool
 aTerminated
 )
 {
@@ -12916,7 +12916,7 @@ return
 NS_OK
 ;
 }
-PRBool
+bool
 nsJSContext
 :
 :
@@ -12934,9 +12934,9 @@ nsJSContext
 :
 SetScriptsEnabled
 (
-PRBool
+bool
 aEnabled
-PRBool
+bool
 aFireTimeouts
 )
 {
@@ -12968,7 +12968,7 @@ aFireTimeouts
 ;
 }
 }
-PRBool
+bool
 nsJSContext
 :
 :
@@ -12986,7 +12986,7 @@ nsJSContext
 :
 SetProcessingScriptTag
 (
-PRBool
+bool
 aFlag
 )
 {
@@ -12995,7 +12995,7 @@ mProcessingScriptTag
 aFlag
 ;
 }
-PRBool
+bool
 nsJSContext
 :
 :
@@ -13021,7 +13021,7 @@ nsJSContext
 :
 SetGCOnDestruction
 (
-PRBool
+bool
 aGCOnDestruction
 )
 {
@@ -13427,10 +13427,10 @@ return
 ;
 }
 static
-PRBool
+bool
 first
 =
-PR_TRUE
+true
 ;
 sGCTimer
 -
@@ -14040,7 +14040,7 @@ mContext
 )
 )
 {
-PRBool
+bool
 saved
 =
 :
@@ -14406,7 +14406,7 @@ void
 aClosure
 )
 {
-PRBool
+bool
 isChromePref
 =
 strcmp
@@ -14501,7 +14501,7 @@ void
 aClosure
 )
 {
-PRBool
+bool
 reportAll
 =
 Preferences
@@ -14510,7 +14510,7 @@ Preferences
 GetBool
 (
 aPrefName
-PR_FALSE
+false
 )
 ;
 nsContentUtils
@@ -14654,7 +14654,7 @@ void
 aClosure
 )
 {
-PRBool
+bool
 enableCompartmentGC
 =
 Preferences

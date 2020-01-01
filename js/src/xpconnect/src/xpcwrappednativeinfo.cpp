@@ -1152,7 +1152,7 @@ name
 jsid
 interfaceName
 ;
-PRBool
+bool
 canScript
 ;
 if

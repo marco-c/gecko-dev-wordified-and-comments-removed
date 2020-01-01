@@ -24,7 +24,7 @@ NOT_FOUND
 1
 }
 ;
-PRBool
+bool
 Init
 (
 const

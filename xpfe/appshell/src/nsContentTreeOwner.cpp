@@ -265,7 +265,7 @@ nsContentTreeOwner
 :
 nsContentTreeOwner
 (
-PRBool
+bool
 fPrimary
 )
 :
@@ -636,10 +636,10 @@ aFoundItem
 =
 nsnull
 ;
-PRBool
+bool
 fIs_Content
 =
-PR_FALSE
+false
 ;
 if
 (
@@ -870,7 +870,7 @@ windowEnumerator
 NS_ERROR_FAILURE
 )
 ;
-PRBool
+bool
 more
 ;
 windowEnumerator
@@ -1145,9 +1145,9 @@ ContentShellAdded
 nsIDocShellTreeItem
 *
 aContentShell
-PRBool
+bool
 aPrimary
-PRBool
+bool
 aTargetable
 const
 nsAString
@@ -1264,11 +1264,11 @@ nsContentTreeOwner
 :
 SetPersistence
 (
-PRBool
+bool
 aPersistPosition
-PRBool
+bool
 aPersistSize
-PRBool
+bool
 aPersistSizeMode
 )
 {
@@ -1319,10 +1319,10 @@ persist
 persistString
 )
 ;
-PRBool
+bool
 saveString
 =
-PR_FALSE
+false
 ;
 PRInt32
 index
@@ -1664,13 +1664,13 @@ nsContentTreeOwner
 :
 GetPersistence
 (
-PRBool
+bool
 *
 aPersistPosition
-PRBool
+bool
 *
 aPersistSize
-PRBool
+bool
 *
 aPersistSizeMode
 )
@@ -1869,7 +1869,7 @@ linkURI
 nsIDOMNode
 *
 linkNode
-PRBool
+bool
 isAppTab
 nsAString
 &
@@ -2269,7 +2269,7 @@ nsContentTreeOwner
 :
 IsWindowModal
 (
-PRBool
+bool
 *
 _retval
 )
@@ -2469,7 +2469,7 @@ PRInt32
 aCX
 PRInt32
 aCY
-PRBool
+bool
 aRepaint
 )
 {
@@ -2534,7 +2534,7 @@ PRInt32
 aCX
 PRInt32
 aCY
-PRBool
+bool
 aRepaint
 )
 {
@@ -2601,7 +2601,7 @@ nsContentTreeOwner
 :
 Repaint
 (
-PRBool
+bool
 aForce
 )
 {
@@ -2734,7 +2734,7 @@ nsContentTreeOwner
 :
 GetVisibility
 (
-PRBool
+bool
 *
 aVisibility
 )
@@ -2760,7 +2760,7 @@ nsContentTreeOwner
 :
 SetVisibility
 (
-PRBool
+bool
 aVisibility
 )
 {
@@ -2785,7 +2785,7 @@ nsContentTreeOwner
 :
 GetEnabled
 (
-PRBool
+bool
 *
 aEnabled
 )
@@ -2811,7 +2811,7 @@ nsContentTreeOwner
 :
 SetEnabled
 (
-PRBool
+bool
 aEnable
 )
 {
@@ -2836,7 +2836,7 @@ nsContentTreeOwner
 :
 GetBlurSuppression
 (
-PRBool
+bool
 *
 aBlurSuppression
 )
@@ -2862,7 +2862,7 @@ nsContentTreeOwner
 :
 SetBlurSuppression
 (
-PRBool
+bool
 aBlurSuppression
 )
 {
@@ -3474,11 +3474,11 @@ nsIDOMWindow
 aParent
 PRUint32
 aChromeFlags
-PRBool
+bool
 aCalledFromJS
-PRBool
+bool
 aPositionSpecified
-PRBool
+bool
 aSizeSpecified
 nsIURI
 *
@@ -3491,7 +3491,7 @@ const
 nsACString
 &
 aFeatures
-PRBool
+bool
 *
 aWindowIsNew
 nsIDOMWindow
@@ -4351,7 +4351,7 @@ nsIXULWindow
 >
 xulWindow
 ;
-PRBool
+bool
 more
 foundUs
 ;
@@ -4551,7 +4551,7 @@ nsSiteWindow2
 :
 GetVisibility
 (
-PRBool
+bool
 *
 aVisibility
 )
@@ -4572,7 +4572,7 @@ nsSiteWindow2
 :
 SetVisibility
 (
-PRBool
+bool
 aVisibility
 )
 {

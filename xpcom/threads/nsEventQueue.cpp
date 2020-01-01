@@ -131,13 +131,13 @@ mHead
 )
 ;
 }
-PRBool
+bool
 nsEventQueue
 :
 :
 GetEvent
 (
-PRBool
+bool
 mayWait
 nsIRunnable
 *
@@ -278,7 +278,7 @@ return
 PR_TRUE
 ;
 }
-PRBool
+bool
 nsEventQueue
 :
 :
@@ -298,10 +298,10 @@ event
 runnable
 )
 ;
-PRBool
+bool
 rv
 =
-PR_TRUE
+true
 ;
 {
 ReentrantMonitorAutoEnter

@@ -216,7 +216,7 @@ aToBBoxUserspace
 ;
 NS_IMETHOD_
 (
-PRBool
+bool
 )
 IsDisplayContainer
 (
@@ -226,7 +226,7 @@ IsDisplayContainer
 ;
 NS_IMETHOD_
 (
-PRBool
+bool
 )
 HasValidCoveredRect
 (

@@ -55,7 +55,7 @@ stringVal
 PRInt32
 intVal
 ;
-PRBool
+bool
 boolVal
 ;
 }
@@ -71,7 +71,7 @@ prefName
 MozPrefValue
 defaultValue
 ;
-PRBool
+bool
 isLocked
 ;
 SysPrefItem
@@ -731,7 +731,7 @@ rv
 return
 rv
 ;
-PRBool
+bool
 enabled
 =
 mEnabled
@@ -1214,10 +1214,10 @@ intValue
 =
 0
 ;
-PRBool
+bool
 boolValue
 =
-PR_FALSE
+false
 ;
 rv
 =
@@ -1579,7 +1579,7 @@ aPrefName
 MozPrefValue
 *
 aPrefValue
-PRBool
+bool
 *
 aLocked
 )
@@ -1911,7 +1911,7 @@ aPrefName
 MozPrefValue
 *
 aPrefValue
-PRBool
+bool
 aLocked
 )
 {

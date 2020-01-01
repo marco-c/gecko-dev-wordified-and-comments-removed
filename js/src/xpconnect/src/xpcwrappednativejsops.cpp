@@ -3306,7 +3306,7 @@ WantEquality
 )
 )
 {
-PRBool
+bool
 res
 ;
 nsresult
@@ -3742,7 +3742,7 @@ wrapper
 )
 ;
 \
-PRBool
+bool
 retval
 =
 JS_TRUE
@@ -3843,7 +3843,7 @@ GetScriptableCallback
 \
 }
 \
-PRBool
+bool
 retval
 =
 JS_TRUE
@@ -4294,7 +4294,7 @@ cx
 obj
 )
 ;
-PRBool
+bool
 retval2
 ;
 PRE_HELPER_STUB_NO_SLIM
@@ -4497,7 +4497,7 @@ rv
 =
 NS_OK
 ;
-PRBool
+bool
 retval
 =
 JS_TRUE
@@ -5123,7 +5123,7 @@ NS_ERROR_XPC_BAD_OP_ON_WN_PROTO
 cx
 )
 ;
-PRBool
+bool
 retval
 =
 JS_TRUE

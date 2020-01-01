@@ -136,9 +136,9 @@ aCanvasElement
 nsIPrincipal
 *
 aPrincipal
-PRBool
+bool
 forceWriteOnly
-PRBool
+bool
 CORSUsed
 )
 {
@@ -207,7 +207,7 @@ CORSUsed
 )
 return
 ;
-PRBool
+bool
 subsumes
 ;
 nsresult

@@ -454,7 +454,7 @@ get
 (
 )
 ;
-PRBool
+bool
 isCollapsed
 ;
 rv
@@ -596,7 +596,7 @@ NS_OK
 ;
 }
 static
-PRBool
+bool
 IsContentBR
 (
 nsIContent
@@ -1547,7 +1547,7 @@ ExpandToClusterBoundary
 nsIContent
 *
 aContent
-PRBool
+bool
 aForward
 PRUint32
 *
@@ -1870,7 +1870,7 @@ PRUint32
 aNativeOffset
 PRUint32
 aNativeLength
-PRBool
+bool
 aExpandToClusterBoundaries
 )
 {
@@ -2948,7 +2948,7 @@ nsINode
 aNode
 PRInt32
 aOffset
-PRBool
+bool
 aHint
 nsIFrame
 *
@@ -3798,7 +3798,7 @@ null
 "
 )
 ;
-PRBool
+bool
 selectionIsCollapsed
 ;
 rv

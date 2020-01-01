@@ -505,7 +505,7 @@ requestHead
 nsIInputStream
 *
 requestBody
-PRBool
+bool
 requestBodyHasHeaders
 nsIEventTarget
 *
@@ -596,7 +596,7 @@ rv
 return
 rv
 ;
-PRBool
+bool
 activityDistributorActive
 ;
 rv
@@ -801,7 +801,7 @@ mRequestHead
 =
 requestHead
 ;
-PRBool
+bool
 pruneProxyHeaders
 =
 cinfo
@@ -1626,7 +1626,7 @@ progressMax
 )
 ;
 }
-PRBool
+bool
 nsHttpTransaction
 :
 :
@@ -2376,10 +2376,10 @@ EmptyCString
 )
 ;
 }
-PRBool
+bool
 connReused
 =
-PR_FALSE
+false
 ;
 if
 (
@@ -2440,10 +2440,10 @@ return
 ;
 }
 }
-PRBool
+bool
 relConn
 =
-PR_TRUE
+true
 ;
 if
 (
@@ -2732,7 +2732,7 @@ char
 buf
 PRUint32
 len
-PRBool
+bool
 aAllowPartialMatch
 )
 {
@@ -2930,10 +2930,10 @@ Truncate
 )
 ;
 }
-PRBool
+bool
 firstByte
 =
-PR_TRUE
+true
 ;
 while
 (
@@ -3998,10 +3998,10 @@ n
 }
 #
 endif
-PRBool
+bool
 reset
 =
-PR_FALSE
+false
 ;
 mConnection
 -
@@ -4948,7 +4948,7 @@ this
 )
 )
 ;
-PRBool
+bool
 val
 ;
 if

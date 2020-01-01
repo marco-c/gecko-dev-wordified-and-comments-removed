@@ -162,7 +162,7 @@ nsIDOMRange
 *
 *
 aRange
-PRBool
+bool
 *
 aSkipChecking
 )
@@ -310,7 +310,7 @@ mSoftTextOffset
 PRInt32
 mLength
 ;
-PRPackedBool
+bool
 mCheckableWord
 ;
 RealWord
@@ -319,7 +319,7 @@ PRInt32
 aOffset
 PRInt32
 aLength
-PRPackedBool
+bool
 aCheckable
 )
 :
@@ -360,7 +360,7 @@ mRealWords
 PRInt32
 mNextWordIndex
 ;
-PRPackedBool
+bool
 mSoftTextValid
 ;
 void
@@ -408,7 +408,7 @@ PRInt32
 aSoftTextOffset
 DOMMapHint
 aHint
-PRBool
+bool
 aSearchForward
 )
 ;

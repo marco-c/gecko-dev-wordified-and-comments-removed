@@ -52,7 +52,7 @@ aActualRowSpan
 PRInt32
 &
 aActualColSpan
-PRBool
+bool
 &
 aIsSelected
 )

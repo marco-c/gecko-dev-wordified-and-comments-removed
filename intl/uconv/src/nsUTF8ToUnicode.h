@@ -68,7 +68,7 @@ mState
 PRUint8
 mBytes
 ;
-PRPackedBool
+bool
 mFirst
 ;
 NS_IMETHOD

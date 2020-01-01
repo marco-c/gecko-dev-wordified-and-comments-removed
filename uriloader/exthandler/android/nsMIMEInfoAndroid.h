@@ -34,7 +34,7 @@ nsIMIMEInfo
 public
 :
 static
-PRBool
+bool
 GetMimeInfoForMimeType
 (
 const
@@ -48,7 +48,7 @@ aMimeInfo
 )
 ;
 static
-PRBool
+bool
 GetMimeInfoForFileExt
 (
 const
@@ -69,7 +69,7 @@ const
 nsACString
 &
 aURL
-PRBool
+bool
 *
 found
 nsIHandlerInfo
@@ -130,7 +130,7 @@ nsCString
 >
 mExtensions
 ;
-PRBool
+bool
 mAlwaysAsk
 ;
 nsHandlerInfoAction

@@ -86,7 +86,7 @@ nsSize
 aBorder
 nsSize
 aPadding
-PRBool
+bool
 aShrinkWrap
 )
 ;
@@ -177,7 +177,7 @@ aDestructRoot
 )
 ;
 virtual
-PRBool
+bool
 IsContainingBlock
 (
 )
@@ -354,7 +354,7 @@ nsSize
 aBorder
 nsSize
 aPadding
-PRBool
+bool
 aShrinkWrap
 )
 ;
@@ -401,7 +401,7 @@ endif
 void
 SetSelected
 (
-PRBool
+bool
 aSelected
 SelectionType
 aType
@@ -443,7 +443,7 @@ aActualRowSpan
 PRInt32
 &
 aActualColSpan
-PRBool
+bool
 &
 aIsSelected
 )
@@ -522,7 +522,7 @@ GetCaptionSide
 (
 )
 ;
-PRBool
+bool
 HasSideCaption
 (
 )

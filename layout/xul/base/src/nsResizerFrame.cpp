@@ -266,10 +266,10 @@ weakFrame
 this
 )
 ;
-PRBool
+bool
 doDefault
 =
-PR_TRUE
+true
 ;
 switch
 (
@@ -1582,10 +1582,10 @@ GetParent
 )
 ;
 }
-PRBool
+bool
 isChromeShell
 =
-PR_FALSE
+false
 ;
 nsCOMPtr
 <

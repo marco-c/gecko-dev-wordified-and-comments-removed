@@ -72,7 +72,7 @@ aValue
 )
 const
 ;
-PRBool
+bool
 IsEmpty
 (
 )
@@ -119,7 +119,7 @@ aIndex
 ]
 ;
 }
-PRBool
+bool
 operator
 =
 =
@@ -131,7 +131,7 @@ rhs
 )
 const
 ;
-PRBool
+bool
 SetCapacity
 (
 PRUint32
@@ -187,7 +187,7 @@ aIndex
 ]
 ;
 }
-PRBool
+bool
 SetLength
 (
 PRUint32
@@ -226,7 +226,7 @@ Clear
 )
 ;
 }
-PRBool
+bool
 InsertItem
 (
 PRUint32
@@ -342,7 +342,7 @@ aIndex
 )
 ;
 }
-PRBool
+bool
 AppendItem
 (
 SVGLength
@@ -403,7 +403,7 @@ nsSVGElement
 aElement
 PRUint8
 aAxis
-PRBool
+bool
 aCanZeroPadList
 )
 :
@@ -439,7 +439,7 @@ nsSVGElement
 aElement
 PRUint8
 aAxis
-PRBool
+bool
 aCanZeroPadList
 )
 {
@@ -523,7 +523,7 @@ return
 mAxis
 ;
 }
-PRBool
+bool
 CanZeroPadList
 (
 )
@@ -536,7 +536,7 @@ mCanZeroPadList
 void
 SetCanZeroPadList
 (
-PRBool
+bool
 aCanZeroPadList
 )
 {
@@ -647,7 +647,7 @@ aIndex
 )
 ;
 }
-PRBool
+bool
 SetLength
 (
 PRUint32
@@ -672,7 +672,7 @@ mElement
 PRUint8
 mAxis
 ;
-PRPackedBool
+bool
 mCanZeroPadList
 ;
 }

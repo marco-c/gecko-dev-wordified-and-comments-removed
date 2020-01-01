@@ -188,7 +188,7 @@ Skip
 nsIDOMNode
 *
 aNode
-PRBool
+bool
 *
 _retval
 )

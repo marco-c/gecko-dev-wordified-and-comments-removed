@@ -653,7 +653,7 @@ return
 stride
 ;
 }
-PRBool
+bool
 gfxImageSurface
 :
 :

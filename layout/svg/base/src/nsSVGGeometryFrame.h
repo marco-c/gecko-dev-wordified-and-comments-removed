@@ -79,7 +79,7 @@ aPrevInFlow
 )
 ;
 virtual
-PRBool
+bool
 IsFrameOfType
 (
 PRUint32
@@ -128,7 +128,7 @@ GetStrokeWidth
 (
 )
 ;
-PRBool
+bool
 SetupCairoFill
 (
 gfxContext
@@ -136,7 +136,7 @@ gfxContext
 aContext
 )
 ;
-PRBool
+bool
 HasStroke
 (
 )
@@ -157,7 +157,7 @@ gfxContext
 aContext
 )
 ;
-PRBool
+bool
 SetupCairoStroke
 (
 gfxContext

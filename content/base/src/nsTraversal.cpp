@@ -53,7 +53,7 @@ aWhatToShow
 nsIDOMNodeFilter
 *
 aFilter
-PRBool
+bool
 aExpandEntityReferences
 )
 :

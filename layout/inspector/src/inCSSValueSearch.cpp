@@ -195,7 +195,7 @@ inCSSValueSearch
 :
 GetIsActive
 (
-PRBool
+bool
 *
 aIsActive
 )
@@ -235,7 +235,7 @@ inCSSValueSearch
 :
 GetHoldResults
 (
-PRBool
+bool
 *
 aHoldResults
 )
@@ -255,7 +255,7 @@ inCSSValueSearch
 :
 SetHoldResults
 (
-PRBool
+bool
 aHoldResults
 )
 {
@@ -468,7 +468,7 @@ inCSSValueSearch
 :
 SearchStep
 (
-PRBool
+bool
 *
 _retval
 )
@@ -680,7 +680,7 @@ inCSSValueSearch
 :
 GetReturnRelativeURLs
 (
-PRBool
+bool
 *
 aReturnRelativeURLs
 )
@@ -700,7 +700,7 @@ inCSSValueSearch
 :
 SetReturnRelativeURLs
 (
-PRBool
+bool
 aReturnRelativeURLs
 )
 {
@@ -718,7 +718,7 @@ inCSSValueSearch
 :
 GetNormalizeChromeURLs
 (
-PRBool
+bool
 *
 aNormalizeChromeURLs
 )
@@ -738,7 +738,7 @@ inCSSValueSearch
 :
 SetNormalizeChromeURLs
 (
-PRBool
+bool
 aNormalizeChromeURLs
 )
 {

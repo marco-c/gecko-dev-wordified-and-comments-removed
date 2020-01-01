@@ -77,11 +77,11 @@ nsDocShellEditorData
 nsresult
 MakeEditable
 (
-PRBool
+bool
 inWaitForUriLoad
 )
 ;
-PRBool
+bool
 GetEditable
 (
 )
@@ -135,7 +135,7 @@ nsIDocShell
 aDocShell
 )
 ;
-PRBool
+bool
 WaitingForLoad
 (
 )
@@ -162,7 +162,7 @@ nsIEditingSession
 >
 mEditingSession
 ;
-PRBool
+bool
 mMakeEditable
 ;
 nsCOMPtr
@@ -171,10 +171,10 @@ nsIEditor
 >
 mEditor
 ;
-PRBool
+bool
 mIsDetached
 ;
-PRBool
+bool
 mDetachedMakeEditable
 ;
 nsIHTMLDocument

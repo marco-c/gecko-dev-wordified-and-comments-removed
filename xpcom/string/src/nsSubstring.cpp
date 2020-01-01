@@ -1092,7 +1092,7 @@ len
 nsAString
 &
 str
-PRBool
+bool
 aMoveOwnership
 )
 {
@@ -1207,7 +1207,7 @@ len
 nsACString
 &
 str
-PRBool
+bool
 aMoveOwnership
 )
 {

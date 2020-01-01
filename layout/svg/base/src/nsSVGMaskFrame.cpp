@@ -298,7 +298,7 @@ Height
 ;
 #
 endif
-PRBool
+bool
 resultOverflows
 ;
 gfxIntSize

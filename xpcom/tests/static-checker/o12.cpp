@@ -1,6 +1,6 @@
 typedef
 int
-PRBool
+bool
 ;
 typedef
 int
@@ -32,7 +32,7 @@ NS_outparam
 )
 )
 )
-PRBool
+bool
 baz
 (
 int
@@ -41,7 +41,7 @@ p
 NS_OUTPARAM
 )
 ;
-PRBool
+bool
 bar
 (
 int

@@ -71,7 +71,7 @@ aDoc
 nsITransferable
 *
 aTrans
-PRBool
+bool
 *
 aDoPutOnClipboard
 )
@@ -86,7 +86,7 @@ aSel
 nsIDocument
 *
 aDoc
-PRBool
+bool
 *
 aIsPlainTextContext
 )
@@ -170,7 +170,7 @@ aSelection
 )
 ;
 static
-PRBool
+bool
 CanCopy
 (
 nsIDocument
@@ -179,7 +179,7 @@ aDocument
 )
 ;
 static
-PRBool
+bool
 FireClipboardEvent
 (
 PRInt32

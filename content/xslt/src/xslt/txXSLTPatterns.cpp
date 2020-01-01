@@ -336,7 +336,7 @@ addStep
 txPattern
 *
 aPattern
-PRBool
+bool
 isChild
 )
 {
@@ -451,7 +451,7 @@ walker
 aNode
 )
 ;
-PRBool
+bool
 hasParent
 =
 walker
@@ -1673,7 +1673,7 @@ rv
 MB_FALSE
 )
 ;
-PRBool
+bool
 hasNext
 =
 mIsAttr

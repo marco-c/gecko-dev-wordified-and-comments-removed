@@ -57,7 +57,7 @@ nsSVGIntegrationUtils
 public
 :
 static
-PRBool
+bool
 UsingEffectsForFrame
 (
 const
@@ -115,7 +115,7 @@ aDamageRect
 )
 ;
 static
-PRBool
+bool
 HitTestFrameForEffects
 (
 nsIFrame

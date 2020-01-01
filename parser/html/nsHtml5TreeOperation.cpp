@@ -1237,10 +1237,10 @@ GetChildCount
 (
 )
 ;
-PRBool
+bool
 didAppend
 =
-PR_FALSE
+false
 ;
 while
 (
@@ -1684,7 +1684,7 @@ mThree
 .
 attributes
 ;
-PRBool
+bool
 isKeygen
 =
 (

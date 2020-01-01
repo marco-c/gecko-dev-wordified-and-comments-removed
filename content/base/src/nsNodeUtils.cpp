@@ -1629,7 +1629,7 @@ nsIDocument
 aOwnerDocument
 PRUint16
 aOperation
-PRBool
+bool
 aCloned
 )
 {
@@ -1996,9 +1996,9 @@ CloneNodeImpl
 nsINode
 *
 aNode
-PRBool
+bool
 aDeep
-PRBool
+bool
 aCallUserDataHandlers
 nsIDOMNode
 *
@@ -2104,9 +2104,9 @@ CloneAndAdopt
 nsINode
 *
 aNode
-PRBool
+bool
 aClone
-PRBool
+bool
 aDeep
 nsNodeInfoManager
 *
@@ -2296,10 +2296,10 @@ NS_ENSURE_STATE
 newDoc
 )
 ;
-PRBool
+bool
 hasHadScriptHandlingObject
 =
-PR_FALSE
+false
 ;
 if
 (
@@ -2547,10 +2547,10 @@ GetOwnerDoc
 (
 )
 ;
-PRBool
+bool
 wasRegistered
 =
-PR_FALSE
+false
 ;
 if
 (
@@ -3061,7 +3061,7 @@ if
 clonedAttrChildNode
 )
 {
-PRBool
+bool
 ok
 =
 aNodesWithProperties
@@ -3248,7 +3248,7 @@ HasProperties
 )
 )
 {
-PRBool
+bool
 ok
 =
 aNodesWithProperties

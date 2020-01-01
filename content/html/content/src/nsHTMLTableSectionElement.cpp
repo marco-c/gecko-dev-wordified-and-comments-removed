@@ -122,7 +122,7 @@ nsGenericHTMLElement
 )
 NS_DECL_NSIDOMHTMLTABLESECTIONELEMENT
 virtual
-PRBool
+bool
 ParseAttribute
 (
 PRInt32
@@ -148,7 +148,7 @@ const
 ;
 NS_IMETHOD_
 (
-PRBool
+bool
 )
 IsAttributeMapped
 (
@@ -429,7 +429,7 @@ return
 NS_ERROR_DOM_INDEX_SIZE_ERR
 ;
 }
-PRBool
+bool
 doInsert
 =
 (
@@ -743,7 +743,7 @@ retChild
 )
 ;
 }
-PRBool
+bool
 nsHTMLTableSectionElement
 :
 :
@@ -1182,7 +1182,7 @@ aData
 }
 NS_IMETHODIMP_
 (
-PRBool
+bool
 )
 nsHTMLTableSectionElement
 :

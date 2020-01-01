@@ -45,7 +45,7 @@ define
 UNICODE_ZWSP
 0x200B
 static
-PRBool
+bool
 IsDiscardable
 (
 PRUnichar
@@ -100,7 +100,7 @@ ch
 ;
 }
 static
-PRBool
+bool
 IsDiscardable
 (
 PRUint8
@@ -175,10 +175,10 @@ outputStart
 =
 aOutput
 ;
-PRBool
+bool
 lastCharArabic
 =
-PR_FALSE
+false
 ;
 if
 (
@@ -326,7 +326,7 @@ INCOMING_WHITESPACE
 }
 else
 {
-PRBool
+bool
 inWhitespace
 =
 (
@@ -365,7 +365,7 @@ aText
 +
 +
 ;
-PRBool
+bool
 nowInWhitespace
 ;
 if
@@ -803,7 +803,7 @@ INCOMING_WHITESPACE
 }
 else
 {
-PRBool
+bool
 inWhitespace
 =
 (
@@ -842,7 +842,7 @@ aText
 +
 +
 ;
-PRBool
+bool
 nowInWhitespace
 =
 ch
@@ -1032,7 +1032,7 @@ return
 aOutput
 ;
 }
-PRBool
+bool
 nsSkipCharsRunIterator
 :
 :

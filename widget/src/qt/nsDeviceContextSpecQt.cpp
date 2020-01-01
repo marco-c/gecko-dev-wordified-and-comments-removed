@@ -618,7 +618,7 @@ aWidget
 nsIPrintSettings
 *
 aPS
-PRBool
+bool
 aIsPrintPreview
 )
 {
@@ -651,7 +651,7 @@ mIsPPreview
 =
 aIsPrintPreview
 ;
-PRBool
+bool
 toFile
 ;
 aPS

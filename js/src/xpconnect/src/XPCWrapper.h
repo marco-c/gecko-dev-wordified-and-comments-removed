@@ -53,7 +53,7 @@ _flag
 (
 )
 )
-PRBool
+bool
 AttachNewConstructorObject
 (
 XPCCallContext

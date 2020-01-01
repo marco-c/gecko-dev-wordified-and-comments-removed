@@ -89,7 +89,7 @@ const
 char
 *
 aProtocolScheme
-PRBool
+bool
 *
 aHandlerExists
 )
@@ -128,7 +128,7 @@ const
 nsACString
 &
 aFileExt
-PRBool
+bool
 *
 aFound
 )
@@ -140,7 +140,7 @@ const
 nsACString
 &
 aScheme
-PRBool
+bool
 *
 found
 nsIHandlerInfo
@@ -150,7 +150,7 @@ _retval
 )
 ;
 static
-PRBool
+bool
 GetValueString
 (
 HKEY
@@ -165,7 +165,7 @@ result
 )
 ;
 static
-PRBool
+bool
 CleanupCmdHandlerPath
 (
 nsAString
@@ -243,7 +243,7 @@ pInfo
 )
 ;
 static
-PRBool
+bool
 typeFromExtEquals
 (
 const

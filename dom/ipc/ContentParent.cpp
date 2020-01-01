@@ -2413,7 +2413,7 @@ while
 1
 )
 {
-PRBool
+bool
 hasMore
 ;
 enumerator
@@ -2986,7 +2986,7 @@ ContentParent
 :
 RecvClipboardHasText
 (
-PRBool
+bool
 *
 hasText
 )
@@ -3230,7 +3230,7 @@ ContentParent
 :
 RecvGetShowPasswordSetting
 (
-PRBool
+bool
 *
 showPassword
 )
@@ -3437,7 +3437,7 @@ service
 "
 )
 ;
-PRBool
+bool
 prefNeedUpdate
 ;
 prefService
@@ -4846,7 +4846,7 @@ PRInt16
 &
 selectedType
 const
-PRBool
+bool
 &
 addToRecentDocs
 const
@@ -5107,10 +5107,10 @@ nsILocalFile
 >
 singleFile
 ;
-PRBool
+bool
 loop
 =
-PR_TRUE
+true
 ;
 while
 (
@@ -5311,7 +5311,7 @@ OnProcessNextEvent
 nsIThreadInternal
 *
 thread
-PRBool
+bool
 mayWait
 PRUint32
 recursionDepth
@@ -5440,7 +5440,7 @@ nsString
 &
 aText
 const
-PRBool
+bool
 &
 aTextClickable
 const

@@ -330,7 +330,7 @@ nsCSSPseudoElements
 :
 Type
 aPseudoType
-PRBool
+bool
 aCreateIfNeeded
 )
 ;

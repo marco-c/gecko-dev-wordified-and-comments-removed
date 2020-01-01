@@ -634,7 +634,7 @@ hyphenation
 )
 )
 ;
-PRBool
+bool
 equals
 ;
 if
@@ -679,10 +679,10 @@ aDir
 nsresult
 rv
 ;
-PRBool
+bool
 check
 =
-PR_FALSE
+false
 ;
 rv
 =

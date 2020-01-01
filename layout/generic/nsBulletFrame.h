@@ -157,7 +157,7 @@ SetListItemOrdinal
 (
 PRInt32
 aNextOrdinal
-PRBool
+bool
 *
 aChanged
 )
@@ -179,7 +179,7 @@ OnDataAvailable
 imgIRequest
 *
 aRequest
-PRBool
+bool
 aCurrentFrame
 const
 nsIntRect
@@ -214,7 +214,7 @@ aDirtyRect
 )
 ;
 static
-PRBool
+bool
 AppendCounterText
 (
 PRInt32
@@ -226,7 +226,7 @@ nsString
 aResult
 )
 ;
-PRBool
+bool
 GetListItemText
 (
 const
@@ -253,13 +253,13 @@ aDirtyRect
 )
 ;
 virtual
-PRBool
+bool
 IsEmpty
 (
 )
 ;
 virtual
-PRBool
+bool
 IsSelfEmpty
 (
 )
@@ -323,7 +323,7 @@ mComputedSize
 PRInt32
 mOrdinal
 ;
-PRBool
+bool
 mTextIsRTL
 ;
 }

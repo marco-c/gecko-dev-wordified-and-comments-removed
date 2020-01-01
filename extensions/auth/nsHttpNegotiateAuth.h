@@ -37,7 +37,7 @@ NS_DECL_ISUPPORTS
 NS_DECL_NSIHTTPAUTHENTICATOR
 private
 :
-PRBool
+bool
 TestBoolPref
 (
 const
@@ -46,7 +46,7 @@ char
 pref
 )
 ;
-PRBool
+bool
 TestPref
 (
 nsIURI
@@ -57,7 +57,7 @@ char
 pref
 )
 ;
-PRBool
+bool
 MatchesBaseURI
 (
 const

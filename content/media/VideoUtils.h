@@ -174,7 +174,7 @@ mReentrantMonitor
 }
 ;
 }
-PRBool
+bool
 AddOverflow32
 (
 PRUint32
@@ -186,7 +186,7 @@ PRUint32
 aResult
 )
 ;
-PRBool
+bool
 MulOverflow32
 (
 PRUint32
@@ -198,7 +198,7 @@ PRUint32
 aResult
 )
 ;
-PRBool
+bool
 AddOverflow
 (
 PRInt64
@@ -210,7 +210,7 @@ PRInt64
 aResult
 )
 ;
-PRBool
+bool
 MulOverflow
 (
 PRInt64
@@ -222,7 +222,7 @@ PRInt64
 aResult
 )
 ;
-PRBool
+bool
 FramesToUsecs
 (
 PRInt64
@@ -234,7 +234,7 @@ PRInt64
 aOutUsecs
 )
 ;
-PRBool
+bool
 UsecsToFrames
 (
 PRInt64

@@ -60,7 +60,7 @@ PRIntervalTime
 ifdef
 CALL_SAFETY_ON
 extern
-PRBool
+bool
 gSkipPluginSafeCalls
 ;
 #

@@ -594,7 +594,7 @@ array
 )
 ;
 }
-PRBool
+bool
 nsPluginsDir
 :
 :

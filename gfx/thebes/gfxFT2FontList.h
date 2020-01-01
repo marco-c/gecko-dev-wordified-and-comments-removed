@@ -172,7 +172,7 @@ const
 gfxFontStyle
 *
 aFontStyle
-PRBool
+bool
 aNeedsBold
 )
 ;
@@ -281,7 +281,7 @@ const
 gfxFontStyle
 *
 aStyle
-PRBool
+bool
 &
 aNeedsBold
 )
@@ -367,7 +367,7 @@ const
 FontListEntry
 &
 aFLE
-PRBool
+bool
 isStdFile
 )
 ;
@@ -377,10 +377,10 @@ AppendFacesFromFontFile
 nsCString
 &
 aFileName
-PRBool
+bool
 isStdFile
 =
-PR_FALSE
+false
 FontNameCache
 *
 aCache
@@ -394,7 +394,7 @@ AppendFacesFromCachedFaceList
 nsCString
 &
 aFileName
-PRBool
+bool
 isStdFile
 nsCString
 &

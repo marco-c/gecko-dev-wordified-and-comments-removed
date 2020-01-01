@@ -1,6 +1,6 @@
 typedef
 int
-PRBool
+bool
 ;
 typedef
 int
@@ -18,7 +18,7 @@ typedef
 short
 PRUnichar
 ;
-PRBool
+bool
 bar
 (
 int

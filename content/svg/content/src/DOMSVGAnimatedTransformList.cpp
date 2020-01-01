@@ -358,7 +358,7 @@ aNewLength
 ;
 }
 }
-PRBool
+bool
 DOMSVGAnimatedTransformList
 :
 :

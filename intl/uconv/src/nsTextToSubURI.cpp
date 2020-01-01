@@ -692,7 +692,7 @@ rv
 ;
 }
 static
-PRBool
+bool
 statefulCharset
 (
 const
@@ -782,7 +782,7 @@ const
 nsAFlatCString
 &
 aURI
-PRBool
+bool
 aIRI
 nsAString
 &
@@ -794,7 +794,7 @@ rv
 =
 NS_OK
 ;
-PRBool
+bool
 isStatefulCharset
 =
 statefulCharset

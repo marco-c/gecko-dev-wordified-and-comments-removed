@@ -115,10 +115,10 @@ mObserverContext
 nsresult
 mStatus
 ;
-PRPackedBool
+bool
 mIsPending
 ;
-PRPackedBool
+bool
 mAllowHead
 ;
 void

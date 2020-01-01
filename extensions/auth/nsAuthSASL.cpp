@@ -171,7 +171,7 @@ if
 prefs
 )
 {
-PRBool
+bool
 val
 ;
 rv
@@ -550,7 +550,7 @@ void
 inToken
 PRUint32
 inTokenLen
-PRBool
+bool
 confidential
 void
 *

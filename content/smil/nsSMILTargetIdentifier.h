@@ -55,7 +55,7 @@ PR_FALSE
 {
 }
 inline
-PRBool
+bool
 Equals
 (
 const
@@ -121,7 +121,7 @@ mAttributeName
 PRInt32
 mAttributeNamespaceID
 ;
-PRPackedBool
+bool
 mIsCSS
 ;
 }
@@ -184,7 +184,7 @@ this
 ;
 }
 inline
-PRBool
+bool
 Equals
 (
 const
@@ -233,7 +233,7 @@ nsIAtom
 *
 mAttributeName
 ;
-PRPackedBool
+bool
 mIsCSS
 ;
 }

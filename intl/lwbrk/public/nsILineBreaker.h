@@ -130,7 +130,7 @@ NS_ILINEBREAKER_IID
 )
 static
 inline
-PRBool
+bool
 NS_IsSpace
 (
 PRUnichar
@@ -192,7 +192,7 @@ u
 }
 static
 inline
-PRBool
+bool
 NS_NeedsPlatformNativeHandling
 (
 PRUnichar

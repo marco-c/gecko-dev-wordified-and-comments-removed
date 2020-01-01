@@ -197,7 +197,7 @@ nsXBLPrototypeResources
 :
 LoadResources
 (
-PRBool
+bool
 *
 aResult
 )
@@ -246,7 +246,7 @@ aBoundElement
 ;
 }
 static
-PRBool
+bool
 IsChromeURI
 (
 nsIURI
@@ -254,10 +254,10 @@ nsIURI
 aURI
 )
 {
-PRBool
+bool
 isChrome
 =
-PR_FALSE
+false
 ;
 if
 (

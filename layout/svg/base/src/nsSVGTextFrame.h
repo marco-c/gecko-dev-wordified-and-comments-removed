@@ -293,7 +293,7 @@ private
 void
 UpdateGlyphPositioning
 (
-PRBool
+bool
 aForceGlobalTransform
 )
 ;
@@ -321,7 +321,7 @@ suspended
 UpdateState
 mMetricsState
 ;
-PRPackedBool
+bool
 mPositioningDirty
 ;
 }

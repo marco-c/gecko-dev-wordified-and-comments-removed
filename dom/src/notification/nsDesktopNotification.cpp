@@ -271,7 +271,7 @@ notification
 .
 disabled
 "
-PR_FALSE
+false
 )
 )
 {
@@ -292,7 +292,7 @@ prompt
 .
 testing
 "
-PR_FALSE
+false
 )
 &
 &
@@ -310,7 +310,7 @@ testing
 .
 allow
 "
-PR_TRUE
+true
 )
 )
 {
@@ -554,7 +554,7 @@ nsDOMDesktopNotification
 :
 SetAllow
 (
-PRBool
+bool
 aAllow
 )
 {

@@ -71,7 +71,7 @@ nsresult
 status
 )
 ;
-PRBool
+bool
 HasBeenClassified
 (
 nsIChannel

@@ -555,7 +555,7 @@ NS_OK
 }
 NS_IMETHODIMP_
 (
-PRBool
+bool
 )
 nsSVGGraphicElement
 :
@@ -605,7 +605,7 @@ name
 )
 ;
 }
-PRBool
+bool
 nsSVGGraphicElement
 :
 :

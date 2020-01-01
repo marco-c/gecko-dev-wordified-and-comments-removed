@@ -13,7 +13,7 @@ nsCOMPtr
 h
 "
 static
-PRBool
+bool
 ReleaseObjects
 (
 void
@@ -170,7 +170,7 @@ return
 retval
 ;
 }
-PRBool
+bool
 nsCOMArray_base
 :
 :
@@ -183,7 +183,7 @@ PRInt32
 aIndex
 )
 {
-PRBool
+bool
 result
 =
 mArray
@@ -207,7 +207,7 @@ return
 result
 ;
 }
-PRBool
+bool
 nsCOMArray_base
 :
 :
@@ -221,7 +221,7 @@ PRInt32
 aIndex
 )
 {
-PRBool
+bool
 result
 =
 mArray
@@ -280,7 +280,7 @@ return
 result
 ;
 }
-PRBool
+bool
 nsCOMArray_base
 :
 :
@@ -311,7 +311,7 @@ aIndex
 )
 )
 ;
-PRBool
+bool
 result
 =
 mArray
@@ -342,7 +342,7 @@ return
 result
 ;
 }
-PRBool
+bool
 nsCOMArray_base
 :
 :
@@ -353,7 +353,7 @@ nsISupports
 aObject
 )
 {
-PRBool
+bool
 result
 =
 mArray
@@ -376,7 +376,7 @@ return
 result
 ;
 }
-PRBool
+bool
 nsCOMArray_base
 :
 :
@@ -410,7 +410,7 @@ ObjectAt
 aIndex
 )
 ;
-PRBool
+bool
 result
 =
 mArray
@@ -433,7 +433,7 @@ return
 PR_FALSE
 ;
 }
-PRBool
+bool
 nsCOMArray_base
 :
 :
@@ -504,7 +504,7 @@ i
 )
 ;
 }
-PRBool
+bool
 result
 =
 mArray
@@ -563,7 +563,7 @@ return
 PR_FALSE
 ;
 }
-PRBool
+bool
 ReleaseObjects
 (
 void
@@ -625,7 +625,7 @@ nsnull
 )
 ;
 }
-PRBool
+bool
 nsCOMArray_base
 :
 :
@@ -716,7 +716,7 @@ aNewCount
 ;
 }
 }
-PRBool
+bool
 result
 =
 mArray

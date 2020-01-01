@@ -144,7 +144,7 @@ mLoader
 nsresult
 mResultCode
 ;
-PRBool
+bool
 mHttpRequestSucceeded
 ;
 PRUint16
@@ -174,10 +174,10 @@ CondVar
 mCondition
 ;
 volatile
-PRBool
+bool
 mWaitFlag
 ;
-PRBool
+bool
 mResponsibleForDoneSignal
 ;
 void
@@ -196,7 +196,7 @@ mLoadGroupOwnerThread
 void
 FreeLoadGroup
 (
-PRBool
+bool
 aCancelLoad
 )
 ;
@@ -351,7 +351,7 @@ mURL
 nsCString
 mRequestMethod
 ;
-PRBool
+bool
 mHasPostData
 ;
 nsCString
@@ -383,7 +383,7 @@ nsNSSHttpRequestSession
 SECStatus
 internal_send_receive_attempt
 (
-PRBool
+bool
 &
 retryable_error
 PRPollDesc

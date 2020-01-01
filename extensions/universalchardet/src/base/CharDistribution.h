@@ -124,7 +124,7 @@ void
 void
 Reset
 (
-PRBool
+bool
 aIsPreferredLanguage
 )
 {
@@ -155,7 +155,7 @@ SetOpion
 )
 {
 }
-PRBool
+bool
 GotEnoughData
 (
 )
@@ -183,7 +183,7 @@ return
 1
 ;
 }
-PRBool
+bool
 mDone
 ;
 PRUint32

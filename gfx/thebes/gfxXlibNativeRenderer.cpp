@@ -119,7 +119,7 @@ coord
 ;
 }
 static
-PRBool
+bool
 _get_rectangular_clip
 (
 cairo_t
@@ -129,7 +129,7 @@ const
 nsIntRect
 &
 bounds
-PRBool
+bool
 *
 need_clip
 nsIntRect
@@ -153,10 +153,10 @@ clips
 int
 i
 ;
-PRBool
+bool
 retval
 =
-PR_TRUE
+true
 ;
 cliplist
 =
@@ -412,7 +412,7 @@ retval
 define
 MAX_STATIC_CLIP_RECTANGLES
 50
-PRBool
+bool
 gfxXlibNativeRenderer
 :
 :
@@ -606,10 +606,10 @@ target
 )
 )
 ;
-PRBool
+bool
 needs_clip
 =
-PR_TRUE
+true
 ;
 nsIntRect
 rectangles
@@ -636,7 +636,7 @@ device_offset_x
 device_offset_y
 )
 ;
-PRBool
+bool
 have_rectangular_clip
 =
 _get_rectangular_clip
@@ -679,7 +679,7 @@ rect_count
 return
 PR_TRUE
 ;
-PRBool
+bool
 supports_alternate_visual
 =
 (
@@ -691,7 +691,7 @@ DRAW_SUPPORTS_ALTERNATE_VISUAL
 =
 0
 ;
-PRBool
+bool
 supports_alternate_screen
 =
 supports_alternate_visual
@@ -900,7 +900,7 @@ PR_FALSE
 ;
 }
 static
-PRBool
+bool
 VisualHasAlpha
 (
 Screen
@@ -971,7 +971,7 @@ visual
 ;
 }
 static
-PRBool
+bool
 FormatConversionIsExact
 (
 Screen
@@ -1124,7 +1124,7 @@ gfxASurface
 destination
 nsIntSize
 size
-PRBool
+bool
 canDrawOverBackground
 PRUint32
 flags
@@ -1139,7 +1139,7 @@ DrawingMethod
 method
 )
 {
-PRBool
+bool
 drawIsOpaque
 =
 (
@@ -1154,7 +1154,7 @@ DRAW_IS_OPAQUE
 =
 0
 ;
-PRBool
+bool
 supportsAlternateVisual
 =
 (
@@ -1169,7 +1169,7 @@ DRAW_SUPPORTS_ALTERNATE_VISUAL
 =
 0
 ;
-PRBool
+bool
 supportsAlternateScreen
 =
 supportsAlternateVisual
@@ -1227,7 +1227,7 @@ target
 :
 screen
 ;
-PRBool
+bool
 doCopyBackground
 =
 !
@@ -1716,7 +1716,7 @@ forget
 )
 ;
 }
-PRBool
+bool
 gfxXlibNativeRenderer
 :
 :
@@ -1884,7 +1884,7 @@ mUniformColor
 PR_FALSE
 ;
 }
-PRBool
+bool
 drawIsOpaque
 =
 (
@@ -1906,7 +1906,7 @@ CurrentMatrix
 (
 )
 ;
-PRBool
+bool
 matrixIsIntegerTranslation
 =
 !
@@ -1916,7 +1916,7 @@ HasNonIntegerTranslation
 (
 )
 ;
-PRBool
+bool
 canDrawOverBackground
 =
 matrixIsIntegerTranslation

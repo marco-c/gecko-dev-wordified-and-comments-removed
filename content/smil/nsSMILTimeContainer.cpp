@@ -200,10 +200,10 @@ PRUint32
 aType
 )
 {
-PRBool
+bool
 didStartPause
 =
-PR_FALSE
+false
 ;
 if
 (
@@ -556,7 +556,7 @@ return
 rv
 ;
 }
-PRBool
+bool
 nsSMILTimeContainer
 :
 :
@@ -599,7 +599,7 @@ Clear
 )
 ;
 }
-PRBool
+bool
 nsSMILTimeContainer
 :
 :
@@ -674,7 +674,7 @@ return
 PR_TRUE
 ;
 }
-PRBool
+bool
 nsSMILTimeContainer
 :
 :
@@ -767,10 +767,10 @@ overlooked
 "
 )
 ;
-PRBool
+bool
 gotOne
 =
-PR_FALSE
+false
 ;
 while
 (

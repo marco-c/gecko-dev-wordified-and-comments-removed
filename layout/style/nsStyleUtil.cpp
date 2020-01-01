@@ -1322,10 +1322,10 @@ aWeight
 100
 )
 ;
-PRBool
+bool
 negativeStep
 =
-PRBool
+bool
 (
 50
 <
@@ -1404,7 +1404,7 @@ step
 )
 ;
 }
-PRBool
+bool
 nsStyleUtil
 :
 :
@@ -1424,7 +1424,7 @@ nsStringComparator
 aComparator
 )
 {
-PRBool
+bool
 result
 ;
 PRUint32
@@ -1783,10 +1783,10 @@ PRUnichar
 in
 ;
 }
-PRBool
+bool
 first
 =
-PR_TRUE
+true
 ;
 for
 (
@@ -2194,7 +2194,7 @@ return
 rounded
 ;
 }
-PRBool
+bool
 nsStyleUtil
 :
 :
@@ -2203,9 +2203,9 @@ IsSignificantChild
 nsIContent
 *
 aChild
-PRBool
+bool
 aTextIsSignificant
-PRBool
+bool
 aWhitespaceIsSignificant
 )
 {
@@ -2222,7 +2222,7 @@ arguments
 "
 )
 ;
-PRBool
+bool
 isText
 =
 aChild

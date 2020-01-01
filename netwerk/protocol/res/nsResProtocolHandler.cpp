@@ -266,10 +266,10 @@ rv
 )
 )
 {
-PRBool
+bool
 exists
 =
-PR_TRUE
+true
 ;
 mFile
 -
@@ -1208,7 +1208,7 @@ const
 char
 *
 scheme
-PRBool
+bool
 *
 _retval
 )
@@ -1484,7 +1484,7 @@ const
 nsACString
 &
 root
-PRBool
+bool
 *
 result
 )

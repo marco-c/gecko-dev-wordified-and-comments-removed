@@ -511,7 +511,7 @@ nsIWebBrowserChrome
 >
 mWebBrowserChrome
 ;
-PRPackedBool
+bool
 mTooltipListenerInstalled
 ;
 nsCOMPtr
@@ -540,7 +540,7 @@ PRInt32
 mMouseScreenX
 mMouseScreenY
 ;
-PRBool
+bool
 mShowingTooltip
 ;
 nsCOMPtr
@@ -629,7 +629,7 @@ RemoveContextMenuListener
 (
 )
 ;
-PRPackedBool
+bool
 mContextMenuListenerInstalled
 ;
 nsWebBrowser

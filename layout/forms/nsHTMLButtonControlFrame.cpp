@@ -442,9 +442,9 @@ nsHTMLButtonControlFrame
 :
 SetFocus
 (
-PRBool
+bool
 aOn
-PRBool
+bool
 aRepaint
 )
 {
@@ -1424,7 +1424,7 @@ ascent
 yoff
 ;
 }
-PRBool
+bool
 nsHTMLButtonControlFrame
 :
 :

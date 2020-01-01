@@ -241,10 +241,10 @@ dylib
 "
 )
 ;
-PRBool
+bool
 needsReset
 =
-PR_FALSE
+false
 ;
 if
 (

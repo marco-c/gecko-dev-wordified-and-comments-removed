@@ -262,7 +262,7 @@ Declaration
 *
 GetCSSDeclaration
 (
-PRBool
+bool
 aAllocate
 )
 =
@@ -362,7 +362,7 @@ const
 nsAString
 &
 aPropValue
-PRBool
+bool
 aIsImportant
 )
 ;

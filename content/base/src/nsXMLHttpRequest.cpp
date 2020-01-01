@@ -884,7 +884,7 @@ const
 char
 *
 capability
-PRBool
+bool
 *
 enabled
 )
@@ -4810,10 +4810,10 @@ return
 NS_OK
 ;
 }
-PRBool
+bool
 chrome
 =
-PR_FALSE
+false
 ;
 IsCapabilityEnabled
 (
@@ -4944,10 +4944,10 @@ pragma
 "
 }
 ;
-PRBool
+bool
 safeHeader
 =
-PR_FALSE
+false
 ;
 PRUint32
 i
@@ -5307,9 +5307,9 @@ const
 nsAString
 &
 aType
-PRBool
+bool
 aUseLSEventWrapper
-PRBool
+bool
 aLengthComputable
 PRUint64
 aLoaded
@@ -5382,7 +5382,7 @@ UPLOADPROGRESS_STR
 return
 ;
 }
-PRBool
+bool
 dispatchLoadend
 =
 aType
@@ -5817,7 +5817,7 @@ const
 nsACString
 &
 url
-PRBool
+bool
 async
 const
 nsAString
@@ -5893,10 +5893,10 @@ nsIURI
 >
 uri
 ;
-PRBool
+bool
 authp
 =
-PR_FALSE
+false
 ;
 if
 (
@@ -6961,7 +6961,7 @@ return
 NS_OK
 ;
 }
-PRBool
+bool
 IsSameOrBaseChannel
 (
 nsIRequest
@@ -7359,7 +7359,7 @@ DetectCharset
 (
 )
 ;
-PRBool
+bool
 parseBody
 =
 mResponseType
@@ -7793,7 +7793,7 @@ if
 mpChannel
 )
 {
-PRBool
+bool
 last
 ;
 rv
@@ -9337,10 +9337,10 @@ docCurURI
 docOrigURI
 )
 {
-PRBool
+bool
 equal
 =
-PR_FALSE
+false
 ;
 principalURI
 -
@@ -9604,7 +9604,7 @@ IsEmpty
 nsCAutoString
 specifiedCharset
 ;
-PRBool
+bool
 haveCharset
 ;
 PRInt32
@@ -9974,7 +9974,7 @@ rv
 rv
 )
 ;
-PRBool
+bool
 withCredentials
 =
 !
@@ -10527,7 +10527,7 @@ if
 mCORSPreflightChannel
 )
 {
-PRBool
+bool
 pending
 ;
 rv
@@ -10599,7 +10599,7 @@ return
 NS_OK
 ;
 }
-PRBool
+bool
 privileged
 ;
 rv
@@ -11116,7 +11116,7 @@ nsXMLHttpRequest
 :
 GetMultipart
 (
-PRBool
+bool
 *
 _retval
 )
@@ -11142,7 +11142,7 @@ nsXMLHttpRequest
 :
 SetMultipart
 (
-PRBool
+bool
 aMultipart
 )
 {
@@ -11190,7 +11190,7 @@ nsXMLHttpRequest
 :
 GetMozBackgroundRequest
 (
-PRBool
+bool
 *
 _retval
 )
@@ -11216,11 +11216,11 @@ nsXMLHttpRequest
 :
 SetMozBackgroundRequest
 (
-PRBool
+bool
 aMozBackgroundRequest
 )
 {
-PRBool
+bool
 privileged
 ;
 nsresult
@@ -11293,7 +11293,7 @@ nsXMLHttpRequest
 :
 GetWithCredentials
 (
-PRBool
+bool
 *
 _retval
 )
@@ -11319,7 +11319,7 @@ nsXMLHttpRequest
 :
 SetWithCredentials
 (
-PRBool
+bool
 aWithCredentials
 )
 {
@@ -11366,7 +11366,7 @@ ChangeState
 (
 PRUint32
 aState
-PRBool
+bool
 aBroadcast
 )
 {
@@ -11885,7 +11885,7 @@ nsXMLHttpRequest
 :
 MaybeDispatchProgressEvents
 (
-PRBool
+bool
 aFinalProgress
 )
 {
@@ -12118,7 +12118,7 @@ return
 NS_OK
 ;
 }
-PRBool
+bool
 upload
 =
 !
@@ -12133,7 +12133,7 @@ XML_HTTP_REQUEST_SENT
 mState
 )
 ;
-PRBool
+bool
 lengthComputable
 =
 (
@@ -12284,7 +12284,7 @@ return
 NS_OK
 ;
 }
-PRBool
+bool
 nsXMLHttpRequest
 :
 :
@@ -12783,10 +12783,10 @@ nsACString
 value
 )
 {
-PRBool
+bool
 chrome
 =
-PR_FALSE
+false
 ;
 IsCapabilityEnabled
 (

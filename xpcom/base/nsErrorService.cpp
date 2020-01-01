@@ -41,7 +41,7 @@ aData
 ;
 }
 static
-PRBool
+bool
 DeleteCString
 (
 nsHashKey

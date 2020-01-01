@@ -116,7 +116,7 @@ PRUint32
 aAttrEnum
 )
 ;
-PRBool
+bool
 IsExplicitlySet
 (
 )
@@ -131,7 +131,7 @@ mAnimVal
 mIsBaseSet
 ;
 }
-PRBool
+bool
 IsAnimating
 (
 )
@@ -170,7 +170,7 @@ SVGNumberList
 >
 mAnimVal
 ;
-PRPackedBool
+bool
 mIsBaseSet
 ;
 #
@@ -236,7 +236,7 @@ aSrcElement
 nsSMILValue
 &
 aValue
-PRBool
+bool
 &
 aPreventCachingOfSandwich
 )

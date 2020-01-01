@@ -807,10 +807,10 @@ rv
 =
 NS_OK
 ;
-PRBool
+bool
 processed
 =
-PR_TRUE
+true
 ;
 while
 (

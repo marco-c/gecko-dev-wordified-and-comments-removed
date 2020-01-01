@@ -766,7 +766,7 @@ nsIconChannel
 :
 IsPending
 (
-PRBool
+bool
 *
 result
 )
@@ -1529,7 +1529,7 @@ nsIInputStream
 *
 *
 _retval
-PRBool
+bool
 nonBlocking
 )
 {
@@ -1616,10 +1616,10 @@ SetFollowLinks
 PR_FALSE
 )
 ;
-PRBool
+bool
 fileExists
 =
-PR_FALSE
+false
 ;
 if
 (

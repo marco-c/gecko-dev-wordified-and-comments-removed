@@ -1968,7 +1968,7 @@ flags
 char
 *
 name
-PRBool
+bool
 isGlobal
 PRUint32
 interfacesBitmap
@@ -2762,7 +2762,7 @@ return
 wrapper
 ;
 }
-PRBool
+bool
 WrappedNative2WrapperMap
 :
 :

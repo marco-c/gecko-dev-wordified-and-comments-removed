@@ -174,12 +174,12 @@ nsCUPSShim
 {
 public
 :
-PRBool
+bool
 Init
 (
 )
 ;
-PRBool
+bool
 IsInitialized
 (
 )

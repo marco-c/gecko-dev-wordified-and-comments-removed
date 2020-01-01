@@ -354,7 +354,7 @@ contentCharset
 dataBuffer
 hashRef
 ;
-PRBool
+bool
 base64
 ;
 rv
@@ -566,7 +566,7 @@ const
 char
 *
 scheme
-PRBool
+bool
 *
 _retval
 )
@@ -595,7 +595,7 @@ contentType
 nsCString
 &
 contentCharset
-PRBool
+bool
 &
 isBase64
 nsCString

@@ -191,16 +191,16 @@ define
 PREFLIGHT_CACHE_SIZE
 100
 static
-PRBool
+bool
 gDisableCORS
 =
-PR_FALSE
+false
 ;
 static
-PRBool
+bool
 gDisableCORSPrivateData
 =
-PR_FALSE
+false
 ;
 class
 nsPreflightCache
@@ -266,7 +266,7 @@ PRTime
 now
 )
 ;
-PRBool
+bool
 CheckRequest
 (
 const
@@ -330,7 +330,7 @@ nsPreflightCache
 )
 ;
 }
-PRBool
+bool
 Initialize
 (
 )
@@ -353,9 +353,9 @@ aURI
 nsIPrincipal
 *
 aPrincipal
-PRBool
+bool
 aWithCredentials
-PRBool
+bool
 aCreate
 )
 ;
@@ -397,7 +397,7 @@ aUserData
 )
 ;
 static
-PRBool
+bool
 GetCacheKey
 (
 nsIURI
@@ -406,7 +406,7 @@ aURI
 nsIPrincipal
 *
 aPrincipal
-PRBool
+bool
 aWithCredentials
 nsACString
 &
@@ -433,7 +433,7 @@ sPreflightCache
 nsnull
 ;
 static
-PRBool
+bool
 EnsurePreflightCache
 (
 )
@@ -586,7 +586,7 @@ i
 }
 }
 }
-PRBool
+bool
 nsPreflightCache
 :
 :
@@ -799,9 +799,9 @@ aURI
 nsIPrincipal
 *
 aPrincipal
-PRBool
+bool
 aWithCredentials
-PRBool
+bool
 aCreate
 )
 {
@@ -1267,7 +1267,7 @@ return
 PL_DHASH_NEXT
 ;
 }
-PRBool
+bool
 nsPreflightCache
 :
 :
@@ -1279,7 +1279,7 @@ aURI
 nsIPrincipal
 *
 aPrincipal
-PRBool
+bool
 aWithCredentials
 nsACString
 &
@@ -1532,7 +1532,7 @@ aRequestingPrincipal
 nsIChannel
 *
 aChannel
-PRBool
+bool
 aWithCredentials
 nsresult
 *
@@ -1632,7 +1632,7 @@ aRequestingPrincipal
 nsIChannel
 *
 aChannel
-PRBool
+bool
 aWithCredentials
 const
 nsCString
@@ -1887,7 +1887,7 @@ aContext
 )
 ;
 }
-PRBool
+bool
 IsValidHTTPToken
 (
 const
@@ -2336,7 +2336,7 @@ if
 mIsPreflight
 )
 {
-PRBool
+bool
 succeeded
 ;
 rv
@@ -2389,7 +2389,7 @@ Methods
 headerVal
 )
 ;
-PRBool
+bool
 foundMethod
 =
 mPreflightMethod
@@ -3541,7 +3541,7 @@ const
 nsACString
 &
 aRequestMethod
-PRBool
+bool
 aWithCredentials
 )
 :
@@ -3613,7 +3613,7 @@ mReferrerPrincipal
 nsCString
 mRequestMethod
 ;
-PRBool
+bool
 mWithCredentials
 ;
 }
@@ -4447,7 +4447,7 @@ aListener
 nsIPrincipal
 *
 aPrincipal
-PRBool
+bool
 aWithCredentials
 nsTArray
 <

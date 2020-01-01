@@ -104,10 +104,10 @@ mFirstVisualFrame
 PRUint32
 mFrameCount
 ;
-PRPackedBool
+bool
 mHasContOnPrevLines
 ;
-PRPackedBool
+bool
 mHasContOnNextLines
 ;
 }
@@ -259,7 +259,7 @@ PRInt32
 aTextLength
 nsCharType
 aCharType
-PRBool
+bool
 aIsOddLevel
 )
 ;
@@ -372,7 +372,7 @@ length
 ;
 }
 static
-PRBool
+bool
 CheckLineOrder
 (
 nsIFrame
@@ -493,7 +493,7 @@ nsAString
 aDest
 nsBidiLevel
 aBaseDirection
-PRBool
+bool
 aOverride
 )
 ;
@@ -561,7 +561,7 @@ RepositionFrame
 nsIFrame
 *
 aFrame
-PRBool
+bool
 aIsOddLevel
 nscoord
 &
@@ -593,10 +593,10 @@ aFrame
 nsContinuationStates
 *
 aContinuationStates
-PRBool
+bool
 &
 aIsLeftMost
-PRBool
+bool
 &
 aIsRightMost
 )
@@ -699,7 +699,7 @@ aTextLength
 )
 ;
 static
-PRBool
+bool
 WriteLogicalToVisual
 (
 const

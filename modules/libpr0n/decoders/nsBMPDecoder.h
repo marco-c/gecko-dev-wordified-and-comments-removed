@@ -74,7 +74,7 @@ nsBMPDecoder
 void
 SetUseAlphaData
 (
-PRBool
+bool
 useAlphaData
 )
 ;
@@ -108,7 +108,7 @@ GetCompressedImageSize
 )
 const
 ;
-PRBool
+bool
 HasAlphaData
 (
 )
@@ -203,10 +203,10 @@ ProcessInfoHeader
 (
 )
 ;
-PRPackedBool
+bool
 mUseAlphaData
 ;
-PRPackedBool
+bool
 mHaveAlphaData
 ;
 }

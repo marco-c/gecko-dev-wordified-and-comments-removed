@@ -774,7 +774,7 @@ zLevel
 ifdef
 XP_WIN
 static
-PRBool
+bool
 CheckForFullscreenWindow
 (
 )
@@ -831,10 +831,10 @@ for
 ;
 )
 {
-PRBool
+bool
 more
 =
-PR_FALSE
+false
 ;
 windowList
 -
@@ -961,7 +961,7 @@ PRInt32
 aInitialWidth
 PRInt32
 aInitialHeight
-PRBool
+bool
 aIsHiddenWindow
 nsIAppShell
 *
@@ -1441,7 +1441,7 @@ PR_TRUE
 )
 ;
 }
-PRBool
+bool
 center
 =
 aChromeMask
@@ -1484,10 +1484,10 @@ global
 "
 )
 ;
-PRBool
+bool
 isRTL
 =
-PR_FALSE
+false
 ;
 reg
 -
@@ -1919,7 +1919,7 @@ nsAppShellService
 :
 GetApplicationProvidedHiddenWindow
 (
-PRBool
+bool
 *
 aAPHW
 )

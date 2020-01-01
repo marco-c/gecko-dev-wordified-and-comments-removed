@@ -44,7 +44,7 @@ aShell
 nsIContent
 *
 aNode
-PRBool
+bool
 aWalkAnonymousContent
 bool
 aWalkCache
@@ -82,7 +82,7 @@ bool
 aNoWalkUp
 )
 ;
-PRBool
+bool
 PushState
 (
 nsIContent

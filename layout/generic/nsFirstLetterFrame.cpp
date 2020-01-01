@@ -377,7 +377,7 @@ GetChildFrameContainingOffset
 (
 PRInt32
 inContentOffset
-PRBool
+bool
 inHint
 PRInt32
 *
@@ -549,7 +549,7 @@ nsSize
 aBorder
 nsSize
 aPadding
-PRBool
+bool
 aShrinkWrap
 )
 {
@@ -841,7 +841,7 @@ aReflowState
 .
 mLineLayout
 ;
-PRBool
+bool
 pushedFrame
 ;
 ll
@@ -1179,7 +1179,7 @@ return
 rv
 ;
 }
-PRBool
+bool
 nsFirstLetterFrame
 :
 :
@@ -1208,7 +1208,7 @@ nsIFrame
 *
 *
 aContinuation
-PRBool
+bool
 aIsFluid
 )
 {

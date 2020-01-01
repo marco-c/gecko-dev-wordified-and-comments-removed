@@ -129,7 +129,7 @@ PRUint32
 )
 ;
 static
-PRBool
+bool
 Is7bitNonAsciiString
 (
 const
@@ -163,7 +163,7 @@ char
 const
 char
 *
-PRBool
+bool
 nsACString
 &
 )
@@ -254,7 +254,7 @@ const
 nsACString
 &
 aFallbackCharset
-PRBool
+bool
 aTryLocaleCharset
 char
 *
@@ -829,10 +829,10 @@ valueEnd
 =
 0
 ;
-PRBool
+bool
 seenEquals
 =
-PR_FALSE
+false
 ;
 NS_ASSERTION
 (
@@ -948,10 +948,10 @@ str
 +
 str
 ;
-PRBool
+bool
 needUnquote
 =
-PR_FALSE
+false
 ;
 if
 (
@@ -1196,7 +1196,7 @@ paramLen
 +
 1
 ;
-PRBool
+bool
 needUnescape
 =
 *
@@ -1815,9 +1815,9 @@ const
 char
 *
 aDefaultCharset
-PRBool
+bool
 aOverrideCharset
-PRBool
+bool
 aEatContinuations
 nsACString
 &
@@ -2015,7 +2015,7 @@ const
 char
 *
 aDefaultCharset
-PRBool
+bool
 aOverrideCharset
 nsACString
 &
@@ -2554,7 +2554,7 @@ return
 nsnull
 ;
 }
-PRBool
+bool
 Is7bitNonAsciiString
 (
 const
@@ -2857,7 +2857,7 @@ aInput
 -
 -
 ;
-PRBool
+bool
 skipCheck
 =
 (
@@ -3022,7 +3022,7 @@ const
 char
 *
 aDefaultCharset
-PRBool
+bool
 aOverrideCharset
 nsACString
 &

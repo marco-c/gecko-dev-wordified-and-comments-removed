@@ -1413,7 +1413,7 @@ mGIFStruct
 rows_remaining
 ;
 }
-PRBool
+bool
 nsGIFDecoder2
 :
 :

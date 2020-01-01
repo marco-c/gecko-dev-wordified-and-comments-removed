@@ -527,10 +527,10 @@ GetStyleSVG
 mFillRule
 ;
 }
-PRBool
+bool
 isHit
 =
-PR_FALSE
+false
 ;
 nsRefPtr
 <

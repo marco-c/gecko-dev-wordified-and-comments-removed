@@ -465,7 +465,7 @@ char
 *
 aCharset
 const
-PRBool
+bool
 aWriteBOM
 )
 {
@@ -1559,7 +1559,7 @@ return
 NS_OK
 ;
 }
-PRBool
+bool
 nsJSONWriter
 :
 :
@@ -1897,7 +1897,7 @@ nsIInputStream
 aStream
 PRInt32
 aContentLength
-PRBool
+bool
 aNeedsConverter
 DecodingMode
 mode
@@ -2522,7 +2522,7 @@ cx
 jsval
 *
 rootVal
-PRBool
+bool
 needsConverter
 DecodingMode
 mode

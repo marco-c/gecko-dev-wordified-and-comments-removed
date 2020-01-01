@@ -271,7 +271,7 @@ char_pointer
 )
 return
 PR_FALSE
-PRBool
+bool
 nsID
 :
 :
@@ -293,7 +293,7 @@ return
 PR_FALSE
 ;
 }
-PRBool
+bool
 expectFormat1
 =
 (

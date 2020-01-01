@@ -87,7 +87,7 @@ NS_DECLARE_STATIC_IID_ACCESSOR
 NS_ISTYLE_RULE_PROCESSOR_IID
 )
 typedef
-PRBool
+bool
 (
 *
 EnumFunc
@@ -149,7 +149,7 @@ aData
 #
 endif
 virtual
-PRBool
+bool
 HasDocumentStateDependentStyle
 (
 StateRuleProcessorData
@@ -182,7 +182,7 @@ aData
 0
 ;
 virtual
-PRBool
+bool
 MediumFeaturesChanged
 (
 nsPresContext

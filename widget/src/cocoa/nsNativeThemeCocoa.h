@@ -131,7 +131,7 @@ aResult
 )
 ;
 virtual
-PRBool
+bool
 GetWidgetPadding
 (
 nsDeviceContext
@@ -148,7 +148,7 @@ aResult
 )
 ;
 virtual
-PRBool
+bool
 GetWidgetOverflow
 (
 nsDeviceContext
@@ -178,7 +178,7 @@ aWidgetType
 nsIntSize
 *
 aResult
-PRBool
+bool
 *
 aIsOverridable
 )
@@ -194,7 +194,7 @@ aWidgetType
 nsIAtom
 *
 aAttribute
-PRBool
+bool
 *
 aShouldRepaint
 )
@@ -204,7 +204,7 @@ ThemeChanged
 (
 )
 ;
-PRBool
+bool
 ThemeSupportsWidget
 (
 nsPresContext
@@ -217,14 +217,14 @@ PRUint8
 aWidgetType
 )
 ;
-PRBool
+bool
 WidgetIsContainer
 (
 PRUint8
 aWidgetType
 )
 ;
-PRBool
+bool
 ThemeDrawsFocusForWidget
 (
 nsPresContext
@@ -237,7 +237,7 @@ PRUint8
 aWidgetType
 )
 ;
-PRBool
+bool
 ThemeNeedsComboboxDropmarker
 (
 )
@@ -322,7 +322,7 @@ const
 HIRect
 &
 inBoxRect
-PRBool
+bool
 inReadOnly
 nsEventStates
 inState
@@ -337,9 +337,9 @@ const
 HIRect
 &
 inBoxRect
-PRBool
+bool
 inIsIndeterminate
-PRBool
+bool
 inIsHorizontal
 double
 inValue
@@ -395,9 +395,9 @@ HIRect
 inBoxRect
 nsEventStates
 inState
-PRBool
+bool
 inDirection
-PRBool
+bool
 inIsReverse
 PRInt32
 inCurrentValue
@@ -415,13 +415,13 @@ DrawCheckboxOrRadio
 (
 CGContextRef
 cgContext
-PRBool
+bool
 inCheckbox
 const
 HIRect
 &
 inBoxRect
-PRBool
+bool
 inSelected
 nsEventStates
 inState
@@ -473,7 +473,7 @@ const
 HIRect
 &
 inBoxRect
-PRBool
+bool
 inIsDefault
 ThemeButtonValue
 inValue
@@ -607,7 +607,7 @@ const
 CGSize
 &
 aSize
-PRBool
+bool
 aShouldGetButtonStates
 )
 ;

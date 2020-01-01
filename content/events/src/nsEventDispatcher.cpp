@@ -337,7 +337,7 @@ parent
 ;
 }
 }
-PRBool
+bool
 IsValid
 (
 )
@@ -393,7 +393,7 @@ aNewTarget
 void
 SetForceContentDispatch
 (
-PRBool
+bool
 aForce
 )
 {
@@ -418,7 +418,7 @@ NS_TARGET_CHAIN_FORCE_CONTENT_DISPATCH
 ;
 }
 }
-PRBool
+bool
 ForceContentDispatch
 (
 )
@@ -436,7 +436,7 @@ NS_TARGET_CHAIN_FORCE_CONTENT_DISPATCH
 void
 SetWantsWillHandleEvent
 (
-PRBool
+bool
 aWants
 )
 {
@@ -461,7 +461,7 @@ NS_TARGET_CHAIN_WANTS_WILL_HANDLE_EVENT
 ;
 }
 }
-PRBool
+bool
 WantsWillHandleEvent
 (
 )
@@ -479,7 +479,7 @@ NS_TARGET_CHAIN_WANTS_WILL_HANDLE_EVENT
 void
 SetMayHaveListenerManager
 (
-PRBool
+bool
 aMayHave
 )
 {
@@ -504,7 +504,7 @@ NS_TARGET_CHAIN_MAY_HAVE_MANAGER
 ;
 }
 }
-PRBool
+bool
 MayHaveListenerManager
 (
 )
@@ -540,7 +540,7 @@ aFlags
 nsDispatchingCallback
 *
 aCallback
-PRBool
+bool
 aMayHaveNewListenerManagers
 nsCxPusher
 *
@@ -563,7 +563,7 @@ nsEventChainPostVisitor
 aVisitor
 PRUint32
 aFlags
-PRBool
+bool
 aMayHaveNewListenerManagers
 nsCxPusher
 *
@@ -1016,7 +1016,7 @@ aFlags
 nsDispatchingCallback
 *
 aCallback
-PRBool
+bool
 aMayHaveNewListenerManagers
 nsCxPusher
 *
@@ -1936,10 +1936,10 @@ do_QueryInterface
 aTarget
 )
 ;
-PRBool
+bool
 retargeted
 =
-PR_FALSE
+false
 ;
 if
 (
@@ -2363,7 +2363,7 @@ rv
 =
 NS_OK
 ;
-PRBool
+bool
 externalDOMEvent
 =
 !
@@ -2549,7 +2549,7 @@ aEvent
 originalTarget
 )
 ;
-PRBool
+bool
 isInAnon
 =
 (
@@ -3030,10 +3030,10 @@ innerEvent
 NS_ERROR_ILLEGAL_VALUE
 )
 ;
-PRBool
+bool
 dontResetTrusted
 =
-PR_FALSE
+false
 ;
 if
 (

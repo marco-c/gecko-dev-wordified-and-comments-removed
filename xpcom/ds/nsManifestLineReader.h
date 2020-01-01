@@ -68,7 +68,7 @@ base
 flen
 ;
 }
-PRBool
+bool
 NextLine
 (
 )
@@ -320,7 +320,7 @@ return
 mLength
 ;
 }
-PRBool
+bool
 IsEOL
 (
 char

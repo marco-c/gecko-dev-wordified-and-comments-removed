@@ -323,7 +323,7 @@ IsDefunct
 const
 ;
 virtual
-PRBool
+bool
 Init
 (
 )
@@ -419,7 +419,7 @@ PRUint32
 aActionIndex
 )
 ;
-PRBool
+bool
 IsEditable
 (
 )

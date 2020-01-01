@@ -430,7 +430,7 @@ char
 *
 *
 aDeniedList
-PRBool
+bool
 *
 aIsTrusted
 )
@@ -478,7 +478,7 @@ Equals
 nsIPrincipal
 *
 aOther
-PRBool
+bool
 *
 aResult
 )
@@ -506,7 +506,7 @@ EqualsIgnoringDomain
 nsIPrincipal
 *
 aOther
-PRBool
+bool
 *
 aResult
 )
@@ -686,7 +686,7 @@ aCapability
 void
 *
 aAnnotation
-PRBool
+bool
 *
 aResult
 )
@@ -944,7 +944,7 @@ nsNullPrincipal
 :
 GetHasCertificate
 (
-PRBool
+bool
 *
 aResult
 )
@@ -997,7 +997,7 @@ Subsumes
 nsIPrincipal
 *
 aOther
-PRBool
+bool
 *
 aResult
 )
@@ -1025,7 +1025,7 @@ CheckMayLoad
 nsIURI
 *
 aURI
-PRBool
+bool
 aReport
 )
 {

@@ -348,7 +348,7 @@ LOAD_FLAGS_ERROR_PAGE
 ;
 static
 inline
-PRBool
+bool
 IsValidLoadType
 (
 PRUint32

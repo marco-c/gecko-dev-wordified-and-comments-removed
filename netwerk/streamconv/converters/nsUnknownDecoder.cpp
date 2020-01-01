@@ -171,7 +171,7 @@ if
 prefs
 )
 {
-PRBool
+bool
 val
 ;
 if
@@ -763,7 +763,7 @@ NS_ERROR_NOT_AVAILABLE
 NS_OK
 ;
 }
-PRBool
+bool
 nsUnknownDecoder
 :
 :
@@ -844,10 +844,10 @@ return
 PR_FALSE
 ;
 }
-PRBool
+bool
 isLocalFile
 =
-PR_FALSE
+false
 ;
 if
 (
@@ -1348,7 +1348,7 @@ now
 )
 ;
 }
-PRBool
+bool
 nsUnknownDecoder
 :
 :
@@ -1423,7 +1423,7 @@ return
 PR_FALSE
 ;
 }
-PRBool
+bool
 hasMore
 ;
 while
@@ -1587,7 +1587,7 @@ return
 PR_FALSE
 ;
 }
-PRBool
+bool
 nsUnknownDecoder
 :
 :
@@ -2016,7 +2016,7 @@ return
 PR_FALSE
 ;
 }
-PRBool
+bool
 nsUnknownDecoder
 :
 :
@@ -2058,7 +2058,7 @@ return
 PR_TRUE
 ;
 }
-PRBool
+bool
 nsUnknownDecoder
 :
 :
@@ -2224,7 +2224,7 @@ ch
 =
 27
 )
-PRBool
+bool
 nsUnknownDecoder
 :
 :

@@ -151,7 +151,7 @@ Destroy
 )
 ;
 }
-PRBool
+bool
 LayerManagerD3D9
 :
 :
@@ -168,7 +168,7 @@ Layers
 "
 )
 ;
-PRBool
+bool
 forceAccelerate
 =
 Preferences
@@ -185,7 +185,7 @@ force
 -
 enabled
 "
-PR_FALSE
+false
 )
 ;
 nsCOMPtr

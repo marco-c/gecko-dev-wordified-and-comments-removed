@@ -702,7 +702,7 @@ b
 bEnd
 )
 {
-PRBool
+bool
 err
 ;
 if

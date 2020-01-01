@@ -114,7 +114,7 @@ PR_FALSE
 {
 }
 static
-PRBool
+bool
 ValidateVideoRegion
 (
 const
@@ -149,10 +149,10 @@ layers
 StereoMode
 mStereoMode
 ;
-PRPackedBool
+bool
 mHasAudio
 ;
-PRPackedBool
+bool
 mHasVideo
 ;
 }
@@ -472,7 +472,7 @@ const
 YCbCrBuffer
 &
 aBuffer
-PRBool
+bool
 aKeyframe
 PRInt64
 aTimecode
@@ -538,10 +538,10 @@ Image
 >
 mImage
 ;
-PRPackedBool
+bool
 mDuplicate
 ;
-PRPackedBool
+bool
 mKeyframe
 ;
 public
@@ -614,7 +614,7 @@ PRInt64
 aTime
 PRInt64
 aEndTime
-PRBool
+bool
 aKeyframe
 PRInt64
 aTimecode
@@ -1040,7 +1040,7 @@ mEndOfStream
 PR_FALSE
 ;
 }
-PRBool
+bool
 AtEndOfStream
 (
 )
@@ -1063,7 +1063,7 @@ GetSize
 mEndOfStream
 ;
 }
-PRBool
+bool
 IsFinished
 (
 )
@@ -1173,7 +1173,7 @@ mutable
 ReentrantMonitor
 mReentrantMonitor
 ;
-PRBool
+bool
 mEndOfStream
 ;
 }
@@ -1230,7 +1230,7 @@ ResetDecode
 )
 ;
 virtual
-PRBool
+bool
 DecodeAudioData
 (
 )
@@ -1238,10 +1238,10 @@ DecodeAudioData
 0
 ;
 virtual
-PRBool
+bool
 DecodeVideoFrame
 (
-PRBool
+bool
 &
 aKeyframeSkip
 PRInt64
@@ -1251,7 +1251,7 @@ aTimeThreshold
 0
 ;
 virtual
-PRBool
+bool
 HasAudio
 (
 )
@@ -1259,7 +1259,7 @@ HasAudio
 0
 ;
 virtual
-PRBool
+bool
 HasVideo
 (
 )
@@ -1605,7 +1605,7 @@ aTarget
 )
 ;
 typedef
-PRBool
+bool
 (
 nsBuiltinDecoderReader
 :
@@ -1635,15 +1635,15 @@ Data
 aQueue
 )
 ;
-PRBool
+bool
 DecodeVideoFrame
 (
 )
 {
-PRBool
+bool
 f
 =
-PR_FALSE
+false
 ;
 return
 DecodeVideoFrame

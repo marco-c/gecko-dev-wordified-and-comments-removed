@@ -396,7 +396,7 @@ sRemoteImplementation
 0
 ;
 static
-PRBool
+bool
 FindExtensionParameterInCommand
 (
 const
@@ -814,7 +814,7 @@ return
 NS_OK
 ;
 }
-PRBool
+bool
 nsXRemoteService
 :
 :

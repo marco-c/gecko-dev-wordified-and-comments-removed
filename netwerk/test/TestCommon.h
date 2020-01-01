@@ -37,10 +37,10 @@ return
 ;
 }
 static
-PRBool
+bool
 gKeepPumpingEvents
 =
-PR_FALSE
+false
 ;
 class
 nsQuitPumpingEvent
