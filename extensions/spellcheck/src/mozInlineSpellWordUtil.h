@@ -234,12 +234,6 @@ mDocument
 ;
 nsCOMPtr
 <
-nsIDOMWindow
->
-mCSSView
-;
-nsCOMPtr
-<
 nsIUGenCategory
 >
 mCategories
