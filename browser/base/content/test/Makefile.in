@@ -677,6 +677,10 @@ browser_bug432599
 .
 js
 \
+browser_bug435035
+.
+js
+\
 browser_bug441778
 .
 js
@@ -716,6 +720,10 @@ html
 moz
 .
 png
+\
+test_bug435035
+.
+html
 \
 test_bug462673
 .
