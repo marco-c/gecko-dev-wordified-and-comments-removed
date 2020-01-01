@@ -60,7 +60,6 @@ util
 .
 Arrays
 ;
-public
 abstract
 class
 SimpleCursorLoader

@@ -50,7 +50,6 @@ gecko
 .
 R
 ;
-public
 class
 HomePagerTabStrip
 extends

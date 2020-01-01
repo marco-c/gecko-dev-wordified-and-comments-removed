@@ -128,7 +128,6 @@ util
 .
 ArrayList
 ;
-public
 class
 FaviconsLoader
 {

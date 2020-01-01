@@ -21,7 +21,6 @@ util
 .
 ArrayList
 ;
-public
 class
 SearchEngine
 {

@@ -467,8 +467,8 @@ public
 void
 onSearch
 (
-SearchEngine
-engine
+String
+engineId
 String
 text
 )

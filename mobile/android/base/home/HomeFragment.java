@@ -218,7 +218,6 @@ widget
 .
 Toast
 ;
-public
 class
 HomeFragment
 extends
