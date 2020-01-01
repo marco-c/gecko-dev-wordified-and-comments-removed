@@ -452,6 +452,12 @@ void
 aUniqueID
 )
 ;
+virtual
+PRBool
+IsDefunct
+(
+)
+;
 protected
 :
 PRBool

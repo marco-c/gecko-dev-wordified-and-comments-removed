@@ -389,6 +389,17 @@ GetCurrentFocus
 (
 )
 ;
+virtual
+PRBool
+IsDefunct
+(
+)
+{
+return
+!
+mDOMNode
+;
+}
 protected
 :
 nsresult
