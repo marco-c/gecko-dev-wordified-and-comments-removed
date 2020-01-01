@@ -23460,7 +23460,10 @@ address
 )
 ;
 }
+JS_FRIEND_API
+(
 JSBool
+)
 js
 :
 :
