@@ -2229,6 +2229,15 @@ eNewlinesReplaceWithSpaces
 :
 tString
 .
+Trim
+(
+CRLF
+PR_FALSE
+PR_TRUE
+)
+;
+tString
+.
 ReplaceChar
 (
 CRLF
