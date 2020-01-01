@@ -24,6 +24,12 @@ parseInt
 .
 js
 script
+parseFloat
+-
+01
+.
+js
+script
 eval
 -
 01
