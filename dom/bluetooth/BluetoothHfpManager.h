@@ -163,6 +163,10 @@ int
 aCallIndex
 int
 aCallState
+const
+char
+*
+aPhoneNumber
 bool
 aInitial
 )
@@ -258,6 +262,9 @@ mCurrentVgs
 ;
 int
 mCurrentCallIndex
+;
+bool
+mCLIP
 ;
 bool
 mReceiveVgsFlag
