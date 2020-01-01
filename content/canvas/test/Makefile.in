@@ -553,6 +553,10 @@ test_drawImageIncomplete
 .
 html
 \
+test_canvas_font_setter
+.
+html
+\
 (
 NULL
 )
