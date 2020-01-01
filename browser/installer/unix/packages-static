@@ -1603,6 +1603,13 @@ components
 nsHandlerService
 .
 js
+bin
+/
+components
+/
+nsScriptableIO
+.
+js
 ;
 Modules
 bin
