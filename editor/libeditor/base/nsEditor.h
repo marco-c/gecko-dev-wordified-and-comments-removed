@@ -1070,7 +1070,6 @@ bool
 aScrollToAnchor
 )
 ;
-virtual
 bool
 IsBlockNode
 (
