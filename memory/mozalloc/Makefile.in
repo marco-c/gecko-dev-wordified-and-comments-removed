@@ -559,7 +559,7 @@ WRAP_STL_INCLUDES
 #
 {
 ifdef
-GCC_VERSION
+GNU_CXX
 #
 {
 EXPORTS_mozilla
