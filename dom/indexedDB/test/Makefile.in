@@ -416,10 +416,6 @@ dom
 indexedDB
 /
 test
-DIRS
-+
-=
-unit
 include
 (
 DEPTH
@@ -430,9 +426,6 @@ config
 autoconf
 .
 mk
-XPCSHELL_TESTS
-=
-unit
 include
 (
 topsrcdir
