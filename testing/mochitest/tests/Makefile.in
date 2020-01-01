@@ -149,10 +149,6 @@ file_SpecialPowersFrame1
 .
 html
 \
-test_cancelFullScreen
-.
-html
-\
 (
 NULL
 )
