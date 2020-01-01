@@ -15556,6 +15556,14 @@ getTab
 tabId
 )
 ;
+if
+(
+tab
+!
+=
+null
+)
+{
 GeckoApp
 .
 mAppContext
@@ -15566,6 +15574,7 @@ tab
 data
 )
 ;
+}
 break
 ;
 }
