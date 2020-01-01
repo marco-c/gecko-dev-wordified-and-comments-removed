@@ -647,15 +647,6 @@ installer
 packager
 .
 mk
-PACKAGE_BASE_DIR
-=
-(
-_ABS_DIST
-)
-/
-l10n
--
-stage
 (
 STAGEDIST
 )
