@@ -321,17 +321,6 @@ TimeDuration
 aTimeDelta
 )
 {
-if
-(
-mPos
-=
-=
-aPos
-)
-{
-return
-;
-}
 float
 newVelocity
 =
