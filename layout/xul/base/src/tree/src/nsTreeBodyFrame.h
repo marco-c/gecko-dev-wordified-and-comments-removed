@@ -1510,6 +1510,9 @@ aOrientation
 )
 ;
 }
+public
+:
+static
 already_AddRefed
 <
 nsTreeColumn
@@ -1555,6 +1558,8 @@ return
 col
 ;
 }
+protected
+:
 nsresult
 CreateTimer
 (
