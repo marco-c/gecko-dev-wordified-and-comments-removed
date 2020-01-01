@@ -519,7 +519,8 @@ _M_X64
 int
 pJmp32
 =
-0
+-
+1
 ;
 while
 (
@@ -531,6 +532,9 @@ nBytes
 if
 (
 pJmp32
+>
+=
+0
 )
 {
 if
@@ -1140,6 +1144,9 @@ _M_X64
 if
 (
 pJmp32
+>
+=
+0
 )
 {
 byteptr_t
