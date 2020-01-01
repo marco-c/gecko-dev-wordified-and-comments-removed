@@ -700,6 +700,13 @@ wc
 l
 )
 ]
+.
+PRECIOUS
+:
+test
+(
+DLL_SUFFIX
+)
 dummy
 :
 dummy
