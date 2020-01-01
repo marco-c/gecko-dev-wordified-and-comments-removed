@@ -254,7 +254,11 @@ ifeq
 (
 ppc
 (
+findstring
+ppc
+(
 CPU_ARCH
+)
 )
 )
 ifdef
