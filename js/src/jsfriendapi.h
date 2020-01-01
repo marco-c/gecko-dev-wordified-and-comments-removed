@@ -6025,7 +6025,7 @@ endType
 ;
 callback
 =
-nullptr
+NULL
 ;
 }
 }
