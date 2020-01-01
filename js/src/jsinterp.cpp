@@ -3314,11 +3314,8 @@ if
 ToPrimitive
 (
 cx
+&
 lvalue
-.
-address
-(
-)
 )
 )
 return
@@ -3330,11 +3327,8 @@ if
 ToPrimitive
 (
 cx
+&
 rvalue
-.
-address
-(
-)
 )
 )
 return

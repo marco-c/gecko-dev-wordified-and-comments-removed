@@ -2931,10 +2931,6 @@ ToPrimitive
 (
 cx
 lhs
-.
-address
-(
-)
 )
 )
 return
@@ -2947,10 +2943,6 @@ ToPrimitive
 (
 cx
 rhs
-.
-address
-(
-)
 )
 )
 return
@@ -5446,10 +5438,6 @@ ToPrimitive
 cx
 JSTYPE_NUMBER
 lhs
-.
-address
-(
-)
 )
 )
 \
@@ -5465,10 +5453,6 @@ ToPrimitive
 cx
 JSTYPE_NUMBER
 rhs
-.
-address
-(
-)
 )
 )
 \
