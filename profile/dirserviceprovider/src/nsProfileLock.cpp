@@ -2281,7 +2281,7 @@ GENERIC_WRITE
 0
 nsnull
 CREATE_ALWAYS
-nsnull
+0
 nsnull
 )
 ;
