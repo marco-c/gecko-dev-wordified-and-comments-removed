@@ -2789,6 +2789,11 @@ function
 (
 )
 {
+var
+self
+=
+this
+;
 if
 (
 this
@@ -2825,6 +2830,13 @@ child
 {
 child
 .
+removeOnClose
+(
+self
+)
+;
+child
+.
 close
 (
 )
@@ -2833,7 +2845,6 @@ close
 )
 ;
 }
-else
 if
 (
 !

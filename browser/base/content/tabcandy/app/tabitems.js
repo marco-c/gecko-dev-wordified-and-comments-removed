@@ -1986,7 +1986,9 @@ duration
 easing
 :
 '
-fast
+cubic
+-
+bezier
 '
 complete
 :
