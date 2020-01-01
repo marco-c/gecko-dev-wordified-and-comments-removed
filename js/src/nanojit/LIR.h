@@ -3174,6 +3174,12 @@ LIR_live
 )
 |
 |
+isop
+(
+LIR_regfence
+)
+|
+|
 isRet
 (
 )

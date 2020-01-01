@@ -10065,6 +10065,9 @@ break
 case
 LIR_start
 :
+case
+LIR_regfence
+:
 VMPI_sprintf
 (
 s
