@@ -88,7 +88,6 @@ NS_IVIEWMANAGER_IID
 0xf7
 }
 }
-;
 class
 nsIViewManager
 :
