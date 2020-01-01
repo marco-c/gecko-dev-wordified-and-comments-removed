@@ -5308,7 +5308,7 @@ relative
 "
 >
 <
-hbox
+arrowscrollbox
 id
 =
 "
@@ -5323,6 +5323,11 @@ flex
 =
 "
 1
+"
+orient
+=
+"
+horizontal
 "
 oncommand
 =
@@ -5351,7 +5356,7 @@ search
 >
 <
 /
-hbox
+arrowscrollbox
 >
 <
 /
