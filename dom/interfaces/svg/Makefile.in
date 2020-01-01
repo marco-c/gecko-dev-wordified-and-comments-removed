@@ -236,10 +236,6 @@ nsIDOMSVGScriptElement
 .
 idl
 \
-nsIDOMSVGSetElement
-.
-idl
-\
 nsIDOMSVGSVGElement
 .
 idl
