@@ -3454,9 +3454,9 @@ y
 zoomLevel
 )
 ;
-Browser
+AnimatedZoom
 .
-animatedZoomTo
+animateTo
 (
 zoomRect
 )
@@ -5117,9 +5117,9 @@ y
 zoomLevel
 )
 ;
-Browser
+AnimatedZoom
 .
-animatedZoomTo
+animateTo
 (
 zoomRect
 )
@@ -5163,9 +5163,9 @@ browser
 scale
 )
 ;
-Browser
+AnimatedZoom
 .
-animatedZoomTo
+animateTo
 (
 zoomRect
 )
