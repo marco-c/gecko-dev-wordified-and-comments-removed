@@ -21,15 +21,16 @@ private
 :
 static
 char
-Test
+test
 (
 Base
 *
+b
 )
 ;
 static
 int
-Test
+test
 (
 .
 .
@@ -46,7 +47,7 @@ value
 (
 sizeof
 (
-Test
+test
 (
 static_cast
 <
