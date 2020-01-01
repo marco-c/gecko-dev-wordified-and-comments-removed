@@ -1860,6 +1860,7 @@ PageThumbs_prefEnabled
 try
 {
 return
+!
 Services
 .
 prefs
