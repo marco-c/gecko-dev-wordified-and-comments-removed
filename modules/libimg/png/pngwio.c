@@ -524,6 +524,16 @@ io_ptr
 !
 =
 NULL
+&
+&
+fileno
+(
+io_ptr
+)
+!
+=
+-
+1
 )
 fflush
 (

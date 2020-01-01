@@ -394,6 +394,16 @@ h
 define
 PNG_NO_CONSOLE_IO
 #
+define
+PNG_ABORT
+(
+)
+exit
+(
+-
+1
+)
+#
 ifdef
 PNG_DEBUG
 #
