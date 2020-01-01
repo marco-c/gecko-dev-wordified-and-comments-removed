@@ -553,7 +553,7 @@ openId
 .
 enabled
 "
-false
+true
 )
 ;
 pref
@@ -567,6 +567,6 @@ authenticator
 .
 enabled
 "
-false
+true
 )
 ;
