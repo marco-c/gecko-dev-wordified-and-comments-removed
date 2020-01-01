@@ -209,6 +209,14 @@ ins
 )
 ;
 bool
+visitAsmJSLoadHeap
+(
+MAsmJSLoadHeap
+*
+ins
+)
+;
+bool
 visitAsmJSStoreHeap
 (
 MAsmJSStoreHeap

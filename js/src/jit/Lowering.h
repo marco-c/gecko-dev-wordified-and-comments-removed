@@ -1585,14 +1585,6 @@ ins
 )
 ;
 bool
-visitAsmJSLoadHeap
-(
-MAsmJSLoadHeap
-*
-ins
-)
-;
-bool
 visitAsmJSLoadGlobalVar
 (
 MAsmJSLoadGlobalVar

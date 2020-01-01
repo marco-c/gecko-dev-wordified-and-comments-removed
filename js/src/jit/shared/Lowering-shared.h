@@ -302,6 +302,15 @@ mir
 ;
 inline
 LAllocation
+useRegisterOrNonNegativeConstantAtStart
+(
+MDefinition
+*
+mir
+)
+;
+inline
+LAllocation
 useRegisterOrNonDoubleConstant
 (
 MDefinition
