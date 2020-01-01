@@ -596,6 +596,10 @@ const
 uint64_t
 &
 aVersion
+const
+PersistenceType
+&
+aPersistenceType
 )
 MOZ_OVERRIDE
 ;
@@ -610,6 +614,10 @@ const
 nsString
 &
 aName
+const
+PersistenceType
+&
+aPersistenceType
 )
 MOZ_OVERRIDE
 ;
@@ -626,6 +634,10 @@ const
 uint64_t
 &
 aVersion
+const
+PersistenceType
+&
+aPersistenceType
 )
 MOZ_OVERRIDE
 ;
@@ -648,6 +660,10 @@ const
 nsString
 &
 aName
+const
+PersistenceType
+&
+aPersistenceType
 )
 MOZ_OVERRIDE
 ;

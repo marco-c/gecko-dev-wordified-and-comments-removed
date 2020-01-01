@@ -1,9 +1,9 @@
 #
 ifndef
-mozilla_dom_quota_usagerunnable_h__
+mozilla_dom_quota_usageinfo_h__
 #
 define
-mozilla_dom_quota_usagerunnable_h__
+mozilla_dom_quota_usageinfo_h__
 #
 include
 "
@@ -35,11 +35,11 @@ h
 "
 BEGIN_QUOTA_NAMESPACE
 class
-UsageRunnable
+UsageInfo
 {
 public
 :
-UsageRunnable
+UsageInfo
 (
 )
 :
@@ -59,7 +59,7 @@ mFileUsage
 }
 virtual
 ~
-UsageRunnable
+UsageInfo
 (
 )
 {

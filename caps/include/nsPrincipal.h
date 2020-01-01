@@ -296,11 +296,11 @@ allowIfInheritsPrincipal
 )
 ;
 NS_IMETHOD
-GetExtendedOrigin
+GetJarPrefix
 (
 nsACString
 &
-aExtendedOrigin
+aJarPrefix
 )
 ;
 NS_IMETHOD
@@ -632,11 +632,11 @@ allowIfInheritsPrincipal
 )
 ;
 NS_IMETHOD
-GetExtendedOrigin
+GetJarPrefix
 (
 nsACString
 &
-aExtendedOrigin
+aJarPrefix
 )
 ;
 NS_IMETHOD

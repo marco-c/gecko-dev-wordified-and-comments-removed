@@ -228,6 +228,10 @@ test_overlapping_transactions
 .
 js
 \
+test_persistenceType
+.
+js
+\
 test_put_get_values
 .
 js
@@ -269,6 +273,10 @@ test_setVersion_exclusion
 js
 \
 test_success_events_after_abort
+.
+js
+\
+test_temporary_storage
 .
 js
 \

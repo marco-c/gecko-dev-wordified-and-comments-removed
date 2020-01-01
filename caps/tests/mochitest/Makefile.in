@@ -84,7 +84,7 @@ html
 NULL
 )
 #
-extendedOrigin
+jarPrefix
 test
 doesn
 '
@@ -105,7 +105,7 @@ WINNT
 )
 MOCHITEST_CHROME_FILES
 =
-test_principal_extendedorigin_appid_appstatus
+test_principal_jarprefix_origin_appid_appstatus
 .
 html
 \

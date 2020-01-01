@@ -1542,6 +1542,8 @@ sync
 PIndexedDB
 (
 nsCString
+group
+nsCString
 asciiOrigin
 )
 returns

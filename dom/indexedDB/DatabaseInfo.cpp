@@ -1007,6 +1007,13 @@ name
 dbInfo
 -
 >
+group
+=
+group
+;
+dbInfo
+-
+>
 origin
 =
 origin
@@ -1017,6 +1024,13 @@ dbInfo
 version
 =
 version
+;
+dbInfo
+-
+>
+persistenceType
+=
+persistenceType
 ;
 dbInfo
 -

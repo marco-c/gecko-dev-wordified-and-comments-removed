@@ -186,6 +186,8 @@ quotaManager
 >
 GetQuotaObject
 (
+mPersistenceType
+mGroup
 mOrigin
 FileStreamBase
 :
@@ -354,6 +356,12 @@ FileInputStream
 :
 Create
 (
+PersistenceType
+aPersistenceType
+const
+nsACString
+&
+aGroup
 const
 nsACString
 &
@@ -378,6 +386,8 @@ stream
 new
 FileInputStream
 (
+aPersistenceType
+aGroup
 aOrigin
 )
 ;
@@ -423,6 +433,12 @@ FileOutputStream
 :
 Create
 (
+PersistenceType
+aPersistenceType
+const
+nsACString
+&
+aGroup
 const
 nsACString
 &
@@ -447,6 +463,8 @@ stream
 new
 FileOutputStream
 (
+aPersistenceType
+aGroup
 aOrigin
 )
 ;
@@ -492,6 +510,12 @@ FileStream
 :
 Create
 (
+PersistenceType
+aPersistenceType
+const
+nsACString
+&
+aGroup
 const
 nsACString
 &
@@ -516,6 +540,8 @@ stream
 new
 FileStream
 (
+aPersistenceType
+aGroup
 aOrigin
 )
 ;

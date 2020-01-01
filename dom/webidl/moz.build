@@ -1340,6 +1340,11 @@ SourceBufferList
 webidl
 '
 '
+StorageType
+.
+webidl
+'
+'
 StyleSheet
 .
 webidl

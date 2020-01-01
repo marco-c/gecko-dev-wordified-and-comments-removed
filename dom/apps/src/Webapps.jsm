@@ -2631,6 +2631,14 @@ if
 !
 idbDir
 .
+exists
+(
+)
+|
+|
+!
+idbDir
+.
 isDirectory
 (
 )

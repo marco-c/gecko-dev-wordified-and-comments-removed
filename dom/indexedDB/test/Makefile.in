@@ -360,6 +360,10 @@ test_overlapping_transactions
 .
 html
 \
+test_persistenceType
+.
+html
+\
 test_put_get_values
 .
 html

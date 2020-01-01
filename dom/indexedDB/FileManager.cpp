@@ -1225,6 +1225,12 @@ aDirectory
 nsIFile
 *
 aDatabaseFile
+PersistenceType
+aPersistenceType
+const
+nsACString
+&
+aGroup
 const
 nsACString
 &
@@ -1470,6 +1476,8 @@ aDirectory
 NullString
 (
 )
+aPersistenceType
+aGroup
 aOrigin
 getter_AddRefs
 (
