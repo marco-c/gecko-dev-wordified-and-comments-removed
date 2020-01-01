@@ -136,7 +136,7 @@ listForSave
 add
 (
 yield
-promiseSimpleDownload
+promiseNewDownload
 (
 httpUrl
 (

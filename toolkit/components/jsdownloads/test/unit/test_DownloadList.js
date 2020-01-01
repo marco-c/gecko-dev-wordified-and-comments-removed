@@ -82,7 +82,7 @@ let
 downloadOne
 =
 yield
-promiseSimpleDownload
+promiseNewDownload
 (
 )
 ;
@@ -124,7 +124,7 @@ let
 downloadTwo
 =
 yield
-promiseSimpleDownload
+promiseNewDownload
 (
 )
 ;
@@ -202,7 +202,7 @@ list
 add
 (
 yield
-promiseSimpleDownload
+promiseNewDownload
 (
 )
 )
@@ -212,7 +212,7 @@ list
 add
 (
 yield
-promiseSimpleDownload
+promiseNewDownload
 (
 )
 )
@@ -242,7 +242,7 @@ list
 remove
 (
 yield
-promiseSimpleDownload
+promiseNewDownload
 (
 )
 )
@@ -286,7 +286,7 @@ let
 downloadOne
 =
 yield
-promiseSimpleDownload
+promiseNewDownload
 (
 )
 ;
@@ -294,7 +294,7 @@ let
 downloadTwo
 =
 yield
-promiseSimpleDownload
+promiseNewDownload
 (
 )
 ;
@@ -384,7 +384,7 @@ list
 add
 (
 yield
-promiseSimpleDownload
+promiseNewDownload
 (
 )
 )
@@ -476,7 +476,7 @@ list
 add
 (
 yield
-promiseSimpleDownload
+promiseNewDownload
 (
 )
 )
@@ -509,7 +509,7 @@ let
 downloadOne
 =
 yield
-promiseSimpleDownload
+promiseNewDownload
 (
 )
 ;
@@ -517,7 +517,7 @@ let
 downloadTwo
 =
 yield
-promiseSimpleDownload
+promiseNewDownload
 (
 )
 ;
@@ -687,7 +687,7 @@ let
 downloadOne
 =
 yield
-promiseSimpleDownload
+promiseNewDownload
 (
 )
 ;
@@ -695,7 +695,7 @@ let
 downloadTwo
 =
 yield
-promiseSimpleDownload
+promiseNewDownload
 (
 httpUrl
 (
@@ -882,7 +882,7 @@ let
 downloadOne
 =
 yield
-promiseSimpleDownload
+promiseNewDownload
 (
 )
 ;
@@ -890,7 +890,7 @@ let
 downloadTwo
 =
 yield
-promiseSimpleDownload
+promiseNewDownload
 (
 )
 ;
