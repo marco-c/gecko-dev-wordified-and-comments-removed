@@ -153,6 +153,13 @@ space
 nowrap
 ;
 }
+legend
+{
+display
+:
+block
+;
+}
 fieldset
 {
 display
