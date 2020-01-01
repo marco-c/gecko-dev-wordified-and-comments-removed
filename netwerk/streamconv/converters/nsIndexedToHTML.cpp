@@ -1765,6 +1765,8 @@ th
 first
 -
 child
+>
+a
 \
 n
 "
@@ -1796,6 +1798,8 @@ first
 child
 +
 th
+>
+a
 \
 n
 "
@@ -1829,6 +1833,8 @@ child
 th
 +
 th
+>
+a
 {
 \
 n
@@ -2008,6 +2014,8 @@ n
 "
 display
 :
+inline
+-
 block
 ;
 \
