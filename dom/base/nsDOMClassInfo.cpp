@@ -1832,7 +1832,7 @@ h
 #
 include
 "
-nsIDOMOrientationEvent
+nsIDOMDeviceOrientationEvent
 .
 h
 "
@@ -3696,7 +3696,7 @@ DOM_DEFAULT_SCRIPTABLE_FLAGS
 )
 NS_DEFINE_CLASSINFO_DATA
 (
-OrientationEvent
+DeviceOrientationEvent
 nsDOMGenericSH
 DOM_DEFAULT_SCRIPTABLE_FLAGS
 )
@@ -11178,12 +11178,12 @@ DOM_CLASSINFO_EVENT_MAP_ENTRIES
 DOM_CLASSINFO_MAP_END
 DOM_CLASSINFO_MAP_BEGIN
 (
-OrientationEvent
-nsIDOMOrientationEvent
+DeviceOrientationEvent
+nsIDOMDeviceOrientationEvent
 )
 DOM_CLASSINFO_MAP_ENTRY
 (
-nsIDOMOrientationEvent
+nsIDOMDeviceOrientationEvent
 )
 DOM_CLASSINFO_EVENT_MAP_ENTRIES
 DOM_CLASSINFO_MAP_END

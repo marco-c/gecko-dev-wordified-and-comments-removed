@@ -3585,12 +3585,12 @@ aEventType
 LowerCaseEqualsLiteral
 (
 "
-orientation
+deviceorientationevent
 "
 )
 )
 return
-NS_NewDOMOrientationEvent
+NS_NewDOMDeviceOrientationEvent
 (
 aDOMEvent
 aPresContext

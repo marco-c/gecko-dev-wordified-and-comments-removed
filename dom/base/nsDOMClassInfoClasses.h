@@ -144,7 +144,7 @@ PopupBlockedEvent
 )
 DOMCI_CLASS
 (
-OrientationEvent
+DeviceOrientationEvent
 )
 DOMCI_CLASS
 (

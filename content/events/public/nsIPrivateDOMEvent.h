@@ -300,7 +300,7 @@ aEvent
 )
 ;
 nsresult
-NS_NewDOMOrientationEvent
+NS_NewDOMDeviceOrientationEvent
 (
 nsIDOMEvent
 *

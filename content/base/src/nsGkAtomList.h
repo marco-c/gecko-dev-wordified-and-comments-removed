@@ -11671,9 +11671,9 @@ onMozTouchUp
 )
 GK_ATOM
 (
-onMozOrientation
+ondeviceorientation
 "
-onMozOrientation
+ondeviceorientation
 "
 )
 GK_ATOM

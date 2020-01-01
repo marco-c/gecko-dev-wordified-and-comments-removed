@@ -89,13 +89,13 @@ nsAccelerometer
 )
 ;
 double
-mLastX
+mLastAlpha
 ;
 double
-mLastY
+mLastBeta
 ;
 double
-mLastZ
+mLastGamma
 ;
 private
 :

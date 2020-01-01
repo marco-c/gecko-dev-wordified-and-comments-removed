@@ -2272,7 +2272,7 @@ aTypeAtom
 nsGkAtoms
 :
 :
-onMozOrientation
+ondeviceorientation
 )
 {
 nsPIDOMWindow
