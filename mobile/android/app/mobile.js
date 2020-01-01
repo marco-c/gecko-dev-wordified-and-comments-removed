@@ -6735,7 +6735,7 @@ gfx
 .
 show_checkerboard_pattern
 "
-false
+true
 )
 ;
 pref

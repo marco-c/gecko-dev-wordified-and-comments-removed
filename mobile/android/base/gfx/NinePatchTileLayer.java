@@ -95,8 +95,12 @@ image
 {
 super
 (
-false
 image
+TileLayer
+.
+PaintMode
+.
+NORMAL
 )
 ;
 }
