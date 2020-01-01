@@ -227,7 +227,12 @@ bind
 (
 this
 )
-true
+)
+;
+this
+.
+_enableOrDisable
+(
 )
 ;
 }
