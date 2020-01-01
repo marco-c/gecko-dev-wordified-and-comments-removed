@@ -3140,9 +3140,6 @@ return
 true
 ;
 }
-#
-ifdef
-MOZ_MEDIA
 if
 (
 (
@@ -3198,8 +3195,6 @@ return
 true
 ;
 }
-#
-endif
 return
 false
 ;

@@ -134,9 +134,6 @@ nsGenericHTMLElement
 h
 "
 #
-ifdef
-MOZ_MEDIA
-#
 include
 "
 mozilla
@@ -147,8 +144,6 @@ HTMLMediaElement
 .
 h
 "
-#
-endif
 #
 include
 "
@@ -2568,9 +2563,6 @@ SetHasPaintEventListeners
 )
 ;
 }
-#
-ifdef
-MOZ_MEDIA
 if
 (
 elm
@@ -2589,8 +2581,6 @@ SetHasAudioAvailableEventListeners
 )
 ;
 }
-#
-endif
 if
 (
 elm
@@ -2641,9 +2631,6 @@ oldDoc
 newDoc
 )
 {
-#
-ifdef
-MOZ_MEDIA
 nsCOMPtr
 <
 nsIDOMHTMLMediaElement
@@ -2682,8 +2669,6 @@ NotifyOwnerDocumentActivityChanged
 )
 ;
 }
-#
-endif
 nsCOMPtr
 <
 nsIObjectLoadingContent

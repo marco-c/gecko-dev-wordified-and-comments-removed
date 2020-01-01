@@ -284,9 +284,6 @@ a6cf90f5
 }
 }
 #
-ifdef
-MOZ_MEDIA
-#
 define
 NS_HTMLAUDIOELEMENT_CID
 \
@@ -320,8 +317,6 @@ b158
 0xe9
 }
 }
-#
-endif
 #
 define
 NS_NAMESPACEMANAGER_CID
@@ -819,9 +814,6 @@ c2feab4186bc
 }
 }
 #
-ifdef
-MOZ_MEDIA
-#
 define
 NS_VIDEODOCUMENT_CID
 \
@@ -841,8 +833,6 @@ NS_VIDEODOCUMENT_CID
 0x5f
 }
 }
-#
-endif
 #
 define
 NS_EVENTLISTENERSERVICE_CID
