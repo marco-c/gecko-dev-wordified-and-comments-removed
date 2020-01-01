@@ -33,6 +33,11 @@ NS_DECL_NSIINPUTSTREAMCHANNEL
 nsInputStreamChannel
 (
 )
+:
+mIsSrcdocChannel
+(
+false
+)
 {
 }
 protected
@@ -67,6 +72,12 @@ nsCOMPtr
 nsIInputStream
 >
 mContentStream
+;
+nsString
+mSrcdocData
+;
+bool
+mIsSrcdocChannel
 ;
 }
 ;
