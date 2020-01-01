@@ -15070,6 +15070,9 @@ content
 ;
 while
 (
+blockParent
+&
+&
 !
 IsBlockNode
 (
@@ -15085,6 +15088,16 @@ blockParent
 GetParent
 (
 )
+;
+}
+if
+(
+!
+blockParent
+)
+{
+return
+NS_OK
 ;
 }
 bool
