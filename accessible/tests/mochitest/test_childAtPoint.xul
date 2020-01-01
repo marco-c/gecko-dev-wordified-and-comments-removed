@@ -247,15 +247,10 @@ var
 view
 =
 new
-inTreeView
+nsTableTreeView
 (
-)
-;
-view
-.
-mRowCount
-=
 5
+)
 ;
 var
 tree
