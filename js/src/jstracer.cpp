@@ -43075,6 +43075,9 @@ record_JSOP_ENDINIT
 (
 )
 {
+#
+ifdef
+DEBUG
 jsval
 &
 v
@@ -43094,6 +43097,8 @@ v
 )
 )
 ;
+#
+endif
 return
 true
 ;
