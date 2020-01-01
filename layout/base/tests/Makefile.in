@@ -803,6 +803,10 @@ test_remote_frame
 .
 html
 \
+test_remote_passpointerevents
+.
+html
+\
 test_bug842853
 .
 html

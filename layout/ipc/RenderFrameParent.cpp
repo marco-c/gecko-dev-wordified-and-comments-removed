@@ -3104,6 +3104,14 @@ mContentController
 ;
 }
 }
+mFrameLoader
+-
+>
+SetCurrentRemoteFrame
+(
+this
+)
+;
 }
 APZCTreeManager
 *
