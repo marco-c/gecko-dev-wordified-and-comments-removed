@@ -74,17 +74,6 @@ GetWinVersion
 (
 )
 ;
-void
-GetServicePackLevel
-(
-int
-*
-major
-int
-*
-minor
-)
-;
 bool
 IsShiftPressed
 (
