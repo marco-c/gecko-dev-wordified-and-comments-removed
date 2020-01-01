@@ -812,6 +812,10 @@ aSize
 mFormat
 )
 ;
+mSize
+=
+aSize
+;
 return
 true
 ;
@@ -1003,6 +1007,10 @@ InitializeBufferInfo
 aYSize
 aCbCrSize
 )
+;
+mSize
+=
+aYSize
 ;
 return
 true
