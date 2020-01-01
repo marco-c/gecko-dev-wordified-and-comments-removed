@@ -9397,7 +9397,7 @@ firstword
 if
 (
 !
-js_XDRScriptAndSubscripts
+js_XDRScript
 (
 xdr
 &
