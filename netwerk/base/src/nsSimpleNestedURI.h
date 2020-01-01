@@ -50,12 +50,15 @@ innerURI
 NS_DECL_ISUPPORTS_INHERITED
 NS_DECL_NSINESTEDURI
 NS_DECL_NSIIPCSERIALIZABLE
-NS_IMETHOD
-Equals
+virtual
+nsresult
+EqualsInternal
 (
 nsIURI
 *
 other
+RefHandlingEnum
+refHandlingMode
 PRBool
 *
 result
