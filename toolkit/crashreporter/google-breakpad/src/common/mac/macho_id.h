@@ -224,9 +224,6 @@ file_
 uint32_t
 crc_
 ;
-google_breakpad
-:
-:
 MD5Context
 md5_context_
 ;
