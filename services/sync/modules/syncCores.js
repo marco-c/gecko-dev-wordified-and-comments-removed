@@ -1183,6 +1183,7 @@ listA
 i
 ]
 ;
+yield
 Utils
 .
 makeTimerForCall
@@ -1191,8 +1192,6 @@ self
 .
 cb
 )
-;
-yield
 ;
 let
 skip
@@ -1430,6 +1429,7 @@ j
 +
 )
 {
+yield
 Utils
 .
 makeTimerForCall
@@ -1438,8 +1438,6 @@ self
 .
 cb
 )
-;
-yield
 ;
 if
 (
@@ -1577,6 +1575,7 @@ propagations
 ]
 )
 ;
+yield
 Utils
 .
 makeTimerForCall
@@ -1585,8 +1584,6 @@ self
 .
 cb
 )
-;
-yield
 ;
 this
 .
