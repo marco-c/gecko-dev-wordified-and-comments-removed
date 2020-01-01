@@ -99,10 +99,6 @@ CustomQS_Canvas2D
 .
 h
 \
-CustomQS_WebGL
-.
-h
-\
 WebGLContext
 .
 h

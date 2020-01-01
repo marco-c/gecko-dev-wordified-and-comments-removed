@@ -1372,10 +1372,6 @@ MathMLElement
 )
 DOMCI_CLASS
 (
-WebGLRenderingContext
-)
-DOMCI_CLASS
-(
 WebGLBuffer
 )
 DOMCI_CLASS
