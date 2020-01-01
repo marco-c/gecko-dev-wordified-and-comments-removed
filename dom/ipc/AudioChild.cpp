@@ -44,7 +44,7 @@ mLastSampleOffsetTime
 mAudioReentrantMonitor
 (
 "
-AutoChild
+AudioChild
 .
 mReentrantMonitor
 "
