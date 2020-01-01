@@ -389,3 +389,12 @@ README
 .
 /
 README
+patch
+-
+p3
+<
+.
+/
+bug719612
+.
+patch
