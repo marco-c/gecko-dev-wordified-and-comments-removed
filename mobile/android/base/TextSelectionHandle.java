@@ -205,6 +205,7 @@ private
 GeckoApp
 mActivity
 ;
+public
 TextSelectionHandle
 (
 Context
