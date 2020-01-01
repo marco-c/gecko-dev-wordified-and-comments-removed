@@ -378,11 +378,6 @@ xA
 )
 ;
 }
-PRBool
-NS_SVGEnabled
-(
-)
-;
 #
 ifdef
 MOZ_SMIL

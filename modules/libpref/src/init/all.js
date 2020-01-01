@@ -9898,16 +9898,6 @@ pref
 "
 svg
 .
-enabled
-"
-true
-)
-;
-pref
-(
-"
-svg
-.
 smil
 .
 enabled
