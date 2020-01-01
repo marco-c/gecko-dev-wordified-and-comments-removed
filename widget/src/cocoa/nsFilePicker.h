@@ -250,9 +250,6 @@ PanelDefaultDirectory
 ;
 NSView
 *
-nsFilePicker
-:
-:
 GetAccessoryView
 (
 )

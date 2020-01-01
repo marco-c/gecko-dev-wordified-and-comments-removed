@@ -371,9 +371,6 @@ inDispatchTo
 ;
 NSMenuItem
 *
-nsMenuBarX
-:
-:
 CreateNativeAppMenuItem
 (
 nsIMenu
