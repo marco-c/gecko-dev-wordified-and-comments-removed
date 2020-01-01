@@ -72,6 +72,11 @@ PRUint32
 count
 )
 ;
+PRInt32
+Available
+(
+)
+;
 nsresult
 GetTime
 (
