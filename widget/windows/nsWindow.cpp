@@ -2175,6 +2175,13 @@ false
 }
 if
 (
+mWindowType
+=
+=
+eWindowType_toplevel
+&
+&
+(
 !
 nsUXThemeData
 :
@@ -2187,6 +2194,7 @@ nsUXThemeData
 :
 :
 sTitlebarInfoPopulatedAero
+)
 )
 {
 nsUXThemeData
