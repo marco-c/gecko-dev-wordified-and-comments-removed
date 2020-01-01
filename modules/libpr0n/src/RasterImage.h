@@ -1146,6 +1146,9 @@ IsDecodeFinished
 (
 )
 ;
+TimeStamp
+mDrawStartTime
+;
 enum
 eShutdownIntent
 {
