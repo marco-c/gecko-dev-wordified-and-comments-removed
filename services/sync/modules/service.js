@@ -3649,14 +3649,6 @@ global
 "
 )
 ;
-meta
-.
-payload
-.
-storageVersion
-=
-MIN_SERVER_STORAGE_VERSION
-;
 this
 .
 _log
