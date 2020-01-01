@@ -128,7 +128,14 @@ paths
 .
 append
 (
+os
+.
 path
+.
+abspath
+(
+path
+)
 )
             
 continue
@@ -149,6 +156,12 @@ paths
 .
 append
 (
+os
+.
+path
+.
+abspath
+(
 args
 .
 pop
@@ -159,6 +172,7 @@ pop
 2
 :
 ]
+)
 )
             
 continue
@@ -186,9 +200,16 @@ os
 .
 path
 .
+abspath
+(
+os
+.
+path
+.
 dirname
 (
 script
+)
 )
 ]
 +
