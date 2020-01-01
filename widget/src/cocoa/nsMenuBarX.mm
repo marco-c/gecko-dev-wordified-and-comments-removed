@@ -1711,9 +1711,10 @@ nsIDocument
 aDocument
 nsIContent
 *
+aContainer
+nsIContent
+*
 aChild
-PRInt32
-aIndexInContainer
 )
 {
 nsMenuX
@@ -1753,7 +1754,13 @@ rv
 InsertMenuAtIndex
 (
 newMenu
-aIndexInContainer
+aContainer
+-
+>
+IndexOf
+(
+aChild
+)
 )
 ;
 else

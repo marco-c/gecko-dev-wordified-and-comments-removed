@@ -5266,9 +5266,10 @@ nsIDocument
 aDocument
 nsIContent
 *
+aContainer
+nsIContent
+*
 aChild
-PRInt32
-aIndexInContainer
 )
 {
 if

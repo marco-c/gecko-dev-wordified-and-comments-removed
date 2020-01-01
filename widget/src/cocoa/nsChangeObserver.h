@@ -54,9 +54,10 @@ nsIDocument
 aDocument
 nsIContent
 *
+aContainer
+nsIContent
+*
 aChild
-PRInt32
-aIndexInContainer
 )
 ;
 class
@@ -106,9 +107,10 @@ nsIDocument
 aDocument
 nsIContent
 *
+aContainer
+nsIContent
+*
 aChild
-PRInt32
-aIndexInContainer
 )
 =
 0
