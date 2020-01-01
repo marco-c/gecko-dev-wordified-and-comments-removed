@@ -200,7 +200,7 @@ jsbytecode
 pc
 )
 :
-gen
+gen_
 (
 gen
 )
@@ -255,6 +255,8 @@ init
 slots_
 =
 gen
+(
+)
 -
 >
 allocate
@@ -263,6 +265,8 @@ StackSlot
 >
 (
 gen
+(
+)
 -
 >
 nslots
@@ -299,6 +303,8 @@ header_
 header_
 =
 gen
+(
+)
 -
 >
 allocate
@@ -645,6 +651,8 @@ JS_ASSERT
 stackPosition_
 >
 gen
+(
+)
 -
 >
 firstStackSlot
@@ -765,6 +773,8 @@ return
 setVariable
 (
 gen
+(
+)
 -
 >
 argSlot
@@ -788,6 +798,8 @@ return
 setVariable
 (
 gen
+(
+)
 -
 >
 localSlot
@@ -813,6 +825,8 @@ JS_ASSERT
 stackPosition_
 <
 gen
+(
+)
 -
 >
 nslots
@@ -870,6 +884,8 @@ JS_ASSERT
 stackPosition_
 <
 gen
+(
+)
 -
 >
 nslots
@@ -941,6 +957,8 @@ arg
 pushVariable
 (
 gen
+(
+)
 -
 >
 argSlot
@@ -963,6 +981,8 @@ local
 pushVariable
 (
 gen
+(
+)
 -
 >
 localSlot
@@ -986,6 +1006,8 @@ JS_ASSERT
 stackPosition_
 >
 gen
+(
+)
 -
 >
 firstStackSlot
@@ -1094,6 +1116,8 @@ depth
 >
 =
 gen
+(
+)
 -
 >
 firstStackSlot
@@ -1146,6 +1170,8 @@ ins
 setId
 (
 gen
+(
+)
 -
 >
 graph
@@ -1205,6 +1231,8 @@ ins
 setId
 (
 gen
+(
+)
 -
 >
 graph
@@ -1267,6 +1295,8 @@ ins
 setId
 (
 gen
+(
+)
 -
 >
 graph
@@ -1361,6 +1391,8 @@ phi
 setId
 (
 gen
+(
+)
 -
 >
 graph
