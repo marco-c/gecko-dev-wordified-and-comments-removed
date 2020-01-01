@@ -623,6 +623,10 @@ test_bug677752
 .
 html
 \
+test_bug697842
+.
+html
+\
 test_CF_HTML_clipboard
 .
 html
