@@ -5890,10 +5890,6 @@ init
 (
 )
 ;
-Services
-.
-logins
-;
 #
 ifdef
 MOZ_CRASHREPORTER
