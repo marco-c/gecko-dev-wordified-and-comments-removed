@@ -1673,6 +1673,16 @@ GetPrincipal
 (
 )
 ;
+if
+(
+!
+GetOwner
+(
+)
+)
+return
+false
+;
 nsCOMPtr
 <
 nsIDocument
