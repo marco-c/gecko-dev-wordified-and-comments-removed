@@ -3326,12 +3326,14 @@ true
 bool
 isBlock
 ;
-DebugOnly
-<
+#
+ifdef
+DEBUG
 nsresult
->
 rv
 =
+#
+endif
 nsContentUtils
 :
 :
