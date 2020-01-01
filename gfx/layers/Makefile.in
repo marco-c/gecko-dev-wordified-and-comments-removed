@@ -350,6 +350,16 @@ cpp
 (
 NULL
 )
+GTEST_CPPSRCS
+=
+\
+TestTiledLayerBuffer
+.
+cpp
+\
+(
+NULL
+)
 ifeq
 (
 (
