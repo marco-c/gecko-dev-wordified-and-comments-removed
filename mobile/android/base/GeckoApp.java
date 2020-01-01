@@ -3835,14 +3835,6 @@ String
 faviconUrl
 )
 {
-if
-(
-faviconUrl
-!
-=
-null
-)
-{
 JSONObject
 args
 =
@@ -3851,6 +3843,14 @@ JSONObject
 (
 )
 ;
+if
+(
+faviconUrl
+!
+=
+null
+)
+{
 try
 {
 args
@@ -3894,6 +3894,7 @@ arguments
 )
 ;
 }
+}
 GeckoAppShell
 .
 sendEventToGecko
@@ -3915,7 +3916,6 @@ toString
 )
 )
 ;
-}
 }
 }
 )
