@@ -4,7 +4,6 @@ import
 with_statement
 import
 os
-platform
 subprocess
 sys
 threading
@@ -230,15 +229,13 @@ __main__
 :
     
 if
-platform
+sys
 .
-system
-(
-)
+platform
 !
 =
 "
-Windows
+win32
 "
 :
         
