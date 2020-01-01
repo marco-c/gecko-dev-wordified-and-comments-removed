@@ -26012,16 +26012,6 @@ true
 pref
 (
 "
-clipboard
-.
-autocopy
-"
-true
-)
-;
-pref
-(
-"
 browser
 .
 urlbar
