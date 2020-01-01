@@ -3653,7 +3653,11 @@ p
 bool
 aRemovingAllowed
 )
+{
+return
+false
 ;
+}
 static
 NS_METHOD_
 (
@@ -3665,7 +3669,11 @@ void
 *
 p
 )
+{
+return
+false
 ;
+}
 static
 NS_METHOD_
 (
@@ -3677,7 +3685,11 @@ void
 *
 p
 )
+{
+return
+false
 ;
+}
 }
 ;
 template
