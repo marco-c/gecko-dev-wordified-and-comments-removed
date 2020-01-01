@@ -1468,14 +1468,6 @@ aDefaultValue
 )
 ;
 PRBool
-GetFrameContentWidth
-(
-nscoord
-&
-aWidth
-)
-;
-PRBool
 GetCBContentWidth
 (
 nscoord

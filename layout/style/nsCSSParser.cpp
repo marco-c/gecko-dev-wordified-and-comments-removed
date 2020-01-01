@@ -21002,7 +21002,7 @@ ParseVariant
 (
 aErrorCode
 aValue
-VARIANT_HLP
+VARIANT_HL
 |
 VARIANT_NORMAL
 nsnull
