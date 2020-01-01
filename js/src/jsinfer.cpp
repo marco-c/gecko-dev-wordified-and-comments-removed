@@ -21654,6 +21654,9 @@ break
 }
 if
 (
+entirelyAnalyzed
+&
+&
 !
 pendingPoppedThis
 .
