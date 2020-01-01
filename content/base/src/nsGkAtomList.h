@@ -113,6 +113,15 @@ _moz_quote
 )
 GK_ATOM
 (
+mozsignature
+"
+moz
+-
+signature
+"
+)
+GK_ATOM
+(
 _moz_is_glyph
 "
 -
