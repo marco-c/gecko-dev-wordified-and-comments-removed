@@ -43,6 +43,11 @@ color_background_panel
 d6d6d6
 %
 define
+color_text_panel
+#
+000
+%
+define
 color_background_header
 #
 292929
