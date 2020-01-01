@@ -1174,9 +1174,13 @@ endif
 uint32_t
 debuggerMutations
 ;
+const
 JSSecurityCallbacks
 *
 securityCallbacks
+;
+JSDestroyPrincipalsOp
+destroyPrincipals
 ;
 const
 JSStructuredCloneCallbacks
@@ -2737,10 +2741,6 @@ checkGCRooters
 endif
 #
 endif
-JSSecurityCallbacks
-*
-securityCallbacks
-;
 unsigned
 resolveFlags
 ;

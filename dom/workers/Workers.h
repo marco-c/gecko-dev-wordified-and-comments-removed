@@ -292,6 +292,12 @@ jsval
 aWorker
 )
 ;
+const
+uint32_t
+kJSPrincipalsDebugToken
+=
+0x7e2df9d2
+;
 END_WORKERS_NAMESPACE
 #
 endif
