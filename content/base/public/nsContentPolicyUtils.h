@@ -7,13 +7,6 @@ __nsContentPolicyUtils_h__
 #
 include
 "
-prlog
-.
-h
-"
-#
-include
-"
 nsIContentPolicy
 .
 h
