@@ -184,7 +184,7 @@ h
 #
 include
 "
-nsDOMEventTargetWrapperCache
+nsDOMEventTargetHelper
 .
 h
 "
@@ -270,7 +270,7 @@ class
 TabChildGlobal
 :
 public
-nsDOMEventTargetWrapperCache
+nsDOMEventTargetHelper
 public
 nsIContentFrameMessageManager
 public
@@ -291,7 +291,7 @@ NS_DECL_ISUPPORTS_INHERITED
 NS_DECL_CYCLE_COLLECTION_CLASS_INHERITED
 (
 TabChildGlobal
-nsDOMEventTargetWrapperCache
+nsDOMEventTargetHelper
 )
 NS_FORWARD_SAFE_NSIFRAMEMESSAGEMANAGER
 (

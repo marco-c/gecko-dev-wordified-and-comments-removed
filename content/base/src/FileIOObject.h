@@ -14,7 +14,7 @@ h
 #
 include
 "
-nsDOMEventTargetWrapperCache
+nsDOMEventTargetHelper
 .
 h
 "
@@ -79,7 +79,7 @@ class
 FileIOObject
 :
 public
-nsDOMEventTargetWrapperCache
+nsDOMEventTargetHelper
 public
 nsIStreamListener
 public
@@ -135,7 +135,7 @@ NS_DECL_NSIREQUESTOBSERVER
 NS_DECL_CYCLE_COLLECTION_CLASS_INHERITED
 (
 FileIOObject
-nsDOMEventTargetWrapperCache
+nsDOMEventTargetHelper
 )
 protected
 :

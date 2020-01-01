@@ -14,7 +14,7 @@ h
 #
 include
 "
-nsDOMEventTargetWrapperCache
+nsDOMEventTargetHelper
 .
 h
 "
@@ -39,7 +39,7 @@ SmsRequest
 public
 nsIDOMMozSmsRequest
 public
-nsDOMEventTargetWrapperCache
+nsDOMEventTargetHelper
 {
 public
 :
@@ -63,14 +63,14 @@ NS_DECL_ISUPPORTS
 NS_DECL_NSIDOMMOZSMSREQUEST
 NS_FORWARD_NSIDOMEVENTTARGET
 (
-nsDOMEventTargetWrapperCache
+nsDOMEventTargetHelper
 :
 :
 )
 NS_DECL_CYCLE_COLLECTION_SCRIPT_HOLDER_CLASS_INHERITED
 (
 SmsRequest
-nsDOMEventTargetWrapperCache
+nsDOMEventTargetHelper
 )
 void
 Reset

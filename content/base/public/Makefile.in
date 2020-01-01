@@ -547,10 +547,6 @@ nsXMLNameSpaceMap
 .
 h
 \
-nsDOMEventTargetWrapperCache
-.
-h
-\
 nsIXFormsUtilityService
 .
 h

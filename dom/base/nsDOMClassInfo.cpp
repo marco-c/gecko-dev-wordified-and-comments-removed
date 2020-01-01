@@ -249,7 +249,7 @@ h
 #
 include
 "
-nsDOMEventTargetWrapperCache
+nsDOMEventTargetHelper
 .
 h
 "
@@ -29309,11 +29309,11 @@ JSObject
 parentObj
 )
 {
-nsDOMEventTargetWrapperCache
+nsDOMEventTargetHelper
 *
 target
 =
-nsDOMEventTargetWrapperCache
+nsDOMEventTargetHelper
 :
 :
 FromSupports
@@ -29420,11 +29420,11 @@ nsISupports
 aNative
 )
 {
-nsDOMEventTargetWrapperCache
+nsDOMEventTargetHelper
 *
 target
 =
-nsDOMEventTargetWrapperCache
+nsDOMEventTargetHelper
 :
 :
 FromSupports
