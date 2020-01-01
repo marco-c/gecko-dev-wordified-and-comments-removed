@@ -1612,7 +1612,7 @@ into
 -
 lc
 so
-OS_LIBS
+OS_PTHREAD
 is
 set
 to
@@ -1636,7 +1636,7 @@ OS_RELEASE
 6
 "
 \
-OS_LIBS
+OS_PTHREAD
 =
 \
 STANDARDS_CFLAGS
