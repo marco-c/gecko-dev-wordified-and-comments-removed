@@ -52,6 +52,8 @@ sdkdir
 lib
 -
 lxpcomglue
+-
+ldl
 Cflags
 :
 -
