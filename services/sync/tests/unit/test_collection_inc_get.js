@@ -103,7 +103,6 @@ stream
 _data
 =
 '
-[
 {
 "
 payload
@@ -112,7 +111,8 @@ payload
 "
 "
 }
-]
+\
+n
 '
 ;
 coll
@@ -202,7 +202,6 @@ stream
 _data
 =
 '
-[
 {
 "
 payload
@@ -222,7 +221,8 @@ value
 }
 "
 }
-]
+\
+n
 '
 ;
 coll
@@ -325,7 +325,6 @@ stream
 _data
 =
 '
-[
 {
 "
 payload
@@ -345,6 +344,8 @@ value
 }
 "
 }
+\
+n
 {
 "
 payload
@@ -364,6 +365,8 @@ value
 }
 "
 }
+\
+n
 {
 "
 payload
@@ -383,7 +386,8 @@ value
 }
 "
 }
-]
+\
+n
 '
 ;
 coll
@@ -599,7 +603,6 @@ stream
 _data
 =
 '
-[
 {
 "
 payl
@@ -745,6 +748,8 @@ value
 }
 "
 }
+\
+n
 '
 ;
 coll
@@ -1034,6 +1039,8 @@ _data
 =
 '
 }
+\
+n
 {
 "
 payload
@@ -1053,6 +1060,8 @@ value
 }
 "
 }
+\
+n
 '
 ;
 coll
@@ -1231,9 +1240,9 @@ _
 (
 "
 add
-ending
-array
-bracket
+no
+extra
+data
 "
 )
 ;
@@ -1247,7 +1256,6 @@ _data
 +
 =
 '
-]
 '
 ;
 coll
@@ -1321,10 +1329,11 @@ _
 should
 have
 consumed
-the
-last
-array
-bracket
+nothing
+but
+still
+have
+nothing
 "
 )
 ;
