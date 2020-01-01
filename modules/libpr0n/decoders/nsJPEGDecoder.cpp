@@ -611,7 +611,7 @@ aCount
 NS_ABORT_IF_FALSE
 (
 !
-IsError
+HasError
 (
 )
 "

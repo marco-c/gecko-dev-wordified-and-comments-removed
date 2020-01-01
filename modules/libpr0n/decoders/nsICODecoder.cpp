@@ -211,7 +211,7 @@ FinishInternal
 NS_ABORT_IF_FALSE
 (
 !
-IsError
+HasError
 (
 )
 "
@@ -305,7 +305,7 @@ aCount
 NS_ABORT_IF_FALSE
 (
 !
-IsError
+HasError
 (
 )
 "

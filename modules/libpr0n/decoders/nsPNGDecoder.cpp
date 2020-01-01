@@ -1060,7 +1060,7 @@ height
 NS_ABORT_IF_FALSE
 (
 !
-IsError
+HasError
 (
 )
 "
@@ -1209,7 +1209,7 @@ mPNG
 if
 (
 !
-IsError
+HasError
 (
 )
 )
@@ -3301,7 +3301,7 @@ NS_ABORT_IF_FALSE
 decoder
 -
 >
-IsError
+HasError
 (
 )
 "

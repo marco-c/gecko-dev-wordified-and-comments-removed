@@ -191,7 +191,7 @@ aCount
 NS_ABORT_IF_FALSE
 (
 !
-IsDecoderError
+HasDecoderError
 (
 )
 "
@@ -210,7 +210,7 @@ error
 ;
 if
 (
-IsDataError
+HasDataError
 (
 )
 )
@@ -234,7 +234,7 @@ Finish
 if
 (
 !
-IsError
+HasError
 (
 )
 )
@@ -248,7 +248,7 @@ mInFrame
 &
 &
 !
-IsDecoderError
+HasDecoderError
 (
 )
 )
@@ -293,7 +293,7 @@ aConsoleService
 &
 &
 !
-IsDecoderError
+HasDecoderError
 (
 )
 )
@@ -340,7 +340,7 @@ bool
 salvage
 =
 !
-IsDecoderError
+HasDecoderError
 (
 )
 &
@@ -405,7 +405,7 @@ FlushInvalidations
 NS_ABORT_IF_FALSE
 (
 !
-IsDecoderError
+HasDecoderError
 (
 )
 "
