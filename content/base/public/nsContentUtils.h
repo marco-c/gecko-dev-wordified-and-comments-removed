@@ -70,15 +70,6 @@ include
 "
 mozilla
 /
-AutoRestore
-.
-h
-"
-#
-include
-"
-mozilla
-/
 GuardObjects
 .
 h
