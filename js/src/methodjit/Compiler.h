@@ -291,7 +291,7 @@ jsbytecode
 jumpTarget
 ;
 bool
-trampoline
+fastTrampoline
 ;
 Label
 trampolineStart

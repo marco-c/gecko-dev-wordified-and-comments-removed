@@ -359,7 +359,13 @@ JSC
 :
 :
 CodeLocationLabel
-jumpTarget
+fastTarget
+;
+JSC
+:
+:
+CodeLocationLabel
+slowTarget
 ;
 JSC
 :

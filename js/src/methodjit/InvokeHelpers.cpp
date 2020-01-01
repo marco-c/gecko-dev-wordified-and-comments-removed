@@ -4154,7 +4154,7 @@ tic
 traceHint
 tic
 .
-jumpTarget
+fastTarget
 )
 ;
 if
@@ -4171,7 +4171,7 @@ tic
 slowTraceHint
 tic
 .
-jumpTarget
+slowTarget
 )
 ;
 }
