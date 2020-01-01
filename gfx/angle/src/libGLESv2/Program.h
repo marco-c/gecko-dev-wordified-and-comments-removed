@@ -446,6 +446,9 @@ getUniformfv
 (
 GLint
 location
+GLsizei
+*
+bufSize
 GLfloat
 *
 params
@@ -456,6 +459,9 @@ getUniformiv
 (
 GLint
 location
+GLsizei
+*
+bufSize
 GLint
 *
 params

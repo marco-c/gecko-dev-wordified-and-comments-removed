@@ -6209,7 +6209,7 @@ fragData
 (
 EbtFloat
 EbpMedium
-EvqFragColor
+EvqFragData
 4
 false
 true
