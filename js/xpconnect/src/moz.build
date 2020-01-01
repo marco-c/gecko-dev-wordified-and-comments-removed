@@ -312,6 +312,11 @@ nsXPConnect
 .
 cpp
 '
+'
+Sandbox
+.
+cpp
+'
 ]
 FAIL_ON_WARNINGS
 =
