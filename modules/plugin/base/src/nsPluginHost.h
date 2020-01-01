@@ -587,6 +587,15 @@ InstanceTagArray
 (
 )
 ;
+nsPluginTag
+*
+FindTagForLibrary
+(
+PRLibrary
+*
+aLibrary
+)
+;
 private
 :
 nsresult
