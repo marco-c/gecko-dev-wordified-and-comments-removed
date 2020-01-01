@@ -406,7 +406,16 @@ bool
 DoRequest
 (
 const
-DevicePropertiesRequest
+PairedDevicePropertiesRequest
+&
+aRequest
+)
+;
+bool
+DoRequest
+(
+const
+ConnectedDevicePropertiesRequest
 &
 aRequest
 )
