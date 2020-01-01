@@ -20351,7 +20351,7 @@ AutoGCSlice
 {
 for
 (
-GCCompartmentsIter
+CompartmentsIter
 c
 (
 runtime
@@ -20406,16 +20406,6 @@ runtime
 }
 else
 {
-JS_ASSERT
-(
-c
--
->
-isGCSweeping
-(
-)
-)
-;
 c
 -
 >
