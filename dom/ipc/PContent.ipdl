@@ -168,6 +168,10 @@ PSms
 ;
 include
 protocol
+PSpeechSynthesis
+;
+include
+protocol
 PStorage
 ;
 include
@@ -1054,6 +1058,9 @@ manages
 PSms
 ;
 manages
+PSpeechSynthesis
+;
+manages
 PStorage
 ;
 manages
@@ -1830,6 +1837,10 @@ PNecko
 )
 ;
 PSms
+(
+)
+;
+PSpeechSynthesis
 (
 )
 ;
