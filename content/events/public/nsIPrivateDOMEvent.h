@@ -279,8 +279,7 @@ aResult
 nsPresContext
 *
 aPresContext
-class
-nsPopupBlockedEvent
+nsEvent
 *
 aEvent
 )
