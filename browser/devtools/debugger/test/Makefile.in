@@ -209,6 +209,12 @@ edit
 .
 js
 \
+browser_dbg_propertyview
+-
+reexpand
+.
+js
+\
 browser_dbg_reload
 -
 same

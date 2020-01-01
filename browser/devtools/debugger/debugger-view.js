@@ -195,6 +195,14 @@ evaluate
 ;
 this
 .
+Variables
+.
+lazyEmpty
+=
+true
+;
+this
+.
 _initializePanes
 (
 )
