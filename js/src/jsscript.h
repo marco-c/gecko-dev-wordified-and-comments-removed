@@ -1157,10 +1157,6 @@ cx
 jschar
 *
 sourceMapURL
-const
-char
-*
-filename
 )
 ;
 const

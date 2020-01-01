@@ -8228,10 +8228,6 @@ cx
 jschar
 *
 sourceMapURL
-const
-char
-*
-filename
 )
 {
 JS_ASSERT
@@ -8256,7 +8252,7 @@ JSREPORT_WARNING
 js_GetErrorMessage
 NULL
 JSMSG_ALREADY_HAS_SOURCEMAP
-filename
+filename_
 )
 )
 {
