@@ -236,9 +236,12 @@ DeprecatedTextureHost
 aDeprecatedTextureHost
 )
 ;
-private
+android
 :
-GrallocBufferActor
+:
+GraphicBuffer
+*
+GetGraphicBuffer
 (
 )
 ;
@@ -249,6 +252,12 @@ const
 MagicGrallocBufferHandle
 &
 aHandle
+)
+;
+private
+:
+GrallocBufferActor
+(
 )
 ;
 android
