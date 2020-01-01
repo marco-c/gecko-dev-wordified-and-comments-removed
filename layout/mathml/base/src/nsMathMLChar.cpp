@@ -9771,12 +9771,6 @@ onePixel
 count
 )
 {
-aRenderingContext
-.
-PopState
-(
-)
-;
 return
 NS_ERROR_UNEXPECTED
 ;
@@ -11032,12 +11026,6 @@ onePixel
 count
 )
 {
-aRenderingContext
-.
-PopState
-(
-)
-;
 return
 NS_ERROR_UNEXPECTED
 ;
