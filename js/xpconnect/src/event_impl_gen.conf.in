@@ -1,4 +1,6 @@
-#
+"
+"
+"
 -
 *
 -
@@ -8,7 +10,6 @@ Python
 -
 *
 -
-#
 This
 Source
 Code
@@ -22,7 +23,6 @@ of
 the
 Mozilla
 Public
-#
 License
 v
 .
@@ -41,7 +41,6 @@ not
 distributed
 with
 this
-#
 file
 You
 can
@@ -63,8 +62,8 @@ MPL
 0
 /
 .
-#
-Name
+The
+name
 of
 the
 event
@@ -76,7 +75,6 @@ have
 nsIDOM
 -
 prefix
-#
 and
 should
 be
@@ -92,7 +90,6 @@ and
 which
 should
 have
-#
 <
 name
 >
@@ -103,6 +100,9 @@ the
 event
 constructor
 .
+"
+"
+"
 simple_events
 =
 [
@@ -128,10 +128,15 @@ HashChangeEvent
 CloseEvent
 '
 ]
-#
+"
+"
+"
 include
 file
 names
+"
+"
+"
 special_includes
 =
 [
@@ -146,7 +151,9 @@ nsContentUtils
 h
 '
 ]
-#
+"
+"
+"
 name
 of
 the
@@ -161,6 +168,9 @@ include
 typename
 .
 h
+"
+"
+"
 "
 exclude_automatic_type_include
 =
