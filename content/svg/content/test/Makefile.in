@@ -454,16 +454,6 @@ helper
 .
 svg
 \
-test_text
-.
-html
-\
-text
--
-helper
-.
-svg
-\
 (
 NULL
 )
