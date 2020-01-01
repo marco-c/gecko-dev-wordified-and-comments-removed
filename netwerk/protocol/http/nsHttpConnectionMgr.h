@@ -247,8 +247,10 @@ PruneDeadConnections
 )
 ;
 nsresult
-ClosePersistentConnections
+DoShiftReloadConnectionCleanup
 (
+nsHttpConnectionInfo
+*
 )
 ;
 nsresult
@@ -546,7 +548,7 @@ HttpRetParams
 )
 ;
 void
-ResetIPFamillyPreference
+ResetIPFamilyPreference
 (
 nsHttpConnectionInfo
 *
@@ -1701,7 +1703,7 @@ void
 )
 ;
 void
-OnMsgClosePersistentConnections
+OnMsgDoShiftReloadConnectionCleanup
 (
 int32_t
 void
