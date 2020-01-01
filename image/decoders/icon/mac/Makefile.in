@@ -81,11 +81,6 @@ LIBXUL_LIBRARY
 FAIL_ON_WARNINGS
 =
 1
-DISABLED_CMMSRCS
-=
-nsIconChannelCocoa
-.
-mm
 #
 we
 don

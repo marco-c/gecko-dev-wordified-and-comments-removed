@@ -258,12 +258,6 @@ OS_ARCH
 )
 Darwin
 )
-DISABLED_CMMSRCS
-+
-=
-crashreporter_osx
-.
-mm
 OS_LIBS
 +
 =
