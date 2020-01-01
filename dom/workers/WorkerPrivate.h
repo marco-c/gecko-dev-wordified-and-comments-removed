@@ -752,10 +752,6 @@ JSTracer
 aTrc
 )
 {
-AssertIsOnParentThread
-(
-)
-;
 events
 :
 :
