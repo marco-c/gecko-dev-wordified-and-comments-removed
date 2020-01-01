@@ -3667,7 +3667,7 @@ ionRuntime_
 (
 NULL
 )
-selfHostedGlobal_
+selfHostingGlobal_
 (
 NULL
 )
@@ -24730,7 +24730,7 @@ cx
 runtime
 -
 >
-isSelfHostedGlobal
+isSelfHostingGlobal
 (
 cx
 -

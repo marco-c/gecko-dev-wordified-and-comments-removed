@@ -1658,7 +1658,7 @@ ionRuntime_
 ;
 JSObject
 *
-selfHostedGlobal_
+selfHostingGlobal_
 ;
 JSC
 :
@@ -1894,7 +1894,7 @@ cx
 )
 ;
 void
-markSelfHostedGlobal
+markSelfHostingGlobal
 (
 JSTracer
 *
@@ -1902,7 +1902,7 @@ trc
 )
 ;
 bool
-isSelfHostedGlobal
+isSelfHostingGlobal
 (
 js
 :
@@ -1915,7 +1915,7 @@ return
 global
 =
 =
-selfHostedGlobal_
+selfHostingGlobal_
 ;
 }
 bool
