@@ -444,6 +444,13 @@ CONTENT_PAINTING
 CONTENT_PAINTING_AND_PAINT_PENDING
 }
 ;
+void
+SetState
+(
+PanZoomState
+aState
+)
+;
 nsRefPtr
 <
 CompositorParent
