@@ -4110,6 +4110,11 @@ aPrevFrame
 newFrames
 )
 ;
+CheckBoxOrder
+(
+state
+)
+;
 #
 ifdef
 DEBUG_LAYOUT
@@ -4225,6 +4230,11 @@ ChildrenAppended
 this
 state
 newFrames
+)
+;
+CheckBoxOrder
+(
+state
 )
 ;
 #
