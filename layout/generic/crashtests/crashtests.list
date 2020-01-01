@@ -1849,9 +1849,9 @@ load
 html
 asserts
 (
-15
+10
 -
-80
+90
 )
 asserts
 -
@@ -1861,15 +1861,6 @@ winWidget
 18
 -
 96
-)
-asserts
--
-if
-(
-cocoaWidget
-10
--
-40
 )
 load
 499885
