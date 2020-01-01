@@ -1457,7 +1457,10 @@ if
 offset
 =
 =
+int32_t
+(
 0x80000000
+)
 )
 {
 moveImm

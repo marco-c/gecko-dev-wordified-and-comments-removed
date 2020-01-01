@@ -1027,6 +1027,10 @@ cx
 >
 ionJSContext
 )
+failedInvalidation_
+(
+false
+)
 {
 fp
 -
