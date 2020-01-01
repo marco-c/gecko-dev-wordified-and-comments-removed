@@ -275,6 +275,9 @@ x_shift
 )
 ;
 }
+#
+ifdef
+ARCH_CPU_X86_FAMILY
 if
 (
 has_mmx
@@ -283,6 +286,8 @@ EMMS
 (
 )
 ;
+#
+endif
 }
 }
 }

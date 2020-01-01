@@ -196,3 +196,16 @@ on
 OS
 X
 .
+solaris
+.
+patch
+:
+Adds
+Solaris
+support
+fallback
+to
+C
+implementation
+on
+SPARC
