@@ -135,10 +135,6 @@ nsCacheService
 .
 h
 \
-nsApplicationCacheService
-.
-h
-\
 (
 NULL
 )
