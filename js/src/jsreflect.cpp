@@ -14359,7 +14359,7 @@ PROP_INIT
 break
 ;
 case
-JSOP_GETTER
+JSOP_INITPROP_GETTER
 :
 kind
 =
@@ -14368,7 +14368,7 @@ PROP_GETTER
 break
 ;
 case
-JSOP_SETTER
+JSOP_INITPROP_SETTER
 :
 kind
 =

@@ -5852,6 +5852,12 @@ break
 case
 JSOP_INITPROP
 :
+case
+JSOP_INITPROP_GETTER
+:
+case
+JSOP_INITPROP_SETTER
+:
 stack
 [
 stackDepth
@@ -5920,6 +5926,12 @@ break
 ;
 case
 JSOP_INITELEM
+:
+case
+JSOP_INITELEM_GETTER
+:
+case
+JSOP_INITELEM_SETTER
 :
 stack
 [

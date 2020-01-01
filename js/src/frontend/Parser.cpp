@@ -30946,7 +30946,7 @@ get
 {
 op
 =
-JSOP_GETTER
+JSOP_INITPROP_GETTER
 ;
 }
 else
@@ -30967,7 +30967,7 @@ set
 {
 op
 =
-JSOP_SETTER
+JSOP_INITPROP_SETTER
 ;
 }
 else
@@ -31261,6 +31261,20 @@ null
 break
 ;
 }
+JS_ASSERT
+(
+op
+=
+=
+JSOP_INITPROP_GETTER
+|
+|
+op
+=
+=
+JSOP_INITPROP_SETTER
+)
+;
 handler
 .
 setListFlag
@@ -31312,7 +31326,7 @@ start
 op
 =
 =
-JSOP_GETTER
+JSOP_INITPROP_GETTER
 ?
 Getter
 :
@@ -31719,7 +31733,7 @@ if
 op
 =
 =
-JSOP_GETTER
+JSOP_INITPROP_GETTER
 )
 {
 assignType
@@ -31733,7 +31747,7 @@ if
 op
 =
 =
-JSOP_SETTER
+JSOP_INITPROP_SETTER
 )
 {
 assignType
