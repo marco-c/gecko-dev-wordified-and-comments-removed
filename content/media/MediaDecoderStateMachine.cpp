@@ -4,14 +4,14 @@ XP_WIN
 #
 include
 "
-Windows
+windows
 .
 h
 "
 #
 include
 "
-Mmsystem
+mmsystem
 .
 h
 "
