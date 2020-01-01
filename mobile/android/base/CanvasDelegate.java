@@ -282,6 +282,12 @@ bitmap
 mPaint
 )
 ;
+bitmap
+.
+recycle
+(
+)
+;
 mPaint
 .
 setXfermode
