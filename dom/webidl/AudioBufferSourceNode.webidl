@@ -230,7 +230,7 @@ boolean
 loop
 ;
 void
-noteOn
+start
 (
 double
 when
@@ -239,7 +239,7 @@ when
 /
 /
 void
-noteGrainOn
+start
 (
 double
 when
@@ -250,7 +250,7 @@ grainDuration
 )
 ;
 void
-noteOff
+stop
 (
 double
 when

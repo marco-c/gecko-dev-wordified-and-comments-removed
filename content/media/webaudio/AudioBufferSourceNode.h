@@ -60,14 +60,14 @@ aTriedToWrap
 )
 ;
 void
-NoteOn
+Start
 (
 double
 )
 {
 }
 void
-NoteOff
+Stop
 (
 double
 )
