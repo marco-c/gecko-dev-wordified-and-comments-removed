@@ -6283,8 +6283,13 @@ NS_FAILED
 (
 rv
 )
-|
-|
+)
+{
+break
+;
+}
+if
+(
 name
 .
 IsEmpty
