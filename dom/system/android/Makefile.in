@@ -510,17 +510,6 @@ src
 /
 geolocation
 \
--
-I
-(
-topsrcdir
-)
-/
-content
-/
-events
-/
-src
 (
 NULL
 )

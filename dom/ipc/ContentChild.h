@@ -560,12 +560,6 @@ z
 ;
 virtual
 bool
-RecvNeedsCalibration
-(
-)
-;
-virtual
-bool
 RecvScreenSizeChanged
 (
 const

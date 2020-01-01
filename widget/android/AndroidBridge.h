@@ -1632,6 +1632,9 @@ jmethodID
 jAcknowledgeEventSync
 ;
 jmethodID
+jEnableDeviceMotion
+;
+jmethodID
 jEnableLocation
 ;
 jmethodID
