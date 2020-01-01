@@ -889,7 +889,7 @@ true
 true
 )
 ;
-mSocketStatus
+mPrevSocketStatus
 =
 mSocket
 -
@@ -1226,7 +1226,7 @@ return
 false
 ;
 }
-mSocketStatus
+mPrevSocketStatus
 =
 mSocket
 -
@@ -5712,7 +5712,7 @@ GetAddress
 mConnectedDeviceAddress
 )
 ;
-mSocketStatus
+mPrevSocketStatus
 =
 mSocket
 -
@@ -5826,7 +5826,7 @@ Disconnect
 (
 )
 ;
-mSocketStatus
+mPrevSocketStatus
 =
 mSocket
 -
@@ -5861,7 +5861,7 @@ mSocket
 ;
 if
 (
-mSocketStatus
+mPrevSocketStatus
 =
 =
 SocketConnectionStatus
@@ -5966,7 +5966,7 @@ Listen
 else
 if
 (
-mSocketStatus
+mPrevSocketStatus
 =
 =
 SocketConnectionStatus

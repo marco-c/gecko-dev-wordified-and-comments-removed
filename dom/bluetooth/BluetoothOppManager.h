@@ -375,7 +375,6 @@ PRUnichar
 c
 )
 ;
-enum
 mozilla
 :
 :
@@ -383,7 +382,7 @@ ipc
 :
 :
 SocketConnectionStatus
-mSocketStatus
+mPrevSocketStatus
 ;
 bool
 mConnected
