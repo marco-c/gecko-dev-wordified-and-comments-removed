@@ -2977,6 +2977,15 @@ cookie
 NULL
 )
 ifdef
+MOZ_GSTREAMER
+LOCAL_INCLUDES
++
+=
+(
+GSTREAMER_CFLAGS
+)
+endif
+ifdef
 MOZ_B2G_RIL
 #
 {

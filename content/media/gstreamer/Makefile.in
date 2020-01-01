@@ -100,6 +100,10 @@ GStreamerReader
 .
 h
 \
+GStreamerFormatHelper
+.
+h
+\
 (
 NULL
 )
@@ -111,6 +115,10 @@ GStreamerReader
 cpp
 \
 GStreamerDecoder
+.
+cpp
+\
+GStreamerFormatHelper
 .
 cpp
 \
