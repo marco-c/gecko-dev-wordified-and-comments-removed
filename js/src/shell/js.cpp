@@ -23987,13 +23987,7 @@ cx
 vp
 INT_TO_JSVAL
 (
-cx
--
->
-runtime
--
->
-stringMemoryUsed
+0
 )
 )
 ;

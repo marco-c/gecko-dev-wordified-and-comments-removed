@@ -82158,7 +82158,7 @@ JS_ASSERT
 fp2
 -
 >
-isEvalOrDebuggerFrame
+isDirectEvalOrDebuggerFrame
 (
 )
 )
