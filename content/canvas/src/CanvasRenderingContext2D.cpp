@@ -17311,6 +17311,16 @@ Stride
 FORMAT_B8G8R8A8
 )
 ;
+if
+(
+!
+sourceSurface
+)
+{
+return
+NS_ERROR_FAILURE
+;
+}
 mTarget
 -
 >
