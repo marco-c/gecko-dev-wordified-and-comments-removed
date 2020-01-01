@@ -15521,7 +15521,7 @@ zh
 CN
 "
 "
-Hei
+STHeiti
 "
 )
 ;
@@ -15539,7 +15539,7 @@ zh
 CN
 "
 "
-Hei
+STHeiti
 "
 )
 ;
@@ -15580,7 +15580,7 @@ zh
 CN
 "
 "
-Hei
+STHeiti
 "
 )
 ;
@@ -15600,7 +15600,7 @@ zh
 CN
 "
 "
-Hei
+STHeiti
 "
 )
 ;
