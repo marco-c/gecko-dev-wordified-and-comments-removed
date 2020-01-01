@@ -7,13 +7,6 @@ mozilla_BlockingResourceBase_h
 #
 include
 "
-prlock
-.
-h
-"
-#
-include
-"
 prlog
 .
 h
