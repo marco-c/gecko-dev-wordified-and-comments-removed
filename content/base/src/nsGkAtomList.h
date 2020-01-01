@@ -11909,13 +11909,6 @@ _remote_id
 )
 GK_ATOM
 (
-DisplayPort
-"
-_displayport
-"
-)
-GK_ATOM
-(
 scrollbar_start_backward
 "
 scrollbar
