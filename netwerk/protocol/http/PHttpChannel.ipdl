@@ -368,6 +368,10 @@ bool
 isContent
 bool
 usePrivateBrowsing
+bool
+isInBrowserElement
+PRUint32
+appID
 )
 ;
 /

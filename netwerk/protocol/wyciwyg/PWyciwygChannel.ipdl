@@ -181,7 +181,11 @@ haveLoadContext
 bool
 isContent
 bool
-usingPrivateBrowsing
+usePrivateBrowsing
+bool
+isInBrowserElement
+PRUint32
+appID
 )
 ;
 /
