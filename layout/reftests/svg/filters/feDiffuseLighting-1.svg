@@ -49,6 +49,16 @@ org
 /
 svg
 '
+width
+=
+'
+100px
+'
+height
+=
+'
+100px
+'
 >
 <
 !
@@ -77,7 +87,7 @@ kernelUnitLength
 on
 the
 <
-feSpecularLighting
+feDiffuseLighting
 >
 should
 allow
