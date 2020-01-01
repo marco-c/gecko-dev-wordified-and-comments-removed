@@ -1365,8 +1365,8 @@ rt
 typedef
 WeakMap
 <
-HeapPtrObject
-HeapPtrObject
+EncapsulatedPtrObject
+RelocatablePtrObject
 >
 ObjectWeakMap
 ;
