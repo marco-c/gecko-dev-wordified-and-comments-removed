@@ -53,6 +53,13 @@ nsIDocument
 .
 h
 "
+#
+include
+"
+nsIDocShellTreeOwner
+.
+h
+"
 class
 nsPresContext
 ;
@@ -120,6 +127,12 @@ nsCOMPtr
 nsIDocShell
 >
 mDocShell
+;
+nsCOMPtr
+<
+nsIDocShellTreeOwner
+>
+mTreeOwner
 ;
 nsCOMPtr
 <
