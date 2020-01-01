@@ -2210,7 +2210,7 @@ enterJIT
 ;
 calleeToken_
 =
-CalleeToToken
+CalleeToParallelToken
 (
 callee
 )

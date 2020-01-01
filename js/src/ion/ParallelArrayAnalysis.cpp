@@ -870,7 +870,7 @@ SAFE_OP
 (
 MonitorTypes
 )
-UNSAFE_OP
+SAFE_OP
 (
 GetPropertyCache
 )

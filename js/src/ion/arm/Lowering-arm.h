@@ -333,6 +333,15 @@ MTableSwitch
 ins
 )
 ;
+LGetPropertyCacheT
+*
+newLGetPropertyCacheT
+(
+MGetPropertyCache
+*
+ins
+)
+;
 public
 :
 bool

@@ -204,6 +204,15 @@ MDefinition
 rhs
 )
 ;
+LGetPropertyCacheT
+*
+newLGetPropertyCacheT
+(
+MGetPropertyCache
+*
+ins
+)
+;
 public
 :
 bool
