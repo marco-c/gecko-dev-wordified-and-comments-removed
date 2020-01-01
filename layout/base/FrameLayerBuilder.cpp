@@ -2840,8 +2840,8 @@ matrix
 )
 ;
 #
-if
-0
+ifndef
+MOZ_JAVA_COMPOSITOR
 gfxPoint
 activeScrolledRootTopLeft
 =
