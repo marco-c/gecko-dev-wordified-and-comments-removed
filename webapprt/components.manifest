@@ -1,5 +1,5 @@
 #
-WebappRTCommandLineHandler
+CommandLineHandler
 .
 js
 component
@@ -14,7 +14,7 @@ component
 -
 3ee366105a4a
 }
-WebappRTCommandLineHandler
+CommandLineHandler
 .
 js
 application
@@ -75,7 +75,7 @@ mozilla
 .
 org
 #
-WebappRTDirectoryProvider
+DirectoryProvider
 .
 js
 component
@@ -90,7 +90,7 @@ b671
 -
 e0641d95698d
 }
-WebappRTDirectoryProvider
+DirectoryProvider
 .
 js
 application

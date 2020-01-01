@@ -1117,11 +1117,8 @@ NSINSTALL
 -
 D
 (
-DIST
+FINAL_TARGET
 )
-/
-bin
-/
 cp
 (
 CONFIG_DIR
@@ -1133,8 +1130,6 @@ uninstaller
 .
 exe
 (
-DIST
+FINAL_TARGET
 )
-/
-bin
 endif

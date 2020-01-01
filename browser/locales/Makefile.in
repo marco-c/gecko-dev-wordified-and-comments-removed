@@ -1897,9 +1897,9 @@ manifest
 STAGEDIST
 )
 /
-defaults
-/
-pref
+(
+PREF_DIR
+)
 /
 firefox
 -
