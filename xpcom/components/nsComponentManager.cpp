@@ -3693,6 +3693,12 @@ Clear
 (
 )
 ;
+mKnownStaticModules
+.
+Clear
+(
+)
+;
 mLoaderData
 .
 Clear
