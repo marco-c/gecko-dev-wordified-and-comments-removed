@@ -30,7 +30,7 @@ nsCertVerificationThread
 :
 verification_thread_singleton
 ;
-NS_IMPL_THREADSAFE_ISUPPORTS1
+NS_IMPL_ISUPPORTS1
 (
 nsCertVerificationResult
 nsICertVerificationResult

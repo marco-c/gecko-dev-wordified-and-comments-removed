@@ -206,7 +206,7 @@ nsNSSDialogs
 )
 {
 }
-NS_IMPL_THREADSAFE_ISUPPORTS8
+NS_IMPL_ISUPPORTS8
 (
 nsNSSDialogs
 nsITokenPasswordDialogs

@@ -113,7 +113,7 @@ nsAString
 aAttribute
 )
 ;
-NS_DECL_ISUPPORTS
+NS_DECL_THREADSAFE_ISUPPORTS
 static
 nsresult
 Create
