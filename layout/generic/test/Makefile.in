@@ -482,6 +482,10 @@ test_bug402380
 .
 html
 \
+test_bug405178
+.
+html
+\
 test_character_movement
 .
 html

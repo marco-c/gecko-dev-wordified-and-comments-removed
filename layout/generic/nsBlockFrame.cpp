@@ -23758,6 +23758,8 @@ nsIFrame
 aFrame
 PRBool
 aDestroyFrames
+PRBool
+aRemoveOnlyFluidContinuations
 )
 {
 if
@@ -23839,6 +23841,7 @@ DoRemoveFrame
 (
 aFrame
 aDestroyFrames
+aRemoveOnlyFluidContinuations
 )
 ;
 }
@@ -24106,6 +24109,7 @@ RemoveBlockChild
 (
 nif
 aDestroyFrames
+aRemoveOnlyFluidContinuations
 )
 ;
 }
@@ -24907,6 +24911,7 @@ RemoveBlockChild
 (
 deletedNextContinuation
 aDestroyFrames
+aRemoveOnlyFluidContinuations
 )
 ;
 }
@@ -25088,6 +25093,7 @@ RemoveBlockChild
 (
 aDeletedFrame
 aDestroyFrames
+aRemoveOnlyFluidContinuations
 )
 ;
 }
