@@ -642,6 +642,11 @@ event
 #
 ifdef
 XP_MACOSX
+inwindowmenu
+=
+"
+false
+"
 buttons
 =
 "

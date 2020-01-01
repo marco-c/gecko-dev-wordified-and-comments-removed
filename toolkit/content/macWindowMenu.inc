@@ -165,7 +165,7 @@ WindowMediatorRoot
 onpopupshowing
 =
 "
-checkFocusedWindow
+macWindowMenuDidShow
 (
 )
 ;
