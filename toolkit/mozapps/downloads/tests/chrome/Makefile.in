@@ -524,10 +524,6 @@ test_space_key_pauses_resumes
 .
 xul
 \
-test_privatebrowsing_title
-.
-xul
-\
 test_ui_stays_open_on_alert_clickback
 .
 xul
