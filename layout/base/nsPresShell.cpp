@@ -17139,9 +17139,9 @@ GetScrollPosition
 rect
 +
 =
-newPosition
--
 oldPosition
+-
+newPosition
 ;
 if
 (
