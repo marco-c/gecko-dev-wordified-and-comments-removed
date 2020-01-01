@@ -505,10 +505,6 @@ OS_ARCH
 )
 )
 )
-REQUIRES
-+
-=
-libreg
 DEFINES
 +
 =
@@ -660,8 +656,6 @@ xpcom_core
 ucvutil_s
 \
 chromium_s
-\
-mozreg_s
 \
 (
 NULL
