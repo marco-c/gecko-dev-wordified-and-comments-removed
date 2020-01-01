@@ -291,12 +291,11 @@ nullptr
 )
 ;
 }
-NS_IMPL_ISUPPORTS4
+NS_IMPL_ISUPPORTS3
 (
 nsSHEntry
 nsISHContainer
 nsISHEntry
-nsIHistoryEntry
 nsISHEntryInternal
 )
 NS_IMETHODIMP
