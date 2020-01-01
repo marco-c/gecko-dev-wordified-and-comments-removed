@@ -6,6 +6,8 @@ from
 devicemanagerSUT
 import
 DeviceManagerSUT
+import
+StringIO
 class
 DroidMixin
 (
@@ -159,7 +161,7 @@ args
 .
 join
 (
-args
+extra_args
 )
 ]
 )
@@ -235,13 +237,13 @@ d
 join
 (
 [
-'
 "
 '
+"
 url
-'
 "
 '
+"
 ]
 )
 ]
