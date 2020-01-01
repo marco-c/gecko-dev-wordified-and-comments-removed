@@ -1701,8 +1701,6 @@ returns
 uint64_t
 id
 bool
-startBackground
-bool
 isForApp
 bool
 isForBrowser

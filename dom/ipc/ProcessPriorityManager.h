@@ -23,6 +23,11 @@ CurrentProcessIsForeground
 (
 )
 ;
+void
+TemporarilySetProcessPriorityToForeground
+(
+)
+;
 }
 }
 }

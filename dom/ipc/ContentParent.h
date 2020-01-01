@@ -749,9 +749,6 @@ uint64_t
 aId
 bool
 *
-aStartBackground
-bool
-*
 aIsForApp
 bool
 *
