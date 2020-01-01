@@ -668,6 +668,7 @@ withDir
 (
 fd
 f
+ignoreAbsent
 )
 {
 let
@@ -688,6 +689,12 @@ file
 null
 )
 {
+if
+(
+!
+ignoreAbsent
+)
+{
 throw
 new
 Error
@@ -699,6 +706,9 @@ find
 Directory
 "
 )
+;
+}
+return
 ;
 }
 if
@@ -1627,6 +1637,7 @@ x
 ;
 }
 }
+false
 )
 ;
 }
@@ -1694,6 +1705,7 @@ toMsg
 )
 ;
 }
+false
 )
 ;
 }
@@ -1728,6 +1740,7 @@ dir
 )
 ;
 }
+true
 )
 ;
 }
