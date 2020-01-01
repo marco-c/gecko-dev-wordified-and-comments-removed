@@ -12,7 +12,7 @@ SECStatus
 LGEncryptFunc
 )
 (
-PRArenaPool
+PLArenaPool
 *
 arena
 SDB

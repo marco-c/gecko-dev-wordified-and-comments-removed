@@ -79,7 +79,7 @@ extern
 SECStatus
 cmmf_CopyCertResponse
 (
-PRArenaPool
+PLArenaPool
 *
 poolp
 CMMFCertResponse
@@ -94,7 +94,7 @@ extern
 SECStatus
 cmmf_CopyPKIStatusInfo
 (
-PRArenaPool
+PLArenaPool
 *
 poolp
 CMMFPKIStatusInfo
@@ -109,7 +109,7 @@ extern
 SECStatus
 cmmf_CopyCertifiedKeyPair
 (
-PRArenaPool
+PLArenaPool
 *
 poolp
 CMMFCertifiedKeyPair
@@ -149,7 +149,7 @@ cmmf_PKIStatusInfoSetStatus
 CMMFPKIStatusInfo
 *
 statusInfo
-PRArenaPool
+PLArenaPool
 *
 poolp
 CMMFPKIStatus
@@ -163,7 +163,7 @@ cmmf_ExtractCertsFromList
 CERTCertList
 *
 inCertList
-PRArenaPool
+PLArenaPool
 *
 poolp
 CERTCertificate
@@ -180,7 +180,7 @@ cmmf_CertOrEncCertSetCertificate
 CMMFCertOrEncCert
 *
 certOrEncCert
-PRArenaPool
+PLArenaPool
 *
 poolp
 CERTCertificate
@@ -225,7 +225,7 @@ extern
 SECStatus
 cmmf_decode_process_cert_response
 (
-PRArenaPool
+PLArenaPool
 *
 poolp
 CERTCertDBHandle
@@ -240,7 +240,7 @@ extern
 SECStatus
 cmmf_decode_process_certified_key_pair
 (
-PRArenaPool
+PLArenaPool
 *
 poolp
 CERTCertDBHandle
@@ -273,7 +273,7 @@ extern
 SECStatus
 cmmf_copy_secitem
 (
-PRArenaPool
+PLArenaPool
 *
 poolp
 SECItem

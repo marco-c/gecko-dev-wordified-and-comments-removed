@@ -807,7 +807,7 @@ CERT_SequenceOfCertExtensionTemplate
 SECStatus
 CERT_KeyFromIssuerAndSN
 (
-PRArenaPool
+PLArenaPool
 *
 arena
 SECItem
@@ -962,7 +962,7 @@ derName
 int
 rv
 ;
-PRArenaPool
+PLArenaPool
 *
 arena
 ;
@@ -1147,7 +1147,7 @@ derName
 int
 rv
 ;
-PRArenaPool
+PLArenaPool
 *
 arena
 ;
@@ -1332,7 +1332,7 @@ derName
 int
 rv
 ;
-PRArenaPool
+PLArenaPool
 *
 arena
 ;
@@ -1506,7 +1506,7 @@ SECFailure
 SECStatus
 CERT_KeyFromDERCert
 (
-PRArenaPool
+PLArenaPool
 *
 reqArena
 SECItem
@@ -2960,7 +2960,7 @@ CERTCertificate
 *
 cert
 ;
-PRArenaPool
+PLArenaPool
 *
 arena
 ;
@@ -3491,9 +3491,9 @@ CERTValidity
 *
 CERT_CreateValidity
 (
-int64
+PRTime
 notBefore
-int64
+PRTime
 notAfter
 )
 {
@@ -3504,7 +3504,7 @@ v
 int
 rv
 ;
-PRArenaPool
+PLArenaPool
 *
 arena
 ;
@@ -3628,7 +3628,7 @@ return
 SECStatus
 CERT_CopyValidity
 (
-PRArenaPool
+PLArenaPool
 *
 arena
 CERTValidity
@@ -5359,7 +5359,7 @@ char
 hn
 )
 {
-PRArenaPool
+PLArenaPool
 *
 arena
 =
@@ -6066,7 +6066,7 @@ const
 CERTCertificate
 *
 cert
-PRArenaPool
+PLArenaPool
 *
 arena
 )
@@ -6648,7 +6648,7 @@ CERTCertNicknames
 *
 nickNames
 ;
-PRArenaPool
+PLArenaPool
 *
 arena
 ;
@@ -7592,7 +7592,7 @@ CERTIssuerAndSN
 *
 CERT_GetCertIssuerAndSN
 (
-PRArenaPool
+PLArenaPool
 *
 arena
 CERTCertificate
@@ -10123,7 +10123,7 @@ CERT_NewCertList
 void
 )
 {
-PRArenaPool
+PLArenaPool
 *
 arena
 =

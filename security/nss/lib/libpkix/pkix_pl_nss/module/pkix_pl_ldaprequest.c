@@ -1773,7 +1773,7 @@ PKIX_Error
 *
 pkix_pl_LdapRequest_Create
 (
-PRArenaPool
+PLArenaPool
 *
 arena
 PKIX_UInt32

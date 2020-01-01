@@ -178,7 +178,7 @@ static
 SECStatus
 pk11_copyAttributes
 (
-PRArenaPool
+PLArenaPool
 *
 arena
 PK11SlotInfo
@@ -265,7 +265,7 @@ static
 SECStatus
 pk11_matchAcrossTokens
 (
-PRArenaPool
+PLArenaPool
 *
 arena
 PK11SlotInfo
@@ -713,7 +713,7 @@ pwitem
 SECItem
 publicValue
 ;
-PRArenaPool
+PLArenaPool
 *
 arena
 =
@@ -1181,7 +1181,7 @@ static
 SECStatus
 pk11_incrementID
 (
-PRArenaPool
+PLArenaPool
 *
 arena
 CK_ATTRIBUTE
@@ -1579,7 +1579,7 @@ targetKeyID
 CK_FLAGS
 flags
 ;
-PRArenaPool
+PLArenaPool
 *
 arena
 =
@@ -2233,7 +2233,7 @@ NULL
 CK_OBJECT_HANDLE
 targetKeyID
 ;
-PRArenaPool
+PLArenaPool
 *
 arena
 =
@@ -2811,7 +2811,7 @@ rv
 =
 SECSuccess
 ;
-PRArenaPool
+PLArenaPool
 *
 arena
 =
@@ -3288,7 +3288,7 @@ sourcePwArg
 CK_OBJECT_HANDLE
 targetCrlID
 ;
-PRArenaPool
+PLArenaPool
 *
 arena
 =
@@ -3522,7 +3522,7 @@ sourcePwArg
 CK_OBJECT_HANDLE
 targetSmimeID
 ;
-PRArenaPool
+PLArenaPool
 *
 arena
 =
@@ -3915,7 +3915,7 @@ sourcePwArg
 CK_OBJECT_HANDLE
 targetTrustID
 ;
-PRArenaPool
+PLArenaPool
 *
 arena
 =
@@ -4587,7 +4587,7 @@ PK11MergeLogNode
 *
 pk11_newMergeLogNode
 (
-PRArenaPool
+PLArenaPool
 *
 arena
 PK11SlotInfo
@@ -5148,7 +5148,7 @@ PK11_CreateMergeLog
 void
 )
 {
-PRArenaPool
+PLArenaPool
 *
 arena
 ;

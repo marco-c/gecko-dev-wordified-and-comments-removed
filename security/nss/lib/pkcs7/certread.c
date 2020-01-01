@@ -480,7 +480,7 @@ certs
 int
 count
 ;
-PRArenaPool
+PLArenaPool
 *
 arena
 ;
@@ -692,7 +692,7 @@ rawCerts
 =
 NULL
 ;
-PRArenaPool
+PLArenaPool
 *
 arena
 ;
@@ -1991,7 +1991,7 @@ rv
 typedef
 struct
 {
-PRArenaPool
+PLArenaPool
 *
 arena
 ;

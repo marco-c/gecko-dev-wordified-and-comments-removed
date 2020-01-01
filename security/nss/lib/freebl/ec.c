@@ -1309,7 +1309,7 @@ SECFailure
 #
 ifdef
 NSS_ENABLE_ECC
-PRArenaPool
+PLArenaPool
 *
 arena
 ;

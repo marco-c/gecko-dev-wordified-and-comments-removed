@@ -2153,7 +2153,7 @@ static
 CK_RV
 sftkdb_CreateObject
 (
-PRArenaPool
+PLArenaPool
 *
 arena
 SFTKDBHandle
@@ -4066,7 +4066,7 @@ static
 CK_RV
 sftkdb_resolveConflicts
 (
-PRArenaPool
+PLArenaPool
 *
 arena
 CK_OBJECT_CLASS
@@ -4485,7 +4485,7 @@ static
 CK_RV
 sftkdb_setAttributeValue
 (
-PRArenaPool
+PLArenaPool
 *
 arena
 SFTKDBHandle
@@ -7168,7 +7168,7 @@ static
 CK_RV
 sftkdb_incrementCKAID
 (
-PRArenaPool
+PLArenaPool
 *
 arena
 CK_ATTRIBUTE
@@ -7451,7 +7451,7 @@ sftkdbUpdateStatus
 sftkdbUpdateStatus
 sftkdb_reconcileTrustEntry
 (
-PRArenaPool
+PLArenaPool
 *
 arena
 CK_ATTRIBUTE
@@ -7642,7 +7642,7 @@ static
 sftkdbUpdateStatus
 sftkdb_reconcileTrust
 (
-PRArenaPool
+PLArenaPool
 *
 arena
 SDB
@@ -8067,7 +8067,7 @@ static
 sftkdbUpdateStatus
 sftkdb_handleIDAndName
 (
-PRArenaPool
+PLArenaPool
 *
 arena
 SDB
@@ -8428,7 +8428,7 @@ static
 PRBool
 sftkdb_updateObjectTemplate
 (
-PRArenaPool
+PLArenaPool
 *
 arena
 SDB

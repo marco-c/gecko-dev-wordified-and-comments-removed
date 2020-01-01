@@ -28,7 +28,7 @@ extern
 SECStatus
 CERT_EncodePrivateKeyUsagePeriod
 (
-PRArenaPool
+PLArenaPool
 *
 arena
 CERTPrivKeyUsagePeriod
@@ -43,7 +43,7 @@ extern
 SECStatus
 CERT_EncodeNameConstraintsExtension
 (
-PRArenaPool
+PLArenaPool
 *
 arena
 CERTNameConstraints
@@ -58,7 +58,7 @@ extern
 SECStatus
 CERT_EncodeIA5TypeExtension
 (
-PRArenaPool
+PLArenaPool
 *
 arena
 char
@@ -72,7 +72,7 @@ encodedValue
 SECStatus
 cert_EncodeAuthInfoAccessExtension
 (
-PRArenaPool
+PLArenaPool
 *
 arena
 CERTAuthInfoAccess

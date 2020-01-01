@@ -117,7 +117,7 @@ CRMFProofOfPossession
 *
 pop
 ;
-PRArenaPool
+PLArenaPool
 *
 poolp
 ;
@@ -306,7 +306,7 @@ SECAlgorithmID
 *
 crmf_create_poposignkey_algid
 (
-PRArenaPool
+PLArenaPool
 *
 poolp
 SECKEYPublicKey
@@ -422,7 +422,7 @@ CRMFPOPOSigningKeyInput
 *
 crmf_create_poposigningkeyinput
 (
-PRArenaPool
+PLArenaPool
 *
 poolp
 CERTCertificate
@@ -652,7 +652,7 @@ static
 SECStatus
 crmf_sign_certreq
 (
-PRArenaPool
+PLArenaPool
 *
 poolp
 CRMFPOPOSigningKey
@@ -817,7 +817,7 @@ static
 SECStatus
 crmf_create_poposignkey
 (
-PRArenaPool
+PLArenaPool
 *
 poolp
 CRMFCertReqMsg
@@ -994,7 +994,7 @@ SECAlgorithmID
 *
 algID
 ;
-PRArenaPool
+PLArenaPool
 *
 poolp
 ;
@@ -1413,7 +1413,7 @@ static
 SECStatus
 crmf_encode_popoprivkey
 (
-PRArenaPool
+PLArenaPool
 *
 poolp
 CRMFCertReqMsg
@@ -1744,7 +1744,7 @@ CRMFPOPChoice
 inChoice
 )
 {
-PRArenaPool
+PLArenaPool
 *
 poolp
 ;
@@ -1944,7 +1944,7 @@ CRMFPOPChoice
 inChoice
 )
 {
-PRArenaPool
+PLArenaPool
 *
 poolp
 ;
@@ -2147,7 +2147,7 @@ void
 *
 mark
 ;
-PRArenaPool
+PLArenaPool
 *
 poolp
 ;

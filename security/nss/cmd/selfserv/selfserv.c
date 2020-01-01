@@ -5500,7 +5500,7 @@ SECItemArray
 *
 makeTryLaterOCSPResponse
 (
-PRArenaPool
+PLArenaPool
 *
 arena
 )
@@ -5600,7 +5600,7 @@ SECItemArray
 *
 makeCorruptedOCSPResponse
 (
-PRArenaPool
+PLArenaPool
 *
 arena
 )
@@ -5701,7 +5701,7 @@ SECItemArray
 *
 makeSignedOCSPResponse
 (
-PRArenaPool
+PLArenaPool
 *
 arena
 ocspStaplingModeType
@@ -6183,7 +6183,7 @@ aboveLayer
 =
 PR_INVALID_IO_LAYER
 ;
-PRArenaPool
+PLArenaPool
 *
 arena
 =

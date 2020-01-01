@@ -989,7 +989,7 @@ SECItem
 *
 SECITEM_AllocItem_Util
 (
-PRArenaPool
+PLArenaPool
 *
 arena
 SECItem
@@ -1022,7 +1022,7 @@ STUB_DECLARE
 SECStatus
 SECITEM_CopyItem_Util
 (
-PRArenaPool
+PLArenaPool
 *
 arena
 SECItem
@@ -2166,7 +2166,7 @@ SECItem
 *
 SECITEM_AllocItem_stub
 (
-PRArenaPool
+PLArenaPool
 *
 arena
 SECItem
@@ -2226,7 +2226,7 @@ extern
 SECStatus
 SECITEM_CopyItem_stub
 (
-PRArenaPool
+PLArenaPool
 *
 arena
 SECItem

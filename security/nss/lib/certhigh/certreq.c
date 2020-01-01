@@ -197,7 +197,7 @@ c
 int
 rv
 ;
-PRArenaPool
+PLArenaPool
 *
 arena
 ;
@@ -427,7 +427,7 @@ CERTCertificateRequest
 *
 certreq
 ;
-PRArenaPool
+PLArenaPool
 *
 arena
 ;
@@ -870,7 +870,7 @@ cert_StartExtensions
 void
 *
 owner
-PRArenaPool
+PLArenaPool
 *
 ownerArena
 void

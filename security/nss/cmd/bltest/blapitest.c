@@ -145,7 +145,7 @@ ecparams
 SECStatus
 EC_CopyParams
 (
-PRArenaPool
+PLArenaPool
 *
 arena
 ECParams
@@ -2312,7 +2312,7 @@ SECItem
 *
 item
 ;
-PRArenaPool
+PLArenaPool
 *
 arena
 ;
@@ -2462,7 +2462,7 @@ ascii
 SECItem
 *
 binary
-PRArenaPool
+PLArenaPool
 *
 arena
 )
@@ -3200,7 +3200,7 @@ n
 void
 key_from_filedata
 (
-PRArenaPool
+PLArenaPool
 *
 arena
 SECItem
@@ -3410,7 +3410,7 @@ RSAPrivateKey
 *
 key
 ;
-PRArenaPool
+PLArenaPool
 *
 arena
 ;
@@ -3474,7 +3474,7 @@ PQGParams
 *
 pqg
 ;
-PRArenaPool
+PLArenaPool
 *
 arena
 ;
@@ -3538,7 +3538,7 @@ DSAPrivateKey
 *
 key
 ;
-PRArenaPool
+PLArenaPool
 *
 arena
 ;
@@ -3609,7 +3609,7 @@ ECPrivateKey
 *
 key
 ;
-PRArenaPool
+PLArenaPool
 *
 arena
 ;
@@ -4890,7 +4890,7 @@ unsigned
 char
 *
 src
-uint32
+PRUint32
 src_length
 )
 ;
@@ -5221,7 +5221,7 @@ bltestCipherInfo
 struct
 bltestCipherInfoStr
 {
-PRArenaPool
+PLArenaPool
 *
 arena
 ;
@@ -5560,7 +5560,7 @@ file
 SECStatus
 setupIO
 (
-PRArenaPool
+PLArenaPool
 *
 arena
 bltestIO
@@ -6397,7 +6397,7 @@ rv
 void
 bltestCopyIO
 (
-PRArenaPool
+PLArenaPool
 *
 arena
 bltestIO
@@ -6504,7 +6504,7 @@ file
 void
 misalignBuffer
 (
-PRArenaPool
+PLArenaPool
 *
 arena
 bltestIO
@@ -10916,7 +10916,7 @@ unsigned
 char
 *
 src
-uint32
+PRUint32
 src_length
 )
 {
@@ -10985,7 +10985,7 @@ unsigned
 char
 *
 src
-uint32
+PRUint32
 src_length
 )
 {
@@ -11214,7 +11214,7 @@ unsigned
 char
 *
 src
-uint32
+PRUint32
 src_length
 )
 {
@@ -11447,7 +11447,7 @@ unsigned
 char
 *
 src
-uint32
+PRUint32
 src_length
 )
 {
@@ -11680,7 +11680,7 @@ unsigned
 char
 *
 src
-uint32
+PRUint32
 src_length
 )
 {
@@ -11913,7 +11913,7 @@ unsigned
 char
 *
 src
-uint32
+PRUint32
 src_length
 )
 {
@@ -12146,7 +12146,7 @@ unsigned
 char
 *
 src
-uint32
+PRUint32
 src_length
 )
 {
@@ -12379,7 +12379,7 @@ unsigned
 char
 *
 src
-uint32
+PRUint32
 src_length
 )
 {
@@ -18558,7 +18558,7 @@ bltestINVALID
 void
 load_file_data
 (
-PRArenaPool
+PLArenaPool
 *
 arena
 bltestIO
@@ -18633,7 +18633,7 @@ NULL
 void
 get_params
 (
-PRArenaPool
+PLArenaPool
 *
 arena
 bltestParams
@@ -20004,7 +20004,7 @@ PRFileDesc
 *
 file
 ;
-PRArenaPool
+PLArenaPool
 *
 arena
 ;
@@ -21153,7 +21153,7 @@ filename
 bltestIO
 keydata
 ;
-PRArenaPool
+PLArenaPool
 *
 arena
 =
@@ -24624,7 +24624,7 @@ instr
 =
 NULL
 ;
-PRArenaPool
+PLArenaPool
 *
 arena
 ;

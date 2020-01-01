@@ -175,7 +175,7 @@ SECItem
 extnValue
 )
 {
-PRArenaPool
+PLArenaPool
 *
 arena
 =

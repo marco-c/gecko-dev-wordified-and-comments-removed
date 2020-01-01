@@ -52,7 +52,7 @@ long
 len
 )
 {
-PRArenaPool
+PLArenaPool
 *
 poolp
 ;
@@ -389,7 +389,7 @@ decryptedRand
 =
 NULL
 ;
-PRArenaPool
+PLArenaPool
 *
 poolp
 =
@@ -925,7 +925,7 @@ void
 inArg
 )
 {
-PRArenaPool
+PLArenaPool
 *
 poolp
 ;

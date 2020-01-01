@@ -316,7 +316,7 @@ nickname
 SECStatus
 nsslowcert_KeyFromDERCert
 (
-PRArenaPool
+PLArenaPool
 *
 arena
 SECItem

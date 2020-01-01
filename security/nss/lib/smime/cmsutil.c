@@ -78,7 +78,7 @@ void
 objs2
 )
 {
-PRArenaPool
+PLArenaPool
 *
 poolp
 ;

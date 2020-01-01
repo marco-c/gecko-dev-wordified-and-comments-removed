@@ -12,7 +12,7 @@ CRMFCertReqMsg
 *
 messages
 ;
-PRArenaPool
+PLArenaPool
 *
 poolp
 ;
@@ -228,7 +228,7 @@ CRMFControl
 *
 controls
 ;
-PRArenaPool
+PLArenaPool
 *
 poolp
 ;
@@ -267,7 +267,7 @@ regInfo
 SECItem
 derPOP
 ;
-PRArenaPool
+PLArenaPool
 *
 poolp
 ;

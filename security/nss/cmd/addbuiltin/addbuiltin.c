@@ -341,7 +341,7 @@ nickname
 int
 rv
 ;
-PRArenaPool
+PLArenaPool
 *
 arena
 =

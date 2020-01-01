@@ -84,7 +84,7 @@ SECItem
 *
 hexString2SECItem
 (
-PRArenaPool
+PLArenaPool
 *
 arena
 SECItem
@@ -395,7 +395,7 @@ item
 SECStatus
 EC_CopyParams
 (
-PRArenaPool
+PLArenaPool
 *
 arena
 ECParams
@@ -1041,7 +1041,7 @@ rv
 SECStatus
 EC_FillParams
 (
-PRArenaPool
+PLArenaPool
 *
 arena
 const
@@ -2213,7 +2213,7 @@ ECParams
 ecparams
 )
 {
-PRArenaPool
+PLArenaPool
 *
 arena
 ;

@@ -146,7 +146,7 @@ SEC_PKCS5PBEParameter
 struct
 SEC_PKCS5PBEParameterStr
 {
-PRArenaPool
+PLArenaPool
 *
 poolp
 ;
@@ -171,7 +171,7 @@ prfAlgId
 struct
 sec_pkcs5V2ParameterStr
 {
-PRArenaPool
+PLArenaPool
 *
 poolp
 ;
@@ -469,7 +469,7 @@ sec_pkcs5V2Parameter
 *
 sec_pkcs5_v2_get_v2_param
 (
-PRArenaPool
+PLArenaPool
 *
 arena
 SECAlgorithmID
@@ -477,7 +477,7 @@ SECAlgorithmID
 algid
 )
 {
-PRArenaPool
+PLArenaPool
 *
 localArena
 =
@@ -968,7 +968,7 @@ algid
 SECOidTag
 algorithm
 ;
-PRArenaPool
+PLArenaPool
 *
 arena
 =
@@ -1389,7 +1389,7 @@ SECOidTag
 prfAlg
 )
 {
-PRArenaPool
+PLArenaPool
 *
 poolp
 =
@@ -1734,7 +1734,7 @@ int
 iteration
 )
 {
-PRArenaPool
+PLArenaPool
 *
 poolp
 =
@@ -2371,7 +2371,7 @@ SECOID_GetAlgorithmTag
 algid
 )
 ;
-PRArenaPool
+PLArenaPool
 *
 arena
 =
@@ -2968,7 +2968,7 @@ algTag
 SECItem
 *
 param
-PRArenaPool
+PLArenaPool
 *
 arena
 SECAlgorithmID

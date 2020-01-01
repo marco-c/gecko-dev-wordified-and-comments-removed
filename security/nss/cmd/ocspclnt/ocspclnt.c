@@ -1430,7 +1430,7 @@ request
 =
 NULL
 ;
-int64
+PRTime
 now
 =
 PR_Now
@@ -1701,7 +1701,7 @@ loc
 =
 NULL
 ;
-int64
+PRTime
 now
 =
 PR_Now
@@ -1967,7 +1967,7 @@ const
 char
 *
 cert_name
-int64
+PRTime
 verify_time
 )
 {
@@ -2134,7 +2134,7 @@ char
 cert_name
 SECCertUsage
 cert_usage
-int64
+PRTime
 verify_time
 )
 {
@@ -4743,7 +4743,7 @@ NULL
 SECCertUsage
 cert_usage
 ;
-int64
+PRTime
 verify_time
 ;
 CERTCertificate

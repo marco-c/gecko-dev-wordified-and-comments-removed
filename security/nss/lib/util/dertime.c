@@ -234,13 +234,13 @@ LL_INIT
 SECStatus
 DER_TimeToUTCTimeArena
 (
-PRArenaPool
+PLArenaPool
 *
 arenaOpt
 SECItem
 *
 dst
-int64
+PRTime
 gmttime
 )
 {
@@ -536,7 +536,7 @@ DER_TimeToUTCTime
 SECItem
 *
 dst
-int64
+PRTime
 gmttime
 )
 {
@@ -596,7 +596,7 @@ UTCTime
 SECStatus
 DER_AsciiToTime
 (
-int64
+PRTime
 *
 dst
 const
@@ -618,7 +618,7 @@ NULL
 SECStatus
 DER_UTCTimeToTime
 (
-int64
+PRTime
 *
 dst
 const
@@ -798,13 +798,13 @@ rv
 SECStatus
 DER_TimeToGeneralizedTimeArena
 (
-PRArenaPool
+PLArenaPool
 *
 arenaOpt
 SECItem
 *
 dst
-int64
+PRTime
 gmttime
 )
 {
@@ -1145,7 +1145,7 @@ DER_TimeToGeneralizedTime
 SECItem
 *
 dst
-int64
+PRTime
 gmttime
 )
 {
@@ -1161,7 +1161,7 @@ gmttime
 SECStatus
 DER_GeneralizedTimeToTime
 (
-int64
+PRTime
 *
 dst
 const
@@ -1369,7 +1369,7 @@ minOff
 =
 0
 ;
-uint16
+PRUint16
 century
 ;
 char

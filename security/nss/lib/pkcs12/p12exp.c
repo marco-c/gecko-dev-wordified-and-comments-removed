@@ -865,7 +865,7 @@ SEC_PKCS12CertAndCRL
 *
 sec_pkcs12_get_cert
 (
-PRArenaPool
+PLArenaPool
 *
 poolp
 CERTCertificate
@@ -1140,7 +1140,7 @@ SEC_PKCS12PrivateKey
 *
 sec_pkcs12_get_private_key
 (
-PRArenaPool
+PLArenaPool
 *
 poolp
 SECItem
@@ -1377,7 +1377,7 @@ SEC_PKCS12ESPVKItem
 *
 sec_pkcs12_get_shrouded_key
 (
-PRArenaPool
+PLArenaPool
 *
 poolp
 SECItem
@@ -2706,7 +2706,7 @@ static
 SECStatus
 sec_pkcs12_append_cert_to_bag
 (
-PRArenaPool
+PLArenaPool
 *
 arena
 SEC_PKCS12SafeBag
@@ -3472,7 +3472,7 @@ void
 wincx
 )
 {
-PRArenaPool
+PLArenaPool
 *
 permArena
 ;
@@ -4223,7 +4223,7 @@ dummy
 =
 NULL
 ;
-PRArenaPool
+PLArenaPool
 *
 arena
 ;
@@ -4376,7 +4376,7 @@ psalt
 =
 NULL
 ;
-PRArenaPool
+PLArenaPool
 *
 poolp
 ;

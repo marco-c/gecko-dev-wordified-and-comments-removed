@@ -214,7 +214,7 @@ wincx
 int
 i
 ;
-PRArenaPool
+PLArenaPool
 *
 arena
 =
@@ -2620,7 +2620,7 @@ rawcerts
 *
 rawcertsp
 ;
-PRArenaPool
+PLArenaPool
 *
 poolp
 ;
@@ -4168,7 +4168,7 @@ SECItem
 *
 SEC_PKCS7EncodeItem
 (
-PRArenaPool
+PLArenaPool
 *
 pool
 SECItem

@@ -14,7 +14,7 @@ PKIX_Error
 *
 pkix_pl_LdapDefaultClient_MakeBind
 (
-PRArenaPool
+PLArenaPool
 *
 arena
 PKIX_Int32
@@ -375,7 +375,7 @@ PKIX_Error
 *
 pkix_pl_LdapDefaultClient_MakeUnbind
 (
-PRArenaPool
+PLArenaPool
 *
 arena
 PKIX_UInt32
@@ -557,7 +557,7 @@ PKIX_Error
 *
 pkix_pl_LdapDefaultClient_MakeAbandon
 (
-PRArenaPool
+PLArenaPool
 *
 arena
 PKIX_UInt32
@@ -747,7 +747,7 @@ PKIX_Error
 *
 pkix_pl_LdapDefaultClient_DecodeBindResponse
 (
-PRArenaPool
+PLArenaPool
 *
 arena
 SECItem
@@ -1521,7 +1521,7 @@ fileDesc
 =
 NULL
 ;
-PRArenaPool
+PLArenaPool
 *
 arena
 =
@@ -5297,7 +5297,7 @@ PKIX_Error
 *
 pkix_pl_LdapDefaultClient_MakeAndFilter
 (
-PRArenaPool
+PLArenaPool
 *
 arena
 LDAPNameComponent

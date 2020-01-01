@@ -51,7 +51,7 @@ NSSCMSAttribute
 *
 NSS_CMSAttribute_Create
 (
-PRArenaPool
+PLArenaPool
 *
 poolp
 SECOidTag
@@ -931,7 +931,7 @@ SECItem
 *
 NSS_CMSAttributeArray_Encode
 (
-PRArenaPool
+PLArenaPool
 *
 poolp
 NSSCMSAttribute

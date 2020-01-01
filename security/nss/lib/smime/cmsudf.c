@@ -115,7 +115,7 @@ PLHashTable
 nsscmstypeHash
 ;
 static
-PRArenaPool
+PLArenaPool
 *
 nsscmstypeArena
 ;

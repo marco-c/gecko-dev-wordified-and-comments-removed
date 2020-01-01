@@ -195,7 +195,7 @@ NULL
 CERTSignedData
 signedData
 ;
-PRArenaPool
+PLArenaPool
 *
 arena
 =
@@ -838,7 +838,7 @@ signAlgTag
 SECStatus
 rv
 ;
-PRArenaPool
+PLArenaPool
 *
 arena
 ;
@@ -3074,7 +3074,7 @@ cert
 =
 NULL
 ;
-int64
+PRTime
 timeBoundary
 ;
 SECCertificateUsage
@@ -13387,7 +13387,7 @@ NULL
 SECStatus
 rv
 ;
-PRArenaPool
+PLArenaPool
 *
 arena
 ;

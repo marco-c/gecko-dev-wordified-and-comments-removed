@@ -42,7 +42,7 @@ SECItem
 *
 ocsp_DigestValue
 (
-PRArenaPool
+PLArenaPool
 *
 arena
 SECOidTag
@@ -112,7 +112,7 @@ certID
 CERTCertificate
 *
 singleCert
-int64
+PRTime
 time
 PRBool
 addServiceLocator
@@ -127,7 +127,7 @@ ocsp_GetCachedOCSPResponseStatusIfFresh
 CERTOCSPCertID
 *
 certID
-int64
+PRTime
 time
 PRBool
 ignoreOcspFailureMode
@@ -154,7 +154,7 @@ certID
 CERTCertificate
 *
 signerCert
-int64
+PRTime
 time
 PRBool
 *

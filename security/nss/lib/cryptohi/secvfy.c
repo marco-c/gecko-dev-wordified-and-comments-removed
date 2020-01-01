@@ -675,7 +675,7 @@ hashalg
 int
 len
 ;
-PRArenaPool
+PLArenaPool
 *
 arena
 ;

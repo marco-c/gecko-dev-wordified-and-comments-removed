@@ -139,7 +139,7 @@ srclen
 union
 endianness
 {
-int32
+PRInt32
 i
 ;
 char
@@ -2635,7 +2635,7 @@ info
 =
 NULL
 ;
-int32
+PRInt32
 val
 ;
 get_system_info

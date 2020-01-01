@@ -88,7 +88,7 @@ CMMFCertResponse
 *
 response
 ;
-PRArenaPool
+PLArenaPool
 *
 poolp
 ;
@@ -144,7 +144,7 @@ CMMFChallenge
 *
 challenges
 ;
-PRArenaPool
+PLArenaPool
 *
 poolp
 ;
@@ -164,7 +164,7 @@ SECItem
 *
 responses
 ;
-PRArenaPool
+PLArenaPool
 *
 poolp
 ;
@@ -190,7 +190,7 @@ CMMFCertifiedKeyPair
 *
 keyPairHist
 ;
-PRArenaPool
+PLArenaPool
 *
 poolp
 ;

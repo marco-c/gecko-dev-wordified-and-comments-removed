@@ -296,7 +296,7 @@ siBuffer
 0
 }
 ;
-PRArenaPool
+PLArenaPool
 *
 arena
 =
@@ -761,7 +761,7 @@ siBuffer
 SECStatus
 rv
 ;
-PRArenaPool
+PLArenaPool
 *
 arena
 =
@@ -1179,7 +1179,7 @@ CERTAuthKeyID
 *
 CERT_FindAuthKeyIDExten
 (
-PRArenaPool
+PLArenaPool
 *
 arena
 CERTCertificate

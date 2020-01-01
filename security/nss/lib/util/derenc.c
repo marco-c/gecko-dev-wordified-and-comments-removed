@@ -1964,7 +1964,7 @@ buf
 SECStatus
 DER_Encode
 (
-PRArenaPool
+PLArenaPool
 *
 arena
 SECItem

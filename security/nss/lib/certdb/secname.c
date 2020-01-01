@@ -158,7 +158,7 @@ void
 *
 AddToArray
 (
-PRArenaPool
+PLArenaPool
 *
 arena
 void
@@ -364,7 +364,7 @@ static
 SECStatus
 SetupAVAType
 (
-PRArenaPool
+PLArenaPool
 *
 arena
 SECOidTag
@@ -515,7 +515,7 @@ static
 SECStatus
 SetupAVAValue
 (
-PRArenaPool
+PLArenaPool
 *
 arena
 int
@@ -753,7 +753,7 @@ CERTAVA
 *
 CERT_CreateAVAFromRaw
 (
-PRArenaPool
+PLArenaPool
 *
 pool
 const
@@ -835,7 +835,7 @@ CERTAVA
 *
 CERT_CreateAVAFromSECItem
 (
-PRArenaPool
+PLArenaPool
 *
 arena
 SECOidTag
@@ -934,7 +934,7 @@ CERTAVA
 *
 CERT_CreateAVA
 (
-PRArenaPool
+PLArenaPool
 *
 arena
 SECOidTag
@@ -989,7 +989,7 @@ CERTAVA
 *
 CERT_CopyAVA
 (
-PRArenaPool
+PLArenaPool
 *
 arena
 CERTAVA
@@ -1109,7 +1109,7 @@ CERTRDN
 *
 CERT_CreateRDN
 (
-PRArenaPool
+PLArenaPool
 *
 arena
 CERTAVA
@@ -1308,7 +1308,7 @@ rdn
 SECStatus
 CERT_AddAVA
 (
-PRArenaPool
+PLArenaPool
 *
 arena
 CERTRDN
@@ -1358,7 +1358,7 @@ SECFailure
 SECStatus
 CERT_CopyRDN
 (
-PRArenaPool
+PLArenaPool
 *
 arena
 CERTRDN
@@ -1536,7 +1536,7 @@ CERTRDN
 *
 rdnp
 ;
-PRArenaPool
+PLArenaPool
 *
 arena
 ;
@@ -1767,7 +1767,7 @@ if
 name
 )
 {
-PRArenaPool
+PLArenaPool
 *
 arena
 =
@@ -1855,7 +1855,7 @@ SECFailure
 SECStatus
 CERT_CopyName
 (
-PRArenaPool
+PLArenaPool
 *
 arena
 CERTName

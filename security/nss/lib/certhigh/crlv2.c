@@ -234,7 +234,7 @@ SetCrlEntryExts
 SECStatus
 CERT_FindCRLNumberExten
 (
-PRArenaPool
+PLArenaPool
 *
 arena
 CERTCrl
@@ -409,7 +409,7 @@ siBuffer
 SECStatus
 rv
 ;
-PRArenaPool
+PLArenaPool
 *
 arena
 =
@@ -539,7 +539,7 @@ CERT_FindInvalidDateExten
 CERTCrl
 *
 crl
-int64
+PRTime
 *
 value
 )

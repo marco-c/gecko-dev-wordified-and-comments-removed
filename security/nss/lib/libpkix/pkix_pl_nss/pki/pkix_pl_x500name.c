@@ -677,7 +677,7 @@ x500Name
 =
 NULL
 ;
-PRArenaPool
+PLArenaPool
 *
 arena
 =
@@ -927,7 +927,7 @@ void
 plContext
 )
 {
-PRArenaPool
+PLArenaPool
 *
 arena
 =
@@ -1431,7 +1431,7 @@ pkix_pl_X500Name_GetDERName
 PKIX_PL_X500Name
 *
 xname
-PRArenaPool
+PLArenaPool
 *
 arena
 SECItem

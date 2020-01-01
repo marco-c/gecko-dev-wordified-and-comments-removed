@@ -160,7 +160,7 @@ static
 SECStatus
 crmf_copy_cert_request_validity
 (
-PRArenaPool
+PLArenaPool
 *
 poolp
 CRMFOptionalValidity
@@ -336,7 +336,7 @@ static
 SECStatus
 crmf_copy_extensions
 (
-PRArenaPool
+PLArenaPool
 *
 poolp
 CRMFCertTemplate
@@ -568,7 +568,7 @@ static
 SECStatus
 crmf_copy_cert_request_template
 (
-PRArenaPool
+PLArenaPool
 *
 poolp
 CRMFCertTemplate
@@ -1004,7 +1004,7 @@ CRMFControl
 *
 crmf_copy_control
 (
-PRArenaPool
+PLArenaPool
 *
 poolp
 CRMFControl
@@ -1205,7 +1205,7 @@ static
 SECStatus
 crmf_copy_cert_request_controls
 (
-PRArenaPool
+PLArenaPool
 *
 poolp
 CRMFCertRequest
@@ -1393,7 +1393,7 @@ CRMFCertRequest
 *
 crmf_copy_cert_request
 (
-PRArenaPool
+PLArenaPool
 *
 poolp
 CRMFCertRequest
@@ -1647,7 +1647,7 @@ SECSuccess
 SECStatus
 crmf_make_bitstring_copy
 (
-PRArenaPool
+PLArenaPool
 *
 arena
 SECItem

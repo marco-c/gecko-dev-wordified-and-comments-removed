@@ -224,7 +224,7 @@ der
 SECStatus
 rv
 ;
-int16
+PRInt16
 xp_error
 ;
 PRBool

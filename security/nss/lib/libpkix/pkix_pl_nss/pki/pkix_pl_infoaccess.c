@@ -1343,7 +1343,7 @@ PKIX_Error
 *
 pkix_pl_InfoAccess_ParseTokens
 (
-PRArenaPool
+PLArenaPool
 *
 arena
 char
@@ -1889,7 +1889,7 @@ pkix_pl_InfoAccess_ParseLocation
 PKIX_PL_GeneralName
 *
 generalName
-PRArenaPool
+PLArenaPool
 *
 arena
 LDAPRequestParams

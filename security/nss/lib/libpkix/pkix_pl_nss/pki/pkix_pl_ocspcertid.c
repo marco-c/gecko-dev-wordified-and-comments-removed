@@ -205,7 +205,7 @@ cid
 =
 NULL
 ;
-int64
+PRTime
 time
 =
 0
@@ -350,7 +350,7 @@ void
 plContext
 )
 {
-int64
+PRTime
 time
 =
 0

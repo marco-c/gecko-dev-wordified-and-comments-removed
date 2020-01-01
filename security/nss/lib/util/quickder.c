@@ -1179,7 +1179,7 @@ templateEntry
 SECItem
 *
 src
-PRArenaPool
+PLArenaPool
 *
 arena
 PRBool
@@ -1200,7 +1200,7 @@ templateEntry
 SECItem
 *
 src
-PRArenaPool
+PLArenaPool
 *
 arena
 )
@@ -1416,7 +1416,7 @@ templateEntry
 SECItem
 *
 src
-PRArenaPool
+PLArenaPool
 *
 arena
 PRBool
@@ -1475,7 +1475,7 @@ templateEntry
 SECItem
 *
 src
-PRArenaPool
+PLArenaPool
 *
 arena
 PRBool
@@ -1570,7 +1570,7 @@ templateEntry
 SECItem
 *
 src
-PRArenaPool
+PLArenaPool
 *
 arena
 )
@@ -1644,7 +1644,7 @@ templateEntry
 SECItem
 *
 src
-PRArenaPool
+PLArenaPool
 *
 arena
 )
@@ -1830,7 +1830,7 @@ templateEntry
 SECItem
 *
 src
-PRArenaPool
+PLArenaPool
 *
 arena
 )
@@ -2217,7 +2217,7 @@ templateEntry
 SECItem
 *
 src
-PRArenaPool
+PLArenaPool
 *
 arena
 )
@@ -2312,7 +2312,7 @@ templateEntry
 SECItem
 *
 src
-PRArenaPool
+PLArenaPool
 *
 arena
 PRBool
@@ -3247,7 +3247,7 @@ rv
 SECStatus
 SEC_QuickDERDecodeItem
 (
-PRArenaPool
+PLArenaPool
 *
 arena
 void

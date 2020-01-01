@@ -602,7 +602,7 @@ SECItem
 *
 derPOP
 ;
-PRArenaPool
+PLArenaPool
 *
 poolp
 ;
@@ -813,7 +813,7 @@ static
 SECStatus
 crmf_decode_process_single_control
 (
-PRArenaPool
+PLArenaPool
 *
 poolp
 CRMFControl
@@ -932,7 +932,7 @@ numControls
 SECStatus
 rv
 ;
-PRArenaPool
+PLArenaPool
 *
 poolp
 ;
@@ -1108,7 +1108,7 @@ long
 len
 )
 {
-PRArenaPool
+PLArenaPool
 *
 poolp
 ;
@@ -1252,7 +1252,7 @@ i
 SECStatus
 rv
 ;
-PRArenaPool
+PLArenaPool
 *
 poolp
 ;

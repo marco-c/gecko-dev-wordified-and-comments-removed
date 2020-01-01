@@ -203,13 +203,13 @@ vTemplate
 ]
 )
 ;
-PRArenaPool
+PLArenaPool
 *
 parena
 =
 NULL
 ;
-PRArenaPool
+PLArenaPool
 *
 varena
 =
@@ -1738,7 +1738,7 @@ SECItem
 base
 )
 {
-PRArenaPool
+PLArenaPool
 *
 arena
 ;
@@ -1985,7 +1985,7 @@ SECItem
 h
 )
 {
-PRArenaPool
+PLArenaPool
 *
 arena
 ;

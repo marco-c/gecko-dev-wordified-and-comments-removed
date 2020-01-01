@@ -1873,7 +1873,7 @@ char
 *
 NSSBase64_EncodeItem
 (
-PRArenaPool
+PLArenaPool
 *
 arenaOpt
 char

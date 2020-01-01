@@ -1194,7 +1194,7 @@ CERTCertificate
 rcerts
 )
 {
-PRArenaPool
+PLArenaPool
 *
 poolp
 ;

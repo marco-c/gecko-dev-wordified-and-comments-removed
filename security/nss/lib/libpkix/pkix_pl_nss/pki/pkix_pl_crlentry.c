@@ -494,7 +494,7 @@ extension
 =
 NULL
 ;
-PRArenaPool
+PLArenaPool
 *
 arena
 =
@@ -1017,7 +1017,7 @@ secondExtension
 =
 NULL
 ;
-PRArenaPool
+PLArenaPool
 *
 arena
 =

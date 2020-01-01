@@ -2995,7 +2995,7 @@ SECStatus
 EXTEN_VALUE_ENCODER
 )
 (
-PRArenaPool
+PLArenaPool
 *
 extHandle
 void
@@ -3010,7 +3010,7 @@ static
 SECStatus
 EncodeAndAddExtensionValue
 (
-PRArenaPool
+PLArenaPool
 *
 arena
 void
@@ -3349,12 +3349,12 @@ CERTOidSequence
 )
 NULL
 ;
-PRArenaPool
+PLArenaPool
 *
 arena
 =
 (
-PRArenaPool
+PLArenaPool
 *
 )
 NULL
@@ -3369,7 +3369,7 @@ DER_DEFAULT_CHUNKSIZE
 if
 (
 (
-PRArenaPool
+PLArenaPool
 *
 )
 NULL
@@ -3468,7 +3468,7 @@ loser
 if
 (
 (
-PRArenaPool
+PLArenaPool
 *
 )
 NULL
@@ -4580,7 +4580,7 @@ authKeyID
 =
 NULL
 ;
-PRArenaPool
+PLArenaPool
 *
 arena
 =
@@ -5004,7 +5004,7 @@ char
 *
 notAfterStr
 ;
-PRArenaPool
+PLArenaPool
 *
 arena
 =
@@ -8237,6 +8237,8 @@ string
 '
 A
 '
++
+10
 ;
 }
 string
@@ -8288,10 +8290,12 @@ low_digit
 =
 *
 string
-=
+-
 '
 A
 '
++
+10
 ;
 }
 (
@@ -8392,7 +8396,7 @@ name
 CERTGeneralName
 *
 genName
-PRArenaPool
+PLArenaPool
 *
 arena
 )
@@ -9306,7 +9310,7 @@ data
 char
 *
 which
-PRArenaPool
+PLArenaPool
 *
 arena
 )
@@ -9692,7 +9696,7 @@ MakeNameConstraints
 Pair
 *
 data
-PRArenaPool
+PLArenaPool
 *
 arena
 )
@@ -10565,7 +10569,7 @@ autoIssuer
 =
 PR_FALSE
 ;
-PRArenaPool
+PLArenaPool
 *
 arena
 =
@@ -10911,7 +10915,7 @@ Pair
 data
 )
 {
-PRArenaPool
+PLArenaPool
 *
 arena
 =
@@ -12277,7 +12281,7 @@ NULL
 SECStatus
 rv
 ;
-PRArenaPool
+PLArenaPool
 *
 arena
 ;

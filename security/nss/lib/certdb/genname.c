@@ -739,7 +739,7 @@ name
 SECStatus
 cert_CopyOneGeneralName
 (
-PRArenaPool
+PLArenaPool
 *
 arena
 CERTGeneralName
@@ -1053,7 +1053,7 @@ CERTGeneralName
 name
 )
 {
-PRArenaPool
+PLArenaPool
 *
 arena
 ;
@@ -1395,7 +1395,7 @@ genName
 SECItem
 *
 dest
-PRArenaPool
+PLArenaPool
 *
 arena
 )
@@ -1663,7 +1663,7 @@ SECItem
 *
 cert_EncodeGeneralNames
 (
-PRArenaPool
+PLArenaPool
 *
 arena
 CERTGeneralName
@@ -1856,7 +1856,7 @@ CERTGeneralName
 *
 CERT_DecodeGeneralName
 (
-PRArenaPool
+PLArenaPool
 *
 reqArena
 SECItem
@@ -2161,7 +2161,7 @@ CERTGeneralName
 *
 cert_DecodeGeneralNames
 (
-PRArenaPool
+PLArenaPool
 *
 arena
 SECItem
@@ -2400,7 +2400,7 @@ constraint
 SECItem
 *
 dest
-PRArenaPool
+PLArenaPool
 *
 arena
 )
@@ -2478,7 +2478,7 @@ cert_EncodeNameConstraintSubTree
 CERTNameConstraint
 *
 constraints
-PRArenaPool
+PLArenaPool
 *
 arena
 SECItem
@@ -2684,7 +2684,7 @@ cert_EncodeNameConstraints
 CERTNameConstraints
 *
 constraints
-PRArenaPool
+PLArenaPool
 *
 arena
 SECItem
@@ -2819,7 +2819,7 @@ CERTNameConstraint
 *
 cert_DecodeNameConstraint
 (
-PRArenaPool
+PLArenaPool
 *
 reqArena
 SECItem
@@ -2995,7 +2995,7 @@ CERTNameConstraint
 *
 cert_DecodeNameConstraintSubTree
 (
-PRArenaPool
+PLArenaPool
 *
 arena
 SECItem
@@ -3160,7 +3160,7 @@ CERTNameConstraints
 *
 cert_DecodeNameConstraints
 (
-PRArenaPool
+PLArenaPool
 *
 reqArena
 const
@@ -3370,7 +3370,7 @@ NULL
 SECStatus
 CERT_CopyGeneralName
 (
-PRArenaPool
+PLArenaPool
 *
 arena
 CERTGeneralName
@@ -3636,7 +3636,7 @@ CERTNameConstraint
 *
 CERT_CopyNameConstraint
 (
-PRArenaPool
+PLArenaPool
 *
 arena
 CERTNameConstraint
@@ -4156,7 +4156,7 @@ CERTNameConstraint
 *
 *
 returnList
-PRArenaPool
+PLArenaPool
 *
 arena
 )
@@ -4762,7 +4762,7 @@ CERT_GetCertificateNames
 CERTCertificate
 *
 cert
-PRArenaPool
+PLArenaPool
 *
 arena
 )
@@ -4784,7 +4784,7 @@ const
 CERTCertificate
 *
 cert
-PRArenaPool
+PLArenaPool
 *
 arena
 PRBool
@@ -6886,7 +6886,7 @@ rv
 SECStatus
 CERT_FindNameConstraintsExten
 (
-PRArenaPool
+PLArenaPool
 *
 arena
 CERTCertificate
@@ -7023,7 +7023,7 @@ rv
 SECStatus
 CERT_CheckNameSpace
 (
-PRArenaPool
+PLArenaPool
 *
 arena
 const
@@ -7198,7 +7198,7 @@ CERTCertificate
 *
 *
 certsList
-PRArenaPool
+PLArenaPool
 *
 reqArena
 CERTCertificate
@@ -7803,7 +7803,7 @@ CERTGeneralNameList
 list
 CERTGeneralNameType
 type
-PRArenaPool
+PLArenaPool
 *
 arena
 )

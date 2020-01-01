@@ -1766,7 +1766,7 @@ static
 SECStatus
 nsslowcert_KeyFromIssuerAndSN
 (
-PRArenaPool
+PLArenaPool
 *
 arena
 SECItem
@@ -3378,7 +3378,7 @@ retaddr
 SECStatus
 nsslowcert_KeyFromDERCert
 (
-PRArenaPool
+PLArenaPool
 *
 arena
 SECItem
@@ -3489,7 +3489,7 @@ os
 SECStatus
 rv
 ;
-PRArenaPool
+PLArenaPool
 *
 arena
 ;

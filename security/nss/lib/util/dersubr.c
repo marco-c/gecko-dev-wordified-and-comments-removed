@@ -390,7 +390,7 @@ buf
 SECStatus
 DER_SetInteger
 (
-PRArenaPool
+PLArenaPool
 *
 arena
 SECItem
@@ -625,7 +625,7 @@ SECSuccess
 SECStatus
 DER_SetUInteger
 (
-PRArenaPool
+PLArenaPool
 *
 arena
 SECItem

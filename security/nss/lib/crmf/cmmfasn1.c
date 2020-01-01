@@ -184,7 +184,7 @@ long
 len
 )
 {
-PRArenaPool
+PLArenaPool
 *
 poolp
 ;
@@ -326,7 +326,7 @@ long
 len
 )
 {
-PRArenaPool
+PLArenaPool
 *
 poolp
 ;

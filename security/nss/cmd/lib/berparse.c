@@ -62,11 +62,11 @@ ParseStackElem
 struct
 BERParseStr
 {
-PRArenaPool
+PLArenaPool
 *
 his
 ;
-PRArenaPool
+PLArenaPool
 *
 mine
 ;
@@ -1829,7 +1829,7 @@ BERParse
 *
 BER_ParseInit
 (
-PRArenaPool
+PLArenaPool
 *
 arena
 PRBool
@@ -1840,7 +1840,7 @@ BERParse
 *
 h
 ;
-PRArenaPool
+PLArenaPool
 *
 temp
 =
@@ -2022,7 +2022,7 @@ BERParse
 h
 )
 {
-PRArenaPool
+PLArenaPool
 *
 myArena
 =

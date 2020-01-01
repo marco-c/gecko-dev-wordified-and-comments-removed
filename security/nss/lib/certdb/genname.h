@@ -60,7 +60,7 @@ SECItem
 *
 cert_EncodeGeneralNames
 (
-PRArenaPool
+PLArenaPool
 *
 arena
 CERTGeneralName
@@ -73,7 +73,7 @@ CERTGeneralName
 *
 cert_DecodeGeneralNames
 (
-PRArenaPool
+PLArenaPool
 *
 arena
 SECItem
@@ -98,7 +98,7 @@ cert_EncodeNameConstraints
 CERTNameConstraints
 *
 constraints
-PRArenaPool
+PLArenaPool
 *
 arena
 SECItem
@@ -111,7 +111,7 @@ CERTNameConstraints
 *
 cert_DecodeNameConstraints
 (
-PRArenaPool
+PLArenaPool
 *
 arena
 const
@@ -168,7 +168,7 @@ b
 SECStatus
 CERT_CopyGeneralName
 (
-PRArenaPool
+PLArenaPool
 *
 arena
 CERTGeneralName
@@ -216,7 +216,7 @@ CERTGeneralNameList
 list
 CERTGeneralNameType
 type
-PRArenaPool
+PLArenaPool
 *
 arena
 )
@@ -268,7 +268,7 @@ CERTCertificate
 *
 *
 certsList
-PRArenaPool
+PLArenaPool
 *
 reqArena
 CERTCertificate

@@ -509,7 +509,7 @@ CRMFCertExtension
 *
 crmf_copy_cert_extension
 (
-PRArenaPool
+PLArenaPool
 *
 poolp
 CRMFCertExtension
@@ -1003,7 +1003,7 @@ SECSuccess
 SECStatus
 cmmf_copy_secitem
 (
-PRArenaPool
+PLArenaPool
 *
 poolp
 SECItem
@@ -1149,7 +1149,7 @@ SECSuccess
 SECStatus
 cmmf_CopyCertResponse
 (
-PRArenaPool
+PLArenaPool
 *
 poolp
 CMMFCertResponse
@@ -1332,7 +1332,7 @@ static
 SECStatus
 cmmf_CopyCertOrEncCert
 (
-PRArenaPool
+PLArenaPool
 *
 poolp
 CMMFCertOrEncCert
@@ -1508,7 +1508,7 @@ rv
 SECStatus
 cmmf_CopyCertifiedKeyPair
 (
-PRArenaPool
+PLArenaPool
 *
 poolp
 CMMFCertifiedKeyPair
@@ -1667,7 +1667,7 @@ rv
 SECStatus
 cmmf_CopyPKIStatusInfo
 (
-PRArenaPool
+PLArenaPool
 *
 poolp
 CMMFPKIStatusInfo
@@ -1824,7 +1824,7 @@ cmmf_PKIStatusInfoSetStatus
 CMMFPKIStatusInfo
 *
 statusInfo
-PRArenaPool
+PLArenaPool
 *
 poolp
 CMMFPKIStatus

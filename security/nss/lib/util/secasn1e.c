@@ -111,7 +111,7 @@ sec_asn1e_state
 struct
 sec_EncoderContext_struct
 {
-PRArenaPool
+PLArenaPool
 *
 our_pool
 ;
@@ -4624,7 +4624,7 @@ void
 output_arg
 )
 {
-PRArenaPool
+PLArenaPool
 *
 our_pool
 ;
@@ -5130,7 +5130,7 @@ SECItem
 *
 sec_asn1e_allocate_item
 (
-PRArenaPool
+PLArenaPool
 *
 poolp
 SECItem
@@ -5347,7 +5347,7 @@ SECItem
 *
 SEC_ASN1EncodeItem
 (
-PRArenaPool
+PLArenaPool
 *
 poolp
 SECItem
@@ -5493,7 +5493,7 @@ SECItem
 *
 sec_asn1e_integer
 (
-PRArenaPool
+PLArenaPool
 *
 poolp
 SECItem
@@ -5645,7 +5645,7 @@ SECItem
 *
 SEC_ASN1EncodeInteger
 (
-PRArenaPool
+PLArenaPool
 *
 poolp
 SECItem
@@ -5673,7 +5673,7 @@ SECItem
 *
 SEC_ASN1EncodeUnsignedInteger
 (
-PRArenaPool
+PLArenaPool
 *
 poolp
 SECItem

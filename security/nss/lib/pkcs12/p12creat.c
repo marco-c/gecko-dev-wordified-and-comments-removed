@@ -60,7 +60,7 @@ pfx
 =
 NULL
 ;
-PRArenaPool
+PLArenaPool
 *
 poolp
 =
@@ -134,7 +134,7 @@ SEC_PKCS12AuthenticatedSafe
 *
 sec_pkcs12_new_asafe
 (
-PRArenaPool
+PLArenaPool
 *
 poolp
 )
@@ -227,7 +227,7 @@ SEC_PKCS12SafeContents
 *
 sec_pkcs12_create_safe_contents
 (
-PRArenaPool
+PLArenaPool
 *
 poolp
 )
@@ -772,7 +772,7 @@ SEC_PKCS12Baggage
 *
 sec_pkcs12_create_baggage
 (
-PRArenaPool
+PLArenaPool
 *
 poolp
 )

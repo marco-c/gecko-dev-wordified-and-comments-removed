@@ -1534,7 +1534,7 @@ PKIX_Error
 *
 pkix_pl_LdapResponse_Decode
 (
-PRArenaPool
+PLArenaPool
 *
 arena
 PKIX_PL_LdapResponse

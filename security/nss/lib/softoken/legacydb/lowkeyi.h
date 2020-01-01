@@ -328,7 +328,7 @@ NSS_ENABLE_ECC
 SECStatus
 LGEC_FillParams
 (
-PRArenaPool
+PLArenaPool
 *
 arena
 const
@@ -343,7 +343,7 @@ params
 SECStatus
 LGEC_CopyParams
 (
-PRArenaPool
+PLArenaPool
 *
 arena
 ECParams

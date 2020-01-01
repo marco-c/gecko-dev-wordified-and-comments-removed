@@ -6726,11 +6726,6 @@ return
 1
 ;
 }
-milliPause
-(
-1
-)
-;
 status
 =
 PR_GetConnectStatus

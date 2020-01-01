@@ -517,7 +517,7 @@ extern
 SECStatus
 EC_FillParams
 (
-PRArenaPool
+PLArenaPool
 *
 arena
 const
@@ -547,7 +547,7 @@ extern
 SECStatus
 EC_CopyParams
 (
-PRArenaPool
+PLArenaPool
 *
 arena
 ECParams
@@ -567,7 +567,7 @@ char
 *
 CBC_PadBuffer
 (
-PRArenaPool
+PLArenaPool
 *
 arena
 unsigned

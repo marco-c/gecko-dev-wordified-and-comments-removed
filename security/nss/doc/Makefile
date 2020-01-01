@@ -123,6 +123,14 @@ tar
 bz2
 rm
 -
+f
+html
+/
+*
+.
+proc
+rm
+-
 fr
 (
 name

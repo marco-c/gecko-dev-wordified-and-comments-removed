@@ -714,7 +714,7 @@ params
 prime
 )
 *
-BITS_PER_BYTE
+PR_BITS_PER_BYTE
 ;
 N
 =
@@ -727,7 +727,7 @@ params
 subPrime
 )
 *
-BITS_PER_BYTE
+PR_BITS_PER_BYTE
 ;
 if
 (
@@ -838,7 +838,7 @@ params
 prime
 )
 *
-BITS_PER_BYTE
+PR_BITS_PER_BYTE
 ;
 N
 =
@@ -851,7 +851,7 @@ params
 subPrime
 )
 *
-BITS_PER_BYTE
+PR_BITS_PER_BYTE
 ;
 return
 getFirstHash
@@ -868,7 +868,7 @@ getPQseed
 SECItem
 *
 seed
-PRArenaPool
+PLArenaPool
 *
 arena
 )
@@ -1610,7 +1610,7 @@ N_bytes
 =
 N
 /
-BITS_PER_BYTE
+PR_BITS_PER_BYTE
 ;
 int
 hashLen
@@ -1717,9 +1717,11 @@ rv
 #
 define
 MAX_ST_SEED_BITS
+(
 HASH_LENGTH_MAX
 *
-BITS_PER_BYTE
+PR_BITS_PER_BYTE
+)
 SECStatus
 makePrimefromPrimesShaweTaylor
 (
@@ -1781,7 +1783,7 @@ outlen
 =
 hashlen
 *
-BITS_PER_BYTE
+PR_BITS_PER_BYTE
 ;
 int
 offset
@@ -2006,7 +2008,7 @@ iterations
 length
 )
 /
-BITS_PER_BYTE
+PR_BITS_PER_BYTE
 ;
 bit
 =
@@ -2691,7 +2693,7 @@ outlen
 =
 hashlen
 *
-BITS_PER_BYTE
+PR_BITS_PER_BYTE
 ;
 int
 offset
@@ -2959,7 +2961,7 @@ outlen
 length
 )
 /
-BITS_PER_BYTE
+PR_BITS_PER_BYTE
 ;
 bit
 =
@@ -3830,7 +3832,7 @@ outlen
 =
 hashlen
 *
-BITS_PER_BYTE
+PR_BITS_PER_BYTE
 ;
 n
 =
@@ -4815,7 +4817,7 @@ SECItem
 *
 seed
 ;
-PRArenaPool
+PLArenaPool
 *
 arena
 =
@@ -4901,7 +4903,7 @@ seedBytes
 <
 N
 /
-BITS_PER_BYTE
+PR_BITS_PER_BYTE
 |
 |
 !
@@ -5198,7 +5200,7 @@ HASH_ResultLen
 hashtype
 )
 *
-BITS_PER_BYTE
+PR_BITS_PER_BYTE
 ;
 n
 =
@@ -5224,7 +5226,7 @@ seedlen
 =
 seedBytes
 *
-BITS_PER_BYTE
+PR_BITS_PER_BYTE
 ;
 step_5
 :
@@ -7179,7 +7181,7 @@ HASH_ResultLen
 hashtype
 )
 *
-BITS_PER_BYTE
+PR_BITS_PER_BYTE
 ;
 n
 =

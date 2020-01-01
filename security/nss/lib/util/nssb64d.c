@@ -2079,7 +2079,7 @@ SECItem
 *
 NSSBase64_DecodeBuffer
 (
-PRArenaPool
+PLArenaPool
 *
 arenaOpt
 SECItem

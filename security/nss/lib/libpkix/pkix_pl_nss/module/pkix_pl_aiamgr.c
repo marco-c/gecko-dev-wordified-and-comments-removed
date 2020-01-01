@@ -1342,7 +1342,7 @@ NULL
 LDAPRequestParams
 request
 ;
-PRArenaPool
+PLArenaPool
 *
 arena
 =

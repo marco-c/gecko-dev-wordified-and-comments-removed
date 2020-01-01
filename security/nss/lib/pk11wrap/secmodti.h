@@ -169,7 +169,7 @@ timeout
 int
 authTransact
 ;
-int64
+PRTime
 authTime
 ;
 int
@@ -178,16 +178,16 @@ minPassword
 int
 maxPassword
 ;
-uint16
+PRUint16
 series
 ;
-uint16
+PRUint16
 flagSeries
 ;
 PRBool
 flagState
 ;
-uint16
+PRUint16
 wrapKey
 ;
 CK_MECHANISM_TYPE
@@ -318,7 +318,7 @@ PK11SymKey
 *
 parent
 ;
-uint16
+PRUint16
 series
 ;
 void

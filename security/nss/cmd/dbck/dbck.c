@@ -489,7 +489,7 @@ certDBEntryListNode
 typedef
 struct
 {
-PRArenaPool
+PLArenaPool
 *
 arena
 ;
@@ -506,7 +506,7 @@ certDBEntryMap
 typedef
 struct
 {
-PRArenaPool
+PLArenaPool
 *
 arena
 ;
@@ -1572,7 +1572,7 @@ serialNumber
 )
 ;
 {
-int64
+PRTime
 timeBefore
 timeAfter
 ;
@@ -2382,7 +2382,7 @@ certDBEntryMap
 *
 map
 ;
-PRArenaPool
+PLArenaPool
 *
 tmparena
 ;
@@ -5894,7 +5894,7 @@ certDBSubjectEntryMap
 *
 smnode
 ;
-PRArenaPool
+PLArenaPool
 *
 arena
 ;

@@ -155,7 +155,9 @@ signtool
 \
 signver
 \
-shlibsign
+(
+SHLIBSIGN_SRCDIR
+)
 \
 smimetools
 \

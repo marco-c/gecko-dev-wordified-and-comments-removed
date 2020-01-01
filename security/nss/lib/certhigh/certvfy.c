@@ -367,7 +367,7 @@ sd
 CERTCertificate
 *
 cert
-int64
+PRTime
 t
 void
 *
@@ -452,7 +452,7 @@ cert
 CERTCertificate
 *
 caCert
-int64
+PRTime
 t
 void
 *
@@ -477,7 +477,7 @@ CERT_FindCertIssuer
 CERTCertificate
 *
 cert
-int64
+PRTime
 validTime
 SECCertUsage
 usage
@@ -1304,7 +1304,7 @@ PRBool
 sigerror
 SECCertUsage
 certUsage
-int64
+PRTime
 t
 void
 *
@@ -1377,7 +1377,7 @@ unsigned
 int
 requiredFlags
 ;
-PRArenaPool
+PLArenaPool
 *
 arena
 =
@@ -2732,7 +2732,7 @@ PRBool
 sigerror
 SECCertUsage
 certUsage
-int64
+PRTime
 t
 void
 *
@@ -2794,7 +2794,7 @@ PRBool
 checkSig
 SECCertUsage
 certUsage
-int64
+PRTime
 t
 void
 *
@@ -2832,7 +2832,7 @@ PRBool
 checkSig
 SECCertUsage
 certUsage
-int64
+PRTime
 t
 void
 *
@@ -4000,7 +4000,7 @@ PRBool
 checkSig
 SECCertificateUsage
 requiredUsages
-int64
+PRTime
 t
 void
 *
@@ -4646,7 +4646,7 @@ PRBool
 checkSig
 SECCertUsage
 certUsage
-int64
+PRTime
 t
 void
 *
@@ -5202,7 +5202,7 @@ SECCertUsage
 usage
 PRBool
 preferTrusted
-int64
+PRTime
 validTime
 PRBool
 validOnly
@@ -5585,7 +5585,7 @@ names
 PRBool
 found
 ;
-int64
+PRTime
 time
 ;
 if
@@ -5806,7 +5806,7 @@ char
 *
 CERT_GetCertNicknameWithValidity
 (
-PRArenaPool
+PLArenaPool
 *
 arena
 CERTCertificate
@@ -6058,7 +6058,7 @@ CERTCertNicknames
 *
 names
 ;
-PRArenaPool
+PLArenaPool
 *
 arena
 ;
@@ -6572,7 +6572,7 @@ CERT_GetCertChainFromCert
 CERTCertificate
 *
 cert
-int64
+PRTime
 time
 SECCertUsage
 usage

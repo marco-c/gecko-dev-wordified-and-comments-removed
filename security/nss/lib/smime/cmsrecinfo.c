@@ -2767,7 +2767,7 @@ rv
 SECStatus
 NSS_CMSRecipientInfo_Encode
 (
-PRArenaPool
+PLArenaPool
 *
 poolp
 const

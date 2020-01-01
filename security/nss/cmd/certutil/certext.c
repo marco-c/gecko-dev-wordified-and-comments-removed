@@ -322,7 +322,7 @@ CERTGeneralName
 *
 GetGeneralName
 (
-PRArenaPool
+PLArenaPool
 *
 arena
 CERTGeneralName
@@ -1039,7 +1039,7 @@ CERTGeneralName
 *
 CreateGeneralName
 (
-PRArenaPool
+PLArenaPool
 *
 arena
 )
@@ -1057,7 +1057,7 @@ static
 SECStatus
 GetString
 (
-PRArenaPool
+PLArenaPool
 *
 arena
 char
@@ -1848,12 +1848,12 @@ CERTOidSequence
 )
 NULL
 ;
-PRArenaPool
+PLArenaPool
 *
 arena
 =
 (
-PRArenaPool
+PLArenaPool
 *
 )
 NULL
@@ -1868,7 +1868,7 @@ DER_DEFAULT_CHUNKSIZE
 if
 (
 (
-PRArenaPool
+PLArenaPool
 *
 )
 NULL
@@ -1961,7 +1961,7 @@ loser
 if
 (
 (
-PRArenaPool
+PLArenaPool
 *
 )
 NULL
@@ -3182,7 +3182,7 @@ static
 SECStatus
 AddSubjectAltNames
 (
-PRArenaPool
+PLArenaPool
 *
 arena
 CERTGeneralName
@@ -3572,7 +3572,7 @@ static
 SECStatus
 AddEmailSubjectAlt
 (
-PRArenaPool
+PLArenaPool
 *
 arena
 CERTGeneralName
@@ -3599,7 +3599,7 @@ static
 SECStatus
 AddDNSSubjectAlt
 (
-PRArenaPool
+PLArenaPool
 *
 arena
 CERTGeneralName
@@ -3800,7 +3800,7 @@ void
 extHandle
 )
 {
-PRArenaPool
+PLArenaPool
 *
 arena
 =
@@ -4359,7 +4359,7 @@ authKeyID
 =
 NULL
 ;
-PRArenaPool
+PLArenaPool
 *
 arena
 =
@@ -4626,7 +4626,7 @@ extHandle
 SECItem
 keyID
 ;
-PRArenaPool
+PLArenaPool
 *
 arena
 =
@@ -4796,7 +4796,7 @@ void
 extHandle
 )
 {
-PRArenaPool
+PLArenaPool
 *
 arena
 =
@@ -5614,7 +5614,7 @@ CERTCertificatePolicyConstraints
 *
 policyConstr
 ;
-PRArenaPool
+PLArenaPool
 *
 arena
 =
@@ -6023,7 +6023,7 @@ extHandle
 CERTCertificateInhibitAny
 certInhibitAny
 ;
-PRArenaPool
+PLArenaPool
 *
 arena
 =
@@ -6244,7 +6244,7 @@ CERTPolicyMap
 *
 current
 ;
-PRArenaPool
+PLArenaPool
 *
 arena
 =
@@ -6691,7 +6691,7 @@ CERTPolicyQualifier
 *
 RequestPolicyQualifiers
 (
-PRArenaPool
+PLArenaPool
 *
 arena
 SECItem
@@ -7733,7 +7733,7 @@ CERTPolicyInfo
 *
 current
 ;
-PRArenaPool
+PLArenaPool
 *
 arena
 =
@@ -8195,7 +8195,7 @@ CERTAuthInfoAccess
 *
 current
 ;
-PRArenaPool
+PLArenaPool
 *
 arena
 =
@@ -9290,7 +9290,7 @@ emailAddrs
 dnsNames
 )
 {
-PRArenaPool
+PLArenaPool
 *
 arena
 ;

@@ -1958,7 +1958,7 @@ next_destructor
 ;
 #
 endif
-PR_ARENA_RELEASE
+PL_ARENA_RELEASE
 (
 &
 arena
@@ -2071,7 +2071,7 @@ struct
 pointer_header
 )
 ;
-PR_ARENA_ALLOCATE
+PL_ARENA_ALLOCATE
 (
 p
 &
@@ -3155,7 +3155,7 @@ return
 pointer
 ;
 }
-PR_ARENA_ALLOCATE
+PL_ARENA_ALLOCATE
 (
 p
 &

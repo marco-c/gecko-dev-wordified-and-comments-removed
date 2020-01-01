@@ -97,7 +97,7 @@ ocspTBSRequest
 struct
 CERTOCSPRequestStr
 {
-PRArenaPool
+PLArenaPool
 *
 arena
 ;
@@ -173,7 +173,7 @@ failureReason
 struct
 ocspSingleRequestStr
 {
-PRArenaPool
+PLArenaPool
 *
 arena
 ;
@@ -221,7 +221,7 @@ issuerMD5KeyHash
 SECItem
 issuerMD2KeyHash
 ;
-PRArenaPool
+PLArenaPool
 *
 poolp
 ;
@@ -263,7 +263,7 @@ ocspResponseStatus
 struct
 CERTOCSPResponseStr
 {
-PRArenaPool
+PLArenaPool
 *
 arena
 ;
@@ -370,7 +370,7 @@ responderIDValue
 struct
 CERTOCSPSingleResponseStr
 {
-PRArenaPool
+PLArenaPool
 *
 arena
 ;

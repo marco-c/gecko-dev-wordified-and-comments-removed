@@ -51,7 +51,7 @@ CMMFCertRepContent
 *
 retCertRep
 ;
-PRArenaPool
+PLArenaPool
 *
 poolp
 ;
@@ -131,7 +131,7 @@ cmmf_CertOrEncCertSetCertificate
 CMMFCertOrEncCert
 *
 certOrEncCert
-PRArenaPool
+PLArenaPool
 *
 poolp
 CERTCertificate
@@ -324,7 +324,7 @@ cmmf_ExtractCertsFromList
 CERTCertList
 *
 inCertList
-PRArenaPool
+PLArenaPool
 *
 poolp
 CERTCertificate
@@ -555,7 +555,7 @@ int
 inNumResponses
 )
 {
-PRArenaPool
+PLArenaPool
 *
 poolp
 ;
@@ -1084,7 +1084,7 @@ CERTCertList
 inCAPubs
 )
 {
-PRArenaPool
+PLArenaPool
 *
 poolp
 ;

@@ -200,7 +200,7 @@ char
 *
 CERT_UTCTime2FormattedAscii
 (
-int64
+PRTime
 utcTime
 char
 *
@@ -272,7 +272,7 @@ char
 *
 CERT_GenTime2FormattedAscii
 (
-int64
+PRTime
 genTime
 char
 *
@@ -358,7 +358,7 @@ char
 format
 )
 {
-int64
+PRTime
 utcTime
 ;
 int
@@ -503,7 +503,7 @@ SECFailure
 SECStatus
 DER_EncodeTimeChoice
 (
-PRArenaPool
+PLArenaPool
 *
 arena
 SECItem

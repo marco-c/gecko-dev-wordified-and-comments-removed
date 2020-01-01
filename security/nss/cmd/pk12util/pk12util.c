@@ -1292,7 +1292,7 @@ ret
 SECStatus
 P12U_UnicodeConversion
 (
-PRArenaPool
+PLArenaPool
 *
 arena
 SECItem
@@ -2711,7 +2711,7 @@ char
 )
 buf
 (
-int32
+PRInt32
 )
 len
 )

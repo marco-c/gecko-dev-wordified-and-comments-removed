@@ -249,7 +249,7 @@ CERTAuthInfoAccessItemTemplate
 SECStatus
 CERT_EncodeSubjectKeyID
 (
-PRArenaPool
+PLArenaPool
 *
 arena
 const
@@ -309,7 +309,7 @@ rv
 SECStatus
 CERT_EncodePrivateKeyUsagePeriod
 (
-PRArenaPool
+PLArenaPool
 *
 arena
 CERTPrivKeyUsagePeriod
@@ -456,7 +456,7 @@ NULL
 SECStatus
 CERT_EncodeIA5TypeExtension
 (
-PRArenaPool
+PLArenaPool
 *
 arena
 char
@@ -544,7 +544,7 @@ rv
 SECStatus
 CERT_EncodeAltNameExtension
 (
-PRArenaPool
+PLArenaPool
 *
 arena
 CERTGeneralName
@@ -601,7 +601,7 @@ CERTGeneralName
 *
 CERT_DecodeAltNameExtension
 (
-PRArenaPool
+PLArenaPool
 *
 reqArena
 SECItem
@@ -731,7 +731,7 @@ NULL
 SECStatus
 CERT_EncodeNameConstraintsExtension
 (
-PRArenaPool
+PLArenaPool
 *
 arena
 CERTNameConstraints
@@ -764,7 +764,7 @@ CERTNameConstraints
 *
 CERT_DecodeNameConstraintsExtension
 (
-PRArenaPool
+PLArenaPool
 *
 arena
 const
@@ -786,7 +786,7 @@ CERTAuthInfoAccess
 *
 CERT_DecodeAuthInfoAccessExtension
 (
-PRArenaPool
+PLArenaPool
 *
 reqArena
 SECItem
@@ -924,7 +924,7 @@ info
 SECStatus
 CERT_EncodeInfoAccessExtension
 (
-PRArenaPool
+PLArenaPool
 *
 arena
 CERTAuthInfoAccess

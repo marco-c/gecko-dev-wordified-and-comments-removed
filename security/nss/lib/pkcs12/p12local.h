@@ -199,7 +199,7 @@ extern
 PRBool
 sec_pkcs12_convert_item_to_unicode
 (
-PRArenaPool
+PLArenaPool
 *
 arena
 SECItem
@@ -237,7 +237,7 @@ SEC_PKCS12SafeContents
 *
 sec_pkcs12_create_safe_contents
 (
-PRArenaPool
+PLArenaPool
 *
 poolp
 )
@@ -247,7 +247,7 @@ SEC_PKCS12Baggage
 *
 sec_pkcs12_create_baggage
 (
-PRArenaPool
+PLArenaPool
 *
 poolp
 )
@@ -276,7 +276,7 @@ SEC_PKCS12AuthenticatedSafe
 *
 sec_pkcs12_new_asafe
 (
-PRArenaPool
+PLArenaPool
 *
 poolp
 )
@@ -286,7 +286,7 @@ SEC_PKCS12DecoderContext
 *
 sec_PKCS12ConvertOldSafeToNew
 (
-PRArenaPool
+PLArenaPool
 *
 arena
 PK11SlotInfo

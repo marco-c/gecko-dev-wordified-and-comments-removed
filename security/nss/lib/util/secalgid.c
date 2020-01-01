@@ -78,7 +78,7 @@ algorithm
 SECStatus
 SECOID_SetAlgorithmID
 (
-PRArenaPool
+PLArenaPool
 *
 arena
 SECAlgorithmID
@@ -360,7 +360,7 @@ SECSuccess
 SECStatus
 SECOID_CopyAlgorithmID
 (
-PRArenaPool
+PLArenaPool
 *
 arena
 SECAlgorithmID

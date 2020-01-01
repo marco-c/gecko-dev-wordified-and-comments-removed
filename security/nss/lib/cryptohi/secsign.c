@@ -598,7 +598,7 @@ SECItem
 digder
 sigitem
 ;
-PRArenaPool
+PLArenaPool
 *
 arena
 =
@@ -1184,7 +1184,7 @@ CERT_SignedDataTemplate
 SECStatus
 SEC_DerSignData
 (
-PRArenaPool
+PLArenaPool
 *
 arena
 SECItem
@@ -1448,7 +1448,7 @@ rv
 SECItem
 digder
 ;
-PRArenaPool
+PLArenaPool
 *
 arena
 =
