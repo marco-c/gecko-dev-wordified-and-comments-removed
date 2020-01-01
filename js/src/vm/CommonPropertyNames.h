@@ -90,6 +90,15 @@ byteOffset
 \
 macro
 (
+bytes
+bytes
+"
+bytes
+"
+)
+\
+macro
+(
 BYTES_PER_ELEMENT
 BYTES_PER_ELEMENT
 "
