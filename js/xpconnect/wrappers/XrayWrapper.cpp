@@ -2954,6 +2954,7 @@ argc
 <
 1
 )
+{
 JS_ReportError
 (
 cx
@@ -2964,6 +2965,10 @@ arguments
 "
 )
 ;
+return
+false
+;
+}
 JSObject
 *
 wrapper
