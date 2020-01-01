@@ -1791,6 +1791,11 @@ mStateFlags
 =
 eSharedNode
 ;
+mGenericTypes
+|
+=
+eTableCell
+;
 NS_ASSERTION
 (
 mTreeView

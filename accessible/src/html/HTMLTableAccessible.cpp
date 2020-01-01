@@ -250,6 +250,11 @@ xpcAccessibleTableCell
 this
 )
 {
+mGenericTypes
+|
+=
+eTableCell
+;
 }
 NS_IMPL_ISUPPORTS_INHERITED1
 (
