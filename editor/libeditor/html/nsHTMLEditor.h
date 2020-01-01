@@ -2089,15 +2089,6 @@ bool
 havePrivFlavor
 )
 ;
-nsresult
-PutDragDataInTransferable
-(
-nsITransferable
-*
-*
-aTransferable
-)
-;
 NS_IMETHOD
 InsertFromTransferable
 (

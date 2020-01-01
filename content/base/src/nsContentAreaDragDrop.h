@@ -91,9 +91,10 @@ aDataTransfer
 bool
 *
 aCanDrag
-bool
+nsISelection
 *
-aDragSelection
+*
+aSelection
 nsIContent
 *
 *
