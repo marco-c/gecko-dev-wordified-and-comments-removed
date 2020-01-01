@@ -1203,10 +1203,6 @@ DOMRequest
 )
 DOMCI_CLASS
 (
-DOMCursor
-)
-DOMCI_CLASS
-(
 OpenWindowEventDetail
 )
 DOMCI_CLASS
