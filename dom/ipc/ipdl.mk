@@ -399,14 +399,6 @@ PDocumentRenderer
 .
 ipdl
 \
-PDocumentRendererNativeID
-.
-ipdl
-\
-PDocumentRendererShmem
-.
-ipdl
-\
 PContentPermissionRequest
 .
 ipdl
