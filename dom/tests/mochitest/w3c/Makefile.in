@@ -164,6 +164,12 @@ in
 writeReporter
 .
 py
+html
+.
+json
+webapps
+.
+json
 (
 PYTHON_PATH
 )
