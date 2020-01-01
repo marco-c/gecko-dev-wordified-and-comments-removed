@@ -223,6 +223,7 @@ isBranch
 )
 |
 |
+(
 i
 -
 >
@@ -238,6 +239,7 @@ i
 isCse
 (
 functions
+)
 )
 |
 |
@@ -1849,6 +1851,7 @@ ifdef
 NANOJIT_IA32
 NanoAssert
 (
+(
 _allocator
 .
 active
@@ -1862,8 +1865,10 @@ _fpuStkDepth
 =
 -
 1
+)
 |
 |
+(
 !
 _allocator
 .
@@ -1877,6 +1882,7 @@ _fpuStkDepth
 =
 =
 0
+)
 )
 ;
 #
@@ -2834,6 +2840,7 @@ UnknownReg
 &
 (
 (
+(
 rmask
 (
 r
@@ -2849,8 +2856,10 @@ allow
 &
 XmmRegs
 )
+)
 |
 |
+(
 (
 rmask
 (
@@ -2866,6 +2875,7 @@ x87Regs
 allow
 &
 x87Regs
+)
 )
 )
 )

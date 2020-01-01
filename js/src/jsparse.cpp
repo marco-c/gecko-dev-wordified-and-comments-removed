@@ -1,5 +1,12 @@
 #
 include
+"
+jsstddef
+.
+h
+"
+#
+include
 <
 stdlib
 .
@@ -12906,6 +12913,7 @@ pn_head
 ;
 if
 (
+(
 pn2
 -
 >
@@ -12919,6 +12927,7 @@ pn2
 -
 >
 pn_expr
+)
 #
 if
 JS_HAS_DESTRUCTURING

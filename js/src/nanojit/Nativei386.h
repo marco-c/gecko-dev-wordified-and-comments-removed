@@ -4013,6 +4013,10 @@ gpn
 (
 r
 )
+(
+void
+*
+)
 d
 gpn
 (
@@ -5138,6 +5142,10 @@ gpn
 (
 reg
 )
+(
+unsigned
+long
+)
 addr
 )
 ;
@@ -5370,6 +5378,10 @@ gpn
 (
 r
 )
+(
+unsigned
+long
+)
 addr
 )
 ;
@@ -5573,6 +5585,10 @@ lx
 gpn
 (
 r
+)
+(
+long
+unsigned
 )
 addr
 )
@@ -8944,9 +8960,11 @@ o
 0xff
 )
 |
+(
 r
 &
 7
+)
 )
 ;
 \
