@@ -6032,6 +6032,12 @@ nsNativeThemeGTK
 :
 ThemeDrawsFocusForWidget
 (
+nsPresContext
+*
+aPresContext
+nsIFrame
+*
+aFrame
 uint8_t
 aWidgetType
 )
