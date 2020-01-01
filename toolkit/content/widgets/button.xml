@@ -1201,6 +1201,12 @@ rtl
 )
 )
 {
+event
+.
+preventDefault
+(
+)
+;
 window
 .
 document
@@ -1292,6 +1298,12 @@ rtl
 )
 )
 {
+event
+.
+preventDefault
+(
+)
+;
 window
 .
 document

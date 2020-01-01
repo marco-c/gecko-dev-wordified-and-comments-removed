@@ -578,6 +578,7 @@ handleKeyPress
 event
 )
 )
+{
 this
 .
 menuBoxObject
@@ -588,6 +589,13 @@ doCommand
 (
 )
 ;
+event
+.
+preventDefault
+(
+)
+;
+}
 }
 ]
 ]
