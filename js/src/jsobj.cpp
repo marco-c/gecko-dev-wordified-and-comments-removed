@@ -16117,17 +16117,6 @@ flags
 JSRESOLVE_DETECTING
 ;
 }
-if
-(
-format
-&
-JOF_DECLARING
-)
-flags
-|
-=
-JSRESOLVE_DECLARING
-;
 return
 flags
 ;
