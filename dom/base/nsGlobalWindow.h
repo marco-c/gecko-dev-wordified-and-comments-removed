@@ -3555,6 +3555,9 @@ nsIContent
 aNewContent
 )
 ;
+public
+:
+virtual
 already_AddRefed
 <
 nsPIWindowRoot
@@ -3562,7 +3565,10 @@ nsPIWindowRoot
 GetTopWindowRoot
 (
 )
+MOZ_OVERRIDE
 ;
+protected
+:
 static
 void
 NotifyDOMWindowDestroyed
