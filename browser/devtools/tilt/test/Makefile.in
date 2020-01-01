@@ -489,6 +489,12 @@ browser_tilt_05_destruction
 js
 \
 browser_tilt_arcball
+-
+reset
+.
+js
+\
+browser_tilt_arcball
 .
 js
 \
