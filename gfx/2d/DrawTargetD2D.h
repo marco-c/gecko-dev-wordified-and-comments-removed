@@ -893,7 +893,7 @@ aAlpha
 ;
 TemporaryRef
 <
-ID3D10Texture1D
+ID3D10Texture2D
 >
 CreateGradientTexture
 (
