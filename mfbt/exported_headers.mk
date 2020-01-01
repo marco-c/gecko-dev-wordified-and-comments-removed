@@ -454,6 +454,10 @@ GuardObjects
 .
 h
 \
+HashFunctions
+.
+h
+\
 Likely
 .
 h
