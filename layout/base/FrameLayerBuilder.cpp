@@ -12513,7 +12513,7 @@ offset
 =
 nsIntPoint
 (
-int32_t
+NS_lround
 (
 NSAppUnitsToDoublePixels
 (
@@ -12527,7 +12527,7 @@ aIncomingScale
 .
 mXScale
 )
-int32_t
+NS_lround
 (
 NSAppUnitsToDoublePixels
 (
