@@ -4964,6 +4964,14 @@ if
 (
 !
 logged
+|
+|
+nsContentUtils
+:
+:
+DOMWindowDumpEnabled
+(
+)
 )
 {
 NS_ConvertUTF16toUTF8
