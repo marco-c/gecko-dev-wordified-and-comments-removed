@@ -498,6 +498,10 @@ nsITextScroll
 .
 idl
 \
+nsIDocCharset
+.
+idl
+\
 nsIWebNavigation
 .
 idl
