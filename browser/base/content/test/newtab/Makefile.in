@@ -93,6 +93,10 @@ browser_newtab_drag_drop
 .
 js
 \
+browser_newtab_drag_drop_ext
+.
+js
+\
 browser_newtab_drop_preview
 .
 js
