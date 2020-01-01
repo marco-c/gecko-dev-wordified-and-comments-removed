@@ -1254,6 +1254,15 @@ COMPONENT_LIBS
 gkdebug
 endif
 endif
+ifdef
+MOZ_APP_COMPONENT_LIBS
+COMPONENT_LIBS
++
+=
+(
+MOZ_APP_COMPONENT_LIBS
+)
+endif
 ifeq
 (
 (
@@ -1304,6 +1313,10 @@ MOZ_CAIRO_LIBS
 \
 (
 MOZ_HARFBUZZ_LIBS
+)
+\
+(
+MOZ_APP_EXTRA_LIBS
 )
 \
 (
