@@ -508,6 +508,10 @@ test_bug_391514
 .
 html
 \
+test_prompt
+.
+html
+\
 test_zzz_finish
 .
 html
