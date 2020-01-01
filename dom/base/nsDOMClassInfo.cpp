@@ -15493,7 +15493,7 @@ JSObject
 *
 wrapper
 =
-xpc_GetCachedSlimWrapper
+xpc_FastGetCachedWrapper
 (
 cache
 scope
