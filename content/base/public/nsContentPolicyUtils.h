@@ -288,6 +288,11 @@ CASE_RETURN
 TYPE_OBJECT_SUBREQUEST
 )
 ;
+CASE_RETURN
+(
+TYPE_DTD
+)
+;
 default
 :
 return
