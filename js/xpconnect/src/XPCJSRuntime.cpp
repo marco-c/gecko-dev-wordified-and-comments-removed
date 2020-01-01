@@ -5530,7 +5530,9 @@ while
 (
 JS_ContextIterator
 (
-mJSRuntime
+Runtime
+(
+)
 &
 iter
 )
