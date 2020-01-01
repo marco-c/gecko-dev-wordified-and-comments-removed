@@ -420,6 +420,9 @@ aIDStr
 PR_TRUE
 ;
 }
+#
+ifndef
+XPCOM_GLUE_AVOID_NSPR
 char
 *
 nsID
@@ -618,3 +621,5 @@ m3
 )
 ;
 }
+#
+endif

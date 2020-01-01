@@ -189,6 +189,9 @@ char
 aIDStr
 )
 ;
+#
+ifndef
+XPCOM_GLUE_AVOID_NSPR
 NS_COM_GLUE
 char
 *
@@ -212,6 +215,8 @@ NSID_LENGTH
 )
 const
 ;
+#
+endif
 }
 ;
 typedef

@@ -505,10 +505,6 @@ nsDeque
 .
 cpp
 \
-nsTextFormatter
-.
-cpp
-\
 (
 NULL
 )
@@ -582,6 +578,10 @@ nsGenericFactory
 cpp
 \
 nsProxyRelease
+.
+cpp
+\
+nsTextFormatter
 .
 cpp
 \
