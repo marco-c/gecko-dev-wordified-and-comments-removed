@@ -528,10 +528,6 @@ nativeStackQuota
 (
 0
 )
-interpreterFrames
-(
-NULL
-)
 cxCallback
 (
 NULL

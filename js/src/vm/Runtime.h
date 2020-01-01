@@ -366,9 +366,6 @@ class
 AsmJSActivation
 ;
 class
-InterpreterFrames
-;
-class
 MathCache
 ;
 class
@@ -3402,13 +3399,6 @@ nativeStackBase
 ;
 size_t
 nativeStackQuota
-;
-js
-:
-:
-InterpreterFrames
-*
-interpreterFrames
 ;
 JSContextCallback
 cxCallback
