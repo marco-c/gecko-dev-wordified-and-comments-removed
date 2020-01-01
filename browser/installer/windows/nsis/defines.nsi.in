@@ -21,9 +21,7 @@ AB_CD
 define
 FileInstallerEXE
 "
-PKG_BASENAME
-.
-installer
+PKG_INST_BASENAME
 .
 exe
 "
@@ -31,9 +29,7 @@ exe
 define
 FileInstallerMSI
 "
-PKG_BASENAME
-.
-installer
+PKG_INST_BASENAME
 .
 msi
 "
