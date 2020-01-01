@@ -8708,6 +8708,12 @@ focusedWindow
 =
 null
 ;
+oldBrowser
+.
+focusedElement
+=
+null
+;
 }
 ]
 ]
