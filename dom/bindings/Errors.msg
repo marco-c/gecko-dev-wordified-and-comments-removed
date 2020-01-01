@@ -258,3 +258,13 @@ of
 .
 "
 )
+MSG_DEF
+(
+MSG_ILLEGAL_CONSTRUCTOR
+0
+"
+Illegal
+constructor
+.
+"
+)
