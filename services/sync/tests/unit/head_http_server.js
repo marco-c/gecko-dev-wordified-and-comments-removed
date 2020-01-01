@@ -584,6 +584,7 @@ ServerWBO
 (
 id
 initialPayload
+modified
 )
 {
 if
@@ -648,6 +649,9 @@ this
 .
 modified
 =
+modified
+|
+|
 new_timestamp
 (
 )
@@ -1250,6 +1254,7 @@ insert
 (
 id
 payload
+modified
 )
 {
 return
@@ -1262,6 +1267,7 @@ ServerWBO
 (
 id
 payload
+modified
 )
 )
 ;
@@ -3004,6 +3010,14 @@ collections
 {
 }
 }
+;
+return
+this
+.
+user
+(
+username
+)
 ;
 }
 userExists
