@@ -299,6 +299,7 @@ last_end_glyph
 &
 start_glyph
 <
+=
 last_end_glyph
 )
 {
@@ -309,7 +310,8 @@ SVG
 table
 index
 range
-is
+overlapping
+or
 not
 sorted
 "
