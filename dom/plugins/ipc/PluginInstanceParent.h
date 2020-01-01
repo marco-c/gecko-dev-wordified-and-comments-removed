@@ -1034,6 +1034,13 @@ bool
 aDrawing
 )
 ;
+nsresult
+ContentsScaleFactorChanged
+(
+double
+aContentsScaleFactor
+)
+;
 #
 endif
 nsresult

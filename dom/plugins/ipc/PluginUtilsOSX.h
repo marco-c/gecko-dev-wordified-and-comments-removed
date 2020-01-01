@@ -156,6 +156,11 @@ GetFrontSurfaceHeight
 (
 )
 ;
+double
+GetFrontSurfaceContentsScaleFactor
+(
+)
+;
 size_t
 GetBackSurfaceWidth
 (
@@ -163,6 +168,11 @@ GetBackSurfaceWidth
 ;
 size_t
 GetBackSurfaceHeight
+(
+)
+;
+double
+GetBackSurfaceContentsScaleFactor
 (
 )
 ;

@@ -3632,6 +3632,15 @@ message
 =
 =
 NS_PLUGIN_FOCUS
+|
+|
+aEvent
+-
+>
+message
+=
+=
+NS_PLUGIN_RESOLUTION_CHANGED
 )
 )
 {
