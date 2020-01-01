@@ -1661,9 +1661,11 @@ pobj
 cx
 )
 ;
-JSProperty
-*
+RootedShape
 prop
+(
+cx
+)
 ;
 if
 (
@@ -2271,9 +2273,11 @@ pobj
 cx
 )
 ;
-JSProperty
-*
+RootedShape
 prop
+(
+cx
+)
 ;
 RootedId
 id
