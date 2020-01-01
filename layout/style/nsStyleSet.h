@@ -1092,7 +1092,7 @@ return
 mRuleTree
 -
 >
-GetPresContext
+PresContext
 (
 )
 ;

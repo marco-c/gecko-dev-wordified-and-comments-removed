@@ -808,7 +808,7 @@ CreateRootNode
 mRuleTree
 -
 >
-GetPresContext
+PresContext
 (
 )
 )
@@ -8238,7 +8238,7 @@ eRestyle_Self
 aRuleNode
 -
 >
-GetPresContext
+PresContext
 (
 )
 -

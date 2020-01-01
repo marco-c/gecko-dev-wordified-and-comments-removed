@@ -193,7 +193,7 @@ return
 mRuleNode
 -
 >
-GetPresContext
+PresContext
 (
 )
 ;

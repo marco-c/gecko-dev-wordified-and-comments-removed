@@ -954,14 +954,17 @@ private
 :
 nsPresContext
 *
+const
 mPresContext
 ;
 nsRuleNode
 *
+const
 mParent
 ;
 nsIStyleRule
 *
+const
 mRule
 ;
 nsRuleNode
@@ -2378,7 +2381,7 @@ mRule
 }
 nsPresContext
 *
-GetPresContext
+PresContext
 (
 )
 const
