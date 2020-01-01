@@ -248,13 +248,6 @@ mozilla
 layers
 ;
 static
-NS_DEFINE_IID
-(
-kWindowCID
-NS_WINDOW_CID
-)
-;
-static
 NS_DEFINE_CID
 (
 kChildCID
