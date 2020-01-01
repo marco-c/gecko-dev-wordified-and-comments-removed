@@ -681,7 +681,7 @@ sn
 )
 ;
 bool
-snapshotAt
+resumeAt
 (
 MInstruction
 *
@@ -692,7 +692,7 @@ pc
 )
 ;
 bool
-snapshotAfter
+resumeAfter
 (
 MInstruction
 *

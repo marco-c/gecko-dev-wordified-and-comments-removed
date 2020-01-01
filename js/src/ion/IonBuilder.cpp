@@ -821,12 +821,12 @@ toParameter
 param
 -
 >
-setSnapshot
+setResumePoint
 (
 current
 -
 >
-entrySnapshot
+entryResumePoint
 (
 )
 )
@@ -7155,7 +7155,7 @@ bool
 IonBuilder
 :
 :
-snapshotAfter
+resumeAfter
 (
 MInstruction
 *
@@ -7163,7 +7163,7 @@ ins
 )
 {
 return
-snapshotAt
+resumeAt
 (
 ins
 GetNextPc
@@ -7177,7 +7177,7 @@ bool
 IonBuilder
 :
 :
-snapshotAt
+resumeAt
 (
 MInstruction
 *
@@ -7187,11 +7187,11 @@ jsbytecode
 pc
 )
 {
-MSnapshot
+MResumePoint
 *
-snapshot
+resumePoint
 =
-MSnapshot
+MResumePoint
 :
 :
 New
@@ -7203,7 +7203,7 @@ pc
 if
 (
 !
-snapshot
+resumePoint
 )
 return
 false
@@ -7211,9 +7211,9 @@ false
 ins
 -
 >
-setSnapshot
+setResumePoint
 (
-snapshot
+resumePoint
 )
 ;
 return

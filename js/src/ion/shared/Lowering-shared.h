@@ -70,9 +70,9 @@ LBlock
 *
 current
 ;
-MSnapshot
+MResumePoint
 *
-last_snapshot_
+lastResumePoint_
 ;
 public
 :
@@ -101,7 +101,7 @@ lirGraph_
 (
 lirGraph
 )
-last_snapshot_
+lastResumePoint_
 (
 NULL
 )
