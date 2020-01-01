@@ -1677,7 +1677,7 @@ ptm
 )
 {
 return
-JSLL_ZERO
+0
 ;
 }
 tm

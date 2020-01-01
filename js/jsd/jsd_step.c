@@ -559,14 +559,14 @@ jsdc
 >
 lastReturnTime
 =
-JSLL_ZERO
+0
 ;
 pdata
 -
 >
 runningTime
 =
-JSLL_ZERO
+0
 ;
 pdata
 -
@@ -851,7 +851,7 @@ pdata
 >
 lastCallStart
 =
-JSLL_ZERO
+0
 ;
 +
 +
