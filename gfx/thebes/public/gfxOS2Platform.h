@@ -35,6 +35,13 @@ gfxFontUtils
 .
 h
 "
+#
+include
+"
+nsTArray
+.
+h
+"
 class
 gfxFontconfigUtils
 ;
@@ -105,7 +112,10 @@ const
 nsACString
 &
 aGenericFamily
-nsStringArray
+nsTArray
+<
+nsString
+>
 &
 aListOfFonts
 )

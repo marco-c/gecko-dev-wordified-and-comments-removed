@@ -445,7 +445,10 @@ const
 nsAString
 &
 aTypes
-nsStringArray
+nsTArray
+<
+nsString
+>
 &
 aResult
 )
@@ -542,7 +545,7 @@ subString
 ;
 aResult
 .
-AppendString
+AppendElement
 (
 subString
 )
@@ -593,7 +596,7 @@ subString
 ;
 aResult
 .
-AppendString
+AppendElement
 (
 subString
 )

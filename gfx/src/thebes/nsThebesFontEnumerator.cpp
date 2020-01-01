@@ -19,6 +19,13 @@ gfxPlatform
 .
 h
 "
+#
+include
+"
+nsTArray
+.
+h
+"
 NS_IMPL_ISUPPORTS1
 (
 nsThebesFontEnumerator
@@ -92,7 +99,10 @@ NS_ENSURE_ARG_POINTER
 aResult
 )
 ;
-nsStringArray
+nsTArray
+<
+nsString
+>
 fontList
 ;
 nsCAutoString
@@ -198,7 +208,7 @@ Alloc
 (
 fontList
 .
-Count
+Length
 (
 )
 *
@@ -212,7 +222,7 @@ PRUnichar
 ;
 for
 (
-int
+PRUint32
 i
 =
 0
@@ -221,7 +231,7 @@ i
 <
 fontList
 .
-Count
+Length
 (
 )
 ;
@@ -237,7 +247,6 @@ i
 =
 ToNewUnicode
 (
-*
 fontList
 [
 i
@@ -255,7 +264,7 @@ aCount
 =
 fontList
 .
-Count
+Length
 (
 )
 ;

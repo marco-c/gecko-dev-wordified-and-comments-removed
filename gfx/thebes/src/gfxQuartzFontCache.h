@@ -62,6 +62,13 @@ nsVoidArray
 .
 h
 "
+#
+include
+"
+nsTArray
+.
+h
+"
 struct
 FontSearch
 {
@@ -611,7 +618,10 @@ const
 nsACString
 &
 aGenericFamily
-nsStringArray
+nsTArray
+<
+nsString
+>
 &
 aListOfFonts
 )

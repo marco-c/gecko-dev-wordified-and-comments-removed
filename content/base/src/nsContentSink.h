@@ -77,6 +77,13 @@ h
 #
 include
 "
+nsTArray
+.
+h
+"
+#
+include
+"
 nsITimer
 .
 h

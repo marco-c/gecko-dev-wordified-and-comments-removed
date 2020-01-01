@@ -117,9 +117,6 @@ class
 nsAString
 ;
 class
-nsStringArray
-;
-class
 nsCaret
 ;
 class
