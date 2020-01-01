@@ -683,10 +683,6 @@ PlacesDBUtils
 .
 jsm
 \
-utils
-.
-js
-\
 (
 NULL
 )

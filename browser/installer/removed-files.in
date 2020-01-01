@@ -2761,6 +2761,11 @@ modules
 JSON
 .
 jsm
+modules
+/
+utils
+.
+js
 mozilla
 -
 runtime
@@ -7772,11 +7777,6 @@ tabview
 utils
 .
 jsm
-modules
-/
-utils
-.
-js
 modules
 /
 WindowDraggingUtils
