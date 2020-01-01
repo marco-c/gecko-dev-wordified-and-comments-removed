@@ -545,7 +545,6 @@ break
 ;
 default
 :
-break
 ;
 }
 switch
