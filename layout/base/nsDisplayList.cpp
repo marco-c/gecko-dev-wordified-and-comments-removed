@@ -171,6 +171,10 @@ mIgnoreSuppression
 (
 PR_FALSE
 )
+mHadToIgnoreSuppression
+(
+PR_TRUE
+)
 mIsAtRootOfPseudoStackingContext
 (
 PR_FALSE
