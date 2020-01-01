@@ -1407,7 +1407,7 @@ config
 >
 Get
 (
-var
+sysvar
 =
 >
 '

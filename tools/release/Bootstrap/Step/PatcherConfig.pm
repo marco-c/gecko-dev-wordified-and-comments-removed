@@ -689,7 +689,7 @@ config
 >
 Get
 (
-var
+sysvar
 =
 >
 '
