@@ -42641,8 +42641,6 @@ CPU_ARCH
 "
 in
 x86_64
-|
-ia64
 )
 WEBRTC_TARGET_ARCH
 =
@@ -42670,6 +42668,13 @@ ppc
 WEBRTC_TARGET_ARCH
 =
 ppc
+;
+;
+ia64
+)
+WEBRTC_TARGET_ARCH
+=
+ia64
 ;
 ;
 *
