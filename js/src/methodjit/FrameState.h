@@ -580,6 +580,14 @@ false
 ;
 inline
 void
+pushNumber
+(
+MaybeRegisterID
+payload
+)
+;
+inline
+void
 pop
 (
 )
