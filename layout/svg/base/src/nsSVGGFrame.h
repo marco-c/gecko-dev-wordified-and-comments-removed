@@ -50,10 +50,6 @@ nsSVGGFrameBase
 (
 aContext
 )
-mPropagateTransform
-(
-PR_TRUE
-)
 {
 }
 public
@@ -150,9 +146,6 @@ nsCOMPtr
 nsIDOMSVGMatrix
 >
 mOverrideCTM
-;
-PRPackedBool
-mPropagateTransform
 ;
 }
 ;

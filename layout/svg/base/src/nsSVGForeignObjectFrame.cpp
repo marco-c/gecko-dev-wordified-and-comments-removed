@@ -204,10 +204,6 @@ nsSVGForeignObjectFrameBase
 (
 aContext
 )
-mPropagateTransform
-(
-PR_TRUE
-)
 mInReflow
 (
 PR_FALSE
