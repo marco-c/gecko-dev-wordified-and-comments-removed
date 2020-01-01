@@ -31126,7 +31126,7 @@ obj
 obj
 -
 >
-ensureDenseArrayElements
+ensureSlots
 (
 cx
 count

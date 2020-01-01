@@ -31226,15 +31226,6 @@ cg
 hasSharps
 (
 )
-|
-|
-pn
--
->
-pn_count
->
-=
-MIN_SPARSE_INDEX
 )
 {
 if
