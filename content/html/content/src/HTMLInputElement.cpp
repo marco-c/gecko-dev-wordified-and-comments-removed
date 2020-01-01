@@ -1551,6 +1551,16 @@ rv
 rv
 )
 ;
+if
+(
+!
+iter
+)
+{
+return
+NS_OK
+;
+}
 nsCOMPtr
 <
 nsISupports
