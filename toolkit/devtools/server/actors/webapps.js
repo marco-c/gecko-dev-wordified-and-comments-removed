@@ -3235,12 +3235,7 @@ defer
 (
 )
 ;
-let
-reg
-=
 DOMApplicationRegistry
-;
-reg
 .
 launch
 (
@@ -3254,6 +3249,11 @@ startPoint
 |
 "
 "
+Date
+.
+now
+(
+)
 function
 onsuccess
 (

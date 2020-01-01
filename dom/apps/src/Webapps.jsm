@@ -5528,6 +5528,9 @@ manifestURL
 aData
 .
 startPoint
+aData
+.
+timestamp
 function
 onsuccess
 (
@@ -5583,6 +5586,7 @@ launch
 (
 aManifestURL
 aStartPoint
+aTimeStamp
 aOnSuccess
 aOnFailure
 )
@@ -5650,6 +5654,12 @@ appClone
 startPoint
 =
 aStartPoint
+;
+appClone
+.
+timestamp
+=
+aTimeStamp
 ;
 Services
 .
