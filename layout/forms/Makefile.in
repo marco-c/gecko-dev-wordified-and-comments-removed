@@ -176,6 +176,10 @@ nsProgressFrame
 .
 cpp
 \
+nsRangeFrame
+.
+cpp
+\
 nsMeterFrame
 .
 cpp
