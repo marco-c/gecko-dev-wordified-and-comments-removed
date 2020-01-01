@@ -1397,9 +1397,6 @@ mEnabled
 PRPackedBool
 mCreated
 ;
-PRPackedBool
-mPlaced
-;
 private
 :
 void

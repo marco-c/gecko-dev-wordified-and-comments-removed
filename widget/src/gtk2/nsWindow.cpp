@@ -1552,10 +1552,6 @@ mCreated
 =
 PR_FALSE
 ;
-mPlaced
-=
-PR_FALSE
-;
 mContainer
 =
 nsnull
@@ -4606,10 +4602,6 @@ mNeedsMove
 =
 PR_TRUE
 ;
-mPlaced
-=
-PR_TRUE
-;
 if
 (
 !
@@ -4829,10 +4821,6 @@ nsSizeMode_Normal
 )
 ;
 }
-mPlaced
-=
-PR_TRUE
-;
 if
 (
 aX
@@ -4878,6 +4866,10 @@ mCreated
 )
 return
 NS_OK
+;
+mNeedsMove
+=
+PR_FALSE
 ;
 if
 (
@@ -9421,10 +9413,6 @@ if
 mIsTopLevel
 )
 {
-mPlaced
-=
-PR_TRUE
-;
 mBounds
 .
 MoveTo
@@ -15901,7 +15889,7 @@ mWindowType
 eWindowType_plugin
 )
 {
-mNeedsMove
+mNeedsResize
 =
 PR_TRUE
 ;
@@ -18508,10 +18496,6 @@ if
 mIsTopLevel
 )
 {
-if
-(
-mPlaced
-)
 gtk_window_move
 (
 GTK_WINDOW
