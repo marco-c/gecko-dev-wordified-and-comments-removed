@@ -268,16 +268,8 @@ Drain
 0
 ;
 virtual
-nsresult
+void
 Start
-(
-)
-=
-0
-;
-virtual
-bool
-IsStarted
 (
 )
 =
