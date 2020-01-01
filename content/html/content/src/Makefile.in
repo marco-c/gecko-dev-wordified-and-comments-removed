@@ -384,7 +384,7 @@ nsHTMLFormElement
 .
 cpp
 \
-nsHTMLFrameElement
+HTMLFrameElement
 .
 cpp
 \
