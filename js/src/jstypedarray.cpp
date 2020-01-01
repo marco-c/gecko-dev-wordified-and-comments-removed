@@ -826,7 +826,7 @@ empty
 EmptyShape
 :
 :
-lookupInitialShape
+getInitialShape
 (
 cx
 &
@@ -6676,7 +6676,7 @@ empty
 EmptyShape
 :
 :
-lookupInitialShape
+getInitialShape
 (
 cx
 fastClass

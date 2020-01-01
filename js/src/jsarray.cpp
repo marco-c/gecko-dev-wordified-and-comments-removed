@@ -6077,7 +6077,7 @@ shape
 EmptyShape
 :
 :
-lookupInitialShape
+getInitialShape
 (
 cx
 &
@@ -18512,7 +18512,7 @@ shape
 EmptyShape
 :
 :
-lookupInitialShape
+getInitialShape
 (
 cx
 &

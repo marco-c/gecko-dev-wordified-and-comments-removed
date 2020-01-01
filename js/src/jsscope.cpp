@@ -1487,7 +1487,7 @@ newShape
 EmptyShape
 :
 :
-lookupInitialShape
+getInitialShape
 (
 cx
 base
@@ -1550,7 +1550,7 @@ nbase
 BaseShape
 :
 :
-lookup
+getUnowned
 (
 cx
 base
@@ -3150,7 +3150,7 @@ spp
 if
 (
 !
-updateFlags
+maybeSetIndexed
 (
 cx
 id
@@ -3193,7 +3193,7 @@ nbase
 BaseShape
 :
 :
-lookup
+getUnowned
 (
 cx
 base
@@ -3609,7 +3609,7 @@ nbase
 BaseShape
 :
 :
-lookup
+getUnowned
 (
 cx
 base
@@ -3921,7 +3921,7 @@ nbase
 BaseShape
 :
 :
-lookup
+getUnowned
 (
 cx
 base
@@ -5998,7 +5998,7 @@ UnownedBaseShape
 BaseShape
 :
 :
-lookup
+getUnowned
 (
 JSContext
 *
@@ -6565,7 +6565,7 @@ Shape
 EmptyShape
 :
 :
-lookupInitialShape
+getInitialShape
 (
 JSContext
 *
@@ -6705,7 +6705,7 @@ nbase
 BaseShape
 :
 :
-lookup
+getUnowned
 (
 cx
 base

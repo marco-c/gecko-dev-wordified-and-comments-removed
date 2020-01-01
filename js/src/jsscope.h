@@ -823,7 +823,7 @@ slotSpan
 static
 UnownedBaseShape
 *
-lookup
+getUnowned
 (
 JSContext
 *
@@ -1160,7 +1160,11 @@ base_
 HeapId
 propid_
 ;
-enum
+JS_ENUM_HEADER
+(
+SlotInfo
+uint32
+)
 {
 FIXED_SLOTS_MAX
 =
@@ -1195,6 +1199,10 @@ JS_BIT
 -
 1
 }
+JS_ENUM_FOOTER
+(
+SlotInfo
+)
 ;
 uint32
 slotInfo
@@ -3287,7 +3295,7 @@ nfixed
 static
 Shape
 *
-lookupInitialShape
+getInitialShape
 (
 JSContext
 *
