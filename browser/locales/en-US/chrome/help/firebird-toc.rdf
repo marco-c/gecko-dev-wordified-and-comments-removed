@@ -483,7 +483,9 @@ name
 =
 "
 Controlling
-Popups
+Pop
+-
+ups
 "
 nc
 :
@@ -2975,7 +2977,9 @@ name
 "
 What
 are
-Popups
+Pop
+-
+ups
 ?
 "
 nc
@@ -3022,7 +3026,9 @@ nc
 name
 =
 "
-Popup
+Pop
+-
+up
 Blocker
 Options
 "
@@ -3078,7 +3084,9 @@ nc
 name
 =
 "
-Popup
+Pop
+-
+up
 Blocker
 Preferences
 "
