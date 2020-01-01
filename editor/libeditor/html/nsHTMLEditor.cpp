@@ -16538,8 +16538,10 @@ this
 ;
 nsTArray
 <
+nsCOMPtr
+<
 nsIDOMNode
-*
+>
 >
 textNodes
 ;

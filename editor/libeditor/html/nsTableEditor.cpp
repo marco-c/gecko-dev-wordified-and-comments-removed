@@ -5268,8 +5268,10 @@ eNext
 ;
 nsTArray
 <
+nsCOMPtr
+<
 nsIDOMElement
-*
+>
 >
 spanCellList
 ;
@@ -8605,8 +8607,10 @@ rowIndex
 }
 nsTArray
 <
+nsCOMPtr
+<
 nsIDOMElement
-*
+>
 >
 deleteList
 ;

@@ -35087,8 +35087,10 @@ arrayOfEmptyCites
 ;
 nsTArray
 <
+nsCOMPtr
+<
 nsINode
-*
+>
 >
 skipList
 ;
