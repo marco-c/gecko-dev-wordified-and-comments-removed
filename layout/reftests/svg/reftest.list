@@ -2048,7 +2048,6 @@ language
 ref
 .
 xhtml
-#
 =
 =
 text
@@ -2067,11 +2066,6 @@ layout
 ref
 .
 svg
-#
-files
-missing
-Bug
-388547
 =
 =
 text
