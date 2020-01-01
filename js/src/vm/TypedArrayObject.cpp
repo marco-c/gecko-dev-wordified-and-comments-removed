@@ -272,6 +272,12 @@ mozilla
 :
 PodCopy
 ;
+using
+JS
+:
+:
+GenericNaN
+;
 static
 const
 uint8_t
@@ -5918,7 +5924,9 @@ isUndefined
 *
 d
 =
-js_NaN
+GenericNaN
+(
+)
 ;
 }
 else
@@ -5942,7 +5950,9 @@ else
 *
 d
 =
-js_NaN
+GenericNaN
+(
+)
 ;
 }
 #
@@ -11167,7 +11177,9 @@ ArrayTypeIsFloatingPoint
 ?
 NativeType
 (
-js_NaN
+GenericNaN
+(
+)
 )
 :
 NativeType

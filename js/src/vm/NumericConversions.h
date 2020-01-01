@@ -47,10 +47,6 @@ math
 .
 h
 >
-extern
-double
-js_NaN
-;
 namespace
 js
 {

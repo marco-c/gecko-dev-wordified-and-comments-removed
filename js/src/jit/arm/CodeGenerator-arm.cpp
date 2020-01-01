@@ -1724,7 +1724,9 @@ masm
 .
 loadConstantDouble
 (
-js_NaN
+GenericNaN
+(
+)
 output
 )
 ;

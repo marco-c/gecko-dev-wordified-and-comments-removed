@@ -42,6 +42,12 @@ using
 namespace
 mozilla
 ;
+using
+JS
+:
+:
+GenericNaN
+;
 #
 if
 defined
@@ -2232,7 +2238,9 @@ floats
 0
 ]
 =
-js_NaN
+GenericNaN
+(
+)
 ;
 floats
 [
@@ -2292,7 +2300,9 @@ dbls
 0
 ]
 =
-js_NaN
+GenericNaN
+(
+)
 ;
 dbls
 [

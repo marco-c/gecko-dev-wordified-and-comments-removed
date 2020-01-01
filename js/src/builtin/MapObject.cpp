@@ -108,6 +108,12 @@ mozilla
 :
 MoveRef
 ;
+using
+JS
+:
+:
+DoubleNaNValue
+;
 namespace
 js
 {
@@ -3536,9 +3542,8 @@ d
 {
 value
 =
-DoubleValue
+DoubleNaNValue
 (
-js_NaN
 )
 ;
 }

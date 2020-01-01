@@ -3617,7 +3617,9 @@ masm
 .
 loadConstantDouble
 (
-js_NaN
+GenericNaN
+(
+)
 ool
 -
 >

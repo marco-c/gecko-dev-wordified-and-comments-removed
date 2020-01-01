@@ -98,6 +98,12 @@ using
 namespace
 jit
 ;
+using
+JS
+:
+:
+GenericNaN
+;
 bool
 LIRGenerator
 :
@@ -9356,7 +9362,9 @@ NumbersOnly
 return
 lowerConstantDouble
 (
-js_NaN
+GenericNaN
+(
+)
 convert
 )
 ;
@@ -9578,7 +9586,9 @@ NumbersOnly
 return
 lowerConstantFloat32
 (
-js_NaN
+GenericNaN
+(
+)
 convert
 )
 ;
