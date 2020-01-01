@@ -138,11 +138,6 @@ nsIDTD
 h
 '
 '
-nsIElementObserver
-.
-h
-'
-'
 nsIFragmentContentSink
 .
 h
