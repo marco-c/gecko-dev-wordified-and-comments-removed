@@ -2148,6 +2148,13 @@ rv
 =
 PR_TRUE
 ;
+mFrame
+-
+>
+LockImageData
+(
+)
+;
 PRUint8
 *
 imageData
@@ -2437,6 +2444,13 @@ r
 )
 ;
 }
+mFrame
+-
+>
+UnlockImageData
+(
+)
+;
 return
 rv
 ;
