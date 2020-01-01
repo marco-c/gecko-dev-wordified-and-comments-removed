@@ -19366,14 +19366,14 @@ call
 NULL
 /
 *
-construct
+hasInstance
 *
 /
 \
 NULL
 /
 *
-hasInstance
+construct
 *
 /
 \
