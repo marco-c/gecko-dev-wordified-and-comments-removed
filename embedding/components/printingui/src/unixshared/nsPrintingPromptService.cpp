@@ -344,6 +344,7 @@ Show
 (
 parent
 printSettings
+webBrowserPrint
 )
 ;
 ParamBlock

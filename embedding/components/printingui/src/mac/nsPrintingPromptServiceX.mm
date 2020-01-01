@@ -891,6 +891,7 @@ Show
 (
 parent
 printSettings
+webBrowserPrint
 )
 ;
 return
