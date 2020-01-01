@@ -14320,7 +14320,7 @@ isConst
 pn
 -
 >
-isInitialized
+isDefn
 (
 )
 )
