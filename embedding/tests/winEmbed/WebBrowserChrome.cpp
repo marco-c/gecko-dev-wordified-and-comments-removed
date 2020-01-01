@@ -85,13 +85,6 @@ h
 #
 include
 "
-nsIProfileChangeStatus
-.
-h
-"
-#
-include
-"
 nsComponentManagerUtils
 .
 h
