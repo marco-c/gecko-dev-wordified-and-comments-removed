@@ -1128,16 +1128,8 @@ extraD
 )
 ;
 }
-#
-endif
-namespace
-mozilla
-{
-#
-ifdef
-XP_WIN
 PRInt32
-CompareVersions
+NS_CompareVersions
 (
 const
 PRUnichar
@@ -1265,7 +1257,7 @@ result
 #
 endif
 PRInt32
-CompareVersions
+NS_CompareVersions
 (
 const
 char
@@ -1389,5 +1381,4 @@ B2
 return
 result
 ;
-}
 }
