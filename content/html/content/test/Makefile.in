@@ -1245,6 +1245,10 @@ test_bug586763
 .
 html
 \
+test_bug587469
+.
+html
+\
 test_bug598643
 .
 html
