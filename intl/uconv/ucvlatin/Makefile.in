@@ -299,7 +299,7 @@ nsMUTF7ToUnicode
 .
 cpp
 \
-nsUCS2BEToUnicode
+nsUTF16ToUnicode
 .
 cpp
 \
@@ -519,7 +519,7 @@ nsUnicodeToMUTF7
 .
 cpp
 \
-nsUnicodeToUCS2BE
+nsUnicodeToUTF16
 .
 cpp
 \

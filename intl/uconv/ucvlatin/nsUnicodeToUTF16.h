@@ -1,9 +1,9 @@
 #
 ifndef
-nsUnicodeToUCS2BE_h___
+nsUnicodeToUTF16_h_
 #
 define
-nsUnicodeToUCS2BE_h___
+nsUnicodeToUTF16_h_
 #
 include
 "
