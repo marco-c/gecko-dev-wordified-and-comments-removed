@@ -184,11 +184,6 @@ js
 input
 /
 Makefile
-build
-/
-virtualenv
-/
-Makefile
 config
 /
 Makefile
