@@ -429,6 +429,16 @@ DestroyAtomTable
 )
 ;
 static
+mozilla
+:
+:
+Mutex
+*
+GetLock
+(
+)
+;
+static
 nsHttpAtom
 ResolveAtom
 (
