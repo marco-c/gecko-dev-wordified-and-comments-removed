@@ -149,7 +149,6 @@ bidi
 ref
 .
 html
-skip
 =
 =
 bidi
@@ -164,11 +163,6 @@ bidi
 ref
 .
 html
-#
-depends
-on
-bug
-376532
 =
 =
 386339
