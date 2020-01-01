@@ -3208,6 +3208,11 @@ aType
 NS_PASTE
 )
 {
+if
+(
+clipboardData
+)
+{
 clipboardData
 -
 >
@@ -3222,6 +3227,7 @@ SetReadOnly
 (
 )
 ;
+}
 return
 doDefault
 ;
@@ -3303,6 +3309,10 @@ false
 }
 }
 else
+if
+(
+clipboardData
+)
 {
 clipboardData
 -
