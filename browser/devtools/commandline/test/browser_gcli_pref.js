@@ -244,6 +244,8 @@ gre
 /
 modules
 /
+devtools
+/
 Require
 .
 jsm
