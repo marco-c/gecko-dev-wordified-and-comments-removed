@@ -1084,9 +1084,7 @@ nsIDOMHTMLHeadingElement
 |
 aElement
 instanceof
-Ci
-.
-nsIDOMHTMLTableCellElement
+HTMLTableCellElement
 |
 |
 aElement
