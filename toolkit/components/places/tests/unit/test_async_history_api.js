@@ -2388,8 +2388,7 @@ visits
 .
 sessionId
 =
--
-1
+0
 ;
 do_check_false
 (

@@ -3239,7 +3239,7 @@ selectSession
 NS_ENSURE_SUCCESS
 (
 rv
-rv
+0
 )
 ;
 bool

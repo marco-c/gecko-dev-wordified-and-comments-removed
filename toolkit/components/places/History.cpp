@@ -3425,7 +3425,7 @@ visitTime
 NS_ENSURE_SUCCESS
 (
 rv
-rv
+false
 )
 ;
 scoper
