@@ -2030,13 +2030,38 @@ self
 )
 :
         
-leakLogFile
+self
+.
+env
+[
+"
+XPCOM_MEM_LEAK_LOG
+"
+]
 =
+self
+.
+remoteJoin
+(
+self
+.
+profileDir
 "
+leaks
+.
+log
 "
+)
         
 return
-leakLogFile
+self
+.
+env
+[
+"
+XPCOM_MEM_LEAK_LOG
+"
+]
     
 def
 setLD_LIBRARY_PATH
@@ -2273,6 +2298,12 @@ env
 =
 {
 }
+        
+self
+.
+buildCoreEnvironment
+(
+)
         
 self
 .
