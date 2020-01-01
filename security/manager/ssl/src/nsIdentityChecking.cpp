@@ -3442,8 +3442,6 @@ CERT_REV_M_ALLOW_IMPLICIT_DEFAULT_SOURCE
 |
 CERT_REV_M_REQUIRE_INFO_ON_MISSING_SOURCE
 |
-CERT_REV_M_FAIL_ON_MISSING_FRESH_INFO
-|
 CERT_REV_M_STOP_TESTING_ON_FRESH_INFO
 ;
 PRUint64
@@ -3530,7 +3528,7 @@ cert_revocation_method_ocsp
 ;
 rev
 .
-leafTests
+chainTests
 .
 cert_rev_flags_per_method
 =
