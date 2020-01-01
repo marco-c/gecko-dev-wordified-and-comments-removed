@@ -61526,9 +61526,12 @@ n
                               
 "
 return
+dont_AddRef
+(
 {
 declName
 }
+)
 ;
 "
 )
@@ -61553,9 +61556,12 @@ n
                               
 "
 return
+dont_AddRef
+(
 {
 declName
 }
+)
 ;
 "
 )
