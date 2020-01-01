@@ -461,10 +461,6 @@ browser_webconsole_bug_782653_CSS_links_in_Style_Editor
 .
 js
 \
-browser_webconsole_bug_843019_variables_view_filter
-.
-js
-\
 browser_cached_messages
 .
 js
