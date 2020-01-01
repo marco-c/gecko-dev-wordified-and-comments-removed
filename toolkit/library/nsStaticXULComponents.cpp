@@ -810,6 +810,11 @@ WINDOWSPROXY_MODULE
 \
 JSCTYPES_MODULE
 \
+MODULE
+(
+jsperf
+)
+\
 /
 *
 end

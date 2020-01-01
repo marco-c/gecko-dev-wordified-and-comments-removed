@@ -773,6 +773,10 @@ jsctypes
 NULL
 )
 endif
+COMPONENT_LIBS
++
+=
+jsperf
 ifdef
 MOZ_PLUGINS
 DEFINES

@@ -1,9 +1,9 @@
 #
 ifndef
-MODULE_H
+COMPONENTS_CTYPES_H
 #
 define
-MODULE_H
+COMPONENTS_CTYPES_H
 #
 include
 "
