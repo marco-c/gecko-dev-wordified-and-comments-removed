@@ -3184,6 +3184,9 @@ h
 wchar
 .
 h
+wctype
+.
+h
 winbase
 .
 h
