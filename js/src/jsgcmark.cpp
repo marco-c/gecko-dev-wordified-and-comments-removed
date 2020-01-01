@@ -4486,6 +4486,13 @@ filename
 #
 ifdef
 JS_ION
+if
+(
+script
+-
+>
+ion
+)
 ion
 :
 :
@@ -4496,6 +4503,9 @@ Trace
 (
 trc
 script
+-
+>
+ion
 )
 ;
 #

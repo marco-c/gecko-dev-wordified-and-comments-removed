@@ -589,9 +589,6 @@ trace
 JSTracer
 *
 trc
-JSScript
-*
-script
 )
 ;
 public
@@ -627,7 +624,7 @@ Trace
 JSTracer
 *
 trc
-JSScript
+IonScript
 *
 script
 )

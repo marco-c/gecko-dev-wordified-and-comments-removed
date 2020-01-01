@@ -80,7 +80,7 @@ CalleeToken_InvalidationRecord
 static
 inline
 CalleeTokenTag
-CalleeTokenGetTag
+GetCalleeTokenTag
 (
 CalleeToken
 token
@@ -121,7 +121,7 @@ token
 )
 {
 return
-CalleeTokenGetTag
+GetCalleeTokenTag
 (
 token
 )
@@ -217,7 +217,7 @@ token
 {
 JS_ASSERT
 (
-CalleeTokenGetTag
+GetCalleeTokenTag
 (
 token
 )
@@ -246,7 +246,7 @@ token
 {
 JS_ASSERT
 (
-CalleeTokenGetTag
+GetCalleeTokenTag
 (
 token
 )
@@ -286,7 +286,7 @@ token
 {
 JS_ASSERT
 (
-CalleeTokenGetTag
+GetCalleeTokenTag
 (
 token
 )
@@ -887,6 +887,17 @@ ResumeFromException
 rfe
 )
 ;
+void
+MarkIonActivations
+(
+ThreadData
+*
+td
+JSTracer
+*
+trc
+)
+;
 static
 inline
 uint32
@@ -1091,9 +1102,7 @@ more
 const
 {
 return
-prevType
-(
-)
+type_
 !
 =
 IonFrame_Entry
