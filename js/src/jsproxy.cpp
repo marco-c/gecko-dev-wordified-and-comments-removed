@@ -14071,7 +14071,7 @@ BaseProxyHandler
 :
 :
 GET
-false
+true
 )
 ;
 if
