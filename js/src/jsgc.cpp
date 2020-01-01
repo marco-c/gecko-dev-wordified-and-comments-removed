@@ -13910,7 +13910,13 @@ else
 AutoCopyFreeListToArenas
 copy
 (
-rt
+trc
+-
+>
+context
+-
+>
+runtime
 )
 ;
 RecordNativeStackTopForGC
