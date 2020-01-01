@@ -5438,10 +5438,6 @@ GetDPI
 (
 )
 {
-LogFunction
-(
-)
-;
 if
 (
 !
