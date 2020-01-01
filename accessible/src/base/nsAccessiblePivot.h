@@ -104,8 +104,8 @@ nsAccessiblePivot
 )
 MOZ_DELETE
 ;
-void
-NotifyPivotChanged
+bool
+NotifyOfPivotChange
 (
 Accessible
 *
@@ -158,7 +158,7 @@ nsresult
 aResult
 )
 ;
-void
+bool
 MovePivotInternal
 (
 Accessible
