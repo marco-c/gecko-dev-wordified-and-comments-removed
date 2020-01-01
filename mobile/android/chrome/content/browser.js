@@ -7909,6 +7909,10 @@ null
 if
 (
 focused
+&
+&
+(
+focused
 instanceof
 HTMLTextAreaElement
 |
@@ -7916,6 +7920,7 @@ HTMLTextAreaElement
 focused
 .
 isContentEditable
+)
 )
 {
 if
@@ -28933,9 +28938,6 @@ MILLISECONDS_PER_DAY
 COPY_FIELDS
 :
 [
-"
-blocklistState
-"
 "
 userDisabled
 "
