@@ -382,5 +382,13 @@ GetJNIForThread
 (
 )
 ;
+extern
+PRBool
+mozilla_AndroidBridge_SetMainThread
+(
+void
+*
+)
+;
 #
 endif
