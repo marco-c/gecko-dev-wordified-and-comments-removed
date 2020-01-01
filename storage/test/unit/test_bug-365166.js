@@ -204,6 +204,12 @@ reset
 (
 )
 ;
+statement
+.
+finalize
+(
+)
+;
 }
 }
 }

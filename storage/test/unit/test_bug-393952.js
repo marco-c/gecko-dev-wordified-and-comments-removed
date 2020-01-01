@@ -52,6 +52,12 @@ reset
 (
 )
 ;
+stmt
+.
+finalize
+(
+)
+;
 }
 function
 test_vacuum
@@ -78,6 +84,12 @@ executeStep
 stmt
 .
 reset
+(
+)
+;
+stmt
+.
+finalize
 (
 )
 ;
