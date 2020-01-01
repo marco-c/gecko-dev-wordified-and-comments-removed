@@ -116,6 +116,10 @@ EXPORTS_mozilla
 dom
 =
 \
+CanvasRenderingContext2D
+.
+h
+\
 ImageData
 .
 h
@@ -130,11 +134,11 @@ CanvasImageCache
 .
 cpp
 \
-CanvasUtils
+CanvasRenderingContext2D
 .
 cpp
 \
-CanvasRenderingContext2D
+CanvasUtils
 .
 cpp
 \
