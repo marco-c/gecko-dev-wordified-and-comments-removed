@@ -280,6 +280,14 @@ PostScrolledAreaEventForCurrentArea
 =
 0
 ;
+virtual
+PRBool
+IsScrollingActive
+(
+)
+=
+0
+;
 }
 ;
 #

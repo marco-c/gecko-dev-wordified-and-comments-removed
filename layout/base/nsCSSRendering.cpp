@@ -10426,6 +10426,13 @@ aLayer
 mAttachment
 )
 {
+aPresContext
+-
+>
+SetHasFixedBackgroundFrame
+(
+)
+;
 nsIFrame
 *
 topFrame
