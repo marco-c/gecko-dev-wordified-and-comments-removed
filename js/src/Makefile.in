@@ -1205,15 +1205,6 @@ jswince
 .
 asm
 endif
-ifdef
-DEBUG
-CPPSRCS
-+
-=
-TraceTreeDrawer
-.
-cpp
-endif
 endif
 #
 ENABLE_JIT
