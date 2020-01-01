@@ -630,16 +630,6 @@ MediaInputPort
 aPort
 )
 ;
-void
-SetStreamOrderDirty
-(
-)
-{
-mStreamOrderDirty
-=
-true
-;
-}
 nsCOMPtr
 <
 nsIThread
@@ -774,9 +764,6 @@ mRealtime
 ;
 bool
 mNonRealtimeProcessing
-;
-bool
-mStreamOrderDirty
 ;
 }
 ;
