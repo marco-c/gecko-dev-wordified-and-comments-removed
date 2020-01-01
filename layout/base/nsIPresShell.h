@@ -91,13 +91,6 @@ h
 #
 include
 "
-nsRefreshDriver
-.
-h
-"
-#
-include
-"
 nsChangeHint
 .
 h
@@ -205,6 +198,12 @@ nsRect
 ;
 struct
 nsIntRect
+;
+class
+nsRefreshDriver
+;
+class
+nsARefreshObserver
 ;
 typedef
 short
