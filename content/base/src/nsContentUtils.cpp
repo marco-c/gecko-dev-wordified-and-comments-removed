@@ -9397,6 +9397,11 @@ GetDocumentURI
 (
 )
 ;
+NS_TryToSetImmutable
+(
+aURI
+)
+;
 return
 sImgLoader
 -
