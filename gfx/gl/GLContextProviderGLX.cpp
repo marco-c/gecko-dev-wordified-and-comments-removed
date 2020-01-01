@@ -126,13 +126,6 @@ h
 #
 include
 "
-GLLibraryLoader
-.
-h
-"
-#
-include
-"
 nsDebug
 .
 h
@@ -418,7 +411,7 @@ mDebug
 true
 ;
 }
-GLLibraryLoader
+LibrarySymbolLoader
 :
 :
 SymLoadStruct
@@ -575,7 +568,7 @@ NULL
 }
 }
 ;
-GLLibraryLoader
+LibrarySymbolLoader
 :
 :
 SymLoadStruct
@@ -690,7 +683,7 @@ NULL
 }
 }
 ;
-GLLibraryLoader
+LibrarySymbolLoader
 :
 :
 SymLoadStruct
@@ -791,7 +784,7 @@ NULL
 }
 }
 ;
-GLLibraryLoader
+LibrarySymbolLoader
 :
 :
 SymLoadStruct
@@ -822,7 +815,7 @@ NULL
 }
 }
 ;
-GLLibraryLoader
+LibrarySymbolLoader
 :
 :
 SymLoadStruct
@@ -853,7 +846,7 @@ NULL
 }
 }
 ;
-GLLibraryLoader
+LibrarySymbolLoader
 :
 :
 SymLoadStruct
@@ -898,7 +891,7 @@ NULL
 }
 }
 ;
-GLLibraryLoader
+LibrarySymbolLoader
 :
 :
 SymLoadStruct
@@ -932,7 +925,7 @@ NULL
 if
 (
 !
-GLLibraryLoader
+LibrarySymbolLoader
 :
 :
 LoadSymbols
@@ -1067,7 +1060,7 @@ display
 screen
 )
 ;
-GLLibraryLoader
+LibrarySymbolLoader
 :
 :
 SymLoadStruct
@@ -1115,7 +1108,7 @@ symbols13
 if
 (
 !
-GLLibraryLoader
+LibrarySymbolLoader
 :
 :
 LoadSymbols
@@ -1146,7 +1139,7 @@ return
 false
 ;
 }
-GLLibraryLoader
+LibrarySymbolLoader
 :
 :
 SymLoadStruct
@@ -1194,7 +1187,7 @@ symbols14
 if
 (
 !
-GLLibraryLoader
+LibrarySymbolLoader
 :
 :
 LoadSymbols
@@ -1236,7 +1229,7 @@ GLX_EXT_texture_from_pixmap
 )
 &
 &
-GLLibraryLoader
+LibrarySymbolLoader
 :
 :
 LoadSymbols
@@ -1244,7 +1237,7 @@ LoadSymbols
 mOGLLibrary
 symbols_texturefrompixmap
 (
-GLLibraryLoader
+LibrarySymbolLoader
 :
 :
 PlatformLookupFunction
@@ -1283,7 +1276,7 @@ GLX_ARB_create_context_robustness
 )
 &
 &
-GLLibraryLoader
+LibrarySymbolLoader
 :
 :
 LoadSymbols
