@@ -5388,6 +5388,12 @@ frameRect
 Size
 (
 )
+mFrame
+-
+>
+GetSkipSides
+(
+)
 twipsRadii
 )
 ;

@@ -1989,6 +1989,8 @@ const
 nsSize
 &
 aFrameSize
+PRIntn
+aSkipSides
 nscoord
 aRadii
 [
