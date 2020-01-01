@@ -193,7 +193,7 @@ engine
 .
 forms
 "
-false
+true
 )
 ;
 pref
@@ -235,7 +235,7 @@ engine
 .
 prefs
 "
-false
+true
 )
 ;
 pref
