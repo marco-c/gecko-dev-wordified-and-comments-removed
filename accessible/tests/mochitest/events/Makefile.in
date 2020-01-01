@@ -449,6 +449,10 @@ _TEST_FILES
 \
 docload_wnd
 .
+html
+\
+docload_wnd
+.
 xul
 \
 focus
