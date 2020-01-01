@@ -388,6 +388,10 @@ file_bug775543
 .
 html
 \
+file_bug707564
+.
+html
+\
 test_bug788369
 .
 html
@@ -447,6 +451,12 @@ MOCHITEST_CHROME_FILES
 =
 \
 test_bug775543
+.
+html
+\
+test_bug707564
+-
+chrome
 .
 html
 \

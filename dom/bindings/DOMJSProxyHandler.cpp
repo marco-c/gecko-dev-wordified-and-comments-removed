@@ -1409,6 +1409,9 @@ nsString
 names
 bool
 shadowPrototypeProperties
+DOMProxyHandler
+*
+handler
 JS
 :
 :
@@ -1518,7 +1521,7 @@ HasPropertyOnPrototype
 (
 cx
 proxy
-this
+handler
 id
 )
 )

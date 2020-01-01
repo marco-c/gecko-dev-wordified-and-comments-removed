@@ -500,8 +500,7 @@ DOMClass
 &
 mClass
 ;
-protected
-:
+static
 bool
 AppendNamedPropertyIds
 (
@@ -525,6 +524,9 @@ nsString
 names
 bool
 shadowPrototypeProperties
+DOMProxyHandler
+*
+handler
 JS
 :
 :
