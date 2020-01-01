@@ -224,8 +224,6 @@ SendSMS
 (
 aNumber
 aMessage
-aRequestId
-aProcessId
 )
 ;
 return
