@@ -212,6 +212,13 @@ char
 clientID
 )
 ;
+bool
+EntryIsTooBig
+(
+PRInt64
+entrySize
+)
+;
 void
 SetCacheParentDirectory
 (
