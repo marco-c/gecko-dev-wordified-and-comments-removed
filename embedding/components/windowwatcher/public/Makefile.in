@@ -477,10 +477,6 @@ nsIPromptFactory
 .
 idl
 \
-nsINonBlockingAlertService
-.
-idl
-\
 (
 NULL
 )

@@ -441,16 +441,6 @@ NS_PROMPTSERVICE_CID
 NS_PROMPTSERVICE_CONTRACTID
 nsPromptServiceConstructor
 }
-{
-"
-Nonblocking
-Alert
-Service
-"
-NS_PROMPTSERVICE_CID
-NS_NONBLOCKINGALERTSERVICE_CONTRACTID
-nsPromptServiceConstructor
-}
 #
 ifdef
 NS_PRINTING
