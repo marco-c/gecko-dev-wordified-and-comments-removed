@@ -699,8 +699,8 @@ scope
 >
 freeslot
 )
-goto
-exit_trace
+return
+false
 ;
 JS_ASSERT
 (
@@ -741,8 +741,8 @@ if
 !
 scope
 )
-goto
-exit_trace
+return
+false
 ;
 }
 else
@@ -932,7 +932,7 @@ scope
 )
 ;
 return
-JS_TRUE
+true
 ;
 exit_trace
 :
@@ -943,7 +943,7 @@ scope
 )
 ;
 return
-JS_FALSE
+false
 ;
 }
 JSBool

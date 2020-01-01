@@ -44,13 +44,6 @@ h
 #
 include
 "
-nsIGenericFactory
-.
-h
-"
-#
-include
-"
 nsIServiceManager
 .
 h
