@@ -295,8 +295,6 @@ script
 function
 -
 name
--
-arity
 .
 js
 script
