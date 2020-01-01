@@ -1259,6 +1259,7 @@ postLinkFailureInfo_
 ;
 public
 :
+explicit
 AsmJSModule
 (
 JSContext
