@@ -792,6 +792,14 @@ browser_webconsole_bug_611795
 .
 js
 \
+browser_webconsole_bug_618311_close_panels
+.
+js
+\
+browser_webconsole_bug_618311_private_browsing
+.
+js
+\
 head
 .
 js
