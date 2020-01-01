@@ -5,10 +5,13 @@ jsautooplen
 .
 h
 "
+namespace
+js
+{
 JS_ALWAYS_INLINE
 jsbytecode
 *
-js_AdvanceOverBlockchain
+AdvanceOverBlockchainOp
 (
 jsbytecode
 *
@@ -28,7 +31,6 @@ pc
 +
 JSOP_NULLBLOCKCHAIN_LENGTH
 ;
-else
 if
 (
 *
@@ -42,8 +44,8 @@ pc
 +
 JSOP_BLOCKCHAIN_LENGTH
 ;
-else
 return
 pc
 ;
+}
 }

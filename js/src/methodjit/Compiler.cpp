@@ -10057,7 +10057,7 @@ jsbytecode
 *
 pc2
 =
-js_AdvanceOverBlockchain
+AdvanceOverBlockchainOp
 (
 PC
 +

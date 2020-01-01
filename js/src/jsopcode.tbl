@@ -5204,7 +5204,7 @@ OPDEF
 JSOP_INDEXBASE
 189
 "
-atombase
+indexbase
 "
 NULL
 2
@@ -5815,7 +5815,7 @@ OPDEF
 JSOP_INDEXBASE1
 212
 "
-atombase1
+indexbase1
 "
 NULL
 1
@@ -5831,7 +5831,7 @@ OPDEF
 JSOP_INDEXBASE2
 213
 "
-atombase2
+indexbase2
 "
 NULL
 1
@@ -5847,7 +5847,7 @@ OPDEF
 JSOP_INDEXBASE3
 214
 "
-atombase3
+indexbase3
 "
 NULL
 1

@@ -7147,7 +7147,6 @@ index
 cg
 )
 ;
-else
 return
 js_Emit1
 (
