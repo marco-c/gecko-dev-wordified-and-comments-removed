@@ -8563,7 +8563,10 @@ stretch
 NSAppUnitsToFloatPixels
 (
 fontSize
+float
+(
 aupcp
+)
 )
 language
 fontStyle
@@ -14326,8 +14329,14 @@ CheckSurfaceSize
 (
 gfxIntSize
 (
+PRInt32
+(
 aW
+)
+PRInt32
+(
 aH
+)
 )
 0xffff
 )
