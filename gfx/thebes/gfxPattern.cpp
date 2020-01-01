@@ -415,6 +415,12 @@ ToMatrix
 matrix
 )
 ;
+mTransform
+.
+Invert
+(
+)
+;
 }
 }
 gfxMatrix
