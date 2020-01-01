@@ -20,7 +20,7 @@ test
 {
 requestLongerTimeout
 (
-2
+4
 )
 ;
 debug_chrome
