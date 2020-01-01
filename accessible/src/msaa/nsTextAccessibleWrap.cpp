@@ -647,7 +647,7 @@ __try
 nsresult
 rv
 =
-nsAccUtils
+nsCoreUtils
 :
 :
 ScrollSubstringTo

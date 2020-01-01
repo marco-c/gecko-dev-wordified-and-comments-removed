@@ -846,7 +846,7 @@ rv
 rv
 )
 ;
-nsAccUtils
+nsCoreUtils
 :
 :
 SetAccAttrsForXULSelectControlItem

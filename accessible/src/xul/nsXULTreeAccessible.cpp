@@ -3197,7 +3197,7 @@ name
 cachedName
 )
 {
-nsAccUtils
+nsCoreUtils
 :
 :
 FireAccEvent
@@ -4627,7 +4627,7 @@ posInSet
 =
 topCount
 ;
-nsAccUtils
+nsCoreUtils
 :
 :
 SetAccGroupAttrs
@@ -4657,7 +4657,7 @@ if
 isCycler
 )
 {
-nsAccUtils
+nsCoreUtils
 :
 :
 SetAccAttr

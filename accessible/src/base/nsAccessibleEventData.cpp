@@ -15,7 +15,7 @@ h
 #
 include
 "
-nsAccessibilityUtils
+nsCoreUtils
 .
 h
 "
@@ -1263,7 +1263,7 @@ continue
 }
 if
 (
-nsAccUtils
+nsCoreUtils
 :
 :
 IsAncestorOf
@@ -1313,7 +1313,7 @@ continue
 }
 if
 (
-nsAccUtils
+nsCoreUtils
 :
 :
 IsAncestorOf
@@ -1570,7 +1570,7 @@ nsAccEvent
 eDoNotEmit
 &
 &
-nsAccUtils
+nsCoreUtils
 :
 :
 AreSiblings

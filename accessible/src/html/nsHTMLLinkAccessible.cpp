@@ -260,7 +260,7 @@ eLinkState_Unknown
 PRBool
 isOnclick
 =
-nsAccUtils
+nsCoreUtils
 :
 :
 HasListener

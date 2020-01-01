@@ -1408,7 +1408,7 @@ nsIContent
 *
 descriptionContent
 =
-nsAccUtils
+nsCoreUtils
 :
 :
 FindNeighbourPointingToNode
@@ -1839,7 +1839,7 @@ NS_ERROR_FAILURE
 PRUint32
 key
 =
-nsAccUtils
+nsCoreUtils
 :
 :
 GetAccessKeyFor
@@ -1894,7 +1894,7 @@ labelNode
 &
 &
 !
-nsAccUtils
+nsCoreUtils
 :
 :
 IsAncestorOf
@@ -1905,7 +1905,7 @@ mDOMNode
 )
 key
 =
-nsAccUtils
+nsCoreUtils
 :
 :
 GetAccessKeyFor
@@ -4452,7 +4452,7 @@ STATE_FLOATING
 ;
 if
 (
-nsAccUtils
+nsCoreUtils
 :
 :
 IsXLink
@@ -6314,7 +6314,7 @@ if
 content
 &
 &
-nsAccUtils
+nsCoreUtils
 :
 :
 GetID
@@ -7689,7 +7689,7 @@ eXUL
 )
 )
 return
-nsAccUtils
+nsCoreUtils
 :
 :
 FindNeighbourPointingToNode
@@ -7799,7 +7799,7 @@ forId
 if
 (
 !
-nsAccUtils
+nsCoreUtils
 :
 :
 GetID
@@ -7813,7 +7813,7 @@ break
 ;
 }
 return
-nsAccUtils
+nsCoreUtils
 :
 :
 FindDescendantPointingToID
@@ -8457,7 +8457,7 @@ nsIContent
 *
 labelContent
 =
-nsAccUtils
+nsCoreUtils
 :
 :
 FindNeighbourPointingToNode
@@ -9290,7 +9290,7 @@ oldValueUnused
 ;
 if
 (
-nsAccUtils
+nsCoreUtils
 :
 :
 GetID
@@ -9542,7 +9542,7 @@ oldValueUnused
 if
 (
 !
-nsAccUtils
+nsCoreUtils
 :
 :
 HasAccGroupAttrs
@@ -9963,7 +9963,7 @@ nextParent
 ;
 }
 }
-nsAccUtils
+nsCoreUtils
 :
 :
 SetAccGroupAttrs
@@ -10071,7 +10071,7 @@ continue
 if
 (
 !
-nsAccUtils
+nsCoreUtils
 :
 :
 IsARIAPropForObjectAttr
@@ -10224,7 +10224,7 @@ _class
 _class
 )
 )
-nsAccUtils
+nsCoreUtils
 :
 :
 SetAccAttr
@@ -10302,7 +10302,7 @@ NS_ENSURE_STATE
 topContent
 )
 ;
-nsAccUtils
+nsCoreUtils
 :
 :
 GetLiveContainerAttributes
@@ -10433,7 +10433,7 @@ NS_SUCCEEDED
 rv
 )
 )
-nsAccUtils
+nsCoreUtils
 :
 :
 SetAccAttr
@@ -10535,7 +10535,7 @@ level
 posInSet
 setSize
 ;
-nsAccUtils
+nsCoreUtils
 :
 :
 GetAccGroupAttrs
@@ -10867,7 +10867,7 @@ tabPanelNode
 ;
 if
 (
-nsAccUtils
+nsCoreUtils
 :
 :
 IsAncestorOf
@@ -11019,7 +11019,7 @@ if
 content
 &
 &
-nsAccUtils
+nsCoreUtils
 :
 :
 GetID
@@ -11856,7 +11856,7 @@ NS_OK
 ;
 if
 (
-nsAccUtils
+nsCoreUtils
 :
 :
 IsXLink
@@ -12307,7 +12307,7 @@ mDOMNode
 ;
 if
 (
-nsAccUtils
+nsCoreUtils
 :
 :
 IsXLink
@@ -12991,7 +12991,7 @@ relatedNode
 =
 do_QueryInterface
 (
-nsAccUtils
+nsCoreUtils
 :
 :
 FindNeighbourPointingToNode
@@ -13074,7 +13074,7 @@ relatedNode
 =
 do_QueryInterface
 (
-nsAccUtils
+nsCoreUtils
 :
 :
 FindNeighbourPointingToNode
@@ -13106,7 +13106,7 @@ relatedNode
 =
 do_QueryInterface
 (
-nsAccUtils
+nsCoreUtils
 :
 :
 FindNeighbourPointingToNode
@@ -13179,7 +13179,7 @@ relatedNode
 =
 do_QueryInterface
 (
-nsAccUtils
+nsCoreUtils
 :
 :
 FindNeighbourPointingToNode
@@ -13213,7 +13213,7 @@ nsIAccessibleRole
 ROLE_OUTLINEITEM
 )
 {
-nsAccUtils
+nsCoreUtils
 :
 :
 GetARIATreeItemParent
@@ -13305,7 +13305,7 @@ relatedNode
 =
 do_QueryInterface
 (
-nsAccUtils
+nsCoreUtils
 :
 :
 FindNeighbourPointingToNode
@@ -13378,7 +13378,7 @@ relatedNode
 =
 do_QueryInterface
 (
-nsAccUtils
+nsCoreUtils
 :
 :
 FindNeighbourPointingToNode
@@ -14231,7 +14231,7 @@ NS_PRESSHELL_SCROLL_ANYWHERE
 PRBool
 res
 =
-nsAccUtils
+nsCoreUtils
 :
 :
 DispatchMouseEvent
@@ -14248,7 +14248,7 @@ res
 )
 return
 ;
-nsAccUtils
+nsCoreUtils
 :
 :
 DispatchMouseEvent
@@ -15249,7 +15249,7 @@ mDOMNode
 ;
 if
 (
-nsAccUtils
+nsCoreUtils
 :
 :
 IsXLink
@@ -16481,7 +16481,7 @@ mDOMNode
 ;
 if
 (
-nsAccUtils
+nsCoreUtils
 :
 :
 IsXLink
@@ -16495,7 +16495,7 @@ eJumpAction
 PRBool
 isOnclick
 =
-nsAccUtils
+nsCoreUtils
 :
 :
 HasListener

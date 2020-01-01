@@ -2276,7 +2276,7 @@ rv
 rv
 )
 ;
-nsAccUtils
+nsCoreUtils
 :
 :
 SetAccAttrsForXULContainerItem

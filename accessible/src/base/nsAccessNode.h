@@ -21,7 +21,7 @@ h
 #
 include
 "
-nsAccessibilityUtils
+nsCoreUtils
 .
 h
 "

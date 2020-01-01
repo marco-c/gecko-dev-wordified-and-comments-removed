@@ -509,7 +509,7 @@ nsAccessibilityAtoms
 .
 cpp
 \
-nsAccessibilityUtils
+nsCoreUtils
 .
 cpp
 \

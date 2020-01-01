@@ -15,7 +15,7 @@ h
 #
 include
 "
-nsAccessibilityUtils
+nsCoreUtils
 .
 h
 "
@@ -53,7 +53,7 @@ PR_FALSE
 nsAutoString
 lang
 ;
-nsAccUtils
+nsCoreUtils
 :
 :
 GetLanguageFor
@@ -676,7 +676,7 @@ nsIFrame
 *
 frame
 =
-nsAccUtils
+nsCoreUtils
 :
 :
 GetFrameFor

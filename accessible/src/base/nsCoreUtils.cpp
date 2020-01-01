@@ -1,7 +1,7 @@
 #
 include
 "
-nsAccessibilityUtils
+nsCoreUtils
 .
 h
 "
@@ -244,7 +244,7 @@ NS_RANGE_CID
 )
 ;
 void
-nsAccUtils
+nsCoreUtils
 :
 :
 GetAccAttr
@@ -288,7 +288,7 @@ aAttrValue
 ;
 }
 void
-nsAccUtils
+nsCoreUtils
 :
 :
 SetAccAttr
@@ -331,7 +331,7 @@ oldValue
 ;
 }
 void
-nsAccUtils
+nsCoreUtils
 :
 :
 GetAccGroupAttrs
@@ -507,7 +507,7 @@ sizeSet
 }
 }
 PRBool
-nsAccUtils
+nsCoreUtils
 :
 :
 HasAccGroupAttrs
@@ -564,7 +564,7 @@ PR_FALSE
 ;
 }
 void
-nsAccUtils
+nsCoreUtils
 :
 :
 SetAccGroupAttrs
@@ -663,7 +663,7 @@ value
 }
 }
 void
-nsAccUtils
+nsCoreUtils
 :
 :
 SetAccAttrsForXULSelectControlItem
@@ -879,7 +879,7 @@ setSize
 ;
 }
 void
-nsAccUtils
+nsCoreUtils
 :
 :
 SetAccAttrsForXULContainerItem
@@ -1259,7 +1259,7 @@ setSize
 ;
 }
 PRBool
-nsAccUtils
+nsCoreUtils
 :
 :
 HasListener
@@ -1311,7 +1311,7 @@ aEventType
 ;
 }
 PRBool
-nsAccUtils
+nsCoreUtils
 :
 :
 DispatchMouseEvent
@@ -1528,7 +1528,7 @@ PR_TRUE
 ;
 }
 PRUint32
-nsAccUtils
+nsCoreUtils
 :
 :
 GetAccessKeyFor
@@ -1664,7 +1664,7 @@ key
 ;
 }
 nsresult
-nsAccUtils
+nsCoreUtils
 :
 :
 FireAccEvent
@@ -1742,7 +1742,7 @@ already_AddRefed
 <
 nsIDOMElement
 >
-nsAccUtils
+nsCoreUtils
 :
 :
 GetDOMElementFor
@@ -1909,7 +1909,7 @@ element
 ;
 }
 PRBool
-nsAccUtils
+nsCoreUtils
 :
 :
 IsAncestorOf
@@ -1990,7 +1990,7 @@ PR_FALSE
 ;
 }
 PRBool
-nsAccUtils
+nsCoreUtils
 :
 :
 AreSiblings
@@ -2069,7 +2069,7 @@ already_AddRefed
 <
 nsIAccessible
 >
-nsAccUtils
+nsCoreUtils
 :
 :
 GetAncestorWithRole
@@ -2177,7 +2177,7 @@ nsnull
 ;
 }
 void
-nsAccUtils
+nsCoreUtils
 :
 :
 GetARIATreeItemParent
@@ -2566,7 +2566,7 @@ prevAccessible
 }
 }
 nsresult
-nsAccUtils
+nsCoreUtils
 :
 :
 ScrollSubstringTo
@@ -2615,7 +2615,7 @@ hPercent
 ;
 }
 nsresult
-nsAccUtils
+nsCoreUtils
 :
 :
 ScrollSubstringTo
@@ -2805,7 +2805,7 @@ NS_OK
 ;
 }
 void
-nsAccUtils
+nsCoreUtils
 :
 :
 ScrollFrameToPoint
@@ -2937,7 +2937,7 @@ scrollPoint
 ;
 }
 void
-nsAccUtils
+nsCoreUtils
 :
 :
 ConvertScrollTypeToPercents
@@ -3080,7 +3080,7 @@ NS_PRESSHELL_SCROLL_ANYWHERE
 }
 }
 nsresult
-nsAccUtils
+nsCoreUtils
 :
 :
 ConvertToScreenCoords
@@ -3185,7 +3185,7 @@ NS_OK
 ;
 }
 nsresult
-nsAccUtils
+nsCoreUtils
 :
 :
 ConvertScreenCoordsTo
@@ -3305,7 +3305,7 @@ NS_OK
 ;
 }
 nsIntPoint
-nsAccUtils
+nsCoreUtils
 :
 :
 GetScreenCoordsForWindow
@@ -3454,7 +3454,7 @@ coords
 ;
 }
 nsIntPoint
-nsAccUtils
+nsCoreUtils
 :
 :
 GetScreenCoordsForWindow
@@ -3500,7 +3500,7 @@ nsIntPoint
 ;
 }
 nsIntPoint
-nsAccUtils
+nsCoreUtils
 :
 :
 GetScreenCoordsForParent
@@ -3646,7 +3646,7 @@ already_AddRefed
 <
 nsIDocShellTreeItem
 >
-nsAccUtils
+nsCoreUtils
 :
 :
 GetDocShellTreeItemFor
@@ -3760,7 +3760,7 @@ docShellTreeItem
 }
 nsIFrame
 *
-nsAccUtils
+nsCoreUtils
 :
 :
 GetFrameFor
@@ -3823,7 +3823,7 @@ content
 ;
 }
 PRBool
-nsAccUtils
+nsCoreUtils
 :
 :
 GetID
@@ -3864,7 +3864,7 @@ PR_FALSE
 ;
 }
 PRBool
-nsAccUtils
+nsCoreUtils
 :
 :
 IsXLink
@@ -3916,7 +3916,7 @@ href
 }
 nsIContent
 *
-nsAccUtils
+nsCoreUtils
 :
 :
 FindNeighbourPointingToNode
@@ -3948,7 +3948,7 @@ aAncestorLevelsToSearch
 }
 nsIContent
 *
-nsAccUtils
+nsCoreUtils
 :
 :
 FindNeighbourPointingToNode
@@ -3975,7 +3975,7 @@ controlID
 if
 (
 !
-nsAccUtils
+nsCoreUtils
 :
 :
 GetID
@@ -4306,7 +4306,7 @@ labelContent
 }
 nsIContent
 *
-nsAccUtils
+nsCoreUtils
 :
 :
 FindDescendantPointingToID
@@ -4366,7 +4366,7 @@ aTagType
 }
 nsIContent
 *
-nsAccUtils
+nsCoreUtils
 :
 :
 FindDescendantPointingToID
@@ -4404,7 +4404,7 @@ aTagType
 }
 nsIContent
 *
-nsAccUtils
+nsCoreUtils
 :
 :
 FindDescendantPointingToIDImpl
@@ -4615,7 +4615,7 @@ nsnull
 ;
 }
 void
-nsAccUtils
+nsCoreUtils
 :
 :
 GetLanguageFor
@@ -4680,7 +4680,7 @@ GetParent
 }
 nsRoleMapEntry
 *
-nsAccUtils
+nsCoreUtils
 :
 :
 GetRoleMapEntry
@@ -4869,7 +4869,7 @@ gLandmarkRoleMap
 ;
 }
 PRBool
-nsAccUtils
+nsCoreUtils
 :
 :
 IsARIAPropForObjectAttr
@@ -5079,7 +5079,7 @@ aria_valuetext
 ;
 }
 void
-nsAccUtils
+nsCoreUtils
 :
 :
 GetLiveContainerAttributes

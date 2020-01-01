@@ -172,7 +172,7 @@ domNode
 nsIntPoint
 winCoords
 =
-nsAccUtils
+nsCoreUtils
 :
 :
 GetScreenCoordsForWindow
@@ -367,7 +367,7 @@ domNode
 nsIntPoint
 winCoords
 =
-nsAccUtils
+nsCoreUtils
 :
 :
 GetScreenCoordsForWindow

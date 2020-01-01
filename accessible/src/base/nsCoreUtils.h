@@ -1,9 +1,9 @@
 #
 ifndef
-nsAccessibilityUtils_h_
+nsCoreUtils_h_
 #
 define
-nsAccessibilityUtils_h_
+nsCoreUtils_h_
 #
 include
 "
@@ -82,7 +82,7 @@ nsIAccessibleDocument
 h
 "
 class
-nsAccUtils
+nsCoreUtils
 {
 public
 :
