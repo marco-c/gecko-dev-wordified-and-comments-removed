@@ -2721,7 +2721,7 @@ aDelta
 ;
 nsNavHistoryResultNode
 *
-FindChildURIById
+FindChildById
 (
 PRInt64
 aItemId

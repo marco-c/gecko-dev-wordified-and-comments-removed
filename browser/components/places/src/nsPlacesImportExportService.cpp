@@ -3108,7 +3108,7 @@ rv
 mBookmarksService
 -
 >
-SetFolderTitle
+SetItemTitle
 (
 frame
 .
@@ -3125,7 +3125,7 @@ NS_SUCCEEDED
 rv
 )
 "
-SetFolderTitle
+SetItemTitle
 failed
 !
 "
@@ -3373,6 +3373,9 @@ n
 ;
 #
 endif
+PRInt64
+itemId
+;
 mBookmarksService
 -
 >
@@ -3385,6 +3388,8 @@ mBookmarksService
 -
 >
 DEFAULT_INDEX
+&
+itemId
 )
 ;
 }
@@ -3761,7 +3766,7 @@ mContainerID
 mBookmarksService
 -
 >
-SetFolderTitle
+SetItemTitle
 (
 ourID
 containerName
@@ -6061,7 +6066,7 @@ rv
 mBookmarksService
 -
 >
-GetFolderTitle
+GetItemTitle
 (
 aFolder
 title
@@ -7672,7 +7677,7 @@ rv
 folderNode
 -
 >
-GetFolderId
+GetItemId
 (
 &
 folderId

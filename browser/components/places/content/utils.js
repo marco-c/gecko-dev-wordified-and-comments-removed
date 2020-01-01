@@ -1795,14 +1795,9 @@ annos
 =
 this
 .
-getAnnotationsForURI
-(
-bookmarks
-.
-getItemURI
+getAnnotationsForItem
 (
 aId
-)
 )
 ;
 if
@@ -1963,7 +1958,7 @@ self
 .
 bookmarks
 .
-getFolderTitle
+getItemTitle
 (
 nodeFolderId
 )
@@ -2128,7 +2123,7 @@ this
 .
 bookmarks
 .
-getFolderTitle
+getItemTitle
 (
 aData
 .
