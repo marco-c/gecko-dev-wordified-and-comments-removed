@@ -1396,10 +1396,6 @@ WebGLRenderbuffer
 )
 DOMCI_CLASS
 (
-WebGLUniformLocation
-)
-DOMCI_CLASS
-(
 WebGLActiveInfo
 )
 DOMCI_CLASS

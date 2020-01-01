@@ -2443,13 +2443,6 @@ nsIWebGLActiveInfo
 nsIDOMWebGLRenderingContext
 '
 '
-nsIWebGLUniformLocation
-'
-:
-'
-nsIDOMWebGLRenderingContext
-'
-'
 nsIWebGLExtension
 '
 :

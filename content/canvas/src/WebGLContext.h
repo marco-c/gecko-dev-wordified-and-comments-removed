@@ -14052,7 +14052,7 @@ WebGLUniformLocation
 MOZ_FINAL
 :
 public
-nsIWebGLUniformLocation
+nsISupports
 public
 WebGLContextBoundObject
 {
@@ -14192,7 +14192,6 @@ scope
 )
 ;
 NS_DECL_ISUPPORTS
-NS_DECL_NSIWEBGLUNIFORMLOCATION
 protected
 :
 nsRefPtr
