@@ -8366,9 +8366,6 @@ aEvent
 nsIAccessible
 *
 aTarget
-void
-*
-aData
 )
 {
 if
@@ -8390,7 +8387,6 @@ nsAccEvent
 (
 aEvent
 aTarget
-aData
 )
 ;
 NS_ENSURE_TRUE

@@ -21868,7 +21868,6 @@ nsIAccessibleEvent
 :
 EVENT_WINDOW_ACTIVATE
 rootAcc
-nsnull
 )
 ;
 }
@@ -21943,7 +21942,6 @@ nsIAccessibleEvent
 :
 EVENT_WINDOW_DEACTIVATE
 rootAcc
-nsnull
 )
 ;
 }

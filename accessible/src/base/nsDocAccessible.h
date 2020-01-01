@@ -286,9 +286,6 @@ aEvent
 nsIDOMNode
 *
 aDOMNode
-void
-*
-aData
 EDupeEventRule
 aAllowDupes
 =
