@@ -208,6 +208,16 @@ protected
 nsresult
 EncodeInternal
 (
+JSContext
+*
+cx
+const
+JS
+:
+:
+Value
+&
+val
 nsJSONWriter
 *
 writer
