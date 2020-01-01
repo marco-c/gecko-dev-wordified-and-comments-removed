@@ -6158,6 +6158,14 @@ proto
 NULL
 )
 ;
+if
+(
+!
+copyobj
+)
+return
+NULL
+;
 SetExnPrivate
 (
 cx
