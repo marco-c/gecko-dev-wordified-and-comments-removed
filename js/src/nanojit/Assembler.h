@@ -883,6 +883,15 @@ _epilogue
 AssmError
 _err
 ;
+#
+if
+PEDANTIC
+NIns
+*
+pedanticTop
+;
+#
+endif
 AR
 _activation
 ;
