@@ -4735,10 +4735,6 @@ mIMETimer
 new
 Timer
 (
-"
-GeckoInputConnection
-Timer
-"
 )
 ;
 static
