@@ -1122,7 +1122,6 @@ mFixedBuf
 }
 ;
 class
-NS_STACK_CLASS
 nsTAutoString_CharT
 :
 public
@@ -1706,7 +1705,7 @@ this
 }
 ;
 class
-NS_STACK_CLASS
+MOZ_STACK_CLASS
 nsTGetterCopies_CharT
 {
 public

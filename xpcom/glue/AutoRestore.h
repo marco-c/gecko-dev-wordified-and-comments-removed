@@ -9,14 +9,16 @@ include
 "
 mozilla
 /
-GuardObjects
+Attributes
 .
 h
 "
 #
 include
 "
-nscore
+mozilla
+/
+GuardObjects
 .
 h
 "
@@ -29,7 +31,7 @@ class
 T
 >
 class
-NS_STACK_CLASS
+MOZ_STACK_CLASS
 AutoRestore
 {
 private
