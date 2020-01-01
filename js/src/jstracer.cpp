@@ -40116,6 +40116,9 @@ uint32
 bytes
 )
 {
+#
+ifdef
+DEBUG
 TraceMonitor
 *
 tm
@@ -40146,6 +40149,8 @@ tm
 traceAlloc
 )
 ;
+#
+endif
 if
 (
 bytes
