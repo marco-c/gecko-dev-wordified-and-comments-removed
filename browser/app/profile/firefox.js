@@ -5847,6 +5847,16 @@ blocked
 "
 )
 ;
+pref
+(
+"
+urlclassifier
+.
+gethashnoise
+"
+4
+)
+;
 #
 endif
 pref
