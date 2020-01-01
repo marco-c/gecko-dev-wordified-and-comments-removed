@@ -179,6 +179,10 @@ EventListener
 .
 webidl
 \
+EventSource
+.
+webidl
+\
 EventTarget
 .
 webidl

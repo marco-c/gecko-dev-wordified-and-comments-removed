@@ -343,10 +343,6 @@ nsIMessageManager
 .
 idl
 \
-nsIEventSource
-.
-idl
-\
 (
 NULL
 )

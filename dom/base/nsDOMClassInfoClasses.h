@@ -1095,10 +1095,6 @@ XMLHttpProgressEvent
 )
 DOMCI_CLASS
 (
-EventSource
-)
-DOMCI_CLASS
-(
 ClientRect
 )
 DOMCI_CLASS
