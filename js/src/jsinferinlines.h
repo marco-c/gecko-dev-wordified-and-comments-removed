@@ -3478,6 +3478,12 @@ get
 }
 struct
 AllocationSiteKey
+:
+public
+DefaultHasher
+<
+AllocationSiteKey
+>
 {
 JSScript
 *
@@ -3518,10 +3524,6 @@ this
 )
 ;
 }
-typedef
-AllocationSiteKey
-Lookup
-;
 static
 inline
 uint32_t

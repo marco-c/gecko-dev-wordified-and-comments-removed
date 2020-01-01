@@ -3222,6 +3222,14 @@ proto
 ;
 struct
 TypeObjectEntry
+:
+DefaultHasher
+<
+ReadBarriered
+<
+TypeObject
+>
+>
 {
 struct
 Lookup

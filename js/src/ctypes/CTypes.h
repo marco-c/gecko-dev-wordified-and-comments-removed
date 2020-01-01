@@ -992,6 +992,12 @@ mOffset
 ;
 struct
 FieldHashPolicy
+:
+DefaultHasher
+<
+JSFlatString
+*
+>
 {
 typedef
 JSFlatString
