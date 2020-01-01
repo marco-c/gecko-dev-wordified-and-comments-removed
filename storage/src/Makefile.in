@@ -543,6 +543,10 @@ SQLCollations
 .
 cpp
 \
+VacuumManager
+.
+cpp
+\
 (
 NULL
 )

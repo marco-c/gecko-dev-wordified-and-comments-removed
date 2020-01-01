@@ -112,6 +112,13 @@ h
 #
 include
 "
+mozIStorageVacuumParticipant
+.
+h
+"
+#
+include
+"
 mozStorageHelper
 .
 h
