@@ -35,6 +35,12 @@ defined
 (
 ANDROID
 )
+|
+|
+defined
+(
+OS_POSIX
+)
 #
 include
 <
