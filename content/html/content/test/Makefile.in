@@ -1603,6 +1603,14 @@ rollback
 .
 html
 \
+file_fullscreen
+-
+svg
+-
+element
+.
+html
+\
 test_li_attributes_reflection
 .
 html
