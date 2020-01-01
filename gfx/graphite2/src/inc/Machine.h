@@ -502,11 +502,6 @@ _status
 =
 stack_not_empty
 ;
-else
-_status
-=
-finished
-;
 }
 }
 }

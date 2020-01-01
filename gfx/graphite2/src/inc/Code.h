@@ -64,6 +64,7 @@ out_of_range_data
 jump_past_end
 arguments_exhausted
 missing_return
+nested_context_item
 }
 ;
 private

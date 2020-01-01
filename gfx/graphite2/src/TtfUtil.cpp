@@ -4039,11 +4039,13 @@ cLongHorMetrics
 if
 (
 lLsbOffset
-+
-1
 >
-=
 lHmtxSize
+-
+sizeof
+(
+int16
+)
 )
 {
 nLsb
@@ -4084,7 +4086,7 @@ int16
 reinterpret_cast
 <
 const
-int16
+byte
 *
 >
 (
@@ -6159,6 +6161,7 @@ size_t
 |
 nGlyfOffset
 >
+=
 nTableLen
 )
 return
