@@ -722,6 +722,7 @@ this
 .
 wifi_service
 )
+{
 this
 .
 wifi_service
@@ -765,6 +766,7 @@ update
 =
 c
 ;
+}
 }
 shutdown
 :
