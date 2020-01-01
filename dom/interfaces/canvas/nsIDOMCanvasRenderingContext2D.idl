@@ -571,6 +571,9 @@ unsigned
 long
 height
 ;
+[
+implicit_jscontext
+]
 readonly
 attribute
 jsval
