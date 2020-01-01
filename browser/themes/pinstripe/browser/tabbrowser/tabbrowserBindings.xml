@@ -929,6 +929,15 @@ alltabs
 -
 button
 "
+tooltipstring
+=
+"
+&
+listAllTabs
+.
+label
+;
+"
 >
 <
 xul
