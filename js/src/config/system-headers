@@ -3834,3 +3834,11 @@ event
 h
 #
 endif
+#
+ifdef
+MOZ_ENABLE_LIBPROXY
+proxy
+.
+h
+#
+endif
