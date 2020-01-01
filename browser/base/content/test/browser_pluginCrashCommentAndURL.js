@@ -493,8 +493,7 @@ getComputedStyle
 elt
 (
 "
-msg
-msgPleaseSubmit
+pleaseSubmit
 "
 )
 )
