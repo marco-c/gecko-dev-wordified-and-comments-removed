@@ -254,6 +254,11 @@ CharSequence
 title
 )
 {
+setContentDescription
+(
+title
+)
+;
 }
 Override
 public
