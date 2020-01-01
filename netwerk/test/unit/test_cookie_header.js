@@ -50,7 +50,12 @@ didn
 t
 find
 it
+got
+exception
+:
 "
++
+e
 )
 ;
 }
@@ -122,7 +127,7 @@ Components
 .
 interfaces
 .
-nsIChannel
+nsIHttpChannel
 )
 ;
 check_request_header
