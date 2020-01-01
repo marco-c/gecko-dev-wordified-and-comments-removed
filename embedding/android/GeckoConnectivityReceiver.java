@@ -119,12 +119,5 @@ onChangeNetworkLinkStatus
 status
 )
 ;
-else
-GeckoApp
-.
-mStartedEarly
-=
-true
-;
 }
 }
