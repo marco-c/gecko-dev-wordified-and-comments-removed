@@ -3443,7 +3443,7 @@ cf
 .
 samples
 >
-0
+1
 ?
 JSVAL_TRUE
 :
