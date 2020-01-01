@@ -2356,13 +2356,6 @@ data
 )
 )
 ;
-gPageStyleMenu
-.
-setStyleDisabled
-(
-false
-)
-;
 "
 >
 <
@@ -2395,9 +2388,8 @@ oncommand
 "
 gPageStyleMenu
 .
-setStyleDisabled
+disableStyle
 (
-true
 )
 ;
 event
