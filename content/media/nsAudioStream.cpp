@@ -2266,7 +2266,7 @@ SA_POSITION_WRITE_HARDWARE
 ;
 #
 endif
-PRInt64
+int64_t
 position
 =
 0
