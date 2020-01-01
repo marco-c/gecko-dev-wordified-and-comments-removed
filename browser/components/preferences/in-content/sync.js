@@ -13,7 +13,7 @@ services
 -
 sync
 /
-service
+main
 .
 js
 "
@@ -443,7 +443,9 @@ value
 =
 Weave
 .
-Identity
+Service
+.
+identity
 .
 account
 ;
