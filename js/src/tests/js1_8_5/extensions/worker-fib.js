@@ -45,7 +45,7 @@ event
 reportCompare
 (
 "
-55
+21
 "
 event
 .
@@ -70,7 +70,7 @@ w
 postMessage
 (
 "
-10
+8
 \
 t
 "
