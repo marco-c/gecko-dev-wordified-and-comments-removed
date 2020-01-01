@@ -4530,7 +4530,6 @@ newEditor
 Init
 (
 domdoc
-shell
 GetRootNode
 (
 )

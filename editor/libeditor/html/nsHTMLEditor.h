@@ -1033,9 +1033,6 @@ Init
 nsIDOMDocument
 *
 aDoc
-nsIPresShell
-*
-aPresShell
 nsIContent
 *
 aRoot
