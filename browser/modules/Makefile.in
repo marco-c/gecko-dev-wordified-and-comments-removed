@@ -450,10 +450,6 @@ offlineAppCache
 .
 jsm
 \
-PageThumbs
-.
-jsm
-\
 (
 NULL
 )
