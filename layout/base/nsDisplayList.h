@@ -2390,6 +2390,13 @@ mBounds
 }
 }
 virtual
+void
+NotifyRenderingChanged
+(
+)
+{
+}
+virtual
 nsRegion
 GetOpaqueRegion
 (

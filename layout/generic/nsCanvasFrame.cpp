@@ -1259,16 +1259,6 @@ get
 )
 )
 ;
-GetUnderlyingFrame
-(
-)
--
->
-AddStateBits
-(
-NS_FRAME_HAS_CACHED_BACKGROUND
-)
-;
 }
 }
 class
