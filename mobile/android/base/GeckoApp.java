@@ -13641,6 +13641,14 @@ getScanResults
 (
 )
 ;
+if
+(
+aps
+!
+=
+null
+)
+{
 for
 (
 ScanResult
@@ -13797,6 +13805,7 @@ key
 uee
 )
 ;
+}
 }
 }
 locInfo
