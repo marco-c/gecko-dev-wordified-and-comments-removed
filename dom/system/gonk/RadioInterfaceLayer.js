@@ -8058,10 +8058,6 @@ timestamp
 aDomMessage
 .
 timestamp
-.
-getTime
-(
-)
 read
 :
 aDomMessage
