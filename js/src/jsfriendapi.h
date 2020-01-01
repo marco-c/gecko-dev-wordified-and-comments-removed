@@ -4942,5 +4942,8 @@ JSContext
 cx
 )
 ;
+struct
+JSJitInfo
+;
 #
 endif
