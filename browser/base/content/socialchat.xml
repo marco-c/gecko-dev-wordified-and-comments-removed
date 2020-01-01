@@ -1082,6 +1082,11 @@ event
 "
 focus
 "
+phase
+=
+"
+capturing
+"
 >
 this
 .
