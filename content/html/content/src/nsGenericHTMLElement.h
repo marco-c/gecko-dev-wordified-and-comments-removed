@@ -132,9 +132,6 @@ nsIDOMHTMLCollection
 class
 nsDOMSettableTokenList
 ;
-class
-nsIDOMDOMStringMap
-;
 namespace
 mozilla
 {
