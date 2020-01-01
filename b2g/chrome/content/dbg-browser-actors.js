@@ -517,12 +517,6 @@ new
 ThreadActor
 (
 this
-)
-;
-this
-.
-_addDebuggees
-(
 this
 .
 browser
