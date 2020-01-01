@@ -9454,12 +9454,15 @@ break
 }
 while
 (
+(
 obj
 =
 obj
 .
 proto
 )
+)
+;
 }
 catch
 (
