@@ -5821,9 +5821,12 @@ nullptr
 ;
 if
 (
+NS_FAILED
+(
 NS_DispatchToMainThread
 (
 runnable
+)
 )
 )
 {
