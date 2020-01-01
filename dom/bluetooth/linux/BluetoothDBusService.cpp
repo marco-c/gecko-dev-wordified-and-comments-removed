@@ -3946,7 +3946,7 @@ property_get
 PROP_DEVICE_CONNECTED_TYPE
 connProp
 "
-array
+boolean
 "
 )
 ;
