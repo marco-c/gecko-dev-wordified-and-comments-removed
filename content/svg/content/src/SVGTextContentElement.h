@@ -7,13 +7,6 @@ mozilla_dom_SVGTextContentElement_h
 #
 include
 "
-nsIDOMSVGTextContentElement
-.
-h
-"
-#
-include
-"
 mozilla
 /
 dom
@@ -46,8 +39,6 @@ SVGTextContentElementBase
 {
 public
 :
-NS_DECL_ISUPPORTS_INHERITED
-NS_DECL_NSIDOMSVGTEXTCONTENTELEMENT
 using
 FragmentOrElement
 :

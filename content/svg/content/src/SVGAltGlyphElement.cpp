@@ -92,15 +92,13 @@ false
 }
 }
 ;
-NS_IMPL_ISUPPORTS_INHERITED6
+NS_IMPL_ISUPPORTS_INHERITED4
 (
 SVGAltGlyphElement
 SVGAltGlyphElementBase
 nsIDOMNode
 nsIDOMElement
 nsIDOMSVGElement
-nsIDOMSVGTextPositioningElement
-nsIDOMSVGTextContentElement
 nsIDOMSVGURIReference
 )
 SVGAltGlyphElement

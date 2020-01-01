@@ -7,13 +7,6 @@ mozilla_dom_SVGTextPositioningElement_h
 #
 include
 "
-nsIDOMSVGTextPositionElem
-.
-h
-"
-#
-include
-"
 mozilla
 /
 dom
@@ -66,7 +59,6 @@ SVGTextPositioningElementBase
 {
 public
 :
-NS_DECL_NSIDOMSVGTEXTPOSITIONINGELEMENT
 already_AddRefed
 <
 DOMSVGAnimatedLengthList
