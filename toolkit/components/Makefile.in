@@ -232,6 +232,13 @@ url
 -
 classifier
 endif
+ifdef
+MOZ_CAPTIVEDETECT
+PARALLEL_DIRS
++
+=
+captivedetect
+endif
 DIRS
 +
 =

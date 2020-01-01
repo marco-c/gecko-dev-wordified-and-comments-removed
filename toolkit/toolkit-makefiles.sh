@@ -2533,6 +2533,13 @@ toolkit
 /
 components
 /
+captivedetect
+/
+Makefile
+toolkit
+/
+components
+/
 commandlines
 /
 Makefile
