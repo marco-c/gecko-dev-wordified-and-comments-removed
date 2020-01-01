@@ -348,7 +348,7 @@ FT_Load_Glyph
 (
 face
 gid
-FT_LOAD_NO_SCALE
+FT_LOAD_DEFAULT
 )
 ;
 mMetrics
@@ -365,8 +365,9 @@ glyph
 advance
 .
 x
-*
-xScale
+>
+>
+6
 ;
 mSpaceGlyph
 =
