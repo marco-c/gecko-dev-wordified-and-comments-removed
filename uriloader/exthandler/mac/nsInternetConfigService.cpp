@@ -382,7 +382,7 @@ PR_FALSE
 nsresult
 rv
 =
-NS_ERROR_FAILURE
+NS_OK
 ;
 nsCAutoString
 scheme
@@ -512,10 +512,6 @@ else
 _retval
 =
 PR_TRUE
-;
-rv
-=
-NS_OK
 ;
 }
 }
