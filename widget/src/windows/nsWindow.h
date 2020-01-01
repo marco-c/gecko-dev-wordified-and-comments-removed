@@ -1432,6 +1432,13 @@ PR_TRUE
 )
 ;
 void
+UpdateGetWindowInfoCaptionStatus
+(
+PRBool
+aActiveCaption
+)
+;
+void
 ResetLayout
 (
 )
