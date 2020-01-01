@@ -2903,6 +2903,11 @@ jsbytecode
 bottom
 )
 ;
+void
+reset
+(
+)
+;
 enum
 ProfileAction
 {
