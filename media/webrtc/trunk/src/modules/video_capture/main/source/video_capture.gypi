@@ -145,6 +145,17 @@ system_wrappers
 '
 ]
 '
+cflags_mozilla
+'
+:
+[
+'
+(
+NSPR_CFLAGS
+)
+'
+]
+'
 include_dirs
 '
 :
