@@ -121,6 +121,11 @@ SAMPLE_MARKER
 info
 )
 #
+define
+SAMPLER_PRINT_LOCATION
+(
+)
+#
 endif
 #
 endif
