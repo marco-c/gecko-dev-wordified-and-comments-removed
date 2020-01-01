@@ -21,6 +21,13 @@ h
 #
 include
 "
+nsHashSets
+.
+h
+"
+#
+include
+"
 gfxFontUtils
 .
 h
@@ -589,10 +596,7 @@ mCodepointsWithNoFonts
 nsString
 mReplacementCharFallbackFamily
 ;
-nsTHashtable
-<
-nsStringHashKey
->
+nsStringHashSet
 mBadUnderlineFamilyNames
 ;
 nsTArray

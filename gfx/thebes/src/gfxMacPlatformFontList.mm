@@ -3862,7 +3862,7 @@ if
 (
 mBadUnderlineFamilyNames
 .
-GetEntry
+Contains
 (
 availableFamilyName
 )

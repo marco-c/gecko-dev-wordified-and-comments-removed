@@ -825,7 +825,7 @@ key
 ;
 mBadUnderlineFamilyNames
 .
-PutEntry
+Put
 (
 key
 )
@@ -1795,7 +1795,7 @@ if
 (
 mBadUnderlineFamilyNames
 .
-GetEntry
+Contains
 (
 key
 )
