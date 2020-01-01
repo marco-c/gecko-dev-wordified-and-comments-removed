@@ -87,6 +87,10 @@ mBinaryType
 DC_BINARY_TYPE_BLOB
 )
 {
+SetIsDOMBinding
+(
+)
+;
 }
 ~
 nsDOMDataChannel
