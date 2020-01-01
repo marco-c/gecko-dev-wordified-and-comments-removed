@@ -759,7 +759,7 @@ here
 -
 >
 <
-div
+table
 id
 =
 "
@@ -768,7 +768,7 @@ propertyContainer
 >
 <
 /
-div
+table
 >
 <
 xul
