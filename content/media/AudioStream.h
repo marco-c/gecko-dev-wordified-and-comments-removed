@@ -195,6 +195,12 @@ AllocateStream
 (
 )
 ;
+static
+int
+MaxNumberOfChannels
+(
+)
+;
 virtual
 nsresult
 Init
