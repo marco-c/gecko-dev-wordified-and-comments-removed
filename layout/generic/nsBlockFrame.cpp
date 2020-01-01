@@ -2780,6 +2780,13 @@ GetStyleContext
 contentRect
 .
 height
+nsLayoutUtils
+:
+:
+FontSizeInflationFor
+(
+this
+)
 )
 )
 +

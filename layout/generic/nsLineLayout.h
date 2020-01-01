@@ -1401,6 +1401,9 @@ nscoord
 mMaxBottomBoxHeight
 ;
 nscoord
+mInflationMinFontSize
+;
+nscoord
 mFinalLineHeight
 ;
 nscoord

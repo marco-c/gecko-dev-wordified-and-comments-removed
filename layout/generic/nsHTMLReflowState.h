@@ -757,6 +757,8 @@ nsStyleContext
 aStyleContext
 nscoord
 aBlockHeight
+float
+aFontSizeInflation
 )
 ;
 void

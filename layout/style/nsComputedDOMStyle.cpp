@@ -15203,6 +15203,9 @@ CalcLineHeight
 (
 mStyleContextHolder
 blockHeight
+1
+.
+0f
 )
 ;
 const
