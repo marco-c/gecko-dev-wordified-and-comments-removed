@@ -2230,6 +2230,9 @@ public
 :
 nsDisplayMathMLSlash
 (
+nsDisplayListBuilder
+*
+aBuilder
 nsIFrame
 *
 aFrame
@@ -2243,6 +2246,7 @@ aThickness
 :
 nsDisplayItem
 (
+aBuilder
 aFrame
 )
 mRect
@@ -2531,6 +2535,7 @@ aBuilder
 )
 nsDisplayMathMLSlash
 (
+aBuilder
 aFrame
 aRect
 aThickness

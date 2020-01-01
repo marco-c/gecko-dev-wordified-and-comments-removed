@@ -18851,6 +18851,9 @@ public
 :
 nsDisplayText
 (
+nsDisplayListBuilder
+*
+aBuilder
 nsTextFrame
 *
 aFrame
@@ -18858,6 +18861,7 @@ aFrame
 :
 nsDisplayItem
 (
+aBuilder
 aFrame
 )
 {
@@ -19151,6 +19155,7 @@ aBuilder
 )
 nsDisplayText
 (
+aBuilder
 this
 )
 )

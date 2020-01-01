@@ -1848,6 +1848,7 @@ aBuilder
 )
 nsDisplayZoom
 (
+aBuilder
 subdocRootFrame
 &
 childItems
@@ -1880,6 +1881,7 @@ aBuilder
 )
 nsDisplayClip
 (
+aBuilder
 this
 this
 &

@@ -1698,6 +1698,9 @@ public
 :
 nsDisplaySVG
 (
+nsDisplayListBuilder
+*
+aBuilder
 nsSVGOuterSVGFrame
 *
 aFrame
@@ -1705,6 +1708,7 @@ aFrame
 :
 nsDisplayItem
 (
+aBuilder
 aFrame
 )
 {
@@ -2307,6 +2311,7 @@ aBuilder
 )
 nsDisplaySVG
 (
+aBuilder
 this
 )
 )
