@@ -198,9 +198,6 @@ aStyle
 ;
 protected
 :
-gfxMatrix
-mCTM
-;
 virtual
 PRBool
 SetupCairoFont
