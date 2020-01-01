@@ -55,6 +55,10 @@ xpcom
 unicharutil
 \
 (
+LCMS_REQUIRES
+)
+\
+(
 NULL
 )
 CPPSRCS
@@ -145,6 +149,10 @@ NSPR_LIBS
 \
 (
 ZLIB_LIBS
+)
+\
+(
+LCMS_LIBS
 )
 \
 (

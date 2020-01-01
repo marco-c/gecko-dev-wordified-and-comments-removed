@@ -464,6 +464,10 @@ ZLIB_REQUIRES
 )
 \
 (
+LCMS_REQUIRES
+)
+\
+(
 NULL
 )
 CPPSRCS
@@ -666,6 +670,10 @@ PNG_LIBS
 )
 (
 ZLIB_LIBS
+)
+\
+(
+LCMS_LIBS
 )
 \
 (

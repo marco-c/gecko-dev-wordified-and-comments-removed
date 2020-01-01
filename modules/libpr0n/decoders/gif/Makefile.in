@@ -444,6 +444,10 @@ cairo
 imglib2
 \
 (
+LCMS_REQUIRES
+)
+\
+(
 NULL
 )
 CPPSRCS

@@ -446,6 +446,10 @@ JPEG_REQUIRES
 )
 \
 (
+LCMS_REQUIRES
+)
+\
+(
 NULL
 )
 CPPSRCS
@@ -453,6 +457,11 @@ CPPSRCS
 nsJPEGDecoder
 .
 cpp
+CSRCS
+=
+iccjpeg
+.
+c
 include
 (
 topsrcdir

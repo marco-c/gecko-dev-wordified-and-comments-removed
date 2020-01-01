@@ -3452,3 +3452,14 @@ zlib
 h
 #
 endif
+#
+if
+MOZ_TREE_LCMS
+=
+=
+1
+lcms
+.
+h
+#
+endif

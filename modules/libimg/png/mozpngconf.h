@@ -71,13 +71,7 @@ define
 PNG_NO_READ_bKGD
 #
 define
-PNG_NO_READ_cHRM
-#
-define
 PNG_NO_READ_hIST
-#
-define
-PNG_NO_READ_iCCP
 #
 define
 PNG_NO_READ_pCAL

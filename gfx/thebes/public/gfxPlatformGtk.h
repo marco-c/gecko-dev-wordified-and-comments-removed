@@ -205,6 +205,14 @@ gfxFontconfigUtils
 *
 sFontconfigUtils
 ;
+private
+:
+virtual
+cmsHPROFILE
+GetPlatformCMSOutputProfile
+(
+)
+;
 }
 ;
 #

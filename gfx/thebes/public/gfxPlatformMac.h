@@ -113,6 +113,14 @@ UpdateFontList
 (
 )
 ;
+private
+:
+virtual
+cmsHPROFILE
+GetPlatformCMSOutputProfile
+(
+)
+;
 }
 ;
 #
