@@ -432,8 +432,10 @@ width
 :
 0
 ;
-height
+margin
+-
+top
 :
-1em
+3px
 ;
 }
