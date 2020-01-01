@@ -165,14 +165,6 @@ Append
 mString
 )
 ;
-cr
--
->
-AppendAppNotesToCrashReport
-(
-mString
-)
-;
 }
 mThread
 -
