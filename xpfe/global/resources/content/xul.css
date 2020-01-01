@@ -1113,10 +1113,6 @@ toolbardecoration
 "
 )
 ;
-display
-:
-inline
-;
 }
 toolbarspring
 {
@@ -1154,10 +1150,6 @@ box
 flex
 :
 1000
-;
-display
-:
-inline
 ;
 }
 toolbarpaletteitem
@@ -3073,13 +3065,6 @@ box
 direction
 :
 inherit
-;
-}
-spacer
-{
-display
-:
-inline
 ;
 }
 description
