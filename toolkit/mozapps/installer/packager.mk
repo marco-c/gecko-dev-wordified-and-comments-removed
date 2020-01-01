@@ -5704,6 +5704,10 @@ USE_ELF_HACK
 (
 PYTHON
 )
+(
+MOZILLA_DIR
+)
+/
 toolkit
 /
 mozapps
