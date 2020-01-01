@@ -644,9 +644,14 @@ Create
 page
 )
 ;
+#
+ifdef
+DEBUG
 PRBool
 r
 =
+#
+endif
 mCodecStates
 .
 Put
