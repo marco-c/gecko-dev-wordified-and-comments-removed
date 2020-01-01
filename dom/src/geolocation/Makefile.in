@@ -520,7 +520,7 @@ base
 NULL
 )
 ifdef
-NS_OSSO
+NS_MAEMO_LOCATION
 CPPSRCS
 +
 =
@@ -531,7 +531,7 @@ LOCAL_INCLUDES
 +
 =
 (
-MOZ_GTK2_CFLAGS
+MOZ_LOCATION_CFLAGS
 )
 endif
 include

@@ -112,7 +112,7 @@ h
 >
 #
 ifdef
-NS_OSSO
+NS_MAEMO_LOCATION
 #
 include
 "
@@ -1569,7 +1569,7 @@ NS_GEOLOCATION_PROVIDER_CONTRACTID
 ;
 #
 ifdef
-NS_OSSO
+NS_MAEMO_LOCATION
 if
 (
 !

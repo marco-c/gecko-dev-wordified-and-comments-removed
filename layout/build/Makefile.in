@@ -1808,6 +1808,12 @@ MOZ_QT_LIBS
 NULL
 )
 endif
+EXTRA_DSO_LDOPTS
++
+=
+(
+MOZ_LOCATION_LIBS
+)
 ifneq
 (
 (
