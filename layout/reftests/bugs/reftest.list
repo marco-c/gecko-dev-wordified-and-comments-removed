@@ -18293,11 +18293,8 @@ Retry
 the
 above
 with
-in
--
-content
 XBL
-behavior
+scopes
 test
 -
 pref
@@ -18305,7 +18302,7 @@ pref
 dom
 .
 use_xbl_scopes_for_remote_xul
-false
+true
 )
 fails
 -
@@ -18330,7 +18327,7 @@ pref
 dom
 .
 use_xbl_scopes_for_remote_xul
-false
+true
 )
 fails
 -
