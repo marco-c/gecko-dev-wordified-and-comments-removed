@@ -167,8 +167,6 @@ aValue
 nsSVGElement
 *
 aSVGElement
-bool
-aDoSetAttr
 )
 {
 nsCOMPtr
@@ -375,8 +373,6 @@ aValue
 nsSVGElement
 *
 aSVGElement
-bool
-aDoSetAttr
 )
 {
 nsSVGEnumMapping
@@ -464,7 +460,7 @@ aSVGElement
 DidChangeEnum
 (
 mAttrEnum
-aDoSetAttr
+true
 )
 ;
 }

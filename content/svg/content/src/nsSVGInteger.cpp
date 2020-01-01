@@ -189,8 +189,6 @@ aValueAsString
 nsSVGElement
 *
 aSVGElement
-bool
-aDoSetAttr
 )
 {
 PRInt32
@@ -292,8 +290,6 @@ aValue
 nsSVGElement
 *
 aSVGElement
-bool
-aDoSetAttr
 )
 {
 mBaseVal
@@ -336,7 +332,7 @@ aSVGElement
 DidChangeInteger
 (
 mAttrEnum
-aDoSetAttr
+true
 )
 ;
 }

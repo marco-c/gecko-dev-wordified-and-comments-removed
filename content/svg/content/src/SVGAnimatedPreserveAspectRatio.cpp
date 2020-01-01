@@ -786,8 +786,6 @@ aValueAsString
 nsSVGElement
 *
 aSVGElement
-bool
-aDoSetAttr
 )
 {
 SVGPreserveAspectRatio
@@ -849,14 +847,6 @@ AnimationNeedsResample
 }
 #
 endif
-aSVGElement
--
->
-DidChangePreserveAspectRatio
-(
-aDoSetAttr
-)
-;
 return
 NS_OK
 ;

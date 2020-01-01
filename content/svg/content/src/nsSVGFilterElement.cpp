@@ -485,7 +485,6 @@ SetBaseValues
 filterResX
 filterResY
 this
-PR_FALSE
 )
 ;
 return

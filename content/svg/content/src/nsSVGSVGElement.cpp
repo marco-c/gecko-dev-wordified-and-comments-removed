@@ -2846,7 +2846,6 @@ SetBaseValue
 (
 aZoomAndPan
 this
-PR_TRUE
 )
 ;
 return
