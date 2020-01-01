@@ -179,6 +179,16 @@ aEvent
 {
 if
 (
+m
+.
+readyState
+=
+=
+m
+.
+HAVE_ENOUGH_DATA
+&
+&
 aEvent
 .
 loaded
