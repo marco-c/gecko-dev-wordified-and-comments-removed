@@ -653,6 +653,12 @@ this
 .
 _result
 .
+viewer
+=
+null
+;
+this
+.
 view
 =
 null

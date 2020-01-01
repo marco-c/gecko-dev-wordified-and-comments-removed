@@ -659,6 +659,12 @@ _result
 =
 null
 ;
+this
+.
+_resultNode
+=
+null
+;
 ]
 ]
 >

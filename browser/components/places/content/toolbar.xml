@@ -937,6 +937,14 @@ genericAnnoObserver
 this
 .
 _result
+.
+viewer
+=
+null
+;
+this
+.
+_result
 =
 null
 ;
