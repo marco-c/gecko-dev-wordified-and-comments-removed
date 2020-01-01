@@ -180,6 +180,12 @@ jsdc
 =
 NULL
 ;
+JSCrossCompartmentCall
+*
+call
+=
+NULL
+;
 if
 (
 !
@@ -385,12 +391,6 @@ jsdc
 >
 dumbContext
 )
-;
-JSCrossCompartmentCall
-*
-call
-=
-NULL
 ;
 if
 (
