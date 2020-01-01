@@ -2490,6 +2490,11 @@ eDocSheet
 1
 <
 <
+eScopedDocSheet
+|
+1
+<
+<
 eStyleAttrSheet
 ;
 return
