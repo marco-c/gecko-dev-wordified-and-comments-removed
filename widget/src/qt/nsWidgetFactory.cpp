@@ -194,15 +194,10 @@ NS_GENERIC_FACTORY_CONSTRUCTOR
 (
 nsSound
 )
-#
-ifndef
-QT_XLIB_SURFACE
 NS_GENERIC_FACTORY_CONSTRUCTOR
 (
 nsNativeThemeQt
 )
-#
-endif
 NS_GENERIC_FACTORY_CONSTRUCTOR
 (
 nsFilePicker
@@ -525,9 +520,6 @@ sound
 "
 nsSoundConstructor
 }
-#
-ifndef
-QT_XLIB_SURFACE
 {
 "
 Native
@@ -552,8 +544,6 @@ theme
 "
 nsNativeThemeQtConstructor
 }
-#
-endif
 {
 "
 Qt
