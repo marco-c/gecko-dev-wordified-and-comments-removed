@@ -2190,6 +2190,12 @@ GetUndoManager
 (
 )
 ;
+NS_ENSURE_TRUE
+(
+undoManager
+false
+)
+;
 }
 return
 undoManager
