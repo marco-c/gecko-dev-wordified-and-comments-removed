@@ -127,9 +127,6 @@ utf
 interface
 TextEncoder
 {
-[
-SetterThrows
-]
 readonly
 attribute
 DOMString

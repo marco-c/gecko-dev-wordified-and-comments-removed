@@ -2868,7 +2868,7 @@ A
 {
             
 [
-SetterInfallible
+SetterThrows
 ]
 readonly
 attribute
@@ -2911,7 +2911,7 @@ Should
 not
 allow
 [
-SetterInfallible
+SetterThrows
 ]
 on
 readonly

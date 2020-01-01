@@ -1642,7 +1642,7 @@ A
 {
             
 [
-GetterInfallible
+GetterThrows
 ]
 void
 foo
@@ -1685,7 +1685,7 @@ Should
 not
 allow
 [
-GetterInfallible
+GetterThrows
 ]
 on
 methods
@@ -1720,7 +1720,7 @@ A
 {
             
 [
-SetterInfallible
+SetterThrows
 ]
 void
 foo
@@ -1763,7 +1763,7 @@ Should
 not
 allow
 [
-SetterInfallible
+SetterThrows
 ]
 on
 methods

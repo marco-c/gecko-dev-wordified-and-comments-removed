@@ -2616,9 +2616,6 @@ long
 index
 )
 ;
-[
-Infallible
-]
 readonly
 attribute
 unsigned
@@ -2658,9 +2655,6 @@ DOMString
 name
 )
 ;
-[
-Infallible
-]
 readonly
 attribute
 unsigned
@@ -2801,17 +2795,11 @@ DOMString
 item
 )
 ;
-[
-Infallible
-]
 stringifier
 DOMString
 (
 )
 ;
-[
-Infallible
-]
 readonly
 attribute
 unsigned

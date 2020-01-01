@@ -130,9 +130,6 @@ options
 interface
 TextDecoder
 {
-[
-SetterThrows
-]
 readonly
 attribute
 DOMString
