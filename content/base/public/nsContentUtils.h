@@ -114,13 +114,6 @@ h
 #
 include
 "
-nsIContent
-.
-h
-"
-#
-include
-"
 nsIDocument
 .
 h
