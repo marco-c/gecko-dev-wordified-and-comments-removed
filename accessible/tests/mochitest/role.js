@@ -258,6 +258,13 @@ nsIAccessibleRole
 ROLE_SLIDER
 ;
 const
+ROLE_STATICTEXT
+=
+nsIAccessibleRole
+.
+ROLE_STATICTEXT
+;
+const
 ROLE_TABLE
 =
 nsIAccessibleRole

@@ -287,7 +287,7 @@ GetParent
 nsIAccessible
 *
 *
-aParentAccessible
+aParent
 )
 ;
 virtual
@@ -318,15 +318,6 @@ aExtraState
 )
 ;
 virtual
-void
-SetParent
-(
-nsIAccessible
-*
-aParent
-)
-;
-virtual
 nsresult
 AppendTextTo
 (
@@ -341,10 +332,6 @@ aLength
 ;
 protected
 :
-nsIAccessible
-*
-mWeakParent
-;
 nsString
 mBulletText
 ;

@@ -540,10 +540,6 @@ value
 .
 js
 \
-test_accessnode_invalidation
-.
-html
-\
 test_actions
 .
 xul
@@ -692,6 +688,14 @@ test_groupattrs
 xul
 \
 test_groupattrs
+.
+html
+\
+test_invalidate_accessnode
+.
+html
+\
+test_invalidate_elmli
 .
 html
 \

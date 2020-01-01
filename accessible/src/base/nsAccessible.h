@@ -394,7 +394,6 @@ nsIAccessible
 aChild
 )
 ;
-virtual
 void
 SetParent
 (
