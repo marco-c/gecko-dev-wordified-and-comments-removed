@@ -539,6 +539,10 @@ MessageEvent
 .
 webidl
 \
+MutationEvent
+.
+webidl
+\
 MutationObserver
 .
 webidl
