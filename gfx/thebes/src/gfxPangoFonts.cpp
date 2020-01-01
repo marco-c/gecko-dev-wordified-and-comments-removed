@@ -3721,6 +3721,8 @@ aFlags
 {
 PRUint32
 allBits
+=
+0
 ;
 PRUint32
 i
