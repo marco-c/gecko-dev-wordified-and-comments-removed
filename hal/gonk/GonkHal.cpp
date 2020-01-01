@@ -3150,8 +3150,6 @@ errno
 )
 )
 ;
-return
-;
 }
 hal
 :
