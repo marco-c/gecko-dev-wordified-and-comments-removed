@@ -1294,6 +1294,10 @@ test_load_events_on_stylesheets
 .
 html
 \
+test_bug721136
+.
+html
+\
 (
 NULL
 )
