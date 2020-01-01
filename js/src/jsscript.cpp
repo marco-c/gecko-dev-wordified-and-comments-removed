@@ -7692,6 +7692,8 @@ thread
 ;
 #
 endif
+}
+}
 #
 ifdef
 JS_TRACER
@@ -7703,8 +7705,6 @@ script
 ;
 #
 endif
-}
-}
 cx
 -
 >

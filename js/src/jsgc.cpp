@@ -14194,6 +14194,12 @@ trc
 acx
 )
 ;
+js_TraceThreads
+(
+rt
+trc
+)
+;
 if
 (
 rt
