@@ -38,6 +38,12 @@ lcms
 .
 h
 "
+using
+std
+:
+:
+isspace
+;
 unsigned
 long
 crc32
