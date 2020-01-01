@@ -6018,12 +6018,12 @@ false
 ;
 if
 (
+!
 self
 .
 expanded
 )
-return
-;
+{
 data
 .
 onMouseMove
@@ -6078,6 +6078,7 @@ data
 onMouseMove
 )
 ;
+}
 }
 this
 .
