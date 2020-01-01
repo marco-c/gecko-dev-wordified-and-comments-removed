@@ -4249,7 +4249,7 @@ nsIAtom
 nsGenericDOMDataNode
 :
 :
-GetID
+DoGetID
 (
 )
 const
