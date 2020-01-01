@@ -662,7 +662,7 @@ GeckoAppShell
 getHandler
 (
 )
-true
+false
 )
 ;
 mTopSitesGrid
