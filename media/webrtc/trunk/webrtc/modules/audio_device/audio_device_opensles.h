@@ -973,6 +973,10 @@ CriticalSectionWrapper
 &
 crit_sect_
 ;
+CriticalSectionWrapper
+&
+callback_crit_sect_
+;
 int32_t
 id_
 ;
