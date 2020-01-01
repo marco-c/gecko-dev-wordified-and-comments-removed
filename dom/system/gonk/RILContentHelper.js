@@ -715,7 +715,7 @@ false
 )
 ;
 let
-radioState
+rilContext
 =
 cpmm
 .
@@ -731,7 +731,7 @@ sendSyncMessage
 "
 RIL
 :
-GetRadioState
+GetRilContext
 "
 )
 [
@@ -741,7 +741,7 @@ GetRadioState
 if
 (
 !
-radioState
+rilContext
 )
 {
 debug
@@ -749,7 +749,7 @@ debug
 "
 Received
 null
-radioState
+rilContext
 from
 chrome
 process
@@ -764,7 +764,7 @@ this
 .
 cardState
 =
-radioState
+rilContext
 .
 cardState
 ;
@@ -772,7 +772,7 @@ this
 .
 updateConnectionInfo
 (
-radioState
+rilContext
 .
 voice
 this
@@ -784,7 +784,7 @@ this
 .
 updateConnectionInfo
 (
-radioState
+rilContext
 .
 data
 this
