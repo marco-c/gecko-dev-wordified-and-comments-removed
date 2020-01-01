@@ -337,9 +337,7 @@ funScript
 >
 bindings
 .
-lastShape
-(
-)
+lastBinding
 ;
 }
 StaticScopeIter
