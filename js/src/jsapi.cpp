@@ -401,6 +401,15 @@ include
 "
 vm
 /
+ErrorObject
+.
+h
+"
+#
+include
+"
+vm
+/
 Interpreter
 .
 h
@@ -8193,7 +8202,7 @@ String
 }
 {
 js_InitExceptionClasses
-EAGER_ATOM_AND_CLASP
+EAGER_ATOM_AND_OCLASP
 (
 Error
 )
@@ -8471,7 +8480,7 @@ EAGER_CLASS_ATOM
 (
 Error
 )
-CLASP
+OCLASP
 (
 Error
 )
@@ -8482,7 +8491,7 @@ EAGER_CLASS_ATOM
 (
 InternalError
 )
-CLASP
+OCLASP
 (
 Error
 )
@@ -8493,7 +8502,7 @@ EAGER_CLASS_ATOM
 (
 EvalError
 )
-CLASP
+OCLASP
 (
 Error
 )
@@ -8504,7 +8513,7 @@ EAGER_CLASS_ATOM
 (
 RangeError
 )
-CLASP
+OCLASP
 (
 Error
 )
@@ -8515,7 +8524,7 @@ EAGER_CLASS_ATOM
 (
 ReferenceError
 )
-CLASP
+OCLASP
 (
 Error
 )
@@ -8526,7 +8535,7 @@ EAGER_CLASS_ATOM
 (
 SyntaxError
 )
-CLASP
+OCLASP
 (
 Error
 )
@@ -8537,7 +8546,7 @@ EAGER_CLASS_ATOM
 (
 TypeError
 )
-CLASP
+OCLASP
 (
 Error
 )
@@ -8548,7 +8557,7 @@ EAGER_CLASS_ATOM
 (
 URIError
 )
-CLASP
+OCLASP
 (
 Error
 )
