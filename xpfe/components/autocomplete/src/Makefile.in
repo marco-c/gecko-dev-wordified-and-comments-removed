@@ -82,9 +82,6 @@ xpAutoComplete
 LIBRARY_NAME
 =
 xpautocomplete
-SHORT_LIBNAME
-=
-xpautoc
 EXPORT_LIBRARY
 =
 1
