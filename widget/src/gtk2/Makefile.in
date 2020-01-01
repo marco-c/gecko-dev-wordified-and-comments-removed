@@ -508,10 +508,6 @@ nsImageToPixbuf
 .
 cpp
 \
-nsAccessibilityHelper
-.
-cpp
-\
 nsGtkIMModule
 .
 cpp

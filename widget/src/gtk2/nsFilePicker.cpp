@@ -106,13 +106,6 @@ nsFilePicker
 h
 "
 #
-include
-"
-nsAccessibilityHelper
-.
-h
-"
-#
 if
 (
 MOZ_PLATFORM_MAEMO
@@ -1583,7 +1576,7 @@ PRBool
 result
 =
 (
-RunDialog
+gtk_dialog_run
 (
 GTK_DIALOG
 (
@@ -2220,7 +2213,7 @@ PR_TRUE
 gint
 response
 =
-RunDialog
+gtk_dialog_run
 (
 GTK_DIALOG
 (
