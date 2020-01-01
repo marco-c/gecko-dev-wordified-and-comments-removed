@@ -375,6 +375,11 @@ media
 libsydneyaudio
 /
 src
+EXPORTS
+=
+nsVolume
+.
+h
 endif
 EXTRA_COMPONENTS
 =

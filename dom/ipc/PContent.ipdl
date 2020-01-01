@@ -855,6 +855,16 @@ nsCString
 reasons
 )
 ;
+FileSystemUpdate
+(
+nsString
+fsName
+nsString
+mountPoint
+PRInt32
+fsState
+)
+;
 parent
 :
 PAudio
