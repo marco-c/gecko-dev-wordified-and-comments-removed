@@ -734,10 +734,6 @@ jsgc
 .
 cpp
 \
-jsgcmark
-.
-cpp
-\
 jscrashreport
 .
 cpp
@@ -947,6 +943,10 @@ RegExpStatics
 cpp
 \
 RegExp
+.
+cpp
+\
+Marking
 .
 cpp
 \
