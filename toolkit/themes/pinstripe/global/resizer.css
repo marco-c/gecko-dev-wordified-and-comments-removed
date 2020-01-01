@@ -82,6 +82,14 @@ dir
 topleft
 "
 ]
+{
+cursor
+:
+nw
+-
+resize
+;
+}
 resizer
 [
 dir
@@ -108,7 +116,7 @@ ltr
 {
 cursor
 :
-nwse
+se
 -
 resize
 ;
@@ -121,6 +129,14 @@ dir
 topright
 "
 ]
+{
+cursor
+:
+ne
+-
+resize
+;
+}
 resizer
 [
 dir
@@ -147,7 +163,7 @@ rtl
 {
 cursor
 :
-nesw
+sw
 -
 resize
 ;
