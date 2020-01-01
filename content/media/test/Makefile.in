@@ -761,10 +761,6 @@ test_streams_gc
 .
 html
 \
-test_streams_autoplay
-.
-html
-\
 (
 filter
 disabled
