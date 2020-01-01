@@ -7001,6 +7001,9 @@ if
 (
 !
 aXMLMode
+&
+&
+theCount
 )
 {
 NS_ASSERTION
