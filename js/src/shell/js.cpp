@@ -8929,9 +8929,6 @@ SRC_PCBASE
 case
 SRC_PCDELTA
 :
-case
-SRC_BRACE
-:
 Sprint
 (
 sp
