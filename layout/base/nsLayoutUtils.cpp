@@ -6727,6 +6727,10 @@ PAINT_FLUSH_LAYERS
 ;
 }
 else
+if
+(
+widget
+)
 {
 widget
 -
