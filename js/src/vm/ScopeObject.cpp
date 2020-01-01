@@ -8768,11 +8768,11 @@ if
 debugScope
 )
 {
-StackFrame
-:
-:
-CopyVector
+AutoValueVector
 vec
+(
+cx
+)
 ;
 if
 (

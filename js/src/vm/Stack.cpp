@@ -1207,7 +1207,7 @@ StackFrame
 :
 copyRawFrameSlots
 (
-CopyVector
+AutoValueVector
 *
 vec
 )

@@ -23116,6 +23116,14 @@ jsval
 vector
 )
 {
+AutoArrayRooter
+tvr
+(
+cx
+length
+vector
+)
+;
 JS_THREADSAFE_ASSERT
 (
 cx
