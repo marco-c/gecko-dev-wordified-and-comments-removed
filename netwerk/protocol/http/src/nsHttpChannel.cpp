@@ -14464,6 +14464,9 @@ value
 if
 (
 mListener
+|
+|
+mWasOpened
 )
 {
 if
