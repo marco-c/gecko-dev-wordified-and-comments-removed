@@ -6630,12 +6630,11 @@ social
 .
 activated
 .
-button
+undobutton
 .
 label
 "
-Oops
-undo
+Undo
 "
 >
 <
@@ -6645,10 +6644,10 @@ social
 .
 activated
 .
-button
+undobutton
 .
 accesskey
 "
-u
+U
 "
 >
