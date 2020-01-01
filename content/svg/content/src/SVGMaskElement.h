@@ -7,13 +7,6 @@ mozilla_dom_SVGMaskElement_h
 #
 include
 "
-nsIDOMSVGMaskElement
-.
-h
-"
-#
-include
-"
 nsSVGEnum
 .
 h
@@ -66,7 +59,7 @@ MOZ_FINAL
 public
 SVGMaskElementBase
 public
-nsIDOMSVGMaskElement
+nsIDOMSVGElement
 {
 friend
 class
@@ -124,7 +117,6 @@ MOZ_OVERRIDE
 public
 :
 NS_DECL_ISUPPORTS_INHERITED
-NS_DECL_NSIDOMSVGMASKELEMENT
 NS_FORWARD_NSIDOMNODE_TO_NSINODE
 NS_FORWARD_NSIDOMELEMENT_TO_GENERIC
 NS_FORWARD_NSIDOMSVGELEMENT
@@ -159,13 +151,6 @@ nsIAtom
 aAttribute
 )
 const
-;
-virtual
-nsXPCClassInfo
-*
-GetClassInfo
-(
-)
 ;
 virtual
 nsIDOMNode

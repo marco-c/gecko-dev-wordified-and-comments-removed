@@ -700,10 +700,6 @@ SVGMarkerElement
 )
 DOMCI_CLASS
 (
-SVGMaskElement
-)
-DOMCI_CLASS
-(
 SVGUnknownElement
 )
 DOMCI_CLASS
