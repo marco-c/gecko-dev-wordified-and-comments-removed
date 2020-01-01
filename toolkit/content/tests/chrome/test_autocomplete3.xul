@@ -395,6 +395,16 @@ return
 null
 ;
 }
+getLabelAt
+:
+function
+(
+)
+{
+return
+null
+;
+}
 removeValueAt
 :
 function
