@@ -326,7 +326,20 @@ repository
 protected
 abstract
 Record
-recordFromMirrorCursor
+retrieveDuringStore
+(
+Cursor
+cur
+)
+throws
+NoGuidForIdException
+NullCursorException
+ParentNotFoundException
+;
+protected
+abstract
+Record
+retrieveDuringFetch
 (
 Cursor
 cur
@@ -972,7 +985,7 @@ isAfterLast
 Record
 r
 =
-recordFromMirrorCursor
+retrieveDuringFetch
 (
 cursor
 )
@@ -1715,7 +1728,7 @@ try
 {
 existingRecord
 =
-recordForGUID
+retrieveByGUIDDuringStore
 (
 record
 .
@@ -2474,7 +2487,7 @@ toStore
 }
 protected
 Record
-recordForGUID
+retrieveByGUIDDuringStore
 (
 String
 guid
@@ -2520,7 +2533,7 @@ null
 Record
 r
 =
-recordFromMirrorCursor
+retrieveDuringStore
 (
 cursor
 )
@@ -2658,7 +2671,7 @@ record
 )
 ;
 return
-recordForGUID
+retrieveByGUIDDuringStore
 (
 guid
 )
@@ -2794,7 +2807,7 @@ isAfterLast
 Record
 record
 =
-recordFromMirrorCursor
+retrieveDuringStore
 (
 cur
 )
