@@ -668,7 +668,7 @@ mRetainingManager
 }
 static
 bool
-HasRetainedDataFor
+HasVisibleRetainedDataFor
 (
 nsIFrame
 *
