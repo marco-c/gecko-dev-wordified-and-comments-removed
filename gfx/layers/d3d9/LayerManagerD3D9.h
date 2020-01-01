@@ -150,6 +150,12 @@ nsIntRegion
 aClippingRegion
 )
 ;
+virtual
+void
+Destroy
+(
+)
+;
 void
 BeginTransaction
 (
@@ -552,6 +558,13 @@ device
 (
 )
 ;
+}
+virtual
+void
+LayerManagerDestroyed
+(
+)
+{
 }
 protected
 :

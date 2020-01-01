@@ -96,6 +96,12 @@ CleanResources
 (
 )
 ;
+virtual
+void
+LayerManagerDestroyed
+(
+)
+;
 private
 :
 nsRefPtr

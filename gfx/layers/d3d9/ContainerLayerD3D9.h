@@ -102,6 +102,12 @@ RenderLayer
 (
 )
 ;
+virtual
+void
+LayerManagerDestroyed
+(
+)
+;
 }
 ;
 }
