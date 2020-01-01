@@ -407,9 +407,9 @@ else
 aIsAvailable
 =
 mHeadphoneState
+!
 =
-=
-SWITCH_STATE_ON
+SWITCH_STATE_OFF
 ;
 }
 return
