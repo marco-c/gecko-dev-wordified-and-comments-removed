@@ -14641,6 +14641,15 @@ JmpSrc
 next
 )
 {
+if
+(
+oom
+(
+)
+)
+return
+false
+;
 char
 *
 code
