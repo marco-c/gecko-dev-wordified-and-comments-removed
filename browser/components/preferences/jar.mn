@@ -291,16 +291,6 @@ browser
 /
 preferences
 /
-permissionsutils
-.
-js
-*
-content
-/
-browser
-/
-preferences
-/
 preferences
 .
 xul

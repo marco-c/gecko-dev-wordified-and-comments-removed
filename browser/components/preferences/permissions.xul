@@ -634,13 +634,11 @@ chrome
 :
 /
 /
-browser
+global
 /
 content
 /
-preferences
-/
-permissionsutils
+treeUtils
 .
 js
 "
