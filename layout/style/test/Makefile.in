@@ -927,6 +927,10 @@ test_hover
 .
 html
 \
+hover_helper
+.
+html
+\
 test_ident_escaping
 .
 html
