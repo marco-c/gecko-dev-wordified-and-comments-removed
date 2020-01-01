@@ -499,13 +499,6 @@ download
 -
 manager
 endif
-ifndef
-MOZ_PLACES
-DIRS
-+
-=
-history
-endif
 endif
 #
 MOZ_SUITE
