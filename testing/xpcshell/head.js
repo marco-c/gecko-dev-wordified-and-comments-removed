@@ -1513,11 +1513,9 @@ FAIL
 ;
 if
 (
-'
-fileName
-'
-in
 e
+.
+fileName
 )
 {
 msg
@@ -1529,11 +1527,9 @@ fileName
 ;
 if
 (
-'
-lineNumber
-'
-in
 e
+.
+lineNumber
 )
 {
 msg
