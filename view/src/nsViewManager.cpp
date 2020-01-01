@@ -1776,9 +1776,6 @@ return
 ;
 }
 {
-nsAutoScriptBlocker
-scriptBlocker
-;
 SetPainting
 (
 PR_TRUE
@@ -3757,6 +3754,9 @@ nsPaintEvent
 (
 aEvent
 )
+;
+nsAutoScriptBlocker
+scriptBlocker
 ;
 if
 (
