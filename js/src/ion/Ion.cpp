@@ -8466,6 +8466,9 @@ break
 case
 IonFrame_Bailed_JS
 :
+case
+IonFrame_Bailed_BaselineStub
+:
 JS_NOT_REACHED
 (
 "
