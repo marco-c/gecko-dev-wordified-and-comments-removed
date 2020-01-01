@@ -59,6 +59,9 @@ nsChangeHint_RecomputePosition
 nsChangeHint_AddOrRemoveTransform
 =
 0x4000
+nsChangeHint_BorderStyleNoneChange
+=
+0x8000
 }
 ;
 inline
@@ -275,6 +278,8 @@ nsChangeHint_ChildrenOnlyTransform
 nsChangeHint_RecomputePosition
 |
 nsChangeHint_AddOrRemoveTransform
+|
+nsChangeHint_BorderStyleNoneChange
 )
 )
 ;
