@@ -1249,6 +1249,11 @@ DragCancel
 {
 if
 (
+mTookOwnRef
+)
+{
+if
+(
 mDropTargetHelper
 )
 {
@@ -1274,11 +1279,6 @@ PR_FALSE
 )
 ;
 }
-if
-(
-mTookOwnRef
-)
-{
 this
 -
 >
