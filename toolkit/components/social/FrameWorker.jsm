@@ -428,9 +428,6 @@ workerAPI
 =
 [
 '
-MozWebSocket
-'
-'
 WebSocket
 '
 '
