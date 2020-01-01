@@ -246,6 +246,15 @@ connectEnd
 ;
 /
 /
+secureConnectionStart
+will
+be
+implemneted
+in
+bug
+772589
+/
+/
 [
 Infallible
 ]
