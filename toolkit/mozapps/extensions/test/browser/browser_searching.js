@@ -2789,6 +2789,8 @@ run_next_test
 (
 )
 ;
+return
+;
 }
 var
 buttonId
@@ -2808,6 +2810,11 @@ sorters
 anonid
 "
 buttonId
+)
+;
+is_element_visible
+(
+sorter
 )
 ;
 EventUtils
