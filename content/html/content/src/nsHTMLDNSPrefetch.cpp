@@ -973,6 +973,8 @@ nsIURI
 >
 hrefURI
 ;
+hrefURI
+=
 mEntries
 [
 mTail
@@ -983,10 +985,6 @@ mElement
 >
 GetHrefURIForAnchors
 (
-getter_AddRefs
-(
-hrefURI
-)
 )
 ;
 if

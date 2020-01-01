@@ -3941,7 +3941,6 @@ nsStyleUtil
 IsHTMLLink
 (
 aContent
-mContentTag
 linkHandler
 &
 mLinkState

@@ -658,13 +658,12 @@ aURI
 )
 const
 ;
-nsresult
+already_AddRefed
+<
+nsIURI
+>
 GetHrefURIForAnchors
 (
-nsIURI
-*
-*
-aURI
 )
 const
 ;
