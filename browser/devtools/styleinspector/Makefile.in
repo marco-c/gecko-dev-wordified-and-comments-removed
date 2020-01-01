@@ -98,7 +98,7 @@ srcdir
 /
 *
 .
-jsm
+js
 (
 FINAL_TARGET
 )
@@ -106,3 +106,5 @@ FINAL_TARGET
 modules
 /
 devtools
+/
+styleinspector
