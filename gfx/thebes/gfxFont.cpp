@@ -9836,11 +9836,6 @@ fe
 =
 nsnull
 ;
-PRBool
-foundFamily
-=
-PR_FALSE
-;
 gfxUserFontSet
 *
 fs
@@ -9872,7 +9867,6 @@ FindFontEntry
 aName
 *
 fontStyle
-foundFamily
 needsBold
 waitForUserFont
 )
@@ -9898,7 +9892,7 @@ PR_TRUE
 if
 (
 !
-foundFamily
+fe
 )
 {
 fe
@@ -10872,13 +10866,6 @@ needsBold
 ;
 nsresult
 rv
-=
-NS_OK
-;
-PRBool
-foundFamily
-=
-PR_FALSE
 ;
 PRBool
 waitForUserFont
@@ -10897,7 +10884,6 @@ FindFontEntry
 (
 family
 mStyle
-foundFamily
 needsBold
 waitForUserFont
 )
@@ -10913,6 +10899,10 @@ family
 data
 )
 ;
+rv
+=
+NS_OK
+;
 }
 else
 {
@@ -10926,12 +10916,6 @@ mSkipDrawing
 PR_TRUE
 ;
 }
-if
-(
-!
-foundFamily
-)
-{
 gfxPlatform
 *
 pf
@@ -10960,7 +10944,6 @@ data
 aborted
 )
 ;
-}
 }
 if
 (

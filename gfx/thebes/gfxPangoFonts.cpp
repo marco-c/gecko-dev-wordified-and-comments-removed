@@ -4246,9 +4246,6 @@ PRUint16
 aWeight
 PRBool
 &
-aFoundFamily
-PRBool
-&
 aWaitForUserFont
 )
 {
@@ -4293,7 +4290,6 @@ FindFontEntry
 (
 utf16Family
 style
-aFoundFamily
 needsBold
 aWaitForUserFont
 )
@@ -4332,7 +4328,6 @@ FindFontEntry
 (
 utf16Family
 style
-aFoundFamily
 needsBold
 aWaitForUserFont
 )
@@ -4902,7 +4897,6 @@ mSortPattern
 )
 ;
 PRBool
-foundFamily
 waitForUserFont
 ;
 familyFonts
@@ -4913,7 +4907,6 @@ mUserFontSet
 cssFamily
 thebesStyle
 thebesWeight
-foundFamily
 waitForUserFont
 )
 ;
@@ -4927,25 +4920,6 @@ aWaitForUserFont
 PR_TRUE
 ;
 }
-NS_ASSERTION
-(
-foundFamily
-"
-expected
-to
-find
-a
-user
-font
-but
-it
-'
-s
-missing
-!
-"
-)
-;
 }
 }
 if

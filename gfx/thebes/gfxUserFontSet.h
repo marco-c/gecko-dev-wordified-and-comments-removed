@@ -527,9 +527,6 @@ gfxFontStyle
 aFontStyle
 PRBool
 &
-aFoundFamily
-PRBool
-&
 aNeedsBold
 PRBool
 &
@@ -695,7 +692,6 @@ NOT_LOADING
 LOADING_STARTED
 LOADING_ALMOST_DONE
 LOADING_SLOWLY
-LOADING_FAILED
 }
 ;
 LoadingState
