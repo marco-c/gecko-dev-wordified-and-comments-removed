@@ -5990,7 +5990,7 @@ void
 MacroAssemblerARMCompat
 :
 :
-load16
+load16_mask
 (
 const
 Address
@@ -6010,9 +6010,10 @@ address
 dest
 )
 ;
-and32
+ma_and
 (
 mask
+dest
 dest
 )
 ;
