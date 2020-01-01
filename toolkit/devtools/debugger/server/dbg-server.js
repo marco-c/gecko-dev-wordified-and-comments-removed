@@ -1600,7 +1600,7 @@ removeActor
 function
 AP_remove
 (
-aActorID
+aActor
 )
 {
 delete
@@ -1608,7 +1608,9 @@ this
 .
 _actors
 [
-aActorID
+aActor
+.
+actorID
 ]
 ;
 delete
@@ -1616,7 +1618,9 @@ this
 .
 _cleanups
 [
-aActorID
+aActor
+.
+actorID
 ]
 ;
 }
