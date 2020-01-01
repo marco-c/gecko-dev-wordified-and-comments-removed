@@ -438,6 +438,10 @@ typedef
 long
 off_t
 ;
+typedef
+INT_PTR
+intptr_t
+;
 #
 if
 !
