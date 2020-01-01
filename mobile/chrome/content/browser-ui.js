@@ -482,11 +482,6 @@ link
 link
 .
 href
-|
-|
-this
-.
-_faviconLink
 )
 return
 ;
