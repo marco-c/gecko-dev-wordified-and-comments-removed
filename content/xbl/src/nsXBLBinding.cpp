@@ -1671,7 +1671,7 @@ Equals
 nsGkAtoms
 :
 :
-observer
+observes
 )
 )
 )
