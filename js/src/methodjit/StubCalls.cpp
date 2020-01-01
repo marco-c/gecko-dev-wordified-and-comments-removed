@@ -191,6 +191,13 @@ jsfuninlines
 h
 "
 #
+include
+"
+jstypedarray
+.
+h
+"
+#
 ifdef
 XP_WIN
 #
