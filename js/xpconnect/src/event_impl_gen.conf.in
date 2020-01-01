@@ -233,9 +233,6 @@ DeviceStorageChangeEvent
 PopupBlockedEvent
 '
 '
-BlobEvent
-'
-'
 RecordErrorEvent
 '
 #

@@ -103,13 +103,6 @@ optional
 BlobEventInit
 eventInitDict
 )
-HeaderFile
-=
-"
-GeneratedEventClasses
-.
-h
-"
 ]
 interface
 BlobEvent

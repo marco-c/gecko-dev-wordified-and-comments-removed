@@ -2258,11 +2258,6 @@ WEBIDL_FILES
 =
 [
 '
-BlobEvent
-.
-webidl
-'
-'
 CloseEvent
 .
 webidl
@@ -2620,6 +2615,15 @@ WEBIDL_FILES
 [
 '
 InputMethod
+.
+webidl
+'
+]
+GENERATED_EVENTS_WEBIDL_FILES
+=
+[
+'
+BlobEvent
 .
 webidl
 '
