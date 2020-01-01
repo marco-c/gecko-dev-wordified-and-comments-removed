@@ -32,7 +32,7 @@ CPR_IPC_MSG
 struct
 msgbuffer
 {
-int32_t
+long
 mtype
 ;
 void
