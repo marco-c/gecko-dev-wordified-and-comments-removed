@@ -15879,6 +15879,8 @@ JS
 Value
 mozDash
 ;
+error
+=
 DashArrayToJSVal
 (
 CurrentState
