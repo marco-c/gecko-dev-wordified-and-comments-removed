@@ -196,6 +196,11 @@ nsIScrollbarOwner
 h
 '
 '
+nsIScrollPositionListener
+.
+h
+'
+'
 nsIStatefulFrame
 .
 h

@@ -103,11 +103,6 @@ EXPORTS
 =
 [
 '
-nsIScrollPositionListener
-.
-h
-'
-'
 nsView
 .
 h
