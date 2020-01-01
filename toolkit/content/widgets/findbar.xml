@@ -784,7 +784,7 @@ browser
 .
 finder
 .
-focusContent
+removeSelection
 (
 )
 ;
