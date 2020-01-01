@@ -114,7 +114,9 @@ NULL
 )
 SDK_BINARY_TARGET
 =
-export
+xpidl
+-
+parser
 ifndef
 MOZ_SYSTEM_PLY
 PLY_FILES
@@ -184,7 +186,9 @@ INSTALL_TARGETS
 PLY
 PLY_TARGET
 =
-export
+xpidl
+-
+parser
 endif
 include
 (
