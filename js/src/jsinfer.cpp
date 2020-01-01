@@ -12799,6 +12799,12 @@ getType
 unknownProperties
 (
 )
+&
+&
+!
+unknownProperties
+(
+)
 )
 {
 markUnknown
