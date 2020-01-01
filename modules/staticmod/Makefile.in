@@ -637,8 +637,6 @@ wsock32
 gdi32
 )
 endif
-ifdef
-MOZ_ENABLE_CAIRO_GFX
 OS_LIBS
 +
 =
@@ -647,7 +645,6 @@ call
 EXPAND_LIBNAME
 usp10
 )
-endif
 endif
 ifneq
 (

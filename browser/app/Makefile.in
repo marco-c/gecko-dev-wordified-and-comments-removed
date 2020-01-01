@@ -904,15 +904,9 @@ XLDFLAGS
 (
 XLIBS
 )
-ifdef
-MOZ_ENABLE_CAIRO_GFX
-LIBS
-+
-=
 (
 ZLIB_LIBS
 )
-endif
 endif
 ifdef
 MOZ_JPROF
@@ -1078,8 +1072,6 @@ oleaut32
 version
 winspool
 )
-ifdef
-MOZ_ENABLE_CAIRO_GFX
 OS_LIBS
 +
 =
@@ -1099,7 +1091,6 @@ call
 EXPAND_LIBNAME
 opengl32
 )
-endif
 endif
 RCINCLUDE
 =

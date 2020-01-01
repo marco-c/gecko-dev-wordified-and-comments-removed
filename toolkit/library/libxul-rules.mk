@@ -520,8 +520,6 @@ D_IMPL_NS_WIDGET
 (
 NULL
 )
-ifdef
-MOZ_ENABLE_CAIRO_GFX
 ifeq
 (
 (
@@ -569,9 +567,6 @@ framework
 AGL
 endif
 endif
-endif
-#
-MOZ_ENABLE_CAIRO_GFX
 ifeq
 (
 (
