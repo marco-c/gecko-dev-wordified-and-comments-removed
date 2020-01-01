@@ -1344,6 +1344,9 @@ NS_OK
 nsAutoString
 type
 ;
+nsresult
+rv
+=
 nsContentUtils
 :
 :
@@ -1353,6 +1356,18 @@ aMimeType
 type
 )
 ;
+if
+(
+NS_FAILED
+(
+rv
+)
+)
+{
+return
+rv
+;
+}
 nsAutoString
 params
 ;
@@ -1559,7 +1574,6 @@ nsIInputStream
 >
 stream
 ;
-nsresult
 rv
 =
 ExtractData

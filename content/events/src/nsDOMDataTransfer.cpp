@@ -1316,6 +1316,8 @@ stringdata
 nsAutoString
 lowercaseFormat
 ;
+rv
+=
 nsContentUtils
 :
 :
@@ -1325,6 +1327,18 @@ aFormat
 lowercaseFormat
 )
 ;
+if
+(
+NS_FAILED
+(
+rv
+)
+)
+{
+return
+rv
+;
+}
 if
 (
 lowercaseFormat
