@@ -8674,13 +8674,6 @@ mm
 )
 GK_ATOM
 (
-mozUseChangeDummyAttr
-"
-_mozUseChangeDummyAttr
-"
-)
-GK_ATOM
-(
 mpath
 "
 mpath

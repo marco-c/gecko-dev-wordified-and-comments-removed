@@ -1375,6 +1375,7 @@ svg
 pass
 .
 svg
+random
 =
 =
 dynamic
@@ -1397,6 +1398,7 @@ nested
 ref
 .
 svg
+random
 =
 =
 dynamic
