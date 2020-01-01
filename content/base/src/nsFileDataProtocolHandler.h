@@ -71,6 +71,16 @@ nsACString
 aUri
 )
 ;
+static
+nsIPrincipal
+*
+GetFileDataEntryPrincipal
+(
+nsACString
+&
+aUri
+)
+;
 }
 ;
 #

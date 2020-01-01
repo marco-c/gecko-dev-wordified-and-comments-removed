@@ -1179,6 +1179,10 @@ FileReader
 )
 DOMCI_CLASS
 (
+MozURLProperty
+)
+DOMCI_CLASS
+(
 ModalContentWindow
 )
 DOMCI_CLASS
