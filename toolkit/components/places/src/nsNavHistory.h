@@ -1196,6 +1196,17 @@ nsString
 title
 )
 ;
+bool
+isBatching
+(
+)
+{
+return
+mBatchLevel
+>
+0
+;
+}
 private
 :
 ~
