@@ -1,3 +1,12 @@
+if
+(
+getBuildConfiguration
+(
+)
+.
+parallelJS
+)
+{
 print
 (
 ParallelArray
@@ -21,3 +30,4 @@ function
 )
 )
 )
+}

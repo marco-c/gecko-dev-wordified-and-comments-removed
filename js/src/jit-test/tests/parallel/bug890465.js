@@ -1,3 +1,12 @@
+if
+(
+getBuildConfiguration
+(
+)
+.
+parallelJS
+)
+{
 x
 =
 Uint8ClampedArray
@@ -19,3 +28,4 @@ x
 ]
 }
 )
+}

@@ -1,3 +1,12 @@
+if
+(
+getBuildConfiguration
+(
+)
+.
+parallelJS
+)
+{
 load
 (
 libdir
@@ -131,3 +140,4 @@ a2
 a1
 )
 ;
+}

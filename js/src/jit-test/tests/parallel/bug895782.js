@@ -1,3 +1,12 @@
+if
+(
+getBuildConfiguration
+(
+)
+.
+parallelJS
+)
+{
 Object
 .
 defineProperty
@@ -47,3 +56,4 @@ partition
 y
 +
 y
+}

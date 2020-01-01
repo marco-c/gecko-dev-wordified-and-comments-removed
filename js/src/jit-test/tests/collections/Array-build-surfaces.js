@@ -1,3 +1,12 @@
+if
+(
+getBuildConfiguration
+(
+)
+.
+parallelJS
+)
+{
 load
 (
 libdir
@@ -160,3 +169,4 @@ function
 true
 )
 ;
+}
