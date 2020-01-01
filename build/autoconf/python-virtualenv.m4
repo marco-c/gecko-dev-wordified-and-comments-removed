@@ -407,6 +407,7 @@ _virtualenv_populate_path
 \
 _virtualenv_topsrcdir
 MOZ_BUILD_ROOT
+MOZ_BUILD_ROOT
 /
 _virtualenv
 |
