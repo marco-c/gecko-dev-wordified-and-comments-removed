@@ -890,6 +890,8 @@ nsWindow
 *
 GetTopLevelWindow
 (
+PRBool
+aStopOnDialogOrPopup
 )
 ;
 gfxASurface
@@ -1330,10 +1332,8 @@ ptr
 ;
 nsWindow
 *
-GetParent
+GetParentWindow
 (
-PRBool
-aStopOnFirstTopLevel
 )
 ;
 void
@@ -2207,7 +2207,7 @@ GetTopLevelHWND
 HWND
 aWnd
 PRBool
-aStopOnFirstTopLevel
+aStopOnDialogOrPopup
 =
 PR_FALSE
 )
