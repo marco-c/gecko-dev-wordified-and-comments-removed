@@ -899,11 +899,12 @@ NULL
 ;
 static
 const
-char
+PRUnichar
 kThemeLibraryName
 [
 ]
 =
+L
 "
 uxtheme
 .
@@ -1082,7 +1083,7 @@ mThemeDLL
 =
 :
 :
-LoadLibrary
+LoadLibraryW
 (
 kThemeLibraryName
 )

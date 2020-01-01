@@ -290,16 +290,12 @@ HDC
 *
 aHDC
 const
-LOGFONT
+LOGFONTW
 *
 ptrLogFont
 nsFont
 *
 aFont
-PRBool
-aIsWide
-=
-PR_FALSE
 )
 const
 ;

@@ -390,7 +390,7 @@ MsgBuf
 (
 )
 ;
-SendMessageA
+SendMessage
 (
 ipcDaemonHwnd
 WM_COPYDATA

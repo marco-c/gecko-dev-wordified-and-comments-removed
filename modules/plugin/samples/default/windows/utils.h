@@ -23,7 +23,8 @@ HWND
 hWnd
 int
 iID
-LPSTR
+wchar_t
+*
 szText
 )
 ;

@@ -250,8 +250,9 @@ sMsgId
 )
 sMsgId
 =
-RegisterWindowMessage
+RegisterWindowMessageW
 (
+L
 "
 nsAppShell
 :
@@ -259,7 +260,7 @@ EventID
 "
 )
 ;
-WNDCLASS
+WNDCLASSW
 wc
 ;
 HINSTANCE
@@ -271,11 +272,12 @@ NULL
 )
 ;
 const
-char
+PRUnichar
 *
 const
 kWindowClass
 =
+L
 "
 nsAppShell
 :
@@ -285,7 +287,7 @@ EventWindowClass
 if
 (
 !
-GetClassInfo
+GetClassInfoW
 (
 module
 kWindowClass
@@ -350,7 +352,7 @@ wc
 lpszMenuName
 =
 (
-LPCSTR
+LPCWSTR
 )
 NULL
 ;
@@ -360,7 +362,7 @@ lpszClassName
 =
 kWindowClass
 ;
-RegisterClass
+RegisterClassW
 (
 &
 wc
@@ -369,9 +371,10 @@ wc
 }
 mEventWnd
 =
-CreateWindow
+CreateWindowW
 (
 kWindowClass
+L
 "
 nsAppShell
 :

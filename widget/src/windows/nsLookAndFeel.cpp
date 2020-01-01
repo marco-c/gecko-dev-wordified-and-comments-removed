@@ -121,11 +121,12 @@ NULL
 ;
 static
 const
-char
+PRUnichar
 kThemeLibraryName
 [
 ]
 =
+L
 "
 uxtheme
 .
@@ -296,10 +297,11 @@ ifndef
 WINCE
 gShell32DLLInst
 =
-LoadLibrary
+LoadLibraryW
 (
+L
 "
-Shell32
+shell32
 .
 dll
 "
@@ -326,7 +328,7 @@ SHAppBarMessage
 }
 gThemeDLLInst
 =
-LoadLibrary
+LoadLibraryW
 (
 kThemeLibraryName
 )
@@ -1628,8 +1630,9 @@ gSHAppBarMessage
 HWND
 shellWindow
 =
-FindWindow
+FindWindowW
 (
+L
 "
 Shell_TrayWnd
 "

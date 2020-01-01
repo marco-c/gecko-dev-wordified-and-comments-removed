@@ -1318,7 +1318,7 @@ rv
 rv
 )
 ;
-nsCAutoString
+nsAutoString
 appHelperPath
 ;
 rv
@@ -1326,7 +1326,7 @@ rv
 appHelper
 -
 >
-GetNativePath
+GetPath
 (
 appHelperPath
 )
@@ -1366,7 +1366,7 @@ SetAsDefaultAppUser
 )
 ;
 }
-STARTUPINFO
+STARTUPINFOW
 si
 =
 {
@@ -1387,11 +1387,11 @@ pi
 BOOL
 ok
 =
-CreateProcess
+CreateProcessW
 (
 NULL
 (
-LPSTR
+LPWSTR
 )
 appHelperPath
 .
