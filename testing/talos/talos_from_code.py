@@ -133,7 +133,6 @@ talos_json_url
     
 except
 Exception
-as
 e
 :
         
@@ -320,7 +319,6 @@ zip
     
 except
 Exception
-as
 e
 :
         
