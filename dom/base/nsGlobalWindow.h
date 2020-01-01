@@ -822,6 +822,8 @@ public
 nsITouchEventReceiver
 public
 nsIInlineEventHandlers
+public
+nsIWindowCrypto
 {
 public
 :
@@ -997,6 +999,7 @@ NS_DECL_NSIDOMJSWINDOW
 NS_DECL_NSIDOMEVENTTARGET
 NS_DECL_NSITOUCHEVENTRECEIVER
 NS_DECL_NSIINLINEEVENTHANDLERS
+NS_DECL_NSIWINDOWCRYPTO
 virtual
 NS_HIDDEN_
 (
@@ -2805,6 +2808,11 @@ aOutTitle
 ;
 bool
 CanMoveResizeWindows
+(
+)
+;
+bool
+GetBlurSuppression
 (
 )
 ;
