@@ -1667,7 +1667,7 @@ std
 gnu89
 "
 \
-DSO_CFLAGS
+ARCHFLAG
 =
 "
 (
