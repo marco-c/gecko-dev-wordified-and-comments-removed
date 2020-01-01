@@ -1339,6 +1339,17 @@ gfxPattern
 FILTER_FAST
 )
 ;
+pat
+-
+>
+SetExtend
+(
+gfxPattern
+:
+:
+EXTEND_PAD
+)
+;
 mContext
 -
 >
