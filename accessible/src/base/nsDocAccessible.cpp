@@ -1073,10 +1073,10 @@ nsRoleMapEntry
 *
 roleMapEntry
 =
-nsAccUtils
+aria
 :
 :
-GetRoleMapEntry
+GetRoleMap
 (
 ownerContent
 )
@@ -6653,10 +6653,10 @@ aElement
 {
 SetRoleMapEntry
 (
-nsAccUtils
+aria
 :
 :
-GetRoleMapEntry
+GetRoleMap
 (
 aElement
 )

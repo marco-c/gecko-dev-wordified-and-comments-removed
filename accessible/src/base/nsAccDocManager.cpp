@@ -29,6 +29,13 @@ h
 #
 include
 "
+nsARIAMap
+.
+h
+"
+#
+include
+"
 nsRootAccessibleWrap
 .
 h
@@ -1417,10 +1424,10 @@ docAcc
 >
 SetRoleMapEntry
 (
-nsAccUtils
+aria
 :
 :
-GetRoleMapEntry
+GetRoleMap
 (
 aDocument
 )

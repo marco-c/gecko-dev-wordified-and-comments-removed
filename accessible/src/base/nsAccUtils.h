@@ -474,16 +474,6 @@ aAccessNode
 )
 ;
 static
-nsRoleMapEntry
-*
-GetRoleMapEntry
-(
-nsINode
-*
-aNode
-)
-;
-static
 PRUint32
 Role
 (

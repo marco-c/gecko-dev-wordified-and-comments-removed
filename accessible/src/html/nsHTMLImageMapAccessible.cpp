@@ -447,10 +447,10 @@ mDoc
 BindToDocument
 (
 area
-nsAccUtils
+aria
 :
 :
-GetRoleMapEntry
+GetRoleMap
 (
 areaContent
 )
