@@ -443,9 +443,9 @@ CPPSRCS
 .
 .
 /
-win32
+unix
 /
-xptcinvoke_x86_gnu
+xptcinvoke_gcc_x86_unix
 .
 cpp
 \
