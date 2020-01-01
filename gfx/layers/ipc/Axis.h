@@ -132,6 +132,11 @@ GetExcess
 )
 ;
 float
+GetAccelerationFactor
+(
+)
+;
+float
 GetVelocity
 (
 )
