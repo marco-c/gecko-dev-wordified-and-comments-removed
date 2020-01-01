@@ -1312,6 +1312,10 @@ browser_minimize
 .
 js
 \
+browser_aboutSyncProgress
+.
+js
+\
 browser_middleMouse_inherit
 .
 js
