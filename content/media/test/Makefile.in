@@ -929,6 +929,14 @@ test_playback_errors
 .
 html
 \
+test_preload_actions
+.
+html
+\
+test_preload_attribute
+.
+html
+\
 test_progress
 .
 html
