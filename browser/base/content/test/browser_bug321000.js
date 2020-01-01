@@ -504,6 +504,14 @@ focus
 (
 )
 ;
+gBrowser
+.
+selectedBrowser
+.
+focus
+(
+)
+;
 info
 (
 "
