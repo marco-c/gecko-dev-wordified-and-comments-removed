@@ -598,14 +598,6 @@ nsIContent
 aTarget
 )
 ;
-void
-PresShellDestroyed
-(
-nsIPresShell
-*
-aPresShell
-)
-;
 virtual
 void
 PresShellActivated

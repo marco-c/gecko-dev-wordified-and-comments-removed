@@ -14,13 +14,6 @@ h
 #
 include
 "
-nsAccUtils
-.
-h
-"
-#
-include
-"
 DocAccessible
 .
 h

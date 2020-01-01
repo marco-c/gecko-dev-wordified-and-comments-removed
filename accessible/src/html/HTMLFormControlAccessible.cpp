@@ -31,6 +31,13 @@ h
 #
 include
 "
+nsEventShell
+.
+h
+"
+#
+include
+"
 nsTextEquivUtils
 .
 h

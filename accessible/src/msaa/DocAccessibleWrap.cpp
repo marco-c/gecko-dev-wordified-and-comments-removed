@@ -33,6 +33,13 @@ c
 #
 include
 "
+nsCoreUtils
+.
+h
+"
+#
+include
+"
 nsIAccessibilityService
 .
 h
