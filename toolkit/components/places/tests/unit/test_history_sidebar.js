@@ -1323,8 +1323,6 @@ run_test
 (
 )
 {
-return
-;
 fill_history
 (
 )
