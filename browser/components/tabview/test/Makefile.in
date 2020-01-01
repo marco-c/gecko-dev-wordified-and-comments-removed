@@ -923,6 +923,10 @@ browser_tabview_bug706430
 .
 js
 \
+browser_tabview_bug706736
+.
+js
+\
 browser_tabview_click_group
 .
 js

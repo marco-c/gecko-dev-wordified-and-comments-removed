@@ -5348,9 +5348,7 @@ length
 !
 gBrowser
 .
-selectedTab
-.
-pinned
+_numPinnedTabs
 &
 &
 !
