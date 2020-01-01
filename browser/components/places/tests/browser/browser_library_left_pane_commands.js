@@ -923,15 +923,7 @@ false
 ;
 executeSoon
 (
-function
-(
-)
-{
 nextTest
-(
-)
-;
-}
 )
 ;
 }

@@ -1214,15 +1214,7 @@ false
 ;
 executeSoon
 (
-function
-(
-)
-{
 nextTest
-(
-)
-;
-}
 )
 ;
 }
