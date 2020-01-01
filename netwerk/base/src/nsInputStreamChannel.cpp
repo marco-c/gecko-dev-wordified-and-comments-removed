@@ -43,7 +43,7 @@ len
 0
 )
 {
-PRUint32
+PRUint64
 avail
 ;
 nsresult

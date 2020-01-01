@@ -332,7 +332,7 @@ NS_OK
 NS_IMETHOD
 Available
 (
-PRUint32
+PRUint64
 *
 aAvailable
 )

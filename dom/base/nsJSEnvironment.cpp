@@ -16604,7 +16604,7 @@ rv
 rv
 )
 ;
-PRUint32
+PRUint64
 rawLen
 ;
 rv
@@ -16631,6 +16631,15 @@ rawLen
 )
 return
 NS_ERROR_FAILURE
+;
+if
+(
+rawLen
+>
+PR_UINT32_MAX
+)
+return
+NS_ERROR_FILE_TOO_BIG
 ;
 nsAutoArrayPtr
 <

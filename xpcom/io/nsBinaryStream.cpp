@@ -1297,7 +1297,7 @@ nsBinaryInputStream
 :
 Available
 (
-PRUint32
+PRUint64
 *
 aResult
 )

@@ -2322,7 +2322,7 @@ nsPipeInputStream
 :
 Available
 (
-PRUint32
+PRUint64
 *
 result
 )
@@ -2359,6 +2359,9 @@ mStatus
 *
 result
 =
+(
+PRUint64
+)
 mAvailable
 ;
 return

@@ -259,7 +259,7 @@ nsDiskCacheInputStream
 :
 Available
 (
-PRUint32
+PRUint64
 *
 bytesAvailable
 )
