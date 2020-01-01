@@ -469,6 +469,10 @@ DOMSVGLengthList
 .
 cpp
 \
+DOMSVGMatrix
+.
+cpp
+\
 DOMSVGNumber
 .
 cpp
@@ -614,10 +618,6 @@ nsSVGMarkerElement
 cpp
 \
 nsSVGMaskElement
-.
-cpp
-\
-nsSVGMatrix
 .
 cpp
 \
@@ -943,10 +943,6 @@ nsSVGFeatures
 h
 \
 nsSVGRect
-.
-h
-\
-nsSVGMatrix
 .
 h
 \
