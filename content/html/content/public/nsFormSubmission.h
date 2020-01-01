@@ -370,6 +370,9 @@ nsIInputStream
 *
 GetSubmissionBody
 (
+uint64_t
+*
+aContentLength
 )
 ;
 protected
@@ -392,6 +395,9 @@ mPostDataChunk
 ;
 nsCString
 mBoundary
+;
+uint64_t
+mTotalLength
 ;
 }
 ;
