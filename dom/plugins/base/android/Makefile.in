@@ -537,6 +537,16 @@ I
 topsrcdir
 )
 /
+widget
+/
+xpwidgets
+\
+-
+I
+(
+topsrcdir
+)
+/
 dom
 /
 plugins
