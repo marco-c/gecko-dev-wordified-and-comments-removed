@@ -4132,9 +4132,15 @@ Resolve
 JSContext
 *
 aCx
-JSHandleObject
+JS
+:
+:
+HandleObject
 aObj
-JSHandleId
+JS
+:
+:
+HandleId
 aId
 unsigned
 aFlags
