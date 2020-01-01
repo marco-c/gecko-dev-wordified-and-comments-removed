@@ -12467,6 +12467,12 @@ state
 =
 =
 LAYER_ACTIVE
+|
+|
+state
+=
+=
+LAYER_ACTIVE_FORCE
 )
 return
 false

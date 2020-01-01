@@ -1741,13 +1741,6 @@ scriptCountsMap
 js
 :
 :
-SourceMapMap
-*
-sourceMapMap
-;
-js
-:
-:
 DebugScriptMap
 *
 debugScriptMap

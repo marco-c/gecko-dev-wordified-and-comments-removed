@@ -7318,7 +7318,7 @@ aFrame
 :
 nsDisplayItem
 (
-nsnull
+nullptr
 aFrame
 nsPoint
 (

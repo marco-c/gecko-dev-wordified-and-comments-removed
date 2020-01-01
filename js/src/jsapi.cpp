@@ -10850,7 +10850,7 @@ JSContext
 cx
 )
 {
-AssertHeapIsIdle
+AssertHeapIsIdleOrIterating
 (
 cx
 )
