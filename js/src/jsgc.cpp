@@ -15743,6 +15743,9 @@ rt
 mainThread
 .
 nativeStackLimit
+[
+StackForSystemCode
+]
 )
 ;
 if

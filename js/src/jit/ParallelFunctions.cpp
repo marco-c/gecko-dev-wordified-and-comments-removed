@@ -574,17 +574,9 @@ isMainThread
 )
 realStackLimit
 =
-js
-:
-:
 GetNativeStackLimit
 (
 slice
--
->
-runtime
-(
-)
 )
 ;
 else

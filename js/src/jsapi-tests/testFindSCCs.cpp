@@ -735,6 +735,12 @@ rt
 mainThread
 .
 nativeStackLimit
+[
+js
+:
+:
+StackForSystemCode
+]
 )
 ;
 for
@@ -1122,6 +1128,12 @@ rt
 mainThread
 .
 nativeStackLimit
+[
+js
+:
+:
+StackForSystemCode
+]
 )
 ;
 for

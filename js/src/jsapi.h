@@ -8391,7 +8391,15 @@ JSRuntime
 *
 cx
 size_t
-stackSize
+systemCodeStackSize
+size_t
+trustedScriptStackSize
+=
+0
+size_t
+untrustedScriptStackSize
+=
+0
 )
 ;
 extern

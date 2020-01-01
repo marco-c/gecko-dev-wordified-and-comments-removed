@@ -44228,6 +44228,9 @@ runtime
 mainThread
 .
 nativeStackLimit
+[
+StackForUntrustedScript
+]
 ;
 masm
 .

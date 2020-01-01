@@ -530,6 +530,15 @@ THING_ROOT_PROPERTY_DESCRIPTOR
 THING_ROOT_LIMIT
 }
 ;
+enum
+StackKind
+{
+StackForSystemCode
+StackForTrustedScript
+StackForUntrustedScript
+StackKindCount
+}
+;
 template
 <
 typename
@@ -1028,6 +1037,9 @@ skipGCRooters
 endif
 uintptr_t
 nativeStackLimit
+[
+StackKindCount
+]
 ;
 static
 const
