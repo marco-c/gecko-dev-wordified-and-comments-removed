@@ -95,6 +95,12 @@ class
 nsPresContext
 ;
 class
+JSContext
+;
+class
+JSObject
+;
+class
 nsDOMEvent
 :
 public
@@ -361,6 +367,12 @@ aType
 nsISupports
 *
 aDict
+JSContext
+*
+aCx
+JSObject
+*
+aObj
 )
 ;
 void

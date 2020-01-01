@@ -86,6 +86,12 @@ aType
 nsISupports
 *
 aDict
+JSContext
+*
+aCx
+JSObject
+*
+aObj
 )
 ;
 private
