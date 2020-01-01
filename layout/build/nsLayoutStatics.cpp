@@ -309,13 +309,6 @@ h
 #
 include
 "
-nsWebSocket
-.
-h
-"
-#
-include
-"
 nsDOMThreadService
 .
 h
@@ -1666,13 +1659,6 @@ nsCORSListenerProxy
 :
 :
 Shutdown
-(
-)
-;
-nsWebSocket
-:
-:
-ReleaseGlobals
 (
 )
 ;

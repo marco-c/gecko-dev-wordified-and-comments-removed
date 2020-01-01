@@ -37938,6 +37938,7 @@ ftp
 http
 res
 viewsource
+websocket
 wyciwyg
 "
 USE_ARM_KUSER
