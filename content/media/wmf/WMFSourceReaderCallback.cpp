@@ -157,6 +157,12 @@ WMFSourceReaderCallback
 (
 )
 :
+mMonitor
+(
+"
+WMFSourceReaderCallback
+"
+)
 mResultStatus
 (
 S_OK
@@ -176,12 +182,6 @@ nullptr
 mReadFinished
 (
 false
-)
-mMonitor
-(
-"
-WMFSourceReaderCallback
-"
 )
 {
 #
