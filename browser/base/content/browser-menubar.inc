@@ -3770,7 +3770,7 @@ Home
 key
 =
 "
-historyHome
+goHome
 "
 /
 >
