@@ -972,6 +972,12 @@ aRef
 ;
 nsIContent
 *
+GetHtmlContent
+(
+)
+;
+nsIContent
+*
 GetBodyContent
 (
 )
