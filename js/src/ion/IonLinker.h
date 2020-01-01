@@ -205,6 +205,16 @@ uint8
 *
 codeStart
 =
+result
++
+sizeof
+(
+IonCode
+*
+)
+;
+codeStart
+=
 (
 uint8
 *
@@ -214,7 +224,7 @@ AlignBytes
 (
 uintptr_t
 )
-result
+codeStart
 CodeAlignment
 )
 ;
