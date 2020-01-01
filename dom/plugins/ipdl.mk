@@ -399,7 +399,7 @@ PPluginScriptableObject
 .
 ipdl
 \
-PPluginStream
+PBrowserStream
 .
 ipdl
 \

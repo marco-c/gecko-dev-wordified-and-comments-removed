@@ -16,7 +16,7 @@ mozilla
 /
 plugins
 /
-PluginStreamParent
+BrowserStreamParent
 .
 h
 "
@@ -970,7 +970,7 @@ return
 ip
 ;
 }
-PluginStreamParent
+BrowserStreamParent
 *
 PluginModuleParent
 :
@@ -993,13 +993,13 @@ InstCast
 instance
 )
 ;
-PluginStreamParent
+BrowserStreamParent
 *
 sp
 =
 static_cast
 <
-PluginStreamParent
+BrowserStreamParent
 *
 >
 (

@@ -1,7 +1,7 @@
 #
 include
 "
-PluginStreamChild
+BrowserStreamChild
 .
 h
 "
@@ -18,10 +18,10 @@ mozilla
 namespace
 plugins
 {
-PluginStreamChild
+BrowserStreamChild
 :
 :
-PluginStreamChild
+BrowserStreamChild
 (
 PluginInstanceChild
 *
@@ -190,7 +190,7 @@ true
 ;
 }
 nsresult
-PluginStreamChild
+BrowserStreamChild
 :
 :
 AnswerNPP_WriteReady
@@ -249,7 +249,7 @@ NS_OK
 ;
 }
 nsresult
-PluginStreamChild
+BrowserStreamChild
 :
 :
 AnswerNPP_Write
@@ -336,7 +336,7 @@ NS_OK
 ;
 }
 nsresult
-PluginStreamChild
+BrowserStreamChild
 :
 :
 AnswerNPP_StreamAsFile

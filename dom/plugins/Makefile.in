@@ -486,11 +486,11 @@ PluginInstanceParent
 .
 h
 \
-PluginStreamChild
+BrowserStreamChild
 .
 h
 \
-PluginStreamParent
+BrowserStreamParent
 .
 h
 \
@@ -558,11 +558,11 @@ PluginScriptableObjectParent
 .
 cpp
 \
-PluginStreamChild
+BrowserStreamChild
 .
 cpp
 \
-PluginStreamParent
+BrowserStreamParent
 .
 cpp
 \

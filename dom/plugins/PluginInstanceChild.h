@@ -92,7 +92,7 @@ protected
 :
 friend
 class
-PluginStreamChild
+BrowserStreamChild
 ;
 virtual
 nsresult
@@ -143,9 +143,9 @@ _retval
 )
 ;
 virtual
-PPluginStreamProtocolChild
+PBrowserStreamProtocolChild
 *
-PPluginStreamConstructor
+PBrowserStreamConstructor
 (
 const
 nsCString
@@ -181,9 +181,9 @@ stype
 ;
 virtual
 nsresult
-PPluginStreamDestructor
+PBrowserStreamDestructor
 (
-PPluginStreamProtocolChild
+PBrowserStreamProtocolChild
 *
 stream
 const

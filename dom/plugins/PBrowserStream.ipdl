@@ -478,7 +478,7 @@ plugin
 /
 rpc
 protocol
-PPluginStream
+PBrowserStream
 {
 manager
 PPluginInstance

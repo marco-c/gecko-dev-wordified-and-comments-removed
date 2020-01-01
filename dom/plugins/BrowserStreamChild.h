@@ -1,9 +1,9 @@
 #
 ifndef
-mozilla_plugins_PluginStreamChild_h
+mozilla_plugins_BrowserStreamChild_h
 #
 define
-mozilla_plugins_PluginStreamChild_h
+mozilla_plugins_BrowserStreamChild_h
 1
 #
 include
@@ -12,7 +12,7 @@ mozilla
 /
 plugins
 /
-PPluginStreamProtocolChild
+PBrowserStreamProtocolChild
 .
 h
 "
@@ -26,14 +26,14 @@ class
 PluginInstanceChild
 ;
 class
-PluginStreamChild
+BrowserStreamChild
 :
 public
-PPluginStreamProtocolChild
+PBrowserStreamProtocolChild
 {
 public
 :
-PluginStreamChild
+BrowserStreamChild
 (
 PluginInstanceChild
 *
@@ -72,7 +72,7 @@ stype
 ;
 virtual
 ~
-PluginStreamChild
+BrowserStreamChild
 (
 )
 {

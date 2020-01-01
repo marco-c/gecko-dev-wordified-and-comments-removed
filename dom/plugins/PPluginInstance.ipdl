@@ -467,7 +467,7 @@ ipdl
 include
 protocol
 "
-PPluginStream
+PBrowserStream
 .
 ipdl
 "
@@ -506,7 +506,7 @@ manages
 PPluginScriptableObject
 ;
 manages
-PPluginStream
+PBrowserStream
 ;
 child
 :
@@ -516,7 +516,7 @@ NPP_NewStream
 *
 /
 rpc
-PPluginStream
+PBrowserStream
 (
 nsCString
 url
@@ -593,7 +593,7 @@ both
 *
 *
 ~
-PluginStream
+BrowserStream
 is
 for
 both
@@ -633,7 +633,7 @@ NPP_Write
 /
 rpc
 ~
-PPluginStream
+PBrowserStream
 (
 NPError
 reason
