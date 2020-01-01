@@ -2017,6 +2017,16 @@ x86
 shared
 .
 cpp
+CPPSRCS
++
+=
+Lowering
+-
+x86
+-
+shared
+.
+cpp
 ifeq
 (
 x86_64

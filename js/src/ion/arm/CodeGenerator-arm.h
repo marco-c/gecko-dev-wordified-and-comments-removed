@@ -442,6 +442,9 @@ ool
 ;
 private
 :
+#
+if
+0
 class
 DeferredDouble
 :
@@ -505,6 +508,8 @@ SystemAllocPolicy
 >
 deferredDoubles_
 ;
+#
+endif
 protected
 :
 ValueOperand

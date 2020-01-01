@@ -251,14 +251,6 @@ param
 )
 ;
 bool
-visitTableSwitch
-(
-MTableSwitch
-*
-tableswitch
-)
-;
-bool
 visitGoto
 (
 MGoto

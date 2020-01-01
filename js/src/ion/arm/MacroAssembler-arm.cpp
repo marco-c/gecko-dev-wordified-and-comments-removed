@@ -1464,6 +1464,8 @@ Register
 dest
 SetCond_
 sc
+Condition
+c
 )
 {
 ma_alu
@@ -1473,6 +1475,7 @@ imm
 dest
 op_adc
 sc
+c
 )
 ;
 }
@@ -1488,6 +1491,8 @@ Register
 dest
 SetCond_
 sc
+Condition
+c
 )
 {
 as_alu
@@ -1500,6 +1505,7 @@ src
 )
 op_adc
 sc
+c
 )
 ;
 }
@@ -1517,6 +1523,8 @@ Register
 dest
 SetCond_
 sc
+Condition
+c
 )
 {
 as_alu
@@ -1529,6 +1537,7 @@ src2
 )
 op_adc
 sc
+c
 )
 ;
 }
@@ -1544,6 +1553,8 @@ Register
 dest
 SetCond_
 sc
+Condition
+c
 )
 {
 ma_alu
@@ -1553,6 +1564,7 @@ imm
 dest
 op_add
 sc
+c
 )
 ;
 }
@@ -1568,6 +1580,8 @@ Register
 dest
 SetCond_
 sc
+Condition
+c
 )
 {
 as_alu
@@ -1580,6 +1594,7 @@ src1
 )
 op_add
 sc
+c
 )
 ;
 }
@@ -1597,6 +1612,8 @@ Register
 dest
 SetCond_
 sc
+Condition
+c
 )
 {
 as_alu
@@ -1609,6 +1626,7 @@ dest
 )
 op_add
 sc
+c
 )
 ;
 }
@@ -1626,6 +1644,8 @@ Register
 dest
 SetCond_
 sc
+Condition
+c
 )
 {
 ma_alu
@@ -1635,6 +1655,7 @@ op
 dest
 op_add
 sc
+c
 )
 ;
 }
@@ -1652,6 +1673,8 @@ Register
 dest
 SetCond_
 sc
+Condition
+c
 )
 {
 ma_alu
@@ -1661,6 +1684,7 @@ op
 dest
 op_add
 sc
+c
 )
 ;
 }
@@ -1676,6 +1700,8 @@ Register
 dest
 SetCond_
 sc
+Condition
+c
 )
 {
 ma_alu
@@ -1685,6 +1711,7 @@ imm
 dest
 op_sbc
 sc
+c
 )
 ;
 }
@@ -1700,6 +1727,8 @@ Register
 dest
 SetCond_
 sc
+Condition
+c
 )
 {
 as_alu
@@ -1712,6 +1741,7 @@ src1
 )
 op_sbc
 sc
+c
 )
 ;
 }
@@ -1729,6 +1759,8 @@ Register
 dest
 SetCond_
 sc
+Condition
+c
 )
 {
 as_alu
@@ -1741,6 +1773,7 @@ dest
 )
 op_sbc
 sc
+c
 )
 ;
 }
@@ -1756,6 +1789,8 @@ Register
 dest
 SetCond_
 sc
+Condition
+c
 )
 {
 ma_alu
@@ -1765,6 +1800,7 @@ imm
 dest
 op_sub
 sc
+c
 )
 ;
 }
@@ -1780,6 +1816,8 @@ Register
 dest
 SetCond_
 sc
+Condition
+c
 )
 {
 ma_alu
@@ -1795,6 +1833,7 @@ src1
 dest
 op_sub
 sc
+c
 )
 ;
 }
@@ -1812,6 +1851,8 @@ Register
 dest
 SetCond_
 sc
+Condition
+c
 )
 {
 ma_alu
@@ -1827,6 +1868,7 @@ src2
 dest
 op_sub
 sc
+c
 )
 ;
 }
@@ -1844,6 +1886,8 @@ Register
 dest
 SetCond_
 sc
+Condition
+c
 )
 {
 ma_alu
@@ -1853,6 +1897,7 @@ op
 dest
 op_sub
 sc
+c
 )
 ;
 }
@@ -1870,6 +1915,8 @@ Register
 dest
 SetCond_
 sc
+Condition
+c
 )
 {
 ma_alu
@@ -1879,6 +1926,7 @@ op
 dest
 op_sub
 sc
+c
 )
 ;
 }
@@ -1894,6 +1942,8 @@ Register
 dest
 SetCond_
 sc
+Condition
+c
 )
 {
 ma_alu
@@ -1903,6 +1953,7 @@ imm
 dest
 op_rsb
 sc
+c
 )
 ;
 }
@@ -1918,6 +1969,8 @@ Register
 dest
 SetCond_
 sc
+Condition
+c
 )
 {
 as_alu
@@ -1930,6 +1983,7 @@ src1
 )
 op_add
 sc
+c
 )
 ;
 }
@@ -1947,6 +2001,8 @@ Register
 dest
 SetCond_
 sc
+Condition
+c
 )
 {
 as_alu
@@ -1959,6 +2015,7 @@ dest
 )
 op_rsc
 sc
+c
 )
 ;
 }
@@ -1976,6 +2033,8 @@ Register
 dest
 SetCond_
 sc
+Condition
+c
 )
 {
 ma_alu
@@ -1985,6 +2044,7 @@ op2
 dest
 op_rsb
 sc
+c
 )
 ;
 }
@@ -2000,6 +2060,8 @@ Register
 dest
 SetCond_
 sc
+Condition
+c
 )
 {
 ma_alu
@@ -2009,6 +2071,7 @@ imm
 dest
 op_rsc
 sc
+c
 )
 ;
 }
@@ -2024,6 +2087,8 @@ Register
 dest
 SetCond_
 sc
+Condition
+c
 )
 {
 as_alu
@@ -2036,6 +2101,7 @@ src1
 )
 op_rsc
 sc
+c
 )
 ;
 }
@@ -2053,6 +2119,8 @@ Register
 dest
 SetCond_
 sc
+Condition
+c
 )
 {
 as_alu
@@ -2065,6 +2133,7 @@ dest
 )
 op_rsc
 sc
+c
 )
 ;
 }
