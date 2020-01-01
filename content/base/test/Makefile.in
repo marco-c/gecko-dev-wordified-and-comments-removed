@@ -832,6 +832,14 @@ file_XHR_binary2
 .
 bin
 \
+file_XHR_header
+.
+sjs
+\
+test_XHR_header
+.
+html
+\
 test_bug428847
 .
 html
