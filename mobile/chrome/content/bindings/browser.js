@@ -1597,7 +1597,7 @@ DOMWindowClose
 let
 retvals
 =
-sendAsyncMessage
+sendSyncMessage
 (
 aEvent
 .
