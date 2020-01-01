@@ -103,6 +103,11 @@ CrossSlide
 jsm
 '
 '
+View
+.
+jsm
+'
+'
 colorUtils
 .
 jsm
