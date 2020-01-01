@@ -2506,6 +2506,15 @@ return
 }
 nsCOMPtr
 <
+nsIMutationObserver
+>
+kungFuDeathGrip
+(
+this
+)
+;
+nsCOMPtr
+<
 nsIDOMNode
 >
 content

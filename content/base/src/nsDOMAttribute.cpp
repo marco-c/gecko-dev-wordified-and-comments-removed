@@ -2826,6 +2826,15 @@ aAttribute
 return
 ;
 }
+nsCOMPtr
+<
+nsIMutationObserver
+>
+kungFuDeathGrip
+(
+this
+)
+;
 if
 (
 mChild

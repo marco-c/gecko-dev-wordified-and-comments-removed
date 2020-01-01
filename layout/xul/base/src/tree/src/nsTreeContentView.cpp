@@ -4207,6 +4207,15 @@ PRInt32
 aModType
 )
 {
+nsCOMPtr
+<
+nsIMutationObserver
+>
+kungFuDeathGrip
+(
+this
+)
+;
 nsIAtom
 *
 tag

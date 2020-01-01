@@ -3894,6 +3894,15 @@ doc
 "
 )
 ;
+nsCOMPtr
+<
+nsIMutationObserver
+>
+kungFuDeathGrip
+(
+this
+)
+;
 Element
 *
 aElement

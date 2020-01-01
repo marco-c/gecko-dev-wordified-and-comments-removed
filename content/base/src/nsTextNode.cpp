@@ -1325,7 +1325,10 @@ this
 update
 )
 ;
-NS_DispatchToCurrentThread
+nsContentUtils
+:
+:
+AddScriptRunner
 (
 ev
 )

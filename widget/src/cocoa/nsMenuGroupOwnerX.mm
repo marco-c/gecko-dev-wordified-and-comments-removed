@@ -872,6 +872,15 @@ PRInt32
 aModType
 )
 {
+nsCOMPtr
+<
+nsIMutationObserver
+>
+kungFuDeathGrip
+(
+this
+)
+;
 nsChangeObserver
 *
 obs
