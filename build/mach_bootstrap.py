@@ -808,7 +808,7 @@ makedirs
 state_env_dir
 mode
 =
-0777
+0o770
 )
             
 print
