@@ -1316,8 +1316,7 @@ base
 newcap
 ;
 vp
-!
-=
+<
 end
 ;
 +
