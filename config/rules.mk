@@ -5994,8 +5994,15 @@ HOST_LIBS
 HOST_EXTRA_LIBS
 )
 else
-ifdef
+ifneq
+(
+(
 HOST_CPPSRCS
+)
+(
+USE_HOST_CXX
+)
+)
 (
 HOST_CXX
 )
