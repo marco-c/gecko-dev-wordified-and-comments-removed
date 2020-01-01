@@ -1019,6 +1019,7 @@ self
 do_include
 (
 f
+False
 )
     
 pass
@@ -3107,6 +3108,9 @@ do_include
 (
 self
 args
+filters
+=
+True
 )
 :
     
@@ -3201,6 +3205,10 @@ str
 args
 )
         
+if
+filters
+:
+          
 args
 =
 self
@@ -3250,6 +3258,14 @@ args
 rU
 '
 )
+      
+except
+Preprocessor
+.
+Error
+:
+        
+raise
       
 except
 :
@@ -3655,6 +3671,7 @@ pp
 do_include
 (
 f
+False
 )
 if
 __name__
