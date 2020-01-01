@@ -170,7 +170,9 @@ android
 padding
 =
 "
-10dp
+dimen
+/
+doorhanger_padding
 "
 /
 >
@@ -191,7 +193,7 @@ android
 layout_width
 =
 "
-fill_parent
+wrap_content
 "
 android
 :
