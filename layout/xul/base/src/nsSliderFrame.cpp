@@ -3059,6 +3059,10 @@ SetRect
 newThumbRect
 )
 ;
+SchedulePaint
+(
+)
+;
 mCurPos
 =
 curPos
