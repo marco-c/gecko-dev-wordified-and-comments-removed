@@ -69,6 +69,10 @@ gfxWindowsSurface
 (
 HWND
 wnd
+PRUint32
+flags
+=
+0
 )
 ;
 gfxWindowsSurface
@@ -112,6 +116,13 @@ gfxWindowsSurface
 cairo_surface_t
 *
 csurf
+)
+;
+void
+InitWithDC
+(
+PRUint32
+flags
 )
 ;
 virtual
