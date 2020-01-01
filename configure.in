@@ -39762,8 +39762,6 @@ else
 AC_CHECK_LIB
 (
 QtSensors
-QtFeedback
-QtLocation
 main
 [
 MOZ_ENABLE_QTMOBILITY

@@ -12,11 +12,6 @@ nsGeoPosition
 .
 h
 "
-#
-include
-<
-QFeedbackEffect
->
 using
 namespace
 QtMobility
