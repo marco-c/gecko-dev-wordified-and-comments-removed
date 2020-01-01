@@ -581,7 +581,7 @@ return
 nullptr
 ;
 }
-nsCOMPtr
+nsRefPtr
 <
 DOMSVGTransform
 >
@@ -778,7 +778,7 @@ return
 nullptr
 ;
 }
-nsCOMPtr
+nsRefPtr
 <
 DOMSVGTransform
 >
@@ -1012,7 +1012,7 @@ return
 nullptr
 ;
 }
-nsCOMPtr
+nsRefPtr
 <
 DOMSVGTransform
 >
@@ -1228,7 +1228,7 @@ RemovingFromList
 (
 )
 ;
-nsCOMPtr
+nsRefPtr
 <
 DOMSVGTransform
 >
@@ -1316,7 +1316,7 @@ SVGMatrix
 matrix
 )
 {
-nsCOMPtr
+nsRefPtr
 <
 DOMSVGTransform
 >
