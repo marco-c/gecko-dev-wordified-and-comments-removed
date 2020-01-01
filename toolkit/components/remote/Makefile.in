@@ -502,7 +502,7 @@ MOZ_WIDGET_TOOLKIT
 CPPSRCS
 +
 =
-nsPhMozRemoteHelper
+nsPhRemoteService
 .
 cpp
 endif
