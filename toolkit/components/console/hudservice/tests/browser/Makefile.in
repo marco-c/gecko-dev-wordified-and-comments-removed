@@ -804,6 +804,14 @@ browser_webconsole_bug_632347_iterators_generators
 .
 js
 \
+browser_webconsole_bug_642108_refForOutputNode
+.
+js
+\
+browser_webconsole_bug_642108_pruneTest
+.
+js
+\
 head
 .
 js
