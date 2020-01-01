@@ -1284,11 +1284,12 @@ eColorID__moz_mac_disabledtoolbartext
 :
 aColor
 =
-NS_RGB
+GetColorFromNSColor
 (
-0x3F
-0x3F
-0x3F
+[
+NSColor
+disabledControlTextColor
+]
 )
 ;
 break
