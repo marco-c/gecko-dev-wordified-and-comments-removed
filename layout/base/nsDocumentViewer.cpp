@@ -2789,6 +2789,14 @@ aParentWidget
 containerView
 |
 |
+mDocument
+-
+>
+IsBeingUsedAsImage
+(
+)
+|
+|
 (
 mDocument
 -
