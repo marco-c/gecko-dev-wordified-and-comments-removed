@@ -23580,10 +23580,7 @@ JSScript
 Create
 (
 cx
-parent
--
->
-savedCallerFun
+false
 parent
 -
 >
