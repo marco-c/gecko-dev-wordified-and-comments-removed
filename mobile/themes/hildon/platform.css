@@ -238,6 +238,15 @@ color
 #
 36373b
 ;
+border
+:
+0
+.
+3mm
+solid
+#
+262629
+;
 -
 moz
 -
@@ -252,7 +261,7 @@ radius
 ;
 padding
 :
-8px
+1mm
 ;
 -
 moz
