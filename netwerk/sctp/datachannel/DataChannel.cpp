@@ -4235,6 +4235,7 @@ FindFreeStream
 {
 uint32_t
 i
+j
 limit
 ;
 limit
@@ -4288,7 +4289,6 @@ i
 {
 for
 (
-uint32_t
 j
 =
 0
@@ -4317,10 +4317,20 @@ j
 i
 )
 {
-continue
+break
 ;
 }
 }
+if
+(
+j
+=
+mStreamsResetting
+.
+Length
+(
+)
+)
 break
 ;
 }
@@ -4328,7 +4338,7 @@ break
 if
 (
 i
-=
+>
 =
 limit
 )
