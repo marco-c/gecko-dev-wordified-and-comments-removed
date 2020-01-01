@@ -2394,7 +2394,15 @@ selectedItem
 =
 initialTab
 ;
-initialTab
+radioGroup
+.
+selectedItem
+.
+doCommand
+(
+)
+;
+radioGroup
 .
 focus
 (
