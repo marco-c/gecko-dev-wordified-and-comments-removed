@@ -3124,6 +3124,13 @@ mFrame
 =
 nsnull
 ;
+png_set_crc_action
+(
+png_ptr
+NULL
+PNG_CRC_ERROR_QUIT
+)
+;
 return
 ;
 }
