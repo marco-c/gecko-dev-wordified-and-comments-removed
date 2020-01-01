@@ -1356,7 +1356,7 @@ CloseEvent
 )
 DOMCI_CLASS
 (
-IndexedDatabaseRequest
+IDBFactory
 )
 DOMCI_CLASS
 (
@@ -1364,7 +1364,7 @@ IDBRequest
 )
 DOMCI_CLASS
 (
-IDBDatabaseRequest
+IDBDatabase
 )
 DOMCI_CLASS
 (
@@ -1380,15 +1380,15 @@ IDBTransactionEvent
 )
 DOMCI_CLASS
 (
-IDBObjectStoreRequest
+IDBObjectStore
 )
 DOMCI_CLASS
 (
-IDBTransactionRequest
+IDBTransaction
 )
 DOMCI_CLASS
 (
-IDBCursorRequest
+IDBCursor
 )
 DOMCI_CLASS
 (
@@ -1396,5 +1396,5 @@ IDBKeyRange
 )
 DOMCI_CLASS
 (
-IDBIndexRequest
+IDBIndex
 )

@@ -1153,6 +1153,10 @@ getPrivate
 )
 ;
 return
+p
+&
+2
+?
 (
 ArgsPrivateNative
 *
@@ -1160,15 +1164,11 @@ ArgsPrivateNative
 (
 p
 &
-2
-?
-p
-&
 ~
 2
+)
 :
 NULL
-)
 ;
 }
 }
