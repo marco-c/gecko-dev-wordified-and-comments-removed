@@ -171,6 +171,16 @@ join
 ;
 [
 "
+BookmarksHelper
+.
+js
+"
+"
+HistoryHelper
+.
+js
+"
+"
 ViewStateHelper
 .
 js
