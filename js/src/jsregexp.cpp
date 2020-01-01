@@ -22347,8 +22347,6 @@ vp
 JSVAL_TRUE
 ;
 }
-#
-endif
 JS_DEFINE_CALLINFO_3
 (
 BOOL
@@ -22381,6 +22379,8 @@ FAIL_VOID
 }
 }
 ;
+#
+endif
 static
 JSFunctionSpec
 regexp_methods
