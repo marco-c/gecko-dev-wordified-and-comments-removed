@@ -811,6 +811,10 @@ test_bug375003
 .
 html
 \
+test_bug383383
+.
+html
+\
 test_bug384419
 .
 html
