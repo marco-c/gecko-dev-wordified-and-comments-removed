@@ -136,12 +136,6 @@ return
 length
 ;
 }
-SuppressWarnings
-(
-"
-javadoc
-"
-)
 public
 static
 HttpEntity
