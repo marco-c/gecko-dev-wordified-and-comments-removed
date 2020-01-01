@@ -444,6 +444,11 @@ SeekingStopped
 )
 ;
 void
+SeekingStoppedAtEnd
+(
+)
+;
+void
 SeekingStarted
 (
 )
