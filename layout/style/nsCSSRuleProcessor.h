@@ -134,6 +134,7 @@ static
 bool
 SelectorListMatches
 (
+const
 mozilla
 :
 :
@@ -155,6 +156,7 @@ static
 nsEventStates
 GetContentState
 (
+const
 mozilla
 :
 :
@@ -170,6 +172,7 @@ static
 nsEventStates
 GetContentStateForVisitedHandling
 (
+const
 mozilla
 :
 :
@@ -192,6 +195,7 @@ static
 bool
 IsLink
 (
+const
 mozilla
 :
 :

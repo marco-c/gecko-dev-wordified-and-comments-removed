@@ -824,6 +824,7 @@ PRUint32
 TextLength
 (
 )
+const
 ;
 virtual
 nsresult
@@ -886,6 +887,7 @@ bool
 TextIsOnlyWhitespace
 (
 )
+const
 ;
 virtual
 void

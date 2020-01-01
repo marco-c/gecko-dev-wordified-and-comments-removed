@@ -924,6 +924,7 @@ PRUint32
 TextLength
 (
 )
+const
 =
 0
 ;
@@ -992,6 +993,7 @@ bool
 TextIsOnlyWhitespace
 (
 )
+const
 =
 0
 ;
