@@ -113,13 +113,6 @@ h
 #
 include
 "
-nsContentUtils
-.
-h
-"
-#
-include
-"
 nsIEventListenerManager
 .
 h
@@ -5360,6 +5353,10 @@ nsIDOMAbstractView
 NS_INTERFACE_MAP_ENTRY
 (
 nsIDOMStorageWindow
+)
+NS_INTERFACE_MAP_ENTRY
+(
+nsIDOMStorageIndexedDB
 )
 NS_INTERFACE_MAP_ENTRY
 (
