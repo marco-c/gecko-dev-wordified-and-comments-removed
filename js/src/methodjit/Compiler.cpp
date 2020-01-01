@@ -33936,7 +33936,7 @@ T2
 ;
 masm
 .
-load32
+loadPtr
 (
 Address
 (
@@ -33951,7 +33951,7 @@ mismatchedObject
 =
 masm
 .
-branch32
+branchPtr
 (
 Assembler
 :
@@ -34034,14 +34034,15 @@ T2
 ;
 masm
 .
-load32
+loadPtr
 (
 Address
 (
 T2
 sizeof
 (
-uint32
+Shape
+*
 )
 )
 T2
@@ -34052,7 +34053,7 @@ mismatchedProto
 =
 masm
 .
-branch32
+branchPtr
 (
 Assembler
 :
