@@ -1885,6 +1885,11 @@ popup
 ;
 if
 (
+!
+mIsContext
+&
+&
+(
 mPopupContent
 -
 >
@@ -1898,6 +1903,7 @@ position
 )
 |
 |
+(
 mPopupContent
 -
 >
@@ -1909,8 +1915,8 @@ nsGkAtoms
 :
 popupanchor
 )
-|
-|
+&
+&
 mPopupContent
 -
 >
@@ -1921,6 +1927,8 @@ nsGkAtoms
 :
 :
 popupalign
+)
+)
 )
 )
 {
@@ -1936,7 +1944,7 @@ EmptyString
 )
 0
 0
-mIsContext
+PR_FALSE
 PR_TRUE
 PR_FALSE
 )
