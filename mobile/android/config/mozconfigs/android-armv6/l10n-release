@@ -247,6 +247,10 @@ export
 MOZ_PKG_SPECIAL
 =
 armv6
+export
+MOZ_DISABLE_GECKOVIEW
+=
+1
 ac_add_options
 -
 -
