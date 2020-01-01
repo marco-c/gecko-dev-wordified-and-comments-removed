@@ -133,6 +133,16 @@ indexp
 )
 ;
 }
+inline
+JSObject
+*
+js_GetProtoIfDenseArray
+(
+JSObject
+*
+obj
+)
+;
 extern
 JSObject
 *
