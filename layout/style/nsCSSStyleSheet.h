@@ -103,6 +103,13 @@ nsCycleCollectionParticipant
 .
 h
 "
+#
+include
+"
+nsWrapperCache
+.
+h
+"
 class
 nsXMLNameSpaceMap
 ;
@@ -337,6 +344,8 @@ public
 nsIDOMCSSStyleSheet
 public
 nsICSSLoaderObserver
+public
+nsWrapperCache
 {
 public
 :
@@ -350,7 +359,7 @@ aCORSMode
 )
 ;
 NS_DECL_CYCLE_COLLECTING_ISUPPORTS
-NS_DECL_CYCLE_COLLECTION_CLASS_AMBIGUOUS
+NS_DECL_CYCLE_COLLECTION_SCRIPT_HOLDER_CLASS_AMBIGUOUS
 (
 nsCSSStyleSheet
 nsIStyleSheet
