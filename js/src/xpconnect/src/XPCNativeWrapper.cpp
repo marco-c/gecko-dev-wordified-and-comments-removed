@@ -886,7 +886,7 @@ sm
 )
 ;
 PRBool
-isSystem
+isPrivileged
 ;
 nsresult
 rv
@@ -894,10 +894,13 @@ rv
 ssm
 -
 >
-SubjectPrincipalIsSystem
+IsCapabilityEnabled
 (
+"
+UniversalXPConnect
+"
 &
-isSystem
+isPrivileged
 )
 ;
 if
@@ -908,7 +911,7 @@ rv
 )
 &
 &
-isSystem
+isPrivileged
 )
 {
 return
