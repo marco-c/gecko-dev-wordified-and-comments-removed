@@ -15004,10 +15004,6 @@ Range
 *
 comparison_
 ;
-MDefinition
-*
-val_
-;
 MBeta
 (
 MDefinition
@@ -15026,10 +15022,6 @@ val
 comparison_
 (
 comp
-)
-val_
-(
-val
 )
 {
 setResultType
