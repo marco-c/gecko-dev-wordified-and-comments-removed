@@ -15235,7 +15235,7 @@ parser
 -
 >
 context
-obj
+globalObj
 )
 ;
 return
