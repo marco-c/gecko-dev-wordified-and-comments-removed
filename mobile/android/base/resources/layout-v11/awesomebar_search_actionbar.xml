@@ -45,9 +45,9 @@ android
 background
 =
 "
-color
+drawable
 /
-awesomebar_background
+tabs_tray_bg_repeat
 "
 >
 <
