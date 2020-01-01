@@ -3071,8 +3071,9 @@ if
 !
 objectPrincipal
 )
-return
-NS_ERROR_FAILURE
+rv
+=
+NS_ERROR_DOM_SECURITY_ERR
 ;
 }
 else
@@ -3119,6 +3120,13 @@ return
 NS_ERROR_FAILURE
 ;
 }
+if
+(
+NS_SUCCEEDED
+(
+rv
+)
+)
 rv
 =
 CheckSameOriginDOMProp
