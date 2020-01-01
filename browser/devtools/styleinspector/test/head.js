@@ -450,7 +450,7 @@ computedview
 )
 ;
 let
-ruleView
+computedView
 =
 inspector
 .
@@ -470,7 +470,7 @@ view
 callback
 (
 inspector
-ruleView
+computedView
 )
 ;
 }
