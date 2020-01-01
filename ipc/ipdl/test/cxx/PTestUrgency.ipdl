@@ -45,6 +45,11 @@ Test4_NestedSync
 (
 )
 ;
+sync
+FinalTest_Begin
+(
+)
+;
 child
 :
 async
@@ -74,6 +79,11 @@ result
 ;
 urgent
 Test4_Reenter
+(
+)
+;
+urgent
+FinalTest_Hang
 (
 )
 ;

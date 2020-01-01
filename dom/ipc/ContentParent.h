@@ -655,6 +655,12 @@ ActorDestroyReason
 why
 )
 ;
+bool
+ShouldContinueFromReplyTimeout
+(
+)
+MOZ_OVERRIDE
+;
 private
 :
 static

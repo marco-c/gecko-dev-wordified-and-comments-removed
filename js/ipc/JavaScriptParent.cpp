@@ -3009,9 +3009,11 @@ JS_ReportError
 (
 cx
 "
-catastrophic
-IPC
-failure
+child
+process
+crashed
+or
+timedout
 "
 )
 ;

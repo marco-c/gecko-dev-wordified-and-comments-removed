@@ -5,6 +5,15 @@ PTestDataStructuresSub
 include
 PTestDataStructuresCommon
 ;
+include
+"
+mozilla
+/
+GfxMessageUtils
+.
+h
+"
+;
 namespace
 mozilla
 {
