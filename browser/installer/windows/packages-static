@@ -109,15 +109,6 @@ browserconfig
 properties
 bin
 \
-old
--
-homepage
--
-default
-.
-properties
-bin
-\
 searchplugins
 \
 *
