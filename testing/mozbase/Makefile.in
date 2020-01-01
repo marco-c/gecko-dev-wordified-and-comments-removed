@@ -144,6 +144,8 @@ mozrunner
 \
 mozdevice
 \
+mozcrash
+\
 (
 NULL
 )
