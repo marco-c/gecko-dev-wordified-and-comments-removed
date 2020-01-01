@@ -3149,7 +3149,7 @@ skipUserStyles
 aData
 -
 >
-mContent
+mElement
 -
 >
 IsInNativeAnonymousSubtree
@@ -5296,9 +5296,9 @@ StatefulData
 nsPresContext
 *
 aPresContext
-nsIContent
+Element
 *
-aContent
+aElement
 PRInt32
 aStateMask
 )
@@ -5306,7 +5306,7 @@ aStateMask
 StateRuleProcessorData
 (
 aPresContext
-aContent
+aElement
 aStateMask
 )
 mHint
@@ -5563,9 +5563,9 @@ AttributeData
 nsPresContext
 *
 aPresContext
-nsIContent
+Element
 *
-aContent
+aElement
 nsIAtom
 *
 aAttribute
@@ -5578,7 +5578,7 @@ aAttrHasChanged
 AttributeRuleProcessorData
 (
 aPresContext
-aContent
+aElement
 aAttribute
 aModType
 aAttrHasChanged
