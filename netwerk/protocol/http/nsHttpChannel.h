@@ -1171,6 +1171,11 @@ UpdateAggregateCallbacks
 (
 )
 ;
+bool
+ShouldSkipCache
+(
+)
+;
 private
 :
 nsCOMPtr
