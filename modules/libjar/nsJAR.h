@@ -306,7 +306,7 @@ mZipFile
 nsCString
 mOuterZipEntry
 ;
-nsAutoPtr
+nsRefPtr
 <
 nsZipArchive
 >

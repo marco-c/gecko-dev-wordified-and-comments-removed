@@ -4183,8 +4183,10 @@ entryName
 PRUint16
 entryNameLen
 ;
+nsRefPtr
+<
 nsZipArchive
-*
+>
 jarReader
 =
 mozilla
@@ -4575,8 +4577,10 @@ preferences
 "
 )
 ;
+nsRefPtr
+<
 nsZipArchive
-*
+>
 appJarReader
 =
 mozilla

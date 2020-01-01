@@ -3046,6 +3046,10 @@ nsZipArchive
 (
 )
 :
+mRefCnt
+(
+0
+)
 mBuiltSynthetics
 (
 false
@@ -3067,6 +3071,14 @@ mFiles
 )
 ;
 }
+NS_IMPL_THREADSAFE_ADDREF
+(
+nsZipArchive
+)
+NS_IMPL_THREADSAFE_RELEASE
+(
+nsZipArchive
+)
 nsZipArchive
 :
 :
