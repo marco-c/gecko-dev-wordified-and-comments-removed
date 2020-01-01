@@ -304,6 +304,15 @@ PRUnichar
 {
 NO_CONVERSION
 }
+protected
+:
+virtual
+~
+mozStorageVariant_base
+(
+)
+{
+}
 }
 ;
 NS_IMPL_THREADSAFE_ISUPPORTS1
