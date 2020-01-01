@@ -4610,7 +4610,7 @@ quitBundle
 GetStringFromName
 (
 "
-neverAsk
+neverAsk2
 "
 )
 ;
