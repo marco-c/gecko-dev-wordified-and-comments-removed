@@ -18368,6 +18368,13 @@ this
 _animationInterval
 )
 ;
+clearTimeout
+(
+this
+.
+_animationTimeout
+)
+;
 getNavToolbox
 (
 )
@@ -18847,6 +18854,9 @@ true
 _isAnimating
 :
 false
+_animationTimeout
+:
+null
 _animationInterval
 :
 null
@@ -19092,6 +19102,10 @@ _shouldAnimate
 =
 false
 ;
+this
+.
+_animationTimeout
+=
 setTimeout
 (
 this
