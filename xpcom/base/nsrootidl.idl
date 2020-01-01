@@ -118,10 +118,13 @@ nscore
 .
 h
 "
-typedef
-int64_t
-PRTime
-;
+#
+include
+"
+prtime
+.
+h
+"
 /
 *
 *

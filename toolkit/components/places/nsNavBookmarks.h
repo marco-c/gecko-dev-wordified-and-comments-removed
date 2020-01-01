@@ -69,13 +69,6 @@ Attributes
 .
 h
 "
-#
-include
-"
-prtime
-.
-h
-"
 class
 nsNavBookmarks
 ;

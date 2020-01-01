@@ -6,13 +6,6 @@ OggWriter
 h
 "
 #
-include
-"
-prtime
-.
-h
-"
-#
 undef
 LOG
 #

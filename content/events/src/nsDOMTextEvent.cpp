@@ -12,13 +12,6 @@ nsPrivateTextRange
 .
 h
 "
-#
-include
-"
-prtime
-.
-h
-"
 nsDOMTextEvent
 :
 :

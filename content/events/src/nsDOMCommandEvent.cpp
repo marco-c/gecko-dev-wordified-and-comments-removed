@@ -5,13 +5,6 @@ nsDOMCommandEvent
 .
 h
 "
-#
-include
-"
-prtime
-.
-h
-"
 nsDOMCommandEvent
 :
 :
