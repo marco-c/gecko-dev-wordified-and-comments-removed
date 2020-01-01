@@ -881,16 +881,6 @@ gfxASurface
 mThebesComputationalSurface
 ;
 static
-nsPresContext
-*
-GetContextForContent
-(
-nsIContent
-*
-aContent
-)
-;
-static
 const
 nsStyleFont
 *

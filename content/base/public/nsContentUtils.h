@@ -1073,6 +1073,16 @@ aName
 )
 ;
 static
+nsPresContext
+*
+GetContextForContent
+(
+nsIContent
+*
+aContent
+)
+;
+static
 PRBool
 CanLoadImage
 (
