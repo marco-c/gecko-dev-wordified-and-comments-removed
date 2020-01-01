@@ -3191,7 +3191,7 @@ method
 name
 =
 "
-getViewsAt
+getViewAt
 "
 >
 <
@@ -5374,12 +5374,6 @@ _updateCacheViewport
 )
 ;
 }
-this
-.
-_contentView
-=
-null
-;
 /
 /
 We
@@ -6466,7 +6460,7 @@ method
 name
 =
 "
-getViewsAt
+getViewAt
 "
 >
 <
