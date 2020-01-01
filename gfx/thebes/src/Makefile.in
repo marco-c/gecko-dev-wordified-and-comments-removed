@@ -116,6 +116,10 @@ gfxTextRunCache
 .
 cpp
 \
+gfxTextRunWordCache
+.
+cpp
+\
 (
 NULL
 )

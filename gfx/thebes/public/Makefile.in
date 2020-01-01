@@ -95,6 +95,10 @@ gfxTextRunCache
 .
 h
 \
+gfxTextRunWordCache
+.
+h
+\
 (
 NULL
 )
