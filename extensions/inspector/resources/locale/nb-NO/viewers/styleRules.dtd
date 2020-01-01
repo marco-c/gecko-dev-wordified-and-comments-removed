@@ -486,8 +486,9 @@ toggleSelectedImportant
 .
 label
 "
-Merk
-som
+Sett
+/
+fjern
 !
 important
 "
