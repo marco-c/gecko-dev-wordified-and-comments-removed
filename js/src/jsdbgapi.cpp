@@ -1301,8 +1301,11 @@ obj
 return
 false
 ;
-Value
+RootedValue
 v
+(
+cx
+)
 ;
 unsigned
 attrs

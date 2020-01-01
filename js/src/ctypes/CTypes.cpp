@@ -354,9 +354,7 @@ JSContext
 cx
 JSHandleObject
 obj
-const
-jsval
-*
+JSMutableHandleValue
 v
 JSBool
 *
@@ -16617,9 +16615,7 @@ JSContext
 cx
 JSHandleObject
 obj
-const
-jsval
-*
+JSMutableHandleValue
 v
 JSBool
 *
@@ -16680,7 +16676,6 @@ if
 (
 JSVAL_IS_PRIMITIVE
 (
-*
 v
 )
 )
@@ -16693,7 +16688,6 @@ proto
 =
 JSVAL_TO_OBJECT
 (
-*
 v
 )
 ;

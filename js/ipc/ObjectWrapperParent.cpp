@@ -3263,9 +3263,7 @@ JSContext
 cx
 JSHandleObject
 obj
-const
-jsval
-*
+JSMutableHandleValue
 v
 JSBool
 *
@@ -3333,7 +3331,6 @@ if
 jsval_to_JSVariant
 (
 cx
-*
 v
 &
 in_v
@@ -3391,9 +3388,7 @@ JSContext
 cx
 JSHandleObject
 obj
-const
-jsval
-*
+JSHandleValue
 v
 JSBool
 *
@@ -3449,7 +3444,6 @@ if
 (
 JSVAL_IS_PRIMITIVE
 (
-*
 v
 )
 )
@@ -3464,7 +3458,6 @@ Unwrap
 (
 JSVAL_TO_OBJECT
 (
-*
 v
 )
 )

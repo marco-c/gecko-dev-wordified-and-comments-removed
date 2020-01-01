@@ -24,9 +24,10 @@ JS
 :
 HandleObject
 obj
-const
-jsval
-*
+JS
+:
+:
+HandleValue
 JSBool
 *
 bp

@@ -5327,11 +5327,9 @@ JSHandleObject
 obj
 JSIterateOp
 enum_op
-jsval
-*
+JSMutableHandleValue
 statep
-jsid
-*
+JSMutableHandleId
 idp
 )
 ;
