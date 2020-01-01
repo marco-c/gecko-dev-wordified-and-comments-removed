@@ -46,10 +46,15 @@ DEFAULT_SERVER
 "
 server_url
 "
-UPDATED_URL
+UPDATED_DEV_URL
 :
 "
 https
+:
+UPDATED_REL_URL
+:
+"
+http
 :
 PREFS_BRANCH
 :
@@ -64,10 +69,6 @@ PWDMGR_HOST
 "
 chrome
 :
-/
-/
-weave
-"
 SINGLE_USER_SYNC
 :
 24
