@@ -2998,6 +2998,14 @@ atom
 )
 ;
 bool
+jsop_callprop_dispatch
+(
+JSAtom
+*
+atom
+)
+;
+bool
 jsop_instanceof
 (
 )

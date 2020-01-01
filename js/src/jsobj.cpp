@@ -19383,13 +19383,6 @@ object
 )
 return
 ;
-if
-(
-site
--
->
-returnTypes
-)
 site
 -
 >
@@ -19408,13 +19401,6 @@ object
 }
 else
 {
-if
-(
-site
--
->
-returnTypes
-)
 site
 -
 >

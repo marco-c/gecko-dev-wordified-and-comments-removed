@@ -16806,7 +16806,7 @@ cx
 )
 -
 >
-pruneTypeBarriers
+breakTypeBarriers
 (
 f
 .
@@ -16825,6 +16825,7 @@ script
 -
 >
 code
+false
 )
 ;
 }
