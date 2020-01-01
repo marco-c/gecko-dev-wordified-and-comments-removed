@@ -1849,6 +1849,9 @@ thread
 jsrefcount
 requestDepth
 ;
+jsrefcount
+outstandingRequests
+;
 JSScope
 *
 scopeToShare
