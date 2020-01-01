@@ -111,6 +111,13 @@ h
 #
 include
 "
+StructuredCloneTags
+.
+h
+"
+#
+include
+"
 EventTarget
 .
 h
@@ -2278,9 +2285,7 @@ WorkerStructuredDataType
 {
 DOMWORKER_SCTAG_FILE
 =
-JS_SCTAG_USER_MIN
-+
-0x1000
+SCTAG_DOM_MAX
 DOMWORKER_SCTAG_BLOB
 DOMWORKER_SCTAG_END
 }
