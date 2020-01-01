@@ -9117,6 +9117,13 @@ lockiconsize
 "
 true
 "
+defaultset
+=
+"
+status
+-
+bar
+"
 customizable
 =
 "
