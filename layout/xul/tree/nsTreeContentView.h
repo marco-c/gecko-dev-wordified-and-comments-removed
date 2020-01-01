@@ -14,13 +14,6 @@ h
 #
 include
 "
-nsIDocument
-.
-h
-"
-#
-include
-"
 nsStubDocumentObserver
 .
 h
@@ -69,6 +62,9 @@ Attributes
 .
 h
 "
+class
+nsIDocument
+;
 class
 Row
 ;

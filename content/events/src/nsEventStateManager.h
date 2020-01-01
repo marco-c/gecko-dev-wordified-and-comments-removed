@@ -65,13 +65,6 @@ h
 #
 include
 "
-nsIDocument
-.
-h
-"
-#
-include
-"
 nsCOMArray
 .
 h
@@ -114,13 +107,6 @@ h
 #
 include
 "
-nsIDocument
-.
-h
-"
-#
-include
-"
 nsEventStates
 .
 h
@@ -143,6 +129,9 @@ h
 "
 class
 nsIPresShell
+;
+class
+nsIDocument
 ;
 class
 nsIDocShell

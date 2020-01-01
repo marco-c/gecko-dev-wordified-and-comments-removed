@@ -21,13 +21,6 @@ h
 #
 include
 "
-nsIDocument
-.
-h
-"
-#
-include
-"
 nsStubMutationObserver
 .
 h
@@ -69,6 +62,9 @@ Attributes
 .
 h
 "
+class
+nsIDocument
+;
 #
 define
 NS_IXPATHRESULT_IID
