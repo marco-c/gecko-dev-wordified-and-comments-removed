@@ -46723,6 +46723,11 @@ fi
 esac
 if
 test
+"
+COMPILE_ENVIROMENT
+"
+-
+a
 -
 n
 "
