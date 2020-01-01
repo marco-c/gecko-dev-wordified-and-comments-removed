@@ -3033,10 +3033,10 @@ mkdir
 done
 ifeq
 (
-Android
 (
-OS_TARGET
+MOZ_WIDGET_TOOLKIT
 )
+android
 )
 package
 -
