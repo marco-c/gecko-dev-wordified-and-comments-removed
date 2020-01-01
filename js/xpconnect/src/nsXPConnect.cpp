@@ -4437,9 +4437,8 @@ principal
 JS
 :
 :
-CompartmentOptions
-&
-aOptions
+ZoneSpecifier
+zoneSpec
 )
 {
 CheckTypeInference
@@ -4486,7 +4485,7 @@ get
 (
 principal
 )
-aOptions
+zoneSpec
 )
 )
 ;
@@ -4635,9 +4634,8 @@ aFlags
 JS
 :
 :
-CompartmentOptions
-&
-aOptions
+ZoneSpecifier
+zoneSpec
 nsIXPConnectJSObjectHolder
 *
 *
@@ -4718,7 +4716,7 @@ nsIXPConnect
 :
 :
 INIT_JS_STANDARD_CLASSES
-aOptions
+zoneSpec
 getter_AddRefs
 (
 wrappedGlobal
