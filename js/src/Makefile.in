@@ -553,10 +553,6 @@ FoldConstants
 .
 cpp
 \
-ParseContext
-.
-cpp
-\
 ParseMaps
 .
 cpp
@@ -578,6 +574,10 @@ SPSProfiler
 cpp
 \
 TokenStream
+.
+cpp
+\
+TreeContext
 .
 cpp
 \
