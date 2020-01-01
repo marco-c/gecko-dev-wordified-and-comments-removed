@@ -14814,6 +14814,18 @@ cap
 index
 )
 ;
+#
+if
+defined
+(
+DEBUG_crowder
+)
+|
+|
+defined
+(
+DEBUG_mrbkap
+)
 JS_ASSERT
 (
 x
@@ -14859,6 +14871,8 @@ cpbegin
 )
 )
 ;
+#
+endif
 op
 =
 (
