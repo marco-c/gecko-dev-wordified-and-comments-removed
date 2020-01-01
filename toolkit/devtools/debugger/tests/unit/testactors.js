@@ -193,7 +193,7 @@ prefix
 traits
 :
 {
-sourcesAndNewSource
+sources
 :
 true
 }
