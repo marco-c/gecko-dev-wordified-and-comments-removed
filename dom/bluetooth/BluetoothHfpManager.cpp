@@ -6982,6 +6982,12 @@ case
 nsITelephonyProvider
 :
 :
+CALL_STATE_DIALING
+:
+case
+nsITelephonyProvider
+:
+:
 CALL_STATE_ALERTING
 :
 UpdateCIND
