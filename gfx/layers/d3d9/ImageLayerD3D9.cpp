@@ -998,6 +998,15 @@ GetCurrentImage
 (
 )
 ;
+if
+(
+!
+image
+)
+{
+return
+;
+}
 SetShaderTransformAndOpacity
 (
 )

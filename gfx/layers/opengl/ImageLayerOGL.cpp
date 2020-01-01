@@ -1583,6 +1583,15 @@ GetCurrentImage
 ;
 if
 (
+!
+image
+)
+{
+return
+;
+}
+if
+(
 image
 -
 >
