@@ -939,6 +939,8 @@ createKeyEvent
 (
 KeyEvent
 k
+int
+metaState
 )
 {
 GeckoEvent
@@ -955,6 +957,7 @@ event
 initKeyEvent
 (
 k
+metaState
 )
 ;
 return
@@ -997,6 +1000,8 @@ initKeyEvent
 (
 KeyEvent
 k
+int
+metaState
 )
 {
 mAction
@@ -1022,6 +1027,8 @@ k
 getMetaState
 (
 )
+|
+metaState
 ;
 mFlags
 =
