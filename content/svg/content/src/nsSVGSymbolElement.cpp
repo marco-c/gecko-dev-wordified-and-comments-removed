@@ -24,7 +24,7 @@ h
 #
 include
 "
-nsSVGStylableElement
+nsSVGElement
 .
 h
 "
@@ -61,7 +61,7 @@ namespace
 mozilla
 ;
 typedef
-nsSVGStylableElement
+nsSVGElement
 nsSVGSymbolElementBase
 ;
 class

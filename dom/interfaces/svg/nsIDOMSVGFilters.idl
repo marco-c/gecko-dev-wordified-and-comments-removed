@@ -98,13 +98,6 @@ nsIDOMSVGElement
 .
 idl
 "
-#
-include
-"
-nsIDOMSVGStylable
-.
-idl
-"
 interface
 nsIDOMSVGAnimatedLength
 ;

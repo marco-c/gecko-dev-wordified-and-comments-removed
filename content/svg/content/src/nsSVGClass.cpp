@@ -8,7 +8,7 @@ h
 #
 include
 "
-nsSVGStylableElement
+nsSVGElement
 .
 h
 "
@@ -90,7 +90,7 @@ const
 nsAString
 &
 aValue
-nsSVGStylableElement
+nsSVGElement
 *
 aSVGElement
 bool
@@ -161,7 +161,7 @@ nsAString
 &
 aValue
 const
-nsSVGStylableElement
+nsSVGElement
 *
 aSVGElement
 )
@@ -191,7 +191,7 @@ nsAString
 &
 aResult
 const
-nsSVGStylableElement
+nsSVGElement
 *
 aSVGElement
 )
@@ -234,7 +234,7 @@ const
 nsAString
 &
 aValue
-nsSVGStylableElement
+nsSVGElement
 *
 aSVGElement
 )
@@ -301,7 +301,7 @@ nsIDOMSVGAnimatedString
 *
 *
 aResult
-nsSVGStylableElement
+nsSVGElement
 *
 aSVGElement
 )
@@ -367,7 +367,7 @@ nsSVGClass
 :
 ToSMILAttr
 (
-nsSVGStylableElement
+nsSVGElement
 *
 aSVGElement
 )
