@@ -29,14 +29,20 @@ import
 list2cmdline
 call
 from
+lib
+.
 results
 import
 NullTestOutput
 from
+lib
+.
 tests
 import
 TestCase
 from
+lib
+.
 results
 import
 ResultsSink
@@ -69,6 +75,8 @@ darwin
 :
     
 from
+lib
+.
 tasks_unix
 import
 run_all_tests
@@ -76,6 +84,8 @@ else
 :
     
 from
+lib
+.
 tasks_win
 import
 run_all_tests
@@ -123,6 +133,8 @@ try
 :
             
 from
+lib
+.
 progressbar
 import
 ProgressBar
@@ -1612,6 +1624,10 @@ run
 "
     
 import
+lib
+.
+manifest
+as
 manifest
     
 if
