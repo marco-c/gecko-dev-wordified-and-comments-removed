@@ -102,6 +102,17 @@ concurrent
 .
 CountDownLatch
 ;
+import
+org
+.
+mozilla
+.
+gecko
+.
+gfx
+.
+GfxInfoThread
+;
 public
 class
 GeckoThread
