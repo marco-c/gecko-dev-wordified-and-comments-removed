@@ -3352,6 +3352,7 @@ Classes
 \
 FirefoxHTML
 \
+DefaultIcon
 "
 "
 "
