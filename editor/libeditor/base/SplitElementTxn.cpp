@@ -911,9 +911,6 @@ DebugDumpContent
 }
 #
 endif
-nsresult
-result
-;
 nsCOMPtr
 <
 nsIDOMCharacterData
@@ -930,6 +927,7 @@ if
 rightNodeAsText
 )
 {
+nsresult
 result
 =
 rightNodeAsText
@@ -939,6 +937,12 @@ DeleteData
 (
 0
 mOffset
+)
+;
+NS_ENSURE_SUCCESS
+(
+result
+result
 )
 ;
 #
