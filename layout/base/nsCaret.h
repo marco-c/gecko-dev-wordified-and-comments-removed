@@ -530,12 +530,6 @@ nsFrameSelection
 HINT
 mLastHint
 ;
-nsWeakFrame
-mLastFrame
-;
-PRInt32
-mLastFrameOffset
-;
 }
 ;
 nsresult
