@@ -2142,7 +2142,6 @@ report
 "
 aIdentifier
 "
-.
 json
 .
 gz
@@ -2628,7 +2627,6 @@ dmd
 "
 aIdentifier
 "
-.
 txt
 .
 gz
