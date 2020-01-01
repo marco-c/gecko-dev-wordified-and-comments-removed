@@ -490,6 +490,9 @@ loopJumps
 void
 beginAssembly
 (
+Fragment
+*
+frag
 RegAllocMap
 *
 map
