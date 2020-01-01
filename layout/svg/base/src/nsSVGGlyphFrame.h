@@ -1006,7 +1006,11 @@ gfxPattern
 GetFillPattern
 (
 float
-opacity
+aOpacity
+const
+gfxMatrix
+&
+aCTM
 )
 ;
 already_AddRefed
@@ -1016,7 +1020,11 @@ gfxPattern
 GetStrokePattern
 (
 float
-opacity
+aOpacity
+const
+gfxMatrix
+&
+aCTM
 )
 ;
 void
@@ -1220,6 +1228,10 @@ nsStyleSVG
 :
 *
 aFillOrStroke
+const
+gfxMatrix
+&
+aCTM
 )
 ;
 }

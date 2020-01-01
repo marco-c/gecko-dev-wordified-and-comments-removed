@@ -9059,12 +9059,12 @@ mTextRendering
 nsStyleSVGOpacitySource
 mFillOpacitySource
 :
-2
+3
 ;
 nsStyleSVGOpacitySource
 mStrokeOpacitySource
 :
-2
+3
 ;
 bool
 mStrokeDasharrayFromObject
