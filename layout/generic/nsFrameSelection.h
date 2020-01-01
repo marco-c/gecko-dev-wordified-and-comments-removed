@@ -655,6 +655,11 @@ CharacterExtendForDelete
 )
 ;
 nsresult
+CharacterExtendForBackspace
+(
+)
+;
+nsresult
 WordMove
 (
 PRBool
