@@ -3187,6 +3187,14 @@ floatY
 nsMargin
 floatMargin
 ;
+PRBool
+pushedDown
+=
+mY
+!
+=
+saveY
+;
 mBlock
 -
 >
@@ -3197,6 +3205,7 @@ this
 adjustedAvailableSpace
 aFloat
 floatMargin
+pushedDown
 aReflowStatus
 )
 ;

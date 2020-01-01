@@ -1479,6 +1479,8 @@ aFloat
 nsMargin
 &
 aFloatMargin
+PRBool
+aFloatPushedDown
 nsReflowStatus
 &
 aReflowStatus
