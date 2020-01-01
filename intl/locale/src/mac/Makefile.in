@@ -445,10 +445,6 @@ nsDateTimeFormatMac
 .
 cpp
 \
-nsMacLocale
-.
-cpp
-\
 nsMacCharset
 .
 cpp

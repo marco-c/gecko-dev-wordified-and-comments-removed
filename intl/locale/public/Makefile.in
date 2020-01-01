@@ -434,10 +434,6 @@ nsILanguageAtomService
 .
 h
 \
-nsIMacLocale
-.
-h
-\
 nsIPosixLocale
 .
 h
