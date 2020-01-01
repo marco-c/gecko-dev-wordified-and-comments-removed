@@ -2990,6 +2990,12 @@ GPUImageScalingEnabled
 )
 ;
 static
+bool
+AnimatedImageLayersEnabled
+(
+)
+;
+static
 void
 UnionChildOverflow
 (
