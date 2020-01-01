@@ -23,13 +23,6 @@ Logger
 import
 android
 .
-app
-.
-AlarmManager
-;
-import
-android
-.
 content
 .
 BroadcastReceiver

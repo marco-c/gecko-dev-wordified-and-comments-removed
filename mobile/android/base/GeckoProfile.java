@@ -37,13 +37,6 @@ Context
 import
 android
 .
-os
-.
-SystemClock
-;
-import
-android
-.
 text
 .
 TextUtils

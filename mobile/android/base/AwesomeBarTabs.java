@@ -24,13 +24,6 @@ StateListDrawable
 import
 android
 .
-net
-.
-Uri
-;
-import
-android
-.
 support
 .
 v4

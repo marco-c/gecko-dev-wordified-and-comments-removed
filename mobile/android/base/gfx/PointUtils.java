@@ -10,17 +10,6 @@ gfx
 import
 org
 .
-mozilla
-.
-gecko
-.
-util
-.
-FloatUtils
-;
-import
-org
-.
 json
 .
 JSONException

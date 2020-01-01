@@ -40,13 +40,6 @@ view
 .
 View
 ;
-import
-android
-.
-view
-.
-ViewGroup
-;
 public
 class
 GeckoPopupMenu

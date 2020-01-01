@@ -60,13 +60,6 @@ PointF
 import
 android
 .
-graphics
-.
-Rect
-;
-import
-android
-.
 util
 .
 AttributeSet
