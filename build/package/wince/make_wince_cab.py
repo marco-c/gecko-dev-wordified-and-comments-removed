@@ -25,6 +25,9 @@ CompressFlag
 /
 compress
 "
+FaststartFlag
+=
+0
 class
 FileEntry
 :
