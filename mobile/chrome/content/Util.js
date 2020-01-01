@@ -43,6 +43,13 @@ bindAll
 instance
 )
 {
+let
+bind
+=
+Util
+.
+bind
+;
 for
 (
 let
