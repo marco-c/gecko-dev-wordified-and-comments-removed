@@ -3014,6 +3014,8 @@ JSCLASS_HAS_CACHED_PROTO
 (
 JSProto_Object
 )
+|
+JSCLASS_BACKGROUND_FINALIZE
 JS_PropertyStub
 args_delProperty
 JS_PropertyStub
@@ -3073,6 +3075,8 @@ JSCLASS_HAS_CACHED_PROTO
 (
 JSProto_Object
 )
+|
+JSCLASS_BACKGROUND_FINALIZE
 JS_PropertyStub
 args_delProperty
 JS_PropertyStub
