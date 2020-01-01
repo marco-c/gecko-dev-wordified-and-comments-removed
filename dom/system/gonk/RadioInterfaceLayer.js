@@ -11161,7 +11161,7 @@ return
 }
 gMessageManager
 .
-sendMobileConnectionMessage
+sendIccMessage
 (
 "
 RIL
