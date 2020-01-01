@@ -381,8 +381,9 @@ android
 background
 =
 "
-#
-FFECF0F3
+color
+/
+background_light
 "
 gecko
 :
