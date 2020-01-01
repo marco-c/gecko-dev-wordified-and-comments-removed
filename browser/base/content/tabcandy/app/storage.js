@@ -53,10 +53,12 @@ if
 (
 alreadyReady
 )
+{
 callback
 (
 )
 ;
+}
 else
 {
 var
