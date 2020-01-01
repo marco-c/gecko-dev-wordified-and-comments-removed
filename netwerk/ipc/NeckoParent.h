@@ -289,10 +289,6 @@ const
 URIParams
 &
 aFileURI
-const
-URIParams
-&
-aAppURI
 )
 MOZ_OVERRIDE
 ;
@@ -307,10 +303,6 @@ const
 URIParams
 &
 aFileURI
-const
-URIParams
-&
-aAppURI
 )
 MOZ_OVERRIDE
 ;

@@ -350,8 +350,6 @@ PRemoteOpenFile
 (
 URIParams
 fileuri
-URIParams
-appuri
 )
 ;
 HTMLDNSPrefetch

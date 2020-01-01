@@ -214,9 +214,6 @@ AllocPRemoteOpenFileChild
 const
 URIParams
 &
-const
-URIParams
-&
 )
 ;
 virtual
