@@ -172,6 +172,13 @@ nsIViewManager
 .
 h
 "
+#
+include
+"
+nsCycleCollectionParticipant
+.
+h
+"
 class
 nsIDOMCharacterData
 ;
@@ -312,7 +319,12 @@ nsEditor
 (
 )
 ;
-NS_DECL_ISUPPORTS
+NS_DECL_CYCLE_COLLECTING_ISUPPORTS
+NS_DECL_CYCLE_COLLECTION_CLASS_AMBIGUOUS
+(
+nsEditor
+nsIEditor
+)
 NS_IMETHOD
 GetPresShell
 (

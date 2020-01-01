@@ -1020,11 +1020,11 @@ NS_IMPL_RELEASE_INHERITED
 nsHTMLEditRules
 nsTextEditRules
 )
-NS_IMPL_QUERY_INTERFACE3
+NS_IMPL_QUERY_INTERFACE_INHERITED2
 (
 nsHTMLEditRules
+nsTextEditRules
 nsIHTMLEditRules
-nsIEditRules
 nsIEditActionListener
 )
 NS_IMETHODIMP
