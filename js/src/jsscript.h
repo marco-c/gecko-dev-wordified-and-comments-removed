@@ -1563,6 +1563,17 @@ Value
 value
 )
 ;
+bool
+typeSetFunction
+(
+JSContext
+*
+cx
+JSFunction
+*
+fun
+)
+;
 #
 ifdef
 JS_METHODJIT
