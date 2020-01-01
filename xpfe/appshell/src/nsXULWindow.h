@@ -28,7 +28,7 @@ h
 #
 include
 "
-nsVoidArray
+nsTArray
 .
 h
 "
@@ -181,6 +181,9 @@ b5a863cf5588
 }
 \
 }
+class
+nsContentShellInfo
+;
 class
 nsXULWindow
 :
@@ -559,7 +562,11 @@ nsIDocShellTreeItem
 >
 mPrimaryContentShell
 ;
-nsVoidArray
+nsTArray
+<
+nsContentShellInfo
+*
+>
 mContentShells
 ;
 nsresult
