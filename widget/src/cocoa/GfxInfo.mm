@@ -1197,9 +1197,16 @@ if
 (
 aDriverInfo
 )
+{
+*
+aStatus
+=
+status
+;
 return
 NS_OK
 ;
+}
 /
 /
 Many
