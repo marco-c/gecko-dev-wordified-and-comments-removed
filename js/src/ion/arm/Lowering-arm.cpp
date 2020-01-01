@@ -1537,6 +1537,12 @@ r3
 )
 ;
 return
+assignSnapshot
+(
+lir
+)
+&
+&
 defineFixed
 (
 lir
@@ -1548,12 +1554,6 @@ AnyRegister
 r0
 )
 )
-)
-&
-&
-assignSnapshot
-(
-lir
 )
 ;
 }
