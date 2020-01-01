@@ -78,6 +78,12 @@ ReloadTimeout
 (
 )
 ;
+static
+void
+DiscardAll
+(
+)
+;
 private
 :
 static

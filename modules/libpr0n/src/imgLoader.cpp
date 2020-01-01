@@ -3106,6 +3106,13 @@ pressure
 0
 )
 {
+DiscardTracker
+:
+:
+DiscardAll
+(
+)
+;
 mLoader
 .
 MinimizeCaches
