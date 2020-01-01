@@ -4934,10 +4934,6 @@ const
 nsStyleBackground
 *
 aBackgroundStyle
-bool
-aSkipFixedItemBoundsCheck
-=
-false
 )
 ;
 virtual
@@ -5081,16 +5077,6 @@ aBuilder
 nscolor
 *
 aColor
-)
-MOZ_OVERRIDE
-;
-virtual
-bool
-ShouldFixToViewport
-(
-nsDisplayListBuilder
-*
-aBuilder
 )
 MOZ_OVERRIDE
 ;
@@ -5286,9 +5272,6 @@ mThemeTransparency
 ;
 bool
 mIsThemed
-;
-bool
-mIsFixed
 ;
 bool
 mIsBottommostLayer
