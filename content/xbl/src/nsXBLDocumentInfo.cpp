@@ -951,7 +951,6 @@ aScriptContext
 >
 InitContext
 (
-nsnull
 )
 ;
 NS_WARN_IF_FALSE

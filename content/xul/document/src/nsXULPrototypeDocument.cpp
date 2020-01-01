@@ -2505,7 +2505,6 @@ aScriptContext
 >
 InitContext
 (
-nsnull
 )
 ;
 NS_ENSURE_SUCCESS
