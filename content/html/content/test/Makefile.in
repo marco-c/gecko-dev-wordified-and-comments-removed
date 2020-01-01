@@ -928,10 +928,6 @@ test_bug458037
 .
 xhtml
 \
-test_bug346485
-.
-html
-\
 (
 NULL
 )
