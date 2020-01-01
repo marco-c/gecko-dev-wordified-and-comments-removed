@@ -1576,7 +1576,6 @@ mBlob
 )
 {
 }
-;
 FontTableHashEntry
 (
 FontTableHashEntry
