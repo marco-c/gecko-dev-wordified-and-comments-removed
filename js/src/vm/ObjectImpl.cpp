@@ -1284,6 +1284,9 @@ Shape
 :
 :
 Range
+<
+NoGC
+>
 r
 (
 shape
