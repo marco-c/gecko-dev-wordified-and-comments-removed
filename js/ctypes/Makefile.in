@@ -492,10 +492,6 @@ IS_COMPONENT
 CPPSRCS
 =
 \
-Function
-.
-cpp
-\
 Library
 .
 cpp
