@@ -1146,6 +1146,10 @@ SkAlphaRuns
 .
 cpp
 \
+SkAnnotation
+.
+cpp
+\
 SkBBoxRecord
 .
 cpp
