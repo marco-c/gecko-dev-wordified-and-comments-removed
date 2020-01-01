@@ -1365,6 +1365,17 @@ SetDefaultIcon
 void
 )
 ;
+void
+InitButtonEvent
+(
+nsMouseEvent
+&
+aEvent
+GdkEventButton
+*
+aGdkEvent
+)
+;
 GtkWidget
 *
 mShell

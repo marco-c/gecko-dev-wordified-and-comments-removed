@@ -173,17 +173,6 @@ aListenForResizes
 )
 ;
 void
-InitButtonEvent
-(
-nsMouseEvent
-&
-aEvent
-GdkEventButton
-*
-aGdkEvent
-)
-;
-void
 InitKeyEvent
 (
 nsKeyEvent
