@@ -641,10 +641,6 @@ nsDataSignatureVerifier
 .
 cpp
 \
-nsRandomGenerator
-.
-cpp
-\
 (
 NULL
 )
