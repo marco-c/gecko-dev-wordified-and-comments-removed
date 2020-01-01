@@ -950,7 +950,7 @@ label
 =
 "
 &
-sendPageCmd
+emailPageCmd
 .
 label
 ;
