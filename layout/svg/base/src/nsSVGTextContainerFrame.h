@@ -15,10 +15,10 @@ class
 nsISVGGlyphFragmentNode
 ;
 class
-nsISVGGlyphFragmentLeaf
+nsSVGTextFrame
 ;
 class
-nsSVGTextFrame
+nsSVGGlyphFrame
 ;
 class
 nsSVGTextContainerFrame
@@ -309,9 +309,9 @@ SetWhitespaceCompression
 private
 :
 static
-nsISVGGlyphFragmentLeaf
+nsSVGGlyphFrame
 *
-GetGlyphFragmentAtCharNum
+GetGlyphFrameAtCharNum
 (
 nsISVGGlyphFragmentNode
 *
