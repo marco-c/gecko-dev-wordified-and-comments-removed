@@ -1477,11 +1477,6 @@ SHELL_WRAPPER1
 cameraCallbackBridge
 jbyteArray
 )
-SHELL_WRAPPER1
-(
-notifyUriVisited
-jstring
-)
 SHELL_WRAPPER3
 (
 notifyBatteryChange
@@ -4096,11 +4091,6 @@ executeNextRunnable
 GETFUNC
 (
 cameraCallbackBridge
-)
-;
-GETFUNC
-(
-notifyUriVisited
 )
 ;
 GETFUNC

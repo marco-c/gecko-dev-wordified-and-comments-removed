@@ -1879,6 +1879,9 @@ VIEWPORT
 TILE_SIZE
 =
 21
+VISITED
+=
+22
 dummy_java_enum_list_end
 }
 ;
