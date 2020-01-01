@@ -251,6 +251,9 @@ state
 =
 CB_READY
 )
+eval
+(
+)
 thread
 .
 processNextEvent
