@@ -723,7 +723,7 @@ CancelParsingEvents
 (
 )
 ;
-ParseUntilScript
+ParseUntilBlocked
 (
 )
 ;
@@ -1092,10 +1092,17 @@ mDocumentClosed
 =
 PR_TRUE
 ;
-MaybePostContinueEvent
+if
+(
+!
+mBlocked
+)
+{
+ParseUntilBlocked
 (
 )
 ;
+}
 return
 NS_OK
 ;
@@ -2244,7 +2251,7 @@ void
 nsHtml5Parser
 :
 :
-ParseUntilScript
+ParseUntilBlocked
 (
 )
 {
@@ -2253,7 +2260,7 @@ NS_PRECONDITION
 !
 mFragmentMode
 "
-ParseUntilScript
+ParseUntilBlocked
 called
 in
 fragment
