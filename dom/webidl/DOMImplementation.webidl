@@ -191,9 +191,12 @@ EmptyString
 ]
 DOMString
 qualifiedName
+optional
 DocumentType
 ?
 doctype
+=
+null
 )
 ;
 [
