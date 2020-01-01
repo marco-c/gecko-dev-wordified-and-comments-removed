@@ -442,6 +442,10 @@ PropertyListUtils
 .
 jsm
 \
+PrivateBrowsingUtils
+.
+jsm
+\
 (
 NULL
 )
