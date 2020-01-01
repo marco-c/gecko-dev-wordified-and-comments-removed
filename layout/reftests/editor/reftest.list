@@ -207,3 +207,15 @@ caret_on_positioned
 ref
 .
 html
+=
+=
+spellcheck
+-
+1
+.
+html
+spellcheck
+-
+ref
+.
+html
