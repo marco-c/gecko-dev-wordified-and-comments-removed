@@ -332,11 +332,6 @@ if
 fp
 )
 {
-fclose
-(
-fp
-)
-;
 fprintf
 (
 stderr
