@@ -911,6 +911,12 @@ run_test
 (
 )
 {
+if
+(
+DISABLE_TESTS_BUG_604565
+)
+return
+;
 test_backoff500
 (
 )
