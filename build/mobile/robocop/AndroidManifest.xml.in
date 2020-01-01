@@ -91,11 +91,9 @@ android
 name
 =
 "
-android
+ANDROID_PACKAGE_NAME
 .
-test
-.
-InstrumentationTestRunner
+FennecInstrumentationTestRunner
 "
 android
 :
