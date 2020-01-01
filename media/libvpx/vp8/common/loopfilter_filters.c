@@ -25,7 +25,6 @@ __SUNPRO_C
 #
 define
 __inline
-static
 inline
 #
 endif
