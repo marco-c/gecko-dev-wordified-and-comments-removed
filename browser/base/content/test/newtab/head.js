@@ -1113,7 +1113,7 @@ allPages
 .
 unregister
 (
-this
+page
 )
 ;
 }
