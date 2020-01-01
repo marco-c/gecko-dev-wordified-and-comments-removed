@@ -124,6 +124,14 @@ browser_gcli_integrate
 .
 js
 \
+browser_gcli_pref
+.
+js
+\
+browser_gcli_settings
+.
+js
+\
 browser_gcli_web
 .
 js
