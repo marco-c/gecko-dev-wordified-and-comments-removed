@@ -177,9 +177,6 @@ Contents
 /
 Resources
 /
-#
-ifdef
-MOZ_SIGNING
 APPNAME
 /
 Contents
@@ -187,8 +184,6 @@ Contents
 _CodeSignature
 /
 CodeResources
-#
-endif
 #
 endif
 [
@@ -337,6 +332,9 @@ mozjs
 DLL_SUFFIX
 #
 endif
+#
+ifndef
+MOZ_NATIVE_NSPR
 BINPATH
 /
 DLL_PREFIX
@@ -352,6 +350,8 @@ BINPATH
 DLL_PREFIX
 plds4
 DLL_SUFFIX
+#
+endif
 BINPATH
 /
 DLL_PREFIX
@@ -551,11 +551,16 @@ ini
 #
 ifndef
 XP_OS2
+#
+ifndef
+MOZ_NATIVE_SQLITE
 BINPATH
 /
 DLL_PREFIX
 mozsqlite3
 DLL_SUFFIX
+#
+endif
 #
 else
 BINPATH
@@ -3613,6 +3618,9 @@ there
 directly
 .
 ;
+#
+ifndef
+MOZ_NATIVE_NSS
 BINPATH
 /
 DLL_PREFIX
@@ -3658,6 +3666,8 @@ BINPATH
 DLL_PREFIX
 ssl3
 DLL_SUFFIX
+#
+endif
 BINPATH
 /
 chrome
