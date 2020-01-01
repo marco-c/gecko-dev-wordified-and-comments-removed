@@ -44835,7 +44835,7 @@ lir
 ins2i
 (
 LIR_lt
-d1
+d0
 0
 )
 exit
