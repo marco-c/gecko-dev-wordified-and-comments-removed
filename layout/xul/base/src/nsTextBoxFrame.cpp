@@ -1238,6 +1238,10 @@ nsRenderingContext
 aCtx
 nsPoint
 aOffset
+const
+nscolor
+*
+aColor
 )
 ;
 PRPackedBool
@@ -1277,6 +1281,8 @@ PaintTextWithOffset
 (
 aCtx
 aShadowOffset
+&
+aShadowColor
 )
 ;
 }
@@ -1355,6 +1361,7 @@ nsPoint
 0
 0
 )
+nsnull
 )
 ;
 }
@@ -1369,6 +1376,10 @@ nsRenderingContext
 aCtx
 nsPoint
 aOffset
+const
+nscolor
+*
+aColor
 )
 {
 static_cast
@@ -1391,6 +1402,7 @@ ToReferenceFrame
 )
 +
 aOffset
+aColor
 )
 ;
 }
@@ -1535,6 +1547,10 @@ nsRect
 aDirtyRect
 nsPoint
 aPt
+const
+nscolor
+*
+aOverrideColor
 )
 {
 if
@@ -1553,7 +1569,7 @@ aRenderingContext
 mTextDrawRect
 +
 aPt
-nsnull
+aOverrideColor
 )
 ;
 }

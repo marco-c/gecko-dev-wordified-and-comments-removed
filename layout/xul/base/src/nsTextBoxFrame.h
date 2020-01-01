@@ -190,6 +190,10 @@ nsRect
 aDirtyRect
 nsPoint
 aPt
+const
+nscolor
+*
+aOverrideColor
 )
 ;
 nsRect
