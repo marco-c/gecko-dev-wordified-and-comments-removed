@@ -166,9 +166,6 @@ cc_uint32_t
 ref_count
 ;
 cc_string_t
-name
-;
-cc_string_t
 not_prompt
 ;
 char
