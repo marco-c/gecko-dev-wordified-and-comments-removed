@@ -4031,10 +4031,6 @@ mDlg
 =
 nsnull
 ;
-mDialogOpen
-=
-PR_FALSE
-;
 }
 if
 (
