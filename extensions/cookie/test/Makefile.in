@@ -548,6 +548,7 @@ file_loopback_inner
 .
 html
 \
+#
 test_same_base_domain_7
 .
 html
