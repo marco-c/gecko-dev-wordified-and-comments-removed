@@ -935,6 +935,15 @@ xpcom
 /
 stub
 ifdef
+MOZ_REPLACE_MALLOC
+tier_platform_dirs
++
+=
+memory
+/
+replace
+endif
+ifdef
 NS_TRACE_MALLOC
 tier_platform_dirs
 +
