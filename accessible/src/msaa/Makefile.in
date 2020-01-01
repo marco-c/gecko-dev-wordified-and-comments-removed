@@ -487,11 +487,11 @@ ia2AccessibleAction
 .
 cpp
 \
-CAccessibleImage
+ia2AccessibleComponent
 .
 cpp
 \
-CAccessibleComponent
+CAccessibleImage
 .
 cpp
 \
@@ -597,11 +597,11 @@ ia2AccessibleAction
 .
 h
 \
-CAccessibleImage
+ia2AccessibleComponent
 .
 h
 \
-CAccessibleComponent
+CAccessibleImage
 .
 h
 \
