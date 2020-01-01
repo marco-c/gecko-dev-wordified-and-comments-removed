@@ -5,6 +5,14 @@ nsEvent_h__
 define
 nsEvent_h__
 enum
+UIStateChangeType
+{
+UIStateChangeType_NoChange
+UIStateChangeType_Set
+UIStateChangeType_Clear
+}
+;
+enum
 nsEventStatus
 {
 nsEventStatus_eIgnore

@@ -68,13 +68,6 @@ nsEvent
 h
 "
 #
-include
-"
-nsGUIEvent
-.
-h
-"
-#
 define
 DOM_WINDOW_DESTROYED_TOPIC
 "
