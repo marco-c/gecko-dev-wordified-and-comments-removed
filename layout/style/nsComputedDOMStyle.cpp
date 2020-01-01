@@ -5570,7 +5570,7 @@ nsIDOMCSSValue
 nsComputedDOMStyle
 :
 :
-DoGetMozFontFeatureSettings
+DoGetFontFeatureSettings
 (
 )
 {
@@ -5651,7 +5651,7 @@ nsIDOMCSSValue
 nsComputedDOMStyle
 :
 :
-DoGetMozFontLanguageOverride
+DoGetFontLanguageOverride
 (
 )
 {
@@ -8034,7 +8034,7 @@ nsIDOMCSSValue
 nsComputedDOMStyle
 :
 :
-DoGetMozBackgroundSize
+DoGetBackgroundSize
 (
 )
 {
@@ -11160,7 +11160,7 @@ nsIDOMCSSValue
 nsComputedDOMStyle
 :
 :
-DoGetMozTextDecorationColor
+DoGetTextDecorationColor
 (
 )
 {
@@ -11219,7 +11219,7 @@ nsIDOMCSSValue
 nsComputedDOMStyle
 :
 :
-DoGetMozTextDecorationLine
+DoGetTextDecorationLine
 (
 )
 {
@@ -11303,7 +11303,7 @@ nsIDOMCSSValue
 nsComputedDOMStyle
 :
 :
-DoGetMozTextDecorationStyle
+DoGetTextDecorationStyle
 (
 )
 {
@@ -11675,7 +11675,7 @@ nsIDOMCSSValue
 nsComputedDOMStyle
 :
 :
-DoGetMozTabSize
+DoGetTabSize
 (
 )
 {
@@ -20438,7 +20438,7 @@ BackgroundRepeat
 COMPUTED_STYLE_MAP_ENTRY
 (
 background_size
-MozBackgroundSize
+BackgroundSize
 )
 COMPUTED_STYLE_MAP_ENTRY
 (
@@ -21083,12 +21083,12 @@ FloatEdge
 COMPUTED_STYLE_MAP_ENTRY
 (
 font_feature_settings
-MozFontFeatureSettings
+FontFeatureSettings
 )
 COMPUTED_STYLE_MAP_ENTRY
 (
 font_language_override
-MozFontLanguageOverride
+FontLanguageOverride
 )
 COMPUTED_STYLE_MAP_ENTRY
 (
@@ -21148,7 +21148,7 @@ StackSizing
 COMPUTED_STYLE_MAP_ENTRY
 (
 _moz_tab_size
-MozTabSize
+TabSize
 )
 COMPUTED_STYLE_MAP_ENTRY
 (
@@ -21163,17 +21163,17 @@ MozTextBlink
 COMPUTED_STYLE_MAP_ENTRY
 (
 text_decoration_color
-MozTextDecorationColor
+TextDecorationColor
 )
 COMPUTED_STYLE_MAP_ENTRY
 (
 text_decoration_line
-MozTextDecorationLine
+TextDecorationLine
 )
 COMPUTED_STYLE_MAP_ENTRY
 (
 text_decoration_style
-MozTextDecorationStyle
+TextDecorationStyle
 )
 COMPUTED_STYLE_MAP_ENTRY
 (
