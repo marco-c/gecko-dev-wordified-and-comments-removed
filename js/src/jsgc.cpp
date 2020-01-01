@@ -2878,7 +2878,7 @@ age
 ;
 for
 (
-jsuint
+unsigned
 i
 =
 0
@@ -3163,7 +3163,7 @@ next
 NULL
 ;
 }
-jsuint
+unsigned
 Chunk
 :
 :
@@ -3173,7 +3173,7 @@ findDecommittedArenaOffset
 {
 for
 (
-jsuint
+unsigned
 i
 =
 info
@@ -3202,7 +3202,7 @@ i
 ;
 for
 (
-jsuint
+unsigned
 i
 =
 0
@@ -3273,7 +3273,7 @@ numArenasFree
 0
 )
 ;
-jsuint
+unsigned
 offset
 =
 findDecommittedArenaOffset

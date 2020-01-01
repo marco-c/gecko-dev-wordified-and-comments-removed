@@ -261,7 +261,7 @@ typeoffset
 "
 )
 ;
-jsuint
+unsigned
 length
 ;
 if
@@ -282,7 +282,7 @@ NS_ERROR_DOM_INDEXEDDB_UNKNOWN_ERR
 }
 for
 (
-jsuint
+unsigned
 index
 =
 0
@@ -474,7 +474,7 @@ aTypeOffset
 0
 ;
 }
-jsuint
+unsigned
 index
 =
 0

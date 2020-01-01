@@ -226,7 +226,7 @@ const
 Value
 &
 v
-jsuint
+unsigned
 *
 len
 )
@@ -295,10 +295,10 @@ d
 return
 false
 ;
-jsuint
+unsigned
 length
 =
-jsuint
+unsigned
 (
 d
 )
@@ -3257,12 +3257,12 @@ JSObject
 obj
 jsid
 id
-jsuint
+unsigned
 *
 ip
 )
 {
-jsuint
+unsigned
 index
 ;
 if
@@ -6100,7 +6100,7 @@ return
 true
 ;
 }
-jsuint
+unsigned
 index
 ;
 if
@@ -7271,7 +7271,7 @@ Value
 argv
 )
 {
-jsuint
+unsigned
 len
 =
 0
@@ -8009,7 +8009,7 @@ false
 }
 else
 {
-jsuint
+unsigned
 len
 ;
 if
@@ -8327,7 +8327,7 @@ len
 )
 ;
 }
-jsuint
+unsigned
 len
 ;
 if
@@ -8827,9 +8827,9 @@ thisTypedArrayObj
 JSObject
 *
 ar
-jsuint
+unsigned
 len
-jsuint
+unsigned
 offset
 =
 0
@@ -9033,7 +9033,7 @@ thisTypedArrayObj
 JSObject
 *
 tarray
-jsuint
+unsigned
 offset
 )
 {
@@ -9640,7 +9640,7 @@ self
 JSObject
 *
 tarray
-jsuint
+unsigned
 offset
 )
 {
@@ -12450,7 +12450,7 @@ js_CreateArrayBuffer
 JSContext
 *
 cx
-jsuint
+unsigned
 nbytes
 )
 {
@@ -12475,7 +12475,7 @@ JS_NewArrayBuffer
 JSContext
 *
 cx
-jsuint
+unsigned
 nbytes
 )
 {
@@ -12694,7 +12694,7 @@ JSContext
 cx
 int
 atype
-jsuint
+unsigned
 nelements
 )
 {

@@ -1936,7 +1936,7 @@ int
 y
 )
 {
-jsuint
+unsigned
 n
 =
 (

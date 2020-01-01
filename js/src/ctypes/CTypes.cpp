@@ -7181,7 +7181,7 @@ IntegerToString
 (
 IntegerType
 i
-jsuint
+int
 radix
 Vector
 <
@@ -9292,7 +9292,7 @@ JSVAL_TO_OBJECT
 val
 )
 ;
-jsuint
+unsigned
 sourceLength
 ;
 if
@@ -9391,7 +9391,7 @@ false
 }
 for
 (
-jsuint
+unsigned
 i
 =
 0
@@ -20003,7 +20003,7 @@ JSObject
 fieldsObj
 )
 {
-jsuint
+unsigned
 len
 ;
 ASSERT_OK
@@ -20185,7 +20185,7 @@ structAlign
 ;
 for
 (
-jsuint
+unsigned
 i
 =
 0
@@ -24272,7 +24272,7 @@ argv
 ]
 )
 ;
-jsuint
+unsigned
 len
 ;
 ASSERT_OK
@@ -24342,7 +24342,7 @@ begin
 ;
 for
 (
-jsuint
+unsigned
 i
 =
 0
@@ -24445,7 +24445,7 @@ rtype
 jsval
 *
 argtypes
-jsuint
+unsigned
 arglen
 )
 {
@@ -25192,7 +25192,7 @@ vp
 ;
 for
 (
-jsuint
+unsigned
 i
 =
 0
@@ -29894,7 +29894,7 @@ return
 JS_FALSE
 ;
 }
-jsuint
+int
 radix
 =
 10

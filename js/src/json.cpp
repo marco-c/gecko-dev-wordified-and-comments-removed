@@ -2443,7 +2443,7 @@ append
 return
 JS_FALSE
 ;
-jsuint
+unsigned
 length
 ;
 if
@@ -2981,7 +2981,7 @@ cx
 )
 )
 {
-jsuint
+unsigned
 len
 ;
 JS_ALWAYS_TRUE
@@ -3039,7 +3039,7 @@ len
 return
 false
 ;
-jsuint
+unsigned
 i
 =
 0

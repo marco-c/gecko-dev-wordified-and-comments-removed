@@ -1197,7 +1197,7 @@ JSObject
 obj
 jsid
 id
-jsuint
+unsigned
 *
 ip
 =
@@ -1509,7 +1509,7 @@ JS_NewArrayBuffer
 JSContext
 *
 cx
-jsuint
+unsigned
 nbytes
 )
 ;

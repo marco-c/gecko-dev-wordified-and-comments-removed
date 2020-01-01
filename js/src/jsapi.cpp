@@ -20974,12 +20974,12 @@ shape
 "
 )
 ;
-JS_ASSERT
+obj
+-
+>
+setPrivate
 (
 tmp
-=
-=
-pdata
 )
 ;
 }
@@ -21635,7 +21635,7 @@ vector
 vector
 ?
 (
-jsuint
+unsigned
 )
 length
 :
@@ -21648,7 +21648,7 @@ NewDenseCopiedArray
 (
 cx
 (
-jsuint
+unsigned
 )
 length
 vector
@@ -21697,7 +21697,7 @@ cx
 JSObject
 *
 obj
-jsuint
+unsigned
 *
 lengthp
 )
@@ -21739,7 +21739,7 @@ cx
 JSObject
 *
 obj
-jsuint
+unsigned
 length
 )
 {

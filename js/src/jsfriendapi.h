@@ -1980,7 +1980,7 @@ StringIsArrayIndex
 JSLinearString
 *
 str
-jsuint
+unsigned
 *
 indexp
 )

@@ -5389,7 +5389,7 @@ get
 )
 ;
 }
-jsuint
+unsigned
 symbolCount
 =
 0
@@ -5432,7 +5432,7 @@ logBuffer
 endif
 for
 (
-jsuint
+unsigned
 i
 =
 0

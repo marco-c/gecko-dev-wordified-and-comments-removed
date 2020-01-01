@@ -3119,7 +3119,7 @@ lastProperty
 (
 )
 ;
-jsuint
+unsigned
 index
 ;
 bool
@@ -3657,7 +3657,7 @@ cx
 )
 ;
 {
-jsuint
+unsigned
 index
 ;
 bool

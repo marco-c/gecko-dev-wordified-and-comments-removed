@@ -2924,7 +2924,7 @@ return
 -
 1
 ;
-jsuint
+unsigned
 i
 ;
 JSLinearString

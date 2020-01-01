@@ -31108,7 +31108,7 @@ TOK_LB
 JSBool
 matched
 ;
-jsuint
+unsigned
 index
 ;
 pn

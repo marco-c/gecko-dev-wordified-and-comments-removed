@@ -2746,7 +2746,7 @@ init
 (
 )
 ;
-jsuint
+unsigned
 findDecommittedArenaOffset
 (
 )

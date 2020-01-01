@@ -1943,7 +1943,7 @@ chars
 ;
 if
 (
-jsuint
+unsigned
 (
 i
 )
