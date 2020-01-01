@@ -5879,7 +5879,7 @@ identifier
 =
 this
 .
-_getIdentifier
+getIdentifier
 (
 aLocation
 )
@@ -5927,7 +5927,7 @@ newIdentifier
 =
 this
 .
-_getIdentifier
+getIdentifier
 (
 aResponse
 .
@@ -6123,7 +6123,7 @@ identifier
 =
 this
 .
-_getIdentifier
+getIdentifier
 (
 aLocation
 )
@@ -6520,7 +6520,7 @@ get
 (
 this
 .
-_getIdentifier
+getIdentifier
 (
 aLocation
 )
@@ -6543,14 +6543,14 @@ get
 (
 this
 .
-_getIdentifier
+getIdentifier
 (
 aLocation
 )
 )
 ;
 }
-_getIdentifier
+getIdentifier
 :
 function
 (
