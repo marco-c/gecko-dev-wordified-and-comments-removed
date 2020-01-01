@@ -293,15 +293,6 @@ nsGkAtoms
 :
 :
 dy
-|
-|
-aAttribute
-=
-=
-nsGkAtoms
-:
-:
-rotate
 )
 {
 NotifyGlyphMetricsChange
