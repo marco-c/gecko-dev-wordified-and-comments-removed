@@ -178,7 +178,7 @@ runtimeContexts
 (
 0
 )
-runtimeNormal
+runtimeDtoa
 (
 0
 )
@@ -293,7 +293,7 @@ size_t
 runtimeContexts
 ;
 size_t
-runtimeNormal
+runtimeDtoa
 ;
 size_t
 runtimeTemporary
