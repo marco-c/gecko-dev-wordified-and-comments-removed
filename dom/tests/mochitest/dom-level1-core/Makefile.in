@@ -444,9 +444,9 @@ mk
 temporarily
 disabled
 because
-it
+they
 '
-s
+re
 causing
 crashes
 :
@@ -454,6 +454,10 @@ bug
 432471
 #
 test_characterdatagetdata
+.
+html
+#
+test_characterdatagetlength
 .
 html
 _TEST_FILES_A
@@ -588,10 +592,6 @@ test_characterdatadeletedatanomodificationallowederr
 html
 \
 test_characterdatadeletedatanomodificationallowederrEE
-.
-html
-\
-test_characterdatagetlength
 .
 html
 \
