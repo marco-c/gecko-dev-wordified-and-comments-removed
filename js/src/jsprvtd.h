@@ -132,11 +132,6 @@ JSTryNote
 ;
 typedef
 struct
-JSAtomMap
-JSAtomMap
-;
-typedef
-struct
 JSAtomState
 JSAtomState
 ;

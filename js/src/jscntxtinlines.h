@@ -874,6 +874,8 @@ script
 -
 >
 compartment
+(
+)
 )
 ;
 if

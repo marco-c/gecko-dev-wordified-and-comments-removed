@@ -43039,9 +43039,7 @@ atoms
 script
 -
 >
-atomMap
-.
-vector
+atoms
 ;
 consts
 =
@@ -79535,9 +79533,7 @@ atoms
 script
 -
 >
-atomMap
-.
-vector
+atoms
 +
 GET_INDEX
 (
@@ -83678,9 +83674,7 @@ script
 )
 -
 >
-atomMap
-.
-vector
+atoms
 ;
 return
 index
@@ -85422,9 +85416,7 @@ atoms
 script
 -
 >
-atomMap
-.
-vector
+atoms
 +
 GET_INDEX
 (
@@ -90716,6 +90708,8 @@ entryScript
 -
 >
 compartment
+(
+)
 -
 >
 traceMonitor

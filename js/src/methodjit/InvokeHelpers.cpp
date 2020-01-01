@@ -330,6 +330,8 @@ script
 -
 >
 main
+(
+)
 ;
 JSTryNoteArray
 *
@@ -423,6 +425,8 @@ script
 -
 >
 main
+(
+)
 +
 tn
 -
