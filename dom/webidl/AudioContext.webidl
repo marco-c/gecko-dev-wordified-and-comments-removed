@@ -212,12 +212,15 @@ float
 sampleRate
 )
 ;
+/
+/
 [
 Creator
 Throws
 ]
+/
+/
 AudioBuffer
-?
 createBuffer
 (
 ArrayBuffer
