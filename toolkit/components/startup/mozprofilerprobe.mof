@@ -188,7 +188,7 @@ EventType
 )
 ]
 class
-MozillaEventSessionStoreWindowRestored
+MozillaEventXPCOMShutdown
 :
 MozillaProvider
 {
