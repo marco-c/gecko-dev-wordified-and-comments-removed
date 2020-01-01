@@ -1050,6 +1050,7 @@ UncaughtExceptionHandler
 (
 )
 {
+Override
 public
 void
 uncaughtException
@@ -1419,6 +1420,7 @@ connect
 )
 ;
 }
+Override
 public
 void
 onMediaScannerConnected
@@ -1434,6 +1436,7 @@ mMimeType
 )
 ;
 }
+Override
 public
 void
 onScanCompleted
@@ -1665,6 +1668,7 @@ Runnable
 (
 )
 {
+Override
 public
 void
 run
@@ -2182,6 +2186,7 @@ Runnable
 (
 )
 {
+Override
 public
 void
 run
@@ -3403,6 +3408,7 @@ Runnable
 (
 )
 {
+Override
 public
 void
 run
@@ -3641,6 +3647,7 @@ Runnable
 (
 )
 {
+Override
 public
 void
 run
@@ -3848,6 +3855,7 @@ Runnable
 (
 )
 {
+Override
 public
 void
 run
@@ -6216,6 +6224,7 @@ Runnable
 (
 )
 {
+Override
 SuppressWarnings
 (
 "
@@ -6464,6 +6473,7 @@ Runnable
 (
 )
 {
+Override
 SuppressWarnings
 (
 "
@@ -7689,6 +7699,7 @@ Runnable
 (
 )
 {
+Override
 public
 void
 run
@@ -7721,6 +7732,7 @@ Runnable
 (
 )
 {
+Override
 public
 void
 run
@@ -8116,6 +8128,7 @@ GeckoProcessesVisitor
 (
 )
 {
+Override
 public
 boolean
 callback
@@ -8180,6 +8193,7 @@ otherPidExist
 =
 false
 ;
+Override
 public
 boolean
 callback
@@ -10226,6 +10240,7 @@ PreviewCallback
 (
 )
 {
+Override
 public
 void
 onPreviewFrame
@@ -10600,6 +10615,7 @@ Runnable
 (
 )
 {
+Override
 public
 void
 run
@@ -10645,6 +10661,7 @@ Runnable
 (
 )
 {
+Override
 public
 void
 run
@@ -12322,6 +12339,7 @@ mId
 id
 ;
 }
+Override
 public
 void
 onActivityResult
@@ -12472,6 +12490,7 @@ OnFrameAvailableListener
 (
 )
 {
+Override
 public
 void
 onFrameAvailable

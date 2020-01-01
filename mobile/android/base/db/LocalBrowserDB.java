@@ -555,6 +555,7 @@ build
 )
 ;
 }
+Override
 public
 void
 invalidateCachedState
@@ -1060,6 +1061,7 @@ c
 )
 ;
 }
+Override
 public
 int
 getCount
@@ -1310,6 +1312,7 @@ return
 count
 ;
 }
+Override
 public
 Cursor
 filter
@@ -1356,6 +1359,7 @@ null
 )
 ;
 }
+Override
 public
 Cursor
 getTopSites
@@ -1470,6 +1474,7 @@ selectionArgs
 )
 ;
 }
+Override
 public
 void
 updateVisitedHistory
@@ -1546,6 +1551,7 @@ uri
 )
 ;
 }
+Override
 public
 void
 updateHistoryTitle
@@ -1600,6 +1606,7 @@ uri
 )
 ;
 }
+Override
 public
 void
 updateHistoryEntry
@@ -1771,6 +1778,7 @@ uri
 )
 ;
 }
+Override
 public
 Cursor
 getAllVisitedHistory
@@ -1816,6 +1824,7 @@ c
 )
 ;
 }
+Override
 public
 Cursor
 getRecentHistory
@@ -1896,6 +1905,7 @@ c
 )
 ;
 }
+Override
 public
 void
 expireHistory
@@ -1945,6 +1955,7 @@ null
 )
 ;
 }
+Override
 public
 void
 removeHistoryEntry
@@ -1983,6 +1994,7 @@ id
 )
 ;
 }
+Override
 public
 void
 removeHistoryEntry
@@ -2019,6 +2031,7 @@ url
 )
 ;
 }
+Override
 public
 void
 clearHistory
@@ -2037,6 +2050,7 @@ null
 )
 ;
 }
+Override
 public
 Cursor
 getBookmarksInFolder
@@ -2520,6 +2534,7 @@ return
 mReadingListItemsExist
 ;
 }
+Override
 public
 boolean
 isBookmark
@@ -2657,6 +2672,7 @@ count
 )
 ;
 }
+Override
 public
 boolean
 isReadingListItem
@@ -2772,6 +2788,7 @@ count
 )
 ;
 }
+Override
 public
 String
 getUrlForKeyword
@@ -3407,6 +3424,7 @@ time
 )
 ;
 }
+Override
 public
 void
 addBookmark
@@ -3439,6 +3457,7 @@ folderId
 )
 ;
 }
+Override
 public
 void
 removeBookmark
@@ -3511,6 +3530,7 @@ idArgs
 )
 ;
 }
+Override
 public
 void
 removeBookmarksWithURL
@@ -3591,6 +3611,7 @@ urlArgs
 )
 ;
 }
+Override
 public
 void
 addReadingListItem
@@ -3614,6 +3635,7 @@ FIXED_READING_LIST_ID
 )
 ;
 }
+Override
 public
 void
 removeReadingListItemWithURL
@@ -3694,6 +3716,7 @@ urlArgs
 )
 ;
 }
+Override
 public
 void
 registerBookmarkObserver
@@ -3714,6 +3737,7 @@ observer
 )
 ;
 }
+Override
 public
 void
 registerHistoryObserver
@@ -3734,6 +3758,7 @@ observer
 )
 ;
 }
+Override
 public
 void
 updateBookmark
@@ -3833,6 +3858,7 @@ id
 )
 ;
 }
+Override
 public
 Bitmap
 getFaviconForUrl
@@ -3951,6 +3977,7 @@ length
 )
 ;
 }
+Override
 public
 String
 getFaviconUrlForHistoryUrl
@@ -4043,6 +4070,7 @@ return
 faviconUrl
 ;
 }
+Override
 public
 Cursor
 getFaviconsForUrls
@@ -4175,6 +4203,7 @@ null
 )
 ;
 }
+Override
 public
 void
 updateFaviconForUrl
@@ -4319,6 +4348,7 @@ values
 )
 ;
 }
+Override
 public
 void
 updateThumbnailForUrl
@@ -4435,6 +4465,7 @@ values
 )
 ;
 }
+Override
 public
 byte
 [
@@ -4536,6 +4567,7 @@ return
 b
 ;
 }
+Override
 public
 Cursor
 getThumbnailsForUrls
@@ -4668,6 +4700,7 @@ null
 )
 ;
 }
+Override
 public
 void
 removeThumbnails
@@ -6210,6 +6243,7 @@ columnName
 ;
 }
 }
+Override
 public
 void
 pinSite
@@ -6413,6 +6447,7 @@ values
 ;
 }
 }
+Override
 public
 Cursor
 getPinnedSites
@@ -6483,6 +6518,7 @@ ASC
 )
 ;
 }
+Override
 public
 void
 unpinSite
@@ -6540,6 +6576,7 @@ position
 )
 ;
 }
+Override
 public
 void
 unpinAllSites
@@ -6579,6 +6616,7 @@ FIXED_PINNED_LIST_ID
 )
 ;
 }
+Override
 public
 boolean
 isVisited

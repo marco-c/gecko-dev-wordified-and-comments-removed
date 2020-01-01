@@ -90,6 +90,7 @@ LEFT
 RIGHT
 }
 ;
+Override
 abstract
 public
 void
@@ -97,6 +98,7 @@ onLightweightThemeChanged
 (
 )
 ;
+Override
 abstract
 public
 void

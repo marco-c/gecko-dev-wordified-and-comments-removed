@@ -699,6 +699,7 @@ OnClickListener
 (
 )
 {
+Override
 public
 void
 onClick
@@ -757,6 +758,7 @@ pos
 }
 ;
 }
+Override
 public
 void
 onTabChanged
@@ -1020,6 +1022,7 @@ notifyDataSetChanged
 )
 ;
 }
+Override
 public
 int
 getCount
@@ -1043,6 +1046,7 @@ size
 )
 ;
 }
+Override
 public
 Tab
 getItem
@@ -1060,6 +1064,7 @@ position
 )
 ;
 }
+Override
 public
 long
 getItemId
@@ -1274,6 +1279,7 @@ row
 )
 ;
 }
+Override
 public
 View
 getView
@@ -1479,6 +1485,7 @@ PropertyAnimationListener
 (
 )
 {
+Override
 public
 void
 onPropertyAnimationStart
@@ -1486,6 +1493,7 @@ onPropertyAnimationStart
 )
 {
 }
+Override
 public
 void
 onPropertyAnimationEnd
@@ -1654,6 +1662,7 @@ PropertyAnimationListener
 (
 )
 {
+Override
 public
 void
 onPropertyAnimationStart
@@ -1661,6 +1670,7 @@ onPropertyAnimationStart
 )
 {
 }
+Override
 public
 void
 onPropertyAnimationEnd
@@ -1827,6 +1837,7 @@ PropertyAnimationListener
 (
 )
 {
+Override
 public
 void
 onPropertyAnimationStart
@@ -1834,6 +1845,7 @@ onPropertyAnimationStart
 )
 {
 }
+Override
 public
 void
 onPropertyAnimationEnd

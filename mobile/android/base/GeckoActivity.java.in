@@ -434,6 +434,7 @@ true
 ;
 }
 }
+Override
 public
 boolean
 isGeckoActivityOpened
