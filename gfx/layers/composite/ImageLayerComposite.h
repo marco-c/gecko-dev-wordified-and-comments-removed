@@ -140,6 +140,17 @@ aClipRect
 ;
 virtual
 void
+ComputeEffectiveTransforms
+(
+const
+gfx3DMatrix
+&
+aTransformToSurface
+)
+MOZ_OVERRIDE
+;
+virtual
+void
 CleanupResources
 (
 )

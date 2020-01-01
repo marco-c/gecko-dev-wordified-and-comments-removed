@@ -198,6 +198,8 @@ aAttrs
 ImageLayerAttributes
 (
 mFilter
+mScaleToSize
+mScaleMode
 )
 ;
 }
