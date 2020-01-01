@@ -371,6 +371,13 @@ link_traversed
 STATE_TRAVERSED
 )
 ;
+enableLogging
+(
+"
+docload
+"
+)
+;
 registerA11yEventListener
 (
 EVENT_DOCUMENT_LOAD_COMPLETE
@@ -431,6 +438,10 @@ testStates
 link_traversed
 "
 STATE_TRAVERSED
+)
+;
+disableLogging
+(
 )
 ;
 SimpleTest
