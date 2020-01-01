@@ -553,7 +553,7 @@ xpc_ActivateDebugMode
 )
 ;
 class
-nsIMemoryMultiReporterCallback
+nsIMemoryReporterCallback
 ;
 class
 XPCStringConvert
@@ -1280,7 +1280,7 @@ const
 nsACString
 &
 rtPath
-nsIMemoryMultiReporterCallback
+nsIMemoryReporterCallback
 *
 cb
 nsISupports

@@ -171,9 +171,6 @@ class
 nsIDocument
 ;
 class
-nsIMemoryMultiReporter
-;
-class
 nsIPrincipal
 ;
 class

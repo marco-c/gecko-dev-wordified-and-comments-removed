@@ -6815,7 +6815,7 @@ JSGCHeapReporter
 MOZ_FINAL
 :
 public
-MemoryReporterBase
+MemoryUniReporter
 {
 public
 :
@@ -6823,7 +6823,7 @@ JSGCHeapReporter
 (
 )
 :
-MemoryReporterBase
+MemoryUniReporter
 (
 "
 js
@@ -6899,7 +6899,7 @@ JSCompartmentsSystemReporter
 MOZ_FINAL
 :
 public
-MemoryReporterBase
+MemoryUniReporter
 {
 public
 :
@@ -6907,7 +6907,7 @@ JSCompartmentsSystemReporter
 (
 )
 :
-MemoryReporterBase
+MemoryUniReporter
 (
 "
 js
@@ -7021,7 +7021,7 @@ JSCompartmentsUserReporter
 MOZ_FINAL
 :
 public
-MemoryReporterBase
+MemoryUniReporter
 {
 public
 :
@@ -7029,7 +7029,7 @@ JSCompartmentsUserReporter
 (
 )
 :
-MemoryReporterBase
+MemoryUniReporter
 (
 "
 js
@@ -7141,7 +7141,7 @@ JSMainRuntimeTemporaryPeakReporter
 MOZ_FINAL
 :
 public
-MemoryReporterBase
+MemoryUniReporter
 {
 public
 :
@@ -7149,7 +7149,7 @@ JSMainRuntimeTemporaryPeakReporter
 (
 )
 :
-MemoryReporterBase
+MemoryUniReporter
 (
 "
 js
@@ -7860,7 +7860,7 @@ xpc
 ZoneStatsExtras
 &
 extras
-nsIMemoryMultiReporterCallback
+nsIMemoryReporterCallback
 *
 cb
 nsISupports
@@ -9182,7 +9182,7 @@ extras
 amIAddonManager
 *
 addonManager
-nsIMemoryMultiReporterCallback
+nsIMemoryReporterCallback
 *
 cb
 nsISupports
@@ -11286,7 +11286,7 @@ rtPath
 amIAddonManager
 *
 addonManager
-nsIMemoryMultiReporterCallback
+nsIMemoryReporterCallback
 *
 cb
 nsISupports
@@ -12315,7 +12315,7 @@ const
 nsACString
 &
 rtPath
-nsIMemoryMultiReporterCallback
+nsIMemoryReporterCallback
 *
 cb
 nsISupports
@@ -12365,11 +12365,11 @@ rtTotalOut
 }
 }
 class
-JSCompartmentsMultiReporter
+JSCompartmentsReporter
 MOZ_FINAL
 :
 public
-nsIMemoryMultiReporter
+nsIMemoryReporter
 {
 public
 :
@@ -12494,7 +12494,7 @@ path
 NS_IMETHOD
 CollectReports
 (
-nsIMemoryMultiReporterCallback
+nsIMemoryReporterCallback
 *
 cb
 nsISupports
@@ -12566,8 +12566,8 @@ NS_OK
 ;
 NS_IMPL_ISUPPORTS1
 (
-JSCompartmentsMultiReporter
-nsIMemoryMultiReporter
+JSCompartmentsReporter
+nsIMemoryReporter
 )
 NS_MEMORY_REPORTER_MALLOC_SIZEOF_FUN
 (
@@ -13533,7 +13533,7 @@ extras
 }
 ;
 nsresult
-JSMemoryMultiReporter
+JSReporter
 :
 :
 CollectReports
@@ -13544,7 +13544,7 @@ windowPaths
 WindowPaths
 *
 topWindowPaths
-nsIMemoryMultiReporterCallback
+nsIMemoryReporterCallback
 *
 cb
 nsISupports
@@ -15900,10 +15900,10 @@ JSMainRuntimeTemporaryPeakReporter
 )
 )
 ;
-NS_RegisterMemoryMultiReporter
+NS_RegisterMemoryReporter
 (
 new
-JSCompartmentsMultiReporter
+JSCompartmentsReporter
 )
 ;
 #

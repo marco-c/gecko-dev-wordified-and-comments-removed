@@ -7473,7 +7473,7 @@ MemoryReporter
 MOZ_FINAL
 :
 public
-nsIMemoryMultiReporter
+nsIMemoryReporter
 {
 friend
 class
@@ -7664,7 +7664,7 @@ NS_OK
 NS_IMETHOD
 CollectReports
 (
-nsIMemoryMultiReporterCallback
+nsIMemoryReporterCallback
 *
 aCallback
 nsISupports
@@ -7932,7 +7932,7 @@ WorkerPrivate
 :
 :
 MemoryReporter
-nsIMemoryMultiReporter
+nsIMemoryReporter
 )
 template
 <
@@ -13087,7 +13087,7 @@ if
 (
 NS_FAILED
 (
-NS_RegisterMemoryMultiReporter
+NS_RegisterMemoryReporter
 (
 mMemoryReporter
 )
@@ -13234,7 +13234,7 @@ if
 (
 NS_FAILED
 (
-NS_UnregisterMemoryMultiReporter
+NS_UnregisterMemoryReporter
 (
 memoryReporter
 )

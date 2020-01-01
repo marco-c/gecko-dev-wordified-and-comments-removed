@@ -8,7 +8,7 @@ class
 nsISupports
 ;
 class
-nsIMemoryMultiReporterCallback
+nsIMemoryReporterCallback
 ;
 namespace
 xpc
@@ -22,7 +22,7 @@ nsCString
 WindowPaths
 ;
 class
-JSMemoryMultiReporter
+JSReporter
 {
 public
 :
@@ -36,7 +36,7 @@ windowPaths
 WindowPaths
 *
 topWindowPaths
-nsIMemoryMultiReporterCallback
+nsIMemoryReporterCallback
 *
 cb
 nsISupports

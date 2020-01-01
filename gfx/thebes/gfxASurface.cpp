@@ -2603,7 +2603,7 @@ SurfaceMemoryReporter
 MOZ_FINAL
 :
 public
-nsIMemoryMultiReporter
+nsIMemoryReporter
 {
 public
 :
@@ -2639,7 +2639,7 @@ NS_OK
 NS_IMETHOD
 CollectReports
 (
-nsIMemoryMultiReporterCallback
+nsIMemoryReporterCallback
 *
 aCb
 nsISupports
@@ -2773,7 +2773,7 @@ NS_OK
 NS_IMPL_ISUPPORTS1
 (
 SurfaceMemoryReporter
-nsIMemoryMultiReporter
+nsIMemoryReporter
 )
 void
 gfxASurface
@@ -2829,7 +2829,7 @@ if
 registered
 )
 {
-NS_RegisterMemoryMultiReporter
+NS_RegisterMemoryReporter
 (
 new
 SurfaceMemoryReporter
