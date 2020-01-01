@@ -123,6 +123,10 @@ file_bug420605
 .
 html
 \
+browser_bug422543
+.
+js
+\
 browser_bug503832
 .
 js
