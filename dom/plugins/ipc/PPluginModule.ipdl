@@ -848,6 +848,13 @@ nsString
 aIconPath
 )
 ;
+async
+SetParentHangTimeout
+(
+uint32_t
+seconds
+)
+;
 parent
 :
 /
