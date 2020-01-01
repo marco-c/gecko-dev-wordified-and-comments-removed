@@ -225,3 +225,11 @@ theme
 reftest
 .
 list
+#
+bidi
+include
+bidi
+/
+reftest
+.
+list
