@@ -1367,7 +1367,7 @@ toToId
 }
 ;
 class
-LCreateThis
+LCreateThisWithTemplate
 :
 public
 LInstructionHelper
@@ -1381,14 +1381,14 @@ public
 :
 LIR_HEADER
 (
-CreateThis
+CreateThisWithTemplate
 )
-LCreateThis
+LCreateThisWithTemplate
 (
 )
 {
 }
-MCreateThis
+MCreateThisWithTemplate
 *
 mir
 (
@@ -1399,7 +1399,7 @@ return
 mir_
 -
 >
-toCreateThis
+toCreateThisWithTemplate
 (
 )
 ;
@@ -1407,7 +1407,7 @@ toCreateThis
 }
 ;
 class
-LCreateThisVM
+LCreateThis
 :
 public
 LCallInstructionHelper
@@ -1421,9 +1421,9 @@ public
 :
 LIR_HEADER
 (
-CreateThisVM
+CreateThis
 )
-LCreateThisVM
+LCreateThis
 (
 const
 LAllocation
