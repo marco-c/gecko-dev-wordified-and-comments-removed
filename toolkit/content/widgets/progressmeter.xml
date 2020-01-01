@@ -446,9 +446,9 @@ this
 .
 setAttribute
 (
-"
+'
 max
-"
+'
 isNaN
 (
 val
