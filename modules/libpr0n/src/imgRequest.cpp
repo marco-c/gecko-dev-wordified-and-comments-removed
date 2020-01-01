@@ -1311,12 +1311,12 @@ RemoveFromCache
 }
 if
 (
-mRequest
+mChannel
 &
 &
 mLoading
 )
-mRequest
+mChannel
 -
 >
 Cancel
