@@ -280,7 +280,7 @@ _JS_CTYPE_JSVAL
 _JS_CTYPE
 (
 jsval
-_JS_I32
+_JS_PTR
 "
 "
 "
@@ -294,7 +294,7 @@ _JS_CTYPE_JSVAL_FAIL
 _JS_CTYPE
 (
 jsval
-_JS_I32
+_JS_PTR
 -
 -
 -
@@ -579,7 +579,7 @@ f
 s
 #
 #
-_ARGSIZE
+_RETSIZE
 #
 define
 _JS_CTYPE_RETSIZE
@@ -607,7 +607,7 @@ f
 s
 #
 #
-_RETSIZE
+_ARGSIZE
 #
 define
 _JS_CTYPE_ARGSIZE
