@@ -13422,17 +13422,6 @@ ReconstructStyleData
 (
 )
 ;
-if
-(
-designMode
-)
-{
-FlushPendingNotifications
-(
-Flush_Style
-)
-;
-}
 }
 mEditingState
 =
