@@ -1083,6 +1083,14 @@ StringifyContext
 (
 )
 {
+if
+(
+STRING_BUFFER_OK
+(
+&
+gap
+)
+)
 js_FinishStringBuffer
 (
 &
