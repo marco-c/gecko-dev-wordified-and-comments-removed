@@ -836,6 +836,10 @@ jsgc
 .
 cpp
 \
+jsgcmark
+.
+cpp
+\
 jsgcchunk
 .
 cpp
@@ -1085,6 +1089,10 @@ jsfriendapi
 h
 \
 jsgc
+.
+h
+\
+jsgcmark
 .
 h
 \
