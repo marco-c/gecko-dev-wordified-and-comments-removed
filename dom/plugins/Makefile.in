@@ -514,6 +514,12 @@ PluginScriptableObjectUtils
 .
 h
 \
+PluginScriptableObjectUtils
+-
+inl
+.
+h
+\
 PluginInstanceChild
 .
 h
@@ -615,10 +621,6 @@ PluginScriptableObjectChild
 cpp
 \
 PluginScriptableObjectParent
-.
-cpp
-\
-PluginScriptableObjectUtils
 .
 cpp
 \
