@@ -1692,7 +1692,7 @@ cmd
 gives
 us
 the
-unshifted
+shifted
 character
 testKey
 (
@@ -1723,7 +1723,7 @@ A
 "
 }
 "
-a
+A
 "
 )
 ;
@@ -1779,9 +1779,7 @@ cmd
 gives
 us
 the
-*
 shifted
-*
 character
 testKey
 (
@@ -1975,7 +1973,7 @@ cmd
 gives
 us
 the
-unshifted
+shifted
 character
 testKey
 (
@@ -2007,7 +2005,7 @@ u391
 "
 }
 "
-a
+A
 "
 )
 ;
@@ -2064,9 +2062,7 @@ cmd
 gives
 us
 the
-*
 shifted
-*
 character
 testKey
 (
