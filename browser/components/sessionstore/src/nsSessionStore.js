@@ -14138,13 +14138,6 @@ webNavigation
 .
 sessionHistory
 .
-QueryInterface
-(
-Ci
-.
-nsISHistory
-)
-.
 reloadCurrentEntry
 (
 )
