@@ -355,6 +355,9 @@ endif
 dfiff
 .
 h
+ffi
+.
+h
 fusion
 /
 reactor
