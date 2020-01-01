@@ -552,7 +552,7 @@ aExtraForgetSkippableCalls
 =
 0
 bool
-aForced
+aManuallyTriggered
 =
 true
 )

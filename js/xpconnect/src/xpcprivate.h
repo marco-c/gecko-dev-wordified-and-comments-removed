@@ -1768,6 +1768,12 @@ GetParticipant
 )
 ;
 virtual
+bool
+UsefulToMergeZones
+(
+)
+;
+virtual
 void
 FixWeakMappingGrayBits
 (

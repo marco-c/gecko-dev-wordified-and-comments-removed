@@ -66,6 +66,14 @@ FixWeakMappingGrayBits
 ;
 virtual
 bool
+UsefulToMergeZones
+(
+)
+=
+0
+;
+virtual
+bool
 NeedCollect
 (
 )
