@@ -136,13 +136,7 @@ users
 .
 #
 Bug
-848395
-resulted
-in
-Windows
-test
-failures
-when
-landed
-without
+847120
+needs
+a
 clobber
