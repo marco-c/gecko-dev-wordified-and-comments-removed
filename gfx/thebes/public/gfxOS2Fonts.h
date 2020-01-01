@@ -185,6 +185,9 @@ Metrics
 *
 mMetrics
 ;
+gfxFloat
+mAdjustedSize
+;
 PRUint32
 mSpaceGlyph
 ;
