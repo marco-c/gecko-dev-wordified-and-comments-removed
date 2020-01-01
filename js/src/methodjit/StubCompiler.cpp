@@ -647,6 +647,8 @@ void
 ptr
 RejoinState
 rejoin
+Uses
+uses
 )
 {
 return
@@ -654,6 +656,7 @@ emitStubCall
 (
 ptr
 rejoin
+uses
 frame
 .
 totalDepth
@@ -679,6 +682,8 @@ void
 ptr
 RejoinState
 rejoin
+Uses
+uses
 int32
 slots
 )
@@ -899,6 +904,7 @@ callSites
 length
 (
 )
+uses
 )
 ;
 }

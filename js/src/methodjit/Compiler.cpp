@@ -22817,6 +22817,8 @@ void
 stub
 RejoinState
 rejoin
+Uses
+uses
 )
 {
 DataLabelPtr
@@ -22901,6 +22903,7 @@ callSites
 length
 (
 )
+uses
 )
 ;
 }
