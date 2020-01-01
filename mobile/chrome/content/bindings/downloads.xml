@@ -1539,6 +1539,13 @@ downloadFailed
 label
 ;
 "
+xbl
+:
+inherits
+=
+"
+state
+"
 /
 >
 <
