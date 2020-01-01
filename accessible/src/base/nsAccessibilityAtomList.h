@@ -1403,6 +1403,13 @@ defaultLabel
 )
 ACCESSIBILITY_ATOM
 (
+mozeditorbogusnode
+"
+_moz_editor_bogus_node
+"
+)
+ACCESSIBILITY_ATOM
+(
 tableCellIndex
 "
 table
