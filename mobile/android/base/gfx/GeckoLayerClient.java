@@ -32,6 +32,15 @@ mozilla
 .
 gecko
 .
+ScreenshotHandler
+;
+import
+org
+.
+mozilla
+.
+gecko
+.
 Tab
 ;
 import
@@ -1697,7 +1706,7 @@ resetCheckerboard
 (
 )
 ;
-GeckoAppShell
+ScreenshotHandler
 .
 screenshotWholePage
 (

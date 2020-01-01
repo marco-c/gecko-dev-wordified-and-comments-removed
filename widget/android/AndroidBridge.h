@@ -1827,9 +1827,6 @@ jmethodID
 jNotifyIMEChange
 ;
 jmethodID
-jNotifyScreenShot
-;
-jmethodID
 jAcknowledgeEventSync
 ;
 jmethodID
@@ -2007,9 +2004,6 @@ jmethodID
 jDestroySurface
 ;
 jmethodID
-jNotifyPaintedRect
-;
-jmethodID
 jNumberOfMessages
 ;
 jmethodID
@@ -2068,6 +2062,15 @@ jRegisterSurfaceTextureFrameListener
 ;
 jmethodID
 jUnregisterSurfaceTextureFrameListener
+;
+jclass
+jScreenshotHandlerClass
+;
+jmethodID
+jNotifyScreenShot
+;
+jmethodID
+jNotifyPaintedRect
 ;
 jmethodID
 jGetGfxInfoData

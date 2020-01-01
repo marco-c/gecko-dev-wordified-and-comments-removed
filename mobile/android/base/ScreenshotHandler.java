@@ -138,6 +138,8 @@ util
 .
 Queue
 ;
+public
+final
 class
 ScreenshotHandler
 implements
