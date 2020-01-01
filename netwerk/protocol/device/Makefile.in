@@ -81,9 +81,6 @@ mk
 LIBRARY_NAME
 =
 nkdevice_s
-FORCE_STATIC_LIB
-=
-1
 LIBXUL_LIBRARY
 =
 1

@@ -83,9 +83,6 @@ dom_icc_s
 LIBXUL_LIBRARY
 =
 1
-FORCE_STATIC_LIB
-=
-1
 FAIL_ON_WARNINGS
 :
 =
