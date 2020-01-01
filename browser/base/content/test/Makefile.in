@@ -1002,7 +1002,7 @@ browser_visibleTabs_bookmarkAllPages
 .
 js
 \
-browser_visibleTabs_bookmarkAllTabs
+browser_visibleTabs_tabPreview
 .
 js
 \
