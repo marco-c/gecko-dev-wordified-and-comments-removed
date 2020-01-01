@@ -1036,7 +1036,7 @@ base
 )
 ;
 RegisterID
-reg
+dreg
 =
 allocReg
 (
@@ -1052,7 +1052,7 @@ masm
 loadPayload
 (
 address
-reg
+dreg
 )
 ;
 fe
@@ -1062,7 +1062,7 @@ data
 .
 setRegister
 (
-reg
+dreg
 )
 ;
 if
@@ -1078,7 +1078,8 @@ address
 base
 )
 ;
-reg
+RegisterID
+treg
 =
 allocReg
 (
@@ -1094,7 +1095,7 @@ masm
 loadTypeTag
 (
 address
-reg
+treg
 )
 ;
 fe
@@ -1104,7 +1105,7 @@ type
 .
 setRegister
 (
-reg
+treg
 )
 ;
 }
