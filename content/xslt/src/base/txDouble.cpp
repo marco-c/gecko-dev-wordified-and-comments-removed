@@ -79,7 +79,7 @@ DOUBLE_HI32_EXPMASK
 }
 ;
 const
-txdpun
+dpun
 Double
 :
 :
