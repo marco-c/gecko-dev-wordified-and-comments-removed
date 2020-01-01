@@ -512,6 +512,13 @@ h
 #
 include
 "
+nsGkAtoms
+.
+h
+"
+#
+include
+"
 nsIFrame
 .
 h
@@ -6009,7 +6016,10 @@ nsAutoPlaceHolderBatch
 batch
 (
 this
-gTypingTxnName
+nsGkAtoms
+:
+:
+TypingTxnName
 )
 ;
 switch

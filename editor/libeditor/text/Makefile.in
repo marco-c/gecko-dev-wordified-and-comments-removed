@@ -533,6 +533,7 @@ mk
 INCLUDES
 +
 =
+\
 -
 I
 (
@@ -544,3 +545,19 @@ editor
 libeditor
 /
 base
+\
+-
+I
+(
+topsrcdir
+)
+/
+content
+/
+base
+/
+src
+\
+(
+NULL
+)
