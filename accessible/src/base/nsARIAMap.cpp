@@ -212,7 +212,7 @@ eNoLiveAttr
 eTableCell
 kNoReqStates
 eARIASelectable
-eARIAReadonly
+eARIAReadonlyOrEditableIfDefined
 }
 {
 &
@@ -802,7 +802,7 @@ eNoLiveAttr
 eTableCell
 kNoReqStates
 eARIASelectable
-eARIAReadonly
+eARIAReadonlyOrEditableIfDefined
 }
 {
 &
