@@ -105,6 +105,8 @@ newBaseValue
 DOMSVGPathSegList
 *
 animValWrapper
+=
+nsnull
 ;
 if
 (
