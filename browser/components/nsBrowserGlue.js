@@ -1499,12 +1499,6 @@ applyCustomizations
 (
 )
 ;
-this
-.
-_migrateUI
-(
-)
-;
 }
 _onProfileShutdown
 :
