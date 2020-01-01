@@ -5832,7 +5832,10 @@ return
 true
 ;
 }
+JS_FRIEND_API
+(
 bool
+)
 js
 :
 :
