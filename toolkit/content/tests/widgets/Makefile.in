@@ -433,16 +433,6 @@ config
 rules
 .
 mk
-#
-disabled
-see
-bug
-506038
-#
-test_tooltip
-.
-xul
-\
 _TEST_FILES
 =
 test_bug360220
@@ -549,7 +539,7 @@ window_popup_attribute
 .
 xul
 \
-window_tooltip
+test_tooltip
 .
 xul
 \
