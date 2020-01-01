@@ -461,7 +461,15 @@ nsIDOMDocument
 *
 *
 *
-deprecated
+DEPRECATED
+!
+Don
+'
+t
+use
+this
+interface
+!
 Use
 nsIXSLTProcessor
 instead
@@ -470,7 +478,6 @@ instead
 *
 /
 [
-deprecated
 scriptable
 uuid
 (

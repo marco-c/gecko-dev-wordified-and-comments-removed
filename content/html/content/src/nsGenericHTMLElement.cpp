@@ -6604,6 +6604,7 @@ aResult
 ParseSpecialIntValue
 (
 aString
+PR_TRUE
 )
 ;
 }

@@ -717,6 +717,8 @@ const
 nsAString
 &
 aString
+PRBool
+aCanBePercent
 )
 ;
 PRBool

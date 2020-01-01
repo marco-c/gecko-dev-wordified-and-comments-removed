@@ -10808,6 +10808,7 @@ aResult
 ParseSpecialIntValue
 (
 aValue
+PR_TRUE
 )
 ;
 }
@@ -10828,6 +10829,7 @@ aResult
 ParseSpecialIntValue
 (
 aValue
+PR_TRUE
 )
 ;
 }
