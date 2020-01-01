@@ -19040,6 +19040,12 @@ return
 NULL
 )
 ;
+assertSameCompartment
+(
+cx
+v
+)
+;
 if
 (
 v
