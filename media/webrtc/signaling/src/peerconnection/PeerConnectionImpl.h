@@ -1392,6 +1392,9 @@ string
 >
 mSDPParseErrorMessages
 ;
+bool
+mTrickle
+;
 public
 :
 unsigned
