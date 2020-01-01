@@ -2258,11 +2258,8 @@ null
 }
 mAboutHome
 .
-setPadding
+setTopPadding
 (
-0
-0
-0
 0
 )
 ;
@@ -3664,12 +3661,9 @@ isDynamicToolbarEnabled
 {
 mAboutHome
 .
-setPadding
+setTopPadding
 (
-0
 height
-0
-0
 )
 ;
 }
