@@ -123,6 +123,13 @@ header
 >
 lastChunkSize
 ;
+windowBits
+=
+header
+-
+>
+windowBits
+;
 offsetTable
 .
 Init
@@ -511,10 +518,11 @@ where
 ;
 if
 (
-inflateInit
+inflateInit2
 (
 &
 zStream
+windowBits
 )
 !
 =
