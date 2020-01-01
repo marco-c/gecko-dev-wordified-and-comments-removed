@@ -1572,6 +1572,12 @@ nsnull
 status
 )
 ;
+aVisitor
+.
+mEventStatus
+=
+nsEventStatus_eConsumeNoDefault
+;
 }
 }
 break
@@ -2043,6 +2049,12 @@ event
 &
 status
 )
+;
+aVisitor
+.
+mEventStatus
+=
+nsEventStatus_eConsumeNoDefault
 ;
 }
 }
