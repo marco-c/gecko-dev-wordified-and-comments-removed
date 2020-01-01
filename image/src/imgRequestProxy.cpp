@@ -849,6 +849,10 @@ aStatus
 if
 (
 mCanceled
+&
+&
+!
+mListener
 )
 return
 NS_ERROR_FAILURE
