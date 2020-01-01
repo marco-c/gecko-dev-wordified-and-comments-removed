@@ -140,6 +140,12 @@ nsStyleSet
 (
 )
 ;
+size_t
+SizeOf
+(
+)
+const
+;
 nsresult
 Init
 (
