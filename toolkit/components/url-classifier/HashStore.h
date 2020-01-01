@@ -565,6 +565,11 @@ WriteFile
 (
 )
 ;
+void
+ClearCompletes
+(
+)
+;
 private
 :
 nsresult
