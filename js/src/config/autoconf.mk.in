@@ -1284,12 +1284,6 @@ mapfiles
 MOZ_MAPINFO
 =
 MOZ_MAPINFO
-WINCE
-=
-WINCE
-WINCE_WINDOWS_MOBILE
-=
-WINCE_WINDOWS_MOBILE
 QEMU_CANT_RUN_JS_SHELL
 =
 QEMU_CANT_RUN_JS_SHELL
@@ -1358,15 +1352,9 @@ cope
 ifeq
 (
 (
-filter
--
-out
-WINNT
-WINCE
-(
 HOST_OS_ARCH
 )
-)
+WINNT
 )
 #
 Ensure
@@ -1535,4 +1523,4 @@ _Pymake
 endif
 endif
 #
-Windows
+WINNT

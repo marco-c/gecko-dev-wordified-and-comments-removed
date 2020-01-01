@@ -416,7 +416,6 @@ ifneq
 (
 filter
 OS2
-WINCE
 WINNT
 (
 OS_ARCH
