@@ -27470,6 +27470,17 @@ if
 (
 d2d
 )
+random
+-
+if
+(
+Android
+&
+&
+AndroidVersion
+<
+15
+)
 =
 =
 759036
