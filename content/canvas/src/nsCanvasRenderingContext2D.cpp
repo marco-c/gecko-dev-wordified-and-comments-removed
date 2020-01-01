@@ -8744,7 +8744,7 @@ float
 startAngle
 float
 endAngle
-int
+PRBool
 ccw
 )
 {

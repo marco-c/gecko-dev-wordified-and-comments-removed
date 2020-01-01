@@ -1188,9 +1188,12 @@ startAngle
 in
 float
 endAngle
+[
+optional
+]
 in
 boolean
-clockwise
+anticlockwise
 )
 ;
 void
