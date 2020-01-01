@@ -324,12 +324,6 @@ nsIURI
 >
 mDomain
 ;
-nsCOMPtr
-<
-nsIURI
->
-mOrigin
-;
 PRPackedBool
 mTrusted
 ;
