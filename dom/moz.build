@@ -311,6 +311,9 @@ promise
 '
 wappush
 '
+'
+inputmethod
+'
 ]
 if
 CONFIG

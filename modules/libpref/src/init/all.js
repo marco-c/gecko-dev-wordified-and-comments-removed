@@ -38806,3 +38806,15 @@ true
 ;
 #
 endif
+pref
+(
+"
+dom
+.
+mozInputMethod
+.
+enabled
+"
+false
+)
+;

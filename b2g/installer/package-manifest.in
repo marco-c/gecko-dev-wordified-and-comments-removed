@@ -1150,6 +1150,13 @@ BINPATH
 /
 components
 /
+dom_inputmethod
+.
+xpt
+BINPATH
+/
+components
+/
 downloads
 .
 xpt

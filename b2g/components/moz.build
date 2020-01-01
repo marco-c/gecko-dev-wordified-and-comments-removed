@@ -156,11 +156,6 @@ MailtoProtocolHandler
 js
 '
 '
-MozKeyboard
-.
-js
-'
-'
 PaymentGlue
 .
 js
@@ -230,11 +225,6 @@ EXTRA_JS_MODULES
 [
 '
 ErrorPage
-.
-jsm
-'
-'
-Keyboard
 .
 jsm
 '
