@@ -635,6 +635,11 @@ text
 -
 link
 "
+flex
+=
+"
+1
+"
 onclick
 =
 "
@@ -647,6 +652,11 @@ event
 )
 ;
 "
+crop
+=
+"
+end
+"
 /
 >
 <
@@ -656,7 +666,7 @@ spacer
 flex
 =
 "
-1
+10000
 "
 /
 >
