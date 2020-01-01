@@ -716,6 +716,16 @@ aFrame
 )
 ;
 static
+nsBlockFrame
+*
+GetAsBlock
+(
+nsIFrame
+*
+aFrame
+)
+;
+static
 nsIFrame
 *
 GetParentOrPlaceholderFor
