@@ -153,7 +153,7 @@ txDecimalFormat
 (
 )
 ;
-MBool
+bool
 isEqual
 (
 txDecimalFormat

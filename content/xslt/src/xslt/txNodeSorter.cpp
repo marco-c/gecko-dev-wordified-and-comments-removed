@@ -177,10 +177,10 @@ mExpr
 =
 aSelectExpr
 ;
-MBool
+bool
 ascending
 =
-MB_TRUE
+true
 ;
 if
 (
@@ -221,7 +221,7 @@ descending
 {
 ascending
 =
-MB_FALSE
+false
 ;
 }
 else
@@ -311,7 +311,7 @@ rv
 )
 ;
 }
-MBool
+bool
 upperFirst
 =
 false

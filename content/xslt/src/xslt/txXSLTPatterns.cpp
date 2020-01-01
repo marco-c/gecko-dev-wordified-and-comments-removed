@@ -89,7 +89,7 @@ Double
 NaN
 ;
 }
-MBool
+bool
 txUnionPattern
 :
 :
@@ -145,12 +145,12 @@ aContext
 )
 {
 return
-MB_TRUE
+true
 ;
 }
 }
 return
-MB_FALSE
+false
 ;
 }
 txPattern
@@ -376,7 +376,7 @@ return
 NS_OK
 ;
 }
-MBool
+bool
 txLocPathPattern
 :
 :
@@ -443,7 +443,7 @@ aContext
 )
 )
 return
-MB_FALSE
+false
 ;
 txXPathTreeWalker
 walker
@@ -474,7 +474,7 @@ if
 pos
 )
 return
-MB_TRUE
+true
 ;
 step
 =
@@ -510,7 +510,7 @@ aContext
 )
 )
 return
-MB_FALSE
+false
 ;
 hasParent
 =
@@ -543,7 +543,7 @@ if
 hasParent
 )
 return
-MB_FALSE
+false
 ;
 step
 =
@@ -629,7 +629,7 @@ walker
 }
 }
 return
-MB_TRUE
+true
 ;
 }
 double
@@ -880,7 +880,7 @@ endif
 }
 #
 endif
-MBool
+bool
 txRootPattern
 :
 :
@@ -1042,7 +1042,7 @@ atom
 ;
 }
 }
-MBool
+bool
 txIdPattern
 :
 :
@@ -1298,7 +1298,7 @@ endif
 }
 #
 endif
-MBool
+bool
 txKeyPattern
 :
 :
@@ -1553,7 +1553,7 @@ endif
 }
 #
 endif
-MBool
+bool
 txStepPattern
 :
 :
@@ -1590,7 +1590,7 @@ aContext
 )
 )
 return
-MB_FALSE
+false
 ;
 txXPathTreeWalker
 walker
@@ -1628,7 +1628,7 @@ moveToParent
 )
 {
 return
-MB_FALSE
+false
 ;
 }
 if
@@ -1639,7 +1639,7 @@ isEmpty
 )
 {
 return
-MB_TRUE
+true
 ;
 }
 nsRefPtr
@@ -1670,7 +1670,7 @@ nodes
 NS_ENSURE_SUCCESS
 (
 rv
-MB_FALSE
+false
 )
 ;
 bool
@@ -1777,7 +1777,7 @@ newNodes
 NS_ENSURE_SUCCESS
 (
 rv
-MB_FALSE
+false
 )
 ;
 PRUint32
@@ -1812,10 +1812,10 @@ clear
 (
 )
 ;
-MBool
+bool
 contextIsInPredicate
 =
-MB_FALSE
+false
 ;
 txNodeSetContext
 predContext
@@ -1922,7 +1922,7 @@ aNode
 )
 contextIsInPredicate
 =
-MB_TRUE
+true
 ;
 newNodes
 -
@@ -1967,7 +1967,7 @@ aNode
 )
 contextIsInPredicate
 =
-MB_TRUE
+true
 ;
 newNodes
 -
@@ -2005,7 +2005,7 @@ contextIsInPredicate
 )
 {
 return
-MB_FALSE
+false
 ;
 }
 predicate

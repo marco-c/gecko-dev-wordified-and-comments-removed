@@ -94,7 +94,7 @@ return
 mValue
 ;
 }
-MBool
+bool
 StringResult
 :
 :

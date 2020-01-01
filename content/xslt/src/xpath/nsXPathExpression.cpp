@@ -702,7 +702,7 @@ return
 NS_ERROR_INVALID_ARG
 ;
 }
-MBool
+bool
 nsXPathExpression
 :
 :
@@ -718,7 +718,7 @@ aNode
 )
 {
 return
-MB_FALSE
+false
 ;
 }
 void

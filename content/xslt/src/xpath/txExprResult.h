@@ -132,7 +132,7 @@ stringValuePointer
 0
 ;
 virtual
-MBool
+bool
 booleanValue
 (
 )
@@ -214,14 +214,14 @@ public
 :
 BooleanResult
 (
-MBool
+bool
 aValue
 )
 ;
 TX_DECL_EXPRRESULT
 private
 :
-MBool
+bool
 value
 ;
 }

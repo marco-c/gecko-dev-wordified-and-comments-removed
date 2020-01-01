@@ -469,7 +469,7 @@ nsIAtom
 aLocalName
 PRInt32
 aNSID
-MBool
+bool
 stripSpace
 )
 :
@@ -489,7 +489,7 @@ stripSpace
 )
 {
 }
-MBool
+bool
 matches
 (
 const
@@ -511,7 +511,7 @@ aContext
 )
 ;
 }
-MBool
+bool
 stripsSpace
 (
 )
@@ -538,7 +538,7 @@ protected
 txNameTest
 mNameTest
 ;
-MBool
+bool
 mStrips
 ;
 }

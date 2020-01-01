@@ -172,10 +172,10 @@ aResult
 =
 head
 ;
-MBool
+bool
 first
 =
-MB_TRUE
+true
 ;
 txListIterator
 valueIter
@@ -272,7 +272,7 @@ aResult
 ;
 first
 =
-MB_FALSE
+false
 ;
 }
 aResult
@@ -464,10 +464,10 @@ countPattern
 =
 aCountPattern
 ;
-MBool
+bool
 ownsCountPattern
 =
-MB_FALSE
+false
 ;
 const
 txXPathNode
@@ -489,7 +489,7 @@ aCountPattern
 {
 ownsCountPattern
 =
-MB_TRUE
+true
 ;
 txNodeTest
 *
@@ -708,7 +708,7 @@ new
 txStepPattern
 (
 nodeTest
-MB_FALSE
+false
 )
 ;
 if
@@ -894,10 +894,10 @@ walker
 currNode
 )
 ;
-MBool
+bool
 matchedFrom
 =
-MB_FALSE
+false
 ;
 do
 {
@@ -931,7 +931,7 @@ aContext
 {
 matchedFrom
 =
-MB_TRUE
+true
 ;
 break
 ;
@@ -1009,10 +1009,10 @@ value
 =
 0
 ;
-MBool
+bool
 matchedFrom
 =
-MB_FALSE
+false
 ;
 txXPathTreeWalker
 walker
@@ -1052,7 +1052,7 @@ aContext
 {
 matchedFrom
 =
-MB_TRUE
+true
 ;
 break
 ;
@@ -1782,7 +1782,7 @@ ch
 a
 )
 return
-MB_FALSE
+false
 ;
 \
 if
@@ -1793,7 +1793,7 @@ ch
 b
 )
 return
-MB_TRUE
+true
 #
 define
 TX_MATCH_CHAR
@@ -1808,7 +1808,7 @@ ch
 a
 )
 return
-MB_FALSE
+false
 ;
 \
 if
@@ -1819,8 +1819,8 @@ ch
 a
 )
 return
-MB_TRUE
-MBool
+true
+bool
 txXSLTNumber
 :
 :
@@ -3805,6 +3805,6 @@ ch
 )
 ;
 return
-MB_FALSE
+false
 ;
 }

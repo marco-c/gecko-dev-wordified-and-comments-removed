@@ -17,7 +17,7 @@ txXSLTProcessor
 public
 :
 static
-MBool
+bool
 init
 (
 )

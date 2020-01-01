@@ -657,7 +657,7 @@ currentItem
 ;
 atEndOfList
 =
-MB_FALSE
+false
 ;
 }
 nsresult
@@ -739,7 +739,7 @@ objPtr
 )
 ;
 }
-MBool
+bool
 txListIterator
 :
 :
@@ -747,10 +747,10 @@ hasNext
 (
 )
 {
-MBool
+bool
 hasNext
 =
-MB_FALSE
+false
 ;
 if
 (
@@ -790,7 +790,7 @@ return
 hasNext
 ;
 }
-MBool
+bool
 txListIterator
 :
 :
@@ -798,10 +798,10 @@ hasPrevious
 (
 )
 {
-MBool
+bool
 hasPrevious
 =
-MB_FALSE
+false
 ;
 if
 (
@@ -893,7 +893,7 @@ objPtr
 else
 atEndOfList
 =
-MB_TRUE
+true
 ;
 return
 obj
@@ -950,7 +950,7 @@ objPtr
 ;
 atEndOfList
 =
-MB_FALSE
+false
 ;
 return
 obj
@@ -1106,7 +1106,7 @@ prevItem
 ;
 atEndOfList
 =
-MB_FALSE
+false
 ;
 }
 if
@@ -1190,7 +1190,7 @@ reset
 {
 atEndOfList
 =
-MB_FALSE
+false
 ;
 currentItem
 =
@@ -1207,7 +1207,7 @@ resetToEnd
 {
 atEndOfList
 =
-MB_TRUE
+true
 ;
 currentItem
 =

@@ -1198,10 +1198,10 @@ rv
 =
 NS_OK
 ;
-MBool
+bool
 done
 =
-MB_FALSE
+false
 ;
 nsAutoPtr
 <

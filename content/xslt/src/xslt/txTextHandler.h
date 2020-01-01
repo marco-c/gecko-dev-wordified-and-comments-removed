@@ -28,7 +28,7 @@ public
 :
 txTextHandler
 (
-MBool
+bool
 aOnlyText
 )
 ;
@@ -41,7 +41,7 @@ private
 PRUint32
 mLevel
 ;
-MBool
+bool
 mOnlyText
 ;
 }

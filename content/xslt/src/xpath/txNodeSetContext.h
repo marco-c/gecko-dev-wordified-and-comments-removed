@@ -57,7 +57,7 @@ aContext
 )
 {
 }
-MBool
+bool
 hasNext
 (
 )

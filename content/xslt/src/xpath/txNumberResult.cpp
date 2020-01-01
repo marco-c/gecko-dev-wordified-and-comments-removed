@@ -77,7 +77,7 @@ return
 nsnull
 ;
 }
-MBool
+bool
 NumberResult
 :
 :
@@ -87,7 +87,7 @@ booleanValue
 {
 return
 (
-MBool
+bool
 )
 (
 value

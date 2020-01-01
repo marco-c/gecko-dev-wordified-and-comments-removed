@@ -84,9 +84,9 @@ txResultStringComparator
 :
 txResultStringComparator
 (
-MBool
+bool
 aAscending
-MBool
+bool
 aUpperFirst
 const
 nsAFlatString
@@ -959,7 +959,7 @@ txResultNumberComparator
 :
 txResultNumberComparator
 (
-MBool
+bool
 aAscending
 )
 {

@@ -221,7 +221,7 @@ init
 (
 formatQName
 mMappings
-MB_FALSE
+false
 )
 ;
 NS_ENSURE_SUCCESS
@@ -451,12 +451,12 @@ Length
 (
 )
 ;
-MBool
+bool
 inQuote
 ;
 inQuote
 =
-MB_FALSE
+false
 ;
 if
 (
@@ -553,7 +553,7 @@ Prefix
 ;
 inQuote
 =
-MB_FALSE
+false
 ;
 PRUnichar
 c
@@ -1249,7 +1249,7 @@ maxFractionSize
 -
 1
 ;
-MBool
+bool
 carry
 =
 (
@@ -1275,10 +1275,10 @@ i
 '
 )
 ;
-MBool
+bool
 hasFraction
 =
-MB_FALSE
+false
 ;
 PRUint32
 resPos
@@ -1382,7 +1382,7 @@ minFractionSize
 {
 hasFraction
 =
-MB_TRUE
+true
 ;
 res
 .
@@ -1827,7 +1827,7 @@ mPatternSeparator
 '
 ;
 }
-MBool
+bool
 txDecimalFormat
 :
 :

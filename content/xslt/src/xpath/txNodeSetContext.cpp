@@ -124,7 +124,7 @@ aResult
 )
 ;
 }
-MBool
+bool
 txNodeSetContext
 :
 :

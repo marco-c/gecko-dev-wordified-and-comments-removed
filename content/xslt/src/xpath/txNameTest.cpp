@@ -231,7 +231,7 @@ _asterix
 mPrefix
 )
 return
-MB_TRUE
+true
 ;
 if
 (
@@ -265,7 +265,7 @@ aNode
 )
 )
 return
-MB_FALSE
+false
 ;
 if
 (
@@ -278,7 +278,7 @@ nsGkAtoms
 _asterix
 )
 return
-MB_TRUE
+true
 ;
 return
 txXPathNodeUtils

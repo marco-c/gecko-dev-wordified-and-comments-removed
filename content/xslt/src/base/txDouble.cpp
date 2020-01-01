@@ -128,7 +128,7 @@ DOUBLE_HI32_SIGNBIT
 ;
 #
 endif
-MBool
+bool
 Double
 :
 :
@@ -162,7 +162,7 @@ aDbl
 )
 ;
 }
-MBool
+bool
 Double
 :
 :
@@ -179,7 +179,7 @@ aDbl
 )
 ;
 }
-MBool
+bool
 Double
 :
 :
