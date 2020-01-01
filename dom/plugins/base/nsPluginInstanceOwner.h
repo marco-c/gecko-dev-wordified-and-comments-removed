@@ -1119,8 +1119,10 @@ endif
 PRInt32
 mInCGPaintLevel
 ;
+nsRefPtr
+<
 nsIOSurface
-*
+>
 mIOSurface
 ;
 nsCARenderer

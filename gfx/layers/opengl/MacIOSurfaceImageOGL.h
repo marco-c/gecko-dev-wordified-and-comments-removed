@@ -92,7 +92,7 @@ mTexture
 gfxIntSize
 mSize
 ;
-nsAutoPtr
+nsRefPtr
 <
 nsIOSurface
 >

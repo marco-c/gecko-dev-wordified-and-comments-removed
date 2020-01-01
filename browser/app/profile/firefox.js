@@ -4299,7 +4299,7 @@ plugins
 .
 use_layers
 "
-false
+true
 )
 ;
 pref

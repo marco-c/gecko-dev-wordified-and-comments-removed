@@ -545,6 +545,10 @@ PluginInstanceParent
 .
 h
 \
+PluginUtilsOSX
+.
+h
+\
 AStream
 .
 h
