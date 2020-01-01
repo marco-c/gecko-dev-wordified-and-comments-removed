@@ -581,6 +581,8 @@ true
 "
 >
 <
+Gecko
+.
 Button
 android
 :
@@ -608,7 +610,7 @@ background
 "
 drawable
 /
-address_bar_url_level
+address_bar_url
 "
 /
 >
@@ -794,6 +796,8 @@ gone
 /
 >
 <
+Gecko
+.
 TextView
 android
 :
@@ -856,8 +860,18 @@ android
 textColor
 =
 "
-#
-222222
+color
+/
+awesome_bar_title
+"
+android
+:
+textColorHint
+=
+"
+color
+/
+awesome_bar_title_hint
 "
 android
 :

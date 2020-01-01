@@ -565,6 +565,8 @@ true
 "
 >
 <
+Gecko
+.
 RelativeLayout
 android
 :
@@ -608,6 +610,8 @@ true
 "
 >
 <
+Gecko
+.
 ImageView
 style
 =
@@ -762,6 +766,8 @@ true
 "
 >
 <
+Gecko
+.
 ImageView
 android
 :
@@ -830,6 +836,8 @@ view
 >
 <
 /
+Gecko
+.
 RelativeLayout
 >
 <
@@ -1184,6 +1192,8 @@ gone
 /
 >
 <
+Gecko
+.
 TextView
 android
 :
@@ -1246,8 +1256,18 @@ android
 textColor
 =
 "
-#
-222222
+color
+/
+awesome_bar_title
+"
+android
+:
+textColorHint
+=
+"
+color
+/
+awesome_bar_title_hint
 "
 android
 :
