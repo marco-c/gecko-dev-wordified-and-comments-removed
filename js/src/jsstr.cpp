@@ -15735,8 +15735,10 @@ return
 true
 ;
 }
-static
 JSBool
+js
+:
+:
 str_fromCharCode
 (
 JSContext
@@ -16080,6 +16082,9 @@ JS_TN
 "
 fromCharCode
 "
+js
+:
+:
 str_fromCharCode
 1
 0
