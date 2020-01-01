@@ -1860,6 +1860,13 @@ TextPaint
 (
 )
 ;
+emptyTp
+.
+setColor
+(
+0
+)
+;
 do
 {
 int
