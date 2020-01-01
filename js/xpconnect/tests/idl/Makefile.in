@@ -99,16 +99,8 @@ libs
 :
 :
 (
-DEPTH
+XPIDL_GEN_DIR
 )
-/
-config
-/
-makefiles
-/
-xpidl
-/
-xpt
 /
 (
 MODULE

@@ -98,8 +98,6 @@ XPIDL_SOURCES
 =
 [
 '
-gonk
-/
 nsIRecoveryService
 .
 idl

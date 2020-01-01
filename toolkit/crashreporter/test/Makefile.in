@@ -135,6 +135,12 @@ LOCAL_INCLUDES
 -
 I
 (
+XPIDL_GEN_DIR
+)
+\
+-
+I
+(
 srcdir
 )
 /
