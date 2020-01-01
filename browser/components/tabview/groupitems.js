@@ -11513,6 +11513,7 @@ function
 GroupItems_updateActiveGroupItemAndTabBar
 (
 tabItem
+options
 )
 {
 Utils
@@ -11539,6 +11540,7 @@ UI
 setActive
 (
 tabItem
+options
 )
 ;
 this

@@ -1517,6 +1517,17 @@ item
 parent
 )
 ;
+if
+(
+!
+options
+|
+|
+!
+options
+.
+dontSetActiveTabInGroup
+)
 this
 .
 _setActiveTab
