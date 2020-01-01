@@ -21,7 +21,7 @@ MINIMUM_PYTHON_MAJOR
 2
 MINIMUM_PYTHON_MINOR
 =
-5
+6
 class
 VirtualenvManager
 (
