@@ -7026,11 +7026,8 @@ result
 )
 ;
 }
-#
-if
-0
 OSErr
-FSVolumeMount
+MFX_FSVolumeMount
 (
 const
 void
@@ -7103,8 +7100,6 @@ result
 )
 ;
 }
-#
-endif
 OSErr
 FSMapID
 (

@@ -2499,11 +2499,8 @@ volMountInfo
 pragma
 mark
 FSVolumeMount
-#
-if
-0
 OSErr
-FSVolumeMount
+MFX_FSVolumeMount
 (
 const
 void
@@ -2514,8 +2511,6 @@ FSVolumeRefNum
 volRefNum
 )
 ;
-#
-endif
 #
 pragma
 mark
