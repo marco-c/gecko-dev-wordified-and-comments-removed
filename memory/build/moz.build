@@ -126,12 +126,12 @@ EXPORTS
 =
 [
 '
-replace_malloc
+malloc_decls
 .
 h
 '
 '
-malloc_decls
+replace_malloc
 .
 h
 '
