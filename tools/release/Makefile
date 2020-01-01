@@ -424,7 +424,7 @@ chmod
 R
 g
 +
-rwxs
+rwx
 /
 home
 /
