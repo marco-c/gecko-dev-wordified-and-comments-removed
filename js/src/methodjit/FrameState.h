@@ -2140,6 +2140,15 @@ FrameEntry
 callStart
 )
 ;
+Registers
+getTemporaryCallRegisters
+(
+FrameEntry
+*
+callStart
+)
+const
+;
 private
 :
 inline

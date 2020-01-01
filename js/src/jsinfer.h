@@ -698,6 +698,17 @@ char
 name
 )
 ;
+void
+addFreeze
+(
+JSContext
+*
+cx
+JSScript
+*
+script
+)
+;
 JSValueType
 getKnownTypeTag
 (

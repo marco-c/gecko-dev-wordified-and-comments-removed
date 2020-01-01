@@ -1546,10 +1546,16 @@ returnRegister
 Registers
 returnParentRegs
 ;
+Registers
+temporaryParentRegs
+;
 Vector
 <
 Jump
+4
+CompilerAllocPolicy
 >
+*
 returnJumps
 ;
 ActiveFrame
