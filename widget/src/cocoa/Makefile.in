@@ -564,6 +564,10 @@ nsAccelerometerX
 .
 mm
 \
+nsCocoaTextInputHandler
+.
+mm
+\
 (
 NULL
 )
