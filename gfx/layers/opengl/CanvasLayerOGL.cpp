@@ -1360,15 +1360,12 @@ program
 mOGLManager
 -
 >
-GetBasicLayerProgram
+GetColorTextureLayerProgram
 (
-CanUseOpaqueSurface
-(
-)
 mTexImage
 -
 >
-IsRGB
+GetShaderProgramType
 (
 )
 )

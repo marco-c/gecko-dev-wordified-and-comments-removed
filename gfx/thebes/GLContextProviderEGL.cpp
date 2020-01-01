@@ -4116,6 +4116,10 @@ height
 )
 ;
 }
+mShaderType
+=
+BGRALayerProgramType
+;
 }
 virtual
 ~
