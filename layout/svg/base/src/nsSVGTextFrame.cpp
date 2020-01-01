@@ -744,6 +744,8 @@ const
 gfxMatrix
 &
 aToBBoxUserspace
+PRUint32
+aFlags
 )
 {
 UpdateGlyphPositioning
@@ -758,6 +760,7 @@ nsSVGTextFrameBase
 GetBBoxContribution
 (
 aToBBoxUserspace
+aFlags
 )
 ;
 }

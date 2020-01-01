@@ -6827,6 +6827,8 @@ GetBBox
 nsIFrame
 *
 aFrame
+PRUint32
+aFlags
 )
 {
 if
@@ -6936,6 +6938,7 @@ GetBBoxContribution
 gfxMatrix
 (
 )
+aFlags
 )
 ;
 }

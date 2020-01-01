@@ -975,6 +975,8 @@ const
 gfxMatrix
 &
 aToBBoxUserspace
+PRUint32
+aFlags
 )
 {
 gfxRect
@@ -1092,6 +1094,7 @@ svgKid
 GetBBoxContribution
 (
 transform
+aFlags
 )
 )
 ;

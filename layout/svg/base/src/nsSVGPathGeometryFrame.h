@@ -228,6 +228,8 @@ const
 gfxMatrix
 &
 aToBBoxUserspace
+PRUint32
+aFlags
 )
 ;
 NS_IMETHOD_
