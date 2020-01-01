@@ -157,7 +157,10 @@ duration
 ;
 public
 :
+nsAutoPtr
+<
 nsMediaStream
+>
 mStream
 ;
 PRInt64
