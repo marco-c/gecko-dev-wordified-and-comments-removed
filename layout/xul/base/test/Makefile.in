@@ -463,6 +463,10 @@ test_stack
 .
 xul
 \
+test_splitter
+.
+xul
+\
 (
 NULL
 )
