@@ -1738,9 +1738,16 @@ actor
 }
 if
 (
-!
 streamDestroyed
 )
+{
+*
+result
+=
+NPERR_GENERIC_ERROR
+;
+}
+else
 {
 static_cast
 <
