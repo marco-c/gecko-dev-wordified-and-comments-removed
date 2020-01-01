@@ -460,8 +460,6 @@ PBrowser
 ;
 include
 "
-nspr
-/
 prtime
 .
 h
