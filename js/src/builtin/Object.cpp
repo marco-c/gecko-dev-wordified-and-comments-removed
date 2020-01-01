@@ -1149,7 +1149,7 @@ RootedString
 valstr
 (
 cx
-js_ValueToSource
+ValueToSource
 (
 cx
 val

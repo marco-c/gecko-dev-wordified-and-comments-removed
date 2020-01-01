@@ -26160,7 +26160,7 @@ pc
 ;
 str
 =
-js_ValueToSource
+ValueToSource
 (
 cx
 ObjectValue
@@ -32109,7 +32109,7 @@ JSString
 *
 str
 =
-js_ValueToSource
+ValueToSource
 (
 cx
 ObjectValue
@@ -33231,7 +33231,7 @@ js_undefined_str
 ;
 fallback
 =
-js_ValueToSource
+ValueToSource
 (
 cx
 v
@@ -33668,7 +33668,7 @@ RootedString
 fallback
 (
 cx
-js_ValueToSource
+ValueToSource
 (
 cx
 v
@@ -35512,7 +35512,7 @@ str
 (
 str
 =
-JS_ValueToSource
+ValueToSource
 (
 cx
 StringValue
@@ -35598,7 +35598,7 @@ if
 (
 str
 =
-JS_ValueToSource
+ValueToSource
 (
 cx
 StringValue
@@ -36403,7 +36403,7 @@ str
 (
 str
 =
-JS_ValueToSource
+ValueToSource
 (
 cx
 StringValue
@@ -36803,7 +36803,7 @@ str
 (
 str
 =
-JS_ValueToSource
+ValueToSource
 (
 cx
 StringValue
@@ -37260,7 +37260,7 @@ str
 (
 str
 =
-JS_ValueToSource
+ValueToSource
 (
 cx
 StringValue

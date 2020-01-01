@@ -541,13 +541,13 @@ sb
 )
 ;
 }
+namespace
+js
+{
 extern
-JS_FRIEND_API
-(
 JSString
 *
-)
-js_ValueToSource
+ValueToSource
 (
 JSContext
 *
@@ -561,9 +561,6 @@ Value
 v
 )
 ;
-namespace
-js
-{
 extern
 bool
 EqualStrings

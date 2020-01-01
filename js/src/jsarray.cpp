@@ -2982,7 +2982,7 @@ else
 {
 str
 =
-js_ValueToSource
+ValueToSource
 (
 cx
 elt

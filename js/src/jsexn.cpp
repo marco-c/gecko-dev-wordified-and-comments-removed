@@ -3672,7 +3672,7 @@ messageVal
 (
 message
 =
-js_ValueToSource
+ValueToSource
 (
 cx
 messageVal
@@ -3724,7 +3724,7 @@ filenameVal
 (
 filename
 =
-js_ValueToSource
+ValueToSource
 (
 cx
 filenameVal
