@@ -868,6 +868,12 @@ finish
 (
 )
 ;
+overridePendingTransition
+(
+0
+0
+)
+;
 }
 Override
 public
