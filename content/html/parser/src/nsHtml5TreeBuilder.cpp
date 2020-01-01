@@ -456,8 +456,6 @@ needToDropLF
 =
 PR_FALSE
 ;
-doctypeloop
-:
 for
 (
 ;
@@ -636,8 +634,6 @@ needToDropLF
 =
 PR_FALSE
 ;
-commentloop
-:
 for
 (
 ;
@@ -834,8 +830,6 @@ start
 +
 length
 ;
-charactersloop
-:
 for
 (
 PRInt32
@@ -1605,8 +1599,6 @@ default
 :
 ;
 }
-eofloop
-:
 for
 (
 ;
@@ -2438,8 +2430,6 @@ default
 case
 NS_HTML5TREE_BUILDER_IN_TABLE
 :
-intableloop
-:
 for
 (
 ;
@@ -2908,8 +2898,6 @@ default
 }
 case
 NS_HTML5TREE_BUILDER_IN_BODY
-:
-inbodyloop
 :
 for
 (
@@ -4166,8 +4154,6 @@ option
 NS_HTML5TREE_BUILDER_NOT_FOUND_ON_STACK
 )
 {
-optionendtagloop
-:
 for
 (
 ;
@@ -4508,8 +4494,6 @@ inbodyloop_end
 ;
 case
 NS_HTML5TREE_BUILDER_IN_HEAD
-:
-inheadloop
 :
 for
 (
@@ -5802,8 +5786,6 @@ newCharArrayFromString
 attributeValue
 )
 ;
-charsetloop
-:
 for
 (
 PRInt32
@@ -6504,8 +6486,6 @@ PR_FALSE
 PRInt32
 eltPos
 ;
-endtagloop
-:
 for
 (
 ;
