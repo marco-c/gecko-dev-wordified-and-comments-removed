@@ -368,13 +368,6 @@ h
 #
 include
 "
-nsIDOMApplicationRegistry
-.
-h
-"
-#
-include
-"
 nsIIdleObserver
 .
 h
@@ -3593,6 +3586,10 @@ nsDOMWindowUtils
 friend
 class
 PostMessageEvent
+;
+friend
+class
+nsDOMDesktopNotification
 ;
 static
 WindowByIdTable
