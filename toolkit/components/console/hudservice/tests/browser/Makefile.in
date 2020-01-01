@@ -508,6 +508,10 @@ browser_webconsole_consoleonpage
 .
 js
 \
+browser_webconsole_chrome
+.
+js
+\
 browser_webconsole_display_accessors
 .
 js
