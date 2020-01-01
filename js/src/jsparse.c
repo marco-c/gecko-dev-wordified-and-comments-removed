@@ -14793,6 +14793,15 @@ stmt
 type
 =
 =
+STMT_SWITCH
+|
+|
+stmt
+-
+>
+type
+=
+=
 STMT_TRY
 |
 |
