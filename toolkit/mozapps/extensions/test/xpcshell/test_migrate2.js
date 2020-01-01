@@ -991,9 +991,9 @@ finalize
 ;
 db
 .
-schemaVersion
-=
-100
+close
+(
+)
 ;
 Services
 .
@@ -1007,12 +1007,6 @@ extensions
 databaseSchema
 "
 100
-)
-;
-db
-.
-close
-(
 )
 ;
 startupManager
