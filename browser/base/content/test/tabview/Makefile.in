@@ -508,6 +508,10 @@ browser_tabview_orphaned_tabs
 .
 js
 \
+browser_tabview_privatebrowsing
+.
+js
+\
 browser_tabview_search
 .
 js
