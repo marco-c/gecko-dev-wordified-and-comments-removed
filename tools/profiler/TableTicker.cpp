@@ -2499,6 +2499,9 @@ void
 aPC
 void
 *
+aSP
+void
+*
 aClosure
 )
 {
@@ -2610,6 +2613,10 @@ aSample
 -
 >
 pc
+aSample
+-
+>
+sp
 &
 array
 )

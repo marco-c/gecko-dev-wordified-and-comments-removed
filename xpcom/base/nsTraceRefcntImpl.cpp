@@ -4687,6 +4687,9 @@ void
 aPC
 void
 *
+aSP
+void
+*
 aClosure
 )
 {
