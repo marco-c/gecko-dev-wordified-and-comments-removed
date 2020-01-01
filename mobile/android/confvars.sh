@@ -102,6 +102,12 @@ MOZ_SERVICES_SYNC
 MOZ_DISABLE_DOMCRYPTO
 =
 1
+#
+Enable
+getUserMedia
+MOZ_MEDIA_NAVIGATOR
+=
+1
 if
 test
 "
