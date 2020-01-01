@@ -1413,6 +1413,8 @@ mEndValues
 ;
 InfallibleTArray
 <
+nsAutoPtr
+<
 mozilla
 :
 :
@@ -1420,7 +1422,7 @@ css
 :
 :
 ComputedTimingFunction
-*
+>
 >
 mFunctions
 ;
