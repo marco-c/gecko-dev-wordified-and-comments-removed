@@ -454,9 +454,6 @@ xpcom
 LIBRARY_NAME
 =
 xpcomglue
-SUPPRESS_FAKELIB
-=
-1
 DIST_INSTALL
 =
 1

@@ -38,16 +38,6 @@ classifier
 LIBRARY_NAME
 =
 urlclassifier_s
-SUPPRESS_FAKELIB
-=
-1
-#
-The
-urlclassifier
-test
-chokes
-on
-fakelibs
 XPIDL_MODULE
 =
 url

@@ -1139,6 +1139,9 @@ srcdir
 *
 .
 pyc
+*
+.
+pyc
 ifndef
 CROSS_COMPILE
 ifdef
@@ -1235,6 +1238,12 @@ py
 unit
 -
 buildlist
+.
+py
+\
+unit
+-
+expandlibs
 .
 py
 \

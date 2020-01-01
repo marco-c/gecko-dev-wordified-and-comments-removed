@@ -546,6 +546,11 @@ doxygen
 cfg
 config
 /
+expandlibs_config
+.
+py
+config
+/
 tests
 /
 src

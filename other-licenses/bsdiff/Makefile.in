@@ -469,8 +469,6 @@ HOST_CSRCS
 bsdiff
 .
 c
-ifdef
-CROSS_COMPILE
 HOST_LIBS
 +
 =
@@ -490,14 +488,6 @@ hostbz2
 (
 LIB_SUFFIX
 )
-else
-HOST_LIBS
-+
-=
-(
-BZ2_LIBS
-)
-endif
 ifneq
 (
 (
