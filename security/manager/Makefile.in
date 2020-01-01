@@ -2112,6 +2112,15 @@ MAKE
 C
 pki
 endif
+check
+:
+:
+(
+MAKE
+)
+-
+C
+ssl
 install
 :
 :
