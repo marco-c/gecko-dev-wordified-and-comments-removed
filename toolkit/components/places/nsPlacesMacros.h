@@ -204,7 +204,7 @@ else
 #
 define
 ENSURE_NOT_PRIVATE_BROWSING
-EnsureNotPrivateBrowsing
+EnsureNotGlobalPrivateBrowsing
 (
 )
 #
