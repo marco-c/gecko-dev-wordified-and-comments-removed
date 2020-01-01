@@ -4775,7 +4775,7 @@ i
 =
 size_t
 (
-random
+rand
 (
 )
 )
@@ -4806,7 +4806,7 @@ rnd
 1
 )
 *
-random
+rand
 (
 )
 ;
@@ -4839,7 +4839,7 @@ RAND_MAX
 +
 uint32_t
 (
-random
+rand
 (
 )
 )
