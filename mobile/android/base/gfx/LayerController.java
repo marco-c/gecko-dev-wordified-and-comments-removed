@@ -414,16 +414,6 @@ true
 ;
 }
 public
-LayerClient
-getLayerClient
-(
-)
-{
-return
-mLayerClient
-;
-}
-public
 Layer
 getRoot
 (
