@@ -391,6 +391,10 @@ nsBidiUtils
 .
 cpp
 \
+nsSpecialCasingData
+.
+cpp
+\
 nsUnicodeProperties
 .
 cpp
