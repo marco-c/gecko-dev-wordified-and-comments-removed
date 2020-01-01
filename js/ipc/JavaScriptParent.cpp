@@ -2854,7 +2854,7 @@ RootedObject
 global
 (
 cx
-JS
+js
 :
 :
 DefaultObjectForContextOrNull
