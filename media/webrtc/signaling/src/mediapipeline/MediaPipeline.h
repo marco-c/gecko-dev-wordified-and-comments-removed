@@ -1101,6 +1101,11 @@ active_
 (
 false
 )
+last_img_
+(
+-
+1
+)
 samples_10ms_buffer_
 (
 nullptr
@@ -1260,6 +1265,9 @@ conduit_
 volatile
 bool
 active_
+;
+int32_t
+last_img_
 ;
 nsAutoArrayPtr
 <
