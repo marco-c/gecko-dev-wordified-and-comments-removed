@@ -32,6 +32,15 @@ un
 h
 >
 #
+include
+<
+netinet
+/
+in
+.
+h
+>
+#
 ifdef
 MOZ_B2G_BT
 #
