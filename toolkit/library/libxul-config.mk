@@ -1221,7 +1221,7 @@ boehm
 endif
 ifdef
 NS_TRACE_MALLOC
-EXTRA_DSO_LIBS
+STATIC_LIBS
 +
 =
 tracemalloc
