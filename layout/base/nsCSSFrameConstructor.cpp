@@ -46768,6 +46768,12 @@ nsGkAtoms
 menuPopupFrame
 )
 {
+nsWeakFrame
+weakFrame
+(
+frame
+)
+;
 #
 ifdef
 MOZ_XUL
@@ -46915,6 +46921,13 @@ EndUpdate
 if
 (
 mCallback
+&
+&
+weakFrame
+.
+IsAlive
+(
+)
 )
 mCallback
 (
