@@ -392,12 +392,11 @@ me
 -
 >
 buffer
-=
+!
 =
 NULL
 )
-return
-;
+{
 trash
 -
 >
@@ -441,6 +440,7 @@ NULL
 {
 return
 ;
+}
 }
 end_of_list_p
 =
