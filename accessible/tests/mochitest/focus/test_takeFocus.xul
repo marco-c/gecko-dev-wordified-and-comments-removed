@@ -566,16 +566,6 @@ doTests
 (
 )
 {
-disableLogging
-(
-)
-;
-/
-/
-from
-test_takeFocus
-.
-html
 /
 /
 Test
