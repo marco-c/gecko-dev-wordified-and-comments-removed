@@ -134,13 +134,6 @@ h
 #
 include
 "
-nsIEditorObserver
-.
-h
-"
-#
-include
-"
 nsEditProperty
 .
 h
