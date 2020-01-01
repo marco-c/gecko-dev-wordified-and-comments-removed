@@ -1722,13 +1722,13 @@ OnProgress
 (
 this
 nsnull
-nsUint64
+PRUint64
 (
 offset
 +
 count
 )
-nsUint64
+PRUint64
 (
 mContentLength
 )

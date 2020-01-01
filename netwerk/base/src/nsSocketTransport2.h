@@ -186,7 +186,7 @@ mCallback
 PRUint32
 mCallbackFlags
 ;
-nsUint64
+PRUint64
 mByteCount
 ;
 }
@@ -291,7 +291,7 @@ mCallback
 PRUint32
 mCallbackFlags
 ;
-nsUint64
+PRUint64
 mByteCount
 ;
 }

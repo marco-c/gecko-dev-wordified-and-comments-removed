@@ -5654,7 +5654,7 @@ mNextItem
 -
 1
 aProgress
-nsUint64
+PRUint64
 (
 mContentLength
 )

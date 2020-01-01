@@ -3502,7 +3502,7 @@ NS_OK
 }
 if
 (
-nsUint64
+PRUint64
 (
 aProgressMax
 )

@@ -2806,7 +2806,7 @@ LL_MAXUINT
 if
 (
 (
-nsUint64
+PRUint64
 (
 aLen
 )

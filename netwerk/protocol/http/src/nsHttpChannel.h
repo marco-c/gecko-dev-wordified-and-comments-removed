@@ -1127,7 +1127,7 @@ mLoadFlags
 PRUint32
 mStatus
 ;
-nsUint64
+PRUint64
 mLogicalOffset
 ;
 PRUint8

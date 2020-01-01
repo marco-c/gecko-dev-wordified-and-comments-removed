@@ -1392,7 +1392,7 @@ STATUS_RECEIVING_FROM
 )
 return
 ;
-nsUint64
+PRUint64
 progressMax
 ;
 if
