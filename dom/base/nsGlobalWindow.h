@@ -2789,6 +2789,11 @@ UpdateParentTarget
 (
 )
 ;
+PRBool
+GetIsTabModalPromptAllowed
+(
+)
+;
 PRPackedBool
 mIsFrozen
 :
