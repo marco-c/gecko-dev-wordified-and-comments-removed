@@ -3738,6 +3738,11 @@ completeselectedindex
 "
 true
 "
+minresultsforpopup
+=
+"
+0
+"
 flex
 =
 "
