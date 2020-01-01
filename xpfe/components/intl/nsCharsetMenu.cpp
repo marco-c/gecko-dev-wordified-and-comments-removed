@@ -6312,7 +6312,7 @@ res
 return
 res
 ;
-AddFromPrefsToMenu
+AddFromNolocPrefsToMenu
 (
 NULL
 containerU
