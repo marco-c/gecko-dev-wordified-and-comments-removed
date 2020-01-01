@@ -1379,17 +1379,6 @@ return
 ;
 JS_ASSERT
 (
-TokenBuf
-:
-:
-isRawEOLChar
-(
-c
-)
-)
-;
-JS_ASSERT
-(
 !
 userbuf
 .
@@ -4950,7 +4939,7 @@ c
 )
 c
 =
-getChar
+getCharIgnoreEOL
 (
 )
 ;
@@ -4972,7 +4961,7 @@ do
 {
 c
 =
-getChar
+getCharIgnoreEOL
 (
 )
 ;
@@ -5005,7 +4994,7 @@ true
 ;
 c
 =
-getChar
+getCharIgnoreEOL
 (
 )
 ;
@@ -5028,7 +5017,7 @@ c
 )
 c
 =
-getChar
+getCharIgnoreEOL
 (
 )
 ;
@@ -5041,7 +5030,7 @@ c
 )
 )
 {
-ungetChar
+ungetCharIgnoreEOL
 (
 c
 )
@@ -5063,7 +5052,7 @@ do
 {
 c
 =
-getChar
+getCharIgnoreEOL
 (
 )
 ;
@@ -5077,7 +5066,7 @@ c
 )
 ;
 }
-ungetChar
+ungetCharIgnoreEOL
 (
 c
 )
@@ -5194,7 +5183,7 @@ radix
 ;
 c
 =
-getChar
+getCharIgnoreEOL
 (
 )
 ;
@@ -5217,7 +5206,7 @@ radix
 ;
 c
 =
-getChar
+getCharIgnoreEOL
 (
 )
 ;
@@ -5230,7 +5219,7 @@ c
 )
 )
 {
-ungetChar
+ungetCharIgnoreEOL
 (
 c
 )
@@ -5267,7 +5256,7 @@ c
 )
 c
 =
-getChar
+getCharIgnoreEOL
 (
 )
 ;
@@ -5365,7 +5354,7 @@ decimal
 }
 c
 =
-getChar
+getCharIgnoreEOL
 (
 )
 ;
@@ -5391,7 +5380,7 @@ goto
 decimal
 ;
 }
-ungetChar
+ungetCharIgnoreEOL
 (
 c
 )
