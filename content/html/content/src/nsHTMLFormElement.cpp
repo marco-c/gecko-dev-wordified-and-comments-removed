@@ -684,6 +684,9 @@ case
 NS_FORM_INPUT_NUMBER
 :
 case
+NS_FORM_INPUT_RANGE
+:
+case
 NS_FORM_INPUT_DATE
 :
 case

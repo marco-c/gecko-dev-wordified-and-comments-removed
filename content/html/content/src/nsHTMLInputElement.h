@@ -1688,7 +1688,7 @@ kStepScaleFactorDate
 static
 const
 double
-kStepScaleFactorNumber
+kStepScaleFactorNumberRange
 ;
 static
 const
