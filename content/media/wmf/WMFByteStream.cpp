@@ -137,6 +137,10 @@ mWorkQueueId
 (
 MFASYNC_CALLBACK_QUEUE_UNDEFINED
 )
+mResource
+(
+aResource
+)
 mReentrantMonitor
 (
 "
@@ -146,10 +150,6 @@ WMFByteStream
 mOffset
 (
 0
-)
-mResource
-(
-aResource
 )
 {
 NS_ASSERTION
@@ -493,12 +493,10 @@ NS_IMPL_THREADSAFE_ADDREF
 (
 WMFByteStream
 )
-;
 NS_IMPL_THREADSAFE_RELEASE
 (
 WMFByteStream
 )
-;
 NS_IMPL_THREADSAFE_ADDREF
 (
 WMFByteStream
@@ -506,7 +504,6 @@ WMFByteStream
 :
 AsyncReadRequestState
 )
-;
 NS_IMPL_THREADSAFE_RELEASE
 (
 WMFByteStream
@@ -514,7 +511,6 @@ WMFByteStream
 :
 AsyncReadRequestState
 )
-;
 STDMETHODIMP
 WMFByteStream
 :

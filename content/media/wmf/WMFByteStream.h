@@ -41,6 +41,15 @@ h
 #
 include
 "
+mozilla
+/
+Attributes
+.
+h
+"
+#
+include
+"
 nsAutoPtr
 .
 h
@@ -53,6 +62,7 @@ MediaResource
 ;
 class
 WMFByteStream
+MOZ_FINAL
 :
 public
 IMFByteStream
@@ -272,6 +282,7 @@ mWorkQueueId
 ;
 class
 AsyncReadRequestState
+MOZ_FINAL
 :
 public
 IUnknown
@@ -350,7 +361,6 @@ nsAutoRefCnt
 mRefCnt
 ;
 NS_DECL_OWNINGTHREAD
-;
 }
 ;
 MediaResource
@@ -367,7 +377,6 @@ nsAutoRefCnt
 mRefCnt
 ;
 NS_DECL_OWNINGTHREAD
-;
 }
 ;
 }

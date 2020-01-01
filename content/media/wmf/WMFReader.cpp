@@ -206,7 +206,10 @@ if
 mByteStream
 )
 {
+DebugOnly
+<
 nsresult
+>
 rv
 =
 mByteStream
@@ -231,7 +234,10 @@ WMFByteStream
 )
 ;
 }
+DebugOnly
+<
 HRESULT
+>
 hr
 =
 wmf
