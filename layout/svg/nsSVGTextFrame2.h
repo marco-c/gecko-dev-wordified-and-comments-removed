@@ -1010,6 +1010,16 @@ DoGlyphPositioning
 (
 )
 ;
+int32_t
+ConvertTextElementCharIndexToAddressableIndex
+(
+int32_t
+aIndex
+nsIContent
+*
+aContent
+)
+;
 uint32_t
 ResolvePositions
 (
