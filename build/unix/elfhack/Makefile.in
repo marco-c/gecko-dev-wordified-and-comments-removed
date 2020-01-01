@@ -424,9 +424,6 @@ elfhack
 NO_DIST_INSTALL
 =
 1
-override
-MOZ_PROFILE_GENERATE
-=
 VPATH
 +
 =
