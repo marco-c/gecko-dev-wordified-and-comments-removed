@@ -3382,11 +3382,11 @@ ExecutableAllocator
 *
 execPool
 ;
+#
+endif
 JSCList
 scripts
 ;
-#
-endif
 JSCompartment
 (
 JSRuntime
