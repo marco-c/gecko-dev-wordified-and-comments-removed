@@ -521,8 +521,8 @@ mExtensionsFilter
 IsEmpty
 (
 )
-=
-=
+&
+&
 mMimeTypeFilter
 .
 IsEmpty
