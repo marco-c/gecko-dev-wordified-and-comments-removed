@@ -615,6 +615,7 @@ false
 )
 ;
 }
+else
 if
 (
 UpdateServiceHelper
