@@ -10300,6 +10300,15 @@ inputNode
 .
 value
 ;
+if
+(
+!
+inputValue
+)
+{
+return
+;
+}
 let
 selStart
 =
