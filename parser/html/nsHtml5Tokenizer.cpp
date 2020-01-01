@@ -19532,11 +19532,11 @@ end
 {
 strBuf
 =
-0
+nullptr
 ;
 longStrBuf
 =
-0
+nullptr
 ;
 doctypeName
 =

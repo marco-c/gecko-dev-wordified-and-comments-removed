@@ -3211,7 +3211,7 @@ currentPtr
 }
 stack
 =
-0
+nullptr
 ;
 }
 if
@@ -3253,12 +3253,12 @@ listPtr
 }
 listOfActiveFormattingElements
 =
-0
+nullptr
 ;
 }
 charBuffer
 =
-0
+nullptr
 ;
 end
 (
@@ -5876,7 +5876,7 @@ ATTR_ACTION
 attributes
 -
 >
-getValue
+getValueNoBoundsCheck
 (
 actionIndex
 )
@@ -5949,7 +5949,7 @@ newCharArrayFromString
 attributes
 -
 >
-getValue
+getValueNoBoundsCheck
 (
 promptIndex
 )
@@ -6044,7 +6044,7 @@ attributeQName
 attributes
 -
 >
-getAttributeName
+getAttributeNameNoBoundsCheck
 (
 i
 )
@@ -6099,7 +6099,7 @@ attributeQName
 attributes
 -
 >
-getValue
+getValueNoBoundsCheck
 (
 i
 )
