@@ -3492,6 +3492,8 @@ contentLength
 ;
 nsresult
 rv
+=
+NS_OK
 ;
 if
 (
