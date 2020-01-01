@@ -262,7 +262,15 @@ event
 )
 break
 ;
-return
+paramCopy
+.
+event
+.
+event
+=
+WM_NULL
+;
+break
 ;
 }
 aMsg
