@@ -3440,7 +3440,7 @@ copy
 reinterpret_cast
 <
 const
-uint64
+uint64_t
 *
 >
 (

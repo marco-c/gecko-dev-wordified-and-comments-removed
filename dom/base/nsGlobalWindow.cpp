@@ -23592,7 +23592,7 @@ mSource
 nsString
 mCallerOrigin
 ;
-uint64
+JSUint64
 *
 mMessage
 ;
