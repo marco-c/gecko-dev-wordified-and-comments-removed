@@ -2022,9 +2022,6 @@ Chunk
 *
 AllocChunk
 (
-JSRuntime
-*
-rt
 )
 {
 return
@@ -2036,7 +2033,6 @@ Chunk
 (
 MapAlignedPages
 (
-rt
 ChunkSize
 ChunkSize
 )
@@ -2048,9 +2044,6 @@ inline
 void
 FreeChunk
 (
-JSRuntime
-*
-rt
 Chunk
 *
 p
@@ -2058,7 +2051,6 @@ p
 {
 UnmapPages
 (
-rt
 static_cast
 <
 void
@@ -2486,9 +2478,6 @@ static
 void
 FreeChunkList
 (
-JSRuntime
-*
-rt
 Chunk
 *
 chunkListHead
@@ -2525,7 +2514,6 @@ next
 ;
 FreeChunk
 (
-rt
 chunk
 )
 ;
@@ -2546,7 +2534,6 @@ releaseAll
 {
 FreeChunkList
 (
-rt
 expire
 (
 rt
@@ -2571,9 +2558,15 @@ Chunk
 *
 chunk
 =
+static_cast
+<
+Chunk
+*
+>
+(
 AllocChunk
 (
-rt
+)
 )
 ;
 #
@@ -2588,9 +2581,15 @@ chunk
 )
 chunk
 =
+static_cast
+<
+Chunk
+*
+>
+(
 AllocChunk
 (
-rt
+)
 )
 ;
 #
@@ -2658,7 +2657,6 @@ rt
 ;
 FreeChunk
 (
-rt
 chunk
 )
 ;
@@ -3234,9 +3232,6 @@ offset
 ;
 MarkPagesInUse
 (
-info
-.
-runtime
 arena
 ArenaSize
 )
@@ -4384,11 +4379,6 @@ uint32_t
 maxbytes
 )
 {
-InitMemorySubsystem
-(
-rt
-)
-;
 if
 (
 !
@@ -9526,7 +9516,6 @@ ok
 =
 MarkPagesUnused
 (
-rt
 aheader
 -
 >
@@ -9678,10 +9667,6 @@ rt
 -
 >
 gcChunkAllocationSinceLastGC
-|
-|
-!
-ok
 )
 {
 return
@@ -9809,7 +9794,6 @@ rt
 ;
 FreeChunkList
 (
-rt
 toFree
 )
 ;
