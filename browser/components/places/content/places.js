@@ -1714,7 +1714,7 @@ PlacesUtils
 getString
 (
 "
-searchDefault
+searchByDefault
 "
 )
 ;
@@ -1849,7 +1849,7 @@ PlacesUtils
 getString
 (
 "
-searchDefault
+searchByDefault
 "
 )
 ;

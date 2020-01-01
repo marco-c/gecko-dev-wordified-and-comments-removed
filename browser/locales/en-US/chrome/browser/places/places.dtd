@@ -3,6 +3,8 @@
 ENTITY
 places
 .
+bm
+.
 title
 "
 Bookmarks
@@ -318,7 +320,7 @@ T
 ENTITY
 cmd
 .
-find
+findInBookmarks
 .
 label
 "
@@ -335,7 +337,7 @@ Bookmarks
 ENTITY
 cmd
 .
-find
+findInBookmarks
 .
 accesskey
 "
@@ -1387,7 +1389,7 @@ C
 ENTITY
 search
 .
-all
+allBookmarks
 .
 label
 "
@@ -1400,7 +1402,7 @@ Bookmarks
 ENTITY
 search
 .
-all
+allBookmarks
 .
 accesskey
 "

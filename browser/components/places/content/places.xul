@@ -648,6 +648,8 @@ title
 &
 places
 .
+bm
+.
 title
 ;
 "
@@ -822,7 +824,7 @@ label
 &
 cmd
 .
-find
+findInBookmarks
 .
 label
 ;
@@ -833,7 +835,7 @@ accesskey
 &
 cmd
 .
-find
+findInBookmarks
 .
 accesskey
 ;
@@ -2996,7 +2998,7 @@ label
 &
 search
 .
-all
+allBookmarks
 .
 label
 ;
@@ -3007,7 +3009,7 @@ accesskey
 &
 search
 .
-all
+allBookmarks
 .
 accesskey
 ;
