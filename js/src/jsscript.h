@@ -752,6 +752,15 @@ pc
 )
 ;
 inline
+void
+nukeUpvarTypes
+(
+JSContext
+*
+cx
+)
+;
+inline
 js
 :
 :
