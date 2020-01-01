@@ -15652,14 +15652,12 @@ PR_TRUE
 nsEvent
 *
 innerEvent
-;
+=
 privateEvent
 -
 >
 GetInternalNSEvent
 (
-&
-innerEvent
 )
 ;
 if

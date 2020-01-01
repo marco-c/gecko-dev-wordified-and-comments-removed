@@ -2105,14 +2105,12 @@ GetNextHandler
 {
 PRBool
 stopped
-;
+=
 privateEvent
 -
 >
 IsDispatchStopped
 (
-&
-stopped
 )
 ;
 if

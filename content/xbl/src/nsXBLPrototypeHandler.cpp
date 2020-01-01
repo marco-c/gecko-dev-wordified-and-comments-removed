@@ -1658,14 +1658,12 @@ privateEvent
 {
 PRBool
 dispatchStopped
-;
+=
 privateEvent
 -
 >
 IsDispatchStopped
 (
-&
-dispatchStopped
 )
 ;
 if
