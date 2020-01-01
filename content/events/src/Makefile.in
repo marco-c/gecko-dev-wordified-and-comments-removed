@@ -503,10 +503,6 @@ nsDOMMouseScrollEvent
 .
 cpp
 \
-nsDOMDragEvent
-.
-cpp
-\
 nsDOMMutationEvent
 .
 cpp
@@ -568,10 +564,6 @@ nsQueryContentEventHandler
 cpp
 \
 nsDOMProgressEvent
-.
-cpp
-\
-nsDOMDataTransfer
 .
 cpp
 \

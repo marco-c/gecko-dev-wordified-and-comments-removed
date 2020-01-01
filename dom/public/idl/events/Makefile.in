@@ -501,14 +501,6 @@ nsIDOMNSUIEvent
 .
 idl
 \
-nsIDOMDragEvent
-.
-idl
-\
-nsIDOMDataTransfer
-.
-idl
-\
 nsIDOMPopupBlockedEvent
 .
 idl

@@ -226,10 +226,6 @@ appearance
 :
 none
 ;
-padding
-:
-0
-;
 "
 /
 >
@@ -255,10 +251,6 @@ moz
 appearance
 :
 none
-;
-padding
-:
-0
 ;
 "
 /
@@ -315,10 +307,6 @@ moz
 appearance
 :
 none
-;
-padding
-:
-0
 ;
 "
 /

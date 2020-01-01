@@ -3660,9 +3660,11 @@ mNativeDragEvent
 nil
 ;
 }
-nsresult
-rv
+mDataItems
 =
+nsnull
+;
+return
 nsBaseDragService
 :
 :
@@ -3670,13 +3672,6 @@ EndDragSession
 (
 aDoneDrag
 )
-;
-mDataItems
-=
-nsnull
-;
-return
-rv
 ;
 NS_OBJC_END_TRY_ABORT_BLOCK_NSRESULT
 ;
