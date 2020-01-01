@@ -578,6 +578,15 @@ nsAccessibilityAtoms
 label
 )
 ;
+static
+PRBool
+IsARIAPropForObjectAttr
+(
+nsIAtom
+*
+aAtom
+)
+;
 }
 ;
 #
