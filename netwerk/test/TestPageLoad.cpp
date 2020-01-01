@@ -255,6 +255,7 @@ i
 =
 0
 ;
+const
 char
 *
 tmp
@@ -278,9 +279,10 @@ fromRawSegment
 ;
 tmp
 =
-ToNewCString
-(
 globalStream
+.
+get
+(
 )
 ;
 }
@@ -288,10 +290,6 @@ else
 {
 tmp
 =
-(
-char
-*
-)
 fromRawSegment
 ;
 }
