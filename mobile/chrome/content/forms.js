@@ -322,6 +322,12 @@ if
 element
 )
 {
+this
+.
+focusSync
+=
+false
+;
 gFocusManager
 .
 setFocus
@@ -333,6 +339,12 @@ nsIFocusManager
 .
 FLAG_NOSCROLL
 )
+;
+this
+.
+focusSync
+=
+true
 ;
 this
 .
