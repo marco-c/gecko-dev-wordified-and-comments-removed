@@ -1129,7 +1129,7 @@ uint16_t
 aExpiration
 )
 {
-SAMPLE_LABEL
+PROFILER_LABEL
 (
 "
 AnnotationService

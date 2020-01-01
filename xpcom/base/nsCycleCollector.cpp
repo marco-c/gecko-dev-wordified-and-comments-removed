@@ -11607,7 +11607,7 @@ if
 sCollector
 )
 {
-SAMPLE_LABEL
+PROFILER_LABEL
 (
 "
 CC
@@ -11666,7 +11666,7 @@ thread
 "
 )
 ;
-SAMPLE_LABEL
+PROFILER_LABEL
 (
 "
 CC
@@ -11863,7 +11863,7 @@ if
 sCollector
 )
 {
-SAMPLE_LABEL
+PROFILER_LABEL
 (
 "
 CC

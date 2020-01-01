@@ -3885,7 +3885,7 @@ uint16_t
 stype
 )
 {
-SAMPLE_LABEL
+PROFILER_LABEL
 (
 "
 PluginModuleParent

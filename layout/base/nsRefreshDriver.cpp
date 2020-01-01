@@ -3003,7 +3003,7 @@ call
 return
 ;
 }
-SAMPLE_LABEL
+PROFILER_LABEL
 (
 "
 nsRefreshDriver

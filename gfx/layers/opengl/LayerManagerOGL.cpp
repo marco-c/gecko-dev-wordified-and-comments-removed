@@ -4920,7 +4920,7 @@ GLContext
 context
 )
 {
-SAMPLER_FRAME_NUMBER
+profiler_set_frame_number
 (
 sFrameCount
 )
@@ -5372,7 +5372,7 @@ Render
 (
 )
 {
-SAMPLE_LABEL
+PROFILER_LABEL
 (
 "
 LayerManagerOGL

@@ -898,7 +898,7 @@ MaybeMagicGrallocBufferHandle
 aOutHandle
 )
 {
-SAMPLE_LABEL
+PROFILER_LABEL
 (
 "
 GrallocBufferActor
@@ -1067,7 +1067,7 @@ GLenum
 aWrapMode
 )
 {
-SAMPLE_LABEL
+PROFILER_LABEL
 (
 "
 ShadowLayerManager
@@ -1387,7 +1387,7 @@ return
 false
 ;
 }
-SAMPLE_LABEL
+PROFILER_LABEL
 (
 "
 ShadowLayerForwarder
@@ -1576,7 +1576,7 @@ SurfaceDescriptor
 aSurface
 )
 {
-SAMPLE_LABEL
+PROFILER_LABEL
 (
 "
 ShadowLayerForwarder
@@ -1995,7 +1995,7 @@ SurfaceDescriptor
 aDescriptor
 )
 {
-SAMPLE_LABEL
+PROFILER_LABEL
 (
 "
 ShadowLayerForwarder

@@ -360,7 +360,7 @@ mLockedForPrivateBrowsing
 =
 true
 ;
-SAMPLER_LOCK
+profiler_lock
 (
 )
 ;
@@ -391,7 +391,7 @@ mLockedForPrivateBrowsing
 =
 false
 ;
-SAMPLER_UNLOCK
+profiler_unlock
 (
 )
 ;
@@ -428,7 +428,7 @@ return
 NS_ERROR_NOT_AVAILABLE
 ;
 }
-SAMPLER_START
+profiler_start
 (
 aEntries
 aInterval
@@ -460,7 +460,7 @@ StopProfiler
 (
 )
 {
-SAMPLER_STOP
+profiler_stop
 (
 )
 ;
@@ -480,7 +480,7 @@ char
 aMarker
 )
 {
-SAMPLE_MARKER
+PROFILER_MARKER
 (
 aMarker
 )
@@ -505,7 +505,7 @@ char
 *
 profile
 =
-SAMPLER_GET_PROFILE
+profiler_get_profile
 (
 )
 ;
@@ -1066,7 +1066,7 @@ JSObject
 *
 obj
 =
-SAMPLER_GET_PROFILE_DATA
+profiler_get_profile_jsobject
 (
 aCx
 )
@@ -1105,7 +1105,7 @@ aIsActive
 *
 aIsActive
 =
-SAMPLER_IS_ACTIVE
+profiler_is_active
 (
 )
 ;
@@ -1139,7 +1139,7 @@ double
 *
 times
 =
-SAMPLER_GET_RESPONSIVENESS
+profiler_get_responsiveness
 (
 )
 ;
@@ -1229,7 +1229,7 @@ char
 *
 features
 =
-SAMPLER_GET_FEATURES
+profiler_get_features
 (
 )
 ;

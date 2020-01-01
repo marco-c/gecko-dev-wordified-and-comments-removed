@@ -1867,7 +1867,7 @@ database
 "
 )
 ;
-SAMPLE_LABEL
+PROFILER_LABEL
 (
 "
 storage
@@ -1961,7 +1961,7 @@ database
 "
 )
 ;
-SAMPLE_LABEL
+PROFILER_LABEL
 (
 "
 storage
@@ -2097,7 +2097,7 @@ database
 "
 )
 ;
-SAMPLE_LABEL
+PROFILER_LABEL
 (
 "
 storage
@@ -4106,7 +4106,7 @@ mozIStorageConnection
 _connection
 )
 {
-SAMPLE_LABEL
+PROFILER_LABEL
 (
 "
 storage

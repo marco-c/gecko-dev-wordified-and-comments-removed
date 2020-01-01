@@ -7771,7 +7771,7 @@ nsISupports
 ctxt
 )
 {
-SAMPLE_LABEL
+PROFILER_LABEL
 (
 "
 nsXMLHttpRequest
@@ -8551,7 +8551,7 @@ nsresult
 status
 )
 {
-SAMPLE_LABEL
+PROFILER_LABEL
 (
 "
 content

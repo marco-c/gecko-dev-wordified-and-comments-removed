@@ -1464,7 +1464,7 @@ nsIDirectoryServiceProvider
 appFileLocationProvider
 )
 {
-SAMPLER_INIT
+profiler_init
 (
 )
 ;
@@ -2663,7 +2663,7 @@ moduleLoaders
 nullptr
 ;
 }
-SAMPLE_MARKER
+PROFILER_MARKER
 (
 "
 Shutdown
