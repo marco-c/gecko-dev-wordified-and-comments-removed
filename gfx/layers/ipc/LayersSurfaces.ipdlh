@@ -160,10 +160,10 @@ mozilla
 gl
 :
 :
-TextureImage
+GLContext
 :
 :
-TextureShareType
+SharedTextureShareType
 ;
 namespace
 mozilla
@@ -191,7 +191,7 @@ handle
 struct
 SharedTextureDescriptor
 {
-TextureShareType
+SharedTextureShareType
 shareType
 ;
 SharedTextureHandle
