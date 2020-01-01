@@ -1784,7 +1784,10 @@ get
 )
 )
 {
+DebugOnly
+<
 nsresult
+>
 result
 =
 mOmxDecoder
