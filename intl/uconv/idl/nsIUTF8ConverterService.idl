@@ -336,6 +336,12 @@ sequences
 by
 replacement
 characters
+(
+defaults
+to
+*
+true
+)
 *
 return
 the
@@ -369,6 +375,9 @@ conversion
 failure
 *
 /
+[
+optional_argc
+]
 AUTF8String
 convertStringToUTF8
 (
@@ -381,6 +390,9 @@ aCharset
 in
 boolean
 aSkipCheck
+[
+optional
+]
 in
 boolean
 aAllowSubstitution
