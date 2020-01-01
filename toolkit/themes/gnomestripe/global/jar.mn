@@ -139,6 +139,16 @@ classic
 /
 global
 /
+findBar
+.
+css
++
+skin
+/
+classic
+/
+global
+/
 icons
 /
 notfound
