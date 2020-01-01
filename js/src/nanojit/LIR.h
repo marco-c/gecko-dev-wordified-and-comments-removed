@@ -2271,7 +2271,7 @@ char
 s
 )
 ;
-void
+bool
 addName
 (
 LInsp
