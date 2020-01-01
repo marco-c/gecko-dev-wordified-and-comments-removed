@@ -454,6 +454,11 @@ imgIRequest
 aRequest
 )
 ;
+void
+ResetAnimationIfNeeded
+(
+)
+;
 static
 bool
 HaveSize
