@@ -107,10 +107,17 @@ endif
 if
 defined
 (
+MOZ_MEMORY_DARWIN
+)
+|
+|
+defined
+(
 MOZ_MEMORY_ANDROID
 )
 |
 |
+\
 defined
 (
 WRAP_MALLOC
