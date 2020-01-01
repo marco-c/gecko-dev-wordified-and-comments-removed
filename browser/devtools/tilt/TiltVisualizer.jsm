@@ -870,6 +870,15 @@ this
 inspector
 )
 {
+if
+(
+this
+.
+inspector
+.
+selection
+)
+{
 this
 .
 inspector
@@ -888,6 +897,7 @@ this
 onNewNodeFromInspector
 )
 ;
+}
 this
 .
 inspector
