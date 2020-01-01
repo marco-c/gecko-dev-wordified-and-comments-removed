@@ -3523,11 +3523,9 @@ failed
 ;
 rv
 =
-stmt
--
->
-BindUTF8StringParameter
+BindStatementURLCString
 (
+stmt
 2
 NS_LITERAL_CSTRING
 (
