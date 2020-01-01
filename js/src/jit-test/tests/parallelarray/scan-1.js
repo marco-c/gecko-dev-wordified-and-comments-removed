@@ -36,8 +36,8 @@ testScan
 (
 range
 (
-0
-minItemsTestingThreshold
+1
+1024
 )
 sum
 )

@@ -34,9 +34,7 @@ compareAgainstArray
 range
 (
 1
-minItemsTestingThreshold
-+
-1
+513
 )
 "
 reduce

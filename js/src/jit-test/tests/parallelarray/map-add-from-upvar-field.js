@@ -14,7 +14,7 @@ js
 var
 SIZE
 =
-minItemsTestingThreshold
+4096
 ;
 function
 testMap

@@ -22,9 +22,7 @@ a
 range
 (
 1
-minItemsTestingThreshold
-+
-1
+65
 )
 ;
 var
