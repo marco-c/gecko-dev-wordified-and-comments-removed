@@ -245,8 +245,6 @@ PRBool
 aEnableDragDrop
 PRBool
 aResetVisibility
-nsContentType
-aContentType
 )
 ;
 nsresult
@@ -262,8 +260,6 @@ PRBool
 aEnableDragDrop
 PRBool
 aResetVisibility
-nsContentType
-aContentType
 )
 ;
 nsresult
@@ -279,8 +275,6 @@ PRBool
 aEnableDragDrop
 PRBool
 aResetVisibility
-nsContentType
-aContentType
 )
 ;
 nsView

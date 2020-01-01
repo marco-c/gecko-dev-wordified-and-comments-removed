@@ -1402,7 +1402,6 @@ widgetData
 parentWidget
 PR_TRUE
 PR_TRUE
-eContentTypeUI
 )
 ;
 nsIWidget

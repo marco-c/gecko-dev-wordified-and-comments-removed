@@ -1427,12 +1427,6 @@ PR_TRUE
 ;
 #
 endif
-widgetInitData
-.
-mContentType
-=
-eContentTypeUI
-;
 if
 (
 aChromeMask

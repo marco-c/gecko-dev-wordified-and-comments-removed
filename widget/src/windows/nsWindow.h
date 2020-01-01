@@ -2263,9 +2263,6 @@ mFullscreenMode
 PRUint32
 mBlurSuppressLevel
 ;
-nsContentType
-mContentType
-;
 DWORD_PTR
 mOldStyle
 ;

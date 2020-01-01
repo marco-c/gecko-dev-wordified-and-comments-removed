@@ -2617,8 +2617,6 @@ PRBool
 aEnableDragDrop
 PRBool
 aResetVisibility
-nsContentType
-aContentType
 )
 {
 return
@@ -2632,7 +2630,6 @@ CreateWidget
 aWidgetInitData
 aEnableDragDrop
 aResetVisibility
-aContentType
 )
 ;
 }
@@ -2652,8 +2649,6 @@ PRBool
 aEnableDragDrop
 PRBool
 aResetVisibility
-nsContentType
-aContentType
 )
 {
 return
@@ -2668,7 +2663,6 @@ aParentWidget
 aWidgetInitData
 aEnableDragDrop
 aResetVisibility
-aContentType
 )
 ;
 }
@@ -2688,8 +2682,6 @@ PRBool
 aEnableDragDrop
 PRBool
 aResetVisibility
-nsContentType
-aContentType
 )
 {
 return
@@ -2704,7 +2696,6 @@ aWidgetInitData
 aParentWidget
 aEnableDragDrop
 aResetVisibility
-aContentType
 )
 ;
 }
@@ -2750,8 +2741,6 @@ PRBool
 aEnableDragDrop
 PRBool
 aResetVisibility
-nsContentType
-aContentType
 )
 {
 AssertNoWindow
@@ -2795,13 +2784,6 @@ aWidgetInitData
 :
 &
 defaultInitData
-;
-aWidgetInitData
--
->
-mContentType
-=
-aContentType
 ;
 defaultInitData
 .
@@ -2963,8 +2945,6 @@ PRBool
 aEnableDragDrop
 PRBool
 aResetVisibility
-nsContentType
-aContentType
 )
 {
 AssertNoWindow
@@ -3011,13 +2991,6 @@ aWidgetInitData
 :
 &
 defaultInitData
-;
-aWidgetInitData
--
->
-mContentType
-=
-aContentType
 ;
 nsIntRect
 trect
@@ -3105,8 +3078,6 @@ PRBool
 aEnableDragDrop
 PRBool
 aResetVisibility
-nsContentType
-aWindowType
 )
 {
 AssertNoWindow
