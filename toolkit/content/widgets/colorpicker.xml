@@ -2300,7 +2300,7 @@ uppercaseVal
 {
 switch
 (
-val
+uppercaseVal
 )
 {
 case
@@ -2494,7 +2494,7 @@ uppercaseVal
 =
 "
 #
-CC0C0C0
+C0C0C0
 "
 ;
 break
