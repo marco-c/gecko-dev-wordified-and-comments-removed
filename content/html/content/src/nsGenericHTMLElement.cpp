@@ -3278,6 +3278,9 @@ rv
 )
 )
 {
+nsAutoScriptBlockerSuppressNodeRemoved
+scriptBlocker
+;
 static_cast
 <
 nsINode
