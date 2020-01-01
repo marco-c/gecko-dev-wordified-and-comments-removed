@@ -4630,6 +4630,11 @@ exefile
 if
 (
 gSucceeded
+&
+&
+argc
+>
+4
 )
 LaunchWinPostProcess
 (
