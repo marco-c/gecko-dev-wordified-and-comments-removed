@@ -302,7 +302,7 @@ this
 MatchOptions
 nsnull
 nsnull
-PR_FALSE
+PR_TRUE
 )
 ;
 }
