@@ -245,7 +245,7 @@ url
 "
 about
 :
-home
+robots
 "
 }
 ]

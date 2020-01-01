@@ -9,7 +9,7 @@ gTab
 null
 ;
 var
-gHomeTab
+gMozillaTab
 =
 null
 ;
@@ -174,7 +174,7 @@ gAttached
 =
 true
 ;
-gHomeTab
+gMozillaTab
 =
 gBrowser
 .
@@ -183,7 +183,7 @@ addTab
 "
 about
 :
-home
+mozilla
 "
 )
 ;
@@ -271,7 +271,7 @@ aResponse
 {
 removeTab
 (
-gHomeTab
+gMozillaTab
 )
 ;
 removeTab

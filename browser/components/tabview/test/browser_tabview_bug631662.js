@@ -73,7 +73,7 @@ addTab
 "
 about
 :
-home
+mozilla
 "
 )
 ;
