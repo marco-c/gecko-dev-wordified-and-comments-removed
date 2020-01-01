@@ -1045,7 +1045,7 @@ GetPresContext
 pcx
 -
 >
-ClearStyleDataAndReflow
+RebuildAllStyleData
 (
 )
 ;
