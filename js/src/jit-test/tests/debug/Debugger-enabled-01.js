@@ -5,7 +5,7 @@ Object
 .
 getOwnPropertyDescriptor
 (
-Debug
+Debugger
 .
 prototype
 "
@@ -54,7 +54,7 @@ var
 dbg
 =
 new
-Debug
+Debugger
 (
 g
 )

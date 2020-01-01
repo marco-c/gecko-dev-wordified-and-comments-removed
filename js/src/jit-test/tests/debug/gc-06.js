@@ -2,7 +2,7 @@ var
 dbg
 =
 new
-Debug
+Debugger
 ;
 for
 (

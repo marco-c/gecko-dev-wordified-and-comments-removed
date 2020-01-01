@@ -29,7 +29,7 @@ debugger
 var
 dbg
 =
-Debug
+Debugger
 (
 g
 )

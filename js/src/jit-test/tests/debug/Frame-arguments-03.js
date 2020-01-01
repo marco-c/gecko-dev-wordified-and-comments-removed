@@ -14,7 +14,7 @@ var
 dbg
 =
 new
-Debug
+Debugger
 (
 g
 )
@@ -67,7 +67,7 @@ args
 1
 ]
 instanceof
-Debug
+Debugger
 .
 Object
 true
@@ -117,7 +117,7 @@ assertEq
 (
 getprop
 instanceof
-Debug
+Debugger
 .
 Object
 true
@@ -189,7 +189,7 @@ args
 2
 ]
 instanceof
-Debug
+Debugger
 .
 Object
 true
@@ -284,7 +284,7 @@ args
 3
 ]
 instanceof
-Debug
+Debugger
 .
 Object
 true

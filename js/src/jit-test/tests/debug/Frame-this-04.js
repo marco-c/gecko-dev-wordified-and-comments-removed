@@ -52,7 +52,7 @@ var
 dbg
 =
 new
-Debug
+Debugger
 (
 g
 )
@@ -84,7 +84,7 @@ frame
 .
 this
 instanceof
-Debug
+Debugger
 .
 Object
 true

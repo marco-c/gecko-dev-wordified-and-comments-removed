@@ -5,7 +5,7 @@ Object
 .
 getOwnPropertyDescriptor
 (
-Debug
+Debugger
 .
 Frame
 .
@@ -105,7 +105,7 @@ a
 var
 dbg
 =
-Debug
+Debugger
 (
 debuggeeGlobal
 )

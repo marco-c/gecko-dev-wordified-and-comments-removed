@@ -13,7 +13,7 @@ compartment
 var
 dbg
 =
-Debug
+Debugger
 (
 g
 )
@@ -42,7 +42,7 @@ getPrototypeOf
 (
 f
 )
-Debug
+Debugger
 .
 Frame
 .

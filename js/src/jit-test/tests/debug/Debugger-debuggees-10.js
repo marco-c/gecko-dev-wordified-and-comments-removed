@@ -50,7 +50,7 @@ var
 dbg
 =
 new
-Debug
+Debugger
 (
 d1
 d2
@@ -65,7 +65,7 @@ var
 dbg
 =
 new
-Debug
+Debugger
 (
 top
 .
@@ -83,7 +83,7 @@ var
 dbg
 =
 new
-Debug
+Debugger
 (
 top
 .

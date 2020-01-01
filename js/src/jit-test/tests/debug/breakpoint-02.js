@@ -68,7 +68,7 @@ f
 var
 dbg
 =
-Debug
+Debugger
 (
 g1
 )

@@ -59,7 +59,7 @@ a
 var
 dbg
 =
-Debug
+Debugger
 (
 debuggeeGlobal
 )

@@ -46,7 +46,7 @@ var
 debug
 =
 new
-Debug
+Debugger
 (
 global
 )

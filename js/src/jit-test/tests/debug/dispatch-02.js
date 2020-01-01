@@ -41,7 +41,7 @@ i
 ]
 =
 new
-Debug
+Debugger
 (
 g
 )

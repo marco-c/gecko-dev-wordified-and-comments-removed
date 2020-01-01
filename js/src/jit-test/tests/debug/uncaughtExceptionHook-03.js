@@ -31,7 +31,7 @@ function
 var
 dbg
 =
-Debug
+Debugger
 (
 debuggeeGlobal
 )

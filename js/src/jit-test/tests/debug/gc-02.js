@@ -38,7 +38,7 @@ var
 dbg
 =
 new
-Debug
+Debugger
 (
 g
 )
@@ -100,7 +100,7 @@ this
 dbg
 =
 new
-Debug
+Debugger
 (
 g
 )

@@ -15,7 +15,7 @@ function
 (
 )
 {
-Debug
+Debugger
 .
 Script
 (
@@ -32,7 +32,7 @@ function
 )
 {
 new
-Debug
+Debugger
 .
 Script
 (

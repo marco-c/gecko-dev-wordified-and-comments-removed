@@ -60,7 +60,7 @@ var
 dbg
 =
 new
-Debug
+Debugger
 (
 debuggee
 )

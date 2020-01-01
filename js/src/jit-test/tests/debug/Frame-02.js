@@ -17,7 +17,7 @@ frame
 var
 dbg
 =
-Debug
+Debugger
 (
 g
 )

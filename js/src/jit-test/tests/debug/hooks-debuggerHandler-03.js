@@ -18,7 +18,7 @@ calls
 var
 dbg
 =
-Debug
+Debugger
 (
 g
 )

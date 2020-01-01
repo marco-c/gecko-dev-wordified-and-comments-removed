@@ -25,7 +25,7 @@ var
 dbg
 =
 new
-Debug
+Debugger
 (
 g
 )
@@ -130,7 +130,7 @@ Object
 .
 getOwnPropertyDescriptor
 (
-Debug
+Debugger
 .
 prototype
 "
@@ -201,7 +201,7 @@ get
 .
 call
 (
-Debug
+Debugger
 .
 prototype
 )
@@ -292,7 +292,7 @@ set
 .
 call
 (
-Debug
+Debugger
 .
 prototype
 {

@@ -14,7 +14,7 @@ var
 dbg
 =
 new
-Debug
+Debugger
 (
 g
 )
@@ -74,7 +74,7 @@ args
 0
 ]
 instanceof
-Debug
+Debugger
 .
 Object
 true

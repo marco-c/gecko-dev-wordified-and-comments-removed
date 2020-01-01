@@ -1709,7 +1709,7 @@ cx
 js
 :
 :
-Debug
+Debugger
 *
 dbg
 JSScript

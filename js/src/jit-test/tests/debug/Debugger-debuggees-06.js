@@ -13,7 +13,7 @@ var
 dbg
 =
 new
-Debug
+Debugger
 ;
 function
 check
@@ -121,7 +121,7 @@ var
 dbg2
 =
 new
-Debug
+Debugger
 ;
 var
 w
@@ -137,7 +137,7 @@ assertEq
 (
 w
 instanceof
-Debug
+Debugger
 .
 Object
 true

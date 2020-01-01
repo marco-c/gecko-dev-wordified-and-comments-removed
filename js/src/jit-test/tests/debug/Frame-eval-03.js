@@ -25,7 +25,7 @@ var
 dbg
 =
 new
-Debug
+Debugger
 (
 g
 )
@@ -95,7 +95,7 @@ assertEq
 (
 exc
 instanceof
-Debug
+Debugger
 .
 Object
 true

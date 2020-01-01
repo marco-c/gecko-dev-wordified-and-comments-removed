@@ -18,7 +18,7 @@ false
 var
 dbg
 =
-Debug
+Debugger
 (
 g
 )

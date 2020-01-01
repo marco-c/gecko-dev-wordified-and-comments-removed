@@ -88,7 +88,7 @@ i
 var
 dbg
 =
-Debug
+Debugger
 (
 g
 )

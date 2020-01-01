@@ -2,7 +2,7 @@ var
 dbg
 =
 new
-Debug
+Debugger
 ;
 var
 g
@@ -30,7 +30,7 @@ assertEq
 (
 w
 instanceof
-Debug
+Debugger
 .
 Object
 true
@@ -183,7 +183,7 @@ var
 w2
 =
 new
-Debug
+Debugger
 (
 )
 .

@@ -125,7 +125,7 @@ src
 var
 dbg
 =
-Debug
+Debugger
 (
 g
 )

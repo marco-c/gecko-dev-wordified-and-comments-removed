@@ -13,7 +13,7 @@ compartment
 var
 dbg
 =
-Debug
+Debugger
 (
 g
 )
@@ -61,7 +61,7 @@ arguments
 0
 ]
 )
-Debug
+Debugger
 .
 Object
 .
@@ -77,7 +77,7 @@ arguments
 0
 ]
 instanceof
-Debug
+Debugger
 .
 Object
 true
@@ -116,7 +116,7 @@ arguments
 1
 ]
 )
-Debug
+Debugger
 .
 Object
 .
@@ -132,7 +132,7 @@ arguments
 1
 ]
 instanceof
-Debug
+Debugger
 .
 Object
 true

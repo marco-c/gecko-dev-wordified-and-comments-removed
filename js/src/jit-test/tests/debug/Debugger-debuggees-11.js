@@ -13,7 +13,7 @@ var
 dbg
 =
 new
-Debug
+Debugger
 ;
 assertThrowsInstanceOf
 (
@@ -39,7 +39,7 @@ function
 )
 {
 new
-Debug
+Debugger
 (
 this
 )
@@ -84,7 +84,7 @@ function
 )
 {
 new
-Debug
+Debugger
 (
 g
 )
@@ -120,7 +120,7 @@ var
 dbg
 =
 new
-Debug
+Debugger
 (
 top
 )
@@ -151,7 +151,7 @@ function
 )
 {
 new
-Debug
+Debugger
 (
 d1
 )
@@ -187,7 +187,7 @@ var
 dbg
 =
 new
-Debug
+Debugger
 (
 top
 .
@@ -220,7 +220,7 @@ function
 )
 {
 new
-Debug
+Debugger
 (
 d2
 )

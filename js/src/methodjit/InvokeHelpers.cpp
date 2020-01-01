@@ -2284,7 +2284,7 @@ rval
 JSTrapStatus
 st
 =
-Debug
+Debugger
 :
 :
 onThrow

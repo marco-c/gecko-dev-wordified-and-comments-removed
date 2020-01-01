@@ -34,7 +34,7 @@ b
 var
 dbg
 =
-Debug
+Debugger
 (
 g
 )

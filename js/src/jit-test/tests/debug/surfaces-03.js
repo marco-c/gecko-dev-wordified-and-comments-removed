@@ -16,7 +16,7 @@ Object
 .
 getOwnPropertyDescriptor
 (
-Debug
+Debugger
 .
 prototype
 "
@@ -52,7 +52,7 @@ function
 (
 )
 {
-Debug
+Debugger
 .
 prototype
 .
@@ -80,7 +80,7 @@ var
 dbg
 =
 new
-Debug
+Debugger
 (
 g
 )

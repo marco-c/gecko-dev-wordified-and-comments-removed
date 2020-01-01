@@ -94,7 +94,7 @@ js
 ;
 extern
 Class
-DebugFrame_class
+DebuggerFrame_class
 ;
 enum
 {
@@ -105,7 +105,7 @@ JSSLOT_DEBUGFRAME_COUNT
 ;
 extern
 Class
-DebugArguments_class
+DebuggerArguments_class
 ;
 enum
 {
@@ -115,7 +115,7 @@ JSSLOT_DEBUGARGUMENTS_COUNT
 ;
 extern
 Class
-DebugObject_class
+DebuggerObject_class
 ;
 enum
 {
@@ -125,7 +125,7 @@ JSSLOT_DEBUGOBJECT_COUNT
 ;
 extern
 Class
-DebugScript_class
+DebuggerScript_class
 ;
 enum
 {
@@ -1146,7 +1146,7 @@ Breakpoint
 :
 Breakpoint
 (
-Debug
+Debugger
 *
 debugger
 BreakpointSite
@@ -1416,10 +1416,10 @@ JSSLOT_DEBUG_SCRIPT_PROTO
 JSSLOT_DEBUG_COUNT
 }
 ;
-Debug
+Debugger
 :
 :
-Debug
+Debugger
 (
 JSObject
 *
@@ -1516,11 +1516,11 @@ breakpoints
 )
 ;
 }
-Debug
+Debugger
 :
 :
 ~
-Debug
+Debugger
 (
 )
 {
@@ -1557,7 +1557,7 @@ link
 ;
 }
 bool
-Debug
+Debugger
 :
 :
 init
@@ -1648,9 +1648,9 @@ JSSLOT_DEBUGSCRIPT_OWNER
 )
 )
 ;
-Debug
+Debugger
 *
-Debug
+Debugger
 :
 :
 fromChildJSObject
@@ -1669,7 +1669,7 @@ clasp
 =
 =
 &
-DebugFrame_class
+DebuggerFrame_class
 |
 |
 obj
@@ -1679,7 +1679,7 @@ clasp
 =
 =
 &
-DebugObject_class
+DebuggerObject_class
 |
 |
 obj
@@ -1689,7 +1689,7 @@ clasp
 =
 =
 &
-DebugScript_class
+DebuggerScript_class
 )
 ;
 JSObject
@@ -1717,7 +1717,7 @@ dbgobj
 ;
 }
 bool
-Debug
+Debugger
 :
 :
 getScriptFrame
@@ -1793,7 +1793,7 @@ Given
 (
 cx
 &
-DebugFrame_class
+DebuggerFrame_class
 proto
 NULL
 )
@@ -1877,7 +1877,7 @@ true
 ;
 }
 void
-Debug
+Debugger
 :
 :
 slowPathLeaveStackFrame
@@ -1918,7 +1918,7 @@ if
 GlobalObject
 :
 :
-DebugVector
+DebuggerVector
 *
 debuggers
 =
@@ -1932,7 +1932,7 @@ getDebuggers
 {
 for
 (
-Debug
+Debugger
 *
 *
 p
@@ -1959,7 +1959,7 @@ p
 +
 )
 {
-Debug
+Debugger
 *
 dbg
 =
@@ -2053,7 +2053,7 @@ NULL
 }
 }
 bool
-Debug
+Debugger
 :
 :
 wrapDebuggeeValue
@@ -2158,7 +2158,7 @@ Given
 (
 cx
 &
-DebugObject_class
+DebuggerObject_class
 proto
 NULL
 )
@@ -2268,7 +2268,7 @@ true
 ;
 }
 bool
-Debug
+Debugger
 :
 :
 unwrapDebuggeeValue
@@ -2320,7 +2320,7 @@ clasp
 !
 =
 &
-DebugObject_class
+DebuggerObject_class
 )
 {
 JS_ReportErrorNumber
@@ -2330,10 +2330,10 @@ js_GetErrorMessage
 NULL
 JSMSG_NOT_EXPECTED_TYPE
 "
-Debug
+Debugger
 "
 "
-Debug
+Debugger
 .
 Object
 "
@@ -2417,7 +2417,7 @@ true
 ;
 }
 JSTrapStatus
-Debug
+Debugger
 :
 :
 handleUncaughtException
@@ -2551,7 +2551,7 @@ JSTRAP_ERROR
 ;
 }
 bool
-Debug
+Debugger
 :
 :
 newCompletionValue
@@ -2747,7 +2747,7 @@ true
 ;
 }
 JSTrapStatus
-Debug
+Debugger
 :
 :
 parseResumptionValue
@@ -3163,7 +3163,7 @@ rval
 ;
 }
 bool
-Debug
+Debugger
 :
 :
 observesDebuggerStatement
@@ -3179,7 +3179,7 @@ hasDebuggerHandler
 ;
 }
 JSTrapStatus
-Debug
+Debugger
 :
 :
 handleDebuggerStatement
@@ -3281,7 +3281,7 @@ vp
 ;
 }
 bool
-Debug
+Debugger
 :
 :
 observesThrow
@@ -3297,7 +3297,7 @@ hasThrowHandler
 ;
 }
 JSTrapStatus
-Debug
+Debugger
 :
 :
 handleThrow
@@ -3459,7 +3459,7 @@ st
 ;
 }
 JSTrapStatus
-Debug
+Debugger
 :
 :
 dispatchHook
@@ -3473,9 +3473,9 @@ js
 Value
 *
 vp
-DebugObservesMethod
+DebuggerObservesMethod
 observesEvent
-DebugHandleMethod
+DebuggerHandleMethod
 handleEvent
 )
 {
@@ -3510,7 +3510,7 @@ if
 GlobalObject
 :
 :
-DebugVector
+DebuggerVector
 *
 debuggers
 =
@@ -3524,7 +3524,7 @@ getDebuggers
 {
 for
 (
-Debug
+Debugger
 *
 *
 p
@@ -3551,7 +3551,7 @@ p
 +
 )
 {
-Debug
+Debugger
 *
 dbg
 =
@@ -3622,11 +3622,11 @@ p
 +
 )
 {
-Debug
+Debugger
 *
 dbg
 =
-Debug
+Debugger
 :
 :
 fromJSObject
@@ -3696,7 +3696,7 @@ JSTRAP_CONTINUE
 ;
 }
 JSTrapStatus
-Debug
+Debugger
 :
 :
 onTrap
@@ -3878,7 +3878,7 @@ bp
 )
 continue
 ;
-Debug
+Debugger
 *
 dbg
 =
@@ -4088,7 +4088,7 @@ JSTRAP_CONTINUE
 ;
 }
 void
-Debug
+Debugger
 :
 :
 markKeysInCompartment
@@ -4228,10 +4228,10 @@ key
 }
 }
 void
-Debug
+Debugger
 :
 :
-markCrossCompartmentDebugObjectReferents
+markCrossCompartmentDebuggerObjectReferents
 (
 JSTracer
 *
@@ -4289,11 +4289,11 @@ debuggerList
 ;
 )
 {
-Debug
+Debugger
 *
 dbg
 =
-Debug
+Debugger
 :
 :
 fromLinks
@@ -4339,7 +4339,7 @@ heldScripts
 }
 }
 bool
-Debug
+Debugger
 :
 :
 mark
@@ -4513,7 +4513,7 @@ const
 GlobalObject
 :
 :
-DebugVector
+DebuggerVector
 *
 debuggers
 =
@@ -4531,7 +4531,7 @@ debuggers
 ;
 for
 (
-Debug
+Debugger
 *
 *
 p
@@ -4558,7 +4558,7 @@ p
 +
 )
 {
-Debug
+Debugger
 *
 dbg
 =
@@ -4621,7 +4621,7 @@ trc
 obj
 "
 enabled
-Debug
+Debugger
 "
 )
 ;
@@ -4640,7 +4640,7 @@ markedAny
 ;
 }
 void
-Debug
+Debugger
 :
 :
 traceObject
@@ -4655,11 +4655,11 @@ obj
 {
 if
 (
-Debug
+Debugger
 *
 dbg
 =
-Debug
+Debugger
 :
 :
 fromJSObject
@@ -4677,7 +4677,7 @@ trc
 ;
 }
 void
-Debug
+Debugger
 :
 :
 trace
@@ -4768,7 +4768,7 @@ trc
 frameobj
 "
 live
-Debug
+Debugger
 .
 Frame
 "
@@ -4847,7 +4847,7 @@ scriptobj
 "
 live
 eval
-Debug
+Debugger
 .
 Script
 "
@@ -4856,7 +4856,7 @@ Script
 }
 }
 void
-Debug
+Debugger
 :
 :
 sweepAll
@@ -4905,11 +4905,11 @@ debuggerList
 ;
 )
 {
-Debug
+Debugger
 *
 dbg
 =
-Debug
+Debugger
 :
 :
 fromLinks
@@ -5080,7 +5080,7 @@ e
 }
 }
 void
-Debug
+Debugger
 :
 :
 detachAllDebuggersFromGlobal
@@ -5103,7 +5103,7 @@ const
 GlobalObject
 :
 :
-DebugVector
+DebuggerVector
 *
 debuggers
 =
@@ -5153,7 +5153,7 @@ NULL
 ;
 }
 void
-Debug
+Debugger
 :
 :
 finalize
@@ -5166,12 +5166,12 @@ JSObject
 obj
 )
 {
-Debug
+Debugger
 *
 dbg
 =
 (
-Debug
+Debugger
 *
 )
 obj
@@ -5277,14 +5277,14 @@ dbg
 ;
 }
 Class
-Debug
+Debugger
 :
 :
 jsclass
 =
 {
 "
-Debug
+Debugger
 "
 JSCLASS_HAS_PRIVATE
 |
@@ -5299,7 +5299,7 @@ StrictPropertyStub
 EnumerateStub
 ResolveStub
 ConvertStub
-Debug
+Debugger
 :
 :
 finalize
@@ -5309,14 +5309,14 @@ NULL
 NULL
 NULL
 NULL
-Debug
+Debugger
 :
 :
 traceObject
 }
 ;
 JSBool
-Debug
+Debugger
 :
 :
 getHooks
@@ -5335,7 +5335,7 @@ THISOBJ
 (
 cx
 vp
-Debug
+Debugger
 "
 get
 hooks
@@ -5361,7 +5361,7 @@ true
 ;
 }
 JSBool
-Debug
+Debugger
 :
 :
 setHooks
@@ -5379,7 +5379,7 @@ vp
 REQUIRE_ARGC
 (
 "
-Debug
+Debugger
 .
 set
 hooks
@@ -5391,7 +5391,7 @@ THISOBJ
 (
 cx
 vp
-Debug
+Debugger
 "
 set
 hooks
@@ -5518,7 +5518,7 @@ true
 ;
 }
 JSBool
-Debug
+Debugger
 :
 :
 getEnabled
@@ -5537,7 +5537,7 @@ THISOBJ
 (
 cx
 vp
-Debug
+Debugger
 "
 get
 enabled
@@ -5562,7 +5562,7 @@ true
 ;
 }
 JSBool
-Debug
+Debugger
 :
 :
 setEnabled
@@ -5580,7 +5580,7 @@ vp
 REQUIRE_ARGC
 (
 "
-Debug
+Debugger
 .
 set
 enabled
@@ -5592,7 +5592,7 @@ THISOBJ
 (
 cx
 vp
-Debug
+Debugger
 "
 set
 enabled
@@ -5695,6 +5695,7 @@ nextInDebugger
 (
 )
 )
+{
 bp
 -
 >
@@ -5706,6 +5707,7 @@ dec
 cx
 )
 ;
+}
 return
 false
 ;
@@ -5746,7 +5748,7 @@ true
 ;
 }
 JSBool
-Debug
+Debugger
 :
 :
 getUncaughtExceptionHook
@@ -5765,7 +5767,7 @@ THISOBJ
 (
 cx
 vp
-Debug
+Debugger
 "
 get
 uncaughtExceptionHook
@@ -5790,7 +5792,7 @@ true
 ;
 }
 JSBool
-Debug
+Debugger
 :
 :
 setUncaughtExceptionHook
@@ -5808,7 +5810,7 @@ vp
 REQUIRE_ARGC
 (
 "
-Debug
+Debugger
 .
 set
 uncaughtExceptionHook
@@ -5820,7 +5822,7 @@ THISOBJ
 (
 cx
 vp
-Debug
+Debugger
 "
 set
 uncaughtExceptionHook
@@ -5912,7 +5914,7 @@ true
 }
 JSObject
 *
-Debug
+Debugger
 :
 :
 unwrapDebuggeeArgument
@@ -5961,7 +5963,7 @@ clasp
 =
 =
 &
-DebugObject_class
+DebuggerObject_class
 )
 {
 if
@@ -6014,7 +6016,7 @@ obj
 ;
 }
 JSBool
-Debug
+Debugger
 :
 :
 addDebuggee
@@ -6032,7 +6034,7 @@ vp
 REQUIRE_ARGC
 (
 "
-Debug
+Debugger
 .
 addDebuggee
 "
@@ -6043,7 +6045,7 @@ THISOBJ
 (
 cx
 vp
-Debug
+Debugger
 "
 addDebuggee
 "
@@ -6145,7 +6147,7 @@ true
 ;
 }
 JSBool
-Debug
+Debugger
 :
 :
 removeDebuggee
@@ -6163,7 +6165,7 @@ vp
 REQUIRE_ARGC
 (
 "
-Debug
+Debugger
 .
 removeDebuggee
 "
@@ -6174,7 +6176,7 @@ THISOBJ
 (
 cx
 vp
-Debug
+Debugger
 "
 removeDebuggee
 "
@@ -6249,7 +6251,7 @@ true
 ;
 }
 JSBool
-Debug
+Debugger
 :
 :
 hasDebuggee
@@ -6267,7 +6269,7 @@ vp
 REQUIRE_ARGC
 (
 "
-Debug
+Debugger
 .
 hasDebuggee
 "
@@ -6278,7 +6280,7 @@ THISOBJ
 (
 cx
 vp
-Debug
+Debugger
 "
 hasDebuggee
 "
@@ -6335,7 +6337,7 @@ true
 ;
 }
 JSBool
-Debug
+Debugger
 :
 :
 getDebuggees
@@ -6354,7 +6356,7 @@ THISOBJ
 (
 cx
 vp
-Debug
+Debugger
 "
 getDebuggees
 "
@@ -6476,7 +6478,7 @@ true
 ;
 }
 JSBool
-Debug
+Debugger
 :
 :
 getYoungestFrame
@@ -6495,7 +6497,7 @@ THISOBJ
 (
 cx
 vp
-Debug
+Debugger
 "
 getYoungestFrame
 "
@@ -6572,7 +6574,7 @@ true
 ;
 }
 JSBool
-Debug
+Debugger
 :
 :
 clearAllBreakpoints
@@ -6591,7 +6593,7 @@ THISOBJ
 (
 cx
 vp
-Debug
+Debugger
 "
 clearAllBreakpoints
 "
@@ -6654,7 +6656,7 @@ true
 ;
 }
 JSBool
-Debug
+Debugger
 :
 :
 construct
@@ -6753,7 +6755,7 @@ js_GetErrorMessage
 NULL
 JSMSG_CCW_REQUIRED
 "
-Debug
+Debugger
 "
 )
 ;
@@ -6826,7 +6828,7 @@ getClass
 =
 =
 &
-Debug
+Debugger
 :
 :
 jsclass
@@ -6846,7 +6848,7 @@ Given
 (
 cx
 &
-Debug
+Debugger
 :
 :
 jsclass
@@ -6921,7 +6923,7 @@ hooks
 return
 false
 ;
-Debug
+Debugger
 *
 dbg
 =
@@ -6930,7 +6932,7 @@ cx
 >
 new_
 <
-Debug
+Debugger
 >
 (
 obj
@@ -7048,7 +7050,7 @@ true
 ;
 }
 bool
-Debug
+Debugger
 :
 :
 addDebuggeeGlobal
@@ -7185,7 +7187,7 @@ popFront
 GlobalObject
 :
 :
-DebugVector
+DebuggerVector
 *
 v
 =
@@ -7202,7 +7204,7 @@ getDebuggers
 ;
 for
 (
-Debug
+Debugger
 *
 *
 p
@@ -7331,7 +7333,7 @@ false
 GlobalObject
 :
 :
-DebugVector
+DebuggerVector
 *
 v
 =
@@ -7460,7 +7462,7 @@ false
 ;
 }
 void
-Debug
+Debugger
 :
 :
 removeDebuggeeGlobal
@@ -7625,7 +7627,7 @@ removeFront
 GlobalObject
 :
 :
-DebugVector
+DebuggerVector
 *
 v
 =
@@ -7636,7 +7638,7 @@ getDebuggers
 (
 )
 ;
-Debug
+Debugger
 *
 *
 p
@@ -7744,7 +7746,7 @@ global
 ;
 }
 JSPropertySpec
-Debug
+Debugger
 :
 :
 properties
@@ -7757,11 +7759,11 @@ JS_PSGS
 "
 hooks
 "
-Debug
+Debugger
 :
 :
 getHooks
-Debug
+Debugger
 :
 :
 setHooks
@@ -7772,11 +7774,11 @@ JS_PSGS
 "
 enabled
 "
-Debug
+Debugger
 :
 :
 getEnabled
-Debug
+Debugger
 :
 :
 setEnabled
@@ -7787,11 +7789,11 @@ JS_PSGS
 "
 uncaughtExceptionHook
 "
-Debug
+Debugger
 :
 :
 getUncaughtExceptionHook
-Debug
+Debugger
 :
 :
 setUncaughtExceptionHook
@@ -7801,7 +7803,7 @@ JS_PS_END
 }
 ;
 JSFunctionSpec
-Debug
+Debugger
 :
 :
 methods
@@ -7814,7 +7816,7 @@ JS_FN
 "
 addDebuggee
 "
-Debug
+Debugger
 :
 :
 addDebuggee
@@ -7826,7 +7828,7 @@ JS_FN
 "
 removeDebuggee
 "
-Debug
+Debugger
 :
 :
 removeDebuggee
@@ -7838,7 +7840,7 @@ JS_FN
 "
 hasDebuggee
 "
-Debug
+Debugger
 :
 :
 hasDebuggee
@@ -7850,7 +7852,7 @@ JS_FN
 "
 getDebuggees
 "
-Debug
+Debugger
 :
 :
 getDebuggees
@@ -7862,7 +7864,7 @@ JS_FN
 "
 getYoungestFrame
 "
-Debug
+Debugger
 :
 :
 getYoungestFrame
@@ -7874,7 +7876,7 @@ JS_FN
 "
 clearAllBreakpoints
 "
-Debug
+Debugger
 :
 :
 clearAllBreakpoints
@@ -7906,7 +7908,7 @@ getClass
 =
 =
 &
-DebugScript_class
+DebuggerScript_class
 )
 ;
 return
@@ -7943,7 +7945,7 @@ getClass
 =
 =
 &
-DebugScript_class
+DebuggerScript_class
 )
 ;
 obj
@@ -7977,7 +7979,7 @@ getClass
 =
 =
 &
-DebugScript_class
+DebuggerScript_class
 )
 ;
 Value
@@ -8005,7 +8007,7 @@ toPrivate
 }
 static
 void
-DebugScript_trace
+DebuggerScript_trace
 (
 JSTracer
 *
@@ -8073,7 +8075,7 @@ trc
 *
 obj
 "
-Debug
+Debugger
 .
 Script
 referent
@@ -8085,7 +8087,7 @@ holder
 }
 }
 Class
-DebugScript_class
+DebuggerScript_class
 =
 {
 "
@@ -8111,15 +8113,15 @@ NULL
 NULL
 NULL
 NULL
-DebugScript_trace
+DebuggerScript_trace
 }
 ;
 JSObject
 *
-Debug
+Debugger
 :
 :
-newDebugScript
+newDebuggerScript
 (
 JSContext
 *
@@ -8168,7 +8170,7 @@ Given
 (
 cx
 &
-DebugScript_class
+DebuggerScript_class
 proto
 NULL
 )
@@ -8230,7 +8232,7 @@ scriptobj
 }
 JSObject
 *
-Debug
+Debugger
 :
 :
 wrapHeldScript
@@ -8275,7 +8277,7 @@ JSObject
 *
 scriptobj
 =
-newDebugScript
+newDebuggerScript
 (
 cx
 script
@@ -8325,7 +8327,7 @@ value
 }
 JSObject
 *
-Debug
+Debugger
 :
 :
 wrapFunctionScript
@@ -8354,7 +8356,7 @@ fun
 }
 JSObject
 *
-Debug
+Debugger
 :
 :
 wrapJSAPIScript
@@ -8393,7 +8395,7 @@ obj
 }
 JSObject
 *
-Debug
+Debugger
 :
 :
 wrapEvalScript
@@ -8443,7 +8445,7 @@ JSObject
 *
 scriptobj
 =
-newDebugScript
+newDebuggerScript
 (
 cx
 script
@@ -8492,7 +8494,7 @@ value
 ;
 }
 void
-Debug
+Debugger
 :
 :
 slowPathOnDestroyScript
@@ -8552,7 +8554,7 @@ popFront
 GlobalObject
 :
 :
-DebugVector
+DebuggerVector
 *
 debuggers
 =
@@ -8569,7 +8571,7 @@ getDebuggers
 ;
 for
 (
-Debug
+Debugger
 *
 *
 p
@@ -8609,7 +8611,7 @@ script
 }
 }
 void
-Debug
+Debugger
 :
 :
 destroyEvalScript
@@ -8671,7 +8673,7 @@ p
 static
 JSObject
 *
-DebugScript_check
+DebuggerScript_check
 (
 JSContext
 *
@@ -8731,7 +8733,7 @@ clasp
 !
 =
 &
-DebugScript_class
+DebuggerScript_class
 )
 {
 JS_ReportErrorNumber
@@ -8826,7 +8828,7 @@ thisobj
 static
 JSObject
 *
-DebugScript_checkThis
+DebuggerScript_checkThis
 (
 JSContext
 *
@@ -8843,7 +8845,7 @@ checkLive
 )
 {
 return
-DebugScript_check
+DebuggerScript_check
 (
 cx
 vp
@@ -8851,7 +8853,7 @@ vp
 1
 ]
 "
-Debug
+Debugger
 .
 Script
 "
@@ -8876,7 +8878,7 @@ JSObject
 *
 obj
 =
-DebugScript_checkThis
+DebuggerScript_checkThis
 (
 cx
 vp
@@ -8945,7 +8947,7 @@ true
 )
 static
 JSBool
-DebugScript_getLive
+DebuggerScript_getLive
 (
 JSContext
 *
@@ -8985,7 +8987,7 @@ true
 }
 static
 JSBool
-DebugScript_getChildScripts
+DebuggerScript_getChildScripts
 (
 JSContext
 *
@@ -9009,11 +9011,11 @@ obj
 script
 )
 ;
-Debug
+Debugger
 *
 dbg
 =
-Debug
+Debugger
 :
 :
 fromChildJSObject
@@ -9257,7 +9259,7 @@ true
 }
 static
 JSBool
-DebugScript_getOffsetLine
+DebuggerScript_getOffsetLine
 (
 JSContext
 *
@@ -9272,7 +9274,7 @@ vp
 REQUIRE_ARGC
 (
 "
-Debug
+Debugger
 .
 Script
 .
@@ -10135,7 +10137,7 @@ true
 ;
 static
 JSBool
-DebugScript_getAllOffsets
+DebuggerScript_getAllOffsets
 (
 JSContext
 *
@@ -10394,7 +10396,7 @@ true
 }
 static
 JSBool
-DebugScript_getLineOffsets
+DebuggerScript_getLineOffsets
 (
 JSContext
 *
@@ -10420,7 +10422,7 @@ script
 REQUIRE_ARGC
 (
 "
-Debug
+Debugger
 .
 Script
 .
@@ -10627,7 +10629,7 @@ true
 ;
 }
 JSBool
-DebugScript_setBreakpoint
+DebuggerScript_setBreakpoint
 (
 JSContext
 *
@@ -10642,7 +10644,7 @@ vp
 REQUIRE_ARGC
 (
 "
-Debug
+Debugger
 .
 Script
 .
@@ -10662,11 +10664,11 @@ obj
 script
 )
 ;
-Debug
+Debugger
 *
 dbg
 =
-Debug
+Debugger
 :
 :
 fromChildJSObject
@@ -10864,7 +10866,7 @@ false
 ;
 }
 JSBool
-DebugScript_getBreakpoints
+DebuggerScript_getBreakpoints
 (
 JSContext
 *
@@ -10887,11 +10889,11 @@ obj
 script
 )
 ;
-Debug
+Debugger
 *
 dbg
 =
-Debug
+Debugger
 :
 :
 fromChildJSObject
@@ -11118,7 +11120,7 @@ true
 ;
 }
 JSBool
-DebugScript_clearBreakpoint
+DebuggerScript_clearBreakpoint
 (
 JSContext
 *
@@ -11133,7 +11135,7 @@ vp
 REQUIRE_ARGC
 (
 "
-Debug
+Debugger
 .
 Script
 .
@@ -11153,11 +11155,11 @@ obj
 script
 )
 ;
-Debug
+Debugger
 *
 dbg
 =
-Debug
+Debugger
 :
 :
 fromChildJSObject
@@ -11212,7 +11214,7 @@ true
 ;
 }
 JSBool
-DebugScript_clearAllBreakpoints
+DebuggerScript_clearAllBreakpoints
 (
 JSContext
 *
@@ -11235,11 +11237,11 @@ obj
 script
 )
 ;
-Debug
+Debugger
 *
 dbg
 =
-Debug
+Debugger
 :
 :
 fromChildJSObject
@@ -11274,7 +11276,7 @@ true
 }
 static
 JSBool
-DebugScript_construct
+DebuggerScript_construct
 (
 JSContext
 *
@@ -11293,7 +11295,7 @@ js_GetErrorMessage
 NULL
 JSMSG_NO_CONSTRUCTOR
 "
-Debug
+Debugger
 .
 Script
 "
@@ -11305,7 +11307,7 @@ false
 }
 static
 JSPropertySpec
-DebugScript_properties
+DebuggerScript_properties
 [
 ]
 =
@@ -11315,7 +11317,7 @@ JS_PSG
 "
 live
 "
-DebugScript_getLive
+DebuggerScript_getLive
 0
 )
 JS_PS_END
@@ -11323,7 +11325,7 @@ JS_PS_END
 ;
 static
 JSFunctionSpec
-DebugScript_methods
+DebuggerScript_methods
 [
 ]
 =
@@ -11333,7 +11335,7 @@ JS_FN
 "
 getChildScripts
 "
-DebugScript_getChildScripts
+DebuggerScript_getChildScripts
 0
 0
 )
@@ -11342,7 +11344,7 @@ JS_FN
 "
 getAllOffsets
 "
-DebugScript_getAllOffsets
+DebuggerScript_getAllOffsets
 0
 0
 )
@@ -11351,7 +11353,7 @@ JS_FN
 "
 getLineOffsets
 "
-DebugScript_getLineOffsets
+DebuggerScript_getLineOffsets
 1
 0
 )
@@ -11360,7 +11362,7 @@ JS_FN
 "
 getOffsetLine
 "
-DebugScript_getOffsetLine
+DebuggerScript_getOffsetLine
 0
 0
 )
@@ -11369,7 +11371,7 @@ JS_FN
 "
 setBreakpoint
 "
-DebugScript_setBreakpoint
+DebuggerScript_setBreakpoint
 2
 0
 )
@@ -11378,7 +11380,7 @@ JS_FN
 "
 getBreakpoints
 "
-DebugScript_getBreakpoints
+DebuggerScript_getBreakpoints
 1
 0
 )
@@ -11387,7 +11389,7 @@ JS_FN
 "
 clearBreakpoint
 "
-DebugScript_clearBreakpoint
+DebuggerScript_clearBreakpoint
 1
 0
 )
@@ -11396,7 +11398,7 @@ JS_FN
 "
 clearAllBreakpoints
 "
-DebugScript_clearAllBreakpoints
+DebuggerScript_clearAllBreakpoints
 0
 0
 )
@@ -11404,7 +11406,7 @@ JS_FS_END
 }
 ;
 Class
-DebugFrame_class
+DebuggerFrame_class
 =
 {
 "
@@ -11491,7 +11493,7 @@ getClass
 !
 =
 &
-DebugFrame_class
+DebuggerFrame_class
 )
 {
 JS_ReportErrorNumber
@@ -11501,7 +11503,7 @@ js_GetErrorMessage
 NULL
 JSMSG_INCOMPATIBLE_PROTO
 "
-Debug
+Debugger
 .
 Frame
 "
@@ -11554,7 +11556,7 @@ js_GetErrorMessage
 NULL
 JSMSG_INCOMPATIBLE_PROTO
 "
-Debug
+Debugger
 .
 Frame
 "
@@ -11581,7 +11583,7 @@ js_GetErrorMessage
 NULL
 JSMSG_DEBUG_NOT_LIVE
 "
-Debug
+Debugger
 .
 Frame
 "
@@ -11724,7 +11726,7 @@ fp
 )
 static
 JSBool
-DebugFrame_getType
+DebuggerFrame_getType
 (
 JSContext
 *
@@ -11804,7 +11806,7 @@ true
 }
 static
 JSBool
-DebugFrame_getCallee
+DebuggerFrame_getCallee
 (
 JSContext
 *
@@ -11861,7 +11863,7 @@ NullValue
 )
 ;
 return
-Debug
+Debugger
 :
 :
 fromChildJSObject
@@ -11879,7 +11881,7 @@ vp
 }
 static
 JSBool
-DebugFrame_getGenerator
+DebuggerFrame_getGenerator
 (
 JSContext
 *
@@ -11922,7 +11924,7 @@ true
 }
 static
 JSBool
-DebugFrame_getConstructing
+DebuggerFrame_getConstructing
 (
 JSContext
 *
@@ -11973,7 +11975,7 @@ true
 }
 static
 JSBool
-DebugFrame_getThis
+DebuggerFrame_getThis
 (
 JSContext
 *
@@ -12047,7 +12049,7 @@ thisValue
 ;
 }
 return
-Debug
+Debugger
 :
 :
 fromChildJSObject
@@ -12065,7 +12067,7 @@ vp
 }
 static
 JSBool
-DebugFrame_getOlder
+DebuggerFrame_getOlder
 (
 JSContext
 *
@@ -12089,11 +12091,11 @@ thisobj
 thisfp
 )
 ;
-Debug
+Debugger
 *
 dbg
 =
-Debug
+Debugger
 :
 :
 fromChildJSObject
@@ -12169,7 +12171,7 @@ true
 ;
 }
 Class
-DebugArguments_class
+DebuggerArguments_class
 =
 {
 "
@@ -12189,7 +12191,7 @@ ConvertStub
 }
 ;
 JSBool
-DebugArguments_getArg
+DebuggerArguments_getArg
 (
 JSContext
 *
@@ -12278,7 +12280,7 @@ getClass
 !
 =
 &
-DebugArguments_class
+DebuggerArguments_class
 )
 {
 JS_ReportErrorNumber
@@ -12377,7 +12379,7 @@ setUndefined
 )
 ;
 return
-Debug
+Debugger
 :
 :
 fromChildJSObject
@@ -12394,7 +12396,7 @@ vp
 ;
 }
 JSBool
-DebugFrame_getArguments
+DebuggerFrame_getArguments
 (
 JSContext
 *
@@ -12520,7 +12522,7 @@ Given
 (
 cx
 &
-DebugArguments_class
+DebuggerArguments_class
 proto
 global
 )
@@ -12636,7 +12638,7 @@ js_NewFunction
 (
 cx
 NULL
-DebugArguments_getArg
+DebuggerArguments_getArg
 0
 0
 global
@@ -12727,7 +12729,7 @@ true
 }
 static
 JSBool
-DebugFrame_getScript
+DebuggerFrame_getScript
 (
 JSContext
 *
@@ -12751,11 +12753,11 @@ thisobj
 fp
 )
 ;
-Debug
+Debugger
 *
 debug
 =
-Debug
+Debugger
 :
 :
 fromChildJSObject
@@ -12949,7 +12951,7 @@ true
 }
 static
 JSBool
-DebugFrame_getOffset
+DebuggerFrame_getOffset
 (
 JSContext
 *
@@ -13070,7 +13072,7 @@ true
 }
 static
 JSBool
-DebugFrame_getLive
+DebuggerFrame_getLive
 (
 JSContext
 *
@@ -13262,7 +13264,7 @@ WithBindings
 ;
 static
 JSBool
-DebugFrameEval
+DebuggerFrameEval
 (
 JSContext
 *
@@ -13284,7 +13286,7 @@ mode
 WithBindings
 ?
 "
-Debug
+Debugger
 .
 Frame
 .
@@ -13292,7 +13294,7 @@ evalWithBindings
 "
 :
 "
-Debug
+Debugger
 .
 Frame
 .
@@ -13331,11 +13333,11 @@ thisobj
 fp
 )
 ;
-Debug
+Debugger
 *
 dbg
 =
-Debug
+Debugger
 :
 :
 fromChildJSObject
@@ -13371,7 +13373,7 @@ js_GetErrorMessage
 NULL
 JSMSG_NOT_EXPECTED_TYPE
 "
-Debug
+Debugger
 .
 Frame
 .
@@ -13785,7 +13787,7 @@ vp
 }
 static
 JSBool
-DebugFrame_eval
+DebuggerFrame_eval
 (
 JSContext
 *
@@ -13798,7 +13800,7 @@ vp
 )
 {
 return
-DebugFrameEval
+DebuggerFrameEval
 (
 cx
 argc
@@ -13809,7 +13811,7 @@ WithoutBindings
 }
 static
 JSBool
-DebugFrame_evalWithBindings
+DebuggerFrame_evalWithBindings
 (
 JSContext
 *
@@ -13822,7 +13824,7 @@ vp
 )
 {
 return
-DebugFrameEval
+DebuggerFrameEval
 (
 cx
 argc
@@ -13833,7 +13835,7 @@ WithBindings
 }
 static
 JSBool
-DebugFrame_construct
+DebuggerFrame_construct
 (
 JSContext
 *
@@ -13852,7 +13854,7 @@ js_GetErrorMessage
 NULL
 JSMSG_NO_CONSTRUCTOR
 "
-Debug
+Debugger
 .
 Frame
 "
@@ -13864,7 +13866,7 @@ false
 }
 static
 JSPropertySpec
-DebugFrame_properties
+DebuggerFrame_properties
 [
 ]
 =
@@ -13874,7 +13876,7 @@ JS_PSG
 "
 arguments
 "
-DebugFrame_getArguments
+DebuggerFrame_getArguments
 0
 )
 JS_PSG
@@ -13882,7 +13884,7 @@ JS_PSG
 "
 callee
 "
-DebugFrame_getCallee
+DebuggerFrame_getCallee
 0
 )
 JS_PSG
@@ -13890,7 +13892,7 @@ JS_PSG
 "
 constructing
 "
-DebugFrame_getConstructing
+DebuggerFrame_getConstructing
 0
 )
 JS_PSG
@@ -13898,7 +13900,7 @@ JS_PSG
 "
 generator
 "
-DebugFrame_getGenerator
+DebuggerFrame_getGenerator
 0
 )
 JS_PSG
@@ -13906,7 +13908,7 @@ JS_PSG
 "
 live
 "
-DebugFrame_getLive
+DebuggerFrame_getLive
 0
 )
 JS_PSG
@@ -13914,7 +13916,7 @@ JS_PSG
 "
 offset
 "
-DebugFrame_getOffset
+DebuggerFrame_getOffset
 0
 )
 JS_PSG
@@ -13922,7 +13924,7 @@ JS_PSG
 "
 older
 "
-DebugFrame_getOlder
+DebuggerFrame_getOlder
 0
 )
 JS_PSG
@@ -13930,7 +13932,7 @@ JS_PSG
 "
 script
 "
-DebugFrame_getScript
+DebuggerFrame_getScript
 0
 )
 JS_PSG
@@ -13938,7 +13940,7 @@ JS_PSG
 "
 this
 "
-DebugFrame_getThis
+DebuggerFrame_getThis
 0
 )
 JS_PSG
@@ -13946,7 +13948,7 @@ JS_PSG
 "
 type
 "
-DebugFrame_getType
+DebuggerFrame_getType
 0
 )
 JS_PS_END
@@ -13954,7 +13956,7 @@ JS_PS_END
 ;
 static
 JSFunctionSpec
-DebugFrame_methods
+DebuggerFrame_methods
 [
 ]
 =
@@ -13964,7 +13966,7 @@ JS_FN
 "
 eval
 "
-DebugFrame_eval
+DebuggerFrame_eval
 1
 0
 )
@@ -13973,7 +13975,7 @@ JS_FN
 "
 evalWithBindings
 "
-DebugFrame_evalWithBindings
+DebuggerFrame_evalWithBindings
 1
 0
 )
@@ -13982,7 +13984,7 @@ JS_FS_END
 ;
 static
 void
-DebugObject_trace
+DebuggerObject_trace
 (
 JSTracer
 *
@@ -14030,7 +14032,7 @@ trc
 *
 referent
 "
-Debug
+Debugger
 .
 Object
 referent
@@ -14040,7 +14042,7 @@ referent
 }
 }
 Class
-DebugObject_class
+DebuggerObject_class
 =
 {
 "
@@ -14066,13 +14068,13 @@ NULL
 NULL
 NULL
 NULL
-DebugObject_trace
+DebuggerObject_trace
 }
 ;
 static
 JSObject
 *
-DebugObject_checkThis
+DebuggerObject_checkThis
 (
 JSContext
 *
@@ -14131,7 +14133,7 @@ clasp
 !
 =
 &
-DebugObject_class
+DebuggerObject_class
 )
 {
 JS_ReportErrorNumber
@@ -14141,7 +14143,7 @@ js_GetErrorMessage
 NULL
 JSMSG_INCOMPATIBLE_PROTO
 "
-Debug
+Debugger
 .
 Object
 "
@@ -14179,7 +14181,7 @@ js_GetErrorMessage
 NULL
 JSMSG_INCOMPATIBLE_PROTO
 "
-Debug
+Debugger
 .
 Object
 "
@@ -14212,7 +14214,7 @@ JSObject
 *
 obj
 =
-DebugObject_checkThis
+DebuggerObject_checkThis
 (
 cx
 vp
@@ -14263,7 +14265,7 @@ JSObject
 *
 obj
 =
-DebugObject_checkThis
+DebuggerObject_checkThis
 (
 cx
 vp
@@ -14281,11 +14283,11 @@ return
 false
 ;
 \
-Debug
+Debugger
 *
 dbg
 =
-Debug
+Debugger
 :
 :
 fromChildJSObject
@@ -14314,7 +14316,7 @@ obj
 )
 static
 JSBool
-DebugObject_construct
+DebuggerObject_construct
 (
 JSContext
 *
@@ -14333,7 +14335,7 @@ js_GetErrorMessage
 NULL
 JSMSG_NO_CONSTRUCTOR
 "
-Debug
+Debugger
 .
 Object
 "
@@ -14345,7 +14347,7 @@ false
 }
 static
 JSBool
-DebugObject_getProto
+DebuggerObject_getProto
 (
 JSContext
 *
@@ -14395,7 +14397,7 @@ vp
 }
 static
 JSBool
-DebugObject_getClass
+DebuggerObject_getClass
 (
 JSContext
 *
@@ -14467,7 +14469,7 @@ true
 }
 static
 JSBool
-DebugObject_getCallable
+DebuggerObject_getCallable
 (
 JSContext
 *
@@ -14509,7 +14511,7 @@ true
 }
 static
 JSBool
-DebugObject_getName
+DebuggerObject_getName
 (
 JSContext
 *
@@ -14607,7 +14609,7 @@ vp
 }
 static
 JSBool
-DebugObject_getParameterNames
+DebuggerObject_getParameterNames
 (
 JSContext
 *
@@ -14874,7 +14876,7 @@ true
 }
 static
 JSBool
-DebugObject_getScript
+DebuggerObject_getScript
 (
 JSContext
 *
@@ -15037,7 +15039,7 @@ js_GetErrorMessage
 NULL
 JSMSG_INCOMPATIBLE_PROTO
 "
-Debug
+Debugger
 .
 Object
 "
@@ -15421,7 +15423,7 @@ vp
 }
 static
 JSBool
-DebugObject_apply
+DebuggerObject_apply
 (
 JSContext
 *
@@ -15445,7 +15447,7 @@ ApplyMode
 }
 static
 JSBool
-DebugObject_call
+DebuggerObject_call
 (
 JSContext
 *
@@ -15469,7 +15471,7 @@ CallMode
 }
 static
 JSPropertySpec
-DebugObject_properties
+DebuggerObject_properties
 [
 ]
 =
@@ -15479,7 +15481,7 @@ JS_PSG
 "
 proto
 "
-DebugObject_getProto
+DebuggerObject_getProto
 0
 )
 JS_PSG
@@ -15487,7 +15489,7 @@ JS_PSG
 "
 class
 "
-DebugObject_getClass
+DebuggerObject_getClass
 0
 )
 JS_PSG
@@ -15495,7 +15497,7 @@ JS_PSG
 "
 callable
 "
-DebugObject_getCallable
+DebuggerObject_getCallable
 0
 )
 JS_PSG
@@ -15503,7 +15505,7 @@ JS_PSG
 "
 name
 "
-DebugObject_getName
+DebuggerObject_getName
 0
 )
 JS_PSG
@@ -15511,7 +15513,7 @@ JS_PSG
 "
 parameterNames
 "
-DebugObject_getParameterNames
+DebuggerObject_getParameterNames
 0
 )
 JS_PSG
@@ -15519,7 +15521,7 @@ JS_PSG
 "
 script
 "
-DebugObject_getScript
+DebuggerObject_getScript
 0
 )
 JS_PS_END
@@ -15527,7 +15529,7 @@ JS_PS_END
 ;
 static
 JSFunctionSpec
-DebugObject_methods
+DebuggerObject_methods
 [
 ]
 =
@@ -15537,7 +15539,7 @@ JS_FN
 "
 apply
 "
-DebugObject_apply
+DebuggerObject_apply
 0
 0
 )
@@ -15546,7 +15548,7 @@ JS_FN
 "
 call
 "
-DebugObject_call
+DebuggerObject_call
 0
 0
 )
@@ -15558,7 +15560,7 @@ JS_PUBLIC_API
 (
 JSBool
 )
-JS_DefineDebugObject
+JS_DefineDebuggerObject
 (
 JSContext
 *
@@ -15601,20 +15603,20 @@ cx
 obj
 objProto
 &
-Debug
+Debugger
 :
 :
 jsclass
-Debug
+Debugger
 :
 :
 construct
 1
-Debug
+Debugger
 :
 :
 properties
-Debug
+Debugger
 :
 :
 methods
@@ -15656,11 +15658,11 @@ cx
 debugCtor
 objProto
 &
-DebugFrame_class
-DebugFrame_construct
+DebuggerFrame_class
+DebuggerFrame_construct
 0
-DebugFrame_properties
-DebugFrame_methods
+DebuggerFrame_properties
+DebuggerFrame_methods
 NULL
 NULL
 &
@@ -15689,11 +15691,11 @@ cx
 debugCtor
 objProto
 &
-DebugScript_class
-DebugScript_construct
+DebuggerScript_class
+DebuggerScript_construct
 0
-DebugScript_properties
-DebugScript_methods
+DebuggerScript_properties
+DebuggerScript_methods
 NULL
 NULL
 &
@@ -15728,11 +15730,11 @@ cx
 debugCtor
 objProto
 &
-DebugObject_class
-DebugObject_construct
+DebuggerObject_class
+DebuggerObject_construct
 0
-DebugObject_properties
-DebugObject_methods
+DebuggerObject_properties
+DebuggerObject_methods
 NULL
 NULL
 )

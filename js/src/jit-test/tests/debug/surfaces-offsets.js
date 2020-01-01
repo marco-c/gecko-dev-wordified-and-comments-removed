@@ -24,7 +24,7 @@ compartment
 var
 dbg
 =
-Debug
+Debugger
 (
 g
 )

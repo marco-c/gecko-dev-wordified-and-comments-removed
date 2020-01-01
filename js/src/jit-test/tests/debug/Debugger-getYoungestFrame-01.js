@@ -25,7 +25,7 @@ var
 dbg
 =
 new
-Debug
+Debugger
 (
 g
 )
@@ -65,7 +65,7 @@ assertEq
 (
 frame
 instanceof
-Debug
+Debugger
 .
 Frame
 true

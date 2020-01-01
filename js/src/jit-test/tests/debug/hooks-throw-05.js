@@ -22,7 +22,7 @@ eval
 (
 "
 new
-Debug
+Debugger
 (
 parent
 )

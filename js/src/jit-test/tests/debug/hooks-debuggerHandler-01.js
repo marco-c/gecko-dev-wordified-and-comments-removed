@@ -20,7 +20,7 @@ log
 var
 dbg
 =
-Debug
+Debugger
 (
 g
 )

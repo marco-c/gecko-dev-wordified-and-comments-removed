@@ -43,7 +43,7 @@ var
 dbg
 =
 new
-Debug
+Debugger
 (
 debuggeeGlobal
 )

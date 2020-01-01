@@ -30,7 +30,7 @@ var
 dbg
 =
 new
-Debug
+Debugger
 ;
 dbg
 .

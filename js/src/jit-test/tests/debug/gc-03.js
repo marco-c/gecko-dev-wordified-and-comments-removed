@@ -22,7 +22,7 @@ N
 var
 dbg
 =
-Debug
+Debugger
 (
 g
 )

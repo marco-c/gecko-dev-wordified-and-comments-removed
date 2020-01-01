@@ -33,7 +33,7 @@ var
 dbg
 =
 new
-Debug
+Debugger
 (
 g1
 g2

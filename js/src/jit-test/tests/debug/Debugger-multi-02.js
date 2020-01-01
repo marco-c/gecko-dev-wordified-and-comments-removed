@@ -19,7 +19,7 @@ var
 hits
 ;
 function
-addDebug
+addDebugger
 (
 )
 {
@@ -27,7 +27,7 @@ var
 dbg
 =
 new
-Debug
+Debugger
 (
 g
 )
@@ -48,7 +48,7 @@ hits
 +
 +
 ;
-addDebug
+addDebugger
 (
 )
 ;
@@ -56,7 +56,7 @@ addDebug
 }
 ;
 }
-addDebug
+addDebugger
 (
 )
 ;

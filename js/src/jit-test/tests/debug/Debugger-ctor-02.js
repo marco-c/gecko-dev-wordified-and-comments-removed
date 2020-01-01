@@ -36,7 +36,7 @@ var
 dbg
 =
 new
-Debug
+Debugger
 (
 debuggeeGlobal
 )
@@ -53,7 +53,7 @@ eval
 "
 dbg
 instanceof
-Debug
+Debugger
 "
 )
 true
@@ -78,7 +78,7 @@ eval
 "
 parent
 .
-Debug
+Debugger
 (
 parent
 .
