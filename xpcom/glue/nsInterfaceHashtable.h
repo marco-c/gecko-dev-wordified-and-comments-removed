@@ -70,6 +70,7 @@ aKey
 UserDataType
 *
 pData
+NS_OUTPARAM
 )
 const
 ;
@@ -134,6 +135,7 @@ aKey
 UserDataType
 *
 pData
+NS_OUTPARAM
 )
 const
 ;
