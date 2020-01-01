@@ -194,6 +194,12 @@ UNKNOWN
 <
 <
 10
+UIAUTOMATION
+=
+1
+<
+<
+11
 }
 ;
 private
