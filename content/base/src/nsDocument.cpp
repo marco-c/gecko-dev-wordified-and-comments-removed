@@ -34125,7 +34125,7 @@ PR_STATIC_ASSERT
 eDeprecatedOperationCount
 <
 =
-64
+32
 )
 ;
 if

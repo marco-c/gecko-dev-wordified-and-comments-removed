@@ -3478,7 +3478,7 @@ aOperation
 ;
 private
 :
-PRUint64
+PRUint32
 mWarnedAbout
 ;
 protected
