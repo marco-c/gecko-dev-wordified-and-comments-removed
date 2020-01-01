@@ -3236,3 +3236,15 @@ precise
 true
 )
 ;
+pref
+(
+"
+power
+.
+screen
+.
+timeout
+"
+60
+)
+;
