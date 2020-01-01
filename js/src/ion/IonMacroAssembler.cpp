@@ -42,6 +42,15 @@ Bailouts
 .
 h
 "
+#
+include
+"
+vm
+/
+ForkJoin
+.
+h
+"
 using
 namespace
 js
@@ -1893,6 +1902,8 @@ FreeSpan
 compartment
 -
 >
+allocator
+.
 arenas
 .
 getFreeList

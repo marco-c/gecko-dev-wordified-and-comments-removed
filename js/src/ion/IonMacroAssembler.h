@@ -834,6 +834,8 @@ dest
 offsetof
 (
 JSRuntime
+mainThread
+.
 ionJSContext
 )
 )
@@ -875,6 +877,8 @@ dest
 offsetof
 (
 JSRuntime
+mainThread
+.
 ionActivation
 )
 )
