@@ -285,8 +285,8 @@ nsIdleServiceDaily
 >
 mDailyIdle
 ;
-bool
-mAnyObserverIdle
+uint32_t
+mIdleObserverCount
 ;
 uint32_t
 mDeltaToNextIdleSwitchInS
