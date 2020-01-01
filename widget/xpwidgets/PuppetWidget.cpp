@@ -1127,16 +1127,6 @@ aStatus
 =
 nsEventStatus_eIgnore
 ;
-NS_ABORT_IF_FALSE
-(
-mAttachedWidgetListener
-"
-No
-listener
-!
-"
-)
-;
 if
 (
 event
@@ -1250,6 +1240,11 @@ default
 break
 ;
 }
+if
+(
+mAttachedWidgetListener
+)
+{
 aStatus
 =
 mAttachedWidgetListener
@@ -1261,6 +1256,7 @@ event
 mUseAttachedEvents
 )
 ;
+}
 if
 (
 event
