@@ -1536,11 +1536,6 @@ aSettings
 .
 mIsTemporary
 ;
-NS_IF_ADDREF
-(
-certdi
-)
-;
 cap
 -
 >
@@ -1770,11 +1765,6 @@ mIsTemporary
 aSettings
 .
 mIsTemporary
-;
-NS_IF_ADDREF
-(
-certdi
-)
 ;
 cap
 -
