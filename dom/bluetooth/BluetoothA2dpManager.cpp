@@ -1262,6 +1262,10 @@ EmptyString
 }
 break
 ;
+default
+:
+break
+;
 }
 }
 void
@@ -1325,7 +1329,7 @@ get
 )
 )
 {
-NS_WARNING
+BT_WARNING
 (
 "
 Failed

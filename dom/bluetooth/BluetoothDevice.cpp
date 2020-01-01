@@ -658,7 +658,7 @@ address
 )
 )
 {
-NS_WARNING
+BT_WARNING
 (
 "
 Cannot
@@ -762,7 +762,7 @@ address
 )
 )
 {
-NS_WARNING
+BT_WARNING
 (
 "
 Cannot
@@ -814,7 +814,7 @@ name
 )
 )
 ;
-NS_WARNING
+BT_WARNING
 (
 warningMsg
 .
@@ -893,7 +893,7 @@ BluetoothSignal
 aData
 )
 {
-BT_LOG
+BT_LOGD
 (
 "
 [
@@ -1049,7 +1049,7 @@ name
 )
 )
 ;
-NS_WARNING
+BT_WARNING
 (
 warningMsg
 .
@@ -1085,7 +1085,7 @@ if
 mJsUuids
 )
 {
-NS_WARNING
+BT_WARNING
 (
 "
 UUIDs
@@ -1093,8 +1093,6 @@ not
 yet
 set
 !
-\
-n
 "
 )
 ;
@@ -1156,7 +1154,7 @@ if
 mJsServices
 )
 {
-NS_WARNING
+BT_WARNING
 (
 "
 Services
@@ -1164,8 +1162,6 @@ not
 yet
 set
 !
-\
-n
 "
 )
 ;

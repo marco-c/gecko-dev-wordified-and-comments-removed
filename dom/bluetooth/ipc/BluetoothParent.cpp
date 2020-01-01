@@ -171,7 +171,7 @@ mReply
 )
 )
 {
-NS_WARNING
+BT_WARNING
 (
 "
 Failed

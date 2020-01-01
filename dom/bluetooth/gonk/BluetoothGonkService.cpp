@@ -397,7 +397,7 @@ bt_is_enabled
 0
 )
 {
-NS_WARNING
+BT_WARNING
 (
 "
 Bluetooth
@@ -410,6 +410,8 @@ to
 HCI
 socket
 !
+"
+"
 Check
 bluetoothd
 and
@@ -435,7 +437,7 @@ bt_disable
 0
 )
 {
-NS_WARNING
+BT_WARNING
 (
 "
 Problem
@@ -482,7 +484,7 @@ if
 result
 )
 {
-NS_WARNING
+BT_WARNING
 (
 "
 Could

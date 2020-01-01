@@ -144,7 +144,7 @@ BluetoothValue
 TArrayOfBluetoothNamedValue
 )
 {
-NS_WARNING
+BT_WARNING
 (
 "
 SetJsObject
@@ -321,7 +321,7 @@ break
 ;
 default
 :
-NS_WARNING
+BT_WARNING
 (
 "
 SetJsObject
@@ -362,7 +362,7 @@ val
 )
 )
 {
-NS_WARNING
+BT_WARNING
 (
 "
 Failed
@@ -568,7 +568,7 @@ if
 obj
 )
 {
-NS_WARNING
+BT_WARNING
 (
 "
 Failed
@@ -597,7 +597,7 @@ obj
 )
 )
 {
-NS_WARNING
+BT_WARNING
 (
 "
 Failed
@@ -762,7 +762,7 @@ aRunnable
 )
 )
 {
-NS_WARNING
+BT_WARNING
 (
 "
 Failed

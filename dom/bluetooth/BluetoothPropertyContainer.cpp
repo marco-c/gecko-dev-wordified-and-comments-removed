@@ -216,7 +216,7 @@ if
 bs
 )
 {
-NS_WARNING
+BT_WARNING
 (
 "
 Bluetooth

@@ -146,7 +146,7 @@ GetAddress
 addr
 )
 ;
-BT_LOG
+BT_LOGD
 (
 "
 %
@@ -234,7 +234,7 @@ GetAddress
 addr
 )
 ;
-BT_LOG
+BT_LOGD
 (
 "
 %

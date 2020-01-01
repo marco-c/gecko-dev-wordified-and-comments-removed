@@ -631,7 +631,7 @@ isNumber
 )
 )
 {
-NS_WARNING
+BT_WARNING
 (
 "
 '
@@ -686,7 +686,7 @@ nsAString
 aName
 )
 {
-NS_WARNING
+BT_WARNING
 (
 "
 Unable
@@ -984,7 +984,7 @@ if
 sBluetoothHfpManager
 )
 {
-NS_WARNING
+BT_WARNING
 (
 "
 BluetoothHfpManager
@@ -1539,7 +1539,7 @@ StartListening
 )
 )
 {
-NS_WARNING
+BT_WARNING
 (
 "
 Failed
@@ -1687,7 +1687,7 @@ StopListening
 )
 )
 {
-NS_WARNING
+BT_WARNING
 (
 "
 Failed
@@ -1901,7 +1901,7 @@ get
 )
 )
 {
-NS_WARNING
+BT_WARNING
 (
 "
 Failed
@@ -2061,7 +2061,7 @@ parameters
 )
 )
 {
-NS_WARNING
+BT_WARNING
 (
 "
 Failed
@@ -2459,7 +2459,7 @@ isNumber
 )
 )
 {
-NS_WARNING
+BT_WARNING
 (
 "
 Failed
@@ -2574,7 +2574,7 @@ Length
 16
 )
 {
-NS_WARNING
+BT_WARNING
 (
 "
 The
@@ -2921,7 +2921,7 @@ Length
 4
 )
 {
-NS_WARNING
+BT_WARNING
 (
 "
 Could
@@ -2989,7 +2989,7 @@ EqualsLiteral
 )
 )
 {
-NS_WARNING
+BT_WARNING
 (
 "
 Wrong
@@ -3054,7 +3054,7 @@ IsEmpty
 )
 )
 {
-NS_WARNING
+BT_WARNING
 (
 "
 Could
@@ -3133,7 +3133,7 @@ Length
 2
 )
 {
-NS_WARNING
+BT_WARNING
 (
 "
 Could
@@ -3338,7 +3338,7 @@ Length
 1
 )
 {
-NS_WARNING
+BT_WARNING
 (
 "
 Couldn
@@ -3450,7 +3450,7 @@ IsEmpty
 )
 )
 {
-NS_WARNING
+BT_WARNING
 (
 "
 Couldn
@@ -3498,7 +3498,7 @@ rv
 )
 )
 {
-NS_WARNING
+BT_WARNING
 (
 "
 Failed
@@ -3614,7 +3614,7 @@ IsEmpty
 )
 )
 {
-NS_WARNING
+BT_WARNING
 (
 "
 Could
@@ -3668,7 +3668,7 @@ Length
 1
 )
 {
-NS_WARNING
+BT_WARNING
 (
 "
 No
@@ -3710,7 +3710,7 @@ chld
 '
 )
 {
-NS_WARNING
+BT_WARNING
 (
 "
 The
@@ -3807,7 +3807,7 @@ CHLD
 }
 else
 {
-NS_WARNING
+BT_WARNING
 (
 "
 Wrong
@@ -3884,7 +3884,7 @@ IsEmpty
 )
 )
 {
-NS_WARNING
+BT_WARNING
 (
 "
 Could
@@ -3933,7 +3933,7 @@ rv
 )
 )
 {
-NS_WARNING
+BT_WARNING
 (
 "
 Failed
@@ -4264,7 +4264,7 @@ end
 0
 )
 {
-NS_WARNING
+BT_WARNING
 (
 "
 Could
@@ -4340,7 +4340,7 @@ IsEmpty
 )
 )
 {
-NS_WARNING
+BT_WARNING
 (
 "
 Could
@@ -4415,7 +4415,7 @@ IsEmpty
 )
 )
 {
-NS_WARNING
+BT_WARNING
 (
 "
 Could
@@ -4544,7 +4544,7 @@ DisconnectSco
 }
 else
 {
-NS_WARNING
+BT_WARNING
 (
 "
 AT
@@ -4863,7 +4863,7 @@ ERROR
 )
 )
 ;
-NS_WARNING
+BT_WARNING
 (
 warningMsg
 .
@@ -5155,7 +5155,7 @@ if
 sInShutdown
 )
 {
-NS_WARNING
+BT_WARNING
 (
 "
 Listen
@@ -5176,7 +5176,7 @@ if
 mSocket
 )
 {
-NS_WARNING
+BT_WARNING
 (
 "
 mSocket
@@ -5228,7 +5228,7 @@ CHANNEL_HANDSFREE_AG
 )
 )
 {
-NS_WARNING
+BT_WARNING
 (
 "
 [
@@ -5289,7 +5289,7 @@ CHANNEL_HEADSET_AG
 )
 )
 {
-NS_WARNING
+BT_WARNING
 (
 "
 [
@@ -5469,7 +5469,7 @@ IsConnected
 )
 )
 {
-NS_WARNING
+BT_WARNING
 (
 "
 Trying
@@ -5549,7 +5549,7 @@ sCINDItems
 )
 )
 {
-NS_WARNING
+BT_WARNING
 (
 "
 unexpected
@@ -6007,7 +6007,7 @@ break
 ;
 default
 :
-NS_WARNING
+BT_WARNING
 (
 "
 Not
@@ -6794,7 +6794,7 @@ break
 ;
 default
 :
-NS_WARNING
+BT_WARNING
 (
 "
 Not
@@ -6964,7 +6964,7 @@ break
 ;
 default
 :
-NS_WARNING
+BT_WARNING
 (
 "
 Not
@@ -7117,7 +7117,7 @@ break
 ;
 default
 :
-NS_WARNING
+BT_WARNING
 (
 "
 Not
@@ -7820,7 +7820,7 @@ if
 sInShutdown
 )
 {
-NS_WARNING
+BT_WARNING
 (
 "
 ConnecteSco
@@ -7844,7 +7844,7 @@ IsConnected
 )
 )
 {
-NS_WARNING
+BT_WARNING
 (
 "
 BluetoothHfpManager
@@ -7901,7 +7901,7 @@ aRunnable
 )
 )
 {
-NS_WARNING
+BT_WARNING
 (
 "
 SCO
@@ -7992,7 +7992,7 @@ IsConnected
 )
 )
 {
-NS_WARNING
+BT_WARNING
 (
 "
 BluetoothHfpManager
@@ -8030,7 +8030,7 @@ status
 SOCKET_CONNECTING
 )
 {
-NS_WARNING
+BT_WARNING
 (
 "
 No
@@ -8074,7 +8074,7 @@ if
 sInShutdown
 )
 {
-NS_WARNING
+BT_WARNING
 (
 "
 ListenSco
@@ -8106,7 +8106,7 @@ SocketConnectionStatus
 SOCKET_LISTENING
 )
 {
-NS_WARNING
+BT_WARNING
 (
 "
 SCO
@@ -8142,7 +8142,7 @@ Listen
 )
 )
 {
-NS_WARNING
+BT_WARNING
 (
 "
 Can

@@ -177,6 +177,17 @@ aErrorStr
 =
 0
 ;
+virtual
+void
+GetName
+(
+nsACString
+&
+aName
+)
+=
+0
+;
 }
 ;
 END_BLUETOOTH_NAMESPACE

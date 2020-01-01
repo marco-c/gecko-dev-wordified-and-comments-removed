@@ -470,7 +470,7 @@ lm
 )
 )
 {
-NS_WARNING
+BT_WARNING
 (
 "
 setsockopt
@@ -524,7 +524,7 @@ lm
 )
 )
 {
-NS_WARNING
+BT_WARNING
 (
 "
 setsockopt
@@ -573,7 +573,7 @@ sndbuf
 )
 )
 {
-NS_WARNING
+BT_WARNING
 (
 "
 setsockopt
@@ -740,7 +740,7 @@ sndbuf
 )
 )
 {
-NS_WARNING
+BT_WARNING
 (
 "
 setsockopt
@@ -776,7 +776,7 @@ rcvbuf
 )
 )
 {
-NS_WARNING
+BT_WARNING
 (
 "
 setsockopt
@@ -907,7 +907,7 @@ fd
 0
 )
 {
-NS_WARNING
+BT_WARNING
 (
 "
 Could
@@ -933,7 +933,7 @@ fd
 )
 )
 {
-NS_WARNING
+BT_WARNING
 (
 "
 Could
@@ -1015,7 +1015,7 @@ bd_address_obj
 )
 )
 {
-NS_WARNING
+BT_WARNING
 (
 "
 Can
@@ -1202,7 +1202,7 @@ break
 ;
 default
 :
-NS_WARNING
+BT_WARNING
 (
 "
 Socket

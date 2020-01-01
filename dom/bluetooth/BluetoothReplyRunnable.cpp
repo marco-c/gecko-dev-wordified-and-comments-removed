@@ -309,7 +309,7 @@ rv
 )
 )
 {
-NS_WARNING
+BT_WARNING
 (
 "
 Could

@@ -503,7 +503,7 @@ false
 true
 )
 ;
-NS_WARNING
+BT_WARNING
 (
 "
 Reset
@@ -520,7 +520,7 @@ abnormally
 )
 ;
 }
-NS_WARNING
+BT_WARNING
 (
 NS_ConvertUTF16toUTF8
 (
