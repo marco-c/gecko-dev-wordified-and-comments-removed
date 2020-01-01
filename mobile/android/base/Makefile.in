@@ -1071,12 +1071,6 @@ java
 \
 gfx
 /
-GLThread
-.
-java
-\
-gfx
-/
 ImmutableViewportMetrics
 .
 java
