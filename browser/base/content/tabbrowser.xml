@@ -2410,6 +2410,16 @@ body
 [
 CDATA
 [
+var
+browser
+=
+aBrowser
+|
+|
+this
+.
+mCurrentBrowser
+;
 if
 (
 aTopBottom
@@ -2423,7 +2433,7 @@ this
 .
 getMessageForBrowser
 (
-aBrowser
+browser
 aTopBottom
 )
 .
@@ -2437,7 +2447,7 @@ this
 .
 getMessageForBrowser
 (
-aBrowser
+browser
 "
 top
 "
@@ -2451,7 +2461,7 @@ this
 .
 getMessageForBrowser
 (
-aBrowser
+browser
 "
 bottom
 "
