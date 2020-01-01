@@ -4291,6 +4291,9 @@ idForGUID
 guid
 )
 ;
+let
+record
+;
 if
 (
 placeId
