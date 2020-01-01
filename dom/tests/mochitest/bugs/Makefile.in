@@ -594,6 +594,14 @@ file_empty
 .
 html
 \
+test_domparser_after_blank
+.
+html
+\
+iframe_domparser_after_blank
+.
+html
+\
 test_sizetocontent_clamp
 .
 html
