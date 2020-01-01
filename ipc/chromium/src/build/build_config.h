@@ -333,8 +333,6 @@ define
 ARCH_CPU_32_BITS
 1
 #
-endif
-#
 else
 #
 error
