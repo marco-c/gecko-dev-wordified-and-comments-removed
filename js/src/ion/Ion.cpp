@@ -1826,7 +1826,7 @@ lir
 graph
 )
 ;
-LIRBuilder
+LIRGenerator
 lirgen
 (
 &

@@ -15,17 +15,6 @@ inl
 .
 h
 "
-#
-include
-"
-ion
-/
-Lowering
--
-inl
-.
-h
-"
 namespace
 js
 {
