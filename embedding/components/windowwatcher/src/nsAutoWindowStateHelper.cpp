@@ -22,6 +22,13 @@ h
 #
 include
 "
+nsIDOMEventTarget
+.
+h
+"
+#
+include
+"
 nsIDOMEvent
 .
 h

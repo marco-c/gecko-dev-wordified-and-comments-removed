@@ -48,13 +48,6 @@ IDBTransaction
 h
 "
 USING_INDEXEDDB_NAMESPACE
-using
-namespace
-mozilla
-:
-:
-dom
-;
 namespace
 {
 class
@@ -67,7 +60,7 @@ public
 :
 EventFiringRunnable
 (
-EventTarget
+nsIDOMEventTarget
 *
 aTarget
 nsIDOMEvent
@@ -109,7 +102,7 @@ private
 :
 nsCOMPtr
 <
-EventTarget
+nsIDOMEventTarget
 >
 mTarget
 ;

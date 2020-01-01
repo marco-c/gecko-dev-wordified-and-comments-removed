@@ -78,6 +78,13 @@ h
 #
 include
 "
+nsIDOMEventTarget
+.
+h
+"
+#
+include
+"
 nsCOMArray
 .
 h

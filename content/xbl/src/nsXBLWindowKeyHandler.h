@@ -25,7 +25,13 @@ class
 nsIDOMElement
 ;
 class
+nsIDOMEventTarget
+;
+class
 nsIDOMKeyEvent
+;
+class
+nsIDOMEventTarget
 ;
 class
 nsXBLSpecialDocInfo

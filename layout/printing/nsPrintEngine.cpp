@@ -337,6 +337,13 @@ h
 #
 include
 "
+nsIDOMEventTarget
+.
+h
+"
+#
+include
+"
 nsISelectionController
 .
 h
@@ -1487,10 +1494,10 @@ win
 {
 nsCOMPtr
 <
-EventTarget
+nsIDOMEventTarget
 >
 target
-=
+(
 do_QueryInterface
 (
 win
@@ -1498,6 +1505,7 @@ win
 >
 GetFrameElementInternal
 (
+)
 )
 )
 ;

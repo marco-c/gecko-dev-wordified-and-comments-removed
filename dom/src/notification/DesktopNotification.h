@@ -35,6 +35,13 @@ h
 #
 include
 "
+nsIDOMEventTarget
+.
+h
+"
+#
+include
+"
 nsIContentPermissionPrompt
 .
 h

@@ -686,7 +686,9 @@ event
 >
 Dispatch
 (
-this
+ToIDOMEventTarget
+(
+)
 NS_LITERAL_STRING
 (
 "

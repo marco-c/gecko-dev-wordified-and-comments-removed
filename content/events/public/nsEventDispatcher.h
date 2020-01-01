@@ -28,6 +28,9 @@ class
 nsIDOMEvent
 ;
 class
+nsIDOMEventTarget
+;
+class
 nsIScriptGlobalObject
 ;
 class

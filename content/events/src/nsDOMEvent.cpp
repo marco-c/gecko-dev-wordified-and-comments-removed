@@ -2031,7 +2031,7 @@ nsEvent
 aEvent
 )
 {
-EventTarget
+nsIDOMEventTarget
 *
 target
 =

@@ -71,13 +71,6 @@ using
 namespace
 mozilla
 ;
-using
-namespace
-mozilla
-:
-:
-dom
-;
 nsDOMTouchList
 :
 :
@@ -922,7 +915,7 @@ i
 mChanged
 )
 {
-EventTarget
+nsIDOMEventTarget
 *
 targetPtr
 =

@@ -1053,7 +1053,7 @@ ReleaseWrapper
 (
 static_cast
 <
-EventTarget
+nsIDOMEventTarget
 *
 >
 (
@@ -1347,7 +1347,7 @@ scopeSupports
 =
 NS_ISUPPORTS_CAST
 (
-EventTarget
+nsIDOMEventTarget
 *
 this
 )

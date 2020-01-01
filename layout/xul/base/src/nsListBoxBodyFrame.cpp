@@ -64,6 +64,13 @@ h
 #
 include
 "
+nsIDOMEventTarget
+.
+h
+"
+#
+include
+"
 nsIDOMMouseEvent
 .
 h

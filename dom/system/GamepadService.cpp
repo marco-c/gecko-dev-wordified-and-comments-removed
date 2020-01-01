@@ -56,6 +56,13 @@ h
 #
 include
 "
+nsIDOMEventTarget
+.
+h
+"
+#
+include
+"
 nsDOMGamepad
 .
 h

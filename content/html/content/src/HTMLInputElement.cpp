@@ -354,6 +354,13 @@ h
 #
 include
 "
+nsIDOMEventTarget
+.
+h
+"
+#
+include
+"
 nsMutationEvent
 .
 h
@@ -11664,7 +11671,7 @@ HTMLInputElement
 :
 ShouldPreventDOMActivateDispatch
 (
-EventTarget
+nsIDOMEventTarget
 *
 aOriginalTarget
 )

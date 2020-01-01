@@ -98,6 +98,13 @@ h
 #
 include
 "
+nsIDOMEventTarget
+.
+h
+"
+#
+include
+"
 nsIContent
 .
 h
@@ -2891,7 +2898,7 @@ aResult
 virtual
 NS_HIDDEN_
 (
-void
+nsresult
 )
 Sanitize
 (

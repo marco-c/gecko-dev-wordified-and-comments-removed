@@ -36,6 +36,13 @@ h
 #
 include
 "
+nsIDOMEventTarget
+.
+h
+"
+#
+include
+"
 nsIScriptSecurityManager
 .
 h

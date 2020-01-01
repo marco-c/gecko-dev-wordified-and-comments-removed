@@ -590,6 +590,13 @@ h
 #
 include
 "
+nsIDOMEventTarget
+.
+h
+"
+#
+include
+"
 nsIDOMHTMLElement
 .
 h

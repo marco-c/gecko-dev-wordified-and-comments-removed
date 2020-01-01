@@ -37,6 +37,13 @@ h
 #
 include
 "
+nsRegion
+.
+h
+"
+#
+include
+"
 nsEvent
 .
 h

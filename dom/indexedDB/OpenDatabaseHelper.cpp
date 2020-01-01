@@ -143,13 +143,6 @@ using
 namespace
 mozilla
 ;
-using
-namespace
-mozilla
-:
-:
-dom
-;
 USING_INDEXEDDB_NAMESPACE
 USING_QUOTA_NAMESPACE
 namespace
@@ -10724,7 +10717,7 @@ WrapNative
 aCx
 NS_ISUPPORTS_CAST
 (
-EventTarget
+nsIDOMEventTarget
 *
 mDatabase
 )
@@ -11275,7 +11268,7 @@ WrapNative
 aCx
 NS_ISUPPORTS_CAST
 (
-EventTarget
+nsIDOMEventTarget
 *
 mDatabase
 )

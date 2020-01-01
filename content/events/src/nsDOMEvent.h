@@ -99,6 +99,17 @@ h
 #
 include
 "
+mozilla
+/
+dom
+/
+BindingUtils
+.
+h
+"
+#
+include
+"
 nsIScriptGlobalObject
 .
 h

@@ -43,6 +43,13 @@ h
 #
 include
 "
+nsIDOMEventTarget
+.
+h
+"
+#
+include
+"
 nsXBLService
 .
 h

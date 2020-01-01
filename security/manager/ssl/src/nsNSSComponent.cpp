@@ -537,13 +537,6 @@ namespace
 mozilla
 :
 :
-dom
-;
-using
-namespace
-mozilla
-:
-:
 psm
 ;
 #
@@ -2271,7 +2264,7 @@ true
 ;
 nsCOMPtr
 <
-EventTarget
+nsIDOMEventTarget
 >
 target
 =

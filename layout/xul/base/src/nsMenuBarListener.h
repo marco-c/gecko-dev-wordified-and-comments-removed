@@ -12,6 +12,13 @@ nsIDOMEventListener
 h
 "
 #
+include
+"
+nsIDOMEventTarget
+.
+h
+"
+#
 ifdef
 KeyPress
 #

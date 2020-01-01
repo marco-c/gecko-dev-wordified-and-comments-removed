@@ -6308,7 +6308,7 @@ ReceiveMessage
 (
 static_cast
 <
-EventTarget
+nsIDOMEventTarget
 *
 >
 (
@@ -8904,7 +8904,7 @@ true
 ;
 nsCOMPtr
 <
-EventTarget
+nsIDOMEventTarget
 >
 chromeHandler
 =
@@ -8934,6 +8934,12 @@ new
 ContentListener
 (
 this
+)
+;
+NS_ENSURE_TRUE
+(
+listener
+true
 )
 ;
 chromeHandler
@@ -9120,7 +9126,7 @@ ReceiveMessage
 (
 static_cast
 <
-EventTarget
+nsIDOMEventTarget
 *
 >
 (
@@ -9498,7 +9504,7 @@ false
 ;
 nsCOMPtr
 <
-EventTarget
+nsIDOMEventTarget
 >
 chromeHandler
 =
@@ -9530,6 +9536,12 @@ TabChildGlobal
 this
 )
 ;
+NS_ENSURE_TRUE
+(
+scope
+false
+)
+;
 mTabChildGlobal
 =
 scope
@@ -9540,7 +9552,7 @@ scopeSupports
 =
 NS_ISUPPORTS_CAST
 (
-EventTarget
+nsIDOMEventTarget
 *
 scope
 )
