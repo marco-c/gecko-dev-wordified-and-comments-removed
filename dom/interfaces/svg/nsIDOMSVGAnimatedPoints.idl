@@ -98,9 +98,6 @@ domstubs
 .
 idl
 "
-interface
-nsIDOMSVGPointList
-;
 [
 scriptable
 uuid
@@ -123,12 +120,12 @@ nsISupports
 {
 readonly
 attribute
-nsIDOMSVGPointList
+nsISupports
 points
 ;
 readonly
 attribute
-nsIDOMSVGPointList
+nsISupports
 animatedPoints
 ;
 }

@@ -300,10 +300,6 @@ nsIDOMSVGPoint
 .
 idl
 \
-nsIDOMSVGPointList
-.
-idl
-\
 nsIDOMSVGPolygonElement
 .
 idl

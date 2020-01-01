@@ -1007,10 +1007,6 @@ SVGPoint
 )
 DOMCI_CLASS
 (
-SVGPointList
-)
-DOMCI_CLASS
-(
 SVGPreserveAspectRatio
 )
 DOMCI_CLASS

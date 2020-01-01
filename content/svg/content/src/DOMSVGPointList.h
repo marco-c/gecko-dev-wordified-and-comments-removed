@@ -35,13 +35,6 @@ h
 #
 include
 "
-nsIDOMSVGPointList
-.
-h
-"
-#
-include
-"
 nsSVGElement
 .
 h
@@ -98,7 +91,7 @@ DOMSVGPointList
 MOZ_FINAL
 :
 public
-nsIDOMSVGPointList
+nsISupports
 public
 nsWrapperCache
 {
@@ -113,7 +106,6 @@ NS_DECL_CYCLE_COLLECTION_SCRIPT_HOLDER_CLASS
 (
 DOMSVGPointList
 )
-NS_DECL_NSIDOMSVGPOINTLIST
 virtual
 JSObject
 *

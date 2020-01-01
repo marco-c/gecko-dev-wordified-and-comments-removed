@@ -85,7 +85,7 @@ nsSVGPolyElement
 :
 GetPoints
 (
-nsIDOMSVGPointList
+nsISupports
 *
 *
 aPoints
@@ -128,7 +128,7 @@ nsSVGPolyElement
 :
 GetAnimatedPoints
 (
-nsIDOMSVGPointList
+nsISupports
 *
 *
 aAnimatedPoints
