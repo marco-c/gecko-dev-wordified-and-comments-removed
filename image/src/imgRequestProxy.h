@@ -177,9 +177,9 @@ imgRequestProxy
 nsresult
 Init
 (
-imgStatusTracker
+imgRequest
 *
-aStatusTracker
+aOwner
 nsILoadGroup
 *
 aLoadGroup
@@ -365,6 +365,11 @@ nsresult
 mStatus
 ;
 }
+;
+void
+OnStartDecode
+(
+)
 ;
 void
 OnStartContainer

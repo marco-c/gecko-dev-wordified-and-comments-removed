@@ -719,11 +719,15 @@ VectorImage
 imgStatusTracker
 *
 aStatusTracker
+nsIURI
+*
+aURI
 )
 :
 Image
 (
 aStatusTracker
+aURI
 )
 mRestrictedRegion
 (
@@ -776,10 +780,6 @@ const
 char
 *
 aMimeType
-const
-char
-*
-aURIString
 uint32_t
 aFlags
 )
