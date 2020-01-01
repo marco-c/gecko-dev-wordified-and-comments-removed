@@ -119,17 +119,6 @@ browser
 /
 preferences
 /
-advanced
--
-scripts
-.
-xul
-content
-/
-browser
-/
-preferences
-/
 applications
 .
 xul
