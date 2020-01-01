@@ -621,7 +621,7 @@ aResizeWidget
 true
 )
 ;
-NS_IMETHOD
+void
 SetVisibility
 (
 nsViewVisibility
@@ -639,7 +639,7 @@ bool
 aTopMost
 )
 ;
-NS_IMETHOD
+void
 SetFloating
 (
 bool
