@@ -4120,3 +4120,15 @@ within
 block
 "
 )
+MSG_DEF
+(
+JSMSG_BAD_OBJECT_INIT
+224
+0
+JSEXN_SYNTAXERR
+"
+invalid
+object
+initializer
+"
+)
