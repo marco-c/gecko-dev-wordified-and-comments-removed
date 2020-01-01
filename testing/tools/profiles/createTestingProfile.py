@@ -613,16 +613,6 @@ binary
 )
 :
 	
-print
-binary
-+
-"
-XXX3
-\
-n
-"
-;
-	
 usage
 (
 )
