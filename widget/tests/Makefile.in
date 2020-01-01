@@ -519,6 +519,10 @@ test_bug466599
 .
 xul
 \
+test_platform_colors
+.
+xul
+\
 (
 NULL
 )
