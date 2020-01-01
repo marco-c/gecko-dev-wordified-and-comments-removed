@@ -535,6 +535,10 @@ test_crashing
 .
 html
 \
+test_crashing2
+.
+html
+\
 crashing_subpage
 .
 html
