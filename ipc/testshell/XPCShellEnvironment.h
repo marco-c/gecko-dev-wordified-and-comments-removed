@@ -62,9 +62,6 @@ JSObject
 struct
 JSPrincipals
 ;
-class
-nsIJSContextStack
-;
 namespace
 mozilla
 {
