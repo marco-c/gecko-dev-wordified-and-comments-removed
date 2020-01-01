@@ -4758,6 +4758,10 @@ Blur
 currentIsSameOrAncestor
 ?
 mFocusedWindow
+.
+get
+(
+)
 :
 nsnull
 commonAncestor
