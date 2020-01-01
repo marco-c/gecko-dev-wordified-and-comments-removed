@@ -446,7 +446,6 @@ margin
 ref
 .
 html
-fails
 =
 =
 CSS21
@@ -461,9 +460,6 @@ t100303
 ref
 .
 xhtml
-#
-bug
-423306
 =
 =
 CSS21
