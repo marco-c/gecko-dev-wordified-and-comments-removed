@@ -11774,6 +11774,13 @@ bindings
 cx
 )
 ;
+AutoBindingsRooter
+root
+(
+cx
+bindings
+)
+;
 Value
 *
 argv
