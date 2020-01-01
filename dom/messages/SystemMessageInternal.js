@@ -2008,6 +2008,11 @@ manifest
 msg
 .
 manifest
+uri
+:
+msg
+.
+uri
 msgQueue
 :
 pendingMessages
@@ -2991,6 +2996,12 @@ aType
 msg
 :
 aMessage
+manifest
+:
+aManifestURI
+uri
+:
+aPageURI
 msgID
 :
 aMessageID
