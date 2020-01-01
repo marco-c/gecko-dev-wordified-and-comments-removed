@@ -738,6 +738,12 @@ mShadowTarget
 ;
 nsRefPtr
 <
+gfxContext
+>
+mDummyTarget
+;
+nsRefPtr
+<
 ImageFactory
 >
 mFactory

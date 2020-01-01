@@ -106,6 +106,10 @@ MPL
 /
 include
 protocol
+PCompositor
+;
+include
+protocol
 PImageBridge
 ;
 include
@@ -179,7 +183,7 @@ protocol
 PGrallocBuffer
 {
 /
-*
+/
 FIXME
 :
 Bug
@@ -191,10 +195,12 @@ t
 be
 managed
 by
+PCompositor
+or
 PImageContainer
-*
-/
 manager
+PCompositor
+or
 PImageBridge
 or
 PImageContainer
