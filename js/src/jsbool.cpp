@@ -1064,7 +1064,7 @@ JS_ASSERT
 wrappedBool
 -
 >
-isCrossCompartmentWrapper
+isProxy
 (
 )
 )
