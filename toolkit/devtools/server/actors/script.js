@@ -7172,13 +7172,11 @@ enumerable
 ;
 if
 (
-desc
-.
+"
 value
-!
-=
-=
-undefined
+"
+in
+desc
 )
 {
 retval
