@@ -400,8 +400,16 @@ jsid
 id
 Action
 act
+bool
+*
+bp
 )
 {
+*
+bp
+=
+true
+;
 nsIScriptSecurityManager
 *
 ssm

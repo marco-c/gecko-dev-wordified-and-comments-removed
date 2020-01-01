@@ -133,6 +133,9 @@ JSWrapper
 :
 Action
 act
+bool
+*
+bp
 )
 ;
 static

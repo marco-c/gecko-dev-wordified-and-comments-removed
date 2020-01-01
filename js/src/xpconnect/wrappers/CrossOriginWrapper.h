@@ -55,6 +55,9 @@ jsid
 id
 Action
 act
+bool
+*
+bp
 )
 ;
 virtual
