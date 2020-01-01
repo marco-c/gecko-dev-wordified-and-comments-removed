@@ -369,7 +369,12 @@ void
 closure
 )
 ;
-void
+PRUint32
+GuessMaximumStringLength
+(
+)
+;
+PRBool
 InitTextRun
 (
 gfxTextRun
@@ -383,6 +388,10 @@ PRUint32
 aLength
 PRBool
 aWrapped
+PRUint32
+aSegmentStart
+PRUint32
+aSegmentLength
 )
 ;
 ATSUFontFallbacks
