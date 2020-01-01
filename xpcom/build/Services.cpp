@@ -29,12 +29,17 @@ nsIDirectoryService
 h
 "
 #
+ifdef
+ACCESSIBILITY
+#
 include
 "
 nsIAccessibilityService
 .
 h
 "
+#
+endif
 #
 include
 "

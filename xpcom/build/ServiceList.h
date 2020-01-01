@@ -1,3 +1,6 @@
+#
+ifdef
+ACCESSIBILITY
 MOZ_SERVICE
 (
 AccessibilityService
@@ -12,6 +15,8 @@ accessibilityService
 1
 "
 )
+#
+endif
 MOZ_SERVICE
 (
 ChromeRegistryService
