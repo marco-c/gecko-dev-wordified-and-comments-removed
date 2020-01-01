@@ -34,13 +34,6 @@ h
 #
 include
 "
-nsValueArray
-.
-h
-"
-#
-include
-"
 nsIAtom
 .
 h
@@ -619,11 +612,6 @@ nsCheapStringSet
 ;
 nsCheapInt32Set
 (
-)
-;
-nsValueArray
-(
-0
 )
 ;
 nsSupportsArray

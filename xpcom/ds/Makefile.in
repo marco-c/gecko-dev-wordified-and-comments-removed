@@ -523,10 +523,6 @@ nsTimelineService
 .
 cpp
 \
-nsValueArray
-.
-cpp
-\
 nsArray
 .
 cpp
@@ -622,10 +618,6 @@ nsTime
 h
 \
 nsVariant
-.
-h
-\
-nsValueArray
 .
 h
 \
