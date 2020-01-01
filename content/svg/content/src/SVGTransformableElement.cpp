@@ -968,10 +968,6 @@ Multiply
 *
 ourScreenCTM
 )
-.
-get
-(
-)
 ;
 return
 mat
