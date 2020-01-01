@@ -503,7 +503,6 @@ already_AddRefed
 nsIDOMGetUserMediaErrorCallback
 >
 aError
-const
 nsTArray
 <
 nsCOMPtr
@@ -511,7 +510,7 @@ nsCOMPtr
 nsIMediaDevice
 >
 >
-&
+*
 aDevices
 )
 :
@@ -589,7 +588,8 @@ int32_t
 len
 =
 mDevices
-.
+-
+>
 Length
 (
 )
@@ -650,7 +650,8 @@ tmp
 AppendElement
 (
 mDevices
-.
+-
+>
 ElementAt
 (
 i
@@ -673,7 +674,8 @@ NS_GET_IID
 nsIMediaDevice
 )
 mDevices
-.
+-
+>
 Length
 (
 )
@@ -725,11 +727,14 @@ nsIDOMGetUserMediaErrorCallback
 >
 mError
 ;
+nsAutoPtr
+<
 nsTArray
 <
 nsCOMPtr
 <
 nsIMediaDevice
+>
 >
 >
 mDevices
@@ -2974,7 +2979,6 @@ DeviceSuccessCallbackRunnable
 (
 mSuccess
 mError
-*
 devices
 )
 )
