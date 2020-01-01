@@ -1680,7 +1680,7 @@ aFontStyle
 .
 weight
 =
-FONT_WEIGHT_BOLD
+NS_FONT_WEIGHT_BOLD
 ;
 fontFace
 .
@@ -1701,7 +1701,7 @@ aFontStyle
 .
 weight
 =
-FONT_WEIGHT_NORMAL
+NS_FONT_WEIGHT_NORMAL
 ;
 }
 aFontStyle
@@ -1763,7 +1763,7 @@ aFontStyle
 .
 style
 =
-FONT_STYLE_ITALIC
+NS_FONT_STYLE_ITALIC
 ;
 fontFace
 .
@@ -1808,7 +1808,7 @@ aFontStyle
 .
 style
 =
-FONT_STYLE_OBLIQUE
+NS_FONT_STYLE_OBLIQUE
 ;
 fontFace
 .
@@ -1853,7 +1853,7 @@ aFontStyle
 .
 style
 =
-FONT_STYLE_OBLIQUE
+NS_FONT_STYLE_OBLIQUE
 ;
 fontFace
 .
@@ -1874,7 +1874,7 @@ aFontStyle
 .
 style
 =
-FONT_STYLE_NORMAL
+NS_FONT_STYLE_NORMAL
 ;
 }
 if

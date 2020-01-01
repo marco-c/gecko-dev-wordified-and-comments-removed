@@ -2404,7 +2404,7 @@ aFontStyle
 >
 style
 =
-FONT_STYLE_NORMAL
+NS_FONT_STYLE_NORMAL
 ;
 gchar
 *
@@ -2918,14 +2918,14 @@ aFontStyle
 >
 style
 =
-FONT_STYLE_NORMAL
+NS_FONT_STYLE_NORMAL
 ;
 aFontStyle
 -
 >
 weight
 =
-400
+NS_FONT_WEIGHT_NORMAL
 ;
 aFontStyle
 -

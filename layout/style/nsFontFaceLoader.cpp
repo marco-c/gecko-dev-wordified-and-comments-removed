@@ -2396,7 +2396,7 @@ NS_STYLE_FONT_STRETCH_NORMAL
 PRUint32
 italicStyle
 =
-FONT_STYLE_NORMAL
+NS_STYLE_FONT_STYLE_NORMAL
 ;
 nsString
 featureSettings
@@ -2589,7 +2589,7 @@ eCSSUnit_Normal
 {
 italicStyle
 =
-FONT_STYLE_NORMAL
+NS_STYLE_FONT_STYLE_NORMAL
 ;
 }
 else

@@ -1262,7 +1262,7 @@ fakeStyle
 .
 style
 =
-FONT_STYLE_ITALIC
+NS_FONT_STYLE_ITALIC
 ;
 fakeStyle
 .
@@ -3321,9 +3321,9 @@ aProxyEntry
 >
 mItalic
 ?
-FONT_STYLE_ITALIC
+NS_FONT_STYLE_ITALIC
 :
-FONT_STYLE_NORMAL
+NS_FONT_STYLE_NORMAL
 )
 w
 aProxyEntry
@@ -4326,9 +4326,9 @@ aProxyEntry
 >
 mItalic
 ?
-FONT_STYLE_ITALIC
+NS_FONT_STYLE_ITALIC
 :
-FONT_STYLE_NORMAL
+NS_FONT_STYLE_NORMAL
 )
 w
 aProxyEntry

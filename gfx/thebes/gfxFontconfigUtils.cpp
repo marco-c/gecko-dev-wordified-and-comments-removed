@@ -154,18 +154,18 @@ case
 FC_SLANT_ITALIC
 :
 return
-FONT_STYLE_ITALIC
+NS_FONT_STYLE_ITALIC
 ;
 case
 FC_SLANT_OBLIQUE
 :
 return
-FONT_STYLE_OBLIQUE
+NS_FONT_STYLE_OBLIQUE
 ;
 default
 :
 return
-FONT_STYLE_NORMAL
+NS_FONT_STYLE_NORMAL
 ;
 }
 }
@@ -199,7 +199,7 @@ FcResultMatch
 )
 {
 return
-FONT_STYLE_NORMAL
+NS_FONT_STYLE_NORMAL
 ;
 }
 return
@@ -228,7 +228,7 @@ aFontStyle
 style
 =
 =
-FONT_STYLE_ITALIC
+NS_FONT_STYLE_ITALIC
 )
 return
 FC_SLANT_ITALIC
@@ -240,7 +240,7 @@ aFontStyle
 style
 =
 =
-FONT_STYLE_OBLIQUE
+NS_FONT_STYLE_OBLIQUE
 )
 return
 FC_SLANT_OBLIQUE
@@ -345,7 +345,7 @@ weight
 FcResultMatch
 )
 return
-FONT_WEIGHT_NORMAL
+NS_FONT_WEIGHT_NORMAL
 ;
 if
 (

@@ -1910,7 +1910,7 @@ aFontStyle
 >
 style
 =
-FONT_STYLE_NORMAL
+NS_FONT_STYLE_NORMAL
 ;
 aFontStyle
 -
