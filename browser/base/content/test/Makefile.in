@@ -892,6 +892,10 @@ browser_drag
 .
 js
 \
+browser_duplicateIDs
+.
+js
+\
 browser_gestureSupport
 .
 js
