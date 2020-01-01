@@ -937,7 +937,7 @@ mLoadingImage
 mLoadingImage
 -
 >
-Cancel
+CancelAndForgetObserver
 (
 NS_ERROR_FAILURE
 )
@@ -955,7 +955,7 @@ mBrokenImage
 mBrokenImage
 -
 >
-Cancel
+CancelAndForgetObserver
 (
 NS_ERROR_FAILURE
 )
