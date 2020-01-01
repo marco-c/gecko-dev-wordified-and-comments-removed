@@ -528,10 +528,6 @@ test_viewport
 .
 html
 \
-test_moveUnderMouse
-.
-xhtml
-\
 (
 NULL
 )
