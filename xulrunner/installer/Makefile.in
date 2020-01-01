@@ -1185,6 +1185,15 @@ debian
 changelog
 .
 in
+(
+LIBXUL_DIST
+)
+/
+bin
+/
+platform
+.
+ini
 mkdir
 -
 p
