@@ -363,6 +363,7 @@ markKeysInCompartment
 JSTracer
 *
 tracer
+const
 ObjectWeakMap
 &
 map
