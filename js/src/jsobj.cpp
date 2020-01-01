@@ -5580,6 +5580,15 @@ caller
 isFunctionFrame
 (
 )
+&
+&
+!
+caller
+-
+>
+isEvalFrame
+(
+)
 )
 script
 =
