@@ -3706,7 +3706,15 @@ if
 mDocument
 )
 {
+nsCOMPtr
+<
+nsIDocument
+>
+doc
+=
 mDocument
+;
+doc
 -
 >
 UnblockOnload
