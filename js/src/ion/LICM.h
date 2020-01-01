@@ -75,6 +75,10 @@ InstructionQueue
 class
 LICM
 {
+MIRGenerator
+*
+mir
+;
 MIRGraph
 &
 graph
@@ -83,6 +87,9 @@ public
 :
 LICM
 (
+MIRGenerator
+*
+mir
 MIRGraph
 &
 graph
@@ -118,6 +125,10 @@ plessEqual
 class
 Loop
 {
+MIRGenerator
+*
+mir
+;
 MIRGraph
 &
 graph
@@ -136,6 +147,9 @@ public
 :
 Loop
 (
+MIRGenerator
+*
+mir
 MBasicBlock
 *
 header
