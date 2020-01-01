@@ -371,9 +371,6 @@ dll
 endif
 #
 endif
-#
-ifdef
-ANDROID
 BINPATH
 /
 AndroidManifest
@@ -420,8 +417,6 @@ recommended
 addons
 .
 json
-#
-endif
 [
 browser
 ]
@@ -1512,9 +1507,6 @@ components
 widget
 .
 xpt
-#
-ifdef
-ANDROID
 BINPATH
 /
 components
@@ -1522,8 +1514,6 @@ components
 widget_android
 .
 xpt
-#
-endif
 BINPATH
 /
 components

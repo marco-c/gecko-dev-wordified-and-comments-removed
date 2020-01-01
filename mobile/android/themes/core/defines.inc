@@ -555,9 +555,6 @@ define
 tablet_panel_minwidth
 124mozmm
 %
-ifdef
-ANDROID
-%
 define
 orientation
 -
@@ -566,11 +563,3 @@ moz
 device
 -
 orientation
-%
-else
-%
-define
-orientation
-orientation
-%
-endif
