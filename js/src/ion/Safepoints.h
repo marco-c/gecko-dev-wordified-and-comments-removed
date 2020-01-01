@@ -31,7 +31,7 @@ js
 namespace
 ion
 {
-class
+struct
 SafepointNunboxEntry
 ;
 static
