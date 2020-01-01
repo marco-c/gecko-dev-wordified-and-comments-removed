@@ -6472,7 +6472,10 @@ get
 if
 (
 !
+(
+*
 aHandlerInfo
+)
 )
 {
 return
