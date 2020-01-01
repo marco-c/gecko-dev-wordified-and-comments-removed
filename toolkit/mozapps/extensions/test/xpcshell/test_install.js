@@ -1,3 +1,8 @@
+const
+MAX_INSTALL_TIME
+=
+10000
+;
 Components
 .
 utils
@@ -772,7 +777,7 @@ if
 (
 difference
 >
-2000
+MAX_INSTALL_TIME
 )
 do_throw
 (
@@ -1440,7 +1445,7 @@ if
 (
 difference
 >
-2000
+MAX_INSTALL_TIME
 )
 do_throw
 (
