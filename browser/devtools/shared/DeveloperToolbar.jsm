@@ -1707,18 +1707,6 @@ resize
 "
 )
 {
-if
-(
-this
-.
-_lastState
-!
-=
-NOTIFICATIONS
-.
-SHOW
-)
-{
 this
 .
 outputPanel
@@ -1727,7 +1715,6 @@ _resize
 (
 )
 ;
-}
 }
 else
 if
