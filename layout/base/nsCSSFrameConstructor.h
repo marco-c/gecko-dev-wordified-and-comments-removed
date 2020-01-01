@@ -1040,8 +1040,8 @@ aState
 nsIContent
 *
 aContent
-PRInt32
-aContentIndex
+PRBool
+aSuppressWhiteSpaceOptimizations
 nsIFrame
 *
 aParentFrame
@@ -1898,8 +1898,6 @@ nsIAtom
 aTag
 PRInt32
 aNameSpaceID
-PRInt32
-aContentIndex
 PendingBinding
 *
 aPendingBinding
@@ -1908,6 +1906,8 @@ already_AddRefed
 nsStyleContext
 >
 aStyleContext
+PRBool
+aSuppressWhiteSpaceOptimizations
 )
 {
 FrameConstructionItem
@@ -1921,9 +1921,9 @@ aFCData
 aContent
 aTag
 aNameSpaceID
-aContentIndex
 aPendingBinding
 aStyleContext
+aSuppressWhiteSpaceOptimizations
 )
 ;
 if
@@ -2472,8 +2472,6 @@ nsIAtom
 aTag
 PRInt32
 aNameSpaceID
-PRInt32
-aContentIndex
 PendingBinding
 *
 aPendingBinding
@@ -2482,6 +2480,8 @@ already_AddRefed
 nsStyleContext
 >
 aStyleContext
+PRBool
+aSuppressWhiteSpaceOptimizations
 )
 :
 mFCData
@@ -2500,10 +2500,6 @@ mNameSpaceID
 (
 aNameSpaceID
 )
-mContentIndex
-(
-aContentIndex
-)
 mPendingBinding
 (
 aPendingBinding
@@ -2511,6 +2507,10 @@ aPendingBinding
 mStyleContext
 (
 aStyleContext
+)
+mSuppressWhiteSpaceOptimizations
+(
+aSuppressWhiteSpaceOptimizations
 )
 mIsText
 (
@@ -2630,9 +2630,6 @@ mTag
 PRInt32
 mNameSpaceID
 ;
-PRInt32
-mContentIndex
-;
 PendingBinding
 *
 mPendingBinding
@@ -2642,6 +2639,9 @@ nsRefPtr
 nsStyleContext
 >
 mStyleContext
+;
+PRPackedBool
+mSuppressWhiteSpaceOptimizations
 ;
 PRPackedBool
 mIsText
@@ -3024,8 +3024,8 @@ nsIAtom
 aTag
 PRInt32
 aNameSpaceID
-PRInt32
-aContentIndex
+PRBool
+aSuppressWhiteSpaceOptimizations
 nsStyleContext
 *
 aStyleContext
