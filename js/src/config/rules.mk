@@ -3981,6 +3981,9 @@ PYTHON
 config
 .
 status
+(
+TOUCH
+)
 include
 (
 DEPTH
