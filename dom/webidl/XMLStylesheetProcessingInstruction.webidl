@@ -92,6 +92,9 @@ MPL
 *
 /
 interface
+StyleSheet
+;
+interface
 XMLStylesheetProcessingInstruction
 :
 ProcessingInstruction

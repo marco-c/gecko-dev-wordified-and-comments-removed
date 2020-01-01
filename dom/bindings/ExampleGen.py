@@ -232,7 +232,7 @@ rb
 '
 )
     
-config
+parserData
 =
 cPickle
 .
@@ -245,6 +245,14 @@ f
 .
 close
 (
+)
+    
+config
+=
+Configuration
+(
+configFile
+parserData
 )
     
 generate_interface_example

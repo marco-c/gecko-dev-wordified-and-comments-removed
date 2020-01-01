@@ -146,6 +146,9 @@ apply
 *
 /
 interface
+Element
+;
+interface
 HTMLCollection
 {
 readonly

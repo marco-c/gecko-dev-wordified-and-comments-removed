@@ -165,10 +165,6 @@ test_Image_constructor
 .
 html
 \
-test_setting_opener
-.
-html
-\
 (
 NULL
 )

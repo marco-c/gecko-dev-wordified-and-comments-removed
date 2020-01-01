@@ -146,6 +146,9 @@ apply
 *
 /
 interface
+HTMLOptionElement
+;
+interface
 HTMLOptionsCollection
 :
 HTMLCollection
