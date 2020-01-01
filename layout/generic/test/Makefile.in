@@ -394,6 +394,10 @@ test_selection_expanding
 .
 html
 \
+test_selection_touchevents
+.
+html
+\
 selection_expanding_xbl
 .
 xml
