@@ -580,6 +580,13 @@ java
 .
 util
 .
+List
+;
+import
+java
+.
+util
+.
 Vector
 ;
 abstract
@@ -7299,6 +7306,7 @@ mBrowserSearch
 filter
 (
 searchTerm
+handler
 )
 ;
 }
