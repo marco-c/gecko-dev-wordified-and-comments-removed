@@ -18,6 +18,11 @@ test
 (
 )
 {
+requestLongerTimeout
+(
+2
+)
+;
 debug_chrome
 (
 STACK_URL
