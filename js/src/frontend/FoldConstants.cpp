@@ -1213,6 +1213,14 @@ PNK_FUNCTION
 ;
 if
 (
+pn
+-
+>
+pn_body
+)
+{
+if
+(
 !
 FoldConstants
 (
@@ -1235,6 +1243,7 @@ inGenexpLambda
 return
 false
 ;
+}
 }
 break
 ;

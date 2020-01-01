@@ -171,6 +171,9 @@ MatchPairs
 class
 PropertyName
 ;
+class
+LazyScript
+;
 enum
 RegExpFlag
 {

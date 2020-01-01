@@ -3277,6 +3277,9 @@ String
 Script
 "
 "
+LazyScript
+"
+"
 IonCode
 "
 "

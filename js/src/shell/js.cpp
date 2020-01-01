@@ -16627,6 +16627,8 @@ JS_GetStringLength
 scriptContents
 )
 true
+NULL
+NULL
 )
 ;
 if
@@ -16874,6 +16876,8 @@ options
 chars
 length
 false
+NULL
+NULL
 )
 ;
 if
@@ -16919,7 +16923,7 @@ succeeded
 !
 parser
 .
-hadUnknownResult
+hadAbortedSyntaxParse
 (
 )
 )
