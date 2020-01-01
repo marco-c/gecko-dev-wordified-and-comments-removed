@@ -5729,15 +5729,6 @@ i
 5
 )
 ;
-unsigned
-char
-oldOpcode
-=
-opcodeAddr
-[
-0
-]
-;
 int32_t
 *
 displacementAddr

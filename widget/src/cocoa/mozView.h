@@ -58,6 +58,12 @@ void
 )
 widgetDestroyed
 ;
+-
+(
+BOOL
+)
+isDragInProgress
+;
 end
 interface
 NSObject
