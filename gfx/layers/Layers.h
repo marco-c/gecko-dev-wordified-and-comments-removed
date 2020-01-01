@@ -1362,7 +1362,6 @@ css
 :
 :
 ComputedTimingFunction
-*
 >
 mFunctions
 ;
