@@ -690,6 +690,9 @@ rv
 }
 if
 (
+mHasBaseVal
+&
+&
 viewBox
 =
 =
