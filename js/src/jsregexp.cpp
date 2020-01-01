@@ -26288,6 +26288,9 @@ rval
 )
 ;
 }
+#
+ifdef
+JS_TRACER
 static
 JSObject
 *
@@ -26508,6 +26511,14 @@ STRING
 )
 )
 )
+#
+else
+#
+define
+RegExp_trcinfo
+NULL
+#
+endif
 JSObject
 *
 js_InitRegExpClass
