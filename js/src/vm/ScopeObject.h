@@ -160,6 +160,17 @@ offsetOfEnclosingScope
 (
 )
 ;
+static
+inline
+size_t
+enclosingScopeSlot
+(
+)
+{
+return
+SCOPE_CHAIN_SLOT
+;
+}
 }
 ;
 class
