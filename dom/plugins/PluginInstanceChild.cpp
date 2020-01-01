@@ -9690,7 +9690,7 @@ get
 )
 -
 >
-Init
+InitUnsafe
 (
 this
 gfxIntSize
@@ -12298,6 +12298,16 @@ gfxASurface
 :
 :
 SurfaceTypeXlib
+&
+&
+!
+gfxSharedImageSurface
+:
+:
+IsSharedImage
+(
+mBackSurface
+)
 )
 return
 false
