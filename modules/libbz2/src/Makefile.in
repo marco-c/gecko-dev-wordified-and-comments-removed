@@ -213,11 +213,6 @@ c
 (
 NULL
 )
-DISABLED_HOST_CSRCS
-=
-(
-CSRCS
-)
 include
 (
 topsrcdir

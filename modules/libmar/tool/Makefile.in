@@ -222,16 +222,6 @@ DEFINES
 (
 NULL
 )
-DISABLED_HOST_CSRCS
-=
-\
-mar
-.
-c
-\
-(
-NULL
-)
 DISABLED_CSRCS
 =
 (

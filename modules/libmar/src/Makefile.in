@@ -121,7 +121,7 @@ for
 reading
 archives
 .
-DISABLED_HOST_CSRCS
+CSRCS
 =
 \
 mar_create
@@ -135,16 +135,6 @@ c
 mar_read
 .
 c
-\
-(
-NULL
-)
-CSRCS
-=
-\
-(
-HOST_CSRCS
-)
 \
 (
 NULL

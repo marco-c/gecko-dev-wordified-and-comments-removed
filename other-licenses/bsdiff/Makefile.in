@@ -348,11 +348,6 @@ mbsdiff
 (
 BIN_SUFFIX
 )
-DISABLED_HOST_CSRCS
-=
-bsdiff
-.
-c
 ifdef
 MOZ_NATIVE_BZ2
 HOST_LIBS
