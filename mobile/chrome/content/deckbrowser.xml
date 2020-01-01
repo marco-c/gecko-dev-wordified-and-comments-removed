@@ -1727,7 +1727,7 @@ n
 ;
 self
 .
-_browserToCanvas2
+_redrawRect
 (
 Math
 .
@@ -3712,7 +3712,7 @@ method
 name
 =
 "
-_browserToCanvas2
+_redrawRect
 "
 >
 <
