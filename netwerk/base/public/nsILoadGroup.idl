@@ -452,10 +452,6 @@ nsIRequest
 objects
 .
 *
-*
-status
-FROZEN
-*
 /
 [
 scriptable

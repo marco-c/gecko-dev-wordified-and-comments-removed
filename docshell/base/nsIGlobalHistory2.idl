@@ -449,9 +449,6 @@ deprecates
 nsIGlobalHistory
 .
 *
-status
-UNDER_REVIEW
-*
 /
 #
 include

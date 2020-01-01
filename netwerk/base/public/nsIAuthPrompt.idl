@@ -431,14 +431,6 @@ idl
 interface
 nsIPrompt
 ;
-/
-*
-*
-*
-status
-UNDER_REVIEW
-*
-/
 [
 scriptable
 uuid

@@ -477,10 +477,6 @@ and
 nsIWebNavigation
 .
 *
-*
-status
-FROZEN
-*
 /
 [
 scriptable

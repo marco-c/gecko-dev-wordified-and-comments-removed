@@ -466,10 +466,6 @@ proxy
 server
 .
 *
-*
-status
-UNDER_REVIEW
-*
 /
 [
 scriptable

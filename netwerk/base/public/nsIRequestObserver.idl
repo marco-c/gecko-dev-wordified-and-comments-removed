@@ -437,10 +437,6 @@ nsIRequest
 *
 nsIRequestObserver
 *
-*
-status
-FROZEN
-*
 /
 [
 scriptable

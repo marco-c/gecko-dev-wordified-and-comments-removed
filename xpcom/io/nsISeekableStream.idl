@@ -452,10 +452,6 @@ implement
 setEOF
 )
 *
-*
-status
-UNDER_REVIEW
-*
 /
 #
 include

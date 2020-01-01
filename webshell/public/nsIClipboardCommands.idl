@@ -482,10 +482,6 @@ this
 interface
 .
 *
-*
-status
-FROZEN
-*
 /
 [
 scriptable

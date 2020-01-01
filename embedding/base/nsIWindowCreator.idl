@@ -478,10 +478,6 @@ initialization
 see
 nsIWindowWatcher
 *
-*
-status
-FROZEN
-*
 /
 #
 include

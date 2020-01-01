@@ -498,10 +498,6 @@ for
 see
 nsITooltipTextProvider
 *
-*
-status
-FROZEN
-*
 /
 [
 scriptable

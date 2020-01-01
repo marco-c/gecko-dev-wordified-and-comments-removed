@@ -450,10 +450,6 @@ http
 headers
 .
 *
-*
-status
-FROZEN
-*
 /
 [
 scriptable

@@ -452,10 +452,6 @@ nsIInputStream
 instance
 .
 *
-*
-status
-FROZEN
-*
 /
 [
 scriptable

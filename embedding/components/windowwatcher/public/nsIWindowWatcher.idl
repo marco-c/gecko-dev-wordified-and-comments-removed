@@ -632,10 +632,6 @@ calling
 setWindowCreator
 .
 *
-*
-status
-FROZEN
-*
 /
 [
 scriptable

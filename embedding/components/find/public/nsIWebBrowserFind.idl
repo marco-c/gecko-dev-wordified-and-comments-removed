@@ -543,10 +543,6 @@ to
 nsIWebBrowserFindInFrames
 .
 *
-*
-status
-FROZEN
-*
 /
 [
 scriptable
@@ -889,10 +885,6 @@ QueryInterface
 from
 nsIWebBrowserFind
 .
-*
-*
-status
-FROZEN
 *
 /
 [

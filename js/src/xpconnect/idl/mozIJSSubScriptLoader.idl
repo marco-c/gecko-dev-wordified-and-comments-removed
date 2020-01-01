@@ -441,13 +441,6 @@ nsISupports
 .
 idl
 "
-/
-*
-*
-status
-FROZEN
-*
-/
 [
 scriptable
 uuid

@@ -437,14 +437,6 @@ nsISupports
 .
 idl
 "
-/
-*
-*
-*
-status
-UNDER_REVIEW
-*
-/
 interface
 nsIDOMWindow
 ;

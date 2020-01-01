@@ -586,10 +586,6 @@ of
 nsIRequest
 .
 *
-*
-status
-UNDER_REVIEW
-*
 /
 [
 scriptable

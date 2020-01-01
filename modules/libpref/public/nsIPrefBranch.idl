@@ -612,10 +612,6 @@ methods
 see
 nsIPrefService
 *
-*
-status
-FROZEN
-*
 /
 [
 scriptable

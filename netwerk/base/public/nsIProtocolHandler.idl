@@ -440,10 +440,6 @@ nsIChannel
 *
 nsIProtocolHandler
 *
-*
-status
-FROZEN
-*
 /
 [
 scriptable

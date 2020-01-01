@@ -443,10 +443,6 @@ javascript
 cookie
 object
 *
-*
-status
-FROZEN
-*
 /
 typedef
 long

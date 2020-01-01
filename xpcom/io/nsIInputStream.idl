@@ -665,10 +665,6 @@ undefined
 behavior
 .
 *
-*
-status
-FROZEN
-*
 /
 typedef
 NS_CALLBACK
@@ -835,10 +831,6 @@ AddRef
 and
 Release
 .
-*
-*
-status
-FROZEN
 *
 /
 [

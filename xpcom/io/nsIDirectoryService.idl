@@ -453,10 +453,6 @@ file
 locations
 .
 *
-*
-status
-FROZEN
-*
 /
 [
 scriptable
@@ -621,10 +617,6 @@ given
 key
 .
 *
-*
-status
-FROZEN
-*
 /
 [
 scriptable
@@ -739,10 +731,6 @@ prop
 *
 *
 nsIDirectoryService
-*
-*
-status
-FROZEN
 *
 /
 [

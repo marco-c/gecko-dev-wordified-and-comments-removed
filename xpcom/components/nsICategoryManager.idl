@@ -441,9 +441,6 @@ idl
 *
 nsICategoryManager
 *
-status
-FROZEN
-*
 /
 [
 scriptable

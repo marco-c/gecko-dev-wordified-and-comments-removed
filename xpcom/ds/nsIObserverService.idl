@@ -484,10 +484,6 @@ client
 listeners
 .
 *
-*
-status
-FROZEN
-*
 /
 [
 scriptable

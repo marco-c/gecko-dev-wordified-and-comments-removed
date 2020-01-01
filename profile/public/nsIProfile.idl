@@ -515,9 +515,6 @@ category
 nsIProfile
 *
 *
-status
-FROZEN
-*
 version
 1
 .

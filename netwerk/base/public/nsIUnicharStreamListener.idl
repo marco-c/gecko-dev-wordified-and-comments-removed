@@ -478,10 +478,6 @@ UTF
 *
 nsIUnicharStreamListener
 *
-*
-status
-FROZEN
-*
 /
 [
 scriptable

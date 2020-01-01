@@ -413,10 +413,6 @@ install
 status
 .
 *
-*
-status
-UNDER_REVIEW
-*
 /
 [
 scriptable

@@ -424,10 +424,6 @@ manage
 certificates
 .
 *
-*
-status
-FROZEN
-*
 /
 [
 scriptable

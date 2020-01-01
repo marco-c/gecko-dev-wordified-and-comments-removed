@@ -444,9 +444,6 @@ nsIModule
 interface
 .
 *
-status
-FROZEN
-*
 /
 [
 scriptable

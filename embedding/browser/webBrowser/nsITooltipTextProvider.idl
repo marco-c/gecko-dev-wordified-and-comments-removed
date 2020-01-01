@@ -553,10 +553,6 @@ nsIComponentManager
 see
 nsIDOMNode
 *
-*
-status
-FROZEN
-*
 /
 [
 scriptable

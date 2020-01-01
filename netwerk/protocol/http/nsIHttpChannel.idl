@@ -485,10 +485,6 @@ become
 available
 .
 *
-*
-status
-FROZEN
-*
 /
 [
 scriptable

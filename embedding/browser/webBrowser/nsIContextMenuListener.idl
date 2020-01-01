@@ -525,10 +525,6 @@ nsIDOMNode
 see
 nsIDOMEvent
 *
-*
-status
-FROZEN
-*
 /
 [
 scriptable

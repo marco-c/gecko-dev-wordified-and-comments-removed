@@ -511,10 +511,6 @@ nsIContextMenuListener
 see
 nsIContextMenuInfo
 *
-*
-status
-UNDER_REVIEW
-*
 /
 [
 scriptable
@@ -867,10 +863,6 @@ implementors
 of
 nsIContextMenuListener2
 .
-*
-*
-status
-UNDER_REVIEW
 *
 /
 [

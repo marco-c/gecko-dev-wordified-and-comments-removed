@@ -463,10 +463,6 @@ servers
 etc
 .
 *
-*
-status
-FROZEN
-*
 /
 [
 scriptable

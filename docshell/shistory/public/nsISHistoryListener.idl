@@ -530,10 +530,6 @@ addSHistoryListener
 method
 .
 *
-*
-status
-FROZEN
-*
 /
 [
 scriptable

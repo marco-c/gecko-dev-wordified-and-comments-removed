@@ -928,10 +928,6 @@ nsIIOService
 newURI
 .
 *
-*
-status
-FROZEN
-*
 /
 [
 scriptable

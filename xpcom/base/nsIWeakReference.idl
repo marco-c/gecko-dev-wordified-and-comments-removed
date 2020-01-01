@@ -544,9 +544,6 @@ exists
 .
 *
 *
-status
-FROZEN
-*
 version
 1
 .
@@ -720,9 +717,6 @@ this
 interface
 .
 *
-*
-status
-FROZEN
 *
 version
 1

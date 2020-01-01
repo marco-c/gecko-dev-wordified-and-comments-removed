@@ -547,10 +547,6 @@ as
 nsIFile
 .
 *
-*
-status
-FROZEN
-*
 /
 [
 scriptable

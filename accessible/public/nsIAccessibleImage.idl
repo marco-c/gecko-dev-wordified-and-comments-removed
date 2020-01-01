@@ -430,15 +430,6 @@ nsISupports
 .
 idl
 "
-/
-*
-*
-*
-*
-status
-UNDER_REVIEW
-*
-/
 [
 scriptable
 uuid

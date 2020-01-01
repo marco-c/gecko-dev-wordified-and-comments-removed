@@ -492,10 +492,6 @@ dispatcher
 service
 .
 *
-*
-status
-FROZEN
-*
 /
 [
 scriptable

@@ -515,10 +515,6 @@ themselves
 see
 nsIPrefBranch
 *
-*
-status
-FROZEN
-*
 /
 [
 scriptable

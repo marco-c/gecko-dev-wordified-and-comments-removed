@@ -505,10 +505,6 @@ nsIPrefBranch
 see
 nsISupportsString
 *
-*
-status
-FROZEN
-*
 /
 [
 scriptable

@@ -475,10 +475,6 @@ service
 1
 "
 *
-*
-status
-UNDER_REVIEW
-*
 /
 [
 scriptable

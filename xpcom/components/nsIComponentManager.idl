@@ -429,9 +429,6 @@ nsIComponentManager
 interface
 .
 *
-status
-FROZEN
-*
 /
 #
 include
