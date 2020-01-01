@@ -47,10 +47,6 @@ applications
 "
 "
 from
-profile
-import
-*
-from
 addons
 import
 *
@@ -59,7 +55,15 @@ cli
 import
 *
 from
+permissions
+import
+*
+from
 prefs
+import
+*
+from
+profile
 import
 *
 from

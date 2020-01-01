@@ -133,7 +133,7 @@ tools
 /
 Projects
 /
-MozBase
+Mozbase
 [
 detailed
 docs

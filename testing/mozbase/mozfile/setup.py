@@ -7,7 +7,7 @@ PACKAGE_VERSION
 '
 0
 .
-7
+10
 '
 setup
 (
@@ -102,7 +102,7 @@ tools
 /
 Projects
 /
-MozBase
+Mozbase
 '
       
 license
