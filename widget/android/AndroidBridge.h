@@ -291,8 +291,7 @@ LAYER_CLIENT_TYPE_GL
 }
 ;
 static
-AndroidBridge
-*
+void
 ConstructBridge
 (
 JNIEnv

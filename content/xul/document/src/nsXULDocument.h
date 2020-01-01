@@ -1106,9 +1106,12 @@ eState_Overlay
 State
 mState
 ;
-nsCOMArray
+nsTArray
+<
+nsCOMPtr
 <
 nsIURI
+>
 >
 mUnloadedOverlays
 ;

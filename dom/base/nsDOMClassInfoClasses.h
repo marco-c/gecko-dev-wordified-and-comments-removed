@@ -1123,10 +1123,6 @@ StorageItem
 )
 DOMCI_CLASS
 (
-StorageEvent
-)
-DOMCI_CLASS
-(
 DOMParser
 )
 DOMCI_CLASS
@@ -1549,10 +1545,6 @@ DOMCI_CLASS
 (
 MutationRecord
 )
-DOMCI_CLASS
-(
-MozSettingsEvent
-)
 #
 ifdef
 MOZ_B2G_RIL
@@ -1604,6 +1596,10 @@ BluetoothDevice
 DOMCI_CLASS
 (
 BluetoothDeviceEvent
+)
+DOMCI_CLASS
+(
+BluetoothPropertyEvent
 )
 #
 endif

@@ -81,7 +81,11 @@ XP_MACOSX
 #
 include
 "
-nsIOSurface
+mozilla
+/
+gfx
+/
+MacIOSurface
 .
 h
 "
@@ -1801,7 +1805,7 @@ public
 struct
 Data
 {
-nsIOSurface
+MacIOSurface
 *
 mIOSurface
 ;
@@ -1933,7 +1937,7 @@ return
 mSize
 ;
 }
-nsIOSurface
+MacIOSurface
 *
 GetIOSurface
 (
@@ -1965,9 +1969,9 @@ private
 gfxIntSize
 mSize
 ;
-nsRefPtr
+RefPtr
 <
-nsIOSurface
+MacIOSurface
 >
 mIOSurface
 ;

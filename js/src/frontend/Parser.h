@@ -156,6 +156,12 @@ compileAndGo
 :
 1
 ;
+const
+bool
+allowIntrinsicsCalls
+:
+1
+;
 public
 :
 Parser
@@ -957,6 +963,12 @@ identifierName
 (
 bool
 afterDoubleDot
+)
+;
+ParseNode
+*
+intrinsicName
+(
 )
 ;
 #

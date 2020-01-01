@@ -707,12 +707,7 @@ else
 *
 aRetVal
 =
-mAudioStream
--
->
-GetPositionInFrames
-(
-)
+position
 *
 mChannels
 ;

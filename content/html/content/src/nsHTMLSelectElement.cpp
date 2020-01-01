@@ -1151,9 +1151,6 @@ if
 optElement
 )
 {
-nsresult
-rv
-=
 mOptions
 -
 >
@@ -1162,12 +1159,6 @@ InsertOptionAt
 optElement
 *
 aInsertIndex
-)
-;
-NS_ENSURE_SUCCESS
-(
-rv
-rv
 )
 ;
 (

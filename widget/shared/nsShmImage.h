@@ -210,12 +210,14 @@ if
 mImage
 )
 {
-XSync
+mozilla
+:
+:
+FinishX
 (
 DISPLAY
 (
 )
-False
 )
 ;
 if

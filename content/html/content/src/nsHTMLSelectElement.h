@@ -190,7 +190,7 @@ NS_DECL_CYCLE_COLLECTION_SCRIPT_HOLDER_CLASS_AMBIGUOUS
 nsHTMLOptionCollection
 nsIHTMLCollection
 )
-bool
+void
 InsertOptionAt
 (
 nsHTMLOptionElement
@@ -200,9 +200,6 @@ PRUint32
 aIndex
 )
 {
-return
-!
-!
 mElements
 .
 InsertElementAt
@@ -257,7 +254,7 @@ Clear
 )
 ;
 }
-bool
+void
 AppendOption
 (
 nsHTMLOptionElement
@@ -265,9 +262,6 @@ nsHTMLOptionElement
 aOption
 )
 {
-return
-!
-!
 mElements
 .
 AppendElement
