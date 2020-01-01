@@ -717,6 +717,8 @@ aRequest
 nsIURI
 *
 location
+PRUint32
+aFlags
 )
 {
 NS_NOTREACHED

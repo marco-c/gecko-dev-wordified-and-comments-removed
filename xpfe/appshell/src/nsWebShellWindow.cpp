@@ -2370,6 +2370,8 @@ aRequest
 nsIURI
 *
 aURI
+PRUint32
+aFlags
 )
 {
 NS_NOTREACHED

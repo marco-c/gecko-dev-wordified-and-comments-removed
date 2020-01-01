@@ -7298,6 +7298,7 @@ SetCurrentURI
 aURI
 nsnull
 true
+0
 )
 ;
 return
@@ -7318,6 +7319,8 @@ nsIRequest
 aRequest
 bool
 aFireOnLocationChange
+PRUint32
+aLocationFlags
 )
 {
 #
@@ -7479,6 +7482,7 @@ FireOnLocationChange
 this
 aRequest
 aURI
+aLocationFlags
 )
 ;
 }
@@ -23276,6 +23280,7 @@ SetCurrentURI
 uri
 aRequest
 true
+0
 )
 ;
 rv
@@ -23533,6 +23538,8 @@ aRequest
 nsIURI
 *
 aURI
+PRUint32
+aFlags
 )
 {
 NS_NOTREACHED
@@ -25343,6 +25350,7 @@ GetDocumentURI
 )
 nsnull
 true
+0
 )
 ;
 rv
@@ -27949,6 +27957,7 @@ GetChannel
 (
 )
 true
+0
 )
 ;
 }
@@ -29118,6 +29127,7 @@ FireOnLocationChange
 this
 request
 mCurrentURI
+0
 )
 ;
 }
@@ -35906,6 +35916,18 @@ mLoadedTransIndex
 endif
 }
 }
+PRUint32
+locationFlags
+=
+aCloneSHChildren
+?
+PRUint32
+(
+LOCATION_CHANGE_SAME_DOCUMENT
+)
+:
+0
+;
 bool
 onLocationChangeNeeded
 =
@@ -35914,6 +35936,7 @@ SetCurrentURI
 aURI
 aChannel
 aFireOnLocationChange
+locationFlags
 )
 ;
 SetupReferrerFromChannel
@@ -36876,6 +36899,7 @@ SetCurrentURI
 newURI
 nsnull
 true
+LOCATION_CHANGE_SAME_DOCUMENT
 )
 ;
 document

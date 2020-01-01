@@ -2651,6 +2651,8 @@ aRequest
 nsIURI
 *
 aURI
+PRUint32
+aFlags
 )
 {
 return

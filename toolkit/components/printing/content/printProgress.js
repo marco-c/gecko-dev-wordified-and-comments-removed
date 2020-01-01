@@ -1132,6 +1132,7 @@ function
 aWebProgress
 aRequest
 aLocation
+aFlags
 )
 {
 }

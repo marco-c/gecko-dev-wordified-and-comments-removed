@@ -40,7 +40,10 @@ window
 id
 =
 "
-303267Test
+{
+BUGNUMBER
+}
+Test
 "
 xmlns
 =

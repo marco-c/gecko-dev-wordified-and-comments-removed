@@ -195,6 +195,7 @@ onLocationChange
 aWebProgress
 aRequest
 aLocationURI
+aFlags
 )
 {
 if

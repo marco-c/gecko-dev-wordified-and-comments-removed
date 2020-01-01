@@ -321,6 +321,7 @@ function
 webProgress
 request
 location
+flags
 )
 {
 }

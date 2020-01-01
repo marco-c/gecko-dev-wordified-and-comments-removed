@@ -440,6 +440,8 @@ aRequest
 nsIURI
 *
 aLocation
+PRUint32
+aFlags
 )
 {
 NS_ENSURE_TRUE
@@ -457,6 +459,7 @@ OnLocationChange
 aWebProgress
 aRequest
 aLocation
+aFlags
 )
 ;
 }

@@ -4109,6 +4109,7 @@ function
 aWebProgress
 aRequest
 aLocation
+aFlags
 )
 {
 /
@@ -4351,6 +4352,7 @@ onLocationChange
 aWebProgress
 aRequest
 aLocation
+aFlags
 ]
 )
 ;
@@ -5928,6 +5930,7 @@ onLocationChange
 webProgress
 null
 loc
+0
 ]
 true
 false
