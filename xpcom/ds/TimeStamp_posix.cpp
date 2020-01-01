@@ -194,6 +194,13 @@ prthread
 .
 h
 "
+#
+include
+"
+nsDebug
+.
+h
+"
 static
 uint64_t
 sResolution

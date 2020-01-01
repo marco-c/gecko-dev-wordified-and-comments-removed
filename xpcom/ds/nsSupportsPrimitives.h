@@ -30,14 +30,7 @@ h
 #
 include
 "
-nsString
-.
-h
-"
-#
-include
-"
-nsDependentString
+nsStringGlue
 .
 h
 "

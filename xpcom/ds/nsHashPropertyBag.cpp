@@ -22,13 +22,6 @@ h
 #
 include
 "
-nsComponentManagerUtils
-.
-h
-"
-#
-include
-"
 nsIVariant
 .
 h

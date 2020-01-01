@@ -124,6 +124,13 @@ nsXULAppAPI
 .
 h
 "
+#
+include
+"
+nsTArray
+.
+h
+"
 static
 NS_DEFINE_CID
 (

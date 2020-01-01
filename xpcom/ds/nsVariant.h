@@ -21,13 +21,6 @@ h
 #
 include
 "
-xpt_struct
-.
-h
-"
-#
-include
-"
 mozilla
 /
 Attributes
