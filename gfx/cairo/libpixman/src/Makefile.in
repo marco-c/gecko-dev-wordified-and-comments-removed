@@ -506,6 +506,17 @@ gcc
 on
 -
 x86
+ifneq
+(
+arm
+(
+findstring
+arm
+(
+OS_TEST
+)
+)
+)
 ifdef
 _MSC_VER
 USE_MMX
@@ -596,6 +607,7 @@ function
 growth
 =
 10000
+endif
 endif
 endif
 endif
