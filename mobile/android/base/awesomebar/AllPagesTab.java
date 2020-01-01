@@ -4636,9 +4636,13 @@ Void
 Cursor
 >
 (
-GeckoApp
+getView
+(
+)
 .
-mAppContext
+getHandler
+(
+)
 GeckoAppShell
 .
 getHandler

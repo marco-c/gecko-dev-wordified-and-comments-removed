@@ -960,9 +960,9 @@ Type
 >
 >
 (
-GeckoApp
-.
-mAppContext
+getHandler
+(
+)
 GeckoAppShell
 .
 getHandler

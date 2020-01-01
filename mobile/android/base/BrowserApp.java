@@ -6647,7 +6647,7 @@ Void
 Boolean
 >
 (
-mAppContext
+mMainHandler
 GeckoAppShell
 .
 getHandler
@@ -6851,7 +6851,7 @@ Void
 String
 >
 (
-mAppContext
+mMainHandler
 GeckoAppShell
 .
 getHandler
