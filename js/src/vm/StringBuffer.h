@@ -73,12 +73,6 @@ context
 )
 ;
 }
-jschar
-*
-extractWellSized
-(
-)
-;
 StringBuffer
 (
 const
@@ -471,6 +465,12 @@ finishString
 JSAtom
 *
 finishAtom
+(
+)
+;
+jschar
+*
+extractWellSized
 (
 )
 ;
