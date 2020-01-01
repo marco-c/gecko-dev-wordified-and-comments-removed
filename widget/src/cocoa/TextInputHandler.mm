@@ -521,6 +521,13 @@ nsCocoaUtils
 h
 "
 #
+include
+"
+nsPrintfCString
+.
+h
+"
+#
 ifdef
 __LP64__
 #
