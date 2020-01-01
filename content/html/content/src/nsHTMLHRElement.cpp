@@ -1364,11 +1364,12 @@ eCSSUnit_Null
 {
 dimen
 .
-SetPercentValue
+SetFloatValue
 (
-1
+10000
 .
 0f
+eCSSUnit_Pixel
 )
 ;
 }
