@@ -107,6 +107,12 @@ Bug
 var
 oldPrefValue
 =
+null
+;
+try
+{
+oldPrefValue
+=
 SpecialPowers
 .
 getBoolPref
@@ -118,6 +124,13 @@ disable_input_file
 '
 )
 ;
+}
+catch
+(
+e
+)
+{
+}
 var
 input
 =
