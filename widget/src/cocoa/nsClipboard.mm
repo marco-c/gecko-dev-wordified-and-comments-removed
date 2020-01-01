@@ -1632,7 +1632,7 @@ aFlavorList
 >
 GetElementAt
 (
-j
+k
 getter_AddRefs
 (
 passedFlavorSupports
