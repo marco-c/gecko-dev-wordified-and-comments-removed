@@ -184,8 +184,12 @@ createDocument
 DOMString
 ?
 namespace
+[
+TreatNullAs
+=
+EmptyString
+]
 DOMString
-?
 qualifiedName
 DocumentType
 ?
