@@ -616,6 +616,14 @@ browser_rememberPassword
 .
 js
 \
+browser_scroll
+.
+js
+\
+browser_scroll
+.
+html
+\
 browser_scrollbar
 .
 js
