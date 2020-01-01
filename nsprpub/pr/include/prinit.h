@@ -48,7 +48,6 @@ PR_VERSION
 9
 .
 6
-Beta
 "
 #
 define
@@ -65,7 +64,7 @@ PR_VPATCH
 #
 define
 PR_BETA
-PR_TRUE
+PR_FALSE
 typedef
 PRBool
 (
