@@ -448,6 +448,19 @@ aStr
 )
 ;
 static
+int32_t
+FindIndexOfKeyword
+(
+nsCSSKeyword
+aKeyword
+const
+int32_t
+aTable
+[
+]
+)
+;
+static
 bool
 FindKeyword
 (
@@ -1327,7 +1340,6 @@ kDirectionKTable
 ]
 ;
 static
-const
 int32_t
 kDisplayKTable
 [
