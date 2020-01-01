@@ -2534,12 +2534,12 @@ GlobalObject
 *
 global
 ;
+public
+:
 TypeScriptNesting
 *
 nesting
 ;
-public
-:
 TypeResult
 *
 dynamicList
@@ -2813,6 +2813,7 @@ script
 jsbytecode
 *
 pc
+const
 js
 :
 :
@@ -2953,6 +2954,7 @@ JSScript
 script
 unsigned
 arg
+const
 js
 :
 :

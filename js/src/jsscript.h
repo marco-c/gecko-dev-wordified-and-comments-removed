@@ -1138,7 +1138,7 @@ version
 static
 JSScript
 *
-NewScriptFromCG
+NewScriptFromEmitter
 (
 JSContext
 *
@@ -1146,9 +1146,9 @@ cx
 js
 :
 :
-CodeGenerator
+BytecodeEmitter
 *
-cg
+bce
 )
 ;
 #

@@ -59,7 +59,7 @@ include
 "
 frontend
 /
-BytecodeGenerator
+BytecodeEmitter
 .
 h
 "
@@ -11386,6 +11386,9 @@ popn
 2
 )
 ;
+BarrierState
+barrier
+;
 if
 (
 dataReg
@@ -11469,6 +11472,13 @@ Changes
 (
 2
 )
+)
+;
+finishBarrier
+(
+barrier
+REJOIN_FALLTHROUGH
+0
 )
 ;
 return

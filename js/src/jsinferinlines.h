@@ -968,6 +968,7 @@ TypeMonitorCall
 JSContext
 *
 cx
+const
 js
 :
 :
@@ -988,6 +989,7 @@ cx
 JSObject
 *
 callee
+const
 CallArgs
 &
 args
@@ -1716,6 +1718,7 @@ script
 jsbytecode
 *
 pc
+const
 js
 :
 :
@@ -2455,6 +2458,7 @@ script
 jsbytecode
 *
 pc
+const
 js
 :
 :
@@ -3136,6 +3140,7 @@ JSScript
 script
 unsigned
 arg
+const
 js
 :
 :
@@ -3154,11 +3159,6 @@ typeInferenceEnabled
 )
 )
 {
-TryCoerceNumberToInt32
-(
-value
-)
-;
 Type
 type
 =

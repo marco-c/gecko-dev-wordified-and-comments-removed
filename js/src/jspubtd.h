@@ -155,7 +155,7 @@ JSUint32
 jsuint
 ;
 typedef
-float64
+double
 jsdouble
 ;
 typedef
