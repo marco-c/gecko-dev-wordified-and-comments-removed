@@ -14169,10 +14169,8 @@ bool
 aWithCredentials
 )
 {
-nsresult
+ErrorResult
 rv
-=
-NS_OK
 ;
 SetWithCredentials
 (
@@ -14182,6 +14180,10 @@ rv
 ;
 return
 rv
+.
+ErrorCode
+(
+)
 ;
 }
 void
@@ -14192,7 +14194,7 @@ SetWithCredentials
 (
 bool
 aWithCredentials
-nsresult
+ErrorResult
 &
 aRv
 )
@@ -14241,8 +14243,11 @@ GetOwner
 )
 ;
 aRv
-=
+.
+Throw
+(
 NS_ERROR_DOM_INVALID_ACCESS_ERR
+)
 ;
 return
 ;

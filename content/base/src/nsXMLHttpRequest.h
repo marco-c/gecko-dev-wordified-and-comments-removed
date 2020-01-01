@@ -1027,7 +1027,7 @@ SetWithCredentials
 (
 bool
 aWithCredentials
-nsresult
+ErrorResult
 &
 aRv
 )

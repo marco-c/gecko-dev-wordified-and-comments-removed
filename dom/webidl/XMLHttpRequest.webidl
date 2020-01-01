@@ -476,8 +476,6 @@ timeout
 ;
 [
 SetterThrows
-=
-Workers
 ]
 attribute
 boolean

@@ -2653,6 +2653,10 @@ test_bug814576
 .
 html
 \
+test_xhr_withCredentials
+.
+html
+\
 (
 NULL
 )
