@@ -831,7 +831,7 @@ address
 )
 ;
 }
-void
+Label
 storeValue
 (
 const
@@ -871,8 +871,13 @@ address
 )
 )
 ;
+return
+label
+(
+)
+;
 }
-void
+Label
 storeValue
 (
 const
@@ -910,6 +915,11 @@ valueOf
 (
 address
 )
+)
+;
+return
+label
+(
 )
 ;
 }

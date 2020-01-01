@@ -339,7 +339,7 @@ Kind
 kind
 ;
 Label
-hotPathBegin
+fastPathStart
 ;
 Label
 storeBack
