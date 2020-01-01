@@ -1,0 +1,9 @@
+-
+r
+mozbase_requirements
+.
+txt
+.
+.
+/
+marionette
