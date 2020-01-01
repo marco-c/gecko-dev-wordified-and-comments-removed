@@ -128,10 +128,9 @@ const
 nsAString
 &
 aText
-nsIDOMMozSmsSegmentInfo
+nsIMobileMessageCallback
 *
-*
-aResult
+aRequest
 )
 {
 NS_ENSURE_TRUE
@@ -147,7 +146,7 @@ mRadioInterface
 GetSegmentInfoForText
 (
 aText
-aResult
+aRequest
 )
 ;
 }

@@ -71,6 +71,17 @@ SmsSegmentInfoData
 aData
 )
 ;
+const
+mobilemessage
+:
+:
+SmsSegmentInfoData
+&
+GetData
+(
+)
+const
+;
 private
 :
 mobilemessage
