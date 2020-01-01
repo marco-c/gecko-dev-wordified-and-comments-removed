@@ -26930,7 +26930,11 @@ strings
 exceptionCode
 "
 :
-exceptionCode
+exceptionCodeIndented
+.
+define
+(
+)
 }
 +
         
@@ -64215,6 +64219,11 @@ if
 arg
 .
 optional
+and
+not
+arg
+.
+defaultValue
 :
                 
 argval
@@ -64454,6 +64463,11 @@ elif
 arg
 .
 optional
+and
+not
+arg
+.
+defaultValue
 :
             
 conversion
