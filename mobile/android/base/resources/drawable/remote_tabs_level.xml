@@ -120,7 +120,7 @@ drawable
 "
 drawable
 /
-tab_close
+remote_tabs_off
 "
 /
 >
@@ -140,7 +140,7 @@ drawable
 "
 drawable
 /
-tab_new
+remote_tabs_on
 "
 /
 >
