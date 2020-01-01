@@ -3103,6 +3103,11 @@ if
 (
 !
 linkHandler
+|
+|
+IsEditable
+(
+)
 )
 {
 mIsSubmitting
