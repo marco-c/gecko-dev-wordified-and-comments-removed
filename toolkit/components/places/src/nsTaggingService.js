@@ -1162,6 +1162,9 @@ i
 +
 +
 )
+{
+try
+{
 uris
 .
 push
@@ -1183,6 +1186,14 @@ null
 )
 )
 ;
+}
+catch
+(
+ex
+)
+{
+}
+}
 tagNode
 .
 containerOpen
