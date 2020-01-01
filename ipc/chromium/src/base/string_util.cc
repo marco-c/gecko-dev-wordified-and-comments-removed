@@ -3538,6 +3538,9 @@ b
 )
 ;
 }
+#
+ifndef
+ANDROID
 bool
 LowerCaseEqualsASCII
 (
@@ -3590,6 +3593,8 @@ b
 )
 ;
 }
+#
+endif
 bool
 StartsWithASCII
 (

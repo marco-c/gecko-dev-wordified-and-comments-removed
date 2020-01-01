@@ -84462,6 +84462,7 @@ sqlite3_fullsync_count
 endif
 #
 if
+(
 !
 defined
 (
@@ -84473,6 +84474,13 @@ fdatasync
 defined
 (
 __linux__
+)
+)
+|
+|
+defined
+(
+ANDROID
 )
 #
 define
