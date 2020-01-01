@@ -9670,12 +9670,6 @@ open
 "
 )
 ;
-BrowserUI
-.
-popPopup
-(
-)
-;
 }
 handleIdentityButtonEvent
 :
