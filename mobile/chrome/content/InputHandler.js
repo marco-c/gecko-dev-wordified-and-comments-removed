@@ -2772,9 +2772,9 @@ grab
 this
 )
 ;
-this
+Browser
 .
-deckbrowser
+content
 .
 zoom
 (
