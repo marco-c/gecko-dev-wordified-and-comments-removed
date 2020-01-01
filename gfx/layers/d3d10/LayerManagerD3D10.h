@@ -130,6 +130,12 @@ Initialize
 ;
 virtual
 void
+Destroy
+(
+)
+;
+virtual
+void
 SetRoot
 (
 Layer
