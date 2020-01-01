@@ -5219,7 +5219,6 @@ Deflate
 (
 gfxMargin
 (
-0
 std
 :
 :
@@ -5257,6 +5256,7 @@ C_BR
 .
 height
 )
+0
 )
 )
 ;
@@ -6368,7 +6368,6 @@ Deflate
 (
 gfxMargin
 (
-0
 std
 :
 :
@@ -6406,6 +6405,7 @@ C_BR
 .
 height
 )
+0
 )
 )
 ;
