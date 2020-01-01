@@ -1,9 +1,9 @@
 #
 ifndef
-nsCrossSiteListenerProxy_h__
+nsCORSListenerProxy_h__
 #
 define
-nsCrossSiteListenerProxy_h__
+nsCORSListenerProxy_h__
 #
 include
 "
@@ -113,7 +113,7 @@ aPreflightChannel
 )
 ;
 class
-nsCrossSiteListenerProxy
+nsCORSListenerProxy
 :
 public
 nsIStreamListener
@@ -126,7 +126,7 @@ nsIAsyncVerifyRedirectCallback
 {
 public
 :
-nsCrossSiteListenerProxy
+nsCORSListenerProxy
 (
 nsIStreamListener
 *
@@ -144,7 +144,7 @@ nsresult
 aResult
 )
 ;
-nsCrossSiteListenerProxy
+nsCORSListenerProxy
 (
 nsIStreamListener
 *

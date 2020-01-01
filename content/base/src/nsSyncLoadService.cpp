@@ -720,7 +720,7 @@ aLoaderPrincipal
 listener
 =
 new
-nsCrossSiteListenerProxy
+nsCORSListenerProxy
 (
 listener
 aLoaderPrincipal

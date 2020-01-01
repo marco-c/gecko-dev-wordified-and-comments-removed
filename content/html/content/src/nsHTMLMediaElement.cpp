@@ -3694,7 +3694,7 @@ ShouldCheckAllowOrigin
 listener
 =
 new
-nsCrossSiteListenerProxy
+nsCORSListenerProxy
 (
 loadListener
 NodePrincipal

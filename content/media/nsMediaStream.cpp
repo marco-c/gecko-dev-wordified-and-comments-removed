@@ -1813,12 +1813,12 @@ ShouldCheckAllowOrigin
 nsresult
 rv
 ;
-nsCrossSiteListenerProxy
+nsCORSListenerProxy
 *
 crossSiteListener
 =
 new
-nsCrossSiteListenerProxy
+nsCORSListenerProxy
 (
 mListener
 element

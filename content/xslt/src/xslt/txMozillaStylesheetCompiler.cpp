@@ -2124,7 +2124,7 @@ nsIStreamListener
 listener
 =
 new
-nsCrossSiteListenerProxy
+nsCORSListenerProxy
 (
 sink
 aReferrerPrincipal

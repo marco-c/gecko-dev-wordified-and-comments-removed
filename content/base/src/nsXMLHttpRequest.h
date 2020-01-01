@@ -781,13 +781,13 @@ nsCOMPtr
 <
 nsIChannel
 >
-mACGetChannel
+mCORSPreflightChannel
 ;
 nsTArray
 <
 nsCString
 >
-mACUnsafeHeaders
+mCORSUnsafeHeaders
 ;
 nsRefPtr
 <
