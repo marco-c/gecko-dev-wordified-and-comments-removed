@@ -575,6 +575,7 @@ prototype
 addListener
 :
 function
+po_al
 (
 aPrefs
 aDomain
@@ -642,6 +643,7 @@ Events
 observe
 :
 function
+po_observer_obs
 (
 aSubject
 aTopic
@@ -722,6 +724,7 @@ aListener
 removeListener
 :
 function
+po_rl
 (
 aPrefs
 aDomain
@@ -942,6 +945,7 @@ _events
 addListener
 :
 function
+pb_al
 (
 aEvent
 aListener
@@ -962,6 +966,7 @@ aListener
 removeListener
 :
 function
+pb_rl
 (
 aEvent
 aListener
@@ -1448,6 +1453,7 @@ _events
 addListener
 :
 function
+pref_al
 (
 aEvent
 aListener
@@ -1473,6 +1479,7 @@ aListener
 removeListener
 :
 function
+pref_rl
 (
 aEvent
 aListener
@@ -1937,6 +1944,7 @@ prototype
 onDisabling
 :
 function
+eo_onDisabling
 (
 addon
 needsRestart
@@ -1958,6 +1966,7 @@ disable
 onEnabling
 :
 function
+eo_onEnabling
 (
 addon
 needsRestart
@@ -1979,6 +1988,7 @@ enable
 onUninstalling
 :
 function
+eo_onUninstalling
 (
 addon
 needsRestart
@@ -2000,6 +2010,7 @@ uninstall
 onOperationCancelled
 :
 function
+eo_onOperationCancelled
 (
 addon
 )
@@ -2020,6 +2031,7 @@ cancel
 onInstallEnded
 :
 function
+eo_onInstallEnded
 (
 install
 addon
@@ -2041,6 +2053,7 @@ upgrade
 addListener
 :
 function
+eo_al
 (
 aId
 aEvent
@@ -2092,6 +2105,7 @@ aListener
 removeListener
 :
 function
+eo_rl
 (
 aId
 aEvent
@@ -2150,6 +2164,7 @@ aId
 _dispatchEvent
 :
 function
+eo_dispatchEvent
 (
 aId
 aEvent
@@ -2245,6 +2260,7 @@ _events
 addListener
 :
 function
+ext_events_al
 (
 aEvent
 aListener
@@ -2263,6 +2279,7 @@ aListener
 removeListener
 :
 function
+ext_events_rl
 (
 aEvent
 aListener

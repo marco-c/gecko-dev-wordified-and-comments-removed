@@ -373,6 +373,7 @@ windowMediator
 makeURI
 :
 function
+fuelutil_makeURI
 (
 aSpec
 )
@@ -426,6 +427,7 @@ null
 free
 :
 function
+fuelutil_free
 (
 )
 {
@@ -1305,6 +1307,7 @@ aName
 get
 :
 function
+ann_get
 (
 aName
 )
@@ -1338,6 +1341,7 @@ null
 set
 :
 function
+ann_set
 (
 aName
 aValue
@@ -1461,13 +1465,20 @@ onBeforeItemRemoved
 :
 function
 (
-aId
+)
+{
+}
+onItemVisited
+:
+function
+(
 )
 {
 }
 onItemAdded
 :
 function
+bo_onItemAdded
 (
 aId
 aFolder
@@ -1505,19 +1516,10 @@ aFolder
 )
 ;
 }
-onItemVisited
-:
-function
-(
-aId
-aVisitID
-aTime
-)
-{
-}
 onItemRemoved
 :
 function
+bo_onItemRemoved
 (
 aId
 aFolder
@@ -1572,6 +1574,7 @@ aFolder
 onItemChanged
 :
 function
+bo_onItemChanged
 (
 aId
 aProperty
@@ -1611,6 +1614,7 @@ aId
 onItemMoved
 :
 function
+bo_onItemMoved
 (
 aId
 aOldParent
@@ -1639,6 +1643,7 @@ aId
 _dispatchToEvents
 :
 function
+bo_dispatchToEvents
 (
 aEvent
 aData
@@ -1663,6 +1668,7 @@ aData
 _addListenerToDict
 :
 function
+bo_addListenerToDict
 (
 aId
 aEvent
@@ -1711,6 +1717,7 @@ aListener
 _removeListenerFromDict
 :
 function
+bo_removeListenerFromDict
 (
 aId
 aEvent
@@ -1766,6 +1773,7 @@ aId
 addListener
 :
 function
+bo_addListener
 (
 aId
 aEvent
@@ -1788,6 +1796,7 @@ _eventsDict
 removeListener
 :
 function
+bo_removeListener
 (
 aId
 aEvent
@@ -1810,6 +1819,7 @@ _eventsDict
 addFolderListener
 :
 function
+addFolderListener
 (
 aId
 aEvent
@@ -1832,6 +1842,7 @@ _folderEventsDict
 removeFolderListener
 :
 function
+removeFolderListener
 (
 aId
 aEvent
@@ -1854,6 +1865,7 @@ _folderEventsDict
 addRootListener
 :
 function
+addRootListener
 (
 aEvent
 aListener
@@ -1873,6 +1885,7 @@ aListener
 removeRootListener
 :
 function
+removeRootListener
 (
 aEvent
 aListener
@@ -1962,6 +1975,7 @@ _events
 addListener
 :
 function
+bookmarkevents_al
 (
 aEvent
 aListener
@@ -1984,6 +1998,7 @@ aListener
 removeListener
 :
 function
+bookmarkevents_rl
 (
 aEvent
 aListener
@@ -2309,11 +2324,6 @@ onItemAdded
 :
 function
 (
-aId
-aFolder
-aIndex
-aItemType
-aURI
 )
 {
 }
@@ -2321,7 +2331,6 @@ onBeforeItemRemoved
 :
 function
 (
-aId
 )
 {
 }
@@ -2329,9 +2338,6 @@ onItemVisited
 :
 function
 (
-aId
-aVisitID
-aTime
 )
 {
 }
@@ -2339,9 +2345,6 @@ onItemRemoved
 :
 function
 (
-aId
-aFolder
-aIndex
 )
 {
 }
@@ -2349,10 +2352,6 @@ onItemChanged
 :
 function
 (
-aId
-aProperty
-aIsAnnotationProperty
-aValue
 )
 {
 }
@@ -2461,6 +2460,7 @@ _events
 addListener
 :
 function
+bmfevents_al
 (
 aEvent
 aListener
@@ -2533,6 +2533,7 @@ aListener
 removeListener
 :
 function
+bmfevents_rl
 (
 aEvent
 aListener
@@ -3179,11 +3180,6 @@ onItemAdded
 :
 function
 (
-aId
-aFolder
-aIndex
-aItemType
-aURI
 )
 {
 }
@@ -3191,7 +3187,6 @@ onBeforeItemRemoved
 :
 function
 (
-aId
 )
 {
 }
@@ -3199,9 +3194,6 @@ onItemRemoved
 :
 function
 (
-aId
-aFolder
-aIndex
 )
 {
 }
@@ -3209,16 +3201,13 @@ onItemChanged
 :
 function
 (
-aId
-aProperty
-aIsAnnotationProperty
-aValue
 )
 {
 }
 onItemMoved
 :
 function
+bf_onItemMoved
 (
 aId
 aOldParent
