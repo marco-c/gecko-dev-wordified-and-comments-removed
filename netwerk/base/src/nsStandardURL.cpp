@@ -253,7 +253,7 @@ mMutable
 )
 {
 \
-NS_ERROR
+NS_WARNING
 (
 "
 attempt
