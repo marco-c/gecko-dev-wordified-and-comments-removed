@@ -499,9 +499,6 @@ cx
 JSAtom
 *
 atom
-JSAutoByteString
-*
-bytes
 )
 ;
 struct
