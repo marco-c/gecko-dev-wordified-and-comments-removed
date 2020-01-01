@@ -440,6 +440,12 @@ IsCMSEnabled
 )
 ;
 static
+int
+GetRenderingIntent
+(
+)
+;
+static
 cmsHPROFILE
 GetCMSOutputProfile
 (
