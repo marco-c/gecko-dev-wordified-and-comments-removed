@@ -1550,6 +1550,13 @@ nsMouseEvent
 eRightButton
 )
 {
+if
+(
+aVisitor
+.
+mDOMEvent
+)
+{
 aVisitor
 .
 mDOMEvent
@@ -1559,6 +1566,7 @@ StopPropagation
 (
 )
 ;
+}
 }
 }
 }
