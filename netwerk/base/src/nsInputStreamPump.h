@@ -70,13 +70,6 @@ h
 #
 include
 "
-nsIThreadRetargetableRequest
-.
-h
-"
-#
-include
-"
 nsCOMPtr
 .
 h
@@ -98,8 +91,6 @@ public
 nsIInputStreamPump
 public
 nsIInputStreamCallback
-public
-nsIThreadRetargetableRequest
 {
 public
 :
@@ -107,7 +98,6 @@ NS_DECL_ISUPPORTS
 NS_DECL_NSIREQUEST
 NS_DECL_NSIINPUTSTREAMPUMP
 NS_DECL_NSIINPUTSTREAMCALLBACK
-NS_DECL_NSITHREADRETARGETABLEREQUEST
 nsInputStreamPump
 (
 )
@@ -239,7 +229,7 @@ mListenerContext
 ;
 nsCOMPtr
 <
-nsIEventTarget
+nsIThread
 >
 mTargetThread
 ;
@@ -284,9 +274,6 @@ mWaiting
 ;
 bool
 mCloseWhenDone
-;
-bool
-mRetargeting
 ;
 }
 ;

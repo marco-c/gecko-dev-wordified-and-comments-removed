@@ -103,9 +103,6 @@ httpserver
 '
 browser
 '
-'
-mochitests
-'
 ]
 MODULE
 =

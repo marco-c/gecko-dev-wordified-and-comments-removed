@@ -608,17 +608,6 @@ get
 )
 ;
 }
-operator
-bool
-(
-)
-{
-return
-get
-(
-)
-;
-}
 bool
 operator
 =
