@@ -5741,11 +5741,6 @@ False
 #
 WebGL
 '
-nsIDOMWebGLRenderingContext_ReadPixels
-'
-:
-CUSTOM_QS
-'
 nsIDOMWebGLRenderingContext_TexImage2D
 '
 :
