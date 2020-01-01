@@ -185,11 +185,6 @@ FullScreenVideo
 ]
 [
 "
-WebappsUI
-"
-]
-[
-"
 BadgeHandlers
 "
 ]
