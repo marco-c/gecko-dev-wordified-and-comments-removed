@@ -2603,7 +2603,7 @@ GetEnumValue
 nsSVGPatternElement
 :
 :
-PATTERNCONTENTUNITS
+PATTERNUNITS
 )
 ;
 if
