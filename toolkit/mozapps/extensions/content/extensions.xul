@@ -6577,6 +6577,13 @@ columns
 >
 <
 rows
+id
+=
+"
+detail
+-
+rows
+"
 >
 <
 row
