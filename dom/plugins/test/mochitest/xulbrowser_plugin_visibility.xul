@@ -302,9 +302,9 @@ test
 /
 chrome
 /
-modules
+dom
 /
-plugin
+plugins
 /
 test
 /

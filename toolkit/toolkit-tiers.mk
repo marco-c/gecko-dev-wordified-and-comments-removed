@@ -790,10 +790,6 @@ modules
 /
 libpr0n
 \
-modules
-/
-plugin
-\
 dom
 \
 view

@@ -813,9 +813,9 @@ test
 -
 path
 =
-modules
+dom
 /
-plugin
+plugins
 /
 test
 endif
@@ -854,9 +854,9 @@ test
 -
 path
 =
-modules
+dom
 /
-plugin
+plugins
 /
 test
 endif
@@ -895,9 +895,9 @@ test
 -
 path
 =
-modules
+dom
 /
-plugin
+plugins
 /
 test
 endif
@@ -924,9 +924,9 @@ test
 -
 path
 =
-modules
+dom
 /
-plugin
+plugins
 /
 test
 endif

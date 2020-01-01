@@ -3320,9 +3320,9 @@ self
 TEST_PATH
 +
 "
-modules
+dom
 /
-plugin
+plugins
 /
 test
 "

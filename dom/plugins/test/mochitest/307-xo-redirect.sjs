@@ -37,9 +37,9 @@ org
 /
 tests
 /
-modules
+dom
 /
-plugin
+plugins
 /
 test
 /

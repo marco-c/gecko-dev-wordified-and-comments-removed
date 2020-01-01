@@ -406,9 +406,9 @@ VPATH
 srcdir
 relativesrcdir
 =
-modules
+dom
 /
-plugin
+plugins
 /
 test
 include

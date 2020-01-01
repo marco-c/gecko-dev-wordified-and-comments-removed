@@ -1022,9 +1022,9 @@ include
 .
 .
 /
-modules
+dom
 /
-plugin
+plugins
 /
 test
 /
