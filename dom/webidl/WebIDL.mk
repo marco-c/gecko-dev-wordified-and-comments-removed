@@ -223,6 +223,10 @@ DesktopNotification
 .
 webidl
 \
+DeviceMotionEvent
+.
+webidl
+\
 Document
 .
 webidl
