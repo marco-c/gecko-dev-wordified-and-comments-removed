@@ -2066,6 +2066,12 @@ cx
 this
 )
 ;
+nativeIterCache
+.
+purge
+(
+)
+;
 #
 ifdef
 JS_TRACER
