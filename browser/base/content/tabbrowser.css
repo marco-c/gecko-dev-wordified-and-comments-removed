@@ -62,9 +62,6 @@ tab
 )
 ;
 }
-%
-ifdef
-XP_MACOSX
 .
 tabbrowser
 -
@@ -97,8 +94,6 @@ arrowscrollbox
 )
 ;
 }
-%
-endif
 .
 tab
 -
