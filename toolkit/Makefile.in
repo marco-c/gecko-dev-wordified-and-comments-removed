@@ -436,10 +436,6 @@ profile
 \
 themes
 \
-spatial
--
-navigation
-\
 (
 NULL
 )
@@ -464,7 +460,7 @@ ifneq
 (
 (
 filter
-cocoa
+qt
 (
 MOZ_WIDGET_TOOLKIT
 )
@@ -475,7 +471,7 @@ DIRS
 =
 system
 /
-osxproxy
+unixproxy
 endif
 ifdef
 MOZ_CRASHREPORTER
@@ -484,6 +480,8 @@ DIRS
 =
 crashreporter
 endif
+ifndef
+MINIMO
 DIRS
 +
 =
@@ -495,6 +493,7 @@ mozapps
 (
 NULL
 )
+endif
 include
 (
 topsrcdir
