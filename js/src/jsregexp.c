@@ -19258,7 +19258,7 @@ lastIndex
 ;
 ok
 =
-js_NewNumberValue
+JS_NewNumberValue
 (
 cx
 lastIndex
@@ -22700,7 +22700,7 @@ jsval
 v
 ;
 return
-js_NewNumberValue
+JS_NewNumberValue
 (
 cx
 lastIndex

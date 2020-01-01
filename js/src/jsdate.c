@@ -2495,7 +2495,7 @@ msec_time
 )
 ;
 return
-js_NewNumberValue
+js_NewNumberInRootedValue
 (
 cx
 msec_time
@@ -4009,7 +4009,7 @@ result
 )
 ;
 return
-js_NewNumberValue
+js_NewNumberInRootedValue
 (
 cx
 result
@@ -4065,7 +4065,7 @@ ms
 )
 ;
 return
-js_NewDoubleValue
+js_NewDoubleInRootedValue
 (
 cx
 msec_time
@@ -4239,7 +4239,7 @@ jsdouble
 *
 dp
 =
-js_NewDouble
+js_NewWeaklyRootedDouble
 (
 cx
 t
@@ -4357,7 +4357,7 @@ result
 ;
 cached
 =
-js_NewDouble
+js_NewWeaklyRootedDouble
 (
 cx
 result
@@ -4432,7 +4432,7 @@ result
 )
 &
 &
-js_NewNumberValue
+js_NewNumberInRootedValue
 (
 cx
 result
@@ -4503,7 +4503,7 @@ result
 ;
 }
 return
-js_NewNumberValue
+js_NewNumberInRootedValue
 (
 cx
 result
@@ -4608,7 +4608,7 @@ result
 )
 ;
 return
-js_NewNumberValue
+js_NewNumberInRootedValue
 (
 cx
 result
@@ -4667,7 +4667,7 @@ result
 )
 ;
 return
-js_NewNumberValue
+js_NewNumberInRootedValue
 (
 cx
 result
@@ -4726,7 +4726,7 @@ result
 )
 ;
 return
-js_NewNumberValue
+js_NewNumberInRootedValue
 (
 cx
 result
@@ -4785,7 +4785,7 @@ result
 )
 ;
 return
-js_NewNumberValue
+js_NewNumberInRootedValue
 (
 cx
 result
@@ -4844,7 +4844,7 @@ result
 )
 ;
 return
-js_NewNumberValue
+js_NewNumberInRootedValue
 (
 cx
 result
@@ -4903,7 +4903,7 @@ result
 )
 ;
 return
-js_NewNumberValue
+js_NewNumberInRootedValue
 (
 cx
 result
@@ -4962,7 +4962,7 @@ result
 )
 ;
 return
-js_NewNumberValue
+js_NewNumberInRootedValue
 (
 cx
 result
@@ -5021,7 +5021,7 @@ result
 )
 ;
 return
-js_NewNumberValue
+js_NewNumberInRootedValue
 (
 cx
 result
@@ -5080,7 +5080,7 @@ result
 )
 ;
 return
-js_NewNumberValue
+js_NewNumberInRootedValue
 (
 cx
 result
@@ -5139,7 +5139,7 @@ result
 )
 ;
 return
-js_NewNumberValue
+js_NewNumberInRootedValue
 (
 cx
 result
@@ -5198,7 +5198,7 @@ result
 )
 ;
 return
-js_NewNumberValue
+js_NewNumberInRootedValue
 (
 cx
 result
@@ -5257,7 +5257,7 @@ result
 )
 ;
 return
-js_NewNumberValue
+js_NewNumberInRootedValue
 (
 cx
 result
@@ -5316,7 +5316,7 @@ result
 )
 ;
 return
-js_NewNumberValue
+js_NewNumberInRootedValue
 (
 cx
 result
@@ -5396,7 +5396,7 @@ localtime
 msPerMinute
 ;
 return
-js_NewNumberValue
+js_NewNumberInRootedValue
 (
 cx
 result
@@ -5472,7 +5472,7 @@ return
 JS_FALSE
 ;
 return
-js_NewNumberValue
+js_NewNumberInRootedValue
 (
 cx
 result
@@ -5566,7 +5566,7 @@ result
 )
 )
 return
-js_NewNumberValue
+js_NewNumberInRootedValue
 (
 cx
 result
@@ -5908,7 +5908,7 @@ return
 JS_FALSE
 ;
 return
-js_NewNumberValue
+js_NewNumberInRootedValue
 (
 cx
 result
@@ -6356,7 +6356,7 @@ maxargs
 3
 )
 return
-js_NewNumberValue
+js_NewNumberInRootedValue
 (
 cx
 result
@@ -6528,7 +6528,7 @@ return
 JS_FALSE
 ;
 return
-js_NewNumberValue
+js_NewNumberInRootedValue
 (
 cx
 result
@@ -6794,7 +6794,7 @@ return
 JS_FALSE
 ;
 return
-js_NewNumberValue
+js_NewNumberInRootedValue
 (
 cx
 *
@@ -6916,7 +6916,7 @@ return
 JS_FALSE
 ;
 return
-js_NewNumberValue
+js_NewNumberInRootedValue
 (
 cx
 result
@@ -9271,7 +9271,7 @@ date
 ;
 date
 =
-js_NewDouble
+js_NewWeaklyRootedDouble
 (
 cx
 0

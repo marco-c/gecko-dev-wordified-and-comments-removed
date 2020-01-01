@@ -880,7 +880,7 @@ JS_TRUE
 ;
 }
 return
-js_NewDoubleValue
+JS_NewDoubleValue
 (
 cx
 (
@@ -11813,7 +11813,7 @@ vp
 )
 )
 return
-js_NewNumberValue
+js_NewNumberInRootedValue
 (
 cx
 i
