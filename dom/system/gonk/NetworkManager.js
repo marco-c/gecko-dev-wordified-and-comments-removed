@@ -5139,7 +5139,7 @@ if
 (
 file
 .
-IsDirectory
+exists
 (
 )
 )
