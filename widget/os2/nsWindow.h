@@ -620,11 +620,7 @@ InputContext
 GetInputContext
 (
 )
-{
-return
-mInputContext
 ;
-}
 static
 void
 ReleaseGlobals
