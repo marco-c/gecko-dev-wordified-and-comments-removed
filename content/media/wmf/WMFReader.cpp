@@ -2761,7 +2761,13 @@ Device
 manager
 on
 decoder
+hr
+=
+0x
+%
+x
 "
+hr
 )
 ;
 mUseHwAccel
