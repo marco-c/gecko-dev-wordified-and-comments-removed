@@ -620,4 +620,9 @@ VideoUtils
 .
 cpp
 '
+'
+WebVTTLoadListener
+.
+cpp
+'
 ]

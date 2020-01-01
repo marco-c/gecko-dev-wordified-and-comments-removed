@@ -88,7 +88,7 @@ TextTrackCueList
 Update
 (
 double
-time
+aTime
 )
 {
 const
@@ -119,7 +119,7 @@ i
 {
 if
 (
-time
+aTime
 >
 mList
 [
@@ -132,7 +132,7 @@ StartTime
 )
 &
 &
-time
+aTime
 <
 mList
 [
@@ -151,7 +151,7 @@ i
 ]
 -
 >
-DisplayCue
+RenderCue
 (
 )
 ;

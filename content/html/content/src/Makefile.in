@@ -483,6 +483,17 @@ xpcom
 /
 ds
 \
+-
+I
+(
+topsrcdir
+)
+/
+content
+/
+media
+/
+\
 (
 NULL
 )

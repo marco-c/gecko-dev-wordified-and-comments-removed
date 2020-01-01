@@ -117,7 +117,7 @@ void
 Update
 (
 double
-time
+aTime
 )
 ;
 TextTrackCue
