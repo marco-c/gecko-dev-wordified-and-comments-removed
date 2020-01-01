@@ -35772,6 +35772,17 @@ aUri
 try
 {
 return
+!
+aUri
+.
+schemeIs
+(
+"
+about
+"
+)
+&
+&
 aUri
 .
 host
