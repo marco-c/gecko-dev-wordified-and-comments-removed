@@ -92,7 +92,7 @@ h
 #
 include
 "
-nsIClassInfo
+nsIXPCScriptable
 .
 h
 "
