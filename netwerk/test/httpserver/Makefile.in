@@ -64,15 +64,6 @@ MPL
 0
 /
 .
-(
-warning
-httpserver
-XPI_NAME
-=
-(
-XPI_NAME
-)
-)
 DEPTH
 =
 DEPTH
