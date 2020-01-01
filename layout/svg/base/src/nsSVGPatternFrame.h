@@ -377,6 +377,10 @@ gfxMatrix
 GetPatternMatrix
 (
 const
+gfxMatrix
+&
+patternTransform
+const
 gfxRect
 &
 bbox
