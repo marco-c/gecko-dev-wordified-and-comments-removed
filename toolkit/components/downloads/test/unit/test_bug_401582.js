@@ -1,3 +1,7 @@
+cleanup
+(
+)
+;
 importDownloadsFile
 (
 "
@@ -135,6 +139,10 @@ tests
 [
 i
 ]
+(
+)
+;
+cleanup
 (
 )
 ;

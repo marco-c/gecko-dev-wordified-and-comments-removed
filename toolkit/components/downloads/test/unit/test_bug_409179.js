@@ -1,3 +1,7 @@
+cleanup
+(
+)
+;
 importDownloadsFile
 (
 "
@@ -58,6 +62,10 @@ true
 do_check_false
 (
 caughtException
+)
+;
+cleanup
+(
 )
 ;
 }

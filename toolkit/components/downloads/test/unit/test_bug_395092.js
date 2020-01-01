@@ -168,8 +168,16 @@ registerDirectory
 "
 /
 "
-do_get_cwd
+dirSvc
+.
+get
 (
+"
+ProfD
+"
+Ci
+.
+nsILocalFile
 )
 )
 ;

@@ -6,7 +6,6 @@ os
 .
 path
 logging
-shutil
 import
 tempfile
 from
@@ -23,10 +22,6 @@ import
 Popen
 PIPE
 STDOUT
-from
-tempfile
-import
-mkdtemp
 from
 automationutils
 import
@@ -1388,21 +1383,6 @@ cwd
 testdir
 )
       
-profd
-=
-mkdtemp
-(
-)
-      
-env
-[
-"
-XPCSHELL_TEST_PROFILE_DIR
-"
-]
-=
-profd
-      
 stdout
 stderr
 =
@@ -1410,14 +1390,6 @@ proc
 .
 communicate
 (
-)
-      
-shutil
-.
-rmtree
-(
-profd
-True
 )
       
 if
