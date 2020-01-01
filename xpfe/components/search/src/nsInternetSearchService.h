@@ -95,6 +95,13 @@ nsIPref
 .
 h
 "
+#
+include
+"
+nsCycleCollectionParticipant
+.
+h
+"
 class
 InternetSearchDataSource
 :
@@ -1034,7 +1041,12 @@ aOldEngineResource
 ;
 public
 :
-NS_DECL_ISUPPORTS
+NS_DECL_CYCLE_COLLECTING_ISUPPORTS
+NS_DECL_CYCLE_COLLECTION_CLASS_AMBIGUOUS
+(
+InternetSearchDataSource
+nsIInternetSearchService
+)
 NS_DECL_NSIINTERNETSEARCHSERVICE
 NS_DECL_NSIREQUESTOBSERVER
 NS_DECL_NSISTREAMLISTENER
