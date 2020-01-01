@@ -167,6 +167,10 @@ test_audioParamSetCurveAtTime
 .
 html
 \
+test_audioParamSetCurveAtTimeZeroDuration
+.
+html
+\
 test_audioParamSetTargetAtTime
 .
 html
