@@ -4726,12 +4726,12 @@ doAlloc
 void
 *
 chunk
-=
-0
 ;
 #
 ifdef
 MOZ_MEMORY
+if
+(
 posix_memalign
 (
 &
@@ -4745,6 +4745,10 @@ js
 :
 GC_CHUNK_SIZE
 )
+)
+chunk
+=
+0
 ;
 #
 else
