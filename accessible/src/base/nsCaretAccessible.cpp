@@ -1374,12 +1374,10 @@ offsetFromWidget
 ;
 caretRect
 =
-nsRect
-:
-:
+rect
+.
 ToOutsidePixels
 (
-rect
 presContext
 -
 >

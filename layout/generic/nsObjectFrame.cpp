@@ -19191,11 +19191,6 @@ nsIntRect
 absDirtyRect
 =
 nsRect
-:
-:
-ToOutsidePixels
-(
-nsRect
 (
 abs
 aDirtyRect
@@ -19204,6 +19199,9 @@ Size
 (
 )
 )
+.
+ToOutsidePixels
+(
 *
 mOwner
 -
@@ -19439,12 +19437,10 @@ window
 nsIntRect
 relDirtyRect
 =
-nsRect
-:
-:
+aDirtyRect
+.
 ToOutsidePixels
 (
-aDirtyRect
 mOwner
 -
 >
