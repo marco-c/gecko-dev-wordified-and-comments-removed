@@ -481,6 +481,10 @@ browser_bug_692400_element_style
 .
 js
 \
+browser_csslogic_inherited
+.
+js
+\
 browser_ruleview_editor
 .
 js
