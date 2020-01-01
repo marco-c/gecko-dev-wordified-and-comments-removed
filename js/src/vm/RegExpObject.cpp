@@ -3165,9 +3165,6 @@ start
 ;
 }
 #
-ifndef
-_WIN64
-#
 if
 ENABLE_YARR_JIT
 if
@@ -3234,8 +3231,6 @@ return
 RegExpRunStatus_Success
 ;
 }
-#
-endif
 #
 endif
 JS_ASSERT
