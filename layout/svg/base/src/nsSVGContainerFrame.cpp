@@ -25,6 +25,10 @@ nsSVGDisplayContainerFrame
 )
 NS_QUERYFRAME_ENTRY
 (
+nsSVGDisplayContainerFrame
+)
+NS_QUERYFRAME_ENTRY
+(
 nsISVGChildFrame
 )
 NS_QUERYFRAME_TAIL_INHERITING

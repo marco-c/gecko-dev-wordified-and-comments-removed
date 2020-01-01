@@ -145,6 +145,9 @@ nsISVGChildFrame
 class
 nsSVGGeometryFrame
 ;
+class
+nsSVGDisplayContainerFrame
+;
 #
 ifndef
 M_PI
@@ -596,6 +599,16 @@ nsIDOMSVGElement
 *
 *
 aNearestViewportElement
+)
+;
+static
+nsSVGDisplayContainerFrame
+*
+GetNearestSVGViewport
+(
+nsIFrame
+*
+aFrame
 )
 ;
 static
