@@ -455,6 +455,7 @@ nsIDOMBlob
 ;
 [
 scriptable
+builtinclass
 uuid
 (
 d5237f31
@@ -553,6 +554,7 @@ contentType
 ;
 [
 scriptable
+builtinclass
 uuid
 (
 b096ef67

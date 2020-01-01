@@ -1038,7 +1038,7 @@ native
 ;
 rv
 =
-nsDOMFile
+nsDOMFileFile
 :
 :
 NewFile

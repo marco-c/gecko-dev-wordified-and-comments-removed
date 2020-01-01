@@ -1787,7 +1787,7 @@ domFile
 do_QueryObject
 (
 new
-nsDOMFile
+nsDOMFileFile
 (
 localFile
 )
@@ -1890,7 +1890,7 @@ domFile
 do_QueryObject
 (
 new
-nsDOMFile
+nsDOMFileFile
 (
 localFile
 )
@@ -4919,7 +4919,7 @@ nsIDOMFile
 domFile
 =
 new
-nsDOMFile
+nsDOMFileFile
 (
 file
 )

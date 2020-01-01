@@ -927,12 +927,12 @@ continue
 ;
 nsRefPtr
 <
-nsDOMFile
+nsDOMFileFile
 >
 domFile
 =
 new
-nsDOMFile
+nsDOMFileFile
 (
 file
 )
