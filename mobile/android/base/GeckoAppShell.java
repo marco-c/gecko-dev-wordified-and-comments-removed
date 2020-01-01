@@ -12049,6 +12049,7 @@ listener
 )
 ;
 }
+public
 static
 EventDispatcher
 getEventDispatcher
