@@ -18402,7 +18402,7 @@ slotp
 uint32
 slot
 =
-freeslot
+slotSpan
 (
 )
 ;
@@ -18440,7 +18440,7 @@ lastProp
 table
 -
 >
-freeslot
+freelist
 ;
 if
 (
@@ -18577,7 +18577,7 @@ slot
 uint32
 limit
 =
-freeslot
+slotSpan
 (
 )
 ;
@@ -18620,7 +18620,7 @@ lastProp
 table
 -
 >
-freeslot
+freelist
 ;
 JS_ASSERT_IF
 (
@@ -18656,7 +18656,7 @@ last
 SHAPE_INVALID_SLOT
 last
 <
-freeslot
+slotSpan
 (
 )
 )
@@ -27791,7 +27791,7 @@ slots
 obj
 -
 >
-freeslot
+slotSpan
 (
 )
 ;
@@ -27977,7 +27977,7 @@ nativeEmpty
 obj
 -
 >
-freeslot
+slotSpan
 (
 )
 <
@@ -27988,7 +27988,7 @@ nslots
 obj
 -
 >
-freeslot
+slotSpan
 (
 )
 ;
@@ -30483,7 +30483,7 @@ slots
 obj
 -
 >
-freeslot
+slotSpan
 (
 )
 ;

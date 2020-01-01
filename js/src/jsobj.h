@@ -494,7 +494,7 @@ uint32
 shape
 ;
 uint32
-freeslot
+slotSpan
 ;
 explicit
 JSObjectMap
@@ -507,7 +507,7 @@ shape
 (
 shape
 )
-freeslot
+slotSpan
 (
 0
 )
@@ -518,16 +518,16 @@ JSObjectMap
 uint32
 shape
 uint32
-freeslot
+slotSpan
 )
 :
 shape
 (
 shape
 )
-freeslot
+slotSpan
 (
-freeslot
+slotSpan
 )
 {
 }
@@ -1804,7 +1804,7 @@ cx
 )
 ;
 uint32
-freeslot
+slotSpan
 (
 )
 const
@@ -1813,7 +1813,7 @@ return
 map
 -
 >
-freeslot
+slotSpan
 ;
 }
 bool
@@ -1827,7 +1827,7 @@ const
 return
 slot
 <
-freeslot
+slotSpan
 (
 )
 ;

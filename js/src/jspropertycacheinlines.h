@@ -515,7 +515,7 @@ JS_ASSERT
 obj
 -
 >
-freeslot
+slotSpan
 (
 )
 >

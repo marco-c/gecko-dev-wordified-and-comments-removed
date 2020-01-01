@@ -2086,7 +2086,7 @@ nslots
 obj
 -
 >
-freeslot
+slotSpan
 (
 )
 ;
