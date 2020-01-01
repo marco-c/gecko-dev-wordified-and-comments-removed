@@ -298,9 +298,11 @@ mozilla
 .
 org
 /
-projects
+integration
 /
 gaia
+-
+nightly
 "
 "
 l10n
