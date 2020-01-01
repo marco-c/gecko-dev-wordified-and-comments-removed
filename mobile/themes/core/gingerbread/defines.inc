@@ -376,6 +376,12 @@ border_radius_small
 64mozmm
 %
 define
+border_radius_xsmall
+0
+.
+31mozmm
+%
+define
 border_radius_tiny
 0
 .
