@@ -3131,7 +3131,7 @@ PWD
 -
 f
 (
-topsrcdir
+MOZILLA_DIR
 )
 /
 toolkit
