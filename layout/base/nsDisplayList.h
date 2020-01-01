@@ -464,8 +464,9 @@ MarkFramesForDisplayList
 nsIFrame
 *
 aDirtyFrame
-nsIFrame
-*
+const
+nsFrameList
+&
 aFrames
 const
 nsRect
