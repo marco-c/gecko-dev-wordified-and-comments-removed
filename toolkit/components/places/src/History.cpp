@@ -4739,7 +4739,10 @@ URI
 (
 aURI
 )
+nsDependentString
+(
 aTitle
+)
 )
 ;
 return
