@@ -419,6 +419,13 @@ h
 #
 include
 "
+nsHtml5StringParser
+.
+h
+"
+#
+include
+"
 nsIAsyncVerifyRedirectCallback
 .
 h

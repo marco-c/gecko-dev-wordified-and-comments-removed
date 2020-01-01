@@ -121,13 +121,6 @@ h
 #
 include
 "
-nsHtml5StringParser
-.
-h
-"
-#
-include
-"
 nsIContent
 .
 h
@@ -222,6 +215,9 @@ nsAutoScriptBlockerSuppressNodeRemoved
 ;
 class
 nsEventListenerManager
+;
+class
+nsHtml5StringParser
 ;
 class
 nsIChannel
