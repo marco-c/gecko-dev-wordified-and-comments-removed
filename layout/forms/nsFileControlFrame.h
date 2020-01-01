@@ -260,6 +260,12 @@ DestroyUploadLastDir
 (
 )
 ;
+PRInt32
+GetFileFilterFromAccept
+(
+)
+const
+;
 protected
 :
 class
