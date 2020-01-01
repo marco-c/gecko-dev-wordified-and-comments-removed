@@ -1427,6 +1427,13 @@ aDirtyRect
 )
 ;
 }
+nsCSSRendering
+:
+:
+DidPaint
+(
+)
+;
 }
 PRUint32
 nsDisplayList
