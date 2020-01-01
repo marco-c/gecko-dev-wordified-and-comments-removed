@@ -4052,8 +4052,9 @@ if
 mDecoded
 )
 {
-RequestDecode
+RequestDecodeCore
 (
+ASYNCHRONOUS
 )
 ;
 return
@@ -10773,7 +10774,7 @@ RequestDecode
 return
 RequestDecodeCore
 (
-ASYNCHRONOUS
+SYNCHRONOUS_NOTIFY
 )
 ;
 }
@@ -10788,7 +10789,7 @@ StartDecoding
 return
 RequestDecodeCore
 (
-SOMEWHAT_SYNCHRONOUS
+SYNCHRONOUS_NOTIFY_AND_SOME_DECODE
 )
 ;
 }
@@ -10943,6 +10944,12 @@ DecodeRequest
 :
 :
 REQUEST_WORK_DONE
+&
+&
+aDecodeType
+!
+=
+ASYNCHRONOUS
 )
 {
 nsresult
@@ -11086,7 +11093,7 @@ mHasSourceData
 aDecodeType
 =
 =
-SOMEWHAT_SYNCHRONOUS
+SYNCHRONOUS_NOTIFY_AND_SOME_DECODE
 )
 {
 PROFILER_LABEL_PRINTF
