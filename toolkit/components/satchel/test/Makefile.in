@@ -455,6 +455,10 @@ test_form_autocomplete
 .
 html
 \
+test_form_autocomplete_with_list
+.
+html
+\
 test_form_submission
 .
 html

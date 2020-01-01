@@ -438,6 +438,11 @@ nsIDOMEvent
 aEvent
 )
 ;
+PRBool
+IsInputAutoCompleteOff
+(
+)
+;
 nsCOMPtr
 <
 nsIAutoCompleteController

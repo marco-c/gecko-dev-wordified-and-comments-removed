@@ -2159,6 +2159,13 @@ BINPATH
 /
 components
 /
+nsInputListAutoComplete
+.
+js
+BINPATH
+/
+components
+/
 contentSecurityPolicy
 .
 manifest
