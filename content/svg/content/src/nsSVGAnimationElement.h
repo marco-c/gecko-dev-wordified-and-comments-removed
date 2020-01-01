@@ -206,6 +206,12 @@ GetTimeContainer
 ;
 protected
 :
+nsIContent
+*
+GetParentElement
+(
+)
+;
 nsSMILTimedElement
 mTimedElement
 ;
