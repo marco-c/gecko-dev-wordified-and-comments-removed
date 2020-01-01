@@ -534,6 +534,12 @@ cpp
 (
 NULL
 )
+XPCSHELL_TESTS
++
+=
+test
+/
+unit_ipc
 endif
 endif
 include
