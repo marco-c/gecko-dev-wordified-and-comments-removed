@@ -285,6 +285,10 @@ macro
 .
 const
 endm
+HIDDEN_DATA
+textequ
+<
+>
 .
 686p
 .

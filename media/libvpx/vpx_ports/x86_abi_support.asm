@@ -724,6 +724,9 @@ endif
 %
 endif
 %
+define
+HIDDEN_DATA
+%
 else
 %
 macro
@@ -747,6 +750,17 @@ wrt
 .
 .
 plt
+%
+define
+HIDDEN_DATA
+:
+data
+hidden
+%
+else
+%
+define
+HIDDEN_DATA
 %
 endif
 %

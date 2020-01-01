@@ -3448,6 +3448,7 @@ sym
 (
 vp8_six_tap_mmx
 )
+HIDDEN_DATA
 sym
 (
 vp8_six_tap_mmx
@@ -3666,6 +3667,7 @@ sym
 (
 vp8_bilinear_filters_mmx
 )
+HIDDEN_DATA
 sym
 (
 vp8_bilinear_filters_mmx
