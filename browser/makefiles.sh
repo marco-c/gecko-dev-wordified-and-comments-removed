@@ -626,8 +626,6 @@ components
 /
 sidebar
 /
-src
-/
 Makefile
 browser
 /
@@ -974,8 +972,6 @@ sessionstore
 /
 test
 /
-browser
-/
 Makefile
 browser
 /
@@ -1072,8 +1068,6 @@ components
 /
 test
 /
-browser
-/
 Makefile
 browser
 /
@@ -1128,8 +1122,6 @@ styleinspector
 /
 test
 /
-browser
-/
 Makefile
 browser
 /
@@ -1138,8 +1130,6 @@ devtools
 webconsole
 /
 test
-/
-browser
 /
 Makefile
 browser

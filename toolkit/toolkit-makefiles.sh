@@ -5451,8 +5451,6 @@ aboutmemory
 /
 tests
 /
-chrome
-/
 Makefile
 toolkit
 /
@@ -6528,8 +6526,6 @@ components
 startup
 /
 tests
-/
-browser
 /
 Makefile
 toolkit
