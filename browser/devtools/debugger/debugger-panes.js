@@ -6986,8 +6986,17 @@ DVGS__onFetchSourceFinished
 (
 aLocation
 aContents
+aError
 )
 {
+if
+(
+aError
+)
+{
+return
+;
+}
 this
 .
 _cache

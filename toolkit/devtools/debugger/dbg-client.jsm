@@ -1921,6 +1921,13 @@ resumption
 )
 ;
 }
+if
+(
+aPacket
+.
+type
+)
+{
 this
 .
 notify
@@ -1931,6 +1938,7 @@ type
 aPacket
 )
 ;
+}
 if
 (
 onResponse
