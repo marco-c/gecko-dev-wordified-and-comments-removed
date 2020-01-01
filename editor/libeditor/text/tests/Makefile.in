@@ -184,9 +184,9 @@ key
 handling
 test
 on
-gtk2
+gtk
 because
-gtk2
+gtk
 overrides
 some
 key
@@ -203,13 +203,8 @@ on
 the
 system
 .
-ifneq
-(
-(
-MOZ_WIDGET_TOOLKIT
-)
-gtk2
-)
+ifdef
+MOZ_WIDGET_GTK
 MOCHITEST_FILES
 +
 =

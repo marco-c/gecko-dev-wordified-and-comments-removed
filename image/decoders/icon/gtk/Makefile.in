@@ -97,7 +97,7 @@ LOCAL_INCLUDES
 +
 =
 (
-MOZ_GTK2_CFLAGS
+TK_CFLAGS
 )
 endif
 #
