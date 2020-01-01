@@ -463,8 +463,7 @@ PTRDIFF_MIN
 ;
 #
 endif
-namespace
-{
+static
 bool
 ComputeAccurateDecimalInteger
 (
@@ -947,6 +946,7 @@ bit
 }
 }
 ;
+static
 jsdouble
 ComputeAccurateBinaryBaseInteger
 (
@@ -1131,7 +1131,6 @@ factor
 return
 value
 ;
-}
 }
 namespace
 js
@@ -1724,8 +1723,7 @@ d
 }
 #
 endif
-namespace
-{
+static
 bool
 ParseIntStringHelper
 (
@@ -2044,6 +2042,7 @@ return
 true
 ;
 }
+static
 jsdouble
 ParseIntDoubleHelper
 (
@@ -2091,7 +2090,6 @@ d
 return
 0
 ;
-}
 }
 static
 JSBool

@@ -930,8 +930,6 @@ return
 argsobj
 ;
 }
-namespace
-{
 struct
 STATIC_SKIP_INFERENCE
 PutArg
@@ -988,7 +986,6 @@ dst
 }
 }
 ;
-}
 JSObject
 *
 js_GetArgsObject
@@ -3565,8 +3562,7 @@ return
 true
 ;
 }
-namespace
-{
+static
 JSBool
 StrictArgGetter
 (
@@ -3711,6 +3707,7 @@ return
 true
 ;
 }
+static
 JSBool
 StrictArgSetter
 (
@@ -3839,6 +3836,7 @@ true
 )
 ;
 }
+static
 JSBool
 strictargs_resolve
 (
@@ -4161,6 +4159,7 @@ return
 true
 ;
 }
+static
 JSBool
 strictargs_enumerate
 (
@@ -4322,7 +4321,6 @@ false
 return
 true
 ;
-}
 }
 static
 void
@@ -7990,8 +7988,6 @@ return
 true
 ;
 }
-namespace
-{
 struct
 LazyFunctionDataProp
 {
@@ -8017,6 +8013,7 @@ tinyid
 ;
 }
 ;
+static
 const
 LazyFunctionDataProp
 lazyFunctionDataProps
@@ -8046,6 +8043,7 @@ JSPROP_READONLY
 }
 }
 ;
+static
 const
 PoisonPillProp
 poisonPillProps
@@ -8069,7 +8067,6 @@ FUN_CALLER
 }
 }
 ;
-}
 static
 JSBool
 fun_enumerate
@@ -11036,8 +11033,6 @@ return
 ok
 ;
 }
-namespace
-{
 struct
 STATIC_SKIP_INFERENCE
 CopyNonHoleArgs
@@ -11118,7 +11113,6 @@ dst
 }
 }
 ;
-}
 JSBool
 js_fun_apply
 (
@@ -11707,8 +11701,7 @@ return
 true
 ;
 }
-namespace
-{
+static
 JSBool
 CallOrConstructBoundFunction
 (
@@ -11722,7 +11715,6 @@ Value
 vp
 )
 ;
-}
 inline
 bool
 JSObject
@@ -11994,8 +11986,7 @@ getSlots
 FUN_CLASS_RESERVED_SLOTS
 ;
 }
-namespace
-{
+static
 JSBool
 CallOrConstructBoundFunction
 (
@@ -12235,6 +12226,7 @@ return
 true
 ;
 }
+static
 JSBool
 fun_bind
 (
@@ -12490,7 +12482,6 @@ funobj
 return
 true
 ;
-}
 }
 static
 JSFunctionSpec
@@ -13394,8 +13385,7 @@ lineno
 )
 ;
 }
-namespace
-{
+static
 JSBool
 ThrowTypeError
 (
@@ -13421,7 +13411,6 @@ JSMSG_THROW_TYPE_ERROR
 return
 false
 ;
-}
 }
 JSObject
 *

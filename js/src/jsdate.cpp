@@ -9065,8 +9065,7 @@ print_iso_string
 )
 ;
 }
-namespace
-{
+static
 JSBool
 date_toJSON
 (
@@ -9289,7 +9288,6 @@ rval
 return
 true
 ;
-}
 }
 static
 void

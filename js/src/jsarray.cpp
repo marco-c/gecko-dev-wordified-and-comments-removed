@@ -4159,8 +4159,7 @@ obj
 ;
 }
 }
-namespace
-{
+static
 JSBool
 array_fix
 (
@@ -4222,7 +4221,6 @@ true
 return
 true
 ;
-}
 }
 Class
 js_ArrayClass
