@@ -1024,12 +1024,6 @@ true
 ;
 options
 .
-wantXHRConstructor
-=
-false
-;
-options
-.
 proto
 =
 global
