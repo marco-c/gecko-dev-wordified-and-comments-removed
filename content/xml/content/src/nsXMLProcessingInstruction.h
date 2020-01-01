@@ -126,7 +126,7 @@ nsAString
 aValue
 )
 ;
-nsAutoString
+nsString
 mTarget
 ;
 }

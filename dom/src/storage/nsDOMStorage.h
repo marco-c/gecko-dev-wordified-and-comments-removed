@@ -451,7 +451,7 @@ nsIURI
 >
 mURI
 ;
-nsAutoString
+nsString
 mDomain
 ;
 nsTHashtable

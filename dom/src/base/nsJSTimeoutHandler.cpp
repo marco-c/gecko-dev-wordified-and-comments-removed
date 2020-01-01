@@ -250,7 +250,7 @@ nsIScriptContext
 >
 mContext
 ;
-nsCAutoString
+nsCString
 mFileName
 ;
 PRUint32

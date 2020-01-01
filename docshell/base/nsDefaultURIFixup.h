@@ -149,7 +149,7 @@ nsIPrefBranch
 >
 mPrefBranch
 ;
-nsCAutoString
+nsCString
 mFsCharset
 ;
 }
