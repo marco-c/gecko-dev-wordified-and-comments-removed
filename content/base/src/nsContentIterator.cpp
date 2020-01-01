@@ -2908,17 +2908,6 @@ First
 (
 )
 {
-NS_ASSERTION
-(
-mFirst
-"
-No
-first
-node
-!
-"
-)
-;
 if
 (
 mFirst
