@@ -1065,7 +1065,7 @@ JSObject
 *
 dataArray
 =
-js_NewArrayObject
+JS_NewArrayObject
 (
 ctx
 len
@@ -1671,7 +1671,7 @@ aObjectsArray
 {
 aObjectsArray
 =
-js_NewArrayObject
+JS_NewArrayObject
 (
 ctx
 0
