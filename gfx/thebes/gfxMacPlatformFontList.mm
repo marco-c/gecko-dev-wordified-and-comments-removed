@@ -991,6 +991,10 @@ mRequiresAAT
 (
 PR_FALSE
 )
+mIsCFF
+(
+PR_FALSE
+)
 mIsCFFInitialized
 (
 PR_FALSE
