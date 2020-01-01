@@ -2906,6 +2906,17 @@ retire
 rr
 )
 ;
+if
+(
+dr
+)
+FSTQ
+(
+0
+dr
+FP
+)
+;
 FLD32
 (
 db
