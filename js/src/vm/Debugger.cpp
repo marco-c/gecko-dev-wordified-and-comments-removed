@@ -523,9 +523,6 @@ return
 false
 ;
 }
-js
-:
-:
 mjit
 :
 :
@@ -4001,9 +3998,6 @@ dispatchHook
 JSContext
 *
 cx
-js
-:
-:
 Value
 *
 vp
@@ -5688,9 +5682,6 @@ context
 key
 )
 )
-js
-:
-:
 gc
 :
 :
@@ -5791,9 +5782,6 @@ context
 key
 )
 )
-js
-:
-:
 gc
 :
 :
@@ -9545,9 +9533,6 @@ popFront
 )
 )
 {
-js
-:
-:
 StackFrame
 *
 fp
