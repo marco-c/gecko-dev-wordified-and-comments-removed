@@ -10270,6 +10270,7 @@ newlen
 =
 argc
 ;
+}
 if
 (
 !
@@ -10283,7 +10284,6 @@ newlen
 return
 JS_FALSE
 ;
-}
 vp
 -
 >
