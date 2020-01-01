@@ -742,3 +742,10 @@ p3
 bug487519
 .
 patch
+patch
+-
+p3
+<
+fishsound_reset
+.
+patch

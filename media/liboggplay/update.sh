@@ -921,3 +921,10 @@ read
 errors
 .
 patch
+patch
+-
+p3
+<
+fishsound_reset
+.
+patch
