@@ -370,6 +370,10 @@ GeckoConnectivityReceiver
 .
 java
 \
+GeckoEditable
+.
+java
+\
 GeckoEvent
 .
 java
