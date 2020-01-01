@@ -8980,6 +8980,16 @@ uri
 .
 spec
 ;
+if
+(
+!
+aPostDataRef
+)
+aPostDataRef
+=
+{
+}
+;
 [
 shortcutURL
 aPostDataRef
@@ -9010,9 +9020,6 @@ postData
 ;
 if
 (
-aPostDataRef
-&
-&
 aPostDataRef
 .
 value
