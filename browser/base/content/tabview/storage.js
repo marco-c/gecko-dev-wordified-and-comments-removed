@@ -29,13 +29,6 @@ tabview
 -
 ui
 "
-VISIBILITY_DATA_IDENTIFIER
-:
-"
-tabview
--
-visibility
-"
 init
 :
 function
@@ -46,9 +39,7 @@ this
 .
 _sessionStore
 =
-Components
-.
-classes
+Cc
 [
 "
 mozilla
@@ -65,9 +56,7 @@ sessionstore
 .
 getService
 (
-Components
-.
-interfaces
+Ci
 .
 nsISessionStore
 )
