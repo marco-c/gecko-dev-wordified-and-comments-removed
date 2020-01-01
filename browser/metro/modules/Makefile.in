@@ -92,6 +92,10 @@ colorUtils
 .
 jsm
 \
+CrossSlide
+.
+jsm
+\
 (
 NULL
 )
