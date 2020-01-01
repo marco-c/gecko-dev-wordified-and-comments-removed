@@ -1906,9 +1906,9 @@ browser
 .
 urlbar
 .
-matchOnWordBoundary
+matchBehavior
 "
-true
+1
 )
 ;
 pref
