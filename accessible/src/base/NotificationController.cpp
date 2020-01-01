@@ -961,6 +961,13 @@ mDocument
 return
 ;
 }
+mDocument
+-
+>
+ProcessInvalidationList
+(
+)
+;
 mObservingState
 =
 eRefreshObserving
