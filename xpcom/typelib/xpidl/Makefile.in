@@ -490,6 +490,8 @@ py
 (
 NULL
 )
+ifndef
+MOZ_SYSTEM_PLY
 (
 SDK_BIN_DIR
 )
@@ -574,6 +576,7 @@ INSTALL
 IFLAGS2
 )
 ^
+endif
 include
 (
 topsrcdir
