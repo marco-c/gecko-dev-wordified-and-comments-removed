@@ -1211,6 +1211,10 @@ blockPluginVulnerableNoUpdate
 .
 xml
 \
+blockNoPlugins
+.
+xml
+\
 browser_utilityOverlay
 .
 js
