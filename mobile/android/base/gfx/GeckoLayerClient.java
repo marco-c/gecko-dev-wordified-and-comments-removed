@@ -205,8 +205,8 @@ IntSize
 mBufferSize
 ;
 private
-Layer
-mTileLayer
+VirtualLayer
+mRootLayer
 ;
 private
 ViewportMetrics
@@ -304,7 +304,7 @@ layerController
 .
 setRoot
 (
-mTileLayer
+mRootLayer
 )
 ;
 if
@@ -929,7 +929,7 @@ boolean
 onlyUpdatePageSize
 )
 {
-mTileLayer
+mRootLayer
 .
 beginTransaction
 (
@@ -971,7 +971,7 @@ getOrigin
 (
 )
 ;
-mTileLayer
+mRootLayer
 .
 setOrigin
 (
@@ -983,7 +983,7 @@ origin
 )
 )
 ;
-mTileLayer
+mRootLayer
 .
 setResolution
 (
@@ -994,7 +994,7 @@ getZoomFactor
 )
 )
 ;
-mTileLayer
+mRootLayer
 .
 performUpdates
 (
@@ -1079,7 +1079,7 @@ abortPanZoomAnimation
 }
 finally
 {
-mTileLayer
+mRootLayer
 .
 endTransaction
 (
@@ -1454,7 +1454,7 @@ initializeVirtualLayer
 {
 if
 (
-mTileLayer
+mRootLayer
 !
 =
 null
@@ -1503,7 +1503,7 @@ setRoot
 virtualLayer
 )
 ;
-mTileLayer
+mRootLayer
 =
 virtualLayer
 ;
@@ -2024,7 +2024,7 @@ reso
 =
 "
 +
-mTileLayer
+mRootLayer
 .
 getResolution
 (
