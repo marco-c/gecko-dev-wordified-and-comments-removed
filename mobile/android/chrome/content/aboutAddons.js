@@ -2136,13 +2136,9 @@ obs
 notifyObservers
 (
 document
-"
-addon
--
-options
--
-displayed
-"
+AddonManager
+.
+OPTIONS_NOTIFICATION_DISPLAYED
 id
 )
 ;
