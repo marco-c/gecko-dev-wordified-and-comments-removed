@@ -356,6 +356,12 @@ kCoefficientsRgbY
 ;
 #
 if
+defined
+(
+ARCH_CPU_X86
+)
+&
+&
 !
 defined
 (

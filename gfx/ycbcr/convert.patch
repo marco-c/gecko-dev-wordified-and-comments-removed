@@ -3600,6 +3600,12 @@ ARCH_CPU_X86_64
 +
 #
 if
+defined
+(
+ARCH_CPU_X86
+)
+&
+&
 !
 defined
 (
