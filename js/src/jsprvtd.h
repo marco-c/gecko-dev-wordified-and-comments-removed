@@ -18,6 +18,7 @@ jsutil
 .
 h
 "
+JS_BEGIN_EXTERN_C
 #
 define
 JS_BITS_PER_UINT32_LOG2
@@ -860,5 +861,6 @@ js_CStringsAreUTF8
 ;
 #
 endif
+JS_END_EXTERN_C
 #
 endif
