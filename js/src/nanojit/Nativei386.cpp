@@ -11698,13 +11698,13 @@ isImmD
 )
 )
 {
-asm_immf
+asm_immd
 (
 r
 ins
 -
 >
-immQ
+immDasQ
 (
 )
 ins
@@ -12673,7 +12673,7 @@ dr
 value
 -
 >
-immQorDhi
+immDhi
 (
 )
 )
@@ -12685,7 +12685,7 @@ dr
 value
 -
 >
-immQorDlo
+immDlo
 (
 )
 )
@@ -12968,7 +12968,7 @@ condop
 )
 {
 return
-asm_fbranch
+asm_branchd
 (
 branchOnFalse
 cond
@@ -13494,7 +13494,7 @@ void
 Assembler
 :
 :
-asm_fcond
+asm_condd
 (
 LInsp
 ins
@@ -13597,7 +13597,7 @@ freeResourcesOf
 ins
 )
 ;
-asm_fcmp
+asm_cmpd
 (
 ins
 )
@@ -15908,7 +15908,7 @@ void
 Assembler
 :
 :
-asm_immf
+asm_immd
 (
 Register
 r
@@ -16087,7 +16087,7 @@ void
 Assembler
 :
 :
-asm_immf
+asm_immd
 (
 LInsp
 ins
@@ -16133,13 +16133,13 @@ rr
 FpRegs
 )
 ;
-asm_immf
+asm_immd
 (
 rr
 ins
 -
 >
-immQ
+immDasQ
 (
 )
 ins
@@ -17382,7 +17382,7 @@ findImmDFromPool
 rhs
 -
 >
-immQ
+immDasQ
 (
 )
 )
@@ -17558,7 +17558,7 @@ void
 Assembler
 :
 :
-asm_i2f
+asm_i2d
 (
 LInsp
 ins
@@ -17643,7 +17643,7 @@ void
 Assembler
 :
 :
-asm_u2f
+asm_ui2d
 (
 LInsp
 ins
@@ -17835,7 +17835,7 @@ void
 Assembler
 :
 :
-asm_f2i
+asm_d2i
 (
 LInsp
 ins
@@ -18048,7 +18048,7 @@ NIns
 Assembler
 :
 :
-asm_fbranch
+asm_branchd
 (
 bool
 branchOnFalse
@@ -18215,7 +18215,7 @@ at
 =
 _nIns
 ;
-asm_fcmp
+asm_cmpd
 (
 cond
 )
@@ -18228,7 +18228,7 @@ void
 Assembler
 :
 :
-asm_fcmp
+asm_cmpd
 (
 LIns
 *
@@ -18647,7 +18647,7 @@ findImmDFromPool
 rhs
 -
 >
-immQ
+immDasQ
 (
 )
 )

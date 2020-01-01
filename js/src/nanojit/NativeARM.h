@@ -864,7 +864,7 @@ nativePageSetup
 ;
 \
 void
-asm_immf_nochk
+asm_immd_nochk
 (
 Register
 int32_t
@@ -924,7 +924,7 @@ cond
 ;
 \
 void
-asm_fcmp
+asm_cmpd
 (
 LIns
 *

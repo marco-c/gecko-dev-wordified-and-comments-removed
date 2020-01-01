@@ -1529,7 +1529,7 @@ canClobberCCs
 ;
 \
 void
-asm_immf
+asm_immd
 (
 Register
 r
@@ -1691,7 +1691,7 @@ LIns
 ;
 \
 void
-asm_fcmp
+asm_cmpd
 (
 LIns
 *
@@ -1702,7 +1702,7 @@ LIns
 \
 NIns
 *
-asm_fbranch
+asm_branchd
 (
 bool
 LIns
