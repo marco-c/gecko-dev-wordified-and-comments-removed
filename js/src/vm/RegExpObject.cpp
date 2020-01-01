@@ -66,6 +66,15 @@ h
 #
 include
 "
+yarr
+/
+YarrSyntaxChecker
+.
+h
+"
+#
+include
+"
 jsobjinlines
 .
 h
