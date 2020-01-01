@@ -253,6 +253,13 @@ length
 )
 const
 ;
+uint8_t
+*
+GetImageData
+(
+)
+const
+;
 void
 GetPaletteData
 (
@@ -263,6 +270,13 @@ aPalette
 uint32_t
 *
 length
+)
+const
+;
+uint32_t
+*
+GetPaletteData
+(
 )
 const
 ;
@@ -492,8 +506,6 @@ return
 mPaletteDepth
 ;
 }
-private
-:
 uint32_t
 PaletteDataLength
 (
@@ -516,6 +528,8 @@ uint32_t
 )
 ;
 }
+private
+:
 struct
 SurfaceWithFormat
 {
