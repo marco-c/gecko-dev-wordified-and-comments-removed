@@ -231,6 +231,9 @@ char
 aArgv
 PRUint32
 aRestartType
+pid_t
+*
+pid
 )
 {
 /
@@ -506,7 +509,7 @@ result
 =
 posix_spawnp
 (
-NULL
+pid
 argv_copy
 [
 0

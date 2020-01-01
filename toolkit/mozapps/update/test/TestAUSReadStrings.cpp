@@ -146,6 +146,15 @@ errors
 h
 "
 #
+include
+"
+mozilla
+/
+Util
+.
+h
+"
+#
 ifndef
 MAXPATHLEN
 #
@@ -202,6 +211,10 @@ TEST_NAME
 Updater
 ReadStrings
 "
+using
+namespace
+mozilla
+;
 static
 int
 gFailCount
@@ -388,7 +401,7 @@ slash
 NS_tsnprintf
 (
 inifile
-sizeof
+ArrayLength
 (
 inifile
 )
@@ -776,7 +789,7 @@ rv
 NS_tsnprintf
 (
 inifile
-sizeof
+ArrayLength
 (
 inifile
 )
@@ -839,7 +852,7 @@ retval
 NS_tsnprintf
 (
 inifile
-sizeof
+ArrayLength
 (
 inifile
 )
@@ -902,7 +915,7 @@ retval
 NS_tsnprintf
 (
 inifile
-sizeof
+ArrayLength
 (
 inifile
 )
@@ -966,7 +979,7 @@ TEST_NAME
 NS_tsnprintf
 (
 inifile
-sizeof
+ArrayLength
 (
 inifile
 )

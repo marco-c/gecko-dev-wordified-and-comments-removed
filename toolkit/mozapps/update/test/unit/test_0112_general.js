@@ -1331,7 +1331,7 @@ binary
 process
 exitValue
 for
-success
+failure
 when
 "
 +
@@ -1346,7 +1346,11 @@ mar
 do_check_eq
 (
 exitValue
+USE_EXECV
+?
 0
+:
+1
 )
 ;
 logTestInfo

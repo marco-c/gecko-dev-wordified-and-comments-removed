@@ -287,6 +287,14 @@ test_0092_finishedBackground
 .
 xul
 \
+test_0093_stagedBackground
+.
+xul
+\
+test_0094_stagedServiceBackground
+.
+xul
+\
 test_0111_neverButton_basic
 .
 xul

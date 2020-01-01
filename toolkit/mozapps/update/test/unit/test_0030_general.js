@@ -21,6 +21,16 @@ do_register_cleanup
 end_test
 )
 ;
+Services
+.
+prefs
+.
+setBoolPref
+(
+PREF_APP_UPDATE_BACKGROUND
+false
+)
+;
 removeUpdateDirsAndFiles
 (
 )

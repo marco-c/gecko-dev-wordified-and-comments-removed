@@ -77,7 +77,11 @@ file
 do_check_eq
 (
 exitValue
+USE_EXECV
+?
 0
+:
+1
 )
 ;
 let

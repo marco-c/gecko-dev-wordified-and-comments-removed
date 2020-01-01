@@ -1373,7 +1373,6 @@ getUpdatesDir
 (
 )
 ;
-let
 log
 =
 updatesDir
@@ -1541,10 +1540,8 @@ exists
 )
 )
 ;
-do_timeout
+removeCallbackCopy
 (
-CHECK_TIMEOUT_MILLI
-do_test_finished
 )
 ;
 }

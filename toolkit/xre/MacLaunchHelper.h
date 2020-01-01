@@ -22,6 +22,11 @@ PRUint32
 aRestartType
 =
 0
+pid_t
+*
+pid
+=
+0
 )
 ;
 }
