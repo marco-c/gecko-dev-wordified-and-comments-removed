@@ -537,6 +537,10 @@ browser_bug591465
 .
 xml
 \
+browser_bug596336
+.
+js
+\
 browser_details
 .
 js
