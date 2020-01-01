@@ -6293,8 +6293,15 @@ FrameState
 addressForInlineReturn
 (
 )
-const
 {
+discardFe
+(
+a
+-
+>
+callee_
+)
+;
 return
 addressOf
 (
