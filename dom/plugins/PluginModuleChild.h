@@ -243,7 +243,7 @@ printf
 (
 "
 [
-NPAPIPluginChild
+PluginModuleChild
 ]
 %
 s
