@@ -2368,6 +2368,9 @@ png_ptr
 info_ptr
 )
 ;
+#
+if
+0
 int32_t
 alpha_bits
 =
@@ -2458,6 +2461,8 @@ alpha_bits
 ;
 }
 }
+#
+endif
 if
 (
 channels
