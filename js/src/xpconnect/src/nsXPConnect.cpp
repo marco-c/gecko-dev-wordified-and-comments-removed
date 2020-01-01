@@ -4774,6 +4774,12 @@ UnexpectedFailure
 NS_ERROR_FAILURE
 )
 ;
+XPCLazyCallContext
+lccx
+(
+ccx
+)
+;
 nsresult
 rv
 ;
@@ -9121,6 +9127,12 @@ IsValid
 return
 NS_ERROR_FAILURE
 ;
+XPCLazyCallContext
+lccx
+(
+ccx
+)
+;
 nsresult
 rv
 =
@@ -9134,7 +9146,7 @@ XPCVariant
 :
 VariantDataToJS
 (
-ccx
+lccx
 value
 scope
 &

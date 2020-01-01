@@ -990,8 +990,6 @@ interface
 ;
 DestroyInstance
 (
-ccx
-rt
 iface
 )
 ;
@@ -1011,8 +1009,6 @@ iface
 {
 DestroyInstance
 (
-ccx
-rt
 iface
 )
 ;
@@ -1193,8 +1189,6 @@ interface
 ;
 DestroyInstance
 (
-ccx
-rt
 iface
 )
 ;
@@ -1214,8 +1208,6 @@ iface
 {
 DestroyInstance
 (
-ccx
-rt
 iface
 )
 ;
@@ -2030,12 +2022,6 @@ XPCNativeInterface
 :
 DestroyInstance
 (
-JSContext
-*
-cx
-XPCJSRuntime
-*
-rt
 XPCNativeInterface
 *
 inst
