@@ -971,10 +971,13 @@ oldDim
 ;
 if
 (
-oldDim
 !
-=
+oldDim
+.
+IsExactEqual
+(
 newDim
+)
 )
 {
 mRootView
