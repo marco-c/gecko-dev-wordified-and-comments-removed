@@ -2608,14 +2608,9 @@ state
 JSGEN_OPEN
 )
 ;
-cx
--
->
-runtime
--
->
-asynchronousFree
+JS_free
 (
+cx
 gen
 )
 ;

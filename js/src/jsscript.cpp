@@ -7653,7 +7653,7 @@ cx
 runtime
 -
 >
-gcRunning
+gcRegenShapes
 )
 {
 JSStackFrame
@@ -7732,14 +7732,9 @@ script
 endif
 }
 }
-cx
--
->
-runtime
--
->
-asynchronousFree
+JS_free
 (
+cx
 script
 )
 ;
