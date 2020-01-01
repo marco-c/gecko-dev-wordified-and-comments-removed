@@ -1161,7 +1161,7 @@ if
 styleDisplay
 -
 >
-IsBlockLevel
+IsBlockOutside
 (
 )
 &
