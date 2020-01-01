@@ -3367,5 +3367,17 @@ BINPATH
 MozSounds
 .
 cmd
+BINPATH
+/
+*
+.
+xqs
+BINPATH
+/
+components
+/
+*
+.
+xqs
 #
 endif
