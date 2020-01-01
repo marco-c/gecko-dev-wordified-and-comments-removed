@@ -591,11 +591,6 @@ Resume
 (
 )
 ;
-nsresult
-RealResume
-(
-)
-;
 PRBool
 IsPaused
 (
@@ -608,11 +603,6 @@ IsResumable
 ;
 PRBool
 WasResumed
-(
-)
-;
-PRBool
-IsRealPaused
 (
 )
 ;
