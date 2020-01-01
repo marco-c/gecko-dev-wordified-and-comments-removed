@@ -456,10 +456,6 @@ nsNavHistory
 .
 cpp
 \
-nsNavHistoryExpire
-.
-cpp
-\
 nsNavHistoryQuery
 .
 cpp
