@@ -441,6 +441,11 @@ PreparePendingRequest
 )
 ;
 void
+MakePendingRequestCurrent
+(
+)
+;
+void
 ClearCurrentRequest
 (
 nsresult

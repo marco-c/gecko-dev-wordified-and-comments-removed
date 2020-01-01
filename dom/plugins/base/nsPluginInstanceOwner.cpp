@@ -8312,10 +8312,6 @@ if
 (
 !
 mInstance
-|
-|
-!
-mObjectFrame
 )
 return
 ;

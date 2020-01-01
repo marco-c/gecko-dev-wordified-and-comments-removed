@@ -84,6 +84,12 @@ False
     
 self
 .
+useDDCopy
+=
+False
+    
+self
+.
 useZip
 =
 False

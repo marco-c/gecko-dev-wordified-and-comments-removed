@@ -4964,6 +4964,9 @@ img
 =
 =
 aLocal
+#
+ifdef
+MOZ_MEDIA
 |
 |
 nsGkAtoms
@@ -4991,6 +4994,8 @@ source
 =
 =
 aLocal
+#
+endif
 )
 )
 {

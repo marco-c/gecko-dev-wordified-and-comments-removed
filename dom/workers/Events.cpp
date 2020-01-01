@@ -1357,8 +1357,6 @@ JS_ResolveStub
 JS_ConvertStub
 Finalize
 \
-JSCLASS_NO_OPTIONAL_MEMBERS
-\
 }
 ;
 DECL_EVENT_CLASS
@@ -2536,8 +2534,6 @@ JS_ResolveStub
 JS_ConvertStub
 Finalize
 \
-JSCLASS_NO_OPTIONAL_MEMBERS
-\
 }
 ;
 DECL_MESSAGEEVENT_CLASS
@@ -3353,8 +3349,6 @@ JS_ResolveStub
 JS_ConvertStub
 Finalize
 \
-JSCLASS_NO_OPTIONAL_MEMBERS
-\
 }
 ;
 DECL_ERROREVENT_CLASS
@@ -4117,7 +4111,6 @@ JS_EnumerateStub
 JS_ResolveStub
 JS_ConvertStub
 Finalize
-JSCLASS_NO_OPTIONAL_MEMBERS
 }
 ;
 JSPropertySpec

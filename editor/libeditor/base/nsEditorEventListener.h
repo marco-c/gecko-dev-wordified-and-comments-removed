@@ -185,6 +185,11 @@ nsIDOMEvent
 aEvent
 )
 ;
+void
+SpellCheckIfNeeded
+(
+)
+;
 protected
 :
 nsresult

@@ -2722,7 +2722,8 @@ i
 +
 i
 )
-;
+{
+}
 if
 (
 aCalcMode

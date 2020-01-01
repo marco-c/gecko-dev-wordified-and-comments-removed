@@ -328,8 +328,6 @@ holder_set
 JS_EnumerateStub
 JS_ResolveStub
 JS_ConvertStub
-NULL
-JSCLASS_NO_OPTIONAL_MEMBERS
 }
 ;
 }

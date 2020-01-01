@@ -3619,3 +3619,10 @@ components
 ContentPermissionPrompt
 .
 js
+BINPATH
+/
+components
+/
+MozKeyboard
+.
+js

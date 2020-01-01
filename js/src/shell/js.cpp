@@ -13597,8 +13597,6 @@ JSResolveOp
 )
 sandbox_resolve
 JS_ConvertStub
-NULL
-JSCLASS_NO_OPTIONAL_MEMBERS
 }
 ;
 static
@@ -15090,8 +15088,6 @@ JSResolveOp
 )
 resolver_resolve
 JS_ConvertStub
-NULL
-JSCLASS_NO_OPTIONAL_MEMBERS
 }
 ;
 static
@@ -16780,8 +16776,6 @@ JS_StrictPropertyStub
 JS_EnumerateStub
 JS_ResolveStub
 JS_ConvertStub
-NULL
-JSCLASS_NO_OPTIONAL_MEMBERS
 }
 ;
 JSObject
@@ -21940,7 +21934,6 @@ JSResolveOp
 its_resolve
 its_convert
 its_finalize
-JSCLASS_NO_OPTIONAL_MEMBERS
 }
 ;
 static
@@ -23463,7 +23456,6 @@ JSResolveOp
 global_resolve
 JS_ConvertStub
 its_finalize
-JSCLASS_NO_OPTIONAL_MEMBERS
 }
 ;
 static
@@ -23991,8 +23983,6 @@ JSResolveOp
 )
 env_resolve
 JS_ConvertStub
-NULL
-JSCLASS_NO_OPTIONAL_MEMBERS
 }
 ;
 #
@@ -26066,7 +26056,6 @@ securityCallbacks
 =
 {
 CheckObjectAccess
-NULL
 NULL
 NULL
 NULL
