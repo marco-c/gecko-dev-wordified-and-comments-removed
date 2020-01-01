@@ -522,10 +522,13 @@ DIRS
 +
 =
 gtk2
+ifdef
+MOZ_X11
 DIRS
 +
 =
 gtkxtbin
+endif
 endif
 ifdef
 MOZ_ENABLE_PHOTON
