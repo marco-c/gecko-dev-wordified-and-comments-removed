@@ -9815,7 +9815,7 @@ mHTMLEditor
 DeleteText
 (
 nodeAsText
-PR_MIN
+NS_MIN
 (
 so
 eo

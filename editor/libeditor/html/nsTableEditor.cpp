@@ -4427,7 +4427,7 @@ selection
 ;
 aNumber
 =
-PR_MIN
+NS_MIN
 (
 aNumber
 (
@@ -5470,7 +5470,7 @@ else
 {
 aNumber
 =
-PR_MIN
+NS_MIN
 (
 aNumber
 (
@@ -5698,7 +5698,7 @@ newSpanList
 .
 AppendElement
 (
-PR_MAX
+NS_MAX
 (
 (
 aRowIndex
@@ -6261,7 +6261,7 @@ selection
 PRInt32
 minColumn
 =
-PR_MIN
+NS_MIN
 (
 startColIndex
 endColIndex
@@ -6270,7 +6270,7 @@ endColIndex
 PRInt32
 minRow
 =
-PR_MIN
+NS_MIN
 (
 startRowIndex
 endRowIndex
@@ -6279,7 +6279,7 @@ endRowIndex
 PRInt32
 maxColumn
 =
-PR_MAX
+NS_MAX
 (
 startColIndex
 endColIndex
@@ -6288,7 +6288,7 @@ endColIndex
 PRInt32
 maxRow
 =
-PR_MAX
+NS_MAX
 (
 startRowIndex
 endRowIndex
@@ -6471,7 +6471,7 @@ maxColumn
 col
 +
 =
-PR_MAX
+NS_MAX
 (
 actualColSpan
 1
@@ -6774,7 +6774,7 @@ colCount
 col
 +
 =
-PR_MAX
+NS_MAX
 (
 actualColSpan
 1
@@ -7057,7 +7057,7 @@ colCount
 col
 +
 =
-PR_MAX
+NS_MAX
 (
 actualColSpan
 1
@@ -7339,7 +7339,7 @@ rowCount
 row
 +
 =
-PR_MAX
+NS_MAX
 (
 actualRowSpan
 1
@@ -8294,7 +8294,7 @@ cell2
 colIndex
 +
 =
-PR_MAX
+NS_MAX
 (
 actualColSpan2
 1
@@ -8957,7 +8957,7 @@ colCount
 colIndex
 +
 =
-PR_MAX
+NS_MAX
 (
 actualColSpan2
 1
@@ -9030,7 +9030,7 @@ firstColIndex
 {
 lastRowIndex
 =
-PR_MAX
+NS_MAX
 (
 0
 rowIndex
@@ -9085,7 +9085,7 @@ lastColIndex
 {
 lastRowIndex
 =
-PR_MAX
+NS_MAX
 (
 0
 rowIndex
@@ -9135,7 +9135,7 @@ lastColIndex
 {
 lastRowIndex
 =
-PR_MAX
+NS_MAX
 (
 0
 rowIndex
@@ -9156,7 +9156,7 @@ rowIndex
 }
 lastColIndex
 =
-PR_MIN
+NS_MIN
 (
 lastColIndex
 lastColInRow
@@ -9167,7 +9167,7 @@ else
 {
 lastRowIndex
 =
-PR_MAX
+NS_MAX
 (
 0
 rowIndex
@@ -9212,7 +9212,7 @@ colCount
 colIndex
 +
 =
-PR_MAX
+NS_MAX
 (
 actualColSpan2
 1
@@ -10350,7 +10350,7 @@ colCount
 colIndex
 +
 =
-PR_MAX
+NS_MAX
 (
 actualColSpan
 1
@@ -10477,7 +10477,7 @@ colCount
 colIndex
 +
 =
-PR_MAX
+NS_MAX
 (
 actualColSpan
 1
@@ -10682,7 +10682,7 @@ rowCount
 rowIndex
 +
 =
-PR_MAX
+NS_MAX
 (
 actualRowSpan
 1
@@ -10809,7 +10809,7 @@ rowCount
 rowIndex
 +
 =
-PR_MAX
+NS_MAX
 (
 actualRowSpan
 1
@@ -14728,7 +14728,7 @@ aNumberOfColumns
 col
 +
 =
-PR_MAX
+NS_MAX
 (
 actualColSpan
 1
@@ -14872,7 +14872,7 @@ aNumberOfRows
 row
 +
 =
-PR_MAX
+NS_MAX
 (
 actualRowSpan
 1

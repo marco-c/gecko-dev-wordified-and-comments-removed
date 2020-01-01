@@ -587,7 +587,7 @@ res
 ;
 zIndex
 =
-PR_MAX
+NS_MAX
 (
 zIndex
 +

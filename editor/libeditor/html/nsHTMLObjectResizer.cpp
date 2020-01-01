@@ -3774,7 +3774,7 @@ mResizedObjectX
 mResizedObjectWidth
 ;
 return
-PR_MIN
+NS_MIN
 (
 resized
 max
@@ -3815,7 +3815,7 @@ mResizedObjectY
 mResizedObjectHeight
 ;
 return
-PR_MIN
+NS_MIN
 (
 resized
 max
@@ -3849,7 +3849,7 @@ kWidth
 mWidthIncrementFactor
 ;
 return
-PR_MAX
+NS_MAX
 (
 resized
 1
@@ -3883,7 +3883,7 @@ kHeight
 mHeightIncrementFactor
 ;
 return
-PR_MAX
+NS_MAX
 (
 resized
 1
