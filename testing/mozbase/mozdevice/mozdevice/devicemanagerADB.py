@@ -614,6 +614,22 @@ cmdline
 ]
 )
         
+procOut
+=
+tempfile
+.
+SpooledTemporaryFile
+(
+)
+        
+procErr
+=
+tempfile
+.
+SpooledTemporaryFile
+(
+)
+        
 proc
 =
 subprocess
@@ -623,14 +639,10 @@ Popen
 args
 stdout
 =
-subprocess
-.
-PIPE
+procOut
 stderr
 =
-subprocess
-.
-PIPE
+procErr
 )
         
 if
@@ -731,22 +743,22 @@ call
 "
 )
         
-(
-stdout
-stderr
-)
-=
-proc
+procOut
 .
-communicate
+seek
 (
+0
 )
         
 outputfile
 .
 write
 (
-stdout
+procOut
+.
+read
+(
+)
 .
 rstrip
 (
@@ -755,6 +767,18 @@ rstrip
 n
 '
 )
+)
+        
+procOut
+.
+close
+(
+)
+        
+procErr
+.
+close
+(
 )
         
 lastline
