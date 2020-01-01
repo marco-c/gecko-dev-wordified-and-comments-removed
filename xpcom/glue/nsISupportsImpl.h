@@ -536,7 +536,6 @@ stabilizeForDeletion
 (
 nsISupports
 *
-owner
 )
 {
 mTagged
