@@ -127,9 +127,4 @@ DownloadsLogger
 .
 jsm
 '
-'
-DownloadsTaskbar
-.
-jsm
-'
 ]
