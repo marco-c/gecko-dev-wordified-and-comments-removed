@@ -2434,6 +2434,9 @@ Shutdown
 (
 )
 ;
+#
+ifdef
+NECKO_PROTOCOL_websocket
 mozilla
 :
 :
@@ -2447,6 +2450,8 @@ Shutdown
 (
 )
 ;
+#
+endif
 }
 NS_DEFINE_NAMED_CID
 (
