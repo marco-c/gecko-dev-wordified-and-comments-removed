@@ -235,9 +235,6 @@ COMMA
 eHTMLTag_applet
 }
 )
-#
-ifdef
-MOZ_MEDIA
 DECL_TAG_LIST
 (
 gSourceParents
@@ -247,8 +244,6 @@ COMMA
 eHTMLTag_audio
 }
 )
-#
-endif
 DECL_TAG_LIST
 (
 gContainsText
@@ -551,9 +546,6 @@ COMMA
 eHTMLTag_p
 }
 )
-#
-ifdef
-MOZ_MEDIA
 DECL_TAG_LIST
 (
 gVideoKids
@@ -568,8 +560,6 @@ gAudioKids
 eHTMLTag_source
 }
 )
-#
-endif
 DECL_TAG_LIST
 (
 gRootTags
@@ -1078,12 +1068,6 @@ kDefaultPropRange
 0
 0
 }
-#
-if
-defined
-(
-MOZ_MEDIA
-)
 {
 eHTMLTag_audio
 eHTMLTag_unknown
@@ -1109,8 +1093,6 @@ kDefaultPropRange
 &
 gAudioKids
 }
-#
-endif
 {
 eHTMLTag_b
 eHTMLTag_unknown
@@ -3297,12 +3279,6 @@ kDefaultPropRange
 0
 0
 }
-#
-if
-defined
-(
-MOZ_MEDIA
-)
 {
 eHTMLTag_source
 eHTMLTag_unknown
@@ -3325,8 +3301,6 @@ kNoPropRange
 gSourceParents
 0
 }
-#
-endif
 {
 eHTMLTag_span
 eHTMLTag_unknown
@@ -3879,12 +3853,6 @@ kDefaultPropRange
 0
 0
 }
-#
-if
-defined
-(
-MOZ_MEDIA
-)
 {
 eHTMLTag_video
 eHTMLTag_unknown
@@ -3910,8 +3878,6 @@ kDefaultPropRange
 &
 gVideoKids
 }
-#
-endif
 {
 eHTMLTag_wbr
 eHTMLTag_unknown
