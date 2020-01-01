@@ -3100,6 +3100,8 @@ base
 /
 test
 /
+csp
+/
 test_CSP_evalscript
 .
 html
@@ -3116,6 +3118,8 @@ content
 base
 /
 test
+/
+csp
 /
 test_CSP_evalscript_getCRMFRequest
 .
@@ -3134,6 +3138,8 @@ base
 /
 test
 /
+csp
+/
 test_CSP_frameancestors
 .
 html
@@ -3150,6 +3156,8 @@ content
 base
 /
 test
+/
+csp
 /
 test_CSP
 .
@@ -3373,6 +3381,8 @@ content
 base
 /
 test
+/
+csp
 /
 test_csp_redirects
 .
@@ -3769,6 +3779,8 @@ content
 base
 /
 test
+/
+csp
 /
 test_bothCSPheaders
 .

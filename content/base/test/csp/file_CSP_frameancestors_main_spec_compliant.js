@@ -35,7 +35,9 @@ base
 /
 test
 /
-file_CSP_frameancestors
+csp
+/
+file_CSP_frameancestors_spec_compliant
 .
 sjs
 '
@@ -60,7 +62,9 @@ base
 /
 test
 /
-file_CSP_frameancestors
+csp
+/
+file_CSP_frameancestors_spec_compliant
 .
 sjs
 '
@@ -83,7 +87,9 @@ base
 /
 test
 /
-file_CSP_frameancestors
+csp
+/
+file_CSP_frameancestors_spec_compliant
 .
 sjs
 '
@@ -135,7 +141,7 @@ elt
 =
 (
 '
-aa_allow
+aa_allow_spec_compliant
 '
 )
 ;
@@ -151,7 +157,7 @@ a
 ?
 testid
 =
-aa_allow
+aa_allow_spec_compliant
 &
 internalframe
 =
@@ -164,7 +170,9 @@ csp
 escape
 (
 "
-allow
+default
+-
+src
 '
 none
 '
@@ -193,7 +201,7 @@ elt
 =
 (
 '
-aa_block
+aa_block_spec_compliant
 '
 )
 ;
@@ -209,7 +217,7 @@ a
 ?
 testid
 =
-aa_block
+aa_block_spec_compliant
 &
 internalframe
 =
@@ -222,7 +230,9 @@ csp
 escape
 (
 "
-allow
+default
+-
+src
 '
 none
 '
@@ -247,7 +257,7 @@ elt
 =
 (
 '
-aa2_block
+aa2_block_spec_compliant
 '
 )
 ;
@@ -270,7 +280,7 @@ a
 ?
 testid
 =
-aa2_block
+aa2_block_spec_compliant
 &
 internalframe
 =
@@ -283,7 +293,9 @@ csp
 escape
 (
 "
-allow
+default
+-
+src
 '
 none
 '
@@ -308,7 +320,7 @@ elt
 =
 (
 '
-ab_allow
+ab_allow_spec_compliant
 '
 )
 ;
@@ -324,7 +336,7 @@ b
 ?
 testid
 =
-ab_allow
+ab_allow_spec_compliant
 &
 internalframe
 =
@@ -337,7 +349,9 @@ csp
 escape
 (
 "
-allow
+default
+-
+src
 '
 none
 '
@@ -366,7 +380,7 @@ elt
 =
 (
 '
-ab_block
+ab_block_spec_compliant
 '
 )
 ;
@@ -382,7 +396,7 @@ b
 ?
 testid
 =
-ab_block
+ab_block_spec_compliant
 &
 internalframe
 =
@@ -395,7 +409,9 @@ csp
 escape
 (
 "
-allow
+default
+-
+src
 '
 none
 '
@@ -420,7 +436,7 @@ elt
 =
 (
 '
-aba_allow
+aba_allow_spec_compliant
 '
 )
 ;
@@ -434,7 +450,7 @@ a
 ?
 testid
 =
-aba_allow
+aba_allow_spec_compliant
 &
 double
 =
@@ -451,7 +467,9 @@ csp
 escape
 (
 "
-allow
+default
+-
+src
 '
 none
 '
@@ -523,7 +541,7 @@ elt
 =
 (
 '
-aba_block
+aba_block_spec_compliant
 '
 )
 ;
@@ -537,7 +555,7 @@ a
 ?
 testid
 =
-aba_allow
+aba_allow_spec_compliant
 &
 double
 =
@@ -554,7 +572,9 @@ csp
 escape
 (
 "
-allow
+default
+-
+src
 '
 none
 '
@@ -619,7 +639,7 @@ elt
 =
 (
 '
-aba2_block
+aba2_block_spec_compliant
 '
 )
 ;
@@ -633,7 +653,7 @@ a
 ?
 testid
 =
-aba_allow
+aba_allow_spec_compliant
 &
 double
 =
@@ -650,7 +670,9 @@ csp
 escape
 (
 "
-allow
+default
+-
+src
 '
 none
 '
@@ -715,7 +737,7 @@ elt
 =
 (
 '
-abb_allow
+abb_allow_spec_compliant
 '
 )
 ;
@@ -729,7 +751,7 @@ b
 ?
 testid
 =
-abb_allow
+abb_allow_spec_compliant
 &
 double
 =
@@ -746,7 +768,9 @@ csp
 escape
 (
 "
-allow
+default
+-
+src
 '
 none
 '
@@ -818,7 +842,7 @@ elt
 =
 (
 '
-abb_block
+abb_block_spec_compliant
 '
 )
 ;
@@ -832,7 +856,7 @@ b
 ?
 testid
 =
-abb_allow
+abb_allow_spec_compliant
 &
 double
 =
@@ -849,7 +873,9 @@ csp
 escape
 (
 "
-allow
+default
+-
+src
 '
 none
 '
@@ -914,7 +940,7 @@ elt
 =
 (
 '
-abb2_block
+abb2_block_spec_compliant
 '
 )
 ;
@@ -928,7 +954,7 @@ b
 ?
 testid
 =
-abb_allow
+abb_allow_spec_compliant
 &
 double
 =
@@ -945,7 +971,9 @@ csp
 escape
 (
 "
-allow
+default
+-
+src
 '
 none
 '

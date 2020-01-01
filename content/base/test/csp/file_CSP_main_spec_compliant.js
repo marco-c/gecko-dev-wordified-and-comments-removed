@@ -30,6 +30,8 @@ base
 /
 test
 /
+csp
+/
 file_CSP
 .
 sjs
@@ -93,6 +95,8 @@ content
 base
 /
 test
+/
+csp
 /
 file_CSP
 .

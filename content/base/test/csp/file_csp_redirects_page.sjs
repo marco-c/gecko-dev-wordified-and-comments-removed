@@ -126,6 +126,8 @@ base
 /
 test
 /
+csp
+/
 file_csp_redirects_resource
 .
 sjs

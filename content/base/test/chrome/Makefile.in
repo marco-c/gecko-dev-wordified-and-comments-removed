@@ -219,17 +219,9 @@ test_bug780529
 .
 xul
 \
-test_csp_bug768029
-.
-html
-\
 test_bug800386
 .
 xul
-\
-test_csp_bug773891
-.
-html
 \
 test_bug816340
 .

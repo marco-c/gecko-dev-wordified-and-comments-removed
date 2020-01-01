@@ -387,6 +387,8 @@ base
 /
 test
 /
+csp
+/
 file_CSP_bug888172
 .
 html

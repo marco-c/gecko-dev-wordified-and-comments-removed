@@ -101,6 +101,9 @@ DIRS
 chrome
 '
 '
+csp
+'
+'
 websocket_hybi
 '
 ]

@@ -28,6 +28,8 @@ base
 /
 test
 /
+csp
+/
 file_CSP_bug802872
 .
 sjs
@@ -120,6 +122,8 @@ content
 base
 /
 test
+/
+csp
 /
 file_CSP_bug802872
 .
