@@ -301,6 +301,8 @@ public
 nsIGlobalHistory3
 public
 nsIAutoCompleteSearch
+public
+nsIAutoCompleteSimpleResultListener
 {
 friend
 class
@@ -323,6 +325,7 @@ NS_DECL_NSIGLOBALHISTORY3
 NS_DECL_NSIBROWSERHISTORY
 NS_DECL_NSIOBSERVER
 NS_DECL_NSIAUTOCOMPLETESEARCH
+NS_DECL_NSIAUTOCOMPLETESIMPLERESULTLISTENER
 nsresult
 Init
 (

@@ -431,6 +431,10 @@ NS_INTERFACE_MAP_ENTRY
 (
 nsIAutoCompleteSearch
 )
+NS_INTERFACE_MAP_ENTRY
+(
+nsIAutoCompleteSimpleResultListener
+)
 NS_INTERFACE_MAP_ENTRY_AMBIGUOUS
 (
 nsISupports

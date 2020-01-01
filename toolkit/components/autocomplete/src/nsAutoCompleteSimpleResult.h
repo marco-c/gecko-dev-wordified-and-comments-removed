@@ -39,6 +39,13 @@ prtypes
 .
 h
 "
+#
+include
+"
+nsCOMPtr
+.
+h
+"
 class
 nsAutoCompleteSimpleResult
 :
@@ -81,6 +88,12 @@ mDefaultIndex
 ;
 PRUint32
 mSearchResult
+;
+nsCOMPtr
+<
+nsIAutoCompleteSimpleResultListener
+>
+mListener
 ;
 }
 ;
