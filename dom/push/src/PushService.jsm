@@ -1258,6 +1258,12 @@ close
 (
 )
 ;
+this
+.
+_udpServer
+=
+null
+;
 }
 this
 .
@@ -2367,6 +2373,12 @@ _udpServer
 close
 (
 )
+;
+this
+.
+_udpServer
+=
+null
 ;
 }
 this
