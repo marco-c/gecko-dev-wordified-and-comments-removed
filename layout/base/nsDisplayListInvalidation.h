@@ -31,9 +31,7 @@ nsDisplayItemGeometry
 )
 ;
 }
-const
-nsRect
-&
+nsRegion
 ComputeInvalidationRegion
 (
 )
