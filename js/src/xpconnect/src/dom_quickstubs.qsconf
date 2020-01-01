@@ -1178,6 +1178,11 @@ nsIDOMViewCSS
 .
 getComputedStyle
 '
+'
+nsIDOMCSSStyleDeclaration
+.
+*
+'
 #
 dom
 /
