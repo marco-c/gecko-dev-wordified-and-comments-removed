@@ -484,6 +484,8 @@ plugin
 \
 txtsvc
 \
+uriloader
+\
 (
 NULL
 )

@@ -449,6 +449,8 @@ xpconnect
 \
 js
 \
+uriloader
+\
 (
 NULL
 )

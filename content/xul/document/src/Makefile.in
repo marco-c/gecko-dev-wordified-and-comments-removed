@@ -476,7 +476,7 @@ appshell
 \
 util
 \
-imglib2
+uriloader
 \
 (
 NULL
