@@ -3736,10 +3736,10 @@ actor
 valid
 :
 true
-getSignature
+getParameterNames
 :
 function
-GC_getSignature
+GC_getParameterNames
 (
 aOnResponse
 )
@@ -3764,7 +3764,7 @@ Function
 {
 throw
 "
-getSignature
+getParameterNames
 is
 only
 valid
@@ -3787,7 +3787,7 @@ actor
 type
 :
 "
-nameAndParameters
+parameterNames
 "
 }
 ;
