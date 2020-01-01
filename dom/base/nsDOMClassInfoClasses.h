@@ -142,10 +142,6 @@ DOMCI_CLASS
 (
 PopupBlockedEvent
 )
-DOMCI_CLASS
-(
-DeviceLightEvent
-)
 #
 define
 MOZ_GENERATED_EVENT_LIST

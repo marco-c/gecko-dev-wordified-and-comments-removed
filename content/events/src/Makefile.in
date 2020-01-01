@@ -173,10 +173,6 @@ nsDOMPopupBlockedEvent
 .
 cpp
 \
-nsDOMDeviceLightEvent
-.
-cpp
-\
 nsDOMDeviceMotionEvent
 .
 cpp
