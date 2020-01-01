@@ -371,6 +371,16 @@ join
 (
 line
 )
+.
+encode
+(
+'
+ascii
+'
+'
+replace
+'
+)
 )
                 
 self
