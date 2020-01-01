@@ -590,6 +590,18 @@ T
 *
 newcap
 ;
+size_t
+oldBytes
+=
+sizeof
+(
+T
+)
+*
+v
+.
+mLength
+;
 T
 *
 newbuf
@@ -607,6 +619,7 @@ realloc_
 v
 .
 mBegin
+oldBytes
 bytes
 )
 )

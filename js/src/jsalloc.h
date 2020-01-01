@@ -56,6 +56,8 @@ void
 *
 p
 size_t
+oldBytes
+size_t
 bytes
 )
 {
@@ -182,6 +184,8 @@ realloc_
 void
 *
 p
+size_t
+oldBytes
 size_t
 bytes
 )
