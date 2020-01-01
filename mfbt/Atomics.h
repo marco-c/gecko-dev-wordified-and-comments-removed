@@ -1218,6 +1218,16 @@ T
 val
 )
 {
+Barrier
+<
+Order
+>
+:
+:
+beforeStore
+(
+)
+;
 return
 __sync_lock_test_and_set
 (
