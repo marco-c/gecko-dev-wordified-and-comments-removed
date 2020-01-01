@@ -615,7 +615,7 @@ XRE_GetIOMessageLoop
 struct
 JSContext
 ;
-struct
+class
 JSString
 ;
 XRE_API
