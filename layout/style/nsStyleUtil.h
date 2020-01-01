@@ -127,9 +127,11 @@ aContent
 nsIAtom
 *
 aTag
-nsPresContext
+nsILinkHandler
 *
-aPresContext
+aLinkHandler
+PRBool
+aForStyling
 nsLinkState
 *
 aState
@@ -142,9 +144,11 @@ IsLink
 nsIContent
 *
 aContent
-nsPresContext
+nsILinkHandler
 *
-aPresContext
+aLinkHandler
+PRBool
+aForStyling
 nsLinkState
 *
 aState
