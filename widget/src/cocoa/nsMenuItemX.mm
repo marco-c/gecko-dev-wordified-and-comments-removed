@@ -568,7 +568,7 @@ mMenuParent
 =
 nsnull
 ;
-mMenuBar
+mMenuGroupOwner
 =
 nsnull
 ;
@@ -647,7 +647,7 @@ if
 (
 mContent
 )
-mMenuBar
+mMenuGroupOwner
 -
 >
 UnregisterForContentChanges
@@ -659,7 +659,7 @@ if
 (
 mCommandContent
 )
-mMenuBar
+mMenuGroupOwner
 -
 >
 UnregisterForContentChanges
@@ -690,9 +690,9 @@ nsString
 aLabel
 EMenuItemType
 aItemType
-nsMenuBarX
+nsMenuGroupOwnerX
 *
-aMenuBar
+aMenuGroupOwner
 nsIContent
 *
 aNode
@@ -712,17 +712,17 @@ mContent
 =
 aNode
 ;
-mMenuBar
+mMenuGroupOwner
 =
-aMenuBar
+aMenuGroupOwner
 ;
 NS_ASSERTION
 (
-mMenuBar
+mMenuGroupOwner
 "
 No
 menu
-bar
+owner
 given
 must
 have
@@ -731,7 +731,7 @@ one
 "
 )
 ;
-mMenuBar
+mMenuGroupOwner
 -
 >
 RegisterForContentChanges
@@ -849,7 +849,7 @@ the
 command
 DOM
 element
-mMenuBar
+mMenuGroupOwner
 -
 >
 RegisterForContentChanges
@@ -2436,7 +2436,7 @@ aChild
 mCommandContent
 )
 {
-mMenuBar
+mMenuGroupOwner
 -
 >
 UnregisterForContentChanges
