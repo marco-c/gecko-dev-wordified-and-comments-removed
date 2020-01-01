@@ -29,6 +29,11 @@ MaskLayerImageCache
 (
 )
 {
+MOZ_COUNT_CTOR
+(
+MaskLayerImageCache
+)
+;
 mMaskImageContainers
 .
 Init
@@ -44,6 +49,11 @@ MaskLayerImageCache
 (
 )
 {
+MOZ_COUNT_DTOR
+(
+MaskLayerImageCache
+)
+;
 }
 PLDHashOperator
 MaskLayerImageCache
