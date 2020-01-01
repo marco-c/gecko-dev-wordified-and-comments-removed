@@ -1008,17 +1008,6 @@ GetThebesSurface
 )
 ;
 virtual
-void
-DrawOver
-(
-LayerManager
-*
-aManager
-nsIntRect
-aRect
-)
-;
-virtual
 PRBool
 DragEvent
 (
