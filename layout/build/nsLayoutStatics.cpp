@@ -323,6 +323,13 @@ h
 #
 include
 "
+nsCrossSiteListenerProxy
+.
+h
+"
+#
+include
+"
 nsFocusManager
 .
 h
@@ -527,7 +534,7 @@ h
 #
 include
 "
-nsWindowMemoryReporter
+nsDOMMemoryReporter
 .
 h
 "
@@ -1185,7 +1192,7 @@ NS_SealStaticAtomTable
 (
 )
 ;
-nsWindowMemoryReporter
+nsDOMMemoryMultiReporter
 :
 :
 Init

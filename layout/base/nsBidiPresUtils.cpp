@@ -88,6 +88,13 @@ h
 #
 include
 "
+nsContainerFrame
+.
+h
+"
+#
+include
+"
 nsFirstLetterFrame
 .
 h
@@ -2730,6 +2737,7 @@ block
 begin_lines
 (
 )
+false
 )
 ;
 bpd

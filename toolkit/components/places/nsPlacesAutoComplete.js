@@ -5963,15 +5963,6 @@ true
 ;
 }
 }
-get
-searchType
-(
-)
-Ci
-.
-nsIAutoCompleteSearchDescriptor
-.
-SEARCH_TYPE_IMMEDIATE
 handleResult
 :
 function
@@ -6536,9 +6527,6 @@ generateQI
 Ci
 .
 nsIAutoCompleteSearch
-Ci
-.
-nsIAutoCompleteSearchDescriptor
 Ci
 .
 mozIStorageStatementCallback

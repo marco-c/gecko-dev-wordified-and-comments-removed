@@ -204,6 +204,13 @@ h
 #
 include
 "
+nsThemeConstants
+.
+h
+"
+#
+include
+"
 mozilla
 /
 dom
@@ -946,9 +953,7 @@ aDestructRoot
 )
 ;
 }
-const
 nsFrameList
-&
 nsContainerFrame
 :
 :

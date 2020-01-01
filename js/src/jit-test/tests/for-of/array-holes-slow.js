@@ -20,7 +20,7 @@ prototype
 ]
 =
 '
-peek1
+FAIL1
 '
 ;
 Array
@@ -31,7 +31,7 @@ prototype
 ]
 =
 '
-peek2
+FAIL2
 '
 ;
 var
@@ -60,9 +60,7 @@ log
 [
 1
 ]
-'
-peek1
-'
+undefined
 )
 ;
 assertEq
@@ -71,9 +69,7 @@ log
 [
 2
 ]
-'
-peek2
-'
+undefined
 )
 ;
 assertEq
@@ -85,8 +81,6 @@ join
 )
 "
 0
-peek1
-peek2
 3
 "
 )

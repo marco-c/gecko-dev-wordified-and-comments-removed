@@ -285,11 +285,9 @@ const
 ;
 #
 endif
-size_t
-SizeOfIncludingThis
+PRInt64
+SizeOf
 (
-nsMallocSizeOfFun
-aMallocSizeOf
 )
 const
 ;

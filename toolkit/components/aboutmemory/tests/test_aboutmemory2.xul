@@ -255,11 +255,6 @@ javascript
 [
 CDATA
 [
-"
-use
-strict
-"
-;
 const
 Cc
 =

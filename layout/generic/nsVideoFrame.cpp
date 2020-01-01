@@ -120,6 +120,13 @@ h
 #
 include
 "
+nsDisplayList
+.
+h
+"
+#
+include
+"
 nsCSSRendering
 .
 h
@@ -134,6 +141,13 @@ h
 #
 ifdef
 ACCESSIBILITY
+#
+include
+"
+nsIServiceManager
+.
+h
+"
 #
 include
 "

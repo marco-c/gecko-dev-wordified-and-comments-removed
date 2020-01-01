@@ -155,6 +155,13 @@ h
 #
 include
 "
+nsIContent
+.
+h
+"
+#
+include
+"
 mozilla
 /
 css

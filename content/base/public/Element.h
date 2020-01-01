@@ -18,6 +18,13 @@ nsEventStates
 .
 h
 "
+#
+include
+"
+nsDOMMemoryReporter
+.
+h
+"
 class
 nsEventStateManager
 ;
@@ -158,6 +165,11 @@ endif
 NS_DECLARE_STATIC_IID_ACCESSOR
 (
 NS_ELEMENT_IID
+)
+NS_DECL_AND_IMPL_DOM_MEMORY_REPORTER_SIZEOF
+(
+Element
+nsIContent
 )
 nsEventStates
 State

@@ -33,6 +33,13 @@ nsThreadUtils
 .
 h
 "
+#
+include
+"
+nsDOMMemoryReporter
+.
+h
+"
 class
 nsTextNode
 :
@@ -76,6 +83,11 @@ NS_FORWARD_NSIDOMTEXT
 nsGenericDOMDataNode
 :
 :
+)
+NS_DECL_AND_IMPL_DOM_MEMORY_REPORTER_SIZEOF
+(
+nsTextNode
+nsGenericDOMDataNode
 )
 virtual
 bool

@@ -449,10 +449,6 @@ test_aboutmemory2
 .
 xul
 \
-test_memoryReporters
-.
-xul
-\
 test_sqliteMultiReporter
 .
 xul

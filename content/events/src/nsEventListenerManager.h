@@ -575,11 +575,9 @@ return
 mMayHaveMouseEnterLeaveEventListener
 ;
 }
-size_t
-SizeOfIncludingThis
+PRInt64
+SizeOf
 (
-nsMallocSizeOfFun
-aMallocSizeOf
 )
 const
 ;

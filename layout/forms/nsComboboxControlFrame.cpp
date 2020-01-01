@@ -279,6 +279,13 @@ h
 #
 include
 "
+nsIDOMNode
+.
+h
+"
+#
+include
+"
 nsGUIEvent
 .
 h
@@ -5254,9 +5261,7 @@ aDestructRoot
 )
 ;
 }
-const
 nsFrameList
-&
 nsComboboxControlFrame
 :
 :

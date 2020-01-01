@@ -15,7 +15,7 @@ h
 #
 include
 "
-nsIMozBrowserFrame
+nsIDOMMozBrowserFrame
 .
 h
 "
@@ -41,7 +41,7 @@ nsGenericHTMLElement
 public
 nsIFrameLoaderOwner
 public
-nsIMozBrowserFrame
+nsIDOMMozBrowserFrame
 public
 nsIWebProgressListener
 {
@@ -106,8 +106,8 @@ aInstancePtr
 ;
 NS_DECL_NSIFRAMELOADEROWNER
 NS_DECL_NSIDOMMOZBROWSERFRAME
-NS_DECL_NSIMOZBROWSERFRAME
 NS_DECL_NSIWEBPROGRESSLISTENER
+NS_DECL_DOM_MEMORY_REPORTER_SIZEOF
 virtual
 bool
 IsHTMLFocusable
@@ -235,11 +235,6 @@ NS_DECL_CYCLE_COLLECTION_CLASS_INHERITED_NO_UNLINK
 nsGenericHTMLFrameElement
 nsGenericHTMLElement
 )
-bool
-GetReallyIsBrowser
-(
-)
-;
 protected
 :
 class
@@ -308,6 +303,11 @@ aContentWindow
 ;
 void
 MaybeEnsureBrowserFrameListenersRegistered
+(
+)
+;
+bool
+BrowserFrameSecurityCheck
 (
 )
 ;

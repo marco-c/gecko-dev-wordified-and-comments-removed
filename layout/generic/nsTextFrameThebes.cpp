@@ -5148,6 +5148,7 @@ nsBlockInFlowLineIterator
 block
 *
 aForFrameLine
+false
 )
 ;
 }
@@ -31728,7 +31729,7 @@ if
 nsContentUtils
 :
 :
-IsFirstLetterPunctuationAt
+IsPunctuationMarkAt
 (
 aFrag
 aOffset

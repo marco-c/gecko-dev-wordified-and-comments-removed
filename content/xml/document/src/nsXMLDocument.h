@@ -159,16 +159,6 @@ GetClassInfo
 (
 )
 ;
-virtual
-void
-DocSizeOfExcludingThis
-(
-nsWindowSizes
-*
-aWindowSizes
-)
-const
-;
 protected
 :
 bool

@@ -1285,11 +1285,6 @@ DEFINES
 =
 -
 D_IMPL_NS_LAYOUT
-DEFINES
-+
-=
--
-DHB_DONT_DEFINE_STDINT
 #
 gcc
 requires

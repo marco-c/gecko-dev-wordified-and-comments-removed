@@ -532,15 +532,6 @@ hidePopup
 return
 ;
 }
-if
-(
-!
-mInflated
-)
-init
-(
-)
-;
 for
 (
 int

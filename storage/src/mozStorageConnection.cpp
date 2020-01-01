@@ -3446,14 +3446,6 @@ Now
 (
 )
 ;
-if
-(
-!
-mDBConn
-)
-return
-SQLITE_MISUSE
-;
 (
 void
 )

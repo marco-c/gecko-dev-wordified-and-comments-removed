@@ -46,6 +46,13 @@ nsIDocument
 .
 h
 "
+#
+include
+"
+nsDOMMemoryReporter
+.
+h
+"
 class
 nsIAtom
 ;
@@ -204,6 +211,12 @@ NS_DECLARE_STATIC_IID_ACCESSOR
 (
 NS_ICONTENT_IID
 )
+NS_DECL_AND_IMPL_DOM_MEMORY_REPORTER_SIZEOF
+(
+nsIContent
+nsINode
+)
+;
 virtual
 nsresult
 BindToTree

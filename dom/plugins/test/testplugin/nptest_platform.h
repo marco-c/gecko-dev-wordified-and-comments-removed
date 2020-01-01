@@ -21,11 +21,6 @@ pluginSupportsWindowlessMode
 (
 )
 ;
-bool
-pluginSupportsAsyncBitmapDrawing
-(
-)
-;
 NPError
 pluginInstanceInit
 (

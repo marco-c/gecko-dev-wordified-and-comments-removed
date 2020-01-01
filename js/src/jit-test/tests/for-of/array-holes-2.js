@@ -6,7 +6,7 @@ prototype
 ]
 =
 '
-peek
+FAIL
 '
 ;
 var
@@ -39,9 +39,7 @@ log
 [
 1
 ]
-'
-peek
-'
+undefined
 )
 ;
 assertEq
@@ -53,7 +51,6 @@ join
 )
 "
 0
-peek
 2
 3
 "

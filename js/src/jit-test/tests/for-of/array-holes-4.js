@@ -5,7 +5,7 @@ m
 1
 :
 '
-peek
+FAIL
 '
 }
 ;
@@ -50,9 +50,7 @@ log
 [
 1
 ]
-'
-peek
-'
+undefined
 )
 ;
 assertEq
@@ -64,7 +62,6 @@ join
 )
 "
 0
-peek
 2
 3
 "
