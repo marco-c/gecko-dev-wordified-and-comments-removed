@@ -180,15 +180,6 @@ PRUint32
 aLoadEventType
 )
 ;
-PRBool
-IsEventTargetDocument
-(
-nsIDocument
-*
-aDocument
-)
-const
-;
 void
 AddListeners
 (

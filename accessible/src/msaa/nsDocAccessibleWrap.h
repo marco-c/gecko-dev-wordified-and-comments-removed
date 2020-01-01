@@ -185,7 +185,7 @@ protected
 :
 virtual
 void
-NotifyOfInitialUpdate
+DoInitialUpdate
 (
 )
 ;
