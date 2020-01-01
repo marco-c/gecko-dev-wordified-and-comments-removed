@@ -3618,11 +3618,8 @@ if
 !
 verifyTypeStability
 (
-cx
--
->
-fp
-markRegs
+entryFrame
+entryRegs
 entryTypeMap
 )
 )
