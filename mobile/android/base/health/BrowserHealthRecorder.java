@@ -2512,7 +2512,7 @@ final
 int
 MEASUREMENT_VERSION_SEARCH_COUNTS
 =
-3
+4
 ;
 public
 static
@@ -2933,7 +2933,7 @@ FieldSpec
 location
 Field
 .
-TYPE_STRING_DISCRETE
+TYPE_COUNTED_STRING_DISCRETE
 )
 )
 ;
