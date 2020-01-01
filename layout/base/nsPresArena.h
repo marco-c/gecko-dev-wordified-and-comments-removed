@@ -124,6 +124,8 @@ nsQueryFrame
 :
 :
 NON_FRAME_MARKER
+nsRuleNode_id
+nsStyleContext_id
 NON_OBJECT_MARKER
 =
 0x40000000

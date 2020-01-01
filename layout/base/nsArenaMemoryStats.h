@@ -40,6 +40,15 @@ h
 undef
 FRAME_ID
 size_t
+mLineBoxes
+;
+size_t
+mRuleNodes
+;
+size_t
+mStyleContexts
+;
+size_t
 mOther
 ;
 }
