@@ -2470,6 +2470,13 @@ Register
 scratch
 )
 ;
+void
+generateBailoutTail
+(
+Register
+scratch
+)
+;
 }
 ;
 }
