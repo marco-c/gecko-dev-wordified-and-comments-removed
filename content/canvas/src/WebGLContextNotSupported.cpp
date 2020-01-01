@@ -82,3 +82,8 @@ DOMCI_DATA
 WebGLActiveInfo
 void
 )
+DOMCI_DATA
+(
+WebGLExtension
+void
+)
