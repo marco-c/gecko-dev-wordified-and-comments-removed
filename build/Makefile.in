@@ -785,6 +785,8 @@ INSTALL
 (
 _LEAKTEST_DIR
 )
+ifdef
+MOZ_VALGRIND
 _VALGRIND_DIR
 =
 (
@@ -853,6 +855,7 @@ INSTALL
 (
 _VALGRIND_DIR
 )
+endif
 ifdef
 ENABLE_TESTS
 libs
