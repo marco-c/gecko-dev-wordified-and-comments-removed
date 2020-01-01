@@ -7683,6 +7683,8 @@ False
 )
 else
 :
+self
+.
 log
 .
 error
@@ -7848,8 +7850,6 @@ not
 pHandle
 :
 return
-success
-=
 ctypes
 .
 windll
@@ -8513,7 +8513,7 @@ def
 killAndGetStack
 (
 self
-proc
+processPID
 utilityPath
 debuggerInfo
 )
@@ -8605,9 +8605,7 @@ os
 .
 kill
 (
-proc
-.
-pid
+processPID
 signal
 .
 SIGABRT
@@ -8671,9 +8669,7 @@ Popen
 crashinject
 str
 (
-proc
-.
-pid
+processPID
 )
 ]
 )
@@ -8721,10 +8717,11 @@ killing
 process
 "
 )
-proc
+self
 .
-kill
+killPid
 (
+processPID
 )
 def
 waitForFinish
@@ -9276,6 +9273,8 @@ self
 killAndGetStack
 (
 proc
+.
+pid
 utilityPath
 debuggerInfo
 )
@@ -9322,6 +9321,8 @@ self
 killAndGetStack
 (
 proc
+.
+pid
 utilityPath
 debuggerInfo
 )
@@ -9696,6 +9697,8 @@ checkForZombies
 (
 self
 processLog
+utilityPath
+debuggerInfo
 )
 :
 "
@@ -9921,9 +9924,11 @@ processPID
 )
 self
 .
-killPid
+killAndGetStack
 (
 processPID
+utilityPath
+debuggerInfo
 )
 return
 foundZombie
@@ -10525,6 +10530,8 @@ self
 checkForZombies
 (
 processLog
+utilityPath
+debuggerInfo
 )
 crashed
 =
