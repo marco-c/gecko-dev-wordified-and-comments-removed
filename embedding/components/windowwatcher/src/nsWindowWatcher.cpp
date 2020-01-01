@@ -36,7 +36,7 @@ h
 #
 include
 "
-nsPromptservice
+nsPromptService
 .
 h
 "
