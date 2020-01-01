@@ -282,6 +282,15 @@ return
 mDeviceWasRemoved
 ;
 }
+PRUint32
+GetDeviceResetCount
+(
+)
+{
+return
+mDeviceResetCount
+;
+}
 nsTArray
 <
 LayerD3D9
@@ -397,6 +406,9 @@ mVD
 ;
 HWND
 mFocusWnd
+;
+PRUint32
+mDeviceResetCount
 ;
 bool
 mHasDynamicTextures

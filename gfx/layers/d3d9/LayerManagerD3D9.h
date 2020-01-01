@@ -230,11 +230,13 @@ Destroy
 (
 )
 ;
+virtual
 void
 BeginTransaction
 (
 )
 ;
+virtual
 void
 BeginTransactionWithTarget
 (
@@ -245,6 +247,12 @@ aTarget
 ;
 void
 EndConstruction
+(
+)
+;
+virtual
+bool
+EndEmptyTransaction
 (
 )
 ;
@@ -260,6 +268,7 @@ CallbackData
 ;
 }
 ;
+virtual
 void
 EndTransaction
 (
@@ -547,6 +556,9 @@ mCurrentCallbackInfo
 ;
 nsIntRegion
 mClippingRegion
+;
+PRUint32
+mDeviceResetCount
 ;
 void
 Render
