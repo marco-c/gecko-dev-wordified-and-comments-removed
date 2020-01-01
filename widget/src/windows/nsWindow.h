@@ -1869,6 +1869,9 @@ mPopupType
 int
 mScrollSeriesCounter
 ;
+PRPackedBool
+mDisplayPanFeedback
+;
 static
 PRUint32
 sInstanceCount

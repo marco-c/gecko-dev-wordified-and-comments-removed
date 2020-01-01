@@ -2929,6 +2929,15 @@ aEvent
 eventStructType
 !
 =
+NS_GESTURENOTIFY_EVENT
+&
+&
+aEvent
+-
+>
+eventStructType
+!
+=
 NS_QUERY_CONTENT_EVENT
 )
 )
