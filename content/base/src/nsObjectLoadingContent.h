@@ -56,13 +56,6 @@ h
 #
 include
 "
-nsIFrame
-.
-h
-"
-#
-include
-"
 nsPluginInstanceOwner
 .
 h
@@ -71,6 +64,13 @@ h
 include
 "
 nsIThreadInternal
+.
+h
+"
+#
+include
+"
+nsIFrame
 .
 h
 "

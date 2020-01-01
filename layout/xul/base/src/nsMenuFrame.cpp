@@ -5959,7 +5959,7 @@ tmpSize
 0
 )
 ;
-nsIBox
+nsIFrame
 :
 :
 AddCSSPrefSize

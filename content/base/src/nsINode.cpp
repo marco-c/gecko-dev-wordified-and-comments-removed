@@ -2090,14 +2090,11 @@ eDATA_NODE
 )
 {
 return
-NS_ERROR_DOM_HIERARCHY_REQUEST_ERR
+NS_ERROR_DOM_NOT_FOUND_ERR
 ;
 }
 if
 (
-aOldChild
-&
-&
 aOldChild
 -
 >

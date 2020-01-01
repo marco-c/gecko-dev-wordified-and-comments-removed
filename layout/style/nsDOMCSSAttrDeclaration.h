@@ -25,13 +25,6 @@ nsString
 .
 h
 "
-#
-include
-"
-nsWrapperCache
-.
-h
-"
 namespace
 mozilla
 {
@@ -55,8 +48,6 @@ nsDOMCSSAttributeDeclaration
 :
 public
 nsDOMCSSDeclaration
-public
-nsWrapperCache
 {
 public
 :
@@ -85,7 +76,7 @@ nsDOMCSSAttributeDeclaration
 )
 ;
 NS_DECL_CYCLE_COLLECTING_ISUPPORTS
-NS_DECL_CYCLE_COLLECTION_SKIPPABLE_CLASS_AMBIGUOUS
+NS_DECL_CYCLE_COLLECTION_SKIPPABLE_SCRIPT_HOLDER_CLASS_AMBIGUOUS
 (
 nsDOMCSSAttributeDeclaration
 nsICSSDeclaration

@@ -55,11 +55,7 @@ MPL
 .
 DEPTH
 =
-.
-.
-/
-.
-.
+DEPTH
 topsrcdir
 =
 top_srcdir
@@ -182,6 +178,10 @@ Blob
 .
 h
 \
+ProcessPriorityManager
+.
+h
+\
 nsIRemoteBlob
 .
 h
@@ -213,6 +213,10 @@ CrashReporterParent
 cpp
 \
 CrashReporterChild
+.
+cpp
+\
+ProcessPriorityManager
 .
 cpp
 \

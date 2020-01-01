@@ -182,7 +182,7 @@ RelayoutChildAtOrdinal
 nsBoxLayoutState
 &
 aState
-nsIBox
+nsIFrame
 *
 aChild
 )
@@ -197,7 +197,7 @@ const
 nsPoint
 &
 aPoint
-nsIBox
+nsIFrame
 *
 *
 aBox
@@ -321,7 +321,7 @@ static
 void
 AddBorderAndPadding
 (
-nsIBox
+nsIFrame
 *
 aBox
 nsSize
@@ -333,7 +333,7 @@ static
 void
 AddMargin
 (
-nsIBox
+nsIFrame
 *
 aChild
 nsSize

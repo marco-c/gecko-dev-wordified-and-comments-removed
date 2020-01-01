@@ -100,12 +100,6 @@ void
 aIter
 )
 ;
-NS_FORWARD_NSIDOMNSEVENT
-(
-nsDOMEvent
-:
-:
-)
 virtual
 nsresult
 InitFromCtor

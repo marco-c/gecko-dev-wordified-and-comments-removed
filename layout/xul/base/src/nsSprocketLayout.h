@@ -18,6 +18,13 @@ nsCOMPtr
 .
 h
 "
+#
+include
+"
+nsIFrame
+.
+h
+"
 class
 nsBoxSize
 {
@@ -440,7 +447,7 @@ Shutdown
 NS_IMETHOD
 Layout
 (
-nsIBox
+nsIFrame
 *
 aBox
 nsBoxLayoutState
@@ -452,7 +459,7 @@ virtual
 nsSize
 GetPrefSize
 (
-nsIBox
+nsIFrame
 *
 aBox
 nsBoxLayoutState
@@ -464,7 +471,7 @@ virtual
 nsSize
 GetMinSize
 (
-nsIBox
+nsIFrame
 *
 aBox
 nsBoxLayoutState
@@ -476,7 +483,7 @@ virtual
 nsSize
 GetMaxSize
 (
-nsIBox
+nsIFrame
 *
 aBox
 nsBoxLayoutState
@@ -488,7 +495,7 @@ virtual
 nscoord
 GetAscent
 (
-nsIBox
+nsIFrame
 *
 aBox
 nsBoxLayoutState
@@ -504,7 +511,7 @@ static
 bool
 IsHorizontal
 (
-nsIBox
+nsIFrame
 *
 aBox
 )
@@ -585,7 +592,7 @@ protected
 void
 ComputeChildsNextPosition
 (
-nsIBox
+nsIFrame
 *
 aBox
 const
@@ -611,13 +618,13 @@ aChildSize
 void
 ChildResized
 (
-nsIBox
+nsIFrame
 *
 aBox
 nsBoxLayoutState
 &
 aState
-nsIBox
+nsIFrame
 *
 aChild
 nsBoxSize
@@ -652,7 +659,7 @@ aFinished
 void
 AlignChildren
 (
-nsIBox
+nsIFrame
 *
 aBox
 nsBoxLayoutState
@@ -667,7 +674,7 @@ virtual
 void
 ComputeChildSizes
 (
-nsIBox
+nsIFrame
 *
 aBox
 nsBoxLayoutState
@@ -689,7 +696,7 @@ virtual
 void
 PopulateBoxSizes
 (
-nsIBox
+nsIFrame
 *
 aBox
 nsBoxLayoutState
@@ -732,7 +739,7 @@ virtual
 void
 GetFrameState
 (
-nsIBox
+nsIFrame
 *
 aBox
 nsFrameState

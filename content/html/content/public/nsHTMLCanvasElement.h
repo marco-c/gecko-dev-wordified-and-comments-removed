@@ -39,13 +39,6 @@ h
 #
 include
 "
-nsIFrame
-.
-h
-"
-#
-include
-"
 nsDOMError
 .
 h

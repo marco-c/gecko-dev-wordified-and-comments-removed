@@ -199,7 +199,7 @@ return
 true
 ;
 }
-nsIBox
+nsIFrame
 *
 GetCaptionBox
 (
@@ -515,7 +515,7 @@ PresContext
 nsRect
 groupRect
 ;
-nsIBox
+nsIFrame
 *
 groupBox
 =
@@ -846,7 +846,7 @@ skipSides
 ;
 }
 }
-nsIBox
+nsIFrame
 *
 nsGroupBoxFrame
 :
@@ -861,7 +861,7 @@ nsRect
 aCaptionRect
 )
 {
-nsIBox
+nsIFrame
 *
 box
 =
@@ -894,7 +894,7 @@ box
 return
 nullptr
 ;
-nsIBox
+nsIFrame
 *
 child
 =

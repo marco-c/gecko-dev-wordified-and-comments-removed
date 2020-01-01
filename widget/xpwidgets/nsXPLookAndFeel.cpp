@@ -174,6 +174,16 @@ false
 "
 ui
 .
+showHideScrollbars
+"
+eIntID_ShowHideScrollbars
+false
+0
+}
+{
+"
+ui
+.
 skipNavigatingDisabledMenuItem
 "
 eIntID_SkipNavigatingDisabledMenuItem

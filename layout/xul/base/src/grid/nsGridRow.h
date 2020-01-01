@@ -7,7 +7,7 @@ nsGridRow_h___
 #
 include
 "
-nsIFrame
+nsCoord
 .
 h
 "
@@ -16,6 +16,9 @@ nsGridLayout2
 ;
 class
 nsBoxLayoutState
+;
+class
+nsIFrame
 ;
 class
 nsGridRow
@@ -34,14 +37,14 @@ nsGridRow
 void
 Init
 (
-nsIBox
+nsIFrame
 *
 aBox
 bool
 aIsBogus
 )
 ;
-nsIBox
+nsIFrame
 *
 GetBox
 (
@@ -143,7 +146,7 @@ public
 bool
 mIsBogus
 ;
-nsIBox
+nsIFrame
 *
 mBox
 ;

@@ -37,6 +37,9 @@ nsRegion
 class
 nsDeviceContext
 ;
+class
+nsIPresShell
+;
 #
 define
 NS_IVIEWMANAGER_IID

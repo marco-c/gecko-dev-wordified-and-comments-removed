@@ -117,13 +117,6 @@ h
 #
 include
 "
-nsIFrame
-.
-h
-"
-#
-include
-"
 nsRange
 .
 h
@@ -132,6 +125,13 @@ h
 include
 "
 nsContentUtils
+.
+h
+"
+#
+include
+"
+nsIFrame
 .
 h
 "

@@ -40,6 +40,13 @@ nsSprocketLayout
 .
 h
 "
+#
+include
+"
+nsHTMLReflowState
+.
+h
+"
 nsresult
 NS_NewGridLayout2
 (
@@ -95,7 +102,7 @@ AddOffset
 nsBoxLayoutState
 &
 aState
-nsIBox
+nsIFrame
 *
 aChild
 nsSize
@@ -138,7 +145,7 @@ nsGridLayout2
 :
 Layout
 (
-nsIBox
+nsIFrame
 *
 aBox
 nsBoxLayoutState
@@ -204,7 +211,7 @@ nsGridLayout2
 :
 IntrinsicWidthsDirty
 (
-nsIBox
+nsIFrame
 *
 aBox
 nsBoxLayoutState
@@ -236,7 +243,7 @@ nsGridLayout2
 :
 GetGrid
 (
-nsIBox
+nsIFrame
 *
 aBox
 PRInt32
@@ -335,7 +342,7 @@ nsGridLayout2
 :
 GetMinSize
 (
-nsIBox
+nsIFrame
 *
 aBox
 nsBoxLayoutState
@@ -362,7 +369,7 @@ total
 0
 )
 ;
-nsIBox
+nsIFrame
 *
 rowsBox
 =
@@ -372,7 +379,7 @@ GetRowsBox
 (
 )
 ;
-nsIBox
+nsIFrame
 *
 columnsBox
 =
@@ -526,7 +533,7 @@ nsGridLayout2
 :
 GetPrefSize
 (
-nsIBox
+nsIFrame
 *
 aBox
 nsBoxLayoutState
@@ -553,7 +560,7 @@ total
 0
 )
 ;
-nsIBox
+nsIFrame
 *
 rowsBox
 =
@@ -563,7 +570,7 @@ GetRowsBox
 (
 )
 ;
-nsIBox
+nsIFrame
 *
 columnsBox
 =
@@ -717,7 +724,7 @@ nsGridLayout2
 :
 GetMaxSize
 (
-nsIBox
+nsIFrame
 *
 aBox
 nsBoxLayoutState
@@ -744,7 +751,7 @@ NS_INTRINSICSIZE
 NS_INTRINSICSIZE
 )
 ;
-nsIBox
+nsIFrame
 *
 rowsBox
 =
@@ -754,7 +761,7 @@ GetRowsBox
 (
 )
 ;
-nsIBox
+nsIFrame
 *
 columnsBox
 =
@@ -920,7 +927,7 @@ nsGridLayout2
 :
 BuildRows
 (
-nsIBox
+nsIFrame
 *
 aBox
 nsGridRow
@@ -958,7 +965,7 @@ nsGridLayout2
 :
 GetTotalMargin
 (
-nsIBox
+nsIFrame
 *
 aBox
 bool
@@ -984,13 +991,13 @@ nsGridLayout2
 :
 ChildrenInserted
 (
-nsIBox
+nsIFrame
 *
 aBox
 nsBoxLayoutState
 &
 aState
-nsIBox
+nsIFrame
 *
 aPrevBox
 const
@@ -1016,7 +1023,7 @@ nsGridLayout2
 :
 ChildrenAppended
 (
-nsIBox
+nsIFrame
 *
 aBox
 nsBoxLayoutState
@@ -1045,13 +1052,13 @@ nsGridLayout2
 :
 ChildrenRemoved
 (
-nsIBox
+nsIFrame
 *
 aBox
 nsBoxLayoutState
 &
 aState
-nsIBox
+nsIFrame
 *
 aChildList
 )
@@ -1070,13 +1077,13 @@ nsGridLayout2
 :
 ChildrenSet
 (
-nsIBox
+nsIFrame
 *
 aBox
 nsBoxLayoutState
 &
 aState
-nsIBox
+nsIFrame
 *
 aChildList
 )

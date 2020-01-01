@@ -26,13 +26,6 @@ nsPresContext
 h
 "
 #
-include
-"
-nsIFrame
-.
-h
-"
-#
 define
 NS_DEFAULT_VERTICAL_SCROLL_DISTANCE
 3
@@ -41,6 +34,9 @@ nsBoxLayoutState
 ;
 class
 nsIScrollPositionListener
+;
+class
+nsIFrame
 ;
 class
 nsIScrollableFrame
@@ -287,7 +283,7 @@ aListener
 0
 ;
 virtual
-nsIBox
+nsIFrame
 *
 GetScrollbarBox
 (

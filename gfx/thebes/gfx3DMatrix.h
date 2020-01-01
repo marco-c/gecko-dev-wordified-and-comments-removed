@@ -379,6 +379,17 @@ gfxPoint3D
 aPoint
 )
 ;
+void
+ScalePost
+(
+float
+aX
+float
+aY
+float
+aZ
+)
+;
 gfxPoint
 Transform
 (

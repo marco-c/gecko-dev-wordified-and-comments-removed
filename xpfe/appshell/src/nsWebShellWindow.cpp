@@ -288,13 +288,6 @@ h
 #
 include
 "
-nsIFrame
-.
-h
-"
-#
-include
-"
 nsIPresShell
 .
 h

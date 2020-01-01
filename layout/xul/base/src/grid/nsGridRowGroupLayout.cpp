@@ -40,6 +40,13 @@ nsGridRow
 .
 h
 "
+#
+include
+"
+nsHTMLReflowState
+.
+h
+"
 already_AddRefed
 <
 nsBoxLayout
@@ -97,7 +104,7 @@ nsGridRowGroupLayout
 :
 ChildAddedOrRemoved
 (
-nsIBox
+nsIFrame
 *
 aBox
 nsBoxLayoutState
@@ -199,7 +206,7 @@ nsGridRowGroupLayout
 :
 GetPrefSize
 (
-nsIBox
+nsIFrame
 *
 aBox
 nsBoxLayoutState
@@ -329,7 +336,7 @@ nsGridRowGroupLayout
 :
 GetMaxSize
 (
-nsIBox
+nsIFrame
 *
 aBox
 nsBoxLayoutState
@@ -459,7 +466,7 @@ nsGridRowGroupLayout
 :
 GetMinSize
 (
-nsIBox
+nsIFrame
 *
 aBox
 nsBoxLayoutState
@@ -589,7 +596,7 @@ nsGridRowGroupLayout
 :
 DirtyRows
 (
-nsIBox
+nsIFrame
 *
 aBox
 nsBoxLayoutState
@@ -619,7 +626,7 @@ eTreeChange
 NS_FRAME_IS_DIRTY
 )
 ;
-nsIBox
+nsIFrame
 *
 child
 =
@@ -635,7 +642,7 @@ while
 child
 )
 {
-nsIBox
+nsIFrame
 *
 deepChild
 =
@@ -690,7 +697,7 @@ nsGridRowGroupLayout
 :
 CountRowsColumns
 (
-nsIBox
+nsIFrame
 *
 aBox
 PRInt32
@@ -711,7 +718,7 @@ startCount
 =
 aRowCount
 ;
-nsIBox
+nsIFrame
 *
 child
 =
@@ -727,7 +734,7 @@ while
 child
 )
 {
-nsIBox
+nsIFrame
 *
 deepChild
 =
@@ -810,7 +817,7 @@ nsGridRowGroupLayout
 :
 BuildRows
 (
-nsIBox
+nsIFrame
 *
 aBox
 nsGridRow
@@ -828,7 +835,7 @@ if
 aBox
 )
 {
-nsIBox
+nsIFrame
 *
 child
 =
@@ -844,7 +851,7 @@ while
 child
 )
 {
-nsIBox
+nsIFrame
 *
 deepChild
 =
@@ -941,7 +948,7 @@ nsGridRowGroupLayout
 :
 GetTotalMargin
 (
-nsIBox
+nsIFrame
 *
 aBox
 bool

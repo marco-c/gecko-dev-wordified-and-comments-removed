@@ -8,13 +8,6 @@ h
 #
 include
 "
-nsIFrame
-.
-h
-"
-#
-include
-"
 nsPoint
 .
 h
