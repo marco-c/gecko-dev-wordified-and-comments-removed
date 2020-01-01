@@ -282,14 +282,11 @@ JSObject
 *
 name
 ;
-uint16
+uint32
 xml_class
 ;
-uint16
-xml_flags
-;
 uint32
-align
+xml_flags
 ;
 union
 {
