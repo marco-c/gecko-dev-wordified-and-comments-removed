@@ -134,13 +134,9 @@ private
 nsresult
 GetInfo
 (
-nsISupports
-*
-aFrame
 nsIFrame
 *
-*
-aRealFrame
+aFrame
 nsIWeakReference
 *
 *

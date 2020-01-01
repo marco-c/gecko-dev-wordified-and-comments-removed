@@ -493,6 +493,10 @@ endif
 EXPORTS
 =
 \
+nsQueryFrame
+.
+h
+\
 nsFrameList
 .
 h

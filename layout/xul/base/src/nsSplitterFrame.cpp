@@ -1092,14 +1092,6 @@ Destroy
 )
 ;
 }
-NS_INTERFACE_MAP_BEGIN
-(
-nsSplitterFrame
-)
-NS_INTERFACE_MAP_END_INHERITING
-(
-nsBoxFrame
-)
 NS_IMETHODIMP
 nsSplitterFrame
 :

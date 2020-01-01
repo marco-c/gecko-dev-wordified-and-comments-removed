@@ -776,12 +776,10 @@ maxpos
 nsIScrollbarFrame
 *
 sb
-;
-CallQueryInterface
+=
+do_QueryFrame
 (
 scrollbar
-&
-sb
 )
 ;
 if
