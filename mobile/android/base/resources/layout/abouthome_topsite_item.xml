@@ -122,6 +122,15 @@ paddingTop
 "
 4dip
 "
+android
+:
+background
+=
+"
+drawable
+/
+action_bar_button
+"
 >
 <
 ImageView
@@ -308,7 +317,7 @@ android
 textSize
 =
 "
-9dip
+9sp
 "
 android
 :
