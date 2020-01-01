@@ -272,7 +272,7 @@ in
 trap
 (
 f9
-22
+23
 undefined
 )
 ;

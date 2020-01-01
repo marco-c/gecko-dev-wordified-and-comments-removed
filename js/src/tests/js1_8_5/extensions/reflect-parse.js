@@ -9229,15 +9229,15 @@ bar
 )
 ;
 "
-forStmt
-(
-letDecl
+letStmt
 (
 pattPatts
 [
 i
 ]
-)
+forStmt
+(
+null
 ident
 (
 "
@@ -9251,6 +9251,7 @@ bar
 "
 )
 emptyStmt
+)
 )
 )
 ;
