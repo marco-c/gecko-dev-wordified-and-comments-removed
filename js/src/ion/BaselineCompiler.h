@@ -569,6 +569,11 @@ JSOP_DEBUGGER
 \
 _
 (
+JSOP_ARGUMENTS
+)
+\
+_
+(
 JSOP_POPV
 )
 \
@@ -840,6 +845,15 @@ branchIfTrue
 bool
 emitCall
 (
+)
+;
+bool
+emitFormalArgAccess
+(
+uint32_t
+arg
+bool
+get
 )
 ;
 }

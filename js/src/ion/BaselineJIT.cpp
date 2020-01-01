@@ -249,9 +249,9 @@ prologueOffset_
 (
 prologueOffset
 )
-active_
+flags_
 (
-false
+0
 )
 {
 }
