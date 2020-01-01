@@ -12467,7 +12467,7 @@ JSContext
 cx
 GuardRecord
 *
-lr
+anchor
 GuardRecord
 *
 expectedInnerExit
@@ -12477,7 +12477,7 @@ Fragment
 *
 f
 =
-lr
+anchor
 -
 >
 from
@@ -12522,7 +12522,7 @@ if
 (
 c
 =
-lr
+anchor
 -
 >
 target
@@ -12541,8 +12541,8 @@ fragmento
 >
 createBranch
 (
-lr
-lr
+anchor
+anchor
 -
 >
 exit
@@ -12553,7 +12553,7 @@ c
 >
 spawnedFrom
 =
-lr
+anchor
 -
 >
 guard
@@ -12565,7 +12565,7 @@ parent
 =
 f
 ;
-lr
+anchor
 -
 >
 exit
@@ -12575,7 +12575,7 @@ target
 =
 c
 ;
-lr
+anchor
 -
 >
 target
@@ -12619,7 +12619,7 @@ SideExit
 *
 e
 =
-lr
+anchor
 -
 >
 exit
@@ -12653,7 +12653,7 @@ return
 js_StartRecorder
 (
 cx
-lr
+anchor
 c
 (
 TreeInfo
