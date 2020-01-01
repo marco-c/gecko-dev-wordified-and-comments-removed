@@ -109,10 +109,6 @@ void
 registerRilWorker
 (
 in
-unsigned
-long
-aClientId
-in
 jsval
 aWorker
 )
