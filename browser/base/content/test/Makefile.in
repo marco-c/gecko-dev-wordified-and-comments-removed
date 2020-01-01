@@ -916,6 +916,10 @@ browser_bug585830
 .
 js
 \
+browser_bug592338
+.
+js
+\
 browser_contextSearchTabPosition
 .
 js
@@ -1077,6 +1081,10 @@ js
 browser_visibleTabs_tabPreview
 .
 js
+\
+bug592338
+.
+html
 \
 discovery
 .
