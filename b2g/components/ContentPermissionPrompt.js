@@ -1417,7 +1417,7 @@ getManifestFor
 (
 app
 .
-origin
+manifestURL
 function
 getManifest
 (
