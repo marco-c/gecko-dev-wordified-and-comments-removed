@@ -149,6 +149,10 @@ LogUtils
 .
 jsm
 \
+MinimalIdentity
+.
+jsm
+\
 RelyingParty
 .
 jsm
