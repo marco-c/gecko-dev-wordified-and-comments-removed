@@ -4358,6 +4358,9 @@ primaryColumn
 ;
 if
 (
+primaryColumn
+&
+&
 !
 nsCoreUtils
 :
