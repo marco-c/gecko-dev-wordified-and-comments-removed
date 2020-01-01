@@ -243,6 +243,10 @@ HTMLDivElement
 .
 webidl
 \
+HTMLDocument
+.
+webidl
+\
 HTMLElement
 .
 webidl
