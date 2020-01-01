@@ -44,6 +44,7 @@ h
 "
 #
 endif
+JS_BEGIN_EXTERN_C
 struct
 JSScope
 {
@@ -1207,5 +1208,6 @@ JSRuntime
 rt
 )
 ;
+JS_END_EXTERN_C
 #
 endif

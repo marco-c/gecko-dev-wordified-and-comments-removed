@@ -3008,6 +3008,10 @@ bad
 \
 stackbuf
 =
+(
+jschar
+*
+)
 ptr_
 ;
 \
@@ -3134,6 +3138,10 @@ bad
 \
 stackbuf
 =
+(
+jschar
+*
+)
 ptr_
 ;
 \
@@ -3437,6 +3445,10 @@ shrunk
 )
 stackbuf
 =
+(
+jschar
+*
+)
 shrunk
 ;
 }
@@ -5554,6 +5566,9 @@ exn
 =
 errorString
 ?
+(
+JSExnType
+)
 errorString
 -
 >

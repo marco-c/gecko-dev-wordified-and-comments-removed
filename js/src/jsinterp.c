@@ -1427,6 +1427,10 @@ markp
 NULL
 ;
 return
+(
+jsval
+*
+)
 JS_ARENA_MARK
 (
 &
@@ -10534,8 +10538,12 @@ n
 ]
 )
 ;
+\
 op
 =
+(
+JSOp
+)
 *
 (
 pc
@@ -10601,6 +10609,9 @@ OP
 )
 op
 =
+(
+JSOp
+)
 *
 +
 +
@@ -10735,6 +10746,9 @@ PCOFF
 )
 currentVersion
 =
+(
+JSVersion
+)
 script
 -
 >
@@ -10742,6 +10756,9 @@ version
 ;
 originalVersion
 =
+(
+JSVersion
+)
 cx
 -
 >
@@ -19431,6 +19448,9 @@ newifp
 >
 callerVersion
 =
+(
+JSVersion
+)
 cx
 -
 >
@@ -19452,6 +19472,9 @@ currentVersion
 {
 currentVersion
 =
+(
+JSVersion
+)
 script
 -
 >
@@ -19521,6 +19544,9 @@ inlineCalls
 ;
 op
 =
+(
+JSOp
+)
 *
 pc
 ;

@@ -4252,6 +4252,11 @@ JSAtom
 *
 atom
 =
+(
+const
+JSAtom
+*
+)
 key
 ;
 return
@@ -4279,6 +4284,10 @@ JSContext
 *
 cx
 =
+(
+JSContext
+*
+)
 priv
 ;
 void
@@ -4345,6 +4354,10 @@ JSContext
 *
 cx
 =
+(
+JSContext
+*
+)
 priv
 ;
 JSAtomListElement
@@ -4884,6 +4897,11 @@ JSAtom
 *
 vector
 =
+(
+JSAtom
+*
+*
+)
 arg
 ;
 vector

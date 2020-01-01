@@ -189,9 +189,6 @@ op
 )
 <
 =
-(
-unsigned
-)
 REOP_NCLASS
 )
 #
@@ -7446,6 +7443,10 @@ treeDepth
 ;
 t
 =
+(
+RENode
+*
+)
 t
 -
 >
@@ -7906,6 +7907,10 @@ treeDepth
 ;
 t
 =
+(
+RENode
+*
+)
 t
 -
 >
@@ -8982,6 +8987,9 @@ continueNode
 ;
 op
 =
+(
+REOp
+)
 emitStateSP
 -
 >
@@ -15755,6 +15763,9 @@ continue_pc
 ;
 op
 =
+(
+REOp
+)
 curState
 [
 -
@@ -16971,6 +16982,9 @@ backtrack_pc
 ;
 op
 =
+(
+REOp
+)
 backTrackData
 -
 >
@@ -22521,6 +22535,10 @@ NULL
 ;
 re
 =
+(
+JSRegExp
+*
+)
 JS_GetPrivate
 (
 cx

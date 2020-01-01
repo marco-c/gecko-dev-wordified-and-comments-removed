@@ -5912,6 +5912,11 @@ else
 {
 vector
 =
+(
+void
+*
+*
+)
 realloc
 (
 array
@@ -12628,6 +12633,9 @@ size_t
 )
 log10
 (
+(
+double
+)
 decls
 -
 >
@@ -12796,6 +12804,9 @@ size_t
 )
 log10
 (
+(
+double
+)
 n
 )
 ;
@@ -12861,6 +12872,9 @@ size_t
 )
 log10
 (
+(
+double
+)
 serial
 )
 ;
@@ -16709,6 +16723,9 @@ copy
 js_NewXML
 (
 cx
+(
+JSXMLClass
+)
 xml
 -
 >
@@ -25560,6 +25577,10 @@ JSENUMERATE_NEXT
 :
 cursor
 =
+(
+JSXMLArrayCursor
+*
+)
 JSVAL_TO_PRIVATE
 (
 *
@@ -25614,6 +25635,10 @@ JSENUMERATE_DESTROY
 :
 cursor
 =
+(
+JSXMLArrayCursor
+*
+)
 JSVAL_TO_PRIVATE
 (
 *
@@ -26161,6 +26186,10 @@ JSENUMERATE_NEXT
 :
 cursor
 =
+(
+JSXMLArrayCursor
+*
+)
 JSVAL_TO_PRIVATE
 (
 *
@@ -26279,6 +26308,10 @@ JSENUMERATE_DESTROY
 :
 cursor
 =
+(
+JSXMLArrayCursor
+*
+)
 JSVAL_TO_PRIVATE
 (
 *
@@ -36643,7 +36676,7 @@ u
 sizeof
 (
 struct
-JSXMLVar
+JSXMLElemVar
 )
 )
 #

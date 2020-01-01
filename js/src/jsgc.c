@@ -4515,7 +4515,7 @@ hdr
 intN
 mapflags
 ;
-JSDHashOperator
+int
 op
 ;
 mapflags
@@ -4597,6 +4597,9 @@ JS_DHASH_REMOVE
 #
 endif
 return
+(
+JSDHashOperator
+)
 op
 ;
 }
@@ -8043,6 +8046,10 @@ lhe
 >
 thing
 =
+(
+JSGCThing
+*
+)
 thing
 ;
 lhe
@@ -9475,7 +9482,7 @@ thingSize
 thing
 =
 (
-void
+JSGCThing
 *
 )
 (

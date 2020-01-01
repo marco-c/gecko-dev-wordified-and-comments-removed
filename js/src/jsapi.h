@@ -337,7 +337,7 @@ v
 )
 (
 (
-void
+JSGCThing
 *
 )
 JSVAL_CLRTAG
@@ -4466,6 +4466,11 @@ clasp
 )
 (
 (
+JSProtoKey
+)
+\
+(
+(
 (
 clasp
 )
@@ -4480,6 +4485,7 @@ JSCLASS_CACHED_PROTO_SHIFT
 \
 &
 JSCLASS_CACHED_PROTO_MASK
+)
 )
 #
 define

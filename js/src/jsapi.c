@@ -5295,6 +5295,7 @@ xmlSettingFlags
 #
 endif
 }
+JS_BEGIN_EXTERN_C
 JSObject
 *
 js_InitFunctionAndObjectClasses
@@ -5763,6 +5764,7 @@ return
 fun_proto
 ;
 }
+JS_END_EXTERN_C
 JS_PUBLIC_API
 (
 JSBool
@@ -17018,7 +17020,7 @@ flags
 JSCLASS_IS_GLOBAL
 )
 {
-JSProtoKey
+int
 key
 ;
 for

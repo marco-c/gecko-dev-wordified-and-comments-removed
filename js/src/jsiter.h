@@ -4,6 +4,7 @@ jsiter_h___
 #
 define
 jsiter_h___
+JS_BEGIN_EXTERN_C
 #
 include
 "
@@ -242,5 +243,6 @@ JSObject
 obj
 )
 ;
+JS_END_EXTERN_C
 #
 endif

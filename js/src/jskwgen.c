@@ -1760,6 +1760,10 @@ i
 ;
 columns
 =
+(
+unsigned
+*
+)
 malloc
 (
 sizeof
@@ -1943,6 +1947,10 @@ opt
 ;
 indexes
 =
+(
+unsigned
+*
+)
 malloc
 (
 sizeof

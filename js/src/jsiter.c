@@ -141,6 +141,13 @@ h
 #
 include
 "
+jsscan
+.
+h
+"
+#
+include
+"
 jsscope
 .
 h
@@ -164,13 +171,6 @@ h
 "
 #
 endif
-extern
-const
-char
-js_throw_str
-[
-]
-;
 #
 define
 JSSLOT_ITER_STATE

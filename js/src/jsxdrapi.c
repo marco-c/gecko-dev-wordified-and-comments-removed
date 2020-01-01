@@ -366,6 +366,10 @@ MEM_BASE
 xdr
 )
 =
+(
+char
+*
+)
 data_
 ;
 \
@@ -1137,6 +1141,10 @@ MEM_BASE
 xdr
 )
 =
+(
+char
+*
+)
 JS_malloc
 (
 cx
@@ -1277,6 +1285,10 @@ MEM_BASE
 xdr
 )
 =
+(
+char
+*
+)
 data
 ;
 MEM_COUNT
@@ -1413,6 +1425,10 @@ reghash
 )
 JS_DHashTableDestroy
 (
+(
+JSDHashTable
+*
+)
 xdr
 -
 >
@@ -3892,6 +3908,10 @@ JSRegHashEntry
 )
 JS_DHashTableOperate
 (
+(
+JSDHashTable
+*
+)
 xdr
 -
 >
@@ -4071,6 +4091,10 @@ JSRegHashEntry
 )
 JS_DHashTableOperate
 (
+(
+JSDHashTable
+*
+)
 xdr
 -
 >
@@ -4118,6 +4142,10 @@ JSRegHashEntry
 )
 JS_DHashTableOperate
 (
+(
+JSDHashTable
+*
+)
 xdr
 -
 >
