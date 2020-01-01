@@ -3318,7 +3318,7 @@ label
 this
 )
 ;
-lshift32
+lshiftPtr
 (
 Imm32
 (
@@ -3327,7 +3327,7 @@ Imm32
 reg
 )
 ;
-neg32
+negPtr
 (
 reg
 )
