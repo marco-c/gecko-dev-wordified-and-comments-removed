@@ -91,15 +91,6 @@ data
 )
 ;
 nsresult
-AppendAppNotesToCrashReport
-(
-const
-nsACString
-&
-data
-)
-;
-nsresult
 SetRestartArgs
 (
 int
