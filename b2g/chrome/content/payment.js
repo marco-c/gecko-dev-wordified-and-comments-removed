@@ -383,7 +383,7 @@ paymentSuccess
 aResult
 )
 {
-this
+PaymentProvider
 .
 _closePaymentFlowDialog
 (
@@ -432,7 +432,7 @@ paymentFailed
 aErrorMsg
 )
 {
-this
+PaymentProvider
 .
 _closePaymentFlowDialog
 (
