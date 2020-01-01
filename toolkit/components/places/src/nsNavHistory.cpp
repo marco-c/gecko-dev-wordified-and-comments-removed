@@ -25007,6 +25007,10 @@ rv
 e
 )
 {
+mCanNotify
+=
+false
+;
 nsCOMPtr
 <
 nsIObserver

@@ -554,6 +554,10 @@ nsPlacesDBFlush
 .
 js
 \
+nsPlacesExpiration
+.
+js
+\
 (
 NULL
 )
