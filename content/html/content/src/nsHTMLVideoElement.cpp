@@ -179,12 +179,12 @@ Video
 NS_IMPL_ADDREF_INHERITED
 (
 nsHTMLVideoElement
-nsHTMLMediaElement
+HTMLMediaElement
 )
 NS_IMPL_RELEASE_INHERITED
 (
 nsHTMLVideoElement
-nsHTMLMediaElement
+HTMLMediaElement
 )
 DOMCI_NODE_DATA
 (
@@ -204,7 +204,7 @@ nsIDOMHTMLVideoElement
 NS_HTML_CONTENT_INTERFACE_TABLE_TO_MAP_SEGUE
 (
 nsHTMLVideoElement
-nsHTMLMediaElement
+HTMLMediaElement
 )
 NS_HTML_CONTENT_INTERFACE_TABLE_TAIL_CLASSINFO
 (
@@ -302,7 +302,7 @@ nsINodeInfo
 aNodeInfo
 )
 :
-nsHTMLMediaElement
+HTMLMediaElement
 (
 aNodeInfo
 )
@@ -424,7 +424,7 @@ aValue
 ;
 }
 return
-nsHTMLMediaElement
+HTMLMediaElement
 :
 :
 ParseAttribute
@@ -823,6 +823,9 @@ thread
 "
 )
 ;
+layers
+:
+:
 ImageContainer
 *
 container

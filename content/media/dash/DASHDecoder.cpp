@@ -2417,7 +2417,7 @@ mOwner
 NS_ERROR_NULL_POINTER
 )
 ;
-nsHTMLMediaElement
+HTMLMediaElement
 *
 element
 =

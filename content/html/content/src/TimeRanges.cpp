@@ -23,7 +23,11 @@ h
 #
 include
 "
-nsHTMLMediaElement
+mozilla
+/
+dom
+/
+HTMLMediaElement
 .
 h
 "

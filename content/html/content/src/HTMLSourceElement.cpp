@@ -203,13 +203,13 @@ eMEDIA
 return
 NS_OK
 ;
-nsHTMLMediaElement
+HTMLMediaElement
 *
 media
 =
 static_cast
 <
-nsHTMLMediaElement
+HTMLMediaElement
 *
 >
 (

@@ -642,7 +642,7 @@ nsHTMLAudioElement
 .
 cpp
 \
-nsHTMLMediaElement
+HTMLMediaElement
 .
 cpp
 \

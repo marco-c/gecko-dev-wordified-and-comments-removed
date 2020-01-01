@@ -124,7 +124,11 @@ h
 #
 include
 "
-nsHTMLMediaElement
+mozilla
+/
+dom
+/
+HTMLMediaElement
 .
 h
 "
@@ -666,7 +670,7 @@ owner
 NS_ERROR_FAILURE
 )
 ;
-nsHTMLMediaElement
+HTMLMediaElement
 *
 element
 =
@@ -2653,7 +2657,7 @@ owner
 NS_ERROR_FAILURE
 )
 ;
-nsHTMLMediaElement
+HTMLMediaElement
 *
 element
 =
@@ -2948,7 +2952,7 @@ owner
 return
 ;
 }
-nsHTMLMediaElement
+HTMLMediaElement
 *
 element
 =
@@ -3568,7 +3572,7 @@ owner
 return
 ;
 }
-nsHTMLMediaElement
+HTMLMediaElement
 *
 element
 =
@@ -3722,7 +3726,7 @@ owner
 return
 ;
 }
-nsHTMLMediaElement
+HTMLMediaElement
 *
 element
 =
@@ -3892,7 +3896,7 @@ return
 NS_OK
 ;
 }
-nsHTMLMediaElement
+HTMLMediaElement
 *
 element
 =
@@ -5836,7 +5840,7 @@ owner
 NS_ERROR_FAILURE
 )
 ;
-nsHTMLMediaElement
+HTMLMediaElement
 *
 element
 =
@@ -6102,7 +6106,7 @@ return
 nullptr
 ;
 }
-nsHTMLMediaElement
+HTMLMediaElement
 *
 element
 =
@@ -6675,7 +6679,7 @@ MoveLoadsToBackground
 return
 ;
 }
-nsHTMLMediaElement
+HTMLMediaElement
 *
 element
 =

@@ -122,10 +122,6 @@ nsHTMLAudioElement
 .
 h
 \
-nsHTMLMediaElement
-.
-h
-\
 nsHTMLVideoElement
 .
 h
@@ -148,6 +144,10 @@ dom
 =
 \
 HTMLCanvasElement
+.
+h
+\
+HTMLMediaElement
 .
 h
 \

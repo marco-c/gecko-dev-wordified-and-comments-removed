@@ -219,12 +219,12 @@ forget
 NS_IMPL_ADDREF_INHERITED
 (
 nsHTMLAudioElement
-nsHTMLMediaElement
+HTMLMediaElement
 )
 NS_IMPL_RELEASE_INHERITED
 (
 nsHTMLAudioElement
-nsHTMLMediaElement
+HTMLMediaElement
 )
 DOMCI_NODE_DATA
 (
@@ -245,7 +245,7 @@ nsIJSNativeInitializer
 NS_HTML_CONTENT_INTERFACE_TABLE_TO_MAP_SEGUE
 (
 nsHTMLAudioElement
-nsHTMLMediaElement
+HTMLMediaElement
 )
 NS_HTML_CONTENT_INTERFACE_TABLE_TAIL_CLASSINFO
 (
@@ -267,7 +267,7 @@ nsINodeInfo
 aNodeInfo
 )
 :
-nsHTMLMediaElement
+HTMLMediaElement
 (
 aNodeInfo
 )

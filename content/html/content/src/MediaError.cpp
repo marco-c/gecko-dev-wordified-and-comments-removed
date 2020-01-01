@@ -66,7 +66,7 @@ MediaError
 :
 MediaError
 (
-nsHTMLMediaElement
+HTMLMediaElement
 *
 aParent
 uint16_t

@@ -945,7 +945,7 @@ i
 {
 nsAutoPtr
 <
-nsHTMLMediaElement
+HTMLMediaElement
 :
 :
 MetadataTags

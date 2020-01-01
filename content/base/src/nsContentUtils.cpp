@@ -1129,7 +1129,11 @@ MOZ_MEDIA
 #
 include
 "
-nsHTMLMediaElement
+mozilla
+/
+dom
+/
+HTMLMediaElement
 .
 h
 "
