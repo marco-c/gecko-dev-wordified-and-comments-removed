@@ -520,8 +520,9 @@ allowXml
 :
             
 cmd
-+
 =
+cmd
++
 [
 '
 -
@@ -538,8 +539,9 @@ allow_xml
 ]
         
 cmd
-+
 =
+cmd
++
 Test
 .
 prefix_command
