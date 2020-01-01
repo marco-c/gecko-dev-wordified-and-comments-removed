@@ -2464,6 +2464,16 @@ name
 NS_ERROR_OUT_OF_MEMORY
 )
 ;
+nsAutoString
+voidString
+;
+voidString
+.
+SetIsVoid
+(
+PR_TRUE
+)
+;
 return
 NS_NewDOMDocumentType
 (
@@ -2475,9 +2485,7 @@ nsnull
 nsnull
 aPublicId
 aSystemId
-EmptyString
-(
-)
+voidString
 )
 ;
 }

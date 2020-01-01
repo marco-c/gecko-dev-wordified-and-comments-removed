@@ -978,6 +978,10 @@ test_bug431833
 .
 html
 \
+test_bug438519
+.
+html
+\
 test_text_replaceWholeText
 .
 html

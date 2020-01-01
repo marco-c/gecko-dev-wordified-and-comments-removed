@@ -4215,6 +4215,16 @@ return
 NS_ERROR_OUT_OF_MEMORY
 ;
 }
+nsAutoString
+voidString
+;
+voidString
+.
+SetIsVoid
+(
+PR_TRUE
+)
+;
 rv
 =
 NS_NewDOMDocumentType
@@ -4234,9 +4244,7 @@ mPublicId
 mOutputFormat
 .
 mSystemId
-EmptyString
-(
-)
+voidString
 )
 ;
 NS_ENSURE_SUCCESS

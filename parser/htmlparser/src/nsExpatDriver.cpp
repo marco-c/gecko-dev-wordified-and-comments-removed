@@ -2752,6 +2752,16 @@ SetCapacity
 )
 ;
 }
+else
+{
+mInternalSubset
+.
+SetIsVoid
+(
+PR_TRUE
+)
+;
+}
 return
 NS_OK
 ;
