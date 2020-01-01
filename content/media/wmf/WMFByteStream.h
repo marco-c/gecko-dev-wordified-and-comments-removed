@@ -623,9 +623,6 @@ WMFSourceReaderCallback
 >
 mSourceReaderCallback
 ;
-ReentrantMonitor
-mResourceMonitor
-;
 nsRefPtr
 <
 MediaResource
