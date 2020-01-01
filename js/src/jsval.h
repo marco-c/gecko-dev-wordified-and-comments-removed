@@ -1220,6 +1220,9 @@ jsval_layout
 uint64
 asBits
 ;
+#
+ifndef
+_MSC_VER
 struct
 {
 uint64
@@ -1235,6 +1238,8 @@ tag
 }
 debugView
 ;
+#
+endif
 struct
 {
 union
