@@ -4007,9 +4007,6 @@ String
 "
 )
 ;
-JS
-:
-:
 Anchor
 <
 JSString
