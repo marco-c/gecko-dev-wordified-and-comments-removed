@@ -2288,7 +2288,7 @@ aString
 )
 {
 case
-STRING_ELLIPSIS
+STRING_HYPHEN
 :
 textRun
 =
@@ -2304,7 +2304,7 @@ params
 break
 ;
 case
-STRING_HYPHEN
+STRING_ELLIPSIS
 :
 textRun
 =
@@ -5917,8 +5917,6 @@ aProvider
 GetHyphenationBreaks
 (
 bufferStart
-bufferStart
-+
 bufferLength
 hyphenBuffer
 )
@@ -6048,8 +6046,6 @@ aProvider
 GetHyphenationBreaks
 (
 bufferStart
-bufferStart
-+
 bufferLength
 hyphenBuffer
 )
