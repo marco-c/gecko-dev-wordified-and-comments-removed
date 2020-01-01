@@ -2569,6 +2569,7 @@ aDocument
 aPostData
 aEvent
 aAllowThirdPartyFixup
+aReferrer
 )
 {
 if
@@ -2711,7 +2712,7 @@ aDocument
 .
 documentURIObject
 :
-null
+aReferrer
 ;
 var
 browser
@@ -2750,6 +2751,7 @@ aURL
 aDocument
 aPostData
 aAllowThirdPartyFixup
+aReferrer
 )
 {
 if
@@ -2818,7 +2820,7 @@ aDocument
 .
 documentURIObject
 :
-null
+aReferrer
 ;
 window
 .
