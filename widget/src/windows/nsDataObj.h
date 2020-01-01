@@ -931,7 +931,7 @@ const
 ULONG
 m_cRef
 ;
-nsTPtrArray
+nsTArray
 <
 nsCString
 >

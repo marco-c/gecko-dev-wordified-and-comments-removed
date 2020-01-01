@@ -57,7 +57,7 @@ h
 #
 include
 "
-nsTPtrArray
+nsAutoPtr
 .
 h
 "
@@ -373,6 +373,12 @@ mDataObjects
 SafeElementAt
 (
 aItem
+nsRefPtr
+<
+IDataObject
+>
+(
+)
 )
 ;
 }
@@ -413,6 +419,12 @@ mDataObjects
 SafeElementAt
 (
 aItem
+nsRefPtr
+<
+IDataObject
+>
+(
+)
 )
 ;
 }
@@ -532,7 +544,6 @@ m_cRef
 nsTArray
 <
 nsString
-*
 >
 mDataFlavors
 ;
@@ -544,9 +555,12 @@ CEnumFormatEtc
 *
 m_enumFE
 ;
-nsTPtrArray
+nsTArray
+<
+nsRefPtr
 <
 IDataObject
+>
 >
 mDataObjects
 ;
