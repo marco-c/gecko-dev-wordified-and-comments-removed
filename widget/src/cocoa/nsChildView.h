@@ -1007,6 +1007,12 @@ nil
 )
 ;
 static
+void
+ResendLastMouseMoveEvent
+(
+)
+;
+static
 ChildView
 *
 ViewForEvent
@@ -1020,6 +1026,11 @@ static
 ChildView
 *
 sLastMouseEventView
+;
+static
+NSEvent
+*
+sLastMouseMoveEvent
 ;
 static
 NSWindow
