@@ -18,6 +18,13 @@ _currentTest
 ;
 TestRunner
 .
+currentTestURL
+=
+"
+"
+;
+TestRunner
+.
 _urls
 =
 [
@@ -354,6 +361,12 @@ TestRunner
 .
 _currentTest
 ]
+;
+TestRunner
+.
+currentTestURL
+=
+url
 ;
 (
 "
