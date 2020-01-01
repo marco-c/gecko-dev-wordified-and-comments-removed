@@ -375,15 +375,6 @@ nsHTMLEditor
 :
 sRangeHelper
 ;
-nsresult
-NS_NewTextEditRules
-(
-nsIEditRules
-*
-*
-aInstancePtrResult
-)
-;
 #
 define
 IsLinkTag
