@@ -4344,6 +4344,14 @@ NInsList
 loopJumps
 )
 {
+if
+(
+error
+(
+)
+)
+return
+;
 NIns
 *
 SOT
