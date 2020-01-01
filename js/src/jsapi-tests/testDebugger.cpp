@@ -1078,11 +1078,8 @@ global
 "
 debuggee
 "
+&
 v
-.
-address
-(
-)
 )
 )
 ;
@@ -1332,11 +1329,8 @@ global
 "
 g
 "
+&
 v
-.
-address
-(
-)
 )
 )
 ;

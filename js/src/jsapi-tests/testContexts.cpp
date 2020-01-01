@@ -187,10 +187,14 @@ cx2
 global
 )
 ;
-jsval
+JS
+:
+:
+RootedValue
 v
-=
-JSVAL_NULL
+(
+cx2
+)
 ;
 ok
 =

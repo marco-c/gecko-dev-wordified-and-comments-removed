@@ -143,8 +143,11 @@ info
 return
 false
 ;
-Value
+RootedValue
 value
+(
+cx
+)
 ;
 #
 ifdef
