@@ -194,7 +194,7 @@ EXTRA_PP_JS_MODULES
 =
 [
 '
-AboutHomeUtils
+AboutHome
 .
 jsm
 '
