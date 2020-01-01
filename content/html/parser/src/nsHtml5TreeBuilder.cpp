@@ -10261,7 +10261,10 @@ if
 name
 !
 =
-HTML_LOCAL
+nsHtml5Atoms
+:
+:
+html
 )
 {
 return
@@ -15290,13 +15293,6 @@ nsHtml5StringLiterals
 :
 ___webtechs__dtd_mozilla_html__
 ;
-HTML_LOCAL
-=
-nsHtml5Atoms
-:
-:
-html
-;
 }
 void
 nsHtml5TreeBuilder
@@ -15317,9 +15313,6 @@ QUIRKY_PUBLIC_IDS
 release
 (
 )
-;
-delete
-HTML_LOCAL
 ;
 }
 #

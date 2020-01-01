@@ -6,13 +6,6 @@ emptystring
 )
 HTML5_ATOM
 (
-html
-"
-html
-"
-)
-HTML5_ATOM
-(
 title
 "
 title
@@ -177,6 +170,13 @@ HTML5_ATOM
 select
 "
 select
+"
+)
+HTML5_ATOM
+(
+html
+"
+html
 "
 )
 HTML5_ATOM
