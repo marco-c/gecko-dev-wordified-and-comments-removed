@@ -10965,14 +10965,6 @@ GetJNIForThread
 (
 )
 ;
-if
-(
-!
-env
-)
-return
-NPERR_GENERIC_ERROR
-;
 jclass
 cls
 =
