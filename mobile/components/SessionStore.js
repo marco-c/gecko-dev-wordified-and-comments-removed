@@ -3482,6 +3482,7 @@ restoreLastSession
 function
 ss_restoreLastSession
 (
+aBringToFront
 )
 {
 let
@@ -3877,6 +3878,9 @@ i
 =
 selected
 )
+&
+&
+aBringToFront
 ;
 let
 tab
