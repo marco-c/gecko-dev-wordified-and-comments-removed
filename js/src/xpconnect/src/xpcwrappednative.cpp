@@ -11830,11 +11830,6 @@ uint8
 i
 )
 {
-JSBool
-useAllocator
-=
-JS_FALSE
-;
 const
 nsXPTParamInfo
 &
@@ -12042,10 +12037,6 @@ nsXPTType
 T_INTERFACE
 )
 {
-useAllocator
-=
-JS_TRUE
-;
 dp
 -
 >
@@ -12096,10 +12087,6 @@ SetValNeedsCleanup
 (
 )
 ;
-useAllocator
-=
-JS_TRUE
-;
 break
 ;
 case
@@ -12114,10 +12101,6 @@ dp
 SetValNeedsCleanup
 (
 )
-;
-useAllocator
-=
-JS_TRUE
 ;
 break
 ;
@@ -12140,10 +12123,6 @@ SetValNeedsCleanup
 (
 )
 ;
-useAllocator
-=
-JS_TRUE
-;
 break
 ;
 case
@@ -12164,10 +12143,6 @@ dp
 SetValNeedsCleanup
 (
 )
-;
-useAllocator
-=
-JS_TRUE
 ;
 break
 ;
@@ -12291,7 +12266,7 @@ dp
 val
 src
 type
-useAllocator
+JS_TRUE
 &
 param_iid
 &
@@ -12392,11 +12367,6 @@ array_count
 ;
 JSUint32
 array_capacity
-;
-JSBool
-useAllocator
-=
-JS_FALSE
 ;
 PRBool
 isArray
@@ -12572,10 +12542,6 @@ IsInterfacePointer
 isArray
 )
 {
-useAllocator
-=
-JS_TRUE
-;
 dp
 -
 >
@@ -12705,10 +12671,6 @@ T_CHAR_STR
 )
 )
 {
-useAllocator
-=
-JS_TRUE
-;
 dp
 -
 >
@@ -12806,7 +12768,6 @@ src
 array_count
 array_capacity
 datum_type
-useAllocator
 &
 param_iid
 &
@@ -12850,7 +12811,6 @@ src
 array_count
 array_capacity
 datum_type
-useAllocator
 &
 err
 )
@@ -12887,7 +12847,7 @@ dp
 val
 src
 type
-useAllocator
+JS_TRUE
 &
 param_iid
 &
