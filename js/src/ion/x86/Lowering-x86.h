@@ -278,6 +278,16 @@ MPhi
 phi
 )
 ;
+static
+bool
+allowTypedElementHoleCheck
+(
+)
+{
+return
+true
+;
+}
 }
 ;
 typedef

@@ -751,6 +751,16 @@ MConstant
 ins
 )
 ;
+static
+bool
+allowTypedElementHoleCheck
+(
+)
+{
+return
+false
+;
+}
 }
 ;
 }
