@@ -3618,7 +3618,7 @@ hfp
 hfp
 -
 >
-CloseSocket
+Disconnect
 (
 )
 ;
@@ -3642,7 +3642,7 @@ opp
 opp
 -
 >
-CloseSocket
+Disconnect
 (
 )
 ;
@@ -3666,7 +3666,7 @@ sco
 sco
 -
 >
-CloseSocket
+Disconnect
 (
 )
 ;
