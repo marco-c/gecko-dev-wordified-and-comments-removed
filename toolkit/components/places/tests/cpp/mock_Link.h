@@ -166,6 +166,10 @@ Element
 aElement
 )
 :
+mElement
+(
+aElement
+)
 mLinkState
 (
 mozilla
@@ -182,10 +186,6 @@ defaultState
 mRegistered
 (
 false
-)
-mElement
-(
-aElement
 )
 {
 }
