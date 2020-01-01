@@ -4376,6 +4376,13 @@ css
 var
 shouldShow
 =
+!
+this
+.
+dynamicControls
+|
+|
+(
 this
 .
 video
@@ -4383,7 +4390,6 @@ video
 paused
 &
 &
-(
 !
 (
 this
@@ -4399,12 +4405,6 @@ video
 .
 mozAutoplayEnabled
 )
-|
-|
-!
-this
-.
-dynamicControls
 )
 ;
 /
