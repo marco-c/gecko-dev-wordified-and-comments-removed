@@ -719,16 +719,6 @@ uint32_t
 aType
 )
 ;
-void
-EnableTimeChangeNotifications
-(
-)
-;
-void
-DisableTimeChangeNotifications
-(
-)
-;
 public
 :
 nsresult
