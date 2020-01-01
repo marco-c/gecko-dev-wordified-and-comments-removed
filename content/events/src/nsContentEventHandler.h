@@ -134,6 +134,14 @@ aEvent
 )
 ;
 nsresult
+OnQueryCharacterAtPoint
+(
+nsQueryContentEvent
+*
+aEvent
+)
+;
+nsresult
 OnSelectionEvent
 (
 nsSelectionEvent
