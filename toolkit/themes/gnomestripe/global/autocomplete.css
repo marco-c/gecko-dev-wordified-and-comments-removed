@@ -316,6 +316,10 @@ transparent
 !
 important
 ;
+color
+:
+MenuText
+;
 }
 .
 autocomplete
@@ -528,6 +532,10 @@ bottom
 1px
 solid
 ThreeDShadow
+;
+color
+:
+MenuText
 ;
 }
 .
