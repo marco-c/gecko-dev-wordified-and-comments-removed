@@ -5684,10 +5684,10 @@ Verbosity
 verboge
 ;
 }
-PRIntn
+int
 main
 (
-PRIntn
+int
 argc
 char
 *

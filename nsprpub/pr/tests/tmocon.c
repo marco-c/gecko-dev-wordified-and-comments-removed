@@ -316,9 +316,6 @@ tmoacc
 )
 ]
 ;
-(
-void
-)
 getcwd
 (
 path

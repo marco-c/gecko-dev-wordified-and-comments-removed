@@ -1085,9 +1085,8 @@ int
 argc
 char
 *
+*
 argv
-[
-]
 )
 {
 pid_t

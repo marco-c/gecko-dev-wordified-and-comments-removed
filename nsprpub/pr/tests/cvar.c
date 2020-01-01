@@ -1067,10 +1067,10 @@ return
 0
 ;
 }
-PRIntn
+int
 main
 (
-PRIntn
+int
 argc
 char
 *

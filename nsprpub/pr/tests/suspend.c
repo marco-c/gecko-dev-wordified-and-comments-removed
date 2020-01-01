@@ -801,7 +801,7 @@ PR_GLOBAL_THREAD
 )
 ;
 }
-void
+int
 main
 (
 int

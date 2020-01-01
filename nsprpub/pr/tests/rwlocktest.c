@@ -89,10 +89,10 @@ DEFAULT_LOOP_CNT
 define
 TEST_ARRAY_SIZE
 100
-PRIntn
+int
 main
 (
-PRIntn
+int
 argc
 char
 *

@@ -40,6 +40,12 @@ NUM_ITERATIONS
 int
 main
 (
+int
+argc
+char
+*
+*
+argv
 )
 {
 PRFileDesc

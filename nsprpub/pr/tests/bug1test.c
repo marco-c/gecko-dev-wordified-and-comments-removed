@@ -833,7 +833,7 @@ pad
 )
 ;
 }
-void
+int
 main
 (
 int

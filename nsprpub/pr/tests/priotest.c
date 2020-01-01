@@ -690,10 +690,10 @@ PR_JOINABLE_THREAD
 )
 ;
 }
-PRIntn
+int
 main
 (
-PRIntn
+int
 argc
 char
 *

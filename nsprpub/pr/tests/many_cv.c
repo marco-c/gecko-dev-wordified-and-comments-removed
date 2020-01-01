@@ -70,7 +70,7 @@ h
 >
 static
 PRInt32
-Random
+RandomNum
 (
 void
 )
@@ -530,7 +530,7 @@ nl
 PRInt32
 ran
 =
-Random
+RandomNum
 (
 )
 %
@@ -638,10 +638,10 @@ return
 0
 ;
 }
-PRIntn
+int
 main
 (
-PRIntn
+int
 argc
 char
 *

@@ -496,6 +496,12 @@ failed_already
 int
 main
 (
+int
+argc
+char
+*
+*
+argv
 )
 {
 const

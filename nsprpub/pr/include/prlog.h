@@ -127,7 +127,6 @@ void
 ;
 #
 if
-(
 defined
 (
 DEBUG
@@ -137,14 +136,6 @@ DEBUG
 defined
 (
 FORCE_PR_LOG
-)
-)
-&
-&
-!
-defined
-(
-WIN16
 )
 #
 define

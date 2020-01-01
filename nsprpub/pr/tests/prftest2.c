@@ -52,9 +52,8 @@ int
 argc
 char
 *
+*
 argv
-[
-]
 )
 {
 PRInt16

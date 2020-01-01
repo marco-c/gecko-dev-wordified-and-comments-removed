@@ -137,9 +137,15 @@ rv
 1
 ;
 }
-PRIntn
+int
 main
 (
+int
+argc
+char
+*
+*
+argv
 )
 {
 PRUint32

@@ -271,7 +271,7 @@ tot
 )
 ;
 }
-void
+int
 main
 (
 int

@@ -453,9 +453,8 @@ PR_Sleep
 int
 main
 (
-PRIntn
+int
 argc
-const
 char
 *
 *

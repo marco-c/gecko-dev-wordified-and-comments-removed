@@ -27,6 +27,15 @@ string
 h
 >
 #
+ifdef
+SYMBIAN
+#
+define
+POLL_DESC_COUNT
+128
+#
+else
+#
 define
 POLL_DESC_COUNT
 256
@@ -56,6 +65,8 @@ created
 .
 *
 /
+#
+endif
 static
 PRPollDesc
 pd

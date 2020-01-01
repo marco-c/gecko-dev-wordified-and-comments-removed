@@ -19,10 +19,10 @@ pratom
 .
 h
 "
-PRIntn
+int
 main
 (
-PRIntn
+int
 argc
 char
 *

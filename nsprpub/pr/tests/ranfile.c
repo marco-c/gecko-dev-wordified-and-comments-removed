@@ -211,7 +211,7 @@ logFile
 endif
 static
 PRUint32
-Random
+RandomNum
 (
 void
 )
@@ -369,7 +369,7 @@ PRUint32
 minor
 =
 (
-Random
+RandomNum
 (
 )
 %
@@ -385,7 +385,7 @@ PRUint32
 random
 =
 (
-Random
+RandomNum
 (
 )
 %
@@ -401,7 +401,7 @@ PRUint32
 pages
 =
 (
-Random
+RandomNum
 (
 )
 %
@@ -891,9 +891,8 @@ int
 argc
 char
 *
+*
 argv
-[
-]
 )
 {
 PRLock
@@ -1367,7 +1366,7 @@ active
 limit
 =
 (
-Random
+RandomNum
 (
 )
 %

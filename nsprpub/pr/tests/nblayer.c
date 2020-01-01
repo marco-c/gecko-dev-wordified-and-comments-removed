@@ -3122,10 +3122,10 @@ Verbosity
 verbage
 ;
 }
-PRIntn
+int
 main
 (
-PRIntn
+int
 argc
 char
 *

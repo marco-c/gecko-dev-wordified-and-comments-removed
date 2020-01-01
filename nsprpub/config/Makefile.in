@@ -770,9 +770,15 @@ else
 ifeq
 (
 (
+filter
+-
+out
+SYMBIAN
+WINCE
+(
 OS_ARCH
 )
-WINCE
+)
 )
 TARGETS
 =

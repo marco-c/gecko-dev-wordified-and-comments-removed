@@ -308,6 +308,12 @@ incompatible_version
 int
 main
 (
+int
+argc
+char
+*
+*
+argv
 )
 {
 int
