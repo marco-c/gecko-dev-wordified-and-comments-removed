@@ -86,6 +86,10 @@ test_bug706406
 .
 html
 \
+test_bug553917
+.
+html
+\
 (
 NULL
 )
