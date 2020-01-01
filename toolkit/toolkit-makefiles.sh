@@ -4713,15 +4713,6 @@ tests
 /
 mochitest
 /
-globalstorage
-/
-Makefile
-dom
-/
-tests
-/
-mochitest
-/
 localstorage
 /
 Makefile
