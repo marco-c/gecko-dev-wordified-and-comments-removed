@@ -102,6 +102,10 @@ nsIAppsService
 .
 idl
 \
+nsIDOMMozApplicationEvent
+.
+idl
+\
 (
 NULL
 )

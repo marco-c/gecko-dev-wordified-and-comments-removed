@@ -136,6 +136,9 @@ DeviceOrientationEvent
 '
 DeviceLightEvent
 '
+'
+MozApplicationEvent
+'
 ]
 "
 "
@@ -156,6 +159,11 @@ h
 '
 '
 nsContentUtils
+.
+h
+'
+'
+nsIDOMApplicationRegistry
 .
 h
 '
@@ -186,5 +194,8 @@ exclude_automatic_type_include
 [
 '
 nsISupports
+'
+'
+mozIDOMApplication
 '
 ]

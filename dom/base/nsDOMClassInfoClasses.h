@@ -1545,10 +1545,6 @@ DOMCI_CLASS
 (
 MozSettingsEvent
 )
-DOMCI_CLASS
-(
-MozApplicationEvent
-)
 #
 ifdef
 MOZ_B2G_RIL
