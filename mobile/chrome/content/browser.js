@@ -671,7 +671,7 @@ browser
 /
 content
 /
-content
+cursor
 .
 css
 "
@@ -706,7 +706,7 @@ browser
 /
 content
 /
-scrollbars
+content
 .
 css
 "
