@@ -1325,7 +1325,7 @@ return
 ;
 ContextUI
 .
-dismissAppbar
+dismissContextAppbar
 (
 )
 ;
