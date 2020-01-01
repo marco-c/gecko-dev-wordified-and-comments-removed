@@ -156,10 +156,6 @@ FormAutoComplete
 .
 js
 \
-LoginManager
-.
-js
-\
 LoginManagerPrompter
 .
 js
