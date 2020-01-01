@@ -347,7 +347,7 @@ aDeletingEmptyFrames
 )
 ;
 static
-nsresult
+void
 CreateViewForFrame
 (
 nsIFrame
