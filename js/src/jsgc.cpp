@@ -24247,6 +24247,7 @@ AutoDisableProxyCheck
 JSRuntime
 *
 rt
+MOZ_GUARD_OBJECT_NOTIFIER_PARAM_IN_IMPL
 )
 :
 count
@@ -24257,6 +24258,8 @@ rt
 gcDisableStrictProxyCheckingCount
 )
 {
+MOZ_GUARD_OBJECT_NOTIFIER_INIT
+;
 count
 +
 +
