@@ -597,14 +597,6 @@ obj
 )
 ;
 }
-NS_EXPORT_
-(
-void
-)
-xpc_ActivateDebugMode
-(
-)
-;
 class
 nsIMemoryMultiReporterCallback
 ;

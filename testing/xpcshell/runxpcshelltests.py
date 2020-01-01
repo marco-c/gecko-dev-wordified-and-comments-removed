@@ -3837,31 +3837,6 @@ buildCmdTestFile
 name
 )
       
-args
-=
-self
-.
-xpcsRunArgs
-      
-if
-'
-debug
-'
-in
-test
-:
-          
-args
-.
-insert
-(
-0
-'
--
-d
-'
-)
-      
 try
 :
         
@@ -3907,7 +3882,9 @@ cmdH
 +
 cmdT
 +
-args
+self
+.
+xpcsRunArgs
                     
 stdout
 =

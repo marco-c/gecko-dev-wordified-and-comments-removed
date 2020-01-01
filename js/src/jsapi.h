@@ -1754,16 +1754,6 @@ asWord
 #
 endif
 }
-#
-ifndef
-_MSC_VER
-private
-:
-#
-endif
-jsval_layout
-data
-;
 private
 :
 void
@@ -1827,6 +1817,9 @@ Value
 )
 ;
 }
+jsval_layout
+data
+;
 friend
 jsval_layout
 (
