@@ -40,7 +40,7 @@ __GNUC_MINOR__
 )
 #
 define
-fd_copysign
+js_copysign
 __builtin_copysign
 #
 elif
@@ -48,7 +48,7 @@ defined
 WINCE
 #
 define
-fd_copysign
+js_copysign
 _copysign
 #
 elif
@@ -61,7 +61,7 @@ _MSC_VER
 1400
 #
 define
-fd_copysign
+js_copysign
 js_copysign
 extern
 double
@@ -75,7 +75,7 @@ double
 else
 #
 define
-fd_copysign
+js_copysign
 _copysign
 #
 endif
@@ -83,7 +83,7 @@ endif
 else
 #
 define
-fd_copysign
+js_copysign
 copysign
 #
 endif
