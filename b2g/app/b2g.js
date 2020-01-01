@@ -5155,3 +5155,15 @@ enabled
 true
 )
 ;
+pref
+(
+"
+dom
+.
+future
+.
+enabled
+"
+false
+)
+;
