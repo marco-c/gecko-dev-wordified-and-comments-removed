@@ -1,6 +1,8 @@
 af
 ar
+as
 be
+bg
 ca
 cs
 cy
@@ -10,12 +12,14 @@ el
 en
 -
 GB
+eo
 es
 -
 AR
 es
 -
 ES
+et
 eu
 fi
 fr
@@ -35,6 +39,7 @@ hi
 IN
 hu
 id
+is
 it
 ja
 ja
@@ -43,11 +48,13 @@ JP
 -
 mac
 ka
+kn
 ko
 ku
 lt
 mk
 mn
+mr
 nb
 -
 NO
@@ -75,6 +82,9 @@ sr
 sv
 -
 SE
+ta
+te
+th
 tr
 uk
 zh
