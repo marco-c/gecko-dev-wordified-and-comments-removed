@@ -1348,6 +1348,17 @@ char
 info
 )
 {
+if
+(
+name
+.
+IsEmpty
+(
+)
+)
+return
+false
+;
 const
 uint32_t
 maxSize
