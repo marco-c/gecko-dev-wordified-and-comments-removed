@@ -88,7 +88,7 @@ algorithm
 >
 #
 ifdef
-ANDROID
+MOZ_WIDGET_ANDROID
 #
 include
 <
@@ -357,7 +357,7 @@ observers
 ;
 #
 ifdef
-ANDROID
+MOZ_WIDGET_ANDROID
 __android_log_print
 (
 ANDROID_LOG_INFO
@@ -545,7 +545,7 @@ nowSec
 ;
 #
 ifdef
-ANDROID
+MOZ_WIDGET_ANDROID
 __android_log_print
 (
 ANDROID_LOG_INFO
@@ -815,7 +815,7 @@ now
 ;
 #
 ifdef
-ANDROID
+MOZ_WIDGET_ANDROID
 __android_log_print
 (
 ANDROID_LOG_INFO
@@ -1065,7 +1065,7 @@ aHasBeenLongWait
 ;
 #
 ifdef
-ANDROID
+MOZ_WIDGET_ANDROID
 __android_log_print
 (
 ANDROID_LOG_INFO
@@ -1135,7 +1135,7 @@ running
 ;
 #
 ifdef
-ANDROID
+MOZ_WIDGET_ANDROID
 __android_log_print
 (
 ANDROID_LOG_INFO
@@ -1205,7 +1205,7 @@ PR_USEC_PER_MSEC
 ;
 #
 ifdef
-ANDROID
+MOZ_WIDGET_ANDROID
 __android_log_print
 (
 ANDROID_LOG_INFO
@@ -1461,7 +1461,7 @@ aIdleTimeInS
 ;
 #
 ifdef
-ANDROID
+MOZ_WIDGET_ANDROID
 __android_log_print
 (
 ANDROID_LOG_INFO
@@ -1585,7 +1585,7 @@ aIdleTimeInS
 ;
 #
 ifdef
-ANDROID
+MOZ_WIDGET_ANDROID
 __android_log_print
 (
 ANDROID_LOG_INFO
@@ -1695,7 +1695,7 @@ aTimeInS
 ;
 #
 ifdef
-ANDROID
+MOZ_WIDGET_ANDROID
 __android_log_print
 (
 ANDROID_LOG_INFO
@@ -1752,7 +1752,7 @@ aTimeInS
 ;
 #
 ifdef
-ANDROID
+MOZ_WIDGET_ANDROID
 __android_log_print
 (
 ANDROID_LOG_INFO
@@ -2044,7 +2044,7 @@ numberOfPendingNotifications
 ;
 #
 ifdef
-ANDROID
+MOZ_WIDGET_ANDROID
 __android_log_print
 (
 ANDROID_LOG_INFO
@@ -2199,7 +2199,7 @@ timeSinceResetInMS
 ;
 #
 ifdef
-ANDROID
+MOZ_WIDGET_ANDROID
 __android_log_print
 (
 ANDROID_LOG_INFO
@@ -2393,7 +2393,7 @@ time
 ;
 #
 ifdef
-ANDROID
+MOZ_WIDGET_ANDROID
 __android_log_print
 (
 ANDROID_LOG_INFO
@@ -2443,7 +2443,7 @@ currentIdleTimeInMS
 ;
 #
 ifdef
-ANDROID
+MOZ_WIDGET_ANDROID
 __android_log_print
 (
 ANDROID_LOG_INFO
@@ -2719,7 +2719,7 @@ numberOfPendingNotifications
 ;
 #
 ifdef
-ANDROID
+MOZ_WIDGET_ANDROID
 __android_log_print
 (
 ANDROID_LOG_INFO
@@ -2818,7 +2818,7 @@ ToMilliseconds
 ;
 #
 ifdef
-ANDROID
+MOZ_WIDGET_ANDROID
 __android_log_print
 (
 ANDROID_LOG_INFO
@@ -2952,7 +2952,7 @@ ToMilliseconds
 ;
 #
 ifdef
-ANDROID
+MOZ_WIDGET_ANDROID
 __android_log_print
 (
 ANDROID_LOG_INFO
@@ -3043,7 +3043,7 @@ observers
 ;
 #
 ifdef
-ANDROID
+MOZ_WIDGET_ANDROID
 __android_log_print
 (
 ANDROID_LOG_INFO
@@ -3124,7 +3124,7 @@ ToMilliseconds
 ;
 #
 ifdef
-ANDROID
+MOZ_WIDGET_ANDROID
 __android_log_print
 (
 ANDROID_LOG_INFO
@@ -3206,7 +3206,7 @@ MIN_IDLE_POLL_INTERVAL_MSEC
 ;
 #
 ifdef
-ANDROID
+MOZ_WIDGET_ANDROID
 __android_log_print
 (
 ANDROID_LOG_INFO
