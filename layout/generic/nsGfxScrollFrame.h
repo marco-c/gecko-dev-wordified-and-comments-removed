@@ -655,8 +655,6 @@ aScrollPosition
 void
 ScrollVisual
 (
-nsPoint
-aOldScrolledFramePosition
 )
 ;
 void
@@ -923,12 +921,6 @@ nsRect
 &
 aOldScrollArea
 )
-;
-bool
-IsIgnoringViewportClipping
-(
-)
-const
 ;
 bool
 IsAlwaysActive
