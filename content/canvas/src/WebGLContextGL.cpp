@@ -5927,17 +5927,6 @@ i
 }
 break
 ;
-#
-define
-LOCAL_GL_MAX_VARYING_VECTORS
-0x8dfc
-/
-/
-not
-present
-in
-desktop
-OpenGL
 case
 LOCAL_GL_MAX_VARYING_VECTORS
 :
