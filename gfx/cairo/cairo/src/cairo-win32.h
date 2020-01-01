@@ -282,6 +282,11 @@ int
 mode
 )
 ;
+int
+cairo_dwrite_get_cleartype_rendering_mode
+(
+)
+;
 #
 endif
 #
