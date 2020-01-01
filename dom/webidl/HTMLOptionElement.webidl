@@ -234,9 +234,6 @@ attribute
 DOMString
 text
 ;
-[
-GetterThrows
-]
 readonly
 attribute
 long

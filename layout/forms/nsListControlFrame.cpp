@@ -6437,13 +6437,13 @@ if
 option
 )
 {
+aCurIndex
+=
 option
 -
 >
-GetIndex
+Index
 (
-&
-aCurIndex
 )
 ;
 MOZ_ASSERT
