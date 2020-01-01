@@ -225,6 +225,10 @@ nscoord
 aY
 PRUint8
 aBreakType
+nscoord
+aReplacedWidth
+=
+0
 )
 ;
 PRBool
