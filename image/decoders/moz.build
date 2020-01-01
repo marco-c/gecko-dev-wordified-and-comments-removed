@@ -271,6 +271,11 @@ CPP_SOURCES
 =
 [
 '
+EXIF
+.
+cpp
+'
+'
 nsBMPDecoder
 .
 cpp
