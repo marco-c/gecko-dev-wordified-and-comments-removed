@@ -561,6 +561,16 @@ GetTagsFolder
 (
 )
 ;
+mozIStorageStatement
+*
+DBGetIsVisited
+(
+)
+{
+return
+mDBIsPageVisited
+;
+}
 static
 const
 PRInt32

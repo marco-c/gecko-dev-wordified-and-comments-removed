@@ -497,6 +497,14 @@ browser
 (
 NULL
 )
+TOOL_DIRS
+=
+\
+cpp
+\
+(
+NULL
+)
 include
 (
 topsrcdir
