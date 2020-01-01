@@ -10633,12 +10633,6 @@ aHasNext
 {
 this
 .
-_open
-=
-true
-;
-this
-.
 _cmdPrevious
 .
 setAttribute
@@ -10662,6 +10656,12 @@ disabled
 !
 aHasNext
 )
+;
+this
+.
+_open
+=
+true
 ;
 let
 lastElement
