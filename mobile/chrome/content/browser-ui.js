@@ -2241,6 +2241,12 @@ init
 (
 )
 ;
+ConsoleView
+.
+init
+(
+)
+;
 }
 uninit
 :
@@ -2249,6 +2255,12 @@ function
 )
 {
 ExtensionsView
+.
+uninit
+(
+)
+;
+ConsoleView
 .
 uninit
 (

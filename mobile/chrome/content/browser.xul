@@ -4459,16 +4459,6 @@ console
 -
 container
 "
-oncommand
-=
-"
-ConsoleView
-.
-init
-(
-)
-;
-"
 /
 >
 <
