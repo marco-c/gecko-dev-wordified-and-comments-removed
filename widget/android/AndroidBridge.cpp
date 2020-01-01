@@ -2733,7 +2733,7 @@ V
 ;
 #
 ifdef
-MOZ_JAVA_COMPOSITOR
+MOZ_ANDROID_OMTC
 jPumpMessageLoop
 =
 (
@@ -13037,7 +13037,7 @@ PumpMessageLoop
 {
 #
 if
-MOZ_JAVA_COMPOSITOR
+MOZ_ANDROID_OMTC
 JNIEnv
 *
 env
@@ -13196,7 +13196,7 @@ ScheduleComposite
 {
 #
 if
-MOZ_JAVA_COMPOSITOR
+MOZ_ANDROID_OMTC
 nsWindow
 :
 :
@@ -13484,7 +13484,7 @@ env
 ;
 #
 if
-MOZ_JAVA_COMPOSITOR
+MOZ_ANDROID_OMTC
 env
 -
 >

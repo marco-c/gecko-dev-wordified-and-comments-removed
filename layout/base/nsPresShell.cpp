@@ -3189,7 +3189,7 @@ true
 ;
 #
 ifdef
-MOZ_JAVA_COMPOSITOR
+MOZ_ANDROID_OMTC
 mIsFirstPaint
 =
 false

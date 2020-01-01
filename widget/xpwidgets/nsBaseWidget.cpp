@@ -2854,7 +2854,7 @@ system
 ;
 #
 ifdef
-MOZ_JAVA_COMPOSITOR
+MOZ_ANDROID_OMTC
 NS_RUNTIMEABORT
 (
 "
@@ -2914,7 +2914,7 @@ false
 ;
 #
 ifdef
-MOZ_JAVA_COMPOSITOR
+MOZ_ANDROID_OMTC
 renderToEGLSurface
 =
 true

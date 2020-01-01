@@ -34,7 +34,7 @@ h
 "
 #
 ifdef
-MOZ_JAVA_COMPOSITOR
+MOZ_ANDROID_OMTC
 #
 include
 "
@@ -765,7 +765,7 @@ aNewParent
 ;
 #
 ifdef
-MOZ_JAVA_COMPOSITOR
+MOZ_ANDROID_OMTC
 virtual
 bool
 NeedsPaint
@@ -1089,7 +1089,7 @@ RedrawAll
 ;
 #
 ifdef
-MOZ_JAVA_COMPOSITOR
+MOZ_ANDROID_OMTC
 mozilla
 :
 :
