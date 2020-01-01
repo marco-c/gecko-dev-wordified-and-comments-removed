@@ -10400,15 +10400,6 @@ Value
 vp
 )
 {
-JSString
-*
-fmt
-;
-const
-char
-*
-fmtbytes
-;
 if
 (
 argc
@@ -10424,6 +10415,8 @@ argc
 vp
 )
 ;
+JSString
+*
 fmt
 =
 js_ValueToString
@@ -10453,9 +10446,8 @@ setString
 fmt
 )
 ;
+JSAutoByteString
 fmtbytes
-=
-js_GetStringBytes
 (
 cx
 fmt
@@ -10474,6 +10466,10 @@ date_toLocaleHelper
 (
 cx
 fmtbytes
+.
+ptr
+(
+)
 vp
 )
 ;
