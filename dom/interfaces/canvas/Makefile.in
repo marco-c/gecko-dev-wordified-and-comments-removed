@@ -433,7 +433,7 @@ nsIDOMCanvasRenderingContext2D
 .
 idl
 \
-nsICanvasRenderingContextWebGL
+nsIDOMWebGLRenderingContext
 .
 idl
 \

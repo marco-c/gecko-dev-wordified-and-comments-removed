@@ -1042,7 +1042,7 @@ h
 #
 include
 "
-nsICanvasRenderingContextWebGL
+nsIDOMWebGLRenderingContext
 .
 h
 "
@@ -1923,7 +1923,7 @@ aResult
 nsresult
 NS_NewCanvasRenderingContextWebGL
 (
-nsICanvasRenderingContextWebGL
+nsIDOMWebGLRenderingContext
 *
 *
 aResult
@@ -2645,7 +2645,7 @@ NS_NewCanvasRenderingContext2D
 MAKE_CTOR
 (
 CreateCanvasRenderingContextWebGL
-nsICanvasRenderingContextWebGL
+nsIDOMWebGLRenderingContext
 NS_NewCanvasRenderingContextWebGL
 )
 NS_GENERIC_FACTORY_CONSTRUCTOR_INIT

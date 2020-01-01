@@ -869,7 +869,7 @@ ad94
 )
 ]
 interface
-nsICanvasRenderingContextWebGL
+nsIDOMWebGLRenderingContext
 :
 nsISupports
 {
