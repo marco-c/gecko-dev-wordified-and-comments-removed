@@ -419,6 +419,16 @@ fused
 )
 ;
 void
+iterNext
+(
+)
+;
+void
+iterMore
+(
+)
+;
+void
 jsop_bindname
 (
 uint32
