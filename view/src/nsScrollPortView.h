@@ -80,14 +80,6 @@ aInstancePtr
 )
 ;
 NS_IMETHOD
-SetWidget
-(
-nsIWidget
-*
-aWidget
-)
-;
-NS_IMETHOD
 CreateScrollControls
 (
 nsNativeWidget

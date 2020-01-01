@@ -439,10 +439,6 @@ nsIScrollPositionListener
 .
 h
 \
-nsICompositeListener
-.
-h
-\
 (
 NULL
 )
