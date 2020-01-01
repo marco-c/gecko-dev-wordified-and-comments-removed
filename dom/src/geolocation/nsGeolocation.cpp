@@ -1024,7 +1024,7 @@ aErrorCallback
 mozilla
 :
 :
-dom
+idl
 :
 :
 GeoPositionOptions
@@ -1087,7 +1087,7 @@ static
 mozilla
 :
 :
-dom
+idl
 :
 :
 GeoPositionOptions
@@ -1116,7 +1116,7 @@ nsAutoPtr
 mozilla
 :
 :
-dom
+idl
 :
 :
 GeoPositionOptions
@@ -1151,7 +1151,7 @@ new
 mozilla
 :
 :
-dom
+idl
 :
 :
 GeoPositionOptions
@@ -5036,7 +5036,7 @@ nsAutoPtr
 mozilla
 :
 :
-dom
+idl
 :
 :
 GeoPositionOptions
@@ -5086,7 +5086,7 @@ errorCallback
 mozilla
 :
 :
-dom
+idl
 :
 :
 GeoPositionOptions
@@ -5320,7 +5320,7 @@ nsAutoPtr
 mozilla
 :
 :
-dom
+idl
 :
 :
 GeoPositionOptions
@@ -5371,7 +5371,7 @@ errorCallback
 mozilla
 :
 :
-dom
+idl
 :
 :
 GeoPositionOptions

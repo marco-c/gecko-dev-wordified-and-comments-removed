@@ -988,7 +988,7 @@ n
              
 "
 namespace
-dom
+idl
 {
 \
 n
@@ -1630,7 +1630,7 @@ namespace
 mozilla
 :
 :
-dom
+idl
 ;
 \
 n

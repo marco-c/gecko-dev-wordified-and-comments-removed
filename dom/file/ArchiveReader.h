@@ -248,6 +248,12 @@ status
 }
 mData
 ;
+mozilla
+:
+:
+idl
+:
+:
 ArchiveReaderOptions
 mOptions
 ;

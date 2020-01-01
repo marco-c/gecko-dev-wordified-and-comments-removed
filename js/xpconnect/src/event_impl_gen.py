@@ -629,7 +629,7 @@ write
 "
 #
 ifndef
-_gen_mozilla_generated_events_h_
+_gen_mozilla_idl_generated_events_h_
 \
 n
 "
@@ -637,7 +637,7 @@ n
 "
 #
 define
-_gen_mozilla_generated_events_h_
+_gen_mozilla_idl_generated_events_h_
 \
 n
 \
@@ -3220,7 +3220,7 @@ write
 mozilla
 :
 :
-dom
+idl
 :
 :
 %

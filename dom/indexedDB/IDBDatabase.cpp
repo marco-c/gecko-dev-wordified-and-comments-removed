@@ -2070,7 +2070,7 @@ DBInfo
 mozilla
 :
 :
-dom
+idl
 :
 :
 IDBObjectStoreParameters

@@ -740,7 +740,7 @@ aVal
 mozilla
 :
 :
-dom
+idl
 :
 :
 UIEventInit

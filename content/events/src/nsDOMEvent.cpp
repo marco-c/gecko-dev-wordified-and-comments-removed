@@ -1332,7 +1332,7 @@ aVal
 mozilla
 :
 :
-dom
+idl
 :
 :
 EventInit

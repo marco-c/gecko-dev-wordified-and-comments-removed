@@ -695,7 +695,7 @@ aVal
 mozilla
 :
 :
-dom
+idl
 :
 :
 MouseEventInit

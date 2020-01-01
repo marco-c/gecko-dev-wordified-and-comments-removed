@@ -1349,6 +1349,12 @@ NS_ERROR_NOT_AVAILABLE
 ;
 nsTArray
 <
+mozilla
+:
+:
+idl
+:
+:
 CameraSize
 >
 sizes

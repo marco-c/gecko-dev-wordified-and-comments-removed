@@ -444,6 +444,12 @@ cameraId
 =
 0
 ;
+mozilla
+:
+:
+idl
+:
+:
 CameraSelector
 selector
 ;

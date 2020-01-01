@@ -1831,6 +1831,9 @@ uint32_t
 aKey
 nsTArray
 <
+idl
+:
+:
 CameraRegion
 >
 &
@@ -1959,6 +1962,9 @@ SetCapacity
 count
 )
 ;
+idl
+:
+:
 CameraRegion
 *
 r
@@ -2106,6 +2112,9 @@ uint32_t
 aKey
 nsTArray
 <
+idl
+:
+:
 CameraSize
 >
 &
@@ -2190,6 +2199,9 @@ p
 =
 value
 ;
+idl
+:
+:
 CameraSize
 *
 s
@@ -2618,6 +2630,9 @@ aKey
 const
 nsTArray
 <
+idl
+:
+:
 CameraRegion
 >
 &
@@ -2701,6 +2716,9 @@ i
 )
 {
 const
+idl
+:
+:
 CameraRegion
 *
 r
@@ -3264,6 +3282,9 @@ UINT_MAX
 ;
 nsAutoTArray
 <
+idl
+:
+:
 CameraSize
 8
 >
@@ -6698,6 +6719,9 @@ mProfileManager
 {
 nsTArray
 <
+idl
+:
+:
 CameraSize
 >
 sizes
@@ -6786,6 +6810,9 @@ GetVideoSizes
 (
 nsTArray
 <
+idl
+:
+:
 CameraSize
 >
 &
@@ -6904,6 +6931,9 @@ size
 i
 )
 {
+idl
+:
+:
 CameraSize
 size
 ;

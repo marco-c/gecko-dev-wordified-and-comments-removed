@@ -81,6 +81,12 @@ ZipCentral
 &
 aCentralStruct
 const
+mozilla
+:
+:
+idl
+:
+:
 ArchiveReaderOptions
 &
 aOptions
@@ -408,6 +414,12 @@ ArchiveReader
 *
 aArchiveReader
 const
+mozilla
+:
+:
+idl
+:
+:
 ArchiveReaderOptions
 &
 aOptions

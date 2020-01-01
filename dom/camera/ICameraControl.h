@@ -61,7 +61,7 @@ virtual
 nsresult
 GetPreviewStream
 (
-dom
+idl
 :
 :
 CameraSize
@@ -113,7 +113,7 @@ virtual
 nsresult
 TakePicture
 (
-dom
+idl
 :
 :
 CameraSize
@@ -124,7 +124,7 @@ const
 nsAString
 &
 aFileFormat
-dom
+idl
 :
 :
 CameraPosition
@@ -145,7 +145,7 @@ virtual
 nsresult
 StartRecording
 (
-dom
+idl
 :
 :
 CameraStartRecordingOptions
@@ -180,7 +180,7 @@ virtual
 nsresult
 GetPreviewStreamVideoMode
 (
-dom
+idl
 :
 :
 CameraRecorderOptions
@@ -414,7 +414,7 @@ GetVideoSizes
 (
 nsTArray
 <
-dom
+idl
 :
 :
 CameraSize
@@ -488,7 +488,7 @@ uint32_t
 aKey
 nsTArray
 <
-dom
+idl
 :
 :
 CameraRegion
@@ -550,7 +550,7 @@ aKey
 const
 nsTArray
 <
-dom
+idl
 :
 :
 CameraRegion
