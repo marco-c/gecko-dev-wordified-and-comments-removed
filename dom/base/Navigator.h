@@ -241,13 +241,9 @@ Voicemail
 ;
 #
 endif
-namespace
-power
-{
 class
 PowerManager
 ;
-}
 namespace
 time
 {
@@ -619,9 +615,6 @@ aBuildID
 )
 ;
 }
-power
-:
-:
 PowerManager
 *
 GetMozPower
@@ -1359,9 +1352,6 @@ mFMRadio
 endif
 nsRefPtr
 <
-power
-:
-:
 PowerManager
 >
 mPowerManager

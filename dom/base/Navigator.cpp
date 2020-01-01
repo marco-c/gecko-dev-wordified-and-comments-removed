@@ -146,6 +146,10 @@ h
 #
 include
 "
+mozilla
+/
+dom
+/
 PowerManager
 .
 h
@@ -447,16 +451,6 @@ Promise
 .
 h
 "
-using
-namespace
-mozilla
-:
-:
-dom
-:
-:
-power
-;
 DOMCI_DATA
 (
 Navigator
@@ -4541,9 +4535,6 @@ forget
 )
 ;
 }
-power
-:
-:
 PowerManager
 *
 Navigator
