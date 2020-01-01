@@ -67056,12 +67056,6 @@ old_deplibs
 fix_srcfile_path
 =
 '
-cygpath
--
-w
-"
-srcfile
-"
 '
 enable_shared_with_static_runtimes
 =
