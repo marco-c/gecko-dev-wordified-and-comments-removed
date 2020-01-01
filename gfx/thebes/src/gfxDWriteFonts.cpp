@@ -174,10 +174,6 @@ mFontFace
 sims
 )
 ;
-ComputeMetrics
-(
-)
-;
 if
 (
 NS_FAILED
@@ -190,7 +186,13 @@ mIsValid
 =
 PR_FALSE
 ;
+return
+;
 }
+ComputeMetrics
+(
+)
+;
 }
 gfxDWriteFont
 :
