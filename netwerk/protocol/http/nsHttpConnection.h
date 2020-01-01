@@ -516,6 +516,13 @@ PRUint8
 caps
 )
 ;
+void
+HandleAlternateProtocol
+(
+nsHttpResponseHead
+*
+)
+;
 nsresult
 AddTransaction
 (
