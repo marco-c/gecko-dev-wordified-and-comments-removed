@@ -368,6 +368,10 @@ waitForExplicitFinish
 (
 )
 ;
+window
+.
+onload
+=
 function
 onload
 (
