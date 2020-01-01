@@ -291,6 +291,10 @@ test_input_number_rounding
 .
 html
 \
+test_valueAsDate_pref
+.
+html
+\
 (
 NULL
 )
