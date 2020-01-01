@@ -719,16 +719,6 @@ pref
 "
 security
 .
-remember_cert_checkbox_default_setting
-"
-true
-)
-;
-pref
-(
-"
-security
-.
 ask_for_password
 "
 0
