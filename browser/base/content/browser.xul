@@ -777,9 +777,6 @@ mainWindow
 .
 title
 ;
-3
-Beta
-5
 "
 titlemodifier
 =
@@ -789,9 +786,6 @@ mainWindow
 .
 title
 ;
-3
-Beta
-5
 "
 titlemenuseparator
 =
