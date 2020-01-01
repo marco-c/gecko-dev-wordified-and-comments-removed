@@ -21,7 +21,7 @@ h
 #
 define
 kLineBufferSize
-1024
+4096
 template
 <
 typename
