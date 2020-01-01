@@ -5930,9 +5930,6 @@ result
 AppendLiteral
 (
 "
--
-moz
--
 calc
 (
 "
