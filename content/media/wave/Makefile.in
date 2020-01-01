@@ -96,6 +96,10 @@ WaveDecoder
 .
 h
 \
+WaveReader
+.
+h
+\
 (
 NULL
 )

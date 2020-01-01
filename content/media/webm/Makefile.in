@@ -96,6 +96,10 @@ WebMDecoder
 .
 h
 \
+WebMReader
+.
+h
+\
 (
 NULL
 )

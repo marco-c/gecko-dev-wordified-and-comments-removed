@@ -100,6 +100,10 @@ MediaPluginDecoder
 .
 h
 \
+MediaPluginReader
+.
+h
+\
 (
 NULL
 )
