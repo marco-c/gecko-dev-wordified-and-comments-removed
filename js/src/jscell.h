@@ -100,15 +100,6 @@ cellIndex
 const
 ;
 JS_ALWAYS_INLINE
-void
-mark
-(
-uint32
-color
-)
-const
-;
-JS_ALWAYS_INLINE
 bool
 isMarked
 (
