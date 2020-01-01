@@ -41,6 +41,12 @@ regress
 383902
 .
 js
+script
+regress
+-
+469758
+.
+js
 require
 -
 or
