@@ -224,9 +224,9 @@ num_audio_channels
 1
 )
 ?
-kResamplerSynchronous
+kResamplerFixedSynchronous
 :
-kResamplerSynchronousStereo
+kResamplerFixedSynchronousStereo
 ;
 ret
 =

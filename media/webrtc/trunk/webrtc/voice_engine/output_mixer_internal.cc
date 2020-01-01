@@ -136,9 +136,9 @@ audio_ptr_num_channels
 =
 1
 ?
-kResamplerSynchronous
+kResamplerFixedSynchronous
 :
-kResamplerSynchronousStereo
+kResamplerFixedSynchronousStereo
 ;
 if
 (
