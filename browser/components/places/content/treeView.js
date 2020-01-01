@@ -3516,7 +3516,7 @@ containerOpen
 isContainerEmpty
 :
 function
-PTV_isContainerOpen
+PTV_isContainerEmpty
 (
 aRow
 )
