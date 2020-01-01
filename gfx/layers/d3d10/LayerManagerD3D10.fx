@@ -142,6 +142,10 @@ ScissorEnable
 =
 True
 ;
+CullMode
+=
+None
+;
 }
 ;
 Texture2D
