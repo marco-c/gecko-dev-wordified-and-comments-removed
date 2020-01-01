@@ -9868,9 +9868,6 @@ processLaunchTimeoutSecs
 ;
 #
 endif
-#
-ifdef
-XP_WIN
 pref
 (
 "
@@ -9887,8 +9884,6 @@ enabled
 false
 )
 ;
-#
-endif
 #
 ifndef
 ANDROID
