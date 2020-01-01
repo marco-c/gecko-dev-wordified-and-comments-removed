@@ -1451,7 +1451,7 @@ mSavingOldViewer
 PRUint32
 mAppType
 ;
-PRInt32
+PRUint32
 mChildOffset
 ;
 PRUint32

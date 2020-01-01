@@ -686,8 +686,9 @@ aEvent
 nsEventStatus
 *
 aStatus
-PRInt32
-aChildOffset
+nsIDocShellTreeItem
+*
+aBubbledFrom
 ProcessingAccessKeyState
 aAccessKeyState
 PRInt32
