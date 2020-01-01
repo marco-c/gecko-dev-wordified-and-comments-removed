@@ -18759,13 +18759,10 @@ GetSelectionRootContent
 ps
 )
 ;
-NS_ASSERTION
+NS_ENSURE_TRUE
 (
 rootContent
-"
-GetSelectionRootContent
-failed
-"
+NS_ERROR_UNEXPECTED
 )
 ;
 nsCOMPtr
