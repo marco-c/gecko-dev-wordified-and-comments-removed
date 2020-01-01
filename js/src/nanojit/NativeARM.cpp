@@ -238,15 +238,8 @@ highwatermark
 NJ_STACK_OFFSET
 ;
 uint32_t
-savingCount
-=
-0
-;
-uint32_t
 savingMask
 =
-SavedRegs
-|
 rmask
 (
 FP
@@ -257,10 +250,9 @@ rmask
 LR
 )
 ;
+uint32_t
 savingCount
 =
-NumSavedRegs
-+
 2
 ;
 uint32_t
@@ -473,7 +465,7 @@ fromfrag
 endif
 LDi
 (
-R2
+R0
 int
 (
 lr
@@ -498,8 +490,6 @@ LR
 RegisterMask
 savingMask
 =
-SavedRegs
-|
 rmask
 (
 FP
