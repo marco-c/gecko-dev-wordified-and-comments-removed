@@ -205,6 +205,10 @@ browser_privatebrowsing_windowtitle_page
 .
 html
 \
+browser_privatebrowsing_zoom
+.
+js
+\
 browser_privatebrowsing_zoomrestore
 .
 js
