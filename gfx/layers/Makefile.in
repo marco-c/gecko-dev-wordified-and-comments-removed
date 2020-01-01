@@ -606,6 +606,10 @@ DeviceManagerD3D9
 .
 cpp
 \
+Nv3DVUtils
+.
+cpp
+\
 (
 NULL
 )
