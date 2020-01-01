@@ -7925,11 +7925,6 @@ observes
 "
 tabviewGroupsNumber
 "
-keepme
-=
-"
-true
-"
 /
 >
 <
@@ -7942,11 +7937,6 @@ alltabs
 popup
 -
 separator
-"
-keepme
-=
-"
-true
 "
 /
 >
