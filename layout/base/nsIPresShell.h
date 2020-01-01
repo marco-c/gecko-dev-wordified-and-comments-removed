@@ -2297,6 +2297,16 @@ return
 mYResolution
 ;
 }
+virtual
+void
+SynthesizeMouseMove
+(
+PRBool
+aFromScroll
+)
+=
+0
+;
 protected
 :
 virtual
