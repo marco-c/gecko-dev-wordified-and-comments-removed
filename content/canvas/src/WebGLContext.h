@@ -1238,7 +1238,7 @@ mName
 void
 Set
 (
-nsIWebGLArray
+nsICanvasArray
 *
 na
 )
@@ -1714,7 +1714,7 @@ class
 WebGLFloatArray
 :
 public
-nsIWebGLFloatArray
+nsICanvasFloatArray
 public
 nsIJSNativeInitializer
 {
@@ -1737,8 +1737,8 @@ arrayLen
 )
 ;
 NS_DECL_ISUPPORTS
-NS_DECL_NSIWEBGLARRAY
-NS_DECL_NSIWEBGLFLOATARRAY
+NS_DECL_NSICANVASARRAY
+NS_DECL_NSICANVASFLOATARRAY
 static
 nsresult
 NewCanvasFloatArray
@@ -1791,7 +1791,7 @@ class
 WebGLByteArray
 :
 public
-nsIWebGLByteArray
+nsICanvasByteArray
 public
 nsIJSNativeInitializer
 {
@@ -1814,8 +1814,8 @@ arrayLen
 )
 ;
 NS_DECL_ISUPPORTS
-NS_DECL_NSIWEBGLARRAY
-NS_DECL_NSIWEBGLBYTEARRAY
+NS_DECL_NSICANVASARRAY
+NS_DECL_NSICANVASBYTEARRAY
 NS_IMETHOD
 Initialize
 (
@@ -1858,7 +1858,7 @@ class
 WebGLUnsignedByteArray
 :
 public
-nsIWebGLUnsignedByteArray
+nsICanvasUnsignedByteArray
 public
 nsIJSNativeInitializer
 {
@@ -1881,8 +1881,8 @@ arrayLen
 )
 ;
 NS_DECL_ISUPPORTS
-NS_DECL_NSIWEBGLARRAY
-NS_DECL_NSIWEBGLUNSIGNEDBYTEARRAY
+NS_DECL_NSICANVASARRAY
+NS_DECL_NSICANVASUNSIGNEDBYTEARRAY
 NS_IMETHOD
 Initialize
 (
@@ -1925,7 +1925,7 @@ class
 WebGLShortArray
 :
 public
-nsIWebGLShortArray
+nsICanvasShortArray
 public
 nsIJSNativeInitializer
 {
@@ -1948,8 +1948,8 @@ arrayLen
 )
 ;
 NS_DECL_ISUPPORTS
-NS_DECL_NSIWEBGLARRAY
-NS_DECL_NSIWEBGLSHORTARRAY
+NS_DECL_NSICANVASARRAY
+NS_DECL_NSICANVASSHORTARRAY
 NS_IMETHOD
 Initialize
 (
@@ -1992,7 +1992,7 @@ class
 WebGLUnsignedShortArray
 :
 public
-nsIWebGLUnsignedShortArray
+nsICanvasUnsignedShortArray
 public
 nsIJSNativeInitializer
 {
@@ -2015,8 +2015,8 @@ arrayLen
 )
 ;
 NS_DECL_ISUPPORTS
-NS_DECL_NSIWEBGLARRAY
-NS_DECL_NSIWEBGLUNSIGNEDSHORTARRAY
+NS_DECL_NSICANVASARRAY
+NS_DECL_NSICANVASUNSIGNEDSHORTARRAY
 NS_IMETHOD
 Initialize
 (
@@ -2059,7 +2059,7 @@ class
 WebGLIntArray
 :
 public
-nsIWebGLIntArray
+nsICanvasIntArray
 public
 nsIJSNativeInitializer
 {
@@ -2082,8 +2082,8 @@ arrayLen
 )
 ;
 NS_DECL_ISUPPORTS
-NS_DECL_NSIWEBGLARRAY
-NS_DECL_NSIWEBGLINTARRAY
+NS_DECL_NSICANVASARRAY
+NS_DECL_NSICANVASINTARRAY
 NS_IMETHOD
 Initialize
 (
@@ -2126,7 +2126,7 @@ class
 WebGLUnsignedIntArray
 :
 public
-nsIWebGLUnsignedIntArray
+nsICanvasUnsignedIntArray
 public
 nsIJSNativeInitializer
 {
@@ -2149,8 +2149,8 @@ arrayLen
 )
 ;
 NS_DECL_ISUPPORTS
-NS_DECL_NSIWEBGLARRAY
-NS_DECL_NSIWEBGLUNSIGNEDINTARRAY
+NS_DECL_NSICANVASARRAY
+NS_DECL_NSICANVASUNSIGNEDINTARRAY
 NS_IMETHOD
 Initialize
 (

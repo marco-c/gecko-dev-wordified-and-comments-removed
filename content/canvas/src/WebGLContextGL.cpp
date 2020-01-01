@@ -444,7 +444,7 @@ WebGLContext
 :
 CreateFloatArray
 (
-nsIWebGLFloatArray
+nsICanvasFloatArray
 *
 *
 retval
@@ -568,7 +568,7 @@ WebGLContext
 :
 CreateByteArray
 (
-nsIWebGLByteArray
+nsICanvasByteArray
 *
 *
 retval
@@ -692,7 +692,7 @@ WebGLContext
 :
 CreateUnsignedByteArray
 (
-nsIWebGLUnsignedByteArray
+nsICanvasUnsignedByteArray
 *
 *
 retval
@@ -816,7 +816,7 @@ WebGLContext
 :
 CreateShortArray
 (
-nsIWebGLShortArray
+nsICanvasShortArray
 *
 *
 retval
@@ -940,7 +940,7 @@ WebGLContext
 :
 CreateUnsignedShortArray
 (
-nsIWebGLUnsignedShortArray
+nsICanvasUnsignedShortArray
 *
 *
 retval
@@ -1064,7 +1064,7 @@ WebGLContext
 :
 CreateIntArray
 (
-nsIWebGLIntArray
+nsICanvasIntArray
 *
 *
 retval
@@ -1188,7 +1188,7 @@ WebGLContext
 :
 CreateUnsignedIntArray
 (
-nsIWebGLUnsignedIntArray
+nsICanvasUnsignedIntArray
 *
 *
 retval
@@ -2300,7 +2300,7 @@ BufferData
 (
 GLenum
 target
-nsIWebGLArray
+nsICanvasArray
 *
 na
 GLenum
@@ -2460,7 +2460,7 @@ GLenum
 target
 GLuint
 offset
-nsIWebGLArray
+nsICanvasArray
 *
 na
 )
@@ -7715,7 +7715,7 @@ GLenum
 target
 GLenum
 pname
-nsIWebGLArray
+nsICanvasArray
 *
 *
 retval
@@ -7906,7 +7906,7 @@ GLenum
 target
 GLenum
 pname
-nsIWebGLArray
+nsICanvasArray
 *
 *
 retval
@@ -8267,7 +8267,7 @@ nsIWebGLProgram
 program
 GLint
 location
-nsIWebGLArray
+nsICanvasArray
 *
 *
 retval
@@ -8308,7 +8308,7 @@ nsIWebGLProgram
 program
 GLint
 location
-nsIWebGLArray
+nsICanvasArray
 *
 *
 retval
@@ -8570,7 +8570,7 @@ GLuint
 index
 GLenum
 pname
-nsIWebGLArray
+nsICanvasArray
 *
 *
 retval
@@ -8732,7 +8732,7 @@ GLuint
 index
 GLenum
 pname
-nsIWebGLArray
+nsICanvasArray
 *
 *
 retval
@@ -10584,7 +10584,7 @@ name
 (
 GLint
 idx
-nsIWebGLArray
+nsICanvasArray
 *
 v
 )
@@ -11049,7 +11049,7 @@ name
 (
 GLuint
 idx
-nsIWebGLArray
+nsICanvasArray
 *
 v
 )
@@ -11510,7 +11510,7 @@ GLint
 location
 GLboolean
 transpose
-nsIWebGLArray
+nsICanvasArray
 *
 value
 )
@@ -12574,7 +12574,7 @@ nsIWebGLShader
 shader
 GLenum
 pname
-nsIWebGLIntArray
+nsICanvasIntArray
 *
 *
 retval
