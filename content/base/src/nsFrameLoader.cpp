@@ -4893,12 +4893,8 @@ if
 mOwnerContent
 -
 >
-IsNodeOfType
+IsXUL
 (
-nsINode
-:
-:
-eXUL
 )
 )
 {
