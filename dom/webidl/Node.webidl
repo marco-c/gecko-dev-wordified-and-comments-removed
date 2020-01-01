@@ -660,5 +660,16 @@ URI
 ?
 baseURIObject
 ;
+[
+ChromeOnly
+]
+sequence
+<
+MutationObserver
+>
+getBoundMutationObservers
+(
+)
+;
 }
 ;
