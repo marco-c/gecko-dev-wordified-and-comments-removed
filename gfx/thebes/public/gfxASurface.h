@@ -406,6 +406,11 @@ mSurfaceValid
 PR_FALSE
 )
 {
+MOZ_COUNT_CTOR
+(
+gfxASurface
+)
+;
 }
 static
 gfxASurface
@@ -449,6 +454,11 @@ gfxASurface
 {
 RecordMemoryFreed
 (
+)
+;
+MOZ_COUNT_DTOR
+(
+gfxASurface
 )
 ;
 }
