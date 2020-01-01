@@ -127,13 +127,6 @@ h
 #
 include
 "
-nsIPrefService
-.
-h
-"
-#
-include
-"
 nsRootAccessible
 .
 h
