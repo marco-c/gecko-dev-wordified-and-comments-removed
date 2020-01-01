@@ -1827,10 +1827,10 @@ the
 principal
 is
 in
-.
+or
+returns
 *
-Returns
-nsIAppsService
+nsIScriptSecurityManager
 :
 :
 NO_APP_ID
@@ -1843,6 +1843,7 @@ t
 part
 of
 an
+*
 app
 .
 *
