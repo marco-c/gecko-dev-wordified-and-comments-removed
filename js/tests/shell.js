@@ -141,12 +141,10 @@ BUGNUMBER
 var
 GLOBAL
 =
-"
-[
-object
-global
-]
-"
+this
++
+'
+'
 ;
 var
 PASSED
