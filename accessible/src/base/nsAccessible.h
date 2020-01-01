@@ -589,6 +589,15 @@ numChildren
 0
 ;
 }
+static
+PRBool
+IsNodeRelevant
+(
+nsIDOMNode
+*
+aNode
+)
+;
 already_AddRefed
 <
 nsIAccessible
