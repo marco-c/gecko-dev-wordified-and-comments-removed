@@ -156,9 +156,9 @@ function
 {
 return
 !
-StartUI
+BrowserUI
 .
-isStartPageVisible
+isStartTabVisible
 ;
 }
 10000
