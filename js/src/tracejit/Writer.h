@@ -629,6 +629,13 @@ accSet
 )
 {
 }
+public
+:
+Address
+(
+)
+{
+}
 }
 ;
 struct
