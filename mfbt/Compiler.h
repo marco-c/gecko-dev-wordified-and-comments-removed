@@ -153,7 +153,7 @@ patch
 elif
 defined
 (
-__LIBCPP_VERSION
+_LIBCPP_VERSION
 )
 #
 define
