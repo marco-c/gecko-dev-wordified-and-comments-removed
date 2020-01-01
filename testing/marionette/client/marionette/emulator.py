@@ -198,6 +198,11 @@ x86
 emulatorBinary
 =
 None
+res
+=
+'
+480x800
+'
 userdata
 =
 None
@@ -269,6 +274,12 @@ self
 binary
 =
 emulatorBinary
+        
+self
+.
+res
+=
+res
         
 self
 .
@@ -998,9 +1009,9 @@ verbose
 -
 skin
 '
-'
-480x800
-'
+self
+.
+res
                          
 '
 -
