@@ -103,6 +103,9 @@ mayWait
 =
 0
 ;
+PRInt32
+mSuspendNativeCount
+;
 private
 :
 PRBool
