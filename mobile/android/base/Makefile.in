@@ -141,12 +141,6 @@ UTIL_JAVA_FILES
 \
 util
 /
-ConfigurationUtils
-.
-java
-\
-util
-/
 FloatUtils
 .
 java
