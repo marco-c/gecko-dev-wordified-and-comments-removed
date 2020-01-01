@@ -5,7 +5,7 @@ test
 {
 requestLongerTimeout
 (
-10
+2
 )
 ;
 waitForExplicitFinish

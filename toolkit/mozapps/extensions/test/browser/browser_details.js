@@ -124,6 +124,11 @@ aType
 aCallback
 )
 {
+requestLongerTimeout
+(
+2
+)
+;
 gCategoryUtilities
 .
 openType
