@@ -250,6 +250,12 @@ channel
 =
 release
 "
+!
+define
+Channel
+"
+release
+"
 #
 The
 installer

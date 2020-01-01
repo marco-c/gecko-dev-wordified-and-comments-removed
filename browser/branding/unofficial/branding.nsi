@@ -224,6 +224,12 @@ channel
 =
 release
 "
+!
+define
+Channel
+"
+unofficial
+"
 #
 The
 installer

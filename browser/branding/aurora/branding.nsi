@@ -222,6 +222,12 @@ channel
 =
 aurora
 "
+!
+define
+Channel
+"
+aurora
+"
 #
 The
 installer

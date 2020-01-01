@@ -222,6 +222,12 @@ channel
 =
 nightly
 "
+!
+define
+Channel
+"
+nightly
+"
 #
 The
 installer
