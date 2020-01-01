@@ -64,13 +64,11 @@ ScopeObject
 .
 h
 "
-typedef
-struct
-BindData
-BindData
-;
 namespace
 js
+{
+namespace
+frontend
 {
 class
 ContextFlags
@@ -875,9 +873,6 @@ false
 }
 }
 ;
-namespace
-frontend
-{
 bool
 GenerateBlockId
 (

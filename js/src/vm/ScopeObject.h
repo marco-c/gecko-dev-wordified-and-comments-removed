@@ -689,11 +689,17 @@ setDefinitionParseNode
 (
 unsigned
 i
+frontend
+:
+:
 Definition
 *
 def
 )
 ;
+frontend
+:
+:
 Definition
 *
 maybeDefinitionParseNode

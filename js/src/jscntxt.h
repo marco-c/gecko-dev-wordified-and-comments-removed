@@ -3577,6 +3577,9 @@ private
 js
 :
 :
+frontend
+:
+:
 ParseMapPool
 *
 parseMapPool_
@@ -3631,6 +3634,9 @@ regExpStatics
 public
 :
 js
+:
+:
+frontend
 :
 :
 ParseMapPool

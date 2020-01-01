@@ -85,6 +85,9 @@ h
 namespace
 js
 {
+namespace
+frontend
+{
 struct
 TryNode
 {
@@ -808,9 +811,6 @@ errorNumber
 ;
 }
 ;
-namespace
-frontend
-{
 ptrdiff_t
 Emit1
 (
@@ -1517,7 +1517,6 @@ TryNoteArray
 array
 )
 ;
-}
 inline
 ptrdiff_t
 BytecodeEmitter
@@ -1746,6 +1745,7 @@ w
 &
 1
 ;
+}
 }
 }
 struct
