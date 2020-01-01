@@ -491,10 +491,6 @@ nsFont
 .
 cpp
 \
-nsFontList
-.
-cpp
-\
 nsRect
 .
 cpp

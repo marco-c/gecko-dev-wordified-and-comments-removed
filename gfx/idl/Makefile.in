@@ -425,10 +425,6 @@ nsIFontEnumerator
 .
 idl
 \
-nsIFontList
-.
-idl
-\
 nsIScriptableRegion
 .
 idl
