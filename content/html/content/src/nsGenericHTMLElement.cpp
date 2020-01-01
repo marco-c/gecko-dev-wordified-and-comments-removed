@@ -2486,7 +2486,7 @@ nsLayoutUtils
 GetAllInFlowRectsUnion
 (
 frame
-parent
+frame
 )
 ;
 aRect
