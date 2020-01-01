@@ -2476,7 +2476,7 @@ nodeIsLivemarkContainer
 aNode
 )
 )
-menuItem
+menuitem
 .
 setAttribute
 (
