@@ -6616,6 +6616,13 @@ true
 expectedView
 :
 gSubView1
+canFailRandomly
+:
+{
+possibleView
+:
+gRootView
+}
 description
 :
 "
@@ -7295,6 +7302,13 @@ false
 expectedView
 :
 gSubView1
+canFailRandomly
+:
+{
+possibleView
+:
+gRootView
+}
 description
 :
 "
