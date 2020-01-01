@@ -6980,10 +6980,6 @@ vp
 ;
 )
 ;
-+
-+
-guardCount
-;
 return
 &
 exit
