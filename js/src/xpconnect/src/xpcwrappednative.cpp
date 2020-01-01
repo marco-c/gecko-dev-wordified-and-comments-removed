@@ -14093,11 +14093,11 @@ locationStr
 =
 nsnull
 ;
+nsCOMPtr
+<
 nsIException
-*
+>
 e
-=
-nsnull
 ;
 nsXPCException
 :
@@ -14109,8 +14109,10 @@ NewException
 NS_OK
 nsnull
 nsnull
-&
+getter_AddRefs
+(
 e
+)
 )
 ;
 if
@@ -14126,8 +14128,6 @@ nsCOMPtr
 nsIStackFrame
 >
 loc
-=
-nsnull
 ;
 rv
 =
