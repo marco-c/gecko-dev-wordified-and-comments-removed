@@ -72,6 +72,9 @@ supports
 "
 #
 endif
+"
+__proto__
+"
 }
 ;
 static
