@@ -9788,6 +9788,12 @@ this
 tabs
 .
 length
+-
+this
+.
+_removingTabs
+.
+length
 :
 this
 .
