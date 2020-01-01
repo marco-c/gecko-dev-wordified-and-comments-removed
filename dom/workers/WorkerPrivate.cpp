@@ -18008,6 +18008,9 @@ AssertIsOnWorkerThread
 ;
 if
 (
+aShrinking
+|
+|
 aCollectChildren
 )
 {
