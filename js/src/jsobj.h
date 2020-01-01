@@ -3477,6 +3477,12 @@ JSDNP_SET_METHOD
 =
 4
 ;
+const
+uintN
+JSDNP_UNQUALIFIED
+=
+8
+;
 extern
 JSBool
 js_DefineNativeProperty
@@ -3880,6 +3886,8 @@ js_CheckUndeclaredVarAssignment
 JSContext
 *
 cx
+jsval
+propname
 )
 ;
 extern
