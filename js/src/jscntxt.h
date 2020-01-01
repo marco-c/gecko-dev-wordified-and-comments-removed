@@ -1091,6 +1091,10 @@ gcMaxMallocBytes
 uint32
 gcEmptyArenaPoolLifespan
 ;
+volatile
+uint32
+gcNumFreeArenas
+;
 uint32
 gcNumber
 ;
