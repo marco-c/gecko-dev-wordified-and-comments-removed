@@ -1,6 +1,13 @@
 #
 include
 "
+nsTextEditorState
+.
+h
+"
+#
+include
+"
 nsCOMPtr
 .
 h
@@ -191,13 +198,6 @@ h
 include
 "
 nsEventListenerManager
-.
-h
-"
-#
-include
-"
-nsTextEditorState
 .
 h
 "
