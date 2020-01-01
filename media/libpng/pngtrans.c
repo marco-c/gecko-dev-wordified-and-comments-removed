@@ -2900,9 +2900,8 @@ bit_depth
 png_ptr
 -
 >
-num_palette_max
+num_palette
 >
-=
 0
 )
 {
@@ -3270,7 +3269,6 @@ if
 *
 rp
 >
-=
 png_ptr
 -
 >

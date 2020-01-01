@@ -6,8 +6,8 @@ pngpriv
 h
 "
 typedef
-png_libpng_version_1_5_10
-Your_png_h_is_not_version_1_5_10
+png_libpng_version_1_5_11
+Your_png_h_is_not_version_1_5_11
 ;
 #
 ifdef
@@ -2692,10 +2692,10 @@ version
 .
 5
 .
-10
+11
 -
-March
-29
+June
+14
 2012
 "
 PNG_STRING_NEWLINE
@@ -2707,7 +2707,7 @@ c
 )
 1998
 -
-2011
+2012
 Glenn
 Randers
 -
@@ -2757,10 +2757,10 @@ version
 .
 5
 .
-10
+11
 -
-March
-29
+June
+14
 2012
 \
 Copyright
@@ -2769,7 +2769,7 @@ c
 )
 1998
 -
-2011
+2012
 Glenn
 Randers
 -
