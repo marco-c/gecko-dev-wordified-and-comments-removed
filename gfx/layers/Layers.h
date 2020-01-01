@@ -174,6 +174,9 @@ ImageContainer
 class
 CanvasLayer
 ;
+class
+SpecificLayerAttributes
+;
 #
 define
 MOZ_LAYER_DECL_NAME
@@ -586,6 +589,7 @@ TYPE_CONTAINER
 TYPE_IMAGE
 TYPE_COLOR
 TYPE_CANVAS
+TYPE_SHADOW
 }
 ;
 virtual
@@ -841,6 +845,16 @@ GetTransform
 return
 mTransform
 ;
+}
+virtual
+void
+FillSpecificAttributes
+(
+SpecificLayerAttributes
+&
+aAttrs
+)
+{
 }
 PRBool
 CanUseOpaqueSurface
