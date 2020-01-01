@@ -5228,8 +5228,7 @@ tooltip
 /
 >
 #
-ifndef
-XP_MACOSX
+endif
 <
 /
 toolbarpalette
