@@ -6340,7 +6340,7 @@ locationItem
 {
 DebuggerView
 .
-updateEditor
+setEditorLocation
 (
 locationItem
 .
@@ -7199,7 +7199,7 @@ actualLocation
 ;
 DebuggerView
 .
-updateEditor
+setEditorLocation
 (
 sourceUrl
 actualLocation
