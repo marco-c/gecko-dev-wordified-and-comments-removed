@@ -470,7 +470,7 @@ UNCACHEABLE_PROTO
 0x2000
 OBJECT_FLAG_MASK
 =
-0x3ff0
+0x3ff8
 }
 ;
 private
