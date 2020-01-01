@@ -569,7 +569,7 @@ startCheckerboardRecording
 (
 )
 ;
-int
+float
 stopCheckerboardRecording
 (
 )
