@@ -26,15 +26,6 @@ PIXMAN_PRIVATE_H
 #
 include
 "
-cairo
--
-platform
-.
-h
-"
-#
-include
-"
 pixman
 .
 h

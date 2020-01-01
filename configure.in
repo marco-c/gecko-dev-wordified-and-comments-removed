@@ -65810,6 +65810,9 @@ cairo
 >
 =
 CAIRO_VERSION
+pixman
+-
+1
 freetype2
 fontconfig
 )

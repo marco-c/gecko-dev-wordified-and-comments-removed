@@ -6,6 +6,15 @@ define
 PIXMAN_H__
 #
 include
+"
+cairo
+-
+platform
+.
+h
+"
+#
+include
 <
 pixman
 -

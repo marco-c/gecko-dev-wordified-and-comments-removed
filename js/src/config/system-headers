@@ -280,6 +280,9 @@ endif
 #
 ifdef
 WRAP_CAIRO_HEADERS
+pixman
+.
+h
 cairo
 .
 h
