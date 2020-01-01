@@ -326,6 +326,9 @@ buffer
 options
 .
 bytes
+|
+|
+undefined
 )
 ;
 let
