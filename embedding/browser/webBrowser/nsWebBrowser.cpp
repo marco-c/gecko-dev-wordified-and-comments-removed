@@ -6404,11 +6404,6 @@ nsGUIEvent
 aEvent
 )
 {
-nsEventStatus
-result
-=
-nsEventStatus_eIgnore
-;
 nsWebBrowser
 *
 browser
@@ -6430,7 +6425,7 @@ aEvent
 widget
 )
 return
-result
+nsEventStatus_eIgnore
 ;
 aEvent
 -
@@ -6449,7 +6444,7 @@ if
 data
 )
 return
-result
+nsEventStatus_eIgnore
 ;
 browser
 =
@@ -6734,7 +6729,8 @@ SetColor
 oldColor
 )
 ;
-break
+return
+nsEventStatus_eConsumeDoDefault
 ;
 }
 default
@@ -6743,7 +6739,7 @@ break
 ;
 }
 return
-result
+nsEventStatus_eIgnore
 ;
 }
 NS_IMETHODIMP
