@@ -1817,6 +1817,11 @@ removeTab
 TabContextMenu
 .
 contextTab
+{
+animate
+:
+true
+}
 )
 ;
 "
