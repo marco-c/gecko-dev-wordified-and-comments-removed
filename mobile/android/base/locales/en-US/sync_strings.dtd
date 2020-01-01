@@ -252,7 +252,7 @@ sync
 .
 subtitle
 .
-header
+header2
 .
 label
 '
@@ -261,7 +261,8 @@ this
 code
 on
 your
-computer
+other
+device
 '
 >
 <
@@ -271,7 +272,7 @@ sync
 .
 subtitle
 .
-connectlocation
+connectlocation2
 .
 label
 '
@@ -297,7 +298,13 @@ label
 section
 of
 your
-desktop
+other
+device
+\
+&
+apos
+;
+s
 Firefox
 options
 .

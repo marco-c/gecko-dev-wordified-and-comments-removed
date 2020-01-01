@@ -174,7 +174,7 @@ sync
 .
 subtitle
 .
-header
+header2
 .
 label
 ;
@@ -195,7 +195,7 @@ sync
 .
 subtitle
 .
-connectlocation
+connectlocation2
 .
 label
 ;
