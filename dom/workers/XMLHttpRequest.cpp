@@ -4570,7 +4570,6 @@ mXHR
 Send
 (
 variant
-cx
 )
 ;
 if
@@ -5708,9 +5707,9 @@ JSObject
 *
 aGlobal
 const
-Nullable
+Optional
 <
-MozXMLHttpRequestParametersWorkers
+jsval
 >
 &
 aParams

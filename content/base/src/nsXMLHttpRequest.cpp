@@ -10301,9 +10301,6 @@ const
 nsAString
 &
 aBody
-JSContext
-*
-aCx
 )
 {
 ErrorResult
@@ -10311,7 +10308,6 @@ rv
 ;
 SendAsBinary
 (
-aCx
 aBody
 rv
 )
@@ -10330,9 +10326,6 @@ nsXMLHttpRequest
 :
 SendAsBinary
 (
-JSContext
-*
-aCx
 const
 nsAString
 &
@@ -10541,7 +10534,6 @@ aRv
 Send
 (
 variant
-aCx
 )
 ;
 }
@@ -10956,9 +10948,6 @@ GetRequestBody
 nsIVariant
 *
 aBody
-JSContext
-*
-aCx
 nsIInputStream
 *
 *
@@ -11407,9 +11396,6 @@ GetRequestBody
 nsIVariant
 *
 aVariant
-JSContext
-*
-aCx
 const
 Nullable
 <
@@ -11440,7 +11426,6 @@ return
 GetRequestBody
 (
 aVariant
-aCx
 aResult
 aContentType
 aCharset
@@ -11712,15 +11697,11 @@ Send
 nsIVariant
 *
 aBody
-JSContext
-*
-aCx
 )
 {
 return
 Send
 (
-aCx
 aBody
 Nullable
 <
@@ -11737,9 +11718,6 @@ nsXMLHttpRequest
 :
 Send
 (
-JSContext
-*
-aCx
 nsIVariant
 *
 aVariant
@@ -12219,7 +12197,6 @@ rv
 GetRequestBody
 (
 aVariant
-aCx
 aBody
 getter_AddRefs
 (
