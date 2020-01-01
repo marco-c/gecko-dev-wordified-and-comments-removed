@@ -2424,14 +2424,14 @@ BINPATH
 /
 components
 /
-nsWifiWorker
+WifiWorker
 .
 js
 BINPATH
 /
 components
 /
-nsWifiWorker
+WifiWorker
 .
 manifest
 BINPATH

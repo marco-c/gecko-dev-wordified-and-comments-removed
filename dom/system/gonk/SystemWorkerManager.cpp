@@ -109,7 +109,7 @@ h
 #
 include
 "
-nsWifiWorker
+WifiWorker
 .
 h
 "

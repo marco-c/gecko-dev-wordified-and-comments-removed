@@ -7214,12 +7214,12 @@ Telephony
 js
 components
 /
-nsWifiWorker
+WifiWorker
 .
 js
 components
 /
-nsWifiWorker
+WifiWorker
 .
 manifest
 components

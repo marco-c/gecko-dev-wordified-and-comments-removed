@@ -459,11 +459,11 @@ NULL
 EXTRA_COMPONENTS
 =
 \
-nsWifiWorker
+WifiWorker
 .
 js
 \
-nsWifiWorker
+WifiWorker
 .
 manifest
 \

@@ -5793,7 +5793,7 @@ let
 netFromDOM
 ;
 function
-nsWifiWorker
+WifiWorker
 (
 )
 {
@@ -7247,7 +7247,7 @@ starting
 )
 ;
 }
-nsWifiWorker
+WifiWorker
 .
 prototype
 =
@@ -8046,7 +8046,7 @@ XPCOMUtils
 generateNSGetFactory
 (
 [
-nsWifiWorker
+WifiWorker
 ]
 )
 ;
@@ -8071,7 +8071,7 @@ dump
 -
 *
 -
-nsWifiWorker
+WifiWorker
 component
 :
 "
