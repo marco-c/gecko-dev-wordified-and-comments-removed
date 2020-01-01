@@ -2048,6 +2048,9 @@ jsterm
 complete
 -
 node
+devtools
+-
+monospace
 "
 multiline
 =
@@ -2077,6 +2080,9 @@ jsterm
 input
 -
 node
+devtools
+-
+monospace
 "
 multiline
 =

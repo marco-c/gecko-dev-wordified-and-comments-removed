@@ -33,7 +33,6 @@ fonts
 padding
 :
 0
-5px
 ;
 margin
 :
@@ -82,13 +81,7 @@ font
 padding
 :
 10px
-5px
-;
-font
--
-size
-:
-0
+10px
 ;
 }
 .
@@ -189,12 +182,6 @@ font
 -
 info
 {
-font
--
-size
-:
-1rem
-;
 display
 :
 block

@@ -3204,6 +3204,9 @@ panel
 operator
 -
 button
+devtools
+-
+monospace
 "
 command
 =
@@ -3270,6 +3273,9 @@ panel
 operator
 -
 button
+devtools
+-
+monospace
 "
 command
 =
@@ -3336,6 +3342,9 @@ panel
 operator
 -
 button
+devtools
+-
+monospace
 "
 command
 =
@@ -3402,6 +3411,9 @@ panel
 operator
 -
 button
+devtools
+-
+monospace
 "
 command
 =
@@ -3468,6 +3480,9 @@ panel
 operator
 -
 button
+devtools
+-
+monospace
 "
 command
 =
