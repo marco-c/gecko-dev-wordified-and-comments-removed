@@ -15386,6 +15386,17 @@ enabled
 1
 )
 ;
+pref
+(
+"
+ui
+.
+window_class_override
+"
+"
+"
+)
+;
 #
 WINNT
 #
