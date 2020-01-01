@@ -3028,7 +3028,7 @@ localDir
     
 p
 .
-stderr
+stdout
 .
 readline
 (
@@ -3038,7 +3038,7 @@ line
 =
 p
 .
-stderr
+stdout
 .
 readline
 (
@@ -3166,7 +3166,7 @@ line
 =
 p
 .
-stderr
+stdout
 .
 readline
 (
