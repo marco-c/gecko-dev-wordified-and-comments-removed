@@ -339,6 +339,10 @@ HTMLTableElement
 .
 webidl
 \
+HTMLTableSectionElement
+.
+webidl
+\
 HTMLTitleElement
 .
 webidl

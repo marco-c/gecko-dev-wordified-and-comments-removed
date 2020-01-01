@@ -316,7 +316,7 @@ nsIDOMHTMLTableRowElement
 .
 idl
 \
-nsIDOMHTMLTableSectionElem
+nsIDOMHTMLTableSectionElement
 .
 idl
 \

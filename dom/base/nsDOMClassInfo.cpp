@@ -1501,7 +1501,7 @@ h
 #
 include
 "
-nsIDOMHTMLTableSectionElem
+nsIDOMHTMLTableSectionElement
 .
 h
 "
