@@ -548,7 +548,7 @@ aSize
 NS_OVERRIDE
 virtual
 bool
-UseAsyncPainting
+IsOOP
 (
 )
 {
