@@ -593,6 +593,14 @@ plugin
 /
 hc
 \
+media
+/
+omx
+-
+plugin
+/
+sony
+\
 (
 NULL
 )
