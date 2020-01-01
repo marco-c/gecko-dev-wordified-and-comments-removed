@@ -467,6 +467,10 @@ test_menulist_keynav
 .
 xul
 \
+test_menulist_null_value
+.
+xul
+\
 test_popup_coords
 .
 xul
