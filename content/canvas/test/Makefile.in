@@ -689,6 +689,10 @@ test_windingRuleUndefined
 .
 html
 \
+test_strokeText_throw
+.
+html
+\
 (
 NULL
 )
