@@ -3513,6 +3513,8 @@ lineno
 JSString
 *
 source
+unsigned
+staticLevel
 )
 {
 JSCompiler
@@ -3571,8 +3573,6 @@ tcflags
 TCF_COMPILE_N_GO
 |
 TCF_NO_SCRIPT_RVAL
-|
-TCF_STATIC_LEVEL_MASK
 )
 )
 )
@@ -3587,10 +3587,7 @@ TCF_COMPILE_N_GO
 ;
 JS_ASSERT_IF
 (
-TCF_GET_STATIC_LEVEL
-(
-tcflags
-)
+staticLevel
 !
 =
 0
@@ -3702,10 +3699,7 @@ SetStaticLevel
 (
 &
 cg
-TCF_GET_STATIC_LEVEL
-(
-tcflags
-)
+staticLevel
 )
 )
 goto
