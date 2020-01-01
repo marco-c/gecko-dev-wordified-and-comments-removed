@@ -851,7 +851,7 @@ referenced
 JS_SET_TRACING_DETAILS
 (
 trc
-PrintTraceName
+GetTraceName
 this
 0
 )
@@ -866,14 +866,11 @@ JSTRACE_OBJECT
 )
 ;
 }
-#
-ifdef
-DEBUG
 void
 nsXPCWrappedJS
 :
 :
-PrintTraceName
+GetTraceName
 (
 JSTracer
 *
@@ -942,8 +939,6 @@ mXPTCStub
 )
 ;
 }
-#
-endif
 NS_IMETHODIMP
 nsXPCWrappedJS
 :

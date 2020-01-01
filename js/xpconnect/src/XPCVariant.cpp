@@ -268,7 +268,7 @@ traceable
 JS_SET_TRACING_DETAILS
 (
 trc
-PrintTraceName
+GetTraceName
 this
 0
 )
@@ -287,14 +287,11 @@ val
 )
 ;
 }
-#
-ifdef
-DEBUG
 void
 XPCTraceableVariant
 :
 :
-PrintTraceName
+GetTraceName
 (
 JSTracer
 *
@@ -327,8 +324,6 @@ debugPrintArg
 )
 ;
 }
-#
-endif
 NS_IMPL_CYCLE_COLLECTION_TRAVERSE_BEGIN
 (
 XPCVariant

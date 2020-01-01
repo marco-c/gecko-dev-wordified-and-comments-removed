@@ -29147,11 +29147,8 @@ return
 obj
 ;
 }
-#
-ifdef
-DEBUG
 void
-js_PrintObjectSlotName
+js_GetObjectSlotName
 (
 JSTracer
 *
@@ -29171,7 +29168,7 @@ trc
 debugPrinter
 =
 =
-js_PrintObjectSlotName
+js_GetObjectSlotName
 )
 ;
 JSObject
@@ -29453,8 +29450,6 @@ KEY
 }
 }
 }
-#
-endif
 static
 const
 Shape

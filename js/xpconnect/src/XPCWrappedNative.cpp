@@ -17348,7 +17348,7 @@ trc
 JS_SET_TRACING_DETAILS
 (
 trc
-PrintTraceName
+GetTraceName
 this
 0
 )
@@ -17361,14 +17361,11 @@ JSTRACE_OBJECT
 )
 ;
 }
-#
-ifdef
-DEBUG
 void
 XPCJSObjectHolder
 :
 :
-PrintTraceName
+GetTraceName
 (
 JSTracer
 *
@@ -17401,8 +17398,6 @@ debugPrintArg
 )
 ;
 }
-#
-endif
 XPCJSObjectHolder
 *
 XPCJSObjectHolder
