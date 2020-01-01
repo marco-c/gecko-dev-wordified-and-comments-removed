@@ -5910,7 +5910,7 @@ mSpecifiedTransform
 nsStyleCoord
 mTransformOrigin
 [
-2
+3
 ]
 ;
 nsStyleCoord
