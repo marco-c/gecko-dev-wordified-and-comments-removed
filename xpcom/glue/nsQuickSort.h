@@ -7,6 +7,13 @@ nsQuickSort_h___
 #
 include
 "
+prtypes
+.
+h
+"
+#
+include
+"
 nscore
 .
 h

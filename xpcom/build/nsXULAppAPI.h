@@ -7,6 +7,13 @@ _nsXULAppAPI_h__
 #
 include
 "
+prtypes
+.
+h
+"
+#
+include
+"
 nsID
 .
 h
