@@ -31136,7 +31136,8 @@ JS_EncodeString
 JSContext
 *
 cx
-JSRawString
+JSString
+*
 str
 )
 {
@@ -31197,7 +31198,8 @@ JS_EncodeStringToUTF8
 JSContext
 *
 cx
-JSRawString
+JSString
+*
 str
 )
 {
