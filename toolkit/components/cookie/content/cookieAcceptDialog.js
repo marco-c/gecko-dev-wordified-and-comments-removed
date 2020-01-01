@@ -1721,7 +1721,7 @@ cookieBundle
 getString
 (
 "
-atEndOfSession
+expireAtEndOfSession
 "
 )
 ;
