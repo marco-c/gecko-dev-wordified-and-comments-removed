@@ -1836,6 +1836,16 @@ return
 mCompatMode
 ;
 }
+PRBool
+HaveFiredDOMTitleChange
+(
+)
+const
+{
+return
+mHaveFiredTitleChange
+;
+}
 virtual
 nsresult
 GetXBLChildNodesFor
@@ -2143,6 +2153,9 @@ mLoadedAsData
 ;
 PRPackedBool
 mMayStartLayout
+;
+PRPackedBool
+mHaveFiredTitleChange
 ;
 PRUint32
 mBidiOptions
