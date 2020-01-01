@@ -6190,6 +6190,13 @@ status
 =
 =
 nsEventStatus_eConsumeNoDefault
+|
+|
+event
+.
+mFlags
+.
+mMultipleActionsPrevented
 )
 ;
 }
