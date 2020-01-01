@@ -505,6 +505,7 @@ uintptr_t
 (
 winMainThreadHandle
 )
+nullptr
 )
 ;
 ret

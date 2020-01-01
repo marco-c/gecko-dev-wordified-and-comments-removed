@@ -485,6 +485,7 @@ void
 rawStack
 )
 0
+nullptr
 )
 ;
 Telemetry

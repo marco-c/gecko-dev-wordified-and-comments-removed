@@ -63,6 +63,9 @@ void
 aClosure
 uintptr_t
 aThread
+void
+*
+aPlatformData
 )
 ;
 typedef
