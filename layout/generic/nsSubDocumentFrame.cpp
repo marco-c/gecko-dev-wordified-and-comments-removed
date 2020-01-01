@@ -1391,12 +1391,6 @@ ReferenceFrame
 if
 (
 subdocRootFrame
-&
-&
-NS_SUCCEEDED
-(
-rv
-)
 )
 {
 rv
@@ -1518,14 +1512,6 @@ flags
 ;
 }
 }
-if
-(
-NS_SUCCEEDED
-(
-rv
-)
-)
-{
 bool
 addedLayer
 =
@@ -1696,7 +1682,6 @@ AppendToTop
 childItems
 )
 ;
-}
 }
 childItems
 .
