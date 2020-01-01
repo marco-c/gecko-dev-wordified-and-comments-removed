@@ -27271,7 +27271,7 @@ aScriptObjectHolder
 callback
 )
 ;
-NS_ASSERTION
+MOZ_ASSERT
 (
 callback
 .
@@ -27315,7 +27315,7 @@ DebugWrapperTraceCallback
 callback
 )
 ;
-NS_ASSERTION
+MOZ_ASSERT
 (
 callback
 .
