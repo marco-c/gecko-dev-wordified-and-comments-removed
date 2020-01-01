@@ -886,7 +886,7 @@ iter
 )
 ;
 bool
-initCallObject
+initFunctionScopeObjects
 (
 JSContext
 *

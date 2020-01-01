@@ -7316,7 +7316,7 @@ JS_ION_BAILOUT
 if
 (
 !
-EnsureHasCallObject
+EnsureHasScopeObjects
 (
 cx
 cx
