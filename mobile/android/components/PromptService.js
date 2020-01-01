@@ -702,6 +702,12 @@ value
 }
 )
 ;
+if
+(
+this
+.
+_domWin
+)
 PromptUtils
 .
 fireDialogEvent
