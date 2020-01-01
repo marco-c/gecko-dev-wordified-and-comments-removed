@@ -314,6 +314,11 @@ surfaceView
 ;
 public
 static
+SurfaceView
+cameraView
+;
+public
+static
 GeckoApp
 mAppContext
 ;
