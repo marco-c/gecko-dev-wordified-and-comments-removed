@@ -1484,9 +1484,8 @@ name
 bool
 jsop_delprop
 (
-JSAtom
-*
-atom
+HandlePropertyName
+name
 )
 ;
 bool
