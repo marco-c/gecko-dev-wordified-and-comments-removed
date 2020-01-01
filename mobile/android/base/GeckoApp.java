@@ -11150,6 +11150,12 @@ rec
 =
 mHealthRecorder
 ;
+final
+Context
+context
+=
+this
+;
 ThreadUtils
 .
 postToBackgroundThread
@@ -11219,6 +11225,13 @@ editor
 .
 commit
 (
+)
+;
+GeckoPreferences
+.
+broadcastHealthReportPrune
+(
+context
 )
 ;
 }
