@@ -251,12 +251,6 @@ EndConstruction
 )
 ;
 virtual
-bool
-EndEmptyTransaction
-(
-)
-;
-virtual
 void
 EndTransaction
 (
