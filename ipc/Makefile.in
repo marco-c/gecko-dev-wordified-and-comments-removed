@@ -415,10 +415,6 @@ config
 autoconf
 .
 mk
-DIRS
-+
-=
-testshell
 TOOL_DIRS
 =
 app
