@@ -2397,6 +2397,9 @@ FrameAt
 )
 )
 ;
+delete
+aBandRect
+;
 return
 ;
 }
