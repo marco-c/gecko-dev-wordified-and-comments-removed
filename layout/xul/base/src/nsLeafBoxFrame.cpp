@@ -361,7 +361,7 @@ break
 }
 }
 }
-NS_IMETHODIMP
+void
 nsLeafBoxFrame
 :
 :
@@ -404,7 +404,6 @@ aBuilder
 )
 )
 return
-NS_OK
 ;
 aLists
 .
@@ -425,9 +424,6 @@ aBuilder
 this
 )
 )
-;
-return
-NS_OK
 ;
 }
 nscoord

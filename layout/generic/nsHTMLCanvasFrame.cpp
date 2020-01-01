@@ -1403,7 +1403,7 @@ forget
 )
 ;
 }
-NS_IMETHODIMP
+void
 nsHTMLCanvasFrame
 :
 :
@@ -1431,7 +1431,6 @@ aBuilder
 )
 )
 return
-NS_OK
 ;
 DisplayBorderBackgroundOutline
 (
@@ -1475,9 +1474,6 @@ aBuilder
 replacedContent
 aLists
 )
-;
-return
-NS_OK
 ;
 }
 nsIAtom

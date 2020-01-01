@@ -274,7 +274,8 @@ aDestructRoot
 )
 MOZ_OVERRIDE
 ;
-NS_IMETHOD
+virtual
+void
 BuildDisplayListForChildren
 (
 nsDisplayListBuilder
@@ -291,7 +292,8 @@ aLists
 )
 MOZ_OVERRIDE
 ;
-NS_IMETHOD
+virtual
+void
 BuildDisplayList
 (
 nsDisplayListBuilder

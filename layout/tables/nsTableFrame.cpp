@@ -5245,7 +5245,7 @@ aItem2
 )
 ;
 }
-nsresult
+void
 nsTableFrame
 :
 :
@@ -5304,11 +5304,8 @@ GetNextSibling
 )
 ;
 }
-return
-NS_OK
-;
 }
-nsresult
+void
 nsTableFrame
 :
 :
@@ -5562,9 +5559,6 @@ aBuilder
 aLists
 )
 ;
-return
-NS_OK
-;
 }
 #
 ifdef
@@ -5744,7 +5738,7 @@ return
 false
 ;
 }
-NS_IMETHODIMP
+void
 nsTableFrame
 :
 :
@@ -5905,9 +5899,6 @@ aDirtyRect
 aLists
 item
 )
-;
-return
-NS_OK
 ;
 }
 nsMargin

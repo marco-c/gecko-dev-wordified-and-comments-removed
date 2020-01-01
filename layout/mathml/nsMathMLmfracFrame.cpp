@@ -414,7 +414,7 @@ return
 lineThickness
 ;
 }
-NS_IMETHODIMP
+void
 nsMathMLmfracFrame
 :
 :
@@ -433,9 +433,6 @@ nsDisplayListSet
 aLists
 )
 {
-nsresult
-rv
-=
 nsMathMLContainerFrame
 :
 :
@@ -446,19 +443,11 @@ aDirtyRect
 aLists
 )
 ;
-NS_ENSURE_SUCCESS
-(
-rv
-rv
-)
-;
 if
 (
 mIsBevelled
 )
 {
-rv
-=
 DisplaySlash
 (
 aBuilder
@@ -471,8 +460,6 @@ aLists
 }
 else
 {
-rv
-=
 DisplayBar
 (
 aBuilder
@@ -482,9 +469,6 @@ aLists
 )
 ;
 }
-return
-rv
-;
 }
 nsresult
 nsMathMLmfracFrame
@@ -2466,7 +2450,7 @@ Fill
 )
 ;
 }
-nsresult
+void
 nsMathMLmfracFrame
 :
 :
@@ -2513,9 +2497,7 @@ IsEmpty
 )
 )
 return
-NS_OK
 ;
-return
 aLists
 .
 Content

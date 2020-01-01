@@ -207,7 +207,7 @@ aChildList
 )
 ;
 }
-NS_IMETHODIMP
+void
 ViewportFrame
 :
 :
@@ -252,7 +252,6 @@ if
 kid
 )
 return
-NS_OK
 ;
 BuildDisplayListForChild
 (
@@ -261,9 +260,6 @@ kid
 aDirtyRect
 aLists
 )
-;
-return
-NS_OK
 ;
 }
 NS_IMETHODIMP

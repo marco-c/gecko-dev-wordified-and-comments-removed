@@ -133,7 +133,7 @@ layout
 )
 ;
 }
-NS_IMETHODIMP
+void
 nsStackFrame
 :
 :
@@ -188,9 +188,6 @@ while
 kid
 )
 {
-nsresult
-rv
-=
 BuildDisplayListForChild
 (
 aBuilder
@@ -198,12 +195,6 @@ kid
 aDirtyRect
 kidLists
 DISPLAY_CHILD_FORCE_STACKING_CONTEXT
-)
-;
-NS_ENSURE_SUCCESS
-(
-rv
-rv
 )
 ;
 kid
@@ -216,7 +207,4 @@ GetNextSibling
 )
 ;
 }
-return
-NS_OK
-;
 }

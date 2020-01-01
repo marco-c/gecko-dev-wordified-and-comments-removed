@@ -3533,7 +3533,7 @@ return
 0
 ;
 }
-NS_IMETHODIMP
+void
 nsFlexContainerFrame
 :
 :
@@ -3640,9 +3640,6 @@ get
 )
 ;
 }
-return
-NS_OK
-;
 }
 #
 ifdef

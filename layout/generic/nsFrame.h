@@ -1768,7 +1768,7 @@ ShutdownLayerActivityTimer
 (
 )
 ;
-nsresult
+void
 DisplayBackgroundUnconditional
 (
 nsDisplayListBuilder
@@ -1786,7 +1786,7 @@ nsDisplayBackgroundImage
 aBackground
 )
 ;
-nsresult
+void
 DisplayBorderBackgroundOutline
 (
 nsDisplayListBuilder
@@ -1802,7 +1802,7 @@ aForceBackground
 false
 )
 ;
-nsresult
+void
 DisplayOutlineUnconditional
 (
 nsDisplayListBuilder
@@ -1814,7 +1814,7 @@ nsDisplayListSet
 aLists
 )
 ;
-nsresult
+void
 DisplayOutline
 (
 nsDisplayListBuilder
@@ -1854,7 +1854,7 @@ nsFrame
 (
 )
 ;
-nsresult
+void
 DisplaySelectionOverlay
 (
 nsDisplayListBuilder

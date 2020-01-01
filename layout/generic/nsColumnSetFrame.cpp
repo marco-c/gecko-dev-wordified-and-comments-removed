@@ -251,7 +251,8 @@ true
 )
 ;
 }
-NS_IMETHOD
+virtual
+void
 BuildDisplayList
 (
 nsDisplayListBuilder
@@ -266,6 +267,7 @@ nsDisplayListSet
 &
 aLists
 )
+MOZ_OVERRIDE
 ;
 virtual
 nsIAtom
@@ -4643,7 +4645,7 @@ return
 NS_OK
 ;
 }
-NS_IMETHODIMP
+void
 nsColumnSetFrame
 :
 :
@@ -4736,9 +4738,6 @@ aLists
 )
 ;
 }
-return
-NS_OK
-;
 }
 NS_IMETHODIMP
 nsColumnSetFrame
