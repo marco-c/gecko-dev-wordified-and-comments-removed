@@ -1551,6 +1551,12 @@ STRIP
 gonk_toolchain_prefix
 "
 strip
+OBJCOPY
+=
+"
+gonk_toolchain_prefix
+"
+objcopy
 STLPORT_CPPFLAGS
 =
 "
