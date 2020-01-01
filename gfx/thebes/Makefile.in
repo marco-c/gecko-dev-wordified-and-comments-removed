@@ -31,9 +31,12 @@ DIRS
 =
 public
 src
-mochitest
 ifdef
 ENABLE_TESTS
+DIRS
++
+=
+mochitest
 ifndef
 MOZ_ENABLE_LIBXUL
 ifndef
