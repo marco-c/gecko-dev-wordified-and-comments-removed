@@ -131,14 +131,12 @@ nsPresContext
 aPresContext
 )
 ;
-nsresult
-GetPresShell
-(
 nsIPresShell
 *
-*
-aPresShell
+GetPresShell
+(
 )
+const
 ;
 nsIFrame
 *
@@ -801,9 +799,6 @@ nsRefPtr
 nsFrameSelection
 >
 mFrameSelection
-;
-nsWeakPtr
-mPresShellWeak
 ;
 nsRefPtr
 <
