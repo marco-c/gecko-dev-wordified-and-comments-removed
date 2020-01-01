@@ -169,11 +169,11 @@ RectF
 rect
 )
 {
-StringBuffer
+StringBuilder
 sb
 =
 new
-StringBuffer
+StringBuilder
 (
 256
 )

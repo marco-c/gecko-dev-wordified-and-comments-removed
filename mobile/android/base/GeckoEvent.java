@@ -3050,11 +3050,11 @@ Viewport
 Change
 "
 ;
-StringBuffer
+StringBuilder
 sb
 =
 new
-StringBuffer
+StringBuilder
 (
 256
 )

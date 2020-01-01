@@ -378,11 +378,11 @@ MOZ_PLUGIN_PATH
 return
 ;
 }
-StringBuffer
+StringBuilder
 pluginSearchPath
 =
 new
-StringBuffer
+StringBuilder
 (
 )
 ;

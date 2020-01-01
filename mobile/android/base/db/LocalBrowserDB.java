@@ -4201,11 +4201,11 @@ String
 urls
 )
 {
-StringBuffer
+StringBuilder
 selection
 =
 new
-StringBuffer
+StringBuilder
 (
 )
 ;
@@ -4698,11 +4698,11 @@ String
 urls
 )
 {
-StringBuffer
+StringBuilder
 selection
 =
 new
-StringBuffer
+StringBuilder
 (
 )
 ;

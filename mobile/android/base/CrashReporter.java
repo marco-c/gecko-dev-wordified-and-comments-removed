@@ -1887,11 +1887,11 @@ D
 }
 )
 ;
-StringBuffer
+StringBuilder
 sb
 =
 new
-StringBuffer
+StringBuilder
 (
 )
 ;
@@ -2275,11 +2275,11 @@ key
 ;
 }
 }
-StringBuffer
+StringBuilder
 sb
 =
 new
-StringBuffer
+StringBuilder
 (
 )
 ;

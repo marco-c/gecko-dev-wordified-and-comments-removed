@@ -867,11 +867,11 @@ toString
 (
 )
 {
-StringBuffer
+StringBuilder
 sbuf
 =
 new
-StringBuffer
+StringBuilder
 (
 )
 ;

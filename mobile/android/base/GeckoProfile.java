@@ -1113,11 +1113,11 @@ target
 ;
 try
 {
-StringBuffer
+StringBuilder
 sb
 =
 new
-StringBuffer
+StringBuilder
 (
 )
 ;
@@ -1751,11 +1751,11 @@ allowedChars
 abcdefghijklmnopqrstuvwxyz0123456789
 "
 ;
-StringBuffer
+StringBuilder
 salt
 =
 new
-StringBuffer
+StringBuilder
 (
 16
 )
