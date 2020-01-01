@@ -2991,12 +2991,6 @@ sourceMap
 CharBuffer
 tokenbuf
 ;
-int8_t
-oneCharTokens
-[
-128
-]
-;
 bool
 maybeEOL
 [
