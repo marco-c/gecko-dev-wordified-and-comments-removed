@@ -65,7 +65,7 @@ nsMimeTypeArray
 ;
 NS_DECL_ISUPPORTS
 NS_DECL_NSIDOMMIMETYPEARRAY
-nsresult
+void
 Refresh
 (
 )
