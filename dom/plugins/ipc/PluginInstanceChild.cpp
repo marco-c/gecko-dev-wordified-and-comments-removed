@@ -17021,6 +17021,11 @@ AssertPluginThread
 (
 )
 ;
+*
+aResult
+=
+NPERR_NO_ERROR
+;
 #
 if
 defined
