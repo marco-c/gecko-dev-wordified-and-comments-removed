@@ -534,10 +534,6 @@ nsIDOMNotifyPaintEvent
 .
 idl
 \
-nsIDOMNotifyAudioAvailableEvent
-.
-idl
-\
 nsIDOMPaintRequest
 .
 idl

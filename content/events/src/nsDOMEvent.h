@@ -219,7 +219,6 @@ eDOMEvents_ended
 eDOMEvents_ratechange
 eDOMEvents_durationchange
 eDOMEvents_volumechange
-eDOMEvents_mozaudioavailable
 #
 endif
 eDOMEvents_afterpaint

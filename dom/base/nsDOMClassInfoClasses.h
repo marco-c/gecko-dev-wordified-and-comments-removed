@@ -1267,10 +1267,6 @@ NotifyPaintEvent
 )
 DOMCI_CLASS
 (
-NotifyAudioAvailableEvent
-)
-DOMCI_CLASS
-(
 SimpleGestureEvent
 )
 DOMCI_CLASS

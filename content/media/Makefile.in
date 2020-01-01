@@ -457,10 +457,6 @@ VideoUtils
 .
 h
 \
-nsAudioAvailableEventManager
-.
-h
-\
 (
 NULL
 )
@@ -492,10 +488,6 @@ nsBuiltinDecoderReader
 cpp
 \
 VideoUtils
-.
-cpp
-\
-nsAudioAvailableEventManager
 .
 cpp
 \
