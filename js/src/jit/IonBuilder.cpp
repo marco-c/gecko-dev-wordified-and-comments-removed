@@ -15438,6 +15438,7 @@ disabled
 ;
 JS_ASSERT
 (
+!
 script
 (
 )
