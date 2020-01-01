@@ -808,6 +808,13 @@ BINPATH
 /
 components
 /
+dom_network
+.
+xpt
+BINPATH
+/
+components
+/
 dom_notification
 .
 xpt

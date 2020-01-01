@@ -787,6 +787,13 @@ BINPATH
 /
 components
 /
+dom_network
+.
+xpt
+BINPATH
+/
+components
+/
 dom_notification
 .
 xpt
@@ -3203,9 +3210,6 @@ components
 dom_svg
 .
 xpt
-#
-ifdef
-MOZ_SMIL
 BINPATH
 /
 components
@@ -3213,8 +3217,6 @@ components
 dom_smil
 .
 xpt
-#
-endif
 ;
 [
 Personal

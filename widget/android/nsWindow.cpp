@@ -3488,7 +3488,6 @@ NULL
 ;
 if
 (
-!
 buffer
 -
 >
@@ -3501,6 +3500,9 @@ UsageSoftwareWrite
 &
 bits
 )
+!
+=
+0
 |
 |
 !
@@ -3535,13 +3537,15 @@ cleanup
 }
 if
 (
-!
 buffer
 -
 >
 Unlock
 (
 )
+!
+=
+0
 )
 {
 ALOG

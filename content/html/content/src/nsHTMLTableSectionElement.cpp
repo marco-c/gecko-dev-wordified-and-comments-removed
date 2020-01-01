@@ -566,6 +566,12 @@ retChild
 )
 )
 ;
+NS_ENSURE_SUCCESS
+(
+rv
+rv
+)
+;
 }
 else
 {
@@ -578,6 +584,12 @@ getter_AddRefs
 (
 retChild
 )
+)
+;
+NS_ENSURE_SUCCESS
+(
+rv
+rv
 )
 ;
 }

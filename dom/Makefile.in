@@ -519,6 +519,8 @@ src
 \
 locales
 \
+network
+\
 plugins
 /
 base

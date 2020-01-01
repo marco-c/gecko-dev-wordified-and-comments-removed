@@ -4388,7 +4388,7 @@ JSFrameReg
 StackFrame
 :
 :
-offsetOfArgs
+offsetOfNumActual
 (
 )
 )
@@ -25714,7 +25714,7 @@ JSFrameReg
 StackFrame
 :
 :
-offsetOfArgs
+offsetOfNumActual
 (
 )
 )
@@ -28888,6 +28888,13 @@ lhs
 #
 ifdef
 JSGC_INCREMENTAL_MJ
+frame
+.
+pinReg
+(
+reg
+)
+;
 if
 (
 cx
@@ -28910,13 +28917,6 @@ cx
 )
 )
 {
-frame
-.
-pinReg
-(
-reg
-)
-;
 Jump
 j
 =
@@ -28996,6 +28996,7 @@ Changes
 )
 )
 ;
+}
 frame
 .
 unpinReg
@@ -29003,7 +29004,6 @@ unpinReg
 reg
 )
 ;
-}
 #
 endif
 if

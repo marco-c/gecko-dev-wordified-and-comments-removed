@@ -535,6 +535,10 @@ browser_inspector_duplicate_ruleview
 .
 js
 \
+head
+.
+js
+\
 (
 NULL
 )
