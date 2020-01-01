@@ -25681,6 +25681,9 @@ GetIntValue
 )
 )
 {
+delete
+listHead
+;
 return
 PR_FALSE
 ;
