@@ -333,3 +333,16 @@ return
 NS_OK
 ;
 }
+NS_IMETHODIMP
+QTMLocationProvider
+:
+:
+SetHighAccuracy
+(
+bool
+)
+{
+return
+NS_OK
+;
+}
