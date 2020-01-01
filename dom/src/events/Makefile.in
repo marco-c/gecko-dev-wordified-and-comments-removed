@@ -109,3 +109,17 @@ topsrcdir
 dom
 /
 base
+INCLUDES
++
+=
+-
+I
+(
+topsrcdir
+)
+/
+content
+/
+base
+/
+src
