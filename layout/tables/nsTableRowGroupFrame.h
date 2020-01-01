@@ -14,7 +14,7 @@ h
 #
 include
 "
-nsHTMLContainerFrame
+nsContainerFrame
 .
 h
 "
@@ -158,7 +158,7 @@ class
 nsTableRowGroupFrame
 :
 public
-nsHTMLContainerFrame
+nsContainerFrame
 public
 nsILineIterator
 {

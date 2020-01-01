@@ -208,7 +208,7 @@ nsStyleContext
 aContext
 )
 :
-nsHTMLContainerFrame
+nsContainerFrame
 (
 aContext
 )
@@ -320,7 +320,7 @@ aPrevInFlow
 nsresult
 rv
 =
-nsHTMLContainerFrame
+nsContainerFrame
 :
 :
 Init
@@ -3221,7 +3221,7 @@ aRenderingContext
 IntrinsicWidthOffsetData
 result
 =
-nsHTMLContainerFrame
+nsContainerFrame
 :
 :
 IntrinsicWidthOffsets
@@ -4313,7 +4313,7 @@ nsIPercentHeightObserver
 )
 NS_QUERYFRAME_TAIL_INHERITING
 (
-nsHTMLContainerFrame
+nsContainerFrame
 )
 #
 ifdef

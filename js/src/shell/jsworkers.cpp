@@ -100,8 +100,6 @@ AllocPolicy
 class
 Queue
 {
-private
-:
 typedef
 Vector
 <
@@ -131,6 +129,7 @@ const
 Queue
 &
 )
+MOZ_DELETE
 ;
 Queue
 &
@@ -141,6 +140,7 @@ const
 Queue
 &
 )
+MOZ_DELETE
 ;
 public
 :

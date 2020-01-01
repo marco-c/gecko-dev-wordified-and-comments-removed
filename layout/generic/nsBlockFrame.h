@@ -7,7 +7,7 @@ nsBlockFrame_h___
 #
 include
 "
-nsHTMLContainerFrame
+nsContainerFrame
 .
 h
 "
@@ -127,7 +127,7 @@ NS_FRAME_STATE_BIT
 #
 define
 nsBlockFrameSuper
-nsHTMLContainerFrame
+nsContainerFrame
 class
 nsBlockFrame
 :
@@ -862,7 +862,7 @@ nsStyleContext
 aContext
 )
 :
-nsHTMLContainerFrame
+nsContainerFrame
 (
 aContext
 )

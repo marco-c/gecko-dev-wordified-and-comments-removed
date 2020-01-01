@@ -1845,7 +1845,11 @@ new_ld_lib_path
 .
 Assign
 (
-ld_library_path
+path
+.
+get
+(
+)
 )
 ;
 new_ld_lib_path
@@ -1861,11 +1865,7 @@ new_ld_lib_path
 .
 Append
 (
-path
-.
-get
-(
-)
+ld_library_path
 )
 ;
 newEnvVars

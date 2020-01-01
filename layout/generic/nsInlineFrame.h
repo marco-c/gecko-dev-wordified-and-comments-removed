@@ -7,7 +7,7 @@ nsInlineFrame_h___
 #
 include
 "
-nsHTMLContainerFrame
+nsContainerFrame
 .
 h
 "
@@ -18,13 +18,6 @@ nsLineLayout
 .
 h
 "
-class
-nsAnonymousBlockFrame
-;
-#
-define
-nsInlineFrameSuper
-nsHTMLContainerFrame
 #
 define
 NS_INLINE_FRAME_BIDI_VISUAL_STATE_IS_SET
@@ -50,7 +43,7 @@ class
 nsInlineFrame
 :
 public
-nsInlineFrameSuper
+nsContainerFrame
 {
 public
 :
@@ -135,7 +128,7 @@ aFlags
 const
 {
 return
-nsInlineFrameSuper
+nsContainerFrame
 :
 :
 IsFrameOfType
@@ -410,7 +403,7 @@ nsStyleContext
 aContext
 )
 :
-nsInlineFrameSuper
+nsContainerFrame
 (
 aContext
 )

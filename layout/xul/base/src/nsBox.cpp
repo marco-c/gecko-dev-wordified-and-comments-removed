@@ -43,7 +43,7 @@ h
 #
 include
 "
-nsHTMLContainerFrame
+nsContainerFrame
 .
 h
 "
@@ -2404,7 +2404,7 @@ if
 view
 )
 {
-nsHTMLContainerFrame
+nsContainerFrame
 :
 :
 SyncFrameViewAfterReflow

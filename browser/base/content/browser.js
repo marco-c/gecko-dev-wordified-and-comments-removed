@@ -8620,6 +8620,12 @@ true
 willRecoverSession
 )
 {
+setTimeout
+(
+function
+(
+)
+{
 var
 brandBundle
 =
@@ -8756,6 +8762,10 @@ shouldCheckDefaultBrowser
 checkEveryTime
 .
 value
+;
+}
+0
+)
 ;
 }
 }

@@ -14,7 +14,7 @@ h
 #
 include
 "
-nsHTMLContainerFrame
+nsContainerFrame
 .
 h
 "
@@ -53,7 +53,7 @@ class
 nsTableColGroupFrame
 :
 public
-nsHTMLContainerFrame
+nsContainerFrame
 {
 public
 :
@@ -372,7 +372,7 @@ nsStyleContext
 aContext
 )
 :
-nsHTMLContainerFrame
+nsContainerFrame
 (
 aContext
 )

@@ -205,7 +205,7 @@ table
 )
 ;
 return
-nsHTMLContainerFrame
+nsContainerFrame
 :
 :
 GetBaseline
@@ -609,7 +609,7 @@ nsStyleContext
 aContext
 )
 :
-nsHTMLContainerFrame
+nsContainerFrame
 (
 aContext
 )
@@ -634,7 +634,7 @@ nsITableLayout
 )
 NS_QUERYFRAME_TAIL_INHERITING
 (
-nsHTMLContainerFrame
+nsContainerFrame
 )
 #
 ifdef
@@ -713,7 +713,7 @@ DestroyFramesFrom
 aDestructRoot
 )
 ;
-nsHTMLContainerFrame
+nsContainerFrame
 :
 :
 DestroyFrom
@@ -746,7 +746,7 @@ mCaptionFrames
 ;
 }
 return
-nsHTMLContainerFrame
+nsContainerFrame
 :
 :
 GetChildList
@@ -770,7 +770,7 @@ aLists
 )
 const
 {
-nsHTMLContainerFrame
+nsContainerFrame
 :
 :
 GetChildLists

@@ -177,6 +177,14 @@ aMoveOwnership
 false
 )
 ;
+size_t
+SizeOfIncludingThisIfUnshared
+(
+nsMallocSizeOfFun
+aMallocSizeOf
+)
+const
+;
 }
 ;
 #

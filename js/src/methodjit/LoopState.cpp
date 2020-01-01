@@ -8971,10 +8971,10 @@ false
 ;
 if
 (
-cc
-.
-arrayPrototypeHasIndexedProperty
+ArrayPrototypeHasIndexedProperty
 (
+cx
+outerScript
 )
 )
 return

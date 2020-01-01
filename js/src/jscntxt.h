@@ -6,6 +6,15 @@ define
 jscntxt_h___
 #
 include
+"
+mozilla
+/
+Attributes
+.
+h
+"
+#
+include
 <
 string
 .
@@ -4158,6 +4167,7 @@ AutoGCRooter
 &
 ida
 )
+MOZ_DELETE
 ;
 void
 operator
@@ -4167,6 +4177,7 @@ AutoGCRooter
 &
 ida
 )
+MOZ_DELETE
 ;
 }
 ;
@@ -4914,6 +4925,7 @@ AutoIdArray
 &
 ida
 )
+MOZ_DELETE
 ;
 void
 operator
@@ -4923,6 +4935,7 @@ AutoIdArray
 &
 ida
 )
+MOZ_DELETE
 ;
 }
 ;
@@ -5531,6 +5544,15 @@ ptr
 ;
 JS_DECL_USE_GUARD_OBJECT_NOTIFIER
 AutoReleasePtr
+(
+const
+AutoReleasePtr
+&
+other
+)
+MOZ_DELETE
+;
+AutoReleasePtr
 operator
 =
 (
@@ -5539,6 +5561,7 @@ AutoReleasePtr
 &
 other
 )
+MOZ_DELETE
 ;
 public
 :
@@ -5595,6 +5618,15 @@ ptr
 ;
 JS_DECL_USE_GUARD_OBJECT_NOTIFIER
 AutoReleaseNullablePtr
+(
+const
+AutoReleaseNullablePtr
+&
+other
+)
+MOZ_DELETE
+;
+AutoReleaseNullablePtr
 operator
 =
 (
@@ -5603,6 +5635,7 @@ AutoReleaseNullablePtr
 &
 other
 )
+MOZ_DELETE
 ;
 public
 :

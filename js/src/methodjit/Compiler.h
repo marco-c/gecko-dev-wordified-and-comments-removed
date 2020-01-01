@@ -1930,11 +1930,6 @@ inlinepc
 ;
 }
 bool
-arrayPrototypeHasIndexedProperty
-(
-)
-;
-bool
 activeFrameHasMultipleExits
 (
 )

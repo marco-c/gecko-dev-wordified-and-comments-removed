@@ -2649,7 +2649,7 @@ MOZ_PKG_DIR
 &
 &
 \
-cd
+pushd
 (
 MOZ_PKG_DIR
 )
@@ -2705,6 +2705,10 @@ lib
 (
 ABI_DIR
 )
+&
+&
+\
+popd
 endif
 ifeq
 (

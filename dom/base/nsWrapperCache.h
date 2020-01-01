@@ -256,6 +256,11 @@ return
 nsnull
 ;
 }
+bool
+IsBlack
+(
+)
+;
 private
 :
 void
