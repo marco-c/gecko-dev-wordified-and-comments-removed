@@ -525,6 +525,10 @@ browser_privatebrowsing_geoprompt_page
 .
 html
 \
+browser_privatebrowsing_opendir
+.
+js
+\
 (
 NULL
 )
