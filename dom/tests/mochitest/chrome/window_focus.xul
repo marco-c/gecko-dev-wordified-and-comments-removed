@@ -9707,6 +9707,10 @@ framesetWindow
 }
 else
 {
+gOldExpectedWindow
+=
+null
+;
 gNewExpectedWindow
 =
 null
