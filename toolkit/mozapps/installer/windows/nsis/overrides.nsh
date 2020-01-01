@@ -86,6 +86,12 @@ macros
 provided
 by
 NSIS
+!
+ifndef
+OVERRIDES_INCLUDED
+!
+define
+OVERRIDES_INCLUDED
 ;
 Modified
 version
@@ -2095,3 +2101,5 @@ pop
 endif
 !
 macroend
+!
+endif
