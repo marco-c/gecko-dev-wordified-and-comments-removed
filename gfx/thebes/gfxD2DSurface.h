@@ -82,16 +82,6 @@ gfxD2DSurface
 (
 )
 ;
-virtual
-TextQuality
-GetTextQualityInTransparentSurfaces
-(
-)
-{
-return
-TEXT_QUALITY_BAD
-;
-}
 void
 Present
 (

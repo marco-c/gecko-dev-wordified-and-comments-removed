@@ -1140,14 +1140,14 @@ GetTransform
 ;
 common
 .
-contentFlags
+isOpaqueContent
 (
 )
 =
 mutant
 -
 >
-GetContentFlags
+IsOpaqueContent
 (
 )
 ;

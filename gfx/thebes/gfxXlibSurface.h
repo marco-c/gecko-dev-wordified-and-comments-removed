@@ -158,16 +158,6 @@ gfxIntSize
 aSize
 )
 ;
-virtual
-TextQuality
-GetTextQualityInTransparentSurfaces
-(
-)
-{
-return
-TEXT_QUALITY_OK_OVER_OPAQUE_PIXELS
-;
-}
 const
 gfxIntSize
 &
