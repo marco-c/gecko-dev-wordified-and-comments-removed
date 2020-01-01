@@ -5291,9 +5291,6 @@ const
 nsAString
 &
 aData
-PRBool
-*
-aRet
 )
 {
 NS_ABORT_IF_FALSE
@@ -5309,11 +5306,6 @@ main
 thread
 "
 )
-;
-*
-aRet
-=
-PR_FALSE
 ;
 if
 (
@@ -5451,9 +5443,6 @@ return
 NS_OK
 ;
 }
-nsresult
-rv
-=
 mConnection
 -
 >
@@ -5463,14 +5452,6 @@ PromiseFlatString
 (
 aData
 )
-)
-;
-*
-aRet
-=
-NS_SUCCEEDED
-(
-rv
 )
 ;
 return
