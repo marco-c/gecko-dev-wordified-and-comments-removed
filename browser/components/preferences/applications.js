@@ -5020,13 +5020,6 @@ actionItem
 .
 handlerApp
 ;
-else
-handlerInfo
-.
-preferredApplicationHandler
-=
-null
-;
 handlerInfo
 .
 alwaysAskBeforeHandling
