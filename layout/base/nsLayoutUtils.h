@@ -490,6 +490,7 @@ static
 nsPoint
 GetEventCoordinatesRelativeTo
 (
+const
 nsEvent
 *
 aEvent

@@ -2558,6 +2558,7 @@ nsLayoutUtils
 :
 GetEventCoordinatesRelativeTo
 (
+const
 nsEvent
 *
 aEvent
@@ -2598,12 +2599,14 @@ NS_UNCONSTRAINEDSIZE
 NS_UNCONSTRAINEDSIZE
 )
 ;
+const
 nsGUIEvent
 *
 GUIEvent
 =
 NS_STATIC_CAST
 (
+const
 nsGUIEvent
 *
 aEvent
