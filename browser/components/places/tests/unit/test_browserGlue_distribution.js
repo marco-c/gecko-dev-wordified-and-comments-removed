@@ -606,6 +606,17 @@ PREF_DISTRIBUTION_ID
 "
 )
 ;
+do_test_finished
+(
+)
+;
+}
+do_register_cleanup
+(
+function
+(
+)
+{
 let
 iniFile
 =
@@ -657,8 +668,6 @@ exists
 )
 )
 ;
-do_test_finished
-(
+}
 )
 ;
-}
