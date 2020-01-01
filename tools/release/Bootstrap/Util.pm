@@ -622,11 +622,15 @@ MANIFEST
 my
 bouncerPlatforms
 =
-sort
-(
 GetBouncerPlatforms
 (
 )
+;
+bouncerPlatforms
+=
+sort
+(
+bouncerPlatforms
 )
 ;
 foreach

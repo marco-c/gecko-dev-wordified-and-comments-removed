@@ -1678,6 +1678,15 @@ sysname
 cygwin
 /
 i
+|
+|
+sysname
+=
+~
+/
+mingw32
+/
+i
 )
 {
 return

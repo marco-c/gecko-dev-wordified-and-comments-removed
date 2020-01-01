@@ -161,7 +161,7 @@ logDir
 )
 ;
 my
-osname
+sysname
 =
 config
 -
@@ -172,7 +172,7 @@ var
 =
 >
 '
-osname
+sysname
 '
 )
 ;
@@ -296,11 +296,13 @@ characters
 .
 if
 (
-osname
-eq
-'
-win32
-'
+sysname
+=
+~
+/
+cygwin
+/
+i
 )
 {
 this
