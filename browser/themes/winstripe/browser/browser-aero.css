@@ -9,9 +9,6 @@ css
 %
 undef
 WINSTRIPE_AERO
-%
-if
-0
 media
 all
 and
@@ -505,8 +502,6 @@ white
 ;
 }
 }
-%
-endif
 media
 not
 all
