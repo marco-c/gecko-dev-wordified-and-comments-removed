@@ -283,7 +283,7 @@ FlushAllCaches
 )
 ;
 virtual
-nsresult
+void
 UpdateSelectedLocale
 (
 )
