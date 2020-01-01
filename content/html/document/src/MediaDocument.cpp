@@ -103,6 +103,13 @@ nsContentUtils
 .
 h
 "
+#
+include
+"
+nsDocElementCreatedNotificationRunner
+.
+h
+"
 namespace
 mozilla
 {

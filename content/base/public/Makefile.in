@@ -108,6 +108,10 @@ nsContentUtils
 .
 h
 \
+nsDocElementCreatedNotificationRunner
+.
+h
+\
 nsIDocument
 .
 h
