@@ -1534,7 +1534,7 @@ ZIP_IN
 APP_DEFINES
 =
 (
-or
+firstword
 (
 wildcard
 (
@@ -1560,9 +1560,9 @@ inc
 )
 TK_DEFINES
 =
-\
 (
-or
+firstword
+\
 (
 wildcard
 (
