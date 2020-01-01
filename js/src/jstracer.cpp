@@ -21892,6 +21892,7 @@ consensus
 ;
 }
 static
+JS_REQUIRES_STACK
 unsigned
 FindUndemotesInTypemaps
 (

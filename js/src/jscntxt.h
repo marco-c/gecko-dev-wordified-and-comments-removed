@@ -4464,6 +4464,15 @@ JSContext
 cx
 )
 ;
+extern
+bool
+js_CurrentPCIsInImacro
+(
+JSContext
+*
+cx
+)
+;
 #
 ifdef
 JS_TRACER
