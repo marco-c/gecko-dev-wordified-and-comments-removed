@@ -2257,17 +2257,6 @@ SOLARIS_SUNPRO_CXX
 )
 1
 )
-CXXFLAGS
-+
-=
--
-features
-=
-extensions
--
-D__FUNCTION__
-=
-__func__
 ifeq
 (
 86
