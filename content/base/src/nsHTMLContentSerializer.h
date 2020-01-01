@@ -89,7 +89,7 @@ protected
 :
 virtual
 void
-SerializeAttributes
+SerializeHTMLAttributes
 (
 nsIContent
 *

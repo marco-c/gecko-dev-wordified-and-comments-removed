@@ -270,7 +270,7 @@ void
 nsHTMLContentSerializer
 :
 :
-SerializeAttributes
+SerializeHTMLAttributes
 (
 nsIContent
 *
@@ -1221,7 +1221,7 @@ aStr
 nsAutoString
 dummyPrefix
 ;
-SerializeAttributes
+SerializeHTMLAttributes
 (
 content
 aOriginalElement
