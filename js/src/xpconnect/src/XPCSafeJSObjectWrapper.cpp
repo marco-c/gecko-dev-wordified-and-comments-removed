@@ -3051,7 +3051,7 @@ objToWrap
 &
 :
 :
-JS_GetFunctionNative
+JS_GetFunctionFastNative
 (
 cx
 :
