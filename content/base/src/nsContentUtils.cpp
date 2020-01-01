@@ -14281,6 +14281,16 @@ MayDispatchMutationEvent
 aTargetForSubtreeModified
 )
 ;
+if
+(
+aNode
+-
+>
+IsInDoc
+(
+)
+)
+{
 nsCOMPtr
 <
 nsPIDOMEventTarget
@@ -14343,6 +14353,7 @@ hasListeners
 return
 PR_TRUE
 ;
+}
 }
 }
 }

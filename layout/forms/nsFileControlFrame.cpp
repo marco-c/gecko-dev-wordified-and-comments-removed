@@ -608,6 +608,13 @@ NS_ERROR_OUT_OF_MEMORY
 mTextContent
 -
 >
+SetNativeAnonymous
+(
+)
+;
+mTextContent
+-
+>
 SetAttr
 (
 kNameSpaceID_None
@@ -776,6 +783,13 @@ mBrowse
 )
 return
 NS_ERROR_OUT_OF_MEMORY
+;
+mBrowse
+-
+>
+SetNativeAnonymous
+(
+)
 ;
 mBrowse
 -
