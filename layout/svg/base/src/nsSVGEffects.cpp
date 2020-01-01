@@ -640,9 +640,12 @@ AttributeChanged
 nsIDocument
 *
 aDocument
-nsIContent
+dom
+:
+:
+Element
 *
-aContent
+aElement
 PRInt32
 aNameSpaceID
 nsIAtom
