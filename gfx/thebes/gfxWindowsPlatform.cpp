@@ -215,6 +215,9 @@ h
 #
 endif
 #
+undef
+MOZ_WINSDK_TARGETVER
+#
 if
 MOZ_WINSDK_TARGETVER
 >

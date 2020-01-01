@@ -851,6 +851,11 @@ nsQueryContentEvent
 aQueryEvent
 =
 nsnull
+nsIAtom
+*
+aOrigin
+=
+nsnull
 )
 ;
 void

@@ -527,8 +527,7 @@ protected
 IDBKeyRange
 (
 )
-{
-}
+;
 Key
 mLower
 ;

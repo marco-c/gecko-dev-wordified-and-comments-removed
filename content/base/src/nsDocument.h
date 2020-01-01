@@ -3992,6 +3992,11 @@ mInFlush
 :
 1
 ;
+bool
+mParserAborted
+:
+1
+;
 PRUint8
 mXMLDeclarationBits
 ;

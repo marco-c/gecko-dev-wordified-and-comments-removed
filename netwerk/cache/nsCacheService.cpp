@@ -4736,7 +4736,7 @@ rv
 )
 )
 {
-NS_WARNING
+NS_RUNTIMEABORT
 (
 "
 Can

@@ -197,6 +197,13 @@ aCx
 )
 )
 ;
+JS_WrapValue
+(
+aCx
+&
+jsData
+)
+;
 nsCxPusher
 cxPusher
 ;

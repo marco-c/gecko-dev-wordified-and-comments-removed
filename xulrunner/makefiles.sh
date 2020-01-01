@@ -489,11 +489,7 @@ Makefile
 if
 [
 "
-OS_ARCH
-"
-=
-"
-WINNT
+MAKENSISU
 "
 ]
 ;

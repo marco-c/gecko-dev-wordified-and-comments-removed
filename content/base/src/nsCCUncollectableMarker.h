@@ -12,6 +12,9 @@ nsCycleCollectionParticipant
 .
 h
 "
+struct
+JSTracer
+;
 class
 nsCCUncollectableMarker
 :
@@ -50,7 +53,7 @@ InGeneration
 (
 nsCycleCollectionTraversalCallback
 &
-cb
+aCb
 PRUint32
 aGeneration
 )
@@ -63,7 +66,7 @@ aGeneration
 &
 &
 !
-cb
+aCb
 .
 WantAllTraces
 (
@@ -83,3 +86,19 @@ nsCCUncollectableMarker
 }
 }
 ;
+namespace
+mozilla
+{
+namespace
+dom
+{
+void
+TraceBlackJS
+(
+JSTracer
+*
+aTrc
+)
+;
+}
+}

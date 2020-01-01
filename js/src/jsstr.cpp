@@ -8052,6 +8052,17 @@ count
 if
 (
 !
+JS_CHECK_OPERATION_LIMIT
+(
+cx
+)
+)
+return
+false
+;
+if
+(
+!
 ExecuteRegExp
 (
 cx
@@ -17478,7 +17489,7 @@ toObject
 (
 )
 id
-JSGET_NO_METHOD_BARRIER
+0
 &
 fval
 )

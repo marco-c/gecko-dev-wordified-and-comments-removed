@@ -2733,12 +2733,6 @@ op
 =
 =
 JSOP_SETPROP
-|
-|
-op
-=
-=
-JSOP_SETMETHOD
 )
 return
 true

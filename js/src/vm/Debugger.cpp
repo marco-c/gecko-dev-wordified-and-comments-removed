@@ -4395,7 +4395,7 @@ ATOM_TO_JSID
 (
 atom
 )
-JSGET_NO_METHOD_BARRIER
+0
 &
 fval
 )

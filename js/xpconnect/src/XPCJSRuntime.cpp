@@ -1413,6 +1413,14 @@ trc
 )
 ;
 }
+dom
+:
+:
+TraceBlackJS
+(
+trc
+)
+;
 }
 void
 XPCJSRuntime

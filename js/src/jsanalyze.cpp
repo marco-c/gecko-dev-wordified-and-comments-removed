@@ -1442,9 +1442,6 @@ false
 break
 ;
 case
-JSOP_DEFLOCALFUN
-:
-case
 JSOP_LAMBDA
 :
 usesScopeChain_
@@ -2393,9 +2390,6 @@ case
 JSOP_ENDINIT
 :
 case
-JSOP_INITMETHOD
-:
-case
 JSOP_INITPROP
 :
 case
@@ -2403,9 +2397,6 @@ JSOP_INITELEM
 :
 case
 JSOP_SETPROP
-:
-case
-JSOP_SETMETHOD
 :
 case
 JSOP_IN
@@ -3316,9 +3307,6 @@ JSOP_SETLOCAL
 :
 case
 JSOP_SETLOCALPOP
-:
-case
-JSOP_DEFLOCALFUN
 :
 {
 uint32_t
@@ -6597,9 +6585,6 @@ break
 ;
 case
 JSOP_INITPROP
-:
-case
-JSOP_INITMETHOD
 :
 stack
 [

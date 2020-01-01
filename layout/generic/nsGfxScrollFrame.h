@@ -645,7 +645,7 @@ ScrollMode
 aMode
 )
 {
-ScrollToWithSmoothnessProfile
+ScrollToWithOrigin
 (
 aScrollPosition
 aMode
@@ -689,6 +689,11 @@ aMode
 nsIntPoint
 *
 aOverflow
+nsIAtom
+*
+aOrigin
+=
+nsnull
 )
 ;
 void
@@ -1191,7 +1196,7 @@ mShouldBuildLayer
 protected
 :
 void
-ScrollToWithSmoothnessProfile
+ScrollToWithOrigin
 (
 nsPoint
 aScrollPosition
@@ -1202,7 +1207,7 @@ ScrollMode
 aMode
 nsIAtom
 *
-aProfile
+aOrigin
 )
 ;
 }
@@ -1814,6 +1819,11 @@ aMode
 nsIntPoint
 *
 aOverflow
+nsIAtom
+*
+aOrigin
+=
+nsnull
 )
 {
 mInner
@@ -1824,6 +1834,7 @@ aDelta
 aUnit
 aMode
 aOverflow
+aOrigin
 )
 ;
 }
@@ -2811,6 +2822,11 @@ aMode
 nsIntPoint
 *
 aOverflow
+nsIAtom
+*
+aOrigin
+=
+nsnull
 )
 {
 mInner
@@ -2821,6 +2837,7 @@ aDelta
 aUnit
 aMode
 aOverflow
+aOrigin
 )
 ;
 }
