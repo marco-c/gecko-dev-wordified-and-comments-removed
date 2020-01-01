@@ -1417,6 +1417,13 @@ crop
 )
 GK_ATOM
 (
+crossOrigin
+"
+crossOrigin
+"
+)
+GK_ATOM
+(
 curpos
 "
 curpos

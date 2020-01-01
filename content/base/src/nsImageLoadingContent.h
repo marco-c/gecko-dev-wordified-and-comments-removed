@@ -86,6 +86,14 @@ nsImageLoadingContent
 NS_DECL_IMGICONTAINEROBSERVER
 NS_DECL_IMGIDECODEROBSERVER
 NS_DECL_NSIIMAGELOADINGCONTENT
+enum
+CORSMode
+{
+CORS_NONE
+CORS_ANONYMOUS
+CORS_USE_CREDENTIALS
+}
+;
 protected
 :
 nsresult
@@ -183,6 +191,12 @@ SetBlockingOnload
 (
 PRBool
 aBlocking
+)
+;
+virtual
+CORSMode
+GetCORSMode
+(
 )
 ;
 private
