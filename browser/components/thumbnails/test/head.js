@@ -65,10 +65,6 @@ tabs
 ]
 )
 ;
-cachedXULDocument
-=
-null
-;
 }
 )
 ;
@@ -562,15 +558,6 @@ DOMContentLoaded
 "
 onLoad
 false
-)
-;
-doc
-.
-body
-.
-removeChild
-(
-iframe
 )
 ;
 aCallback
