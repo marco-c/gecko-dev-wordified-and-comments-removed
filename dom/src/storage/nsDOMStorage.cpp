@@ -1045,11 +1045,11 @@ changed
 )
 &
 &
-aData
-&
-&
 !
-NS_strcmp
+nsCRT
+:
+:
+strcmp
 (
 aData
 NS_LITERAL_STRING

@@ -989,7 +989,10 @@ break
 else
 if
 (
-NS_strcmp
+nsCRT
+:
+:
+strcmp
 (
 thisNodes
 [

@@ -3368,7 +3368,10 @@ false
 if
 (
 !
-NS_strcmp
+nsCRT
+:
+:
+strcmp
 (
 mCurrentFilters
 .
