@@ -1671,6 +1671,7 @@ nsIAccessibleEvent
 :
 EVENT_INTERNAL_LOAD
 aDocNode
+nsnull
 eRemoveDupes
 )
 ;
@@ -2068,6 +2069,7 @@ nsIAccessibleEvent
 :
 EVENT_MENU_END
 mCurrentARIAMenubar
+nsnull
 PR_FALSE
 )
 ;
@@ -2155,6 +2157,7 @@ nsIAccessibleEvent
 :
 EVENT_FOCUS
 finalFocusNode
+nsnull
 eRemoveDupes
 aIsAsynch
 )
