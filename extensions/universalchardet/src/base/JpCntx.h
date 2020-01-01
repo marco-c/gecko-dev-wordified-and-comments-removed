@@ -25,7 +25,7 @@ MAX_REL_THRESHOLD
 1000
 extern
 const
-char
+PRUint8
 jp2CharContext
 [
 83

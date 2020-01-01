@@ -13,7 +13,7 @@ JpCntx
 h
 "
 const
-char
+PRUint8
 jp2CharContext
 [
 83
