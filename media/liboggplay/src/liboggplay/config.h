@@ -7,14 +7,8 @@ define
 HAVE_FISHSOUND
 #
 define
-HAVE_GLUT
-#
-define
 HAVE_INTTYPES_H
 1
-#
-define
-HAVE_LIBSNDFILE1
 #
 define
 HAVE_MEMORY_H
@@ -99,9 +93,9 @@ VERSION
 "
 0
 .
-0
+2
 .
-1
+0
 "
 #
 if
