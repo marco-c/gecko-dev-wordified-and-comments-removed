@@ -5205,6 +5205,17 @@ args
 _
 ;
 my
+config
+=
+new
+Bootstrap
+:
+:
+Config
+(
+)
+;
+my
 useTarGz
 =
 config
@@ -5304,6 +5315,7 @@ tar
 \
 .
 linuxExtension
+/
 )
 {
 #
