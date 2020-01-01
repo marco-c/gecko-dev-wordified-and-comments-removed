@@ -4154,7 +4154,7 @@ desiredSize
 kidReflowState
 x
 0
-0
+NS_FRAME_INVALIDATE_ON_MOVE
 status
 )
 ;

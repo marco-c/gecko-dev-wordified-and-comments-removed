@@ -12380,7 +12380,7 @@ x
 aReflowState
 .
 y
-0
+NS_FRAME_INVALIDATE_ON_MOVE
 footerStatus
 )
 ;
@@ -13007,7 +13007,7 @@ x
 aReflowState
 .
 y
-0
+NS_FRAME_INVALIDATE_ON_MOVE
 aStatus
 )
 ;
