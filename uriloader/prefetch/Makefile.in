@@ -424,6 +424,12 @@ xpcom
 \
 dom
 \
+content
+\
+widget
+\
+layout
+\
 string
 \
 necko
