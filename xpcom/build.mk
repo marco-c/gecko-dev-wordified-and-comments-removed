@@ -422,6 +422,13 @@ malloc
 /
 lib
 endif
+ifdef
+MOZ_IPC
+tier_xpcom_dirs
++
+=
+ipc
+endif
 tier_xpcom_dirs
 +
 =
