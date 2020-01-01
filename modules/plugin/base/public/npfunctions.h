@@ -16,15 +16,6 @@ pack
 #
 endif
 #
-ifndef
-GENERATINGCFM
-#
-define
-GENERATINGCFM
-0
-#
-endif
-#
 include
 "
 npapi
