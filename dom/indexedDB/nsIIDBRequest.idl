@@ -118,13 +118,9 @@ nsISupports
 .
 idl
 "
-#
-include
-"
+interface
 nsIDOMDOMError
-.
-idl
-"
+;
 interface
 nsIDOMEventListener
 ;
@@ -135,7 +131,7 @@ nsIIDBTransaction
 *
 *
 *
-IDBReqeust
+IDBRequest
 interface
 .
 See

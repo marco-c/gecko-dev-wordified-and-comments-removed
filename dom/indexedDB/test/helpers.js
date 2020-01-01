@@ -447,6 +447,7 @@ function
 ExpectError
 (
 name
+preventDefault
 )
 {
 this
@@ -454,6 +455,12 @@ this
 _name
 =
 name
+;
+this
+.
+_preventDefault
+=
+preventDefault
 ;
 }
 ExpectError
@@ -505,6 +512,13 @@ thrown
 "
 )
 ;
+if
+(
+this
+.
+_preventDefault
+)
+{
 event
 .
 preventDefault
@@ -517,6 +531,7 @@ stopPropagation
 (
 )
 ;
+}
 grabEventAndContinueHandler
 (
 event
