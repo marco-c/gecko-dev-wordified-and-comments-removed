@@ -158,11 +158,6 @@ nsIDOMHTMLDListElement
 idl
 '
 '
-nsIDOMHTMLDataListElement
-.
-idl
-'
-'
 nsIDOMHTMLDirectoryElement
 .
 idl
