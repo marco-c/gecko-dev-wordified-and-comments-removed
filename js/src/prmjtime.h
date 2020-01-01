@@ -60,7 +60,7 @@ tm_mon
 JSInt8
 tm_wday
 ;
-JSInt16
+JSInt32
 tm_year
 ;
 JSInt16
