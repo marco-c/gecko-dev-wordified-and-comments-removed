@@ -418,7 +418,7 @@ MOZ_APP_VERSION
 =
 1
 .
-0a1pre
+0a1
 ;
 ;
 *
