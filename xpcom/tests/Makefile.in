@@ -143,6 +143,10 @@ TestINIParser
 .
 cpp
 \
+TestPRIntN
+.
+cpp
+\
 TestRacingServiceManager
 .
 cpp
