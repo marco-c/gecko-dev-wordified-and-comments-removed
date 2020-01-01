@@ -492,6 +492,13 @@ TimeoutTouchListeners
 (
 )
 ;
+void
+SetZoomAndResolution
+(
+float
+aScale
+)
+;
 private
 :
 enum

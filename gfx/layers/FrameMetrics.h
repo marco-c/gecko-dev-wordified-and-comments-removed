@@ -331,6 +331,9 @@ mScrollableRect
 gfxSize
 mResolution
 ;
+gfxSize
+mZoom
+;
 float
 mDevPixelsPerCSSPixel
 ;
