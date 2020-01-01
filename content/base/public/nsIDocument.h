@@ -3677,6 +3677,9 @@ mHavePendingPaint
 PRPackedBool
 mIsBeingUsedAsImage
 ;
+PRPackedBool
+mIsSyntheticDocument
+;
 nsCOMPtr
 <
 nsIScriptGlobalObject
