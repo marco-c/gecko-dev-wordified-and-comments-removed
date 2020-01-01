@@ -1448,7 +1448,6 @@ date
 .
 label
 "
-By
 Date
 "
 >
@@ -1463,7 +1462,6 @@ title
 .
 label
 "
-By
 Title
 "
 >
@@ -1478,7 +1476,20 @@ source
 .
 label
 "
-By
 Source
+"
+>
+<
+!
+ENTITY
+tabs
+.
+sortBy
+.
+label
+"
+Sort
+by
+:
 "
 >
