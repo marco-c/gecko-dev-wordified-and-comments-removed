@@ -200,7 +200,7 @@ loadFlags
 =
 Ci
 .
-nsICachingChannel
+nsIRequest
 .
 LOAD_FROM_CACHE
 ;

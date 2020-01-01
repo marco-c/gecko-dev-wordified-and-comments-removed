@@ -1912,7 +1912,7 @@ dispatch
 stopEvent
 Ci
 .
-nsIThreadManager
+nsIThread
 .
 DISPATCH_NORMAL
 )
@@ -9455,7 +9455,7 @@ Ci
 .
 nsISeekableStream
 .
-SEEK_SET
+NS_SEEK_SET
 offset
 )
 ;
@@ -9502,7 +9502,7 @@ dispatch
 writeData
 Ci
 .
-nsIThreadManager
+nsIThread
 .
 DISPATCH_NORMAL
 )
@@ -13435,7 +13435,7 @@ NS_ERROR_UNEXPECTED
 }
 Ci
 .
-nsIThreadManager
+nsIThread
 .
 DISPATCH_NORMAL
 )
@@ -14557,7 +14557,7 @@ dispatch
 cancelEvent
 Ci
 .
-nsIThreadManager
+nsIThread
 .
 DISPATCH_NORMAL
 )

@@ -1425,7 +1425,7 @@ dispatch
 writeData
 Ci
 .
-nsIThreadManager
+nsIThread
 .
 DISPATCH_NORMAL
 )

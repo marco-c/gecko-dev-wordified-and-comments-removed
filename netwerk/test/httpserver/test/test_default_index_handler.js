@@ -164,6 +164,7 @@ DIRECTORY_TYPE
 0744
 )
 ;
+var
 files
 =
 [
@@ -764,7 +765,6 @@ name
 sep
 )
 ;
-var
 uri
 =
 ios
@@ -1129,7 +1129,6 @@ name
 sep
 )
 ;
-var
 uri
 =
 ios
