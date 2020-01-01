@@ -363,9 +363,9 @@ const
 Float32Array
 &
 aValues
-float
+double
 aStartTime
-float
+double
 aDuration
 ErrorResult
 &

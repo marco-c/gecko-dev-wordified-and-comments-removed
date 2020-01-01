@@ -195,7 +195,7 @@ setValueAtTime
 (
 float
 value
-float
+double
 startTime
 )
 ;
@@ -207,7 +207,7 @@ linearRampToValueAtTime
 (
 float
 value
-float
+double
 endTime
 )
 ;
@@ -219,7 +219,7 @@ exponentialRampToValueAtTime
 (
 float
 value
-float
+double
 endTime
 )
 ;
@@ -247,9 +247,9 @@ setTargetAtTime
 (
 float
 target
-float
+double
 startTime
-float
+double
 timeConstant
 )
 ;
@@ -298,9 +298,9 @@ setValueCurveAtTime
 (
 Float32Array
 values
-float
+double
 startTime
-float
+double
 duration
 )
 ;
@@ -323,7 +323,7 @@ startTime
 void
 cancelScheduledValues
 (
-float
+double
 startTime
 )
 ;

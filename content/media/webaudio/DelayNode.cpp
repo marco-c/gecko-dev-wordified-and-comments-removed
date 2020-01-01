@@ -72,7 +72,7 @@ DelayNode
 AudioContext
 *
 aContext
-float
+double
 aMaxDelay
 )
 :

@@ -229,7 +229,7 @@ ideally
 be
 a
 restricted
-float
+double
 to
 protect
 against
@@ -248,7 +248,7 @@ DelayNode
 createDelay
 (
 optional
-float
+double
 maxDelayTime
 =
 1

@@ -172,7 +172,7 @@ in
 seconds
 readonly
 attribute
-float
+double
 duration
 ;
 readonly
