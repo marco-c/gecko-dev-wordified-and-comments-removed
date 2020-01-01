@@ -4608,6 +4608,13 @@ InvalidateFrameSubtree
 (
 )
 ;
+virtual
+void
+InvalidateFrameForRemoval
+(
+)
+{
+}
 bool
 IsInvalid
 (

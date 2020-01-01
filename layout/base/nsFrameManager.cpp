@@ -2170,6 +2170,13 @@ mIsDestroyingFrames
 =
 true
 ;
+aOldFrame
+-
+>
+InvalidateFrameForRemoval
+(
+)
+;
 NS_ASSERTION
 (
 !
