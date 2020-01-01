@@ -379,7 +379,7 @@ descriptor
 }
 else
 {
-todo_check_eq
+do_check_eq
 (
 status
 Cr
@@ -387,7 +387,7 @@ Cr
 NS_ERROR_CACHE_KEY_NOT_FOUND
 )
 ;
-todo_check_null
+do_check_null
 (
 descriptor
 )
@@ -628,7 +628,7 @@ request
 buffer
 )
 {
-todo_check_eq
+do_check_eq
 (
 buffer
 "
@@ -672,6 +672,7 @@ ChannelListener
 (
 checkNoStore
 chan
+CL_EXPECT_FAILURE
 )
 null
 )
