@@ -648,6 +648,10 @@ browser_badargs2
 .
 js
 \
+browser_bug611242
+.
+js
+\
 unsigned
 .
 xpi
