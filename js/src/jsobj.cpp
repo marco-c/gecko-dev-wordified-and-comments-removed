@@ -16500,6 +16500,12 @@ JSScopeProperty
 *
 sprop
 ;
+js_LeaveTraceIfGlobalObject
+(
+cx
+obj
+)
+;
 CHECK_FOR_STRING_INDEX
 (
 id
