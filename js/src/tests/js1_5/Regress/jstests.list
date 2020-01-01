@@ -303,7 +303,6 @@ regress
 193418
 .
 js
-skip
 script
 regress
 -
@@ -312,8 +311,6 @@ regress
 1
 .
 js
-#
-slow
 script
 regress
 -
