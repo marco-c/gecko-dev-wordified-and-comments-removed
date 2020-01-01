@@ -171,7 +171,7 @@ module_dir
 NSINSTALL
 )
 -
-l
+R
 (
 source_modules
 )
