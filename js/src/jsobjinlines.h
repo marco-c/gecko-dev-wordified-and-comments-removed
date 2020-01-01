@@ -6322,16 +6322,9 @@ if
 !
 obj
 )
-{
-js_ReportOutOfMemory
-(
-cx
-)
-;
 return
 NULL
 ;
-}
 obj
 -
 >
