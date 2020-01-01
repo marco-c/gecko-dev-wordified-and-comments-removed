@@ -271,6 +271,11 @@ RegisterCompositorWithJava
 (
 )
 ;
+void
+RequestViewTransform
+(
+)
+;
 #
 endif
 nsRefPtr
