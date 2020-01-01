@@ -31339,6 +31339,11 @@ nsCSSAnonBoxes
 :
 pageBreak
 aStyleContext
+-
+>
+GetParent
+(
+)
 )
 ;
 nsIFrame
