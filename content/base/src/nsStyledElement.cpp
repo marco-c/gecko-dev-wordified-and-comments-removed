@@ -281,9 +281,8 @@ nsGkAtoms
 style
 )
 {
-SetFlags
+SetMayHaveStyle
 (
-NODE_MAY_HAVE_STYLE
 )
 ;
 ParseStyleAttribute
@@ -520,9 +519,8 @@ PRBool
 aNotify
 )
 {
-SetFlags
+SetMayHaveStyle
 (
-NODE_MAY_HAVE_STYLE
 )
 ;
 PRBool
@@ -660,9 +658,8 @@ GetInlineStyleRule
 if
 (
 !
-HasFlag
+MayHaveStyle
 (
-NODE_MAY_HAVE_STYLE
 )
 )
 {
@@ -927,9 +924,8 @@ PR_FALSE
 endif
 )
 ;
-SetFlags
+SetMayHaveStyle
 (
-NODE_MAY_HAVE_STYLE
 )
 ;
 }
@@ -958,9 +954,8 @@ aForceInDataDoc
 if
 (
 !
-HasFlag
+MayHaveStyle
 (
-NODE_MAY_HAVE_STYLE
 )
 )
 {
