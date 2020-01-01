@@ -16365,12 +16365,6 @@ link
 .
 href
 )
-&
-&
-!
-gPrivateBrowsingUI
-.
-privateBrowsingEnabled
 )
 {
 var
@@ -40454,7 +40448,7 @@ context_undoCloseTab
 "
 )
 .
-disabled
+hidden
 =
 Cc
 [
