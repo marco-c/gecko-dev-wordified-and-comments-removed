@@ -259,7 +259,7 @@ vd
 buf
 -
 >
-Count
+ByteLength
 (
 )
 <
@@ -284,7 +284,7 @@ at
 least
 %
 d
-elements
+bytes
 but
 have
 only
@@ -298,7 +298,7 @@ vd
 buf
 -
 >
-Count
+ByteLength
 (
 )
 )
