@@ -217,7 +217,7 @@ obj
 )
 ;
 bool
-ReflectHashtable
+ReflectIntoJS
 (
 ReflectEntryFunc
 entryFunc
@@ -386,7 +386,7 @@ EntryType
 >
 :
 :
-ReflectHashtable
+ReflectIntoJS
 (
 ReflectEntryFunc
 entryFunc
@@ -3022,7 +3022,7 @@ if
 !
 sqlMap
 .
-ReflectHashtable
+ReflectIntoJS
 (
 reflectFunction
 cx
@@ -4780,7 +4780,7 @@ if
 map
 -
 >
-ReflectHashtable
+ReflectIntoJS
 (
 AddonHistogramReflector
 cx
@@ -4875,7 +4875,7 @@ if
 !
 mAddonMap
 .
-ReflectHashtable
+ReflectIntoJS
 (
 AddonReflector
 cx
