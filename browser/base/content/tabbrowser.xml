@@ -6953,7 +6953,7 @@ DOMTitleChanged
 this
 .
 onTitleChanged
-false
+true
 )
 ;
 var
@@ -8421,7 +8421,7 @@ DOMTitleChanged
 this
 .
 onTitleChanged
-false
+true
 )
 ;
 if
@@ -9704,7 +9704,7 @@ DOMTitleChanged
 this
 .
 onTitleChanged
-false
+true
 )
 ;
 /
@@ -15589,7 +15589,7 @@ DOMTitleChanged
 this
 .
 onTitleChanged
-false
+true
 )
 ;
 }
@@ -15627,6 +15627,11 @@ event
 "
 DOMLinkAdded
 "
+phase
+=
+"
+capturing
+"
 action
 =
 "
@@ -15646,6 +15651,11 @@ event
 =
 "
 DOMWindowClose
+"
+phase
+=
+"
+capturing
 "
 >
 <
@@ -15840,6 +15850,11 @@ event
 "
 DOMWillOpenModalDialog
 "
+phase
+=
+"
+capturing
+"
 >
 <
 !
@@ -15957,6 +15972,11 @@ event
 =
 "
 DOMModalDialogClosed
+"
+phase
+=
+"
+capturing
 "
 >
 <
