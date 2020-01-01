@@ -621,6 +621,7 @@ eObservingState
 {
 eNotObservingRefresh
 eRefreshObserving
+eRefreshProcessing
 eRefreshProcessingForUpdate
 }
 ;
