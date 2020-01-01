@@ -1913,14 +1913,6 @@ slideBack
 YES
 ]
 ;
-nsBaseDragService
-:
-:
-EndDragSession
-(
-PR_TRUE
-)
-;
 return
 NS_OK
 ;
