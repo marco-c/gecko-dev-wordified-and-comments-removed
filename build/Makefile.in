@@ -857,6 +857,17 @@ leaktest
 py
 ifdef
 MOZ_APP_BASENAME
+(
+FINAL_TARGET
+)
+/
+application
+.
+ini
+:
+(
+APP_INI_DEPS
+)
 ifdef
 MOZ_APP_STATIC_INI
 application
