@@ -152,6 +152,14 @@ bug
 809123
 797263
 )
+XPCSHELL_TESTS
+=
+\
+unit
+\
+(
+NULL
+)
 MOCHITEST_BROWSER_FILES
 =
 \
