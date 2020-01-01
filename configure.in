@@ -63596,6 +63596,10 @@ applications
 ]
 )
 fi
+AC_SUBST
+(
+LIBXUL_LIBS
+)
 if
 test
 -

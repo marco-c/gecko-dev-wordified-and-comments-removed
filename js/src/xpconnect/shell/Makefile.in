@@ -439,6 +439,8 @@ js
 \
 caps
 \
+xulapp
+\
 (
 NULL
 )
@@ -484,11 +486,11 @@ LIB_SUFFIX
 )
 \
 (
-MOZ_JS_LIBS
+LIBXUL_LIBS
 )
 \
 (
-XPCOM_LIBS
+MOZ_JS_LIBS
 )
 \
 (
