@@ -25755,6 +25755,16 @@ aXferData
 aDragSession
 )
 {
+if
+(
+aEvent
+.
+getPreventDefault
+(
+)
+)
+return
+;
 var
 url
 =
