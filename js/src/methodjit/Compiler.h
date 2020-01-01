@@ -2566,7 +2566,7 @@ FrameEntry
 fe
 )
 ;
-void
+bool
 jsop_gnameinc
 (
 JSOp
@@ -2577,7 +2577,7 @@ uint32
 index
 )
 ;
-bool
+CompileStatus
 jsop_nameinc
 (
 JSOp
@@ -2588,7 +2588,7 @@ uint32
 index
 )
 ;
-bool
+CompileStatus
 jsop_propinc
 (
 JSOp
