@@ -9048,6 +9048,9 @@ uint8_t
 mImageRendering
 ;
 uint8_t
+mPaintOrder
+;
+uint8_t
 mShapeRendering
 ;
 uint8_t
