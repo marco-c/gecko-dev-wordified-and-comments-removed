@@ -685,3 +685,12 @@ AUTHORS
 .
 /
 AUTHORS
+patch
+-
+p3
+<
+.
+/
+alloca
+.
+diff

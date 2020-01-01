@@ -88,3 +88,13 @@ with
 WINCE
 defined
 .
+BUG
+469639
+-
+Failed
+to
+build
+firefox
+trunk
+on
+OpenSolaris
