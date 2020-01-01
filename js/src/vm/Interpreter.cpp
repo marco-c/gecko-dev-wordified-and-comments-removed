@@ -6888,6 +6888,14 @@ length
 if
 (
 script
+|
+|
+cx
+-
+>
+currentlyRunningInInterpreter
+(
+)
 )
 {
 JS_ASSERT
