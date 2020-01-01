@@ -2281,10 +2281,6 @@ stmts
     
 return
 iflogging
-_typeToAST
-=
-{
-}
 def
 _printErrorMessage
 (
@@ -6471,7 +6467,7 @@ _subtreeUsesShmem
 (
 mgd
 .
-_p
+_ast
 )
 :
                 
@@ -8709,17 +8705,6 @@ upgrade
 sd
 )
         
-_typeToAST
-[
-sd
-.
-decl
-.
-type
-]
-=
-sd
-        
 if
 sd
 .
@@ -8859,17 +8844,6 @@ upgrade
 (
 ud
 )
-        
-_typeToAST
-[
-ud
-.
-decl
-.
-type
-]
-=
-ud
         
 if
 ud
@@ -9820,7 +9794,7 @@ _protocolHeaderName
 (
 ppt
 .
-_p
+_ast
 pside
 )
 )
@@ -9835,7 +9809,7 @@ _protocolHeaderName
 (
 cpt
 .
-_p
+_ast
 cside
 )
 )
@@ -9904,7 +9878,7 @@ _protocolHeaderName
 (
 optype
 .
-_p
+_ast
 oside
 )
 )
@@ -16061,7 +16035,7 @@ ptype
         
 ptype
 .
-_p
+_ast
 .
 accept
 (
@@ -28721,10 +28695,9 @@ side
         
 sd
 =
-_typeToAST
-[
 structtype
-]
+.
+_ast
         
 write
 =
@@ -28992,10 +28965,9 @@ side
         
 ud
 =
-_typeToAST
-[
 uniontype
-]
+.
+_ast
         
 typename
 =

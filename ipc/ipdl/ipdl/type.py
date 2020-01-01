@@ -4110,7 +4110,7 @@ decl
 .
 type
 .
-_p
+_ast
 =
 p
         
@@ -4229,6 +4229,12 @@ and
 unknown
 type
 '
+            
+sutype
+.
+_ast
+=
+su
             
 su
 .
