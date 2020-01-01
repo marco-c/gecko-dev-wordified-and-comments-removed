@@ -13000,8 +13000,9 @@ scope
 )
 )
 \
-LOCKED_OBJ_SET_SLOT
+LOCKED_OBJ_WRITE_BARRIER
 (
+cx
 obj
 (
 sprop
@@ -13317,8 +13318,9 @@ sprop
 scope
 )
 )
-LOCKED_OBJ_SET_SLOT
+LOCKED_OBJ_WRITE_BARRIER
 (
+cx
 obj
 sprop
 -
