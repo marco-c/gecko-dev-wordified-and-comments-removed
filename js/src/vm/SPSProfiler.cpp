@@ -66,6 +66,13 @@ BaselineJIT
 .
 h
 "
+#
+include
+"
+jsscriptinlines
+.
+h
+"
 using
 namespace
 js
