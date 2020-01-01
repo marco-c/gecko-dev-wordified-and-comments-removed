@@ -313,6 +313,13 @@ h
 #
 include
 "
+jscntxtinlines
+.
+h
+"
+#
+include
+"
 jsinterpinlines
 .
 h
@@ -12617,9 +12624,11 @@ propid
 ;
 last
 =
-JS_PROPERTY_TREE
-(
 cx
+-
+>
+propertyTree
+(
 )
 .
 getChild
