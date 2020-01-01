@@ -27619,7 +27619,7 @@ void
 *
 blobData
 =
-PR_Malloc
+moz_malloc
 (
 blobLen
 )

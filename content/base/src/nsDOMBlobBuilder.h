@@ -523,7 +523,7 @@ void
 *
 data
 =
-PR_Realloc
+moz_realloc
 (
 mData
 bufferLen
