@@ -1365,14 +1365,6 @@ GetInnerWindowForTarget
 if
 (
 window
-&
-&
-!
-(
-aFlags
-&
-NS_EVENT_FLAG_SYSTEM_EVENT
-)
 )
 window
 -

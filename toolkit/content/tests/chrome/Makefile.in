@@ -445,10 +445,6 @@ test_scale
 .
 xul
 \
-test_scaledrag
-.
-xul
-\
 test_radio
 .
 xul
