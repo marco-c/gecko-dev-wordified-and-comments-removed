@@ -1113,7 +1113,7 @@ thingSize
 )
 \
 (
-void
+JSGCThing
 *
 )
 (
@@ -7062,10 +7062,6 @@ lastCount
 ;
 thing
 =
-(
-JSGCThing
-*
-)
 FLAGP_TO_THING
 (
 flagp
@@ -7175,10 +7171,6 @@ lastCount
 ;
 tmpthing
 =
-(
-JSGCThing
-*
-)
 FLAGP_TO_THING
 (
 tmpflagp
@@ -12574,10 +12566,6 @@ GCF_FINAL
 {
 thing
 =
-(
-JSGCThing
-*
-)
 FLAGP_TO_THING
 (
 flagp

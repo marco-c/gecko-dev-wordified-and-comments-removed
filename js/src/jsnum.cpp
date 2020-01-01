@@ -1334,9 +1334,12 @@ char
 *
 buf
 *
-dec
-*
 tmpDest
+;
+const
+char
+*
+dec
 ;
 int
 digits

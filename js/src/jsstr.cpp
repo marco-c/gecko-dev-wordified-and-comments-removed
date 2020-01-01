@@ -28006,6 +28006,7 @@ charsEnd
 size_t
 n
 ;
+const
 char
 *
 escape
