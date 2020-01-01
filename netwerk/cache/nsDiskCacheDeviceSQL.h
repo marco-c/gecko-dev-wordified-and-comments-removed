@@ -999,6 +999,12 @@ mStatement_EnumerateGroups
 ;
 nsCOMPtr
 <
+mozIStorageStatement
+>
+mStatement_EnumerateGroupsTimeOrder
+;
+nsCOMPtr
+<
 nsILocalFile
 >
 mCacheDirectory
