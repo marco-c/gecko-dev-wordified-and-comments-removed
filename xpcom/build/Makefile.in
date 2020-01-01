@@ -515,6 +515,10 @@ nsXPCOMStrings
 .
 cpp
 \
+Services
+.
+cpp
+\
 (
 NULL
 )
@@ -913,6 +917,14 @@ EXPORTS_mozilla
 =
 \
 XPCOM
+.
+h
+\
+Services
+.
+h
+\
+ServiceList
 .
 h
 \

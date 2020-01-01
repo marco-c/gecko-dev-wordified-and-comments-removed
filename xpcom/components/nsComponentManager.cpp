@@ -621,10 +621,6 @@ NS_CATEGORYMANAGER_CID
 define
 UID_STRING_LENGTH
 39
-extern
-PRBool
-gXPCOMShuttingDown
-;
 static
 void
 GetIDString
