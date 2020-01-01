@@ -148,6 +148,16 @@ ScheduleComposition
 (
 )
 {
+printf_stderr
+(
+"
+Schedule
+composition
+\
+n
+"
+)
+;
 CancelableTask
 *
 composeTask
