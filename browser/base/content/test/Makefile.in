@@ -633,6 +633,12 @@ browser_bug422590
 .
 js
 \
+browser_sanitize
+-
+sitepermissions
+.
+js
+\
 (
 NULL
 )

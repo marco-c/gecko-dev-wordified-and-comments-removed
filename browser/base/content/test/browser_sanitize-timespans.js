@@ -331,7 +331,7 @@ itemPrefs
 setBoolPref
 (
 "
-siteprefs
+siteSettings
 "
 false
 )
