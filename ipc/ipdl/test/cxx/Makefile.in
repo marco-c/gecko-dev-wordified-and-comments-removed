@@ -492,6 +492,8 @@ IPDLTESTS
 \
 TestSanity
 \
+TestRPCErrorCleanup
+\
 TestLatency
 \
 TestRPCRaces
