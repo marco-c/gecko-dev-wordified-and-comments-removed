@@ -243,7 +243,7 @@ virtual
 void
 UpdateBytesDownloaded
 (
-PRUint32
+PRUint64
 aBytes
 )
 ;
@@ -311,7 +311,7 @@ PlaybackEnded
 )
 ;
 virtual
-PRUint32
+PRUint64
 GetBytesLoaded
 (
 )
@@ -354,7 +354,7 @@ UnregisterShutdownObserver
 (
 )
 ;
-PRUint32
+PRUint64
 mBytesDownloaded
 ;
 nsCOMPtr

@@ -4384,7 +4384,7 @@ return
 NS_OK
 ;
 }
-PRUint32
+PRUint64
 nsOggDecoder
 :
 :
@@ -4429,7 +4429,7 @@ nsOggDecoder
 :
 UpdateBytesDownloaded
 (
-PRUint32
+PRUint64
 aBytes
 )
 {

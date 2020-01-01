@@ -261,7 +261,7 @@ const
 0
 ;
 virtual
-PRUint32
+PRUint64
 GetBytesLoaded
 (
 )
@@ -317,7 +317,7 @@ virtual
 void
 UpdateBytesDownloaded
 (
-PRUint32
+PRUint64
 aBytes
 )
 =

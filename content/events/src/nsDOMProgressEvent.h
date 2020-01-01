@@ -53,10 +53,10 @@ private
 PRBool
 mLengthComputable
 ;
-PRUint32
+PRUint64
 mLoaded
 ;
-PRUint32
+PRUint64
 mTotal
 ;
 }

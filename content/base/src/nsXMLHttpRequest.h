@@ -1461,10 +1461,10 @@ nsXMLHttpRequestUpload
 >
 mUpload
 ;
-PRUint32
+PRUint64
 mUploadTransferred
 ;
-PRUint32
+PRUint64
 mUploadTotal
 ;
 PRPackedBool
