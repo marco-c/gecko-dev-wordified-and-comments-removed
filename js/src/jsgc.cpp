@@ -8359,6 +8359,9 @@ rt
 gcPoke
 )
 ;
+#
+ifdef
+JS_TRACER
 if
 (
 rt
@@ -8380,6 +8383,8 @@ useReservedObjects
 goto
 testReservedObjects
 ;
+#
+endif
 #
 endif
 arenaList
@@ -10215,7 +10220,6 @@ JS_TRUE
 }
 #
 endif
-JS_TRACER
 JSBool
 js_AddAsGCBytes
 (
