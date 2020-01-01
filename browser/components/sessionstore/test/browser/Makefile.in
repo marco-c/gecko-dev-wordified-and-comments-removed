@@ -488,6 +488,10 @@ bug
 _BROWSER_TEST_FILES
 =
 \
+head
+.
+js
+\
 browser_248970_a
 .
 js
@@ -815,6 +819,12 @@ browser_600545
 js
 \
 browser_607016
+.
+js
+\
+browser_615394
+-
+SSWindowState_events
 .
 js
 \
