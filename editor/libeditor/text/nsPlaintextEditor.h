@@ -503,7 +503,7 @@ aSelect
 eNone
 )
 ;
-NS_IMETHOD
+nsresult
 CreateBRImpl
 (
 nsCOMPtr
