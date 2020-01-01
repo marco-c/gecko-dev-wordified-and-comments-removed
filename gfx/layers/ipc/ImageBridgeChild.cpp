@@ -2619,7 +2619,6 @@ nullptr
 gc
 aSize
 false
-false
 )
 ;
 return
@@ -3307,10 +3306,11 @@ const
 gfxIntSize
 &
 aSize
-uint32_t
-aFormat
-uint32_t
-aUsage
+gfxASurface
+:
+:
+gfxContentType
+aContent
 MaybeMagicGrallocBufferHandle
 *
 aHandle
@@ -3323,8 +3323,10 @@ return
 SendPGrallocBufferConstructor
 (
 aSize
-aFormat
-aUsage
+aContent
+GRALLOC_USAGE_SW_READ_OFTEN
+|
+GRALLOC_USAGE_SW_WRITE_OFTEN
 aHandle
 )
 ;

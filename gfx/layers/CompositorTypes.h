@@ -73,12 +73,6 @@ ComponentAlpha
 =
 0x40
 ;
-const
-TextureFlags
-OwnByClient
-=
-0x80
-;
 enum
 TextureClientType
 {

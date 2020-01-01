@@ -88,10 +88,7 @@ const
 gfxIntSize
 &
 const
-uint32_t
-&
-const
-uint32_t
+gfxContentType
 &
 MaybeMagicGrallocBufferHandle
 *
