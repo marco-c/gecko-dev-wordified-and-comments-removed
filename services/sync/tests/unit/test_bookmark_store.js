@@ -354,6 +354,15 @@ createRecord
 fxrecord
 .
 id
+"
+http
+:
+/
+/
+fake
+/
+uri
+"
 )
 ;
 for

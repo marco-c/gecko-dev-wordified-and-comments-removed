@@ -466,6 +466,17 @@ rec
 new
 WBORecord
 (
+"
+http
+:
+/
+/
+localhost
+:
+8080
+/
+record
+"
 )
 ;
 rec
