@@ -8470,6 +8470,7 @@ mDBGetPageAnnotationValue
 ;
 NS_ENSURE_STATE
 (
+*
 _statement
 )
 ;
@@ -8854,6 +8855,7 @@ mDBAddPageAnnotation
 ;
 NS_ENSURE_STATE
 (
+*
 _statement
 )
 ;
