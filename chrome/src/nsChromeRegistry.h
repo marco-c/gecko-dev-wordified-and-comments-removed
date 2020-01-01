@@ -178,6 +178,12 @@ mInitialized
 PR_FALSE
 )
 {
+mPackagesHash
+.
+ops
+=
+nsnull
+;
 }
 ~
 nsChromeRegistry
