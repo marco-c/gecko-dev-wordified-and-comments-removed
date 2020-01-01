@@ -821,12 +821,15 @@ SetCheckedChangedInternal
 (
 PRBool
 aCheckedChanged
+PRBool
+aNotify
 )
 ;
 PRBool
 GetCheckedChanged
 (
 )
+const
 ;
 void
 AddedToRadioGroup
