@@ -153,6 +153,14 @@ PTestShellChild
 )
 ;
 virtual
+bool
+RecvPTestShellConstructor
+(
+PTestShellChild
+*
+)
+;
+virtual
 PNeckoChild
 *
 AllocPNecko

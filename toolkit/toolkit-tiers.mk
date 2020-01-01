@@ -629,6 +629,11 @@ tier_platform_dirs
 +
 =
 ipc
+js
+/
+src
+/
+ipc
 endif
 tier_platform_dirs
 +

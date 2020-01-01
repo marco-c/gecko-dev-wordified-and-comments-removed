@@ -609,6 +609,8 @@ STATIC_LIBS
 +
 =
 \
+jsipc_s
+\
 domipc_s
 \
 domplugins_s
