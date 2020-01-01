@@ -200,6 +200,7 @@ isFree
 enum
 ParseNodeKind
 {
+PNK_NOP
 PNK_SEMI
 PNK_COMMA
 PNK_CONDITIONAL
