@@ -353,7 +353,7 @@ rv
 file
 -
 >
-InitInternal
+InitBlob
 (
 aCx
 aArgc
