@@ -43,7 +43,7 @@ Atomic32
 ;
 #
 ifdef
-CPU_ARCH_64_BITS
+ARCH_CPU_64_BITS
 typedef
 int64
 Atomic64
@@ -196,7 +196,7 @@ ptr
 ;
 #
 ifdef
-CPU_ARCH_64_BITS
+ARCH_CPU_64_BITS
 Atomic64
 NoBarrier_CompareAndSwap
 (

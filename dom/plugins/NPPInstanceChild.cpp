@@ -438,12 +438,15 @@ OS_LINUX
 GdkNativeWindow
 handle
 =
+reinterpret_cast
+<
+uintptr_t
+>
 (
-GdkNativeWindow
-)
 aWindow
 .
 window
+)
 ;
 GdkWindow
 *
