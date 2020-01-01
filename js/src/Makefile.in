@@ -1991,10 +1991,10 @@ ifeq
 (
 (
 filter
--
-out
-powerpc
-sparc
+arm
+%
+86
+x86_64
 (
 TARGET_CPU
 )
