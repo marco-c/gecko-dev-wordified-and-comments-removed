@@ -455,6 +455,10 @@ browser_bug567487
 .
 js
 \
+browser_bug705422
+.
+js
+\
 privacypane_tests
 .
 js
