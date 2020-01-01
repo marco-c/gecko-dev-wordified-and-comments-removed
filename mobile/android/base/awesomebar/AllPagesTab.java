@@ -338,12 +338,6 @@ String
 mSuggestTask
 ;
 private
-ListView
-mView
-=
-null
-;
-private
 AwesomeBarCursorAdapter
 mCursorAdapter
 =
@@ -595,7 +589,12 @@ getCursorAdapter
 (
 )
 ;
+(
+(
+ListView
+)
 mView
+)
 .
 setAdapter
 (
@@ -611,6 +610,9 @@ mListListener
 ;
 }
 return
+(
+ListView
+)
 mView
 ;
 }

@@ -314,12 +314,6 @@ mQueryTask
 null
 ;
 private
-ExpandableListView
-mView
-=
-null
-;
-private
 HistoryListAdapter
 mCursorAdapter
 =
@@ -538,7 +532,12 @@ setOnTouchListener
 mListListener
 )
 ;
+(
+(
+ExpandableListView
+)
 mView
+)
 .
 setAdapter
 (
@@ -563,6 +562,9 @@ execute
 ;
 }
 return
+(
+ListView
+)
 mView
 ;
 }
