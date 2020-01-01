@@ -3888,7 +3888,7 @@ grid
 seltype
 =
 "
-single
+multiple
 "
 flex
 =
@@ -3969,7 +3969,7 @@ grid
 seltype
 =
 "
-single
+multiple
 "
 flex
 =
@@ -4035,7 +4035,7 @@ grid
 seltype
 =
 "
-single
+multiple
 "
 flex
 =
@@ -4116,7 +4116,7 @@ grid
 seltype
 =
 "
-single
+multiple
 "
 flex
 =
@@ -4628,8 +4628,6 @@ hidden
 pending
 #
 800996
-#
-831918
 -
 -
 >
