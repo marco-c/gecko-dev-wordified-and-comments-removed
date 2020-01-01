@@ -10555,7 +10555,7 @@ GetUnit
 )
 {
 return
-NSToCoordFloor
+NSToCoordFloorClamped
 (
 aContainingBlockWidth
 *
@@ -10771,7 +10771,7 @@ zero
 ;
 result
 =
-NSToCoordFloor
+NSToCoordFloorClamped
 (
 aContainingBlockWidth
 *
@@ -11048,7 +11048,7 @@ aContainingBlockHeight
 )
 {
 return
-NSToCoordFloor
+NSToCoordFloorClamped
 (
 aContainingBlockHeight
 *
