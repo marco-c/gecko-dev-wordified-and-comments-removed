@@ -722,7 +722,7 @@ JSVAL_VOID
 ;
 dslots
 =
-NULL
+DSLOTS_NULL_INIT
 ;
 }
 JSBool
@@ -1388,12 +1388,10 @@ obj
 )
 \
 (
+DSLOTS_IS_NOT_NULL
 (
 obj
 )
--
->
-dslots
 ?
 (
 uint32
@@ -2802,10 +2800,10 @@ obj
 {
 if
 (
+DSLOTS_IS_NOT_NULL
+(
 obj
--
->
-dslots
+)
 )
 js_ShrinkSlots
 (
