@@ -346,7 +346,7 @@ sessionhistory
 .
 max_total_viewers
 "
-0
+1
 )
 ;
 pref
