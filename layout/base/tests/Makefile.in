@@ -85,6 +85,8 @@ PARALLEL_DIRS
 \
 chrome
 \
+invalidation
+\
 (
 NULL
 )
