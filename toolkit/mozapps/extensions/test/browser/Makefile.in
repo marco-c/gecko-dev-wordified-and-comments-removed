@@ -679,6 +679,10 @@ browser_select_selection
 .
 js
 \
+browser_select_compatoverrides
+.
+js
+\
 browser_select_confirm
 .
 js
@@ -713,6 +717,10 @@ browser_bug557956_9_2
 .
 xpi
 \
+browser_bug557956
+.
+xml
+\
 browser_bug591465
 .
 xml
@@ -726,6 +734,10 @@ browser_searching
 xml
 \
 browser_searching_empty
+.
+xml
+\
+browser_select_compatoverrides
 .
 xml
 \
