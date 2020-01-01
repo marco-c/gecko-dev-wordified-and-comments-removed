@@ -199,7 +199,17 @@ example
 .
 com
 /
-mylocale
+browser
+/
+mobile
+/
+chrome
+/
+tests
+/
+addons
+/
+browser_locale1
 .
 xpi
 "
@@ -242,9 +252,7 @@ id
 "
 langpack
 -
-test
--
-1
+test1
 firefox
 -
 mobile
@@ -274,6 +282,7 @@ name
 "
 Test
 Locale
+1
 "
 "
 Locale
@@ -315,7 +324,7 @@ addon
 .
 targetLocale
 "
-test
+test1
 "
 "
 Locale

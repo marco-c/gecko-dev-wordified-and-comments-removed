@@ -600,6 +600,10 @@ browser_history
 .
 js
 \
+browser_localepicker
+.
+js
+\
 browser_mainui
 .
 js
