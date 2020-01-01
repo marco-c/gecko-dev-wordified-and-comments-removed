@@ -185,11 +185,6 @@ sampleRate
 ;
 readonly
 attribute
-double
-currentTime
-;
-readonly
-attribute
 AudioListener
 listener
 ;

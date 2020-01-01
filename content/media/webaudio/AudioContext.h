@@ -109,14 +109,6 @@ nsIDOMWindow
 .
 h
 "
-#
-ifdef
-CurrentTime
-#
-undef
-CurrentTime
-#
-endif
 struct
 JSContext
 ;
@@ -279,12 +271,6 @@ IdealAudioRate
 )
 ;
 }
-double
-CurrentTime
-(
-)
-const
-;
 AudioListener
 *
 Listener
