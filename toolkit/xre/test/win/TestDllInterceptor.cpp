@@ -718,6 +718,9 @@ TrackPopupMenu
 )
 &
 &
+#
+ifdef
+_M_IX86
 TestHook
 (
 "
@@ -731,6 +734,8 @@ NtFlushBuffersFile
 )
 &
 &
+#
+endif
 TestHook
 (
 "
