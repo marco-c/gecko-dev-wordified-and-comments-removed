@@ -6466,6 +6466,9 @@ PR_FALSE
 if
 (
 mShell
+&
+&
+mShell
 -
 >
 StyleSet
