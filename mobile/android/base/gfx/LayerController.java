@@ -636,7 +636,7 @@ mPanZoomController
 .
 geometryChanged
 (
-false
+true
 )
 ;
 mView
