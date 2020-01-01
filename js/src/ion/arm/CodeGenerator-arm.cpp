@@ -130,9 +130,6 @@ LTableSwitch
 *
 lswitch
 ;
-Assembler
-:
-:
 BufferOffset
 off
 ;
@@ -143,9 +140,6 @@ DeferredJumpTable
 LTableSwitch
 *
 lswitch
-Assembler
-:
-:
 BufferOffset
 off_
 )
