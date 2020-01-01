@@ -715,7 +715,7 @@ differently
 *
 /
 nsIURI
-GetObjectBaseURI
+getObjectBaseURI
 (
 in
 ACString
