@@ -667,6 +667,10 @@ test_SVGMatrix
 .
 xhtml
 \
+test_SVGNumberList
+.
+xhtml
+\
 test_SVGPathSegList
 .
 xhtml
