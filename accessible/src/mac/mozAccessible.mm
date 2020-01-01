@@ -156,6 +156,13 @@ h
 #
 include
 "
+nsIPersistentProperties2
+.
+h
+"
+#
+include
+"
 Relation
 .
 h

@@ -112,6 +112,13 @@ nsIMutableArray
 .
 h
 "
+#
+include
+"
+nsIPersistentProperties2
+.
+h
+"
 using
 namespace
 mozilla

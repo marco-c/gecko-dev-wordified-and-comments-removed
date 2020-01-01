@@ -6,11 +6,11 @@ define
 mozilla_a11y_TreeWalker_h_
 #
 include
-"
-nsAutoPtr
+<
+stdint
 .
 h
-"
+>
 class
 nsIContent
 ;
