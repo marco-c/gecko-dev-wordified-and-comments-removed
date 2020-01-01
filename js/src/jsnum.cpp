@@ -517,7 +517,7 @@ char
 cx
 -
 >
-malloc
+malloc_
 (
 length
 +
@@ -675,7 +675,7 @@ cx
 cx
 -
 >
-free
+free_
 (
 cstr
 )
@@ -706,7 +706,7 @@ js_PositiveInfinity
 cx
 -
 >
-free
+free_
 (
 cstr
 )
@@ -3108,7 +3108,10 @@ if
 (
 dbuf
 )
-js_free
+UnwantedForeground
+:
+:
+free_
 (
 dbuf
 )
@@ -4149,7 +4152,7 @@ char
 cx
 -
 >
-malloc
+malloc_
 (
 buflen
 +
@@ -4425,7 +4428,7 @@ vp
 cx
 -
 >
-free
+free_
 (
 buf
 )
@@ -4446,7 +4449,7 @@ buflen
 cx
 -
 >
-free
+free_
 (
 buf
 )
@@ -5551,7 +5554,7 @@ runtime
 cx
 -
 >
-free
+free_
 (
 (
 void
@@ -5566,7 +5569,7 @@ thousandsSeparator
 cx
 -
 >
-free
+free_
 (
 (
 void
@@ -5581,7 +5584,7 @@ decimalSeparator
 cx
 -
 >
-free
+free_
 (
 (
 void
@@ -7378,7 +7381,7 @@ char
 cx
 -
 >
-malloc
+malloc_
 (
 length
 +
@@ -7588,7 +7591,7 @@ cbuf
 cx
 -
 >
-free
+free_
 (
 cstr
 )

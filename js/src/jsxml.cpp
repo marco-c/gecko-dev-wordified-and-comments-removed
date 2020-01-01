@@ -1747,7 +1747,7 @@ jschar
 cx
 -
 >
-malloc
+malloc_
 (
 (
 length
@@ -1797,7 +1797,7 @@ strChars
 cx
 -
 >
-free
+free_
 (
 chars
 )
@@ -1842,7 +1842,7 @@ str
 cx
 -
 >
-free
+free_
 (
 chars
 )
@@ -4107,13 +4107,16 @@ cx
 cx
 -
 >
-free
+free_
 (
 vector
 )
 ;
 else
-js_free
+Foreground
+:
+:
+free_
 (
 vector
 )
@@ -4168,7 +4171,10 @@ void
 *
 *
 )
-js_realloc
+OffTheBooks
+:
+:
+realloc_
 (
 vector
 newCapacity
@@ -4253,7 +4259,7 @@ cx
 cx
 -
 >
-free
+free_
 (
 vector
 )
@@ -4548,7 +4554,10 @@ void
 *
 *
 )
-js_realloc
+cx
+-
+>
+realloc_
 (
 array
 -
@@ -5000,7 +5009,7 @@ vector
 cx
 -
 >
-free
+free_
 (
 array
 -
@@ -5022,7 +5031,10 @@ void
 *
 *
 )
-js_realloc
+cx
+-
+>
+realloc_
 (
 array
 -
@@ -8510,7 +8522,7 @@ jschar
 cx
 -
 >
-malloc
+malloc_
 (
 (
 length
@@ -8619,7 +8631,7 @@ srcp
 cx
 -
 >
-free
+free_
 (
 chars
 )
@@ -8879,7 +8891,7 @@ scopeChain
 cx
 -
 >
-free
+free_
 (
 chars
 )
@@ -8954,7 +8966,7 @@ flags
 cx
 -
 >
-free
+free_
 (
 chars
 )
@@ -11268,7 +11280,7 @@ jschar
 cx
 -
 >
-malloc
+malloc_
 (
 (
 newlength
@@ -11442,7 +11454,7 @@ jschar
 cx
 -
 >
-malloc
+malloc_
 (
 (
 newlength
@@ -11620,7 +11632,7 @@ prefix
 cx
 -
 >
-free
+free_
 (
 bp
 )
@@ -24238,7 +24250,7 @@ cursor
 cx
 -
 >
-create
+new_
 <
 JSXMLArrayCursor
 >
@@ -24396,7 +24408,7 @@ cursor
 cx
 -
 >
-destroy
+delete_
 (
 cursor
 )
@@ -37212,7 +37224,7 @@ jschar
 cx
 -
 >
-malloc
+malloc_
 (
 (
 newlen
@@ -38556,7 +38568,7 @@ return
 cx
 -
 >
-destroy
+delete_
 (
 filter
 )
@@ -38807,7 +38819,7 @@ filter
 cx
 -
 >
-create
+new_
 <
 JSXMLFilter
 >

@@ -497,6 +497,10 @@ testLookup
 .
 cpp
 \
+testLooselyEqual
+.
+cpp
+\
 testNewObject
 .
 cpp
@@ -506,6 +510,10 @@ testOps
 cpp
 \
 testPropCache
+.
+cpp
+\
+testRegExpInstanceProperties
 .
 cpp
 \
@@ -522,6 +530,10 @@ testScriptObject
 cpp
 \
 testSetProperty
+.
+cpp
+\
+testStringBuffer
 .
 cpp
 \

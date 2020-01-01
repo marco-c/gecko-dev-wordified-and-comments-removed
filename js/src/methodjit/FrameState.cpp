@@ -204,7 +204,7 @@ endif
 cx
 -
 >
-free
+free_
 (
 a
 )
@@ -575,7 +575,7 @@ uint8
 cx
 -
 >
-calloc
+calloc_
 (
 totalBytes
 )
@@ -630,7 +630,7 @@ nentries
 cx
 -
 >
-free
+free_
 (
 newa
 )
@@ -1458,7 +1458,7 @@ endif
 cx
 -
 >
-free
+free_
 (
 a
 )
@@ -3878,7 +3878,7 @@ LoopState
 cx
 -
 >
-calloc
+calloc_
 (
 sizeof
 (
@@ -4152,7 +4152,7 @@ outer
 cx
 -
 >
-free
+free_
 (
 activeLoop
 )

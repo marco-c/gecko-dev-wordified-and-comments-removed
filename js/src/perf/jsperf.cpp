@@ -128,7 +128,10 @@ PerfMeasurement
 *
 p
 =
-js_new
+cx
+-
+>
+new_
 <
 PerfMeasurement
 >
@@ -188,7 +191,10 @@ JSObject
 obj
 )
 {
-js_delete
+cx
+-
+>
+delete_
 (
 (
 PerfMeasurement
