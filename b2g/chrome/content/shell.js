@@ -293,9 +293,6 @@ permissions
 [
 '
 indexedDB
-'
-'
-indexedDB
 -
 unlimited
 '
