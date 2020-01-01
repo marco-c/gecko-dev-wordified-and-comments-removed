@@ -899,6 +899,10 @@ nsXULAppAPI
 .
 h
 \
+nsXREAppData
+.
+h
+\
 (
 NULL
 )
