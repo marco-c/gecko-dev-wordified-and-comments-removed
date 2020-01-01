@@ -1054,6 +1054,10 @@ jsstddef
 .
 h
 \
+jsstdint
+.
+h
+\
 jsstr
 .
 h

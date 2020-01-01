@@ -55,3 +55,15 @@ altoptions
 m4
 )
 dnl
+builtin
+(
+include
+build
+/
+autoconf
+/
+moznbytetype
+.
+m4
+)
+dnl

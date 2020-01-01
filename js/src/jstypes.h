@@ -12,6 +12,13 @@ stddef
 h
 >
 #
+include
+"
+jsstdint
+.
+h
+"
+#
 ifdef
 WIN32
 #
