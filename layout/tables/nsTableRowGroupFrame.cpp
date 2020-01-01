@@ -5111,6 +5111,13 @@ GetFirstRow
 (
 )
 ;
+aTableFrame
+-
+>
+SetGeometryDirty
+(
+)
+;
 for
 (
 nsTableRowFrame
