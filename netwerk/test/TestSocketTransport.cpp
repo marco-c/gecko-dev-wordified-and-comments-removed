@@ -196,7 +196,7 @@ nsIInputStreamCallback
 {
 public
 :
-NS_DECL_ISUPPORTS
+NS_DECL_THREADSAFE_ISUPPORTS
 MyHandler
 (
 const
@@ -565,7 +565,7 @@ mWriteOffset
 ;
 }
 ;
-NS_IMPL_THREADSAFE_ISUPPORTS2
+NS_IMPL_ISUPPORTS2
 (
 MyHandler
 nsIOutputStreamCallback

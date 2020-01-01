@@ -93,11 +93,11 @@ mozilla
 namespace
 net
 {
-NS_IMPL_THREADSAFE_ADDREF
+NS_IMPL_ADDREF
 (
 SpdySession2
 )
-NS_IMPL_THREADSAFE_RELEASE
+NS_IMPL_RELEASE
 (
 SpdySession2
 )

@@ -118,7 +118,7 @@ nsIDNSListener
 {
 public
 :
-NS_DECL_ISUPPORTS
+NS_DECL_THREADSAFE_ISUPPORTS
 myDNSListener
 (
 const
@@ -310,7 +310,7 @@ mIndex
 ;
 }
 ;
-NS_IMPL_THREADSAFE_ISUPPORTS1
+NS_IMPL_ISUPPORTS1
 (
 myDNSListener
 nsIDNSListener

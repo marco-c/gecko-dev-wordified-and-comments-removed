@@ -122,7 +122,7 @@ nsIInputStream
 {
 public
 :
-NS_DECL_ISUPPORTS
+NS_DECL_THREADSAFE_ISUPPORTS
 NS_DECL_NSITRANSPORT
 NS_DECL_NSIINPUTSTREAM
 nsInputStreamTransport
@@ -208,7 +208,7 @@ mInProgress
 ;
 }
 ;
-NS_IMPL_THREADSAFE_ISUPPORTS2
+NS_IMPL_ISUPPORTS2
 (
 nsInputStreamTransport
 nsITransport
@@ -714,7 +714,7 @@ nsIOutputStream
 {
 public
 :
-NS_DECL_ISUPPORTS
+NS_DECL_THREADSAFE_ISUPPORTS
 NS_DECL_NSITRANSPORT
 NS_DECL_NSIOUTPUTSTREAM
 nsOutputStreamTransport
@@ -800,7 +800,7 @@ mInProgress
 ;
 }
 ;
-NS_IMPL_THREADSAFE_ISUPPORTS2
+NS_IMPL_ISUPPORTS2
 (
 nsOutputStreamTransport
 nsITransport
@@ -1437,7 +1437,7 @@ return
 NS_OK
 ;
 }
-NS_IMPL_THREADSAFE_ISUPPORTS3
+NS_IMPL_ISUPPORTS3
 (
 nsStreamTransportService
 nsIStreamTransportService

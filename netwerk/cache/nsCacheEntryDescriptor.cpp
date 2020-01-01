@@ -222,7 +222,7 @@ mThread
 ;
 }
 ;
-NS_IMPL_THREADSAFE_ISUPPORTS2
+NS_IMPL_ISUPPORTS2
 (
 nsCacheEntryDescriptor
 nsICacheEntryDescriptor
@@ -2620,7 +2620,7 @@ visitor
 )
 ;
 }
-NS_IMPL_THREADSAFE_ADDREF
+NS_IMPL_ADDREF
 (
 nsCacheEntryDescriptor
 :
@@ -2694,10 +2694,9 @@ release
 ;
 count
 =
-NS_AtomicDecrementRefcnt
-(
+-
+-
 mRefCnt
-)
 ;
 NS_LOG_RELEASE
 (
@@ -3417,7 +3416,7 @@ return
 NS_OK
 ;
 }
-NS_IMPL_THREADSAFE_ADDREF
+NS_IMPL_ADDREF
 (
 nsCacheEntryDescriptor
 :
@@ -3491,10 +3490,9 @@ release
 ;
 count
 =
-NS_AtomicDecrementRefcnt
-(
+-
+-
 mRefCnt
-)
 ;
 NS_LOG_RELEASE
 (
@@ -4157,7 +4155,7 @@ return
 NS_OK
 ;
 }
-NS_IMPL_THREADSAFE_ADDREF
+NS_IMPL_ADDREF
 (
 nsCacheEntryDescriptor
 :
@@ -4231,10 +4229,9 @@ release
 ;
 count
 =
-NS_AtomicDecrementRefcnt
-(
+-
+-
 mRefCnt
-)
 ;
 NS_LOG_RELEASE
 (
@@ -5047,7 +5044,7 @@ return
 NS_OK
 ;
 }
-NS_IMPL_THREADSAFE_ADDREF
+NS_IMPL_ADDREF
 (
 nsCacheEntryDescriptor
 :
@@ -5121,10 +5118,9 @@ release
 ;
 count
 =
-NS_AtomicDecrementRefcnt
-(
+-
+-
 mRefCnt
-)
 ;
 NS_LOG_RELEASE
 (

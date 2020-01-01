@@ -371,7 +371,7 @@ nsWyciwygChannel
 )
 {
 }
-NS_IMPL_THREADSAFE_ISUPPORTS7
+NS_IMPL_ISUPPORTS7
 (
 nsWyciwygChannel
 nsIChannel

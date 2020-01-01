@@ -73,7 +73,7 @@ nsBaseURLParser
 {
 public
 :
-NS_DECL_ISUPPORTS
+NS_DECL_THREADSAFE_ISUPPORTS
 #
 if
 defined
@@ -174,7 +174,7 @@ nsBaseURLParser
 {
 public
 :
-NS_DECL_ISUPPORTS
+NS_DECL_THREADSAFE_ISUPPORTS
 virtual
 ~
 nsAuthURLParser

@@ -318,7 +318,7 @@ nsICancelable
 {
 public
 :
-NS_DECL_ISUPPORTS
+NS_DECL_THREADSAFE_ISUPPORTS
 nsAsyncResolveRequest
 (
 nsProtocolProxyService
@@ -1050,7 +1050,7 @@ mProxyInfo
 ;
 }
 ;
-NS_IMPL_THREADSAFE_ISUPPORTS2
+NS_IMPL_ISUPPORTS2
 (
 nsAsyncResolveRequest
 nsICancelable
@@ -4331,7 +4331,7 @@ MOZ_FINAL
 public
 nsPACManCallback
 {
-NS_DECL_ISUPPORTS
+NS_DECL_THREADSAFE_ISUPPORTS
 nsAsyncBridgeRequest
 (
 )
@@ -4471,7 +4471,7 @@ mCompleted
 ;
 }
 ;
-NS_IMPL_THREADSAFE_ISUPPORTS1
+NS_IMPL_ISUPPORTS1
 (
 nsAsyncBridgeRequest
 nsPACManCallback

@@ -51,7 +51,7 @@ gWifiMonitorLog
 PR_LOG_DEBUG
 args
 )
-NS_IMPL_THREADSAFE_ISUPPORTS1
+NS_IMPL_ISUPPORTS1
 (
 nsWifiAccessPoint
 nsIWifiAccessPoint

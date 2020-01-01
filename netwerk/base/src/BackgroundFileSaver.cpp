@@ -2126,7 +2126,7 @@ return
 NS_OK
 ;
 }
-NS_IMPL_THREADSAFE_ISUPPORTS4
+NS_IMPL_ISUPPORTS4
 (
 BackgroundFileSaverOutputStream
 nsIBackgroundFileSaver
@@ -2428,7 +2428,7 @@ this
 )
 ;
 }
-NS_IMPL_THREADSAFE_ISUPPORTS3
+NS_IMPL_ISUPPORTS3
 (
 BackgroundFileSaverStreamListener
 nsIBackgroundFileSaver
@@ -2952,7 +2952,7 @@ return
 NS_OK
 ;
 }
-NS_IMPL_THREADSAFE_ISUPPORTS1
+NS_IMPL_ISUPPORTS1
 (
 DigestOutputStream
 nsIOutputStream

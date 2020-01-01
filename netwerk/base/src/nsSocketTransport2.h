@@ -198,7 +198,10 @@ nsSocketTransport
 *
 mTransport
 ;
-nsrefcnt
+mozilla
+:
+:
+ThreadSafeAutoRefCnt
 mReaderRefCnt
 ;
 nsresult
@@ -303,7 +306,10 @@ nsSocketTransport
 *
 mTransport
 ;
-nsrefcnt
+mozilla
+:
+:
+ThreadSafeAutoRefCnt
 mWriterRefCnt
 ;
 nsresult
@@ -344,7 +350,7 @@ Mutex
 ;
 public
 :
-NS_DECL_ISUPPORTS
+NS_DECL_THREADSAFE_ISUPPORTS
 NS_DECL_NSITRANSPORT
 NS_DECL_NSISOCKETTRANSPORT
 NS_DECL_NSIDNSLISTENER

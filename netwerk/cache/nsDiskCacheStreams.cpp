@@ -128,7 +128,7 @@ nsDiskCacheInputStream
 (
 )
 ;
-NS_DECL_ISUPPORTS
+NS_DECL_THREADSAFE_ISUPPORTS
 NS_DECL_NSIINPUTSTREAM
 private
 :
@@ -156,7 +156,7 @@ mClosed
 ;
 }
 ;
-NS_IMPL_THREADSAFE_ISUPPORTS1
+NS_IMPL_ISUPPORTS1
 (
 nsDiskCacheInputStream
 nsIInputStream
@@ -687,7 +687,7 @@ return
 NS_OK
 ;
 }
-NS_IMPL_THREADSAFE_ISUPPORTS1
+NS_IMPL_ISUPPORTS1
 (
 nsDiskCacheStreamIO
 nsIOutputStream
