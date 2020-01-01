@@ -802,9 +802,11 @@ from
 #
 mozilla
 /
-xpinstall
+toolkit
 /
-packager
+mozapps
+/
+installer
 .
 top_path
 =
