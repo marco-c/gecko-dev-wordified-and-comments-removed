@@ -585,6 +585,17 @@ ReadEntireStore
 ;
 private
 :
+static
+const
+int
+BUFFER_SIZE
+=
+6
+*
+1024
+*
+1024
+;
 void
 Clear
 (

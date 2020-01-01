@@ -218,11 +218,6 @@ DropStores
 )
 ;
 nsresult
-RegenActiveTables
-(
-)
-;
-nsresult
 ScanStoreDir
 (
 nsTArray
@@ -289,12 +284,6 @@ LookupCache
 *
 >
 mLookupCaches
-;
-nsTArray
-<
-nsCString
->
-mActiveTablesCache
 ;
 PRUint32
 mHashKey
