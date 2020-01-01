@@ -97,10 +97,6 @@ EXPORTS_mozilla
 +
 =
 \
-ASan
-.
-h
-\
 Assertions
 .
 h
@@ -158,6 +154,10 @@ LinkedList
 h
 \
 MathAlgorithms
+.
+h
+\
+MemoryChecking
 .
 h
 \
