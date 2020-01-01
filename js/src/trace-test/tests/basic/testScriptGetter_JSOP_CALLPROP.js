@@ -67,6 +67,10 @@ qqqqqqqqq
 '
 )
 ;
+if
+(
+jitstats
+)
 print
 (
 uneval
