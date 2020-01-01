@@ -67,13 +67,6 @@ h
 #
 include
 "
-jsbit
-.
-h
-"
-#
-include
-"
 jscntxt
 .
 h
@@ -2233,7 +2226,7 @@ listc
 endif
 global_locks_log2
 =
-JS_CeilingLog2
+JS_CEILING_LOG2W
 (
 globc
 )

@@ -181,13 +181,6 @@ h
 #
 include
 "
-jsvector
-.
-h
-"
-#
-include
-"
 vm
 /
 Debugger
@@ -21587,7 +21580,7 @@ localNames
 ;
 LOCAL_ASSERT
 (
-JS_UPTRDIFF
+UnsignedPtrDiff
 (
 pc
 outer

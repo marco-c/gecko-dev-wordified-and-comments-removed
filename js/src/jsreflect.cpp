@@ -50,13 +50,6 @@ h
 #
 include
 "
-jsbit
-.
-h
-"
-#
-include
-"
 jsscript
 .
 h
@@ -72,13 +65,6 @@ h
 include
 "
 jsparse
-.
-h
-"
-#
-include
-"
-jsvector
 .
 h
 "

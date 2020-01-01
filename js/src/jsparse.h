@@ -3317,7 +3317,7 @@ lengthMask
 =
 JS_BITMASK
 (
-JS_CeilingLog2
+JS_CEILING_LOG2W
 (
 count
 )

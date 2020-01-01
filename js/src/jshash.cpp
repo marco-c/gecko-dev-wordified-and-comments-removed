@@ -29,13 +29,6 @@ h
 #
 include
 "
-jsbit
-.
-h
-"
-#
-include
-"
 jsutil
 .
 h
@@ -289,7 +282,7 @@ else
 {
 n
 =
-JS_CeilingLog2
+JS_CEILING_LOG2W
 (
 n
 )
@@ -1859,7 +1852,7 @@ nbuckets
 {
 newlog2
 =
-JS_CeilingLog2
+JS_CEILING_LOG2W
 (
 ht
 -

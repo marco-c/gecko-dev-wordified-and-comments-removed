@@ -2189,7 +2189,7 @@ entry
 {
 if
 (
-JS_UPTRDIFF
+UnsignedPtrDiff
 (
 entry
 -

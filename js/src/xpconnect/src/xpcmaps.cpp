@@ -5,13 +5,6 @@ xpcprivate
 .
 h
 "
-#
-include
-"
-jsbit
-.
-h
-"
 static
 JSDHashNumber
 HashIIDPtrKey

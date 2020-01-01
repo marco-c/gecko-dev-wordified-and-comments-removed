@@ -7,7 +7,7 @@ jswatchpoint_h___
 #
 include
 "
-jshashtable
+jsalloc
 .
 h
 "
@@ -22,6 +22,15 @@ h
 include
 "
 jsapi
+.
+h
+"
+#
+include
+"
+js
+/
+HashTable
 .
 h
 "

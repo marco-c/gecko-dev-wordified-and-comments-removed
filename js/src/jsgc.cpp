@@ -43,13 +43,6 @@ h
 #
 include
 "
-jsbit
-.
-h
-"
-#
-include
-"
 jsclist
 .
 h
@@ -149,13 +142,6 @@ h
 include
 "
 jsgcmark
-.
-h
-"
-#
-include
-"
-jshashtable
 .
 h
 "
@@ -276,7 +262,7 @@ include
 "
 vm
 /
-String
+Debugger
 .
 h
 "
@@ -285,7 +271,7 @@ include
 "
 vm
 /
-Debugger
+String
 .
 h
 "
@@ -301,7 +287,7 @@ include
 "
 vm
 /
-String
+CallObject
 -
 inl
 .
@@ -312,7 +298,7 @@ include
 "
 vm
 /
-CallObject
+String
 -
 inl
 .

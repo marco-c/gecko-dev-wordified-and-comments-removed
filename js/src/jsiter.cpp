@@ -106,13 +106,6 @@ h
 #
 include
 "
-jshashtable
-.
-h
-"
-#
-include
-"
 jsinterp
 .
 h
@@ -184,13 +177,6 @@ h
 include
 "
 jsstaticcheck
-.
-h
-"
-#
-include
-"
-jsvector
 .
 h
 "

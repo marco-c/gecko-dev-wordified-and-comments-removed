@@ -8,13 +8,6 @@ h
 #
 include
 "
-jsbit
-.
-h
-"
-#
-include
-"
 jsprf
 .
 h
@@ -214,13 +207,6 @@ h
 include
 "
 jsstaticcheck
-.
-h
-"
-#
-include
-"
-jstl
 .
 h
 "
@@ -42381,7 +42367,7 @@ tm
 -
 >
 recorder
-JS_UPTRDIFF
+UnsignedPtrDiff
 (
 tm
 -
@@ -42439,7 +42425,7 @@ popFront
 {
 if
 (
-JS_UPTRDIFF
+UnsignedPtrDiff
 (
 e
 .
@@ -42541,7 +42527,7 @@ fragp
 {
 if
 (
-JS_UPTRDIFF
+UnsignedPtrDiff
 (
 frag
 -
@@ -42710,7 +42696,7 @@ popFront
 {
 if
 (
-JS_UPTRDIFF
+UnsignedPtrDiff
 (
 e
 .
