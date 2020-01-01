@@ -1018,6 +1018,7 @@ replacementText
 =
 "
 AND
++
 h
 .
 visit_count
