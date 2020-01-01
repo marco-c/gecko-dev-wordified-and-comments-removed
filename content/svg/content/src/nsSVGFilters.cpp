@@ -19319,10 +19319,14 @@ NS_ERROR_FAILURE
 SVGFEDistantLightElement
 *
 distantLight
+=
+nullptr
 ;
 SVGFEPointLightElement
 *
 pointLight
+=
+nullptr
 ;
 nsCOMPtr
 <
