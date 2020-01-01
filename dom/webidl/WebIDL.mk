@@ -335,6 +335,10 @@ HTMLTableCaptionElement
 .
 webidl
 \
+HTMLTableCellElement
+.
+webidl
+\
 HTMLTableElement
 .
 webidl
