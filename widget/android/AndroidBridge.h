@@ -1131,6 +1131,8 @@ false
 EGLSurface
 ProvideEGLSurface
 (
+bool
+waitUntilValid
 )
 ;
 bool

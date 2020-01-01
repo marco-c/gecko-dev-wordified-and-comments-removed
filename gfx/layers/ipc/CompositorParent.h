@@ -299,7 +299,7 @@ SchedulePauseOnCompositorThread
 (
 )
 ;
-void
+bool
 ScheduleResumeOnCompositorThread
 (
 int

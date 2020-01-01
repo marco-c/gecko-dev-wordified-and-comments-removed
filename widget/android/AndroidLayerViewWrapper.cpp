@@ -369,6 +369,10 @@ jniFrame
 CheckForException
 (
 )
+|
+|
+!
+jObj
 )
 return
 NULL

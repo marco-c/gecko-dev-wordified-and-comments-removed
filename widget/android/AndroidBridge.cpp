@@ -7666,6 +7666,13 @@ AndroidBridge
 :
 ProvideEGLSurface
 (
+bool
+waitUntilValid
+)
+{
+if
+(
+waitUntilValid
 )
 {
 sController
@@ -7674,6 +7681,7 @@ WaitForValidSurface
 (
 )
 ;
+}
 return
 sController
 .
