@@ -139,8 +139,6 @@ ErrorResult
 aRv
 )
 {
-aRv
-=
 SetDoubleAttr
 (
 nsGkAtoms
@@ -148,6 +146,7 @@ nsGkAtoms
 :
 value
 aValue
+aRv
 )
 ;
 }
@@ -167,8 +166,6 @@ ErrorResult
 aRv
 )
 {
-aRv
-=
 SetDoubleAttr
 (
 nsGkAtoms
@@ -176,6 +173,7 @@ nsGkAtoms
 :
 min
 aValue
+aRv
 )
 ;
 }
@@ -195,8 +193,6 @@ ErrorResult
 aRv
 )
 {
-aRv
-=
 SetDoubleAttr
 (
 nsGkAtoms
@@ -204,6 +200,7 @@ nsGkAtoms
 :
 max
 aValue
+aRv
 )
 ;
 }
@@ -223,8 +220,6 @@ ErrorResult
 aRv
 )
 {
-aRv
-=
 SetDoubleAttr
 (
 nsGkAtoms
@@ -232,6 +227,7 @@ nsGkAtoms
 :
 low
 aValue
+aRv
 )
 ;
 }
@@ -251,8 +247,6 @@ ErrorResult
 aRv
 )
 {
-aRv
-=
 SetDoubleAttr
 (
 nsGkAtoms
@@ -260,6 +254,7 @@ nsGkAtoms
 :
 high
 aValue
+aRv
 )
 ;
 }
@@ -279,8 +274,6 @@ ErrorResult
 aRv
 )
 {
-aRv
-=
 SetDoubleAttr
 (
 nsGkAtoms
@@ -288,6 +281,7 @@ nsGkAtoms
 :
 optimum
 aValue
+aRv
 )
 ;
 }
