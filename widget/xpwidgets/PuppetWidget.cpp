@@ -503,6 +503,11 @@ InitIMEState
 (
 )
 {
+MOZ_ASSERT
+(
+mTabChild
+)
+;
 if
 (
 mNeedIMEStateInit
@@ -511,11 +516,6 @@ mNeedIMEStateInit
 uint32_t
 chromeSeqno
 ;
-if
-(
-mTabChild
-)
-{
 mTabChild
 -
 >
@@ -528,7 +528,6 @@ mIMEPreference
 chromeSeqno
 )
 ;
-}
 mIMELastBlurSeqno
 =
 mIMELastReceivedSeqno
