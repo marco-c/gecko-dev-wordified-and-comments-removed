@@ -9627,7 +9627,7 @@ isDefinitelyObject
 =
 False
                                     
-isSequenceMember
+isMember
 =
 False
                                     
@@ -9772,7 +9772,7 @@ that
 .
     
 if
-isSequenceMember
+isMember
 is
 True
 we
@@ -9780,11 +9780,38 @@ we
 re
 being
 converted
-as
-part
-of
+from
 a
-sequence
+property
+of
+some
+    
+JS
+object
+not
+from
+an
+actual
+method
+argument
+so
+we
+can
+'
+t
+rely
+on
+    
+our
+jsval
+being
+rooted
+or
+outliving
+us
+in
+any
+way
 .
     
 If
@@ -10324,7 +10351,7 @@ isSequence
 :
         
 if
-isSequenceMember
+isMember
 :
             
 raise
@@ -10335,8 +10362,7 @@ Can
 '
 t
 handle
-sequences
-of
+unrooted
 sequences
 "
 )
@@ -10408,7 +10434,7 @@ getJSToNativeConversionTemplate
             
 elementType
 descriptorProvider
-isSequenceMember
+isMember
 =
 True
 )
@@ -10904,7 +10930,7 @@ descriptor
 workers
 )
 or
-isSequenceMember
+isMember
         
 typeName
 =
@@ -11448,7 +11474,7 @@ isSpiderMonkeyInterface
 :
         
 if
-isSequenceMember
+isMember
 :
             
 raise
@@ -11459,8 +11485,7 @@ Can
 '
 t
 handle
-sequences
-of
+member
 arraybuffers
 or
 "
@@ -11927,7 +11952,7 @@ isString
 :
         
 if
-isSequenceMember
+isMember
 :
             
 raise
@@ -11938,9 +11963,18 @@ Can
 '
 t
 handle
-sequences
-of
+member
 strings
+;
+need
+to
+sort
+out
+"
+                            
+"
+rooting
+issues
 "
 )
         
@@ -12256,7 +12290,7 @@ isCallback
 :
         
 if
-isSequenceMember
+isMember
 :
             
 raise
@@ -12267,9 +12301,18 @@ Can
 '
 t
 handle
-sequences
-of
+member
 callbacks
+;
+need
+to
+sort
+out
+"
+                            
+"
+rooting
+issues
 "
 )
         
@@ -12366,7 +12409,7 @@ isAny
 :
         
 if
-isSequenceMember
+isMember
 :
             
 raise
@@ -12377,11 +12420,20 @@ Can
 '
 t
 handle
-sequences
-of
+member
 '
 any
 '
+;
+need
+to
+sort
+out
+"
+                            
+"
+rooting
+issues
 "
 )
         
@@ -12419,7 +12471,7 @@ isObject
 :
         
 if
-isSequenceMember
+isMember
 :
             
 raise
@@ -12430,11 +12482,20 @@ Can
 '
 t
 handle
-sequences
-of
+member
 '
 object
 '
+;
+need
+to
+sort
+out
+"
+                            
+"
+rooting
+issues
 "
 )
         
