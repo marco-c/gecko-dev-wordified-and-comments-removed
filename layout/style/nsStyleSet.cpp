@@ -4779,8 +4779,8 @@ nsIAtom
 aAttribute
 PRInt32
 aModType
-PRUint32
-aStateMask
+PRBool
+aAttrHasChanged
 )
 :
 AttributeRuleProcessorData
@@ -4789,7 +4789,7 @@ aPresContext
 aContent
 aAttribute
 aModType
-aStateMask
+aAttrHasChanged
 )
 mHint
 (
@@ -4874,8 +4874,8 @@ nsIAtom
 aAttribute
 PRInt32
 aModType
-PRUint32
-aStateMask
+PRBool
+aAttrHasChanged
 )
 {
 nsReStyleHint
@@ -4907,7 +4907,7 @@ aPresContext
 aContent
 aAttribute
 aModType
-aStateMask
+aAttrHasChanged
 )
 ;
 WalkRuleProcessors

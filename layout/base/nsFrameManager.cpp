@@ -6799,8 +6799,8 @@ nsIAtom
 aAttribute
 PRInt32
 aModType
-PRUint32
-aStateMask
+PRBool
+aAttrHasChanged
 )
 {
 nsReStyleHint
@@ -6817,11 +6817,14 @@ GetPresContext
 aContent
 aAttribute
 aModType
-aStateMask
+aAttrHasChanged
 )
 ;
 if
 (
+aAttrHasChanged
+&
+&
 aAttribute
 =
 =

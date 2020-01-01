@@ -459,8 +459,8 @@ nsIAtom
 aAttribute
 PRInt32
 aModType
-PRUint32
-aStateMask
+PRBool
+aAttrHasChanged
 )
 ;
 NS_HIDDEN_

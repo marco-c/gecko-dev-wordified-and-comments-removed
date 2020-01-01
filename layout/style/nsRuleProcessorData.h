@@ -587,8 +587,8 @@ nsIAtom
 aAttribute
 PRInt32
 aModType
-PRUint32
-aStateMask
+PRBool
+aAttrHasChanged
 )
 :
 RuleProcessorData
@@ -605,9 +605,9 @@ mModType
 (
 aModType
 )
-mStateMask
+mAttrHasChanged
 (
-aStateMask
+aAttrHasChanged
 )
 {
 NS_PRECONDITION
@@ -636,8 +636,8 @@ mAttribute
 PRInt32
 mModType
 ;
-PRUint32
-mStateMask
+PRBool
+mAttrHasChanged
 ;
 }
 ;
