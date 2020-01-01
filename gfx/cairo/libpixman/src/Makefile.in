@@ -549,12 +549,6 @@ c
 \
 pixman
 -
-timer
-.
-c
-\
-pixman
--
 trap
 .
 c
