@@ -306,7 +306,7 @@ return
 null
 ;
 }
-public
+private
 View
 newView
 (
