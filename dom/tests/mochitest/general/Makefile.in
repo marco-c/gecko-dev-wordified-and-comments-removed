@@ -436,6 +436,14 @@ mk
 _TEST_FILES
 =
 \
+test_outerHTML
+.
+html
+\
+test_outerHTML
+.
+xhtml
+\
 497633
 .
 html
