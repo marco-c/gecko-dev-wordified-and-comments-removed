@@ -99,6 +99,11 @@ gProtoWindow
 static
 GtkWidget
 *
+gProtoLayout
+;
+static
+GtkWidget
+*
 gButtonWidget
 ;
 static
@@ -394,11 +399,6 @@ GtkWidget
 widget
 )
 {
-static
-GtkWidget
-*
-protoLayout
-;
 ensure_window_widget
 (
 )
@@ -406,10 +406,10 @@ ensure_window_widget
 if
 (
 !
-protoLayout
+gProtoLayout
 )
 {
-protoLayout
+gProtoLayout
 =
 gtk_fixed_new
 (
@@ -421,7 +421,7 @@ GTK_CONTAINER
 (
 gProtoWindow
 )
-protoLayout
+gProtoLayout
 )
 ;
 }
@@ -429,7 +429,7 @@ gtk_container_add
 (
 GTK_CONTAINER
 (
-protoLayout
+gProtoLayout
 )
 widget
 )
@@ -13478,6 +13478,10 @@ gProtoWindow
 )
 ;
 gProtoWindow
+=
+NULL
+;
+gProtoLayout
 =
 NULL
 ;
