@@ -272,11 +272,10 @@ false
 info
 (
 "
-clearing
+checking
 \
 "
-only
-user
+Browser
 styles
 \
 "
@@ -300,7 +299,7 @@ querySelector
 (
 "
 .
-onlyuserstyles
+includebrowserstyles
 "
 )
 ;
