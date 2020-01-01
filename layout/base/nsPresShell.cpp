@@ -28642,9 +28642,8 @@ GetCurrentDoc
 (
 )
 )
-&
-&
 !
+=
 nsContentUtils
 :
 :
