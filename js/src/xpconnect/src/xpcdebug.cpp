@@ -2024,9 +2024,11 @@ obj
 {
 if
 (
-OBJ_IS_NATIVE
-(
 obj
+-
+>
+isNative
+(
 )
 )
 printf
@@ -2161,9 +2163,11 @@ return
 if
 (
 !
-OBJ_IS_NATIVE
-(
 obj
+-
+>
+isNative
+(
 )
 )
 return

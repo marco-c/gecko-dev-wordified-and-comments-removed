@@ -35964,7 +35964,7 @@ cval
 pobj
 -
 >
-lockAndGetSlot
+getSlotMT
 (
 cx
 sprop

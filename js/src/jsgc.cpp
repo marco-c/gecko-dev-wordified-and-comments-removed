@@ -12321,9 +12321,11 @@ if
 (
 JS_LIKELY
 (
-OBJ_IS_NATIVE
-(
 obj
+-
+>
+isNative
+(
 )
 )
 )

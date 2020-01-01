@@ -23,7 +23,7 @@ jsval
 JSObject
 :
 :
-lockAndGetSlot
+getSlotMT
 (
 JSContext
 *
@@ -87,7 +87,7 @@ void
 JSObject
 :
 :
-lockAndSetSlot
+setSlotMT
 (
 JSContext
 *
@@ -271,9 +271,11 @@ cx
 {
 if
 (
-OBJ_IS_NATIVE
-(
 this
+-
+>
+isNative
+(
 )
 )
 {
