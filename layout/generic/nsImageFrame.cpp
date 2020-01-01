@@ -6867,11 +6867,6 @@ this
 p
 )
 ;
-bool
-inside
-=
-false
-;
 nsCOMPtr
 <
 nsIContent
@@ -6898,9 +6893,8 @@ area
 {
 area
 .
-swap
+forget
 (
-*
 aContent
 )
 ;
