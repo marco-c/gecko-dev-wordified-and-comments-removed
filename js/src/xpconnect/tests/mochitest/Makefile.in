@@ -440,6 +440,10 @@ rules
 mk
 _TEST_FILES
 =
+test_bug361111
+.
+xul
+\
 test_bug390488
 .
 html
