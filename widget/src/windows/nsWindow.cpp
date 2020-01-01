@@ -11077,6 +11077,13 @@ visible
 =
 mIsVisible
 ;
+if
+(
+mOldSizeMode
+=
+=
+nsSizeMode_Normal
+)
 Show
 (
 PR_FALSE
