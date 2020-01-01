@@ -6664,6 +6664,8 @@ NotifyRejected
 aHostURI
 )
 ;
+return
+;
 case
 STATUS_REJECTED_WITH_ERROR
 :
