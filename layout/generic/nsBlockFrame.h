@@ -1291,8 +1291,7 @@ nsOverflowAreas
 aOverflowAreas
 )
 ;
-virtual
-nsresult
+void
 AddFrames
 (
 nsFrameList
