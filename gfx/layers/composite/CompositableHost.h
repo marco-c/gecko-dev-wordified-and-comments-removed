@@ -345,7 +345,7 @@ aTextureInfo
 ;
 virtual
 void
-EnsureTextureHost
+EnsureTextureHostIncremental
 (
 ISurfaceAllocator
 *

@@ -2270,7 +2270,7 @@ void
 ContentHostIncremental
 :
 :
-EnsureTextureHost
+EnsureTextureHostIncremental
 (
 ISurfaceAllocator
 *
