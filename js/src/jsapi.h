@@ -8654,7 +8654,7 @@ cx
 JSObject
 *
 obj
-jsint
+uint32
 index
 JSBool
 *
