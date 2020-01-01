@@ -543,9 +543,9 @@ size_t
 )
 {
 }
-nsCOMPtr
+nsRefPtr
 <
-nsISelectElement
+nsHTMLSelectElement
 >
 mSelect
 ;
