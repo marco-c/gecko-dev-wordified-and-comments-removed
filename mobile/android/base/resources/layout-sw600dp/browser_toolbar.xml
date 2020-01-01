@@ -289,13 +289,6 @@ gravity
 "
 center_horizontal
 "
-android
-:
-visibility
-=
-"
-gone
-"
 /
 >
 <
