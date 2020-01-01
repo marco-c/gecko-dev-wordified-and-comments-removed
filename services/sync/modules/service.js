@@ -5760,6 +5760,13 @@ wipeServer
 (
 )
 ;
+Sync
+.
+sleep
+(
+2000
+)
+;
 this
 .
 _log
@@ -6000,13 +6007,6 @@ ex
 ;
 }
 }
-Sync
-.
-sleep
-(
-5000
-)
-;
 }
 )
 )
