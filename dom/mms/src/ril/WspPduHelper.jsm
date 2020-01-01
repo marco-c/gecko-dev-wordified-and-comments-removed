@@ -2986,7 +2986,7 @@ decodeAlternatives
 (
 data
 null
-NullTerminatedTexts
+TextString
 ShortInteger
 )
 ;
@@ -3022,7 +3022,7 @@ value
 }
 else
 {
-NullTerminatedTexts
+TextString
 .
 encode
 (
@@ -4160,7 +4160,7 @@ if
 entry
 )
 {
-ShortInteger
+ConstrainedEncoding
 .
 encode
 (
@@ -4173,7 +4173,7 @@ number
 }
 else
 {
-NullTerminatedTexts
+ConstrainedEncoding
 .
 encode
 (
