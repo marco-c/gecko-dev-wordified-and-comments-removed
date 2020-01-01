@@ -457,7 +457,7 @@ __clang__
 |
 defined
 (
-__ANDROID__
+_STLPORT_VERSION
 )
 typedef
 decltype
