@@ -927,6 +927,9 @@ cancelationScope
 mLock
 )
 ;
+(
+void
+)
 PR_Sleep
 (
 PR_INTERVAL_NO_WAIT
