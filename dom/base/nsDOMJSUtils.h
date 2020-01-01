@@ -18,6 +18,9 @@ nsIScriptContext
 .
 h
 "
+class
+nsIJSArgArray
+;
 inline
 nsIScriptContext
 *
@@ -141,7 +144,7 @@ aArgc
 void
 *
 aArgv
-nsIArray
+nsIJSArgArray
 *
 *
 aArray

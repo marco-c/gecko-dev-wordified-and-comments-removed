@@ -23662,7 +23662,7 @@ argc
 ;
 nsCOMPtr
 <
-nsIArray
+nsIJSArgArray
 >
 argvArray
 ;

@@ -267,7 +267,7 @@ mVersion
 ;
 nsCOMPtr
 <
-nsIArray
+nsIJSArgArray
 >
 mArgv
 ;
@@ -1238,7 +1238,7 @@ funobj
 ;
 nsCOMPtr
 <
-nsIArray
+nsIJSArgArray
 >
 array
 ;
@@ -1282,19 +1282,7 @@ jsargv
 =
 nsnull
 ;
-nsCOMPtr
-<
-nsIJSArgArray
->
-jsarray
-(
-do_QueryInterface
-(
 array
-)
-)
-;
-jsarray
 -
 >
 GetArgs

@@ -15877,8 +15877,6 @@ nsJSArgArray
 :
 public
 nsIJSArgArray
-public
-nsIArray
 {
 public
 :
@@ -16416,7 +16414,7 @@ argc
 void
 *
 argv
-nsIArray
+nsIJSArgArray
 *
 *
 aArray
