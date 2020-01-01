@@ -1197,6 +1197,12 @@ UseProgressiveTilePainting
 ;
 static
 bool
+UseLowPrecisionBuffer
+(
+)
+;
+static
+bool
 UseReusableTileStore
 (
 )

@@ -3024,6 +3024,14 @@ false
 ;
 if
 (
+gfxPlatform
+:
+:
+UseLowPrecisionBuffer
+(
+)
+&
+&
 !
 criticalDisplayPort
 .
