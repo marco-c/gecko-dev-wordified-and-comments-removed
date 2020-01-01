@@ -1565,9 +1565,7 @@ if
 fp
 -
 >
-hasBlockChain
-(
-)
+blockChain
 )
 return
 JS_FALSE
