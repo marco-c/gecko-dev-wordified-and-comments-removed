@@ -3847,6 +3847,17 @@ JSObject
 obj
 )
 ;
+JS_FRIEND_API
+(
+void
+)
+js_DumpStackFrame
+(
+JSStackFrame
+*
+fp
+)
+;
 #
 endif
 JS_END_EXTERN_C
