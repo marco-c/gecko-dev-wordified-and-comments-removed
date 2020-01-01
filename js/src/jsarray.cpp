@@ -5707,8 +5707,6 @@ JSProto_Array
 )
 |
 JSCLASS_NEW_ENUMERATE
-|
-JSCLASS_CONSTRUCT_PROTOTYPE
 JS_PropertyStub
 JS_PropertyStub
 JS_PropertyStub
