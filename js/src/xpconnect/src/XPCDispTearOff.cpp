@@ -1802,6 +1802,7 @@ getter_AddRefs
 (
 e
 )
+nsnull
 )
 ;
 xpcc

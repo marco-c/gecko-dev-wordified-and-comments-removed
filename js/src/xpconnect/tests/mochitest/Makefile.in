@@ -464,6 +464,10 @@ test_wrappers
 .
 html
 \
+test_bug446584
+.
+html
+\
 (
 NULL
 )
