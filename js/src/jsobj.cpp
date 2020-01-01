@@ -16781,12 +16781,7 @@ isNative
 return
 true
 ;
-Vector
-<
-const
-Shape
-*
->
+AutoShapeVector
 shapes
 (
 cx
@@ -18391,13 +18386,7 @@ false
 }
 else
 {
-Vector
-<
-const
-Shape
-*
-8
->
+AutoShapeVector
 shapes
 (
 cx
@@ -18405,7 +18394,7 @@ cx
 ;
 shapes
 .
-growByUninitialized
+growBy
 (
 count
 )

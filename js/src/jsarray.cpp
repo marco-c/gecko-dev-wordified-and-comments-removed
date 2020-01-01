@@ -8651,7 +8651,7 @@ vec
 +
 newlen
 ;
-MakeValueRangeGCSafe
+MakeRangeGCSafe
 (
 mergesort_tmp
 newlen
@@ -8868,7 +8868,7 @@ vec
 *
 newlen
 ;
-MakeValueRangeGCSafe
+MakeRangeGCSafe
 (
 mergesort_tmp
 2
