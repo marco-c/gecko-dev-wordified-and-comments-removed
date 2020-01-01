@@ -5161,16 +5161,13 @@ isStackFrame
 )
 )
 return
-AbstractFramePtr
-(
 asStackFrame
 (
 )
 -
 >
-prev
+evalPrev
 (
-)
 )
 ;
 #
