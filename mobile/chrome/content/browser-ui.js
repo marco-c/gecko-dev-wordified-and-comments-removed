@@ -8342,6 +8342,17 @@ function
 aElement
 )
 {
+if
+(
+!
+aElement
+.
+canAutocomplete
+)
+return
+[
+]
+;
 let
 suggestions
 =
