@@ -462,7 +462,7 @@ gfxIntSize
 (
 PRInt32
 )
-NS_ceil
+ceil
 (
 mNativeRect
 .
@@ -475,7 +475,7 @@ Width
 (
 PRInt32
 )
-NS_ceil
+ceil
 (
 mNativeRect
 .
@@ -560,7 +560,7 @@ gfxIntSize
 (
 PRInt32
 )
-NS_ceil
+ceil
 (
 mNativeRect
 .
@@ -577,7 +577,7 @@ width
 (
 PRInt32
 )
-NS_ceil
+ceil
 (
 mNativeRect
 .

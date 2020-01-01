@@ -2324,11 +2324,11 @@ IntegerVariant
 (
 PRInt32
 )
-NS_ceilf
+ceilf
 (
 fullVisitCount
 *
-NS_ceilf
+ceilf
 (
 pointsForSampledVisits
 )
@@ -2432,11 +2432,11 @@ IntegerVariant
 (
 PRInt32
 )
-NS_ceilf
+ceilf
 (
 fullVisitCount
 *
-NS_ceilf
+ceilf
 (
 pointsForSampledVisits
 )

@@ -232,7 +232,7 @@ else
 return
 nscoord
 (
-NS_floorf
+floorf
 (
 aValue
 +
@@ -286,7 +286,7 @@ else
 return
 nscoord
 (
-NS_floor
+floor
 (
 aValue
 +
@@ -1239,7 +1239,7 @@ aValue
 return
 nscoord
 (
-NS_floorf
+floorf
 (
 aValue
 )
@@ -1257,7 +1257,7 @@ aValue
 return
 nscoord
 (
-NS_floor
+floor
 (
 aValue
 )
@@ -1351,7 +1351,7 @@ aValue
 return
 nscoord
 (
-NS_ceilf
+ceilf
 (
 aValue
 )
@@ -1369,7 +1369,7 @@ aValue
 return
 nscoord
 (
-NS_ceil
+ceil
 (
 aValue
 )
@@ -1539,7 +1539,7 @@ aValue
 return
 PRInt32
 (
-NS_floorf
+floorf
 (
 aValue
 )
@@ -1557,7 +1557,7 @@ aValue
 return
 PRInt32
 (
-NS_ceilf
+ceilf
 (
 aValue
 )
@@ -1605,7 +1605,7 @@ aValue
 return
 PRInt32
 (
-NS_floorf
+floorf
 (
 aValue
 +
@@ -1627,7 +1627,7 @@ aValue
 return
 PRInt32
 (
-NS_floor
+floor
 (
 aValue
 +

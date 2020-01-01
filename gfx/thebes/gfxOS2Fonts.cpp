@@ -576,7 +576,7 @@ snappedSize
 =
 NS_MAX
 (
-NS_floor
+floor
 (
 aSize
 +
@@ -606,7 +606,7 @@ snappedSize
 ;
 aOffset
 =
-NS_floor
+floor
 (
 offset
 +
@@ -688,7 +688,7 @@ mMetrics
 >
 emHeight
 =
-NS_floor
+floor
 (
 GetStyle
 (
@@ -1398,7 +1398,7 @@ mMetrics
 >
 internalLeading
 =
-NS_floor
+floor
 (
 mMetrics
 -
@@ -1418,7 +1418,7 @@ emHeight
 gfxFloat
 lineHeight
 =
-NS_floor
+floor
 (
 mMetrics
 -

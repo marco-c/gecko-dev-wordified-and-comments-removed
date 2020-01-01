@@ -24764,7 +24764,7 @@ aDelta
 (
 PRInt32
 )
-NS_floor
+floor
 (
 aDelta
 )
@@ -24772,7 +24772,7 @@ aDelta
 (
 PRInt32
 )
-NS_ceil
+ceil
 (
 aDelta
 )

@@ -586,7 +586,7 @@ NS_MIN
 (
 PRInt32
 )
-NS_ceilf
+ceilf
 (
 (
 float

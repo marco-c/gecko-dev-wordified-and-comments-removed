@@ -2324,7 +2324,7 @@ else
 {
 power
 =
-NS_ceil
+ceil
 (
 power
 )

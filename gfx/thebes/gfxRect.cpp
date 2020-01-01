@@ -115,7 +115,7 @@ Round
 gfxFloat
 x0
 =
-NS_floor
+floor
 (
 X
 (
@@ -129,7 +129,7 @@ X
 gfxFloat
 y0
 =
-NS_floor
+floor
 (
 Y
 (
@@ -143,7 +143,7 @@ Y
 gfxFloat
 x1
 =
-NS_floor
+floor
 (
 XMost
 (
@@ -157,7 +157,7 @@ XMost
 gfxFloat
 y1
 =
-NS_floor
+floor
 (
 YMost
 (
@@ -200,7 +200,7 @@ RoundIn
 gfxFloat
 x0
 =
-NS_ceil
+ceil
 (
 X
 (
@@ -210,7 +210,7 @@ X
 gfxFloat
 y0
 =
-NS_ceil
+ceil
 (
 Y
 (
@@ -220,7 +220,7 @@ Y
 gfxFloat
 x1
 =
-NS_floor
+floor
 (
 XMost
 (
@@ -230,7 +230,7 @@ XMost
 gfxFloat
 y1
 =
-NS_floor
+floor
 (
 YMost
 (
@@ -269,7 +269,7 @@ RoundOut
 gfxFloat
 x0
 =
-NS_floor
+floor
 (
 X
 (
@@ -279,7 +279,7 @@ X
 gfxFloat
 y0
 =
-NS_floor
+floor
 (
 Y
 (
@@ -289,7 +289,7 @@ Y
 gfxFloat
 x1
 =
-NS_ceil
+ceil
 (
 XMost
 (
@@ -299,7 +299,7 @@ XMost
 gfxFloat
 y1
 =
-NS_ceil
+ceil
 (
 YMost
 (
