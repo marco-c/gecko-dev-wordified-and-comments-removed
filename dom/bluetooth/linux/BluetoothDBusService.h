@@ -554,6 +554,17 @@ aRunnable
 )
 MOZ_OVERRIDE
 ;
+protected
+:
+BluetoothDBusService
+(
+)
+;
+~
+BluetoothDBusService
+(
+)
+;
 private
 :
 enum
