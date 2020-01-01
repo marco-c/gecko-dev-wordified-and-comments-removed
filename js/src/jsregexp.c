@@ -18013,11 +18013,9 @@ else
 {
 obj
 =
-js_NewArrayObject
+js_NewSlowArrayObject
 (
 cx
-0
-NULL
 )
 ;
 if

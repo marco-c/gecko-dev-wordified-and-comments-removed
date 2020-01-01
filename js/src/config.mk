@@ -861,7 +861,7 @@ else
 OPTIMIZER
 =
 -
-g
+g3
 endif
 DEFINES
 +
