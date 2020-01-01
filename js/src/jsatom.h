@@ -74,6 +74,15 @@ jsvalue
 .
 h
 "
+#
+include
+"
+vm
+/
+String
+.
+h
+"
 static
 JS_ALWAYS_INLINE
 jsid

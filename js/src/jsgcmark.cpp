@@ -40,6 +40,17 @@ jsscopeinlines
 .
 h
 "
+#
+include
+"
+vm
+/
+String
+-
+inl
+.
+h
+"
 using
 namespace
 js

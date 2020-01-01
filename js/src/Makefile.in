@@ -994,6 +994,10 @@ Stack
 .
 cpp
 \
+String
+.
+cpp
+\
 (
 NULL
 )
@@ -1377,6 +1381,10 @@ GlobalObject
 h
 \
 Stack
+.
+h
+\
+String
 .
 h
 \

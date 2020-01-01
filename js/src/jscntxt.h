@@ -8331,6 +8331,15 @@ JSContext
 cx
 )
 ;
+extern
+bool
+CanLeaveTrace
+(
+JSContext
+*
+cx
+)
+;
 }
 static
 JS_FORCES_STACK

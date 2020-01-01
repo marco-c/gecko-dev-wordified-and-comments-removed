@@ -28,6 +28,15 @@ h
 #
 include
 "
+vm
+/
+String
+.
+h
+"
+#
+include
+"
 assembler
 /
 wtf
