@@ -4091,6 +4091,15 @@ Background
 "
 TYPE_BACKGROUND
 )
+bool
+IsThemed
+(
+)
+{
+return
+mIsThemed
+;
+}
 protected
 :
 nsRegion
