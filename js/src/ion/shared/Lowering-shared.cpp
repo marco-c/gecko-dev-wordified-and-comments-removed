@@ -162,6 +162,9 @@ ins
 case
 MIRType_Magic
 :
+case
+MIRType_ArgObj
+:
 return
 define
 (
