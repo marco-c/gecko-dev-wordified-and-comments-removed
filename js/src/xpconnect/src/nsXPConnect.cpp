@@ -5180,6 +5180,9 @@ UnexpectedFailure
 NS_ERROR_FAILURE
 )
 ;
+nsVoidArray
+wrappersToMove
+;
 {
 XPCAutoLock
 lock
@@ -5208,8 +5211,9 @@ GetWrappedNativeMap
 (
 )
 ;
-nsVoidArray
 wrappersToMove
+.
+SizeTo
 (
 map
 -
@@ -5229,6 +5233,7 @@ MoveableWrapperFinder
 wrappersToMove
 )
 ;
+}
 for
 (
 PRInt32
@@ -5479,7 +5484,6 @@ rv
 rv
 )
 ;
-}
 }
 return
 NS_OK
