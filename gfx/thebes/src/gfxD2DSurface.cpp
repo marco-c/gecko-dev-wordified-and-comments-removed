@@ -28,6 +28,8 @@ gfxD2DSurface
 (
 HWND
 aWnd
+gfxContentType
+aContent
 )
 {
 Init
@@ -35,6 +37,10 @@ Init
 cairo_d2d_surface_create_for_hwnd
 (
 aWnd
+(
+cairo_content_t
+)
+aContent
 )
 )
 ;

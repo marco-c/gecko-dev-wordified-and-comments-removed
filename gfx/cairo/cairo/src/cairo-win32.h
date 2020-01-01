@@ -236,6 +236,8 @@ cairo_d2d_surface_create_for_hwnd
 (
 HWND
 wnd
+cairo_content_t
+content
 )
 ;
 cairo_public
