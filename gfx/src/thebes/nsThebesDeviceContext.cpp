@@ -1076,9 +1076,11 @@ IndexOf
 (
 oldfm
 )
->
+!
 =
-0
+mFontMetrics
+.
+NoIndex
 )
 {
 NS_ADDREF
