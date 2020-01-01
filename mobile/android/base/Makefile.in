@@ -750,13 +750,6 @@ xml
 sync_authenticator
 .
 xml
-res
-/
-xml
-/
-sync_options
-.
-xml
 SYNC_PP_RES_XML
 =
 res
@@ -764,6 +757,13 @@ res
 xml
 /
 sync_syncadapter
+.
+xml
+res
+/
+xml
+/
+sync_options
 .
 xml
 FENNEC_JAVA_FILES
@@ -5704,7 +5704,7 @@ res
 /
 drawable
 /
-sync_icon
+sync_ic_launcher
 .
 png
 res
@@ -5781,7 +5781,7 @@ res
 /
 drawable
 /
-sync_icon
+sync_ic_launcher
 .
 png
 res
