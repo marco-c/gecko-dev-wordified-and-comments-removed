@@ -1,4 +1,10 @@
 #
+ifndef
+TOOLS_PLATFORM_H_
+#
+define
+TOOLS_PLATFORM_H_
+#
 ifdef
 ANDROID
 #
@@ -116,7 +122,7 @@ __android_log_write
 (
 ANDROID_LOG_ERROR
 "
-profiler
+Profiler
 "
 text
 )
@@ -133,7 +139,7 @@ __android_log_print
 (
 ANDROID_LOG_ERROR
 "
-profiler
+Profiler
 "
 format
 __VA_ARGS__
@@ -146,8 +152,9 @@ LOG
 (
 text
 )
-printf
+fprintf
 (
+stderr
 "
 Profiler
 :
@@ -167,8 +174,9 @@ format
 .
 .
 )
-printf
+fprintf
 (
+stderr
 "
 Profiler
 :
@@ -750,3 +758,5 @@ data_
 ;
 }
 ;
+#
+endif

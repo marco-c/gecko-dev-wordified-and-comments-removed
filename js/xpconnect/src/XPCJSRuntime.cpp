@@ -6160,11 +6160,11 @@ ifdef
 MOZ_ENABLE_PROFILER_SPS
 if
 (
-ProfileStack
+PseudoStack
 *
 stack
 =
-mozilla_profile_stack
+mozilla_get_pseudo_stack
 (
 )
 )
@@ -13772,11 +13772,11 @@ ifdef
 MOZ_ENABLE_PROFILER_SPS
 if
 (
-ProfileStack
+PseudoStack
 *
 stack
 =
-mozilla_profile_stack
+mozilla_get_pseudo_stack
 (
 )
 )
