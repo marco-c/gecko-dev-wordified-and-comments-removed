@@ -94,6 +94,10 @@ NetworkHelper
 .
 jsm
 \
+NetworkPanel
+.
+jsm
+\
 AutocompletePopup
 .
 jsm
