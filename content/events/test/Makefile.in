@@ -723,6 +723,10 @@ test_eventctors
 .
 html
 \
+test_bug635465
+.
+html
+\
 (
 NULL
 )
