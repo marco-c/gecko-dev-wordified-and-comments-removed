@@ -496,6 +496,8 @@ void
 )
 GetEffectiveXY
 (
+PRInt32
+strLength
 nsTArray
 <
 float
@@ -516,6 +518,8 @@ void
 )
 GetEffectiveDxDy
 (
+PRInt32
+strLength
 nsTArray
 <
 float
@@ -536,6 +540,8 @@ void
 )
 GetEffectiveRotate
 (
+PRInt32
+strLength
 nsTArray
 <
 float
