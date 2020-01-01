@@ -1100,15 +1100,6 @@ protocol
 fullname
 (
 )
-    
-def
-isUnionType
-(
-self
-)
-:
-return
-False
 class
 UnionType
 (
@@ -1138,7 +1129,7 @@ components
 components
     
 def
-isUnionType
+isUnion
 (
 self
 )
