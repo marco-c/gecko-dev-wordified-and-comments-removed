@@ -6876,7 +6876,7 @@ length
 {
 aRequest
 .
-notifySendMmsMessageFailed
+notifySendMessageFailed
 (
 Ci
 .
