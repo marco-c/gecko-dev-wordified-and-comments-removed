@@ -1223,6 +1223,14 @@ OS_ARCH
 xulrunner
 :
 :
+(
+topsrcdir
+)
+/
+build
+/
+unix
+/
 mozilla
 .
 in
@@ -1243,7 +1251,7 @@ MOZAPPDIR
 %
 |
 (
-mozappdir
+installdir
 )
 |
 "
@@ -1270,11 +1278,11 @@ e
 s
 |
 %
-MREDIR
+MOZ_APP_DISPLAYNAME
 %
 |
 (
-mredir
+MOZ_APP_DISPLAYNAME
 )
 |
 "
