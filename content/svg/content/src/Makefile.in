@@ -277,10 +277,6 @@ nsSVGMaskElement
 .
 cpp
 \
-nsSVGMetadataElement
-.
-cpp
-\
 nsSVGNumber2
 .
 cpp
@@ -513,6 +509,10 @@ SVGLengthListSMILType
 .
 cpp
 \
+SVGMetadataElement
+.
+cpp
+\
 SVGMotionSMILType
 .
 cpp
@@ -643,6 +643,10 @@ SVGAnimatedBoolean
 h
 \
 SVGDescElement
+.
+h
+\
+SVGMetadataElement
 .
 h
 \
