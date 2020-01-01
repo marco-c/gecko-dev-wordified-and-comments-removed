@@ -217,7 +217,6 @@ MediaStream
 GetStream
 (
 )
-const
 {
 return
 mStream
