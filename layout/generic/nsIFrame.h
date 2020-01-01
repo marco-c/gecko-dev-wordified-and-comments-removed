@@ -121,7 +121,7 @@ include
 "
 mozilla
 /
-TypedEnum
+Attributes
 .
 h
 "

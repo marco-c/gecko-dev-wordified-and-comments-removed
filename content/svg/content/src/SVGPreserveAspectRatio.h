@@ -4,15 +4,6 @@ once
 #
 include
 "
-mozilla
-/
-TypedEnum
-.
-h
-"
-#
-include
-"
 nsWrapperCache
 .
 h
