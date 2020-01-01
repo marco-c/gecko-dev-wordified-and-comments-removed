@@ -264,6 +264,15 @@ NS_HTTP_REFRESH_DNS
 )
 #
 define
+NS_HTTP_LOAD_ANONYMOUS
+(
+1
+<
+<
+4
+)
+#
+define
 NS_HTTP_MAX_PIPELINED_REQUESTS
 8
 #
