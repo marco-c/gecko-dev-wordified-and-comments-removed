@@ -1393,7 +1393,13 @@ HasIndependentSelection
 (
 )
 ;
-nsIContent
+mozilla
+:
+:
+dom
+:
+:
+Element
 *
 GetEditingHost
 (

@@ -23785,7 +23785,10 @@ return
 true
 ;
 }
-nsIContent
+dom
+:
+:
+Element
 *
 nsHTMLEditor
 :
