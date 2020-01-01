@@ -621,6 +621,8 @@ nsDOMDeviceStorage
 >
 &
 aStores
+bool
+aCompositeComponent
 )
 ;
 void
@@ -784,6 +786,9 @@ nsString
 mStorageName
 ;
 bool
+mCompositeComponent
+;
+bool
 IsComposite
 (
 )
@@ -796,6 +801,15 @@ Length
 )
 >
 0
+;
+}
+bool
+IsCompositeComponent
+(
+)
+{
+return
+mCompositeComponent
 ;
 }
 nsTArray
