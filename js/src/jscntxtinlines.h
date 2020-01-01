@@ -1145,6 +1145,12 @@ AutoDescriptor
 this
 )
 ;
+if
+(
+desc
+.
+obj
+)
 JS_CALL_OBJECT_TRACER
 (
 trc
