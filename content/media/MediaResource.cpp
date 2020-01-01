@@ -122,13 +122,6 @@ h
 #
 include
 "
-nsIDocument
-.
-h
-"
-#
-include
-"
 nsDOMError
 .
 h

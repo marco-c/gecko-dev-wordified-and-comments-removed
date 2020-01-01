@@ -15,9 +15,6 @@ class
 nsINode
 ;
 class
-nsIContent
-;
-class
 nsWrapperCache
 ;
 #

@@ -114,6 +114,13 @@ Attributes
 .
 h
 "
+#
+include
+"
+nsContentUtils
+.
+h
+"
 using
 namespace
 mozilla

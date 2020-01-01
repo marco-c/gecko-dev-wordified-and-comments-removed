@@ -65,13 +65,6 @@ h
 #
 endif
 #
-include
-"
-nsContentUtils
-.
-h
-"
-#
 define
 GUID_LENGTH
 12

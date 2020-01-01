@@ -8,13 +8,6 @@ h
 #
 include
 "
-nsIDOMDocument
-.
-h
-"
-#
-include
-"
 nsIPrincipal
 .
 h

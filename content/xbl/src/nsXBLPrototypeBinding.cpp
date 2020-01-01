@@ -220,6 +220,13 @@ h
 #
 include
 "
+nsTextFragment
+.
+h
+"
+#
+include
+"
 nsIScriptContext
 .
 h

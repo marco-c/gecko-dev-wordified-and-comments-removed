@@ -147,6 +147,13 @@ nsIDocShellTreeItem
 .
 h
 "
+#
+include
+"
+nsIScriptContext
+.
+h
+"
 using
 namespace
 mozilla

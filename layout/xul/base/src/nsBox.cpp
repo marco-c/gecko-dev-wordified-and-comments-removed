@@ -92,13 +92,6 @@ h
 #
 include
 "
-nsIDocument
-.
-h
-"
-#
-include
-"
 nsITheme
 .
 h

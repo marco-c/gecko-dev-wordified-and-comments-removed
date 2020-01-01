@@ -35,9 +35,6 @@ class
 nsIContent
 ;
 class
-nsIDocument
-;
-class
 nsIFrame
 ;
 class

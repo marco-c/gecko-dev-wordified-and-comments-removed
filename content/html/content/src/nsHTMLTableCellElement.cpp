@@ -94,13 +94,6 @@ h
 #
 include
 "
-nsIDocument
-.
-h
-"
-#
-include
-"
 celldata
 .
 h

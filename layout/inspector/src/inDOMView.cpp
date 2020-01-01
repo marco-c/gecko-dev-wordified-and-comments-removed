@@ -87,13 +87,6 @@ h
 #
 include
 "
-nsIDOMDocument
-.
-h
-"
-#
-include
-"
 nsIDOMNamedNodeMap
 .
 h

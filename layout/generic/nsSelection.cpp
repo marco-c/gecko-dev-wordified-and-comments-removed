@@ -194,6 +194,13 @@ h
 #
 include
 "
+nsTextFragment
+.
+h
+"
+#
+include
+"
 nsFrameTraversal
 .
 h

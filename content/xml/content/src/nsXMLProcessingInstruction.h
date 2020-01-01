@@ -14,13 +14,6 @@ h
 #
 include
 "
-nsIDocument
-.
-h
-"
-#
-include
-"
 nsGenericDOMDataNode
 .
 h

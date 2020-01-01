@@ -113,13 +113,6 @@ h
 #
 include
 "
-nsIDocument
-.
-h
-"
-#
-include
-"
 nsIScrollableFrame
 .
 h
@@ -142,13 +135,6 @@ h
 include
 "
 nsContainerFrame
-.
-h
-"
-#
-include
-"
-nsIDOMDocument
 .
 h
 "

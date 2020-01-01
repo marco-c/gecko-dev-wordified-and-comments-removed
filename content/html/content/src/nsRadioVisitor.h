@@ -15,9 +15,6 @@ class
 nsIFormControl
 ;
 class
-nsIDocument
-;
-class
 nsRadioVisitor
 :
 public

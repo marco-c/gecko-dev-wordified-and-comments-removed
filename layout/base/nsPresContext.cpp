@@ -199,13 +199,6 @@ h
 #
 include
 "
-nsIDOMDocument
-.
-h
-"
-#
-include
-"
 nsAutoPtr
 .
 h

@@ -154,6 +154,13 @@ h
 #
 include
 "
+nsContentUtils
+.
+h
+"
+#
+include
+"
 ipc
 /
 IndexedDBChild

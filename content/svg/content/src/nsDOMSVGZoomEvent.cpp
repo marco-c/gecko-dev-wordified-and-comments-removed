@@ -8,13 +8,6 @@ h
 #
 include
 "
-nsContentUtils
-.
-h
-"
-#
-include
-"
 nsSVGRect
 .
 h
@@ -37,13 +30,6 @@ h
 include
 "
 nsIDOMSVGSVGElement
-.
-h
-"
-#
-include
-"
-nsIContent
 .
 h
 "

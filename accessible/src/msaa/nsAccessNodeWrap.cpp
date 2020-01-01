@@ -78,13 +78,6 @@ h
 #
 include
 "
-nsIDocument
-.
-h
-"
-#
-include
-"
 nsIDOMNodeList
 .
 h

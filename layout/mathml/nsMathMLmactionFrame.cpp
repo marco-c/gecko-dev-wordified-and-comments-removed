@@ -99,6 +99,13 @@ h
 #
 include
 "
+nsTextFragment
+.
+h
+"
+#
+include
+"
 nsIDOMEventTarget
 .
 h
@@ -128,13 +135,6 @@ h
 include
 "
 nsDisplayList
-.
-h
-"
-#
-include
-"
-nsContentUtils
 .
 h
 "

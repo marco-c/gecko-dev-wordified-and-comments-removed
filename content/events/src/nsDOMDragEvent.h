@@ -18,16 +18,6 @@ nsDOMMouseEvent
 .
 h
 "
-#
-include
-"
-nsIDOMDataTransfer
-.
-h
-"
-class
-nsIContent
-;
 class
 nsEvent
 ;

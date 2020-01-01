@@ -15,13 +15,6 @@ h
 #
 include
 "
-nsPropertyTable
-.
-h
-"
-#
-include
-"
 nsContentErrors
 .
 h
@@ -37,13 +30,6 @@ h
 include
 "
 nsSMILCSSValueType
-.
-h
-"
-#
-include
-"
-nsIContent
 .
 h
 "

@@ -1,14 +1,14 @@
 #
 include
 "
-nsDOMSVGEvent
+nsDOMClassInfoID
 .
 h
 "
 #
 include
 "
-nsContentUtils
+nsDOMSVGEvent
 .
 h
 "

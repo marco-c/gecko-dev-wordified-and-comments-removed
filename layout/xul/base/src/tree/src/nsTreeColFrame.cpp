@@ -43,13 +43,6 @@ h
 #
 include
 "
-nsIDocument
-.
-h
-"
-#
-include
-"
 nsIBoxObject
 .
 h

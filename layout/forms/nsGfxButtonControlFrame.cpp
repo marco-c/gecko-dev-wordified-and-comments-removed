@@ -97,6 +97,13 @@ h
 #
 include
 "
+nsContentList
+.
+h
+"
+#
+include
+"
 nsContentCreatorFunctions
 .
 h

@@ -53,13 +53,6 @@ h
 #
 include
 "
-nsIDocument
-.
-h
-"
-#
-include
-"
 nsTraceRefcnt
 .
 h

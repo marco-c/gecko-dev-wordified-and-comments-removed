@@ -68,9 +68,6 @@ class
 nsIContent
 ;
 class
-nsIDocument
-;
-class
 nsNativeMenuServiceX
 :
 public

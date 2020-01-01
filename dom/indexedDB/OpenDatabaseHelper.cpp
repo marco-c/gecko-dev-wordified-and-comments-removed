@@ -24,13 +24,6 @@ h
 #
 include
 "
-nsContentUtils
-.
-h
-"
-#
-include
-"
 nsEscape
 .
 h
@@ -55,6 +48,13 @@ h
 include
 "
 test_quota
+.
+h
+"
+#
+include
+"
+nsIBFCacheEntry
 .
 h
 "

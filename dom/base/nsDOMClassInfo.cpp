@@ -628,6 +628,13 @@ h
 #
 include
 "
+nsIDOMHTMLPropertiesCollection
+.
+h
+"
+#
+include
+"
 nsDOMError
 .
 h

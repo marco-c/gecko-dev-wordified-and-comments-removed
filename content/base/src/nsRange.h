@@ -28,7 +28,7 @@ h
 #
 include
 "
-nsIContent
+nsINode
 .
 h
 "

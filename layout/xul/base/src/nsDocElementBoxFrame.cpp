@@ -124,6 +124,13 @@ nsContentUtils
 .
 h
 "
+#
+include
+"
+nsContentList
+.
+h
+"
 class
 nsDocElementBoxFrame
 :

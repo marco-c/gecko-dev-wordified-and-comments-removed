@@ -18,9 +18,6 @@ class
 nsPresState
 ;
 class
-nsIContent
-;
-class
 nsString
 ;
 class

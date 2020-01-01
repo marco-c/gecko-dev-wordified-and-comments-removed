@@ -12,9 +12,6 @@ nsISupports
 h
 "
 class
-nsIDocument
-;
-class
 nsICSSLoaderObserver
 ;
 class

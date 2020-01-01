@@ -73,13 +73,6 @@ h
 #
 include
 "
-nsIDOMDocument
-.
-h
-"
-#
-include
-"
 nsIDOMHTMLInputElement
 .
 h

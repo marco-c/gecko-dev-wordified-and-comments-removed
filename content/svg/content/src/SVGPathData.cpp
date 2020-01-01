@@ -8,13 +8,6 @@ h
 #
 include
 "
-SVGAnimatedPathSegList
-.
-h
-"
-#
-include
-"
 SVGPathSegUtils
 .
 h
@@ -30,13 +23,6 @@ h
 include
 "
 nsDOMError
-.
-h
-"
-#
-include
-"
-nsContentUtils
 .
 h
 "

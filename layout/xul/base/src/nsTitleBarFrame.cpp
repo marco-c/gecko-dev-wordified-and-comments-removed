@@ -29,13 +29,6 @@ h
 #
 include
 "
-nsIDOMXULDocument
-.
-h
-"
-#
-include
-"
 nsIDOMNodeList
 .
 h

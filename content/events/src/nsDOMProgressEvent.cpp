@@ -1,14 +1,14 @@
 #
 include
 "
-nsDOMProgressEvent
+nsDOMClassInfoID
 .
 h
 "
 #
 include
 "
-nsContentUtils
+nsDOMProgressEvent
 .
 h
 "

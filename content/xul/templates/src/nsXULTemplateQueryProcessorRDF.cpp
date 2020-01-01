@@ -78,14 +78,7 @@ h
 #
 include
 "
-nsIDocument
-.
-h
-"
-#
-include
-"
-nsIXULDocument
+nsIDOMDocument
 .
 h
 "

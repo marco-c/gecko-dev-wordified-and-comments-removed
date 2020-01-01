@@ -80,13 +80,6 @@ h
 #
 include
 "
-nsIDocument
-.
-h
-"
-#
-include
-"
 nsContentUtils
 .
 h

@@ -36,13 +36,6 @@ h
 #
 include
 "
-nsIContent
-.
-h
-"
-#
-include
-"
 nsContentUtils
 .
 h

@@ -43,13 +43,6 @@ h
 #
 include
 "
-nsContentUtils
-.
-h
-"
-#
-include
-"
 nsICacheService
 .
 h
@@ -65,13 +58,6 @@ h
 include
 "
 nsCharsetSource
-.
-h
-"
-#
-include
-"
-nsThreadUtils
 .
 h
 "

@@ -134,6 +134,13 @@ h
 #
 include
 "
+nsTextFragment
+.
+h
+"
+#
+include
+"
 nsIEditorObserver
 .
 h
@@ -247,13 +254,6 @@ h
 include
 "
 nsIDOMElement
-.
-h
-"
-#
-include
-"
-nsIDOMDocument
 .
 h
 "

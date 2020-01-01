@@ -35,13 +35,6 @@ h
 #
 include
 "
-nsIContent
-.
-h
-"
-#
-include
-"
 nsIDOMNode
 .
 h
@@ -57,13 +50,6 @@ h
 include
 "
 pldhash
-.
-h
-"
-#
-include
-"
-nsCRT
 .
 h
 "

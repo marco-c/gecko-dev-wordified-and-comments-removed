@@ -8,14 +8,14 @@ h
 #
 include
 "
-nsDOMError
+nsDOMClassInfoID
 .
 h
 "
 #
 include
 "
-nsContentUtils
+nsDOMError
 .
 h
 "
