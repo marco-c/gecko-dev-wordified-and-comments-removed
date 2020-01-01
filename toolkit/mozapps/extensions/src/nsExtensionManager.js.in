@@ -16600,8 +16600,6 @@ Ci
 nsIUpdateItem
 .
 TYPE_ANY
-{
-}
 )
 ;
 var
@@ -23533,8 +23531,6 @@ this
 getItemList
 (
 type
-{
-}
 )
 ;
 var
@@ -34543,8 +34539,6 @@ getDependentItemListForID
 (
 id
 true
-{
-}
 )
 ;
 for
@@ -34769,8 +34763,6 @@ Ci
 nsIUpdateItem
 .
 TYPE_ANY
-{
-}
 )
 ;
 var
@@ -34870,8 +34862,6 @@ Ci
 nsIUpdateItem
 .
 TYPE_ANY
-{
-}
 )
 ;
 for
@@ -35194,6 +35184,10 @@ blocklistedsoft
 )
 ;
 }
+if
+(
+itemCount
+)
 itemCount
 .
 value
@@ -35555,6 +35549,10 @@ type
 includeDisabled
 )
 ;
+if
+(
+countRef
+)
 countRef
 .
 value
@@ -48566,6 +48564,10 @@ eID
 )
 ;
 }
+if
+(
+countRef
+)
 countRef
 .
 value
@@ -48856,6 +48858,10 @@ break
 }
 }
 }
+if
+(
+countRef
+)
 countRef
 .
 value

@@ -2495,6 +2495,9 @@ in
 unsigned
 long
 type
+[
+optional
+]
 out
 unsigned
 long
@@ -2626,6 +2629,9 @@ type
 in
 boolean
 includeDisabled
+[
+optional
+]
 out
 unsigned
 long
@@ -3080,6 +3086,9 @@ id
 in
 boolean
 includeDisabled
+[
+optional
+]
 out
 unsigned
 long
@@ -3218,6 +3227,9 @@ enabled
 void
 updateAndGetNewBlocklistedItems
 (
+[
+optional
+]
 out
 unsigned
 long

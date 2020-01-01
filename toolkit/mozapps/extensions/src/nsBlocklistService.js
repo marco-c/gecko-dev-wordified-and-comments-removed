@@ -3750,8 +3750,6 @@ em
 .
 updateAndGetNewBlocklistedItems
 (
-{
-}
 )
 ;
 for

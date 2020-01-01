@@ -662,8 +662,6 @@ nsIUpdateItem
 .
 TYPE_ANY
 false
-{
-}
 )
 ;
 for
