@@ -12736,7 +12736,6 @@ function
 test_mcc_mnc_parsing
 (
 )
-)
 {
 let
 worker
