@@ -2487,7 +2487,6 @@ aWidget
 Invalidate
 (
 bounds
-false
 )
 ;
 }
