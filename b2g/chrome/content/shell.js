@@ -4545,7 +4545,7 @@ aMessage
 .
 target
 .
-assertPermission
+assertAppHasPermission
 (
 "
 desktop
