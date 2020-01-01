@@ -345,6 +345,7 @@ eDOMClassInfo_HTMLMediaError_id
 eDOMClassInfo_HTMLAudioElement_id
 #
 endif
+eDOMClassInfo_NodeIterator_id
 eDOMClassInfoIDCount
 }
 ;

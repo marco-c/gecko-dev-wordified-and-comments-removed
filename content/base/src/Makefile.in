@@ -728,6 +728,10 @@ nsNodeInfoManager
 .
 cpp
 \
+nsNodeIterator
+.
+cpp
+\
 nsNodeUtils
 .
 cpp
@@ -797,6 +801,10 @@ nsTextFragment
 cpp
 \
 nsTextNode
+.
+cpp
+\
+nsTraversal
 .
 cpp
 \
