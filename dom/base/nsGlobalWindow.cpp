@@ -5887,7 +5887,9 @@ confused
 )
 ;
 return
-mJSObject
+FastGetGlobalJSObject
+(
+)
 ;
 }
 PRBool

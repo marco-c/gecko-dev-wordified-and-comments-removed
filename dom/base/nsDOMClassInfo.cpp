@@ -27692,7 +27692,7 @@ winObj
 win
 -
 >
-GetGlobalJSObject
+FastGetGlobalJSObject
 (
 )
 ;
@@ -27828,7 +27828,7 @@ _retval
 inner
 -
 >
-GetGlobalJSObject
+FastGetGlobalJSObject
 (
 )
 ;
