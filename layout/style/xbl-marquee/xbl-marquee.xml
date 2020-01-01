@@ -1510,6 +1510,13 @@ aName
 ]
 =
 new
+XPCNativeWrapper
+.
+unwrap
+(
+window
+)
+.
 Function
 (
 "
