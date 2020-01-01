@@ -1126,7 +1126,7 @@ stage
 .
 enabled
 "
-false
+true
 )
 ;
 pref
