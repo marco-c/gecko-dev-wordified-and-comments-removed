@@ -57,6 +57,8 @@ jsm
 "
 )
 ;
+try
+{
 Cu
 .
 import
@@ -76,6 +78,13 @@ jsm
 "
 )
 ;
+}
+catch
+(
+ex
+)
+{
+}
 function
 CommandLineHandler
 (
