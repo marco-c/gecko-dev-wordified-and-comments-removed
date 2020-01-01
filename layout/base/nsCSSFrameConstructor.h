@@ -537,9 +537,9 @@ aFrame
 void
 AttributeWillChange
 (
-nsIContent
+Element
 *
-aContent
+aElement
 PRInt32
 aNameSpaceID
 nsIAtom
