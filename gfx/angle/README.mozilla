@@ -63,6 +63,16 @@ Sun
 Studio
 on
 Solaris
+fix
+-
+compile
+.
+patch
+-
+Remove
+some
+trailing
+commas
 To
 regenerate
 the
