@@ -55921,7 +55921,7 @@ lir
 insGuard
 (
 LIR_xbarrier
-guardRec
+NULL
 guardRec
 )
 ;
