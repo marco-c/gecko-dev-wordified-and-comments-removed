@@ -2231,6 +2231,9 @@ closedVars
 uint16
 traceIndex
 ;
+uint16
+typesetIndex
+;
 JSCodeGenerator
 (
 js

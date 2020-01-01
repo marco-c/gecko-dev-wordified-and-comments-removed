@@ -1828,6 +1828,10 @@ void
 *
 arityCheckEntry
 ;
+void
+*
+argsCheckEntry
+;
 uint32
 nNmapPairs
 :

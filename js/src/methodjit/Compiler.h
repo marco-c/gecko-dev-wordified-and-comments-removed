@@ -455,13 +455,6 @@ frameSize
 bool
 typeMonitored
 ;
-types
-:
-:
-ClonedTypeSet
-*
-argTypes
-;
 }
 ;
 private
@@ -1829,6 +1822,9 @@ invokeLabel
 Label
 arityLabel
 ;
+Label
+argsCheckLabel
+;
 #
 ifdef
 JS_MONOIC
@@ -2207,6 +2203,11 @@ script
 ActiveFrame
 *
 a
+)
+;
+void
+ensureDoubleArguments
+(
 )
 ;
 void

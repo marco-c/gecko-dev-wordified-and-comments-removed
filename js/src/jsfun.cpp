@@ -2114,6 +2114,10 @@ nClosedVars
 script
 -
 >
+nTypeSets
+script
+-
+>
 getVersion
 (
 )
@@ -13537,6 +13541,7 @@ NewScript
 cx
 1
 1
+0
 0
 0
 0

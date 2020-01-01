@@ -15,6 +15,11 @@ doNothing
 )
 {
 }
+dis
+(
+myparent
+)
+;
 function
 myparent
 (
@@ -29,7 +34,7 @@ nested
 trap
 (
 myparent
-24
+30
 "
 success
 (
@@ -53,7 +58,7 @@ doNothing
 trap
 (
 myparent
-35
+43
 "
 myparent
 (

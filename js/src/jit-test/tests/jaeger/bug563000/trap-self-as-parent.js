@@ -9,6 +9,11 @@ x
 notset
 "
 ;
+dis
+(
+myparent
+)
+;
 function
 myparent
 (
@@ -23,7 +28,7 @@ nested
 trap
 (
 myparent
-50
+58
 "
 success
 (
