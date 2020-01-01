@@ -144,6 +144,7 @@ flushToHandler
 (
 txAXMLEventHandler
 *
+*
 aHandler
 )
 {

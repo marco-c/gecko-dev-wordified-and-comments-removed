@@ -43,10 +43,6 @@ txResultBuffer
 {
 public
 :
-txResultBuffer
-(
-)
-;
 ~
 txResultBuffer
 (
@@ -64,6 +60,7 @@ nsresult
 flushToHandler
 (
 txAXMLEventHandler
+*
 *
 aHandler
 )
@@ -96,12 +93,6 @@ txAXMLEventHandler
 {
 public
 :
-txBufferingHandler
-(
-)
-;
-virtual
-~
 txBufferingHandler
 (
 )
