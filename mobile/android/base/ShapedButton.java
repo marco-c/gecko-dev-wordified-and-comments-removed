@@ -78,15 +78,6 @@ graphics
 .
 drawable
 .
-LevelListDrawable
-;
-import
-android
-.
-graphics
-.
-drawable
-.
 StateListDrawable
 ;
 import

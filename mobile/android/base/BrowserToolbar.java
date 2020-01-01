@@ -303,13 +303,6 @@ util
 .
 List
 ;
-import
-java
-.
-util
-.
-TimerTask
-;
 public
 class
 BrowserToolbar
