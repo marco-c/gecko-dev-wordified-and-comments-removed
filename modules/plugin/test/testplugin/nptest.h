@@ -294,10 +294,5 @@ NoteIntentionalCrash
 (
 )
 ;
-void
-IntentionalCrash
-(
-)
-;
 #
 endif
