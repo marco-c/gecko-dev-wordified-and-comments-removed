@@ -6160,6 +6160,12 @@ depth
 format
 .
 depth
+|
+|
+!
+caps
+.
+depth
 )
 ;
 MOZ_ASSERT
@@ -6172,6 +6178,12 @@ stencil
 !
 !
 format
+.
+stencil
+|
+|
+!
+caps
 .
 stencil
 )
