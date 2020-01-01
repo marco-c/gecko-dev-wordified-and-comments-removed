@@ -13582,6 +13582,13 @@ type
 nullable
 (
 )
+and
+not
+type
+.
+isEnum
+(
+)
 :
             
 innerValue
@@ -13806,15 +13813,23 @@ isEnum
 )
 :
             
+enum
+=
+type
+.
+unroll
+(
+)
+.
+inner
+            
 if
 self
 .
 value
 not
 in
-type
-.
-inner
+enum
 .
 values
 (
@@ -13846,9 +13861,7 @@ s
 self
 .
 value
-type
-.
-inner
+enum
 .
 identifier
 .
@@ -13857,9 +13870,7 @@ name
                                   
 [
 location
-type
-.
-inner
+enum
 .
 location
 ]
