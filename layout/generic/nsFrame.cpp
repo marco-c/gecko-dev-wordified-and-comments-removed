@@ -7357,6 +7357,7 @@ if
 childFrame
 &
 &
+(
 childFrame
 -
 >
@@ -7367,6 +7368,13 @@ GetParent
 >
 Preserves3DChildren
 (
+)
+|
+|
+childFrame
+=
+=
+aFrame
 )
 )
 {
