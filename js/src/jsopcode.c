@@ -314,11 +314,10 @@ OPDEF
 #
 ifdef
 DEBUG
-static
 const
 char
 *
-CodeName
+js_CodeName
 [
 ]
 =
@@ -1080,7 +1079,7 @@ fp
 %
 s
 "
-CodeName
+js_CodeName
 [
 op
 ]

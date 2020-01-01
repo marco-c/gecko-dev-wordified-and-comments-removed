@@ -2033,6 +2033,14 @@ js_NumCodeSpecs
 extern
 const
 char
+*
+js_CodeName
+[
+]
+;
+extern
+const
+char
 js_EscapeMap
 [
 ]
