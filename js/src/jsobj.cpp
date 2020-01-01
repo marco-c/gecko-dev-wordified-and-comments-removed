@@ -7628,6 +7628,7 @@ cx
 type
 parent
 kind
+newKind
 )
 )
 ;

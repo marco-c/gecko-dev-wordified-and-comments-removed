@@ -1339,6 +1339,12 @@ op
 JSOP_FUNAPPLY
 |
 |
+op
+=
+=
+JSOP_EVAL
+|
+|
 #
 ifdef
 JS_ION

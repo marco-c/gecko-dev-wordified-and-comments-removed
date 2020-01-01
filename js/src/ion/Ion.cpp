@@ -8629,6 +8629,13 @@ isFunctionFrame
 )
 )
 {
+fp
+-
+>
+cleanupTornValues
+(
+)
+;
 maxArgc
 =
 CountArgSlots
