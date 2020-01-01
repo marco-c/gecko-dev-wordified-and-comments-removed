@@ -3363,7 +3363,7 @@ type
 obj
 -
 >
-gctype
+typeFromGC
 (
 )
 ;
@@ -3888,7 +3888,7 @@ trc
 obj
 -
 >
-gctype
+typeFromGC
 (
 )
 "
