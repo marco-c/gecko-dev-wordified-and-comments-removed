@@ -87,6 +87,10 @@ Sqlite
 .
 jsm
 \
+TelemetryTimestamps
+.
+jsm
+\
 (
 NULL
 )

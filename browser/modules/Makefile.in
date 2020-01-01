@@ -120,10 +120,6 @@ SignInToWebsite
 .
 jsm
 \
-TelemetryTimestamps
-.
-jsm
-\
 webappsUI
 .
 jsm

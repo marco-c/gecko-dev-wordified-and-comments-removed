@@ -106,10 +106,6 @@ browser_NetworkPrioritizer
 .
 js
 \
-browser_TelemetryTimestamps
-.
-js
-\
 #
 bug
 793906

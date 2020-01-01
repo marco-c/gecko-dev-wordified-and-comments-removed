@@ -71,6 +71,15 @@ addStartupChange
 "
 removeStartupChange
 "
+"
+recordTimestamp
+"
+"
+recordSimpleMeasure
+"
+"
+getSimpleMeasures
+"
 ]
 ;
 function
