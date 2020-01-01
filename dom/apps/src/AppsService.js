@@ -673,12 +673,9 @@ null
 }
 }
 }
-else
-{
 return
 null
 ;
-}
 }
 classID
 :
