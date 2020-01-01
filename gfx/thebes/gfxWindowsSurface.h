@@ -246,6 +246,16 @@ aDestTopLeft
 )
 ;
 }
+virtual
+MemoryLocation
+MemoryLocation
+(
+)
+{
+return
+MEMORY_IN_PROCESS_NONHEAP
+;
+}
 private
 :
 PRPackedBool
