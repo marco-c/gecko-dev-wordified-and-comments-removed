@@ -1847,6 +1847,12 @@ refCount
 )
 )
 ;
+delete
+(
+*
+it
+)
+;
 }
 else
 {

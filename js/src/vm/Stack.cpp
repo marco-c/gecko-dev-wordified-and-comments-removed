@@ -5015,7 +5015,7 @@ int
 =
 0
 ;
-MOZ_Assert
+JS_Assert
 (
 "
 About

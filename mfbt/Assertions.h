@@ -346,17 +346,7 @@ MFBT_API
 (
 void
 )
-MOZ_Crash
-(
-void
-)
-;
-extern
-MFBT_API
-(
-void
-)
-MOZ_Assert
+JS_Assert
 (
 const
 char
@@ -398,7 +388,7 @@ void
 0
 )
 :
-MOZ_Assert
+JS_Assert
 (
 #
 expr
@@ -426,7 +416,7 @@ void
 0
 )
 :
-MOZ_Assert
+JS_Assert
 (
 #
 expr
@@ -588,7 +578,7 @@ MOZ_NOT_REACHED
 (
 reason
 )
-MOZ_Assert
+JS_Assert
 (
 reason
 __FILE__

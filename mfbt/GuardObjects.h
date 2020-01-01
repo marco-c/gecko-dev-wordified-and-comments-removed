@@ -35,7 +35,7 @@ namespace
 detail
 {
 class
-MOZ_EXPORT_API
+MFBT_API
 (
 GuardObjectNotifier
 )
@@ -85,7 +85,7 @@ statementIsDone
 }
 ;
 class
-MOZ_EXPORT_API
+MFBT_API
 (
 GuardObjectNotificationReceiver
 )

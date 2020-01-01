@@ -1625,7 +1625,7 @@ cx
 true
 )
 ;
-MOZ_Assert
+JS_Assert
 (
 msgbuf
 __FILE__
