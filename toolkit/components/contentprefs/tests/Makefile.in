@@ -414,6 +414,15 @@ srcdir
 VPATH
 =
 srcdir
+relativesrcdir
+=
+toolkit
+/
+components
+/
+contentprefs
+/
+tests
 include
 (
 DEPTH

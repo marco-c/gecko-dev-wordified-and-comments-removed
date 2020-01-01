@@ -424,6 +424,15 @@ srcdir
 VPATH
 =
 srcdir
+relativesrcdir
+=
+toolkit
+/
+mozapps
+/
+update
+/
+test
 include
 (
 DEPTH
@@ -434,9 +443,6 @@ config
 autoconf
 .
 mk
-MODULE
-=
-test_update
 DIRS
 =
 \
@@ -468,7 +474,7 @@ _tests
 xpcshell
 /
 (
-MODULE
+relativesrcdir
 )
 CPPSRCS
 =

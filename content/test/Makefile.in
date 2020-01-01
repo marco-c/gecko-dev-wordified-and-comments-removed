@@ -412,6 +412,11 @@ srcdir
 VPATH
 =
 srcdir
+relativesrcdir
+=
+content
+/
+test
 include
 (
 DEPTH

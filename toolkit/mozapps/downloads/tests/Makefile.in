@@ -427,6 +427,15 @@ srcdir
 VPATH
 =
 srcdir
+relativesrcdir
+=
+toolkit
+/
+mozapps
+/
+downloads
+/
+tests
 include
 (
 DEPTH

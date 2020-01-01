@@ -605,5 +605,5 @@ _tests
 xpcshell
 /
 (
-MODULE
+relativesrcdir
 )
