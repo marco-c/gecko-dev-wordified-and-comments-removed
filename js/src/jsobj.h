@@ -3256,6 +3256,18 @@ entryp
 )
 ;
 extern
+JS_FRIEND_API
+(
+JSBool
+)
+js_CheckUndeclaredVarAssignment
+(
+JSContext
+*
+cx
+)
+;
+extern
 JSBool
 js_SetPropertyHelper
 (
@@ -3267,8 +3279,6 @@ JSObject
 obj
 jsid
 id
-JSBool
-unqualified
 jsval
 *
 vp
