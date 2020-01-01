@@ -10376,6 +10376,14 @@ mSecurityUI
 =
 aSecurityUI
 ;
+mSecurityUI
+-
+>
+SetDocShell
+(
+this
+)
+;
 return
 NS_OK
 ;
