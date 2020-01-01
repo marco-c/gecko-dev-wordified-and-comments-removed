@@ -1230,6 +1230,20 @@ True
         
 self
 .
+hasXPConnectImpls
+=
+desc
+.
+get
+(
+'
+hasXPConnectImpls
+'
+False
+)
+        
+self
+.
 concrete
 =
 desc
