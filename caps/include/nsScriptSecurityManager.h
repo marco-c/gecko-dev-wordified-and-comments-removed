@@ -70,13 +70,6 @@ h
 #
 include
 "
-nsISecurityPref
-.
-h
-"
-#
-include
-"
 nsIChannelEventSink
 .
 h
@@ -1106,8 +1099,6 @@ nsScriptSecurityManager
 public
 nsIScriptSecurityManager
 public
-nsIPrefSecurityCheck
-public
 nsIChannelEventSink
 public
 nsIObserver
@@ -1127,7 +1118,6 @@ NS_SCRIPTSECURITYMANAGER_CID
 NS_DECL_ISUPPORTS
 NS_DECL_NSISCRIPTSECURITYMANAGER
 NS_DECL_NSIXPCSECURITYMANAGER
-NS_DECL_NSIPREFSECURITYCHECK
 NS_DECL_NSICHANNELEVENTSINK
 NS_DECL_NSIOBSERVER
 static
@@ -1600,9 +1590,6 @@ char
 *
 *
 prefNames
-nsISecurityPref
-*
-securityPref
 )
 ;
 #
@@ -1730,12 +1717,6 @@ nsCOMPtr
 nsIPrefBranch
 >
 mPrefBranch
-;
-nsCOMPtr
-<
-nsISecurityPref
->
-mSecurityPref
 ;
 nsCOMPtr
 <
