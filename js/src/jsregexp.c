@@ -14786,6 +14786,15 @@ pc
 +
 +
 ;
+if
+(
+!
+result
+)
+result
+=
+x
+;
 continue
 ;
 case
