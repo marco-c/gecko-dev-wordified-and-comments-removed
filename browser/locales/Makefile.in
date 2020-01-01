@@ -515,11 +515,6 @@ stage
 ;
 \
 (
-NULL
-)
-STUB_HOOK
-=
-(
 NSINSTALL
 )
 -
