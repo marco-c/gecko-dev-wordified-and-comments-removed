@@ -200,7 +200,6 @@ com
 original
 author
 )
-d
 #
 Fritz
 Schneider

@@ -413,15 +413,7 @@ autoconf
 mk
 DIRS
 =
-public
 src
-ifdef
-ENABLE_TESTS
-DIRS
-+
-=
-tests
-endif
 ifneq
 (
 (
