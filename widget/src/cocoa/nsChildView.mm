@@ -33623,7 +33623,10 @@ nsnull
 self
 convertGenericCocoaEvent
 :
-nil
+[
+NSApp
+currentEvent
+]
 toGeckoEvent
 :
 &
