@@ -686,10 +686,7 @@ reg
 loadValueThenPayload
 (
 address
-Registers
-:
-:
-ValueReg
+reg
 reg
 )
 ;
@@ -706,10 +703,7 @@ reg
 loadValueThenPayload
 (
 address
-Registers
-:
-:
-ValueReg
+reg
 reg
 )
 ;
