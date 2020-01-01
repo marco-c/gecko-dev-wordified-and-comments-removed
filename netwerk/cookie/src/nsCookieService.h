@@ -675,11 +675,12 @@ aData
 )
 ;
 PRUint32
-CountCookiesFromHost
+CountCookiesFromHostInternal
 (
-nsCookie
-*
-aCookie
+const
+nsACString
+&
+aHost
 nsEnumerationData
 &
 aData
