@@ -1072,14 +1072,7 @@ host
 )
 mListener
 (
-new
-nsMainThreadPtrHolder
-<
-nsIDNSListener
->
-(
 listener
-)
 )
 mFlags
 (
@@ -1124,7 +1117,7 @@ mResolver
 nsCString
 mHost
 ;
-nsMainThreadPtrHandle
+nsCOMPtr
 <
 nsIDNSListener
 >
@@ -1219,6 +1212,10 @@ this
 rec
 status
 )
+;
+mListener
+=
+nullptr
 ;
 NS_RELEASE_THIS
 (
