@@ -2164,7 +2164,7 @@ WantPreCreate
 js
 :
 :
-AutoMaybeTouchDeadCompartments
+AutoMaybeTouchDeadZones
 agc
 (
 parent
@@ -7385,7 +7385,7 @@ false
 js
 :
 :
-AutoMaybeTouchDeadCompartments
+AutoMaybeTouchDeadZones
 agc
 (
 parentObj
@@ -17255,7 +17255,7 @@ false
 js
 :
 :
-AutoMaybeTouchDeadCompartments
+AutoMaybeTouchDeadZones
 agc
 (
 parent

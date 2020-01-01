@@ -474,12 +474,12 @@ trc
 rt
 -
 >
-gcManipulatingDeadCompartments
+gcManipulatingDeadZones
 !
 thing
 -
 >
-compartment
+zone
 (
 )
 -
@@ -753,7 +753,7 @@ thing
 thing
 -
 >
-compartment
+zone
 (
 )
 -

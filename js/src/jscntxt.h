@@ -2984,10 +2984,10 @@ bool
 gcGenerationalEnabled
 ;
 bool
-gcManipulatingDeadCompartments
+gcManipulatingDeadZones
 ;
 unsigned
-gcObjectsMarkedInDeadCompartments
+gcObjectsMarkedInDeadZones
 ;
 bool
 gcPoke
