@@ -2529,6 +2529,16 @@ NS_DECL_CYCLE_COLLECTION_SCRIPT_HOLDER_CLASS
 (
 nsGenericElement
 )
+virtual
+void
+NodeInfoChanged
+(
+nsINodeInfo
+*
+aOldNodeInfo
+)
+{
+}
 protected
 :
 nsresult

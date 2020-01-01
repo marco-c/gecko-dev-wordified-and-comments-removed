@@ -151,6 +151,15 @@ nsAttrValue
 aResult
 )
 ;
+virtual
+void
+NodeInfoChanged
+(
+nsINodeInfo
+*
+aOldNodeInfo
+)
+;
 }
 ;
 #

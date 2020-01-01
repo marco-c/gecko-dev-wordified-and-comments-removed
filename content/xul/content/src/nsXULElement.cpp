@@ -5671,6 +5671,13 @@ aName
 )
 ;
 }
+nsMutationGuard
+:
+:
+DidMutate
+(
+)
+;
 nsAttrValue
 ignored
 ;
