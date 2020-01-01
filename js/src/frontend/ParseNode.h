@@ -5292,6 +5292,7 @@ FunctionSyntaxKind
 {
 Expression
 Statement
+Arrow
 }
 ;
 }
