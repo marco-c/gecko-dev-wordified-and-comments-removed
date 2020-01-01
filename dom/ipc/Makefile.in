@@ -477,16 +477,6 @@ src
 /
 ipc
 \
--
-I
-(
-topsrcdir
-)
-/
-dom
-/
-devicestorage
-\
 (
 NULL
 )
