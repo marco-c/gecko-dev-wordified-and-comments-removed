@@ -625,7 +625,7 @@ names
 .
 AppendElement
 (
-nsDependentCString
+NullableString
 (
 argn
 [
@@ -638,7 +638,7 @@ values
 .
 AppendElement
 (
-nsDependentCString
+NullableString
 (
 argv
 [
