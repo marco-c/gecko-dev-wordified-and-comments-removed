@@ -43190,7 +43190,7 @@ context_tabViewMenu
 "
 )
 .
-disabled
+hidden
 =
 this
 .
