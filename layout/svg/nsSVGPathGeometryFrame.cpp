@@ -656,7 +656,7 @@ return
 foundTransform
 ;
 }
-void
+NS_IMETHODIMP
 nsSVGPathGeometryFrame
 :
 :
@@ -695,6 +695,7 @@ HasValidDimensions
 )
 {
 return
+NS_OK
 ;
 }
 aLists
@@ -716,6 +717,9 @@ aBuilder
 this
 )
 )
+;
+return
+NS_OK
 ;
 }
 NS_IMETHODIMP

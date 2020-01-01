@@ -151,8 +151,7 @@ aIndex
 )
 const
 ;
-virtual
-void
+NS_IMETHOD
 BuildDisplayList
 (
 nsDisplayListBuilder
@@ -277,7 +276,7 @@ nsMencloseNotation
 mask
 )
 ;
-void
+nsresult
 DisplayNotation
 (
 nsDisplayListBuilder

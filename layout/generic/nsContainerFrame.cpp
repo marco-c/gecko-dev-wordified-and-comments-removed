@@ -1366,7 +1366,7 @@ aLists
 )
 ;
 }
-void
+NS_IMETHODIMP
 nsContainerFrame
 :
 :
@@ -1398,8 +1398,11 @@ aDirtyRect
 aLists
 )
 ;
+return
+NS_OK
+;
 }
-void
+nsresult
 nsContainerFrame
 :
 :
@@ -1465,6 +1468,9 @@ GetNextSibling
 )
 ;
 }
+return
+NS_OK
+;
 }
 void
 nsContainerFrame

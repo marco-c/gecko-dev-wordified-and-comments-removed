@@ -3177,7 +3177,7 @@ return
 NS_OK
 ;
 }
-void
+NS_IMETHODIMP
 nsSVGOuterSVGFrame
 :
 :
@@ -3206,6 +3206,7 @@ NS_STATE_SVG_NONDISPLAY_CHILD
 )
 {
 return
+NS_OK
 ;
 }
 DisplayBorderBackgroundOutline
@@ -3330,6 +3331,9 @@ aBuilder
 childItems
 aLists
 )
+;
+return
+NS_OK
 ;
 }
 nsSplittableType

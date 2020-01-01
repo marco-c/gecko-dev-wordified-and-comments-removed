@@ -82,8 +82,7 @@ aContext
 ;
 public
 :
-virtual
-void
+NS_IMETHOD
 BuildDisplayList
 (
 nsDisplayListBuilder

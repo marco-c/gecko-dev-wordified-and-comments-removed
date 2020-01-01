@@ -61,8 +61,7 @@ UpdateMouseThrough
 )
 ;
 }
-virtual
-void
+NS_IMETHOD
 BuildDisplayListForChildren
 (
 nsDisplayListBuilder

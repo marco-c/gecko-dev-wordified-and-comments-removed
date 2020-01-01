@@ -270,7 +270,7 @@ isFirstPaint
 )
 MOZ_OVERRIDE
 ;
-void
+NS_IMETHOD
 BuildDisplayList
 (
 nsDisplayListBuilder

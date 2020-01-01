@@ -2349,7 +2349,7 @@ FORCE_DRAW
 }
 ;
 virtual
-void
+nsresult
 AddCanvasBackgroundColorItem
 (
 nsDisplayListBuilder
@@ -2384,7 +2384,7 @@ aFlags
 0
 ;
 virtual
-void
+nsresult
 AddPrintPreviewBackgroundItem
 (
 nsDisplayListBuilder

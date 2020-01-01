@@ -20936,7 +20936,7 @@ aScreenRect
 )
 ;
 }
-void
+nsresult
 PresShell
 :
 :
@@ -20957,6 +20957,7 @@ nsRect
 aBounds
 )
 {
+return
 aList
 .
 AppendNewToBottom
@@ -21105,7 +21106,7 @@ return
 false
 ;
 }
-void
+nsresult
 PresShell
 :
 :
@@ -21140,6 +21141,7 @@ IsEmpty
 )
 {
 return
+NS_OK
 ;
 }
 if
@@ -21166,6 +21168,7 @@ aFrame
 )
 {
 return
+NS_OK
 ;
 }
 nscolor
@@ -21188,6 +21191,7 @@ bgcolor
 0
 )
 return
+NS_OK
 ;
 if
 (
@@ -21265,10 +21269,12 @@ bgcolor
 )
 )
 return
+NS_OK
 ;
 }
 }
 }
+return
 aList
 .
 AppendNewToBottom

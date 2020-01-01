@@ -81,8 +81,7 @@ NS_STATE_SVG_NONDISPLAY_CHILD
 public
 :
 NS_DECL_FRAMEARENA_HELPERS
-virtual
-void
+NS_IMETHOD
 BuildDisplayList
 (
 nsDisplayListBuilder
@@ -97,8 +96,10 @@ nsDisplayListSet
 &
 aLists
 )
-MOZ_OVERRIDE
 {
+return
+NS_OK
+;
 }
 nsresult
 ClipPaint

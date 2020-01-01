@@ -1219,7 +1219,7 @@ return
 rv
 ;
 }
-void
+NS_IMETHODIMP
 nsSliderFrame
 :
 :
@@ -1274,6 +1274,7 @@ this
 )
 ;
 return
+NS_OK
 ;
 }
 nsBoxFrame
@@ -1286,8 +1287,11 @@ aDirtyRect
 aLists
 )
 ;
+return
+NS_OK
+;
 }
-void
+NS_IMETHODIMP
 nsSliderFrame
 :
 :
@@ -1376,8 +1380,10 @@ thumbRect
 height
 )
 return
+NS_OK
 ;
 }
+return
 nsBoxFrame
 :
 :

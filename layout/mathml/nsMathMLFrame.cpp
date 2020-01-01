@@ -2133,7 +2133,7 @@ ToReferenceFrame
 )
 ;
 }
-void
+nsresult
 nsMathMLFrame
 :
 :
@@ -2178,6 +2178,7 @@ IsEmpty
 )
 )
 return
+NS_OK
 ;
 aLists
 .
