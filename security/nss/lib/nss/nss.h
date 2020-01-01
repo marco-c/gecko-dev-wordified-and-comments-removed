@@ -67,7 +67,7 @@ NSS_VERSION
 .
 12
 .
-7
+8
 .
 0
 "
@@ -87,7 +87,7 @@ NSS_VMINOR
 #
 define
 NSS_VPATCH
-7
+8
 #
 define
 NSS_VBUILD

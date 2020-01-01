@@ -45,7 +45,7 @@ SOFTOKEN_VERSION
 .
 12
 .
-7
+8
 .
 0
 "
@@ -64,7 +64,7 @@ SOFTOKEN_VMINOR
 #
 define
 SOFTOKEN_VPATCH
-7
+8
 #
 define
 SOFTOKEN_VBUILD
