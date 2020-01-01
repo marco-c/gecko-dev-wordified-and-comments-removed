@@ -5,7 +5,7 @@ jspropcache_h___
 define
 jspropcache_h___
 const
-int
+unsigned
 PROPERTY_CACHE_LOG2
 =
 12
@@ -29,7 +29,7 @@ PROPERTY_CACHE_LOG2
 )
 ;
 const
-int
+unsigned
 PCVCAP_PROTOBITS
 =
 4
@@ -53,7 +53,7 @@ PCVCAP_PROTOBITS
 )
 ;
 const
-int
+unsigned
 PCVCAP_SCOPEBITS
 =
 4
@@ -632,7 +632,7 @@ PCVAL_SPROP
 2
 ;
 const
-int
+unsigned
 PCVAL_TAGBITS
 =
 2
