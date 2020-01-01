@@ -525,6 +525,10 @@ testTrap
 .
 cpp
 \
+testUTF8
+.
+cpp
+\
 testXDR
 .
 cpp
