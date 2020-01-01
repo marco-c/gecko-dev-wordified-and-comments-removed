@@ -36,10 +36,6 @@ class
 Shape
 ;
 typedef
-JSObject
-Env
-;
-typedef
 JSNative
 Native
 ;

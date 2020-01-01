@@ -728,6 +728,10 @@ zone
 }
 }
 ;
+typedef
+JSObject
+Env
+;
 class
 Debugger
 :
