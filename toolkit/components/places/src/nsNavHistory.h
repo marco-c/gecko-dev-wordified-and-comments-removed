@@ -1049,7 +1049,7 @@ aOptions
 )
 ;
 nsresult
-AddPageWithVisit
+AddPageWithVisits
 (
 nsIURI
 *
@@ -1058,14 +1058,12 @@ const
 nsString
 &
 aTitle
-PRBool
-aHidden
-PRBool
-aTyped
 PRInt32
 aVisitCount
 PRInt32
-aLastVisitTransition
+aTransitionType
+PRTime
+aFirstVisitDate
 PRTime
 aLastVisitDate
 )
