@@ -958,6 +958,10 @@ mTextureHost
 fprintf
 (
 aFile
+"
+%
+s
+"
 aPrefix
 )
 ;

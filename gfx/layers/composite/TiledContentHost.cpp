@@ -1722,6 +1722,10 @@ it
 fprintf
 (
 aFile
+"
+%
+s
+"
 aPrefix
 )
 ;

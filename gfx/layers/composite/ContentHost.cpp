@@ -1090,6 +1090,10 @@ mTextureHost
 fprintf
 (
 aFile
+"
+%
+s
+"
 aPrefix
 )
 ;
@@ -1153,6 +1157,10 @@ mTextureHostOnWhite
 fprintf
 (
 aFile
+"
+%
+s
+"
 aPrefix
 )
 ;
@@ -3785,6 +3793,10 @@ mBackHost
 fprintf
 (
 aFile
+"
+%
+s
+"
 aPrefix
 )
 ;
@@ -3848,6 +3860,10 @@ mBackHostOnWhite
 fprintf
 (
 aFile
+"
+%
+s
+"
 aPrefix
 )
 ;
