@@ -20506,6 +20506,14 @@ GetCurrentInnerWindowInternal
 (
 )
 ;
+if
+(
+!
+targetWindow
+)
+return
+NS_OK
+;
 NS_ABORT_IF_FALSE
 (
 targetWindow
