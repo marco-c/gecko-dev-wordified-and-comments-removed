@@ -769,6 +769,13 @@ ProcessSomeEvents
 (
 )
 ;
+sync
+AppendNotesToCrashReport
+(
+nsCString
+aNotes
+)
+;
 }
 ;
 }

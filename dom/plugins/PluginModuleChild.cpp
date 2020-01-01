@@ -1210,6 +1210,15 @@ NULL
 else
 #
 endif
+#
+ifdef
+MOZ_X11
+XRE_InstallX11ErrorHandler
+(
+)
+;
+#
+endif
 return
 true
 ;

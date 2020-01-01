@@ -674,6 +674,15 @@ MacApplicationDelegate
 .
 mm
 endif
+ifdef
+MOZ_X11
+CPPSRCS
++
+=
+nsX11ErrorHandler
+.
+cpp
+endif
 SHARED_LIBRARY_LIBS
 +
 =
