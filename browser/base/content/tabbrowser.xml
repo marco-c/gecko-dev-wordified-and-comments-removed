@@ -24535,16 +24535,6 @@ mOverCloseButton
 =
 false
 ;
-else
-this
-.
-style
-.
-MozUserFocus
-=
-"
-"
-;
 <
 /
 handler
