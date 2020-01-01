@@ -123,3 +123,16 @@ CONFIG
 _MSC_VER
 '
 ]
+relative_path
+=
+'
+.
+'
+include
+(
+'
+testplugin
+.
+mozbuild
+'
+)
