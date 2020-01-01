@@ -115,6 +115,14 @@ Recvprompt
 (
 )
 ;
+virtual
+void
+ActorDestroy
+(
+ActorDestroyReason
+why
+)
+;
 }
 ;
 }
@@ -153,6 +161,11 @@ dom
 ContentPermissionRequestParent
 *
 parent
+)
+;
+void
+OnParentDestroyed
+(
 )
 ;
 NS_DECL_ISUPPORTS
