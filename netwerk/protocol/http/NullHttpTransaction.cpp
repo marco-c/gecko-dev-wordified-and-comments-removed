@@ -62,6 +62,8 @@ NS_OK
 mCaps
 (
 caps
+|
+NS_HTTP_ALLOW_KEEPALIVE
 )
 mCallbacks
 (
