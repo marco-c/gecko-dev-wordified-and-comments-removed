@@ -1131,7 +1131,7 @@ mColors
 new
 colorTable
 [
-mNumColors
+256
 ]
 ;
 if
@@ -1141,6 +1141,18 @@ mColors
 )
 return
 NS_ERROR_OUT_OF_MEMORY
+;
+memset
+(
+mColors
+0
+256
+*
+sizeof
+(
+colorTable
+)
+)
 ;
 }
 else
