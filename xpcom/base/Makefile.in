@@ -519,6 +519,10 @@ FunctionTimer
 .
 cpp
 \
+ClearOnShutdown
+.
+cpp
+\
 (
 NULL
 )
