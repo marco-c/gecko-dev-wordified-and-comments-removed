@@ -36,6 +36,9 @@ class
 gfxASurface
 ;
 class
+gfxPattern
+;
+class
 nsIDeviceContext
 ;
 struct
@@ -293,6 +296,17 @@ gfxASurface
 *
 *
 aSurface
+)
+=
+0
+;
+NS_IMETHOD
+GetPattern
+(
+gfxPattern
+*
+*
+aPattern
 )
 =
 0
