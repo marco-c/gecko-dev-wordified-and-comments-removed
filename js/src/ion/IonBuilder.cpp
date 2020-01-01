@@ -21913,7 +21913,7 @@ calleeDepth
 )
 -
 >
-setFolded
+setFoldedUnchecked
 (
 )
 ;
@@ -22351,7 +22351,7 @@ calleeDepth
 )
 -
 >
-setFolded
+setFoldedUnchecked
 (
 )
 ;
@@ -32617,7 +32617,7 @@ true
 obj
 -
 >
-setFolded
+setFoldedUnchecked
 (
 )
 ;
@@ -34204,7 +34204,7 @@ true
 obj
 -
 >
-setFolded
+setFoldedUnchecked
 (
 )
 ;
