@@ -792,6 +792,11 @@ aCharset
 )
 const
 ;
+bool
+ShouldDisplaySelection
+(
+)
+;
 PRBool
 UpdateIntrinsicSize
 (
