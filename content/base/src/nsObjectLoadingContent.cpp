@@ -2777,6 +2777,11 @@ nsFrameLoader
 Create
 (
 thisContent
+-
+>
+AsElement
+(
+)
 mNetworkCreated
 )
 ;
@@ -5332,6 +5337,11 @@ nsFrameLoader
 Create
 (
 thisContent
+-
+>
+AsElement
+(
+)
 mNetworkCreated
 )
 ;
@@ -8614,9 +8624,7 @@ nsIImageLoadingContent
 *
 >
 (
-(
 aDest
-)
 )
 )
 ;
@@ -8630,6 +8638,11 @@ nsFrameLoader
 Create
 (
 content
+-
+>
+AsElement
+(
+)
 PR_FALSE
 )
 ;
