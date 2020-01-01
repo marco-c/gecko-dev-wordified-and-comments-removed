@@ -935,6 +935,12 @@ Ci
 nsIDOMWindow
 )
 ;
+win
+.
+focus
+(
+)
+;
 /
 /
 Now

@@ -1077,6 +1077,12 @@ Ci
 nsIDOMWindow
 )
 ;
+win
+.
+focus
+(
+)
+;
 let
 =
 function

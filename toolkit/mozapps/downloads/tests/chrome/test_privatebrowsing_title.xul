@@ -983,6 +983,12 @@ Ci
 nsIDOMWindow
 )
 ;
+win
+.
+focus
+(
+)
+;
 let
 defaultTitle
 =

@@ -816,6 +816,12 @@ nsIDOMEventTarget
 ;
 win
 .
+focus
+(
+)
+;
+win
+.
 addEventListener
 (
 "

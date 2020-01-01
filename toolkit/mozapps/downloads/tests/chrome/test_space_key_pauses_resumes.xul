@@ -1460,6 +1460,12 @@ Ci
 nsIDOMWindow
 )
 ;
+win
+.
+focus
+(
+)
+;
 let
 doc
 =

@@ -1057,6 +1057,12 @@ Ci
 nsIDOMWindow
 )
 ;
+win
+.
+focus
+(
+)
+;
 var
 checkSelectAndRemove
 =
