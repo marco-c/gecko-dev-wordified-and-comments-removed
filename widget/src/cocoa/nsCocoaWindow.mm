@@ -745,6 +745,9 @@ gCocoaWindowMethodsSwizzled
 =
 PR_FALSE
 ;
+PRBool
+gConsumeRollupEvent
+;
 /
 /
 defined
@@ -7966,6 +7969,10 @@ NS_ADDREF
 (
 this
 )
+;
+gConsumeRollupEvent
+=
+aConsumeRollupEvent
 ;
 /
 /
