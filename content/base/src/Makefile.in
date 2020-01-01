@@ -590,6 +590,10 @@ nsDOMAttributeMap
 .
 cpp
 \
+nsDOMBlobBuilder
+.
+cpp
+\
 nsDOMDocumentType
 .
 cpp
