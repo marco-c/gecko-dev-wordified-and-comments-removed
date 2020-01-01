@@ -2200,6 +2200,15 @@ quit
 (
 )
 {
+if
+(
+this
+.
+closing
+(
+)
+)
+{
 window
 .
 QueryInterface
@@ -2219,6 +2228,7 @@ close
 (
 )
 ;
+}
 }
 _waitingToClose
 :
