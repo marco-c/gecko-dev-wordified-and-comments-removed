@@ -47,6 +47,10 @@ ShutdownAccessibility
 (
 )
 ;
+static
+PRBool
+gHaveNewTextSignals
+;
 }
 ;
 #
