@@ -1739,7 +1739,7 @@ nsIContent
 >
 mSourceLoadCandidate
 ;
-nsRefPtr
+nsAutoPtr
 <
 AudioStream
 >

@@ -960,7 +960,7 @@ mAudioPlaybackStartTime
 MediaTime
 mBlockedAudioTime
 ;
-nsRefPtr
+nsAutoPtr
 <
 AudioStream
 >
