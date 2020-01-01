@@ -3035,7 +3035,7 @@ mBackoff
 {
 mBackoffTime
 =
-PR_MIN
+NS_MIN
 (
 mBackoffTime
 gBackoffMax
