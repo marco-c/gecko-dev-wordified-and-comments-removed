@@ -4359,6 +4359,9 @@ doTransaction
 txn
 )
 ;
+return
+true
+;
 }
 _removeRange
 :

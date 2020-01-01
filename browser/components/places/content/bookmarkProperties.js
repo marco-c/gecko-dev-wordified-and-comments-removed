@@ -357,6 +357,10 @@ _itemTitle
 )
 ;
 }
+return
+"
+"
+;
 }
 _determineItemInfo
 :

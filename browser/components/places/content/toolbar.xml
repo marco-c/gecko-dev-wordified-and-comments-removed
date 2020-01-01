@@ -2245,9 +2245,9 @@ try
 {
 siteURIString
 =
-this
+PlaceUtils
 .
-_anno
+annotations
 .
 getItemAnnotationString
 (
