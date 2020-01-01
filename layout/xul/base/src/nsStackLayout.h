@@ -125,8 +125,8 @@ aBoxLayoutState
 )
 ;
 static
-PRBool
-AddOffset
+PRUint8
+GetOffset
 (
 nsBoxLayoutState
 &
@@ -134,9 +134,9 @@ aState
 nsIBox
 *
 aChild
-nsSize
+nsMargin
 &
-aSize
+aMargin
 )
 ;
 private

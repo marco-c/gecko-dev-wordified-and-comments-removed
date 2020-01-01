@@ -36,6 +36,13 @@ h
 #
 include
 "
+nsGridLayout2
+.
+h
+"
+#
+include
+"
 nsGridRow
 .
 h
@@ -2813,7 +2820,7 @@ box
 size
 )
 ;
-nsStackLayout
+nsGridLayout2
 :
 :
 AddOffset
@@ -3128,7 +3135,7 @@ box
 size
 )
 ;
-nsStackLayout
+nsGridLayout2
 :
 :
 AddOffset
@@ -3451,7 +3458,7 @@ box
 size
 )
 ;
-nsStackLayout
+nsGridLayout2
 :
 :
 AddOffset

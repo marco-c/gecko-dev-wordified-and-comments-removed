@@ -455,6 +455,10 @@ test_bug477754
 .
 xul
 \
+test_stack
+.
+xul
+\
 (
 NULL
 )

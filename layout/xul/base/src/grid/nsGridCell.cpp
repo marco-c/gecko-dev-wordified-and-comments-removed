@@ -22,7 +22,7 @@ h
 #
 include
 "
-nsStackLayout
+nsGridLayout2
 .
 h
 "
@@ -105,7 +105,7 @@ mBoxInColumn
 pref
 )
 ;
-nsStackLayout
+nsGridLayout2
 :
 :
 AddOffset
@@ -150,7 +150,7 @@ mBoxInRow
 pref
 )
 ;
-nsStackLayout
+nsGridLayout2
 :
 :
 AddOffset
@@ -217,7 +217,7 @@ mBoxInColumn
 min
 )
 ;
-nsStackLayout
+nsGridLayout2
 :
 :
 AddOffset
@@ -262,7 +262,7 @@ mBoxInRow
 min
 )
 ;
-nsStackLayout
+nsGridLayout2
 :
 :
 AddOffset
@@ -329,7 +329,7 @@ mBoxInColumn
 max
 )
 ;
-nsStackLayout
+nsGridLayout2
 :
 :
 AddOffset
@@ -374,7 +374,7 @@ mBoxInRow
 max
 )
 ;
-nsStackLayout
+nsGridLayout2
 :
 :
 AddOffset
