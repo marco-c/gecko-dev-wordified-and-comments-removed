@@ -82,7 +82,6 @@ nsXULTreeAccessible
 )
 {
 }
-;
 NS_IMETHOD
 Shutdown
 (

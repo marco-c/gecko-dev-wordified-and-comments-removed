@@ -29,7 +29,6 @@ Reset
 )
 ;
 }
-;
 void
 HandleData
 (
@@ -42,7 +41,6 @@ aLen
 )
 {
 }
-;
 void
 HandleOneChar
 (
@@ -112,7 +110,6 @@ mFreqChars
 }
 }
 }
-;
 float
 GetConfidence
 (
@@ -137,14 +134,12 @@ mFreqChars
 0
 ;
 }
-;
 void
 SetOpion
 (
 )
 {
 }
-;
 PRBool
 GotEnoughData
 (
@@ -156,7 +151,6 @@ mTotalChars
 ENOUGH_DATA_THRESHOLD
 ;
 }
-;
 protected
 :
 virtual
@@ -174,7 +168,6 @@ return
 1
 ;
 }
-;
 PRBool
 mDone
 ;
@@ -277,7 +270,6 @@ return
 1
 ;
 }
-;
 }
 ;
 class
@@ -360,7 +352,6 @@ return
 1
 ;
 }
-;
 }
 ;
 class
@@ -460,7 +451,6 @@ return
 1
 ;
 }
-;
 }
 ;
 class
@@ -599,7 +589,6 @@ return
 1
 ;
 }
-;
 }
 ;
 class
@@ -781,7 +770,6 @@ return
 order
 ;
 }
-;
 }
 ;
 class
@@ -864,7 +852,6 @@ return
 1
 ;
 }
-;
 }
 ;
 #

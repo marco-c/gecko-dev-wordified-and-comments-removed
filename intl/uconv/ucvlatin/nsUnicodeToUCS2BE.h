@@ -28,7 +28,6 @@ mBOM
 0
 ;
 }
-;
 NS_IMETHOD
 Convert
 (
@@ -135,7 +134,6 @@ mBOM
 0
 ;
 }
-;
 protected
 :
 NS_IMETHOD
@@ -195,7 +193,6 @@ mBOM
 0xFEFF
 ;
 }
-;
 }
 ;
 #

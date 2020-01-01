@@ -74,7 +74,6 @@ txAXMLEventHandler
 )
 {
 }
-;
 virtual
 nsresult
 attribute
@@ -445,7 +444,6 @@ txAOutputHandlerFactory
 )
 {
 }
-;
 virtual
 nsresult
 createHandlerWith

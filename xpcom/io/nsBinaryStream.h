@@ -109,7 +109,6 @@ nsBinaryOutputStream
 )
 {
 }
-;
 virtual
 ~
 nsBinaryOutputStream
@@ -117,7 +116,6 @@ nsBinaryOutputStream
 )
 {
 }
-;
 protected
 :
 NS_DECL_ISUPPORTS
@@ -219,7 +217,6 @@ nsBinaryInputStream
 )
 {
 }
-;
 virtual
 ~
 nsBinaryInputStream
@@ -227,7 +224,6 @@ nsBinaryInputStream
 )
 {
 }
-;
 protected
 :
 NS_DECL_ISUPPORTS

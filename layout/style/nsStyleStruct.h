@@ -226,7 +226,6 @@ void
 )
 {
 }
-;
 nsChangeHint
 CalcDifference
 (
@@ -344,7 +343,6 @@ void
 )
 {
 }
-;
 nsChangeHint
 CalcDifference
 (
@@ -418,7 +416,6 @@ this
 )
 ;
 }
-;
 nscolor
 mColor
 ;
@@ -502,7 +499,6 @@ this
 )
 ;
 }
-;
 nsChangeHint
 CalcDifference
 (
@@ -664,7 +660,6 @@ void
 )
 {
 }
-;
 void
 *
 operator
@@ -777,7 +772,6 @@ void
 )
 {
 }
-;
 void
 *
 operator
@@ -931,7 +925,6 @@ NS_RGB
 )
 ;
 }
-;
 nsBorderColors
 (
 const
@@ -1244,7 +1237,6 @@ mBorderColors
 ;
 }
 }
-;
 void
 *
 operator
@@ -1984,7 +1976,6 @@ void
 )
 {
 }
-;
 void
 *
 operator
@@ -2037,7 +2028,6 @@ this
 )
 ;
 }
-;
 void
 RecalcData
 (
@@ -2374,7 +2364,6 @@ this
 )
 ;
 }
-;
 nsChangeHint
 CalcDifference
 (
@@ -2490,7 +2479,6 @@ this
 )
 ;
 }
-;
 nsChangeHint
 CalcDifference
 (
@@ -2618,7 +2606,6 @@ this
 )
 ;
 }
-;
 nsChangeHint
 CalcDifference
 (
@@ -2728,7 +2715,6 @@ this
 )
 ;
 }
-;
 nsChangeHint
 CalcDifference
 (
@@ -2838,7 +2824,6 @@ nsStyleVisibility
 )
 {
 }
-;
 void
 *
 operator
@@ -2891,7 +2876,6 @@ this
 )
 ;
 }
-;
 nsChangeHint
 CalcDifference
 (
@@ -2991,7 +2975,6 @@ nsStyleDisplay
 )
 {
 }
-;
 void
 *
 operator
@@ -3044,7 +3027,6 @@ this
 )
 ;
 }
-;
 nsChangeHint
 CalcDifference
 (
@@ -3425,7 +3407,6 @@ this
 )
 ;
 }
-;
 nsChangeHint
 CalcDifference
 (
@@ -3543,7 +3524,6 @@ this
 )
 ;
 }
-;
 nsChangeHint
 CalcDifference
 (
@@ -3831,7 +3811,6 @@ this
 )
 ;
 }
-;
 nsChangeHint
 CalcDifference
 (
@@ -4178,7 +4157,6 @@ this
 )
 ;
 }
-;
 nsChangeHint
 CalcDifference
 (
@@ -4667,7 +4645,6 @@ this
 )
 ;
 }
-;
 nsChangeHint
 CalcDifference
 (
@@ -4796,7 +4773,6 @@ this
 )
 ;
 }
-;
 nsChangeHint
 CalcDifference
 (
@@ -4923,7 +4899,6 @@ this
 )
 ;
 }
-;
 nsChangeHint
 CalcDifference
 (
@@ -5040,7 +5015,6 @@ this
 )
 ;
 }
-;
 nsChangeHint
 CalcDifference
 (
@@ -5240,7 +5214,6 @@ this
 )
 ;
 }
-;
 nsChangeHint
 CalcDifference
 (
@@ -5415,7 +5388,6 @@ this
 )
 ;
 }
-;
 nsChangeHint
 CalcDifference
 (

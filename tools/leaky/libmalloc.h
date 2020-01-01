@@ -160,7 +160,6 @@ newrc
 ifdef
 __cplusplus
 }
-;
 #
 endif
 #

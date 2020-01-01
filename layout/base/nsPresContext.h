@@ -2186,7 +2186,6 @@ eContext_Galley
 )
 ;
 }
-;
 PRBool
 IsScreen
 (
@@ -2216,7 +2215,6 @@ eContext_PrintPreview
 )
 ;
 }
-;
 const
 nsTArray
 <

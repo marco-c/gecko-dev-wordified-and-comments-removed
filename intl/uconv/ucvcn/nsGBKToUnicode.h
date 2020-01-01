@@ -58,7 +58,6 @@ m4BytesDecoder
 nsnull
 ;
 }
-;
 protected
 :
 NS_IMETHOD
@@ -160,7 +159,6 @@ nsGB18030ToUnicode
 )
 {
 }
-;
 virtual
 ~
 nsGB18030ToUnicode
@@ -168,7 +166,6 @@ nsGB18030ToUnicode
 )
 {
 }
-;
 protected
 :
 virtual

@@ -708,7 +708,6 @@ height
 )
 {
 }
-;
 NS_IMETHODIMP
 SetX
 (

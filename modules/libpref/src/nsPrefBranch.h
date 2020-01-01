@@ -147,7 +147,6 @@ nsPrefBranch
 )
 {
 }
-;
 nsresult
 GetDefaultFromPropertiesFile
 (

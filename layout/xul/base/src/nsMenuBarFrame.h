@@ -165,7 +165,6 @@ return
 NS_OK
 ;
 }
-;
 NS_IMETHOD
 IsMenuBar
 (
@@ -182,7 +181,6 @@ return
 NS_OK
 ;
 }
-;
 NS_IMETHOD
 ConsumeOutsideClicks
 (
@@ -200,7 +198,6 @@ return
 NS_OK
 ;
 }
-;
 NS_IMETHOD
 ClearRecentlyRolledUp
 (
@@ -228,7 +225,6 @@ return
 NS_OK
 ;
 }
-;
 NS_IMETHOD
 GetIsContextMenu
 (
@@ -245,7 +241,6 @@ return
 NS_OK
 ;
 }
-;
 NS_IMETHOD
 GetParentPopup
 (
@@ -264,7 +259,6 @@ return
 NS_OK
 ;
 }
-;
 NS_IMETHOD
 IsActive
 (
@@ -274,7 +268,6 @@ return
 mIsActive
 ;
 }
-;
 NS_IMETHOD
 IsOpen
 (
@@ -294,7 +287,6 @@ return
 NS_OK
 ;
 }
-;
 NS_IMETHOD
 DismissChain
 (

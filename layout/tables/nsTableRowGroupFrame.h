@@ -836,7 +836,6 @@ FirstChild
 )
 ;
 }
-;
 virtual
 nsIFrame
 *
@@ -852,7 +851,6 @@ LastChild
 )
 ;
 }
-;
 virtual
 void
 GetNextFrame
@@ -877,7 +875,6 @@ GetNextSibling
 )
 ;
 }
-;
 PRBool
 IsRepeatable
 (

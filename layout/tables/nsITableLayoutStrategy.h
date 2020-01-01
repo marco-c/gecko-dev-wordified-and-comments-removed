@@ -36,7 +36,6 @@ nsITableLayoutStrategy
 )
 {
 }
-;
 virtual
 nscoord
 GetMinWidth

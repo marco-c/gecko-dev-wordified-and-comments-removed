@@ -1144,7 +1144,6 @@ aRequest
 )
 ;
 }
-;
 PRBool
 HasRequest
 (

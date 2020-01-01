@@ -2222,7 +2222,6 @@ aPrototype
 )
 {
 }
-;
 }
 ;
 PRBool
@@ -3529,7 +3528,6 @@ aContent
 )
 {
 }
-;
 }
 ;
 PRBool

@@ -94,7 +94,6 @@ mModel
 sm
 ;
 }
-;
 nsSMState
 NextState
 (
@@ -164,7 +163,6 @@ return
 mCurrentState
 ;
 }
-;
 PRUint32
 GetCurrentCharLen
 (
@@ -175,7 +173,6 @@ return
 mCurrentCharLen
 ;
 }
-;
 void
 Reset
 (
@@ -187,7 +184,6 @@ mCurrentState
 eStart
 ;
 }
-;
 const
 char
 *
@@ -202,7 +198,6 @@ mModel
 name
 ;
 }
-;
 protected
 :
 nsSMState

@@ -54,7 +54,6 @@ nsNetscapeProfileMigratorBase
 )
 {
 }
-;
 public
 :
 typedef

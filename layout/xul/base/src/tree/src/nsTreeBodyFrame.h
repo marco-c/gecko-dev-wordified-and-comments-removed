@@ -282,7 +282,6 @@ return
 NS_OK
 ;
 }
-;
 NS_IMETHOD
 Init
 (
@@ -681,7 +680,6 @@ mTopRowIndex
 mPageLength
 ;
 }
-;
 PRInt32
 GetRowAt
 (
@@ -1108,7 +1106,6 @@ aOrientation
 )
 ;
 }
-;
 already_AddRefed
 <
 nsTreeColumn
@@ -1318,7 +1315,6 @@ PRInt32
 )
 {
 }
-;
 ~
 Slots
 (
@@ -1336,7 +1332,6 @@ Cancel
 )
 ;
 }
-;
 friend
 class
 nsTreeBodyFrame

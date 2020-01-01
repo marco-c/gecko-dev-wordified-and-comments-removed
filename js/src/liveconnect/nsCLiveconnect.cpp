@@ -181,7 +181,6 @@ return
 mPushResult
 ;
 }
-;
 private
 :
 nsCOMPtr

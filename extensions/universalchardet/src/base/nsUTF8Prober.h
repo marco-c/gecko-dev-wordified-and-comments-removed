@@ -48,7 +48,6 @@ Reset
 )
 ;
 }
-;
 virtual
 ~
 nsUTF8Prober
@@ -59,7 +58,6 @@ delete
 mCodingSM
 ;
 }
-;
 nsProbingState
 HandleData
 (
@@ -86,7 +84,6 @@ UTF
 "
 ;
 }
-;
 nsProbingState
 GetState
 (
@@ -97,7 +94,6 @@ return
 mState
 ;
 }
-;
 void
 Reset
 (
@@ -116,7 +112,6 @@ SetOpion
 )
 {
 }
-;
 protected
 :
 nsCodingStateMachine

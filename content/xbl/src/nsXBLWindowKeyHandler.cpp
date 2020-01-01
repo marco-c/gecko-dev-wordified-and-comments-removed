@@ -320,7 +320,6 @@ PR_FALSE
 )
 {
 }
-;
 }
 ;
 const

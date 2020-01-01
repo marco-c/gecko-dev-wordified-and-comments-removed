@@ -328,7 +328,6 @@ nsPrinterFeatures
 )
 {
 }
-;
 void
 SetCanChangePaperSize
 (

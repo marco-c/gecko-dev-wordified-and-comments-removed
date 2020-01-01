@@ -395,7 +395,6 @@ mSetParentPointer
 PR_FALSE
 ;
 }
-;
 }
 ;
 nsInlineFrame

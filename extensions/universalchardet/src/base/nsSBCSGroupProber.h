@@ -57,7 +57,6 @@ return
 mState
 ;
 }
-;
 void
 Reset
 (
@@ -76,7 +75,6 @@ SetOpion
 )
 {
 }
-;
 #
 ifdef
 DEBUG_chardet

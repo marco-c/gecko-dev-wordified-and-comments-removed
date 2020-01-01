@@ -145,7 +145,6 @@ this
 )
 ;
 }
-;
 const
 nsString
 *

@@ -47,7 +47,6 @@ Reset
 )
 ;
 }
-;
 void
 HandleData
 (
@@ -145,7 +144,6 @@ mLastCharOrder
 order
 ;
 }
-;
 float
 GetConfidence
 (
@@ -163,7 +161,6 @@ SetOpion
 )
 {
 }
-;
 PRBool
 GotEnoughData
 (
@@ -175,7 +172,6 @@ mTotalRel
 ENOUGH_REL_THRESHOLD
 ;
 }
-;
 protected
 :
 virtual
@@ -326,7 +322,6 @@ return
 1
 ;
 }
-;
 }
 ;
 class
@@ -430,7 +425,6 @@ return
 1
 ;
 }
-;
 }
 ;
 #

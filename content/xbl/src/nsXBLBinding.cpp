@@ -997,7 +997,6 @@ aBinding
 )
 {
 }
-;
 }
 ;
 struct
@@ -1037,7 +1036,6 @@ NS_OK
 )
 {
 }
-;
 }
 ;
 PR_STATIC_CALLBACK

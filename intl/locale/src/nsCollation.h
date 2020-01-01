@@ -58,7 +58,6 @@ nsCollationFactory
 )
 {
 }
-;
 }
 ;
 struct

@@ -256,7 +256,6 @@ return
 PR_FALSE
 ;
 }
-;
 nsWeakPtr
 mWeakPtr
 ;

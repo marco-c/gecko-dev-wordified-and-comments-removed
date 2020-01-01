@@ -35,7 +35,6 @@ Reset
 )
 ;
 }
-;
 public
 :
 NS_IMETHOD

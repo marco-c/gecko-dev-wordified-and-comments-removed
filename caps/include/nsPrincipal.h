@@ -244,7 +244,6 @@ aCert
 )
 {
 }
-;
 nsCString
 fingerprint
 ;

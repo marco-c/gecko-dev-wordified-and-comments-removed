@@ -93,7 +93,6 @@ return
 NS_OK
 ;
 }
-;
 NS_IMETHOD
 GetScriptAccess
 (
@@ -111,7 +110,6 @@ return
 NS_OK
 ;
 }
-;
 NS_IMETHOD_
 (
 nsIURI
@@ -130,7 +128,6 @@ GetDocumentURI
 )
 ;
 }
-;
 NS_IMETHOD
 GetPrototypeBinding
 (

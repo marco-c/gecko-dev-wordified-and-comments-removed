@@ -637,7 +637,6 @@ mIsPopup
 isPopup
 ;
 }
-;
 nsresult
 PrepareToLoad
 (
@@ -763,7 +762,6 @@ return
 kNameSpaceID_XUL
 ;
 }
-;
 protected
 :
 static

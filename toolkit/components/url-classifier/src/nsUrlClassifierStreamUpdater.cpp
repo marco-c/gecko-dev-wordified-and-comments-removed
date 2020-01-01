@@ -143,7 +143,6 @@ TableUpdateListener
 )
 {
 }
-;
 nsCOMPtr
 <
 nsIUrlClassifierCallback

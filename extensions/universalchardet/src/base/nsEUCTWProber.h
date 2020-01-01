@@ -52,7 +52,6 @@ Reset
 )
 ;
 }
-;
 virtual
 ~
 nsEUCTWProber
@@ -64,7 +63,6 @@ delete
 mCodingSM
 ;
 }
-;
 nsProbingState
 HandleData
 (
@@ -93,7 +91,6 @@ tw
 "
 ;
 }
-;
 nsProbingState
 GetState
 (
@@ -104,7 +101,6 @@ return
 mState
 ;
 }
-;
 void
 Reset
 (
@@ -123,7 +119,6 @@ SetOpion
 )
 {
 }
-;
 protected
 :
 void

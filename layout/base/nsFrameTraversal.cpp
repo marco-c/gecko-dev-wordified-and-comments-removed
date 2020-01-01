@@ -364,7 +364,6 @@ aFollowOOFs
 )
 {
 }
-;
 protected
 :
 nsIFrame

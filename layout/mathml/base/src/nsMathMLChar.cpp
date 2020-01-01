@@ -2717,7 +2717,6 @@ nsBaseFontEntry
 )
 {
 }
-;
 nsString
 mFontFamily
 ;

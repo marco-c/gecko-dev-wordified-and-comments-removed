@@ -39,7 +39,6 @@ NS_DEFINE_STATIC_CID_ACCESSOR
 (
 NS_GENERICFACTORY_CID
 )
-;
 nsGenericFactory
 (
 const

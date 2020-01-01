@@ -251,7 +251,6 @@ mDone
 PR_FALSE
 ;
 }
-;
 virtual
 ~
 nsCyrillicDetector
@@ -259,7 +258,6 @@ nsCyrillicDetector
 )
 {
 }
-;
 virtual
 void
 HandleData
@@ -507,7 +505,6 @@ gRussian
 )
 {
 }
-;
 }
 ;
 class
@@ -530,7 +527,6 @@ gRussian
 )
 {
 }
-;
 }
 ;
 class
@@ -553,7 +549,6 @@ gUkrainian
 )
 {
 }
-;
 }
 ;
 class
@@ -576,7 +571,6 @@ gUkrainian
 )
 {
 }
-;
 }
 ;
 #

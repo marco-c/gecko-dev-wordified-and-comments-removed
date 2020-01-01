@@ -138,7 +138,6 @@ nsRuleWalker
 )
 ;
 }
-;
 ~
 nsRuleWalker
 (
@@ -150,6 +149,5 @@ nsRuleWalker
 )
 ;
 }
-;
 }
 ;

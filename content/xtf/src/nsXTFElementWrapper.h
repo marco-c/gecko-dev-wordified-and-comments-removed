@@ -429,7 +429,6 @@ return
 mXTFElement
 ;
 }
-;
 PRBool
 QueryInterfaceInner
 (

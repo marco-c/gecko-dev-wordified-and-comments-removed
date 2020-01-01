@@ -405,7 +405,6 @@ return
 nsnull
 ;
 }
-;
 public
 :
 NS_IMETHOD

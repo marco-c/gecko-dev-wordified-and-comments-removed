@@ -462,7 +462,6 @@ Init
 )
 ;
 }
-;
 virtual
 ~
 nsDOMStorageList
@@ -470,7 +469,6 @@ nsDOMStorageList
 )
 {
 }
-;
 NS_DECL_ISUPPORTS
 NS_DECL_NSIDOMSTORAGELIST
 static

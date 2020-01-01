@@ -91,7 +91,6 @@ return
 NS_OK
 ;
 }
-;
 PRUint16
 mHZState
 ;

@@ -193,14 +193,12 @@ EmbedCommon
 )
 {
 }
-;
 ~
 EmbedCommon
 (
 )
 {
 }
-;
 static
 EmbedCommon
 *

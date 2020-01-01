@@ -173,7 +173,6 @@ nsKeyObjectFactory
 )
 {
 }
-;
 nsKeyObjectFactory
 (
 nsKeyObjectFactory

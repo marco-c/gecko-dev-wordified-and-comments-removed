@@ -28,14 +28,12 @@ nsGBKConvUtil
 )
 {
 }
-;
 ~
 nsGBKConvUtil
 (
 )
 {
 }
-;
 void
 InitToGBKTable
 (

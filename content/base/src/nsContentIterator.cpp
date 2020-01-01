@@ -3727,7 +3727,6 @@ nsContentSubtreeIterator
 )
 {
 }
-;
 virtual
 ~
 nsContentSubtreeIterator
@@ -3735,7 +3734,6 @@ nsContentSubtreeIterator
 )
 {
 }
-;
 virtual
 nsresult
 Init

@@ -4513,7 +4513,6 @@ return
 fNPStream
 ;
 }
-;
 }
 ;
 NS_IMPL_ISUPPORTS1

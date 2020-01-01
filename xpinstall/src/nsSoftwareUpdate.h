@@ -124,7 +124,6 @@ NS_DEFINE_STATIC_CID_ACCESSOR
 (
 NS_SoftwareUpdate_CID
 )
-;
 static
 nsSoftwareUpdate
 *

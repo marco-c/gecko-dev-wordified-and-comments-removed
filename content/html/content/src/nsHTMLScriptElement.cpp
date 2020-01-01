@@ -160,7 +160,6 @@ nsHTMLScriptEventHandler
 )
 {
 }
-;
 NS_DECL_ISUPPORTS
 NS_DECL_NSISCRIPTEVENTHANDLER
 nsresult

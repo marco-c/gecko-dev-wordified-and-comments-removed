@@ -41,7 +41,6 @@ nsCaseConversionImp2
 )
 {
 }
-;
 static
 nsCaseConversionImp2
 *

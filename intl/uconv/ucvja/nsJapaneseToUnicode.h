@@ -67,7 +67,6 @@ setMapMode
 )
 ;
 }
-;
 virtual
 ~
 nsShiftJISToUnicode
@@ -75,7 +74,6 @@ nsShiftJISToUnicode
 )
 {
 }
-;
 NS_IMETHOD
 Convert
 (
@@ -117,7 +115,6 @@ return
 NS_OK
 ;
 }
-;
 NS_IMETHOD
 Reset
 (
@@ -135,7 +132,6 @@ return
 NS_OK
 ;
 }
-;
 private
 :
 private
@@ -173,7 +169,6 @@ setMapMode
 )
 ;
 }
-;
 virtual
 ~
 nsEUCJPToUnicodeV2
@@ -181,7 +176,6 @@ nsEUCJPToUnicodeV2
 )
 {
 }
-;
 NS_IMETHOD
 Convert
 (
@@ -223,7 +217,6 @@ return
 NS_OK
 ;
 }
-;
 NS_IMETHOD
 Reset
 (
@@ -241,7 +234,6 @@ return
 NS_OK
 ;
 }
-;
 private
 :
 PRInt32
@@ -297,7 +289,6 @@ setMapMode
 )
 ;
 }
-;
 virtual
 ~
 nsISO2022JPToUnicodeV2
@@ -320,7 +311,6 @@ mISO88597Decoder
 )
 ;
 }
-;
 NS_IMETHOD
 Convert
 (
@@ -362,7 +352,6 @@ return
 NS_OK
 ;
 }
-;
 NS_IMETHOD
 Reset
 (
@@ -384,7 +373,6 @@ return
 NS_OK
 ;
 }
-;
 private
 :
 enum

@@ -188,14 +188,12 @@ nsnull
 #
 endif
 }
-;
 ~
 nsRuleData
 (
 )
 {
 }
-;
 }
 ;
 #

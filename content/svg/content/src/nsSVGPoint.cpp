@@ -481,7 +481,6 @@ y
 )
 {
 }
-;
 NS_IMETHODIMP
 SetX
 (

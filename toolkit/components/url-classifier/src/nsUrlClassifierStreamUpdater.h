@@ -79,7 +79,6 @@ nsUrlClassifierStreamUpdater
 )
 {
 }
-;
 nsUrlClassifierStreamUpdater
 (
 nsUrlClassifierStreamUpdater

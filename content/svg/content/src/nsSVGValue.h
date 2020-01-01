@@ -158,7 +158,6 @@ OnDidModify
 )
 {
 }
-;
 nsSmallVoidArray
 mObservers
 ;

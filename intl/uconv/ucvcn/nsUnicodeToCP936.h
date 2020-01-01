@@ -24,7 +24,6 @@ nsUnicodeToCP936
 )
 {
 }
-;
 }
 ;
 #

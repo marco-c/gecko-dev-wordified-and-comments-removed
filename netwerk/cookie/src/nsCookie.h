@@ -207,7 +207,6 @@ nsCookie
 )
 {
 }
-;
 inline
 const
 nsDependentCString

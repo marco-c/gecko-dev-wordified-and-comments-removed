@@ -643,7 +643,6 @@ nsOperaCookieMigrator
 )
 {
 }
-;
 nsresult
 ReadHeader
 (

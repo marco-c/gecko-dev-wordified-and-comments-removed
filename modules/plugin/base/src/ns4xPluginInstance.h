@@ -320,7 +320,6 @@ return
 NS_OK
 ;
 }
-;
 nsIPluginInstancePeer
 *
 Peer

@@ -703,7 +703,6 @@ insertElement
 )
 {
 }
-;
 virtual
 ~
 nsTextRulesInfo
@@ -711,7 +710,6 @@ nsTextRulesInfo
 )
 {
 }
-;
 const
 nsAString
 *

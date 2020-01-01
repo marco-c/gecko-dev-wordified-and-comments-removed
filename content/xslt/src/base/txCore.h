@@ -47,7 +47,6 @@ txObject
 )
 {
 }
-;
 }
 ;
 class

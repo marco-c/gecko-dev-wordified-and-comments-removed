@@ -37,7 +37,6 @@ nsComposeTxtSrvFilter
 )
 {
 }
-;
 NS_DECL_ISUPPORTS
 NS_DECL_NSITEXTSERVICESFILTER
 void

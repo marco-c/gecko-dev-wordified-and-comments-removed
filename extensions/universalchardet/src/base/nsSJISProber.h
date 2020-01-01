@@ -59,7 +59,6 @@ Reset
 )
 ;
 }
-;
 virtual
 ~
 nsSJISProber
@@ -71,7 +70,6 @@ delete
 mCodingSM
 ;
 }
-;
 nsProbingState
 HandleData
 (
@@ -96,7 +94,6 @@ Shift_JIS
 "
 ;
 }
-;
 nsProbingState
 GetState
 (
@@ -107,7 +104,6 @@ return
 mState
 ;
 }
-;
 void
 Reset
 (
@@ -126,7 +122,6 @@ SetOpion
 )
 {
 }
-;
 protected
 :
 nsCodingStateMachine

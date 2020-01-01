@@ -177,7 +177,6 @@ return
 m_cmsMsg
 ;
 }
-;
 private
 :
 nsCOMPtr

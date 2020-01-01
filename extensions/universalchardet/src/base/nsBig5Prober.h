@@ -52,7 +52,6 @@ Reset
 )
 ;
 }
-;
 virtual
 ~
 nsBig5Prober
@@ -64,7 +63,6 @@ delete
 mCodingSM
 ;
 }
-;
 nsProbingState
 HandleData
 (
@@ -89,7 +87,6 @@ Big5
 "
 ;
 }
-;
 nsProbingState
 GetState
 (
@@ -100,7 +97,6 @@ return
 mState
 ;
 }
-;
 void
 Reset
 (
@@ -119,7 +115,6 @@ SetOpion
 )
 {
 }
-;
 protected
 :
 void

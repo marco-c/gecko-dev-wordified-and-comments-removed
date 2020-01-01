@@ -14,7 +14,6 @@ nsObserverBase
 )
 {
 }
-;
 virtual
 ~
 nsObserverBase
@@ -22,7 +21,6 @@ nsObserverBase
 )
 {
 }
-;
 protected
 :
 NS_IMETHOD

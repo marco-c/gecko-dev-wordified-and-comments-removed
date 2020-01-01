@@ -52,7 +52,6 @@ mBuffer
 0
 ;
 }
-;
 virtual
 ~
 nsUnicodeToTSCII
@@ -60,7 +59,6 @@ nsUnicodeToTSCII
 )
 {
 }
-;
 NS_IMETHOD
 Convert
 (
@@ -158,7 +156,6 @@ nsUnicodeToTSCII
 )
 {
 }
-;
 virtual
 ~
 nsUnicodeToTamilTTF
@@ -166,7 +163,6 @@ nsUnicodeToTamilTTF
 )
 {
 }
-;
 NS_IMETHOD
 Convert
 (

@@ -33,7 +33,6 @@ Reset
 )
 ;
 }
-;
 virtual
 ~
 nsLatin1Prober
@@ -42,7 +41,6 @@ void
 )
 {
 }
-;
 nsProbingState
 HandleData
 (
@@ -69,7 +67,6 @@ windows
 "
 ;
 }
-;
 nsProbingState
 GetState
 (
@@ -80,7 +77,6 @@ return
 mState
 ;
 }
-;
 void
 Reset
 (
@@ -99,7 +95,6 @@ SetOpion
 )
 {
 }
-;
 #
 ifdef
 DEBUG_chardet

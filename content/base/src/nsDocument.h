@@ -2425,7 +2425,6 @@ return
 kNameSpaceID_None
 ;
 }
-;
 void
 DispatchEventToWindow
 (

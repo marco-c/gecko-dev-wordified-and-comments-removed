@@ -177,7 +177,6 @@ return
 mState
 ;
 }
-;
 virtual
 void
 Reset
@@ -199,7 +198,6 @@ SetOpion
 )
 {
 }
-;
 PRBool
 KeepEnglishLetters
 (
@@ -212,7 +210,6 @@ mModel
 keepEnglishLetter
 ;
 }
-;
 #
 ifdef
 DEBUG_chardet

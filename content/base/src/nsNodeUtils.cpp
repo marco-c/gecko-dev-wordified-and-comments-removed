@@ -1464,7 +1464,6 @@ aNodesWithProperties
 )
 {
 }
-;
 nsIDOMElement
 *
 mElement

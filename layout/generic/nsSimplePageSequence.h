@@ -251,7 +251,6 @@ return
 NS_OK
 ;
 }
-;
 NS_IMETHOD
 GetSTFPercent
 (

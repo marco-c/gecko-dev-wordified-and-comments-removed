@@ -22,7 +22,6 @@ mHighSurrogate
 0
 ;
 }
-;
 virtual
 ~
 nsUnicodeToUTF32
@@ -30,7 +29,6 @@ nsUnicodeToUTF32
 )
 {
 }
-;
 protected
 :
 PRUnichar
@@ -63,7 +61,6 @@ return
 NS_OK
 ;
 }
-;
 NS_IMETHOD
 FillInfo
 (
@@ -88,7 +85,6 @@ return
 NS_OK
 ;
 }
-;
 }
 ;
 class

@@ -58,7 +58,6 @@ nsXPTZipLoader
 )
 {
 }
-;
 NS_DECL_ISUPPORTS
 NS_DECL_NSIXPTLOADER
 private

@@ -63,7 +63,6 @@ mHighSurrogate
 0
 ;
 }
-;
 NS_IMETHOD
 FillInfo
 (
@@ -144,7 +143,6 @@ return
 NS_OK
 ;
 }
-;
 protected
 :
 PRUnichar

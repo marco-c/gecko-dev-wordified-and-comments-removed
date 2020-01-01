@@ -67,7 +67,6 @@ nsXBLProtoImpl
 )
 ;
 }
-;
 ~
 nsXBLProtoImpl
 (
@@ -112,7 +111,6 @@ delete
 mMembers
 ;
 }
-;
 nsresult
 InstallImplementation
 (
@@ -170,7 +168,6 @@ mMembers
 aMemberList
 ;
 }
-;
 protected
 :
 void

@@ -153,7 +153,6 @@ inDOMViewNode
 )
 {
 }
-;
 inDOMViewNode
 (
 nsIDOMNode

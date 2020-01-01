@@ -59,7 +59,6 @@ nsProfileMigrator
 )
 {
 }
-;
 protected
 :
 ~
@@ -68,7 +67,6 @@ nsProfileMigrator
 )
 {
 }
-;
 nsresult
 GetDefaultBrowserMigratorKey
 (

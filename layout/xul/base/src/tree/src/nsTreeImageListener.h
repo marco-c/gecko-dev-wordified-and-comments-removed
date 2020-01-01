@@ -174,7 +174,6 @@ mInvalidationSuppressed
 PR_FALSE
 ;
 }
-;
 void
 Invalidate
 (
@@ -210,7 +209,6 @@ delete
 mNext
 ;
 }
-;
 friend
 class
 nsTreeImageListener
@@ -238,7 +236,6 @@ get
 )
 ;
 }
-;
 PRInt32
 GetMin
 (
@@ -248,7 +245,6 @@ return
 mMin
 ;
 }
-;
 PRInt32
 GetMax
 (
@@ -258,7 +254,6 @@ return
 mMax
 ;
 }
-;
 InvalidationArea
 *
 GetNext
@@ -269,7 +264,6 @@ return
 mNext
 ;
 }
-;
 void
 SetNext
 (
@@ -283,7 +277,6 @@ mNext
 aNext
 ;
 }
-;
 private
 :
 nsCOMPtr

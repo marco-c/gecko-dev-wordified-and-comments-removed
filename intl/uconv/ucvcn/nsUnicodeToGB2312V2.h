@@ -72,7 +72,6 @@ return
 NS_OK
 ;
 }
-;
 NS_IMETHOD
 FillInfo
 (

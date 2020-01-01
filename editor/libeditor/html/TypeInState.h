@@ -82,7 +82,6 @@ value
 )
 {
 }
-;
 PropItem
 (
 nsIAtom

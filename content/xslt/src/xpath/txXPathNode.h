@@ -325,7 +325,6 @@ mIndex
 eDocument
 ;
 }
-;
 PRBool
 isContent
 (
@@ -339,7 +338,6 @@ mIndex
 eContent
 ;
 }
-;
 PRBool
 isAttribute
 (
@@ -359,7 +357,6 @@ mIndex
 eContent
 ;
 }
-;
 nsIContent
 *
 Content

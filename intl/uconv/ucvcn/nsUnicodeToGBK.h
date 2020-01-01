@@ -55,7 +55,6 @@ nsUnicodeToGBK
 )
 {
 }
-;
 protected
 :
 NS_IMETHOD
@@ -98,7 +97,6 @@ return
 NS_OK
 ;
 }
-;
 NS_IMETHOD
 FillInfo
 (
@@ -198,7 +196,6 @@ nsUnicodeToGBK
 )
 {
 }
-;
 virtual
 ~
 nsUnicodeToGB18030
@@ -206,7 +203,6 @@ nsUnicodeToGB18030
 )
 {
 }
-;
 protected
 :
 virtual
@@ -252,7 +248,6 @@ nsUnicodeToGB18030Font0
 )
 {
 }
-;
 virtual
 ~
 nsUnicodeToGB18030Font0
@@ -260,7 +255,6 @@ nsUnicodeToGB18030Font0
 )
 {
 }
-;
 protected
 :
 virtual
@@ -312,7 +306,6 @@ nsUnicodeToGB18030Font1
 )
 {
 }
-;
 protected
 :
 NS_IMETHOD
