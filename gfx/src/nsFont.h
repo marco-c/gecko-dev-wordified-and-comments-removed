@@ -114,14 +114,14 @@ systemFont
 PRUint8
 variant
 ;
+PRUint8
+decorations
+;
 PRUint16
 weight
 ;
 PRInt16
 stretch
-;
-PRUint8
-decorations
 ;
 nscoord
 size
