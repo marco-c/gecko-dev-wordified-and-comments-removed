@@ -60,3 +60,13 @@ void
 unused
 )
 ;
+PrefHashEntry
+*
+pref_HashTableLookup
+(
+const
+void
+*
+key
+)
+;

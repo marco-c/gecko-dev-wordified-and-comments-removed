@@ -568,10 +568,10 @@ URI
 uri
 )
 ;
-NotifyRemotePrefObserver
+PreferenceUpdate
 (
 nsCString
-aDomain
+pref
 )
 ;
 NotifyAlertsObserver

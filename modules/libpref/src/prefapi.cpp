@@ -651,18 +651,6 @@ PRBool
 defaultPref
 )
 ;
-static
-inline
-PrefHashEntry
-*
-pref_HashTableLookup
-(
-const
-void
-*
-key
-)
-;
 #
 define
 PREF_HASHTABLE_INITIAL_SIZE
@@ -2818,8 +2806,6 @@ gDirty
 PR_TRUE
 ;
 }
-static
-inline
 PrefHashEntry
 *
 pref_HashTableLookup
