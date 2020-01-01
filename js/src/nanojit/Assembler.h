@@ -791,6 +791,16 @@ e
 ;
 }
 void
+cleanupAfterError
+(
+)
+;
+void
+clearNInsPtrs
+(
+)
+;
+void
 reset
 (
 )

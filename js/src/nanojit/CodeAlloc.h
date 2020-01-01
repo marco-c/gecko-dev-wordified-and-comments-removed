@@ -384,6 +384,14 @@ markAllExec
 )
 ;
 void
+markChunkExec
+(
+CodeList
+*
+term
+)
+;
+void
 markBlockWrite
 (
 CodeList
