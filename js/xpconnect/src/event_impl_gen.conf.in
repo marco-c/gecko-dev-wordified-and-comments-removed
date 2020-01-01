@@ -159,6 +159,14 @@ BluetoothDeviceAddressEvent
 '
 #
 endif
+#
+ifdef
+MOZ_B2G_RIL
+'
+ICCCardLockErrorEvent
+'
+#
+endif
 '
 DeviceStorageChangeEvent
 '
