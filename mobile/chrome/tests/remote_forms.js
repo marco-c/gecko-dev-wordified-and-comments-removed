@@ -57,7 +57,7 @@ n
 let
 assistant
 =
-contentObject
+Content
 .
 _formAssistant
 ;

@@ -2311,7 +2311,7 @@ messageManager
 addMessageListener
 (
 "
-WebProgress
+Content
 :
 LocationChange
 "
@@ -2344,7 +2344,7 @@ messageManager
 removeMessageListener
 (
 "
-WebProgress
+Content
 :
 LocationChange
 "
@@ -2385,7 +2385,7 @@ messageManager
 addMessageListener
 (
 "
-WebProgress
+Content
 :
 LocationChange
 "
@@ -2415,7 +2415,7 @@ messageManager
 removeMessageListener
 (
 "
-WebProgress
+Content
 :
 LocationChange
 "
@@ -2456,7 +2456,7 @@ messageManager
 addMessageListener
 (
 "
-WebProgress
+Content
 :
 LocationChange
 "
@@ -2486,7 +2486,7 @@ messageManager
 removeMessageListener
 (
 "
-WebProgress
+Content
 :
 LocationChange
 "
