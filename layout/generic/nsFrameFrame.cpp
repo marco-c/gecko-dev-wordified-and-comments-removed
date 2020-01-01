@@ -929,14 +929,6 @@ rv
 return
 rv
 ;
-nsPresContext
-*
-aPresContext
-=
-PresContext
-(
-)
-;
 if
 (
 !
