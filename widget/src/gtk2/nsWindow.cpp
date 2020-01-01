@@ -7664,12 +7664,12 @@ ReleaseGrabs
 (
 )
 ;
+}
 gtk_grab_remove
 (
 widget
 )
 ;
-}
 gRollupListener
 =
 nsnull
