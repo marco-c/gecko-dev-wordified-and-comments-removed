@@ -128,6 +128,11 @@ MediaOmxReader
 cpp
 '
 '
+MP3FrameParser
+.
+cpp
+'
+'
 OmxDecoder
 .
 cpp
