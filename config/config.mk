@@ -1157,15 +1157,9 @@ MOZ_MEMORY
 ifneq
 (
 (
-filter
--
-out
-WINNT
-WINCE
-(
 OS_ARCH
 )
-)
+WINNT
 )
 JEMALLOC_LIBS
 =
