@@ -1811,4 +1811,11 @@ ShutDown
 (
 )
 ;
+nsRefreshDriver
+:
+:
+Shutdown
+(
+)
+;
 }
