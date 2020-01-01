@@ -435,10 +435,9 @@ uint32_t
 ;
 ret
 =
-posix_fallocate
+ftruncate
 (
 outFd
-0
 offset
 )
 ;
