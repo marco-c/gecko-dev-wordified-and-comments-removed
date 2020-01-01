@@ -18766,10 +18766,10 @@ NATIVE_THEBES_CONTEXT
 nscoord
 appUnitsPerPixel
 =
-nsPresContext
-:
-:
-AppUnitsPerCSSPixel
+aPresContext
+-
+>
+AppUnitsPerDevPixel
 (
 )
 ;
