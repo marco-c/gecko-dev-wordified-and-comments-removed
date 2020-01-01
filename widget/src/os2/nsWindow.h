@@ -970,12 +970,6 @@ return
 mPrevWndProc
 ;
 }
-PRInt32
-mPreferredHeight
-;
-PRInt32
-mPreferredWidth
-;
 nsToolkit
 *
 mOS2Toolkit

@@ -386,14 +386,6 @@ mParent
 =
 nsnull
 ;
-mPreferredWidth
-=
-0
-;
-mPreferredHeight
-=
-0
-;
 mShown
 =
 PR_FALSE

@@ -1610,12 +1610,6 @@ mCreated
 PRPackedBool
 mPlaced
 ;
-PRUint32
-mPreferredWidth
-;
-PRUint32
-mPreferredHeight
-;
 private
 :
 void
