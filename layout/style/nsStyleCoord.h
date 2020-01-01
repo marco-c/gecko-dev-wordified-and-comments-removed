@@ -1015,7 +1015,7 @@ aOther
 ;
 }
 inline
-PRInt32
+nscoord
 nsStyleCoord
 :
 :

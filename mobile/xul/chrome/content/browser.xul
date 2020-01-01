@@ -887,7 +887,7 @@ content
 /
 browser
 -
-ui
+scripts
 .
 js
 "
@@ -915,7 +915,7 @@ content
 /
 browser
 -
-scripts
+ui
 .
 js
 "

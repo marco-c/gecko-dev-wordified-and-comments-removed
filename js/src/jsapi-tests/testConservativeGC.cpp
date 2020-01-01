@@ -218,7 +218,7 @@ JSVAL_NULL
 ;
 JS_GC
 (
-cx
+rt
 )
 ;
 EVAL
@@ -296,7 +296,7 @@ tmp
 ;
 JS_GC
 (
-cx
+rt
 )
 ;
 checkObjectFields
@@ -531,7 +531,7 @@ weary
 ;
 JS_GC
 (
-cx
+rt
 )
 ;
 }

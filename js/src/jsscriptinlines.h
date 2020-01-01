@@ -532,12 +532,12 @@ ScriptCounts
 :
 destroy
 (
-JSContext
+FreeOp
 *
-cx
+fop
 )
 {
-cx
+fop
 -
 >
 free_

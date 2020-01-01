@@ -5508,3 +5508,17 @@ an
 object
 "
 )
+MSG_DEF
+(
+JSMSG_DEBUG_VARIABLE_NOT_FOUND
+299
+0
+JSEXN_TYPEERR
+"
+variable
+not
+found
+in
+environment
+"
+)

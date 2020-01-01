@@ -920,10 +920,10 @@ ShowInputMethodPicker
 )
 ;
 void
-SetPreventPanning
+NotifyDefaultPrevented
 (
 bool
-aPreventPanning
+aDefaultPrevented
 )
 ;
 void
@@ -1913,7 +1913,7 @@ jmethodID
 jShowInputMethodPicker
 ;
 jmethodID
-jSetPreventPanning
+jNotifyDefaultPrevented
 ;
 jmethodID
 jHideProgressDialog

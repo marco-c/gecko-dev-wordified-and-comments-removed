@@ -7561,8 +7561,7 @@ fp
 (
 )
 ;
-JSAtom
-*
+HeapPtrAtom
 *
 atoms
 =
