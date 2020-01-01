@@ -847,14 +847,6 @@ FORCE_STATIC_LIB
 EXPORTS
 =
 \
-nsIDOMSVGListener
-.
-h
-\
-nsIDOMSVGZoomListener
-.
-h
-\
 nsISVGValue
 .
 h
