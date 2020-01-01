@@ -1677,6 +1677,11 @@ frames
 ;
 break
 ;
+case
+IonFrame_Rectifier
+:
+break
+;
 default
 :
 JS_NOT_REACHED
