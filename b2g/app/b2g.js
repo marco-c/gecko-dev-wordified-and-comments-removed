@@ -580,16 +580,6 @@ false
 pref
 (
 "
-dom
-.
-send_after_paint_to_content
-"
-true
-)
-;
-pref
-(
-"
 browser
 .
 download
