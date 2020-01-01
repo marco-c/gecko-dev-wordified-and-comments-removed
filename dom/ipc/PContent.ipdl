@@ -426,7 +426,7 @@ DeviceStorageEnumerationParams
 nsString
 fullpath
 ;
-PRUint32
+PRUint64
 since
 ;
 }
