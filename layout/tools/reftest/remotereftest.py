@@ -3130,6 +3130,13 @@ exit
 1
 )
     
+if
+not
+options
+.
+ignoreWindowSize
+:
+        
 parts
 =
 dm
@@ -3152,7 +3159,7 @@ screen
 split
 (
 )
-    
+        
 width
 =
 int
@@ -3172,7 +3179,7 @@ split
 1
 ]
 )
-    
+        
 height
 =
 int
@@ -3192,7 +3199,7 @@ split
 1
 ]
 )
-    
+        
 if
 (
 width
@@ -3204,7 +3211,7 @@ height
 1050
 )
 :
-        
+            
 print
 "
 ERROR
@@ -3228,7 +3235,7 @@ higher
 width
 height
 )
-        
+            
 sys
 .
 exit
