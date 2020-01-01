@@ -17,16 +17,12 @@ js1_3
 /
 regress
 /
-skip
 script
 delete
 -
 001
 .
 js
-#
-obsolete
-test
 skip
 script
 function

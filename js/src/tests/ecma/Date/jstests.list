@@ -417,7 +417,6 @@ script
 13
 .
 js
-skip
 script
 15
 .
@@ -430,9 +429,6 @@ script
 2
 .
 js
-#
-bug
-xxx
 script
 15
 .
@@ -1833,12 +1829,6 @@ script
 7
 .
 js
-skip
--
-if
-(
-isDebugBuild
-)
 script
 15
 .
@@ -1849,8 +1839,6 @@ script
 8
 .
 js
-#
-slow
 script
 15
 .

@@ -139,6 +139,12 @@ skip
 -
 if
 (
+!
+xulRuntime
+.
+shell
+&
+&
 isDebugBuild
 )
 script
@@ -297,6 +303,14 @@ regress
 .
 js
 skip
+-
+if
+(
+!
+xulRuntime
+.
+shell
+)
 script
 regress
 -

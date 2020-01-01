@@ -59,7 +59,6 @@ regress
 02
 .
 js
-skip
 script
 regress
 -
@@ -68,9 +67,6 @@ regress
 03
 .
 js
-#
-obsolete
-test
 skip
 script
 regress
@@ -83,6 +79,14 @@ js
 #
 obsolete
 test
+need
+to
+remove
+minor
+failures
+to
+reenable
+.
 script
 regress
 -

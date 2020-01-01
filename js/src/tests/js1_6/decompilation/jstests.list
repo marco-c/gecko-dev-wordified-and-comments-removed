@@ -31,12 +31,6 @@ regress
 01
 .
 js
-skip
--
-if
-(
-isDebugBuild
-)
 script
 regress
 -
@@ -45,10 +39,3 @@ regress
 02
 .
 js
-#
-bug
-xxx
--
-hang
-reftests
-.
