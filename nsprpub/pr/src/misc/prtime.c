@@ -8919,6 +8919,12 @@ defined
 (
 SYMBIAN
 )
+|
+|
+defined
+(
+ANDROID
+)
 a
 .
 tm_zone
