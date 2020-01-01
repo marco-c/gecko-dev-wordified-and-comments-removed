@@ -375,7 +375,7 @@ if
 mTextureClient
 )
 {
-SetTextureClientForBuffer
+SetBufferProvider
 (
 mTextureClient
 )
@@ -390,7 +390,7 @@ EndPaint
 (
 )
 {
-SetTextureClientForBuffer
+SetBufferProvider
 (
 nullptr
 )
