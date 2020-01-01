@@ -28476,6 +28476,10 @@ js_math_log
 )
 KNOWN_NATIVE_DECL
 (
+js_math_max
+)
+KNOWN_NATIVE_DECL
+(
 js_math_pow
 )
 KNOWN_NATIVE_DECL
@@ -28778,6 +28782,16 @@ F_Math_log
 "
 "
 d
+"
+INFALLIBLE
+}
+{
+js_math_max
+F_Math_max
+"
+"
+"
+dd
 "
 INFALLIBLE
 }
