@@ -808,13 +808,6 @@ Shutdown
 (
 )
 {
-nsUXThemeData
-:
-:
-Teardown
-(
-)
-;
 :
 :
 UnregisterClassW
