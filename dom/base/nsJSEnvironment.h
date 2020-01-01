@@ -660,10 +660,8 @@ ConvertSupportsTojsvals
 nsISupports
 *
 aArgs
-JS
-:
-:
-HandleObject
+JSObject
+*
 aScope
 uint32_t
 *
@@ -706,10 +704,8 @@ JSObjectFromInterface
 nsISupports
 *
 aSup
-JS
-:
-:
-HandleObject
+JSObject
+*
 aScript
 JSObject
 *

@@ -5593,7 +5593,8 @@ PostCreateWrapper
 JSContext
 *
 aCx
-JSHandleObject
+JSObject
+*
 aNewObject
 )
 ;
