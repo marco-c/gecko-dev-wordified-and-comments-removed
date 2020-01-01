@@ -13400,7 +13400,7 @@ target
 gNavToolbox
 )
 {
-isInToolbox
+goolbox
 =
 true
 ;
@@ -13701,13 +13701,12 @@ drags
 are
 taken
 care
-off
+of
 within
 the
 toolbox
 if
 (
-!
 isInToolbox
 )
 return
