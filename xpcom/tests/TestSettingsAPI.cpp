@@ -657,6 +657,7 @@ BOOLEAN_TO_JSVAL
 true
 )
 cb0
+nullptr
 )
 ;
 lock1
@@ -694,6 +695,7 @@ BOOLEAN_TO_JSVAL
 false
 )
 cb3
+nullptr
 )
 ;
 lock
@@ -720,6 +722,7 @@ INT_TO_JSVAL
 9
 )
 cb5
+nullptr
 )
 ;
 lock
@@ -748,6 +751,7 @@ DOUBLE_TO_JSVAL
 4
 )
 cb7
+nullptr
 )
 ;
 lock
