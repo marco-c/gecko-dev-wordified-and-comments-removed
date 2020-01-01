@@ -3702,14 +3702,11 @@ aSheetPrincipal
 PRInt32
 ruleCount
 =
-0
-;
 mSheet
 -
 >
 StyleRuleCount
 (
-ruleCount
 )
 ;
 if

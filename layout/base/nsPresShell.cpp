@@ -8137,8 +8137,6 @@ error
 "
 )
 ;
-result
-=
 mPrefStyleSheet
 -
 >
@@ -8149,14 +8147,6 @@ uri
 uri
 )
 ;
-if
-(
-NS_SUCCEEDED
-(
-result
-)
-)
-{
 mPrefStyleSheet
 -
 >
@@ -8222,7 +8212,6 @@ eUserSheet
 mPrefStyleSheet
 )
 ;
-}
 }
 }
 }
