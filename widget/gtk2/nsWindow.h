@@ -1567,12 +1567,6 @@ CreateRootAccessible
 (
 )
 ;
-Accessible
-*
-DispatchAccessibleEvent
-(
-)
-;
 void
 DispatchEventToRootAccessible
 (
