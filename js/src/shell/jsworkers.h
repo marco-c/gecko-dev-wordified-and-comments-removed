@@ -71,9 +71,6 @@ rootp
 void
 terminateAll
 (
-JSRuntime
-*
-rt
 ThreadPool
 *
 tp
