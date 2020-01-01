@@ -3399,6 +3399,8 @@ framenum
 imgFrame
 *
 frame
+=
+nullptr
 ;
 if
 (
@@ -3418,7 +3420,11 @@ frame
 mMultipartDecodedFrame
 ;
 }
-else
+if
+(
+!
+frame
+)
 {
 frame
 =
