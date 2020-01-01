@@ -90,13 +90,9 @@ nsRefPtrHashtable
 .
 h
 "
-#
-include
-"
+class
 nsGenericHTMLElement
-.
-h
-"
+;
 class
 nsIDocument
 ;

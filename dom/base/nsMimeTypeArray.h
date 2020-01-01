@@ -39,13 +39,9 @@ nsAutoPtr
 .
 h
 "
-#
-include
-"
+class
 nsPIDOMWindow
-.
-h
-"
+;
 class
 nsMimeType
 ;
