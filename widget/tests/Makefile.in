@@ -509,6 +509,10 @@ window_wheeltransaction
 .
 xul
 \
+test_imestate
+.
+html
+\
 (
 NULL
 )
