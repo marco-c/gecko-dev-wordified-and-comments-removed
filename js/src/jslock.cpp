@@ -4933,7 +4933,7 @@ rt
 >
 rtLockOwner
 =
-NULL
+0
 ;
 #
 endif
