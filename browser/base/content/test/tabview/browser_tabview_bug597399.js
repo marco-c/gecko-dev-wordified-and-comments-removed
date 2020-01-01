@@ -70,6 +70,12 @@ function
 (
 )
 {
+executeSoon
+(
+function
+(
+)
+{
 let
 searchBox
 =
@@ -108,6 +114,9 @@ contentWindow
 hideSearch
 (
 null
+)
+;
+}
 )
 ;
 }

@@ -4488,7 +4488,6 @@ isSearchEnabled
 {
 ensureSearchShown
 (
-null
 )
 ;
 SearchEventHandler
