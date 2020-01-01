@@ -171,9 +171,7 @@ expectedContentType
 "
 application
 /
-octet
--
-stream
+ogg
 "
 flags
 :
