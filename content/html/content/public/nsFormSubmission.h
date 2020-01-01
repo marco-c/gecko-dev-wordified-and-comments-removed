@@ -59,6 +59,9 @@ class
 nsIMultiplexInputStream
 ;
 class
+nsIDOMFile
+;
+class
 nsFormSubmission
 {
 public
@@ -99,7 +102,7 @@ const
 nsAString
 &
 aName
-nsIFile
+nsIDOMFile
 *
 aFile
 )
@@ -316,7 +319,7 @@ const
 nsAString
 &
 aName
-nsIFile
+nsIDOMFile
 *
 aFile
 )

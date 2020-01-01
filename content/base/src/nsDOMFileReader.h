@@ -316,7 +316,7 @@ aResult
 nsresult
 GetAsDataURL
 (
-nsIFile
+nsIDOMFile
 *
 aFile
 const
@@ -399,7 +399,7 @@ mFileData
 ;
 nsCOMPtr
 <
-nsIFile
+nsIDOMFile
 >
 mFile
 ;
@@ -448,7 +448,7 @@ nsIChannel
 >
 mChannel
 ;
-PRInt64
+PRUint64
 mReadTotal
 ;
 PRUint64
