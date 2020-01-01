@@ -4574,6 +4574,15 @@ WeaveSvc_logout
 (
 )
 {
+if
+(
+!
+this
+.
+_loggedIn
+)
+return
+;
 this
 .
 _log
