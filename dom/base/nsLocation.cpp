@@ -1631,7 +1631,7 @@ aHost
 }
 }
 return
-result
+NS_OK
 ;
 }
 NS_IMETHODIMP
@@ -1772,7 +1772,7 @@ aHostname
 }
 }
 return
-result
+NS_OK
 ;
 }
 NS_IMETHODIMP
