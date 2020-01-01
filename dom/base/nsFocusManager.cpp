@@ -110,13 +110,6 @@ h
 #
 include
 "
-nsIDOMHTMLLegendElement
-.
-h
-"
-#
-include
-"
 nsIDOMDocument
 .
 h
