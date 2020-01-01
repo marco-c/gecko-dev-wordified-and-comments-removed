@@ -543,11 +543,16 @@ ini
 #
 ifndef
 XP_OS2
+#
+ifndef
+MOZ_FOLD_LIBS
 BINPATH
 /
 DLL_PREFIX
 mozsqlite3
 DLL_SUFFIX
+#
+endif
 #
 else
 BINPATH
