@@ -585,9 +585,6 @@ gfxIntSize
 )
 ;
 }
-#
-ifdef
-MOZ_DUMP_IMAGES
 void
 WriteAsPNG
 (
@@ -627,8 +624,6 @@ bool
 aBinary
 )
 ;
-#
-endif
 void
 SetOpaqueRect
 (
