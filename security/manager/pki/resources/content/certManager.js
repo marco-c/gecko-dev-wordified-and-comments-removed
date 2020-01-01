@@ -1719,7 +1719,7 @@ setAttribute
 disabled
 "
 !
-enable_edit
+enable_view
 )
 ;
 var
