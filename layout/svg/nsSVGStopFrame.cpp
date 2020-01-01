@@ -234,11 +234,11 @@ stop
 )
 "
 Content
-doesn
-'
-t
-support
-nsIDOMSVGStopElement
+is
+not
+a
+stop
+element
 "
 )
 ;

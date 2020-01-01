@@ -172,10 +172,6 @@ nsIDOMSVGSVGElement
 .
 idl
 \
-nsIDOMSVGStopElement
-.
-idl
-\
 nsIDOMSVGStringList
 .
 idl
