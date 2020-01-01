@@ -2190,7 +2190,9 @@ op
 )
 fillRule
 (
-FILL_WINDING
+other
+.
+fillRule
 )
 lineCap
 (
