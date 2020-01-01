@@ -1040,9 +1040,14 @@ mMayHaveMouseEnterLeaveEventListener
 1
 ;
 uint32_t
+mClearingListeners
+:
+1
+;
+uint32_t
 mNoListenerForEvent
 :
-25
+24
 ;
 nsAutoTObserverArray
 <
