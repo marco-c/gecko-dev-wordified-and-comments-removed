@@ -642,6 +642,9 @@ FrameMetrics
 :
 START_SCROLL_ID
 ;
+#
+ifdef
+MOZ_FLEXBOX
 static
 int32_t
 sIndexOfFlexInDisplayTable
@@ -656,6 +659,8 @@ sAreFlexKeywordIndicesInitialized
 =
 false
 ;
+#
+endif
 typedef
 nsDataHashtable
 <
