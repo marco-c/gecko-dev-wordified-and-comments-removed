@@ -5022,6 +5022,13 @@ onmozpointerlockerror
 )
 GK_ATOM
 (
+onmoztimechange
+"
+onmoztimechange
+"
+)
+GK_ATOM
+(
 onMozMousePixelScroll
 "
 onMozMousePixelScroll
