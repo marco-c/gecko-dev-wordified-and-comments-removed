@@ -885,6 +885,13 @@ Indicates
 an
 XMLHttpRequest
 .
+Also
+used
+for
+document
+.
+load
+.
 *
 /
 const

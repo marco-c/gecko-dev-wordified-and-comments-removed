@@ -2490,6 +2490,15 @@ nsnull
 )
 ;
 static
+PRBool
+IsSystemPrincipal
+(
+nsIPrincipal
+*
+aPrincipal
+)
+;
+static
 void
 TriggerLink
 (
