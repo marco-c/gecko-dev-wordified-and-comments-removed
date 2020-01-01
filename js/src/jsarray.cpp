@@ -10261,7 +10261,11 @@ size_t
 newlen
 )
 >
-SIZE_MAX
+size_t
+(
+-
+1
+)
 /
 (
 4
