@@ -434,10 +434,6 @@ nsUnicharUtilCIID
 .
 h
 \
-nsHankakuToZenkakuCID
-.
-h
-\
 (
 NULL
 )
