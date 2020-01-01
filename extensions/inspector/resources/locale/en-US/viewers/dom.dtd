@@ -419,9 +419,6 @@ label
 "
 Find
 Nodes
-.
-.
-.
 "
 >
 <
@@ -637,9 +634,6 @@ cmdShowColumnsDialog
 label
 "
 Columns
-.
-.
-.
 "
 >
 <
@@ -660,9 +654,6 @@ cmdInsertNode
 label
 "
 Insert
-.
-.
-.
 "
 >
 <
@@ -733,9 +724,6 @@ Set
 Pseudo
 -
 classes
-.
-.
-.
 "
 >
 <
