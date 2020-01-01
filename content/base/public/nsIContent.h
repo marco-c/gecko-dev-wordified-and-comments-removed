@@ -817,7 +817,6 @@ aResult
 )
 const
 ;
-virtual
 bool
 HasAttr
 (
@@ -828,8 +827,6 @@ nsIAtom
 aName
 )
 const
-=
-0
 ;
 virtual
 bool
