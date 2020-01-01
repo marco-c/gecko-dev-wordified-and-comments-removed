@@ -484,6 +484,10 @@ test_start
 .
 html
 \
+test_volume
+.
+html
+\
 #
 test_bug448534
 .
