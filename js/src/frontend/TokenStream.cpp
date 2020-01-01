@@ -8597,6 +8597,12 @@ TSF_OPERAND
 )
 &
 &
+!
+isStrictMode
+(
+)
+&
+&
 (
 hasXML
 (
