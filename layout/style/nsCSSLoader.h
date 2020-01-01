@@ -203,6 +203,10 @@ PRBool
 aAllowUnsafeRules
 PRBool
 aUseSystemPrincipal
+const
+nsCString
+&
+aCharset
 nsICSSLoaderObserver
 *
 aObserver
@@ -315,6 +319,9 @@ nsCOMPtr
 nsIPrincipal
 >
 mLoaderPrincipal
+;
+nsCString
+mCharsetHint
 ;
 }
 ;
@@ -791,6 +798,10 @@ aURL
 nsIPrincipal
 *
 aOriginPrincipal
+const
+nsCString
+&
+aCharset
 nsICSSLoaderObserver
 *
 aObserver
@@ -809,6 +820,10 @@ aURL
 nsIPrincipal
 *
 aOriginPrincipal
+const
+nsCString
+&
+aCharset
 nsICSSLoaderObserver
 *
 aObserver
@@ -989,6 +1004,10 @@ aUseSystemPrincipal
 nsIPrincipal
 *
 aOriginPrincipal
+const
+nsCString
+&
+aCharset
 nsICSSStyleSheet
 *
 *

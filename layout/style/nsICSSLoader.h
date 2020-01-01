@@ -320,6 +320,10 @@ aURL
 nsIPrincipal
 *
 aOriginPrincipal
+const
+nsCString
+&
+aCharset
 nsICSSLoaderObserver
 *
 aObserver
@@ -340,6 +344,10 @@ aURL
 nsIPrincipal
 *
 aOriginPrincipal
+const
+nsCString
+&
+aCharset
 nsICSSLoaderObserver
 *
 aObserver
