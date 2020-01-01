@@ -21890,7 +21890,7 @@ JSMutableHandleValue
 vp
 )
 {
-js
+JS
 :
 :
 RootedObject
@@ -21964,7 +21964,7 @@ bool
 _retval
 )
 {
-js
+JS
 :
 :
 RootedObject
@@ -21974,7 +21974,7 @@ cx
 obj_
 )
 ;
-js
+JS
 :
 :
 RootedId
@@ -22684,7 +22684,7 @@ NS_OK
 }
 }
 }
-js
+JS
 :
 :
 RootedObject
@@ -23385,7 +23385,7 @@ NS_OK
 ;
 }
 }
-js
+JS
 :
 :
 Rooted
@@ -28470,7 +28470,7 @@ JSMutableHandleObject
 objp
 )
 {
-js
+JS
 :
 :
 RootedValue
@@ -29046,7 +29046,7 @@ return
 JS_FALSE
 ;
 }
-js
+JS
 :
 :
 Rooted

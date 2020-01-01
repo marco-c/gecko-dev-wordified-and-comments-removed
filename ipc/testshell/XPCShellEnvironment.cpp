@@ -1485,7 +1485,7 @@ GetPrincipal
 )
 )
 ;
-js
+JS
 :
 :
 RootedObject
@@ -2788,7 +2788,7 @@ GetPrincipal
 )
 )
 ;
-js
+JS
 :
 :
 RootedObject

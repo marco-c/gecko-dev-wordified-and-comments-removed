@@ -660,7 +660,7 @@ uriStr
 1
 )
 ;
-js
+JS
 :
 :
 RootedObject

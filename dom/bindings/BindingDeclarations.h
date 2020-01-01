@@ -157,7 +157,7 @@ Get
 }
 private
 :
-js
+JS
 :
 :
 RootedObject
@@ -228,7 +228,7 @@ Get
 }
 private
 :
-js
+JS
 :
 :
 RootedObject

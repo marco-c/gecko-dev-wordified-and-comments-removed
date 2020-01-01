@@ -32432,7 +32432,7 @@ CGGeneric
 "
 "
 "
-js
+JS
 :
 :
 RootedObject
@@ -32654,7 +32654,7 @@ CGGeneric
 "
 "
 "
-js
+JS
 :
 :
 RootedObject
@@ -35484,7 +35484,7 @@ CGGeneric
 "
 "
 "
-js
+JS
 :
 :
 RootedValue
