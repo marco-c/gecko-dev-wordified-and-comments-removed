@@ -591,6 +591,16 @@ _
 (
 ProfilingExit
 )
+\
+_
+(
+GetDOMProperty
+)
+\
+_
+(
+SetDOMProperty
+)
 #
 define
 FORWARD_DECLARE
