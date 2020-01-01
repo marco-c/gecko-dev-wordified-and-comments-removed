@@ -16478,6 +16478,8 @@ Hanna
 /
 M
 Hannah
+/
+M
 Hanni
 /
 SM
@@ -18791,8 +18793,6 @@ Jamel
 /
 M
 James
-/
-M
 Jameson
 Jamestown
 Jamesy
@@ -18844,6 +18844,8 @@ Jandy
 /
 M
 Jane
+/
+M
 Janean
 /
 M
@@ -18881,6 +18883,8 @@ Janessa
 /
 M
 Janet
+/
+M
 Janeta
 /
 M
@@ -36955,8 +36959,6 @@ Thoma
 /
 SM
 Thomas
-/
-M
 Thomasa
 /
 M
@@ -38163,9 +38165,6 @@ Unix
 /
 S
 Unukalhai
-/
-M
-Ununtu
 /
 M
 Upanishads
@@ -39509,6 +39508,9 @@ Wiesenthal
 M
 Wiggins
 Wigner
+/
+M
+Wikipedia
 /
 M
 Wilberforce
@@ -45098,6 +45100,9 @@ Y
 archaeologist
 /
 SM
+archaeology
+/
+M
 archaic
 archaically
 archaism
@@ -45130,6 +45135,12 @@ archduke
 /
 MS
 archenemy
+/
+SM
+archeological
+/
+Y
+archeologist
 /
 SM
 archeology
@@ -46826,6 +46837,9 @@ awry
 ax
 /
 MDSG
+axe
+/
+M
 axehead
 /
 S
@@ -53133,10 +53147,9 @@ cacophonous
 cacophony
 /
 SM
-cacti
 cactus
 /
-M
+Mi
 cad
 /
 SM
@@ -65898,7 +65911,10 @@ dialing
 S
 dialog
 /
-SM
+SMGD
+dialogue
+/
+SMRGD
 dialysis
 /
 M
@@ -70683,6 +70699,7 @@ ency
 encyclical
 /
 SM
+encyclopaedia
 encyclopedia
 /
 MS
@@ -76145,14 +76162,11 @@ focal
 /
 Y
 focus
-'
-s
-focus
 /
-ADSG
+ACGRSMBi
 focused
 /
-U
+UC
 fodder
 /
 SM
@@ -93606,7 +93620,6 @@ location
 /
 ESM
 locational
-loci
 lock
 /
 MDRSBZG
@@ -93652,7 +93665,7 @@ locum
 S
 locus
 /
-M
+Mi
 locust
 /
 SM
@@ -96484,6 +96497,7 @@ megaparsec
 megaphone
 /
 DSMG
+megapixel
 megastar
 /
 S
@@ -103169,7 +103183,7 @@ octogenarian
 MS
 octopus
 /
-MS
+MSi
 ocular
 /
 MS
@@ -111375,10 +111389,13 @@ preeminent
 Y
 preempt
 /
-GVSD
+GSD
 preemption
 /
 M
+preemptive
+/
+Y
 preen
 /
 DSG
@@ -141946,6 +141963,9 @@ SM
 wigwagged
 wigwagging
 wigwam
+/
+SM
+wiki
 /
 SM
 wild
