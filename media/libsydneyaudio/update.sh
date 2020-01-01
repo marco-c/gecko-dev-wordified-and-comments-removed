@@ -138,3 +138,14 @@ p3
 bug562488_oss_destroy_crash
 .
 patch
+patch
+-
+p3
+<
+bug564734
+-
+win32
+-
+drain
+.
+patch
