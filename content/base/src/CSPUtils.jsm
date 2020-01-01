@@ -1636,7 +1636,7 @@ CSPLocalizer
 getFormatStr
 (
 "
-doNotUnderstandOption
+ignoringUnknownOption
 "
 [
 opt
@@ -1907,7 +1907,7 @@ CSPLocalizer
 getFormatStr
 (
 "
-notETLDPlus1
+reportURInotETLDPlus1
 "
 [
 gETLDService
@@ -1944,7 +1944,7 @@ CSPLocalizer
 getFormatStr
 (
 "
-notSameScheme
+reportURInotSameSchemeAsSelf
 "
 [
 uri
@@ -1983,7 +1983,7 @@ CSPLocalizer
 getFormatStr
 (
 "
-notSamePort
+reportURInotSamePortAsSelf
 "
 [
 uri
@@ -3192,7 +3192,7 @@ CSPLocalizer
 getFormatStr
 (
 "
-notETLDPlus1
+reportURInotETLDPlus1
 "
 [
 gETLDService
@@ -3229,7 +3229,7 @@ CSPLocalizer
 getFormatStr
 (
 "
-notSameScheme
+reportURInotSameSchemeAsSelf
 "
 [
 uri
@@ -3268,7 +3268,7 @@ CSPLocalizer
 getFormatStr
 (
 "
-notSamePort
+reportURInotSamePortAsSelf
 "
 [
 uri
