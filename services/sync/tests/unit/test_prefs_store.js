@@ -128,6 +128,14 @@ appinfo
 ID
 )
 ;
+loadAddonTestFunctions
+(
+)
+;
+startupManager
+(
+)
+;
 function
 makePersona
 (

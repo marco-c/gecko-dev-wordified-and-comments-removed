@@ -19,13 +19,6 @@ Components
 .
 utils
 ;
-const
-Cr
-=
-Components
-.
-results
-;
 Cu
 .
 import
@@ -608,6 +601,10 @@ gTestserver
 start
 (
 4444
+)
+;
+startupManager
+(
 )
 ;
 var
