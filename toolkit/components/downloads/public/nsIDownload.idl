@@ -433,7 +433,7 @@ BLOCK
 #
 include
 "
-nsIWebProgressListener
+nsISupports
 .
 idl
 "
@@ -448,6 +448,9 @@ nsIObserver
 ;
 interface
 nsIWebBrowserPersist
+;
+interface
+nsIWebProgressListener
 ;
 [
 scriptable
@@ -467,7 +470,7 @@ uuid
 interface
 nsIDownload
 :
-nsIWebProgressListener
+nsISupports
 {
 void
 init
