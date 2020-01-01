@@ -481,14 +481,6 @@ nsAString
 aAlertText
 )
 ;
-void
-ShowFilePicker
-(
-nsAString
-&
-aFilePath
-)
-;
 struct
 AutoLocalJNIFrame
 {
