@@ -1189,8 +1189,8 @@ newfp
 initCallFrameCallerHalf
 (
 cx
-nactual
 flags
+ncode
 )
 ;
 newfp
@@ -1199,7 +1199,7 @@ newfp
 initCallFrameEarlyPrologue
 (
 fun
-ncode
+nactual
 )
 ;
 return
@@ -1292,12 +1292,7 @@ fp
 initCallFrameEarlyPrologue
 (
 fun
-fp
--
->
-nativeReturnAddress
-(
-)
+nactual
 )
 ;
 bool
