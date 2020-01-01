@@ -1001,11 +1001,6 @@ NS_FORM_OBJECT
 :
 break
 ;
-case
-NS_FORM_OUTPUT
-:
-break
-;
 default
 :
 break

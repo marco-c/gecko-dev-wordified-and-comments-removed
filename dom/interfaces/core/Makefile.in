@@ -562,10 +562,6 @@ nsIDOMDOMTokenList
 .
 idl
 \
-nsIDOMDOMSettableTokenList
-.
-idl
-\
 (
 NULL
 )

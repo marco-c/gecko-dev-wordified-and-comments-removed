@@ -584,10 +584,6 @@ nsIDOMHTMLOptionsCollection
 .
 idl
 \
-nsIDOMHTMLOutputElement
-.
-idl
-\
 nsIDOMHTMLParagraphElement
 .
 idl
