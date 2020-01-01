@@ -454,6 +454,16 @@ LayerManager
 LAYERS_BASIC
 ;
 }
+void
+SetIsFirstPaint
+(
+)
+{
+mIsFirstPaint
+=
+true
+;
+}
 protected
 :
 ShadowLayerForwarder
@@ -536,6 +546,9 @@ mTxn
 ;
 LayersBackend
 mParentBackend
+;
+bool
+mIsFirstPaint
 ;
 }
 ;

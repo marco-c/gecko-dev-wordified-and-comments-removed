@@ -19,6 +19,10 @@ windows
 .
 h
 "
+#
+define
+DEFAULT_SENSOR_POLL
+100
 typedef
 struct
 {
@@ -497,7 +501,7 @@ InitWithFuncCallback
 (
 UpdateHandler
 this
-mUpdateInterval
+DEFAULT_SENSOR_POLL
 nsITimer
 :
 :

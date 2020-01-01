@@ -753,9 +753,15 @@ execCommand
 in
 DOMString
 commandID
+[
+optional
+]
 in
 boolean
 doShowUI
+[
+optional
+]
 in
 DOMString
 value

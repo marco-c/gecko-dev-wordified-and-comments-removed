@@ -135,6 +135,7 @@ eARIAReadonly
 eARIAReadonlyOrEditable
 eARIARequired
 eARIASelectable
+eReadonlyUntilEditable
 }
 ;
 class
@@ -144,6 +145,14 @@ public
 :
 nsStateMapEntry
 (
+)
+;
+nsStateMapEntry
+(
+PRUint64
+aDefaultState
+PRUint64
+aExclusingState
 )
 ;
 nsStateMapEntry
@@ -286,6 +295,9 @@ mDefaultState
 ;
 bool
 mDefinedIfAbsent
+;
+PRUint64
+mExcludingState
 ;
 }
 ;

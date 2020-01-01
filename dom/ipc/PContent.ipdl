@@ -811,6 +811,10 @@ double
 z
 )
 ;
+NeedsCalibration
+(
+)
+;
 ScreenSizeChanged
 (
 gfxIntSize

@@ -490,6 +490,8 @@ RuleSelectorPair
 aRuleSelectorPair
 PRInt32
 aIndex
+bool
+aQuirksMode
 )
 :
 RuleSelectorPair
@@ -503,6 +505,7 @@ aIndex
 {
 CollectAncestorHashes
 (
+aQuirksMode
 )
 ;
 }
@@ -520,6 +523,8 @@ private
 void
 CollectAncestorHashes
 (
+bool
+aQuirksMode
 )
 {
 size_t
@@ -563,6 +568,12 @@ mOperator
 continue
 ;
 }
+if
+(
+!
+aQuirksMode
+)
+{
 nsAtomList
 *
 ids
@@ -662,6 +673,7 @@ classes
 >
 mNext
 ;
+}
 }
 if
 (
@@ -2487,6 +2499,7 @@ aRuleInfo
 mRuleCount
 +
 +
+mQuirksMode
 )
 )
 ;
@@ -2565,6 +2578,7 @@ aRuleInfo
 mRuleCount
 +
 +
+mQuirksMode
 )
 )
 ;
@@ -2732,6 +2746,7 @@ aRuleInfo
 mRuleCount
 +
 +
+mQuirksMode
 )
 ;
 if
@@ -13061,6 +13076,10 @@ RuleValue
 *
 aRuleInfo
 0
+aCascade
+-
+>
+mQuirksMode
 )
 )
 ;
@@ -13105,6 +13124,10 @@ RuleValue
 *
 aRuleInfo
 0
+aCascade
+-
+>
+mQuirksMode
 )
 )
 ;

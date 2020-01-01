@@ -1103,6 +1103,13 @@ aKey
 ;
 }
 virtual
+void
+SetIsFirstPaint
+(
+)
+{
+}
+virtual
 const
 char
 *

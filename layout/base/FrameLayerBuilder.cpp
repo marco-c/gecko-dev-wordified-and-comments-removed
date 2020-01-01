@@ -2839,6 +2839,9 @@ matrix
 )
 )
 ;
+#
+ifndef
+MOZ_JAVA_COMPOSITOR
 gfxPoint
 activeScrolledRootTopLeft
 =
@@ -2891,6 +2894,8 @@ invalidate
 )
 ;
 }
+#
+endif
 return
 layer
 .

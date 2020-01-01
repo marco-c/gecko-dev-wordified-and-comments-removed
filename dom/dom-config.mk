@@ -154,7 +154,7 @@ dom
 /
 system
 /
-b2g
+gonk
 \
 dom
 /
