@@ -70,14 +70,12 @@ pointer
 ;
 }
 #
-downloadsSummary
-#
 downloadsPanel
 [
 hasdownloads
 ]
 #
-downloadsHistory
+downloadsFooter
 {
 border
 -
