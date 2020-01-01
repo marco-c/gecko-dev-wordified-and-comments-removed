@@ -113,6 +113,10 @@ QTouchEvent
 TouchPoint
 &
 aSecondPoint
+const
+QSizeF
+&
+aSize
 )
 ;
 int
