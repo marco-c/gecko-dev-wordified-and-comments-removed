@@ -429,6 +429,11 @@ chrome
 Makefile
 b2g
 /
+components
+/
+Makefile
+b2g
+/
 installer
 /
 Makefile
