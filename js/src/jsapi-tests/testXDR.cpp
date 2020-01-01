@@ -1139,7 +1139,7 @@ addr
 ;
 JS_GC
 (
-cx
+rt
 )
 ;
 EVAL

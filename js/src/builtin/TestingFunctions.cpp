@@ -218,6 +218,9 @@ runtime
 GCForReason
 (
 cx
+-
+>
+runtime
 gcreason
 :
 :
@@ -1356,6 +1359,9 @@ false
 GCDebugSlice
 (
 cx
+-
+>
+runtime
 limit
 budget
 )
@@ -2545,6 +2551,9 @@ endif
 JS_GC
 (
 cx
+-
+>
+runtime
 )
 ;
 vp

@@ -1848,9 +1848,6 @@ cycle
 .
 *
 /
-[
-implicit_jscontext
-]
 void
 forceGC
 (
@@ -1878,9 +1875,6 @@ cycle
 .
 *
 /
-[
-implicit_jscontext
-]
 void
 forceShrinkingGC
 (
@@ -1918,9 +1912,6 @@ occurred
 .
 *
 /
-[
-implicit_jscontext
-]
 void
 schedulePreciseGC
 (
@@ -1962,9 +1953,6 @@ occured
 .
 *
 /
-[
-implicit_jscontext
-]
 void
 schedulePreciseShrinkingGC
 (
