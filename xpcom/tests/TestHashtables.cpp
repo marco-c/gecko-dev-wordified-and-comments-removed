@@ -1083,8 +1083,6 @@ NS_DECLARE_STATIC_IID_ACCESSOR
 (
 NS_IFOO_IID
 )
-public
-:
 IFoo
 (
 )
