@@ -396,6 +396,10 @@ nsIDOMEvent
 aMouseEvent
 )
 {
+mCachedMouseEvent
+=
+nsnull
+;
 nsCOMPtr
 <
 nsIContent
