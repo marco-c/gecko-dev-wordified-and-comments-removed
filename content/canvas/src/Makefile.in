@@ -440,6 +440,10 @@ NULL
 CPPSRCS
 =
 \
+CanvasImageCache
+.
+cpp
+\
 CanvasUtils
 .
 cpp
