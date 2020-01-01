@@ -24059,6 +24059,7 @@ h
 ;
 ;
 esac
+MOZ_LINUX_PERF_EVENT
 dnl
 Checks
 for
