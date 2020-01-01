@@ -355,6 +355,11 @@ PRBool
 aImmediate
 )
 ;
+PRBool
+IsNoAutoHide
+(
+)
+;
 void
 EnsureWidget
 (
@@ -638,12 +643,9 @@ PRInt32
 aTop
 )
 ;
-void
+PRBool
 GetAutoPosition
 (
-PRBool
-*
-aShouldAutoPosition
 )
 ;
 void

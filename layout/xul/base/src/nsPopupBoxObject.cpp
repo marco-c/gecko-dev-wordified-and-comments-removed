@@ -620,12 +620,14 @@ if
 menuPopupFrame
 )
 {
+*
+aShouldAutoPosition
+=
 menuPopupFrame
 -
 >
 GetAutoPosition
 (
-aShouldAutoPosition
 )
 ;
 }

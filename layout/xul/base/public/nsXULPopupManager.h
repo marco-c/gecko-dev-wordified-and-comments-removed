@@ -1515,5 +1515,14 @@ mTimerMenu
 ;
 }
 ;
+nsresult
+NS_NewXULPopupManager
+(
+nsISupports
+*
+*
+aResult
+)
+;
 #
 endif
