@@ -581,12 +581,6 @@ aReflowState
 availableHeight
 ;
 }
-FinishAndStoreOverflow
-(
-&
-aDesiredSize
-)
-;
 NS_FRAME_SET_TRUNCATION
 (
 aStatus

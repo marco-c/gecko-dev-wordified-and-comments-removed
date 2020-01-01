@@ -19672,6 +19672,12 @@ mWindowType
 !
 =
 eWindowType_plugin
+&
+&
+mWindowType
+!
+=
+eWindowType_toplevel
 )
 {
 GESTURENOTIFYSTRUCT

@@ -475,14 +475,6 @@ chrome_content_integration_window
 .
 xul
 \
-test_default_background
-.
-xul
-\
-default_background_window
-.
-xul
-\
 test_printpreview
 .
 xul
