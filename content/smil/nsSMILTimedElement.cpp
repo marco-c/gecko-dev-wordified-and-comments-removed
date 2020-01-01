@@ -3077,7 +3077,7 @@ result
 .
 SetMillis
 (
-PR_MIN
+NS_MIN
 (
 result
 .
@@ -3197,7 +3197,7 @@ result
 .
 SetMillis
 (
-PR_MIN
+NS_MIN
 (
 activeDur
 mRepeatDur
