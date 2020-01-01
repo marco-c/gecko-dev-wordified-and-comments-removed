@@ -28,13 +28,6 @@ npapi
 h
 "
 #
-include
-"
-nsRect
-.
-h
-"
-#
 ifndef
 __OBJC__
 class

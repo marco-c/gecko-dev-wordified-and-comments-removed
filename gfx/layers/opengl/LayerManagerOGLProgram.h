@@ -93,13 +93,6 @@ h
 #
 include
 "
-nsRect
-.
-h
-"
-#
-include
-"
 nsTArray
 .
 h
@@ -117,6 +110,9 @@ h
 "
 struct
 gfxRGBA
+;
+struct
+nsIntRect
 ;
 namespace
 mozilla

@@ -14,13 +14,6 @@ h
 #
 include
 "
-nsRect
-.
-h
-"
-#
-include
-"
 nsAutoPtr
 .
 h
@@ -50,6 +43,9 @@ CompositorTypes
 .
 h
 "
+struct
+nsIntRect
+;
 namespace
 mozilla
 {

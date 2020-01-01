@@ -30,13 +30,6 @@ h
 #
 include
 "
-nsRect
-.
-h
-"
-#
-include
-"
 nsSVGContainerFrame
 .
 h
@@ -74,6 +67,9 @@ nsSVGIntegerPair
 ;
 class
 nsSVGLength2
+;
+struct
+nsRect
 ;
 namespace
 mozilla

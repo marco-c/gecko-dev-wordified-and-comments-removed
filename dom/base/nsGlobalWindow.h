@@ -154,13 +154,6 @@ h
 #
 include
 "
-nsRect
-.
-h
-"
-#
-include
-"
 mozFlushType
 .
 h
@@ -391,8 +384,11 @@ nsDOMWindowUtils
 class
 nsIIdleService
 ;
-class
+struct
 nsIntSize
+;
+struct
+nsRect
 ;
 class
 nsWindowSizes

@@ -23,13 +23,6 @@ h
 #
 include
 "
-gfxRect
-.
-h
-"
-#
-include
-"
 nsContainerFrame
 .
 h
@@ -93,6 +86,12 @@ nsStyleContext
 ;
 struct
 nsPoint
+;
+struct
+nsRect
+;
+struct
+nsIntRect
 ;
 typedef
 nsContainerFrame

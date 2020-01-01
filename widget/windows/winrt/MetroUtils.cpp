@@ -100,6 +100,13 @@ h
 "
 #
 include
+"
+nsRect
+.
+h
+"
+#
+include
 <
 wrl
 /

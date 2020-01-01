@@ -63,13 +63,6 @@ h
 #
 include
 "
-nsRect
-.
-h
-"
-#
-include
-"
 nsThreadUtils
 .
 h
@@ -131,6 +124,9 @@ nsWindowBase
 ;
 struct
 KeyPair
+;
+struct
+nsIntRect
 ;
 namespace
 mozilla

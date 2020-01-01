@@ -79,6 +79,13 @@ MemoryReporting
 h
 "
 #
+include
+"
+nsMargin
+.
+h
+"
+#
 if
 defined
 (

@@ -25,13 +25,6 @@ gfxRect
 .
 h
 "
-#
-include
-"
-nsRect
-.
-h
-"
 class
 nsDisplayList
 ;
@@ -43,6 +36,12 @@ nsIFrame
 ;
 class
 nsRenderingContext
+;
+struct
+nsRect
+;
+struct
+nsIntRect
 ;
 namespace
 mozilla

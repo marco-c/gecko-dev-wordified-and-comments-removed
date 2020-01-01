@@ -28,13 +28,6 @@ h
 #
 include
 "
-nsRect
-.
-h
-"
-#
-include
-"
 nsCOMPtr
 .
 h
@@ -69,6 +62,9 @@ Attributes
 .
 h
 "
+struct
+nsRect
+;
 class
 nsClientRect
 MOZ_FINAL

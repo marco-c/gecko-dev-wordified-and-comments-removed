@@ -52,9 +52,6 @@ class
 nsDisplayListSet
 ;
 class
-nsRect
-;
-class
 nsPresContext
 ;
 class

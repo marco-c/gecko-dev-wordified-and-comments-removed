@@ -27,13 +27,9 @@ SSE
 .
 h
 "
-#
-include
-"
-nsRect
-.
-h
-"
+struct
+nsIntRect
+;
 class
 gfxAlphaRecovery
 {

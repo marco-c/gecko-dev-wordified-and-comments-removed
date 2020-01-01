@@ -39,13 +39,6 @@ nsIDOMEventListener
 .
 h
 "
-#
-include
-"
-nsRect
-.
-h
-"
 class
 Area
 ;
@@ -60,6 +53,9 @@ nsIFrame
 ;
 class
 nsIContent
+;
+struct
+nsRect
 ;
 class
 nsImageMap

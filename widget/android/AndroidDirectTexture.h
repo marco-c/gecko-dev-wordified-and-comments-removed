@@ -14,13 +14,6 @@ h
 #
 include
 "
-nsRect
-.
-h
-"
-#
-include
-"
 mozilla
 /
 Mutex
@@ -34,6 +27,9 @@ AndroidGraphicBuffer
 .
 h
 "
+struct
+nsIntRect
+;
 namespace
 mozilla
 {

@@ -58,13 +58,6 @@ h
 #
 include
 "
-nsRect
-.
-h
-"
-#
-include
-"
 nsSVGGeometryFrame
 .
 h
@@ -105,6 +98,12 @@ nsSVGMarkerProperty
 ;
 struct
 nsPoint
+;
+struct
+nsRect
+;
+struct
+nsIntRect
 ;
 typedef
 nsSVGGeometryFrame

@@ -147,13 +147,6 @@ h
 #
 include
 "
-nsRect
-.
-h
-"
-#
-include
-"
 nsRegion
 .
 h
@@ -183,6 +176,9 @@ nsIntPoint
 ;
 struct
 nsIntSize
+;
+struct
+nsIntRect
 ;
 namespace
 mozilla

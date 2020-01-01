@@ -39,13 +39,6 @@ h
 #
 include
 "
-nsPoint
-.
-h
-"
-#
-include
-"
 nsRect
 .
 h
