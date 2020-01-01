@@ -283,11 +283,6 @@ JSObjectOps
 ;
 typedef
 struct
-JSXMLObjectOps
-JSXMLObjectOps
-;
-typedef
-struct
 JSRuntime
 JSRuntime
 ;
