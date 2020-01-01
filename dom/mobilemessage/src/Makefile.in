@@ -180,6 +180,10 @@ SmsManager
 .
 h
 \
+MobileMessageManager
+.
+h
+\
 SmsMessage
 .
 h
@@ -233,6 +237,10 @@ CPPSRCS
 =
 \
 SmsManager
+.
+cpp
+\
+MobileMessageManager
 .
 cpp
 \
