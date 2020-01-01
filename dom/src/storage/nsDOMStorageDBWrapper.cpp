@@ -1592,6 +1592,11 @@ rv
 rv
 )
 ;
+ToLowerCase
+(
+domainScope
+)
+;
 }
 }
 rv
