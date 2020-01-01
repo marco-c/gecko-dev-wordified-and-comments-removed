@@ -909,11 +909,6 @@ platform_thread_mac
 mm
 '
 '
-platform_util_mac
-.
-mm
-'
-'
 process_util_mac
 .
 mm
