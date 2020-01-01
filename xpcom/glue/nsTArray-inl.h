@@ -94,6 +94,7 @@ template
 class
 Alloc
 >
+const
 nsTArrayHeader
 *
 nsTArray_base
@@ -107,7 +108,9 @@ GetAutoArrayBufferUnsafe
 size_t
 elemAlign
 )
+const
 {
+const
 void
 *
 autoBuf
@@ -115,6 +118,7 @@ autoBuf
 &
 reinterpret_cast
 <
+const
 nsAutoArrayBase
 <
 nsTArray
@@ -243,6 +247,7 @@ autoBuf
 =
 reinterpret_cast
 <
+const
 char
 *
 >
@@ -256,6 +261,7 @@ autoBuf
 return
 reinterpret_cast
 <
+const
 Header
 *
 >
@@ -279,6 +285,7 @@ Alloc
 UsesAutoArrayBuffer
 (
 )
+const
 {
 if
 (
@@ -311,6 +318,7 @@ diff
 =
 reinterpret_cast
 <
+const
 char
 *
 >
@@ -323,6 +331,7 @@ GetAutoArrayBuffer
 -
 reinterpret_cast
 <
+const
 char
 *
 >

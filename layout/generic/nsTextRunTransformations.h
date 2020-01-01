@@ -302,6 +302,12 @@ aRefContext
 ;
 }
 }
+virtual
+PRUint64
+ComputeSize
+(
+)
+;
 nsTransformingTextRunFactory
 *
 mFactory
