@@ -59,11 +59,8 @@ Snapshot
 CSS2
 .
 1
-#
 include
-css2
-.
-1
+css21
 /
 reftest
 .
@@ -166,9 +163,9 @@ Multi
 -
 column
 Layout
-#
+3
 include
-multicol
+multicol3
 /
 reftest
 .

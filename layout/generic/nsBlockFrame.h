@@ -1699,7 +1699,7 @@ aState
 line_iterator
 aLine
 bool
-&
+*
 aKeepReflowGoing
 )
 ;

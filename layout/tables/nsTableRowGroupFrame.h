@@ -779,6 +779,8 @@ aTableFrame
 nsReflowStatus
 &
 aStatus
+bool
+aRowForcedPageBreak
 )
 ;
 void
