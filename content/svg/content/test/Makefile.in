@@ -494,6 +494,10 @@ helper
 .
 svg
 \
+test_length
+.
+xhtml
+\
 test_text
 .
 html
