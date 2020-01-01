@@ -74,6 +74,7 @@ function
 (
 )
 {
+var
 defScope
 =
 getDefaultScope
@@ -134,6 +135,7 @@ function
 (
 )
 {
+var
 defScope
 =
 getDefaultScope
@@ -219,6 +221,7 @@ bmsvc
 DEFAULT_INDEX
 )
 ;
+var
 defScope
 =
 getDefaultScope

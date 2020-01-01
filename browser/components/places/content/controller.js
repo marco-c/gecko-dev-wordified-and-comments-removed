@@ -4949,6 +4949,11 @@ copiedFolders
 ;
 var
 placeString
+mozURLString
+htmlString
+unicodeString
+;
+placeString
 =
 mozURLString
 =
