@@ -374,6 +374,12 @@ flags
 ;
 inline
 void
+resetInvokeCallFrame
+(
+)
+;
+inline
+void
 initCallFrameCallerHalf
 (
 JSContext
@@ -1013,6 +1019,12 @@ forEachFormalArg
 (
 Op
 op
+)
+;
+inline
+void
+clearMissingArgs
+(
 )
 ;
 bool
@@ -2946,6 +2958,9 @@ args
 uint32
 flags
 )
+;
+class
+InvokeSessionGuard
 ;
 #
 define
