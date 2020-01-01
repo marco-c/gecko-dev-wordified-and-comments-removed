@@ -1116,11 +1116,6 @@ JSString
 *
 emptyString
 ;
-JSString
-*
-*
-unitStrings
-;
 JSObject
 *
 builtinFunctions
