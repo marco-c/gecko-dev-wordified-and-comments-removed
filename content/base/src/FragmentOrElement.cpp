@@ -710,12 +710,6 @@ mozilla
 :
 dom
 ;
-NS_DEFINE_IID
-(
-kThisPtrOffsetsSID
-NS_THISPTROFFSETS_SID
-)
-;
 int32_t
 nsIContent
 :
