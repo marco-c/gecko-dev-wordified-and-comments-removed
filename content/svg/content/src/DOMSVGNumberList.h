@@ -186,6 +186,14 @@ Length
 )
 ;
 }
+nsIDOMSVGNumber
+*
+GetItemWithoutAddRef
+(
+PRUint32
+aIndex
+)
+;
 void
 InternalListLengthWillChange
 (

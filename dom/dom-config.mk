@@ -86,6 +86,14 @@ document
 /
 src
 \
+content
+/
+svg
+/
+content
+/
+src
+\
 layout
 /
 generic

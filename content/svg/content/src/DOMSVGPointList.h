@@ -160,6 +160,14 @@ Length
 )
 ;
 }
+nsIDOMSVGPoint
+*
+GetItemWithoutAddRef
+(
+PRUint32
+aIndex
+)
+;
 void
 InternalListWillChangeTo
 (

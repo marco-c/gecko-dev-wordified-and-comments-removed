@@ -631,6 +631,10 @@ test_SVGxxxList
 .
 xhtml
 \
+test_SVGxxxListIndexing
+.
+xhtml
+\
 test_switch
 .
 xhtml
