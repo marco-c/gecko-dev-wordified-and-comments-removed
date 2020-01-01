@@ -7151,6 +7151,7 @@ addPredecessor
 current
 )
 ;
+}
 graph
 (
 )
@@ -7160,7 +7161,6 @@ moveBlockToEnd
 successor
 )
 ;
-}
 if
 (
 state
