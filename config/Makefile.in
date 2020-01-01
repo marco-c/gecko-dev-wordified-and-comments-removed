@@ -825,7 +825,7 @@ system_wrappers
 ;
 fi
 (
-PYTHON
+PERL
 )
 (
 topsrcdir
@@ -833,9 +833,9 @@ topsrcdir
 /
 config
 /
-Preprocessor
+preprocessor
 .
-py
+pl
 (
 DEFINES
 )

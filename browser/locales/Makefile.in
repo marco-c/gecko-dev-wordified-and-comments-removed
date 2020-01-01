@@ -965,7 +965,7 @@ js
 then
 \
 (
-PYTHON
+PERL
 )
 (
 topsrcdir
@@ -973,9 +973,9 @@ topsrcdir
 /
 config
 /
-Preprocessor
+preprocessor
 .
-py
+pl
 (
 PREF_PPFLAGS
 )
@@ -1041,7 +1041,7 @@ js
 then
 \
 (
-PYTHON
+PERL
 )
 (
 topsrcdir
@@ -1049,9 +1049,9 @@ topsrcdir
 /
 config
 /
-Preprocessor
+preprocessor
 .
-py
+pl
 (
 PREF_PPFLAGS
 )

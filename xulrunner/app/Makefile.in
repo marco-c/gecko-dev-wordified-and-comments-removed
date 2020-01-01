@@ -654,6 +654,8 @@ topsrcdir
 toolkit
 /
 profile
+/
+src
 \
 -
 I
@@ -1464,7 +1466,7 @@ dtd
 in
 #
 (
-PYTHON
+PERL
 )
 (
 topsrcdir
@@ -1472,9 +1474,9 @@ topsrcdir
 /
 config
 /
-Preprocessor
+preprocessor
 .
-py
+pl
 (
 DEFINES
 )
