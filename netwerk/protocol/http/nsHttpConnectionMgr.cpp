@@ -12056,7 +12056,6 @@ if
 (
 mNumHalfOpenConns
 <
-=
 gHttpHandler
 -
 >
