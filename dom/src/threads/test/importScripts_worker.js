@@ -1,13 +1,15 @@
+onmessage
+=
 function
-messageListener
 (
-message
-source
+event
 )
 {
 switch
 (
-message
+event
+.
+data
 )
 {
 case
@@ -15,7 +17,7 @@ case
 start
 '
 :
-loadScripts
+importScripts
 (
 "
 importScripts_worker_imported2
@@ -32,8 +34,6 @@ tryBadScripts
 (
 )
 ;
-source
-.
 postMessage
 (
 '
@@ -52,7 +52,7 @@ tryBadScripts
 (
 )
 ;
-postMessageToPool
+postMessage
 (
 '
 stopped
@@ -73,7 +73,9 @@ message
 :
 "
 +
-message
+event
+.
+data
 )
 ;
 break
@@ -88,7 +90,7 @@ constructor
 .
 constructor
 ;
-loadScripts
+importScripts
 (
 "
 importScripts_worker_imported1
@@ -181,7 +183,7 @@ i
 ;
 try
 {
-loadScripts
+importScripts
 (
 url
 )

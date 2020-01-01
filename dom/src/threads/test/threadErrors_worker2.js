@@ -1,0 +1,12 @@
+onmessage
+=
+function
+(
+event
+)
+{
+foopy
+(
+)
+;
+}
