@@ -414,6 +414,9 @@ slowPathStart
 Label
 hotPathLabel
 ;
+Label
+ionJoinPoint
+;
 DataLabelPtr
 addrLabel1
 ;
