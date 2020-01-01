@@ -343,6 +343,11 @@ nsIDOMJSWindow
 .
 dump
 '
+'
+nsIDOMSpeechSynthesisGetter
+.
+speechSynthesis
+'
 #
 nsLocationSH
 has

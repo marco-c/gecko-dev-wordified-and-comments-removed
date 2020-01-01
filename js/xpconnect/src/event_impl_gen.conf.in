@@ -209,6 +209,14 @@ MozSmsEvent
 '
 MozMmsEvent
 '
+#
+ifdef
+MOZ_WEBSPEECH
+'
+SpeechSynthesisEvent
+'
+#
+endif
 '
 DeviceStorageChangeEvent
 '
