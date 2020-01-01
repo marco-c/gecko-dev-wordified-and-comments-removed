@@ -419,7 +419,7 @@ rgba
 )
 0px
 1px
-24px
+17px
 ;
 -
 webkit
@@ -888,7 +888,9 @@ rgba
 )
 0px
 1px
-12px
+8
+.
+5px
 ;
 background
 -
@@ -1045,7 +1047,9 @@ rgba
 )
 0px
 1px
-12px
+8
+.
+5px
 ;
 background
 -
@@ -1166,7 +1170,9 @@ rgba
 0
 -
 10px
-12px
+8
+.
+5px
 inset
 rgba
 (
@@ -1190,7 +1196,9 @@ rgba
 )
 0
 10px
-12px
+8
+.
+5px
 ;
 /
 /
@@ -1332,7 +1340,9 @@ rgba
 0
 -
 10px
-12px
+8
+.
+5px
 inset
 rgba
 (
@@ -1356,7 +1366,9 @@ rgba
 )
 0
 10px
-12px
+8
+.
+5px
 ;
 /
 /
@@ -1480,7 +1492,9 @@ rgba
 0
 -
 10px
-12px
+8
+.
+5px
 inset
 rgba
 (
@@ -1504,7 +1518,9 @@ rgba
 )
 0
 10px
-12px
+8
+.
+5px
 ;
 /
 /
@@ -1759,7 +1775,9 @@ rgba
 0
 -
 10px
-12px
+8
+.
+5px
 ;
 padding
 :

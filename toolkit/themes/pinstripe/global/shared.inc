@@ -39,7 +39,9 @@ mac
 focusring
 0
 0
-2px
+1
+.
+5px
 1px
 -
 moz
@@ -103,7 +105,7 @@ roundButtonPressedShadow
 inset
 0
 1px
-4px
+3px
 rgba
 (
 0
@@ -334,13 +336,13 @@ rgba
 0
 -
 6px
-14px
+10px
 inset
 #
 000
 0
 1px
-4px
+3px
 inset
 rgba
 (
@@ -353,7 +355,7 @@ rgba
 )
 0
 1px
-4px
+3px
 %
 define
 toolbarbuttonPressedBackgroundColor

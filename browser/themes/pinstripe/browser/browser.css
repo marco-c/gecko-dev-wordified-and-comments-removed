@@ -3281,6 +3281,8 @@ inset
 2A2A2A
 0
 3px
+3
+.
 5px
 loweredShadow
 ;
@@ -3358,6 +3360,8 @@ inset
 1c1c1c
 0
 3px
+3
+.
 5px
 ;
 }
@@ -3550,6 +3554,8 @@ rgba
 )
 0
 3px
+3
+.
 5px
 loweredShadow
 ;
@@ -5855,7 +5861,7 @@ shadow
 :
 0
 0
-3px
+2px
 1px
 -
 moz
@@ -5965,7 +5971,7 @@ shadow
 inset
 0
 2px
-7px
+5px
 rgba
 (
 0
@@ -12145,6 +12151,8 @@ shadow
 0
 -
 6px
+3
+.
 5px
 -
 5px
@@ -15297,7 +15305,7 @@ shadow
 :
 0
 0
-3px
+2px
 1px
 -
 moz
@@ -16122,7 +16130,7 @@ rgb
 )
 0
 0
-3px
+2px
 rgb
 (
 27
@@ -16182,7 +16190,7 @@ shadow
 :
 1px
 1px
-3px
+2px
 rgb
 (
 12
@@ -16674,7 +16682,9 @@ shadow
 :
 0
 0
-2px
+1
+.
+5px
 ThreeDShadow
 ;
 }
