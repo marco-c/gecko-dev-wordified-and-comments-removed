@@ -5276,6 +5276,7 @@ eCSSProperty_background_attachment
 eCSSProperty_background_position
 eCSSProperty__moz_background_clip
 eCSSProperty__moz_background_origin
+eCSSProperty__moz_background_inline_policy
 eCSSProperty_UNKNOWN
 }
 ;
