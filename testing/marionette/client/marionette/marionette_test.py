@@ -9,6 +9,8 @@ functools
 import
 sys
 import
+socket
+import
 time
 import
 types
