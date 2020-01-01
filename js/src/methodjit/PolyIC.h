@@ -661,15 +661,8 @@ shapeGuard
 :
 8
 ;
-uint16
+uint32
 callReturn
-:
-9
-;
-unsigned
-unused
-:
-24
 ;
 inline
 bool
