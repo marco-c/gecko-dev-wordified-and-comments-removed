@@ -4076,12 +4076,6 @@ CreateView
 (
 viewBounds
 outerView
-outerView
--
->
-GetVisibility
-(
-)
 )
 ;
 if
