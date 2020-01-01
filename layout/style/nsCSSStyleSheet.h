@@ -70,6 +70,9 @@ class
 nsMediaQueryResultCacheKey
 ;
 class
+nsCSSStyleSheet
+;
+class
 nsCSSStyleSheetInner
 {
 public
@@ -86,7 +89,7 @@ nsCSSStyleSheetInner
 nsCSSStyleSheetInner
 &
 aCopy
-nsICSSStyleSheet
+nsCSSStyleSheet
 *
 aParentSheet
 )
@@ -102,7 +105,7 @@ nsCSSStyleSheetInner
 *
 CloneFor
 (
-nsICSSStyleSheet
+nsCSSStyleSheet
 *
 aParentSheet
 )
@@ -173,6 +176,12 @@ mNameSpaceMap
 PRBool
 mComplete
 ;
+nsRefPtr
+<
+nsCSSStyleSheet
+>
+mFirstChild
+;
 #
 ifdef
 DEBUG
@@ -197,6 +206,9 @@ void
 *
 aData
 )
+;
+struct
+ChildSheetListBuilder
 ;
 class
 nsCSSStyleSheet
@@ -756,12 +768,10 @@ nsMediaList
 >
 mMedia
 ;
+nsRefPtr
+<
 nsCSSStyleSheet
-*
-mFirstChild
-;
-nsCSSStyleSheet
-*
+>
 mNext
 ;
 nsICSSStyleSheet
@@ -823,6 +833,10 @@ nsICSSStyleSheet
 *
 aInstancePtrResult
 )
+;
+friend
+struct
+ChildSheetListBuilder
 ;
 }
 ;
