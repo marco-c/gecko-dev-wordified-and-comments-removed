@@ -254,6 +254,15 @@ aOutSnapshot
 ;
 virtual
 void
+ActorDestroy
+(
+ActorDestroyReason
+why
+)
+MOZ_OVERRIDE
+;
+virtual
+void
 ShadowLayersUpdated
 (
 ShadowLayersParent

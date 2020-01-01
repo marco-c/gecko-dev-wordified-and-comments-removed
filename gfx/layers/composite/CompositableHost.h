@@ -514,6 +514,15 @@ aActor
 )
 MOZ_OVERRIDE
 ;
+virtual
+void
+ActorDestroy
+(
+ActorDestroyReason
+why
+)
+MOZ_OVERRIDE
+;
 CompositableHost
 *
 GetCompositableHost
