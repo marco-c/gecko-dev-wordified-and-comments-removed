@@ -452,10 +452,15 @@ s
 )
 (
 (
+double
+)
+(
 s
 )
 /
+(
 PR_MSEC_PER_SEC
+)
 )
 static
 const
