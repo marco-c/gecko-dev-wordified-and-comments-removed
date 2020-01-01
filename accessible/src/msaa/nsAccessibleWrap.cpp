@@ -350,6 +350,10 @@ IID_IAccessible2
 =
 =
 iid
+&
+&
+!
+gIsIA2Disabled
 )
 *
 ppv
