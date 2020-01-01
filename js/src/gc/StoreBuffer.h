@@ -231,8 +231,8 @@ EdgeSet
 class
 StoreBuffer
 {
-const
 static
+const
 size_t
 ChunkSize
 =
@@ -241,8 +241,8 @@ ChunkSize
 <
 16
 ;
-const
 static
+const
 size_t
 MinAvailableSize
 =

@@ -44,8 +44,8 @@ js
 :
 crash
 ;
-const
 static
+const
 int
 stack_snapshot_max_size
 =

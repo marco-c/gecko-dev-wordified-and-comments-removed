@@ -276,8 +276,8 @@ OptimizedICStubSpace
 public
 ICStubSpace
 {
-const
 static
+const
 size_t
 STUB_DEFAULT_CHUNK_SIZE
 =
@@ -317,8 +317,8 @@ FallbackICStubSpace
 public
 ICStubSpace
 {
-const
 static
+const
 size_t
 STUB_DEFAULT_CHUNK_SIZE
 =

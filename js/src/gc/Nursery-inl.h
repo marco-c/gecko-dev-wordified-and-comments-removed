@@ -38,8 +38,8 @@ friend
 class
 MinorCollectionTracer
 ;
-const
 static
+const
 uintptr_t
 Relocated
 =

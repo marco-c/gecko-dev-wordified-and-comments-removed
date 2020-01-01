@@ -319,8 +319,8 @@ MapTypeToTraceKind
 JSObject
 >
 {
-const
 static
+const
 JSGCTraceKind
 kind
 =
@@ -337,8 +337,8 @@ MapTypeToTraceKind
 JSFunction
 >
 {
-const
 static
+const
 JSGCTraceKind
 kind
 =
@@ -355,8 +355,8 @@ MapTypeToTraceKind
 ArgumentsObject
 >
 {
-const
 static
+const
 JSGCTraceKind
 kind
 =
@@ -373,8 +373,8 @@ MapTypeToTraceKind
 ArrayBufferObject
 >
 {
-const
 static
+const
 JSGCTraceKind
 kind
 =
@@ -391,8 +391,8 @@ MapTypeToTraceKind
 ArrayBufferViewObject
 >
 {
-const
 static
+const
 JSGCTraceKind
 kind
 =
@@ -409,8 +409,8 @@ MapTypeToTraceKind
 DebugScopeObject
 >
 {
-const
 static
+const
 JSGCTraceKind
 kind
 =
@@ -427,8 +427,8 @@ MapTypeToTraceKind
 GlobalObject
 >
 {
-const
 static
+const
 JSGCTraceKind
 kind
 =
@@ -445,8 +445,8 @@ MapTypeToTraceKind
 ScopeObject
 >
 {
-const
 static
+const
 JSGCTraceKind
 kind
 =
@@ -463,8 +463,8 @@ MapTypeToTraceKind
 JSScript
 >
 {
-const
 static
+const
 JSGCTraceKind
 kind
 =
@@ -481,8 +481,8 @@ MapTypeToTraceKind
 LazyScript
 >
 {
-const
 static
+const
 JSGCTraceKind
 kind
 =
@@ -499,8 +499,8 @@ MapTypeToTraceKind
 Shape
 >
 {
-const
 static
+const
 JSGCTraceKind
 kind
 =
@@ -517,8 +517,8 @@ MapTypeToTraceKind
 BaseShape
 >
 {
-const
 static
+const
 JSGCTraceKind
 kind
 =
@@ -535,8 +535,8 @@ MapTypeToTraceKind
 UnownedBaseShape
 >
 {
-const
 static
+const
 JSGCTraceKind
 kind
 =
@@ -556,8 +556,8 @@ types
 TypeObject
 >
 {
-const
 static
+const
 JSGCTraceKind
 kind
 =
@@ -574,8 +574,8 @@ MapTypeToTraceKind
 JSAtom
 >
 {
-const
 static
+const
 JSGCTraceKind
 kind
 =
@@ -592,8 +592,8 @@ MapTypeToTraceKind
 JSString
 >
 {
-const
 static
+const
 JSGCTraceKind
 kind
 =
@@ -610,8 +610,8 @@ MapTypeToTraceKind
 JSFlatString
 >
 {
-const
 static
+const
 JSGCTraceKind
 kind
 =
@@ -628,8 +628,8 @@ MapTypeToTraceKind
 JSLinearString
 >
 {
-const
 static
+const
 JSGCTraceKind
 kind
 =
@@ -646,8 +646,8 @@ MapTypeToTraceKind
 PropertyName
 >
 {
-const
 static
+const
 JSGCTraceKind
 kind
 =
@@ -667,8 +667,8 @@ jit
 IonCode
 >
 {
-const
 static
+const
 JSGCTraceKind
 kind
 =
