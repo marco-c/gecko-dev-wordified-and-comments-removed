@@ -466,11 +466,9 @@ ENABLE_TESTS
 tier_testharness_dirs
 +
 =
-tools
+testing
 /
-test
--
-harness
+xpcshell
 endif
 include
 (
