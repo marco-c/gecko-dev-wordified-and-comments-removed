@@ -435,11 +435,6 @@ bool
 mProbedMaxCount
 ;
 void
-ClosePrivateConnections
-(
-)
-;
-void
 AnalyzeConnection
 (
 nsTArray
