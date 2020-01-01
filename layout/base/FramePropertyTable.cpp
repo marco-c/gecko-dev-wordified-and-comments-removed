@@ -840,12 +840,6 @@ ElementAt
 array
 -
 >
-nsTArray
-<
-PropertyValue
->
-:
-:
 ~
 nsTArray
 <
@@ -1038,12 +1032,6 @@ GetKey
 array
 -
 >
-nsTArray
-<
-PropertyValue
->
-:
-:
 ~
 nsTArray
 <
