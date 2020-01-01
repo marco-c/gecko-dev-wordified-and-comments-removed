@@ -148,6 +148,10 @@ h
 #
 include
 "
+mozilla
+/
+dom
+/
 Element
 .
 h
@@ -155,9 +159,6 @@ h
 using
 namespace
 mozilla
-:
-:
-dom
 ;
 static
 already_AddRefed
@@ -1699,6 +1700,9 @@ if
 doc
 )
 {
+dom
+:
+:
 Element
 *
 root

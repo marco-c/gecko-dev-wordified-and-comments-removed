@@ -281,6 +281,10 @@ h
 #
 include
 "
+mozilla
+/
+dom
+/
 Element
 .
 h
@@ -314,9 +318,6 @@ endif
 using
 namespace
 mozilla
-:
-:
-dom
 ;
 NS_IMPL_QUERY_HEAD
 (
@@ -491,6 +492,9 @@ return
 NS_ERROR_FAILURE
 ;
 }
+dom
+:
+:
 Element
 *
 root
