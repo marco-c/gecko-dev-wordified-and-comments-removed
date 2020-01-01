@@ -16,3 +16,9 @@ completesNormally
 true
 )
 ;
+reportCompare
+(
+true
+true
+)
+;

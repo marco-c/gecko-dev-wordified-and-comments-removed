@@ -29,6 +29,12 @@ jstests
 .
 list
 include
+strict
+/
+jstests
+.
+list
+include
 trace
 /
 jstests

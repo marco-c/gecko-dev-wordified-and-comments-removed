@@ -109,3 +109,9 @@ test
 )
 ;
 }
+reportCompare
+(
+true
+true
+)
+;

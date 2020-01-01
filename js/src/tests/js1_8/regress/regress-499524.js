@@ -449,7 +449,7 @@ a
 true
 )
 ;
-reportCompare
+assertEq
 (
 isSyntaxError
 (
@@ -474,6 +474,12 @@ a
 }
 "
 )
+true
+)
+;
+reportCompare
+(
+true
 true
 )
 ;
