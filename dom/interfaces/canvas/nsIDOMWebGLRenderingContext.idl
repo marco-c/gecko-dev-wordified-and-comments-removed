@@ -5944,5 +5944,16 @@ WebGLenum
 pname
 )
 ;
+/
+/
+extensions
+nsISupports
+getExtension
+(
+in
+DOMString
+name
+)
+;
 }
 ;
