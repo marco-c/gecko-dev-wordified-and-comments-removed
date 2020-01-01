@@ -701,6 +701,15 @@ repositories
 /
 android
 /
+BookmarksDeletionManager
+.
+java
+sync
+/
+repositories
+/
+android
+/
 BrowserContractHelpers
 .
 java
