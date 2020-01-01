@@ -371,9 +371,6 @@ h
 >
 .
 text
-.
-globl
-ffi_prep_args
 #
 This
 assumes
