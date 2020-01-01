@@ -61,15 +61,6 @@ nsACString
 aMimeType
 )
 ;
-void
-TryLoad
-(
-const
-char
-*
-name
-)
-;
 public
 :
 MediaPluginHost
