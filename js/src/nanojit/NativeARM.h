@@ -2902,7 +2902,11 @@ _d
 0
 _r
 LSR_imm
+(
 _imm
+&
+0x1f
+)
 )
 #
 define
@@ -2940,7 +2944,11 @@ _d
 0
 _r
 ASR_imm
+(
 _imm
+&
+0x1f
+)
 )
 #
 define
@@ -2978,7 +2986,11 @@ _d
 0
 _r
 LSL_imm
+(
 _imm
+&
+0x1f
+)
 )
 #
 define
