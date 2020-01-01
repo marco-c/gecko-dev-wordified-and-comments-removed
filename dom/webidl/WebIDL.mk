@@ -735,6 +735,10 @@ MediaError
 .
 webidl
 \
+MediaSource
+.
+webidl
+\
 MediaStream
 .
 webidl
@@ -924,6 +928,14 @@ ScrollAreaEvent
 webidl
 \
 SimpleGestureEvent
+.
+webidl
+\
+SourceBufferList
+.
+webidl
+\
+SourceBuffer
 .
 webidl
 \
