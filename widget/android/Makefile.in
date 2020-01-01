@@ -146,10 +146,6 @@ AndroidDirectTexture
 .
 cpp
 \
-AndroidLayerViewWrapper
-.
-cpp
-\
 AndroidGraphicBuffer
 .
 cpp
@@ -253,9 +249,6 @@ AndroidBridge
 .
 h
 AndroidJavaWrappers
-.
-h
-AndroidLayerViewWrapper
 .
 h
 include
