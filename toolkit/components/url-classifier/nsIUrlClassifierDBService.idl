@@ -554,7 +554,7 @@ nsISupports
 Looks
 up
 a
-key
+URI
 in
 the
 database
@@ -562,13 +562,13 @@ database
 *
 *
 param
-key
+principal
 :
 The
 principal
 containing
 the
-information
+URI
 to
 search
 .

@@ -2820,9 +2820,9 @@ i
 .
 entry
 .
-hash
-.
-prefix
+ToUint32
+(
+)
 )
 )
 ;
@@ -2851,8 +2851,6 @@ i
 )
 .
 entry
-.
-hash
 .
 complete
 )
@@ -3655,8 +3653,6 @@ chunkId
 result
 .
 entry
-.
-hash
 .
 complete
 =

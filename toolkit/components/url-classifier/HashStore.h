@@ -717,11 +717,11 @@ mSubExpirations
 AddPrefixArray
 mAddPrefixes
 ;
-AddCompleteArray
-mAddCompletes
-;
 SubPrefixArray
 mSubPrefixes
+;
+AddCompleteArray
+mAddCompletes
 ;
 SubCompleteArray
 mSubCompletes

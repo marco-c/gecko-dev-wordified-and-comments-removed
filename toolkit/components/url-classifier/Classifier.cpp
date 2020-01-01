@@ -1045,7 +1045,7 @@ checking
 ;
 lookupHash
 .
-ToString
+ToHexString
 (
 checking
 )
@@ -1055,6 +1055,10 @@ LOG
 (
 "
 Checking
+fragment
+%
+s
+hash
 %
 s
 (
@@ -1062,6 +1066,14 @@ s
 X
 )
 "
+fragments
+[
+i
+]
+.
+get
+(
+)
 checking
 .
 get

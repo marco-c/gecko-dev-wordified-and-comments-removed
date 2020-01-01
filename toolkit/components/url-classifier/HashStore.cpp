@@ -353,8 +353,6 @@ aAddChunk
 add
 -
 >
-hash
-.
 complete
 =
 aHash
@@ -396,8 +394,6 @@ aAddChunk
 sub
 -
 >
-hash
-.
 complete
 =
 aHash
@@ -1346,16 +1342,11 @@ ReadChunkNumbers
 (
 )
 {
-if
+NS_ENSURE_STATE
 (
-!
 mInputStream
 )
-{
-return
-NS_OK
 ;
-}
 nsCOMPtr
 <
 nsISeekableStream

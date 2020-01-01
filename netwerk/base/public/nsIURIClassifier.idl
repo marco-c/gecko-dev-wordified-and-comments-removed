@@ -223,14 +223,8 @@ Classify
 a
 Principal
 using
-it
-'
-s
+its
 URI
-appId
-and
-InBrowserElement
-state
 .
 *
 *
