@@ -3332,6 +3332,16 @@ if
 (
 start
 .
+hasAttribute
+(
+"
+updateable
+"
+)
+&
+&
+start
+.
 getAttribute
 (
 "
