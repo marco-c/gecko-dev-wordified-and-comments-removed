@@ -420,6 +420,12 @@ mRenderState
 =
 RENDER_STATE_ALPHA_RECOVERY_BLACK
 ;
+mNativeRect
+.
+RoundOut
+(
+)
+;
 if
 (
 mTransformType
@@ -1202,12 +1208,6 @@ RecoverAlpha
 black
 white
 mTempSurfaceSize
-)
-;
-mNativeRect
-.
-Round
-(
 )
 ;
 mContext
