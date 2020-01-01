@@ -1950,7 +1950,7 @@ cx
 #
 define
 UNIT_STRING_LIMIT
-256
+256U
 extern
 JSString
 *
