@@ -1110,6 +1110,17 @@ get
 ;
 }
 }
+if
+(
+d
+)
+{
+closedir
+(
+d
+)
+;
+}
 mCodepointsWithNoFonts
 .
 SetRange
