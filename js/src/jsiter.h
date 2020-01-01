@@ -393,7 +393,7 @@ index
 )
 ;
 bool
-js_SuppressDeletedIndexProperties
+js_SuppressDeletedElements
 (
 JSContext
 *
@@ -401,9 +401,9 @@ cx
 JSObject
 *
 obj
-jsint
+uint32
 begin
-jsint
+uint32
 end
 )
 ;

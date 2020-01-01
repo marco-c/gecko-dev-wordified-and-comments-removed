@@ -333,7 +333,7 @@ NewDenseCopiedArray
 JSContext
 *
 cx
-uint
+uint32
 length
 const
 Value
