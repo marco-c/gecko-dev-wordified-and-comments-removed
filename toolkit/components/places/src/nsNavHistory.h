@@ -1037,6 +1037,12 @@ nsCOMPtr
 <
 mozIStorageStatement
 >
+mDBURIHasTag
+;
+nsCOMPtr
+<
+mozIStorageStatement
+>
 mDBVisitToURLResult
 ;
 nsCOMPtr
