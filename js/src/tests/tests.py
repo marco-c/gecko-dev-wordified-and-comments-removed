@@ -864,6 +864,29 @@ expected_rcs
 [
 ]
         
+if
+test
+.
+path
+.
+endswith
+(
+'
+-
+n
+.
+js
+'
+)
+:
+            
+expected_rcs
+.
+append
+(
+3
+)
+        
 for
 line
 in
@@ -1026,40 +1049,25 @@ group
         
 if
 rc
+and
+not
+rc
+in
+expected_rcs
 :
             
 if
-(
-test
-.
-path
-.
-endswith
-(
-'
--
-n
-.
-js
-'
-)
-and
 rc
 =
 =
 3
-)
-or
-rc
-in
-expected_rcs
 :
                 
 result
 =
 cls
 .
-PASS
+FAIL
             
 else
 :
@@ -1074,9 +1082,13 @@ else
 :
             
 if
+(
+rc
+or
 passes
 >
 0
+)
 and
 failures
 =

@@ -934,11 +934,12 @@ False
 '
 TEST
 -
-KNOWN
+UNEXPECTED
 -
 FAIL
 '
 '
+REGRESSIONS
 '
 )
         
@@ -954,15 +955,12 @@ True
 '
 TEST
 -
-KNOWN
+UNEXPECTED
 -
 FAIL
-(
-EXPECTED
-RANDOM
-)
 '
 '
+REGRESSIONS
 '
 )
         
@@ -999,15 +997,12 @@ True
 '
 TEST
 -
-KNOWN
+UNEXPECTED
 -
 FAIL
-(
-EXPECTED
-RANDOM
-)
 '
 '
+REGRESSIONS
 '
 )
         
@@ -1815,6 +1810,9 @@ tests
 marked
 random
 '
+default
+=
+True
 )
     
 op

@@ -93,6 +93,11 @@ maxBytes
 22000
 )
 ;
+expectExitCode
+(
+5
+)
+;
 }
 const
 numRows
