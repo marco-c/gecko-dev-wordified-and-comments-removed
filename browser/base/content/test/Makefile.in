@@ -1146,6 +1146,10 @@ browser_clearplugindata_noage
 .
 html
 \
+browser_popupUI
+.
+js
+\
 browser_sanitizeDialog
 .
 js
@@ -1317,15 +1321,6 @@ html
 (
 NULL
 )
-#
-compartment
--
-disabled
-#
-browser_popupUI
-.
-js
-\
 ifneq
 (
 cocoa

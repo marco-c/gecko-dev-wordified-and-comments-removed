@@ -169,6 +169,8 @@ if
 win
 .
 content
+.
+wrappedJSObject
 =
 =
 content
