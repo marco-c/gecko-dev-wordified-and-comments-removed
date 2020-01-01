@@ -141,7 +141,7 @@ exists
 }
 file
 .
-copyTo
+copyToFollowingLinks
 (
 gProfD
 kDBName
