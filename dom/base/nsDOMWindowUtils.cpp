@@ -14335,6 +14335,11 @@ eSelectWordNoSpace
 ;
 break
 ;
+default
+:
+return
+NS_ERROR_INVALID_ARG
+;
 }
 nsIPresShell
 *
