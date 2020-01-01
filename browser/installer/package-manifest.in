@@ -2054,6 +2054,13 @@ BINPATH
 /
 components
 /
+PlacesCategoriesStarter
+.
+js
+BINPATH
+/
+components
+/
 nsDefaultCLH
 .
 manifest
