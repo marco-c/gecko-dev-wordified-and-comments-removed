@@ -5475,13 +5475,7 @@ isEnabled
 (
 )
 ?
-mForward
-.
-getWidth
-(
-)
-/
-2
+width
 :
 0
 )
