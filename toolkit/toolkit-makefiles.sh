@@ -1422,8 +1422,6 @@ MAKEFILES_jsipc
 "
 js
 /
-src
-/
 ipc
 /
 Makefile
