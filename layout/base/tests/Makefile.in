@@ -748,6 +748,10 @@ test_bug696020
 .
 html
 \
+test_event_target_radius
+.
+html
+\
 test_mozPaintCount
 .
 html
