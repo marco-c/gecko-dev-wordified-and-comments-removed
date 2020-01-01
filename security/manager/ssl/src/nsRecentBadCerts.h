@@ -176,6 +176,7 @@ MOZ_DELETE
 ;
 class
 nsRecentBadCertsService
+MOZ_FINAL
 :
 public
 nsIRecentBadCertsService

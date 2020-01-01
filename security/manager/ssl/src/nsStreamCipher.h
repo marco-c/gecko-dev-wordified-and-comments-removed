@@ -26,6 +26,15 @@ pk11func
 h
 "
 #
+include
+"
+mozilla
+/
+Attributes
+.
+h
+"
+#
 define
 NS_STREAMCIPHER_CLASSNAME
 "
@@ -68,6 +77,7 @@ streamcipher
 "
 class
 nsStreamCipher
+MOZ_FINAL
 :
 public
 nsIStreamCipher

@@ -62,6 +62,15 @@ nsWeakReference
 .
 h
 "
+#
+include
+"
+mozilla
+/
+Attributes
+.
+h
+"
 class
 nsCertOverride
 {
@@ -236,6 +245,7 @@ ob
 ;
 class
 nsCertOverrideEntry
+MOZ_FINAL
 :
 public
 PLDHashEntryHdr
@@ -404,6 +414,7 @@ mHostWithPort
 ;
 class
 nsCertOverrideService
+MOZ_FINAL
 :
 public
 nsICertOverrideService

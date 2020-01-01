@@ -19,6 +19,15 @@ pk11pub
 h
 "
 #
+include
+"
+mozilla
+/
+Attributes
+.
+h
+"
+#
 define
 NS_KEYMODULEOBJECT_CLASSNAME
 "
@@ -104,6 +113,7 @@ keyobjectfactory
 "
 class
 nsKeyObject
+MOZ_FINAL
 :
 public
 nsIKeyObject
@@ -153,6 +163,7 @@ CleanUp
 ;
 class
 nsKeyObjectFactory
+MOZ_FINAL
 :
 public
 nsIKeyObjectFactory
