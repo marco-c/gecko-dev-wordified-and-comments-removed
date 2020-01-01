@@ -330,7 +330,7 @@ aAttribute
 const
 ;
 virtual
-PRInt32
+nsEventStates
 IntrinsicState
 (
 )
@@ -1509,7 +1509,7 @@ type
 ;
 }
 }
-PRInt32
+nsEventStates
 nsHTMLSharedObjectElement
 :
 :

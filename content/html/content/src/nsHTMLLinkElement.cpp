@@ -414,7 +414,7 @@ aResult
 const
 ;
 virtual
-PRInt32
+nsEventStates
 IntrinsicState
 (
 )
@@ -1679,7 +1679,7 @@ css
 return
 ;
 }
-PRInt32
+nsEventStates
 nsHTMLLinkElement
 :
 :

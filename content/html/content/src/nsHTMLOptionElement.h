@@ -186,7 +186,7 @@ aNotify
 )
 ;
 virtual
-PRInt32
+nsEventStates
 IntrinsicState
 (
 )

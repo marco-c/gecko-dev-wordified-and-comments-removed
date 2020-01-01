@@ -230,7 +230,6 @@ isDisabled
 )
 {
 return
-(
 mFrame
 -
 >
@@ -242,12 +241,11 @@ GetContent
 IntrinsicState
 (
 )
-&
+.
+HasState
+(
 NS_EVENT_STATE_DISABLED
 )
-!
-=
-0
 ;
 }
 class

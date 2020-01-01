@@ -1604,7 +1604,7 @@ nsObjectLoadingContent
 ObjectType
 mOldType
 ;
-PRInt32
+nsEventStates
 mOldState
 ;
 }
@@ -4268,7 +4268,7 @@ return
 NS_OK
 ;
 }
-PRInt32
+nsEventStates
 nsObjectLoadingContent
 :
 :
@@ -4303,7 +4303,9 @@ case
 eType_Document
 :
 return
-0
+nsEventStates
+(
+)
 ;
 case
 eType_Null
@@ -4322,7 +4324,7 @@ mUserDisabled
 return
 NS_EVENT_STATE_USERDISABLED
 ;
-PRInt32
+nsEventStates
 state
 =
 NS_EVENT_STATE_BROKEN
@@ -4388,7 +4390,9 @@ type
 )
 ;
 return
-0
+nsEventStates
+(
+)
 ;
 }
 nsresult
@@ -6835,7 +6839,7 @@ NotifyStateChanged
 (
 ObjectType
 aOldType
-PRInt32
+nsEventStates
 aOldState
 PRBool
 aSync
@@ -6860,7 +6864,7 @@ change
 %
 u
 %
-x
+lx
 )
 -
 >
@@ -6868,7 +6872,7 @@ x
 %
 u
 %
-x
+lx
 )
 (
 sync
@@ -6882,8 +6886,16 @@ n
 this
 aOldType
 aOldState
+.
+GetInternalValue
+(
+)
 mType
 ObjectState
+(
+)
+.
+GetInternalValue
 (
 )
 aSync
@@ -6939,7 +6951,7 @@ doc
 return
 ;
 }
-PRInt32
+nsEventStates
 newState
 =
 ObjectState
@@ -6969,7 +6981,7 @@ confused
 "
 )
 ;
-PRInt32
+nsEventStates
 changedBits
 =
 aOldState

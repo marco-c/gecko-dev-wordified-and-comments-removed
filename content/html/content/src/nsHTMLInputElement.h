@@ -411,7 +411,7 @@ virtual
 void
 FieldSetDisabledChanged
 (
-PRInt32
+nsEventStates
 aStates
 PRBool
 aNotify
@@ -538,7 +538,7 @@ DoneCreatingElement
 )
 ;
 virtual
-PRInt32
+nsEventStates
 IntrinsicState
 (
 )

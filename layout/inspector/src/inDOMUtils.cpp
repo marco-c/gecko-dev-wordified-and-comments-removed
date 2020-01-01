@@ -893,7 +893,10 @@ SetContentState
 nsIDOMElement
 *
 aElement
-PRUint64
+nsEventStates
+:
+:
+InternalType
 aState
 )
 {
@@ -941,10 +944,10 @@ esm
 SetContentState
 (
 content
+nsEventStates
 (
-PRInt32
-)
 aState
+)
 )
 ;
 }
@@ -961,7 +964,10 @@ GetContentState
 nsIDOMElement
 *
 aElement
-PRUint64
+nsEventStates
+:
+:
+InternalType
 *
 aState
 )
@@ -1017,6 +1023,10 @@ esm
 GetContentState
 (
 content
+)
+.
+GetInternalValue
+(
 )
 ;
 return

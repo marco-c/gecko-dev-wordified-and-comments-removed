@@ -74,7 +74,7 @@ nsLinkState
 aState
 )
 ;
-PRInt32
+nsEventStates
 LinkState
 (
 )

@@ -405,7 +405,7 @@ aPresContext
 nsIContent
 *
 aContent
-PRInt32
+nsEventStates
 aStateMask
 )
 ;
@@ -424,7 +424,7 @@ dom
 Element
 *
 aElement
-PRInt32
+nsEventStates
 aStateMask
 )
 ;

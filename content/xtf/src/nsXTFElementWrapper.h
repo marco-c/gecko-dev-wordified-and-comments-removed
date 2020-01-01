@@ -320,7 +320,7 @@ aStr
 const
 ;
 virtual
-PRInt32
+nsEventStates
 IntrinsicState
 (
 )
@@ -606,7 +606,7 @@ nsIXTFAttributeHandler
 >
 mAttributeHandler
 ;
-PRUint64
+nsEventStates
 mIntrinsicState
 ;
 nsAttrName

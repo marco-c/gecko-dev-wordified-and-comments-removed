@@ -101,7 +101,7 @@ PRBool
 aNotify
 )
 ;
-PRInt32
+nsEventStates
 ImageState
 (
 )
@@ -458,7 +458,7 @@ private
 ImageObserver
 mObserverList
 ;
-PRInt32
+nsEventStates
 mForcedImageState
 ;
 PRInt16

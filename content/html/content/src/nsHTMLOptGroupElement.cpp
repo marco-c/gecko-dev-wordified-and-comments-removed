@@ -171,7 +171,7 @@ aVisitor
 )
 ;
 virtual
-PRInt32
+nsEventStates
 IntrinsicState
 (
 )
@@ -577,7 +577,7 @@ return
 rv
 ;
 }
-PRInt32
+nsEventStates
 nsHTMLOptGroupElement
 :
 :
@@ -586,7 +586,7 @@ IntrinsicState
 )
 const
 {
-PRInt32
+nsEventStates
 state
 =
 nsGenericHTMLElement

@@ -376,7 +376,7 @@ aResult
 const
 ;
 virtual
-PRInt32
+nsEventStates
 IntrinsicState
 (
 )
@@ -1671,7 +1671,7 @@ aResult
 )
 ;
 }
-PRInt32
+nsEventStates
 nsHTMLAnchorElement
 :
 :

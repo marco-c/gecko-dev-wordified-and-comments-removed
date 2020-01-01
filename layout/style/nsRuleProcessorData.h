@@ -266,12 +266,12 @@ GetLang
 (
 )
 ;
-PRUint32
+nsEventStates
 ContentState
 (
 )
 ;
-PRUint32
+nsEventStates
 DocumentState
 (
 )
@@ -281,7 +281,7 @@ IsLink
 (
 )
 ;
-PRUint32
+nsEventStates
 GetContentStateForVisitedHandling
 (
 nsRuleWalker
@@ -381,7 +381,7 @@ mNthIndices
 2
 ]
 ;
-PRInt32
+nsEventStates
 mContentState
 ;
 PRPackedBool
@@ -720,7 +720,7 @@ dom
 Element
 *
 aElement
-PRInt32
+nsEventStates
 aStateMask
 )
 :
@@ -746,7 +746,7 @@ pointer
 ;
 }
 const
-PRInt32
+nsEventStates
 mStateMask
 ;
 }

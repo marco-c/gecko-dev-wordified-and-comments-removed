@@ -262,7 +262,7 @@ aContent
 )
 ;
 virtual
-PRInt32
+nsEventStates
 GetContentState
 (
 nsIContent
@@ -281,7 +281,7 @@ SetContentState
 nsIContent
 *
 aContent
-PRInt32
+nsEventStates
 aState
 )
 ;

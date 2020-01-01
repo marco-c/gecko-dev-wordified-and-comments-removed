@@ -394,7 +394,7 @@ keyCode
 )
 {
 const
-PRInt32
+nsEventStates
 activeHover
 =
 NS_EVENT_STATE_ACTIVE
@@ -412,7 +412,7 @@ EventStateManager
 (
 )
 ;
-PRInt32
+nsEventStates
 buttonState
 =
 esm
@@ -425,14 +425,12 @@ mContent
 ;
 if
 (
-(
 buttonState
-&
+.
+HasAllStates
+(
 activeHover
 )
-=
-=
-activeHover
 )
 {
 esm

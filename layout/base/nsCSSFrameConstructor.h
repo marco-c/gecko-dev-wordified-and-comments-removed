@@ -458,7 +458,7 @@ aContent1
 nsIContent
 *
 aContent2
-PRInt32
+nsEventStates
 aStateMask
 )
 ;
@@ -869,7 +869,7 @@ DoContentStateChanged
 Element
 *
 aElement
-PRInt32
+nsEventStates
 aStateMask
 )
 ;

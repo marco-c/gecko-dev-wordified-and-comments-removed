@@ -2997,7 +2997,7 @@ rv
 rv
 )
 ;
-PRInt32
+nsEventStates
 eventStates
 =
 mContent
@@ -3009,9 +3009,10 @@ IntrinsicState
 ;
 if
 (
-(
 eventStates
-&
+.
+HasState
+(
 NS_EVENT_STATE_DISABLED
 )
 &

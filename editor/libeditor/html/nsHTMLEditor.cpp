@@ -17155,14 +17155,15 @@ content
 |
 |
 !
-(
 content
 -
 >
 IntrinsicState
 (
 )
-&
+.
+HasState
+(
 NS_EVENT_STATE_MOZ_READONLY
 )
 ;

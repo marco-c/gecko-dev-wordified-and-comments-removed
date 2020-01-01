@@ -171,7 +171,7 @@ nsINode
 const
 ;
 virtual
-PRInt32
+nsEventStates
 IntrinsicState
 (
 )

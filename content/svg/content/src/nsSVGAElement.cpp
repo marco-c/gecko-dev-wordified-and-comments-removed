@@ -847,7 +847,7 @@ aTarget
 }
 }
 }
-PRInt32
+nsEventStates
 nsSVGAElement
 :
 :

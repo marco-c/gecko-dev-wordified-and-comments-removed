@@ -4247,7 +4247,7 @@ aContent1
 nsIContent
 *
 aContent2
-PRInt32
+nsEventStates
 aStateMask
 )
 {
@@ -4271,9 +4271,10 @@ IsHTML
 |
 |
 !
-(
 aStateMask
-&
+.
+HasState
+(
 NS_EVENT_STATE_CHECKED
 )
 )

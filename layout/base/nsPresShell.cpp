@@ -20675,7 +20675,7 @@ aContent1
 nsIContent
 *
 aContent2
-PRInt32
+nsEventStates
 aStateMask
 )
 {
@@ -20735,7 +20735,7 @@ DocumentStatesChanged
 nsIDocument
 *
 aDocument
-PRInt32
+nsEventStates
 aStateMask
 )
 {
@@ -20803,8 +20803,11 @@ VERIFY_STYLE_TREE
 if
 (
 aStateMask
-&
+.
+HasState
+(
 NS_DOCUMENT_STATE_WINDOW_INACTIVE
+)
 )
 {
 nsIFrame

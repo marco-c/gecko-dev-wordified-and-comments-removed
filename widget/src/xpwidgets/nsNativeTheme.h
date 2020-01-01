@@ -47,6 +47,13 @@ nsWidgetAtoms
 .
 h
 "
+#
+include
+"
+nsEventStates
+.
+h
+"
 class
 nsIFrame
 ;
@@ -93,7 +100,7 @@ nsNativeTheme
 (
 )
 ;
-PRInt32
+nsEventStates
 GetContentState
 (
 nsIFrame
@@ -122,7 +129,7 @@ IsDisabled
 nsIFrame
 *
 aFrame
-PRInt32
+nsEventStates
 aEventStates
 )
 ;

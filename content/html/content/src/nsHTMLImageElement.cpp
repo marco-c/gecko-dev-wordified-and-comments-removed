@@ -477,7 +477,7 @@ aCompileEventHandlers
 )
 ;
 virtual
-PRInt32
+nsEventStates
 IntrinsicState
 (
 )
@@ -2223,7 +2223,7 @@ PR_TRUE
 ;
 }
 }
-PRInt32
+nsEventStates
 nsHTMLImageElement
 :
 :

@@ -364,13 +364,13 @@ virtual
 void
 FieldSetDisabledChanged
 (
-PRInt32
+nsEventStates
 aStates
 PRBool
 aNotify
 )
 ;
-PRInt32
+nsEventStates
 IntrinsicState
 (
 )
@@ -2351,10 +2351,8 @@ PRBool
 aNotify
 )
 {
-PRInt32
+nsEventStates
 states
-=
-0
 ;
 if
 (
@@ -2432,7 +2430,12 @@ if
 aNotify
 &
 &
+!
 states
+.
+IsEmpty
+(
+)
 )
 {
 nsIDocument
@@ -2579,7 +2582,7 @@ return
 PR_FALSE
 ;
 }
-PRInt32
+nsEventStates
 nsHTMLButtonElement
 :
 :
@@ -2588,7 +2591,7 @@ IntrinsicState
 )
 const
 {
-PRInt32
+nsEventStates
 state
 =
 nsGenericHTMLFormElement
@@ -2737,7 +2740,7 @@ nsHTMLButtonElement
 :
 FieldSetDisabledChanged
 (
-PRInt32
+nsEventStates
 aStates
 PRBool
 aNotify

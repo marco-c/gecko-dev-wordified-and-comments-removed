@@ -4093,7 +4093,7 @@ aEvent
 aEventStatus
 )
 ;
-PRInt32
+nsEventStates
 eventStates
 =
 mContent
@@ -4106,8 +4106,11 @@ IntrinsicState
 if
 (
 eventStates
-&
+.
+HasState
+(
 NS_EVENT_STATE_DISABLED
+)
 )
 return
 NS_OK
@@ -7134,7 +7137,7 @@ mButtonDown
 =
 PR_FALSE
 ;
-PRInt32
+nsEventStates
 eventStates
 =
 mContent
@@ -7147,8 +7150,11 @@ IntrinsicState
 if
 (
 eventStates
-&
+.
+HasState
+(
 NS_EVENT_STATE_DISABLED
+)
 )
 {
 return
@@ -8035,7 +8041,7 @@ UpdateInListState
 aMouseEvent
 )
 ;
-PRInt32
+nsEventStates
 eventStates
 =
 mContent
@@ -8048,8 +8054,11 @@ IntrinsicState
 if
 (
 eventStates
-&
+.
+HasState
+(
 NS_EVENT_STATE_DISABLED
+)
 )
 {
 return
@@ -9089,7 +9098,7 @@ null
 "
 )
 ;
-PRInt32
+nsEventStates
 eventStates
 =
 mContent
@@ -9102,8 +9111,11 @@ IntrinsicState
 if
 (
 eventStates
-&
+.
+HasState
+(
 NS_EVENT_STATE_DISABLED
+)
 )
 return
 NS_OK

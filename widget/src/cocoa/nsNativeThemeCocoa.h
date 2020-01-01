@@ -320,7 +320,7 @@ HIRect
 inBoxRect
 PRBool
 inReadOnly
-PRInt32
+nsEventStates
 inState
 )
 ;
@@ -353,7 +353,7 @@ CGContextRef
 context
 HIRect
 inBoxRect
-PRInt32
+nsEventStates
 inState
 nsIFrame
 *
@@ -383,7 +383,7 @@ const
 HIRect
 &
 inBoxRect
-PRInt32
+nsEventStates
 inState
 PRBool
 inDirection
@@ -413,7 +413,7 @@ HIRect
 inBoxRect
 PRBool
 inSelected
-PRInt32
+nsEventStates
 inState
 nsIFrame
 *
@@ -432,7 +432,7 @@ inBoxRect
 nsIFrame
 *
 aFrame
-PRInt32
+nsEventStates
 inState
 )
 ;
@@ -445,7 +445,7 @@ const
 HIRect
 &
 inBoxRect
-PRInt32
+nsEventStates
 inState
 nsIFrame
 *
@@ -469,7 +469,7 @@ ThemeButtonValue
 inValue
 ThemeButtonAdornment
 inAdornment
-PRInt32
+nsEventStates
 inState
 nsIFrame
 *
@@ -485,7 +485,7 @@ const
 HIRect
 &
 inBoxRect
-PRInt32
+nsEventStates
 inState
 PRUint8
 aWidgetType
@@ -509,7 +509,7 @@ ThemeDrawState
 inDrawState
 ThemeButtonAdornment
 inAdornment
-PRInt32
+nsEventStates
 inState
 nsIFrame
 *
@@ -578,7 +578,7 @@ GetScrollbarPressStates
 nsIFrame
 *
 aFrame
-PRInt32
+nsEventStates
 aButtonStates
 [
 ]

@@ -2203,7 +2203,7 @@ NS_IMPL_ELEMENT_CLONE
 (
 nsMathMLElement
 )
-PRInt32
+nsEventStates
 nsMathMLElement
 :
 :
@@ -2225,7 +2225,9 @@ mIncrementScriptLevel
 ?
 NS_EVENT_STATE_INCREMENT_SCRIPT_LEVEL
 :
-0
+nsEventStates
+(
+)
 )
 ;
 }

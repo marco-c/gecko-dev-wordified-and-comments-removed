@@ -2934,7 +2934,7 @@ PRBool
 aDoDropDown
 )
 {
-PRInt32
+nsEventStates
 eventStates
 =
 mContent
@@ -2947,8 +2947,11 @@ IntrinsicState
 if
 (
 eventStates
-&
+.
+HasState
+(
 NS_EVENT_STATE_DISABLED
+)
 )
 {
 return
@@ -3643,7 +3646,7 @@ return
 NS_OK
 ;
 }
-PRInt32
+nsEventStates
 eventStates
 =
 mContent
@@ -3656,8 +3659,11 @@ IntrinsicState
 if
 (
 eventStates
-&
+.
+HasState
+(
 NS_EVENT_STATE_DISABLED
+)
 )
 {
 return
@@ -5552,7 +5558,7 @@ nsPoint
 aPt
 )
 {
-PRInt32
+nsEventStates
 eventStates
 =
 mContent
@@ -5564,9 +5570,10 @@ IntrinsicState
 ;
 if
 (
-(
 eventStates
-&
+.
+HasState
+(
 NS_EVENT_STATE_DISABLED
 )
 |
