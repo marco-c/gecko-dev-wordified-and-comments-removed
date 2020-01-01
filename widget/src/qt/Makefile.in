@@ -486,6 +486,10 @@ moc_mozqwidget
 .
 cpp
 \
+nsAppShell
+.
+cpp
+\
 (
 NULL
 )
@@ -504,6 +508,10 @@ MOCSRCS
 )
 \
 moc_mozqwidget
+.
+cpp
+\
+moc_nsAppShell
 .
 cpp
 \
