@@ -12753,6 +12753,13 @@ fpreg
 )
 ;
 }
+if
+(
+fe
+=
+=
+backing
+)
 forgetAllRegs
 (
 fe
