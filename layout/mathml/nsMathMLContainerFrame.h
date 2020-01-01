@@ -408,7 +408,7 @@ aDesiredSize
 ;
 virtual
 nsresult
-MeasureChildFrames
+MeasureForWidth
 (
 nsIRenderingContext
 &

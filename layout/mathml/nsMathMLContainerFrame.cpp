@@ -3835,7 +3835,7 @@ desiredSize
 nsresult
 rv
 =
-MeasureChildFrames
+MeasureForWidth
 (
 *
 aRenderingContext
@@ -3872,7 +3872,7 @@ nsresult
 nsMathMLContainerFrame
 :
 :
-MeasureChildFrames
+MeasureForWidth
 (
 nsIRenderingContext
 &

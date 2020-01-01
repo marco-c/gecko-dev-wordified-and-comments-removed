@@ -19273,6 +19273,11 @@ SIMPLE_MATHML_CREATE
 merror_
 NS_NewMathMLmrowFrame
 )
+SIMPLE_MATHML_CREATE
+(
+menclose_
+NS_NewMathMLmencloseFrame
+)
 }
 ;
 return
