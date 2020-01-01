@@ -1194,6 +1194,9 @@ ResetIdleTimeOut
 ;
 }
 }
+#
+ifdef
+MOZ_HAVE_SHMIMAGE
 static
 PRBool
 gShmAvailable
@@ -1218,6 +1221,8 @@ UseClientSideRendering
 gShmAvailable
 ;
 }
+#
+endif
 nsWindow
 *
 nsWindow
