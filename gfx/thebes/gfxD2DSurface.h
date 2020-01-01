@@ -32,6 +32,9 @@ windows
 .
 h
 >
+struct
+ID3D10Texture2D
+;
 class
 THEBES_API
 gfxD2DSurface
@@ -65,6 +68,15 @@ gfxD2DSurface
 (
 HANDLE
 handle
+gfxContentType
+aContent
+)
+;
+gfxD2DSurface
+(
+ID3D10Texture2D
+*
+texture
 gfxContentType
 aContent
 )
