@@ -2631,11 +2631,6 @@ r_offset
 relro
 -
 >
-getFirstSection
-(
-)
--
->
 getAddr
 (
 )
@@ -2649,11 +2644,6 @@ i
 r_offset
 <
 relro
--
->
-getFirstSection
-(
-)
 -
 >
 getAddr
