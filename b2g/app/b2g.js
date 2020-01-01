@@ -4649,17 +4649,3 @@ profile
 "
 )
 ;
-pref
-(
-"
-layers
-.
-orientation
-.
-sync
-.
-timeout
-"
-1000
-)
-;

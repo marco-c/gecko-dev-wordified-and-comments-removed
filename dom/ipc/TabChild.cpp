@@ -1028,10 +1028,6 @@ mTriedBrowserInit
 (
 false
 )
-mOrientation
-(
-eScreenOrientation_PortraitPrimary
-)
 {
 printf
 (
@@ -4985,10 +4981,6 @@ const
 nsIntSize
 &
 size
-const
-ScreenOrientation
-&
-orientation
 )
 {
 if
@@ -5032,10 +5024,6 @@ height
 rect
 .
 height
-;
-mOrientation
-=
-orientation
 ;
 mInnerSize
 =
