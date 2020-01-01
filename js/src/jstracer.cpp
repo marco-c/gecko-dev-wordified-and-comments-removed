@@ -1,13 +1,6 @@
 #
 include
 "
-jsstddef
-.
-h
-"
-#
-include
-"
 jsbit
 .
 h
@@ -26045,8 +26038,6 @@ imacpc
 0
 \
 :
-PTRDIFF
-(
 cx
 -
 >
@@ -26057,7 +26048,7 @@ regs
 -
 >
 pc
-\
+-
 cx
 -
 >
@@ -26068,9 +26059,6 @@ script
 -
 >
 code
-\
-jsbytecode
-)
 \
 !
 cx
