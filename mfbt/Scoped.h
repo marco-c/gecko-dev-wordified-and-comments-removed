@@ -22,6 +22,9 @@ GuardObjects
 .
 h
 "
+namespace
+mozilla
+{
 template
 <
 typename
@@ -314,6 +317,9 @@ struct
 name
 :
 public
+mozilla
+:
+:
 Scoped
 <
 Traits
@@ -325,6 +331,9 @@ Type
 {
 \
 typedef
+mozilla
+:
+:
 Scoped
 <
 Traits
@@ -548,5 +557,6 @@ SCOPED_TEMPLATE
 ScopedDeleteArray
 ScopedDeleteArrayTraits
 )
+}
 #
 endif
