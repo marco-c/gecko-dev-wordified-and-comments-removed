@@ -1015,16 +1015,6 @@ namespace
 frontend
 {
 bool
-SetStaticLevel
-(
-SharedContext
-*
-sc
-unsigned
-staticLevel
-)
-;
-bool
 GenerateBlockId
 (
 SharedContext
