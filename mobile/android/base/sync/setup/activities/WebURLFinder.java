@@ -474,6 +474,8 @@ URISyntaxException
 e
 )
 {
+continue
+;
 }
 }
 return
