@@ -467,6 +467,10 @@ child_focus_frame
 .
 html
 \
+test_focus_switchbinding
+.
+xul
+\
 (
 NULL
 )
