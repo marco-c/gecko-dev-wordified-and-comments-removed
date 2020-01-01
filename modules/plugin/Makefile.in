@@ -466,10 +466,6 @@ DIRS
 +
 =
 test
-TOOL_DIRS
-+
-=
-sdk
 endif
 endif
 endif
