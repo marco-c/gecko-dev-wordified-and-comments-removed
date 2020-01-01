@@ -1492,6 +1492,8 @@ nsIURI
 aFaviconURI
 bool
 aForceReload
+uint32_t
+aFaviconLoadType
 nsIFaviconDataCallback
 *
 aCallback
@@ -1566,6 +1568,7 @@ aForceReload
 FETCH_ALWAYS
 :
 FETCH_IF_MISSING
+aFaviconLoadType
 aCallback
 )
 ;
@@ -1593,6 +1596,8 @@ nsIURI
 aFaviconURI
 bool
 aForceReload
+uint32_t
+aFaviconLoadType
 nsIFaviconDataCallback
 *
 aCallback
@@ -1604,6 +1609,7 @@ SetAndLoadFaviconForPage
 aPageURI
 aFaviconURI
 aForceReload
+aFaviconLoadType
 aCallback
 )
 ;

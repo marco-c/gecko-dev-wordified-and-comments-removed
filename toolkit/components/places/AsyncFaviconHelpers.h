@@ -331,6 +331,8 @@ aPageURI
 enum
 AsyncFaviconFetchMode
 aFetchMode
+uint32_t
+aFaviconLoadType
 nsIFaviconDataCallback
 *
 aCallback
@@ -344,6 +346,8 @@ aIcon
 PageData
 &
 aPage
+uint32_t
+aFaviconLoadType
 nsCOMPtr
 <
 nsIFaviconDataCallback
@@ -365,6 +369,10 @@ mIcon
 ;
 PageData
 mPage
+;
+const
+bool
+mFaviconLoadPrivate
 ;
 }
 ;
@@ -396,6 +404,8 @@ aIcon
 PageData
 &
 aPage
+bool
+aFaviconLoadPrivate
 nsCOMPtr
 <
 nsIFaviconDataCallback
@@ -423,6 +433,10 @@ nsCOMPtr
 nsIChannel
 >
 mChannel
+;
+const
+bool
+mFaviconLoadPrivate
 ;
 }
 ;
