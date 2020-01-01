@@ -413,8 +413,9 @@ e
 {
 mAsserter
 .
-dumpLog
+ok
 (
+false
 "
 Exception
 while
@@ -422,6 +423,10 @@ replaying
 events
 "
 e
+.
+toString
+(
+)
 )
 ;
 }
