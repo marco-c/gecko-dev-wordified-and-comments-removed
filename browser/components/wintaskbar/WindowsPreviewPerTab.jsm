@@ -1167,7 +1167,7 @@ ctx
 )
 ;
 return
-true
+false
 ;
 }
 previewTabCallback
