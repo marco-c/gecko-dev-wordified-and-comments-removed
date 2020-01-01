@@ -50,6 +50,10 @@ x
 )
 x
 #
+define
+FASTCALL
+__fastcall
+#
 else
 #
 define
@@ -57,8 +61,6 @@ __msvc_only
 (
 x
 )
-#
-endif
 #
 define
 FASTCALL
@@ -68,6 +70,8 @@ __attribute__
 fastcall
 )
 )
+#
+endif
 #
 ifdef
 DEBUG
