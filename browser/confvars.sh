@@ -451,10 +451,8 @@ branding
 nightly
 MOZ_OFFICIAL_BRANDING_DIRECTORY
 =
-other
--
-licenses
+browser
 /
 branding
 /
-firefox
+official

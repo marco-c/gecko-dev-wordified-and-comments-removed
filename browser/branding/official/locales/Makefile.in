@@ -409,13 +409,11 @@ VPATH
 srcdir
 relativesrcdir
 =
-other
--
-licenses
+browser
 /
 branding
 /
-firefox
+official
 /
 locales
 include
