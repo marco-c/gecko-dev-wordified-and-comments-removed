@@ -166,6 +166,16 @@ ImageBridgeParent
 aParent
 )
 ;
+static
+void
+IdentifyCompositorTextureHost
+(
+const
+TextureFactoryIdentifier
+&
+aIdentifier
+)
+;
 void
 BeginTransaction
 (
