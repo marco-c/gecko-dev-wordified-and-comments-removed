@@ -156,11 +156,6 @@ aStylesheet
 )
 ;
 void
-InsertMediaFragmentScript
-(
-)
-;
-void
 UpdateTitleAndCharset
 (
 const
