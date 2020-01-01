@@ -6,7 +6,7 @@ tests
 h
 "
 const
-size_t
+int
 N
 =
 1000
@@ -409,7 +409,7 @@ N
 ;
 for
 (
-size_t
+int
 i
 =
 0
@@ -620,9 +620,6 @@ argv
 ]
 JSVAL_ONE
 )
-;
-return
-true
 ;
 }
 END_TEST
