@@ -503,7 +503,7 @@ source
 mB
 mask
 .
-mA
+mB
 aOffset
 aOptions
 )
