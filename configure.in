@@ -71926,7 +71926,9 @@ libpixman
 src
 )
 '
+"
 CAIRO_FT_LIBS
+"
 if
 test
 "
