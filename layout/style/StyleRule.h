@@ -1359,6 +1359,13 @@ GetDOMRule
 )
 ;
 virtual
+nsIDOMCSSRule
+*
+GetExistingDOMRule
+(
+)
+;
+virtual
 void
 MapRuleInfoInto
 (
