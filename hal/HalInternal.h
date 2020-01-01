@@ -80,6 +80,16 @@ SwitchDevice
 aDevice
 )
 ;
+bool
+EnableAlarm
+(
+)
+;
+void
+DisableAlarm
+(
+)
+;
 }
 }
 #

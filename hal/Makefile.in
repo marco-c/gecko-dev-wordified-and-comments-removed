@@ -219,6 +219,10 @@ FallbackPower
 .
 cpp
 \
+FallbackAlarm
+.
+cpp
+\
 (
 NULL
 )
@@ -285,6 +289,10 @@ FallbackVibration
 .
 cpp
 \
+FallbackAlarm
+.
+cpp
+\
 (
 NULL
 )
@@ -336,6 +344,10 @@ FallbackPower
 .
 cpp
 \
+FallbackAlarm
+.
+cpp
+\
 (
 NULL
 )
@@ -364,6 +376,10 @@ FallbackPower
 cpp
 \
 FallbackScreenConfiguration
+.
+cpp
+\
+FallbackAlarm
 .
 cpp
 \
@@ -419,6 +435,10 @@ FallbackScreenConfiguration
 .
 cpp
 \
+FallbackAlarm
+.
+cpp
+\
 (
 NULL
 )
@@ -460,6 +480,10 @@ FallbackPower
 cpp
 \
 FallbackScreenConfiguration
+.
+cpp
+\
+FallbackAlarm
 .
 cpp
 \
