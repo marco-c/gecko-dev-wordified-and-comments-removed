@@ -710,7 +710,7 @@ PRBool
 aShowPopup
 )
 ;
-void
+PRBool
 ShowList
 (
 nsPresContext
@@ -747,14 +747,6 @@ ActuallyDisplayText
 (
 PRBool
 aNotify
-)
-;
-NS_IMETHOD
-ToggleList
-(
-nsPresContext
-*
-aPresContext
 )
 ;
 nsFrameList
