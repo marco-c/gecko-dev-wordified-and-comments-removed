@@ -284,6 +284,9 @@ nsIURI
 >
 mDefaultIcon
 ;
+bool
+mExpirationRunning
+;
 PRUint32
 mFailedFaviconSerial
 ;
@@ -328,11 +331,6 @@ aPage
 nsIURI
 *
 aFaviconURI
-)
-;
-nsresult
-ExpireAllFavicons
-(
 )
 ;
 friend
