@@ -553,6 +553,16 @@ CleanupWindowEffects
 }
 virtual
 void
+PreRender
+(
+LayerManager
+*
+aManager
+)
+{
+}
+virtual
+void
 DrawWindowUnderlay
 (
 LayerManager
