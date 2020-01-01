@@ -8568,7 +8568,7 @@ label
 =
 "
 &
-tabViewButton
+tabViewButton2
 .
 label
 ;
@@ -8584,7 +8584,7 @@ tooltiptext
 =
 "
 &
-tabViewButton
+tabViewButton2
 .
 tooltip
 ;
