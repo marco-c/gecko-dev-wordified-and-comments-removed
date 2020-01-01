@@ -189,13 +189,6 @@ endif
 #
 include
 "
-jsdbgapi
-.
-h
-"
-#
-include
-"
 jsxdrapi
 .
 h
@@ -1960,11 +1953,6 @@ mContext
 )
 return
 NS_ERROR_OUT_OF_MEMORY
-;
-JS_FlagSystemContext
-(
-mContext
-)
 ;
 uint32
 options
