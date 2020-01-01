@@ -25320,8 +25320,10 @@ mColor
 .
 mBackClip
 .
-SetInitialValue
+SetIntValue
 (
+NS_STYLE_BG_CLIP_BORDER
+eCSSUnit_Enumerated
 )
 ;
 mTempData
@@ -25337,8 +25339,10 @@ mColor
 .
 mBackOrigin
 .
-SetInitialValue
+SetIntValue
 (
+NS_STYLE_BG_ORIGIN_PADDING
+eCSSUnit_Enumerated
 )
 ;
 mTempData
@@ -25354,8 +25358,10 @@ mColor
 .
 mBackInlinePolicy
 .
-SetInitialValue
+SetIntValue
 (
+NS_STYLE_BG_INLINE_POLICY_CONTINUOUS
+eCSSUnit_Enumerated
 )
 ;
 mTempData
