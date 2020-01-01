@@ -695,10 +695,6 @@ aBuilder
 nsIRenderingContext
 *
 aCtx
-const
-nsRect
-&
-aDirtyRect
 )
 ;
 NS_DISPLAY_DECL_NAME
@@ -721,10 +717,6 @@ aBuilder
 nsIRenderingContext
 *
 aCtx
-const
-nsRect
-&
-aDirtyRect
 )
 {
 static_cast
@@ -748,7 +740,7 @@ ToReferenceFrame
 (
 mFrame
 )
-aDirtyRect
+mVisibleRect
 )
 ;
 }

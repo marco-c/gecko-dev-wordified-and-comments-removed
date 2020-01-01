@@ -613,10 +613,6 @@ aBuilder
 nsIRenderingContext
 *
 aCtx
-const
-nsRect
-&
-aDirtyRect
 )
 {
 nsListControlFrame

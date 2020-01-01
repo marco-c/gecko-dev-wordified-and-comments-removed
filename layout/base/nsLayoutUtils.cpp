@@ -5143,7 +5143,7 @@ aDirtyRegion
 ;
 list
 .
-OptimizeVisibility
+ComputeVisibility
 (
 &
 builder
@@ -5195,11 +5195,6 @@ Paint
 &
 builder
 aRenderingContext
-aDirtyRegion
-.
-GetBounds
-(
-)
 )
 ;
 list
@@ -5958,7 +5953,7 @@ aUpdateRect
 ;
 list
 .
-OptimizeVisibility
+ComputeVisibility
 (
 &
 builder

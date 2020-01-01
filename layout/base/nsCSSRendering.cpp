@@ -14545,6 +14545,12 @@ aDirtyRect
 aAppUnitsPerDevPixel
 )
 ;
+dirtyRect
+.
+RoundOut
+(
+)
+;
 mContext
 =
 blur

@@ -9950,7 +9950,7 @@ bounds
 ;
 list
 .
-OptimizeVisibility
+ComputeVisibility
 (
 &
 builder

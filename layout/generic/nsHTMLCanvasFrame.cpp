@@ -127,10 +127,6 @@ aBuilder
 nsIRenderingContext
 *
 aCtx
-const
-nsRect
-&
-aDirtyRect
 )
 {
 nsHTMLCanvasFrame
@@ -155,7 +151,7 @@ PaintCanvas
 (
 *
 aCtx
-aDirtyRect
+mVisibleRect
 aBuilder
 -
 >

@@ -1193,10 +1193,6 @@ aBuilder
 nsIRenderingContext
 *
 aCtx
-const
-nsRect
-&
-aDirtyRect
 )
 ;
 virtual
@@ -1228,10 +1224,6 @@ aBuilder
 nsIRenderingContext
 *
 aCtx
-const
-nsRect
-&
-aDirtyRect
 )
 {
 static_cast
@@ -1248,7 +1240,7 @@ PaintTitle
 (
 *
 aCtx
-aDirtyRect
+mVisibleRect
 aBuilder
 -
 >

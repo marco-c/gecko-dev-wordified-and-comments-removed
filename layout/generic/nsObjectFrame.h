@@ -746,15 +746,11 @@ aBuilder
 nsIRenderingContext
 *
 aCtx
-const
-nsRect
-&
-aDirtyRect
 )
 ;
 virtual
 PRBool
-OptimizeVisibility
+ComputeVisibility
 (
 nsDisplayListBuilder
 *

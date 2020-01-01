@@ -303,10 +303,6 @@ aBuilder
 nsIRenderingContext
 *
 aCtx
-const
-nsRect
-&
-aDirtyRect
 )
 ;
 virtual
@@ -372,10 +368,6 @@ aBuilder
 nsIRenderingContext
 *
 aCtx
-const
-nsRect
-&
-aDirtyRect
 )
 {
 nsRect
@@ -425,7 +417,7 @@ PresContext
 aCtx
 mFrame
 buttonRect
-aDirtyRect
+mVisibleRect
 )
 ;
 }
@@ -510,10 +502,6 @@ aBuilder
 nsIRenderingContext
 *
 aCtx
-const
-nsRect
-&
-aDirtyRect
 )
 ;
 NS_DISPLAY_DECL_NAME
@@ -592,10 +580,6 @@ aBuilder
 nsIRenderingContext
 *
 aCtx
-const
-nsRect
-&
-aDirtyRect
 )
 ;
 NS_DISPLAY_DECL_NAME
@@ -624,10 +608,6 @@ aBuilder
 nsIRenderingContext
 *
 aCtx
-const
-nsRect
-&
-aDirtyRect
 )
 {
 NS_ASSERTION
@@ -679,7 +659,7 @@ PaintBorderAndBackground
 pc
 *
 aCtx
-aDirtyRect
+mVisibleRect
 r
 aBuilder
 -
@@ -702,10 +682,6 @@ aBuilder
 nsIRenderingContext
 *
 aCtx
-const
-nsRect
-&
-aDirtyRect
 )
 {
 nsPresContext
@@ -791,7 +767,7 @@ PaintOutlineAndFocusBorders
 presContext
 *
 aCtx
-aDirtyRect
+mVisibleRect
 r
 )
 ;
