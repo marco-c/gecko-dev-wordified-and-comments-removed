@@ -4281,11 +4281,6 @@ id
 "
 menu_styleeditor
 "
-type
-=
-"
-checkbox
-"
 hidden
 =
 "
