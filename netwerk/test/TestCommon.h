@@ -72,6 +72,7 @@ nsQuitPumpingEvent
 nsIRunnable
 )
 static
+inline
 void
 PumpEvents
 (
@@ -107,6 +108,7 @@ thread
 ;
 }
 static
+inline
 void
 QuitPumpingEvents
 (
