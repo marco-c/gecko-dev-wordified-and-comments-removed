@@ -23895,13 +23895,6 @@ childItems
 PR_FALSE
 )
 ;
-if
-(
-childItems
-.
-childList
-)
-{
 newFrame
 -
 >
@@ -23913,7 +23906,6 @@ childItems
 childList
 )
 ;
-}
 }
 if
 (
