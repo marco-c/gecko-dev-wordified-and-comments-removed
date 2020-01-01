@@ -738,6 +738,14 @@ chrome_context_menus_win
 .
 xul
 \
+test_mouse_scroll
+.
+xul
+\
+window_mouse_scroll_win
+.
+html
+\
 (
 NULL
 )
