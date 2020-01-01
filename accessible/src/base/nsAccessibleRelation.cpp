@@ -46,7 +46,6 @@ NS_IMPL_ISUPPORTS1
 nsAccessibleRelation
 nsIAccessibleRelation
 )
-;
 NS_IMETHODIMP
 nsAccessibleRelation
 :
