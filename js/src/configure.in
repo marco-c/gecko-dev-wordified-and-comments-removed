@@ -31513,8 +31513,6 @@ ac_cv_attribute_always_inline
 AC_TRY_COMPILE
 (
 [
-]
-[
 inline
 void
 f
@@ -31528,6 +31526,8 @@ always_inline
 )
 )
 ;
+]
+[
 ]
 ac_cv_attribute_always_inline
 =
@@ -31552,8 +31552,6 @@ ac_cv_attribute_malloc
 AC_TRY_COMPILE
 (
 [
-]
-[
 void
 *
 f
@@ -31567,6 +31565,8 @@ malloc
 )
 )
 ;
+]
+[
 ]
 ac_cv_attribute_malloc
 =
@@ -31591,8 +31591,6 @@ ac_cv_attribute_warn_unused
 AC_TRY_COMPILE
 (
 [
-]
-[
 int
 f
 (
@@ -31605,6 +31603,8 @@ warn_unused_result
 )
 )
 ;
+]
+[
 ]
 ac_cv_attribute_warn_unused
 =
@@ -31629,8 +31629,6 @@ ac_cv_attribute_noreturn
 AC_TRY_COMPILE
 (
 [
-]
-[
 void
 f
 (
@@ -31643,6 +31641,8 @@ noreturn
 )
 )
 ;
+]
+[
 ]
 ac_cv_attribute_noreturn
 =
