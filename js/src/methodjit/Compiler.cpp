@@ -2368,16 +2368,6 @@ return
 status
 ;
 }
-else
-{
-newa
--
->
-varTypes
-=
-NULL
-;
-}
 this
 -
 >
@@ -3008,6 +2998,10 @@ uint32
 -
 1
 )
+)
+varTypes
+(
+NULL
 )
 needReturnValue
 (
