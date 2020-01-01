@@ -1516,11 +1516,9 @@ showAlert
 let
 name
 =
-this
+aFile
 .
-dataItem
-.
-target
+leafName
 ;
 let
 message
