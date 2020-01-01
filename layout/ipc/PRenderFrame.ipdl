@@ -112,15 +112,6 @@ include
 protocol
 PLayers
 ;
-using
-mozilla
-:
-:
-layers
-:
-:
-LayersBackend
-;
 namespace
 mozilla
 {

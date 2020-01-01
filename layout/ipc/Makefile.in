@@ -112,6 +112,10 @@ RenderFrameParent
 .
 h
 \
+RenderFrameUtils
+.
+h
+\
 (
 NULL
 )
