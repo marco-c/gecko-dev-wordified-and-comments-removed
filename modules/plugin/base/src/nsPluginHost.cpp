@@ -1626,6 +1626,9 @@ nsnull
 nsresult
 InitializeFullPage
 (
+nsIURI
+*
+aURL
 nsIPluginInstance
 *
 aInstance
@@ -3050,6 +3053,9 @@ nsPluginStreamListenerPeer
 :
 InitializeFullPage
 (
+nsIURI
+*
+aURL
 nsIPluginInstance
 *
 aInstance
@@ -3096,6 +3102,10 @@ nsnull
 mInstance
 =
 aInstance
+;
+mURL
+=
+aURL
 ;
 mDataForwardToRequest
 =
@@ -9781,6 +9791,7 @@ mIsJavaPlugin
 NewFullPagePluginStream
 (
 aStreamListener
+aURI
 instance
 )
 ;
@@ -9895,6 +9906,7 @@ rv
 NewFullPagePluginStream
 (
 aStreamListener
+aURI
 instance
 )
 ;
@@ -19641,6 +19653,9 @@ nsIStreamListener
 *
 &
 aStreamListener
+nsIURI
+*
+aURI
 nsIPluginInstance
 *
 aInstance
@@ -19673,6 +19688,7 @@ listener
 >
 InitializeFullPage
 (
+aURI
 aInstance
 )
 ;

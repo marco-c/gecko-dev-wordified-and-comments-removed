@@ -652,6 +652,9 @@ nsIStreamListener
 *
 &
 aStreamListener
+nsIURI
+*
+aURI
 nsIPluginInstance
 *
 aInstance
