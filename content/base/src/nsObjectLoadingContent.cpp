@@ -13006,16 +13006,8 @@ this
 )
 )
 ;
-JSContext
-*
+AutoSafeJSContext
 cx
-=
-nsContentUtils
-:
-:
-GetSafeJSContext
-(
-)
 ;
 JS
 :
