@@ -2872,6 +2872,16 @@ return
 this
 ;
 }
+MIRType
+specialization
+(
+)
+const
+{
+return
+specialization_
+;
+}
 void
 infer
 (
