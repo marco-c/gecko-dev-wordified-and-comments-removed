@@ -444,6 +444,10 @@ mk
 _TEST_FILES
 =
 \
+test_animLengthRelativeUnits
+.
+xhtml
+\
 test_animLengthUnits
 .
 xhtml
