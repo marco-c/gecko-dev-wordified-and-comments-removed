@@ -5367,7 +5367,6 @@ X86Registers
 :
 :
 edx
-true
 )
 ;
 if
