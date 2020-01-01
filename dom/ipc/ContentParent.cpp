@@ -2671,9 +2671,14 @@ prefNeedUpdate
 PrefTuple
 pref
 ;
+#
+ifdef
+DEBUG
 nsresult
 rv
 =
+#
+endif
 prefService
 -
 >
