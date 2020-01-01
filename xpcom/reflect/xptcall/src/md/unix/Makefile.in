@@ -2055,6 +2055,7 @@ ifneq
 (
 (
 filter
+hppa
 hppa2
 .
 0
