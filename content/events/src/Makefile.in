@@ -309,6 +309,10 @@ nsDOMCompositionEvent
 .
 cpp
 \
+nsDOMApplicationEvent
+.
+cpp
+\
 (
 NULL
 )
