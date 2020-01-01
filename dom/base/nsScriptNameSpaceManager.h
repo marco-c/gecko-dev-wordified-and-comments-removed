@@ -145,8 +145,9 @@ mozilla
 dom
 :
 :
-PrefEnabled
-mPrefEnabled
+ConstructorEnabled
+*
+mConstructorEnabled
 ;
 }
 ;
@@ -348,8 +349,9 @@ mozilla
 dom
 :
 :
-PrefEnabled
-aPrefEnabled
+ConstructorEnabled
+*
+aConstructorEnabled
 )
 ;
 void
@@ -373,8 +375,9 @@ mozilla
 dom
 :
 :
-PrefEnabled
-aPrefEnabled
+ConstructorEnabled
+*
+aConstructorEnabled
 )
 ;
 typedef

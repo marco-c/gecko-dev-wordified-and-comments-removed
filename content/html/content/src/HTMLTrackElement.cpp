@@ -569,8 +569,15 @@ return
 HTMLTrackElementBinding
 :
 :
-PrefEnabled
+ConstructorEnabled
 (
+nullptr
+JS
+:
+:
+NullPtr
+(
+)
 )
 ;
 }
