@@ -438,16 +438,6 @@ tier_app_dirs
 (
 MOZ_BRANDING_DIRECTORY
 )
-tier_app_dirs
-+
-=
-toolkit
-/
-components
-/
-console
-/
-hudservice
 ifdef
 MOZ_SERVICES_SYNC
 tier_app_dirs
