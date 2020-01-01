@@ -1878,7 +1878,7 @@ GetDocument
 >
 FlushPendingNotifications
 (
-Flush_OnlyReflow
+Flush_Layout
 )
 ;
 if
@@ -1891,16 +1891,6 @@ IsAlive
 )
 )
 {
-NS_ERROR
-(
-"
-Flush_OnlyReflow
-destroyed
-the
-frame
-"
-)
-;
 return
 PR_FALSE
 ;

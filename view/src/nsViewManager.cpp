@@ -4368,8 +4368,10 @@ if
 didResize
 )
 {
+nsRefPtr
+<
 nsViewManager
-*
+>
 rootVM
 =
 RootViewManager

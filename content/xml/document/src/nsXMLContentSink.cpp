@@ -6662,8 +6662,9 @@ mInNotification
 if
 (
 aType
-&
-Flush_SinkNotifications
+>
+=
+Flush_ContentAndNotify
 )
 {
 FlushTags
@@ -6681,8 +6682,9 @@ FlushText
 if
 (
 aType
-&
-Flush_OnlyReflow
+>
+=
+Flush_Layout
 )
 {
 MaybeStartLayout

@@ -7864,7 +7864,7 @@ GetPresShell
 >
 FlushPendingNotifications
 (
-Flush_OnlyReflow
+Flush_Layout
 )
 ;
 }
