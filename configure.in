@@ -46336,6 +46336,7 @@ VPX_X86_ASM
 VPX_AS
 =
 '
+sh
 (
 topsrcdir
 )
