@@ -48,9 +48,6 @@ nsIEnumerator
 h
 "
 #
-ifdef
-MOZ_RDF
-#
 include
 "
 nsIRDFService
@@ -71,8 +68,6 @@ rdf
 .
 h
 "
-#
-endif
 #
 include
 "
@@ -275,9 +270,6 @@ FORMAT_XUL
 =
 3
 ;
-#
-ifdef
-MOZ_RDF
 static
 NS_DEFINE_CID
 (
@@ -285,8 +277,6 @@ kRDFServiceCID
 NS_RDFSERVICE_CID
 )
 ;
-#
-endif
 static
 const
 char
@@ -301,9 +291,6 @@ ftp
 /
 "
 ;
-#
-ifdef
-MOZ_RDF
 NS_INTERFACE_MAP_BEGIN_CYCLE_COLLECTION
 (
 nsHTTPIndex
@@ -5520,8 +5507,6 @@ rv
 )
 ;
 }
-#
-endif
 nsDirectoryViewerFactory
 :
 :
@@ -5601,9 +5586,6 @@ source
 0
 )
 ;
-#
-ifdef
-MOZ_RDF
 if
 (
 !
@@ -5993,8 +5975,6 @@ return
 NS_OK
 ;
 }
-#
-endif
 (
 void
 )

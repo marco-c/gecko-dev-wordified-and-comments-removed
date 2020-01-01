@@ -70,9 +70,6 @@ h
 #
 endif
 #
-ifdef
-MOZ_RDF
-#
 include
 "
 nsDownloadManager
@@ -100,8 +97,6 @@ rdf
 .
 h
 "
-#
-endif
 #
 include
 "
@@ -202,9 +197,6 @@ nsAlertsService
 )
 #
 endif
-#
-ifdef
-MOZ_RDF
 NS_GENERIC_FACTORY_SINGLETON_CONSTRUCTOR
 (
 nsDownloadManager
@@ -217,8 +209,6 @@ NS_GENERIC_FACTORY_CONSTRUCTOR
 (
 nsDownloadProxy
 )
-#
-endif
 NS_GENERIC_FACTORY_CONSTRUCTOR
 (
 nsTypeAheadFind
@@ -367,9 +357,6 @@ NS_PARENTALCONTROLSSERVICE_CID
 ;
 #
 endif
-#
-ifdef
-MOZ_RDF
 NS_DEFINE_NAMED_CID
 (
 NS_DOWNLOADMANAGER_CID
@@ -380,8 +367,6 @@ NS_DEFINE_NAMED_CID
 NS_DOWNLOAD_CID
 )
 ;
-#
-endif
 NS_DEFINE_NAMED_CID
 (
 NS_FIND_SERVICE_CID
@@ -499,9 +484,6 @@ nsParentalControlsServiceWinConstructor
 }
 #
 endif
-#
-ifdef
-MOZ_RDF
 {
 &
 kNS_DOWNLOADMANAGER_CID
@@ -516,8 +498,6 @@ false
 NULL
 nsDownloadProxyConstructor
 }
-#
-endif
 {
 &
 kNS_FIND_SERVICE_CID
@@ -650,9 +630,6 @@ kNS_PARENTALCONTROLSSERVICE_CID
 }
 #
 endif
-#
-ifdef
-MOZ_RDF
 {
 NS_DOWNLOADMANAGER_CONTRACTID
 &
@@ -663,8 +640,6 @@ NS_TRANSFER_CONTRACTID
 &
 kNS_DOWNLOAD_CID
 }
-#
-endif
 {
 NS_FIND_SERVICE_CONTRACTID
 &
