@@ -3815,6 +3815,10 @@ media
 -
 >
 payloads
+media
+-
+>
+setup
 FSM_NEGOTIATED_CRYPTO_DIGEST_ALGORITHM
 (
 media
@@ -5054,6 +5058,10 @@ payloads
 short
 )
 dscp
+media
+-
+>
+setup
 FSM_NEGOTIATED_CRYPTO_DIGEST_ALGORITHM
 (
 media

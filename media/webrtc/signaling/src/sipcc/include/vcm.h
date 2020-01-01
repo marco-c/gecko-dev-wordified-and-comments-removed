@@ -838,6 +838,8 @@ const
 vcm_payload_info_t
 *
 payloads
+sdp_setup_type_e
+setup_type
 const
 char
 *
@@ -915,6 +917,8 @@ vcm_payload_info_t
 payload
 short
 tos
+sdp_setup_type_e
+setup_type
 const
 char
 *

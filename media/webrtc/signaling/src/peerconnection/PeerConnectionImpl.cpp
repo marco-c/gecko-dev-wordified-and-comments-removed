@@ -1753,10 +1753,6 @@ create_timecard
 :
 nullptr
 )
-mRole
-(
-kRoleUnknown
-)
 mCall
 (
 NULL
@@ -4961,10 +4957,6 @@ Offer
 "
 )
 ;
-mRole
-=
-kRoleOfferer
-;
 cc_media_constraints_t
 *
 cc_constraints
@@ -5082,10 +5074,6 @@ Create
 Answer
 "
 )
-;
-mRole
-=
-kRoleAnswerer
 ;
 cc_media_constraints_t
 *
