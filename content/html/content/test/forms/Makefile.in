@@ -242,6 +242,10 @@ classes
 .
 html
 \
+test_max_attribute
+.
+html
+\
 (
 NULL
 )
