@@ -2427,6 +2427,11 @@ libssl3
 so
 bin
 /
+libnssdbm3
+.
+so
+bin
+/
 chrome
 /
 pipnss

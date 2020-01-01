@@ -2332,6 +2332,11 @@ ssl3
 dll
 bin
 \
+nssdbm3
+.
+dll
+bin
+\
 chrome
 \
 pippki
