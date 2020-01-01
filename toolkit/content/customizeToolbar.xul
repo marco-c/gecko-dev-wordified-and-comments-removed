@@ -930,6 +930,14 @@ updateIconSize
 this
 .
 checked
+?
+'
+small
+'
+:
+'
+large
+'
 )
 ;
 "
