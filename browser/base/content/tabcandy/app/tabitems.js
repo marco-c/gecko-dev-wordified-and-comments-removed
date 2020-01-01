@@ -1566,9 +1566,7 @@ reconnect
 item
 )
 ;
-tab
-.
-mirror
+who
 .
 removeSubscriber
 (

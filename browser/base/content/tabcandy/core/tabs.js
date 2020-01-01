@@ -1629,12 +1629,6 @@ browser
 "
 )
 ;
-Utils
-.
-log
-(
-trackedWindows
-)
 if
 (
 chromeWindow
@@ -2201,8 +2195,6 @@ eventType
 {
 tabbrowser
 .
-tabContainer
-.
 addEventListener
 (
 eventType
@@ -2283,8 +2275,6 @@ eventType
 )
 {
 tabbrowser
-.
-tabContainer
 .
 removeEventListener
 (
