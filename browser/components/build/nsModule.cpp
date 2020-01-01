@@ -544,6 +544,14 @@ permissions
 &
 kNS_BROWSER_ABOUT_REDIRECTOR_CID
 }
+{
+NS_ABOUT_MODULE_CONTRACTID_PREFIX
+"
+preferences
+"
+&
+kNS_BROWSER_ABOUT_REDIRECTOR_CID
+}
 #
 if
 defined

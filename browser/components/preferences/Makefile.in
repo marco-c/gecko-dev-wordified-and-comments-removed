@@ -450,6 +450,16 @@ config
 autoconf
 .
 mk
+PARALLEL_DIRS
+=
+\
+in
+-
+content
+\
+(
+NULL
+)
 TEST_DIRS
 +
 =
