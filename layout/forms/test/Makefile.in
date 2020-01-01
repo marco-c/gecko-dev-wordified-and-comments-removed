@@ -482,6 +482,10 @@ test_bug477700
 .
 html
 \
+test_textarea_resize
+.
+html
+\
 test_bug478219
 .
 xhtml
