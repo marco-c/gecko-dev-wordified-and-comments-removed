@@ -440,7 +440,10 @@ HasGeolocationProvider
 {
 NotifyError
 (
-NS_GEO_ERROR_CODE_LOCATION_PROVIDER_ERROR
+nsIDOMGeoPositionError
+:
+:
+POSITION_UNAVAILABLE
 )
 ;
 return
@@ -535,7 +538,10 @@ mHasSentData
 {
 NotifyError
 (
-NS_GEO_ERROR_CODE_TIMEOUT
+nsIDOMGeoPositionError
+:
+:
+TIMEOUT
 )
 ;
 mLocator
@@ -639,7 +645,10 @@ Cancel
 {
 NotifyError
 (
-NS_GEO_ERROR_CODE_PERMISSION_ERROR
+nsIDOMGeoPositionError
+:
+:
+PERMISSION_DENIED
 )
 ;
 mLocator
@@ -695,7 +704,10 @@ rv
 {
 NotifyError
 (
-NS_GEO_ERROR_CODE_LOCATION_PROVIDER_ERROR
+nsIDOMGeoPositionError
+:
+:
+POSITION_UNAVAILABLE
 )
 ;
 return
