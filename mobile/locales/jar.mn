@@ -255,7 +255,7 @@ global
 /
 locale
 /
-netErrorApp
+netError
 .
 dtd
 chrome
