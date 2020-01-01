@@ -183,6 +183,16 @@ LoadSlotT
 \
 _
 (
+StoreSlotV
+)
+\
+_
+(
+StoreSlotT
+)
+\
+_
+(
 GuardShape
 )
 \

@@ -852,6 +852,14 @@ JSAtom
 atom
 )
 ;
+bool
+jsop_setgname
+(
+JSAtom
+*
+atom
+)
+;
 public
 :
 JSScript

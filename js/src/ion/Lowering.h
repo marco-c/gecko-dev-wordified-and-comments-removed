@@ -443,6 +443,14 @@ ins
 )
 ;
 bool
+visitStoreSlot
+(
+MStoreSlot
+*
+ins
+)
+;
+bool
 visitTypeBarrier
 (
 MTypeBarrier

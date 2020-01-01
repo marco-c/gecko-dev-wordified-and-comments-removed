@@ -148,6 +148,7 @@ pobj
 >
 nativeContains
 (
+cx
 *
 shape
 )
@@ -423,6 +424,9 @@ break
 }
 if
 (
+false
+&
+&
 !
 pobj
 -
@@ -516,13 +520,14 @@ JSFunction
 *
 fun
 =
-GET_FUNCTION_PRIVATE
-(
-cx
 JSVAL_TO_OBJECT
 (
 v
 )
+-
+>
+getFunctionPrivate
+(
 )
 ;
 JSAutoByteString
@@ -1614,6 +1619,7 @@ pobj
 >
 nativeContains
 (
+cx
 id
 )
 )
@@ -2186,7 +2192,7 @@ entry
 {
 if
 (
-JS_UPTRDIFF
+UnsignedPtrDiff
 (
 entry
 -
