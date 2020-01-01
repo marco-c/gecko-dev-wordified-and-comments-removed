@@ -19,7 +19,9 @@ JSContext
 cx
 jsval
 v
-JSMutableHandleObject
+JSObject
+*
+*
 obj
 )
 ;
@@ -75,8 +77,11 @@ C_ValueToObject
 (
 cx
 v
-&
 obj
+.
+address
+(
+)
 )
 )
 ;
