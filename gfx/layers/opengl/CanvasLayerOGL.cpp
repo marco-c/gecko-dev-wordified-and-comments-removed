@@ -410,10 +410,6 @@ ioSurface
 CGLTexImageIOSurface2D
 (
 nativeCtx
-LOCAL_GL_RGBA
-LOCAL_GL_BGRA
-LOCAL_GL_UNSIGNED_INT_8_8_8_8_REV
-0
 )
 ;
 aGL
