@@ -2055,6 +2055,12 @@ finalize
 (
 )
 {
+inflateEnd
+(
+&
+zStream
+)
+;
 buffer
 =
 NULL
