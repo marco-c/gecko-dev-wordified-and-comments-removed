@@ -1846,6 +1846,12 @@ false
 ;
 docShell
 .
+allowMedia
+=
+false
+;
+docShell
+.
 allowWindowControl
 =
 false
