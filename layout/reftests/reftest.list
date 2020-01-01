@@ -1955,10 +1955,6 @@ include
 /
 xul
 /
-base
-/
-src
-/
 grid
 /
 reftests

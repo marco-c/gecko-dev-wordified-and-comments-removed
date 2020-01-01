@@ -669,10 +669,6 @@ layout
 /
 xul
 /
-base
-/
-src
-/
 grid
 /
 crashtests
@@ -691,13 +687,7 @@ layout
 /
 xul
 /
-base
-/
-src
-/
 tree
-/
-src
 /
 crashtests
 /

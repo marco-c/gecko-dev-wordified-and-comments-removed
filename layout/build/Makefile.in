@@ -2128,13 +2128,7 @@ SHARED_LIBRARY_LIBS
 /
 xul
 /
-base
-/
-src
-/
 tree
-/
-src
 /
 (
 LIB_PREFIX
@@ -2149,10 +2143,6 @@ LIB_SUFFIX
 .
 /
 xul
-/
-base
-/
-src
 /
 grid
 /

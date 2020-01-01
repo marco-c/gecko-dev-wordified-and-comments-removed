@@ -522,13 +522,8 @@ layout
 /
 xul
 /
-base
-/
-src
-/
 tree
 /
-src
 \
 (
 NULL
