@@ -875,6 +875,8 @@ tileX
 ;
 int
 tileY
+=
+0
 ;
 for
 (
