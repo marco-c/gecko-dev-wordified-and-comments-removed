@@ -671,6 +671,10 @@ test_mousecapture
 .
 xul
 \
+test_mousecapture_area
+.
+html
+\
 test_focus
 .
 xul
