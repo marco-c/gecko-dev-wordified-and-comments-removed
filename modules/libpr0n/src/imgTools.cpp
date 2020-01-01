@@ -854,6 +854,14 @@ rv
 rv
 )
 ;
+if
+(
+!
+frame
+)
+return
+NS_ERROR_NOT_AVAILABLE
+;
 PRInt32
 w
 h
