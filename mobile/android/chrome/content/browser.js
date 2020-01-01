@@ -6229,6 +6229,7 @@ if
 doc
 )
 return
+null
 ;
 let
 focused
