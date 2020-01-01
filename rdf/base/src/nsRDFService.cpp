@@ -2277,11 +2277,10 @@ rv
 *
 result
 =
-LL_EQ
-(
 p
+=
+=
 mValue
-)
 ;
 return
 NS_OK
