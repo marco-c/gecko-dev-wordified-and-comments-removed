@@ -434,10 +434,6 @@ nsIStringCharsetDetector
 .
 h
 \
-nsXMLEncodingCID
-.
-h
-\
 (
 NULL
 )
