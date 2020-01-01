@@ -188,6 +188,14 @@ MAKE_VERSION
 }
 {
 "
+radhslib
+.
+dll
+"
+UNVERSIONED
+}
+{
+"
 mozdllblockingtest
 .
 dll
