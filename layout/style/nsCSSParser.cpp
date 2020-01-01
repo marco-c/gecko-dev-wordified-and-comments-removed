@@ -40129,14 +40129,8 @@ nsnull
 )
 y
 .
-SetColorValue
+SetNoneValue
 (
-NS_RGB
-(
-0
-0
-0
-)
 )
 ;
 }
