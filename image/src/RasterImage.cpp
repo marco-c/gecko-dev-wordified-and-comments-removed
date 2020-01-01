@@ -11048,7 +11048,7 @@ mWantFullDecode
 true
 ;
 return
-NS_ERROR_NOT_AVAILABLE
+NS_OK
 ;
 }
 }
@@ -13614,6 +13614,12 @@ NS_SUCCEEDED
 (
 rv
 )
+&
+&
+aIntent
+!
+=
+eShutdownIntent_Error
 &
 &
 done
