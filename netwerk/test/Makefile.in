@@ -424,6 +424,8 @@ test_necko
 DIRS
 =
 \
+chrome
+\
 httpserver
 \
 (
