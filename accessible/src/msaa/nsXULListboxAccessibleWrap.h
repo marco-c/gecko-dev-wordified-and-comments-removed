@@ -40,9 +40,9 @@ nsXULListboxAccessibleWrap
 nsIContent
 *
 aContent
-nsIWeakReference
+nsDocAccessible
 *
-aShell
+aDoc
 )
 ;
 DECL_IUNKNOWN_INHERITED
@@ -64,9 +64,9 @@ nsXULListCellAccessibleWrap
 nsIContent
 *
 aContent
-nsIWeakReference
+nsDocAccessible
 *
-aShell
+aDoc
 )
 ;
 DECL_IUNKNOWN_INHERITED
