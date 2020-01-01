@@ -98,7 +98,7 @@ case
 IonFrame_OptimizedJS
 :
 case
-IonFrame_Bailed_JS
+IonFrame_Unwound_OptimizedJS
 :
 return
 IonJSFrameLayout
@@ -131,10 +131,10 @@ Size
 )
 ;
 case
-IonFrame_Bailed_Rectifier
+IonFrame_Unwound_Rectifier
 :
 return
-IonBailedRectifierFrameLayout
+IonUnwoundRectifierFrameLayout
 :
 :
 Size
