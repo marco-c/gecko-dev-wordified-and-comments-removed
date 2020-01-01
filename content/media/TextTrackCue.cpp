@@ -74,9 +74,10 @@ mozilla
 namespace
 dom
 {
-NS_IMPL_CYCLE_COLLECTION_WRAPPERCACHE_4
+NS_IMPL_CYCLE_COLLECTION_INHERITED_4
 (
 TextTrackCue
+nsDOMEventTargetHelper
 mDocument
 mTrack
 mTrackElement

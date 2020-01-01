@@ -26,9 +26,10 @@ mozilla
 namespace
 dom
 {
-NS_IMPL_CYCLE_COLLECTION_WRAPPERCACHE_3
+NS_IMPL_CYCLE_COLLECTION_INHERITED_3
 (
 TextTrack
+nsDOMEventTargetHelper
 mParent
 mCueList
 mActiveCueList

@@ -26,9 +26,10 @@ mozilla
 namespace
 dom
 {
-NS_IMPL_CYCLE_COLLECTION_WRAPPERCACHE_2
+NS_IMPL_CYCLE_COLLECTION_INHERITED_2
 (
 TextTrackList
+nsDOMEventTargetHelper
 mGlobal
 mTextTracks
 )
