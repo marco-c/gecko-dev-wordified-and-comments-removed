@@ -331,6 +331,10 @@ HTMLSpanElement
 .
 webidl
 \
+HTMLTableElement
+.
+webidl
+\
 HTMLTitleElement
 .
 webidl
