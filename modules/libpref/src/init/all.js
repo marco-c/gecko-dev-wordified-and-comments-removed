@@ -13429,7 +13429,7 @@ pref
 "
 dom
 .
-promise
+future
 .
 enabled
 "
@@ -13443,7 +13443,7 @@ pref
 "
 dom
 .
-promise
+future
 .
 enabled
 "
