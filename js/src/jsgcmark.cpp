@@ -2776,6 +2776,9 @@ name
 ;
 }
 }
+#
+ifdef
+DEBUG
 static
 void
 PrintPropertyMethod
@@ -2875,6 +2878,8 @@ method
 )
 ;
 }
+#
+endif
 static
 inline
 void

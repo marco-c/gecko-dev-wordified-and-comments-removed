@@ -325,6 +325,13 @@ h
 #
 include
 "
+jsregexpinlines
+.
+h
+"
+#
+include
+"
 jstypedarrayinlines
 .
 h
