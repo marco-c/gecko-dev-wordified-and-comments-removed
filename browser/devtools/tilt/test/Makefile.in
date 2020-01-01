@@ -572,6 +572,10 @@ browser_tilt_visualizer
 .
 js
 \
+browser_tilt_zoom
+.
+js
+\
 (
 NULL
 )
