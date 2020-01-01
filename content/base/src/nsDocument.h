@@ -1247,6 +1247,7 @@ aKey
 )
 {
 return
+(
 NS_PTR_TO_INT32
 (
 aKey
@@ -1257,13 +1258,16 @@ mCallback
 >
 >
 2
-+
+)
+^
+(
 NS_PTR_TO_INT32
 (
 aKey
 -
 >
 mData
+)
 )
 ;
 }
