@@ -2099,12 +2099,6 @@ mozIStorageStatement
 >
 mDBAutoCompleteQuery
 ;
-nsCOMPtr
-<
-mozIStorageStatement
->
-mDBTagAutoCompleteQuery
-;
 nsresult
 InitAutoComplete
 (
