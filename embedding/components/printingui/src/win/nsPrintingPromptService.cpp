@@ -226,10 +226,6 @@ printPageSetup
 xul
 "
 ;
-static
-HINSTANCE
-gInstance
-;
 class
 ParamBlock
 {
@@ -364,11 +360,6 @@ nsCOMPtr
 nsIWebBrowserChrome
 >
 chrome
-;
-HWND
-hWnd
-=
-NULL
 ;
 if
 (
