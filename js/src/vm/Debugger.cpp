@@ -8233,7 +8233,10 @@ e
 }
 for
 (
-CompartmentsIter
+gc
+:
+:
+GCCompartmentsIter
 comp
 (
 rt
