@@ -109,6 +109,16 @@ nsHTMLTokenizer
 (
 )
 ;
+static
+PRUint32
+GetFlags
+(
+const
+nsIContentSink
+*
+aSink
+)
+;
 protected
 :
 nsresult
