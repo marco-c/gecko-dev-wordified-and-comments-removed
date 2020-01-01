@@ -1979,6 +1979,9 @@ mTvr
 }
 private
 :
+#
+ifndef
+AIX
 static
 void
 *
@@ -1998,6 +2001,8 @@ void
 size_t
 )
 ;
+#
+endif
 JSContext
 *
 mContext
