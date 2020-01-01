@@ -14754,6 +14754,17 @@ if
 HasShadowManager
 (
 )
+&
+&
+GetParentBackendType
+(
+)
+=
+=
+LayerManager
+:
+:
+LAYERS_OPENGL
 )
 {
 nsRefPtr
