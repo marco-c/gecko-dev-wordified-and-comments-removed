@@ -1604,6 +1604,21 @@ LIBXUL_LIBRARY
 ]
             
 '
+MSVC_ENABLE_PGO
+'
+:
+[
+                
+'
+MSVC_ENABLE_PGO
+:
+=
+1
+'
+            
+]
+            
+'
 SDK_LIBRARY
 '
 :
