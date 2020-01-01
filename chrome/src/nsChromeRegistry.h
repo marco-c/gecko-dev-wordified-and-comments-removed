@@ -113,6 +113,9 @@ class
 nsILocalFile
 ;
 class
+nsIPrefBranch
+;
+class
 nsIRDFDataSource
 ;
 class
@@ -181,6 +184,10 @@ nsChromeRegistry
 )
 :
 mInitialized
+(
+PR_FALSE
+)
+mProfileLoaded
 (
 PR_FALSE
 )
@@ -254,6 +261,14 @@ FlushAllCaches
 ;
 private
 :
+nsresult
+SelectLocaleFromPref
+(
+nsIPrefBranch
+*
+prefs
+)
+;
 static
 nsresult
 RefreshWindow
@@ -825,6 +840,9 @@ private
 :
 PRBool
 mInitialized
+;
+PRBool
+mProfileLoaded
 ;
 PLDHashTable
 mPackagesHash
