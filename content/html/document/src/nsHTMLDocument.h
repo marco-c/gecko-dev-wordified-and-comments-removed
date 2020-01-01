@@ -618,6 +618,9 @@ nsIContent
 *
 GetBody
 (
+nsresult
+*
+aResult
 )
 ;
 already_AddRefed

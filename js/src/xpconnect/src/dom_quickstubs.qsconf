@@ -3775,14 +3775,11 @@ self
 >
 GetBody
 (
+&
+rv
 )
 ;
 '
-'
-canFail
-'
-:
-False
 }
 '
 nsIDOMHTMLDocument_GetElementsByName
