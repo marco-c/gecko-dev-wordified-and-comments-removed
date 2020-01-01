@@ -121,7 +121,7 @@ ctypes
 default_abi
 ctypes
 .
-int
+void_t
 )
 wait_for_event
 :
