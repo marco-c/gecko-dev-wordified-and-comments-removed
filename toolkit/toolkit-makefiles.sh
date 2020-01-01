@@ -7547,6 +7547,7 @@ then
 add_makefiles
 "
 MAKEFILES_libvorbis
+MAKEFILES_libogg
 "
 fi
 if
@@ -7560,7 +7561,6 @@ then
 add_makefiles
 "
 MAKEFILES_libtheora
-MAKEFILES_libogg
 content
 /
 media
