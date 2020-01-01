@@ -497,10 +497,6 @@ testLookup
 .
 cpp
 \
-testLooselyEqual
-.
-cpp
-\
 testNewObject
 .
 cpp
