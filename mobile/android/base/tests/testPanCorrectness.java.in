@@ -179,11 +179,7 @@ dragSync
 50
 )
 ;
-int
-[
-]
-[
-]
+PaintedSurface
 painted
 =
 waitForPaint

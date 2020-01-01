@@ -499,6 +499,10 @@ RoboCopException
 .
 java
 \
+PaintedSurface
+.
+java
+\
 (
 NULL
 )

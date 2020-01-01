@@ -616,11 +616,7 @@ format
 .
 *
 /
-int
-[
-]
-[
-]
+PaintedSurface
 getPaintedSurface
 (
 )
