@@ -836,3 +836,17 @@ CXXFLAGS
 MOZ_PANGO_CFLAGS
 )
 endif
+ifeq
+(
+(
+MOZ_WIDGET_TOOLKIT
+)
+os2
+)
+CXXFLAGS
++
+=
+(
+CAIRO_FT_CFLAGS
+)
+endif
