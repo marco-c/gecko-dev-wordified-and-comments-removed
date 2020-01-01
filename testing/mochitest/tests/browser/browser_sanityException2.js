@@ -28,7 +28,11 @@ expectUncaughtException
 ;
 throw
 "
-uncaught
+this
+is
+a
+deliberately
+thrown
 exception
 "
 ;
