@@ -11,11 +11,12 @@ K
 #
 nsISupports
 IBookmarksSyncService
-L
-X
-^
-e
+T
+f
+m
+r
 currentUser
 login
 logout
 sync
+resetLock
