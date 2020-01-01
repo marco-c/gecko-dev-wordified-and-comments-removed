@@ -361,6 +361,10 @@ SVGFEFloodElement
 .
 cpp
 \
+SVGFEGaussianBlurElement
+.
+cpp
+\
 SVGFEImageElement
 .
 cpp
@@ -779,6 +783,10 @@ SVGFEDistantLightElement
 h
 \
 SVGFEFloodElement
+.
+h
+\
+SVGFEGaussianBlurElement
 .
 h
 \
