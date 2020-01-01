@@ -249,9 +249,6 @@ mPPTrialsToGo
 int
 mPP5TrialsToGo
 ;
-int
-mPongsToGo
-;
 }
 ;
 class

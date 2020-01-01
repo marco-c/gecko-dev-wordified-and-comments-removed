@@ -635,8 +635,13 @@ ops
 )
 ;
 state
-START
+CONSTRUCTING
 :
+send
+PTestDataStructuresSub
+goto
+CONSTRUCTING
+;
 send
 Start
 goto

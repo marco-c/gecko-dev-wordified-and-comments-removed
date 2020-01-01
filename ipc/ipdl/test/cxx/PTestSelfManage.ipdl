@@ -35,11 +35,8 @@ LIVE
 send
 PTestSelfManage
 goto
-DEAD
+LIVE
 ;
-state
-DEAD
-:
 send
 __delete__
 ;
