@@ -117,12 +117,7 @@ menupopup
 var
 x
 =
-SpecialPowers
-.
-wrap
-(
 document
-)
 .
 getAnonymousNodes
 (

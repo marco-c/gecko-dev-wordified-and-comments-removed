@@ -3628,12 +3628,7 @@ testPanel
 ;
 arrow
 =
-SpecialPowers
-.
-wrap
-(
 document
-)
 .
 getAnonymousElementByAttribute
 (

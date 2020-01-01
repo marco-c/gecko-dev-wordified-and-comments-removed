@@ -267,12 +267,7 @@ notifications
 0
 ]
 ;
-SpecialPowers
-.
-wrap
-(
 document
-)
 .
 getAnonymousNodes
 (
