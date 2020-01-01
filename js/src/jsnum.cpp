@@ -1410,9 +1410,6 @@ Value
 rval
 )
 {
-Value
-v
-;
 if
 (
 argc
@@ -1607,7 +1604,7 @@ numStr
 ;
 str
 =
-JS_NewStringCopyZ
+js_NewStringCopyZ
 (
 cx
 buf
@@ -2940,7 +2937,7 @@ JSString
 *
 str
 =
-JS_NewStringCopyZ
+js_NewStringCopyZ
 (
 cx
 numStr
@@ -4113,7 +4110,7 @@ buf
 ]
 ;
 return
-JS_NewStringCopyZ
+js_NewStringCopyZ
 (
 cx
 IntToCString
@@ -4325,7 +4322,7 @@ NULL
 ;
 s
 =
-JS_NewStringCopyZ
+js_NewStringCopyZ
 (
 cx
 numStr

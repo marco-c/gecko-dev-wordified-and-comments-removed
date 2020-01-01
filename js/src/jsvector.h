@@ -1601,6 +1601,7 @@ AP
 size_t
 ArrayLength
 >
+JS_ALWAYS_INLINE
 bool
 js_AppendLiteral
 (
@@ -1646,7 +1647,7 @@ N
 class
 AllocPolicy
 >
-inline
+JS_ALWAYS_INLINE
 Vector
 <
 T
@@ -1689,7 +1690,7 @@ N
 class
 AP
 >
-inline
+JS_ALWAYS_INLINE
 Vector
 <
 T
@@ -1879,7 +1880,7 @@ N
 class
 AP
 >
-inline
+JS_ALWAYS_INLINE
 bool
 Vector
 <
@@ -2437,7 +2438,7 @@ N
 class
 AP
 >
-inline
+JS_ALWAYS_INLINE
 bool
 Vector
 <
@@ -2472,7 +2473,7 @@ N
 class
 AP
 >
-inline
+JS_ALWAYS_INLINE
 bool
 Vector
 <
@@ -2646,7 +2647,7 @@ N
 class
 AP
 >
-inline
+JS_ALWAYS_INLINE
 bool
 Vector
 <
@@ -2801,7 +2802,7 @@ N
 class
 AP
 >
-inline
+JS_ALWAYS_INLINE
 bool
 Vector
 <
@@ -2985,7 +2986,7 @@ template
 class
 U
 >
-inline
+JS_ALWAYS_INLINE
 bool
 Vector
 <
@@ -3180,7 +3181,7 @@ template
 class
 U
 >
-inline
+JS_ALWAYS_INLINE
 bool
 Vector
 <
@@ -3222,7 +3223,7 @@ N
 class
 AP
 >
-inline
+JS_ALWAYS_INLINE
 void
 Vector
 <

@@ -12858,13 +12858,7 @@ return
 rv
 ;
 return
-jsds
--
->
-SetFlags
-(
-JSD_DISABLE_OBJECT_TRACE
-)
+NS_OK
 ;
 }
 NS_GENERIC_FACTORY_CONSTRUCTOR

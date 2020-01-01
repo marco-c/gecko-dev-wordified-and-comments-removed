@@ -844,12 +844,6 @@ vector
 i
 ]
 ;
-js
-:
-:
-Value
-val
-;
 ok
 =
 obj
