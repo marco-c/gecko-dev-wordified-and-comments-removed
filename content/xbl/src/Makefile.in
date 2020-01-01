@@ -488,6 +488,10 @@ nsXBLInsertionPoint
 .
 cpp
 \
+nsXBLSerialize
+.
+cpp
+\
 (
 NULL
 )
