@@ -62,6 +62,10 @@ friend
 class
 DrawTargetD2D
 ;
+friend
+class
+DrawTargetD2D1
+;
 mutable
 RefPtr
 <

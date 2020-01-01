@@ -321,6 +321,16 @@ RadialGradientEffectD2D1
 .
 cpp
 '
+'
+DrawTargetD2D1
+.
+cpp
+'
+'
+SourceSurfaceD2D1
+.
+cpp
+'
 ]
 if
 CONFIG
