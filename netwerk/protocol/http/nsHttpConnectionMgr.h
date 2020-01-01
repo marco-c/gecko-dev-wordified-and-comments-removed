@@ -106,9 +106,13 @@ nsIX509Cert3
 .
 h
 "
-class
+#
+include
+"
 nsHttpPipeline
-;
+.
+h
+"
 class
 nsHttpConnectionMgr
 :
@@ -353,6 +357,11 @@ BadInsufficientFraming
 kPipelineInfoTypeBad
 |
 0x0008
+BadUnexpectedLarge
+=
+kPipelineInfoTypeBad
+|
+0x000B
 NeutralExpectedOK
 =
 kPipelineInfoTypeNeutral
