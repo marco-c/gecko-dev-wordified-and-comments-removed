@@ -5,16 +5,6 @@ _nsos2uni_h
 define
 _nsos2uni_h
 #
-define
-INCL_WIN
-#
-include
-<
-os2
-.
-h
->
-#
 include
 <
 uconv

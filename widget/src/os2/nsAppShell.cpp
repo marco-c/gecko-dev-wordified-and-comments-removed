@@ -8,13 +8,6 @@ h
 #
 include
 "
-nsToolkit
-.
-h
-"
-#
-include
-"
 nsThreadUtils
 .
 h
