@@ -2556,10 +2556,12 @@ obj_ins
 JSClass
 *
 clasp
-ExitType
-exitType
-=
-MISMATCH_EXIT
+nanojit
+:
+:
+LIns
+*
+exit
 )
 ;
 JS_REQUIRES_STACK
