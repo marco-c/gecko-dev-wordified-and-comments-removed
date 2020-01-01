@@ -6500,7 +6500,7 @@ OutputAbsoluteLinks
 nsIDocumentEncoder
 :
 :
-OutputEncodeW3CEntities
+OutputEncodeHTMLEntities
 ;
 nsCOMPtr
 <
