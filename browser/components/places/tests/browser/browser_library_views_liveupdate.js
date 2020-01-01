@@ -26,6 +26,11 @@ waitForExplicitFinish
 (
 )
 ;
+requestLongerTimeout
+(
+2
+)
+;
 ok
 (
 PlacesUtils
