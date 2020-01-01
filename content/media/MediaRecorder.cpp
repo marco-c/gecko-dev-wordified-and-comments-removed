@@ -592,6 +592,11 @@ i
 }
 if
 (
+mTimeSlice
+>
+0
+&
+&
 (
 TimeStamp
 :
