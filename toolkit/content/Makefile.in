@@ -715,6 +715,10 @@ WindowDraggingUtils
 .
 jsm
 \
+PopupNotifications
+.
+jsm
+\
 (
 NULL
 )

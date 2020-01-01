@@ -768,6 +768,10 @@ browser_bug441778
 .
 js
 \
+browser_popupNotification
+.
+js
+\
 browser_bug455852
 .
 js
