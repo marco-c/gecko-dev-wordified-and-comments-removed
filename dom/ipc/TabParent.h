@@ -124,6 +124,13 @@ nsWeakReference
 .
 h
 "
+#
+include
+"
+Units
+.
+h
+"
 struct
 gfxMatrix
 ;
@@ -1331,7 +1338,7 @@ nsInputEvent
 aOutEvent
 )
 ;
-nsIntPoint
+LayoutDeviceIntPoint
 mChildProcessOffsetAtTouchStart
 ;
 bool
