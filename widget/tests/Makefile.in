@@ -453,6 +453,10 @@ xul
 test_native_menus
 .
 xul
+\
+test_bug428405
+.
+xul
 endif
 libs
 :
