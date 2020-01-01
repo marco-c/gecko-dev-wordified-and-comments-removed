@@ -2475,7 +2475,7 @@ onerror
 JS_END_MACRO
 #
 define
-JS_CHECK_RECURSION_WITH_EXTRA
+JS_CHECK_RECURSION_WITH_EXTRA_DONT_REPORT
 (
 cx
 extra
@@ -2517,12 +2517,6 @@ extra
 )
 \
 {
-\
-js_ReportOverRecursed
-(
-cx
-)
-;
 \
 onerror
 ;
