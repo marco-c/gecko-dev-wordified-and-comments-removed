@@ -15010,7 +15010,7 @@ while
 ack_type
 !
 =
-SDP_RTCP_FB_CCM_NOT_FOUND
+SDP_RTCP_FB_ACK_NOT_FOUND
 )
 ;
 i
