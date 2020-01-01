@@ -11594,6 +11594,11 @@ PR_TRUE
 )
 ;
 }
+if
+(
+!
+aBeforeEditorInit
+)
 {
 nsWeakFrame
 weakFrame
