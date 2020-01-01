@@ -459,6 +459,10 @@ NULL
 EXTRA_PP_COMPONENTS
 =
 \
+MobileComponents
+.
+manifest
+\
 AboutRedirector
 .
 js
@@ -489,9 +493,9 @@ NULL
 EXTRA_COMPONENTS
 =
 \
-MobileComponents
+AlertsService
 .
-manifest
+js
 \
 BrowserStartup
 .
@@ -553,12 +557,6 @@ UpdatePrompt
 .
 js
 endif
-EXTRA_COMPONENTS
-+
-=
-AlertsService
-.
-js
 ifneq
 (
 Android
