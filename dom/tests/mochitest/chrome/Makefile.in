@@ -516,6 +516,10 @@ DOMWindowCreated_content
 .
 html
 \
+test_sandbox_image
+.
+xul
+\
 (
 NULL
 )
