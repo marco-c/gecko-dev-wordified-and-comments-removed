@@ -877,10 +877,6 @@ e
 \
 JS_END_MACRO
 #
-define
-JS_USE_ONLY_NSPR_LOCKS
-1
-#
 if
 defined
 (
