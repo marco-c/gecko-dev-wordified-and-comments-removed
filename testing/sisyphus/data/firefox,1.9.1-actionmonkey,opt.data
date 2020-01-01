@@ -18,7 +18,7 @@ firefox
 .
 1
 -
-test
+actionmonkey
 -
 profile
 profiledirectory
@@ -34,7 +34,7 @@ firefox
 .
 1
 -
-test
+actionmonkey
 -
 profile
 executablepath
@@ -49,7 +49,7 @@ BUILDDIR
 .
 1
 -
-test
+actionmonkey
 /
 mozilla
 /
