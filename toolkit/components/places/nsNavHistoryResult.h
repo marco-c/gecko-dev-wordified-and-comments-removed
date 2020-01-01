@@ -3186,6 +3186,9 @@ nsIURI
 aURI
 )
 ;
+PRUint32
+mBatchChanges
+;
 }
 ;
 class
