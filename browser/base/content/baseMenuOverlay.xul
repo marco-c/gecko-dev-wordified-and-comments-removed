@@ -845,6 +845,11 @@ buildHelpMenu
 >
 <
 menuitem
+id
+=
+"
+menu_openHelp
+"
 oncommand
 =
 "
