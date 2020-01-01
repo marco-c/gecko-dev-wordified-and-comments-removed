@@ -2698,6 +2698,11 @@ hidden
 "
 true
 "
+consumeoutsideclicks
+=
+"
+true
+"
 noautofocus
 =
 "
