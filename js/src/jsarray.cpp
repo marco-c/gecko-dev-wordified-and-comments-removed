@@ -850,9 +850,9 @@ vp
 )
 ;
 }
-static
 JSBool
-IndexToId
+JS_FASTCALL
+js_IndexToId
 (
 JSContext
 *
@@ -4406,7 +4406,7 @@ i
 1
 ;
 return
-IndexToId
+js_IndexToId
 (
 cx
 i
