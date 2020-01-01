@@ -1002,8 +1002,10 @@ endif
 }
 else
 {
+nsCOMPtr
+<
 nsINode
-*
+>
 child
 =
 mExistingRightNode

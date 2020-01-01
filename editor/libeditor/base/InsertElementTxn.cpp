@@ -432,8 +432,10 @@ mOffset
 count
 ;
 }
+nsCOMPtr
+<
 nsIContent
-*
+>
 refContent
 =
 parent
