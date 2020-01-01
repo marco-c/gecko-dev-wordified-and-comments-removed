@@ -374,6 +374,13 @@ assign
 )
 GK_ATOM
 (
+async
+"
+async
+"
+)
+GK_ATOM
+(
 attribute
 "
 attribute

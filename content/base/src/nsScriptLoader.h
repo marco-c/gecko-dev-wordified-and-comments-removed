@@ -495,6 +495,12 @@ nsScriptLoadRequest
 >
 mRequests
 ;
+nsCOMArray
+<
+nsScriptLoadRequest
+>
+mAsyncRequests
+;
 struct
 PreloadInfo
 {

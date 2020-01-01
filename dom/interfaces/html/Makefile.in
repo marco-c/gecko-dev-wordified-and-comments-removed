@@ -762,6 +762,10 @@ nsIDOMNSHTMLTextAreaElement
 .
 idl
 \
+nsIDOMNSHTMLScriptElement
+.
+idl
+\
 (
 NULL
 )
