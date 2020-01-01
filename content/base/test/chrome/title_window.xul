@@ -685,6 +685,11 @@ gt
 >
 <
 iframe
+type
+=
+"
+content
+"
 id
 =
 "
@@ -745,6 +750,11 @@ Test
 >
 <
 iframe
+type
+=
+"
+content
+"
 id
 =
 "

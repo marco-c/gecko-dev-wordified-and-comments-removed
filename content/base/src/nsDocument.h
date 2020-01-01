@@ -3746,12 +3746,6 @@ GetScriptHandlingObjectInternal
 )
 const
 ;
-virtual
-PRBool
-InternalAllowXULXBL
-(
-)
-;
 #
 define
 NS_DOCUMENT_NOTIFY_OBSERVERS
