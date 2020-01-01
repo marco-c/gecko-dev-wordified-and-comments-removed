@@ -645,7 +645,7 @@ type
 (
 )
 )
-Imm32
+ImmTag
 (
 JSVAL_TAG_MAGIC
 )
