@@ -38016,6 +38016,9 @@ getClass
 name
 )
 ;
+return
+NULL
+;
 }
 return
 (

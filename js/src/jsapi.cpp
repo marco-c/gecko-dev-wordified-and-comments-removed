@@ -14012,6 +14012,7 @@ argv
 {
 if
 (
+!
 JS_InstanceOf
 (
 cx
