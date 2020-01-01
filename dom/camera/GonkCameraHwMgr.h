@@ -76,14 +76,6 @@ GIHM_TIMING_RECEIVEFRAME
 define
 GIHM_TIMING_OVERALL
 1
-using
-namespace
-mozilla
-;
-using
-namespace
-android
-;
 namespace
 mozilla
 {

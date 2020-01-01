@@ -63,14 +63,6 @@ h
 namespace
 mozilla
 {
-using
-namespace
-mozilla
-;
-using
-namespace
-dom
-;
 class
 nsDOMCameraControl
 :
