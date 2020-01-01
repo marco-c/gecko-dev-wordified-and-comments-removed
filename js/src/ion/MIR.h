@@ -9678,7 +9678,7 @@ MAdd
 public
 MBinaryArithInstruction
 {
-bool
+int
 implicitTruncate_
 ;
 MAdd
@@ -9698,7 +9698,7 @@ right
 )
 implicitTruncate_
 (
-false
+0
 )
 {
 setResultType
@@ -9740,7 +9740,7 @@ analyzeTruncateBackward
 (
 )
 ;
-bool
+int
 isTruncated
 (
 )
@@ -9753,7 +9753,7 @@ implicitTruncate_
 void
 setTruncated
 (
-bool
+int
 truncate
 )
 {
@@ -9797,7 +9797,7 @@ MSub
 public
 MBinaryArithInstruction
 {
-bool
+int
 implicitTruncate_
 ;
 MSub
@@ -9859,7 +9859,7 @@ analyzeTruncateBackward
 (
 )
 ;
-bool
+int
 isTruncated
 (
 )
@@ -9872,7 +9872,7 @@ implicitTruncate_
 void
 setTruncated
 (
-bool
+int
 truncate
 )
 {
@@ -10224,7 +10224,7 @@ canBeNegativeOverflow_
 bool
 canBeDivideByZero_
 ;
-bool
+int
 implicitTruncate_
 ;
 MDiv
@@ -10372,7 +10372,7 @@ return
 1
 ;
 }
-bool
+int
 isTruncated
 (
 )
@@ -10385,7 +10385,7 @@ implicitTruncate_
 void
 setTruncated
 (
-bool
+int
 truncate
 )
 {
