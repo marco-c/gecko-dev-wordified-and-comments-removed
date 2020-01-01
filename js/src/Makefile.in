@@ -560,10 +560,6 @@ jsreflect
 .
 cpp
 \
-jsscope
-.
-cpp
-\
 jsscript
 .
 cpp
@@ -645,6 +641,10 @@ ObjectImpl
 cpp
 \
 ScopeObject
+.
+cpp
+\
+Shape
 .
 cpp
 \
@@ -1177,6 +1177,10 @@ HashTable
 h
 \
 HeapAPI
+.
+h
+\
+GCAPI
 .
 h
 \

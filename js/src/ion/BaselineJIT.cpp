@@ -1043,8 +1043,9 @@ CanEnterBaselineJIT
 JSContext
 *
 cx
-HandleScript
-script
+JSScript
+*
+scriptArg
 StackFrame
 *
 fp
@@ -1065,7 +1066,7 @@ cx
 ;
 if
 (
-script
+scriptArg
 -
 >
 baseline
@@ -1075,6 +1076,13 @@ BASELINE_DISABLED_SCRIPT
 )
 return
 Method_Skipped
+;
+RootedScript
+script
+(
+cx
+scriptArg
+)
 ;
 if
 (

@@ -360,7 +360,7 @@ script
 )
 -
 >
-compartment
+zone
 (
 )
 -

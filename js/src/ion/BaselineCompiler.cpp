@@ -1031,16 +1031,6 @@ R0
 if
 (
 !
-addPCMappingEntry
-(
-)
-)
-return
-Method_Error
-;
-if
-(
-!
 initScopeChain
 (
 )
