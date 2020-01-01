@@ -390,7 +390,7 @@ InvalidateHierarchy
 )
 ;
 virtual
-bool
+void
 ProcessPendingUpdates
 (
 )
@@ -416,7 +416,7 @@ FlushPendingInvalidates
 (
 )
 ;
-bool
+void
 ProcessPendingUpdatesForView
 (
 nsView
