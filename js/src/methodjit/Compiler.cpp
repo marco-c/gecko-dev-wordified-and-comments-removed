@@ -32098,9 +32098,9 @@ types
 |
 |
 op
-!
 =
-JSOP_SETPROP
+=
+JSOP_SETNAME
 |
 |
 types
