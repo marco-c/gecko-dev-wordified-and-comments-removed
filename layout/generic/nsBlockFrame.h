@@ -1922,8 +1922,7 @@ nsReflowStatus
 aReflowStatus
 )
 ;
-virtual
-nsresult
+bool
 CreateContinuationFor
 (
 nsBlockReflowState
@@ -1935,9 +1934,6 @@ aLine
 nsIFrame
 *
 aFrame
-bool
-&
-aMadeNewFrame
 )
 ;
 void
