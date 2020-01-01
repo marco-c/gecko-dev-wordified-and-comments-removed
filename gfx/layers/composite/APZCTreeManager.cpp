@@ -30,7 +30,6 @@ h
 define
 APZC_LOG
 (
-args
 .
 .
 .
