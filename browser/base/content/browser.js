@@ -21191,7 +21191,6 @@ onLinkIconAvailable
 :
 function
 (
-aBrowser
 aIconURL
 )
 {
