@@ -66,13 +66,6 @@ h
 #
 include
 "
-string
-.
-h
-"
-#
-include
-"
 SVGAnimatedPointList
 .
 h
