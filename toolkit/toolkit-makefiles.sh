@@ -1643,11 +1643,6 @@ printing
 Makefile
 layout
 /
-tools
-/
-Makefile
-layout
-/
 xul
 /
 Makefile
