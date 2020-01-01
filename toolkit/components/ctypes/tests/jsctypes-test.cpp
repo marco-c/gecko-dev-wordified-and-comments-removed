@@ -1896,6 +1896,11 @@ j
 ]
 ;
 }
+va_end
+(
+list
+)
+;
 return
 result
 ;
