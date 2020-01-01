@@ -472,6 +472,16 @@ PContent
 ;
 parent
 :
+sync
+HasSupport
+(
+)
+returns
+(
+bool
+aHasSupport
+)
+;
 __delete__
 (
 )
