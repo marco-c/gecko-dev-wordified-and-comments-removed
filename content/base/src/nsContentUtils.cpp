@@ -26239,6 +26239,14 @@ aRootNode
 GetOwnerDoc
 (
 )
+&
+&
+aRootNode
+-
+>
+GetOwnerDoc
+(
+)
 -
 >
 GetCompatibilityMode
