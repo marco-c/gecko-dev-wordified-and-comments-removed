@@ -1897,7 +1897,7 @@ if
 !
 this
 .
-_connected
+mainRoot
 )
 {
 throw
@@ -2105,15 +2105,9 @@ if
 !
 this
 .
-_connected
+mainRoot
 )
 {
-this
-.
-_connected
-=
-true
-;
 this
 .
 mainRoot
