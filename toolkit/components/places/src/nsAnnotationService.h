@@ -516,6 +516,12 @@ aAutoCreate
 PR_TRUE
 )
 ;
+PRBool
+InPrivateBrowsingMode
+(
+)
+const
+;
 void
 CallSetForPageObservers
 (

@@ -3977,6 +3977,15 @@ nsIAutoCompleteController
 aController
 )
 {
+if
+(
+InPrivateBrowsingMode
+(
+)
+)
+return
+NS_OK
+;
 mozStorageStatementScoper
 scope
 (
