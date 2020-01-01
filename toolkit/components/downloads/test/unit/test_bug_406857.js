@@ -1,8 +1,3 @@
-const
-HTTP_SERVER_PORT
-=
-4444
-;
 function
 run_test
 (
@@ -52,7 +47,8 @@ httpserv
 .
 start
 (
-HTTP_SERVER_PORT
+-
+1
 )
 ;
 let
@@ -103,7 +99,11 @@ localhost
 :
 "
 +
-HTTP_SERVER_PORT
+httpserv
+.
+identity
+.
+primaryPort
 +
 "
 /
