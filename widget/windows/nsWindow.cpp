@@ -8919,6 +8919,9 @@ break
 case
 eCursor_standard
 :
+case
+eCursor_context_menu
+:
 newCursor
 =
 :
@@ -9166,11 +9169,6 @@ NULL
 IDC_APPSTARTING
 )
 ;
-break
-;
-case
-eCursor_context_menu
-:
 break
 ;
 case

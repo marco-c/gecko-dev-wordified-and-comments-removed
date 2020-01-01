@@ -4259,6 +4259,9 @@ break
 case
 eCursor_standard
 :
+case
+eCursor_context_menu
+:
 newPointer
 =
 WinQuerySysPointer
@@ -4462,11 +4465,6 @@ IDC_ARROWWAIT
 IDC_BASE
 ]
 ;
-break
-;
-case
-eCursor_context_menu
-:
 break
 ;
 case
