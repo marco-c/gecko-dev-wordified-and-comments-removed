@@ -534,6 +534,12 @@ nsICertOverrideService
 >
 mOverrideService
 ;
+nsRefPtr
+<
+nsCertOverrideService
+>
+mOriginalOverrideService
+;
 treeArrayEl
 *
 GetThreadDescAtIndex
