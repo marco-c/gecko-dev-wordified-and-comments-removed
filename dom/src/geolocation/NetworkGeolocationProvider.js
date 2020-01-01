@@ -36,7 +36,7 @@ classes
 var
 gLoggingEnabled
 =
-true
+false
 ;
 var
 gTestingEnabled
