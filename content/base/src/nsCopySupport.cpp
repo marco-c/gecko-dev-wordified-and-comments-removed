@@ -2594,6 +2594,12 @@ sel
 )
 )
 ;
+NS_ENSURE_TRUE
+(
+sel
+PR_FALSE
+)
+;
 PRBool
 isCollapsed
 ;
