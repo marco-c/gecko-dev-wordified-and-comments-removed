@@ -199,13 +199,6 @@ nsMenuBarX
 (
 )
 ;
-enum
-{
-kApplicationMenuID
-=
-1
-}
-;
 static
 NativeMenuItemTarget
 *

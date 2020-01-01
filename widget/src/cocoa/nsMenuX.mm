@@ -6830,15 +6830,9 @@ kEventMenuOpening
 &
 &
 gRollupListener
-!
-=
-nsnull
 &
 &
 gRollupWidget
-!
-=
-nsnull
 )
 {
 gRollupListener
