@@ -6084,7 +6084,10 @@ identity
 -
 box
 :
-focus
+-
+moz
+-
+focusring
 {
 outline
 :
@@ -6110,7 +6113,10 @@ box
 .
 verifiedDomain
 :
-focus
+-
+moz
+-
+focusring
 #
 identity
 -
@@ -6118,7 +6124,10 @@ box
 .
 verifiedIdentity
 :
-focus
+-
+moz
+-
+focusring
 {
 outline
 -
