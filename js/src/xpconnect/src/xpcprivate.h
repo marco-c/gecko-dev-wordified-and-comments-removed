@@ -2499,9 +2499,6 @@ IDX_PROTO
 IDX_ITERATOR
 IDX_EXPOSEDPROPS
 IDX_SCRIPTONLY
-IDX_BASEURIOBJECT
-IDX_NODEPRINCIPAL
-IDX_DOCUMENTURIOBJECT
 IDX_TOTAL_COUNT
 }
 ;
@@ -5237,7 +5234,13 @@ deleteElement
 *
 /
 \
+js
+:
+:
+Valueify
+(
 XPC_WN_JSOp_Enumerate
+)
 \
 XPC_WN_JSOp_TypeOf_Function
 \
@@ -5357,7 +5360,13 @@ deleteElement
 *
 /
 \
+js
+:
+:
+Valueify
+(
 XPC_WN_JSOp_Enumerate
+)
 \
 XPC_WN_JSOp_TypeOf_Object
 \
@@ -7747,6 +7756,9 @@ GetJSClass
 )
 {
 return
+js
+:
+:
 Jsvalify
 (
 &

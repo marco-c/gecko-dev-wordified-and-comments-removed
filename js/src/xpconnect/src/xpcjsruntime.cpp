@@ -161,15 +161,6 @@ __exposedProps__
 "
 __scriptOnly__
 "
-"
-baseURIObject
-"
-"
-nodePrincipal
-"
-"
-documentURIObject
-"
 }
 ;
 struct
