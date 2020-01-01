@@ -1948,6 +1948,7 @@ GetPref
 (
 uri
 prefName
+nsnull
 getter_AddRefs
 (
 pref
