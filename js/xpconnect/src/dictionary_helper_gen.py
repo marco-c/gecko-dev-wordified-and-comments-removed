@@ -718,26 +718,6 @@ n
 "
 )
     
-fd
-.
-write
-(
-"
-#
-undef
-near
-\
-n
-"
-             
-"
-\
-n
-\
-n
-"
-)
-    
 forwards
 =
 [
