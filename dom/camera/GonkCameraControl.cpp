@@ -4473,6 +4473,10 @@ n
 "
 )
 ;
+mRecorder
+=
+nullptr
+;
 return
 NS_ERROR_FAILURE
 ;
@@ -4612,9 +4616,6 @@ mRecorder
 stop
 (
 )
-;
-delete
-mRecorder
 ;
 mRecorder
 =
