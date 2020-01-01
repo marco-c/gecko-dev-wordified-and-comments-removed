@@ -309,7 +309,7 @@ state
 )
 ;
 void
-notifyIMEEnabled
+notifyIMEContext
 (
 int
 state
@@ -3278,7 +3278,7 @@ state
 Override
 public
 void
-notifyIMEEnabled
+notifyIMEContext
 (
 final
 int
@@ -3305,7 +3305,7 @@ d
 (
 LOGTAG
 "
-notifyIMEEnabled
+notifyIMEContext
 (
 "
 +
@@ -3416,7 +3416,7 @@ mListener
 ;
 mListener
 .
-notifyIMEEnabled
+notifyIMEContext
 (
 state
 typeHint

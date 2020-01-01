@@ -3936,7 +3936,7 @@ break
 Override
 public
 void
-notifyIMEEnabled
+notifyIMEContext
 (
 int
 state
@@ -4355,7 +4355,7 @@ else
 if
 (
 "
-notifyIMEEnabled
+notifyIMEContext
 "
 .
 equals

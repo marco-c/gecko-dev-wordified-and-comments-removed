@@ -1749,7 +1749,7 @@ state
 public
 static
 void
-notifyIMEEnabled
+notifyIMEContext
 (
 int
 state
@@ -1759,8 +1759,6 @@ String
 modeHint
 String
 actionHint
-boolean
-landscapeFS
 )
 {
 if
@@ -1773,7 +1771,7 @@ null
 {
 mEditableListener
 .
-notifyIMEEnabled
+notifyIMEContext
 (
 state
 typeHint
