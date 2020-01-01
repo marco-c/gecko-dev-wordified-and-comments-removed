@@ -553,10 +553,6 @@ test_bug_429247
 .
 xul
 \
-test_bug_462172
-.
-xul
-\
 unknownContentType_dialog_layout_data
 .
 txt
