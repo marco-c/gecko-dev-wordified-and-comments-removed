@@ -10631,6 +10631,8 @@ xpcom
 idl
 -
 parser
+/
+cache
 (
 XPIDL_FLAGS
 )
@@ -10811,6 +10813,8 @@ xpcom
 idl
 -
 parser
+/
+cache
 (
 XPIDL_FLAGS
 )

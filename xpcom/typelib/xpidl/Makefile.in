@@ -469,6 +469,8 @@ idl
 -
 parser
 /
+cache
+/
 xpidllex
 .
 py
@@ -482,6 +484,8 @@ xpcom
 idl
 -
 parser
+/
+cache
 /
 xpidlyacc
 .

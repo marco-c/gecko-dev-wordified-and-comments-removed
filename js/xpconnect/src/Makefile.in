@@ -1044,6 +1044,8 @@ xpcom
 idl
 -
 parser
+/
+cache
 \
 -
 -
@@ -1231,6 +1233,8 @@ xpcom
 idl
 -
 parser
+/
+cache
 \
 -
 -
@@ -1385,6 +1389,8 @@ xpcom
 idl
 -
 parser
+/
+cache
 \
 -
 -
@@ -1557,6 +1563,8 @@ xpcom
 idl
 -
 parser
+/
+cache
 \
 -
 -
@@ -1703,6 +1711,8 @@ xpcom
 idl
 -
 parser
+/
+cache
 \
 -
 -
