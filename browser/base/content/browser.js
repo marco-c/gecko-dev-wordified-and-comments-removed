@@ -16442,7 +16442,8 @@ CustomizeToolbar
 "
 "
 chrome
-all
+titlebar
+resizable
 dependent
 "
 gNavToolbox
