@@ -9505,6 +9505,16 @@ changes
 )
 const
 {
+if
+(
+cx
+-
+>
+typeInferenceEnabled
+(
+)
+)
+{
 for
 (
 unsigned
@@ -9564,6 +9574,7 @@ fe
 )
 )
 ;
+}
 }
 uint32_t
 mask
