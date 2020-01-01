@@ -1791,6 +1791,12 @@ width
 height
 )
 ;
+moveFrameRateLayer
+(
+width
+height
+)
+;
 mView
 .
 post
@@ -1816,12 +1822,6 @@ IntSize
 width
 height
 )
-)
-;
-moveFrameRateLayer
-(
-width
-height
 )
 ;
 }
