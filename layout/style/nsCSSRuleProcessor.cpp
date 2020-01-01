@@ -210,6 +210,13 @@ h
 #
 include
 "
+nsAttrValueInlines
+.
+h
+"
+#
+include
+"
 nsAttrName
 .
 h

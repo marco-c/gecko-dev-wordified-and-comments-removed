@@ -17,6 +17,13 @@ h
 #
 include
 "
+nsAttrValueInlines
+.
+h
+"
+#
+include
+"
 nsIDOMHTMLInputElement
 .
 h

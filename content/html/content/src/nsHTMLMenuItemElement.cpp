@@ -22,6 +22,13 @@ h
 #
 include
 "
+nsAttrValueInlines
+.
+h
+"
+#
+include
+"
 nsContentUtils
 .
 h

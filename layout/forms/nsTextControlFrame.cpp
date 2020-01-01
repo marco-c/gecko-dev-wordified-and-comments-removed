@@ -426,6 +426,13 @@ h
 #
 include
 "
+nsAttrValueInlines
+.
+h
+"
+#
+include
+"
 mozilla
 /
 Selection

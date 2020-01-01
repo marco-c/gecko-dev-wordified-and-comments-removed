@@ -61,6 +61,13 @@ nsSVGMpathElement
 .
 h
 "
+#
+include
+"
+nsAttrValueInlines
+.
+h
+"
 namespace
 mozilla
 {

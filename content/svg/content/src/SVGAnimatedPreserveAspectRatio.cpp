@@ -35,6 +35,13 @@ SMILEnumType
 .
 h
 "
+#
+include
+"
+nsAttrValueInlines
+.
+h
+"
 using
 namespace
 mozilla

@@ -164,6 +164,10 @@ nsAttrValue
 .
 h
 \
+nsAttrValueInlines
+.
+h
+\
 nsCrossSiteListenerProxy
 .
 h

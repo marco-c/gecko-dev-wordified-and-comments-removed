@@ -630,6 +630,13 @@ h
 #
 include
 "
+nsAttrValueInlines
+.
+h
+"
+#
+include
+"
 nsReferencedElement
 .
 h

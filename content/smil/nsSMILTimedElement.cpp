@@ -8,6 +8,13 @@ h
 #
 include
 "
+nsAttrValueInlines
+.
+h
+"
+#
+include
+"
 nsSMILAnimationFunction
 .
 h

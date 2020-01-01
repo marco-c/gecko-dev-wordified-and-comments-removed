@@ -138,13 +138,6 @@ h
 #
 include
 "
-nsGenericHTMLElement
-.
-h
-"
-#
-include
-"
 nsIDocShell
 .
 h

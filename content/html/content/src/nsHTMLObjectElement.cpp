@@ -24,6 +24,13 @@ h
 #
 include
 "
+nsAttrValueInlines
+.
+h
+"
+#
+include
+"
 nsObjectLoadingContent
 .
 h

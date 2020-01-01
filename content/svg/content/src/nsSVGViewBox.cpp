@@ -55,6 +55,13 @@ SVGViewBoxSMILType
 h
 "
 #
+include
+"
+nsAttrValueInlines
+.
+h
+"
+#
 define
 NUM_VIEWBOX_COMPONENTS
 4

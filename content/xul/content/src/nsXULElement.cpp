@@ -502,6 +502,13 @@ h
 #
 include
 "
+nsAttrValueInlines
+.
+h
+"
+#
+include
+"
 mozilla
 /
 Attributes

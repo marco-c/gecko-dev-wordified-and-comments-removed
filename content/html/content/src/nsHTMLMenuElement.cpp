@@ -8,6 +8,13 @@ h
 #
 include
 "
+nsAttrValueInlines
+.
+h
+"
+#
+include
+"
 nsIDOMHTMLMenuItemElement
 .
 h

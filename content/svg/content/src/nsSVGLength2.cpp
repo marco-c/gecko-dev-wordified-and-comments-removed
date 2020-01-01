@@ -77,6 +77,13 @@ nsSMILFloatType
 .
 h
 "
+#
+include
+"
+nsAttrValueInlines
+.
+h
+"
 using
 namespace
 mozilla

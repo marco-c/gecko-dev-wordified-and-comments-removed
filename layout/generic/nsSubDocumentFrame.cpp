@@ -33,6 +33,13 @@ h
 #
 include
 "
+nsAttrValueInlines
+.
+h
+"
+#
+include
+"
 nsIDocShell
 .
 h

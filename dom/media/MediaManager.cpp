@@ -1732,7 +1732,6 @@ thread
 uint32_t
 audioCount
 videoCount
-total
 i
 ;
 MediaManager
@@ -1807,12 +1806,6 @@ videoSources
 Length
 (
 )
-;
-total
-=
-videoCount
-+
-audioCount
 ;
 nsTArray
 <

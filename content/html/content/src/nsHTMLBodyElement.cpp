@@ -38,6 +38,13 @@ h
 #
 include
 "
+nsAttrValueInlines
+.
+h
+"
+#
+include
+"
 nsGkAtoms
 .
 h
@@ -122,7 +129,7 @@ h
 #
 include
 "
-jsapi
+jspubtd
 .
 h
 "
