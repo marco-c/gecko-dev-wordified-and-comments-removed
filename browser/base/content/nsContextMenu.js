@@ -3359,7 +3359,7 @@ this
 .
 target
 .
-src
+currentSrc
 ;
 }
 else
@@ -3386,7 +3386,7 @@ this
 .
 target
 .
-src
+currentSrc
 ;
 }
 else
