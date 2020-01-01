@@ -700,10 +700,6 @@ nsIDOMDOMStringMap
 .
 idl
 \
-nsIDOMMozBrowserFrameElement
-.
-idl
-\
 (
 NULL
 )

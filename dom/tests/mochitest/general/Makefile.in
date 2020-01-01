@@ -552,10 +552,6 @@ test_vibrator
 .
 html
 \
-test_getContentState
-.
-html
-\
 (
 NULL
 )

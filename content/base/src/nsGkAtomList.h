@@ -774,13 +774,6 @@ browser
 )
 GK_ATOM
 (
-mozbrowser
-"
-mozbrowser
-"
-)
-GK_ATOM
-(
 bulletinboard
 "
 bulletinboard
