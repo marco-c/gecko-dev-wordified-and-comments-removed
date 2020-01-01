@@ -64,3 +64,10 @@ AUTHORS
 .
 /
 AUTHORS
+patch
+-
+p3
+<
+469698_mac_stream_endian
+.
+patch
