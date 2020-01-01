@@ -336,6 +336,17 @@ expectAssertions
 )
 ;
 }
+else
+{
+SimpleTest
+.
+expectAssertions
+(
+0
+2
+)
+;
+}
 /
 *
 *

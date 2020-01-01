@@ -387,6 +387,7 @@ CDATA
 [
 if
 (
+!
 navigator
 .
 platform
@@ -394,7 +395,7 @@ platform
 startsWith
 (
 "
-Win
+Linux
 "
 )
 )
