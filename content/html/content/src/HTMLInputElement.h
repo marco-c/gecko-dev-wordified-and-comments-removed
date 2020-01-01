@@ -966,6 +966,14 @@ aResult
 const
 MOZ_OVERRIDE
 ;
+void
+MaybeFireAsyncClickHandler
+(
+nsEventChainPostVisitor
+&
+aVisitor
+)
+;
 NS_IMETHOD
 FireAsyncClickHandler
 (
