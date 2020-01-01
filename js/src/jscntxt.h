@@ -363,6 +363,9 @@ prohibitFlush
 JSPackedBool
 needFlush
 ;
+uint32
+maxCodeCacheBytes
+;
 JSPackedBool
 useReservedObjects
 ;
