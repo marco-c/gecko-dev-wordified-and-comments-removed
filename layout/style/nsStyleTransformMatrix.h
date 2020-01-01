@@ -87,7 +87,7 @@ aAppUnitsPerMatrixUnit
 )
 ;
 static
-gfxMatrix
+gfx3DMatrix
 ReadTransforms
 (
 const

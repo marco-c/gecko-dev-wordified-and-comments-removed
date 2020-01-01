@@ -178,7 +178,7 @@ PR_TRUE
 ;
 }
 virtual
-gfxMatrix
+gfx3DMatrix
 GetTransformMatrix
 (
 nsIFrame

@@ -711,7 +711,7 @@ aView
 )
 ;
 static
-gfxMatrix
+gfx3DMatrix
 ChangeMatrixBasis
 (
 const
@@ -719,7 +719,7 @@ gfxPoint
 &
 aOrigin
 const
-gfxMatrix
+gfx3DMatrix
 &
 aMatrix
 )
@@ -794,7 +794,7 @@ PR_FALSE
 )
 ;
 static
-gfxMatrix
+gfx3DMatrix
 GetTransformToAncestor
 (
 nsIFrame
@@ -829,7 +829,7 @@ nsRect
 &
 aBounds
 const
-gfxMatrix
+gfx3DMatrix
 &
 aMatrix
 float
@@ -845,7 +845,7 @@ nsRect
 &
 aBounds
 const
-gfxMatrix
+gfx3DMatrix
 &
 aMatrix
 float
@@ -861,7 +861,7 @@ nsPoint
 &
 aPoint
 const
-gfxMatrix
+gfx3DMatrix
 &
 aMatrix
 float

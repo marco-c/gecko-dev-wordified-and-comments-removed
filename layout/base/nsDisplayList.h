@@ -6134,7 +6134,7 @@ aItem
 )
 ;
 const
-gfxMatrix
+gfx3DMatrix
 &
 GetTransform
 (
@@ -6191,7 +6191,7 @@ nsnull
 )
 ;
 static
-nsRect
+PRBool
 UntransformRect
 (
 const
@@ -6206,6 +6206,9 @@ const
 nsPoint
 &
 aOrigin
+nsRect
+*
+aOutRect
 )
 ;
 static
@@ -6219,7 +6222,7 @@ aFrame
 )
 ;
 static
-gfxMatrix
+gfx3DMatrix
 GetResultingTransformMatrix
 (
 const
@@ -6245,7 +6248,7 @@ private
 nsDisplayWrapList
 mStoredList
 ;
-gfxMatrix
+gfx3DMatrix
 mTransform
 ;
 float

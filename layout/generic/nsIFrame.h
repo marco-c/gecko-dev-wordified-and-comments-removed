@@ -3745,7 +3745,7 @@ const
 0
 ;
 virtual
-gfxMatrix
+gfx3DMatrix
 GetTransformMatrix
 (
 nsIFrame
