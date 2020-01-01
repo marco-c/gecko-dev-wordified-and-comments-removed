@@ -896,7 +896,7 @@ getCurrentFrame
 (
 )
 ;
-TraceValues
+MarkValueRange
 (
 trc
 fp
@@ -949,7 +949,7 @@ trc
 f
 )
 ;
-TraceValues
+MarkValueRange
 (
 trc
 f
@@ -979,7 +979,7 @@ trc
 initialFrame
 )
 ;
-TraceValues
+MarkValueRange
 (
 trc
 cs
@@ -1015,7 +1015,7 @@ getInitialArgEnd
 )
 )
 ;
-TraceValues
+MarkValueRange
 (
 trc
 cs
@@ -7649,19 +7649,14 @@ thing
 NULL
 )
 ;
-JS_SET_TRACING_INDEX
+MarkGCThing
 (
 trc
+thing
 "
 local_root
 "
 n
-)
-;
-CallGCMarkerForGCThing
-(
-trc
-thing
 )
 ;
 if

@@ -5864,7 +5864,7 @@ map
 >
 vector
 ;
-TraceBoxedWords
+MarkBoxedWordRange
 (
 trc
 length
@@ -5930,7 +5930,7 @@ objects
 i
 )
 ;
-CallGCMarker
+MarkRaw
 (
 trc
 objarray
@@ -6010,7 +6010,7 @@ regexps
 i
 )
 ;
-CallGCMarker
+MarkRaw
 (
 trc
 objarray
@@ -6052,7 +6052,7 @@ object
 "
 )
 ;
-CallGCMarker
+MarkRaw
 (
 trc
 script

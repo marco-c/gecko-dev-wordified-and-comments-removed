@@ -1496,7 +1496,7 @@ links
 next
 )
 {
-CallGCMarkerIfGCThing
+MarkValue
 (
 trc
 Valueify

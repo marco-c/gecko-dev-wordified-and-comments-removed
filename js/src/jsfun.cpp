@@ -14734,7 +14734,7 @@ entry
 index
 )
 ;
-CallGCMarker
+MarkRaw
 (
 trc
 ATOM_TO_STRING
@@ -14906,7 +14906,7 @@ fun
 nargs
 )
 ;
-CallGCMarker
+MarkRaw
 (
 trc
 ATOM_TO_STRING
