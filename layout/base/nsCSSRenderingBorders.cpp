@@ -8963,14 +8963,6 @@ i
 )
 )
 ;
-builder
-=
-nullptr
-;
-path
-=
-nullptr
-;
 Pattern
 *
 pattern
