@@ -2212,11 +2212,6 @@ mimeStr
 :
 NULL
 ;
-[
-mimeStr
-release
-]
-;
 if
 (
 realExtension
@@ -2241,11 +2236,6 @@ AppendExtension
 (
 temp
 )
-;
-[
-realExtension
-release
-]
 ;
 }
 else
