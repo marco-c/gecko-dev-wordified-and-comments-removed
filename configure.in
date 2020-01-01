@@ -50056,6 +50056,13 @@ i
 -
 mingw
 *
+|
+x86_64
+-
+*
+-
+mingw
+*
 )
 MOZ_CRASHREPORTER
 =
