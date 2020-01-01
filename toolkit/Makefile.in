@@ -492,7 +492,6 @@ themes
 NULL
 )
 #
-#
 The
 native
 front
@@ -541,8 +540,13 @@ into
 this
 section
 .
-ifdef
-XXXXX
+ifneq
+(
+(
+OS_TARGET
+)
+Android
+)
 PARALLEL_DIRS
 +
 =
