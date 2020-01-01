@@ -48627,6 +48627,13 @@ apple
 -
 darwin
 *
+|
+x86_64
+-
+apple
+-
+darwin
+*
 )
 MOZ_CRASHREPORTER
 =
