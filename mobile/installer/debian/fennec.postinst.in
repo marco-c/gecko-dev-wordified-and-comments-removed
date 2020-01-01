@@ -1,4 +1,9 @@
 #
+filter
+substitution
+#
+literal
+#
 !
 /
 bin
@@ -71,7 +76,7 @@ n
 "
 "
 #
-end
+endif
 #
 for
 fennec
