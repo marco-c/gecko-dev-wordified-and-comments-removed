@@ -696,6 +696,10 @@ WaitOnWriteThread
 (
 )
 ;
+WriteToDisk
+(
+)
+;
 gStartupCache
 =
 nullptr
