@@ -2104,6 +2104,12 @@ purge
 (
 )
 ;
+dtoaCache
+.
+purge
+(
+)
+;
 js_DestroyScriptsToGC
 (
 cx

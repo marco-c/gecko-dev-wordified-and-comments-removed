@@ -2630,12 +2630,6 @@ purge
 cx
 )
 ;
-dtoaCache
-.
-s
-=
-NULL
-;
 }
 #
 ifdef
