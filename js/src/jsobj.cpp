@@ -17175,7 +17175,7 @@ if
 a
 -
 >
-structSize
+sizeOfThis
 (
 )
 =
@@ -17183,7 +17183,7 @@ structSize
 b
 -
 >
-structSize
+sizeOfThis
 (
 )
 )
@@ -17681,7 +17681,7 @@ isFunction
 a
 -
 >
-structSize
+sizeOfThis
 (
 )
 =
@@ -17689,7 +17689,7 @@ structSize
 b
 -
 >
-structSize
+sizeOfThis
 (
 )
 )
@@ -17810,7 +17810,7 @@ size
 a
 -
 >
-structSize
+sizeOfThis
 (
 )
 ;
@@ -17822,7 +17822,7 @@ size
 b
 -
 >
-structSize
+sizeOfThis
 (
 )
 )
@@ -20488,7 +20488,7 @@ objectResizeActive
 (
 )
 ?
-slotsAndStructSize
+computedSizeOfIncludingThis
 (
 )
 :
@@ -20862,7 +20862,7 @@ objectResizeActive
 (
 )
 ?
-slotsAndStructSize
+computedSizeOfIncludingThis
 (
 )
 :
@@ -21081,7 +21081,7 @@ objectResizeActive
 (
 )
 ?
-slotsAndStructSize
+computedSizeOfIncludingThis
 (
 )
 :
@@ -21341,7 +21341,7 @@ resizeObject
 cx
 this
 oldSize
-slotsAndStructSize
+computedSizeOfIncludingThis
 (
 )
 )
@@ -21395,7 +21395,7 @@ objectResizeActive
 (
 )
 ?
-slotsAndStructSize
+computedSizeOfIncludingThis
 (
 )
 :
@@ -21498,7 +21498,7 @@ resizeObject
 cx
 this
 oldSize
-slotsAndStructSize
+computedSizeOfIncludingThis
 (
 )
 )

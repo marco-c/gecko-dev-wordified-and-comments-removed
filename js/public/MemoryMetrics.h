@@ -187,6 +187,9 @@ int64_t
 objectSlots
 ;
 int64_t
+objectElements
+;
+int64_t
 stringChars
 ;
 int64_t
