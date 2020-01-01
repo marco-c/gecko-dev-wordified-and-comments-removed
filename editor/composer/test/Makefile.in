@@ -457,6 +457,10 @@ test_bug434998
 .
 xul
 \
+test_bug338427
+.
+html
+\
 (
 NULL
 )
