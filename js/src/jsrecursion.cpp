@@ -3189,7 +3189,7 @@ lir
 >
 ins2
 (
-LIR_piadd
+LIR_addp
 fp_ins
 INS_CONSTWORD
 (
