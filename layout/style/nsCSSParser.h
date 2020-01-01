@@ -73,6 +73,9 @@ nsMediaList
 class
 nsCSSKeyframeRule
 ;
+class
+nsCSSValue
+;
 namespace
 mozilla
 {
@@ -353,7 +356,7 @@ bool
 aHTMLMode
 )
 ;
-nsresult
+bool
 ParseColorString
 (
 const
@@ -365,9 +368,9 @@ nsIURI
 aURL
 PRUint32
 aLineNumber
-nscolor
-*
-aColor
+nsCSSValue
+&
+aValue
 )
 ;
 nsresult
