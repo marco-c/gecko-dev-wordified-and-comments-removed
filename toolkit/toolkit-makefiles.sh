@@ -1951,13 +1951,6 @@ modules
 /
 libjar
 /
-standalone
-/
-Makefile
-modules
-/
-libjar
-/
 test
 /
 Makefile
