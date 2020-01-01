@@ -729,6 +729,14 @@ size_t
 length
 )
 ;
+int
+nestegg_has_cues
+(
+nestegg
+*
+context
+)
+;
 #
 ifdef
 __cplusplus
