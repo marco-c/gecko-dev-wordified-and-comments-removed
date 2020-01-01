@@ -3255,6 +3255,16 @@ Pop
 (
 )
 ;
+nsIScriptContext
+*
+GetCurrentScriptContext
+(
+)
+{
+return
+mScx
+;
+}
 private
 :
 PRBool
