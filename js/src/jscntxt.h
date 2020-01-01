@@ -288,6 +288,10 @@ MONITOR_N_GLOBAL_STATES
 struct
 GlobalState
 {
+JSObject
+*
+globalObj
+;
 uint32
 globalShape
 ;

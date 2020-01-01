@@ -1185,10 +1185,6 @@ TreeInfo
 *
 outermostTree
 ;
-JSObject
-*
-globalObj
-;
 double
 *
 stackBase
@@ -1375,13 +1371,6 @@ nanojit
 LIns
 *
 eor_ins
-;
-nanojit
-:
-:
-LIns
-*
-globalObj_ins
 ;
 nanojit
 :
