@@ -68,6 +68,11 @@ friend
 class
 nsDOMValidityState
 ;
+static
+const
+PRUint16
+sContentSpecifiedMaxLengthMessage
+;
 virtual
 ~
 nsIConstraintValidation

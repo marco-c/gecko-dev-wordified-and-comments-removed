@@ -4877,12 +4877,6 @@ textContent
 element
 .
 validationMessage
-.
-substring
-(
-0
-256
-)
 ;
 element
 .
