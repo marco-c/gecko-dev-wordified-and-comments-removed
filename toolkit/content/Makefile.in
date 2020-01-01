@@ -696,6 +696,10 @@ endif
 EXTRA_JS_MODULES
 =
 \
+InlineSpellChecker
+.
+jsm
+\
 WindowDraggingUtils
 .
 jsm
