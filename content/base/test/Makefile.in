@@ -1177,6 +1177,10 @@ bin
 headers
 ^
 \
+file_XHR_binary2
+.
+bin
+\
 test_bug428847
 .
 html
