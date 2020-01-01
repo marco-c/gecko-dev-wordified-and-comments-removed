@@ -549,6 +549,9 @@ ltr
 '
 ;
 }
+translate
+:
+translateFragment
 }
 ;
 }
