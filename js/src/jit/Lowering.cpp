@@ -6591,11 +6591,10 @@ num
 )
 ;
 return
-defineReuseInput
+define
 (
 lir
 ins
-0
 )
 ;
 }
