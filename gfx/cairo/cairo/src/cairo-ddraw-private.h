@@ -50,6 +50,9 @@ alias
 cairo_point_int_t
 origin
 ;
+cairo_rectangle_int_t
+acquirable_rect
+;
 uint32_t
 data_offset
 ;
