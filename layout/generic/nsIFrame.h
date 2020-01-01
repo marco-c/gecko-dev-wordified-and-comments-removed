@@ -1531,7 +1531,7 @@ virtual
 const
 void
 *
-GetStyleDataExternal
+StyleDataExternal
 (
 nsStyleStructID
 aSID
@@ -1631,7 +1631,7 @@ name_
 >
 (
 \
-GetStyleDataExternal
+StyleDataExternal
 (
 eStyleStruct_
 #

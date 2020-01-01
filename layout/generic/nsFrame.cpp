@@ -34999,7 +34999,7 @@ void
 nsFrame
 :
 :
-GetStyleDataExternal
+StyleDataExternal
 (
 nsStyleStructID
 aSID
@@ -35020,7 +35020,7 @@ return
 mStyleContext
 -
 >
-GetStyleData
+StyleData
 (
 aSID
 )

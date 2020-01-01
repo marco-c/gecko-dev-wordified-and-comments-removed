@@ -12846,7 +12846,7 @@ aProperty
 tmpStyleContext
 -
 >
-GetStyleData
+StyleData
 (
 sid
 )
@@ -14115,7 +14115,7 @@ styleStruct
 aStyleContext
 -
 >
-GetStyleData
+StyleData
 (
 nsCSSProps
 :
