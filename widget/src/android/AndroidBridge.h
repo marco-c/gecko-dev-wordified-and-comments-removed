@@ -622,6 +622,11 @@ IsNetworkLinkKnown
 (
 )
 ;
+int
+GetNetworkLinkType
+(
+)
+;
 void
 SetSelectedLocale
 (
@@ -1062,6 +1067,9 @@ jIsNetworkLinkUp
 ;
 jmethodID
 jIsNetworkLinkKnown
+;
+jmethodID
+jGetNetworkLinkType
 ;
 jmethodID
 jSetSelectedLocale
