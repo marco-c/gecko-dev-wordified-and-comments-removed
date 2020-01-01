@@ -7138,6 +7138,17 @@ openOptionsMenu
 (
 )
 ;
+if
+(
+mDynamicToolbarEnabled
+)
+mBrowserToolbar
+.
+animateVisibility
+(
+true
+)
+;
 }
 Override
 public
