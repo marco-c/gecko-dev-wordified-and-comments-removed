@@ -2602,6 +2602,10 @@ sendCompositionEvent
 "
 compositionstart
 "
+"
+"
+"
+"
 )
 ;
 }
@@ -2660,6 +2664,10 @@ sendCompositionEvent
 (
 "
 compositionend
+"
+"
+"
+"
 "
 )
 ;
