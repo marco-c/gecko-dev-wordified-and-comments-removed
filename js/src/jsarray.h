@@ -374,7 +374,7 @@ jsval
 rval
 )
 ;
-JS_EXTERN_API
+JS_FRIEND_API
 (
 JSBool
 )
@@ -395,7 +395,7 @@ JSUint8
 dest
 )
 ;
-JS_EXTERN_API
+JS_FRIEND_API
 (
 JSBool
 )
@@ -416,7 +416,7 @@ JSUint16
 dest
 )
 ;
-JS_EXTERN_API
+JS_FRIEND_API
 (
 JSBool
 )
@@ -437,7 +437,7 @@ JSUint32
 dest
 )
 ;
-JS_EXTERN_API
+JS_FRIEND_API
 (
 JSBool
 )
@@ -458,7 +458,7 @@ JSInt8
 dest
 )
 ;
-JS_EXTERN_API
+JS_FRIEND_API
 (
 JSBool
 )
@@ -479,7 +479,7 @@ JSInt16
 dest
 )
 ;
-JS_EXTERN_API
+JS_FRIEND_API
 (
 JSBool
 )
@@ -500,7 +500,7 @@ JSInt32
 dest
 )
 ;
-JS_EXTERN_API
+JS_FRIEND_API
 (
 JSBool
 )
