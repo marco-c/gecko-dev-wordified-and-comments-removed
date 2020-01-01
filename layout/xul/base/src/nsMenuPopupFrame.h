@@ -818,6 +818,17 @@ mScreenYPos
 1
 ;
 }
+nsIContent
+*
+GetAnchor
+(
+)
+const
+{
+return
+mAnchorContent
+;
+}
 nsIntPoint
 ScreenPosition
 (
