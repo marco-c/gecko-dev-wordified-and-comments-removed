@@ -459,7 +459,7 @@ if
 (
 0
 >
-PR_ATOMIC_DECREMENT
+PR_AtomicDecrement
 (
 &
 cv
@@ -488,7 +488,7 @@ if
 (
 0
 >
-PR_ATOMIC_DECREMENT
+PR_AtomicDecrement
 (
 &
 cv
@@ -1416,7 +1416,7 @@ link
 (
 void
 )
-PR_ATOMIC_INCREMENT
+PR_AtomicIncrement
 (
 &
 cvar
@@ -1604,7 +1604,7 @@ if
 (
 0
 >
-PR_ATOMIC_DECREMENT
+PR_AtomicDecrement
 (
 &
 cvar
