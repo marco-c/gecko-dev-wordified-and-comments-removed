@@ -121,8 +121,11 @@ aPt
 )
 ;
 nsSize
-GetVideoSize
+GetIntrinsicSize
 (
+nsIRenderingContext
+*
+aRenderingContext
 )
 ;
 virtual
@@ -279,6 +282,11 @@ const
 endif
 protected
 :
+PRBool
+HasVideoData
+(
+)
+;
 virtual
 ~
 nsVideoFrame
