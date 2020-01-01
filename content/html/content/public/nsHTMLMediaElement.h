@@ -708,6 +708,14 @@ aChannel
 =
 0
 ;
+void
+SetRequestHeaders
+(
+nsIHttpChannel
+*
+aChannel
+)
+;
 protected
 :
 class

@@ -745,6 +745,10 @@ redirect
 .
 sjs
 \
+referer
+.
+sjs
+\
 seek1
 .
 js
@@ -1443,6 +1447,10 @@ test_audio_event_adopt
 html
 \
 test_framebuffer
+.
+html
+\
+test_referer
 .
 html
 \
