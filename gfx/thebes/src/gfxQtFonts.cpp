@@ -52,6 +52,11 @@ QFontMetrics
 >
 #
 include
+<
+QFontMetricsF
+>
+#
+include
 "
 cairo
 -
