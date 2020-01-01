@@ -965,11 +965,6 @@ jsprf
 cpp
 '
 '
-jspropertycache
-.
-cpp
-'
-'
 jspropertytree
 .
 cpp

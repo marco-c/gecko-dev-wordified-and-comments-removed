@@ -11768,16 +11768,6 @@ purge
 rt
 -
 >
-propertyCache
-.
-purge
-(
-rt
-)
-;
-rt
--
->
 newObjectCache
 .
 purge
