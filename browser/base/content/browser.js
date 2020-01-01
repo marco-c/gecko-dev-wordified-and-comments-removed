@@ -983,6 +983,13 @@ Ci
 .
 nsIPrefBranch2
 )
+.
+QueryInterface
+(
+Ci
+.
+nsIPrefService
+)
 ;
 }
 )
@@ -8137,13 +8144,6 @@ kDidSanitizeDomain
 )
 ;
 gPrefService
-.
-QueryInterface
-(
-Ci
-.
-nsIPrefService
-)
 .
 savePrefFile
 (
