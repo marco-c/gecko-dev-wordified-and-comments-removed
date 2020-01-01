@@ -223,6 +223,13 @@ XPCOM_STANDALONE_GLUE_LDOPTS
 (
 NULL
 )
+PROGRAMS_DEST
+=
+(
+DIST
+)
+/
+bin
 include
 (
 topsrcdir

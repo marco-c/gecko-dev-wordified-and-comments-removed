@@ -165,6 +165,13 @@ NULL
 NSDISTMODE
 =
 copy
+PROGRAMS_DEST
+=
+(
+DIST
+)
+/
+bin
 include
 (
 topsrcdir

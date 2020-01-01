@@ -369,7 +369,7 @@ dir
 LOCALE_MERGEDIR
 )
 /
-browser
+webapprt
 /
 webapp
 -
@@ -384,7 +384,7 @@ dir
 (
 call
 EXPAND_LOCALE_SRCDIR
-browser
+webapprt
 /
 locales
 )
@@ -403,7 +403,7 @@ dir
 topsrcdir
 )
 /
-browser
+webapprt
 /
 locales
 /
@@ -424,7 +424,7 @@ PPL_LOCALE_ARGS
 (
 call
 EXPAND_LOCALE_SRCDIR
-browser
+webapprt
 /
 locales
 )
@@ -594,6 +594,13 @@ GARBAGE_DIRS
 +
 =
 instgen
+PROGRAMS_DEST
+=
+(
+DIST
+)
+/
+bin
 include
 (
 topsrcdir

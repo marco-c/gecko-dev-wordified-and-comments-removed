@@ -156,6 +156,14 @@ DIRS
 gtk2
 '
 ]
+DIRS
++
+=
+[
+'
+locales
+'
+]
 TEST_DIRS
 +
 =
