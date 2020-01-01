@@ -78,10 +78,6 @@ mk
 PARALLEL_DIRS
 =
 \
-addon
--
-sdk
-\
 components
 \
 content

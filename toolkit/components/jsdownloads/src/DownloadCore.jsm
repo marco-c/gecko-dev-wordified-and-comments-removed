@@ -114,9 +114,11 @@ modules
 /
 commonjs
 /
-promise
+sdk
 /
 core
+/
+promise
 .
 js
 "
