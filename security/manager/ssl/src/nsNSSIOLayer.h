@@ -505,6 +505,9 @@ nsString
 mErrorMessage
 ;
 PRPackedBool
+mDocShellDependentStuffKnown
+;
+PRPackedBool
 mExternalErrorReporting
 ;
 PRPackedBool
@@ -548,6 +551,11 @@ ActivateSSL
 nsSSLSocketThreadData
 *
 mThreadData
+;
+nsresult
+EnsureDocShellDependentStuffKnown
+(
+)
 ;
 private
 :
