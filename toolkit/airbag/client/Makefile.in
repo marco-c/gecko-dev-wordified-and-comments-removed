@@ -766,6 +766,9 @@ CPPSRCS
 http_upload
 .
 cc
+FORCE_USE_PIC
+=
+1
 endif
 include
 (
