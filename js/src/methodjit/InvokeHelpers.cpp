@@ -3976,7 +3976,14 @@ p
 n
 "
 index
+static_cast
+<
+void
+*
+>
+(
 script
+)
 )
 ;
 Repatcher
