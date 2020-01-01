@@ -912,6 +912,15 @@ nsIAccessible
 aAccessible
 )
 ;
+static
+HWND
+GetHWNDFor
+(
+nsIAccessible
+*
+aAccessible
+)
+;
 void
 UpdateSystemCaret
 (
