@@ -71,7 +71,7 @@ h
 #
 include
 "
-xpcquickstubs
+XPCQuickStubs
 .
 h
 "

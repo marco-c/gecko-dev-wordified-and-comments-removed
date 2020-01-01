@@ -514,8 +514,6 @@ srcdir
 /
 js
 /
-src
-/
 xpconnect
 /
 src
@@ -1230,8 +1228,6 @@ topsrcdir
 )
 /
 js
-/
-src
 /
 xpconnect
 /

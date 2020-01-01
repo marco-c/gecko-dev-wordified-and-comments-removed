@@ -435,8 +435,6 @@ include
 /
 js
 /
-src
-/
 xpconnect
 /
 crashtests

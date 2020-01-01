@@ -596,8 +596,6 @@ hal
 \
 js
 /
-src
-/
 xpconnect
 \
 intl
