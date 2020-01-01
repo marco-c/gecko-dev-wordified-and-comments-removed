@@ -106,15 +106,6 @@ Bundle
 savedInstanceState
 )
 {
-super
-.
-onCreateView
-(
-inflater
-container
-savedInstanceState
-)
-;
 return
 inflater
 .
