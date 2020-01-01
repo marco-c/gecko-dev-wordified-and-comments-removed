@@ -417,9 +417,6 @@ version
 CC
 =
 cl
-CXX
-=
-cl
 RANLIB
 =
 echo
@@ -745,6 +742,10 @@ D_WIN32_WINNT
 (
 WIN_CFLAGS
 )
+-
+DAVMPLUS_WIN32
+-
+DAVMPLUS_IA32
 JSDLL_CFLAGS
 =
 -
