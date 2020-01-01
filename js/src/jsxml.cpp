@@ -26035,6 +26035,8 @@ vobj
 ;
 JSBool
 ok
+=
+JS_TRUE
 ;
 JSString
 *
