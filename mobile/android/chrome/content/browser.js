@@ -3196,7 +3196,9 @@ pdf
 let
 webBrowserPrint
 =
-content
+aBrowser
+.
+contentWindow
 .
 QueryInterface
 (
@@ -15834,12 +15836,6 @@ _isSelectElement
 (
 target
 )
-&
-&
-!
-target
-.
-disabled
 )
 {
 target
