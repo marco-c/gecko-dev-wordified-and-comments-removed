@@ -2037,7 +2037,10 @@ fun
 )
 ;
 extern
+JS_FRIEND_API
+(
 void
+)
 js_CallDestroyScriptHook
 (
 JSContext
