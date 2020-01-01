@@ -444,6 +444,10 @@ NULL
 EXPORTS
 =
 \
+FramePropertyTable
+.
+h
+\
 nsBidi
 .
 h
@@ -549,6 +553,10 @@ NULL
 )
 CPPSRCS
 =
+\
+FramePropertyTable
+.
+cpp
 \
 nsCSSColorUtils
 .
