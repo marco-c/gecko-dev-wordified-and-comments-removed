@@ -8040,7 +8040,7 @@ pc2
 =
 JUMP_OFFSET_LEN
 ;
-jsint
+int
 low
 =
 GET_JUMP_OFFSET
@@ -8053,7 +8053,7 @@ pc2
 =
 JUMP_OFFSET_LEN
 ;
-jsint
+int
 high
 =
 GET_JUMP_OFFSET
@@ -8114,7 +8114,7 @@ NULL
 ;
 for
 (
-jsint
+int
 i
 =
 0
