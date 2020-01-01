@@ -581,6 +581,10 @@ GonkSensor
 .
 cpp
 \
+UeventPoller
+.
+cpp
+\
 (
 NULL
 )
