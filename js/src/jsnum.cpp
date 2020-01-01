@@ -3792,7 +3792,7 @@ nint
 ;
 int
 digits
-size
+buflen
 remainder
 nrepeat
 ;
@@ -3943,7 +3943,7 @@ rt
 decimalSeparator
 )
 ;
-size
+buflen
 =
 digits
 +
@@ -3957,8 +3957,6 @@ nint
 +
 1
 )
-+
-1
 :
 0
 )
@@ -3973,7 +3971,7 @@ nint
 .
 '
 )
-size
+buflen
 +
 =
 decimalLength
@@ -4034,7 +4032,7 @@ remainder
 )
 break
 ;
-size
+buflen
 +
 =
 thousandsLength
@@ -4086,7 +4084,7 @@ tmpGroup
 1
 ]
 ;
-size
+buflen
 +
 =
 thousandsLength
@@ -4127,7 +4125,7 @@ cx
 >
 malloc
 (
-size
+buflen
 +
 1
 )
@@ -4309,7 +4307,7 @@ js_NewStringCopyN
 (
 cx
 buf
-size
+buflen
 )
 ;
 cx
