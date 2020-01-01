@@ -5957,6 +5957,9 @@ HTMLObjectElement
 &
 &
 mimeType
+&
+&
+mimeType
 .
 startsWith
 (
