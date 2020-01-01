@@ -73,6 +73,13 @@ h
 #
 include
 "
+HTMLLinkAccessible
+.
+h
+"
+#
+include
+"
 HTMLListAccessible
 .
 h
@@ -116,13 +123,6 @@ h
 include
 "
 nsHTMLCanvasAccessible
-.
-h
-"
-#
-include
-"
-nsHTMLLinkAccessible
 .
 h
 "
@@ -7799,7 +7799,7 @@ Accessible
 accessible
 =
 new
-nsHTMLLinkAccessible
+HTMLLinkAccessible
 (
 aContent
 aDoc

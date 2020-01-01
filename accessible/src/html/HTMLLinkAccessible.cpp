@@ -1,7 +1,7 @@
 #
 include
 "
-nsHTMLLinkAccessible
+HTMLLinkAccessible
 .
 h
 "
@@ -65,10 +65,10 @@ mozilla
 :
 a11y
 ;
-nsHTMLLinkAccessible
+HTMLLinkAccessible
 :
 :
-nsHTMLLinkAccessible
+HTMLLinkAccessible
 (
 nsIContent
 *
@@ -87,12 +87,12 @@ aDoc
 }
 NS_IMPL_ISUPPORTS_INHERITED1
 (
-nsHTMLLinkAccessible
+HTMLLinkAccessible
 HyperTextAccessibleWrap
 nsIAccessibleHyperLink
 )
 role
-nsHTMLLinkAccessible
+HTMLLinkAccessible
 :
 :
 NativeRole
@@ -107,7 +107,7 @@ LINK
 ;
 }
 PRUint64
-nsHTMLLinkAccessible
+HTMLLinkAccessible
 :
 :
 NativeState
@@ -130,7 +130,7 @@ READONLY
 ;
 }
 PRUint64
-nsHTMLLinkAccessible
+HTMLLinkAccessible
 :
 :
 NativeLinkState
@@ -206,7 +206,7 @@ LINKED
 ;
 }
 PRUint64
-nsHTMLLinkAccessible
+HTMLLinkAccessible
 :
 :
 NativeInteractiveState
@@ -251,7 +251,7 @@ state
 ;
 }
 void
-nsHTMLLinkAccessible
+HTMLLinkAccessible
 :
 :
 Value
@@ -299,7 +299,7 @@ aValue
 ;
 }
 PRUint8
-nsHTMLLinkAccessible
+HTMLLinkAccessible
 :
 :
 ActionCount
@@ -322,7 +322,7 @@ ActionCount
 ;
 }
 NS_IMETHODIMP
-nsHTMLLinkAccessible
+HTMLLinkAccessible
 :
 :
 GetActionName
@@ -381,7 +381,7 @@ NS_OK
 ;
 }
 NS_IMETHODIMP
-nsHTMLLinkAccessible
+HTMLLinkAccessible
 :
 :
 DoAction
@@ -434,7 +434,7 @@ NS_OK
 ;
 }
 bool
-nsHTMLLinkAccessible
+HTMLLinkAccessible
 :
 :
 IsLink
@@ -449,7 +449,7 @@ already_AddRefed
 <
 nsIURI
 >
-nsHTMLLinkAccessible
+HTMLLinkAccessible
 :
 :
 AnchorURIAt
@@ -475,7 +475,7 @@ nsnull
 ;
 }
 bool
-nsHTMLLinkAccessible
+HTMLLinkAccessible
 :
 :
 IsLinked

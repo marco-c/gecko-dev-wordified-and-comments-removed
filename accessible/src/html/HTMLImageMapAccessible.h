@@ -7,14 +7,14 @@ mozilla_a11y_HTMLImageMapAccessible_h__
 #
 include
 "
-ImageAccessibleWrap
+HTMLLinkAccessible
 .
 h
 "
 #
 include
 "
-nsHTMLLinkAccessible
+ImageAccessibleWrap
 .
 h
 "
@@ -115,7 +115,7 @@ class
 HTMLAreaAccessible
 :
 public
-nsHTMLLinkAccessible
+HTMLLinkAccessible
 {
 public
 :
