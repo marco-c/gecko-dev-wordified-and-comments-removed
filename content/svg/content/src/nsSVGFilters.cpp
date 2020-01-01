@@ -136,13 +136,6 @@ h
 #
 include
 "
-nsIDocument
-.
-h
-"
-#
-include
-"
 nsIFrame
 .
 h
@@ -178,13 +171,6 @@ h
 #
 include
 "
-nsIInterfaceRequestorUtils
-.
-h
-"
-#
-include
-"
 mozilla
 /
 dom
@@ -197,13 +183,6 @@ h
 include
 "
 nsSVGString
-.
-h
-"
-#
-include
-"
-nsSVGEffects
 .
 h
 "
@@ -9539,9 +9518,6 @@ aCx
 JSObject
 *
 aScope
-bool
-*
-aTriedToWrap
 )
 {
 return
@@ -9553,7 +9529,6 @@ Wrap
 aCx
 aScope
 this
-aTriedToWrap
 )
 ;
 }
@@ -9596,9 +9571,6 @@ aCx
 JSObject
 *
 aScope
-bool
-*
-aTriedToWrap
 )
 {
 return
@@ -9610,7 +9582,6 @@ Wrap
 aCx
 aScope
 this
-aTriedToWrap
 )
 ;
 }
@@ -9653,9 +9624,6 @@ aCx
 JSObject
 *
 aScope
-bool
-*
-aTriedToWrap
 )
 {
 return
@@ -9667,7 +9635,6 @@ Wrap
 aCx
 aScope
 this
-aTriedToWrap
 )
 ;
 }
@@ -9710,9 +9677,6 @@ aCx
 JSObject
 *
 aScope
-bool
-*
-aTriedToWrap
 )
 {
 return
@@ -9724,7 +9688,6 @@ Wrap
 aCx
 aScope
 this
-aTriedToWrap
 )
 ;
 }
