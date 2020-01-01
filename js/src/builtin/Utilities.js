@@ -170,6 +170,13 @@ prototype
 valueOf
 ;
 var
+std_Number_POSITIVE_INFINITY
+=
+Number
+.
+POSITIVE_INFINITY
+;
+var
 std_Object_create
 =
 Object
