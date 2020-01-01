@@ -6982,6 +6982,13 @@ PRBool
 aNotify
 )
 {
+if
+(
+!
+mPlaceholderDiv
+)
+return
+;
 nsAutoString
 placeholderValue
 ;
