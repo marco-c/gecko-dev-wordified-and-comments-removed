@@ -199,10 +199,13 @@ Server
 ENTITY
 serverType
 .
-main
+default
 .
 label
 "
+Default
+:
+Mozilla
 &
 syncBrand
 .
@@ -210,7 +213,7 @@ fullName
 .
 label
 ;
-Server
+server
 "
 >
 <
