@@ -3442,6 +3442,11 @@ if
 shouldAnimate
 )
 {
+if
+(
+haveCurrentTransition
+)
+{
 nsTArray
 <
 ElementPropertyTransition
@@ -3454,11 +3459,6 @@ aElementTransitions
 >
 mPropertyTransitions
 ;
-if
-(
-haveCurrentTransition
-)
-{
 pts
 .
 RemoveElementAt
