@@ -291,6 +291,11 @@ CASE_RETURN
 TYPE_FONT
 )
 ;
+CASE_RETURN
+(
+TYPE_MEDIA
+)
+;
 default
 :
 return
