@@ -50,7 +50,7 @@ const
 uint16_t
 kMajorRevision
 =
-1
+2
 ;
 const
 uint16_t
@@ -864,8 +864,7 @@ GetObject
 )
 const
 ;
-DrawTarget
-*
+ReferencePtr
 mDT
 ;
 }
@@ -3873,8 +3872,7 @@ RecordedEvent
 ReferencePtr
 mRefPtr
 ;
-DrawTarget
-*
+ReferencePtr
 mDT
 ;
 RecordedSnapshot

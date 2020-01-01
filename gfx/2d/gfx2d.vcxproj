@@ -597,6 +597,8 @@ ClCompile
 <
 PreprocessorDefinitions
 >
+INITGUID
+;
 USE_SSE2
 ;
 WIN32
@@ -771,6 +773,8 @@ ClCompile
 <
 PreprocessorDefinitions
 >
+INITGUID
+;
 USE_SSE2
 ;
 WIN32
@@ -810,6 +814,15 @@ ProgramDatabase
 <
 /
 DebugInformationFormat
+>
+<
+AdditionalIncludeDirectories
+>
+.
+/
+<
+/
+AdditionalIncludeDirectories
 >
 <
 /
