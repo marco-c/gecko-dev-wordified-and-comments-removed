@@ -580,7 +580,10 @@ nsIFocusManager
 :
 :
 MOVEFOCUS_FORWARD
-0
+nsIFocusManager
+:
+:
+FLAG_NOPARENTFRAME
 getter_AddRefs
 (
 result

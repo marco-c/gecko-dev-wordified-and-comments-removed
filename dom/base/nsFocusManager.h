@@ -468,6 +468,8 @@ nsIContent
 aStart
 PRInt32
 aType
+bool
+aNoParentTraversal
 nsIContent
 *
 *

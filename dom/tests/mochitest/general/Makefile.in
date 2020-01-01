@@ -576,6 +576,10 @@ test_for_of
 .
 html
 \
+test_focus_legend_noparent
+.
+html
+\
 (
 NULL
 )
