@@ -701,6 +701,8 @@ png_ptr
 error_message
 )
 ;
+else
+{
 png_format_buffer
 (
 png_ptr
@@ -714,6 +716,7 @@ png_ptr
 msg
 )
 ;
+}
 }
 void
 PNGAPI
@@ -746,6 +749,8 @@ png_ptr
 warning_message
 )
 ;
+else
+{
 png_format_buffer
 (
 png_ptr
@@ -759,6 +764,7 @@ png_ptr
 msg
 )
 ;
+}
 }
 static
 void
@@ -937,6 +943,11 @@ endif
 #
 ifdef
 PNG_SETJMP_SUPPORTED
+if
+(
+png_ptr
+)
+{
 #
 ifdef
 USE_FAR_KEYWORD
@@ -977,13 +988,9 @@ jmpbuf
 ;
 #
 endif
+}
 #
 else
-;
-if
-(
-png_ptr
-)
 PNG_ABORT
 (
 )
