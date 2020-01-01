@@ -52,10 +52,10 @@ private
 static
 final
 String
-LOG_NAME
+LOGTAG
 =
 "
-Tabs
+GeckoTabs
 "
 ;
 private
@@ -242,7 +242,7 @@ Log
 .
 i
 (
-LOG_NAME
+LOGTAG
 "
 Added
 a
@@ -305,7 +305,7 @@ Log
 .
 i
 (
-LOG_NAME
+LOGTAG
 "
 Removed
 a
@@ -683,7 +683,7 @@ Log
 .
 i
 (
-LOG_NAME
+LOGTAG
 "
 handleMessage
 throws

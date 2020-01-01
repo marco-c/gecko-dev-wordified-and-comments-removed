@@ -365,7 +365,7 @@ private
 static
 final
 String
-LOG_NAME
+LOGTAG
 =
 "
 GeckoApp
@@ -608,9 +608,7 @@ Log
 .
 i
 (
-"
-GeckoJSMenu
-"
+LOGTAG
 "
 menu
 item
@@ -886,16 +884,6 @@ webkit
 permission
 .
 PLUGIN
-"
-;
-private
-static
-final
-String
-LOGTAG
-=
-"
-PluginManager
 "
 ;
 private
@@ -2124,9 +2112,7 @@ Log
 .
 e
 (
-"
-Gecko
-"
+LOGTAG
 "
 onPrepareOptionsMenu
 :
@@ -2934,7 +2920,7 @@ Log
 .
 i
 (
-LOG_NAME
+LOGTAG
 "
 Saving
 :
@@ -3052,7 +3038,7 @@ Log
 .
 i
 (
-LOG_NAME
+LOGTAG
 "
 Favicon
 successfully
@@ -3085,7 +3071,7 @@ Log
 .
 i
 (
-LOG_NAME
+LOGTAG
 "
 Favicon
 is
@@ -3671,9 +3657,7 @@ Log
 .
 i
 (
-"
-Gecko
-"
+LOGTAG
 "
 Got
 message
@@ -3996,7 +3980,7 @@ Log
 .
 i
 (
-LOG_NAME
+LOGTAG
 "
 URI
 -
@@ -4068,7 +4052,7 @@ Log
 .
 i
 (
-LOG_NAME
+LOGTAG
 "
 title
 -
@@ -4134,7 +4118,7 @@ Log
 .
 i
 (
-LOG_NAME
+LOGTAG
 "
 link
 rel
@@ -4189,7 +4173,7 @@ Log
 .
 i
 (
-LOG_NAME
+LOGTAG
 "
 Log
 :
@@ -4244,7 +4228,7 @@ Log
 .
 i
 (
-LOG_NAME
+LOGTAG
 "
 URI
 -
@@ -4305,7 +4289,7 @@ Log
 .
 i
 (
-LOG_NAME
+LOGTAG
 "
 Security
 Mode
@@ -4366,7 +4350,7 @@ Log
 .
 i
 (
-LOG_NAME
+LOGTAG
 "
 State
 -
@@ -4407,7 +4391,7 @@ Log
 .
 i
 (
-LOG_NAME
+LOGTAG
 "
 Got
 a
@@ -4441,7 +4425,7 @@ Log
 .
 i
 (
-LOG_NAME
+LOGTAG
 "
 Got
 a
@@ -4495,7 +4479,7 @@ Log
 .
 i
 (
-LOG_NAME
+LOGTAG
 "
 Created
 a
@@ -4567,7 +4551,7 @@ Log
 .
 i
 (
-LOG_NAME
+LOGTAG
 "
 Destroyed
 a
@@ -4624,7 +4608,7 @@ Log
 .
 i
 (
-LOG_NAME
+LOGTAG
 "
 Switched
 to
@@ -5169,7 +5153,7 @@ Log
 .
 i
 (
-LOG_NAME
+LOGTAG
 "
 handleMessage
 throws
@@ -5266,7 +5250,7 @@ Log
 .
 i
 (
-LOG_NAME
+LOGTAG
 "
 DoorHanger
 received
@@ -5370,7 +5354,7 @@ Log
 .
 i
 (
-LOG_NAME
+LOGTAG
 "
 Doorhanger
 :
@@ -6490,11 +6474,7 @@ Log
 .
 i
 (
-"
-updateViewLayout
--
-IllegalArgumentException
-"
+LOGTAG
 "
 e
 :
@@ -7222,7 +7202,7 @@ Log
 .
 e
 (
-LOG_NAME
+LOGTAG
 "
 top
 level
@@ -7967,7 +7947,7 @@ Log
 .
 i
 (
-LOG_NAME
+LOGTAG
 "
 Intent
 :
@@ -8025,7 +8005,7 @@ Log
 .
 i
 (
-LOG_NAME
+LOGTAG
 "
 onNewIntent
 :
@@ -8073,7 +8053,7 @@ Log
 .
 i
 (
-LOG_NAME
+LOGTAG
 "
 Intent
 :
@@ -8123,7 +8103,7 @@ Log
 .
 i
 (
-LOG_NAME
+LOGTAG
 "
 Intent
 :
@@ -8147,7 +8127,7 @@ Log
 .
 i
 (
-LOG_NAME
+LOGTAG
 "
 pause
 "
@@ -8219,7 +8199,7 @@ Log
 .
 i
 (
-LOG_NAME
+LOGTAG
 "
 resume
 "
@@ -8286,7 +8266,7 @@ Log
 .
 i
 (
-LOG_NAME
+LOGTAG
 "
 stop
 "
@@ -8323,7 +8303,7 @@ Log
 .
 i
 (
-LOG_NAME
+LOGTAG
 "
 restart
 "
@@ -8371,7 +8351,7 @@ Log
 .
 i
 (
-LOG_NAME
+LOGTAG
 "
 start
 "
@@ -8408,7 +8388,7 @@ Log
 .
 i
 (
-LOG_NAME
+LOGTAG
 "
 destroy
 "
@@ -8721,7 +8701,7 @@ Log
 .
 i
 (
-LOG_NAME
+LOGTAG
 "
 configuration
 changed
@@ -8747,7 +8727,7 @@ Log
 .
 e
 (
-LOG_NAME
+LOGTAG
 "
 low
 memory
@@ -8980,7 +8960,7 @@ Log
 .
 i
 (
-LOG_NAME
+LOGTAG
 intent
 .
 toString
@@ -9010,7 +8990,7 @@ Log
 .
 i
 (
-LOG_NAME
+LOGTAG
 "
 error
 doing
@@ -9063,7 +9043,7 @@ Log
 .
 i
 (
-LOG_NAME
+LOGTAG
 "
 Checking
 for
@@ -9209,7 +9189,7 @@ Log
 .
 i
 (
-LOG_NAME
+LOGTAG
 "
 Update
 is
@@ -9300,7 +9280,7 @@ Log
 .
 i
 (
-LOG_NAME
+LOGTAG
 amCmd
 )
 ;
@@ -9326,7 +9306,7 @@ Log
 .
 i
 (
-LOG_NAME
+LOGTAG
 "
 Cannot
 rename
@@ -9353,7 +9333,7 @@ Log
 .
 i
 (
-LOG_NAME
+LOGTAG
 "
 error
 launching
@@ -9448,7 +9428,7 @@ Log
 .
 i
 (
-LOG_NAME
+LOGTAG
 "
 error
 writing
@@ -9528,7 +9508,7 @@ Log
 .
 i
 (
-LOG_NAME
+LOGTAG
 "
 error
 reading
@@ -9648,7 +9628,7 @@ Log
 .
 i
 (
-LOG_NAME
+LOGTAG
 "
 processing
 events
@@ -9675,7 +9655,7 @@ Log
 .
 i
 (
-LOG_NAME
+LOGTAG
 "
 showing
 file
@@ -9862,7 +9842,7 @@ Log
 .
 i
 (
-LOG_NAME
+LOGTAG
 "
 Reload
 requested
@@ -9910,7 +9890,7 @@ Log
 .
 i
 (
-LOG_NAME
+LOGTAG
 "
 Forward
 requested
@@ -9958,7 +9938,7 @@ Log
 .
 i
 (
-LOG_NAME
+LOGTAG
 "
 Stop
 requested
@@ -10420,7 +10400,7 @@ Log
 .
 e
 (
-LOG_NAME
+LOGTAG
 "
 showing
 file
@@ -10451,7 +10431,7 @@ Log
 .
 i
 (
-LOG_NAME
+LOGTAG
 "
 error
 returning
@@ -10550,7 +10530,7 @@ Log
 .
 i
 (
-LOG_NAME
+LOGTAG
 "
 Returning
 from
@@ -10779,7 +10759,7 @@ Log
 .
 d
 (
-LOG_NAME
+LOGTAG
 type
 .
 name

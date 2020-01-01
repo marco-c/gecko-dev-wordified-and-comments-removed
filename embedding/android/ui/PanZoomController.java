@@ -135,10 +135,10 @@ private
 static
 final
 String
-LOG_NAME
+LOGTAG
 =
 "
-PanZoomController
+GeckoPanZoomController
 "
 ;
 private
@@ -457,7 +457,7 @@ Log
 .
 e
 (
-LOG_NAME
+LOGTAG
 "
 Unhandled
 case
@@ -498,7 +498,7 @@ Log
 .
 e
 (
-LOG_NAME
+LOGTAG
 "
 Received
 impossible
@@ -573,7 +573,7 @@ Log
 .
 e
 (
-LOG_NAME
+LOGTAG
 "
 Unhandled
 case
@@ -614,7 +614,7 @@ Log
 .
 e
 (
-LOG_NAME
+LOGTAG
 "
 Received
 impossible
@@ -758,7 +758,7 @@ Log
 .
 e
 (
-LOG_NAME
+LOGTAG
 "
 Unhandled
 case
@@ -2871,7 +2871,7 @@ Log
 .
 w
 (
-LOG_NAME
+LOGTAG
 "
 Error
 building

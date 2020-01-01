@@ -129,10 +129,10 @@ private
 static
 final
 String
-LOG_NAME
+LOGTAG
 =
 "
-Tab
+GeckoTab
 "
 ;
 private
@@ -457,7 +457,7 @@ Log
 .
 i
 (
-LOG_NAME
+LOGTAG
 "
 Updated
 url
@@ -529,7 +529,7 @@ Log
 .
 i
 (
-LOG_NAME
+LOGTAG
 "
 Updated
 title
@@ -617,7 +617,7 @@ Log
 .
 e
 (
-LOG_NAME
+LOGTAG
 "
 Requested
 title
@@ -699,7 +699,7 @@ Log
 .
 i
 (
-LOG_NAME
+LOGTAG
 "
 Updated
 favicon
@@ -730,7 +730,7 @@ Log
 .
 i
 (
-LOG_NAME
+LOGTAG
 "
 Updated
 favicon
@@ -1283,7 +1283,7 @@ Log
 .
 e
 (
-LOG_NAME
+LOGTAG
 "
 Received
 unexpected
@@ -1331,7 +1331,7 @@ Log
 .
 e
 (
-LOG_NAME
+LOGTAG
 "
 Received
 unexpected
@@ -1394,7 +1394,7 @@ Log
 .
 e
 (
-LOG_NAME
+LOGTAG
 "
 Received
 unexpected

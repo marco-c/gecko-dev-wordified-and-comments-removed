@@ -79,6 +79,16 @@ public
 class
 GeckoEvent
 {
+private
+static
+final
+String
+LOGTAG
+=
+"
+GeckoEvent
+"
+;
 public
 static
 final
@@ -740,9 +750,7 @@ Log
 .
 i
 (
-"
-GeckoEvent
-"
+LOGTAG
 "
 SensorEvent
 type

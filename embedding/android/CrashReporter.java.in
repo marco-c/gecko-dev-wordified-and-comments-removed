@@ -612,6 +612,16 @@ private
 static
 final
 String
+LOGTAG
+=
+"
+GeckoCrashReporter
+"
+;
+private
+static
+final
+String
 PASSED_MINI_DUMP_KEY
 =
 "
@@ -706,16 +716,6 @@ submitted
 "
 ;
 private
-static
-final
-String
-LOG_NAME
-=
-"
-GeckoCrashReporter
-"
-;
-private
 Handler
 mHandler
 ;
@@ -753,7 +753,7 @@ Log
 .
 i
 (
-LOG_NAME
+LOGTAG
 "
 moving
 "
@@ -791,7 +791,7 @@ Log
 .
 i
 (
-LOG_NAME
+LOGTAG
 "
 couldn
 '
@@ -885,7 +885,7 @@ Log
 .
 e
 (
-LOG_NAME
+LOGTAG
 "
 exception
 while
@@ -1348,7 +1348,7 @@ Log
 .
 e
 (
-LOG_NAME
+LOGTAG
 "
 exception
 while
@@ -1667,7 +1667,7 @@ Log
 .
 e
 (
-LOG_NAME
+LOGTAG
 "
 Exception
 when
@@ -1854,7 +1854,7 @@ Log
 .
 i
 (
-LOG_NAME
+LOGTAG
 "
 sendReport
 :
@@ -1908,7 +1908,7 @@ Log
 .
 i
 (
-LOG_NAME
+LOGTAG
 "
 server
 url
@@ -2365,7 +2365,7 @@ Log
 .
 e
 (
-LOG_NAME
+LOGTAG
 "
 Exception
 while
@@ -2619,7 +2619,7 @@ Log
 .
 e
 (
-LOG_NAME
+LOGTAG
 "
 exception
 during
@@ -2683,7 +2683,7 @@ Log
 .
 i
 (
-LOG_NAME
+LOGTAG
 intent
 .
 toString
@@ -2707,7 +2707,7 @@ Log
 .
 e
 (
-LOG_NAME
+LOGTAG
 "
 error
 while

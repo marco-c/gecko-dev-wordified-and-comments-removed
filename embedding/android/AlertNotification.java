@@ -75,6 +75,16 @@ extends
 Notification
 {
 private
+static
+final
+String
+LOGTAG
+=
+"
+GeckoAlertNotification
+"
+;
+private
 final
 int
 mId
@@ -370,9 +380,7 @@ Log
 .
 e
 (
-"
-GeckoAlert
-"
+LOGTAG
 "
 failed
 to

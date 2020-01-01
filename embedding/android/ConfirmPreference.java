@@ -46,6 +46,16 @@ extends
 DialogPreference
 {
 private
+static
+final
+String
+LOGTAG
+=
+"
+GeckoConfirmPreference
+"
+;
+private
 String
 mAction
 =
@@ -243,9 +253,7 @@ Log
 .
 i
 (
-"
-GeckoPref
-"
+LOGTAG
 "
 action
 :
