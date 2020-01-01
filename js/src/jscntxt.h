@@ -3132,6 +3132,17 @@ wrap
 JSContext
 *
 cx
+JSPropertyOp
+*
+op
+)
+;
+bool
+wrap
+(
+JSContext
+*
+cx
 JSPropertyDescriptor
 *
 desc
