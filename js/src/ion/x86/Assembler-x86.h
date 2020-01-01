@@ -439,13 +439,6 @@ edx
 static
 const
 Register
-CallTempReg6
-=
-ebp
-;
-static
-const
-Register
 CallTempNonArgRegs
 [
 ]
