@@ -18380,6 +18380,14 @@ partition
 (
 )
 {
+if
+(
+failed
+(
+)
+)
+return
+;
 for
 (
 Node
