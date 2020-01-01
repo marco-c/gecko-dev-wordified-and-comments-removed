@@ -721,6 +721,9 @@ insertmacro
 SetBrandNameVars
 !
 insertmacro
+UpdateShortcutAppModelIDs
+!
+insertmacro
 UnloadUAC
 !
 insertmacro
