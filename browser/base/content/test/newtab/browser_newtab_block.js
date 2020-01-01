@@ -114,7 +114,8 @@ checkGrid
 "
 )
 ;
-reset
+yield
+restore
 (
 )
 ;
@@ -183,7 +184,8 @@ checkGrid
 "
 )
 ;
-reset
+yield
+restore
 (
 )
 ;
@@ -254,7 +256,8 @@ checkGrid
 "
 )
 ;
-reset
+yield
+restore
 (
 )
 ;
