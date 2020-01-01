@@ -475,12 +475,6 @@ GetTextAccessibleFromSelection
 nsISelection
 *
 aSelection
-nsINode
-*
-*
-aNode
-=
-nsnull
 )
 ;
 static
