@@ -472,9 +472,6 @@ class
 JSFlatString
 ;
 class
-JSStableString
-;
-class
 JSString
 ;
 #
