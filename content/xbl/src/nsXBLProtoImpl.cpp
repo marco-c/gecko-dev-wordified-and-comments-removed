@@ -1039,7 +1039,7 @@ CompileMember
 (
 context
 mClassName
-mClassObject
+classObject
 )
 ;
 if

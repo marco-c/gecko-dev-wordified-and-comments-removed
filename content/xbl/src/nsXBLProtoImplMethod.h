@@ -356,8 +356,14 @@ const
 nsCString
 &
 aClassStr
+JS
+:
+:
+Handle
+<
 JSObject
 *
+>
 aClassObject
 )
 ;
