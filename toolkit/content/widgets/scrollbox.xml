@@ -3334,7 +3334,6 @@ disableUpButton
 true
 ;
 }
-else
 if
 (
 this
