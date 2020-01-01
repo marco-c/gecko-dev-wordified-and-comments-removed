@@ -4071,14 +4071,6 @@ false
 ;
 }
 static
-uint8_t
-CharRangeBit
-(
-uint32_t
-ch
-)
-;
-static
 void
 GetPrefsFontList
 (
