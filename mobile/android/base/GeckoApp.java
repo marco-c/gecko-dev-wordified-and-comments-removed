@@ -10469,7 +10469,11 @@ null
 ;
 passedUri
 =
-null
+"
+about
+:
+empty
+"
 ;
 }
 sGeckoThread
