@@ -214,6 +214,11 @@ PlaybackEnded
 )
 ;
 void
+CanPlayThrough
+(
+)
+;
+void
 SeekStarted
 (
 )
@@ -269,13 +274,6 @@ const
 nsAString
 &
 aName
-)
-;
-void
-UpdateReadyStateForData
-(
-PRBool
-aNextFrameAvailable
 )
 ;
 void
