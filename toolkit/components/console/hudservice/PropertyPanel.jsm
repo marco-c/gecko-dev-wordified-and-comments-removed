@@ -67,9 +67,6 @@ PropertyPanel
 "
 PropertyTreeView
 "
-"
-namesAndValuesOf
-"
 ]
 ;
 const
