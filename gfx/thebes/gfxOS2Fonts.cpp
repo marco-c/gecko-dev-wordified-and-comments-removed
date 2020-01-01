@@ -3147,7 +3147,6 @@ gfxTextRun
 Create
 (
 aParams
-aString
 aLength
 this
 aFlags
@@ -3431,7 +3430,6 @@ gfxTextRun
 Create
 (
 aParams
-aString
 aLength
 this
 aFlags

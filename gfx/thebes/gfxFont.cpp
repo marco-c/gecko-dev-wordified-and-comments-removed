@@ -14640,7 +14640,6 @@ gfxTextRun
 Create
 (
 aParams
-nsnull
 0
 this
 aFlags
@@ -14671,14 +14670,6 @@ TEXT_IS_ASCII
 |
 TEXT_IS_PERSISTENT
 ;
-static
-const
-PRUint8
-space
-=
-'
-'
-;
 gfxTextRun
 *
 textRun
@@ -14689,8 +14680,6 @@ gfxTextRun
 Create
 (
 aParams
-&
-space
 1
 this
 aFlags
@@ -14773,10 +14762,6 @@ gfxFontGroup
 :
 MakeBlankTextRun
 (
-const
-void
-*
-aText
 PRUint32
 aLength
 const
@@ -14797,7 +14782,6 @@ gfxTextRun
 Create
 (
 aParams
-aText
 aLength
 this
 aFlags
@@ -14918,7 +14902,6 @@ size
 return
 MakeBlankTextRun
 (
-aString
 aLength
 aParams
 aFlags
@@ -14935,7 +14918,6 @@ gfxTextRun
 Create
 (
 aParams
-aString
 aLength
 this
 aFlags
@@ -15056,7 +15038,6 @@ size
 return
 MakeBlankTextRun
 (
-aString
 aLength
 aParams
 aFlags
@@ -15073,7 +15054,6 @@ gfxTextRun
 Create
 (
 aParams
-aString
 aLength
 this
 aFlags
@@ -19565,10 +19545,6 @@ gfxTextRunFactory
 Parameters
 *
 aParams
-const
-void
-*
-aText
 PRUint32
 aLength
 gfxFontGroup
@@ -19609,7 +19585,6 @@ storage
 gfxTextRun
 (
 aParams
-aText
 aLength
 aFontGroup
 aFlags
@@ -19628,10 +19603,6 @@ gfxTextRunFactory
 Parameters
 *
 aParams
-const
-void
-*
-aText
 PRUint32
 aLength
 gfxFontGroup
