@@ -4415,7 +4415,7 @@ test
 {
 requestLongerTimeout
 (
-2
+4
 )
 ;
 waitForExplicitFinish
