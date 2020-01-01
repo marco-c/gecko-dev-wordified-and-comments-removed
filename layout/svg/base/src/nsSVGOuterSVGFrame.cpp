@@ -1046,13 +1046,10 @@ if
 content
 -
 >
-HasAttr
+mViewBox
+.
+IsValid
 (
-kNameSpaceID_None
-nsGkAtoms
-:
-:
-viewBox
 )
 )
 {
@@ -1067,6 +1064,7 @@ mViewBox
 .
 GetAnimValue
 (
+content
 )
 ;
 float

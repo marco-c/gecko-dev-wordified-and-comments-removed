@@ -737,6 +737,10 @@ nsSVGViewBox
 .
 cpp
 \
+SVGViewBoxSMILType
+.
+cpp
+\
 (
 NULL
 )
