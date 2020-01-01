@@ -1239,6 +1239,10 @@ DOMCI_CLASS
 (
 HTMLAudioElement
 )
+DOMCI_CLASS
+(
+HTMLTimeRanges
+)
 #
 endif
 DOMCI_CLASS

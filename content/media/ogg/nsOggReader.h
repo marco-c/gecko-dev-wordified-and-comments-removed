@@ -53,6 +53,9 @@ class
 nsMediaDecoder
 ;
 class
+nsHTMLTimeRanges
+;
+class
 nsOggReader
 :
 public
@@ -195,6 +198,15 @@ PRInt64
 aEndTime
 )
 ;
+virtual
+nsresult
+GetBuffered
+(
+nsHTMLTimeRanges
+*
+aBuffered
+)
+;
 private
 :
 nsresult
@@ -281,9 +293,6 @@ mOggState
 ;
 PRInt64
 mPageOffset
-;
-PRUint32
-mCallbackPeriod
 ;
 PRInt64
 mTheoraGranulepos

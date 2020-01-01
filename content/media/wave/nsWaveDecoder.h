@@ -40,6 +40,9 @@ class
 nsWaveStateMachine
 ;
 class
+nsHTMLTimeRanges
+;
+class
 nsWaveDecoder
 :
 public
@@ -288,6 +291,15 @@ MoveLoadsToBackground
 void
 Stop
 (
+)
+;
+virtual
+nsresult
+GetBuffered
+(
+nsHTMLTimeRanges
+*
+aBuffered
 )
 ;
 private

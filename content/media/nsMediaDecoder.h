@@ -76,6 +76,9 @@ class
 nsIStreamListener
 ;
 class
+nsHTMLTimeRanges
+;
+class
 nsMediaDecoder
 :
 public
@@ -440,6 +443,17 @@ Image
 *
 aImage
 )
+;
+virtual
+nsresult
+GetBuffered
+(
+nsHTMLTimeRanges
+*
+aBuffered
+)
+=
+0
 ;
 PRBool
 CanPlayThrough
