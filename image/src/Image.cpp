@@ -336,10 +336,6 @@ mAnimationConsumers
 +
 +
 ;
-EvaluateAnimation
-(
-)
-;
 }
 void
 ImageResource
@@ -369,10 +365,6 @@ consumers
 mAnimationConsumers
 -
 -
-;
-EvaluateAnimation
-(
-)
 ;
 }
 nsresult
@@ -456,10 +448,6 @@ set
 mAnimationMode
 =
 aAnimationMode
-;
-EvaluateAnimation
-(
-)
 ;
 return
 NS_OK

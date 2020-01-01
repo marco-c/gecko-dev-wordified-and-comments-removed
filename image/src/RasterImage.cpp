@@ -2633,10 +2633,6 @@ aTime
 if
 (
 !
-mAnimating
-|
-|
-!
 ShouldAnimate
 (
 )
@@ -2646,6 +2642,10 @@ return
 ;
 }
 EnsureAnimExists
+(
+)
+;
+EvaluateAnimation
 (
 )
 ;
@@ -5209,10 +5209,6 @@ imageLength
 paletteData
 paletteLength
 aRetFrame
-)
-;
-EvaluateAnimation
-(
 )
 ;
 return

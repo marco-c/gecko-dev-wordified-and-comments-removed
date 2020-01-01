@@ -1781,6 +1781,10 @@ TimeStamp
 aTime
 )
 {
+EvaluateAnimation
+(
+)
+;
 }
 NS_IMETHODIMP
 VectorImage
