@@ -495,6 +495,10 @@ SVGEllipseElement
 .
 webidl
 \
+SVGFitToViewBox
+.
+webidl
+\
 SVGForeignObjectElement
 .
 webidl
@@ -632,6 +636,14 @@ SVGTSpanElement
 webidl
 \
 SVGURIReference
+.
+webidl
+\
+SVGViewElement
+.
+webidl
+\
+SVGZoomAndPan
 .
 webidl
 \
