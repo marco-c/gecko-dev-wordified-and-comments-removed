@@ -921,12 +921,6 @@ NIns
 *
 fragEntry
 ;
-LInsp
-state
-param1
-sp
-rp
-;
 int32_t
 calldepth
 ;
