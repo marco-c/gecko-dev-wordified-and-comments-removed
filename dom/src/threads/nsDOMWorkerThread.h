@@ -336,6 +336,9 @@ class
 nsDOMWorkerTimeout
 ;
 class
+nsDOMWorkerXHR
+;
+class
 nsDOMWorkerThread
 :
 public
