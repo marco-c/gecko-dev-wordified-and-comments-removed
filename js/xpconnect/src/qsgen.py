@@ -1392,20 +1392,8 @@ not
 scriptable
 .
 "
-                            
-"
-IDL
-file
-:
 %
-r
-.
-"
-%
-(
 interfaceName
-idlFile
-)
 )
         
 if
@@ -1473,29 +1461,6 @@ member
 .
 noscript
 :
-                    
-cmc
-=
-conf
-.
-customMethodCalls
-.
-get
-(
-interfaceName
-+
-"
-_
-"
-+
-header
-.
-methodNativeName
-(
-member
-)
-None
-)
                     
 addStubMember
 (
@@ -1630,29 +1595,6 @@ once
                                     
 %
 memberId
-)
-                
-cmc
-=
-conf
-.
-customMethodCalls
-.
-get
-(
-interfaceName
-+
-"
-_
-"
-+
-header
-.
-methodNativeName
-(
-member
-)
-None
 )
                 
 addStubMember
@@ -9614,10 +9556,6 @@ basename
 headerFilename
 )
 )
-        
-N
-=
-256
         
 resulttypes
 =

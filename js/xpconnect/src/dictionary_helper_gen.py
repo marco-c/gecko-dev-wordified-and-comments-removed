@@ -1,11 +1,7 @@
 import
 sys
 os
-.
-path
-re
 xpidl
-itertools
 make_dependencies
 =
 [
@@ -2135,6 +2131,8 @@ attribute
 defvalue
         
 raise
+xpidl
+.
 IDLError
 (
 "
