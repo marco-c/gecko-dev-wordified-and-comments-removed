@@ -8955,6 +8955,7 @@ IsHTML
 )
 |
 |
+(
 content
 -
 >
@@ -9023,6 +9024,7 @@ nsGkAtoms
 :
 :
 table
+)
 )
 {
 break
