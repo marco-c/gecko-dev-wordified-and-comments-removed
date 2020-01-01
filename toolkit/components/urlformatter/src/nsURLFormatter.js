@@ -885,6 +885,19 @@ aPref
 &
 /
 ^
+(
+data
+:
+text
+\
+/
+plain
+.
++
+=
+.
++
+|
 chrome
 :
 \
@@ -903,6 +916,7 @@ locale
 \
 .
 properties
+)
 /
 .
 test
