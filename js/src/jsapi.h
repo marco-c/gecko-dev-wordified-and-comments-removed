@@ -12855,7 +12855,7 @@ JS_PUBLIC_API
 JSObject
 *
 )
-JS_NewCompartmentAndGlobalObject
+JS_NewGlobalObject
 (
 JSContext
 *

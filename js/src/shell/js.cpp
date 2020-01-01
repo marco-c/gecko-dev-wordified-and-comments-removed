@@ -13462,7 +13462,7 @@ RootedObject
 obj
 (
 cx
-JS_NewCompartmentAndGlobalObject
+JS_NewGlobalObject
 (
 cx
 &
@@ -24149,7 +24149,7 @@ RootedObject
 glob
 (
 cx
-JS_NewCompartmentAndGlobalObject
+JS_NewGlobalObject
 (
 cx
 &

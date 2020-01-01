@@ -152,7 +152,7 @@ CHECK
 (
 o
 =
-JS_NewCompartmentAndGlobalObject
+JS_NewGlobalObject
 (
 cx
 &
