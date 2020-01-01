@@ -671,6 +671,10 @@ test_0142_notify_invalidCertAttrs_hasUpdate
 .
 xul
 \
+test_0151_notify_backgroundCheckError
+.
+xul
+\
 test_9999_cleanup
 .
 xul

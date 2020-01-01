@@ -262,10 +262,15 @@ pageid
 PAGEID_ERROR_EXTRA
 extraDelayedCheckFunction
 :
-checkCertErrorPage
+checkErrorExtraPage
 shouldBeHidden
 :
 false
+displayedTextElem
+:
+"
+errorCertCheckNoUpdateLabel
+"
 buttonClick
 :
 "
