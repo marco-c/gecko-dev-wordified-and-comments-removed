@@ -2448,6 +2448,9 @@ float
 mFullZoom
 ;
 PRInt32
+mCurAppUnitsPerDevPixel
+;
+PRInt32
 mAutoQualityMinFontSizePixelsPref
 ;
 #
