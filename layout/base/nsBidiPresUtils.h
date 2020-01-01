@@ -522,6 +522,10 @@ aNewFrame
 PRInt32
 &
 aFrameIndex
+PRInt32
+aStart
+PRInt32
+aEnd
 )
 ;
 void
