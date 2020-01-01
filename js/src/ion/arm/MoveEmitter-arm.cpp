@@ -401,7 +401,7 @@ spilledReg_
 ;
 spilledReg_
 =
-r12
+r14
 ;
 if
 (

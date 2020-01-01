@@ -572,6 +572,13 @@ false
 static
 const
 uint32_t
+CodeAlignment
+=
+8
+;
+static
+const
+uint32_t
 NativeFrameSize
 =
 sizeof
@@ -590,6 +597,13 @@ sizeof
 void
 *
 )
+;
+static
+const
+uint32_t
+AlignmentMidPrologue
+=
+AlignmentAtPrologue
 ;
 struct
 ImmTag

@@ -69,13 +69,6 @@ js
 namespace
 ion
 {
-static
-const
-int
-CodeAlignment
-=
-8
-;
 class
 Linker
 {

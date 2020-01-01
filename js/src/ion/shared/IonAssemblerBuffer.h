@@ -343,9 +343,6 @@ Inst
 >
 struct
 AssemblerBuffer
-:
-public
-IonAllocPolicy
 {
 public
 :
@@ -372,6 +369,10 @@ false
 bufferSize
 (
 0
+)
+LifoAlloc_
+(
+8192
 )
 {
 }
@@ -458,6 +459,9 @@ Slice
 *
 newSlice
 (
+LifoAlloc
+&
+a
 )
 {
 Slice
@@ -470,7 +474,9 @@ Slice
 *
 >
 (
-malloc_
+a
+.
+alloc
 (
 sizeof
 (
@@ -539,6 +545,7 @@ tmp
 =
 newSlice
 (
+LifoAlloc_
 )
 ;
 if
@@ -1003,6 +1010,7 @@ tmp
 =
 newSlice
 (
+LifoAlloc_
 )
 ;
 if
@@ -1130,6 +1138,11 @@ bo
 ;
 }
 }
+;
+public
+:
+LifoAlloc
+LifoAlloc_
 ;
 }
 ;

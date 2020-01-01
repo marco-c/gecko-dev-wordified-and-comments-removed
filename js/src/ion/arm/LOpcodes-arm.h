@@ -60,5 +60,15 @@ _
 (
 UInt32ToDouble
 )
+\
+_
+(
+AsmJSDivOrMod
+)
+\
+_
+(
+AsmJSLoadFuncPtr
+)
 #
 endif

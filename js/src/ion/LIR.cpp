@@ -35,6 +35,17 @@ inl
 .
 h
 "
+#
+include
+"
+shared
+/
+CodeGenerator
+-
+shared
+.
+h
+"
 using
 namespace
 js
