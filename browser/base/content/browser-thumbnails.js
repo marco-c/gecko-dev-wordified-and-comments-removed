@@ -651,6 +651,8 @@ if
 httpChannel
 )
 {
+try
+{
 if
 (
 Math
@@ -670,6 +672,16 @@ responseStatus
 return
 false
 ;
+}
+catch
+(
+e
+)
+{
+return
+false
+;
+}
 if
 (
 httpChannel
