@@ -8,6 +8,8 @@ from
 select
 import
 select
+import
+config
 def
 GenerateFirefoxCommandLine
 (
