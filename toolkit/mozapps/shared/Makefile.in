@@ -413,6 +413,13 @@ srcdir
 VPATH
 =
 srcdir
+relativesrcdir
+=
+toolkit
+/
+mozapps
+/
+shared
 include
 (
 DEPTH
@@ -448,6 +455,11 @@ DIRS
 test
 /
 chrome
+XPCSHELL_TESTS
+=
+test
+/
+unit
 endif
 include
 (
