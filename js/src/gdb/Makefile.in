@@ -208,6 +208,12 @@ topsrcdir
 I
 .
 .
+EXTRA_LIBS
++
+=
+(
+MOZ_FFI_LIBS
+)
 #
 Place
 a

@@ -444,6 +444,12 @@ topsrcdir
 I
 .
 .
+EXTRA_LIBS
++
+=
+(
+MOZ_FFI_LIBS
+)
 ifdef
 QEMU_EXE
 MOZ_POST_PROGRAM_COMMAND
