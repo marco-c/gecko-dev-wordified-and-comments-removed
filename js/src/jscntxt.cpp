@@ -4488,10 +4488,6 @@ stackIterAssertionEnabled
 (
 true
 )
-okToAccessUnaliasedBindings
-(
-0
-)
 #
 endif
 activeCompilations
