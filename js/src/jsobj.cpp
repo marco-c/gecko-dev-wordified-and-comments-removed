@@ -27745,15 +27745,11 @@ JSObject
 obj
 )
 {
-JS_ASSERT
-(
+obj
+=
 js_GetWrappedObject
 (
 cx
-obj
-)
-=
-=
 obj
 )
 ;
