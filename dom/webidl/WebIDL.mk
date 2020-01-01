@@ -255,6 +255,10 @@ HTMLDivElement
 .
 webidl
 \
+HTMLDListElement
+.
+webidl
+\
 HTMLDocument
 .
 webidl
@@ -283,6 +287,10 @@ HTMLLabelElement
 .
 webidl
 \
+HTMLOListElement
+.
+webidl
+\
 HTMLOptionsCollection
 .
 webidl
@@ -292,6 +300,10 @@ HTMLPropertiesCollection
 webidl
 \
 HTMLTitleElement
+.
+webidl
+\
+HTMLUListElement
 .
 webidl
 \
