@@ -125,6 +125,15 @@ h
 #
 include
 "
+mozilla
+/
+Attributes
+.
+h
+"
+#
+include
+"
 nsXULAppAPI
 .
 h
@@ -413,6 +422,7 @@ mPermissions
 }
 class
 CloseDatabaseListener
+MOZ_FINAL
 :
 public
 mozIStorageCompletionCallback
@@ -518,6 +528,7 @@ NS_OK
 }
 class
 DeleteFromMozHostListener
+MOZ_FINAL
 :
 public
 mozIStorageStatementCallback
