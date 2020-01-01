@@ -2640,15 +2640,6 @@ Android
 9
 61
 )
-fuzzy
--
-if
-(
-!
-contentSameGfxBackendAsCanvas
-1
-99
-)
 =
 =
 non
