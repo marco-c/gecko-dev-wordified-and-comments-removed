@@ -802,7 +802,7 @@ AsyncStatement
 (
 )
 {
-internalAsyncFinalize
+destructorAsyncFinalize
 (
 )
 ;

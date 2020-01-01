@@ -158,7 +158,7 @@ asyncFinalize
 )
 ;
 void
-internalAsyncFinalize
+destructorAsyncFinalize
 (
 )
 ;

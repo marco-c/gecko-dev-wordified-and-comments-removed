@@ -1446,7 +1446,7 @@ if
 (
 aDestructing
 )
-internalAsyncFinalize
+destructorAsyncFinalize
 (
 )
 ;
