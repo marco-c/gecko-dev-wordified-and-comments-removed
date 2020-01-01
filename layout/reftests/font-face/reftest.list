@@ -1265,7 +1265,6 @@ base
 ref
 .
 html
-random
 HTTP
 (
 .
@@ -1293,11 +1292,6 @@ switch
 ref
 .
 html
-#
-failure
-is
-bug
-468217
 HTTP
 (
 .
