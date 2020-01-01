@@ -1773,9 +1773,6 @@ fe
 struct
 StackEntryExtra
 {
-bool
-initArray
-;
 JSObject
 *
 initObject

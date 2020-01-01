@@ -3464,7 +3464,7 @@ jsop_initprop
 )
 ;
 void
-jsop_initelem
+jsop_initelem_array
 (
 )
 ;
