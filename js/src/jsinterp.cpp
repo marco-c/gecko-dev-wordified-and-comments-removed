@@ -1138,7 +1138,6 @@ NULL
 NULL
 }
 ;
-JS_STATIC_INTERPRET
 JSBool
 js_OnUnknownMethod
 (
@@ -6271,7 +6270,6 @@ return
 NULL
 ;
 }
-JS_STATIC_INTERPRET
 JS_REQUIRES_STACK
 JSBool
 js_UnwindScope
