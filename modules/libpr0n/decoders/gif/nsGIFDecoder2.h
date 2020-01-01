@@ -239,6 +239,9 @@ mLastFlushedPass
 PRPackedBool
 mGIFOpen
 ;
+PRPackedBool
+mSawTransparency
+;
 gif_struct
 mGIFStruct
 ;

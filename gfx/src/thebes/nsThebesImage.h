@@ -468,6 +468,9 @@ mImageComplete
 PRPackedBool
 mSinglePixel
 ;
+PRPackedBool
+mFormatChanged
+;
 #
 ifdef
 XP_WIN

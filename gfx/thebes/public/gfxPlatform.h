@@ -128,6 +128,11 @@ OptimizeImage
 gfxImageSurface
 *
 aSurface
+gfxASurface
+:
+:
+gfxImageFormat
+format
 )
 ;
 virtual
