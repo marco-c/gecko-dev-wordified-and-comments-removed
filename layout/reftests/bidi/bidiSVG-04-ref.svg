@@ -54,6 +54,13 @@ bidi
 -
 override
 "
+text
+-
+anchor
+=
+"
+end
+"
 >
 &
 #
