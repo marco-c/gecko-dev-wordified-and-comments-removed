@@ -677,7 +677,6 @@ GetScopeChain
 (
 cx
 fp
-ORIGIN_GET_SCOPE_CHAIN_API
 )
 ;
 }
@@ -1133,8 +1132,6 @@ fp
 JSObject
 *
 blockChain
-Origins
-origin
 )
 {
 JSObject
@@ -1256,7 +1253,6 @@ js_GetCallObject
 (
 cx
 fp
-origin
 )
 )
 return
@@ -1508,8 +1504,6 @@ cx
 JSStackFrame
 *
 fp
-Origins
-origin
 )
 {
 return
@@ -1522,7 +1516,6 @@ GetBlockChain
 cx
 fp
 )
-origin
 )
 ;
 }
@@ -1543,8 +1536,6 @@ JSOp
 op
 size_t
 oplen
-Origins
-origin
 )
 {
 return
@@ -1559,7 +1550,6 @@ fp
 op
 oplen
 )
-origin
 )
 ;
 }
@@ -3162,7 +3152,6 @@ js_GetCallObject
 (
 cx
 fp
-ORIGIN_INVOKE
 )
 )
 return
@@ -4330,7 +4319,6 @@ bindings
 *
 initialVarObj
 NULL
-ORIGIN_EXEC
 )
 ;
 if
@@ -6455,7 +6443,6 @@ JSOP_EVAL
 JSOP_EVAL_LENGTH
 +
 JSOP_LINENO_LENGTH
-ORIGIN_DEVAL
 )
 ;
 if
@@ -6735,7 +6722,6 @@ cx
 fp
 op
 oplen
-ORIGIN_WITH
 )
 ;
 if
@@ -25597,7 +25583,6 @@ cx
 regs
 .
 fp
-ORIGIN_INTERP
 )
 )
 goto
@@ -28815,7 +28800,6 @@ regs
 fp
 JSOP_DEFFUN
 JSOP_DEFFUN_LENGTH
-ORIGIN_DEFFUN
 )
 ;
 if
@@ -29393,7 +29377,6 @@ regs
 fp
 JSOP_DEFLOCALFUN
 JSOP_DEFLOCALFUN_LENGTH
-ORIGIN_DEFLOCALFUN
 )
 ;
 if
@@ -30196,7 +30179,6 @@ regs
 fp
 JSOP_LAMBDA
 JSOP_LAMBDA_LENGTH
-ORIGIN_LAMBDA
 )
 ;
 if
