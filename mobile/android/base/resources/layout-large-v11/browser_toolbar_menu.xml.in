@@ -520,6 +520,13 @@ id
 /
 menu
 "
+android
+:
+layout_alignWithParentIfMissing
+=
+"
+true
+"
 /
 >
 <
