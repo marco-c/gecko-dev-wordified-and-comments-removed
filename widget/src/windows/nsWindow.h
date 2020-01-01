@@ -1252,6 +1252,13 @@ aNewParent
 ;
 protected
 :
+enum
+{
+eFakeTrackPointScrollableID
+=
+0x46545053
+}
+;
 static
 LRESULT
 CALLBACK
