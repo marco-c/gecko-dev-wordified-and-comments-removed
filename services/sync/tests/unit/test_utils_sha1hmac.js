@@ -99,7 +99,7 @@ ret
 ;
 }
 function
-test_sha1_hmac
+run_test
 (
 )
 {
@@ -440,16 +440,6 @@ kk
 d
 .
 digest
-)
-;
-}
-function
-run_test
-(
-)
-{
-test_sha1_hmac
-(
 )
 ;
 }
