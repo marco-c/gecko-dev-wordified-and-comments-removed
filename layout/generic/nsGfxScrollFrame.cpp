@@ -9057,15 +9057,6 @@ document
 if
 (
 htmlDoc
-&
-&
-!
-document
--
->
-IsCaseSensitive
-(
-)
 )
 {
 nsCOMPtr
