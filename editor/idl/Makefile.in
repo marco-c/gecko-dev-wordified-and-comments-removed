@@ -418,10 +418,6 @@ GRE_MODULE
 XPIDLSRCS
 =
 \
-nsICiter
-.
-idl
-\
 nsIDocumentStateListener
 .
 idl
