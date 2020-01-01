@@ -6340,6 +6340,12 @@ nextID
 _inited
 :
 false
+_activeGroup
+:
+null
+_activeOrphanTab
+:
+null
 init
 :
 function
