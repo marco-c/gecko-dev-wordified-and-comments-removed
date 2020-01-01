@@ -5436,6 +5436,8 @@ rv
 ;
 PRInt64
 parentFolder
+=
+root
 ;
 nsCOMPtr
 <
@@ -5580,10 +5582,6 @@ NS_ENSURE_SUCCESS
 rv
 rv
 )
-;
-parentFolder
-=
-root
 ;
 }
 #
