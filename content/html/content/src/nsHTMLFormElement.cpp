@@ -7970,7 +7970,13 @@ listSupports
 =
 do_QueryInterface
 (
+static_cast
+<
+nsIDOMNodeList
+>
+(
 list
+)
 )
 ;
 NS_ENSURE_TRUE
