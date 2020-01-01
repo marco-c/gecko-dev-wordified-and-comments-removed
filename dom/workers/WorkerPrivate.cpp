@@ -4169,6 +4169,15 @@ false
 }
 if
 (
+!
+JSREPORT_IS_WARNING
+(
+aFlags
+)
+)
+{
+if
+(
 aTarget
 )
 {
@@ -4421,6 +4430,7 @@ preventDefaultCalled
 return
 true
 ;
+}
 }
 }
 if
