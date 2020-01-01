@@ -1108,6 +1108,11 @@ PostPresent
 (
 )
 ;
+void
+BeginTabSwitch
+(
+)
+;
 static
 bool
 IsLogEnabled
@@ -1220,6 +1225,9 @@ nsTArray
 float
 >
 mFrameTimes
+;
+TimeStamp
+mTabSwitchStart
 ;
 }
 ;
