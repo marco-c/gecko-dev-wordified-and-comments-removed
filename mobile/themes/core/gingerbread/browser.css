@@ -6899,10 +6899,6 @@ context
 command
 pageaction
 {
-color
-:
-black
-;
 -
 moz
 -
@@ -7084,6 +7080,10 @@ true
 "
 ]
 {
+color
+:
+black
+;
 background
 :
 transparent
@@ -7386,6 +7386,10 @@ size
 font_normal
 !
 important
+;
+color
+:
+black
 ;
 }
 .
