@@ -95,7 +95,7 @@ nanojit
 #
 define
 NJ_MAX_STACK_ENTRY
-256
+16384
 #
 define
 NJ_ALIGN_STACK

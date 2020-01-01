@@ -30,6 +30,17 @@ _entries
 NJ_MAX_STACK_ENTRY
 ]
 ;
+#
+ifdef
+_DEBUG
+static
+LIns
+*
+const
+BAD_ENTRY
+;
+#
+endif
 bool
 isEmptyRange
 (
@@ -80,6 +91,11 @@ ins
 #
 ifdef
 _DEBUG
+void
+validate
+(
+)
+;
 bool
 isValidEntry
 (
@@ -1596,8 +1612,7 @@ ins
 )
 {
 return
-stack_direction
-(
+-
 4
 *
 int32_t
@@ -1607,7 +1622,6 @@ ins
 >
 getArIndex
 (
-)
 )
 )
 ;
