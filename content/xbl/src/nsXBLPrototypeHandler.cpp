@@ -4291,8 +4291,6 @@ uri
 =
 mPrototypeBinding
 ?
-uri
-=
 mPrototypeBinding
 -
 >
