@@ -768,9 +768,7 @@ aTree
 .
 selectedNode
 aEvent
-tbo
-.
-view
+aTree
 )
 ;
 }
@@ -818,9 +816,7 @@ aTree
 .
 selectedNode
 aEvent
-tbo
-.
-view
+aTree
 )
 ;
 }

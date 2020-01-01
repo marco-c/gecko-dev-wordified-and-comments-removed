@@ -3712,6 +3712,11 @@ rtl
 "
 ;
 }
+get
+ownerWindow
+(
+)
+window
 _mayAddCommandsItems
 :
 function
