@@ -201,6 +201,8 @@ PRBool
 aSyncLoad
 PRBool
 aAllowUnsafeRules
+PRBool
+aUseSystemPrincipal
 nsICSSLoaderObserver
 *
 aObserver
@@ -288,6 +290,11 @@ mWasAlternate
 ;
 PRPackedBool
 mAllowUnsafeRules
+:
+1
+;
+PRPackedBool
+mUseSystemPrincipal
 :
 1
 ;
@@ -767,6 +774,8 @@ nsIURI
 aURL
 PRBool
 aAllowUnsafeRules
+PRBool
+aUseSystemPrincipal
 nsICSSStyleSheet
 *
 *
@@ -975,6 +984,8 @@ nsIURI
 aURL
 PRBool
 aAllowUnsafeRules
+PRBool
+aUseSystemPrincipal
 nsIPrincipal
 *
 aOriginPrincipal

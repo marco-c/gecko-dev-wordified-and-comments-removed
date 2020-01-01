@@ -1009,6 +1009,7 @@ LoadSheetSync
 (
 aURI
 aEnableUnsafeRules
+PR_TRUE
 getter_AddRefs
 (
 aSheet
