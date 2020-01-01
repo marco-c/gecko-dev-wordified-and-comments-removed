@@ -786,6 +786,9 @@ nsBlockFrame
 (
 )
 ;
+#
+ifdef
+DEBUG
 already_AddRefed
 <
 nsStyleContext
@@ -817,6 +820,8 @@ mStyleContext
 )
 ;
 }
+#
+endif
 virtual
 void
 PaintTextDecorationLine

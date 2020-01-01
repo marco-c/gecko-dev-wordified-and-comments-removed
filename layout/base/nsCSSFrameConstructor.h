@@ -2053,6 +2053,14 @@ aStyleContext
 )
 ;
 PRBool
+HaveFirstLetterStyle
+(
+nsIFrame
+*
+aBlockFrame
+)
+;
+PRBool
 HaveFirstLineStyle
 (
 nsIContent
