@@ -305,8 +305,8 @@ items
 cert
 "
 (
-Mozilla
-Testing
+Object
+Signer
 )
 "
 "
@@ -404,8 +404,8 @@ items
 cert
 "
 (
-Mozilla
-Testing
+Object
+Signer
 )
 "
 "
