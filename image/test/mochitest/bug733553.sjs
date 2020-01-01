@@ -426,6 +426,19 @@ request
 response
 )
 {
+if
+(
+!
+getSharedState
+(
+"
+next
+-
+part
+"
+)
+)
+{
 setSharedState
 (
 "
@@ -439,6 +452,7 @@ part
 "
 )
 ;
+}
 response
 .
 setHeader
