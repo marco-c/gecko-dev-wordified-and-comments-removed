@@ -650,16 +650,6 @@ function
 )
 )
 ;
-if
-(
-nparents
-=
-=
-0
-)
-return
-NULL
-;
 StringBuffer
 buf
 (
@@ -698,7 +688,7 @@ return
 fun
 -
 >
-atom
+displayAtom
 (
 )
 ;

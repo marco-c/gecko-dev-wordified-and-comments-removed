@@ -563,6 +563,16 @@ insideUseAsm
 :
 1
 ;
+bool
+usesArguments
+:
+1
+;
+bool
+usesApply
+:
+1
+;
 FunctionContextFlags
 funCxFlags
 ;

@@ -9774,6 +9774,15 @@ true
 }
 masm
 .
+branchIfFunctionHasNoScript
+(
+calleereg
+&
+uncompiled
+)
+;
+masm
+.
 loadPtr
 (
 Address

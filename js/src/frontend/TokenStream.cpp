@@ -2521,6 +2521,7 @@ userbuf
 .
 addressOfNextRawChar
 (
+true
 )
 ;
 pos
@@ -2623,6 +2624,7 @@ setAddressOfNextRawChar
 pos
 .
 buf
+true
 )
 ;
 flags
@@ -2724,6 +2726,12 @@ other
 .
 srcCoords
 )
+;
+lastFunctionKeyword
+=
+other
+.
+lastFunctionKeyword
 ;
 seek
 (

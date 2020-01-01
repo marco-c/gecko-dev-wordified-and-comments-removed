@@ -26344,6 +26344,8 @@ CompileOptions
 JSContext
 *
 cx
+JSVersion
+version
 )
 :
 principals
@@ -26356,6 +26358,13 @@ NULL
 )
 version
 (
+version
+!
+=
+JSVERSION_UNKNOWN
+?
+version
+:
 cx
 -
 >

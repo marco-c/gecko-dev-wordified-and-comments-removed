@@ -37120,7 +37120,7 @@ exitDatum
 fun
 -
 >
-isInterpreted
+hasScript
 (
 )
 )
