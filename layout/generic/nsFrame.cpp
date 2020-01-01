@@ -21505,7 +21505,7 @@ PresContext
 )
 -
 >
-GetDisplayRootPresContext
+GetRootPresContext
 (
 )
 ;
