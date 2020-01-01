@@ -2806,6 +2806,11 @@ id
 "
 btUrlText
 "
+crop
+=
+"
+center
+"
 class
 =
 "
