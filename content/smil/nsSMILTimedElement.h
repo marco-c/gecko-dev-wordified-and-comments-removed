@@ -725,6 +725,10 @@ nsSMILInterval
 *
 aPrevInterval
 const
+nsSMILInterval
+*
+aReplacedInterval
+const
 nsSMILInstanceTime
 *
 aFixedBeginTime
