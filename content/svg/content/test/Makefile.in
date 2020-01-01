@@ -442,6 +442,10 @@ test_text_selection
 .
 html
 \
+test_text_update
+.
+html
+\
 text
 -
 helper
