@@ -3661,7 +3661,6 @@ op
 =
 LIR_addxov
 )
-{
 ADDCC
 (
 rr
@@ -3669,7 +3668,6 @@ L2
 rr
 )
 ;
-}
 else
 if
 (
@@ -3691,7 +3689,6 @@ L2
 rr
 )
 ;
-}
 else
 if
 (
@@ -4344,21 +4341,6 @@ break
 ;
 )
 }
-}
-else
-if
-(
-op
-=
-=
-LIR_qcmov
-)
-{
-NanoAssert
-(
-0
-)
-;
 }
 findSpecificRegFor
 (
