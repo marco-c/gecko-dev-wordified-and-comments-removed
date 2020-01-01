@@ -701,10 +701,6 @@ nsIContentSecurityPolicy
 .
 idl
 \
-nsIFrameMessageManager
-.
-idl
-\
 (
 NULL
 )

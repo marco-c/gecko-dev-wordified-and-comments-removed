@@ -4092,9 +4092,6 @@ characterSet
 IsEmpty
 (
 )
-&
-&
-aDocument
 )
 {
 characterSet
