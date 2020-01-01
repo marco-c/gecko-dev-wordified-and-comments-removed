@@ -4515,7 +4515,7 @@ Length
 4
 )
 {
-PRInt32
+nsresult
 error
 ;
 PRUint32

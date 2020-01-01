@@ -358,7 +358,7 @@ nsTString_CharT
 :
 ToInteger
 (
-PRInt32
+nsresult
 *
 aErrorCode
 PRUint32

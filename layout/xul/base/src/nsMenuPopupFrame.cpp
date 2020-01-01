@@ -2942,7 +2942,7 @@ top
 top
 )
 ;
-PRInt32
+nsresult
 err
 ;
 if
@@ -8042,7 +8042,7 @@ top
 top
 )
 ;
-PRInt32
+nsresult
 err1
 err2
 ;

@@ -6534,7 +6534,7 @@ nsIRequest
 aRequest
 PRUint32
 aStateFlags
-PRUint32
+nsresult
 aStatus
 )
 {

@@ -595,7 +595,7 @@ SetMountPoint
 mntPoint
 )
 ;
-PRInt32
+nsresult
 errCode
 ;
 nsCString
@@ -663,7 +663,7 @@ to
 )
 )
 {
-PRInt32
+nsresult
 errCode
 ;
 token

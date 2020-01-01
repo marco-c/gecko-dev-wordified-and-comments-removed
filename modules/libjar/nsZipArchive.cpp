@@ -1562,7 +1562,7 @@ return
 rv
 ;
 }
-PRInt32
+nsresult
 nsZipArchive
 :
 :

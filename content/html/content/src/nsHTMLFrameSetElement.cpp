@@ -1243,7 +1243,7 @@ mValue
 }
 else
 {
-PRInt32
+nsresult
 err
 ;
 specs

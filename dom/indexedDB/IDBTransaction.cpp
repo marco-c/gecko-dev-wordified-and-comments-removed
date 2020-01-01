@@ -1490,7 +1490,7 @@ SAVEPOINT_NAME
 NS_ENSURE_TRUE
 (
 stmt
-false
+NS_OK
 )
 ;
 mozStorageStatementScoper
@@ -1512,7 +1512,7 @@ Execute
 NS_ENSURE_SUCCESS
 (
 rv
-false
+NS_OK
 )
 ;
 -

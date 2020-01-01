@@ -682,7 +682,7 @@ OnStateChange
 nullptr
 nullptr
 aFlag
-0
+NS_OK
 )
 ;
 }

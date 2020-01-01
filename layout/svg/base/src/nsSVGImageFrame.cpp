@@ -1620,7 +1620,7 @@ node
 )
 ;
 return
-false
+NS_OK
 ;
 }
 rootSVGElem

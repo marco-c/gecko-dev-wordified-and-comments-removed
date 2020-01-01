@@ -4109,7 +4109,7 @@ if
 child
 )
 return
-false
+NS_OK
 ;
 AddRef
 (
@@ -6337,7 +6337,7 @@ if
 child
 )
 return
-false
+NS_OK
 ;
 r
 -

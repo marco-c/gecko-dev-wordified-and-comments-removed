@@ -1444,7 +1444,7 @@ nsUrlClassifierStreamUpdater
 :
 UpdateError
 (
-PRUint32
+nsresult
 result
 )
 {
@@ -1795,6 +1795,9 @@ code
 )
 )
 ;
+PRUint32
+requestStatus
+;
 rv
 =
 httpChannel
@@ -1803,7 +1806,7 @@ httpChannel
 GetResponseStatus
 (
 &
-status
+requestStatus
 )
 ;
 NS_ENSURE_SUCCESS
@@ -1816,7 +1819,7 @@ strStatus
 .
 AppendInt
 (
-status
+requestStatus
 )
 ;
 downloadError

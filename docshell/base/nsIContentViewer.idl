@@ -217,8 +217,7 @@ void
 loadComplete
 (
 in
-unsigned
-long
+nsresult
 aStatus
 )
 ;

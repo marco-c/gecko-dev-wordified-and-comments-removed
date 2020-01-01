@@ -1713,7 +1713,7 @@ n
 )
 ;
 return
-0
+NS_OK
 ;
 }
 PLDHashOperator

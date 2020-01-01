@@ -9743,7 +9743,7 @@ static
 JSBool
 Throw
 (
-unsigned
+nsresult
 errNum
 XPCCallContext
 &
@@ -11834,7 +11834,7 @@ v
 =
 JSVAL_NULL
 ;
-unsigned
+nsresult
 err
 ;
 JSBool
@@ -12600,7 +12600,7 @@ return
 false
 ;
 }
-unsigned
+nsresult
 err
 ;
 if
@@ -13023,7 +13023,7 @@ param_iid
 return
 false
 ;
-unsigned
+nsresult
 err
 ;
 if

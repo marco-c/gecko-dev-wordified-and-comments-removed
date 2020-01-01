@@ -201,7 +201,7 @@ static
 nsresult
 ThrowAndFail
 (
-unsigned
+nsresult
 errNum
 JSContext
 *

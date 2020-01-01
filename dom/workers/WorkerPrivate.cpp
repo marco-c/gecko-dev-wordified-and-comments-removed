@@ -7138,7 +7138,7 @@ targetCompartmentObject
 )
 {
 return
-false
+NS_OK
 ;
 }
 bool

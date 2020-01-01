@@ -1028,7 +1028,7 @@ keycode
 keyCodeStr
 )
 ;
-PRUint32
+nsresult
 errorCode
 ;
 key

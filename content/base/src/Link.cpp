@@ -778,10 +778,6 @@ portStr
 .
 ToInteger
 (
-(
-PRInt32
-*
-)
 &
 rv
 )
@@ -1059,10 +1055,6 @@ portStr
 .
 ToInteger
 (
-(
-PRInt32
-*
-)
 &
 rv
 )

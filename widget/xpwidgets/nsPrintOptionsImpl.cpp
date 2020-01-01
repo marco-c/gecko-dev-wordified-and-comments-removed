@@ -5880,7 +5880,7 @@ IsEmpty
 )
 )
 {
-PRInt32
+nsresult
 errCode
 ;
 float

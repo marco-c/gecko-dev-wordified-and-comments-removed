@@ -1492,7 +1492,7 @@ c
 )
 ;
 }
-PRInt32
+nsresult
 errorCode
 ;
 float
@@ -1875,7 +1875,7 @@ CharAt
 '
 )
 {
-PRInt32
+nsresult
 errorCode
 ;
 float
@@ -2067,7 +2067,7 @@ Length
 0
 )
 {
-PRInt32
+nsresult
 errorCode
 ;
 PRInt32

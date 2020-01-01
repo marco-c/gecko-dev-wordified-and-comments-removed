@@ -1426,7 +1426,7 @@ Lock
 )
 ;
 return
-0
+NS_OK
 ;
 }
 nsresult
@@ -1603,7 +1603,7 @@ Lock
 )
 ;
 return
-0
+NS_OK
 ;
 }
 nsresult
@@ -1866,7 +1866,7 @@ Lock
 )
 ;
 return
-0
+NS_OK
 ;
 }
 nsresult
@@ -2093,7 +2093,7 @@ Enter
 )
 ;
 return
-0
+NS_OK
 ;
 }
 nsresult
@@ -2422,7 +2422,7 @@ t2
 )
 ;
 return
-0
+NS_OK
 ;
 }
 nsresult
@@ -2811,7 +2811,7 @@ i
 ]
 ;
 return
-0
+NS_OK
 ;
 }
 nsresult

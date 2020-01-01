@@ -202,7 +202,7 @@ rv
 return
 rv
 ;
-PRInt32
+nsresult
 result
 ;
 nsAutoString

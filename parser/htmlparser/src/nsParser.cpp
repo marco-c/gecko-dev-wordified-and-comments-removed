@@ -537,7 +537,7 @@ NS_OK
 ;
 mStreamStatus
 =
-0
+NS_OK
 ;
 mCommand
 =

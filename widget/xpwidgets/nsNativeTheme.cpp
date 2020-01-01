@@ -609,8 +609,10 @@ aAtom
 attr
 )
 ;
-PRInt32
+nsresult
 err
+;
+PRInt32
 value
 =
 attr

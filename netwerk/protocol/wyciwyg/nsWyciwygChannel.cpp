@@ -1855,7 +1855,7 @@ sourceStr
 PRInt32
 source
 ;
-PRInt32
+nsresult
 err
 ;
 source

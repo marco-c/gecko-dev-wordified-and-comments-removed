@@ -804,7 +804,7 @@ nsAString
 aGeneratedItemId
 )
 {
-PRInt32
+nsresult
 rv
 ;
 PRInt32

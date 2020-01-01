@@ -376,7 +376,7 @@ PRFileDesc
 outFD
 )
 ;
-PRInt32
+nsresult
 FindInit
 (
 const

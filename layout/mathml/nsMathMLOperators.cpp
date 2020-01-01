@@ -598,10 +598,10 @@ false
 else
 return
 ;
-PRInt32
+nsresult
 error
 =
-0
+NS_OK
 ;
 float
 space
