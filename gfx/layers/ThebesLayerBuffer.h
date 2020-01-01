@@ -605,6 +605,15 @@ nsIntRect
 aRect
 uint32_t
 aFlags
+RefPtr
+<
+gfx
+:
+:
+DrawTarget
+>
+*
+aWhiteDT
 )
 {
 NS_RUNTIMEABORT
