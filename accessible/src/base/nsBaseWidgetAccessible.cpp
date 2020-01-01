@@ -333,7 +333,12 @@ aNumActions
 *
 aNumActions
 =
-mActionAcc
+(
+mIsOnclick
+|
+|
+mIsLink
+)
 ?
 1
 :
@@ -624,10 +629,6 @@ mContent
 )
 )
 {
-mActionAcc
-=
-this
-;
 mIsOnclick
 =
 PR_TRUE
