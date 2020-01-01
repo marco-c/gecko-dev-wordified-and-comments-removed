@@ -555,6 +555,10 @@ Async
 .
 json
 \
+test_sanity
+.
+html
+\
 (
 NULL
 )
