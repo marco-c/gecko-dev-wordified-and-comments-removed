@@ -1868,9 +1868,6 @@ mRefNum
 ;
 }
 PRBool
-nsAutoCloseResourceObject
-:
-:
 ResourceOpened
 (
 )
