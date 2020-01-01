@@ -779,13 +779,9 @@ Got
 :
 "
 +
-JSON
-.
-stringify
+uneval
 (
 aPacket
-null
-2
 )
 )
 ;
