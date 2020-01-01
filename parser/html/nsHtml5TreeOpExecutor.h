@@ -145,6 +145,9 @@ nsIURI
 h
 "
 class
+nsHtml5Parser
+;
+class
 nsHtml5TreeBuilder
 ;
 class
@@ -1310,6 +1313,12 @@ aURL
 ;
 private
 :
+nsHtml5Parser
+*
+GetParser
+(
+)
+;
 nsHtml5Tokenizer
 *
 GetTokenizer
