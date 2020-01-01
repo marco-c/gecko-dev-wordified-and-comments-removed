@@ -56,9 +56,6 @@ nsSVGTransformSMILAttr
 nsSVGAnimatedTransformList
 *
 aTransform
-nsSVGElement
-*
-aSVGElement
 )
 :
 mVal

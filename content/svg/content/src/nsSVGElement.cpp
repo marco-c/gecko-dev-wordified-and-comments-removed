@@ -8112,7 +8112,6 @@ new
 nsSVGTransformSMILAttr
 (
 list
-this
 )
 ;
 }
