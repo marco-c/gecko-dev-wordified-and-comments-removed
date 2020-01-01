@@ -14,7 +14,6 @@ nsProxyAutoConfig
 .
 js
 contract
-"
 mozilla
 .
 org
@@ -28,7 +27,6 @@ auto
 config
 ;
 1
-"
 {
 63ac8c66
 -
