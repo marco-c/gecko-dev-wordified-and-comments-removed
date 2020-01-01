@@ -582,11 +582,6 @@ gPrefBranch
 Services
 .
 prefs
-.
-getBranch
-(
-null
-)
 ;
 const
 gClipboardHelper
