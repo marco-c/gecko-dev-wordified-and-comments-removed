@@ -1848,6 +1848,9 @@ FILE
 out
 )
 {
+#
+ifdef
+DEBUG
 fprintf
 (
 out
@@ -2011,6 +2014,8 @@ out
 ;
 }
 }
+#
+endif
 }
 NS_IMETHODIMP
 nsLayoutDebuggingTools
