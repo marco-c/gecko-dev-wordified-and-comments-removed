@@ -86,6 +86,9 @@ class
 nsIImageLoadingContent
 ;
 class
+nsICanvasElement
+;
+class
 nsBaseDragService
 :
 public
@@ -145,6 +148,9 @@ aPresContext
 nsIImageLoadingContent
 *
 aImageLoader
+nsICanvasElement
+*
+aCanvas
 PRInt32
 aScreenX
 PRInt32
