@@ -388,14 +388,6 @@ AddSearchProvider
 SessionStore
 .
 js
--
-temporarily
-disabled
-(
-bug
-696203
-)
-#
 component
 {
 8c1f07d6
@@ -411,7 +403,6 @@ a315
 SessionStore
 .
 js
-#
 contract
 mozilla
 .
@@ -433,7 +424,6 @@ a315
 -
 8bd43d67d032
 }
-#
 category
 app
 -

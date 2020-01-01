@@ -283,6 +283,8 @@ this
 false
 -
 1
+"
+"
 )
 ;
 }
@@ -297,6 +299,8 @@ boolean
 external
 int
 parentId
+String
+title
 )
 {
 mId
@@ -317,8 +321,7 @@ parentId
 ;
 mTitle
 =
-"
-"
+title
 ;
 mFavicon
 =

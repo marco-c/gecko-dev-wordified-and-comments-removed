@@ -3559,12 +3559,6 @@ components
 PromptService
 .
 js
-;
-disabled
-(
-bug
-696203
-)
 BINPATH
 /
 components
