@@ -1070,6 +1070,9 @@ PAYLOAD_INFO_SHIFT
 0
 )
 ;
+#
+ifdef
+JS_NUNBOX32
 static
 inline
 NunboxPartKind
@@ -1205,9 +1208,6 @@ out
 MAX_INFO_VALUE
 ;
 }
-#
-ifdef
-JS_NUNBOX32
 void
 SafepointWriter
 :

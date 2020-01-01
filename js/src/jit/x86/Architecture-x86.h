@@ -472,16 +472,6 @@ X86Registers
 eax
 )
 ;
-typedef
-JSC
-:
-:
-MacroAssembler
-:
-:
-RegisterID
-RegisterID
-;
 }
 ;
 typedef

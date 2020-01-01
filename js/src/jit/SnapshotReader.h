@@ -123,17 +123,6 @@ readFrameHeader
 (
 )
 ;
-template
-<
-typename
-T
->
-inline
-T
-readVariableLength
-(
-)
-;
 public
 :
 enum
