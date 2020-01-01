@@ -1602,7 +1602,7 @@ mLastDragMotionWindow
 void
 InitDragEvent
 (
-nsMouseEvent
+nsDragEvent
 &
 aEvent
 )
@@ -1610,7 +1610,7 @@ aEvent
 void
 UpdateDragStatus
 (
-nsMouseEvent
+nsDragEvent
 &
 aEvent
 GdkDragContext

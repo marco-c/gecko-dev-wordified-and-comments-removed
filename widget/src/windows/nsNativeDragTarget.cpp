@@ -531,16 +531,12 @@ aPT
 nsEventStatus
 status
 ;
-nsMouseEvent
+nsDragEvent
 event
 (
 PR_TRUE
 aEventType
 mWindow
-nsMouseEvent
-:
-:
-eReal
 )
 ;
 nsWindow
