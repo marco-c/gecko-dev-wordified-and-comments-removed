@@ -1826,17 +1826,6 @@ GetDOMWindowUtils
 (
 )
 ;
-already_AddRefed
-<
-nsIDOMWindowUtils
->
-GetDOMWindowUtils
-(
-nsIContent
-*
-aContent
-)
-;
 class
 CachedFileDescriptorInfo
 ;
