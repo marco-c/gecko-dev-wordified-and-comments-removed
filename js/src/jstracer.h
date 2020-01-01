@@ -58,7 +58,7 @@ INT32_ERROR_COOKIE
 0xffffabcd
 template
 <
-class
+typename
 T
 >
 class
