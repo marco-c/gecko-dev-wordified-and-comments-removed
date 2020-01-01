@@ -95,15 +95,6 @@ IOInterposer
 h
 "
 #
-include
-"
-mozilla
-/
-SQLiteInterposer
-.
-h
-"
-#
 define
 PREF_NFS_FILESYSTEM
 "
