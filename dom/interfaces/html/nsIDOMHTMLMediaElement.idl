@@ -460,14 +460,14 @@ idl
 #
 include
 "
-nsIDOMHTMLMediaError
+nsIDOMMediaError
 .
 idl
 "
 #
 include
 "
-nsIDOMHTMLTimeRanges
+nsIDOMTimeRanges
 .
 idl
 "
@@ -593,7 +593,7 @@ error
 state
 readonly
 attribute
-nsIDOMHTMLMediaError
+nsIDOMMediaError
 error
 ;
 /
@@ -656,7 +656,7 @@ preload
 ;
 readonly
 attribute
-nsIDOMHTMLTimeRanges
+nsIDOMTimeRanges
 buffered
 ;
 void

@@ -40,7 +40,7 @@ class
 nsWaveStateMachine
 ;
 class
-nsHTMLTimeRanges
+nsTimeRanges
 ;
 class
 nsWaveDecoder
@@ -297,7 +297,7 @@ virtual
 nsresult
 GetBuffered
 (
-nsHTMLTimeRanges
+nsTimeRanges
 *
 aBuffered
 )

@@ -722,7 +722,7 @@ undefined
 ;
 is
 (
-HTMLMediaError
+MediaError
 .
 NETWORK_EMPTY
 undefined
@@ -730,7 +730,7 @@ undefined
 ;
 is
 (
-HTMLMediaError
+MediaError
 .
 NETWORK_IDLE
 undefined
@@ -738,7 +738,7 @@ undefined
 ;
 is
 (
-HTMLMediaError
+MediaError
 .
 NETWORK_LOADING
 undefined
@@ -746,7 +746,7 @@ undefined
 ;
 is
 (
-HTMLMediaError
+MediaError
 .
 NETWORK_LOADED
 undefined
@@ -754,7 +754,7 @@ undefined
 ;
 is
 (
-HTMLMediaError
+MediaError
 .
 NETWORK_NO_SOURCE
 undefined
@@ -762,7 +762,7 @@ undefined
 ;
 is
 (
-HTMLMediaError
+MediaError
 .
 HAVE_NOTHING
 undefined
@@ -770,7 +770,7 @@ undefined
 ;
 is
 (
-HTMLMediaError
+MediaError
 .
 HAVE_METADATA
 undefined
@@ -778,7 +778,7 @@ undefined
 ;
 is
 (
-HTMLMediaError
+MediaError
 .
 HAVE_CURRENT_DATA
 undefined
@@ -786,7 +786,7 @@ undefined
 ;
 is
 (
-HTMLMediaError
+MediaError
 .
 HAVE_FUTURE_DATA
 undefined
@@ -794,7 +794,7 @@ undefined
 ;
 is
 (
-HTMLMediaError
+MediaError
 .
 HAVE_ENOUGH_DATA
 undefined
@@ -802,7 +802,7 @@ undefined
 ;
 is
 (
-HTMLMediaError
+MediaError
 .
 MEDIA_ERR_ABORTED
 1
@@ -810,7 +810,7 @@ MEDIA_ERR_ABORTED
 ;
 is
 (
-HTMLMediaError
+MediaError
 .
 MEDIA_ERR_NETWORK
 2
@@ -818,7 +818,7 @@ MEDIA_ERR_NETWORK
 ;
 is
 (
-HTMLMediaError
+MediaError
 .
 MEDIA_ERR_DECODE
 3
@@ -826,7 +826,7 @@ MEDIA_ERR_DECODE
 ;
 is
 (
-HTMLMediaError
+MediaError
 .
 MEDIA_ERR_SRC_NOT_SUPPORTED
 4
@@ -2528,7 +2528,7 @@ undefined
 ;
 is
 (
-HTMLMediaError
+MediaError
 .
 prototype
 .
@@ -2538,7 +2538,7 @@ undefined
 ;
 is
 (
-HTMLMediaError
+MediaError
 .
 prototype
 .
@@ -2548,7 +2548,7 @@ undefined
 ;
 is
 (
-HTMLMediaError
+MediaError
 .
 prototype
 .
@@ -2558,7 +2558,7 @@ undefined
 ;
 is
 (
-HTMLMediaError
+MediaError
 .
 prototype
 .
@@ -2568,7 +2568,7 @@ undefined
 ;
 is
 (
-HTMLMediaError
+MediaError
 .
 prototype
 .
@@ -2578,7 +2578,7 @@ undefined
 ;
 is
 (
-HTMLMediaError
+MediaError
 .
 prototype
 .
@@ -2588,7 +2588,7 @@ undefined
 ;
 is
 (
-HTMLMediaError
+MediaError
 .
 prototype
 .
@@ -2598,7 +2598,7 @@ undefined
 ;
 is
 (
-HTMLMediaError
+MediaError
 .
 prototype
 .
@@ -2608,7 +2608,7 @@ undefined
 ;
 is
 (
-HTMLMediaError
+MediaError
 .
 prototype
 .
@@ -2618,7 +2618,7 @@ undefined
 ;
 is
 (
-HTMLMediaError
+MediaError
 .
 prototype
 .
@@ -2628,7 +2628,7 @@ undefined
 ;
 is
 (
-HTMLMediaError
+MediaError
 .
 prototype
 .
@@ -2638,7 +2638,7 @@ MEDIA_ERR_ABORTED
 ;
 is
 (
-HTMLMediaError
+MediaError
 .
 prototype
 .
@@ -2648,7 +2648,7 @@ MEDIA_ERR_NETWORK
 ;
 is
 (
-HTMLMediaError
+MediaError
 .
 prototype
 .
@@ -2658,12 +2658,40 @@ MEDIA_ERR_DECODE
 ;
 is
 (
-HTMLMediaError
+MediaError
 .
 prototype
 .
 MEDIA_ERR_SRC_NOT_SUPPORTED
 4
+)
+;
+ok
+(
+document
+.
+getElementsByTagName
+(
+"
+video
+"
+)
+[
+0
+]
+.
+buffered
+instanceof
+TimeRanges
+"
+video
+.
+buffered
+must
+be
+TimeRanges
+object
+"
 )
 ;
 <

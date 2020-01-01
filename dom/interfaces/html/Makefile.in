@@ -652,11 +652,11 @@ nsIDOMHTMLUListElement
 .
 idl
 \
-nsIDOMHTMLMediaError
+nsIDOMMediaError
 .
 idl
 \
-nsIDOMHTMLTimeRanges
+nsIDOMTimeRanges
 .
 idl
 \

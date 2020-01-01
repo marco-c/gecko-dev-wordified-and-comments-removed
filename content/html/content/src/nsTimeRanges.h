@@ -1,7 +1,7 @@
 #
 include
 "
-nsIDOMHTMLTimeRanges
+nsIDOMTimeRanges
 .
 h
 "
@@ -20,15 +20,15 @@ nsTArray
 h
 "
 class
-nsHTMLTimeRanges
+nsTimeRanges
 :
 public
-nsIDOMHTMLTimeRanges
+nsIDOMTimeRanges
 {
 public
 :
 NS_DECL_ISUPPORTS
-NS_DECL_NSIDOMHTMLTIMERANGES
+NS_DECL_NSIDOMTIMERANGES
 void
 Add
 (

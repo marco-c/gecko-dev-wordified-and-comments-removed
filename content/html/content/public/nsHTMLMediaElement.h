@@ -908,7 +908,7 @@ mChannel
 ;
 nsCOMPtr
 <
-nsIDOMHTMLMediaError
+nsIDOMMediaError
 >
 mError
 ;

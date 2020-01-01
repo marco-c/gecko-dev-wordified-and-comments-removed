@@ -473,7 +473,7 @@ uuid
 )
 ]
 interface
-nsIDOMHTMLMediaError
+nsIDOMMediaError
 :
 nsISupports
 {

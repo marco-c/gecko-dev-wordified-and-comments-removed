@@ -388,7 +388,7 @@ mState
 nsresult
 GetBuffered
 (
-nsHTMLTimeRanges
+nsTimeRanges
 *
 aBuffered
 )

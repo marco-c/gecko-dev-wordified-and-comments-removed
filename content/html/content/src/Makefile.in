@@ -688,7 +688,7 @@ nsHTMLMediaElement
 .
 cpp
 \
-nsHTMLMediaError
+nsMediaError
 .
 cpp
 \
@@ -696,7 +696,7 @@ nsHTMLSourceElement
 .
 cpp
 \
-nsHTMLTimeRanges
+nsTimeRanges
 .
 cpp
 \

@@ -45,7 +45,7 @@ h
 #
 include
 "
-nsHTMLTimeRanges
+nsTimeRanges
 .
 h
 "
@@ -7436,7 +7436,7 @@ nsOggReader
 :
 GetBuffered
 (
-nsHTMLTimeRanges
+nsTimeRanges
 *
 aBuffered
 PRInt64
