@@ -436,6 +436,12 @@ thread_helper
 .
 h
 \
+shared
+-
+libraries
+.
+h
+\
 (
 NULL
 )
