@@ -874,6 +874,14 @@ aImg
 )
 ;
 void
+DecodeABitOf
+(
+RasterImage
+*
+aImg
+)
+;
+void
 MarkAsASAP
 (
 RasterImage
