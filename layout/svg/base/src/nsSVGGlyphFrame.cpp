@@ -1669,7 +1669,7 @@ this
 ;
 }
 }
-NS_IMETHODIMP
+void
 nsSVGGlyphFrame
 :
 :
@@ -1677,11 +1677,13 @@ NotifyRedrawSuspended
 (
 )
 {
-return
-NS_OK
+AddStateBits
+(
+NS_STATE_SVG_REDRAW_SUSPENDED
+)
 ;
 }
-NS_IMETHODIMP
+void
 nsSVGGlyphFrame
 :
 :
@@ -1689,6 +1691,11 @@ NotifyRedrawUnsuspended
 (
 )
 {
+RemoveStateBits
+(
+NS_STATE_SVG_REDRAW_SUSPENDED
+)
+;
 if
 (
 GetStateBits
@@ -1704,9 +1711,6 @@ UpdateGraphic
 (
 this
 )
-;
-return
-NS_OK
 ;
 }
 void
