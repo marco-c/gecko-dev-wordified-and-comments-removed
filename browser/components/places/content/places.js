@@ -3451,6 +3451,12 @@ excludeQueries
 =
 true
 ;
+options
+.
+expandQueries
+=
+true
+;
 var
 searchUI
 =
