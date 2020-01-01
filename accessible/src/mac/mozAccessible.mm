@@ -2201,7 +2201,7 @@ nil
 ;
 #
 ifdef
-DEBUG
+DEBUG_A11Y
 NS_ASSERTION
 (
 nsAccUtils
