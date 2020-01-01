@@ -1055,7 +1055,7 @@ update
 .
 enabled
 "
-true
+false
 )
 ;
 pref
