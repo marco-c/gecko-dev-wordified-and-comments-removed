@@ -20,6 +20,13 @@ jsfriendapi
 h
 "
 #
+include
+"
+jswrapper
+.
+h
+"
+#
 ifdef
 DEBUG
 void
@@ -2912,7 +2919,10 @@ NULL
 ;
 obj
 =
-JS_UnwrapObject
+js
+:
+:
+UncheckedUnwrap
 (
 JSVAL_TO_OBJECT
 (

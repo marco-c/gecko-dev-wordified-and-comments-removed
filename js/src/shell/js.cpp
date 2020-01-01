@@ -4927,7 +4927,10 @@ global
 {
 global
 =
-JS_UnwrapObject
+js
+:
+:
+UncheckedUnwrap
 (
 global
 )
