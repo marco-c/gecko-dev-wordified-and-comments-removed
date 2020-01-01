@@ -21799,6 +21799,13 @@ aFromScroll
 {
 if
 (
+!
+sSynthMouseMove
+)
+return
+;
+if
+(
 mPaintingSuppressed
 |
 |

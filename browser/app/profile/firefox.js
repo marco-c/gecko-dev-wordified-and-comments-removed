@@ -2329,7 +2329,7 @@ urlbar
 .
 autoFill
 "
-false
+true
 )
 ;
 pref
@@ -9734,18 +9734,6 @@ ui
 height
 "
 250
-)
-;
-pref
-(
-"
-devtools
-.
-debugger
-.
-log
-"
-false
 )
 ;
 pref
