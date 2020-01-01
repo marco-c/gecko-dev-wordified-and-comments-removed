@@ -233,6 +233,7 @@ exists
 )
 ;
 }
+var
 corruptDB
 =
 gTestDir

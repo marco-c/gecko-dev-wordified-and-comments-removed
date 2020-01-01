@@ -226,6 +226,7 @@ exists
 )
 ;
 }
+var
 corruptDB
 =
 gTestDir

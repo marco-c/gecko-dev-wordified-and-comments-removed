@@ -6637,6 +6637,7 @@ redoTransaction
 (
 )
 ;
+var
 newchildItemId
 =
 (

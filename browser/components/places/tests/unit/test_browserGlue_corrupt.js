@@ -71,6 +71,7 @@ exists
 )
 ;
 }
+let
 corruptDB
 =
 gTestDir
