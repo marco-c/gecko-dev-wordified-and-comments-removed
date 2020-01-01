@@ -9735,7 +9735,7 @@ fp
 fp
 -
 >
-pc
+regs
 ;
 fp
 =
@@ -9775,6 +9775,9 @@ JSOp
 fp
 -
 >
+regs
+-
+>
 pc
 ;
 if
@@ -9811,6 +9814,9 @@ fp
 >
 script
 fp
+-
+>
+regs
 -
 >
 pc
@@ -40596,6 +40602,9 @@ cx
 -
 >
 fp
+-
+>
+regs
 -
 >
 sp
