@@ -4735,6 +4735,7 @@ NS_StackWalk
 PrintStackFrame
 2
 aStream
+0
 )
 ;
 }

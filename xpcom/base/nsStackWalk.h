@@ -11,6 +11,15 @@ nscore
 .
 h
 "
+#
+include
+<
+mozilla
+/
+StdInt
+.
+h
+>
 PR_BEGIN_EXTERN_C
 typedef
 void
@@ -40,6 +49,8 @@ aSkipFrames
 void
 *
 aClosure
+uintptr_t
+aThread
 )
 ;
 typedef
