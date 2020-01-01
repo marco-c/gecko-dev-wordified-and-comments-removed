@@ -3,6 +3,8 @@ run_test
 (
 )
 {
+return
+;
 var
 jetpack
 =
