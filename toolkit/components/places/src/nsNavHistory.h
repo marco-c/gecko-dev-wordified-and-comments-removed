@@ -1463,11 +1463,6 @@ aMadeChanges
 )
 ;
 nsresult
-CleanUpOnQuit
-(
-)
-;
-nsresult
 RemovePagesInternal
 (
 const
