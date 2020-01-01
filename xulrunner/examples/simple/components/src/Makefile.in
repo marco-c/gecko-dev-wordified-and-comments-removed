@@ -113,14 +113,6 @@ NSPR_LIBS
 (
 NULL
 )
-EXTRA_COMPONENTS
-=
-SimpleTest
-.
-js
-SimpleTest
-.
-manifest
 include
 (
 topsrcdir
