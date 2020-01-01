@@ -474,7 +474,10 @@ value
 1
 )
 |
+uint32
+(
 isNegative
+)
 ;
 writeByte
 (

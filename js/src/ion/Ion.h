@@ -34,7 +34,7 @@ js
 namespace
 ion
 {
-struct
+class
 TempAllocator
 ;
 struct
