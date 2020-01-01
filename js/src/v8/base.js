@@ -132,7 +132,7 @@ BenchmarkSuite
 version
 =
 '
-6
+7
 '
 ;
 Math
