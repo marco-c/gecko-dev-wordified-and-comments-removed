@@ -855,8 +855,6 @@ cx
 JSOPTION_METHODJIT
 |
 JSOPTION_METHODJIT_ALWAYS
-|
-JSOPTION_ALLOW_XML
 ;
 uint32_t
 oldopts
@@ -916,14 +914,8 @@ n
 var
 x
 =
-<
-tag
->
-<
-/
-tag
->
-;
+{
+}
 \
 n
 "
