@@ -3979,12 +3979,6 @@ folder
 &
 amp
 ;
-group
-=
-3
-&
-amp
-;
 expandQueries
 =
 1

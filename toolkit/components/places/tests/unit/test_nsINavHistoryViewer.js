@@ -339,6 +339,9 @@ sortingMode
 result
 :
 null
+ignoreInvalidateContainer
+:
+false
 addViewObserver
 :
 function
