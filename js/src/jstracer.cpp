@@ -6195,15 +6195,6 @@ typeMap
 )
 )
 {
-JS_ASSERT
-(
-!
-fragment
--
->
-parent
-)
-;
 AUDIT
 (
 unstableLoopVariable
@@ -9739,9 +9730,6 @@ bool
 pre
 )
 {
-return
-false
-;
 jsval
 &
 r
