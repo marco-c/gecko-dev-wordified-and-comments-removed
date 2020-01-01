@@ -2065,6 +2065,8 @@ extensionID
 TEXT
 extensionVersion
 TEXT
+action
+TEXT
 "
 )
 )
