@@ -39169,6 +39169,9 @@ AudioUnit
 -
 framework
 AddressBook
+-
+framework
+OpenGL
 '
 TK_CFLAGS
 =
