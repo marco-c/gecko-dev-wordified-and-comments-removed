@@ -2483,6 +2483,7 @@ vlength
 vsharplength
 curlen
 ;
+const
 char
 *
 comma
@@ -8451,11 +8452,10 @@ ok
 return
 NULL
 ;
-OBJ_SET_PROTO
+OBJ_CLEAR_PROTO
 (
 cx
 obj
-NULL
 )
 ;
 return
@@ -9819,11 +9819,10 @@ proto
 return
 NULL
 ;
-OBJ_SET_PROTO
+OBJ_CLEAR_PROTO
 (
 cx
 proto
-NULL
 )
 ;
 return
