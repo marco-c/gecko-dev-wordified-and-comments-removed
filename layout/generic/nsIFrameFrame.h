@@ -62,15 +62,6 @@ aContentType
 =
 0
 ;
-virtual
-nsIFrame
-*
-GetFrame
-(
-)
-=
-0
-;
 }
 ;
 #

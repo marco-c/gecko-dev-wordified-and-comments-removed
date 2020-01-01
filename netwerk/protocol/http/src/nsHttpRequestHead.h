@@ -7,14 +7,14 @@ nsHttpRequestHead_h__
 #
 include
 "
-nsHttp
+nsHttpHeaderArray
 .
 h
 "
 #
 include
 "
-nsHttpHeaderArray
+nsHttp
 .
 h
 "
