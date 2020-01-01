@@ -92,7 +92,7 @@ MPL
 #
 include
 "
-nsISupports
+nsIDocShellTreeItem
 .
 idl
 "
@@ -220,7 +220,7 @@ a166
 interface
 nsIDocShell
 :
-nsISupports
+nsIDocShellTreeItem
 {
 /
 *
