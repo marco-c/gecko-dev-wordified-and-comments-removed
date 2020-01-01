@@ -286,14 +286,6 @@ profiler_unregister_thread
 )
 {
 }
-static
-inline
-void
-profiler_js_operation_callback
-(
-)
-{
-}
 #
 else
 #
