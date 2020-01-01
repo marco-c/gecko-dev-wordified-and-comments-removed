@@ -3234,6 +3234,15 @@ nsIAccessibleRole
 :
 :
 ROLE_PUSHBUTTON
+|
+|
+role
+=
+=
+nsIAccessibleRole
+:
+:
+ROLE_AUTOCOMPLETE
 )
 {
 *
