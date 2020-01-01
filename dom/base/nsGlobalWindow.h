@@ -469,9 +469,6 @@ class
 nsHistory
 ;
 class
-nsPerformance
-;
-class
 nsIDocShellLoadInfo
 ;
 class
@@ -2101,12 +2098,6 @@ HasIndexedDBSupport
 )
 ;
 static
-bool
-HasPerformanceSupport
-(
-)
-;
-static
 WindowByIdTable
 *
 GetWindowsTable
@@ -3562,11 +3553,6 @@ bool
 aScriptable
 )
 ;
-void
-CreatePerformanceObjectIfNeeded
-(
-)
-;
 nsDOMWindowList
 *
 GetWindowList
@@ -3745,12 +3731,6 @@ nsRefPtr
 nsScreen
 >
 mScreen
-;
-nsRefPtr
-<
-nsPerformance
->
-mPerformance
 ;
 nsRefPtr
 <
