@@ -1298,6 +1298,10 @@ GetGlobalJSObject
 (
 )
 {
+EnsureScriptEnvironment
+(
+)
+;
 if
 (
 !
