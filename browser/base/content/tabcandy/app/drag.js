@@ -364,6 +364,7 @@ Trenches
 .
 hideGuides
 (
+true
 )
 ;
 }
@@ -406,6 +407,7 @@ Trenches
 .
 hideGuides
 (
+true
 )
 ;
 for
@@ -934,6 +936,12 @@ function
 (
 )
 {
+Trenches
+.
+hideGuides
+(
+)
+;
 this
 .
 item
