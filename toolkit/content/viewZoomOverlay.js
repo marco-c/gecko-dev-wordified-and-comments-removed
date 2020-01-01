@@ -456,7 +456,6 @@ ZoomManager
 {
 get
 _prefBranch
-ZoomManager_get__prefBranch
 (
 )
 {
@@ -499,7 +498,6 @@ nsIPrefBranch
 }
 get
 MIN
-ZoomManager_get_MIN
 (
 )
 {
@@ -531,7 +529,6 @@ minPercent
 }
 get
 MAX
-ZoomManager_get_MAX
 (
 )
 {
@@ -563,7 +560,6 @@ maxPercent
 }
 get
 useFullZoom
-ZoomManager_get_useFullZoom
 (
 )
 {
@@ -586,7 +582,6 @@ full
 }
 set
 useFullZoom
-ZoomManager_set_useFullZoom
 (
 aVal
 )
@@ -613,7 +608,6 @@ aVal
 }
 get
 zoom
-ZoomManager_get_zoom
 (
 )
 {
@@ -659,7 +653,6 @@ textZoom
 }
 set
 zoom
-ZoomManager_set_zoom
 (
 aVal
 )
@@ -754,7 +747,6 @@ fullZoom
 }
 get
 zoomValues
-ZoomManager_get_zoomValues
 (
 )
 {
@@ -1082,3 +1074,4 @@ i
 ;
 }
 }
+;

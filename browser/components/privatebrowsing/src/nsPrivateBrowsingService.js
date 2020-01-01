@@ -2673,7 +2673,6 @@ false
 }
 get
 helpInfo
-PBS_get_helpInfo
 (
 )
 {
@@ -2707,7 +2706,6 @@ n
 }
 get
 privateBrowsingEnabled
-PBS_get_privateBrowsingEnabled
 (
 )
 {
@@ -2719,7 +2717,6 @@ _inPrivateBrowsing
 }
 set
 privateBrowsingEnabled
-PBS_set_privateBrowsingEnabled
 (
 val
 )
@@ -3011,7 +3008,6 @@ _notifyIfTransitionComplete
 }
 get
 autoStarted
-PBS_get_autoStarted
 (
 )
 {

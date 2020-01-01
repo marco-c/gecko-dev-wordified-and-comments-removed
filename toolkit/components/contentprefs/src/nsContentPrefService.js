@@ -136,7 +136,6 @@ __observerSvc
 null
 get
 _observerSvc
-ContentPrefService_get__observerSvc
 (
 )
 {
@@ -184,7 +183,6 @@ __consoleSvc
 null
 get
 _consoleSvc
-ContentPrefService_get__consoleSvc
 (
 )
 {
@@ -230,7 +228,6 @@ __prefSvc
 null
 get
 _prefSvc
-ContentPrefService_get__prefSvc
 (
 )
 {
@@ -1849,7 +1846,6 @@ _grouper
 null
 get
 grouper
-ContentPrefService_get_grouper
 (
 )
 {
@@ -1898,7 +1894,6 @@ _grouper
 }
 get
 DBConnection
-ContentPrefService_get_DBConnection
 (
 )
 {
@@ -1913,7 +1908,6 @@ __stmtSelectPref
 null
 get
 _stmtSelectPref
-ContentPrefService_get__stmtSelectPref
 (
 )
 {
@@ -2096,7 +2090,6 @@ __stmtSelectGlobalPref
 null
 get
 _stmtSelectGlobalPref
-ContentPrefService_get__stmtSelectGlobalPref
 (
 )
 {
@@ -2254,7 +2247,6 @@ __stmtSelectGroupID
 null
 get
 _stmtSelectGroupID
-ContentPrefService_get__stmtSelectGroupID
 (
 )
 {
@@ -2371,7 +2363,6 @@ __stmtInsertGroup
 null
 get
 _stmtInsertGroup
-ContentPrefService_get__stmtInsertGroup
 (
 )
 {
@@ -2450,7 +2441,6 @@ __stmtSelectSettingID
 null
 get
 _stmtSelectSettingID
-ContentPrefService_get__stmtSelectSettingID
 (
 )
 {
@@ -2555,7 +2545,6 @@ __stmtInsertSetting
 null
 get
 _stmtInsertSetting
-ContentPrefService_get__stmtInsertSetting
 (
 )
 {
@@ -2634,7 +2623,6 @@ __stmtSelectPrefID
 null
 get
 _stmtSelectPrefID
-ContentPrefService_get__stmtSelectPrefID
 (
 )
 {
@@ -2755,7 +2743,6 @@ __stmtSelectGlobalPrefID
 null
 get
 _stmtSelectGlobalPrefID
-ContentPrefService_get__stmtSelectGlobalPrefID
 (
 )
 {
@@ -2864,7 +2851,6 @@ __stmtInsertPref
 null
 get
 _stmtInsertPref
-ContentPrefService_get__stmtInsertPref
 (
 )
 {
@@ -2974,7 +2960,6 @@ __stmtUpdatePref
 null
 get
 _stmtUpdatePref
-ContentPrefService_get__stmtUpdatePref
 (
 )
 {
@@ -3058,7 +3043,6 @@ __stmtDeletePref
 null
 get
 _stmtDeletePref
-ContentPrefService_get__stmtDeletePref
 (
 )
 {
@@ -3127,7 +3111,6 @@ __stmtDeleteSettingIfUnused
 null
 get
 _stmtDeleteSettingIfUnused
-ContentPrefService_get__stmtDeleteSettingIfUnused
 (
 )
 {
@@ -3210,7 +3193,6 @@ __stmtDeleteGroupIfUnused
 null
 get
 _stmtDeleteGroupIfUnused
-ContentPrefService_get__stmtDeleteGroupIfUnused
 (
 )
 {
@@ -3293,7 +3275,6 @@ __stmtSelectPrefs
 null
 get
 _stmtSelectPrefs
-ContentPrefService_get__stmtSelectPrefs
 (
 )
 {
@@ -3478,7 +3459,6 @@ __stmtSelectGlobalPrefs
 null
 get
 _stmtSelectGlobalPrefs
-ContentPrefService_get__stmtSelectGlobalPrefs
 (
 )
 {
@@ -3638,7 +3618,6 @@ __stmtSelectPrefsByName
 null
 get
 _stmtSelectPrefsByName
-ContentPrefService_get__stmtSelectPrefsByName
 (
 )
 {

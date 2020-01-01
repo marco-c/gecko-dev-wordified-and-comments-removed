@@ -20,7 +20,6 @@ zoom
 "
 get
 globalValue
-FullZoom_get_globalValue
 (
 )
 {
@@ -73,7 +72,6 @@ globalValue
 }
 get
 _cps
-FullZoom_get__cps
 (
 )
 {
@@ -123,7 +121,6 @@ _inPrivateBrowsing
 false
 get
 siteSpecific
-FullZoom_get_siteSpecific
 (
 )
 {
