@@ -82,6 +82,12 @@ nsWindow
 .
 h
 "
+static
+bool
+gKeyboardOpen
+=
+false
+;
 MozQWidget
 :
 :
@@ -1221,6 +1227,10 @@ setFocusWidget
 focusWidget
 )
 ;
+gKeyboardOpen
+=
+true
+;
 }
 #
 else
@@ -1325,6 +1335,10 @@ reset
 (
 )
 ;
+gKeyboardOpen
+=
+false
+;
 #
 else
 LOG
@@ -1358,6 +1372,6 @@ isVKBOpen
 )
 {
 return
-PR_FALSE
+gKeyboardOpen
 ;
 }
