@@ -341,6 +341,10 @@ SVGFEBlendElement
 .
 cpp
 \
+SVGFEDistantLightElement
+.
+cpp
+\
 SVGFEFloodElement
 .
 cpp
@@ -731,6 +735,10 @@ SVGEllipseElement
 h
 \
 SVGFEBlendElement
+.
+h
+\
+SVGFEDistantLightElement
 .
 h
 \
