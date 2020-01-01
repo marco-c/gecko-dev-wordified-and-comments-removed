@@ -4211,10 +4211,14 @@ if
 !
 gUseInContentUI
 )
-run_next_text
+{
+run_next_test
 (
 )
 ;
+return
+;
+}
 var
 tab
 =
