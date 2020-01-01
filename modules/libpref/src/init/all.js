@@ -5854,16 +5854,6 @@ pref
 "
 dom
 .
-experimental_bindings
-"
-true
-)
-;
-pref
-(
-"
-dom
-.
 xbl_scopes
 "
 true
