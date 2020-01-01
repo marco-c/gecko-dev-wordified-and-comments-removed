@@ -130,6 +130,10 @@ char
 prefix
 =
 nullptr
+bool
+warnOnFailure
+=
+true
 )
 ;
 static
@@ -169,6 +173,10 @@ char
 prefix
 =
 nullptr
+bool
+warnOnFailure
+=
+true
 )
 ;
 protected

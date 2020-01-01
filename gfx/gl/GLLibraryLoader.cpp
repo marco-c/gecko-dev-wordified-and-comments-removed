@@ -5,6 +5,13 @@ GLLibraryLoader
 .
 h
 "
+#
+include
+"
+nsDebug
+.
+h
+"
 namespace
 mozilla
 {
@@ -77,6 +84,8 @@ const
 char
 *
 prefix
+bool
+warnOnFailure
 )
 {
 return
@@ -90,6 +99,7 @@ mLookupFunc
 :
 nullptr
 prefix
+warnOnFailure
 )
 ;
 }
@@ -188,6 +198,8 @@ const
 char
 *
 prefix
+bool
+warnOnFailure
 )
 {
 char
@@ -343,9 +355,12 @@ symPointer
 0
 )
 {
-fprintf
+if
 (
-stderr
+warnOnFailure
+)
+printf_stderr
+(
 "
 Can
 '
@@ -356,6 +371,7 @@ symbol
 %
 s
 '
+.
 \
 n
 "

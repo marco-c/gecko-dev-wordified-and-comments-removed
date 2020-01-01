@@ -4176,6 +4176,13 @@ nullptr
 }
 }
 ;
+bool
+warnOnFailures
+=
+DebugMode
+(
+)
+;
 LoadSymbols
 (
 &
@@ -4185,6 +4192,7 @@ auxSymbols
 ]
 trygl
 prefix
+warnOnFailures
 )
 ;
 }
