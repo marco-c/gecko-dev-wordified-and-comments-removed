@@ -377,16 +377,6 @@ PRBool
 aCapture
 )
 ;
-NS_IMETHOD
-BeginResizingChildren
-(
-)
-;
-NS_IMETHOD
-EndResizingChildren
-(
-)
-;
 virtual
 nsIntPoint
 WidgetToScreenOffset
