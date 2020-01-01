@@ -10243,6 +10243,17 @@ if
 catMan
 )
 {
+nsCAutoString
+lowercaseFileExt
+(
+aFileExt
+)
+;
+ToLowerCase
+(
+lowercaseFileExt
+)
+;
 nsXPIDLCString
 type
 ;
@@ -10262,7 +10273,7 @@ type
 -
 mapping
 "
-flatExt
+lowercaseFileExt
 .
 get
 (
