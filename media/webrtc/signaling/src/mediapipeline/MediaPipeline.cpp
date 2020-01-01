@@ -298,6 +298,14 @@ Detach
 (
 )
 ;
+rtp_transport_
+=
+NULL
+;
+rtcp_transport_
+=
+NULL
+;
 }
 void
 MediaPipeline
