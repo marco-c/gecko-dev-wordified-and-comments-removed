@@ -12,6 +12,15 @@ prtypes
 h
 "
 #
+include
+"
+mozilla
+/
+StandardInteger
+.
+h
+"
+#
 define
 PRIVATE
 #

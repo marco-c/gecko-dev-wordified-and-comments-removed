@@ -7,7 +7,9 @@ _mozilla_a11y_aria_ARIAStateMap_h_
 #
 include
 "
-prtypes
+mozilla
+/
+StandardInteger
 .
 h
 "

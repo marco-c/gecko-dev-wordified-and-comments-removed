@@ -17,7 +17,9 @@ endif
 #
 include
 "
-prtypes
+mozilla
+/
+StandardInteger
 .
 h
 "

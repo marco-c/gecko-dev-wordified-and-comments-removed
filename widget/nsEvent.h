@@ -4,6 +4,15 @@ nsEvent_h__
 #
 define
 nsEvent_h__
+#
+include
+"
+mozilla
+/
+StandardInteger
+.
+h
+"
 enum
 UIStateChangeType
 {

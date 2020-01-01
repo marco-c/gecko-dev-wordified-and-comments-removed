@@ -46,6 +46,15 @@ key
 .
 h
 "
+#
+include
+"
+mozilla
+/
+StandardInteger
+.
+h
+"
 typedef
 struct
 {

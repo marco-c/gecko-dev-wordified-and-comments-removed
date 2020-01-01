@@ -7,7 +7,9 @@ NS_SMILTYPES_H_
 #
 include
 "
-prtypes
+mozilla
+/
+StandardInteger
 .
 h
 "

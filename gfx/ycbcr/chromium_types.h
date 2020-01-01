@@ -11,6 +11,15 @@ prtypes
 .
 h
 "
+#
+include
+"
+mozilla
+/
+StandardInteger
+.
+h
+"
 typedef
 uint8_t
 uint8

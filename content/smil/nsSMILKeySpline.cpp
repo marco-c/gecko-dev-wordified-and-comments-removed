@@ -8,7 +8,9 @@ h
 #
 include
 "
-prtypes
+mozilla
+/
+StandardInteger
 .
 h
 "

@@ -6,11 +6,13 @@ define
 _states_h_
 #
 include
-<
-prtypes
+"
+mozilla
+/
+StandardInteger
 .
 h
->
+"
 namespace
 mozilla
 {

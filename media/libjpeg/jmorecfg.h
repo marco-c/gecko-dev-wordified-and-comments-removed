@@ -6,6 +6,15 @@ prtypes
 h
 "
 #
+include
+"
+mozilla
+/
+StandardInteger
+.
+h
+"
+#
 define
 BITS_IN_JSAMPLE
 8

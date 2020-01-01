@@ -19,6 +19,15 @@ stdlib
 h
 >
 #
+include
+"
+mozilla
+/
+StandardInteger
+.
+h
+"
+#
 define
 XPT_PUBLIC_API
 (

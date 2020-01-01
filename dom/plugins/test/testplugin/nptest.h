@@ -43,6 +43,15 @@ h
 "
 #
 include
+"
+mozilla
+/
+StandardInteger
+.
+h
+"
+#
+include
 <
 string
 >

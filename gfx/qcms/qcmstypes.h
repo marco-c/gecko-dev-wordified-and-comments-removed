@@ -15,6 +15,15 @@ prtypes
 h
 "
 #
+include
+"
+mozilla
+/
+StandardInteger
+.
+h
+"
+#
 if
 defined
 (

@@ -7,7 +7,9 @@ NSFRAMEITERATOR_H
 #
 include
 "
-prtypes
+mozilla
+/
+StandardInteger
 .
 h
 "

@@ -7,7 +7,9 @@ bspatch_h__
 #
 include
 "
-prtypes
+mozilla
+/
+StandardInteger
 .
 h
 "

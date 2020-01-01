@@ -18,6 +18,15 @@ limits
 .
 h
 "
+#
+include
+"
+mozilla
+/
+StandardInteger
+.
+h
+"
 PR_STATIC_ASSERT
 (
 sizeof
