@@ -1169,9 +1169,6 @@ case
 NS_MOVE
 :
 {
-#
-ifndef
-XP_MACOSX
 nsCOMPtr
 <
 nsIMenuRollup
@@ -1222,8 +1219,6 @@ window
 )
 ;
 }
-#
-endif
 eventWindow
 -
 >
@@ -1239,9 +1234,6 @@ case
 NS_SIZE
 :
 {
-#
-ifndef
-XP_MACOSX
 nsCOMPtr
 <
 nsIMenuRollup
@@ -1292,8 +1284,6 @@ window
 )
 ;
 }
-#
-endif
 nsSizeEvent
 *
 sizeEvent
