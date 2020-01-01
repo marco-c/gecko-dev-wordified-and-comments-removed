@@ -1172,6 +1172,7 @@ this
 .
 toolbarH
 )
+;
 ws
 .
 moveUnfrozenTo
@@ -1191,6 +1192,7 @@ this
 .
 toolbarH
 )
+;
 ws
 .
 moveUnfrozenTo
@@ -1205,6 +1207,7 @@ this
 .
 toolbarH
 )
+;
 }
 toolbar
 .
@@ -4603,6 +4606,7 @@ true
 false
 "
 )
+;
 let
 optionIndex
 =
@@ -4673,6 +4677,7 @@ child
 .
 label
 )
+;
 this
 .
 _list
@@ -4746,6 +4751,7 @@ subchild
 .
 text
 )
+;
 this
 .
 _list
@@ -4824,6 +4830,7 @@ child
 .
 textContent
 )
+;
 this
 .
 _list
