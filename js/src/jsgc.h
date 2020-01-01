@@ -4942,9 +4942,6 @@ color
 ;
 public
 :
-jsuword
-stackLimit
-;
 js
 :
 :
