@@ -12836,6 +12836,9 @@ parentTimeoutSecs
 ;
 #
 endif
+#
+ifdef
+XP_WIN
 pref
 (
 "
@@ -12852,6 +12855,8 @@ enabled
 false
 )
 ;
+#
+endif
 pref
 (
 "
