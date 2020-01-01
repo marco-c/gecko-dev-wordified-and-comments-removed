@@ -606,6 +606,13 @@ if
 (
 !
 ownerDoc
+|
+|
+ownerDoc
+.
+defaultView
+.
+frameElement
 )
 return
 ;
