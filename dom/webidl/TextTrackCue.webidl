@@ -240,6 +240,9 @@ attribute
 boolean
 pauseOnExit
 ;
+[
+SetterThrows
+]
 attribute
 DOMString
 vertical
@@ -283,10 +286,16 @@ AutoKeyword
 )
 line
 ;
+[
+SetterThrows
+]
 attribute
 long
 position
 ;
+[
+SetterThrows
+]
 attribute
 long
 size
