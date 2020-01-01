@@ -4050,10 +4050,9 @@ mProcessingScriptTag
 =
 false
 ;
-NS_HOLD_JS_OBJECTS
+HoldJSObjects
 (
 this
-nsJSContext
 )
 ;
 }
@@ -4177,10 +4176,9 @@ mContext
 =
 nullptr
 ;
-NS_DROP_JS_OBJECTS
+DropJSObjects
 (
 this
-nsJSContext
 )
 ;
 }
