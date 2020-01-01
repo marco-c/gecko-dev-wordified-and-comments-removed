@@ -22,6 +22,11 @@ true
 .
 14
 NaN
+"
+"
+"
+xyzzy
+"
 {
 }
 Math

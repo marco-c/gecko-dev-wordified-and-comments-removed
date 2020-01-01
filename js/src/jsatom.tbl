@@ -495,13 +495,6 @@ DEFINE_ATOM
 (
 iterator
 "
-iterator
-"
-)
-DEFINE_ATOM
-(
-iteratorIntrinsic
-"
 __iterator__
 "
 )
