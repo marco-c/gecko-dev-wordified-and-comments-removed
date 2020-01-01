@@ -468,7 +468,7 @@ target
 result
 )
 {
-dump
+debug
 (
 "
 MOZSETTINGS
@@ -770,7 +770,7 @@ length
 0
 )
 {
-dump
+debug
 (
 "
 MOZSETTINGS
