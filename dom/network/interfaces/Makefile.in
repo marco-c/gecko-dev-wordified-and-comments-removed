@@ -109,10 +109,6 @@ nsIDOMTCPSocket
 .
 idl
 \
-nsIDOMDataErrorEvent
-.
-idl
-\
 (
 NULL
 )

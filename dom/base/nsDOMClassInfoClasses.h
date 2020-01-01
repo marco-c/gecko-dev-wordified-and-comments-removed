@@ -1304,10 +1304,6 @@ USSDReceivedEvent
 )
 DOMCI_CLASS
 (
-DataErrorEvent
-)
-DOMCI_CLASS
-(
 CSSFontFaceRule
 )
 DOMCI_CLASS

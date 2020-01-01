@@ -156,10 +156,6 @@ USSDReceivedEvent
 .
 cpp
 \
-DataErrorEvent
-.
-cpp
-\
 (
 NULL
 )
