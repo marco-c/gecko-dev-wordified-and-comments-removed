@@ -445,7 +445,6 @@ NULL
 "
 "
 key_value
-TEXT
 DEFAULT
 NULL
 "
