@@ -443,6 +443,10 @@ test_bug440974
 .
 html
 \
+test_bug427060
+.
+html
+\
 (
 NULL
 )
