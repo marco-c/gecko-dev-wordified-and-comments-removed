@@ -104,14 +104,13 @@ cookies
 <
 !
 ENTITY
-clearPrivateData
+clearPrivateData2
 .
 title
 "
 Clear
-recent
-browsing
-history
+private
+data
 "
 >
 <
