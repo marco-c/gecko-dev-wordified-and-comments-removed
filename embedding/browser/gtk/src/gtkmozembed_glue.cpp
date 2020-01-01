@@ -312,6 +312,11 @@ GTKF
 gtk_moz_embed_single_get
 )
 \
+GTKF
+(
+gtk_moz_embed_set_directory_service_provider
+)
+\
 GTKMOZEMBED2_FUNCTIONS
 #
 define
