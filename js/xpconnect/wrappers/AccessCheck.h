@@ -139,15 +139,6 @@ act
 ;
 static
 bool
-callerIsXBL
-(
-JSContext
-*
-cx
-)
-;
-static
-bool
 isSystemOnlyAccessPermitted
 (
 JSContext
