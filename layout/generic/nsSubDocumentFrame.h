@@ -335,6 +335,11 @@ GetSubdocumentRootFrame
 (
 )
 ;
+nsIntSize
+GetSubdocumentSize
+(
+)
+;
 virtual
 bool
 ReflowFinished
