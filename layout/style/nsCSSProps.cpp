@@ -775,6 +775,10 @@ eCSSKeyword_tabpanels
 NS_THEME_TAB_PANELS
 eCSSKeyword_tabpanel
 NS_THEME_TAB_PANEL
+eCSSKeyword_tabscrollarrow_back
+NS_THEME_TAB_SCROLLARROW_BACK
+eCSSKeyword_tabscrollarrow_forward
+NS_THEME_TAB_SCROLLARROW_FORWARD
 eCSSKeyword_tooltip
 NS_THEME_TOOLTIP
 eCSSKeyword_spinner

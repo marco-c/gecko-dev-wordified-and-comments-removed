@@ -215,6 +215,7 @@ MOZ_GTK_PROGRESSBAR
 MOZ_GTK_PROGRESS_CHUNK
 MOZ_GTK_TAB
 MOZ_GTK_TABPANELS
+MOZ_GTK_TAB_SCROLLARROW
 MOZ_GTK_TREEVIEW
 MOZ_GTK_TREE_HEADER_CELL
 MOZ_GTK_TREE_HEADER_SORTARROW
@@ -370,6 +371,17 @@ metrics
 ;
 gint
 moz_gtk_get_dropdown_arrow_size
+(
+gint
+*
+width
+gint
+*
+height
+)
+;
+gint
+moz_gtk_get_tab_scroll_arrow_size
 (
 gint
 *
