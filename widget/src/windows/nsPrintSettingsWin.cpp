@@ -1042,6 +1042,14 @@ PR_TRUE
 ps
 -
 >
+SetPaperSize
+(
+5
+)
+;
+ps
+-
+>
 SetOrientation
 (
 nsIPrintSettings
