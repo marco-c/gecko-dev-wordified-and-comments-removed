@@ -179,6 +179,17 @@ include
 "
 vm
 /
+Debugger
+-
+inl
+.
+h
+"
+#
+include
+"
+vm
+/
 Interpreter
 -
 inl
