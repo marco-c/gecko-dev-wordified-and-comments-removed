@@ -3071,9 +3071,10 @@ return
 false
 ;
 }
-UnrootedShape
+RootedShape
 shape
-=
+(
+cx
 obj
 -
 >
@@ -3082,6 +3083,7 @@ nativeLookup
 cx
 pid
 )
+)
 ;
 if
 (
@@ -3089,11 +3091,6 @@ if
 shape
 )
 {
-DropUnrooted
-(
-shape
-)
-;
 Class
 *
 clasp
@@ -4012,6 +4009,12 @@ cx
 obj
 )
 ;
+RootedValue
+getter
+(
+cx
+)
+;
 do
 {
 MOZ_ASSERT
@@ -4135,8 +4138,7 @@ isAccessorDescriptor
 )
 )
 {
-Value
-get
+getter
 =
 desc
 .
@@ -4146,7 +4148,7 @@ getterValue
 ;
 if
 (
-get
+getter
 .
 isUndefined
 (
@@ -4190,7 +4192,7 @@ args
 .
 setCallee
 (
-get
+getter
 )
 ;
 args
@@ -5190,6 +5192,12 @@ cx
 obj
 )
 ;
+RootedValue
+setter
+(
+cx
+)
+;
 MOZ_ASSERT
 (
 receiver
@@ -5347,7 +5355,6 @@ isAccessorDescriptor
 )
 )
 {
-Value
 setter
 =
 ownDesc
