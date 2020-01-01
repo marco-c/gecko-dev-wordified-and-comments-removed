@@ -3987,6 +3987,13 @@ true
 }
 if
 (
+weakFrame
+.
+IsAlive
+(
+)
+&
+&
 aParts
 .
 mHScrollbar
@@ -4586,6 +4593,13 @@ true
 }
 if
 (
+weakFrame
+.
+IsAlive
+(
+)
+&
+&
 mScrollbarActivity
 )
 {
