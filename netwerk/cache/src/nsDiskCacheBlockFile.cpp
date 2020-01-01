@@ -817,6 +817,15 @@ size
 NS_ENSURE_STATE
 (
 bytesWritten
+>
+=
+0
+&
+&
+PRUint32
+(
+bytesWritten
+)
 =
 =
 size
