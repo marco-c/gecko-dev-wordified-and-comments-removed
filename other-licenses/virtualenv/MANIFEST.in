@@ -24,11 +24,9 @@ tar
 gz
 recursive
 -
-exclude
-virtualenv_support
+include
+virtualenv_embedded
 *
-.
-py
 recursive
 -
 exclude
@@ -48,3 +46,11 @@ include
 *
 .
 py
+include
+AUTHORS
+.
+txt
+include
+LICENSE
+.
+txt
