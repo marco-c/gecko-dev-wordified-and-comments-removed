@@ -461,9 +461,9 @@ acquire
 lock
 "
 ;
-this
+Svc
 .
-_os
+Observer
 .
 notifyObservers
 (
@@ -536,9 +536,9 @@ unlock
 (
 )
 ;
-this
+Svc
 .
-_os
+Observer
 .
 notifyObservers
 (
