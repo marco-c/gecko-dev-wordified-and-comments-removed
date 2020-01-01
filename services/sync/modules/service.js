@@ -910,6 +910,22 @@ this
 .
 _notify
 =
+Utils
+.
+notify
+(
+"
+weave
+:
+service
+:
+"
+)
+;
+this
+.
+_notifyAsync
+=
 Wrap
 .
 notify
@@ -933,6 +949,11 @@ _localLock
 Wrap
 .
 localLock
+_catch
+:
+Utils
+.
+catch
 _catchAll
 :
 Wrap
@@ -3238,7 +3259,7 @@ _catchAll
 (
 this
 .
-_notify
+_notifyAsync
 (
 "
 verify
@@ -3375,7 +3396,7 @@ _localLock
 (
 this
 .
-_notify
+_notifyAsync
 (
 "
 verify
@@ -3654,7 +3675,7 @@ _localLock
 (
 this
 .
-_notify
+_notifyAsync
 (
 "
 login
@@ -5977,7 +5998,7 @@ _catchAll
 (
 this
 .
-_notify
+_notifyAsync
 (
 "
 sync
@@ -6396,7 +6417,7 @@ _catchAll
 (
 this
 .
-_notify
+_notifyAsync
 (
 "
 wipe
@@ -6502,7 +6523,7 @@ _catchAll
 (
 this
 .
-_notify
+_notifyAsync
 (
 "
 wipe
@@ -6593,7 +6614,7 @@ _catchAll
 (
 this
 .
-_notify
+_notifyAsync
 (
 "
 wipe
@@ -6699,7 +6720,7 @@ _catchAll
 (
 this
 .
-_notify
+_notifyAsync
 (
 "
 reset
@@ -6896,7 +6917,7 @@ _catchAll
 (
 this
 .
-_notify
+_notifyAsync
 (
 "
 reset
@@ -7242,7 +7263,7 @@ true
 ;
 this
 .
-_notify
+_notifyAsync
 (
 "
 process
