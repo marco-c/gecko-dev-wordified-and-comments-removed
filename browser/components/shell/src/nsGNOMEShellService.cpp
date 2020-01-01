@@ -972,7 +972,7 @@ rv
 NS_ENSURE_SUCCESS
 (
 rv
-rv
+NS_OK
 )
 ;
 nsCOMPtr
