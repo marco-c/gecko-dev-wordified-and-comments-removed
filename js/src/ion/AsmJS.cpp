@@ -31539,11 +31539,9 @@ module
 (
 )
 ;
-#
-ifdef
-DEBUG
-JS_ASSERT
+if
 (
+!
 types
 :
 :
@@ -31569,6 +31567,8 @@ UndefinedType
 )
 )
 )
+return
+true
 ;
 for
 (
@@ -31659,8 +31659,9 @@ extractNonDoubleType
 )
 )
 ;
-JS_ASSERT
+if
 (
+!
 typeset
 -
 >
@@ -31669,10 +31670,10 @@ hasType
 type
 )
 )
+return
+true
 ;
 }
-#
-endif
 IonScript
 *
 ionScript
