@@ -1381,12 +1381,6 @@ getUseCount
 }
 #
 endif
-SnapshotIterator
-iter
-(
-it
-)
-;
 it
 .
 ionScript
@@ -1622,6 +1616,12 @@ fp
 >
 setConstructing
 (
+)
+;
+SnapshotIterator
+iter
+(
+it
 )
 ;
 while

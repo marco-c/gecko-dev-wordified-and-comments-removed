@@ -1832,7 +1832,7 @@ trc
 {
 JS_ASSERT
 (
-tag
+tag_
 =
 =
 IDARRAY
@@ -1874,7 +1874,7 @@ trc
 {
 switch
 (
-tag
+tag_
 )
 {
 case
@@ -2266,7 +2266,7 @@ this
 )
 -
 >
-obj
+obj_
 )
 MarkObjectRoot
 (
@@ -2282,14 +2282,14 @@ this
 )
 -
 >
-obj
+obj_
 "
 JS
 :
 :
 AutoObjectRooter
 .
-obj
+obj_
 "
 )
 ;
@@ -2389,7 +2389,7 @@ this
 )
 -
 >
-str
+str_
 )
 MarkStringRoot
 (
@@ -2405,14 +2405,14 @@ this
 )
 -
 >
-str
+str_
 "
 JS
 :
 :
 AutoStringRooter
 .
-str
+str_
 "
 )
 ;
@@ -3872,7 +3872,7 @@ return
 }
 JS_ASSERT
 (
-tag
+tag_
 >
 =
 0
@@ -3881,7 +3881,7 @@ tag
 MarkValueRootRange
 (
 trc
-tag
+tag_
 static_cast
 <
 AutoArrayRooter
@@ -3993,7 +3993,7 @@ if
 gcr
 -
 >
-tag
+tag_
 =
 =
 WRAPVECTOR
@@ -4002,7 +4002,7 @@ WRAPVECTOR
 gcr
 -
 >
-tag
+tag_
 =
 =
 WRAPPER
