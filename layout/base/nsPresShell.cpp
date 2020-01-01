@@ -19351,7 +19351,6 @@ Invalidate
 rect
 )
 ;
-}
 mPresContext
 -
 >
@@ -19365,6 +19364,7 @@ UpdatePluginGeometry
 rootFrame
 )
 ;
+}
 nsPIDOMWindow
 *
 win
