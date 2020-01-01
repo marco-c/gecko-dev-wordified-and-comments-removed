@@ -2307,9 +2307,6 @@ JSScript
 *
 *
 scriptp
-JSBool
-*
-hasMagic
 )
 ;
 inline
