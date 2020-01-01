@@ -9927,7 +9927,7 @@ js_Emit1
 (
 cx
 cg
-JSOP_GLOBALTHIS
+JSOP_NULL
 )
 <
 0
@@ -26073,16 +26073,14 @@ js_Emit1
 (
 cx
 cg
-JSOP_GLOBALTHIS
+JSOP_NULL
 )
 <
 0
 )
-{
 return
 JS_FALSE
 ;
-}
 }
 off
 =
