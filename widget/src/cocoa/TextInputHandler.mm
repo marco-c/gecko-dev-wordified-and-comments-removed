@@ -1356,6 +1356,7 @@ CFStringRef
 aString
 )
 {
+const
 NSString
 *
 str
