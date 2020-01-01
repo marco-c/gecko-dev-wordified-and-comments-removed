@@ -103,7 +103,7 @@ idl
 *
 *
 The
-nsIDOMCloseEvent
+CloseEvent
 interface
 is
 the

@@ -118,6 +118,8 @@ EventInit
 {
 double
 value
+=
+Infinity
 ;
 }
 ;

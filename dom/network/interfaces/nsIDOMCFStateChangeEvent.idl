@@ -103,7 +103,7 @@ rule
 /
 readonly
 attribute
-bool
+boolean
 success
 ;
 /
