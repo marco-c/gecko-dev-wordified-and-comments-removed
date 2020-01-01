@@ -427,9 +427,8 @@ icons
 icon64_url
 )
 ;
-do_execute_soon
-(
 do_test_finished
+(
 )
 ;
 }

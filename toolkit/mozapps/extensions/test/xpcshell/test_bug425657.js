@@ -103,9 +103,8 @@ length
 20
 )
 ;
-do_execute_soon
-(
 do_test_finished
+(
 )
 ;
 }

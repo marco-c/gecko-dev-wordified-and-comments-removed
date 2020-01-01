@@ -327,10 +327,7 @@ appDisabled
 }
 [
 ]
-callback_soon
-(
 do_test_finished
-)
 )
 ;
 AddonManager

@@ -690,9 +690,8 @@ end_test
 (
 )
 {
-do_execute_soon
-(
 do_test_finished
+(
 )
 ;
 }
@@ -3404,8 +3403,6 @@ mozilla
 .
 org
 "
-callback_soon
-(
 function
 (
 oldt2
@@ -3493,8 +3490,6 @@ mozilla
 org
 "
 ]
-callback_soon
-(
 function
 (
 [
@@ -3617,10 +3612,8 @@ run_test_11
 ;
 }
 )
-)
 ;
 }
-)
 )
 ;
 }
@@ -3741,10 +3734,7 @@ onInstallStarted
 onInstallEnded
 "
 ]
-callback_soon
-(
 check_test_11
-)
 )
 ;
 install
@@ -4035,8 +4025,6 @@ mozilla
 .
 org
 "
-callback_soon
-(
 function
 (
 t1
@@ -4208,10 +4196,7 @@ onInstallStarted
 onInstallEnded
 "
 ]
-callback_soon
-(
 check_test_13
-)
 )
 ;
 install
@@ -4224,7 +4209,6 @@ install
 )
 ;
 }
-)
 )
 ;
 }
@@ -4278,6 +4262,10 @@ uninstall
 (
 )
 ;
+restartManager
+(
+)
+;
 do_execute_soon
 (
 run_test_14
@@ -4292,10 +4280,6 @@ run_test_14
 (
 )
 {
-restartManager
-(
-)
-;
 LightweightThemeManager
 .
 currentTheme

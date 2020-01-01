@@ -708,9 +708,8 @@ addon5
 version
 )
 ;
-do_execute_soon
-(
 do_test_finished
+(
 )
 ;
 }
