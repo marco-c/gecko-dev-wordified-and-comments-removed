@@ -38863,12 +38863,10 @@ NULL
 ;
 chars
 =
+JSFLATSTR_CHARS
+(
 str
--
->
-u
-.
-chars
+)
 ;
 }
 else
