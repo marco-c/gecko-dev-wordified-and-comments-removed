@@ -469,8 +469,6 @@ endif
 DIRS
 +
 =
-public
-idl
 src
 qcms
 layers
