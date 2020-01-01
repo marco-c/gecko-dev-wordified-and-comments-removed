@@ -62,9 +62,6 @@ callbacks
 bool
 IsLibrary
 (
-JSContext
-*
-cx
 JSObject
 *
 obj

@@ -2557,9 +2557,8 @@ obj
 {
 if
 (
-JS_GET_CLASS
+JS_GetClass
 (
-cx
 obj
 )
 !
@@ -4314,18 +4313,14 @@ true
 bool
 IsCTypesGlobal
 (
-JSContext
-*
-cx
 JSObject
 *
 obj
 )
 {
 return
-JS_GET_CLASS
+JS_GetClass
 (
-cx
 obj
 )
 =
@@ -4350,7 +4345,6 @@ JS_ASSERT
 (
 IsCTypesGlobal
 (
-cx
 obj
 )
 )
@@ -4515,7 +4509,6 @@ JS_ASSERT
 (
 IsCTypesGlobal
 (
-cx
 ctypesObj
 )
 )
@@ -5498,7 +5491,6 @@ CData
 :
 IsCData
 (
-cx
 obj
 )
 )
@@ -5668,7 +5660,6 @@ Int64
 :
 IsInt64
 (
-cx
 obj
 )
 )
@@ -5700,7 +5691,6 @@ UInt64
 :
 IsUInt64
 (
-cx
 obj
 )
 )
@@ -5871,7 +5861,6 @@ CData
 :
 IsCData
 (
-cx
 obj
 )
 )
@@ -6500,7 +6489,6 @@ UInt64
 :
 IsUInt64
 (
-cx
 obj
 )
 )
@@ -6532,7 +6520,6 @@ Int64
 :
 IsInt64
 (
-cx
 obj
 )
 )
@@ -6713,7 +6700,6 @@ UInt64
 :
 IsUInt64
 (
-cx
 obj
 )
 )
@@ -6745,7 +6731,6 @@ Int64
 :
 IsInt64
 (
-cx
 obj
 )
 )
@@ -6969,7 +6954,6 @@ Int64
 :
 IsInt64
 (
-cx
 obj
 )
 )
@@ -7005,7 +6989,6 @@ UInt64
 :
 IsUInt64
 (
-cx
 obj
 )
 )
@@ -7199,7 +7182,6 @@ Int64
 :
 IsInt64
 (
-cx
 obj
 )
 )
@@ -7256,7 +7238,6 @@ UInt64
 :
 IsUInt64
 (
-cx
 obj
 )
 )
@@ -7563,7 +7544,6 @@ CData
 :
 IsCData
 (
-cx
 parentObj
 )
 )
@@ -8223,7 +8203,6 @@ CData
 :
 IsCData
 (
-cx
 JSVAL_TO_OBJECT
 (
 val
@@ -12502,7 +12481,6 @@ CType
 :
 IsCType
 (
-cx
 obj
 )
 )
@@ -13678,18 +13656,14 @@ CType
 :
 IsCType
 (
-JSContext
-*
-cx
 JSObject
 *
 obj
 )
 {
 return
-JS_GET_CLASS
+JS_GetClass
 (
-cx
 obj
 )
 =
@@ -13704,18 +13678,14 @@ CType
 :
 IsCTypeProto
 (
-JSContext
-*
-cx
 JSObject
 *
 obj
 )
 {
 return
-JS_GET_CLASS
+JS_GetClass
 (
-cx
 obj
 )
 =
@@ -13742,7 +13712,6 @@ JS_ASSERT
 (
 IsCType
 (
-cx
 typeObj
 )
 )
@@ -13793,14 +13762,12 @@ JS_ASSERT
 (
 IsCType
 (
-cx
 t1
 )
 &
 &
 IsCType
 (
-cx
 t2
 )
 )
@@ -14178,7 +14145,6 @@ CType
 :
 IsCType
 (
-cx
 obj
 )
 )
@@ -14277,7 +14243,6 @@ CType
 :
 IsCType
 (
-cx
 obj
 )
 )
@@ -14353,7 +14318,6 @@ CType
 :
 IsCType
 (
-cx
 obj
 )
 )
@@ -14422,7 +14386,6 @@ CType
 :
 IsCType
 (
-cx
 obj
 )
 )
@@ -14477,7 +14440,6 @@ CType
 :
 IsCType
 (
-cx
 obj
 )
 )
@@ -14640,7 +14602,6 @@ CType
 :
 IsCType
 (
-cx
 obj
 )
 )
@@ -14760,7 +14721,6 @@ CType
 :
 IsCTypeProto
 (
-cx
 proto
 )
 )
@@ -14808,7 +14768,6 @@ JS_ASSERT
 (
 IsCType
 (
-cx
 obj
 )
 )
@@ -14835,7 +14794,6 @@ CType
 :
 IsCTypeProto
 (
-cx
 proto
 )
 )
@@ -14890,7 +14848,6 @@ CType
 :
 IsCType
 (
-cx
 obj
 )
 |
@@ -14900,7 +14857,6 @@ CType
 :
 IsCTypeProto
 (
-cx
 obj
 )
 )
@@ -14930,7 +14886,6 @@ CType
 :
 IsCTypeProto
 (
-cx
 obj
 )
 ?
@@ -15003,7 +14958,6 @@ CType
 :
 IsCType
 (
-cx
 obj
 )
 )
@@ -15082,7 +15036,6 @@ CType
 :
 IsCType
 (
-cx
 obj
 )
 )
@@ -15159,7 +15112,6 @@ CType
 :
 IsCType
 (
-cx
 obj
 )
 )
@@ -15249,7 +15201,6 @@ CType
 :
 IsCType
 (
-cx
 baseType
 )
 )
@@ -15425,7 +15376,6 @@ CType
 :
 IsCType
 (
-cx
 obj
 )
 |
@@ -15435,7 +15385,6 @@ CType
 :
 IsCTypeProto
 (
-cx
 obj
 )
 )
@@ -15466,7 +15415,6 @@ CType
 :
 IsCType
 (
-cx
 obj
 )
 )
@@ -15579,7 +15527,6 @@ CType
 :
 IsCType
 (
-cx
 obj
 )
 |
@@ -15589,7 +15536,6 @@ CType
 :
 IsCTypeProto
 (
-cx
 obj
 )
 )
@@ -15620,7 +15566,6 @@ CType
 :
 IsCType
 (
-cx
 obj
 )
 )
@@ -15712,7 +15657,6 @@ CType
 :
 IsCType
 (
-cx
 obj
 )
 )
@@ -15753,7 +15697,6 @@ CData
 :
 IsCDataProto
 (
-cx
 prototype
 )
 )
@@ -15883,7 +15826,6 @@ CType
 :
 IsCType
 (
-cx
 JSVAL_TO_OBJECT
 (
 arg
@@ -16134,7 +16076,6 @@ CType
 :
 IsCType
 (
-cx
 obj
 )
 |
@@ -16538,7 +16479,6 @@ CType
 :
 IsCType
 (
-cx
 obj
 )
 |
@@ -16632,7 +16572,6 @@ CData
 :
 IsCData
 (
-cx
 obj
 )
 )
@@ -16775,7 +16714,6 @@ CData
 :
 IsCData
 (
-cx
 obj
 )
 )
@@ -17047,7 +16985,6 @@ CData
 :
 IsCData
 (
-cx
 obj
 )
 )
@@ -17256,7 +17193,6 @@ CData
 :
 IsCData
 (
-cx
 obj
 )
 )
@@ -17489,7 +17425,6 @@ CType
 :
 IsCType
 (
-cx
 JSVAL_TO_OBJECT
 (
 argv
@@ -17881,7 +17816,6 @@ CType
 :
 IsCType
 (
-cx
 obj
 )
 |
@@ -18392,7 +18326,6 @@ CType
 :
 IsCType
 (
-cx
 obj
 )
 )
@@ -18467,7 +18400,6 @@ CType
 :
 IsCType
 (
-cx
 obj
 )
 )
@@ -18581,7 +18513,6 @@ CType
 :
 IsCType
 (
-cx
 obj
 )
 )
@@ -18673,7 +18604,6 @@ CType
 :
 IsCType
 (
-cx
 obj
 )
 )
@@ -18925,7 +18855,6 @@ CType
 :
 IsCType
 (
-cx
 obj
 )
 |
@@ -19008,7 +18937,6 @@ CData
 :
 IsCData
 (
-cx
 obj
 )
 )
@@ -19031,7 +18959,6 @@ CType
 :
 IsCType
 (
-cx
 obj
 )
 |
@@ -19121,7 +19048,6 @@ CData
 :
 IsCData
 (
-cx
 obj
 )
 )
@@ -19323,7 +19249,6 @@ CData
 :
 IsCData
 (
-cx
 obj
 )
 )
@@ -19534,7 +19459,6 @@ CData
 :
 IsCData
 (
-cx
 obj
 )
 )
@@ -20050,7 +19974,6 @@ CType
 :
 IsCType
 (
-cx
 JSVAL_TO_OBJECT
 (
 propVal
@@ -21099,7 +21022,6 @@ CType
 :
 IsCType
 (
-cx
 obj
 )
 )
@@ -21563,7 +21485,6 @@ CType
 :
 IsCType
 (
-cx
 obj
 )
 |
@@ -21732,7 +21653,6 @@ CType
 :
 IsCType
 (
-cx
 obj
 )
 |
@@ -22083,7 +22003,6 @@ CType
 :
 IsCType
 (
-cx
 obj
 )
 )
@@ -22174,7 +22093,6 @@ CType
 :
 IsCType
 (
-cx
 obj
 )
 )
@@ -22283,7 +22201,6 @@ CType
 :
 IsCType
 (
-cx
 obj
 )
 )
@@ -22514,7 +22431,6 @@ CType
 :
 IsCType
 (
-cx
 obj
 )
 |
@@ -22684,7 +22600,6 @@ CData
 :
 IsCData
 (
-cx
 obj
 )
 )
@@ -22838,7 +22753,6 @@ CData
 :
 IsCData
 (
-cx
 obj
 )
 )
@@ -23001,7 +22915,6 @@ CData
 :
 IsCData
 (
-cx
 obj
 )
 )
@@ -23499,7 +23412,6 @@ CType
 :
 IsCType
 (
-cx
 JSVAL_TO_OBJECT
 (
 type
@@ -23692,7 +23604,6 @@ CType
 :
 IsCType
 (
-cx
 JSVAL_TO_OBJECT
 (
 type
@@ -25533,7 +25444,6 @@ CData
 :
 IsCData
 (
-cx
 obj
 )
 )
@@ -25737,7 +25647,6 @@ Library
 :
 IsLibrary
 (
-cx
 JSVAL_TO_OBJECT
 (
 slot
@@ -25935,7 +25844,6 @@ CData
 :
 IsCData
 (
-cx
 obj
 =
 JSVAL_TO_OBJECT
@@ -26363,7 +26271,6 @@ CType
 :
 IsCType
 (
-cx
 obj
 )
 )
@@ -26447,7 +26354,6 @@ CType
 :
 IsCType
 (
-cx
 obj
 )
 |
@@ -26977,7 +26883,6 @@ CType
 :
 IsCTypeProto
 (
-cx
 proto
 )
 )
@@ -28324,7 +28229,6 @@ CType
 :
 IsCType
 (
-cx
 typeObj
 )
 )
@@ -28359,7 +28263,6 @@ CData
 :
 IsCData
 (
-cx
 refObj
 )
 !
@@ -28798,7 +28701,6 @@ CData
 :
 IsCData
 (
-cx
 dataObj
 )
 )
@@ -28834,7 +28736,6 @@ CType
 :
 IsCType
 (
-cx
 typeObj
 )
 )
@@ -28865,7 +28766,6 @@ CData
 :
 IsCData
 (
-cx
 dataObj
 )
 )
@@ -28925,18 +28825,14 @@ CData
 :
 IsCData
 (
-JSContext
-*
-cx
 JSObject
 *
 obj
 )
 {
 return
-JS_GET_CLASS
+JS_GetClass
 (
-cx
 obj
 )
 =
@@ -28951,18 +28847,14 @@ CData
 :
 IsCDataProto
 (
-JSContext
-*
-cx
 JSObject
 *
 obj
 )
 {
 return
-JS_GET_CLASS
+JS_GetClass
 (
-cx
 obj
 )
 =
@@ -28995,7 +28887,6 @@ if
 !
 IsCData
 (
-cx
 obj
 )
 )
@@ -29069,7 +28960,6 @@ if
 !
 IsCData
 (
-cx
 obj
 )
 )
@@ -29167,7 +29057,6 @@ obj
 !
 IsCData
 (
-cx
 obj
 )
 )
@@ -29362,7 +29251,6 @@ CData
 :
 IsCData
 (
-cx
 JSVAL_TO_OBJECT
 (
 argv
@@ -29432,7 +29320,6 @@ CType
 :
 IsCType
 (
-cx
 JSVAL_TO_OBJECT
 (
 argv
@@ -29640,7 +29527,6 @@ CType
 :
 IsCType
 (
-cx
 JSVAL_TO_OBJECT
 (
 argv
@@ -29839,7 +29725,6 @@ obj
 !
 IsCData
 (
-cx
 obj
 )
 )
@@ -30312,7 +30197,6 @@ CData
 :
 IsCData
 (
-cx
 obj
 )
 |
@@ -30322,7 +30206,6 @@ CData
 :
 IsCDataProto
 (
-cx
 obj
 )
 )
@@ -30353,7 +30236,6 @@ CData
 :
 IsCData
 (
-cx
 obj
 )
 )
@@ -30687,7 +30569,6 @@ Int64
 :
 IsInt64
 (
-cx
 obj
 )
 |
@@ -30697,7 +30578,6 @@ UInt64
 :
 IsUInt64
 (
-cx
 obj
 )
 )
@@ -31198,9 +31078,8 @@ slot
 ;
 JS_ASSERT
 (
-JS_GET_CLASS
+JS_GetClass
 (
-cx
 proto
 )
 =
@@ -31252,18 +31131,14 @@ Int64
 :
 IsInt64
 (
-JSContext
-*
-cx
 JSObject
 *
 obj
 )
 {
 return
-JS_GET_CLASS
+JS_GetClass
 (
-cx
 obj
 )
 =
@@ -31310,7 +31185,6 @@ Int64
 :
 IsInt64
 (
-cx
 obj
 )
 )
@@ -31381,7 +31255,6 @@ Int64
 :
 IsInt64
 (
-cx
 obj
 )
 )
@@ -31472,7 +31345,6 @@ Int64
 :
 IsInt64
 (
-cx
 JSVAL_TO_OBJECT
 (
 argv
@@ -31489,7 +31361,6 @@ Int64
 :
 IsInt64
 (
-cx
 JSVAL_TO_OBJECT
 (
 argv
@@ -31706,7 +31577,6 @@ Int64
 :
 IsInt64
 (
-cx
 JSVAL_TO_OBJECT
 (
 argv
@@ -31845,7 +31715,6 @@ Int64
 :
 IsInt64
 (
-cx
 JSVAL_TO_OBJECT
 (
 argv
@@ -32098,9 +31967,8 @@ slot
 ;
 JS_ASSERT
 (
-JS_GET_CLASS
+JS_GetClass
 (
-cx
 proto
 )
 =
@@ -32263,9 +32131,8 @@ slot
 ;
 JS_ASSERT
 (
-JS_GET_CLASS
+JS_GetClass
 (
-cx
 proto
 )
 =
@@ -32317,18 +32184,14 @@ UInt64
 :
 IsUInt64
 (
-JSContext
-*
-cx
 JSObject
 *
 obj
 )
 {
 return
-JS_GET_CLASS
+JS_GetClass
 (
-cx
 obj
 )
 =
@@ -32375,7 +32238,6 @@ UInt64
 :
 IsUInt64
 (
-cx
 obj
 )
 )
@@ -32446,7 +32308,6 @@ UInt64
 :
 IsUInt64
 (
-cx
 obj
 )
 )
@@ -32537,7 +32398,6 @@ UInt64
 :
 IsUInt64
 (
-cx
 JSVAL_TO_OBJECT
 (
 argv
@@ -32554,7 +32414,6 @@ UInt64
 :
 IsUInt64
 (
-cx
 JSVAL_TO_OBJECT
 (
 argv
@@ -32728,7 +32587,6 @@ UInt64
 :
 IsUInt64
 (
-cx
 JSVAL_TO_OBJECT
 (
 argv
@@ -32867,7 +32725,6 @@ UInt64
 :
 IsUInt64
 (
-cx
 JSVAL_TO_OBJECT
 (
 argv
@@ -33120,9 +32977,8 @@ slot
 ;
 JS_ASSERT
 (
-JS_GET_CLASS
+JS_GetClass
 (
-cx
 proto
 )
 =

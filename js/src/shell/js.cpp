@@ -3676,9 +3676,8 @@ false
 if
 (
 (
-JS_GET_CLASS
+JS_GetClass
 (
-cx
 thisobj
 )
 -
@@ -3902,9 +3901,8 @@ false
 if
 (
 (
-JS_GET_CLASS
+JS_GetClass
 (
-cx
 thisobj
 )
 -
@@ -7864,9 +7862,8 @@ JSClass
 *
 clasp
 =
-JS_GET_CLASS
+JS_GetClass
 (
-cx
 obj
 )
 ;
@@ -8145,9 +8142,8 @@ v
 )
 &
 &
-JS_GET_CLASS
+JS_GetClass
 (
-cx
 JSVAL_TO_OBJECT
 (
 v
@@ -8874,9 +8870,8 @@ v
 )
 &
 &
-JS_GET_CLASS
+JS_GetClass
 (
-cx
 JSVAL_TO_OBJECT
 (
 v
@@ -25020,9 +25015,8 @@ vp
 {
 if
 (
-JS_GET_CLASS
+JS_GetClass
 (
-cx
 obj
 )
 =
@@ -25089,9 +25083,8 @@ vp
 {
 if
 (
-JS_GET_CLASS
+JS_GetClass
 (
-cx
 obj
 )
 !

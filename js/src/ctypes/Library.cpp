@@ -696,18 +696,14 @@ Library
 :
 IsLibrary
 (
-JSContext
-*
-cx
 JSObject
 *
 obj
 )
 {
 return
-JS_GET_CLASS
+JS_GetClass
 (
-cx
 obj
 )
 =
@@ -735,7 +731,6 @@ JS_ASSERT
 (
 IsLibrary
 (
-cx
 obj
 )
 )
@@ -835,7 +830,6 @@ ctypesObj
 !
 IsCTypesGlobal
 (
-cx
 ctypesObj
 )
 )
@@ -971,7 +965,6 @@ obj
 !
 IsLibrary
 (
-cx
 obj
 )
 )
@@ -1079,7 +1072,6 @@ obj
 !
 IsLibrary
 (
-cx
 obj
 )
 )
@@ -1309,7 +1301,6 @@ CType
 :
 IsCType
 (
-cx
 JSVAL_TO_OBJECT
 (
 argv

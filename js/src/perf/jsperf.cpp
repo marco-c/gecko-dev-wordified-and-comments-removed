@@ -852,9 +852,8 @@ pm_class
 .
 name
 fname
-JS_GET_CLASS
+JS_GetClass
 (
-cx
 obj
 )
 -
