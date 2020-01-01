@@ -305,6 +305,7 @@ script_
 length
 ;
 }
+inline
 const
 char
 *
@@ -312,16 +313,7 @@ filename
 (
 )
 const
-{
-return
-script_
--
->
-filename
-(
-)
 ;
-}
 unsigned
 lineno
 (
