@@ -75,4 +75,7 @@ mQTimer
 }
 }
 #
+undef
+slots
+#
 endif
