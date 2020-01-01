@@ -4244,6 +4244,7 @@ ifdef
 ENABLE_METHODJIT
 ifdef
 ENABLE_TRACEJIT
+#
 check
 :
 :
@@ -4255,6 +4256,7 @@ endif
 else
 ifndef
 HAVE_DTRACE
+#
 check
 :
 :
