@@ -3817,3 +3817,14 @@ conicstatisticsevent
 h
 #
 endif
+#
+if
+MOZ_NATIVE_LIBEVENT
+=
+=
+1
+event
+.
+h
+#
+endif
