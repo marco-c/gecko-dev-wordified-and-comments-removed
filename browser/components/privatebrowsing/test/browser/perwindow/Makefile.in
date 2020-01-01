@@ -101,6 +101,10 @@ browser_privatebrowsing_cookieacceptdialog
 .
 js
 \
+browser_privatebrowsing_crh
+.
+js
+\
 browser_privatebrowsing_lastpbcontextexited
 .
 js
