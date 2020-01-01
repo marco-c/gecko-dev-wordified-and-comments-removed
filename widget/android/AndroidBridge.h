@@ -1071,11 +1071,6 @@ GetShowPasswordSetting
 )
 ;
 void
-FireAndWaitForTracerEvent
-(
-)
-;
-void
 *
 CallEglCreateWindowSurface
 (
@@ -1945,9 +1940,6 @@ jGetSystemColors
 ;
 jmethodID
 jGetIconForExtension
-;
-jmethodID
-jFireAndWaitForTracerEvent
 ;
 jmethodID
 jCreateShortcut
