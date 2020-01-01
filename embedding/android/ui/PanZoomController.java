@@ -34,17 +34,6 @@ gecko
 .
 gfx
 .
-IntRect
-;
-import
-org
-.
-mozilla
-.
-gecko
-.
-gfx
-.
 IntSize
 ;
 import

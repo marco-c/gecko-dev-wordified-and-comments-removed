@@ -54,6 +54,13 @@ TextureReaper
 import
 android
 .
+graphics
+.
+Rect
+;
+import
+android
+.
 util
 .
 Log
@@ -123,7 +130,7 @@ int
 mTextureIDs
 ;
 private
-IntRect
+Rect
 mTextureUploadRect
 ;
 public
@@ -297,7 +304,7 @@ paintSubimage
 (
 CairoImage
 image
-IntRect
+Rect
 rect
 )
 {
@@ -366,7 +373,7 @@ paintSubimage
 (
 image
 new
-IntRect
+Rect
 (
 0
 0
@@ -638,7 +645,7 @@ position
 (
 mTextureUploadRect
 .
-y
+top
 *
 width
 *
@@ -656,11 +663,13 @@ GL_TEXTURE_2D
 0
 mTextureUploadRect
 .
-y
+top
 width
 mTextureUploadRect
 .
 height
+(
+)
 format
 type
 viewBuffer

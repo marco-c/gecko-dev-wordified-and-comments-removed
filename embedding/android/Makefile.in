@@ -567,12 +567,6 @@ java
 \
 gfx
 /
-IntRect
-.
-java
-\
-gfx
-/
 IntSize
 .
 java
@@ -622,6 +616,12 @@ java
 gfx
 /
 PointUtils
+.
+java
+\
+gfx
+/
+RectUtils
 .
 java
 \
