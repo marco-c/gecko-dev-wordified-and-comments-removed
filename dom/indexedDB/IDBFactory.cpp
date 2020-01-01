@@ -2869,7 +2869,6 @@ OpenCommon
 (
 aName
 aVersion
-mASCIIOrigin
 false
 aCx
 getter_AddRefs
@@ -2927,7 +2926,6 @@ OpenCommon
 (
 aName
 0
-mASCIIOrigin
 true
 aCx
 getter_AddRefs
