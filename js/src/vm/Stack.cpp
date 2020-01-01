@@ -5375,8 +5375,7 @@ JSObject
 scopeChain
 ExecuteType
 type
-StackFrame
-*
+AbstractFramePtr
 evalInFrame
 ExecuteFrameGuard
 *
@@ -5417,6 +5416,10 @@ space
 containingSegment
 (
 evalInFrame
+.
+asStackFrame
+(
+)
 )
 ;
 StackIter
@@ -5433,6 +5436,10 @@ JS_ASSERT
 (
 !
 evalInFrame
+.
+asStackFrame
+(
+)
 -
 >
 runningInIon
@@ -5443,8 +5450,7 @@ runningInIon
 JS_ASSERT_IF
 (
 evalInFrame
--
->
+.
 compartment
 (
 )
@@ -5482,7 +5488,7 @@ isIon
 |
 iter
 .
-interpFrame
+abstractFramePtr
 (
 )
 !
@@ -5497,8 +5503,7 @@ iter
 JS_ASSERT_IF
 (
 evalInFrame
--
->
+.
 compartment
 (
 )
@@ -5582,6 +5587,10 @@ prev
 evalInFrame
 ?
 evalInFrame
+.
+asStackFrame
+(
+)
 :
 maybefp
 (
@@ -8872,7 +8881,7 @@ state
 )
 ;
 return
-AbstractFramePtr
+NullFramePtr
 (
 )
 ;
@@ -10510,7 +10519,7 @@ state
 )
 ;
 return
-AbstractFramePtr
+NullFramePtr
 (
 )
 ;

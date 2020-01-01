@@ -351,9 +351,7 @@ Parser
 const
 parser
 ;
-StackFrame
-*
-const
+AbstractFramePtr
 callerFrame
 ;
 StmtInfoBCE
@@ -444,8 +442,7 @@ SharedContext
 sc
 HandleScript
 script
-StackFrame
-*
+AbstractFramePtr
 callerFrame
 bool
 hasGlobalScope

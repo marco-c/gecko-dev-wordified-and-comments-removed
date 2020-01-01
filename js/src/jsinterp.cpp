@@ -2670,8 +2670,7 @@ Value
 thisv
 ExecuteType
 type
-StackFrame
-*
+AbstractFramePtr
 evalInFrame
 Value
 *
@@ -2997,7 +2996,9 @@ script
 scopeChain
 thisv
 EXECUTE_GLOBAL
-NULL
+NullFramePtr
+(
+)
 rval
 )
 ;

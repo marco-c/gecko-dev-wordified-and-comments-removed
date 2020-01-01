@@ -4548,6 +4548,9 @@ MOZ_GUARD_OBJECT_NOTIFIER_PARAM_IN_IMPL
 :
 frame_
 (
+NullFramePtr
+(
+)
 )
 cur_
 (
@@ -4654,6 +4657,9 @@ MOZ_GUARD_OBJECT_NOTIFIER_PARAM_IN_IMPL
 :
 frame_
 (
+NullFramePtr
+(
+)
 )
 cur_
 (
@@ -5013,7 +5019,7 @@ enclosingScope
 }
 frame_
 =
-AbstractFramePtr
+NullFramePtr
 (
 )
 ;
@@ -5106,7 +5112,7 @@ enclosingScope
 ;
 frame_
 =
-AbstractFramePtr
+NullFramePtr
 (
 )
 ;
@@ -5235,7 +5241,7 @@ else
 {
 frame_
 =
-AbstractFramePtr
+NullFramePtr
 (
 )
 ;
@@ -5278,7 +5284,7 @@ environment
 ;
 frame_
 =
-AbstractFramePtr
+NullFramePtr
 (
 )
 ;
@@ -5319,7 +5325,7 @@ scopeChain
 ;
 frame_
 =
-AbstractFramePtr
+NullFramePtr
 (
 )
 ;
@@ -5529,7 +5535,7 @@ isDebuggerFrame
 ;
 frame_
 =
-AbstractFramePtr
+NullFramePtr
 (
 )
 ;
@@ -10096,7 +10102,7 @@ if
 scopes
 )
 return
-AbstractFramePtr
+NullFramePtr
 (
 )
 ;
@@ -10164,7 +10170,7 @@ frame
 ;
 }
 return
-AbstractFramePtr
+NullFramePtr
 (
 )
 ;
