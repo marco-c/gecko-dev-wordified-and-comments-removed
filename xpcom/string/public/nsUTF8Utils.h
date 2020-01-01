@@ -1443,6 +1443,10 @@ p
 ;
 else
 {
++
++
+mLength
+;
 break
 ;
 }
@@ -1482,6 +1486,10 @@ strings
 .
 "
 )
+;
+-
+-
+mLength
 ;
 mErrorEncountered
 =
