@@ -4161,7 +4161,7 @@ Ci
 .
 nsIURIFixup
 .
-FIXUP_FLAG_NONE
+FIXUP_FLAG_USE_UTF8
 )
 ;
 }
