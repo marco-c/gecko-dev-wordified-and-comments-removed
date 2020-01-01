@@ -146,7 +146,10 @@ struct
 Sizes
 {
 size_t
-mStackTraces
+mStackTracesUsed
+;
+size_t
+mStackTracesUnused
 ;
 size_t
 mStackTraceTable
