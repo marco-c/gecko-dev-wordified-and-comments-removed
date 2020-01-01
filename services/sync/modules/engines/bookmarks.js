@@ -3480,6 +3480,12 @@ placeId
 }
 record
 .
+id
+=
+guid
+;
+record
+.
 parentid
 =
 this
@@ -4637,7 +4643,7 @@ getItemGUID
 (
 itemId
 )
-!
+=
 =
 this
 .
