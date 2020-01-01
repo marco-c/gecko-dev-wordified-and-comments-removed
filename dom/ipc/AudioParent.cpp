@@ -25,6 +25,13 @@ nsThreadUtils
 .
 h
 "
+#
+include
+"
+AudioChannelCommon
+.
+h
+"
 namespace
 mozilla
 {
@@ -1106,6 +1113,7 @@ Init
 (
 aNumChannels
 aRate
+AUDIO_CHANNEL_NORMAL
 )
 )
 )

@@ -265,6 +265,8 @@ workers
 \
 camera
 \
+audiochannel
+\
 (
 NULL
 )

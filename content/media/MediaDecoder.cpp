@@ -117,6 +117,13 @@ mozilla
 :
 layers
 ;
+using
+namespace
+mozilla
+:
+:
+dom
+;
 namespace
 mozilla
 {
@@ -1441,6 +1448,10 @@ false
 mShuttingDown
 (
 false
+)
+mAudioChannelType
+(
+AUDIO_CHANNEL_NORMAL
 )
 {
 MOZ_COUNT_CTOR
