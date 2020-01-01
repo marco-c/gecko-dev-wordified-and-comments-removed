@@ -930,12 +930,6 @@ feDiffuseLighting
 ref
 .
 svg
-random
--
-if
-(
-gtk2Widget
-)
 =
 =
 feSpecularLighting
@@ -950,6 +944,3 @@ feSpecularLighting
 ref
 .
 svg
-#
-bug
-610945
