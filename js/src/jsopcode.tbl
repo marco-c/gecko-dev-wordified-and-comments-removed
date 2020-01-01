@@ -649,6 +649,10 @@ slots
 produced
 by
 bytecode
+-
+1
+if
+variadic
 *
 prec
 Operator
@@ -3171,7 +3175,7 @@ retsub
 "
 NULL
 1
-0
+2
 0
 0
 JOF_BYTE
@@ -3689,7 +3693,7 @@ Exception
 handling
 no
 -
-ops
+op
 for
 more
 economical
@@ -3703,6 +3707,12 @@ srcnote
 -
 annotated
 JSOP_NOPs
+and
+to
+simply
+stack
+balance
+handling
 .
 *
 /
@@ -3730,7 +3740,7 @@ finally
 NULL
 1
 0
-0
+2
 0
 JOF_BYTE
 )
@@ -5146,7 +5156,8 @@ enterblock
 NULL
 3
 0
-0
+-
+1
 0
 JOF_OBJECT
 )
@@ -5159,7 +5170,8 @@ leaveblock
 "
 NULL
 3
-0
+-
+1
 0
 0
 JOF_UINT16
@@ -5462,8 +5474,9 @@ leaveblockexpr
 "
 NULL
 3
-0
-0
+-
+1
+1
 1
 JOF_UINT16
 )
