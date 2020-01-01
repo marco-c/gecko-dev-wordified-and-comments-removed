@@ -5467,15 +5467,13 @@ pushExecuteFrame
 JSContext
 *
 cx
-JSScript
-*
+HandleScript
 script
 const
 Value
 &
 thisv
-JSObject
-&
+HandleObject
 scopeChain
 ExecuteType
 type

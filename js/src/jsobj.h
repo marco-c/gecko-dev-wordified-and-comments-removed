@@ -1071,6 +1071,7 @@ js
 :
 NewObjectCache
 ;
+static
 js
 :
 :
@@ -1084,6 +1085,11 @@ makeLazyType
 JSContext
 *
 cx
+js
+:
+:
+HandleObject
+obj
 )
 ;
 public

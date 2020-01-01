@@ -22151,9 +22151,8 @@ cx
 obj
 )
 ;
-env
-=
-GetDebugScopeForFunction
+RootedFunction
+fun
 (
 cx
 obj
@@ -22162,6 +22161,14 @@ obj
 toFunction
 (
 )
+)
+;
+env
+=
+GetDebugScopeForFunction
+(
+cx
+fun
 )
 ;
 if

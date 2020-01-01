@@ -184,14 +184,12 @@ JSContext
 cx
 HandleObject
 obj
-Value
-*
+MutableHandleValue
 vp
 )
 {
 vp
--
->
+.
 setUndefined
 (
 )
@@ -239,8 +237,7 @@ return
 false
 ;
 vp
--
->
+.
 setObject
 (
 *

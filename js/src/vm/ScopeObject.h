@@ -1307,8 +1307,7 @@ GetDebugScopeForFunction
 JSContext
 *
 cx
-JSFunction
-*
+HandleFunction
 fun
 )
 ;
