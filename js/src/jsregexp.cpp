@@ -11853,8 +11853,12 @@ sizeof
 RESideExit
 )
 +
+(
 re_length
 -
+1
+)
+*
 sizeof
 (
 jschar
@@ -11943,6 +11947,11 @@ exit
 re_chars
 re_chars
 re_length
+*
+sizeof
+(
+jschar
+)
 )
 ;
 fragment
