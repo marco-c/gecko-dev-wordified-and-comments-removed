@@ -106,6 +106,15 @@ nsIMemoryReporter
 UNITS_COUNT
 ;
 const
+UNITS_COUNT_CUMULATIVE
+=
+Ci
+.
+nsIMemoryReporter
+.
+UNITS_COUNT_CUMULATIVE
+;
+const
 UNITS_PERCENTAGE
 =
 Ci
@@ -2482,6 +2491,9 @@ _amount
 ;
 case
 UNITS_COUNT
+:
+case
+UNITS_COUNT_CUMULATIVE
 :
 return
 formatInt

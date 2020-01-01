@@ -828,7 +828,7 @@ faults
 soft
 "
 KIND_OTHER
-UNITS_COUNT
+UNITS_COUNT_CUMULATIVE
 GetSoftPageFaults
 "
 The
@@ -983,7 +983,7 @@ faults
 hard
 "
 KIND_OTHER
-UNITS_COUNT
+UNITS_COUNT_CUMULATIVE
 GetHardPageFaults
 "
 The

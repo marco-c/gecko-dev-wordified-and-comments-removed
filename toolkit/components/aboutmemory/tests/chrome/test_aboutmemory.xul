@@ -597,6 +597,15 @@ nsIMemoryReporter
 UNITS_COUNT
 ;
 const
+COUNT_CUMULATIVE
+=
+Ci
+.
+nsIMemoryReporter
+.
+UNITS_COUNT_CUMULATIVE
+;
+const
 PERCENTAGE
 =
 Ci
@@ -886,7 +895,7 @@ f2
 other4
 "
 OTHER
-COUNT
+COUNT_CUMULATIVE
 888
 )
 f2
