@@ -2339,6 +2339,7 @@ js
 NULL
 )
 NON_OMNIJAR_FILES
++
 =
 \
 chrome
