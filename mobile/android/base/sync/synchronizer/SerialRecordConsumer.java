@@ -53,6 +53,7 @@ stopEventually
 false
 ;
 private
+volatile
 long
 counter
 =
@@ -471,6 +472,13 @@ consumerIsDone
 (
 )
 {
+long
+counterNow
+=
+this
+.
+counter
+;
 info
 (
 "
@@ -481,11 +489,11 @@ done
 Processed
 "
 +
-counter
+counterNow
 +
 (
 (
-counter
+counterNow
 =
 =
 1
