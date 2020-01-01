@@ -3372,6 +3372,13 @@ PropertyAnimator
 ;
 contentAnimator
 .
+setUseHardwareLayer
+(
+false
+)
+;
+contentAnimator
+.
 attach
 (
 mAwesomeBarRightEdge
@@ -3684,6 +3691,13 @@ new
 PropertyAnimator
 (
 250
+)
+;
+contentAnimator
+.
+setUseHardwareLayer
+(
+false
 )
 ;
 int
