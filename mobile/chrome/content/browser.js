@@ -767,6 +767,7 @@ getPluginTags
 ;
 for
 (
+var
 i
 =
 0
