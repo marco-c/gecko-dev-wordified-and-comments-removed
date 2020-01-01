@@ -369,7 +369,7 @@ CPPSRCS
 +
 =
 \
-FallbackBattery
+CocoaBattery
 .
 cpp
 \
