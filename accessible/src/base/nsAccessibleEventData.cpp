@@ -1133,8 +1133,6 @@ Count
 (
 )
 ;
-for
-(
 PRInt32
 tail
 =
@@ -1142,16 +1140,6 @@ numQueuedEvents
 -
 1
 ;
-tail
->
-=
-0
-;
-tail
--
--
-)
-{
 nsRefPtr
 <
 nsAccEvent
@@ -1581,7 +1569,6 @@ default
 :
 break
 ;
-}
 }
 }
 void

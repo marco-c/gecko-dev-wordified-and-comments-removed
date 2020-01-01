@@ -1542,7 +1542,7 @@ rootContentTreeItem
 treeItem
 )
 {
-FireDelayedToolkitEvent
+FireDelayedAccessibleEvent
 (
 nsIAccessibleEvent
 :
@@ -2160,7 +2160,7 @@ PR_FALSE
 ;
 }
 }
-FireDelayedToolkitEvent
+FireDelayedAccessibleEvent
 (
 nsIAccessibleEvent
 :
@@ -3886,7 +3886,7 @@ ValueChange
 )
 )
 {
-FireDelayedToolkitEvent
+FireDelayedAccessibleEvent
 (
 nsIAccessibleEvent
 :

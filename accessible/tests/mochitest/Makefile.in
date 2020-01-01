@@ -675,6 +675,10 @@ test_events_mutation
 .
 html
 \
+test_events_mutation_coalesce
+.
+html
+\
 test_events_tree
 .
 xul

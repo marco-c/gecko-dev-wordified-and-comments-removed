@@ -343,10 +343,10 @@ aEditor
 )
 ;
 nsresult
-FireDelayedToolkitEvent
+FireDelayedAccessibleEvent
 (
 PRUint32
-aEvent
+aEventType
 nsIDOMNode
 *
 aDOMNode

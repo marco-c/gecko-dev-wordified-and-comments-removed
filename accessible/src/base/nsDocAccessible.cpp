@@ -4937,7 +4937,7 @@ nsAccessibilityAtoms
 aria_labelledby
 )
 {
-FireDelayedToolkitEvent
+FireDelayedAccessibleEvent
 (
 nsIAccessibleEvent
 :
@@ -5031,7 +5031,7 @@ node
 "
 )
 ;
-FireDelayedToolkitEvent
+FireDelayedAccessibleEvent
 (
 nsIAccessibleEvent
 :
@@ -5084,7 +5084,7 @@ eCaseMatters
 0
 )
 {
-FireDelayedToolkitEvent
+FireDelayedAccessibleEvent
 (
 nsIAccessibleEvent
 :
@@ -5096,7 +5096,7 @@ targetNode
 return
 ;
 }
-FireDelayedToolkitEvent
+FireDelayedAccessibleEvent
 (
 nsIAccessibleEvent
 :
@@ -5627,7 +5627,7 @@ eCaseMatters
 )
 )
 {
-FireDelayedToolkitEvent
+FireDelayedAccessibleEvent
 (
 nsIAccessibleEvent
 :
@@ -5695,7 +5695,7 @@ nsAccessibilityAtoms
 aria_dropeffect
 )
 {
-FireDelayedToolkitEvent
+FireDelayedAccessibleEvent
 (
 nsIAccessibleEvent
 :
@@ -6663,10 +6663,10 @@ nsresult
 nsDocAccessible
 :
 :
-FireDelayedToolkitEvent
+FireDelayedAccessibleEvent
 (
 PRUint32
-aEvent
+aEventType
 nsIDOMNode
 *
 aDOMNode
@@ -6688,7 +6688,7 @@ event
 new
 nsAccEvent
 (
-aEvent
+aEventType
 aDOMNode
 aIsAsynch
 aAllowDupes
@@ -6757,6 +6757,14 @@ mEventsToFire
 AppendObject
 (
 aEvent
+)
+;
+nsAccEvent
+:
+:
+ApplyEventRules
+(
+mEventsToFire
 )
 ;
 if
@@ -6859,14 +6867,6 @@ presShell
 FlushPendingNotifications
 (
 Flush_Layout
-)
-;
-nsAccEvent
-:
-:
-ApplyEventRules
-(
-mEventsToFire
 )
 ;
 }
@@ -8983,7 +8983,7 @@ nsIAccessibleEvent
 :
 EVENT_DOM_CREATE
 ;
-FireDelayedToolkitEvent
+FireDelayedAccessibleEvent
 (
 additionEvent
 childNode
@@ -9023,7 +9023,7 @@ nsIAccessibleRole
 ROLE_MENUPOPUP
 )
 {
-FireDelayedToolkitEvent
+FireDelayedAccessibleEvent
 (
 nsIAccessibleEvent
 :
@@ -9078,7 +9078,7 @@ ancestor
 )
 )
 ;
-FireDelayedToolkitEvent
+FireDelayedAccessibleEvent
 (
 nsIAccessibleEvent
 :
