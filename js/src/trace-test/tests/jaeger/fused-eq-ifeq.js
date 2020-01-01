@@ -53,11 +53,6 @@ n
 )
 ;
 }
-dis
-(
-ack
-)
-;
 assertEq
 (
 ack
