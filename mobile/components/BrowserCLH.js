@@ -883,7 +883,11 @@ Ci
 nsIBrowserDOMWindow
 .
 OPEN_NEWTAB
-null
+Ci
+.
+nsIBrowserDOMWindow
+.
+OPEN_EXTERNAL
 )
 ;
 }
