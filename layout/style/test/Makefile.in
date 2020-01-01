@@ -448,6 +448,14 @@ test_bug798567
 .
 html
 \
+test_bug829816
+.
+html
+\
+file_bug829816
+.
+css
+\
 test_cascade
 .
 html
