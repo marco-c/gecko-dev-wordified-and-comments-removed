@@ -4857,8 +4857,6 @@ uint32_t
 tcflags
 =
 TCF_COMPILE_N_GO
-|
-TCF_COMPILE_FOR_EVAL
 ;
 JSScript
 *
