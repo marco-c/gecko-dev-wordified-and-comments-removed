@@ -20074,11 +20074,11 @@ MUnaryInstruction
 (
 obj
 )
-{
 protoObj_
-=
+(
 proto
-;
+)
+{
 setResultType
 (
 MIRType_Boolean
