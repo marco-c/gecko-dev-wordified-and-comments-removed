@@ -19774,9 +19774,8 @@ pn
 (
 tokenStream
 .
-isCurrentTokenType
+isCurrentTokenRelational
 (
-TOK_RELOP
 )
 |
 |
