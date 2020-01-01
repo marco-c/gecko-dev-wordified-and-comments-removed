@@ -495,6 +495,14 @@ aFrame
 )
 ;
 bool
+IsVerticalMeter
+(
+nsIFrame
+*
+aFrame
+)
+;
+bool
 IsReadOnly
 (
 nsIFrame
