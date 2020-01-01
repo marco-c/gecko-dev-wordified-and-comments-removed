@@ -40,7 +40,7 @@ ion
 enum
 FrameType
 {
-IonFrame_JS
+IonFrame_OptimizedJS
 IonFrame_Entry
 IonFrame_Rectifier
 IonFrame_Bailed_JS
@@ -197,7 +197,7 @@ type
 )
 =
 =
-IonFrame_JS
+IonFrame_OptimizedJS
 )
 ;
 return
@@ -263,7 +263,7 @@ return
 type_
 =
 =
-IonFrame_JS
+IonFrame_OptimizedJS
 ;
 }
 bool

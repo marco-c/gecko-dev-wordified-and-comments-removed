@@ -606,7 +606,7 @@ fp
 ;
 type_
 =
-IonFrame_JS
+IonFrame_OptimizedJS
 ;
 topFrameSize_
 =
@@ -869,7 +869,7 @@ fp
 ;
 type_
 =
-IonFrame_JS
+IonFrame_OptimizedJS
 ;
 topFrameSize_
 =

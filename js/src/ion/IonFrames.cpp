@@ -261,7 +261,7 @@ fp
 )
 type_
 (
-IonFrame_JS
+IonFrame_OptimizedJS
 )
 returnAddressToFp_
 (
@@ -747,7 +747,7 @@ prevType
 )
 =
 =
-IonFrame_JS
+IonFrame_OptimizedJS
 |
 |
 prevType
@@ -957,7 +957,7 @@ currentSize
 =
 SizeOfFramePrefix
 (
-IonFrame_JS
+IonFrame_OptimizedJS
 )
 ;
 }
@@ -1060,7 +1060,7 @@ IonFrame_Bailed_JS
 )
 type_
 =
-IonFrame_JS
+IonFrame_OptimizedJS
 ;
 returnAddressToFp_
 =
@@ -3709,7 +3709,7 @@ frames
 break
 ;
 case
-IonFrame_JS
+IonFrame_OptimizedJS
 :
 MarkIonJSFrame
 (
@@ -4927,7 +4927,7 @@ type
 )
 =
 =
-IonFrame_JS
+IonFrame_OptimizedJS
 )
 ;
 IonScript
@@ -5965,7 +5965,7 @@ prevFrameLocalSize
 break
 ;
 case
-IonFrame_JS
+IonFrame_OptimizedJS
 :
 {
 InlineFrameIterator

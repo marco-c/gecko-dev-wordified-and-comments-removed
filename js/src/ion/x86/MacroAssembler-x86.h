@@ -4604,7 +4604,7 @@ dynStack
 makeFrameDescriptor
 (
 dynStack
-IonFrame_JS
+IonFrame_OptimizedJS
 )
 ;
 Push

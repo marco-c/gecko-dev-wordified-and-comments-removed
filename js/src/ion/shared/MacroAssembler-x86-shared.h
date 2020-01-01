@@ -2039,7 +2039,7 @@ MakeFrameDescriptor
 framePushed
 (
 )
-IonFrame_JS
+IonFrame_OptimizedJS
 )
 ;
 Push
@@ -2109,7 +2109,7 @@ MakeFrameDescriptor
 framePushed
 (
 )
-IonFrame_JS
+IonFrame_OptimizedJS
 )
 ;
 Push
@@ -2148,7 +2148,7 @@ MakeFrameDescriptor
 framePushed
 (
 )
-IonFrame_JS
+IonFrame_OptimizedJS
 )
 ;
 Push
