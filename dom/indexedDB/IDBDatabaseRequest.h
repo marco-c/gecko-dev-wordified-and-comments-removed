@@ -195,6 +195,15 @@ FireCloseConnectionRunnable
 )
 ;
 void
+OnVersionSet
+(
+const
+nsString
+&
+aVersion
+)
+;
+void
 OnObjectStoreCreated
 (
 const
