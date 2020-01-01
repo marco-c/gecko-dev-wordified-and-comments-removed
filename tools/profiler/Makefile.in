@@ -335,6 +335,10 @@ JSObjectBuilder
 .
 cpp
 \
+JSCustomObjectBuilder
+.
+cpp
+\
 (
 NULL
 )
