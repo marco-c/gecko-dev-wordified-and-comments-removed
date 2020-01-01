@@ -2290,7 +2290,7 @@ rv
 nsAccUtils
 :
 :
-SetAccAttrsForXULSelectControlItem
+SetAccAttrsForXULContainerItem
 (
 mDOMNode
 aAttributes
