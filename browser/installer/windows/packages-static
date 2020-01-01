@@ -2475,6 +2475,11 @@ nssdbm3
 dll
 bin
 \
+nssdbm3
+.
+chk
+bin
+\
 chrome
 \
 pippki

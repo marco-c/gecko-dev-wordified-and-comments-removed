@@ -2524,6 +2524,11 @@ libnssdbm3
 so
 bin
 /
+libnssdbm3
+.
+chk
+bin
+/
 chrome
 /
 pippki
