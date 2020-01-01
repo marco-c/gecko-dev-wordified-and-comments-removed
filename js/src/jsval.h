@@ -249,6 +249,9 @@ JSVAL_TYPE_NULL
 JSVAL_TYPE_OBJECT
 =
 0x07
+JSVAL_TYPE_UNKNOWN
+=
+0x20
 JSVAL_TYPE_NONFUNOBJ
 =
 0x57
@@ -257,13 +260,13 @@ JSVAL_TYPE_FUNOBJ
 0x67
 JSVAL_TYPE_STRORNULL
 =
-0x77
+0x97
 JSVAL_TYPE_OBJORNULL
 =
-0x78
+0x98
 JSVAL_TYPE_BOXED
 =
-0x79
+0x99
 }
 JS_ENUM_FOOTER
 (
@@ -295,7 +298,7 @@ uint32
 {
 JSVAL_TAG_CLEAR
 =
-0xFFFFFF80
+0xFFFF0000
 JSVAL_TAG_INT32
 =
 JSVAL_TAG_CLEAR
@@ -657,7 +660,7 @@ JSVAL_TYPE_STRORNULL
 (
 uint8
 )
-0x77
+0x97
 )
 #
 define
@@ -666,7 +669,7 @@ JSVAL_TYPE_OBJORNULL
 (
 uint8
 )
-0x78
+0x98
 )
 #
 define
@@ -675,7 +678,7 @@ JSVAL_TYPE_BOXED
 (
 uint8
 )
-0x79
+0x99
 )
 #
 define
@@ -684,7 +687,7 @@ JSVAL_TYPE_UNINITIALIZED
 (
 uint8
 )
-0x7d
+0xcd
 )
 #
 if
@@ -704,7 +707,7 @@ JSVAL_TAG_CLEAR
 uint32
 )
 (
-0xFFFFFF80
+0xFFFF0000
 )
 )
 #
@@ -1171,6 +1174,7 @@ JS_NO_CONSTANT
 JS_THIS_POISON
 JS_ARG_POISON
 JS_SERIALIZE_NO_NODE
+JS_LAZY_ARGUMENTS
 JS_GENERIC_MAGIC
 }
 JSWhyMagic
@@ -1330,6 +1334,9 @@ u32
 JSWhyMagic
 why
 ;
+jsuword
+word
+;
 }
 payload
 ;
@@ -1342,9 +1349,6 @@ asDouble
 void
 *
 asPtr
-;
-jsuword
-asWord
 ;
 }
 jsval_layout
@@ -1446,9 +1450,6 @@ debugView
 ;
 struct
 {
-uint32
-padding
-;
 union
 {
 int32
@@ -1459,6 +1460,9 @@ u32
 ;
 JSWhyMagic
 why
+;
+jsuword
+word
 ;
 }
 payload
@@ -1473,9 +1477,6 @@ void
 *
 asPtr
 ;
-jsuword
-asWord
-;
 }
 jsval_layout
 ;
@@ -1483,17 +1484,6 @@ jsval_layout
 endif
 #
 endif
-JS_STATIC_ASSERT
-(
-sizeof
-(
-jsval_layout
-)
-=
-=
-8
-)
-;
 #
 if
 JS_BITS_PER_WORD

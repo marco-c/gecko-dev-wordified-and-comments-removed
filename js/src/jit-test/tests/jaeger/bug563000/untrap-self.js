@@ -17,7 +17,7 @@ main
 untrap
 (
 main
-22
+28
 )
 ;
 x
@@ -42,7 +42,7 @@ failure
 trap
 (
 main
-22
+28
 "
 failure
 (

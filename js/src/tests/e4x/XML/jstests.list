@@ -509,12 +509,6 @@ regress
 291930
 .
 js
-skip
--
-if
-(
-Android
-)
 silentfail
 script
 regress
@@ -567,5 +561,11 @@ script
 regress
 -
 621464
+.
+js
+script
+regress
+-
+638982
 .
 js

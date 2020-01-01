@@ -709,8 +709,8 @@ JaegerTrampolineReturn
 .
 ENDPROLOG
 or
-rcx
-rdx
+rsi
+rdi
 mov
 qword
 ptr

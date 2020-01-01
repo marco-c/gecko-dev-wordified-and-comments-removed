@@ -1,3 +1,5 @@
+try
+{
 function
 g
 (
@@ -20,11 +22,9 @@ arguments
 .
 length
 =
-getMaxArgs
-(
-)
-+
-1
+8
+.
+64e15
 ;
 g
 .
@@ -39,3 +39,10 @@ f
 (
 )
 ;
+}
+catch
+(
+e
+)
+{
+}

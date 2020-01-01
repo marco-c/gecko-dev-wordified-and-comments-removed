@@ -574,7 +574,7 @@ JaegerTrampolineReturn
 :
 st
 %
-i0
+l3
 [
 %
 l0
@@ -587,12 +587,12 @@ fp
 -
 >
 rval
-type
+data
 *
 /
 st
 %
-i1
+l2
 [
 %
 l0
@@ -605,7 +605,7 @@ fp
 -
 >
 rval
-data
+type
 *
 /
 call
