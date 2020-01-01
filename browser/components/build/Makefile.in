@@ -92,8 +92,6 @@ txmgr
 \
 chardet
 \
-bookmarks
-\
 migration
 \
 shellservice
@@ -123,6 +121,13 @@ cpp
 (
 NULL
 )
+ifndef
+MOZ_PLACES_BOOKMARKS
+REQUIRES
++
+=
+bookmarks
+endif
 ifeq
 (
 (
