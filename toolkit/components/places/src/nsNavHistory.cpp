@@ -24385,6 +24385,15 @@ thread
 "
 )
 ;
+if
+(
+IsHistoryDisabled
+(
+)
+)
+return
+NS_OK
+;
 PRInt64
 visitID
 ;
