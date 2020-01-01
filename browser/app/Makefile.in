@@ -662,11 +662,13 @@ SOURCE_STAMP
 =
 (
 shell
-hg
-identify
+cd
 (
 topsrcdir
 )
+;
+hg
+identify
 2
 >
 /

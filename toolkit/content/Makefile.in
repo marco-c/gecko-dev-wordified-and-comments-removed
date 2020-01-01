@@ -513,11 +513,13 @@ CHANGESET
 =
 (
 shell
-hg
-identify
+cd
 (
 topsrcdir
 )
+;
+hg
+identify
 2
 >
 /
