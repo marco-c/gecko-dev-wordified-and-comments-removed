@@ -483,6 +483,10 @@ test_bug549491
 .
 xul
 \
+test_editBookmarkOverlay_tags_liveUpdate
+.
+xul
+\
 (
 NULL
 )
