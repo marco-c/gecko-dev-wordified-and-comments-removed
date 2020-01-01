@@ -1391,6 +1391,11 @@ setCompileAndGo
 true
 )
 .
+setForEval
+(
+true
+)
+.
 setNoScriptRval
 (
 false
@@ -1705,6 +1710,11 @@ lineno
 )
 .
 setCompileAndGo
+(
+true
+)
+.
+setForEval
 (
 true
 )

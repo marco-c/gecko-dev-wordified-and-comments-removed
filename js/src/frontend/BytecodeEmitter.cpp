@@ -408,6 +408,8 @@ SharedContext
 sc
 HandleScript
 script
+bool
+insideEval
 HandleScript
 evalCaller
 bool
@@ -535,6 +537,10 @@ emittingRunOnceLambda
 (
 false
 )
+insideEval
+(
+insideEval
+)
 hasGlobalScope
 (
 hasGlobalScope
@@ -544,6 +550,12 @@ selfHostingMode
 selfHostingMode
 )
 {
+JS_ASSERT_IF
+(
+evalCaller
+insideEval
+)
+;
 }
 bool
 BytecodeEmitter
@@ -5962,6 +5974,7 @@ isDeoptimized
 &
 &
 !
+(
 bce
 -
 >
@@ -5969,6 +5982,13 @@ sc
 -
 >
 strict
+&
+&
+bce
+-
+>
+insideEval
+)
 )
 {
 switch
@@ -21330,6 +21350,10 @@ bce
 parser
 funbox
 script
+bce
+-
+>
+insideEval
 bce
 -
 >

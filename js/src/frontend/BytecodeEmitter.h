@@ -463,6 +463,11 @@ emittingRunOnceLambda
 :
 1
 ;
+bool
+insideEval
+:
+1
+;
 const
 bool
 hasGlobalScope
@@ -491,6 +496,8 @@ SharedContext
 sc
 HandleScript
 script
+bool
+insideEval
 HandleScript
 evalCaller
 bool

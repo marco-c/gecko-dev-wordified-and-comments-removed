@@ -369,6 +369,14 @@ compileAndGo
 ;
 JS_ASSERT_IF
 (
+evalCaller
+options
+.
+forEval
+)
+;
+JS_ASSERT_IF
+(
 staticLevel
 !
 =
@@ -753,6 +761,9 @@ parser
 &
 globalsc
 script
+options
+.
+forEval
 evalCaller
 !
 !
@@ -1741,6 +1752,14 @@ return
 false
 ;
 }
+JS_ASSERT
+(
+!
+options
+.
+forEval
+)
+;
 Parser
 <
 FullParseHandler
@@ -2199,6 +2218,7 @@ NULL
 parser
 funbox
 script
+false
 NullPtr
 (
 )
