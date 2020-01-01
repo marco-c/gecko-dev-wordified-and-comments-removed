@@ -2475,6 +2475,15 @@ setRect
 0
 )
 ;
+if
+(
+!
+cr
+.
+isEmpty
+(
+)
+)
 this
 .
 recenterEvictionQueue
