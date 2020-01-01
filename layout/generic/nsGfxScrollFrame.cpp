@@ -8745,6 +8745,9 @@ result
 mVertical
 )
 ;
+return
+result
+;
 }
 }
 else
