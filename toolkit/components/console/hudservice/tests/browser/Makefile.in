@@ -812,10 +812,6 @@ browser_webconsole_bug_642108_pruneTest
 .
 js
 \
-browser_webconsole_bug_632275_getters_document_width
-.
-js
-\
 head
 .
 js
@@ -1519,16 +1515,6 @@ bug
 iterators
 -
 generators
-.
-html
-\
-test
--
-bug
--
-632275
--
-getters
 .
 html
 \
