@@ -265,6 +265,14 @@ define
 NS_NATIVE_TSF_DISPLAY_ATTR_MGR
 102
 #
+define
+NS_NATIVE_ICOREWINDOW
+103
+/
+/
+winrt
+specific
+#
 endif
 #
 define
