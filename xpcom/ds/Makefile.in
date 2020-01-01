@@ -667,10 +667,6 @@ nsIEnumerator
 .
 idl
 \
-nsIHashable
-.
-idl
-\
 nsIINIParser
 .
 idl
@@ -734,6 +730,10 @@ SDK_XPIDLSRCS
 =
 \
 nsIArray
+.
+idl
+\
+nsIHashable
 .
 idl
 \
