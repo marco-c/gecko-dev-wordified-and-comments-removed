@@ -825,7 +825,7 @@ break
 ;
 case
 "
-registrationstatechange
+voiceregistrationstatechange
 "
 :
 this
@@ -834,14 +834,14 @@ updateDataConnection
 (
 message
 .
-registrationState
+voiceRegistrationState
 )
 ;
 break
 ;
 case
 "
-gprsregistrationstatechange
+dataregistrationstatechange
 "
 :
 let
@@ -849,7 +849,7 @@ state
 =
 message
 .
-gprsRegistrationState
+dataRegistrationState
 ;
 this
 .
