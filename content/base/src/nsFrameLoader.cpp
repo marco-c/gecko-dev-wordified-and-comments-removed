@@ -5097,12 +5097,11 @@ nsnull
 unused
 <
 <
-PBrowserParent
-:
-:
-Send__delete__
-(
 mRemoteBrowser
+-
+>
+SendDestroy
+(
 )
 ;
 mRemoteBrowser
