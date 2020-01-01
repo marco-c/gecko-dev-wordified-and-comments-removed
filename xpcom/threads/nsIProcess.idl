@@ -163,8 +163,7 @@ exitValue
 ;
 readonly
 attribute
-unsigned
-long
+boolean
 isRunning
 ;
 }
