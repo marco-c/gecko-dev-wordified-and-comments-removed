@@ -8925,6 +8925,16 @@ cairo_surface_has_show_text_glyphs
 ;
 slim_hidden_proto
 (
+cairo_surface_set_subpixel_antialiasing
+)
+;
+slim_hidden_proto
+(
+cairo_surface_get_subpixel_antialiasing
+)
+;
+slim_hidden_proto
+(
 cairo_surface_mark_dirty_rectangle
 )
 ;

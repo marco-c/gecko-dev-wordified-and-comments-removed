@@ -96,6 +96,11 @@ has_font_options
 :
 1
 ;
+unsigned
+permit_subpixel_antialiasing
+:
+1
+;
 cairo_user_data_array_t
 user_data
 ;
