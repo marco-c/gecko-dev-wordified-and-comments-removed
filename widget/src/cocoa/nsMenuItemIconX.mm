@@ -1513,9 +1513,6 @@ domElement
 return
 NS_ERROR_FAILURE
 ;
-nsAutoString
-empty
-;
 rv
 =
 domViewCSS
@@ -1524,7 +1521,9 @@ domViewCSS
 GetComputedStyle
 (
 domElement
-empty
+EmptyString
+(
+)
 getter_AddRefs
 (
 cssStyleDecl

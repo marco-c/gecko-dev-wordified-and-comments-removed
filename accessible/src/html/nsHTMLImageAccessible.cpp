@@ -621,15 +621,11 @@ win
 Open
 (
 longDesc
-NS_LITERAL_STRING
+EmptyString
 (
-"
-"
 )
-NS_LITERAL_STRING
+EmptyString
 (
-"
-"
 )
 getter_AddRefs
 (

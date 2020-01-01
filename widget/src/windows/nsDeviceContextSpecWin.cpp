@@ -4902,10 +4902,8 @@ else
 {
 aDefaultPrinterName
 =
-NS_LITERAL_STRING
+EmptyString
 (
-"
-"
 )
 ;
 }
