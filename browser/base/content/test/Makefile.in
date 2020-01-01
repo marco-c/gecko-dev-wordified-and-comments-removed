@@ -203,10 +203,6 @@ test_offlineNotification
 .
 html
 \
-offlineByDefault
-.
-js
-\
 video
 .
 ogg
