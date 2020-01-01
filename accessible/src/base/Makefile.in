@@ -565,7 +565,7 @@ nsTextAccessible
 .
 cpp
 \
-nsTextUtils
+nsTextAttrs
 .
 cpp
 \
