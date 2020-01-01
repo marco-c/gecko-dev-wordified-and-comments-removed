@@ -4410,6 +4410,11 @@ errorConsoleCmd
 accesskey
 ;
 "
+key
+=
+"
+key_errorConsole
+"
 oncommand
 =
 "

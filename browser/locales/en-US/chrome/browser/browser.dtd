@@ -1165,6 +1165,16 @@ C
 <
 !
 ENTITY
+errorConsoleCmd
+.
+commandkey
+"
+j
+"
+>
+<
+!
+ENTITY
 fileMenu
 .
 label
