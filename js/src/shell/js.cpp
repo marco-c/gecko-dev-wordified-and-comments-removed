@@ -1852,6 +1852,12 @@ len
 )
 )
 ;
+if
+(
+hitEOF
+)
+break
+;
 JS_ClearPendingException
 (
 cx
@@ -1961,10 +1967,6 @@ len
 }
 while
 (
-!
-hitEOF
-&
-&
 !
 gQuitting
 )
