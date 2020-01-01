@@ -481,6 +481,16 @@ aOpen
 struct
 InputContext
 {
+InputContext
+(
+)
+:
+mNativeIMEContext
+(
+nullptr
+)
+{
+}
 IMEState
 mIMEState
 ;
@@ -492,6 +502,10 @@ mHTMLInputInputmode
 ;
 nsString
 mActionHint
+;
+void
+*
+mNativeIMEContext
 ;
 }
 ;
