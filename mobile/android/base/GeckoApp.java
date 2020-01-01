@@ -12720,6 +12720,12 @@ message
 )
 ;
 }
+GeckoAppShell
+.
+resetIMESelection
+(
+)
+;
 int
 newOrientation
 =
