@@ -66,6 +66,15 @@ h
 #
 include
 FT_FREETYPE_H
+#
+ifndef
+SK_FONTHOST_CAIRO_STANDALONE
+#
+define
+SK_FONTHOST_CAIRO_STANDALONE
+1
+#
+endif
 static
 cairo_user_data_key_t
 kSkTypefaceKey
@@ -614,6 +623,9 @@ return
 typeface
 ;
 }
+#
+if
+SK_FONTHOST_CAIRO_STANDALONE
 SkTypeface
 *
 SkFontHost
@@ -705,6 +717,8 @@ return
 NULL
 ;
 }
+#
+endif
 static
 bool
 isLCD
@@ -1687,6 +1701,9 @@ NULL
 #
 endif
 #
+if
+SK_FONTHOST_CAIRO_STANDALONE
+#
 include
 "
 SkFontMgr
@@ -1706,3 +1723,5 @@ return
 NULL
 ;
 }
+#
+endif
