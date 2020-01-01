@@ -309,10 +309,6 @@ HTMLMediaElement
 aNodeInfo
 )
 {
-SetIsDOMBinding
-(
-)
-;
 }
 HTMLVideoElement
 :

@@ -100,10 +100,6 @@ nsGenericHTMLElement
 aNodeInfo
 )
 {
-SetIsDOMBinding
-(
-)
-;
 AddStatesSilently
 (
 NS_EVENT_STATE_ENABLED

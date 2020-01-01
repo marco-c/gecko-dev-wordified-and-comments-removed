@@ -1189,10 +1189,6 @@ mTableInheritedAttributes
 TABLE_ATTRS_DIRTY
 )
 {
-SetIsDOMBinding
-(
-)
-;
 }
 HTMLTableElement
 :

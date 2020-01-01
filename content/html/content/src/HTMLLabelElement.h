@@ -61,10 +61,6 @@ mHandlingEvent
 false
 )
 {
-SetIsDOMBinding
-(
-)
-;
 }
 virtual
 ~

@@ -357,10 +357,6 @@ mIncrementScriptLevel
 false
 )
 {
-SetIsDOMBinding
-(
-)
-;
 }
 nsresult
 nsMathMLElement

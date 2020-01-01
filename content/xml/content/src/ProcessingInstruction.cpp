@@ -274,10 +274,6 @@ Length
 false
 )
 ;
-SetIsDOMBinding
-(
-)
-;
 }
 ProcessingInstruction
 :

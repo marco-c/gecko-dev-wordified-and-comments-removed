@@ -69,10 +69,6 @@ mFirstLegend
 nullptr
 )
 {
-SetIsDOMBinding
-(
-)
-;
 SetBarredFromConstraintValidation
 (
 true

@@ -152,10 +152,6 @@ AddStatesSilently
 NS_EVENT_STATE_LOADING
 )
 ;
-SetIsDOMBinding
-(
-)
-;
 }
 void
 HTMLSharedObjectElement

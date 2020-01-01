@@ -330,10 +330,6 @@ AddStatesSilently
 NS_EVENT_STATE_ENABLED
 )
 ;
-SetIsDOMBinding
-(
-)
-;
 }
 HTMLButtonElement
 :

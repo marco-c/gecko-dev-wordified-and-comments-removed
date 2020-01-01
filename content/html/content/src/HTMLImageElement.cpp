@@ -265,10 +265,6 @@ AddStatesSilently
 NS_EVENT_STATE_BROKEN
 )
 ;
-SetIsDOMBinding
-(
-)
-;
 }
 HTMLImageElement
 :

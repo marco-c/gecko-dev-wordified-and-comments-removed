@@ -531,10 +531,6 @@ NS_EVENT_STATE_OPTIONAL
 NS_EVENT_STATE_VALID
 )
 ;
-SetIsDOMBinding
-(
-)
-;
 }
 HTMLSelectElement
 :

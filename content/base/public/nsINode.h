@@ -743,6 +743,10 @@ mSlots
 nullptr
 )
 {
+SetIsDOMBinding
+(
+)
+;
 }
 #
 ifdef

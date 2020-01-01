@@ -916,10 +916,6 @@ Init
 NS_FORM_CONTROL_LIST_HASHTABLE_SIZE
 )
 ;
-SetIsDOMBinding
-(
-)
-;
 }
 HTMLFormElement
 :

@@ -574,10 +574,6 @@ mWriteOnly
 false
 )
 {
-SetIsDOMBinding
-(
-)
-;
 }
 HTMLCanvasElement
 :

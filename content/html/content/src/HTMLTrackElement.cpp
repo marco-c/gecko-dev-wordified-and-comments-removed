@@ -407,10 +407,6 @@ nsTrackElement
 }
 #
 endif
-SetIsDOMBinding
-(
-)
-;
 }
 HTMLTrackElement
 :

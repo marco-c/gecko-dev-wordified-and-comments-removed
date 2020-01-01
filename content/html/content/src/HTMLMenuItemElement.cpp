@@ -549,10 +549,6 @@ mChecked
 false
 )
 {
-SetIsDOMBinding
-(
-)
-;
 mParserCreating
 =
 aFromParser

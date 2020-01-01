@@ -90,10 +90,6 @@ mValueModeFlag
 eModeDefault
 )
 {
-SetIsDOMBinding
-(
-)
-;
 AddMutationObserver
 (
 this

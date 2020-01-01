@@ -330,10 +330,6 @@ mInternalSubset
 aInternalSubset
 )
 {
-SetIsDOMBinding
-(
-)
-;
 NS_ABORT_IF_FALSE
 (
 mNodeInfo

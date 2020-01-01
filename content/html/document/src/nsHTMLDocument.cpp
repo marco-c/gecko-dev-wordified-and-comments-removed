@@ -1005,10 +1005,6 @@ mCompatMode
 =
 eCompatibility_NavQuirks
 ;
-SetIsDOMBinding
-(
-)
-;
 }
 nsHTMLDocument
 :

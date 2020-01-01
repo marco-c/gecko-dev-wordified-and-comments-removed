@@ -66,10 +66,6 @@ nsGenericHTMLElement
 aNodeInfo
 )
 {
-SetIsDOMBinding
-(
-)
-;
 }
 NS_IMPL_FROMCONTENT_HTML_WITH_TAG
 (

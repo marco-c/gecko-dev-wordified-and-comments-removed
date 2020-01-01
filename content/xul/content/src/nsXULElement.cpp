@@ -808,10 +808,6 @@ XUL_PROTOTYPE_ATTRIBUTE_METER
 gNumElements
 )
 ;
-SetIsDOMBinding
-(
-)
-;
 if
 (
 IsReadWriteTextElement

@@ -1314,10 +1314,6 @@ mAsync
 true
 )
 {
-SetIsDOMBinding
-(
-)
-;
 }
 XMLDocument
 :

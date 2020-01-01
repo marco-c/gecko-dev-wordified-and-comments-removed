@@ -3614,10 +3614,6 @@ mIsDraggingRange
 false
 )
 {
-SetIsDOMBinding
-(
-)
-;
 mInputData
 .
 mState

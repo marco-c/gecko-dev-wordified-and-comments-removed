@@ -130,10 +130,6 @@ nsGenericHTMLElement
 aNodeInfo
 )
 {
-SetIsDOMBinding
-(
-)
-;
 }
 nsresult
 HTMLTemplateElement
