@@ -137,6 +137,15 @@ DOM_USER_DATA
 define
 DOM_USER_DATA_HANDLER
 2
+#
+ifdef
+MOZ_SMIL
+#
+define
+SMIL_MAPPED_ATTR_ANIMVAL
+3
+#
+endif
 class
 nsPropertyTable
 {

@@ -494,6 +494,10 @@ nsSMILInterval
 .
 cpp
 \
+nsSMILMappedAttribute
+.
+cpp
+\
 nsSMILNullType
 .
 cpp
@@ -611,7 +615,15 @@ nsSMILCompositorTable
 .
 h
 \
+nsSMILCSSProperty
+.
+h
+\
 nsSMILKeySpline
+.
+h
+\
+nsSMILMappedAttribute
 .
 h
 \
