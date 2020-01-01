@@ -32,17 +32,6 @@ ARM_THUMB2
 config
 .
 thumb2
-static
-inline
-bool
-blx_lr_broken
-(
-)
-{
-return
-false
-;
-}
 #
 endif
 #
