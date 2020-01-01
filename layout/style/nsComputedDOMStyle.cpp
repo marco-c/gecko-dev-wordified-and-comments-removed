@@ -1484,6 +1484,12 @@ eEnabled
 ;
 if
 (
+prop
+!
+=
+eCSSProperty_UNKNOWN
+&
+&
 nsCSSProps
 :
 :
