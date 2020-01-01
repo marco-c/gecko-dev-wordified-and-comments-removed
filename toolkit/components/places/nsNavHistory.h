@@ -556,6 +556,11 @@ const
 int32_t
 kGetInfoIndex_Hidden
 ;
+static
+const
+int32_t
+kGetInfoIndex_Guid
+;
 int64_t
 GetTagsFolder
 (
