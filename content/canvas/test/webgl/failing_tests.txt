@@ -410,13 +410,6 @@ test
 html
 conformance
 /
-texture
--
-npot
-.
-html
-conformance
-/
 uniform
 -
 samplers
@@ -461,13 +454,6 @@ more
 conformance
 /
 quickCheckAPIBadArgs
-.
-html
-more
-/
-conformance
-/
-webGLArrays
 .
 html
 more
