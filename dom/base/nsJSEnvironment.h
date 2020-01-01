@@ -229,7 +229,7 @@ virtual
 nsresult
 ExecuteScript
 (
-void
+JSScript
 *
 aScriptObject
 JSObject

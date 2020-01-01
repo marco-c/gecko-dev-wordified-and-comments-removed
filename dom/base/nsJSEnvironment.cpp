@@ -6550,7 +6550,7 @@ nsJSContext
 :
 ExecuteScript
 (
-void
+JSScript
 *
 aScriptObject
 JSObject
@@ -6670,19 +6670,6 @@ return
 NS_ERROR_FAILURE
 ;
 }
-JSScript
-*
-script
-=
-static_cast
-<
-JSScript
-*
->
-(
-aScriptObject
-)
-;
 nsCOMPtr
 <
 nsIPrincipal
@@ -6699,7 +6686,7 @@ GetObjectPrincipal
 mContext
 JS_GetGlobalFromScript
 (
-script
+aScriptObject
 )
 getter_AddRefs
 (
@@ -6760,7 +6747,7 @@ JS_ExecuteScript
 (
 mContext
 aScopeObject
-script
+aScriptObject
 &
 val
 )
