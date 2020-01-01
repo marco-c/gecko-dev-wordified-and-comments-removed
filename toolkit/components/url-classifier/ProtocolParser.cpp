@@ -3610,15 +3610,15 @@ mChunkState
 hashSize
 =
 =
-COMPLETE_SIZE
+PREFIX_SIZE
 "
-ProcessHostSubComplete
+ProcessHostSub
 should
 only
 be
 called
 for
-complete
+prefix
 hashes
 .
 "
@@ -3645,7 +3645,7 @@ a
 -
 byte
 hash
-sub
+add
 .
 "
 )
