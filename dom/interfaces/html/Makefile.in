@@ -520,10 +520,6 @@ nsIDOMHTMLIFrameElement
 .
 idl
 \
-nsIDOMHTMLImageElement
-.
-idl
-\
 nsIDOMHTMLInputElement
 .
 idl
