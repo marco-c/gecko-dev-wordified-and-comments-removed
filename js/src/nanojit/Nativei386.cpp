@@ -8421,6 +8421,11 @@ FSTPQ
 SP
 )
 ;
+evict
+(
+FST0
+)
+;
 }
 SUBi
 (
