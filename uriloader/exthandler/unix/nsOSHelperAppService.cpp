@@ -24,6 +24,13 @@ nsOSHelperAppService
 h
 "
 #
+include
+"
+nsMIMEInfoUnix
+.
+h
+"
+#
 ifdef
 MOZ_WIDGET_GTK2
 #
