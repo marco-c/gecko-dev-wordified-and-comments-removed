@@ -396,8 +396,6 @@ api
 ;
 try
 {
-Weave
-.
 Service
 .
 serverURL
@@ -460,8 +458,6 @@ yet
 ;
 do_check_false
 (
-Weave
-.
 Service
 .
 verifyLogin
@@ -499,8 +495,6 @@ set
 "
 )
 ;
-Weave
-.
 Service
 .
 username
@@ -509,8 +503,6 @@ username
 johndoe
 "
 ;
-Weave
-.
 Service
 .
 password
@@ -521,8 +513,6 @@ ilovejane
 ;
 do_check_false
 (
-Weave
-.
 Service
 .
 verifyLogin
@@ -568,8 +558,6 @@ though
 ;
 do_check_eq
 (
-Weave
-.
 Service
 .
 clusterURL
@@ -599,8 +587,6 @@ set
 "
 )
 ;
-Weave
-.
 Service
 .
 passphrase
@@ -611,8 +597,6 @@ foo
 ;
 do_check_true
 (
-Weave
-.
 Service
 .
 verifyLogin
@@ -667,8 +651,6 @@ After
 "
 )
 ;
-Weave
-.
 Service
 .
 username
@@ -717,8 +699,6 @@ subject
 ;
 do_check_false
 (
-Weave
-.
 Service
 .
 verifyLogin

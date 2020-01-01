@@ -123,8 +123,6 @@ _
 (
 "
 Various
-Weave
-.
 Service
 properties
 correspond
@@ -221,8 +219,6 @@ do_check_true
 (
 !
 !
-Weave
-.
 Service
 .
 serverURL
@@ -230,8 +226,6 @@ serverURL
 ;
 do_check_eq
 (
-Weave
-.
 Service
 .
 clusterURL
@@ -241,8 +235,6 @@ clusterURL
 ;
 do_check_eq
 (
-Weave
-.
 Service
 .
 infoURL
@@ -251,8 +243,6 @@ undefined
 ;
 do_check_eq
 (
-Weave
-.
 Service
 .
 storageURL
@@ -261,8 +251,6 @@ undefined
 ;
 do_check_eq
 (
-Weave
-.
 Service
 .
 metaURL
@@ -290,8 +278,6 @@ identities
 "
 )
 ;
-Weave
-.
 Service
 .
 username
@@ -302,8 +288,6 @@ TarZan
 ;
 do_check_eq
 (
-Weave
-.
 Service
 .
 username
@@ -365,8 +349,6 @@ tarzan
 ;
 do_check_eq
 (
-Weave
-.
 Service
 .
 infoURL
@@ -375,8 +357,6 @@ undefined
 ;
 do_check_eq
 (
-Weave
-.
 Service
 .
 storageURL
@@ -385,8 +365,6 @@ undefined
 ;
 do_check_eq
 (
-Weave
-.
 Service
 .
 metaURL
@@ -435,8 +413,6 @@ URI
 "
 )
 ;
-Weave
-.
 Service
 .
 username
@@ -451,8 +427,6 @@ tdoe
 ;
 do_check_eq
 (
-Weave
-.
 Service
 .
 username
@@ -529,8 +503,6 @@ URLs
 "
 )
 ;
-Weave
-.
 Service
 .
 serverURL
@@ -546,8 +518,6 @@ server
 /
 "
 ;
-Weave
-.
 Service
 .
 clusterURL
@@ -589,8 +559,6 @@ cluster
 ;
 do_check_eq
 (
-Weave
-.
 Service
 .
 infoURL
@@ -617,8 +585,6 @@ collections
 ;
 do_check_eq
 (
-Weave
-.
 Service
 .
 storageURL
@@ -644,8 +610,6 @@ storage
 ;
 do_check_eq
 (
-Weave
-.
 Service
 .
 metaURL
@@ -789,8 +753,6 @@ user
 ;
 do_check_eq
 (
-Weave
-.
 Service
 .
 miscAPI
@@ -816,8 +778,6 @@ misc
 ;
 do_check_eq
 (
-Weave
-.
 Service
 .
 userAPI
@@ -889,8 +849,6 @@ services
 ;
 do_check_eq
 (
-Weave
-.
 Service
 .
 miscAPI
@@ -914,8 +872,6 @@ services
 ;
 do_check_eq
 (
-Weave
-.
 Service
 .
 userAPI
@@ -939,8 +895,6 @@ services
 ;
 do_check_eq
 (
-Weave
-.
 Service
 .
 pwResetURL
@@ -978,8 +932,6 @@ preference
 "
 )
 ;
-Weave
-.
 Service
 .
 username
@@ -1050,14 +1002,10 @@ preferences
 "
 )
 ;
-Weave
-.
 Service
 .
 serverURL
 =
-Weave
-.
 Service
 .
 serverURL
@@ -1086,8 +1034,6 @@ cluster
 "
 )
 ;
-Weave
-.
 Service
 .
 serverURL
@@ -1169,8 +1115,6 @@ test_syncID
 _
 (
 "
-Weave
-.
 Service
 .
 syncID
@@ -1211,8 +1155,6 @@ undefined
 ;
 do_check_eq
 (
-Weave
-.
 Service
 .
 syncID
@@ -1291,8 +1233,6 @@ guid
 ;
 do_check_eq
 (
-Weave
-.
 Service
 .
 syncID
@@ -1405,8 +1345,6 @@ second
 ;
 do_check_eq
 (
-Weave
-.
 Service
 .
 nextSync
@@ -1415,24 +1353,18 @@ nextSync
 ;
 do_check_eq
 (
-Weave
-.
 Service
 .
 nextHeartbeat
 0
 )
 ;
-Weave
-.
 Service
 .
 nextSync
 =
 TIMESTAMP1
 ;
-Weave
-.
 Service
 .
 nextHeartbeat
@@ -1441,8 +1373,6 @@ TIMESTAMP2
 ;
 do_check_eq
 (
-Weave
-.
 Service
 .
 nextSync
@@ -1460,8 +1390,6 @@ TIMESTAMP1
 ;
 do_check_eq
 (
-Weave
-.
 Service
 .
 nextHeartbeat
@@ -1511,8 +1439,6 @@ undefined
 ;
 do_check_true
 (
-Weave
-.
 Service
 .
 syncInterval
@@ -1535,8 +1461,6 @@ setting
 "
 )
 ;
-Weave
-.
 Service
 .
 syncInterval
@@ -1545,8 +1469,6 @@ INTERVAL
 ;
 do_check_eq
 (
-Weave
-.
 Service
 .
 syncInterval
@@ -1593,8 +1515,6 @@ true
 ;
 do_check_eq
 (
-Weave
-.
 Service
 .
 syncInterval
@@ -1636,8 +1556,6 @@ undefined
 ;
 do_check_true
 (
-Weave
-.
 Service
 .
 syncThreshold
@@ -1645,8 +1563,6 @@ syncThreshold
 0
 )
 ;
-Weave
-.
 Service
 .
 syncThreshold
@@ -1655,8 +1571,6 @@ THRESHOLD
 ;
 do_check_eq
 (
-Weave
-.
 Service
 .
 syncThreshold
@@ -1711,16 +1625,12 @@ undefined
 ;
 do_check_eq
 (
-Weave
-.
 Service
 .
 globalScore
 0
 )
 ;
-Weave
-.
 Service
 .
 globalScore
@@ -1729,8 +1639,6 @@ SCORE
 ;
 do_check_eq
 (
-Weave
-.
 Service
 .
 globalScore
@@ -1785,16 +1693,12 @@ undefined
 ;
 do_check_eq
 (
-Weave
-.
 Service
 .
 numClients
 0
 )
 ;
-Weave
-.
 Service
 .
 numClients
@@ -1803,8 +1707,6 @@ NUMCLIENTS
 ;
 do_check_eq
 (
-Weave
-.
 Service
 .
 numClients
@@ -1870,8 +1772,6 @@ unlock
 ;
 do_check_eq
 (
-Weave
-.
 Service
 .
 locked
@@ -1880,8 +1780,6 @@ false
 ;
 do_check_eq
 (
-Weave
-.
 Service
 .
 lock
@@ -1892,8 +1790,6 @@ true
 ;
 do_check_eq
 (
-Weave
-.
 Service
 .
 locked
@@ -1902,8 +1798,6 @@ true
 ;
 do_check_eq
 (
-Weave
-.
 Service
 .
 lock
@@ -1912,8 +1806,6 @@ lock
 false
 )
 ;
-Weave
-.
 Service
 .
 unlock
@@ -1922,8 +1814,6 @@ unlock
 ;
 do_check_eq
 (
-Weave
-.
 Service
 .
 locked

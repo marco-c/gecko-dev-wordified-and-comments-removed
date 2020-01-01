@@ -210,8 +210,6 @@ Error
 ;
 try
 {
-Weave
-.
 Service
 .
 serverURL
@@ -240,8 +238,6 @@ account
 let
 res
 =
-Weave
-.
 Service
 .
 createAccount
@@ -350,8 +346,6 @@ encoded
 ;
 res
 =
-Weave
-.
 Service
 .
 createAccount
@@ -433,8 +427,6 @@ error
 ;
 res
 =
-Weave
-.
 Service
 .
 createAccount
@@ -479,8 +471,6 @@ error
 ;
 res
 =
-Weave
-.
 Service
 .
 createAccount
@@ -531,8 +521,6 @@ token
 "
 )
 ;
-Weave
-.
 Svc
 .
 Prefs
@@ -555,8 +543,6 @@ secret
 ;
 res
 =
-Weave
-.
 Service
 .
 createAccount
@@ -594,8 +580,6 @@ secret
 }
 finally
 {
-Weave
-.
 Svc
 .
 Prefs

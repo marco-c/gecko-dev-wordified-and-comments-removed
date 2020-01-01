@@ -120,8 +120,6 @@ _
 (
 "
 Test
-Weave
-.
 Service
 .
 _findCluster
@@ -135,8 +133,6 @@ server
 ;
 try
 {
-Weave
-.
 Service
 .
 serverURL
@@ -152,8 +148,6 @@ localhost
 /
 "
 ;
-Weave
-.
 Service
 .
 username
@@ -190,8 +184,6 @@ function
 (
 )
 {
-Weave
-.
 Service
 .
 _findCluster
@@ -368,8 +360,6 @@ node
 let
 cluster
 =
-Weave
-.
 Service
 .
 _findCluster
@@ -409,8 +399,6 @@ null
 "
 )
 ;
-Weave
-.
 Service
 .
 username
@@ -421,8 +409,6 @@ jimdoe
 ;
 cluster
 =
-Weave
-.
 Service
 .
 _findCluster
@@ -455,8 +441,6 @@ URL
 "
 )
 ;
-Weave
-.
 Service
 .
 username
@@ -467,8 +451,6 @@ janedoe
 ;
 cluster
 =
-Weave
-.
 Service
 .
 _findCluster
@@ -478,8 +460,6 @@ _findCluster
 do_check_eq
 (
 cluster
-Weave
-.
 Service
 .
 serverURL
@@ -499,8 +479,6 @@ error
 "
 )
 ;
-Weave
-.
 Service
 .
 username
@@ -515,8 +493,6 @@ function
 (
 )
 {
-Weave
-.
 Service
 .
 _findCluster
@@ -548,8 +524,6 @@ error
 "
 )
 ;
-Weave
-.
 Service
 .
 username
@@ -564,8 +538,6 @@ function
 (
 )
 {
-Weave
-.
 Service
 .
 _findCluster
@@ -612,8 +584,6 @@ _
 (
 "
 Test
-Weave
-.
 Service
 .
 _setCluster
@@ -692,8 +662,6 @@ null
 ;
 try
 {
-Weave
-.
 Service
 .
 serverURL
@@ -709,8 +677,6 @@ localhost
 /
 "
 ;
-Weave
-.
 Service
 .
 username
@@ -731,8 +697,6 @@ state
 ;
 do_check_eq
 (
-Weave
-.
 Service
 .
 clusterURL
@@ -753,8 +717,6 @@ URL
 ;
 do_check_true
 (
-Weave
-.
 Service
 .
 _setCluster
@@ -764,8 +726,6 @@ _setCluster
 ;
 do_check_eq
 (
-Weave
-.
 Service
 .
 clusterURL
@@ -808,8 +768,6 @@ one
 ;
 do_check_false
 (
-Weave
-.
 Service
 .
 _setCluster
@@ -819,8 +777,6 @@ _setCluster
 ;
 do_check_eq
 (
-Weave
-.
 Service
 .
 clusterURL
@@ -857,8 +813,6 @@ either
 "
 )
 ;
-Weave
-.
 Service
 .
 username
@@ -869,8 +823,6 @@ jimdoe
 ;
 do_check_false
 (
-Weave
-.
 Service
 .
 _setCluster
@@ -880,8 +832,6 @@ _setCluster
 ;
 do_check_eq
 (
-Weave
-.
 Service
 .
 clusterURL
@@ -930,8 +880,6 @@ _
 (
 "
 Test
-Weave
-.
 Service
 .
 _updateCluster
@@ -1019,8 +967,6 @@ url
 ;
 try
 {
-Weave
-.
 Service
 .
 serverURL
@@ -1036,8 +982,6 @@ localhost
 /
 "
 ;
-Weave
-.
 Service
 .
 username
@@ -1058,8 +1002,6 @@ state
 ;
 do_check_eq
 (
-Weave
-.
 Service
 .
 clusterURL
@@ -1104,8 +1046,6 @@ now
 ;
 do_check_true
 (
-Weave
-.
 Service
 .
 _updateCluster
@@ -1115,8 +1055,6 @@ _updateCluster
 ;
 do_check_eq
 (
-Weave
-.
 Service
 .
 clusterURL
@@ -1183,8 +1121,6 @@ anything
 ;
 do_check_false
 (
-Weave
-.
 Service
 .
 _updateCluster
@@ -1194,8 +1130,6 @@ _updateCluster
 ;
 do_check_eq
 (
-Weave
-.
 Service
 .
 clusterURL
@@ -1250,8 +1184,6 @@ work
 "
 )
 ;
-Weave
-.
 Service
 .
 username
@@ -1294,8 +1226,6 @@ now
 ;
 do_check_true
 (
-Weave
-.
 Service
 .
 _updateCluster
@@ -1305,8 +1235,6 @@ _updateCluster
 ;
 do_check_eq
 (
-Weave
-.
 Service
 .
 clusterURL

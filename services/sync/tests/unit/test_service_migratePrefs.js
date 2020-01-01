@@ -542,8 +542,6 @@ tooLate
 null
 )
 ;
-Weave
-.
 Service
 .
 _migratePrefs

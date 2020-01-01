@@ -363,8 +363,6 @@ FakeCryptoService
 (
 )
 ;
-Weave
-.
 Service
 .
 clusterURL
@@ -380,8 +378,6 @@ localhost
 /
 "
 ;
-Weave
-.
 Service
 .
 username
@@ -390,8 +386,6 @@ username
 johndoe
 "
 ;
-Weave
-.
 Service
 .
 passphrase
@@ -488,8 +482,6 @@ test_withCollectionList_failOnCrypto
 _
 (
 "
-Weave
-.
 Service
 .
 wipeServer
@@ -928,8 +920,6 @@ error
 ;
 try
 {
-Weave
-.
 Service
 .
 wipeServer
@@ -1188,8 +1178,6 @@ test_withCollectionList_failOnCollection
 _
 (
 "
-Weave
-.
 Service
 .
 wipeServer
@@ -1624,8 +1612,6 @@ error
 ;
 try
 {
-Weave
-.
 Service
 .
 wipeServer

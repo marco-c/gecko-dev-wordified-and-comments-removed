@@ -119,6 +119,11 @@ log4moz
 js
 "
 "
+main
+.
+js
+"
+"
 notifications
 .
 js
