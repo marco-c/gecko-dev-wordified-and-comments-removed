@@ -152,6 +152,14 @@ aPageTitle
 )
 {
 }
+onBeforeDeleteURI
+:
+function
+(
+aURI
+)
+{
+}
 onDeleteURI
 :
 function

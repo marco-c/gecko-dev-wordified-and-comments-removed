@@ -22764,6 +22764,15 @@ thread
 "
 )
 ;
+ENUMERATE_WEAKARRAY
+(
+mObservers
+nsINavHistoryObserver
+OnBeforeDeleteURI
+(
+aURI
+)
+)
 nsIURI
 *
 *
