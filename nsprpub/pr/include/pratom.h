@@ -291,7 +291,7 @@ __GNUC_MINOR__
 (
 defined
 (
-DARWIN
+__APPLE__
 )
 &
 &
@@ -321,7 +321,7 @@ __x86_64__
 (
 defined
 (
-LINUX
+__linux__
 )
 &
 &

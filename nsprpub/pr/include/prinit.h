@@ -92,6 +92,17 @@ importedVersion
 ;
 NSPR_API
 (
+const
+char
+*
+)
+PR_GetVersion
+(
+void
+)
+;
+NSPR_API
+(
 void
 )
 PR_Init
