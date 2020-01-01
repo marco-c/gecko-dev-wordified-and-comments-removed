@@ -533,6 +533,8 @@ buttonlabelextra1
 exceptionMgr
 .
 exceptionButton
+.
+label
 ;
 "
 buttonaccesskeyextra1
@@ -541,7 +543,9 @@ buttonaccesskeyextra1
 &
 exceptionMgr
 .
-exceptionButtonAccess
+exceptionButton
+.
+accesskey
 ;
 "
 style

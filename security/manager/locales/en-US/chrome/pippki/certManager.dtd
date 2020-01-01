@@ -1654,6 +1654,8 @@ ENTITY
 exceptionMgr
 .
 exceptionButton
+.
+label
 "
 Confirm
 Security
@@ -1665,7 +1667,9 @@ Exception
 ENTITY
 exceptionMgr
 .
-exceptionButtonAccess
+exceptionButton
+.
+accesskey
 "
 C
 "
