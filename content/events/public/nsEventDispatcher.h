@@ -144,6 +144,10 @@ mForceContentDispatch
 (
 PR_FALSE
 )
+mRelatedTargetIsInAnon
+(
+PR_FALSE
+)
 {
 }
 void
@@ -181,6 +185,9 @@ mCanHandle
 ;
 PRPackedBool
 mForceContentDispatch
+;
+PRPackedBool
+mRelatedTargetIsInAnon
 ;
 nsCOMPtr
 <
