@@ -1179,6 +1179,10 @@ test_bug590353
 .
 html
 \
+test_bug593689
+.
+html
+\
 (
 NULL
 )
