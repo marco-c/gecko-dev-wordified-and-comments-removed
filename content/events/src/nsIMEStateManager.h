@@ -115,7 +115,7 @@ aRoot
 ;
 static
 void
-ChangeIMEStateTo
+UpdateIMEState
 (
 PRUint32
 aNewIMEState

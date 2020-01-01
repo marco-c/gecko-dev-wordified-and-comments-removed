@@ -1668,7 +1668,7 @@ rv
 nsIMEStateManager
 :
 :
-ChangeIMEStateTo
+UpdateIMEState
 (
 newState
 )
