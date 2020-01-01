@@ -65,6 +65,10 @@ gfxFont
 .
 h
 \
+gfxFontConstants
+.
+h
+\
 gfxFontUtils
 .
 h
