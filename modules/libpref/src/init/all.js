@@ -1066,7 +1066,7 @@ harfbuzz
 .
 scripts
 "
-3
+7
 )
 ;
 #
@@ -1475,18 +1475,6 @@ scrollbox
 scrollIncrement
 "
 20
-)
-;
-pref
-(
-"
-toolkit
-.
-scrollbox
-.
-verticalScrollDistance
-"
-3
 )
 ;
 pref
