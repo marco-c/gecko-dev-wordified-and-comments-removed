@@ -42,7 +42,7 @@ global
 privileged
 -
 property
-extApplication
+Application
 mozilla
 .
 org
