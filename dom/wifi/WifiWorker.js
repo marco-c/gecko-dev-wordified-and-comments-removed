@@ -9915,9 +9915,6 @@ NETWORK_TYPE_WIFI
 name
 :
 null
-dhcp
-:
-false
 ip
 :
 null
