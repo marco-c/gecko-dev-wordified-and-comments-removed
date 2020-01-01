@@ -98,7 +98,7 @@ aFormat
 0
 ;
 virtual
-void
+nsresult
 Shutdown
 (
 )
@@ -130,7 +130,7 @@ Available
 0
 ;
 virtual
-void
+nsresult
 SetVolume
 (
 double
