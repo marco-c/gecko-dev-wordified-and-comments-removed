@@ -656,6 +656,10 @@ test_plugin_clipping_table
 .
 xhtml
 \
+test_plugin_mouse_coords
+.
+html
+\
 test_plugin_position
 .
 xhtml
