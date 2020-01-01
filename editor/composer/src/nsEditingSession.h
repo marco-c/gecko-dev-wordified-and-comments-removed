@@ -265,6 +265,9 @@ PRPackedBool
 mInteractive
 ;
 PRPackedBool
+mMakeWholeDocumentEditable
+;
+PRPackedBool
 mScriptsEnabled
 ;
 PRPackedBool
