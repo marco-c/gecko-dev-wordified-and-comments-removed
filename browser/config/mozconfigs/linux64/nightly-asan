@@ -38,15 +38,6 @@ ac_add_options
 enable
 -
 valgrind
-#
-Other
-options
-ac_add_options
--
--
-enable
--
-codesighs
 .
 topsrcdir
 /
