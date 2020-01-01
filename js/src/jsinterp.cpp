@@ -431,13 +431,6 @@ js
 :
 types
 ;
-#
-if
-!
-JS_LONE_INTERPRET
-^
-defined
-jsinvoke_cpp___
 JSObject
 *
 js
@@ -6311,7 +6304,6 @@ idp
 ;
 }
 }
-JS_STATIC_INTERPRET
 JS_REQUIRES_STACK
 JSBool
 js_EnterWith
@@ -6515,7 +6507,6 @@ return
 JS_TRUE
 ;
 }
-JS_STATIC_INTERPRET
 JS_REQUIRES_STACK
 void
 js_LeaveWith
@@ -6845,7 +6836,6 @@ return
 normalUnwind
 ;
 }
-JS_STATIC_INTERPRET
 JSBool
 js_DoIncDec
 (
@@ -7268,11 +7258,6 @@ return
 fp
 ;
 }
-#
-endif
-#
-ifndef
-jsinvoke_cpp___
 #
 define
 PUSH_COPY
@@ -33208,5 +33193,3 @@ error
 ;
 }
 }
-#
-endif
