@@ -72,10 +72,13 @@ ContentProcessThread
 :
 ContentProcessThread
 (
+ProcessHandle
+mParentHandle
 )
 :
 GeckoThread
 (
+mParentHandle
 )
 mContentProcess
 (
@@ -111,6 +114,9 @@ mContentProcess
 Init
 (
 owner_loop
+(
+)
+GetParentProcessHandle
 (
 )
 channel

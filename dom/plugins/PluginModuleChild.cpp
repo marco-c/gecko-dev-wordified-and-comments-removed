@@ -267,6 +267,11 @@ std
 string
 &
 aPluginFilename
+base
+:
+:
+ProcessHandle
+aParentProcessHandle
 MessageLoop
 *
 aIOLoop
@@ -442,6 +447,7 @@ if
 Open
 (
 aChannel
+aParentProcessHandle
 aIOLoop
 )
 )

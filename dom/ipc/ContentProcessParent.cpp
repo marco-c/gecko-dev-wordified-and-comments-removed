@@ -316,6 +316,12 @@ mSubprocess
 GetChannel
 (
 )
+mSubprocess
+-
+>
+GetChildProcessHandle
+(
+)
 )
 ;
 }

@@ -32,10 +32,13 @@ IPDLUnitTestThreadChild
 :
 IPDLUnitTestThreadChild
 (
+ProcessHandle
+aParentHandle
 )
 :
 GeckoThread
 (
+aParentHandle
 )
 {
 }
@@ -66,6 +69,9 @@ Init
 IPDLUnitTestChildInit
 (
 channel
+(
+)
+GetParentProcessHandle
 (
 )
 owner_loop

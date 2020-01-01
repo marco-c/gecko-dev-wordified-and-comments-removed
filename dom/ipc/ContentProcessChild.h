@@ -59,6 +59,11 @@ Init
 MessageLoop
 *
 aIOLoop
+base
+:
+:
+ProcessHandle
+aParentHandle
 IPC
 :
 :

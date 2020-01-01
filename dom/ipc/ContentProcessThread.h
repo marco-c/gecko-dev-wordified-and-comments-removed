@@ -85,6 +85,8 @@ public
 :
 ContentProcessThread
 (
+ProcessHandle
+mParentHandle
 )
 ;
 ~

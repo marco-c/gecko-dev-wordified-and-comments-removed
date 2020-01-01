@@ -117,6 +117,11 @@ Init
 MessageLoop
 *
 aIOLoop
+base
+:
+:
+ProcessHandle
+aParentHandle
 IPC
 :
 :
@@ -141,6 +146,7 @@ child
 Open
 (
 aChannel
+aParentHandle
 aIOLoop
 )
 ;

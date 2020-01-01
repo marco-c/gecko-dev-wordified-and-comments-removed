@@ -234,6 +234,7 @@ parent
 Open
 (
 transport
+child
 )
 ;
         
@@ -325,6 +326,7 @@ child
 Open
 (
 transport
+parent
 worker
 )
 ;

@@ -28,10 +28,13 @@ TestThreadChild
 :
 TestThreadChild
 (
+ProcessHandle
+aParentHandle
 )
 :
 GeckoThread
 (
+aParentHandle
 )
 {
 }
@@ -64,6 +67,9 @@ mChild
 Open
 (
 channel
+(
+)
+GetParentProcessHandle
 (
 )
 owner_loop

@@ -76,10 +76,13 @@ PluginThreadChild
 :
 PluginThreadChild
 (
+ProcessHandle
+aParentHandle
 )
 :
 GeckoThread
 (
+aParentHandle
 )
 mPlugin
 (
@@ -165,6 +168,9 @@ mPlugin
 Init
 (
 pluginFilename
+GetParentProcessHandle
+(
+)
 owner_loop
 (
 )

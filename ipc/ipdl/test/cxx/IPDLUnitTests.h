@@ -17,6 +17,15 @@ h
 #
 include
 "
+base
+/
+process
+.
+h
+"
+#
+include
+"
 chrome
 /
 common
@@ -159,6 +168,11 @@ IPC
 Channel
 *
 transport
+base
+:
+:
+ProcessHandle
+parent
 MessageLoop
 *
 worker

@@ -98,6 +98,8 @@ public
 :
 PluginThreadChild
 (
+ProcessHandle
+aParentHandle
 )
 ;
 ~
