@@ -519,6 +519,14 @@ test_cursor_update_updates_indexes
 .
 html
 \
+test_deleteDatabase
+.
+html
+\
+test_deleteDatabase_interactions
+.
+html
+\
 test_error_events_abort_transactions
 .
 html

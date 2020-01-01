@@ -67,6 +67,8 @@ const
 nsACString
 &
 aASCIIOrigin
+bool
+aForDeletion
 )
 :
 mHelper
@@ -80,6 +82,11 @@ aWindow
 mASCIIOrigin
 (
 aASCIIOrigin
+)
+mPromptAllowed
+(
+!
+aForDeletion
 )
 mHasPrompted
 (
@@ -142,6 +149,9 @@ mWindow
 ;
 nsCString
 mASCIIOrigin
+;
+bool
+mPromptAllowed
 ;
 bool
 mHasPrompted
