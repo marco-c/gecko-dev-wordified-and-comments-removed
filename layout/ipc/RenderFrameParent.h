@@ -378,6 +378,17 @@ bool
 aPreventDefault
 )
 ;
+void
+UpdateZoomConstraints
+(
+bool
+aAllowZoom
+float
+aMinZoom
+float
+aMaxZoom
+)
+;
 protected
 :
 void
