@@ -115,6 +115,10 @@ aFilterSpaceToDeviceSpaceTransform
 const
 nsIntRect
 &
+aTargetBounds
+const
+nsIntRect
+&
 aDirtyOutputRect
 const
 nsIntRect
@@ -151,6 +155,10 @@ aFilterRect
 mFilterSpaceSize
 (
 aFilterSpaceSize
+)
+mTargetBounds
+(
+aTargetBounds
 )
 mDirtyOutputRect
 (
@@ -651,6 +659,9 @@ mFilterRect
 ;
 nsIntSize
 mFilterSpaceSize
+;
+nsIntRect
+mTargetBounds
 ;
 nsIntRect
 mDirtyOutputRect

@@ -982,6 +982,14 @@ sourceBoundsInt
 return
 NS_ERROR_FAILURE
 ;
+sourceBoundsInt
+.
+UnionRect
+(
+sourceBoundsInt
+mTargetBounds
+)
+;
 mSourceColorAlpha
 .
 mResultBoundingBox
