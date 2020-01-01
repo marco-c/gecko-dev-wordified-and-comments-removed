@@ -5595,6 +5595,17 @@ aPlacesNode
 .
 uri
 ;
+aJSNode
+.
+concreteId
+=
+PlacesUtils
+.
+getConcreteItemId
+(
+aPlacesNode
+)
+;
 return
 ;
 }
