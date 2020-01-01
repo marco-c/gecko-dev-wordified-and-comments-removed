@@ -539,11 +539,12 @@ name
 cx
 -
 >
-names
-(
-)
+runtime
+-
+>
+atomState
 .
-proto
+protoAtom
 )
 return
 baseops
