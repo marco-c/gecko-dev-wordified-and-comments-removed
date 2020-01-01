@@ -571,6 +571,9 @@ comctl32
 shell32
 wininet
 )
+MOZ_WINCONSOLE
+=
+0
 endif
 include
 (
