@@ -35153,6 +35153,9 @@ do_QueryInterface
 pi
 )
 ;
+#
+ifdef
+OJI
 nsCOMPtr
 <
 nsIJVMPluginInstance
@@ -35164,6 +35167,8 @@ do_QueryInterface
 pi
 )
 ;
+#
+endif
 JSObject
 *
 proto
@@ -35208,10 +35213,15 @@ NPRUNTIME_JSCLASS_NAME
 0
 )
 )
+#
+ifdef
+OJI
 &
 &
 !
 java_plugin_instance
+#
+endif
 )
 {
 JSString
