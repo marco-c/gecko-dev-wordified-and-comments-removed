@@ -237,9 +237,6 @@ create
 JSContext
 *
 cx
-JSObject
-*
-parent
 uint32
 argc
 JSObject
@@ -370,9 +367,6 @@ create
 JSContext
 *
 cx
-JSObject
-*
-parent
 uint32
 argc
 JSObject
@@ -436,9 +430,6 @@ create
 JSContext
 *
 cx
-JSObject
-*
-parent
 uint32
 argc
 JSObject
