@@ -81,7 +81,3 @@ TypeError
 )
 ;
 }
-testReduceThrows
-(
-)
-;
