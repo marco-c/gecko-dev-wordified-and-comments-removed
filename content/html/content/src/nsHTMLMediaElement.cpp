@@ -7936,6 +7936,10 @@ mDecoder
 =
 %
 p
+stream
+=
+%
+p
 src
 =
 %
@@ -7944,6 +7948,12 @@ s
 n
 "
 aDecoder
+aDecoder
+-
+>
+GetStream
+(
+)
 src
 .
 get
