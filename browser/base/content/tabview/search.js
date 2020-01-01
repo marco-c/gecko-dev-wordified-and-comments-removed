@@ -1368,12 +1368,6 @@ searchbutton
 css
 (
 {
-top
-:
-0
-left
-:
-0
 opacity
 :
 .
@@ -1557,14 +1551,6 @@ searchbutton
 css
 (
 {
-top
-:
--
-78
-left
-:
--
-300
 opacity
 :
 1
