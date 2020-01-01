@@ -1362,7 +1362,7 @@ ValidateWriter
 private
 :
 friend
-class
+struct
 js
 :
 :
