@@ -65,6 +65,13 @@ h
 #
 include
 <
+string
+.
+h
+>
+#
+include
+<
 algorithm
 >
 #
