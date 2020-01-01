@@ -9774,9 +9774,15 @@ offsetof
 (
 ICGetName_Scope
 shapes_
-[
+)
++
+(
 index
-]
+*
+sizeof
+(
+HeapPtrShape
+)
 )
 ;
 }
