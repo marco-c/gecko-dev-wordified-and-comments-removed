@@ -1934,6 +1934,10 @@ Finish
 (
 )
 {
+Flush
+(
+)
+;
 nsresult
 rv
 =
