@@ -314,5 +314,10 @@ nsIFile
 aProfileDir
 )
 ;
+nsresult
+ImportDefaultBookmarks
+(
+)
+;
 #
 endif
