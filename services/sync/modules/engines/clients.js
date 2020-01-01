@@ -1004,7 +1004,7 @@ ClientRecord
 ;
 record
 .
-payload
+cleartext
 =
 this
 .
@@ -1108,7 +1108,7 @@ id
 =
 record
 .
-payload
+cleartext
 ;
 }
 wipe
