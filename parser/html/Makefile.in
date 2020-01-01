@@ -424,6 +424,10 @@ nsIParserUtils
 .
 idl
 \
+nsIScriptableUnescapeHTML
+.
+idl
+\
 (
 NULL
 )
@@ -554,6 +558,10 @@ nsHtml5StringParser
 .
 h
 \
+nsParserUtils
+.
+h
+\
 (
 NULL
 )
@@ -681,6 +689,10 @@ nsHtml5ViewSourceUtils
 cpp
 \
 nsHtml5StringParser
+.
+cpp
+\
+nsParserUtils
 .
 cpp
 \

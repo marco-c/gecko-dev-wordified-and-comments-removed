@@ -197,7 +197,7 @@ h
 #
 include
 "
-nsScriptableUnescapeHTML
+nsParserUtils
 .
 h
 "
@@ -249,7 +249,7 @@ xhtml
 "
 NS_IMPL_ISUPPORTS2
 (
-nsScriptableUnescapeHTML
+nsParserUtils
 nsIScriptableUnescapeHTML
 nsIParserUtils
 )
@@ -261,7 +261,7 @@ NS_PARSER_CID
 )
 ;
 NS_IMETHODIMP
-nsScriptableUnescapeHTML
+nsParserUtils
 :
 :
 ConvertToPlainText
@@ -293,7 +293,7 @@ aWrapCol
 ;
 }
 NS_IMETHODIMP
-nsScriptableUnescapeHTML
+nsParserUtils
 :
 :
 Unescape
@@ -329,7 +329,7 @@ OutputAbsoluteLinks
 ;
 }
 NS_IMETHODIMP
-nsScriptableUnescapeHTML
+nsParserUtils
 :
 :
 ParseFragment

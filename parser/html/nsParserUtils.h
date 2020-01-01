@@ -1,9 +1,9 @@
 #
 ifndef
-nsScriptableHTMLUnescape_h__
+nsParserUtils_h_
 #
 define
-nsScriptableHTMLUnescape_h__
+nsParserUtils_h_
 #
 include
 "
@@ -19,7 +19,7 @@ nsIParserUtils
 h
 "
 class
-nsScriptableUnescapeHTML
+nsParserUtils
 :
 public
 nsIScriptableUnescapeHTML
