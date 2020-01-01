@@ -590,6 +590,13 @@ UnsolicitedNotifications
 =
 {
 "
+eventNotification
+"
+:
+"
+eventNotification
+"
+"
 newScript
 "
 :
@@ -609,13 +616,6 @@ tabNavigated
 :
 "
 tabNavigated
-"
-"
-profilerStateChanged
-"
-:
-"
-profilerStateChanged
 "
 }
 ;
