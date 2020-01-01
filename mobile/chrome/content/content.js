@@ -2665,6 +2665,12 @@ isOffScreenBrowser
 =
 false
 ;
+docShell
+.
+isActive
+=
+true
+;
 this
 .
 _selected
@@ -2685,6 +2691,12 @@ docShell
 isOffScreenBrowser
 =
 true
+;
+docShell
+.
+isActive
+=
+false
 ;
 this
 .
