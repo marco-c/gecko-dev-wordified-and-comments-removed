@@ -478,7 +478,7 @@ gVariablesView
 .
 _store
 .
-size
+length
 1
 "
 There
