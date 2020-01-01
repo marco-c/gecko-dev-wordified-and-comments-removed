@@ -578,6 +578,10 @@ _PT_PTHREAD_KEY_CREATE
 pthread_keycreate
 #
 define
+_PT_PTHREAD_KEY_DELETE
+pthread_keydelete
+#
+define
 _PT_PTHREAD_ATTR_SETSCHEDPOLICY
 pthread_attr_setsched
 #
@@ -660,6 +664,10 @@ r
 define
 _PT_PTHREAD_KEY_CREATE
 pthread_key_create
+#
+define
+_PT_PTHREAD_KEY_DELETE
+pthread_key_delete
 #
 define
 _PT_PTHREAD_ATTR_SETSCHEDPOLICY

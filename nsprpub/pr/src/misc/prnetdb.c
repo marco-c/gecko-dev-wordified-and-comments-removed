@@ -10492,7 +10492,7 @@ PRADDRINFO
 res
 hints
 ;
-PRStatus
+int
 rv
 ;
 memset

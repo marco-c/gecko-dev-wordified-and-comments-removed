@@ -3894,6 +3894,13 @@ rv
 )
 ;
 }
+_PT_PTHREAD_KEY_DELETE
+(
+pt_book
+.
+key
+)
+;
 }
 PR_IMPLEMENT
 (
