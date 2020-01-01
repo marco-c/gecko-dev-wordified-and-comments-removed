@@ -3197,6 +3197,12 @@ if
 this
 .
 isEditing
+|
+|
+!
+this
+.
+_elementStyle
 )
 {
 return
