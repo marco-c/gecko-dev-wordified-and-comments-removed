@@ -3706,12 +3706,7 @@ TextureImageSupportsGetBackingSurface
 )
 {
 return
-mGLX
--
->
-UseTextureFromPixmap
-(
-)
+false
 ;
 }
 virtual
