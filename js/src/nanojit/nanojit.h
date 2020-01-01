@@ -195,6 +195,8 @@ AvmDebugLog
 "
 %
 s
+\
+n
 "
 m
 )
