@@ -463,6 +463,10 @@ EventUtils
 .
 js
 \
+WindowSnapshot
+.
+js
+\
 (
 NULL
 )
