@@ -615,10 +615,6 @@ nsPreloadedStream
 .
 cpp
 \
-nsStreamListenerWrapper
-.
-cpp
-\
 (
 NULL
 )

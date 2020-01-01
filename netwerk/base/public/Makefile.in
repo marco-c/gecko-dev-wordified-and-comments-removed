@@ -882,10 +882,6 @@ nsAsyncRedirectVerifyHelper
 .
 h
 \
-nsStreamListenerWrapper
-.
-h
-\
 (
 NULL
 )
