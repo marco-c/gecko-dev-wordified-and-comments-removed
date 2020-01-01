@@ -124,7 +124,7 @@ return
 ;
 }
 return
-Double
+txDouble
 :
 :
 toDouble

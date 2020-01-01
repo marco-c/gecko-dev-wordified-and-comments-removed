@@ -54,10 +54,10 @@ virtual
 int
 compareValues
 (
-TxObject
+txObject
 *
 val1
-TxObject
+txObject
 *
 val2
 )
@@ -74,7 +74,7 @@ aExpr
 txIEvalContext
 *
 aContext
-TxObject
+txObject
 *
 &
 aResult
@@ -107,10 +107,10 @@ aLanguage
 int
 compareValues
 (
-TxObject
+txObject
 *
 aVal1
-TxObject
+txObject
 *
 aVal2
 )
@@ -124,7 +124,7 @@ aExpr
 txIEvalContext
 *
 aContext
-TxObject
+txObject
 *
 &
 aResult
@@ -173,7 +173,7 @@ class
 StringValue
 :
 public
-TxObject
+txObject
 {
 public
 :
@@ -219,10 +219,10 @@ aAscending
 int
 compareValues
 (
-TxObject
+txObject
 *
 aVal1
-TxObject
+txObject
 *
 aVal2
 )
@@ -236,7 +236,7 @@ aExpr
 txIEvalContext
 *
 aContext
-TxObject
+txObject
 *
 &
 aResult
@@ -251,7 +251,7 @@ class
 NumberValue
 :
 public
-TxObject
+txObject
 {
 public
 :

@@ -139,12 +139,4 @@ aStr
 }
 ;
 #
-define
-TxObject
-txObject
-typedef
-txDouble
-Double
-;
-#
 endif

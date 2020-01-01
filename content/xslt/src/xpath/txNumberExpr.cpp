@@ -157,7 +157,7 @@ XP_WIN
 )
 if
 (
-Double
+txDouble
 :
 :
 isNaN
@@ -167,7 +167,7 @@ rightDbl
 )
 result
 =
-Double
+txDouble
 :
 :
 NaN
@@ -183,7 +183,7 @@ leftDbl
 0
 |
 |
-Double
+txDouble
 :
 :
 isNaN
@@ -193,7 +193,7 @@ leftDbl
 )
 result
 =
-Double
+txDouble
 :
 :
 NaN
@@ -201,7 +201,7 @@ NaN
 else
 if
 (
-Double
+txDouble
 :
 :
 isNeg
@@ -209,7 +209,7 @@ isNeg
 leftDbl
 )
 ^
-Double
+txDouble
 :
 :
 isNeg
@@ -219,7 +219,7 @@ rightDbl
 )
 result
 =
-Double
+txDouble
 :
 :
 NEGATIVE_INFINITY
@@ -227,7 +227,7 @@ NEGATIVE_INFINITY
 else
 result
 =
-Double
+txDouble
 :
 :
 POSITIVE_INFINITY
@@ -255,7 +255,7 @@ rightDbl
 {
 result
 =
-Double
+txDouble
 :
 :
 NaN
@@ -272,7 +272,7 @@ XP_WIN
 if
 (
 !
-Double
+txDouble
 :
 :
 isInfinite
@@ -281,7 +281,7 @@ leftDbl
 )
 &
 &
-Double
+txDouble
 :
 :
 isInfinite

@@ -1951,7 +1951,7 @@ rv
 ;
 if
 (
-Double
+txDouble
 :
 :
 isNaN
@@ -1960,7 +1960,7 @@ start
 )
 |
 |
-Double
+txDouble
 :
 :
 isInfinite
@@ -2054,7 +2054,7 @@ start
 ;
 if
 (
-Double
+txDouble
 :
 :
 isNaN
@@ -2778,7 +2778,7 @@ resultStr
 ;
 res
 =
-Double
+txDouble
 :
 :
 toDouble
@@ -2832,7 +2832,7 @@ rv
 if
 (
 !
-Double
+txDouble
 :
 :
 isNaN
@@ -2842,7 +2842,7 @@ dbl
 &
 &
 !
-Double
+txDouble
 :
 :
 isInfinite
@@ -2853,7 +2853,7 @@ dbl
 {
 if
 (
-Double
+txDouble
 :
 :
 isNeg
@@ -2937,7 +2937,7 @@ rv
 if
 (
 !
-Double
+txDouble
 :
 :
 isNaN
@@ -2947,7 +2947,7 @@ dbl
 &
 &
 !
-Double
+txDouble
 :
 :
 isInfinite
@@ -2964,7 +2964,7 @@ dbl
 0
 &
 &
-Double
+txDouble
 :
 :
 isNeg
@@ -3027,7 +3027,7 @@ rv
 if
 (
 !
-Double
+txDouble
 :
 :
 isNaN
@@ -3037,7 +3037,7 @@ dbl
 &
 &
 !
-Double
+txDouble
 :
 :
 isInfinite
@@ -3048,7 +3048,7 @@ dbl
 {
 if
 (
-Double
+txDouble
 :
 :
 isNeg
@@ -3177,7 +3177,7 @@ resultStr
 res
 +
 =
-Double
+txDouble
 :
 :
 toDouble

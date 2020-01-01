@@ -28,7 +28,7 @@ class
 txNodeSet
 ;
 class
-TxObject
+txObject
 ;
 class
 txXPathResultComparator
@@ -104,7 +104,7 @@ txNodeSetContext
 *
 mContext
 ;
-TxObject
+txObject
 *
 *
 mSortValues
@@ -148,7 +148,7 @@ static
 bool
 calcSortValue
 (
-TxObject
+txObject
 *
 &
 aSortValue

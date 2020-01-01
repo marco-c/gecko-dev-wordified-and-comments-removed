@@ -201,7 +201,7 @@ result
 *
 aResult
 =
-Double
+txDouble
 :
 :
 toDouble

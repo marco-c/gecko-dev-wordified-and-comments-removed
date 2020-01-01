@@ -120,7 +120,7 @@ numberValue
 )
 {
 return
-Double
+txDouble
 :
 :
 toDouble

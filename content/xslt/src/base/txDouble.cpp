@@ -54,7 +54,7 @@ h
 "
 const
 dpun
-Double
+txDouble
 :
 :
 NaN
@@ -66,7 +66,7 @@ ifdef
 IS_BIG_ENDIAN
 const
 dpun
-Double
+txDouble
 :
 :
 POSITIVE_INFINITY
@@ -80,7 +80,7 @@ DOUBLE_HI32_EXPMASK
 ;
 const
 dpun
-Double
+txDouble
 :
 :
 NEGATIVE_INFINITY
@@ -98,7 +98,7 @@ DOUBLE_HI32_SIGNBIT
 else
 const
 dpun
-Double
+txDouble
 :
 :
 POSITIVE_INFINITY
@@ -112,7 +112,7 @@ DOUBLE_HI32_EXPMASK
 ;
 const
 dpun
-Double
+txDouble
 :
 :
 NEGATIVE_INFINITY
@@ -129,7 +129,7 @@ DOUBLE_HI32_SIGNBIT
 #
 endif
 bool
-Double
+txDouble
 :
 :
 isInfinite
@@ -163,7 +163,7 @@ aDbl
 ;
 }
 bool
-Double
+txDouble
 :
 :
 isNaN
@@ -180,7 +180,7 @@ aDbl
 ;
 }
 bool
-Double
+txDouble
 :
 :
 isNeg
@@ -609,7 +609,7 @@ mBuffer
 )
 {
 return
-Double
+txDouble
 :
 :
 NaN
@@ -659,7 +659,7 @@ mSign
 }
 ;
 double
-Double
+txDouble
 :
 :
 toDouble
@@ -706,7 +706,7 @@ getDouble
 ;
 }
 void
-Double
+txDouble
 :
 :
 toString

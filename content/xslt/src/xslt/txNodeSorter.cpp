@@ -612,7 +612,7 @@ mNKeys
 *
 sizeof
 (
-TxObject
+txObject
 *
 )
 ;
@@ -631,7 +631,7 @@ PRUint32
 /
 sizeof
 (
-TxObject
+txObject
 *
 )
 |
@@ -678,14 +678,14 @@ PRUint32
 mem
 )
 ;
-TxObject
+txObject
 *
 *
 sortValues
 =
 reinterpret_cast
 <
-TxObject
+txObject
 *
 *
 >
@@ -731,7 +731,7 @@ mNKeys
 *
 sizeof
 (
-TxObject
+txObject
 *
 )
 )
@@ -986,7 +986,7 @@ PRUint32
 aIndexB
 )
 ;
-TxObject
+txObject
 *
 *
 sortValuesA
@@ -1006,7 +1006,7 @@ mNodeSorter
 >
 mNKeys
 ;
-TxObject
+txObject
 *
 *
 sortValuesB
@@ -1163,7 +1163,7 @@ txNodeSorter
 :
 calcSortValue
 (
-TxObject
+txObject
 *
 &
 aSortValue
