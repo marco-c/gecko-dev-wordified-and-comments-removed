@@ -286,7 +286,7 @@ rb
 '
 )
     
-parserData
+config
 =
 cPickle
 .
@@ -299,14 +299,6 @@ f
 .
 close
 (
-)
-    
-config
-=
-Configuration
-(
-configFile
-parserData
 )
     
 def

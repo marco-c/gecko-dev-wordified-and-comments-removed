@@ -360,6 +360,14 @@ finish
 (
 )
     
+config
+=
+Configuration
+(
+configFile
+parserResults
+)
+    
 resultsFile
 =
 open
@@ -378,7 +386,7 @@ cPickle
 .
 dump
 (
-parserResults
+config
 resultsFile
 -
 1
@@ -388,14 +396,6 @@ resultsFile
 .
 close
 (
-)
-    
-config
-=
-Configuration
-(
-configFile
-parserResults
 )
     
 generate_file
