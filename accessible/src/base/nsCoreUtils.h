@@ -377,15 +377,6 @@ aUInt
 )
 ;
 static
-bool
-IsXLink
-(
-nsIContent
-*
-aContent
-)
-;
-static
 void
 GetLanguageFor
 (
