@@ -587,7 +587,7 @@ aKidMargin
 )
 const
 ;
-NS_IMETHOD
+nsresult
 ReflowChildren
 (
 nsPresContext

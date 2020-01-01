@@ -685,7 +685,7 @@ nsIFrame
 aKidFrame
 )
 ;
-NS_METHOD
+nsresult
 ReflowChildren
 (
 nsPresContext
