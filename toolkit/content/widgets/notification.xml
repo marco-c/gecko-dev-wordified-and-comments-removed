@@ -3122,7 +3122,9 @@ xbl
 inherits
 =
 "
-value
+xbl
+:
+text
 =
 label
 "
