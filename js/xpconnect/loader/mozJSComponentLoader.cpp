@@ -5634,7 +5634,7 @@ SetLocationForGlobal
 newEntry
 -
 >
-global
+obj
 aLocation
 )
 ;
