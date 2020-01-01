@@ -99,8 +99,7 @@ define
 MOZ_HAVE_CXX11_OVERRIDE
 #
 define
-MOZ_HAVE
-CXX11_FINAL
+MOZ_HAVE_CXX11_FINAL
 final
 #
 elif
@@ -117,6 +116,10 @@ __GNUC_MINOR__
 #
 define
 MOZ_HAVE_CXX11_OVERRIDE
+#
+define
+MOZ_HAVE_CXX11_FINAL
+final
 #
 endif
 #
