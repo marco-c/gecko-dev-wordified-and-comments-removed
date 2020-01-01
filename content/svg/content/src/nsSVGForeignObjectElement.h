@@ -113,13 +113,6 @@ eAllTransforms
 )
 const
 ;
-virtual
-bool
-HasValidDimensions
-(
-)
-const
-;
 NS_IMETHOD_
 (
 bool

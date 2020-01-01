@@ -538,17 +538,6 @@ aAttrEnum
 mPercentagesAllowed
 ;
 }
-virtual
-bool
-HasValidDimensions
-(
-)
-const
-{
-return
-true
-;
-}
 void
 SetLength
 (

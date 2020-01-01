@@ -148,13 +148,6 @@ GetClassInfo
 (
 )
 ;
-virtual
-bool
-HasValidDimensions
-(
-)
-const
-;
 protected
 :
 virtual

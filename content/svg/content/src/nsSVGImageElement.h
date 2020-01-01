@@ -199,13 +199,6 @@ aCtx
 )
 ;
 virtual
-bool
-HasValidDimensions
-(
-)
-const
-;
-virtual
 nsresult
 Clone
 (

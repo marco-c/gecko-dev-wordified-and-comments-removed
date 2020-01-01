@@ -484,13 +484,6 @@ aAttribute
 const
 ;
 virtual
-bool
-HasValidDimensions
-(
-)
-const
-;
-virtual
 nsSVGString
 &
 GetResultImageName

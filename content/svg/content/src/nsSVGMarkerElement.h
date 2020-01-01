@@ -396,13 +396,6 @@ bool
 aNotify
 )
 ;
-virtual
-bool
-HasValidDimensions
-(
-)
-const
-;
 gfxMatrix
 GetMarkerTransform
 (
