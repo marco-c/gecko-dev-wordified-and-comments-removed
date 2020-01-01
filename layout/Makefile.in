@@ -471,11 +471,6 @@ PARALLEL_DIRS
 inspector
 /
 tests
-inspector
-/
-tests
-/
-chrome
 endif
 DIRS
 +

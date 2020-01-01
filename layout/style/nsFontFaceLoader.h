@@ -164,15 +164,6 @@ gfxFontEntry
 aFontEntry
 )
 ;
-nsCSSFontFaceRule
-*
-FindRuleForEntry
-(
-gfxFontEntry
-*
-aFontEntry
-)
-;
 protected
 :
 struct
