@@ -3825,6 +3825,10 @@ static
 nsWeakPtr
 sFullScreenDoc
 ;
+static
+nsWeakPtr
+sFullScreenRootDoc
+;
 nsRefPtr
 <
 nsEventListenerManager

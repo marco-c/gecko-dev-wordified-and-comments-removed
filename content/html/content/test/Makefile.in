@@ -1538,6 +1538,12 @@ hidden
 .
 html
 \
+file_fullscreen
+-
+navigation
+.
+html
+\
 test_li_attributes_reflection
 .
 html
