@@ -464,6 +464,17 @@ return
 item
 ;
 }
+virtual
+nsINode
+*
+GetParentObject
+(
+)
+{
+return
+mForm
+;
+}
 nsresult
 AddElementToTable
 (
