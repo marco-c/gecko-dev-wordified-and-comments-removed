@@ -746,7 +746,7 @@ TryStatement
 block
 :
 body
-handler
+handlers
 :
 catches
 finalizer
@@ -6733,6 +6733,7 @@ blockStmt
 [
 ]
 )
+[
 catchClause
 (
 ident
@@ -6748,6 +6749,7 @@ blockStmt
 ]
 )
 )
+]
 null
 )
 )
@@ -6775,6 +6777,7 @@ blockStmt
 [
 ]
 )
+[
 catchClause
 (
 ident
@@ -6790,6 +6793,7 @@ blockStmt
 ]
 )
 )
+]
 blockStmt
 (
 [
@@ -6815,7 +6819,8 @@ blockStmt
 [
 ]
 )
-null
+[
+]
 blockStmt
 (
 [
@@ -18231,7 +18236,9 @@ blockStmt
 [
 ]
 )
+[
 2
+]
 null
 )
 {
