@@ -193,13 +193,6 @@ nsContentUtils
 .
 h
 "
-#
-include
-"
-sampler
-.
-h
-"
 class
 nsILoadGroup
 ;
