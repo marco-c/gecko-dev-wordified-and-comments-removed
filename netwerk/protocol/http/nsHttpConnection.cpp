@@ -1088,6 +1088,15 @@ NS_HTTP_DISALLOW_SPDY
 )
 &
 &
+!
+mConnInfo
+-
+>
+UsingHttpProxy
+(
+)
+&
+&
 gHttpHandler
 -
 >
