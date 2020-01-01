@@ -157,10 +157,8 @@ sSingleton
 ;
 nsTArray
 <
-nsAutoPtr
-<
 PIFrameEmbeddingChild
->
+*
 >
 mIFrames
 ;
