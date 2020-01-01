@@ -4161,7 +4161,7 @@ IsValid
 return
 false
 ;
-JS_ASSERT
+MOZ_ASSERT
 (
 obj
 =
@@ -4262,7 +4262,7 @@ IsValid
 return
 false
 ;
-JS_ASSERT
+MOZ_ASSERT
 (
 obj
 =

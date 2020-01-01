@@ -1949,7 +1949,7 @@ char
 memberName
 )
 {
-JS_ASSERT
+MOZ_ASSERT
 (
 JSID_IS_VOID
 (
@@ -2296,7 +2296,7 @@ unsigned
 paramnum
 )
 {
-JS_ASSERT
+MOZ_ASSERT
 (
 JSID_IS_VOID
 (
@@ -4043,7 +4043,7 @@ JSString
 *
 str
 ;
-JS_ASSERT
+MOZ_ASSERT
 (
 !
 bytes

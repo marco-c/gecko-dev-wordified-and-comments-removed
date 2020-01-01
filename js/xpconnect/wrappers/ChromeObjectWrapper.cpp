@@ -165,7 +165,7 @@ wrapperProto
 return
 true
 ;
-JS_ASSERT
+MOZ_ASSERT
 (
 js
 :
@@ -245,7 +245,7 @@ wrapperProto
 return
 true
 ;
-JS_ASSERT
+MOZ_ASSERT
 (
 js
 :
@@ -432,7 +432,7 @@ wrapperProto
 return
 true
 ;
-JS_ASSERT
+MOZ_ASSERT
 (
 js
 :

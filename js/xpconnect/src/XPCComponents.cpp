@@ -12836,7 +12836,7 @@ cx
 id_
 )
 ;
-JS_ASSERT
+MOZ_ASSERT
 (
 js
 :

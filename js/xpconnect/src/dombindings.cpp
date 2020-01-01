@@ -887,7 +887,7 @@ UnwrapObject
 obj
 )
 ;
-JS_ASSERT
+MOZ_ASSERT
 (
 objIsList
 (
@@ -921,7 +921,7 @@ JSObject
 unwrapped
 )
 {
-JS_ASSERT
+MOZ_ASSERT
 (
 XPCWrapper
 :
@@ -1126,7 +1126,7 @@ GetLength
 length
 )
 ;
-JS_ASSERT
+MOZ_ASSERT
 (
 int32_t
 (
@@ -1799,7 +1799,7 @@ sProtoPropertiesCount
 n
 )
 {
-JS_ASSERT
+MOZ_ASSERT
 (
 sProtoProperties
 [
@@ -3507,7 +3507,7 @@ GetLength
 length
 )
 ;
-JS_ASSERT
+MOZ_ASSERT
 (
 int32_t
 (
@@ -4073,7 +4073,7 @@ JSPropertyDescriptor
 desc
 )
 {
-JS_ASSERT
+MOZ_ASSERT
 (
 xpc
 :
@@ -4468,7 +4468,7 @@ proxy
 )
 ;
 }
-JS_ASSERT
+MOZ_ASSERT
 (
 objIsList
 (

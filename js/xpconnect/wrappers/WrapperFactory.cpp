@@ -592,7 +592,7 @@ obj
 flags
 )
 ;
-JS_ASSERT
+MOZ_ASSERT
 (
 !
 IsWrapper
@@ -3251,7 +3251,7 @@ wrappedObject
 newSameCompartmentWrapper
 )
 ;
-JS_ASSERT
+MOZ_ASSERT
 (
 js
 :

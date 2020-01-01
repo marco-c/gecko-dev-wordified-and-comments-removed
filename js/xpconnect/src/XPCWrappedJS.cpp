@@ -1852,7 +1852,7 @@ count
 ;
 #
 endif
-JS_ASSERT_IF
+MOZ_ASSERT_IF
 (
 mMainThreadOnly
 mMainThread

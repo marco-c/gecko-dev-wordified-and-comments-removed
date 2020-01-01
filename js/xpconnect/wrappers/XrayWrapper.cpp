@@ -1032,7 +1032,7 @@ GetWrappedNative
 inner
 )
 ;
-JS_ASSERT
+MOZ_ASSERT
 (
 IS_WN_WRAPPER
 (
