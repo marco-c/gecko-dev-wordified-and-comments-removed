@@ -449,6 +449,10 @@ nsCaseConversionImp2
 .
 cpp
 \
+nsCategoryImp
+.
+cpp
+\
 nsHankakuToZenkaku
 .
 cpp
