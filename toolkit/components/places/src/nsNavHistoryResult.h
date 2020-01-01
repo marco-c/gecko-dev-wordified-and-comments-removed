@@ -3191,9 +3191,6 @@ private
 PRBool
 mIsRegisteredFolderObserver
 ;
-PRBool
-mBatchInProgress
-;
 }
 ;
 class
