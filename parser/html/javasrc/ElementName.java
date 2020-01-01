@@ -1828,7 +1828,7 @@ img
 "
 TreeBuilder
 .
-EMBED_OR_IMG
+IMG
 |
 SPECIAL
 )
@@ -3690,7 +3690,7 @@ embed
 "
 TreeBuilder
 .
-EMBED_OR_IMG
+EMBED
 |
 SPECIAL
 )

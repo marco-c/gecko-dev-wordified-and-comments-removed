@@ -19313,16 +19313,6 @@ pos
 }
 public
 boolean
-isAlreadyComplainedAboutNonAscii
-(
-)
-{
-return
-true
-;
-}
-public
-boolean
 internalEncodingDeclaration
 (
 String
