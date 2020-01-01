@@ -439,6 +439,10 @@ test_Microformats_hCalendar
 .
 html
 \
+test_Microformats_adr
+.
+html
+\
 (
 NULL
 )
