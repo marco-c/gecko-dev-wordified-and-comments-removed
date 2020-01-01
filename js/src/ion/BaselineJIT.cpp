@@ -625,10 +625,6 @@ IonContext
 ictx
 (
 cx
-cx
--
->
-compartment
 NULL
 )
 ;
@@ -1071,10 +1067,6 @@ IonContext
 ictx
 (
 cx
-cx
--
->
-compartment
 temp
 )
 ;
@@ -1106,10 +1098,10 @@ BaselineJIT
 cx
 -
 >
-compartment
+runtime
 -
 >
-ionCompartment
+ionRuntime
 (
 )
 )
@@ -3014,7 +3006,6 @@ lineno
 IonContext
 ictx
 (
-NULL
 script
 -
 >

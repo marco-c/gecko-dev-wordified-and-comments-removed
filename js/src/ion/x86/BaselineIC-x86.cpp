@@ -112,6 +112,7 @@ cond
 JSOpToCondition
 (
 op
+true
 )
 ;
 masm

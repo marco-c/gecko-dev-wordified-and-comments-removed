@@ -3128,7 +3128,15 @@ ICStubCompiler
 :
 getStubCode
 "
-ion
+cx
+-
+>
+runtime
+-
+>
+ionRuntime
+(
+)
 )
 ;
 if
@@ -9668,6 +9676,7 @@ cond
 JSOpToCondition
 (
 op
+true
 )
 ;
 masm
@@ -9914,6 +9923,7 @@ branchPtr
 JSOpToCondition
 (
 op
+true
 )
 left
 right
@@ -10460,6 +10470,7 @@ cond
 JSOpToCondition
 (
 op_
+true
 )
 ;
 masm
