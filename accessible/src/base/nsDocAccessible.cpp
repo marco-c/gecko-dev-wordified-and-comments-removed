@@ -7577,17 +7577,6 @@ InvalidateChildren
 )
 ;
 }
-if
-(
-aChangeEventType
-=
-=
-nsIAccessibleEvent
-:
-:
-EVENT_DOM_CREATE
-)
-{
 nsIEventStateManager
 *
 esm
@@ -7667,7 +7656,6 @@ InvalidateChildren
 (
 )
 ;
-}
 }
 }
 nsCOMPtr
