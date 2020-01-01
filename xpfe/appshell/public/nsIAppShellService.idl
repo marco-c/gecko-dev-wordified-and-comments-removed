@@ -104,6 +104,9 @@ interface
 nsIXULWindow
 ;
 interface
+nsIWebNavigation
+;
+interface
 nsIURI
 ;
 interface
@@ -330,6 +333,11 @@ aInitialWidth
 in
 long
 aInitialHeight
+)
+;
+nsIWebNavigation
+createWindowlessBrowser
+(
 )
 ;
 [
