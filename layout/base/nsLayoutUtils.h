@@ -2908,6 +2908,16 @@ sFontSizeInflationLineThreshold
 ;
 }
 static
+PRInt32
+FontSizeInflationMappingIntercept
+(
+)
+{
+return
+sFontSizeInflationMappingIntercept
+;
+}
+static
 void
 Initialize
 (
@@ -3050,6 +3060,10 @@ sFontSizeInflationMinTwips
 static
 PRUint32
 sFontSizeInflationLineThreshold
+;
+static
+PRInt32
+sFontSizeInflationMappingIntercept
 ;
 }
 ;
