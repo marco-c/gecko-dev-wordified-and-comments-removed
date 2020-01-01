@@ -439,8 +439,11 @@ JS_PUBLIC_DATA
 t
 )
 #
-ifdef
-_WIN32
+if
+defined
+(
+_MSC_VER
+)
 #
 define
 JS_INLINE
