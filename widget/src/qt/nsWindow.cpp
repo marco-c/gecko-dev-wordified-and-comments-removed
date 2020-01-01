@@ -2923,6 +2923,16 @@ nsCursor
 aCursor
 )
 {
+if
+(
+mCursor
+=
+=
+aCursor
+)
+return
+NS_OK
+;
 mCursor
 =
 aCursor
