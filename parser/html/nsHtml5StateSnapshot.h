@@ -191,6 +191,11 @@ nsIContent
 *
 headPointer
 ;
+nsIContent
+*
+*
+deepTreeSurrogateParent
+;
 PRInt32
 mode
 ;
@@ -235,6 +240,10 @@ nsIContent
 *
 *
 headPointer
+nsIContent
+*
+*
+deepTreeSurrogateParent
 PRInt32
 mode
 PRInt32
@@ -280,6 +289,13 @@ nsIContent
 *
 *
 getHeadPointer
+(
+)
+;
+nsIContent
+*
+*
+getDeepTreeSurrogateParent
 (
 )
 ;

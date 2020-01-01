@@ -1519,7 +1519,7 @@ parent
 ;
 if
 (
-mDeepTreeSurrogateParent
+deepTreeSurrogateParent
 )
 {
 return
@@ -1906,9 +1906,9 @@ Init
 eTreeOpAppendText
 bufferCopy
 aLength
-mDeepTreeSurrogateParent
+deepTreeSurrogateParent
 ?
-mDeepTreeSurrogateParent
+deepTreeSurrogateParent
 :
 aParent
 )
@@ -2006,7 +2006,7 @@ parent
 ;
 if
 (
-mDeepTreeSurrogateParent
+deepTreeSurrogateParent
 )
 {
 return
@@ -2293,7 +2293,7 @@ mCurrentHtmlScriptIsAsyncOrDefer
 =
 PR_FALSE
 ;
-mDeepTreeSurrogateParent
+deepTreeSurrogateParent
 =
 nsnull
 ;
@@ -2468,7 +2468,7 @@ element
 if
 (
 !
-mDeepTreeSurrogateParent
+deepTreeSurrogateParent
 &
 &
 currentPtr
@@ -2552,7 +2552,7 @@ style
 )
 )
 {
-mDeepTreeSurrogateParent
+deepTreeSurrogateParent
 =
 aElement
 ;
@@ -2697,7 +2697,7 @@ element
 ;
 if
 (
-mDeepTreeSurrogateParent
+deepTreeSurrogateParent
 &
 &
 currentPtr
@@ -2706,7 +2706,7 @@ currentPtr
 NS_HTML5_TREE_DEPTH_LIMIT
 )
 {
-mDeepTreeSurrogateParent
+deepTreeSurrogateParent
 =
 nsnull
 ;

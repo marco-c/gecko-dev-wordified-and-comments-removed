@@ -72,6 +72,16 @@ getHeadPointer
 0
 ;
 virtual
+nsIContent
+*
+*
+getDeepTreeSurrogateParent
+(
+)
+=
+0
+;
+virtual
 PRInt32
 getMode
 (
