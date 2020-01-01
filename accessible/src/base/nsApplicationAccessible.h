@@ -434,12 +434,6 @@ aExtraState
 ;
 virtual
 PRUint32
-Role
-(
-)
-;
-virtual
-PRUint32
 NativeRole
 (
 )

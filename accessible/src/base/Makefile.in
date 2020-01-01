@@ -562,6 +562,10 @@ nsAccessNode
 .
 h
 \
+nsARIAMap
+.
+h
+\
 (
 NULL
 )
