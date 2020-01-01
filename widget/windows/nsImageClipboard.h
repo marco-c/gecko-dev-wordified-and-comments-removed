@@ -42,7 +42,11 @@ nsImageToClipboard
 (
 imgIContainer
 *
-inImage
+aInImage
+bool
+aWantDIBV5
+=
+true
 )
 ;
 ~
@@ -98,6 +102,9 @@ nsCOMPtr
 imgIContainer
 >
 mImage
+;
+bool
+mWantDIBV5
 ;
 }
 ;
