@@ -5518,9 +5518,6 @@ nextpc
 case
 JSOP_IFNE
 :
-case
-JSOP_IFNEX
-:
 takeBranch
 =
 returnReg
@@ -5532,9 +5529,6 @@ break
 ;
 case
 JSOP_IFEQ
-:
-case
-JSOP_IFEQX
 :
 takeBranch
 =
@@ -5569,12 +5563,8 @@ pc
 =
 nextpc
 +
-analyze
-:
-:
-GetJumpOffset
+GET_JUMP_OFFSET
 (
-nextpc
 nextpc
 )
 ;
