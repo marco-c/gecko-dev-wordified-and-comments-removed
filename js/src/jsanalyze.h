@@ -2763,6 +2763,9 @@ numReturnSites_
 bool
 modifiesArguments_
 ;
+bool
+localsAliasStack_
+;
 uint32
 *
 definedLocals
@@ -2991,6 +2994,15 @@ modifiesArguments
 {
 return
 modifiesArguments_
+;
+}
+bool
+localsAliasStack
+(
+)
+{
+return
+localsAliasStack_
 ;
 }
 Bytecode
