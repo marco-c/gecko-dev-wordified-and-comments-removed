@@ -16,6 +16,9 @@ jemalloc
 #
 endif
 #
+define
+MOZ_JEMALLOC_IMPL
+#
 include
 "
 mozmemory_wrap
