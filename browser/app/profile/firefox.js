@@ -4825,6 +4825,6 @@ warn_chromeless_window
 .
 infobar
 "
-true
+false
 )
 ;
