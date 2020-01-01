@@ -2284,12 +2284,6 @@ svg
 see
 bug
 590101
-random
--
-if
-(
-winWidget
-)
 =
 =
 text
@@ -2302,9 +2296,6 @@ svg
 pass
 .
 svg
-#
-bug
-614324
 =
 =
 text
