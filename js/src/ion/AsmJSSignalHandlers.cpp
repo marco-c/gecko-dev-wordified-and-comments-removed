@@ -6256,7 +6256,11 @@ module
 functionCode
 (
 )
-4096
+module
+.
+functionBytes
+(
+)
 PAGE_NOACCESS
 &
 oldProtect
