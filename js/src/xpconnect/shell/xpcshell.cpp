@@ -5041,6 +5041,8 @@ aSourceURI
 nsIURI
 *
 aTargetURI
+PRBool
+reportError
 )
 {
 return

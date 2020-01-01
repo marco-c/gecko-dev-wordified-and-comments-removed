@@ -15808,6 +15808,7 @@ CheckSameOriginURI
 (
 loadingURI
 aURIToLoad
+PR_TRUE
 )
 ;
 }

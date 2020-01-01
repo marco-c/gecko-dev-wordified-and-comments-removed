@@ -10278,6 +10278,7 @@ CheckSameOriginURI
 (
 mDocumentURI
 aURI
+PR_TRUE
 )
 ;
 if

@@ -4972,6 +4972,7 @@ CheckSameOriginURI
 (
 oldURI
 newURI
+PR_TRUE
 )
 ;
 }

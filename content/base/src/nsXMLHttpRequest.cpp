@@ -4212,6 +4212,7 @@ CheckSameOriginURI
 (
 codebase
 channelURI
+PR_FALSE
 )
 ;
 return
