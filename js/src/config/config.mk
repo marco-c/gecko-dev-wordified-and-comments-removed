@@ -1896,17 +1896,6 @@ LIBRARY_NAME
 endif
 endif
 #
-This
-comes
-from
-configure
-ifdef
-MOZ_PROFILE_GUIDED_OPTIMIZE_DISABLE
-NO_PROFILE_GUIDED_OPTIMIZE
-=
-1
-endif
-#
 No
 sense
 in
