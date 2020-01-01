@@ -529,6 +529,16 @@ StopCapture
 (
 )
 ;
+if
+(
+captureAndroid
+.
+camera
+!
+=
+null
+)
+{
 captureAndroid
 .
 camera
@@ -543,6 +553,7 @@ camera
 =
 null
 ;
+}
 captureAndroid
 .
 context
@@ -876,6 +887,14 @@ StopCapture
 (
 )
 ;
+if
+(
+camera
+!
+=
+null
+)
+{
 camera
 .
 release
@@ -886,6 +905,7 @@ camera
 =
 null
 ;
+}
 }
 Override
 public
