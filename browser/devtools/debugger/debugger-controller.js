@@ -345,6 +345,12 @@ function
 (
 )
 {
+DebuggerView
+.
+_isInitialized
+=
+true
+;
 window
 .
 dispatchEvent
@@ -421,6 +427,12 @@ function
 (
 )
 {
+DebuggerView
+.
+_isDestroyed
+=
+true
+;
 this
 .
 SourceScripts
