@@ -777,6 +777,10 @@ SSL_VersionRangeSet
 ;
 SSL_VersionRangeSetDefault
 ;
+SSL_GetSRTPCipher
+;
+SSL_SetSRTPCiphers
+;
 ;
 +
 local
