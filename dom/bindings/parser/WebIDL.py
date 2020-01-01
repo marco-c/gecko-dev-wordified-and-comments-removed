@@ -1919,6 +1919,7 @@ name
 ]
         
 if
+(
 name
 in
 [
@@ -1931,10 +1932,15 @@ iterator
 "
 toString
 "
+"
+toJSON
+"
 ]
 and
+            
 not
 allowForbidden
+)
 :
             
 raise
