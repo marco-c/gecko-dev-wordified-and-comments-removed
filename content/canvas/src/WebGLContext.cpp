@@ -1279,7 +1279,7 @@ stencil
 #
 if
 0
-LogMessage
+GenerateWarning
 (
 "
 aaHint
@@ -2089,7 +2089,7 @@ GLContext
 RendererAdreno205
 )
 {
-LogMessage
+GenerateWarning
 (
 "
 WebGL
@@ -2144,7 +2144,7 @@ InitAndValidateGL
 )
 )
 {
-LogMessage
+GenerateWarning
 (
 "
 OSMesa
@@ -2164,7 +2164,7 @@ return
 NS_ERROR_FAILURE
 ;
 }
-LogMessage
+GenerateWarning
 (
 "
 Using
@@ -2233,7 +2233,7 @@ InitAndValidateGL
 )
 )
 {
-LogMessage
+GenerateWarning
 (
 "
 Error
@@ -2290,7 +2290,7 @@ InitAndValidateGL
 )
 )
 {
-LogMessage
+GenerateWarning
 (
 "
 Error
@@ -2342,7 +2342,7 @@ InitAndValidateGL
 )
 )
 {
-LogMessage
+GenerateWarning
 (
 "
 Error
@@ -2358,7 +2358,7 @@ NS_ERROR_FAILURE
 }
 else
 {
-LogMessage
+GenerateWarning
 (
 "
 Using
@@ -2384,7 +2384,7 @@ if
 gl
 )
 {
-LogMessage
+GenerateWarning
 (
 "
 Can
