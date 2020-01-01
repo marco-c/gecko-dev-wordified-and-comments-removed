@@ -109,13 +109,6 @@ h
 #
 include
 "
-jsanalyzeinlines
-.
-h
-"
-#
-include
-"
 jsscriptinlines
 .
 h
