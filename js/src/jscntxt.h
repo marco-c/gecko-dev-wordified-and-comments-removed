@@ -369,6 +369,9 @@ SlotList
 )
 slotList
 ;
+uint32
+globalShape
+;
 JSFragmentCacheEntry
 fcache
 [
