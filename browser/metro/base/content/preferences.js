@@ -61,12 +61,6 @@ updatePreference
 (
 )
 ;
-WeaveGlue
-.
-init
-(
-)
-;
 }
 }
 false
