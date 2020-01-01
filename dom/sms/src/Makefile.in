@@ -508,6 +508,9 @@ SmsServiceFactory
 .
 h
 \
+Constants
+.
+h
 (
 NULL
 )
@@ -539,6 +542,10 @@ SmsMessage
 cpp
 \
 SmsEvent
+.
+cpp
+\
+Constants
 .
 cpp
 \
