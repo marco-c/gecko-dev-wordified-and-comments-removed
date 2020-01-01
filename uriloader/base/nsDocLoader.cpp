@@ -3884,6 +3884,9 @@ aStatusArg
 if
 (
 aStatus
+!
+=
+NS_OK
 )
 {
 nsRequestInfo
