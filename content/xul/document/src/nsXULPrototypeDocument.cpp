@@ -2969,10 +2969,17 @@ ar
 cx
 )
 ;
+JS
+:
+:
+Rooted
+<
 JSObject
 *
+>
 newGlob
-=
+(
+cx
 JS_NewGlobalObject
 (
 cx
@@ -2991,6 +2998,7 @@ JS
 :
 :
 SystemZone
+)
 )
 ;
 if
