@@ -482,9 +482,6 @@ GeckoLoader
 .
 loadMozGlue
 (
-getApplicationContext
-(
-)
 )
 ;
 super
