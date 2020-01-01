@@ -946,6 +946,9 @@ return
 this
 ;
 }
+#
+ifdef
+DEBUG
 static
 bool
 IsFloatInteger
@@ -970,6 +973,8 @@ aFloat
 6
 ;
 }
+#
+endif
 nsRect
 &
 nsRect
