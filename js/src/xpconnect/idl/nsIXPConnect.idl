@@ -3734,6 +3734,15 @@ FLAG_SYSTEM_GLOBAL_OBJECT
 <
 1
 ;
+const
+PRUint32
+OMIT_COMPONENTS_OBJECT
+=
+1
+<
+<
+2
+;
 /
 *
 *
