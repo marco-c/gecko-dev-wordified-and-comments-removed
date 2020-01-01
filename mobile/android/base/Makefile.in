@@ -8568,14 +8568,6 @@ tab_title
 .
 xml
 \
-res
-/
-color
-/
-tabs_counter_color
-.
-xml
-\
 (
 NULL
 )
