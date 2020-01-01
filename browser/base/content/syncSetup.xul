@@ -1830,7 +1830,7 @@ label
 &
 setup
 .
-newSyncKeyPage
+newRecoveryKeyPage
 .
 title
 .
@@ -1863,7 +1863,7 @@ description
 &
 setup
 .
-newSyncKeyPage
+newRecoveryKeyPage
 .
 description
 .
@@ -1886,7 +1886,7 @@ value
 =
 "
 &
-syncKeyEntry
+recoveryKeyEntry
 .
 label
 ;
@@ -1895,7 +1895,7 @@ accesskey
 =
 "
 &
-syncKeyEntry
+recoveryKeyEntry
 .
 accesskey
 ;
@@ -1947,7 +1947,7 @@ center
 description
 >
 &
-syncKeyBackup
+recoveryKeyBackup
 .
 description
 ;
@@ -2996,7 +2996,7 @@ value
 &
 signIn
 .
-syncKey
+recoveryKey
 .
 label
 ;
@@ -3007,7 +3007,7 @@ accesskey
 &
 signIn
 .
-syncKey
+recoveryKey
 .
 accesskey
 ;
@@ -3140,7 +3140,7 @@ passphraseHelpBox
 description
 >
 &
-existingSyncKey
+existingRecoveryKey
 .
 description
 ;

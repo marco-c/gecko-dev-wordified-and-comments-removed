@@ -1221,7 +1221,7 @@ addDevice
 .
 dialog
 .
-syncKey
+recoveryKey
 .
 label
 ;
@@ -1242,7 +1242,7 @@ value
 =
 "
 &
-syncKeyEntry
+recoveryKeyEntry
 .
 label
 ;
@@ -1251,7 +1251,7 @@ accesskey
 =
 "
 &
-syncKeyEntry
+recoveryKeyEntry
 .
 accesskey
 ;
@@ -1293,7 +1293,7 @@ center
 description
 >
 &
-syncKeyBackup
+recoveryKeyBackup
 .
 description
 ;

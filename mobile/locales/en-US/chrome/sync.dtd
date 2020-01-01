@@ -199,9 +199,9 @@ Password
 ENTITY
 sync
 .
-syncKey
+recoveryKey
 "
-Sync
+Recovery
 Key
 "
 >

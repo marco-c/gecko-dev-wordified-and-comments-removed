@@ -859,7 +859,7 @@ GetStringFromName
 "
 save
 .
-synckey
+recoverykey
 .
 title
 "
@@ -877,9 +877,9 @@ GetStringFromName
 "
 save
 .
-default
+recoverykey
 .
-label
+defaultfilename
 "
 )
 ;
@@ -1280,7 +1280,7 @@ change
 .
 password
 .
-pwSameAsSyncKey
+pwSameAsRecoveryKey
 "
 ;
 else
