@@ -121,13 +121,11 @@ aTranslation
 LayerPoint
 (
 )
-gfxSize
+CSSToScreenScale
 aScale
 =
-gfxSize
+CSSToScreenScale
 (
-1
-1
 )
 )
 :
@@ -169,10 +167,10 @@ ScalingMatrix
 (
 mScale
 .
-width
+scale
 mScale
 .
-height
+scale
 1
 )
 ;
@@ -180,7 +178,7 @@ height
 LayerPoint
 mTranslation
 ;
-gfxSize
+CSSToScreenScale
 mScale
 ;
 }
