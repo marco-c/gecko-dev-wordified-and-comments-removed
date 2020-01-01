@@ -321,7 +321,11 @@ h
 #
 include
 "
-jsstrinlines
+vm
+/
+MethodGuard
+-
+inl
 .
 h
 "
@@ -330,7 +334,7 @@ include
 "
 vm
 /
-MethodGuard
+StringBuffer
 -
 inl
 .
@@ -10640,7 +10644,7 @@ cx
 return
 JS_FALSE
 ;
-jsuint
+uint32_t
 oldLen
 =
 obj

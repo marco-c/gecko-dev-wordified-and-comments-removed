@@ -5013,7 +5013,7 @@ view
 {
 nsIWidget
 *
-fwidget
+frameWidget
 =
 view
 -
@@ -5024,10 +5024,10 @@ GetWidget
 ;
 if
 (
-fwidget
+frameWidget
 &
 &
-fwidget
+frameWidget
 =
 =
 GUIEvent
@@ -5055,10 +5055,7 @@ presContext
 >
 DevPixelsToAppUnits
 (
-GUIEvent
--
->
-refPoint
+aPoint
 .
 x
 )
@@ -5067,10 +5064,7 @@ presContext
 >
 DevPixelsToAppUnits
 (
-GUIEvent
--
->
-refPoint
+aPoint
 .
 y
 )

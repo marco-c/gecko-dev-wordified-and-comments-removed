@@ -2572,7 +2572,7 @@ toObject
 (
 )
 ;
-jsuint
+uint32_t
 length
 ;
 if
@@ -2591,7 +2591,7 @@ false
 ;
 for
 (
-jsuint
+uint32_t
 n
 =
 0

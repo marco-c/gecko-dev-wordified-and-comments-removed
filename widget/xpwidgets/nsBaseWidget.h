@@ -1088,6 +1088,15 @@ return
 mOnDestroyCalled
 ;
 }
+nsWindowType
+GetWindowType
+(
+)
+{
+return
+mWindowType
+;
+}
 protected
 :
 virtual

@@ -211,6 +211,17 @@ h
 #
 include
 "
+vm
+/
+StringBuffer
+-
+inl
+.
+h
+"
+#
+include
+"
 ds
 /
 Sort
@@ -312,7 +323,7 @@ cx
 JSObject
 *
 obj
-jsuint
+uint32_t
 *
 lengthp
 )
@@ -436,7 +447,7 @@ isInt32
 *
 lengthp
 =
-jsuint
+uint32_t
 (
 tvr
 .
@@ -453,20 +464,6 @@ return
 true
 ;
 }
-JS_STATIC_ASSERT
-(
-sizeof
-(
-jsuint
-)
-=
-=
-sizeof
-(
-uint32_t
-)
-)
-;
 return
 ToUint32
 (
@@ -496,7 +493,7 @@ StringIsArrayIndex
 JSLinearString
 *
 str
-jsuint
+uint32_t
 *
 indexp
 )
@@ -709,7 +706,7 @@ cx
 JSObject
 *
 obj
-jsuint
+uint32_t
 index
 JSBool
 createAtom
@@ -718,18 +715,6 @@ jsid
 idp
 )
 {
-JS_STATIC_ASSERT
-(
-(
-jsuint
-)
--
-1
-=
-=
-4294967295U
-)
-;
 JS_ASSERT
 (
 index
@@ -1113,7 +1098,7 @@ if
 index
 <
 =
-jsuint
+uint32_t
 (
 -
 1
@@ -1127,7 +1112,7 @@ BigIndexToId
 (
 cx
 obj
-jsuint
+uint32_t
 (
 index
 )
@@ -1724,7 +1709,7 @@ cx
 JSObject
 *
 aobj
-jsuint
+uint32_t
 length
 Value
 *
@@ -1940,7 +1925,7 @@ if
 (
 index
 >
-jsuint
+uint32_t
 (
 -
 1
@@ -1948,10 +1933,10 @@ jsuint
 )
 break
 ;
-jsuint
+uint32_t
 idx
 =
-jsuint
+uint32_t
 (
 index
 )
@@ -2642,7 +2627,7 @@ isDenseArray
 )
 )
 {
-jsuint
+uint32_t
 oldcap
 =
 obj
@@ -2652,7 +2637,7 @@ getDenseArrayCapacity
 (
 )
 ;
-jsuint
+uint32_t
 oldinit
 =
 obj
@@ -2804,7 +2789,7 @@ iter
 return
 false
 ;
-jsuint
+uint32_t
 gap
 =
 oldlen
@@ -2847,7 +2832,7 @@ id
 )
 break
 ;
-jsuint
+uint32_t
 index
 ;
 Value
@@ -3909,7 +3894,7 @@ Value
 vp
 )
 {
-jsuint
+uint32_t
 index
 length
 ;
@@ -5536,7 +5521,7 @@ getDenseArrayInitializedLength
 (
 )
 ;
-MarkSlotRange
+MarkArraySlots
 (
 trc
 initLength
@@ -6467,7 +6452,7 @@ append
 return
 false
 ;
-jsuint
+uint32_t
 length
 ;
 if
@@ -6486,7 +6471,7 @@ false
 ;
 for
 (
-jsuint
+uint32_t
 index
 =
 0
@@ -6989,7 +6974,7 @@ return
 true
 ;
 }
-jsuint
+uint32_t
 length
 ;
 if
@@ -7234,7 +7219,7 @@ else
 {
 for
 (
-jsuint
+uint32_t
 index
 =
 0
@@ -7968,7 +7953,7 @@ ED_SPARSE
 break
 ;
 }
-jsuint
+uint32_t
 newlen
 =
 start
@@ -8252,7 +8237,7 @@ cx
 JSObject
 *
 obj
-jsuint
+uint32_t
 length
 const
 Value
@@ -8351,7 +8336,7 @@ false
 ;
 for
 (
-jsuint
+uint32_t
 i
 =
 0
@@ -8570,7 +8555,7 @@ obj
 return
 false
 ;
-jsuint
+uint32_t
 len
 ;
 if
@@ -8855,7 +8840,7 @@ hival
 ;
 for
 (
-jsuint
+uint32_t
 i
 =
 0
@@ -9995,7 +9980,7 @@ obj
 return
 false
 ;
-jsuint
+uint32_t
 len
 ;
 if
@@ -10121,7 +10106,7 @@ true
 ;
 for
 (
-jsuint
+uint32_t
 i
 =
 0
@@ -10595,7 +10580,7 @@ InitArrayElements
 cx
 obj
 0
-jsuint
+uint32_t
 (
 n
 )
@@ -10708,7 +10693,7 @@ CallArgs
 args
 )
 {
-jsuint
+uint32_t
 length
 ;
 if
@@ -11207,7 +11192,7 @@ CallArgs
 args
 )
 {
-jsuint
+uint32_t
 index
 ;
 if
@@ -11329,7 +11314,7 @@ CallArgs
 args
 )
 {
-jsuint
+uint32_t
 index
 =
 obj
@@ -11639,7 +11624,7 @@ obj
 return
 JS_FALSE
 ;
-jsuint
+uint32_t
 length
 ;
 if
@@ -11849,7 +11834,7 @@ cx
 ;
 for
 (
-jsuint
+uint32_t
 i
 =
 0
@@ -11985,7 +11970,7 @@ obj
 return
 false
 ;
-jsuint
+uint32_t
 length
 ;
 if
@@ -13665,7 +13650,7 @@ JSObject
 *
 nobj
 ;
-jsuint
+uint32_t
 length
 ;
 if
@@ -13699,7 +13684,7 @@ getDenseArrayElements
 (
 )
 ;
-jsuint
+uint32_t
 initlen
 =
 aobj
@@ -13867,7 +13852,7 @@ cx
 )
 )
 {
-jsuint
+uint32_t
 alength
 ;
 if
@@ -14008,7 +13993,7 @@ JSObject
 *
 nobj
 ;
-jsuint
+uint32_t
 length
 begin
 end
@@ -14141,7 +14126,7 @@ length
 begin
 =
 (
-jsuint
+uint32_t
 )
 d
 ;
@@ -14211,7 +14196,7 @@ length
 end
 =
 (
-jsuint
+uint32_t
 )
 d
 ;
@@ -14440,7 +14425,7 @@ CallArgs
 args
 )
 {
-jsuint
+uint32_t
 length
 i
 stop
@@ -14619,7 +14604,7 @@ else
 i
 =
 (
-jsuint
+uint32_t
 )
 start
 ;
@@ -14656,7 +14641,7 @@ else
 i
 =
 (
-jsuint
+uint32_t
 )
 start
 ;
@@ -14717,7 +14702,7 @@ GetElement
 cx
 obj
 (
-jsuint
+uint32_t
 )
 i
 &
@@ -17552,7 +17537,7 @@ cx
 JSObject
 *
 obj
-jsuint
+uint32_t
 length
 )
 {
