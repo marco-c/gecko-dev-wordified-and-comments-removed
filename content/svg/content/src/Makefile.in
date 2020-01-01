@@ -499,10 +499,6 @@ nsSVGAnimatedAngle
 .
 cpp
 \
-nsSVGAnimatedBoolean
-.
-cpp
-\
 nsSVGAnimatedLengthList
 .
 cpp
@@ -524,6 +520,10 @@ nsSVGAnimatedString
 cpp
 \
 nsSVGAnimatedTransformList
+.
+cpp
+\
+nsSVGBoolean
 .
 cpp
 \
