@@ -5979,12 +5979,6 @@ return
 ;
 }
 }
-document
-.
-popupNode
-=
-null
-;
 this
 .
 _autoScrollPopup
