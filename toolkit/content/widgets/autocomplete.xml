@@ -864,6 +864,15 @@ popupset
 /
 >
 <
+children
+includes
+=
+"
+toolbarbutton
+"
+/
+>
+<
 /
 content
 >
