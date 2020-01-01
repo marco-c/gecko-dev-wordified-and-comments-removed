@@ -666,9 +666,7 @@ document
 getElementById
 (
 "
-debugger
--
-popups
+debuggerPopupset
 "
 )
 ;

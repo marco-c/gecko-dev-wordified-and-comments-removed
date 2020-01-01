@@ -1504,6 +1504,16 @@ match
 ctrl
 "
 )
+|
+|
+elemMod
+.
+match
+(
+"
+control
+"
+)
 )
 {
 elemString
