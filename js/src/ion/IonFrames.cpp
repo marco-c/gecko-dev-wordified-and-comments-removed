@@ -3000,12 +3000,6 @@ jsbytecode
 pcRes
 )
 {
-AutoDisableSpew
-<
-IonSpew_Bailouts
->
-disableSpew
-;
 JS_ASSERT
 (
 cx
