@@ -931,6 +931,10 @@ test_bug856472
 .
 html
 \
+test_bug866575
+.
+html
+\
 test_drawImage_edge_cases
 .
 html
