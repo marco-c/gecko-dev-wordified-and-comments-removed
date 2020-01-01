@@ -2313,8 +2313,10 @@ GetFrameMessageManager
 )
 )
 {
+nsRefPtr
+<
 nsFrameMessageManager
-*
+>
 manager
 =
 frameLoader
