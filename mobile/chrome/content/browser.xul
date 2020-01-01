@@ -4984,9 +4984,9 @@ bar
 oncommand
 =
 "
-Browser
+BrowserUI
 .
-addTab
+newTab
 (
 '
 about
@@ -5004,9 +5004,9 @@ else
 oncommand
 =
 "
-Browser
+BrowserUI
 .
-addTab
+newTab
 (
 '
 about

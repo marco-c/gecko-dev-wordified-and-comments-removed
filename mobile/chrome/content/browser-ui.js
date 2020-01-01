@@ -2997,13 +2997,6 @@ value
 )
 ;
 }
-showHistory
-:
-function
-(
-)
-{
-}
 showBookmarks
 :
 function
@@ -3045,6 +3038,12 @@ addTab
 (
 aURI
 true
+)
+;
+this
+.
+hidePanel
+(
 )
 ;
 if
