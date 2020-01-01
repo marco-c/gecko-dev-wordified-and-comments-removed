@@ -1489,9 +1489,6 @@ get
 (
 )
 ;
-PRUint32
-pid
-;
 return
 process
 -
@@ -1502,8 +1499,6 @@ PR_FALSE
 &
 string
 1
-&
-pid
 )
 ;
 }
