@@ -6852,6 +6852,10 @@ mResponseBlob
 =
 nsnull
 ;
+mResultArrayBuffer
+=
+nsnull
+;
 PRBool
 parseBody
 =
