@@ -2117,7 +2117,7 @@ nullptr
 }
 #
 ifdef
-DEBUG
+MOZ_DUMP_PAINTING
 nsCString
 DisplayItemClip
 :
