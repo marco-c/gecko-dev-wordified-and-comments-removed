@@ -350,6 +350,10 @@ abouthome_bg_repeat
 /
 >
 <
+/
+RelativeLayout
+>
+<
 org
 .
 mozilla
@@ -383,10 +387,10 @@ wrap_content
 "
 android
 :
-layout_alignParentBottom
+layout_gravity
 =
 "
-true
+bottom
 "
 style
 =
@@ -403,10 +407,6 @@ visibility
 gone
 "
 /
->
-<
-/
-RelativeLayout
 >
 <
 /
