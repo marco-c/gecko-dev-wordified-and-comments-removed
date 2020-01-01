@@ -1394,7 +1394,7 @@ machine
 ;
 for
 (
-GeneralRegisterIterator
+GeneralRegisterBackwardIterator
 iter
 (
 reader
@@ -3888,7 +3888,7 @@ valueSpills
 ;
 for
 (
-GeneralRegisterIterator
+GeneralRegisterBackwardIterator
 iter
 (
 safepoint
