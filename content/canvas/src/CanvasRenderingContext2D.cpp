@@ -6586,6 +6586,7 @@ else
 {
 htmlElement
 =
+&
 element
 .
 GetAsHTMLVideoElement
@@ -13669,6 +13670,7 @@ HTMLVideoElement
 *
 video
 =
+&
 image
 .
 GetAsHTMLVideoElement

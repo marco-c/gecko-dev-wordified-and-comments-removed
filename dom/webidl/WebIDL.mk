@@ -551,6 +551,10 @@ HTMLUListElement
 .
 webidl
 \
+HTMLVideoElement
+.
+webidl
+\
 IDBVersionChangeEvent
 .
 webidl

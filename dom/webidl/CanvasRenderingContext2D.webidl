@@ -169,9 +169,6 @@ interface
 HTMLCanvasElement
 ;
 interface
-HTMLVideoElement
-;
-interface
 TextMetrics
 ;
 interface
