@@ -517,9 +517,9 @@ init
 "
 )
 ;
-Utils
+XPCOMUtils
 .
-lazy2
+defineLazyGetter
 (
 this
 "
