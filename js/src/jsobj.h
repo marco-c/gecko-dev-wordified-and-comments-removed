@@ -5757,7 +5757,7 @@ propp
 ;
 extern
 bool
-LookupNameForSet
+LookupNameWithGlobalDefault
 (
 JSContext
 *
