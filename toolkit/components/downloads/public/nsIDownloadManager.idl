@@ -566,6 +566,12 @@ DOWNLOAD_SCANNING
 ;
 const
 short
+DOWNLOAD_DIRTY
+=
+8
+;
+const
+short
 DOWNLOAD_TYPE_DOWNLOAD
 =
 0
