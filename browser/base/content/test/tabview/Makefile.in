@@ -592,10 +592,6 @@ browser_tabview_bug604098
 .
 js
 \
-browser_tabview_bug604699
-.
-js
-\
 browser_tabview_bug606657
 .
 js
@@ -880,6 +876,10 @@ browser_tabview_bug673729
 .
 js
 \
+browser_tabview_bug677310
+.
+js
+\
 browser_tabview_bug679853
 .
 js
@@ -941,6 +941,10 @@ browser_tabview_startup_transitions
 js
 \
 browser_tabview_storage_policy
+.
+js
+\
+browser_tabview_thumbnail_storage
 .
 js
 \

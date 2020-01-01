@@ -199,15 +199,12 @@ function
 tabItem
 )
 {
-contentWindow
-.
-TabItems
-.
-update
-(
 tabItem
 .
-tab
+tabCanvas
+.
+paint
+(
 )
 ;
 tabItem
@@ -461,7 +458,7 @@ tabItem
 addSubscriber
 (
 "
-loadedCachedImageData
+showingCachedData
 "
 function
 onLoaded
@@ -473,7 +470,7 @@ tabItem
 removeSubscriber
 (
 "
-loadedCachedImageData
+showingCachedData
 "
 onLoaded
 )

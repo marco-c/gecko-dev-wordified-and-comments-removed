@@ -143,7 +143,7 @@ tabItem
 addSubscriber
 (
 "
-loadedCachedImageData
+showingCachedData
 "
 function
 onLoaded
@@ -155,7 +155,7 @@ tabItem
 removeSubscriber
 (
 "
-loadedCachedImageData
+showingCachedData
 "
 onLoaded
 )
@@ -201,6 +201,12 @@ saveTab
 (
 tab
 data
+)
+;
+tabItem
+.
+saveThumbnail
+(
 )
 ;
 }
