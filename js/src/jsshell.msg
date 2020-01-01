@@ -660,3 +660,16 @@ invalid
 arguments
 "
 )
+MSG_DEF
+(
+JSSMSG_ASSERT_JIT_FAILED
+13
+0
+JSEXN_NONE
+"
+unexpected
+failure
+to
+JIT
+"
+)
