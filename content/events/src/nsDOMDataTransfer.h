@@ -154,6 +154,8 @@ bool
 aUserCancelled
 bool
 aIsCrossDomainSubFrameDrop
+int32_t
+aClipboardType
 nsTArray
 <
 nsTArray
@@ -210,6 +212,8 @@ uint32_t
 aEventType
 bool
 aIsExternal
+int32_t
+aClipboardType
 )
 ;
 void
@@ -410,6 +414,9 @@ mUserCancelled
 ;
 bool
 mIsCrossDomainSubFrameDrop
+;
+int32_t
+mClipboardType
 ;
 nsTArray
 <

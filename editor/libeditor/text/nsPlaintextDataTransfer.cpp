@@ -1464,6 +1464,7 @@ if
 FireClipboardEvent
 (
 NS_PASTE
+aSelectionType
 )
 )
 return
@@ -1612,6 +1613,8 @@ if
 FireClipboardEvent
 (
 NS_PASTE
+-
+1
 )
 )
 return

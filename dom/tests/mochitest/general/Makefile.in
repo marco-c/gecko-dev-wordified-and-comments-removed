@@ -246,6 +246,10 @@ file_showModalDialog
 .
 html
 \
+test_paste_selection
+.
+html
+\
 (
 NULL
 )
