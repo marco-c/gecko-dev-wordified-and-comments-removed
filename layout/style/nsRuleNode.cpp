@@ -14074,7 +14074,7 @@ eCSSUnit_Inherit
 =
 aFontData
 .
-mScriptSizeMultiplier
+mScriptLevel
 .
 GetUnit
 (
@@ -14104,7 +14104,7 @@ eCSSUnit_Initial
 =
 aFontData
 .
-mScriptSizeMultiplier
+mScriptLevel
 .
 GetUnit
 (
