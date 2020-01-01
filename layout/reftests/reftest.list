@@ -302,6 +302,15 @@ reftest
 .
 list
 #
+floats
+/
+include
+floats
+/
+reftest
+.
+list
+#
 font
 -
 face
