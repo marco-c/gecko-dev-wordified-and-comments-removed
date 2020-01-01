@@ -1363,6 +1363,16 @@ max_chrome_script_run_time
 pref
 (
 "
+dom
+.
+use_watchdog
+"
+false
+)
+;
+pref
+(
+"
 plugin
 .
 disable
