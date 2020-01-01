@@ -1693,6 +1693,16 @@ nsScriptNameSpaceManager
 aNameSpaceManager
 )
 ;
+bool
+IsChromeOrXBL
+(
+JSContext
+*
+cx
+JSObject
+*
+)
+;
 }
 }
 #

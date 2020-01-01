@@ -613,9 +613,6 @@ Throws
 Func
 =
 "
-nsINode
-:
-:
 IsChromeOrXBL
 "
 ]
@@ -636,9 +633,6 @@ Throws
 Func
 =
 "
-nsINode
-:
-:
 IsChromeOrXBL
 "
 ]

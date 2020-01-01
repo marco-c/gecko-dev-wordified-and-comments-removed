@@ -2419,17 +2419,6 @@ return
 NS_OK
 ;
 }
-static
-bool
-IsChromeOrXBL
-(
-JSContext
-*
-aCx
-JSObject
-*
-)
-;
 void
 LookupPrefix
 (
