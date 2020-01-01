@@ -4867,3 +4867,17 @@ clone
 object
 "
 )
+MSG_DEF
+(
+JSMSG_NON_NATIVE_SCOPE
+266
+0
+JSEXN_TYPEERR
+"
+non
+-
+native
+scope
+object
+"
+)
