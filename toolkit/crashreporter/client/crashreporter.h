@@ -223,7 +223,7 @@ CheckIncludeURL
 define
 ST_CHECKEMAIL
 "
-CheckSendEmail
+CheckAllowEmail
 "
 #
 define
