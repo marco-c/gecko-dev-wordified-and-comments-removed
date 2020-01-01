@@ -998,7 +998,7 @@ enabled
 false
 function
 (
-value
+enabled
 )
 {
 Services
@@ -1017,15 +1017,6 @@ remote
 enabled
 '
 value
-)
-;
-Services
-.
-prefs
-.
-savePrefFile
-(
-null
 )
 ;
 }
