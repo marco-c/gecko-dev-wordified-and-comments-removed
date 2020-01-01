@@ -81,6 +81,10 @@ mk
 MOCHITEST_CHROME_FILES
 =
 \
+head
+.
+js
+\
 test_treeview_date
 .
 xul
