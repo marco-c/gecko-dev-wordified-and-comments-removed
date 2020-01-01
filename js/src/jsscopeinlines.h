@@ -68,6 +68,14 @@ clasp
 JS_ASSERT
 (
 !
+isSharedEmpty
+(
+)
+)
+;
+JS_ASSERT
+(
+!
 emptyScope
 )
 ;
