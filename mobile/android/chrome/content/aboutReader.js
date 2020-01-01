@@ -3382,6 +3382,16 @@ appendChild
 link
 )
 ;
+link
+.
+style
+.
+MozUserSelect
+=
+'
+none
+'
+;
 segmentedButton
 .
 appendChild
