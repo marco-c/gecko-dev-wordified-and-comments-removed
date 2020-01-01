@@ -3921,11 +3921,6 @@ nsIDOMWindowUtils
 )
 .
 mayHaveTouchEventListeners
-messageId
-:
-json
-.
-messageId
 }
 )
 ;
