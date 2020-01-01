@@ -3050,6 +3050,9 @@ jsval
 vp
 )
 {
+#
+ifdef
+JS_TRACER
 if
 (
 JS_ON_TRACE
@@ -3067,6 +3070,8 @@ return
 false
 ;
 }
+#
+endif
 if
 (
 !
