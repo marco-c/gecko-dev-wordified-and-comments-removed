@@ -537,7 +537,7 @@ bool
 mDelayedDisconnect
 ;
 bool
-mIsBrowserFrame
+mIsBrowserOrAppFrame
 ;
 public
 :

@@ -12640,7 +12640,7 @@ if
 mDocShell
 -
 >
-GetIsContentBoundary
+GetIsBrowserOrApp
 (
 )
 )
@@ -13004,7 +13004,7 @@ mDocShell
 mDocShell
 -
 >
-GetIsBelowContentBoundary
+GetIsInBrowserOrApp
 (
 )
 )
@@ -26517,7 +26517,7 @@ IsFrame
 mDocShell
 -
 >
-GetIsContentBoundary
+GetIsBrowserOrApp
 (
 )
 )
@@ -28619,7 +28619,7 @@ mDocShell
 mDocShell
 -
 >
-GetIsContentBoundary
+GetIsBrowserOrApp
 (
 )
 )
