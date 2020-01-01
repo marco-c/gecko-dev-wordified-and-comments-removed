@@ -553,6 +553,9 @@ NS_XPCOM_SHUTDOWN_OBSERVER_ID
 =
 =
 0
+&
+&
+mWidget
 )
 {
 mWidget
@@ -744,6 +747,13 @@ if
 mShutdownObserver
 )
 {
+mShutdownObserver
+-
+>
+mWidget
+=
+nullptr
+;
 nsContentUtils
 :
 :
