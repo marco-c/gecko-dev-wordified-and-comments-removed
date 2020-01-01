@@ -6938,7 +6938,12 @@ do_QueryInterface
 accessNode
 )
 ;
-NS_IF_ADDREF
+if
+(
+newAcc
+)
+{
+NS_ADDREF
 (
 *
 aAccessible
@@ -6949,6 +6954,7 @@ newAcc
 return
 NS_OK
 ;
+}
 }
 nsCOMPtr
 <
