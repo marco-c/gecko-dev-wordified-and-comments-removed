@@ -1530,7 +1530,7 @@ bool
 ForkJoinSlice
 :
 :
-Initialize
+InitializeTLS
 (
 )
 {
@@ -1838,9 +1838,6 @@ JS_THREADSAFE
 JS_ASSERT
 (
 !
-ForkJoinSlice
-:
-:
 InParallelSection
 (
 )

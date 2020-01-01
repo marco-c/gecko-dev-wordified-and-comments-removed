@@ -4606,9 +4606,6 @@ vp
 JS_ASSERT
 (
 !
-ForkJoinSlice
-:
-:
 InParallelSection
 (
 )

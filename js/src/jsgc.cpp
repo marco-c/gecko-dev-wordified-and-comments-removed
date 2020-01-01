@@ -7203,9 +7203,6 @@ thingKind
 JS_ASSERT
 (
 !
-ForkJoinSlice
-:
-:
 InParallelSection
 (
 )
@@ -20853,9 +20850,6 @@ reason
 JS_ASSERT
 (
 !
-ForkJoinSlice
-:
-:
 InParallelSection
 (
 )

@@ -869,9 +869,6 @@ script
 {
 JS_ASSERT
 (
-ForkJoinSlice
-:
-:
 InParallelSection
 (
 )
@@ -944,9 +941,6 @@ func
 {
 JS_ASSERT
 (
-ForkJoinSlice
-:
-:
 InParallelSection
 (
 )
