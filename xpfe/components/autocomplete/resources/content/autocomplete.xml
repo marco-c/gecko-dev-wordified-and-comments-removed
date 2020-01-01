@@ -11250,6 +11250,16 @@ resources
 >
 <
 content
+ignorekeys
+=
+"
+true
+"
+level
+=
+"
+top
+"
 >
 <
 xul
