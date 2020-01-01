@@ -802,6 +802,10 @@ SendCallback
 (
 )
 {
+if
+(
+mAlertListener
+)
 mAlertListener
 -
 >
@@ -827,6 +831,10 @@ SendClosed
 (
 )
 {
+if
+(
+mAlertListener
+)
 mAlertListener
 -
 >
