@@ -793,14 +793,7 @@ PRInt32
 test_closure_stdcall
 (
 PRInt8
-PRInt32
-(
-NS_STDCALL
-*
-)
-(
-PRInt8
-)
+test_func_ptr_stdcall
 )
 ;
 #
