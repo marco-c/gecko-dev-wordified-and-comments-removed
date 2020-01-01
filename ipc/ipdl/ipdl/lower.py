@@ -12953,6 +12953,15 @@ fields
 ]
 )
     
+if
+len
+(
+sd
+.
+fields
+)
+:
+        
 defctor
 =
 ConstructorDefn
@@ -12964,7 +12973,7 @@ sd
 name
 )
 )
-    
+        
 defctor
 .
 addstmt
@@ -12974,7 +12983,7 @@ StmtExpr
 callinit
 )
 )
-    
+        
 struct
 .
 addstmts
