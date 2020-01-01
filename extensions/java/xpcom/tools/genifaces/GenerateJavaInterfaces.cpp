@@ -1655,9 +1655,9 @@ searchTerm
 get
 (
 )
-PR_MIN
+NS_MIN
 (
-29
+29U
 searchTerm
 .
 Length
