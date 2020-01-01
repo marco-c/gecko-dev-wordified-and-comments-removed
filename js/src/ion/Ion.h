@@ -67,6 +67,9 @@ bool
 osr
 ;
 bool
+limitScriptSize
+;
+bool
 lsra
 ;
 bool
@@ -112,6 +115,10 @@ licm
 true
 )
 osr
+(
+true
+)
+limitScriptSize
 (
 true
 )
