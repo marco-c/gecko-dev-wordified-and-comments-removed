@@ -618,6 +618,10 @@ MapsMemoryReporter
 .
 h
 \
+ClearOnShutdown
+.
+h
+\
 (
 NULL
 )
