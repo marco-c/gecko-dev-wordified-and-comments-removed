@@ -26291,6 +26291,12 @@ constraintList
 =
 NULL
 ;
+flags
+&
+=
+~
+TYPE_FLAG_PROPAGATED_PROPERTY
+;
 }
 inline
 void
