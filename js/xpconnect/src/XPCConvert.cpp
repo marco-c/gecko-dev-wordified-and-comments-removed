@@ -4476,6 +4476,9 @@ flat
 {
 if
 (
+allowNativeWrapper
+&
+&
 !
 JS_WrapObject
 (
