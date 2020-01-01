@@ -716,6 +716,11 @@ js
 >
 <
 vbox
+id
+=
+"
+aboutDialogContainer
+"
 >
 <
 hbox
