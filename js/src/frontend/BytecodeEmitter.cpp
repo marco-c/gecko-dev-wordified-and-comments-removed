@@ -6547,10 +6547,6 @@ bce
 tokenStream
 (
 )
-bce
--
->
-sc
 pn
 JSMSG_READ_ONLY
 name
