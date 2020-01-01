@@ -424,13 +424,10 @@ rv
 return
 rv
 ;
-if
+MOZ_ASSERT
 (
-!
 mClassObject
 )
-return
-NS_OK
 ;
 }
 nsIDocument
