@@ -3736,10 +3736,6 @@ mInSecureKeyboardInputMode
 (
 PR_FALSE
 )
-mTextListener
-(
-nsnull
-)
 #
 ifdef
 DEBUG
@@ -3749,6 +3745,10 @@ PR_FALSE
 )
 #
 endif
+mTextListener
+(
+nsnull
+)
 {
 }
 nsTextControlFrame
