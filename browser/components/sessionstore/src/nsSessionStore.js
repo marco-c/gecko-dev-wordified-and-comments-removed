@@ -5393,6 +5393,12 @@ length
 )
 )
 ;
+tabState
+.
+pinned
+=
+false
+;
 this
 .
 _sendWindowStateEvent
