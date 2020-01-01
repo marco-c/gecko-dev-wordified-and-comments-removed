@@ -64,10 +64,6 @@ _S_IEXEC
 0000100
 #
 define
-BUFSIZ
-1024
-#
-define
 _putenv
 putenv
 struct

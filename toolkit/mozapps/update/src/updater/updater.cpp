@@ -3549,11 +3549,7 @@ fread
 (
 rb
 1
-mmin
-(
-BUFSIZ
 r
-)
 ofile
 )
 ;
