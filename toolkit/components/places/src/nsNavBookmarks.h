@@ -241,6 +241,13 @@ EndUpdateBatch
 (
 )
 ;
+PRBool
+ItemExists
+(
+PRInt64
+aItemId
+)
+;
 private
 :
 static
