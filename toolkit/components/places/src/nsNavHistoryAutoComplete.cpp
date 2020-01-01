@@ -1304,7 +1304,7 @@ isMatch
 CaseInsensitiveFindInReadable
 (
 mCurrentSearchString
-url
+title
 )
 ;
 if
@@ -1317,7 +1317,7 @@ isMatch
 CaseInsensitiveFindInReadable
 (
 mCurrentSearchString
-title
+url
 )
 ;
 if
