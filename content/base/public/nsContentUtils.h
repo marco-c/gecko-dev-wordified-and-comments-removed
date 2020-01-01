@@ -100,7 +100,7 @@ h
 #
 include
 "
-nsContentList
+nsContentListDeclarations
 .
 h
 "
