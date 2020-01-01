@@ -226,6 +226,13 @@ h
 #
 include
 "
+pratom
+.
+h
+"
+#
+include
+"
 prlog
 .
 h

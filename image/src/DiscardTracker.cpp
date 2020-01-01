@@ -35,6 +35,13 @@ Preferences
 .
 h
 "
+#
+include
+"
+pratom
+.
+h
+"
 namespace
 mozilla
 {

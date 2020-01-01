@@ -117,6 +117,13 @@ nsPrintfCString
 h
 "
 #
+include
+"
+pratom
+.
+h
+"
+#
 ifdef
 XP_WIN
 #

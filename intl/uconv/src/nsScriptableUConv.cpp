@@ -1,13 +1,6 @@
 #
 include
 "
-nsAtomicRefcnt
-.
-h
-"
-#
-include
-"
 nsString
 .
 h
@@ -72,6 +65,13 @@ h
 include
 "
 nsCharsetAlias
+.
+h
+"
+#
+include
+"
+pratom
 .
 h
 "

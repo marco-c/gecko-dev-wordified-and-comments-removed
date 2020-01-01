@@ -52,6 +52,13 @@ MacIOSurface
 .
 h
 "
+#
+include
+"
+nsError
+.
+h
+"
 CGColorSpaceRef
 CreateSystemColorSpace
 (

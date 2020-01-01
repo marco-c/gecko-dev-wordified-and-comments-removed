@@ -285,6 +285,13 @@ h
 #
 include
 "
+pratom
+.
+h
+"
+#
+include
+"
 npapi
 .
 h

@@ -14,13 +14,6 @@ XPTInterfaceInfoManager
 .
 h
 "
-#
-include
-"
-nsAtomicRefcnt
-.
-h
-"
 using
 namespace
 mozilla

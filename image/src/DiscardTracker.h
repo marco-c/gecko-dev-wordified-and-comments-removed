@@ -22,6 +22,13 @@ TimeStamp
 .
 h
 "
+#
+include
+"
+prlock
+.
+h
+"
 class
 nsITimer
 ;

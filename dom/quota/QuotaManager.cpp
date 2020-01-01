@@ -227,6 +227,13 @@ h
 #
 include
 "
+pratom
+.
+h
+"
+#
+include
+"
 xpcpublic
 .
 h

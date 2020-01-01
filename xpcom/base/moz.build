@@ -276,11 +276,6 @@ nsAgg
 h
 '
 '
-nsAtomicRefcnt
-.
-h
-'
-'
 nsAutoPtr
 .
 h

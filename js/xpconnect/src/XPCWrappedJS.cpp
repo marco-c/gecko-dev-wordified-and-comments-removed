@@ -15,13 +15,6 @@ h
 #
 include
 "
-nsAtomicRefcnt
-.
-h
-"
-#
-include
-"
 nsContentUtils
 .
 h

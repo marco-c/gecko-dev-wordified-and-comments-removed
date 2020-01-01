@@ -153,10 +153,6 @@ nscore
 .
 h
 \
-nsAtomicRefcnt
-.
-h
-\
 nsCycleCollector
 .
 h
