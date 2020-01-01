@@ -771,6 +771,13 @@ BINPATH
 /
 components
 /
+diskspacewatcher
+.
+xpt
+BINPATH
+/
+components
+/
 docshell
 .
 xpt
