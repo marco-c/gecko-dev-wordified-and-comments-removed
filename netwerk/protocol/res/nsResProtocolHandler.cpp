@@ -119,6 +119,15 @@ nsEscape
 .
 h
 "
+#
+include
+"
+mozilla
+/
+Omnijar
+.
+h
+"
 static
 NS_DEFINE_CID
 (
