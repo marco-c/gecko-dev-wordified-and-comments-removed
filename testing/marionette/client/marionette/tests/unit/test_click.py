@@ -4,17 +4,6 @@ from
 marionette_test
 import
 MarionetteTestCase
-"
-"
-"
-#
-#
-#
-Disabled
-due
-to
-bug
-838607
 class
 TestClick
 (
@@ -232,9 +221,6 @@ Test
 Page
 "
 )
-"
-"
-"
 class
 TestClickChrome
 (
