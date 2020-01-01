@@ -5799,11 +5799,11 @@ getBindingParent
 this
 )
 .
-_popup
+searchButton
 .
-click
-(
-)
+open
+=
+true
 ;
 return
 false
