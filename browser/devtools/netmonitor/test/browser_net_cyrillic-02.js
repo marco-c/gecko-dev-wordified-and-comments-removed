@@ -34,7 +34,6 @@ test
 let
 {
 document
-L10N
 SourceEditor
 NetMonitorView
 }
@@ -80,14 +79,7 @@ getItemAtIndex
 "
 GET
 "
-CONTENT_TYPE_SJS
-+
-"
-?
-fmt
-=
-txt
-"
+CYRILLIC_URL
 {
 status
 :
@@ -95,9 +87,7 @@ status
 statusText
 :
 "
-DA
-DA
-DA
+OK
 "
 }
 )
@@ -192,7 +182,7 @@ indexOf
 u044F
 "
 )
-26
+189
 "
 The
 text
@@ -218,7 +208,7 @@ SourceEditor
 .
 MODES
 .
-TEXT
+HTML
 "
 The
 mode
@@ -251,7 +241,9 @@ finish
 ;
 aDebuggee
 .
-performRequests
+location
+.
+reload
 (
 )
 ;
