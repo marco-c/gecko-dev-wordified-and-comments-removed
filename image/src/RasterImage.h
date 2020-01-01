@@ -214,7 +214,7 @@ class
 RasterImage
 :
 public
-Image
+ImageResource
 public
 nsIProperties
 public
