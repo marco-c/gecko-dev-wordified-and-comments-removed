@@ -520,10 +520,6 @@ m_end
 m_freePtr
 ;
 }
-ExecutablePool
-*
-next
-;
 private
 :
 static
