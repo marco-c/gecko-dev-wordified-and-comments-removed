@@ -1300,11 +1300,8 @@ if
 this
 .
 tab
-=
-=
-gBrowser
 .
-selectedTab
+selected
 |
 |
 (
@@ -2591,12 +2588,10 @@ tab
 ;
 if
 (
-tab
 !
-=
-gBrowser
+tab
 .
-selectedTab
+selected
 )
 {
 UI

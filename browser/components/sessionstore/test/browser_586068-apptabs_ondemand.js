@@ -415,12 +415,9 @@ i
 }
 ok
 (
-gBrowser
-.
-selectedTab
-=
-=
 tab
+.
+selected
 "
 load
 came

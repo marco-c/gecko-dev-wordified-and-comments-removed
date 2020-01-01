@@ -4768,11 +4768,8 @@ if
 item
 .
 tab
-=
-=
-gBrowser
 .
-selectedTab
+selected
 |
 |
 (
@@ -11950,12 +11947,9 @@ groupItem
 ;
 if
 (
-gBrowser
-.
-selectedTab
-=
-=
 tab
+.
+selected
 )
 {
 if

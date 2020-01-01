@@ -365,12 +365,9 @@ releaseCtrl
 ;
 ok
 (
-gBrowser
+selectedTab
 .
-selectedTab
-=
-=
-selectedTab
+selected
 "
 Ctrl
 +
