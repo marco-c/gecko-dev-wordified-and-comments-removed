@@ -139,6 +139,7 @@ crashReporterArg
 !
 XRE_SetRemoteExceptionHandler
 (
+NULL
 )
 )
 return
