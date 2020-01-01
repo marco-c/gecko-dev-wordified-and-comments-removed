@@ -156,6 +156,10 @@ HTMLLabelElement
 .
 h
 \
+HTMLTitleElement
+.
+h
+\
 HTMLUnknownElement
 .
 h
@@ -390,7 +394,7 @@ nsHTMLTextAreaElement
 .
 cpp
 \
-nsHTMLTitleElement
+HTMLTitleElement
 .
 cpp
 \
