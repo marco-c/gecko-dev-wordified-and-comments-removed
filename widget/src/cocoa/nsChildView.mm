@@ -21795,11 +21795,12 @@ keyCode
 =
 NS_VK_PAGE_DOWN
 )
+[
+NSCursor
+setHiddenUntilMouseMoves
 :
-:
-ObscureCursor
-(
-)
+YES
+]
 ;
 }
 #
