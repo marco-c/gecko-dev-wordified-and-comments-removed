@@ -13133,9 +13133,11 @@ newObjectFromHit
 (
 cx
 entry
-InitialHeapForNewKind
+GetInitialHeap
 (
 newKind
+&
+ArrayClass
 )
 )
 )

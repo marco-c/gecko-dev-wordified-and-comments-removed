@@ -859,10 +859,11 @@ create
 (
 cx
 FINALIZE_KIND
-gc
-:
-:
-DefaultHeap
+GetInitialHeap
+(
+GenericObject
+clasp
+)
 shape
 type
 NULL
