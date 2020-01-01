@@ -79,7 +79,7 @@ config
 autoconf
 .
 mk
-MOCHITEST_FILES
+MOCHITEST_CHROME_FILES
 =
 test_bug510426
 .
