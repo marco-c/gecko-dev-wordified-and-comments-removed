@@ -902,6 +902,8 @@ remoteTestRoot
 +
 '
 /
+logs
+/
 mochitest
 .
 log
@@ -2497,6 +2499,27 @@ exit
 (
 1
 )
+    
+logParent
+=
+os
+.
+path
+.
+dirname
+(
+options
+.
+remoteLogFile
+)
+    
+dm
+.
+mkDir
+(
+logParent
+)
+;
     
 auto
 .

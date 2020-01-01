@@ -667,6 +667,9 @@ file
 level
 =
 INFO
+(
+DM_FLAGS
+)
 \
 -
 -
