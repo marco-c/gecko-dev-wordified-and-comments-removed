@@ -8,6 +8,13 @@ h
 #
 include
 "
+jsdate
+.
+h
+"
+#
+include
+"
 jscompartment
 .
 h
@@ -421,6 +428,10 @@ JSContext
 cx
 )
 {
+js_ClearDateCaches
+(
+)
+;
 activeAnalysis
 =
 activeInference
