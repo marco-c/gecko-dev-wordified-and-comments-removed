@@ -560,6 +560,8 @@ confirm_results
 LAZY_ADD_TIMER
 *
 2
+.
+5
 )
 ;
 }
