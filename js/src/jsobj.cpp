@@ -4898,6 +4898,14 @@ script_
 script
 )
 ;
+script
+-
+>
+setOwnerObject
+(
+JS_CACHED_SCRIPT
+)
+;
 script_
 =
 script

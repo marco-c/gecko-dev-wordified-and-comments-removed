@@ -8079,6 +8079,7 @@ fp
 script
 (
 )
+NULL
 )
 ;
 fp
@@ -8302,6 +8303,7 @@ js_TraceScript
 (
 trc
 script
+NULL
 )
 ;
 return
