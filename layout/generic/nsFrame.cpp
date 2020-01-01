@@ -7593,7 +7593,7 @@ dirtyRect
 MarkAbsoluteFramesForDisplayList
 (
 aBuilder
-aDirtyRect
+dirtyRect
 )
 ;
 nsDisplayListCollection
