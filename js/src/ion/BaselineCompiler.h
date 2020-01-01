@@ -728,6 +728,11 @@ emitUseCountIncrement
 )
 ;
 bool
+emitDebugPrologue
+(
+)
+;
+bool
 initScopeChain
 (
 )
@@ -782,6 +787,11 @@ emitBinaryArith
 ;
 bool
 emitCompare
+(
+)
+;
+bool
+emitReturn
 (
 )
 ;
