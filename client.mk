@@ -1140,6 +1140,12 @@ mozilla
 /
 modules
 /
+lcms
+\
+mozilla
+/
+modules
+/
 libimg
 \
 mozilla
