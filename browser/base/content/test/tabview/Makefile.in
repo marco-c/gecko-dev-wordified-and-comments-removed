@@ -484,6 +484,10 @@ browser_tabview_launch
 .
 js
 \
+browser_tabview_multiwindow_search
+.
+js
+\
 browser_tabview_search
 .
 js
