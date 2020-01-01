@@ -9607,6 +9607,15 @@ rb
 )
 )
 ;
+const
+Register
+SBZ
+=
+(
+Register
+)
+0
+;
 switch
 (
 op
@@ -9717,7 +9726,7 @@ ALUr_shi
 AL
 cmp
 1
-IP
+SBZ
 IP
 rr
 ASR_imm
@@ -9748,7 +9757,7 @@ ALUr_shi
 AL
 cmp
 1
-IP
+SBZ
 IP
 rr
 ASR_imm
@@ -9779,7 +9788,7 @@ ALUr_shi
 AL
 cmp
 1
-IP
+SBZ
 rr
 rr
 ASR_imm
@@ -9792,7 +9801,7 @@ AL
 mov
 1
 IP
-IP
+SBZ
 IP
 LSR_imm
 16
