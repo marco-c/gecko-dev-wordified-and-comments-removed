@@ -645,6 +645,8 @@ LIB_SUFFIX
 (
 NULL
 )
+ifndef
+MOZ_DISABLE_PARENTAL_CONTROLS
 ifeq
 (
 (
@@ -694,6 +696,7 @@ REQUIRES
 +
 =
 parentalcontrols
+endif
 endif
 ifndef
 MOZ_SUITE
