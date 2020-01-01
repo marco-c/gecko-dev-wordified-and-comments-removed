@@ -79,8 +79,8 @@ value
 *
 sizeof
 (
-*
-bits_
+unsigned
+long
 )
 )
 )
@@ -105,8 +105,8 @@ value
 *
 sizeof
 (
-*
-bits_
+unsigned
+long
 )
 )
 ;
