@@ -527,10 +527,6 @@ mozAccessible
 .
 h
 \
-mozAccessibleWrapper
-.
-h
-\
 mozAccessibleProtocol
 .
 h

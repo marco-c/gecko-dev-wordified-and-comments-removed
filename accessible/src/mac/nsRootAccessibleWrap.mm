@@ -476,13 +476,6 @@ nsIViewManager
 .
 h
 "
-#
-import
-"
-mozAccessibleWrapper
-.
-h
-"
 nsRootAccessibleWrap
 :
 :
