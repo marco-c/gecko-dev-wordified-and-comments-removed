@@ -1164,6 +1164,12 @@ if
 xhr
 .
 response
+|
+|
+!
+xhr
+.
+response
 .
 location
 )
