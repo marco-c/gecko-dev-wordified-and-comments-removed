@@ -315,7 +315,7 @@ FileFace
 appFaceHandle
 )
 ;
-char
+void
 *
 tbl
 ;
@@ -373,10 +373,7 @@ return
 ;
 tbl
 =
-gralloc
-<
-char
->
+malloc
 (
 tbl_len
 )

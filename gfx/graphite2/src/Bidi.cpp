@@ -51,7 +51,7 @@ AL
 EN
 =
 4
-ES
+EUS
 =
 5
 ET
@@ -60,7 +60,7 @@ ET
 AN
 =
 7
-CS
+CUS
 =
 8
 WS
