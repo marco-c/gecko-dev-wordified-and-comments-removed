@@ -6506,6 +6506,12 @@ char
 fname
 )
 {
+return
+FALSE
+;
+#
+if
+0
 const
 char
 *
@@ -6642,6 +6648,8 @@ return
 TRUE
 )
 ;
+#
+endif
 }
 int
 subsmanager_handle_ev_app_subscribe_register
