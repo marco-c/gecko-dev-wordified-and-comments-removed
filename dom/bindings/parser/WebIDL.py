@@ -7176,6 +7176,14 @@ callback
 union
 '
         
+'
+sequence
+'
+        
+'
+array
+'
+        
 )
     
 def
@@ -7583,13 +7591,6 @@ IDLType
 Tags
 .
 any
-and
-not
-self
-.
-isSequence
-(
-)
     
 def
 isDate
@@ -8879,13 +8880,11 @@ self
 :
         
 return
-self
+IDLType
 .
-inner
+Tags
 .
-tag
-(
-)
+sequence
     
 def
 resolveType
@@ -10119,13 +10118,11 @@ self
 :
         
 return
-self
+IDLType
 .
-inner
+Tags
 .
-tag
-(
-)
+array
     
 def
 resolveType
@@ -27518,10 +27515,29 @@ TypeSuffix
 "
 "
         
-assert
-False
-        
-pass
+p
+[
+0
+]
+=
+self
+.
+handleModifiers
+(
+BuiltinTypes
+[
+IDLBuiltinType
+.
+Types
+.
+date
+]
+                                    
+p
+[
+2
+]
+)
     
 def
 p_ConstType
