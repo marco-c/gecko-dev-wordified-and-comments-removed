@@ -122,6 +122,10 @@ test_overwrite
 .
 html
 \
+test_diskSpace
+.
+html
+\
 test_dotdot
 .
 html
