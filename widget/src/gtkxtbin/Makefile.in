@@ -491,8 +491,6 @@ DEFINES
 =
 -
 D_IMPL_GTKXTBIN_API
--
-DUSE_XIM
 ifeq
 (
 (

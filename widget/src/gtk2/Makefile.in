@@ -520,6 +520,10 @@ nsAccelerometerUnix
 .
 cpp
 \
+nsGtkIMModule
+.
+cpp
+\
 (
 NULL
 )
@@ -745,11 +749,6 @@ MOZ_GCONF_CFLAGS
 )
 endif
 endif
-DEFINES
-+
-=
--
-DUSE_XIM
 DEFINES
 +
 =
