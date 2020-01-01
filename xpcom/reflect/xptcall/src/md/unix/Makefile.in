@@ -3412,6 +3412,13 @@ OS_TEST
 )
 ifdef
 HAVE_64BIT_OS
+ASFLAGS
++
+=
+-
+xarch
+=
+v9
 CPPSRCS
 :
 =
