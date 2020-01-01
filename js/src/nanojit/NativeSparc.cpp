@@ -773,7 +773,7 @@ ins
 >
 isop
 (
-LIR_fcall
+LIR_calld
 )
 ?
 F0
@@ -843,7 +843,7 @@ ins
 >
 isop
 (
-LIR_pcall
+LIR_callp
 )
 |
 |
@@ -852,7 +852,7 @@ ins
 >
 isop
 (
-LIR_fcall
+LIR_calld
 )
 )
 ;
@@ -1362,7 +1362,7 @@ ins
 >
 isop
 (
-LIR_alloc
+LIR_allocp
 )
 ;
 }
@@ -1390,7 +1390,7 @@ i
 >
 isop
 (
-LIR_alloc
+LIR_allocp
 )
 )
 {
@@ -1511,12 +1511,12 @@ case
 LIR_sti
 :
 case
-LIR_stb
+LIR_sti2c
 :
 break
 ;
 case
-LIR_sts
+LIR_sti2s
 :
 NanoAssertMsg
 (
@@ -1606,7 +1606,7 @@ rb
 break
 ;
 case
-LIR_stb
+LIR_sti2c
 :
 STB32
 (
@@ -1696,7 +1696,7 @@ rb
 break
 ;
 case
-LIR_stb
+LIR_sti2c
 :
 STB32
 (
@@ -1791,12 +1791,12 @@ opcode
 )
 {
 case
-LIR_ldf
+LIR_ldd
 :
 break
 ;
 case
-LIR_ld32f
+LIR_ldf2d
 :
 NanoAssertMsg
 (
@@ -1887,7 +1887,7 @@ base
 >
 isop
 (
-LIR_alloc
+LIR_allocp
 )
 )
 {
@@ -1995,12 +1995,12 @@ op
 )
 {
 case
-LIR_stfi
+LIR_std
 :
 break
 ;
 case
-LIR_st32f
+LIR_std2f
 :
 NanoAssertMsg
 (
@@ -2109,7 +2109,7 @@ value
 >
 isop
 (
-LIR_ldf
+LIR_ldd
 )
 )
 {
@@ -2131,7 +2131,7 @@ base
 >
 isop
 (
-LIR_alloc
+LIR_allocp
 )
 )
 {
@@ -2180,7 +2180,7 @@ base
 >
 isop
 (
-LIR_alloc
+LIR_allocp
 )
 )
 {
@@ -2455,7 +2455,7 @@ if
 condop
 =
 =
-LIR_eq
+LIR_eqi
 )
 BNE
 (
@@ -2469,7 +2469,7 @@ if
 condop
 =
 =
-LIR_lt
+LIR_lti
 )
 BGE
 (
@@ -2483,7 +2483,7 @@ if
 condop
 =
 =
-LIR_le
+LIR_lei
 )
 BG
 (
@@ -2497,7 +2497,7 @@ if
 condop
 =
 =
-LIR_gt
+LIR_gti
 )
 BLE
 (
@@ -2511,7 +2511,7 @@ if
 condop
 =
 =
-LIR_ge
+LIR_gei
 )
 BL
 (
@@ -2525,7 +2525,7 @@ if
 condop
 =
 =
-LIR_ult
+LIR_ltui
 )
 BCC
 (
@@ -2539,7 +2539,7 @@ if
 condop
 =
 =
-LIR_ule
+LIR_leui
 )
 BGU
 (
@@ -2553,7 +2553,7 @@ if
 condop
 =
 =
-LIR_ugt
+LIR_gtui
 )
 BLEU
 (
@@ -2576,7 +2576,7 @@ if
 condop
 =
 =
-LIR_eq
+LIR_eqi
 )
 BE
 (
@@ -2590,7 +2590,7 @@ if
 condop
 =
 =
-LIR_lt
+LIR_lti
 )
 BL
 (
@@ -2604,7 +2604,7 @@ if
 condop
 =
 =
-LIR_le
+LIR_lei
 )
 BLE
 (
@@ -2618,7 +2618,7 @@ if
 condop
 =
 =
-LIR_gt
+LIR_gti
 )
 BG
 (
@@ -2632,7 +2632,7 @@ if
 condop
 =
 =
-LIR_ge
+LIR_gei
 )
 BGE
 (
@@ -2646,7 +2646,7 @@ if
 condop
 =
 =
-LIR_ult
+LIR_ltui
 )
 BCS
 (
@@ -2660,7 +2660,7 @@ if
 condop
 =
 =
-LIR_ule
+LIR_leui
 )
 BLEU
 (
@@ -2674,7 +2674,7 @@ if
 condop
 =
 =
-LIR_ugt
+LIR_gtui
 )
 BGU
 (
@@ -2884,7 +2884,7 @@ cond
 >
 isop
 (
-LIR_eq
+LIR_eqi
 )
 )
 {
@@ -2985,7 +2985,7 @@ if
 condop
 =
 =
-LIR_feq
+LIR_eqd
 )
 MOVFEI
 (
@@ -3002,7 +3002,7 @@ if
 condop
 =
 =
-LIR_fle
+LIR_led
 )
 MOVFLEI
 (
@@ -3019,7 +3019,7 @@ if
 condop
 =
 =
-LIR_flt
+LIR_ltd
 )
 MOVFLI
 (
@@ -3036,7 +3036,7 @@ if
 condop
 =
 =
-LIR_fge
+LIR_ged
 )
 MOVFGEI
 (
@@ -3109,7 +3109,7 @@ if
 op
 =
 =
-LIR_eq
+LIR_eqi
 )
 MOVEI
 (
@@ -3126,7 +3126,7 @@ if
 op
 =
 =
-LIR_lt
+LIR_lti
 )
 MOVLI
 (
@@ -3143,7 +3143,7 @@ if
 op
 =
 =
-LIR_le
+LIR_lei
 )
 MOVLEI
 (
@@ -3160,7 +3160,7 @@ if
 op
 =
 =
-LIR_gt
+LIR_gti
 )
 MOVGI
 (
@@ -3177,7 +3177,7 @@ if
 op
 =
 =
-LIR_ge
+LIR_gei
 )
 MOVGEI
 (
@@ -3194,7 +3194,7 @@ if
 op
 =
 =
-LIR_ult
+LIR_ltui
 )
 MOVCSI
 (
@@ -3211,7 +3211,7 @@ if
 op
 =
 =
-LIR_ule
+LIR_leui
 )
 MOVLEUI
 (
@@ -3228,7 +3228,7 @@ if
 op
 =
 =
-LIR_ugt
+LIR_gtui
 )
 MOVGUI
 (
@@ -3324,13 +3324,13 @@ forceReg
 op
 =
 =
-LIR_mul
+LIR_muli
 |
 |
 op
 =
 =
-LIR_mulxov
+LIR_mulxovi
 |
 |
 !
@@ -3394,13 +3394,13 @@ if
 op
 =
 =
-LIR_add
+LIR_addi
 |
 |
 op
 =
 =
-LIR_addxov
+LIR_addxovi
 )
 &
 &
@@ -3409,7 +3409,7 @@ lhs
 >
 isop
 (
-LIR_alloc
+LIR_allocp
 )
 &
 &
@@ -3515,13 +3515,13 @@ if
 op
 =
 =
-LIR_add
+LIR_addi
 |
 |
 op
 =
 =
-LIR_addxov
+LIR_addxovi
 )
 ADDCC
 (
@@ -3536,13 +3536,13 @@ if
 op
 =
 =
-LIR_sub
+LIR_subi
 |
 |
 op
 =
 =
-LIR_subxov
+LIR_subxovi
 )
 SUBCC
 (
@@ -3557,13 +3557,13 @@ if
 op
 =
 =
-LIR_mul
+LIR_muli
 |
 |
 op
 =
 =
-LIR_mulxov
+LIR_mulxovi
 )
 MULX
 (
@@ -3578,7 +3578,7 @@ if
 op
 =
 =
-LIR_and
+LIR_andi
 )
 AND
 (
@@ -3593,7 +3593,7 @@ if
 op
 =
 =
-LIR_or
+LIR_ori
 )
 OR
 (
@@ -3608,7 +3608,7 @@ if
 op
 =
 =
-LIR_xor
+LIR_xori
 )
 XOR
 (
@@ -3623,7 +3623,7 @@ if
 op
 =
 =
-LIR_lsh
+LIR_lshi
 )
 SLL
 (
@@ -3638,7 +3638,7 @@ if
 op
 =
 =
-LIR_rsh
+LIR_rshi
 )
 SRA
 (
@@ -3653,7 +3653,7 @@ if
 op
 =
 =
-LIR_ush
+LIR_rshui
 )
 SRL
 (
@@ -3689,13 +3689,13 @@ if
 op
 =
 =
-LIR_add
+LIR_addi
 |
 |
 op
 =
 =
-LIR_addxov
+LIR_addxovi
 )
 ADDCC
 (
@@ -3710,13 +3710,13 @@ if
 op
 =
 =
-LIR_sub
+LIR_subi
 |
 |
 op
 =
 =
-LIR_subxov
+LIR_subxovi
 )
 SUBCC
 (
@@ -3731,7 +3731,7 @@ if
 op
 =
 =
-LIR_and
+LIR_andi
 )
 AND
 (
@@ -3746,7 +3746,7 @@ if
 op
 =
 =
-LIR_or
+LIR_ori
 )
 OR
 (
@@ -3761,7 +3761,7 @@ if
 op
 =
 =
-LIR_xor
+LIR_xori
 )
 XOR
 (
@@ -3776,7 +3776,7 @@ if
 op
 =
 =
-LIR_lsh
+LIR_lshi
 )
 SLL
 (
@@ -3791,7 +3791,7 @@ if
 op
 =
 =
-LIR_rsh
+LIR_rshi
 )
 SRA
 (
@@ -3806,7 +3806,7 @@ if
 op
 =
 =
-LIR_ush
+LIR_rshui
 )
 SRL
 (
@@ -3922,7 +3922,7 @@ if
 op
 =
 =
-LIR_not
+LIR_noti
 )
 ORN
 (
@@ -4025,7 +4025,7 @@ op
 )
 {
 case
-LIR_ldzb
+LIR_lduc2ui
 :
 LDUB32
 (
@@ -4037,7 +4037,7 @@ rr
 break
 ;
 case
-LIR_ldzs
+LIR_ldus2ui
 :
 LDUH32
 (
@@ -4049,7 +4049,7 @@ rr
 break
 ;
 case
-LIR_ld
+LIR_ldi
 :
 LDSW32
 (
@@ -4061,10 +4061,10 @@ rr
 break
 ;
 case
-LIR_ldsb
+LIR_ldc2i
 :
 case
-LIR_ldss
+LIR_lds2i
 :
 NanoAssertMsg
 (
@@ -4175,7 +4175,7 @@ NanoAssert
 op
 =
 =
-LIR_cmov
+LIR_cmovi
 &
 &
 iftrue
@@ -4225,7 +4225,7 @@ if
 op
 =
 =
-LIR_cmov
+LIR_cmovi
 )
 {
 switch
@@ -4239,7 +4239,7 @@ opcode
 )
 {
 case
-LIR_eq
+LIR_eqi
 :
 MOVNE
 (
@@ -4253,7 +4253,7 @@ rr
 break
 ;
 case
-LIR_lt
+LIR_lti
 :
 MOVGE
 (
@@ -4267,7 +4267,7 @@ rr
 break
 ;
 case
-LIR_le
+LIR_lei
 :
 MOVG
 (
@@ -4281,7 +4281,7 @@ rr
 break
 ;
 case
-LIR_gt
+LIR_gti
 :
 MOVLE
 (
@@ -4295,7 +4295,7 @@ rr
 break
 ;
 case
-LIR_ge
+LIR_gei
 :
 MOVL
 (
@@ -4309,7 +4309,7 @@ rr
 break
 ;
 case
-LIR_ult
+LIR_ltui
 :
 MOVCC
 (
@@ -4323,7 +4323,7 @@ rr
 break
 ;
 case
-LIR_ule
+LIR_leui
 :
 MOVGU
 (
@@ -4337,7 +4337,7 @@ rr
 break
 ;
 case
-LIR_ugt
+LIR_gtui
 :
 MOVLEU
 (
@@ -4351,7 +4351,7 @@ rr
 break
 ;
 case
-LIR_uge
+LIR_geui
 :
 MOVCS
 (
@@ -4790,7 +4790,7 @@ if
 op
 =
 =
-LIR_fadd
+LIR_addd
 )
 FADDD
 (
@@ -4805,7 +4805,7 @@ if
 op
 =
 =
-LIR_fsub
+LIR_subd
 )
 FSUBD
 (
@@ -4820,7 +4820,7 @@ if
 op
 =
 =
-LIR_fmul
+LIR_muld
 )
 FMULD
 (
@@ -5247,7 +5247,7 @@ if
 condop
 =
 =
-LIR_feq
+LIR_eqd
 )
 FBNE
 (
@@ -5261,7 +5261,7 @@ if
 condop
 =
 =
-LIR_fle
+LIR_led
 )
 FBUG
 (
@@ -5275,7 +5275,7 @@ if
 condop
 =
 =
-LIR_flt
+LIR_ltd
 )
 FBUGE
 (
@@ -5289,7 +5289,7 @@ if
 condop
 =
 =
-LIR_fge
+LIR_ged
 )
 FBUL
 (
@@ -5312,7 +5312,7 @@ if
 condop
 =
 =
-LIR_feq
+LIR_eqd
 )
 FBE
 (
@@ -5326,7 +5326,7 @@ if
 condop
 =
 =
-LIR_fle
+LIR_led
 )
 FBLE
 (
@@ -5340,7 +5340,7 @@ if
 condop
 =
 =
-LIR_flt
+LIR_ltd
 )
 FBL
 (
@@ -5354,7 +5354,7 @@ if
 condop
 =
 =
-LIR_fge
+LIR_ged
 )
 FBGE
 (
@@ -5596,7 +5596,7 @@ ins
 >
 isop
 (
-LIR_ret
+LIR_reti
 )
 )
 {
@@ -5619,7 +5619,7 @@ ins
 >
 isop
 (
-LIR_fret
+LIR_retd
 )
 )
 ;
