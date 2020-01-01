@@ -541,10 +541,6 @@ nsAgg
 .
 h
 \
-nsAutoPtr
-.
-h
-\
 nsAutoRef
 .
 h
@@ -647,6 +643,10 @@ nsrootidl
 idl
 SDK_HEADERS
 =
+\
+nsAutoPtr
+.
+h
 \
 nsError
 .
