@@ -2997,12 +2997,8 @@ DestroyContent
 (
 )
 {
-nsContentUtils
-:
-:
 ReleaseWrapper
 (
-this
 this
 )
 ;
