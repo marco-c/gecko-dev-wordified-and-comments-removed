@@ -801,7 +801,7 @@ PR_TRUE
 mFrame
 -
 >
-EnsureEditorInitialized
+EnsureEditorInitializedInternal
 (
 )
 ;
@@ -1013,6 +1013,12 @@ UpdatePlaceholderText
 (
 PRBool
 aNotify
+)
+;
+virtual
+nsresult
+EnsureEditorInitializedInternal
+(
 )
 ;
 private
