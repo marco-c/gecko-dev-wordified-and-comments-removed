@@ -8754,6 +8754,14 @@ true
 "
 )
 ;
+this
+.
+clickToPlay
+.
+hidden
+=
+true
+;
 }
 else
 {
