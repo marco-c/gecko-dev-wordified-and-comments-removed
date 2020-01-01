@@ -10,14 +10,14 @@ define
 JSVAL_HOLE
 BOOLEAN_TO_JSVAL
 (
-2
+3
 )
 #
 define
 JSVAL_ARETURN
 BOOLEAN_TO_JSVAL
 (
-3
+4
 )
 extern
 JSClass

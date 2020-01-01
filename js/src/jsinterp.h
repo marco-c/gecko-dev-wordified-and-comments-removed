@@ -1541,10 +1541,11 @@ thisv
 (
 JS_ASSERT
 (
-thisv
 !
-=
-JSVAL_VOID
+JSVAL_IS_VOID
+(
+thisv
+)
 )
 \
 JSFUN_THISP_TEST

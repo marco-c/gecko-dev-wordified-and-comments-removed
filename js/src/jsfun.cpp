@@ -8689,6 +8689,8 @@ NULL
 }
 JS_ASSERT
 (
+JSVAL_IS_VOID
+(
 funobj
 -
 >
@@ -8696,9 +8698,7 @@ fslots
 [
 JSSLOT_PRIVATE
 ]
-=
-=
-JSVAL_VOID
+)
 )
 ;
 fun
