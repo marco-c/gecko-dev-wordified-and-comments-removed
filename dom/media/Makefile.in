@@ -192,6 +192,17 @@ DIRS
 =
 bridge
 endif
+TEST_DIRS
++
+=
+\
+tests
+/
+mochitest
+\
+(
+NULL
+)
 include
 (
 topsrcdir

@@ -335,12 +335,6 @@ bindings
 /
 test
 \
-media
-/
-tests
-/
-mochitest
-\
 (
 NULL
 )
