@@ -247,6 +247,10 @@ NodeList
 .
 webidl
 \
+PaintRequest
+.
+webidl
+\
 PaintRequestList
 .
 webidl

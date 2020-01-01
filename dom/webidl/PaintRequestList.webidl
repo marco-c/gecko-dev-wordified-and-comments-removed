@@ -92,9 +92,6 @@ MPL
 *
 /
 interface
-PaintRequest
-;
-interface
 PaintRequestList
 {
 readonly
