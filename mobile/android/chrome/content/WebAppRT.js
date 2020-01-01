@@ -138,7 +138,7 @@ false
 )
 #
 expand
-user_pref
+pref
 (
 "
 toolkit
@@ -151,7 +151,7 @@ __MOZ_TELEMETRY_DISPLAY_REV__
 )
 #
 expand
-user_pref
+pref
 (
 "
 toolkit
