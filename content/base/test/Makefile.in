@@ -1423,6 +1423,10 @@ file_xhtmlserializer_2_latin1
 .
 xhtml
 \
+test_bug500937
+.
+html
+\
 test_htmlcopyencoder
 .
 html

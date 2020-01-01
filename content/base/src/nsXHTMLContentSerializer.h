@@ -70,7 +70,7 @@ aCharSet
 PRBool
 aIsCopying
 PRBool
-aIsWholeDocument
+aRewriteEncodingDeclaration
 )
 ;
 NS_IMETHOD
@@ -442,7 +442,7 @@ PRInt32
 mDisableEntityEncoding
 ;
 PRPackedBool
-mIsWholeDocument
+mRewriteEncodingDeclaration
 ;
 PRPackedBool
 mIsFirstChildOfOL
