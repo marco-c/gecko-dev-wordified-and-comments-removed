@@ -101,7 +101,6 @@ DIRS
 +
 =
 dbus
-socket
 endif
 #
 }
@@ -116,6 +115,19 @@ DIRS
 +
 =
 netd
+unixsocket
+endif
+ifeq
+(
+(
+OS_ARCH
+)
+Linux
+)
+DIRS
++
+=
+unixsocket
 endif
 TOOL_DIRS
 =
