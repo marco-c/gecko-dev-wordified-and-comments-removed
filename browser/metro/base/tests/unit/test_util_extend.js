@@ -5,11 +5,11 @@ strict
 ;
 load
 (
-'
+"
 Util
 .
 js
-'
+"
 )
 ;
 function
