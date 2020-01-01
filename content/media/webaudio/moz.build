@@ -253,6 +253,11 @@ MediaStreamAudioDestinationNode
 h
 '
 '
+MediaStreamAudioSourceNode
+.
+h
+'
+'
 OfflineAudioCompletionEvent
 .
 h
@@ -374,6 +379,11 @@ cpp
 '
 '
 MediaStreamAudioDestinationNode
+.
+cpp
+'
+'
+MediaStreamAudioSourceNode
 .
 cpp
 '
