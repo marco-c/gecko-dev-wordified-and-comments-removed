@@ -135,6 +135,17 @@ aDidInstall
 const
 ;
 nsresult
+InstallAccessors
+(
+JSContext
+*
+aCx
+JSObject
+*
+aTargetClassObject
+)
+;
+nsresult
 Read
 (
 nsIScriptContext
