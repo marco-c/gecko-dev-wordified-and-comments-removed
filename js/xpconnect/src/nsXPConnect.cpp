@@ -9193,7 +9193,7 @@ global
 )
 -
 >
-SetLocation
+SetLocationURI
 (
 locationURI
 )
