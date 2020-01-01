@@ -493,6 +493,10 @@ MediaEngineWebRTCAudioSource
 :
 Allocate
 (
+const
+MediaEnginePrefs
+&
+aPrefs
 )
 {
 if
