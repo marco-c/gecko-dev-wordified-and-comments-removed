@@ -5028,14 +5028,6 @@ ToNearestPixels
 appUnitsPerDevPixel
 )
 ;
-mInnerView
--
->
-CalcWidgetBounds
-(
-eWindowType_plugin
-)
-;
 nsRegionRectIterator
 iter
 (
