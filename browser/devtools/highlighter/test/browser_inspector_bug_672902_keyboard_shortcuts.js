@@ -562,11 +562,15 @@ element
 "
 )
 ;
-synthesizeKeyFromKeyTag
+EventUtils
+.
+synthesizeKey
 (
 "
-key_inspect
+VK_RETURN
 "
+{
+}
 )
 ;
 executeSoon
