@@ -3,7 +3,7 @@ ifndef
 mozilla_msvc_raise_wrappers_h
 #
 define
-mozilla_msvc_throw_wrappers_h
+mozilla_msvc_raise_wrappers_h
 #
 ifdef
 _XSTDDEF_
