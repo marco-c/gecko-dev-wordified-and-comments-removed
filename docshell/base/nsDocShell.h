@@ -878,6 +878,9 @@ aURI
 nsIChannel
 *
 aChannel
+nsISupports
+*
+aOwner
 PRUint32
 aLoadType
 PRBool
@@ -916,6 +919,9 @@ aURI
 nsIChannel
 *
 aChannel
+nsISupports
+*
+aOwner
 nsISHEntry
 *
 *
