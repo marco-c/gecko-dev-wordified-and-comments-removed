@@ -417,6 +417,13 @@ InvalidateChildren
 (
 )
 ;
+virtual
+KeyBinding
+AccessKey
+(
+)
+const
+;
 protected
 :
 virtual
