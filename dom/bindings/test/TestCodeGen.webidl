@@ -3242,9 +3242,6 @@ yetAnotherStr
 =
 null
 ;
-DOMString
-template
-;
 }
 ;
 dictionary

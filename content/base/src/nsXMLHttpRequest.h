@@ -678,10 +678,10 @@ InitParameters
 (
 aParams
 .
-mMozAnon
+mozAnon
 aParams
 .
-mMozSystem
+mozSystem
 )
 ;
 return
