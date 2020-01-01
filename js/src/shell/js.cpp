@@ -25959,9 +25959,13 @@ sameZoneAs
 JS
 :
 :
-ZoneSpecifier
-spec
-=
+CompartmentOptions
+options
+;
+options
+.
+setZone
+(
 sameZoneAs
 ?
 JS
@@ -25976,6 +25980,7 @@ JS
 :
 :
 FreshZone
+)
 ;
 RootedObject
 glob
@@ -25987,7 +25992,7 @@ cx
 &
 global_class
 NULL
-spec
+options
 )
 )
 ;

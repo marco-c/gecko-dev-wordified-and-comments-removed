@@ -13441,9 +13441,13 @@ principal
 JS
 :
 :
-ZoneSpecifier
-zoneSpec
-=
+CompartmentOptions
+compartmentOptions
+;
+compartmentOptions
+.
+setZone
+(
 options
 .
 sameZoneAs
@@ -13468,6 +13472,7 @@ JS
 :
 :
 SystemZone
+)
 ;
 RootedObject
 sandbox
@@ -13482,7 +13487,7 @@ cx
 &
 SandboxClass
 principal
-zoneSpec
+compartmentOptions
 )
 )
 ;
