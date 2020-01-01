@@ -305,16 +305,6 @@ target
 )
 ;
 }
-void
-Init
-(
-JSContext
-*
-aCx
-=
-nullptr
-)
-;
 bool
 HasListenersFor
 (

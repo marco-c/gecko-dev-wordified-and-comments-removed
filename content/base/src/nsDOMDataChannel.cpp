@@ -473,13 +473,6 @@ rv
 nsAutoString
 urlParam
 ;
-nsDOMEventTargetHelper
-:
-:
-Init
-(
-)
-;
 MOZ_ASSERT
 (
 mDataChannel
