@@ -27331,6 +27331,7 @@ SetOwner
 aOwner
 )
 ;
+}
 nsCOMPtr
 <
 nsIScriptChannel
@@ -27358,7 +27359,6 @@ nsIScriptChannel
 EXECUTE_NORMAL
 )
 ;
-}
 }
 if
 (

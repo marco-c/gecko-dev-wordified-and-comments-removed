@@ -521,6 +521,10 @@ test_bug352728
 .
 xhtml
 \
+test_bug353334
+.
+html
+\
 test_bug355026
 .
 html
