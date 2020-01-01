@@ -1029,8 +1029,6 @@ setHeader
 "
 x
 -
-weave
--
 if
 -
 unmodified
