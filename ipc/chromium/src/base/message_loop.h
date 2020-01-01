@@ -1305,6 +1305,13 @@ MessagePumpLibevent
 FileDescriptorWatcher
 FileDescriptorWatcher
 ;
+typedef
+base
+:
+:
+LineWatcher
+LineWatcher
+;
 enum
 Mode
 {
