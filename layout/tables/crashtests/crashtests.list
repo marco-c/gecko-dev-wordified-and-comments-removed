@@ -484,6 +484,10 @@ load
 1
 .
 xhtml
+asserts
+(
+2
+)
 load
 408753
 -
@@ -528,6 +532,10 @@ load
 3
 .
 html
+asserts
+(
+12
+)
 load
 420654
 -
