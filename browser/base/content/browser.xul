@@ -2649,7 +2649,7 @@ history
 autocompletepopup
 =
 "
-PopupAutoComplete
+PopupAutoCompleteRichResult
 "
 completeselectedindex
 =
