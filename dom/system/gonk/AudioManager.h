@@ -151,9 +151,6 @@ AudioChannelAgent
 >
 mPhoneAudioAgent
 ;
-bool
-mFMChannelIsMuted
-;
 }
 ;
 }
