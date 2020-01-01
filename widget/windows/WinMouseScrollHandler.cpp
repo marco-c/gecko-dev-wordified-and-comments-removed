@@ -37,6 +37,13 @@ h
 #
 include
 "
+nsGkAtoms
+.
+h
+"
+#
+include
+"
 mozilla
 /
 Preferences
