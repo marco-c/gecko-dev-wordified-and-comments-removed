@@ -14,6 +14,13 @@ h
 #
 include
 "
+nsISupportsImpl
+.
+h
+"
+#
+include
+"
 gfxPattern
 .
 h
@@ -75,7 +82,7 @@ class
 THEBES_API
 Image
 {
-THEBES_INLINE_DECL_THREADSAFE_REFCOUNTING
+NS_INLINE_DECL_THREADSAFE_REFCOUNTING
 (
 Image
 )
@@ -149,7 +156,7 @@ class
 THEBES_API
 ImageContainer
 {
-THEBES_INLINE_DECL_THREADSAFE_REFCOUNTING
+NS_INLINE_DECL_THREADSAFE_REFCOUNTING
 (
 ImageContainer
 )
