@@ -188,7 +188,7 @@ fail
 to
 build
 firefox
-plase
+please
 upgrade
 .
 exit

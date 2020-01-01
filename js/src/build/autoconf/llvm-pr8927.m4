@@ -247,7 +247,7 @@ compiler
 would
 miscompile
 firefox
-plase
+please
 upgrade
 .
 echo
