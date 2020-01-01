@@ -480,6 +480,10 @@ test_async_callbacks_with_spun_event_loops
 .
 cpp
 \
+test_file_perms
+.
+cpp
+\
 (
 NULL
 )
