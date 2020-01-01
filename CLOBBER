@@ -136,11 +136,10 @@ users
 .
 #
 Bug
-755724
+836654
 -
-Move
-browser
-application
-in
-a
-subdirectory
+IndexedDB
+test
+failures
+without
+clobber
