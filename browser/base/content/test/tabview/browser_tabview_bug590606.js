@@ -302,6 +302,7 @@ groupItemTwo
 "
 )
 ;
+let
 tabItem
 =
 contentWindow

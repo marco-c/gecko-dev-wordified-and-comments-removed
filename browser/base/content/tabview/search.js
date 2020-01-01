@@ -782,6 +782,7 @@ win
 currentWindow
 )
 {
+let
 tvWindow
 =
 win

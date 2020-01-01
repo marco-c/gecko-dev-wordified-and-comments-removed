@@ -3538,6 +3538,9 @@ var
 startSize
 ;
 var
+startAspect
+;
+var
 handleMouseMove
 =
 function

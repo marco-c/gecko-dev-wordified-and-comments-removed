@@ -6806,6 +6806,7 @@ oldDropIndex
 oldDropIndex
 }
 ;
+let
 newDropIndex
 =
 self
