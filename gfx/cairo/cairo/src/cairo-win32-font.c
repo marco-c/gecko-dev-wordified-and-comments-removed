@@ -9303,6 +9303,12 @@ base
 _cairo_win32_font_face_backend
 )
 ;
+if
+(
+!
+font
+)
+{
 assert
 (
 font_face
@@ -9324,12 +9330,6 @@ hash_entry
 hash
 )
 ;
-if
-(
-!
-font
-)
-{
 status
 =
 _cairo_hash_table_insert
