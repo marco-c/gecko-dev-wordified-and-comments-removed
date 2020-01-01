@@ -403,19 +403,6 @@ dimen
 name
 =
 "
-local_tab_row_height
-"
->
-108dp
-<
-/
-dimen
->
-<
-dimen
-name
-=
-"
 menu_item_row_height
 "
 >
@@ -627,7 +614,7 @@ name
 tab_thumbnail_height
 "
 >
-78dp
+90dp
 <
 /
 dimen
@@ -640,7 +627,7 @@ name
 tab_thumbnail_width
 "
 >
-136dp
+160dp
 <
 /
 dimen
