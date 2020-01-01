@@ -523,9 +523,6 @@ expectedInvokedMethods
 urlSecurityCheck
 "
 "
-getShortcutOrURI
-"
-"
 loadURI
 "
 ]
