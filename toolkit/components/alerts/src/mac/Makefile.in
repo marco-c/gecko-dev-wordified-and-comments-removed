@@ -446,6 +446,8 @@ necko
 \
 xulapp
 \
+intl
+\
 (
 NULL
 )

@@ -38,6 +38,10 @@ nsAlertsImageLoadListener
 const
 nsAString
 &
+aName
+const
+nsAString
+&
 aAlertTitle
 const
 nsAString
@@ -57,6 +61,9 @@ NS_DECL_ISUPPORTS
 NS_DECL_NSISTREAMLOADEROBSERVER
 private
 :
+nsString
+mName
+;
 nsString
 mAlertTitle
 ;

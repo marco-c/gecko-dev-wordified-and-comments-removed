@@ -444,6 +444,10 @@ nsAlertsImageLoadListener
 const
 nsAString
 &
+aName
+const
+nsAString
+&
 aAlertTitle
 const
 nsAString
@@ -459,6 +463,10 @@ PRUint32
 aAlertListenerKey
 )
 :
+mName
+(
+aName
+)
 mAlertTitle
 (
 aAlertTitle
@@ -614,7 +622,10 @@ get
 endif
 [
 mozGrowlDelegate
-notifyWithTitle
+notifyWithName
+:
+mName
+title
 :
 mAlertTitle
 description
