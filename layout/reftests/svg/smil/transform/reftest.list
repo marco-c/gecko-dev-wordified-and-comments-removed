@@ -253,6 +253,14 @@ svg
 lime
 .
 svg
+fuzzy
+-
+if
+(
+Android
+4
+46
+)
 =
 =
 translate
