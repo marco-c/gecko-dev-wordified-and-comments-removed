@@ -29,6 +29,17 @@ h
 #
 include
 "
+mozilla
+/
+layers
+/
+APZCTreeManager
+.
+h
+"
+#
+include
+"
 base
 /
 task
