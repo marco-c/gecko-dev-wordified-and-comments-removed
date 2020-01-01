@@ -876,12 +876,9 @@ rs
 >
 mURL
 .
-Append
-(
-nsDependentCString
+Assign
 (
 http_protocol_variant
-)
 )
 ;
 rs
@@ -951,10 +948,7 @@ rs
 >
 mRequestMethod
 =
-nsDependentCString
-(
 http_request_method
-)
 ;
 *
 pRequest
