@@ -179,12 +179,6 @@ aIndex
 NS_DECL_NSIACCESSIBLEAPPLICATION
 virtual
 void
-Init
-(
-)
-;
-virtual
-void
 Shutdown
 (
 )

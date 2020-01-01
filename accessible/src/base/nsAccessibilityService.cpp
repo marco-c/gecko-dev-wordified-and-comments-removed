@@ -4986,13 +4986,6 @@ NS_ADDREF
 gApplicationAccessible
 )
 ;
-gApplicationAccessible
--
->
-Init
-(
-)
-;
 nsAccessNodeWrap
 :
 :

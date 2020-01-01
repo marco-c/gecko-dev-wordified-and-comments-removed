@@ -227,12 +227,6 @@ aY
 NS_DECL_NSIDOCUMENTOBSERVER
 virtual
 void
-Init
-(
-)
-;
-virtual
-void
 Shutdown
 (
 )
@@ -858,12 +852,6 @@ LastRelease
 virtual
 void
 CacheChildren
-(
-)
-;
-virtual
-nsresult
-AddEventListeners
 (
 )
 ;
