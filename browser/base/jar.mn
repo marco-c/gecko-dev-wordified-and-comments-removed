@@ -354,7 +354,6 @@ aboutHome
 .
 xhtml
 )
-*
 content
 /
 browser
@@ -1157,6 +1156,7 @@ pageInfo
 .
 xul
 )
+*
 content
 /
 browser
