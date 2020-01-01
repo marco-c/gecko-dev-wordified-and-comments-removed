@@ -4112,7 +4112,7 @@ getString
 "
 saveSearch
 .
-defaultText
+inputDefaultText
 "
 )
 ;
