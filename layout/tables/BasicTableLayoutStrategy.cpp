@@ -511,7 +511,7 @@ NS_STYLE_WIDTH_FILL
 )
 maxWidth
 .
-Reset
+SetNoneValue
 (
 )
 ;
