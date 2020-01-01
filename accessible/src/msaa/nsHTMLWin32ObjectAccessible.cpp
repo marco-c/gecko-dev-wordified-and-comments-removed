@@ -154,6 +154,11 @@ nsnull
 nsnull
 )
 {
+mFlags
+|
+=
+eIsDefunct
+;
 mHwnd
 =
 aHwnd
