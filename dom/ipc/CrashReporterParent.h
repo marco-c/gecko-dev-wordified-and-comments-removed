@@ -127,6 +127,18 @@ AnnotationTable
 processNotes
 )
 ;
+bool
+GenerateCrashReportForMinidump
+(
+nsIFile
+*
+minidump
+const
+AnnotationTable
+*
+processNotes
+)
+;
 template
 <
 class
@@ -435,6 +447,7 @@ getter_AddRefs
 (
 crashDump
 )
+NULL
 )
 &
 &

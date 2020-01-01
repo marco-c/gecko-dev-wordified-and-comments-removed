@@ -417,6 +417,9 @@ nsIFile
 *
 *
 aDump
+PRUint32
+*
+aSequence
 )
 )
 XRE_API

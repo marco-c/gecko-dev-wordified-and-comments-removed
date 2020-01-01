@@ -324,6 +324,11 @@ bool
 aSubmitReport
 )
 ;
+void
+OOPInit
+(
+)
+;
 bool
 TakeMinidumpForChild
 (
@@ -334,6 +339,11 @@ nsIFile
 *
 dump
 NS_OUTPARAM
+PRUint32
+*
+aSequence
+=
+NULL
 )
 ;
 #
@@ -442,10 +452,6 @@ OnCrash
 (
 DWORD
 processID
-const
-nsAString
-&
-aDumpID
 )
 =
 0
