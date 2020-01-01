@@ -5214,7 +5214,6 @@ state
 reflowState
 aPresContext
 this
-aMetrics
 topMarginRoot
 bottomMarginRoot
 needFloatManager

@@ -111,10 +111,6 @@ aPresContext
 nsBlockFrame
 *
 aFrame
-const
-nsHTMLReflowMetrics
-&
-aMetrics
 bool
 aTopMarginRoot
 bool
