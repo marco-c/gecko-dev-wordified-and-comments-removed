@@ -268,6 +268,11 @@ charBuffer
 PRInt32
 charBufferLen
 ;
+private
+:
+PRBool
+quirks
+;
 public
 :
 void
@@ -654,6 +659,14 @@ group
 ;
 void
 addAttributesToBody
+(
+nsHtml5HtmlAttributes
+*
+attributes
+)
+;
+void
+addAttributesToHtml
 (
 nsHtml5HtmlAttributes
 *
@@ -1135,6 +1148,8 @@ ns
 nsIContent
 *
 node
+PRBool
+quirks
 )
 ;
 protected

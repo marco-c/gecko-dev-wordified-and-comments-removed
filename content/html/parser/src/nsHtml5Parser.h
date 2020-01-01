@@ -525,6 +525,8 @@ nsIAtom
 aContextLocalName
 PRInt32
 aContextNamespace
+PRBool
+aQuirks
 )
 ;
 NS_IMETHOD
