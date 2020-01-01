@@ -1680,6 +1680,8 @@ challLen
 ;
 nsresult
 rv
+=
+NS_OK
 ;
 if
 (

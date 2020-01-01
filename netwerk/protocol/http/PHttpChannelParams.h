@@ -947,9 +947,14 @@ BeginWriting
 PRUint32
 bytesRead
 ;
+#
+ifdef
+DEBUG
 nsresult
 rv
 =
+#
+endif
 aParam
 -
 >

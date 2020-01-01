@@ -15860,9 +15860,6 @@ ContinueOnStartRequest3
 PRBool
 waitingForRedirectCallback
 ;
-nsresult
-rv
-=
 ProcessFallback
 (
 &
@@ -18432,9 +18429,14 @@ rv
 mTransactionPump
 )
 {
+#
+ifdef
+DEBUG
 nsresult
 resume
 =
+#
+endif
 mTransactionPump
 -
 >
