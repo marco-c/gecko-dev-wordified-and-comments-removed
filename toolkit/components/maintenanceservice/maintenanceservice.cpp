@@ -75,13 +75,6 @@ updatehelper
 .
 h
 "
-#
-include
-"
-prefetch
-.
-h
-"
 SERVICE_STATUS
 gSvcStatus
 =

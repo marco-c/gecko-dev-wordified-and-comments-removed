@@ -109,10 +109,6 @@ registrycertificates
 .
 cpp
 \
-prefetch
-.
-cpp
-\
 (
 NULL
 )
