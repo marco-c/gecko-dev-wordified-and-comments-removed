@@ -158,6 +158,14 @@ gtk2Widget
 70
 119
 )
+fuzzy
+-
+if
+(
+Android
+70
+123
+)
 =
 =
 clipPath
@@ -181,6 +189,8 @@ Bug
 776089
 for
 Linux
+/
+Android
 fuzzy
 -
 if
@@ -188,6 +198,14 @@ if
 gtk2Widget
 70
 119
+)
+fuzzy
+-
+if
+(
+Android
+70
+123
 )
 =
 =
@@ -214,6 +232,8 @@ Bug
 776089
 for
 Linux
+/
+Android
 =
 =
 clipPath
