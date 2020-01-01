@@ -10023,12 +10023,13 @@ jitCtor
 mjit
 :
 :
-ClearAllFrames
+Recompiler
+:
+:
+clearStackReferences
 (
 cx
--
->
-compartment
+this
 )
 ;
 mjit
