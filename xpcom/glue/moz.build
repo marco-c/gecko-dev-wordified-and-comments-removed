@@ -162,11 +162,6 @@ EXPORTS
 =
 [
 '
-MainThreadUtils
-.
-h
-'
-'
 nsArrayEnumerator
 .
 h
