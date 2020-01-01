@@ -55,7 +55,7 @@ OggzDList
 dlist
 )
 ;
-int
+void
 oggz_dlist_append
 (
 OggzDList
@@ -66,7 +66,7 @@ void
 elem
 )
 ;
-int
+void
 oggz_dlist_prepend
 (
 OggzDList

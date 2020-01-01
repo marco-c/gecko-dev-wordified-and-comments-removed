@@ -423,11 +423,6 @@ config
 autoconf
 .
 mk
-DEFINES
-+
-=
--
-DHAVE_CONFIG_H
 MODULE
 =
 oggplay
