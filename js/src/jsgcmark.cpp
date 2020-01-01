@@ -241,12 +241,9 @@ JS_ASSERT
 thing
 -
 >
-arenaHeader
+compartment
 (
 )
--
->
-compartment
 )
 ;
 JS_ASSERT
@@ -254,12 +251,9 @@ JS_ASSERT
 thing
 -
 >
-arenaHeader
+compartment
 (
 )
--
->
-compartment
 -
 >
 rt

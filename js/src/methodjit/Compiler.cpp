@@ -1748,12 +1748,13 @@ label
 )
 )
 ;
-OOL_STUBCALL
+OOL_STUBCALL_LOCAL_SLOTS
 (
 stubs
 :
 :
 HitStackQuota
+0
 )
 ;
 stubcc
