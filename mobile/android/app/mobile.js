@@ -97,10 +97,9 @@ browser
 .
 tabs
 .
-zombieTime
+expireTime
 "
--
-1
+3600
 )
 ;
 pref
