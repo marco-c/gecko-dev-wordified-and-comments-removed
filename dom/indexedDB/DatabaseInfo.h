@@ -284,6 +284,12 @@ name
 nsString
 keyPath
 ;
+nsTArray
+<
+nsString
+>
+keyPathArray
+;
 bool
 unique
 ;
@@ -361,6 +367,12 @@ id
 ;
 nsString
 keyPath
+;
+nsTArray
+<
+nsString
+>
+keyPathArray
 ;
 nsTArray
 <
