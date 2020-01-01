@@ -1169,6 +1169,12 @@ PP_switchToProfile
 (
 profile
 onLoad
+=
+function
+(
+)
+{
+}
 )
 {
 let
