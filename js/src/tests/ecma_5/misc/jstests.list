@@ -25,3 +25,15 @@ numeric
 properties
 .
 js
+script
+redeclare
+-
+var
+-
+non
+-
+writable
+-
+property
+.
+js
