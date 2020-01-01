@@ -1072,9 +1072,11 @@ fp
 >
 varobj
 (
-js_ContainingCallStack
-(
 cx
+-
+>
+containingCallStack
+(
 fp
 )
 )
