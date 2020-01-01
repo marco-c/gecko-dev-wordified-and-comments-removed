@@ -1,3 +1,9 @@
+let
+tmp
+=
+{
+}
+;
 Components
 .
 utils
@@ -16,7 +22,15 @@ contacts
 .
 jsm
 "
+tmp
 )
+;
+let
+Contacts
+=
+tmp
+.
+Contacts
 ;
 let
 fac
