@@ -585,7 +585,7 @@ list
 "
 "
 combobox
-listitem
+option
 "
 "
 image

@@ -1322,7 +1322,7 @@ this
 nsIAccessibleRole
 :
 :
-ROLE_COMBOBOX_LISTITEM
+ROLE_COMBOBOX_OPTION
 )
 {
 PRBool
@@ -2038,7 +2038,7 @@ aRole
 nsIAccessibleRole
 :
 :
-ROLE_COMBOBOX_LISTITEM
+ROLE_COMBOBOX_OPTION
 ;
 return
 NS_OK

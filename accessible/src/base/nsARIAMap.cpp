@@ -608,7 +608,7 @@ listbox
 nsIAccessibleRole
 :
 :
-ROLE_LIST
+ROLE_LISTBOX
 eNameLabelOrTitle
 eNoValue
 kNoReqStates
@@ -899,7 +899,7 @@ option
 nsIAccessibleRole
 :
 :
-ROLE_LISTITEM
+ROLE_OPTION
 eNameOkFromChildren
 eNoValue
 kNoReqStates

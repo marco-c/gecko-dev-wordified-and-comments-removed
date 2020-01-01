@@ -795,7 +795,7 @@ aRole
 nsIAccessibleRole
 :
 :
-ROLE_LISTITEM
+ROLE_RICH_OPTION
 ;
 return
 NS_OK
