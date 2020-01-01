@@ -146,6 +146,15 @@ uint32_t
 aModules
 )
 ;
+bool
+IsEnabled
+(
+const
+nsAString
+&
+aModules
+)
+;
 void
 DocLoad
 (
