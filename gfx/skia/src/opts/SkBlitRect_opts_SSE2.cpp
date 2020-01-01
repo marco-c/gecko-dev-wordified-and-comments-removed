@@ -480,14 +480,6 @@ color
 return
 ;
 }
-unsigned
-colorA
-=
-SkGetPackedA32
-(
-color
-)
-;
 SkBlitRow
 :
 :

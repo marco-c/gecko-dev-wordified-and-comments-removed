@@ -211,3 +211,12 @@ clang
 build
 .
 patch
+0015
+-
+Bug
+-
+766017
+-
+warnings
+.
+patch
