@@ -8924,6 +8924,14 @@ afterselected
 true
 )
 ;
+this
+.
+tabContainer
+.
+adjustTabstrip
+(
+)
+;
 /
 /
 Dispatch
@@ -19349,12 +19357,6 @@ true
 "
 )
 {
-this
-.
-adjustTabstrip
-(
-)
-;
 this
 .
 _fillTrailingGap
