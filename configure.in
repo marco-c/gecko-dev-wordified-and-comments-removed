@@ -35750,6 +35750,8 @@ NSPR_CFLAGS
 LIBXUL_DIST
 )
 /
+sdk
+/
 bin
 /
 nspr
@@ -35787,6 +35789,8 @@ NSPR_LIBS
 (
 LIBXUL_DIST
 )
+/
+sdk
 /
 bin
 /

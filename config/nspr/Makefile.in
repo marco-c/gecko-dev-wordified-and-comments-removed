@@ -601,6 +601,8 @@ config
 DIST
 )
 /
+sdk
+/
 bin
 (
 RM
