@@ -62966,11 +62966,6 @@ CXX
 "
 CXX
 "
-MACOS_SDK_DIR
-=
-"
-MACOS_SDK_DIR
-"
 PYTHON
 _topsrcdir
 /

@@ -156,14 +156,6 @@ fi
 ac_add_options
 -
 -
-enable
--
-stdcxx
--
-compat
-ac_add_options
--
--
 with
 -
 ccache
