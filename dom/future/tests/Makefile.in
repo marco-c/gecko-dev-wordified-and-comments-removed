@@ -85,6 +85,10 @@ test_future
 .
 html
 \
+test_resolve
+.
+html
+\
 (
 NULL
 )
