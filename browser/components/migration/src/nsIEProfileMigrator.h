@@ -348,6 +348,11 @@ nsIFile
 aUserFile
 )
 ;
+PRBool
+TestForIE7
+(
+)
+;
 private
 :
 nsCOMPtr
