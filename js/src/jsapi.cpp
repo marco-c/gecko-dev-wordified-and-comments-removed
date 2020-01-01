@@ -7506,7 +7506,7 @@ js
 ArrayBuffer
 :
 :
-jsclass
+slowClass
 }
 {
 js_InitWeakMapClass
@@ -7515,10 +7515,10 @@ EAGER_CLASS_ATOM
 WeakMap
 )
 &
-WeakMap
+js
 :
 :
-jsclass
+WeakMapClass
 }
 {
 NULL
@@ -7841,7 +7841,7 @@ js
 ArrayBuffer
 :
 :
-jsclass
+fastClass
 }
 {
 js_InitTypedArrayClasses
@@ -13449,8 +13449,13 @@ type
 JSTYPE_FUNCTION
 )
 ;
+JS_ASSERT
+(
+obj
+)
+;
 return
-js_TryValueOf
+DefaultValue
 (
 cx
 obj
