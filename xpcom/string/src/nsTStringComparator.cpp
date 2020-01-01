@@ -24,7 +24,7 @@ comp
 )
 {
 typedef
-nsTAString_CharT
+nsTSubstring_CharT
 :
 :
 size_type
@@ -42,7 +42,7 @@ rhs
 return
 0
 ;
-nsTAString_CharT
+nsTSubstring_CharT
 :
 :
 const_iterator

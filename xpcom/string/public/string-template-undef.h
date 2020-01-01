@@ -9,15 +9,6 @@ undef
 CharT_is_char
 #
 undef
-nsTObsoleteAString_CharT
-#
-undef
-nsTObsoleteAStringThunk_CharT
-#
-undef
-nsTAString_CharT
-#
-undef
 nsTAString_IncompatibleCharT
 #
 undef
