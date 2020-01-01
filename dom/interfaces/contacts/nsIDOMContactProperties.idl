@@ -218,12 +218,12 @@ sortBy
 ;
 /
 /
-e
-.
-g
-.
 "
 givenName
+"
+or
+"
+familyName
 "
 attribute
 DOMString
