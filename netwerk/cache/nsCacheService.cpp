@@ -487,6 +487,16 @@ MAX_SIZE
 *
 1024
 ;
+const
+PRInt32
+PRE_FF4_DEFAULT_CACHE_SIZE
+=
+50
+*
+1024
+*
+1024
+;
 class
 nsCacheProfilePrefObserver
 :
@@ -2476,7 +2486,7 @@ if
 (
 oldCapacity
 <
-BASE_LINE
+PRE_FF4_DEFAULT_CACHE_SIZE
 /
 1024
 )
