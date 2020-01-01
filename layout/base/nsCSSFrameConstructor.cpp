@@ -9224,10 +9224,15 @@ aNewFrame
 =
 nsnull
 ;
+#
+ifdef
+DEBUG
 nsIContent
 *
 propagatedScrollFrom
 =
+#
+endif
 PropagateScrollToViewport
 (
 )

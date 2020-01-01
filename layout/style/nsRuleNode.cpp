@@ -4215,9 +4215,14 @@ Item
 side
 )
 ;
+#
+ifdef
+DEBUG
 PRBool
 unitOk
 =
+#
+endif
 SetAbsCoord
 (
 val

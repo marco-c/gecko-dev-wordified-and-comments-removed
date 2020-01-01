@@ -2234,10 +2234,15 @@ aOffset
 PRInt32
 contentOffset
 ;
+#
+ifdef
+DEBUG
 nsIFrame
 *
 frame
 =
+#
+endif
 GetCaretFrame
 (
 &
