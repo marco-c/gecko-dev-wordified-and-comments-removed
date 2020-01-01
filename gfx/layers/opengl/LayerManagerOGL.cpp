@@ -650,6 +650,13 @@ mRoot
 nullptr
 ;
 }
+mWidget
+-
+>
+CleanupWindowEffects
+(
+)
+;
 if
 (
 !
@@ -3598,6 +3605,13 @@ LOCAL_GL_DEPTH_BUFFER_BIT
 ;
 #
 endif
+mWidget
+-
+>
+PrepareWindowEffects
+(
+)
+;
 mWidget
 -
 >
