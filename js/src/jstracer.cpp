@@ -38307,6 +38307,14 @@ js_arm_check_vfp
 (
 )
 {
+#
+ifdef
+WINCE_WINDOWS_MOBILE
+return
+false
+;
+#
+else
 bool
 ret
 =
@@ -38341,6 +38349,8 @@ false
 return
 ret
 ;
+#
+endif
 }
 #
 define
