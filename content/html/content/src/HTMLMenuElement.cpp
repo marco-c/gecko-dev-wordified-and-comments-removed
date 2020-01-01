@@ -55,6 +55,13 @@ h
 #
 include
 "
+nsGUIEvent
+.
+h
+"
+#
+include
+"
 nsXULContextMenuBuilder
 .
 h

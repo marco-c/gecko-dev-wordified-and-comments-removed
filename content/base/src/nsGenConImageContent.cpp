@@ -40,6 +40,13 @@ nsEventDispatcher
 .
 h
 "
+#
+include
+"
+nsGUIEvent
+.
+h
+"
 class
 nsGenConImageContent
 MOZ_FINAL
