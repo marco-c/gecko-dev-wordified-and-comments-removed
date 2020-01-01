@@ -39,7 +39,6 @@ imgIContainer
 {
 public
 :
-NS_SCRIPTABLE
 NS_IMETHOD
 GetAnimationMode
 (
@@ -48,7 +47,6 @@ PRUint16
 aAnimationMode
 )
 ;
-NS_SCRIPTABLE
 NS_IMETHOD
 SetAnimationMode
 (

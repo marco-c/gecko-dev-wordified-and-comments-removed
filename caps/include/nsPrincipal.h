@@ -102,7 +102,6 @@ Release
 void
 )
 ;
-NS_SCRIPTABLE
 NS_IMETHOD
 GetPreferences
 (

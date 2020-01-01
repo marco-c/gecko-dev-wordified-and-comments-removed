@@ -104,7 +104,6 @@ GfxInfoBase
 ;
 NS_DECL_ISUPPORTS
 NS_DECL_NSIOBSERVER
-NS_SCRIPTABLE
 NS_IMETHOD
 GetFeatureStatus
 (
@@ -115,7 +114,6 @@ PRInt32
 _retval
 )
 ;
-NS_SCRIPTABLE
 NS_IMETHOD
 GetFeatureSuggestedDriverVersion
 (
@@ -126,7 +124,6 @@ nsAString
 _retval
 )
 ;
-NS_SCRIPTABLE
 NS_IMETHOD
 GetWebGLParameter
 (
@@ -139,7 +136,6 @@ nsAString
 _retval
 )
 ;
-NS_SCRIPTABLE
 NS_IMETHOD
 GetFailures
 (
@@ -165,7 +161,6 @@ nsACString
 failure
 )
 ;
-NS_SCRIPTABLE
 NS_IMETHOD
 GetInfo
 (

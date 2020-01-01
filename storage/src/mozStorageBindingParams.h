@@ -160,7 +160,6 @@ BindingParams
 {
 public
 :
-NS_SCRIPTABLE
 NS_IMETHOD
 BindByName
 (
@@ -173,7 +172,6 @@ nsIVariant
 aValue
 )
 ;
-NS_SCRIPTABLE
 NS_IMETHOD
 BindByIndex
 (

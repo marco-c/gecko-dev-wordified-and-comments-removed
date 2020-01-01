@@ -70,7 +70,6 @@ nsGenericHTMLElement
 :
 :
 )
-NS_SCRIPTABLE
 NS_IMETHOD
 Click
 (
@@ -85,7 +84,6 @@ Click
 )
 ;
 }
-NS_SCRIPTABLE
 NS_IMETHOD
 GetTabIndex
 (
@@ -104,7 +102,6 @@ aTabIndex
 )
 ;
 }
-NS_SCRIPTABLE
 NS_IMETHOD
 SetTabIndex
 (
@@ -122,7 +119,6 @@ aTabIndex
 )
 ;
 }
-NS_SCRIPTABLE
 NS_IMETHOD
 Focus
 (
@@ -137,7 +133,6 @@ Focus
 )
 ;
 }
-NS_SCRIPTABLE
 NS_IMETHOD
 GetDraggable
 (
@@ -156,7 +151,6 @@ aDraggable
 )
 ;
 }
-NS_SCRIPTABLE
 NS_IMETHOD
 GetInnerHTML
 (
@@ -165,7 +159,6 @@ nsAString
 aInnerHTML
 )
 ;
-NS_SCRIPTABLE
 NS_IMETHOD
 SetInnerHTML
 (
