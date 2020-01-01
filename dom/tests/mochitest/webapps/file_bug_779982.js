@@ -11,12 +11,7 @@ Webapps
 ;
 SpecialPowers
 .
-wrap
-(
-Components
-)
-.
-utils
+Cu
 .
 import
 (

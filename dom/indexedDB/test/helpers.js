@@ -20,6 +20,16 @@ Components
 '
 undefined
 '
+&
+&
+typeof
+SpecialPowers
+=
+=
+=
+'
+object
+'
 )
 Components
 =

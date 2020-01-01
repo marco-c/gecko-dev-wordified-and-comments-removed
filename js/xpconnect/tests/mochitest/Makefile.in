@@ -211,10 +211,6 @@ file_bug505915
 .
 html
 \
-test_bug553407
-.
-html
-\
 test_bug560351
 .
 html
