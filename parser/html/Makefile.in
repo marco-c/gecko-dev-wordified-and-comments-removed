@@ -424,6 +424,10 @@ nsHtml5Module
 .
 h
 \
+nsAHtml5FragmentParser
+.
+h
+\
 (
 NULL
 )
