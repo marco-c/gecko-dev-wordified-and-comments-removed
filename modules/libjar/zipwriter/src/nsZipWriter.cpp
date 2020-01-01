@@ -1124,9 +1124,7 @@ getter_AddRefs
 mStream
 )
 stream
-3
-*
-1024
+64
 *
 1024
 )
