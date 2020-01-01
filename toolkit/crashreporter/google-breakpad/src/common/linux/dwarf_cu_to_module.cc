@@ -1386,7 +1386,6 @@ NULL
 ;
 }
 }
-;
 void
 DwarfCUToModule
 :
