@@ -151,6 +151,14 @@ index
 =
 0
 ;
+virtual
+PRBool
+GetIsOpaque
+(
+)
+=
+0
+;
 }
 ;
 NS_DEFINE_STATIC_IID_ACCESSOR
