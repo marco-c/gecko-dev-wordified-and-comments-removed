@@ -131,6 +131,15 @@ PAYLOAD_VERSION
 =
 1
 ;
+#
+expand
+const
+HISTOGRAMS_FILE_VERSION
+=
+"
+__HISTOGRAMS_FILE_VERSION__
+"
+;
 const
 PREF_SERVER
 =
@@ -1797,6 +1806,9 @@ platformBuildID
 ai
 .
 platformBuildID
+revision
+:
+HISTOGRAMS_FILE_VERSION
 locale
 :
 getLocale
