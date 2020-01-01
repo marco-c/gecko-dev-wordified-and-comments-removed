@@ -559,6 +559,10 @@ nsFloatManager
 .
 cpp
 \
+nsFontInflationData
+.
+cpp
+\
 nsFrame
 .
 cpp
