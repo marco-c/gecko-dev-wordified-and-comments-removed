@@ -5059,9 +5059,7 @@ vbox
 !
 -
 -
-Windows
-8
-Appbar
+Navbar
 -
 -
 >
@@ -5070,7 +5068,7 @@ appbar
 id
 =
 "
-appbar
+navbar
 "
 mousethrough
 =
@@ -5628,6 +5626,16 @@ toolbar
 <
 /
 appbar
+>
+<
+!
+-
+-
+Context
+button
+bar
+-
+-
 >
 <
 appbar

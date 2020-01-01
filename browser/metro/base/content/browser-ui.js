@@ -167,10 +167,10 @@ browsers
 ]
 [
 "
-appbar
+navbar
 "
 "
-appbar
+navbar
 "
 ]
 [
@@ -5312,7 +5312,7 @@ cmd_addBookmark
 :
 Elements
 .
-appbar
+navbar
 .
 show
 (
@@ -5954,14 +5954,14 @@ if
 !
 Elements
 .
-appbar
+navbar
 .
 isShowing
 )
 {
 Elements
 .
-appbar
+navbar
 .
 show
 (
@@ -6174,7 +6174,7 @@ if
 (
 Elements
 .
-appbar
+navbar
 .
 isShowing
 )

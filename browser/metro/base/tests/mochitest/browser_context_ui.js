@@ -100,7 +100,7 @@ is
 (
 Elements
 .
-appbar
+navbar
 .
 isShowing
 false
@@ -155,7 +155,7 @@ is
 (
 Elements
 .
-appbar
+navbar
 .
 isShowing
 true
@@ -211,7 +211,7 @@ is
 (
 Elements
 .
-appbar
+navbar
 .
 isShowing
 false
@@ -267,7 +267,7 @@ is
 (
 Elements
 .
-appbar
+navbar
 .
 isShowing
 true
@@ -400,7 +400,7 @@ is
 (
 Elements
 .
-appbar
+navbar
 .
 isShowing
 false
@@ -460,7 +460,7 @@ is
 (
 Elements
 .
-appbar
+navbar
 .
 isShowing
 true
@@ -517,7 +517,7 @@ is
 (
 Elements
 .
-appbar
+navbar
 .
 isShowing
 false
