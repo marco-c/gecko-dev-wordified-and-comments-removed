@@ -1950,6 +1950,8 @@ frago
 getLoop
 (
 state
+.
+ip
 )
 ;
 lirbuf
