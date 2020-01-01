@@ -167,6 +167,14 @@ SizeOf
 )
 const
 ;
+void
+SetWindow
+(
+nsPIDOMWindow
+*
+aInnerWindow
+)
+;
 private
 :
 bool
