@@ -101,6 +101,9 @@ nsRect
 struct
 nsSize
 ;
+class
+nsHTMLFormElement
+;
 typedef
 nsMappedAttributeElement
 nsGenericHTMLElementBase
@@ -1163,13 +1166,11 @@ GetPresContext
 (
 )
 ;
-already_AddRefed
-<
-nsIDOMHTMLFormElement
->
+nsHTMLFormElement
+*
 FindForm
 (
-nsIForm
+nsHTMLFormElement
 *
 aCurrentForm
 =
@@ -1970,7 +1971,7 @@ FocusState
 (
 )
 ;
-nsIForm
+nsHTMLFormElement
 *
 mForm
 ;
