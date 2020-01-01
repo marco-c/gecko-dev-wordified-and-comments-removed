@@ -328,6 +328,9 @@ mStateData
 PRUint64
 mDocShellID
 ;
+PRUint32
+mLastTouched
+;
 }
 ;
 #
