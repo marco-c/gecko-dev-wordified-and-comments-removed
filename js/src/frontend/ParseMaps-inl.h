@@ -23,17 +23,12 @@ h
 #
 include
 "
-frontend
-/
 ParseMaps
 .
 h
 "
 namespace
 js
-{
-namespace
-frontend
 {
 template
 <
@@ -497,7 +492,6 @@ release
 map
 )
 ;
-}
 }
 }
 #

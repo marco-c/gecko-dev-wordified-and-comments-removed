@@ -49,13 +49,6 @@ using
 namespace
 js
 ;
-using
-namespace
-js
-:
-:
-frontend
-;
 #
 define
 pn_offsetof
@@ -2467,7 +2460,7 @@ pn
 endif
 ParseNode
 *
-frontend
+js
 :
 :
 CloneLeftHandSide
@@ -2947,7 +2940,7 @@ pn
 ifdef
 DEBUG
 void
-frontend
+js
 :
 :
 DumpParseTree

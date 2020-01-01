@@ -320,9 +320,6 @@ checkSyntax
 JSContext
 *
 cx
-frontend
-:
-:
 TokenStream
 *
 tokenStream
@@ -395,9 +392,6 @@ reportYarrError
 JSContext
 *
 cx
-frontend
-:
-:
 TokenStream
 *
 ts
@@ -1180,9 +1174,6 @@ size_t
 length
 RegExpFlag
 flags
-frontend
-:
-:
 TokenStream
 *
 ts
@@ -1204,9 +1195,6 @@ size_t
 length
 RegExpFlag
 flags
-frontend
-:
-:
 TokenStream
 *
 ts
@@ -1224,9 +1212,6 @@ HandleAtom
 atom
 RegExpFlag
 flags
-frontend
-:
-:
 TokenStream
 *
 ts

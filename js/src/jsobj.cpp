@@ -385,15 +385,6 @@ js
 :
 types
 ;
-using
-js
-:
-:
-frontend
-:
-:
-IsIdentifier
-;
 JS_STATIC_ASSERT
 (
 int32_t

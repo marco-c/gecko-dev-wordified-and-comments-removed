@@ -930,9 +930,6 @@ setDefinitionParseNode
 (
 unsigned
 i
-frontend
-:
-:
 Definition
 *
 def
@@ -961,9 +958,6 @@ def
 ;
 }
 inline
-frontend
-:
-:
 Definition
 *
 StaticBlockObject
@@ -994,9 +988,6 @@ NULL
 :
 reinterpret_cast
 <
-frontend
-:
-:
 Definition
 *
 >

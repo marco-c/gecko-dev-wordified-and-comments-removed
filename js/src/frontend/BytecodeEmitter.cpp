@@ -343,12 +343,15 @@ offset
 )
 ;
 struct
-frontend
+js
 :
 :
 StmtInfoBCE
 :
 public
+js
+:
+:
 StmtInfoBase
 {
 StmtInfoBCE

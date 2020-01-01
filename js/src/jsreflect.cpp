@@ -149,13 +149,6 @@ using
 namespace
 js
 ;
-using
-namespace
-js
-:
-:
-frontend
-;
 namespace
 js
 {

@@ -105,9 +105,6 @@ JS_KEYWORD
 namespace
 js
 {
-namespace
-frontend
-{
 enum
 TokenKind
 {
@@ -3099,7 +3096,6 @@ define
 JSREPORT_UC
 0x100
 }
-}
 extern
 JS_FRIEND_API
 (
@@ -3127,9 +3123,6 @@ char
 TokenKindToString
 (
 js
-:
-:
-frontend
 :
 :
 TokenKind

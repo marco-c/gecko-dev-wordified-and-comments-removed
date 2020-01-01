@@ -137,15 +137,6 @@ using
 namespace
 js
 ;
-using
-js
-:
-:
-frontend
-:
-:
-IsIdentifier
-;
 extern
 Class
 DebuggerFrame_class
