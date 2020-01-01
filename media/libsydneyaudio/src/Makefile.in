@@ -463,12 +463,12 @@ MOZ_WIDGET_TOOLKIT
 )
 gonk
 )
-CSRCS
+CPPSRCS
 =
 \
 sydney_audio_gonk
 .
-c
+cpp
 \
 (
 NULL
