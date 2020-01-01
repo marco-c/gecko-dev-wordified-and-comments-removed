@@ -356,7 +356,7 @@ nsSVGTextElement
 :
 GetX
 (
-nsIDOMSVGAnimatedLengthList
+nsISupports
 *
 *
 aX
@@ -397,7 +397,7 @@ nsSVGTextElement
 :
 GetY
 (
-nsIDOMSVGAnimatedLengthList
+nsISupports
 *
 *
 aY
@@ -438,7 +438,7 @@ nsSVGTextElement
 :
 GetDx
 (
-nsIDOMSVGAnimatedLengthList
+nsISupports
 *
 *
 aDx
@@ -479,7 +479,7 @@ nsSVGTextElement
 :
 GetDy
 (
-nsIDOMSVGAnimatedLengthList
+nsISupports
 *
 *
 aDy

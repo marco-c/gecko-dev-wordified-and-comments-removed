@@ -190,7 +190,7 @@ nsSVGTextPositioningElement
 :
 GetX
 (
-nsIDOMSVGAnimatedLengthList
+nsISupports
 *
 *
 aX
@@ -231,7 +231,7 @@ nsSVGTextPositioningElement
 :
 GetY
 (
-nsIDOMSVGAnimatedLengthList
+nsISupports
 *
 *
 aY
@@ -272,7 +272,7 @@ nsSVGTextPositioningElement
 :
 GetDx
 (
-nsIDOMSVGAnimatedLengthList
+nsISupports
 *
 *
 aDx
@@ -313,7 +313,7 @@ nsSVGTextPositioningElement
 :
 GetDy
 (
-nsIDOMSVGAnimatedLengthList
+nsISupports
 *
 *
 aDy

@@ -112,10 +112,6 @@ nsIDOMSVGAnimatedLength
 .
 idl
 \
-nsIDOMSVGAnimatedLengthList
-.
-idl
-\
 nsIDOMSVGAnimatedNumber
 .
 idl
@@ -213,10 +209,6 @@ nsIDOMSVGImageElement
 idl
 \
 nsIDOMSVGLength
-.
-idl
-\
-nsIDOMSVGLengthList
 .
 idl
 \
