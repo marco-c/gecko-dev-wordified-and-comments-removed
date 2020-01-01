@@ -20111,6 +20111,7 @@ return
 true
 ;
 }
+MOZ_NEVER_INLINE
 static
 bool
 EmitTry
@@ -21225,6 +21226,7 @@ bce
 #
 if
 JS_HAS_BLOCK_SCOPE
+MOZ_NEVER_INLINE
 static
 bool
 EmitLet
@@ -22154,6 +22156,7 @@ true
 }
 #
 endif
+MOZ_NEVER_INLINE
 static
 bool
 EmitLexicalScope
@@ -28297,6 +28300,7 @@ return
 true
 ;
 }
+MOZ_NEVER_INLINE
 static
 bool
 EmitLabel
