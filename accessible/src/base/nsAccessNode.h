@@ -684,6 +684,11 @@ GetDocAccessible
 (
 )
 ;
+void
+LastRelease
+(
+)
+;
 nsCOMPtr
 <
 nsIDOMNode

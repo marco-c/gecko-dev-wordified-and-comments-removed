@@ -209,6 +209,10 @@ RemoveRootAccessible
 this
 )
 ;
+root
+=
+nsnull
+;
 }
 return
 nsRootAccessible

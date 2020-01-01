@@ -186,7 +186,12 @@ RemoveSelectionListener
 )
 ;
 return
-NS_OK
+nsLeafAccessible
+:
+:
+Shutdown
+(
+)
 ;
 }
 NS_IMETHODIMP
