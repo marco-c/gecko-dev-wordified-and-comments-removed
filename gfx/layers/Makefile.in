@@ -745,6 +745,10 @@ ShadowLayersManager
 .
 h
 \
+RenderTrace
+.
+h
+\
 (
 NULL
 )
