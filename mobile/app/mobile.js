@@ -4592,9 +4592,6 @@ dragThreshold
 24
 )
 ;
-#
-ifndef
-MOZ_PLATFORM_MAEMO
 pref
 (
 "
@@ -4604,8 +4601,6 @@ accelerate
 -
 all
 "
-true
+false
 )
 ;
-#
-endif
