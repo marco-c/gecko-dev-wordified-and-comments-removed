@@ -543,11 +543,9 @@ _verbose
 define
 verbose_only
 (
-.
-.
-.
+x
 )
-__VA_ARGS__
+x
 #
 else
 #
@@ -565,9 +563,7 @@ verbose_enabled
 define
 verbose_only
 (
-.
-.
-.
+x
 )
 #
 endif
