@@ -151,8 +151,6 @@ nsDOMDataTransfer
 (
 PRUint32
 aEventType
-PRUint32
-aAction
 )
 ;
 nsDOMDataTransfer
