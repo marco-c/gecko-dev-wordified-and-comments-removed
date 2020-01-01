@@ -274,6 +274,11 @@ dirs
 np
 -
 r
+-
+e
+robots
+=
+off
 http
 :
 /
