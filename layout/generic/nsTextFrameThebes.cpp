@@ -26465,12 +26465,6 @@ charIndex
 '
 )
 {
-+
-+
-textMetrics
-.
-mClusterCount
-;
 -
 -
 charIndex
@@ -26482,9 +26476,7 @@ NS_ASSERTION
 numJustifiableCharacters
 <
 =
-textMetrics
-.
-mClusterCount
+charsFit
 "
 Justifiable
 characters
@@ -26500,9 +26492,7 @@ lineLayout
 SetTextJustificationWeights
 (
 numJustifiableCharacters
-textMetrics
-.
-mClusterCount
+charsFit
 -
 numJustifiableCharacters
 )
