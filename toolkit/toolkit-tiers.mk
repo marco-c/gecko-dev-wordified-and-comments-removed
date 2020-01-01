@@ -1087,6 +1087,12 @@ tier_platform_dirs
 testing
 /
 mozbase
+tier_platform_dirs
++
+=
+testing
+/
+modules
 ifdef
 MOZ_WEBRTC
 tier_platform_dirs
