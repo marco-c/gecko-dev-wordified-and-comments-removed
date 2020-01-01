@@ -745,6 +745,17 @@ nsCSSProperty
 aProperty
 )
 ;
+static
+nscolor
+CombineVisitedColors
+(
+nscolor
+*
+aColors
+PRBool
+aLinkIsVisited
+)
+;
 #
 ifdef
 DEBUG
