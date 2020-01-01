@@ -206,6 +206,13 @@ nsIHTMLCollection
 .
 h
 "
+#
+include
+"
+Units
+.
+h
+"
 class
 nsIDOMEventListener
 ;
@@ -2323,7 +2330,7 @@ sf
 >
 ScrollToCSSPixels
 (
-nsIntPoint
+CSSIntPoint
 (
 sf
 -
@@ -2392,7 +2399,7 @@ sf
 >
 ScrollToCSSPixels
 (
-nsIntPoint
+CSSIntPoint
 (
 aScrollLeft
 sf
