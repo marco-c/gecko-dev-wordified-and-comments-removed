@@ -581,6 +581,16 @@ numRects
 NULL
 )
 ;
+if
+(
+!
+destArray
+)
+{
+return
+NS_ERROR_OUT_OF_MEMORY
+;
+}
 *
 aRects
 =
