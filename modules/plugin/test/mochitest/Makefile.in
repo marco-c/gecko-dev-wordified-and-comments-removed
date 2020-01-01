@@ -514,6 +514,10 @@ test_pluginstream_newstream
 .
 html
 \
+test_multipleinstanceobjects
+.
+html
+\
 test_streamNotify
 .
 html
