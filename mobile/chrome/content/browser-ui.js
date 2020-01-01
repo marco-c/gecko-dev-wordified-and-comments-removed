@@ -3294,7 +3294,7 @@ selectTab
 aTab
 )
 {
-BrowserUI
+this
 .
 activePanel
 =

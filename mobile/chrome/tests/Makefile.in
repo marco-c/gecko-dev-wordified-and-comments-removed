@@ -582,6 +582,14 @@ browser_viewport
 .
 js
 \
+browser_no_title
+.
+html
+\
+browser_english_title
+.
+html
+\
 (
 NULL
 )
