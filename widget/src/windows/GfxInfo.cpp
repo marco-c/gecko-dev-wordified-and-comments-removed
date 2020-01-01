@@ -1570,7 +1570,7 @@ note
 .
 AppendWithConversion
 (
-mDeviceKeyDebug
+mDeviceID
 )
 ;
 note
@@ -1585,7 +1585,7 @@ note
 .
 AppendWithConversion
 (
-mDeviceID
+mDeviceKeyDebug
 )
 ;
 }
