@@ -495,6 +495,10 @@ SVGCircleElement
 .
 webidl
 \
+SVGClipPathElement
+.
+webidl
+\
 SVGDefsElement
 .
 webidl
