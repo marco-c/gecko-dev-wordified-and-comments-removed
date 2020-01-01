@@ -399,10 +399,9 @@ nsXBLDocumentInfo
 >
 mXBLDocTable
 ;
-nsDataHashtable
+nsTHashtable
 <
 nsURIHashKey
-uint32_t
 >
 mCacheURITable
 ;

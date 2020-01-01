@@ -1411,7 +1411,7 @@ aURI
 {
 mCacheURITable
 .
-Remove
+RemoveEntry
 (
 aURI
 )
@@ -2807,10 +2807,9 @@ NS_ERROR_FAILURE
 }
 mCacheURITable
 .
-Put
+PutEntry
 (
 aURI
-1
 )
 ;
 return
