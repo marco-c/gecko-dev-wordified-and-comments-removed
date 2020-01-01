@@ -1599,11 +1599,6 @@ externalProtocol
 =
 PR_FALSE
 ;
-PRBool
-listedProtocol
-=
-PR_TRUE
-;
 nsCOMPtr
 <
 nsIPrefBranch2
@@ -1668,10 +1663,6 @@ rv
 )
 {
 externalProtocol
-=
-PR_FALSE
-;
-listedProtocol
 =
 PR_FALSE
 ;
