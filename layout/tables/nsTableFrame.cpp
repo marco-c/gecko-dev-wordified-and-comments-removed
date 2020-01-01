@@ -32046,15 +32046,6 @@ cell
 =
 mFirstCell
 ;
-if
-(
-!
-cell
-)
-ABORT0
-(
-)
-;
 nsIFrame
 *
 col

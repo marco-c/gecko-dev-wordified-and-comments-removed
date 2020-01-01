@@ -7227,6 +7227,9 @@ data
 IsDead
 (
 )
+&
+&
+aCellFrame
 )
 {
 origData
