@@ -436,6 +436,17 @@ global
 Array
 "
 )
+|
+|
+!
+SealObjectAndPrototype
+(
+cx
+global
+"
+Error
+"
+)
 )
 return
 false
