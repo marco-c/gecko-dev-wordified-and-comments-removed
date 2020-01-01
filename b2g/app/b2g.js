@@ -3184,3 +3184,15 @@ ignoreXFrameOptions
 true
 )
 ;
+pref
+(
+"
+layout
+.
+frame_rate
+.
+precise
+"
+true
+)
+;
