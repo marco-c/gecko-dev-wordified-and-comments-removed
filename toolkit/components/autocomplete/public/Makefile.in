@@ -455,10 +455,6 @@ nsIAutoCompleteResult
 .
 idl
 \
-nsIAutoCompleteResultTypes
-.
-idl
-\
 nsIAutoCompleteSimpleResult
 .
 idl
