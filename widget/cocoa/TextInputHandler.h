@@ -251,6 +251,9 @@ kReturnKeyCode
 kPowerbookEnterKeyCode
 =
 0x34
+kJapanese_Eisu
+=
+0x66
 kJapanese_Kana
 =
 0x68

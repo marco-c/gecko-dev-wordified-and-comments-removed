@@ -6144,6 +6144,12 @@ NS_VK_DIVIDE
 IME
 keys
 case
+kJapanese_Eisu
+:
+return
+NS_VK_EISU
+;
+case
 kJapanese_Kana
 :
 return
@@ -22905,6 +22911,9 @@ kTabKeyCode
 :
 case
 kBackspaceKeyCode
+:
+case
+kJapanese_Eisu
 :
 case
 kJapanese_Kana
