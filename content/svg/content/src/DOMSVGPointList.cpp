@@ -410,11 +410,9 @@ kungFuDeathGrip
 ;
 if
 (
-oldLength
-&
-&
-!
 newLength
+<
+oldLength
 )
 {
 kungFuDeathGrip

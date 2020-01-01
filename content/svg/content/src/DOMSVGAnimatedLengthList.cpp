@@ -316,9 +316,15 @@ mBaseVal
 {
 if
 (
-!
 aNewValue
 .
+Length
+(
+)
+<
+mBaseVal
+-
+>
 Length
 (
 )
