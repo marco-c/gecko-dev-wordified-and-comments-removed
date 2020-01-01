@@ -2057,6 +2057,16 @@ function
 profile
 )
 {
+if
+(
+!
+profile
+)
+profile
+=
+{
+}
+;
 this
 .
 profile
