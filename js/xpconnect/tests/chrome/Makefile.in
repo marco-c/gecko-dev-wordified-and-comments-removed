@@ -555,6 +555,10 @@ test_weakmaps
 .
 xul
 \
+test_bug706301
+.
+xul
+\
 (
 NULL
 )

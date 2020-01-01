@@ -641,6 +641,10 @@ file_nodelists
 .
 html
 \
+file_bug706301
+.
+html
+\
 (
 NULL
 )
