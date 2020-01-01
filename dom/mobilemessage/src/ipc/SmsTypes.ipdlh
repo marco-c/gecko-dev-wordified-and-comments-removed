@@ -140,6 +140,9 @@ MessageClass
 using
 ReadState
 ;
+using
+MessageType
+;
 namespace
 mozilla
 {
@@ -315,6 +318,9 @@ body
 ;
 uint64_t
 unreadCount
+;
+MessageType
+lastMessageType
 ;
 }
 ;
