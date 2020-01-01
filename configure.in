@@ -2800,6 +2800,16 @@ lower
 ]
 ]
 "
+android_source
+=
+"
+gonkdir
+"
+ANDROID_SOURCE
+=
+"
+android_source
+"
 dnl
 set
 up
