@@ -4611,6 +4611,14 @@ aTab
 .
 browser
 ;
+aTab
+.
+browser
+.
+focus
+(
+)
+;
 }
 get
 selectedBrowser
