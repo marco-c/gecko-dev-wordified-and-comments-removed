@@ -182,6 +182,11 @@ SVGAnimatedEnumeration
 h
 '
 '
+SVGAnimatedInteger
+.
+h
+'
+'
 SVGAnimatedLength
 .
 h
@@ -638,6 +643,11 @@ cpp
 '
 '
 SVGAnimatedEnumeration
+.
+cpp
+'
+'
+SVGAnimatedInteger
 .
 cpp
 '

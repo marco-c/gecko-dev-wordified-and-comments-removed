@@ -955,6 +955,10 @@ SVGAnimatedEnumeration
 .
 webidl
 \
+SVGAnimatedInteger
+.
+webidl
+\
 SVGAnimatedLength
 .
 webidl

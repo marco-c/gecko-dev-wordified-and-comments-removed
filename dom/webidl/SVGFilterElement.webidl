@@ -140,9 +140,6 @@ apply
 *
 /
 interface
-SVGAnimatedInteger
-;
-interface
 SVGFilterElement
 :
 SVGElement

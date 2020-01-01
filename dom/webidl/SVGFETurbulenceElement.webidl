@@ -140,9 +140,6 @@ apply
 *
 /
 interface
-SVGAnimatedInteger
-;
-interface
 SVGAnimatedNumber
 ;
 interface

@@ -181,10 +181,6 @@ CSSSupportsRule
 )
 DOMCI_CLASS
 (
-SVGAnimatedInteger
-)
-DOMCI_CLASS
-(
 SVGAnimatedNumber
 )
 DOMCI_CLASS

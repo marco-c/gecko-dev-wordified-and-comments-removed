@@ -234,7 +234,7 @@ PrimitiveUnits
 ;
 already_AddRefed
 <
-nsIDOMSVGAnimatedInteger
+SVGAnimatedInteger
 >
 FilterResX
 (
@@ -242,7 +242,7 @@ FilterResX
 ;
 already_AddRefed
 <
-nsIDOMSVGAnimatedInteger
+SVGAnimatedInteger
 >
 FilterResY
 (

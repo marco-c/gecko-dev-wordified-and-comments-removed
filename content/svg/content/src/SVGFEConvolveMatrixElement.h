@@ -304,7 +304,7 @@ In1
 ;
 already_AddRefed
 <
-nsIDOMSVGAnimatedInteger
+SVGAnimatedInteger
 >
 OrderX
 (
@@ -312,7 +312,7 @@ OrderX
 ;
 already_AddRefed
 <
-nsIDOMSVGAnimatedInteger
+SVGAnimatedInteger
 >
 OrderY
 (
@@ -328,7 +328,7 @@ KernelMatrix
 ;
 already_AddRefed
 <
-nsIDOMSVGAnimatedInteger
+SVGAnimatedInteger
 >
 TargetX
 (
@@ -336,7 +336,7 @@ TargetX
 ;
 already_AddRefed
 <
-nsIDOMSVGAnimatedInteger
+SVGAnimatedInteger
 >
 TargetY
 (

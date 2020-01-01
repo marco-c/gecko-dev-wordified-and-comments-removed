@@ -391,7 +391,7 @@ this
 }
 already_AddRefed
 <
-nsIDOMSVGAnimatedInteger
+SVGAnimatedInteger
 >
 SVGFEConvolveMatrixElement
 :
@@ -418,7 +418,7 @@ this
 }
 already_AddRefed
 <
-nsIDOMSVGAnimatedInteger
+SVGAnimatedInteger
 >
 SVGFEConvolveMatrixElement
 :
@@ -472,7 +472,7 @@ KERNELMATRIX
 }
 already_AddRefed
 <
-nsIDOMSVGAnimatedInteger
+SVGAnimatedInteger
 >
 SVGFEConvolveMatrixElement
 :
@@ -495,7 +495,7 @@ this
 }
 already_AddRefed
 <
-nsIDOMSVGAnimatedInteger
+SVGAnimatedInteger
 >
 SVGFEConvolveMatrixElement
 :
