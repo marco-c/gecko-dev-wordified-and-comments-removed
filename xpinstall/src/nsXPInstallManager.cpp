@@ -485,6 +485,10 @@ NS_INTERFACE_MAP_ENTRY
 (
 nsIChannelEventSink
 )
+NS_INTERFACE_MAP_ENTRY
+(
+nsISupportsWeakReference
+)
 NS_INTERFACE_MAP_ENTRY_AMBIGUOUS
 (
 nsISupports
