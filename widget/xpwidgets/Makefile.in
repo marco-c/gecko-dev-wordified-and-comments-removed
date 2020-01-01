@@ -449,10 +449,6 @@ nsBaseAppShell
 .
 cpp
 \
-nsBaseScreen
-.
-cpp
-\
 nsBaseWidget
 .
 cpp

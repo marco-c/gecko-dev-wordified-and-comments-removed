@@ -82,6 +82,11 @@ nsScreenGtk
 )
 {
 }
+NS_IMPL_ISUPPORTS1
+(
+nsScreenGtk
+nsIScreen
+)
 NS_IMETHODIMP
 nsScreenGtk
 :

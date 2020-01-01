@@ -16,6 +16,12 @@ using
 namespace
 mozilla
 ;
+NS_IMPL_ISUPPORTS2
+(
+nsScreenGonk
+nsIScreen
+nsIScreen
+)
 nsScreenGonk
 :
 :

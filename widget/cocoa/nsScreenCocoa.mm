@@ -450,6 +450,11 @@ nsCocoaUtils
 .
 h
 "
+NS_IMPL_ISUPPORTS1
+(
+nsScreenCocoa
+nsIScreen
+)
 nsScreenCocoa
 :
 :
