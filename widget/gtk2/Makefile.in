@@ -705,6 +705,16 @@ DEFINES
 =
 -
 DCAIRO_GFX
+-
+DMOZ_APP_NAME
+=
+'
+"
+(
+MOZ_APP_NAME
+)
+"
+'
 INCLUDES
 +
 =
