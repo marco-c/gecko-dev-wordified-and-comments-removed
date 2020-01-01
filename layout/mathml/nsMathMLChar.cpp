@@ -6046,7 +6046,10 @@ scale
 float
 largeopFactor
 =
+float
+(
 M_SQRT2
+)
 ;
 if
 (

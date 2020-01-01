@@ -686,14 +686,6 @@ mBits
 )
 ;
 }
-NS_QUERYFRAME_HEAD
-(
-nsTableFrame
-)
-NS_QUERYFRAME_TAIL_INHERITING
-(
-nsContainerFrame
-)
 void
 nsTableFrame
 :
@@ -12878,9 +12870,9 @@ thead
 )
 )
 ?
-1
+1u
 :
-0
+0u
 )
 &
 &

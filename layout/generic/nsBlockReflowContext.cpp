@@ -384,12 +384,12 @@ for
 int
 overflowLines
 =
-false
+0
 ;
 overflowLines
 <
 =
-true
+1
 ;
 +
 +
