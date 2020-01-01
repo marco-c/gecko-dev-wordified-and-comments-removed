@@ -484,6 +484,9 @@ browser_sanityException2
 .
 js
 \
+(
+NULL
+)
 #
 Disabled
 these
@@ -551,9 +554,6 @@ browser_requestLongerTimeout
 .
 js
 \
-(
-NULL
-)
 libs
 :
 :
