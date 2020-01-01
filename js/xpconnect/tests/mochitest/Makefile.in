@@ -203,10 +203,6 @@ test_bug560351
 .
 html
 \
-test_bug564330
-.
-html
-\
 test_frameWrapping
 .
 html
@@ -264,10 +260,6 @@ test1_bug629331
 html
 \
 test2_bug629331
-.
-html
-\
-test_bug618017
 .
 html
 \
@@ -383,6 +375,14 @@ html
 bug657267
 .
 jar
+\
+test_bug564330
+.
+html
+\
+test_bug618017
+.
+html
 endif
 endif
 include
