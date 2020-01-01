@@ -1279,11 +1279,6 @@ case
 nitzTime
 "
 :
-if
-(
-DEBUG
-)
-{
 debug
 (
 "
@@ -1324,7 +1319,6 @@ message
 localTimeStampInMS
 )
 ;
-}
 break
 ;
 case

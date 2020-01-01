@@ -8,6 +8,11 @@ SYSTEM_PROPERTY_VALUE_MAX
 =
 92
 ;
+const
+DEBUG
+=
+false
+;
 let
 libcutils
 =
@@ -40,6 +45,11 @@ catch
 ex
 )
 {
+if
+(
+DEBUG
+)
+{
 dump
 (
 "
@@ -59,6 +69,7 @@ n
 "
 )
 ;
+}
 let
 fake_propdb
 =
@@ -336,6 +347,11 @@ catch
 ex
 )
 {
+if
+(
+DEBUG
+)
+{
 dump
 (
 "
@@ -351,6 +367,7 @@ n
 "
 )
 ;
+}
 library
 =
 {
