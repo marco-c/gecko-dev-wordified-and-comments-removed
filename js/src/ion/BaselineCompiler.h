@@ -753,6 +753,11 @@ JSOP_ARGUMENTS
 \
 _
 (
+JSOP_REST
+)
+\
+_
+(
 JSOP_TOID
 )
 \
