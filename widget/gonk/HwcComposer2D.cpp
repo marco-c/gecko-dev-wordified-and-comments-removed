@@ -564,7 +564,7 @@ aBufferRect
 ;
 crop
 .
-RoundOut
+Round
 (
 )
 ;
@@ -600,7 +600,7 @@ crop
 ;
 visibleRectScreen
 .
-RoundOut
+Round
 (
 )
 ;
@@ -788,7 +788,7 @@ aClip
 ;
 screenRect
 .
-RoundIn
+Round
 (
 )
 ;
