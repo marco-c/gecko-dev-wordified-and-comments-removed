@@ -352,7 +352,7 @@ jsdc
 inited
 )
 return
-JSD_HOOK_RETURN_CONTINUE_THROW
+JSTRAP_CONTINUE
 ;
 if
 (
@@ -362,7 +362,7 @@ jsdc
 )
 )
 return
-JSD_HOOK_RETURN_CONTINUE_THROW
+JSTRAP_CONTINUE
 ;
 JSD_LOCK
 (
@@ -392,7 +392,7 @@ if
 hook
 )
 return
-JSD_HOOK_RETURN_CONTINUE_THROW
+JSTRAP_CONTINUE
 ;
 JSD_LOCK_SCRIPTS
 (
@@ -420,7 +420,7 @@ if
 jsdscript
 )
 return
-JSD_HOOK_RETURN_CONTINUE_THROW
+JSTRAP_CONTINUE
 ;
 JS_GetPendingException
 (
