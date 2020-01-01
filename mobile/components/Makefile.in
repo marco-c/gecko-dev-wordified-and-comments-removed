@@ -453,6 +453,10 @@ LoginManagerPrompter
 .
 idl
 \
+WebappsSupport
+.
+idl
+\
 (
 NULL
 )

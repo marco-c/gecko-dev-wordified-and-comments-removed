@@ -466,7 +466,7 @@ mobile
 /
 components
 /
-phone
+build
 /
 Makefile
 mobile
