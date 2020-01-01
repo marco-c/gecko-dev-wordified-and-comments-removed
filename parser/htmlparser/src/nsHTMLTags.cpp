@@ -4094,12 +4094,6 @@ defined
 (
 DEBUG
 )
-&
-&
-defined
-(
-NS_STATIC_ATOM_USE_WIDE_STRINGS
-)
 {
 for
 (
