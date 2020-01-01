@@ -6421,6 +6421,10 @@ currentDictionary
 ;
 if
 (
+!
+mSpellCheck
+|
+|
 NS_FAILED
 (
 mSpellCheck
