@@ -436,11 +436,6 @@ Shape
 child
 )
 ;
-void
-dumpShapeStats
-(
-)
-;
 #
 ifdef
 DEBUG

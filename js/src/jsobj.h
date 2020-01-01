@@ -524,13 +524,6 @@ PropDesc
 >
 PropDescArray
 ;
-void
-MeterEntryCount
-(
-uintN
-count
-)
-;
 }
 enum
 {
