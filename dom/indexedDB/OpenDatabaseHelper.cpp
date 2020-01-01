@@ -7244,16 +7244,10 @@ IsFrozen
 )
 )
 {
-indexedDB
-:
-:
 IndexedDatabaseManager
 *
 manager
 =
-indexedDB
-:
-:
 IndexedDatabaseManager
 :
 :
