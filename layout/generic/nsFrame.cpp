@@ -92,13 +92,6 @@ h
 #
 include
 "
-nsIScrollableView
-.
-h
-"
-#
-include
-"
 nsIScrollableFrame
 .
 h

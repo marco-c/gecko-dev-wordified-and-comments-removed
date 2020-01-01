@@ -17,9 +17,6 @@ class
 nsIAtom
 ;
 class
-nsIScrollableView
-;
-class
 nsIScrollableFrame
 ;
 class
@@ -446,16 +443,6 @@ GetClientData
 )
 ;
 }
-static
-nsIScrollableFrame
-*
-GetScrollableFrameFor
-(
-nsIScrollableView
-*
-aScrollableView
-)
-;
 static
 nsIScrollableFrame
 *

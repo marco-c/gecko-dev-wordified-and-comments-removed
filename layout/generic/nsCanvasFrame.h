@@ -67,13 +67,6 @@ nsAbsoluteContainingBlock
 .
 h
 "
-#
-include
-"
-nsIScrollableView
-.
-h
-"
 class
 nsCanvasFrame
 :
