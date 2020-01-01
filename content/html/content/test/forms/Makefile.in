@@ -287,6 +287,10 @@ test_input_event
 .
 html
 \
+test_input_number_rounding
+.
+html
+\
 (
 NULL
 )
