@@ -1769,17 +1769,6 @@ break
 ;
 case
 '
-l
-'
-:
-dolink
-=
-1
-;
-break
-;
-case
-'
 L
 '
 :
