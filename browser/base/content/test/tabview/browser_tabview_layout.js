@@ -207,7 +207,6 @@ contentWindow
 253
 335
 100
-true
 )
 ;
 ok
