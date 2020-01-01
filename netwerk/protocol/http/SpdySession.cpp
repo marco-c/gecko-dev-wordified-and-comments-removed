@@ -8299,7 +8299,7 @@ IsPersistent
 )
 {
 return
-PR_TRUE
+true
 ;
 }
 nsresult
@@ -8478,7 +8478,7 @@ IsDone
 )
 ;
 return
-PR_FALSE
+false
 ;
 }
 nsresult
