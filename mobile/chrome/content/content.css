@@ -687,6 +687,10 @@ padding
 }
 textarea
 {
+resize
+:
+none
+;
 border
 -
 width
