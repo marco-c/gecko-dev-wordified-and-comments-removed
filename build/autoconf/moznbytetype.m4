@@ -604,8 +604,8 @@ break
 )
 done
 if
-!
 test
+!
 "
 moz_cv_n_byte_type_
 1
@@ -797,8 +797,8 @@ break
 )
 done
 if
-!
 test
+!
 "
 moz_cv_size_of_
 1
@@ -991,8 +991,8 @@ break
 )
 done
 if
-!
 test
+!
 "
 moz_cv_align_of_
 1
