@@ -204,13 +204,6 @@ AccEvent
 )
 protected
 :
-void
-CaptureIsFromUserInput
-(
-EIsFromUserInput
-aIsFromUserInput
-)
-;
 bool
 mIsFromUserInput
 ;
