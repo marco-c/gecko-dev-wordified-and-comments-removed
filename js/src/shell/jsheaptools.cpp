@@ -1969,12 +1969,10 @@ return
 false
 ;
 }
-JS
-:
-:
-Value
+RootedValue
 target
-=
+(
+cx
 JS_ARGV
 (
 cx
@@ -1983,6 +1981,7 @@ vp
 [
 0
 ]
+)
 ;
 if
 (

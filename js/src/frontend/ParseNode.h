@@ -2997,8 +2997,7 @@ JSContext
 cx
 bool
 strictChecks
-Value
-*
+MutableHandleValue
 vp
 )
 ;
