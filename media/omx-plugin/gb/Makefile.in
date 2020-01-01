@@ -202,16 +202,6 @@ NO_DIST_INSTALL
 NO_INSTALL
 =
 1
-CPPSRCS
-=
-\
-OmxPlugin236
-.
-cpp
-\
-(
-NULL
-)
 include
 (
 topsrcdir

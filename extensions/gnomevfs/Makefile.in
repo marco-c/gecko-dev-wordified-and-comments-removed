@@ -99,16 +99,6 @@ nkgnomevfs
 IS_COMPONENT
 =
 1
-CPPSRCS
-=
-\
-nsGnomeVFSProtocolHandler
-.
-cpp
-\
-(
-NULL
-)
 LOCAL_INCLUDES
 =
 (

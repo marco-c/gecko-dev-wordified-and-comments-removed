@@ -88,11 +88,6 @@ STL_FLAGS
 =
 MOZ_GLUE_LDFLAGS
 =
-CPPSRCS
-=
-injector
-.
-cpp
 SHARED_LIBRARY_LIBS
 +
 =

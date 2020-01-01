@@ -93,15 +93,6 @@ FORCE_SHARED_LIB
 USE_STATIC_LIBS
 =
 1
-CPPSRCS
-=
-nsModule
-.
-cpp
-\
-(
-NULL
-)
 ifeq
 (
 (

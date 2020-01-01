@@ -89,11 +89,6 @@ profdirserviceprovider_s
 MOZILLA_INTERNAL_API
 =
 1
-CPPSRCS
-=
-(
-MODULES_PROFILEDIRSERVICE_SRC_LCSRCS
-)
 #
 we
 don

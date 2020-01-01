@@ -82,11 +82,6 @@ xptcall
 MOZILLA_INTERNAL_API
 =
 1
-CPPSRCS
-=
-xptcall
-.
-cpp
 #
 we
 don

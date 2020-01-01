@@ -108,3 +108,13 @@ MODULE
 '
 fastfind
 '
+CPP_SOURCES
++
+=
+[
+'
+nsTypeAheadFind
+.
+cpp
+'
+]

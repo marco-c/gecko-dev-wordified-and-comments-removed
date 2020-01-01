@@ -84,11 +84,6 @@ OS_ARCH
 )
 WINNT
 )
-CPPSRCS
-=
-redit
-.
-cpp
 SDK_BINARY
 =
 \

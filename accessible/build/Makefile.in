@@ -91,11 +91,6 @@ nsAccessibilityModule
 LIBXUL_LIBRARY
 =
 1
-CPPSRCS
-=
-nsAccessibilityFactory
-.
-cpp
 LOCAL_INCLUDES
 =
 -

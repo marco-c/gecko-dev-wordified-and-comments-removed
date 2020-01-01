@@ -98,3 +98,16 @@ MODULE
 '
 build
 '
+CPP_SOURCES
++
+=
+[
+'
+stdc
++
++
+compat
+.
+cpp
+'
+]

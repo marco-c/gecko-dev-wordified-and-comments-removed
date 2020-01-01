@@ -83,11 +83,6 @@ ENABLE_TESTS
 USE_STATIC_LIBS
 =
 1
-CPPSRCS
-=
-crashinject
-.
-cpp
 endif
 #
 ENABLE_TESTS

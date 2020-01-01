@@ -98,3 +98,13 @@ MODULE
 '
 webbrwsr
 '
+CPP_SOURCES
++
+=
+[
+'
+nsWebBrowserModule
+.
+cpp
+'
+]

@@ -102,11 +102,6 @@ simpltst
 IS_COMPONENT
 =
 1
-CPPSRCS
-=
-SimpleTest
-.
-cpp
 EXTRA_DSO_LDOPTS
 =
 \

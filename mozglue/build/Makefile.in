@@ -180,11 +180,6 @@ bug
 lands
 VISIBILITY_FLAGS
 =
-CPPSRCS
-=
-dummy
-.
-cpp
 ifneq
 (
 (
@@ -472,12 +467,6 @@ Android
 OS_TARGET
 )
 )
-CPPSRCS
-+
-=
-BionicGlue
-.
-cpp
 SHARED_LIBRARY_LIBS
 +
 =

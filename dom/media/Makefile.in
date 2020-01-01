@@ -117,16 +117,6 @@ manifest
 (
 NULL
 )
-CPPSRCS
-=
-\
-MediaManager
-.
-cpp
-\
-(
-NULL
-)
 ifdef
 MOZ_WEBRTC
 LOCAL_INCLUDES

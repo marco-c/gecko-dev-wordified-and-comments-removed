@@ -90,16 +90,6 @@ nsWindowsProxyModule
 LIBXUL_LIBRARY
 =
 1
-CPPSRCS
-=
-\
-nsWindowsSystemProxySettings
-.
-cpp
-\
-(
-NULL
-)
 include
 (
 topsrcdir

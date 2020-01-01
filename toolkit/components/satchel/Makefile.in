@@ -107,16 +107,6 @@ build
 (
 NULL
 )
-CPPSRCS
-=
-\
-nsFormFillController
-.
-cpp
-\
-(
-NULL
-)
 EXTRA_COMPONENTS
 =
 \

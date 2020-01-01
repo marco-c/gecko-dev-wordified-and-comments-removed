@@ -151,16 +151,6 @@ endif
 SRCS_IN_OBJDIR
 =
 1
-CPPSRCS
-=
-\
-(
-MTRANSPORT_LCPPSRCS
-)
-\
-(
-NULL
-)
 #
 Make
 a

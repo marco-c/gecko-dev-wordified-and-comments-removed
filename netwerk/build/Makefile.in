@@ -95,11 +95,6 @@ FAIL_ON_WARNINGS
 :
 =
 1
-CPPSRCS
-=
-nsNetModule
-.
-cpp
 SHARED_LIBRARY_LIBS
 =
 \

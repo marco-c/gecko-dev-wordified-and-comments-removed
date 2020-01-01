@@ -112,11 +112,6 @@ DENABLE_MARIONETTE
 endif
 ifndef
 LIBXUL_SDK
-CPPSRCS
-=
-nsBrowserApp
-.
-cpp
 ifeq
 (
 gonk
@@ -124,12 +119,6 @@ gonk
 MOZ_WIDGET_TOOLKIT
 )
 )
-CPPSRCS
-+
-=
-BootAnimation
-.
-cpp
 LIBS
 +
 =

@@ -135,11 +135,6 @@ rdfutil_s
 MOZILLA_INTERNAL_API
 =
 1
-CPPSRCS
-=
-(
-RDF_UTIL_SRC_LCPPSRCS
-)
 #
 we
 don

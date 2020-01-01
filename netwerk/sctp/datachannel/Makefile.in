@@ -93,16 +93,6 @@ Don
 '
 t
 PGO
-CPPSRCS
-=
-\
-DataChannel
-.
-cpp
-\
-(
-NULL
-)
 LOCAL_INCLUDES
 =
 \

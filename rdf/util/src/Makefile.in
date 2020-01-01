@@ -138,11 +138,6 @@ rdfutil_external_s
 DIST_INSTALL
 =
 1
-CPPSRCS
-=
-(
-RDF_UTIL_SRC_LCPPSRCS
-)
 #
 we
 don

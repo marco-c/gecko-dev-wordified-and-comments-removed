@@ -98,3 +98,13 @@ MODULE
 '
 widgetutils
 '
+CPP_SOURCES
++
+=
+[
+'
+nsWidgetUtils
+.
+cpp
+'
+]

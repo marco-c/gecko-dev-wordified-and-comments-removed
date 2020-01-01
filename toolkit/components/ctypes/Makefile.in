@@ -100,16 +100,6 @@ EXPORT_LIBRARY
 IS_COMPONENT
 =
 1
-CPPSRCS
-=
-\
-ctypes
-.
-cpp
-\
-(
-NULL
-)
 LOCAL_INCLUDES
 :
 =

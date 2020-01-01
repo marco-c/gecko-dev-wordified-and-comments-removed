@@ -98,3 +98,13 @@ MODULE
 '
 omxplugingb235
 '
+CPP_SOURCES
++
+=
+[
+'
+OmxPlugin235
+.
+cpp
+'
+]

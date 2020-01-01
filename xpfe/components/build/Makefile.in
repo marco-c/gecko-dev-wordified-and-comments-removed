@@ -91,11 +91,6 @@ application
 LIBXUL_LIBRARY
 =
 1
-CPPSRCS
-=
-nsModule
-.
-cpp
 include
 (
 topsrcdir

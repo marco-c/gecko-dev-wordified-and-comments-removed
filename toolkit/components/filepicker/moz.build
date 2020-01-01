@@ -143,3 +143,13 @@ nsIFileView
 idl
 '
 ]
+CPP_SOURCES
++
+=
+[
+'
+nsFileView
+.
+cpp
+'
+]

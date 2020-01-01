@@ -98,3 +98,13 @@ MODULE
 '
 webbrowserpersist
 '
+CPP_SOURCES
++
+=
+[
+'
+nsWebBrowserPersist
+.
+cpp
+'
+]

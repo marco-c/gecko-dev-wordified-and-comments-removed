@@ -108,3 +108,13 @@ nsDocShellCID
 h
 '
 ]
+CPP_SOURCES
++
+=
+[
+'
+nsDocShellModule
+.
+cpp
+'
+]

@@ -100,3 +100,13 @@ webapprt
 -
 stub
 '
+CPP_SOURCES
++
+=
+[
+'
+webapprt
+.
+cpp
+'
+]

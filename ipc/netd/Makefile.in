@@ -91,17 +91,6 @@ LIBXUL_LIBRARY
 EXPORT_LIBRARY
 =
 1
-CPPSRCS
-+
-=
-\
-Netd
-.
-cpp
-\
-(
-NULL
-)
 include
 (
 topsrcdir

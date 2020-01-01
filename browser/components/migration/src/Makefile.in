@@ -115,12 +115,6 @@ OS_ARCH
 )
 WINNT
 )
-CPPSRCS
-+
-=
-nsIEHistoryEnumerator
-.
-cpp
 EXTRA_COMPONENTS
 +
 =

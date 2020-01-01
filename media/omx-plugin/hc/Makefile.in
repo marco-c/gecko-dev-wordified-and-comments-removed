@@ -202,16 +202,6 @@ NO_DIST_INSTALL
 NO_INSTALL
 =
 1
-CPPSRCS
-=
-\
-OmxPluginHoneycomb
-.
-cpp
-\
-(
-NULL
-)
 include
 (
 topsrcdir

@@ -90,16 +90,6 @@ nsAndroidProxyModule
 LIBXUL_LIBRARY
 =
 1
-CPPSRCS
-=
-\
-nsAndroidSystemProxySettings
-.
-cpp
-\
-(
-NULL
-)
 include
 (
 topsrcdir

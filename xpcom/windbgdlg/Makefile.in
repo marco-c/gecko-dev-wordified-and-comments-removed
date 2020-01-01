@@ -82,11 +82,6 @@ windbgdlg
 (
 BIN_SUFFIX
 )
-CPPSRCS
-=
-windbgdlg
-.
-cpp
 MOZ_WINCONSOLE
 =
 0

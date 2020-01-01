@@ -100,16 +100,6 @@ dom
 config
 .
 mk
-CPPSRCS
-=
-\
-CellBroadcast
-.
-cpp
-\
-(
-NULL
-)
 include
 (
 topsrcdir

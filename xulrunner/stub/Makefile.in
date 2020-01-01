@@ -97,11 +97,6 @@ on
 mozglue
 MOZ_GLUE_LDFLAGS
 =
-CPPSRCS
-=
-nsXULStub
-.
-cpp
 LOCAL_INCLUDES
 =
 \

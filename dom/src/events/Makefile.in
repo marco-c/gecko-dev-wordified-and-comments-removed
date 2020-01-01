@@ -86,16 +86,6 @@ jsdomevents_s
 LIBXUL_LIBRARY
 =
 1
-CPPSRCS
-=
-\
-nsJSEventListener
-.
-cpp
-\
-(
-NULL
-)
 #
 we
 don

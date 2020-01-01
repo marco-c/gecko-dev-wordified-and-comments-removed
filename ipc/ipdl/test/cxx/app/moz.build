@@ -103,3 +103,13 @@ PROGRAM
 '
 ipdlunittest
 '
+CPP_SOURCES
++
+=
+[
+'
+TestIPDL
+.
+cpp
+'
+]

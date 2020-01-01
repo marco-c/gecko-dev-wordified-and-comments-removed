@@ -100,16 +100,6 @@ dom
 config
 .
 mk
-CPPSRCS
-=
-\
-BatteryManager
-.
-cpp
-\
-(
-NULL
-)
 LOCAL_INCLUDES
 =
 \

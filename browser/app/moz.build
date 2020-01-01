@@ -111,3 +111,13 @@ CONFIG
 MOZ_APP_NAME
 '
 ]
+CPP_SOURCES
++
+=
+[
+'
+nsBrowserApp
+.
+cpp
+'
+]

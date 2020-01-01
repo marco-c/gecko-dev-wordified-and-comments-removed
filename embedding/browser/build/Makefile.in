@@ -91,16 +91,6 @@ EXPORT_LIBRARY
 LIBXUL_LIBRARY
 =
 1
-CPPSRCS
-=
-\
-nsWebBrowserModule
-.
-cpp
-\
-(
-NULL
-)
 SHARED_LIBRARY_LIBS
 =
 \
