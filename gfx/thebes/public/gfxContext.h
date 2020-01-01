@@ -409,6 +409,10 @@ UserToDevicePixelSnapped
 gfxRect
 &
 rect
+PRBool
+ignoreScale
+=
+PR_FALSE
 )
 const
 ;
