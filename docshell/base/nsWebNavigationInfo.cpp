@@ -223,7 +223,6 @@ pluginHost
 >
 ReloadPlugins
 (
-false
 )
 ;
 if

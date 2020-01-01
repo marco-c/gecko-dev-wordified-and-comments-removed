@@ -4952,7 +4952,6 @@ pluginHost
 >
 ReloadPlugins
 (
-reloadPages
 )
 ;
 }

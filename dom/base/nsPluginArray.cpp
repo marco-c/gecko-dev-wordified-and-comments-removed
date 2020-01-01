@@ -875,7 +875,6 @@ mPluginHost
 >
 ReloadPlugins
 (
-aReloadDocuments
 )
 ;
 pluginsNotChanged
