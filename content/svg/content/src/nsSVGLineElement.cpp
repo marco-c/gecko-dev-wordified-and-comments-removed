@@ -89,7 +89,7 @@ nsSVGLineElementBase
 :
 :
 )
-NS_IMETHODIMP_
+NS_IMETHOD_
 (
 PRBool
 )
