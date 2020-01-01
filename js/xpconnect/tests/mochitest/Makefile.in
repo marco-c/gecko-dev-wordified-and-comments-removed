@@ -374,6 +374,10 @@ test_bug829872
 .
 html
 \
+file_bug860494
+.
+html
+\
 test_bug862380
 .
 html
