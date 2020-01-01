@@ -23775,10 +23775,9 @@ return
 JS_ASSERT
 (
 !
-cx
--
->
-rootingUnnecessary
+InNoGCScope
+(
+)
 )
 ;
 if
