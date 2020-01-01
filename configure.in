@@ -8110,10 +8110,6 @@ AC_DEFINE
 (
 HAVE_ISATTY
 )
-AC_DEFINE
-(
-HAVE_STDCALL
-)
 fi
 fi
 #
@@ -19781,6 +19777,11 @@ CXXFLAGS
 -
 mstackrealign
 "
+else
+AC_DEFINE
+(
+HAVE_STDCALL
+)
 fi
 MOZ_CHECK_HEADERS
 (
