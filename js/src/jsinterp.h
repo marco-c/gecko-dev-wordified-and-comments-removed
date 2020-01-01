@@ -1033,7 +1033,7 @@ cx
 JSStackFrame
 *
 stopFp
-uintptr_t
+uintN
 inlineCallCount
 =
 0

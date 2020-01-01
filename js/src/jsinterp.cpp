@@ -10797,7 +10797,7 @@ cx
 JSStackFrame
 *
 entryFrame
-uintptr_t
+uintN
 inlineCallCount
 )
 {

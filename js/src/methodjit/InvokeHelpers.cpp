@@ -4048,7 +4048,7 @@ scriptedReturn
 bool
 blacklist
 ;
-uintptr_t
+uintN
 inlineCallCount
 =
 f

@@ -33708,7 +33708,7 @@ cx
 TreeFragment
 *
 f
-uintptr_t
+uintN
 &
 inlineCallCount
 VMSideExit
@@ -33751,7 +33751,7 @@ cx
 TraceRecorder
 *
 r
-uintptr_t
+uintN
 &
 inlineCallCount
 )
@@ -34189,7 +34189,7 @@ attemptTreeCall
 TreeFragment
 *
 f
-uintptr_t
+uintN
 &
 inlineCallCount
 )
@@ -34276,7 +34276,7 @@ f
 #
 ifdef
 DEBUG
-uintptr_t
+uintN
 oldInlineCallCount
 =
 inlineCallCount
@@ -36131,7 +36131,7 @@ tm
 TreeFragment
 *
 f
-uintptr_t
+uintN
 &
 inlineCallCount
 VMSideExit
@@ -87536,7 +87536,7 @@ MonitorTracePoint
 JSContext
 *
 cx
-uintptr_t
+uintN
 &
 inlineCallCount
 bool
