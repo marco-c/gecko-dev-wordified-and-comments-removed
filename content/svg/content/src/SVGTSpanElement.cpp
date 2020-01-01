@@ -146,7 +146,7 @@ bool
 SVGTSpanElement
 :
 :
-IsEventName
+IsEventAttributeName
 (
 nsIAtom
 *

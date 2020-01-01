@@ -295,7 +295,7 @@ bool
 SVGAltGlyphElement
 :
 :
-IsEventName
+IsEventAttributeName
 (
 nsIAtom
 *
