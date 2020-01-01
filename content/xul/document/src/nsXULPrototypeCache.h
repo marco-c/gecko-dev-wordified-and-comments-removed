@@ -95,15 +95,6 @@ h
 class
 nsCSSStyleSheet
 ;
-struct
-CacheScriptEntry
-{
-JSScript
-*
-mScriptObject
-;
-}
-;
 class
 nsXULPrototypeCache
 :
@@ -405,7 +396,8 @@ mStyleSheetTable
 nsDataHashtable
 <
 nsURIHashKey
-CacheScriptEntry
+JSScript
+*
 >
 mScriptTable
 ;
