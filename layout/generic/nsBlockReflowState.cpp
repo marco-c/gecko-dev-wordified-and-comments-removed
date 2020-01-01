@@ -114,9 +114,7 @@ aReflowState
 )
 mOverflowTracker
 (
-aPresContext
-aFrame
-PR_FALSE
+nsnull
 )
 mPrevBottomMargin
 (

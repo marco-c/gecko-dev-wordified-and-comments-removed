@@ -552,6 +552,7 @@ aFloatCont
 ;
 }
 nsOverflowContinuationTracker
+*
 mOverflowTracker
 ;
 nsLineList

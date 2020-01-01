@@ -1484,7 +1484,8 @@ kidNextInFlow
 aState
 .
 mOverflowTracker
-.
+-
+>
 Finish
 (
 mFrame
