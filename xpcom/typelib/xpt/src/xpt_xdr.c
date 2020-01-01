@@ -2107,7 +2107,7 @@ str
 >
 length
 +
-2
+2u
 my_cursor
 already
 )
