@@ -1321,7 +1321,7 @@ inflation
 nsLayoutUtils
 :
 :
-FontSizeInflationInner
+FontSizeInflationFor
 (
 this
 nsLayoutUtils
