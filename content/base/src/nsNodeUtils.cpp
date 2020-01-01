@@ -2057,9 +2057,14 @@ cx
 nsresult
 rv
 ;
-JSObject
-*
+JS
+:
+:
+RootedObject
 wrapper
+(
+cx
+)
 ;
 bool
 isDOMBinding
