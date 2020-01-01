@@ -4337,7 +4337,6 @@ VERSION
 .
 SDK_INT
 >
-=
 8
 )
 {
