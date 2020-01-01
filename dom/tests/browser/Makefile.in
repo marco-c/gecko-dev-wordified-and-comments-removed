@@ -459,6 +459,14 @@ browser_autofocus_preference
 .
 js
 \
+browser_643083
+.
+js
+\
+test_643083
+.
+xul
+\
 (
 NULL
 )
