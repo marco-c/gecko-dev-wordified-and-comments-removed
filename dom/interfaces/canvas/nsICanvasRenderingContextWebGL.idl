@@ -4160,7 +4160,7 @@ WebGLint
 params
 )
 ;
-void
+nsIVariant
 getBufferParameter
 (
 in
@@ -4194,7 +4194,7 @@ WebGLint
 params
 )
 ;
-void
+nsIVariant
 getFramebufferAttachmentParameter
 (
 in
@@ -4224,7 +4224,7 @@ WebGLint
 params
 )
 ;
-void
+nsIVariant
 getProgramParameter
 (
 in
@@ -4291,7 +4291,7 @@ WebGLenum
 pname
 )
 ;
-void
+nsIVariant
 getRenderbufferParameter
 (
 in
@@ -4302,7 +4302,7 @@ WebGLenum
 pname
 )
 ;
-void
+nsIVariant
 getShaderParameter
 (
 in
@@ -4368,7 +4368,7 @@ nsIWebGLShader
 shader
 )
 ;
-void
+nsIVariant
 getTexParameter
 (
 in
