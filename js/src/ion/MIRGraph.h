@@ -463,6 +463,13 @@ pop
 )
 ;
 void
+popn
+(
+uint32_t
+n
+)
+;
+void
 add
 (
 MInstruction
