@@ -909,7 +909,7 @@ fp_
 *
 /
 ba
-JaegerInterpoline
+interpoline_enter
 nop
 .
 size
@@ -931,6 +931,8 @@ JaegerInterpoline
 #
 function
 JaegerInterpoline
+:
+interpoline_enter
 :
 mov
 %
