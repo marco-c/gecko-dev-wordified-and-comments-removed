@@ -17311,6 +17311,15 @@ libstdc
 +
 +
 "
+NSPR_LDFLAGS
+=
+"
+NSPR_LDFLAGS
+-
+static
+-
+libgcc
+"
 #
 Use
 temp
