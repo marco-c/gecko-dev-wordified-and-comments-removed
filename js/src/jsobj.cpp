@@ -19622,11 +19622,8 @@ shape
 getUserId
 (
 cx
+&
 userid
-.
-address
-(
-)
 )
 )
 return

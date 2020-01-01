@@ -8181,8 +8181,11 @@ shapeMismatches
 }
 else
 {
-jsid
+RootedId
 userid
+(
+cx
+)
 ;
 if
 (

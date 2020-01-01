@@ -2653,8 +2653,11 @@ StackPointer
 argVpReg
 )
 ;
-jsid
+RootedId
 propId
+(
+cx
+)
 ;
 if
 (
@@ -6050,8 +6053,11 @@ strict
 argStrictReg
 )
 ;
-jsid
+RootedId
 propId
+(
+cx
+)
 ;
 if
 (
