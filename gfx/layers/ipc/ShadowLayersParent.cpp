@@ -2237,7 +2237,7 @@ newFrontBuffer
 (
 )
 ;
-SurfaceDescriptor
+SharedImage
 newBack
 ;
 image
@@ -2260,6 +2260,10 @@ newFront
 =
 =
 newBack
+.
+get_SurfaceDescriptor
+(
+)
 )
 {
 newFront

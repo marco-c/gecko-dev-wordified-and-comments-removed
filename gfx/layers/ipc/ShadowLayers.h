@@ -81,6 +81,9 @@ class
 Transaction
 ;
 class
+SharedImage
+;
+class
 ShadowLayerForwarder
 {
 public
@@ -1246,7 +1249,7 @@ PRBool
 Init
 (
 const
-SurfaceDescriptor
+SharedImage
 &
 front
 const
@@ -1262,10 +1265,10 @@ void
 Swap
 (
 const
-SurfaceDescriptor
+SharedImage
 &
 aFront
-SurfaceDescriptor
+SharedImage
 *
 aNewBack
 )

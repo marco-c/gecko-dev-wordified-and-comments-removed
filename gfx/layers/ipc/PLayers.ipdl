@@ -698,6 +698,13 @@ SurfaceDescriptorX11
 ;
 }
 ;
+union
+SharedImage
+{
+SurfaceDescriptor
+;
+}
+;
 struct
 ThebesBuffer
 {
@@ -780,7 +787,7 @@ layer
 nsIntSize
 size
 ;
-SurfaceDescriptor
+SharedImage
 initialFront
 ;
 }
@@ -1007,7 +1014,7 @@ OpPaintImage
 PLayer
 layer
 ;
-SurfaceDescriptor
+SharedImage
 newFrontBuffer
 ;
 }
