@@ -14,13 +14,6 @@ h
 #
 include
 "
-nsIEventStateManager
-.
-h
-"
-#
-include
-"
 nsISupportsArray
 .
 h
@@ -30,6 +23,9 @@ nsRuleNode
 ;
 class
 nsStyleContext
+;
+class
+nsIContent
 ;
 class
 inDOMUtils

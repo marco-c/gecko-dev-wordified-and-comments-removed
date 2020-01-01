@@ -122,7 +122,7 @@ endif
 #
 include
 "
-nsIEventStateManager
+nsEventStates
 .
 h
 "

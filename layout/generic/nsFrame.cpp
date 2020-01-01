@@ -251,7 +251,7 @@ h
 #
 include
 "
-nsIEventStateManager
+nsEventStateManager
 .
 h
 "
@@ -9180,9 +9180,9 @@ return
 NS_OK
 ;
 }
-PRBool
-eventOK
-;
+if
+(
+!
 aPresContext
 -
 >
@@ -9194,14 +9194,7 @@ EventStateManager
 EventStatusOK
 (
 aEvent
-&
-eventOK
 )
-;
-if
-(
-!
-eventOK
 )
 return
 NS_OK

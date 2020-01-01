@@ -1361,8 +1361,6 @@ nsIFrame
 *
 targetFrame
 =
-nsnull
-;
 mPresContext
 -
 >
@@ -1373,8 +1371,6 @@ EventStateManager
 >
 GetEventTarget
 (
-&
-targetFrame
 )
 ;
 if

@@ -85,7 +85,7 @@ h
 #
 include
 "
-nsIEventStateManager
+nsEventStateManager
 .
 h
 "
@@ -4284,7 +4284,7 @@ presContext
 )
 return
 ;
-nsIEventStateManager
+nsEventStateManager
 *
 esm
 =

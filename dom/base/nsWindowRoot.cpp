@@ -71,13 +71,6 @@ h
 #
 include
 "
-nsIEventStateManager
-.
-h
-"
-#
-include
-"
 nsIPrivateDOMEvent
 .
 h
