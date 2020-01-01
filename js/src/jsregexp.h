@@ -79,12 +79,6 @@ cx
 JSRegExpStatics
 *
 statics
-js
-:
-:
-AutoValueRooter
-*
-tvr
 )
 ;
 typedef

@@ -27891,9 +27891,6 @@ cx
 JSRegExpStatics
 *
 statics
-AutoValueRooter
-*
-tvr
 )
 {
 cx
