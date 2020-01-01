@@ -3961,8 +3961,8 @@ kFontSmoothingKTable
 {
 eCSSKeyword_auto
 NS_FONT_SMOOTHING_AUTO
-eCSSKeyword_grayscale
-NS_FONT_SMOOTHING_GRAYSCALE
+eCSSKeyword_antialiased
+NS_FONT_SMOOTHING_ANTIALIASED
 eCSSKeyword_UNKNOWN
 -
 1
