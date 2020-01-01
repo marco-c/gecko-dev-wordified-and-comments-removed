@@ -529,7 +529,7 @@ JSDHashEntryHdr
 to
 )
 {
-js_memcpy
+memcpy
 (
 to
 from

@@ -1,5 +1,12 @@
 #
 include
+<
+string
+.
+h
+>
+#
+include
 "
 mozilla
 /

@@ -813,7 +813,7 @@ T
 1
 )
 {
-js_memcpy
+memcpy
 (
 p
 point
@@ -1302,7 +1302,7 @@ T
 1
 )
 {
-js_memcpy
+memcpy
 (
 q
 p

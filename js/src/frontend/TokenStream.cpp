@@ -1971,11 +1971,16 @@ goto
 out
 ;
 }
-PodCopy
+memcpy
 (
 linechars
 linebase
 linelength
+*
+sizeof
+(
+jschar
+)
 )
 ;
 linechars

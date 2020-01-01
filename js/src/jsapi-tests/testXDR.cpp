@@ -184,7 +184,7 @@ CHECK
 frozen
 )
 ;
-js_memcpy
+memcpy
 (
 frozen
 p
@@ -386,7 +386,7 @@ CHECK
 frozen
 )
 ;
-js_memcpy
+memcpy
 (
 frozen
 p

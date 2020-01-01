@@ -517,11 +517,16 @@ node
 return
 NULL
 ;
-PodAssign
+memcpy
 (
 node
 &
 other
+sizeof
+(
+*
+node
+)
 )
 ;
 return
