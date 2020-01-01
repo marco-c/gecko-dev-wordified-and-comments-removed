@@ -146,7 +146,6 @@ DebuggerServer
 openListener
 (
 2929
-true
 )
 ;
 let
