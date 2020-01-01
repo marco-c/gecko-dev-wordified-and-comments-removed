@@ -24981,6 +24981,7 @@ ja
 "
 Droid
 Sans
+Japanese
 "
 )
 ;
