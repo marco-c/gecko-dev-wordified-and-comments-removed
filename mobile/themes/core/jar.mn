@@ -14,6 +14,10 @@ classic
 .
 0
 %
+skin
+/
+skin
+/
 aboutCertError
 .
 css
@@ -22,6 +26,8 @@ aboutCertError
 .
 css
 )
+skin
+/
 aboutPage
 .
 css
@@ -30,6 +36,8 @@ aboutPage
 .
 css
 )
+skin
+/
 about
 .
 css
@@ -38,6 +46,8 @@ about
 .
 css
 )
+skin
+/
 aboutHome
 .
 css
@@ -46,6 +56,8 @@ aboutHome
 .
 css
 )
+skin
+/
 aboutTabs
 .
 css
@@ -54,6 +66,8 @@ aboutTabs
 .
 css
 )
+skin
+/
 config
 .
 css
@@ -62,6 +76,8 @@ config
 .
 css
 )
+skin
+/
 firstRun
 .
 css
@@ -70,6 +86,8 @@ firstRun
 .
 css
 )
+skin
+/
 header
 .
 css
@@ -78,6 +96,8 @@ header
 .
 css
 )
+skin
+/
 platform
 .
 css
@@ -86,6 +106,8 @@ platform
 .
 css
 )
+skin
+/
 browser
 .
 css
@@ -94,6 +116,8 @@ browser
 .
 css
 )
+skin
+/
 notification
 .
 css
@@ -126,6 +150,8 @@ skin
 about
 .
 css
+skin
+/
 images
 /
 addons
@@ -138,6 +164,8 @@ addons
 .
 png
 )
+skin
+/
 images
 /
 weave
@@ -150,6 +178,8 @@ weave
 .
 png
 )
+skin
+/
 images
 /
 aboutBackground
@@ -162,6 +192,8 @@ aboutBackground
 .
 png
 )
+skin
+/
 images
 /
 panel
@@ -178,6 +210,8 @@ shadow
 .
 png
 )
+skin
+/
 images
 /
 addons
@@ -194,6 +228,8 @@ addons
 .
 png
 )
+skin
+/
 images
 /
 arrowleft
@@ -210,6 +246,8 @@ arrowleft
 .
 png
 )
+skin
+/
 images
 /
 arrowright
@@ -226,6 +264,8 @@ arrowright
 .
 png
 )
+skin
+/
 images
 /
 arrowup
@@ -242,6 +282,8 @@ arrowup
 .
 png
 )
+skin
+/
 images
 /
 arrowdown
@@ -258,6 +300,8 @@ arrowdown
 .
 png
 )
+skin
+/
 images
 /
 arrowleftdark
@@ -274,6 +318,8 @@ arrowleftdark
 .
 png
 )
+skin
+/
 images
 /
 arrowrightdark
@@ -290,6 +336,8 @@ arrowrightdark
 .
 png
 )
+skin
+/
 images
 /
 arrowupdark
@@ -306,6 +354,8 @@ arrowupdark
 .
 png
 )
+skin
+/
 images
 /
 arrowdowndark
@@ -322,6 +372,8 @@ arrowdowndark
 .
 png
 )
+skin
+/
 images
 /
 check
@@ -342,6 +394,8 @@ selected
 .
 png
 )
+skin
+/
 images
 /
 check
@@ -362,6 +416,8 @@ unselected
 .
 png
 )
+skin
+/
 images
 /
 dropmarker
@@ -378,6 +434,8 @@ dropmarker
 .
 png
 )
+skin
+/
 images
 /
 dropmarker
@@ -398,6 +456,8 @@ disabled
 .
 png
 )
+skin
+/
 images
 /
 ratings
@@ -414,6 +474,8 @@ ratings
 .
 png
 )
+skin
+/
 images
 /
 favicon
@@ -434,6 +496,8 @@ default
 .
 png
 )
+skin
+/
 images
 /
 star
@@ -450,6 +514,8 @@ star
 .
 png
 )
+skin
+/
 images
 /
 star
@@ -466,6 +532,8 @@ star
 .
 png
 )
+skin
+/
 images
 /
 throbber
@@ -478,6 +546,8 @@ throbber
 .
 png
 )
+skin
+/
 images
 /
 navigation
@@ -498,6 +568,8 @@ magnifier
 .
 png
 )
+skin
+/
 images
 /
 folder
@@ -514,6 +586,8 @@ folder
 .
 png
 )
+skin
+/
 images
 /
 stop
@@ -530,6 +604,8 @@ stop
 .
 png
 )
+skin
+/
 images
 /
 reload
@@ -546,6 +622,8 @@ reload
 .
 png
 )
+skin
+/
 images
 /
 go
@@ -562,6 +640,8 @@ go
 .
 png
 )
+skin
+/
 images
 /
 alert
@@ -582,16 +662,8 @@ addons
 .
 png
 )
-images
+skin
 /
-alert
--
-downloads
--
-30
-.
-png
-(
 images
 /
 alert
@@ -601,7 +673,19 @@ downloads
 30
 .
 png
+(
+images
+/
+alert
+-
+downloads
+-
+30
+.
+png
 )
+skin
+/
 images
 /
 addons
@@ -622,6 +706,8 @@ default
 .
 png
 )
+skin
+/
 images
 /
 addons
@@ -642,6 +728,8 @@ active
 .
 png
 )
+skin
+/
 images
 /
 back
@@ -662,6 +750,8 @@ default
 .
 png
 )
+skin
+/
 images
 /
 back
@@ -682,6 +772,8 @@ active
 .
 png
 )
+skin
+/
 images
 /
 back
@@ -702,6 +794,8 @@ disabled
 .
 png
 )
+skin
+/
 images
 /
 bookmark
@@ -722,6 +816,8 @@ default
 .
 png
 )
+skin
+/
 images
 /
 bookmark
@@ -742,6 +838,8 @@ active
 .
 png
 )
+skin
+/
 images
 /
 bookmarks
@@ -758,6 +856,8 @@ bookmarks
 .
 png
 )
+skin
+/
 images
 /
 bookmarked
@@ -778,6 +878,8 @@ default
 .
 png
 )
+skin
+/
 images
 /
 bookmarked
@@ -798,6 +900,8 @@ active
 .
 png
 )
+skin
+/
 images
 /
 forward
@@ -818,6 +922,8 @@ default
 .
 png
 )
+skin
+/
 images
 /
 forward
@@ -838,6 +944,8 @@ active
 .
 png
 )
+skin
+/
 images
 /
 forward
@@ -858,6 +966,8 @@ disabled
 .
 png
 )
+skin
+/
 images
 /
 downloads
@@ -878,6 +988,8 @@ default
 .
 png
 )
+skin
+/
 images
 /
 downloads
@@ -898,6 +1010,8 @@ active
 .
 png
 )
+skin
+/
 images
 /
 settings
@@ -918,6 +1032,8 @@ default
 .
 png
 )
+skin
+/
 images
 /
 settings
@@ -938,6 +1054,8 @@ active
 .
 png
 )
+skin
+/
 images
 /
 settings
@@ -958,6 +1076,8 @@ open
 .
 png
 )
+skin
+/
 images
 /
 preferences
@@ -978,6 +1098,8 @@ default
 .
 png
 )
+skin
+/
 images
 /
 preferences
@@ -998,6 +1120,8 @@ active
 .
 png
 )
+skin
+/
 images
 /
 console
@@ -1018,6 +1142,8 @@ default
 .
 png
 )
+skin
+/
 images
 /
 console
@@ -1038,6 +1164,8 @@ active
 .
 png
 )
+skin
+/
 images
 /
 newtab
@@ -1058,6 +1186,8 @@ default
 .
 png
 )
+skin
+/
 images
 /
 newtab
@@ -1078,6 +1208,8 @@ active
 .
 png
 )
+skin
+/
 images
 /
 remotetabs
@@ -1098,6 +1230,8 @@ default
 .
 png
 )
+skin
+/
 images
 /
 remotetabs
@@ -1118,6 +1252,8 @@ active
 .
 png
 )
+skin
+/
 images
 /
 remotetabs
@@ -1138,6 +1274,8 @@ disabled
 .
 png
 )
+skin
+/
 images
 /
 remotetabs
@@ -1154,6 +1292,8 @@ remotetabs
 .
 png
 )
+skin
+/
 images
 /
 tab
@@ -1170,6 +1310,8 @@ tab
 .
 png
 )
+skin
+/
 images
 /
 mozilla
@@ -1186,6 +1328,8 @@ mozilla
 .
 png
 )
+skin
+/
 images
 /
 leftcap
@@ -1206,6 +1350,8 @@ default
 .
 png
 )
+skin
+/
 images
 /
 leftcap
@@ -1226,6 +1372,8 @@ active
 .
 png
 )
+skin
+/
 images
 /
 leftcapEV
@@ -1246,6 +1394,8 @@ default
 .
 png
 )
+skin
+/
 images
 /
 leftcapEV
@@ -1266,6 +1416,8 @@ active
 .
 png
 )
+skin
+/
 images
 /
 leftcapSSL
@@ -1286,6 +1438,8 @@ default
 .
 png
 )
+skin
+/
 images
 /
 leftcapSSL
@@ -1306,6 +1460,8 @@ active
 .
 png
 )
+skin
+/
 images
 /
 rightcap
@@ -1326,6 +1482,8 @@ default
 .
 png
 )
+skin
+/
 images
 /
 rightcap
@@ -1346,6 +1504,8 @@ active
 .
 png
 )
+skin
+/
 images
 /
 identity
@@ -1362,6 +1522,8 @@ identity
 .
 png
 )
+skin
+/
 images
 /
 identityEV
@@ -1378,6 +1540,8 @@ identityEV
 .
 png
 )
+skin
+/
 images
 /
 identitySSL
@@ -1394,6 +1558,8 @@ identitySSL
 .
 png
 )
+skin
+/
 images
 /
 toggleoff
@@ -1414,6 +1580,8 @@ active
 .
 png
 )
+skin
+/
 images
 /
 toggleoff
@@ -1434,6 +1602,8 @@ inactive
 .
 png
 )
+skin
+/
 images
 /
 toggleon
@@ -1454,6 +1624,8 @@ active
 .
 png
 )
+skin
+/
 images
 /
 toggleon
@@ -1474,6 +1646,8 @@ inactive
 .
 png
 )
+skin
+/
 images
 /
 toggleleft
@@ -1494,6 +1668,8 @@ active
 .
 png
 )
+skin
+/
 images
 /
 toggleleft
@@ -1514,6 +1690,8 @@ inactive
 .
 png
 )
+skin
+/
 images
 /
 togglemiddle
@@ -1534,6 +1712,8 @@ active
 .
 png
 )
+skin
+/
 images
 /
 togglemiddle
@@ -1554,6 +1734,8 @@ inactive
 .
 png
 )
+skin
+/
 images
 /
 toggleright
@@ -1574,6 +1756,8 @@ active
 .
 png
 )
+skin
+/
 images
 /
 toggleright
@@ -1594,6 +1778,8 @@ inactive
 .
 png
 )
+skin
+/
 images
 /
 toggleboth
@@ -1614,6 +1800,8 @@ active
 .
 png
 )
+skin
+/
 images
 /
 toggleboth
@@ -1634,6 +1822,8 @@ inactive
 .
 png
 )
+skin
+/
 images
 /
 toggledarkleft
@@ -1654,6 +1844,8 @@ active
 .
 png
 )
+skin
+/
 images
 /
 toggledarkleft
@@ -1674,6 +1866,8 @@ inactive
 .
 png
 )
+skin
+/
 images
 /
 toggledarkmiddle
@@ -1694,6 +1888,8 @@ active
 .
 png
 )
+skin
+/
 images
 /
 toggledarkmiddle
@@ -1714,6 +1910,8 @@ inactive
 .
 png
 )
+skin
+/
 images
 /
 toggledarkright
@@ -1734,6 +1932,8 @@ active
 .
 png
 )
+skin
+/
 images
 /
 toggledarkright
@@ -1754,6 +1954,8 @@ inactive
 .
 png
 )
+skin
+/
 images
 /
 toggledarkboth
@@ -1774,16 +1976,8 @@ active
 .
 png
 )
-images
+skin
 /
-toggledarkboth
--
-inactive
--
-64
-.
-png
-(
 images
 /
 toggledarkboth
@@ -1793,7 +1987,19 @@ inactive
 64
 .
 png
+(
+images
+/
+toggledarkboth
+-
+inactive
+-
+64
+.
+png
 )
+skin
+/
 images
 /
 button
@@ -1814,6 +2020,8 @@ default
 .
 png
 )
+skin
+/
 images
 /
 button
@@ -1834,6 +2042,8 @@ active
 .
 png
 )
+skin
+/
 images
 /
 buttondark
@@ -1854,6 +2064,8 @@ default
 .
 png
 )
+skin
+/
 images
 /
 buttondark
@@ -1874,6 +2086,8 @@ active
 .
 png
 )
+skin
+/
 images
 /
 toolbarbutton
@@ -1894,6 +2108,8 @@ default
 .
 png
 )
+skin
+/
 images
 /
 toolbarbutton
@@ -1914,6 +2130,8 @@ active
 .
 png
 )
+skin
+/
 images
 /
 lock
@@ -1930,6 +2148,8 @@ lock
 .
 png
 )
+skin
+/
 images
 /
 unlock
@@ -1946,6 +2166,8 @@ unlock
 .
 png
 )
+skin
+/
 images
 /
 close
@@ -1966,6 +2188,8 @@ default
 .
 png
 )
+skin
+/
 images
 /
 close
@@ -1986,6 +2210,8 @@ active
 .
 png
 )
+skin
+/
 images
 /
 check
@@ -2002,6 +2228,8 @@ check
 .
 png
 )
+skin
+/
 images
 /
 search
@@ -2022,6 +2250,8 @@ glass
 .
 png
 )
+skin
+/
 images
 /
 search
@@ -2042,6 +2272,8 @@ clear
 .
 png
 )
+skin
+/
 images
 /
 section
@@ -2062,6 +2294,8 @@ expanded
 .
 png
 )
+skin
+/
 images
 /
 section
@@ -2082,6 +2316,8 @@ collapsed
 .
 png
 )
+skin
+/
 images
 /
 task
@@ -2102,6 +2338,8 @@ switch
 .
 png
 )
+skin
+/
 images
 /
 task
@@ -2122,6 +2360,8 @@ close
 .
 png
 )
+skin
+/
 images
 /
 task
@@ -2142,6 +2382,8 @@ back
 .
 png
 )
+skin
+/
 images
 /
 geo
