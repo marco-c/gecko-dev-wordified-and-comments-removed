@@ -4360,7 +4360,10 @@ if
 srcObj
 -
 >
-isDate
+is
+<
+DateObject
+>
 (
 )
 )
@@ -4373,7 +4376,14 @@ cx
 srcObj
 -
 >
-getDateUTCTime
+as
+<
+DateObject
+>
+(
+)
+.
+UTCTime
 (
 )
 .
