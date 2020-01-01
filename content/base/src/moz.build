@@ -241,6 +241,11 @@ EXPORTS
 =
 [
 '
+nsDOMDataChannel
+.
+h
+'
+'
 nsDOMDataChannelDeclarations
 .
 h
