@@ -3917,7 +3917,17 @@ getColumnWidth
 else
 s
 =
+(
 width
+-
+getPaddingLeft
+(
+)
+-
+getPaddingRight
+(
+)
+)
 /
 mNumberOfCols
 ;
