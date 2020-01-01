@@ -523,6 +523,10 @@ test_events_caretmove
 .
 html
 \
+test_events_mutation
+.
+html
+\
 test_groupattrs
 .
 xul
