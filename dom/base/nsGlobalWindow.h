@@ -1731,6 +1731,12 @@ return
 mIsChrome
 ;
 }
+nsIScrollableFrame
+*
+GetScrollFrame
+(
+)
+;
 nsresult
 Observe
 (
@@ -2610,12 +2616,6 @@ nsIWebBrowserChrome
 *
 *
 aBrowserChrome
-)
-;
-nsIScrollableFrame
-*
-GetScrollFrame
-(
 )
 ;
 nsresult
