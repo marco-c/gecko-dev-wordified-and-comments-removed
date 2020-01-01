@@ -89,6 +89,16 @@ test
 (
 )
 {
+Services
+.
+prefs
+.
+setIntPref
+(
+PREF_SEARCH_MAXRESULTS
+15
+)
+;
 waitForExplicitFinish
 (
 )
