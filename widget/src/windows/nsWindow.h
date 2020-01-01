@@ -1962,6 +1962,16 @@ return
 msg
 ;
 }
+void
+ClearThemeRegion
+(
+)
+;
+void
+SetThemeRegion
+(
+)
+;
 private
 :
 #
@@ -2164,6 +2174,9 @@ gSwitchKeyboardLayout
 ;
 HKL
 mLastKeyboardLayout
+;
+nsPopupType
+mPopupType
 ;
 nsNativeDragTarget
 *
