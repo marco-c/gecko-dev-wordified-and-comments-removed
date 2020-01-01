@@ -254,12 +254,6 @@ mColorspace
 nsString
 mResolutionName
 ;
-int32_t
-mResolution
-;
-int32_t
-mDuplex
-;
 bool
 mDownloadFonts
 ;
