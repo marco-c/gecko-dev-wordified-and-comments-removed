@@ -1490,12 +1490,11 @@ ratings
 <
 !
 ENTITY
-rating
+rating2
 .
 label
 "
 Rating
-:
 "
 >
 <
