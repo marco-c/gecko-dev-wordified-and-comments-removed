@@ -3810,7 +3810,7 @@ aColumnIndex
 PRInt32
 indexInRow
 =
-GetIndexInParent
+IndexInParent
 (
 )
 ;
@@ -3969,7 +3969,7 @@ indexInTable
 row
 -
 >
-GetIndexInParent
+IndexInParent
 (
 )
 ;

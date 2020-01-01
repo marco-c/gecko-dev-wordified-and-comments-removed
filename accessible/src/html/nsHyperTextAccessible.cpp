@@ -4728,7 +4728,7 @@ accAtOffsetIdx
 accAtOffset
 -
 >
-GetIndexInParent
+IndexInParent
 (
 )
 ;
@@ -8914,7 +8914,7 @@ childIndex
 aAccessible
 -
 >
-GetIndexInParent
+IndexInParent
 (
 )
 ;

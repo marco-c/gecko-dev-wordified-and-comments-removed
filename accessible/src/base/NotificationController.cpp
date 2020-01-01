@@ -2088,7 +2088,7 @@ aTailEvent
 mAccessible
 -
 >
-GetIndexInParent
+IndexInParent
 (
 )
 =
@@ -2099,7 +2099,7 @@ aThisEvent
 mAccessible
 -
 >
-GetIndexInParent
+IndexInParent
 (
 )
 +
@@ -2130,7 +2130,7 @@ aTailEvent
 mAccessible
 -
 >
-GetIndexInParent
+IndexInParent
 (
 )
 =
@@ -2141,7 +2141,7 @@ aThisEvent
 mAccessible
 -
 >
-GetIndexInParent
+IndexInParent
 (
 )
 -

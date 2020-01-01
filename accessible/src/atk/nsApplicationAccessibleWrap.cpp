@@ -2826,7 +2826,7 @@ index
 aChild
 -
 >
-GetIndexInParent
+IndexInParent
 (
 )
 ;

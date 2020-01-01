@@ -3840,7 +3840,7 @@ PRInt32
 nsXULTreeItemAccessibleBase
 :
 :
-GetIndexInParent
+IndexInParent
 (
 )
 const
@@ -4004,7 +4004,7 @@ mParent
 >
 GetChildAt
 (
-GetIndexInParent
+IndexInParent
 (
 )
 +

@@ -509,7 +509,7 @@ aChild
 ;
 virtual
 PRInt32
-GetIndexInParent
+IndexInParent
 (
 )
 const

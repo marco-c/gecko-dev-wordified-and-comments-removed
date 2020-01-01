@@ -66,7 +66,7 @@ indexInParent
 aItem
 -
 >
-GetIndexInParent
+IndexInParent
 (
 )
 ;
