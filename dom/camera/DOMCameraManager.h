@@ -140,8 +140,6 @@ nsDOMCameraManager
 MOZ_FINAL
 :
 public
-nsIDOMCameraManager
-public
 nsIObserver
 public
 nsSupportsWeakReference
@@ -154,9 +152,8 @@ NS_DECL_CYCLE_COLLECTING_ISUPPORTS
 NS_DECL_CYCLE_COLLECTION_SCRIPT_HOLDER_CLASS_AMBIGUOUS
 (
 nsDOMCameraManager
-nsIDOMCameraManager
+nsIObserver
 )
-NS_DECL_NSIDOMCAMERAMANAGER
 NS_DECL_NSIOBSERVER
 static
 already_AddRefed
