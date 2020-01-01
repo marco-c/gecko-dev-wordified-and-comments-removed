@@ -3994,3 +3994,15 @@ disable_window_open_dialog_feature
 true
 )
 ;
+pref
+(
+"
+accessibility
+.
+accessfu
+.
+activate
+"
+2
+)
+;
