@@ -2382,8 +2382,6 @@ doesn
 '
 t
 support
-"
-"
 nsIUploadChannel2
 .
 An
@@ -2391,8 +2389,6 @@ extension
 has
 supplied
 a
-"
-"
 non
 -
 functional
@@ -2403,8 +2399,6 @@ handler
 This
 will
 break
-"
-"
 behavior
 and
 in

@@ -8954,8 +8954,6 @@ t
 support
 nsIUploadChannel2
 .
-"
-"
 An
 extension
 has
@@ -8968,8 +8966,6 @@ http
 protocol
 handler
 .
-"
-"
 This
 will
 break
