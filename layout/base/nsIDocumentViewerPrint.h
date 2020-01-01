@@ -156,9 +156,6 @@ virtual
 void
 SetPrintPreviewPresentation
 (
-nsIWidget
-*
-aWidget
 nsIViewManager
 *
 aViewManager
@@ -268,10 +265,6 @@ virtual
 void
 SetPrintPreviewPresentation
 (
-nsIWidget
-*
-aWidget
-\
 nsIViewManager
 *
 aViewManager
