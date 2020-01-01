@@ -23354,7 +23354,7 @@ type
 Type
 :
 :
-Int
+Intish
 ;
 }
 return
@@ -23433,7 +23433,7 @@ type
 Type
 :
 :
-Int
+Intish
 ;
 }
 return
