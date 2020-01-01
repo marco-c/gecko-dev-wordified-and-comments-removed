@@ -18,6 +18,15 @@ include
 "
 mozilla
 /
+NullPtr
+.
+h
+"
+#
+include
+"
+mozilla
+/
 Types
 .
 h
@@ -52,7 +61,7 @@ GuardObjectNotifier
 :
 statementDone
 (
-NULL
+nullptr
 )
 {
 }
