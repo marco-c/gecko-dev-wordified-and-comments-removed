@@ -199,6 +199,12 @@ return
 mDrawable
 ;
 }
+XRenderPictFormat
+*
+XRenderFormat
+(
+)
+;
 static
 int
 DepthOfVisual
