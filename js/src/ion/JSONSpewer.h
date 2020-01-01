@@ -216,6 +216,14 @@ mir
 )
 ;
 void
+spewLIns
+(
+LInstruction
+*
+ins
+)
+;
+void
 spewLIR
 (
 MIRGraph
