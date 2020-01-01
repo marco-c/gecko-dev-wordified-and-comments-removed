@@ -609,7 +609,7 @@ int64_t
 aTimeThreshold
 )
 ;
-int64_t
+bool
 ReadOggPage
 (
 ogg_page
@@ -699,9 +699,6 @@ mOpusPreSkip
 ;
 th_info
 mTheoraInfo
-;
-int64_t
-mPageOffset
 ;
 nsIntRect
 mPicture
