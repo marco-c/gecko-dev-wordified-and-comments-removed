@@ -76,6 +76,17 @@ HWND
 aWnd
 )
 ;
+#
+ifdef
+DEBUG
+static
+bool
+CurrentKeyboardLayoutHasIME
+(
+)
+;
+#
+endif
 private
 :
 #

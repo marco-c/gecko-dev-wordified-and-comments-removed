@@ -2121,10 +2121,10 @@ mNativeIMEContext
 |
 |
 !
-nsIMM32Handler
+IMEHandler
 :
 :
-IsIMEAvailable
+CurrentKeyboardLayoutHasIME
 (
 )
 )
@@ -30440,10 +30440,10 @@ ret
 |
 |
 !
-nsIMM32Handler
+IMEHandler
 :
 :
-IsIMEAvailable
+CurrentKeyboardLayoutHasIME
 (
 )
 "
