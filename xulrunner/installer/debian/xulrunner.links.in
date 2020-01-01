@@ -1,9 +1,7 @@
-/
-usr
-/
-local
-/
-xulrunner
+#
+filter
+substitution
+installdir
 /
 xulrunner
 /
