@@ -89,6 +89,10 @@ addon
 -
 container
 {
+overflow
+:
+visible
+;
 max
 -
 width
