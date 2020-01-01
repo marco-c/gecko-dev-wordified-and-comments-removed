@@ -7922,6 +7922,14 @@ if
 mStopRequestIssued
 )
 {
+mFinalFileDestination
+-
+>
+SetPermissions
+(
+0400
+)
+;
 rv
 =
 mMimeInfo
