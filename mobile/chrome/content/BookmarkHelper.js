@@ -338,7 +338,7 @@ setTimeout
 (
 waitForWidget
 0
-this
+self
 )
 ;
 }
