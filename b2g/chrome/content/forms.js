@@ -2912,6 +2912,17 @@ fa_updateSelection
 (
 )
 {
+if
+(
+!
+this
+.
+focusedElement
+)
+{
+return
+;
+}
 let
 selectionInfo
 =
