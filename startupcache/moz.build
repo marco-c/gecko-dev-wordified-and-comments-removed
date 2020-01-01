@@ -93,6 +93,15 @@ MPL
 0
 /
 .
+if
+not
+CONFIG
+[
+'
+MOZ_B2G
+'
+]
+:
 TEST_TOOL_DIRS
 +
 =
