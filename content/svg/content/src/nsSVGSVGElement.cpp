@@ -631,7 +631,7 @@ nsIDOMSVGZoomAndPan
 SVG_ZOOMANDPAN_MAGNIFY
 }
 {
-nullptr
+nsnull
 0
 }
 }
@@ -782,7 +782,7 @@ aNodeInfo
 )
 mCoordCtx
 (
-nullptr
+nsnull
 )
 mViewportWidth
 (
@@ -864,7 +864,7 @@ const
 *
 aResult
 =
-nullptr
+nsnull
 ;
 nsCOMPtr
 <
@@ -898,7 +898,7 @@ kungFuDeathGrip
 it
 ;
 nsresult
-rv
+rv1
 =
 it
 -
@@ -907,8 +907,8 @@ Init
 (
 )
 ;
-rv
-|
+nsresult
+rv2
 =
 const_cast
 <
@@ -929,7 +929,13 @@ if
 (
 NS_SUCCEEDED
 (
-rv
+rv1
+)
+&
+&
+NS_SUCCEEDED
+(
+rv2
 )
 )
 {
@@ -943,7 +949,14 @@ aResult
 ;
 }
 return
-rv
+NS_FAILED
+(
+rv1
+)
+?
+rv1
+:
+rv2
 ;
 }
 NS_IMETHODIMP
@@ -2193,7 +2206,7 @@ _retval
 *
 _retval
 =
-nullptr
+nsnull
 ;
 nsresult
 rv
@@ -2381,7 +2394,7 @@ _retval
 *
 _retval
 =
-nullptr
+nsnull
 ;
 nsIFrame
 *
@@ -2477,7 +2490,7 @@ IsSingular
 (
 )
 ?
-nullptr
+nsnull
 :
 new
 DOMSVGMatrix
@@ -2528,7 +2541,7 @@ IsSingular
 (
 )
 ?
-nullptr
+nsnull
 :
 new
 DOMSVGMatrix
@@ -2575,7 +2588,7 @@ rv
 *
 _retval
 =
-nullptr
+nsnull
 ;
 nsCOMPtr
 <
@@ -3019,7 +3032,7 @@ GetTimedDocumentRoot
 ;
 }
 return
-nullptr
+nsnull
 ;
 }
 NS_IMETHODIMP_
@@ -3578,7 +3591,7 @@ nsSMILAnimationController
 *
 smilController
 =
-nullptr
+nsnull
 ;
 if
 (
@@ -3633,7 +3646,7 @@ else
 {
 mTimedDocumentRoot
 =
-nullptr
+nsnull
 ;
 mStartAnimationOnBindToTree
 =
@@ -3724,7 +3737,7 @@ mTimedDocumentRoot
 >
 SetParent
 (
-nullptr
+nsnull
 )
 ;
 }
@@ -4324,7 +4337,7 @@ GetAnimatedLengthValues
 x
 &
 y
-nullptr
+nsnull
 )
 ;
 if
@@ -4822,7 +4835,7 @@ valPtr
 ;
 }
 return
-nullptr
+nsnull
 ;
 }
 bool
@@ -5246,7 +5259,7 @@ valPtr
 ;
 }
 return
-nullptr
+nsnull
 ;
 }
 bool
@@ -5310,7 +5323,7 @@ void
 (
 aValue
 )
-nullptr
+nsnull
 true
 )
 ;

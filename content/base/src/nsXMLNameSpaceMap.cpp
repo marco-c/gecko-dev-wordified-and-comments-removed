@@ -125,7 +125,7 @@ nsXMLNameSpaceMap
 NS_ENSURE_TRUE
 (
 map
-nullptr
+nsnull
 )
 ;
 if
@@ -134,7 +134,7 @@ aForXML
 )
 {
 nsresult
-rv
+rv1
 =
 map
 -
@@ -148,8 +148,8 @@ xmlns
 kNameSpaceID_XMLNS
 )
 ;
-rv
-|
+nsresult
+rv2
 =
 map
 -
@@ -167,7 +167,13 @@ if
 (
 NS_FAILED
 (
-rv
+rv1
+)
+|
+|
+NS_FAILED
+(
+rv2
 )
 )
 {
@@ -176,7 +182,7 @@ map
 ;
 map
 =
-nullptr
+nsnull
 ;
 }
 }
@@ -391,7 +397,7 @@ prefix
 ;
 }
 return
-nullptr
+nsnull
 ;
 }
 void
