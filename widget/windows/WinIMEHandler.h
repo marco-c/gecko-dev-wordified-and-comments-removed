@@ -202,6 +202,10 @@ aWindow
 InputContext
 &
 aInputContext
+const
+InputContextAction
+&
+aAction
 )
 ;
 static
