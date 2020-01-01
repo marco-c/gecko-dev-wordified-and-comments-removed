@@ -89,16 +89,6 @@ js
 (
 NULL
 )
-DISABLED_EXTRA_PP_COMPONENTS
-=
-\
-nsSearchService
-.
-js
-\
-(
-NULL
-)
 DEFINES
 +
 =

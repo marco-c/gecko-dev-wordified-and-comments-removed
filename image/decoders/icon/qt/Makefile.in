@@ -113,11 +113,6 @@ EXTRA_COMPONENTS
 gtkqticonsconverter
 .
 manifest
-DISABLED_EXTRA_PP_COMPONENTS
-=
-gtkqticonsconverter
-.
-js
 include
 (
 topsrcdir

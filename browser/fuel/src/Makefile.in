@@ -80,11 +80,6 @@ DISABLED_EXTRA_COMPONENTS
 fuelApplication
 .
 manifest
-DISABLED_EXTRA_PP_COMPONENTS
-=
-fuelApplication
-.
-js
 include
 (
 topsrcdir

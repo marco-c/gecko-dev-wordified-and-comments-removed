@@ -120,16 +120,6 @@ js
 (
 NULL
 )
-DISABLED_EXTRA_PP_COMPONENTS
-=
-\
-FeedWriter
-.
-js
-\
-(
-NULL
-)
 LOCAL_INCLUDES
 =
 -

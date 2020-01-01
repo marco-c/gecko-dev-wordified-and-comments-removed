@@ -126,16 +126,6 @@ manifest
 (
 NULL
 )
-DISABLED_EXTRA_PP_COMPONENTS
-=
-\
-nsFormHistory
-.
-js
-\
-(
-NULL
-)
 EXTRA_JS_MODULES
 =
 \

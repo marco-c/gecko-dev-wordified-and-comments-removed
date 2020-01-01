@@ -129,17 +129,6 @@ manifest
 (
 NULL
 )
-DISABLED_EXTRA_PP_COMPONENTS
-:
-=
-\
-DataReportingService
-.
-js
-\
-(
-NULL
-)
 include
 (
 topsrcdir

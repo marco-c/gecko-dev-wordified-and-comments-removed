@@ -81,11 +81,6 @@ DISABLED_EXTRA_COMPONENTS
 nsHelperAppDlg
 .
 manifest
-DISABLED_EXTRA_PP_COMPONENTS
-=
-nsHelperAppDlg
-.
-js
 EXTRA_JS_MODULES
 =
 \
