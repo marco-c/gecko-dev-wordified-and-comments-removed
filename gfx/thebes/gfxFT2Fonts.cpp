@@ -3756,15 +3756,6 @@ GetSpaceGlyph
 (
 )
 ;
-aTextRun
--
->
-AddGlyphRun
-(
-this
-offset
-)
-;
 for
 (
 PRUint32

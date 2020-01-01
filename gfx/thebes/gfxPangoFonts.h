@@ -146,6 +146,9 @@ aRunScript
 gfxFont
 *
 aPrevMatchedFont
+PRUint8
+*
+aMatchType
 )
 ;
 static
