@@ -6954,11 +6954,10 @@ done
 ;
 done
 :
-JS_HashTableRawRemove
+JS_HashTableRemove
 (
 table
-hep
-he
+obj
 )
 ;
 return
