@@ -1442,6 +1442,16 @@ nsILookAndFeel
 eColor__moz_dragtargetzone
 eCSSKeyword__moz_hyperlinktext
 NS_COLOR_MOZ_HYPERLINKTEXT
+eCSSKeyword__moz_html_cellhighlight
+nsILookAndFeel
+:
+:
+eColor__moz_html_cellhighlight
+eCSSKeyword__moz_html_cellhighlighttext
+nsILookAndFeel
+:
+:
+eColor__moz_html_cellhighlighttext
 eCSSKeyword__moz_mac_focusring
 nsILookAndFeel
 :

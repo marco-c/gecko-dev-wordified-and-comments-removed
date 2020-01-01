@@ -1968,6 +1968,9 @@ eColor__moz_dialogtext
 case
 eColor__moz_cellhighlighttext
 :
+case
+eColor__moz_html_cellhighlighttext
+:
 /
 /
 XXX
@@ -2450,6 +2453,9 @@ break
 ;
 case
 eColor__moz_cellhighlight
+:
+case
+eColor__moz_html_cellhighlighttext
 :
 case
 eColor__moz_mac_secondaryhighlight

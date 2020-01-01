@@ -534,6 +534,9 @@ case
 eColor_highlight
 :
 case
+eColor__moz_html_cellhighlight
+:
+case
 eColor__moz_menuhover
 :
 {
@@ -564,6 +567,9 @@ break
 ;
 case
 eColor_highlighttext
+:
+case
+eColor__moz_html_cellhighlighttext
 :
 case
 eColor__moz_menuhovertext

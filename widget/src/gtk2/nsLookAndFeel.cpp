@@ -994,6 +994,9 @@ break
 case
 eColor__moz_cellhighlight
 :
+case
+eColor__moz_html_cellhighlight
+:
 aColor
 =
 GDK_COLOR_TO_NS_RGB
@@ -1011,6 +1014,9 @@ break
 ;
 case
 eColor__moz_cellhighlighttext
+:
+case
+eColor__moz_html_cellhighlighttext
 :
 aColor
 =
