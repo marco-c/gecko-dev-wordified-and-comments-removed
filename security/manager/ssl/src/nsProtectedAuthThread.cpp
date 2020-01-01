@@ -454,11 +454,11 @@ mSlot
 0
 )
 ;
+nsCOMPtr
+<
 nsIObserver
-*
+>
 observer
-=
-nsnull
 ;
 PR_Lock
 (
