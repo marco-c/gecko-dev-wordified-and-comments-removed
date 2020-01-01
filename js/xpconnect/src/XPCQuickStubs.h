@@ -88,11 +88,6 @@ xpc_qsFunctionSpec
 *
 functions
 ;
-const
-xpc_qsTraceableSpec
-*
-traceables
-;
 size_t
 parentInterface
 ;
