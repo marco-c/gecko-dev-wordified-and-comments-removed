@@ -1205,6 +1205,7 @@ js
 #
 ifdef
 MOZ_SERVICES_SYNC
+*
 content
 /
 sync
