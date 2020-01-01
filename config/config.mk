@@ -1404,10 +1404,6 @@ OS_LDFLAGS
 -
 DEBUG
 -
-PDB
-:
-NONE
--
 OPT
 :
 REF
@@ -1417,10 +1413,6 @@ OS_LDFLAGS
 =
 -
 DEBUG
--
-PDB
-:
-NONE
 -
 OPT
 :
