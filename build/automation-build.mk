@@ -350,6 +350,10 @@ DIS_DEBUG_BUILD
 =
 0
 endif
+(
+CURDIR
+)
+/
 automationutils
 .
 py
@@ -393,6 +397,10 @@ automation
 build
 .
 mk
+(
+CURDIR
+)
+/
 automationutils
 .
 py
