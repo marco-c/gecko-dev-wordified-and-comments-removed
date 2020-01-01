@@ -147,6 +147,10 @@ Document
 .
 webidl
 \
+DocumentFragment
+.
+webidl
+\
 DOMImplementation
 .
 webidl

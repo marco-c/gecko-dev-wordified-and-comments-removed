@@ -325,9 +325,6 @@ interface
 CDATASection
 ;
 interface
-DocumentFragment
-;
-interface
 Comment
 ;
 interface
