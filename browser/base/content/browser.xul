@@ -4988,6 +4988,11 @@ id
 "
 appmenu_pageInspect
 "
+type
+=
+"
+checkbox
+"
 label
 =
 "
