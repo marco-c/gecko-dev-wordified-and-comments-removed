@@ -611,6 +611,11 @@ DEVICE_EXTERNAL_SPEAKER
 0x800
 }
 ;
+#
+if
+ANDROID_VERSION
+<
+17
 enum
 audio_mode_e
 {
@@ -619,6 +624,8 @@ AUDIO_MODE_RINGTONE
 AUDIO_MODE_IN_CALL
 }
 ;
+#
+endif
 enum
 effect_buffer_access_e
 {
