@@ -1105,6 +1105,12 @@ uninstallSubkeyStr
 ;
 }
 }
+catch
+(
+e
+)
+{
+}
 finally
 {
 if
