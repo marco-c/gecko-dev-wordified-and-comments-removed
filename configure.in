@@ -3508,13 +3508,12 @@ AC_MSG_ERROR
 (
 [
 Only
-gcc
->
-=
+GCC
 4
 .
 4
-is
+or
+newer
 supported
 ]
 )
