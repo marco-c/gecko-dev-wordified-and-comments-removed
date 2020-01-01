@@ -13053,11 +13053,12 @@ id
 )
 &
 &
-js_LookupProperty
+js_LookupPropertyWithFlags
 (
 cx
 obj
 id
+JSRESOLVE_HIDDEN
 objp
 propp
 )

@@ -2525,6 +2525,10 @@ JSProperty
 propp
 )
 ;
+#
+define
+JSRESOLVE_HIDDEN
+0x8000
 extern
 JS_FRIEND_API
 (
