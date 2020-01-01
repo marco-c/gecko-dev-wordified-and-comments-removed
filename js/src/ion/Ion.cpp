@@ -7131,6 +7131,16 @@ if
 (
 !
 obj
+|
+|
+!
+ion
+:
+:
+IsEnabled
+(
+cx
+)
 )
 return
 Method_Skipped
