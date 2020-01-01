@@ -6238,6 +6238,12 @@ aNextFrame
 GetHasAlpha
 (
 )
+&
+&
+nextFrameDisposalMethod
+!
+=
+kDisposeRestorePrevious
 )
 {
 if
@@ -6585,7 +6591,7 @@ NS_WARNING
 Failed
 to
 init
-compositingFrame
+compositingPrevFrame
 !
 \
 n
@@ -6734,6 +6740,12 @@ mLoopCount
 !
 =
 0
+&
+&
+nextFrameDisposalMethod
+!
+=
+kDisposeRestorePrevious
 &
 &
 !
