@@ -276,6 +276,14 @@ aAccOrElmOrID
 )
 ;
 var
+role
+=
+getRole
+(
+aAccOrElmOrID
+)
+;
+var
 id
 =
 prettyName
@@ -694,6 +702,12 @@ STATE_CHECKED
 state
 &
 STATE_MIXED
+&
+&
+role
+!
+=
+ROLE_PROGRESSBAR
 )
 isState
 (
