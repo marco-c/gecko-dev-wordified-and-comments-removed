@@ -696,6 +696,13 @@ this
 treeBoxObject
 .
 view
+.
+QueryInterface
+(
+Ci
+.
+nsINavHistoryResultTreeViewer
+)
 ;
 ]
 ]
