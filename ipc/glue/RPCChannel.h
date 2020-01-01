@@ -36,7 +36,7 @@ SyncChannel
 public
 :
 class
-Listener
+RPCListener
 :
 public
 SyncChannel
@@ -48,7 +48,7 @@ public
 :
 virtual
 ~
-Listener
+RPCListener
 (
 )
 {
@@ -98,6 +98,10 @@ aReply
 0
 ;
 }
+;
+typedef
+RPCListener
+Listener
 ;
 RPCChannel
 (

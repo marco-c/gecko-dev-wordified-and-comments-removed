@@ -95,13 +95,13 @@ Message
 Message
 ;
 class
-Listener
+AsyncListener
 {
 public
 :
 virtual
 ~
-Listener
+AsyncListener
 (
 )
 {
@@ -119,6 +119,10 @@ aMessage
 0
 ;
 }
+;
+typedef
+AsyncListener
+Listener
 ;
 AsyncChannel
 (

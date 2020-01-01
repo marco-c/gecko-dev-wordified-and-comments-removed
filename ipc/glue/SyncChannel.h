@@ -84,7 +84,7 @@ MessageQueue
 public
 :
 class
-Listener
+SyncListener
 :
 public
 AsyncChannel
@@ -96,7 +96,7 @@ public
 :
 virtual
 ~
-Listener
+SyncListener
 (
 )
 {
@@ -130,6 +130,10 @@ aReply
 0
 ;
 }
+;
+typedef
+SyncListener
+Listener
 ;
 SyncChannel
 (
