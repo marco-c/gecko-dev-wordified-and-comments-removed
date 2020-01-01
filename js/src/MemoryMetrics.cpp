@@ -813,7 +813,7 @@ gcHeapTypeObjects
 =
 thingSize
 ;
-SizeOfObjectTypeInferenceData
+SizeOfTypeObjectExcludingThis
 (
 obj
 &

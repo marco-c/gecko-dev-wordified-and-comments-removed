@@ -488,10 +488,7 @@ mallocSizeOf
 #
 endif
 extern
-JS_PUBLIC_API
-(
 void
-)
 SizeOfCompartmentTypeInferenceData
 (
 JSContext
@@ -508,11 +505,8 @@ mallocSizeOf
 )
 ;
 extern
-JS_PUBLIC_API
-(
 void
-)
-SizeOfObjectTypeInferenceData
+SizeOfTypeObjectExcludingThis
 (
 void
 *
@@ -525,10 +519,7 @@ mallocSizeOf
 )
 ;
 extern
-JS_PUBLIC_API
-(
 size_t
-)
 SizeOfCompartmentShapeTable
 (
 JSCompartment
