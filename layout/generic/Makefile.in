@@ -798,6 +798,7 @@ new
 text
 frame
 MOZ_ENABLE_NEW_TEXT_FRAME
+?
 =
 ifdef
 MOZ_ENABLE_NEW_TEXT_FRAME
