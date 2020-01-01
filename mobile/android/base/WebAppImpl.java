@@ -988,7 +988,7 @@ length
 }
 Override
 protected
-int
+boolean
 getSessionRestoreState
 (
 Bundle
@@ -996,7 +996,7 @@ savedInstanceState
 )
 {
 return
-RESTORE_NONE
+false
 ;
 }
 Override
