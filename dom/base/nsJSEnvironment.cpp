@@ -15861,7 +15861,11 @@ nsJSRuntime
 :
 sRuntime
 JSGC_MAX_BYTES
-0xffffffff
+512L
+*
+1024L
+*
+1024L
 )
 ;
 }
