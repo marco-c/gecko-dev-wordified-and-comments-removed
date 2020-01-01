@@ -41,10 +41,6 @@ include
 <
 vector
 >
-using
-namespace
-std
-;
 namespace
 mozilla
 {
@@ -630,6 +626,9 @@ SkDevice
 >
 mDevice
 ;
+std
+:
+:
 vector
 <
 SourceSurfaceSkia
