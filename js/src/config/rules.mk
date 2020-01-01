@@ -12041,10 +12041,14 @@ install_cmd
 (
 4
 )
+"
 <
+"
+"
 {
 D
 }
+"
 )
 endef
 (
@@ -12538,6 +12542,8 @@ GLOBAL_DEPS
 (
 RM
 )
+"
+"
 (
 PYTHON
 )
@@ -12562,8 +12568,12 @@ ACDEFINES
 (
 XULPPFLAGS
 )
+"
 <
+"
 >
+"
+"
 (
 3
 )
