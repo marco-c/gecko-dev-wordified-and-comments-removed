@@ -94,6 +94,9 @@ namespace
 mozilla
 ;
 class
+nsRenderingContext
+;
+class
 nsSVGImageFrame
 ;
 class
@@ -224,7 +227,7 @@ NS_DECL_FRAMEARENA_HELPERS
 NS_IMETHOD
 PaintSVG
 (
-nsSVGRenderState
+nsRenderingContext
 *
 aContext
 const
@@ -1133,7 +1136,7 @@ nsSVGImageFrame
 :
 PaintSVG
 (
-nsSVGRenderState
+nsRenderingContext
 *
 aContext
 const
@@ -1283,7 +1286,7 @@ ctx
 aContext
 -
 >
-GetGfxContext
+ThebesContext
 (
 )
 ;
@@ -1594,12 +1597,6 @@ nsLayoutUtils
 DrawSingleImage
 (
 aContext
--
->
-GetRenderingContext
-(
-this
-)
 mImageContainer
 nsLayoutUtils
 :
@@ -1633,12 +1630,6 @@ nsLayoutUtils
 DrawSingleUnscaledImage
 (
 aContext
--
->
-GetRenderingContext
-(
-this
-)
 mImageContainer
 nsLayoutUtils
 :

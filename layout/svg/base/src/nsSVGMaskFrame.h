@@ -28,6 +28,9 @@ h
 class
 gfxContext
 ;
+class
+nsRenderingContext
+;
 typedef
 nsSVGContainerFrame
 nsSVGMaskFrameBase
@@ -79,7 +82,7 @@ gfxPattern
 >
 ComputeMaskAlpha
 (
-nsSVGRenderState
+nsRenderingContext
 *
 aContext
 nsIFrame

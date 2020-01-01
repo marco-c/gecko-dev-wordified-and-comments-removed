@@ -15,7 +15,7 @@ class
 nsIFrame
 ;
 class
-nsSVGRenderState
+nsRenderingContext
 ;
 class
 nsSVGFilterPaintCallback
@@ -26,7 +26,7 @@ virtual
 void
 Paint
 (
-nsSVGRenderState
+nsRenderingContext
 *
 aContext
 nsIFrame
