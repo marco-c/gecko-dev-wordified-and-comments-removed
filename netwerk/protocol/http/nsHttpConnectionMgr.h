@@ -79,13 +79,6 @@ h
 #
 include
 "
-nsIDNSListener
-.
-h
-"
-#
-include
-"
 nsHashSets
 .
 h
@@ -328,10 +321,6 @@ mSpdyRedir
 (
 false
 )
-mDidDNS
-(
-false
-)
 mSpdyPreferred
 (
 false
@@ -393,9 +382,6 @@ bool
 mSpdyRedir
 ;
 bool
-mDidDNS
-;
-bool
 mSpdyPreferred
 ;
 nsCOMPtr
@@ -454,8 +440,6 @@ public
 nsIInterfaceRequestor
 public
 nsITimerCallback
-public
-nsIDNSListener
 {
 public
 :
@@ -464,7 +448,6 @@ NS_DECL_NSIOUTPUTSTREAMCALLBACK
 NS_DECL_NSITRANSPORTEVENTSINK
 NS_DECL_NSIINTERFACEREQUESTOR
 NS_DECL_NSITIMERCALLBACK
-NS_DECL_NSIDNSLISTENER
 nsHalfOpenSocket
 (
 nsConnectionEntry
