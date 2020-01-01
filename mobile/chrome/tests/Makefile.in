@@ -644,6 +644,14 @@ browser_tap_content
 .
 html
 \
+browser_tapping_edit
+.
+js
+\
+browser_tap_contentedit
+.
+html
+\
 browser_test
 .
 js
