@@ -8515,9 +8515,6 @@ IMPL_TYPED_ARRAY_STATICS
 _typedArray
 )
 \
-template
-<
->
 JSFunctionSpec
 _typedArray
 :
