@@ -22,13 +22,6 @@ h
 #
 include
 "
-prmem
-.
-h
-"
-#
-include
-"
 prprf
 .
 h
