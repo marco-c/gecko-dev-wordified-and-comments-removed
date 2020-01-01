@@ -204,7 +204,7 @@ Shutdown
 )
 ;
 nsresult
-CheckCleanHost
+CheckClean
 (
 const
 nsACString
