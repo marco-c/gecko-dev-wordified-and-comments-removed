@@ -1127,8 +1127,7 @@ false
 )
 mCommonClipCount
 (
--
-1
+0
 )
 {
 }
