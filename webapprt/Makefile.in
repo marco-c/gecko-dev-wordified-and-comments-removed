@@ -244,6 +244,15 @@ js
 (
 NULL
 )
+TEST_DIRS
++
+=
+\
+test
+\
+(
+NULL
+)
 include
 (
 topsrcdir
