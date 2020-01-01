@@ -149,6 +149,10 @@ head
 .
 js
 \
+browser_capabilities
+.
+js
+\
 browser_form_restore_events
 .
 js
@@ -368,10 +372,6 @@ browser_491168
 js
 \
 browser_491577
-.
-js
-\
-browser_493467
 .
 js
 \
