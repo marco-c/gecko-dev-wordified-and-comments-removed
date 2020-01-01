@@ -16,6 +16,15 @@ h
 #
 include
 "
+mozilla
+/
+Attributes
+.
+h
+"
+#
+include
+"
 prinrval
 .
 h
@@ -71,6 +80,7 @@ TimeDuration
 {
 public
 :
+MOZ_CONSTEXPR
 TimeDuration
 (
 )
