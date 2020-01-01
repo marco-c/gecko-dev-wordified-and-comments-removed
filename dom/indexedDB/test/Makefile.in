@@ -491,6 +491,10 @@ test_clear
 .
 html
 \
+test_cmp
+.
+html
+\
 test_count
 .
 html
