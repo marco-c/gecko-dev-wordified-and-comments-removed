@@ -1067,7 +1067,9 @@ children
 0
 ]
 .
-\
+children
+.
+push
 (
 subsubmenuTree
 )
