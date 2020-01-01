@@ -1,3 +1,8 @@
+const
+PERMISSIONS_RWUSR
+=
+0x180
+;
 let
 gSyncUtils
 =
@@ -941,7 +946,7 @@ fp
 file
 -
 1
-0600
+PERMISSIONS_RWUSR
 0
 )
 ;
