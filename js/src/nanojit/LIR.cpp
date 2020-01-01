@@ -11901,7 +11901,7 @@ alloc
 NInsList
 loopJumps
 (
-gc
+alloc
 )
 ;
 #
