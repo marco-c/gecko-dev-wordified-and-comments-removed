@@ -5121,7 +5121,7 @@ expectMoreTokens
 =
 tokenizer
 .
-lastTokenEndedWithComma
+lastTokenEndedWithSeparator
 (
 )
 ;
