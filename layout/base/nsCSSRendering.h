@@ -889,6 +889,15 @@ aFlags
 )
 ;
 static
+bool
+AreAllBackgroundImagesDecodedForFrame
+(
+nsIFrame
+*
+aFrame
+)
+;
+static
 void
 BeginFrameTreesLocked
 (
