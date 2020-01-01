@@ -15,6 +15,8 @@ h
 #
 include
 <
+stagefright
+/
 DataSource
 .
 h
@@ -22,6 +24,8 @@ h
 #
 include
 <
+stagefright
+/
 MediaErrors
 .
 h
@@ -29,6 +33,8 @@ h
 #
 include
 <
+stagefright
+/
 MediaExtractor
 .
 h
@@ -36,6 +42,8 @@ h
 #
 include
 <
+stagefright
+/
 MediaSource
 .
 h
@@ -43,6 +51,8 @@ h
 #
 include
 <
+stagefright
+/
 MetaData
 .
 h
@@ -50,6 +60,8 @@ h
 #
 include
 <
+stagefright
+/
 OMXCodec
 .
 h
@@ -57,14 +69,16 @@ h
 #
 include
 <
-OMX
+stagefright
+/
+HardwareAPI
 .
 h
 >
 #
 include
 <
-HardwareAPI
+OMX
 .
 h
 >
