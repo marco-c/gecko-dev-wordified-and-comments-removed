@@ -804,6 +804,13 @@ powerpc
 -
 freebsd
 *
+|
+powerpc
+-
+*
+-
+openbsd
+*
 )
 TARGET
 =

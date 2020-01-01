@@ -38557,12 +38557,6 @@ fix_srcfile_path
 )
 =
 '
-cygpath
--
-w
-"
-srcfile
-"
 '
 _LT_TAGVAR
 (
