@@ -5823,6 +5823,15 @@ PRBool
 bState
 )
 {
+PRBool
+wasVisible
+=
+mIsVisible
+;
+mIsVisible
+=
+bState
+;
 if
 (
 mWnd
@@ -5836,7 +5845,7 @@ bState
 if
 (
 !
-mIsVisible
+wasVisible
 &
 &
 mWindowType
@@ -5974,7 +5983,7 @@ SWP_SHOWWINDOW
 ;
 if
 (
-mIsVisible
+wasVisible
 )
 flags
 |
@@ -6102,7 +6111,7 @@ MOZ_XUL
 if
 (
 !
-mIsVisible
+wasVisible
 &
 &
 bState
@@ -6114,10 +6123,6 @@ PR_FALSE
 ;
 #
 endif
-mIsVisible
-=
-bState
-;
 return
 NS_OK
 ;
