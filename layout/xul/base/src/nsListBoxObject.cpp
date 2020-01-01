@@ -676,6 +676,14 @@ content
 )
 )
 ;
+if
+(
+!
+content
+)
+return
+nsnull
+;
 frame
 =
 content
