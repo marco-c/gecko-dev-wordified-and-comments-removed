@@ -4265,10 +4265,6 @@ NULL
 )
 #
 endif
-rngNonce
-(
-0
-)
 {
 JS_INIT_CLIST
 (

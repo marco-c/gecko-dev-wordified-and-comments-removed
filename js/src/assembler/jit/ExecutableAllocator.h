@@ -609,11 +609,6 @@ Executable
 DestroyCallback
 destroyCallback
 ;
-void
-initSeed
-(
-)
-;
 public
 :
 explicit
@@ -651,15 +646,6 @@ pageSize
 16
 ;
 }
-#
-if
-WTF_OS_WINDOWS
-initSeed
-(
-)
-;
-#
-endif
 JS_ASSERT
 (
 m_smallPools
