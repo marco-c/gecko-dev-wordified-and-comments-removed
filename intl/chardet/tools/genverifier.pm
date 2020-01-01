@@ -812,7 +812,7 @@ ret
 "
 static
 const
-PRUint32
+uint32_t
 "
 .
 name
@@ -1337,7 +1337,7 @@ ret
 "
 static
 const
-PRUint32
+uint32_t
 "
 .
 name

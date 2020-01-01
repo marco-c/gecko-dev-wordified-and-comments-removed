@@ -399,7 +399,7 @@ JIS_TABLE_SIZE
 4368
 static
 const
-PRInt16
+int16_t
 JISCharToFreqOrder
 [
 ]

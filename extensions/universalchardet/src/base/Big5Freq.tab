@@ -396,7 +396,7 @@ BIG5_TABLE_SIZE
 5376
 static
 const
-PRInt16
+int16_t
 Big5CharToFreqOrder
 [
 ]

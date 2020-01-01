@@ -367,7 +367,7 @@ FreqOrder
 table
 static
 const
-PRInt16
+int16_t
 EUCKRCharToFreqOrder
 [
 ]

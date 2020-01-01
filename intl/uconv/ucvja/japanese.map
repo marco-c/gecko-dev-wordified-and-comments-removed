@@ -104,7 +104,7 @@ java
 /
 static
 const
-PRUint16
+uint16_t
 gIndexShiftJis
 [
 ]
@@ -242,7 +242,7 @@ gIndexShiftJis
 ;
 static
 const
-PRUint16
+uint16_t
 gIndexJis0208
 [
 ]
@@ -380,7 +380,7 @@ gIndexJis0208
 ;
 static
 const
-PRUint16
+uint16_t
 *
 const
 gIndex
@@ -449,7 +449,7 @@ U
 F8F3
 static
 const
-PRUint16
+uint16_t
 gCP932IndexShiftJis
 [
 ]
@@ -587,7 +587,7 @@ gCP932IndexShiftJis
 ;
 static
 const
-PRUint16
+uint16_t
 gCP932IndexJis0208
 [
 ]
@@ -725,7 +725,7 @@ gCP932IndexJis0208
 ;
 static
 const
-PRUint16
+uint16_t
 *
 const
 gCP932Index
@@ -739,7 +739,7 @@ gCP932IndexJis0208
 ;
 static
 const
-PRUint16
+uint16_t
 gIBM943IndexShiftJis
 [
 ]
@@ -877,7 +877,7 @@ gIBM943IndexShiftJis
 ;
 static
 const
-PRUint16
+uint16_t
 gIBM943IndexJis0208
 [
 ]
@@ -1015,7 +1015,7 @@ gIBM943IndexJis0208
 ;
 static
 const
-PRUint16
+uint16_t
 *
 const
 gIBM943Index
@@ -1029,7 +1029,7 @@ gIBM943IndexJis0208
 ;
 static
 const
-PRUint16
+uint16_t
 gJIS0212Index
 [
 ]
@@ -1167,7 +1167,7 @@ gJIS0212Index
 ;
 static
 const
-PRUint16
+uint16_t
 gJapaneseMap
 [
 ]

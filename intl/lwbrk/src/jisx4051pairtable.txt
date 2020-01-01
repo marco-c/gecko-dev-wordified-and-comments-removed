@@ -664,7 +664,7 @@ b
 *
 /
 static
-PRUint16
+uint16_t
 gJISx4051SimplifiedPair
 [
 9

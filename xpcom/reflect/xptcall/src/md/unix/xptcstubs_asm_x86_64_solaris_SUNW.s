@@ -337,7 +337,7 @@ static
 nsresult
 SharedStub
 (
-PRUint32
+uint32_t
 methodIndex
 )
 .

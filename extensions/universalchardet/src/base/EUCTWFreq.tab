@@ -402,7 +402,7 @@ EUCTW_TABLE_SIZE
 8102
 static
 const
-PRInt16
+int16_t
 EUCTWCharToFreqOrder
 [
 ]

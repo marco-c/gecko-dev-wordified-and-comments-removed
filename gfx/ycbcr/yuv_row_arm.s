@@ -293,7 +293,7 @@ dither
 ctx
 =
 {
-PRUint16
+uint16_t
 *
 rgb_row
 ;
@@ -303,7 +303,7 @@ r0
 *
 /
 const
-PRUint8
+uint8_t
 *
 y_row
 ;
@@ -313,7 +313,7 @@ r1
 *
 /
 const
-PRUint8
+uint8_t
 *
 u_row
 ;
@@ -323,7 +323,7 @@ r2
 *
 /
 const
-PRUint8
+uint8_t
 *
 v_row
 ;

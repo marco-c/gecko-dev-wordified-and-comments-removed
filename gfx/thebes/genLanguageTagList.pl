@@ -354,7 +354,7 @@ print
 "
 static
 const
-PRUint32
+uint32_t
 sLanguageTagList
 [
 ]

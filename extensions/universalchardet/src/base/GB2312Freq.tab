@@ -386,7 +386,7 @@ GB2312_TABLE_SIZE
 3760
 static
 const
-PRInt16
+int16_t
 GB2312CharToFreqOrder
 [
 ]

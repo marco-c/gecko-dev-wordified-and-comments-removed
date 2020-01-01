@@ -333,7 +333,7 @@ HAVE_UNSIGNED_CHAR
 /
 +
 typedef
-PRUint8
+uint8_t
 UINT8
 ;
 /
@@ -387,7 +387,7 @@ HAVE_UNSIGNED_SHORT
 /
 +
 typedef
-PRUint16
+uint16_t
 UINT16
 ;
 /
@@ -433,7 +433,7 @@ INT16
 endif
 +
 typedef
-PRInt16
+int16_t
 INT16
 ;
 /
@@ -477,7 +477,7 @@ INT32
 endif
 +
 typedef
-PRInt32
+int32_t
 INT32
 ;
 /

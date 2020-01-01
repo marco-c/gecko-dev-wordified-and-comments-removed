@@ -295,7 +295,7 @@ print
 FILE
 "
 const
-PRUint16
+uint16_t
 gCyrillicProb
 [
 33

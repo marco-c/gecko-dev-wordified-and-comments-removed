@@ -65,7 +65,7 @@ extern
 "
 C
 "
-PRUint32
+uint32_t
 /
 /
 invoke_copy_to_stack
@@ -76,7 +76,7 @@ d
 /
 /
 const
-PRUint32
+uint32_t
 paramCount
 nsXPTCVariant
 *
@@ -112,11 +112,11 @@ NS_InvokeByIndex_P
 nsISupports
 *
 that
-PRUint32
+uint32_t
 methodIndex
 /
 /
-PRUint32
+uint32_t
 paramCount
 nsXPTCVariant
 *

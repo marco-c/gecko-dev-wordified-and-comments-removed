@@ -4485,7 +4485,7 @@ DATA_TABLES
 "
 static
 const
-PRUint32
+uint32_t
 sScriptCodeToTag
 [
 ]
@@ -4565,7 +4565,7 @@ DATA_TABLES
 "
 static
 const
-PRInt16
+int16_t
 sMirrorOffsets
 [
 ]
@@ -4950,7 +4950,7 @@ HanVariant
 "
 "
 "
-PRUint8
+uint8_t
 "
 9
 7
@@ -4994,7 +4994,7 @@ CaseMap
 "
 "
 "
-PRUint32
+uint32_t
 "
 11
 5
@@ -5021,7 +5021,7 @@ printf
 DATA_TABLES
 "
 const
-PRUint32
+uint32_t
 kTitleToUpper
 =
 0x
@@ -5037,7 +5037,7 @@ printf
 DATA_TABLES
 "
 const
-PRUint32
+uint32_t
 kUpperToLower
 =
 0x
@@ -5053,7 +5053,7 @@ printf
 DATA_TABLES
 "
 const
-PRUint32
+uint32_t
 kLowerToTitle
 =
 0x
@@ -5069,7 +5069,7 @@ printf
 DATA_TABLES
 "
 const
-PRUint32
+uint32_t
 kLowerToUpper
 =
 0x
@@ -5085,7 +5085,7 @@ printf
 DATA_TABLES
 "
 const
-PRUint32
+uint32_t
 kCaseMapCharMask
 =
 0x
@@ -5417,7 +5417,7 @@ DATA_TABLES
 "
 static
 const
-PRUint8
+uint8_t
 s
 {
 prefix
@@ -5497,10 +5497,11 @@ DATA_TABLES
 "
 static
 const
-PRUint
+uint
 {
 pmBits
 }
+_t
 s
 {
 prefix

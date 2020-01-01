@@ -456,7 +456,7 @@ uint32
 #
 invoke_count_words
 (
-PRUint32
+uint32_t
 paramCount
 nsXPTCVariant
 *
@@ -556,10 +556,10 @@ void
 #
 invoke_copy_to_stack
 (
-PRUint32
+uint32_t
 *
 d
-PRUint32
+uint32_t
 paramCount
 #
 nsXPTCVariant

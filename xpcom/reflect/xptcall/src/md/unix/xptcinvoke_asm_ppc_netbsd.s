@@ -393,10 +393,10 @@ XPTC_InvokeByIndex
 nsISupports
 *
 that
-PRUint32
+uint32_t
 methodIndex
 #
-PRUint32
+uint32_t
 paramCount
 nsXPTCVariant
 *

@@ -308,9 +308,9 @@ SharedStub
 nsISupports
 *
 that
-PRUint32
+uint32_t
 index
-PRUint32
+uint32_t
 *
 args
 )
