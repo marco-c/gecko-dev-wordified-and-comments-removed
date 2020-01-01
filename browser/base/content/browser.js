@@ -18149,12 +18149,6 @@ updateStarState
 (
 )
 ;
-SocialMark
-.
-updateMarkState
-(
-)
-;
 SocialShare
 .
 update
@@ -20281,12 +20275,6 @@ SocialUI
 enabled
 )
 {
-SocialMark
-.
-updateMarkState
-(
-)
-;
 SocialShare
 .
 update
