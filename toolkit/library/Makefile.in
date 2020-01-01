@@ -1353,9 +1353,7 @@ STATIC_LIBS
 +
 =
 profiler
-skia
--
-npapi
+skia_npapi
 endif
 STATIC_LIBS
 +
