@@ -198,13 +198,6 @@ typedef
 layers
 :
 :
-LayersBackend
-LayersBackend
-;
-typedef
-layers
-:
-:
 ImageLayer
 :
 :

@@ -107,9 +107,12 @@ PLayerTransactionChild
 AllocPLayerTransactionChild
 (
 const
+nsTArray
+<
 LayersBackend
+>
 &
-aBackendHint
+aBackendHints
 const
 uint64_t
 &
