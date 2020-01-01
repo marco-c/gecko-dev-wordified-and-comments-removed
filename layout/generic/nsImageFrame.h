@@ -801,7 +801,7 @@ rect
 )
 ;
 nsresult
-OnStopDecode
+OnStopRequest
 (
 imgIRequest
 *

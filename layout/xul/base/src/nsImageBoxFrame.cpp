@@ -2789,11 +2789,11 @@ aType
 imgINotificationObserver
 :
 :
-STOP_CONTAINER
+STOP_DECODE
 )
 {
 return
-OnStopContainer
+OnStopDecode
 (
 aRequest
 )
@@ -2807,7 +2807,7 @@ aType
 imgINotificationObserver
 :
 :
-STOP_DECODE
+STOP_REQUEST
 )
 {
 uint32_t
@@ -2837,7 +2837,7 @@ NS_ERROR_FAILURE
 NS_OK
 ;
 return
-OnStopDecode
+OnStopRequest
 (
 aRequest
 status
@@ -2993,7 +2993,7 @@ nsresult
 nsImageBoxFrame
 :
 :
-OnStopContainer
+OnStopDecode
 (
 imgIRequest
 *
@@ -3024,7 +3024,7 @@ nsresult
 nsImageBoxFrame
 :
 :
-OnStopDecode
+OnStopRequest
 (
 imgIRequest
 *

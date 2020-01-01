@@ -2316,7 +2316,7 @@ aType
 imgINotificationObserver
 :
 :
-STOP_DECODE
+STOP_REQUEST
 )
 {
 nsSVGUtils
