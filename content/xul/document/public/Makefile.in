@@ -451,10 +451,6 @@ NULL
 EXPORTS
 =
 \
-nsIXULContentSink
-.
-h
-\
 nsIXULDocument
 .
 h
