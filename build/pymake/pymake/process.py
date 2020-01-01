@@ -744,7 +744,7 @@ cline
 2
 :
 ]
-            
+        
 cline
 =
 [
@@ -763,8 +763,7 @@ call
 cline
 shell
 =
-not
-msys
+False
 env
 =
 env
