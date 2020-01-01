@@ -154,15 +154,6 @@ conformance
 /
 gl
 -
-scissor
--
-test
-.
-html
-conformance
-/
-gl
--
 teximage
 .
 html
