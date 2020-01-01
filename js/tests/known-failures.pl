@@ -1644,6 +1644,8 @@ OUTPUT
 print
 STDOUT
 "
+log
+:
 outputprefix
 -
 results
@@ -1967,6 +1969,8 @@ OUTPUT
 print
 STDOUT
 "
+log
+:
 outputprefix
 -
 results
