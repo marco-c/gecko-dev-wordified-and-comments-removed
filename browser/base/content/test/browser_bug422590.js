@@ -35,6 +35,9 @@ chrome
 dialog
 =
 no
+location
+=
+yes
 toolbar
 =
 no
