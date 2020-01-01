@@ -274,6 +274,13 @@ button
 )
 EDITOR_ATOM
 (
+output
+"
+output
+"
+)
+EDITOR_ATOM
+(
 p
 "
 p

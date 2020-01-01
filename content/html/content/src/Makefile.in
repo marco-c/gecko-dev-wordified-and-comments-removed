@@ -577,6 +577,10 @@ nsHTMLOptGroupElement
 .
 cpp
 \
+nsHTMLOutputElement
+.
+cpp
+\
 nsHTMLParagraphElement
 .
 cpp

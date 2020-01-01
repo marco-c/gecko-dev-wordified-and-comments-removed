@@ -1111,6 +1111,11 @@ nsIDOMDOMTokenList
 *
 '
 '
+nsIDOMDOMSettableTokenList
+.
+*
+'
+'
 nsIDOMNameList
 .
 getName
