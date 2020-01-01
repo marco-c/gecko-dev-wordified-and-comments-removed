@@ -190,6 +190,7 @@ quote
 1b
 .
 html
+fails
 =
 =
 dynamic
@@ -204,6 +205,9 @@ dynamic
 ref
 .
 html
+#
+bug
+8253
 =
 =
 dynamic
