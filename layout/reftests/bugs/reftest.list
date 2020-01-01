@@ -25737,12 +25737,6 @@ html
 ref
 .
 html
-fails
--
-if
-(
-gtk2Widget
-)
 =
 =
 750551

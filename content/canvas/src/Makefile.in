@@ -496,6 +496,10 @@ ImageData
 .
 cpp
 \
+WebGLExtensionCompressedTextureS3TC
+.
+cpp
+\
 (
 NULL
 )
@@ -534,6 +538,10 @@ WebGLExtensionTextureFilterAnisotropic
 cpp
 \
 WebGLExtensionLoseContext
+.
+cpp
+\
+WebGLTexelConversions
 .
 cpp
 \

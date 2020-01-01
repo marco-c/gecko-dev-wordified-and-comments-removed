@@ -5785,6 +5785,7 @@ if
 (
 aIsAdded
 )
+{
 MAI_LOG_DEBUG
 (
 (
@@ -5802,7 +5803,9 @@ n
 )
 )
 ;
+}
 else
+{
 MAI_LOG_DEBUG
 (
 (
@@ -5820,6 +5823,7 @@ n
 )
 )
 ;
+}
 PRInt32
 indexInParent
 =

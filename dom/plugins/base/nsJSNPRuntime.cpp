@@ -561,6 +561,7 @@ NPObjWrapper_Convert
 NPObjWrapper_Finalize
 nsnull
 NPObjWrapper_Call
+nsnull
 NPObjWrapper_Construct
 }
 ;

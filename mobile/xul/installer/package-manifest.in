@@ -1669,14 +1669,14 @@ BINPATH
 /
 components
 /
-BrowserElementAPI
+BrowserElementParent
 .
 manifest
 BINPATH
 /
 components
 /
-BrowserElementAPI
+BrowserElementParent
 .
 js
 BINPATH

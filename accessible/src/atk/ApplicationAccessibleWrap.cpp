@@ -2591,6 +2591,7 @@ init
 ;
 }
 else
+{
 MAI_LOG_DEBUG
 (
 (
@@ -2611,6 +2612,7 @@ libName
 )
 )
 ;
+}
 if
 (
 !

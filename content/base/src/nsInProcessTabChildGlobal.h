@@ -475,6 +475,9 @@ mLoadingScript
 bool
 mDelayedDisconnect
 ;
+bool
+mIsBrowserFrame
+;
 public
 :
 nsIContent
