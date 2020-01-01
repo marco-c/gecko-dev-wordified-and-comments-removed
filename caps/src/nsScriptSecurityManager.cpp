@@ -9147,7 +9147,7 @@ aObj
 js
 :
 :
-GetObjectParent
+GetObjectParentMaybeScope
 (
 aObj
 )
@@ -9341,7 +9341,7 @@ aObj
 js
 :
 :
-GetObjectParent
+GetObjectParentMaybeScope
 (
 aObj
 )

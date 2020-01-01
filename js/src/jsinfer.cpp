@@ -26145,7 +26145,7 @@ scope
 scope
 -
 >
-getParent
+scopeChain
 (
 )
 ;
@@ -26255,7 +26255,7 @@ parent
 scope
 -
 >
-getParent
+scopeChain
 (
 )
 )
@@ -26720,7 +26720,7 @@ scope
 scope
 -
 >
-getParent
+scopeChain
 (
 )
 ;
@@ -26777,7 +26777,7 @@ scope
 scope
 -
 >
-getParent
+scopeChain
 (
 )
 ;
