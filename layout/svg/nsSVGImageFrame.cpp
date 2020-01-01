@@ -730,12 +730,8 @@ nsGkAtoms
 preserveAspectRatio
 )
 {
-nsSVGUtils
-:
-:
-InvalidateBounds
+SchedulePaint
 (
-this
 )
 ;
 return
