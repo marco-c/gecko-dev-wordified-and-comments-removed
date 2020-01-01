@@ -2358,7 +2358,7 @@ PDocumentRendererParent
 TabParent
 :
 :
-AllocPDocumentRenderer
+AllocPDocumentRendererParent
 (
 const
 nsRect
@@ -2397,7 +2397,7 @@ bool
 TabParent
 :
 :
-DeallocPDocumentRenderer
+DeallocPDocumentRendererParent
 (
 PDocumentRendererParent
 *
@@ -2416,7 +2416,7 @@ PContentPermissionRequestParent
 TabParent
 :
 :
-AllocPContentPermissionRequest
+AllocPContentPermissionRequestParent
 (
 const
 nsCString
@@ -2450,7 +2450,7 @@ bool
 TabParent
 :
 :
-DeallocPContentPermissionRequest
+DeallocPContentPermissionRequestParent
 (
 PContentPermissionRequestParent
 *
@@ -4817,7 +4817,7 @@ PIndexedDBParent
 TabParent
 :
 :
-AllocPIndexedDB
+AllocPIndexedDBParent
 (
 const
 nsCString
@@ -4839,7 +4839,7 @@ bool
 TabParent
 :
 :
-DeallocPIndexedDB
+DeallocPIndexedDBParent
 (
 PIndexedDBParent
 *
@@ -5273,7 +5273,7 @@ PContentDialogParent
 TabParent
 :
 :
-AllocPContentDialog
+AllocPContentDialogParent
 (
 const
 uint32_t
@@ -5786,7 +5786,7 @@ PRenderFrameParent
 TabParent
 :
 :
-AllocPRenderFrame
+AllocPRenderFrameParent
 (
 ScrollingBehavior
 *
@@ -5871,7 +5871,7 @@ bool
 TabParent
 :
 :
-DeallocPRenderFrame
+DeallocPRenderFrameParent
 (
 PRenderFrameParent
 *
@@ -5896,7 +5896,7 @@ POfflineCacheUpdateParent
 TabParent
 :
 :
-AllocPOfflineCacheUpdate
+AllocPOfflineCacheUpdateParent
 (
 const
 URIParams
@@ -5988,7 +5988,7 @@ bool
 TabParent
 :
 :
-DeallocPOfflineCacheUpdate
+DeallocPOfflineCacheUpdateParent
 (
 mozilla
 :

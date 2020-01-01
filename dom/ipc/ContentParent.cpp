@@ -7247,7 +7247,7 @@ PCompositorParent
 ContentParent
 :
 :
-AllocPCompositor
+AllocPCompositorParent
 (
 mozilla
 :
@@ -7281,7 +7281,7 @@ PImageBridgeParent
 ContentParent
 :
 :
-AllocPImageBridge
+AllocPImageBridgeParent
 (
 mozilla
 :
@@ -7424,7 +7424,7 @@ PJavaScriptParent
 ContentParent
 :
 :
-AllocPJavaScript
+AllocPJavaScriptParent
 (
 )
 {
@@ -7475,7 +7475,7 @@ bool
 ContentParent
 :
 :
-DeallocPJavaScript
+DeallocPJavaScriptParent
 (
 PJavaScriptParent
 *
@@ -7511,7 +7511,7 @@ PBrowserParent
 ContentParent
 :
 :
-AllocPBrowser
+AllocPBrowserParent
 (
 const
 IPCTabContext
@@ -7562,7 +7562,7 @@ IPCTabContext
 type
 .
 Aborting
-AllocPBrowser
+AllocPBrowserParent
 .
 "
 )
@@ -7615,7 +7615,7 @@ from
 child
 ;
 aborting
-AllocPBrowser
+AllocPBrowserParent
 .
 "
 )
@@ -7652,7 +7652,7 @@ escalate
 privileges
 !
 Aborting
-AllocPBrowser
+AllocPBrowserParent
 .
 "
 )
@@ -7687,7 +7687,7 @@ bool
 ContentParent
 :
 :
-DeallocPBrowser
+DeallocPBrowserParent
 (
 PBrowserParent
 *
@@ -7721,7 +7721,7 @@ PDeviceStorageRequestParent
 ContentParent
 :
 :
-AllocPDeviceStorageRequest
+AllocPDeviceStorageRequestParent
 (
 const
 DeviceStorageParams
@@ -7780,7 +7780,7 @@ bool
 ContentParent
 :
 :
-DeallocPDeviceStorageRequest
+DeallocPDeviceStorageRequestParent
 (
 PDeviceStorageRequestParent
 *
@@ -7814,7 +7814,7 @@ PBlobParent
 ContentParent
 :
 :
-AllocPBlob
+AllocPBlobParent
 (
 const
 BlobConstructorParams
@@ -7836,7 +7836,7 @@ bool
 ContentParent
 :
 :
-DeallocPBlob
+DeallocPBlobParent
 (
 PBlobParent
 *
@@ -8427,7 +8427,7 @@ PCrashReporterParent
 ContentParent
 :
 :
-AllocPCrashReporter
+AllocPCrashReporterParent
 (
 const
 NativeThreadId
@@ -8499,7 +8499,7 @@ bool
 ContentParent
 :
 :
-DeallocPCrashReporter
+DeallocPCrashReporterParent
 (
 PCrashReporterParent
 *
@@ -8521,7 +8521,7 @@ PHalParent
 ContentParent
 :
 :
-AllocPHal
+AllocPHalParent
 (
 )
 {
@@ -8538,7 +8538,7 @@ bool
 ContentParent
 :
 :
-DeallocPHal
+DeallocPHalParent
 (
 hal_sandbox
 :
@@ -8560,7 +8560,7 @@ PIndexedDBParent
 ContentParent
 :
 :
-AllocPIndexedDB
+AllocPIndexedDBParent
 (
 )
 {
@@ -8576,7 +8576,7 @@ bool
 ContentParent
 :
 :
-DeallocPIndexedDB
+DeallocPIndexedDBParent
 (
 PIndexedDBParent
 *
@@ -8723,7 +8723,7 @@ PMemoryReportRequestParent
 ContentParent
 :
 :
-AllocPMemoryReportRequest
+AllocPMemoryReportRequestParent
 (
 )
 {
@@ -8744,7 +8744,7 @@ bool
 ContentParent
 :
 :
-DeallocPMemoryReportRequest
+DeallocPMemoryReportRequestParent
 (
 PMemoryReportRequestParent
 *
@@ -9012,7 +9012,7 @@ PTestShellParent
 ContentParent
 :
 :
-AllocPTestShell
+AllocPTestShellParent
 (
 )
 {
@@ -9027,7 +9027,7 @@ bool
 ContentParent
 :
 :
-DeallocPTestShell
+DeallocPTestShellParent
 (
 PTestShellParent
 *
@@ -9046,7 +9046,7 @@ PNeckoParent
 ContentParent
 :
 :
-AllocPNecko
+AllocPNeckoParent
 (
 )
 {
@@ -9061,7 +9061,7 @@ bool
 ContentParent
 :
 :
-DeallocPNecko
+DeallocPNeckoParent
 (
 PNeckoParent
 *
@@ -9080,7 +9080,7 @@ PExternalHelperAppParent
 ContentParent
 :
 :
-AllocPExternalHelperApp
+AllocPExternalHelperAppParent
 (
 const
 OptionalURIParams
@@ -9146,7 +9146,7 @@ bool
 ContentParent
 :
 :
-DeallocPExternalHelperApp
+DeallocPExternalHelperAppParent
 (
 PExternalHelperAppParent
 *
@@ -9182,7 +9182,7 @@ PSmsParent
 ContentParent
 :
 :
-AllocPSms
+AllocPSmsParent
 (
 )
 {
@@ -9226,7 +9226,7 @@ bool
 ContentParent
 :
 :
-DeallocPSms
+DeallocPSmsParent
 (
 PSmsParent
 *
@@ -9256,7 +9256,7 @@ PStorageParent
 ContentParent
 :
 :
-AllocPStorage
+AllocPStorageParent
 (
 )
 {
@@ -9271,7 +9271,7 @@ bool
 ContentParent
 :
 :
-DeallocPStorage
+DeallocPStorageParent
 (
 PStorageParent
 *
@@ -9307,7 +9307,7 @@ PBluetoothParent
 ContentParent
 :
 :
-AllocPBluetooth
+AllocPBluetoothParent
 (
 )
 {
@@ -9368,7 +9368,7 @@ bool
 ContentParent
 :
 :
-DeallocPBluetooth
+DeallocPBluetoothParent
 (
 PBluetoothParent
 *
@@ -9476,7 +9476,7 @@ PSpeechSynthesisParent
 ContentParent
 :
 :
-AllocPSpeechSynthesis
+AllocPSpeechSynthesisParent
 (
 )
 {
@@ -9507,7 +9507,7 @@ bool
 ContentParent
 :
 :
-DeallocPSpeechSynthesis
+DeallocPSpeechSynthesisParent
 (
 PSpeechSynthesisParent
 *

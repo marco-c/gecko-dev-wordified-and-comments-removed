@@ -1991,7 +1991,7 @@ PSmsRequestParent
 SmsParent
 :
 :
-AllocPSmsRequest
+AllocPSmsRequestParent
 (
 const
 IPCSmsRequest
@@ -2023,7 +2023,7 @@ bool
 SmsParent
 :
 :
-DeallocPSmsRequest
+DeallocPSmsRequestParent
 (
 PSmsRequestParent
 *
@@ -2144,7 +2144,7 @@ PMobileMessageCursorParent
 SmsParent
 :
 :
-AllocPMobileMessageCursor
+AllocPMobileMessageCursorParent
 (
 const
 IPCMobileMessageCursor
@@ -2176,7 +2176,7 @@ bool
 SmsParent
 :
 :
-DeallocPMobileMessageCursor
+DeallocPMobileMessageCursorParent
 (
 PMobileMessageCursorParent
 *

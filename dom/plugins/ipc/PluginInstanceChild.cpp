@@ -9788,7 +9788,7 @@ PPluginScriptableObjectChild
 PluginInstanceChild
 :
 :
-AllocPPluginScriptableObject
+AllocPPluginScriptableObjectChild
 (
 )
 {
@@ -9808,7 +9808,7 @@ bool
 PluginInstanceChild
 :
 :
-DeallocPPluginScriptableObject
+DeallocPPluginScriptableObjectChild
 (
 PPluginScriptableObjectChild
 *
@@ -9982,7 +9982,7 @@ PBrowserStreamChild
 PluginInstanceChild
 :
 :
-AllocPBrowserStream
+AllocPBrowserStreamChild
 (
 const
 nsCString
@@ -10051,7 +10051,7 @@ bool
 PluginInstanceChild
 :
 :
-DeallocPBrowserStream
+DeallocPBrowserStreamChild
 (
 PBrowserStreamChild
 *
@@ -10074,7 +10074,7 @@ PPluginStreamChild
 PluginInstanceChild
 :
 :
-AllocPPluginStream
+AllocPPluginStreamChild
 (
 const
 nsCString
@@ -10105,7 +10105,7 @@ bool
 PluginInstanceChild
 :
 :
-DeallocPPluginStream
+DeallocPPluginStreamChild
 (
 PPluginStreamChild
 *
@@ -10128,7 +10128,7 @@ PStreamNotifyChild
 PluginInstanceChild
 :
 :
-AllocPStreamNotify
+AllocPStreamNotifyChild
 (
 const
 nsCString
@@ -10436,7 +10436,7 @@ bool
 PluginInstanceChild
 :
 :
-DeallocPStreamNotify
+DeallocPStreamNotifyChild
 (
 PStreamNotifyChild
 *
@@ -17916,7 +17916,7 @@ PPluginBackgroundDestroyerChild
 PluginInstanceChild
 :
 :
-AllocPPluginBackgroundDestroyer
+AllocPPluginBackgroundDestroyerChild
 (
 )
 {
@@ -17994,7 +17994,7 @@ bool
 PluginInstanceChild
 :
 :
-DeallocPPluginBackgroundDestroyer
+DeallocPPluginBackgroundDestroyerChild
 (
 PPluginBackgroundDestroyerChild
 *

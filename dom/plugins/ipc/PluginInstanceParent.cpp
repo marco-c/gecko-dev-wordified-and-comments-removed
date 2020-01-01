@@ -693,7 +693,7 @@ PBrowserStreamParent
 PluginInstanceParent
 :
 :
-AllocPBrowserStream
+AllocPBrowserStreamParent
 (
 const
 nsCString
@@ -746,7 +746,7 @@ bool
 PluginInstanceParent
 :
 :
-DeallocPBrowserStream
+DeallocPBrowserStreamParent
 (
 PBrowserStreamParent
 *
@@ -765,7 +765,7 @@ PPluginStreamParent
 PluginInstanceParent
 :
 :
-AllocPPluginStream
+AllocPPluginStreamParent
 (
 const
 nsCString
@@ -795,7 +795,7 @@ bool
 PluginInstanceParent
 :
 :
-DeallocPPluginStream
+DeallocPPluginStreamParent
 (
 PPluginStreamParent
 *
@@ -1988,7 +1988,7 @@ PStreamNotifyParent
 PluginInstanceParent
 :
 :
-AllocPStreamNotify
+AllocPStreamNotifyParent
 (
 const
 nsCString
@@ -2191,7 +2191,7 @@ bool
 PluginInstanceParent
 :
 :
-DeallocPStreamNotify
+DeallocPStreamNotifyParent
 (
 PStreamNotifyParent
 *
@@ -4239,7 +4239,7 @@ PPluginBackgroundDestroyerParent
 PluginInstanceParent
 :
 :
-AllocPPluginBackgroundDestroyer
+AllocPPluginBackgroundDestroyerParent
 (
 )
 {
@@ -4266,7 +4266,7 @@ bool
 PluginInstanceParent
 :
 :
-DeallocPPluginBackgroundDestroyer
+DeallocPPluginBackgroundDestroyerParent
 (
 PPluginBackgroundDestroyerParent
 *
@@ -6659,7 +6659,7 @@ PPluginScriptableObjectParent
 PluginInstanceParent
 :
 :
-AllocPPluginScriptableObject
+AllocPPluginScriptableObjectParent
 (
 )
 {
@@ -6748,7 +6748,7 @@ bool
 PluginInstanceParent
 :
 :
-DeallocPPluginScriptableObject
+DeallocPPluginScriptableObjectParent
 (
 PPluginScriptableObjectParent
 *
@@ -7298,7 +7298,7 @@ PPluginSurfaceParent
 PluginInstanceParent
 :
 :
-AllocPPluginSurface
+AllocPPluginSurfaceParent
 (
 const
 WindowsSharedMemoryHandle
@@ -7351,7 +7351,7 @@ bool
 PluginInstanceParent
 :
 :
-DeallocPPluginSurface
+DeallocPPluginSurfaceParent
 (
 PPluginSurfaceParent
 *

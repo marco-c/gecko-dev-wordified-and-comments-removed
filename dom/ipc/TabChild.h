@@ -1036,7 +1036,7 @@ aData
 virtual
 PDocumentRendererChild
 *
-AllocPDocumentRenderer
+AllocPDocumentRendererChild
 (
 const
 nsRect
@@ -1066,7 +1066,7 @@ renderSize
 ;
 virtual
 bool
-DeallocPDocumentRenderer
+DeallocPDocumentRendererChild
 (
 PDocumentRendererChild
 *
@@ -1109,7 +1109,7 @@ renderSize
 virtual
 PContentDialogChild
 *
-AllocPContentDialog
+AllocPContentDialogChild
 (
 const
 uint32_t
@@ -1136,7 +1136,7 @@ nsString
 ;
 virtual
 bool
-DeallocPContentDialog
+DeallocPContentDialogChild
 (
 PContentDialogChild
 *
@@ -1259,7 +1259,7 @@ endif
 virtual
 PContentPermissionRequestChild
 *
-AllocPContentPermissionRequest
+AllocPContentPermissionRequestChild
 (
 const
 nsCString
@@ -1280,7 +1280,7 @@ aPrincipal
 ;
 virtual
 bool
-DeallocPContentPermissionRequest
+DeallocPContentPermissionRequestChild
 (
 PContentPermissionRequestChild
 *
@@ -1290,7 +1290,7 @@ actor
 virtual
 POfflineCacheUpdateChild
 *
-AllocPOfflineCacheUpdate
+AllocPOfflineCacheUpdateChild
 (
 const
 URIParams
@@ -1308,7 +1308,7 @@ stickDocument
 ;
 virtual
 bool
-DeallocPOfflineCacheUpdate
+DeallocPOfflineCacheUpdateChild
 (
 POfflineCacheUpdateChild
 *
@@ -1462,7 +1462,7 @@ protected
 virtual
 PRenderFrameChild
 *
-AllocPRenderFrame
+AllocPRenderFrameChild
 (
 ScrollingBehavior
 *
@@ -1478,7 +1478,7 @@ MOZ_OVERRIDE
 ;
 virtual
 bool
-DeallocPRenderFrame
+DeallocPRenderFrameChild
 (
 PRenderFrameChild
 *
@@ -1504,7 +1504,7 @@ event
 virtual
 PIndexedDBChild
 *
-AllocPIndexedDB
+AllocPIndexedDBChild
 (
 const
 nsCString
@@ -1516,7 +1516,7 @@ bool
 ;
 virtual
 bool
-DeallocPIndexedDB
+DeallocPIndexedDBChild
 (
 PIndexedDBChild
 *

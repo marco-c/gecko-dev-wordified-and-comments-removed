@@ -230,7 +230,7 @@ protected
 virtual
 PPluginIdentifierParent
 *
-AllocPPluginIdentifier
+AllocPPluginIdentifierParent
 (
 const
 nsCString
@@ -248,7 +248,7 @@ aTemporary
 ;
 virtual
 bool
-DeallocPPluginIdentifier
+DeallocPPluginIdentifierParent
 (
 PPluginIdentifierParent
 *
@@ -257,7 +257,7 @@ aActor
 ;
 PPluginInstanceParent
 *
-AllocPPluginInstance
+AllocPPluginInstanceParent
 (
 const
 nsCString
@@ -288,7 +288,7 @@ rv
 ;
 virtual
 bool
-DeallocPPluginInstance
+DeallocPPluginInstanceParent
 (
 PPluginInstanceParent
 *
@@ -589,7 +589,7 @@ MOZ_OVERRIDE
 virtual
 PCrashReporterParent
 *
-AllocPCrashReporter
+AllocPCrashReporterParent
 (
 mozilla
 :
@@ -608,7 +608,7 @@ MOZ_OVERRIDE
 ;
 virtual
 bool
-DeallocPCrashReporter
+DeallocPCrashReporterParent
 (
 PCrashReporterParent
 *

@@ -8731,7 +8731,7 @@ PDocumentRendererChild
 TabChild
 :
 :
-AllocPDocumentRenderer
+AllocPDocumentRendererChild
 (
 const
 nsRect
@@ -8770,7 +8770,7 @@ bool
 TabChild
 :
 :
-DeallocPDocumentRenderer
+DeallocPDocumentRendererChild
 (
 PDocumentRendererChild
 *
@@ -8928,7 +8928,7 @@ PContentDialogChild
 TabChild
 :
 :
-AllocPContentDialog
+AllocPContentDialogChild
 (
 const
 uint32_t
@@ -8964,7 +8964,7 @@ bool
 TabChild
 :
 :
-DeallocPContentDialog
+DeallocPContentDialogChild
 (
 PContentDialogChild
 *
@@ -8983,7 +8983,7 @@ PContentPermissionRequestChild
 TabChild
 :
 :
-AllocPContentPermissionRequest
+AllocPContentPermissionRequestChild
 (
 const
 nsCString
@@ -9016,7 +9016,7 @@ bool
 TabChild
 :
 :
-DeallocPContentPermissionRequest
+DeallocPContentPermissionRequestChild
 (
 PContentPermissionRequestChild
 *
@@ -9145,7 +9145,7 @@ POfflineCacheUpdateChild
 TabChild
 :
 :
-AllocPOfflineCacheUpdate
+AllocPOfflineCacheUpdateChild
 (
 const
 URIParams
@@ -9176,7 +9176,7 @@ bool
 TabChild
 :
 :
-DeallocPOfflineCacheUpdate
+DeallocPOfflineCacheUpdateChild
 (
 POfflineCacheUpdateChild
 *
@@ -9580,7 +9580,7 @@ PRenderFrameChild
 TabChild
 :
 :
-AllocPRenderFrame
+AllocPRenderFrameChild
 (
 ScrollingBehavior
 *
@@ -9604,7 +9604,7 @@ bool
 TabChild
 :
 :
-DeallocPRenderFrame
+DeallocPRenderFrameChild
 (
 PRenderFrameChild
 *
@@ -10422,7 +10422,7 @@ PIndexedDBChild
 TabChild
 :
 :
-AllocPIndexedDB
+AllocPIndexedDBChild
 (
 const
 nsCString
@@ -10451,7 +10451,7 @@ bool
 TabChild
 :
 :
-DeallocPIndexedDB
+DeallocPIndexedDBChild
 (
 PIndexedDBChild
 *

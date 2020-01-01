@@ -111,7 +111,7 @@ SpeechSynthesisChild
 ;
 PSpeechSynthesisRequestChild
 *
-AllocPSpeechSynthesisRequest
+AllocPSpeechSynthesisRequestChild
 (
 const
 nsString
@@ -140,7 +140,7 @@ aRate
 )
 ;
 bool
-DeallocPSpeechSynthesisRequest
+DeallocPSpeechSynthesisRequestChild
 (
 PSpeechSynthesisRequestChild
 *
