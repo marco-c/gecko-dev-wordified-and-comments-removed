@@ -7,6 +7,13 @@ h
 >
 #
 include
+<
+signal
+.
+h
+>
+#
+include
 "
 thread_helper
 .
