@@ -194,12 +194,8 @@ PropertyValue
 =
 sizeof
 (
-entry
--
->
-mProp
-.
-mValue
+void
+*
 )
 )
 ;
