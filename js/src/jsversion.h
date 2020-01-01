@@ -1,5 +1,11 @@
 #
 ifndef
+jsversion_h___
+#
+define
+jsversion_h___
+#
+ifndef
 JS_VERSION
 #
 define
@@ -1264,5 +1270,7 @@ object
 representation
 "
 )
+#
+endif
 #
 endif
