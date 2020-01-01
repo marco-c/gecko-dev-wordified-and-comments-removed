@@ -88,6 +88,13 @@ textColor
 "
 android
 :
+textCursorDrawable
+=
+"
+null
+"
+android
+:
 inputType
 =
 "
