@@ -4179,7 +4179,7 @@ JSCompartment
 *
 savedCompartment
 ;
-AutoSkip
+AutoSkipChecking
 (
 JSRuntime
 *
@@ -4207,7 +4207,7 @@ NULL
 ;
 }
 ~
-AutoSkip
+AutoSkipChecking
 (
 )
 {
