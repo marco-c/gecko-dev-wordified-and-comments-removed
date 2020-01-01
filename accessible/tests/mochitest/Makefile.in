@@ -526,6 +526,10 @@ autocomplete
 .
 js
 \
+browser
+.
+js
+\
 common
 .
 js
