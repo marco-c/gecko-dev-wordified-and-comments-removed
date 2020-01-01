@@ -242,3 +242,14 @@ it
 '
 s
 appropriate
+nonfatal
+-
+assertions
+.
+patch
+:
+Make
+assertions
+non
+-
+fatal
