@@ -624,6 +624,10 @@ RVAL
 #
 endif
 extern
+jsdouble
+js_NaN
+;
+extern
 JSBool
 js_InitRuntimeNumberState
 (
