@@ -280,10 +280,6 @@ HTMLInputElement
 )
 DOMCI_CLASS
 (
-HTMLIsIndexElement
-)
-DOMCI_CLASS
-(
 HTMLLIElement
 )
 DOMCI_CLASS

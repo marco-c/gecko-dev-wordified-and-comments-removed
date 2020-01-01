@@ -294,11 +294,6 @@ HTML_TAG
 ins
 Mod
 )
-HTML_TAG
-(
-isindex
-IsIndex
-)
 HTML_HTMLELEMENT_TAG
 (
 kbd

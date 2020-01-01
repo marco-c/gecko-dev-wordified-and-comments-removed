@@ -2981,16 +2981,6 @@ GROUP_FLOW_ELEMENT
 )
 ELEM
 (
-isindex
-PR_FALSE
-PR_FALSE
-GROUP_BLOCK
-|
-GROUP_HEAD_CONTENT
-GROUP_NONE
-)
-ELEM
-(
 kbd
 PR_TRUE
 PR_TRUE
@@ -3705,7 +3695,6 @@ eHTMLTag_fieldset
 eHTMLTag_form
 eHTMLTag_iframe
 eHTMLTag_input
-eHTMLTag_isindex
 eHTMLTag_select
 eHTMLTag_textarea
 }

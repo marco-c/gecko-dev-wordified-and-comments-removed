@@ -532,10 +532,6 @@ nsIDOMHTMLInputElement
 .
 idl
 \
-nsIDOMHTMLIsIndexElement
-.
-idl
-\
 nsIDOMHTMLLIElement
 .
 idl
