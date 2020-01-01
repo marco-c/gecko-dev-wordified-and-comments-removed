@@ -1198,6 +1198,13 @@ endif
 endif
 MOZALLOC_LIB
 =
+-
+L
+(
+DIST
+)
+/
+bin
 (
 call
 EXPAND_MOZLIBNAME
