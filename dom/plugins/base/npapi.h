@@ -823,6 +823,9 @@ NPNVprivateModeBool
 NPNVsupportsAdvancedKeyHandling
 =
 21
+NPNVdocumentOrigin
+=
+22
 #
 if
 defined
