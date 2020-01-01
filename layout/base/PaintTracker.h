@@ -54,6 +54,10 @@ destructor
 "
 )
 ;
+-
+-
+gPaintTracker
+;
 }
 static
 bool
