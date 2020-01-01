@@ -184,7 +184,11 @@ cx
 {
 SetBuiltinError
 (
+&
+JS_TRACE_MONITOR
+(
 cx
+)
 )
 ;
 }

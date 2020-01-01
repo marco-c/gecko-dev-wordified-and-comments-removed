@@ -9496,6 +9496,16 @@ ValueArgType
 v
 )
 {
+TraceMonitor
+*
+tm
+=
+&
+JS_TRACE_MONITOR
+(
+cx
+)
+;
 if
 (
 !
@@ -9512,7 +9522,7 @@ v
 {
 SetBuiltinError
 (
-cx
+tm
 )
 ;
 return
@@ -9522,7 +9532,7 @@ JS_FALSE
 return
 WasBuiltinSuccessful
 (
-cx
+tm
 )
 ;
 }
