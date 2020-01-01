@@ -9416,6 +9416,10 @@ nobr
 "
 )
 ;
+reconstructTheActiveFormattingElements
+(
+)
+;
 }
 appendToCurrentNodeAndPushFormattingElementMayFoster
 (

@@ -5240,6 +5240,10 @@ nsHtml5Atoms
 nobr
 )
 ;
+reconstructTheActiveFormattingElements
+(
+)
+;
 }
 appendToCurrentNodeAndPushFormattingElementMayFoster
 (
