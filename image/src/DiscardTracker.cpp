@@ -392,6 +392,10 @@ sTimer
 NULL
 ;
 }
+DiscardAll
+(
+)
+;
 }
 void
 DiscardTracker
