@@ -72,7 +72,7 @@ aCurrentTime
 void
 QueueWrittenAudioData
 (
-SoundDataValue
+AudioDataValue
 *
 aAudioData
 PRUint32

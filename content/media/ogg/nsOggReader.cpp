@@ -1630,12 +1630,12 @@ samples
 ;
 nsAutoArrayPtr
 <
-SoundDataValue
+AudioDataValue
 >
 buffer
 (
 new
-SoundDataValue
+AudioDataValue
 [
 samples
 *
@@ -1738,7 +1738,7 @@ mAudioQueue
 Push
 (
 new
-SoundData
+AudioData
 (
 mPageOffset
 startTime

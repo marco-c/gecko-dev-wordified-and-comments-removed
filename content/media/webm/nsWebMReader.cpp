@@ -2163,12 +2163,12 @@ pcm
 {
 nsAutoArrayPtr
 <
-SoundDataValue
+AudioDataValue
 >
 buffer
 (
 new
-SoundDataValue
+AudioDataValue
 [
 samples
 *
@@ -2320,7 +2320,7 @@ mAudioQueue
 Push
 (
 new
-SoundData
+AudioData
 (
 aOffset
 time
