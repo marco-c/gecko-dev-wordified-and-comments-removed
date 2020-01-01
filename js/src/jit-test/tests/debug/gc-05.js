@@ -227,7 +227,7 @@ x
 =
 x
 .
-__proto__
+prop
 =
 {
 }
@@ -239,7 +239,15 @@ obj
 =
 obj
 .
-proto
+getOwnPropertyDescriptor
+(
+"
+prop
+"
+)
+.
+value
+;
 ;
 assertEq
 (
