@@ -185,6 +185,7 @@ gTxFallbackHandler
 =
 0
 ;
+static
 nsresult
 txFnStartLRE
 (
@@ -206,6 +207,7 @@ txStylesheetCompilerState
 aState
 )
 ;
+static
 nsresult
 txFnEndLRE
 (
@@ -261,6 +263,7 @@ while
 (
 0
 )
+static
 nsresult
 getStyleAttr
 (
@@ -363,6 +366,7 @@ return
 NS_OK
 ;
 }
+static
 nsresult
 parseUseAttrSets
 (
@@ -501,6 +505,7 @@ return
 NS_OK
 ;
 }
+static
 nsresult
 parseExcludeResultPrefixes
 (
@@ -550,6 +555,7 @@ return
 NS_OK
 ;
 }
+static
 nsresult
 getQNameAttr
 (
@@ -660,6 +666,7 @@ return
 rv
 ;
 }
+static
 nsresult
 getExprAttr
 (
@@ -795,6 +802,7 @@ return
 rv
 ;
 }
+static
 nsresult
 getAVTAttr
 (
@@ -930,6 +938,7 @@ return
 rv
 ;
 }
+static
 nsresult
 getPatternAttr
 (
@@ -1030,6 +1039,7 @@ return
 NS_OK
 ;
 }
+static
 nsresult
 getNumberAttr
 (
@@ -1133,6 +1143,7 @@ return
 NS_OK
 ;
 }
+static
 nsresult
 getAtomAttr
 (
@@ -1212,6 +1223,7 @@ return
 NS_OK
 ;
 }
+static
 nsresult
 getYesNoAttr
 (
@@ -1324,6 +1336,7 @@ return
 NS_OK
 ;
 }
+static
 nsresult
 getCharAttr
 (
@@ -1425,6 +1438,7 @@ return
 NS_OK
 ;
 }
+static
 nsresult
 txFnTextIgnore
 (
@@ -1441,6 +1455,7 @@ return
 NS_OK
 ;
 }
+static
 nsresult
 txFnTextError
 (
@@ -1502,6 +1517,7 @@ nsnull
 ;
 }
 }
+static
 nsresult
 txFnStartElementIgnore
 (
@@ -1544,6 +1560,7 @@ return
 NS_OK
 ;
 }
+static
 nsresult
 txFnEndElementIgnore
 (
@@ -1556,6 +1573,7 @@ return
 NS_OK
 ;
 }
+static
 nsresult
 txFnStartElementSetIgnore
 (
@@ -1603,6 +1621,7 @@ gTxIgnoreHandler
 )
 ;
 }
+static
 nsresult
 txFnEndElementSetIgnore
 (
@@ -1621,6 +1640,7 @@ return
 NS_OK
 ;
 }
+static
 nsresult
 txFnStartElementError
 (
@@ -1646,6 +1666,7 @@ return
 NS_ERROR_XSLT_PARSE_FAILURE
 ;
 }
+static
 nsresult
 txFnEndElementError
 (
@@ -1670,6 +1691,7 @@ return
 NS_ERROR_XSLT_PARSE_FAILURE
 ;
 }
+static
 nsresult
 txFnStartStylesheet
 (
@@ -1764,6 +1786,7 @@ gTxImportHandler
 )
 ;
 }
+static
 nsresult
 txFnEndStylesheet
 (
@@ -1782,6 +1805,7 @@ return
 NS_OK
 ;
 }
+static
 nsresult
 txFnStartElementContinueTopLevel
 (
@@ -1813,6 +1837,7 @@ return
 NS_XSLT_GET_NEW_HANDLER
 ;
 }
+static
 nsresult
 txFnStartLREStylesheet
 (
@@ -1967,6 +1992,7 @@ aState
 )
 ;
 }
+static
 nsresult
 txFnEndLREStylesheet
 (
@@ -2038,6 +2064,7 @@ return
 NS_OK
 ;
 }
+static
 nsresult
 txFnStartEmbed
 (
@@ -2117,6 +2144,7 @@ aState
 )
 ;
 }
+static
 nsresult
 txFnEndEmbed
 (
@@ -2157,6 +2185,7 @@ return
 rv
 ;
 }
+static
 nsresult
 txFnStartOtherTop
 (
@@ -2215,6 +2244,7 @@ gTxIgnoreHandler
 )
 ;
 }
+static
 nsresult
 txFnEndOtherTop
 (
@@ -2233,6 +2263,7 @@ return
 NS_OK
 ;
 }
+static
 nsresult
 txFnStartAttributeSet
 (
@@ -2355,6 +2386,7 @@ gTxAttributeSetHandler
 )
 ;
 }
+static
 nsresult
 txFnEndAttributeSet
 (
@@ -2413,6 +2445,7 @@ return
 NS_OK
 ;
 }
+static
 nsresult
 txFnStartDecimalFormat
 (
@@ -2781,6 +2814,7 @@ gTxIgnoreHandler
 )
 ;
 }
+static
 nsresult
 txFnEndDecimalFormat
 (
@@ -2799,6 +2833,7 @@ return
 NS_OK
 ;
 }
+static
 nsresult
 txFnStartImport
 (
@@ -2959,6 +2994,7 @@ gTxIgnoreHandler
 )
 ;
 }
+static
 nsresult
 txFnEndImport
 (
@@ -2977,6 +3013,7 @@ return
 NS_OK
 ;
 }
+static
 nsresult
 txFnStartInclude
 (
@@ -3072,6 +3109,7 @@ gTxIgnoreHandler
 )
 ;
 }
+static
 nsresult
 txFnEndInclude
 (
@@ -3090,6 +3128,7 @@ return
 NS_OK
 ;
 }
+static
 nsresult
 txFnStartKey
 (
@@ -3223,6 +3262,7 @@ gTxIgnoreHandler
 )
 ;
 }
+static
 nsresult
 txFnEndKey
 (
@@ -3241,6 +3281,7 @@ return
 NS_OK
 ;
 }
+static
 nsresult
 txFnStartNamespaceAlias
 (
@@ -3322,6 +3363,7 @@ gTxIgnoreHandler
 )
 ;
 }
+static
 nsresult
 txFnEndNamespaceAlias
 (
@@ -3340,6 +3382,7 @@ return
 NS_OK
 ;
 }
+static
 nsresult
 txFnStartOutput
 (
@@ -3881,6 +3924,7 @@ gTxIgnoreHandler
 )
 ;
 }
+static
 nsresult
 txFnEndOutput
 (
@@ -3899,6 +3943,7 @@ return
 NS_OK
 ;
 }
+static
 nsresult
 txFnStartStripSpace
 (
@@ -4272,6 +4317,7 @@ gTxIgnoreHandler
 )
 ;
 }
+static
 nsresult
 txFnEndStripSpace
 (
@@ -4290,6 +4336,7 @@ return
 NS_OK
 ;
 }
+static
 nsresult
 txFnStartTemplate
 (
@@ -4483,6 +4530,7 @@ gTxParamHandler
 )
 ;
 }
+static
 nsresult
 txFnEndTemplate
 (
@@ -4541,6 +4589,7 @@ return
 NS_OK
 ;
 }
+static
 nsresult
 txFnStartTopVariable
 (
@@ -4734,6 +4783,7 @@ return
 NS_OK
 ;
 }
+static
 nsresult
 txFnEndTopVariable
 (
@@ -4880,6 +4930,7 @@ return
 NS_OK
 ;
 }
+static
 nsresult
 txFnStartElementStartTopVar
 (
@@ -4911,6 +4962,7 @@ return
 NS_XSLT_GET_NEW_HANDLER
 ;
 }
+static
 nsresult
 txFnTextStartTopVar
 (
@@ -4939,6 +4991,7 @@ return
 NS_XSLT_GET_NEW_HANDLER
 ;
 }
+static
 nsresult
 txFnStartLRE
 (
@@ -5175,6 +5228,7 @@ return
 NS_OK
 ;
 }
+static
 nsresult
 txFnEndLRE
 (
@@ -5219,6 +5273,7 @@ return
 NS_OK
 ;
 }
+static
 nsresult
 txFnText
 (
@@ -5277,6 +5332,7 @@ return
 NS_OK
 ;
 }
+static
 nsresult
 txFnStartApplyImports
 (
@@ -5369,6 +5425,7 @@ gTxIgnoreHandler
 )
 ;
 }
+static
 nsresult
 txFnEndApplyImports
 (
@@ -5387,6 +5444,7 @@ return
 NS_OK
 ;
 }
+static
 nsresult
 txFnStartApplyTemplates
 (
@@ -5647,6 +5705,7 @@ gTxApplyTemplatesHandler
 )
 ;
 }
+static
 nsresult
 txFnEndApplyTemplates
 (
@@ -5818,6 +5877,7 @@ return
 NS_OK
 ;
 }
+static
 nsresult
 txFnStartAttribute
 (
@@ -5983,6 +6043,7 @@ gTxTemplateHandler
 )
 ;
 }
+static
 nsresult
 txFnEndAttribute
 (
@@ -6037,6 +6098,7 @@ return
 NS_OK
 ;
 }
+static
 nsresult
 txFnStartCallTemplate
 (
@@ -6162,6 +6224,7 @@ gTxCallTemplateHandler
 )
 ;
 }
+static
 nsresult
 txFnEndCallTemplate
 (
@@ -6242,6 +6305,7 @@ return
 NS_OK
 ;
 }
+static
 nsresult
 txFnStartChoose
 (
@@ -6287,6 +6351,7 @@ gTxChooseHandler
 )
 ;
 }
+static
 nsresult
 txFnEndChoose
 (
@@ -6368,6 +6433,7 @@ return
 NS_OK
 ;
 }
+static
 nsresult
 txFnStartComment
 (
@@ -6428,6 +6494,7 @@ return
 NS_OK
 ;
 }
+static
 nsresult
 txFnEndComment
 (
@@ -6472,6 +6539,7 @@ return
 NS_OK
 ;
 }
+static
 nsresult
 txFnStartCopy
 (
@@ -6573,6 +6641,7 @@ return
 NS_OK
 ;
 }
+static
 nsresult
 txFnEndCopy
 (
@@ -6653,6 +6722,7 @@ return
 NS_OK
 ;
 }
+static
 nsresult
 txFnStartCopyOf
 (
@@ -6749,6 +6819,7 @@ gTxIgnoreHandler
 )
 ;
 }
+static
 nsresult
 txFnEndCopyOf
 (
@@ -6767,6 +6838,7 @@ return
 NS_OK
 ;
 }
+static
 nsresult
 txFnStartElement
 (
@@ -6908,6 +6980,7 @@ return
 NS_OK
 ;
 }
+static
 nsresult
 txFnEndElement
 (
@@ -6952,6 +7025,7 @@ return
 NS_OK
 ;
 }
+static
 nsresult
 txFnStartFallback
 (
@@ -6988,6 +7062,7 @@ gTxTemplateHandler
 )
 ;
 }
+static
 nsresult
 txFnEndFallback
 (
@@ -7025,6 +7100,7 @@ return
 NS_OK
 ;
 }
+static
 nsresult
 txFnStartForEach
 (
@@ -7205,6 +7281,7 @@ gTxForEachHandler
 )
 ;
 }
+static
 nsresult
 txFnEndForEach
 (
@@ -7303,6 +7380,7 @@ return
 NS_OK
 ;
 }
+static
 nsresult
 txFnStartElementContinueTemplate
 (
@@ -7334,6 +7412,7 @@ return
 NS_XSLT_GET_NEW_HANDLER
 ;
 }
+static
 nsresult
 txFnTextContinueTemplate
 (
@@ -7362,6 +7441,7 @@ return
 NS_XSLT_GET_NEW_HANDLER
 ;
 }
+static
 nsresult
 txFnStartIf
 (
@@ -7482,6 +7562,7 @@ return
 NS_OK
 ;
 }
+static
 nsresult
 txFnEndIf
 (
@@ -7520,6 +7601,7 @@ mTarget
 )
 ;
 }
+static
 nsresult
 txFnStartMessage
 (
@@ -7642,6 +7724,7 @@ return
 NS_OK
 ;
 }
+static
 nsresult
 txFnEndMessage
 (
@@ -7690,6 +7773,7 @@ return
 NS_OK
 ;
 }
+static
 nsresult
 txFnStartNumber
 (
@@ -8088,6 +8172,7 @@ gTxIgnoreHandler
 )
 ;
 }
+static
 nsresult
 txFnEndNumber
 (
@@ -8106,6 +8191,7 @@ return
 NS_OK
 ;
 }
+static
 nsresult
 txFnStartOtherwise
 (
@@ -8136,6 +8222,7 @@ gTxTemplateHandler
 )
 ;
 }
+static
 nsresult
 txFnEndOtherwise
 (
@@ -8160,6 +8247,7 @@ return
 NS_OK
 ;
 }
+static
 nsresult
 txFnStartParam
 (
@@ -8386,6 +8474,7 @@ return
 NS_OK
 ;
 }
+static
 nsresult
 txFnEndParam
 (
@@ -8559,6 +8648,7 @@ return
 NS_OK
 ;
 }
+static
 nsresult
 txFnStartPI
 (
@@ -8681,6 +8771,7 @@ return
 NS_OK
 ;
 }
+static
 nsresult
 txFnEndPI
 (
@@ -8729,6 +8820,7 @@ return
 NS_OK
 ;
 }
+static
 nsresult
 txFnStartSort
 (
@@ -8974,6 +9066,7 @@ gTxIgnoreHandler
 )
 ;
 }
+static
 nsresult
 txFnEndSort
 (
@@ -8992,6 +9085,7 @@ return
 NS_OK
 ;
 }
+static
 nsresult
 txFnStartText
 (
@@ -9080,6 +9174,7 @@ gTxTextHandler
 )
 ;
 }
+static
 nsresult
 txFnEndText
 (
@@ -9104,6 +9199,7 @@ return
 NS_OK
 ;
 }
+static
 nsresult
 txFnTextText
 (
@@ -9158,6 +9254,7 @@ return
 NS_OK
 ;
 }
+static
 nsresult
 txFnStartValueOf
 (
@@ -9282,6 +9379,7 @@ gTxIgnoreHandler
 )
 ;
 }
+static
 nsresult
 txFnEndValueOf
 (
@@ -9300,6 +9398,7 @@ return
 NS_OK
 ;
 }
+static
 nsresult
 txFnStartVariable
 (
@@ -9464,6 +9563,7 @@ return
 NS_OK
 ;
 }
+static
 nsresult
 txFnEndVariable
 (
@@ -9609,6 +9709,7 @@ return
 NS_OK
 ;
 }
+static
 nsresult
 txFnStartElementStartRTF
 (
@@ -9672,6 +9773,7 @@ return
 NS_XSLT_GET_NEW_HANDLER
 ;
 }
+static
 nsresult
 txFnTextStartRTF
 (
@@ -9732,6 +9834,7 @@ return
 NS_XSLT_GET_NEW_HANDLER
 ;
 }
+static
 nsresult
 txFnStartWhen
 (
@@ -9857,6 +9960,7 @@ gTxTemplateHandler
 )
 ;
 }
+static
 nsresult
 txFnEndWhen
 (
@@ -9977,6 +10081,7 @@ return
 NS_OK
 ;
 }
+static
 nsresult
 txFnStartWithParam
 (
@@ -10141,6 +10246,7 @@ return
 NS_OK
 ;
 }
+static
 nsresult
 txFnEndWithParam
 (
@@ -10268,6 +10374,7 @@ return
 NS_OK
 ;
 }
+static
 nsresult
 txFnStartUnknownInstruction
 (
@@ -10343,6 +10450,7 @@ gTxFallbackHandler
 )
 ;
 }
+static
 nsresult
 txFnEndUnknownInstruction
 (
