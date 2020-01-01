@@ -455,6 +455,10 @@ scroll
 .
 html
 \
+test_aria_statechange
+.
+html
+\
 test_attrs
 .
 html
