@@ -339,10 +339,6 @@ nsIMessageManager
 .
 idl
 \
-nsIWebSocket
-.
-idl
-\
 nsIEventSource
 .
 idl

@@ -499,7 +499,7 @@ nsTreeWalker
 .
 cpp
 \
-nsWebSocket
+WebSocket
 .
 cpp
 \

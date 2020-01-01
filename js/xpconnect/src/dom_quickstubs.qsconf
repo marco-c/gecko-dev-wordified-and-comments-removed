@@ -2275,13 +2275,6 @@ nsIXMLHttpRequest
 upload
 '
 #
-WebSocket
-'
-nsIWebSocket
-.
-*
-'
-#
 webgl
 '
 nsIDOMWebGLRenderingContext

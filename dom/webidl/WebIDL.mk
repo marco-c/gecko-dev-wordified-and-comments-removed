@@ -111,6 +111,10 @@ PerformanceTiming
 .
 webidl
 \
+WebSocket
+.
+webidl
+\
 XMLHttpRequest
 .
 webidl

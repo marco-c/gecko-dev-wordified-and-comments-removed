@@ -1488,10 +1488,6 @@ DesktopNotificationCenter
 )
 DOMCI_CLASS
 (
-WebSocket
-)
-DOMCI_CLASS
-(
 IDBFactory
 )
 DOMCI_CLASS
