@@ -3145,7 +3145,7 @@ mColumnRuleWidth
 eCSSType_Value
 kBorderWidthKTable
 CSS_PROP_NO_OFFSET
-eStyleAnimType_None
+eStyleAnimType_Custom
 )
 CSS_PROP_CONTENT
 (
