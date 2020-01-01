@@ -676,6 +676,10 @@ nsIGfxInfo
 .
 idl
 \
+nsIGfxInfoDebug
+.
+idl
+\
 nsIIMEPicker
 .
 idl
