@@ -1170,11 +1170,11 @@ server_quota_error
 }
 )
 ;
-Utils
+Svc
 .
-prefs
+Prefs
 .
-setIntPref
+set
 (
 "
 network
