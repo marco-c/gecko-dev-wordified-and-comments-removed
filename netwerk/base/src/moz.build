@@ -113,6 +113,11 @@ nsMIMEInputStream
 h
 '
 '
+nsTemporaryFileInputStream
+.
+h
+'
+'
 nsURLHelper
 .
 h
@@ -368,6 +373,11 @@ cpp
 '
 '
 nsSyncStreamListener
+.
+cpp
+'
+'
+nsTemporaryFileInputStream
 .
 cpp
 '
