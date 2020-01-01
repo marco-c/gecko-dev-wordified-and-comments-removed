@@ -568,6 +568,13 @@ control
 )
 ACCESSIBILITY_ATOM
 (
+cycles
+"
+cycles
+"
+)
+ACCESSIBILITY_ATOM
+(
 data
 "
 data
