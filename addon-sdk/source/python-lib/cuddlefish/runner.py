@@ -173,6 +173,8 @@ RUN_TIMEOUT
 OUTPUT_TIMEOUT
 =
 60
+*
+5
 def
 follow_file
 (
