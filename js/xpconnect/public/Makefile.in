@@ -435,10 +435,6 @@ nsAutoJSValHolder
 .
 h
 \
-nsTArrayHelpers
-.
-h
-\
 (
 NULL
 )
