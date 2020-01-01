@@ -178,10 +178,6 @@ nsCaretAccessible
 .
 cpp
 \
-nsTextAccessible
-.
-cpp
-\
 nsTextEquivUtils
 .
 cpp

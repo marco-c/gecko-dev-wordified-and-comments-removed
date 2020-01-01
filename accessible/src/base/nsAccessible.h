@@ -138,6 +138,9 @@ HTMLLIAccessible
 class
 TableAccessible
 ;
+class
+TextLeafAccessible
+;
 enum
 ENameValueFlag
 {
@@ -147,9 +150,6 @@ eNameFromTooltip
 ;
 }
 }
-class
-nsTextAccessible
-;
 class
 nsXULTreeAccessible
 ;
@@ -1206,7 +1206,13 @@ mFlags
 eTextLeafAccessible
 ;
 }
-nsTextAccessible
+mozilla
+:
+:
+a11y
+:
+:
+TextLeafAccessible
 *
 AsTextLeaf
 (

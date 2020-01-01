@@ -114,10 +114,6 @@ nsAccessibleWrap
 .
 cpp
 \
-nsTextAccessibleWrap
-.
-cpp
-\
 nsDocAccessibleWrap
 .
 cpp
@@ -203,6 +199,10 @@ Compatibility
 cpp
 \
 RootAccessibleWrap
+.
+cpp
+\
+TextLeafAccessibleWrap
 .
 cpp
 \

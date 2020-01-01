@@ -114,6 +114,10 @@ RootAccessible
 .
 cpp
 \
+TextLeafAccessible
+.
+cpp
+\
 (
 NULL
 )

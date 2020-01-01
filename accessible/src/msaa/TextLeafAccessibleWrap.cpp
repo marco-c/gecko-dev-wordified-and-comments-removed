@@ -1,7 +1,7 @@
 #
 include
 "
-nsTextAccessibleWrap
+TextLeafAccessibleWrap
 .
 h
 "
@@ -75,10 +75,10 @@ mozilla
 :
 a11y
 ;
-nsTextAccessibleWrap
+TextLeafAccessibleWrap
 :
 :
-nsTextAccessibleWrap
+TextLeafAccessibleWrap
 (
 nsIContent
 *
@@ -88,7 +88,7 @@ nsDocAccessible
 aDoc
 )
 :
-nsTextAccessible
+TextLeafAccessible
 (
 aContent
 aDoc
@@ -99,7 +99,7 @@ STDMETHODIMP_
 (
 ULONG
 )
-nsTextAccessibleWrap
+TextLeafAccessibleWrap
 :
 :
 AddRef
@@ -119,7 +119,7 @@ STDMETHODIMP_
 (
 ULONG
 )
-nsTextAccessibleWrap
+TextLeafAccessibleWrap
 :
 :
 Release
@@ -136,7 +136,7 @@ Release
 ;
 }
 STDMETHODIMP
-nsTextAccessibleWrap
+TextLeafAccessibleWrap
 :
 :
 QueryInterface
@@ -239,7 +239,7 @@ S_OK
 ;
 }
 STDMETHODIMP
-nsTextAccessibleWrap
+TextLeafAccessibleWrap
 :
 :
 get_domText
@@ -350,7 +350,7 @@ S_OK
 ;
 }
 STDMETHODIMP
-nsTextAccessibleWrap
+TextLeafAccessibleWrap
 :
 :
 get_clippedSubstringBounds
@@ -558,7 +558,7 @@ S_OK
 ;
 }
 STDMETHODIMP
-nsTextAccessibleWrap
+TextLeafAccessibleWrap
 :
 :
 get_unclippedSubstringBounds
@@ -654,7 +654,7 @@ S_OK
 ;
 }
 STDMETHODIMP
-nsTextAccessibleWrap
+TextLeafAccessibleWrap
 :
 :
 scrollToSubstring
@@ -744,7 +744,7 @@ S_OK
 }
 nsIFrame
 *
-nsTextAccessibleWrap
+TextLeafAccessibleWrap
 :
 :
 GetPointFromOffset
@@ -808,7 +808,7 @@ textFrame
 ;
 }
 nsresult
-nsTextAccessibleWrap
+TextLeafAccessibleWrap
 :
 :
 GetCharacterExtents
@@ -1078,7 +1078,7 @@ NS_OK
 ;
 }
 STDMETHODIMP
-nsTextAccessibleWrap
+TextLeafAccessibleWrap
 :
 :
 get_fontFamily

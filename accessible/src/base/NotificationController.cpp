@@ -52,13 +52,6 @@ h
 #
 include
 "
-nsTextAccessible
-.
-h
-"
-#
-include
-"
 FocusManager
 .
 h
@@ -67,6 +60,13 @@ h
 include
 "
 Role
+.
+h
+"
+#
+include
+"
+TextLeafAccessible
 .
 h
 "
