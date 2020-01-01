@@ -1503,9 +1503,6 @@ mHelperSurface
 bool
 mDoAlphaExtraction
 ;
-bool
-mHasPainted
-;
 nsIntRect
 mSurfaceDifferenceRect
 ;
