@@ -526,6 +526,7 @@ MacroAssembler
 masm
 )
 ;
+virtual
 void
 reset
 (
@@ -874,6 +875,11 @@ CACHE_HEADER
 (
 GetProperty
 )
+void
+reset
+(
+)
+;
 Register
 object
 (
@@ -1303,6 +1309,11 @@ CACHE_HEADER
 (
 GetElement
 )
+void
+reset
+(
+)
+;
 Register
 object
 (
