@@ -3749,9 +3749,12 @@ textValue
 &
 &
 !
-gPrivateBrowsingUI
+PrivateBrowsingUtils
 .
-privateWindow
+isWindowPrivate
+(
+window
+)
 )
 {
 try
