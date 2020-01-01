@@ -101,6 +101,10 @@ test_disallowInheritPrincipal
 .
 html
 \
+test_app_principal_equality
+.
+html
+\
 (
 NULL
 )
