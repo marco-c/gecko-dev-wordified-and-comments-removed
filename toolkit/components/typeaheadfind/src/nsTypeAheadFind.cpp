@@ -218,13 +218,6 @@ h
 #
 include
 "
-nsIScrollableView
-.
-h
-"
-#
-include
-"
 nsIDocument
 .
 h

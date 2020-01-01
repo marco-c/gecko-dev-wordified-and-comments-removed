@@ -110,9 +110,6 @@ nsIScrollableFrame
 h
 "
 class
-nsIScrollableView
-;
-class
 nsIPresShell
 ;
 class
