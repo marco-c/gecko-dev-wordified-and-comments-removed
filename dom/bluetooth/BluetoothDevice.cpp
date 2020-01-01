@@ -928,7 +928,7 @@ InfallibleTArray
 BluetoothNamedValue
 >
 arr
-=
+(
 aData
 .
 value
@@ -937,6 +937,7 @@ value
 .
 get_ArrayOfBluetoothNamedValue
 (
+)
 )
 ;
 NS_ASSERTION

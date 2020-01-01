@@ -1658,16 +1658,10 @@ mService
 >
 GetPairedDevicePropertiesInternal
 (
-nsTArray
-<
-nsString
->
-(
 aRequest
 .
 addresses
 (
-)
 )
 mReplyRunnable
 .
