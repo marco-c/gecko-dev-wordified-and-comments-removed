@@ -32114,6 +32114,10 @@ DOM_VK_RETURN
 )
 return
 ;
+handleURLBarRevert
+(
+)
+;
 this
 .
 _identityPopup
