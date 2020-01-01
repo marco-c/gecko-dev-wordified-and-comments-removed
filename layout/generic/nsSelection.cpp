@@ -22494,6 +22494,11 @@ nsIDOMRange
 aRange
 )
 {
+NS_ENSURE_STATE
+(
+mAnchorFocusRange
+)
+;
 nsCOMPtr
 <
 nsIDOMNode
