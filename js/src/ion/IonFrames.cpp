@@ -348,6 +348,10 @@ break
 case
 CalleeToken_Script
 :
+callee_
+=
+NULL
+;
 script_
 =
 CalleeTokenToScript

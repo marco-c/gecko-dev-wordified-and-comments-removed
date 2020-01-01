@@ -29,7 +29,7 @@ nargs
 +
 2
 :
-0
+1
 ;
 }
 class
@@ -326,13 +326,6 @@ scopeChainSlot
 )
 const
 {
-JS_ASSERT
-(
-fun
-(
-)
-)
-;
 return
 0
 ;
