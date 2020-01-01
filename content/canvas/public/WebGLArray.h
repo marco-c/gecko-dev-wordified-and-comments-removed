@@ -5,6 +5,15 @@ WEBGLARRAY_H_
 define
 WEBGLARRAY_H_
 nsresult
+NS_NewCanvasArrayBuffer
+(
+nsISupports
+*
+*
+aNewObject
+)
+;
+nsresult
 NS_NewCanvasFloatArray
 (
 nsISupports
