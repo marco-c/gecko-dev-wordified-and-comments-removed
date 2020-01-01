@@ -48,6 +48,13 @@ servicebase
 h
 "
 #
+include
+"
+updatehelper
+.
+h
+"
+#
 define
 MAX_KEY_LENGTH
 255

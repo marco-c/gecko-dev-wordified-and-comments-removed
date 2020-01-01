@@ -8,6 +8,16 @@ h
 #
 include
 <
+tlhelp32
+.
+h
+>
+#
+ifndef
+ONLY_SERVICE_LAUNCHING
+#
+include
+<
 stdio
 .
 h
@@ -37,13 +47,6 @@ h
 include
 <
 shlwapi
-.
-h
->
-#
-include
-<
-tlhelp32
 .
 h
 >
@@ -852,6 +855,8 @@ return
 svcUpdateProcessStarted
 ;
 }
+#
+endif
 DWORD
 StartServiceCommand
 (
@@ -1011,6 +1016,9 @@ return
 lastError
 ;
 }
+#
+ifndef
+ONLY_SERVICE_LAUNCHING
 DWORD
 LaunchServiceSoftwareUpdateCommand
 (
@@ -1385,6 +1393,8 @@ wrote
 toWrite
 ;
 }
+#
+endif
 DWORD
 WaitForServiceStop
 (
@@ -1714,6 +1724,9 @@ return
 lastServiceState
 ;
 }
+#
+ifndef
+ONLY_SERVICE_LAUNCHING
 DWORD
 IsProcessRunning
 (
@@ -1939,6 +1952,8 @@ return
 TRUE
 ;
 }
+#
+endif
 BOOL
 IsLocalFile
 (

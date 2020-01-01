@@ -5058,6 +5058,17 @@ WriteRegStr
 HKLM
 "
 R0
+"
+"
+prefetchProcessName
+"
+"
+FIREFOX
+"
+WriteRegStr
+HKLM
+"
+R0
 \
 0
 "

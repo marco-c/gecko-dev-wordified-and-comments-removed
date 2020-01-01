@@ -170,6 +170,10 @@ updatehelper
 .
 h
 \
+updatehelper
+.
+cpp
+\
 uachelper
 .
 h
