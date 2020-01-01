@@ -730,6 +730,11 @@ drop
 -
 indicator
 "
+mousethrough
+=
+"
+always
+"
 /
 >
 <
