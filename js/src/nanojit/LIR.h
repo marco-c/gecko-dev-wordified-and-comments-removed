@@ -6030,6 +6030,9 @@ LInsFirst
 LInsLast
 =
 7
+LInsInvalid
+=
+8
 }
 ;
 #
