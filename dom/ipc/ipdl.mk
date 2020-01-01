@@ -399,6 +399,10 @@ PDocumentRendererShmem
 .
 ipdl
 \
+PContentDialog
+.
+ipdl
+\
 (
 NULL
 )
