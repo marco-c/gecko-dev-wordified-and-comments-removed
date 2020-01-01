@@ -226,6 +226,43 @@ cmd
 cmd
 )
 def
+total_seconds
+(
+td
+)
+:
+    
+return
+(
+td
+.
+microseconds
++
+(
+td
+.
+seconds
++
+td
+.
+days
+*
+24
+*
+3600
+)
+*
+10
+*
+*
+6
+)
+/
+10
+*
+*
+6
+def
 get_max_wait
 (
 tasks
@@ -307,10 +344,9 @@ remaining
     
 wait
 =
-wait
-.
 total_seconds
 (
+wait
 )
     
 if
@@ -975,6 +1011,7 @@ err
                    
 returncode
                    
+total_seconds
 (
 datetime
 .
@@ -985,10 +1022,6 @@ now
 ended
 .
 start
-)
-.
-total_seconds
-(
 )
                    
 timed_out
