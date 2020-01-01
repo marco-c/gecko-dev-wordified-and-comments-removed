@@ -472,6 +472,7 @@ B737
 -
 1057C4F1D052
 )
+builtinclass
 ]
 interface
 nsIDragService
