@@ -1543,13 +1543,6 @@ NS_VIEW_MANAGER_CID
 static
 NS_DEFINE_CID
 (
-kWidgetCID
-NS_CHILD_CID
-)
-;
-static
-NS_DEFINE_CID
-(
 kDeviceContextCID
 NS_DEVICE_CONTEXT_CID
 )
@@ -8710,7 +8703,6 @@ view
 >
 CreateWidgetForParent
 (
-kWidgetCID
 mParentWidget
 initDataPtr
 PR_TRUE
@@ -8727,7 +8719,6 @@ view
 >
 CreateWidget
 (
-kWidgetCID
 initDataPtr
 PR_TRUE
 PR_FALSE

@@ -375,13 +375,6 @@ h
 class
 AsyncFrameInit
 ;
-static
-NS_DEFINE_CID
-(
-kCChildCID
-NS_CHILD_CID
-)
-;
 class
 nsSubDocumentFrame
 :
@@ -1059,7 +1052,6 @@ view
 >
 CreateWidget
 (
-kCChildCID
 )
 ;
 }
@@ -3912,7 +3904,6 @@ innerView
 >
 CreateWidget
 (
-kCChildCID
 nsnull
 PR_TRUE
 PR_TRUE
