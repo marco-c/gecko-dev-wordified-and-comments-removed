@@ -523,10 +523,6 @@ test_bug599322
 .
 html
 \
-test_bug601881
-.
-html
-\
 test_bug607584
 .
 html

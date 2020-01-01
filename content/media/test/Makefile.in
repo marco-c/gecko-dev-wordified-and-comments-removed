@@ -809,6 +809,10 @@ test_autoplay
 .
 html
 \
+test_autoplay_contentEditable
+.
+html
+\
 test_buffered
 .
 html
