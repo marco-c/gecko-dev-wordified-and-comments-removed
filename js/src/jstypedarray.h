@@ -944,7 +944,7 @@ obj
 }
 ;
 class
-BufferView
+ArrayBufferViewObject
 :
 public
 JSObject
@@ -999,7 +999,7 @@ struct
 TypedArray
 :
 public
-BufferView
+ArrayBufferViewObject
 {
 enum
 {
@@ -1022,7 +1022,7 @@ const
 size_t
 LENGTH_SLOT
 =
-BufferView
+ArrayBufferViewObject
 :
 :
 NUM_SLOTS
@@ -1032,7 +1032,7 @@ const
 size_t
 TYPE_SLOT
 =
-BufferView
+ArrayBufferViewObject
 :
 :
 NUM_SLOTS
@@ -1044,7 +1044,7 @@ const
 size_t
 RESERVED_SLOTS
 =
-BufferView
+ArrayBufferViewObject
 :
 :
 NUM_SLOTS
@@ -1640,7 +1640,7 @@ class
 DataViewObject
 :
 public
-BufferView
+ArrayBufferViewObject
 {
 public
 :
@@ -1741,7 +1741,7 @@ const
 size_t
 RESERVED_SLOTS
 =
-BufferView
+ArrayBufferViewObject
 :
 :
 NUM_SLOTS
