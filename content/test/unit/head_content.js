@@ -122,7 +122,9 @@ DOMParser
 (
 )
 {
-return
+var
+parser
+=
 C
 [
 "
@@ -142,6 +144,15 @@ createInstance
 (
 nsIDOMParser
 )
+;
+parser
+.
+init
+(
+)
+;
+return
+parser
 ;
 }
 var
