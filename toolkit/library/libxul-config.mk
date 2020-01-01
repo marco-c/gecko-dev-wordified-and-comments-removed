@@ -747,8 +747,6 @@ pipboot
 \
 pipnss
 \
-mozfind
-\
 appcomps
 \
 (
@@ -968,8 +966,6 @@ COMPONENT_LIBS
 rdf
 \
 windowds
-\
-intlapp
 \
 (
 NULL

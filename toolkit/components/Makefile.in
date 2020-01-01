@@ -465,6 +465,8 @@ exthelper
 \
 filepicker
 \
+find
+\
 microformats
 \
 parentalcontrols
@@ -572,7 +574,14 @@ MOZ_RDF
 PARALLEL_DIRS
 +
 =
+\
 downloads
+\
+intl
+\
+(
+NULL
+)
 endif
 ifdef
 MOZ_URL_CLASSIFIER

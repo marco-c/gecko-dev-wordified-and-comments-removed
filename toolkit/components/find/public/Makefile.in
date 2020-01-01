@@ -417,7 +417,7 @@ autoconf
 mk
 MODULE
 =
-appcomps
+mozfind
 XPIDL_MODULE
 =
 mozfind
