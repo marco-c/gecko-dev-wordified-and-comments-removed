@@ -1349,7 +1349,7 @@ stderr
 freopen
 (
 "
-CONERR
+CONOUT
 "
 "
 w
