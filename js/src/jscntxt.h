@@ -2149,7 +2149,7 @@ bool
 gcExactScanningEnabled
 ;
 bool
-gcInTransplant
+gcManipulatingDeadCompartments
 ;
 unsigned
 gcObjectsMarkedInDeadCompartments
