@@ -638,6 +638,11 @@ nsTimeRanges
 aBuffered
 )
 {
+if
+(
+mDecoderStateMachine
+)
+{
 return
 mDecoderStateMachine
 -
@@ -646,6 +651,10 @@ GetBuffered
 (
 aBuffered
 )
+;
+}
+return
+NS_ERROR_FAILURE
 ;
 }
 virtual
