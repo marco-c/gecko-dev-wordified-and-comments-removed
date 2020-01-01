@@ -426,6 +426,10 @@ EXPORTS
 sampler
 .
 h
+\
+thread_helper
+.
+h
 ifdef
 MOZ_ENABLE_PROFILER_SPS
 EXPORTS
@@ -433,10 +437,6 @@ EXPORTS
 =
 \
 sps_sampler
-.
-h
-\
-thread_helper
 .
 h
 \
