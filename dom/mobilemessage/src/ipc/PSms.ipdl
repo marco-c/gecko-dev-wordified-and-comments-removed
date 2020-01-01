@@ -185,7 +185,7 @@ value
 }
 ;
 struct
-GetThreadListRequest
+CreateThreadCursorRequest
 {
 }
 ;
@@ -200,7 +200,14 @@ DeleteMessageRequest
 ;
 MarkMessageReadRequest
 ;
-GetThreadListRequest
+}
+;
+union
+IPCMobileMessageCursor
+{
+CreateMessageCursorRequest
+;
+CreateThreadCursorRequest
 ;
 }
 ;
@@ -322,7 +329,7 @@ parent
 /
 PMobileMessageCursor
 (
-CreateMessageCursorRequest
+IPCMobileMessageCursor
 request
 )
 ;
