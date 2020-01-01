@@ -29,6 +29,13 @@ nsAutoPtr
 .
 h
 "
+#
+include
+"
+nsCycleCollectionParticipant
+.
+h
+"
 class
 nsPresContext
 ;
@@ -72,6 +79,11 @@ GroupRule
 ;
 public
 :
+NS_DECL_CYCLE_COLLECTION_CLASS
+(
+GroupRule
+)
+NS_DECL_CYCLE_COLLECTING_ISUPPORTS
 DECL_STYLE_RULE_INHERIT_NO_DOMRULE
 virtual
 void

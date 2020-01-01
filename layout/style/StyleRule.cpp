@@ -6115,15 +6115,13 @@ nsISupports
 nsIStyleRule
 )
 NS_INTERFACE_MAP_END
-NS_IMPL_ADDREF_INHERITED
+NS_IMPL_ADDREF
 (
 StyleRule
-Rule
 )
-NS_IMPL_RELEASE_INHERITED
+NS_IMPL_RELEASE
 (
 StyleRule
-Rule
 )
 void
 StyleRule
