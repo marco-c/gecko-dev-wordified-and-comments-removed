@@ -51397,6 +51397,9 @@ outData
 id
 :
 id
+targetAppID
+:
+foundAppID
 minVersion
 :
 stringData
