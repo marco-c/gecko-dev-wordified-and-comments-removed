@@ -24,13 +24,6 @@ h
 #
 include
 "
-nsIGenericFactory
-.
-h
-"
-#
-include
-"
 nsIClassInfoImpl
 .
 h
@@ -97,6 +90,12 @@ starting
 "
 #
 endif
+NS_IMPL_CLASSINFO
+(
+nsDBusHandlerApp
+NULL
+0
+)
 NS_IMPL_ISUPPORTS2_CI
 (
 nsDBusHandlerApp
@@ -777,7 +776,3 @@ return
 NS_OK
 ;
 }
-NS_DECL_CLASSINFO
-(
-nsDBusHandlerApp
-)
