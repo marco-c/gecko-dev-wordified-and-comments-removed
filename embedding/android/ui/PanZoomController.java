@@ -23,17 +23,6 @@ gecko
 .
 gfx
 .
-FloatRect
-;
-import
-org
-.
-mozilla
-.
-gecko
-.
-gfx
-.
 IntSize
 ;
 import
@@ -71,6 +60,13 @@ android
 graphics
 .
 PointF
+;
+import
+android
+.
+graphics
+.
+RectF
 ;
 import
 android
@@ -1180,7 +1176,7 @@ getPageSize
 (
 )
 ;
-FloatRect
+RectF
 visibleRect
 =
 mController
@@ -1213,7 +1209,7 @@ viewportPos
 =
 visibleRect
 .
-x
+left
 ;
 mX
 .
@@ -1222,6 +1218,8 @@ setViewportLength
 visibleRect
 .
 width
+(
+)
 )
 ;
 mY
@@ -1239,7 +1237,7 @@ viewportPos
 =
 visibleRect
 .
-y
+top
 ;
 mY
 .
@@ -1248,6 +1246,8 @@ setViewportLength
 visibleRect
 .
 height
+(
+)
 )
 ;
 }
@@ -2625,7 +2625,7 @@ PanZoomState
 .
 PINCHING
 ;
-FloatRect
+RectF
 initialZoomRect
 =
 mController
@@ -2650,7 +2650,7 @@ PointF
 (
 initialZoomRect
 .
-x
+left
 +
 (
 detector
@@ -2663,7 +2663,7 @@ initialZoom
 )
 initialZoomRect
 .
-y
+top
 +
 (
 detector

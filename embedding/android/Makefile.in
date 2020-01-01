@@ -549,12 +549,6 @@ java
 \
 gfx
 /
-FloatRect
-.
-java
-\
-gfx
-/
 GeckoSoftwareLayerClient
 .
 java

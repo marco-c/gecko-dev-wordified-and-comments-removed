@@ -25,17 +25,6 @@ gecko
 .
 gfx
 .
-FloatRect
-;
-import
-org
-.
-mozilla
-.
-gecko
-.
-gfx
-.
 IntSize
 ;
 import
@@ -10698,7 +10687,7 @@ public
 void
 repositionFromVisibleRect
 (
-FloatRect
+RectF
 rect
 )
 {
@@ -10711,7 +10700,7 @@ int
 )
 rect
 .
-x
+left
 ;
 y
 =
@@ -10722,7 +10711,7 @@ int
 )
 rect
 .
-y
+top
 ;
 }
 }
