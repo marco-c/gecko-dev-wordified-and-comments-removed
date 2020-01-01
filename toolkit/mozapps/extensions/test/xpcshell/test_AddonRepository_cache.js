@@ -435,6 +435,9 @@ on
 1
 -
 Description
+\
+nSecond
+line
 "
 fullDescription
 :
@@ -447,6 +450,9 @@ on
 -
 Full
 Description
+&
+some
+extra
 "
 developerComments
 :
@@ -456,8 +462,8 @@ Add
 -
 on
 1
--
-Developer
+\
+nDeveloper
 Comments
 "
 eula
@@ -1605,6 +1611,9 @@ on
 -
 Full
 Description
+&
+some
+extra
 "
 developerComments
 :
@@ -1614,8 +1623,8 @@ Add
 -
 on
 1
--
-Developer
+\
+nDeveloper
 Comments
 "
 eula
