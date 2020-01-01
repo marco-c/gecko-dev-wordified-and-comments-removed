@@ -741,8 +741,15 @@ yuv2argb
 patch
 patch
 -
-p3
+p1
 <
-bug464007
+bug468281_r3863
+.
+patch
+patch
+-
+p1
+<
+bug468281_r3864
 .
 patch
