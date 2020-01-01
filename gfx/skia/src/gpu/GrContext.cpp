@@ -1892,13 +1892,6 @@ kTriangleFan_GrPrimitiveType
 )
 ;
 }
-texture
--
->
-releaseRenderTarget
-(
-)
-;
 }
 else
 {
