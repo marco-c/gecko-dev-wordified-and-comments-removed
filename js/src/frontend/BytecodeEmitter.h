@@ -576,12 +576,10 @@ checkSingletonContext
 if
 (
 !
-sc
+parser
 -
 >
 compileAndGo
-(
-)
 |
 |
 sc
