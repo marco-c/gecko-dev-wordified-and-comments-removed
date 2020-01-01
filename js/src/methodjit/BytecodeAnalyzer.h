@@ -54,9 +54,6 @@ bool
 safePoint
 ;
 bool
-trap
-;
-bool
 inTryBlock
 ;
 uint32
