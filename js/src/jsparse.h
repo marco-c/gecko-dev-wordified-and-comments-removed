@@ -2811,6 +2811,8 @@ trc
 ;
 friend
 struct
+:
+:
 JSTreeContext
 ;
 friend
