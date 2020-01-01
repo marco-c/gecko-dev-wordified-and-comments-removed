@@ -221,9 +221,14 @@ gcHeapScripts
 size_t
 gcHeapTypeObjects
 ;
+#
+if
+JS_HAS_XML_SUPPORT
 size_t
 gcHeapXML
 ;
+#
+endif
 size_t
 objectSlots
 ;

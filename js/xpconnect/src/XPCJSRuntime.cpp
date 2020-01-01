@@ -6970,6 +6970,9 @@ information
 "
 )
 ;
+#
+if
+JS_HAS_XML_SUPPORT
 REPORT_GC_BYTES0
 (
 MakePath
@@ -7010,6 +7013,8 @@ objects
 "
 )
 ;
+#
+endif
 REPORT_BYTES0
 (
 MakePath
