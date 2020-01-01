@@ -148,7 +148,7 @@ weave
 encryption
 "
 "
-XXXTEA
+XXTEA
 "
 )
 ;
