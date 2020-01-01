@@ -201,6 +201,14 @@ slot
 )
 ;
 }
+void
+trace
+(
+JSTracer
+*
+trc
+)
+;
 static
 size_t
 offsetOfCalleeToken
