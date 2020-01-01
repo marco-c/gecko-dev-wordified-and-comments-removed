@@ -130,6 +130,11 @@ compareSource
 expect
 actual
 summary
++
+'
+:
+1
+'
 )
 ;
 f
@@ -197,6 +202,11 @@ compareSource
 expect
 actual
 summary
++
+'
+:
+2
+'
 )
 ;
 exitFunc
