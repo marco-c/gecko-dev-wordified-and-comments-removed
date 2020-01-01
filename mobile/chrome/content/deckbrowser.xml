@@ -6084,7 +6084,7 @@ dragData
 .
 velocityX
 *
-100
+200
 ;
 let
 idealDestScreenY
@@ -6112,7 +6112,7 @@ dragData
 .
 velocityY
 *
-100
+200
 let
 [
 destPageX
