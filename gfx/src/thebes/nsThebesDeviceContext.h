@@ -207,6 +207,11 @@ aFont
 const
 ;
 NS_IMETHOD
+ClearCachedSystemFonts
+(
+)
+;
+NS_IMETHOD
 CheckFontExistence
 (
 const
