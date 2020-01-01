@@ -5881,15 +5881,6 @@ JSObject
 obj
 )
 {
-JSContext
-*
-cx
-=
-trc
--
->
-context
-;
 obj
 -
 >

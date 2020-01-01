@@ -425,6 +425,9 @@ Bindings
 JSContext
 *
 cx
+EmptyShape
+*
+emptyCallShape
 )
 ;
 inline
