@@ -642,6 +642,10 @@ mCategoryObservers
 (
 OBSERVER_TOPIC_IDLE_DAILY
 )
+mShutdownInProgress
+(
+false
+)
 mExpectedTriggerTime
 (
 0
@@ -649,10 +653,6 @@ mExpectedTriggerTime
 mIdleDailyTriggerWait
 (
 DAILY_SIGNIFICANT_IDLE_SERVICE_SEC
-)
-mShutdownInProgress
-(
-false
 )
 {
 }
