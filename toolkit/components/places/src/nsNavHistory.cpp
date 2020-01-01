@@ -7827,7 +7827,7 @@ sortingMode
 nsINavHistoryQueryOptions
 :
 :
-SORT_BY_VISITCOUNT_DESCENDING
+SORT_BY_ANNOTATION_DESCENDING
 )
 {
 return
