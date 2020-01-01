@@ -65,6 +65,9 @@ function
 delete
 gPrefService
 ;
+var
+gPrefService
+;
 return
 gPrefService
 =
