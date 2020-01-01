@@ -9206,8 +9206,6 @@ TokenStream
 Position
 &
 start
-size_t
-startOffset
 FunctionType
 type
 FunctionSyntaxKind
@@ -9313,7 +9311,6 @@ functionArgsAndBody
 (
 pn
 fun
-startOffset
 type
 kind
 initiallyStrict
@@ -9385,7 +9382,6 @@ functionArgsAndBody
 (
 pn
 fun
-startOffset
 type
 kind
 true
@@ -9952,8 +9948,6 @@ ParseNode
 pn
 HandleFunction
 fun
-size_t
-startOffset
 FunctionType
 type
 FunctionSyntaxKind
@@ -10310,8 +10304,6 @@ Node
 pn
 HandleFunction
 fun
-size_t
-startOffset
 FunctionType
 type
 FunctionSyntaxKind
@@ -11562,12 +11554,6 @@ functionDef
 (
 name
 start
-tokenStream
-.
-positionToOffset
-(
-start
-)
 Normal
 Statement
 )
@@ -11666,12 +11652,6 @@ functionDef
 (
 name
 start
-tokenStream
-.
-positionToOffset
-(
-start
-)
 Normal
 Expression
 )
@@ -23824,15 +23804,6 @@ null
 (
 )
 ;
-size_t
-offset
-=
-pos
-(
-)
-.
-begin
-;
 tokenStream
 .
 ungetToken
@@ -23846,7 +23817,6 @@ NullPtr
 (
 )
 start
-offset
 Normal
 Arrow
 )
@@ -30137,12 +30107,6 @@ functionDef
 (
 funName
 start
-tokenStream
-.
-positionToOffset
-(
-start
-)
 op
 =
 =

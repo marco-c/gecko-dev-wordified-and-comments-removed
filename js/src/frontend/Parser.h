@@ -1453,8 +1453,6 @@ TokenStream
 Position
 &
 start
-size_t
-startOffset
 FunctionType
 type
 FunctionSyntaxKind
@@ -1468,8 +1466,6 @@ Node
 pn
 HandleFunction
 fun
-size_t
-startOffset
 FunctionType
 type
 FunctionSyntaxKind
