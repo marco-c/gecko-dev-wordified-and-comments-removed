@@ -810,13 +810,6 @@ DMOZ_UPDATER
 MOZ_UPDATER
 )
 \
--
-DAPP_ID
-=
-(
-MOZ_APP_ID
-)
-\
 (
 NULL
 )
