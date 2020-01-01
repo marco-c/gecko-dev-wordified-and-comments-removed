@@ -289,7 +289,7 @@ disk
 .
 capacity
 "
-10240
+20480
 )
 ;
 pref
