@@ -2209,15 +2209,6 @@ JSContext
 cx
 )
 ;
-extern
-void
-js_DeepAbort
-(
-JSContext
-*
-cx
-)
-;
 #
 endif
 #
