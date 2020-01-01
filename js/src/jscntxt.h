@@ -1569,6 +1569,15 @@ maybeDefaultCompartmentObject
 )
 const
 {
+JS_ASSERT
+(
+!
+hasOption
+(
+JSOPTION_NO_DEFAULT_COMPARTMENT_OBJECT
+)
+)
+;
 return
 defaultCompartmentObject_
 ;
