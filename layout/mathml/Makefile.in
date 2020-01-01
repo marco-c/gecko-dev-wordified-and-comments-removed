@@ -691,6 +691,10 @@ mk
 font_properties
 =
 \
+mathfontMathJax_Main
+.
+properties
+\
 mathfontUnicode
 .
 properties

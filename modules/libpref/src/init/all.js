@@ -10119,6 +10119,7 @@ STIXNonUnicode
 STIXSizeOneSym
 STIXSize1
 STIXGeneral
+MathJax_Main
 Asana
 Math
 Standard
@@ -16934,6 +16935,7 @@ STIXNonUnicode
 STIXSizeOneSym
 STIXSize1
 STIXGeneral
+MathJax_Main
 Asana
 Math
 Symbol
@@ -22764,6 +22766,7 @@ STIXNonUnicode
 STIXSizeOneSym
 STIXSize1
 STIXGeneral
+MathJax_Main
 Asana
 Math
 Symbol
@@ -22991,6 +22994,7 @@ STIXNonUnicode
 STIXSizeOneSym
 STIXSize1
 STIXGeneral
+MathJax_Main
 Asana
 Math
 DejaVu
