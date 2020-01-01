@@ -266,7 +266,7 @@ android
 scaleType
 =
 "
-fitCenter
+centerCrop
 "
 /
 >

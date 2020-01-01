@@ -299,7 +299,7 @@ android
 scaleType
 =
 "
-fitCenter
+centerCrop
 "
 /
 >
