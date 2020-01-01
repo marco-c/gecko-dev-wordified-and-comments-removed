@@ -135,6 +135,14 @@ test_audioBufferSourceNode
 .
 html
 \
+test_audioBufferSourceNodeLoop
+.
+html
+\
+test_audioBufferSourceNodeLoopStartEnd
+.
+html
+\
 test_badConnect
 .
 html
