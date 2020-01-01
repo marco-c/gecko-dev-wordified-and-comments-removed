@@ -29,9 +29,6 @@ nsPrintOptionsX
 (
 )
 ;
-#
-ifndef
-MOZ_COCOA_PRINTING
 NS_IMETHOD
 ShowPrintSetupDialog
 (
@@ -51,8 +48,6 @@ void
 _retval
 )
 ;
-#
-endif
 protected
 :
 nsresult

@@ -760,6 +760,7 @@ preferences
 .
 dtd
 )
++
 locale
 /
 AB_CD
@@ -859,14 +860,13 @@ printPreviewProgress
 .
 dtd
 )
-+
 locale
 /
 AB_CD
 /
 global
 /
-printdialog
+gnomeprintdialog
 .
 properties
 (
@@ -875,7 +875,7 @@ chrome
 /
 global
 /
-printdialog
+gnomeprintdialog
 .
 properties
 )

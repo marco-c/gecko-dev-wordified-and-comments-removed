@@ -2402,8 +2402,6 @@ Contents
 /
 MacOS
 endif
-ifndef
-MOZ_COCOA_PRINTING
 mkdir
 -
 p
@@ -2456,7 +2454,6 @@ Contents
 Plug
 -
 Ins
-endif
 -
 cp
 -
