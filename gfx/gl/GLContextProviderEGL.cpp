@@ -5545,7 +5545,7 @@ depth
 )
 )
 )
-NULL
+gGlobalContext
 NULL
 sEGLLibrary
 .
@@ -5599,10 +5599,17 @@ SetPlatformContext
 context
 )
 ;
+if
+(
+!
+gGlobalContext
+)
+{
 gGlobalContext
 =
 glContext
 ;
+}
 return
 glContext
 .
