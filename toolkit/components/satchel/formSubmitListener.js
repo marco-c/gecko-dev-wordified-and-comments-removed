@@ -1,3 +1,8 @@
+(
+function
+(
+)
+{
 var
 Cc
 =
@@ -944,6 +949,11 @@ e
 satchelFormListener
 .
 init
+(
+)
+;
+}
+)
 (
 )
 ;
