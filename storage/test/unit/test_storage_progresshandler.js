@@ -397,6 +397,14 @@ e
 result
 )
 ;
+do_check_eq
+(
+msc
+.
+lastError
+9
+)
+;
 }
 }
 var
