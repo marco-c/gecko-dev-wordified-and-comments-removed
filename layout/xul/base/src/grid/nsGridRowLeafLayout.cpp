@@ -820,6 +820,14 @@ bottom
 ;
 }
 }
+max
+=
+PR_MAX
+(
+min
+max
+)
+;
 pref
 =
 nsBox
