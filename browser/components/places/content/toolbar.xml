@@ -3601,9 +3601,9 @@ parent
 ;
 index
 =
-PlacesUtils
+container
 .
-getIndexOfNode
+getChildIndex
 (
 selectedNode
 )
@@ -3614,9 +3614,7 @@ PlacesUtils
 .
 nodeIsTagQuery
 (
-selectedNode
-.
-parent
+container
 )
 ;
 }
