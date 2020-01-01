@@ -200,6 +200,7 @@ cubeb_stream_get_position
 cubeb_stream_init
 cubeb_stream_start
 cubeb_stream_stop
+cubeb_stream_get_latency
 #
 endif
 #
