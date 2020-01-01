@@ -983,6 +983,13 @@ rv
 }
 #
 endif
+nsCSSRuleProcessor
+:
+:
+Startup
+(
+)
+;
 #
 ifdef
 MOZ_XUL

@@ -741,6 +741,10 @@ test_value_storage
 .
 html
 \
+test_visited_pref
+.
+html
+\
 css_properties
 .
 js
