@@ -42,8 +42,13 @@ Unmute
 !
 -
 -
-Localization
-note
+LOCALIZATION
+NOTE
+(
+scrubberScale
+.
+nameFormat
+)
 :
 the
 #
