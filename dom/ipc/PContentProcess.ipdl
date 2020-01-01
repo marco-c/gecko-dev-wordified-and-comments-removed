@@ -582,6 +582,15 @@ flags
 )
 ;
 async
+SetURITitle
+(
+URI
+uri
+nsString
+title
+)
+;
+async
 StartVisitedQuery
 (
 URI
