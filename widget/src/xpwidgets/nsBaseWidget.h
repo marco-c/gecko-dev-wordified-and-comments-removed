@@ -345,6 +345,15 @@ PRInt32
 aStyle
 )
 ;
+virtual
+void
+SetShowsToolbarButton
+(
+PRBool
+aShow
+)
+{
+}
 NS_IMETHOD
 HideWindowChrome
 (
