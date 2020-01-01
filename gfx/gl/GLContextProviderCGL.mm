@@ -1621,8 +1621,9 @@ forget
 ;
 }
 return
-CreateTextureImageInternal
+CreateBasicTextureImage
 (
+this
 aSize
 aContentType
 aWrapMode
