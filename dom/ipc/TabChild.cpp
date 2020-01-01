@@ -3047,6 +3047,12 @@ get
 retval
 )
 ;
+JSPRINCIPALS_DROP
+(
+mCx
+jsprin
+)
+;
 JSContext
 *
 unused
