@@ -11980,13 +11980,6 @@ PopupSetFrame
 )
 GK_ATOM
 (
-positionedInlineFrame
-"
-PositionedInlineFrame
-"
-)
-GK_ATOM
-(
 canvasFrame
 "
 CanvasFrame

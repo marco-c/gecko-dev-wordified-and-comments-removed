@@ -1726,7 +1726,7 @@ GetType
 nsGkAtoms
 :
 :
-positionedInlineFrame
+inlineFrame
 )
 &
 &

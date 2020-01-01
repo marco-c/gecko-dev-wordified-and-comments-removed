@@ -4983,7 +4983,13 @@ overflowList
 ;
 }
 return
-nsnull
+nsHTMLContainerFrame
+:
+:
+GetAdditionalChildListName
+(
+aIndex
+)
 ;
 }
 nsRect
