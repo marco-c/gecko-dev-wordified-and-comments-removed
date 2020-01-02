@@ -193,6 +193,12 @@ String8
 name
 )
 ;
+#
+if
+ANDROID_VERSION
+>
+=
+18
 status_t
 acquireBuffer
 (
@@ -205,6 +211,14 @@ waitForFence
 true
 )
 ;
+#
+endif
+#
+if
+ANDROID_VERSION
+>
+=
+18
 status_t
 releaseBuffer
 (
@@ -226,6 +240,8 @@ Fence
 NO_FENCE
 )
 ;
+#
+endif
 sp
 <
 IGraphicBufferProducer

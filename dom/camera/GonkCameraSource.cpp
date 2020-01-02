@@ -714,7 +714,7 @@ MOZ_WIDGET_GONK
 ANDROID_VERSION
 >
 =
-18
+17
 if
 (
 !
@@ -2293,7 +2293,7 @@ MOZ_WIDGET_GONK
 ANDROID_VERSION
 >
 =
-18
+17
 int32_t
 nBuffers
 ;

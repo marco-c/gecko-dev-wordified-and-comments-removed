@@ -161,9 +161,16 @@ NULL
 )
 ifeq
 (
-18
 (
 ANDROID_VERSION
+)
+(
+findstring
+(
+ANDROID_VERSION
+)
+17
+18
 )
 )
 LIBS
