@@ -209,11 +209,13 @@ text
 "
 TypeError
 :
-this
-.
-_toolPanels
-is
+can
+'
+t
+convert
 null
+to
+object
 "
 category
 :
