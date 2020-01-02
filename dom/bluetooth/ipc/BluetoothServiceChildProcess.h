@@ -442,6 +442,9 @@ aRunnable
 )
 MOZ_OVERRIDE
 ;
+#
+ifdef
+MOZ_B2G_RIL
 virtual
 void
 AnswerWaitingCall
@@ -472,6 +475,8 @@ aRunnable
 )
 MOZ_OVERRIDE
 ;
+#
+endif
 virtual
 void
 SendMetaData

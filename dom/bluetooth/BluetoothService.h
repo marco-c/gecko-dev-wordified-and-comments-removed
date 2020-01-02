@@ -595,6 +595,9 @@ aRunnable
 =
 0
 ;
+#
+ifdef
+MOZ_B2G_RIL
 virtual
 void
 AnswerWaitingCall
@@ -628,6 +631,8 @@ aRunnable
 =
 0
 ;
+#
+endif
 virtual
 void
 SendMetaData
