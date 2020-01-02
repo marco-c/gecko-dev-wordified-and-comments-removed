@@ -2125,6 +2125,9 @@ dst
 )
 ;
 }
+#
+if
+0
 void
 String8
 :
@@ -2869,5 +2872,7 @@ return
 this
 ;
 }
+#
+endif
 }
 ;
