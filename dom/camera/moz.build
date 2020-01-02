@@ -226,6 +226,11 @@ GonkRecorderProfiles
 .
 cpp
 '
+'
+TestGonkCameraHardware
+.
+cpp
+'
 ]
 else
 :

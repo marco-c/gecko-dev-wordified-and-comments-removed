@@ -704,15 +704,6 @@ HardwareState
 aState
 )
 ;
-void
-OnConfigurationChange
-(
-const
-CameraListenerConfiguration
-&
-aConfiguration
-)
-;
 bool
 OnNewPreviewFrame
 (
@@ -733,9 +724,7 @@ OnError
 (
 CameraErrorContext
 aContext
-const
-nsACString
-&
+CameraError
 aError
 )
 ;
