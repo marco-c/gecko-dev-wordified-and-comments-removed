@@ -58,6 +58,7 @@ SubstringType
 ;
 public
 :
+explicit
 nsTWhitespaceTokenizer
 (
 const
@@ -316,6 +317,7 @@ IsWhitespace
 {
 public
 :
+explicit
 nsWhitespaceTokenizerTemplate
 (
 const
@@ -364,6 +366,7 @@ IsWhitespace
 {
 public
 :
+explicit
 nsCWhitespaceTokenizerTemplate
 (
 const

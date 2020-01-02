@@ -7716,6 +7716,7 @@ nsRunnable
 {
 public
 :
+explicit
 MinimizeMemoryUsageRunnable
 (
 nsIRunnable
