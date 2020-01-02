@@ -17976,6 +17976,11 @@ Password
 Field
 "
 :
+case
+"
+SSL
+"
+:
 return
 CATEGORY_SECURITY
 ;
