@@ -1157,8 +1157,6 @@ JSObject
 objArg
 jsid
 idArg
-uint32_t
-flags
 JSObject
 *
 *
@@ -2104,8 +2102,6 @@ JSObject
 objArg
 jsid
 idArg
-uint32_t
-flags
 JSObject
 *
 *
@@ -3138,8 +3134,6 @@ JSObject
 objArg
 jsid
 idArg
-uint32_t
-flags
 JSObject
 *
 *
@@ -4187,8 +4181,6 @@ JSObject
 objArg
 jsid
 idArg
-uint32_t
-flags
 JSObject
 *
 *
@@ -5108,8 +5100,6 @@ JSObject
 objArg
 jsid
 idArg
-uint32_t
-flags
 JSObject
 *
 *

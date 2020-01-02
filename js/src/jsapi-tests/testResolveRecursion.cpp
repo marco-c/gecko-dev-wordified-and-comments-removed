@@ -343,8 +343,6 @@ JS
 :
 HandleId
 id
-unsigned
-flags
 JS
 :
 :
@@ -740,8 +738,6 @@ JS
 :
 HandleId
 id
-unsigned
-flags
 JS
 :
 :
@@ -767,7 +763,6 @@ doResolve
 (
 obj
 id
-flags
 objp
 )
 ;

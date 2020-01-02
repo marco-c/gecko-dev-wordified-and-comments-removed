@@ -9218,8 +9218,6 @@ MutableHandle
 JSPropertyDescriptor
 >
 desc
-unsigned
-flags
 )
 ;
 bool
@@ -10913,8 +10911,6 @@ Handle
 jsid
 >
 aId
-unsigned
-aFlags
 JS
 :
 :

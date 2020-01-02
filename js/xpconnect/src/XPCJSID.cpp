@@ -1466,8 +1466,6 @@ JSObject
 objArg
 jsid
 idArg
-uint32_t
-flags
 JSObject
 *
 *

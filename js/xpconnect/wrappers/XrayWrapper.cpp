@@ -669,8 +669,6 @@ MutableHandle
 JSPropertyDescriptor
 >
 desc
-unsigned
-flags
 )
 =
 0
@@ -696,8 +694,6 @@ MutableHandle
 JSPropertyDescriptor
 >
 desc
-unsigned
-flags
 )
 ;
 virtual
@@ -944,9 +940,8 @@ MutableHandle
 JSPropertyDescriptor
 >
 desc
-unsigned
-flags
 )
+MOZ_OVERRIDE
 ;
 virtual
 bool
@@ -969,9 +964,8 @@ MutableHandle
 JSPropertyDescriptor
 >
 desc
-unsigned
-flags
 )
+MOZ_OVERRIDE
 ;
 static
 bool
@@ -1095,8 +1089,6 @@ MutableHandle
 JSPropertyDescriptor
 >
 desc
-unsigned
-flags
 )
 ;
 static
@@ -1130,6 +1122,7 @@ JSObject
 *
 target
 )
+MOZ_OVERRIDE
 ;
 typedef
 ResolvingId
@@ -1147,6 +1140,7 @@ JSObject
 *
 wrapper
 )
+MOZ_OVERRIDE
 ;
 static
 const
@@ -1223,9 +1217,8 @@ MutableHandle
 JSPropertyDescriptor
 >
 desc
-unsigned
-flags
 )
+MOZ_OVERRIDE
 ;
 virtual
 bool
@@ -1248,9 +1241,8 @@ MutableHandle
 JSPropertyDescriptor
 >
 desc
-unsigned
-flags
 )
+MOZ_OVERRIDE
 ;
 static
 bool
@@ -1391,6 +1383,7 @@ JSObject
 *
 target
 )
+MOZ_OVERRIDE
 ;
 virtual
 JSObject
@@ -1404,6 +1397,7 @@ JSObject
 *
 wrapper
 )
+MOZ_OVERRIDE
 ;
 static
 DOMXrayTraits
@@ -1451,9 +1445,8 @@ MutableHandle
 JSPropertyDescriptor
 >
 desc
-unsigned
-flags
 )
+MOZ_OVERRIDE
 {
 MOZ_ASSUME_UNREACHABLE
 (
@@ -1493,9 +1486,8 @@ MutableHandle
 JSPropertyDescriptor
 >
 desc
-unsigned
-flags
 )
+MOZ_OVERRIDE
 ;
 static
 bool
@@ -1747,6 +1739,7 @@ JSObject
 *
 target
 )
+MOZ_OVERRIDE
 {
 }
 enum
@@ -1770,6 +1763,7 @@ JSObject
 *
 wrapper
 )
+MOZ_OVERRIDE
 ;
 static
 JSProtoKey
@@ -1888,8 +1882,6 @@ MutableHandle
 JSPropertyDescriptor
 >
 desc
-unsigned
-flags
 )
 {
 bool
@@ -1906,7 +1898,6 @@ wrapper
 holder
 id
 desc
-flags
 )
 ;
 if
@@ -4110,8 +4101,6 @@ MutableHandle
 JSPropertyDescriptor
 >
 desc
-unsigned
-flags
 )
 {
 ResolvingId
@@ -4253,7 +4242,6 @@ wn
 cx
 wrapper
 id
-flags
 pobj
 .
 address
@@ -4510,8 +4498,6 @@ MutableHandle
 JSPropertyDescriptor
 >
 desc
-unsigned
-flags
 )
 {
 MOZ_ASSERT
@@ -4579,7 +4565,6 @@ wrapper
 holder
 id
 desc
-flags
 )
 ;
 }
@@ -4805,7 +4790,6 @@ wrapper
 holder
 id
 desc
-flags
 )
 ;
 }
@@ -5248,8 +5232,6 @@ MutableHandle
 JSPropertyDescriptor
 >
 desc
-unsigned
-flags
 )
 {
 desc
@@ -5686,8 +5668,6 @@ MutableHandle
 JSPropertyDescriptor
 >
 desc
-unsigned
-flags
 )
 {
 bool
@@ -5704,7 +5684,6 @@ wrapper
 holder
 id
 desc
-flags
 )
 ;
 if
@@ -5961,7 +5940,6 @@ wn
 cx
 wrapper
 id
-flags
 pobj
 .
 address
@@ -6732,8 +6710,6 @@ MutableHandle
 JSPropertyDescriptor
 >
 desc
-unsigned
-flags
 )
 {
 RootedObject
@@ -6817,8 +6793,6 @@ MutableHandle
 JSPropertyDescriptor
 >
 desc
-unsigned
-flags
 )
 {
 bool
@@ -6835,7 +6809,6 @@ wrapper
 holder
 id
 desc
-flags
 )
 ;
 if
@@ -7012,7 +6985,6 @@ wrapper
 obj
 id
 desc
-flags
 )
 )
 return
@@ -8057,7 +8029,6 @@ holder
 id
 &
 desc
-0
 )
 )
 return
@@ -8129,7 +8100,6 @@ holder
 id
 &
 desc
-0
 )
 )
 return
@@ -8880,7 +8850,6 @@ wrapper
 holder
 id
 desc
-0
 )
 )
 return
@@ -8947,7 +8916,6 @@ wrapper
 holder
 id
 desc
-0
 )
 )
 return
@@ -9453,7 +9421,6 @@ wrapper
 holder
 id
 desc
-0
 )
 )
 return

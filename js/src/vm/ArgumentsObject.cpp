@@ -2233,8 +2233,6 @@ HandleObject
 obj
 HandleId
 id
-unsigned
-flags
 MutableHandleObject
 objp
 )
@@ -2917,8 +2915,6 @@ HandleObject
 obj
 HandleId
 id
-unsigned
-flags
 MutableHandleObject
 objp
 )

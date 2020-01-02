@@ -182,8 +182,6 @@ JSObject
 objArg
 jsid
 idArg
-uint32_t
-flags
 JSObject
 *
 *
@@ -275,7 +273,6 @@ ResolveWorkerClasses
 cx
 obj
 id
-flags
 &
 objp
 )

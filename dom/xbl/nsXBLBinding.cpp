@@ -3657,7 +3657,6 @@ JS_GetOwnPropertyDescriptor
 cx
 scope
 mapName
-0
 &
 desc
 )
@@ -4291,7 +4290,6 @@ aClassName
 get
 (
 )
-0
 &
 desc
 )

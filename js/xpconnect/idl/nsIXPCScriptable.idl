@@ -867,9 +867,6 @@ obj
 in
 jsid
 id
-in
-uint32_t
-flags
 out
 JSObjectPtr
 objp

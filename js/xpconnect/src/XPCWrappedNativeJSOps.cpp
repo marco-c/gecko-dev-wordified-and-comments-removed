@@ -3837,8 +3837,6 @@ HandleObject
 obj
 HandleId
 id
-unsigned
-flags
 MutableHandleObject
 objp
 )
@@ -3970,7 +3968,6 @@ wrapper
 cx
 obj
 id
-flags
 obj2FromScriptable
 .
 address

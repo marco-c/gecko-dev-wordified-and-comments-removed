@@ -1409,8 +1409,6 @@ HandleObject
 obj
 HandleId
 id
-unsigned
-flags
 MutableHandleObject
 objp
 )

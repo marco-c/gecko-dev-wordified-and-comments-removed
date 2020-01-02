@@ -4556,8 +4556,6 @@ HandleObject
 obj
 HandleId
 id
-unsigned
-flags
 JS
 :
 :

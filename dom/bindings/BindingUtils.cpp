@@ -4950,8 +4950,6 @@ MutableHandle
 JSPropertyDescriptor
 >
 desc
-unsigned
-flags
 )
 {
 DOMObjectType
@@ -5084,7 +5082,6 @@ wrapper
 obj
 id
 desc
-flags
 )
 ;
 }
@@ -11694,8 +11691,6 @@ Handle
 jsid
 >
 aId
-unsigned
-aFlags
 JS
 :
 :

@@ -251,8 +251,6 @@ JS
 :
 HandleId
 id
-unsigned
-flags
 JS
 :
 :
