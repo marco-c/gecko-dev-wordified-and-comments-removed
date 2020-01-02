@@ -1932,7 +1932,7 @@ PresContext
 )
 -
 >
-AppUnitsToDevPixels
+AppUnitsToFloatCSSPixels
 (
 aPoint
 .
@@ -1943,7 +1943,7 @@ PresContext
 )
 -
 >
-AppUnitsToDevPixels
+AppUnitsToFloatCSSPixels
 (
 aPoint
 .
