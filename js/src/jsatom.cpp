@@ -2086,10 +2086,9 @@ if
 !
 atoms
 .
-relookupOrAdd
+add
 (
 p
-lookup
 AtomStateEntry
 (
 atom
