@@ -1305,9 +1305,6 @@ PluginProcessParent
 *
 mSubprocess
 ;
-NativeThreadId
-mPluginThread
-;
 bool
 mShutdown
 ;
