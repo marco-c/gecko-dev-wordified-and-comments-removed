@@ -471,7 +471,7 @@ sizeof
 T
 )
 )
-compact
+maybeCompact
 (
 owner
 )
