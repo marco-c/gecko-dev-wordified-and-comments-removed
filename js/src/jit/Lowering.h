@@ -381,14 +381,6 @@ ins
 )
 ;
 bool
-visitAbortPar
-(
-MAbortPar
-*
-ins
-)
-;
-bool
 visitInitElem
 (
 MInitElem
