@@ -473,7 +473,6 @@ then
 (
 (
 {
-source
 href
 line
 column
@@ -520,14 +519,6 @@ function
 toolbox
 )
 {
-let
-sheet
-=
-source
-|
-|
-href
-;
 toolbox
 .
 getCurrentPanel
@@ -536,7 +527,7 @@ getCurrentPanel
 .
 selectStyleSheet
 (
-sheet
+href
 line
 column
 )
