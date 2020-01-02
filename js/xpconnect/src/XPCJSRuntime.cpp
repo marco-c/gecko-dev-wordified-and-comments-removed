@@ -14690,6 +14690,9 @@ mJSContextStack
 new
 XPCJSContextStack
 (
+MOZ_THIS_IN_INITIALIZER_LIST
+(
+)
 )
 )
 mCallContext
