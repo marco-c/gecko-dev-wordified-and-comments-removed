@@ -364,8 +364,6 @@ void
 OnActorDestroy
 (
 )
-=
-0
 ;
 virtual
 void
