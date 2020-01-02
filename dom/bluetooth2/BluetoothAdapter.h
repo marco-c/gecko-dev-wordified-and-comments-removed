@@ -80,6 +80,9 @@ class
 BluetoothDevice
 ;
 class
+BluetoothDiscoveryHandle
+;
+class
 BluetoothSignal
 ;
 class
@@ -270,6 +273,14 @@ aUuids
 ErrorResult
 &
 aRv
+)
+;
+void
+SetDiscoveryHandleInUse
+(
+BluetoothDiscoveryHandle
+*
+aDiscoveryHandle
 )
 ;
 already_AddRefed
@@ -851,6 +862,12 @@ JSObject
 *
 >
 mJsDeviceAddresses
+;
+nsRefPtr
+<
+BluetoothDiscoveryHandle
+>
+mDiscoveryHandleInUse
 ;
 BluetoothAdapterState
 mState

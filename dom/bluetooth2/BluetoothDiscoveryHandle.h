@@ -101,6 +101,13 @@ aData
 )
 ;
 virtual
+void
+DisconnectFromOwner
+(
+)
+MOZ_OVERRIDE
+;
+virtual
 JSObject
 *
 WrapObject
