@@ -180,8 +180,6 @@ remoteId
 ;
 boolean
 isRemote
-=
-false
 ;
 DOMString
 mediaTrackId
@@ -566,9 +564,6 @@ RTCStatsReportInternal
 {
 DOMString
 pcid
-=
-"
-"
 ;
 sequence
 <
