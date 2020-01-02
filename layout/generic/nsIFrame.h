@@ -3647,6 +3647,7 @@ HasAllStateBits
 nsFrameState
 aBits
 )
+const
 {
 return
 (
@@ -3665,6 +3666,7 @@ HasAnyStateBits
 nsFrameState
 aBits
 )
+const
 {
 return
 mState
