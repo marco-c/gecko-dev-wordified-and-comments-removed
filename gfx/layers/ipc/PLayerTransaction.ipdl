@@ -389,6 +389,8 @@ bool
 scheduleComposite
 uint32_t
 paintSequenceNumber
+bool
+isRepeatTransaction
 )
 returns
 (
@@ -437,6 +439,8 @@ bool
 scheduleComposite
 uint32_t
 paintSequenceNumber
+bool
+isRepeatTransaction
 )
 ;
 /

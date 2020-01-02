@@ -2298,6 +2298,8 @@ aScheduleComposite
 uint32_t
 aPaintSequenceNumber
 bool
+aIsRepeatTransaction
+bool
 *
 aSent
 )
@@ -3274,6 +3276,7 @@ targetConfig
 mIsFirstPaint
 aScheduleComposite
 aPaintSequenceNumber
+aIsRepeatTransaction
 aReplies
 )
 )
@@ -3362,6 +3365,7 @@ targetConfig
 mIsFirstPaint
 aPaintSequenceNumber
 aScheduleComposite
+aIsRepeatTransaction
 )
 )
 {

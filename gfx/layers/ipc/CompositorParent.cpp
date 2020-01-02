@@ -2248,11 +2248,17 @@ bool
 aScheduleComposite
 uint32_t
 aPaintSequenceNumber
+bool
+aIsRepeatTransaction
 )
 {
 if
 (
 mApzcTreeManager
+&
+&
+!
+aIsRepeatTransaction
 &
 &
 mLayerManager
@@ -3349,6 +3355,8 @@ bool
 aScheduleComposite
 uint32_t
 aPaintSequenceNumber
+bool
+aIsRepeatTransaction
 )
 {
 ScheduleRotationOnCompositorThread
@@ -3412,6 +3420,10 @@ root
 if
 (
 mApzcTreeManager
+&
+&
+!
+aIsRepeatTransaction
 )
 {
 AutoResolveRefLayers
@@ -4942,6 +4954,8 @@ bool
 aScheduleComposite
 uint32_t
 aPaintSequenceNumber
+bool
+aIsRepeatTransaction
 )
 MOZ_OVERRIDE
 ;
@@ -5926,6 +5940,8 @@ bool
 aScheduleComposite
 uint32_t
 aPaintSequenceNumber
+bool
+aIsRepeatTransaction
 )
 {
 uint64_t
@@ -6032,6 +6048,7 @@ id
 aIsFirstPaint
 aScheduleComposite
 aPaintSequenceNumber
+aIsRepeatTransaction
 )
 ;
 aLayerTree
