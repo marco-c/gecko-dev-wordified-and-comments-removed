@@ -1593,14 +1593,6 @@ True
 DEFINES
 [
 '
-MOZ_OTS_REPORT_ERRORS
-'
-]
-=
-True
-DEFINES
-[
-'
 GRAPHITE2_STATIC
 '
 ]
