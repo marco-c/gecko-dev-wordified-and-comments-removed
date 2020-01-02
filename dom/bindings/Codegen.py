@@ -263,12 +263,6 @@ wrapperCache
 and
             
 not
-(
-desc
-.
-workers
-and
-                 
 desc
 .
 interface
@@ -278,7 +272,6 @@ getExtendedAttribute
 "
 Global
 "
-)
 )
 )
 lineStartDetector
