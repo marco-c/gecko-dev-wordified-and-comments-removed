@@ -82,6 +82,10 @@ TestRunner
 .
 js
 \
+MemoryStats
+.
+js
+\
 setup
 .
 js
