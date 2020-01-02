@@ -2196,11 +2196,19 @@ application
 "
         
 return
+map
+(
+os
+.
+path
+.
+expanduser
 self
 .
 options
 .
 appArgs
+)
     
 def
 runner_args
