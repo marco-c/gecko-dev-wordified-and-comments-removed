@@ -930,6 +930,16 @@ Initialize
 (
 )
 {
+bool
+force
+=
+gfxPrefs
+:
+:
+LayersAccelerationForceEnabled
+(
+)
+;
 ScopedGfxFeatureReporter
 reporter
 (
@@ -937,7 +947,7 @@ reporter
 GL
 Layers
 "
-true
+force
 )
 ;
 NS_ABORT_IF_FALSE
