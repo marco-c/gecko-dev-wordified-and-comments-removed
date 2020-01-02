@@ -1,6 +1,6 @@
 #
 To
-Trigger
+trigger
 a
 clobber
 replace
@@ -197,7 +197,9 @@ more
 Bug
 1003702
 -
+Relanding
 ICU
-is
-unhappy
-.
+changes
+with
+a
+clobber
