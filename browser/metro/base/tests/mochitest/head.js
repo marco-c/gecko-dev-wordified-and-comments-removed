@@ -1786,6 +1786,16 @@ now
 (
 )
 ;
+let
+stack
+=
+new
+Error
+(
+)
+.
+stack
+;
 function
 testCondition
 (
@@ -1827,7 +1837,10 @@ condition
 to
 be
 true
+at
 "
++
+stack
 )
 )
 ;
