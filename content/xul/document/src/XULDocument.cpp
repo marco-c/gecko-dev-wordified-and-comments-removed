@@ -14961,12 +14961,6 @@ NS_ERROR_OUT_OF_MEMORY
 ;
 nsCOMPtr
 <
-nsIContent
->
-content
-;
-nsCOMPtr
-<
 nsINodeInfo
 >
 xtfNi
@@ -14979,7 +14973,7 @@ NS_NewElement
 (
 getter_AddRefs
 (
-content
+result
 )
 newNodeInfo
 .
@@ -14998,15 +14992,6 @@ rv
 )
 return
 rv
-;
-result
-=
-content
--
->
-AsElement
-(
-)
 ;
 rv
 =
