@@ -1784,10 +1784,6 @@ default
 /
 dashed
 lines
-/
-/
-NOT
-IMPLEMENTED
 [
 LenientFloat
 ]
@@ -1805,10 +1801,6 @@ segments
 /
 default
 empty
-/
-/
-NOT
-IMPLEMENTED
 sequence
 <
 double
@@ -1817,10 +1809,6 @@ getLineDash
 (
 )
 ;
-/
-/
-NOT
-IMPLEMENTED
 [
 LenientFloat
 ]
