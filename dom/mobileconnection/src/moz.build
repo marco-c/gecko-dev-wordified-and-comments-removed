@@ -102,6 +102,11 @@ dom
 =
 [
 '
+DOMMMIError
+.
+h
+'
+'
 MobileConnection
 .
 h
@@ -116,6 +121,11 @@ SOURCES
 +
 =
 [
+'
+DOMMMIError
+.
+cpp
+'
 '
 MobileConnection
 .
