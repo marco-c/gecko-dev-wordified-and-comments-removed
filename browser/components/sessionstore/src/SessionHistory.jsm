@@ -778,6 +778,8 @@ baseURI
 shEntry
 .
 baseURI
+.
+spec
 ;
 if
 (
@@ -1503,9 +1505,14 @@ shEntry
 .
 baseURI
 =
+Utils
+.
+makeURI
+(
 entry
 .
 baseURI
+)
 ;
 if
 (
