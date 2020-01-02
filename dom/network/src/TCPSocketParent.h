@@ -220,6 +220,10 @@ const
 SendableData
 &
 aData
+const
+uint32_t
+&
+aTrackingNumber
 )
 MOZ_OVERRIDE
 ;
