@@ -3349,10 +3349,6 @@ ValidateFileName
 (
 )
 ;
-mPutPacketReceivedLength
-=
-0
-;
 if
 (
 mAbortFlag
