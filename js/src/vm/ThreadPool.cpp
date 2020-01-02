@@ -1346,12 +1346,11 @@ numWorkers
 const
 {
 return
-runtime_
--
->
-cpuCount
+WorkerThreadState
 (
 )
+.
+cpuCount
 -
 1
 ;
