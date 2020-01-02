@@ -650,7 +650,7 @@ requestHeaders
 headers
 .
 length
-8
+9
 "
 The
 requestHeaders
@@ -761,7 +761,7 @@ requestCookies
 cookies
 .
 length
-0
+2
 "
 The
 requestCookies
@@ -887,7 +887,7 @@ responseHeaders
 headers
 .
 length
-9
+10
 "
 The
 responseHeaders
@@ -912,7 +912,7 @@ attachment
 responseHeaders
 .
 headersSize
-255
+330
 "
 The
 responseHeaders
@@ -998,7 +998,7 @@ responseCookies
 cookies
 .
 length
-0
+2
 "
 The
 responseCookies
@@ -1132,7 +1132,7 @@ requestItem
 attachment
 .
 headersSize
-255
+330
 "
 The
 headersSize
