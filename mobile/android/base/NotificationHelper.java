@@ -179,7 +179,12 @@ final
 String
 HELPER_BROADCAST_ACTION
 =
+AppConstants
+.
+ANDROID_PACKAGE_NAME
++
 "
+.
 helperBroadcastAction
 "
 ;
@@ -477,6 +482,8 @@ twice
 !
 "
 )
+;
+return
 ;
 }
 mInstance

@@ -478,15 +478,6 @@ getApplicationContext
 )
 )
 ;
-NotificationHelper
-.
-init
-(
-getApplicationContext
-(
-)
-)
-;
 GeckoLoader
 .
 loadMozGlue
