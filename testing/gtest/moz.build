@@ -693,6 +693,9 @@ SanityTest
 cpp
 '
 ]
+LIBXUL_LIBRARY
+=
+True
 EXPORT_LIBRARY
 =
 True
@@ -717,10 +720,3 @@ gtest
 include
 '
 ]
-FINAL_LIBRARY
-=
-'
-xul
--
-gtest
-'
