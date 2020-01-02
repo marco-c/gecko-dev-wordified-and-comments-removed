@@ -1224,7 +1224,10 @@ if
 info
 -
 >
-si_pid
+si_code
+<
+=
+0
 )
 {
 if
