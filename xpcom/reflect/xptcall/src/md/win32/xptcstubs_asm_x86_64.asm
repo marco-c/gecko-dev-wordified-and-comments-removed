@@ -313,7 +313,6 @@ functionname
 paramcount
 functionname
 PROC
-EXPORT
 mov
 r11
 paramcount
