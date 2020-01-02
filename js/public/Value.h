@@ -1364,6 +1364,16 @@ JSObject
 *
 obj
 ;
+js
+:
+:
+gc
+:
+:
+Cell
+*
+cell
+;
 void
 *
 ptr
