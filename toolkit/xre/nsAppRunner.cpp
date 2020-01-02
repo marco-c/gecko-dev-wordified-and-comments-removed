@@ -9852,7 +9852,6 @@ aProfileSvc
 CreateProfile
 (
 lf
-lf
 nsDependentCSubstring
 (
 arg
@@ -9874,7 +9873,6 @@ aProfileSvc
 >
 CreateProfile
 (
-nullptr
 nullptr
 nsDependentCString
 (
@@ -10377,7 +10375,6 @@ aProfileSvc
 >
 CreateProfile
 (
-nullptr
 nullptr
 NS_LITERAL_CSTRING
 (

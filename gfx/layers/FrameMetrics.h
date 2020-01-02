@@ -193,6 +193,10 @@ mIsRoot
 (
 false
 )
+mHasScrollgrab
+(
+false
+)
 {
 }
 bool
@@ -517,6 +521,9 @@ mPresShellId
 ;
 bool
 mIsRoot
+;
+bool
+mHasScrollgrab
 ;
 }
 ;
