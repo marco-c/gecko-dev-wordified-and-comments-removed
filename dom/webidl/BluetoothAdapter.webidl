@@ -357,6 +357,10 @@ attribute
 EventHandler
 ondevicefound
 ;
+attribute
+EventHandler
+ondiscoverystatechanged
+;
 /
 /
 Fired
