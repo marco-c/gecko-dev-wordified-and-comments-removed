@@ -90,6 +90,9 @@ BAILOUT_RESUME_BITS
 =
 1
 ;
+#
+ifdef
+DEBUG
 inline
 const
 char
@@ -157,6 +160,8 @@ BailoutKind
 ;
 }
 }
+#
+endif
 static
 const
 uint32_t
