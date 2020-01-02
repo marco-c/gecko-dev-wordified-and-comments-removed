@@ -423,6 +423,14 @@ aWantNextFrame
 )
 ;
 void
+ApplyAsyncTransformToScrollbar
+(
+ContainerLayer
+*
+aLayer
+)
+;
+void
 SetFirstPaintViewport
 (
 const
