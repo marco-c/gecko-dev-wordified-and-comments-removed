@@ -406,9 +406,6 @@ in
 STATIC_FILES
 }
 {
-MK_FILES
-}
-{
 SRC_FILES
 }
 {
@@ -662,6 +659,13 @@ TARGET
 moz
 .
 build
+python
+gen
+-
+sources
+.
+py
+1
 #
 apply
 outstanding
