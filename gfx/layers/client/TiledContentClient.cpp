@@ -794,7 +794,7 @@ SharedFrameMetricsHelper
 :
 UpdateFromCompositorFrameMetrics
 (
-ContainerLayer
+Layer
 *
 aLayer
 bool
@@ -7197,7 +7197,7 @@ static
 LayerRect
 GetCompositorSideCompositionBounds
 (
-ContainerLayer
+Layer
 *
 aScrollAncestor
 const
@@ -7416,7 +7416,7 @@ c_str
 )
 )
 ;
-ContainerLayer
+Layer
 *
 scrollAncestor
 =

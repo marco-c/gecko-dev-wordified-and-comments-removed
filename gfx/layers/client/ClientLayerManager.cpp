@@ -3102,11 +3102,6 @@ metrics
 primaryScrollable
 -
 >
-AsContainerLayer
-(
-)
--
->
 GetFrameMetrics
 (
 )

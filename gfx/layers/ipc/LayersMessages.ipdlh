@@ -1233,6 +1233,9 @@ animations
 nsIntRegion
 invalidRegion
 ;
+FrameMetrics
+metrics
+;
 }
 ;
 struct
@@ -1246,9 +1249,6 @@ validRegion
 struct
 ContainerLayerAttributes
 {
-FrameMetrics
-metrics
-;
 ViewID
 scrollParentId
 ;

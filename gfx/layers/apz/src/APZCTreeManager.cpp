@@ -844,7 +844,7 @@ FrameMetrics
 &
 metrics
 =
-container
+aLayer
 -
 >
 GetFrameMetrics
@@ -1106,12 +1106,7 @@ n
 apzc
 aLayer
 aLayersId
-container
--
->
-GetFrameMetrics
-(
-)
+metrics
 .
 GetScrollId
 (
@@ -1305,12 +1300,7 @@ tsr
 "
 <
 <
-container
--
->
-GetFrameMetrics
-(
-)
+metrics
 .
 mScrollableRect
 <

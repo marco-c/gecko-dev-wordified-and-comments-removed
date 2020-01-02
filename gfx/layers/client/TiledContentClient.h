@@ -1097,7 +1097,7 @@ SharedFrameMetricsHelper
 bool
 UpdateFromCompositorFrameMetrics
 (
-ContainerLayer
+Layer
 *
 aLayer
 bool
