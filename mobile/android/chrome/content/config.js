@@ -1110,6 +1110,15 @@ removeObserver
 this
 )
 ;
+Services
+.
+prefs
+.
+savePrefFile
+(
+null
+)
+;
 }
 clearFilterInput
 :
