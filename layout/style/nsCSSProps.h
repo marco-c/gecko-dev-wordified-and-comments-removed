@@ -1023,6 +1023,14 @@ eCSSProperty_COUNT_no_shorthands
 ;
 }
 static
+bool
+IsInherited
+(
+nsCSSProperty
+aProperty
+)
+;
+static
 nsCSSFontDesc
 LookupFontDesc
 (
