@@ -901,7 +901,7 @@ noColors
 ]
 =
 {
-NULL
+nullptr
 }
 ;
 mCompositeColors
@@ -8523,7 +8523,7 @@ Point
 Point
 (
 )
-NULL
+nullptr
 )
 ;
 NS_FOR_CSS_CORNERS
@@ -10295,7 +10295,7 @@ mCompositeColors
 ]
 =
 =
-NULL
+nullptr
 &
 &
 (
@@ -10504,7 +10504,7 @@ mCompositeColors
 ]
 =
 =
-NULL
+nullptr
 &
 &
 allBordersSameWidth
@@ -10586,7 +10586,7 @@ mCompositeColors
 ]
 =
 =
-NULL
+nullptr
 &
 &
 allBordersSameWidth
@@ -10708,7 +10708,7 @@ mCompositeColors
 ]
 =
 =
-NULL
+nullptr
 &
 &
 mBorderStyles
@@ -10828,7 +10828,7 @@ mCompositeColors
 ]
 =
 =
-NULL
+nullptr
 &
 &
 mBorderWidths
@@ -11330,7 +11330,7 @@ sides
 ]
 =
 =
-NULL
+nullptr
 &
 &
 mCompositeColors
@@ -11342,7 +11342,7 @@ sides
 ]
 =
 =
-NULL
+nullptr
 &
 &
 AreBorderSideFinalStylesSame

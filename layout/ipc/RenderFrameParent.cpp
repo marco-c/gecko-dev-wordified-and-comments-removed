@@ -581,7 +581,7 @@ iter
 >
 second
 :
-NULL
+nullptr
 ;
 }
 static
@@ -617,7 +617,7 @@ GetFrameMetrics
 (
 )
 :
-NULL
+nullptr
 ;
 }
 static
@@ -4342,7 +4342,7 @@ second
 >
 mFrameLoader
 =
-NULL
+nullptr
 ;
 }
 mozilla

@@ -23069,7 +23069,7 @@ spreadRadius
 blurRadius
 &
 dirtyRect
-NULL
+nullptr
 )
 ;
 }

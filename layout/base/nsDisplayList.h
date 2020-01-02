@@ -2242,7 +2242,7 @@ ShadowArray
 *
 aShadows
 =
-NULL
+nullptr
 )
 :
 mShadows

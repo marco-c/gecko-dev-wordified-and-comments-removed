@@ -6010,8 +6010,8 @@ gWorld
 k32ARGBPixelFormat
 &
 gwBounds
-NULL
-NULL
+nullptr
+nullptr
 0
 buffer
 .
@@ -8030,7 +8030,7 @@ mInstanceOwner
 Paint
 (
 tmpRect
-NULL
+nullptr
 )
 ;
 }

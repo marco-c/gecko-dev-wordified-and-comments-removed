@@ -733,7 +733,7 @@ nsDocViewerSelectionListener
 :
 mDocViewer
 (
-NULL
+nullptr
 )
 mGotSelectionState
 (
@@ -16712,7 +16712,7 @@ document
 -
 shown
 "
-NULL
+nullptr
 )
 ;
 }
