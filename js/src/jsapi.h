@@ -7983,6 +7983,7 @@ operator
 !
 (
 )
+const
 {
 return
 !
