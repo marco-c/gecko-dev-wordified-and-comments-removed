@@ -23,6 +23,11 @@ _malloc_message
 :
 true
 "
+je_malloc_message
+"
+:
+true
+"
 __conv
 "
 :
