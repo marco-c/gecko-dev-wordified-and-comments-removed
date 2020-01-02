@@ -224,7 +224,7 @@ SetHasError
 MOZ_OVERRIDE
 ;
 virtual
-nsIURI
+ImageURL
 *
 GetURI
 (

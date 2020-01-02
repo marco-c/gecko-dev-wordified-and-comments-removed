@@ -30,14 +30,7 @@ h
 #
 include
 "
-nsIURI
-.
-h
-"
-#
-include
-"
-nsProxyRelease
+ImageURL
 .
 h
 "
@@ -324,7 +317,7 @@ SetHasError
 0
 ;
 virtual
-nsIURI
+ImageURL
 *
 GetURI
 (
@@ -442,7 +435,7 @@ true
 ;
 }
 virtual
-nsIURI
+ImageURL
 *
 GetURI
 (
@@ -464,7 +457,7 @@ ImageResource
 imgStatusTracker
 *
 aStatusTracker
-nsIURI
+ImageURL
 *
 aURI
 )
@@ -530,9 +523,9 @@ imgStatusTracker
 >
 mStatusTracker
 ;
-nsMainThreadPtrHandle
+nsRefPtr
 <
-nsIURI
+ImageURL
 >
 mURI
 ;

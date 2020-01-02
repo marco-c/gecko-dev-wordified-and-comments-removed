@@ -416,7 +416,7 @@ SetHasError
 )
 ;
 }
-nsIURI
+ImageURL
 *
 ImageWrapper
 :

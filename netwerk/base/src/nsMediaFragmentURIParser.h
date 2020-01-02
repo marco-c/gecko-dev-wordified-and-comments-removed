@@ -59,6 +59,13 @@ nsIURI
 aURI
 )
 ;
+nsMediaFragmentURIParser
+(
+nsCString
+&
+aRef
+)
+;
 bool
 HasStartTime
 (

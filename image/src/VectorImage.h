@@ -209,7 +209,7 @@ imgStatusTracker
 aStatusTracker
 =
 nullptr
-nsIURI
+ImageURL
 *
 aURI
 =

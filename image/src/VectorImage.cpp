@@ -1303,7 +1303,7 @@ VectorImage
 imgStatusTracker
 *
 aStatusTracker
-nsIURI
+ImageURL
 *
 aURI
 )
