@@ -1502,6 +1502,18 @@ deleteSyncCredentials
 (
 )
 {
+for
+(
+let
+host
+of
+Utils
+.
+getSyncCredentialsHosts
+(
+)
+)
+{
 let
 logins
 =
@@ -1513,7 +1525,7 @@ findLogins
 (
 {
 }
-PWDMGR_HOST
+host
 "
 "
 "
@@ -1538,6 +1550,7 @@ removeLogin
 login
 )
 ;
+}
 }
 this
 .
