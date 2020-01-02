@@ -213,7 +213,13 @@ _RPATH
 cfghdrs_in
 :
 =
+(
+addprefix
+(
+srcroot
+)
 cfghdrs_in
+)
 cfghdrs_out
 :
 =
@@ -221,7 +227,13 @@ cfghdrs_out
 cfgoutputs_in
 :
 =
+(
+addprefix
+(
+srcroot
+)
 cfgoutputs_in
+)
 cfgoutputs_out
 :
 =

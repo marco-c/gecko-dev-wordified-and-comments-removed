@@ -3637,9 +3637,6 @@ je_
 cfgoutputs_in
 =
 "
-{
-srcroot
-}
 Makefile
 .
 in
@@ -3649,9 +3646,6 @@ cfgoutputs_in
 "
 {
 cfgoutputs_in
-}
-{
-srcroot
 }
 doc
 /
@@ -3667,9 +3661,6 @@ cfgoutputs_in
 {
 cfgoutputs_in
 }
-{
-srcroot
-}
 doc
 /
 manpages
@@ -3684,9 +3675,6 @@ cfgoutputs_in
 {
 cfgoutputs_in
 }
-{
-srcroot
-}
 doc
 /
 jemalloc
@@ -3700,9 +3688,6 @@ cfgoutputs_in
 "
 {
 cfgoutputs_in
-}
-{
-srcroot
 }
 include
 /
@@ -3720,9 +3705,6 @@ cfgoutputs_in
 {
 cfgoutputs_in
 }
-{
-srcroot
-}
 include
 /
 jemalloc
@@ -3738,9 +3720,6 @@ cfgoutputs_in
 "
 {
 cfgoutputs_in
-}
-{
-srcroot
 }
 include
 /
@@ -3760,9 +3739,6 @@ cfgoutputs_in
 {
 cfgoutputs_in
 }
-{
-srcroot
-}
 test
 /
 test
@@ -3776,9 +3752,6 @@ cfgoutputs_in
 "
 {
 cfgoutputs_in
-}
-{
-srcroot
 }
 test
 /
@@ -4085,9 +4058,6 @@ in
 cfghdrs_in
 =
 "
-{
-srcroot
-}
 include
 /
 jemalloc
@@ -4103,9 +4073,6 @@ cfghdrs_in
 "
 {
 cfghdrs_in
-}
-{
-srcroot
 }
 include
 /
@@ -4125,9 +4092,6 @@ cfghdrs_in
 {
 cfghdrs_in
 }
-{
-srcroot
-}
 include
 /
 jemalloc
@@ -4143,9 +4107,6 @@ cfghdrs_in
 "
 {
 cfghdrs_in
-}
-{
-srcroot
 }
 include
 /
@@ -4163,9 +4124,6 @@ cfghdrs_in
 {
 cfghdrs_in
 }
-{
-srcroot
-}
 include
 /
 jemalloc
@@ -4181,9 +4139,6 @@ cfghdrs_in
 "
 {
 cfghdrs_in
-}
-{
-srcroot
 }
 include
 /
@@ -4201,9 +4156,6 @@ cfghdrs_in
 {
 cfghdrs_in
 }
-{
-srcroot
-}
 include
 /
 jemalloc
@@ -4219,9 +4171,6 @@ cfghdrs_in
 "
 {
 cfghdrs_in
-}
-{
-srcroot
 }
 include
 /
@@ -4239,9 +4188,6 @@ cfghdrs_in
 {
 cfghdrs_in
 }
-{
-srcroot
-}
 include
 /
 jemalloc
@@ -4255,9 +4201,6 @@ cfghdrs_in
 "
 {
 cfghdrs_in
-}
-{
-srcroot
 }
 include
 /
@@ -4273,9 +4216,6 @@ cfghdrs_in
 {
 cfghdrs_in
 }
-{
-srcroot
-}
 include
 /
 jemalloc
@@ -4289,9 +4229,6 @@ cfghdrs_in
 "
 {
 cfghdrs_in
-}
-{
-srcroot
 }
 test
 /
@@ -4554,9 +4491,6 @@ jemalloc_internal_defs
 .
 h
 :
-{
-srcroot
-}
 include
 /
 jemalloc
@@ -4585,9 +4519,6 @@ jemalloc_test_defs
 .
 h
 :
-{
-srcroot
-}
 test
 /
 include
