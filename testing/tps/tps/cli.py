@@ -472,20 +472,6 @@ testfile
 default
 =
 '
-.
-.
-/
-.
-.
-/
-services
-/
-sync
-/
-tests
-/
-tps
-/
 all_tests
 .
 json
@@ -533,7 +519,8 @@ is
 None
 :
         
-if
+virtual_env
+=
 os
 .
 environ
@@ -544,6 +531,9 @@ get
 VIRTUAL_ENV
 '
 )
+        
+if
+virtual_env
 :
             
 configfile
@@ -554,14 +544,7 @@ path
 .
 join
 (
-os
-.
-path
-.
-dirname
-(
-__file__
-)
+virtual_env
 '
 config
 .
@@ -649,6 +632,29 @@ json
 loads
 (
 configcontent
+)
+    
+testfile
+=
+os
+.
+path
+.
+join
+(
+config
+.
+get
+(
+'
+testdir
+'
+'
+'
+)
+options
+.
+testfile
 )
     
 rlock
@@ -859,8 +865,6 @@ rlock
                         
 testfile
 =
-options
-.
 testfile
                       
 )
