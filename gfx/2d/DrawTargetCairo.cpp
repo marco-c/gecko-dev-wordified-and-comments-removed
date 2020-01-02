@@ -5055,6 +5055,9 @@ const
 IntSize
 &
 aSize
+SurfaceFormat
+*
+aFormat
 )
 {
 mContext
@@ -5074,6 +5077,11 @@ aSize
 ;
 mFormat
 =
+aFormat
+?
+*
+aFormat
+:
 CairoContentToGfxFormat
 (
 cairo_surface_get_content
@@ -5314,6 +5322,9 @@ const
 IntSize
 &
 aSize
+SurfaceFormat
+*
+aFormat
 )
 {
 cairo_surface_reference
@@ -5326,6 +5337,7 @@ InitAlreadyReferenced
 (
 aSurface
 aSize
+aFormat
 )
 ;
 }

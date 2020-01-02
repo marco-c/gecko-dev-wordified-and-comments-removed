@@ -769,6 +769,11 @@ const
 IntSize
 &
 aSize
+SurfaceFormat
+*
+aFormat
+=
+nullptr
 )
 ;
 bool
@@ -856,6 +861,11 @@ const
 IntSize
 &
 aSize
+SurfaceFormat
+*
+aFormat
+=
+nullptr
 )
 ;
 enum

@@ -2722,6 +2722,9 @@ const
 IntSize
 &
 aSize
+SurfaceFormat
+*
+aFormat
 )
 {
 RefPtr
@@ -2753,6 +2756,7 @@ Init
 (
 aSurface
 aSize
+aFormat
 )
 )
 {
