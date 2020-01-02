@@ -1396,6 +1396,16 @@ blocklist
 pref
 (
 "
+extensions
+.
+showMismatchUI
+"
+false
+)
+;
+pref
+(
+"
 dom
 .
 disable_open_during_load
