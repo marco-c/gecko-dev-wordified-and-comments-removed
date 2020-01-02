@@ -101,6 +101,9 @@ DIRS
 mochitest
 '
 ]
+FAIL_ON_WARNINGS
+=
+True
 MODULE
 =
 '
