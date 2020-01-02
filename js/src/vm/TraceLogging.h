@@ -60,9 +60,6 @@ Vector
 h
 "
 struct
-PRThread
-;
-struct
 JSRuntime
 ;
 namespace
