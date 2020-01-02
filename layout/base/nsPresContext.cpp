@@ -10611,6 +10611,14 @@ aInterruptible
 IsPaginated
 (
 )
+&
+&
+nsLayoutUtils
+:
+:
+InterruptibleReflowEnabled
+(
+)
 ;
 mHasPendingInterrupt
 =

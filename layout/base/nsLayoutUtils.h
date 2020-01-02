@@ -3462,6 +3462,16 @@ sCSSVariablesEnabled
 ;
 }
 static
+bool
+InterruptibleReflowEnabled
+(
+)
+{
+return
+sInterruptibleReflowEnabled
+;
+}
+static
 void
 UnionChildOverflow
 (
@@ -3824,6 +3834,10 @@ sInvalidationDebuggingIsEnabled
 static
 bool
 sCSSVariablesEnabled
+;
+static
+bool
+sInterruptibleReflowEnabled
 ;
 }
 ;
