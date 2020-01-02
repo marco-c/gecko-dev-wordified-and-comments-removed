@@ -75,6 +75,10 @@ nsIPresShell
 .
 h
 "
+using
+namespace
+mozilla
+;
 #
 define
 COL_GROUP_TYPE_BITS
@@ -1777,7 +1781,7 @@ GetPrevInFlow
 skip
 |
 =
-LOGICAL_SIDE_B_START
+eLogicalSideBitsBStart
 ;
 }
 if
@@ -1793,7 +1797,7 @@ GetNextInFlow
 skip
 |
 =
-LOGICAL_SIDE_B_END
+eLogicalSideBitsBEnd
 ;
 }
 return

@@ -19,6 +19,10 @@ nsIFrameInlines
 .
 h
 "
+using
+namespace
+mozilla
+;
 NS_IMPL_FRAMEARENA_HELPERS
 (
 nsSplittableFrame
@@ -1135,7 +1139,7 @@ this
 return
 LogicalSides
 (
-LOGICAL_SIDES_B_BOTH
+eLogicalSideBitsBBoth
 )
 ;
 }
@@ -1174,7 +1178,7 @@ GetPrevInFlow
 skip
 |
 =
-LOGICAL_SIDE_B_START
+eLogicalSideBitsBStart
 ;
 }
 if
@@ -1228,7 +1232,7 @@ AvailableBSize
 skip
 |
 =
-LOGICAL_SIDE_B_END
+eLogicalSideBitsBEnd
 ;
 }
 }
@@ -1258,7 +1262,7 @@ nif
 skip
 |
 =
-LOGICAL_SIDE_B_END
+eLogicalSideBitsBEnd
 ;
 }
 }

@@ -8723,7 +8723,7 @@ GetPrevInFlow
 skip
 |
 =
-LOGICAL_SIDE_B_START
+eLogicalSideBitsBStart
 ;
 }
 if
@@ -8739,7 +8739,7 @@ GetNextInFlow
 skip
 |
 =
-LOGICAL_SIDE_B_END
+eLogicalSideBitsBEnd
 ;
 }
 return
