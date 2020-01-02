@@ -1022,9 +1022,8 @@ result
 setDenseElement
 (
 i
-ObjectValue
+ObjectOrNullValue
 (
-*
 allocSite
 -
 >
