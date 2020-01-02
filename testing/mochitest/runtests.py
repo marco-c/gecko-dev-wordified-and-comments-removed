@@ -93,6 +93,7 @@ parseKeyValue
 processLeakLog
 systemMemory
 dumpScreen
+ShutdownLeaks
 from
 datetime
 import
@@ -5544,6 +5545,10 @@ timeout
 onLaunch
 =
 None
+             
+webapprtChrome
+=
+False
 )
 :
     
@@ -6029,6 +6034,36 @@ append
 testUrl
 )
     
+if
+mozinfo
+.
+info
+[
+"
+debug
+"
+]
+and
+not
+webapprtChrome
+:
+      
+shutdownLeaks
+=
+ShutdownLeaks
+(
+log
+.
+info
+)
+    
+else
+:
+      
+shutdownLeaks
+=
+None
+    
 outputHandler
 =
 self
@@ -6051,6 +6086,10 @@ dump_screen_on_timeout
 =
 not
 debuggerInfo
+                                       
+shutdownLeaks
+=
+shutdownLeaks
       
 )
     
@@ -6942,6 +6981,12 @@ onLaunch
 =
 onLaunch
                            
+webapprtChrome
+=
+options
+.
+webapprtChrome
+                           
 )
     
 except
@@ -7185,6 +7230,9 @@ None
 dump_screen_on_timeout
 =
 True
+shutdownLeaks
+=
+None
 )
 :
       
@@ -7236,6 +7284,12 @@ self
 dump_screen_on_timeout
 =
 dump_screen_on_timeout
+      
+self
+.
+shutdownLeaks
+=
+shutdownLeaks
       
 self
 .
@@ -7368,6 +7422,10 @@ dumpScreenOnTimeout
 self
 .
 metro_subprocess_id
+              
+self
+.
+trackShutdownLeaks
               
 self
 .
@@ -7676,6 +7734,20 @@ run
 "
 status
 )
+      
+if
+self
+.
+shutdownLeaks
+:
+        
+self
+.
+shutdownLeaks
+.
+process
+(
+)
     
 def
 fix_stack
@@ -7934,6 +8006,32 @@ s
 self
 .
 browserProcessId
+)
+      
+return
+line
+    
+def
+trackShutdownLeaks
+(
+self
+line
+)
+:
+      
+if
+self
+.
+shutdownLeaks
+:
+        
+self
+.
+shutdownLeaks
+.
+log
+(
+line
 )
       
 return

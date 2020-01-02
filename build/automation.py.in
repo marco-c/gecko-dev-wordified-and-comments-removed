@@ -6499,6 +6499,9 @@ None
 onLaunch
 =
 None
+webapprtChrome
+=
+False
 )
 :
 "
