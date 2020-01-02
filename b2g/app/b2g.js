@@ -4307,7 +4307,7 @@ options
 .
 discardSystemSource
 "
-false
+true
 )
 ;
 pref
