@@ -113,6 +113,10 @@ include
 protocol
 PGMPAudioDecoder
 ;
+include
+protocol
+PGMPTimer
+;
 using
 mozilla
 :
@@ -157,6 +161,9 @@ PGMPVideoEncoder
 manages
 PCrashReporter
 ;
+manages
+PGMPTimer
+;
 parent
 :
 async
@@ -164,6 +171,11 @@ PCrashReporter
 (
 NativeThreadId
 tid
+)
+;
+async
+PGMPTimer
+(
 )
 ;
 child
