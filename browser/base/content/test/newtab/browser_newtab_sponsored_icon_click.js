@@ -16,11 +16,6 @@ addNewTabPageTab
 (
 )
 ;
-yield
-whenSearchInitDone
-(
-)
-;
 let
 site
 =
