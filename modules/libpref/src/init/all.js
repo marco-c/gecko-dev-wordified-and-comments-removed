@@ -34516,7 +34516,7 @@ https
 :
 /
 /
-addons
+activations
 .
 mozilla
 .
