@@ -601,14 +601,8 @@ anchor
 ;
 if
 (
+!
 aEvent
-.
-type
-=
-=
-"
-mousedown
-"
 |
 |
 aEvent
@@ -658,6 +652,9 @@ icon
 let
 keyboardOpened
 =
+aEvent
+&
+&
 aEvent
 .
 sourceEvent
