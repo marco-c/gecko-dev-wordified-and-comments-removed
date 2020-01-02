@@ -4538,6 +4538,16 @@ click_to_play
 false
 )
 ;
+pref
+(
+"
+plugins
+.
+notifyMissingFlash
+"
+true
+)
+;
 #
 ifdef
 XP_WIN
