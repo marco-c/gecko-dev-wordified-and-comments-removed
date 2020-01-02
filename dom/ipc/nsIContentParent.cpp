@@ -1095,6 +1095,13 @@ principal
 =
 aPrincipal
 ;
+if
+(
+IsContentParent
+(
+)
+)
+{
 ContentParent
 *
 parent
@@ -1131,6 +1138,7 @@ principal
 return
 false
 ;
+}
 }
 nsRefPtr
 <
@@ -1239,6 +1247,13 @@ principal
 =
 aPrincipal
 ;
+if
+(
+IsContentParent
+(
+)
+)
+{
 ContentParent
 *
 parent
@@ -1275,6 +1290,7 @@ principal
 return
 false
 ;
+}
 }
 nsRefPtr
 <
@@ -1377,6 +1393,13 @@ principal
 =
 aPrincipal
 ;
+if
+(
+IsContentParent
+(
+)
+)
+{
 ContentParent
 *
 parent
@@ -1413,6 +1436,7 @@ principal
 return
 false
 ;
+}
 }
 nsRefPtr
 <
