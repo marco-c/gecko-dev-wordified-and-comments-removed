@@ -189,15 +189,9 @@ mSurfaces
 ;
 #
 endif
-std
-:
-:
-stack
-<
-UniquePtr
+UniquePtrQueue
 <
 SharedSurface
->
 >
 mScraps
 ;
