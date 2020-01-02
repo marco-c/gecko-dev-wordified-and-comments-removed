@@ -1520,7 +1520,7 @@ gWebMCodecs
 ;
 result
 =
-CANPLAY_YES
+CANPLAY_MAYBE
 ;
 }
 #
