@@ -161,7 +161,7 @@ projectMenu_play_label
 "
 Install
 and
-run
+Run
 "
 >
 <
@@ -376,7 +376,7 @@ ENTITY
 viewMenu_showAddons_label
 "
 Manage
-simulators
+Simulators
 "
 >
 <
@@ -715,7 +715,7 @@ Decks
 ENTITY
 deck_close
 "
-close
+Close
 "
 >
 <
@@ -733,7 +733,6 @@ addons_title
 "
 Extra
 Components
-:
 "
 >
 <
@@ -742,7 +741,9 @@ ENTITY
 addons_aboutaddons
 "
 Open
-Addons
+Add
+-
+ons
 Manager
 "
 >
@@ -784,7 +785,7 @@ ENTITY
 prefs_restore
 "
 Restore
-defaults
+Defaults
 "
 >
 <
@@ -793,7 +794,7 @@ ENTITY
 prefs_simulators
 "
 Manage
-simulators
+Simulators
 "
 >
 <
