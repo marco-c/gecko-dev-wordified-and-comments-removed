@@ -6043,6 +6043,14 @@ identifier
 "
 Func
 "
+or
+                  
+identifier
+=
+=
+"
+CheckPermissions
+"
 )
 :
                 
@@ -19051,6 +19059,14 @@ identifier
 "
 NewObject
 "
+or
+              
+identifier
+=
+=
+"
+CheckPermissions
+"
 )
 :
             
@@ -23077,6 +23093,14 @@ identifier
 =
 "
 WebGLHandlesContextLoss
+"
+or
+              
+identifier
+=
+=
+"
+CheckPermissions
 "
 )
 :
