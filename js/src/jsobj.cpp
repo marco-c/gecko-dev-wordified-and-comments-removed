@@ -20119,7 +20119,7 @@ TypedArrayObject
 )
 )
 {
-double
+uint64_t
 index
 ;
 if
@@ -21183,7 +21183,7 @@ TypedArrayObject
 )
 )
 {
-double
+uint64_t
 index
 ;
 if
@@ -21198,12 +21198,6 @@ index
 {
 if
 (
-index
->
-=
-0
-&
-&
 index
 <
 obj
@@ -24409,7 +24403,7 @@ TypedArrayObject
 )
 )
 {
-double
+uint64_t
 index
 ;
 if
@@ -24424,12 +24418,6 @@ index
 {
 if
 (
-index
->
-=
-0
-&
-&
 index
 <
 obj
