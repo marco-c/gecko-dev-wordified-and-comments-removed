@@ -778,7 +778,7 @@ position
 +
 size
 ;
-JS_POISON
+JS_EXTRA_POISON
 (
 thing
 JS_ALLOCATED_NURSERY_PATTERN
