@@ -1152,6 +1152,10 @@ NS_DECL_THREADSAFE_ISUPPORTS
 NS_DECL_NSIRUNNABLE
 AsyncDeleteAllFaviconsFromDisk
 (
+bool
+aIgnoreRecent
+=
+false
 )
 ;
 virtual
@@ -1159,6 +1163,11 @@ virtual
 AsyncDeleteAllFaviconsFromDisk
 (
 )
+;
+private
+:
+bool
+mIgnoreRecent
 ;
 }
 ;
