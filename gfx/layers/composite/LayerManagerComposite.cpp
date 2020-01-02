@@ -3980,6 +3980,10 @@ mCompositable
 (
 nullptr
 )
+mFailed
+(
+false
+)
 {
 if
 (
@@ -4020,6 +4024,10 @@ host
 "
 )
 ;
+mFailed
+=
+true
+;
 return
 ;
 }
@@ -4045,6 +4053,10 @@ aIs3D
 mCompositable
 =
 nullptr
+;
+mFailed
+=
+true
 ;
 }
 }
