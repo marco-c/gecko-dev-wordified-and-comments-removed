@@ -77,6 +77,14 @@ browser_inspector_markup_mutation
 .
 js
 \
+browser_inspector_markup_mutation_flashing
+.
+html
+\
+browser_inspector_markup_mutation_flashing
+.
+js
+\
 browser_inspector_markup_edit
 .
 html
