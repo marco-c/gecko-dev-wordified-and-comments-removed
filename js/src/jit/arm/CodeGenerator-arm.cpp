@@ -6067,6 +6067,9 @@ public
 :
 OutOfLineTableSwitch
 (
+TempAllocator
+&
+alloc
 MTableSwitch
 *
 mir
@@ -6075,6 +6078,10 @@ mir
 mir_
 (
 mir
+)
+codeLabels_
+(
+alloc
 )
 {
 }
@@ -6382,6 +6389,9 @@ ool
 new
 OutOfLineTableSwitch
 (
+alloc
+(
+)
 mir
 )
 ;

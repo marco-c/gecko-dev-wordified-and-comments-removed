@@ -3668,6 +3668,11 @@ moves
 =
 new
 LMoveGroup
+(
+alloc
+(
+)
+)
 ;
 data
 -
@@ -3760,6 +3765,11 @@ moves
 =
 new
 LMoveGroup
+(
+alloc
+(
+)
+)
 ;
 data
 -
@@ -3803,6 +3813,9 @@ block
 >
 getEntryMoveGroup
 (
+alloc
+(
+)
 )
 moves
 )

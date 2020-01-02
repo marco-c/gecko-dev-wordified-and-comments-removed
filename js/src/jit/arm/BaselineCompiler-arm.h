@@ -36,6 +36,9 @@ BaselineCompilerARM
 JSContext
 *
 cx
+TempAllocator
+&
+alloc
 HandleScript
 script
 )

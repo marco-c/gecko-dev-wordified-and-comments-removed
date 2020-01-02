@@ -34896,6 +34896,11 @@ encodeSafepoints
 ;
 CallTargetVector
 callTargets
+(
+alloc
+(
+)
+)
 ;
 if
 (

@@ -46,6 +46,9 @@ BytecodeAnalysis
 :
 BytecodeAnalysis
 (
+TempAllocator
+&
+alloc
 JSScript
 *
 script
@@ -57,6 +60,7 @@ script
 )
 infos_
 (
+alloc
 )
 usesScopeChain_
 (
@@ -134,6 +138,9 @@ BytecodeAnalysis
 :
 init
 (
+TempAllocator
+&
+alloc
 GSNCache
 &
 gsn
@@ -203,6 +210,9 @@ CatchFinallyRange
 IonAllocPolicy
 >
 catchFinallyRanges
+(
+alloc
+)
 ;
 for
 (

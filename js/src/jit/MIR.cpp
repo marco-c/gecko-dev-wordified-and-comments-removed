@@ -4076,6 +4076,7 @@ alloc
 )
 MTableSwitch
 (
+alloc
 ins
 low
 high

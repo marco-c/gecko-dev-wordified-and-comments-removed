@@ -888,6 +888,9 @@ BaselineCompiler
 JSContext
 *
 cx
+TempAllocator
+&
+alloc
 HandleScript
 script
 )

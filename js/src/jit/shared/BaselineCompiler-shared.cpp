@@ -48,6 +48,9 @@ BaselineCompilerShared
 JSContext
 *
 cx
+TempAllocator
+&
+alloc
 HandleScript
 script
 )
@@ -118,8 +121,13 @@ debugMode
 (
 )
 )
+alloc_
+(
+alloc
+)
 analysis_
 (
+alloc
 script
 )
 frame

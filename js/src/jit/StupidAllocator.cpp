@@ -1710,6 +1710,11 @@ group
 =
 new
 LMoveGroup
+(
+alloc
+(
+)
+)
 ;
 block
 -

@@ -21880,6 +21880,9 @@ LBlock
 :
 New
 (
+alloc
+(
+)
 *
 block
 )

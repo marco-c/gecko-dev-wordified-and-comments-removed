@@ -679,6 +679,9 @@ IonScript
 class
 IonAllocPolicy
 ;
+class
+TempAllocator
+;
 }
 namespace
 analyze
@@ -1906,6 +1909,12 @@ CompilerConstraintList
 *
 NewCompilerConstraintList
 (
+jit
+:
+:
+TempAllocator
+&
+alloc
 )
 ;
 class

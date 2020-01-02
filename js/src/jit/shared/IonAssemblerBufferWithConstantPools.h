@@ -55,7 +55,7 @@ Vector
 <
 BufferOffset
 512
-IonAllocPolicy
+OldIonAllocPolicy
 >
 LoadOffsets
 ;
@@ -63,7 +63,7 @@ struct
 Pool
 :
 public
-IonAllocPolicy
+OldIonAllocPolicy
 {
 const
 int

@@ -1058,6 +1058,9 @@ ins
 >
 initSafepoint
 (
+alloc
+(
+)
 )
 ;
 MResumePoint

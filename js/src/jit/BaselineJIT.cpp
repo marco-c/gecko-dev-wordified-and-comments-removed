@@ -1314,6 +1314,8 @@ BaselineCompiler
 compiler
 (
 cx
+*
+temp
 script
 )
 ;

@@ -137,6 +137,9 @@ public
 explicit
 BytecodeAnalysis
 (
+TempAllocator
+&
+alloc
 JSScript
 *
 script
@@ -145,6 +148,9 @@ script
 bool
 init
 (
+TempAllocator
+&
+alloc
 GSNCache
 &
 gsn

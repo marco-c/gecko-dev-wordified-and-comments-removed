@@ -3927,6 +3927,9 @@ public
 :
 CallInfo
 (
+TempAllocator
+&
+alloc
 bool
 constructing
 )
@@ -3938,6 +3941,10 @@ nullptr
 thisArg_
 (
 nullptr
+)
+args_
+(
+alloc
 )
 constructing_
 (
