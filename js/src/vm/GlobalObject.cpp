@@ -1684,14 +1684,6 @@ nullptr
 }
 #
 endif
-self
--
->
-setProtoGetter
-(
-getter
-)
-;
 if
 (
 !
