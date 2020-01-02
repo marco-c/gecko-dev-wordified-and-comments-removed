@@ -1965,8 +1965,7 @@ cx_
 LifoAllocScope
 allocScope_
 ;
-JSScript
-*
+RootedScript
 script_
 ;
 Bytecode
@@ -2002,6 +2001,7 @@ tempLifoAlloc
 )
 script_
 (
+cx
 script
 )
 codeArray_
