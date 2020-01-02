@@ -335,7 +335,7 @@ GetTransformToLastDispatchedPaint
 ;
 static
 const
-CSSRect
+LayerMargin
 CalculatePendingDisplayPort
 (
 const
