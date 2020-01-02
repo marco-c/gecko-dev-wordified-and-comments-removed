@@ -71,6 +71,10 @@ framesRead_
 (
 0
 )
+frameCount_
+(
+UINT32_MAX
+)
 callee_
 (
 cx
