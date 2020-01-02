@@ -1241,7 +1241,7 @@ aPage
 uri
 aPage
 .
-manifest
+manifestURL
 aExtra
 )
 ;
@@ -1384,7 +1384,7 @@ aType
 uri
 :
 pageURL
-manifest
+manifestURL
 :
 manifestURL
 pendingMessages
@@ -1493,7 +1493,7 @@ _removeTargetFromListener
 function
 (
 aTarget
-aManifest
+aManifestURL
 aRemoveListener
 aUri
 )
@@ -1505,7 +1505,7 @@ this
 .
 _listeners
 [
-aManifest
+aManifestURL
 ]
 ;
 if
@@ -1557,7 +1557,7 @@ listener
 for
 "
 +
-aManifest
+aManifestURL
 )
 ;
 delete
@@ -1565,7 +1565,7 @@ this
 .
 _listeners
 [
-aManifest
+aManifestURL
 ]
 ;
 return
@@ -1652,7 +1652,7 @@ listener
 for
 "
 +
-aManifest
+aManifestURL
 )
 ;
 delete
@@ -1660,7 +1660,7 @@ this
 .
 _listeners
 [
-aManifest
+aManifestURL
 ]
 ;
 }
@@ -1751,7 +1751,7 @@ assertContainApp
 (
 msg
 .
-manifest
+manifestURL
 )
 )
 {
@@ -1821,7 +1821,7 @@ uri
 +
 msg
 .
-manifest
+manifestURL
 )
 ;
 let
@@ -1847,7 +1847,7 @@ _listeners
 [
 msg
 .
-manifest
+manifestURL
 ]
 )
 )
@@ -1871,7 +1871,7 @@ _listeners
 [
 msg
 .
-manifest
+manifestURL
 ]
 =
 [
@@ -1993,7 +1993,7 @@ for
 +
 msg
 .
-manifest
+manifestURL
 +
 "
 innerWinID
@@ -2037,7 +2037,7 @@ target
 for
 (
 let
-manifest
+manifestURL
 in
 this
 .
@@ -2053,7 +2053,7 @@ _removeTargetFromListener
 aMessage
 .
 target
-manifest
+manifestURL
 true
 null
 )
@@ -2104,7 +2104,7 @@ aMessage
 target
 msg
 .
-manifest
+manifestURL
 false
 msg
 .
@@ -2148,7 +2148,7 @@ uri
 +
 msg
 .
-manifest
+manifestURL
 )
 ;
 let
@@ -2166,7 +2166,7 @@ msg
 uri
 msg
 .
-manifest
+manifestURL
 )
 ;
 if
@@ -2234,11 +2234,11 @@ type
 msg
 .
 type
-manifest
+manifestURL
 :
 msg
 .
-manifest
+manifestURL
 uri
 :
 msg
@@ -2287,7 +2287,7 @@ uri
 +
 msg
 .
-manifest
+manifestURL
 )
 ;
 let
@@ -2305,7 +2305,7 @@ msg
 uri
 msg
 .
-manifest
+manifestURL
 )
 ;
 if
@@ -2373,7 +2373,7 @@ uri
 +
 msg
 .
-manifest
+manifestURL
 )
 ;
 let
@@ -2391,7 +2391,7 @@ msg
 uri
 msg
 .
-manifest
+manifestURL
 )
 ;
 if
@@ -2498,7 +2498,7 @@ uri
 +
 msg
 .
-manifest
+manifestURL
 )
 ;
 this
@@ -2857,11 +2857,11 @@ uri
 aPage
 .
 uri
-manifest
+manifestURL
 :
 aPage
 .
-manifest
+manifestURL
 type
 :
 aPage
@@ -2931,7 +2931,7 @@ function
 aPage
 aType
 aPageURI
-aManifestURI
+aManifestURL
 )
 {
 return
@@ -2947,11 +2947,11 @@ aType
 &
 aPage
 .
-manifest
+manifestURL
 =
 =
 =
-aManifestURI
+aManifestURL
 &
 &
 aPage
@@ -3043,7 +3043,7 @@ SHA1
 type
 "
 "
-manifest
+manifestURL
 "
 "
 uri
@@ -3102,7 +3102,7 @@ aType
 aMessage
 aMessageID
 aPageURI
-aManifestURI
+aManifestURL
 aExtra
 )
 {
@@ -3115,7 +3115,7 @@ isSystemMessagePermittedToSend
 (
 aType
 aPageURI
-aManifestURI
+aManifestURL
 )
 )
 {
@@ -3139,9 +3139,9 @@ _createKeyForPage
 type
 :
 aType
-manifest
+manifestURL
 :
-aManifestURI
+aManifestURL
 uri
 :
 aPageURI
@@ -3155,7 +3155,7 @@ this
 .
 _listeners
 [
-aManifestURI
+aManifestURL
 ]
 ;
 if
@@ -3240,9 +3240,9 @@ aType
 msg
 :
 aMessage
-manifest
+manifestURL
 :
-aManifestURI
+aManifestURL
 uri
 :
 aPageURI
