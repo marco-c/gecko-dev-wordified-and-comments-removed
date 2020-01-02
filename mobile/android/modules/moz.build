@@ -177,6 +177,11 @@ OrderedBroadcast
 jsm
 '
 '
+PageActions
+.
+jsm
+'
+'
 Prompt
 .
 jsm
