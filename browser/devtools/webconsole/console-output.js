@@ -1478,6 +1478,14 @@ destroy
 )
 ;
 }
+this
+.
+widgets
+.
+clear
+(
+)
+;
 }
 }
 ;
