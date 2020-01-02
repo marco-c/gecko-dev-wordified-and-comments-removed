@@ -112,17 +112,6 @@ mozilla
 .
 gecko
 .
-util
-.
-NativeJSObject
-;
-import
-org
-.
-mozilla
-.
-gecko
-.
 webapp
 .
 InstallHelper
@@ -1765,7 +1754,7 @@ InstallHelper
 installHelper
 String
 event
-NativeJSObject
+JSONObject
 message
 )
 {
@@ -1804,7 +1793,6 @@ optString
 "
 origin
 "
-null
 )
 ;
 launchWebapp
