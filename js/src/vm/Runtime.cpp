@@ -3202,6 +3202,13 @@ onTooMuchMalloc
 (
 )
 {
+if
+(
+CurrentThreadCanAccessRuntime
+(
+this
+)
+)
 TriggerGC
 (
 this
