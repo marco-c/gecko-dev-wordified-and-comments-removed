@@ -7043,6 +7043,10 @@ mHasBeenScrolled
 (
 false
 )
+mIsResolutionSet
+(
+false
+)
 {
 mScrollingActive
 =
@@ -12469,6 +12473,10 @@ aResolution
 mResolution
 =
 aResolution
+;
+mIsResolutionSet
+=
+true
 ;
 }
 static
@@ -20660,6 +20668,10 @@ aState
 GetResolution
 (
 )
+;
+mIsResolutionSet
+=
+true
 ;
 if
 (

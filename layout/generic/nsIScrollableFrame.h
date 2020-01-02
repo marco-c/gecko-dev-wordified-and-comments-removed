@@ -460,6 +460,15 @@ const
 0
 ;
 virtual
+bool
+IsResolutionSet
+(
+)
+const
+=
+0
+;
+virtual
 void
 ClearDidHistoryRestore
 (
