@@ -195,12 +195,10 @@ any
 more
 .
 Bug
-1005321
--
-Requires
+994964
+apparently
+requires
 a
 clobber
-because
-of
-bug
-1005486
+unclear
+why
