@@ -310,6 +310,11 @@ ChildNode
 webidl
 '
 '
+ChromeNotifications
+.
+webidl
+'
+'
 ClipboardEvent
 .
 webidl
