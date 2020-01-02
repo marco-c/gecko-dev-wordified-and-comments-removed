@@ -319,7 +319,7 @@ Height
 ;
 aDesiredSize
 .
-SetTopAscent
+SetBlockStartAscent
 (
 0
 )
@@ -458,7 +458,7 @@ Height
 ;
 aDesiredSize
 .
-SetTopAscent
+SetBlockStartAscent
 (
 0
 )
@@ -512,7 +512,7 @@ y
 =
 aDesiredSize
 .
-TopAscent
+BlockStartAscent
 (
 )
 ;

@@ -529,7 +529,7 @@ Height
 ;
 aDesiredSize
 .
-SetTopAscent
+SetBlockStartAscent
 (
 0
 )
@@ -767,7 +767,7 @@ width
 ;
 aDesiredSize
 .
-SetTopAscent
+SetBlockStartAscent
 (
 std
 :
@@ -789,7 +789,7 @@ Height
 =
 aDesiredSize
 .
-TopAscent
+BlockStartAscent
 (
 )
 +
@@ -871,13 +871,13 @@ Height
 :
 aDesiredSize
 .
-TopAscent
+BlockStartAscent
 (
 )
 -
 childSize
 .
-TopAscent
+BlockStartAscent
 (
 )
 ;
@@ -912,7 +912,7 @@ nsPoint
 0
 aDesiredSize
 .
-TopAscent
+BlockStartAscent
 (
 )
 )

@@ -512,7 +512,7 @@ Height
 ;
 aDesiredSize
 .
-SetTopAscent
+SetBlockStartAscent
 (
 0
 )
@@ -1019,7 +1019,7 @@ rightBearing
 ;
 aDesiredSize
 .
-SetTopAscent
+SetBlockStartAscent
 (
 mBoundingMetrics
 .
@@ -1036,7 +1036,7 @@ Height
 =
 aDesiredSize
 .
-TopAscent
+BlockStartAscent
 (
 )
 +
@@ -1053,7 +1053,7 @@ Height
 -
 baseSize
 .
-TopAscent
+BlockStartAscent
 (
 )
 mBoundingMetrics
@@ -1159,13 +1159,13 @@ Height
 -
 aDesiredSize
 .
-TopAscent
+BlockStartAscent
 (
 )
 ;
 aDesiredSize
 .
-SetTopAscent
+SetBlockStartAscent
 (
 mBoundingMetrics
 .
@@ -1182,7 +1182,7 @@ Height
 =
 aDesiredSize
 .
-TopAscent
+BlockStartAscent
 (
 )
 +
@@ -1298,7 +1298,7 @@ dy
 =
 aDesiredSize
 .
-TopAscent
+BlockStartAscent
 (
 )
 -
@@ -1307,7 +1307,7 @@ indexRaisedAscent
 +
 indexSize
 .
-TopAscent
+BlockStartAscent
 (
 )
 -
@@ -1416,13 +1416,13 @@ dy
 =
 aDesiredSize
 .
-TopAscent
+BlockStartAscent
 (
 )
 -
 baseSize
 .
-TopAscent
+BlockStartAscent
 (
 )
 ;
@@ -1462,7 +1462,7 @@ y
 =
 aDesiredSize
 .
-TopAscent
+BlockStartAscent
 (
 )
 ;

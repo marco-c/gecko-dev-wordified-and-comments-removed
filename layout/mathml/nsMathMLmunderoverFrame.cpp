@@ -1119,14 +1119,14 @@ FirstChild
 ;
 underSize
 .
-SetTopAscent
+SetBlockStartAscent
 (
 0
 )
 ;
 overSize
 .
-SetTopAscent
+SetBlockStartAscent
 (
 0
 )
@@ -2034,7 +2034,7 @@ ascent
 overDelta2
 overSize
 .
-TopAscent
+BlockStartAscent
 (
 )
 +
@@ -2059,7 +2059,7 @@ max
 ascentAnonymousBase
 baseSize
 .
-TopAscent
+BlockStartAscent
 (
 )
 )
@@ -2296,7 +2296,7 @@ rightBearing
 ;
 aDesiredSize
 .
-SetTopAscent
+SetBlockStartAscent
 (
 ascentAnonymousBase
 )
@@ -2309,7 +2309,7 @@ Height
 =
 aDesiredSize
 .
-TopAscent
+BlockStartAscent
 (
 )
 +
@@ -2341,7 +2341,7 @@ Height
 -
 underSize
 .
-TopAscent
+BlockStartAscent
 (
 )
 )
@@ -2364,7 +2364,7 @@ Height
 )
 aDesiredSize
 .
-TopAscent
+BlockStartAscent
 (
 )
 +
@@ -2376,7 +2376,7 @@ Height
 -
 baseSize
 .
-TopAscent
+BlockStartAscent
 (
 )
 )
@@ -2409,7 +2409,7 @@ y
 =
 aDesiredSize
 .
-TopAscent
+BlockStartAscent
 (
 )
 ;
@@ -2430,7 +2430,7 @@ dy
 =
 aDesiredSize
 .
-TopAscent
+BlockStartAscent
 (
 )
 -
@@ -2444,7 +2444,7 @@ ascent
 -
 overSize
 .
-TopAscent
+BlockStartAscent
 (
 )
 ;
@@ -2466,13 +2466,13 @@ dy
 =
 aDesiredSize
 .
-TopAscent
+BlockStartAscent
 (
 )
 -
 baseSize
 .
-TopAscent
+BlockStartAscent
 (
 )
 ;
@@ -2498,7 +2498,7 @@ dy
 =
 aDesiredSize
 .
-TopAscent
+BlockStartAscent
 (
 )
 +
@@ -2512,7 +2512,7 @@ descent
 -
 underSize
 .
-TopAscent
+BlockStartAscent
 (
 )
 ;

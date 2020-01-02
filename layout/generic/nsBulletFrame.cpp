@@ -6543,7 +6543,7 @@ width
 ;
 aMetrics
 .
-SetTopAscent
+SetBlockStartAscent
 (
 aMetrics
 .
@@ -6670,7 +6670,7 @@ Height
 ;
 aMetrics
 .
-SetTopAscent
+SetBlockStartAscent
 (
 0
 )
@@ -6761,7 +6761,7 @@ bulletSize
 ;
 aMetrics
 .
-SetTopAscent
+SetBlockStartAscent
 (
 bulletSize
 +
@@ -7062,7 +7062,7 @@ Length
 ;
 aMetrics
 .
-SetTopAscent
+SetBlockStartAscent
 (
 fm
 -
@@ -7238,11 +7238,11 @@ bottom
 ;
 aMetrics
 .
-SetTopAscent
+SetBlockStartAscent
 (
 aMetrics
 .
-TopAscent
+BlockStartAscent
 (
 )
 +

@@ -394,7 +394,7 @@ Width
 ;
 aMetrics
 .
-SetTopAscent
+SetBlockStartAscent
 (
 0
 )
@@ -492,7 +492,7 @@ logicalHeight
 ;
 aMetrics
 .
-SetTopAscent
+SetBlockStartAscent
 (
 nsLayoutUtils
 :
@@ -509,7 +509,7 @@ else
 {
 aMetrics
 .
-SetTopAscent
+SetBlockStartAscent
 (
 aMetrics
 .
@@ -590,7 +590,7 @@ mAscent
 =
 aMetrics
 .
-TopAscent
+BlockStartAscent
 (
 )
 ;

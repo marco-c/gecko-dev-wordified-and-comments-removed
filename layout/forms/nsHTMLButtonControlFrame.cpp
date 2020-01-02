@@ -1320,7 +1320,7 @@ if
 (
 contentsDesiredSize
 .
-TopAscent
+BlockStartAscent
 (
 )
 =
@@ -1333,7 +1333,7 @@ ASK_FOR_BASELINE
 {
 contentsDesiredSize
 .
-SetTopAscent
+SetBlockStartAscent
 (
 aFirstKid
 -
@@ -1386,11 +1386,11 @@ TopBottom
 ;
 aButtonDesiredSize
 .
-SetTopAscent
+SetBlockStartAscent
 (
 contentsDesiredSize
 .
-TopAscent
+BlockStartAscent
 (
 )
 +

@@ -2917,7 +2917,7 @@ height
 ;
 aDesiredSize
 .
-SetTopAscent
+SetBlockStartAscent
 (
 ascent
 )
@@ -3761,7 +3761,7 @@ aState
 }
 desiredSize
 .
-SetTopAscent
+SetBlockStartAscent
 (
 ascent
 )
