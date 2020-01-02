@@ -693,11 +693,6 @@ Clear
 (
 )
 ;
-uint64_t
-timestamp
-=
-0
-;
 writer
 .
 AppendDummyFrame
@@ -852,11 +847,6 @@ displayWidth
 displayHeight
 aTrackRate
 )
-;
-uint64_t
-timestamp
-=
-0
 ;
 writer
 .

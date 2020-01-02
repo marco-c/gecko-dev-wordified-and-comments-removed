@@ -40,6 +40,15 @@ EbmlComposer
 )
 ;
 }
+WebMWriter
+:
+:
+~
+WebMWriter
+(
+)
+{
+}
 nsresult
 WebMWriter
 :
