@@ -7,6 +7,17 @@ touch
 *
 .
 js
+recursive
+-
+include
+marionette
+/
+runner
+/
+mixins
+/
+resources
+*
 exclude
 MANIFEST
 .
