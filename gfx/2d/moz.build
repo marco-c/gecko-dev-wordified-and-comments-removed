@@ -505,6 +505,11 @@ PathCairo
 cpp
 '
 '
+PathHelpers
+.
+cpp
+'
+'
 PathRecording
 .
 cpp
