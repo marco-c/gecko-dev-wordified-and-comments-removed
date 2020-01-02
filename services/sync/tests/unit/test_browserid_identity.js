@@ -148,7 +148,7 @@ services
 -
 common
 /
-hawk
+hawkclient
 .
 js
 "
