@@ -34352,6 +34352,16 @@ pref
 "
 memory
 .
+dump_reports_on_oom
+"
+false
+)
+;
+pref
+(
+"
+memory
+.
 blob_report
 .
 stack_frames

@@ -5170,6 +5170,16 @@ true
 pref
 (
 "
+memory
+.
+dump_reports_on_oom
+"
+false
+)
+;
+pref
+(
+"
 layout
 .
 imagevisibility
