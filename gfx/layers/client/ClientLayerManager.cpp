@@ -268,6 +268,10 @@ mCompositorMightResample
 (
 false
 )
+mNeedsComposite
+(
+false
+)
 {
 MOZ_COUNT_CTOR
 (
@@ -1238,6 +1242,9 @@ mPhase
 =
 PHASE_FORWARD
 ;
+bool
+sent
+;
 AutoInfallibleTArray
 <
 EditReply
@@ -1259,6 +1266,8 @@ EndTransaction
 (
 &
 replies
+&
+sent
 )
 )
 {
@@ -1535,6 +1544,16 @@ reached
 )
 ;
 }
+}
+if
+(
+sent
+)
+{
+mNeedsComposite
+=
+false
+;
 }
 }
 else

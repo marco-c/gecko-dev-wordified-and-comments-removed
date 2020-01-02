@@ -684,6 +684,9 @@ EditReply
 >
 *
 aReplies
+bool
+*
+aSent
 )
 ;
 void
