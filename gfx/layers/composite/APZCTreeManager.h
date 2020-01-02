@@ -468,6 +468,15 @@ ClearTree
 (
 )
 ;
+bool
+HitTestAPZC
+(
+const
+ScreenPoint
+&
+aPoint
+)
+;
 static
 void
 SetDPI
