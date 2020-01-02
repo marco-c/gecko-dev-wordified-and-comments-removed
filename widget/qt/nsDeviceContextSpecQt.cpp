@@ -889,6 +889,15 @@ nsPrinterEnumeratorQt
 )
 {
 }
+nsPrinterEnumeratorQt
+:
+:
+~
+nsPrinterEnumeratorQt
+(
+)
+{
+}
 NS_IMPL_ISUPPORTS
 (
 nsPrinterEnumeratorQt

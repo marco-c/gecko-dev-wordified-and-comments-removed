@@ -303,12 +303,6 @@ nsWindow
 (
 )
 ;
-virtual
-~
-nsWindow
-(
-)
-;
 NS_DECL_ISUPPORTS_INHERITED
 NS_IMETHOD
 Create
@@ -766,6 +760,12 @@ event
 ;
 protected
 :
+virtual
+~
+nsWindow
+(
+)
+;
 nsWindow
 *
 mParent
