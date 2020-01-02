@@ -207,10 +207,9 @@ PlacesUtils
 asyncGetBookmarkIds
 (
 aURI
-function
-(
 aItemIds
-)
+=
+>
 {
 callback
 (
@@ -235,7 +234,6 @@ _isMetroBookmark
 )
 ;
 }
-this
 )
 ;
 }

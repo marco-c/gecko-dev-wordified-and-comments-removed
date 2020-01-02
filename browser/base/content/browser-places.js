@@ -6035,11 +6035,12 @@ asyncGetBookmarkIds
 this
 .
 _uri
-function
 (
 aItemIds
 aURI
 )
+=
+>
 {
 if
 (
@@ -6166,7 +6167,6 @@ this
 _pendingStmt
 ;
 }
-this
 )
 ;
 }

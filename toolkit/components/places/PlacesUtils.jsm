@@ -5688,7 +5688,6 @@ PU_asyncGetBookmarkIds
 (
 aURI
 aCallback
-aScope
 )
 {
 if
@@ -5816,6 +5815,9 @@ stmt
 executeAsync
 (
 {
+_callback
+:
+aCallback
 _itemIds
 :
 [
@@ -5879,17 +5881,14 @@ mozIStorageStatementCallback
 REASON_FINISHED
 )
 {
-aCallback
+this
 .
-apply
+_callback
 (
-aScope
-[
 this
 .
 _itemIds
 aURI
-]
 )
 ;
 }
