@@ -2806,7 +2806,7 @@ DEBUG
 if
 (
 !
-js_JitOptions
+js_IonOptions
 .
 checkGraphConsistency
 )

@@ -6199,7 +6199,7 @@ ifdef
 CHECK_OSIPOINT_REGISTERS
 if
 (
-js_JitOptions
+js_IonOptions
 .
 checkOsiPointRegisters
 )
