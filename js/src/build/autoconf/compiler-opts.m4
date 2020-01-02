@@ -1534,9 +1534,6 @@ MOZ_PSEUDO_DERECURSE
 no
 -
 pymake
-no
--
-skip
 fi
 MOZ_DEBUGGING_OPTS
 MOZ_RTTI
