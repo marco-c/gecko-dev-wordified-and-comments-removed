@@ -1331,6 +1331,9 @@ stderr
 sys
 .
 stderr
+abort_on_missing
+=
+False
 )
 :
         
@@ -1406,6 +1409,12 @@ test_modules
 =
 [
 ]
+        
+self
+.
+abort_on_missing
+=
+abort_on_missing
     
 def
 build
@@ -2748,6 +2757,41 @@ tests
                         
 continue
                     
+if
+not
+self
+.
+abort_on_missing
+:
+                        
+print
+>
+>
+self
+.
+stderr
+"
+Warning
+:
+missing
+module
+:
+%
+s
+"
+%
+reqname
+                        
+me
+.
+add_requirement
+(
+reqname
+reqname
+)
+                        
+continue
+                    
 lineno
 =
 locations
@@ -4055,6 +4099,9 @@ extra_modules
 =
 [
 ]
+abort_on_missing
+=
+False
 )
 :
     
@@ -4270,6 +4317,10 @@ target_cfg
 pkg_cfg
 deps
 extra_modules
+                          
+abort_on_missing
+=
+abort_on_missing
 )
     
 mxt
