@@ -112,7 +112,7 @@ getGeckoWidth
 (
 )
 /
-2
+8
 ;
 Actions
 .
