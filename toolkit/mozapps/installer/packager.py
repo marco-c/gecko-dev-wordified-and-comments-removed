@@ -895,7 +895,7 @@ buildconfig
 substs
 [
 '
-HAVE_64BIT_OS
+HAVE_64BIT_BUILD
 '
 ]
 :

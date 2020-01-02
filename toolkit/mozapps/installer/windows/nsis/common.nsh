@@ -5119,7 +5119,7 @@ KEY_WOW64_64KEY
 endif
 !
 ifndef
-HAVE_64BIT_OS
+HAVE_64BIT_BUILD
 !
 define
 CREATE_KEY_SAM
@@ -13892,7 +13892,7 @@ finished
 .
 !
 ifdef
-HAVE_64BIT_OS
+HAVE_64BIT_BUILD
 SetRegView
 32
 !
@@ -14235,7 +14235,7 @@ view
 .
 !
 ifdef
-HAVE_64BIT_OS
+HAVE_64BIT_BUILD
 SetRegView
 64
 !
@@ -14720,7 +14720,7 @@ finished
 .
 !
 ifdef
-HAVE_64BIT_OS
+HAVE_64BIT_BUILD
 SetRegView
 32
 !
@@ -14855,7 +14855,7 @@ view
 .
 !
 ifdef
-HAVE_64BIT_OS
+HAVE_64BIT_BUILD
 SetRegView
 64
 !
@@ -26319,7 +26319,7 @@ Push
 R5
 !
 ifdef
-HAVE_64BIT_OS
+HAVE_64BIT_BUILD
 {
 Unless
 }
@@ -26788,7 +26788,7 @@ R8
 "
 !
 ifdef
-HAVE_64BIT_OS
+HAVE_64BIT_BUILD
 StrCpy
 INSTDIR
 "
@@ -27554,7 +27554,7 @@ call
 OnEndCommon
 !
 ifdef
-HAVE_64BIT_OS
+HAVE_64BIT_BUILD
 SetRegView
 64
 !
@@ -28495,7 +28495,7 @@ EndUnless
 }
 !
 ifdef
-HAVE_64BIT_OS
+HAVE_64BIT_BUILD
 SetRegView
 64
 !
@@ -31546,7 +31546,7 @@ EndIf
 }
 !
 ifdef
-HAVE_64BIT_OS
+HAVE_64BIT_BUILD
 {
 LogMsg
 }

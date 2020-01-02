@@ -842,7 +842,7 @@ OS_TEST
 )
 )
 ifdef
-HAVE_64BIT_OS
+HAVE_64BIT_BUILD
 ASFLAGS
 +
 =
@@ -936,7 +936,7 @@ OS_ARCH
 AIX
 )
 ifdef
-HAVE_64BIT_OS
+HAVE_64BIT_BUILD
 xptcstubs_asm_ppc_aix64
 .
 s

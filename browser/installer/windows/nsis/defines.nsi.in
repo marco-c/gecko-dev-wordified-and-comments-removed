@@ -451,10 +451,10 @@ key
 .
 #
 ifdef
-HAVE_64BIT_OS
+HAVE_64BIT_BUILD
 !
 define
-HAVE_64BIT_OS
+HAVE_64BIT_BUILD
 !
 define
 ARCH

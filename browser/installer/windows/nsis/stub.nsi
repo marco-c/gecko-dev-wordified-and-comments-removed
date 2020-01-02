@@ -1303,7 +1303,7 @@ exe
 "
 !
 ifdef
-HAVE_64BIT_OS
+HAVE_64BIT_BUILD
 InstallDir
 "
 PROGRAMFILES64
@@ -1557,7 +1557,7 @@ ini
 "
 !
 ifdef
-HAVE_64BIT_OS
+HAVE_64BIT_BUILD
 ;
 Restrict
 x64
@@ -3107,7 +3107,7 @@ EndFinishPhaseTickCount
 4
 !
 ifdef
-HAVE_64BIT_OS
+HAVE_64BIT_BUILD
 StrCpy
 R0
 "

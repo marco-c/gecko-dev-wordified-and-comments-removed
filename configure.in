@@ -12408,15 +12408,15 @@ yes
 then
 AC_DEFINE
 (
-HAVE_64BIT_OS
+HAVE_64BIT_BUILD
 )
-HAVE_64BIT_OS
+HAVE_64BIT_BUILD
 =
 1
 fi
 AC_SUBST
 (
-HAVE_64BIT_OS
+HAVE_64BIT_BUILD
 )
 AC_LANG_RESTORE
 fi
@@ -14926,7 +14926,7 @@ if
 test
 !
 "
-HAVE_64BIT_OS
+HAVE_64BIT_BUILD
 "
 ;
 then
@@ -15341,7 +15341,7 @@ bug
 if
 test
 "
-HAVE_64BIT_OS
+HAVE_64BIT_BUILD
 "
 ;
 then
@@ -17953,7 +17953,7 @@ i
 if
 test
 "
-HAVE_64BIT_OS
+HAVE_64BIT_BUILD
 "
 ;
 then
@@ -49260,7 +49260,7 @@ test
 -
 z
 "
-HAVE_64BIT_OS
+HAVE_64BIT_BUILD
 "
 ;
 then
@@ -78507,7 +78507,7 @@ test
 -
 n
 "
-HAVE_64BIT_OS
+HAVE_64BIT_BUILD
 "
 ;
 then

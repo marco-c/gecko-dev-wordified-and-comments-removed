@@ -157,7 +157,7 @@ T
 ;
 #
 ifndef
-HAVE_64BIT_OS
+HAVE_64BIT_BUILD
 template
 <
 typename
