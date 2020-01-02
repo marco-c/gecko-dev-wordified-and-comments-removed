@@ -1775,7 +1775,7 @@ WorkerThreadState
 (
 )
 .
-notifyAll
+notifyOne
 (
 GlobalWorkerThreadState
 :
@@ -4296,7 +4296,7 @@ WorkerThreadState
 (
 )
 .
-notifyAll
+notifyOne
 (
 GlobalWorkerThreadState
 :
