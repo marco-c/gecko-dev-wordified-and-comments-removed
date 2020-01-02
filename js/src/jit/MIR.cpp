@@ -16102,7 +16102,6 @@ property
 configured
 (
 constraints
-object
 )
 )
 return
