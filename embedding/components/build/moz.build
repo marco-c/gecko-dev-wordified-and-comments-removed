@@ -173,8 +173,6 @@ LOCAL_INCLUDES
 /
 printingui
 /
-src
-/
 win
 '
 ]
@@ -201,8 +199,6 @@ LOCAL_INCLUDES
 /
 printingui
 /
-src
-/
 mac
 '
 ]
@@ -223,8 +219,6 @@ LOCAL_INCLUDES
 .
 /
 printingui
-/
-src
 /
 unixshared
 '
