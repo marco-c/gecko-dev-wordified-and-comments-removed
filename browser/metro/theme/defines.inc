@@ -123,6 +123,14 @@ tabs_height
 178px
 %
 define
+newtab_button_width
+63px
+%
+define
+tabs_scrollarrow_width
+64px
+%
+define
 findbar_height
 54px
 %
