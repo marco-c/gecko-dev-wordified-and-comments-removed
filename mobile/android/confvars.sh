@@ -283,6 +283,14 @@ libraries
 MOZ_NATIVE_DEVICES
 =
 #
+Mark
+as
+WebGL
+conformant
+MOZ_WEBGL_CONFORMANT
+=
+1
+#
 Don
 '
 t
