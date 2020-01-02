@@ -45,13 +45,13 @@ mozilla
 class
 DtlsIdentity
 {
-public
-:
 ~
 DtlsIdentity
 (
 )
 ;
+public
+:
 static
 TemporaryRef
 <

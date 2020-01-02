@@ -613,12 +613,6 @@ set_interface_priorities
 true
 )
 ;
-virtual
-~
-NrIceCtx
-(
-)
-;
 nr_ice_ctx
 *
 ctx
@@ -906,6 +900,12 @@ void
 offerer_
 ;
 }
+virtual
+~
+NrIceCtx
+(
+)
+;
 DISALLOW_COPY_ASSIGN
 (
 NrIceCtx
