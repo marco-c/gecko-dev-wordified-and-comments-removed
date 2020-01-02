@@ -334,6 +334,13 @@ aState
 )
 ;
 void
+SetReadyState
+(
+uint32_t
+aReadyState
+)
+;
+void
 AddCue
 (
 TextTrackCue
