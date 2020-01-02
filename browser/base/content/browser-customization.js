@@ -351,6 +351,12 @@ customizeChange
 (
 )
 ;
+PlacesToolbarHelper
+.
+customizeChange
+(
+)
+;
 }
 _customizationEnding
 :
