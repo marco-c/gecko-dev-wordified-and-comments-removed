@@ -1690,7 +1690,7 @@ StackAlignment
 ;
 static
 const
-int32_t
+uint32_t
 MAX_BREAK_CODE
 =
 1024

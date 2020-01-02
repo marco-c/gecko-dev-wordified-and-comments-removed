@@ -7566,13 +7566,6 @@ dbg_break
 )
 {
 }
-static
-int
-stopBKPT
-=
--
-1
-;
 void
 Assembler
 :
@@ -8542,7 +8535,8 @@ RTShift
 return
 branch
 ;
-}
+default
+:
 MOZ_CRASH
 (
 "
@@ -8554,6 +8548,7 @@ branch
 "
 )
 ;
+}
 }
 void
 Assembler

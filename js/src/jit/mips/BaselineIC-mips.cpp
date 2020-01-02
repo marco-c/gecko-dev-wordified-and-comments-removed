@@ -364,15 +364,6 @@ NonVolatile
 savedRegs
 )
 ;
-ValueOperand
-savedValue
-=
-savedRegs
-.
-takeAnyValue
-(
-)
-;
 Label
 goodMul
 divTest1
