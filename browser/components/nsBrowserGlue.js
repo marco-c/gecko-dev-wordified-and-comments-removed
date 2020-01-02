@@ -6662,9 +6662,6 @@ PlacesBackups
 .
 getMostRecentBackup
 (
-"
-json
-"
 )
 ;
 if
