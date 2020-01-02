@@ -3514,16 +3514,6 @@ IsFullscreenApiContentOnly
 ;
 static
 bool
-IsIdleObserverAPIEnabled
-(
-)
-{
-return
-sIsIdleObserverAPIEnabled
-;
-}
-static
-bool
 IsPerformanceTimingEnabled
 (
 )
@@ -4311,10 +4301,6 @@ sFullscreenApiIsContentOnly
 static
 uint32_t
 sHandlingInputTimeout
-;
-static
-bool
-sIsIdleObserverAPIEnabled
 ;
 static
 bool
