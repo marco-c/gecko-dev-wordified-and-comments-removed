@@ -131,11 +131,6 @@ BluetoothProfileController
 cpp
 '
 '
-BluetoothPropertyContainer
-.
-cpp
-'
-'
 BluetoothReplyRunnable
 .
 cpp
