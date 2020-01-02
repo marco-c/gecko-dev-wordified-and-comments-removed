@@ -1600,6 +1600,11 @@ consumeoutsideclicks
 "
 true
 "
+animate
+=
+"
+false
+"
 >
 <
 vbox
@@ -1801,6 +1806,11 @@ consumeoutsideclicks
 =
 "
 true
+"
+animate
+=
+"
+false
 "
 >
 <
