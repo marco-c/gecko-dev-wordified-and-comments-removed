@@ -5465,13 +5465,10 @@ target
 else
 {
 const
-nsTArray
-<
-nsRefPtr
-<
-Touch
->
->
+WidgetTouchEvent
+:
+:
+TouchArray
 &
 touches
 =

@@ -3501,13 +3501,10 @@ LayoutDeviceIntPoint
 )
 ;
 const
-nsTArray
-<
-nsRefPtr
-<
-Touch
->
->
+WidgetTouchEvent
+:
+:
+TouchArray
 &
 touches
 =
