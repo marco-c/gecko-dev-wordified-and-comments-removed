@@ -1789,7 +1789,7 @@ this
 value
 -
 >
-runtimeFromMainThread
+runtimeFromAnyThread
 (
 )
 )
@@ -1863,7 +1863,7 @@ this
 value
 -
 >
-runtimeFromMainThread
+runtimeFromAnyThread
 (
 )
 ;
@@ -1963,7 +1963,7 @@ this
 value
 -
 >
-runtimeFromMainThread
+runtimeFromAnyThread
 (
 )
 ;
@@ -3470,7 +3470,7 @@ isMarkable
 (
 )
 )
-shadowRuntimeFromMainThread
+shadowRuntimeFromAnyThread
 (
 value
 )
@@ -3705,7 +3705,7 @@ isMarkable
 )
 relocate
 (
-runtimeFromMainThread
+runtimeFromAnyThread
 (
 value
 )
@@ -3768,7 +3768,7 @@ JSRuntime
 *
 rt
 =
-runtimeFromMainThread
+runtimeFromAnyThread
 (
 value
 )
@@ -3857,7 +3857,7 @@ JSRuntime
 *
 rt
 =
-runtimeFromMainThread
+runtimeFromAnyThread
 (
 value
 )
@@ -3907,7 +3907,7 @@ isMarkable
 )
 )
 ;
-shadowRuntimeFromMainThread
+shadowRuntimeFromAnyThread
 (
 value
 )
