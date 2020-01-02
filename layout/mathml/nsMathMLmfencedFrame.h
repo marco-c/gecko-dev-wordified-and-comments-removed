@@ -123,12 +123,15 @@ aLists
 MOZ_OVERRIDE
 ;
 virtual
-nscoord
-GetIntrinsicWidth
+void
+GetIntrinsicWidthMetrics
 (
 nsRenderingContext
 *
 aRenderingContext
+nsHTMLReflowMetrics
+&
+aDesiredSize
 )
 MOZ_OVERRIDE
 ;
