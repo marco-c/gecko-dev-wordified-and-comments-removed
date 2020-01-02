@@ -212,7 +212,7 @@ android
 layout_height
 =
 "
-32dip
+40dip
 "
 android
 :
@@ -226,7 +226,7 @@ android
 gravity
 =
 "
-bottom
+center_vertical
 "
 android
 :

@@ -277,6 +277,17 @@ PreDrawListener
 )
 ;
 }
+Override
+public
+int
+getPaddingBottom
+(
+)
+{
+return
+0
+;
+}
 private
 void
 animateTitles
