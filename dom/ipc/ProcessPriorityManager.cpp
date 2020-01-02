@@ -201,9 +201,14 @@ LOG
 #
 endif
 #
+ifndef
+HAVE_64BIT_OS
+#
 define
 ENABLE_LOGGING
 1
+#
+endif
 #
 if
 defined
