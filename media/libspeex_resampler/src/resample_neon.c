@@ -1,5 +1,12 @@
 #
 include
+"
+simd_detect
+.
+h
+"
+#
+include
 <
 arm_neon
 .
@@ -174,8 +181,6 @@ x
 #
 define
 OVERRIDE_INNER_PRODUCT_SINGLE
-static
-inline
 int32_t
 inner_product_single
 (
@@ -872,8 +877,6 @@ x
 #
 define
 OVERRIDE_INNER_PRODUCT_SINGLE
-static
-inline
 float
 inner_product_single
 (

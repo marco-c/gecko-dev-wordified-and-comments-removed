@@ -103,6 +103,10 @@ resample_sse
 .
 h
 src
+/
+resample_sse
+.
+c
 cp
 1
 /
@@ -112,6 +116,10 @@ resample_neon
 .
 h
 src
+/
+resample_neon
+.
+c
 cp
 1
 /
@@ -178,7 +186,7 @@ patch
 -
 p3
 <
-sse
+simd
 -
 detect
 -

@@ -1,5 +1,12 @@
 #
 include
+"
+simd_detect
+.
+h
+"
+#
+include
 <
 xmmintrin
 .
@@ -8,8 +15,6 @@ h
 #
 define
 OVERRIDE_INNER_PRODUCT_SINGLE
-static
-inline
 float
 inner_product_single
 (
@@ -143,8 +148,6 @@ ret
 #
 define
 OVERRIDE_INTERPOLATE_PRODUCT_SINGLE
-static
-inline
 float
 interpolate_product_single
 (
@@ -316,8 +319,6 @@ h
 #
 define
 OVERRIDE_INNER_PRODUCT_DOUBLE
-static
-inline
 double
 inner_product_double
 (
@@ -485,8 +486,6 @@ ret
 #
 define
 OVERRIDE_INTERPOLATE_PRODUCT_DOUBLE
-static
-inline
 double
 interpolate_product_double
 (
