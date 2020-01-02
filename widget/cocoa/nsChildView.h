@@ -1935,7 +1935,7 @@ virtual
 bool
 PreRender
 (
-LayerManager
+LayerManagerComposite
 *
 aManager
 )
@@ -1945,7 +1945,7 @@ virtual
 void
 PostRender
 (
-LayerManager
+LayerManagerComposite
 *
 aManager
 )
@@ -1955,7 +1955,7 @@ virtual
 void
 DrawWindowOverlay
 (
-LayerManager
+LayerManagerComposite
 *
 aManager
 nsIntRect
