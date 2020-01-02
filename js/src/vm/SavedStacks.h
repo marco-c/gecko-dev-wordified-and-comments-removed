@@ -492,7 +492,7 @@ insertFrames
 JSContext
 *
 cx
-FrameIter
+ScriptFrameIter
 &
 iter
 MutableHandleSavedFrame
