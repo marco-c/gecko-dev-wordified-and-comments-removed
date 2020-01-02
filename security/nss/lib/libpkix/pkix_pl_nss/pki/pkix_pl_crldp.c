@@ -415,7 +415,6 @@ PORT_ArenaZNew
 (
 rdnArena
 CERTName
-*
 )
 ;
 if

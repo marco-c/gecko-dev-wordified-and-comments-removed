@@ -370,6 +370,11 @@ n
 "
 )
 ;
+fclose
+(
+input
+)
+;
 return
 NULL
 ;
