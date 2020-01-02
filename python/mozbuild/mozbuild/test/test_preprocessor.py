@@ -18,7 +18,9 @@ import
 main
 MockedOpen
 from
-Preprocessor
+mozbuild
+.
+preprocessor
 import
 Preprocessor
 def

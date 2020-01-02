@@ -9,7 +9,9 @@ path
 import
 mozunit
 from
-Expression
+mozbuild
+.
+preprocessor
 import
 Expression
 Context

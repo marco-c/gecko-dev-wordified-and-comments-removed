@@ -72,9 +72,13 @@ It
 is
 implemented
 at
-config
+python
 /
-Preprocessor
+mozbuild
+/
+mozbuild
+/
+preprocessor
 .
 py
 and

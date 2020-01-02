@@ -129,17 +129,9 @@ libs
 MANIFEST_FILE
 )
 (
-PYTHON
-)
-(
-topsrcdir
-)
-/
-config
-/
-Preprocessor
-.
-py
+call
+py_action
+preprocessor
 (
 DEFINES
 )
@@ -150,7 +142,8 @@ ACDEFINES
 XULPPFLAGS
 )
 <
->
+-
+o
 (
 testxpcobjdir
 )
@@ -162,4 +155,5 @@ componentdir
 (
 <
 F
+)
 )

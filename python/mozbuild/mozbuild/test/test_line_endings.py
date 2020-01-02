@@ -15,7 +15,9 @@ path
 import
 mozunit
 from
-Preprocessor
+mozbuild
+.
+preprocessor
 import
 Preprocessor
 class
