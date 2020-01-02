@@ -10,6 +10,9 @@ content
 general
 '
 '
+gfx
+'
+'
 layout
 '
 '
