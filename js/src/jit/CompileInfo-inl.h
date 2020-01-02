@@ -20,14 +20,12 @@ jsscriptinlines
 .
 h
 "
-using
 namespace
 js
-;
-using
+{
 namespace
 jit
-;
+{
 inline
 RegExpObject
 *
@@ -78,6 +76,8 @@ pc
 )
 )
 ;
+}
+}
 }
 #
 endif
