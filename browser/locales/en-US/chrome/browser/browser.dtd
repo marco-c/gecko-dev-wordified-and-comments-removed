@@ -3217,6 +3217,17 @@ Customize
 <
 !
 ENTITY
+appMenuCustomizeExit
+.
+label
+"
+Exit
+Customize
+"
+>
+<
+!
+ENTITY
 appMenuHistory
 .
 label
