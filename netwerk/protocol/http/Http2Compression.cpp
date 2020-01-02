@@ -2596,9 +2596,9 @@ NS_LITERAL_CSTRING
 "
 HTTP
 /
-1
+2
 .
-1
+0
 "
 )
 )
