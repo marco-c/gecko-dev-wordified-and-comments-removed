@@ -2799,10 +2799,6 @@ mStatus
 =
 status
 ;
-mIsPending
-=
-false
-;
 HandleAsyncAbort
 (
 )

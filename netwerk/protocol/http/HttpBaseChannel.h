@@ -961,6 +961,13 @@ nsIPrincipal
 aRedirect
 )
 ;
+NS_IMETHOD
+ForcePending
+(
+bool
+aForcePending
+)
+;
 inline
 void
 CleanRedirectCacheChainIfNecessary
@@ -1584,6 +1591,9 @@ nsIPrincipal
 >
 mPrincipal
 ;
+bool
+mForcePending
+;
 }
 ;
 template
@@ -1723,13 +1733,6 @@ mThis
 mStatus
 =
 status
-;
-mThis
--
->
-mIsPending
-=
-false
 ;
 return
 AsyncCall
