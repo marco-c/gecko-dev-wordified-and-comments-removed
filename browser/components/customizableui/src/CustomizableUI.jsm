@@ -10952,6 +10952,13 @@ Set
 (
 )
 ;
+gSeenWidgets
+=
+new
+Set
+(
+)
+;
 gSavedState
 =
 null
