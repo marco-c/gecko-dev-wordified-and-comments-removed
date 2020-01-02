@@ -289,6 +289,13 @@ h
 #
 include
 "
+nsCycleCollector
+.
+h
+"
+#
+include
+"
 nsDOMClassInfo
 .
 h
@@ -356,7 +363,7 @@ obj
 )
 )
 ;
-nsContentUtils
+cyclecollector
 :
 :
 DeferredFinalize

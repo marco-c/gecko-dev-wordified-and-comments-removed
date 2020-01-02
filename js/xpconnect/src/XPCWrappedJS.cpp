@@ -1901,7 +1901,7 @@ GCIsRunning
 )
 )
 {
-nsContentUtils
+cyclecollector
 :
 :
 DeferredFinalize

@@ -2596,7 +2596,7 @@ GetDoingFinalization
 )
 )
 {
-nsContentUtils
+cyclecollector
 :
 :
 DeferredFinalize
@@ -4056,7 +4056,7 @@ if
 rt
 )
 {
-nsContentUtils
+cyclecollector
 :
 :
 DeferredFinalize
