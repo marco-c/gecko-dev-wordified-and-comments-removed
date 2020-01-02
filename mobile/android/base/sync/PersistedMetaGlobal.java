@@ -31,9 +31,7 @@ gecko
 .
 sync
 .
-net
-.
-AuthHeaderProvider
+CryptoRecord
 ;
 import
 android
@@ -100,8 +98,8 @@ metaGlobal
 (
 String
 metaUrl
-AuthHeaderProvider
-authHeaderProvider
+String
+credentials
 )
 {
 String
@@ -151,7 +149,7 @@ new
 MetaGlobal
 (
 metaUrl
-authHeaderProvider
+credentials
 )
 ;
 mg
