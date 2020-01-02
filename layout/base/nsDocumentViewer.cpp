@@ -15420,13 +15420,12 @@ MOZ_WIDGET_GTK
 )
 nsWindowType
 winType
-;
+=
 mParentWidget
 -
 >
-GetWindowType
+WindowType
 (
-winType
 )
 ;
 if

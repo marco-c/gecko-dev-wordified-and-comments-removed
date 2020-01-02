@@ -2613,13 +2613,12 @@ aWidget
 {
 nsWindowType
 windowType
-;
+=
 aWidget
 -
 >
-GetWindowType
+WindowType
 (
-windowType
 )
 ;
 return
