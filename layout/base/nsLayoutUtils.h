@@ -699,6 +699,16 @@ Direction
 aDirection
 )
 ;
+enum
+{
+SCROLLABLE_SAME_DOC
+=
+0x01
+SCROLLABLE_INCLUDE_HIDDEN
+=
+0x02
+}
+;
 static
 nsIScrollableFrame
 *
@@ -707,6 +717,10 @@ GetNearestScrollableFrame
 nsIFrame
 *
 aFrame
+uint32_t
+aFlags
+=
+0
 )
 ;
 static
