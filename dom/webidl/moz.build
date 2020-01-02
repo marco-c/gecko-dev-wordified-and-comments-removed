@@ -1195,6 +1195,11 @@ MozActivity
 webidl
 '
 '
+MozConnection
+.
+webidl
+'
+'
 MozMmsMessage
 .
 webidl

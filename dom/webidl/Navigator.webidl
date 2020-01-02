@@ -1616,9 +1616,6 @@ mozMobileMessage
 /
 /
 nsIDOMMozNavigatorNetwork
-interface
-MozConnection
-;
 partial
 interface
 Navigator

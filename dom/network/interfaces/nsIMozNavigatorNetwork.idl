@@ -63,9 +63,6 @@ nsISupports
 .
 idl
 "
-interface
-nsIDOMMozConnection
-;
 [
 uuid
 (
@@ -85,9 +82,15 @@ nsIMozNavigatorNetwork
 :
 nsISupports
 {
+/
+/
+This
+is
+a
+MozConnection
 readonly
 attribute
-nsIDOMMozConnection
+nsISupports
 mozConnection
 ;
 }
