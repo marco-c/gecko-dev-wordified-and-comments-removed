@@ -66,8 +66,6 @@ static
 const
 uint32_t
 MaxChannelCount
-=
-32
 ;
 static
 bool
