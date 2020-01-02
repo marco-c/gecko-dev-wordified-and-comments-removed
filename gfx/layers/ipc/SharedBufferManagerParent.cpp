@@ -477,6 +477,10 @@ bpp
 =
 %
 d
+stride
+=
+%
+d
 )
 "
 pid
@@ -488,6 +492,7 @@ getWidth
 )
 height
 bpp
+stride
 )
 ;
 rv
