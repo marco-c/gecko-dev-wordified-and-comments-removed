@@ -10047,7 +10047,7 @@ getDenseInitializedLength
 obj
 -
 >
-moveDenseElementsUnbarriered
+moveDenseElementsNoPreBarrier
 (
 0
 1
