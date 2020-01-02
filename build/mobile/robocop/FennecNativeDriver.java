@@ -640,7 +640,6 @@ name
 )
 )
 activity
-mSolo
 )
 ;
 }
