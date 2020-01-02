@@ -7849,17 +7849,6 @@ JSObject
 obj
 )
 ;
-void
-TraceXPCGlobal
-(
-JSTracer
-*
-trc
-JSObject
-*
-obj
-)
-;
 class
 XPCWrappedNative
 :
@@ -8682,6 +8671,9 @@ mFlatJSObject
 )
 )
 {
+xpc
+:
+:
 TraceXPCGlobal
 (
 trc

@@ -388,6 +388,17 @@ JSObject
 fun
 )
 ;
+void
+TraceXPCGlobal
+(
+JSTracer
+*
+trc
+JSObject
+*
+obj
+)
+;
 }
 namespace
 JS
