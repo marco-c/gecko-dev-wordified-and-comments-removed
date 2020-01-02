@@ -129,6 +129,17 @@ MOZ_OVERRIDE
 ;
 virtual
 void
+NotifyDecodedFrames
+(
+uint32_t
+aParsed
+uint32_t
+aDecoded
+)
+MOZ_OVERRIDE
+;
+virtual
+void
 SetMediaDuration
 (
 int64_t
