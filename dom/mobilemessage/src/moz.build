@@ -478,3 +478,14 @@ LIBRARY_NAME
 '
 dom_mobilemessage_s
 '
+LOCAL_INCLUDES
++
+=
+[
+'
+/
+dom
+/
+base
+'
+]
