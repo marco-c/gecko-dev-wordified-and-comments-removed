@@ -91,6 +91,8 @@ config
 rules
 .
 mk
+ifndef
+MOZ_HAS_WINSDK_WITH_D3D
 CXXFLAGS
 +
 =
@@ -103,6 +105,7 @@ MOZ_DIRECTX_SDK_PATH
 /
 include
 '
+endif
 ifdef
 GNU_CC
 OS_CXXFLAGS
@@ -129,6 +132,20 @@ OS_LIBS
 ld3d9
 -
 ldxguid
+else
+ifdef
+MOZ_HAS_WINSDK_WITH_D3D
+EXTRA_DSO_LDOPTS
+=
+d3d9
+.
+lib
+dxguid
+.
+lib
+delayimp
+.
+lib
 else
 EXTRA_DSO_LDOPTS
 =
@@ -167,4 +184,5 @@ lib
 delayimp
 .
 lib
+endif
 endif
