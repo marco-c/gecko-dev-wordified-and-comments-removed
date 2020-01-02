@@ -1191,6 +1191,9 @@ newSize
 ;
 if
 (
+newSlots
+&
+&
 oldSlots
 !
 =
@@ -1239,6 +1242,10 @@ obj
 newCount
 )
 ;
+if
+(
+newSlots
+)
 PodCopy
 (
 newSlots
@@ -1378,6 +1385,10 @@ HeapSlot
 nslots
 )
 ;
+if
+(
+slots
+)
 (
 void
 )
