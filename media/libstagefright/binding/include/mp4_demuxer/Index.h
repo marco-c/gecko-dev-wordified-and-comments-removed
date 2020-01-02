@@ -77,6 +77,11 @@ uint32_t
 aTrackId
 )
 ;
+~
+Index
+(
+)
+;
 void
 ConvertByteRangesToTimeRanges
 (
