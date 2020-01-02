@@ -2695,7 +2695,7 @@ ok
 =
 NtDllIntercept
 .
-AddSharedHook
+AddHook
 (
 "
 LdrLoadDll
