@@ -7024,6 +7024,17 @@ Toolbars
 <
 !
 ENTITY
+customizeMode
+.
+titlebar
+"
+Title
+Bar
+"
+>
+<
+!
+ENTITY
 social
 .
 chatBar
