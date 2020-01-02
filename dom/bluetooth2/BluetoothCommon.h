@@ -653,17 +653,6 @@ adapter
 "
 #
 define
-KEY_DISCOVERY_HANDLE
-"
-/
-B2G
-/
-bluetooth
-/
-discovery_handle
-"
-#
-define
 BLUETOOTH_A2DP_STATUS_CHANGED_ID
 "
 bluetooth
