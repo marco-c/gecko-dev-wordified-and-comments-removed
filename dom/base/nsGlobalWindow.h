@@ -5408,9 +5408,6 @@ nsIURI
 *
 *
 aBuiltURI
-bool
-*
-aFreeSecurityPass
 JSContext
 *
 *
