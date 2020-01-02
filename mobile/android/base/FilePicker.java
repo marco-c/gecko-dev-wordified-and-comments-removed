@@ -235,6 +235,10 @@ new
 FilePicker
 (
 context
+.
+getApplicationContext
+(
+)
 )
 ;
 }

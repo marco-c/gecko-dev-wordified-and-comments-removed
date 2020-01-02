@@ -105,6 +105,7 @@ static
 void
 init
 (
+final
 Context
 c
 )
@@ -140,6 +141,10 @@ return
 mContext
 =
 c
+.
+getApplicationContext
+(
+)
 ;
 }
 WrapElementForJNI
