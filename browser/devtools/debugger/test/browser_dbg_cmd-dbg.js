@@ -65,9 +65,6 @@ output
 :
 "
 "
-completed
-:
-false
 }
 }
 ]
@@ -517,9 +514,6 @@ setup
 dbg
 close
 "
-completed
-:
-false
 exec
 :
 {

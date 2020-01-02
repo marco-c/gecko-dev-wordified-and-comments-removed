@@ -376,9 +376,6 @@ output
 Added
 breakpoint
 '
-completed
-:
-false
 }
 }
 {
@@ -443,9 +440,6 @@ output
 Added
 breakpoint
 '
-completed
-:
-false
 }
 }
 {
@@ -606,6 +600,15 @@ INCOMPLETE
 message
 :
 '
+Value
+required
+for
+\
+'
+breakpoint
+\
+'
+.
 '
 }
 }
@@ -684,9 +687,6 @@ output
 Breakpoint
 removed
 '
-completed
-:
-false
 }
 }
 {
@@ -818,9 +818,6 @@ output
 Breakpoint
 removed
 '
-completed
-:
-false
 }
 }
 {
