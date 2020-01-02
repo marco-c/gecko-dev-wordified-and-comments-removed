@@ -2313,6 +2313,11 @@ if
 aIsOnlyNode
 )
 {
+if
+(
+mStream
+)
+{
 mStream
 -
 >
@@ -2321,6 +2326,7 @@ ChangeExplicitBlockerCount
 1
 )
 ;
+}
 mStartedBlockingDueToBeingOnlyNode
 =
 TimeStamp
@@ -2354,6 +2360,11 @@ mExtraCurrentTime
 =
 mExtraCurrentTimeSinceLastStartedBlocking
 ;
+if
+(
+mStream
+)
+{
 mStream
 -
 >
@@ -2363,6 +2374,7 @@ ChangeExplicitBlockerCount
 1
 )
 ;
+}
 mStartedBlockingDueToBeingOnlyNode
 =
 TimeStamp
