@@ -14116,7 +14116,7 @@ this
 .
 _primaryButton
 .
-accesskey
+accessKey
 =
 gNavigatorBundle
 .
@@ -14160,7 +14160,7 @@ this
 .
 _secondaryButton
 .
-accesskey
+accessKey
 =
 gNavigatorBundle
 .
