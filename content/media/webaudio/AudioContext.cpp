@@ -2385,10 +2385,17 @@ mIsShutDown
 =
 true
 ;
+if
+(
+!
+mIsOffline
+)
+{
 Mute
 (
 )
 ;
+}
 mDecoder
 .
 Shutdown
