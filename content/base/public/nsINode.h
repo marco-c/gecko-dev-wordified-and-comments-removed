@@ -1075,7 +1075,7 @@ p
 .
 mUseXBLScope
 =
-ChromeOnlyAccess
+IsInAnonymousSubtree
 (
 )
 ;
