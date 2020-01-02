@@ -389,7 +389,6 @@ if
 WrapObject
 (
 aCx
-aProxy
 childWin
 &
 v
@@ -515,7 +514,6 @@ if
 WrapObject
 (
 aCx
-aProxy
 element
 &
 v
@@ -608,7 +606,6 @@ if
 WrapObject
 (
 aCx
-aProxy
 result
 cache
 nullptr

@@ -14024,6 +14024,13 @@ v
 aCx
 )
 ;
+JSAutoCompartment
+ac
+(
+aCx
+scope
+)
+;
 if
 (
 !
@@ -14036,7 +14043,6 @@ dom
 WrapObject
 (
 aCx
-scope
 this
 &
 v

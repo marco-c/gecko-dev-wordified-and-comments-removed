@@ -259,7 +259,6 @@ if
 WrapObject
 (
 aCx
-glob
 aException
 &
 NS_GET_IID

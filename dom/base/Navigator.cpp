@@ -7877,7 +7877,6 @@ dom
 WrapObject
 (
 aCx
-naviObj
 existingObject
 &
 wrapped

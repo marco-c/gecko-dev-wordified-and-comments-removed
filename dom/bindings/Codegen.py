@@ -35226,9 +35226,6 @@ wrap
 WrapObject
 (
 cx
-{
-obj
-}
 %
 s
 %
