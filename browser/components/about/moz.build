@@ -122,3 +122,14 @@ FINAL_LIBRARY
 '
 browsercomps
 '
+LOCAL_INCLUDES
++
+=
+[
+'
+.
+.
+/
+build
+'
+]
