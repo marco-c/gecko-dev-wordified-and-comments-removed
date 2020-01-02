@@ -2114,7 +2114,7 @@ devtools
 /
 tool
 -
-styleeditor
+webaudio
 .
 svg
 "
