@@ -1988,6 +1988,14 @@ deleteANRs
         
 self
 .
+_automation
+.
+deleteTombstones
+(
+)
+        
+self
+.
 certdbNew
 =
 True
