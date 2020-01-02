@@ -1289,7 +1289,9 @@ handler
 #
 include
 "
-nsEventNameList
+mozilla
+/
+EventNameList
 .
 h
 "

@@ -5504,7 +5504,9 @@ EVENT
 #
 include
 "
-nsEventNameList
+mozilla
+/
+EventNameList
 .
 h
 "

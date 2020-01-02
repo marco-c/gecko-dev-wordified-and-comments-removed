@@ -137,11 +137,6 @@ EXPORTS
 =
 [
 '
-nsEventNameList
-.
-h
-'
-'
 nsEventStates
 .
 h
@@ -180,6 +175,11 @@ h
 '
 '
 EventListenerManager
+.
+h
+'
+'
+EventNameList
 .
 h
 '
