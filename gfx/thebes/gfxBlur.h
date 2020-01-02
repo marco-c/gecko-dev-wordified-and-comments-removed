@@ -144,9 +144,9 @@ gfxCornerSizes
 *
 aCornerRadii
 const
-gfxIntSize
+gfxPoint
 &
-aBlurRadius
+aBlurStdDev
 const
 gfxRGBA
 &
