@@ -1961,7 +1961,6 @@ def
 cleanup
 (
 self
-manifest
 options
 )
 :
@@ -2042,19 +2041,11 @@ self
 remoteProfile
 )
         
-if
-manifest
-is
-not
-None
-:
-            
 Mochitest
 .
 cleanup
 (
 self
-manifest
 options
 )
     
@@ -6114,7 +6105,6 @@ mochitest
 .
 cleanup
 (
-None
 options
 )
                 
@@ -6418,7 +6408,6 @@ mochitest
 .
 cleanup
 (
-None
 options
 )
             
