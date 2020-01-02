@@ -1152,11 +1152,13 @@ Clear
 const
 {
 }
+already_AddRefed
+<
 mozilla
 :
 :
 Selection
-*
+>
 GetSelection
 (
 mozilla
@@ -1164,7 +1166,7 @@ mozilla
 :
 ErrorResult
 &
-aRv
+rv
 )
 ;
 already_AddRefed
