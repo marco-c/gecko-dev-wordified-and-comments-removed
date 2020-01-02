@@ -903,6 +903,11 @@ open
 \
 ALLOW_SYSCALL
 (
+readlink
+)
+\
+ALLOW_SYSCALL
+(
 prctl
 )
 \
