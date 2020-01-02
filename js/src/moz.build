@@ -2671,6 +2671,11 @@ jskwgen
 .
 cpp
 '
+'
+jsoplengen
+.
+cpp
+'
 ]
 HOST_SIMPLE_PROGRAMS
 +
