@@ -481,7 +481,7 @@ aRole
 }
 static
 bool
-IsConceptualParent
+ShouldReportRelations
 (
 a11y
 :
