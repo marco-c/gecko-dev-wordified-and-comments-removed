@@ -105,6 +105,9 @@ protocol
 PCompositable
 ;
 include
+ProtocolTypes
+;
+include
 "
 mozilla
 /
