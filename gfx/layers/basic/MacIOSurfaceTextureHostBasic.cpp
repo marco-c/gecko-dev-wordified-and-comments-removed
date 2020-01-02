@@ -134,8 +134,6 @@ MacIOSurfaceTextureHostBasic
 :
 MacIOSurfaceTextureHostBasic
 (
-uint64_t
-aID
 TextureFlags
 aFlags
 const
@@ -146,7 +144,6 @@ aDescriptor
 :
 TextureHost
 (
-aID
 aFlags
 )
 {

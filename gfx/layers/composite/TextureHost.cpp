@@ -516,8 +516,6 @@ TextureHost
 >
 CreateTextureHostOGL
 (
-uint64_t
-aID
 const
 SurfaceDescriptor
 &
@@ -535,8 +533,6 @@ TextureHost
 >
 CreateTextureHostBasic
 (
-uint64_t
-aID
 const
 SurfaceDescriptor
 &
@@ -557,8 +553,6 @@ TextureHost
 :
 Create
 (
-uint64_t
-aID
 const
 SurfaceDescriptor
 &
@@ -586,7 +580,6 @@ LAYERS_OPENGL
 return
 CreateTextureHostOGL
 (
-aID
 aDesc
 aDeallocator
 aFlags
@@ -598,7 +591,6 @@ LAYERS_BASIC
 return
 CreateTextureHostBasic
 (
-aID
 aDesc
 aDeallocator
 aFlags
@@ -613,7 +605,6 @@ LAYERS_NONE
 return
 CreateTextureHostOGL
 (
-aID
 aDesc
 aDeallocator
 aFlags
@@ -657,8 +648,6 @@ TextureHost
 >
 CreateBackendIndependentTextureHost
 (
-uint64_t
-aID
 const
 SurfaceDescriptor
 &
@@ -708,7 +697,6 @@ result
 new
 ShmemTextureHost
 (
-aID
 descriptor
 .
 data
@@ -749,7 +737,6 @@ result
 new
 MemoryTextureHost
 (
-aID
 reinterpret_cast
 <
 uint8_t
@@ -817,20 +804,10 @@ TextureHost
 :
 TextureHost
 (
-uint64_t
-aID
 TextureFlags
 aFlags
 )
 :
-mID
-(
-aID
-)
-mNextTexture
-(
-nullptr
-)
 mFlags
 (
 aFlags
@@ -1333,8 +1310,6 @@ BufferTextureHost
 :
 BufferTextureHost
 (
-uint64_t
-aID
 gfx
 :
 :
@@ -1346,7 +1321,6 @@ aFlags
 :
 TextureHost
 (
-aID
 aFlags
 )
 mCompositor
@@ -2445,8 +2419,6 @@ ShmemTextureHost
 :
 ShmemTextureHost
 (
-uint64_t
-aID
 const
 ipc
 :
@@ -2468,7 +2440,6 @@ aFlags
 :
 BufferTextureHost
 (
-aID
 aFormat
 aFlags
 )
@@ -2628,8 +2599,6 @@ MemoryTextureHost
 :
 MemoryTextureHost
 (
-uint64_t
-aID
 uint8_t
 *
 aBuffer
@@ -2644,7 +2613,6 @@ aFlags
 :
 BufferTextureHost
 (
-aID
 aFormat
 aFlags
 )
@@ -2815,7 +2783,6 @@ TextureHost
 :
 Create
 (
-0
 aSharedData
 mAllocator
 aFlags
