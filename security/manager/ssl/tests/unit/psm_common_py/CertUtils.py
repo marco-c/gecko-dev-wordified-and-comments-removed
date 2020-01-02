@@ -12,6 +12,18 @@ def
 init_dsa
 (
 db_dir
+param_filename
+=
+'
+dsa_param
+.
+pem
+'
+key_size
+=
+'
+2048
+'
 )
 :
     
@@ -51,6 +63,24 @@ params
 for
 the
 certificate
+      
+param_filename
+-
+-
+the
+file
+name
+for
+the
+param
+file
+      
+key_size
+-
+-
+public
+key
+size
     
 "
 "
@@ -60,12 +90,11 @@ dsa_key_params
 =
 db_dir
 +
-"
+'
 /
-dsa_param
-.
-pem
-"
+'
++
+param_filename
     
 os
 .
@@ -80,9 +109,10 @@ out
 +
 dsa_key_params
 +
-"
-2048
-"
+'
+'
++
+key_size
 )
 def
 generate_cert_generic
@@ -108,6 +138,20 @@ subject_string
 =
 "
 "
+                          
+dsa_param_filename
+=
+'
+dsa_param
+.
+pem
+'
+                          
+key_size
+=
+'
+2048
+'
 )
 :
     
@@ -311,6 +355,27 @@ in
 DER
 format
 .
+      
+dsa_param_filename
+-
+-
+the
+filename
+for
+the
+DSA
+param
+file
+      
+key_size
+-
+-
+public
+key
+size
+for
+RSA
+certs
     
 output
 :
@@ -393,8 +458,9 @@ key_name
 pkeyopt
 rsa_keygen_bits
 :
-2048
 "
++
+key_size
 )
     
 elif
@@ -410,12 +476,11 @@ dsa_key_params
 =
 db_dir
 +
-"
+'
 /
-dsa_param
-.
-pem
-"
+'
++
+dsa_param_filename
       
 os
 .
