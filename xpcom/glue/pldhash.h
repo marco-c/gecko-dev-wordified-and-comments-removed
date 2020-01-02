@@ -99,10 +99,10 @@ PL_DHASHMETER
 endif
 #
 undef
-PL_DHASH_SIZE_LIMIT
+PL_DHASH_MAX_SIZE
 #
 define
-PL_DHASH_SIZE_LIMIT
+PL_DHASH_MAX_SIZE
 (
 (
 uint32_t
@@ -110,7 +110,7 @@ uint32_t
 1
 <
 <
-24
+26
 )
 #
 ifndef
