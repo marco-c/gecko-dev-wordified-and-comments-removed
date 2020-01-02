@@ -82,9 +82,6 @@ nsICacheEntry
 class
 nsIAssociatedContentSecurity
 ;
-class
-nsHttpHandler
-;
 namespace
 mozilla
 {
@@ -349,12 +346,6 @@ protected
 :
 friend
 class
-mozilla
-:
-:
-net
-:
-:
 HttpChannelParentListener
 ;
 nsRefPtr

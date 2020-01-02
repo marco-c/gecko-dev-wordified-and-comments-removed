@@ -49,6 +49,12 @@ h
 class
 nsCString
 ;
+namespace
+mozilla
+{
+namespace
+net
+{
 struct
 nsHttpAuthPath
 {
@@ -878,5 +884,7 @@ mObserver
 ;
 }
 ;
+}
+}
 #
 endif

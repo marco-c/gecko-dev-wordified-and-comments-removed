@@ -37,6 +37,12 @@ PRLogModuleInfo
 *
 gHttpLog
 ;
+namespace
+mozilla
+{
+namespace
+net
+{
 class
 nsHttpConnectionInfo
 {
@@ -445,5 +451,7 @@ nsHttpConnectionInfo
 )
 }
 ;
+}
+}
 #
 endif

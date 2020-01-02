@@ -44,10 +44,6 @@ nsCRT
 .
 h
 "
-using
-namespace
-mozilla
-;
 #
 if
 defined
@@ -62,6 +58,12 @@ nullptr
 ;
 #
 endif
+namespace
+mozilla
+{
+namespace
+net
+{
 #
 define
 HTTP_ATOM
@@ -115,10 +117,6 @@ NUM_HTTP_ATOMS
 #
 undef
 HTTP_ATOM
-using
-namespace
-mozilla
-;
 struct
 HttpHeapAtom
 {
@@ -1386,4 +1384,6 @@ nsHttp
 :
 Trace
 ;
+}
+}
 }

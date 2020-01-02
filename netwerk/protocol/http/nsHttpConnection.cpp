@@ -122,17 +122,12 @@ gSocketThread
 ;
 #
 endif
-using
 namespace
 mozilla
-;
-using
+{
 namespace
-mozilla
-:
-:
 net
-;
+{
 nsHttpConnection
 :
 :
@@ -7220,4 +7215,6 @@ result
 return
 NS_ERROR_NO_INTERFACE
 ;
+}
+}
 }

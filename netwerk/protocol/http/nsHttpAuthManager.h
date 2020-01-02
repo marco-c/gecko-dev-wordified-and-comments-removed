@@ -11,6 +11,12 @@ nsIHttpAuthManager
 .
 h
 "
+namespace
+mozilla
+{
+namespace
+net
+{
 class
 nsHttpAuthCache
 ;
@@ -51,5 +57,7 @@ mPrivateAuthCache
 ;
 }
 ;
+}
+}
 #
 endif

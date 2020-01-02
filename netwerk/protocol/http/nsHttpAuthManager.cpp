@@ -33,6 +33,12 @@ nsIPrincipal
 .
 h
 "
+namespace
+mozilla
+{
+namespace
+net
+{
 NS_IMPL_ISUPPORTS1
 (
 nsHttpAuthManager
@@ -630,4 +636,6 @@ rv2
 return
 NS_OK
 ;
+}
+}
 }

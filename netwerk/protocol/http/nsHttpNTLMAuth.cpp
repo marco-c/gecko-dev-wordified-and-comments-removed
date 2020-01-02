@@ -103,6 +103,12 @@ Attributes
 .
 h
 "
+namespace
+mozilla
+{
+namespace
+net
+{
 static
 const
 char
@@ -2011,4 +2017,6 @@ IDENTITY_ENCRYPTED
 return
 NS_OK
 ;
+}
+}
 }

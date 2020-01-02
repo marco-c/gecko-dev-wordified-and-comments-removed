@@ -25,6 +25,12 @@ nsString
 .
 h
 "
+namespace
+mozilla
+{
+namespace
+net
+{
 class
 nsHttpResponseHead
 {
@@ -591,5 +597,7 @@ nsHttpResponseHead
 ;
 }
 ;
+}
+}
 #
 endif

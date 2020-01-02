@@ -17,6 +17,12 @@ include
 <
 algorithm
 >
+namespace
+mozilla
+{
+namespace
+net
+{
 nsresult
 nsHttpChunkedDecoder
 :
@@ -523,4 +529,6 @@ count
 return
 NS_OK
 ;
+}
+}
 }

@@ -26,6 +26,12 @@ nsString
 .
 h
 "
+namespace
+mozilla
+{
+namespace
+net
+{
 nsHttpBasicAuth
 :
 :
@@ -302,4 +308,6 @@ REUSABLE_CHALLENGE
 return
 NS_OK
 ;
+}
+}
 }

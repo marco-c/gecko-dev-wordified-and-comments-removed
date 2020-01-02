@@ -69,6 +69,12 @@ gSocketThread
 ;
 #
 endif
+namespace
+mozilla
+{
+namespace
+net
+{
 class
 nsHttpPushBackWriter
 :
@@ -3428,4 +3434,6 @@ true
 return
 NS_OK
 ;
+}
+}
 }

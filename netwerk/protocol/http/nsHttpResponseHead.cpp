@@ -38,6 +38,12 @@ include
 <
 algorithm
 >
+namespace
+mozilla
+{
+namespace
+net
+{
 nsresult
 nsHttpResponseHead
 :
@@ -3576,4 +3582,6 @@ mPragmaNoCache
 =
 true
 ;
+}
+}
 }

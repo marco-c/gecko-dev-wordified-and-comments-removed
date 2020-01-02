@@ -72,6 +72,12 @@ nsNetUtil
 .
 h
 "
+namespace
+mozilla
+{
+namespace
+net
+{
 static
 inline
 void
@@ -261,9 +267,6 @@ nsIObserverService
 >
 obsSvc
 =
-mozilla
-:
-:
 services
 :
 :
@@ -316,9 +319,6 @@ nsIObserverService
 >
 obsSvc
 =
-mozilla
-:
-:
 services
 :
 :
@@ -2636,5 +2636,7 @@ RemoveElement
 entry
 )
 ;
+}
+}
 }
 }

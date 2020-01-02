@@ -70,8 +70,6 @@ SPDY_VERSION_31
 4
 }
 ;
-}
-}
 typedef
 uint8_t
 nsHttpVersion
@@ -263,9 +261,6 @@ DestroyAtomTable
 )
 ;
 static
-mozilla
-:
-:
 Mutex
 *
 GetLock
@@ -548,5 +543,7 @@ HTTP_HEADER_VALUE_SEPS
 HTTP_LWS
 "
 "
+}
+}
 #
 endif

@@ -38,6 +38,12 @@ nsIInputStream
 class
 nsIOutputStream
 ;
+namespace
+mozilla
+{
+namespace
+net
+{
 class
 nsHttpPipeline
 :
@@ -240,5 +246,7 @@ mSuppressSendEvents
 ;
 }
 ;
+}
+}
 #
 endif

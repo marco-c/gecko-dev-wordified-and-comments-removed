@@ -26,6 +26,12 @@ nsIHttpHeaderVisitor
 .
 h
 "
+namespace
+mozilla
+{
+namespace
+net
+{
 nsresult
 nsHttpHeaderArray
 :
@@ -925,4 +931,6 @@ Clear
 (
 )
 ;
+}
+}
 }

@@ -12,6 +12,12 @@ nsHttpRequestHead
 .
 h
 "
+namespace
+mozilla
+{
+namespace
+net
+{
 void
 nsHttpRequestHead
 :
@@ -132,4 +138,6 @@ buf
 pruneProxyHeaders
 )
 ;
+}
+}
 }

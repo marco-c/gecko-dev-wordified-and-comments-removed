@@ -33,10 +33,12 @@ nsThreadUtils
 .
 h
 "
-using
 namespace
 mozilla
-;
+{
+namespace
+net
+{
 typedef
 nsMainThreadPtrHolder
 <
@@ -431,4 +433,6 @@ NS_ERROR_FAILURE
 return
 NS_OK
 ;
+}
+}
 }

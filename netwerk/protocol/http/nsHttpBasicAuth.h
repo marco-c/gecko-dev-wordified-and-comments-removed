@@ -11,6 +11,12 @@ nsIHttpAuthenticator
 .
 h
 "
+namespace
+mozilla
+{
+namespace
+net
+{
 class
 nsHttpBasicAuth
 :
@@ -33,5 +39,7 @@ nsHttpBasicAuth
 ;
 }
 ;
+}
+}
 #
 endif

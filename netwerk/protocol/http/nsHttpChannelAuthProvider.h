@@ -60,10 +60,16 @@ class
 nsIHttpAuthenticator
 ;
 class
-nsHttpHandler
-;
-class
 nsIURI
+;
+namespace
+mozilla
+{
+namespace
+net
+{
+class
+nsHttpHandler
 ;
 class
 nsHttpChannelAuthProvider
@@ -532,5 +538,7 @@ mHttpHandler
 ;
 }
 ;
+}
+}
 #
 endif

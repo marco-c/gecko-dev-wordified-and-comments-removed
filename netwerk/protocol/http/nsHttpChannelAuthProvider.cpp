@@ -110,6 +110,12 @@ nsIURI
 .
 h
 "
+namespace
+mozilla
+{
+namespace
+net
+{
 static
 void
 GetAppIdAndBrowserStatus
@@ -5633,3 +5639,5 @@ nsICancelable
 nsIHttpChannelAuthProvider
 nsIAuthPromptCallback
 )
+}
+}

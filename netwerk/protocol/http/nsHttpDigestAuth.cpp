@@ -82,6 +82,12 @@ nsICryptoHash
 .
 h
 "
+namespace
+mozilla
+{
+namespace
+net
+{
 nsHttpDigestAuth
 :
 :
@@ -3455,4 +3461,6 @@ quoted
 return
 NS_OK
 ;
+}
+}
 }

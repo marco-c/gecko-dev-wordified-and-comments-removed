@@ -30,13 +30,12 @@ prnetdb
 .
 h
 "
-using
 namespace
 mozilla
-:
-:
+{
+namespace
 net
-;
+{
 nsHttpConnectionInfo
 :
 :
@@ -523,4 +522,6 @@ IsIPAddrLocal
 netAddr
 )
 ;
+}
+}
 }

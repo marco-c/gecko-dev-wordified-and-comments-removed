@@ -10298,9 +10298,6 @@ mLoadFlags
 LOAD_INITIAL_DOCUMENT_URI
 )
 {
-mozilla
-:
-:
 Telemetry
 :
 :
@@ -13132,9 +13129,6 @@ mLoadFlags
 LOAD_INITIAL_DOCUMENT_URI
 )
 {
-mozilla
-:
-:
 Telemetry
 :
 :
@@ -13249,9 +13243,6 @@ LOAD_INITIAL_DOCUMENT_URI
 mApplicationCacheForWrite
 )
 {
-mozilla
-:
-:
 Telemetry
 :
 :

@@ -11,6 +11,12 @@ nsIHttpAuthenticator
 .
 h
 "
+namespace
+mozilla
+{
+namespace
+net
+{
 class
 nsHttpNTLMAuth
 :
@@ -40,5 +46,7 @@ mUseNative
 ;
 }
 ;
+}
+}
 #
 endif

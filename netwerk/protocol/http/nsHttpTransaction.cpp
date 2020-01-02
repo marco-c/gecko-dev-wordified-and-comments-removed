@@ -187,10 +187,6 @@ h
 "
 #
 endif
-using
-namespace
-mozilla
-;
 #
 ifdef
 DEBUG
@@ -216,6 +212,12 @@ MAX_INVALID_RESPONSE_BODY_SIZE
 *
 128
 )
+namespace
+mozilla
+{
+namespace
+net
+{
 #
 if
 defined
@@ -7935,5 +7937,7 @@ mSetup
 =
 true
 ;
+}
+}
 }
 }

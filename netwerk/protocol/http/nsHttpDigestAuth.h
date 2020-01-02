@@ -37,6 +37,12 @@ h
 class
 nsICryptoHash
 ;
+namespace
+mozilla
+{
+namespace
+net
+{
 #
 define
 ALGO_SPECIFIED
@@ -266,5 +272,7 @@ DIGEST_LENGTH
 ;
 }
 ;
+}
+}
 #
 endif
