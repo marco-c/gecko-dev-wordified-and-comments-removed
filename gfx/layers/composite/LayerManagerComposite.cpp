@@ -2807,6 +2807,8 @@ UseIntermediateSurface
 )
 )
 {
+transform
+=
 gfx
 :
 :
@@ -2818,7 +2820,6 @@ aLayer
 GetEffectiveTransform
 (
 )
-transform
 )
 ;
 transform
@@ -2921,7 +2922,7 @@ IsEmpty
 {
 gfx3DMatrix
 transformToScreen
-;
+=
 To3DMatrix
 (
 aLayer
@@ -2930,7 +2931,6 @@ aLayer
 GetEffectiveTransform
 (
 )
-transformToScreen
 )
 ;
 transformToScreen
@@ -3283,7 +3283,7 @@ GetFrameMetrics
 ;
 gfx3DMatrix
 transform
-;
+=
 gfx
 :
 :
@@ -3295,7 +3295,6 @@ primaryScrollable
 GetEffectiveTransform
 (
 )
-transform
 )
 ;
 transform

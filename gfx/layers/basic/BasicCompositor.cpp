@@ -1245,10 +1245,11 @@ SetTransform
 destTransform
 )
 ;
+new3DTransform
+=
 To3DMatrix
 (
 aTransform
-new3DTransform
 )
 ;
 gfxRect

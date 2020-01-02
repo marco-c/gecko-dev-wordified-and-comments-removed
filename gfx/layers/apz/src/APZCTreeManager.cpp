@@ -1166,7 +1166,7 @@ GetParentResolution
 }
 gfx3DMatrix
 transform
-;
+=
 gfx
 :
 :
@@ -1178,7 +1178,6 @@ aLayer
 GetTransform
 (
 )
-transform
 )
 ;
 apzc
@@ -1497,9 +1496,8 @@ gfx3DMatrix
 }
 else
 {
-gfx3DMatrix
-matrix
-;
+aTransform
+=
 gfx
 :
 :
@@ -1511,12 +1509,7 @@ aLayer
 GetTransform
 (
 )
-matrix
 )
-;
-aTransform
-=
-matrix
 *
 aTransform
 ;

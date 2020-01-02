@@ -5633,7 +5633,7 @@ f
 ;
 gfx3DMatrix
 layerTransform
-;
+=
 gfx
 :
 :
@@ -5645,7 +5645,6 @@ aScrollAncestor
 GetTransform
 (
 )
-layerTransform
 )
 ;
 gfx3DMatrix
