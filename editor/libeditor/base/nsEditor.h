@@ -2772,9 +2772,6 @@ uint8_t
 mSpellcheckCheckboxState
 ;
 bool
-mInIMEMode
-;
-bool
 mIsIMEComposing
 ;
 bool

@@ -3236,7 +3236,7 @@ insertText
 ;
 if
 (
-mInIMEMode
+mComposition
 )
 {
 opID
@@ -3732,7 +3732,7 @@ aEvent
 NS_ENSURE_TRUE
 (
 !
-mInIMEMode
+mComposition
 NS_OK
 )
 ;
@@ -3842,10 +3842,6 @@ EnsureComposition
 (
 widgetTextEvent
 )
-;
-mInIMEMode
-=
-true
 ;
 nsCOMPtr
 <
