@@ -1528,7 +1528,7 @@ nsFrameManager
 :
 AppendFrames
 (
-nsIFrame
+nsContainerFrame
 *
 aParentFrame
 ChildListID
@@ -1596,7 +1596,7 @@ nsFrameManager
 :
 InsertFrames
 (
-nsIFrame
+nsContainerFrame
 *
 aParentFrame
 ChildListID
@@ -1827,7 +1827,7 @@ rv
 =
 NS_OK
 ;
-nsIFrame
+nsContainerFrame
 *
 parentFrame
 =

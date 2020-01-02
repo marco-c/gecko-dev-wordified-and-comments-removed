@@ -25,6 +25,9 @@ nsIContent
 .
 h
 "
+class
+nsContainerFrame
+;
 namespace
 mozilla
 {
@@ -332,7 +335,7 @@ nsresult
 )
 AppendFrames
 (
-nsIFrame
+nsContainerFrame
 *
 aParentFrame
 ChildListID
@@ -348,7 +351,7 @@ nsresult
 )
 InsertFrames
 (
-nsIFrame
+nsContainerFrame
 *
 aParentFrame
 ChildListID
