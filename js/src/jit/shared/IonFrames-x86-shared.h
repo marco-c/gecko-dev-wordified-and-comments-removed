@@ -33,8 +33,6 @@ jit
 class
 IonCommonFrameLayout
 {
-private
-:
 uint8_t
 *
 returnAddress_
@@ -186,8 +184,7 @@ IonJSFrameLayout
 public
 IonCommonFrameLayout
 {
-void
-*
+CalleeToken
 calleeToken_
 ;
 uintptr_t
@@ -208,14 +205,13 @@ calleeToken_
 void
 replaceCalleeToken
 (
-void
-*
-value
+CalleeToken
+calleeToken
 )
 {
 calleeToken_
 =
-value
+calleeToken
 ;
 }
 static

@@ -147,6 +147,14 @@ friend
 class
 SnapshotReader
 ;
+static
+const
+int32_t
+InvalidStackSlot
+=
+-
+1
+;
 Register
 :
 :
@@ -183,7 +191,7 @@ loc
 .
 stackSlot_
 =
-INVALID_STACK_SLOT
+InvalidStackSlot
 ;
 return
 loc
@@ -197,6 +205,14 @@ int32_t
 stackSlot
 )
 {
+JS_ASSERT
+(
+stackSlot
+!
+=
+InvalidStackSlot
+)
+;
 Location
 loc
 ;
@@ -275,7 +291,7 @@ return
 stackSlot_
 !
 =
-INVALID_STACK_SLOT
+InvalidStackSlot
 ;
 }
 }

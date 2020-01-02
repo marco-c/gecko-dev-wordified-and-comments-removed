@@ -10097,7 +10097,10 @@ arg
 NumIntArgRegs
 )
 *
-STACK_SLOT_SIZE
+sizeof
+(
+intptr_t
+)
 ;
 }
 #

@@ -131,7 +131,7 @@ VREG_INCREMENT
 static
 const
 uint32_t
-THIS_FRAME_SLOT
+THIS_FRAME_ARGSLOT
 =
 0
 ;
