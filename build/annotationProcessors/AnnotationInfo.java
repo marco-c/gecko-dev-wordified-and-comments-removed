@@ -27,6 +27,11 @@ boolean
 isMultithreaded
 ;
 public
+final
+boolean
+noThrow
+;
+public
 AnnotationInfo
 (
 String
@@ -35,6 +40,8 @@ boolean
 aIsStatic
 boolean
 aIsMultithreaded
+boolean
+aNoThrow
 )
 {
 wrapperName
@@ -48,6 +55,10 @@ aIsStatic
 isMultithreaded
 =
 aIsMultithreaded
+;
+noThrow
+=
+aNoThrow
 ;
 }
 }
