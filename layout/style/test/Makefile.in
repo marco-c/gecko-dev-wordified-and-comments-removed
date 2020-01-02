@@ -645,6 +645,14 @@ test_property_syntax_errors
 .
 html
 \
+test_pseudoelement_state
+.
+html
+\
+test_pseudoelement_parsing
+.
+html
+\
 test_redundant_font_download
 .
 html
