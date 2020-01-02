@@ -178,6 +178,8 @@ aError
 ;
 NotifyDialSuccess
 (
+uint32_t
+aCallIndex
 )
 ;
 /

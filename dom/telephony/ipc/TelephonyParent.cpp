@@ -1768,6 +1768,8 @@ TelephonyRequestParent
 :
 NotifyDialSuccess
 (
+uint32_t
+aCallIndex
 )
 {
 NS_ENSURE_TRUE
@@ -1781,6 +1783,7 @@ return
 (
 SendNotifyDialSuccess
 (
+aCallIndex
 )
 &
 &
