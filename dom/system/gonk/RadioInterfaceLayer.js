@@ -3696,6 +3696,11 @@ initWithCallback
 this
 .
 _executeRequest
+.
+bind
+(
+this
+)
 RADIO_POWER_OFF_TIMEOUT
 Ci
 .
