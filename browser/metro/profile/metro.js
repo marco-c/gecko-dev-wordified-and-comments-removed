@@ -3838,6 +3838,16 @@ disabled
 true
 )
 ;
+pref
+(
+"
+shumway
+.
+ignoreCTP
+"
+true
+)
+;
 #
 endif
 pref
