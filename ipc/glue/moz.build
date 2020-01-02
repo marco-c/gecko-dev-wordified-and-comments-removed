@@ -803,3 +803,6 @@ src
 sandboxbroker
 '
 ]
+FAIL_ON_WARNINGS
+=
+True
