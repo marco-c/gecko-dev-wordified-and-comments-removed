@@ -1569,7 +1569,19 @@ DeviceManager
                             
 default
 =
-False
+bool
+(
+os
+.
+environ
+.
+get
+(
+'
+VERBOSE
+'
+)
+)
 )
         
 parser
