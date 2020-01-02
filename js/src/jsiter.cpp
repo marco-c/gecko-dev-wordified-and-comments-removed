@@ -9229,7 +9229,7 @@ JS_FS_END
 static
 JSObject
 *
-NewObjectWithObjectPrototype
+NewSingletonObjectWithObjectPrototype
 (
 JSContext
 *
@@ -9273,13 +9273,14 @@ JSObject
 class_
 proto
 global
+SingletonObject
 )
 ;
 }
 static
 JSObject
 *
-NewObjectWithFunctionPrototype
+NewSingletonObjectWithFunctionPrototype
 (
 JSContext
 *
@@ -9323,6 +9324,7 @@ JSObject
 class_
 proto
 global
+SingletonObject
 )
 ;
 }
@@ -9700,7 +9702,7 @@ isUndefined
 {
 proto
 =
-NewObjectWithObjectPrototype
+NewSingletonObjectWithObjectPrototype
 (
 cx
 global
@@ -9757,7 +9759,7 @@ RootedObject
 genObjectProto
 (
 cx
-NewObjectWithObjectPrototype
+NewSingletonObjectWithObjectPrototype
 (
 cx
 global
@@ -9790,7 +9792,7 @@ RootedObject
 genFunctionProto
 (
 cx
-NewObjectWithFunctionPrototype
+NewSingletonObjectWithFunctionPrototype
 (
 cx
 global
