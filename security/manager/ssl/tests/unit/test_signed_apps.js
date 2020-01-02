@@ -660,7 +660,7 @@ AppXPCShellRoot
 original_app_path
 (
 "
-valid
+valid_app_1
 "
 )
 check_open_result
@@ -695,7 +695,7 @@ AppXPCShellRoot
 original_app_path
 (
 "
-unsigned
+unsigned_app_1
 "
 )
 check_open_result
@@ -730,7 +730,7 @@ AppXPCShellRoot
 original_app_path
 (
 "
-unknown_issuer
+unknown_issuer_app_1
 "
 )
 check_open_result
@@ -769,7 +769,7 @@ tamper
 original_app_path
 (
 "
-valid
+valid_app_1
 "
 )
 tampered
@@ -791,7 +791,7 @@ AppXPCShellRoot
 original_app_path
 (
 "
-valid
+valid_app_1
 "
 )
 check_open_result
@@ -829,7 +829,7 @@ tamper
 original_app_path
 (
 "
-valid
+valid_app_1
 "
 )
 tampered
@@ -895,7 +895,7 @@ tamper
 original_app_path
 (
 "
-valid
+valid_app_1
 "
 )
 tampered
@@ -961,7 +961,7 @@ tamper
 original_app_path
 (
 "
-valid
+valid_app_1
 "
 )
 tampered
@@ -1027,7 +1027,7 @@ tamper
 original_app_path
 (
 "
-valid
+valid_app_1
 "
 )
 tampered
@@ -1089,7 +1089,7 @@ tamper
 original_app_path
 (
 "
-valid
+valid_app_1
 "
 )
 tampered
@@ -1151,7 +1151,7 @@ tamper
 original_app_path
 (
 "
-valid
+valid_app_1
 "
 )
 tampered
@@ -1226,7 +1226,7 @@ tamper
 original_app_path
 (
 "
-valid
+valid_app_1
 "
 )
 tampered
