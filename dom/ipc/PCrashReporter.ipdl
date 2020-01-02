@@ -113,6 +113,10 @@ include
 protocol
 PPluginModule
 ;
+include
+protocol
+PGMP
+;
 namespace
 mozilla
 {
@@ -147,6 +151,8 @@ manager
 PContent
 or
 PPluginModule
+or
+PGMP
 ;
 parent
 :
