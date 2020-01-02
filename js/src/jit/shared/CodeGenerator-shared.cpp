@@ -3905,6 +3905,10 @@ masm
 passABIArg
 (
 src
+MoveOp
+:
+:
+DOUBLE
 )
 ;
 if
