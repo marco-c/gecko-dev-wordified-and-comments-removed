@@ -961,6 +961,10 @@ RenderLayerBuffer
 TiledLayerBufferComposite
 &
 aLayerBuffer
+const
+gfxRGBA
+*
+aBackgroundColor
 EffectChain
 &
 aEffectChain
@@ -996,6 +1000,10 @@ const
 TileHost
 &
 aTile
+const
+gfxRGBA
+*
+aBackgroundColor
 EffectChain
 &
 aEffectChain
