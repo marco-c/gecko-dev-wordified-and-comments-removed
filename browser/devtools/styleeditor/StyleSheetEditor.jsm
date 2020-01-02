@@ -1478,7 +1478,7 @@ this
 .
 sourceEditor
 .
-markClean
+setClean
 (
 )
 ;
