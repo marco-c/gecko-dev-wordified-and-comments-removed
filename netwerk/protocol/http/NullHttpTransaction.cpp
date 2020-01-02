@@ -39,9 +39,10 @@ mozilla
 namespace
 net
 {
-NS_IMPL_ISUPPORTS0
+NS_IMPL_ISUPPORTS
 (
 NullHttpTransaction
+nsISupportsWeakReference
 )
 NullHttpTransaction
 :

@@ -35,6 +35,9 @@ namespace
 net
 {
 class
+nsHttpConnectionInfo
+;
+class
 ASpdySession
 :
 public
@@ -42,6 +45,16 @@ nsAHttpTransaction
 {
 public
 :
+ASpdySession
+(
+)
+;
+virtual
+~
+ASpdySession
+(
+)
+;
 virtual
 bool
 AddStream
@@ -49,6 +62,9 @@ AddStream
 nsAHttpTransaction
 *
 int32_t
+bool
+nsIInterfaceRequestor
+*
 )
 =
 0

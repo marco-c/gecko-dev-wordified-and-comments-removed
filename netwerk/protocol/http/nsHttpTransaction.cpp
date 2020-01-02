@@ -527,6 +527,10 @@ mResponseTimeoutEnabled
 (
 true
 )
+mDontRouteViaWildCard
+(
+false
+)
 mReportedStart
 (
 false
@@ -4103,6 +4107,11 @@ n
 "
 this
 )
+)
+;
+SetDontRouteViaWildCard
+(
+false
 )
 ;
 nsCOMPtr

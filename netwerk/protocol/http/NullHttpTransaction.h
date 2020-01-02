@@ -37,7 +37,6 @@ nsHttpRequestHead
 ;
 class
 NullHttpTransaction
-MOZ_FINAL
 :
 public
 nsAHttpTransaction
@@ -58,6 +57,7 @@ uint32_t
 caps
 )
 ;
+virtual
 ~
 NullHttpTransaction
 (

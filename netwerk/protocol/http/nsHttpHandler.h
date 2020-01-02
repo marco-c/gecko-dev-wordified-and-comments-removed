@@ -564,6 +564,15 @@ return
 mBypassCacheLockThreshold
 ;
 }
+uint32_t
+MaxConnectionsPerOrigin
+(
+)
+{
+return
+mMaxPersistentConnectionsPerServer
+;
+}
 bool
 UseRequestTokenBucket
 (

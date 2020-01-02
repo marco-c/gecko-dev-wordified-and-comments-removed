@@ -452,6 +452,11 @@ SpdyZlibReporter
 .
 cpp
 '
+'
+TunnelUtils
+.
+cpp
+'
 ]
 #
 These

@@ -561,3 +561,16 @@ Firefox
 Spdy
 "
 )
+HTTP_ATOM
+(
+X_Firefox_Spdy_Proxy
+"
+X
+-
+Firefox
+-
+Spdy
+-
+Proxy
+"
+)

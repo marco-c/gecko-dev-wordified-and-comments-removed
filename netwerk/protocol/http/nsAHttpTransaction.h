@@ -18,6 +18,13 @@ nsTArray
 .
 h
 "
+#
+include
+"
+nsWeakReference
+.
+h
+"
 class
 nsIInterfaceRequestor
 ;
@@ -61,7 +68,7 @@ class
 nsAHttpTransaction
 :
 public
-nsISupports
+nsSupportsWeakReference
 {
 public
 :
@@ -346,6 +353,19 @@ CLASS_GENERAL
 CLASS_MAX
 }
 ;
+virtual
+nsresult
+GetTransactionSecurityInfo
+(
+nsISupports
+*
+*
+)
+{
+return
+NS_ERROR_NOT_IMPLEMENTED
+;
+}
 }
 ;
 #
@@ -420,6 +440,7 @@ Available
 )
 ;
 \
+virtual
 nsresult
 ReadSegments
 (
@@ -431,6 +452,7 @@ uint32_t
 )
 ;
 \
+virtual
 nsresult
 WriteSegments
 (
@@ -463,6 +485,7 @@ SetProxyConnectFailed
 )
 ;
 \
+virtual
 nsHttpRequestHead
 *
 RequestHead
