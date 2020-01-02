@@ -535,6 +535,13 @@ Flush
 (
 )
 {
+mTaskQueue
+-
+>
+Flush
+(
+)
+;
 nsresult
 rv
 =
