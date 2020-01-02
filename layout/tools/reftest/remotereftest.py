@@ -3408,7 +3408,6 @@ devPixelsPerPx
 .
 0
 "
-;
         
 prefs
 [
