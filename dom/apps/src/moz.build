@@ -182,6 +182,11 @@ FreeSpaceWatcher
 jsm
 '
 '
+InterAppCommService
+.
+jsm
+'
+'
 OfflineCacheInstaller
 .
 jsm
