@@ -62,6 +62,10 @@ AutoCheckCannotGC
 noGC
 )
 :
+wantNames
+(
+true
+)
 cx
 (
 cx
@@ -122,6 +126,9 @@ node
 ;
 }
 bool
+wantNames
+;
+bool
 traverse
 (
 )
@@ -175,6 +182,7 @@ origin
 edges
 (
 cx
+wantNames
 )
 )
 ;

@@ -3378,6 +3378,12 @@ init
 return
 false
 ;
+traversal
+.
+wantNames
+=
+false
+;
 for
 (
 GlobalObjectSet

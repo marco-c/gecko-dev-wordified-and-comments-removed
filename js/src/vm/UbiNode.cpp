@@ -206,6 +206,7 @@ edges
 (
 JSContext
 *
+bool
 )
 const
 {
@@ -907,6 +908,9 @@ SimpleEdgeVector
 *
 vec
 ;
+bool
+wantNames
+;
 static
 void
 staticCallback
@@ -957,6 +961,17 @@ okay
 )
 return
 ;
+jschar
+*
+jsname
+=
+nullptr
+;
+if
+(
+wantNames
+)
+{
 char
 buffer
 [
@@ -977,8 +992,6 @@ buffer
 )
 )
 ;
-jschar
-*
 jsname
 =
 js_pod_malloc
@@ -1045,6 +1058,7 @@ i
 0
 '
 ;
+}
 if
 (
 !
@@ -1093,6 +1107,8 @@ cx
 SimpleEdgeVector
 *
 vec
+bool
+wantNames
 )
 :
 JSTracer
@@ -1106,6 +1122,10 @@ staticCallback
 vec
 (
 vec
+)
+wantNames
+(
+wantNames
 )
 okay
 (
@@ -1182,6 +1202,10 @@ void
 thing
 JSGCTraceKind
 kind
+bool
+wantNames
+=
+true
 )
 {
 SimpleEdgeVectorTracer
@@ -1190,6 +1214,7 @@ tracer
 cx
 &
 edges
+wantNames
 )
 ;
 JS_TraceChildren
@@ -1245,6 +1270,8 @@ edges
 JSContext
 *
 cx
+bool
+wantNames
 )
 const
 {
@@ -1299,6 +1326,7 @@ Referent
 :
 :
 kind
+wantNames
 )
 )
 return
