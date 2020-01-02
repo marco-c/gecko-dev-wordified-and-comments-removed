@@ -720,7 +720,6 @@ renderedBuffer
 >
 SetRawChannelContents
 (
-cx
 i
 mInputChannels
 [

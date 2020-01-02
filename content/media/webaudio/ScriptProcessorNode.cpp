@@ -1766,7 +1766,6 @@ inputBuffer
 >
 SetRawChannelContents
 (
-cx
 i
 mInputChannels
 [
