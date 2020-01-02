@@ -146,6 +146,15 @@ aData
 aError
 )
 {
+debug
+(
+"
+sendPromiseMessage
+"
++
+aMessageName
+)
+;
 let
 msg
 =
