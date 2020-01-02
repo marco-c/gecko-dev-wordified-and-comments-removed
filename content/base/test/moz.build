@@ -206,3 +206,13 @@ chrome
 ini
 '
 ]
+BROWSER_CHROME_MANIFESTS
++
+=
+[
+'
+browser
+.
+ini
+'
+]
