@@ -1261,7 +1261,7 @@ isUndefined
 (
 )
 ?
-NULL
+nullptr
 :
 reinterpret_cast
 <
@@ -1792,11 +1792,11 @@ NullFramePtr
 )
 cur_
 (
-NULL
+nullptr
 )
 block_
 (
-NULL
+nullptr
 )
 type_
 (
@@ -2616,7 +2616,7 @@ StaticBlockObject
 (
 )
 :
-NULL
+nullptr
 ;
 }
 #

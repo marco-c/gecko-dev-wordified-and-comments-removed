@@ -138,10 +138,10 @@ JS_EnumerateStub
 JS_ResolveStub
 JS_ConvertStub
 resc_finalize
-NULL
-NULL
-NULL
-NULL
+nullptr
+nullptr
+nullptr
+nullptr
 resc_trace
 }
 ;
@@ -172,7 +172,7 @@ RegExpStaticsObject
 :
 :
 class_
-NULL
+nullptr
 parent
 )
 ;
@@ -182,7 +182,7 @@ if
 obj
 )
 return
-NULL
+nullptr
 ;
 RegExpStatics
 *
@@ -204,7 +204,7 @@ if
 res
 )
 return
-NULL
+nullptr
 ;
 obj
 -
@@ -413,7 +413,7 @@ false
 ;
 lazySource
 =
-NULL
+nullptr
 ;
 lazyIndex
 =

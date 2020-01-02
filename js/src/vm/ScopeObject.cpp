@@ -911,7 +911,7 @@ StaticScopeIter
 FUNCTION
 )
 return
-NULL
+nullptr
 ;
 return
 ssi
@@ -1091,7 +1091,7 @@ if
 obj
 )
 return
-NULL
+nullptr
 ;
 if
 (
@@ -1121,7 +1121,7 @@ nobj
 )
 )
 return
-NULL
+nullptr
 ;
 return
 &
@@ -1207,7 +1207,7 @@ getNewType
 (
 &
 class_
-NULL
+nullptr
 )
 )
 ;
@@ -1217,7 +1217,7 @@ if
 type
 )
 return
-NULL
+nullptr
 ;
 gc
 :
@@ -1280,7 +1280,7 @@ if
 obj
 )
 return
-NULL
+nullptr
 ;
 return
 &
@@ -1354,7 +1354,7 @@ if
 callobj
 )
 return
-NULL
+nullptr
 ;
 callobj
 -
@@ -1415,7 +1415,7 @@ ncallobj
 )
 )
 return
-NULL
+nullptr
 ;
 return
 ncallobj
@@ -1481,7 +1481,7 @@ if
 scopeChain
 )
 return
-NULL
+nullptr
 ;
 }
 RootedScript
@@ -1574,7 +1574,7 @@ if
 callobj
 )
 return
-NULL
+nullptr
 ;
 for
 (
@@ -1762,7 +1762,7 @@ JS_PropertyStub
 JS_StrictPropertyStub
 JS_EnumerateStub
 JS_ResolveStub
-NULL
+nullptr
 }
 ;
 const
@@ -1833,7 +1833,7 @@ getNewType
 (
 &
 class_
-NULL
+nullptr
 )
 )
 ;
@@ -1843,7 +1843,7 @@ if
 type
 )
 return
-NULL
+nullptr
 ;
 RootedShape
 emptyDeclEnvShape
@@ -1861,14 +1861,14 @@ getInitialShape
 cx
 &
 class_
-NULL
+nullptr
 cx
 -
 >
 global
 (
 )
-NULL
+nullptr
 FINALIZE_KIND
 BaseShape
 :
@@ -1882,7 +1882,7 @@ if
 emptyDeclEnvShape
 )
 return
-NULL
+nullptr
 ;
 RootedObject
 obj
@@ -1907,7 +1907,7 @@ if
 obj
 )
 return
-NULL
+nullptr
 ;
 Rooted
 <
@@ -1977,7 +1977,7 @@ attrs
 )
 {
 return
-NULL
+nullptr
 ;
 }
 JS_ASSERT
@@ -2041,7 +2041,7 @@ if
 obj
 )
 return
-NULL
+nullptr
 ;
 obj
 -
@@ -2129,7 +2129,7 @@ if
 type
 )
 return
-NULL
+nullptr
 ;
 RootedShape
 shape
@@ -2154,7 +2154,7 @@ enclosing
 global
 (
 )
-NULL
+nullptr
 FINALIZE_KIND
 )
 )
@@ -2165,7 +2165,7 @@ if
 shape
 )
 return
-NULL
+nullptr
 ;
 RootedObject
 obj
@@ -2193,7 +2193,7 @@ if
 obj
 )
 return
-NULL
+nullptr
 ;
 obj
 -
@@ -2241,7 +2241,7 @@ if
 thisp
 )
 return
-NULL
+nullptr
 ;
 obj
 -
@@ -3191,26 +3191,26 @@ JS_StrictPropertyStub
 JS_EnumerateStub
 JS_ResolveStub
 JS_ConvertStub
-NULL
-NULL
-NULL
-NULL
-NULL
-NULL
+nullptr
+nullptr
+nullptr
+nullptr
+nullptr
+nullptr
 JS_NULL_CLASS_EXT
 {
 with_LookupGeneric
 with_LookupProperty
 with_LookupElement
 with_LookupSpecial
-NULL
-NULL
-NULL
-NULL
+nullptr
+nullptr
+nullptr
+nullptr
 with_GetGeneric
 with_GetProperty
 with_GetElement
-NULL
+nullptr
 with_GetSpecial
 with_SetGeneric
 with_SetProperty
@@ -3297,7 +3297,7 @@ if
 type
 )
 return
-NULL
+nullptr
 ;
 RootedShape
 shape
@@ -3337,7 +3337,7 @@ if
 obj
 )
 return
-NULL
+nullptr
 ;
 if
 (
@@ -3372,7 +3372,7 @@ getParent
 )
 =
 =
-NULL
+nullptr
 )
 ;
 Rooted
@@ -3410,7 +3410,7 @@ global
 )
 )
 return
-NULL
+nullptr
 ;
 }
 JS_ASSERT
@@ -3686,7 +3686,7 @@ BlockObject
 :
 :
 class_
-NULL
+nullptr
 )
 )
 ;
@@ -3696,7 +3696,7 @@ if
 type
 )
 return
-NULL
+nullptr
 ;
 RootedShape
 emptyBlockShape
@@ -3717,9 +3717,9 @@ BlockObject
 :
 :
 class_
-NULL
-NULL
-NULL
+nullptr
+nullptr
+nullptr
 FINALIZE_KIND
 BaseShape
 :
@@ -3733,7 +3733,7 @@ if
 emptyBlockShape
 )
 return
-NULL
+nullptr
 ;
 JSObject
 *
@@ -3760,7 +3760,7 @@ if
 obj
 )
 return
-NULL
+nullptr
 ;
 return
 &
@@ -3862,7 +3862,7 @@ redeclared
 true
 ;
 return
-NULL
+nullptr
 ;
 }
 uint32_t
@@ -3888,8 +3888,8 @@ addPropertyInternal
 cx
 block
 id
-NULL
-NULL
+nullptr
+nullptr
 slot
 JSPROP_ENUMERATE
 |
@@ -4595,7 +4595,7 @@ if
 clone
 )
 return
-NULL
+nullptr
 ;
 clone
 -
@@ -4640,7 +4640,7 @@ slotCount
 )
 )
 return
-NULL
+nullptr
 ;
 for
 (
@@ -4776,7 +4776,7 @@ redeclared
 )
 ;
 return
-NULL
+nullptr
 ;
 }
 clone
@@ -4823,7 +4823,7 @@ atom
 (
 )
 :
-NULL
+nullptr
 ;
 }
 ScopeIter
@@ -4914,7 +4914,7 @@ enclosingScope
 block_
 (
 cx
-NULL
+nullptr
 )
 type_
 (
@@ -5170,7 +5170,7 @@ else
 {
 block_
 =
-NULL
+nullptr
 ;
 }
 settle
@@ -6874,7 +6874,7 @@ maybeArgsObj
 *
 maybeArgsObj
 =
-NULL
+nullptr
 ;
 if
 (
@@ -6943,7 +6943,7 @@ JS_ReportErrorNumber
 (
 cx
 js_GetErrorMessage
-NULL
+nullptr
 JSMSG_DEBUG_NOT_LIVE
 "
 Debugger
@@ -7030,7 +7030,7 @@ JS_ReportErrorNumber
 (
 cx
 js_GetErrorMessage
-NULL
+nullptr
 JSMSG_CANT_CHANGE_EXTENSIBILITY
 )
 ;
@@ -7201,14 +7201,14 @@ desc
 .
 setGetter
 (
-NULL
+nullptr
 )
 ;
 desc
 .
 setSetter
 (
-NULL
+nullptr
 )
 ;
 return
@@ -7279,14 +7279,14 @@ desc
 .
 setGetter
 (
-NULL
+nullptr
 )
 ;
 desc
 .
 setSetter
 (
-NULL
+nullptr
 )
 ;
 return
@@ -8113,8 +8113,8 @@ idval
 NullPtr
 (
 )
-NULL
-NULL
+nullptr
+nullptr
 )
 ;
 }
@@ -8192,7 +8192,7 @@ DebugScopeProxy
 :
 singleton
 priv
-NULL
+nullptr
 &
 scope
 .
@@ -8208,7 +8208,7 @@ if
 obj
 )
 return
-NULL
+nullptr
 ;
 JS_ASSERT
 (
@@ -8370,7 +8370,7 @@ maybeSnapshot
 )
 =
 =
-NULL
+nullptr
 )
 ;
 setExtra
@@ -8886,7 +8886,7 @@ cx
 )
 ;
 return
-NULL
+nullptr
 ;
 }
 DebugScopeObject
@@ -8923,7 +8923,7 @@ if
 scopes
 )
 return
-NULL
+nullptr
 ;
 if
 (
@@ -8970,7 +8970,7 @@ DebugScopeObject
 ;
 }
 return
-NULL
+nullptr
 ;
 }
 bool
@@ -9160,7 +9160,7 @@ if
 scopes
 )
 return
-NULL
+nullptr
 ;
 if
 (
@@ -9197,7 +9197,7 @@ value
 ;
 }
 return
-NULL
+nullptr
 ;
 }
 bool
@@ -9447,7 +9447,7 @@ DebugScopeObject
 debugScope
 (
 cx
-NULL
+nullptr
 )
 ;
 if
@@ -10789,7 +10789,7 @@ if
 enclosingDebug
 )
 return
-NULL
+nullptr
 ;
 JSObject
 &
@@ -10859,7 +10859,7 @@ if
 enclosingDebug
 )
 return
-NULL
+nullptr
 ;
 }
 DebugScopeObject
@@ -10883,7 +10883,7 @@ if
 debugScope
 )
 return
-NULL
+nullptr
 ;
 if
 (
@@ -10901,7 +10901,7 @@ debugScope
 )
 )
 return
-NULL
+nullptr
 ;
 return
 debugScope
@@ -10965,13 +10965,13 @@ if
 enclosingDebug
 )
 return
-NULL
+nullptr
 ;
 DebugScopeObject
 *
 debugScope
 =
-NULL
+nullptr
 ;
 switch
 (
@@ -11017,7 +11017,7 @@ if
 callobj
 )
 return
-NULL
+nullptr
 ;
 if
 (
@@ -11085,7 +11085,7 @@ if
 enclosingDebug
 )
 return
-NULL
+nullptr
 ;
 }
 debugScope
@@ -11151,7 +11151,7 @@ if
 block
 )
 return
-NULL
+nullptr
 ;
 debugScope
 =
@@ -11199,7 +11199,7 @@ if
 debugScope
 )
 return
-NULL
+nullptr
 ;
 if
 (
@@ -11216,7 +11216,7 @@ debugScope
 )
 )
 return
-NULL
+nullptr
 ;
 return
 debugScope
@@ -11382,7 +11382,7 @@ JS_CHECK_RECURSION
 (
 cx
 return
-NULL
+nullptr
 )
 ;
 if
@@ -11501,7 +11501,7 @@ cx
 )
 )
 return
-NULL
+nullptr
 ;
 return
 GetDebugScope
@@ -11555,7 +11555,7 @@ cx
 )
 )
 return
-NULL
+nullptr
 ;
 ScopeIter
 si
@@ -11688,7 +11688,7 @@ default
 :
 name
 =
-NULL
+nullptr
 ;
 break
 ;

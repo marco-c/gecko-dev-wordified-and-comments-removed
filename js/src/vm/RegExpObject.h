@@ -161,7 +161,7 @@ RegExpObject
 *
 reobj
 =
-NULL
+nullptr
 )
 ;
 RegExpObject
@@ -730,7 +730,7 @@ return
 bytecode
 !
 =
-NULL
+nullptr
 ;
 }
 bool
@@ -796,7 +796,7 @@ cx
 :
 re_
 (
-NULL
+nullptr
 )
 source_
 (
@@ -902,11 +902,11 @@ decRef
 ;
 re_
 =
-NULL
+nullptr
 ;
 source_
 =
-NULL
+nullptr
 ;
 }
 }
@@ -1645,7 +1645,7 @@ maybeShared
 )
 !
 =
-NULL
+nullptr
 )
 ;
 g

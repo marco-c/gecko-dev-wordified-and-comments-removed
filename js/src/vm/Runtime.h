@@ -441,7 +441,7 @@ GSNCache
 :
 code
 (
-NULL
+nullptr
 )
 {
 }
@@ -568,7 +568,7 @@ updateForRequestEnd
 {
 nativeStackTop
 =
-NULL
+nullptr
 ;
 }
 #
@@ -618,7 +618,7 @@ SourceDataCache
 :
 map_
 (
-NULL
+nullptr
 )
 {
 }
@@ -859,7 +859,7 @@ pscript
 *
 pscript
 =
-NULL
+nullptr
 ;
 }
 static
@@ -943,7 +943,7 @@ NativeIterCache
 :
 last
 (
-NULL
+nullptr
 )
 {
 mozilla
@@ -962,7 +962,7 @@ purge
 {
 last
 =
-NULL
+nullptr
 ;
 mozilla
 :
@@ -2239,7 +2239,7 @@ client
 >
 onOutOfMemory
 (
-NULL
+nullptr
 bytes
 )
 ;
@@ -2554,7 +2554,7 @@ reportAllocationOverflow
 )
 ;
 return
-NULL
+nullptr
 ;
 }
 return
@@ -2588,12 +2588,12 @@ JSCompartment
 *
 comp
 =
-NULL
+nullptr
 JSContext
 *
 cx
 =
-NULL
+nullptr
 )
 {
 if
@@ -2639,7 +2639,7 @@ reportAllocationOverflow
 )
 ;
 return
-NULL
+nullptr
 ;
 }
 return
@@ -2872,7 +2872,7 @@ rt
 >
 operationCallbackOwner
 =
-NULL
+nullptr
 ;
 PR_Unlock
 (
@@ -4199,11 +4199,11 @@ ExtraTracer
 :
 op
 (
-NULL
+nullptr
 )
 data
 (
-NULL
+nullptr
 )
 {
 }
@@ -5071,7 +5071,7 @@ reportAllocationOverflow
 {
 js_ReportAllocationOverflow
 (
-NULL
+nullptr
 )
 ;
 }
@@ -5579,7 +5579,7 @@ JSRuntime
 *
 rt
 =
-NULL
+nullptr
 MOZ_GUARD_OBJECT_NOTIFIER_PARAM
 )
 :

@@ -371,7 +371,7 @@ getClass
 ;
 JAVASCRIPT_OBJECT_FINALIZE
 (
-NULL
+nullptr
 (
 char
 *
