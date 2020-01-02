@@ -926,10 +926,8 @@ PYCOMMANDPATH
 +
 =
 (
-topsrcdir
+PYTHON_SITE_PACKAGES
 )
-/
-config
 endif
 PYTHON_PATH
 =
