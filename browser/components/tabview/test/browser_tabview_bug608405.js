@@ -288,7 +288,12 @@ children
 '
 )
 ;
-tabItem
+targetGroup
+.
+getChild
+(
+0
+)
 .
 close
 (

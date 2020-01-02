@@ -1135,6 +1135,17 @@ restore_hidden_tabs
 "
 )
 ;
+gBrowser
+.
+selectedTab
+=
+gBrowser
+.
+tabs
+[
+0
+]
+;
 ss
 .
 setBrowserState
