@@ -5468,27 +5468,6 @@ parentDesc
 jsImplParentHeader
 )
         
-if
-len
-(
-jsImplementedDescriptors
-)
-!
-=
-0
-:
-            
-bindingHeaders
-.
-add
-(
-"
-nsIDOMGlobalPropertyInitializer
-.
-h
-"
-)
-        
 def
 _includeString
 (
