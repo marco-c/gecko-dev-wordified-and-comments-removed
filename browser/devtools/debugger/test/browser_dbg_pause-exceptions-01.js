@@ -28,6 +28,11 @@ test
 (
 )
 {
+requestLongerTimeout
+(
+2
+)
+;
 initDebugger
 (
 TAB_URL
