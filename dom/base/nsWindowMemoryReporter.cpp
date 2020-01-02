@@ -113,15 +113,6 @@ nsServiceManagerUtils
 .
 h
 "
-#
-include
-"
-mozilla
-/
-IntegerPrintfMacros
-.
-h
-"
 using
 namespace
 mozilla
@@ -797,9 +788,7 @@ AppendPrintf
 anonymized
 -
 %
-"
-PRIu64
-"
+d
 >
 "
 aWindow

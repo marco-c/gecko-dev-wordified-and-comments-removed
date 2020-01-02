@@ -110,15 +110,6 @@ nsTextFrame
 .
 h
 "
-#
-include
-"
-mozilla
-/
-IntegerPrintfMacros
-.
-h
-"
 namespace
 mozilla
 {
@@ -341,9 +332,8 @@ AppendPrintf
 |
 0x
 %
-0
+0llx
 "
-PRIx64
 state
 )
 ;

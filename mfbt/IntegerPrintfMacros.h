@@ -169,8 +169,4 @@ uintptr_t
 #
 endif
 #
-define
-PRIuSIZE
-PRIuPTR
-#
 endif

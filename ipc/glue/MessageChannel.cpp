@@ -7347,9 +7347,7 @@ stack
 guess
 :
 %
-"
-PRIuSIZE
-"
+lu
 \
 n
 "
@@ -7364,9 +7362,7 @@ stack
 size
 :
 %
-"
-PRIuSIZE
-"
+lu
 \
 n
 "
@@ -7391,9 +7387,7 @@ stack
 size
 :
 %
-"
-PRIuSIZE
-"
+lu
 \
 n
 "
@@ -7412,9 +7406,7 @@ queue
 size
 :
 %
-"
-PRIuSIZE
-"
+lu
 front
 to
 back
