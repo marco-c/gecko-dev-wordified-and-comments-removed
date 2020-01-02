@@ -3665,7 +3665,7 @@ window
 =
 target
 .
-currentDoc
+ownerDocument
 .
 defaultView
 ;
