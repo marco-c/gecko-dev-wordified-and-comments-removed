@@ -1270,6 +1270,11 @@ MutationObserver
 webidl
 '
 '
+NativeOSFileInternals
+.
+webidl
+'
+'
 NetDashboard
 .
 webidl
@@ -2196,6 +2201,11 @@ webidl
 '
 '
 VTTRegion
+.
+webidl
+'
+'
+VTTRegionList
 .
 webidl
 '

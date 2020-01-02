@@ -2055,7 +2055,6 @@ md
 ;
 }
 ;
-static
 nsresult
 OpenFile
 (
