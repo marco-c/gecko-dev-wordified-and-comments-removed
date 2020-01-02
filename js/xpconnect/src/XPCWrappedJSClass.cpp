@@ -467,9 +467,6 @@ info
 ;
 if
 (
-clazz
-&
-&
 !
 clazz
 -
