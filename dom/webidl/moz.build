@@ -655,11 +655,6 @@ HTMLFontElement
 webidl
 '
 '
-HTMLFormControlsCollection
-.
-webidl
-'
-'
 HTMLFormElement
 .
 webidl
@@ -2648,6 +2643,11 @@ webidl
 '
 '
 RTCPeerConnectionIceEvent
+.
+webidl
+'
+'
+TrackEvent
 .
 webidl
 '
