@@ -14755,7 +14755,7 @@ you
 "
 postedMessage
 .
-fullBody
+body
 )
 ;
 }
