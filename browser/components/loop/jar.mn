@@ -623,8 +623,6 @@ browser
 /
 loop
 /
-shared
-/
 libs
 /
 sdk
@@ -632,8 +630,6 @@ sdk
 js
 (
 content
-/
-shared
 /
 libs
 /
@@ -666,8 +662,6 @@ min
 css
 (
 content
-/
-shared
 /
 libs
 /
@@ -714,8 +708,6 @@ min
 js
 (
 content
-/
-shared
 /
 libs
 /
@@ -766,8 +758,6 @@ chrome
 png
 (
 content
-/
-shared
 /
 libs
 /
@@ -825,8 +815,6 @@ png
 (
 content
 /
-shared
-/
 libs
 /
 otcdn
@@ -883,8 +871,6 @@ png
 (
 content
 /
-shared
-/
 libs
 /
 otcdn
@@ -939,8 +925,6 @@ png
 (
 content
 /
-shared
-/
 libs
 /
 otcdn
@@ -995,8 +979,6 @@ png
 (
 content
 /
-shared
-/
 libs
 /
 otcdn
@@ -1049,8 +1031,6 @@ png
 (
 content
 /
-shared
-/
 libs
 /
 otcdn
@@ -1101,8 +1081,6 @@ png
 (
 content
 /
-shared
-/
 libs
 /
 otcdn
@@ -1151,8 +1129,6 @@ png
 (
 content
 /
-shared
-/
 libs
 /
 otcdn
@@ -1199,8 +1175,6 @@ gif
 (
 content
 /
-shared
-/
 libs
 /
 otcdn
@@ -1249,8 +1223,6 @@ png
 (
 content
 /
-shared
-/
 libs
 /
 otcdn
@@ -1300,8 +1272,6 @@ on
 png
 (
 content
-/
-shared
 /
 libs
 /
@@ -1353,8 +1323,6 @@ png
 (
 content
 /
-shared
-/
 libs
 /
 otcdn
@@ -1404,8 +1372,6 @@ on
 png
 (
 content
-/
-shared
 /
 libs
 /
