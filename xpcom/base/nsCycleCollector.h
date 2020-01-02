@@ -124,6 +124,11 @@ nsCycleCollector_prepareForGarbageCollection
 )
 ;
 void
+nsCycleCollector_finishAnyCurrentCollection
+(
+)
+;
+void
 nsCycleCollector_dispatchDeferredDeletion
 (
 bool
@@ -150,6 +155,13 @@ nsCycleCollector_collectSlice
 (
 int64_t
 aSliceTime
+)
+;
+void
+nsCycleCollector_collectSliceWork
+(
+int64_t
+aSliceWork
 )
 ;
 uint32_t
