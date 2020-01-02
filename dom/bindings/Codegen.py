@@ -25709,15 +25709,6 @@ val
 toObject
 (
 )
-mozilla
-:
-:
-dom
-:
-:
-GetIncumbentGlobal
-(
-)
 )
 ;
 \
@@ -27767,15 +27758,6 @@ val
 }
 .
 toObject
-(
-)
-mozilla
-:
-:
-dom
-:
-:
-GetIncumbentGlobal
 (
 )
 )
@@ -80802,13 +80784,6 @@ new
 s
 (
 aJSImplObject
-/
-*
-aIncumbentGlobal
-=
-*
-/
-nullptr
 )
 )
 "
@@ -81872,16 +81847,6 @@ JSObject
 aCallback
 "
 )
-Argument
-(
-"
-nsIGlobalObject
-*
-"
-"
-aIncumbentGlobal
-"
-)
 ]
             
 bodyInHeader
@@ -81907,7 +81872,6 @@ baseConstructors
 s
 (
 aCallback
-aIncumbentGlobal
 )
 "
 %
@@ -82109,7 +82073,9 @@ setupCall
 CallSetup
 s
 (
-this
+CallbackPreserveColor
+(
+)
 aRv
 aExceptionHandling
 )
@@ -84204,7 +84170,9 @@ callSetup
 CallSetup
 s
 (
-this
+CallbackPreserveColor
+(
+)
 aRv
 "
         
