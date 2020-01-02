@@ -5879,6 +5879,16 @@ marginTop
 mToolbarHeight
 /
 2
+|
+|
+metrics
+.
+pageRectBottom
+=
+=
+metrics
+.
+viewportRectBottom
 )
 {
 mDynamicToolbar
