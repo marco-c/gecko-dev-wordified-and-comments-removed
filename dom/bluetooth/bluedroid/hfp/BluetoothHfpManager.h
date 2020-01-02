@@ -549,6 +549,15 @@ GetCallSetupState
 (
 )
 ;
+bool
+IsTransitionState
+(
+uint16_t
+aCallState
+bool
+aIsConference
+)
+;
 bthf_call_state_t
 ConvertToBthfCallState
 (
