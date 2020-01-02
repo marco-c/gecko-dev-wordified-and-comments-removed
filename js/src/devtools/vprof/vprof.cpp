@@ -264,7 +264,7 @@ entry
 *
 entries
 =
-NULL
+nullptr
 ;
 static
 bool
@@ -401,7 +401,7 @@ p
 ;
 p
 =
-NULL
+nullptr
 ;
 for
 (
@@ -1099,7 +1099,7 @@ e
 }
 }
 return
-NULL
+nullptr
 ;
 }
 int
@@ -1154,7 +1154,7 @@ if
 e
 =
 =
-NULL
+nullptr
 )
 {
 e
@@ -1182,7 +1182,7 @@ if
 e
 =
 =
-NULL
+nullptr
 )
 {
 va_list
@@ -1296,14 +1296,14 @@ e
 >
 h
 =
-NULL
+nullptr
 ;
 e
 -
 >
 genptr
 =
-NULL
+nullptr
 ;
 VMPI_memset
 (
@@ -1589,7 +1589,7 @@ if
 e
 =
 =
-NULL
+nullptr
 )
 {
 e
@@ -1617,7 +1617,7 @@ if
 e
 =
 =
-NULL
+nullptr
 )
 {
 va_list
@@ -1709,7 +1709,7 @@ e
 >
 func
 =
-NULL
+nullptr
 ;
 e
 -
@@ -1859,7 +1859,7 @@ e
 >
 genptr
 =
-NULL
+nullptr
 ;
 VMPI_memset
 (

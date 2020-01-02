@@ -87,7 +87,7 @@ fd
 0
 )
 return
-NULL
+nullptr
 ;
 unsigned
 char
@@ -154,7 +154,7 @@ crc
 crc32
 )
 return
-NULL
+nullptr
 ;
 bfd
 *
@@ -163,7 +163,7 @@ object
 bfd_openr
 (
 filename
-NULL
+nullptr
 )
 ;
 if
@@ -182,7 +182,7 @@ object
 )
 ;
 return
-NULL
+nullptr
 ;
 }
 return
@@ -222,7 +222,7 @@ if
 sect
 )
 return
-NULL
+nullptr
 ;
 bfd_size_type
 debuglinkSize
@@ -626,7 +626,7 @@ usefulSymbols
 ;
 if
 (
-NULL
+nullptr
 =
 =
 externalSymbols
@@ -756,12 +756,12 @@ lib
 bfd_openr
 (
 aFileName
-NULL
+nullptr
 )
 ;
 if
 (
-NULL
+nullptr
 =
 =
 lib
@@ -1001,7 +1001,7 @@ char
 *
 dnm
 =
-NULL
+nullptr
 ;
 if
 (

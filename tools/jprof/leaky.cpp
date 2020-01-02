@@ -350,7 +350,7 @@ l
 >
 outputfd
 =
-NULL
+nullptr
 ;
 }
 }
@@ -544,11 +544,11 @@ leaky
 {
 applicationName
 =
-NULL
+nullptr
 ;
 progFile
 =
-NULL
+nullptr
 ;
 quiet
 =
@@ -612,7 +612,7 @@ highestSymbolAddr
 ;
 loadMap
 =
-NULL
+nullptr
 ;
 collect_last
 =
@@ -972,7 +972,7 @@ longopts
 threads
 "
 0
-NULL
+nullptr
 '
 t
 '
@@ -984,7 +984,7 @@ only
 thread
 "
 1
-NULL
+nullptr
 '
 T
 '
@@ -994,7 +994,7 @@ T
 last
 "
 0
-NULL
+nullptr
 '
 l
 '
@@ -1004,7 +1004,7 @@ l
 start
 "
 1
-NULL
+nullptr
 '
 x
 '
@@ -1014,7 +1014,7 @@ x
 end
 "
 1
-NULL
+nullptr
 '
 n
 '
@@ -1024,7 +1024,7 @@ n
 cleo
 "
 0
-NULL
+nullptr
 '
 c
 '
@@ -1036,15 +1036,15 @@ output
 dir
 "
 1
-NULL
+nullptr
 '
 d
 '
 }
 {
-NULL
+nullptr
 0
-NULL
+nullptr
 0
 }
 }
@@ -1120,7 +1120,7 @@ onlyThread
 ;
 output_dir
 =
-NULL
+nullptr
 ;
 cleo
 =
@@ -2619,7 +2619,7 @@ loadMap
 ;
 while
 (
-NULL
+nullptr
 !
 =
 lme
@@ -2913,7 +2913,7 @@ idx
 )
 {
 return
-NULL
+nullptr
 ;
 }
 else

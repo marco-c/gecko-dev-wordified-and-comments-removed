@@ -160,7 +160,7 @@ ldptr
 ldopen
 (
 fileName
-NULL
+nullptr
 )
 ;
 if
