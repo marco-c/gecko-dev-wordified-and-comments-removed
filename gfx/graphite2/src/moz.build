@@ -105,16 +105,11 @@ CONFIG
 OS_TARGET
 '
 ]
-=
+!
 =
 '
 WINNT
 '
-:
-FORCE_STATIC_LIB
-=
-True
-else
 :
 LIBXUL_LIBRARY
 =

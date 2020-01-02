@@ -188,9 +188,6 @@ res_state
 c
 '
 ]
-FORCE_STATIC_LIB
-=
-True
 FINAL_LIBRARY
 =
 '

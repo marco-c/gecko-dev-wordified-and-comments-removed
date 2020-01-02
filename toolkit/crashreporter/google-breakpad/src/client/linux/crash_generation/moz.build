@@ -118,13 +118,6 @@ LIBRARY_NAME
 '
 crash_generation_s
 '
-#
-need
-static
-lib
-FORCE_STATIC_LIB
-=
-True
 FINAL_LIBRARY
 =
 '

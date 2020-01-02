@@ -422,9 +422,6 @@ LIBRARY_NAME
 '
 protobuf_s
 '
-FORCE_STATIC_LIB
-=
-True
 FINAL_LIBRARY
 =
 '

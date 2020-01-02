@@ -143,9 +143,6 @@ LIBRARY_NAME
 '
 browser_feeds_s
 '
-FORCE_STATIC_LIB
-=
-True
 FINAL_LIBRARY
 =
 '

@@ -168,9 +168,6 @@ tremor_window
 c
 '
 ]
-FORCE_STATIC_LIB
-=
-True
 FINAL_LIBRARY
 =
 '

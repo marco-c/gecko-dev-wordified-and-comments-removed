@@ -178,13 +178,6 @@ LIBRARY_NAME
 '
 breakpad_sps_common_s
 '
-#
-need
-static
-lib
-FORCE_STATIC_LIB
-=
-True
 FINAL_LIBRARY
 =
 '

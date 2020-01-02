@@ -481,13 +481,6 @@ breakpad_common_s
 MSVC_ENABLE_PGO
 =
 True
-#
-need
-static
-lib
-FORCE_STATIC_LIB
-=
-True
 FINAL_LIBRARY
 =
 '
