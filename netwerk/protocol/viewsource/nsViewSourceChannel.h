@@ -173,6 +173,9 @@ const
 nsAString
 &
 aSrcdoc
+nsIURI
+*
+aBaseURI
 )
 ;
 protected
