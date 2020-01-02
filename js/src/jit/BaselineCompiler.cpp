@@ -9815,7 +9815,7 @@ masm
 .
 mov
 (
-Imm32
+ImmWord
 (
 argc
 )

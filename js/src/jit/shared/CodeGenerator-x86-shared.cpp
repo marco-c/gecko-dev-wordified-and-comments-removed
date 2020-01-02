@@ -4387,7 +4387,7 @@ masm
 .
 mov
 (
-Imm32
+ImmWord
 (
 1
 )

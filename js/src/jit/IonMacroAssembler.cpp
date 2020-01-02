@@ -9282,7 +9282,7 @@ isNull
 ;
 mov
 (
-Imm32
+ImmWord
 (
 0
 )

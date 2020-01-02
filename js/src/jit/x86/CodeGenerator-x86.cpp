@@ -584,9 +584,9 @@ isConstant
 ;
 masm
 .
-movl
+mov
 (
-Imm32
+ImmWord
 (
 MIRTypeToTag
 (

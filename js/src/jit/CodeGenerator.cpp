@@ -16136,7 +16136,7 @@ masm
 .
 mov
 (
-Imm32
+ImmWord
 (
 lir
 -
@@ -27371,7 +27371,7 @@ masm
 .
 mov
 (
-Imm32
+ImmWord
 (
 index
 )
@@ -43007,7 +43007,7 @@ masm
 .
 mov
 (
-Imm32
+ImmWord
 (
 0
 )
@@ -43136,7 +43136,7 @@ masm
 .
 mov
 (
-Imm32
+ImmWord
 (
 1
 )
