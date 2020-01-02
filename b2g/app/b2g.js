@@ -6529,13 +6529,15 @@ server
 uri
 "
 "
-http
+https
 :
 /
 /
 msisdn
-.
+-
 dev
+.
+stage
 .
 mozaws
 .

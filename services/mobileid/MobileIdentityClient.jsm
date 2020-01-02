@@ -181,7 +181,7 @@ SERVER_URL
 let
 forceHttps
 =
-false
+true
 ;
 try
 {
