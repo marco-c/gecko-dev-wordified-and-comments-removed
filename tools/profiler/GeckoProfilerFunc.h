@@ -270,6 +270,16 @@ mozilla_sampler_unregister_thread
 (
 )
 ;
+void
+mozilla_sampler_sleep_start
+(
+)
+;
+void
+mozilla_sampler_sleep_end
+(
+)
+;
 double
 mozilla_sampler_time
 (

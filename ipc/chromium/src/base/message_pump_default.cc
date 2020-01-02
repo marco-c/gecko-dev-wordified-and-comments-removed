@@ -259,12 +259,17 @@ Wait
 "
 )
 ;
+{
+GeckoProfilerSleepRAII
+profiler_sleep
+;
 event_
 .
 Wait
 (
 )
 ;
+}
 }
 else
 {
@@ -305,6 +310,10 @@ Wait
 "
 )
 ;
+{
+GeckoProfilerSleepRAII
+profiler_sleep
+;
 event_
 .
 TimedWait
@@ -312,6 +321,7 @@ TimedWait
 delay
 )
 ;
+}
 }
 else
 {

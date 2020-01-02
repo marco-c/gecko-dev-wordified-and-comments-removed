@@ -527,6 +527,11 @@ return
 mStackTop
 ;
 }
+void
+DuplicateLastSample
+(
+)
+;
 private
 :
 ProfileEntry
