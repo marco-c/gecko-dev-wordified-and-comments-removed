@@ -937,6 +937,9 @@ views
 ;
 }
 let
+handlePanelsGet
+;
+let
 HomePanels
 =
 (
@@ -984,8 +987,7 @@ views
 ;
 }
 ;
-let
-_handleGet
+handlePanelsGet
 =
 function
 (
@@ -1810,9 +1812,7 @@ HomePanels
 Get
 "
 :
-HomePanels
-.
-_handleGet
+handlePanelsGet
 (
 JSON
 .
