@@ -229,6 +229,14 @@ addListener
 this
 )
 ;
+window
+.
+PanelUI
+.
+ensureRegistered
+(
+)
+;
 let
 tabViewDeck
 =
