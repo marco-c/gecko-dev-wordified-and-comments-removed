@@ -597,6 +597,11 @@ extra
 )
 const
 ;
+template
+<
+bool
+EnableStopSimAt
+>
 void
 execute
 (
@@ -1160,6 +1165,10 @@ start
 size_t
 size
 )
+;
+static
+int
+StopSimAt
 ;
 static
 void
