@@ -12090,7 +12090,7 @@ JSContext
 cx
 HandleValue
 vobj
-CreateObjectOptions
+CreateObjectInOptions
 &
 options
 MutableHandleValue
@@ -12277,7 +12277,7 @@ Value
 rval
 )
 {
-CreateObjectOptions
+CreateObjectInOptions
 options
 ;
 RootedValue
