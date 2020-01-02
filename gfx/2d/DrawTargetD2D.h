@@ -991,6 +991,17 @@ IntRect
 aClipBounds
 )
 ;
+bool
+GetDeviceSpaceClipRect
+(
+D2D1_RECT_F
+&
+aClipRect
+bool
+&
+aIsPixelAligned
+)
+;
 TemporaryRef
 <
 ID2D1Brush
