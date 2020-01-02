@@ -70,6 +70,12 @@ install
 .
 rdf
 \
+(
+NULL
+)
+DIST_FILES_NO_PP
+=
+\
 chrome
 .
 manifest
