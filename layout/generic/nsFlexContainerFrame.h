@@ -77,6 +77,9 @@ aContext
 ;
 public
 :
+class
+StrutInfo
+;
 virtual
 void
 BuildDisplayList
@@ -208,6 +211,12 @@ nscoord
 aContentBoxMainSize
 nscoord
 aAvailableHeightForContent
+nsTArray
+<
+StrutInfo
+>
+&
+aStruts
 const
 FlexboxAxisTracker
 &
