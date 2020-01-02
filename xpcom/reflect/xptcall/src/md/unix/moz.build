@@ -447,7 +447,7 @@ elif
 CONFIG
 [
 '
-OS_TEST
+CPU_ARCH
 '
 ]
 =
@@ -724,16 +724,14 @@ if
 CONFIG
 [
 '
-OS_TEST
+CPU_ARCH
 '
 ]
-.
-startswith
-(
+=
+=
 '
 arm
 '
-)
 or
 CONFIG
 [
@@ -807,7 +805,7 @@ if
 CONFIG
 [
 '
-OS_TEST
+CPU_ARCH
 '
 ]
 =
