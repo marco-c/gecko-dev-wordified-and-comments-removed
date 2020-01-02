@@ -1409,3 +1409,15 @@ shown
 true
 )
 ;
+user_pref
+(
+"
+browser
+.
+firstrun
+.
+count
+"
+0
+)
+;
