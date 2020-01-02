@@ -63,16 +63,6 @@ NullHttpTransaction
 (
 )
 ;
-nsHttpConnectionInfo
-*
-ConnectionInfo
-(
-)
-{
-return
-mConnectionInfo
-;
-}
 bool
 IsNullTransaction
 (
