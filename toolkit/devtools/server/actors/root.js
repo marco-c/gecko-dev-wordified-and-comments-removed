@@ -253,6 +253,12 @@ true
 networkMonitor
 :
 true
+storageInspector
+:
+true
+storageInspectorReadOnly
+:
+true
 }
 }
 ;
