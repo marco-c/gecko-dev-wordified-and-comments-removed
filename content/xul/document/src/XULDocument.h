@@ -116,6 +116,13 @@ h
 #
 include
 "
+nsIXULStore
+.
+h
+"
+#
+include
+"
 mozilla
 /
 Attributes
@@ -1048,9 +1055,10 @@ ApplyPersistentAttributesInternal
 nsresult
 ApplyPersistentAttributesToElements
 (
-nsIRDFResource
-*
-aResource
+const
+nsAString
+&
+aID
 nsCOMArray
 <
 nsIContent
@@ -1203,7 +1211,7 @@ mRefMap
 ;
 nsCOMPtr
 <
-nsIRDFDataSource
+nsIXULStore
 >
 mLocalStore
 ;
