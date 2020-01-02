@@ -297,10 +297,10 @@ entry
 kind
 )
 ;
-Probes
+probes
 :
 :
-createObject
+CreateObject
 (
 cx
 obj
