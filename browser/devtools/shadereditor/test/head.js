@@ -1565,6 +1565,12 @@ navigate
 "
 )
 ;
+executeSoon
+(
+(
+)
+=
+>
 aTarget
 .
 client
@@ -1573,6 +1579,7 @@ activeTab
 .
 reload
 (
+)
 )
 ;
 return
