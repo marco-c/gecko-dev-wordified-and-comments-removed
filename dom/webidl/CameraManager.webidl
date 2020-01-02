@@ -226,6 +226,16 @@ CameraConfiguration
 configuration
 )
 ;
+[
+Func
+=
+"
+nsDOMCameraManager
+:
+:
+HasSupport
+"
+]
 interface
 CameraManager
 {

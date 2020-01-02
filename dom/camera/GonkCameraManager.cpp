@@ -1,5 +1,12 @@
 #
 include
+"
+ICameraControl
+.
+h
+"
+#
+include
 <
 camera
 /
@@ -18,13 +25,6 @@ h
 include
 "
 GonkCameraControl
-.
-h
-"
-#
-include
-"
-ICameraControl
 .
 h
 "
