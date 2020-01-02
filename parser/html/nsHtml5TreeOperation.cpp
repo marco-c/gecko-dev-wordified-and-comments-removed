@@ -277,13 +277,9 @@ nsTextNode
 .
 h
 "
+using
 namespace
-dom
-=
 mozilla
-:
-:
-dom
 ;
 static
 NS_DEFINE_CID

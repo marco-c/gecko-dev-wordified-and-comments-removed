@@ -98,7 +98,7 @@ MODULE
 '
 htmlparser
 '
-SOURCES
+UNIFIED_SOURCES
 +
 =
 [
