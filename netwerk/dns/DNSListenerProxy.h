@@ -50,6 +50,8 @@ MOZ_FINAL
 :
 public
 nsIDNSListener
+public
+nsIDNSListenerProxy
 {
 public
 :
@@ -83,6 +85,7 @@ aTargetThread
 }
 NS_DECL_THREADSAFE_ISUPPORTS
 NS_DECL_NSIDNSLISTENER
+NS_DECL_NSIDNSLISTENERPROXY
 class
 OnLookupCompleteRunnable
 :
