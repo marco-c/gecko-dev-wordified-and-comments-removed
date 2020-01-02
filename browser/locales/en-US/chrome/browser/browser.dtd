@@ -235,6 +235,17 @@ brandFullName
 >
 <
 !
+ENTITY
+navbarOverflow
+.
+label
+"
+More
+tools
+"
+>
+<
+!
 -
 -
 Tab
