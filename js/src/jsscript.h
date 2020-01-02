@@ -1975,7 +1975,7 @@ const
 JS
 :
 :
-CompileOptions
+ReadOnlyCompileOptions
 &
 options
 unsigned

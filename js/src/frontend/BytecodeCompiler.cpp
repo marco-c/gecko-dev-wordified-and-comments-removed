@@ -720,7 +720,7 @@ ExclusiveContext
 *
 cx
 const
-CompileOptions
+ReadOnlyCompileOptions
 &
 options
 )
@@ -771,7 +771,7 @@ JSContext
 *
 cx
 const
-CompileOptions
+ReadOnlyCompileOptions
 &
 options
 const
@@ -859,7 +859,7 @@ scopeChain
 HandleScript
 evalCaller
 const
-CompileOptions
+ReadOnlyCompileOptions
 &
 options
 const
@@ -2589,7 +2589,9 @@ JSContext
 cx
 MutableHandleFunction
 fun
-CompileOptions
+const
+ReadOnlyCompileOptions
+&
 options
 const
 AutoNameVector
@@ -3327,7 +3329,9 @@ JSContext
 cx
 MutableHandleFunction
 fun
-CompileOptions
+const
+ReadOnlyCompileOptions
+&
 options
 const
 AutoNameVector
@@ -3365,7 +3369,9 @@ JSContext
 cx
 MutableHandleFunction
 fun
-CompileOptions
+const
+ReadOnlyCompileOptions
+&
 options
 const
 AutoNameVector

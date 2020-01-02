@@ -1077,7 +1077,7 @@ ExclusiveContext
 *
 cx
 const
-CompileOptions
+ReadOnlyCompileOptions
 &
 options
 const
@@ -2324,7 +2324,7 @@ cx
 ;
 }
 const
-CompileOptions
+ReadOnlyCompileOptions
 &
 options
 (
@@ -2925,7 +2925,7 @@ updateFlagsForEOL
 )
 ;
 const
-CompileOptions
+ReadOnlyCompileOptions
 &
 options_
 ;

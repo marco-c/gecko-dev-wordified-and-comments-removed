@@ -47,7 +47,7 @@ namespace
 JS
 {
 class
-CompileOptions
+ReadOnlyCompileOptions
 ;
 }
 namespace
@@ -323,7 +323,7 @@ const
 JS
 :
 :
-CompileOptions
+ReadOnlyCompileOptions
 &
 options
 )
@@ -465,7 +465,7 @@ const
 JS
 :
 :
-CompileOptions
+ReadOnlyCompileOptions
 &
 options
 )

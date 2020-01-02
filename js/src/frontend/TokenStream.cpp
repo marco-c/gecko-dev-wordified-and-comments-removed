@@ -1183,7 +1183,7 @@ ExclusiveContext
 *
 cx
 const
-CompileOptions
+ReadOnlyCompileOptions
 &
 options
 const

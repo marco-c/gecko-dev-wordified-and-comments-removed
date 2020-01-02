@@ -2129,7 +2129,7 @@ LifoAlloc
 *
 alloc
 const
-CompileOptions
+ReadOnlyCompileOptions
 &
 options
 const
