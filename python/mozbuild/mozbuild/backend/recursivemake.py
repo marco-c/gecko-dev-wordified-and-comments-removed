@@ -8426,7 +8426,7 @@ backend_file
 :
         
 def
-recurse_lib
+recursive_get_shared_libs
 (
 lib
 )
@@ -8451,7 +8451,7 @@ StaticLibrary
 for
 q
 in
-recurse_lib
+recursive_get_shared_libs
 (
 l
 )
@@ -8757,7 +8757,7 @@ backend_file
 write_once
 (
 '
-SHARED_LIBRARY_LIBS
+STATIC_LIBS
 +
 =
 %
@@ -8768,31 +8768,39 @@ s
 \
 n
 '
-                                       
+                                        
 %
 (
 relpath
 lib
 .
-lib_name
+import_name
 )
 )
                     
+if
+isinstance
+(
+obj
+SharedLibrary
+)
+:
+                        
 for
 l
 in
-recurse_lib
+recursive_get_shared_libs
 (
 lib
 )
 :
-                        
+                            
 backend_file
 .
 write_once
 (
 '
-EXTRA_DSO_LDOPTS
+SHARED_LIBS
 +
 =
 %
@@ -8839,7 +8847,7 @@ backend_file
 write_once
 (
 '
-EXTRA_DSO_LDOPTS
+SHARED_LIBS
 +
 =
 %
@@ -8850,7 +8858,7 @@ s
 \
 n
 '
-                                       
+                                        
 %
 (
 relpath
@@ -8884,7 +8892,7 @@ backend_file
 write_once
 (
 '
-LIBS
+STATIC_LIBS
 +
 =
 %
@@ -8895,20 +8903,20 @@ s
 \
 n
 '
-                                       
+                                        
 %
 (
 relpath
 lib
 .
-lib_name
+import_name
 )
 )
                     
 for
 l
 in
-recurse_lib
+recursive_get_shared_libs
 (
 lib
 )
@@ -8919,7 +8927,7 @@ backend_file
 write_once
 (
 '
-EXTRA_LIBS
+SHARED_LIBS
 +
 =
 %
@@ -8961,7 +8969,7 @@ backend_file
 write_once
 (
 '
-EXTRA_LIBS
+SHARED_LIBS
 +
 =
 %
@@ -8972,7 +8980,7 @@ s
 \
 n
 '
-                                       
+                                        
 %
 (
 relpath
@@ -9023,7 +9031,7 @@ n
 relpath
 lib
 .
-lib_name
+import_name
 )
 )
     
