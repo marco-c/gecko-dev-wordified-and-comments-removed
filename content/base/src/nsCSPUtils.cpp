@@ -1413,14 +1413,14 @@ wildCardHost
 Substring
 (
 wildCardHost
-2
+1
 wildCardHost
 .
 Length
 (
 )
 -
-2
+1
 )
 ;
 if
