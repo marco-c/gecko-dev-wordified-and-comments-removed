@@ -4169,6 +4169,7 @@ warning
 .
 png
 )
+*
 skin
 /
 classic
@@ -4181,6 +4182,11 @@ ruleview
 .
 css
 (
+.
+.
+/
+shared
+/
 devtools
 /
 ruleview
@@ -12774,6 +12780,7 @@ warning
 .
 png
 )
+*
 skin
 /
 classic
@@ -12788,6 +12795,11 @@ ruleview
 .
 css
 (
+.
+.
+/
+shared
+/
 devtools
 /
 ruleview

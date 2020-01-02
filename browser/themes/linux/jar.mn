@@ -3813,6 +3813,7 @@ warning
 .
 png
 )
+*
 skin
 /
 classic
@@ -3825,6 +3826,11 @@ ruleview
 .
 css
 (
+.
+.
+/
+shared
+/
 devtools
 /
 ruleview
