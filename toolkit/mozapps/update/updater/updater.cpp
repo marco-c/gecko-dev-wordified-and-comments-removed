@@ -109,6 +109,11 @@ h
 >
 #
 include
+<
+algorithm
+>
+#
+include
 "
 updatelogging
 .
@@ -12100,7 +12105,7 @@ return
 1
 ;
 }
-char16_t
+wchar_t
 *
 cmdLine
 =
@@ -13311,6 +13316,9 @@ argv
 callbackIndex
 ]
 +
+std
+:
+:
 max
 (
 callbackPrefixLength
