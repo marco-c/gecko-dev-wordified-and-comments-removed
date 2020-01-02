@@ -6765,6 +6765,10 @@ GetBBoxContribution
 matrix
 aFlags
 )
+.
+ToThebesRect
+(
+)
 ;
 }
 return
@@ -9980,6 +9984,10 @@ nsSVGUtils
 :
 :
 eBBoxIncludeMarkers
+)
+.
+ToThebesRect
+(
 )
 ;
 return

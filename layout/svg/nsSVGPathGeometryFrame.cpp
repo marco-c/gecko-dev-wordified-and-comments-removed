@@ -1428,6 +1428,10 @@ GetBBoxContribution
 scaling
 flags
 )
+.
+ToThebesRect
+(
+)
 ;
 if
 (
