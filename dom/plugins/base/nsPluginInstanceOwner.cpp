@@ -7011,9 +7011,6 @@ GetJNIEnv
 ;
 if
 (
-env
-&
-&
 sFullScreenInstance
 &
 &
