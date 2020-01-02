@@ -129,11 +129,9 @@ fallible_t
 )
 )
 {
-NS_RUNTIMEABORT
+NS_ABORT_OOM
 (
-"
-OOM
-"
+mSize
 )
 ;
 }
@@ -170,11 +168,9 @@ fallible_t
 )
 )
 {
-NS_RUNTIMEABORT
+NS_ABORT_OOM
 (
-"
-OOM
-"
+mSize
 )
 ;
 }
