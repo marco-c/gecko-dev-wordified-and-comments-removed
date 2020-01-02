@@ -1932,7 +1932,7 @@ nsIDocument
 nsINode
 :
 :
-GetCrossShadowCurrentDocInternal
+GetComposedDocInternal
 (
 )
 const

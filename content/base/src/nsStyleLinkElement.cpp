@@ -1461,9 +1461,8 @@ if
 thisContent
 -
 >
-HasFlag
+IsInShadowTree
 (
-NODE_IS_IN_SHADOW_TREE
 )
 )
 {
@@ -1926,9 +1925,8 @@ if
 thisContent
 -
 >
-HasFlag
+IsInShadowTree
 (
-NODE_IS_IN_SHADOW_TREE
 )
 )
 {

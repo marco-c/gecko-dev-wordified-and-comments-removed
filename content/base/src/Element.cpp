@@ -3474,9 +3474,8 @@ ID
 ;
 if
 (
-HasFlag
+IsInShadowTree
 (
-NODE_IS_IN_SHADOW_TREE
 )
 )
 {
@@ -3570,9 +3569,8 @@ DoGetID
 ;
 if
 (
-HasFlag
+IsInShadowTree
 (
-NODE_IS_IN_SHADOW_TREE
 )
 )
 {
@@ -5717,9 +5715,8 @@ if
 aParent
 -
 >
-HasFlag
+IsInShadowTree
 (
-NODE_IS_IN_SHADOW_TREE
 )
 )
 {
@@ -5870,9 +5867,8 @@ else
 if
 (
 !
-HasFlag
+IsInShadowTree
 (
-NODE_IS_IN_SHADOW_TREE
 )
 )
 {

@@ -541,9 +541,8 @@ IsInNativeAnonymousSubtree
 |
 (
 !
-HasFlag
+IsInShadowTree
 (
-NODE_IS_IN_SHADOW_TREE
 )
 &
 &
@@ -1479,9 +1478,8 @@ IsInDoc
 )
 |
 |
-HasFlag
+IsInShadowTree
 (
-NODE_IS_IN_SHADOW_TREE
 )
 )
 ?
@@ -1505,9 +1503,8 @@ IsInDoc
 )
 |
 |
-HasFlag
+IsInShadowTree
 (
-NODE_IS_IN_SHADOW_TREE
 )
 "
 This
