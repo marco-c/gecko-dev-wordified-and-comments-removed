@@ -2593,8 +2593,6 @@ LoadRemoteScript
 (
 nsString
 aURL
-bool
-aRunInGlobalScope
 )
 ;
 /
