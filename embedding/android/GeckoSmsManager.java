@@ -1364,6 +1364,14 @@ kFdnCheckError
 =
 8
 ;
+public
+final
+static
+int
+kNonActiveSimCardError
+=
+9
+;
 private
 final
 static
