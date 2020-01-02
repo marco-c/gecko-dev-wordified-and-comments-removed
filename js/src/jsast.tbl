@@ -679,6 +679,16 @@ Property
 propertyPattern
 "
 )
+ASTDEF
+(
+AST_TEMPLATE_LITERAL
+"
+TemplateLiteral
+"
+"
+templateLiteral
+"
+)
 /
 *
 AST_LIMIT
