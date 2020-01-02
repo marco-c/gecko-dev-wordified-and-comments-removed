@@ -250,7 +250,6 @@ SetRequestContext
 (
 selfURI
 nullptr
-nullptr
 dummyChannel
 )
 ;

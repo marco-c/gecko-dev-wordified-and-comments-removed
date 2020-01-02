@@ -2111,7 +2111,6 @@ SetRequestContext
 (
 codebase
 nullptr
-this
 nullptr
 )
 ;
