@@ -3391,14 +3391,6 @@ CallInfo
 callInfo
 )
 ;
-InliningStatus
-inlineSetTypedObjectOffset
-(
-CallInfo
-&
-callInfo
-)
-;
 bool
 elementAccessIsTypedObjectArrayOfScalarType
 (
