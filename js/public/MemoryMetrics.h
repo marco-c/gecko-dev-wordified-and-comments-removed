@@ -667,14 +667,7 @@ macro
 (
 _
 _
-nurseryCommitted
-)
-\
-macro
-(
-_
-_
-nurseryDecommitted
+nursery
 )
 \
 macro
