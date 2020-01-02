@@ -2068,7 +2068,7 @@ MOZ_ASSERT
 aType
 =
 =
-BGRARectLayerProgramType
+RGBARectLayerProgramType
 "
 unexpected
 program
@@ -2077,7 +2077,7 @@ type
 )
 ;
 return
-mBGRARectProgram
+mRGBARectProgram
 ;
 }
 virtual
@@ -2152,7 +2152,7 @@ layers
 :
 ShaderProgramOGL
 >
-mBGRARectProgram
+mRGBARectProgram
 ;
 GLuint
 mQuadVBO
@@ -15028,7 +15028,7 @@ MakeCurrent
 (
 )
 ;
-mBGRARectProgram
+mRGBARectProgram
 =
 new
 ShaderProgramOGL
@@ -15039,7 +15039,7 @@ ProgramProfileOGL
 :
 GetProfileFor
 (
-BGRARectLayerProgramType
+RGBARectLayerProgramType
 MaskNone
 )
 )
@@ -15481,7 +15481,7 @@ _33
 .
 0f
 ;
-mBGRARectProgram
+mRGBARectProgram
 -
 >
 CheckAndSetProjectionMatrix

@@ -2749,6 +2749,7 @@ i
 )
 undoCloseTab
 (
+0
 )
 ;
 }
