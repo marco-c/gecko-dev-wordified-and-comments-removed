@@ -198,7 +198,6 @@ aProfileSvc
 CreateProfile
 (
 nullptr
-nullptr
 newProfileName
 getter_AddRefs
 (
