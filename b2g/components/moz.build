@@ -194,6 +194,11 @@ EXTRA_COMPONENTS
 =
 [
 '
+OopCommandLine
+.
+js
+'
+'
 SimulatorScreen
 .
 js
