@@ -92,14 +92,6 @@ BrowserNewTabPreloader
 .
 jsm
 \
-CustomizableUI
-.
-jsm
-\
-CustomizeMode
-.
-jsm
-\
 openLocationLastURL
 .
 jsm

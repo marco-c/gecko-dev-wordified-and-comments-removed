@@ -254,6 +254,8 @@ browser
 /
 content
 /
+customizableui
+/
 panelUI
 .
 js

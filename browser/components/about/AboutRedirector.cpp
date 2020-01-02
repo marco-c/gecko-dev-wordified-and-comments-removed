@@ -535,7 +535,9 @@ browser
 /
 content
 /
-customizing
+customizableui
+/
+aboutCustomizing
 .
 xhtml
 "

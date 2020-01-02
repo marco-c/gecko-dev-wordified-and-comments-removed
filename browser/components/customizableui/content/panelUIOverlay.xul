@@ -140,6 +140,8 @@ browser
 /
 skin
 /
+customizableui
+/
 panelUIOverlay
 .
 css
@@ -205,6 +207,8 @@ chrome
 browser
 /
 content
+/
+customizableui
 /
 panelUIOverlay
 .
