@@ -35,7 +35,8 @@ cx
 TempAllocator
 &
 alloc
-HandleScript
+JSScript
+*
 script
 )
 :

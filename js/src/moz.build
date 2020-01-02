@@ -1705,6 +1705,13 @@ cpp
 '
 jit
 /
+BaselineDebugModeOSR
+.
+cpp
+'
+'
+jit
+/
 BaselineFrame
 .
 cpp

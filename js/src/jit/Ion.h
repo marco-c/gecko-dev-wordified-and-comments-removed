@@ -204,7 +204,8 @@ CanIonCompileScript
 JSContext
 *
 cx
-HandleScript
+JSScript
+*
 script
 bool
 osr

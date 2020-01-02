@@ -55,7 +55,8 @@ JSContext
 *
 cx
 ;
-RootedScript
+JSScript
+*
 script
 ;
 jsbytecode
@@ -217,7 +218,8 @@ cx
 TempAllocator
 &
 alloc
-HandleScript
+JSScript
+*
 script
 )
 ;
@@ -228,8 +230,11 @@ allocateICEntry
 ICStub
 *
 stub
-bool
-isForOp
+ICEntry
+:
+:
+Kind
+kind
 )
 {
 if
@@ -256,7 +261,7 @@ pcToOffset
 (
 pc
 )
-isForOp
+kind
 )
 )
 )

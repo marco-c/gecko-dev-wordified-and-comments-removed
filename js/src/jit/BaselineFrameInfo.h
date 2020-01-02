@@ -494,7 +494,8 @@ DontAdjustStack
 class
 FrameInfo
 {
-RootedScript
+JSScript
+*
 script
 ;
 MacroAssembler
@@ -514,10 +515,8 @@ public
 :
 FrameInfo
 (
-JSContext
+JSScript
 *
-cx
-HandleScript
 script
 MacroAssembler
 &
@@ -526,7 +525,6 @@ masm
 :
 script
 (
-cx
 script
 )
 masm
