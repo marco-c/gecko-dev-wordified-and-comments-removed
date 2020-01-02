@@ -1726,7 +1726,7 @@ paramType
 aResult
 )
 {
-size_t
+uint32_t
 numTouches
 ;
 if

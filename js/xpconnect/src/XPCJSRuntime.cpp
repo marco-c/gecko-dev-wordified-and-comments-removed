@@ -405,9 +405,6 @@ eval
 "
 controllers
 "
-"
-realFrameElement
-"
 }
 ;
 static

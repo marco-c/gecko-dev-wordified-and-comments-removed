@@ -2439,16 +2439,6 @@ MozControllers
 controllers
 ;
 [
-ChromeOnly
-Throws
-]
-readonly
-attribute
-Element
-?
-realFrameElement
-;
-[
 Throws
 ]
 readonly
