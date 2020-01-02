@@ -435,7 +435,7 @@ false
 ;
 }
 const
-DOMClass
+DOMJSClass
 *
 domClass
 =

@@ -885,7 +885,7 @@ toPrivate
 }
 inline
 const
-DOMClass
+DOMJSClass
 *
 GetDOMClass
 (
@@ -919,7 +919,6 @@ clasp
 )
 {
 return
-&
 DOMJSClass
 :
 :
@@ -927,9 +926,6 @@ FromJSClass
 (
 clasp
 )
--
->
-mClass
 ;
 }
 return
@@ -947,7 +943,7 @@ aObject
 )
 {
 const
-DOMClass
+DOMJSClass
 *
 clasp
 =
@@ -1081,7 +1077,7 @@ protoDepth
 )
 {
 const
-DOMClass
+DOMJSClass
 *
 domClass
 =
@@ -3856,7 +3852,7 @@ false
 ifdef
 DEBUG
 const
-DOMClass
+DOMJSClass
 *
 clasp
 =
