@@ -20,6 +20,9 @@ mozilla
 namespace
 ipc
 {
+class
+RawDBusConnection
+;
 bool
 StartDBus
 (
@@ -36,6 +39,13 @@ DispatchToDBusThread
 nsIRunnable
 *
 event
+)
+;
+RawDBusConnection
+*
+GetDBusConnection
+(
+void
 )
 ;
 }
