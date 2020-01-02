@@ -217,9 +217,6 @@ value
 =
 data
 ;
-throw
-data
-;
 }
 ;
 return
@@ -435,6 +432,7 @@ throw
 error
 )
 ;
+else
 cb
 (
 ret
