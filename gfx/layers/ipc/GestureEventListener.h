@@ -62,6 +62,7 @@ AsyncPanZoomController
 ;
 class
 GestureEventListener
+MOZ_FINAL
 {
 public
 :
@@ -76,11 +77,6 @@ AsyncPanZoomController
 aAsyncPanZoomController
 )
 ;
-~
-GestureEventListener
-(
-)
-;
 nsEventStatus
 HandleInputEvent
 (
@@ -90,8 +86,13 @@ MultiTouchInput
 aEvent
 )
 ;
-protected
+private
 :
+~
+GestureEventListener
+(
+)
+;
 enum
 GestureState
 {

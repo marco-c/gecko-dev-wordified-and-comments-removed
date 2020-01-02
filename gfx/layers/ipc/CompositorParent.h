@@ -222,6 +222,7 @@ mLayersId
 ;
 class
 CompositorParent
+MOZ_FINAL
 :
 public
 PCompositorParent
@@ -253,12 +254,6 @@ aSurfaceHeight
 =
 -
 1
-)
-;
-virtual
-~
-CompositorParent
-(
 )
 ;
 virtual
@@ -679,8 +674,14 @@ IsInCompositorThread
 (
 )
 ;
-protected
+private
 :
+virtual
+~
+CompositorParent
+(
+)
+;
 virtual
 PLayerTransactionParent
 *
@@ -761,8 +762,6 @@ int
 height
 )
 ;
-private
-:
 void
 InitializeLayerManager
 (

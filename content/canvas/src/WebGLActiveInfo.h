@@ -121,8 +121,14 @@ NS_INLINE_DECL_REFCOUNTING
 (
 WebGLActiveInfo
 )
-protected
+private
 :
+~
+WebGLActiveInfo
+(
+)
+{
+}
 GLint
 mSize
 ;

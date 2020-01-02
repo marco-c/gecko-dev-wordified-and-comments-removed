@@ -82,6 +82,7 @@ cairo_pattern_t
 ;
 class
 gfxPattern
+MOZ_FINAL
 {
 NS_INLINE_DECL_REFCOUNTING
 (
@@ -160,12 +161,6 @@ gfx
 Matrix
 &
 aTransform
-)
-;
-virtual
-~
-gfxPattern
-(
 )
 ;
 cairo_pattern_t
@@ -381,8 +376,13 @@ return
 mSourceSurface
 ;
 }
-protected
+private
 :
+~
+gfxPattern
+(
+)
+;
 cairo_pattern_t
 *
 mPattern

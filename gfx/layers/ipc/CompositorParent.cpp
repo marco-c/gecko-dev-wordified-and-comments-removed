@@ -4367,6 +4367,7 @@ return
 }
 class
 CrossProcessCompositorParent
+MOZ_FINAL
 :
 public
 PCompositorParent
@@ -4396,12 +4397,6 @@ aTransport
 )
 {
 }
-virtual
-~
-CrossProcessCompositorParent
-(
-)
-;
 virtual
 IToplevelProtocol
 *
@@ -4682,6 +4677,12 @@ MOZ_OVERRIDE
 ;
 private
 :
+virtual
+~
+CrossProcessCompositorParent
+(
+)
+;
 void
 DeferredDestroy
 (

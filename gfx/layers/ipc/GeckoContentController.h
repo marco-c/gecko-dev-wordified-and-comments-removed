@@ -239,6 +239,8 @@ GeckoContentController
 )
 {
 }
+protected
+:
 virtual
 ~
 GeckoContentController

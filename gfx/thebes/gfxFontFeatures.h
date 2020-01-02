@@ -235,6 +235,7 @@ value
 }
 class
 gfxFontFeatureValueSet
+MOZ_FINAL
 {
 public
 :
@@ -246,13 +247,6 @@ gfxFontFeatureValueSet
 (
 )
 ;
-virtual
-~
-gfxFontFeatureValueSet
-(
-)
-{
-}
 struct
 ValueList
 {
@@ -346,8 +340,14 @@ FeatureValues
 aValues
 )
 ;
-protected
+private
 :
+~
+gfxFontFeatureValueSet
+(
+)
+{
+}
 struct
 FeatureValueHashKey
 {

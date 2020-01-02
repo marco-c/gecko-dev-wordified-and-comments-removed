@@ -258,6 +258,7 @@ mX
 ;
 class
 SwapChainD3D9
+MOZ_FINAL
 {
 NS_INLINE_DECL_REFCOUNTING
 (
@@ -265,11 +266,6 @@ SwapChainD3D9
 )
 public
 :
-~
-SwapChainD3D9
-(
-)
-;
 DeviceManagerState
 PrepareForRendering
 (
@@ -308,6 +304,11 @@ SwapChainD3D9
 DeviceManagerD3D9
 *
 aDeviceManager
+)
+;
+~
+SwapChainD3D9
+(
 )
 ;
 bool

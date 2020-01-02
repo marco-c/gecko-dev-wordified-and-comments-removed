@@ -197,6 +197,8 @@ FontInfoData
 )
 ;
 }
+protected
+:
 virtual
 ~
 FontInfoData
@@ -209,6 +211,8 @@ FontInfoData
 )
 ;
 }
+public
+:
 virtual
 void
 Load

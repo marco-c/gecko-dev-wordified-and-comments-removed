@@ -108,6 +108,7 @@ FrameMetrics
 ;
 class
 CompositorChild
+MOZ_FINAL
 :
 public
 PCompositorChild
@@ -123,12 +124,6 @@ CompositorChild
 ClientLayerManager
 *
 aLayerManager
-)
-;
-virtual
-~
-CompositorChild
-(
 )
 ;
 void
@@ -188,8 +183,14 @@ RecvInvalidateAll
 )
 MOZ_OVERRIDE
 ;
-protected
+private
 :
+virtual
+~
+CompositorChild
+(
+)
+;
 virtual
 PLayerTransactionChild
 *
@@ -277,8 +278,6 @@ aAPZCId
 )
 MOZ_OVERRIDE
 ;
-private
-:
 class
 SharedFrameMetricsData
 {

@@ -109,8 +109,14 @@ NS_INLINE_DECL_REFCOUNTING
 (
 WebGLShaderPrecisionFormat
 )
-protected
+private
 :
+~
+WebGLShaderPrecisionFormat
+(
+)
+{
+}
 GLint
 mRangeMin
 ;

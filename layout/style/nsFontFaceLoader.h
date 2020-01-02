@@ -86,11 +86,6 @@ nsPresContext
 aContext
 )
 ;
-~
-nsUserFontSet
-(
-)
-;
 void
 Destroy
 (
@@ -169,6 +164,11 @@ aFontEntry
 ;
 protected
 :
+~
+nsUserFontSet
+(
+)
+;
 struct
 FontFaceRuleRecord
 {

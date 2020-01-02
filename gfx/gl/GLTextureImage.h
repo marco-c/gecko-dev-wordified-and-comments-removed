@@ -204,13 +204,6 @@ NoFlags
 )
 ;
 virtual
-~
-TextureImage
-(
-)
-{
-}
-virtual
 gfx
 :
 :
@@ -603,6 +596,13 @@ aFlags
 NoFlags
 )
 ;
+virtual
+~
+TextureImage
+(
+)
+{
+}
 virtual
 gfx
 :

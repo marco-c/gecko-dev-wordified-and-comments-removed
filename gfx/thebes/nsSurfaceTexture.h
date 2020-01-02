@@ -51,6 +51,7 @@ Matrix4x4
 }
 class
 nsSurfaceTexture
+MOZ_FINAL
 {
 NS_INLINE_DECL_THREADSAFE_REFCOUNTING
 (
@@ -79,11 +80,6 @@ id
 static
 bool
 Check
-(
-)
-;
-~
-nsSurfaceTexture
 (
 )
 ;
@@ -136,6 +132,11 @@ NotifyFrameAvailable
 ;
 private
 :
+nsSurfaceTexture
+(
+)
+;
+~
 nsSurfaceTexture
 (
 )

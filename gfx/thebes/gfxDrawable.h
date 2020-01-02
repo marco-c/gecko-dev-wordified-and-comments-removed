@@ -78,13 +78,6 @@ aSize
 {
 }
 virtual
-~
-gfxDrawable
-(
-)
-{
-}
-virtual
 bool
 Draw
 (
@@ -138,6 +131,13 @@ mSize
 }
 protected
 :
+virtual
+~
+gfxDrawable
+(
+)
+{
+}
 const
 gfxIntSize
 mSize
@@ -309,7 +309,7 @@ NS_INLINE_DECL_REFCOUNTING
 (
 gfxDrawingCallback
 )
-public
+protected
 :
 virtual
 ~
@@ -318,6 +318,8 @@ gfxDrawingCallback
 )
 {
 }
+public
+:
 virtual
 bool
 operator

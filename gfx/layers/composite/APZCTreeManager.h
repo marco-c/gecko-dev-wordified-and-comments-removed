@@ -194,12 +194,6 @@ APZCTreeManager
 (
 )
 ;
-virtual
-~
-APZCTreeManager
-(
-)
-;
 void
 UpdatePanZoomControllerTree
 (
@@ -394,6 +388,12 @@ FlushRepaintsForOverscrollHandoffChain
 ;
 protected
 :
+virtual
+~
+APZCTreeManager
+(
+)
+;
 virtual
 void
 AssertOnCompositorThread

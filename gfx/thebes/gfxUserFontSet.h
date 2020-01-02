@@ -527,12 +527,6 @@ gfxUserFontSet
 (
 )
 ;
-virtual
-~
-gfxUserFontSet
-(
-)
-;
 enum
 {
 FLAG_FORMAT_UNKNOWN
@@ -1322,6 +1316,12 @@ sUserFonts
 ;
 protected
 :
+virtual
+~
+gfxUserFontSet
+(
+)
+;
 virtual
 bool
 GetPrivateBrowsing

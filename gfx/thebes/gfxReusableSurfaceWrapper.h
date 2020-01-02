@@ -35,13 +35,6 @@ gfxReusableSurfaceWrapper
 public
 :
 virtual
-~
-gfxReusableSurfaceWrapper
-(
-)
-{
-}
-virtual
 const
 unsigned
 char
@@ -108,6 +101,13 @@ GetType
 ;
 protected
 :
+virtual
+~
+gfxReusableSurfaceWrapper
+(
+)
+{
+}
 NS_DECL_OWNINGTHREAD
 }
 ;

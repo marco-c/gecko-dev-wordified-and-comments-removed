@@ -2293,6 +2293,7 @@ sGfxFontKey
 ;
 class
 gfxFcFontSet
+MOZ_FINAL
 {
 public
 :
@@ -2440,6 +2441,12 @@ mWaitingForUserFont
 }
 private
 :
+~
+gfxFcFontSet
+(
+)
+{
+}
 nsReturnRef
 <
 FcFontSet
