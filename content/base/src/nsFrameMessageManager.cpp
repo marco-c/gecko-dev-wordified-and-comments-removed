@@ -5301,7 +5301,13 @@ JS_CallFunctionValue
 cx
 thisObject
 funval
+JS
+:
+:
+HandleValueArray
+(
 argv
+)
 &
 rval
 )

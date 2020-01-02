@@ -996,6 +996,7 @@ extOffset_
 ;
 public
 :
+explicit
 RelocationIterator
 (
 CompactBufferReader

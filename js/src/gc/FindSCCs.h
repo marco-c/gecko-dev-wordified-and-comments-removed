@@ -124,6 +124,7 @@ ComponentFinder
 {
 public
 :
+explicit
 ComponentFinder
 (
 uintptr_t

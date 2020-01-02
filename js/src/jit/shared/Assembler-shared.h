@@ -1277,6 +1277,7 @@ CodeLabel
 )
 {
 }
+explicit
 CodeLabel
 (
 const
@@ -1419,6 +1420,7 @@ offset_
 ;
 public
 :
+explicit
 CodeOffsetLabel
 (
 size_t
@@ -1824,6 +1826,7 @@ code
 )
 ;
 }
+explicit
 CodeLocationLabel
 (
 JitCode
@@ -1845,6 +1848,7 @@ setAbsolute
 )
 ;
 }
+explicit
 CodeLocationLabel
 (
 uint8_t
@@ -2734,6 +2738,7 @@ return
 kind_
 ;
 }
+MOZ_IMPLICIT
 AsmJSImmPtr
 (
 AsmJSImmKind
@@ -2778,6 +2783,7 @@ return
 kind_
 ;
 }
+explicit
 AsmJSAbsoluteAddress
 (
 AsmJSImmKind

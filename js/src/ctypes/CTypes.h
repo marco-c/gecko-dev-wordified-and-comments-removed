@@ -1351,6 +1351,7 @@ ffi_closure
 *
 closure
 ;
+explicit
 ClosureInfo
 (
 JSRuntime

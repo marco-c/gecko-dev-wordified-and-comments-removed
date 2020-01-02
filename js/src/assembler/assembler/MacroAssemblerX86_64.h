@@ -342,7 +342,10 @@ scratchRegister
 ;
 loadDouble
 (
+ImplicitAddress
+(
 scratchRegister
+)
 dest
 )
 ;

@@ -37,6 +37,7 @@ IdValuePair
 )
 {
 }
+explicit
 IdValuePair
 (
 jsid

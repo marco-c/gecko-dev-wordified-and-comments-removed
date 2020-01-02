@@ -60,6 +60,7 @@ SliceBudget
 (
 )
 ;
+explicit
 SliceBudget
 (
 int64_t

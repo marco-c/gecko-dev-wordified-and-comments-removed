@@ -258,6 +258,7 @@ alloc
 ;
 public
 :
+explicit
 OrderedHashTable
 (
 AllocPolicy
@@ -1041,6 +1042,7 @@ Range
 *
 next
 ;
+explicit
 Range
 (
 OrderedHashTable
@@ -2901,6 +2903,7 @@ Impl
 Range
 Range
 ;
+explicit
 OrderedHashMap
 (
 AllocPolicy
@@ -3220,6 +3223,7 @@ Impl
 Range
 Range
 ;
+explicit
 OrderedHashSet
 (
 AllocPolicy

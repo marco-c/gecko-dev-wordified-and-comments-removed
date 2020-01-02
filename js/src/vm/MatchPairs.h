@@ -520,6 +520,7 @@ lifoScope_
 ;
 public
 :
+explicit
 ScopedMatchPairs
 (
 LifoAlloc

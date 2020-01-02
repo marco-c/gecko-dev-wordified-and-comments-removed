@@ -5231,6 +5231,7 @@ descArray_
 ;
 public
 :
+explicit
 AutoPropertyDescArray
 (
 JSContext

@@ -278,6 +278,7 @@ AsmJSModule
 &
 module
 ;
+explicit
 GetCallSite
 (
 const

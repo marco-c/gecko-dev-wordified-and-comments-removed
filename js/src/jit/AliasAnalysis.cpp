@@ -217,6 +217,7 @@ pos
 ;
 public
 :
+explicit
 AliasSetIterator
 (
 AliasSet

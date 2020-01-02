@@ -659,6 +659,7 @@ found
 )
 {
 }
+explicit
 AddPtr
 (
 const

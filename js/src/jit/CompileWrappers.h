@@ -360,6 +360,7 @@ JitCompileOptions
 (
 )
 ;
+explicit
 JitCompileOptions
 (
 JSContext

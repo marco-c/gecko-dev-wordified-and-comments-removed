@@ -55,6 +55,7 @@ finished_
 ;
 public
 :
+explicit
 LinearScanVirtualRegister
 (
 TempAllocator

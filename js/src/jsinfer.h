@@ -133,6 +133,7 @@ nullptr
 )
 {
 }
+explicit
 TaggedProto
 (
 JSObject
@@ -873,6 +874,7 @@ Type
 uintptr_t
 data
 ;
+explicit
 Type
 (
 uintptr_t
@@ -2210,6 +2212,7 @@ TemporaryTypeSet
 )
 {
 }
+explicit
 TemporaryTypeSet
 (
 Type
@@ -2493,6 +2496,7 @@ id
 HeapTypeSet
 types
 ;
+explicit
 Property
 (
 jsid
@@ -2583,6 +2587,7 @@ NewScript
 TypedObject
 }
 ;
+explicit
 TypeObjectAddendum
 (
 Kind
@@ -2764,6 +2769,7 @@ descr_
 ;
 public
 :
+explicit
 TypeTypedObject
 (
 Handle
@@ -5011,6 +5017,7 @@ outputIndex
 ;
 public
 :
+explicit
 RecompileInfo
 (
 uint32_t
@@ -5321,6 +5328,7 @@ RecompileInfo
 *
 pendingRecompiles
 ;
+explicit
 TypeZone
 (
 JS

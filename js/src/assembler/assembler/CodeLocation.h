@@ -117,6 +117,7 @@ CodeLocationCommon
 )
 {
 }
+explicit
 CodeLocationCommon
 (
 MacroAssemblerCodePtr

@@ -1312,6 +1312,7 @@ val
 )
 {
 }
+explicit
 uint8_clamped
 (
 uint8_t
@@ -1324,6 +1325,7 @@ this
 x
 ;
 }
+explicit
 uint8_clamped
 (
 uint16_t
@@ -1336,6 +1338,7 @@ this
 x
 ;
 }
+explicit
 uint8_clamped
 (
 uint32_t
@@ -1348,6 +1351,7 @@ this
 x
 ;
 }
+explicit
 uint8_clamped
 (
 int8_t
@@ -1360,6 +1364,7 @@ this
 x
 ;
 }
+explicit
 uint8_clamped
 (
 int16_t
@@ -1372,6 +1377,7 @@ this
 x
 ;
 }
+explicit
 uint8_clamped
 (
 int32_t
@@ -1384,6 +1390,7 @@ this
 x
 ;
 }
+explicit
 uint8_clamped
 (
 double

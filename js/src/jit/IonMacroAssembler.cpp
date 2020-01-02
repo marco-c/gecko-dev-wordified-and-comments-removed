@@ -167,6 +167,7 @@ t_
 ;
 public
 :
+explicit
 TypeWrapper
 (
 types

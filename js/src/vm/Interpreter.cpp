@@ -2130,6 +2130,7 @@ JSContext
 *
 cx_
 ;
+explicit
 AutoGCIfNeeded
 (
 JSContext

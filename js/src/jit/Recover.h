@@ -202,6 +202,7 @@ class
 RInstruction
 ;
 \
+explicit
 R
 #
 #

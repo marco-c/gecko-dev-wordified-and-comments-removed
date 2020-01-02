@@ -1415,6 +1415,7 @@ runtime_
 ;
 public
 :
+explicit
 AutoEnterWarmup
 (
 JSRuntime
@@ -1455,6 +1456,7 @@ AutoSetForkJoinContext
 {
 public
 :
+explicit
 AutoSetForkJoinContext
 (
 ForkJoinContext

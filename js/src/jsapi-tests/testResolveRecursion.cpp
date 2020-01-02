@@ -291,6 +291,7 @@ resolveExitCount
 struct
 AutoIncrCounters
 {
+explicit
 AutoIncrCounters
 (
 cls_testResolveRecursion

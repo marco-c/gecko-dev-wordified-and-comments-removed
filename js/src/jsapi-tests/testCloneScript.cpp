@@ -644,7 +644,13 @@ JS_CallFunctionValue
 cx
 B
 clonedValue
+JS
+:
+:
+HandleValueArray
+(
 arg
+)
 &
 v
 )

@@ -327,6 +327,7 @@ GCRuntime
 {
 public
 :
+explicit
 GCRuntime
 (
 JSRuntime

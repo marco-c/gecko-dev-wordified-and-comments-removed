@@ -347,6 +347,7 @@ lookupStr_
 ;
 public
 :
+explicit
 EvalScriptGuard
 (
 JSContext

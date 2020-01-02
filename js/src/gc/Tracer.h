@@ -111,6 +111,7 @@ maxCapacity_
 ;
 public
 :
+explicit
 MarkStack
 (
 size_t

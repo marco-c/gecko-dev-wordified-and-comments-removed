@@ -123,6 +123,7 @@ TempAllocator
 temp
 )
 ;
+explicit
 IonContext
 (
 CompileRuntime

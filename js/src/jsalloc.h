@@ -131,6 +131,7 @@ nbytes
 ;
 public
 :
+MOZ_IMPLICIT
 TempAllocPolicy
 (
 JSContext
@@ -148,6 +149,7 @@ cx
 )
 {
 }
+MOZ_IMPLICIT
 TempAllocPolicy
 (
 ContextFriendFields

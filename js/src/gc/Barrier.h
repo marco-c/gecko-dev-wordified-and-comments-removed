@@ -1876,6 +1876,7 @@ protected
 T
 value
 ;
+explicit
 BarrieredBase
 (
 T
@@ -2239,6 +2240,7 @@ initial
 )
 {
 }
+MOZ_IMPLICIT
 PreBarriered
 (
 T
@@ -3571,6 +3573,7 @@ nullptr
 )
 {
 }
+explicit
 ReadBarriered
 (
 T
@@ -3583,6 +3586,7 @@ value
 )
 {
 }
+explicit
 ReadBarriered
 (
 const
@@ -4644,6 +4648,7 @@ array
 ;
 public
 :
+explicit
 HeapSlotArray
 (
 HeapSlot

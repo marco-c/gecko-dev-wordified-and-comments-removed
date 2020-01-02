@@ -159,6 +159,7 @@ prevLookedUpEntry
 ;
 public
 :
+explicit
 BaselineInspector
 (
 JSScript

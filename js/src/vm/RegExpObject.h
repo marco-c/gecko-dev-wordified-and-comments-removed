@@ -169,6 +169,7 @@ type
 ;
 public
 :
+explicit
 RegExpObjectBuilder
 (
 ExclusiveContext
@@ -911,6 +912,7 @@ MOZ_DELETE
 ;
 public
 :
+explicit
 RegExpGuard
 (
 ExclusiveContext
@@ -1242,6 +1244,7 @@ cx
 ;
 public
 :
+explicit
 RegExpCompartment
 (
 JSRuntime

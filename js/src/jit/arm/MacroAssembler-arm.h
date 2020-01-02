@@ -4063,8 +4063,11 @@ dest
 CodeOffsetLabel
 label
 =
+CodeOffsetLabel
+(
 currentOffset
 (
+)
 )
 ;
 ma_movPatchable

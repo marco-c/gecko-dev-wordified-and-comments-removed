@@ -207,6 +207,7 @@ offset
 struct
 ImplicitAddress
 {
+explicit
 ImplicitAddress
 (
 RegisterID
@@ -223,6 +224,7 @@ offset
 )
 {
 }
+MOZ_IMPLICIT
 ImplicitAddress
 (
 Address
@@ -591,6 +593,7 @@ Label
 )
 {
 }
+explicit
 Label
 (
 AbstractMacroAssembler
@@ -684,6 +687,7 @@ DataLabelPtr
 )
 {
 }
+explicit
 DataLabelPtr
 (
 AbstractMacroAssembler
@@ -751,6 +755,7 @@ DataLabel32
 )
 {
 }
+explicit
 DataLabel32
 (
 AbstractMacroAssembler
@@ -912,6 +917,7 @@ Jump
 )
 {
 }
+explicit
 Jump
 (
 JmpSrc

@@ -59,6 +59,7 @@ av_
 ;
 public
 :
+explicit
 ForkJoinActivation
 (
 JSContext
@@ -525,6 +526,7 @@ jscx_
 ;
 public
 :
+explicit
 LockedJSContext
 (
 ForkJoinContext

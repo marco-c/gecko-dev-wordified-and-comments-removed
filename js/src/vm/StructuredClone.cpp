@@ -5567,6 +5567,7 @@ p
 ;
 public
 :
+explicit
 Chars
 (
 JSContext

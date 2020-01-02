@@ -801,6 +801,7 @@ getNextAssemblerId
 #
 endif
 }
+explicit
 MacroAssembler
 (
 JSContext
@@ -983,6 +984,7 @@ AsmJSToken
 {
 }
 ;
+explicit
 MacroAssembler
 (
 AsmJSToken
@@ -7370,6 +7372,7 @@ friend
 class
 MacroAssembler
 ;
+explicit
 AfterICSaveLive
 (
 uint32_t

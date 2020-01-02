@@ -61,6 +61,7 @@ StackBuffer
 {
 public
 :
+explicit
 StackBuffer
 (
 void

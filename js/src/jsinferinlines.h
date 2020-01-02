@@ -849,6 +849,7 @@ compartment
 bool
 oldActiveAnalysis
 ;
+explicit
 AutoEnterAnalysis
 (
 ExclusiveContext
@@ -1187,10 +1188,13 @@ GetClassForProtoKey
 (
 key
 )
+TaggedProto
+(
 proto
 .
 get
 (
+)
 )
 )
 ;

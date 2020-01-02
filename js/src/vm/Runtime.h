@@ -510,6 +510,7 @@ pc
 struct
 EvalCacheLookup
 {
+explicit
 EvalCacheLookup
 (
 JSContext
@@ -2064,6 +2065,7 @@ suppressGC
 unsigned
 activeCompilations
 ;
+explicit
 PerThreadData
 (
 JSRuntime
@@ -2424,6 +2426,7 @@ rt
 ;
 public
 :
+explicit
 AutoLockForInterrupt
 (
 JSRuntime
@@ -5656,6 +5659,7 @@ runtime
 ;
 public
 :
+MOZ_IMPLICIT
 RuntimeAllocPolicy
 (
 JSRuntime

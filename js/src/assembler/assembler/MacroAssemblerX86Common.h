@@ -3184,10 +3184,13 @@ failureCases
 .
 append
 (
+Jump
+(
 m_assembler
 .
 jp
 (
+)
 )
 )
 ;
@@ -3195,10 +3198,13 @@ failureCases
 .
 append
 (
+Jump
+(
 m_assembler
 .
 jne
 (
+)
 )
 )
 ;

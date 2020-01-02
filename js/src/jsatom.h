@@ -367,6 +367,7 @@ length
 ;
 }
 inline
+explicit
 Lookup
 (
 const

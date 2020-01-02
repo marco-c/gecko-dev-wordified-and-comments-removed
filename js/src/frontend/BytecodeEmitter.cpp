@@ -277,6 +277,7 @@ continues
 uint32_t
 blockScopeIndex
 ;
+explicit
 StmtInfoBCE
 (
 ExclusiveContext
@@ -351,6 +352,7 @@ loopDepth
 bool
 canIonOsr
 ;
+explicit
 LoopStmtInfo
 (
 ExclusiveContext
@@ -18949,6 +18951,7 @@ bce
 ;
 public
 :
+explicit
 EmitLevelManager
 (
 BytecodeEmitter

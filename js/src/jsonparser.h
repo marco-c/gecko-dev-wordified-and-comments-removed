@@ -175,6 +175,7 @@ vector
 )
 ;
 }
+explicit
 StackEntry
 (
 ElementVector
@@ -192,6 +193,7 @@ elements
 )
 {
 }
+explicit
 StackEntry
 (
 PropertyVector

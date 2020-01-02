@@ -347,6 +347,7 @@ isUndefined_
 :
 1
 ;
+explicit
 PropDesc
 (
 const
@@ -1757,6 +1758,7 @@ Shape
 *
 entries
 ;
+explicit
 ShapeTable
 (
 uint32_t
@@ -2491,6 +2493,7 @@ compartment_
 comp
 ;
 }
+explicit
 inline
 BaseShape
 (
@@ -3438,6 +3441,7 @@ uint32_t
 objectFlags
 )
 ;
+explicit
 inline
 StackBaseShape
 (
@@ -4391,6 +4395,7 @@ CanGC
 )
 ;
 }
+explicit
 Range
 (
 Shape
@@ -6788,6 +6793,7 @@ SHAPE_INVALID_SLOT
 )
 ;
 }
+explicit
 StackShape
 (
 Shape

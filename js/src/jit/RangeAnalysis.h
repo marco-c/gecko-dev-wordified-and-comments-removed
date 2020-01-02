@@ -1159,6 +1159,7 @@ assertInvariants
 )
 ;
 }
+explicit
 Range
 (
 const

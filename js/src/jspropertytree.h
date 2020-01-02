@@ -391,6 +391,7 @@ MAX_HEIGHT_WITH_ELEMENTS_ACCESS
 128
 }
 ;
+explicit
 PropertyTree
 (
 JSCompartment

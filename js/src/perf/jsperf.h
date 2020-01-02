@@ -127,6 +127,7 @@ context_switches
 uint64_t
 cpu_migrations
 ;
+explicit
 PerfMeasurement
 (
 EventMask

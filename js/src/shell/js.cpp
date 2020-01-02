@@ -970,6 +970,7 @@ bits
 }
 public
 :
+explicit
 ShellPrincipals
 (
 uint32_t
@@ -5484,6 +5485,7 @@ saved_
 ;
 public
 :
+explicit
 AutoSaveFrameChain
 (
 JSContext
@@ -20131,6 +20133,7 @@ char
 ptr
 ;
 MOZ_DECL_USE_GUARD_OBJECT_NOTIFIER
+explicit
 FreeOnReturn
 (
 JSContext
@@ -20974,6 +20977,7 @@ argv_
 ;
 public
 :
+explicit
 AutoCStringVector
 (
 JSContext
@@ -23325,7 +23329,10 @@ Call
 cx
 UndefinedHandleValue
 fun
+HandleValueArray
+(
 filenameValue
+)
 &
 result
 )

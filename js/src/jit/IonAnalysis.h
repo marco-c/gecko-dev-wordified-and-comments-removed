@@ -260,6 +260,7 @@ LinearSum
 {
 public
 :
+explicit
 LinearSum
 (
 TempAllocator

@@ -154,6 +154,7 @@ end
 {
 }
 inline
+explicit
 CompactBufferReader
 (
 const

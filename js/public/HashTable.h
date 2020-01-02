@@ -280,6 +280,7 @@ typedef
 TableEntry
 Entry
 ;
+explicit
 HashMap
 (
 AllocPolicy
@@ -1248,6 +1249,7 @@ typedef
 T
 Entry
 ;
+explicit
 HashSet
 (
 AllocPolicy
@@ -4631,6 +4633,7 @@ oldTable
 }
 public
 :
+explicit
 HashTable
 (
 AllocPolicy

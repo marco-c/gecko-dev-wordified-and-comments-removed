@@ -60,6 +60,7 @@ CompilerRootNode
 {
 public
 :
+explicit
 CompilerRoot
 (
 T

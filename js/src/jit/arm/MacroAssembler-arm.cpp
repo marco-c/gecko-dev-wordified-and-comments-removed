@@ -9691,12 +9691,15 @@ append
 (
 AsmJSAbsoluteLink
 (
+CodeOffsetLabel
+(
 nextOffset
 (
 )
 .
 getOffset
 (
+)
 )
 imm
 .

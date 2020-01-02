@@ -431,6 +431,7 @@ CopyFrameArgs
 AbstractFramePtr
 frame_
 ;
+explicit
 CopyFrameArgs
 (
 AbstractFramePtr
@@ -722,6 +723,7 @@ ScriptFrameIter
 &
 iter_
 ;
+explicit
 CopyScriptFrameIterArgs
 (
 ScriptFrameIter
@@ -982,10 +984,13 @@ cx
 getNewType
 (
 clasp
+TaggedProto
+(
 proto
 .
 get
 (
+)
 )
 )
 )

@@ -50,6 +50,7 @@ nullptr
 )
 {
 }
+explicit
 InlineForwardListNode
 (
 InlineForwardListNode
@@ -628,6 +629,7 @@ T
 >
 Node
 ;
+explicit
 InlineForwardListIterator
 <
 T
@@ -1577,6 +1579,7 @@ T
 >
 Node
 ;
+explicit
 InlineListIterator
 (
 const
@@ -1820,6 +1823,7 @@ T
 >
 Node
 ;
+explicit
 InlineListReverseIterator
 (
 const
@@ -2190,6 +2194,7 @@ T
 >
 Node
 ;
+explicit
 InlineConcatListIterator
 (
 const

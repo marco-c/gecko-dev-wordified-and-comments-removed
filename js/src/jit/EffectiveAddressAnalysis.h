@@ -22,6 +22,7 @@ graph_
 ;
 public
 :
+explicit
 EffectiveAddressAnalysis
 (
 MIRGraph

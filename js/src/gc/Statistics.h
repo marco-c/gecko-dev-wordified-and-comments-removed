@@ -122,6 +122,7 @@ StatisticsSerializer
 struct
 Statistics
 {
+explicit
 Statistics
 (
 JSRuntime

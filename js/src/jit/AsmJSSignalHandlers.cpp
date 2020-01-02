@@ -1984,6 +1984,7 @@ rt
 ;
 public
 :
+explicit
 AutoSetHandlingSignal
 (
 JSRuntime

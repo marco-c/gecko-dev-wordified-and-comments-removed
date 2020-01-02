@@ -91,6 +91,7 @@ blockid
 uint32_t
 innerBlockScopeDepth
 ;
+explicit
 StmtInfoPC
 (
 ExclusiveContext

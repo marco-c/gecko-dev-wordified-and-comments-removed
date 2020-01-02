@@ -1487,6 +1487,8 @@ Assembler
 :
 patchDataWithValueCheck
 (
+CodeLocationLabel
+(
 code_
 +
 link
@@ -1495,6 +1497,7 @@ patchAt
 .
 offset
 (
+)
 )
 PatchedImmPtr
 (
@@ -1773,6 +1776,8 @@ Assembler
 :
 patchDataWithValueCheck
 (
+CodeLocationLabel
+(
 code_
 +
 link
@@ -1781,6 +1786,7 @@ patchAt
 .
 offset
 (
+)
 )
 PatchedImmPtr
 (
@@ -5874,6 +5880,7 @@ nullptr
 )
 {
 }
+explicit
 PropertyNameWrapper
 (
 PropertyName
@@ -7068,6 +7075,7 @@ memory
 intptr_t
 handle
 ;
+explicit
 ScopedCacheEntryOpenedForRead
 (
 ExclusiveContext

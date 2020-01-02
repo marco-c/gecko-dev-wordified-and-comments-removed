@@ -1915,6 +1915,7 @@ Position
 {
 public
 :
+explicit
 Position
 (
 AutoKeepAtoms

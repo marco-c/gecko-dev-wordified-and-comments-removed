@@ -1502,7 +1502,10 @@ scope
 "
 eval
 "
+HandleValueArray
+(
 arg
+)
 &
 v
 )

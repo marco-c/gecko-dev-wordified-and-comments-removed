@@ -598,6 +598,7 @@ nullptr
 )
 {
 }
+explicit
 MNode
 (
 MBasicBlock
@@ -903,6 +904,7 @@ Store_
 31
 }
 ;
+explicit
 AliasSet
 (
 uint32_t
@@ -2652,6 +2654,7 @@ usesEnd
 }
 public
 :
+explicit
 MUseDefIterator
 (
 MDefinition
@@ -3123,6 +3126,7 @@ MAryInstruction
 {
 protected
 :
+explicit
 MUnaryInstruction
 (
 MDefinition
@@ -3797,6 +3801,7 @@ startType_
 ;
 private
 :
+explicit
 MStart
 (
 StartType
@@ -4128,6 +4133,7 @@ CompilerConstraintList
 constraints
 )
 ;
+explicit
 MConstant
 (
 JSObject
@@ -4382,6 +4388,7 @@ ObjectPolicy
 {
 protected
 :
+explicit
 MCloneLiteral
 (
 MDefinition
@@ -5566,6 +5573,7 @@ MAryControlInstruction
 1
 >
 {
+explicit
 MGoto
 (
 MBasicBlock
@@ -5913,6 +5921,7 @@ MAryControlInstruction
 public
 BoxInputsPolicy
 {
+explicit
 MReturn
 (
 MDefinition
@@ -6010,6 +6019,7 @@ MAryControlInstruction
 public
 BoxInputsPolicy
 {
+explicit
 MThrow
 (
 MDefinition
@@ -8930,6 +8940,7 @@ MIRType_String
 {
 protected
 :
+explicit
 MFilterArgumentsOrEval
 (
 MDefinition
@@ -10376,6 +10387,7 @@ MUnaryInstruction
 public
 SingleObjectPolicy
 {
+explicit
 MGuardObject
 (
 MDefinition
@@ -10470,6 +10482,7 @@ StringPolicy
 0
 >
 {
+explicit
 MGuardString
 (
 MDefinition
@@ -10963,6 +10976,7 @@ ObjectPolicy
 0
 >
 {
+explicit
 MCreateThis
 (
 MDefinition
@@ -11073,6 +11087,7 @@ ObjectPolicy
 0
 >
 {
+explicit
 MCreateArgumentsObject
 (
 MDefinition
@@ -11671,6 +11686,7 @@ conversion_
 TruncateKind
 implicitTruncate_
 ;
+explicit
 MToDouble
 (
 MDefinition
@@ -12200,6 +12216,7 @@ MAsmJSUnsignedToDouble
 public
 MUnaryInstruction
 {
+explicit
 MAsmJSUnsignedToDouble
 (
 MDefinition
@@ -12304,6 +12321,7 @@ MAsmJSUnsignedToFloat32
 public
 MUnaryInstruction
 {
+explicit
 MAsmJSUnsignedToFloat32
 (
 MDefinition
@@ -12646,6 +12664,7 @@ MTruncateToInt32
 public
 MUnaryInstruction
 {
+explicit
 MTruncateToInt32
 (
 MDefinition
@@ -12821,6 +12840,7 @@ MToString
 public
 MUnaryInstruction
 {
+explicit
 MToString
 (
 MDefinition
@@ -12967,6 +12987,7 @@ BitwisePolicy
 {
 protected
 :
+explicit
 MBitNot
 (
 MDefinition
@@ -15756,6 +15777,7 @@ operandIsNeverNegativeZero_
 bool
 operandIsNeverNaN_
 ;
+explicit
 MPowHalf
 (
 MDefinition
@@ -18189,6 +18211,7 @@ IntPolicy
 0
 >
 {
+explicit
 MFromCharCode
 (
 MDefinition
@@ -18496,6 +18519,7 @@ BoxPolicy
 0
 >
 {
+explicit
 MComputeThis
 (
 MDefinition
@@ -18588,6 +18612,7 @@ MUnaryInstruction
 public
 SingleObjectPolicy
 {
+explicit
 MLoadArrowThis
 (
 MDefinition
@@ -19507,6 +19532,7 @@ MUnaryInstruction
 {
 private
 :
+explicit
 MOsrScopeChain
 (
 MOsrEntry
@@ -19583,6 +19609,7 @@ MUnaryInstruction
 {
 private
 :
+explicit
 MOsrArgumentsObject
 (
 MOsrEntry
@@ -19659,6 +19686,7 @@ MUnaryInstruction
 {
 private
 :
+explicit
 MOsrReturnValue
 (
 MOsrEntry
@@ -19767,6 +19795,7 @@ MCheckOverRecursedPar
 public
 MUnaryInstruction
 {
+explicit
 MCheckOverRecursedPar
 (
 MDefinition
@@ -19846,6 +19875,7 @@ MInterruptCheckPar
 public
 MUnaryInstruction
 {
+explicit
 MInterruptCheckPar
 (
 MDefinition
@@ -20938,6 +20968,7 @@ singletonType
 bool
 useNewTypeForClone
 ;
+explicit
 LambdaFunctionInfo
 (
 JSFunction
@@ -21587,6 +21618,7 @@ MUnaryInstruction
 public
 SingleObjectPolicy
 {
+explicit
 MImplicitThis
 (
 MDefinition
@@ -21688,6 +21720,7 @@ MUnaryInstruction
 public
 SingleObjectPolicy
 {
+explicit
 MSlots
 (
 MDefinition
@@ -21810,6 +21843,7 @@ MUnaryInstruction
 public
 SingleObjectPolicy
 {
+explicit
 MElements
 (
 MDefinition
@@ -21936,6 +21970,7 @@ value_
 ;
 protected
 :
+explicit
 MConstantElements
 (
 void
@@ -22084,6 +22119,7 @@ MConvertElementsToDoubles
 public
 MUnaryInstruction
 {
+explicit
 MConvertElementsToDoubles
 (
 MDefinition
@@ -22354,6 +22390,7 @@ MInitializedLength
 public
 MUnaryInstruction
 {
+explicit
 MInitializedLength
 (
 MDefinition
@@ -22587,6 +22624,7 @@ MArrayLength
 public
 MUnaryInstruction
 {
+explicit
 MArrayLength
 (
 MDefinition
@@ -22822,6 +22860,7 @@ MUnaryInstruction
 public
 SingleObjectPolicy
 {
+explicit
 MTypedArrayLength
 (
 MDefinition
@@ -22948,6 +22987,7 @@ MUnaryInstruction
 public
 SingleObjectPolicy
 {
+explicit
 MTypedArrayElements
 (
 MDefinition
@@ -23070,6 +23110,7 @@ MUnaryInstruction
 {
 private
 :
+explicit
 MNeuterCheck
 (
 MDefinition
@@ -23211,6 +23252,7 @@ SingleObjectPolicy
 {
 private
 :
+explicit
 MTypedObjectElements
 (
 MDefinition
@@ -23480,6 +23522,7 @@ operandIsNeverNaN_
 ;
 public
 :
+explicit
 MNot
 (
 MDefinition
@@ -24015,6 +24058,7 @@ minimum_
 bool
 fallible_
 ;
+explicit
 MBoundsCheckLower
 (
 MDefinition
@@ -27831,6 +27875,7 @@ MUnaryInstruction
 public
 ClampPolicy
 {
+explicit
 MClampToUint8
 (
 MDefinition
@@ -31960,6 +32005,7 @@ SingleObjectPolicy
 {
 public
 :
+explicit
 MFunctionEnvironment
 (
 MDefinition
@@ -32131,6 +32177,7 @@ MForkJoinGetSlice
 public
 MUnaryInstruction
 {
+explicit
 MForkJoinGetSlice
 (
 MDefinition
@@ -32616,6 +32663,7 @@ MNullaryInstruction
 CompilerRootPropertyName
 name_
 ;
+explicit
 MCallGetIntrinsicValue
 (
 PropertyName
@@ -34780,6 +34828,7 @@ StringPolicy
 0
 >
 {
+explicit
 MStringLength
 (
 MDefinition
@@ -34920,6 +34969,7 @@ FloatingPointPolicy
 0
 >
 {
+explicit
 MFloor
 (
 MDefinition
@@ -35252,6 +35302,7 @@ FloatingPointPolicy
 0
 >
 {
+explicit
 MRound
 (
 MDefinition
@@ -35515,6 +35566,7 @@ MUnaryInstruction
 public
 SingleObjectPolicy
 {
+explicit
 MIteratorNext
 (
 MDefinition
@@ -35597,6 +35649,7 @@ MUnaryInstruction
 public
 SingleObjectPolicy
 {
+explicit
 MIteratorMore
 (
 MDefinition
@@ -35679,6 +35732,7 @@ MUnaryInstruction
 public
 SingleObjectPolicy
 {
+explicit
 MIteratorEnd
 (
 MDefinition
@@ -38051,6 +38105,7 @@ MNullaryInstruction
 CompilerRootObject
 templateObj_
 ;
+explicit
 MNewDeclEnvObject
 (
 JSObject
@@ -38141,6 +38196,7 @@ templateObj_
 ;
 protected
 :
+explicit
 MNewCallObjectBase
 (
 JSObject
@@ -38203,6 +38259,7 @@ INSTRUCTION_HEADER
 (
 NewCallObject
 )
+explicit
 MNewCallObject
 (
 JSObject
@@ -38254,6 +38311,7 @@ INSTRUCTION_HEADER
 (
 NewRunOnceCallObject
 )
+explicit
 MNewRunOnceCallObject
 (
 JSObject
@@ -38672,6 +38730,7 @@ MEnclosingScope
 public
 MLoadFixedSlot
 {
+explicit
 MEnclosingScope
 (
 MDefinition
@@ -39396,6 +39455,7 @@ MUnaryInstruction
 public
 SingleObjectPolicy
 {
+explicit
 MIsCallable
 (
 MDefinition
@@ -40696,6 +40756,7 @@ MAsmJSLoadFFIFunc
 public
 MNullaryInstruction
 {
+explicit
 MAsmJSLoadFFIFunc
 (
 unsigned
@@ -40841,6 +40902,7 @@ MAryControlInstruction
 0
 >
 {
+explicit
 MAsmJSReturn
 (
 MDefinition
@@ -41078,6 +41140,7 @@ Callee
 )
 {
 }
+explicit
 Callee
 (
 Label
@@ -41097,6 +41160,7 @@ internal_
 callee
 ;
 }
+explicit
 Callee
 (
 MDefinition
@@ -41116,6 +41180,7 @@ dynamic_
 callee
 ;
 }
+explicit
 Callee
 (
 AsmJSImmKind

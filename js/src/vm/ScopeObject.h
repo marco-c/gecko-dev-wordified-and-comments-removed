@@ -146,6 +146,7 @@ JSFunction
 )
 ;
 }
+explicit
 StaticScopeIter
 (
 JSObject
@@ -318,6 +319,7 @@ below
 ;
 public
 :
+explicit
 inline
 ScopeCoordinate
 (
@@ -2274,6 +2276,7 @@ hasScopeObject_
 ;
 public
 :
+explicit
 ScopeIterKey
 (
 const
@@ -2517,6 +2520,7 @@ staticAsserts
 ;
 public
 :
+explicit
 ScopeIterVal
 (
 const
@@ -2784,6 +2788,7 @@ key
 ;
 public
 :
+explicit
 DebugScopes
 (
 JSContext

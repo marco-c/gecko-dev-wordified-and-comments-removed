@@ -9183,6 +9183,7 @@ UnmarkGrayTracer
 public
 JSTracer
 {
+explicit
 UnmarkGrayTracer
 (
 JSRuntime

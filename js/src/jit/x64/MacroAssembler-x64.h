@@ -49,6 +49,7 @@ ImmShiftedTag
 public
 ImmWord
 {
+explicit
 ImmShiftedTag
 (
 JSValueShiftedTag
@@ -64,6 +65,7 @@ shtag
 )
 {
 }
+explicit
 ImmShiftedTag
 (
 JSValueType
@@ -93,6 +95,7 @@ ImmTag
 public
 Imm32
 {
+explicit
 ImmTag
 (
 JSValueTag
@@ -143,6 +146,7 @@ value
 NonAssertingLabel
 uses
 ;
+explicit
 Double
 (
 double
@@ -190,6 +194,7 @@ value
 NonAssertingLabel
 uses
 ;
+explicit
 Float
 (
 float

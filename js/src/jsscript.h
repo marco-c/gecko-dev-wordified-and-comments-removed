@@ -7564,6 +7564,7 @@ code
 uint32_t
 length
 ;
+explicit
 Lookup
 (
 SharedScriptData

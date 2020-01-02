@@ -1673,6 +1673,7 @@ data_
 ;
 public
 :
+explicit
 JSBrokenFrameIterator
 (
 JSContext

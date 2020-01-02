@@ -3207,7 +3207,10 @@ object
 >
 setProtoUnchecked
 (
+TaggedProto
+(
 newProto
+)
 )
 ;
 }

@@ -835,7 +835,13 @@ obj
 "
 onNfcMessage
 "
+JS
+:
+:
+HandleValueArray
+(
 arrayVal
+)
 &
 rval
 )

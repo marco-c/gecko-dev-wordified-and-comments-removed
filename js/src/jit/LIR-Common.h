@@ -315,6 +315,7 @@ IonAllocPolicy
 >
 moves_
 ;
+explicit
 LMoveGroup
 (
 TempAllocator
@@ -448,6 +449,7 @@ LIR_HEADER
 (
 Integer
 )
+explicit
 LInteger
 (
 int32_t
@@ -507,6 +509,7 @@ LIR_HEADER
 (
 Pointer
 )
+explicit
 LPointer
 (
 gc
@@ -644,6 +647,7 @@ LIR_HEADER
 Double
 )
 ;
+explicit
 LDouble
 (
 double
@@ -689,6 +693,7 @@ LIR_HEADER
 Float32
 )
 ;
+explicit
 LFloat32
 (
 float
@@ -733,6 +738,7 @@ LIR_HEADER
 (
 Value
 )
+explicit
 LValue
 (
 const
@@ -776,6 +782,7 @@ LIR_HEADER
 (
 CloneLiteral
 )
+explicit
 LCloneLiteral
 (
 const
@@ -966,6 +973,7 @@ LIR_HEADER
 (
 Goto
 )
+explicit
 LGoto
 (
 MBasicBlock
@@ -1013,6 +1021,7 @@ LIR_HEADER
 (
 NewArray
 )
+explicit
 LNewArray
 (
 const
@@ -1102,6 +1111,7 @@ LIR_HEADER
 (
 NewObject
 )
+explicit
 LNewObject
 (
 const
@@ -1466,6 +1476,7 @@ LIR_HEADER
 NewDeclEnvObject
 )
 ;
+explicit
 LNewDeclEnvObject
 (
 const
@@ -1530,6 +1541,7 @@ LIR_HEADER
 (
 NewCallObject
 )
+explicit
 LNewCallObject
 (
 const
@@ -1594,6 +1606,7 @@ LIR_HEADER
 (
 NewSingletonCallObject
 )
+explicit
 LNewSingletonCallObject
 (
 const
@@ -2036,6 +2049,7 @@ LIR_HEADER
 (
 InitElem
 )
+explicit
 LInitElem
 (
 const
@@ -2215,6 +2229,7 @@ LIR_HEADER
 (
 MutateProto
 )
+explicit
 LMutateProto
 (
 const
@@ -2286,6 +2301,7 @@ LIR_HEADER
 (
 InitProp
 )
+explicit
 LInitProp
 (
 const
@@ -2685,6 +2701,7 @@ LIR_HEADER
 (
 DefVar
 )
+explicit
 LDefVar
 (
 const
@@ -2749,6 +2766,7 @@ LIR_HEADER
 (
 DefFun
 )
+explicit
 LDefFun
 (
 const
@@ -2813,6 +2831,7 @@ LIR_HEADER
 (
 TypeOfV
 )
+explicit
 LTypeOfV
 (
 const
@@ -2886,6 +2905,7 @@ LIR_HEADER
 (
 ToIdV
 )
+explicit
 LToIdV
 (
 const
@@ -2964,6 +2984,7 @@ LIR_HEADER
 (
 CreateThis
 )
+explicit
 LCreateThis
 (
 const
@@ -3116,6 +3137,7 @@ LIR_HEADER
 (
 CreateThisWithTemplate
 )
+explicit
 LCreateThisWithTemplate
 (
 const
@@ -3413,6 +3435,7 @@ LIR_HEADER
 (
 ReturnFromCtor
 )
+explicit
 LReturnFromCtor
 (
 const
@@ -3533,6 +3556,7 @@ BOX_PIECES
 {
 public
 :
+explicit
 LLoadArrowThis
 (
 const
@@ -3675,6 +3699,7 @@ LIR_HEADER
 (
 StackArgV
 )
+explicit
 LStackArgV
 (
 uint32_t
@@ -4506,6 +4531,7 @@ LIR_HEADER
 GetDOMMember
 )
 ;
+explicit
 LGetDOMMember
 (
 const
@@ -5428,6 +5454,7 @@ LIR_HEADER
 (
 CallDirectEvalV
 )
+explicit
 LCallDirectEvalV
 (
 const
@@ -6054,6 +6081,7 @@ LIR_HEADER
 FunctionDispatch
 )
 ;
+explicit
 LFunctionDispatch
 (
 const
@@ -7163,6 +7191,7 @@ LIR_HEADER
 (
 CompareB
 )
+explicit
 LCompareB
 (
 const
@@ -7958,6 +7987,7 @@ LIR_HEADER
 (
 EmulatesUndefined
 )
+explicit
 LEmulatesUndefined
 (
 const
@@ -8150,6 +8180,7 @@ LIR_HEADER
 (
 NotI
 )
+explicit
 LNotI
 (
 const
@@ -8184,6 +8215,7 @@ LIR_HEADER
 (
 NotD
 )
+explicit
 LNotD
 (
 const
@@ -8233,6 +8265,7 @@ LIR_HEADER
 (
 NotF
 )
+explicit
 LNotF
 (
 const
@@ -8282,6 +8315,7 @@ LIR_HEADER
 (
 NotO
 )
+explicit
 LNotO
 (
 const
@@ -8497,6 +8531,7 @@ LIR_HEADER
 (
 BitOpI
 )
+explicit
 LBitOpI
 (
 JSOp
@@ -8587,6 +8622,7 @@ LIR_HEADER
 (
 BitOpV
 )
+explicit
 LBitOpV
 (
 JSOp
@@ -8658,6 +8694,7 @@ LIR_HEADER
 (
 ShiftI
 )
+explicit
 LShiftI
 (
 JSOp
@@ -9116,6 +9153,7 @@ LIR_HEADER
 NegI
 )
 ;
+explicit
 LNegI
 (
 const
@@ -9150,6 +9188,7 @@ LIR_HEADER
 (
 NegD
 )
+explicit
 LNegD
 (
 const
@@ -9184,6 +9223,7 @@ LIR_HEADER
 (
 NegF
 )
+explicit
 LNegF
 (
 const
@@ -9218,6 +9258,7 @@ LIR_HEADER
 (
 AbsI
 )
+explicit
 LAbsI
 (
 const
@@ -9252,6 +9293,7 @@ LIR_HEADER
 (
 AbsD
 )
+explicit
 LAbsD
 (
 const
@@ -9286,6 +9328,7 @@ LIR_HEADER
 (
 AbsF
 )
+explicit
 LAbsF
 (
 const
@@ -9320,6 +9363,7 @@ LIR_HEADER
 (
 SqrtD
 )
+explicit
 LSqrtD
 (
 const
@@ -9354,6 +9398,7 @@ LIR_HEADER
 (
 SqrtF
 )
+explicit
 LSqrtF
 (
 const
@@ -10213,6 +10258,7 @@ LIR_HEADER
 (
 MathD
 )
+explicit
 LMathD
 (
 JSOp
@@ -10270,6 +10316,7 @@ LIR_HEADER
 (
 MathF
 )
+explicit
 LMathF
 (
 JSOp
@@ -10407,6 +10454,7 @@ LIR_HEADER
 (
 BinaryV
 )
+explicit
 LBinaryV
 (
 JSOp
@@ -10981,6 +11029,7 @@ LIR_HEADER
 (
 FromCharCode
 )
+explicit
 LFromCharCode
 (
 const
@@ -11121,6 +11170,7 @@ LIR_HEADER
 (
 Int32ToDouble
 )
+explicit
 LInt32ToDouble
 (
 const
@@ -11155,6 +11205,7 @@ LIR_HEADER
 (
 Float32ToDouble
 )
+explicit
 LFloat32ToDouble
 (
 const
@@ -11189,6 +11240,7 @@ LIR_HEADER
 (
 DoubleToFloat32
 )
+explicit
 LDoubleToFloat32
 (
 const
@@ -11223,6 +11275,7 @@ LIR_HEADER
 (
 Int32ToFloat32
 )
+explicit
 LInt32ToFloat32
 (
 const
@@ -11522,6 +11575,7 @@ LIR_HEADER
 (
 DoubleToInt32
 )
+explicit
 LDoubleToInt32
 (
 const
@@ -11572,6 +11626,7 @@ LIR_HEADER
 (
 Float32ToInt32
 )
+explicit
 LFloat32ToInt32
 (
 const
@@ -11738,6 +11793,7 @@ LIR_HEADER
 (
 BooleanToString
 )
+explicit
 LBooleanToString
 (
 const
@@ -11788,6 +11844,7 @@ LIR_HEADER
 (
 IntToString
 )
+explicit
 LIntToString
 (
 const
@@ -11912,6 +11969,7 @@ LIR_HEADER
 (
 PrimitiveToString
 )
+explicit
 LPrimitiveToString
 (
 const
@@ -12071,6 +12129,7 @@ LIR_HEADER
 (
 OsrValue
 )
+explicit
 LOsrValue
 (
 const
@@ -12121,6 +12180,7 @@ LIR_HEADER
 (
 OsrScopeChain
 )
+explicit
 LOsrScopeChain
 (
 const
@@ -12171,6 +12231,7 @@ LIR_HEADER
 (
 OsrReturnValue
 )
+explicit
 LOsrReturnValue
 (
 const
@@ -12221,6 +12282,7 @@ LIR_HEADER
 (
 OsrArgumentsObject
 )
+explicit
 LOsrArgumentsObject
 (
 const
@@ -12689,6 +12751,7 @@ LIR_HEADER
 (
 LambdaForSingleton
 )
+explicit
 LLambdaForSingleton
 (
 const
@@ -13079,6 +13142,7 @@ LIR_HEADER
 (
 ImplicitThis
 )
+explicit
 LImplicitThis
 (
 const
@@ -13144,6 +13208,7 @@ LIR_HEADER
 (
 Slots
 )
+explicit
 LSlots
 (
 const
@@ -13192,6 +13257,7 @@ LIR_HEADER
 (
 Elements
 )
+explicit
 LElements
 (
 const
@@ -13240,6 +13306,7 @@ LIR_HEADER
 (
 ConvertElementsToDoubles
 )
+explicit
 LConvertElementsToDoubles
 (
 const
@@ -13384,6 +13451,7 @@ LIR_HEADER
 (
 InitializedLength
 )
+explicit
 LInitializedLength
 (
 const
@@ -13504,6 +13572,7 @@ LIR_HEADER
 (
 ArrayLength
 )
+explicit
 LArrayLength
 (
 const
@@ -13624,6 +13693,7 @@ LIR_HEADER
 (
 TypedArrayLength
 )
+explicit
 LTypedArrayLength
 (
 const
@@ -13672,6 +13742,7 @@ LIR_HEADER
 (
 TypedArrayElements
 )
+explicit
 LTypedArrayElements
 (
 const
@@ -13720,6 +13791,7 @@ LIR_HEADER
 (
 TypedObjectElements
 )
+explicit
 LTypedObjectElements
 (
 const
@@ -14141,6 +14213,7 @@ LIR_HEADER
 (
 BoundsCheckLower
 )
+explicit
 LBoundsCheckLower
 (
 const
@@ -16086,6 +16159,7 @@ LIR_HEADER
 LoadTypedArrayElementStatic
 )
 ;
+explicit
 LLoadTypedArrayElementStatic
 (
 const
@@ -16579,6 +16653,7 @@ LIR_HEADER
 (
 ClampIToUint8
 )
+explicit
 LClampIToUint8
 (
 const
@@ -16657,6 +16732,7 @@ LIR_HEADER
 (
 ClampVToUint8
 )
+explicit
 LClampVToUint8
 (
 const
@@ -16729,6 +16805,7 @@ LIR_HEADER
 (
 LoadFixedSlotV
 )
+explicit
 LLoadFixedSlotV
 (
 const
@@ -16780,6 +16857,7 @@ LIR_HEADER
 (
 LoadFixedSlotT
 )
+explicit
 LLoadFixedSlotT
 (
 const
@@ -16833,6 +16911,7 @@ LIR_HEADER
 (
 StoreFixedSlotV
 )
+explicit
 LStoreFixedSlotV
 (
 const
@@ -16994,6 +17073,7 @@ LIR_HEADER
 (
 GetNameCache
 )
+explicit
 LGetNameCache
 (
 const
@@ -17096,6 +17176,7 @@ LIR_HEADER
 CallsiteCloneCache
 )
 ;
+explicit
 LCallsiteCloneCache
 (
 const
@@ -17161,6 +17242,7 @@ LIR_HEADER
 (
 GetPropertyCacheV
 )
+explicit
 LGetPropertyCacheV
 (
 const
@@ -17287,6 +17369,7 @@ LIR_HEADER
 (
 GetPropertyPolymorphicV
 )
+explicit
 LGetPropertyPolymorphicV
 (
 const
@@ -17696,6 +17779,7 @@ Index
 =
 1
 ;
+explicit
 LGetElementCacheV
 (
 const
@@ -17888,6 +17972,7 @@ LIR_HEADER
 (
 BindNameCache
 )
+explicit
 LBindNameCache
 (
 const
@@ -17953,6 +18038,7 @@ LIR_HEADER
 (
 LoadSlotV
 )
+explicit
 LLoadSlotV
 (
 const
@@ -18004,6 +18090,7 @@ LIR_HEADER
 (
 LoadSlotT
 )
+explicit
 LLoadSlotT
 (
 const
@@ -18057,6 +18144,7 @@ LIR_HEADER
 (
 StoreSlotV
 )
+explicit
 LStoreSlotV
 (
 const
@@ -18218,6 +18306,7 @@ LIR_HEADER
 (
 StringLength
 )
+explicit
 LStringLength
 (
 const
@@ -18266,6 +18355,7 @@ LIR_HEADER
 (
 Floor
 )
+explicit
 LFloor
 (
 const
@@ -18300,6 +18390,7 @@ LIR_HEADER
 (
 FloorF
 )
+explicit
 LFloorF
 (
 const
@@ -18550,6 +18641,7 @@ LIR_HEADER
 (
 FunctionEnvironment
 )
+explicit
 LFunctionEnvironment
 (
 const
@@ -18599,6 +18691,7 @@ LIR_HEADER
 ForkJoinContext
 )
 ;
+explicit
 LForkJoinContext
 (
 const
@@ -18971,6 +19064,7 @@ LIR_HEADER
 (
 CallSetProperty
 )
+explicit
 LCallSetProperty
 (
 const
@@ -19674,6 +19768,7 @@ LIR_HEADER
 (
 CallIteratorStart
 )
+explicit
 LCallIteratorStart
 (
 const
@@ -20205,6 +20300,7 @@ LIR_HEADER
 (
 GetFrameArgument
 )
+explicit
 LGetFrameArgument
 (
 const
@@ -20253,6 +20349,7 @@ LIR_HEADER
 (
 SetFrameArgumentT
 )
+explicit
 LSetFrameArgumentT
 (
 const
@@ -20320,6 +20417,7 @@ LIR_HEADER
 (
 SetFrameArgumentC
 )
+explicit
 LSetFrameArgumentC
 (
 const
@@ -20861,6 +20959,7 @@ LIR_HEADER
 (
 TypeBarrierV
 )
+explicit
 LTypeBarrierV
 (
 const
@@ -21022,6 +21121,7 @@ LIR_HEADER
 (
 MonitorTypes
 )
+explicit
 LMonitorTypes
 (
 const
@@ -21305,6 +21405,7 @@ LIR_HEADER
 (
 GuardObjectIdentity
 )
+explicit
 LGuardObjectIdentity
 (
 const
@@ -21712,6 +21813,7 @@ LIR_HEADER
 (
 In
 )
+explicit
 LIn
 (
 const
@@ -21788,6 +21890,7 @@ LIR_HEADER
 (
 InstanceOfO
 )
+explicit
 LInstanceOfO
 (
 const
@@ -21915,6 +22018,7 @@ LIR_HEADER
 (
 CallInstanceOf
 )
+explicit
 LCallInstanceOf
 (
 const
@@ -22008,6 +22112,7 @@ LIR_HEADER
 (
 ProfilerStackOp
 )
+explicit
 LProfilerStackOp
 (
 const
@@ -22118,6 +22223,7 @@ LIR_HEADER
 IsCallable
 )
 ;
+explicit
 LIsCallable
 (
 const
@@ -22282,6 +22388,7 @@ LIR_HEADER
 HasClass
 )
 ;
+explicit
 LHasClass
 (
 const
@@ -22347,6 +22454,7 @@ LIR_HEADER
 AsmJSLoadHeap
 )
 ;
+explicit
 LAsmJSLoadHeap
 (
 const
@@ -22537,6 +22645,7 @@ LIR_HEADER
 AsmJSStoreGlobalVar
 )
 ;
+explicit
 LAsmJSStoreGlobalVar
 (
 const
@@ -22698,6 +22807,7 @@ LIR_HEADER
 AsmJSPassStackArg
 )
 ;
+explicit
 LAsmJSPassStackArg
 (
 const
@@ -23069,6 +23179,7 @@ LIR_HEADER
 (
 AssertRangeI
 )
+explicit
 LAssertRangeI
 (
 const
@@ -23496,6 +23607,7 @@ LIR_HEADER
 (
 RecompileCheck
 )
+explicit
 LRecompileCheck
 (
 const

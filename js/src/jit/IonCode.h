@@ -2951,6 +2951,7 @@ AutoFlushICache
 (
 )
 ;
+explicit
 AutoFlushICache
 (
 const

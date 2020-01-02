@@ -1779,6 +1779,7 @@ Which
 )
 {
 }
+MOZ_IMPLICIT
 Type
 (
 Which
@@ -2277,6 +2278,7 @@ Which
 )
 {
 }
+MOZ_IMPLICIT
 RetType
 (
 Which
@@ -2289,6 +2291,7 @@ w
 )
 {
 }
+MOZ_IMPLICIT
 RetType
 (
 AsmJSCoercion
@@ -2547,6 +2550,7 @@ Which
 )
 {
 }
+MOZ_IMPLICIT
 VarType
 (
 Which
@@ -2559,6 +2563,7 @@ w
 )
 {
 }
+MOZ_IMPLICIT
 VarType
 (
 AsmJSCoercion
@@ -2966,6 +2971,7 @@ i_
 }
 public
 :
+explicit
 ABIArgIter
 (
 const
@@ -3187,6 +3193,7 @@ retType_
 ;
 public
 :
+explicit
 Signature
 (
 LifoAlloc
@@ -3969,6 +3976,7 @@ js
 :
 LifoAlloc
 ;
+explicit
 Global
 (
 Which
@@ -4684,6 +4692,7 @@ Kind
 )
 {
 }
+explicit
 MathBuiltin
 (
 double
@@ -4702,6 +4711,7 @@ cst
 cst
 ;
 }
+explicit
 MathBuiltin
 (
 AsmJSMathBuiltinFunction
@@ -8987,6 +8997,8 @@ link
 .
 patchAt
 =
+CodeOffsetLabel
+(
 masm_
 .
 actualOffset
@@ -8997,6 +9009,7 @@ patchAt
 .
 offset
 (
+)
 )
 )
 ;
@@ -10928,8 +10941,9 @@ for
 (
 ABIArgTypeIter
 i
-=
+(
 argTypes
+)
 ;
 !
 i
@@ -34429,6 +34443,7 @@ outstandingJobs
 uint32_t
 compiledJobs
 ;
+explicit
 ParallelGroupState
 (
 js
@@ -36638,7 +36653,10 @@ masm
 .
 movePtr
 (
+AsmJSImmPtr
+(
 AsmJSImm_Runtime
+)
 reg
 )
 ;
@@ -39005,7 +39023,10 @@ masm
 .
 callExit
 (
+AsmJSImmPtr
+(
 AsmJSImm_InvokeFromAsmJS_Ignore
+)
 i
 .
 stackBytesConsumedSoFar
@@ -39038,7 +39059,10 @@ masm
 .
 callExit
 (
+AsmJSImmPtr
+(
 AsmJSImm_InvokeFromAsmJS_ToInt32
+)
 i
 .
 stackBytesConsumedSoFar
@@ -39079,7 +39103,10 @@ masm
 .
 callExit
 (
+AsmJSImmPtr
+(
 AsmJSImm_InvokeFromAsmJS_ToNumber
+)
 i
 .
 stackBytesConsumedSoFar
@@ -39432,7 +39459,10 @@ masm
 .
 callExit
 (
+AsmJSImmPtr
+(
 AsmJSImm_CoerceInPlace_ToInt32
+)
 i
 .
 stackBytesConsumedSoFar
@@ -39477,7 +39507,10 @@ masm
 .
 callExit
 (
+AsmJSImmPtr
+(
 AsmJSImm_CoerceInPlace_ToNumber
+)
 i
 .
 stackBytesConsumedSoFar
@@ -39870,10 +39903,13 @@ append
 (
 AsmJSGlobalAccess
 (
+CodeOffsetLabel
+(
 label2
 .
 offset
 (
+)
 )
 globalDataOffset
 )
@@ -39909,10 +39945,13 @@ append
 (
 AsmJSGlobalAccess
 (
+CodeOffsetLabel
+(
 label2
 .
 offset
 (
+)
 )
 globalDataOffset
 )
@@ -41220,7 +41259,10 @@ masm
 .
 callExit
 (
+AsmJSImmPtr
+(
 AsmJSImm_ReportOverRecursed
+)
 i
 .
 stackBytesConsumedSoFar
@@ -41483,7 +41525,10 @@ masm
 .
 call
 (
+AsmJSImmPtr
+(
 AsmJSImm_HandleExecutionInterrupt
+)
 )
 ;
 masm

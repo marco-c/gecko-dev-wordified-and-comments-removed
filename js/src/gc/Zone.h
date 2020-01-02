@@ -155,6 +155,7 @@ JS
 Zone
 >
 {
+explicit
 Zone
 (
 JSRuntime

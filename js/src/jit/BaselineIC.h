@@ -1077,6 +1077,7 @@ currentStub_
 ;
 public
 :
+explicit
 ICStubConstIterator
 (
 ICStub
@@ -1278,6 +1279,7 @@ currentStub_
 bool
 unlinked_
 ;
+explicit
 ICStubIterator
 (
 ICFallbackStub
@@ -3947,6 +3949,7 @@ friend
 class
 ICStubSpace
 ;
+explicit
 ICUseCount_Fallback
 (
 JitCode
@@ -4019,6 +4022,7 @@ masm
 ;
 public
 :
+explicit
 Compiler
 (
 JSContext
@@ -4072,6 +4076,7 @@ friend
 class
 ICStubSpace
 ;
+explicit
 ICProfiler_Fallback
 (
 JitCode
@@ -4144,6 +4149,7 @@ masm
 ;
 public
 :
+explicit
 Compiler
 (
 JSContext
@@ -5893,6 +5899,7 @@ friend
 class
 ICStubSpace
 ;
+explicit
 ICTypeUpdate_Fallback
 (
 JitCode
@@ -5965,6 +5972,7 @@ masm
 ;
 public
 :
+explicit
 Compiler
 (
 JSContext
@@ -6511,6 +6519,7 @@ friend
 class
 ICStubSpace
 ;
+explicit
 ICThis_Fallback
 (
 JitCode
@@ -6583,6 +6592,7 @@ masm
 ;
 public
 :
+explicit
 Compiler
 (
 JSContext
@@ -6954,6 +6964,7 @@ friend
 class
 ICStubSpace
 ;
+explicit
 ICCompare_Fallback
 (
 JitCode
@@ -7033,6 +7044,7 @@ masm
 ;
 public
 :
+explicit
 Compiler
 (
 JSContext
@@ -7086,6 +7098,7 @@ friend
 class
 ICStubSpace
 ;
+explicit
 ICCompare_Int32
 (
 JitCode
@@ -7214,6 +7227,7 @@ friend
 class
 ICStubSpace
 ;
+explicit
 ICCompare_Double
 (
 JitCode
@@ -7541,6 +7555,7 @@ friend
 class
 ICStubSpace
 ;
+explicit
 ICCompare_String
 (
 JitCode
@@ -7669,6 +7684,7 @@ friend
 class
 ICStubSpace
 ;
+explicit
 ICCompare_Boolean
 (
 JitCode
@@ -7797,6 +7813,7 @@ friend
 class
 ICStubSpace
 ;
+explicit
 ICCompare_Object
 (
 JitCode
@@ -7925,6 +7942,7 @@ friend
 class
 ICStubSpace
 ;
+explicit
 ICCompare_ObjectWithUndefined
 (
 JitCode
@@ -8335,6 +8353,7 @@ friend
 class
 ICStubSpace
 ;
+explicit
 ICToBool_Fallback
 (
 JitCode
@@ -8414,6 +8433,7 @@ masm
 ;
 public
 :
+explicit
 Compiler
 (
 JSContext
@@ -8467,6 +8487,7 @@ friend
 class
 ICStubSpace
 ;
+explicit
 ICToBool_Int32
 (
 JitCode
@@ -8539,6 +8560,7 @@ masm
 ;
 public
 :
+explicit
 Compiler
 (
 JSContext
@@ -8592,6 +8614,7 @@ friend
 class
 ICStubSpace
 ;
+explicit
 ICToBool_String
 (
 JitCode
@@ -8664,6 +8687,7 @@ masm
 ;
 public
 :
+explicit
 Compiler
 (
 JSContext
@@ -8717,6 +8741,7 @@ friend
 class
 ICStubSpace
 ;
+explicit
 ICToBool_NullUndefined
 (
 JitCode
@@ -8789,6 +8814,7 @@ masm
 ;
 public
 :
+explicit
 Compiler
 (
 JSContext
@@ -8842,6 +8868,7 @@ friend
 class
 ICStubSpace
 ;
+explicit
 ICToBool_Double
 (
 JitCode
@@ -8914,6 +8941,7 @@ masm
 ;
 public
 :
+explicit
 Compiler
 (
 JSContext
@@ -8967,6 +8995,7 @@ friend
 class
 ICStubSpace
 ;
+explicit
 ICToBool_Object
 (
 JitCode
@@ -9039,6 +9068,7 @@ masm
 ;
 public
 :
+explicit
 Compiler
 (
 JSContext
@@ -9092,6 +9122,7 @@ friend
 class
 ICStubSpace
 ;
+explicit
 ICToNumber_Fallback
 (
 JitCode
@@ -9164,6 +9195,7 @@ masm
 ;
 public
 :
+explicit
 Compiler
 (
 JSContext
@@ -9217,6 +9249,7 @@ friend
 class
 ICStubSpace
 ;
+explicit
 ICBinaryArith_Fallback
 (
 JitCode
@@ -9357,6 +9390,7 @@ masm
 ;
 public
 :
+explicit
 Compiler
 (
 JSContext
@@ -9615,6 +9649,7 @@ friend
 class
 ICStubSpace
 ;
+explicit
 ICBinaryArith_StringConcat
 (
 JitCode
@@ -9684,6 +9719,7 @@ masm
 ;
 public
 :
+explicit
 Compiler
 (
 JSContext
@@ -9918,6 +9954,7 @@ friend
 class
 ICStubSpace
 ;
+explicit
 ICBinaryArith_Double
 (
 JitCode
@@ -10551,6 +10588,7 @@ friend
 class
 ICStubSpace
 ;
+explicit
 ICUnaryArith_Fallback
 (
 JitCode
@@ -10650,6 +10688,7 @@ masm
 ;
 public
 :
+explicit
 Compiler
 (
 JSContext
@@ -10703,6 +10742,7 @@ friend
 class
 ICStubSpace
 ;
+explicit
 ICUnaryArith_Int32
 (
 JitCode
@@ -10828,6 +10868,7 @@ friend
 class
 ICStubSpace
 ;
+explicit
 ICUnaryArith_Double
 (
 JitCode
@@ -10953,6 +10994,7 @@ friend
 class
 ICStubSpace
 ;
+explicit
 ICGetElem_Fallback
 (
 JitCode
@@ -11092,6 +11134,7 @@ masm
 ;
 public
 :
+explicit
 Compiler
 (
 JSContext
@@ -12711,6 +12754,7 @@ friend
 class
 ICStubSpace
 ;
+explicit
 ICGetElem_String
 (
 JitCode
@@ -12783,6 +12827,7 @@ masm
 ;
 public
 :
+explicit
 Compiler
 (
 JSContext
@@ -13589,6 +13634,7 @@ friend
 class
 ICStubSpace
 ;
+explicit
 ICSetElem_Fallback
 (
 JitCode
@@ -13688,6 +13734,7 @@ masm
 ;
 public
 :
+explicit
 Compiler
 (
 JSContext
@@ -14743,6 +14790,7 @@ friend
 class
 ICStubSpace
 ;
+explicit
 ICIn_Fallback
 (
 JitCode
@@ -14815,6 +14863,7 @@ masm
 ;
 public
 :
+explicit
 Compiler
 (
 JSContext
@@ -14868,6 +14917,7 @@ friend
 class
 ICStubSpace
 ;
+explicit
 ICGetName_Fallback
 (
 JitCode
@@ -14947,6 +14997,7 @@ masm
 ;
 public
 :
+explicit
 Compiler
 (
 JSContext
@@ -15584,6 +15635,7 @@ friend
 class
 ICStubSpace
 ;
+explicit
 ICBindName_Fallback
 (
 JitCode
@@ -15656,6 +15708,7 @@ masm
 ;
 public
 :
+explicit
 Compiler
 (
 JSContext
@@ -15709,6 +15762,7 @@ friend
 class
 ICStubSpace
 ;
+explicit
 ICGetIntrinsic_Fallback
 (
 JitCode
@@ -15781,6 +15835,7 @@ masm
 ;
 public
 :
+explicit
 Compiler
 (
 JSContext
@@ -16019,6 +16074,7 @@ friend
 class
 ICStubSpace
 ;
+explicit
 ICGetProp_Fallback
 (
 JitCode
@@ -16195,6 +16251,7 @@ code
 ;
 public
 :
+explicit
 Compiler
 (
 JSContext
@@ -16273,6 +16330,7 @@ friend
 class
 ICStubSpace
 ;
+explicit
 ICGetProp_ArrayLength
 (
 JitCode
@@ -16340,6 +16398,7 @@ masm
 ;
 public
 :
+explicit
 Compiler
 (
 JSContext
@@ -16393,6 +16452,7 @@ friend
 class
 ICStubSpace
 ;
+explicit
 ICGetProp_TypedArrayLength
 (
 JitCode
@@ -16460,6 +16520,7 @@ masm
 ;
 public
 :
+explicit
 Compiler
 (
 JSContext
@@ -16816,6 +16877,7 @@ friend
 class
 ICStubSpace
 ;
+explicit
 ICGetProp_StringLength
 (
 JitCode
@@ -16883,6 +16945,7 @@ masm
 ;
 public
 :
+explicit
 Compiler
 (
 JSContext
@@ -19634,6 +19697,7 @@ Magic
 ;
 protected
 :
+explicit
 ICGetProp_ArgumentsLength
 (
 JitCode
@@ -19798,6 +19862,7 @@ friend
 class
 ICStubSpace
 ;
+explicit
 ICSetProp_Fallback
 (
 JitCode
@@ -19934,6 +19999,7 @@ code
 ;
 public
 :
+explicit
 Compiler
 (
 JSContext
@@ -23606,6 +23672,7 @@ friend
 class
 ICStubSpace
 ;
+explicit
 ICIteratorNew_Fallback
 (
 JitCode
@@ -23678,6 +23745,7 @@ masm
 ;
 public
 :
+explicit
 Compiler
 (
 JSContext
@@ -23731,6 +23799,7 @@ friend
 class
 ICStubSpace
 ;
+explicit
 ICIteratorMore_Fallback
 (
 JitCode
@@ -23803,6 +23872,7 @@ masm
 ;
 public
 :
+explicit
 Compiler
 (
 JSContext
@@ -23856,6 +23926,7 @@ friend
 class
 ICStubSpace
 ;
+explicit
 ICIteratorMore_Native
 (
 JitCode
@@ -23928,6 +23999,7 @@ masm
 ;
 public
 :
+explicit
 Compiler
 (
 JSContext
@@ -23981,6 +24053,7 @@ friend
 class
 ICStubSpace
 ;
+explicit
 ICIteratorNext_Fallback
 (
 JitCode
@@ -24081,6 +24154,7 @@ masm
 ;
 public
 :
+explicit
 Compiler
 (
 JSContext
@@ -24134,6 +24208,7 @@ friend
 class
 ICStubSpace
 ;
+explicit
 ICIteratorNext_Native
 (
 JitCode
@@ -24206,6 +24281,7 @@ masm
 ;
 public
 :
+explicit
 Compiler
 (
 JSContext
@@ -24259,6 +24335,7 @@ friend
 class
 ICStubSpace
 ;
+explicit
 ICIteratorClose_Fallback
 (
 JitCode
@@ -24331,6 +24408,7 @@ masm
 ;
 public
 :
+explicit
 Compiler
 (
 JSContext
@@ -24384,6 +24462,7 @@ friend
 class
 ICStubSpace
 ;
+explicit
 ICInstanceOf_Fallback
 (
 JitCode
@@ -24456,6 +24535,7 @@ masm
 ;
 public
 :
+explicit
 Compiler
 (
 JSContext
@@ -24509,6 +24589,7 @@ friend
 class
 ICStubSpace
 ;
+explicit
 ICTypeOf_Fallback
 (
 JitCode
@@ -24581,6 +24662,7 @@ masm
 ;
 public
 :
+explicit
 Compiler
 (
 JSContext
@@ -25013,6 +25095,7 @@ friend
 class
 ICStubSpace
 ;
+explicit
 ICRetSub_Fallback
 (
 JitCode
@@ -25092,6 +25175,7 @@ masm
 ;
 public
 :
+explicit
 Compiler
 (
 JSContext
