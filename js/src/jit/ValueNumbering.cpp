@@ -2406,6 +2406,13 @@ def
 sim
 )
 ;
+def
+-
+>
+setNotGuardUnchecked
+(
+)
+;
 if
 (
 IsDead
