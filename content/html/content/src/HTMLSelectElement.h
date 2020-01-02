@@ -1285,6 +1285,11 @@ aType
 MOZ_OVERRIDE
 ;
 void
+UpdateValueMissingValidityState
+(
+)
+;
+void
 Add
 (
 nsGenericHTMLElement
@@ -1482,11 +1487,6 @@ UpdateBarredFromConstraintValidation
 ;
 bool
 IsValueMissing
-(
-)
-;
-void
-UpdateValueMissingValidityState
 (
 )
 ;
