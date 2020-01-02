@@ -3845,6 +3845,17 @@ intrinsic_ParallelTestsShouldPass
 JS_FNINFO
 (
 "
+ClearThreadLocalArenas
+"
+intrinsic_ClearThreadLocalArenas
+&
+intrinsic_ClearThreadLocalArenasInfo
+0
+0
+)
+JS_FNINFO
+(
+"
 SetForkJoinTargetRegion
 "
 intrinsic_SetForkJoinTargetRegion

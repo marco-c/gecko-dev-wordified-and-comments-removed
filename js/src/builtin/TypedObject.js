@@ -7511,6 +7511,14 @@ outOffset
 outGrainTypeSize
 ;
 }
+if
+(
+outGrainTypeIsTransparent
+)
+ClearThreadLocalArenas
+(
+)
+;
 MARK_SLICE_DONE
 (
 slicesInfo
