@@ -25290,6 +25290,9 @@ NS_ERROR_NOT_INITIALIZED
 if
 (
 mDocShell
+&
+&
+mDocShell
 -
 >
 GetIsBrowserOrApp
@@ -25418,6 +25421,9 @@ NS_ERROR_NOT_INITIALIZED
 ;
 if
 (
+mDocShell
+&
+&
 mDocShell
 -
 >
