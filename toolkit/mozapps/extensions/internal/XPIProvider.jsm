@@ -30162,6 +30162,18 @@ if
 (
 aAddon
 .
+type
+!
+=
+"
+experiment
+"
+)
+{
+if
+(
+aAddon
+.
 active
 &
 &
@@ -30199,6 +30211,7 @@ AddonManager
 .
 PENDING_ENABLE
 ;
+}
 if
 (
 aAddon
