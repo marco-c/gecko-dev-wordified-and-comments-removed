@@ -1,9 +1,9 @@
 #
 ifndef
-mozilla_dom_KeyPair_h
+mozilla_dom_CryptoKeyPair_h
 #
 define
-mozilla_dom_KeyPair_h
+mozilla_dom_CryptoKeyPair_h
 #
 include
 "
@@ -32,7 +32,7 @@ mozilla
 /
 dom
 /
-Key
+CryptoKey
 .
 h
 "
@@ -52,7 +52,7 @@ namespace
 dom
 {
 class
-KeyPair
+CryptoKeyPair
 MOZ_FINAL
 :
 public
@@ -65,11 +65,11 @@ public
 NS_DECL_CYCLE_COLLECTING_ISUPPORTS
 NS_DECL_CYCLE_COLLECTION_SCRIPT_HOLDER_CLASS
 (
-KeyPair
+CryptoKeyPair
 )
 public
 :
-KeyPair
+CryptoKeyPair
 (
 nsIGlobalObject
 *
@@ -83,7 +83,7 @@ aGlobal
 mPublicKey
 (
 new
-Key
+CryptoKey
 (
 aGlobal
 )
@@ -91,7 +91,7 @@ aGlobal
 mPrivateKey
 (
 new
-Key
+CryptoKey
 (
 aGlobal
 )
@@ -124,7 +124,7 @@ aCx
 )
 MOZ_OVERRIDE
 ;
-Key
+CryptoKey
 *
 PublicKey
 (
@@ -135,7 +135,7 @@ return
 mPublicKey
 ;
 }
-Key
+CryptoKey
 *
 PrivateKey
 (
@@ -149,7 +149,7 @@ mPrivateKey
 private
 :
 ~
-KeyPair
+CryptoKeyPair
 (
 )
 {
@@ -162,13 +162,13 @@ mGlobal
 ;
 nsRefPtr
 <
-Key
+CryptoKey
 >
 mPublicKey
 ;
 nsRefPtr
 <
-Key
+CryptoKey
 >
 mPrivateKey
 ;
