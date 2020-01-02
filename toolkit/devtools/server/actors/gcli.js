@@ -1081,13 +1081,6 @@ tabForm
 .
 gcliActor
 ;
-client
-.
-addActorPool
-(
-this
-)
-;
 this
 .
 manage

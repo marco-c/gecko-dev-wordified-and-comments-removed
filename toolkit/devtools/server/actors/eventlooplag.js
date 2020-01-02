@@ -429,13 +429,6 @@ form
 .
 eventLoopLagActor
 ;
-client
-.
-addActorPool
-(
-this
-)
-;
 this
 .
 manage

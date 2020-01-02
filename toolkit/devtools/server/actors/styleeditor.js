@@ -1164,13 +1164,6 @@ tabForm
 .
 styleEditorActor
 ;
-client
-.
-addActorPool
-(
-this
-)
-;
 this
 .
 manage

@@ -675,13 +675,6 @@ form
 .
 preferenceActor
 ;
-client
-.
-addActorPool
-(
-this
-)
-;
 this
 .
 manage

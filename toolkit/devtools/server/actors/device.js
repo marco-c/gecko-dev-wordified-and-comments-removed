@@ -1536,13 +1536,6 @@ form
 .
 deviceActor
 ;
-client
-.
-addActorPool
-(
-this
-)
-;
 this
 .
 manage

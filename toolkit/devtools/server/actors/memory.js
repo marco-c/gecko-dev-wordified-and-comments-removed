@@ -450,13 +450,6 @@ form
 .
 memoryActor
 ;
-client
-.
-addActorPool
-(
-this
-)
-;
 this
 .
 manage

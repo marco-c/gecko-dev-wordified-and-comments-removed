@@ -1415,13 +1415,6 @@ webglActor
 }
 )
 ;
-client
-.
-addActorPool
-(
-this
-)
-;
 this
 .
 manage

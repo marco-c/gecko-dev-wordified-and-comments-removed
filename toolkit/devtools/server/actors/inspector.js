@@ -11889,13 +11889,6 @@ tabForm
 .
 inspectorActor
 ;
-client
-.
-addActorPool
-(
-this
-)
-;
 this
 .
 manage
