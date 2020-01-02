@@ -360,14 +360,14 @@ style
 name
 =
 "
-RemoteTabsItem
+TabsPanelItem
 .
 Button
 "
 parent
 =
 "
-RemoteTabsItem
+TabsPanelItem
 .
 ButtonBase
 "

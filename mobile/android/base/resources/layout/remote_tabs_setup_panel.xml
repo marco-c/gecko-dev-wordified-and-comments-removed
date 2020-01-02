@@ -148,7 +148,7 @@ style
 "
 style
 /
-RemoteTabsPanelChild
+TabsPanelFrame
 "
 android
 :
@@ -172,7 +172,7 @@ style
 "
 style
 /
-RemoteTabsSection
+TabsPanelSection
 "
 android
 :
@@ -196,7 +196,7 @@ style
 "
 style
 /
-RemoteTabsItem
+TabsPanelItem
 .
 TextAppearance
 .
@@ -234,7 +234,7 @@ style
 "
 style
 /
-RemoteTabsItem
+TabsPanelItem
 .
 TextAppearance
 "
@@ -274,7 +274,7 @@ style
 "
 style
 /
-RemoteTabsSection
+TabsPanelSection
 "
 android
 :
@@ -361,7 +361,7 @@ style
 "
 style
 /
-RemoteTabsItem
+TabsPanelItem
 .
 Button
 "
@@ -428,7 +428,7 @@ style
 "
 style
 /
-RemoteTabsItem
+TabsPanelItem
 .
 TextAppearance
 .
