@@ -2020,9 +2020,9 @@ _telemetryStatusChanged
 this
 )
 ;
-AsyncShutdown
+AddonManager
 .
-profileBeforeChange
+shutdown
 .
 addBlocker
 (
