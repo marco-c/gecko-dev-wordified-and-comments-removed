@@ -24348,6 +24348,13 @@ y
 ;
 if
 (
+!
+element
+.
+disabled
+&
+&
+(
 (
 element
 instanceof
@@ -24367,6 +24374,7 @@ false
 element
 instanceof
 HTMLTextAreaElement
+)
 )
 )
 SelectionHandler
