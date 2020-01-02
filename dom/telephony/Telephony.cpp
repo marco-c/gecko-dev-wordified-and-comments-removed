@@ -2094,8 +2094,6 @@ nsAString
 &
 aNumber
 bool
-aIsActive
-bool
 aIsOutgoing
 bool
 aIsEmergency
@@ -2157,7 +2155,10 @@ aIsConference
 UpdateActiveCall
 (
 modifiedCall
-aIsActive
+IsActiveState
+(
+aCallState
+)
 )
 ;
 }
@@ -2518,8 +2519,6 @@ const
 nsAString
 &
 aNumber
-bool
-aIsActive
 bool
 aIsOutgoing
 bool
