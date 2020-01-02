@@ -553,6 +553,13 @@ height
 !
 important
 ;
+line
+-
+height
+:
+normal
+!
+important
 }
 "
 +
