@@ -249,6 +249,9 @@ MOZ_OVERRIDE
 nsRect
 mPositioningArea
 ;
+bool
+mWindowIsActive
+;
 }
 ;
 class

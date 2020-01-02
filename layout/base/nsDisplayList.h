@@ -6067,6 +6067,11 @@ GetPositioningArea
 (
 )
 ;
+bool
+IsWindowActive
+(
+)
+;
 virtual
 nsDisplayItemGeometry
 *

@@ -316,6 +316,15 @@ GetPositioningArea
 (
 )
 )
+mWindowIsActive
+(
+aItem
+-
+>
+IsWindowActive
+(
+)
+)
 {
 }
 void
