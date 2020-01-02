@@ -6514,9 +6514,9 @@ const
 nsString
 &
 aString
-nsCOMPtr
+nsRefPtr
 <
-nsIDOMCharacterData
+nsTextNode
 >
 *
 aText
