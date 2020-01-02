@@ -90,7 +90,7 @@ false
 ;
 setTimeout
 (
-doTest
+boom
 4000
 )
 ;
