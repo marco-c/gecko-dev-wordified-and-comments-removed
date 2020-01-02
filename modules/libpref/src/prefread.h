@@ -7,13 +7,6 @@ prefread_h__
 #
 include
 "
-prtypes
-.
-h
-"
-#
-include
-"
 prefapi
 .
 h
