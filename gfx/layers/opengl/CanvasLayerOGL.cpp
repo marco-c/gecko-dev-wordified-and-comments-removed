@@ -1732,17 +1732,6 @@ Activate
 (
 )
 ;
-program
--
->
-SetProjectionMatrix
-(
-mOGLManager
--
->
-mProjMatrix
-)
-;
 if
 (
 mLayerProgram
