@@ -469,7 +469,7 @@ function
 event
 )
 {
-sendAsyncMessage
+sendSyncMessage
 (
 "
 contextmenu
