@@ -38,7 +38,7 @@ endif
 if
 defined
 (
-SK_BUILD_FOR_WIN32
+_MSC_VER
 )
 #
 define
