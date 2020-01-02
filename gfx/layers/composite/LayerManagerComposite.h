@@ -741,6 +741,17 @@ AutoAddMaskEffect
 (
 )
 ;
+bool
+Failed
+(
+)
+const
+{
+return
+!
+mCompositable
+;
+}
 private
 :
 CompositableHost
