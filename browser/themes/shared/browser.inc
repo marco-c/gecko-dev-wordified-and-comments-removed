@@ -160,3 +160,7 @@ PanelUI
 menu
 -
 button
+#
+characterencoding
+-
+button
