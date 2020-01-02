@@ -71,6 +71,13 @@ h
 #
 include
 "
+nsDataHashtable
+.
+h
+"
+#
+include
+"
 nsDirectoryServiceDefs
 .
 h
