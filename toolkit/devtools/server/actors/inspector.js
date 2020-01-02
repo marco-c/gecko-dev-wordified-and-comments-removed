@@ -4350,6 +4350,7 @@ actor
 .
 observer
 =
+new
 actor
 .
 rawNode
