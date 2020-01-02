@@ -9787,6 +9787,14 @@ MOZ_DISABLE_CRYPTOLEGACY
 if
 (
 mCrypto
+&
+&
+XRE_GetProcessType
+(
+)
+!
+=
+GeckoProcessType_Content
 )
 {
 nsresult
