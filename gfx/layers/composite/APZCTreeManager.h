@@ -529,17 +529,6 @@ aOutTargetGuid
 )
 ;
 nsEventStatus
-ProcessMouseEvent
-(
-WidgetMouseEvent
-&
-mouseEvent
-ScrollableLayerGuid
-*
-aOutTargetGuid
-)
-;
-nsEventStatus
 ProcessEvent
 (
 WidgetInputEvent
