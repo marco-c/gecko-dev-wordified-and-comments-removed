@@ -38,8 +38,10 @@ SharedSurface
 public
 :
 static
+UniquePtr
+<
 SharedSurface_IOSurface
-*
+>
 Create
 (
 MacIOSurface
@@ -217,7 +219,7 @@ SharedSurface_IOSurface
 (
 MacIOSurface
 *
-surface
+ioSurf
 GLContext
 *
 gl
@@ -236,7 +238,7 @@ RefPtr
 <
 MacIOSurface
 >
-mSurface
+mIOSurf
 ;
 GLuint
 mProdTex
@@ -260,8 +262,10 @@ SurfaceFactory
 public
 :
 static
+UniquePtr
+<
 SurfaceFactory_IOSurface
-*
+>
 Create
 (
 GLContext
@@ -316,8 +320,10 @@ maxDims
 {
 }
 virtual
+UniquePtr
+<
 SharedSurface
-*
+>
 CreateShared
 (
 const

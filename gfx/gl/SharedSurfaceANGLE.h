@@ -39,8 +39,10 @@ SharedSurface
 public
 :
 static
+UniquePtr
+<
 SharedSurface_ANGLEShareHandle
-*
+>
 Create
 (
 GLContext
@@ -263,8 +265,10 @@ mConfig
 public
 :
 static
+UniquePtr
+<
 SurfaceFactory_ANGLEShareHandle
-*
+>
 Create
 (
 GLContext
@@ -293,8 +297,10 @@ caps
 )
 ;
 virtual
+UniquePtr
+<
 SharedSurface
-*
+>
 CreateShared
 (
 const

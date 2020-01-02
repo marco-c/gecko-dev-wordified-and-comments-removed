@@ -373,8 +373,10 @@ mCaps
 ;
 protected
 :
+UniquePtr
+<
 SurfaceFactory
-*
+>
 mFactory
 ;
 RefPtr
@@ -430,8 +432,10 @@ const
 SurfaceCaps
 &
 caps
+UniquePtr
+<
 SurfaceFactory
-*
+>
 factory
 const
 RefPtr
@@ -452,7 +456,10 @@ caps
 )
 mFactory
 (
+Move
+(
 factory
+)
 )
 mStream
 (
@@ -529,6 +536,10 @@ const
 {
 return
 mFactory
+.
+get
+(
+)
 ;
 }
 SharedSurface
@@ -707,8 +718,10 @@ pixels
 void
 Morph
 (
+UniquePtr
+<
 SurfaceFactory
-*
+>
 newFactory
 SurfaceStreamType
 streamType

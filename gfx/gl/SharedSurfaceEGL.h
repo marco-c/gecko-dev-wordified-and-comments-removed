@@ -60,8 +60,10 @@ SharedSurface
 public
 :
 static
+UniquePtr
+<
 SharedSurface_EGLImage
-*
+>
 Create
 (
 GLContext
@@ -288,8 +290,10 @@ SurfaceFactory
 public
 :
 static
+UniquePtr
+<
 SurfaceFactory_EGLImage
-*
+>
 Create
 (
 GLContext
@@ -338,8 +342,10 @@ context
 public
 :
 virtual
+UniquePtr
+<
 SharedSurface
-*
+>
 CreateShared
 (
 const

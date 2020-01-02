@@ -93,8 +93,10 @@ SharedSurface
 public
 :
 static
+UniquePtr
+<
 SharedSurface_Basic
-*
+>
 Create
 (
 GLContext
@@ -298,8 +300,10 @@ caps
 {
 }
 virtual
+UniquePtr
+<
 SharedSurface
-*
+>
 CreateShared
 (
 const
@@ -343,8 +347,10 @@ SharedSurface
 public
 :
 static
+UniquePtr
+<
 SharedSurface_GLTexture
-*
+>
 Create
 (
 GLContext
@@ -618,8 +624,10 @@ prodGL
 ;
 }
 virtual
+UniquePtr
+<
 SharedSurface
-*
+>
 CreateShared
 (
 const

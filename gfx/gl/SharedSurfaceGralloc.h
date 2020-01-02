@@ -53,8 +53,10 @@ SharedSurface
 public
 :
 static
+UniquePtr
+<
 SharedSurface_Gralloc
-*
+>
 Create
 (
 GLContext
@@ -307,8 +309,10 @@ nullptr
 )
 ;
 virtual
+UniquePtr
+<
 SharedSurface
-*
+>
 CreateShared
 (
 const
