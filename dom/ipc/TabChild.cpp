@@ -3838,7 +3838,7 @@ NS_NOTREACHED
 TabChild
 :
 :
-SetWebBrowser
+DestroyBrowserWindow
 not
 supported
 in
