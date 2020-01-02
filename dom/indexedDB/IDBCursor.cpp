@@ -625,8 +625,8 @@ mCursor
 -
 >
 mCloneReadInfo
-.
-Swap
+=
+Move
 (
 mCloneReadInfo
 )
@@ -888,6 +888,7 @@ Key
 aKey
 StructuredCloneReadInfo
 &
+&
 aCloneReadInfo
 )
 {
@@ -974,8 +975,8 @@ cursor
 -
 >
 mCloneReadInfo
-.
-Swap
+=
+Move
 (
 aCloneReadInfo
 )
@@ -1300,6 +1301,7 @@ Key
 aObjectKey
 StructuredCloneReadInfo
 &
+&
 aCloneReadInfo
 )
 {
@@ -1410,8 +1412,8 @@ cursor
 -
 >
 mCloneReadInfo
-.
-Swap
+=
+Move
 (
 aCloneReadInfo
 )

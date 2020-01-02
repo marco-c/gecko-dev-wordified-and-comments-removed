@@ -199,6 +199,12 @@ mozilla
 :
 ErrorResult
 ;
+using
+mozilla
+:
+:
+Move
+;
 namespace
 {
 class
@@ -3843,7 +3849,10 @@ EmptyCString
 )
 aKey
 aObjectKey
+Move
+(
 cloneInfo
+)
 )
 ;
 IDB_ENSURE_TRUE
@@ -11771,7 +11780,10 @@ mContinueQuery
 mContinueToQuery
 mKey
 mObjectKey
+Move
+(
 mCloneReadInfo
+)
 )
 ;
 IDB_ENSURE_TRUE

@@ -895,6 +895,7 @@ nsAString
 aStringBody
 JSAutoStructuredCloneBuffer
 &
+&
 aBody
 nsTArray
 <
