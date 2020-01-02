@@ -304,10 +304,8 @@ NS_OK
 }
 private
 :
-nsRefPtr
-<
 Session
->
+*
 mSession
 ;
 }
