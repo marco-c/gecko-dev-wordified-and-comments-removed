@@ -5738,6 +5738,9 @@ id
 FROM
 moz_bookmarks
 b
+"
++
+"
 JOIN
 moz_places
 h
