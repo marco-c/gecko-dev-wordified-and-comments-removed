@@ -763,7 +763,7 @@ swap_stereo_channels_
 ;
 }
 ;
+}
+}
 #
 endif
-}
-}

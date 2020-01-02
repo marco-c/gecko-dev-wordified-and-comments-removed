@@ -1,3 +1,9 @@
+#
+ifndef
+__CC_DEVICE_MANAGER_H__
+#
+define
+__CC_DEVICE_MANAGER_H__
 typedef
 enum
 {
@@ -51,3 +57,5 @@ is_phone_registered
 (
 )
 ;
+#
+endif

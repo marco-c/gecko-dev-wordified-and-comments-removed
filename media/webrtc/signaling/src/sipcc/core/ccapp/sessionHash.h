@@ -1,3 +1,9 @@
+#
+ifndef
+__SESSIONHASH_H__
+#
+define
+__SESSIONHASH_H__
 typedef
 struct
 hash_table
@@ -97,3 +103,5 @@ short
 call_id
 )
 ;
+#
+endif
