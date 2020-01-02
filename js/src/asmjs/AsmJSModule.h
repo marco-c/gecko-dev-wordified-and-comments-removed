@@ -5682,6 +5682,9 @@ const
 void
 restoreToInitialState
 (
+uint8_t
+*
+prevCode
 ArrayBufferObject
 *
 maybePrevBuffer
