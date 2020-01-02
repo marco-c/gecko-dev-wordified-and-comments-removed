@@ -2725,6 +2725,13 @@ java
 '
 tabs
 /
+TabCurve
+.
+java
+'
+'
+tabs
+/
 TabsPanel
 .
 java
