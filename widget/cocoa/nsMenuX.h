@@ -229,6 +229,11 @@ NativeMenuItem
 (
 )
 ;
+nsresult
+SetupIcon
+(
+)
+;
 static
 bool
 IsXULHelpMenu
@@ -263,11 +268,6 @@ GetEnabled
 bool
 *
 aIsEnabled
-)
-;
-nsresult
-SetupIcon
-(
 )
 ;
 void
