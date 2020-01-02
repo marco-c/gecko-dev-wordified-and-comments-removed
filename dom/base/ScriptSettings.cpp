@@ -651,6 +651,11 @@ JSContext
 aCx
 )
 :
+ScriptSettingsStackEntry
+(
+aGlobalObject
+true
+)
 mStack
 (
 ScriptSettingsStack
@@ -659,11 +664,6 @@ ScriptSettingsStack
 Ref
 (
 )
-)
-mEntry
-(
-aGlobalObject
-true
 )
 {
 MOZ_ASSERT
@@ -778,8 +778,7 @@ mStack
 .
 Push
 (
-&
-mEntry
+this
 )
 ;
 }
@@ -800,8 +799,7 @@ Incumbent
 )
 =
 =
-&
-mEntry
+this
 )
 ;
 mStack
@@ -821,6 +819,11 @@ nsIGlobalObject
 aGlobalObject
 )
 :
+ScriptSettingsStackEntry
+(
+aGlobalObject
+false
+)
 mStack
 (
 ScriptSettingsStack
@@ -829,11 +832,6 @@ ScriptSettingsStack
 Ref
 (
 )
-)
-mEntry
-(
-aGlobalObject
-false
 )
 mCallerOverride
 (
@@ -849,8 +847,7 @@ mStack
 .
 Push
 (
-&
-mEntry
+this
 )
 ;
 }
@@ -871,8 +868,7 @@ Incumbent
 )
 =
 =
-&
-mEntry
+this
 )
 ;
 mStack
