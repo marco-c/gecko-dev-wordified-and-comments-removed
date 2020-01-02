@@ -104,6 +104,8 @@ text
 javascript
 "
 >
+try
+{
 var
 ctx
 =
@@ -123,6 +125,12 @@ ctx
 sampleRate
 )
 ;
+}
+catch
+(
+e
+)
+{
 ok
 (
 true
@@ -137,6 +145,7 @@ CC
 "
 )
 ;
+}
 <
 /
 script
