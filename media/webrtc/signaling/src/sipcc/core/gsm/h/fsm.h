@@ -443,9 +443,6 @@ candidate_ct
 boolean
 rtcp_mux
 ;
-boolean
-audio_level
-;
 sdp_setup_type_e
 setup
 ;

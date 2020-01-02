@@ -629,16 +629,6 @@ recvCodecConfigList
 =
 0
 ;
-virtual
-MediaConduitErrorCode
-EnableAudioLevelExtension
-(
-bool
-enabled
-)
-=
-0
-;
 }
 ;
 }
