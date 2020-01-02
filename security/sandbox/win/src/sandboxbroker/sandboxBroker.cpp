@@ -222,7 +222,7 @@ SetDelayedIntegrityLevel
 sandbox
 :
 :
-INTEGRITY_LEVEL_UNTRUSTED
+INTEGRITY_LEVEL_LOW
 )
 ;
 mPolicy
