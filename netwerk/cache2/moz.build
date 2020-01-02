@@ -153,11 +153,6 @@ UNIFIED_SOURCES
 =
 [
 '
-CacheEntriesEnumerator
-.
-cpp
-'
-'
 CacheHashUtils
 .
 cpp
