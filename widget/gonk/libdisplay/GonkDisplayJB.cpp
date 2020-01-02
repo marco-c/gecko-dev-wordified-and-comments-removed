@@ -1135,7 +1135,7 @@ hwLayers
 .
 compositionType
 =
-HWC_BACKGROUND
+HWC_FRAMEBUFFER
 ;
 mList
 -
