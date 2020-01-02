@@ -189,7 +189,8 @@ pref
 ;
 }
 }
-let
+this
+.
 PermissionsUtils
 =
 {
