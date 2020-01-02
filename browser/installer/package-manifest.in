@@ -2755,6 +2755,13 @@ BINPATH
 /
 components
 /
+FormAutofillStartup
+.
+js
+BINPATH
+/
+components
+/
 contentSecurityPolicy
 .
 manifest
