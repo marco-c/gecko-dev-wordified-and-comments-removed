@@ -2172,7 +2172,7 @@ return
 false
 ;
 }
-nsresult
+void
 RestyleManager
 :
 :
@@ -2197,7 +2197,6 @@ GetStateBits
 NS_FRAME_FIRST_REFLOW
 )
 return
-NS_OK
 ;
 nsIPresShell
 :
@@ -2319,7 +2318,6 @@ aFrame
 )
 ;
 return
-NS_OK
 ;
 }
 NS_DECLARE_FRAME_PROPERTY
