@@ -318,12 +318,5 @@ mozilla
 InternalScriptErrorEvent
 nsScriptErrorEvent
 ;
-typedef
-mozilla
-:
-:
-InternalScrollPortEvent
-nsScrollPortEvent
-;
 #
 endif

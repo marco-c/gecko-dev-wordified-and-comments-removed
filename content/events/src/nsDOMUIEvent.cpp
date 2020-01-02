@@ -278,13 +278,13 @@ case
 NS_SCROLLPORT_EVENT
 :
 {
-nsScrollPortEvent
+InternalScrollPortEvent
 *
 scrollEvent
 =
 static_cast
 <
-nsScrollPortEvent
+InternalScrollPortEvent
 *
 >
 (

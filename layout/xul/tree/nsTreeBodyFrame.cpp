@@ -4324,7 +4324,7 @@ if
 verticalOverflowChanged
 )
 {
-nsScrollPortEvent
+InternalScrollPortEvent
 event
 (
 true
@@ -4340,7 +4340,7 @@ event
 .
 orient
 =
-nsScrollPortEvent
+InternalScrollPortEvent
 :
 :
 vertical
@@ -4362,7 +4362,7 @@ if
 horizontalOverflowChanged
 )
 {
-nsScrollPortEvent
+InternalScrollPortEvent
 event
 (
 true
@@ -4378,7 +4378,7 @@ event
 .
 orient
 =
-nsScrollPortEvent
+InternalScrollPortEvent
 :
 :
 horizontal
