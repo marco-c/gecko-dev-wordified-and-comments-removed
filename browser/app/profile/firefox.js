@@ -6837,6 +6837,12 @@ pver
 2
 .
 2
+&
+apikey
+=
+%
+GOOGLE_API_KEY
+%
 "
 )
 ;
@@ -7207,6 +7213,12 @@ safebrowsing
 clientreport
 /
 download
+&
+apikey
+=
+%
+GOOGLE_API_KEY
+%
 "
 )
 ;
