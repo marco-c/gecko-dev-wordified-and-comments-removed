@@ -11,9 +11,6 @@ jsapi
 .
 h
 "
-class
-JSAtom
-;
 namespace
 js
 {
@@ -21,17 +18,6 @@ extern
 const
 JSWrapObjectCallbacks
 SelfHostingWrapObjectCallbacks
-;
-bool
-IsSelfHostedFunctionWithName
-(
-JSFunction
-*
-fun
-JSAtom
-*
-name
-)
 ;
 }
 #
