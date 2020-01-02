@@ -39062,7 +39062,7 @@ foundSource
 ParseVariant
 (
 imageSourceValue
-VARIANT_UO
+VARIANT_IMAGE
 nullptr
 )
 )
