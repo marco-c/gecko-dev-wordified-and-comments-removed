@@ -231,7 +231,7 @@ mozilla
 :
 TextComposition
 *
-GetTextComposition
+GetTextCompositionFor
 (
 nsIWidget
 *
