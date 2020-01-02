@@ -217,6 +217,8 @@ const
 nsACString
 &
 aKey
+bool
+aKeyIsHash
 )
 ;
 CacheFileMetadata
@@ -245,6 +247,11 @@ GetKey
 nsACString
 &
 _retval
+)
+;
+bool
+KeyIsHash
+(
 )
 ;
 nsresult
@@ -542,8 +549,6 @@ uint32_t
 aMetaOffset
 uint32_t
 aBufOffset
-bool
-aHaveKey
 )
 ;
 nsresult
@@ -581,6 +586,9 @@ mHandle
 ;
 nsCString
 mKey
+;
+bool
+mKeyIsHash
 ;
 CacheHash
 :
