@@ -1897,7 +1897,10 @@ DiagnosticFlags
 :
 CONTENT
 |
-DIAGNOSTIC_TILE
+DiagnosticFlags
+:
+:
+TILE
 aScreenRegion
 aClipRect
 aTransform

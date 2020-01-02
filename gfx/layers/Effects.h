@@ -672,10 +672,13 @@ Effect
 >
 mSecondaryEffects
 [
+size_t
+(
 EffectTypes
 :
 :
 MAX_SECONDARY
+)
 ]
 ;
 void
