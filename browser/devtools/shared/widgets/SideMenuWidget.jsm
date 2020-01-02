@@ -726,9 +726,10 @@ if
 (
 aChild
 .
-className
-=
-=
+classList
+.
+contains
+(
 "
 side
 -
@@ -740,6 +741,7 @@ item
 -
 contents
 "
+)
 )
 {
 aChild
