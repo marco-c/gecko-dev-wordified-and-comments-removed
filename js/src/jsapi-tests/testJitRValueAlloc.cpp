@@ -331,6 +331,11 @@ _
 JSVAL_TYPE_STRING
 )
 \
+_
+(
+JSVAL_TYPE_SYMBOL
+)
+\
 /
 *
 _
@@ -479,6 +484,11 @@ JSVAL_TYPE_MAGIC
 _
 (
 JSVAL_TYPE_STRING
+)
+\
+_
+(
+JSVAL_TYPE_SYMBOL
 )
 \
 /
