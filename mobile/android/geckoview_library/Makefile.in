@@ -217,7 +217,7 @@ gen
 libs
 /
 (
-ABI_DIR
+ANDROID_CPU_ARCH
 )
 src
 #
@@ -265,7 +265,7 @@ so
 libs
 /
 (
-ABI_DIR
+ANDROID_CPU_ARCH
 )
 /
 #
