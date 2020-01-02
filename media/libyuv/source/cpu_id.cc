@@ -483,11 +483,9 @@ _MSC_VER
 )
 &
 &
+defined
 (
-_MSC_FULL_VER
->
-=
-160040219
+_XCR_XFEATURE_ENABLED_MASK
 )
 xcr0
 =
@@ -497,7 +495,7 @@ uint32
 (
 _xgetbv
 (
-0
+_XCR_XFEATURE_ENABLED_MASK
 )
 )
 ;
