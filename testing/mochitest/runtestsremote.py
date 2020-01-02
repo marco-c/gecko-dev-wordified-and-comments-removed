@@ -2042,6 +2042,13 @@ self
 remoteProfile
 )
         
+if
+manifest
+is
+not
+None
+:
+            
 Mochitest
 .
 cleanup
