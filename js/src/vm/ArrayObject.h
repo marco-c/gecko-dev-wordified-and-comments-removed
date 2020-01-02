@@ -24,6 +24,13 @@ public
 :
 static
 const
+uint32_t
+EagerAllocationMaxLength
+=
+2048
+;
+static
+const
 Class
 class_
 ;
