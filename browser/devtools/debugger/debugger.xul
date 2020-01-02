@@ -1348,7 +1348,7 @@ debuggerUI
 .
 searchFile
 .
-key
+accesskey
 ;
 "
 key
@@ -1393,7 +1393,7 @@ debuggerUI
 .
 searchGlobal
 .
-key
+accesskey
 ;
 "
 key
@@ -1438,7 +1438,7 @@ debuggerUI
 .
 searchFunction
 .
-key
+accesskey
 ;
 "
 key
@@ -1487,7 +1487,7 @@ debuggerUI
 .
 searchToken
 .
-key
+accesskey
 ;
 "
 key
@@ -1532,7 +1532,7 @@ debuggerUI
 .
 searchGoToLine
 .
-key
+accesskey
 ;
 "
 key
@@ -1581,7 +1581,7 @@ debuggerUI
 .
 searchVariable
 .
-key
+accesskey
 ;
 "
 key
@@ -1626,7 +1626,7 @@ debuggerUI
 .
 focusVariables
 .
-key
+accesskey
 ;
 "
 key
@@ -1712,7 +1712,7 @@ debuggerUI
 .
 addWatch
 .
-key
+accesskey
 ;
 "
 key
@@ -1755,7 +1755,7 @@ debuggerUI
 .
 removeAllWatch
 .
-key
+accesskey
 ;
 "
 key
@@ -1896,7 +1896,7 @@ debuggerUI
 .
 pauseExceptions
 .
-key
+accesskey
 ;
 "
 command
@@ -1939,7 +1939,7 @@ debuggerUI
 .
 ignoreCaughtExceptions
 .
-key
+accesskey
 ;
 "
 command
@@ -1984,7 +1984,7 @@ debuggerUI
 .
 showPanesOnInit
 .
-key
+accesskey
 ;
 "
 command
@@ -2029,7 +2029,7 @@ debuggerUI
 .
 showOnlyEnum
 .
-key
+accesskey
 ;
 "
 command
@@ -2074,7 +2074,7 @@ debuggerUI
 .
 showVarsFilter
 .
-key
+accesskey
 ;
 "
 command
@@ -2117,7 +2117,7 @@ debuggerUI
 .
 showOriginalSource
 .
-key
+accesskey
 ;
 "
 command
