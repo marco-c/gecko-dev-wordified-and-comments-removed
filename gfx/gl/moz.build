@@ -431,6 +431,11 @@ EXPORTS
 =
 [
 '
+GLContextWGL
+.
+h
+'
+'
 SharedSurfaceANGLE
 .
 h
