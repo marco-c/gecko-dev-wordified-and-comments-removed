@@ -495,6 +495,13 @@ at
 static
 MOZ_CONSTEXPR_VAR
 Register
+SecondScratchReg
+=
+t8
+;
+static
+MOZ_CONSTEXPR_VAR
+Register
 OsrFrameReg
 =
 a3
