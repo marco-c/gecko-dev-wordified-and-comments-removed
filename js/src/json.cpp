@@ -4068,7 +4068,6 @@ AutoStableStringChars
 flatChars
 (
 cx
-flat
 )
 ;
 if
@@ -4078,6 +4077,8 @@ flatChars
 .
 init
 (
+cx
+flat
 )
 )
 return

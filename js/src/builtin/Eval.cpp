@@ -1110,7 +1110,6 @@ AutoStableStringChars
 flatChars
 (
 cx
-str
 )
 ;
 if
@@ -1120,6 +1119,8 @@ flatChars
 .
 init
 (
+cx
+str
 )
 )
 return
@@ -1714,7 +1715,6 @@ AutoStableStringChars
 flatChars
 (
 cx
-flatStr
 )
 ;
 if
@@ -1725,6 +1725,7 @@ flatChars
 initTwoByte
 (
 cx
+flatStr
 )
 )
 return
@@ -2137,7 +2138,6 @@ AutoStableStringChars
 flatChars
 (
 cx
-flatStr
 )
 ;
 if
@@ -2148,6 +2148,7 @@ flatChars
 initTwoByte
 (
 cx
+flatStr
 )
 )
 return
