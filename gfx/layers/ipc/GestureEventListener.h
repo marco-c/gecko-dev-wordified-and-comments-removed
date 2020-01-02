@@ -101,7 +101,7 @@ nsEventStatus
 HandleInputEvent
 (
 const
-InputData
+MultiTouchInput
 &
 aEvent
 )
