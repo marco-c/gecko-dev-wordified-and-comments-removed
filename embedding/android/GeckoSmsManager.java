@@ -1380,6 +1380,14 @@ kStorageFullError
 =
 10
 ;
+public
+final
+static
+int
+kSimNotMatchedError
+=
+11
+;
 private
 final
 static
