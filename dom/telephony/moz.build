@@ -177,7 +177,7 @@ TelephonyFactory
 h
 '
 ]
-SOURCES
+UNIFIED_SOURCES
 +
 =
 [
