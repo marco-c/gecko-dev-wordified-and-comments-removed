@@ -74,13 +74,6 @@ MOZ_FINAL
 public
 nsISelectionListener
 {
-private
-:
-~
-TouchCaret
-(
-)
-;
 public
 :
 explicit
@@ -141,6 +134,11 @@ TouchCaret
 (
 )
 MOZ_DELETE
+;
+~
+TouchCaret
+(
+)
 ;
 nsIFrame
 *
@@ -336,8 +334,6 @@ return
 sTouchCaretExpirationTime
 ;
 }
-protected
-:
 nsWeakPtr
 mPresShell
 ;
