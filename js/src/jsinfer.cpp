@@ -8560,6 +8560,7 @@ if
 clasp
 &
 &
+(
 !
 (
 clasp
@@ -8568,6 +8569,15 @@ clasp
 flags
 &
 JSCLASS_IS_DOMJSCLASS
+)
+|
+|
+clasp
+-
+>
+isProxy
+(
+)
 )
 )
 return
