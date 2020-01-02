@@ -3109,6 +3109,12 @@ toObject
 )
 )
 ;
+AutoSuppressGC
+nogc
+(
+cx
+)
+;
 JS_ASSERT
 (
 GetOuterObject
