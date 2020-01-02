@@ -2310,6 +2310,12 @@ dynamicMarkSlice
 uint64_t
 decommitThreshold
 ;
+unsigned
+minEmptyChunkCount
+;
+unsigned
+maxEmptyChunkCount
+;
 bool
 cleanUpEverything
 ;
