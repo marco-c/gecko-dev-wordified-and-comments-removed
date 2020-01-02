@@ -817,8 +817,10 @@ static
 int
 registerCurrentEnvironment
 (
-HealthReportDatabaseStorage
+final
+HealthReportStorage
 storage
+final
 ProfileInformationProvider
 info
 )
