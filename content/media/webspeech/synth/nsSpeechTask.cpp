@@ -864,7 +864,7 @@ aDataLen
 mStream
 -
 >
-Finish
+EndAllTrackAndFinish
 (
 )
 ;
