@@ -1305,6 +1305,16 @@ public
 static
 final
 String
+PAGE_LABEL
+=
+"
+Page
+"
+;
+public
+static
+final
+String
 MORE_LABEL
 =
 "
