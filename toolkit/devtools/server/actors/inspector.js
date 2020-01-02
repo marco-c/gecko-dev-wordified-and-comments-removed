@@ -3081,7 +3081,7 @@ stateChange
 (
 progress
 request
-flag
+flags
 status
 )
 {
@@ -3112,7 +3112,7 @@ return
 let
 isWindow
 =
-flag
+flags
 &
 Ci
 .
@@ -3123,7 +3123,7 @@ STATE_IS_WINDOW
 let
 isDocument
 =
-flag
+flags
 &
 Ci
 .
@@ -3151,7 +3151,7 @@ isDocument
 &
 &
 (
-flag
+flags
 &
 Ci
 .
@@ -3183,7 +3183,7 @@ isWindow
 &
 &
 (
-flag
+flags
 &
 Ci
 .
@@ -7281,6 +7281,18 @@ getFrameElement
 window
 )
 ;
+let
+isTopLevel
+=
+this
+.
+layoutHelpers
+.
+isTopLevelWindow
+(
+window
+)
+;
 if
 (
 !
@@ -7291,6 +7303,9 @@ frame
 this
 .
 rootDoc
+&
+&
+isTopLevel
 )
 {
 this

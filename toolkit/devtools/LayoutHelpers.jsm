@@ -110,6 +110,7 @@ nsIDocShell
 )
 ;
 }
+;
 LayoutHelpers
 .
 prototype

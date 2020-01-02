@@ -221,6 +221,14 @@ browser_inspector_basic_highlighter
 .
 js
 \
+browser_inspector_dead_node_exception
+.
+html
+\
+browser_inspector_dead_node_exception
+.
+js
+\
 head
 .
 js
