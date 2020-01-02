@@ -1190,9 +1190,16 @@ nsIContent
 >
 mAnchorJumpElm
 ;
+union
+{
 nsIAtom
 *
 mARIAAttrOldValue
+;
+bool
+mStateBitWasOn
+;
+}
 ;
 nsTArray
 <
