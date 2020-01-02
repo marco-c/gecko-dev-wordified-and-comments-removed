@@ -120,10 +120,6 @@ PAsmJSCacheEntry
 ;
 include
 protocol
-PBackground
-;
-include
-protocol
 PBlob
 ;
 include
@@ -740,10 +736,6 @@ PCompositor
 parent
 opens
 PImageBridge
-;
-child
-opens
-PBackground
 ;
 manages
 PAsmJSCacheEntry
