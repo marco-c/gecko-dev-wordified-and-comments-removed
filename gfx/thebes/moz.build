@@ -1417,13 +1417,9 @@ LOCAL_INCLUDES
 [
 '
 /
-content
+dom
 /
 xml
-/
-document
-/
-src
 '
 ]
 if
