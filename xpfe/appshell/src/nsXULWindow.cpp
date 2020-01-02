@@ -369,7 +369,7 @@ using
 dom
 :
 :
-AutoSystemCaller
+AutoNoJSAPI
 ;
 #
 define
@@ -1628,8 +1628,8 @@ false
 )
 ;
 {
-AutoSystemCaller
-asc
+AutoNoJSAPI
+nojsapi
 ;
 nsIThread
 *
@@ -7959,8 +7959,8 @@ nsIXULWindow
 newWindow
 ;
 {
-AutoSystemCaller
-asc
+AutoNoJSAPI
+nojsapi
 ;
 appShell
 -
@@ -8013,8 +8013,8 @@ LockUntilChromeLoad
 )
 ;
 {
-AutoSystemCaller
-asc
+AutoNoJSAPI
+nojsapi
 ;
 nsIThread
 *

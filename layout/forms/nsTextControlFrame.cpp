@@ -1081,8 +1081,8 @@ mozilla
 dom
 :
 :
-AutoSystemCaller
-asc
+AutoNoJSAPI
+nojsapi
 ;
 class
 EnsureSetFocus

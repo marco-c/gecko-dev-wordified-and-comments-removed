@@ -10827,8 +10827,8 @@ aRv
 )
 {
 {
-AutoSystemCaller
-asc
+AutoNoJSAPI
+nojsapi
 ;
 nsCOMPtr
 <

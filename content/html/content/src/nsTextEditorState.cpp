@@ -4673,8 +4673,8 @@ domdoc
 return
 NS_ERROR_FAILURE
 ;
-AutoSystemCaller
-asc
+AutoNoJSAPI
+nojsapi
 ;
 rv
 =
@@ -6679,8 +6679,8 @@ OutputWrap
 }
 }
 {
-AutoSystemCaller
-asc
+AutoNoJSAPI
+nojsapi
 ;
 mEditor
 -
@@ -7005,8 +7005,8 @@ return
 ;
 }
 {
-AutoSystemCaller
-asc
+AutoNoJSAPI
+nojsapi
 ;
 nsCOMPtr
 <

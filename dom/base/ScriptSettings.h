@@ -197,7 +197,7 @@ GetGlobalJSObject
 ;
 }
 bool
-IsSystemSingleton
+NoJSAPI
 (
 )
 {
@@ -206,12 +206,12 @@ this
 =
 =
 &
-SystemSingleton
+NoJSAPISingleton
 ;
 }
 static
 ScriptSettingsStackEntry
-SystemSingleton
+NoJSAPISingleton
 ;
 private
 :
@@ -437,11 +437,11 @@ mCallerOverride
 }
 ;
 class
-AutoSystemCaller
+AutoNoJSAPI
 {
 public
 :
-AutoSystemCaller
+AutoNoJSAPI
 (
 bool
 aIsMainThread
@@ -452,7 +452,7 @@ NS_IsMainThread
 )
 ;
 ~
-AutoSystemCaller
+AutoNoJSAPI
 (
 )
 ;

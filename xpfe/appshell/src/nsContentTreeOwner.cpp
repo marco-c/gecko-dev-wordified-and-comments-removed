@@ -4016,8 +4016,8 @@ OPEN_CURRENTWINDOW
 dom
 :
 :
-AutoSystemCaller
-asc
+AutoNoJSAPI
+nojsapi
 ;
 return
 browserDOMWin
