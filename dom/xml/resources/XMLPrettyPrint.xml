@@ -115,6 +115,11 @@ id
 "
 prettyprint
 "
+bindToUntrustedContent
+=
+"
+true
+"
 >
 <
 content

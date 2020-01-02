@@ -163,6 +163,11 @@ scrollbar
 -
 base
 "
+bindToUntrustedContent
+=
+"
+true
+"
 >
 <
 handlers
@@ -267,6 +272,11 @@ id
 =
 "
 scrollbar
+"
+bindToUntrustedContent
+=
+"
+true
 "
 extends
 =

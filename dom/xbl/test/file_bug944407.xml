@@ -59,6 +59,11 @@ id
 "
 testAllowScript
 "
+bindToUntrustedContent
+=
+"
+true
+"
 >
 <
 implementation

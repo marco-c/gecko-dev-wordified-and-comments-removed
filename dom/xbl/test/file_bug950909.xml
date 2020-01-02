@@ -40,6 +40,11 @@ id
 "
 testBinding
 "
+bindToUntrustedContent
+=
+"
+true
+"
 >
 <
 implementation

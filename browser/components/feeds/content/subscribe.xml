@@ -167,6 +167,11 @@ id
 "
 feedreaderUI
 "
+bindToUntrustedContent
+=
+"
+true
+"
 >
 <
 content

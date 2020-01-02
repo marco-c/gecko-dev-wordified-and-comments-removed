@@ -128,6 +128,11 @@ id
 "
 inputFields
 "
+bindToUntrustedContent
+=
+"
+true
+"
 >
 <
 handlers
@@ -291,6 +296,11 @@ id
 =
 "
 textAreas
+"
+bindToUntrustedContent
+=
+"
+true
 "
 >
 <
