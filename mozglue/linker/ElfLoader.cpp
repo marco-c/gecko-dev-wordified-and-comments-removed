@@ -245,7 +245,7 @@ Singleton
 .
 lastError
 =
-NULL
+nullptr
 ;
 return
 error
@@ -287,7 +287,7 @@ unsupported
 "
 ;
 return
-NULL
+nullptr
 ;
 }
 if
@@ -538,7 +538,7 @@ info
 .
 dlpi_phdr
 =
-NULL
+nullptr
 ;
 info
 .
@@ -729,7 +729,7 @@ pcount
 0
 ;
 return
-NULL
+nullptr
 ;
 }
 #
@@ -790,7 +790,7 @@ if
 handle
 )
 return
-NULL
+nullptr
 ;
 return
 reinterpret_cast
@@ -940,7 +940,7 @@ LeafName
 path
 )
 :
-NULL
+nullptr
 ;
 }
 size_t
@@ -1181,11 +1181,11 @@ flags
 void
 *
 )
-NULL
+nullptr
 )
 ;
 return
-NULL
+nullptr
 ;
 }
 void
@@ -1264,7 +1264,7 @@ elf
 ;
 }
 return
-NULL
+nullptr
 ;
 }
 SystemElf
@@ -1430,7 +1430,7 @@ if
 path
 )
 return
-NULL
+nullptr
 ;
 #
 ifdef
@@ -1518,7 +1518,7 @@ pcount
 0
 ;
 return
-NULL
+nullptr
 ;
 }
 #
@@ -1575,7 +1575,7 @@ SystemElf
 :
 Load
 (
-NULL
+nullptr
 flags
 )
 ;
@@ -1733,7 +1733,7 @@ char
 *
 abs_path
 =
-NULL
+nullptr
 ;
 const
 char
@@ -2009,7 +2009,7 @@ it
 ;
 }
 return
-NULL
+nullptr
 ;
 }
 Mappable
@@ -2039,7 +2039,7 @@ Mappable
 *
 mappable
 =
-NULL
+nullptr
 ;
 RefPtr
 <
@@ -3073,7 +3073,7 @@ object
 ;
 destructor
 =
-NULL
+nullptr
 ;
 }
 }
@@ -3089,7 +3089,7 @@ DebuggerHelper
 :
 dbg
 (
-NULL
+nullptr
 )
 {
 struct
@@ -3252,7 +3252,7 @@ char
 *
 base
 =
-NULL
+nullptr
 ;
 while
 (
@@ -4156,7 +4156,7 @@ map
 >
 l_prev
 =
-NULL
+nullptr
 ;
 map
 -
@@ -4830,7 +4830,7 @@ return
 sys_sigaction
 (
 SIGSEGV
-NULL
+nullptr
 &
 this
 -
@@ -4872,7 +4872,7 @@ action
 .
 sa_restorer
 =
-NULL
+nullptr
 ;
 if
 (
@@ -4881,7 +4881,7 @@ sys_sigaction
 SIGSEGV
 &
 action
-NULL
+nullptr
 )
 )
 return
@@ -4895,7 +4895,7 @@ MemoryRange
 :
 mmap
 (
-NULL
+nullptr
 PageSize
 (
 )
@@ -4992,7 +4992,7 @@ this
 -
 >
 action
-NULL
+nullptr
 )
 ;
 return
@@ -5002,7 +5002,7 @@ if
 (
 sigaltstack
 (
-NULL
+nullptr
 &
 oldStack
 )
@@ -5050,7 +5050,7 @@ MemoryRange
 :
 mmap
 (
-NULL
+nullptr
 stackSize
 PROT_READ
 |
@@ -5104,7 +5104,7 @@ sigaltstack
 (
 &
 stack
-NULL
+nullptr
 )
 !
 =
@@ -5142,7 +5142,7 @@ sys_sigaction
 SIGSEGV
 &
 action
-NULL
+nullptr
 )
 ;
 }
@@ -5167,7 +5167,7 @@ sigaltstack
 (
 &
 oldStack
-NULL
+nullptr
 )
 ;
 if
@@ -5182,7 +5182,7 @@ this
 -
 >
 action
-NULL
+nullptr
 )
 ;
 }
@@ -5222,7 +5222,7 @@ SIGSEGV
 info
 =
 =
-NULL
+nullptr
 |
 |
 info
@@ -5531,7 +5531,7 @@ signum
 that
 .
 action
-NULL
+nullptr
 )
 ;
 raise

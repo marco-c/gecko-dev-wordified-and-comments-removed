@@ -97,7 +97,7 @@ size
 return
 Create
 (
-NULL
+nullptr
 buffer
 size
 )
@@ -168,7 +168,7 @@ Stream
 :
 compressedBuf
 (
-NULL
+nullptr
 )
 compressedSize
 (
@@ -474,7 +474,7 @@ return
 ret
 ;
 return
-NULL
+nullptr
 ;
 }
 SignedEntity

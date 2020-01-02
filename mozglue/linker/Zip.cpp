@@ -117,7 +117,7 @@ errno
 )
 ;
 return
-NULL
+nullptr
 ;
 }
 struct
@@ -157,7 +157,7 @@ errno
 )
 ;
 return
-NULL
+nullptr
 ;
 }
 size_t
@@ -193,7 +193,7 @@ filename
 )
 ;
 return
-NULL
+nullptr
 ;
 }
 void
@@ -202,7 +202,7 @@ mapped
 =
 mmap
 (
-NULL
+nullptr
 size
 PROT_READ
 MAP_SHARED
@@ -237,7 +237,7 @@ errno
 )
 ;
 return
-NULL
+nullptr
 ;
 }
 DEBUG_LOG
@@ -331,7 +331,7 @@ filename
 )
 ;
 return
-NULL
+nullptr
 ;
 }
 ZipCollection
@@ -373,7 +373,7 @@ strdup
 filename
 )
 :
-NULL
+nullptr
 )
 mapped
 (
@@ -395,11 +395,11 @@ mapped
 )
 nextDir
 (
-NULL
+nullptr
 )
 entries
 (
-NULL
+nullptr
 )
 {
 if
@@ -909,7 +909,7 @@ GetNext
 ;
 nextFile
 =
-NULL
+nullptr
 ;
 return
 true
@@ -941,7 +941,7 @@ CentralDirectoryEnd
 *
 end
 =
-NULL
+nullptr
 ;
 const
 char
@@ -1016,7 +1016,7 @@ name
 )
 ;
 return
-NULL
+nullptr
 ;
 }
 entries

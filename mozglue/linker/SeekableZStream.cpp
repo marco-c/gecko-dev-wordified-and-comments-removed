@@ -1706,10 +1706,10 @@ BCJ_X86_filter
 default
 :
 return
-NULL
+nullptr
 ;
 }
 return
-NULL
+nullptr
 ;
 }

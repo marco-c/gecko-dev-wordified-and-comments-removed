@@ -134,7 +134,7 @@ fd
 )
 ;
 return
-NULL
+nullptr
 ;
 }
 MemoryRange
@@ -310,7 +310,7 @@ extracting
 )
 ;
 return
-NULL
+nullptr
 ;
 }
 mozilla
@@ -494,7 +494,7 @@ get
 )
 ;
 return
-NULL
+nullptr
 ;
 }
 AutoUnlinkFile
@@ -566,7 +566,7 @@ get
 )
 ;
 return
-NULL
+nullptr
 ;
 }
 MappedPtr
@@ -577,7 +577,7 @@ MemoryRange
 :
 mmap
 (
-NULL
+nullptr
 stream
 -
 >
@@ -620,7 +620,7 @@ get
 )
 ;
 return
-NULL
+nullptr
 ;
 }
 z_stream
@@ -663,7 +663,7 @@ msg
 )
 ;
 return
-NULL
+nullptr
 ;
 }
 if
@@ -694,7 +694,7 @@ msg
 )
 ;
 return
-NULL
+nullptr
 ;
 }
 if
@@ -724,7 +724,7 @@ msg
 )
 ;
 return
-NULL
+nullptr
 ;
 }
 if
@@ -775,7 +775,7 @@ GetUncompressedSize
 )
 ;
 return
-NULL
+nullptr
 ;
 }
 }
@@ -840,7 +840,7 @@ name
 )
 ;
 return
-NULL
+nullptr
 ;
 }
 if
@@ -881,7 +881,7 @@ get
 )
 ;
 return
-NULL
+nullptr
 ;
 }
 MappedPtr
@@ -892,7 +892,7 @@ MemoryRange
 :
 mmap
 (
-NULL
+nullptr
 zStream
 .
 GetUncompressedSize
@@ -934,7 +934,7 @@ get
 )
 ;
 return
-NULL
+nullptr
 ;
 }
 if
@@ -968,14 +968,14 @@ name
 )
 ;
 return
-NULL
+nullptr
 ;
 }
 }
 else
 {
 return
-NULL
+nullptr
 ;
 }
 return
@@ -1070,7 +1070,7 @@ fd
 1
 )
 return
-NULL
+nullptr
 ;
 char
 str
@@ -1105,7 +1105,7 @@ length
 )
 )
 return
-NULL
+nullptr
 ;
 #
 if
@@ -1121,7 +1121,7 @@ buf
 :
 mmap
 (
-NULL
+nullptr
 length
 +
 PAGE_SIZE
@@ -1233,7 +1233,7 @@ buf
 :
 mmap
 (
-NULL
+nullptr
 anon_mapping_length
 PROT_NONE
 MAP_PRIVATE
@@ -1326,7 +1326,7 @@ map_page
 )
 ;
 return
-NULL
+nullptr
 ;
 }
 DEBUG_LOG
@@ -1425,7 +1425,7 @@ fd
 1
 )
 return
-NULL
+nullptr
 ;
 unlink
 (
@@ -1446,7 +1446,7 @@ buf
 :
 mmap
 (
-NULL
+nullptr
 length
 PROT_READ
 |
@@ -1506,7 +1506,7 @@ length
 #
 endif
 return
-NULL
+nullptr
 ;
 }
 void
@@ -1752,7 +1752,7 @@ stream
 )
 ;
 return
-NULL
+nullptr
 ;
 }
 MappableDeflate
@@ -2223,11 +2223,11 @@ zStream
 ;
 buffer
 =
-NULL
+nullptr
 ;
 zip
 =
-NULL
+nullptr
 ;
 }
 size_t
@@ -2336,7 +2336,7 @@ recursiveAttr
 )
 )
 return
-NULL
+nullptr
 ;
 if
 (
@@ -2363,7 +2363,7 @@ GetSize
 )
 )
 return
-NULL
+nullptr
 ;
 mappable
 -
@@ -2395,7 +2395,7 @@ mappable
 buffer
 )
 return
-NULL
+nullptr
 ;
 mappable
 -
