@@ -149,15 +149,15 @@ JS_InitClass
 (
 aCx
 aObj
-NULL
+nullptr
 &
 sClass
 Construct
 0
 sProperties
 sFunctions
-NULL
-NULL
+nullptr
+nullptr
 )
 ;
 }
@@ -199,8 +199,8 @@ JS_NewObject
 aCx
 &
 sClass
-NULL
-NULL
+nullptr
+nullptr
 )
 ;
 if
@@ -281,7 +281,7 @@ JS_ReportErrorNumber
 (
 aCx
 js_GetErrorMessage
-NULL
+nullptr
 JSMSG_INCOMPATIBLE_PROTO
 sClass
 .
@@ -297,7 +297,7 @@ name
 )
 ;
 return
-NULL
+nullptr
 ;
 }
 static
@@ -1177,9 +1177,9 @@ sClass
 Construct
 0
 sProperties
-NULL
-NULL
-NULL
+nullptr
+nullptr
+nullptr
 )
 ;
 }
@@ -1221,8 +1221,8 @@ JS_NewObject
 aCx
 &
 sClass
-NULL
-NULL
+nullptr
+nullptr
 )
 ;
 if
@@ -1319,7 +1319,7 @@ file
 }
 }
 return
-NULL
+nullptr
 ;
 }
 static
@@ -1382,7 +1382,7 @@ JS_ReportErrorNumber
 (
 aCx
 js_GetErrorMessage
-NULL
+nullptr
 JSMSG_INCOMPATIBLE_PROTO
 sClass
 .
@@ -1398,7 +1398,7 @@ name
 )
 ;
 return
-NULL
+nullptr
 ;
 }
 static
@@ -1419,7 +1419,7 @@ JS_ReportErrorNumber
 (
 aCx
 js_GetErrorMessage
-NULL
+nullptr
 JSMSG_WRONG_CONSTRUCTOR
 sClass
 .
@@ -2344,7 +2344,7 @@ blob
 }
 }
 return
-NULL
+nullptr
 ;
 }
 }

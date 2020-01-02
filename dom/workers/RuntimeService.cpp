@@ -3516,7 +3516,7 @@ JSSecurityCallbacks
 securityCallbacks
 =
 {
-NULL
+nullptr
 ContentSecurityPolicyAllows
 }
 ;

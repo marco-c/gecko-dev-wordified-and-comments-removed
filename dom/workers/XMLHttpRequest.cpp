@@ -4950,7 +4950,7 @@ Clear
 {
 mXMLHttpRequestPrivate
 =
-NULL
+nullptr
 ;
 }
 private
@@ -5683,11 +5683,11 @@ aCx
 )
 mJSObject
 (
-NULL
+nullptr
 )
 mUpload
 (
-NULL
+nullptr
 )
 mWorkerPrivate
 (
@@ -5919,7 +5919,7 @@ NS_ERROR_FAILURE
 )
 ;
 return
-NULL
+nullptr
 ;
 }
 if
@@ -7549,7 +7549,7 @@ UNCATCHABLE_EXCEPTION
 )
 ;
 return
-NULL
+nullptr
 ;
 }
 if
@@ -7587,7 +7587,7 @@ NS_ERROR_FAILURE
 )
 ;
 return
-NULL
+nullptr
 ;
 }
 mUpload

@@ -2439,8 +2439,8 @@ attachmentObj
 id
 "
 tmpJsVal
-NULL
-NULL
+nullptr
+nullptr
 JSPROP_ENUMERATE
 )
 )
@@ -2494,8 +2494,8 @@ attachmentObj
 location
 "
 tmpJsVal
-NULL
-NULL
+nullptr
+nullptr
 JSPROP_ENUMERATE
 )
 )
@@ -2563,8 +2563,8 @@ attachmentObj
 content
 "
 tmpJsVal
-NULL
-NULL
+nullptr
+nullptr
 JSPROP_ENUMERATE
 )
 )

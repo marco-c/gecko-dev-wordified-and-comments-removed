@@ -217,7 +217,7 @@ windowPropVal
 )
 {
 return
-NULL
+nullptr
 ;
 }
 if
@@ -263,7 +263,7 @@ protoVal
 )
 {
 return
-NULL
+nullptr
 ;
 }
 if
@@ -331,7 +331,7 @@ proto
 )
 {
 return
-NULL
+nullptr
 ;
 }
 JS
@@ -359,7 +359,7 @@ ctor
 )
 {
 return
-NULL
+nullptr
 ;
 }
 if
@@ -389,7 +389,7 @@ sStaticConstants
 )
 {
 return
-NULL
+nullptr
 ;
 }
 return
@@ -451,7 +451,7 @@ JS_NewObject
 (
 aCx
 clasp
-NULL
+nullptr
 aParent
 )
 ;
@@ -747,7 +747,7 @@ JS_ReportErrorNumber
 (
 aCx
 js_GetErrorMessage
-NULL
+nullptr
 JSMSG_INCOMPATIBLE_PROTO
 sClass
 .
@@ -763,7 +763,7 @@ name
 )
 ;
 return
-NULL
+nullptr
 ;
 }
 static
@@ -914,7 +914,7 @@ JS_ReportErrorNumber
 (
 aCx
 js_GetErrorMessage
-NULL
+nullptr
 JSMSG_WRONG_CONSTRUCTOR
 sClass
 .
@@ -1921,8 +1921,8 @@ Construct
 0
 sProperties
 sFunctions
-NULL
-NULL
+nullptr
+nullptr
 )
 ;
 }
@@ -1986,7 +1986,7 @@ type
 )
 {
 return
-NULL
+nullptr
 ;
 }
 const
@@ -2017,7 +2017,7 @@ JS_NewObject
 (
 aCx
 clasp
-NULL
+nullptr
 aParent
 )
 )
@@ -2029,7 +2029,7 @@ obj
 )
 {
 return
-NULL
+nullptr
 ;
 }
 JS
@@ -2058,7 +2058,7 @@ ports
 )
 {
 return
-NULL
+nullptr
 ;
 }
 MessageEvent
@@ -2085,9 +2085,9 @@ priv
 type
 false
 false
-NULL
-NULL
-NULL
+nullptr
+nullptr
+nullptr
 ports
 true
 )
@@ -2276,7 +2276,7 @@ ports
 )
 {
 return
-NULL
+nullptr
 ;
 }
 MessageEvent
@@ -2432,7 +2432,7 @@ JS_ReportErrorNumber
 (
 aCx
 js_GetErrorMessage
-NULL
+nullptr
 JSMSG_INCOMPATIBLE_PROTO
 sClass
 .
@@ -2445,7 +2445,7 @@ name
 )
 ;
 return
-NULL
+nullptr
 ;
 }
 static
@@ -2578,7 +2578,7 @@ JS_ReportErrorNumber
 (
 aCx
 js_GetErrorMessage
-NULL
+nullptr
 JSMSG_WRONG_CONSTRUCTOR
 sClass
 .
@@ -3399,8 +3399,8 @@ Construct
 0
 sProperties
 sFunctions
-NULL
-NULL
+nullptr
+nullptr
 )
 ;
 }
@@ -3472,7 +3472,7 @@ type
 )
 {
 return
-NULL
+nullptr
 ;
 }
 const
@@ -3503,7 +3503,7 @@ JS_NewObject
 (
 aCx
 clasp
-NULL
+nullptr
 aParent
 )
 )
@@ -3515,7 +3515,7 @@ obj
 )
 {
 return
-NULL
+nullptr
 ;
 }
 ErrorEvent
@@ -3660,7 +3660,7 @@ JS_ReportErrorNumber
 (
 aCx
 js_GetErrorMessage
-NULL
+nullptr
 JSMSG_INCOMPATIBLE_PROTO
 sClass
 .
@@ -3673,7 +3673,7 @@ name
 )
 ;
 return
-NULL
+nullptr
 ;
 }
 static
@@ -3767,7 +3767,7 @@ JS_ReportErrorNumber
 (
 aCx
 js_GetErrorMessage
-NULL
+nullptr
 JSMSG_WRONG_CONSTRUCTOR
 sClass
 .
@@ -4353,9 +4353,9 @@ sClass
 Construct
 0
 sProperties
-NULL
-NULL
-NULL
+nullptr
+nullptr
+nullptr
 )
 ;
 }
@@ -4418,7 +4418,7 @@ type
 )
 {
 return
-NULL
+nullptr
 ;
 }
 JS
@@ -4437,7 +4437,7 @@ JS_NewObject
 aCx
 &
 sClass
-NULL
+nullptr
 aParent
 )
 )
@@ -4449,7 +4449,7 @@ obj
 )
 {
 return
-NULL
+nullptr
 ;
 }
 ProgressEvent
@@ -4594,7 +4594,7 @@ JS_ReportErrorNumber
 (
 aCx
 js_GetErrorMessage
-NULL
+nullptr
 JSMSG_INCOMPATIBLE_PROTO
 sClass
 .
@@ -4607,7 +4607,7 @@ name
 )
 ;
 return
-NULL
+nullptr
 ;
 }
 static
@@ -4700,7 +4700,7 @@ JS_ReportErrorNumber
 (
 aCx
 js_GetErrorMessage
-NULL
+nullptr
 JSMSG_WRONG_CONSTRUCTOR
 sClass
 .
@@ -5095,7 +5095,7 @@ aObj
 }
 }
 return
-NULL
+nullptr
 ;
 }
 }

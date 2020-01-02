@@ -52,13 +52,13 @@ return
 Wrap
 (
 aCx
-NULL
+nullptr
 upload
 )
 ?
 upload
 :
-NULL
+nullptr
 ;
 }
 void

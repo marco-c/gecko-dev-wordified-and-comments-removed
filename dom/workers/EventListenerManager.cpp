@@ -160,7 +160,7 @@ collection
 )
 {
 return
-NULL
+nullptr
 ;
 }
 new
@@ -317,7 +317,7 @@ listenerData
 )
 {
 return
-NULL
+nullptr
 ;
 }
 new
@@ -1237,7 +1237,7 @@ mListener
 }
 }
 return
-NULL
+nullptr
 ;
 }
 bool

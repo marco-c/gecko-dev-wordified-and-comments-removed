@@ -437,7 +437,7 @@ sVolumeManager
 )
 {
 return
-NULL
+nullptr
 ;
 }
 VolumeArray
@@ -503,7 +503,7 @@ vol
 }
 }
 return
-NULL
+nullptr
 ;
 }
 TemporaryRef
@@ -1651,7 +1651,7 @@ XRE_GetIOMessageLoop
 ;
 sVolumeManager
 =
-NULL
+nullptr
 ;
 }
 void

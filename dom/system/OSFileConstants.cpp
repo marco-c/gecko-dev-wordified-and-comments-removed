@@ -419,7 +419,7 @@ Paths
 *
 gPaths
 =
-NULL
+nullptr
 ;
 }
 nsresult
@@ -947,7 +947,7 @@ name
 define
 PROP_END
 {
-NULL
+nullptr
 JS
 :
 :
@@ -2162,7 +2162,7 @@ val
 )
 {
 return
-NULL
+nullptr
 ;
 }
 if
@@ -2197,7 +2197,7 @@ JS_ReportErrorNumber
 (
 cx
 js_GetErrorMessage
-NULL
+nullptr
 JSMSG_UNEXPECTED_TYPE
 aProperty
 "
@@ -2208,7 +2208,7 @@ object
 )
 ;
 return
-NULL
+nullptr
 ;
 }
 return
@@ -2217,8 +2217,8 @@ JS_DefineObject
 cx
 aObject
 aProperty
-NULL
-NULL
+nullptr
+nullptr
 JSPROP_ENUMERATE
 )
 ;
@@ -2336,14 +2336,14 @@ if
 gPaths
 =
 =
-NULL
+nullptr
 )
 {
 JS_ReportErrorNumber
 (
 cx
 js_GetErrorMessage
-NULL
+nullptr
 JSMSG_CANT_OPEN
 "
 OSFileConstants

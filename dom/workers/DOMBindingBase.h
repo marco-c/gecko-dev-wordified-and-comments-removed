@@ -262,7 +262,7 @@ DOMBindingAnchor
 :
 mBinding
 (
-NULL
+nullptr
 )
 {
 }
