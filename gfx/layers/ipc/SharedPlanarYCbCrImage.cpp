@@ -342,6 +342,9 @@ SharedPlanarYCbCrImage
 :
 GetTextureClient
 (
+CompositableClient
+*
+aClient
 )
 {
 return

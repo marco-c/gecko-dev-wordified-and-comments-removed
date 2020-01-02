@@ -311,6 +311,9 @@ TextureClient
 *
 GetTextureClient
 (
+CompositableClient
+*
+aClient
 )
 MOZ_OVERRIDE
 ;
