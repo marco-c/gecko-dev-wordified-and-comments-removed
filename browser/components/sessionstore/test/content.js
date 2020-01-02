@@ -110,9 +110,6 @@ onFrameTreeCollected
 }
 )
 ;
-let
-webNav
-=
 docShell
 .
 QueryInterface
@@ -121,8 +118,6 @@ Ci
 .
 nsIWebNavigation
 )
-;
-webNav
 .
 sessionHistory
 .
