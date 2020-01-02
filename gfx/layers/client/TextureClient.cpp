@@ -1359,12 +1359,12 @@ MemoryTextureClient
 ;
 if
 (
+mBuffer
+&
+&
 ShouldDeallocateInDestructor
 (
 )
-&
-&
-mBuffer
 )
 {
 GfxMemoryImageReporter
