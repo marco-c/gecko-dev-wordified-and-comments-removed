@@ -1006,7 +1006,7 @@ aGLContext
 ;
 -
 (
-void
+bool
 )
 preRender
 :
@@ -1926,7 +1926,7 @@ CleanupWindowEffects
 MOZ_OVERRIDE
 ;
 virtual
-void
+bool
 PreRender
 (
 LayerManager
