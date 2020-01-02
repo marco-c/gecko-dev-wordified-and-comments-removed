@@ -686,6 +686,11 @@ sources
 =
 [
 '
+AboutPages
+.
+java
+'
+'
 ActivityHandlerHelper
 .
 java
