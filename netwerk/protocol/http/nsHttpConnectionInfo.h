@@ -471,12 +471,6 @@ UsingProxy
 (
 )
 ;
-bool
-HostIsLocalIPLiteral
-(
-)
-const
-;
 private
 :
 mozilla
