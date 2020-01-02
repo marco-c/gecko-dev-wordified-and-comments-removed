@@ -270,13 +270,9 @@ src
 '
 '
 /
-content
+dom
 /
 mathml
-/
-content
-/
-src
 '
 ]
 if
