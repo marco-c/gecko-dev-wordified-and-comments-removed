@@ -474,13 +474,12 @@ forget
 )
 ;
 }
-nsresult
+already_AddRefed
+<
+nsMediaList
+>
 Clone
 (
-nsMediaList
-*
-*
-aResult
 )
 ;
 int32_t

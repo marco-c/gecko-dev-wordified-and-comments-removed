@@ -3021,6 +3021,8 @@ aCopy
 mMedia
 )
 {
+mMedia
+=
 aCopy
 .
 mMedia
@@ -3028,17 +3030,8 @@ mMedia
 >
 Clone
 (
-getter_AddRefs
-(
-mMedia
-)
 )
 ;
-if
-(
-mMedia
-)
-{
 mMedia
 -
 >
@@ -3051,7 +3044,6 @@ GetStyleSheet
 )
 )
 ;
-}
 }
 }
 MediaRule
