@@ -233,6 +233,11 @@ SOURCES
 =
 [
 '
+mach_override
+.
+c
+'
+'
 mozPoisonWriteBase
 .
 cpp

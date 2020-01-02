@@ -121,13 +121,6 @@ the
 same
 wrapper
 program
-CSRCS
-=
-run
--
-b2g
-.
-c
 DEFINES
 +
 =

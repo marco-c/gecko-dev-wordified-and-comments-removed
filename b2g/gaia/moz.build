@@ -126,3 +126,17 @@ b2g
 cpp
 '
 ]
+else
+:
+SOURCES
++
+=
+[
+'
+run
+-
+b2g
+.
+c
+'
+]

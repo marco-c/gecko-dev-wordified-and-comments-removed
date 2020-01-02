@@ -203,12 +203,6 @@ OS_TARGET
 )
 )
 endif
-CSRCS
-=
-\
-(
-NULL
-)
 include
 (
 topsrcdir
