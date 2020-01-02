@@ -3551,6 +3551,8 @@ MacroAssembler
 masm
 Register
 obj
+ValueOperand
+val
 Register
 scratch
 GeneralRegisterSet
