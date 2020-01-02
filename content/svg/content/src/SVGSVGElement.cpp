@@ -2916,7 +2916,7 @@ aDocument
 aDocument
 -
 >
-EnsureCatalogStyleSheet
+EnsureOnDemandBuiltInUASheet
 (
 kSVGStyleSheetURI
 )

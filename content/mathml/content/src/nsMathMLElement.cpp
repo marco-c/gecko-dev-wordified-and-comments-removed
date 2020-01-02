@@ -509,7 +509,7 @@ SetMathMLEnabled
 aDocument
 -
 >
-EnsureCatalogStyleSheet
+EnsureOnDemandBuiltInUASheet
 (
 kMathMLStyleSheetURI
 )
