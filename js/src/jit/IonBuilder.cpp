@@ -18366,14 +18366,13 @@ nonLazyScript
 ;
 if
 (
+!
 targetScript
 -
 >
 shouldInline
 )
-return
-true
-;
+{
 if
 (
 IsSmallFunction
@@ -18692,6 +18691,7 @@ lineno
 return
 false
 ;
+}
 }
 JS_ASSERT
 (
