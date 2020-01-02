@@ -393,6 +393,12 @@ rv
 ;
 nsCOMPtr
 <
+nsISupports
+>
+supports
+;
+nsCOMPtr
+<
 nsISupportsCString
 >
 entry
@@ -406,7 +412,7 @@ GetNext
 (
 getter_AddRefs
 (
-entry
+supports
 )
 )
 ;
@@ -418,6 +424,13 @@ rv
 )
 )
 {
+entry
+=
+do_QueryInterface
+(
+supports
+)
+;
 nsAutoCString
 entryString
 ;
@@ -484,7 +497,7 @@ GetNext
 (
 getter_AddRefs
 (
-entry
+supports
 )
 )
 ;

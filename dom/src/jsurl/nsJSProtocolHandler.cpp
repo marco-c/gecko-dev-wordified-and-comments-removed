@@ -4544,6 +4544,12 @@ if
 haveBase
 )
 {
+nsCOMPtr
+<
+nsISupports
+>
+supports
+;
 rv
 =
 aStream
@@ -4554,7 +4560,7 @@ ReadObject
 true
 getter_AddRefs
 (
-mBaseURI
+supports
 )
 )
 ;
@@ -4567,6 +4573,13 @@ rv
 )
 return
 rv
+;
+mBaseURI
+=
+do_QueryInterface
+(
+supports
+)
 ;
 }
 return

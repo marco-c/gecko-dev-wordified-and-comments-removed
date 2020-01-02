@@ -3100,14 +3100,6 @@ fooP
 )
 )
 ;
-AnISupportsPtrPtrContext
-(
-getter_AddRefs
-(
-fooP
-)
-)
-;
 }
 {
 nsCOMPtr

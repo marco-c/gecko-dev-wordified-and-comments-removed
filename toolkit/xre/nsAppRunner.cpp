@@ -8539,9 +8539,9 @@ false
 ;
 nsCOMPtr
 <
-nsIToolkitProfile
+nsISupports
 >
-profile
+supports
 ;
 rv
 =
@@ -8552,7 +8552,7 @@ GetNext
 (
 getter_AddRefs
 (
-profile
+supports
 )
 )
 ;
@@ -8564,6 +8564,17 @@ rv
 )
 )
 {
+nsCOMPtr
+<
+nsIToolkitProfile
+>
+profile
+=
+do_QueryInterface
+(
+supports
+)
+;
 nsCOMPtr
 <
 nsIFile
@@ -8638,7 +8649,7 @@ GetNext
 (
 getter_AddRefs
 (
-profile
+supports
 )
 )
 ;
