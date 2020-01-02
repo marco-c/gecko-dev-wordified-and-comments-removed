@@ -1017,7 +1017,7 @@ name
 =
 worklist
 .
-pop
+shift
 (
 )
 ;
