@@ -758,8 +758,9 @@ aRes
 void
 Connect
 (
-bt_bdaddr_t
-*
+const
+nsAString
+&
 aBdAddr
 BluetoothA2dpResultHandler
 *
@@ -769,8 +770,9 @@ aRes
 void
 Disconnect
 (
-bt_bdaddr_t
-*
+const
+nsAString
+&
 aBdAddr
 BluetoothA2dpResultHandler
 *
