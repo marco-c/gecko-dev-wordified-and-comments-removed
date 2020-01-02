@@ -546,6 +546,16 @@ bottom
 ;
 }
 #
+isNotDefaultLabel
+{
+font
+-
+weight
+:
+bold
+;
+}
+#
 downloadFolder
 {
 -

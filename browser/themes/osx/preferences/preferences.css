@@ -661,6 +661,16 @@ box
 important
 ;
 }
+#
+isNotDefaultLabel
+{
+font
+-
+weight
+:
+bold
+;
+}
 html
 |
 a
