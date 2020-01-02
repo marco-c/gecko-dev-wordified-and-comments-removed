@@ -928,8 +928,6 @@ resolve
 this
 .
 response
-.
-body
 )
 ;
 }

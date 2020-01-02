@@ -354,16 +354,6 @@ this
 CREDENTIALS_DERIVATION_INFO
 =
 "
-identity
-.
-mozilla
-.
-com
-/
-picl
-/
-v1
-/
 sessionToken
 "
 ;

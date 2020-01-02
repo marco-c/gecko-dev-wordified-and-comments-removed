@@ -349,6 +349,8 @@ JSON
 parse
 (
 response
+.
+body
 )
 ;
 do_check_eq
@@ -509,6 +511,8 @@ JSON
 parse
 (
 response
+.
+body
 )
 ;
 do_check_eq
@@ -674,6 +678,8 @@ JSON
 parse
 (
 result
+.
+body
 )
 .
 msg
@@ -1508,6 +1514,8 @@ credentials
 do_check_eq
 (
 response
+.
+body
 "
 "
 )
@@ -1782,6 +1790,8 @@ credentials
 do_check_eq
 (
 response
+.
+body
 "
 i
 love
