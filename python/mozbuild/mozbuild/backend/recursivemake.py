@@ -2342,6 +2342,35 @@ cpp
             
 )
             
+files_per_unification
+=
+16
+            
+if
+'
+FILES_PER_UNIFIED_FILE
+'
+in
+obj
+.
+variables
+.
+keys
+(
+)
+:
+                
+files_per_unification
+=
+obj
+.
+variables
+[
+'
+FILES_PER_UNIFIED_FILE
+'
+]
+            
 do_unify
 =
 not
@@ -2358,6 +2387,10 @@ get
 MOZ_DISABLE_UNIFIED_COMPILATION
 '
 )
+and
+files_per_unification
+>
+1
             
 for
 k
@@ -2442,6 +2475,10 @@ k
 include_curdir_build_rules
 =
 False
+                            
+files_per_unified_file
+=
+files_per_unification
 )
                         
 backend_file
@@ -4051,12 +4088,12 @@ True
 poison_windows_h
 =
 False
-)
-:
-        
+                                 
 files_per_unified_file
 =
 16
+)
+:
         
 explanation
 =
