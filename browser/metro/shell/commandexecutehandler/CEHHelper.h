@@ -112,11 +112,13 @@ process
 )
 ;
 bool
-IsImmersiveProcessRunning
+IsProcessRunning
 (
 const
 wchar_t
 *
 processName
+bool
+bCheckIfMetro
 )
 ;
