@@ -64,7 +64,7 @@ NumRASEntries
 nsresult
 GetDefaultEntryName
 (
-PRUnichar
+wchar_t
 *
 entryName
 int
@@ -74,7 +74,7 @@ bufferSize
 nsresult
 GetFirstEntryName
 (
-PRUnichar
+wchar_t
 *
 entryName
 int
@@ -94,9 +94,7 @@ QueryAutodialBehavior
 bool
 AddAddressToAutodialDirectory
 (
-const
-PRUnichar
-*
+char16ptr_t
 hostName
 )
 ;
@@ -149,7 +147,7 @@ AUTODIAL_USE_SERVICE
 int
 mNumRASConnectionEntries
 ;
-PRUnichar
+wchar_t
 mDefaultEntryName
 [
 RAS_MaxEntryName

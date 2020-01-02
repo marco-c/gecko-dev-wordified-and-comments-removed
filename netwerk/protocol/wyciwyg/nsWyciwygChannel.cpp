@@ -1659,6 +1659,7 @@ mCacheOutputStream
 Write
 (
 (
+const
 char
 *
 )
