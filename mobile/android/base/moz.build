@@ -830,6 +830,13 @@ java
 '
 db
 /
+BrowserDatabaseHelper
+.
+java
+'
+'
+db
+/
 BrowserDB
 .
 java
@@ -894,6 +901,13 @@ java
 db
 /
 TabsProvider
+.
+java
+'
+'
+db
+/
+TransactionalProvider
 .
 java
 '
