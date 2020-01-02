@@ -452,15 +452,6 @@ WrapObject
 JSContext
 *
 aCx
-JS
-:
-:
-Handle
-<
-JSObject
-*
->
-aScope
 )
 {
 if
@@ -475,7 +466,6 @@ DOMRequest
 WrapObject
 (
 aCx
-aScope
 )
 ;
 }

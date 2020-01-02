@@ -4398,6 +4398,15 @@ GetGlobalJSObject
 )
 )
 ;
+js
+:
+:
+AssertSameCompartment
+(
+cx
+global
+)
+;
 flat
 =
 cache
@@ -4406,7 +4415,6 @@ cache
 WrapObject
 (
 cx
-global
 )
 ;
 if

@@ -53128,15 +53128,6 @@ WrapObject
 JSContext
 *
 aCx
-JS
-:
-:
-Handle
-<
-JSObject
-*
->
-aScope
 )
 {
 MOZ_ASSERT
@@ -53163,7 +53154,6 @@ nsINode
 WrapObject
 (
 aCx
-aScope
 )
 )
 ;

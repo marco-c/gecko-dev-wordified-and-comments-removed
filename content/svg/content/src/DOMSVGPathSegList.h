@@ -112,15 +112,6 @@ WrapObject
 JSContext
 *
 cx
-JS
-:
-:
-Handle
-<
-JSObject
-*
->
-scope
 )
 MOZ_OVERRIDE
 ;

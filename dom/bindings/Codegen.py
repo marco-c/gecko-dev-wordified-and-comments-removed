@@ -83068,23 +83068,6 @@ JSContext
 aCx
 '
 )
-                    
-Argument
-(
-'
-JS
-:
-:
-Handle
-<
-JSObject
-*
->
-'
-'
-aScope
-'
-)
 ]
         
 self
@@ -83923,15 +83906,6 @@ WrapObject
 JSContext
 *
 aCx
-JS
-:
-:
-Handle
-<
-JSObject
-*
->
-aScope
 )
 {
   
