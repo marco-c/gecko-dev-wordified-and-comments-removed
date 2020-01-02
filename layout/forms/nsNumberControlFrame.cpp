@@ -2763,7 +2763,9 @@ value
 )
 &
 &
+value
 !
+=
 HTMLInputElement
 :
 :
@@ -2772,7 +2774,7 @@ StringToDecimal
 aValue
 )
 .
-isFinite
+toDouble
 (
 )
 )
