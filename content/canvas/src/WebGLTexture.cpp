@@ -257,7 +257,7 @@ return
 0
 ;
 int64_t
-bitsPerTexel
+texelSizeInBits
 =
 WebGLContext
 :
@@ -279,7 +279,7 @@ int64_t
 mHeight
 )
 *
-bitsPerTexel
+texelSizeInBits
 /
 8
 ;

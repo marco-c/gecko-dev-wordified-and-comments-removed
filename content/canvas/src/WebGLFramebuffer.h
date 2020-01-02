@@ -148,12 +148,6 @@ HasAlpha
 )
 const
 ;
-bool
-IsReadableFloat
-(
-)
-const
-;
 void
 SetTexImage
 (

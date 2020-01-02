@@ -280,16 +280,6 @@ WebGLExtensionBase
 cpp
 '
 '
-WebGLExtensionColorBufferFloat
-.
-cpp
-'
-'
-WebGLExtensionColorBufferHalfFloat
-.
-cpp
-'
-'
 WebGLExtensionCompressedTextureATC
 .
 cpp

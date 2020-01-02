@@ -5109,7 +5109,6 @@ ContextLostAwaitingRestore
 enum
 WebGLExtensionID
 {
-EXT_color_buffer_half_float
 EXT_frag_depth
 EXT_sRGB
 EXT_texture_filter_anisotropic
@@ -5120,7 +5119,6 @@ OES_texture_float_linear
 OES_texture_half_float
 OES_texture_half_float_linear
 OES_vertex_array_object
-WEBGL_color_buffer_float
 WEBGL_compressed_texture_atc
 WEBGL_compressed_texture_pvrtc
 WEBGL_compressed_texture_s3tc
