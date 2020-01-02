@@ -183,6 +183,14 @@ GLenum
 aTextureTarget
 )
 ;
+bool
+CanUploadSubTextures
+(
+GLContext
+*
+gl
+)
+;
 }
 }
 #
