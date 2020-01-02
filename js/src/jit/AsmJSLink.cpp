@@ -2866,6 +2866,8 @@ base
 +
 func
 .
+pod
+.
 startCodeOffset
 ;
 uint8_t
@@ -2875,6 +2877,8 @@ end
 base
 +
 func
+.
+pod
 .
 endCodeOffset
 ;
@@ -3084,7 +3088,7 @@ i
 <
 module
 .
-numPerfFunctions
+numProfiledFunctions
 (
 )
 ;
@@ -3103,7 +3107,7 @@ func
 =
 module
 .
-perfProfiledFunction
+profiledFunction
 (
 i
 )
@@ -3119,6 +3123,8 @@ long
 )
 func
 .
+pod
+.
 startCodeOffset
 ;
 uintptr_t
@@ -3131,6 +3137,8 @@ unsigned
 long
 )
 func
+.
+pod
 .
 endCodeOffset
 ;
@@ -3182,8 +3190,12 @@ size
 filename
 func
 .
+pod
+.
 lineno
 func
+.
+pod
 .
 columnIndex
 name
@@ -3286,9 +3298,13 @@ size
 =
 func
 .
+pod
+.
 endCodeOffset
 -
 func
+.
+pod
 .
 startCodeOffset
 ;
@@ -3322,6 +3338,8 @@ writePerfSpewerAsmJSBlocksMap
 (
 funcBaseAddress
 func
+.
+pod
 .
 startCodeOffset
 func
