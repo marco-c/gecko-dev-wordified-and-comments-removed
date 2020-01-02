@@ -641,6 +641,10 @@ false
 ;
 if
 (
+mCompartment
+&
+&
+(
 mExceptionHandling
 =
 =
@@ -651,6 +655,7 @@ mExceptionHandling
 =
 =
 eRethrowExceptions
+)
 )
 {
 JS
