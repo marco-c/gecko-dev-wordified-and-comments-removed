@@ -5771,3 +5771,17 @@ html
 "
 )
 ;
+pref
+(
+"
+media
+.
+webspeech
+.
+synth
+.
+enabled
+"
+true
+)
+;
