@@ -3677,6 +3677,7 @@ MOZ_B2G_RIL
 }
 #
 endif
+}
 if
 (
 this
@@ -3700,7 +3701,6 @@ TOPIC_ACTIVE_CHANGED
 null
 )
 ;
-}
 }
 if
 (
