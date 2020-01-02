@@ -4713,6 +4713,16 @@ aFlags
 PAINT_DEFAULT
 )
 ;
+enum
+{
+UPDATE_IS_ASYNC
+=
+1
+<
+<
+0
+}
+;
 Layer
 *
 InvalidateLayer
@@ -4725,6 +4735,10 @@ nsIntRect
 aDamageRect
 =
 nullptr
+uint32_t
+aFlags
+=
+0
 )
 ;
 nsRect

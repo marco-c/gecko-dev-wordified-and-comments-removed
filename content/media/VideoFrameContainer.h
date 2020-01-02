@@ -212,9 +212,6 @@ mIntrinsicSizeChanged
 bool
 mImageSizeChanged
 ;
-bool
-mNeedInvalidation
-;
 }
 ;
 }
