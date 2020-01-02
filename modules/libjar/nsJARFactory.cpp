@@ -226,9 +226,15 @@ nsJarShutdown
 (
 )
 {
+nsJARProtocolHandler
+*
+handler
+=
+gJarHandler
+;
 NS_IF_RELEASE
 (
-gJarHandler
+handler
 )
 ;
 }
