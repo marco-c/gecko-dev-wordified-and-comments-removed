@@ -3094,6 +3094,16 @@ GetDefaultStep
 const
 ;
 nsresult
+GetValueIfStepped
+(
+int32_t
+aStep
+Decimal
+*
+aNextStep
+)
+;
+nsresult
 ApplyStep
 (
 int32_t
