@@ -13894,10 +13894,10 @@ isObject
 NS_ERROR_INVALID_ARG
 )
 ;
-JSObject
-*
+RootedObject
 global
-=
+(
+cx
 UncheckedUnwrap
 (
 &
@@ -13907,6 +13907,7 @@ toObject
 (
 )
 false
+)
 )
 ;
 NS_ENSURE_TRUE
@@ -13995,10 +13996,10 @@ isObject
 NS_ERROR_INVALID_ARG
 )
 ;
-JSObject
-*
+RootedObject
 global
-=
+(
+cx
 UncheckedUnwrap
 (
 &
@@ -14008,6 +14009,7 @@ toObject
 (
 )
 false
+)
 )
 ;
 NS_ENSURE_TRUE
