@@ -544,11 +544,6 @@ GMPThread
 "
 )
 {
-MOZ_COUNT_CTOR
-(
-GMPThread
-)
-;
 }
 GMPThreadImpl
 :
@@ -558,11 +553,6 @@ GMPThreadImpl
 (
 )
 {
-MOZ_COUNT_DTOR
-(
-GMPThread
-)
-;
 }
 void
 GMPThreadImpl
@@ -667,7 +657,6 @@ Join
 (
 )
 {
-{
 MutexAutoLock
 lock
 (
@@ -690,10 +679,6 @@ Stop
 )
 ;
 }
-}
-delete
-this
-;
 }
 GMPMutexImpl
 :
