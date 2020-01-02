@@ -37426,7 +37426,7 @@ false
 JSRuntime
 :
 :
-AutoLockForOperationCallback
+AutoLockForInterrupt
 lock
 (
 cx

@@ -9963,7 +9963,7 @@ charsLen
 if
 (
 !
-JS_CHECK_OPERATION_LIMIT
+CheckForInterrupt
 (
 cx
 )
@@ -11311,7 +11311,7 @@ count
 if
 (
 !
-JS_CHECK_OPERATION_LIMIT
+CheckForInterrupt
 (
 cx
 )
@@ -14102,7 +14102,7 @@ charsLen
 if
 (
 !
-JS_CHECK_OPERATION_LIMIT
+CheckForInterrupt
 (
 cx
 )

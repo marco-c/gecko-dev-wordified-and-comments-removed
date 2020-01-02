@@ -1716,12 +1716,12 @@ true
 runtime_
 -
 >
-triggerOperationCallback
+requestInterrupt
 (
 JSRuntime
 :
 :
-TriggerCallbackMainThread
+RequestInterruptMainThread
 )
 ;
 }

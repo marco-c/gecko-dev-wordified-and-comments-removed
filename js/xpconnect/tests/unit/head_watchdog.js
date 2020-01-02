@@ -205,7 +205,7 @@ WatchdogWakeup
 "
 )
 ;
-setOperationCallback
+setInterruptCallback
 (
 function
 (
@@ -235,7 +235,7 @@ do_check_true
 expectInterrupt
 )
 ;
-setOperationCallback
+setInterruptCallback
 (
 undefined
 )
@@ -268,7 +268,7 @@ do_check_true
 expectInterrupt
 )
 ;
-setOperationCallback
+setInterruptCallback
 (
 undefined
 )

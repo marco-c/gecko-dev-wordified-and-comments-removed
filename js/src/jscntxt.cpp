@@ -4835,7 +4835,10 @@ nullptr
 ;
 }
 bool
-js_InvokeOperationCallback
+js
+:
+:
+InvokeInterruptCallback
 (
 JSContext
 *
@@ -4916,7 +4919,7 @@ cx
 ;
 #
 endif
-JSOperationCallback
+JSInterruptCallback
 cb
 =
 cx
@@ -4927,7 +4930,7 @@ runtime
 )
 -
 >
-operationCallback
+interruptCallback
 ;
 if
 (
@@ -5007,7 +5010,10 @@ false
 ;
 }
 bool
-js_HandleExecutionInterrupt
+js
+:
+:
+HandleExecutionInterrupt
 (
 JSContext
 *
@@ -5027,7 +5033,7 @@ runtime
 interrupt
 )
 return
-js_InvokeOperationCallback
+InvokeInterruptCallback
 (
 cx
 )

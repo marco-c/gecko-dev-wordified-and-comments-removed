@@ -1565,7 +1565,7 @@ struct
 StaticLinkData
 {
 uint32_t
-operationCallbackExitOffset
+interruptExitOffset
 ;
 RelativeLinkVector
 relativeLinks
@@ -1815,7 +1815,7 @@ code_
 ;
 uint8_t
 *
-operationCallbackExit_
+interruptExit_
 ;
 StaticLinkData
 staticLinkData_
@@ -3898,7 +3898,7 @@ link
 ;
 }
 void
-setOperationCallbackOffset
+setInterruptOffset
 (
 uint32_t
 offset
@@ -3906,7 +3906,7 @@ offset
 {
 staticLinkData_
 .
-operationCallbackExitOffset
+interruptExitOffset
 =
 offset
 ;
@@ -3961,13 +3961,13 @@ code_
 }
 uint8_t
 *
-operationCallbackExit
+interruptExit
 (
 )
 const
 {
 return
-operationCallbackExit_
+interruptExit_
 ;
 }
 void

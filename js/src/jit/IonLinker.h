@@ -477,7 +477,7 @@ runtime
 )
 -
 >
-currentThreadOwnsOperationCallbackLock
+currentThreadOwnsInterruptLock
 (
 )
 )

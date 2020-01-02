@@ -3839,12 +3839,12 @@ nullptr
 rt
 -
 >
-triggerOperationCallback
+requestInterrupt
 (
 JSRuntime
 :
 :
-TriggerCallbackAnyThreadDontStopIon
+RequestInterruptAnyThreadDontStopIon
 )
 ;
 WorkerThreadState

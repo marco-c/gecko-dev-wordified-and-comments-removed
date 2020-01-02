@@ -633,7 +633,7 @@ cx
 )
 ;
 void
-TriggerOperationCallbackForForkJoin
+RequestInterruptForForkJoin
 (
 JSRuntime
 *
@@ -641,8 +641,8 @@ rt
 JSRuntime
 :
 :
-OperationCallbackTrigger
-trigger
+InterruptMode
+mode
 )
 ;
 bool

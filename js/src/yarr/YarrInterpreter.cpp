@@ -5823,7 +5823,7 @@ size
 if
 (
 !
-JS_CHECK_OPERATION_LIMIT
+CheckForInterrupt
 (
 this
 -
@@ -6845,7 +6845,7 @@ size
 if
 (
 !
-JS_CHECK_OPERATION_LIMIT
+CheckForInterrupt
 (
 this
 -

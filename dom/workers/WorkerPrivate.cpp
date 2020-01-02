@@ -9217,7 +9217,7 @@ MOZ_ASSERT
 rt
 )
 ;
-JS_TriggerOperationCallback
+JS_RequestInterruptCallback
 (
 rt
 )
@@ -17430,7 +17430,7 @@ bool
 WorkerPrivate
 :
 :
-OperationCallback
+InterruptCallback
 (
 JSContext
 *
@@ -17899,7 +17899,7 @@ if
 mBlockedForMemoryReporter
 )
 {
-JS_TriggerOperationCallback
+JS_RequestInterruptCallback
 (
 rt
 )

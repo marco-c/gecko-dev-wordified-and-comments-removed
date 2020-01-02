@@ -6843,7 +6843,7 @@ NOT_ARRAY
 if
 (
 !
-JS_CHECK_OPERATION_LIMIT
+CheckForInterrupt
 (
 cx_
 )

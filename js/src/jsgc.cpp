@@ -2083,7 +2083,7 @@ JS_ION
 JSRuntime
 :
 :
-AutoLockForOperationCallback
+AutoLockForInterrupt
 lock
 (
 fop
@@ -9354,7 +9354,7 @@ true
 }
 static
 void
-TriggerOperationCallback
+RequestInterrupt
 (
 JSRuntime
 *
@@ -9395,12 +9395,12 @@ reason
 rt
 -
 >
-triggerOperationCallback
+requestInterrupt
 (
 JSRuntime
 :
 :
-TriggerCallbackMainThread
+RequestInterruptMainThread
 )
 ;
 }
@@ -9452,7 +9452,7 @@ if
 rt
 -
 >
-currentThreadOwnsOperationCallbackLock
+currentThreadOwnsInterruptLock
 (
 )
 )
@@ -9487,7 +9487,7 @@ PrepareForFullGC
 rt
 )
 ;
-TriggerOperationCallback
+RequestInterrupt
 (
 rt
 reason
@@ -9567,7 +9567,7 @@ if
 rt
 -
 >
-currentThreadOwnsOperationCallbackLock
+currentThreadOwnsInterruptLock
 (
 )
 )
@@ -9635,7 +9635,7 @@ PrepareZoneForGC
 zone
 )
 ;
-TriggerOperationCallback
+RequestInterrupt
 (
 rt
 reason

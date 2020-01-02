@@ -41,7 +41,7 @@ rt
 ;
 extern
 void
-TriggerOperationCallbackForAsmJSCode
+RequestInterruptForAsmJSCode
 (
 JSRuntime
 *

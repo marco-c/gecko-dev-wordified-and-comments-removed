@@ -2571,7 +2571,7 @@ BackedgeLoopHeader
 return
 !
 !
-js_HandleExecutionInterrupt
+HandleExecutionInterrupt
 (
 cx
 )

@@ -1095,7 +1095,10 @@ RedirectCall
 (
 FuncCast
 (
-js_HandleExecutionInterrupt
+js
+:
+:
+HandleExecutionInterrupt
 )
 Args_General1
 )
@@ -1751,13 +1754,13 @@ ExclusiveContext
 cx
 )
 {
-operationCallbackExit_
+interruptExit_
 =
 code_
 +
 staticLinkData_
 .
-operationCallbackExitOffset
+interruptExitOffset
 ;
 for
 (
@@ -1954,7 +1957,7 @@ code_
 (
 nullptr
 )
-operationCallbackExit_
+interruptExit_
 (
 nullptr
 )
@@ -4109,7 +4112,7 @@ uint32_t
 >
 (
 cursor
-operationCallbackExitOffset
+interruptExitOffset
 )
 ;
 cursor
@@ -4162,7 +4165,7 @@ uint32_t
 (
 cursor
 &
-operationCallbackExitOffset
+interruptExitOffset
 )
 )
 &
@@ -4217,9 +4220,9 @@ const
 out
 -
 >
-operationCallbackExitOffset
+interruptExitOffset
 =
-operationCallbackExitOffset
+interruptExitOffset
 ;
 return
 ClonePodVector
@@ -4636,7 +4639,7 @@ rt_
 JSRuntime
 :
 :
-AutoLockForOperationCallback
+AutoLockForInterrupt
 lock_
 ;
 const
@@ -4936,7 +4939,7 @@ JS_ASSERT
 rt
 -
 >
-currentThreadOwnsOperationCallbackLock
+currentThreadOwnsInterruptLock
 (
 )
 )
@@ -5022,7 +5025,7 @@ JS_ASSERT
 rt
 -
 >
-currentThreadOwnsOperationCallbackLock
+currentThreadOwnsInterruptLock
 (
 )
 )
@@ -5112,7 +5115,7 @@ JS_ASSERT
 rt
 -
 >
-currentThreadOwnsOperationCallbackLock
+currentThreadOwnsInterruptLock
 (
 )
 )

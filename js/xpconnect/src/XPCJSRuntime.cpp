@@ -5217,7 +5217,7 @@ if
 !
 debuggerAttached
 )
-JS_TriggerOperationCallback
+JS_RequestInterruptCallback
 (
 manager
 -
@@ -5436,7 +5436,7 @@ bool
 XPCJSRuntime
 :
 :
-OperationCallback
+InterruptCallback
 (
 JSContext
 *
@@ -15611,10 +15611,10 @@ runtime
 CTypesActivityCallback
 )
 ;
-JS_SetOperationCallback
+JS_SetInterruptCallback
 (
 runtime
-OperationCallback
+InterruptCallback
 )
 ;
 JS

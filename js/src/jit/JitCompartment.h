@@ -739,7 +739,7 @@ runtime
 )
 -
 >
-currentThreadOwnsOperationCallbackLock
+currentThreadOwnsInterruptLock
 (
 )
 )
@@ -772,7 +772,7 @@ JS_ASSERT
 rt
 -
 >
-currentThreadOwnsOperationCallbackLock
+currentThreadOwnsInterruptLock
 (
 )
 )

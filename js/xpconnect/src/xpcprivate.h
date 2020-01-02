@@ -1931,7 +1931,7 @@ type
 ;
 static
 bool
-OperationCallback
+InterruptCallback
 (
 JSContext
 *

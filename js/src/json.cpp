@@ -2630,7 +2630,7 @@ i
 if
 (
 !
-JS_CHECK_OPERATION_LIMIT
+CheckForInterrupt
 (
 cx
 )

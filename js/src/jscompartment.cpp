@@ -538,7 +538,7 @@ atomsLock
 cx
 )
 ;
-AutoLockForOperationCallback
+AutoLockForInterrupt
 lock
 (
 this

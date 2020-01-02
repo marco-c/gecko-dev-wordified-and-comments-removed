@@ -7880,7 +7880,7 @@ asmJSActivationStack_
 JSRuntime
 :
 :
-AutoLockForOperationCallback
+AutoLockForInterrupt
 lock
 (
 cx_
@@ -7951,7 +7951,7 @@ this
 JSRuntime
 :
 :
-AutoLockForOperationCallback
+AutoLockForInterrupt
 lock
 (
 cx_

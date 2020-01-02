@@ -766,7 +766,7 @@ script
 )
 ;
 void
-TriggerOperationCallbackForIonCode
+RequestInterruptForIonCode
 (
 JSRuntime
 *
@@ -774,8 +774,8 @@ rt
 JSRuntime
 :
 :
-OperationCallbackTrigger
-trigger
+InterruptMode
+mode
 )
 ;
 }

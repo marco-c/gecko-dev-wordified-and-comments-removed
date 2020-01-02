@@ -1583,7 +1583,7 @@ data
 }
 static
 bool
-ShellOperationCallback
+ShellInterruptCallback
 (
 JSContext
 *
@@ -17286,7 +17286,7 @@ if
 gWatchdogHasTimeout
 )
 {
-JS_TriggerOperationCallback
+JS_RequestInterruptCallback
 (
 rt
 )
@@ -17697,7 +17697,7 @@ gTimedOut
 =
 true
 ;
-JS_TriggerOperationCallback
+JS_RequestInterruptCallback
 (
 rt
 )
@@ -35936,10 +35936,10 @@ ShellPrincipals
 destroy
 )
 ;
-JS_SetOperationCallback
+JS_SetInterruptCallback
 (
 rt
-ShellOperationCallback
+ShellInterruptCallback
 )
 ;
 JS
