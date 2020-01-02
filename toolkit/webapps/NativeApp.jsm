@@ -498,7 +498,7 @@ prototype
 uniqueName
 :
 null
-appName
+appLocalizedName
 :
 null
 appNameAsFilename
@@ -712,7 +712,7 @@ shortDescription
 =
 this
 .
-appName
+appLocalizedName
 ;
 }
 if
