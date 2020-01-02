@@ -5875,10 +5875,9 @@ MBasicBlock
 *
 startBlock
 =
-*
 graph
 .
-begin
+entryBlock
 (
 )
 ;
@@ -6251,7 +6250,7 @@ JS_ASSERT
 (
 graph
 .
-begin
+entryBlock
 (
 )
 -
@@ -12416,7 +12415,7 @@ thisValue
 =
 graph
 .
-begin
+entryBlock
 (
 )
 -
@@ -13465,7 +13464,7 @@ argumentsValue
 =
 graph
 .
-begin
+entryBlock
 (
 )
 -
