@@ -1651,7 +1651,7 @@ HistoryIndex
 "
 )
 ;
-AppentIntToCString
+AppendIntToCString
 (
 info1
 status
