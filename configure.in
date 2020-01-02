@@ -32096,7 +32096,6 @@ NECKO_PROTOCOLS_DEFAULT
 =
 "
 about
-app
 data
 file
 ftp
