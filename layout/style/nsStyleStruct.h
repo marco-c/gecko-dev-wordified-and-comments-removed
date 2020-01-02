@@ -4407,6 +4407,9 @@ uint8_t
 mBoxSizing
 ;
 uint8_t
+mAlignContent
+;
+uint8_t
 mAlignItems
 ;
 uint8_t

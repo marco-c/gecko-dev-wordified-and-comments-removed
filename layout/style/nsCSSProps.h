@@ -2053,6 +2053,13 @@ kEmptyCellsKTable
 static
 const
 int32_t
+kAlignContentKTable
+[
+]
+;
+static
+const
+int32_t
 kAlignItemsKTable
 [
 ]
