@@ -2142,12 +2142,6 @@ be
 used
 on
 Windows
-(
-and
-OS
-/
-2
-)
 .
         
 "
@@ -2182,12 +2176,6 @@ be
 used
 on
 Windows
-(
-and
-OS
-/
-2
-)
 .
         
 "
