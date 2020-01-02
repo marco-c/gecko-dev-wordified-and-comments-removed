@@ -2917,6 +2917,11 @@ newFiles
 ]
 )
 ;
+if
+(
+file
+)
+{
 nsCOMPtr
 <
 nsIFile
@@ -2951,6 +2956,7 @@ OwnerDoc
 lastUsedDir
 )
 ;
+}
 mInput
 -
 >
