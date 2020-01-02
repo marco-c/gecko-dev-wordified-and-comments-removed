@@ -3041,6 +3041,12 @@ result
 }
 }
 ;
+this
+.
+FormAssistant
+=
+FormAssistant
+;
 function
 getWrapperForElement
 (
@@ -3573,6 +3579,12 @@ evt
 }
 }
 ;
+this
+.
+SelectWrapper
+=
+SelectWrapper
+;
 function
 MenulistWrapper
 (
@@ -3842,4 +3854,10 @@ evt
 ;
 }
 }
+;
+this
+.
+MenulistWrapper
+=
+MenulistWrapper
 ;
