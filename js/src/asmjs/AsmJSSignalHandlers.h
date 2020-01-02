@@ -1,9 +1,9 @@
 #
 ifndef
-jit_AsmJSSignalHandlers_h
+asmjs_AsmJSSignalHandlers_h
 #
 define
-jit_AsmJSSignalHandlers_h
+asmjs_AsmJSSignalHandlers_h
 struct
 JSRuntime
 ;

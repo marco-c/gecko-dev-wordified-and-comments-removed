@@ -30,7 +30,7 @@ h
 #
 include
 "
-jit
+asmjs
 /
 AsmJSFrameIterator
 .

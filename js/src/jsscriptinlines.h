@@ -14,7 +14,7 @@ h
 #
 include
 "
-jit
+asmjs
 /
 AsmJSLink
 .

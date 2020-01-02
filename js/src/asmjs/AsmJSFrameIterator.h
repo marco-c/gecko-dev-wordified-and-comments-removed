@@ -1,9 +1,9 @@
 #
 ifndef
-jit_AsmJSFrameIterator_h
+asmjs_AsmJSFrameIterator_h
 #
 define
-jit_AsmJSFrameIterator_h
+asmjs_AsmJSFrameIterator_h
 #
 include
 "
