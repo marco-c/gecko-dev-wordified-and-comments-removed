@@ -7,15 +7,6 @@ webcomponents
 enabled
 true
 )
-random
--
-if
-(
-B2G
-&
-&
-browserIsRemote
-)
 =
 =
 cross

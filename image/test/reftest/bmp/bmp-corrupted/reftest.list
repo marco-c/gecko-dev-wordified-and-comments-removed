@@ -99,15 +99,6 @@ with
 an
 invalid
 BPP
-random
--
-if
-(
-B2G
-&
-&
-browserIsRemote
-)
 =
 =
 wrapper
@@ -124,6 +115,3 @@ bmp
 about
 :
 blank
-#
-Bug
-921207

@@ -210,15 +210,6 @@ html
 ref
 .
 html
-fails
--
-if
-(
-B2G
-&
-&
-browserIsRemote
-)
 =
 =
 470250

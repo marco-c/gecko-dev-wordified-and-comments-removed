@@ -1042,15 +1042,6 @@ html
 ref
 .
 svg
-fails
--
-if
-(
-B2G
-&
-&
-browserIsRemote
-)
 =
 =
 referenced
@@ -1073,6 +1064,3 @@ binding
 ref
 .
 html
-#
-Bug
-988763

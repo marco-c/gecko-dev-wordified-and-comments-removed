@@ -46,15 +46,6 @@ size
 ref
 .
 html
-fails
--
-if
-(
-B2G
-&
-&
-browserIsRemote
-)
 =
 =
 empty

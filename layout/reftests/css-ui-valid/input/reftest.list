@@ -458,15 +458,6 @@ fuzzy
 64
 4
 )
-fails
--
-if
-(
-B2G
-&
-&
-browserIsRemote
-)
 =
 =
 input

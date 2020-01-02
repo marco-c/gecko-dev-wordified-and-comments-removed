@@ -103,15 +103,6 @@ startSame
 ref
 .
 svg
-fails
--
-if
-(
-B2G
-&
-&
-browserIsRemote
-)
 =
 =
 sort
