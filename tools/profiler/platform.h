@@ -272,6 +272,12 @@ defined
 (
 XP_WIN
 )
+|
+|
+defined
+(
+XP_LINUX
+)
 #
 define
 ENABLE_SPS_LEAF_DATA
