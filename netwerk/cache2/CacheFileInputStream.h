@@ -122,6 +122,17 @@ mallocSizeOf
 )
 const
 ;
+uint32_t
+GetPosition
+(
+)
+const
+{
+return
+mPos
+;
+}
+;
 private
 :
 virtual
