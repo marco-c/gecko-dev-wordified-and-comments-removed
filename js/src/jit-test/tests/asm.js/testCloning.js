@@ -104,7 +104,9 @@ i32_1
 new
 Int32Array
 (
-4096
+BUF_MIN
+/
+4
 )
 ;
 i32_1
@@ -120,7 +122,9 @@ i32_2
 new
 Int32Array
 (
-4096
+BUF_MIN
+/
+4
 )
 ;
 i32_2

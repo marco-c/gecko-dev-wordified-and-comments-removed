@@ -1889,7 +1889,7 @@ buf
 new
 ArrayBuffer
 (
-4096
+BUF_MIN
 )
 ;
 var
