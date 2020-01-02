@@ -184,6 +184,13 @@ nsIPermissionManager
 .
 h
 "
+#
+include
+"
+nsServiceManagerUtils
+.
+h
+"
 using
 namespace
 mozilla

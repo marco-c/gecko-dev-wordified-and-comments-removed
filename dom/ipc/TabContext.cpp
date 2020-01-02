@@ -57,6 +57,13 @@ nsIScriptSecurityManager
 h
 "
 #
+include
+"
+nsServiceManagerUtils
+.
+h
+"
+#
 define
 NO_APP_ID
 (

@@ -165,6 +165,13 @@ nsCxPusher
 .
 h
 "
+#
+include
+"
+nsServiceManagerUtils
+.
+h
+"
 namespace
 mozilla
 {

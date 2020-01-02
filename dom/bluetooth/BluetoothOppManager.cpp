@@ -181,6 +181,13 @@ nsNetUtil
 h
 "
 #
+include
+"
+nsServiceManagerUtils
+.
+h
+"
+#
 define
 TARGET_SUBDIR
 "

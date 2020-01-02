@@ -26,6 +26,13 @@ SmsSegmentInfo
 .
 h
 "
+#
+include
+"
+nsServiceManagerUtils
+.
+h
+"
 namespace
 mozilla
 {
