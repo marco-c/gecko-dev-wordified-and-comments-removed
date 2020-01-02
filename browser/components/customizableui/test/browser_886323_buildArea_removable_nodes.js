@@ -234,9 +234,11 @@ gLazyArea
 ;
 CustomizableUI
 .
-registerToolbar
+registerToolbarNode
 (
 gLazyArea
+[
+]
 )
 ;
 assertAreaPlacements

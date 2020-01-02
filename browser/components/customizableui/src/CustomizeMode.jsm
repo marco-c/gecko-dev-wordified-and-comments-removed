@@ -4462,6 +4462,9 @@ dragOverItem
 targetNode
 .
 lastChild
+|
+|
+targetNode
 ;
 dragValue
 =
@@ -4811,6 +4814,16 @@ dragover
 )
 )
 {
+if
+(
+dragOverItem
+!
+=
+targetArea
+.
+customizationTarget
+)
+{
 this
 .
 _setDragActive
@@ -4820,6 +4833,7 @@ dragValue
 draggedItemId
 )
 ;
+}
 this
 .
 _dragOverItem
