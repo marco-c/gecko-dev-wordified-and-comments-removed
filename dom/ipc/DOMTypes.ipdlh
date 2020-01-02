@@ -15,7 +15,7 @@ basic
 -
 offset
 :
-4
+2
 ;
 indent
 -

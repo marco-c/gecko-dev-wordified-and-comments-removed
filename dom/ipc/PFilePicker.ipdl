@@ -116,6 +116,10 @@ MPL
 /
 include
 protocol
+PBlob
+;
+include
+protocol
 PBrowser
 ;
 using
@@ -142,7 +146,7 @@ dom
 struct
 InputFiles
 {
-nsString
+PBlob
 [
 ]
 files
