@@ -315,8 +315,12 @@ nsIOService
 )
 ;
 nsresult
-TrackNetworkLinkStatusForOffline
+OnNetworkLinkEvent
 (
+const
+char
+*
+data
 )
 ;
 nsresult

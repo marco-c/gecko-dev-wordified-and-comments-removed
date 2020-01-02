@@ -92,6 +92,12 @@ Init
 void
 )
 ;
+void
+CheckLinkStatus
+(
+void
+)
+;
 protected
 :
 class
@@ -155,7 +161,7 @@ void
 )
 ;
 nsresult
-SendEventToUI
+SendEvent
 (
 const
 char
@@ -170,7 +176,7 @@ void
 )
 ;
 bool
-CheckIsGateway
+CheckICSGateway
 (
 PIP_ADAPTER_ADDRESSES
 aAdapter
@@ -183,12 +189,6 @@ PWCHAR
 aAdapterName
 )
 ;
-void
-CheckLinkStatus
-(
-void
-)
-;
 nsCOMPtr
 <
 nsIThread
@@ -197,6 +197,11 @@ mThread
 ;
 HANDLE
 mShutdownEvent
+;
+private
+:
+ULONG
+mIPInterfaceChecksum
 ;
 }
 ;
