@@ -3084,6 +3084,13 @@ container
 true
 )
 ;
+this
+.
+removeLocationAttributes
+(
+widgetNode
+)
+;
 if
 (
 gPalette
@@ -3112,13 +3119,6 @@ widgetNode
 }
 else
 {
-this
-.
-removeLocationAttributes
-(
-widgetNode
-)
-;
 widgetNode
 .
 removeAttribute
