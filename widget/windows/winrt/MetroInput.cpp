@@ -1467,10 +1467,6 @@ mWidget
 Get
 (
 )
-0
-0
-.
-0
 )
 ;
 mModifierKeyState
@@ -1560,10 +1556,6 @@ mWidget
 Get
 (
 )
-0
-0
-.
-0
 )
 ;
 mModifierKeyState
@@ -1653,10 +1645,6 @@ mWidget
 Get
 (
 )
-0
-0
-.
-0
 )
 ;
 mModifierKeyState
@@ -4173,10 +4161,6 @@ mWidget
 Get
 (
 )
-0
-0
-.
-0
 )
 ;
 swipeEvent
@@ -4267,10 +4251,6 @@ mWidget
 Get
 (
 )
-0
-0
-.
-0
 )
 ;
 swipeEvent

@@ -176,10 +176,6 @@ aMessage
 nsIWidget
 *
 aWidget
-uint32_t
-aDirection
-double
-aDelta
 )
 :
 WidgetMouseEventBase
@@ -195,11 +191,13 @@ allowedDirections
 )
 direction
 (
-aDirection
+0
 )
 delta
 (
-aDelta
+0
+.
+0
 )
 clickCount
 (
@@ -292,8 +290,6 @@ WidgetSimpleGestureEvent
 false
 message
 nullptr
-direction
-delta
 )
 ;
 result

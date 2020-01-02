@@ -61,10 +61,6 @@ WidgetSimpleGestureEvent
 false
 0
 nullptr
-0
-0
-.
-0
 )
 )
 {
