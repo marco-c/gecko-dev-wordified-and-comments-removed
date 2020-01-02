@@ -4057,7 +4057,7 @@ getViewId
 element
 )
 ;
-sendAsyncMessage
+sendSyncMessage
 (
 "
 scroll
