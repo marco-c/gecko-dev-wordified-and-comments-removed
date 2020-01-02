@@ -124,7 +124,7 @@ FxAccountsClient
 jsm
 '
 '
-FxAccountsConsts
+FxAccountsCommon
 .
 js
 '
