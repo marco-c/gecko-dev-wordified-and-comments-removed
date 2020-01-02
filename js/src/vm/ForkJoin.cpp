@@ -5882,6 +5882,12 @@ uint32_t
 threadId
 )
 {
+JS
+:
+:
+AutoAssertNoGC
+nogc
+;
 Allocator
 *
 allocator
