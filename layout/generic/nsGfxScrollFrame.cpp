@@ -10186,6 +10186,12 @@ ToReferenceFrame
 mOuter
 )
 ;
+clipState
+.
+Clear
+(
+)
+;
 if
 (
 mClipAllDescendants
