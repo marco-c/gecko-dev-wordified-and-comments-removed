@@ -540,6 +540,10 @@ util
 .
 jar
 \
+nineoldandroids
+.
+jar
+\
 squareup
 -
 picasso
