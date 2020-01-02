@@ -2320,7 +2320,6 @@ loadHomePanelsBanner
 )
 ;
 }
-else
 if
 (
 Services
