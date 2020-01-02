@@ -300,13 +300,6 @@ LoadEnd
 )
 ;
 enum
-IsCompartment
-{
-CompartmentGC
-NonCompartmentGC
-}
-;
-enum
 IsShrinking
 {
 ShrinkingGC
@@ -341,10 +334,6 @@ IsIncremental
 aIncremental
 =
 NonIncrementalGC
-IsCompartment
-aCompartment
-=
-NonCompartmentGC
 IsShrinking
 aShrinking
 =
