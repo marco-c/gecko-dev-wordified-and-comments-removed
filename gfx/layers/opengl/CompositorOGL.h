@@ -218,13 +218,6 @@ nscore
 h
 "
 #
-include
-"
-VBOArena
-.
-h
-"
-#
 ifdef
 MOZ_WIDGET_GONK
 #
@@ -1168,12 +1161,6 @@ mWindowRenderTarget
 endif
 GLuint
 mQuadVBO
-;
-gl
-:
-:
-VBOArena
-mVBOs
 ;
 bool
 mHasBGRA
