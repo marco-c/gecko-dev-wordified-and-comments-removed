@@ -22246,6 +22246,10 @@ elementRoot
 (
 cx
 )
+elementPropertyRoot
+(
+cx
+)
 {
 }
 JS
@@ -22539,6 +22543,10 @@ ReadOnlyCompileOptions
 (
 )
 elementRoot
+(
+cx
+)
+elementPropertyRoot
 (
 cx
 )
