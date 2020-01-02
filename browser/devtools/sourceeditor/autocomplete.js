@@ -75,7 +75,7 @@ js
 ]
 ;
 const
-privates
+autocompleteMap
 =
 new
 WeakMap
@@ -103,7 +103,7 @@ ctx
 ;
 if
 (
-privates
+autocompleteMap
 .
 has
 (
@@ -693,7 +693,7 @@ tern
 =
 null
 ;
-privates
+autocompleteMap
 .
 delete
 (
@@ -712,7 +712,7 @@ destroy
 destroyTern
 )
 ;
-privates
+autocompleteMap
 .
 set
 (
@@ -888,7 +888,7 @@ isOpen
 if
 (
 !
-privates
+autocompleteMap
 .
 get
 (
@@ -898,7 +898,7 @@ ed
 suggestionInsertedOnce
 )
 {
-privates
+autocompleteMap
 .
 get
 (
@@ -1099,7 +1099,7 @@ completer
 =
 null
 ;
-privates
+autocompleteMap
 .
 delete
 (
@@ -1107,7 +1107,7 @@ ed
 )
 ;
 }
-privates
+autocompleteMap
 .
 set
 (
@@ -1151,7 +1151,7 @@ ctx
 if
 (
 !
-privates
+autocompleteMap
 .
 has
 (
@@ -1167,7 +1167,7 @@ let
 destroy
 }
 =
-privates
+autocompleteMap
 .
 get
 (
@@ -1191,7 +1191,7 @@ cm
 let
 private
 =
-privates
+autocompleteMap
 .
 get
 (
@@ -1411,7 +1411,7 @@ reverse
 let
 private
 =
-privates
+autocompleteMap
 .
 get
 (
@@ -1649,7 +1649,7 @@ event
 let
 private
 =
-privates
+autocompleteMap
 .
 get
 (
@@ -1899,7 +1899,7 @@ ed
 {
 if
 (
-privates
+autocompleteMap
 .
 has
 (
@@ -1907,7 +1907,7 @@ ed
 )
 )
 return
-privates
+autocompleteMap
 .
 get
 (
@@ -1932,7 +1932,7 @@ caret
 let
 completer
 =
-privates
+autocompleteMap
 .
 get
 (
@@ -1967,6 +1967,23 @@ return
 null
 ;
 }
+function
+isAutocompletionEnabled
+(
+{
+ed
+}
+)
+{
+return
+autocompleteMap
+.
+has
+(
+ed
+)
+;
+}
 module
 .
 exports
@@ -1998,4 +2015,12 @@ exports
 getInfoAt
 =
 getInfoAt
+;
+module
+.
+exports
+.
+isAutocompletionEnabled
+=
+isAutocompletionEnabled
 ;

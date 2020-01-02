@@ -345,12 +345,6 @@ AUTOCOMPLETION_PREF
 false
 )
 ;
-ed
-.
-setupAutoCompletion
-(
-)
-;
 ok
 (
 ed
