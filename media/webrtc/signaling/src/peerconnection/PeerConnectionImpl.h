@@ -2475,6 +2475,11 @@ query
 ;
 #
 endif
+void
+RecordLongtermICEStatistics
+(
+)
+;
 Timecard
 *
 mTimeCard
@@ -2632,6 +2637,12 @@ mMedia
 #
 ifdef
 MOZILLA_INTERNAL_API
+mozilla
+:
+:
+TimeStamp
+mIceStartTime
+;
 mozilla
 :
 :
