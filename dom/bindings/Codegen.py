@@ -55888,9 +55888,6 @@ self
 descriptor
                                                      
 getUnforgeable
-"
-isXray
-"
 )
             
 getUnforgeable
@@ -55922,19 +55919,37 @@ proxy
 ;
   
 return
-!
-isXray
-|
-|
-JS_WrapPropertyDescriptor
-(
-cx
-desc
-)
+true
 ;
 }
 "
 "
+"
+            
+getUnforgeable
+=
+CGIfWrapper
+(
+CGGeneric
+(
+getUnforgeable
+)
+                                         
+"
+!
+isXray
+"
+)
+.
+define
+(
+)
++
+"
+\
+n
+\
+n
 "
         
 else
