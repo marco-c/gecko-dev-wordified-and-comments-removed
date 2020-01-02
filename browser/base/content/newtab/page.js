@@ -69,6 +69,12 @@ init
 (
 )
 ;
+gIntro
+.
+init
+(
+)
+;
 }
 observe
 :
@@ -854,6 +860,12 @@ sites
 view
 "
 lastIndex
+)
+;
+gIntro
+.
+showIfNecessary
+(
 )
 ;
 }
