@@ -27236,9 +27236,9 @@ messageManager
 addMessageListener
 (
 "
-LanguageDetection
+Translation
 :
-Result
+DocumentState
 "
 msg
 =
@@ -27246,7 +27246,7 @@ msg
 {
 Translation
 .
-languageDetected
+documentStateReceived
 (
 msg
 .

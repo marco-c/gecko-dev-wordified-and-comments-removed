@@ -1384,9 +1384,7 @@ ERROR
 {
 if
 (
-this
-.
-translation
+Translation
 [
 "
 STATE_
@@ -1775,9 +1773,7 @@ this
 state
 =
 =
-this
-.
-translation
+Translation
 .
 STATE_OFFER
 )
@@ -2047,9 +2043,7 @@ this
 state
 =
 =
-this
-.
-translation
+Translation
 .
 STATE_OFFER
 )
