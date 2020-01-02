@@ -589,7 +589,10 @@ false
 ;
 mFakeBlackStatus
 =
-DoNotNeedFakeBlack
+WebGLContextFakeBlackStatus
+:
+:
+Unknown
 ;
 mVertexAttrib0Vector
 [
