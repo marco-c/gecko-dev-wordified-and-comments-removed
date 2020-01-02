@@ -2550,11 +2550,8 @@ endif
 }
 ;
 #
-if
-defined
-(
+ifdef
 JS_DEBUG
-)
 extern
 JS_PUBLIC_API
 (
@@ -2713,6 +2710,9 @@ initial
 {
 MOZ_GUARD_OBJECT_NOTIFIER_INIT
 ;
+#
+ifdef
+JS_DEBUG
 MOZ_ASSERT
 (
 js
@@ -2724,6 +2724,8 @@ cx
 )
 )
 ;
+#
+endif
 init
 (
 js
@@ -2756,6 +2758,9 @@ initial
 {
 MOZ_GUARD_OBJECT_NOTIFIER_INIT
 ;
+#
+ifdef
+JS_DEBUG
 MOZ_ASSERT
 (
 js
@@ -2767,6 +2772,8 @@ cx
 )
 )
 ;
+#
+endif
 init
 (
 js
