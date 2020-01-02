@@ -36353,14 +36353,14 @@ MRecompileCheck
 (
 JSScript
 *
-script_
+script
 uint32_t
 recompileThreshold
 )
 :
 script_
 (
-script_
+script
 )
 recompileThreshold_
 (
