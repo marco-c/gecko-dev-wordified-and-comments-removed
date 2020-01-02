@@ -520,11 +520,6 @@ level
 "
 top
 "
-consumeoutsideclicks
-=
-"
-true
-"
 onpopupshown
 =
 "

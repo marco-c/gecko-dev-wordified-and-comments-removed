@@ -5818,6 +5818,10 @@ Rollup
 (
 uint32_t
 aCount
+const
+nsIntPoint
+*
+pos
 nsIContent
 *
 *

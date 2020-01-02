@@ -18,6 +18,9 @@ class
 nsIWidget
 ;
 class
+nsIntPoint
+;
+class
 nsIRollupListener
 {
 public
@@ -28,6 +31,10 @@ Rollup
 (
 uint32_t
 aCount
+const
+nsIntPoint
+*
+aPoint
 nsIContent
 *
 *

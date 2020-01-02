@@ -2199,6 +2199,11 @@ position
 bottomcenter
 topleft
 "
+consumeoutsideclicks
+=
+"
+false
+"
 >
 <
 xul
