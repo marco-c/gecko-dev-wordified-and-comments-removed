@@ -463,12 +463,10 @@ const
 uint32_t
 MAX_LENGTH
 =
-JS_BIT
-(
-28
-)
--
-1
+js
+:
+:
+MaxStringLength
 ;
 static
 const

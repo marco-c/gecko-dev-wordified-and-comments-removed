@@ -1034,7 +1034,7 @@ namespace
 binding_detail
 {
 struct
-FakeDependentString
+FakeString
 ;
 }
 template
@@ -1100,7 +1100,7 @@ const
 binding_detail
 :
 :
-FakeDependentString
+FakeString
 *
 str
 )
@@ -1115,7 +1115,7 @@ mStr
 reinterpret_cast
 <
 const
-nsDependentString
+nsString
 *
 >
 (

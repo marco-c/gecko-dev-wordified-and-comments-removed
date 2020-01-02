@@ -14287,7 +14287,7 @@ NS_ERROR_DOM_INVALID_ACCESS_ERR
 return
 ;
 }
-nsDependentString
+nsAutoString
 string
 ;
 JS
