@@ -222,7 +222,7 @@ test
 /
 social
 /
-social_sidebar
+social_sidebar_empty
 .
 html
 "
@@ -510,7 +510,7 @@ test
 /
 social
 /
-social_sidebar
+social_sidebar_empty
 .
 html
 "
