@@ -82,7 +82,10 @@ GLFormats
 &
 formats
 const
-gfxIntSize
+gfx
+:
+:
+IntSize
 &
 size
 bool
@@ -219,7 +222,10 @@ GLLibraryEGL
 *
 egl
 const
-gfxIntSize
+gfx
+:
+:
+IntSize
 &
 size
 bool
@@ -495,7 +501,10 @@ GLFormats
 &
 formats
 const
-gfxIntSize
+gfx
+:
+:
+IntSize
 &
 size
 GLuint
@@ -715,8 +724,11 @@ mPixels
 new
 gfxImageSurface
 (
+ThebesIntSize
+(
 Size
 (
+)
 )
 format
 )

@@ -9050,7 +9050,10 @@ size
 ;
 }
 const
-gfxIntSize
+gfx
+:
+:
+IntSize
 &
 OffscreenSize
 (
