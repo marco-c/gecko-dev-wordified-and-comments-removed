@@ -288,6 +288,9 @@ Read
 %
 d
 bytes
+from
+%
+s
 "
 sock
 -
@@ -297,6 +300,9 @@ ctx
 >
 label
 len
+addr
+.
+as_string
 )
 ;
 is_stun
