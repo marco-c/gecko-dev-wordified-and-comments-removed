@@ -144,6 +144,7 @@ build
 targets
 python
 test_manifests
+mozinfo
 mozbuild
 =
 =
