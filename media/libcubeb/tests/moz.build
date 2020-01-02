@@ -211,7 +211,10 @@ USE_LIBS
 =
 [
 '
-gkmedias
+cubeb
+'
+'
+speex
 '
 ]
 else
