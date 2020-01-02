@@ -631,11 +631,9 @@ NONRECURSIVE_TARGETS_export_xpidl_DIRECTORY
 DEPTH
 )
 /
-config
+xpcom
 /
-makefiles
-/
-precompile
+xpidl
 \
 n
 '
@@ -654,7 +652,7 @@ NONRECURSIVE_TARGETS_export_xpidl_TARGETS
 '
                 
 '
-xpidl
+export
 \
 n
 '
@@ -2826,63 +2824,12 @@ subdirs
 tools
         
 def
-other_filter
-(
-current
-subdirs
-)
-:
-            
-if
-current
-=
-=
-'
-subtiers
-/
-precompile
-'
-:
-                
-return
-None
-[
-]
-[
-]
-            
-return
-parallel_filter
-(
-current
-subdirs
-)
-        
-def
 libs_filter
 (
 current
 subdirs
 )
 :
-            
-if
-current
-=
-=
-'
-subtiers
-/
-precompile
-'
-:
-                
-return
-None
-[
-]
-[
-]
             
 return
 current
@@ -2917,7 +2864,7 @@ export_filter
 compile
 '
 :
-other_filter
+parallel_filter
             
 '
 libs
@@ -2929,7 +2876,7 @@ libs_filter
 tools
 '
 :
-other_filter
+parallel_filter
         
 }
         

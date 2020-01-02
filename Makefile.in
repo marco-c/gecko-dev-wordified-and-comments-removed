@@ -1772,11 +1772,9 @@ src
 /
 export
 :
-config
+dom
 /
-makefiles
-/
-precompile
+bindings
 /
 export
 accessible
@@ -1787,11 +1785,9 @@ xpcom
 /
 export
 :
-config
+xpcom
 /
-makefiles
-/
-precompile
+xpidl
 /
 export
 js
