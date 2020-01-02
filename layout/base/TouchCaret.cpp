@@ -180,13 +180,6 @@ kBoundaryAppUnits
 =
 61
 ;
-static
-const
-int32_t
-kAutoScrollTimerDelay
-=
-30
-;
 NS_IMPL_ISUPPORTS
 (
 TouchCaret
@@ -1437,7 +1430,7 @@ StartAutoScrollTimer
 (
 capturingFrame
 pt
-kAutoScrollTimerDelay
+sAutoScrollTimerDelay
 )
 ;
 }

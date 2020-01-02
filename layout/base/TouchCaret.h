@@ -349,6 +349,17 @@ static
 int32_t
 sTouchCaretExpirationTime
 ;
+friend
+class
+SelectionCarets
+;
+static
+const
+int32_t
+sAutoScrollTimerDelay
+=
+30
+;
 }
 ;
 }

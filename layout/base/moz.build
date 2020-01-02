@@ -483,6 +483,11 @@ RestyleTracker
 cpp
 '
 '
+SelectionCarets
+.
+cpp
+'
+'
 StackArena
 .
 cpp
