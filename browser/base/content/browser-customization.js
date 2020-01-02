@@ -411,9 +411,9 @@ asyncUpdateUI
 (
 )
 ;
-PlacesStarButton
+BookmarksMenuButton
 .
-updateState
+updateStarState
 (
 )
 ;
