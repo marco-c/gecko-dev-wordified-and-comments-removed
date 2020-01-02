@@ -980,6 +980,12 @@ opened
 "
 )
 ;
+executeSoon
+(
+function
+(
+)
+{
 let
 el
 =
@@ -1019,6 +1025,9 @@ deferred
 .
 resolve
 (
+)
+;
+}
 )
 ;
 }
