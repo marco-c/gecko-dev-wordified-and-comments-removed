@@ -89,6 +89,8 @@ MOZ_LIBSTDCXX_HOST_VERSION
 ifndef
 CROSS_COMPILE
 ifdef
+COMPILE_ENVIRONMENT
+ifdef
 USE_ELF_DYNSTR_GC
 export
 :
@@ -98,6 +100,7 @@ elf
 dynstr
 -
 gc
+endif
 endif
 endif
 #
@@ -155,6 +158,8 @@ WINNT
 HOST_OS_ARCH
 )
 )
+ifdef
+COMPILE_ENVIRONMENT
 #
 Ensure
 nsinstall
@@ -199,6 +204,7 @@ INSTALL_TARGETS
 +
 =
 NSINSTALL
+endif
 endif
 HEADERS_FILES
 =

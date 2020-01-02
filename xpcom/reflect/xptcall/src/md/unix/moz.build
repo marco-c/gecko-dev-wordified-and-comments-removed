@@ -1004,7 +1004,13 @@ xptcstubs_pa32
 cpp
 '
 ]
-else
+elif
+CONFIG
+[
+'
+COMPILE_ENVIRONMENT
+'
+]
 :
 error
 (

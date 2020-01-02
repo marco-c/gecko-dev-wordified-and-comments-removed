@@ -280,14 +280,6 @@ the
 configured
 application
 .
-if
-CONFIG
-[
-'
-COMPILE_ENVIRONMENT
-'
-]
-:
 include
 (
 '

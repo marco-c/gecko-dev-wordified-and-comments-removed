@@ -263,7 +263,13 @@ GonkDisplayICS
 cpp
 '
 ]
-else
+elif
+CONFIG
+[
+'
+COMPILE_ENVIRONMENT
+'
+]
 :
 error
 (

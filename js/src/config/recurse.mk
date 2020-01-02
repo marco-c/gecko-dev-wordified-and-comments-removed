@@ -1011,6 +1011,8 @@ config
 CURRENT_TIER
 )
 endif
+ifdef
+COMPILE_ENVIRONMENT
 ifneq
 (
 (
@@ -1289,6 +1291,7 @@ mk
 binaries
 -
 deps
+endif
 else
 #
 Don
@@ -1756,6 +1759,8 @@ want_abspaths
 endif
 endif
 endif
+ifdef
+COMPILE_ENVIRONMENT
 #
 Aggregate
 all
@@ -1918,6 +1923,7 @@ ALL_DEP_FILES
 )
 )
 )
+endif
 endif
 endif
 #

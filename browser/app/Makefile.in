@@ -702,6 +702,8 @@ OS_ARCH
 )
 )
 )
+ifdef
+COMPILE_ENVIRONMENT
 libs
 :
 :
@@ -728,6 +730,7 @@ bin
 (
 BIN_SUFFIX
 )
+endif
 GARBAGE
 +
 =

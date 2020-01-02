@@ -90,6 +90,14 @@ sdk
 '
 )
 if
+CONFIG
+[
+'
+COMPILE_ENVIRONMENT
+'
+]
+:
+if
 not
 CONFIG
 [

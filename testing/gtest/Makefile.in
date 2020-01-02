@@ -231,6 +231,8 @@ OS_ARCH
 )
 WINNT
 )
+ifdef
+COMPILE_ENVIRONMENT
 check
 gtest
 :
@@ -319,5 +321,6 @@ MOZ_APP_NAME
 (
 BIN_SUFFIX
 )
+endif
 endif
 endif

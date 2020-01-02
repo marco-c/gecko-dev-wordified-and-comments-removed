@@ -359,6 +359,10 @@ DLL_SUFFIX
 )
 .
 bak
+ifndef
+CROSS_COMPILE
+ifdef
+COMPILE_ENVIRONMENT
 libs
 :
 :
@@ -374,8 +378,6 @@ ctors
 (
 DLL_SUFFIX
 )
-ifndef
-CROSS_COMPILE
 dummy
 :
 dummy
@@ -447,6 +449,7 @@ GARBAGE
 +
 =
 dummy
+endif
 endif
 test
 .

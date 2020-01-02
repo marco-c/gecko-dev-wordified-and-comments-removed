@@ -358,6 +358,8 @@ head_update
 js
 ifndef
 MOZ_PROFILE_GENERATE
+ifdef
+COMPILE_ENVIRONMENT
 INSTALL_TARGETS
 +
 =
@@ -403,6 +405,7 @@ TestAUSHelper
 (
 BIN_SUFFIX
 )
+endif
 endif
 #
 Not
