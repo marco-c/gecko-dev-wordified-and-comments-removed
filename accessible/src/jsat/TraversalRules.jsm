@@ -709,11 +709,6 @@ aAccessible
 case
 Roles
 .
-LINK
-:
-case
-Roles
-.
 HEADER
 :
 case
