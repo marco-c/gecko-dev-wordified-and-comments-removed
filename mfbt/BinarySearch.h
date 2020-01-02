@@ -88,7 +88,7 @@ low
 2
 ;
 const
-auto
+T
 &
 middleValue
 =

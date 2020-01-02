@@ -1263,6 +1263,17 @@ CodeAlignment
 ;
 static
 const
+uint32_t
+AsmJSFrameSize
+=
+sizeof
+(
+void
+*
+)
+;
+static
+const
 Scale
 ScalePointer
 =
