@@ -13,7 +13,7 @@ using
 JS
 :
 :
-CreateError
+CreateTypeError
 ;
 using
 JS
@@ -98,10 +98,9 @@ cx
 if
 (
 !
-CreateError
+CreateTypeError
 (
 cx
-JSEXN_TYPEERR
 empty
 empty
 0
