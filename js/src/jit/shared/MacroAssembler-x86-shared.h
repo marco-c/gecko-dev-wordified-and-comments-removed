@@ -1359,9 +1359,7 @@ double
 CodeOffsetLabel
 PushWithPatch
 (
-const
 ImmWord
-&
 word
 )
 {

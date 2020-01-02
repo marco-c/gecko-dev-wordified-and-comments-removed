@@ -1140,9 +1140,7 @@ StackPointer
 CodeOffsetLabel
 pushWithPatch
 (
-const
 ImmWord
-&
 word
 )
 {
@@ -1199,9 +1197,7 @@ StackPointer
 CodeOffsetLabel
 movWithPatch
 (
-const
 ImmWord
-&
 word
 Register
 dest

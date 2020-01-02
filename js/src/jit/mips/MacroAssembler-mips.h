@@ -5778,9 +5778,7 @@ double
 CodeOffsetLabel
 PushWithPatch
 (
-const
 ImmWord
-&
 word
 )
 {
@@ -6299,9 +6297,7 @@ dest
 void
 movePtr
 (
-const
 ImmWord
-&
 imm
 Register
 dest
