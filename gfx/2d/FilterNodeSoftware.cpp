@@ -11807,6 +11807,13 @@ InflatedSourceRect
 aRect
 )
 ;
+srcRect
+.
+Inflate
+(
+1
+)
+;
 RefPtr
 <
 DataSourceSurface
@@ -16637,6 +16644,13 @@ float
 aKernelUnitLengthY
 )
 )
+)
+;
+srcRect
+.
+Inflate
+(
+1
 )
 ;
 RefPtr
