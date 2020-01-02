@@ -3959,9 +3959,8 @@ sizeof
 buffer
 )
 "
-0x
 %
-x
+06x
 "
 profile_level_id
 )
