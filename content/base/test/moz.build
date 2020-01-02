@@ -186,3 +186,13 @@ TestPlainTextSerializer
 cpp
 '
 ]
+MOCHITEST_MANIFESTS
++
+=
+[
+'
+mochitest
+.
+ini
+'
+]

@@ -104,3 +104,13 @@ dir_bug534293
 html5lib_tree_construction
 '
 ]
+MOCHITEST_MANIFESTS
++
+=
+[
+'
+mochitest
+.
+ini
+'
+]

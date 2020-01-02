@@ -54,12 +54,3 @@ MPL
 0
 /
 .
-MOCHITEST_FILES
-=
-test_bug609794
-.
-html
-\
-(
-NULL
-)

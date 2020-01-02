@@ -104,3 +104,13 @@ MochiKit
 tests
 '
 ]
+MOCHITEST_MANIFESTS
++
+=
+[
+'
+mochitest
+.
+ini
+'
+]

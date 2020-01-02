@@ -101,3 +101,13 @@ PARALLEL_DIRS
 blink
 '
 ]
+MOCHITEST_MANIFESTS
++
+=
+[
+'
+mochitest
+.
+ini
+'
+]

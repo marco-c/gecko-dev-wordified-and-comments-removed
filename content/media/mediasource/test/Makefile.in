@@ -53,17 +53,3 @@ MPL
 0
 /
 .
-MOCHITEST_FILES
-=
-\
-test_MediaSource
-.
-html
-\
-seek
-.
-webm
-\
-(
-NULL
-)
