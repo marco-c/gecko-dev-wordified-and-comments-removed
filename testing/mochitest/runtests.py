@@ -11659,6 +11659,14 @@ runMochitests
 options
 onLaunch
 )
+      
+self
+.
+message_logger
+.
+dump_buffered
+(
+)
     
 if
 options
