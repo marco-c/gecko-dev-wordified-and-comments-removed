@@ -141,7 +141,7 @@ id
 +
 id
 /
-favicon
+icon
 "
 android
 :
@@ -226,7 +226,7 @@ id
 +
 id
 /
-title
+primary_text
 "
 style
 =
@@ -235,9 +235,9 @@ style
 /
 Widget
 .
-TwoLinePageRow
+TwoLineRow
 .
-Title
+PrimaryText
 "
 android
 :
@@ -272,7 +272,7 @@ id
 +
 id
 /
-url
+secondary_text
 "
 style
 =
@@ -281,9 +281,9 @@ style
 /
 Widget
 .
-TwoLinePageRow
+TwoLineRow
 .
-Url
+SecondaryText
 "
 android
 :

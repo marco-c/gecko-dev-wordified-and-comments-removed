@@ -151,9 +151,9 @@ TextAppearance
 .
 Widget
 .
-TwoLinePageRow
+TwoLineRow
 .
-Title
+PrimaryText
 "
 parent
 =
