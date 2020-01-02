@@ -421,11 +421,11 @@ en_us
 {
 localeStr
 .
-AssignLiteral
+Assign
 (
-"
+'
 C
-"
+'
 )
 ;
 }

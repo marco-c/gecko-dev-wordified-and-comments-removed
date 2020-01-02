@@ -4369,11 +4369,11 @@ IsEmpty
 {
 filePath
 .
-AssignLiteral
+Assign
 (
-"
+'
 /
-"
+'
 )
 ;
 }

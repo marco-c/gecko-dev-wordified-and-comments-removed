@@ -1016,11 +1016,11 @@ IsEmpty
 )
 expr
 .
-AssignLiteral
+Assign
 (
-"
+'
 *
-"
+'
 )
 ;
 nsCOMPtr

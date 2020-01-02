@@ -712,11 +712,11 @@ rgba
 ;
 mColor
 .
-AssignLiteral
+Assign
 (
-"
+'
 #
-"
+'
 )
 ;
 mColor

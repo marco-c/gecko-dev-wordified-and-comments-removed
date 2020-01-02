@@ -1289,11 +1289,11 @@ else
 {
 mGroupId
 .
-AssignLiteral
+Assign
 (
-"
+'
 -
-"
+'
 )
 ;
 }
