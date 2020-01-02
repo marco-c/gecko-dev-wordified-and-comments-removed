@@ -128,6 +128,15 @@ CheckPermissions
 "
 alarms
 "
+Pref
+=
+"
+dom
+.
+mozAlarms
+.
+enabled
+"
 ]
 interface
 AlarmsManager
