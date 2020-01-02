@@ -6247,6 +6247,13 @@ IntConversion_Truncate
 IntConversion_ClampToUint8
 }
 ;
+enum
+IntConversionInputKind
+{
+IntConversion_NumbersOnly
+IntConversion_Any
+}
+;
 void
 convertDoubleToInt
 (
@@ -6294,6 +6301,10 @@ Label
 fail
 IntConversionBehavior
 behavior
+IntConversionInputKind
+conversion
+=
+IntConversion_Any
 )
 ;
 void
@@ -6428,6 +6439,10 @@ Label
 fail
 bool
 negativeZeroCheck
+IntConversionInputKind
+conversion
+=
+IntConversion_Any
 )
 {
 convertValueToInt
@@ -6446,6 +6461,7 @@ negativeZeroCheck
 IntConversion_NegativeZeroCheck
 :
 IntConversion_Normal
+conversion
 )
 ;
 }

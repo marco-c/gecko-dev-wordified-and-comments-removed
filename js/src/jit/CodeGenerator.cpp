@@ -1079,6 +1079,17 @@ mirNormal
 canBeNegativeZero
 (
 )
+lir
+-
+>
+mirNormal
+(
+)
+-
+>
+conversion
+(
+)
 )
 ;
 }
