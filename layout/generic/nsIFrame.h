@@ -5085,12 +5085,6 @@ GetVisualOverflowRectRelativeToSelf
 const
 ;
 nsRect
-GetVisualOverflowRectRelativeToParent
-(
-)
-const
-;
-nsRect
 GetPreEffectsVisualOverflowRect
 (
 )
