@@ -326,6 +326,7 @@ gObservedTopics
 =
 {
 }
+;
 }
 function
 promiseMessage
@@ -5520,6 +5521,7 @@ getRootDirectory
 (
 gTestPath
 )
+;
 rootDir
 =
 rootDir
