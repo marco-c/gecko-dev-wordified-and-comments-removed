@@ -260,8 +260,10 @@ Play
 void
 Seek
 (
-double
-aTime
+const
+SeekTarget
+&
+aTarget
 )
 ;
 double
@@ -1153,8 +1155,8 @@ mStartTime
 int64_t
 mEndTime
 ;
-int64_t
-mSeekTime
+SeekTarget
+mSeekTarget
 ;
 int64_t
 mFragmentEndTime
