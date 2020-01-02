@@ -13,6 +13,10 @@ about
 :
 blank
 "
+)
+.
+then
+(
 function
 (
 )

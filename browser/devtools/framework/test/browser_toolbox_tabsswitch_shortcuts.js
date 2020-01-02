@@ -27,10 +27,6 @@ test
 (
 )
 {
-waitForExplicitFinish
-(
-)
-;
 addTab
 (
 "
@@ -38,6 +34,10 @@ about
 :
 blank
 "
+)
+.
+then
+(
 function
 (
 )
