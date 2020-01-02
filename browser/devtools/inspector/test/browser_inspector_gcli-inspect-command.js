@@ -9,7 +9,11 @@ TEST_URI
 TEST_URL_ROOT
 +
 "
-browser_inspector_cmd_inspect
+doc_inspector_gcli
+-
+inspect
+-
+command
 .
 html
 "

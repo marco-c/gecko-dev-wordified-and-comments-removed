@@ -564,7 +564,9 @@ inspector
 /
 test
 /
-browser_inspector_bug_831693_search_suggestions
+doc_inspector_search
+-
+suggestions
 .
 html
 "

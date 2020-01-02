@@ -9,7 +9,7 @@ TEST_URI
 TEST_URL_ROOT
 +
 "
-browser_inspector_breadcrumbs
+doc_inspector_breadcrumbs
 .
 html
 "

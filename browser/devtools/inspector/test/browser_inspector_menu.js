@@ -9,7 +9,7 @@ TEST_URL
 TEST_URL_ROOT
 +
 "
-browser_inspector_menu
+doc_inspector_menu
 .
 html
 "

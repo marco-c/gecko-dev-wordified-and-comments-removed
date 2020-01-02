@@ -28,7 +28,7 @@ inspector
 "
 test
 /
-browser_inspector_infobar
+doc_inspector_infobar
 .
 html
 "

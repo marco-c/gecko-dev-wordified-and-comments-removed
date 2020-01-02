@@ -20,7 +20,7 @@ test
 "
 +
 "
-browser_inspector_breadcrumbs
+doc_inspector_breadcrumbs
 .
 html
 "
