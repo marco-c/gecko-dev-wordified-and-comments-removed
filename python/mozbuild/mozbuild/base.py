@@ -2491,7 +2491,6 @@ _ensure_objdir_exists
         
 args
 =
-[
 self
 .
 _make_path
@@ -2500,7 +2499,6 @@ force_pymake
 =
 force_pymake
 )
-]
         
 if
 directory
@@ -2792,7 +2790,8 @@ or
 force_pymake
 :
             
-return
+make_py
+=
 os
 .
 path
@@ -2825,6 +2824,14 @@ sep
 /
 '
 )
+            
+return
+[
+sys
+.
+executable
+make_py
+]
         
 for
 test
@@ -2843,12 +2850,14 @@ try
 :
                 
 return
+[
 which
 .
 which
 (
 test
 )
+]
             
 except
 which
