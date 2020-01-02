@@ -5508,6 +5508,9 @@ FDN
 PLMNSEL
 :
 7
+MSISDN
+:
+9
 CBMI
 :
 14
@@ -5535,6 +5538,9 @@ PNN
 OPL
 :
 52
+MDN
+:
+53
 SPDI
 :
 56
@@ -5560,6 +5566,9 @@ CBMIR
 SPN
 :
 19
+MSISDN
+:
+21
 DATA_DOWNLOAD_SMS_PP
 :
 28
@@ -5572,6 +5581,9 @@ PNN
 OPL
 :
 46
+MDN
+:
+47
 SPDI
 :
 51
