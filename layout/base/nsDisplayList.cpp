@@ -327,13 +327,6 @@ namespace
 mozilla
 :
 :
-css
-;
-using
-namespace
-mozilla
-:
-:
 layers
 ;
 using
@@ -2733,7 +2726,7 @@ content
 return
 ;
 }
-CommonElementAnimationData
+ElementAnimationCollection
 *
 et
 =
@@ -2746,7 +2739,7 @@ content
 aProperty
 )
 ;
-CommonElementAnimationData
+ElementAnimationCollection
 *
 ea
 =
@@ -24081,7 +24074,7 @@ animation
 "
 )
 ;
-CommonElementAnimationData
+ElementAnimationCollection
 :
 :
 LogAsyncAnimationFailure
@@ -24216,7 +24209,7 @@ animation
 "
 )
 ;
-CommonElementAnimationData
+ElementAnimationCollection
 :
 :
 LogAsyncAnimationFailure
@@ -24464,7 +24457,7 @@ Append
 '
 )
 ;
-CommonElementAnimationData
+ElementAnimationCollection
 :
 :
 LogAsyncAnimationFailure

@@ -409,7 +409,7 @@ nsStyleContext
 >
 newStyle
 ;
-CommonElementAnimationData
+ElementAnimationCollection
 *
 et
 ;
@@ -607,7 +607,7 @@ nsTransitionManager
 :
 AddElementData
 (
-CommonElementAnimationData
+ElementAnimationCollection
 *
 aData
 )
@@ -867,7 +867,7 @@ AsElement
 )
 ;
 }
-CommonElementAnimationData
+ElementAnimationCollection
 *
 et
 =
@@ -1818,7 +1818,7 @@ dom
 Element
 *
 aElement
-CommonElementAnimationData
+ElementAnimationCollection
 *
 &
 aElementTransitions
@@ -2796,7 +2796,7 @@ aProperty
 )
 ;
 }
-CommonElementAnimationData
+ElementAnimationCollection
 *
 nsTransitionManager
 :
@@ -2929,13 +2929,13 @@ return
 nullptr
 ;
 }
-CommonElementAnimationData
+ElementAnimationCollection
 *
 et
 =
 static_cast
 <
-CommonElementAnimationData
+ElementAnimationCollection
 *
 >
 (
@@ -2960,7 +2960,7 @@ aCreateIfNeeded
 et
 =
 new
-CommonElementAnimationData
+ElementAnimationCollection
 (
 aElement
 propName
@@ -2989,7 +2989,7 @@ SetProperty
 propName
 et
 &
-CommonElementAnimationData
+ElementAnimationCollection
 :
 :
 PropertyDtor
@@ -3064,7 +3064,7 @@ Type
 aPseudoType
 )
 {
-CommonElementAnimationData
+ElementAnimationCollection
 *
 et
 =
@@ -3566,13 +3566,13 @@ next
 mElementData
 )
 {
-CommonElementAnimationData
+ElementAnimationCollection
 *
 et
 =
 static_cast
 <
-CommonElementAnimationData
+ElementAnimationCollection
 *
 >
 (
@@ -3600,7 +3600,7 @@ et
 >
 CanPerformOnCompositorThread
 (
-CommonElementAnimationData
+ElementAnimationCollection
 :
 :
 CanAnimateFlags
