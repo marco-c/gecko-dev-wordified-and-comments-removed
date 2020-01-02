@@ -2172,9 +2172,10 @@ NSGetFactory_val
 )
 |
 |
-JSVAL_IS_VOID
-(
 NSGetFactory_val
+.
+isUndefined
+(
 )
 )
 {

@@ -281,9 +281,10 @@ v
 else
 if
 (
-JSVAL_IS_VOID
-(
 v
+.
+isUndefined
+(
 )
 )
 {

@@ -698,9 +698,10 @@ if
 (
 !
 (
-JSVAL_IS_VOID
-(
 patternArray
+.
+isUndefined
+(
 )
 |
 |

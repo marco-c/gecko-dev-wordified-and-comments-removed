@@ -4017,9 +4017,10 @@ thread
 if
 (
 !
-JSVAL_IS_VOID
-(
 mCachedKeyPath
+.
+isUndefined
+(
 )
 )
 {
