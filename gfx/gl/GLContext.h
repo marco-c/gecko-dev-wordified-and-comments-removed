@@ -184,6 +184,13 @@ Scoped
 h
 "
 #
+include
+"
+gfx2DGlue
+.
+h
+"
+#
 ifdef
 DEBUG
 #
@@ -9024,7 +9031,10 @@ bool
 ResizeOffscreen
 (
 const
-gfxIntSize
+gfx
+:
+:
+IntSize
 &
 size
 )
@@ -9032,7 +9042,10 @@ size
 return
 ResizeScreenBuffer
 (
+ThebesIntSize
+(
 size
+)
 )
 ;
 }
