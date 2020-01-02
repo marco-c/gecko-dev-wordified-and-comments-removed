@@ -5569,6 +5569,12 @@ CancelAnimation
 (
 )
 {
+ReentrantMonitorAutoEnter
+lock
+(
+mMonitor
+)
+;
 SetState
 (
 NOTHING
