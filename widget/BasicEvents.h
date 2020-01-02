@@ -116,7 +116,7 @@ eSVGZoomEventClass
 eSMILTimeEventClass
 eCommandEventClass
 eContentCommandEventClass
-NS_PLUGIN_EVENT
+ePluginEventClass
 NS_MUTATION_EVENT
 }
 ;
