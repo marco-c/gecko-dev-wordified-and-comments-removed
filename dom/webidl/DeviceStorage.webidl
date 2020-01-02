@@ -326,5 +326,13 @@ attribute
 boolean
 default
 ;
+[
+NewObject
+]
+Promise
+getRoot
+(
+)
+;
 }
 ;

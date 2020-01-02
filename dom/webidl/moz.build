@@ -415,6 +415,11 @@ DeviceStorage
 webidl
 '
 '
+Directory
+.
+webidl
+'
+'
 Document
 .
 webidl
@@ -1266,11 +1271,6 @@ webidl
 '
 '
 MutationObserver
-.
-webidl
-'
-'
-NativeOSFileInternals
 .
 webidl
 '
