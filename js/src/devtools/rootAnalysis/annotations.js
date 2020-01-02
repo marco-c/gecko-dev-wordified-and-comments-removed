@@ -713,6 +713,11 @@ pt_MapError
 :
 true
 "
+je_malloc_printf
+"
+:
+true
+"
 PR_ExplodeTime
 "
 :
