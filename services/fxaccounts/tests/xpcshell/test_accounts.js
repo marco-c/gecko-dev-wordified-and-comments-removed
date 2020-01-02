@@ -1553,7 +1553,7 @@ run_next_test
 add_test
 (
 function
-test_fetchAndUnwrapKeys_no_token
+test_getKeys_no_token
 (
 )
 {
@@ -1597,7 +1597,7 @@ log
 debug
 (
 "
-test_fetchAndUnwrapKeys_no_token
+test_getKeys_no_token
 observed
 logout
 "
@@ -1650,7 +1650,7 @@ fxa
 .
 internal
 .
-fetchAndUnwrapKeys
+getKeys
 (
 )
 ;
