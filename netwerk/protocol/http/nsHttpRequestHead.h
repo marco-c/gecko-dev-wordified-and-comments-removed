@@ -40,6 +40,11 @@ nsHttpRequestHead
 (
 )
 ;
+~
+nsHttpRequestHead
+(
+)
+;
 void
 SetMethod
 (

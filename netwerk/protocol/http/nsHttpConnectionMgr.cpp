@@ -11711,6 +11711,11 @@ nsConnectionEntry
 (
 )
 {
+MOZ_COUNT_DTOR
+(
+nsConnectionEntry
+)
+;
 if
 (
 mSpdyPreferred
@@ -11726,11 +11731,6 @@ ConnMgr
 RemoveSpdyPreferredEnt
 (
 mCoalescingKey
-)
-;
-NS_RELEASE
-(
-mConnInfo
 )
 ;
 }
@@ -15664,9 +15664,9 @@ mPreferIPv6
 false
 )
 {
-NS_ADDREF
+MOZ_COUNT_CTOR
 (
-mConnInfo
+nsConnectionEntry
 )
 ;
 if
