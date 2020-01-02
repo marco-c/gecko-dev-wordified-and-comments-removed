@@ -6500,6 +6500,7 @@ actors
 inspector
 "
 )
+;
 #
 ifdef
 MOZ_WIDGET_GONK
