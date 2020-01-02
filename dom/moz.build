@@ -227,6 +227,9 @@ phonenumberutils
 alarm
 '
 '
+datastore
+'
+'
 devicestorage
 '
 '
