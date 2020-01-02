@@ -2793,7 +2793,7 @@ bug
 AR_FLAGS
 =
 '
-cr
+crs
 '
 if
 test

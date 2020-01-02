@@ -5740,9 +5740,6 @@ OBJS
 SHARED_LIBRARY_LIBS
 )
 (
-RANLIB
-)
-(
 filter
 -
 out
@@ -6008,9 +6005,6 @@ RM
 IMPLIB
 )
 ^
-(
-RANLIB
-)
 endif
 #
 OS
@@ -6046,9 +6040,6 @@ HOST_AR_FLAGS
 )
 (
 HOST_OBJS
-)
-(
-HOST_RANLIB
 )
 ifdef
 HAVE_DTRACE
