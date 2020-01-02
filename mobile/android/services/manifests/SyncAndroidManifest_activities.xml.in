@@ -733,6 +733,10 @@ keyboardHidden
 orientation
 |
 screenSize
+|
+locale
+|
+layoutDirection
 "
 android
 :
