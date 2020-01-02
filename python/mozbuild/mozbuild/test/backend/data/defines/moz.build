@@ -48,7 +48,10 @@ BAZ
 =
 '
 "
-abcd
+ab
+\
+'
+cd
 "
 '
 DEFINES

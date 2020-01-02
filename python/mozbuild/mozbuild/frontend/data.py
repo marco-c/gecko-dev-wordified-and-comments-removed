@@ -99,7 +99,12 @@ mozbuild
 .
 util
 import
+(
+    
+shell_quote
+    
 StrictOrderingOnAppendList
+)
 from
 .
 sandbox_symbols
@@ -1023,31 +1028,6 @@ defstr
 =
 define
             
-elif
-type
-(
-value
-)
-=
-=
-int
-:
-                
-defstr
-=
-'
-%
-s
-=
-%
-s
-'
-%
-(
-define
-value
-)
-            
 else
 :
                 
@@ -1057,17 +1037,16 @@ defstr
 %
 s
 =
-\
-'
 %
 s
-\
-'
 '
 %
 (
 define
+shell_quote
+(
 value
+)
 )
             
 yield
