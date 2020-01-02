@@ -451,7 +451,7 @@ aExtraForgetSkippableCalls
 ;
 static
 void
-ScheduledCycleCollectNow
+RunCycleCollectorSlice
 (
 int64_t
 aSliceTime

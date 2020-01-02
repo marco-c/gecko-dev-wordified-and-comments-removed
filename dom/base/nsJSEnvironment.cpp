@@ -9290,7 +9290,7 @@ void
 nsJSContext
 :
 :
-ScheduledCycleCollectNow
+RunCycleCollectorSlice
 (
 int64_t
 aSliceTime
@@ -9313,7 +9313,7 @@ PROFILER_LABEL
 CC
 "
 "
-ScheduledCycleCollectNow
+RunCycleCollectorSlice
 "
 )
 ;
@@ -9323,7 +9323,7 @@ PrepareForCycleCollectionSlice
 (
 )
 ;
-nsCycleCollector_scheduledCollect
+nsCycleCollector_collectSlice
 (
 aSliceTime
 )
@@ -9398,7 +9398,7 @@ return
 nsJSContext
 :
 :
-ScheduledCycleCollectNow
+RunCycleCollectorSlice
 (
 ICCSliceTime
 (
@@ -10811,7 +10811,7 @@ else
 nsJSContext
 :
 :
-ScheduledCycleCollectNow
+RunCycleCollectorSlice
 (
 ICCSliceTime
 (

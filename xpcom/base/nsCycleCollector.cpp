@@ -3608,7 +3608,7 @@ CleanupPhase
 enum
 ccType
 {
-ScheduledCC
+SliceCC
 ManualCC
 ShutdownCC
 }
@@ -12315,7 +12315,7 @@ if
 aCCType
 !
 =
-ScheduledCC
+SliceCC
 &
 &
 !
@@ -12351,7 +12351,7 @@ MOZ_ASSERT_IF
 aCCType
 !
 =
-ScheduledCC
+SliceCC
 mIncrementalPhase
 =
 =
@@ -12424,7 +12424,7 @@ PrepareForGarbageCollection
 ;
 Collect
 (
-ScheduledCC
+SliceCC
 unlimitedBudget
 nullptr
 )
@@ -12533,7 +12533,7 @@ if
 aCCType
 =
 =
-ScheduledCC
+SliceCC
 &
 &
 mJSRuntime
@@ -14263,7 +14263,7 @@ aManualListener
 ;
 }
 void
-nsCycleCollector_scheduledCollect
+nsCycleCollector_collectSlice
 (
 int64_t
 aSliceTime
@@ -14298,7 +14298,7 @@ PROFILER_LABEL
 CC
 "
 "
-nsCycleCollector_scheduledCollect
+nsCycleCollector_collectSlice
 "
 )
 ;
@@ -14351,7 +14351,7 @@ mCollector
 >
 Collect
 (
-ScheduledCC
+SliceCC
 budget
 nullptr
 )
