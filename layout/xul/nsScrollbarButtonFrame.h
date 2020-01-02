@@ -244,13 +244,6 @@ aEvent
 MOZ_OVERRIDE
 ;
 void
-DoButtonAction
-(
-bool
-aSmoothScroll
-)
-;
-void
 StartRepeat
 (
 )
@@ -319,9 +312,6 @@ Notify
 )
 ;
 }
-int32_t
-mIncrement
-;
 bool
 mCursorOnThis
 ;

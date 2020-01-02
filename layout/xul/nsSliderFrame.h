@@ -145,6 +145,11 @@ nsBoxFrame
 public
 :
 NS_DECL_FRAMEARENA_HELPERS
+NS_DECL_QUERYFRAME_TARGET
+(
+nsSliderFrame
+)
+NS_DECL_QUERYFRAME
 friend
 class
 nsSliderMediator
@@ -736,6 +741,13 @@ Notify
 )
 ;
 }
+void
+PageScroll
+(
+nscoord
+aChange
+)
+;
 nsPoint
 mDestinationPoint
 ;
