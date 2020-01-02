@@ -518,6 +518,11 @@ sCompositorLoop
 =
 nullptr
 ;
+void
+ReleaseImageBridgeParentSingleton
+(
+)
+;
 static
 void
 DeferredDeleteCompositorParent
@@ -548,6 +553,10 @@ NS_IsMainThread
 )
 )
 {
+ReleaseImageBridgeParentSingleton
+(
+)
+;
 delete
 sCompositorThread
 ;
