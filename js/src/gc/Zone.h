@@ -983,12 +983,6 @@ bool
 usedByExclusiveThread
 ;
 bool
-scheduledForDestruction
-;
-bool
-maybeAlive
-;
-bool
 active
 ;
 mozilla
