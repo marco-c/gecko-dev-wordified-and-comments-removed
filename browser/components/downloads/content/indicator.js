@@ -725,7 +725,7 @@ button
 )
 ;
 let
-widgetInWindow
+widget
 =
 widgetGroup
 .
@@ -736,7 +736,7 @@ window
 ;
 if
 (
-widgetInWindow
+widget
 .
 overflowed
 |
@@ -769,7 +769,7 @@ return
 }
 anchor
 =
-widgetInWindow
+widget
 .
 anchor
 ;
