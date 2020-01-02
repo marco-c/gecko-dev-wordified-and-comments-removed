@@ -208,11 +208,6 @@ nsIDOMNSEvent
 idl
 '
 '
-nsIDOMPageTransitionEvent
-.
-idl
-'
-'
 nsIDOMPaintRequest
 .
 idl
