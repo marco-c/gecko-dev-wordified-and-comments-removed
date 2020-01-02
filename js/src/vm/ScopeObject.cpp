@@ -7131,8 +7131,6 @@ MutableHandle
 PropertyDescriptor
 >
 desc
-unsigned
-flags
 )
 MOZ_OVERRIDE
 {
@@ -7143,7 +7141,6 @@ cx
 proxy
 id
 desc
-flags
 )
 ;
 }
@@ -7162,8 +7159,6 @@ MutableHandle
 PropertyDescriptor
 >
 desc
-unsigned
-flags
 )
 MOZ_OVERRIDE
 {
@@ -7363,7 +7358,6 @@ JS_GetOwnPropertyDescriptorById
 cx
 scope
 id
-flags
 desc
 )
 ;

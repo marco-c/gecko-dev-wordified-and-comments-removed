@@ -97,10 +97,6 @@ const
 nsString
 &
 id
-const
-uint32_t
-&
-flags
 ReturnStatus
 *
 rs
@@ -121,10 +117,6 @@ const
 nsString
 &
 id
-const
-uint32_t
-&
-flags
 ReturnStatus
 *
 rs

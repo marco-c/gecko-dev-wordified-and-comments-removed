@@ -1943,7 +1943,6 @@ JS_GetPropertyDescriptorById
 cx
 holder
 id
-0
 desc
 )
 )
@@ -2288,7 +2287,6 @@ JS_GetPropertyDescriptorById
 cx
 holder
 id
-0
 desc
 )
 ;
@@ -4301,7 +4299,6 @@ JS_GetPropertyDescriptorById
 cx
 holder
 id
-0
 desc
 )
 )
@@ -5313,7 +5310,6 @@ JS_GetPropertyDescriptorById
 cx
 expando
 id
-0
 desc
 )
 )
@@ -5585,7 +5581,6 @@ JS_GetPropertyDescriptorById
 cx
 holder
 id
-0
 desc
 )
 )
@@ -6037,7 +6032,6 @@ JS_GetPropertyDescriptorById
 cx
 holder
 id
-0
 desc
 )
 ;
@@ -8787,8 +8781,6 @@ MutableHandle
 JSPropertyDescriptor
 >
 desc
-unsigned
-flags
 )
 {
 assertEnteredPolicy
@@ -8888,7 +8880,7 @@ wrapper
 holder
 id
 desc
-flags
+0
 )
 )
 return
@@ -8910,7 +8902,6 @@ JS_GetPropertyDescriptorById
 cx
 holder
 id
-0
 desc
 )
 )
@@ -8956,7 +8947,7 @@ wrapper
 holder
 id
 desc
-flags
+0
 )
 )
 return
@@ -9307,7 +9298,6 @@ JS_GetPropertyDescriptorById
 cx
 holder
 id
-flags
 desc
 )
 )
@@ -9372,8 +9362,6 @@ MutableHandle
 JSPropertyDescriptor
 >
 desc
-unsigned
-flags
 )
 {
 assertEnteredPolicy
@@ -9465,7 +9453,7 @@ wrapper
 holder
 id
 desc
-flags
+0
 )
 )
 return
@@ -9853,7 +9841,6 @@ wrapper
 id
 &
 existing_desc
-0
 )
 )
 return

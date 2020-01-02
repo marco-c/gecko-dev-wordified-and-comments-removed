@@ -11946,8 +11946,6 @@ JS
 :
 HandleId
 id
-unsigned
-flags
 JS
 :
 :
@@ -11977,8 +11975,6 @@ const
 char
 *
 name
-unsigned
-flags
 JS
 :
 :
@@ -12009,8 +12005,6 @@ JS
 :
 HandleId
 id
-unsigned
-flags
 JS
 :
 :
@@ -12040,8 +12034,6 @@ const
 char
 *
 name
-unsigned
-flags
 JS
 :
 :

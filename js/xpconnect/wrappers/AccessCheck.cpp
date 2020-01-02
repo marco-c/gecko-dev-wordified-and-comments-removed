@@ -1530,7 +1530,6 @@ JS_GetPropertyDescriptorById
 cx
 hallpass
 id
-0
 &
 desc
 )

@@ -300,7 +300,6 @@ JS_GetOwnPropertyDescriptor
 cx
 vObject
 PROPERTY_NAME
-0
 &
 desc
 )

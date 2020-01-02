@@ -2392,7 +2392,6 @@ obj
 id
 &
 desc
-0
 )
 )
 return
@@ -2654,7 +2653,6 @@ obj
 id
 &
 desc
-0
 )
 )
 return

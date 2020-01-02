@@ -1085,7 +1085,6 @@ JS_GetPropertyDescriptorById
 aCx
 aClassObject
 aNameAsId
-0
 aDesc
 )
 ;

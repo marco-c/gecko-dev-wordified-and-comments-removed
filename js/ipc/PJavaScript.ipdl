@@ -200,8 +200,6 @@ uint64_t
 objId
 nsString
 id
-uint32_t
-flags
 )
 returns
 (
@@ -218,8 +216,6 @@ uint64_t
 objId
 nsString
 id
-uint32_t
-flags
 )
 returns
 (

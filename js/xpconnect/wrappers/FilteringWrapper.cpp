@@ -299,8 +299,6 @@ MutableHandle
 JSPropertyDescriptor
 >
 desc
-unsigned
-flags
 )
 {
 assertEnteredPolicy
@@ -331,7 +329,6 @@ cx
 wrapper
 id
 desc
-flags
 )
 )
 return
@@ -382,8 +379,6 @@ MutableHandle
 JSPropertyDescriptor
 >
 desc
-unsigned
-flags
 )
 {
 assertEnteredPolicy
@@ -414,7 +409,6 @@ cx
 wrapper
 id
 desc
-flags
 )
 )
 return

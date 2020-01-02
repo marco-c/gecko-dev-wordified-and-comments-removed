@@ -107,8 +107,6 @@ MutableHandle
 JSPropertyDescriptor
 >
 aDesc
-unsigned
-aFlags
 )
 MOZ_OVERRIDE
 ;

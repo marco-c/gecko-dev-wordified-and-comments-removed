@@ -1250,8 +1250,6 @@ MutableHandle
 PropertyDescriptor
 >
 desc
-unsigned
-flags
 )
 {
 RootedId
@@ -1291,7 +1289,6 @@ cx
 wrapper
 idCopy
 desc
-flags
 )
 cx
 -
@@ -1327,8 +1324,6 @@ MutableHandle
 PropertyDescriptor
 >
 desc
-unsigned
-flags
 )
 {
 RootedId
@@ -1368,7 +1363,6 @@ cx
 wrapper
 idCopy
 desc
-flags
 )
 cx
 -
@@ -4108,8 +4102,6 @@ MutableHandle
 PropertyDescriptor
 >
 desc
-unsigned
-flags
 )
 {
 JS_ReportErrorNumber
@@ -4142,8 +4134,6 @@ MutableHandle
 PropertyDescriptor
 >
 desc
-unsigned
-flags
 )
 {
 JS_ReportErrorNumber

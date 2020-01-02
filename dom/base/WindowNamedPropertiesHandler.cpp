@@ -266,8 +266,6 @@ MutableHandle
 JSPropertyDescriptor
 >
 aDesc
-unsigned
-aFlags
 )
 {
 if

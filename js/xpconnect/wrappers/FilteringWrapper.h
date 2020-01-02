@@ -101,8 +101,6 @@ MutableHandle
 JSPropertyDescriptor
 >
 desc
-unsigned
-flags
 )
 MOZ_OVERRIDE
 ;
@@ -138,8 +136,6 @@ MutableHandle
 JSPropertyDescriptor
 >
 desc
-unsigned
-flags
 )
 MOZ_OVERRIDE
 ;
