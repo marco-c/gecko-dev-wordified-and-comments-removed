@@ -3411,6 +3411,15 @@ element
 focusCounter
 )
 {
+element
+=
+element
+.
+ownerNumberControl
+|
+|
+element
+;
 let
 type
 =
