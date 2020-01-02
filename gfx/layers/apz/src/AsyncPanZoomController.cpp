@@ -9641,6 +9641,10 @@ if
 scrollOffsetUpdated
 )
 {
+CancelAnimation
+(
+)
+;
 APZC_LOG
 (
 "
