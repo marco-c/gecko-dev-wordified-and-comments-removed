@@ -11357,6 +11357,7 @@ AssertNotCurrentThreadIn
 (
 )
 ;
+{
 RefPtr
 <
 nsIRunnable
@@ -11375,15 +11376,6 @@ MediaDecoderReader
 ResetDecode
 )
 ;
-mDecodeTaskQueue
--
->
-Dispatch
-(
-task
-)
-;
-{
 ReentrantMonitorAutoExit
 exitMon
 (
@@ -11398,8 +11390,9 @@ GetReentrantMonitor
 mDecodeTaskQueue
 -
 >
-Flush
+FlushAndDispatch
 (
+task
 )
 ;
 }
