@@ -28512,6 +28512,7 @@ JSObject
 :
 class_
 kind
+TenuredObject
 )
 ;
 if
