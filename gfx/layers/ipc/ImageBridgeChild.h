@@ -276,12 +276,14 @@ GetThread
 )
 const
 ;
+virtual
 MessageLoop
 *
 GetMessageLoop
 (
 )
 const
+MOZ_OVERRIDE
 ;
 PCompositableChild
 *

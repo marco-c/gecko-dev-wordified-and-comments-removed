@@ -879,6 +879,10 @@ mTextureClient
 =
 this
 ;
+mAllocator
+=
+aForwarder
+;
 mShared
 =
 true

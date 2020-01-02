@@ -355,11 +355,14 @@ RecvStop
 )
 MOZ_OVERRIDE
 ;
+virtual
 MessageLoop
 *
 GetMessageLoop
 (
 )
+const
+MOZ_OVERRIDE
 ;
 bool
 AllocShmem
