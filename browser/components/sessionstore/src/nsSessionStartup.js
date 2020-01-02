@@ -548,7 +548,13 @@ if
 (
 !
 shouldResumeSessionOnce
+&
+&
+this
+.
+_initialState
 )
+{
 delete
 this
 .
@@ -556,6 +562,7 @@ _initialState
 .
 lastSessionState
 ;
+}
 let
 resumeFromCrash
 =
