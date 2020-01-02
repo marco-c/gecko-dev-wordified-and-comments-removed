@@ -55,6 +55,11 @@ gfxXlibSurface
 aSurface
 )
 ;
+~
+X11TextureSourceOGL
+(
+)
+;
 virtual
 X11TextureSourceOGL
 *
@@ -145,8 +150,7 @@ DeallocateDeviceData
 (
 )
 MOZ_OVERRIDE
-{
-}
+;
 virtual
 void
 SetCompositor
@@ -184,7 +188,7 @@ CompositorOGL
 *
 mCompositor
 ;
-RefPtr
+nsRefPtr
 <
 gfxXlibSurface
 >
@@ -198,6 +202,9 @@ gfx
 SourceSurface
 >
 mSourceSurface
+;
+GLuint
+mTexture
 ;
 }
 ;
