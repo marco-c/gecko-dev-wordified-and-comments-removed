@@ -36532,16 +36532,6 @@ IntArgReg1
 GlobalReg
 )
 ;
-masm
-.
-loadConstantDouble
-(
-GenericNaN
-(
-)
-NANReg
-)
-;
 #
 endif
 #

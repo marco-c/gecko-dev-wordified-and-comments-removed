@@ -1240,16 +1240,6 @@ GlobalReg
 )
 )
 ;
-allRegisters_
-.
-takeAllAliasedUnchecked
-(
-AnyRegister
-(
-NANReg
-)
-)
-;
 #
 endif
 }
