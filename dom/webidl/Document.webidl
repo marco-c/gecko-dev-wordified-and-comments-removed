@@ -330,6 +330,9 @@ nsISupports
 interface
 URI
 ;
+interface
+nsIDocShell
+;
 enum
 VisibilityState
 {
@@ -2740,6 +2743,15 @@ obsoleteSheet
 DOMString
 sheetURI
 )
+;
+[
+ChromeOnly
+]
+readonly
+attribute
+nsIDocShell
+?
+docShell
 ;
 }
 ;
