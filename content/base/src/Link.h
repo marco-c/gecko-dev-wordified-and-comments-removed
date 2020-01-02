@@ -133,6 +133,9 @@ const
 nsAString
 &
 aProtocol
+ErrorResult
+&
+aError
 )
 ;
 void
@@ -142,6 +145,9 @@ const
 nsAString
 &
 aUsername
+ErrorResult
+&
+aError
 )
 ;
 void
@@ -151,6 +157,9 @@ const
 nsAString
 &
 aPassword
+ErrorResult
+&
+aError
 )
 ;
 void
@@ -160,6 +169,9 @@ const
 nsAString
 &
 aHost
+ErrorResult
+&
+aError
 )
 ;
 void
@@ -169,6 +181,9 @@ const
 nsAString
 &
 aHostname
+ErrorResult
+&
+aError
 )
 ;
 void
@@ -178,6 +193,9 @@ const
 nsAString
 &
 aPathname
+ErrorResult
+&
+aError
 )
 ;
 void
@@ -187,6 +205,9 @@ const
 nsAString
 &
 aSearch
+ErrorResult
+&
+aError
 )
 ;
 void
@@ -210,6 +231,9 @@ const
 nsAString
 &
 aPort
+ErrorResult
+&
+aError
 )
 ;
 void
@@ -219,6 +243,9 @@ const
 nsAString
 &
 aHash
+ErrorResult
+&
+aError
 )
 ;
 void
@@ -227,6 +254,9 @@ GetOrigin
 nsAString
 &
 aOrigin
+ErrorResult
+&
+aError
 )
 ;
 void
@@ -235,6 +265,9 @@ GetProtocol
 nsAString
 &
 _protocol
+ErrorResult
+&
+aError
 )
 ;
 void
@@ -243,6 +276,9 @@ GetUsername
 nsAString
 &
 aUsername
+ErrorResult
+&
+aError
 )
 ;
 void
@@ -251,6 +287,9 @@ GetPassword
 nsAString
 &
 aPassword
+ErrorResult
+&
+aError
 )
 ;
 void
@@ -259,6 +298,9 @@ GetHost
 nsAString
 &
 _host
+ErrorResult
+&
+aError
 )
 ;
 void
@@ -267,6 +309,9 @@ GetHostname
 nsAString
 &
 _hostname
+ErrorResult
+&
+aError
 )
 ;
 void
@@ -275,6 +320,9 @@ GetPathname
 nsAString
 &
 _pathname
+ErrorResult
+&
+aError
 )
 ;
 void
@@ -283,6 +331,9 @@ GetSearch
 nsAString
 &
 _search
+ErrorResult
+&
+aError
 )
 ;
 URLSearchParams
@@ -297,6 +348,9 @@ GetPort
 nsAString
 &
 _port
+ErrorResult
+&
+aError
 )
 ;
 void
@@ -305,6 +359,9 @@ GetHash
 nsAString
 &
 _hash
+ErrorResult
+&
+aError
 )
 ;
 void

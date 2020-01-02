@@ -768,12 +768,16 @@ NS_ERROR_NOT_AVAILABLE
 nsAutoString
 hostname
 ;
+ErrorResult
+rv
+;
 aElement
 -
 >
 GetHostname
 (
 hostname
+rv
 )
 ;
 return
