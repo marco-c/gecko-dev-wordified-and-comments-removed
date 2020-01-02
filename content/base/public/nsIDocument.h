@@ -1503,14 +1503,17 @@ aSelector
 )
 MOZ_OVERRIDE
 ;
-nsCSSSelectorList
-*
+bool
 GetList
 (
 const
 nsAString
 &
 aSelector
+nsCSSSelectorList
+*
+*
+aList
 )
 {
 return
@@ -1519,6 +1522,7 @@ mTable
 Get
 (
 aSelector
+aList
 )
 ;
 }
