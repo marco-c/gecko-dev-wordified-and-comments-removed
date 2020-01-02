@@ -251,13 +251,13 @@ aContext
 {
 }
 nscoord
-GetConsumedHeight
+GetConsumedBSize
 (
 )
 const
 ;
 nscoord
-GetEffectiveComputedHeight
+GetEffectiveComputedBSize
 (
 const
 nsHTMLReflowState
