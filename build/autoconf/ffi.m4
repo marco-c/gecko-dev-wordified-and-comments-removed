@@ -405,7 +405,7 @@ test
 -
 z
 "
-MOZ_NO_DEBUG_flags
+MOZ_NO_DEBUG_RTL
 "
 -
 a
