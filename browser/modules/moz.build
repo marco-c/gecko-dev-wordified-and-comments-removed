@@ -121,6 +121,11 @@ ContentClick
 jsm
 '
 '
+Feeds
+.
+jsm
+'
+'
 NetworkPrioritizer
 .
 jsm
