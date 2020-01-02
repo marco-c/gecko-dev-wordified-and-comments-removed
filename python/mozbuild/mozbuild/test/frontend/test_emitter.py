@@ -1252,6 +1252,31 @@ VISIBILITY_FLAGS
 =
 '
 '
+            
+DELAYLOAD_LDFLAGS
+=
+[
+'
+-
+DELAYLOAD
+:
+foo
+.
+dll
+'
+'
+-
+DELAYLOAD
+:
+bar
+.
+dll
+'
+]
+            
+USE_DELAYIMP
+=
+True
         
 )
         

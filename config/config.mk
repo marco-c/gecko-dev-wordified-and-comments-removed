@@ -2367,6 +2367,17 @@ MOZ_PROFILE_USE
 endif
 #
 NO_PROFILE_GUIDED_OPTIMIZE
+ifdef
+_MSC_VER
+OS_LDFLAGS
++
+=
+(
+DELAYLOAD_LDFLAGS
+)
+endif
+#
+_MSC_VER
 #
 Does
 the
