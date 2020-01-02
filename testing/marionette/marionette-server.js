@@ -4202,6 +4202,8 @@ if
 (
 aRequest
 .
+parameters
+.
 async
 )
 {
