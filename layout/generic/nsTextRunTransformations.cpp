@@ -89,6 +89,13 @@ nsNetUtil
 h
 "
 #
+include
+"
+GreekCasing
+.
+h
+"
+#
 define
 LATIN_CAPITAL_LETTER_I_WITH_DOT_ABOVE
 0x0130
@@ -1406,6 +1413,9 @@ GetCasingFor
 lang
 )
 ;
+mozilla
+:
+:
 GreekCasing
 :
 :
@@ -1892,6 +1902,9 @@ eLSCB_Greek
 {
 ch
 =
+mozilla
+:
+:
 GreekCasing
 :
 :

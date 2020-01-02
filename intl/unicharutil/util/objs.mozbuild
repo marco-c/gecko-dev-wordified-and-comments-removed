@@ -96,6 +96,11 @@ MPL
 intl_unicharutil_util_lcppsrcs
 =
 [
+'
+GreekCasing
+.
+cpp
+'
 ]
 if
 CONFIG
