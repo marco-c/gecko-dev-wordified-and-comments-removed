@@ -890,6 +890,10 @@ CUSTOM_OP
 (
 NewDerivedTypedObject
 )
+SAFE_OP
+(
+ObjectState
+)
 UNSAFE_OP
 (
 InitElem

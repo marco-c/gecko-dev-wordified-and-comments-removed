@@ -212,6 +212,11 @@ RenumberBlocks
 \
 _
 (
+ScalarReplacement
+)
+\
+_
+(
 DominatorTree
 )
 \

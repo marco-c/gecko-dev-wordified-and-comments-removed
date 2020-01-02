@@ -62,6 +62,10 @@ compileTryCatch
 =
 true
 ;
+disableScalarReplacement
+=
+true
+;
 disableGvn
 =
 false

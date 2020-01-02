@@ -111,6 +111,10 @@ maxInlineDepth_
 =
 3
 ;
+scalarReplacement_
+=
+true
+;
 smallFunctionMaxInlineDepth_
 =
 10
@@ -157,6 +161,10 @@ false
 registerAllocator_
 =
 RegisterAllocator_Backtracking
+;
+scalarReplacement_
+=
+false
 ;
 }
 uint32_t

@@ -434,6 +434,11 @@ NewStringObject
 \
 _
 (
+ObjectState
+)
+\
+_
+(
 InitElem
 )
 \

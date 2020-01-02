@@ -2065,6 +2065,13 @@ cpp
 '
 jit
 /
+ScalarReplacement
+.
+cpp
+'
+'
+jit
+/
 shared
 /
 BaselineCompiler

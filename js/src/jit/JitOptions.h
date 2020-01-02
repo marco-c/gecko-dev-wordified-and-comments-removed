@@ -85,6 +85,9 @@ bool
 compileTryCatch
 ;
 bool
+disableScalarReplacement
+;
+bool
 disableGvn
 ;
 bool
