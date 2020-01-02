@@ -1042,6 +1042,10 @@ Not
 )
 SAFE_OP
 (
+NeuterCheck
+)
+SAFE_OP
+(
 BoundsCheck
 )
 SAFE_OP

@@ -883,6 +883,11 @@ SetInitializedLength
 \
 _
 (
+NeuterCheck
+)
+\
+_
+(
 BoundsCheck
 )
 \
