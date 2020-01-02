@@ -245,6 +245,11 @@ AudioTrackList
 webidl
 '
 '
+AutocompleteInfo
+.
+webidl
+'
+'
 BarProp
 .
 webidl

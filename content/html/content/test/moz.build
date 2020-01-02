@@ -119,6 +119,13 @@ chrome
 .
 ini
 '
+'
+forms
+/
+chrome
+.
+ini
+'
 ]
 BROWSER_CHROME_MANIFESTS
 +

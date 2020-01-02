@@ -927,6 +927,14 @@ boolean
 aExcludePassword
 )
 ;
+[
+ChromeOnly
+]
+AutocompleteInfo
+getAutocompleteInfo
+(
+)
+;
 }
 ;
 partial
