@@ -2747,6 +2747,8 @@ GraphicsFilter
 aFilter
 uint32_t
 aImageFlags
+gfxFloat
+aOpacity
 )
 {
 PROFILER_LABEL
@@ -2958,6 +2960,7 @@ aFill
 doTile
 aFilter
 userSpaceToImageSpace
+aOpacity
 )
 ;
 }
