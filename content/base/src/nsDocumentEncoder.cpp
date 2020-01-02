@@ -2405,6 +2405,16 @@ rv
 rv
 )
 ;
+if
+(
+!
+charLength
+)
+{
+return
+NS_OK
+;
+}
 nsAutoCString
 charXferString
 ;
