@@ -1562,7 +1562,6 @@ JS_ASSERT
 (
 offset
 <
-=
 size
 (
 )
