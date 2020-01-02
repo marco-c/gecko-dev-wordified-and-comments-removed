@@ -54,7 +54,7 @@ AssertionHelper
 )
 {
 }
-public
+protected
 static
 void
 init

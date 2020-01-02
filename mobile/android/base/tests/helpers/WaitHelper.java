@@ -191,7 +191,7 @@ WaitHelper
 )
 {
 }
-public
+protected
 static
 void
 init
