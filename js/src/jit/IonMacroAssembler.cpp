@@ -6589,8 +6589,6 @@ compartment
 nullptr
 ;
 }
-#
-endif
 static
 void
 AssumeUnreachable_
@@ -6609,6 +6607,8 @@ __LINE__
 )
 ;
 }
+#
+endif
 void
 MacroAssembler
 :
