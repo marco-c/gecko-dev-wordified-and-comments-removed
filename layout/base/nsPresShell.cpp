@@ -17689,14 +17689,6 @@ aFlush
 mFlushAnimations
 &
 &
-nsLayoutUtils
-:
-:
-AreAsyncAnimationsEnabled
-(
-)
-&
-&
 !
 mPresContext
 -
