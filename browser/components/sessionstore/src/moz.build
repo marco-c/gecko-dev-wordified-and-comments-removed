@@ -204,6 +204,11 @@ TextAndScrollData
 jsm
 '
 '
+Utils
+.
+jsm
+'
+'
 XPathGenerator
 .
 jsm
