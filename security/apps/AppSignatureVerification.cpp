@@ -632,7 +632,13 @@ digestContext
 )
 {
 return
-PRErrorCode_to_nsresult
+mozilla
+:
+:
+psm
+:
+:
+GetXPCOMFromNSSError
 (
 PR_GetError
 (

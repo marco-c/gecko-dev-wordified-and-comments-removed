@@ -118,6 +118,11 @@ nsRandomGenerator
 h
 '
 '
+NSSErrorsService
+.
+h
+'
+'
 ScopedNSSTypes
 .
 h
