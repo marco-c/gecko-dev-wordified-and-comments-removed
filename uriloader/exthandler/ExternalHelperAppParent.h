@@ -206,14 +206,14 @@ PBrowserParent
 aBrowser
 )
 ;
+protected
+:
 virtual
 ~
 ExternalHelperAppParent
 (
 )
 ;
-protected
-:
 virtual
 void
 ActorDestroy
