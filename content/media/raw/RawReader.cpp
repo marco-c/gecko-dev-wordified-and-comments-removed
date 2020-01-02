@@ -360,10 +360,7 @@ frameHeight
 if
 (
 !
-VideoInfo
-:
-:
-ValidateVideoRegion
+IsValidVideoRegion
 (
 frameSize
 mPicture

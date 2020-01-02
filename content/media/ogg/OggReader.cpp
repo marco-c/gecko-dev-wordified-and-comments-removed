@@ -1235,10 +1235,7 @@ frame_height
 ;
 if
 (
-VideoInfo
-:
-:
-ValidateVideoRegion
+IsValidVideoRegion
 (
 frameSize
 picture
