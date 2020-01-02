@@ -695,6 +695,13 @@ aRect
 ;
 virtual
 void
+Update
+(
+)
+MOZ_OVERRIDE
+;
+virtual
+void
 *
 GetNativeData
 (

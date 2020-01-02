@@ -637,6 +637,13 @@ nsIntRect
 aRect
 )
 ;
+virtual
+void
+Update
+(
+)
+MOZ_OVERRIDE
+;
 NS_IMETHOD
 DispatchEvent
 (
