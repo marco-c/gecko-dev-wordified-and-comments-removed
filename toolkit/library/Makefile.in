@@ -1985,6 +1985,8 @@ gfxtest
 \
 ssltest
 \
+xpcom_glue_gtest
+\
 (
 NULL
 )
