@@ -8,13 +8,6 @@ h
 #
 include
 "
-nsChromeRegistry
-.
-h
-"
-#
-include
-"
 nsChromeRegistryContent
 .
 h
@@ -36,7 +29,7 @@ h
 #
 include
 "
-nsResProtocolHandler
+nsIResProtocolHandler
 .
 h
 "

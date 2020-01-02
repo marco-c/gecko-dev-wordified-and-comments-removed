@@ -7,6 +7,13 @@ nsChromeRegistryChrome_h
 #
 include
 "
+nsCOMArray
+.
+h
+"
+#
+include
+"
 nsChromeRegistry
 .
 h
