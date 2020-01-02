@@ -3936,6 +3936,11 @@ LiveInterval
 newInterval
 =
 new
+(
+alloc
+(
+)
+)
 LiveInterval
 (
 interval
