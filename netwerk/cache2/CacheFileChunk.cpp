@@ -945,6 +945,7 @@ mIndex
 kChunkSize
 mRWBuf
 aLen
+true
 this
 )
 ;
