@@ -159,12 +159,6 @@ using
 mozilla
 :
 :
-Range
-;
-using
-mozilla
-:
-:
 RangedPtr
 ;
 const
@@ -3878,6 +3872,9 @@ JSContext
 *
 cx
 const
+mozilla
+:
+:
 Range
 <
 const
@@ -3943,6 +3940,9 @@ JSContext
 *
 cx
 const
+mozilla
+:
+:
 Range
 <
 const
@@ -3966,6 +3966,9 @@ JSContext
 *
 cx
 const
+mozilla
+:
+:
 Range
 <
 const

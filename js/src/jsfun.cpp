@@ -292,12 +292,6 @@ using
 mozilla
 :
 :
-Range
-;
-using
-mozilla
-:
-:
 RangedPtr
 ;
 static
@@ -4030,6 +4024,9 @@ return
 false
 ;
 const
+mozilla
+:
+:
 Range
 <
 const
@@ -9200,6 +9197,9 @@ str
 return
 false
 ;
+mozilla
+:
+:
 Range
 <
 const

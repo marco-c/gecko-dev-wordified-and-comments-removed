@@ -216,12 +216,6 @@ mozilla
 :
 IsNegativeZero
 ;
-using
-mozilla
-:
-:
-Range
-;
 #
 if
 ENABLE_INTL_API
@@ -4417,6 +4411,9 @@ str2
 return
 false
 ;
+mozilla
+:
+:
 Range
 <
 const
@@ -4430,6 +4427,9 @@ twoByteRange
 (
 )
 ;
+mozilla
+:
+:
 Range
 <
 const
@@ -8853,6 +8853,9 @@ skeletonFlat
 return
 false
 ;
+mozilla
+:
+:
 Range
 <
 const

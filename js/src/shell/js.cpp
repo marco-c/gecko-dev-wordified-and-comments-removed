@@ -512,12 +512,6 @@ mozilla
 :
 PodCopy
 ;
-using
-mozilla
-:
-:
-Range
-;
 enum
 JSShellExitCode
 {
@@ -6530,6 +6524,9 @@ cx
 }
 else
 {
+mozilla
+:
+:
 Range
 <
 const
@@ -9528,6 +9525,9 @@ str
 return
 JSTRAP_ERROR
 ;
+mozilla
+:
+:
 Range
 <
 const
@@ -13850,6 +13850,9 @@ str
 return
 false
 ;
+mozilla
+:
+:
 Range
 <
 const
@@ -15078,6 +15081,9 @@ str
 return
 false
 ;
+mozilla
+:
+:
 Range
 <
 const
@@ -15648,6 +15654,9 @@ str
 return
 JSTRAP_ERROR
 ;
+mozilla
+:
+:
 Range
 <
 const

@@ -34,12 +34,6 @@ using
 namespace
 JS
 ;
-using
-mozilla
-:
-:
-Range
-;
 Latin1CharsZ
 JS
 :
@@ -53,6 +47,9 @@ ThreadSafeContext
 *
 cx
 const
+mozilla
+:
+:
 Range
 <
 const
@@ -796,6 +793,9 @@ ThreadSafeContext
 *
 cx
 const
+mozilla
+:
+:
 Range
 <
 const
@@ -910,6 +910,9 @@ ThreadSafeContext
 *
 cx
 const
+mozilla
+:
+:
 Range
 <
 const
@@ -932,6 +935,9 @@ ThreadSafeContext
 *
 cx
 const
+mozilla
+:
+:
 Range
 <
 const

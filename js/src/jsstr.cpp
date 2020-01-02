@@ -387,12 +387,6 @@ using
 mozilla
 :
 :
-Range
-;
-using
-mozilla
-:
-:
 RangedPtr
 ;
 using
@@ -1421,6 +1415,9 @@ StringBuffer
 &
 sb
 const
+mozilla
+:
+:
 Range
 <
 const
@@ -22495,6 +22492,9 @@ NewFatInlineStringDeflated
 ThreadSafeContext
 *
 cx
+mozilla
+:
+:
 Range
 <
 const
@@ -22645,6 +22645,9 @@ allowGC
 >
 (
 cx
+mozilla
+:
+:
 Range
 <
 const
@@ -23254,6 +23257,9 @@ allowGC
 >
 (
 cx
+mozilla
+:
+:
 Range
 <
 const
@@ -23367,6 +23373,9 @@ allowGC
 >
 (
 cx
+mozilla
+:
+:
 Range
 <
 const
