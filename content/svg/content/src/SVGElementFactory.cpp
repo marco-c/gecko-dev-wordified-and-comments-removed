@@ -33,6 +33,17 @@ mozilla
 /
 dom
 /
+Element
+.
+h
+"
+#
+include
+"
+mozilla
+/
+dom
+/
 FromParser
 .
 h
