@@ -3800,7 +3800,12 @@ exports
 .
 JSPropertyProvider
 =
+DevToolsUtils
+.
+makeInfallible
+(
 JSPropertyProvider
+)
 ;
 }
 )
