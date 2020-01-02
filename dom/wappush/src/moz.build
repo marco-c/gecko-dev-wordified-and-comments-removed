@@ -114,6 +114,7 @@ MOZ_B2G_RIL
 ]
 :
 EXTRA_JS_MODULES
++
 =
 [
 '

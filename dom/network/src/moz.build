@@ -203,6 +203,7 @@ gonk
 '
 :
 EXTRA_JS_MODULES
++
 =
 [
 '

@@ -315,6 +315,7 @@ build
 '
 ]
 EXTRA_JS_MODULES
++
 =
 [
 '
