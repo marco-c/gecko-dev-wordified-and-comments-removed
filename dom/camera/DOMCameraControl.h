@@ -947,6 +947,14 @@ ErrorResult
 aRv
 )
 ;
+void
+ResumeContinuousFocus
+(
+ErrorResult
+&
+aRv
+)
+;
 virtual
 JSObject
 *

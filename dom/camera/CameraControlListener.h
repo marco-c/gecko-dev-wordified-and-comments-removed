@@ -258,6 +258,7 @@ kInStopRecording
 kInSetConfiguration
 kInStartPreview
 kInStopPreview
+kInResumeContinuousFocus
 kInUnspecified
 }
 ;
