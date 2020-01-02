@@ -121,6 +121,14 @@ LAYER_SVG_EFFECTS
 class
 RefCountedRegion
 {
+private
+:
+~
+RefCountedRegion
+(
+)
+{
+}
 public
 :
 NS_INLINE_DECL_REFCOUNTING
