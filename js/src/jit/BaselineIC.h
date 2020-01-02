@@ -99,7 +99,7 @@ isForOp
 :
 firstStub_
 (
-NULL
+nullptr
 )
 returnOffset_
 (
@@ -257,7 +257,7 @@ return
 firstStub_
 !
 =
-NULL
+nullptr
 ;
 }
 ICStub
@@ -962,7 +962,7 @@ stub
 return
 ICStubConstIterator
 (
-NULL
+nullptr
 )
 ;
 }
@@ -1089,7 +1089,7 @@ return
 currentStub_
 =
 =
-NULL
+nullptr
 ;
 }
 }
@@ -1481,7 +1481,7 @@ raw
 )
 next_
 (
-NULL
+nullptr
 )
 extra_
 (
@@ -1501,7 +1501,7 @@ JS_ASSERT
 stubCode
 !
 =
-NULL
+nullptr
 )
 ;
 }
@@ -1528,7 +1528,7 @@ raw
 )
 next_
 (
-NULL
+nullptr
 )
 extra_
 (
@@ -1548,7 +1548,7 @@ JS_ASSERT
 stubCode
 !
 =
-NULL
+nullptr
 )
 ;
 }
@@ -2014,7 +2014,7 @@ return
 next_
 !
 =
-NULL
+nullptr
 ;
 }
 inline
@@ -2345,7 +2345,7 @@ stubCode
 )
 icEntry_
 (
-NULL
+nullptr
 )
 numOptimizedStubs_
 (
@@ -2353,7 +2353,7 @@ numOptimizedStubs_
 )
 lastStubPtrAddr_
 (
-NULL
+nullptr
 )
 {
 }
@@ -2376,7 +2376,7 @@ stubCode
 )
 icEntry_
 (
-NULL
+nullptr
 )
 numOptimizedStubs_
 (
@@ -2384,7 +2384,7 @@ numOptimizedStubs_
 )
 lastStubPtrAddr_
 (
-NULL
+nullptr
 )
 {
 JS_ASSERT
@@ -2449,7 +2449,7 @@ JS_ASSERT
 icEntry_
 =
 =
-NULL
+nullptr
 )
 ;
 JS_ASSERT
@@ -2457,7 +2457,7 @@ JS_ASSERT
 lastStubPtrAddr_
 =
 =
-NULL
+nullptr
 )
 ;
 icEntry_
@@ -2501,7 +2501,7 @@ next
 )
 =
 =
-NULL
+nullptr
 )
 ;
 stub
@@ -2838,7 +2838,7 @@ stubCode
 )
 fallbackMonitorStub_
 (
-NULL
+nullptr
 )
 {
 }
@@ -2938,7 +2938,7 @@ stubCode
 )
 firstUpdateStub_
 (
-NULL
+nullptr
 )
 numOptimizedStubs_
 (
@@ -3024,7 +3024,7 @@ next
 )
 !
 =
-NULL
+nullptr
 )
 ;
 while
@@ -3066,7 +3066,7 @@ next
 )
 =
 =
-NULL
+nullptr
 )
 ;
 stub
@@ -3720,7 +3720,7 @@ if
 code
 )
 return
-NULL
+nullptr
 ;
 return
 space
@@ -3845,7 +3845,7 @@ if
 code
 )
 return
-NULL
+nullptr
 ;
 return
 space
@@ -3982,7 +3982,7 @@ if
 code
 )
 return
-NULL
+nullptr
 ;
 return
 space
@@ -4271,7 +4271,7 @@ if
 code
 )
 return
-NULL
+nullptr
 ;
 extra_
 =
@@ -4588,7 +4588,7 @@ thisFromCtor
 )
 lastMonitorStubPtrAddr_
 (
-NULL
+nullptr
 )
 numOptimizedMonitorStubs_
 (
@@ -4599,7 +4599,7 @@ hasFallbackStub_
 mainFallbackStub
 !
 =
-NULL
+nullptr
 )
 argumentIndex_
 (
@@ -4639,7 +4639,7 @@ JS_ASSERT
 lastMonitorStubPtrAddr_
 !
 =
-NULL
+nullptr
 )
 =
 =
@@ -4689,7 +4689,7 @@ JS_ASSERT
 firstMonitorStub_
 !
 =
-NULL
+nullptr
 )
 ;
 }
@@ -4734,7 +4734,7 @@ if
 code
 )
 return
-NULL
+nullptr
 ;
 return
 space
@@ -4965,7 +4965,7 @@ JS_ASSERT
 icEntry_
 =
 =
-NULL
+nullptr
 )
 ;
 JS_ASSERT
@@ -4973,7 +4973,7 @@ JS_ASSERT
 lastMonitorStubPtrAddr_
 =
 =
-NULL
+nullptr
 )
 ;
 icEntry_
@@ -5082,7 +5082,7 @@ TypeMonitor_Fallback
 )
 mainFallbackStub_
 (
-NULL
+nullptr
 )
 argumentIndex_
 (
@@ -5169,7 +5169,7 @@ if
 code
 )
 return
-NULL
+nullptr
 ;
 return
 space
@@ -5259,7 +5259,7 @@ if
 stub
 )
 return
-NULL
+nullptr
 ;
 return
 stub
@@ -5349,7 +5349,7 @@ if
 code
 )
 return
-NULL
+nullptr
 ;
 return
 space
@@ -5503,7 +5503,7 @@ if
 code
 )
 return
-NULL
+nullptr
 ;
 return
 space
@@ -5665,7 +5665,7 @@ if
 code
 )
 return
-NULL
+nullptr
 ;
 return
 space
@@ -5792,7 +5792,7 @@ if
 code
 )
 return
-NULL
+nullptr
 ;
 return
 space
@@ -5882,7 +5882,7 @@ if
 stub
 )
 return
-NULL
+nullptr
 ;
 return
 stub
@@ -5972,7 +5972,7 @@ if
 code
 )
 return
-NULL
+nullptr
 ;
 return
 space
@@ -6126,7 +6126,7 @@ if
 code
 )
 return
-NULL
+nullptr
 ;
 return
 space
@@ -6283,7 +6283,7 @@ if
 code
 )
 return
-NULL
+nullptr
 ;
 return
 space
@@ -6408,7 +6408,7 @@ if
 code
 )
 return
-NULL
+nullptr
 ;
 return
 space
@@ -6531,7 +6531,7 @@ if
 code
 )
 return
-NULL
+nullptr
 ;
 return
 space
@@ -6661,7 +6661,7 @@ if
 code
 )
 return
-NULL
+nullptr
 ;
 return
 space
@@ -6786,7 +6786,7 @@ if
 code
 )
 return
-NULL
+nullptr
 ;
 return
 space
@@ -6914,7 +6914,7 @@ if
 code
 )
 return
-NULL
+nullptr
 ;
 return
 space
@@ -7050,7 +7050,7 @@ if
 code
 )
 return
-NULL
+nullptr
 ;
 return
 space
@@ -7241,7 +7241,7 @@ if
 code
 )
 return
-NULL
+nullptr
 ;
 return
 space
@@ -7369,7 +7369,7 @@ if
 code
 )
 return
-NULL
+nullptr
 ;
 return
 space
@@ -7497,7 +7497,7 @@ if
 code
 )
 return
-NULL
+nullptr
 ;
 return
 space
@@ -7625,7 +7625,7 @@ if
 code
 )
 return
-NULL
+nullptr
 ;
 return
 space
@@ -7835,7 +7835,7 @@ if
 code
 )
 return
-NULL
+nullptr
 ;
 return
 space
@@ -8042,7 +8042,7 @@ if
 code
 )
 return
-NULL
+nullptr
 ;
 return
 space
@@ -8167,7 +8167,7 @@ if
 code
 )
 return
-NULL
+nullptr
 ;
 return
 space
@@ -8292,7 +8292,7 @@ if
 code
 )
 return
-NULL
+nullptr
 ;
 return
 space
@@ -8417,7 +8417,7 @@ if
 code
 )
 return
-NULL
+nullptr
 ;
 return
 space
@@ -8542,7 +8542,7 @@ if
 code
 )
 return
-NULL
+nullptr
 ;
 return
 space
@@ -8667,7 +8667,7 @@ if
 code
 )
 return
-NULL
+nullptr
 ;
 return
 space
@@ -8792,7 +8792,7 @@ if
 code
 )
 return
-NULL
+nullptr
 ;
 return
 space
@@ -8925,7 +8925,7 @@ if
 code
 )
 return
-NULL
+nullptr
 ;
 return
 space
@@ -9074,7 +9074,7 @@ if
 code
 )
 return
-NULL
+nullptr
 ;
 return
 space
@@ -9271,7 +9271,7 @@ if
 code
 )
 return
-NULL
+nullptr
 ;
 return
 space
@@ -9401,7 +9401,7 @@ if
 code
 )
 return
-NULL
+nullptr
 ;
 return
 space
@@ -9574,7 +9574,7 @@ if
 code
 )
 return
-NULL
+nullptr
 ;
 return
 space
@@ -9737,7 +9737,7 @@ if
 code
 )
 return
-NULL
+nullptr
 ;
 return
 space
@@ -10018,7 +10018,7 @@ if
 code
 )
 return
-NULL
+nullptr
 ;
 return
 space
@@ -10218,7 +10218,7 @@ if
 code
 )
 return
-NULL
+nullptr
 ;
 return
 space
@@ -10359,7 +10359,7 @@ if
 code
 )
 return
-NULL
+nullptr
 ;
 return
 space
@@ -10484,7 +10484,7 @@ if
 code
 )
 return
-NULL
+nullptr
 ;
 return
 space
@@ -10633,7 +10633,7 @@ if
 code
 )
 return
-NULL
+nullptr
 ;
 return
 space
@@ -10759,7 +10759,7 @@ if
 stub
 )
 return
-NULL
+nullptr
 ;
 if
 (
@@ -10774,7 +10774,7 @@ space
 )
 )
 return
-NULL
+nullptr
 ;
 return
 stub
@@ -11231,7 +11231,7 @@ if
 code
 )
 return
-NULL
+nullptr
 ;
 return
 space
@@ -11333,7 +11333,7 @@ if
 code
 )
 return
-NULL
+nullptr
 ;
 return
 space
@@ -11600,7 +11600,7 @@ if
 code
 )
 return
-NULL
+nullptr
 ;
 return
 space
@@ -11719,7 +11719,7 @@ if
 code
 )
 return
-NULL
+nullptr
 ;
 return
 space
@@ -12208,7 +12208,7 @@ kind
 )
 ;
 return
-NULL
+nullptr
 ;
 }
 }
@@ -12262,7 +12262,7 @@ if
 code
 )
 return
-NULL
+nullptr
 ;
 return
 space
@@ -12390,7 +12390,7 @@ if
 code
 )
 return
-NULL
+nullptr
 ;
 return
 space
@@ -12568,7 +12568,7 @@ if
 code
 )
 return
-NULL
+nullptr
 ;
 return
 space
@@ -12804,7 +12804,7 @@ if
 code
 )
 return
-NULL
+nullptr
 ;
 return
 space
@@ -13006,7 +13006,7 @@ if
 code
 )
 return
-NULL
+nullptr
 ;
 return
 space
@@ -13155,7 +13155,7 @@ if
 code
 )
 return
-NULL
+nullptr
 ;
 return
 space
@@ -13316,7 +13316,7 @@ space
 )
 )
 return
-NULL
+nullptr
 ;
 return
 stub
@@ -13603,7 +13603,7 @@ if
 code
 )
 return
-NULL
+nullptr
 ;
 return
 space
@@ -13885,7 +13885,7 @@ if
 code
 )
 return
-NULL
+nullptr
 ;
 return
 space
@@ -14141,7 +14141,7 @@ if
 code
 )
 return
-NULL
+nullptr
 ;
 return
 space
@@ -14273,7 +14273,7 @@ if
 code
 )
 return
-NULL
+nullptr
 ;
 return
 space
@@ -14364,7 +14364,7 @@ space
 )
 )
 return
-NULL
+nullptr
 ;
 return
 stub
@@ -14435,7 +14435,7 @@ if
 code
 )
 return
-NULL
+nullptr
 ;
 return
 space
@@ -14681,7 +14681,7 @@ if
 code
 )
 return
-NULL
+nullptr
 ;
 return
 space
@@ -14978,7 +14978,7 @@ if
 code
 )
 return
-NULL
+nullptr
 ;
 return
 space
@@ -15103,7 +15103,7 @@ if
 code
 )
 return
-NULL
+nullptr
 ;
 return
 space
@@ -15194,7 +15194,7 @@ space
 )
 )
 return
-NULL
+nullptr
 ;
 return
 stub
@@ -15255,7 +15255,7 @@ if
 code
 )
 return
-NULL
+nullptr
 ;
 return
 space
@@ -15420,7 +15420,7 @@ if
 code
 )
 return
-NULL
+nullptr
 ;
 return
 space
@@ -15608,7 +15608,7 @@ space
 )
 )
 return
-NULL
+nullptr
 ;
 return
 stub
@@ -15664,7 +15664,7 @@ if
 code
 )
 return
-NULL
+nullptr
 ;
 return
 space
@@ -15784,7 +15784,7 @@ if
 code
 )
 return
-NULL
+nullptr
 ;
 return
 space
@@ -15919,7 +15919,7 @@ if
 code
 )
 return
-NULL
+nullptr
 ;
 return
 space
@@ -16166,7 +16166,7 @@ if
 code
 )
 return
-NULL
+nullptr
 ;
 return
 space
@@ -16388,7 +16388,7 @@ if
 code
 )
 return
-NULL
+nullptr
 ;
 return
 space
@@ -16477,7 +16477,7 @@ if
 code
 )
 return
-NULL
+nullptr
 ;
 return
 space
@@ -17114,7 +17114,7 @@ if
 code
 )
 return
-NULL
+nullptr
 ;
 return
 space
@@ -17328,7 +17328,7 @@ if
 code
 )
 return
-NULL
+nullptr
 ;
 return
 space
@@ -17781,7 +17781,7 @@ if
 code
 )
 return
-NULL
+nullptr
 ;
 return
 space
@@ -17922,7 +17922,7 @@ if
 code
 )
 return
-NULL
+nullptr
 ;
 return
 space
@@ -18176,7 +18176,7 @@ if
 code
 )
 return
-NULL
+nullptr
 ;
 return
 space
@@ -18427,7 +18427,7 @@ if
 code
 )
 return
-NULL
+nullptr
 ;
 return
 space
@@ -18598,7 +18598,7 @@ if
 code
 )
 return
-NULL
+nullptr
 ;
 return
 space
@@ -18793,7 +18793,7 @@ if
 code
 )
 return
-NULL
+nullptr
 ;
 return
 space
@@ -19221,7 +19221,7 @@ if
 code
 )
 return
-NULL
+nullptr
 ;
 return
 space
@@ -19803,7 +19803,7 @@ if
 code
 )
 return
-NULL
+nullptr
 ;
 return
 space
@@ -20004,7 +20004,7 @@ if
 code
 )
 return
-NULL
+nullptr
 ;
 return
 space
@@ -20319,7 +20319,7 @@ if
 code
 )
 return
-NULL
+nullptr
 ;
 return
 space
@@ -20499,7 +20499,7 @@ space
 )
 )
 return
-NULL
+nullptr
 ;
 return
 stub
@@ -20570,7 +20570,7 @@ if
 code
 )
 return
-NULL
+nullptr
 ;
 return
 space
@@ -20697,7 +20697,7 @@ if
 code
 )
 return
-NULL
+nullptr
 ;
 return
 space
@@ -20867,7 +20867,7 @@ isConstructing
 calleeScript_
 (
 cx
-NULL
+nullptr
 )
 pcOffset_
 (
@@ -20983,7 +20983,7 @@ if
 code
 )
 return
-NULL
+nullptr
 ;
 return
 space
@@ -21250,7 +21250,7 @@ if
 code
 )
 return
-NULL
+nullptr
 ;
 return
 space
@@ -21450,7 +21450,7 @@ if
 code
 )
 return
-NULL
+nullptr
 ;
 return
 space
@@ -21682,7 +21682,7 @@ if
 code
 )
 return
-NULL
+nullptr
 ;
 return
 space
@@ -21817,7 +21817,7 @@ if
 code
 )
 return
-NULL
+nullptr
 ;
 return
 space
@@ -21942,7 +21942,7 @@ if
 code
 )
 return
-NULL
+nullptr
 ;
 return
 space
@@ -22067,7 +22067,7 @@ if
 code
 )
 return
-NULL
+nullptr
 ;
 return
 space
@@ -22192,7 +22192,7 @@ if
 code
 )
 return
-NULL
+nullptr
 ;
 return
 space
@@ -22317,7 +22317,7 @@ if
 code
 )
 return
-NULL
+nullptr
 ;
 return
 space
@@ -22442,7 +22442,7 @@ if
 code
 )
 return
-NULL
+nullptr
 ;
 return
 space
@@ -22567,7 +22567,7 @@ if
 code
 )
 return
-NULL
+nullptr
 ;
 return
 space
@@ -22692,7 +22692,7 @@ if
 code
 )
 return
-NULL
+nullptr
 ;
 return
 space
@@ -22839,7 +22839,7 @@ if
 code
 )
 return
-NULL
+nullptr
 ;
 return
 space
@@ -23035,7 +23035,7 @@ if
 code
 )
 return
-NULL
+nullptr
 ;
 return
 space
@@ -23186,7 +23186,7 @@ if
 code
 )
 return
-NULL
+nullptr
 ;
 return
 space
