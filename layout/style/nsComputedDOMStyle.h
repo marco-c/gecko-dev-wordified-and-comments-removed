@@ -914,10 +914,10 @@ dom
 :
 CSSValue
 *
-GetGridTrackList
+GetGridTemplateColumnsRows
 (
 const
-nsStyleGridTrackList
+nsStyleGridTemplate
 &
 aTrackList
 )
