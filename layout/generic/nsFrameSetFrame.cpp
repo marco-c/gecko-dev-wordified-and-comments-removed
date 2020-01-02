@@ -879,7 +879,7 @@ frame
 mContent
 -
 >
-GetDocument
+GetComposedDoc
 (
 )
 ;
