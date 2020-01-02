@@ -14850,6 +14850,9 @@ cpows
 ;
 if
 (
+aCpows
+&
+&
 !
 GetCPOWManager
 (

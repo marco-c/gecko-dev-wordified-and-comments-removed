@@ -113,6 +113,11 @@ JavaScriptShared
 cpp
 '
 '
+WrapperAnswer
+.
+cpp
+'
+'
 WrapperOwner
 .
 cpp
