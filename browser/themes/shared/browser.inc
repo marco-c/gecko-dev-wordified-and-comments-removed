@@ -208,6 +208,10 @@ sidebar
 -
 button
 nestedButtons
+#
+e10s
+-
+button
 %
 ifdef
 XP_MACOSX
