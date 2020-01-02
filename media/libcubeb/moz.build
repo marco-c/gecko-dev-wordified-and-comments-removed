@@ -104,11 +104,3 @@ include
 src
 '
 ]
-TEST_TOOL_DIRS
-+
-=
-[
-'
-tests
-'
-]
