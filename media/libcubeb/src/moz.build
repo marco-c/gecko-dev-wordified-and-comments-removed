@@ -107,11 +107,6 @@ cubeb
 .
 c
 '
-'
-cubeb_panner
-.
-cpp
-'
 ]
 if
 CONFIG
