@@ -158,8 +158,6 @@ is
 (
 outgoing
 .
-id
-.
 number
 number
 )
