@@ -637,7 +637,6 @@ DrawTarget
 *
 BorrowDrawTargetForPainting
 (
-const
 PaintState
 &
 aPaintState

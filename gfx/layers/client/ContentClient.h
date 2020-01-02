@@ -274,7 +274,6 @@ DrawTarget
 *
 BorrowDrawTargetForPainting
 (
-const
 RotatedContentBuffer
 :
 :
@@ -448,7 +447,6 @@ DrawTarget
 *
 BorrowDrawTargetForPainting
 (
-const
 PaintState
 &
 aPaintState
@@ -728,7 +726,6 @@ DrawTarget
 *
 BorrowDrawTargetForPainting
 (
-const
 PaintState
 &
 aPaintState
@@ -1372,7 +1369,6 @@ DrawTarget
 *
 BorrowDrawTargetForPainting
 (
-const
 PaintState
 &
 aPaintState
