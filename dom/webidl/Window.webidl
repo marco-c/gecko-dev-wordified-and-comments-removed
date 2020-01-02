@@ -352,6 +352,7 @@ work
 /
 [
 Global
+NeedNewResolve
 ]
 /
 *
