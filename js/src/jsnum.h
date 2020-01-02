@@ -1165,6 +1165,11 @@ out
 )
 ;
 }
+void
+FIX_FPU
+(
+)
+;
 }
 #
 endif

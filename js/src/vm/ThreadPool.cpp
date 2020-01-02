@@ -26,6 +26,13 @@ h
 #
 include
 "
+jsnum
+.
+h
+"
+#
+include
+"
 js
 /
 Utility
@@ -692,6 +699,10 @@ nullptr
 }
 #
 endif
+FIX_FPU
+(
+)
+;
 worker
 -
 >
