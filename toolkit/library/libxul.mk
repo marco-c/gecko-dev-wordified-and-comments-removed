@@ -550,9 +550,6 @@ lbinder
 -
 lgui
 \
--
-lmtp
-\
 (
 NULL
 )
