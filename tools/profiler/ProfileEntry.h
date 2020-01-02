@@ -12,7 +12,7 @@ ostream
 #
 include
 "
-GeckoProfilerImpl
+GeckoProfiler
 .
 h
 "
