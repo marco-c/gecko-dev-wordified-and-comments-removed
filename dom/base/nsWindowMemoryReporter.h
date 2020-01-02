@@ -218,6 +218,14 @@ ZERO_SIZE
 #
 undef
 ZERO_SIZE
+mDOMEventTargetsCount
+(
+0
+)
+mDOMEventListenersCount
+(
+0
+)
 mArenaStats
 (
 )
