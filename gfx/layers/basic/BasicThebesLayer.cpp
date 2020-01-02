@@ -648,13 +648,6 @@ readbackUpdates
 )
 ;
 }
-mContentClient
--
->
-SyncFrontBufferToBackBuffer
-(
-)
-;
 bool
 canUseOpaqueSurface
 =
