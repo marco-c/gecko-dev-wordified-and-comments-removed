@@ -481,3 +481,13 @@ app
 mozbuild
 '
 )
+include
+(
+'
+build
+/
+templates
+.
+mozbuild
+'
+)
