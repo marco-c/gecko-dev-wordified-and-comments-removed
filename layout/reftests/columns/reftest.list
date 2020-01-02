@@ -400,6 +400,12 @@ auto
 ref
 .
 html
+random
+-
+if
+(
+B2G
+)
 HTTP
 (
 .
@@ -423,6 +429,12 @@ auto
 ref
 .
 html
+random
+-
+if
+(
+B2G
+)
 HTTP
 (
 .

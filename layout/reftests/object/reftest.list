@@ -718,6 +718,12 @@ to
 run
 them
 #
+fails
+-
+if
+(
+B2G
+)
 =
 =
 malformed

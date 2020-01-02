@@ -765,6 +765,12 @@ mobile
 font
 size
 inflation
+skip
+-
+if
+(
+B2G
+)
 include
 font
 -
@@ -773,6 +779,9 @@ inflation
 reftest
 .
 list
+#
+Bug
+972697
 #
 font
 matching
