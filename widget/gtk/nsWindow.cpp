@@ -13490,9 +13490,12 @@ brandName
 .
 AssignLiteral
 (
+MOZ_UTF16
+(
 "
 Mozilla
 "
+)
 )
 ;
 }
