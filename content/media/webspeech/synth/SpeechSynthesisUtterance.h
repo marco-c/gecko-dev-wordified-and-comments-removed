@@ -37,13 +37,6 @@ h
 #
 include
 "
-EnableSpeechSynthesisCheck
-.
-h
-"
-#
-include
-"
 nsSpeechTask
 .
 h
@@ -69,8 +62,6 @@ MOZ_FINAL
 :
 public
 nsDOMEventTargetHelper
-public
-EnableSpeechSynthesisCheck
 {
 friend
 class

@@ -166,6 +166,17 @@ GeneratedEventClasses
 .
 h
 "
+Pref
+=
+"
+media
+.
+webspeech
+.
+synth
+.
+enabled
+"
 ]
 interface
 SpeechSynthesisEvent

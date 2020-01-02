@@ -116,11 +116,6 @@ dom
 =
 [
 '
-EnableSpeechSynthesisCheck
-.
-h
-'
-'
 ipc
 /
 SpeechSynthesisChild
@@ -164,11 +159,6 @@ UNIFIED_SOURCES
 +
 =
 [
-'
-EnableSpeechSynthesisCheck
-.
-cpp
-'
 '
 ipc
 /

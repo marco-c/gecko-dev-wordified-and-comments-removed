@@ -37,13 +37,6 @@ h
 #
 include
 "
-EnableSpeechSynthesisCheck
-.
-h
-"
-#
-include
-"
 nsISpeechService
 .
 h
@@ -68,8 +61,6 @@ public
 nsISupports
 public
 nsWrapperCache
-public
-EnableSpeechSynthesisCheck
 {
 friend
 class

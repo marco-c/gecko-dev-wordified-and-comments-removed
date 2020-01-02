@@ -113,13 +113,6 @@ h
 #
 include
 "
-EnableWebSpeechRecognitionCheck
-.
-h
-"
-#
-include
-"
 SpeechGrammarList
 .
 h
@@ -277,8 +270,6 @@ public
 nsDOMEventTargetHelper
 public
 nsIObserver
-public
-EnableWebSpeechRecognitionCheck
 public
 SupportsWeakPtr
 <

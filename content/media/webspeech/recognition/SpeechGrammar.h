@@ -59,13 +59,6 @@ ErrorResult
 .
 h
 "
-#
-include
-"
-EnableWebSpeechRecognitionCheck
-.
-h
-"
 namespace
 mozilla
 {
@@ -83,8 +76,6 @@ public
 nsISupports
 public
 nsWrapperCache
-public
-EnableWebSpeechRecognitionCheck
 {
 public
 :

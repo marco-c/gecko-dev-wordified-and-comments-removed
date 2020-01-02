@@ -95,6 +95,17 @@ interface
 nsISupports
 ;
 [
+Pref
+=
+"
+media
+.
+webspeech
+.
+recognition
+.
+enable
+"
 Constructor
 (
 DOMString

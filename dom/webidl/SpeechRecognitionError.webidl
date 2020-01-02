@@ -137,6 +137,17 @@ supported
 }
 ;
 [
+Pref
+=
+"
+media
+.
+webspeech
+.
+recognition
+.
+enable
+"
 Constructor
 (
 DOMString

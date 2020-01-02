@@ -53,13 +53,6 @@ h
 #
 include
 "
-EnableWebSpeechRecognitionCheck
-.
-h
-"
-#
-include
-"
 SpeechRecognitionResult
 .
 h
@@ -81,8 +74,6 @@ public
 nsISupports
 public
 nsWrapperCache
-public
-EnableWebSpeechRecognitionCheck
 {
 public
 :

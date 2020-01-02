@@ -144,11 +144,6 @@ UNIFIED_SOURCES
 =
 [
 '
-EnableWebSpeechRecognitionCheck
-.
-cpp
-'
-'
 endpointer
 .
 cc
