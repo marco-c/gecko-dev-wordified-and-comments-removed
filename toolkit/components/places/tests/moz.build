@@ -162,6 +162,13 @@ xpcshell
 ini
 '
 '
+unifiedcomplete
+/
+xpcshell
+.
+ini
+'
+'
 unit
 /
 xpcshell
