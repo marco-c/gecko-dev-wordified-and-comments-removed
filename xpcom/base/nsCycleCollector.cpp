@@ -2453,10 +2453,10 @@ mVal
 }
 ;
 class
-GCGraphBuilder
+CCGraphBuilder
 ;
 struct
-GCGraph
+CCGraph
 {
 NodePool
 mNodes
@@ -2480,7 +2480,7 @@ mPtrToNodeMap
 ;
 public
 :
-GCGraph
+CCGraph
 (
 )
 :
@@ -2497,7 +2497,7 @@ nullptr
 ;
 }
 ~
-GCGraph
+CCGraph
 (
 )
 {
@@ -2530,7 +2530,7 @@ IsEmpty
 Failed
 to
 call
-GCGraph
+CCGraph
 :
 :
 Clear
@@ -2726,7 +2726,7 @@ aMallocSizeOf
 ;
 PtrInfo
 *
-GCGraph
+CCGraph
 :
 :
 FindNode
@@ -2777,7 +2777,7 @@ mNode
 }
 PtrToNodeEntry
 *
-GCGraph
+CCGraph
 :
 :
 AddNodeToMap
@@ -2821,7 +2821,7 @@ e
 ;
 }
 void
-GCGraph
+CCGraph
 :
 :
 RemoveNodeFromMap
@@ -3486,7 +3486,7 @@ visitor
 void
 SelectPointers
 (
-GCGraphBuilder
+CCGraphBuilder
 &
 aBuilder
 )
@@ -3770,7 +3770,7 @@ static
 bool
 AddPurpleRoot
 (
-GCGraphBuilder
+CCGraphBuilder
 &
 aBuilder
 void
@@ -3786,7 +3786,7 @@ SelectPointersVisitor
 {
 SelectPointersVisitor
 (
-GCGraphBuilder
+CCGraphBuilder
 &
 aBuilder
 )
@@ -3890,7 +3890,7 @@ aEntry
 }
 private
 :
-GCGraphBuilder
+CCGraphBuilder
 &
 mBuilder
 ;
@@ -3902,7 +3902,7 @@ nsPurpleBuffer
 :
 SelectPointers
 (
-GCGraphBuilder
+CCGraphBuilder
 &
 aBuilder
 )
@@ -4019,12 +4019,12 @@ mJSRuntime
 ccPhase
 mIncrementalPhase
 ;
-GCGraph
+CCGraph
 mGraph
 ;
 nsAutoPtr
 <
-GCGraphBuilder
+CCGraphBuilder
 >
 mBuilder
 ;
@@ -4402,7 +4402,7 @@ aPi
 void
 WalkFromRoots
 (
-GCGraph
+CCGraph
 &
 aGraph
 )
@@ -4617,7 +4617,7 @@ Visitor
 :
 WalkFromRoots
 (
-GCGraph
+CCGraph
 &
 aGraph
 )
@@ -7149,7 +7149,7 @@ aInstancePtr
 ;
 }
 class
-GCGraphBuilder
+CCGraphBuilder
 :
 public
 nsCycleCollectionTraversalCallback
@@ -7158,7 +7158,7 @@ nsCycleCollectionNoteRootCallback
 {
 private
 :
-GCGraph
+CCGraph
 &
 mGraph
 ;
@@ -7205,9 +7205,9 @@ mRanOutOfMemory
 ;
 public
 :
-GCGraphBuilder
+CCGraphBuilder
 (
-GCGraph
+CCGraph
 &
 aGraph
 CycleCollectorResults
@@ -7225,7 +7225,7 @@ aMergeZones
 ;
 virtual
 ~
-GCGraphBuilder
+CCGraphBuilder
 (
 )
 ;
@@ -7629,12 +7629,12 @@ zone
 }
 }
 ;
-GCGraphBuilder
+CCGraphBuilder
 :
 :
-GCGraphBuilder
+CCGraphBuilder
 (
-GCGraph
+CCGraph
 &
 aGraph
 CycleCollectorResults
@@ -7806,18 +7806,18 @@ WantAllTraces
 )
 ;
 }
-GCGraphBuilder
+CCGraphBuilder
 :
 :
 ~
-GCGraphBuilder
+CCGraphBuilder
 (
 )
 {
 }
 PtrInfo
 *
-GCGraphBuilder
+CCGraphBuilder
 :
 :
 AddNode
@@ -7933,7 +7933,7 @@ result
 }
 MOZ_NEVER_INLINE
 void
-GCGraphBuilder
+CCGraphBuilder
 :
 :
 Traverse
@@ -8012,7 +8012,7 @@ aPtrInfo
 }
 }
 void
-GCGraphBuilder
+CCGraphBuilder
 :
 :
 SetLastChild
@@ -8036,7 +8036,7 @@ NS_IMETHODIMP_
 (
 void
 )
-GCGraphBuilder
+CCGraphBuilder
 :
 :
 NoteXPCOMRoot
@@ -8095,7 +8095,7 @@ NS_IMETHODIMP_
 (
 void
 )
-GCGraphBuilder
+CCGraphBuilder
 :
 :
 NoteJSRoot
@@ -8141,7 +8141,7 @@ NS_IMETHODIMP_
 (
 void
 )
-GCGraphBuilder
+CCGraphBuilder
 :
 :
 NoteNativeRoot
@@ -8165,7 +8165,7 @@ NS_IMETHODIMP_
 (
 void
 )
-GCGraphBuilder
+CCGraphBuilder
 :
 :
 DescribeRefCountedNode
@@ -8253,7 +8253,7 @@ NS_IMETHODIMP_
 (
 void
 )
-GCGraphBuilder
+CCGraphBuilder
 :
 :
 DescribeGCedNode
@@ -8317,7 +8317,7 @@ NS_IMETHODIMP_
 (
 void
 )
-GCGraphBuilder
+CCGraphBuilder
 :
 :
 NoteXPCOMChild
@@ -8417,7 +8417,7 @@ NS_IMETHODIMP_
 (
 void
 )
-GCGraphBuilder
+CCGraphBuilder
 :
 :
 NoteNativeChild
@@ -8486,7 +8486,7 @@ NS_IMETHODIMP_
 (
 void
 )
-GCGraphBuilder
+CCGraphBuilder
 :
 :
 NoteJSChild
@@ -8587,7 +8587,7 @@ NS_IMETHODIMP_
 (
 void
 )
-GCGraphBuilder
+CCGraphBuilder
 :
 :
 NoteNextEdgeName
@@ -8613,7 +8613,7 @@ aName
 }
 PtrInfo
 *
-GCGraphBuilder
+CCGraphBuilder
 :
 :
 AddWeakMapNode
@@ -8693,7 +8693,7 @@ NS_IMETHODIMP_
 (
 void
 )
-GCGraphBuilder
+CCGraphBuilder
 :
 :
 NoteWeakMapping
@@ -8817,7 +8817,7 @@ static
 bool
 AddPurpleRoot
 (
-GCGraphBuilder
+CCGraphBuilder
 &
 aBuilder
 void
@@ -11409,7 +11409,7 @@ public
 :
 PurpleScanBlackVisitor
 (
-GCGraph
+CCGraph
 &
 aGraph
 nsICycleCollectorListener
@@ -11646,7 +11646,7 @@ pi
 }
 private
 :
-GCGraph
+CCGraph
 &
 mGraph
 ;
@@ -14881,7 +14881,7 @@ mBuilder
 mBuilder
 =
 new
-GCGraphBuilder
+CCGraphBuilder
 (
 mGraph
 mResults
