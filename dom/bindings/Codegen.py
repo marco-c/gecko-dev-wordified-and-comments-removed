@@ -45792,9 +45792,14 @@ method
 assert
 (
 not
-constant
+movable
 or
-pure
+aliasSet
+!
+=
+"
+AliasEverything
+"
 )
         
 assert
@@ -45802,7 +45807,7 @@ assert
 not
 hasSlot
 or
-pure
+movable
 )
         
 protoID

@@ -2270,6 +2270,7 @@ Document
 {
 [
 Throws
+Pure
 ]
 Element
 ?
@@ -2281,6 +2282,7 @@ selectors
 ;
 [
 Throws
+Pure
 ]
 NodeList
 querySelectorAll

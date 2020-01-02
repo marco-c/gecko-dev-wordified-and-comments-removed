@@ -408,6 +408,7 @@ localName
 ;
 [
 Throws
+Pure
 ]
 HTMLCollection
 getElementsByTagNameNS
@@ -623,6 +624,7 @@ matchesselector
 /
 [
 Throws
+Pure
 ]
 boolean
 mozMatchesSelector
@@ -1287,6 +1289,7 @@ Element
 {
 [
 Throws
+Pure
 ]
 Element
 ?
@@ -1298,6 +1301,7 @@ selectors
 ;
 [
 Throws
+Pure
 ]
 NodeList
 querySelectorAll
