@@ -6328,7 +6328,7 @@ nsIFile
 :
 :
 NORMAL_FILE_TYPE
-0600
+0644
 )
 ;
 NS_ENSURE_SUCCESS
@@ -9391,7 +9391,7 @@ nsIFile
 :
 :
 NORMAL_FILE_TYPE
-0600
+0644
 )
 ;
 if

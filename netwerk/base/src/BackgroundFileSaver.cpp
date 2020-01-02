@@ -1702,7 +1702,7 @@ mActualTarget
 PR_WRONLY
 |
 creationIoFlags
-0600
+0644
 )
 ;
 NS_ENSURE_SUCCESS
