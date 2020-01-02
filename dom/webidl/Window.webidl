@@ -2672,6 +2672,16 @@ object
 ?
 content
 ;
+[
+ChromeOnly
+Throws
+]
+readonly
+attribute
+object
+?
+__content
+;
 }
 ;
 Window

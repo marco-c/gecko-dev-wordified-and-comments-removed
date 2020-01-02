@@ -482,10 +482,6 @@ sConstructor_id
 ;
 static
 jsid
-s_content_id
-;
-static
-jsid
 sLength_id
 ;
 static
