@@ -98,6 +98,11 @@ EXPORTS
 =
 [
 '
+ActiveElementManager
+.
+h
+'
+'
 APZCCallbackHelper
 .
 h
@@ -127,6 +132,11 @@ UNIFIED_SOURCES
 +
 =
 [
+'
+ActiveElementManager
+.
+cpp
+'
 '
 APZCCallbackHelper
 .
