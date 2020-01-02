@@ -374,15 +374,6 @@ nsIMIMEInfo
 .
 useHelperApp
 ;
-app
-.
-launch
-(
-aLauncher
-.
-source
-)
-;
 if
 (
 !
