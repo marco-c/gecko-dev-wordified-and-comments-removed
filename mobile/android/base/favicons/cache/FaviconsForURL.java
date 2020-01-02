@@ -216,8 +216,13 @@ index
 )
 {
 index
++
++
+;
+index
 =
-0
+-
+index
 ;
 }
 mFavicons
