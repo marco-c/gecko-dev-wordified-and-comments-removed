@@ -247,6 +247,11 @@ EXTRA_JS_MODULES
 =
 [
 '
+AlertsHelper
+.
+jsm
+'
+'
 ErrorPage
 .
 jsm
