@@ -1968,13 +1968,6 @@ java
 '
 home
 /
-LastTabsPanel
-.
-java
-'
-'
-home
-/
 MultiTypeCursorAdapter
 .
 java
@@ -2074,6 +2067,13 @@ java
 home
 /
 ReadingListRow
+.
+java
+'
+'
+home
+/
+RecentTabsPanel
 .
 java
 '
