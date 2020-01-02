@@ -377,6 +377,17 @@ height
 "
 auto
 "
+style
+:
+{
+"
+bugDisplayMode
+"
+:
+"
+off
+"
+}
 }
 events
 :
