@@ -609,7 +609,7 @@ addons
 .
 TestUtils
 .
-isComponentOfType
+isDescriptorOfType
 (
 value
 loop
