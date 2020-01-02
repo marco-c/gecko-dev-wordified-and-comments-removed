@@ -110,11 +110,6 @@ nsIAlarmHalService
 .
 idl
 '
-'
-nsIDOMAlarmsManager
-.
-idl
-'
 ]
 XPIDL_MODULE
 =

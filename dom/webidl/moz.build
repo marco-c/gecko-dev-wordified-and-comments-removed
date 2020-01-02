@@ -135,6 +135,11 @@ ActivityRequestHandler
 webidl
 '
 '
+AlarmsManager
+.
+webidl
+'
+'
 AnalyserNode
 .
 webidl
