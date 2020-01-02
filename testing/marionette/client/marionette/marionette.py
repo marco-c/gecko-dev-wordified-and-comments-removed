@@ -3911,6 +3911,8 @@ emulator
 .
 setup_port_forwarding
 (
+remote_port
+=
 self
 .
 port
@@ -3989,6 +3991,8 @@ emulator
 .
 setup_port_forwarding
 (
+remote_port
+=
 self
 .
 port

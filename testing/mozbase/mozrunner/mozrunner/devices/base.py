@@ -1180,7 +1180,12 @@ def
 setup_port_forwarding
 (
 self
+local_port
+=
+None
 remote_port
+=
+2828
 )
 :
         
@@ -1206,11 +1211,36 @@ any
 availble
 local
 port
+(
+if
+none
+specified
+)
 and
 return
 the
 local
 port
+.
+        
+:
+param
+local_port
+:
+The
+local
+port
+to
+forward
+from
+if
+unspecified
+a
+                           
+random
+port
+is
+chosen
 .
         
 :
@@ -1221,14 +1251,31 @@ The
 remote
 port
 to
-wait
-on
+forward
+to
+defaults
+to
+2828
+.
+        
+:
+returns
+:
+The
+local_port
+being
+forwarded
 .
         
 "
 "
 "
         
+if
+not
+local_port
+:
+            
 s
 =
 socket
@@ -1242,7 +1289,7 @@ socket
 .
 SOCK_STREAM
 )
-        
+            
 s
 .
 bind
@@ -1253,7 +1300,7 @@ bind
 0
 )
 )
-        
+            
 local_port
 =
 s
@@ -1264,7 +1311,7 @@ getsockname
 [
 1
 ]
-        
+            
 s
 .
 close
@@ -1284,7 +1331,10 @@ tcp
 d
 '
 %
+int
+(
 local_port
+)
 '
 tcp
 :
@@ -1292,7 +1342,10 @@ tcp
 d
 '
 %
+int
+(
 remote_port
+)
 )
         
 return
@@ -1331,9 +1384,9 @@ Popen
 [
 self
 .
-dm
+app_ctx
 .
-_adbPath
+adb
 '
 shell
 '
