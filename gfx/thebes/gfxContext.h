@@ -1191,12 +1191,12 @@ aFile
 )
 ;
 void
-DumpAsDataURL
+DumpAsDataURI
 (
 )
 ;
 void
-CopyAsDataURL
+CopyAsDataURI
 (
 )
 ;
