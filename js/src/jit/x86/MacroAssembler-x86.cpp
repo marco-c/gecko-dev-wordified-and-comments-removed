@@ -2211,13 +2211,13 @@ reg
 scratch
 )
 ;
-cmpl
+orl
 (
-scratch
 Imm32
 (
-1
+2
 )
+scratch
 )
 ;
 bind
@@ -2227,7 +2227,7 @@ nonZero
 )
 ;
 return
-Zero
+Parity
 ;
 }
 Assembler
