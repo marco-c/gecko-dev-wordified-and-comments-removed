@@ -1165,6 +1165,13 @@ cpp
 '
 opengl
 /
+EGLImageHelpers
+.
+cpp
+'
+'
+opengl
+/
 GrallocTextureClient
 .
 cpp
