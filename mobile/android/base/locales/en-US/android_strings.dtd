@@ -673,6 +673,17 @@ Search
 <
 !
 ENTITY
+pref_category_search_summary
+"
+Customize
+your
+search
+providers
+"
+>
+<
+!
+ENTITY
 pref_category_display
 "
 Display

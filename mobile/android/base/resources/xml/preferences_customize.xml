@@ -228,6 +228,15 @@ string
 /
 pref_category_search
 "
+android
+:
+summary
+=
+"
+string
+/
+pref_category_search_summary
+"
 >
 <
 intent
