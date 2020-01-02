@@ -7,6 +7,13 @@ GMPService_h_
 #
 include
 "
+nsString
+.
+h
+"
+#
+include
+"
 mozIGeckoMediaPluginService
 .
 h

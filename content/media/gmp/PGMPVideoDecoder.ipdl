@@ -153,6 +153,10 @@ InitDecode
 (
 GMPVideoCodec
 aCodecSettings
+uint8_t
+[
+]
+aCodecSpecific
 int32_t
 aCoreCount
 )
@@ -222,6 +226,16 @@ aPictureId
 ;
 async
 InputDataExhausted
+(
+)
+;
+async
+DrainComplete
+(
+)
+;
+async
+ResetComplete
 (
 )
 ;
