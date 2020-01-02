@@ -3797,11 +3797,6 @@ noautofocus
 "
 true
 "
-level
-=
-"
-top
-"
 onclick
 =
 "
@@ -3968,11 +3963,6 @@ noautofocus
 =
 "
 true
-"
-level
-=
-"
-top
 "
 onclick
 =
