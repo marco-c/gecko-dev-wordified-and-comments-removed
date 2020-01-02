@@ -4038,7 +4038,7 @@ JSFunction
 *
 fun
 =
-NULL
+nullptr
 )
 {
 if
@@ -4248,7 +4248,7 @@ JS_ReportErrorNumber
 (
 cx
 js_GetErrorMessage
-NULL
+nullptr
 JSMSG_USE_ASM_TYPE_FAIL
 "
 argument

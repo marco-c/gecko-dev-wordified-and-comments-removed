@@ -1731,7 +1731,7 @@ view
 SetViewList
 (
 this
-NULL
+nullptr
 )
 ;
 elements
@@ -1986,7 +1986,7 @@ if
 newheader
 )
 return
-NULL
+nullptr
 ;
 initElementsHeader
 (
@@ -21566,7 +21566,7 @@ buffer
 .
 ensureNonInline
 (
-NULL
+nullptr
 )
 )
 return

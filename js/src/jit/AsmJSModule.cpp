@@ -2404,7 +2404,7 @@ length
 *
 name
 =
-NULL
+nullptr
 ;
 return
 cursor
@@ -2456,7 +2456,7 @@ length
 )
 )
 return
-NULL
+nullptr
 ;
 memcpy
 (
@@ -2514,7 +2514,7 @@ if
 atom
 )
 return
-NULL
+nullptr
 ;
 *
 name
@@ -2726,7 +2726,7 @@ length
 )
 )
 return
-NULL
+nullptr
 ;
 for
 (
@@ -2771,7 +2771,7 @@ cursor
 )
 )
 return
-NULL
+nullptr
 ;
 }
 return
@@ -2957,7 +2957,7 @@ length
 )
 )
 return
-NULL
+nullptr
 ;
 cursor
 =
@@ -4268,7 +4268,7 @@ PropertyNameWrapper
 :
 name
 (
-NULL
+nullptr
 )
 {
 }
@@ -4923,7 +4923,7 @@ serializedSize
 )
 memory
 (
-NULL
+nullptr
 )
 handle
 (
@@ -5191,7 +5191,7 @@ serializedSize
 )
 memory
 (
-NULL
+nullptr
 )
 handle
 (

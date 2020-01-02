@@ -3118,7 +3118,7 @@ context
 (
 )
 js_GetErrorMessage
-NULL
+nullptr
 JSMSG_UNWRAP_DENIED
 )
 ;
@@ -3182,7 +3182,7 @@ context
 (
 )
 js_GetErrorMessage
-NULL
+nullptr
 JSMSG_SC_DUP_TRANSFERABLE
 )
 ;
@@ -3245,7 +3245,7 @@ context
 (
 )
 js_GetErrorMessage
-NULL
+nullptr
 JSMSG_SC_NOT_TRANSFERABLE
 )
 ;
@@ -4650,7 +4650,7 @@ out
 .
 writePtr
 (
-NULL
+nullptr
 )
 |
 |

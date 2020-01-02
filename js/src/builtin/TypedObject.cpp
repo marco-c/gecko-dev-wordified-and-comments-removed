@@ -1423,8 +1423,8 @@ NumericTypeObjectMethods
 handle
 "
 {
-NULL
-NULL
+nullptr
+nullptr
 }
 2
 0
@@ -2226,8 +2226,8 @@ typeObjectMethods
 handle
 "
 {
-NULL
-NULL
+nullptr
+nullptr
 }
 2
 0
@@ -4280,8 +4280,8 @@ typeObjectMethods
 handle
 "
 {
-NULL
-NULL
+nullptr
+nullptr
 }
 2
 0
@@ -4788,8 +4788,8 @@ JSObject
 :
 :
 class_
-NULL
-NULL
+nullptr
+nullptr
 )
 )
 ;
@@ -4805,8 +4805,8 @@ JSObject
 :
 :
 class_
-NULL
-NULL
+nullptr
+nullptr
 )
 )
 ;
@@ -5836,7 +5836,7 @@ if
 module
 )
 return
-NULL
+nullptr
 ;
 if
 (
@@ -5852,7 +5852,7 @@ handleStaticMethods
 )
 )
 return
-NULL
+nullptr
 ;
 RootedValue
 handleValue
@@ -5884,8 +5884,8 @@ names
 .
 Handle
 handleValue
-NULL
-NULL
+nullptr
+nullptr
 JSPROP_READONLY
 |
 JSPROP_PERMANENT
@@ -5893,7 +5893,7 @@ JSPROP_PERMANENT
 )
 {
 return
-NULL
+nullptr
 ;
 }
 return
@@ -6200,7 +6200,7 @@ if
 obj
 )
 return
-NULL
+nullptr
 ;
 return
 &
@@ -6372,7 +6372,7 @@ clasp
 &
 *
 proto
-NULL
+nullptr
 )
 )
 ;
@@ -6382,7 +6382,7 @@ if
 obj
 )
 return
-NULL
+nullptr
 ;
 obj
 -
@@ -6815,7 +6815,7 @@ JS_ReportErrorNumber
 (
 cx
 js_GetErrorMessage
-NULL
+nullptr
 errorNumber
 typeReprStr
 )
@@ -9796,10 +9796,10 @@ TypedDatum
 :
 :
 obj_finalize
-NULL
-NULL
-NULL
-NULL
+nullptr
+nullptr
+nullptr
+nullptr
 TypedDatum
 :
 :
@@ -9898,7 +9898,7 @@ TypedDatum
 :
 :
 obj_enumerate
-NULL
+nullptr
 }
 }
 ;
@@ -9940,7 +9940,7 @@ if
 obj
 )
 return
-NULL
+nullptr
 ;
 TypeRepresentation
 *
@@ -9978,7 +9978,7 @@ if
 memory
 )
 return
-NULL
+nullptr
 ;
 memset
 (
@@ -10148,10 +10148,10 @@ TypedDatum
 :
 :
 obj_finalize
-NULL
-NULL
-NULL
-NULL
+nullptr
+nullptr
+nullptr
+nullptr
 TypedDatum
 :
 :
@@ -10250,7 +10250,7 @@ TypedDatum
 :
 :
 obj_enumerate
-NULL
+nullptr
 }
 }
 ;
@@ -10269,8 +10269,8 @@ handleStaticMethods
 move
 "
 {
-NULL
-NULL
+nullptr
+nullptr
 }
 3
 0
@@ -10283,8 +10283,8 @@ HandleMove
 get
 "
 {
-NULL
-NULL
+nullptr
+nullptr
 }
 1
 0
@@ -10297,8 +10297,8 @@ HandleGet
 set
 "
 {
-NULL
-NULL
+nullptr
+nullptr
 }
 2
 0
@@ -10311,8 +10311,8 @@ HandleSet
 isHandle
 "
 {
-NULL
-NULL
+nullptr
+nullptr
 }
 1
 0
@@ -11214,7 +11214,7 @@ toObject
 )
 !
 =
-NULL
+nullptr
 )
 ;
 return

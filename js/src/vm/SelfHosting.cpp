@@ -453,8 +453,8 @@ efs
 js_GetLocalizedErrorMessage
 (
 cx
-NULL
-NULL
+nullptr
+nullptr
 errorNumber
 )
 ;
@@ -5865,7 +5865,7 @@ func
 )
 )
 return
-NULL
+nullptr
 ;
 JS_ASSERT
 (

@@ -673,7 +673,7 @@ char
 *
 jsCacheDir
 =
-NULL
+nullptr
 ;
 static
 const
@@ -681,7 +681,7 @@ char
 *
 jsCacheAsmJSPath
 =
-NULL
+nullptr
 ;
 mozilla
 :
@@ -19587,7 +19587,7 @@ JS_ReportErrorNumber
 (
 cx
 my_GetErrorMessage
-NULL
+nullptr
 JSSMSG_NESTED_FAIL
 )
 ;
@@ -19801,7 +19801,7 @@ JS_ReportErrorNumber
 (
 cx
 my_GetErrorMessage
-NULL
+nullptr
 JSSMSG_NESTED_FAIL
 )
 ;
@@ -19874,7 +19874,7 @@ JS_ReportErrorNumber
 (
 cx
 my_GetErrorMessage
-NULL
+nullptr
 JSSMSG_NESTED_FAIL
 )
 ;
@@ -21701,7 +21701,7 @@ setBoolean
 jsCacheAsmJSPath
 !
 =
-NULL
+nullptr
 )
 ;
 return
@@ -28347,11 +28347,11 @@ fileMapping
 CreateFileMapping
 (
 fdOsHandle
-NULL
+nullptr
 PAGE_READWRITE
 0
 0
-NULL
+nullptr
 )
 ;
 if
@@ -28392,7 +28392,7 @@ memory
 =
 mmap
 (
-NULL
+nullptr
 off
 PROT_READ
 MAP_SHARED
@@ -28771,11 +28771,11 @@ fileMapping
 CreateFileMapping
 (
 fdOsHandle
-NULL
+nullptr
 PAGE_READWRITE
 0
 0
-NULL
+nullptr
 )
 ;
 if
@@ -28816,7 +28816,7 @@ memory
 =
 mmap
 (
-NULL
+nullptr
 serializedSize
 PROT_WRITE
 MAP_SHARED

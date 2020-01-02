@@ -14448,7 +14448,7 @@ str2
 >
 getChars
 (
-NULL
+nullptr
 )
 ;
 if
