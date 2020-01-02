@@ -5,6 +5,8 @@ mozilla
 /
 dom
 /
+network
+/
 MobileConnection
 .
 h
@@ -160,6 +162,9 @@ mozilla
 :
 :
 dom
+:
+:
+network
 ;
 class
 MobileConnection

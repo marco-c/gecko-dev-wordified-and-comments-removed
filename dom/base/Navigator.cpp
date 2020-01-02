@@ -287,6 +287,8 @@ mozilla
 /
 dom
 /
+network
+/
 MobileConnectionArray
 .
 h
@@ -4773,6 +4775,9 @@ mTelephony
 #
 ifdef
 MOZ_B2G_RIL
+network
+:
+:
 MobileConnectionArray
 *
 Navigator
@@ -4811,6 +4816,9 @@ nullptr
 mMobileConnections
 =
 new
+network
+:
+:
 MobileConnectionArray
 (
 mWindow

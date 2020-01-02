@@ -31,6 +31,9 @@ mozilla
 :
 :
 dom
+:
+:
+network
 ;
 NS_IMPL_CYCLE_COLLECTION_CLASS
 (
