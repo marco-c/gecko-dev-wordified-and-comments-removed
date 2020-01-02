@@ -465,6 +465,16 @@ origin
 aApp
 .
 origin
+#
+ifdef
+MOZ_ANDROID_SYNTHAPKS
+packageName
+:
+aApp
+.
+packageName
+#
+endif
 receipts
 :
 aApp
