@@ -183,11 +183,6 @@ aEnabled
 )
 ;
 void
-Stop
-(
-)
-;
-void
 NotifyEnded
 (
 )
