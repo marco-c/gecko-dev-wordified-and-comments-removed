@@ -8048,6 +8048,9 @@ GetCurrentDoc
 if
 (
 doc
+&
+&
+doc
 -
 >
 IsRootDisplayDocument
