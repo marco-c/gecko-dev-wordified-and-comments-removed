@@ -719,6 +719,10 @@ bool
 RecvContentReceivedTouch
 (
 const
+ScrollableLayerGuid
+&
+aGuid
+const
 bool
 &
 aPreventDefault
@@ -1508,6 +1512,9 @@ const
 WidgetInputEvent
 &
 aEvent
+ScrollableLayerGuid
+*
+aOutTargetGuid
 WidgetInputEvent
 *
 aOutEvent

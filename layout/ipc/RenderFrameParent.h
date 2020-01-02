@@ -87,6 +87,9 @@ LayerTransactionParent
 struct
 TextureFactoryIdentifier
 ;
+struct
+ScrollableLayerGuid
+;
 }
 namespace
 layout
@@ -187,6 +190,16 @@ layers
 :
 TextureFactoryIdentifier
 TextureFactoryIdentifier
+;
+typedef
+mozilla
+:
+:
+layers
+:
+:
+ScrollableLayerGuid
+ScrollableLayerGuid
 ;
 typedef
 FrameMetrics
@@ -352,6 +365,9 @@ const
 WidgetInputEvent
 &
 aEvent
+ScrollableLayerGuid
+*
+aOutTargetGuid
 WidgetInputEvent
 *
 aOutEvent
@@ -380,6 +396,10 @@ aRect
 void
 ContentReceivedTouch
 (
+const
+ScrollableLayerGuid
+&
+aGuid
 bool
 aPreventDefault
 )

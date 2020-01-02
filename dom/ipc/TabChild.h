@@ -993,7 +993,11 @@ RecvRealTouchEvent
 const
 WidgetTouchEvent
 &
-event
+aEvent
+const
+ScrollableLayerGuid
+&
+aGuid
 )
 ;
 virtual
@@ -1003,7 +1007,11 @@ RecvRealTouchMoveEvent
 const
 WidgetTouchEvent
 &
-event
+aEvent
+const
+ScrollableLayerGuid
+&
+aGuid
 )
 ;
 virtual
