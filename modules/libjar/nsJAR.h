@@ -1,9 +1,9 @@
 #
 ifndef
-nsJAR_h__
+nsJAR_h_
 #
 define
-nsJAR_h__
+nsJAR_h_
 #
 include
 "
