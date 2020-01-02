@@ -561,6 +561,12 @@ workerURL
 '
 iconURL
 '
+'
+shareURL
+'
+'
+markURL
+'
 ]
 )
 {
