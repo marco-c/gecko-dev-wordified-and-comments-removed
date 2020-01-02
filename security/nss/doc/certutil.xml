@@ -6372,7 +6372,7 @@ term
 >
 -
 -
-keyFlagsOn
+keyOpFlagsOn
 opflags
 <
 /
@@ -6383,7 +6383,7 @@ term
 >
 -
 -
-keyFlagsOff
+keyOpFlagsOff
 opflags
 <
 /

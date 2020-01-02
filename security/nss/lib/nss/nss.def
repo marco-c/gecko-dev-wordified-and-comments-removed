@@ -3322,7 +3322,7 @@ NSS_3
 .
 15
 .
-3
+4
 {
 #
 NSS
@@ -3330,7 +3330,7 @@ NSS
 .
 15
 .
-3
+4
 release
 ;
 +
@@ -3338,13 +3338,13 @@ global
 :
 CERT_DestroyCrl
 ;
+CERT_ForcePostMethodForOCSP
+;
 CERT_GetEncodedOCSPResponseByMechanism
 ;
 CERT_GetSPKIDigest
 ;
 CERT_GetSubjectNameDigest
-;
-CERT_ForcePostMethodForOCSP
 ;
 ;
 +

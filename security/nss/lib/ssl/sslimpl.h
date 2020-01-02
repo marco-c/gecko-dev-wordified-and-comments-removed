@@ -6490,6 +6490,17 @@ SSL3ProtocolVersion
 dtlsv
 )
 ;
+#
+ifdef
+DEBUG
+extern
+void
+ssl3_CheckCipherSuiteOrderConsistency
+(
+)
+;
+#
+endif
 extern
 int
 ssl_MapLowLevelError

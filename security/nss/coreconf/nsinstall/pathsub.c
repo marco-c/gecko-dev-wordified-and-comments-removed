@@ -1426,7 +1426,11 @@ readlink
 myPath
 buf
 sizeof
+(
 buf
+)
+-
+1
 )
 ;
 if
