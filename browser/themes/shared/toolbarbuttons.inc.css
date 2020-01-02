@@ -58,6 +58,11 @@ any
 primaryToolbarButtons
 )
 :
+not
+(
+inAnyPanel
+)
+:
 -
 moz
 -
@@ -70,6 +75,11 @@ bookmarks
 menu
 -
 button
+:
+not
+(
+inAnyPanel
+)
 :
 -
 moz
