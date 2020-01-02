@@ -44,6 +44,9 @@ AppMarketplaceDevPublicRoot
 AppMarketplaceDevReviewersRoot
 "
 "
+AppMarketplaceStageRoot
+"
+"
 AppXPCShellRoot
 "
 ]
