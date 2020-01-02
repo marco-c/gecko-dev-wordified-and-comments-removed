@@ -235,7 +235,6 @@ addressOfGCZeal
 )
 {
 return
-&
 runtime
 (
 )
@@ -243,7 +242,9 @@ runtime
 >
 gc
 .
-zealMode
+addressOfZealMode
+(
+)
 ;
 }
 #
