@@ -187,7 +187,7 @@ nsFlexContainerFrame
 (
 )
 ;
-nsresult
+void
 DoFlexLayout
 (
 nsPresContext
@@ -266,7 +266,7 @@ FlexboxAxisTracker
 aAxisTracker
 )
 ;
-nsresult
+void
 ResolveFlexItemMaxContentSizing
 (
 nsPresContext
@@ -285,7 +285,7 @@ FlexboxAxisTracker
 aAxisTracker
 )
 ;
-nsresult
+void
 GenerateFlexLines
 (
 nsPresContext
@@ -357,7 +357,7 @@ nsReflowStatus
 aStatus
 )
 ;
-nsresult
+void
 SizeItemInCrossAxis
 (
 nsPresContext
