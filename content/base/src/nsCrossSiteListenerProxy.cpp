@@ -2001,6 +2001,15 @@ Sort
 )
 ;
 }
+nsCORSListenerProxy
+:
+:
+~
+nsCORSListenerProxy
+(
+)
+{
+}
 nsresult
 nsCORSListenerProxy
 :

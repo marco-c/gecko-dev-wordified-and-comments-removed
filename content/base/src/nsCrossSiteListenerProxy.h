@@ -207,8 +207,7 @@ private
 nsCORSListenerProxy
 (
 )
-{
-}
+;
 nsresult
 UpdateChannel
 (
