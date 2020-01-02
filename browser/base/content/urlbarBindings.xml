@@ -243,6 +243,11 @@ autocomplete
 >
 <
 content
+sizetopopup
+=
+"
+pref
+"
 >
 <
 xul
