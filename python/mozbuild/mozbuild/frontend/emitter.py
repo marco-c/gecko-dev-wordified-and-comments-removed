@@ -638,11 +638,6 @@ exclusions
 '
 gfx
 /
-layers
-'
-'
-gfx
-/
 skia
 '
 '
