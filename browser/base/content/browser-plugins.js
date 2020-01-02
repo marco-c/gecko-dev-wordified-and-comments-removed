@@ -5671,7 +5671,7 @@ gNavigatorBundle
 getString
 (
 "
-pluginBlockNow
+pluginContinueBlocking
 .
 label
 "
@@ -5683,7 +5683,7 @@ gNavigatorBundle
 getString
 (
 "
-pluginBlockNow
+pluginContinueBlocking
 .
 accesskey
 "
@@ -5745,9 +5745,9 @@ gNavigatorBundle
 getString
 (
 "
-offlineApps
+pluginActivateTrigger
 .
-allow
+label
 "
 )
 accessKey
@@ -5757,9 +5757,9 @@ gNavigatorBundle
 getString
 (
 "
-offlineApps
+pluginActivateTrigger
 .
-allowAccessKey
+accesskey
 "
 )
 callback
