@@ -6590,7 +6590,7 @@ Init
 nsAutoArrayBase
 (
 const
-TArrayBase
+self_type
 &
 aOther
 )
