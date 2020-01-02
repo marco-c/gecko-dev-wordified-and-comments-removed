@@ -191,7 +191,7 @@ shiftKey
 :
 true
 }
-content
+window
 )
 ;
 }
