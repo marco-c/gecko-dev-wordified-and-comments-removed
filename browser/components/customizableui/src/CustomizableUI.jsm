@@ -12391,6 +12391,15 @@ overflow
 :
 if
 (
+aEvent
+.
+detail
+>
+0
+)
+{
+if
+(
 this
 .
 _initialized
@@ -12411,6 +12420,7 @@ _forceOnOverflow
 =
 true
 ;
+}
 }
 break
 ;
