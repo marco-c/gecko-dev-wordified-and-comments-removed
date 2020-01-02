@@ -281,7 +281,7 @@ Trace
 "
 )
 ;
-Log4Moz
+Log
 .
 repository
 .
@@ -296,7 +296,7 @@ Identity
 .
 level
 =
-Log4Moz
+Log
 .
 Level
 .
