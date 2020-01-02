@@ -496,7 +496,7 @@ MediaSource
 mMediaSource
 ;
 const
-nsAutoCString
+nsCString
 mType
 ;
 nsAutoPtr
