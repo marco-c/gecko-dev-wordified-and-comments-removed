@@ -22772,12 +22772,6 @@ getClass
 (
 )
 )
-templateObj
--
->
-getClass
-(
-)
 )
 ;
 slots
