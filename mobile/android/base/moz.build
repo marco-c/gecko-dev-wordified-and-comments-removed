@@ -2661,6 +2661,11 @@ SQLiteBridgeException
 java
 '
 '
+StartPane
+.
+java
+'
+'
 SuggestClient
 .
 java
