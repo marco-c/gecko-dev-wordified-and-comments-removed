@@ -304,6 +304,15 @@ version
 if
 test
 -
+z
+"
+{
+JS_STANDALONE
+}
+"
+-
+a
+-
 n
 "
 {
