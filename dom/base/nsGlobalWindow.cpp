@@ -200,13 +200,6 @@ h
 #
 include
 "
-nsWindowMemoryReporter
-.
-h
-"
-#
-include
-"
 nsJSUtils
 .
 h

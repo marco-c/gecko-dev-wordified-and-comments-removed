@@ -153,13 +153,6 @@ nsIDOMFileList
 .
 h
 "
-#
-include
-"
-nsWindowMemoryReporter
-.
-h
-"
 using
 namespace
 mozilla
