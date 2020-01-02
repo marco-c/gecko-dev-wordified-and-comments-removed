@@ -13824,6 +13824,11 @@ return
 true
 ;
 }
+void
+computeRange
+(
+)
+;
 }
 ;
 class
@@ -14136,6 +14141,11 @@ Floor
 }
 void
 trySpecializeFloat32
+(
+)
+;
+void
+computeRange
 (
 )
 ;
@@ -19673,6 +19683,11 @@ None
 )
 ;
 }
+void
+computeRange
+(
+)
+;
 }
 ;
 class
@@ -21080,6 +21095,11 @@ ObjectFields
 )
 ;
 }
+void
+computeRange
+(
+)
+;
 }
 ;
 class
