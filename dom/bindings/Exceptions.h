@@ -102,7 +102,12 @@ CreateStack
 (
 JSContext
 *
-cx
+aCx
+int32_t
+aMaxDepth
+=
+-
+1
 )
 ;
 already_AddRefed

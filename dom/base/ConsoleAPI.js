@@ -1116,6 +1116,9 @@ CA_queueCall
 (
 aMethod
 aArguments
+aStack
+=
+null
 )
 {
 let
@@ -1150,6 +1153,11 @@ now
 )
 stack
 :
+(
+aStack
+?
+aStack
+:
 this
 .
 getStackTrace
@@ -1164,6 +1172,7 @@ trace
 1
 :
 null
+)
 )
 }
 ;

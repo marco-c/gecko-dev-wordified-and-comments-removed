@@ -34,6 +34,9 @@ class
 WorkerPrivate
 ;
 class
+WorkerConsole
+;
+class
 WorkerLocation
 ;
 class
@@ -47,6 +50,12 @@ nsDOMEventTargetHelper
 public
 nsIGlobalObject
 {
+nsRefPtr
+<
+WorkerConsole
+>
+mConsole
+;
 nsRefPtr
 <
 WorkerLocation
@@ -155,6 +164,12 @@ forget
 )
 ;
 }
+WorkerConsole
+*
+Console
+(
+)
+;
 already_AddRefed
 <
 WorkerLocation
