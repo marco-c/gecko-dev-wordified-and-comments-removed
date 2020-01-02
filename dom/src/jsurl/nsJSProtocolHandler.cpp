@@ -1188,7 +1188,7 @@ xpc
 CreateSandbox
 (
 cx
-principal
+nullptr
 getter_AddRefs
 (
 sandbox
