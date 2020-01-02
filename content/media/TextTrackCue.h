@@ -226,11 +226,6 @@ ErrorResult
 aRv
 )
 ;
-~
-TextTrackCue
-(
-)
-;
 virtual
 JSObject
 *
@@ -1072,6 +1067,11 @@ aTrackElement
 ;
 private
 :
+~
+TextTrackCue
+(
+)
+;
 void
 SetDefaultCueSettings
 (

@@ -131,6 +131,15 @@ mozilla
 namespace
 dom
 {
+SourceBufferList
+:
+:
+~
+SourceBufferList
+(
+)
+{
+}
 SourceBuffer
 *
 SourceBufferList

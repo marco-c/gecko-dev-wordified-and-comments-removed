@@ -89,12 +89,6 @@ aOwnerWindow
 )
 ;
 virtual
-~
-MediaRecorder
-(
-)
-;
-virtual
 JSObject
 *
 WrapObject
@@ -245,6 +239,12 @@ warning
 NS_DECL_NSIDOCUMENTACTIVITY
 protected
 :
+virtual
+~
+MediaRecorder
+(
+)
+;
 MediaRecorder
 &
 operator

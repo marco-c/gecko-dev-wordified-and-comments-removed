@@ -231,6 +231,11 @@ aTime
 ;
 private
 :
+~
+SourceBufferList
+(
+)
+;
 friend
 class
 AsyncEventRunner

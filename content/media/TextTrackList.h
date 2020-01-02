@@ -84,11 +84,6 @@ TextTrackManager
 aTextTrackManager
 )
 ;
-~
-TextTrackList
-(
-)
-;
 virtual
 JSObject
 *
@@ -253,6 +248,11 @@ removetrack
 )
 private
 :
+~
+TextTrackList
+(
+)
+;
 nsTArray
 <
 nsRefPtr
