@@ -594,12 +594,6 @@ pcid
 ;
 sequence
 <
-RTCRTPStreamStats
->
-rtpStreamStats
-;
-sequence
-<
 RTCInboundRTPStreamStats
 >
 inboundRTPStreamStats
