@@ -6015,8 +6015,9 @@ IsFloatingPointType
 argType
 )
 )
-return
-InliningStatus_NotInlined
+returnType
+=
+MIRType_Double
 ;
 }
 callInfo
