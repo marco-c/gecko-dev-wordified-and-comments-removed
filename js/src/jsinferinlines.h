@@ -863,6 +863,16 @@ range
 ;
 if
 (
+cp
+.
+length
+(
+)
+>
+0
+&
+&
+(
 JS7_ISDEC
 (
 cp
@@ -881,6 +891,7 @@ cp
 '
 -
 '
+)
 )
 {
 for
