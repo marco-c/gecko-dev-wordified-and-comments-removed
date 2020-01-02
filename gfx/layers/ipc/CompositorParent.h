@@ -520,7 +520,9 @@ Destroy
 void
 NotifyChildCreated
 (
+const
 uint64_t
+&
 aChild
 )
 ;
