@@ -22595,6 +22595,15 @@ nsDisplayItem
 :
 :
 TYPE_PLUGIN
+|
+|
+aDisplayItemKey
+=
+=
+nsDisplayItem
+:
+:
+TYPE_REMOTE
 )
 {
 InvalidateFrame
