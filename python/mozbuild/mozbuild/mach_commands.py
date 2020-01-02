@@ -2367,20 +2367,17 @@ print_directory
 =
 False
                         
-allow_parallel
-=
-False
 ensure_exit_code
 =
 False
 num_jobs
 =
-1
-                        
+jobs
 silent
 =
 not
 verbose
+                        
 force_pymake
 =
 pymake
