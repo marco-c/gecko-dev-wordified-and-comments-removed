@@ -747,7 +747,7 @@ float
 float32
 )
 bool
-IsTypedDatumClass
+IsTypedObjectClass
 (
 const
 Class

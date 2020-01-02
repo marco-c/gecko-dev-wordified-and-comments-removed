@@ -178,7 +178,7 @@ toObject
 .
 is
 <
-TypedDatum
+TypedObject
 >
 (
 )
@@ -220,9 +220,9 @@ false
 \
 }
 \
-TypedDatum
+TypedObject
 &
-datum
+typedObj
 =
 args
 .
@@ -236,7 +236,7 @@ toObject
 .
 as
 <
-TypedDatum
+TypedObject
 >
 (
 )
@@ -246,7 +246,7 @@ TypeDescr
 &
 descr
 =
-datum
+typedObj
 .
 typeDescr
 (
@@ -342,7 +342,7 @@ Elem
 *
 >
 (
-datum
+typedObj
 .
 typedMem
 (
@@ -480,7 +480,7 @@ toObject
 .
 is
 <
-TypedDatum
+TypedObject
 >
 (
 )
@@ -521,9 +521,9 @@ false
 \
 }
 \
-TypedDatum
+TypedObject
 &
-datum
+typedObj
 =
 args
 .
@@ -537,7 +537,7 @@ toObject
 .
 as
 <
-TypedDatum
+TypedObject
 >
 (
 )
@@ -547,7 +547,7 @@ TypeDescr
 &
 descr
 =
-datum
+typedObj
 .
 typeDescr
 (
@@ -642,7 +642,7 @@ Elem
 *
 >
 (
-datum
+typedObj
 .
 typedMem
 (
@@ -829,14 +829,14 @@ TypeDescriptorMethods
 static
 const
 JSPropertySpec
-TypedDatumProperties
+TypedObjectProperties
 [
 ]
 ;
 static
 const
 JSFunctionSpec
-TypedDatumMethods
+TypedObjectMethods
 [
 ]
 ;
@@ -870,14 +870,14 @@ TypeDescriptorMethods
 static
 const
 JSPropertySpec
-TypedDatumProperties
+TypedObjectProperties
 [
 ]
 ;
 static
 const
 JSFunctionSpec
-TypedDatumMethods
+TypedObjectMethods
 [
 ]
 ;
@@ -941,7 +941,7 @@ js
 Float32x4Defn
 :
 :
-TypedDatumProperties
+TypedObjectProperties
 [
 ]
 =
@@ -997,7 +997,7 @@ js
 Float32x4Defn
 :
 :
-TypedDatumMethods
+TypedObjectMethods
 [
 ]
 =
@@ -1073,7 +1073,7 @@ js
 Int32x4Defn
 :
 :
-TypedDatumProperties
+TypedObjectProperties
 [
 ]
 =
@@ -1129,7 +1129,7 @@ js
 Int32x4Defn
 :
 :
-TypedDatumMethods
+TypedObjectMethods
 [
 ]
 =
@@ -1369,11 +1369,11 @@ proto
 T
 :
 :
-TypedDatumProperties
+TypedObjectProperties
 T
 :
 :
-TypedDatumMethods
+TypedObjectMethods
 )
 )
 {
@@ -1525,13 +1525,13 @@ X4TypeDescr
 ;
 Rooted
 <
-TypedDatum
+TypedObject
 *
 >
 result
 (
 cx
-TypedDatum
+TypedObject
 :
 :
 createZeroed
@@ -2059,7 +2059,7 @@ obj
 .
 is
 <
-TypedDatum
+TypedObject
 >
 (
 )
@@ -2075,7 +2075,7 @@ obj
 .
 as
 <
-TypedDatum
+TypedObject
 >
 (
 )
@@ -2177,13 +2177,13 @@ typeDescr
 ;
 Rooted
 <
-TypedDatum
+TypedObject
 *
 >
 result
 (
 cx
-TypedDatum
+TypedObject
 :
 :
 createZeroed
@@ -3631,7 +3631,7 @@ toObject
 .
 as
 <
-TypedDatum
+TypedObject
 >
 (
 )
@@ -3839,7 +3839,7 @@ toObject
 .
 as
 <
-TypedDatum
+TypedObject
 >
 (
 )
@@ -3878,7 +3878,7 @@ toObject
 .
 as
 <
-TypedDatum
+TypedObject
 >
 (
 )
@@ -4129,7 +4129,7 @@ toObject
 .
 as
 <
-TypedDatum
+TypedObject
 >
 (
 )
@@ -4427,7 +4427,7 @@ toObject
 .
 as
 <
-TypedDatum
+TypedObject
 >
 (
 )
@@ -4673,7 +4673,7 @@ toObject
 .
 as
 <
-TypedDatum
+TypedObject
 >
 (
 )
@@ -4712,7 +4712,7 @@ toObject
 .
 as
 <
-TypedDatum
+TypedObject
 >
 (
 )
@@ -4994,7 +4994,7 @@ toObject
 .
 as
 <
-TypedDatum
+TypedObject
 >
 (
 )
@@ -5204,7 +5204,7 @@ toObject
 .
 as
 <
-TypedDatum
+TypedObject
 >
 (
 )
@@ -5890,7 +5890,7 @@ toObject
 .
 as
 <
-TypedDatum
+TypedObject
 >
 (
 )
@@ -5921,7 +5921,7 @@ toObject
 .
 as
 <
-TypedDatum
+TypedObject
 >
 (
 )
@@ -5952,7 +5952,7 @@ toObject
 .
 as
 <
-TypedDatum
+TypedObject
 >
 (
 )
@@ -6365,7 +6365,7 @@ toObject
 .
 as
 <
-TypedDatum
+TypedObject
 >
 (
 )
@@ -6396,7 +6396,7 @@ toObject
 .
 as
 <
-TypedDatum
+TypedObject
 >
 (
 )
@@ -6427,7 +6427,7 @@ toObject
 .
 as
 <
-TypedDatum
+TypedObject
 >
 (
 )

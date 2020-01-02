@@ -9452,7 +9452,7 @@ toObject
 .
 is
 <
-TypedDatum
+TypedObject
 >
 (
 )
@@ -9497,7 +9497,7 @@ toObject
 .
 as
 <
-TypedDatum
+TypedObject
 >
 (
 )

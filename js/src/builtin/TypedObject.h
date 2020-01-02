@@ -422,7 +422,7 @@ StructTypeDescr
 HandleStructTypeDescr
 ;
 class
-TypedDatum
+TypedObject
 :
 public
 ArrayBufferViewObject
@@ -432,7 +432,7 @@ private
 static
 const
 bool
-IsTypedDatumClass
+IsTypedObjectClass
 =
 true
 ;
@@ -450,10 +450,10 @@ JSContext
 cx
 Handle
 <
-TypedDatum
+TypedObject
 *
 >
-datum
+typedObj
 Handle
 <
 TypeDescr
@@ -480,10 +480,10 @@ JSContext
 cx
 Handle
 <
-TypedDatum
+TypedObject
 *
 >
-datum
+typedObj
 Handle
 <
 TypeDescr
@@ -921,7 +921,7 @@ dataOffset
 )
 ;
 static
-TypedDatum
+TypedObject
 *
 createUnattachedWithClass
 (
@@ -939,7 +939,7 @@ length
 )
 ;
 static
-TypedDatum
+TypedObject
 *
 createUnattached
 (
@@ -953,7 +953,7 @@ length
 )
 ;
 static
-TypedDatum
+TypedObject
 *
 createDerived
 (
@@ -964,7 +964,7 @@ HandleSizedTypeDescr
 type
 Handle
 <
-TypedDatum
+TypedObject
 *
 >
 typedContents
@@ -973,7 +973,7 @@ offset
 )
 ;
 static
-TypedDatum
+TypedObject
 *
 createZeroed
 (
@@ -1027,9 +1027,9 @@ offset
 void
 attach
 (
-TypedDatum
+TypedObject
 &
-datum
+typedObj
 int32_t
 offset
 )
@@ -1051,7 +1051,7 @@ const
 return
 getReservedSlot
 (
-JS_DATUM_SLOT_BYTEOFFSET
+JS_TYPEDOBJ_SLOT_BYTEOFFSET
 )
 .
 toInt32
@@ -1069,7 +1069,7 @@ const
 return
 getReservedSlot
 (
-JS_DATUM_SLOT_OWNER
+JS_TYPEDOBJ_SLOT_OWNER
 )
 .
 toObject
@@ -1094,7 +1094,7 @@ const
 return
 getReservedSlot
 (
-JS_DATUM_SLOT_TYPE_DESCR
+JS_TYPEDOBJ_SLOT_TYPE_DESCR
 )
 .
 toObject
@@ -1152,7 +1152,7 @@ const
 return
 getReservedSlot
 (
-JS_DATUM_SLOT_LENGTH
+JS_TYPEDOBJ_SLOT_LENGTH
 )
 .
 toInt32
@@ -1304,16 +1304,16 @@ offset
 typedef
 Handle
 <
-TypedDatum
+TypedObject
 *
 >
-HandleTypedDatum
+HandleTypedObject
 ;
 class
 TransparentTypedObject
 :
 public
-TypedDatum
+TypedObject
 {
 public
 :
@@ -1336,7 +1336,7 @@ class
 OpaqueTypedObject
 :
 public
-TypedDatum
+TypedObject
 {
 public
 :
@@ -1368,7 +1368,7 @@ vp
 )
 ;
 bool
-NewDerivedTypedDatum
+NewDerivedTypedObject
 (
 JSContext
 *
@@ -1381,7 +1381,7 @@ vp
 )
 ;
 bool
-AttachDatum
+AttachTypedObject
 (
 ThreadSafeContext
 *
@@ -1396,7 +1396,7 @@ vp
 extern
 const
 JSJitInfo
-AttachDatumJitInfo
+AttachTypedObjectJitInfo
 ;
 bool
 ObjectIsTypeDescr
@@ -1453,7 +1453,7 @@ JSJitInfo
 ObjectIsTransparentTypedObjectJitInfo
 ;
 bool
-DatumIsAttached
+TypedObjectIsAttached
 (
 ThreadSafeContext
 *
@@ -1468,7 +1468,7 @@ vp
 extern
 const
 JSJitInfo
-DatumIsAttachedJitInfo
+TypedObjectIsAttachedJitInfo
 ;
 bool
 ClampToUint8
@@ -1765,7 +1765,7 @@ JS_LOAD_REFERENCE_CLASS_DEFN
 )
 inline
 bool
-IsTypedDatumClass
+IsTypedObjectClass
 (
 const
 Class
@@ -1970,14 +1970,14 @@ is
 js
 :
 :
-TypedDatum
+TypedObject
 >
 (
 )
 const
 {
 return
-IsTypedDatumClass
+IsTypedObjectClass
 (
 getClass
 (
