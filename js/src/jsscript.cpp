@@ -12792,15 +12792,6 @@ columnp
 )
 ;
 }
-#
-define
-SN_LINE_LIMIT
-(
-SN_3BYTE_OFFSET_FLAG
-<
-<
-16
-)
 jsbytecode
 *
 js_LineNumberToPC
@@ -12836,7 +12827,7 @@ lineno
 unsigned
 bestdiff
 =
-SN_LINE_LIMIT
+SN_MAX_OFFSET
 ;
 for
 (

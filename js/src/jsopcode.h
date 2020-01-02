@@ -1347,7 +1347,7 @@ i
 #
 define
 INDEX_LIMIT_LOG2
-23
+31
 #
 define
 INDEX_LIMIT
