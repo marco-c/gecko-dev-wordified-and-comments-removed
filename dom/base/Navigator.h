@@ -129,6 +129,9 @@ class
 MediaStreamConstraints
 ;
 class
+MediaStreamConstraintsInternal
+;
+class
 WakeLock
 ;
 class
@@ -884,6 +887,9 @@ MOZ_MEDIA_NAVIGATOR
 void
 MozGetUserMedia
 (
+JSContext
+*
+aCx
 const
 MediaStreamConstraints
 &
@@ -903,7 +909,7 @@ void
 MozGetUserMediaDevices
 (
 const
-MediaStreamConstraints
+MediaStreamConstraintsInternal
 &
 aConstraints
 MozGetUserMediaDevicesSuccessCallback

@@ -5464,6 +5464,9 @@ Navigator
 :
 MozGetUserMedia
 (
+JSContext
+*
+aCx
 const
 MediaStreamConstraints
 &
@@ -5600,6 +5603,7 @@ manager
 >
 GetUserMedia
 (
+aCx
 privileged
 mWindow
 aConstraints
@@ -5615,7 +5619,7 @@ Navigator
 MozGetUserMediaDevices
 (
 const
-MediaStreamConstraints
+MediaStreamConstraintsInternal
 &
 aConstraints
 MozGetUserMediaDevicesSuccessCallback

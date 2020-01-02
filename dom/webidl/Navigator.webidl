@@ -2213,7 +2213,7 @@ ChromeOnly
 void
 mozGetUserMediaDevices
 (
-MediaStreamConstraints
+MediaStreamConstraintsInternal
 constraints
 MozGetUserMediaDevicesSuccessCallback
 onsuccess
