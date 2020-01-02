@@ -430,6 +430,11 @@ testUTF8
 cpp
 '
 '
+testWeakMap
+.
+cpp
+'
+'
 testXDR
 .
 cpp
