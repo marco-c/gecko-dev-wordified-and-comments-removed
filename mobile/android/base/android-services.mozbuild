@@ -9435,6 +9435,17 @@ setup
 /
 activities
 /
+LocaleAware
+.
+java
+'
+'
+sync
+/
+setup
+/
+activities
+/
 RedirectToSetupActivity
 .
 java

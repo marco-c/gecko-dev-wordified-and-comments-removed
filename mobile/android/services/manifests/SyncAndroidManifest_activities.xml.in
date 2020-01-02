@@ -707,13 +707,6 @@ true
 "
 android
 :
-exported
-=
-"
-true
-"
-android
-:
 icon
 =
 "
@@ -785,9 +778,6 @@ activities
 SendTabActivity
 "
 >
-#
-ifndef
-RELEASE_BUILD
 <
 intent
 -
@@ -846,8 +836,6 @@ intent
 -
 filter
 >
-#
-endif
 <
 /
 activity
