@@ -51,6 +51,7 @@ self
 suite
 repo
 rev
+sps_profile
 )
 :
         
@@ -112,6 +113,7 @@ init_variables
 suite
 repo
 rev
+sps_profile
 )
         
 self
@@ -152,6 +154,7 @@ self
 suite
 repo
 rev
+sps_profile
 )
 :
         
@@ -160,6 +163,12 @@ self
 suite
 =
 suite
+        
+self
+.
+sps_profile
+=
+sps_profile
         
 self
 .
@@ -706,6 +715,14 @@ self
 suite
                 
 '
+sps_profile
+'
+:
+self
+.
+sps_profile
+                
+'
 use_talos_json
 '
 :
@@ -1028,6 +1045,46 @@ production
 '
 )
     
+CommandArgument
+(
+'
+-
+-
+spsProfile
+'
+default
+=
+False
+                     
+help
+=
+'
+Use
+the
+Gecko
+Profiler
+to
+capture
+profiles
+that
+can
+'
+                          
+'
+then
+be
+displayed
+by
+Cleopatra
+.
+'
+action
+=
+'
+store_true
+'
+)
+    
 def
 run_talos_test
 (
@@ -1039,6 +1096,9 @@ None
 rev
 =
 None
+spsProfile
+=
+False
 )
 :
         
@@ -1062,6 +1122,7 @@ run_test
 suite
 repo
 rev
+spsProfile
 )
         
 except
