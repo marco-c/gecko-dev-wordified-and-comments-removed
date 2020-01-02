@@ -1276,13 +1276,6 @@ constructor
 /
 completes
 .
-setTimeout
-(
-(
-)
-=
->
-{
 this
 .
 dispatchEvent
@@ -1294,9 +1287,6 @@ CustomEvent
 PluginBindingAttached
 "
 )
-)
-}
-0
 )
 ;
 <
