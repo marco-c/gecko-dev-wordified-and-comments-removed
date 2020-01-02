@@ -3169,6 +3169,11 @@ OffscreenSize
 (
 )
 ;
+BlitHelper
+(
+)
+-
+>
 BlitFramebufferToTexture
 (
 0

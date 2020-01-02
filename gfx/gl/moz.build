@@ -688,6 +688,11 @@ GfxTexturesReporter
 cpp
 '
 '
+GLBlitHelper
+.
+cpp
+'
+'
 GLContext
 .
 cpp

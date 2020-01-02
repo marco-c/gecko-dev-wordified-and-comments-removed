@@ -15,6 +15,13 @@ h
 #
 include
 "
+GLBlitHelper
+.
+h
+"
+#
+include
+"
 SharedSurfaceGL
 .
 h
@@ -424,6 +431,11 @@ mPipeActive
 return
 ;
 mGL
+-
+>
+BlitHelper
+(
+)
 -
 >
 BlitTextureToTexture
