@@ -636,6 +636,13 @@ bool
 aCacheChunk
 )
 ;
+int64_t
+BytesFromChunk
+(
+uint32_t
+aIndex
+)
+;
 nsresult
 RemoveInput
 (
