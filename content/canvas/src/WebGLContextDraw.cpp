@@ -2094,6 +2094,11 @@ WhatDoesVertexAttrib0Need
 (
 )
 {
+MOZ_ASSERT
+(
+mCurrentProgram
+)
+;
 #
 ifdef
 XP_MACOSX
@@ -2135,7 +2140,9 @@ EmulatedUninitializedArray
 }
 #
 endif
-return
+if
+(
+MOZ_LIKELY
 (
 gl
 -
@@ -2153,12 +2160,16 @@ IsAttribArrayEnabled
 0
 )
 )
-?
+)
+{
+return
 WebGLVertexAttrib0Status
 :
 :
 Default
-:
+;
+}
+return
 mCurrentProgram
 -
 >
@@ -2197,6 +2208,8 @@ WhatDoesVertexAttrib0Need
 ;
 if
 (
+MOZ_LIKELY
+(
 whatDoesAttrib0Need
 =
 =
@@ -2204,6 +2217,7 @@ WebGLVertexAttrib0Status
 :
 :
 Default
+)
 )
 return
 true
@@ -2767,6 +2781,8 @@ WhatDoesVertexAttrib0Need
 ;
 if
 (
+MOZ_LIKELY
+(
 whatDoesAttrib0Need
 =
 =
@@ -2774,6 +2790,7 @@ WebGLVertexAttrib0Status
 :
 :
 Default
+)
 )
 return
 ;
