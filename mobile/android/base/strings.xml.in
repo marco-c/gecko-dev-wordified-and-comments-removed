@@ -923,7 +923,7 @@ history_week_section
 "
 >
 &
-history_week_section
+history_week_section2
 ;
 <
 /
@@ -938,7 +938,7 @@ history_older_section
 "
 >
 &
-history_older_section
+history_older_section2
 ;
 <
 /
