@@ -842,6 +842,9 @@ key
 "
 }
 ;
+#
+ifdef
+MOZ_EME
 /
 /
 Encrypted
@@ -928,3 +931,5 @@ waitingFor
 ;
 }
 ;
+#
+endif

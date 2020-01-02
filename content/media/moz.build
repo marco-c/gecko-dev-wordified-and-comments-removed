@@ -310,6 +310,14 @@ PARALLEL_DIRS
 webspeech
 '
 ]
+if
+CONFIG
+[
+'
+MOZ_EME
+'
+]
+:
 PARALLEL_DIRS
 +
 =
