@@ -502,14 +502,6 @@ acm_neteq
 .
 h
 '
-#
-cheat
-until
-I
-get
-audio_coding_sources
-to
-work
 '
 acm_red
 .
