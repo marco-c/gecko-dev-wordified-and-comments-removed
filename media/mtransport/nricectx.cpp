@@ -238,6 +238,13 @@ nrinterfaceprioritizer
 .
 h
 "
+#
+include
+"
+rlogringbuffer
+.
+h
+"
 namespace
 mozilla
 {
@@ -1380,6 +1387,13 @@ initialized
 NR_reg_init
 (
 NR_REG_MODE_LOCAL
+)
+;
+RLogRingBuffer
+:
+:
+CreateInstance
+(
 )
 ;
 nr_crypto_vtbl

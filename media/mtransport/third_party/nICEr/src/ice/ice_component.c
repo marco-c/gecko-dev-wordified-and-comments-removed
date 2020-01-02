@@ -4591,7 +4591,7 @@ return
 r_log
 (
 LOG_ICE
-LOG_DEBUG
+LOG_INFO
 "
 ICE
 -
@@ -4770,7 +4770,7 @@ pair
 r_log
 (
 LOG_ICE
-LOG_DEBUG
+LOG_INFO
 "
 ICE
 -
@@ -4914,7 +4914,7 @@ NR_ICE_PAIR_STATE_WAITING
 r_log
 (
 LOG_ICE
-LOG_DEBUG
+LOG_INFO
 "
 ICE
 -
