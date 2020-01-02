@@ -5862,11 +5862,10 @@ init
 (
 )
 ;
-AddonManager
+LightweightThemeListener
 .
-addAddonListener
+init
 (
-AddonsMgrListener
 )
 ;
 WebrtcIndicator
@@ -18035,12 +18034,6 @@ function
 (
 )
 {
-if
-(
-gMultiProcessBrowser
-)
-return
-;
 var
 securityUI
 =
