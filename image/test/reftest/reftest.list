@@ -377,6 +377,15 @@ reftest
 .
 list
 #
+Downscaling
+tests
+include
+downscaling
+/
+reftest
+.
+list
+#
 Lossless
 encoders
 skip
