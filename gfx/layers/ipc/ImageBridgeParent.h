@@ -590,11 +590,6 @@ ImageBridgeParent
 >
 sImageBridges
 ;
-static
-MessageLoop
-*
-sMainLoop
-;
 }
 ;
 }

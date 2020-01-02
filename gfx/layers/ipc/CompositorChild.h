@@ -88,13 +88,6 @@ nsISupportsImpl
 .
 h
 "
-#
-include
-"
-ThreadSafeRefcountingWithMainThreadDestruction
-.
-h
-"
 class
 nsIObserver
 ;
@@ -120,7 +113,7 @@ MOZ_FINAL
 public
 PCompositorChild
 {
-NS_INLINE_DECL_THREADSAFE_REFCOUNTING_WITH_MAIN_THREAD_DESTRUCTION
+NS_INLINE_DECL_REFCOUNTING
 (
 CompositorChild
 )
