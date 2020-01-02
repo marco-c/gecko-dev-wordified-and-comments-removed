@@ -27890,14 +27890,6 @@ MALLOC_H
 break
 fi
 done
-MOZ_ALLOCATING_FUNCS
-=
-"
-strndup
-posix_memalign
-memalign
-valloc
-"
 AC_CHECK_FUNCS
 (
 strndup
