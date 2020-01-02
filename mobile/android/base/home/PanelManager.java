@@ -115,13 +115,6 @@ java
 .
 util
 .
-Collections
-;
-import
-java
-.
-util
-.
 HashMap
 ;
 import
@@ -265,10 +258,6 @@ RequestCallback
 >
 sCallbacks
 =
-Collections
-.
-synchronizedMap
-(
 new
 HashMap
 <
@@ -276,7 +265,6 @@ Integer
 RequestCallback
 >
 (
-)
 )
 ;
 public
