@@ -1886,6 +1886,9 @@ null
 adapterDeviceID
 :
 null
+adapterSubsysID
+:
+null
 adapterRAM
 :
 null
@@ -1911,6 +1914,9 @@ adapterVendorID2
 :
 null
 adapterDeviceID2
+:
+null
+adapterSubsysID2
 :
 null
 adapterRAM2
