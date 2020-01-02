@@ -217,6 +217,13 @@ function
 )
 {
 }
+setSignatureInfo
+:
+function
+(
+)
+{
+}
 }
 ;
 var

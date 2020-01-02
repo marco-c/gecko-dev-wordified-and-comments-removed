@@ -990,6 +990,12 @@ mAutoResume
 nsAutoCString
 mHash
 ;
+nsCOMPtr
+<
+nsIArray
+>
+mSignatureInfo
+;
 friend
 class
 nsDownloadManager
