@@ -1006,6 +1006,7 @@ MDefinition
 :
 congruentIfOperandsEqual
 (
+const
 MDefinition
 *
 ins
@@ -2684,6 +2685,7 @@ MConstant
 :
 congruentTo
 (
+const
 MDefinition
 *
 ins
@@ -3799,6 +3801,7 @@ MParameter
 :
 congruentTo
 (
+const
 MDefinition
 *
 ins
@@ -4202,6 +4205,7 @@ MCallDOMNative
 :
 congruentTo
 (
+const
 MDefinition
 *
 ins
@@ -4231,6 +4235,7 @@ isCall
 return
 false
 ;
+const
 MCall
 *
 call
@@ -5379,6 +5384,7 @@ MPhi
 :
 congruentTo
 (
+const
 MDefinition
 *
 ins
@@ -14050,10 +14056,12 @@ MLoadFixedSlot
 :
 mightAlias
 (
+const
 MDefinition
 *
 store
 )
+const
 {
 if
 (
@@ -14095,10 +14103,12 @@ MAsmJSLoadHeap
 :
 mightAlias
 (
+const
 MDefinition
 *
 def
 )
+const
 {
 if
 (
@@ -14110,6 +14120,7 @@ isAsmJSStoreHeap
 )
 )
 {
+const
 MAsmJSStoreHeap
 *
 store
@@ -14167,6 +14178,7 @@ isConstant
 return
 true
 ;
+const
 MConstant
 *
 otherPtr
@@ -14217,6 +14229,7 @@ MAsmJSLoadHeap
 :
 congruentTo
 (
+const
 MDefinition
 *
 ins
@@ -14236,6 +14249,7 @@ isAsmJSLoadHeap
 return
 false
 ;
+const
 MAsmJSLoadHeap
 *
 load
@@ -14273,10 +14287,12 @@ MAsmJSLoadGlobalVar
 :
 mightAlias
 (
+const
 MDefinition
 *
 def
 )
+const
 {
 if
 (
@@ -14288,6 +14304,7 @@ isAsmJSStoreGlobalVar
 )
 )
 {
+const
 MAsmJSStoreGlobalVar
 *
 store
@@ -14321,6 +14338,7 @@ MAsmJSLoadGlobalVar
 :
 congruentTo
 (
+const
 MDefinition
 *
 ins
@@ -14337,6 +14355,7 @@ isAsmJSLoadGlobalVar
 )
 )
 {
+const
 MAsmJSLoadGlobalVar
 *
 load
@@ -14368,10 +14387,12 @@ MLoadSlot
 :
 mightAlias
 (
+const
 MDefinition
 *
 store
 )
+const
 {
 if
 (
@@ -14957,10 +14978,12 @@ MGetPropertyPolymorphic
 :
 mightAlias
 (
+const
 MDefinition
 *
 store
 )
+const
 {
 if
 (
@@ -15002,6 +15025,7 @@ i
 +
 )
 {
+const
 Shape
 *
 shape
