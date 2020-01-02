@@ -163,6 +163,10 @@ id
 ;
 attribute
 EventHandler
+onchange
+;
+attribute
+EventHandler
 onaddtrack
 ;
 attribute
