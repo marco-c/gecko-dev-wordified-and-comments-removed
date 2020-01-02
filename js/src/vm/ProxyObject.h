@@ -58,6 +58,7 @@ New
 JSContext
 *
 cx
+const
 BaseProxyHandler
 *
 handler
@@ -165,6 +166,7 @@ toPrivate
 void
 initHandler
 (
+const
 BaseProxyHandler
 *
 handler
@@ -173,6 +175,7 @@ handler
 void
 setHandler
 (
+const
 BaseProxyHandler
 *
 handler
@@ -184,7 +187,14 @@ this
 HANDLER_SLOT
 PrivateValue
 (
+const_cast
+<
+BaseProxyHandler
+*
+>
+(
 handler
+)
 )
 )
 ;
@@ -412,6 +422,7 @@ renew
 JSContext
 *
 cx
+const
 BaseProxyHandler
 *
 handler
@@ -434,6 +445,7 @@ obj
 void
 nuke
 (
+const
 BaseProxyHandler
 *
 handler

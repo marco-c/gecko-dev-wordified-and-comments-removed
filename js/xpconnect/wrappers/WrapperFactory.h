@@ -289,6 +289,7 @@ id
 }
 ;
 extern
+const
 js
 :
 :

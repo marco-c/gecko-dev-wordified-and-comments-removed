@@ -4597,6 +4597,7 @@ true
 ;
 }
 static
+const
 ScriptedIndirectProxyHandler
 singleton
 ;
@@ -6418,6 +6419,7 @@ indent
 )
 ;
 }
+const
 ScriptedIndirectProxyHandler
 ScriptedIndirectProxyHandler
 :
@@ -6745,6 +6747,7 @@ true
 ;
 }
 static
+const
 ScriptedDirectProxyHandler
 singleton
 ;
@@ -11505,6 +11508,7 @@ return
 true
 ;
 }
+const
 ScriptedDirectProxyHandler
 ScriptedDirectProxyHandler
 :
@@ -16289,6 +16293,7 @@ NewProxyObject
 JSContext
 *
 cx
+const
 BaseProxyHandler
 *
 handler
@@ -16333,6 +16338,7 @@ renew
 JSContext
 *
 cx
+const
 BaseProxyHandler
 *
 handler
@@ -16402,13 +16408,9 @@ isLazy
 )
 )
 ;
-setSlot
-(
-HANDLER_SLOT
-PrivateValue
+setHandler
 (
 handler
-)
 )
 ;
 setCrossCompartmentSlot

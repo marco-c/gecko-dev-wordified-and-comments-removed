@@ -71937,6 +71937,7 @@ self
 getInstance
 "
 "
+const
 DOMProxyHandler
 *
 "
@@ -71962,6 +71963,7 @@ dedent
 "
             
 static
+const
 DOMProxyHandler
 instance
 ;
@@ -72076,6 +72078,33 @@ descriptor
 )
 ]
         
+constructors
+=
+[
+            
+ClassConstructor
+(
+                
+[
+]
+                
+bodyInHeader
+=
+True
+                
+visibility
+=
+"
+public
+"
+                
+explicit
+=
+True
+)
+        
+]
+        
 if
 descriptor
 .
@@ -72172,6 +72201,10 @@ DOMProxyHandler
 '
 )
 ]
+                         
+constructors
+=
+constructors
                          
 methods
 =
