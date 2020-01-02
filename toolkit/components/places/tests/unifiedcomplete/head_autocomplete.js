@@ -610,6 +610,17 @@ test
 matches
 )
 {
+let
+matches
+=
+test
+.
+matches
+.
+slice
+(
+)
+;
 for
 (
 let
@@ -687,8 +698,6 @@ j
 ;
 j
 <
-test
-.
 matches
 .
 length
@@ -700,8 +709,6 @@ j
 {
 if
 (
-test
-.
 matches
 [
 j
@@ -719,8 +726,6 @@ title
 tags
 }
 =
-test
-.
 matches
 [
 j
@@ -817,8 +822,6 @@ j
 "
 )
 ;
-test
-.
 matches
 [
 j
@@ -877,8 +880,6 @@ if
 j
 =
 =
-test
-.
 matches
 .
 length
@@ -922,8 +923,6 @@ equal
 controller
 .
 matchCount
-test
-.
 matches
 .
 length
@@ -942,8 +941,6 @@ do_check_eq
 controller
 .
 searchStatus
-test
-.
 matches
 .
 length
