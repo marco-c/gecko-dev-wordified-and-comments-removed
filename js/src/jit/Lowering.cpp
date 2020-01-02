@@ -11167,6 +11167,9 @@ convert
 case
 MIRType_Undefined
 :
+case
+MIRType_Symbol
+:
 JS_ASSERT
 (
 conversion
@@ -11406,6 +11409,9 @@ convert
 ;
 case
 MIRType_Undefined
+:
+case
+MIRType_Symbol
 :
 JS_ASSERT
 (
