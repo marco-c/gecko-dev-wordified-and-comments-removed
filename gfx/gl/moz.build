@@ -381,11 +381,6 @@ TextureGarbageBin
 .
 h
 '
-'
-VBOArena
-.
-h
-'
 ]
 if
 CONFIG
@@ -867,11 +862,6 @@ cpp
 '
 '
 TextureImageEGL
-.
-cpp
-'
-'
-VBOArena
 .
 cpp
 '
