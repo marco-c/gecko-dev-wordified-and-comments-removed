@@ -705,6 +705,11 @@ dummy
 /
 experiment1
 "
+branch
+:
+"
+foo
+"
 }
 ]
 ;
@@ -760,6 +765,9 @@ dummy
 /
 experiment2
 "
+branch
+:
+null
 }
 {
 id
@@ -809,6 +817,9 @@ dummy
 /
 experiment1
 "
+branch
+:
+null
 }
 ]
 ;

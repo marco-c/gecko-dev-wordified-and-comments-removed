@@ -2530,7 +2530,7 @@ scope
 )
 ;
 let
-activeExperiment
+experiments
 =
 scope
 .
@@ -2539,6 +2539,10 @@ Experiments
 instance
 (
 )
+let
+activeExperiment
+=
+experiments
 .
 getActiveExperimentID
 (
@@ -2554,6 +2558,16 @@ ret
 activeExperiment
 =
 activeExperiment
+;
+ret
+.
+activeExperimentBranch
+=
+experiments
+.
+getActiveExperimentBranch
+(
+)
 ;
 }
 }
