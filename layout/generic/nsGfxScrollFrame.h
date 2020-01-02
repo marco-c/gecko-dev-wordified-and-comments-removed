@@ -220,12 +220,6 @@ Destroy
 (
 )
 ;
-bool
-ShouldBuildLayer
-(
-)
-const
-;
 void
 BuildDisplayList
 (
@@ -941,9 +935,7 @@ return
 mScrollingActive
 |
 |
-ShouldBuildLayer
-(
-)
+mShouldBuildScrollableLayer
 ;
 }
 void
@@ -1292,7 +1284,7 @@ mCollapsedResizer
 1
 ;
 bool
-mShouldBuildLayer
+mShouldBuildScrollableLayer
 :
 1
 ;
