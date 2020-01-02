@@ -1625,7 +1625,10 @@ cx
 obj
 obj
 id
-0
+baseops
+:
+:
+Qualified
 &
 rref
 script

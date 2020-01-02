@@ -1310,7 +1310,10 @@ cx
 scope
 scope
 id
-DNP_UNQUALIFIED
+baseops
+:
+:
+Unqualified
 &
 valCopy
 strict

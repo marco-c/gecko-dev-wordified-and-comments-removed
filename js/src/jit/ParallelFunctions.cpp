@@ -883,7 +883,10 @@ cx
 obj
 obj
 id
-0
+baseops
+:
+:
+Qualified
 &
 v
 strict
@@ -951,7 +954,10 @@ cx
 obj
 obj
 id
-0
+baseops
+:
+:
+Qualified
 &
 v
 strict
