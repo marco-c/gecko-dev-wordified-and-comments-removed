@@ -514,6 +514,8 @@ MOZ_REALLY_CRASH
 do
 {
 \
+:
+:
 __debugbreak
 (
 )
