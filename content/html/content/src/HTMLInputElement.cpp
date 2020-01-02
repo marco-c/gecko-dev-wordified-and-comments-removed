@@ -8764,8 +8764,9 @@ isNaN
 )
 )
 {
-return
-NS_OK
+value
+=
+0
 ;
 }
 Decimal
