@@ -286,17 +286,11 @@ thread
             
 pidStr
 =
-"
-%
-05d
-"
-%
-(
-int
-(
 pid
-)
-)
++
+"
+:
+"
             
 thread
 [
@@ -378,6 +372,21 @@ location
 '
 :
                         
+oldLoc
+=
+frame
+[
+'
+location
+'
+]
+                        
+newLoc
+=
+pidStr
++
+oldLoc
+                        
 frame
 [
 '
@@ -385,14 +394,14 @@ location
 '
 ]
 =
-pidStr
-+
-frame
+newLoc
+                        
+symTable
 [
-'
-location
-'
+newLoc
 ]
+=
+oldLoc
         
 filesyms
 =
