@@ -1398,6 +1398,13 @@ lower
 )
 const
 {
+JS_ASSERT
+(
+hasInt32LowerBound
+(
+)
+)
+;
 return
 lower_
 ;
@@ -1408,6 +1415,13 @@ upper
 )
 const
 {
+JS_ASSERT
+(
+hasInt32UpperBound
+(
+)
+)
+;
 return
 upper_
 ;
