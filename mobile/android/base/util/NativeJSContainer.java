@@ -42,6 +42,14 @@ mNativeObject
 nativeObject
 ;
 }
+Override
+public
+native
+NativeJSContainer
+clone
+(
+)
+;
 public
 native
 void
