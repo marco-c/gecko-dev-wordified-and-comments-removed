@@ -2638,6 +2638,13 @@ mode
 ;
 #
 endif
+if
+(
+canUseSignalHandlers
+(
+)
+)
+{
 RequestInterruptForAsmJSCode
 (
 this
@@ -2653,6 +2660,7 @@ this
 mode
 )
 ;
+}
 #
 endif
 }

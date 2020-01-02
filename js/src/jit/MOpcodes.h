@@ -929,6 +929,11 @@ InterruptCheck
 \
 _
 (
+AsmJSInterruptCheck
+)
+\
+_
+(
 ProfilerStackOp
 )
 \

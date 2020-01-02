@@ -1262,6 +1262,10 @@ CUSTOM_OP
 (
 InterruptCheck
 )
+UNSAFE_OP
+(
+AsmJSInterruptCheck
+)
 SAFE_OP
 (
 ForkJoinContext

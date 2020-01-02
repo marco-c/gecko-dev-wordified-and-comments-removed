@@ -608,7 +608,7 @@ generateAsmJSPrologue
 (
 Label
 *
-stackOverflowLabe
+stackOverflowLabel
 )
 ;
 bool

@@ -1537,7 +1537,7 @@ if
 (
 module
 .
-usesSignalHandlers
+usesSignalHandlersForInterrupt
 (
 )
 &
@@ -1579,7 +1579,7 @@ cx
 heap
 module
 .
-usesSignalHandlers
+usesSignalHandlersForOOB
 (
 )
 )

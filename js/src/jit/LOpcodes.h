@@ -1348,6 +1348,11 @@ InterruptCheck
 \
 _
 (
+AsmJSInterruptCheck
+)
+\
+_
+(
 InterruptCheckImplicit
 )
 \
