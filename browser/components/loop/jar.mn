@@ -1015,6 +1015,8 @@ js
 (
 content
 /
+shared
+/
 libs
 /
 sdk
@@ -1038,6 +1040,8 @@ ot
 css
 (
 content
+/
+shared
 /
 libs
 /
@@ -1070,6 +1074,8 @@ min
 js
 (
 content
+/
+shared
 /
 libs
 /
@@ -1108,6 +1114,8 @@ chrome
 png
 (
 content
+/
+shared
 /
 libs
 /
@@ -1153,6 +1161,8 @@ png
 (
 content
 /
+shared
+/
 libs
 /
 sdk
@@ -1197,6 +1207,8 @@ png
 (
 content
 /
+shared
+/
 libs
 /
 sdk
@@ -1239,6 +1251,8 @@ png
 (
 content
 /
+shared
+/
 libs
 /
 sdk
@@ -1281,6 +1295,8 @@ png
 (
 content
 /
+shared
+/
 libs
 /
 sdk
@@ -1321,6 +1337,8 @@ png
 (
 content
 /
+shared
+/
 libs
 /
 sdk
@@ -1359,6 +1377,8 @@ png
 (
 content
 /
+shared
+/
 libs
 /
 sdk
@@ -1395,6 +1415,8 @@ png
 (
 content
 /
+shared
+/
 libs
 /
 sdk
@@ -1429,6 +1451,8 @@ gif
 (
 content
 /
+shared
+/
 libs
 /
 sdk
@@ -1465,6 +1489,8 @@ png
 (
 content
 /
+shared
+/
 libs
 /
 sdk
@@ -1503,6 +1529,8 @@ png
 (
 content
 /
+shared
+/
 libs
 /
 sdk
@@ -1541,6 +1569,8 @@ png
 (
 content
 /
+shared
+/
 libs
 /
 sdk
@@ -1578,6 +1608,8 @@ on
 png
 (
 content
+/
+shared
 /
 libs
 /
