@@ -58,13 +58,6 @@ ContentSearchService
 this
 )
 ;
-}
-setUpInitialState
-:
-function
-(
-)
-{
 this
 .
 _send

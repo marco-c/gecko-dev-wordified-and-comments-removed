@@ -1115,12 +1115,6 @@ shownCount
 )
 ;
 }
-gSearch
-.
-setUpInitialState
-(
-)
-;
 }
 }
 ;
