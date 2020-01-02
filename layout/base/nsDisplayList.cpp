@@ -2554,7 +2554,6 @@ StyleAnimation
 *
 anim
 =
-&
 aAnimations
 [
 animIdx

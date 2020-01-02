@@ -1946,7 +1946,7 @@ mozilla
 :
 :
 StyleAnimation
-&
+*
 anim
 =
 animations
@@ -1963,7 +1963,8 @@ uint32_t
 propIdx
 =
 anim
-.
+-
+>
 mProperties
 .
 Length
@@ -1984,7 +1985,8 @@ AnimationProperty
 prop
 =
 anim
-.
+-
+>
 mProperties
 [
 propIdx
@@ -2279,7 +2281,7 @@ i
 )
 {
 ElementPropertyTransition
-&
+*
 pt
 =
 transitions
@@ -2293,7 +2295,8 @@ i
 if
 (
 pt
-.
+-
+>
 IsRemovedSentinel
 (
 )
@@ -2305,7 +2308,8 @@ continue
 MOZ_ASSERT
 (
 pt
-.
+-
+>
 mProperties
 .
 Length
@@ -2329,7 +2333,8 @@ transition
 MOZ_ASSERT
 (
 pt
-.
+-
+>
 mProperties
 [
 0
@@ -2362,7 +2367,8 @@ AnimationPropertySegment
 segment
 =
 pt
-.
+-
+>
 mProperties
 [
 0
@@ -2376,7 +2382,8 @@ mSegments
 if
 (
 pt
-.
+-
+>
 mProperties
 [
 0
