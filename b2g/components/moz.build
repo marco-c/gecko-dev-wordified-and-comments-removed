@@ -136,6 +136,11 @@ FilePicker
 js
 '
 '
+FxAccountsUIGlue
+.
+js
+'
+'
 HelperAppDialog
 .
 js

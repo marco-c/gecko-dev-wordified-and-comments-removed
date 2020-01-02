@@ -4573,6 +4573,13 @@ BINPATH
 /
 components
 /
+FxAccountsUIGlue
+.
+js
+BINPATH
+/
+components
+/
 HelperAppDialog
 .
 js
@@ -4602,6 +4609,13 @@ BINPATH
 components
 /
 dom_datastore
+.
+xpt
+BINPATH
+/
+components
+/
+services_fxaccounts
 .
 xpt
 #
