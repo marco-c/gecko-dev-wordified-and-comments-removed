@@ -126,6 +126,7 @@ CSP_FRAME_SRC
 CSP_FONT_SRC
 CSP_CONNECT_SRC
 CSP_REPORT_URI
+CSP_FRAME_ANCESTORS
 CSP_LAST_DIRECTIVE_VALUE
 }
 ;
@@ -187,6 +188,11 @@ src
 report
 -
 uri
+"
+"
+frame
+-
+ancestors
 "
 }
 ;

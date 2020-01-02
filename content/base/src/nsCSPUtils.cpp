@@ -2817,6 +2817,15 @@ nsIContentPolicy
 TYPE_SUBDOCUMENT
 ;
 case
+CSP_FRAME_ANCESTORS
+:
+return
+nsIContentPolicy
+:
+:
+TYPE_DOCUMENT
+;
+case
 CSP_DEFAULT_SRC
 :
 case
