@@ -744,7 +744,7 @@ mm
 assertPermission
 (
 "
-keyboard
+input
 "
 )
 )
@@ -768,7 +768,7 @@ process
 with
 no
 '
-keyboard
+input
 '
 privileges
 .

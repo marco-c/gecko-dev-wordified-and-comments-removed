@@ -60,7 +60,7 @@ SpecialPowers
 addPermission
 (
 '
-inputmethod
+input
 -
 manage
 '
@@ -107,7 +107,7 @@ SpecialPowers
 removePermission
 (
 "
-inputmethod
+input
 -
 manage
 "

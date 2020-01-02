@@ -7569,7 +7569,7 @@ CheckPermission
 (
 win
 "
-keyboard
+input
 "
 )
 )
