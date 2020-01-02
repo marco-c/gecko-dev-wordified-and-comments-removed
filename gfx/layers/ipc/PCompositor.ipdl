@@ -635,11 +635,8 @@ MakeSnapshot
 (
 SurfaceDescriptor
 inSnapshot
-)
-returns
-(
-SurfaceDescriptor
-outSnapshot
+nsIntRect
+dirtyRect
 )
 ;
 /
