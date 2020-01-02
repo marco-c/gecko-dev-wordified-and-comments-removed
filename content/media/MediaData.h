@@ -111,10 +111,6 @@ mDuration
 (
 aDuration
 )
-mDiscontinuity
-(
-false
-)
 {
 }
 virtual
@@ -139,9 +135,6 @@ mTime
 const
 int64_t
 mDuration
-;
-bool
-mDiscontinuity
 ;
 int64_t
 GetEndTime
