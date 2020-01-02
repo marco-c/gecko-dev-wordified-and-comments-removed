@@ -939,6 +939,10 @@ close
 (
 )
 ;
+gNewWindow
+=
+null
+;
 finish
 (
 )
