@@ -297,11 +297,6 @@ nsNetUtil
 cpp
 '
 '
-nsNetworkZonePolicy
-.
-cpp
-'
-'
 nsPACMan
 .
 cpp

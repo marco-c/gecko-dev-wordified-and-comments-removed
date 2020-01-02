@@ -554,15 +554,6 @@ mParallelSpeculativeConnectLimit
 ;
 }
 bool
-AllowSpeculativeConnectOnLoopback
-(
-)
-{
-return
-mAllowSpeculativeConnectOnLoopback
-;
-}
-bool
 CriticalRequestPrioritization
 (
 )
@@ -927,6 +918,11 @@ GetCookieService
 nsISiteSecurityService
 *
 GetSSService
+(
+)
+;
+uint32_t
+Get32BitsOfPseudoRandom
 (
 )
 ;
@@ -1559,9 +1555,6 @@ mBypassCacheLockThreshold
 ;
 uint32_t
 mParallelSpeculativeConnectLimit
-;
-bool
-mAllowSpeculativeConnectOnLoopback
 ;
 bool
 mRequestTokenBucketEnabled

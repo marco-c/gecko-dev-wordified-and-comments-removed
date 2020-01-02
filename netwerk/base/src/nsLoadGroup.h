@@ -205,9 +205,6 @@ mPriority
 bool
 mIsCanceling
 ;
-bool
-mAllowLoadsFromPrivateNetworks
-;
 mozilla
 :
 :
