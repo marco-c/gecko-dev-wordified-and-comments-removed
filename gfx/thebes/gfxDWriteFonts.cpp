@@ -309,6 +309,14 @@ fe
 IsItalic
 (
 )
+&
+&
+GetStyle
+(
+)
+-
+>
+allowSyntheticStyle
 )
 {
 mNeedsOblique

@@ -292,6 +292,11 @@ NS_FONT_STYLE_OBLIQUE
 )
 )
 )
+&
+&
+mStyle
+.
+allowSyntheticStyle
 ;
 if
 (

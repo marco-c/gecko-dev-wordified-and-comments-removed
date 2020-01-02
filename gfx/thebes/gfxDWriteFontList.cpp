@@ -830,8 +830,9 @@ font
 GetSimulations
 (
 )
-&
-DWRITE_FONT_SIMULATIONS_OBLIQUE
+!
+=
+DWRITE_FONT_SIMULATIONS_NONE
 )
 {
 continue
@@ -7674,8 +7675,9 @@ dwFont
 GetSimulations
 (
 )
-&
-DWRITE_FONT_SIMULATIONS_OBLIQUE
+!
+=
+DWRITE_FONT_SIMULATIONS_NONE
 )
 {
 continue

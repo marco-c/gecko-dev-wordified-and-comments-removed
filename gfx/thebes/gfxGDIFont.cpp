@@ -710,6 +710,11 @@ fe
 IsItalic
 (
 )
+&
+&
+mStyle
+.
+allowSyntheticStyle
 ;
 bool
 useCairoFakeItalic
