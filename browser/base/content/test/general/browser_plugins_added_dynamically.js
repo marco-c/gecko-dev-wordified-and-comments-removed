@@ -482,6 +482,10 @@ popupNotification
 options
 .
 centerActions
+.
+values
+(
+)
 )
 {
 if
@@ -1020,7 +1024,7 @@ options
 .
 centerActions
 .
-length
+size
 1
 "
 Should

@@ -1386,7 +1386,7 @@ options
 .
 centerActions
 .
-length
+size
 1
 "
 Test
@@ -3832,6 +3832,15 @@ activated
 "
 )
 ;
+var
+oldEventCallback
+=
+notification
+.
+options
+.
+eventCallback
+;
 notification
 .
 options
@@ -3842,6 +3851,10 @@ function
 (
 )
 {
+oldEventCallback
+(
+)
+;
 executeSoon
 (
 test18g
@@ -5456,7 +5469,7 @@ options
 .
 centerActions
 .
-length
+size
 2
 "
 Test
@@ -5488,6 +5501,10 @@ notification
 options
 .
 centerActions
+.
+values
+(
+)
 )
 {
 if
@@ -5734,7 +5751,7 @@ options
 .
 centerActions
 .
-length
+size
 =
 =
 2
@@ -6070,6 +6087,10 @@ notification
 options
 .
 centerActions
+.
+values
+(
+)
 )
 {
 if

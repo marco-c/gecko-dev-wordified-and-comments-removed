@@ -1107,7 +1107,7 @@ options
 .
 centerActions
 .
-length
+size
 2
 "
 Test
@@ -1139,6 +1139,10 @@ notification
 options
 .
 centerActions
+.
+values
+(
+)
 )
 {
 if
