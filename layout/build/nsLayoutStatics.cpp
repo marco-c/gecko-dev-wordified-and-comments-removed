@@ -761,16 +761,6 @@ dom
 :
 ipc
 ;
-using
-namespace
-mozilla
-:
-:
-dom
-:
-:
-time
-;
 nsrefcnt
 nsLayoutStatics
 :
@@ -1466,10 +1456,6 @@ nsApplicationCacheService
 :
 :
 AppClearDataObserverInit
-(
-)
-;
-InitializeDateCacheCleaner
 (
 )
 ;
