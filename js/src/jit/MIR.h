@@ -26810,7 +26810,7 @@ public
 :
 MDefinition
 *
-obj
+object
 (
 )
 const

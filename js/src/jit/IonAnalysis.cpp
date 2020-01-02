@@ -9923,7 +9923,7 @@ if
 setprop
 -
 >
-obj
+object
 (
 )
 !
