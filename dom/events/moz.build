@@ -283,6 +283,11 @@ EventTarget
 h
 '
 '
+FocusEvent
+.
+h
+'
+'
 PointerEvent
 .
 h
@@ -375,6 +380,11 @@ EventTarget
 cpp
 '
 '
+FocusEvent
+.
+cpp
+'
+'
 nsAsyncDOMEvent
 .
 cpp
@@ -386,11 +396,6 @@ cpp
 '
 '
 nsDOMEventTargetHelper
-.
-cpp
-'
-'
-nsDOMFocusEvent
 .
 cpp
 '
