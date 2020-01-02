@@ -1242,15 +1242,6 @@ layout_gravity
 "
 center_vertical
 "
-android
-:
-src
-=
-"
-drawable
-/
-favicon
-"
 /
 >
 <

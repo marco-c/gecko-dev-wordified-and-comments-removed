@@ -7259,8 +7259,14 @@ favicon
 =
 null
 )
-return
+{
+favicon
+=
+Favicons
+.
+sDefaultFavicon
 ;
+}
 if
 (
 !

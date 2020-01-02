@@ -5962,13 +5962,9 @@ else
 {
 mFavicon
 .
-setImageResource
+setImageBitmap
 (
-R
-.
-drawable
-.
-favicon
+null
 )
 ;
 }
