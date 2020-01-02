@@ -4779,6 +4779,16 @@ this
 )
 ;
 }
+nsIContent
+*
+GetContentInThisDocument
+(
+nsIFrame
+*
+aFrame
+)
+const
+;
 void
 EnableStyleSheetsForSetInternal
 (
