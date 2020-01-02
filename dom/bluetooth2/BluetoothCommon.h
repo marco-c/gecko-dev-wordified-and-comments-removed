@@ -743,9 +743,15 @@ pairingconsentreq
 "
 #
 define
-PAIRED_STATUS_CHANGED_ID
+DEVICE_PAIRED_ID
 "
-pairedstatuschanged
+devicepaired
+"
+#
+define
+DEVICE_UNPAIRED_ID
+"
+deviceunpaired
 "
 #
 define
