@@ -341,13 +341,6 @@ aRv
 )
 ;
 void
-Update
-(
-double
-aTime
-)
-;
-void
 AddCue
 (
 TextTrackCue

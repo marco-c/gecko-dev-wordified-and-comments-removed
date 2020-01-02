@@ -978,11 +978,6 @@ return
 mId
 ;
 }
-void
-RenderCue
-(
-)
-;
 already_AddRefed
 <
 DocumentFragment
@@ -1008,11 +1003,6 @@ CueChanged
 ;
 void
 SetDefaultCueSettings
-(
-)
-;
-void
-CreateCueOverlay
 (
 )
 ;

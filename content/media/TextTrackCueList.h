@@ -118,13 +118,6 @@ Length
 )
 ;
 }
-void
-Update
-(
-double
-aTime
-)
-;
 TextTrackCue
 *
 IndexedGetter
