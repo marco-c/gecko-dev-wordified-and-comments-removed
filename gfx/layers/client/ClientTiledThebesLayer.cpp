@@ -148,6 +148,11 @@ ClientLayerManager
 *
 const
 aManager
+ClientLayerManager
+:
+:
+ThebesLayerCreationHint
+aCreationHint
 )
 :
 ThebesLayer
@@ -163,6 +168,7 @@ MOZ_THIS_IN_INITIALIZER_LIST
 (
 )
 )
+aCreationHint
 )
 mContentClient
 (
