@@ -308,6 +308,11 @@ PointerEvent
 h
 '
 '
+SimpleGestureEvent
+.
+h
+'
+'
 Touch
 .
 h
@@ -445,11 +450,6 @@ nsDOMNotifyAudioAvailableEvent
 cpp
 '
 '
-nsDOMSimpleGestureEvent
-.
-cpp
-'
-'
 nsDOMTextEvent
 .
 cpp
@@ -501,6 +501,11 @@ cpp
 '
 '
 PointerEvent
+.
+cpp
+'
+'
+SimpleGestureEvent
 .
 cpp
 '
