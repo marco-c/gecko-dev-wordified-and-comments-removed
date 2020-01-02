@@ -4687,7 +4687,7 @@ nsGlobalWindow
 )
 ;
 void
-ClearDelayedEventsAndDropDocument
+DropOuterWindowDocs
 (
 )
 ;
