@@ -217,6 +217,11 @@ GetGLTexture
 (
 )
 ;
+void
+Lock
+(
+)
+;
 protected
 :
 CompositorOGL
@@ -237,6 +242,9 @@ mGraphicBuffer
 ;
 EGLImage
 mEGLImage
+;
+GLuint
+mTexture
 ;
 gfx
 :

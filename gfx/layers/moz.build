@@ -675,6 +675,13 @@ h
 '
 client
 /
+TextureClientPool
+.
+h
+'
+'
+client
+/
 TiledContentClient
 .
 h
@@ -1446,6 +1453,13 @@ cpp
 client
 /
 TextureClient
+.
+cpp
+'
+'
+client
+/
+TextureClientPool
 .
 cpp
 '

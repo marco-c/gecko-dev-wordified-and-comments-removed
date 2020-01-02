@@ -792,6 +792,14 @@ CompositableType
 if
 (
 result
+&
+&
+aTextureInfo
+.
+mCompositableType
+!
+=
+BUFFER_TILED
 )
 {
 RefPtr

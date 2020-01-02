@@ -125,7 +125,7 @@ namespace
 layers
 {
 class
-BasicTiledLayerBuffer
+ClientTiledLayerBuffer
 ;
 class
 CanvasClient
@@ -524,7 +524,7 @@ aMaskLayer
 ;
 virtual
 void
-PaintedTiledLayerBuffer
+UseTiledLayerBuffer
 (
 CompositableClient
 *

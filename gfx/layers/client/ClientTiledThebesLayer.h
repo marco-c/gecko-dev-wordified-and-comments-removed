@@ -180,6 +180,13 @@ RenderLayer
 (
 )
 ;
+virtual
+void
+ClearCachedResources
+(
+)
+MOZ_OVERRIDE
+;
 private
 :
 ClientLayerManager

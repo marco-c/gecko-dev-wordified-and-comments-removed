@@ -183,7 +183,7 @@ namespace
 layers
 {
 class
-BasicTiledLayerBuffer
+ClientTiledLayerBuffer
 ;
 class
 Compositor
@@ -1282,7 +1282,7 @@ case
 CompositableOperation
 :
 :
-TOpPaintTiledLayerBuffer
+TOpUseTiledLayerBuffer
 :
 {
 MOZ_LAYERS_LOG
@@ -1299,13 +1299,13 @@ TiledLayerBuffer
 )
 ;
 const
-OpPaintTiledLayerBuffer
+OpUseTiledLayerBuffer
 &
 op
 =
 aEdit
 .
-get_OpPaintTiledLayerBuffer
+get_OpUseTiledLayerBuffer
 (
 )
 ;
@@ -1375,7 +1375,7 @@ tileLayerDescriptor
 tileComposer
 -
 >
-PaintedTiledLayerBuffer
+UseTiledLayerBuffer
 (
 this
 tileDesc

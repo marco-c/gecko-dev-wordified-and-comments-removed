@@ -150,6 +150,10 @@ CompositableClient
 CompositableForwarder
 *
 aForwarder
+TextureFlags
+aFlags
+=
+0
 )
 ;
 virtual
@@ -190,7 +194,6 @@ gfxContentType
 SENTINEL
 )
 ;
-virtual
 TemporaryRef
 <
 BufferTextureClient
@@ -319,6 +322,13 @@ OnDetach
 )
 {
 }
+virtual
+void
+ClearCachedResources
+(
+)
+{
+}
 protected
 :
 CompositableChild
@@ -328,6 +338,9 @@ mCompositableChild
 CompositableForwarder
 *
 mForwarder
+;
+TextureFlags
+mTextureFlags
 ;
 friend
 class

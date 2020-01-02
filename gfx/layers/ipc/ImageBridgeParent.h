@@ -153,6 +153,14 @@ ImageBridgeParent
 )
 ;
 virtual
+LayersBackend
+GetCompositorBackendType
+(
+)
+const
+MOZ_OVERRIDE
+;
+virtual
 void
 ActorDestroy
 (
