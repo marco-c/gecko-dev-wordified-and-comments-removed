@@ -546,6 +546,15 @@ thumbnail
 "
 )
 ;
+if
+(
+this
+.
+link
+.
+bgColor
+)
+{
 thumbnail
 .
 style
@@ -558,6 +567,7 @@ link
 .
 bgColor
 ;
+}
 let
 uri
 =
