@@ -351,14 +351,6 @@ aRv
 )
 ;
 void
-CueChanged
-(
-TextTrackCue
-&
-aCue
-)
-;
-void
 SetDirty
 (
 )
