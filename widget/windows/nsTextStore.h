@@ -1971,6 +1971,9 @@ mSelectionReversed
 bool
 mIncomplete
 ;
+bool
+mAdjustSelection
+;
 }
 ;
 nsTArray
@@ -2365,8 +2368,6 @@ const
 PendingAction
 &
 aCompStart
-bool
-aPreserveSelection
 )
 ;
 void
