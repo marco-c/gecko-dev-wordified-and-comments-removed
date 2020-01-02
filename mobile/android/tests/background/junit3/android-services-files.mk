@@ -244,6 +244,14 @@ java
 \
 src
 /
+fxa
+/
+TestFirefoxAccounts
+.
+java
+\
+src
+/
 healthreport
 /
 MockDatabaseEnvironment

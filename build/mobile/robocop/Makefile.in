@@ -321,16 +321,6 @@ manifest_TARGET
 AndroidManifest
 .
 xml
-ANDROID_MANIFEST_FILE
-:
-=
-(
-CURDIR
-)
-/
-AndroidManifest
-.
-xml
 #
 Install
 robocop

@@ -7686,6 +7686,15 @@ fxa
 /
 sync
 /
+FxAccountSyncStatusHelper
+.
+java
+'
+'
+fxa
+/
+sync
+/
 SchedulePolicy
 .
 java
