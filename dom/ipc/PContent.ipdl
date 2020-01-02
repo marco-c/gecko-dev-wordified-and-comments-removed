@@ -152,6 +152,10 @@ PDeviceStorageRequest
 ;
 include
 protocol
+PFileDescriptorSet
+;
+include
+protocol
 PFMRadio
 ;
 include
@@ -872,6 +876,9 @@ manages
 PExternalHelperApp
 ;
 manages
+PFileDescriptorSet
+;
+manages
 PFMRadio
 ;
 manages
@@ -1246,6 +1253,12 @@ bool
 minimizeMemoryUsage
 nsString
 DMDDumpIdent
+)
+;
+PFileDescriptorSet
+(
+FileDescriptor
+fd
 )
 ;
 /

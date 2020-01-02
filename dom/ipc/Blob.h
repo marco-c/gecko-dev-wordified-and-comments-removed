@@ -521,6 +521,16 @@ RemoteBlob
 ActorFlavor
 >
 ;
+friend
+class
+BlobTraits
+<
+ActorFlavor
+>
+:
+:
+BaseType
+;
 public
 :
 typedef

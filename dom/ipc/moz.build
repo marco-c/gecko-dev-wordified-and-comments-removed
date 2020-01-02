@@ -184,6 +184,11 @@ CrashReporterParent
 h
 '
 '
+FileDescriptorSetChild
+.
+h
+'
+'
 FilePickerParent
 .
 h
@@ -269,6 +274,11 @@ cpp
 CrashReporterParent
 .
 cpp
+'
+'
+PFileDescriptorSet
+.
+ipdl
 '
 '
 FilePickerParent

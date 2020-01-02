@@ -898,6 +898,8 @@ Serialize
 InputStreamParams
 &
 aParams
+FileDescriptorArray
+&
 )
 {
 StringInputStreamParams
@@ -929,6 +931,9 @@ const
 InputStreamParams
 &
 aParams
+const
+FileDescriptorArray
+&
 )
 {
 if

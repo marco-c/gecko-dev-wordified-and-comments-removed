@@ -520,6 +520,18 @@ SendFailedAsyncOpen
 rv
 )
 ;
+nsTArray
+<
+mozilla
+:
+:
+ipc
+:
+:
+FileDescriptor
+>
+fds
+;
 nsCOMPtr
 <
 nsIInputStream
@@ -529,6 +541,7 @@ upload
 DeserializeInputStream
 (
 aUploadStream
+fds
 )
 ;
 if

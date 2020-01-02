@@ -92,8 +92,8 @@ data
 struct
 FileInputStreamParams
 {
-FileDescriptor
-file
+uint32_t
+fileDescriptorIndex
 ;
 int32_t
 behaviorFlags

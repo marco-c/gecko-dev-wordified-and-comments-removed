@@ -690,6 +690,18 @@ if
 mChannel
 )
 {
+nsTArray
+<
+mozilla
+:
+:
+ipc
+:
+:
+FileDescriptor
+>
+fds
+;
 nsCOMPtr
 <
 nsIInputStream
@@ -699,6 +711,7 @@ stream
 DeserializeInputStream
 (
 aStream
+fds
 )
 ;
 if

@@ -1053,6 +1053,18 @@ get
 )
 )
 ;
+nsTArray
+<
+mozilla
+:
+:
+ipc
+:
+:
+FileDescriptor
+>
+fds
+;
 nsCOMPtr
 <
 nsIInputStream
@@ -1062,6 +1074,7 @@ stream
 DeserializeInputStream
 (
 uploadStream
+fds
 )
 ;
 if
