@@ -144,6 +144,11 @@ FallbackEncoding
 .
 cpp
 '
+]
+UNIFIED_SOURCES
++
+=
+{
 '
 TextDecoder
 .
