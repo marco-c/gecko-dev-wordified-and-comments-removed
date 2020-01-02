@@ -665,7 +665,7 @@ PropagateFrameFlagFor
 nsIFrame
 *
 aFrame
-nsFrameState
+uint64_t
 aFlags
 )
 ;
@@ -751,7 +751,7 @@ aPresShell
 nsStyleContext
 *
 aContext
-nsFrameState
+uint32_t
 aFlags
 )
 ;

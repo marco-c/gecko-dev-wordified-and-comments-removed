@@ -737,10 +737,7 @@ clientRect
 nsFrameState
 frameState
 =
-nsFrameState
-(
 0
-)
 ;
 GetFrameState
 (
@@ -2452,10 +2449,7 @@ NS_INTRINSICSIZE
 nsFrameState
 frameState
 =
-nsFrameState
-(
 0
-)
 ;
 GetFrameState
 (
@@ -3399,10 +3393,7 @@ aCurrentChildSize
 nsFrameState
 frameState
 =
-nsFrameState
-(
 0
-)
 ;
 GetFrameState
 (
@@ -3486,10 +3477,7 @@ aState
 nsFrameState
 frameState
 =
-nsFrameState
-(
 0
-)
 ;
 GetFrameState
 (
@@ -5140,10 +5128,7 @@ GetChildBox
 nsFrameState
 frameState
 =
-nsFrameState
-(
 0
-)
 ;
 GetFrameState
 (
@@ -5350,10 +5335,7 @@ GetChildBox
 nsFrameState
 frameState
 =
-nsFrameState
-(
 0
-)
 ;
 GetFrameState
 (
@@ -5613,10 +5595,7 @@ GetChildBox
 nsFrameState
 frameState
 =
-nsFrameState
-(
 0
-)
 ;
 GetFrameState
 (

@@ -157,13 +157,6 @@ nsMargin
 .
 h
 "
-#
-include
-"
-nsFrameState
-.
-h
-"
 class
 nsIContent
 ;
@@ -311,6 +304,10 @@ nsArenaMemoryStats
 typedef
 short
 SelectionType
+;
+typedef
+uint64_t
+nsFrameState
 ;
 namespace
 mozilla
