@@ -408,12 +408,6 @@ APZCTreeManager
 (
 )
 ;
-virtual
-void
-AssertOnCompositorThread
-(
-)
-;
 void
 BuildOverscrollHandoffChain
 (
