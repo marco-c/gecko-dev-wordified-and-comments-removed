@@ -7345,7 +7345,7 @@ mPerspectiveOrigin
 2
 ]
 ;
-nsAutoTArray
+AutoFallibleTArray
 <
 nsTransition
 1
@@ -7358,7 +7358,7 @@ mTransitionDurationCount
 mTransitionDelayCount
 mTransitionPropertyCount
 ;
-nsAutoTArray
+AutoFallibleTArray
 <
 nsAnimation
 1
