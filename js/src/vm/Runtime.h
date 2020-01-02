@@ -69,6 +69,15 @@ h
 "
 #
 include
+"
+mozilla
+/
+UniquePtr
+.
+h
+"
+#
+include
 <
 setjmp
 .
@@ -3492,7 +3501,7 @@ isEmpty
 mozilla
 :
 :
-ScopedDeletePtr
+UniquePtr
 <
 js
 :
