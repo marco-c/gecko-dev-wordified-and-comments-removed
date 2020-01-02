@@ -531,6 +531,14 @@ nsIRunnable
 aEvent
 )
 {
+nsCOMPtr
+<
+nsIRunnable
+>
+deathGrip
+=
+aEvent
+;
 #
 ifdef
 MOZILLA_INTERNAL_API
