@@ -4205,13 +4205,6 @@ content
 this
 )
 ;
-PContentParent
-:
-:
-OnChannelError
-(
-)
-;
 #
 ifdef
 MOZ_NUWA_PROCESS
@@ -4225,6 +4218,13 @@ this
 ;
 #
 endif
+PContentParent
+:
+:
+OnChannelError
+(
+)
+;
 }
 void
 ContentParent
