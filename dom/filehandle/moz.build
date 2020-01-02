@@ -102,16 +102,6 @@ test
 '
 ]
 EXPORTS
-+
-=
-[
-'
-nsIFileStorage
-.
-h
-'
-]
-EXPORTS
 .
 mozilla
 .
