@@ -114,6 +114,15 @@ StructuredCloneUtils
 .
 h
 "
+#
+include
+"
+js
+/
+StructuredClone
+.
+h
+"
 using
 mozilla
 :

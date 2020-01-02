@@ -116,6 +116,13 @@ MediaStreamTrackBinding
 h
 "
 #
+include
+"
+nsISupportsPrimitives
+.
+h
+"
+#
 define
 AUDIO_PERMISSION_NAME
 "

@@ -83,6 +83,13 @@ nsPIDOMWindow
 .
 h
 "
+#
+include
+"
+nsIPropertyBag2
+.
+h
+"
 DOMCI_DATA
 (
 MozWakeLock

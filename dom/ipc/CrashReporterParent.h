@@ -23,13 +23,6 @@ h
 #
 include
 "
-nsXULAppAPI
-.
-h
-"
-#
-include
-"
 nsIFile
 .
 h

@@ -6,6 +6,9 @@ AppProcessChecker
 h
 "
 #
+ifdef
+MOZ_CHILD_PERMISSIONS
+#
 include
 "
 ContentParent
@@ -65,6 +68,8 @@ mozilla
 :
 services
 ;
+#
+endif
 namespace
 mozilla
 {

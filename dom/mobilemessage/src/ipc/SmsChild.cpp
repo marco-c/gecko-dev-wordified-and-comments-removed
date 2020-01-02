@@ -73,6 +73,13 @@ MobileMessageThread
 .
 h
 "
+#
+include
+"
+MainThreadUtils
+.
+h
+"
 using
 namespace
 mozilla

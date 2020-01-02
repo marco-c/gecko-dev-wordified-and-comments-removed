@@ -106,6 +106,13 @@ nsIObserverService
 .
 h
 "
+#
+include
+"
+nsXULAppAPI
+.
+h
+"
 using
 namespace
 mozilla
