@@ -60909,11 +60909,6 @@ memmem
 -
 wrap
 =
-memswap
--
--
-wrap
-=
 index
 -
 -
