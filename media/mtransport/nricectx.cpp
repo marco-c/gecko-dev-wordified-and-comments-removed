@@ -1231,6 +1231,19 @@ NrIceCtx
 obj
 )
 ;
+if
+(
+ctx
+-
+>
+connection_state
+(
+)
+!
+=
+ICE_CTX_FAILED
+)
+{
 ctx
 -
 >
@@ -1239,6 +1252,7 @@ SetConnectionState
 ICE_CTX_OPEN
 )
 ;
+}
 return
 0
 ;
