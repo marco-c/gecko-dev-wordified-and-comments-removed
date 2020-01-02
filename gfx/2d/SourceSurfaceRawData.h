@@ -11,6 +11,13 @@ include
 .
 h
 "
+#
+include
+"
+Tools
+.
+h
+"
 namespace
 mozilla
 {
