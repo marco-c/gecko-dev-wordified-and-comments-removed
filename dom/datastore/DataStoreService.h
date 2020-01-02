@@ -130,6 +130,15 @@ Shutdown
 (
 )
 ;
+static
+bool
+CheckPermission
+(
+nsIPrincipal
+*
+principal
+)
+;
 nsresult
 GenerateUUID
 (
@@ -282,6 +291,9 @@ nsAString
 aName
 uint32_t
 aAppId
+nsIPrincipal
+*
+aPrincipal
 nsTArray
 <
 DataStoreInfo
