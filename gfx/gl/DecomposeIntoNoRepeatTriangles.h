@@ -78,15 +78,6 @@ flip_y
 false
 )
 ;
-bool
-isSimpleQuad
-(
-gfx3DMatrix
-&
-aOutTextureTransform
-)
-const
-;
 InfallibleTArray
 <
 coord
