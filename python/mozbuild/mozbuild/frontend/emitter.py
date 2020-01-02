@@ -2212,32 +2212,6 @@ s
 s
 [
 '
-TOPSRCDIR
-'
-]
-=
-self
-.
-config
-.
-topsrcdir
-            
-s
-[
-'
-TOPOBJDIR
-'
-]
-=
-self
-.
-config
-.
-topobjdir
-            
-s
-[
-'
 RELATIVEDIR
 '
 ]
@@ -5503,11 +5477,10 @@ relpath
 path
             
 sandbox
-[
-'
-TOPSRCDIR
-'
-]
+.
+config
+.
+topsrcdir
 )
 )
         
@@ -6379,11 +6352,10 @@ relpath
 manifest_full_path
             
 sandbox
-[
-'
-TOPSRCDIR
-'
-]
+.
+config
+.
+topsrcdir
 )
 )
         

@@ -734,27 +734,9 @@ d
             
 topsrcdir
 =
-d
-[
-'
-TOPSRCDIR
-'
-]
-=
 config
 .
 topsrcdir
-            
-d
-[
-'
-TOPOBJDIR
-'
-]
-=
-config
-.
-topobjdir
             
 relsrcdir
 =
