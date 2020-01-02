@@ -99,7 +99,6 @@ domstubs
 idl
 "
 [
-scriptable
 uuid
 (
 2cb53a8a
