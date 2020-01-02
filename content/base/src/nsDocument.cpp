@@ -38994,6 +38994,11 @@ GetObserverService
 (
 )
 ;
+if
+(
+os
+)
+{
 nsIPrincipal
 *
 principal
@@ -39041,6 +39046,7 @@ hidden
 nullptr
 )
 ;
+}
 DispatchPageTransition
 (
 target
