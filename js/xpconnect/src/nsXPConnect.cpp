@@ -3532,8 +3532,6 @@ cx
 JSObject
 *
 sandboxArg
-bool
-returnStringOnly
 MutableHandleValue
 rval
 )
@@ -3598,7 +3596,6 @@ source
 filenameStr
 1
 JSVERSION_DEFAULT
-returnStringOnly
 rval
 )
 ;
