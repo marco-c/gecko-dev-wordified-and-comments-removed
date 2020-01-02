@@ -1126,6 +1126,10 @@ SwitchType
 aType
 )
 {
+InitializePendingDecoders
+(
+)
+;
 ReentrantMonitorAutoEnter
 mon
 (
@@ -1135,10 +1139,6 @@ mDecoder
 GetReentrantMonitor
 (
 )
-)
-;
-InitializePendingDecoders
-(
 )
 ;
 bool
