@@ -10066,6 +10066,16 @@ i
 ]
 ;
 }
+requestAnimationFrame
+|
+=
+(
+mAnimation
+!
+=
+nullptr
+)
+;
 if
 (
 mAsyncScrollTimeoutTask
