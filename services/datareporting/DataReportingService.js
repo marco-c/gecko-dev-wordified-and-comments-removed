@@ -689,14 +689,6 @@ this
 .
 healthReporter
 ;
-this
-.
-policy
-.
-ensureUserNotified
-(
-)
-;
 }
 .
 bind

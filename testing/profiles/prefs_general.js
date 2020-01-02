@@ -1203,7 +1203,7 @@ datareporting
 .
 policy
 .
-dataSubmissionPolicyBypassNotification
+dataSubmissionPolicyBypassAcceptance
 "
 true
 )
