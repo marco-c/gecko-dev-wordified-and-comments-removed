@@ -137,6 +137,8 @@ avail64
 ;
 uint32_t
 avail
+=
+0
 ;
 nsresult
 rv
