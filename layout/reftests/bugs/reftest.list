@@ -2231,12 +2231,6 @@ html
 ref
 .
 html
-skip
--
-if
-(
-B2G
-)
 =
 =
 163504
@@ -2251,12 +2245,6 @@ html
 ref
 .
 html
-skip
--
-if
-(
-B2G
-)
 =
 =
 163504
