@@ -111,8 +111,6 @@ cpp
 LIBRARY_NAME
 =
 "
-gmp
--
 fake
 "
 USE_STATIC_LIBS

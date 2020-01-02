@@ -8441,6 +8441,24 @@ self
 .
 leak_report_file
     
+browserEnv
+[
+"
+MOZ_GMP_PATH
+"
+]
+=
+options
+.
+xrePath
++
+"
+/
+gmp
+-
+fake
+"
+    
 if
 options
 .
