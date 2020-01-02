@@ -165,5 +165,10 @@ enabled
 interface
 AnimationEffect
 {
+readonly
+attribute
+DOMString
+name
+;
 }
 ;
