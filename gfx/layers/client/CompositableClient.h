@@ -312,14 +312,6 @@ OnDetach
 )
 {
 }
-virtual
-void
-OnActorDestroy
-(
-)
-=
-0
-;
 protected
 :
 CompositableChild
