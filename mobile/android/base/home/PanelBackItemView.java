@@ -95,6 +95,8 @@ PanelBackItemView
 (
 Context
 context
+String
+backImageUrl
 )
 {
 super
@@ -164,6 +166,11 @@ getContext
 )
 .
 load
+(
+backImageUrl
+)
+.
+placeholder
 (
 R
 .
