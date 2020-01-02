@@ -61,10 +61,6 @@ MPL
 0
 /
 .
-app_libxul_dirs
-=
-[
-]
 include
 (
 '

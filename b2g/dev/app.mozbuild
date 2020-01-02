@@ -70,10 +70,6 @@ LIBXUL_SDK
 '
 ]
 :
-app_libxul_dirs
-=
-[
-]
 include
 (
 '
