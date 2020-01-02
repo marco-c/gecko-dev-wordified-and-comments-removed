@@ -530,8 +530,6 @@ bool
 aNoiseOn
 uint32_t
 aNoise
-int32_t
-aPlayoutDelay
 )
 {
 if
@@ -565,7 +563,6 @@ aAgcOn
 aAGC
 aNoiseOn
 aNoise
-aPlayoutDelay
 )
 NS_DISPATCH_NORMAL
 )

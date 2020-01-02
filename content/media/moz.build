@@ -113,14 +113,6 @@ webaudio
 webvtt
 '
 ]
-TEST_TOOL_DIRS
-+
-=
-[
-'
-compiledtest
-'
-]
 if
 CONFIG
 [
@@ -344,11 +336,6 @@ h
 '
 '
 AudioEventTimeline
-.
-h
-'
-'
-AudioMixer
 .
 h
 '
