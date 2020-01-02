@@ -58,7 +58,7 @@ maybe
 matches
 :
 undefined
-isSelection
+hasPredictions
 :
 true
 constructor
