@@ -493,6 +493,8 @@ bool
 aReadOnly
 bool
 aCheckOnAnyThread
+bool
+aForceAsync
 )
 ;
 Callback
@@ -554,6 +556,11 @@ mNotWanted
 :
 1
 ;
+bool
+mForceAsync
+:
+1
+;
 nsresult
 OnCheckThread
 (
@@ -561,7 +568,6 @@ bool
 *
 aOnCheckThread
 )
-const
 ;
 nsresult
 OnAvailThread
@@ -749,7 +755,7 @@ aBypassIfBusy
 )
 ;
 void
-InvokeCallbacksLock
+InvokeDispatchedCallbacks
 (
 )
 ;
@@ -959,6 +965,11 @@ mSecurityInfoLoaded
 ;
 bool
 mPreventCallbacks
+:
+1
+;
+bool
+mDispatchingCallbacks
 :
 1
 ;
