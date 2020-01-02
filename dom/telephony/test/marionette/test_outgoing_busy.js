@@ -150,7 +150,7 @@ alerting
 ;
 emulator
 .
-runWithCallback
+runCmdWithCallback
 (
 "
 gsm
@@ -269,7 +269,7 @@ BusyError
 ;
 emulator
 .
-runWithCallback
+runCmdWithCallback
 (
 "
 gsm
@@ -304,7 +304,7 @@ cleanUp
 ;
 emulator
 .
-runWithCallback
+runCmdWithCallback
 (
 "
 gsm

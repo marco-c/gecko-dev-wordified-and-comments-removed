@@ -150,7 +150,7 @@ alerting
 ;
 emulator
 .
-runWithCallback
+runCmdWithCallback
 (
 "
 gsm
@@ -273,7 +273,7 @@ active
 ;
 emulator
 .
-runWithCallback
+runCmdWithCallback
 (
 "
 gsm
@@ -327,7 +327,7 @@ hangUp
 ;
 emulator
 .
-runWithCallback
+runCmdWithCallback
 (
 "
 gsm
@@ -479,7 +479,7 @@ length
 ;
 emulator
 .
-runWithCallback
+runCmdWithCallback
 (
 "
 gsm
