@@ -9760,8 +9760,6 @@ gfx3DMatrix
 &
 GetTransform
 (
-float
-aAppUnitsPerPixel
 )
 ;
 float
@@ -10094,9 +10092,6 @@ mTransform
 ;
 ComputeTransformFunction
 mTransformGetter
-;
-float
-mCachedAppUnitsPerPixel
 ;
 uint32_t
 mIndex
