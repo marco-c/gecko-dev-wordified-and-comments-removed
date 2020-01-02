@@ -3333,9 +3333,10 @@ mDisableSequenceForNextFrame
 false
 ;
 }
-LayerManager
-:
-:
+RecordFrame
+(
+)
+;
 PostPresent
 (
 )
