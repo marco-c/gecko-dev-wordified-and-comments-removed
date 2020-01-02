@@ -110,6 +110,11 @@ RtspChannelChild
 h
 '
 '
+RtspChannelParent
+.
+h
+'
+'
 RtspHandler
 .
 h
@@ -164,6 +169,11 @@ cpp
 '
 '
 RtspChannelChild
+.
+cpp
+'
+'
+RtspChannelParent
 .
 cpp
 '

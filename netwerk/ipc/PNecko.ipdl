@@ -186,6 +186,10 @@ protocol
 PRtspController
 ;
 include
+protocol
+PRtspChannel
+;
+include
 URIParams
 ;
 include
@@ -323,6 +327,9 @@ manages
 PRtspController
 ;
 manages
+PRtspChannel
+;
+manages
 PChannelDiverter
 ;
 parent
@@ -424,6 +431,12 @@ reason
 ;
 PRtspController
 (
+)
+;
+PRtspChannel
+(
+RtspChannelConnectArgs
+args
 )
 ;
 PChannelDiverter

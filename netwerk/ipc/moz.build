@@ -211,6 +211,11 @@ PRemoteOpenFile
 ipdl
 '
 '
+PRtspChannel
+.
+ipdl
+'
+'
 PRtspController
 .
 ipdl

@@ -933,6 +933,14 @@ layout
 /
 xul
 '
+'
+/
+netwerk
+/
+base
+/
+src
+'
 ]
 if
 CONFIG
