@@ -368,6 +368,11 @@ JSStringFinalizer
 :
 true
 "
+SprintfState
+"
+:
+true
+"
 SprintfStateStr
 "
 :
