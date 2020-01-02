@@ -1,14 +1,4 @@
 from
-__future__
-import
-print_function
-import
-os
-import
-subprocess
-import
-sys
-from
 mozboot
 .
 base
@@ -61,93 +51,57 @@ packages
 =
 [
             
-(
-'
-autoconf
--
-2
-.
-13
-'
 '
 autoconf213
 '
-)
             
-(
 '
 dbus
 -
 glib
 '
-)
             
-(
 '
 gmake
 '
-)
             
-(
 '
 gstreamer
 -
 plugins
 '
-)
             
-(
 '
-gtk
--
-2
+gtk2
 '
-'
-gtk20
-'
-)
             
-(
 '
 libGL
 '
-)
             
-(
-'
-libIDL
-'
-)
-            
-(
-'
-libv4l
-'
-)
-            
-(
 '
 mercurial
 '
-)
             
-(
+'
+pkgconf
+'
+            
 '
 pulseaudio
 '
-)
             
-(
+'
+v4l_compat
+'
+            
 '
 yasm
 '
-)
             
-(
 '
 zip
 '
-)
         
 ]
         
@@ -165,11 +119,9 @@ packages
 .
 append
 (
-(
 '
 gcc
 '
-)
 )
     
 def
@@ -201,27 +153,7 @@ pkg
 '
 install
 '
-'
--
-x
-'
 ]
-            
-command
-.
-extend
-(
-[
-i
-[
-0
-]
-for
-i
-in
-packages
-]
-)
         
 else
 :
@@ -237,22 +169,12 @@ pkg_add
 Fr
 '
 ]
-            
+        
 command
 .
 extend
 (
-[
-i
-[
--
-1
-]
-for
-i
-in
 packages
-]
 )
         
 self
