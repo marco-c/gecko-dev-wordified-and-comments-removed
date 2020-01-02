@@ -827,7 +827,7 @@ url
 const
 BOOKMARKS_BACKUP_IDLE_TIME_SEC
 =
-10
+8
 *
 60
 ;
@@ -839,7 +839,7 @@ BOOKMARKS_BACKUP_MIN_INTERVAL_DAYS
 const
 BOOKMARKS_BACKUP_MAX_INTERVAL_DAYS
 =
-5
+3
 ;
 const
 BrowserGlueServiceFactory
