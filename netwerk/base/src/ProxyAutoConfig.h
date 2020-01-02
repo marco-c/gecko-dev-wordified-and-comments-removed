@@ -164,6 +164,9 @@ JS
 CallArgs
 &
 aArgs
+bool
+*
+aResult
 )
 ;
 JSRuntimeWrapper
