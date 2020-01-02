@@ -22649,6 +22649,9 @@ isHeapBusy
 )
 )
 ;
+#
+ifdef
+JS_THREADSAFE
 MOZ_ASSERT
 (
 !
@@ -22660,6 +22663,8 @@ currentThreadHasExclusiveAccess
 )
 )
 ;
+#
+endif
 if
 (
 rt
