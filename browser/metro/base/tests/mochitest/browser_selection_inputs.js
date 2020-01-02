@@ -1027,7 +1027,7 @@ touchdrag
 .
 move
 (
-130
+135
 ystartpos
 )
 ;

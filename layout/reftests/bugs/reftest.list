@@ -3752,12 +3752,6 @@ if
 (
 B2G
 )
-fails
--
-if
-(
-Android
-)
 =
 =
 240933
