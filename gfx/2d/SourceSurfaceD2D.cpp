@@ -1185,6 +1185,10 @@ map
 .
 RowPitch
 ;
+mIsMapped
+=
+true
+;
 return
 true
 ;
