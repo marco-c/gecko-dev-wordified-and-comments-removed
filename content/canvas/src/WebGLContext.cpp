@@ -5249,9 +5249,10 @@ UpdateContextLossStatusTask
 public
 nsRunnable
 {
+nsRefPtr
+<
 WebGLContext
-*
-const
+>
 mContext
 ;
 public
@@ -5342,6 +5343,11 @@ bool
 isGuilty
 =
 true
+;
+MOZ_ASSERT
+(
+gl
+)
 ;
 bool
 isContextLost
