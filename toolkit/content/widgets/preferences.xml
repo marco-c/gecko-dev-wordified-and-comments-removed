@@ -7587,8 +7587,11 @@ beforeaccept
 this
 )
 )
+{
 return
+false
 ;
+}
 if
 (
 this
@@ -8159,6 +8162,9 @@ null
 )
 ;
 }
+return
+true
+;
 ]
 ]
 >
