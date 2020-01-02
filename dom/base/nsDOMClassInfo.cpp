@@ -11908,11 +11908,12 @@ nsContentUtils
 :
 IsSystemPrincipal
 (
-aWin
--
->
-GetPrincipal
+nsContentUtils
+:
+:
+ObjectPrincipal
 (
+obj
 )
 )
 )
