@@ -515,7 +515,7 @@ stderr
 ;
 out
 .
-Append
+AppendLiteral
 (
 "
 \
@@ -562,7 +562,7 @@ stderr
 ;
 out
 .
-Append
+AppendLiteral
 (
 "
 \

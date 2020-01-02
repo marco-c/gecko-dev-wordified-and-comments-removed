@@ -5594,7 +5594,7 @@ IsEmpty
 {
 _retval
 .
-Append
+AppendLiteral
 (
 "
 ;
@@ -16164,7 +16164,7 @@ header
 ;
 mHeaders
 .
-Append
+AppendLiteral
 (
 "
 :
@@ -16180,7 +16180,7 @@ value
 ;
 mHeaders
 .
-Append
+AppendLiteral
 (
 "
 \

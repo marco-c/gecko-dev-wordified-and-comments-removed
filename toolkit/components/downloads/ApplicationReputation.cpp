@@ -1825,7 +1825,7 @@ i
 {
 escaped
 .
-Append
+AppendLiteral
 (
 "
 %
@@ -1854,7 +1854,7 @@ i
 {
 escaped
 .
-Append
+AppendLiteral
 (
 "
 %
@@ -1882,7 +1882,7 @@ i
 {
 escaped
 .
-Append
+AppendLiteral
 (
 "
 %
@@ -2100,7 +2100,7 @@ IsEmpty
 {
 whitelistString
 .
-Append
+AppendLiteral
 (
 "
 /
@@ -2154,7 +2154,7 @@ IsEmpty
 {
 whitelistString
 .
-Append
+AppendLiteral
 (
 "
 /
@@ -2208,7 +2208,7 @@ IsEmpty
 {
 whitelistString
 .
-Append
+AppendLiteral
 (
 "
 /

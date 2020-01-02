@@ -235,7 +235,7 @@ buf
 ;
 aResult
 .
-Append
+AppendLiteral
 (
 "
 +

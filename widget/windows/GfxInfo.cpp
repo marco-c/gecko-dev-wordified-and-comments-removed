@@ -3290,7 +3290,7 @@ note
 ;
 note
 .
-Append
+AppendLiteral
 (
 "
 AdapterVendorID
@@ -3307,7 +3307,7 @@ narrowVendorID
 ;
 note
 .
-Append
+AppendLiteral
 (
 "
 AdapterDeviceID
@@ -3337,7 +3337,7 @@ mAdapterSubsysID
 ;
 note
 .
-Append
+AppendLiteral
 (
 "
 AdapterDriverVersion
@@ -3371,7 +3371,7 @@ VendorAll
 {
 note
 .
-Append
+AppendLiteral
 (
 "
 "
@@ -3385,7 +3385,7 @@ note
 ;
 note
 .
-Append
+AppendLiteral
 (
 "
 "
@@ -3475,7 +3475,7 @@ adapterDriverVersionString2
 ;
 note
 .
-Append
+AppendLiteral
 (
 "
 AdapterVendorID2
@@ -3492,7 +3492,7 @@ narrowVendorID2
 ;
 note
 .
-Append
+AppendLiteral
 (
 "
 AdapterDeviceID2

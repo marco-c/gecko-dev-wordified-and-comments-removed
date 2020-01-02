@@ -360,7 +360,7 @@ else
 {
 notes
 .
-Append
+AppendLiteral
 (
 "
 Request
@@ -399,7 +399,7 @@ minor_code
 }
 notes
 .
-Append
+AppendLiteral
 (
 "
 :
@@ -452,7 +452,7 @@ False
 {
 notes
 .
-Append
+AppendLiteral
 (
 "
 ;
@@ -465,7 +465,7 @@ else
 {
 notes
 .
-Append
+AppendLiteral
 (
 "
 ;
@@ -484,7 +484,7 @@ age
 ;
 notes
 .
-Append
+AppendLiteral
 (
 "
 requests
@@ -534,7 +534,7 @@ ifdef
 DEBUG
 notes
 .
-Append
+AppendLiteral
 (
 "
 ;
@@ -574,7 +574,7 @@ MOZ_X_SYNC
 {
 notes
 .
-Append
+AppendLiteral
 (
 "
 \

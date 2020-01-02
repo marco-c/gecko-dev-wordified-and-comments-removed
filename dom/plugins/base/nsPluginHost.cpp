@@ -10285,7 +10285,7 @@ kPluginRegistryFilename
 ;
 filename
 .
-Append
+AppendLiteral
 (
 "
 .

@@ -363,7 +363,7 @@ __x86_64__
 )
 libPath
 .
-Append
+AppendLiteral
 (
 "
 :
@@ -383,7 +383,7 @@ lib
 else
 libPath
 .
-Append
+AppendLiteral
 (
 "
 :
@@ -470,7 +470,7 @@ subLen
 ;
 sub
 .
-Append
+AppendLiteral
 (
 "
 /

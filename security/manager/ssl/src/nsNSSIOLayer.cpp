@@ -9979,7 +9979,7 @@ ANONYMOUS_CONNECT
 {
 peerId
 .
-Append
+AppendLiteral
 (
 "
 anon
@@ -10000,7 +10000,7 @@ NO_PERMANENT_STORAGE
 {
 peerId
 .
-Append
+AppendLiteral
 (
 "
 private

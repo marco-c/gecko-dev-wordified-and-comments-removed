@@ -1206,7 +1206,7 @@ n
 ;
 response
 .
-Append
+AppendLiteral
 (
 "
 Upgrade
@@ -1221,7 +1221,7 @@ n
 ;
 response
 .
-Append
+AppendLiteral
 (
 "
 Connection
@@ -1265,7 +1265,7 @@ n
 ;
 response
 .
-Append
+AppendLiteral
 (
 "
 Sec

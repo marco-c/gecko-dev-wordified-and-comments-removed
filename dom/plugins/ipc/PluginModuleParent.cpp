@@ -2373,7 +2373,7 @@ flash1
 {
 additionalDumps
 .
-Append
+AppendLiteral
 (
 "
 flash1
@@ -2399,7 +2399,7 @@ flash2
 {
 additionalDumps
 .
-Append
+AppendLiteral
 (
 "
 flash2

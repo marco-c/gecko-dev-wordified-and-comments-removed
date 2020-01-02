@@ -14307,7 +14307,7 @@ gPaintCount
 ;
 string
 .
-Append
+AppendLiteral
 (
 "
 .

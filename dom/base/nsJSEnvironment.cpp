@@ -2554,7 +2554,7 @@ flags
 )
 error
 .
-Append
+AppendLiteral
 (
 "
 strict
@@ -2573,7 +2573,7 @@ flags
 )
 error
 .
-Append
+AppendLiteral
 (
 "
 warning
@@ -2584,7 +2584,7 @@ warning
 else
 error
 .
-Append
+AppendLiteral
 (
 "
 error
@@ -2604,7 +2604,7 @@ filename
 ;
 error
 .
-Append
+AppendLiteral
 (
 "
 line
@@ -2624,7 +2624,7 @@ lineno
 ;
 error
 .
-Append
+AppendLiteral
 (
 "
 :

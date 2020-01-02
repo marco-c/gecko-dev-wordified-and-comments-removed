@@ -727,7 +727,7 @@ warnMsg
 ;
 warnMsg
 .
-Append
+AppendLiteral
 (
 "
 An

@@ -4925,7 +4925,7 @@ rv
 ;
 inputURIHash
 .
-Append
+AppendLiteral
 (
 "
 .

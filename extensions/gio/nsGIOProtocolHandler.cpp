@@ -960,7 +960,7 @@ mDirList
 ;
 mDirBuf
 .
-Append
+AppendLiteral
 (
 "
 300
@@ -1018,7 +1018,7 @@ n
 ;
 mDirBuf
 .
-Append
+AppendLiteral
 (
 "
 200
@@ -1040,7 +1040,7 @@ n
 ;
 mDirBuf
 .
-Append
+AppendLiteral
 (
 "
 301
@@ -1985,7 +1985,7 @@ G_FILE_TYPE_REGULAR
 :
 mDirBuf
 .
-Append
+AppendLiteral
 (
 "
 FILE
@@ -1999,7 +1999,7 @@ G_FILE_TYPE_DIRECTORY
 :
 mDirBuf
 .
-Append
+AppendLiteral
 (
 "
 DIRECTORY
@@ -2013,7 +2013,7 @@ G_FILE_TYPE_SYMBOLIC_LINK
 :
 mDirBuf
 .
-Append
+AppendLiteral
 (
 "
 SYMBOLIC

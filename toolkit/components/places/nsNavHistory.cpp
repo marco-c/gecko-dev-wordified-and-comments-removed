@@ -8688,7 +8688,7 @@ tmp
 ;
 additionalVisitsConditions
 .
-Append
+AppendLiteral
 (
 "
 LIMIT

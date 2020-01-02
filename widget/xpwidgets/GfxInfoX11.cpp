@@ -862,7 +862,7 @@ note
 ;
 note
 .
-Append
+AppendLiteral
 (
 "
 OpenGL
@@ -879,7 +879,7 @@ mAdapterDescription
 ;
 note
 .
-Append
+AppendLiteral
 (
 "
 -
@@ -900,7 +900,7 @@ mHasTextureFromPixmap
 )
 note
 .
-Append
+AppendLiteral
 (
 "
 -
@@ -911,7 +911,7 @@ texture_from_pixmap
 ;
 note
 .
-Append
+AppendLiteral
 (
 "
 \

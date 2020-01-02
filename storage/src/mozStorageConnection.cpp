@@ -3118,7 +3118,7 @@ db
 }
 query
 .
-Append
+AppendLiteral
 (
 "
 sqlite_master
@@ -3146,7 +3146,7 @@ INDEX
 :
 query
 .
-Append
+AppendLiteral
 (
 "
 index
@@ -3160,7 +3160,7 @@ TABLE
 :
 query
 .
-Append
+AppendLiteral
 (
 "
 table
@@ -3172,7 +3172,7 @@ break
 }
 query
 .
-Append
+AppendLiteral
 (
 "
 '

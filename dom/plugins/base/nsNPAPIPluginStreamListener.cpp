@@ -3131,7 +3131,7 @@ headerName
 ;
 mResponseHeaders
 .
-Append
+AppendLiteral
 (
 "
 :

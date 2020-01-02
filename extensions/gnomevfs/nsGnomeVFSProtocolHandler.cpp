@@ -1659,7 +1659,7 @@ mDirList
 ;
 mDirBuf
 .
-Append
+AppendLiteral
 (
 "
 300
@@ -1717,7 +1717,7 @@ n
 ;
 mDirBuf
 .
-Append
+AppendLiteral
 (
 "
 200
@@ -1739,7 +1739,7 @@ n
 ;
 mDirBuf
 .
-Append
+AppendLiteral
 (
 "
 301
@@ -2202,7 +2202,7 @@ GNOME_VFS_FILE_TYPE_REGULAR
 :
 mDirBuf
 .
-Append
+AppendLiteral
 (
 "
 FILE
@@ -2216,7 +2216,7 @@ GNOME_VFS_FILE_TYPE_DIRECTORY
 :
 mDirBuf
 .
-Append
+AppendLiteral
 (
 "
 DIRECTORY
@@ -2230,7 +2230,7 @@ GNOME_VFS_FILE_TYPE_SYMBOLIC_LINK
 :
 mDirBuf
 .
-Append
+AppendLiteral
 (
 "
 SYMBOLIC

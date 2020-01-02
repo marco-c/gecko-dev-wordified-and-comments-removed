@@ -10667,7 +10667,7 @@ aFileExt
 ;
 desc
 .
-Append
+AppendLiteral
 (
 "
 File
