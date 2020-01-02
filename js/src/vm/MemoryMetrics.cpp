@@ -945,6 +945,9 @@ opv
 SourceSet
 seenSources
 ;
+bool
+anonymize
+;
 StatsClosure
 (
 RuntimeStats
@@ -953,6 +956,8 @@ rt
 ObjectPrivateVisitor
 *
 v
+bool
+anon
 )
 :
 rtStats
@@ -962,6 +967,10 @@ rt
 opv
 (
 v
+)
+anonymize
+(
+anon
 )
 {
 }
@@ -1713,6 +1722,13 @@ granularity
 =
 =
 FineGrained
+&
+&
+!
+closure
+-
+>
+anonymize
 )
 {
 ZoneStats
@@ -2806,6 +2822,8 @@ rtStats
 ObjectPrivateVisitor
 *
 opv
+bool
+anonymize
 )
 {
 if
@@ -2906,6 +2924,7 @@ closure
 (
 rtStats
 opv
+anonymize
 )
 ;
 if
@@ -3587,6 +3606,7 @@ closure
 &
 rtStats
 opv
+false
 )
 ;
 if

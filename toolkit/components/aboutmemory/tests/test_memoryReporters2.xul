@@ -632,6 +632,13 @@ call
 null
 null
 null
+/
+*
+anonymize
+=
+*
+/
+false
 )
 ;
 /
@@ -823,6 +830,13 @@ handleReport
 null
 processReports
 null
+/
+*
+anonymize
+=
+*
+/
+false
 )
 ;
 }

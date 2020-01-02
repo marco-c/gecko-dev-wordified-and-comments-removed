@@ -2767,6 +2767,7 @@ function
 (
 aCallback
 aData
+aAnonymize
 )
 {
 for
@@ -2838,7 +2839,17 @@ topic
 =
 "
 +
+(
+aAnonymize
+?
+"
+<
+anonymized
+>
+"
+:
 topic
+)
 +
 "
 )

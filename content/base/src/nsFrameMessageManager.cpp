@@ -6558,6 +6558,8 @@ aCb
 nsISupports
 *
 aClosure
+bool
+aAnonymize
 )
 {
 nsresult

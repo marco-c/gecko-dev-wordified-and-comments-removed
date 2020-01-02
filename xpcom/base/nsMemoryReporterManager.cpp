@@ -547,6 +547,8 @@ aHandleReport
 nsISupports
 *
 aData
+bool
+aAnonymize
 )
 {
 int64_t
@@ -2277,6 +2279,8 @@ aHandleReport
 nsISupports
 *
 aData
+bool
+aAnonymize
 )
 {
 int64_t
@@ -2359,6 +2363,8 @@ aHandleReport
 nsISupports
 *
 aData
+bool
+aAnonymize
 )
 {
 int64_t
@@ -2458,6 +2464,8 @@ aHandleReport
 nsISupports
 *
 aData
+bool
+aAnonymize
 )
 {
 int64_t
@@ -2620,6 +2628,8 @@ aHandleReport
 nsISupports
 *
 aData
+bool
+aAnonymize
 )
 {
 int64_t
@@ -2782,6 +2792,8 @@ aHandleReport
 nsISupports
 *
 aData
+bool
+aAnonymize
 )
 {
 struct
@@ -3044,6 +3056,8 @@ aHandleReport
 nsISupports
 *
 aData
+bool
+aAnonymize
 )
 {
 int64_t
@@ -3309,6 +3323,8 @@ aHandleReport
 nsISupports
 *
 aData
+bool
+aAnonymize
 )
 {
 jemalloc_stats_t
@@ -4011,6 +4027,8 @@ aHandleReport
 nsISupports
 *
 aData
+bool
+aAnonymize
 )
 {
 return
@@ -4079,6 +4097,8 @@ aHandleReport
 nsISupports
 *
 aData
+bool
+aAnonymize
 )
 {
 dmd
@@ -4739,6 +4759,8 @@ aFinishReporting
 nsISupports
 *
 aFinishReportingData
+bool
+aAnonymize
 )
 {
 return
@@ -4748,6 +4770,7 @@ aHandleReport
 aHandleReportData
 aFinishReporting
 aFinishReportingData
+aAnonymize
 false
 nsString
 (
@@ -4773,6 +4796,8 @@ aFinishReporting
 nsISupports
 *
 aFinishReportingData
+bool
+aAnonymize
 bool
 aMinimize
 const
@@ -4907,6 +4932,10 @@ generation
 =
 %
 x
+anonymize
+=
+%
+d
 minimize
 =
 %
@@ -4915,6 +4944,11 @@ DMDident
 =
 "
 generation
+aAnonymize
+?
+1
+:
+0
 aMinimize
 ?
 1
@@ -5002,6 +5036,7 @@ new
 GetReportsState
 (
 generation
+aAnonymize
 timer
 mNumChildProcesses
 aHandleReport
@@ -5020,6 +5055,7 @@ new
 GetReportsState
 (
 generation
+aAnonymize
 nullptr
 0
 aHandleReport
@@ -5088,6 +5124,10 @@ s
 -
 >
 mHandleReportData
+s
+-
+>
+mAnonymize
 s
 -
 >
@@ -5231,6 +5271,8 @@ aHandleReport
 nsISupports
 *
 aHandleReportData
+bool
+aAnonymize
 )
 {
 return
@@ -5238,6 +5280,7 @@ GetReportsForThisProcessExtended
 (
 aHandleReport
 aHandleReportData
+aAnonymize
 nsString
 (
 )
@@ -5256,6 +5299,8 @@ aHandleReport
 nsISupports
 *
 aHandleReportData
+bool
+aAnonymize
 const
 nsAString
 &
@@ -5362,6 +5407,7 @@ CollectReports
 (
 aHandleReport
 aHandleReportData
+aAnonymize
 )
 ;
 }
@@ -6540,6 +6586,7 @@ GetReportsForThisProcess
 (
 handleReport
 wrappedExplicitSize
+true
 )
 ;
 *
@@ -8260,6 +8307,7 @@ GetReportsForThisProcess
 (
 doNothing
 nullptr
+false
 )
 ;
 }

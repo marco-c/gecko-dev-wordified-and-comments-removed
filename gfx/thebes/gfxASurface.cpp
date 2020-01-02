@@ -2537,6 +2537,8 @@ aCb
 nsISupports
 *
 aClosure
+bool
+aAnonymize
 )
 {
 const

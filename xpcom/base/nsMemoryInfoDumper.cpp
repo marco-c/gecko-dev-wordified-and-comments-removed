@@ -252,12 +252,18 @@ nsAString
 &
 aIdentifier
 bool
+aAnonymize
+bool
 aMinimizeMemoryUsage
 )
 :
 mIdentifier
 (
 aIdentifier
+)
+mAnonymize
+(
+aAnonymize
 )
 mMinimizeMemoryUsage
 (
@@ -299,6 +305,7 @@ dumper
 DumpMemoryInfoToTempDir
 (
 mIdentifier
+mAnonymize
 mMinimizeMemoryUsage
 )
 ;
@@ -311,6 +318,10 @@ private
 const
 nsString
 mIdentifier
+;
+const
+bool
+mAnonymize
 ;
 const
 bool
@@ -480,7 +491,7 @@ aRecvSig
 )
 {
 bool
-doMMUFirst
+minimize
 =
 aRecvSig
 =
@@ -517,7 +528,8 @@ DumpMemoryInfoToTempDirRunnable
 EmptyString
 (
 )
-doMMUFirst
+false
+minimize
 )
 ;
 NS_DispatchToMainThread
@@ -597,7 +609,7 @@ aInputStr
 )
 {
 bool
-doMMUMemoryReport
+minimize
 =
 aInputStr
 .
@@ -645,7 +657,8 @@ DumpMemoryInfoToTempDirRunnable
 EmptyString
 (
 )
-doMMUMemoryReport
+false
+minimize
 )
 ;
 NS_DispatchToMainThread
@@ -2359,6 +2372,8 @@ nsAString
 &
 aIdentifier
 bool
+aAnonymize
+bool
 aMinimizeMemoryUsage
 )
 {
@@ -2579,6 +2594,7 @@ dumpReport
 nullptr
 finishReport
 nullptr
+aAnonymize
 aMinimizeMemoryUsage
 identifier
 )
@@ -3228,6 +3244,8 @@ aFinishDumping
 nsISupports
 *
 aFinishDumpingData
+bool
+aAnonymize
 )
 {
 MOZ_ASSERT
@@ -3478,6 +3496,7 @@ dumpReport
 nullptr
 finishReporting
 mrWriter
+aAnonymize
 )
 ;
 }

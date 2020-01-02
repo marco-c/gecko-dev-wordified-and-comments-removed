@@ -367,6 +367,8 @@ aHandleReport
 nsISupports
 *
 aData
+bool
+aAnonymize
 )
 {
 nsresult
@@ -506,6 +508,8 @@ aHandleReport
 nsISupports
 *
 aData
+bool
+aAnonymize
 )
 {
 nsresult
@@ -808,6 +812,8 @@ aCb
 nsISupports
 *
 aClosure
+bool
+aAnonymize
 )
 {
 HANDLE

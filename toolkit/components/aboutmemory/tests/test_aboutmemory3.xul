@@ -387,6 +387,7 @@ function
 (
 aCbObj
 aClosure
+aAnonymize
 )
 {
 function
@@ -1207,6 +1208,13 @@ dumpMemoryReportsToNamedFile
 filePath
 loadAndCheck
 null
+/
+*
+anonymize
+=
+*
+/
+false
 )
 ;
 }

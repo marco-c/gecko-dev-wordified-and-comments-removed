@@ -14182,6 +14182,8 @@ aHandleReport
 nsISupports
 *
 aData
+bool
+aAnonymize
 )
 {
 ArrayClearer

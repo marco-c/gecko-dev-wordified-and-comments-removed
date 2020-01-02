@@ -858,6 +858,13 @@ dumpMemoryReportsToNamedFile
 filePath
 loadAndCheck
 null
+/
+*
+anonymize
+=
+*
+/
+false
 )
 ;
 function

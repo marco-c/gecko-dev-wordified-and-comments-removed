@@ -925,6 +925,7 @@ getReportsForThisProcess
 (
 logReporter
 null
+false
 )
 ;
 var
@@ -2576,6 +2577,7 @@ getReportsForThisProcess
 (
 logReporter
 null
+false
 )
 ;
 return

@@ -603,8 +603,17 @@ aHandleReport
 nsISupports
 *
 aData
+bool
+aAnonymize
 )
 {
+if
+(
+aAnonymize
+)
+return
+NS_OK
+;
 if
 (
 !

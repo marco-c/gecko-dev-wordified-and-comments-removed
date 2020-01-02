@@ -456,6 +456,7 @@ function
 (
 aCbObj
 aClosure
+aAnonymize
 )
 {
 function
@@ -960,6 +961,7 @@ function
 (
 aCbObj
 aClosure
+aAnonymize
 )
 {
 function
@@ -1154,6 +1156,7 @@ function
 (
 aCbObj
 aClosure
+aAnonymize
 )
 {
 function
@@ -1305,6 +1308,7 @@ function
 (
 aCbObj
 aClosure
+aAnonymize
 )
 {
 function
@@ -1624,6 +1628,7 @@ function
 (
 aCbObj
 aClosure
+aAnonymize
 )
 {
 function

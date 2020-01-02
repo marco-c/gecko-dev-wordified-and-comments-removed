@@ -1403,6 +1403,8 @@ aCb
 nsISupports
 *
 aClosure
+bool
+aAnonymize
 )
 {
 #

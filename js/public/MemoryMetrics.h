@@ -2303,6 +2303,8 @@ rtStats
 ObjectPrivateVisitor
 *
 opv
+bool
+anonymize
 )
 ;
 extern
