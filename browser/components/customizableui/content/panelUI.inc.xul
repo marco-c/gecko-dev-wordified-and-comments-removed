@@ -1265,9 +1265,6 @@ flex
 "
 /
 >
-#
-ifdef
-MOZ_LOOP
 <
 panelview
 id
@@ -1284,8 +1281,6 @@ flex
 "
 /
 >
-#
-endif
 <
 panelview
 id

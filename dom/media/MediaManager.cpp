@@ -6532,10 +6532,6 @@ GetDocumentURI
 (
 )
 ;
-#
-ifdef
-MOZ_LOOP
-{
 bool
 isLoop
 =
@@ -6597,9 +6593,6 @@ aPrivileged
 true
 ;
 }
-}
-#
-endif
 if
 (
 aPrivileged
