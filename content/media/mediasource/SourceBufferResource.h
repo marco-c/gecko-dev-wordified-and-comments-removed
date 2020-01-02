@@ -1290,6 +1290,13 @@ aOffset
 ;
 private
 :
+nsresult
+SeekInternal
+(
+int64_t
+aOffset
+)
+;
 nsCOMPtr
 <
 nsIPrincipal
