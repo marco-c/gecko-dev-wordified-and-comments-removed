@@ -14501,6 +14501,17 @@ mHostname
 )
 ;
 }
+nsContentUtils
+:
+:
+GetUTFNonNullOrigin
+(
+aBaseURI
+mLocationInfo
+.
+mOrigin
+)
+;
 }
 template
 <

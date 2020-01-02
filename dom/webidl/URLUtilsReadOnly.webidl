@@ -246,5 +246,10 @@ attribute
 DOMString
 hash
 ;
+readonly
+attribute
+DOMString
+origin
+;
 }
 ;
