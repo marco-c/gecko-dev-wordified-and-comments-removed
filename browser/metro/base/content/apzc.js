@@ -774,6 +774,7 @@ selectedBrowser
 contentDocument
 .
 documentElement
+0
 )
 ;
 }

@@ -3957,6 +3957,7 @@ content
 document
 .
 documentElement
+0
 )
 ;
 break

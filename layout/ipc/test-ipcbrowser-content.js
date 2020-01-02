@@ -122,6 +122,7 @@ content
 document
 .
 documentElement
+0
 )
 ;
 }
