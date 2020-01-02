@@ -1045,6 +1045,10 @@ mnc
 orientation
 |
 screenSize
+|
+locale
+|
+layoutDirection
 "
 android
 :
@@ -2946,6 +2950,10 @@ mcc
 mnc
 |
 orientation
+|
+locale
+|
+layoutDirection
 "
 android
 :
@@ -3029,6 +3037,10 @@ configChanges
 orientation
 |
 screenSize
+|
+locale
+|
+layoutDirection
 "
 android
 :
