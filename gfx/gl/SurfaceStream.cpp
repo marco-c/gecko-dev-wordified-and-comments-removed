@@ -353,6 +353,14 @@ if
 (
 surf
 )
+{
+surf
+-
+>
+WaitForBufferOwnership
+(
+)
+;
 mSurfaces
 .
 insert
@@ -360,6 +368,7 @@ insert
 surf
 )
 ;
+}
 }
 void
 SurfaceStream

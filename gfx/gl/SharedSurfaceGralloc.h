@@ -264,6 +264,13 @@ MOZ_OVERRIDE
 ;
 virtual
 void
+WaitForBufferOwnership
+(
+)
+MOZ_OVERRIDE
+;
+virtual
+void
 LockProdImpl
 (
 )

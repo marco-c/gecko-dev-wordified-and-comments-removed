@@ -229,6 +229,13 @@ WaitSync
 =
 0
 ;
+virtual
+void
+WaitForBufferOwnership
+(
+)
+{
+}
 SharedSurfaceType
 Type
 (
