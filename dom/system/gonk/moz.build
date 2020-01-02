@@ -391,6 +391,11 @@ manifest
 '
 NetworkService
 .
+js
+'
+'
+NetworkService
+.
 manifest
 '
 ]
@@ -400,11 +405,6 @@ EXTRA_PP_COMPONENTS
 [
 '
 NetworkManager
-.
-js
-'
-'
-NetworkService
 .
 js
 '
