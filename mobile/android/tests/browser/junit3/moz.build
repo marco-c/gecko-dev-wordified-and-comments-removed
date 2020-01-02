@@ -167,6 +167,15 @@ TestJarReader
 .
 java
 '
+'
+src
+/
+tests
+/
+TestTopSitesCursorWrapper
+.
+java
+'
 ]
 jar
 .
