@@ -371,6 +371,12 @@ PAGEACTION
 pageaction
 "
 )
+SETTINGS
+(
+"
+settings
+"
+)
 SUGGESTION
 (
 "
@@ -475,6 +481,14 @@ SEARCH_ACTIVITY
 (
 "
 searchactivity
+.
+1
+"
+)
+SETTINGS
+(
+"
+settings
 .
 1
 "
