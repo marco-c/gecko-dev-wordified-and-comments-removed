@@ -103,13 +103,6 @@ optional
 MozVoicemailEventInit
 eventInitDict
 )
-HeaderFile
-=
-"
-GeneratedEventClasses
-.
-h
-"
 Pref
 =
 "

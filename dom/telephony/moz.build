@@ -117,11 +117,6 @@ dom
 =
 [
 '
-CallEvent
-.
-h
-'
-'
 CallsList
 .
 h
@@ -181,11 +176,6 @@ UNIFIED_SOURCES
 +
 =
 [
-'
-CallEvent
-.
-cpp
-'
 '
 CallsList
 .

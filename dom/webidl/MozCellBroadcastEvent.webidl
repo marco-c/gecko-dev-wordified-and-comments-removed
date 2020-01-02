@@ -103,13 +103,6 @@ optional
 MozCellBroadcastEventInit
 eventInitDict
 )
-HeaderFile
-=
-"
-GeneratedEventClasses
-.
-h
-"
 Pref
 =
 "

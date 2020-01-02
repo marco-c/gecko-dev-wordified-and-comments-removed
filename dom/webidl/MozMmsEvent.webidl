@@ -103,13 +103,6 @@ optional
 MozMmsEventInit
 eventInitDict
 )
-HeaderFile
-=
-"
-GeneratedEventClasses
-.
-h
-"
 ]
 interface
 MozMmsEvent

@@ -1726,7 +1726,7 @@ found
 in
 an
 *
-nsIDOMMozWifiConnectionInfoEvent
+MozWifiConnectionInfoEvent
 (
 but
 without
@@ -1786,7 +1786,7 @@ all
 take
 an
 *
-nsIDOMMozWifiStatusChangeEvent
+MozWifiStatusChangeEvent
 with
 the
 new
@@ -1796,9 +1796,9 @@ a
 network
 (
 which
-*
 may
 be
+*
 null
 )
 .

@@ -103,13 +103,6 @@ optional
 MozSmsEventInit
 eventInitDict
 )
-HeaderFile
-=
-"
-GeneratedEventClasses
-.
-h
-"
 ]
 interface
 MozSmsEvent

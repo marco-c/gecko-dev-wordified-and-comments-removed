@@ -100,13 +100,6 @@ optional
 MozWifiStationInfoEventInit
 eventInitDict
 )
-HeaderFile
-=
-"
-GeneratedEventClasses
-.
-h
-"
 ]
 interface
 MozWifiStationInfoEvent
