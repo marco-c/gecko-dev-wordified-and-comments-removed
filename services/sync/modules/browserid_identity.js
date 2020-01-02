@@ -686,13 +686,6 @@ _shouldHaveSyncKeyBundle
 =
 false
 ;
-this
-.
-username
-=
-"
-"
-;
 return
 fxAccounts
 .
