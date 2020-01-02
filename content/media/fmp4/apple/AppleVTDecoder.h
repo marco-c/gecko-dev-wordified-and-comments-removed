@@ -213,6 +213,11 @@ InitializeSession
 )
 ;
 nsresult
+WaitForAsynchronousFrames
+(
+)
+;
+void
 DrainReorderedFrames
 (
 )
