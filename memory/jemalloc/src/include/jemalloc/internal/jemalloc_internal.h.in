@@ -1208,6 +1208,15 @@ LG_QUANTUM
 #
 endif
 #
+ifdef
+__aarch64__
+#
+define
+LG_QUANTUM
+4
+#
+endif
+#
 ifndef
 LG_QUANTUM
 #
