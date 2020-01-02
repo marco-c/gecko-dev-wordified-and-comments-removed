@@ -483,6 +483,9 @@ bool
 mIsBlinking
 ;
 bool
+mIsBlinkOn
+;
+bool
 mVisible
 ;
 bool
