@@ -1276,9 +1276,15 @@ formatter_class
 =
 NoUsageFormatter
             
-try
-:
-                
+group
+=
+c_parser
+.
+_action_groups
+[
+1
+]
+            
 c_parser
 .
 _action_groups
@@ -1292,7 +1298,7 @@ title
 Command
 Parameters
 '
-                
+            
 c_parser
 .
 _action_groups
@@ -1306,11 +1312,6 @@ title
 Command
 Arguments
 '
-            
-except
-:
-                
-pass
             
 if
 not
