@@ -1877,13 +1877,6 @@ java
 '
 home
 /
-HistoryPanel
-.
-java
-'
-'
-home
-/
 HomeAdapter
 .
 java
