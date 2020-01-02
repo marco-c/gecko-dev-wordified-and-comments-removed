@@ -321,7 +321,9 @@ async
 ParentAsyncMessage
 (
 AsyncParentMessageData
-aMessage
+[
+]
+aMessages
 )
 ;
 parent
