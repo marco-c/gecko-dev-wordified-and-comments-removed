@@ -228,7 +228,7 @@ n
 1
 )
 ;
-exit
+_exit
 (
 EXIT_FAILURE
 )
@@ -308,7 +308,7 @@ buf
 length
 )
 ;
-exit
+_exit
 (
 EXIT_FAILURE
 )
@@ -317,7 +317,11 @@ return
 0
 ;
 }
-static
+extern
+"
+C
+"
+{
 void
 glxtest
 (
@@ -1122,6 +1126,7 @@ length
 )
 ;
 }
+}
 bool
 fire_glxtest_process
 (
@@ -1232,7 +1237,7 @@ pfd
 ]
 )
 ;
-exit
+_exit
 (
 0
 )
