@@ -816,6 +816,12 @@ MOZ_FINAL
 public
 nsIMemoryReporter
 {
+~
+Canvas2dPixelsReporter
+(
+)
+{
+}
 public
 :
 NS_DECL_ISUPPORTS

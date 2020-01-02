@@ -84,11 +84,6 @@ WebGLContext
 context
 )
 ;
-~
-WebGLBuffer
-(
-)
-;
 void
 Delete
 (
@@ -255,6 +250,11 @@ WebGLBuffer
 )
 protected
 :
+~
+WebGLBuffer
+(
+)
+;
 GLuint
 mGLName
 ;

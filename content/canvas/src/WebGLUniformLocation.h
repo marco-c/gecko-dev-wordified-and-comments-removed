@@ -49,12 +49,6 @@ WebGLUniformInfo
 info
 )
 ;
-~
-WebGLUniformLocation
-(
-)
-{
-}
 bool
 IsDeleted
 (
@@ -137,6 +131,12 @@ WebGLUniformLocation
 )
 protected
 :
+~
+WebGLUniformLocation
+(
+)
+{
+}
 nsRefPtr
 <
 WebGLProgram

@@ -570,6 +570,12 @@ MOZ_FINAL
 public
 nsIObserver
 {
+~
+CanvasImageCacheShutdownObserver
+(
+)
+{
+}
 public
 :
 NS_DECL_ISUPPORTS

@@ -515,6 +515,8 @@ PathBuilder
 aPathBuilder
 )
 ;
+private
+:
 virtual
 ~
 CanvasPath
@@ -522,8 +524,6 @@ CanvasPath
 )
 {
 }
-private
-:
 nsCOMPtr
 <
 nsISupports
@@ -597,14 +597,14 @@ typedef
 HTMLImageElementOrHTMLCanvasElementOrHTMLVideoElement
 HTMLImageOrCanvasOrVideoElement
 ;
-public
-:
+virtual
+~
 CanvasRenderingContext2D
 (
 )
 ;
-virtual
-~
+public
+:
 CanvasRenderingContext2D
 (
 )
