@@ -683,7 +683,7 @@ JSFunction
 JSScript
 :
 :
-originalFunction
+donorFunction
 (
 )
 const

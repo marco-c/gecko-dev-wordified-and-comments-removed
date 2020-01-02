@@ -4653,7 +4653,7 @@ cx
 ;
 JSFunction
 *
-originalFunction
+donorFunction
 (
 )
 const

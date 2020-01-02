@@ -1452,7 +1452,7 @@ nonLazyScript
 )
 -
 >
-originalFunction
+donorFunction
 (
 )
 ;

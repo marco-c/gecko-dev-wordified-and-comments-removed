@@ -1600,7 +1600,7 @@ cx
 script
 -
 >
-originalFunction
+donorFunction
 (
 )
 -
