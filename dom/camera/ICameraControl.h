@@ -32,7 +32,7 @@ nsISupportsImpl
 .
 h
 "
-class
+struct
 DeviceStorageFileDescriptor
 ;
 class
@@ -355,6 +355,8 @@ virtual
 nsresult
 AutoFocus
 (
+bool
+aCancelExistingCall
 )
 =
 0
@@ -403,14 +405,6 @@ StartFaceDetection
 virtual
 nsresult
 StopFaceDetection
-(
-)
-=
-0
-;
-virtual
-nsresult
-ResumeContinuousFocus
 (
 )
 =

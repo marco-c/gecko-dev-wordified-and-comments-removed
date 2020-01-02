@@ -20,7 +20,7 @@ h
 class
 DeviceStorageFile
 ;
-class
+struct
 DeviceStorageFileDescriptor
 ;
 namespace

@@ -93,6 +93,15 @@ nsThreadUtils
 h
 "
 #
+include
+"
+mozilla
+/
+RefPtr
+.
+h
+"
+#
 define
 CHROMIUM_LOG
 (

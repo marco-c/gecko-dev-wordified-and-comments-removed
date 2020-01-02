@@ -93,7 +93,7 @@ nsIFile
 C
 +
 +
-class
+struct
 DeviceStorageFileDescriptor
 ;
 %
