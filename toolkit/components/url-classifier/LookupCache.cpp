@@ -766,7 +766,7 @@ mCompletions
 i
 ]
 .
-ToString
+ToHexString
 (
 str
 )
