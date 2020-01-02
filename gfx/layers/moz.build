@@ -1638,6 +1638,11 @@ LayerSorter
 cpp
 '
 '
+LayerUtils
+.
+cpp
+'
+'
 opengl
 /
 CompositingRenderTargetOGL
@@ -1954,3 +1959,12 @@ MOZ_ENABLE_D3D10_LAYER
 ]
 =
 True
+GENERATED_FILES
+=
+[
+'
+PremultiplyTables
+.
+h
+'
+]

@@ -217,7 +217,7 @@ sse2
 xO4
 endif
 endif
-PremultiplyTables
+DeprecatedPremultiplyTables
 .
 h
 :

@@ -1381,7 +1381,7 @@ GENERATED_FILES
 =
 [
 '
-PremultiplyTables
+DeprecatedPremultiplyTables
 .
 h
 '
