@@ -1,4 +1,10 @@
 #
+ifndef
+EffectiveTLDService_h
+#
+define
+EffectiveTLDService_h
+#
 include
 "
 nsIEffectiveTLDService
@@ -465,3 +471,5 @@ mIDNService
 ;
 }
 ;
+#
+endif

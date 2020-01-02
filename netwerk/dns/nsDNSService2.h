@@ -114,6 +114,13 @@ nsDNSService
 (
 )
 ;
+static
+nsIDNSService
+*
+GetXPCOMSingleton
+(
+)
+;
 int64_t
 Amount
 (
@@ -140,6 +147,13 @@ const
 ;
 private
 :
+static
+nsDNSService
+*
+GetSingleton
+(
+)
+;
 uint16_t
 GetAFForLookup
 (
