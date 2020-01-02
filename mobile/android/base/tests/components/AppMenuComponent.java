@@ -202,6 +202,14 @@ string
 .
 new_tab
 )
+RELOAD
+(
+R
+.
+string
+.
+reload
+)
 ;
 private
 final
