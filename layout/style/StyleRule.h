@@ -1023,6 +1023,11 @@ aOperator
 )
 ;
 void
+RemoveRightmostSelector
+(
+)
+;
+void
 ToString
 (
 nsAString
