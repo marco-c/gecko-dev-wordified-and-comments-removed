@@ -422,7 +422,7 @@ nullptr
 )
 ;
 virtual
-void
+bool
 UpdateThebes
 (
 const
@@ -442,9 +442,8 @@ nsIntRegion
 aUpdatedRegionBack
 )
 {
-MOZ_ASSERT
+NS_ERROR
 (
-false
 "
 should
 be
@@ -454,6 +453,9 @@ not
 used
 "
 )
+;
+return
+false
 ;
 }
 virtual

@@ -635,7 +635,7 @@ LayerRenderState
 ;
 }
 virtual
-void
+bool
 UpdateThebes
 (
 const
@@ -655,9 +655,8 @@ nsIntRegion
 aUpdatedRegionBack
 )
 {
-MOZ_ASSERT
+NS_ERROR
 (
-false
 "
 N
 /
@@ -667,6 +666,9 @@ tiled
 layers
 "
 )
+;
+return
+false
 ;
 }
 const

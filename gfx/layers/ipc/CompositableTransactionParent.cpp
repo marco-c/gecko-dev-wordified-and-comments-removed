@@ -963,6 +963,9 @@ GetBounds
 nsIntRegion
 frontUpdatedRegion
 ;
+if
+(
+!
 compositable
 -
 >
@@ -983,7 +986,12 @@ GetValidRegion
 &
 frontUpdatedRegion
 )
+)
+{
+return
+false
 ;
+}
 replyv
 .
 push_back

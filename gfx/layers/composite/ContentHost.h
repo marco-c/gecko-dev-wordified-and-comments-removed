@@ -278,7 +278,7 @@ nullptr
 ;
 }
 virtual
-void
+bool
 UpdateThebes
 (
 const
@@ -877,7 +877,7 @@ COMPOSITABLE_CONTENT_DOUBLE
 ;
 }
 virtual
-void
+bool
 UpdateThebes
 (
 const
@@ -942,7 +942,7 @@ BUFFER_CONTENT_DIRECT
 ;
 }
 virtual
-void
+bool
 UpdateThebes
 (
 const
@@ -1089,7 +1089,7 @@ COMPOSITABLE_CONTENT_SINGLE
 ;
 }
 virtual
-void
+bool
 UpdateThebes
 (
 const
@@ -1150,7 +1150,7 @@ BUFFER_CONTENT
 ;
 }
 virtual
-void
+bool
 UpdateThebes
 (
 const
@@ -1322,7 +1322,7 @@ aBufferRotation
 MOZ_OVERRIDE
 ;
 virtual
-void
+bool
 UpdateThebes
 (
 const
@@ -1342,7 +1342,7 @@ nsIntRegion
 aUpdatedRegionBack
 )
 {
-NS_RUNTIMEABORT
+NS_ERROR
 (
 "
 Shouldn
@@ -1352,6 +1352,9 @@ call
 this
 "
 )
+;
+return
+false
 ;
 }
 virtual
