@@ -93,7 +93,7 @@ nsCOMPtr
 <
 nsITelephonyService
 >
-mProvider
+mService
 ;
 nsRefPtr
 <
@@ -439,13 +439,13 @@ aCall
 }
 nsITelephonyService
 *
-Provider
+Service
 (
 )
 const
 {
 return
-mProvider
+mService
 ;
 }
 const

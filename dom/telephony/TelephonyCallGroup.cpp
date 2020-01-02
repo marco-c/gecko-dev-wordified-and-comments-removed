@@ -1103,7 +1103,7 @@ aRv
 mTelephony
 -
 >
-Provider
+Service
 (
 )
 -
@@ -1161,7 +1161,7 @@ aRv
 mTelephony
 -
 >
-Provider
+Service
 (
 )
 -
@@ -1264,7 +1264,7 @@ aRv
 mTelephony
 -
 >
-Provider
+Service
 (
 )
 -
@@ -1349,7 +1349,7 @@ rv
 mTelephony
 -
 >
-Provider
+Service
 (
 )
 -
@@ -1448,7 +1448,7 @@ rv
 mTelephony
 -
 >
-Provider
+Service
 (
 )
 -

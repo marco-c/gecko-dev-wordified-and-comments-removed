@@ -990,7 +990,7 @@ rv
 mTelephony
 -
 >
-Provider
+Service
 (
 )
 -
@@ -1090,7 +1090,7 @@ CALL_STATE_INCOMING
 mTelephony
 -
 >
-Provider
+Service
 (
 )
 -
@@ -1104,7 +1104,7 @@ mCallIndex
 mTelephony
 -
 >
-Provider
+Service
 (
 )
 -
@@ -1231,7 +1231,7 @@ rv
 mTelephony
 -
 >
-Provider
+Service
 (
 )
 -
@@ -1371,7 +1371,7 @@ rv
 mTelephony
 -
 >
-Provider
+Service
 (
 )
 -

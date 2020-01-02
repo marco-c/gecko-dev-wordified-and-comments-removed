@@ -71,7 +71,7 @@ nsCOMPtr
 <
 nsITelephonyService
 >
-provider
+service
 ;
 if
 (
@@ -83,7 +83,7 @@ XRE_GetProcessType
 GeckoProcessType_Content
 )
 {
-provider
+service
 =
 new
 TelephonyIPCService
@@ -105,7 +105,7 @@ MOZ_B2G_RIL
 }
 else
 {
-provider
+service
 =
 do_CreateInstance
 (
@@ -116,7 +116,7 @@ GONK_TELEPHONY_SERVICE_CONTRACTID
 endif
 }
 return
-provider
+service
 .
 forget
 (
