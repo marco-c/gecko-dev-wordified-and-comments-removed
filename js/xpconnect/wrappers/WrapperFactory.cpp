@@ -1151,10 +1151,11 @@ target
 {
 MOZ_ASSERT
 (
+!
 handler
 -
 >
-isSafeToUnwrap
+hasSecurityPolicy
 (
 )
 )
@@ -1198,11 +1199,12 @@ MOZ_ASSERT
 handler
 -
 >
-isSafeToUnwrap
+hasSecurityPolicy
 (
 )
 =
 =
+!
 AccessCheck
 :
 :

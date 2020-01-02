@@ -717,7 +717,6 @@ WrapperObject
 )
 &
 &
-!
 Wrapper
 :
 :
@@ -727,7 +726,7 @@ caller
 )
 -
 >
-isSafeToUnwrap
+hasSecurityPolicy
 (
 )
 )

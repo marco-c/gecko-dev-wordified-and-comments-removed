@@ -440,7 +440,7 @@ mHasPrototype
 (
 false
 )
-mHasPolicy
+mHasSecurityPolicy
 (
 false
 )
