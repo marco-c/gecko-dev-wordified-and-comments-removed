@@ -347,6 +347,7 @@ SurfaceDescriptor
 *
 aOutSnapshot
 )
+MOZ_OVERRIDE
 ;
 virtual
 bool
@@ -671,6 +672,7 @@ bool
 *
 aSuccess
 )
+MOZ_OVERRIDE
 ;
 virtual
 bool
@@ -680,6 +682,7 @@ PLayerTransactionParent
 *
 aLayers
 )
+MOZ_OVERRIDE
 ;
 virtual
 void

@@ -102,6 +102,7 @@ nsCString
 &
 entityID
 )
+MOZ_OVERRIDE
 ;
 bool
 RecvOnDataAvailable
@@ -119,6 +120,7 @@ uint32_t
 &
 count
 )
+MOZ_OVERRIDE
 ;
 bool
 RecvOnStopRequest
@@ -128,6 +130,7 @@ nsresult
 &
 code
 )
+MOZ_OVERRIDE
 ;
 ExternalHelperAppParent
 (

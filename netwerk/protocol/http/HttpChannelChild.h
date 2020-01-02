@@ -387,6 +387,7 @@ NetAddr
 &
 peerAddr
 )
+MOZ_OVERRIDE
 ;
 bool
 RecvOnTransportAndData
@@ -416,6 +417,7 @@ uint32_t
 &
 count
 )
+MOZ_OVERRIDE
 ;
 bool
 RecvOnStopRequest
@@ -438,6 +440,7 @@ uint64_t
 &
 progressMax
 )
+MOZ_OVERRIDE
 ;
 bool
 RecvOnStatus
@@ -447,6 +450,7 @@ nsresult
 &
 status
 )
+MOZ_OVERRIDE
 ;
 bool
 RecvFailedAsyncOpen
@@ -456,6 +460,7 @@ nsresult
 &
 status
 )
+MOZ_OVERRIDE
 ;
 bool
 RecvRedirect1Begin
@@ -477,11 +482,13 @@ nsHttpResponseHead
 &
 responseHead
 )
+MOZ_OVERRIDE
 ;
 bool
 RecvRedirect3Complete
 (
 )
+MOZ_OVERRIDE
 ;
 bool
 RecvAssociateApplicationCache
@@ -495,11 +502,13 @@ nsCString
 &
 clientID
 )
+MOZ_OVERRIDE
 ;
 bool
 RecvDeleteSelf
 (
 )
+MOZ_OVERRIDE
 ;
 bool
 GetAssociatedContentSecurity

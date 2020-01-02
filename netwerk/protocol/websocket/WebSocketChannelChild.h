@@ -154,6 +154,7 @@ nsCString
 &
 aExtensions
 )
+MOZ_OVERRIDE
 ;
 bool
 RecvOnStop
@@ -163,6 +164,7 @@ nsresult
 &
 aStatusCode
 )
+MOZ_OVERRIDE
 ;
 bool
 RecvOnMessageAvailable
@@ -172,6 +174,7 @@ nsCString
 &
 aMsg
 )
+MOZ_OVERRIDE
 ;
 bool
 RecvOnBinaryMessageAvailable
@@ -181,6 +184,7 @@ nsCString
 &
 aMsg
 )
+MOZ_OVERRIDE
 ;
 bool
 RecvOnAcknowledge
@@ -190,6 +194,7 @@ uint32_t
 &
 aSize
 )
+MOZ_OVERRIDE
 ;
 bool
 RecvOnServerClose
@@ -203,6 +208,7 @@ nsCString
 &
 aReason
 )
+MOZ_OVERRIDE
 ;
 bool
 RecvAsyncOpenFailed

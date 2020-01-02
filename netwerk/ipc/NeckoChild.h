@@ -79,6 +79,7 @@ HttpChannelCreationArgs
 &
 aOpenArgs
 )
+MOZ_OVERRIDE
 ;
 virtual
 bool
@@ -87,6 +88,7 @@ DeallocPHttpChannelChild
 PHttpChannelChild
 *
 )
+MOZ_OVERRIDE
 ;
 virtual
 PCookieServiceChild
@@ -94,6 +96,7 @@ PCookieServiceChild
 AllocPCookieServiceChild
 (
 )
+MOZ_OVERRIDE
 ;
 virtual
 bool
@@ -102,6 +105,7 @@ DeallocPCookieServiceChild
 PCookieServiceChild
 *
 )
+MOZ_OVERRIDE
 ;
 virtual
 PWyciwygChannelChild
@@ -109,6 +113,7 @@ PWyciwygChannelChild
 AllocPWyciwygChannelChild
 (
 )
+MOZ_OVERRIDE
 ;
 virtual
 bool
@@ -117,6 +122,7 @@ DeallocPWyciwygChannelChild
 PWyciwygChannelChild
 *
 )
+MOZ_OVERRIDE
 ;
 virtual
 PFTPChannelChild
@@ -135,6 +141,7 @@ FTPChannelCreationArgs
 &
 aOpenArgs
 )
+MOZ_OVERRIDE
 ;
 virtual
 bool
@@ -143,6 +150,7 @@ DeallocPFTPChannelChild
 PFTPChannelChild
 *
 )
+MOZ_OVERRIDE
 ;
 virtual
 PWebSocketChild
@@ -155,6 +163,7 @@ const
 SerializedLoadContext
 &
 )
+MOZ_OVERRIDE
 ;
 virtual
 bool
@@ -163,6 +172,7 @@ DeallocPWebSocketChild
 PWebSocketChild
 *
 )
+MOZ_OVERRIDE
 ;
 virtual
 PTCPSocketChild
@@ -170,6 +180,7 @@ PTCPSocketChild
 AllocPTCPSocketChild
 (
 )
+MOZ_OVERRIDE
 ;
 virtual
 bool
@@ -178,6 +189,7 @@ DeallocPTCPSocketChild
 PTCPSocketChild
 *
 )
+MOZ_OVERRIDE
 ;
 virtual
 PTCPServerSocketChild
@@ -197,6 +209,7 @@ nsString
 &
 aBinaryType
 )
+MOZ_OVERRIDE
 ;
 virtual
 bool
@@ -205,6 +218,7 @@ DeallocPTCPServerSocketChild
 PTCPServerSocketChild
 *
 )
+MOZ_OVERRIDE
 ;
 virtual
 PUDPSocketChild
@@ -224,6 +238,7 @@ nsCString
 &
 aFilter
 )
+MOZ_OVERRIDE
 ;
 virtual
 bool
@@ -232,6 +247,7 @@ DeallocPUDPSocketChild
 PUDPSocketChild
 *
 )
+MOZ_OVERRIDE
 ;
 virtual
 PDNSRequestChild
@@ -247,6 +263,7 @@ uint32_t
 &
 aFlags
 )
+MOZ_OVERRIDE
 ;
 virtual
 bool
@@ -255,6 +272,7 @@ DeallocPDNSRequestChild
 PDNSRequestChild
 *
 )
+MOZ_OVERRIDE
 ;
 virtual
 PRemoteOpenFileChild
@@ -268,6 +286,7 @@ const
 OptionalURIParams
 &
 )
+MOZ_OVERRIDE
 ;
 virtual
 bool
@@ -276,6 +295,7 @@ DeallocPRemoteOpenFileChild
 PRemoteOpenFileChild
 *
 )
+MOZ_OVERRIDE
 ;
 virtual
 PRtspControllerChild
@@ -283,6 +303,7 @@ PRtspControllerChild
 AllocPRtspControllerChild
 (
 )
+MOZ_OVERRIDE
 ;
 virtual
 bool
@@ -291,6 +312,7 @@ DeallocPRtspControllerChild
 PRtspControllerChild
 *
 )
+MOZ_OVERRIDE
 ;
 }
 ;

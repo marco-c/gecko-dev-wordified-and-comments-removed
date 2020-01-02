@@ -73,6 +73,7 @@ nsresult
 &
 aStatus
 )
+MOZ_OVERRIDE
 ;
 private
 :
