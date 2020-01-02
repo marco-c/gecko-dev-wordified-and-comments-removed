@@ -4461,6 +4461,11 @@ case
 exploreend1
 '
 :
+case
+'
+dwellend1
+'
+:
 this
 .
 activateCurrent
