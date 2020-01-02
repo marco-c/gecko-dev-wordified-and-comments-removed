@@ -67,6 +67,12 @@ this
 window
 ]
 ;
+this
+.
+attached
+=
+true
+;
 }
 function
 MockWindow
