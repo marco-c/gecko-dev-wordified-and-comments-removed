@@ -648,6 +648,14 @@ lir
 )
 ;
 bool
+visitLoadSlotT
+(
+LLoadSlotT
+*
+lir
+)
+;
+bool
 visitLoadSlotV
 (
 LLoadSlotV

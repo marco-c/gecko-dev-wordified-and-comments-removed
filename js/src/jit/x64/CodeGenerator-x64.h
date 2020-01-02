@@ -160,14 +160,6 @@ unbox
 )
 ;
 bool
-visitLoadSlotT
-(
-LLoadSlotT
-*
-load
-)
-;
-bool
 visitStoreSlotT
 (
 LStoreSlotT

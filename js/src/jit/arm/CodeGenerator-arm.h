@@ -1137,14 +1137,6 @@ ins
 )
 ;
 bool
-visitLoadSlotT
-(
-LLoadSlotT
-*
-load
-)
-;
-bool
 visitStoreSlotT
 (
 LStoreSlotT
