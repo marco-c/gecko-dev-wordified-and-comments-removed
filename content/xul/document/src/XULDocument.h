@@ -1207,6 +1207,15 @@ mDocumentLoaded
 bool
 mStillWalking
 ;
+bool
+mRestrictPersistence
+;
+nsTHashtable
+<
+nsStringHashKey
+>
+mPersistenceIds
+;
 nsTArray
 <
 nsRefPtr
