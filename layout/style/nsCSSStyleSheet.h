@@ -1131,7 +1131,7 @@ aTitle
 )
 ;
 }
-nsIDOMMediaList
+nsMediaList
 *
 Media
 (

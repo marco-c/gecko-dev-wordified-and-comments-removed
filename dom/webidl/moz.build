@@ -1095,6 +1095,11 @@ MediaError
 webidl
 '
 '
+MediaList
+.
+webidl
+'
+'
 MediaRecorder
 .
 webidl
