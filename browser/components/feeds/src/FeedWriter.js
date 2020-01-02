@@ -1247,9 +1247,11 @@ Cu
 .
 Sandbox
 (
+[
 this
 .
 _window
+]
 {
 sandboxName
 :
