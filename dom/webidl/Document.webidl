@@ -1281,7 +1281,11 @@ etc
 *
 /
 [
-ChromeOnly
+Func
+=
+"
+IsChromeOrXBL
+"
 ]
 readonly
 attribute
