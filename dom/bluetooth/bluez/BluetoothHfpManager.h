@@ -721,6 +721,12 @@ BluetoothSocket
 >
 mScoSocket
 ;
+mozilla
+:
+:
+ipc
+:
+:
 SocketConnectionStatus
 mScoSocketStatus
 ;

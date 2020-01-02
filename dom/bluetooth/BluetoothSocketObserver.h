@@ -13,7 +13,7 @@ h
 "
 #
 include
-<
+"
 mozilla
 /
 ipc
@@ -21,14 +21,7 @@ ipc
 UnixSocket
 .
 h
->
-using
-namespace
-mozilla
-:
-:
-ipc
-;
+"
 BEGIN_BLUETOOTH_NAMESPACE
 class
 BluetoothSocket
@@ -47,6 +40,12 @@ BluetoothSocket
 aSocket
 nsAutoPtr
 <
+mozilla
+:
+:
+ipc
+:
+:
 UnixSocketRawData
 >
 &
