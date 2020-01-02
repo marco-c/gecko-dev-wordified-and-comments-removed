@@ -3731,6 +3731,17 @@ context
 mActionHint
 )
 ;
+nsIContent
+*
+inputContent
+=
+aContent
+-
+>
+FindFirstNonChromeOnlyAccessContent
+(
+)
+;
 if
 (
 context
@@ -3742,7 +3753,7 @@ IsEmpty
 )
 &
 &
-aContent
+inputContent
 -
 >
 Tag
@@ -3769,7 +3780,7 @@ control
 (
 do_QueryInterface
 (
-aContent
+inputContent
 )
 )
 ;
