@@ -1373,6 +1373,10 @@ Destroy
 void
 )
 {
+mOnDestroyCalled
+=
+true
+;
 sTopWindows
 .
 RemoveElement
@@ -1401,6 +1405,13 @@ gFocusedWindow
 gFocusedWindow
 =
 nullptr
+;
+nsBaseWidget
+:
+:
+OnDestroy
+(
+)
 ;
 return
 NS_OK
