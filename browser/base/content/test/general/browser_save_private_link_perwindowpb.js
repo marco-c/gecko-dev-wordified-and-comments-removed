@@ -567,7 +567,7 @@ pageshow
 pageShown
 )
 ;
-executeSoon
+waitForFocus
 (
 function
 (
@@ -635,6 +635,13 @@ contentWindow
 )
 ;
 }
+aWindow
+.
+gBrowser
+.
+selectedBrowser
+.
+contentWindow
 )
 ;
 }
