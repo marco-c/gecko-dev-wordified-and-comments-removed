@@ -373,7 +373,7 @@ aFlags
 }
 #
 ifdef
-DEBUG
+DEBUG_FRAME_DUMP
 NS_IMETHOD
 GetFrameName
 (
@@ -1050,7 +1050,7 @@ nsBoxFrame
 )
 #
 ifdef
-DEBUG
+DEBUG_FRAME_DUMP
 NS_IMETHODIMP
 nsRootBoxFrame
 :

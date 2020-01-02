@@ -333,7 +333,7 @@ MOZ_OVERRIDE
 endif
 #
 ifdef
-DEBUG
+DEBUG_FRAME_DUMP
 void
 List
 (

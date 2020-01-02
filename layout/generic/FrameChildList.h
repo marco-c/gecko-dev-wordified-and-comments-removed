@@ -29,7 +29,7 @@ layout
 {
 #
 ifdef
-DEBUG
+DEBUG_FRAME_DUMP
 extern
 const
 char

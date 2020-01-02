@@ -18,6 +18,15 @@ nsDebug
 .
 h
 "
+#
+ifdef
+DEBUG
+#
+define
+DEBUG_FRAME_DUMP
+1
+#
+endif
 class
 nsIFrame
 ;
@@ -590,7 +599,7 @@ const
 endif
 #
 ifdef
-DEBUG
+DEBUG_FRAME_DUMP
 void
 List
 (

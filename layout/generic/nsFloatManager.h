@@ -41,6 +41,13 @@ nsTArray
 .
 h
 "
+#
+include
+"
+nsFrameList
+.
+h
+"
 class
 nsIPresShell
 ;
@@ -564,7 +571,7 @@ state
 }
 #
 ifdef
-DEBUG
+DEBUG_FRAME_DUMP
 nsresult
 List
 (
