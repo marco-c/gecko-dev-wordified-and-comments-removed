@@ -2770,6 +2770,8 @@ height
 bookmarksToolbarFolderMenu
 #
 BMB_bookmarksToolbar
+#
+panelMenu_bookmarksToolbar
 {
 list
 -
@@ -2799,6 +2801,8 @@ png
 }
 #
 BMB_unsortedBookmarks
+#
+panelMenu_unsortedBookmarks
 {
 list
 -
