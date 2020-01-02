@@ -615,7 +615,7 @@ err
 ;
 mConnection
 =
-dbus_bus_get
+dbus_bus_get_private
 (
 DBUS_BUS_SYSTEM
 &
@@ -670,6 +670,11 @@ if
 ptr
 )
 {
+dbus_connection_close
+(
+ptr
+)
+;
 dbus_connection_unref
 (
 ptr
