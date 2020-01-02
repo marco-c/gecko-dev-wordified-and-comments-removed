@@ -846,6 +846,14 @@ MOZ_ASSERT
 mNextListener
 )
 ;
+redirectChannel
+-
+>
+SetParentListener
+(
+this
+)
+;
 }
 else
 if
