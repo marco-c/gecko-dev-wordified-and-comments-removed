@@ -185,6 +185,14 @@ FilterPrimitiveDescription
 aDescr
 )
 ;
+nsresult
+SetAttributesForHueRotate
+(
+FilterPrimitiveDescription
+&
+aDescr
+)
+;
 int32_t
 GetLastResultIndex
 (
