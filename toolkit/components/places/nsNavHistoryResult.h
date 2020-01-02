@@ -2547,6 +2547,8 @@ public
 nsNavHistoryContainerResultNode
 public
 nsINavHistoryQueryResultNode
+public
+nsINavBookmarkObserver
 {
 public
 :
@@ -2810,6 +2812,8 @@ public
 nsNavHistoryContainerResultNode
 public
 nsINavHistoryQueryResultNode
+public
+nsINavBookmarkObserver
 public
 mozilla
 :
