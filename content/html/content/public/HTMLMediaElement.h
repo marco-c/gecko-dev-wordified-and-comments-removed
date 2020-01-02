@@ -236,6 +236,8 @@ HTMLMediaElement
 public
 nsGenericHTMLElement
 public
+nsIDOMHTMLMediaElement
+public
 nsIObserver
 public
 MediaDecoderOwner

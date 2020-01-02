@@ -113,11 +113,6 @@ nsIDOMHTMLAreaElement
 idl
 '
 '
-nsIDOMHTMLAudioElement
-.
-idl
-'
-'
 nsIDOMHTMLBaseElement
 .
 idl
@@ -359,11 +354,6 @@ idl
 '
 '
 nsIDOMHTMLUListElement
-.
-idl
-'
-'
-nsIDOMHTMLVideoElement
 .
 idl
 '
