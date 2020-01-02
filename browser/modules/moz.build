@@ -111,6 +111,11 @@ BrowserNewTabPreloader
 jsm
 '
 '
+BrowserUITelemetry
+.
+jsm
+'
+'
 CharsetMenu
 .
 jsm
