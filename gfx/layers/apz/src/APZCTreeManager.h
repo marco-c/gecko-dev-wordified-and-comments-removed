@@ -123,6 +123,9 @@ mozilla
 class
 InputData
 ;
+class
+MultiTouchInput
+;
 namespace
 layers
 {
@@ -550,7 +553,7 @@ AsyncPanZoomController
 GetTouchInputBlockAPZC
 (
 const
-WidgetTouchEvent
+MultiTouchInput
 &
 aEvent
 bool
@@ -559,11 +562,11 @@ aOutInOverscrolledApzc
 )
 ;
 nsEventStatus
-ProcessTouchEvent
+ProcessTouchInput
 (
-WidgetTouchEvent
+MultiTouchInput
 &
-touchEvent
+aInput
 ScrollableLayerGuid
 *
 aOutTargetGuid
