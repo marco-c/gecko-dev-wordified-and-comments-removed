@@ -15,6 +15,13 @@ h
 #
 include
 "
+AddonWrapper
+.
+h
+"
+#
+include
+"
 XrayWrapper
 .
 h
