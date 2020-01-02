@@ -275,8 +275,7 @@ IsSpecialFile
 const
 {
 return
-!
-mHash
+mSpecialFile
 ;
 }
 nsCString
@@ -347,6 +346,9 @@ mPriority
 ;
 bool
 mClosed
+;
+bool
+mSpecialFile
 ;
 bool
 mInvalid
