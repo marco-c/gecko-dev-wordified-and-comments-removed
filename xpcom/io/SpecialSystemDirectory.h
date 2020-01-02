@@ -285,7 +285,7 @@ aFolderType
 nsIFile
 *
 *
-localFile
+aLocalFile
 )
 ;
 #

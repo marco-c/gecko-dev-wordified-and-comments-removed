@@ -211,12 +211,12 @@ nsresult
 nsresultForErrno
 (
 int
-err
+aErr
 )
 {
 switch
 (
-err
+aErr
 )
 {
 case

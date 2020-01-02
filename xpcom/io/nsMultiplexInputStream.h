@@ -72,13 +72,13 @@ nsMultiplexInputStreamConstructor
 (
 nsISupports
 *
-outer
+aOuter
 REFNSIID
-iid
+aIID
 void
 *
 *
-result
+aResult
 )
 ;
 #
