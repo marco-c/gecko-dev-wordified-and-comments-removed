@@ -1358,12 +1358,6 @@ GetGlobalJSObject
 )
 )
 ;
-nsCOMPtr
-<
-nsIXPConnectJSObjectHolder
->
-wrapper
-;
 JS
 :
 :
@@ -1392,10 +1386,6 @@ globalObject
 aBoundElement
 &
 v
-getter_AddRefs
-(
-wrapper
-)
 )
 ;
 NS_ENSURE_SUCCESS

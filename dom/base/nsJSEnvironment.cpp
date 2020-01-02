@@ -5760,12 +5760,6 @@ nsIVariant
 ;
 #
 endif
-nsCOMPtr
-<
-nsIXPConnectJSObjectHolder
->
-wrapper
-;
 JS
 :
 :
@@ -5793,10 +5787,6 @@ aScope
 arg
 &
 v
-getter_AddRefs
-(
-wrapper
-)
 )
 ;
 if
@@ -6633,12 +6623,6 @@ iidGuard
 iid
 )
 ;
-nsCOMPtr
-<
-nsIXPConnectJSObjectHolder
->
-wrapper
-;
 JS
 :
 :
@@ -6684,10 +6668,6 @@ data
 iid
 &
 v
-getter_AddRefs
-(
-wrapper
-)
 )
 ;
 NS_ENSURE_SUCCESS

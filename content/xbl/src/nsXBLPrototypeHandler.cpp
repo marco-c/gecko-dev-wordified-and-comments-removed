@@ -1455,7 +1455,6 @@ scopeObject
 scriptTarget
 &
 targetV
-nullptr
 true
 )
 ;

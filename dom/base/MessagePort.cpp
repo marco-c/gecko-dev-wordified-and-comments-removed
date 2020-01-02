@@ -476,12 +476,6 @@ val
 cx
 )
 ;
-nsCOMPtr
-<
-nsIXPConnectJSObjectHolder
->
-wrapper
-;
 if
 (
 NS_SUCCEEDED
@@ -496,10 +490,6 @@ global
 supports
 &
 val
-getter_AddRefs
-(
-wrapper
-)
 )
 )
 )

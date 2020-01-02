@@ -289,9 +289,6 @@ class
 nsIXPConnect
 ;
 class
-nsIXPConnectJSObjectHolder
-;
-class
 nsNodeInfoManager
 ;
 class
@@ -3125,12 +3122,6 @@ JS
 Value
 >
 vp
-nsIXPConnectJSObjectHolder
-*
-*
-aHolder
-=
-nullptr
 bool
 aAllowWrapping
 =
@@ -3146,7 +3137,6 @@ native
 nullptr
 aIID
 vp
-aHolder
 aAllowWrapping
 )
 ;
@@ -3181,12 +3171,6 @@ JS
 Value
 >
 vp
-nsIXPConnectJSObjectHolder
-*
-*
-aHolder
-=
-nullptr
 bool
 aAllowWrapping
 =
@@ -3202,7 +3186,6 @@ native
 nullptr
 nullptr
 vp
-aHolder
 aAllowWrapping
 )
 ;
@@ -3240,12 +3223,6 @@ JS
 Value
 >
 vp
-nsIXPConnectJSObjectHolder
-*
-*
-aHolder
-=
-nullptr
 bool
 aAllowWrapping
 =
@@ -3261,7 +3238,6 @@ native
 cache
 nullptr
 vp
-aHolder
 aAllowWrapping
 )
 ;
@@ -4019,10 +3995,6 @@ JS
 Value
 >
 vp
-nsIXPConnectJSObjectHolder
-*
-*
-aHolder
 bool
 aAllowWrapping
 )
