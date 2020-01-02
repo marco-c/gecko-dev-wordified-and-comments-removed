@@ -11804,7 +11804,7 @@ nsIOffThreadScriptReceiver
 aOffThreadReceiver
 )
 {
-NS_ENSURE_STATE
+MOZ_ASSERT
 (
 aProtoDoc
 )
