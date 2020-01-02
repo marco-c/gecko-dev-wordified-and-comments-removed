@@ -26025,6 +26025,13 @@ AutoMaybeTouchDeadZones
 (
 )
 {
+runtime
+-
+>
+gcManipulatingDeadZones
+=
+manipulatingDeadZones
+;
 if
 (
 inIncremental
@@ -26064,13 +26071,6 @@ TRANSPLANT
 )
 ;
 }
-runtime
--
->
-gcManipulatingDeadZones
-=
-manipulatingDeadZones
-;
 }
 AutoSuppressGC
 :
