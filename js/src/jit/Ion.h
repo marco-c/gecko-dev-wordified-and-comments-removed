@@ -99,6 +99,9 @@ bool
 checkRangeAnalysis
 ;
 bool
+checkThreadSafety
+;
+bool
 assertGraphConsistency
 ;
 bool
@@ -223,6 +226,10 @@ rangeAnalysis
 true
 )
 checkRangeAnalysis
+(
+false
+)
+checkThreadSafety
 (
 false
 )
