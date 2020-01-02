@@ -4052,7 +4052,7 @@ index
 )
 ;
 }
-unexpectedCallbackAndFinish
+generateErrorCallback
 (
 )
 )
@@ -4238,7 +4238,7 @@ offer
 )
 ;
 }
-unexpectedCallbackAndFinish
+generateErrorCallback
 (
 )
 this
@@ -4302,7 +4302,7 @@ answer
 )
 ;
 }
-unexpectedCallbackAndFinish
+generateErrorCallback
 (
 )
 )
@@ -4352,7 +4352,7 @@ onSuccess
 )
 ;
 }
-unexpectedCallbackAndFinish
+generateErrorCallback
 (
 )
 )
@@ -4379,7 +4379,7 @@ _pc
 setLocalDescription
 (
 desc
-unexpectedCallbackAndFinish
+generateErrorCallback
 (
 "
 setLocalDescription
@@ -4463,7 +4463,7 @@ onSuccess
 )
 ;
 }
-unexpectedCallbackAndFinish
+generateErrorCallback
 (
 )
 )
@@ -4490,7 +4490,7 @@ _pc
 setRemoteDescription
 (
 desc
-unexpectedCallbackAndFinish
+generateErrorCallback
 (
 "
 setRemoteDescription
@@ -4575,7 +4575,7 @@ onSuccess
 )
 ;
 }
-unexpectedCallbackAndFinish
+generateErrorCallback
 (
 )
 )
@@ -4602,7 +4602,7 @@ _pc
 addIceCandidate
 (
 candidate
-unexpectedCallbackAndFinish
+generateErrorCallback
 (
 "
 addIceCandidate
@@ -5041,7 +5041,7 @@ stats
 )
 ;
 }
-unexpectedCallbackAndFinish
+generateErrorCallback
 (
 )
 )
