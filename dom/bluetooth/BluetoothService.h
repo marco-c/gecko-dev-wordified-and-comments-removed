@@ -62,13 +62,6 @@ h
 #
 include
 "
-nsIThread
-.
-h
-"
-#
-include
-"
 nsTObserverArray
 .
 h
@@ -896,12 +889,6 @@ mEnabled
 ;
 private
 :
-nsCOMPtr
-<
-nsIThread
->
-mBluetoothThread
-;
 bool
 mAdapterAddedReceived
 ;
