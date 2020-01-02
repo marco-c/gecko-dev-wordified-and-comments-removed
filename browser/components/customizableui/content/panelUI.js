@@ -808,6 +808,12 @@ bind
 this
 )
 )
+.
+then
+(
+null
+ERROR
+)
 ;
 }
 showMainView
