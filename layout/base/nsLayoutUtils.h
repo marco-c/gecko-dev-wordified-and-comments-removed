@@ -4009,6 +4009,12 @@ WantSubAPZC
 )
 ;
 static
+bool
+UsesAsyncScrolling
+(
+)
+;
+static
 void
 LogTestDataForPaint
 (
