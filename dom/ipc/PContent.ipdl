@@ -1754,12 +1754,16 @@ nsString
 bidi
 nsString
 lang
+Principal
+principal
 )
 ;
 CloseAlert
 (
 nsString
 name
+Principal
+principal
 )
 ;
 PExternalHelperApp

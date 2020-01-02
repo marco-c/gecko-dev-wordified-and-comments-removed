@@ -105,6 +105,9 @@ nsIObserver
 .
 idl
 "
+interface
+nsIPrincipal
+;
 [
 scriptable
 uuid
@@ -509,6 +512,12 @@ optional
 in
 AString
 lang
+[
+optional
+]
+in
+nsIPrincipal
+principal
 )
 ;
 /
@@ -568,6 +577,12 @@ optional
 in
 AString
 name
+[
+optional
+]
+in
+nsIPrincipal
+principal
 )
 ;
 }
