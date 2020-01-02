@@ -22077,9 +22077,9 @@ height
 )
 )
 ;
-nsRefPtr
+RefPtr
 <
-gfxASurface
+DrawTarget
 >
 srcSlice
 =
@@ -22091,7 +22091,7 @@ GetPlatform
 )
 -
 >
-CreateOffscreenSurface
+CreateOffscreenContentDrawTarget
 (
 IntSize
 (
@@ -22102,10 +22102,10 @@ srcRect
 .
 height
 )
-gfxContentType
+SurfaceFormat
 :
 :
-COLOR_ALPHA
+B8G8R8A8
 )
 ;
 nsRefPtr
