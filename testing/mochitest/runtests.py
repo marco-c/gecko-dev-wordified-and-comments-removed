@@ -13490,6 +13490,16 @@ message
 message
 '
 ]
+.
+encode
+(
+'
+ascii
+'
+'
+replace
+'
+)
 )
       
 return
