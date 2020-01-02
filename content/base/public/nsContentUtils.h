@@ -2853,6 +2853,15 @@ sScriptBlockerCount
 ;
 }
 static
+void
+WarnScriptWasIgnored
+(
+nsIDocument
+*
+aDocument
+)
+;
+static
 nsViewportInfo
 GetViewportInfo
 (

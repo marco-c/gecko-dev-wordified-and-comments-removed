@@ -1735,6 +1735,14 @@ IsSafeToRunScript
 )
 )
 {
+nsContentUtils
+:
+:
+WarnScriptWasIgnored
+(
+nullptr
+)
+;
 return
 NS_ERROR_FAILURE
 ;
