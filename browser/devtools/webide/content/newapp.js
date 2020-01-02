@@ -808,8 +808,6 @@ if
 projectName
 )
 {
-AppManager
-.
 console
 .
 error
@@ -831,8 +829,6 @@ if
 gTemplateList
 )
 {
-AppManager
-.
 console
 .
 error
@@ -870,8 +866,6 @@ selectedIndex
 0
 )
 {
-AppManager
-.
 console
 .
 error
@@ -981,8 +975,6 @@ nsIFilePicker
 returnCancel
 )
 {
-AppManager
-.
 console
 .
 error
@@ -1054,8 +1046,6 @@ catch
 e
 )
 {
-AppManager
-.
 console
 .
 error
@@ -1114,8 +1104,6 @@ e
 =
 >
 {
-AppManager
-.
 console
 .
 error
