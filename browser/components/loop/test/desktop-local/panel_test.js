@@ -233,6 +233,13 @@ sandbox
 stub
 (
 )
+.
+returns
+(
+"
+unseen
+"
+)
 }
 ;
 document
