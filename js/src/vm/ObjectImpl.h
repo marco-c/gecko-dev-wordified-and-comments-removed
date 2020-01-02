@@ -3139,16 +3139,6 @@ elements
 emptyObjectElements
 ;
 }
-inline
-void
-*
-fixedData
-(
-size_t
-nslots
-)
-const
-;
 static
 ThingRootKind
 rootKind

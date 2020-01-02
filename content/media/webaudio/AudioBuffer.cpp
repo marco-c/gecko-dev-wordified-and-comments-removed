@@ -920,7 +920,6 @@ arrayBuffer
 aJSContext
 JS_GetArrayBufferViewBuffer
 (
-aJSContext
 aJSArrays
 [
 i

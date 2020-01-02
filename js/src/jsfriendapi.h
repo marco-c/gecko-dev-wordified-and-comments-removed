@@ -5932,9 +5932,6 @@ JSObject
 )
 JS_GetArrayBufferViewBuffer
 (
-JSContext
-*
-cx
 JSObject
 *
 obj
