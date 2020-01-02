@@ -7042,10 +7042,10 @@ thisThread
 .
 jitStackLimit
 =
-oldData
--
->
-jitStackLimit
+GetNativeStackLimit
+(
+cx_
+)
 ;
 executePortion
 (
