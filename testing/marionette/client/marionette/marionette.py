@@ -21,6 +21,10 @@ client
 import
 MarionetteClient
 from
+decorators
+import
+do_crash_check
+from
 emulator
 import
 Emulator
@@ -4233,6 +4237,8 @@ sleep
 return
 False
     
+do_crash_check
+    
 def
 _send_message
 (
@@ -4332,8 +4338,6 @@ except
 socket
 .
 timeout
-as
-e
 :
             
 self
@@ -5330,9 +5334,6 @@ offered
 "
 "
         
-try
-:
-            
 self
 .
 session
@@ -5348,30 +5349,6 @@ newSession
 value
 '
 )
-        
-except
-:
-            
-exc
-val
-tb
-=
-sys
-.
-exc_info
-(
-)
-            
-self
-.
-check_for_crash
-(
-)
-            
-raise
-exc
-val
-tb
         
 self
 .
