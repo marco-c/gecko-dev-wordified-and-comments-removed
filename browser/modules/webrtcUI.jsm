@@ -417,6 +417,13 @@ getConstraints
 )
 ;
 let
+secure
+=
+aSubject
+.
+isSecure
+;
+let
 contentWindow
 =
 Services
@@ -460,6 +467,7 @@ constraints
 .
 picture
 devices
+secure
 )
 ;
 }
@@ -557,6 +565,7 @@ aCallID
 aAudioRequested
 aVideoRequested
 aDevices
+aSecure
 )
 {
 let
@@ -857,7 +866,7 @@ mainAction
 .
 callback
 (
-true
+aSecure
 )
 ;
 }

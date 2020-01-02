@@ -129,5 +129,10 @@ getConstraints
 (
 )
 ;
+readonly
+attribute
+boolean
+isSecure
+;
 }
 ;
