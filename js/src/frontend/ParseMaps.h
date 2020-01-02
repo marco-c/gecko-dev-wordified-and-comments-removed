@@ -45,15 +45,6 @@ include
 "
 js
 /
-HashTable
-.
-h
-"
-#
-include
-"
-js
-/
 Vector
 .
 h

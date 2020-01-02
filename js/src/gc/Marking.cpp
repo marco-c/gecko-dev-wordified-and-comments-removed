@@ -76,6 +76,9 @@ jsinferinlines
 h
 "
 #
+ifdef
+JSGC_GENERATIONAL
+#
 include
 "
 gc
@@ -86,6 +89,8 @@ inl
 .
 h
 "
+#
+endif
 #
 include
 "

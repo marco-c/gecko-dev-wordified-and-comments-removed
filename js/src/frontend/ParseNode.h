@@ -16,13 +16,6 @@ h
 #
 include
 "
-jsscript
-.
-h
-"
-#
-include
-"
 builtin
 /
 Module

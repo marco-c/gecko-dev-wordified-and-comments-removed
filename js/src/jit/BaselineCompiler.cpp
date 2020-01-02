@@ -66,15 +66,6 @@ include
 "
 jit
 /
-PerfSpewer
-.
-h
-"
-#
-include
-"
-jit
-/
 VMFunctions
 .
 h

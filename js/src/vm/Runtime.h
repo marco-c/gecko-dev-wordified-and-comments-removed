@@ -87,12 +87,17 @@ jsgc
 h
 "
 #
+ifdef
+DEBUG
+#
 include
 "
 jsproxy
 .
 h
 "
+#
+endif
 #
 include
 "
@@ -119,6 +124,9 @@ ParseMaps
 h
 "
 #
+ifdef
+JSGC_GENERATIONAL
+#
 include
 "
 gc
@@ -127,6 +135,8 @@ Nursery
 .
 h
 "
+#
+endif
 #
 include
 "
@@ -137,6 +147,9 @@ Statistics
 h
 "
 #
+ifdef
+JSGC_GENERATIONAL
+#
 include
 "
 gc
@@ -145,6 +158,8 @@ StoreBuffer
 .
 h
 "
+#
+endif
 #
 ifdef
 XP_MACOSX

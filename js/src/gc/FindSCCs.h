@@ -7,6 +7,13 @@ gc_FindSCCs_h
 #
 include
 "
+jsfriendapi
+.
+h
+"
+#
+include
+"
 jsutil
 .
 h

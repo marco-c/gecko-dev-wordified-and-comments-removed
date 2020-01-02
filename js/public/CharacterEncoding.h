@@ -25,7 +25,9 @@ h
 #
 include
 "
-jspubtd
+js
+/
+TypeDecls
 .
 h
 "
@@ -38,6 +40,13 @@ Utility
 .
 h
 "
+namespace
+js
+{
+struct
+ThreadSafeContext
+;
+}
 namespace
 JS
 {

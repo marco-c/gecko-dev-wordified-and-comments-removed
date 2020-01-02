@@ -10,13 +10,6 @@ h
 #
 include
 "
-jsanalyze
-.
-h
-"
-#
-include
-"
 jit
 /
 AsmJS
@@ -28,7 +21,7 @@ include
 "
 jit
 /
-Ion
+BytecodeAnalysis
 .
 h
 "
@@ -37,7 +30,7 @@ include
 "
 jit
 /
-IonBuilder
+Ion
 .
 h
 "
@@ -62,7 +55,9 @@ h
 #
 include
 "
-jsinferinlines
+jit
+/
+MIRGenerator
 .
 h
 "

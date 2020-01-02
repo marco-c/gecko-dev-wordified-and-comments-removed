@@ -66,6 +66,9 @@ Eval
 h
 "
 #
+if
+EXPOSE_INTL_API
+#
 include
 "
 builtin
@@ -74,6 +77,8 @@ Intl
 .
 h
 "
+#
+endif
 #
 include
 "
@@ -114,13 +119,6 @@ h
 include
 "
 jscompartmentinlines
-.
-h
-"
-#
-include
-"
-jsfuninlines
 .
 h
 "

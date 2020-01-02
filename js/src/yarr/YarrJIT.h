@@ -25,7 +25,7 @@ assembler
 /
 assembler
 /
-MacroAssembler
+MacroAssemblerCodeRef
 .
 h
 "
@@ -44,15 +44,6 @@ include
 yarr
 /
 Yarr
-.
-h
-"
-#
-include
-"
-yarr
-/
-YarrPattern
 .
 h
 "

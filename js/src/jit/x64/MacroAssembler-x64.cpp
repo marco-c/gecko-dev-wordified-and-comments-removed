@@ -34,6 +34,15 @@ include
 "
 jit
 /
+IonCompartment
+.
+h
+"
+#
+include
+"
+jit
+/
 IonFrames
 .
 h

@@ -32,6 +32,13 @@ h
 #
 include
 "
+jsproxy
+.
+h
+"
+#
+include
+"
 gc
 /
 Marking

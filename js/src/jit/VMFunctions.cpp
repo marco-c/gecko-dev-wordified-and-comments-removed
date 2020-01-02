@@ -48,15 +48,6 @@ include
 "
 jit
 /
-Ion
-.
-h
-"
-#
-include
-"
-jit
-/
 IonCompartment
 .
 h

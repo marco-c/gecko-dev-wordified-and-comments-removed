@@ -21,6 +21,15 @@ include
 "
 jit
 /
+BitSet
+.
+h
+"
+#
+include
+"
+jit
+/
 IonSpewer
 .
 h

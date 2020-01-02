@@ -27,7 +27,7 @@ include
 "
 jit
 /
-IonInstrumentation
+BytecodeAnalysis
 .
 h
 "
@@ -37,15 +37,6 @@ include
 jit
 /
 IonMacroAssembler
-.
-h
-"
-#
-include
-"
-jit
-/
-IonSpewer
 .
 h
 "

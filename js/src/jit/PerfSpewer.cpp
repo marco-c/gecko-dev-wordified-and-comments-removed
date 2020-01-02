@@ -23,6 +23,9 @@ h
 #
 endif
 #
+ifdef
+JS_ION_PERF
+#
 include
 "
 jit
@@ -67,6 +70,8 @@ MIRGraph
 .
 h
 "
+#
+endif
 #
 ifndef
 PERF_SPEW_DIR

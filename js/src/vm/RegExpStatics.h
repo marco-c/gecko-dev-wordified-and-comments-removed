@@ -18,7 +18,7 @@ include
 "
 vm
 /
-GlobalObject
+MatchPairs
 .
 h
 "
@@ -27,7 +27,7 @@ include
 "
 vm
 /
-MatchPairs
+RegExpObject
 .
 h
 "
@@ -43,6 +43,9 @@ h
 namespace
 js
 {
+class
+GlobalObject
+;
 class
 RegExpStatics
 {

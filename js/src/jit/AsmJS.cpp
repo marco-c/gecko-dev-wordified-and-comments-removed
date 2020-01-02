@@ -54,6 +54,17 @@ h
 #
 include
 "
+assembler
+/
+assembler
+/
+MacroAssembler
+.
+h
+"
+#
+include
+"
 frontend
 /
 Parser

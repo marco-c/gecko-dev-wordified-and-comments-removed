@@ -11,15 +11,6 @@ NamespaceImports
 .
 h
 "
-#
-include
-"
-js
-/
-RootingAPI
-.
-h
-"
 extern
 JSObject
 *

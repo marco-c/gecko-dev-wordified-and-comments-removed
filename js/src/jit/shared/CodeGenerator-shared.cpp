@@ -27,6 +27,15 @@ include
 "
 jit
 /
+IonCaches
+.
+h
+"
+#
+include
+"
+jit
+/
 IonMacroAssembler
 .
 h

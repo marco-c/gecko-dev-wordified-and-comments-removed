@@ -64,6 +64,15 @@ include
 "
 jit
 /
+MIRGenerator
+.
+h
+"
+#
+include
+"
+jit
+/
 MIRGraph
 .
 h

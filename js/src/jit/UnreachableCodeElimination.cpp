@@ -30,6 +30,15 @@ include
 "
 jit
 /
+MIRGenerator
+.
+h
+"
+#
+include
+"
+jit
+/
 ValueNumbering
 .
 h
