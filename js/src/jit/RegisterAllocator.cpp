@@ -1806,10 +1806,6 @@ LBlock
 *
 predecessor
 =
-graph
-.
-getBlock
-(
 block
 -
 >
@@ -1824,9 +1820,8 @@ j
 )
 -
 >
-id
+lir
 (
-)
 )
 ;
 if
@@ -1881,10 +1876,6 @@ LBlock
 *
 predecessor
 =
-graph
-.
-getBlock
-(
 block
 -
 >
@@ -1899,9 +1890,8 @@ i
 )
 -
 >
-id
+lir
 (
-)
 )
 ;
 if
