@@ -123,11 +123,3 @@ XPI_NAME
 '
 winembed
 '
-DEFINES
-[
-'
-XPCOM_GLUE
-'
-]
-=
-True

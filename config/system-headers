@@ -3992,7 +3992,7 @@ h
 endif
 #
 ifdef
-GKMEDIAS_SHARED_LIBRARY
+XP_WIN
 vpx
 /
 vpx_codec

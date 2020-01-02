@@ -96,6 +96,11 @@ src
 (
 NULL
 )
+DEFINES
++
+=
+-
+DMOZ_NEED_LEADING_UNDERSCORE
 include
 (
 topsrcdir

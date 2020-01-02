@@ -147,11 +147,3 @@ browser
 ini
 '
 ]
-DEFINES
-[
-'
-MOZILLA_INTERNAL_API
-'
-]
-=
-True

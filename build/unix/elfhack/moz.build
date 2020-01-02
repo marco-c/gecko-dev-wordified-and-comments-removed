@@ -162,11 +162,3 @@ HOST_PROGRAM
 '
 elfhack
 '
-DEFINES
-[
-'
-ELFHACK_BUILD
-'
-]
-=
-True

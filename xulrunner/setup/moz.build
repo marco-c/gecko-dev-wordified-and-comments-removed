@@ -128,16 +128,3 @@ nsXULAppInstall
 js
 '
 ]
-DEFINES
-[
-'
-BIN_SUFFIX
-'
-]
-=
-CONFIG
-[
-'
-BIN_SUFFIX
-'
-]

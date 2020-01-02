@@ -69,6 +69,15 @@ xpcshell
 (
 relativesrcdir
 )
+DEFINES
++
+=
+-
+DBIN_SUFFIX
+=
+(
+BIN_SUFFIX
+)
 include
 (
 topsrcdir

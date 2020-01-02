@@ -261,12 +261,3 @@ FINAL_LIBRARY
 '
 xul
 '
-#
-DEFINES
-[
-'
-DEBUG_WIDGETS
-'
-]
-=
-True

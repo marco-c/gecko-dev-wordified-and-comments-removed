@@ -67,6 +67,13 @@ memory
 /
 jemalloc
 )
+DEFINES
++
+=
+-
+DMOZ_JEMALLOC3
+-
+DMOZ_REPLACE_JEMALLOC
 LOCAL_INCLUDES
 +
 =

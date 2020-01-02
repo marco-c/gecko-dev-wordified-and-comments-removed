@@ -53,6 +53,16 @@ MPL
 0
 /
 .
+DEFINES
++
+=
+\
+-
+DSK_BUILD_FOR_ANDROID_NDK
+\
+(
+NULL
+)
 LOCAL_INCLUDES
 +
 =

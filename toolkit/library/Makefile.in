@@ -630,8 +630,13 @@ EXTRA_DSO_LDOPTS
 MOZ_PNG_LIBS
 )
 endif
-ifndef
-ZLIB_IN_MOZGLUE
+ifneq
+(
+WINNT
+(
+OS_ARCH
+)
+)
 EXTRA_DSO_LDOPTS
 +
 =

@@ -461,12 +461,3 @@ FINAL_LIBRARY
 '
 gklayout
 '
-#
-DEFINES
-[
-'
-ENABLE_VOID_MENUITEM
-'
-]
-=
-True

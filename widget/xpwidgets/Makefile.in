@@ -54,6 +54,14 @@ MPL
 0
 /
 .
+ifdef
+MOZ_ENABLE_D3D10_LAYER
+DEFINES
++
+=
+-
+DMOZ_ENABLE_D3D10_LAYER
+endif
 ifneq
 (
 (

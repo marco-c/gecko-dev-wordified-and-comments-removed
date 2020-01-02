@@ -63,6 +63,12 @@ config
 rules
 .
 mk
+#
+DEFINES
++
+=
+-
+DDEBUG_WIDGETS
 LOCAL_INCLUDES
 +
 =

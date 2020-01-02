@@ -108,6 +108,14 @@ mk
 application
 .
 ini
+ifdef
+MOZILLA_OFFICIAL
+DEFINES
++
+=
+-
+DMOZILLA_OFFICIAL
+endif
 GRE_BUILDID
 :
 =
@@ -125,6 +133,12 @@ buildid
 DEFINES
 +
 =
+-
+DGRE_MILESTONE
+=
+(
+GRE_MILESTONE
+)
 -
 DGRE_BUILDID
 =

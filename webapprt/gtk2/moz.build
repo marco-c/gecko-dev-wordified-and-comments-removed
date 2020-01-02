@@ -113,11 +113,3 @@ cpp
 FAIL_ON_WARNINGS
 =
 True
-DEFINES
-[
-'
-XPCOM_GLUE
-'
-]
-=
-True

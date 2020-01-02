@@ -97,6 +97,11 @@ config
 rules
 .
 mk
+DEFINES
++
+=
+-
+DELFHACK_BUILD
 test
 -
 array

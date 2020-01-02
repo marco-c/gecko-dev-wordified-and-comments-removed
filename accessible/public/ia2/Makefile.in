@@ -73,6 +73,11 @@ other
 licenses
 /
 ia2
+DEFINES
++
+=
+-
+DREGISTER_PROXY_DLL
 GARBAGE
 +
 =

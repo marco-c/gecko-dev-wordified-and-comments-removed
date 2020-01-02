@@ -148,4 +148,9 @@ OS_COMPILE_CFLAGS
 =
 -
 Zl
+DEFINES
++
+=
+-
+D_USE_ANSI_CPP
 endif

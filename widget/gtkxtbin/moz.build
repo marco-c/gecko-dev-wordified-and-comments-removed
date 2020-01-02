@@ -126,11 +126,3 @@ FINAL_LIBRARY
 '
 xul
 '
-DEFINES
-[
-'
-_IMPL_GTKXTBIN_API
-'
-]
-=
-True

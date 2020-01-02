@@ -187,11 +187,3 @@ FINAL_LIBRARY
 '
 gklayout
 '
-DEFINES
-[
-'
-DEBUG_TABLE_STRATEGY_off
-'
-]
-=
-True

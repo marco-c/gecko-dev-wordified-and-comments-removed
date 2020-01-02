@@ -182,11 +182,3 @@ dmd
 FORCE_SHARED_LIB
 =
 True
-DEFINES
-[
-'
-MOZ_NO_MOZALLOC
-'
-]
-=
-True

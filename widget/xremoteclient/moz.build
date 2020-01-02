@@ -107,11 +107,3 @@ FINAL_LIBRARY
 '
 xulapp_s
 '
-DEFINES
-[
-'
-XPCOM_GLUE
-'
-]
-=
-True

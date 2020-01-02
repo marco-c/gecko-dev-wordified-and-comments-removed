@@ -92,6 +92,11 @@ of
 tree
 history
 .
+DEFINES
++
+=
+-
+DXPCOM_GLUE
 LIBCPPSRCS
 =
 XRemoteClient

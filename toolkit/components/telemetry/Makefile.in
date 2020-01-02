@@ -94,6 +94,14 @@ topsrcdir
 xpcom
 /
 threads
+ifdef
+MOZILLA_OFFICIAL
+DEFINES
++
+=
+-
+DMOZILLA_OFFICIAL
+endif
 MOZ_HISTOGRAMS_VERSION
 ?
 =

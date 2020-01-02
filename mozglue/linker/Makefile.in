@@ -59,6 +59,11 @@ HOST_LIBS
 =
 -
 lz
+DEFINES
++
+=
+-
+DIMPL_MFBT
 include
 (
 topsrcdir

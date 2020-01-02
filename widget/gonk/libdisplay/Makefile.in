@@ -146,6 +146,11 @@ config
 rules
 .
 mk
+DEFINES
++
+=
+-
+DXPCOM_GLUE
 LOCAL_INCLUDES
 +
 =

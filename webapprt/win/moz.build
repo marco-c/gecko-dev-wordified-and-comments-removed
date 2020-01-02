@@ -110,11 +110,3 @@ webapprt
 cpp
 '
 ]
-DEFINES
-[
-'
-XPCOM_GLUE
-'
-]
-=
-True

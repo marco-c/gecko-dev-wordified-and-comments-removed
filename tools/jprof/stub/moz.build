@@ -124,11 +124,3 @@ True
 FORCE_SHARED_LIB
 =
 True
-DEFINES
-[
-'
-_IMPL_JPROF_API
-'
-]
-=
-True
