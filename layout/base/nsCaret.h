@@ -392,12 +392,6 @@ nsRect
 aHookRect
 )
 ;
-nsFrameSelection
-*
-GetFrameSelection
-(
-)
-;
 bool
 IsMenuPopupHidingCaret
 (
