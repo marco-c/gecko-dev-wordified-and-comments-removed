@@ -9818,6 +9818,9 @@ return
 true
 ;
 }
+if
+(
+!
 res
 -
 >
@@ -9827,6 +9830,9 @@ cx
 input
 matches
 )
+)
+return
+false
 ;
 RootedValue
 rval
@@ -11205,6 +11211,9 @@ RegExpRunStatus_Success_NotFound
 return
 true
 ;
+if
+(
+!
 res
 -
 >
@@ -11214,6 +11223,9 @@ cx
 linearStr
 matches
 )
+)
+return
+false
 ;
 return
 ReplaceRegExp
@@ -11340,6 +11352,9 @@ RegExpRunStatus_Success_NotFound
 )
 break
 ;
+if
+(
+!
 res
 -
 >
@@ -11349,6 +11364,9 @@ cx
 linearStr
 matches
 )
+)
+return
+false
 ;
 if
 (
@@ -16882,6 +16900,9 @@ return
 true
 ;
 }
+if
+(
+!
 res
 -
 >
@@ -16891,6 +16912,9 @@ cx
 str
 matches
 )
+)
+return
+false
 ;
 JSSubString
 sep
