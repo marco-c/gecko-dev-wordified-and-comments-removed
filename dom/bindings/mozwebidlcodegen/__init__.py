@@ -786,20 +786,6 @@ cpp
     
 }
     
-BUILD_EXAMPLE_INTERFACES
-=
-{
-        
-'
-TestExampleInterface
-'
-        
-'
-TestExampleProxyInterface
-'
-    
-}
-    
 def
 __init__
 (
@@ -859,7 +845,7 @@ conf
 inputs
 is
 a
-3
+4
 -
 tuple
 describing
@@ -901,6 +887,13 @@ of
 generated
 events
 files
+)
+                
+set
+(
+example
+interface
+names
 )
 )
         
@@ -987,6 +980,7 @@ populate_logger
 input_paths
 exported_stems
 generated_events_stems
+example_interfaces
 =
 inputs
         
@@ -1021,6 +1015,15 @@ _generated_events_stems
 set
 (
 generated_events_stems
+)
+        
+self
+.
+_example_interfaces
+=
+set
+(
+example_interfaces
 )
         
 self
@@ -1718,7 +1721,7 @@ interface
 in
 self
 .
-BUILD_EXAMPLE_INTERFACES
+_example_interfaces
 :
             
 written
@@ -2816,7 +2819,7 @@ interface
 in
 self
 .
-BUILD_EXAMPLE_INTERFACES
+_example_interfaces
 :
             
 for
@@ -3413,6 +3416,12 @@ files
 [
 '
 generated_events_stems
+'
+]
+files
+[
+'
+example_interfaces
 '
 ]
 )

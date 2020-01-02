@@ -30,6 +30,8 @@ import
     
 ConfigFileSubstitution
     
+ExampleWebIDLInterface
+    
 HeaderFileSubstitution
     
 GeneratedEventWebIDLFile
@@ -360,6 +362,14 @@ set
 self
 .
 preprocessed_test_sources
+=
+set
+(
+)
+        
+self
+.
+example_interfaces
 =
 set
 (
@@ -1418,6 +1428,27 @@ obj
 .
 basename
 )
+)
+        
+elif
+isinstance
+(
+obj
+ExampleWebIDLInterface
+)
+:
+            
+self
+.
+_webidls
+.
+example_interfaces
+.
+add
+(
+obj
+.
+name
 )
         
 else
