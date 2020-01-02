@@ -771,6 +771,11 @@ aForceAsync
 false
 )
 ;
+void
+StoreFrecency
+(
+)
+;
 already_AddRefed
 <
 CacheEntryHandle
