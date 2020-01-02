@@ -2476,6 +2476,13 @@ java
 '
 widget
 /
+SquaredImageView
+.
+java
+'
+'
+widget
+/
 TabRow
 .
 java

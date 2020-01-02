@@ -135,7 +135,7 @@ R
 .
 attr
 .
-homeGridViewStyle
+panelGridViewStyle
 )
 ;
 mAdapter
