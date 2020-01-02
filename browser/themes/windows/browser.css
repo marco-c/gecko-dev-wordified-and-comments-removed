@@ -3485,6 +3485,8 @@ menubutton
 button
 [
 disabled
+=
+true
 ]
 >
 .
@@ -4631,6 +4633,8 @@ open
 )
 [
 disabled
+=
+true
 ]
 )
 +
@@ -4659,6 +4663,8 @@ open
 )
 [
 disabled
+=
+true
 ]
 )
 :
@@ -4953,6 +4959,8 @@ not
 (
 [
 disabled
+=
+true
 ]
 )
 :
@@ -4992,6 +5000,8 @@ not
 (
 [
 disabled
+=
+true
 ]
 )
 :
@@ -5021,6 +5031,8 @@ not
 (
 [
 disabled
+=
+true
 ]
 )
 :
@@ -5063,6 +5075,8 @@ not
 (
 [
 disabled
+=
+true
 ]
 )
 :
@@ -5105,6 +5119,8 @@ not
 (
 [
 disabled
+=
+true
 ]
 )
 :
@@ -5150,6 +5166,8 @@ any
 (
 [
 disabled
+=
+true
 ]
 :
 not
@@ -5163,6 +5181,8 @@ not
 (
 [
 disabled
+=
+true
 ]
 )
 :
@@ -5307,6 +5327,8 @@ not
 (
 [
 disabled
+=
+true
 ]
 )
 :
@@ -5371,6 +5393,8 @@ not
 (
 [
 disabled
+=
+true
 ]
 )
 >
@@ -5402,6 +5426,8 @@ not
 (
 [
 disabled
+=
+true
 ]
 )
 :
@@ -5514,6 +5540,8 @@ not
 (
 [
 disabled
+=
+true
 ]
 )
 :
@@ -5548,6 +5576,8 @@ not
 (
 [
 disabled
+=
+true
 ]
 )
 >
@@ -5568,6 +5598,8 @@ not
 (
 [
 disabled
+=
+true
 ]
 )
 :
@@ -5605,6 +5637,8 @@ not
 (
 [
 disabled
+=
+true
 ]
 )
 :
@@ -5642,6 +5676,8 @@ not
 (
 [
 disabled
+=
+true
 ]
 )
 :
@@ -5849,6 +5885,8 @@ not
 (
 [
 disabled
+=
+true
 ]
 )
 >
@@ -5996,6 +6034,8 @@ not
 (
 [
 disabled
+=
+true
 ]
 )
 :
@@ -6027,6 +6067,8 @@ not
 (
 [
 disabled
+=
+true
 ]
 )
 :
@@ -6045,6 +6087,8 @@ not
 (
 [
 disabled
+=
+true
 ]
 )
 :
@@ -6063,6 +6107,8 @@ not
 (
 [
 disabled
+=
+true
 ]
 )
 :
