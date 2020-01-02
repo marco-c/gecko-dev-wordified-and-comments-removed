@@ -656,9 +656,10 @@ reset
 (
 )
 ;
-gBrowser
+yield
+FullZoomHelper
 .
-removeTab
+removeTabAndWaitForLocationChange
 (
 gTab1
 )
@@ -677,9 +678,10 @@ reset
 (
 )
 ;
-gBrowser
+yield
+FullZoomHelper
 .
-removeTab
+removeTabAndWaitForLocationChange
 (
 gTab2
 )

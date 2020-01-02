@@ -898,12 +898,6 @@ browser
 ;
 if
 (
-gMultiProcessBrowser
-)
-return
-;
-if
-(
 !
 aURI
 |
