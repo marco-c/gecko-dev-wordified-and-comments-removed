@@ -331,6 +331,7 @@ data
 )
 )
 {
+final
 BitmapDrawable
 d
 =
@@ -474,6 +475,7 @@ data
 )
 ;
 }
+final
 URL
 url
 =
@@ -483,6 +485,7 @@ URL
 data
 )
 ;
+final
 InputStream
 is
 =
@@ -589,6 +592,7 @@ icon
 )
 )
 {
+final
 Uri
 imageUri
 =
@@ -599,8 +603,9 @@ parse
 data
 )
 ;
+final
 String
-resource
+ssp
 =
 imageUri
 .
@@ -608,13 +613,15 @@ getSchemeSpecificPart
 (
 )
 ;
+final
+String
 resource
 =
-resource
+ssp
 .
 substring
 (
-resource
+ssp
 .
 lastIndexOf
 (
@@ -628,6 +635,7 @@ lastIndexOf
 ;
 try
 {
+final
 Drawable
 d
 =
@@ -674,6 +682,7 @@ drawable
 )
 )
 {
+final
 Uri
 imageUri
 =
@@ -684,6 +693,7 @@ parse
 data
 )
 ;
+final
 int
 id
 =
@@ -697,6 +707,7 @@ drawable
 ic_status_logo
 )
 ;
+final
 Drawable
 d
 =
