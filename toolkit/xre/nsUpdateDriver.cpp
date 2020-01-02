@@ -2502,6 +2502,11 @@ IsWindowsMetroUpdateRequest
 appArgc
 appArgv
 )
+|
+|
+IsRunningInWindowsMetro
+(
+)
 )
 {
 immersiveArgc
@@ -3689,6 +3694,11 @@ IsWindowsMetroUpdateRequest
 (
 appArgc
 appArgv
+)
+|
+|
+IsRunningInWindowsMetro
+(
 )
 )
 {
