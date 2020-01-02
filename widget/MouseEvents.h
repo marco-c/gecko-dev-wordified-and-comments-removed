@@ -319,9 +319,6 @@ pressure
 uint16_t
 inputSource
 ;
-nsString
-region
-;
 void
 AssignMouseEventBaseData
 (
