@@ -629,12 +629,9 @@ nsIScrollableFrame
 *
 scrollFrame
 =
-nsLayoutUtils
-:
-:
-GetScrollableFrameFor
+do_QueryFrame
 (
-this
+aParent
 )
 ;
 if
