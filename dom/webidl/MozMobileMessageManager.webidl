@@ -621,5 +621,9 @@ attribute
 EventHandler
 onreaderror
 ;
+attribute
+EventHandler
+ondeleted
+;
 }
 ;
