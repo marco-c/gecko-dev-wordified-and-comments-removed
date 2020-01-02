@@ -91,6 +91,9 @@ undef
 NECKO_PROTOCOL_res
 #
 undef
+NECKO_PROTOCOL_rtsp
+#
+undef
 NECKO_PROTOCOL_viewsource
 #
 undef

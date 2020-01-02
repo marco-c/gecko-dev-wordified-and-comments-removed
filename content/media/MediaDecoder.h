@@ -82,6 +82,15 @@ AbstractMediaDecoder
 .
 h
 "
+#
+include
+"
+necko
+-
+config
+.
+h
+"
 class
 nsIStreamListener
 ;
@@ -1271,7 +1280,7 @@ IsWebMEnabled
 endif
 #
 ifdef
-MOZ_RTSP
+NECKO_PROTOCOL_rtsp
 static
 bool
 IsRtspEnabled

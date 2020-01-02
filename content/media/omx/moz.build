@@ -139,10 +139,14 @@ cpp
 '
 ]
 if
+'
+rtsp
+'
+in
 CONFIG
 [
 '
-MOZ_RTSP
+NECKO_PROTOCOLS
 '
 ]
 :

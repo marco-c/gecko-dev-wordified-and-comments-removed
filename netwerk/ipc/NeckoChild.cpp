@@ -1,6 +1,15 @@
 #
 include
 "
+necko
+-
+config
+.
+h
+"
+#
+include
+"
 nsHttp
 .
 h
@@ -134,7 +143,7 @@ h
 "
 #
 ifdef
-MOZ_RTSP
+NECKO_PROTOCOL_rtsp
 #
 include
 "
@@ -794,7 +803,7 @@ child
 {
 #
 ifdef
-MOZ_RTSP
+NECKO_PROTOCOL_rtsp
 RtspControllerChild
 *
 p

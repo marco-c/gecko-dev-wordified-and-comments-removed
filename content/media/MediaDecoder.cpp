@@ -7075,7 +7075,7 @@ enabled
 endif
 #
 ifdef
-MOZ_RTSP
+NECKO_PROTOCOL_rtsp
 bool
 MediaDecoder
 :
