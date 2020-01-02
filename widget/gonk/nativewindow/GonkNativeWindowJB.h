@@ -441,6 +441,8 @@ this
 )
 ;
 }
+protected
+:
 virtual
 void
 Unlock

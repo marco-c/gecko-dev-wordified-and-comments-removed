@@ -208,7 +208,7 @@ mBufferAllocated
 (
 false
 )
-mGraphicBuffer
+mGraphicBufferLocked
 (
 nullptr
 )
@@ -232,7 +232,7 @@ GrallocImage
 {
 if
 (
-mGraphicBuffer
+mGraphicBufferLocked
 .
 get
 (
@@ -243,13 +243,6 @@ get
 mTextureClient
 )
 {
-mGraphicBuffer
--
->
-Unlock
-(
-)
-;
 if
 (
 mBufferAllocated
@@ -271,7 +264,7 @@ ibc
 >
 DeallocSurfaceDescriptorGralloc
 (
-mGraphicBuffer
+mGraphicBufferLocked
 -
 >
 GetSurfaceDescriptor
@@ -376,7 +369,7 @@ mPicSize
 if
 (
 !
-mGraphicBuffer
+mGraphicBufferLocked
 .
 get
 (
@@ -428,7 +421,7 @@ mBufferAllocated
 =
 true
 ;
-mGraphicBuffer
+mGraphicBufferLocked
 =
 new
 GraphicBufferLocked
@@ -448,7 +441,7 @@ GrallocBufferActor
 :
 GetFrom
 (
-mGraphicBuffer
+mGraphicBufferLocked
 -
 >
 GetSurfaceDescriptor
@@ -819,7 +812,7 @@ GrallocData
 aData
 )
 {
-mGraphicBuffer
+mGraphicBufferLocked
 =
 aData
 .
@@ -1638,7 +1631,7 @@ mTextureClient
 >
 SetGraphicBufferLocked
 (
-mGraphicBuffer
+mGraphicBufferLocked
 )
 ;
 }
