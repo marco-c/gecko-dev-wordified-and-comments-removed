@@ -162,11 +162,6 @@ ArchiveZipFile
 h
 '
 '
-DOMFileRequest
-.
-h
-'
-'
 File
 .
 h
@@ -183,6 +178,11 @@ h
 '
 '
 FileHelper
+.
+h
+'
+'
+FileRequest
 .
 h
 '
@@ -228,11 +228,6 @@ cpp
 '
 '
 AsyncHelper
-.
-cpp
-'
-'
-DOMFileRequest
 .
 cpp
 '

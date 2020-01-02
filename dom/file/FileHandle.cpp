@@ -688,6 +688,7 @@ GetOwner
 (
 )
 lockedFile
+true
 )
 ;
 nsRefPtr

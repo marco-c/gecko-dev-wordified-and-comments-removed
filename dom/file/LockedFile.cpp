@@ -106,13 +106,6 @@ h
 #
 include
 "
-DOMFileRequest
-.
-h
-"
-#
-include
-"
 FileHandle
 .
 h
@@ -121,6 +114,13 @@ h
 include
 "
 FileHelper
+.
+h
+"
+#
+include
+"
+FileRequest
 .
 h
 "
@@ -1690,7 +1690,7 @@ NS_OK
 }
 already_AddRefed
 <
-DOMFileRequest
+FileRequest
 >
 LockedFile
 :
@@ -1712,7 +1712,7 @@ thread
 )
 ;
 return
-DOMFileRequest
+FileRequest
 :
 :
 Create
@@ -1721,6 +1721,7 @@ GetOwner
 (
 )
 this
+false
 )
 ;
 }
@@ -2246,7 +2247,7 @@ NS_ERROR_TYPE_ERR
 }
 nsRefPtr
 <
-DOMFileRequest
+FileRequest
 >
 fileRequest
 =
@@ -2384,7 +2385,7 @@ NS_OK
 }
 nsRefPtr
 <
-DOMFileRequest
+FileRequest
 >
 fileRequest
 =
@@ -2544,7 +2545,7 @@ NS_OK
 }
 nsRefPtr
 <
-DOMFileRequest
+FileRequest
 >
 fileRequest
 =
@@ -2838,7 +2839,7 @@ NS_OK
 }
 nsRefPtr
 <
-DOMFileRequest
+FileRequest
 >
 fileRequest
 =
@@ -2974,7 +2975,7 @@ NS_OK
 }
 nsRefPtr
 <
-DOMFileRequest
+FileRequest
 >
 fileRequest
 =
@@ -3433,7 +3434,7 @@ NS_OK
 }
 nsRefPtr
 <
-DOMFileRequest
+FileRequest
 >
 fileRequest
 =
