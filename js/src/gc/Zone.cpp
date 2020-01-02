@@ -632,8 +632,6 @@ onTooMuchMalloc
 (
 )
 {
-if
-(
 TriggerZoneGC
 (
 this
@@ -642,13 +640,7 @@ gcreason
 :
 TOO_MUCH_MALLOC
 )
-)
-{
-gcMallocBytes
-=
-PTRDIFF_MAX
 ;
-}
 }
 void
 Zone
