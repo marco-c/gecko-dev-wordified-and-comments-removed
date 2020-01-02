@@ -4378,8 +4378,9 @@ PublicSSLState
 )
 -
 >
-SetOCSPStaplingEnabled
+SetOCSPOptions
 (
+ocspEnabled
 ocspStaplingEnabled
 )
 ;
@@ -4388,8 +4389,9 @@ PrivateSSLState
 )
 -
 >
-SetOCSPStaplingEnabled
+SetOCSPOptions
 (
+ocspEnabled
 ocspStaplingEnabled
 )
 ;
