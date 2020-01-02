@@ -100,12 +100,6 @@ nsWindowDataSource
 )
 {
 }
-virtual
-~
-nsWindowDataSource
-(
-)
-;
 nsresult
 Init
 (
@@ -121,6 +115,14 @@ NS_DECL_NSIOBSERVER
 NS_DECL_NSIWINDOWMEDIATORLISTENER
 NS_DECL_NSIWINDOWDATASOURCE
 NS_DECL_NSIRDFDATASOURCE
+protected
+:
+virtual
+~
+nsWindowDataSource
+(
+)
+;
 private
 :
 nsInterfaceHashtable

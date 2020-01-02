@@ -139,12 +139,6 @@ nsWindowMediator
 inMediator
 )
 ;
-virtual
-~
-nsAppShellWindowEnumerator
-(
-)
-;
 NS_IMETHOD
 GetNext
 (
@@ -167,6 +161,12 @@ retval
 NS_DECL_ISUPPORTS
 protected
 :
+virtual
+~
+nsAppShellWindowEnumerator
+(
+)
+;
 void
 AdjustInitialPosition
 (

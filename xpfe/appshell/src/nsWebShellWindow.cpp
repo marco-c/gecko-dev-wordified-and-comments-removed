@@ -2040,6 +2040,12 @@ NS_OK
 }
 private
 :
+~
+WebShellWindowTimerCallback
+(
+)
+{
+}
 nsRefPtr
 <
 nsWebShellWindow
