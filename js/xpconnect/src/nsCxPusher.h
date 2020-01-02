@@ -249,6 +249,8 @@ aSafe
 MOZ_GUARD_OBJECT_NOTIFIER_PARAM
 )
 ;
+private
+:
 void
 Init
 (
@@ -322,11 +324,6 @@ AutoSafeJSContext
 (
 MOZ_GUARD_OBJECT_NOTIFIER_ONLY_PARAM
 )
-;
-private
-:
-JSAutoCompartment
-mAc
 ;
 }
 ;
