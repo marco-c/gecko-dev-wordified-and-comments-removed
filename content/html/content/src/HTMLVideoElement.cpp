@@ -347,6 +347,15 @@ return
 NS_ERROR_FAILURE
 ;
 }
+if
+(
+mDisableVideo
+)
+{
+return
+NS_ERROR_FAILURE
+;
+}
 size
 -
 >
