@@ -344,6 +344,8 @@ public
 static
 interface
 CloseAllPanelView
+extends
+PanelView
 {
 public
 void

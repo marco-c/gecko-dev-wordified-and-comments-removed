@@ -266,9 +266,6 @@ TwoWayView
 implements
 TabsPanel
 .
-PanelView
-TabsPanel
-.
 CloseAllPanelView
 {
 private
