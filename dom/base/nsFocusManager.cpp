@@ -4440,6 +4440,8 @@ NS_LITERAL_STRING
 focus
 "
 )
+nullptr
+0
 )
 ;
 if
@@ -5890,6 +5892,8 @@ NS_LITERAL_STRING
 focus
 "
 )
+nullptr
+0
 )
 ;
 if
@@ -7415,6 +7419,8 @@ NS_LITERAL_STRING
 focus
 "
 )
+nullptr
+0
 )
 ;
 SendFocusOrBlurEvent
@@ -8325,6 +8331,8 @@ NS_LITERAL_STRING
 focus
 "
 )
+nullptr
+0
 )
 ;
 SendFocusOrBlurEvent
@@ -8378,6 +8386,8 @@ NS_LITERAL_STRING
 focus
 "
 )
+nullptr
+0
 )
 ;
 }
@@ -8496,6 +8506,8 @@ NS_LITERAL_STRING
 focus
 "
 )
+nullptr
+0
 )
 ;
 }
