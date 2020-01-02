@@ -190,7 +190,7 @@ NSINSTALL
 endif
 endif
 ifndef
-BUILDING_JS
+JS_STANDALONE
 HEADERS_FILES
 =
 \
@@ -259,7 +259,7 @@ DUNICODE
 -
 D_UNICODE
 ifndef
-BUILDING_JS
+JS_STANDALONE
 #
 Generate
 a
@@ -651,7 +651,7 @@ pyc
 FORCE
 :
 ifndef
-BUILDING_JS
+JS_STANDALONE
 check
 -
 preqs

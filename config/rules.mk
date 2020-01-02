@@ -2340,12 +2340,6 @@ relativesrcdir
 ;
 endif
 ifdef
-BUILDING_JS
-NO_BUILDSTATUS_MESSAGES
-=
-1
-endif
-ifdef
 MACH
 ifndef
 NO_BUILDSTATUS_MESSAGES

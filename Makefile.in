@@ -295,7 +295,7 @@ status
 endif
 endif
 ifdef
-BUILDING_JS
+JS_STANDALONE
 .
 PHONY
 :
@@ -791,7 +791,7 @@ the
 former
 .
 ifdef
-BUILDING_JS
+JS_STANDALONE
 NO_REMOVE
 =
 1
@@ -1089,7 +1089,7 @@ dist
 -
 sdk
 ifndef
-BUILDING_JS
+JS_STANDALONE
 ifdef
 ENABLE_TESTS
 #
@@ -1368,7 +1368,7 @@ SYM_STORE_SOURCE_DIRS
 topsrcdir
 )
 ifndef
-BUILDING_JS
+JS_STANDALONE
 include
 (
 topsrcdir
@@ -2006,7 +2006,7 @@ PASSED
 fi
 endif
 ifdef
-BUILDING_JS
+JS_STANDALONE
 #
 Delegate
 js

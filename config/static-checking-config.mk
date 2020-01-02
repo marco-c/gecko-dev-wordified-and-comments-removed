@@ -92,7 +92,7 @@ checking
 .
 js
 ifndef
-BUILDING_JS
+JS_STANDALONE
 DEHYDRA_MODULES
 =
 \

@@ -1688,8 +1688,6 @@ top
 -
 level
 directories
-ifdef
-BUILDING_JS
 ifndef
 JS_STANDALONE
 #
@@ -1734,7 +1732,6 @@ src
 want_abspaths
 =
 1
-endif
 endif
 endif
 ifdef
