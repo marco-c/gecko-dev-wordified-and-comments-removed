@@ -120,8 +120,6 @@ aPacket
 let
 data
 =
-wantLogging
-?
 JSON
 .
 stringify
@@ -129,13 +127,6 @@ stringify
 aPacket
 null
 2
-)
-:
-JSON
-.
-stringify
-(
-aPacket
 )
 ;
 data
