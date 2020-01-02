@@ -38,12 +38,17 @@ aDecoder
 MediaDecoderReader
 *
 aReader
+bool
+aRealTime
+=
+false
 )
 :
 MediaDecoderStateMachine
 (
 aDecoder
 aReader
+aRealTime
 )
 {
 }

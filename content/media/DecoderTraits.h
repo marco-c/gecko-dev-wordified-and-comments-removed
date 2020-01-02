@@ -111,6 +111,16 @@ nsACString
 aType
 )
 ;
+static
+bool
+DecoderWaitsForOnConnected
+(
+const
+nsACString
+&
+aType
+)
+;
 }
 ;
 }
