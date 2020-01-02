@@ -1042,6 +1042,9 @@ explicit
 atom
 -
 tables
+\
+/
+main
 /
 )
 >
@@ -1051,7 +1054,7 @@ tables
 {
 present
 .
-atomTable
+atomTablesMain
 =
 true
 ;
@@ -2027,11 +2030,13 @@ ok
 (
 present
 .
-atomTable
+atomTablesMain
 "
 atom
 -
-table
+tables
+/
+main
 is
 present
 "
