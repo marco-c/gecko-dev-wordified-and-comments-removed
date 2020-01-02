@@ -19955,6 +19955,17 @@ PresContext
 (
 )
 ;
+if
+(
+!
+layerBuilder
+-
+>
+GetContainingThebesLayerData
+(
+)
+)
+{
 int32_t
 appUnitsPerDevPixel
 =
@@ -19985,6 +19996,7 @@ userData
 mYScale
 )
 ;
+}
 nsRefPtr
 <
 nsRenderingContext
