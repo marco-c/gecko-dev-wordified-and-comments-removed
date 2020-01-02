@@ -111,14 +111,8 @@ return
 m_sampleRate
 ;
 }
-double
-tailTime
-(
-)
-const
-;
-double
-latencyTime
+int
+maxTailFrames
 (
 )
 const
