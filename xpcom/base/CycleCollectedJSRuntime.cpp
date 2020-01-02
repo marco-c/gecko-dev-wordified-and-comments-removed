@@ -4766,6 +4766,10 @@ aStatus
 case
 JSGC_BEGIN
 :
+nsCycleCollector_prepareForGarbageCollection
+(
+)
+;
 break
 ;
 case

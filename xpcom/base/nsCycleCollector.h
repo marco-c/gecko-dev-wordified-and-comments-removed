@@ -119,6 +119,11 @@ false
 )
 ;
 void
+nsCycleCollector_prepareForGarbageCollection
+(
+)
+;
+void
 nsCycleCollector_dispatchDeferredDeletion
 (
 bool
