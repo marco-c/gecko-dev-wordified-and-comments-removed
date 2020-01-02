@@ -1104,7 +1104,12 @@ maybecx
 maybecx
 -
 >
-realloc_
+runtime
+(
+)
+-
+>
+reallocCanGC
 (
 oldptr
 size
@@ -1171,7 +1176,12 @@ maybecx
 maybecx
 -
 >
-calloc_
+runtime
+(
+)
+-
+>
+callocCanGC
 (
 size
 )

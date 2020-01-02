@@ -1305,6 +1305,10 @@ nullptr
 )
 #
 endif
+largeAllocationFailureCallback
+(
+nullptr
+)
 {
 liveRuntimesCount
 +
