@@ -3482,6 +3482,16 @@ here
 <
 !
 ENTITY
+home_closed_tabs_title
+"
+Recently
+closed
+tabs
+"
+>
+<
+!
+ENTITY
 home_last_tabs_title
 "
 Tabs
