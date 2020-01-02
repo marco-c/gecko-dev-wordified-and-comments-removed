@@ -249,10 +249,3 @@ config
 rules
 .
 mk
-LOCAL_INCLUDES
-=
--
-I
-(
-srcdir
-)
