@@ -976,7 +976,7 @@ if
 (
 listItem
 instanceof
-SearchEnginePreference
+CustomListPreference
 &
 &
 listItem
