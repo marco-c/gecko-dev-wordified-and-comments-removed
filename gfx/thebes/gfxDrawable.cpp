@@ -763,6 +763,15 @@ aPattern
 )
 {
 }
+gfxPatternDrawable
+:
+:
+~
+gfxPatternDrawable
+(
+)
+{
+}
 class
 DrawingCallbackFromDrawable
 :
