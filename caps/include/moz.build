@@ -102,4 +102,9 @@ nsJSPrincipals
 .
 h
 '
+'
+nsNullPrincipal
+.
+h
+'
 ]

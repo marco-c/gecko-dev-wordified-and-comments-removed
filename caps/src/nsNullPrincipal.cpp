@@ -80,6 +80,13 @@ h
 #
 include
 "
+nsPrincipal
+.
+h
+"
+#
+include
+"
 nsScriptSecurityManager
 .
 h

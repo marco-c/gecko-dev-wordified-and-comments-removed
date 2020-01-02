@@ -28,13 +28,6 @@ h
 #
 include
 "
-nsPrincipal
-.
-h
-"
-#
-include
-"
 nsIContentSecurityPolicy
 .
 h
