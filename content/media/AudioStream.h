@@ -449,6 +449,9 @@ mLatencyLog
 TimeStamp
 mStartTime
 ;
+LatencyRequest
+mLatencyRequest
+;
 int64_t
 mReadPoint
 ;
