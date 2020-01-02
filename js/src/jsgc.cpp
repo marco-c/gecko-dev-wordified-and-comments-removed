@@ -8048,6 +8048,8 @@ GCMarker
 :
 init
 (
+JSGCMode
+gcMode
 )
 {
 return
@@ -8055,7 +8057,7 @@ stack
 .
 init
 (
-MARK_STACK_LENGTH
+gcMode
 )
 ;
 }
@@ -21854,6 +21856,8 @@ rt
 -
 >
 gcMode
+(
+)
 !
 =
 JSGC_MODE_INCREMENTAL
@@ -22676,6 +22680,8 @@ rt
 -
 >
 gcMode
+(
+)
 =
 =
 JSGC_MODE_GLOBAL

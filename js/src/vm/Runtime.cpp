@@ -700,10 +700,6 @@ gcJitReleaseTime
 (
 0
 )
-gcMode
-(
-JSGC_MODE_GLOBAL
-)
 gcAllocationThreshold
 (
 30
@@ -1249,6 +1245,11 @@ liveRuntimesCount
 +
 +
 ;
+setGCMode
+(
+JSGC_MODE_GLOBAL
+)
+;
 JS_INIT_CLIST
 (
 &
@@ -1475,6 +1476,9 @@ gcMarker
 .
 init
 (
+gcMode
+(
+)
 )
 )
 return

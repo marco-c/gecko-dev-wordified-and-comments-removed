@@ -6900,6 +6900,8 @@ rt
 -
 >
 gcMode
+(
+)
 =
 =
 JSGC_MODE_INCREMENTAL
