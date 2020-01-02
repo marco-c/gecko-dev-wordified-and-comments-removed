@@ -8702,6 +8702,10 @@ mAutoplayEnabled
 (
 true
 )
+mStatsShowing
+(
+false
+)
 mPaused
 (
 true
