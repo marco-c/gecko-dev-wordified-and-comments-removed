@@ -271,6 +271,11 @@ d
 new
 BitmapDrawable
 (
+context
+.
+getResources
+(
+)
 getBitmapFromDataURI
 (
 data
