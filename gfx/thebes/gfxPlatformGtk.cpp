@@ -35,6 +35,13 @@ h
 #
 include
 "
+gfx2DGlue
+.
+h
+"
+#
+include
+"
 gfxFontconfigUtils
 .
 h
@@ -365,7 +372,7 @@ gfxPlatformGtk
 CreateOffscreenSurface
 (
 const
-gfxIntSize
+IntSize
 &
 size
 gfxContentType
@@ -453,7 +460,10 @@ Create
 (
 screen
 xrenderFormat
+ThebesIntSize
+(
 size
+)
 )
 ;
 }
@@ -465,7 +475,10 @@ newSurface
 new
 gfxImageSurface
 (
+ThebesIntSize
+(
 size
+)
 imageFormat
 )
 ;
@@ -488,7 +501,10 @@ newSurface
 new
 gfxImageSurface
 (
+ThebesIntSize
+(
 size
+)
 imageFormat
 )
 ;

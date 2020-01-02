@@ -16925,7 +16925,7 @@ GetPlatform
 >
 CreateOffscreenSurface
 (
-gfxIntSize
+IntSize
 (
 ceil
 (

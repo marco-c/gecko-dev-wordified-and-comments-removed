@@ -134,6 +134,13 @@ namespace
 mozilla
 :
 :
+gfx
+;
+using
+namespace
+mozilla
+:
+:
 layers
 ;
 using
@@ -430,7 +437,7 @@ GetPlatform
 >
 CreateOffscreenSurface
 (
-gfxIntSize
+IntSize
 (
 1
 1

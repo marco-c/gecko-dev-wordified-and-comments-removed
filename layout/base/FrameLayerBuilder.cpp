@@ -9817,6 +9817,10 @@ itemVisibleRect
 Size
 (
 )
+.
+ToIntSize
+(
+)
 gfxContentType
 :
 :
@@ -16108,7 +16112,7 @@ GetPlatform
 >
 CreateOffscreenSurface
 (
-gfxIntSize
+IntSize
 (
 bounds
 .

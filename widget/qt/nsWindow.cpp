@@ -1385,6 +1385,10 @@ GetPlatform
 CreateOffscreenSurface
 (
 gBufferMaxSize
+.
+ToIntSize
+(
+)
 gfxASurface
 :
 :

@@ -110,6 +110,13 @@ h
 #
 include
 "
+gfx2DGlue
+.
+h
+"
+#
+include
+"
 gfxQuartzSurface
 .
 h
@@ -131,6 +138,10 @@ h
 namespace
 mozilla
 {
+using
+namespace
+gfx
+;
 namespace
 gl
 {
@@ -237,7 +248,7 @@ ImageFormat
 aFmt
 )
 {
-gfxIntSize
+IntSize
 size
 (
 aSize
@@ -475,7 +486,10 @@ new
 gfxQuartzSurface
 (
 data
+ThebesIntSize
+(
 size
+)
 size
 .
 width

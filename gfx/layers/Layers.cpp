@@ -596,13 +596,7 @@ GetPlatform
 >
 CreateOffscreenSurface
 (
-gfx
-:
-:
-ThebesIntSize
-(
 aSize
-)
 gfxASurface
 :
 :

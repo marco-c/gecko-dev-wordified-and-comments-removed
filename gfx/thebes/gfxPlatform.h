@@ -522,6 +522,16 @@ gfxPlatform
 {
 public
 :
+typedef
+mozilla
+:
+:
+gfx
+:
+:
+IntSize
+IntSize
+;
 static
 gfxPlatform
 *
@@ -543,7 +553,7 @@ gfxASurface
 CreateOffscreenSurface
 (
 const
-gfxIntSize
+IntSize
 &
 size
 gfxContentType

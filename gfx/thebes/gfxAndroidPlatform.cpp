@@ -37,6 +37,13 @@ h
 #
 include
 "
+gfx2DGlue
+.
+h
+"
+#
+include
+"
 gfxFT2FontList
 .
 h
@@ -546,7 +553,7 @@ gfxAndroidPlatform
 CreateOffscreenSurface
 (
 const
-gfxIntSize
+IntSize
 &
 size
 gfxContentType
@@ -564,7 +571,10 @@ newSurface
 new
 gfxImageSurface
 (
+ThebesIntSize
+(
 size
+)
 OptimalFormatForContent
 (
 contentType

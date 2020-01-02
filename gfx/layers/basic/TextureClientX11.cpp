@@ -536,14 +536,6 @@ ContentForFormat
 mFormat
 )
 ;
-gfxIntSize
-size
-=
-ThebesIntSize
-(
-aSize
-)
-;
 nsRefPtr
 <
 gfxASurface
@@ -560,7 +552,7 @@ GetPlatform
 >
 CreateOffscreenSurface
 (
-size
+aSize
 contentType
 )
 ;

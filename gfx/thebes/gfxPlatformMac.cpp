@@ -351,7 +351,7 @@ gfxPlatformMac
 CreateOffscreenSurface
 (
 const
-gfxIntSize
+IntSize
 &
 size
 gfxContentType
@@ -367,7 +367,10 @@ newSurface
 new
 gfxQuartzSurface
 (
+ThebesIntSize
+(
 size
+)
 OptimalFormatForContent
 (
 contentType
@@ -408,6 +411,10 @@ surface
 CreateOffscreenSurface
 (
 aSize
+.
+ToIntSize
+(
+)
 aContentType
 )
 ;
