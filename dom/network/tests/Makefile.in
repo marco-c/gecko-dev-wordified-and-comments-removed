@@ -101,6 +101,10 @@ test_networkstats_enabled_perm
 .
 html
 \
+test_networkstats_alarms
+.
+html
+\
 (
 NULL
 )
