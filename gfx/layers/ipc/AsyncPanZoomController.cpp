@@ -7606,6 +7606,10 @@ aLayerMetrics
 .
 mScrollOffset
 ;
+needContentRepaint
+=
+true
+;
 }
 }
 if
