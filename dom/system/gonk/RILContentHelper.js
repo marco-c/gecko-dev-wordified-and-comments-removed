@@ -1515,9 +1515,16 @@ r
 function
 CellBroadcastMessage
 (
+clientId
 pdu
 )
 {
+this
+.
+serviceId
+=
+clientId
+;
 this
 .
 gsmGeographicalScope
@@ -1662,6 +1669,10 @@ nsIDOMMozCellBroadcastMessage
 ]
 }
 )
+serviceId
+:
+-
+1
 gsmGeographicalScope
 :
 null
@@ -9298,6 +9309,7 @@ message
 new
 CellBroadcastMessage
 (
+clientId
 data
 )
 ;
@@ -9305,7 +9317,7 @@ this
 .
 _deliverEvent
 (
-clientId
+0
 "
 _cellBroadcastListeners
 "
