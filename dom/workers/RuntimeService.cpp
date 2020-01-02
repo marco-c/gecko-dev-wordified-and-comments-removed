@@ -3626,6 +3626,11 @@ value
 ;
 }
 }
+JS_SetIsWorkerRuntime
+(
+aRuntime
+)
+;
 JS_SetNativeStackQuota
 (
 aRuntime
