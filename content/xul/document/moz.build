@@ -104,11 +104,15 @@ public
 src
 '
 ]
-DIRS
+MOCHITEST_CHROME_MANIFESTS
 +
 =
 [
 '
 test
+/
+chrome
+.
+ini
 '
 ]
