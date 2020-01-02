@@ -1047,11 +1047,6 @@ histogram
 name
 *
 param
-expiration
-Expiration
-version
-*
-param
 min
 -
 Minimal
@@ -1152,9 +1147,6 @@ newHistogram
 in
 ACString
 name
-in
-ACString
-expiration
 in
 uint32_t
 min

@@ -259,17 +259,6 @@ entries
 ]
 :
             
-e
-=
-explodeToCharArray
-(
-string
-)
-            
-if
-e
-:
-                
 f
 .
 write
@@ -291,7 +280,7 @@ s
 \
 n
 "
-                        
+                    
 %
 (
 offset
@@ -300,32 +289,6 @@ explodeToCharArray
 string
 )
 )
-)
-            
-else
-:
-                
-f
-.
-write
-(
-"
-/
-*
-%
-5d
-*
-/
-'
-\
-\
-0
-'
-\
-n
-"
-%
-offset
 )
         
 f
@@ -382,7 +345,6 @@ print_array_entry
 (
 histogram
 name_index
-exp_index
 )
 :
     
@@ -425,8 +387,6 @@ s
 %
 d
 %
-d
-%
 s
 }
 "
@@ -457,7 +417,6 @@ nsITelemetry_kind
 )
            
 name_index
-exp_index
            
 "
 true
@@ -526,24 +485,10 @@ name
 )
 )
         
-exp_index
-=
-table
-.
-stringIndex
-(
-histogram
-.
-expiration
-(
-)
-)
-        
 print_array_entry
 (
 histogram
 name_index
-exp_index
 )
     
 print
