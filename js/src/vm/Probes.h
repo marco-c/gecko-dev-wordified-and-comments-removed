@@ -78,7 +78,7 @@ InterpreterFrame
 *
 )
 ;
-bool
+void
 ExitScript
 (
 JSContext

@@ -7920,6 +7920,9 @@ error
 }
 else
 {
+if
+(
+!
 probes
 :
 :
@@ -7939,7 +7942,12 @@ entryFrame
 (
 )
 )
+)
+{
+goto
+error
 ;
+}
 }
 if
 (

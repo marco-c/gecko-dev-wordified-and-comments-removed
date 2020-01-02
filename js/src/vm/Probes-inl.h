@@ -127,11 +127,6 @@ InterpreterFrame
 fp
 )
 {
-bool
-ok
-=
-true
-;
 #
 ifdef
 INCLUDE_MOZILLA_DTRACE
@@ -188,6 +183,9 @@ enabled
 )
 )
 {
+if
+(
+!
 rt
 -
 >
@@ -198,6 +196,9 @@ enter
 script
 maybeFun
 )
+)
+return
+false
 ;
 JS_ASSERT_IF
 (
@@ -226,11 +227,11 @@ setPushedSPSFrame
 ;
 }
 return
-ok
+true
 ;
 }
 inline
-bool
+void
 probes
 :
 :
@@ -249,11 +250,6 @@ bool
 popSPSFrame
 )
 {
-bool
-ok
-=
-true
-;
 #
 ifdef
 INCLUDE_MOZILLA_DTRACE
@@ -306,9 +302,6 @@ exit
 script
 maybeFun
 )
-;
-return
-ok
 ;
 }
 inline
