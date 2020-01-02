@@ -6368,7 +6368,6 @@ numRequests
 return
 nullptr
 ;
-;
 }
 static
 nsISupports
@@ -7297,6 +7296,11 @@ newObject
 -
 >
 SetCRMFRequest
+(
+encodedRequest
+)
+;
+PORT_Free
 (
 encodedRequest
 )
