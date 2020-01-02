@@ -548,8 +548,9 @@ NS_GetCurrentThread
 )
 )
 ;
-MOZ_ALWAYS_TRUE
+NS_WARN_IF
 (
+!
 mVideoDecoders
 .
 RemoveElement
@@ -603,8 +604,9 @@ NS_GetCurrentThread
 )
 )
 ;
-MOZ_ALWAYS_TRUE
+NS_WARN_IF
 (
+!
 mVideoEncoders
 .
 RemoveElement
