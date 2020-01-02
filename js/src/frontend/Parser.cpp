@@ -13631,6 +13631,7 @@ setMightAliasLocals
 (
 )
 ;
+}
 if
 (
 name
@@ -13645,14 +13646,16 @@ names
 .
 arguments
 )
-funbox
+pc
+-
+>
+sc
 -
 >
 setHasDebuggerStatement
 (
 )
 ;
-}
 return
 true
 ;
