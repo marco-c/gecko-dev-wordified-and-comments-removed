@@ -5973,6 +5973,8 @@ errorFlag
 NS_LITERAL_CSTRING
 (
 "
+Layout
+:
 MathML
 "
 )
