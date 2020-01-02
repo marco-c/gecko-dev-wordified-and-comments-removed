@@ -9788,6 +9788,12 @@ if
 CanForciblyDiscard
 (
 )
+|
+|
+mDecoder
+|
+|
+mAnim
 )
 return
 NS_ERROR_NOT_AVAILABLE
@@ -10208,6 +10214,14 @@ if
 CanDiscard
 (
 )
+&
+&
+!
+mDecoder
+&
+&
+!
+mAnim
 )
 {
 ForceDiscard
