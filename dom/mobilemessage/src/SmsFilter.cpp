@@ -843,7 +843,7 @@ NS_ERROR_INVALID_ARG
 uint32_t
 size
 ;
-JS_ALWAYS_TRUE
+MOZ_ALWAYS_TRUE
 (
 JS_GetArrayLength
 (
