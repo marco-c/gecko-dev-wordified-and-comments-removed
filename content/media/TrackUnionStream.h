@@ -620,6 +620,8 @@ FinishOnGraphThread
 )
 ;
 }
+else
+{
 mBuffer
 .
 AdvanceKnownTracksTime
@@ -630,6 +632,7 @@ aTo
 )
 )
 ;
+}
 if
 (
 allHaveCurrentData
