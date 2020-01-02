@@ -2245,6 +2245,8 @@ target
 tab
 )
 {
+try
+{
 this
 .
 target
@@ -2258,6 +2260,13 @@ removeProgressListener
 this
 )
 ;
+}
+catch
+(
+ex
+)
+{
+}
 }
 this
 .
