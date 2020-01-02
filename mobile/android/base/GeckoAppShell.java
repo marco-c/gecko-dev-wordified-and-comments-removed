@@ -67,6 +67,17 @@ mozilla
 .
 gecko
 .
+prompts
+.
+PromptService
+;
+import
+org
+.
+mozilla
+.
+gecko
+.
 mozglue
 .
 GeckoLoader
