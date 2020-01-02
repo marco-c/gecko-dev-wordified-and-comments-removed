@@ -503,6 +503,12 @@ _XCR_XFEATURE_ENABLED_MASK
 elif
 defined
 (
+_MSC_VER
+)
+&
+&
+defined
+(
 _M_IX86
 )
 __asm
