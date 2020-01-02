@@ -453,6 +453,7 @@ plugin
 crash
 is
 ours
+.
 *
 /
 boolean
@@ -462,6 +463,10 @@ unsigned
 long
 long
 pluginId
+DOMString
+name
+DOMString
+pluginDumpID
 )
 ;
 /

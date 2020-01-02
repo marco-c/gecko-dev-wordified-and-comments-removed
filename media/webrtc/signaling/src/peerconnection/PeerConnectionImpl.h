@@ -2082,6 +2082,14 @@ PluginCrash
 (
 uint64_t
 aPluginID
+const
+nsAString
+&
+aPluginName
+const
+nsAString
+&
+aPluginDumpID
 )
 ;
 nsresult
