@@ -150,14 +150,6 @@ MSGResult
 ;
 }
 }
-#
-define
-WM_USER_TSF_TEXTCHANGE
-(
-WM_USER
-+
-0x100
-)
 class
 nsTextStore
 MOZ_FINAL
@@ -1129,11 +1121,6 @@ uint32_t
 uint32_t
 )
 ;
-void
-OnTextChangeMsg
-(
-)
-;
 nsresult
 OnSelectionChangeInternal
 (
@@ -1257,9 +1244,6 @@ mLock
 ;
 DWORD
 mLockQueued
-;
-TS_TEXTCHANGE
-mTextChange
 ;
 class
 Composition
