@@ -6091,6 +6091,14 @@ mIsSrcdocDocument
 bool
 mDidDocumentOpen
 ;
+#
+ifdef
+DEBUG
+bool
+mIsLinkUpdateRegistrationsForbidden
+;
+#
+endif
 nsCOMPtr
 <
 nsIScriptGlobalObject
