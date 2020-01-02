@@ -498,17 +498,6 @@ indexed
 -
 db
 "
-"
-devtools
-/
-toolkit
-/
-qrcode
-/
-decoder
-/
-index
-"
 ]
 ;
 function
