@@ -65,7 +65,7 @@ AutoPtr
 :
 mPtr
 (
-NULL
+nullptr
 )
 {
 }
@@ -116,7 +116,7 @@ return
 mPtr
 =
 =
-NULL
+nullptr
 ;
 }
 T
@@ -161,7 +161,7 @@ JS_ASSERT
 mPtr
 =
 =
-NULL
+nullptr
 )
 ;
 mPtr
@@ -183,7 +183,7 @@ mPtr
 ;
 mPtr
 =
-NULL
+nullptr
 ;
 return
 result
@@ -474,7 +474,7 @@ str
 >
 getChars
 (
-NULL
+nullptr
 )
 ;
 if
@@ -569,7 +569,7 @@ str
 >
 getChars
 (
-NULL
+nullptr
 )
 ;
 if
@@ -792,7 +792,7 @@ str
 >
 getChars
 (
-NULL
+nullptr
 )
 ;
 if
@@ -1277,11 +1277,11 @@ runtime
 )
 errResult
 (
-NULL
+nullptr
 )
 closure
 (
-NULL
+nullptr
 )
 {
 }

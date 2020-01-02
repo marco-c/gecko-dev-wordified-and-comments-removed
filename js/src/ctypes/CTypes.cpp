@@ -380,7 +380,7 @@ JS_ReportErrorFlagsAndNumber
 maybecx
 JSREPORT_ERROR
 js_GetErrorMessage
-NULL
+nullptr
 JSMSG_BAD_SURROGATE_CHAR
 buffer
 )
@@ -701,7 +701,7 @@ JS_ReportErrorNumber
 (
 maybecx
 js_GetErrorMessage
-NULL
+nullptr
 JSMSG_BUFFER_TOO_SMALL
 )
 ;
@@ -2140,10 +2140,10 @@ JS_StrictPropertyStub
 JS_EnumerateStub
 JS_ResolveStub
 JS_ConvertStub
-NULL
-NULL
+nullptr
+nullptr
 ConstructAbstract
-NULL
+nullptr
 ConstructAbstract
 }
 ;
@@ -2192,7 +2192,7 @@ CType
 :
 :
 Finalize
-NULL
+nullptr
 CType
 :
 :
@@ -2241,12 +2241,12 @@ CData
 :
 :
 Finalize
-NULL
+nullptr
 FunctionType
 :
 :
 Call
-NULL
+nullptr
 FunctionType
 :
 :
@@ -2279,10 +2279,10 @@ CClosure
 :
 :
 Finalize
-NULL
-NULL
-NULL
-NULL
+nullptr
+nullptr
+nullptr
+nullptr
 CClosure
 :
 :
@@ -3854,7 +3854,7 @@ errorNumber
 ]
 ;
 return
-NULL
+nullptr
 ;
 }
 static
@@ -3940,7 +3940,7 @@ JS_ReportErrorNumber
 (
 cx
 GetErrorMessage
-NULL
+nullptr
 CTYPESMSG_TYPE_ERROR
 expected
 src
@@ -3984,7 +3984,7 @@ if
 fun
 )
 return
-NULL
+nullptr
 ;
 RootedObject
 ctor
@@ -4014,7 +4014,7 @@ fnproto
 )
 )
 return
-NULL
+nullptr
 ;
 JS_ASSERT
 (
@@ -4046,7 +4046,7 @@ if
 prototype
 )
 return
-NULL
+nullptr
 ;
 if
 (
@@ -4062,8 +4062,8 @@ OBJECT_TO_JSVAL
 (
 prototype
 )
-NULL
-NULL
+nullptr
+nullptr
 JSPROP_ENUMERATE
 |
 JSPROP_READONLY
@@ -4072,7 +4072,7 @@ JSPROP_PERMANENT
 )
 )
 return
-NULL
+nullptr
 ;
 if
 (
@@ -4088,8 +4088,8 @@ OBJECT_TO_JSVAL
 (
 ctor
 )
-NULL
-NULL
+nullptr
+nullptr
 JSPROP_ENUMERATE
 |
 JSPROP_READONLY
@@ -4098,7 +4098,7 @@ JSPROP_PERMANENT
 )
 )
 return
-NULL
+nullptr
 ;
 if
 (
@@ -4120,7 +4120,7 @@ sCTypeFunctions
 )
 )
 return
-NULL
+nullptr
 ;
 if
 (
@@ -4140,7 +4140,7 @@ prototype
 )
 )
 return
-NULL
+nullptr
 ;
 return
 prototype
@@ -4166,9 +4166,9 @@ cx
 JS_NewObject
 (
 cx
-NULL
-NULL
-NULL
+nullptr
+nullptr
+nullptr
 )
 )
 ;
@@ -4178,7 +4178,7 @@ if
 obj
 )
 return
-NULL
+nullptr
 ;
 if
 (
@@ -4191,7 +4191,7 @@ sCABIFunctions
 )
 )
 return
-NULL
+nullptr
 ;
 return
 obj
@@ -4233,7 +4233,7 @@ if
 fun
 )
 return
-NULL
+nullptr
 ;
 RootedObject
 ctor
@@ -4261,7 +4261,7 @@ CTypeProto
 )
 )
 return
-NULL
+nullptr
 ;
 RootedObject
 prototype
@@ -4272,7 +4272,7 @@ JS_NewObject
 cx
 &
 sCDataProtoClass
-NULL
+nullptr
 parent
 )
 )
@@ -4283,7 +4283,7 @@ if
 prototype
 )
 return
-NULL
+nullptr
 ;
 if
 (
@@ -4299,8 +4299,8 @@ OBJECT_TO_JSVAL
 (
 prototype
 )
-NULL
-NULL
+nullptr
+nullptr
 JSPROP_ENUMERATE
 |
 JSPROP_READONLY
@@ -4309,7 +4309,7 @@ JSPROP_PERMANENT
 )
 )
 return
-NULL
+nullptr
 ;
 if
 (
@@ -4325,8 +4325,8 @@ OBJECT_TO_JSVAL
 (
 ctor
 )
-NULL
-NULL
+nullptr
+nullptr
 JSPROP_ENUMERATE
 |
 JSPROP_READONLY
@@ -4335,7 +4335,7 @@ JSPROP_PERMANENT
 )
 )
 return
-NULL
+nullptr
 ;
 if
 (
@@ -4357,7 +4357,7 @@ sCDataFunctions
 )
 )
 return
-NULL
+nullptr
 ;
 if
 (
@@ -4369,7 +4369,7 @@ ctor
 )
 )
 return
-NULL
+nullptr
 ;
 return
 prototype
@@ -4567,8 +4567,8 @@ OBJECT_TO_JSVAL
 (
 typeProto
 )
-NULL
-NULL
+nullptr
+nullptr
 JSPROP_ENUMERATE
 |
 JSPROP_READONLY
@@ -4622,8 +4622,8 @@ OBJECT_TO_JSVAL
 (
 obj
 )
-NULL
-NULL
+nullptr
+nullptr
 JSPROP_ENUMERATE
 |
 JSPROP_READONLY
@@ -4769,13 +4769,13 @@ JS_InitClass
 (
 cx
 parent
-NULL
+nullptr
 clasp
 construct
 0
-NULL
+nullptr
 fs
-NULL
+nullptr
 static_fs
 )
 )
@@ -4786,7 +4786,7 @@ if
 prototype
 )
 return
-NULL
+nullptr
 ;
 RootedObject
 ctor
@@ -4805,7 +4805,7 @@ if
 ctor
 )
 return
-NULL
+nullptr
 ;
 if
 (
@@ -4817,7 +4817,7 @@ ctor
 )
 )
 return
-NULL
+nullptr
 ;
 JS_ASSERT
 (
@@ -4881,7 +4881,7 @@ if
 fun
 )
 return
-NULL
+nullptr
 ;
 js
 :
@@ -4906,7 +4906,7 @@ prototype
 )
 )
 return
-NULL
+nullptr
 ;
 return
 prototype
@@ -5038,7 +5038,7 @@ parent
 CTypeProto
 CDataProto
 sPointerFunction
-NULL
+nullptr
 sPointerProps
 sPointerInstanceFunctions
 sPointerInstanceProps
@@ -5069,7 +5069,7 @@ parent
 CTypeProto
 CDataProto
 sArrayFunction
-NULL
+nullptr
 sArrayProps
 sArrayInstanceFunctions
 sArrayInstanceProps
@@ -5103,7 +5103,7 @@ sStructFunction
 sStructFunctions
 sStructProps
 sStructInstanceFunctions
-NULL
+nullptr
 protos
 .
 handleAt
@@ -5136,10 +5136,10 @@ handleAt
 SLOT_POINTERDATAPROTO
 )
 sFunctionFunction
-NULL
+nullptr
 sFunctionProps
 sFunctionInstanceFunctions
-NULL
+nullptr
 protos
 .
 handleAt
@@ -5425,8 +5425,8 @@ OBJECT_TO_JSVAL
 (
 typeObj_unsigned_int
 )
-NULL
-NULL
+nullptr
+nullptr
 JSPROP_ENUMERATE
 |
 JSPROP_READONLY
@@ -5505,8 +5505,8 @@ OBJECT_TO_JSVAL
 (
 typeObj
 )
-NULL
-NULL
+nullptr
+nullptr
 JSPROP_ENUMERATE
 |
 JSPROP_READONLY
@@ -5574,7 +5574,7 @@ result
 )
 )
 return
-NULL
+nullptr
 ;
 return
 static_cast
@@ -5712,8 +5712,8 @@ JS_NewObject
 cx
 &
 sCTypesGlobalClass
-NULL
-NULL
+nullptr
+nullptr
 )
 )
 ;
@@ -5817,7 +5817,7 @@ JS_NewObject
 cx
 &
 sCDataFinalizerProtoClass
-NULL
+nullptr
 ctypes
 )
 )
@@ -5866,8 +5866,8 @@ OBJECT_TO_JSVAL
 (
 prototype
 )
-NULL
-NULL
+nullptr
+nullptr
 JSPROP_ENUMERATE
 |
 JSPROP_READONLY
@@ -5892,8 +5892,8 @@ OBJECT_TO_JSVAL
 (
 ctor
 )
-NULL
-NULL
+nullptr
+nullptr
 JSPROP_ENUMERATE
 |
 JSPROP_READONLY
@@ -7670,7 +7670,7 @@ string
 >
 getChars
 (
-NULL
+nullptr
 )
 ;
 if
@@ -10005,19 +10005,19 @@ JSObject
 *
 sourceData
 =
-NULL
+nullptr
 ;
 JSObject
 *
 sourceType
 =
-NULL
+nullptr
 ;
 RootedObject
 valObj
 (
 cx
-NULL
+nullptr
 )
 ;
 if
@@ -10624,7 +10624,7 @@ void
 buffer
 )
 =
-NULL
+nullptr
 ;
 break
 ;
@@ -11594,7 +11594,7 @@ item
 baseType
 data
 false
-NULL
+nullptr
 )
 )
 return
@@ -12056,7 +12056,7 @@ field
 mType
 fieldData
 false
-NULL
+nullptr
 )
 )
 return
@@ -12175,7 +12175,7 @@ val
 targetType
 buffer
 false
-NULL
+nullptr
 )
 )
 return
@@ -14911,7 +14911,7 @@ obj
 NullPtr
 (
 )
-NULL
+nullptr
 true
 )
 )
@@ -15060,7 +15060,7 @@ if
 typeObj
 )
 return
-NULL
+nullptr
 ;
 JS_SetReservedSlot
 (
@@ -15139,7 +15139,7 @@ if
 prototype
 )
 return
-NULL
+nullptr
 ;
 if
 (
@@ -15155,15 +15155,15 @@ OBJECT_TO_JSVAL
 (
 typeObj
 )
-NULL
-NULL
+nullptr
+nullptr
 JSPROP_READONLY
 |
 JSPROP_PERMANENT
 )
 )
 return
-NULL
+nullptr
 ;
 JS_SetReservedSlot
 (
@@ -15186,7 +15186,7 @@ typeObj
 )
 )
 return
-NULL
+nullptr
 ;
 JS_ASSERT_IF
 (
@@ -15302,7 +15302,7 @@ if
 nameStr
 )
 return
-NULL
+nullptr
 ;
 RootedObject
 typeObj
@@ -15327,7 +15327,7 @@ if
 typeObj
 )
 return
-NULL
+nullptr
 ;
 if
 (
@@ -15341,8 +15341,8 @@ OBJECT_TO_JSVAL
 (
 typeObj
 )
-NULL
-NULL
+nullptr
+nullptr
 JSPROP_ENUMERATE
 |
 JSPROP_READONLY
@@ -15351,7 +15351,7 @@ JSPROP_PERMANENT
 )
 )
 return
-NULL
+nullptr
 ;
 return
 typeObj
@@ -16706,7 +16706,7 @@ if
 result
 )
 return
-NULL
+nullptr
 ;
 JS_SetReservedSlot
 (
@@ -16794,7 +16794,7 @@ if
 name
 )
 return
-NULL
+nullptr
 ;
 JS_SetReservedSlot
 (
@@ -16931,7 +16931,7 @@ proto
 )
 )
 return
-NULL
+nullptr
 ;
 JS_ASSERT
 (
@@ -18015,7 +18015,7 @@ objTypeProto
 )
 )
 return
-NULL
+nullptr
 ;
 JS_ASSERT
 (
@@ -18511,7 +18511,7 @@ if
 dataProto
 )
 return
-NULL
+nullptr
 ;
 RootedObject
 typeProto
@@ -18534,7 +18534,7 @@ if
 typeProto
 )
 return
-NULL
+nullptr
 ;
 JSObject
 *
@@ -18549,7 +18549,7 @@ cx
 typeProto
 dataProto
 TYPE_pointer
-NULL
+nullptr
 INT_TO_JSVAL
 (
 sizeof
@@ -18574,7 +18574,7 @@ if
 typeObj
 )
 return
-NULL
+nullptr
 ;
 JS_SetReservedSlot
 (
@@ -18699,7 +18699,7 @@ obj
 NullPtr
 (
 )
-NULL
+nullptr
 true
 )
 )
@@ -18848,7 +18848,7 @@ RootedObject
 thisObj
 (
 cx
-NULL
+nullptr
 )
 ;
 if
@@ -18877,7 +18877,7 @@ isNull
 {
 thisObj
 =
-NULL
+nullptr
 ;
 }
 else
@@ -19254,7 +19254,7 @@ setBoolean
 data
 =
 =
-NULL
+nullptr
 )
 ;
 return
@@ -19718,7 +19718,7 @@ if
 data
 =
 =
-NULL
+nullptr
 )
 {
 JS_ReportError
@@ -19927,7 +19927,7 @@ if
 data
 =
 =
-NULL
+nullptr
 )
 {
 JS_ReportError
@@ -19955,7 +19955,7 @@ vp
 baseType
 data
 false
-NULL
+nullptr
 )
 ;
 }
@@ -20213,7 +20213,7 @@ if
 typeProto
 )
 return
-NULL
+nullptr
 ;
 RootedObject
 dataProto
@@ -20236,7 +20236,7 @@ if
 dataProto
 )
 return
-NULL
+nullptr
 ;
 size_t
 baseSize
@@ -20268,7 +20268,7 @@ defined
 )
 ;
 return
-NULL
+nullptr
 ;
 }
 RootedValue
@@ -20322,7 +20322,7 @@ overflow
 )
 ;
 return
-NULL
+nullptr
 ;
 }
 if
@@ -20353,7 +20353,7 @@ address
 )
 )
 return
-NULL
+nullptr
 ;
 }
 size_t
@@ -20380,13 +20380,13 @@ cx
 typeProto
 dataProto
 TYPE_array
-NULL
+nullptr
 sizeVal
 INT_TO_JSVAL
 (
 align
 )
-NULL
+nullptr
 )
 ;
 if
@@ -20395,7 +20395,7 @@ if
 typeObj
 )
 return
-NULL
+nullptr
 ;
 JS_SetReservedSlot
 (
@@ -20864,7 +20864,7 @@ obj
 NullPtr
 (
 )
-NULL
+nullptr
 true
 )
 ;
@@ -21264,7 +21264,7 @@ if
 ffiBaseType
 )
 return
-NULL
+nullptr
 ;
 size_t
 length
@@ -21306,7 +21306,7 @@ cx
 )
 ;
 return
-NULL
+nullptr
 ;
 }
 ffiType
@@ -21376,7 +21376,7 @@ cx
 )
 ;
 return
-NULL
+nullptr
 ;
 }
 for
@@ -21412,7 +21412,7 @@ elements
 length
 ]
 =
-NULL
+nullptr
 ;
 return
 ffiType
@@ -22029,7 +22029,7 @@ vp
 baseType
 data
 false
-NULL
+nullptr
 )
 ;
 }
@@ -22217,7 +22217,7 @@ pointerType
 NullPtr
 (
 )
-NULL
+nullptr
 true
 )
 )
@@ -22387,7 +22387,7 @@ type
 )
 ;
 return
-NULL
+nullptr
 ;
 }
 RootedObject
@@ -22417,7 +22417,7 @@ if
 iter
 )
 return
-NULL
+nullptr
 ;
 RootedId
 nameid
@@ -22440,7 +22440,7 @@ address
 )
 )
 return
-NULL
+nullptr
 ;
 if
 (
@@ -22467,7 +22467,7 @@ type
 )
 ;
 return
-NULL
+nullptr
 ;
 }
 if
@@ -22496,7 +22496,7 @@ type
 )
 ;
 return
-NULL
+nullptr
 ;
 }
 jsid
@@ -22514,7 +22514,7 @@ id
 )
 )
 return
-NULL
+nullptr
 ;
 if
 (
@@ -22540,7 +22540,7 @@ property
 )
 ;
 return
-NULL
+nullptr
 ;
 }
 RootedValue
@@ -22562,7 +22562,7 @@ propVal
 )
 )
 return
-NULL
+nullptr
 ;
 if
 (
@@ -22605,7 +22605,7 @@ type
 )
 ;
 return
-NULL
+nullptr
 ;
 }
 *
@@ -22659,7 +22659,7 @@ size
 )
 ;
 return
-NULL
+nullptr
 ;
 }
 return
@@ -22712,9 +22712,9 @@ cx
 JS_NewObject
 (
 cx
-NULL
-NULL
-NULL
+nullptr
+nullptr
+nullptr
 )
 )
 ;
@@ -22757,8 +22757,8 @@ OBJECT_TO_JSVAL
 (
 typeObj
 )
-NULL
-NULL
+nullptr
+nullptr
 JSPROP_ENUMERATE
 |
 JSPROP_READONLY
@@ -22914,7 +22914,7 @@ name
 )
 JSVAL_VOID
 JSVAL_VOID
-NULL
+nullptr
 )
 )
 ;
@@ -22950,7 +22950,7 @@ args
 ]
 )
 ?
-NULL
+nullptr
 :
 &
 args
@@ -23176,7 +23176,7 @@ cx
 &
 sCDataProtoClass
 dataProto
-NULL
+nullptr
 )
 )
 ;
@@ -23202,8 +23202,8 @@ OBJECT_TO_JSVAL
 (
 typeObj
 )
-NULL
-NULL
+nullptr
+nullptr
 JSPROP_READONLY
 |
 JSPROP_PERMANENT
@@ -23351,7 +23351,7 @@ RootedObject
 fieldType
 (
 cx
-NULL
+nullptr
 )
 ;
 JSFlatString
@@ -23841,7 +23841,7 @@ cx
 )
 ;
 return
-NULL
+nullptr
 ;
 }
 ffiType
@@ -23894,7 +23894,7 @@ cx
 )
 ;
 return
-NULL
+nullptr
 ;
 }
 elements
@@ -23902,7 +23902,7 @@ elements
 len
 ]
 =
-NULL
+nullptr
 ;
 for
 (
@@ -23970,7 +23970,7 @@ if
 fieldType
 )
 return
-NULL
+nullptr
 ;
 elements
 [
@@ -24029,7 +24029,7 @@ cx
 )
 ;
 return
-NULL
+nullptr
 ;
 }
 elements
@@ -24045,7 +24045,7 @@ elements
 1
 ]
 =
-NULL
+nullptr
 ;
 }
 ffiType
@@ -24093,7 +24093,7 @@ ffiType
 get
 (
 )
-NULL
+nullptr
 )
 ;
 JS_ASSERT
@@ -24468,7 +24468,7 @@ obj
 NullPtr
 (
 )
-NULL
+nullptr
 true
 )
 ;
@@ -24689,7 +24689,7 @@ field
 .
 mOffset
 false
-NULL
+nullptr
 )
 )
 return
@@ -24887,7 +24887,7 @@ if
 bytes
 )
 return
-NULL
+nullptr
 ;
 JS_ReportError
 (
@@ -24909,7 +24909,7 @@ ptr
 )
 ;
 return
-NULL
+nullptr
 ;
 }
 JSObject
@@ -25002,7 +25002,7 @@ len
 )
 )
 return
-NULL
+nullptr
 ;
 js
 :
@@ -25092,7 +25092,7 @@ mType
 )
 )
 return
-NULL
+nullptr
 ;
 }
 RootedObject
@@ -25117,7 +25117,7 @@ if
 fieldsProp
 )
 return
-NULL
+nullptr
 ;
 if
 (
@@ -25129,7 +25129,7 @@ fieldsProp
 )
 )
 return
-NULL
+nullptr
 ;
 return
 fieldsProp
@@ -25593,7 +25593,7 @@ field
 mType
 data
 false
-NULL
+nullptr
 )
 ;
 }
@@ -25825,7 +25825,7 @@ pointerType
 NullPtr
 (
 )
-NULL
+nullptr
 true
 )
 ;
@@ -25906,7 +25906,7 @@ AutoValue
 :
 mData
 (
-NULL
+nullptr
 )
 {
 }
@@ -25972,7 +25972,7 @@ return
 mData
 !
 =
-NULL
+nullptr
 ;
 }
 void
@@ -26140,7 +26140,7 @@ type
 )
 ;
 return
-NULL
+nullptr
 ;
 }
 JSObject
@@ -26201,7 +26201,7 @@ if
 result
 )
 return
-NULL
+nullptr
 ;
 }
 else
@@ -26234,7 +26234,7 @@ type
 )
 ;
 return
-NULL
+nullptr
 ;
 }
 if
@@ -26263,7 +26263,7 @@ size
 )
 ;
 return
-NULL
+nullptr
 ;
 }
 JS_ASSERT
@@ -26329,7 +26329,7 @@ type
 )
 ;
 return
-NULL
+nullptr
 ;
 }
 JSObject
@@ -26382,7 +26382,7 @@ function
 )
 ;
 return
-NULL
+nullptr
 ;
 }
 if
@@ -26417,7 +26417,7 @@ size
 )
 ;
 return
-NULL
+nullptr
 ;
 }
 JS_ASSERT
@@ -26964,7 +26964,7 @@ cx
 )
 ;
 return
-NULL
+nullptr
 ;
 }
 ffi_abi
@@ -26993,7 +26993,7 @@ specification
 )
 ;
 return
-NULL
+nullptr
 ;
 }
 fninfo
@@ -27026,7 +27026,7 @@ fninfo
 mReturnType
 )
 return
-NULL
+nullptr
 ;
 if
 (
@@ -27060,7 +27060,7 @@ cx
 )
 ;
 return
-NULL
+nullptr
 ;
 }
 fninfo
@@ -27104,7 +27104,7 @@ isEllipsis
 )
 )
 return
-NULL
+nullptr
 ;
 if
 (
@@ -27156,7 +27156,7 @@ declaration
 )
 ;
 return
-NULL
+nullptr
 ;
 }
 if
@@ -27196,7 +27196,7 @@ declaration
 )
 ;
 return
-NULL
+nullptr
 ;
 }
 if
@@ -27231,7 +27231,7 @@ convention
 )
 ;
 return
-NULL
+nullptr
 ;
 }
 break
@@ -27256,7 +27256,7 @@ if
 argType
 )
 return
-NULL
+nullptr
 ;
 ffi_type
 *
@@ -27277,7 +27277,7 @@ if
 ffiType
 )
 return
-NULL
+nullptr
 ;
 fninfo
 -
@@ -27328,7 +27328,7 @@ get
 )
 )
 return
-NULL
+nullptr
 ;
 return
 fninfo
@@ -27410,7 +27410,7 @@ RootedObject
 arrayObj
 (
 cx
-NULL
+nullptr
 )
 ;
 if
@@ -27658,7 +27658,7 @@ if
 fninfo
 )
 return
-NULL
+nullptr
 ;
 RootedObject
 typeProto
@@ -27684,7 +27684,7 @@ if
 typeProto
 )
 return
-NULL
+nullptr
 ;
 RootedObject
 dataProto
@@ -27710,7 +27710,7 @@ if
 dataProto
 )
 return
-NULL
+nullptr
 ;
 JSObject
 *
@@ -27725,10 +27725,10 @@ cx
 typeProto
 dataProto
 TYPE_function
-NULL
+nullptr
 JSVAL_VOID
 JSVAL_VOID
-NULL
+nullptr
 )
 ;
 if
@@ -27737,7 +27737,7 @@ if
 typeObj
 )
 return
-NULL
+nullptr
 ;
 JS_SetReservedSlot
 (
@@ -29553,8 +29553,8 @@ JS_NewObject
 cx
 &
 sCClosureClass
-NULL
-NULL
+nullptr
+nullptr
 )
 )
 ;
@@ -29564,7 +29564,7 @@ if
 result
 )
 return
-NULL
+nullptr
 ;
 FunctionInfo
 *
@@ -29634,7 +29634,7 @@ cx
 )
 ;
 return
-NULL
+nullptr
 ;
 }
 RootedObject
@@ -29655,7 +29655,7 @@ proto
 )
 )
 return
-NULL
+nullptr
 ;
 JS_ASSERT
 (
@@ -29733,7 +29733,7 @@ sentinel
 )
 ;
 return
-NULL
+nullptr
 ;
 }
 JS_ASSERT
@@ -29786,7 +29786,7 @@ cinfo
 errResult
 )
 return
-NULL
+nullptr
 ;
 if
 (
@@ -29804,11 +29804,11 @@ cinfo
 >
 errResult
 false
-NULL
+nullptr
 )
 )
 return
-NULL
+nullptr
 ;
 }
 else
@@ -29818,7 +29818,7 @@ cinfo
 >
 errResult
 =
-NULL
+nullptr
 ;
 }
 cinfo
@@ -29904,7 +29904,7 @@ error
 )
 ;
 return
-NULL
+nullptr
 ;
 }
 ffi_status
@@ -29957,7 +29957,7 @@ error
 )
 ;
 return
-NULL
+nullptr
 ;
 }
 JS_SetReservedSlot
@@ -30626,7 +30626,7 @@ fninfo
 mReturnType
 result
 false
-NULL
+nullptr
 )
 ;
 if
@@ -30998,7 +30998,7 @@ if
 dataObj
 )
 return
-NULL
+nullptr
 ;
 JS_SetReservedSlot
 (
@@ -31062,7 +31062,7 @@ cx
 )
 ;
 return
-NULL
+nullptr
 ;
 }
 char
@@ -31131,7 +31131,7 @@ buffer
 )
 ;
 return
-NULL
+nullptr
 ;
 }
 if
@@ -31585,7 +31585,7 @@ GetData
 obj
 )
 false
-NULL
+nullptr
 )
 ;
 }
@@ -31732,7 +31732,7 @@ pointerType
 NullPtr
 (
 )
-NULL
+nullptr
 true
 )
 ;
@@ -32491,7 +32491,7 @@ if
 data
 =
 =
-NULL
+nullptr
 )
 {
 JS_ReportError
@@ -32871,7 +32871,7 @@ source
 )
 )
 return
-NULL
+nullptr
 ;
 AppendString
 (
@@ -33773,7 +33773,7 @@ valData
 )
 {
 return
-NULL
+nullptr
 ;
 }
 return
@@ -33815,7 +33815,7 @@ data
 )
 ;
 return
-NULL
+nullptr
 ;
 }
 if
@@ -33856,7 +33856,7 @@ data
 )
 ;
 return
-NULL
+nullptr
 ;
 }
 RootedValue
@@ -33899,7 +33899,7 @@ CDataFinalizer
 )
 ;
 return
-NULL
+nullptr
 ;
 }
 return
@@ -34105,7 +34105,7 @@ cx
 &
 sCDataFinalizerClass
 objProto
-NULL
+nullptr
 )
 ;
 args
@@ -34660,7 +34660,7 @@ cx
 &
 sCDataFinalizerClass
 objProto
-NULL
+nullptr
 )
 ;
 if
@@ -35663,7 +35663,7 @@ CallFinalizer
 p
 &
 errnoStatus
-NULL
+nullptr
 )
 ;
 #
@@ -35804,8 +35804,8 @@ CDataFinalizer
 CallFinalizer
 (
 p
-NULL
-NULL
+nullptr
+nullptr
 )
 ;
 CDataFinalizer
@@ -35814,7 +35814,7 @@ CDataFinalizer
 Cleanup
 (
 p
-NULL
+nullptr
 )
 ;
 }
@@ -35888,7 +35888,7 @@ obj
 JS_SetPrivate
 (
 obj
-NULL
+nullptr
 )
 ;
 for
@@ -35976,7 +35976,7 @@ if
 result
 )
 return
-NULL
+nullptr
 ;
 uint64_t
 *
@@ -36005,7 +36005,7 @@ cx
 )
 ;
 return
-NULL
+nullptr
 ;
 }
 JS_SetReservedSlot
@@ -36028,7 +36028,7 @@ result
 )
 )
 return
-NULL
+nullptr
 ;
 return
 result
