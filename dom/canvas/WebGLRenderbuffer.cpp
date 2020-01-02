@@ -203,6 +203,9 @@ WebGLContext
 context
 )
 :
+WebGLBindableName
+(
+)
 WebGLContextBoundObject
 (
 context
@@ -222,10 +225,6 @@ mInternalFormat
 mInternalFormatForGL
 (
 0
-)
-mHasEverBeenBound
-(
-false
 )
 mImageDataStatus
 (
