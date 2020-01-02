@@ -1248,8 +1248,6 @@ stub
 (
 loop
 .
-shared
-.
 Client
 .
 prototype
@@ -1337,8 +1335,6 @@ sandbox
 stub
 (
 loop
-.
-shared
 .
 Client
 .
@@ -1447,8 +1443,6 @@ sandbox
 stub
 (
 loop
-.
-shared
 .
 Client
 .
@@ -1563,8 +1557,6 @@ stub
 (
 loop
 .
-shared
-.
 Client
 .
 prototype
@@ -1658,8 +1650,6 @@ sandbox
 stub
 (
 loop
-.
-shared
 .
 Client
 .
