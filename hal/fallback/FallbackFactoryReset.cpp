@@ -14,6 +14,14 @@ hal_impl
 void
 FactoryReset
 (
+mozilla
+:
+:
+dom
+:
+:
+FactoryResetReason
+&
 )
 {
 }

@@ -296,6 +296,15 @@ PowerManager
 :
 FactoryReset
 (
+mozilla
+:
+:
+dom
+:
+:
+FactoryResetReason
+&
+aReason
 )
 {
 hal
@@ -303,6 +312,7 @@ hal
 :
 FactoryReset
 (
+aReason
 )
 ;
 }

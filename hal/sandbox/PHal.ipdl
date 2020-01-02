@@ -815,6 +815,8 @@ aState
 ;
 FactoryReset
 (
+nsString
+aReason
 )
 ;
 child
