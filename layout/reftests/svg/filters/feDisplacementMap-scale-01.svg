@@ -125,6 +125,12 @@ height
 "
 200
 "
+filterRes
+=
+"
+400
+100
+"
 color
 -
 interpolation
