@@ -276,6 +276,15 @@ hello
 )
 )
 ;
+ASSERT_TRUE
+(
+input
+.
+AtEnd
+(
+)
+)
+;
 }
 TEST_F
 (
