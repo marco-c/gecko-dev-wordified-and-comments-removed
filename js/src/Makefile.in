@@ -859,6 +859,12 @@ trace
 .
 d
 endif
+NO_PROFILE_GUIDED_OPTIMIZE
+:
+=
+jsanchor
+.
+cpp
 backend
 .
 RecursiveMakeBackend
