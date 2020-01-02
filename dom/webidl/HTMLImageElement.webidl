@@ -426,6 +426,10 @@ the
 img
 -
 element
+partial
+interface
+HTMLImageElement
+{
 [
 Pref
 =
@@ -439,10 +443,6 @@ srcset
 enabled
 "
 ]
-partial
-interface
-HTMLImageElement
-{
 readonly
 attribute
 DOMString
