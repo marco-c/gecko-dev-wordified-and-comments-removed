@@ -45283,12 +45283,12 @@ nullptr
 ;
 childrenDestroyed
 =
+oldChildCount
+-
 children
 -
 >
 entryCount
--
-oldChildCount
 ;
 }
 else
