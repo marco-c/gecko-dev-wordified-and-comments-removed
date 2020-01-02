@@ -32,8 +32,14 @@ public
 explicit
 CallbackFunction
 (
+JS
+:
+:
+Handle
+<
 JSObject
 *
+>
 aCallable
 nsIGlobalObject
 *

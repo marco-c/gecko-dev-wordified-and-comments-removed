@@ -144,8 +144,14 @@ CallbackObject
 explicit
 CallbackObject
 (
+JS
+:
+:
+Handle
+<
 JSObject
 *
+>
 aCallback
 nsIGlobalObject
 *
