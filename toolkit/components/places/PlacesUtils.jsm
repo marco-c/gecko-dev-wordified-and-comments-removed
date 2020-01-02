@@ -12003,7 +12003,7 @@ this
 .
 new
 .
-URI
+uri
 this
 .
 item
