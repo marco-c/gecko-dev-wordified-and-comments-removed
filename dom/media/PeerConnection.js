@@ -3935,8 +3935,6 @@ provider
 message
 .
 identity
-.
-name
 )
 ;
 let
