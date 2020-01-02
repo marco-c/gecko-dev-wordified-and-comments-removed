@@ -1919,11 +1919,11 @@ rowBytes
 }
 result
 .
-setIsOpaque
+setAlphaType
 (
 img
 .
-isOpaque
+alphaType
 (
 )
 )
@@ -2245,11 +2245,11 @@ false
 ;
 result
 .
-setIsOpaque
+setAlphaType
 (
 source
 .
-isOpaque
+alphaType
 (
 )
 )
