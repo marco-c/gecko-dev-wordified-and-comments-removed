@@ -1024,7 +1024,10 @@ PIXEL_FORMAT_RGBA_8888
 mFlags
 |
 =
-TEXTURE_RB_SWAPPED
+TextureFlags
+:
+:
+RB_SWAPPED
 ;
 break
 ;
@@ -1065,7 +1068,10 @@ PIXEL_FORMAT_RGBX_8888
 mFlags
 |
 =
-TEXTURE_RB_SWAPPED
+TextureFlags
+:
+:
+RB_SWAPPED
 ;
 break
 ;

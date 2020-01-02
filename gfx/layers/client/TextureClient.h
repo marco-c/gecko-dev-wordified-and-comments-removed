@@ -320,7 +320,10 @@ TextureClient
 TextureFlags
 aFlags
 =
-TEXTURE_FLAGS_DEFAULT
+TextureFlags
+:
+:
+DEFAULT
 )
 ;
 virtual
@@ -605,7 +608,10 @@ const
 return
 mFlags
 &
-TEXTURE_IMMUTABLE
+TextureFlags
+:
+:
+IMMUTABLE
 ;
 }
 void
@@ -615,7 +621,10 @@ MarkImmutable
 {
 AddFlags
 (
-TEXTURE_IMMUTABLE
+TextureFlags
+:
+:
+IMMUTABLE
 )
 ;
 }
