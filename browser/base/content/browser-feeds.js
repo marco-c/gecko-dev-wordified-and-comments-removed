@@ -773,15 +773,6 @@ if
 (
 !
 browserForLink
-)
-{
-return
-;
-}
-if
-(
-!
-browserForLink
 .
 feeds
 )
