@@ -30035,6 +30035,10 @@ name_
 name
 )
 {
+setGuard
+(
+)
+;
 setMovable
 (
 )
