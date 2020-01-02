@@ -352,15 +352,6 @@ Shutdown
 (
 )
 ;
-#
-if
-0
-FcFini
-(
-)
-;
-#
-endif
 }
 already_AddRefed
 <
