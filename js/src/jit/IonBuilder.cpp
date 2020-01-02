@@ -24980,6 +24980,8 @@ jinfo
 -
 >
 type
+(
+)
 !
 =
 opType
@@ -25839,6 +25841,8 @@ jitinfo
 -
 >
 returnType
+(
+)
 =
 =
 JSVAL_TYPE_UNKNOWN
@@ -25852,6 +25856,8 @@ jitinfo
 -
 >
 returnType
+(
+)
 =
 =
 JSVAL_TYPE_OBJECT
@@ -25864,6 +25870,8 @@ jitinfo
 -
 >
 returnType
+(
+)
 !
 =
 types
@@ -31055,6 +31063,8 @@ jitinfo
 -
 >
 returnType
+(
+)
 !
 =
 JSVAL_TYPE_DOUBLE
@@ -31077,6 +31087,8 @@ jitinfo
 -
 >
 returnType
+(
+)
 =
 =
 JSVAL_TYPE_UNKNOWN
@@ -31097,6 +31109,8 @@ jitinfo
 -
 >
 returnType
+(
+)
 =
 =
 observed
@@ -31116,6 +31130,8 @@ jitinfo
 -
 >
 returnType
+(
+)
 )
 ;
 if
@@ -44424,6 +44440,8 @@ jitInfo
 -
 >
 type
+(
+)
 =
 =
 JSJitInfo

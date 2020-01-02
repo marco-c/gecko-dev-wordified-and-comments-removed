@@ -44018,6 +44018,8 @@ info
 -
 >
 type
+(
+)
 =
 =
 JSJitInfo
@@ -46069,6 +46071,8 @@ info
 -
 >
 type
+(
+)
 =
 =
 JSJitInfo
@@ -47181,6 +47185,8 @@ info
 -
 >
 type
+(
+)
 =
 =
 JSJitInfo
@@ -48340,6 +48346,27 @@ n
 "
                     
 "
+JSJitInfo
+:
+:
+%
+s
+/
+*
+aliasSet
+.
+Not
+relevant
+for
+setters
+.
+*
+/
+\
+n
+"
+                    
+"
 %
 s
 /
@@ -48454,27 +48481,6 @@ n
 "
                     
 "
-JSJitInfo
-:
-:
-%
-s
-/
-*
-aliasSet
-.
-Not
-relevant
-for
-setters
-.
-*
-/
-\
-n
-"
-                    
-"
 }
 "
 %
@@ -48483,6 +48489,7 @@ opName
 protoID
 depth
 opType
+aliasSet
                            
 returnType
 failstr
@@ -48491,7 +48498,6 @@ slotStr
                            
 typedMethodStr
 slotIndex
-aliasSet
 )
 )
         

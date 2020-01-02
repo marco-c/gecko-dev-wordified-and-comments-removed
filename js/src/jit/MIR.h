@@ -31426,6 +31426,8 @@ jitinfo
 -
 >
 type
+(
+)
 =
 =
 JSJitInfo
@@ -31459,6 +31461,8 @@ jitinfo
 -
 >
 aliasSet
+(
+)
 !
 =
 JSJitInfo
@@ -31582,6 +31586,8 @@ info_
 -
 >
 aliasSet
+(
+)
 ;
 }
 size_t
