@@ -1473,8 +1473,10 @@ Declaration
 *
 mDeclaration
 ;
+nsRefPtr
+<
 ImportantRule
-*
+>
 mImportantRule
 ;
 nsRefPtr
