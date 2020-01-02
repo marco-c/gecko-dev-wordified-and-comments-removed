@@ -118,6 +118,11 @@ attribute
 DOMString
 facingMode
 ;
+readonly
+attribute
+DOMString
+mediaSource
+;
 }
 ;
 [
