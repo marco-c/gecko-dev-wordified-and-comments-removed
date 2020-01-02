@@ -374,16 +374,6 @@ TypedEnum
 h
 '
 '
-TypedEnumBits
-.
-h
-'
-'
-TypedEnumInternal
-.
-h
-'
-'
 Types
 .
 h
