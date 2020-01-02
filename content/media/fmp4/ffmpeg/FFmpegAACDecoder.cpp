@@ -365,7 +365,6 @@ bytesConsumed
 =
 avcodec_decode_audio4
 (
-&
 mCodecContext
 frame
 .
@@ -441,7 +440,8 @@ uint32_t
 numChannels
 =
 mCodecContext
-.
+-
+>
 channels
 ;
 nsAutoArrayPtr

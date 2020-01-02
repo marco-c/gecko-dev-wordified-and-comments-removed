@@ -40,7 +40,7 @@ avcodec_flush_buffers
 )
 AV_FUNC
 (
-avcodec_get_context_defaults3
+avcodec_alloc_context3
 )
 AV_FUNC
 (
@@ -73,4 +73,12 @@ av_image_fill_pointers
 AV_FUNC
 (
 av_log_set_level
+)
+AV_FUNC
+(
+av_malloc
+)
+AV_FUNC
+(
+av_freep
 )
