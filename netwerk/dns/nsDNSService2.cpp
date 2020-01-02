@@ -1717,12 +1717,12 @@ maxCacheEntries
 uint32_t
 maxCacheLifetime
 =
-2
+120
 ;
 uint32_t
 lifetimeGracePeriod
 =
-1
+60
 ;
 bool
 disableIPv6
@@ -1807,8 +1807,6 @@ val
 maxCacheLifetime
 =
 val
-/
-60
 ;
 if
 (
@@ -1828,8 +1826,6 @@ val
 lifetimeGracePeriod
 =
 val
-/
-60
 ;
 prefs
 -

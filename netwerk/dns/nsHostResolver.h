@@ -528,7 +528,7 @@ maxCacheEntries
 uint32_t
 maxCacheLifetime
 =
-1
+60
 uint32_t
 lifetimeGracePeriod
 =
@@ -671,7 +671,10 @@ mozilla
 TimeDuration
 mMaxCacheLifetime
 ;
-uint32_t
+mozilla
+:
+:
+TimeDuration
 mGracePeriod
 ;
 mutable
