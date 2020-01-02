@@ -127,6 +127,7 @@ GESTURE_WAITING_PINCH
 GESTURE_PINCH
 GESTURE_WAITING_SINGLE_TAP
 GESTURE_WAITING_DOUBLE_TAP
+GESTURE_LONG_TAP_UP
 }
 ;
 nsEventStatus
@@ -160,6 +161,15 @@ aEvent
 ;
 nsEventStatus
 HandleLongTapEvent
+(
+const
+MultiTouchInput
+&
+aEvent
+)
+;
+nsEventStatus
+HandleLongTapUpEvent
 (
 const
 MultiTouchInput

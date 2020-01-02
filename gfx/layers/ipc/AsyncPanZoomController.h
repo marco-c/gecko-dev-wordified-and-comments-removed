@@ -528,6 +528,15 @@ aEvent
 )
 ;
 nsEventStatus
+OnLongPressUp
+(
+const
+TapGestureInput
+&
+aEvent
+)
+;
+nsEventStatus
 OnSingleTapUp
 (
 const
