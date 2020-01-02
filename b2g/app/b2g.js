@@ -5977,3 +5977,17 @@ throttle
 40
 )
 ;
+pref
+(
+"
+gfx
+.
+canvas
+.
+willReadFrequently
+.
+enable
+"
+true
+)
+;
