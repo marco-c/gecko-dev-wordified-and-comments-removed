@@ -170,6 +170,17 @@ return
 module_
 ;
 }
+AsmJSActivation
+*
+prev
+(
+)
+const
+{
+return
+prev_
+;
+}
 static
 unsigned
 offsetOfContext
