@@ -601,6 +601,8 @@ fxaccounts
 .
 remote
 .
+signup
+.
 uri
 "
 "
@@ -638,7 +640,7 @@ function
 {
 fxAccounts
 .
-getAccountsURI
+getAccountsSignUpURI
 (
 )
 ;
@@ -665,6 +667,8 @@ identity
 fxaccounts
 .
 remote
+.
+signup
 .
 uri
 "

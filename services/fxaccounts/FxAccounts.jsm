@@ -290,7 +290,7 @@ getAccountsClient
 getAccountsSignInURI
 "
 "
-getAccountsURI
+getAccountsSignUpURI
 "
 "
 getAssertion
@@ -3126,7 +3126,7 @@ whenVerifiedDeferred
 )
 ;
 }
-getAccountsURI
+getAccountsSignUpURI
 :
 function
 (
@@ -3147,6 +3147,8 @@ identity
 fxaccounts
 .
 remote
+.
+signup
 .
 uri
 "

@@ -12088,6 +12088,8 @@ fxaccounts
 .
 remote
 .
+signup
+.
 uri
 "
 "
@@ -12101,6 +12103,7 @@ firefox
 .
 com
 /
+signup
 ?
 service
 =
