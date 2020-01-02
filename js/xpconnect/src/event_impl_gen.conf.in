@@ -375,4 +375,15 @@ nsCSSStyleSheet
 nsIStyleSheet
 '
 ]
+[
+'
+nsIDOMWindow
+'
+'
+nsGlobalWindow
+'
+'
+nsIDOMEventTarget
+'
+]
 ]

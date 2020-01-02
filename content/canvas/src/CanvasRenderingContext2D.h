@@ -163,6 +163,9 @@ imgIEncoder
 h
 "
 class
+nsGlobalWindow
+;
+class
 nsXULElement
 ;
 namespace
@@ -2029,8 +2032,8 @@ imageSmoothingEnabled
 void
 DrawWindow
 (
-nsIDOMWindow
-*
+nsGlobalWindow
+&
 window
 double
 x

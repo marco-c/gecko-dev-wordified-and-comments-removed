@@ -7956,7 +7956,10 @@ eRebuildStyleIfNeeded
 ;
 }
 }
-void
+already_AddRefed
+<
+nsIDOMMediaQueryList
+>
 nsPresContext
 :
 :
@@ -7966,10 +7969,6 @@ const
 nsAString
 &
 aMediaQueryList
-nsIDOMMediaQueryList
-*
-*
-aResult
 )
 {
 nsRefPtr
@@ -7992,11 +7991,11 @@ result
 mDOMMediaQueryLists
 )
 ;
+return
 result
 .
 forget
 (
-aResult
 )
 ;
 }

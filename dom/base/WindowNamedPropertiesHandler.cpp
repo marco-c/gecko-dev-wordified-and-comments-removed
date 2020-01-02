@@ -277,7 +277,7 @@ if
 win
 -
 >
-GetLength
+Length
 (
 )
 >

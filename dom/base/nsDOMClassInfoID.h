@@ -205,6 +205,14 @@ nsDOMEventBase
 11
 _extra
 )
+\
+DOMCI_CASTABLE_INTERFACE
+(
+nsGlobalWindow
+nsIDOMEventTarget
+12
+_extra
+)
 #
 define
 DOMCI_CASTABLE_NODECL_INTERFACE

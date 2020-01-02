@@ -64,7 +64,6 @@ try
 {
 setTimeout
 (
-2
 )
 ;
 }

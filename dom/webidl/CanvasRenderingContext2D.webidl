@@ -159,9 +159,6 @@ document
 interface
 HitRegionOptions
 ;
-interface
-Window
-;
 enum
 CanvasWindingRule
 {
