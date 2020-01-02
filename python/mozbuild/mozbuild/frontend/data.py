@@ -1951,10 +1951,12 @@ obj
         
 obj
 .
-refcount
-+
-=
-1
+refs
+.
+append
+(
+self
+)
 class
 BaseProgram
 (
@@ -2270,7 +2272,7 @@ import_name
 '
         
 '
-refcount
+refs
 '
     
 )
@@ -2351,9 +2353,10 @@ lib_name
         
 self
 .
-refcount
+refs
 =
-0
+[
+]
 class
 Library
 (
