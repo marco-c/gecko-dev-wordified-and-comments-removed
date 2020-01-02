@@ -374,14 +374,6 @@ getRuleViewRuleEditor
 view
 1
 )
-|
-|
-getRuleViewRuleEditor
-(
-view
-1
-0
-)
 ;
 info
 (
