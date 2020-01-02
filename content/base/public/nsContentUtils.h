@@ -1255,6 +1255,15 @@ aCharset
 )
 ;
 static
+bool
+IsCustomElementName
+(
+nsIAtom
+*
+aName
+)
+;
+static
 nsresult
 CheckQName
 (

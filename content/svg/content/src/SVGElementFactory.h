@@ -4,6 +4,9 @@ mozilla_dom_SVGElementFactory_h
 #
 define
 mozilla_dom_SVGElementFactory_h
+class
+nsIAtom
+;
 namespace
 mozilla
 {
@@ -25,6 +28,15 @@ static
 void
 Shutdown
 (
+)
+;
+static
+bool
+Exists
+(
+nsIAtom
+*
+aTag
 )
 ;
 }

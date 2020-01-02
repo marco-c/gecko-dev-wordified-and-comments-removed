@@ -324,7 +324,7 @@ fooframe
 .
 contentDocument
 .
-register
+registerElement
 (
 "
 x
