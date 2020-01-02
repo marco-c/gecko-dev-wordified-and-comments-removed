@@ -54,6 +54,25 @@ mozpack
 path
 as
 mozpath
+import
+WebIDL
+from
+Codegen
+import
+(
+    
+CGBindingRoot
+    
+CGEventRoot
+    
+CGExampleRoot
+    
+GlobalGenRoots
+)
+from
+Configuration
+import
+Configuration
 class
 BuildResult
 (
@@ -1836,11 +1855,6 @@ interface
 "
 "
         
-from
-Codegen
-import
-CGExampleRoot
-        
 root
 =
 CGExampleRoot
@@ -1872,14 +1886,6 @@ _parse_webidl
 self
 )
 :
-        
-import
-WebIDL
-        
-from
-Configuration
-import
-Configuration
         
 self
 .
@@ -2023,11 +2029,6 @@ _write_global_derived
 self
 )
 :
-        
-from
-Codegen
-import
-GlobalGenRoots
         
 things
 =
@@ -2846,17 +2847,6 @@ self
 filename
 )
 :
-        
-from
-Codegen
-import
-(
-            
-CGBindingRoot
-            
-CGEventRoot
-        
-)
         
 self
 .
