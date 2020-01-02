@@ -2481,6 +2481,17 @@ i
 .
 header
 ;
+if
+(
+!
+oldEntry
+-
+>
+isDead
+(
+)
+)
+{
 MResumePoint
 *
 oldEntryRp
@@ -2633,6 +2644,7 @@ resultTypeSet
 return
 false
 ;
+}
 }
 loopHeaders_
 [
