@@ -22,6 +22,7 @@ nsBaseChannel
 {
 public
 :
+explicit
 nsDataChannel
 (
 nsIURI

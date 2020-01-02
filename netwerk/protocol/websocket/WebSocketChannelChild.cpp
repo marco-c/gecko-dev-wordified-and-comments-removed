@@ -382,6 +382,7 @@ nsRunnable
 {
 public
 :
+explicit
 WrappedChannelEvent
 (
 ChannelEvent

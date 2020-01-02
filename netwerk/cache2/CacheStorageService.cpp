@@ -1380,6 +1380,7 @@ nsRunnable
 {
 public
 :
+explicit
 OnCacheEntryInfoRunnable
 (
 WalkDiskCacheRunnable
@@ -6388,6 +6389,7 @@ CacheFileIOListener
 public
 :
 NS_DECL_THREADSAFE_ISUPPORTS
+explicit
 CacheEntryDoomByKeyCallback
 (
 nsICacheEntryDoomCallback
@@ -7356,6 +7358,7 @@ nsRunnable
 {
 public
 :
+explicit
 Callback
 (
 nsICacheEntryDoomCallback

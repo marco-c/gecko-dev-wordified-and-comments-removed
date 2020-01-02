@@ -52,6 +52,7 @@ nsMediaFragmentURIParser
 {
 public
 :
+explicit
 nsMediaFragmentURIParser
 (
 nsIURI
@@ -59,6 +60,7 @@ nsIURI
 aURI
 )
 ;
+explicit
 nsMediaFragmentURIParser
 (
 nsCString

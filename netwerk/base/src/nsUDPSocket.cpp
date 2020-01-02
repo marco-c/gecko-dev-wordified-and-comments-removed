@@ -2322,6 +2322,7 @@ SocketListenerProxy
 }
 public
 :
+explicit
 SocketListenerProxy
 (
 nsIUDPSocketListener

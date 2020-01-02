@@ -90,6 +90,7 @@ nsRunnable
 {
 public
 :
+explicit
 AsyncApplyBufferingPolicyEvent
 (
 nsAsyncStreamCopier

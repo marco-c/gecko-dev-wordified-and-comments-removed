@@ -3838,6 +3838,7 @@ public
 NS_DECL_THREADSAFE_ISUPPORTS
 NS_DECL_NSITRANSPORT
 NS_DECL_NSISOCKETTRANSPORT
+explicit
 SocketTransportShim
 (
 nsISocketTransport
@@ -3885,6 +3886,7 @@ friend
 class
 SpdyConnectTransaction
 ;
+explicit
 OutputStreamShim
 (
 SpdyConnectTransaction
@@ -3946,6 +3948,7 @@ friend
 class
 SpdyConnectTransaction
 ;
+explicit
 InputStreamShim
 (
 SpdyConnectTransaction

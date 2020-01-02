@@ -222,6 +222,7 @@ nsICacheEntryMetaDataVisitor
 *
 )
 ;
+explicit
 _OldCacheEntryWrapper
 (
 nsICacheEntryDescriptor
@@ -229,6 +230,7 @@ nsICacheEntryDescriptor
 desc
 )
 ;
+explicit
 _OldCacheEntryWrapper
 (
 nsICacheEntryInfo
@@ -598,6 +600,7 @@ aCallback
 ;
 private
 :
+explicit
 _OldGetDiskConsumption
 (
 nsICacheStorageConsumptionObserver

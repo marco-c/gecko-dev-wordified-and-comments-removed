@@ -3913,6 +3913,7 @@ nsRunnable
 {
 public
 :
+explicit
 PredictorThreadShutdownRunner
 (
 nsIThread

@@ -352,6 +352,7 @@ public
 :
 NS_DECL_ISUPPORTS
 NS_DECL_NSICACHEDEVICEINFO
+explicit
 nsMemoryCacheDeviceInfo
 (
 nsMemoryCacheDevice

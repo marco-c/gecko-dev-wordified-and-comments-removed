@@ -55,6 +55,7 @@ PWebSocketChild
 {
 public
 :
+explicit
 WebSocketChannelChild
 (
 bool

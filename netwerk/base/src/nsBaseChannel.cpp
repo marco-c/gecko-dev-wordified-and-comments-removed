@@ -115,6 +115,7 @@ ScopedRequestSuspender
 {
 public
 :
+explicit
 ScopedRequestSuspender
 (
 nsIRequest

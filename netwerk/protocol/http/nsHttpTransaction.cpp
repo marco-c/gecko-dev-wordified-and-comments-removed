@@ -7087,6 +7087,7 @@ nsRunnable
 {
 public
 :
+explicit
 DeleteHttpTransaction
 (
 nsHttpTransaction

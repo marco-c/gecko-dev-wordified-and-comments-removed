@@ -376,6 +376,7 @@ FTPEventSinkProxy
 }
 public
 :
+explicit
 FTPEventSinkProxy
 (
 nsIFTPEventSink

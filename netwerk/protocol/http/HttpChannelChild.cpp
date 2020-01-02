@@ -2829,6 +2829,7 @@ ChannelEvent
 {
 public
 :
+explicit
 DeleteSelfEvent
 (
 HttpChannelChild
@@ -3334,6 +3335,7 @@ ChannelEvent
 {
 public
 :
+explicit
 Redirect3Event
 (
 HttpChannelChild
@@ -3418,6 +3420,7 @@ ChannelEvent
 {
 public
 :
+explicit
 HttpFlushedForDiversionEvent
 (
 HttpChannelChild

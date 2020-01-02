@@ -1218,6 +1218,7 @@ nsICacheEntry
 {
 public
 :
+explicit
 CacheEntryHandle
 (
 CacheEntry
@@ -1286,6 +1287,7 @@ CacheOutputCloseListener
 )
 ;
 NS_DECL_NSIRUNNABLE
+explicit
 CacheOutputCloseListener
 (
 CacheEntry

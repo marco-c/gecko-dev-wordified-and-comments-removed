@@ -55,6 +55,7 @@ NS_INLINE_DECL_THREADSAFE_REFCOUNTING
 (
 FileDescOwner
 )
+explicit
 FileDescOwner
 (
 PRFileDesc

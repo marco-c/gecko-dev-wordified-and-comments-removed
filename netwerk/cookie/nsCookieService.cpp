@@ -2034,6 +2034,7 @@ mozIStorageStatementCallback
 {
 protected
 :
+explicit
 DBListenerErrorHandler
 (
 DBState
@@ -2198,6 +2199,7 @@ InsertCookieDBListener
 public
 :
 NS_DECL_ISUPPORTS
+explicit
 InsertCookieDBListener
 (
 DBState
@@ -2337,6 +2339,7 @@ UpdateCookieDBListener
 public
 :
 NS_DECL_ISUPPORTS
+explicit
 UpdateCookieDBListener
 (
 DBState
@@ -2424,6 +2427,7 @@ RemoveCookieDBListener
 public
 :
 NS_DECL_ISUPPORTS
+explicit
 RemoveCookieDBListener
 (
 DBState
@@ -2514,6 +2518,7 @@ ReadCookieDBListener
 public
 :
 NS_DECL_ISUPPORTS
+explicit
 ReadCookieDBListener
 (
 DBState
@@ -2791,6 +2796,7 @@ CloseCookieDBListener
 }
 public
 :
+explicit
 CloseCookieDBListener
 (
 DBState
@@ -6598,7 +6604,10 @@ IsSession
 bindCookieParameters
 (
 paramsArray
+nsCookieKey
+(
 aEntry
+)
 cookie
 )
 ;

@@ -176,6 +176,7 @@ PLDHashEntryHdr
 {
 public
 :
+explicit
 RequestMapEntry
 (
 nsIRequest

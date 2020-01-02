@@ -284,6 +284,7 @@ nsRunnable
 {
 public
 :
+explicit
 ShutdownThread
 (
 nsIThread
@@ -343,6 +344,7 @@ nsRunnable
 {
 public
 :
+explicit
 PACLoadComplete
 (
 nsPACMan
@@ -409,6 +411,7 @@ nsRunnable
 {
 public
 :
+explicit
 ExecutePACThreadAction
 (
 nsPACMan

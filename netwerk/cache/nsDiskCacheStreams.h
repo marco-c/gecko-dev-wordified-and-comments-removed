@@ -64,6 +64,7 @@ nsIOutputStream
 {
 public
 :
+explicit
 nsDiskCacheStreamIO
 (
 nsDiskCacheBinding

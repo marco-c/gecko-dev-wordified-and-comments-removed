@@ -173,6 +173,7 @@ public
 :
 NS_DECL_THREADSAFE_ISUPPORTS
 NS_DECL_MOZISTORAGEFUNCTION
+explicit
 nsOfflineCacheEvictionFunction
 (
 nsOfflineCacheDevice

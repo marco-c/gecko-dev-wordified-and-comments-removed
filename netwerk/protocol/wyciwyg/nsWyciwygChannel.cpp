@@ -167,6 +167,7 @@ nsRunnable
 {
 public
 :
+explicit
 nsWyciwygAsyncEvent
 (
 nsWyciwygChannel
@@ -266,6 +267,7 @@ nsWyciwygAsyncEvent
 {
 public
 :
+explicit
 nsWyciwygSetCharsetandSourceEvent
 (
 nsWyciwygChannel

@@ -48,6 +48,7 @@ nsSimpleNestedURI
 )
 {
 }
+explicit
 nsSimpleNestedURI
 (
 nsIURI
