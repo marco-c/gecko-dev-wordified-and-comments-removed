@@ -31,16 +31,6 @@ pref
 "
 security
 .
-enable_tls_session_tickets
-"
-true
-)
-;
-pref
-(
-"
-security
-.
 enable_md5_signatures
 "
 false
