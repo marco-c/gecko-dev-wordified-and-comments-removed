@@ -142,8 +142,10 @@ virtual
 GMPErr
 Encode
 (
+UniquePtr
+<
 GMPVideoi420Frame
-*
+>
 aInputFrame
 const
 nsTArray
