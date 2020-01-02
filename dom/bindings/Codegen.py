@@ -22606,6 +22606,13 @@ unionArgumentObj
 name
 )
 )
+            
+names
+.
+append
+(
+name
+)
         
 else
 :
@@ -22673,6 +22680,18 @@ true
 "
 %
 unionArgumentObj
+)
+            
+names
+.
+append
+(
+objectMemberTypes
+[
+0
+]
+.
+name
 )
         
 else
