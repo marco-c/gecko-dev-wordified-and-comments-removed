@@ -100,7 +100,7 @@ h
 "
 #
 ifdef
-DEBUG
+PR_LOGGING
 #
 include
 "
