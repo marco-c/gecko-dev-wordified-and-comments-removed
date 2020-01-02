@@ -829,6 +829,11 @@ DetermineCurrentDirection
 (
 )
 ;
+void
+FireInputEvent
+(
+)
+;
 NS_IMETHOD
 CreateTxnForSetAttribute
 (
