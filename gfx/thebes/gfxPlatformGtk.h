@@ -363,6 +363,12 @@ size_t
 size
 )
 ;
+virtual
+bool
+SupportsOffMainThreadCompositing
+(
+)
+;
 #
 ifdef
 MOZ_X11
