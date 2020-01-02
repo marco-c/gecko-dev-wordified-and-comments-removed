@@ -46,7 +46,7 @@ ImageCodecInfo
 *
 pImageCodecInfo
 =
-NULL
+nullptr
 ;
 GetImageEncodersSize
 (
@@ -85,7 +85,7 @@ if
 pImageCodecInfo
 =
 =
-NULL
+nullptr
 )
 return
 -
@@ -193,7 +193,7 @@ GdiplusStartup
 gdiplusToken
 &
 gdiplusStartupInput
-NULL
+nullptr
 )
 ;
 HWND
@@ -311,7 +311,7 @@ Bitmap
 FromHBITMAP
 (
 mybmp
-NULL
+nullptr
 )
 ;
 CLSID
@@ -354,7 +354,7 @@ Save
 filename
 &
 encoderClsid
-NULL
+nullptr
 )
 ;
 }

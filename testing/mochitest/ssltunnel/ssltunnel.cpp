@@ -606,7 +606,7 @@ str
 =
 result
 ?
-NULL
+nullptr
 :
 result
 ;
@@ -863,19 +863,19 @@ PRThreadPool
 *
 threads
 =
-NULL
+nullptr
 ;
 PRLock
 *
 shutdown_lock
 =
-NULL
+nullptr
 ;
 PRCondVar
 *
 shutdown_condvar
 =
-NULL
+nullptr
 ;
 bool
 shutdown_server
@@ -1520,7 +1520,7 @@ cert
 PK11_FindCertFromNickname
 (
 certnick
-NULL
+nullptr
 )
 )
 ;
@@ -1557,7 +1557,7 @@ privKey
 PK11_FindKeyByAnyCert
 (
 cert
-NULL
+nullptr
 )
 )
 ;
@@ -1592,7 +1592,7 @@ ssl_socket
 =
 SSL_ImportFD
 (
-NULL
+nullptr
 socket
 )
 ;
@@ -4976,7 +4976,7 @@ if
 retry
 )
 return
-NULL
+nullptr
 ;
 return
 PL_strdup
@@ -5044,7 +5044,7 @@ it
 ;
 }
 return
-NULL
+nullptr
 ;
 }
 int
@@ -5427,7 +5427,7 @@ char
 *
 hostportstring
 =
-NULL
+nullptr
 ;
 if
 (
@@ -5658,8 +5658,8 @@ PL_NewHashTable
 PL_HashString
 PL_CompareStrings
 PL_CompareStrings
-NULL
-NULL
+nullptr
+nullptr
 )
 ;
 if
@@ -5700,8 +5700,8 @@ PL_NewHashTable
 PL_HashString
 PL_CompareStrings
 ClientAuthValueComparator
-NULL
-NULL
+nullptr
+nullptr
 )
 ;
 if
@@ -5742,8 +5742,8 @@ PL_NewHashTable
 PL_HashString
 PL_CompareStrings
 PL_CompareStrings
-NULL
-NULL
+nullptr
+nullptr
 )
 ;
 if
@@ -7632,7 +7632,7 @@ SSL_ConfigServerSessionIDCache
 0
 0
 0
-NULL
+nullptr
 )
 !
 =
@@ -7836,7 +7836,7 @@ it
 >
 host_cert_table
 freeHostCertHashItems
-NULL
+nullptr
 )
 ;
 PL_HashTableEnumerateEntries
@@ -7846,7 +7846,7 @@ it
 >
 host_clientauth_table
 freeClientAuthHashItems
-NULL
+nullptr
 )
 ;
 PL_HashTableEnumerateEntries
@@ -7856,7 +7856,7 @@ it
 >
 host_redir_table
 freeHostRedirHashItems
-NULL
+nullptr
 )
 ;
 PL_HashTableDestroy

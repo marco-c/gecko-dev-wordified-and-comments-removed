@@ -2028,7 +2028,7 @@ y_buf
 uint8_t
 *
 )
-NULL
+nullptr
 )
 &
 15
@@ -2046,7 +2046,7 @@ u_buf
 uint8_t
 *
 )
-NULL
+nullptr
 )
 &
 15
@@ -2064,7 +2064,7 @@ v_buf
 uint8_t
 *
 )
-NULL
+nullptr
 )
 &
 15

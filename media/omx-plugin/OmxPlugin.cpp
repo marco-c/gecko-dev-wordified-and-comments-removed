@@ -608,7 +608,7 @@ return
 mVideoSource
 !
 =
-NULL
+nullptr
 ;
 }
 bool
@@ -620,7 +620,7 @@ return
 mAudioSource
 !
 =
-NULL
+nullptr
 ;
 }
 bool
@@ -718,15 +718,15 @@ mDurationUs
 )
 mVideoBuffer
 (
-NULL
+nullptr
 )
 mAudioBuffer
 (
-NULL
+nullptr
 )
 mColorConverter
 (
-NULL
+nullptr
 )
 mAudioMetadataRead
 (
@@ -861,7 +861,7 @@ IOMX
 >
 sOMX
 =
-NULL
+nullptr
 ;
 static
 sp
@@ -881,7 +881,7 @@ get
 )
 =
 =
-NULL
+nullptr
 )
 {
 sOMX
@@ -1108,7 +1108,7 @@ getFormat
 )
 false
 aVideoTrack
-NULL
+nullptr
 flags
 )
 ;
@@ -1117,10 +1117,10 @@ if
 videoSource
 =
 =
-NULL
+nullptr
 )
 return
-NULL
+nullptr
 ;
 int32_t
 videoColorFormat
@@ -1298,7 +1298,7 @@ getFormat
 )
 false
 aVideoTrack
-NULL
+nullptr
 flags
 )
 ;
@@ -1383,7 +1383,7 @@ if
 extractor
 =
 =
-NULL
+nullptr
 )
 {
 return
@@ -1407,14 +1407,14 @@ char
 *
 audioMime
 =
-NULL
+nullptr
 ;
 const
 char
 *
 videoMime
 =
-NULL
+nullptr
 ;
 for
 (
@@ -1646,7 +1646,7 @@ videoTrackIndex
 )
 !
 =
-NULL
+nullptr
 )
 {
 #
@@ -1702,7 +1702,7 @@ if
 videoSource
 =
 =
-NULL
+nullptr
 )
 {
 LOG
@@ -1857,7 +1857,7 @@ audioTrackIndex
 )
 !
 =
-NULL
+nullptr
 )
 {
 if
@@ -1905,7 +1905,7 @@ if
 audioSource
 =
 =
-NULL
+nullptr
 )
 {
 LOG
@@ -2877,7 +2877,7 @@ release
 ;
 mVideoBuffer
 =
-NULL
+nullptr
 ;
 }
 }
@@ -2903,7 +2903,7 @@ release
 ;
 mAudioBuffer
 =
-NULL
+nullptr
 ;
 }
 }
@@ -4873,7 +4873,7 @@ mp4a
 .
 2
 "
-NULL
+nullptr
 }
 ;
 static
