@@ -1643,9 +1643,12 @@ NOTIFICATION_REMOTE_RESUMED
 ;
 default
 :
-throw
-new
-Error
+if
+(
+DEBUG
+)
+{
+debug
 (
 "
 Unknown
@@ -1655,6 +1658,9 @@ rilSuppSvcNotification
 +
 aNotification
 )
+;
+}
+return
 ;
 }
 }
