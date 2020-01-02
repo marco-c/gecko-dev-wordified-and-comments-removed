@@ -1656,6 +1656,9 @@ Get
 ;
 if
 (
+mRegistered
+&
+&
 quotaManager
 )
 {
