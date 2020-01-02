@@ -2632,6 +2632,11 @@ MOZ_ASSERT
 mIsOffline
 )
 ;
+if
+(
+mDestination
+)
+{
 mDestination
 -
 >
@@ -2639,6 +2644,7 @@ Mute
 (
 )
 ;
+}
 }
 void
 AudioContext
@@ -2655,6 +2661,11 @@ MOZ_ASSERT
 mIsOffline
 )
 ;
+if
+(
+mDestination
+)
+{
 mDestination
 -
 >
@@ -2662,6 +2673,7 @@ Unmute
 (
 )
 ;
+}
 }
 AudioChannel
 AudioContext
