@@ -1301,10 +1301,11 @@ addHeader
 HttpHeaders
 .
 ACCEPT_LANGUAGE
-locale
+Utils
 .
-toString
+getLanguageTag
 (
+locale
 )
 )
 ;
