@@ -102,7 +102,7 @@ class
 nsDOMDataTransfer
 ;
 class
-MouseEnterLeaveDispatcher
+EnterLeaveDispatcher
 ;
 class
 nsIMarkupDocumentViewer
@@ -601,7 +601,7 @@ protected
 :
 friend
 class
-MouseEnterLeaveDispatcher
+EnterLeaveDispatcher
 ;
 class
 Prefs
@@ -727,7 +727,7 @@ aStatus
 ;
 nsIFrame
 *
-DispatchMouseEvent
+DispatchMouseOrPointerEvent
 (
 mozilla
 :
