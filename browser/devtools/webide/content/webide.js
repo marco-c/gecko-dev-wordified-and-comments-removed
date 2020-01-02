@@ -4055,7 +4055,13 @@ if
 !
 project
 .
-validationStatus
+name
+|
+|
+!
+project
+.
+icon
 )
 {
 AppManager
