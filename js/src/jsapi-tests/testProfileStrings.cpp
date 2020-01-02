@@ -942,6 +942,9 @@ cx
 )
 )
 ;
+JS
+:
+:
 ContextOptionsRef
 (
 cx
@@ -1397,6 +1400,9 @@ cx
 )
 )
 ;
+JS
+:
+:
 ContextOptionsRef
 (
 cx
@@ -1434,6 +1440,9 @@ reset
 cx
 )
 ;
+JS
+:
+:
 ContextOptionsRef
 (
 cx
@@ -1534,6 +1543,9 @@ cx
 )
 )
 ;
+JS
+:
+:
 ContextOptionsRef
 (
 cx

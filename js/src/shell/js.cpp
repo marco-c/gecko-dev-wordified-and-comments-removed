@@ -1924,6 +1924,9 @@ asco
 cx
 )
 ;
+JS
+:
+:
 ContextOptionsRef
 (
 cx
@@ -3350,6 +3353,9 @@ vp
 ContextOptions
 oldOptions
 =
+JS
+:
+:
 ContextOptionsRef
 (
 cx
@@ -3438,6 +3444,9 @@ strict
 =
 0
 )
+JS
+:
+:
 ContextOptionsRef
 (
 cx
@@ -3465,6 +3474,9 @@ typeinfer
 =
 0
 )
+JS
+:
+:
 ContextOptionsRef
 (
 cx
@@ -3492,6 +3504,9 @@ werror
 =
 0
 )
+JS
+:
+:
 ContextOptionsRef
 (
 cx
@@ -3519,6 +3534,9 @@ strict_mode
 =
 0
 )
+JS
+:
+:
 ContextOptionsRef
 (
 cx
@@ -4196,6 +4214,9 @@ newcx
 return
 false
 ;
+JS
+:
+:
 ContextOptionsRef
 (
 newcx
@@ -5524,6 +5545,9 @@ asco
 cx
 )
 ;
+JS
+:
+:
 ContextOptionsRef
 (
 cx
@@ -6528,6 +6552,9 @@ asco
 cx
 )
 ;
+JS
+:
+:
 ContextOptionsRef
 (
 cx
@@ -11232,6 +11259,9 @@ asco
 cx
 )
 ;
+JS
+:
+:
 ContextOptionsRef
 (
 cx
@@ -16942,6 +16972,9 @@ asco
 cx
 )
 ;
+JS
+:
+:
 ContextOptionsRef
 (
 cx
@@ -29095,6 +29128,9 @@ if
 (
 enableTypeInference
 )
+JS
+:
+:
 ContextOptionsRef
 (
 cx
@@ -29108,6 +29144,9 @@ if
 (
 enableIon
 )
+JS
+:
+:
 ContextOptionsRef
 (
 cx
@@ -29121,6 +29160,9 @@ if
 (
 enableBaseline
 )
+JS
+:
+:
 ContextOptionsRef
 (
 cx
@@ -29134,6 +29176,9 @@ if
 (
 enableAsmJS
 )
+JS
+:
+:
 ContextOptionsRef
 (
 cx
@@ -29725,6 +29770,9 @@ s
 '
 )
 )
+JS
+:
+:
 ContextOptionsRef
 (
 cx
@@ -29947,6 +29995,9 @@ enableIon
 =
 false
 ;
+JS
+:
+:
 ContextOptionsRef
 (
 cx
@@ -29976,6 +30027,9 @@ enableAsmJS
 =
 false
 ;
+JS
+:
+:
 ContextOptionsRef
 (
 cx
@@ -30005,6 +30059,9 @@ enableBaseline
 =
 false
 ;
+JS
+:
+:
 ContextOptionsRef
 (
 cx
@@ -31369,6 +31426,9 @@ enableTypeInference
 =
 false
 ;
+JS
+:
+:
 ContextOptionsRef
 (
 cx

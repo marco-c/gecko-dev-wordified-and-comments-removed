@@ -37,6 +37,9 @@ obj
 ;
 CHECK
 (
+JS
+:
+:
 ContextOptionsRef
 (
 cx
@@ -142,6 +145,9 @@ CHECK
 hasProp
 )
 ;
+JS
+:
+:
 ContextOptionsRef
 (
 cx

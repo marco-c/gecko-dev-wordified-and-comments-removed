@@ -1705,6 +1705,9 @@ cx
 return
 nullptr
 ;
+JS
+:
+:
 ContextOptionsRef
 (
 cx
