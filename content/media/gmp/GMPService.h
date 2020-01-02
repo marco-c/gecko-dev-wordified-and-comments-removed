@@ -233,9 +233,6 @@ mAdd
 ;
 }
 ;
-Mutex
-mMutex
-;
 nsTArray
 <
 nsRefPtr
@@ -244,6 +241,9 @@ GMPParent
 >
 >
 mPlugins
+;
+Mutex
+mMutex
 ;
 nsCOMPtr
 <
