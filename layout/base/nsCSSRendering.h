@@ -614,6 +614,13 @@ aForFrame
 aImage
 aFlags
 )
+mCompositingOp
+(
+gfxContext
+:
+:
+OPERATOR_OVER
+)
 {
 }
 nsImageRenderer
@@ -627,6 +634,12 @@ mFillArea
 ;
 nsPoint
 mAnchor
+;
+gfxContext
+:
+:
+GraphicsOperator
+mCompositingOp
 ;
 }
 ;
