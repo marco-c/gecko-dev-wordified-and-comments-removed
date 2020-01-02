@@ -1375,7 +1375,6 @@ constructor
 inspector
 .
 tabActor
-inspector
 )
 ;
 }
@@ -1569,15 +1568,8 @@ function
 XULBasedHighlighter
 (
 tabActor
-inspector
 )
 {
-this
-.
-_inspector
-=
-inspector
-;
 this
 .
 browser
@@ -1884,12 +1876,6 @@ null
 ;
 this
 .
-_inspector
-=
-null
-;
-this
-.
 currentNode
 =
 null
@@ -1901,7 +1887,6 @@ function
 BoxModelHighlighter
 (
 tabActor
-inspector
 )
 {
 XULBasedHighlighter
@@ -1910,7 +1895,6 @@ call
 (
 this
 tabActor
-inspector
 )
 ;
 this
@@ -4489,7 +4473,6 @@ function
 CssTransformHighlighter
 (
 tabActor
-inspector
 )
 {
 XULBasedHighlighter
@@ -4498,7 +4481,6 @@ call
 (
 this
 tabActor
-inspector
 )
 ;
 this
