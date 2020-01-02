@@ -9432,9 +9432,10 @@ TYPE_DOUBLE
 else
 if
 (
-JSVAL_IS_INT
-(
 val
+.
+isInt32
+(
 )
 )
 *

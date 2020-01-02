@@ -262,9 +262,10 @@ toDouble
 else
 if
 (
-JSVAL_IS_INT
-(
 v
+.
+isInt32
+(
 )
 )
 {

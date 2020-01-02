@@ -247,9 +247,10 @@ aResult
 {
 if
 (
-JSVAL_IS_INT
-(
 aResult
+.
+isInt32
+(
 )
 )
 {

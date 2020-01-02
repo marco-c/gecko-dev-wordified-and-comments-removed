@@ -11,13 +11,14 @@ Do
 not
 assert
 :
-JSVAL_IS_INT
-(
 STOBJ_GET_SLOT
 (
 callee_obj
 JSSLOT_PRIVATE
 )
+.
+isInt32
+(
 )
 '
 ;

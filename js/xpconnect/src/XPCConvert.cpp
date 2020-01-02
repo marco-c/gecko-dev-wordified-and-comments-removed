@@ -5926,9 +5926,10 @@ false
 ;
 if
 (
-JSVAL_IS_INT
-(
 s
+.
+isInt32
+(
 )
 )
 {

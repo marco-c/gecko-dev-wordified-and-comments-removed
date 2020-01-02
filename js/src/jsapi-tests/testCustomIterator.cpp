@@ -348,9 +348,10 @@ result
 ;
 CHECK
 (
-JSVAL_IS_INT
-(
 result
+.
+isInt32
+(
 )
 )
 ;
