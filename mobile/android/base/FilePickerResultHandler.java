@@ -225,7 +225,7 @@ protected
 final
 ActivityHandlerHelper
 .
-FileResultHandler
+ResultHandler
 mHandler
 ;
 private
@@ -259,7 +259,7 @@ FilePickerResultHandler
 (
 ActivityHandlerHelper
 .
-FileResultHandler
+ResultHandler
 handler
 )
 {
