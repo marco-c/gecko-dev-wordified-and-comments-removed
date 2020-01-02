@@ -173,10 +173,10 @@ generic
 html
 '
 '
+interfaces
+'
+'
 jsat
-'
-'
-public
 '
 '
 xpcom
