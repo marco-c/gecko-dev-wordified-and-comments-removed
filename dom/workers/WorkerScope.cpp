@@ -1028,10 +1028,10 @@ runtimeService
 if
 (
 !
-runtimeService
+mWorkerPrivate
 -
 >
-WorkersDumpEnabled
+DumpEnabled
 (
 )
 )
