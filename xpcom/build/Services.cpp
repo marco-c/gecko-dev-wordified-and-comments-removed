@@ -110,6 +110,13 @@ nsIXPConnect
 .
 h
 "
+#
+include
+"
+inIDOMUtils
+.
+h
+"
 using
 namespace
 mozilla
