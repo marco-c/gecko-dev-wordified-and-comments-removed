@@ -389,7 +389,11 @@ aClosure
 ;
 }
 }
+typedef
 uint32_t
+FlagsType
+;
+FlagsType
 GetFlags
 (
 )
@@ -405,7 +409,7 @@ kWrapperFlagsMask
 bool
 HasFlag
 (
-uint32_t
+FlagsType
 aFlag
 )
 const
@@ -440,7 +444,7 @@ aFlag
 void
 SetFlags
 (
-uint32_t
+FlagsType
 aFlagsToSet
 )
 {
@@ -470,7 +474,7 @@ aFlagsToSet
 void
 UnsetFlags
 (
-uint32_t
+FlagsType
 aFlagsToUnset
 )
 {
@@ -709,7 +713,7 @@ char
 aName
 )
 ;
-uint32_t
+FlagsType
 GetWrapperFlags
 (
 )
@@ -724,7 +728,7 @@ kWrapperFlagsMask
 bool
 HasWrapperFlag
 (
-uint32_t
+FlagsType
 aFlag
 )
 const
@@ -761,7 +765,7 @@ aFlag
 void
 SetWrapperFlags
 (
-uint32_t
+FlagsType
 aFlagsToSet
 )
 {
@@ -793,7 +797,7 @@ aFlagsToSet
 void
 UnsetWrapperFlags
 (
-uint32_t
+FlagsType
 aFlagsToUnset
 )
 {
@@ -892,7 +896,7 @@ JSObject
 >
 mWrapper
 ;
-uint32_t
+FlagsType
 mFlags
 ;
 }

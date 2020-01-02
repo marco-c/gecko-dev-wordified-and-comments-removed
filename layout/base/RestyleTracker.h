@@ -766,7 +766,10 @@ Element
 ;
 RestyleTracker
 (
-uint32_t
+Element
+:
+:
+FlagsType
 aRestyleBits
 )
 :
@@ -961,7 +964,10 @@ mRestyleBits
 ELEMENT_PENDING_RESTYLE_FLAGS
 ;
 }
-uint32_t
+Element
+:
+:
+FlagsType
 RootBit
 (
 )
@@ -1057,7 +1063,10 @@ Element
 >
 RestyleRootArray
 ;
-uint32_t
+Element
+:
+:
+FlagsType
 mRestyleBits
 ;
 RestyleManager
