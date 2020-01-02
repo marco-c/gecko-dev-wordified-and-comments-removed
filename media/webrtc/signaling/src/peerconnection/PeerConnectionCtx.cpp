@@ -1492,7 +1492,13 @@ d
 "
 __FUNCTION__
 state
+static_cast
+<
+uint32_t
+>
+(
 currentSipccState
+)
 )
 ;
 if
