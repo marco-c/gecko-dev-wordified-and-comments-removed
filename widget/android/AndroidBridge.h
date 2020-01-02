@@ -133,6 +133,15 @@ TimeStamp
 .
 h
 "
+#
+include
+"
+mozilla
+/
+Types
+.
+h
+"
 class
 nsWindow
 ;
@@ -146,6 +155,7 @@ extern
 "
 C
 "
+MOZ_EXPORT
 JNIEnv
 *
 GetJNIForThread

@@ -124,6 +124,15 @@ Compiler
 h
 "
 #
+include
+"
+mozilla
+/
+Types
+.
+h
+"
+#
 define
 PROGRESS_PREPARE_SIZE
 20
@@ -275,6 +284,7 @@ extern
 "
 C
 "
+MOZ_EXPORT
 int
 ioprio_set
 (

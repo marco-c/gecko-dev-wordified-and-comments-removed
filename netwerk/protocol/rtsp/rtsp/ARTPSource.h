@@ -6,6 +6,15 @@ define
 A_RTP_SOURCE_H_
 #
 include
+"
+mozilla
+/
+Types
+.
+h
+"
+#
+include
 <
 stdint
 .
@@ -46,9 +55,11 @@ namespace
 android
 {
 struct
+MOZ_EXPORT
 ABuffer
 ;
 struct
+MOZ_EXPORT
 AMessage
 ;
 struct

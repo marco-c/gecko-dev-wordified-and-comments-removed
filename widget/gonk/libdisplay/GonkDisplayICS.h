@@ -49,6 +49,7 @@ namespace
 mozilla
 {
 class
+MOZ_EXPORT
 GonkDisplayICS
 :
 public

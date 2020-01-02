@@ -6,6 +6,15 @@ define
 A_RTP_SESSION_H_
 #
 include
+"
+mozilla
+/
+Types
+.
+h
+"
+#
+include
 <
 media
 /
@@ -30,6 +39,7 @@ struct
 ASessionDescription
 ;
 struct
+MOZ_EXPORT
 MediaSource
 ;
 struct

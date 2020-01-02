@@ -523,6 +523,17 @@ C
 "
 NS_EXPORT
 pid_t
+__fork
+(
+void
+)
+;
+extern
+"
+C
+"
+NS_EXPORT
+pid_t
 WRAP
 (
 fork
