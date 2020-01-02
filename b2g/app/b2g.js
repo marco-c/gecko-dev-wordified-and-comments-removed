@@ -5895,15 +5895,3 @@ autofocus
 false
 )
 ;
-pref
-(
-"
-dom
-.
-wakelock
-.
-enabled
-"
-true
-)
-;
