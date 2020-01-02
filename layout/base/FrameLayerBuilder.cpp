@@ -12439,12 +12439,7 @@ data
 {
 if
 (
-item
--
->
-GetType
-(
-)
+itemType
 =
 =
 nsDisplayItem
