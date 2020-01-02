@@ -651,6 +651,11 @@ LookAndFeel
 h
 '
 '
+TextEvents
+.
+h
+'
+'
 WidgetUtils
 .
 h

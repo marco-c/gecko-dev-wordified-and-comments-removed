@@ -34,6 +34,15 @@ Attributes
 .
 h
 "
+#
+include
+"
+mozilla
+/
+TextEvents
+.
+h
+"
 class
 nsPrivateTextRange
 MOZ_FINAL

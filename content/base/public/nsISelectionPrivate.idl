@@ -124,9 +124,6 @@ class
 nsIFrame
 ;
 struct
-nsTextRangeStyle
-;
-struct
 nsPoint
 ;
 struct
@@ -161,6 +158,15 @@ TODO
 Remove
 this
 include
+#
+include
+"
+mozilla
+/
+EventForwards
+.
+h
+"
 %
 }
 [
