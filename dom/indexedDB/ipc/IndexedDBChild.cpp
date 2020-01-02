@@ -1415,12 +1415,6 @@ ActorDestroyReason
 aWhy
 )
 {
-MOZ_ASSERT
-(
-!
-mStrongDatabase
-)
-;
 if
 (
 mDatabase
