@@ -7409,10 +7409,6 @@ UpdateStreamOrder
 }
 TrackRate
 sampleRate
-=
-IdealAudioRate
-(
-)
 ;
 if
 (
@@ -7472,6 +7468,15 @@ break
 ;
 }
 }
+}
+else
+{
+sampleRate
+=
+IdealAudioRate
+(
+)
+;
 }
 GraphTime
 endBlockingDecisions
