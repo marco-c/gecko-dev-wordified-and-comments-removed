@@ -164,11 +164,8 @@ long
 index
 )
 ;
-[
-Throws
-]
 getter
-object
+Element
 ?
 namedItem
 (
@@ -176,10 +173,5 @@ DOMString
 name
 )
 ;
-/
-/
-only
-returns
-Element
 }
 ;
