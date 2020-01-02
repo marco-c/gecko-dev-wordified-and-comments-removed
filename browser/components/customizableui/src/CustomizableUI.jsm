@@ -13649,7 +13649,7 @@ this
 .
 _lazyResizeHandler
 .
-arm
+start
 (
 )
 ;
@@ -13967,7 +13967,7 @@ this
 .
 _lazyResizeHandler
 .
-disarm
+cancel
 (
 )
 ;
