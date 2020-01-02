@@ -667,9 +667,6 @@ true
 document
 )
 ;
-let
-originalAllAppsLaunchable
-=
 SpecialPowers
 .
 setAllAppsLaunchable
@@ -754,13 +751,6 @@ apps
 location
 .
 href
-)
-;
-SpecialPowers
-.
-setAllAppsLaunchable
-(
-originalAllAppsLaunchable
 )
 ;
 }

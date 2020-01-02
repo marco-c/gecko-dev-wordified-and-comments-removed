@@ -245,7 +245,6 @@ waitForExplicitFinish
 )
 ;
 var
-launchableValue
 app
 ;
 function
@@ -284,8 +283,6 @@ that
 throws
 NS_NOT_IMPLEMENTED
 )
-launchableValue
-=
 SpecialPowers
 .
 setAllAppsLaunchable
@@ -470,13 +467,6 @@ cleanup
 (
 )
 {
-SpecialPowers
-.
-setAllAppsLaunchable
-(
-launchableValue
-)
-;
 let
 req
 =

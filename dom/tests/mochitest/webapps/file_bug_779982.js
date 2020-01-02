@@ -4,9 +4,6 @@ waitForExplicitFinish
 (
 )
 ;
-var
-originalAllAppsLaunchable
-=
 SpecialPowers
 .
 setAllAppsLaunchable
@@ -388,13 +385,6 @@ gData
 length
 )
 {
-SpecialPowers
-.
-setAllAppsLaunchable
-(
-originalAllAppsLaunchable
-)
-;
 SimpleTest
 .
 finish

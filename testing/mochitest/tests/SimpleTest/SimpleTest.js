@@ -4635,6 +4635,12 @@ else
 {
 SpecialPowers
 .
+flushAllAppsLaunchable
+(
+)
+;
+SpecialPowers
+.
 flushPermissions
 (
 function
