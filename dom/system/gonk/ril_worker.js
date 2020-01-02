@@ -10764,12 +10764,6 @@ fetchICCRecords
 (
 )
 ;
-this
-.
-reportStkServiceIsRunning
-(
-)
-;
 }
 this
 .
@@ -46779,6 +46773,12 @@ iccid
 ICCUtilsHelper
 .
 handleICCInfoChange
+(
+)
+;
+RIL
+.
+reportStkServiceIsRunning
 (
 )
 ;
