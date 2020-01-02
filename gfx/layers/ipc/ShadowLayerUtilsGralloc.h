@@ -68,7 +68,7 @@ base
 ProcessId
 mOwner
 ;
-int
+int64_t
 mKey
 ;
 GrallocBufferRef

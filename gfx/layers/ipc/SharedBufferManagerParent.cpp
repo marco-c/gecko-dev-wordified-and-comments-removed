@@ -182,10 +182,7 @@ SharedBufferManagerParent
 :
 sManagerMonitor
 ;
-Atomic
-<
-uint32_t
->
+uint64_t
 SharedBufferManagerParent
 :
 :
@@ -289,7 +286,7 @@ std
 :
 map
 <
-int
+int64_t
 android
 :
 :
@@ -1250,7 +1247,7 @@ buffer
 "
 )
 ;
-int
+int64_t
 bufferKey
 =
 handle
@@ -1483,7 +1480,7 @@ lock
 mBuffersMutex
 )
 ;
-int
+int64_t
 key
 =
 -
@@ -1704,7 +1701,7 @@ SharedBufferManagerParent
 :
 GetGraphicBuffer
 (
-int
+int64_t
 key
 )
 {

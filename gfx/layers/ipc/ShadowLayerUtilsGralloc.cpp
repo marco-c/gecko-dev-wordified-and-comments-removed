@@ -225,7 +225,7 @@ mOwner
 aMsg
 -
 >
-WriteInt32
+WriteInt64
 (
 aParam
 .
@@ -258,7 +258,7 @@ aParam
 int
 owner
 ;
-int
+int64_t
 index
 ;
 if
@@ -279,7 +279,7 @@ owner
 aMsg
 -
 >
-ReadInt32
+ReadInt64
 (
 aIter
 &
@@ -494,7 +494,7 @@ mOwner
 aMsg
 -
 >
-WriteInt32
+WriteInt64
 (
 aParam
 .
@@ -597,7 +597,7 @@ data
 int
 owner
 ;
-int
+int64_t
 index
 ;
 if
@@ -618,7 +618,7 @@ owner
 aMsg
 -
 >
-ReadInt32
+ReadInt64
 (
 aIter
 &
