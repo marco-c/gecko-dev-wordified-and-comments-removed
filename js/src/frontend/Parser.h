@@ -268,10 +268,10 @@ topScopeStmt
 ;
 Rooted
 <
-StaticBlockObject
+NestedScopeObject
 *
 >
-blockChain
+staticScope
 ;
 Node
 maybeFunction
@@ -591,7 +591,7 @@ topScopeStmt
 (
 nullptr
 )
-blockChain
+staticScope
 (
 prs
 -

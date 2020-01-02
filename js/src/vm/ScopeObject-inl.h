@@ -236,7 +236,7 @@ obj
 template
 is
 <
-StaticBlockObject
+NestedScopeObject
 >
 (
 )
@@ -250,12 +250,12 @@ obj
 template
 as
 <
-StaticBlockObject
+NestedScopeObject
 >
 (
 )
 .
-enclosingStaticScope
+enclosingScopeForStaticScopeIter
 (
 )
 ;

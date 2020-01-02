@@ -466,10 +466,10 @@ topScopeStmt
 ;
 Rooted
 <
-StaticBlockObject
+NestedScopeObject
 *
 >
-blockChain
+staticScope
 ;
 OwnedAtomIndexMapPtr
 atomIndices
