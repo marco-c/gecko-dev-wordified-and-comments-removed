@@ -527,6 +527,11 @@ mtransport
 /
 standalone
 '
+'
+media
+/
+libyuv
+'
 ]
 )
 if
