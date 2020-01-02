@@ -504,8 +504,6 @@ padding
 3px
 ;
 font
--
-size
 :
 inherit
 ;
@@ -535,7 +533,7 @@ height
 color
 :
 #
-333333
+333
 ;
 line
 -
@@ -551,14 +549,14 @@ shadow
 1px
 1px
 #
-FEFFFE
+fefffe
 ;
 border
 :
 1px
 solid
 #
-C1C1C1
+c1c1c1
 ;
 -
 moz
@@ -623,7 +621,7 @@ background
 color
 :
 #
-FBFBFB
+fbfbfb
 ;
 }
 html
@@ -688,7 +686,7 @@ background
 color
 :
 #
-EBEBEB
+ebebeb
 ;
 }
 html
@@ -764,7 +762,7 @@ background
 color
 :
 #
-DADADA
+dadada
 ;
 }
 html
@@ -981,14 +979,14 @@ border
 1px
 solid
 #
-C1C1C1
+c1c1c1
 ;
 background
 -
 color
 :
 #
-FFCB00
+ffcb00
 ;
 background
 -
@@ -1026,7 +1024,7 @@ background
 color
 :
 #
-F4C200
+f4c200
 ;
 background
 -
@@ -1060,7 +1058,7 @@ background
 color
 :
 #
-EABA00
+eaba00
 ;
 background
 -
@@ -1903,7 +1901,7 @@ background
 color
 :
 #
-FFFFFF
+fff
 ;
 }
 menulist
@@ -1965,7 +1963,7 @@ height
 color
 :
 #
-333333
+333
 ;
 -
 moz
@@ -2060,7 +2058,7 @@ true
 color
 :
 #
-333333
+333
 ;
 background
 -
@@ -2174,9 +2172,9 @@ linear
 gradient
 (
 #
-4CB1FF
+4cb1ff
 #
-1792E5
+1792e5
 )
 ;
 }
@@ -2258,7 +2256,7 @@ height
 color
 :
 #
-333333
+333
 ;
 line
 -
@@ -2274,7 +2272,7 @@ shadow
 1px
 1px
 #
-FEFFFE
+fefffe
 ;
 padding
 -
@@ -2293,7 +2291,7 @@ border
 1px
 solid
 #
-C1C1C1
+c1c1c1
 ;
 -
 moz
@@ -2358,7 +2356,7 @@ background
 color
 :
 #
-FFF
+fff
 ;
 }
 textbox
@@ -2371,7 +2369,7 @@ border
 color
 :
 #
-0095DD
+0095dd
 ;
 }
 textbox
@@ -2423,7 +2421,7 @@ height
 color
 :
 #
-0095DD
+0095dd
 ;
 }
 .
@@ -2442,7 +2440,7 @@ hover
 color
 :
 #
-4CB1FF
+4cb1ff
 ;
 text
 -
@@ -2471,7 +2469,7 @@ active
 color
 :
 #
-FF9500
+ff9500
 ;
 text
 -
@@ -2523,7 +2521,7 @@ border
 1px
 solid
 #
-C1C1C1
+c1c1c1
 ;
 -
 moz
@@ -2550,7 +2548,7 @@ linear
 gradient
 (
 #
-ffffff
+fff
 rgba
 (
 255
@@ -2586,7 +2584,7 @@ shadow
 1px
 0
 #
-ffffff
+fff
 inset
 0
 2px
@@ -2628,7 +2626,7 @@ border
 color
 :
 #
-0095DD
+0095dd
 ;
 }
 .
@@ -2668,7 +2666,7 @@ linear
 gradient
 (
 #
-ffffff
+fff
 rgba
 (
 255
@@ -2786,7 +2784,7 @@ linear
 gradient
 (
 #
-ffffff
+fff
 rgba
 (
 255
@@ -2827,7 +2825,7 @@ border
 1px
 solid
 #
-C1C1C1
+c1c1c1
 ;
 border
 -
@@ -2861,7 +2859,7 @@ linear
 gradient
 (
 #
-ffffff
+fff
 rgba
 (
 255
@@ -2882,7 +2880,7 @@ shadow
 1px
 0
 #
-ffffff
+fff
 inset
 0
 2px
@@ -2924,7 +2922,7 @@ border
 color
 :
 #
-0095DD
+0095dd
 ;
 }
 .
@@ -3178,7 +3176,7 @@ inset
 0
 0
 #
-FF9500
+ff9500
 ;
 }
 #
