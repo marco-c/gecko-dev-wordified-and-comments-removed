@@ -1626,12 +1626,6 @@ tracked
 in
 bug
 957025
-fails
--
-if
-(
-OSX
-)
 =
 =
 border
@@ -2061,12 +2055,6 @@ width
 ref
 .
 html
-fails
--
-if
-(
-OSX
-)
 =
 =
 border
