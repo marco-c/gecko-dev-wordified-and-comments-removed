@@ -96,6 +96,9 @@ Animation
 (
 aDocument
 aTiming
+EmptyString
+(
+)
 )
 {
 }

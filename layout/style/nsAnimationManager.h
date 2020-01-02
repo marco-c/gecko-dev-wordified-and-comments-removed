@@ -104,7 +104,7 @@ Element
 *
 aElement
 const
-nsString
+nsSubstring
 &
 aAnimationName
 uint32_t
