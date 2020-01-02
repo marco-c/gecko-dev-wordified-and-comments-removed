@@ -1486,7 +1486,7 @@ nsAString
 aTitle
 )
 {
-PRUnichar
+char16_t
 *
 uchtemp
 =

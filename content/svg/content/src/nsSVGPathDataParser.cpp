@@ -57,10 +57,10 @@ gfx
 ;
 static
 inline
-PRUnichar
+char16_t
 ToUpper
 (
-PRUnichar
+char16_t
 aCh
 )
 {
@@ -291,7 +291,7 @@ IsStartOfSubPath
 )
 )
 {
-PRUnichar
+char16_t
 commandType
 =
 ToUpper
@@ -342,7 +342,7 @@ nsSVGPathDataParser
 :
 ParseSubPathElement
 (
-PRUnichar
+char16_t
 aCommandType
 bool
 aAbsCoords

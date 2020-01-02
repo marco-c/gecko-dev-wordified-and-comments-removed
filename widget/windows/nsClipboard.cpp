@@ -320,7 +320,7 @@ char
 *
 aTopic
 const
-PRUnichar
+char16_t
 *
 aData
 )
@@ -1272,7 +1272,7 @@ allocSize
 +
 sizeof
 (
-PRUnichar
+char16_t
 )
 )
 )
@@ -2080,7 +2080,7 @@ NS_strlen
 (
 reinterpret_cast
 <
-PRUnichar
+char16_t
 *
 >
 (
@@ -2329,7 +2329,7 @@ fileNameLen
 *
 sizeof
 (
-PRUnichar
+char16_t
 )
 ;
 result
@@ -2486,7 +2486,7 @@ NS_strlen
 (
 reinterpret_cast
 <
-PRUnichar
+char16_t
 *
 >
 (
@@ -2497,7 +2497,7 @@ aData
 *
 sizeof
 (
-PRUnichar
+char16_t
 )
 ;
 }
@@ -2903,7 +2903,7 @@ filepath
 (
 reinterpret_cast
 <
-PRUnichar
+char16_t
 *
 >
 (
@@ -3405,7 +3405,7 @@ char
 outData
 )
 ;
-PRUnichar
+char16_t
 *
 convertedText
 =
@@ -3456,7 +3456,7 @@ convertedTextLen
 *
 sizeof
 (
-PRUnichar
+char16_t
 )
 ;
 dataFound
@@ -3528,7 +3528,7 @@ filepath
 (
 static_cast
 <
-PRUnichar
+char16_t
 *
 >
 (
@@ -3683,7 +3683,7 @@ NS_strlen
 (
 static_cast
 <
-PRUnichar
+char16_t
 *
 >
 (
@@ -3694,7 +3694,7 @@ outData
 *
 sizeof
 (
-PRUnichar
+char16_t
 )
 ;
 dataFound
@@ -3738,7 +3738,7 @@ NS_strlen
 (
 static_cast
 <
-PRUnichar
+char16_t
 *
 >
 (
@@ -3749,7 +3749,7 @@ outData
 *
 sizeof
 (
-PRUnichar
+char16_t
 )
 ;
 dataFound
@@ -3834,7 +3834,7 @@ urlString
 (
 static_cast
 <
-PRUnichar
+char16_t
 *
 >
 (
@@ -3867,7 +3867,7 @@ NS_strlen
 (
 static_cast
 <
-PRUnichar
+char16_t
 *
 >
 (
@@ -3878,7 +3878,7 @@ outData
 *
 sizeof
 (
-PRUnichar
+char16_t
 )
 ;
 nsMemory
@@ -4005,7 +4005,7 @@ NS_strlen
 (
 static_cast
 <
-PRUnichar
+char16_t
 *
 >
 (
@@ -4016,7 +4016,7 @@ outData
 *
 sizeof
 (
-PRUnichar
+char16_t
 )
 ;
 nsMemory

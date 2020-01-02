@@ -312,7 +312,7 @@ leafName
 .
 RFindChar
 (
-PRUnichar
+char16_t
 (
 '
 .
@@ -642,7 +642,7 @@ XP_OS2
 )
 static
 const
-PRUnichar
+char16_t
 kPathSeparatorChar
 =
 '
@@ -658,7 +658,7 @@ XP_UNIX
 )
 static
 const
-PRUnichar
+char16_t
 kPathSeparatorChar
 =
 '
@@ -684,10 +684,10 @@ static
 int32_t
 SplitPath
 (
-PRUnichar
+char16_t
 *
 path
-PRUnichar
+char16_t
 *
 *
 nodeArray
@@ -706,7 +706,7 @@ path
 return
 0
 ;
-PRUnichar
+char16_t
 *
 *
 nodePtr
@@ -734,7 +734,7 @@ path
 ;
 for
 (
-PRUnichar
+char16_t
 *
 cp
 =
@@ -850,7 +850,7 @@ nsAutoString
 thisPath
 fromPath
 ;
-PRUnichar
+char16_t
 *
 thisNodes
 [
@@ -904,7 +904,7 @@ rv
 return
 rv
 ;
-PRUnichar
+char16_t
 *
 thisPathPtr
 ;
@@ -915,7 +915,7 @@ BeginWriting
 thisPathPtr
 )
 ;
-PRUnichar
+char16_t
 *
 fromPathPtr
 ;

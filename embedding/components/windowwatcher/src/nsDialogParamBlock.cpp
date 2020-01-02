@@ -209,7 +209,7 @@ GetString
 (
 int32_t
 inIndex
-PRUnichar
+char16_t
 *
 *
 _retval
@@ -267,7 +267,7 @@ SetString
 int32_t
 inIndex
 const
-PRUnichar
+char16_t
 *
 inString
 )

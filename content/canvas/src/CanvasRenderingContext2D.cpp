@@ -5146,7 +5146,7 @@ char
 *
 aMimeType
 const
-PRUnichar
+char16_t
 *
 aEncoderOptions
 nsIInputStream
@@ -11171,7 +11171,7 @@ x0C
 \
 x0D
 "
-PRUnichar
+char16_t
 (
 '
 '
@@ -11338,7 +11338,7 @@ void
 SetText
 (
 const
-PRUnichar
+char16_t
 *
 text
 int32_t

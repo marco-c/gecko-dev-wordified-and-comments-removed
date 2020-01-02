@@ -417,7 +417,7 @@ ValidateFileName
 bool
 IsReservedChar
 (
-PRUnichar
+char16_t
 c
 )
 ;

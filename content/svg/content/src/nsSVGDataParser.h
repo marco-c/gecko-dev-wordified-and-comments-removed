@@ -39,7 +39,7 @@ static
 bool
 IsAlpha
 (
-PRUnichar
+char16_t
 aCh
 )
 {
@@ -76,7 +76,7 @@ mozilla
 RangedPtr
 <
 const
-PRUnichar
+char16_t
 >
 mIter
 ;
@@ -87,7 +87,7 @@ mozilla
 RangedPtr
 <
 const
-PRUnichar
+char16_t
 >
 mEnd
 ;

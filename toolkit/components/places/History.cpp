@@ -1106,7 +1106,7 @@ Assign
 static_cast
 <
 const
-PRUnichar
+char16_t
 *
 >
 (
@@ -12406,7 +12406,7 @@ char
 *
 aTopic
 const
-PRUnichar
+char16_t
 *
 aData
 )

@@ -123,7 +123,7 @@ aSeg
 ]
 )
 ;
-PRUnichar
+char16_t
 typeAsChar
 =
 GetPathSegTypeAsLetter
@@ -444,7 +444,7 @@ Length
 ]
 =
 =
-PRUnichar
+char16_t
 (
 '
 \

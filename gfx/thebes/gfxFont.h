@@ -4223,7 +4223,7 @@ gfxContext
 *
 aContext
 const
-PRUnichar
+char16_t
 *
 aText
 uint32_t
@@ -5657,7 +5657,7 @@ gfxContext
 *
 aContext
 const
-PRUnichar
+char16_t
 *
 aText
 uint32_t
@@ -5682,7 +5682,7 @@ gfxContext
 *
 aContext
 const
-PRUnichar
+char16_t
 *
 aText
 uint32_t
@@ -5787,7 +5787,7 @@ uint8_t
 mSingle
 ;
 const
-PRUnichar
+char16_t
 *
 mDouble
 ;
@@ -5895,7 +5895,7 @@ aText
 CacheHashKey
 (
 const
-PRUnichar
+char16_t
 *
 aText
 uint32_t
@@ -7383,7 +7383,7 @@ SetupClusterBoundaries
 uint32_t
 aOffset
 const
-PRUnichar
+char16_t
 *
 aString
 uint32_t
@@ -8172,7 +8172,7 @@ gfxShapedWord
 Create
 (
 const
-PRUnichar
+char16_t
 *
 aText
 uint32_t
@@ -8274,7 +8274,7 @@ CompressedGlyph
 +
 sizeof
 (
-PRUnichar
+char16_t
 )
 )
 ;
@@ -8381,7 +8381,7 @@ GetLength
 ;
 }
 const
-PRUnichar
+char16_t
 *
 TextUnicode
 (
@@ -8408,7 +8408,7 @@ return
 reinterpret_cast
 <
 const
-PRUnichar
+char16_t
 *
 >
 (
@@ -8420,7 +8420,7 @@ GetLength
 )
 ;
 }
-PRUnichar
+char16_t
 GetCharAt
 (
 uint32_t
@@ -8448,7 +8448,7 @@ TextIs8Bit
 (
 )
 ?
-PRUnichar
+char16_t
 (
 Text8Bit
 (
@@ -8584,7 +8584,7 @@ uint8_t
 gfxShapedWord
 (
 const
-PRUnichar
+char16_t
 *
 aText
 uint32_t
@@ -8624,13 +8624,13 @@ CompressedGlyph
 )
 )
 ;
-PRUnichar
+char16_t
 *
 text
 =
 reinterpret_cast
 <
-PRUnichar
+char16_t
 *
 >
 (
@@ -8649,7 +8649,7 @@ aLength
 *
 sizeof
 (
-PRUnichar
+char16_t
 )
 )
 ;
@@ -9747,7 +9747,7 @@ gfxContext
 aContext
 uint32_t
 aCharIndex
-PRUnichar
+char16_t
 aSpaceChar
 )
 ;
@@ -10774,7 +10774,7 @@ static
 bool
 IsInvalidChar
 (
-PRUnichar
+char16_t
 ch
 )
 ;
@@ -10784,7 +10784,7 @@ gfxTextRun
 MakeTextRun
 (
 const
-PRUnichar
+char16_t
 *
 aString
 uint32_t

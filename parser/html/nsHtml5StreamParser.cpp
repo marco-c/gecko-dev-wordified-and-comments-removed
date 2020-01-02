@@ -1782,7 +1782,7 @@ nsHtml5StreamParser
 SetEncodingFromExpat
 (
 const
-PRUnichar
+char16_t
 *
 aEncoding
 )
@@ -1901,7 +1901,7 @@ SetEncodingFromExpat
 reinterpret_cast
 <
 const
-PRUnichar
+char16_t
 *
 >
 (
@@ -2164,7 +2164,7 @@ moz_free
 ;
 static
 const
-PRUnichar
+char16_t
 kExpatSeparator
 [
 ]
@@ -2179,7 +2179,7 @@ kExpatSeparator
 ;
 static
 const
-PRUnichar
+char16_t
 kISO88591
 [
 ]

@@ -458,7 +458,7 @@ mLength
 uint32_t
 mHash
 ;
-PRUnichar
+char16_t
 *
 mString
 ;
@@ -790,7 +790,7 @@ nsIAtom
 NS_NewAtom
 (
 const
-PRUnichar
+char16_t
 *
 aUTF16String
 )
@@ -803,7 +803,7 @@ nsIAtom
 do_GetAtom
 (
 const
-PRUnichar
+char16_t
 *
 aUTF16String
 )

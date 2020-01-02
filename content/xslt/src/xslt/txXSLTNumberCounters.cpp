@@ -87,7 +87,7 @@ public
 :
 txAlphaCounter
 (
-PRUnichar
+char16_t
 aOffset
 )
 :
@@ -110,7 +110,7 @@ aDest
 ;
 private
 :
-PRUnichar
+char16_t
 mOffset
 ;
 }
@@ -211,7 +211,7 @@ length
 1
 )
 {
-PRUnichar
+char16_t
 ch
 =
 aToken
@@ -454,7 +454,7 @@ bufsize
 =
 10
 ;
-PRUnichar
+char16_t
 buf
 [
 bufsize
@@ -548,7 +548,7 @@ aDest
 .
 Append
 (
-PRUnichar
+char16_t
 (
 '
 0
@@ -701,7 +701,7 @@ nsAString
 aDest
 )
 {
-PRUnichar
+char16_t
 buf
 [
 12
@@ -1009,14 +1009,14 @@ Append
 !
 mTableOffset
 ?
-PRUnichar
+char16_t
 (
 '
 m
 '
 )
 :
-PRUnichar
+char16_t
 (
 '
 M

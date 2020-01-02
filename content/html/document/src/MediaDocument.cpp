@@ -1380,7 +1380,7 @@ IsEmpty
 )
 {
 const
-PRUnichar
+char16_t
 *
 formatStrings
 [
@@ -1441,7 +1441,7 @@ title
 else
 {
 const
-PRUnichar
+char16_t
 *
 formatStrings
 [
@@ -1508,7 +1508,7 @@ IsEmpty
 )
 {
 const
-PRUnichar
+char16_t
 *
 formatStrings
 [
@@ -1559,7 +1559,7 @@ title
 else
 {
 const
-PRUnichar
+char16_t
 *
 formatStrings
 [
@@ -1635,7 +1635,7 @@ aStatus
 )
 ;
 const
-PRUnichar
+char16_t
 *
 formatStrings
 [

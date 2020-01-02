@@ -380,7 +380,7 @@ for
 ;
 )
 {
-PRUnichar
+char16_t
 buf
 [
 1000

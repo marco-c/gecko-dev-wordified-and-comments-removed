@@ -117,12 +117,12 @@ int32_t
 lineNr
 ;
 const
-PRUnichar
+char16_t
 *
 errorMsg
 ;
 const
-PRUnichar
+char16_t
 *
 fileName
 ;

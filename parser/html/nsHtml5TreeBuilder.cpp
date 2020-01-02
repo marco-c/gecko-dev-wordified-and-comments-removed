@@ -234,7 +234,7 @@ nsHtml5TreeBuilder
 .
 h
 "
-PRUnichar
+char16_t
 nsHtml5TreeBuilder
 :
 :
@@ -1284,7 +1284,7 @@ charBuffer
 =
 jArray
 <
-PRUnichar
+char16_t
 int32_t
 >
 :
@@ -1773,7 +1773,7 @@ nsHtml5TreeBuilder
 :
 comment
 (
-PRUnichar
+char16_t
 *
 buf
 int32_t
@@ -1883,7 +1883,7 @@ nsHtml5TreeBuilder
 characters
 (
 const
-PRUnichar
+char16_t
 *
 buf
 int32_t
@@ -6399,7 +6399,7 @@ promptIndex
 {
 autoJArray
 <
-PRUnichar
+char16_t
 int32_t
 >
 prompt
@@ -9434,7 +9434,7 @@ end
 ;
 autoJArray
 <
-PRUnichar
+char16_t
 int32_t
 >
 buffer
@@ -9465,7 +9465,7 @@ i
 +
 )
 {
-PRUnichar
+char16_t
 c
 =
 buffer

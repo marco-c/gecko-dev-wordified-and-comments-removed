@@ -7352,7 +7352,7 @@ name
 )
 ;
 const
-PRUnichar
+char16_t
 *
 params
 [
@@ -7379,7 +7379,7 @@ ifndef
 XP_MACOSX
 static
 const
-PRUnichar
+char16_t
 kRestartNoUnlocker
 [
 ]
@@ -7465,7 +7465,7 @@ r
 ;
 static
 const
-PRUnichar
+char16_t
 kRestartUnlocker
 [
 ]
@@ -7547,7 +7547,7 @@ r
 else
 static
 const
-PRUnichar
+char16_t
 kRestartNoUnlocker
 [
 ]
@@ -7642,7 +7642,7 @@ c
 ;
 static
 const
-PRUnichar
+char16_t
 kRestartUnlocker
 [
 ]
@@ -8106,7 +8106,7 @@ name
 )
 ;
 const
-PRUnichar
+char16_t
 *
 params
 [
@@ -8130,7 +8130,7 @@ missingMessage
 ;
 static
 const
-PRUnichar
+char16_t
 kMissing
 [
 ]
@@ -8433,7 +8433,7 @@ nsIFile
 profD
 profLD
 ;
-PRUnichar
+char16_t
 *
 profileNamePtr
 ;

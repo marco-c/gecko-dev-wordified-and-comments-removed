@@ -97,7 +97,7 @@ nsresult
 FlushMemory
 (
 const
-PRUnichar
+char16_t
 *
 aReason
 bool
@@ -111,7 +111,7 @@ nsresult
 RunFlushers
 (
 const
-PRUnichar
+char16_t
 *
 aReason
 )
@@ -127,7 +127,7 @@ nsIRunnable
 NS_DECL_ISUPPORTS_INHERITED
 NS_DECL_NSIRUNNABLE
 const
-PRUnichar
+char16_t
 *
 mReason
 ;

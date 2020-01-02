@@ -216,7 +216,7 @@ aInx
 void
 GetDefaultPrinterName
 (
-PRUnichar
+char16_t
 *
 &
 aDefaultPrinterName
@@ -1090,13 +1090,13 @@ copies
 =
 1
 ;
-PRUnichar
+char16_t
 *
 printer
 =
 nullptr
 ;
-PRUnichar
+char16_t
 *
 printfile
 =
@@ -2465,7 +2465,7 @@ char
 GetACPString
 (
 const
-PRUnichar
+char16_t
 *
 aStr
 )
@@ -2493,7 +2493,7 @@ const
 nsAString
 &
 aTitle
-PRUnichar
+char16_t
 *
 aPrintToFileName
 int32_t
@@ -3069,7 +3069,7 @@ nsPrinterEnumeratorOS2
 :
 GetDefaultPrinterName
 (
-PRUnichar
+char16_t
 *
 *
 aDefaultPrinterName
@@ -3105,7 +3105,7 @@ nsPrinterEnumeratorOS2
 InitPrintSettingsFromPrinter
 (
 const
-PRUnichar
+char16_t
 *
 aPrinterName
 nsIPrintSettings
@@ -3250,7 +3250,7 @@ nsPrinterEnumeratorOS2
 DisplayPropertiesDlg
 (
 const
-PRUnichar
+char16_t
 *
 aPrinter
 nsIPrintSettings
@@ -3634,7 +3634,7 @@ GlobalPrinters
 :
 GetDefaultPrinterName
 (
-PRUnichar
+char16_t
 *
 &
 aDefaultPrinterName

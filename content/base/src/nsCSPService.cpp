@@ -1437,7 +1437,7 @@ newUriSpec
 )
 ;
 const
-PRUnichar
+char16_t
 *
 formatParams
 [

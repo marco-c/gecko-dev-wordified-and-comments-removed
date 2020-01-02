@@ -761,7 +761,7 @@ locationSpec
 )
 ;
 const
-PRUnichar
+char16_t
 *
 strings
 [

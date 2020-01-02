@@ -55,7 +55,7 @@ aSrc
 int32_t
 *
 aSrcLength
-PRUnichar
+char16_t
 *
 aDest
 int32_t
@@ -80,7 +80,7 @@ src
 =
 aSrc
 ;
-PRUnichar
+char16_t
 *
 destEnd
 =
@@ -89,7 +89,7 @@ aDest
 *
 aDestLength
 ;
-PRUnichar
+char16_t
 *
 dest
 =
@@ -191,7 +191,7 @@ aSrc
 int32_t
 *
 aSrcLength
-PRUnichar
+char16_t
 *
 aDest
 int32_t
@@ -216,7 +216,7 @@ src
 =
 aSrc
 ;
-PRUnichar
+char16_t
 *
 destEnd
 =
@@ -225,7 +225,7 @@ aDest
 *
 aDestLength
 ;
-PRUnichar
+char16_t
 *
 dest
 =
@@ -339,7 +339,7 @@ dest
 )
 =
 (
-PRUnichar
+char16_t
 )
 mEncBits
 ;
@@ -416,7 +416,7 @@ dest
 )
 =
 (
-PRUnichar
+char16_t
 )
 mEncBits
 ;
@@ -477,7 +477,7 @@ dest
 )
 =
 (
-PRUnichar
+char16_t
 )
 mEncBits
 ;
@@ -708,7 +708,7 @@ aSrc
 int32_t
 *
 aSrcLength
-PRUnichar
+char16_t
 *
 aDest
 int32_t
@@ -733,7 +733,7 @@ src
 =
 aSrc
 ;
-PRUnichar
+char16_t
 *
 destEnd
 =
@@ -742,7 +742,7 @@ aDest
 *
 aDestLength
 ;
-PRUnichar
+char16_t
 *
 dest
 =

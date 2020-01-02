@@ -168,7 +168,7 @@ nsHtml5ElementName
 *
 elementNameByBuffer
 (
-PRUnichar
+char16_t
 *
 buf
 int32_t
@@ -186,7 +186,7 @@ static
 int32_t
 bufToHash
 (
-PRUnichar
+char16_t
 *
 buf
 int32_t

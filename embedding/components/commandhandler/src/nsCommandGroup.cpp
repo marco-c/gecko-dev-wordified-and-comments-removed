@@ -680,12 +680,12 @@ Length
 return
 NS_ERROR_FAILURE
 ;
-PRUnichar
+char16_t
 *
 thisGroupName
 =
 (
-PRUnichar
+char16_t
 *
 )
 mGroupArray

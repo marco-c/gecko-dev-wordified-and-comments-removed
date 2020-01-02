@@ -1406,7 +1406,7 @@ colorStr
 ]
 =
 =
-PRUnichar
+char16_t
 (
 '
 #
@@ -1691,7 +1691,7 @@ colorStr
 ]
 =
 =
-PRUnichar
+char16_t
 (
 '
 #
@@ -3018,7 +3018,7 @@ aDevPixPerCSSPixel
 )
 ;
 }
-PRUnichar
+char16_t
 LookAndFeel
 :
 :

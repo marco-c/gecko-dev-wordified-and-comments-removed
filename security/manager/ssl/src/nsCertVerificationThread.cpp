@@ -142,7 +142,7 @@ verified
 uint32_t
 count
 ;
-PRUnichar
+char16_t
 *
 *
 usages
@@ -652,7 +652,7 @@ aVerified
 uint32_t
 *
 aCount
-PRUnichar
+char16_t
 *
 *
 *

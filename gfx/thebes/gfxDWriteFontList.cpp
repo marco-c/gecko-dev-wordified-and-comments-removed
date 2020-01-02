@@ -5570,7 +5570,7 @@ aName
 .
 FindChar
 (
-PRUnichar
+char16_t
 (
 '
 '
@@ -5778,7 +5778,7 @@ nsAutoString
 substituteName
 (
 (
-PRUnichar
+char16_t
 *
 )
 aliasName
@@ -5788,7 +5788,7 @@ nsAutoString
 actualFontName
 (
 (
-PRUnichar
+char16_t
 *
 )
 actualName
@@ -6002,7 +6002,7 @@ nsAutoString
 substituteName
 (
 (
-PRUnichar
+char16_t
 *
 )
 sub
@@ -6035,7 +6035,7 @@ nsAutoString
 actualFontName
 (
 (
-PRUnichar
+char16_t
 *
 )
 sub

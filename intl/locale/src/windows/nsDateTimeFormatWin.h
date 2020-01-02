@@ -159,7 +159,7 @@ const
 char
 *
 format
-PRUnichar
+char16_t
 *
 timeStr
 int
@@ -179,7 +179,7 @@ const
 char
 *
 format
-PRUnichar
+char16_t
 *
 dateStr
 int

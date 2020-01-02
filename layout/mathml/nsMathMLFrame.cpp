@@ -1041,7 +1041,7 @@ XHeight
 (
 )
 ;
-PRUnichar
+char16_t
 overBar
 =
 0x00AF
@@ -1145,7 +1145,7 @@ XHeight
 (
 )
 ;
-PRUnichar
+char16_t
 minus
 =
 0x2212

@@ -798,7 +798,7 @@ aClosure
 )
 {
 const
-PRUnichar
+char16_t
 *
 name_chars
 =
@@ -9205,7 +9205,7 @@ GetBaseURI
 )
 ;
 const
-PRUnichar
+char16_t
 *
 start
 =
@@ -9216,7 +9216,7 @@ BeginReading
 )
 ;
 const
-PRUnichar
+char16_t
 *
 end
 =
@@ -9227,7 +9227,7 @@ EndReading
 )
 ;
 const
-PRUnichar
+char16_t
 *
 iter
 =
@@ -9300,7 +9300,7 @@ aResult
 .
 Append
 (
-PRUnichar
+char16_t
 (
 '
 '

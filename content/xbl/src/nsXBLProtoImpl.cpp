@@ -2322,7 +2322,7 @@ nsXBLPrototypeBinding
 *
 aBinding
 const
-PRUnichar
+char16_t
 *
 aClassName
 nsXBLProtoImpl

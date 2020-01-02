@@ -2088,7 +2088,7 @@ notpassed
 typedef
 nsCharTraits
 <
-PRUnichar
+char16_t
 >
 traits
 ;
@@ -2120,7 +2120,7 @@ size_t
 len
 ;
 const
-PRUnichar
+char16_t
 *
 chars
 =

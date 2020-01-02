@@ -92,7 +92,7 @@ static
 KeyNameIndex
 GetDeadKeyNameIndex
 (
-PRUnichar
+char16_t
 aChar
 )
 ;

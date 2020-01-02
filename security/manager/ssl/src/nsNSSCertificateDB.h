@@ -170,7 +170,7 @@ type
 uint32_t
 *
 _count
-PRUnichar
+char16_t
 *
 *
 *

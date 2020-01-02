@@ -210,7 +210,7 @@ EnumerateDocumentNames
 uint32_t
 *
 aCount
-PRUnichar
+char16_t
 *
 *
 *
@@ -539,7 +539,7 @@ aPrintSettings
 void
 CleanupDocTitleArray
 (
-PRUnichar
+char16_t
 *
 *
 &

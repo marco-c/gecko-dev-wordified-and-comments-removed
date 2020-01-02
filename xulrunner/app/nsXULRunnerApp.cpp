@@ -196,7 +196,7 @@ XP_WIN
 !
 MOZ_WINCONSOLE
 )
-PRUnichar
+char16_t
 msg
 [
 2048

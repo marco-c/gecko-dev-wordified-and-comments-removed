@@ -418,7 +418,7 @@ gInstanceCount
 0
 ;
 const
-PRUnichar
+char16_t
 *
 kMetroSubclassThisProp
 =
@@ -6908,7 +6908,7 @@ char
 *
 topic
 const
-PRUnichar
+char16_t
 *
 data
 )

@@ -1674,7 +1674,7 @@ char
 *
 aMsg
 const
-PRUnichar
+char16_t
 *
 *
 aParams

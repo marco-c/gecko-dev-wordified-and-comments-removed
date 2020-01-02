@@ -118,7 +118,7 @@ nsUserInfo
 :
 GetFullname
 (
-PRUnichar
+char16_t
 *
 *
 aFullname

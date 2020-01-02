@@ -639,7 +639,7 @@ inCSSValueSearch
 :
 GetBaseURL
 (
-PRUnichar
+char16_t
 *
 *
 aBaseURL
@@ -672,7 +672,7 @@ inCSSValueSearch
 SetBaseURL
 (
 const
-PRUnichar
+char16_t
 *
 aBaseURL
 )
@@ -771,7 +771,7 @@ inCSSValueSearch
 AddPropertyCriteria
 (
 const
-PRUnichar
+char16_t
 *
 aPropName
 )
@@ -815,7 +815,7 @@ inCSSValueSearch
 :
 GetTextCriteria
 (
-PRUnichar
+char16_t
 *
 *
 aTextCriteria
@@ -848,7 +848,7 @@ inCSSValueSearch
 SetTextCriteria
 (
 const
-PRUnichar
+char16_t
 *
 aTextCriteria
 )
@@ -1545,12 +1545,12 @@ Length
 (
 )
 ;
-PRUnichar
+char16_t
 *
 result
 =
 new
-PRUnichar
+char16_t
 [
 len
 -
@@ -1558,7 +1558,7 @@ len
 ]
 ;
 const
-PRUnichar
+char16_t
 *
 src
 =

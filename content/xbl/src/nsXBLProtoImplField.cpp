@@ -140,11 +140,11 @@ nsXBLProtoImplField
 nsXBLProtoImplField
 (
 const
-PRUnichar
+char16_t
 *
 aName
 const
-PRUnichar
+char16_t
 *
 aReadOnly
 )
@@ -330,7 +330,7 @@ fieldTextStr
 +
 aText
 ;
-PRUnichar
+char16_t
 *
 temp
 =

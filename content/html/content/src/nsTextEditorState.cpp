@@ -7076,7 +7076,7 @@ aValue
 .
 FindChar
 (
-PRUnichar
+char16_t
 (
 '
 \

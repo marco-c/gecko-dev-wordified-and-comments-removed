@@ -87,7 +87,7 @@ inline
 bool
 IsSpace
 (
-PRUnichar
+char16_t
 u
 )
 {
@@ -103,7 +103,7 @@ inline
 bool
 IsComplexASCIIChar
 (
-PRUnichar
+char16_t
 u
 )
 {
@@ -166,7 +166,7 @@ inline
 bool
 IsComplexChar
 (
-PRUnichar
+char16_t
 u
 )
 {
@@ -286,7 +286,7 @@ nsIAtom
 *
 aHyphenationLanguage
 const
-PRUnichar
+char16_t
 *
 aText
 uint32_t
@@ -408,11 +408,11 @@ nsHyphenator
 *
 aHyphenator
 const
-PRUnichar
+char16_t
 *
 aTextStart
 const
-PRUnichar
+char16_t
 *
 aTextLimit
 uint8_t
@@ -422,7 +422,7 @@ aBreakState
 ;
 nsAutoTArray
 <
-PRUnichar
+char16_t
 100
 >
 mCurrentWord

@@ -5977,7 +5977,7 @@ path
 .
 RFindChar
 (
-PRUnichar
+char16_t
 (
 '
 .
@@ -5993,7 +5993,7 @@ dotIdx
 kNotFound
 )
 {
-PRUnichar
+char16_t
 *
 p
 =

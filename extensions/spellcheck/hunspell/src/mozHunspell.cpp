@@ -369,7 +369,7 @@ mozHunspell
 :
 GetDictionary
 (
-PRUnichar
+char16_t
 *
 *
 aDictionary
@@ -404,7 +404,7 @@ mozHunspell
 SetDictionary
 (
 const
-PRUnichar
+char16_t
 *
 aDictionary
 )
@@ -826,7 +826,7 @@ mozHunspell
 :
 GetLanguage
 (
-PRUnichar
+char16_t
 *
 *
 aLanguage
@@ -921,7 +921,7 @@ mozHunspell
 :
 GetName
 (
-PRUnichar
+char16_t
 *
 *
 aName
@@ -937,7 +937,7 @@ mozHunspell
 :
 GetCopyright
 (
-PRUnichar
+char16_t
 *
 *
 aCopyright
@@ -996,7 +996,7 @@ NS_OK
 struct
 AppendNewStruct
 {
-PRUnichar
+char16_t
 *
 *
 dics
@@ -1094,7 +1094,7 @@ mozHunspell
 :
 GetDictionaryList
 (
-PRUnichar
+char16_t
 *
 *
 *
@@ -1121,7 +1121,7 @@ ans
 =
 {
 (
-PRUnichar
+char16_t
 *
 *
 )
@@ -1129,7 +1129,7 @@ NS_Alloc
 (
 sizeof
 (
-PRUnichar
+char16_t
 *
 )
 *
@@ -1938,7 +1938,7 @@ mozHunspell
 ConvertCharset
 (
 const
-PRUnichar
+char16_t
 *
 aStr
 char
@@ -2067,7 +2067,7 @@ mozHunspell
 Check
 (
 const
-PRUnichar
+char16_t
 *
 aWord
 bool
@@ -2161,10 +2161,10 @@ mozHunspell
 Suggest
 (
 const
-PRUnichar
+char16_t
 *
 aWord
-PRUnichar
+char16_t
 *
 *
 *
@@ -2246,7 +2246,7 @@ aSuggestionCount
 aSuggestions
 =
 (
-PRUnichar
+char16_t
 *
 *
 )
@@ -2260,7 +2260,7 @@ aSuggestionCount
 *
 sizeof
 (
-PRUnichar
+char16_t
 *
 )
 )
@@ -2345,7 +2345,7 @@ index
 ]
 =
 (
-PRUnichar
+char16_t
 *
 )
 nsMemory
@@ -2355,7 +2355,7 @@ Alloc
 (
 sizeof
 (
-PRUnichar
+char16_t
 )
 *
 (
@@ -2474,7 +2474,7 @@ char
 *
 aTopic
 const
-PRUnichar
+char16_t
 *
 aData
 )

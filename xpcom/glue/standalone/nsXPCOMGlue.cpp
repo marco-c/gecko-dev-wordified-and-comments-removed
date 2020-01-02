@@ -2617,7 +2617,7 @@ nsStringContainer
 &
 aStr
 const
-PRUnichar
+char16_t
 *
 aData
 uint32_t
@@ -2684,7 +2684,7 @@ nsAString
 &
 aStr
 const
-PRUnichar
+char16_t
 *
 *
 aBuf
@@ -2732,7 +2732,7 @@ nsAString
 aStr
 uint32_t
 aLen
-PRUnichar
+char16_t
 *
 *
 aBuf
@@ -2768,7 +2768,7 @@ aBuf
 }
 XPCOM_API
 (
-PRUnichar
+char16_t
 *
 )
 NS_StringCloneData
@@ -2808,7 +2808,7 @@ nsAString
 &
 aStr
 const
-PRUnichar
+char16_t
 *
 aBuf
 uint32_t
@@ -2850,7 +2850,7 @@ aCutStart
 uint32_t
 aCutLength
 const
-PRUnichar
+char16_t
 *
 aBuf
 uint32_t

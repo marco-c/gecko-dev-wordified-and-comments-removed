@@ -1271,7 +1271,7 @@ aKey
 nsStringKey
 (
 const
-PRUnichar
+char16_t
 *
 str
 int32_t
@@ -1351,7 +1351,7 @@ aStream
 const
 ;
 const
-PRUnichar
+char16_t
 *
 GetString
 (
@@ -1374,7 +1374,7 @@ mStrLen
 }
 protected
 :
-PRUnichar
+char16_t
 *
 mStr
 ;

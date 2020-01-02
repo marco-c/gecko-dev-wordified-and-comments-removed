@@ -609,7 +609,7 @@ char
 *
 aTopic
 const
-PRUnichar
+char16_t
 *
 aData
 )
@@ -6639,7 +6639,7 @@ char
 *
 topic
 const
-PRUnichar
+char16_t
 *
 data
 )

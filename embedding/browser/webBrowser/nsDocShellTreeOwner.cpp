@@ -839,7 +839,7 @@ nsDocShellTreeOwner
 FindItemWithName
 (
 const
-PRUnichar
+char16_t
 *
 aName
 nsIDocShellTreeItem
@@ -1070,7 +1070,7 @@ nsDocShellTreeOwner
 FindItemWithNameAcrossWindows
 (
 const
-PRUnichar
+char16_t
 *
 aName
 nsIDocShellTreeItem
@@ -2609,7 +2609,7 @@ nsDocShellTreeOwner
 :
 GetTitle
 (
-PRUnichar
+char16_t
 *
 *
 aTitle
@@ -2651,7 +2651,7 @@ nsDocShellTreeOwner
 SetTitle
 (
 const
-PRUnichar
+char16_t
 *
 aTitle
 )
@@ -2773,7 +2773,7 @@ aRequest
 nsresult
 aStatus
 const
-PRUnichar
+char16_t
 *
 aMessage
 )
@@ -3948,7 +3948,7 @@ GetNodeText
 nsIDOMNode
 *
 aNode
-PRUnichar
+char16_t
 *
 *
 aText

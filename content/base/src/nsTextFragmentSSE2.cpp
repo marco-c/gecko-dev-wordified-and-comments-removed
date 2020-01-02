@@ -66,11 +66,11 @@ int32_t
 FirstNon8Bit
 (
 const
-PRUnichar
+char16_t
 *
 str
 const
-PRUnichar
+char16_t
 *
 end
 )
@@ -151,7 +151,7 @@ str
 /
 sizeof
 (
-PRUnichar
+char16_t
 )
 )
 )

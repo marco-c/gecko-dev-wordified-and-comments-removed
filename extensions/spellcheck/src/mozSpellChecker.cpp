@@ -502,7 +502,7 @@ uint32_t
 count
 i
 ;
-PRUnichar
+char16_t
 *
 *
 words
@@ -1165,7 +1165,7 @@ aWord
 nsresult
 res
 ;
-PRUnichar
+char16_t
 empty
 =
 0
@@ -1216,7 +1216,7 @@ aWord
 nsresult
 res
 ;
-PRUnichar
+char16_t
 empty
 =
 0
@@ -1420,7 +1420,7 @@ count
 =
 0
 ;
-PRUnichar
+char16_t
 *
 *
 words

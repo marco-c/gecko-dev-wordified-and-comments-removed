@@ -3589,7 +3589,7 @@ nsTreeContentView
 PerformAction
 (
 const
-PRUnichar
+char16_t
 *
 aAction
 )
@@ -3605,7 +3605,7 @@ nsTreeContentView
 PerformActionOnRow
 (
 const
-PRUnichar
+char16_t
 *
 aAction
 int32_t
@@ -3623,7 +3623,7 @@ nsTreeContentView
 PerformActionOnCell
 (
 const
-PRUnichar
+char16_t
 *
 aAction
 int32_t

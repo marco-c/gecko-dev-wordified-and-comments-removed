@@ -645,7 +645,7 @@ InitKeyPressEvent
 NSEvent
 *
 aNativeKeyEvent
-PRUnichar
+char16_t
 aInsertChar
 WidgetKeyboardEvent
 &
@@ -1444,7 +1444,7 @@ static
 bool
 IsPrintableChar
 (
-PRUnichar
+char16_t
 aChar
 )
 ;

@@ -372,7 +372,7 @@ nsDocShellLoadInfo
 :
 GetTarget
 (
-PRUnichar
+char16_t
 *
 *
 aTarget
@@ -402,7 +402,7 @@ nsDocShellLoadInfo
 SetTarget
 (
 const
-PRUnichar
+char16_t
 *
 aTarget
 )

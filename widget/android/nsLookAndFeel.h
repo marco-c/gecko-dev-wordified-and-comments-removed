@@ -98,7 +98,7 @@ GetPasswordMaskDelayImpl
 )
 ;
 virtual
-PRUnichar
+char16_t
 GetPasswordCharacterImpl
 (
 )

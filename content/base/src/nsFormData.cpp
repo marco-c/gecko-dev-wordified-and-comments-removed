@@ -369,7 +369,7 @@ NS_OK
 ;
 }
 }
-PRUnichar
+char16_t
 *
 stringData
 =

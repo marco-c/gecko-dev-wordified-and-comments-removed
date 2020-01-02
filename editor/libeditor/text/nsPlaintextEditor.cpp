@@ -6073,7 +6073,7 @@ Last
 )
 !
 =
-PRUnichar
+char16_t
 (
 '
 \
@@ -6086,7 +6086,7 @@ quotedStuff
 .
 Append
 (
-PRUnichar
+char16_t
 (
 '
 \

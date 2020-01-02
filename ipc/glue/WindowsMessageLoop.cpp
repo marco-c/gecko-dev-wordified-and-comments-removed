@@ -134,7 +134,7 @@ WM_XP_THEMECHANGED
 0x031A
 }
 ;
-PRUnichar
+char16_t
 gAppMessageWindowName
 [
 256
@@ -929,7 +929,7 @@ Append
 NS_ConvertUTF16toUTF8
 (
 (
-PRUnichar
+char16_t
 *
 )
 className
@@ -1145,7 +1145,7 @@ return
 false
 ;
 }
-PRUnichar
+char16_t
 buffer
 [
 256

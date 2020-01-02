@@ -17,7 +17,7 @@ nsUnicodeToUTF8
 GetMaxLength
 (
 const
-PRUnichar
+char16_t
 *
 aSrc
 int32_t
@@ -47,7 +47,7 @@ nsUnicodeToUTF8
 Convert
 (
 const
-PRUnichar
+char16_t
 *
 aSrc
 int32_t
@@ -62,14 +62,14 @@ aDestLength
 )
 {
 const
-PRUnichar
+char16_t
 *
 src
 =
 aSrc
 ;
 const
-PRUnichar
+char16_t
 *
 srcEnd
 =
@@ -142,7 +142,7 @@ if
 src
 <
 (
-PRUnichar
+char16_t
 )
 0xdc00
 |
@@ -151,7 +151,7 @@ PRUnichar
 src
 >
 (
-PRUnichar
+char16_t
 )
 0xdfff
 )
@@ -201,7 +201,7 @@ n
 mHighSurrogate
 -
 (
-PRUnichar
+char16_t
 )
 0xd800
 )
@@ -215,7 +215,7 @@ PRUnichar
 src
 -
 (
-PRUnichar
+char16_t
 )
 0xdc00
 )
@@ -421,7 +421,7 @@ src
 >
 =
 (
-PRUnichar
+char16_t
 )
 0xd800
 &
@@ -431,7 +431,7 @@ src
 <
 =
 (
-PRUnichar
+char16_t
 )
 0xdfff
 )
@@ -443,7 +443,7 @@ src
 >
 =
 (
-PRUnichar
+char16_t
 )
 0xdc00
 )
@@ -546,7 +546,7 @@ src
 )
 <
 (
-PRUnichar
+char16_t
 )
 0xdc00
 |
@@ -607,7 +607,7 @@ n
 src
 -
 (
-PRUnichar
+char16_t
 )
 0xd800
 )
@@ -625,7 +625,7 @@ src
 )
 -
 (
-PRUnichar
+char16_t
 )
 0xdc00
 )

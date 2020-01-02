@@ -945,12 +945,12 @@ or
 big
 endian
 )
-PRUnichar
+char16_t
 *
 clipboardDataPtrNoBOM
 =
 (
-PRUnichar
+char16_t
 *
 )
 clipboardDataPtr
@@ -993,7 +993,7 @@ dataLength
 =
 sizeof
 (
-PRUnichar
+char16_t
 )
 ;
 clipboardDataPtrNoBOM
@@ -2505,7 +2505,7 @@ dataSize
 /
 sizeof
 (
-PRUnichar
+char16_t
 )
 )
 ]
@@ -3179,7 +3179,7 @@ url
 .
 FindChar
 (
-PRUnichar
+char16_t
 (
 '
 \

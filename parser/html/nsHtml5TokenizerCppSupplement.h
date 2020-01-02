@@ -105,7 +105,7 @@ nsHtml5Tokenizer
 :
 errUnquotedAttributeValOrNull
 (
-PRUnichar
+char16_t
 c
 )
 {
@@ -204,7 +204,7 @@ nsHtml5Tokenizer
 :
 errLtOrEqualsOrGraveInUnquotedAttributeOrNull
 (
-PRUnichar
+char16_t
 c
 )
 {
@@ -280,7 +280,7 @@ nsHtml5Tokenizer
 :
 errBadCharBeforeAttributeNameOrNull
 (
-PRUnichar
+char16_t
 c
 )
 {
@@ -352,7 +352,7 @@ nsHtml5Tokenizer
 :
 errBadCharAfterLt
 (
-PRUnichar
+char16_t
 c
 )
 {
@@ -382,7 +382,7 @@ nsHtml5Tokenizer
 :
 errQuoteOrLtInAttributeNameOrNull
 (
-PRUnichar
+char16_t
 c
 )
 {
@@ -509,13 +509,13 @@ maybeErrSlashInEndTag
 ;
 }
 }
-PRUnichar
+char16_t
 nsHtml5Tokenizer
 :
 :
 errNcrNonCharacter
 (
-PRUnichar
+char16_t
 ch
 )
 {
@@ -572,13 +572,13 @@ errNcrNonCharacter
 ;
 }
 }
-PRUnichar
+char16_t
 nsHtml5Tokenizer
 :
 :
 errNcrControlChar
 (
-PRUnichar
+char16_t
 ch
 )
 {
@@ -1143,7 +1143,7 @@ nsHtml5Tokenizer
 :
 errQuoteBeforeAttributeName
 (
-PRUnichar
+char16_t
 c
 )
 {

@@ -108,7 +108,7 @@ gfxUniscribeShaper
 *
 aShaper
 const
-PRUnichar
+char16_t
 *
 aString
 uint32_t
@@ -1545,7 +1545,7 @@ mAlternativeString
 mAlternativeString
 =
 (
-PRUnichar
+char16_t
 *
 )
 malloc
@@ -1554,7 +1554,7 @@ mItemLength
 *
 sizeof
 (
-PRUnichar
+char16_t
 )
 )
 ;
@@ -1582,7 +1582,7 @@ mItemLength
 *
 sizeof
 (
-PRUnichar
+char16_t
 )
 )
 ;
@@ -1626,7 +1626,7 @@ mAlternativeString
 i
 ]
 =
-PRUnichar
+char16_t
 (
 0xFFFD
 )
@@ -1658,7 +1658,7 @@ mScript
 public
 :
 const
-PRUnichar
+char16_t
 *
 mItemString
 ;
@@ -1668,7 +1668,7 @@ mItemLength
 ;
 private
 :
-PRUnichar
+char16_t
 *
 mAlternativeString
 ;
@@ -1754,7 +1754,7 @@ public
 Uniscribe
 (
 const
-PRUnichar
+char16_t
 *
 aString
 gfxShapedText
@@ -2006,7 +2006,7 @@ gfxContext
 *
 aContext
 const
-PRUnichar
+char16_t
 *
 aText
 uint32_t

@@ -103,7 +103,7 @@ mErrBehavior
 aBehavior
 ;
 }
-PRUnichar
+char16_t
 nsBasicDecoderSupport
 :
 :
@@ -112,7 +112,7 @@ GetCharacterForUnMapped
 )
 {
 return
-PRUnichar
+char16_t
 (
 0xfffd
 )
@@ -232,7 +232,7 @@ aSrc
 int32_t
 *
 aSrcLength
-PRUnichar
+char16_t
 *
 aDest
 int32_t
@@ -257,13 +257,13 @@ aSrc
 *
 aSrcLength
 ;
-PRUnichar
+char16_t
 *
 dest
 =
 aDest
 ;
-PRUnichar
+char16_t
 *
 destEnd
 =
@@ -729,7 +729,7 @@ aSrc
 int32_t
 *
 aSrcLength
-PRUnichar
+char16_t
 *
 aDest
 int32_t
@@ -823,7 +823,7 @@ aSrc
 int32_t
 *
 aSrcLength
-PRUnichar
+char16_t
 *
 aDest
 int32_t
@@ -904,7 +904,7 @@ aSrc
 int32_t
 *
 aSrcLength
-PRUnichar
+char16_t
 *
 aDest
 int32_t
@@ -1122,7 +1122,7 @@ nsEncoderSupport
 ConvertNoBuff
 (
 const
-PRUnichar
+char16_t
 *
 aSrc
 int32_t
@@ -1137,14 +1137,14 @@ aDestLength
 )
 {
 const
-PRUnichar
+char16_t
 *
 src
 =
 aSrc
 ;
 const
-PRUnichar
+char16_t
 *
 srcEnd
 =
@@ -1232,7 +1232,7 @@ kOnError_Replace
 )
 {
 const
-PRUnichar
+char16_t
 buff
 [
 ]
@@ -1502,7 +1502,7 @@ nsEncoderSupport
 Convert
 (
 const
-PRUnichar
+char16_t
 *
 aSrc
 int32_t
@@ -1517,14 +1517,14 @@ aDestLength
 )
 {
 const
-PRUnichar
+char16_t
 *
 src
 =
 aSrc
 ;
 const
-PRUnichar
+char16_t
 *
 srcEnd
 =
@@ -1901,7 +1901,7 @@ aBehavior
 nsIUnicharEncoder
 *
 aEncoder
-PRUnichar
+char16_t
 aChar
 )
 {
@@ -1942,7 +1942,7 @@ nsEncoderSupport
 GetMaxLength
 (
 const
-PRUnichar
+char16_t
 *
 aSrc
 int32_t
@@ -2045,7 +2045,7 @@ nsTableEncoderSupport
 ConvertNoBuffNoErr
 (
 const
-PRUnichar
+char16_t
 *
 aSrc
 int32_t
@@ -2135,7 +2135,7 @@ nsMultiTableEncoderSupport
 ConvertNoBuffNoErr
 (
 const
-PRUnichar
+char16_t
 *
 aSrc
 int32_t

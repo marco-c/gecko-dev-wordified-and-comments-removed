@@ -4094,7 +4094,7 @@ nsImageFrame
 MeasureString
 (
 const
-PRUnichar
+char16_t
 *
 aString
 int32_t
@@ -4409,7 +4409,7 @@ MaxHeight
 )
 ;
 const
-PRUnichar
+char16_t
 *
 str
 =
@@ -9048,7 +9048,7 @@ char
 *
 aTopic
 const
-PRUnichar
+char16_t
 *
 aData
 )

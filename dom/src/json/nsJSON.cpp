@@ -777,7 +777,7 @@ Write
 (
 (
 const
-PRUnichar
+char16_t
 *
 )
 buf
@@ -1321,7 +1321,7 @@ nsJSONWriter
 Write
 (
 const
-PRUnichar
+char16_t
 *
 aBuffer
 uint32_t
@@ -1352,7 +1352,7 @@ mDidWrite
 mBuffer
 =
 new
-PRUnichar
+char16_t
 [
 JSON_STREAM_BUFSIZE
 ]
@@ -1424,7 +1424,7 @@ aLength
 *
 sizeof
 (
-PRUnichar
+char16_t
 )
 )
 ;
@@ -1480,7 +1480,7 @@ nsIUnicodeEncoder
 *
 encoder
 const
-PRUnichar
+char16_t
 *
 aBuffer
 uint32_t
@@ -1629,7 +1629,7 @@ return
 rv
 ;
 const
-PRUnichar
+char16_t
 *
 data
 ;
@@ -1670,7 +1670,7 @@ len
 *
 sizeof
 (
-PRUnichar
+char16_t
 )
 NS_ASSIGNMENT_DEPEND
 )
@@ -2886,7 +2886,7 @@ aByteLength
 /
 sizeof
 (
-PRUnichar
+char16_t
 )
 ;
 rv
@@ -2894,7 +2894,7 @@ rv
 Consume
 (
 (
-PRUnichar
+char16_t
 *
 )
 aBuffer
@@ -2952,7 +2952,7 @@ rv
 rv
 )
 ;
-PRUnichar
+char16_t
 *
 endelems
 =
@@ -3039,7 +3039,7 @@ nsJSONListener
 Consume
 (
 const
-PRUnichar
+char16_t
 *
 aBuffer
 uint32_t

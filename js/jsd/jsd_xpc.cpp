@@ -5375,7 +5375,7 @@ GetParameterNames
 uint32_t
 *
 count
-PRUnichar
+char16_t
 *
 *
 *
@@ -5472,14 +5472,14 @@ return
 NS_OK
 ;
 }
-PRUnichar
+char16_t
 *
 *
 ret
 =
 static_cast
 <
-PRUnichar
+char16_t
 *
 *
 >
@@ -5490,7 +5490,7 @@ nargs
 *
 sizeof
 (
-PRUnichar
+char16_t
 *
 )
 )
@@ -13694,7 +13694,7 @@ char
 *
 aTopic
 const
-PRUnichar
+char16_t
 *
 aData
 )

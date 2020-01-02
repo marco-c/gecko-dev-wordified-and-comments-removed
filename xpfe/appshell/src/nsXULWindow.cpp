@@ -1447,7 +1447,7 @@ nsXULWindow
 GetContentShellById
 (
 const
-PRUnichar
+char16_t
 *
 aID
 nsIDocShellTreeItem
@@ -3715,7 +3715,7 @@ nsXULWindow
 :
 GetTitle
 (
-PRUnichar
+char16_t
 *
 *
 aTitle
@@ -3754,7 +3754,7 @@ nsXULWindow
 SetTitle
 (
 const
-PRUnichar
+char16_t
 *
 aTitle
 )

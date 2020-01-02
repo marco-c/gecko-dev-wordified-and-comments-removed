@@ -294,7 +294,7 @@ AppendUTF16toUTF8
 reinterpret_cast
 <
 const
-PRUnichar
+char16_t
 *
 >
 (
@@ -317,7 +317,7 @@ AppendUTF16toUTF8
 reinterpret_cast
 <
 const
-PRUnichar
+char16_t
 *
 >
 (

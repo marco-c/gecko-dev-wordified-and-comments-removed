@@ -2575,7 +2575,7 @@ char
 *
 aTopic
 const
-PRUnichar
+char16_t
 *
 aData
 )
@@ -24890,7 +24890,7 @@ prepath
 )
 ;
 const
-PRUnichar
+char16_t
 *
 formatStrings
 [
@@ -26122,7 +26122,7 @@ allowTabModal
 allowTabModal
 )
 ;
-PRUnichar
+char16_t
 *
 inoutValue
 =
@@ -44535,7 +44535,7 @@ filename
 )
 ;
 const
-PRUnichar
+char16_t
 *
 formatParams
 [
@@ -45623,7 +45623,7 @@ char
 *
 aTopic
 const
-PRUnichar
+char16_t
 *
 aData
 )
@@ -49116,7 +49116,7 @@ callback
 )
 {
 const
-PRUnichar
+char16_t
 *
 script
 =

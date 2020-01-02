@@ -6335,7 +6335,7 @@ length
 i
 )
 {
-PRUnichar
+char16_t
 ch
 =
 aText
@@ -6427,7 +6427,7 @@ i
 i
 )
 {
-PRUnichar
+char16_t
 ch
 =
 aText
@@ -6536,7 +6536,7 @@ rightPos
 leftPos
 )
 {
-PRUnichar
+char16_t
 ch
 =
 aText

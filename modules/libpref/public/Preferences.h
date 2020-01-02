@@ -660,7 +660,7 @@ char
 *
 aPref
 const
-PRUnichar
+char16_t
 *
 aValue
 )

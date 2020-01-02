@@ -344,7 +344,7 @@ nsresult
 AddAttributes
 (
 const
-PRUnichar
+char16_t
 *
 *
 aNode
@@ -357,7 +357,7 @@ nsresult
 AddText
 (
 const
-PRUnichar
+char16_t
 *
 aString
 int32_t
@@ -369,7 +369,7 @@ bool
 OnOpenContainer
 (
 const
-PRUnichar
+char16_t
 *
 *
 aAtts
@@ -417,7 +417,7 @@ nsresult
 CreateElement
 (
 const
-PRUnichar
+char16_t
 *
 *
 aAtts
@@ -591,11 +591,11 @@ nsresult
 HandleStartElement
 (
 const
-PRUnichar
+char16_t
 *
 aName
 const
-PRUnichar
+char16_t
 *
 *
 aAtts
@@ -613,7 +613,7 @@ nsresult
 HandleEndElement
 (
 const
-PRUnichar
+char16_t
 *
 aName
 bool
@@ -624,7 +624,7 @@ nsresult
 HandleCharacterData
 (
 const
-PRUnichar
+char16_t
 *
 aData
 uint32_t
@@ -645,7 +645,7 @@ nsIContent
 >
 mCurrentHead
 ;
-PRUnichar
+char16_t
 *
 mText
 ;

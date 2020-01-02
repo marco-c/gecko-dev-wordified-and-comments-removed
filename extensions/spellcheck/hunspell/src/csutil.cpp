@@ -28745,7 +28745,7 @@ char
 i
 )
 ;
-PRUnichar
+char16_t
 uni
 uniCased
 ;
@@ -29627,7 +29627,7 @@ return
 ToUpperCase
 (
 (
-PRUnichar
+char16_t
 )
 c
 )
@@ -29710,7 +29710,7 @@ return
 ToLowerCase
 (
 (
-PRUnichar
+char16_t
 )
 c
 )

@@ -712,7 +712,7 @@ none
 return
 ;
 }
-PRUnichar
+char16_t
 buf
 [
 200
@@ -731,7 +731,7 @@ buf
 /
 sizeof
 (
-PRUnichar
+char16_t
 )
 MOZ_UTF16
 (

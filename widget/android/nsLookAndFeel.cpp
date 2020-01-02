@@ -100,7 +100,7 @@ true
 ;
 static
 const
-PRUnichar
+char16_t
 UNICODE_BULLET
 =
 0x2022
@@ -1530,7 +1530,7 @@ return
 1500
 ;
 }
-PRUnichar
+char16_t
 nsLookAndFeel
 :
 :

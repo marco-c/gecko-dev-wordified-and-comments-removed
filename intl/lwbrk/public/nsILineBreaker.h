@@ -73,7 +73,7 @@ int32_t
 Next
 (
 const
-PRUnichar
+char16_t
 *
 aText
 uint32_t
@@ -89,7 +89,7 @@ int32_t
 Prev
 (
 const
-PRUnichar
+char16_t
 *
 aText
 uint32_t
@@ -105,7 +105,7 @@ void
 GetJISx4051Breaks
 (
 const
-PRUnichar
+char16_t
 *
 aText
 uint32_t
@@ -150,7 +150,7 @@ inline
 bool
 NS_IsSpace
 (
-PRUnichar
+char16_t
 u
 )
 {
@@ -218,7 +218,7 @@ inline
 bool
 NS_NeedsPlatformNativeHandling
 (
-PRUnichar
+char16_t
 aChar
 )
 {

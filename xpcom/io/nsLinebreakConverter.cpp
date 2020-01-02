@@ -1328,7 +1328,7 @@ return
 NS_OK
 ;
 }
-PRUnichar
+char16_t
 *
 nsLinebreakConverter
 :
@@ -1336,7 +1336,7 @@ nsLinebreakConverter
 ConvertUnicharLineBreaks
 (
 const
-PRUnichar
+char16_t
 *
 aSrc
 ELinebreakType
@@ -1395,7 +1395,7 @@ aSrc
 :
 aSrcLen
 ;
-PRUnichar
+char16_t
 *
 resultString
 ;
@@ -1454,7 +1454,7 @@ nsLinebreakConverter
 :
 ConvertUnicharLineBreaksInSitu
 (
-PRUnichar
+char16_t
 *
 *
 ioBuffer
@@ -1609,7 +1609,7 @@ sourceLen
 }
 else
 {
-PRUnichar
+char16_t
 *
 destBuffer
 ;

@@ -509,7 +509,7 @@ nsresult
 SetText
 (
 const
-PRUnichar
+char16_t
 *
 aBuffer
 uint32_t
@@ -552,7 +552,7 @@ nsresult
 AppendText
 (
 const
-PRUnichar
+char16_t
 *
 aBuffer
 uint32_t

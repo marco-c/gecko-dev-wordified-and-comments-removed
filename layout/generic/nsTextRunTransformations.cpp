@@ -976,7 +976,7 @@ gfxFontGroup
 *
 aFontGroup
 const
-PRUnichar
+char16_t
 *
 aString
 uint32_t
@@ -1285,7 +1285,7 @@ nsTransformingTextRunFactory
 MakeTextRun
 (
 const
-PRUnichar
+char16_t
 *
 aString
 uint32_t
@@ -2097,7 +2097,7 @@ GetLength
 )
 ;
 const
-PRUnichar
+char16_t
 *
 str
 =
@@ -2711,7 +2711,7 @@ GetLength
 )
 ;
 const
-PRUnichar
+char16_t
 *
 str
 =

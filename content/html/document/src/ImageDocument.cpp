@@ -2470,7 +2470,7 @@ src
 )
 ;
 const
-PRUnichar
+char16_t
 *
 formatString
 [
@@ -3467,7 +3467,7 @@ GetRatio
 )
 ;
 const
-PRUnichar
+char16_t
 *
 formatString
 [

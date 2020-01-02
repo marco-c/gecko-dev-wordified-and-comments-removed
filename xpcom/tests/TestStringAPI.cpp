@@ -148,7 +148,7 @@ hello
 )
 ;
 const
-PRUnichar
+char16_t
 *
 it
 *
@@ -183,7 +183,7 @@ res
 =
 CHECK
 (
-PRUnichar
+char16_t
 (
 '
 h
@@ -199,7 +199,7 @@ it
 +
 CHECK
 (
-PRUnichar
+char16_t
 (
 '
 e
@@ -215,7 +215,7 @@ it
 +
 CHECK
 (
-PRUnichar
+char16_t
 (
 '
 l
@@ -231,7 +231,7 @@ it
 +
 CHECK
 (
-PRUnichar
+char16_t
 (
 '
 l
@@ -247,7 +247,7 @@ it
 +
 CHECK
 (
-PRUnichar
+char16_t
 (
 '
 o
@@ -392,7 +392,7 @@ xyzz
 )
 )
 ;
-PRUnichar
+char16_t
 *
 begin
 *
@@ -489,7 +489,7 @@ begin
 4
 ]
 =
-PRUnichar
+char16_t
 (
 '
 y
@@ -608,7 +608,7 @@ IsEmpty
 )
 ;
 const
-PRUnichar
+char16_t
 sample
 [
 ]
@@ -687,7 +687,7 @@ s
 .
 Assign
 (
-PRUnichar
+char16_t
 (
 '
 q

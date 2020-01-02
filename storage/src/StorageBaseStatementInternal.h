@@ -191,7 +191,7 @@ nsAString
 &
 aValue
 const
-PRUnichar
+char16_t
 aEscapeChar
 nsAString
 &
@@ -350,7 +350,7 @@ nsAString
 &
 aValue
 const
-PRUnichar
+char16_t
 aEscapeChar
 \
 nsAString

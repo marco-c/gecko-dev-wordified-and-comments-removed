@@ -2639,7 +2639,7 @@ aNewAttr
 .
 Append
 (
-PRUnichar
+char16_t
 (
 '
 '
@@ -2712,7 +2712,7 @@ aNewAttr
 .
 Append
 (
-PRUnichar
+char16_t
 (
 '
 %

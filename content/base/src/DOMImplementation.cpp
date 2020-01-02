@@ -440,7 +440,7 @@ aQualifiedName
 )
 ;
 const
-PRUnichar
+char16_t
 *
 colon
 ;

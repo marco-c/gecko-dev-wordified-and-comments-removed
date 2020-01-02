@@ -5404,7 +5404,7 @@ textLength
 )
 ;
 const
-PRUnichar
+char16_t
 *
 params
 [

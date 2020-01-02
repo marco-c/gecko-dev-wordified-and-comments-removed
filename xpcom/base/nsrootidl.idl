@@ -180,7 +180,7 @@ uint16_t
 typedef
 unsigned
 short
-PRUnichar
+char16_t
 ;
 typedef
 unsigned
@@ -276,7 +276,7 @@ ptr
 native
 unicharPtr
 (
-PRUnichar
+char16_t
 )
 ;
 [

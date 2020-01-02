@@ -714,7 +714,7 @@ mCSSValuePairList
 ;
 }
 const
-PRUnichar
+char16_t
 *
 GetStringBufferValue
 (
@@ -1119,7 +1119,7 @@ FreeValue
 ;
 static
 const
-PRUnichar
+char16_t
 *
 GetBufferValue
 (
@@ -1131,7 +1131,7 @@ aBuffer
 return
 static_cast
 <
-PRUnichar
+char16_t
 *
 >
 (

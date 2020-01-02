@@ -154,10 +154,10 @@ eCharType_RightToLeftArabic
 )
 )
 )
-PRUnichar
+char16_t
 HandleNumberInChar
 (
-PRUnichar
+char16_t
 aChar
 bool
 aPrevCharArabic
@@ -168,7 +168,7 @@ aNumFlag
 nsresult
 HandleNumbers
 (
-PRUnichar
+char16_t
 *
 aBuffer
 uint32_t

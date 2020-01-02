@@ -1031,7 +1031,7 @@ nsWebBrowserFind
 :
 GetSearchString
 (
-PRUnichar
+char16_t
 *
 *
 aSearchString
@@ -1061,7 +1061,7 @@ nsWebBrowserFind
 SetSearchString
 (
 const
-PRUnichar
+char16_t
 *
 aSearchString
 )

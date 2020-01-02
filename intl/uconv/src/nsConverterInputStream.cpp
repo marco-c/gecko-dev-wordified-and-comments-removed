@@ -71,7 +71,7 @@ char
 aCharset
 int32_t
 aBufferSize
-PRUnichar
+char16_t
 aReplacementChar
 )
 {
@@ -287,7 +287,7 @@ nsConverterInputStream
 :
 Read
 (
-PRUnichar
+char16_t
 *
 aBuf
 uint32_t
@@ -376,7 +376,7 @@ readCount
 *
 sizeof
 (
-PRUnichar
+char16_t
 )
 )
 ;
@@ -628,7 +628,7 @@ aCount
 ;
 }
 const
-PRUnichar
+char16_t
 *
 buf
 =
@@ -1014,7 +1014,7 @@ mLineBuffer
 new
 nsLineBuffer
 <
-PRUnichar
+char16_t
 >
 ;
 }

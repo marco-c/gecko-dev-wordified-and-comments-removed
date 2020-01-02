@@ -206,7 +206,7 @@ nsTString_CharT
 :
 RFindChar
 (
-PRUnichar
+char16_t
 aChar
 int32_t
 aOffset
@@ -1711,7 +1711,7 @@ nsTString_CharT
 :
 SetCharAt
 (
-PRUnichar
+char16_t
 aChar
 uint32_t
 aIndex

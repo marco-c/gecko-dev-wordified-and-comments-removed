@@ -10793,7 +10793,7 @@ cchPlainReq
 )
 {
 const
-PRUnichar
+char16_t
 *
 startChar
 =

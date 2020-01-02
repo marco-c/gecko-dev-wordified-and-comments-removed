@@ -782,7 +782,7 @@ aResult
 nsresult
 rv
 ;
-PRUnichar
+char16_t
 buf
 [
 128
@@ -933,7 +933,7 @@ literal
 )
 {
 const
-PRUnichar
+char16_t
 *
 p
 ;
@@ -1563,7 +1563,7 @@ aResult
 nsresult
 rv
 ;
-PRUnichar
+char16_t
 buf
 [
 256
@@ -1660,7 +1660,7 @@ uri
 .
 Append
 (
-PRUnichar
+char16_t
 (
 '
 #

@@ -304,7 +304,7 @@ Variant_base
 :
 GetAsWChar
 (
-PRUnichar
+char16_t
 *
 )
 {
@@ -365,7 +365,7 @@ Variant_base
 :
 GetAsWString
 (
-PRUnichar
+char16_t
 *
 *
 )
@@ -451,7 +451,7 @@ GetAsWStringWithSize
 (
 uint32_t
 *
-PRUnichar
+char16_t
 *
 *
 )

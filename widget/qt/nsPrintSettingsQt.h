@@ -154,7 +154,7 @@ aOrientation
 NS_IMETHOD
 GetToFileName
 (
-PRUnichar
+char16_t
 *
 *
 aToFileName
@@ -164,7 +164,7 @@ NS_IMETHOD
 SetToFileName
 (
 const
-PRUnichar
+char16_t
 *
 aToFileName
 )
@@ -172,7 +172,7 @@ aToFileName
 NS_IMETHOD
 GetPrinterName
 (
-PRUnichar
+char16_t
 *
 *
 aPrinter
@@ -182,7 +182,7 @@ NS_IMETHOD
 SetPrinterName
 (
 const
-PRUnichar
+char16_t
 *
 aPrinter
 )
@@ -220,7 +220,7 @@ aScaling
 NS_IMETHOD
 GetPaperName
 (
-PRUnichar
+char16_t
 *
 *
 aPaperName
@@ -230,7 +230,7 @@ NS_IMETHOD
 SetPaperName
 (
 const
-PRUnichar
+char16_t
 *
 aPaperName
 )

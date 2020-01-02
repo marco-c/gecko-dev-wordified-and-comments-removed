@@ -820,7 +820,7 @@ Init
 (
 eHtml5TreeOperation
 aOpCode
-PRUnichar
+char16_t
 *
 aBuffer
 int32_t
@@ -902,7 +902,7 @@ Init
 (
 eHtml5TreeOperation
 aOpCode
-PRUnichar
+char16_t
 *
 aBuffer
 int32_t
@@ -974,7 +974,7 @@ Init
 (
 eHtml5TreeOperation
 aOpCode
-PRUnichar
+char16_t
 *
 aBuffer
 int32_t
@@ -1361,7 +1361,7 @@ initializing
 "
 )
 ;
-PRUnichar
+char16_t
 *
 str
 =
@@ -1453,7 +1453,7 @@ nsIContent
 *
 aNode
 const
-PRUnichar
+char16_t
 *
 aClass
 )
@@ -1519,7 +1519,7 @@ mTwo
 unicharPtr
 =
 (
-PRUnichar
+char16_t
 *
 )
 aClass
@@ -1743,7 +1743,7 @@ nsresult
 AppendTextToTextNode
 (
 const
-PRUnichar
+char16_t
 *
 aBuffer
 uint32_t
@@ -1760,7 +1760,7 @@ nsresult
 AppendText
 (
 const
-PRUnichar
+char16_t
 *
 aBuffer
 uint32_t
@@ -1819,7 +1819,7 @@ attributes
 nsHtml5DocumentMode
 mode
 ;
-PRUnichar
+char16_t
 *
 unicharPtr
 ;

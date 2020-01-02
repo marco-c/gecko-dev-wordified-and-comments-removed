@@ -150,7 +150,7 @@ nsWSRunObject
 h
 "
 const
-PRUnichar
+char16_t
 nbsp
 =
 160
@@ -2906,7 +2906,7 @@ fragment
 continue
 ;
 }
-PRUnichar
+char16_t
 theChar
 =
 textFrag
@@ -3204,7 +3204,7 @@ fragment
 continue
 ;
 }
-PRUnichar
+char16_t
 theChar
 =
 textFrag
@@ -3474,7 +3474,7 @@ fragment
 continue
 ;
 }
-PRUnichar
+char16_t
 theChar
 =
 textFrag
@@ -3772,7 +3772,7 @@ fragment
 continue
 ;
 }
-PRUnichar
+char16_t
 theChar
 =
 textFrag
@@ -8102,7 +8102,7 @@ mRight
 ;
 }
 }
-PRUnichar
+char16_t
 nsWSRunObject
 :
 :
@@ -8970,7 +8970,7 @@ mHTMLEditor
 nsAutoString
 spaceStr
 (
-PRUnichar
+char16_t
 (
 32
 )
@@ -9339,7 +9339,7 @@ mHTMLEditor
 nsAutoString
 spaceStr
 (
-PRUnichar
+char16_t
 (
 32
 )
@@ -9589,7 +9589,7 @@ mHTMLEditor
 nsAutoString
 spaceStr
 (
-PRUnichar
+char16_t
 (
 32
 )

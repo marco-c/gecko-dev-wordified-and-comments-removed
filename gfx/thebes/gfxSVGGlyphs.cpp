@@ -2068,7 +2068,7 @@ Length
 i
 )
 {
-PRUnichar
+char16_t
 ch
 =
 glyphIdStr

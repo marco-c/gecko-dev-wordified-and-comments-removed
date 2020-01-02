@@ -42,7 +42,7 @@ nsEntityVersionList
 uint32_t
 mVersion
 ;
-PRUnichar
+char16_t
 mEntityListName
 [
 kVERSION_STRING_LEN
@@ -93,7 +93,7 @@ _retval
 NS_IMETHOD
 ConvertToEntity
 (
-PRUnichar
+char16_t
 character
 uint32_t
 entityVersion
@@ -107,12 +107,12 @@ NS_IMETHOD
 ConvertToEntities
 (
 const
-PRUnichar
+char16_t
 *
 inString
 uint32_t
 entityVersion
-PRUnichar
+char16_t
 *
 *
 _retval
@@ -126,7 +126,7 @@ LoadVersionPropertyFile
 )
 ;
 const
-PRUnichar
+char16_t
 *
 GetVersionName
 (

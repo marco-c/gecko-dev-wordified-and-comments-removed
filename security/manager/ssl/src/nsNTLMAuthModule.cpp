@@ -1261,7 +1261,7 @@ void
 *
 buf
 const
-PRUnichar
+char16_t
 *
 str
 uint32_t
@@ -2439,7 +2439,7 @@ void
 domainPtr
 (
 const
-PRUnichar
+char16_t
 *
 )
 domainPtr
@@ -2537,7 +2537,7 @@ void
 userPtr
 (
 const
-PRUnichar
+char16_t
 *
 )
 userPtr
@@ -2672,7 +2672,7 @@ void
 hostPtr
 (
 const
-PRUnichar
+char16_t
 *
 )
 hostPtr
@@ -3129,15 +3129,15 @@ serviceName
 uint32_t
 serviceFlags
 const
-PRUnichar
+char16_t
 *
 domain
 const
-PRUnichar
+char16_t
 *
 username
 const
-PRUnichar
+char16_t
 *
 password
 )

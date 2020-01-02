@@ -1542,7 +1542,7 @@ Runw
 bool
 blocking
 const
-PRUnichar
+char16_t
 *
 *
 args
@@ -1568,7 +1568,7 @@ nsProcess
 RunwAsync
 (
 const
-PRUnichar
+char16_t
 *
 *
 args
@@ -1601,7 +1601,7 @@ CopyArgsAndRunProcessw
 bool
 blocking
 const
-PRUnichar
+char16_t
 *
 *
 args
@@ -2513,7 +2513,7 @@ char
 *
 topic
 const
-PRUnichar
+char16_t
 *
 data
 )

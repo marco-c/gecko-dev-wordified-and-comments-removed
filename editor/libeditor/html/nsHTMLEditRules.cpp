@@ -6823,7 +6823,7 @@ inString
 )
 ;
 const
-PRUnichar
+char16_t
 *
 unicodeBuf
 =

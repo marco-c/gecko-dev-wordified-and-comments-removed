@@ -1547,7 +1547,7 @@ aBuffer
 ;
 }
 const
-PRUnichar
+char16_t
 *
 GetStringBufferValue
 (
@@ -1896,7 +1896,7 @@ mImage
 ;
 }
 const
-PRUnichar
+char16_t
 *
 GetOriginalURLValue
 (
@@ -2317,7 +2317,7 @@ private
 :
 static
 const
-PRUnichar
+char16_t
 *
 GetBufferValue
 (
@@ -2329,7 +2329,7 @@ aBuffer
 return
 static_cast
 <
-PRUnichar
+char16_t
 *
 >
 (

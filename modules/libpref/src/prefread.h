@@ -68,7 +68,7 @@ smatch
 int
 sindex
 ;
-PRUnichar
+char16_t
 utf16
 [
 2

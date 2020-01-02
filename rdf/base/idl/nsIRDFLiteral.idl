@@ -115,7 +115,7 @@ h
 /
 /
 for
-PRUnichar
+char16_t
 %
 }
 [

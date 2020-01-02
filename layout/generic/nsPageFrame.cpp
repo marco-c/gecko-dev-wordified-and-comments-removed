@@ -1025,7 +1025,7 @@ kPageAndTotal
 kNotFound
 )
 {
-PRUnichar
+char16_t
 *
 uStr
 =
@@ -1089,7 +1089,7 @@ kPage
 kNotFound
 )
 {
-PRUnichar
+char16_t
 *
 uStr
 =
@@ -1236,7 +1236,7 @@ kPageTotal
 kNotFound
 )
 {
-PRUnichar
+char16_t
 *
 uStr
 =
@@ -1682,7 +1682,7 @@ textWidth
 0
 ;
 const
-PRUnichar
+char16_t
 *
 text
 =

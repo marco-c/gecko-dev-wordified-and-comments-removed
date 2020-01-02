@@ -4311,7 +4311,7 @@ IsEmpty
 {
 static
 const
-PRUnichar
+char16_t
 space
 =
 0xA0

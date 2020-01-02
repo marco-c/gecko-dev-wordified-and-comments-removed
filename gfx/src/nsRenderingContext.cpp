@@ -232,7 +232,7 @@ int32_t
 FindSafeLength
 (
 const
-PRUnichar
+char16_t
 *
 aString
 uint32_t
@@ -1973,7 +1973,7 @@ nsRenderingContext
 :
 GetWidth
 (
-PRUnichar
+char16_t
 aC
 )
 {
@@ -2115,7 +2115,7 @@ nsRenderingContext
 GetWidth
 (
 const
-PRUnichar
+char16_t
 *
 aString
 uint32_t
@@ -2186,7 +2186,7 @@ nsRenderingContext
 GetBoundingMetrics
 (
 const
-PRUnichar
+char16_t
 *
 aString
 uint32_t
@@ -2414,7 +2414,7 @@ nsRenderingContext
 DrawString
 (
 const
-PRUnichar
+char16_t
 *
 aString
 uint32_t

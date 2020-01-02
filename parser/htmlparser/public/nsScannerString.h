@@ -94,7 +94,7 @@ mUsageCount
 ;
 }
 const
-PRUnichar
+char16_t
 *
 DataStart
 (
@@ -104,7 +104,7 @@ const
 return
 (
 const
-PRUnichar
+char16_t
 *
 )
 (
@@ -114,7 +114,7 @@ this
 )
 ;
 }
-PRUnichar
+char16_t
 *
 DataStart
 (
@@ -122,7 +122,7 @@ DataStart
 {
 return
 (
-PRUnichar
+char16_t
 *
 )
 (
@@ -133,7 +133,7 @@ this
 ;
 }
 const
-PRUnichar
+char16_t
 *
 DataEnd
 (
@@ -144,7 +144,7 @@ return
 mDataEnd
 ;
 }
-PRUnichar
+char16_t
 *
 DataEnd
 (
@@ -245,7 +245,7 @@ nsScannerBufferList
 int32_t
 mUsageCount
 ;
-PRUnichar
+char16_t
 *
 mDataEnd
 ;
@@ -266,7 +266,7 @@ Position
 Buffer
 *
 buffer
-PRUnichar
+char16_t
 *
 position
 )
@@ -320,7 +320,7 @@ Buffer
 *
 mBuffer
 ;
-PRUnichar
+char16_t
 *
 mPosition
 ;
@@ -555,12 +555,12 @@ Buffer
 mBuffer
 ;
 const
-PRUnichar
+char16_t
 *
 mFragmentStart
 ;
 const
-PRUnichar
+char16_t
 *
 mFragmentEnd
 ;
@@ -639,7 +639,7 @@ mLength
 int32_t
 CountChar
 (
-PRUnichar
+char16_t
 )
 const
 ;
@@ -932,7 +932,7 @@ ReplaceCharacter
 nsScannerIterator
 &
 aPosition
-PRUnichar
+char16_t
 aChar
 )
 ;
@@ -1069,18 +1069,18 @@ ptrdiff_t
 difference_type
 ;
 typedef
-PRUnichar
+char16_t
 value_type
 ;
 typedef
 const
-PRUnichar
+char16_t
 *
 pointer
 ;
 typedef
 const
-PRUnichar
+char16_t
 &
 reference
 ;
@@ -1097,7 +1097,7 @@ nsScannerFragment
 mFragment
 ;
 const
-PRUnichar
+char16_t
 *
 mPosition
 ;
@@ -1143,7 +1143,7 @@ return
 mPosition
 ;
 }
-PRUnichar
+char16_t
 operator
 *
 (
@@ -1748,7 +1748,7 @@ mPosition
 (
 const_cast
 <
-PRUnichar
+char16_t
 *
 >
 (
@@ -1801,7 +1801,7 @@ mPosition
 =
 const_cast
 <
-PRUnichar
+char16_t
 *
 >
 (
@@ -1976,7 +1976,7 @@ aDest
 bool
 FindCharInReadable
 (
-PRUnichar
+char16_t
 aChar
 nsScannerIterator
 &

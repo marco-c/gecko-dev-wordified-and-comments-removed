@@ -941,7 +941,7 @@ nsConsoleService
 LogStringMessage
 (
 const
-PRUnichar
+char16_t
 *
 message
 )

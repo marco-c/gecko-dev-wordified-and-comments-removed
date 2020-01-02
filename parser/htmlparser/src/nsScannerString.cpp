@@ -21,7 +21,7 @@ UINT32_MAX
 /
 sizeof
 (
-PRUnichar
+char16_t
 )
 )
 -
@@ -34,7 +34,7 @@ Buffer
 +
 sizeof
 (
-PRUnichar
+char16_t
 )
 )
 )
@@ -92,7 +92,7 @@ source
 ;
 nsCharTraits
 <
-PRUnichar
+char16_t
 >
 :
 :
@@ -159,7 +159,7 @@ capacity
 *
 sizeof
 (
-PRUnichar
+char16_t
 )
 )
 ;
@@ -210,7 +210,7 @@ buf
 >
 mDataEnd
 =
-PRUnichar
+char16_t
 (
 0
 )
@@ -358,7 +358,7 @@ new_buffer
 {
 nsCharTraits
 <
-PRUnichar
+char16_t
 >
 :
 :
@@ -664,7 +664,7 @@ nsScannerSubstring
 :
 CountChar
 (
-PRUnichar
+char16_t
 c
 )
 const
@@ -704,7 +704,7 @@ size_forward
 )
 ;
 const
-PRUnichar
+char16_t
 *
 fromBegin
 =
@@ -1591,17 +1591,17 @@ ReplaceCharacter
 nsScannerIterator
 &
 aPosition
-PRUnichar
+char16_t
 aChar
 )
 {
-PRUnichar
+char16_t
 *
 pos
 =
 const_cast
 <
-PRUnichar
+char16_t
 *
 >
 (
@@ -2150,7 +2150,7 @@ writer
 bool
 FindCharInReadable
 (
-PRUnichar
+char16_t
 aChar
 nsScannerIterator
 &
@@ -2204,13 +2204,13 @@ size_forward
 )
 ;
 const
-PRUnichar
+char16_t
 *
 charFoundAt
 =
 nsCharTraits
 <
-PRUnichar
+char16_t
 >
 :
 :

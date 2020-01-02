@@ -158,7 +158,7 @@ nsIWebBrowserChrome
 *
 aChrome
 const
-PRUnichar
+char16_t
 *
 aStatusText
 )
@@ -237,7 +237,7 @@ aXCoords
 int32_t
 aYCoords
 const
-PRUnichar
+char16_t
 *
 aTipText
 )

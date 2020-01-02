@@ -99,7 +99,7 @@ NS_IUNICHARENCODER_IID
 NS_IMETHOD
 Convert
 (
-PRUnichar
+char16_t
 aChar
 char
 *
@@ -297,7 +297,7 @@ NS_IMETHOD
 Convert
 (
 const
-PRUnichar
+char16_t
 *
 aSrc
 int32_t
@@ -330,7 +330,7 @@ NS_IMETHOD
 GetMaxLength
 (
 const
-PRUnichar
+char16_t
 *
 aSrc
 int32_t
@@ -357,7 +357,7 @@ aBehavior
 nsIUnicharEncoder
 *
 aEncoder
-PRUnichar
+char16_t
 aChar
 )
 =

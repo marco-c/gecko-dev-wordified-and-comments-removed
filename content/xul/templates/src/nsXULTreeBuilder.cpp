@@ -4088,7 +4088,7 @@ nsXULTreeBuilder
 PerformAction
 (
 const
-PRUnichar
+char16_t
 *
 aAction
 )
@@ -4155,7 +4155,7 @@ nsXULTreeBuilder
 PerformActionOnRow
 (
 const
-PRUnichar
+char16_t
 *
 aAction
 int32_t
@@ -4225,7 +4225,7 @@ nsXULTreeBuilder
 PerformActionOnCell
 (
 const
-PRUnichar
+char16_t
 *
 aAction
 int32_t

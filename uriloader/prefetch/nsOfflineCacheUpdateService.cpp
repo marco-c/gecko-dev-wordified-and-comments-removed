@@ -1029,7 +1029,7 @@ aRequest
 nsresult
 aStatus
 const
-PRUnichar
+char16_t
 *
 aMessage
 )
@@ -2404,7 +2404,7 @@ char
 *
 aTopic
 const
-PRUnichar
+char16_t
 *
 aData
 )

@@ -764,7 +764,7 @@ aExpireType
 int64_t
 aExpireTime
 const
-PRUnichar
+char16_t
 *
 aData
 )
@@ -776,7 +776,7 @@ nsIPermission
 *
 aPermission
 const
-PRUnichar
+char16_t
 *
 aData
 )

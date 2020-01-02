@@ -181,7 +181,7 @@ aCount
 )
 ]
 in
-PRUnichar
+char16_t
 c
 )
 ;

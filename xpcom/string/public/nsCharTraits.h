@@ -172,9 +172,9 @@ H_SURROGATE
 (
 c
 )
-PRUnichar
+char16_t
 (
-PRUnichar
+char16_t
 (
 uint32_t
 (
@@ -186,7 +186,7 @@ c
 )
 +
 \
-PRUnichar
+char16_t
 (
 0xD7C0
 )
@@ -197,9 +197,9 @@ L_SURROGATE
 (
 c
 )
-PRUnichar
+char16_t
 (
-PRUnichar
+char16_t
 (
 uint32_t
 (
@@ -213,7 +213,7 @@ uint32_t
 )
 |
 \
-PRUnichar
+char16_t
 (
 0xDC00
 )
@@ -235,7 +235,7 @@ PLANE1_BASE
 #
 define
 UCS2_REPLACEMENT_CHAR
-PRUnichar
+char16_t
 (
 0xFFFD
 )
@@ -303,11 +303,11 @@ template
 struct
 nsCharTraits
 <
-PRUnichar
+char16_t
 >
 {
 typedef
-PRUnichar
+char16_t
 char_type
 ;
 typedef
@@ -1252,7 +1252,7 @@ char
 unsigned_char_type
 ;
 typedef
-PRUnichar
+char16_t
 incompatible_char_type
 ;
 static

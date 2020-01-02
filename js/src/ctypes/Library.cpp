@@ -430,7 +430,7 @@ nullptr
 ifdef
 XP_WIN
 const
-PRUnichar
+char16_t
 *
 pathChars
 =

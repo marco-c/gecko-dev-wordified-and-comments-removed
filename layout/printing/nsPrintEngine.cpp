@@ -2100,7 +2100,7 @@ mNoMarginBoxes
 )
 {
 const
-PRUnichar
+char16_t
 *
 emptyString
 =
@@ -3831,7 +3831,7 @@ EnumerateDocumentNames
 uint32_t
 *
 aCount
-PRUnichar
+char16_t
 *
 *
 *
@@ -3870,13 +3870,13 @@ Length
 (
 )
 ;
-PRUnichar
+char16_t
 *
 *
 array
 =
 (
-PRUnichar
+char16_t
 *
 *
 )
@@ -3889,7 +3889,7 @@ numDocs
 *
 sizeof
 (
-PRUnichar
+char16_t
 *
 )
 )
@@ -6054,13 +6054,13 @@ mPrt
 mPrintSettings
 )
 {
-PRUnichar
+char16_t
 *
 docTitleStrPS
 =
 nullptr
 ;
-PRUnichar
+char16_t
 *
 docURLStrPS
 =
@@ -7713,7 +7713,7 @@ OnStartPrinting
 )
 ;
 }
-PRUnichar
+char16_t
 *
 fileName
 =
@@ -8590,7 +8590,7 @@ aRequest
 nsresult
 aStatus
 const
-PRUnichar
+char16_t
 *
 aMessage
 )
@@ -14160,7 +14160,7 @@ nsPrintEngine
 :
 CleanupDocTitleArray
 (
-PRUnichar
+char16_t
 *
 *
 &
@@ -16775,7 +16775,7 @@ char
 *
 aTopic
 const
-PRUnichar
+char16_t
 *
 aData
 )

@@ -259,10 +259,10 @@ nsIDOMDocument
 *
 aDocument
 const
-PRUnichar
+char16_t
 *
 aContentType
-PRUnichar
+char16_t
 *
 *
 aRealContentType
@@ -272,10 +272,10 @@ nsresult
 GetExtensionForContentType
 (
 const
-PRUnichar
+char16_t
 *
 aContentType
-PRUnichar
+char16_t
 *
 *
 aExt
@@ -287,7 +287,7 @@ GetDocumentExtension
 nsIDOMDocument
 *
 aDocument
-PRUnichar
+char16_t
 *
 *
 aExt
@@ -570,7 +570,7 @@ bool
 DocumentEncoderExists
 (
 const
-PRUnichar
+char16_t
 *
 aContentType
 )

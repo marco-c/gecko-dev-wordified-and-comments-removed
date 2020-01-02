@@ -102,7 +102,7 @@ RefreshImpl
 )
 ;
 virtual
-PRUnichar
+char16_t
 GetPasswordCharacterImpl
 (
 )
@@ -252,7 +252,7 @@ sMozWindowSelectedBackground
 nscolor
 sMozScrollbar
 ;
-PRUnichar
+char16_t
 sInvisibleCharacter
 ;
 float

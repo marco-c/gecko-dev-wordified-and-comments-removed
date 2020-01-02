@@ -332,7 +332,7 @@ nullptr
 ;
 static
 const
-PRUnichar
+char16_t
 kEllipsisChar
 [
 ]
@@ -344,7 +344,7 @@ kEllipsisChar
 ;
 static
 const
-PRUnichar
+char16_t
 kASCIIPeriodsChar
 [
 ]
@@ -6184,7 +6184,7 @@ char
 *
 aTopic
 const
-PRUnichar
+char16_t
 *
 someData
 )
@@ -14976,9 +14976,9 @@ static
 bool
 IsBoundarySpace
 (
-PRUnichar
+char16_t
 aChar
-PRUnichar
+char16_t
 aNextChar
 )
 {
@@ -15012,7 +15012,7 @@ HashMix
 (
 uint32_t
 aHash
-PRUnichar
+char16_t
 aCh
 )
 {
@@ -15530,7 +15530,7 @@ Text8Bit
 )
 ;
 const
-PRUnichar
+char16_t
 *
 s2
 =
@@ -15542,7 +15542,7 @@ mText
 mDouble
 ;
 const
-PRUnichar
+char16_t
 *
 s2end
 =
@@ -15645,7 +15645,7 @@ mLength
 *
 sizeof
 (
-PRUnichar
+char16_t
 )
 )
 )
@@ -15741,7 +15741,7 @@ gfxContext
 *
 aContext
 const
-PRUnichar
+char16_t
 *
 aText
 uint32_t
@@ -15916,7 +15916,7 @@ gfxContext
 *
 aContext
 const
-PRUnichar
+char16_t
 *
 aText
 uint32_t
@@ -16066,7 +16066,7 @@ T
 =
 sizeof
 (
-PRUnichar
+char16_t
 )
 )
 {
@@ -16504,7 +16504,7 @@ static
 bool
 IsChar8Bit
 (
-PRUnichar
+char16_t
 aCh
 )
 {
@@ -16958,7 +16958,7 @@ T
 =
 sizeof
 (
-PRUnichar
+char16_t
 )
 )
 {
@@ -20836,7 +20836,7 @@ gfxFontGroup
 :
 IsInvalidChar
 (
-PRUnichar
+char16_t
 ch
 )
 {
@@ -21055,10 +21055,10 @@ closure
 )
 {
 const
-PRUnichar
+char16_t
 kSingleQuote
 =
-PRUnichar
+char16_t
 (
 '
 \
@@ -21067,10 +21067,10 @@ PRUnichar
 )
 ;
 const
-PRUnichar
+char16_t
 kDoubleQuote
 =
-PRUnichar
+char16_t
 (
 '
 \
@@ -21079,10 +21079,10 @@ PRUnichar
 )
 ;
 const
-PRUnichar
+char16_t
 kComma
 =
-PRUnichar
+char16_t
 (
 '
 '
@@ -21167,7 +21167,7 @@ aFamilies
 )
 ;
 const
-PRUnichar
+char16_t
 *
 p
 *
@@ -21252,7 +21252,7 @@ p
 kDoubleQuote
 )
 {
-PRUnichar
+char16_t
 quoteMark
 =
 *
@@ -21271,7 +21271,7 @@ return
 true
 ;
 const
-PRUnichar
+char16_t
 *
 nameStart
 =
@@ -21337,7 +21337,7 @@ kComma
 else
 {
 const
-PRUnichar
+char16_t
 *
 nameStart
 =
@@ -22103,7 +22103,7 @@ aAppUnitsPerDevUnit
 {
 static
 const
-PRUnichar
+char16_t
 hyphen
 =
 0x2010
@@ -22382,7 +22382,7 @@ gfxFontGroup
 MakeTextRun
 (
 const
-PRUnichar
+char16_t
 *
 aString
 uint32_t
@@ -22572,7 +22572,7 @@ GetBidiNumeralOption
 ;
 nsAutoArrayPtr
 <
-PRUnichar
+char16_t
 >
 transformedString
 ;
@@ -22620,7 +22620,7 @@ aLength
 i
 )
 {
-PRUnichar
+char16_t
 origCh
 =
 aString
@@ -22628,7 +22628,7 @@ aString
 i
 ]
 ;
-PRUnichar
+char16_t
 newCh
 =
 HandleNumberInChar
@@ -22655,7 +22655,7 @@ transformedString
 transformedString
 =
 new
-PRUnichar
+char16_t
 [
 aLength
 ]
@@ -22670,7 +22670,7 @@ T
 =
 sizeof
 (
-PRUnichar
+char16_t
 )
 )
 {
@@ -22686,7 +22686,7 @@ i
 *
 sizeof
 (
-PRUnichar
+char16_t
 )
 )
 ;
@@ -22992,7 +22992,7 @@ MOZ_SCRIPT_LATIN
 else
 {
 const
-PRUnichar
+char16_t
 *
 textPtr
 ;
@@ -23017,7 +23017,7 @@ textPtr
 reinterpret_cast
 <
 const
-PRUnichar
+char16_t
 *
 >
 (
@@ -23264,7 +23264,7 @@ T
 =
 sizeof
 (
-PRUnichar
+char16_t
 )
 &
 &
@@ -23626,7 +23626,7 @@ T
 =
 sizeof
 (
-PRUnichar
+char16_t
 )
 )
 {
@@ -24782,7 +24782,7 @@ T
 =
 sizeof
 (
-PRUnichar
+char16_t
 )
 )
 {
@@ -25850,7 +25850,7 @@ Length
 index
 )
 {
-PRUnichar
+char16_t
 ch
 =
 aLangTag
@@ -26299,7 +26299,7 @@ SetupClusterBoundaries
 uint32_t
 aOffset
 const
-PRUnichar
+char16_t
 *
 aString
 uint32_t
@@ -26372,7 +26372,7 @@ if
 iter
 =
 =
-PRUnichar
+char16_t
 (
 '
 '
@@ -33251,7 +33251,7 @@ gfxContext
 aContext
 uint32_t
 aCharIndex
-PRUnichar
+char16_t
 aSpaceChar
 )
 {

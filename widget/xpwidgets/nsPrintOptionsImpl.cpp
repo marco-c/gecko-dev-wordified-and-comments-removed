@@ -1017,7 +1017,7 @@ char
 *
 aArg2
 const
-PRUnichar
+char16_t
 *
 aStr
 )
@@ -1028,14 +1028,14 @@ str
 aStr
 )
 ;
-PRUnichar
+char16_t
 s
 =
 '
 &
 '
 ;
-PRUnichar
+char16_t
 r
 =
 '
@@ -3404,7 +3404,7 @@ double
 width
 height
 ;
-PRUnichar
+char16_t
 *
 name
 ;
@@ -3580,7 +3580,7 @@ name
 bool
 b
 ;
-PRUnichar
+char16_t
 *
 uStr
 ;
@@ -4892,7 +4892,7 @@ nsPrintOptions
 DisplayJobProperties
 (
 const
-PRUnichar
+char16_t
 *
 aPrinter
 nsIPrintSettings
@@ -5163,7 +5163,7 @@ nsPrintOptions
 :
 GetDefaultPrinterName
 (
-PRUnichar
+char16_t
 *
 *
 aDefaultPrinterName
@@ -5336,7 +5336,7 @@ nsPrintOptions
 InitPrintSettingsFromPrinter
 (
 const
-PRUnichar
+char16_t
 *
 aPrinterName
 nsIPrintSettings
@@ -5499,7 +5499,7 @@ aUsePNP
 return
 NS_OK
 ;
-PRUnichar
+char16_t
 *
 prtName
 =
@@ -5574,7 +5574,7 @@ x
 +
 )
 {
-PRUnichar
+char16_t
 uChar
 =
 replaceStr
@@ -5634,7 +5634,7 @@ nsIPrintSettings
 *
 aPrintSettings
 const
-PRUnichar
+char16_t
 *
 aPrefName
 int32_t

@@ -2425,7 +2425,7 @@ nsPluginInstanceOwner
 ShowStatus
 (
 const
-PRUnichar
+char16_t
 *
 aStatusMsg
 )

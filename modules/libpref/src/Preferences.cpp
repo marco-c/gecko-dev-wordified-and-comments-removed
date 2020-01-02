@@ -747,7 +747,7 @@ char
 *
 aTopic
 const
-PRUnichar
+char16_t
 *
 aData
 )
@@ -2347,7 +2347,7 @@ char
 *
 aTopic
 const
-PRUnichar
+char16_t
 *
 someData
 )
@@ -6580,7 +6580,7 @@ char
 *
 aPref
 const
-PRUnichar
+char16_t
 *
 aValue
 )

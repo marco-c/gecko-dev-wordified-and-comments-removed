@@ -1328,7 +1328,7 @@ ctxt
 nsresult
 status
 const
-PRUnichar
+char16_t
 *
 statusArg
 )
@@ -2960,7 +2960,7 @@ char
 *
 aTopic
 const
-PRUnichar
+char16_t
 *
 aSomeData
 )
@@ -4008,7 +4008,7 @@ char
 *
 aTopic
 const
-PRUnichar
+char16_t
 *
 aData
 )

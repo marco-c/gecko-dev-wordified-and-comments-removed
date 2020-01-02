@@ -379,7 +379,7 @@ Length
 *
 sizeof
 (
-PRUnichar
+char16_t
 )
 )
 ;

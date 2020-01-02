@@ -2025,7 +2025,7 @@ aAllowAll
 )
 {
 const
-PRUnichar
+char16_t
 *
 beg
 =
@@ -2036,7 +2036,7 @@ BeginReading
 )
 ;
 const
-PRUnichar
+char16_t
 *
 end
 =
@@ -2049,7 +2049,7 @@ EndReading
 for
 (
 const
-PRUnichar
+char16_t
 *
 cur
 =
@@ -2077,7 +2077,7 @@ cur
 end
 |
 |
-PRUnichar
+char16_t
 (
 '
 '

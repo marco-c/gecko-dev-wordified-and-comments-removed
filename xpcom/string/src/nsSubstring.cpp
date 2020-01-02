@@ -166,7 +166,7 @@ mozilla
 Atomic
 ;
 static
-PRUnichar
+char16_t
 gNullChar
 =
 0
@@ -188,11 +188,11 @@ char
 &
 gNullChar
 ;
-PRUnichar
+char16_t
 *
 nsCharTraits
 <
-PRUnichar
+char16_t
 >
 :
 :
@@ -1253,13 +1253,13 @@ bool
 aMoveOwnership
 )
 {
-PRUnichar
+char16_t
 *
 data
 =
 static_cast
 <
-PRUnichar
+char16_t
 *
 >
 (
@@ -1290,7 +1290,7 @@ len
 ]
 =
 =
-PRUnichar
+char16_t
 (
 0
 )

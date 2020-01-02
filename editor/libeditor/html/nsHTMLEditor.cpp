@@ -3737,7 +3737,7 @@ forget
 }
 static
 const
-PRUnichar
+char16_t
 nbsp
 =
 160
@@ -3856,7 +3856,7 @@ Length
 )
 )
 {
-PRUnichar
+char16_t
 ch
 =
 aContent
@@ -4025,7 +4025,7 @@ aOffset
 0
 )
 {
-PRUnichar
+char16_t
 ch
 =
 aContent
@@ -5680,13 +5680,13 @@ NS_ERROR_NULL_POINTER
 ;
 nsReadingIterator
 <
-PRUnichar
+char16_t
 >
 beginbody
 ;
 nsReadingIterator
 <
-PRUnichar
+char16_t
 >
 endbody
 ;
@@ -5722,13 +5722,13 @@ endbody
 ;
 nsReadingIterator
 <
-PRUnichar
+char16_t
 >
 beginhead
 ;
 nsReadingIterator
 <
-PRUnichar
+char16_t
 >
 endhead
 ;
@@ -5785,13 +5785,13 @@ false
 ;
 nsReadingIterator
 <
-PRUnichar
+char16_t
 >
 beginclosehead
 ;
 nsReadingIterator
 <
-PRUnichar
+char16_t
 >
 endclosehead
 ;
@@ -5877,7 +5877,7 @@ this
 ;
 nsReadingIterator
 <
-PRUnichar
+char16_t
 >
 endtotal
 ;
@@ -5941,7 +5941,7 @@ else
 {
 nsReadingIterator
 <
-PRUnichar
+char16_t
 >
 begintotal
 ;
@@ -6152,7 +6152,7 @@ res
 ;
 nsReadingIterator
 <
-PRUnichar
+char16_t
 >
 beginclosebody
 =
@@ -6160,7 +6160,7 @@ beginbody
 ;
 nsReadingIterator
 <
-PRUnichar
+char16_t
 >
 endclosebody
 ;
@@ -14920,7 +14920,7 @@ res
 {
 nsReadingIterator
 <
-PRUnichar
+char16_t
 >
 findIter
 endFindIter
@@ -14957,7 +14957,7 @@ endFindIter
 {
 nsReadingIterator
 <
-PRUnichar
+char16_t
 >
 beginIter
 ;
@@ -14979,7 +14979,7 @@ findIter
 ;
 nsWritingIterator
 <
-PRUnichar
+char16_t
 >
 writeIter
 ;
@@ -14990,7 +14990,7 @@ BeginWriting
 writeIter
 )
 ;
-PRUnichar
+char16_t
 newline
 (
 '

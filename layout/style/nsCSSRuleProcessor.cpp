@@ -395,7 +395,7 @@ ch
 )
 =
 =
-PRUnichar
+char16_t
 (
 '
 '
@@ -407,7 +407,7 @@ ch
 )
 =
 =
-PRUnichar
+char16_t
 (
 '
 >
@@ -6319,7 +6319,7 @@ aComparator
 )
 {
 const
-PRUnichar
+char16_t
 *
 p
 =
@@ -6366,7 +6366,7 @@ p
 p
 ;
 const
-PRUnichar
+char16_t
 *
 val_start
 =
@@ -6395,7 +6395,7 @@ p
 p
 ;
 const
-PRUnichar
+char16_t
 *
 val_end
 =
@@ -8522,7 +8522,7 @@ language
 .
 FindChar
 (
-PRUnichar
+char16_t
 (
 '
 '
@@ -10218,7 +10218,7 @@ ch
 )
 =
 =
-PRUnichar
+char16_t
 (
 '
 '
@@ -10230,7 +10230,7 @@ ch
 )
 =
 =
-PRUnichar
+char16_t
 (
 '
 ~
@@ -10304,7 +10304,7 @@ mNext
 mOperator
 !
 =
-PRUnichar
+char16_t
 (
 0
 )
@@ -10343,7 +10343,7 @@ nullptr
 ;
 if
 (
-PRUnichar
+char16_t
 (
 '
 +
@@ -10357,7 +10357,7 @@ selector
 mOperator
 |
 |
-PRUnichar
+char16_t
 (
 '
 ~
@@ -11442,7 +11442,7 @@ inline
 nsRestyleHint
 RestyleHintForOp
 (
-PRUnichar
+char16_t
 oper
 )
 {
@@ -11451,7 +11451,7 @@ if
 oper
 =
 =
-PRUnichar
+char16_t
 (
 '
 +
@@ -11462,7 +11462,7 @@ PRUnichar
 oper
 =
 =
-PRUnichar
+char16_t
 (
 '
 ~
@@ -11479,7 +11479,7 @@ if
 oper
 !
 =
-PRUnichar
+char16_t
 (
 0
 )

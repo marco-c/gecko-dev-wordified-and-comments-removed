@@ -277,7 +277,7 @@ the
 print
 job
 title
-PRUnichar
+char16_t
 *
 *
 docTitles
@@ -1028,7 +1028,7 @@ selectedItem
 :
 (
 const
-PRUnichar
+char16_t
 *
 )
 aCurrentString
@@ -1799,7 +1799,7 @@ selectedItem
 :
 (
 const
-PRUnichar
+char16_t
 *
 )
 aCurrentString

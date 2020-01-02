@@ -747,7 +747,7 @@ int
 NS_WildCardValid
 (
 const
-PRUnichar
+char16_t
 *
 expr
 )
@@ -2453,11 +2453,11 @@ int
 NS_WildCardMatch
 (
 const
-PRUnichar
+char16_t
 *
 str
 const
-PRUnichar
+char16_t
 *
 xp
 bool

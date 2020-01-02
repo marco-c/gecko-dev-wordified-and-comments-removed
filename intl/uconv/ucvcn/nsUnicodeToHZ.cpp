@@ -70,7 +70,7 @@ nsUnicodeToHZ
 ConvertNoBuff
 (
 const
-PRUnichar
+char16_t
 *
 aSrc
 int32_t
@@ -294,7 +294,7 @@ char
 )
 (
 (
-PRUnichar
+char16_t
 )
 (
 *

@@ -96,7 +96,7 @@ void
 accumulateCharactersForced
 (
 const
-PRUnichar
+char16_t
 *
 aBuf
 int32_t

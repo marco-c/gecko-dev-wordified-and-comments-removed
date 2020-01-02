@@ -100,7 +100,7 @@ NS_STRETCH_MAXWIDTH
 struct
 nsGlyphCode
 {
-PRUnichar
+char16_t
 code
 [
 2
@@ -122,7 +122,7 @@ code
 ]
 =
 =
-PRUnichar
+char16_t
 (
 '
 \
@@ -382,7 +382,7 @@ mDirection
 ;
 }
 const
-PRUnichar
+char16_t
 *
 get
 (

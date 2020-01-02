@@ -1869,7 +1869,7 @@ Length
 *
 sizeof
 (
-PRUnichar
+char16_t
 )
 )
 ;
@@ -2045,7 +2045,7 @@ res
 )
 |
 |
-PRUnichar
+char16_t
 (
 '
 \
@@ -2141,7 +2141,7 @@ L
 "
 sizeof
 (
-PRUnichar
+char16_t
 )
 )
 ;
@@ -2352,7 +2352,7 @@ Length
 *
 sizeof
 (
-PRUnichar
+char16_t
 )
 )
 ;

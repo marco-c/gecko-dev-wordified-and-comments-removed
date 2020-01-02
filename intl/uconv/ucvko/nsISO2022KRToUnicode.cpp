@@ -39,7 +39,7 @@ aSrc
 int32_t
 *
 aSrcLen
-PRUnichar
+char16_t
 *
 aDest
 int32_t
@@ -83,7 +83,7 @@ char
 )
 aSrc
 ;
-PRUnichar
+char16_t
 *
 destEnd
 =
@@ -92,7 +92,7 @@ aDest
 *
 aDestLen
 ;
-PRUnichar
+char16_t
 *
 dest
 =
@@ -228,7 +228,7 @@ dest
 +
 =
 (
-PRUnichar
+char16_t
 )
 *
 src
@@ -274,7 +274,7 @@ dest
 +
 =
 (
-PRUnichar
+char16_t
 )
 0x1b
 ;
@@ -293,7 +293,7 @@ src
 0xFFFD
 :
 (
-PRUnichar
+char16_t
 )
 *
 src
@@ -344,7 +344,7 @@ dest
 +
 =
 (
-PRUnichar
+char16_t
 )
 0x1b
 ;
@@ -354,7 +354,7 @@ dest
 +
 =
 (
-PRUnichar
+char16_t
 )
 '
 '
@@ -374,7 +374,7 @@ src
 0xFFFD
 :
 (
-PRUnichar
+char16_t
 )
 *
 src
@@ -433,7 +433,7 @@ dest
 +
 =
 (
-PRUnichar
+char16_t
 )
 0x1b
 ;
@@ -443,7 +443,7 @@ dest
 +
 =
 (
-PRUnichar
+char16_t
 )
 '
 '
@@ -454,7 +454,7 @@ dest
 +
 =
 (
-PRUnichar
+char16_t
 )
 '
 )
@@ -475,7 +475,7 @@ src
 0xFFFD
 :
 (
-PRUnichar
+char16_t
 )
 *
 src
@@ -615,7 +615,7 @@ dest
 +
 =
 (
-PRUnichar
+char16_t
 )
 *
 src
@@ -755,7 +755,7 @@ ksx
 2
 ]
 ;
-PRUnichar
+char16_t
 uni
 ;
 int32_t

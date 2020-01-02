@@ -673,7 +673,7 @@ char
 *
 aTopic
 const
-PRUnichar
+char16_t
 *
 someData
 )
@@ -792,7 +792,7 @@ mConfigURL
 RFindChar
 (
 (
-PRUnichar
+char16_t
 )
 '
 ?

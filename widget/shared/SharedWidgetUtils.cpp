@@ -1099,7 +1099,7 @@ WidgetUtils
 :
 GetDeadKeyNameIndex
 (
-PRUnichar
+char16_t
 aChar
 )
 {

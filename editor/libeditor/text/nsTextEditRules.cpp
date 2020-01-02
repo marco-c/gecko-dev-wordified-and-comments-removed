@@ -5383,7 +5383,7 @@ MOZ_ASSERT
 aOutString
 )
 ;
-PRUnichar
+char16_t
 passwordChar
 =
 LookAndFeel

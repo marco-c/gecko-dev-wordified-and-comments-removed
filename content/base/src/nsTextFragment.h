@@ -144,7 +144,7 @@ mIsBidi
 ;
 }
 const
-PRUnichar
+char16_t
 *
 Get2b
 (
@@ -246,7 +246,7 @@ bool
 SetTo
 (
 const
-PRUnichar
+char16_t
 *
 aBuffer
 int32_t
@@ -259,7 +259,7 @@ bool
 Append
 (
 const
-PRUnichar
+char16_t
 *
 aBuffer
 uint32_t
@@ -361,7 +361,7 @@ aString
 void
 CopyTo
 (
-PRUnichar
+char16_t
 *
 aDest
 int32_t
@@ -370,7 +370,7 @@ int32_t
 aCount
 )
 ;
-PRUnichar
+char16_t
 CharAt
 (
 int32_t
@@ -464,7 +464,7 @@ void
 UpdateBidiFlag
 (
 const
-PRUnichar
+char16_t
 *
 aBuffer
 uint32_t
@@ -473,7 +473,7 @@ aLength
 ;
 union
 {
-PRUnichar
+char16_t
 *
 m2b
 ;

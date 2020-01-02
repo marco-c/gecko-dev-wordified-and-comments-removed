@@ -1124,7 +1124,7 @@ aOffset
 uint32_t
 aCount
 const
-PRUnichar
+char16_t
 *
 aBuffer
 uint32_t
@@ -1416,12 +1416,12 @@ aCount
 +
 aLength
 ;
-PRUnichar
+char16_t
 *
 to
 =
 new
-PRUnichar
+char16_t
 [
 newLength
 ]
@@ -1462,7 +1462,7 @@ aLength
 *
 sizeof
 (
-PRUnichar
+char16_t
 )
 )
 ;
@@ -1682,7 +1682,7 @@ Is2b
 )
 {
 const
-PRUnichar
+char16_t
 *
 cp
 =
@@ -1695,7 +1695,7 @@ Get2b
 aOffset
 ;
 const
-PRUnichar
+char16_t
 *
 end
 =
@@ -1710,7 +1710,7 @@ cp
 end
 )
 {
-PRUnichar
+char16_t
 ch
 =
 *
@@ -1884,7 +1884,7 @@ cp
 end
 )
 {
-PRUnichar
+char16_t
 ch
 =
 *
@@ -3953,7 +3953,7 @@ nsGenericDOMDataNode
 SetText
 (
 const
-PRUnichar
+char16_t
 *
 aBuffer
 uint32_t
@@ -3984,7 +3984,7 @@ nsGenericDOMDataNode
 AppendText
 (
 const
-PRUnichar
+char16_t
 *
 aBuffer
 uint32_t

@@ -192,7 +192,7 @@ input
 uint32_t
 *
 inputLeft
-PRUnichar
+char16_t
 *
 *
 output
@@ -258,7 +258,7 @@ void
 utf16_to_isolatin1
 (
 const
-PRUnichar
+char16_t
 *
 *
 input
@@ -876,7 +876,7 @@ input
 uint32_t
 *
 inputLeft
-PRUnichar
+char16_t
 *
 *
 output
@@ -889,7 +889,7 @@ nsresult
 UnicodeToNative
 (
 const
-PRUnichar
+char16_t
 *
 *
 input
@@ -1799,7 +1799,7 @@ input
 uint32_t
 *
 inputLeft
-PRUnichar
+char16_t
 *
 *
 output
@@ -2159,7 +2159,7 @@ nsNativeCharsetConverter
 UnicodeToNative
 (
 const
-PRUnichar
+char16_t
 *
 *
 input
@@ -2338,7 +2338,7 @@ one_uchar
 =
 sizeof
 (
-PRUnichar
+char16_t
 )
 ;
 res
@@ -2445,7 +2445,7 @@ in
 =
 sizeof
 (
-PRUnichar
+char16_t
 )
 ;
 res
@@ -2476,7 +2476,7 @@ inLeft
 =
 sizeof
 (
-PRUnichar
+char16_t
 )
 ;
 }
@@ -2633,7 +2633,7 @@ input
 uint32_t
 *
 inputLeft
-PRUnichar
+char16_t
 *
 *
 output
@@ -2646,7 +2646,7 @@ nsresult
 UnicodeToNative
 (
 const
-PRUnichar
+char16_t
 *
 *
 input
@@ -2844,7 +2844,7 @@ input
 uint32_t
 *
 inputLeft
-PRUnichar
+char16_t
 *
 *
 output
@@ -2963,7 +2963,7 @@ incr
 output
 =
 (
-PRUnichar
+char16_t
 )
 tmp
 ;
@@ -3021,7 +3021,7 @@ nsNativeCharsetConverter
 UnicodeToNative
 (
 const
-PRUnichar
+char16_t
 *
 *
 input
@@ -3286,7 +3286,7 @@ BeginWriting
 out_iter
 )
 ;
-PRUnichar
+char16_t
 *
 result
 =
@@ -3424,7 +3424,7 @@ nsNativeCharsetConverter
 conv
 ;
 const
-PRUnichar
+char16_t
 *
 buf
 =
@@ -3706,7 +3706,7 @@ BeginWriting
 out_iter
 )
 ;
-PRUnichar
+char16_t
 *
 result
 =
@@ -3892,7 +3892,7 @@ char
 aStrInA
 int
 aBufferSize
-PRUnichar
+char16_t
 *
 aStrOutW
 )
@@ -3914,7 +3914,7 @@ int32_t
 NS_ConvertWtoA
 (
 const
-PRUnichar
+char16_t
 *
 aStrInW
 int
@@ -4323,7 +4323,7 @@ UniChar
 )
 const_cast
 <
-PRUnichar
+char16_t
 *
 >
 (

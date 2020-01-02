@@ -177,7 +177,7 @@ nsRenderingContext
 *
 aRC
 const
-PRUnichar
+char16_t
 *
 aString
 int32_t
@@ -1288,7 +1288,7 @@ nsFontMetrics
 GetWidth
 (
 const
-PRUnichar
+char16_t
 *
 aString
 uint32_t
@@ -1482,7 +1482,7 @@ nsFontMetrics
 DrawString
 (
 const
-PRUnichar
+char16_t
 *
 aString
 uint32_t
@@ -1595,7 +1595,7 @@ nsFontMetrics
 *
 aMetrics
 const
-PRUnichar
+char16_t
 *
 aString
 uint32_t
@@ -1754,7 +1754,7 @@ nsFontMetrics
 GetBoundingMetrics
 (
 const
-PRUnichar
+char16_t
 *
 aString
 uint32_t
@@ -1785,7 +1785,7 @@ nsFontMetrics
 GetInkBoundsForVisualOverflow
 (
 const
-PRUnichar
+char16_t
 *
 aString
 uint32_t

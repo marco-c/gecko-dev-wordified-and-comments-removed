@@ -160,7 +160,7 @@ outbuffer
 OUTBUFSIZE
 ]
 ;
-PRUnichar
+char16_t
 medbuffer
 [
 MEDBUFSIZE

@@ -34,7 +34,7 @@ aSrc
 int32_t
 *
 aSrcLength
-PRUnichar
+char16_t
 *
 aDest
 int32_t
@@ -65,7 +65,7 @@ aSrc
 int32_t
 *
 aSrcLength
-PRUnichar
+char16_t
 *
 aDest
 int32_t
@@ -101,14 +101,14 @@ aSrc
 int32_t
 *
 aSrcLength
-PRUnichar
+char16_t
 *
 aDest
 int32_t
 *
 aDestLength
 const
-PRUnichar
+char16_t
 *
 aFastTable
 int32_t
@@ -124,7 +124,7 @@ CreateFastTable
 uMappingTable
 *
 aMappingTable
-PRUnichar
+char16_t
 *
 aFastTable
 int32_t

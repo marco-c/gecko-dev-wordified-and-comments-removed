@@ -1459,7 +1459,7 @@ return
 rv
 ;
 const
-PRUnichar
+char16_t
 *
 string
 =

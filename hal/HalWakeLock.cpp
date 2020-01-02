@@ -443,7 +443,7 @@ char
 *
 aTopic
 const
-PRUnichar
+char16_t
 *
 data
 )
@@ -506,7 +506,7 @@ char
 *
 aTopic
 const
-PRUnichar
+char16_t
 *
 data
 )

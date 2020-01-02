@@ -156,14 +156,14 @@ kTabSize
 ;
 static
 const
-PRUnichar
+char16_t
 kNBSP
 =
 160
 ;
 static
 const
-PRUnichar
+char16_t
 kSPACE
 =
 '
@@ -182,7 +182,7 @@ static
 int32_t
 GetUnicharWidth
 (
-PRUnichar
+char16_t
 ucs
 )
 ;
@@ -191,7 +191,7 @@ int32_t
 GetUnicharStringWidth
 (
 const
-PRUnichar
+char16_t
 *
 pwcs
 int32_t
@@ -611,7 +611,7 @@ mLineBreak
 .
 Assign
 (
-PRUnichar
+char16_t
 (
 '
 \
@@ -636,7 +636,7 @@ mLineBreak
 .
 Assign
 (
-PRUnichar
+char16_t
 (
 '
 \
@@ -2689,7 +2689,7 @@ mInIndentString
 .
 Append
 (
-PRUnichar
+char16_t
 (
 '
 #
@@ -2702,7 +2702,7 @@ mInIndentString
 .
 Append
 (
-PRUnichar
+char16_t
 (
 '
 .
@@ -2755,7 +2755,7 @@ mInIndentString
 .
 Append
 (
-PRUnichar
+char16_t
 (
 bulletChar
 )
@@ -2766,7 +2766,7 @@ mInIndentString
 .
 Append
 (
-PRUnichar
+char16_t
 (
 '
 '
@@ -3114,7 +3114,7 @@ leadup
 .
 Append
 (
-PRUnichar
+char16_t
 (
 '
 .
@@ -3127,7 +3127,7 @@ leadup
 .
 Append
 (
-PRUnichar
+char16_t
 (
 '
 '
@@ -4223,7 +4223,7 @@ temp
 .
 Append
 (
-PRUnichar
+char16_t
 (
 '
 >
@@ -4832,7 +4832,7 @@ line
 .
 Append
 (
-PRUnichar
+char16_t
 (
 '
 -
@@ -5140,7 +5140,7 @@ bool
 IsSpaceStuffable
 (
 const
-PRUnichar
+char16_t
 *
 s
 )
@@ -5210,7 +5210,7 @@ nsPlainTextSerializer
 AddToLine
 (
 const
-PRUnichar
+char16_t
 *
 aLineFragment
 int32_t
@@ -5299,7 +5299,7 @@ mCurrentLine
 .
 Append
 (
-PRUnichar
+char16_t
 (
 '
 '
@@ -5915,7 +5915,7 @@ mCurrentLine
 .
 Append
 (
-PRUnichar
+char16_t
 (
 '
 '
@@ -6147,7 +6147,7 @@ mCurrentLine
 .
 Append
 (
-PRUnichar
+char16_t
 (
 '
 '
@@ -6299,7 +6299,7 @@ quotes
 .
 Append
 (
-PRUnichar
+char16_t
 (
 '
 >
@@ -6322,7 +6322,7 @@ quotes
 .
 Append
 (
-PRUnichar
+char16_t
 (
 '
 '
@@ -6397,7 +6397,7 @@ spaces
 .
 Append
 (
-PRUnichar
+char16_t
 (
 '
 '
@@ -6609,7 +6609,7 @@ i
 -
 )
 {
-PRUnichar
+char16_t
 c
 =
 str
@@ -6716,7 +6716,7 @@ First
 )
 =
 =
-PRUnichar
+char16_t
 (
 '
 >
@@ -6924,7 +6924,7 @@ IsEmpty
 )
 )
 {
-PRUnichar
+char16_t
 lastchar
 =
 stringpart
@@ -7182,7 +7182,7 @@ mCurrentLine
 .
 Append
 (
-PRUnichar
+char16_t
 (
 '
 '
@@ -7267,7 +7267,7 @@ int32_t
 nextpos
 ;
 const
-PRUnichar
+char16_t
 *
 offsetIntoBuffer
 =
@@ -7989,7 +7989,7 @@ return
 int32_t
 GetUnicharWidth
 (
-PRUnichar
+char16_t
 ucs
 )
 {
@@ -8665,7 +8665,7 @@ int32_t
 GetUnicharStringWidth
 (
 const
-PRUnichar
+char16_t
 *
 pwcs
 int32_t

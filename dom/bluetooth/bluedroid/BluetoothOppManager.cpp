@@ -304,7 +304,7 @@ char
 *
 aTopic
 const
-PRUnichar
+char16_t
 *
 aData
 )
@@ -2671,7 +2671,7 @@ BluetoothOppManager
 :
 IsReservedChar
 (
-PRUnichar
+char16_t
 c
 )
 {
@@ -2685,7 +2685,7 @@ c
 c
 =
 =
-PRUnichar
+char16_t
 (
 '
 ?
@@ -2696,7 +2696,7 @@ PRUnichar
 c
 =
 =
-PRUnichar
+char16_t
 (
 '
 |
@@ -2707,7 +2707,7 @@ PRUnichar
 c
 =
 =
-PRUnichar
+char16_t
 (
 '
 <
@@ -2718,7 +2718,7 @@ PRUnichar
 c
 =
 =
-PRUnichar
+char16_t
 (
 '
 >
@@ -2729,7 +2729,7 @@ PRUnichar
 c
 =
 =
-PRUnichar
+char16_t
 (
 '
 "
@@ -2740,7 +2740,7 @@ PRUnichar
 c
 =
 =
-PRUnichar
+char16_t
 (
 '
 :
@@ -2751,7 +2751,7 @@ PRUnichar
 c
 =
 =
-PRUnichar
+char16_t
 (
 '
 /
@@ -2762,7 +2762,7 @@ PRUnichar
 c
 =
 =
-PRUnichar
+char16_t
 (
 '
 *
@@ -2773,7 +2773,7 @@ PRUnichar
 c
 =
 =
-PRUnichar
+char16_t
 (
 '
 \
@@ -2835,7 +2835,7 @@ Replace
 (
 i
 1
-PRUnichar
+char16_t
 (
 '
 _
@@ -4312,7 +4312,7 @@ len
 ]
 ;
 const
-PRUnichar
+char16_t
 *
 fileNamePtr
 =

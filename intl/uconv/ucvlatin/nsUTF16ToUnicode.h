@@ -45,7 +45,7 @@ aSrc
 int32_t
 *
 aSrcLength
-PRUnichar
+char16_t
 *
 aDest
 int32_t
@@ -84,10 +84,10 @@ mState
 uint8_t
 mOddByte
 ;
-PRUnichar
+char16_t
 mOddHighSurrogate
 ;
-PRUnichar
+char16_t
 mOddLowSurrogate
 ;
 }
@@ -110,7 +110,7 @@ aSrc
 int32_t
 *
 aSrcLength
-PRUnichar
+char16_t
 *
 aDest
 int32_t
@@ -138,7 +138,7 @@ aSrc
 int32_t
 *
 aSrcLength
-PRUnichar
+char16_t
 *
 aDest
 int32_t
@@ -175,7 +175,7 @@ aSrc
 int32_t
 *
 aSrcLength
-PRUnichar
+char16_t
 *
 aDest
 int32_t

@@ -703,7 +703,7 @@ bufferSize
 1
 )
 ;
-PRUnichar
+char16_t
 *
 start
 =
@@ -713,7 +713,7 @@ BeginWriting
 (
 )
 ;
-PRUnichar
+char16_t
 *
 end
 =

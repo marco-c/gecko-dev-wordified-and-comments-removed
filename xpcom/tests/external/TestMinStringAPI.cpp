@@ -47,7 +47,7 @@ World
 ;
 static
 const
-PRUnichar
+char16_t
 kUnicodeData
 [
 ]
@@ -374,14 +374,14 @@ s
 )
 ;
 const
-PRUnichar
+char16_t
 *
 ptr
 ;
 uint32_t
 len
 ;
-PRUnichar
+char16_t
 *
 clone
 ;

@@ -564,7 +564,7 @@ static
 bool
 IsWhitespace
 (
-PRUnichar
+char16_t
 aChar
 )
 {

@@ -131,11 +131,11 @@ NS_IMETHOD
 HandleStartElement
 (
 const
-PRUnichar
+char16_t
 *
 aName
 const
-PRUnichar
+char16_t
 *
 *
 aAtts
@@ -152,7 +152,7 @@ NS_IMETHOD
 HandleEndElement
 (
 const
-PRUnichar
+char16_t
 *
 aName
 )
@@ -162,7 +162,7 @@ NS_IMETHOD
 HandleCDataSection
 (
 const
-PRUnichar
+char16_t
 *
 aData
 uint32_t
@@ -185,7 +185,7 @@ bool
 OnOpenContainer
 (
 const
-PRUnichar
+char16_t
 *
 *
 aAtts
@@ -215,7 +215,7 @@ nsresult
 CreateElement
 (
 const
-PRUnichar
+char16_t
 *
 *
 aAtts
@@ -248,7 +248,7 @@ nsresult
 AddAttributes
 (
 const
-PRUnichar
+char16_t
 *
 *
 aAtts
@@ -265,7 +265,7 @@ nsresult
 AddAttributesToXULPrototype
 (
 const
-PRUnichar
+char16_t
 *
 *
 aAtts
@@ -289,7 +289,7 @@ void
 ConstructHandler
 (
 const
-PRUnichar
+char16_t
 *
 *
 aAtts
@@ -301,7 +301,7 @@ void
 ConstructResource
 (
 const
-PRUnichar
+char16_t
 *
 *
 aAtts
@@ -314,7 +314,7 @@ void
 ConstructImplementation
 (
 const
-PRUnichar
+char16_t
 *
 *
 aAtts
@@ -324,7 +324,7 @@ void
 ConstructProperty
 (
 const
-PRUnichar
+char16_t
 *
 *
 aAtts
@@ -336,7 +336,7 @@ void
 ConstructMethod
 (
 const
-PRUnichar
+char16_t
 *
 *
 aAtts
@@ -346,7 +346,7 @@ void
 ConstructParameter
 (
 const
-PRUnichar
+char16_t
 *
 *
 aAtts
@@ -356,7 +356,7 @@ void
 ConstructField
 (
 const
-PRUnichar
+char16_t
 *
 *
 aAtts
@@ -378,11 +378,11 @@ NS_IMETHOD
 ReportError
 (
 const
-PRUnichar
+char16_t
 *
 aErrorText
 const
-PRUnichar
+char16_t
 *
 aSourceText
 nsIScriptError

@@ -87,7 +87,7 @@ void
 LossyCopyUTF16toASCII
 (
 const
-PRUnichar
+char16_t
 *
 aSource
 nsACString
@@ -205,7 +205,7 @@ void
 CopyUTF16toUTF8
 (
 const
-PRUnichar
+char16_t
 *
 aSource
 nsACString
@@ -433,7 +433,7 @@ void
 LossyAppendUTF16toASCII
 (
 const
-PRUnichar
+char16_t
 *
 aSource
 nsACString
@@ -842,7 +842,7 @@ void
 AppendUTF16toUTF8
 (
 const
-PRUnichar
+char16_t
 *
 aSource
 nsACString
@@ -1223,7 +1223,7 @@ return
 result
 ;
 }
-PRUnichar
+char16_t
 *
 ToNewUnicode
 (
@@ -1233,7 +1233,7 @@ nsAString
 aSource
 )
 {
-PRUnichar
+char16_t
 *
 result
 =
@@ -1241,7 +1241,7 @@ AllocateStringCopy
 (
 aSource
 (
-PRUnichar
+char16_t
 *
 )
 0
@@ -1262,7 +1262,7 @@ const_iterator
 fromBegin
 fromEnd
 ;
-PRUnichar
+char16_t
 *
 toBegin
 =
@@ -1286,7 +1286,7 @@ fromEnd
 toBegin
 )
 =
-PRUnichar
+char16_t
 (
 0
 )
@@ -1295,7 +1295,7 @@ return
 result
 ;
 }
-PRUnichar
+char16_t
 *
 ToNewUnicode
 (
@@ -1305,7 +1305,7 @@ nsACString
 aSource
 )
 {
-PRUnichar
+char16_t
 *
 result
 =
@@ -1313,7 +1313,7 @@ AllocateStringCopy
 (
 aSource
 (
-PRUnichar
+char16_t
 *
 )
 0
@@ -1409,7 +1409,7 @@ Length
 )
 ;
 }
-PRUnichar
+char16_t
 *
 UTF8ToUnicodeBuffer
 (
@@ -1417,7 +1417,7 @@ const
 nsACString
 &
 aSource
-PRUnichar
+char16_t
 *
 aBuffer
 uint32_t
@@ -1476,7 +1476,7 @@ return
 aBuffer
 ;
 }
-PRUnichar
+char16_t
 *
 UTF8ToNewUnicode
 (
@@ -1510,16 +1510,16 @@ length
 *
 sizeof
 (
-PRUnichar
+char16_t
 )
 ;
-PRUnichar
+char16_t
 *
 buffer
 =
 static_cast
 <
-PRUnichar
+char16_t
 *
 >
 (
@@ -1576,7 +1576,7 @@ return
 buffer
 ;
 }
-PRUnichar
+char16_t
 *
 CopyUnicodeTo
 (
@@ -1586,7 +1586,7 @@ nsAString
 aSource
 uint32_t
 aSrcOffset
-PRUnichar
+char16_t
 *
 aDest
 uint32_t
@@ -1600,7 +1600,7 @@ const_iterator
 fromBegin
 fromEnd
 ;
-PRUnichar
+char16_t
 *
 toBegin
 =
@@ -1798,10 +1798,10 @@ aString
 {
 static
 const
-PRUnichar
+char16_t
 NOT_ASCII
 =
-PRUnichar
+char16_t
 (
 ~
 0x007F
@@ -1829,7 +1829,7 @@ done_reading
 )
 ;
 const
-PRUnichar
+char16_t
 *
 c
 =
@@ -1840,7 +1840,7 @@ get
 )
 ;
 const
-PRUnichar
+char16_t
 *
 end
 =
@@ -3786,7 +3786,7 @@ aComparator
 bool
 FindCharInReadable
 (
-PRUnichar
+char16_t
 aChar
 nsAString
 :
@@ -3819,13 +3819,13 @@ get
 )
 ;
 const
-PRUnichar
+char16_t
 *
 charFoundAt
 =
 nsCharTraits
 <
-PRUnichar
+char16_t
 >
 :
 :
@@ -3970,7 +3970,7 @@ const
 nsAString
 &
 aStr
-PRUnichar
+char16_t
 aChar
 )
 {
@@ -4345,7 +4345,7 @@ aComparator
 }
 static
 const
-PRUnichar
+char16_t
 empty_buffer
 [
 1
@@ -4479,7 +4479,7 @@ u8end
 )
 ;
 const
-PRUnichar
+char16_t
 *
 u16
 *
@@ -4680,7 +4680,7 @@ aDest
 .
 Append
 (
-PRUnichar
+char16_t
 (
 aSource
 )

@@ -24,7 +24,7 @@ bool
 OnConnectionFailed
 (
 const
-PRUnichar
+char16_t
 *
 hostName
 )

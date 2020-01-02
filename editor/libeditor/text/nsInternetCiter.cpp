@@ -83,7 +83,7 @@ nsStringIterator
 h
 "
 const
-PRUnichar
+char16_t
 gt
 (
 '
@@ -92,7 +92,7 @@ gt
 )
 ;
 const
-PRUnichar
+char16_t
 space
 (
 '
@@ -100,14 +100,14 @@ space
 )
 ;
 const
-PRUnichar
+char16_t
 nbsp
 (
 0xa0
 )
 ;
 const
-PRUnichar
+char16_t
 nl
 (
 '
@@ -117,7 +117,7 @@ n
 )
 ;
 const
-PRUnichar
+char16_t
 cr
 (
 '
@@ -147,14 +147,14 @@ Truncate
 (
 )
 ;
-PRUnichar
+char16_t
 uch
 =
 nl
 ;
 nsReadingIterator
 <
-PRUnichar
+char16_t
 >
 beginIter
 endIter
@@ -309,7 +309,7 @@ Truncate
 ;
 nsReadingIterator
 <
-PRUnichar
+char16_t
 >
 beginIter
 endIter
@@ -436,7 +436,7 @@ aOutString
 .
 Append
 (
-PRUnichar
+char16_t
 (
 '
 '
@@ -448,7 +448,7 @@ aOutString
 .
 Append
 (
-PRUnichar
+char16_t
 (
 '
 \
@@ -637,7 +637,7 @@ inline
 bool
 IsSpace
 (
-PRUnichar
+char16_t
 c
 )
 {
@@ -708,7 +708,7 @@ aInString
 .
 FindChar
 (
-PRUnichar
+char16_t
 (
 '
 \

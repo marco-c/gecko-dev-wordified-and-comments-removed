@@ -192,7 +192,7 @@ start
 start
 ;
 }
-PRUnichar
+char16_t
 *
 nsHtml5UTF16Buffer
 :

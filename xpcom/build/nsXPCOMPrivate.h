@@ -232,7 +232,7 @@ StringContainerInit2Func
 nsStringContainer
 &
 const
-PRUnichar
+char16_t
 *
 uint32_t
 uint32_t
@@ -260,7 +260,7 @@ const
 nsAString
 &
 const
-PRUnichar
+char16_t
 *
 *
 bool
@@ -277,13 +277,13 @@ StringGetMutableDataFunc
 nsAString
 &
 uint32_t
-PRUnichar
+char16_t
 *
 *
 )
 ;
 typedef
-PRUnichar
+char16_t
 *
 (
 *
@@ -305,7 +305,7 @@ StringSetDataFunc
 nsAString
 &
 const
-PRUnichar
+char16_t
 *
 uint32_t
 )
@@ -322,7 +322,7 @@ nsAString
 uint32_t
 uint32_t
 const
-PRUnichar
+char16_t
 *
 uint32_t
 )

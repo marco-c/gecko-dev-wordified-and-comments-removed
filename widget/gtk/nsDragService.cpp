@@ -663,7 +663,7 @@ char
 *
 aTopic
 const
-PRUnichar
+char16_t
 *
 aData
 )
@@ -2020,7 +2020,7 @@ uint32_t
 datalen
 uint32_t
 aItemIndex
-PRUnichar
+char16_t
 *
 *
 convertedText
@@ -3063,7 +3063,7 @@ char
 mTargetDragData
 )
 ;
-PRUnichar
+char16_t
 *
 convertedText
 =
@@ -3308,7 +3308,7 @@ char
 mTargetDragData
 )
 ;
-PRUnichar
+char16_t
 *
 convertedText
 =
@@ -3456,7 +3456,7 @@ char
 mTargetDragData
 )
 ;
-PRUnichar
+char16_t
 *
 convertedText
 =
@@ -3626,7 +3626,7 @@ char
 mTargetDragData
 )
 ;
-PRUnichar
+char16_t
 *
 convertedText
 =
@@ -3801,7 +3801,7 @@ char
 mTargetDragData
 )
 ;
-PRUnichar
+char16_t
 *
 convertedText
 =
@@ -6452,13 +6452,13 @@ plainTextData
 =
 nullptr
 ;
-PRUnichar
+char16_t
 *
 castedUnicode
 =
 reinterpret_cast
 <
-PRUnichar
+char16_t
 *
 >
 (
@@ -6946,13 +6946,13 @@ plainTextData
 =
 nullptr
 ;
-PRUnichar
+char16_t
 *
 castedUnicode
 =
 reinterpret_cast
 <
-PRUnichar
+char16_t
 *
 >
 (

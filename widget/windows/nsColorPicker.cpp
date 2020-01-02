@@ -126,7 +126,7 @@ result
 =
 16
 ;
-PRUnichar
+char16_t
 c
 =
 aColor

@@ -77,7 +77,7 @@ nsIURI
 *
 aURI
 const
-PRUnichar
+char16_t
 *
 aTargetSpec
 const
@@ -106,7 +106,7 @@ nsIURI
 *
 aURI
 const
-PRUnichar
+char16_t
 *
 aTargetSpec
 const
@@ -149,7 +149,7 @@ nsIURI
 *
 aURLSpec
 const
-PRUnichar
+char16_t
 *
 aTargetSpec
 )

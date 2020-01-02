@@ -1490,7 +1490,7 @@ value
 .
 StripChar
 (
-PRUnichar
+char16_t
 (
 '
 \
@@ -1503,7 +1503,7 @@ value
 .
 StripChar
 (
-PRUnichar
+char16_t
 (
 '
 \
@@ -2177,7 +2177,7 @@ value
 .
 StripChar
 (
-PRUnichar
+char16_t
 (
 '
 \
@@ -2190,7 +2190,7 @@ value
 .
 StripChar
 (
-PRUnichar
+char16_t
 (
 '
 \
@@ -7716,7 +7716,7 @@ tagName
 )
 {
 const
-PRUnichar
+char16_t
 *
 params
 [

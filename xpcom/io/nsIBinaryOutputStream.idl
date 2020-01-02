@@ -569,7 +569,7 @@ nsIBinaryOutputStream
 *
 aStream
 const
-PRUnichar
+char16_t
 *
 aString
 )

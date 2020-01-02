@@ -491,7 +491,7 @@ nsCSSPseudoClasses
 Type
 aType
 const
-PRUnichar
+char16_t
 *
 aString
 )
@@ -1655,7 +1655,7 @@ mNegations
 ;
 mOperator
 =
-PRUnichar
+char16_t
 (
 0
 )
@@ -1896,7 +1896,7 @@ nsCSSPseudoClasses
 Type
 aType
 const
-PRUnichar
+char16_t
 *
 aString
 )
@@ -2166,7 +2166,7 @@ nsCSSSelector
 :
 SetOperator
 (
-PRUnichar
+char16_t
 aOperator
 )
 {
@@ -2551,7 +2551,7 @@ index
 1
 )
 ;
-PRUnichar
+char16_t
 oper
 =
 s
@@ -2574,7 +2574,7 @@ NS_ASSERTION
 oper
 =
 =
-PRUnichar
+char16_t
 (
 '
 :
@@ -2596,7 +2596,7 @@ NS_ASSERTION
 oper
 !
 =
-PRUnichar
+char16_t
 (
 0
 )
@@ -2612,7 +2612,7 @@ aString
 .
 Append
 (
-PRUnichar
+char16_t
 (
 '
 '
@@ -2624,7 +2624,7 @@ if
 oper
 !
 =
-PRUnichar
+char16_t
 (
 '
 '
@@ -2642,7 +2642,7 @@ aString
 .
 Append
 (
-PRUnichar
+char16_t
 (
 '
 '
@@ -2720,7 +2720,7 @@ aString
 .
 Append
 (
-PRUnichar
+char16_t
 (
 '
 )
@@ -2828,7 +2828,7 @@ aString
 .
 Append
 (
-PRUnichar
+char16_t
 (
 '
 |
@@ -2915,7 +2915,7 @@ aString
 .
 Append
 (
-PRUnichar
+char16_t
 (
 '
 |
@@ -3007,7 +3007,7 @@ aString
 .
 Append
 (
-PRUnichar
+char16_t
 (
 '
 |
@@ -3089,7 +3089,7 @@ aString
 .
 Append
 (
-PRUnichar
+char16_t
 (
 '
 *
@@ -3133,7 +3133,7 @@ aString
 .
 Append
 (
-PRUnichar
+char16_t
 (
 '
 *
@@ -3158,7 +3158,7 @@ aString
 .
 Append
 (
-PRUnichar
+char16_t
 (
 '
 :
@@ -3222,7 +3222,7 @@ aString
 .
 Append
 (
-PRUnichar
+char16_t
 (
 '
 #
@@ -3284,7 +3284,7 @@ aString
 .
 Append
 (
-PRUnichar
+char16_t
 (
 '
 (
@@ -3329,7 +3329,7 @@ aString
 .
 Append
 (
-PRUnichar
+char16_t
 (
 '
 '
@@ -3349,7 +3349,7 @@ Length
 -
 1
 1
-PRUnichar
+char16_t
 (
 '
 )
@@ -3403,7 +3403,7 @@ aString
 .
 Append
 (
-PRUnichar
+char16_t
 (
 '
 .
@@ -3453,7 +3453,7 @@ aString
 .
 Append
 (
-PRUnichar
+char16_t
 (
 '
 [
@@ -3476,7 +3476,7 @@ aString
 .
 Append
 (
-PRUnichar
+char16_t
 (
 '
 *
@@ -3488,7 +3488,7 @@ aString
 .
 Append
 (
-PRUnichar
+char16_t
 (
 '
 |
@@ -3587,7 +3587,7 @@ aString
 .
 Append
 (
-PRUnichar
+char16_t
 (
 '
 |
@@ -3642,7 +3642,7 @@ aString
 .
 Append
 (
-PRUnichar
+char16_t
 (
 '
 ~
@@ -3665,7 +3665,7 @@ aString
 .
 Append
 (
-PRUnichar
+char16_t
 (
 '
 |
@@ -3688,7 +3688,7 @@ aString
 .
 Append
 (
-PRUnichar
+char16_t
 (
 '
 ^
@@ -3711,7 +3711,7 @@ aString
 .
 Append
 (
-PRUnichar
+char16_t
 (
 '
 '
@@ -3733,7 +3733,7 @@ aString
 .
 Append
 (
-PRUnichar
+char16_t
 (
 '
 *
@@ -3745,7 +3745,7 @@ aString
 .
 Append
 (
-PRUnichar
+char16_t
 (
 '
 =
@@ -3770,7 +3770,7 @@ aString
 .
 Append
 (
-PRUnichar
+char16_t
 (
 '
 ]
@@ -3838,7 +3838,7 @@ aString
 .
 Append
 (
-PRUnichar
+char16_t
 (
 '
 (
@@ -3944,7 +3944,7 @@ temp
 .
 Append
 (
-PRUnichar
+char16_t
 (
 '
 -
@@ -3974,7 +3974,7 @@ temp
 .
 Append
 (
-PRUnichar
+char16_t
 (
 '
 n
@@ -4014,7 +4014,7 @@ temp
 .
 Append
 (
-PRUnichar
+char16_t
 (
 '
 +
@@ -4089,7 +4089,7 @@ aString
 .
 Append
 (
-PRUnichar
+char16_t
 (
 '
 )
@@ -4296,7 +4296,7 @@ nsCSSSelectorList
 :
 AddSelector
 (
-PRUnichar
+char16_t
 aOperator
 )
 {
@@ -4319,7 +4319,7 @@ NS_ASSERTION
 aOperator
 !
 =
-PRUnichar
+char16_t
 (
 0
 )
@@ -4346,7 +4346,7 @@ NS_ASSERTION
 aOperator
 =
 =
-PRUnichar
+char16_t
 (
 0
 )
@@ -6601,7 +6601,7 @@ aCssText
 .
 Append
 (
-PRUnichar
+char16_t
 (
 '
 '
@@ -6613,7 +6613,7 @@ aCssText
 .
 Append
 (
-PRUnichar
+char16_t
 (
 '
 {
@@ -6625,7 +6625,7 @@ aCssText
 .
 Append
 (
-PRUnichar
+char16_t
 (
 '
 '
@@ -6660,7 +6660,7 @@ aCssText
 .
 Append
 (
-PRUnichar
+char16_t
 (
 '
 '
@@ -6671,7 +6671,7 @@ aCssText
 .
 Append
 (
-PRUnichar
+char16_t
 (
 '
 }

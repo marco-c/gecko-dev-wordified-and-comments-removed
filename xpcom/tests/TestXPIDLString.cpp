@@ -23,7 +23,7 @@ static
 void
 nsXPIDLStringTest_Value
 (
-PRUnichar
+char16_t
 *
 *
 aResult

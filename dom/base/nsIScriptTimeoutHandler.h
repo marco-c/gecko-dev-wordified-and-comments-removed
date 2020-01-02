@@ -80,7 +80,7 @@ GetCallback
 ;
 virtual
 const
-PRUnichar
+char16_t
 *
 GetHandlerText
 (

@@ -1861,7 +1861,7 @@ nsString
 family
 (
 (
-PRUnichar
+char16_t
 *
 )
 qFont

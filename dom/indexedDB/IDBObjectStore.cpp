@@ -426,7 +426,7 @@ inline
 bool
 IgnoreNothing
 (
-PRUnichar
+char16_t
 c
 )
 {

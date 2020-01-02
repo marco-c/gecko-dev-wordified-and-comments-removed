@@ -488,7 +488,7 @@ aDevPixPerCSSPixel
 )
 ;
 static
-PRUnichar
+char16_t
 GetPasswordCharacter
 (
 )

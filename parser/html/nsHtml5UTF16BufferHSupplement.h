@@ -2,7 +2,7 @@ protected
 :
 nsHtml5UTF16Buffer
 (
-PRUnichar
+char16_t
 *
 aBuffer
 int32_t

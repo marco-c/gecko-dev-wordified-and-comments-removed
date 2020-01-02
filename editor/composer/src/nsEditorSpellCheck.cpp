@@ -1626,7 +1626,7 @@ nsEditorSpellCheck
 :
 GetNextMisspelledWord
 (
-PRUnichar
+char16_t
 *
 *
 aNextMisspelledWord
@@ -1676,7 +1676,7 @@ nsEditorSpellCheck
 :
 GetSuggestedWord
 (
-PRUnichar
+char16_t
 *
 *
 aSuggestedWord
@@ -1739,7 +1739,7 @@ nsEditorSpellCheck
 CheckCurrentWord
 (
 const
-PRUnichar
+char16_t
 *
 aSuggestedWord
 bool
@@ -1780,7 +1780,7 @@ nsEditorSpellCheck
 CheckCurrentWordNoSuggest
 (
 const
-PRUnichar
+char16_t
 *
 aSuggestedWord
 bool
@@ -1816,11 +1816,11 @@ nsEditorSpellCheck
 ReplaceWord
 (
 const
-PRUnichar
+char16_t
 *
 aMisspelledWord
 const
-PRUnichar
+char16_t
 *
 aReplaceWord
 bool
@@ -1858,7 +1858,7 @@ nsEditorSpellCheck
 IgnoreWordAllOccurrences
 (
 const
-PRUnichar
+char16_t
 *
 aWord
 )
@@ -1923,7 +1923,7 @@ nsEditorSpellCheck
 :
 GetPersonalDictionaryWord
 (
-PRUnichar
+char16_t
 *
 *
 aDictionaryWord
@@ -1983,7 +1983,7 @@ nsEditorSpellCheck
 AddWordToDictionary
 (
 const
-PRUnichar
+char16_t
 *
 aWord
 )
@@ -2014,7 +2014,7 @@ nsEditorSpellCheck
 RemoveWordFromDictionary
 (
 const
-PRUnichar
+char16_t
 *
 aWord
 )
@@ -2044,7 +2044,7 @@ nsEditorSpellCheck
 :
 GetDictionaryList
 (
-PRUnichar
+char16_t
 *
 *
 *
@@ -2103,7 +2103,7 @@ rv
 rv
 )
 ;
-PRUnichar
+char16_t
 *
 *
 tmpPtr
@@ -2124,7 +2124,7 @@ Length
 tmpPtr
 =
 (
-PRUnichar
+char16_t
 *
 *
 )
@@ -2135,7 +2135,7 @@ Alloc
 (
 sizeof
 (
-PRUnichar
+char16_t
 *
 )
 )
@@ -2168,7 +2168,7 @@ NS_OK
 tmpPtr
 =
 (
-PRUnichar
+char16_t
 *
 *
 )
@@ -2179,7 +2179,7 @@ Alloc
 (
 sizeof
 (
-PRUnichar
+char16_t
 *
 )
 *

@@ -1278,7 +1278,7 @@ char_traits
 XPCReadableJSStringWrapper
 (
 const
-PRUnichar
+char16_t
 *
 chars
 size_t
@@ -2028,7 +2028,7 @@ XPCReadableJSStringWrapper
 NewStringWrapper
 (
 const
-PRUnichar
+char16_t
 *
 str
 uint32_t
@@ -10160,7 +10160,7 @@ NS_DECL_NSIPROPERTY
 xpcProperty
 (
 const
-PRUnichar
+char16_t
 *
 aName
 uint32_t
@@ -12359,7 +12359,7 @@ char
 CheckAccessList
 (
 const
-PRUnichar
+char16_t
 *
 wideName
 const

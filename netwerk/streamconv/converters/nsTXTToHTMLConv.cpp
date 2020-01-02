@@ -535,7 +535,7 @@ nsTXTToHTMLConv
 SetTitle
 (
 const
-PRUnichar
+char16_t
 *
 aTitle
 )
@@ -999,7 +999,7 @@ token
 .
 Assign
 (
-PRUnichar
+char16_t
 (
 '
 <
@@ -1055,7 +1055,7 @@ token
 .
 Assign
 (
-PRUnichar
+char16_t
 (
 '
 >
@@ -1111,7 +1111,7 @@ token
 .
 Assign
 (
-PRUnichar
+char16_t
 (
 '
 &
@@ -1209,7 +1209,7 @@ token
 .
 Assign
 (
-PRUnichar
+char16_t
 (
 '
 '

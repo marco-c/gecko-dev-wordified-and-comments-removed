@@ -840,7 +840,7 @@ nsContentHandlerApp
 nsString
 (
 (
-PRUnichar
+char16_t
 *
 )
 actions

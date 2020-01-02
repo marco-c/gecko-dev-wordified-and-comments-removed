@@ -695,7 +695,7 @@ L
 )
 ;
 }
-PRUnichar
+char16_t
 buffer
 [
 NSDATETIME_FORMAT_BUFFER_LEN

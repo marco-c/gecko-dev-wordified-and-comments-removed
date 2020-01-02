@@ -21559,7 +21559,7 @@ len
 i
 )
 {
-PRUnichar
+char16_t
 c
 =
 aValue
@@ -31768,11 +31768,11 @@ nsDocument
 SetXMLDeclaration
 (
 const
-PRUnichar
+char16_t
 *
 aVersion
 const
-PRUnichar
+char16_t
 *
 aEncoding
 const
@@ -47505,7 +47505,7 @@ char
 *
 aTopic
 const
-PRUnichar
+char16_t
 *
 aData
 )

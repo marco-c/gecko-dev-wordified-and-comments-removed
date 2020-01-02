@@ -43,7 +43,7 @@ nsConsoleMessage
 nsConsoleMessage
 (
 const
-PRUnichar
+char16_t
 *
 message
 )

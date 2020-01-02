@@ -60,7 +60,7 @@ mozilla
 ;
 static
 const
-PRUnichar
+char16_t
 sHTMLTagUnicodeName_a
 [
 ]
@@ -77,7 +77,7 @@ a
 ;
 static
 const
-PRUnichar
+char16_t
 sHTMLTagUnicodeName_abbr
 [
 ]
@@ -103,7 +103,7 @@ r
 ;
 static
 const
-PRUnichar
+char16_t
 sHTMLTagUnicodeName_acronym
 [
 ]
@@ -138,7 +138,7 @@ m
 ;
 static
 const
-PRUnichar
+char16_t
 sHTMLTagUnicodeName_address
 [
 ]
@@ -173,7 +173,7 @@ s
 ;
 static
 const
-PRUnichar
+char16_t
 sHTMLTagUnicodeName_applet
 [
 ]
@@ -205,7 +205,7 @@ t
 ;
 static
 const
-PRUnichar
+char16_t
 sHTMLTagUnicodeName_area
 [
 ]
@@ -231,7 +231,7 @@ a
 ;
 static
 const
-PRUnichar
+char16_t
 sHTMLTagUnicodeName_article
 [
 ]
@@ -266,7 +266,7 @@ e
 ;
 static
 const
-PRUnichar
+char16_t
 sHTMLTagUnicodeName_aside
 [
 ]
@@ -295,7 +295,7 @@ e
 ;
 static
 const
-PRUnichar
+char16_t
 sHTMLTagUnicodeName_audio
 [
 ]
@@ -324,7 +324,7 @@ o
 ;
 static
 const
-PRUnichar
+char16_t
 sHTMLTagUnicodeName_b
 [
 ]
@@ -341,7 +341,7 @@ b
 ;
 static
 const
-PRUnichar
+char16_t
 sHTMLTagUnicodeName_base
 [
 ]
@@ -367,7 +367,7 @@ e
 ;
 static
 const
-PRUnichar
+char16_t
 sHTMLTagUnicodeName_basefont
 [
 ]
@@ -405,7 +405,7 @@ t
 ;
 static
 const
-PRUnichar
+char16_t
 sHTMLTagUnicodeName_bdo
 [
 ]
@@ -428,7 +428,7 @@ o
 ;
 static
 const
-PRUnichar
+char16_t
 sHTMLTagUnicodeName_bgsound
 [
 ]
@@ -463,7 +463,7 @@ d
 ;
 static
 const
-PRUnichar
+char16_t
 sHTMLTagUnicodeName_big
 [
 ]
@@ -486,7 +486,7 @@ g
 ;
 static
 const
-PRUnichar
+char16_t
 sHTMLTagUnicodeName_blockquote
 [
 ]
@@ -530,7 +530,7 @@ e
 ;
 static
 const
-PRUnichar
+char16_t
 sHTMLTagUnicodeName_body
 [
 ]
@@ -556,7 +556,7 @@ y
 ;
 static
 const
-PRUnichar
+char16_t
 sHTMLTagUnicodeName_br
 [
 ]
@@ -576,7 +576,7 @@ r
 ;
 static
 const
-PRUnichar
+char16_t
 sHTMLTagUnicodeName_button
 [
 ]
@@ -608,7 +608,7 @@ n
 ;
 static
 const
-PRUnichar
+char16_t
 sHTMLTagUnicodeName_canvas
 [
 ]
@@ -640,7 +640,7 @@ s
 ;
 static
 const
-PRUnichar
+char16_t
 sHTMLTagUnicodeName_caption
 [
 ]
@@ -675,7 +675,7 @@ n
 ;
 static
 const
-PRUnichar
+char16_t
 sHTMLTagUnicodeName_center
 [
 ]
@@ -707,7 +707,7 @@ r
 ;
 static
 const
-PRUnichar
+char16_t
 sHTMLTagUnicodeName_cite
 [
 ]
@@ -733,7 +733,7 @@ e
 ;
 static
 const
-PRUnichar
+char16_t
 sHTMLTagUnicodeName_code
 [
 ]
@@ -759,7 +759,7 @@ e
 ;
 static
 const
-PRUnichar
+char16_t
 sHTMLTagUnicodeName_col
 [
 ]
@@ -782,7 +782,7 @@ l
 ;
 static
 const
-PRUnichar
+char16_t
 sHTMLTagUnicodeName_colgroup
 [
 ]
@@ -820,7 +820,7 @@ p
 ;
 static
 const
-PRUnichar
+char16_t
 sHTMLTagUnicodeName_content
 [
 ]
@@ -855,7 +855,7 @@ t
 ;
 static
 const
-PRUnichar
+char16_t
 sHTMLTagUnicodeName_data
 [
 ]
@@ -881,7 +881,7 @@ a
 ;
 static
 const
-PRUnichar
+char16_t
 sHTMLTagUnicodeName_datalist
 [
 ]
@@ -919,7 +919,7 @@ t
 ;
 static
 const
-PRUnichar
+char16_t
 sHTMLTagUnicodeName_dd
 [
 ]
@@ -939,7 +939,7 @@ d
 ;
 static
 const
-PRUnichar
+char16_t
 sHTMLTagUnicodeName_del
 [
 ]
@@ -962,7 +962,7 @@ l
 ;
 static
 const
-PRUnichar
+char16_t
 sHTMLTagUnicodeName_dfn
 [
 ]
@@ -985,7 +985,7 @@ n
 ;
 static
 const
-PRUnichar
+char16_t
 sHTMLTagUnicodeName_dir
 [
 ]
@@ -1008,7 +1008,7 @@ r
 ;
 static
 const
-PRUnichar
+char16_t
 sHTMLTagUnicodeName_div
 [
 ]
@@ -1031,7 +1031,7 @@ v
 ;
 static
 const
-PRUnichar
+char16_t
 sHTMLTagUnicodeName_dl
 [
 ]
@@ -1051,7 +1051,7 @@ l
 ;
 static
 const
-PRUnichar
+char16_t
 sHTMLTagUnicodeName_dt
 [
 ]
@@ -1071,7 +1071,7 @@ t
 ;
 static
 const
-PRUnichar
+char16_t
 sHTMLTagUnicodeName_em
 [
 ]
@@ -1091,7 +1091,7 @@ m
 ;
 static
 const
-PRUnichar
+char16_t
 sHTMLTagUnicodeName_embed
 [
 ]
@@ -1120,7 +1120,7 @@ d
 ;
 static
 const
-PRUnichar
+char16_t
 sHTMLTagUnicodeName_fieldset
 [
 ]
@@ -1158,7 +1158,7 @@ t
 ;
 static
 const
-PRUnichar
+char16_t
 sHTMLTagUnicodeName_figcaption
 [
 ]
@@ -1202,7 +1202,7 @@ n
 ;
 static
 const
-PRUnichar
+char16_t
 sHTMLTagUnicodeName_figure
 [
 ]
@@ -1234,7 +1234,7 @@ e
 ;
 static
 const
-PRUnichar
+char16_t
 sHTMLTagUnicodeName_font
 [
 ]
@@ -1260,7 +1260,7 @@ t
 ;
 static
 const
-PRUnichar
+char16_t
 sHTMLTagUnicodeName_footer
 [
 ]
@@ -1292,7 +1292,7 @@ r
 ;
 static
 const
-PRUnichar
+char16_t
 sHTMLTagUnicodeName_form
 [
 ]
@@ -1318,7 +1318,7 @@ m
 ;
 static
 const
-PRUnichar
+char16_t
 sHTMLTagUnicodeName_frame
 [
 ]
@@ -1347,7 +1347,7 @@ e
 ;
 static
 const
-PRUnichar
+char16_t
 sHTMLTagUnicodeName_frameset
 [
 ]
@@ -1385,7 +1385,7 @@ t
 ;
 static
 const
-PRUnichar
+char16_t
 sHTMLTagUnicodeName_h1
 [
 ]
@@ -1405,7 +1405,7 @@ h
 ;
 static
 const
-PRUnichar
+char16_t
 sHTMLTagUnicodeName_h2
 [
 ]
@@ -1425,7 +1425,7 @@ h
 ;
 static
 const
-PRUnichar
+char16_t
 sHTMLTagUnicodeName_h3
 [
 ]
@@ -1445,7 +1445,7 @@ h
 ;
 static
 const
-PRUnichar
+char16_t
 sHTMLTagUnicodeName_h4
 [
 ]
@@ -1465,7 +1465,7 @@ h
 ;
 static
 const
-PRUnichar
+char16_t
 sHTMLTagUnicodeName_h5
 [
 ]
@@ -1485,7 +1485,7 @@ h
 ;
 static
 const
-PRUnichar
+char16_t
 sHTMLTagUnicodeName_h6
 [
 ]
@@ -1505,7 +1505,7 @@ h
 ;
 static
 const
-PRUnichar
+char16_t
 sHTMLTagUnicodeName_head
 [
 ]
@@ -1531,7 +1531,7 @@ d
 ;
 static
 const
-PRUnichar
+char16_t
 sHTMLTagUnicodeName_header
 [
 ]
@@ -1563,7 +1563,7 @@ r
 ;
 static
 const
-PRUnichar
+char16_t
 sHTMLTagUnicodeName_hgroup
 [
 ]
@@ -1595,7 +1595,7 @@ p
 ;
 static
 const
-PRUnichar
+char16_t
 sHTMLTagUnicodeName_hr
 [
 ]
@@ -1615,7 +1615,7 @@ r
 ;
 static
 const
-PRUnichar
+char16_t
 sHTMLTagUnicodeName_html
 [
 ]
@@ -1641,7 +1641,7 @@ l
 ;
 static
 const
-PRUnichar
+char16_t
 sHTMLTagUnicodeName_i
 [
 ]
@@ -1658,7 +1658,7 @@ i
 ;
 static
 const
-PRUnichar
+char16_t
 sHTMLTagUnicodeName_iframe
 [
 ]
@@ -1690,7 +1690,7 @@ e
 ;
 static
 const
-PRUnichar
+char16_t
 sHTMLTagUnicodeName_image
 [
 ]
@@ -1719,7 +1719,7 @@ e
 ;
 static
 const
-PRUnichar
+char16_t
 sHTMLTagUnicodeName_img
 [
 ]
@@ -1742,7 +1742,7 @@ g
 ;
 static
 const
-PRUnichar
+char16_t
 sHTMLTagUnicodeName_input
 [
 ]
@@ -1771,7 +1771,7 @@ t
 ;
 static
 const
-PRUnichar
+char16_t
 sHTMLTagUnicodeName_ins
 [
 ]
@@ -1794,7 +1794,7 @@ s
 ;
 static
 const
-PRUnichar
+char16_t
 sHTMLTagUnicodeName_kbd
 [
 ]
@@ -1817,7 +1817,7 @@ d
 ;
 static
 const
-PRUnichar
+char16_t
 sHTMLTagUnicodeName_keygen
 [
 ]
@@ -1849,7 +1849,7 @@ n
 ;
 static
 const
-PRUnichar
+char16_t
 sHTMLTagUnicodeName_label
 [
 ]
@@ -1878,7 +1878,7 @@ l
 ;
 static
 const
-PRUnichar
+char16_t
 sHTMLTagUnicodeName_legend
 [
 ]
@@ -1910,7 +1910,7 @@ d
 ;
 static
 const
-PRUnichar
+char16_t
 sHTMLTagUnicodeName_li
 [
 ]
@@ -1930,7 +1930,7 @@ i
 ;
 static
 const
-PRUnichar
+char16_t
 sHTMLTagUnicodeName_link
 [
 ]
@@ -1956,7 +1956,7 @@ k
 ;
 static
 const
-PRUnichar
+char16_t
 sHTMLTagUnicodeName_listing
 [
 ]
@@ -1991,7 +1991,7 @@ g
 ;
 static
 const
-PRUnichar
+char16_t
 sHTMLTagUnicodeName_main
 [
 ]
@@ -2017,7 +2017,7 @@ n
 ;
 static
 const
-PRUnichar
+char16_t
 sHTMLTagUnicodeName_map
 [
 ]
@@ -2040,7 +2040,7 @@ p
 ;
 static
 const
-PRUnichar
+char16_t
 sHTMLTagUnicodeName_mark
 [
 ]
@@ -2066,7 +2066,7 @@ k
 ;
 static
 const
-PRUnichar
+char16_t
 sHTMLTagUnicodeName_marquee
 [
 ]
@@ -2101,7 +2101,7 @@ e
 ;
 static
 const
-PRUnichar
+char16_t
 sHTMLTagUnicodeName_menu
 [
 ]
@@ -2127,7 +2127,7 @@ u
 ;
 static
 const
-PRUnichar
+char16_t
 sHTMLTagUnicodeName_menuitem
 [
 ]
@@ -2165,7 +2165,7 @@ m
 ;
 static
 const
-PRUnichar
+char16_t
 sHTMLTagUnicodeName_meta
 [
 ]
@@ -2191,7 +2191,7 @@ a
 ;
 static
 const
-PRUnichar
+char16_t
 sHTMLTagUnicodeName_meter
 [
 ]
@@ -2220,7 +2220,7 @@ r
 ;
 static
 const
-PRUnichar
+char16_t
 sHTMLTagUnicodeName_multicol
 [
 ]
@@ -2258,7 +2258,7 @@ l
 ;
 static
 const
-PRUnichar
+char16_t
 sHTMLTagUnicodeName_nav
 [
 ]
@@ -2281,7 +2281,7 @@ v
 ;
 static
 const
-PRUnichar
+char16_t
 sHTMLTagUnicodeName_nobr
 [
 ]
@@ -2307,7 +2307,7 @@ r
 ;
 static
 const
-PRUnichar
+char16_t
 sHTMLTagUnicodeName_noembed
 [
 ]
@@ -2342,7 +2342,7 @@ d
 ;
 static
 const
-PRUnichar
+char16_t
 sHTMLTagUnicodeName_noframes
 [
 ]
@@ -2380,7 +2380,7 @@ s
 ;
 static
 const
-PRUnichar
+char16_t
 sHTMLTagUnicodeName_noscript
 [
 ]
@@ -2418,7 +2418,7 @@ t
 ;
 static
 const
-PRUnichar
+char16_t
 sHTMLTagUnicodeName_object
 [
 ]
@@ -2450,7 +2450,7 @@ t
 ;
 static
 const
-PRUnichar
+char16_t
 sHTMLTagUnicodeName_ol
 [
 ]
@@ -2470,7 +2470,7 @@ l
 ;
 static
 const
-PRUnichar
+char16_t
 sHTMLTagUnicodeName_optgroup
 [
 ]
@@ -2508,7 +2508,7 @@ p
 ;
 static
 const
-PRUnichar
+char16_t
 sHTMLTagUnicodeName_option
 [
 ]
@@ -2540,7 +2540,7 @@ n
 ;
 static
 const
-PRUnichar
+char16_t
 sHTMLTagUnicodeName_output
 [
 ]
@@ -2572,7 +2572,7 @@ t
 ;
 static
 const
-PRUnichar
+char16_t
 sHTMLTagUnicodeName_p
 [
 ]
@@ -2589,7 +2589,7 @@ p
 ;
 static
 const
-PRUnichar
+char16_t
 sHTMLTagUnicodeName_param
 [
 ]
@@ -2618,7 +2618,7 @@ m
 ;
 static
 const
-PRUnichar
+char16_t
 sHTMLTagUnicodeName_plaintext
 [
 ]
@@ -2659,7 +2659,7 @@ t
 ;
 static
 const
-PRUnichar
+char16_t
 sHTMLTagUnicodeName_pre
 [
 ]
@@ -2682,7 +2682,7 @@ e
 ;
 static
 const
-PRUnichar
+char16_t
 sHTMLTagUnicodeName_progress
 [
 ]
@@ -2720,7 +2720,7 @@ s
 ;
 static
 const
-PRUnichar
+char16_t
 sHTMLTagUnicodeName_q
 [
 ]
@@ -2737,7 +2737,7 @@ q
 ;
 static
 const
-PRUnichar
+char16_t
 sHTMLTagUnicodeName_s
 [
 ]
@@ -2754,7 +2754,7 @@ s
 ;
 static
 const
-PRUnichar
+char16_t
 sHTMLTagUnicodeName_samp
 [
 ]
@@ -2780,7 +2780,7 @@ p
 ;
 static
 const
-PRUnichar
+char16_t
 sHTMLTagUnicodeName_script
 [
 ]
@@ -2812,7 +2812,7 @@ t
 ;
 static
 const
-PRUnichar
+char16_t
 sHTMLTagUnicodeName_section
 [
 ]
@@ -2847,7 +2847,7 @@ n
 ;
 static
 const
-PRUnichar
+char16_t
 sHTMLTagUnicodeName_select
 [
 ]
@@ -2879,7 +2879,7 @@ t
 ;
 static
 const
-PRUnichar
+char16_t
 sHTMLTagUnicodeName_shadow
 [
 ]
@@ -2911,7 +2911,7 @@ w
 ;
 static
 const
-PRUnichar
+char16_t
 sHTMLTagUnicodeName_small
 [
 ]
@@ -2940,7 +2940,7 @@ l
 ;
 static
 const
-PRUnichar
+char16_t
 sHTMLTagUnicodeName_source
 [
 ]
@@ -2972,7 +2972,7 @@ e
 ;
 static
 const
-PRUnichar
+char16_t
 sHTMLTagUnicodeName_span
 [
 ]
@@ -2998,7 +2998,7 @@ n
 ;
 static
 const
-PRUnichar
+char16_t
 sHTMLTagUnicodeName_strike
 [
 ]
@@ -3030,7 +3030,7 @@ e
 ;
 static
 const
-PRUnichar
+char16_t
 sHTMLTagUnicodeName_strong
 [
 ]
@@ -3062,7 +3062,7 @@ g
 ;
 static
 const
-PRUnichar
+char16_t
 sHTMLTagUnicodeName_style
 [
 ]
@@ -3091,7 +3091,7 @@ e
 ;
 static
 const
-PRUnichar
+char16_t
 sHTMLTagUnicodeName_sub
 [
 ]
@@ -3114,7 +3114,7 @@ b
 ;
 static
 const
-PRUnichar
+char16_t
 sHTMLTagUnicodeName_sup
 [
 ]
@@ -3137,7 +3137,7 @@ p
 ;
 static
 const
-PRUnichar
+char16_t
 sHTMLTagUnicodeName_table
 [
 ]
@@ -3166,7 +3166,7 @@ e
 ;
 static
 const
-PRUnichar
+char16_t
 sHTMLTagUnicodeName_tbody
 [
 ]
@@ -3195,7 +3195,7 @@ y
 ;
 static
 const
-PRUnichar
+char16_t
 sHTMLTagUnicodeName_td
 [
 ]
@@ -3215,7 +3215,7 @@ d
 ;
 static
 const
-PRUnichar
+char16_t
 sHTMLTagUnicodeName_textarea
 [
 ]
@@ -3253,7 +3253,7 @@ a
 ;
 static
 const
-PRUnichar
+char16_t
 sHTMLTagUnicodeName_tfoot
 [
 ]
@@ -3282,7 +3282,7 @@ t
 ;
 static
 const
-PRUnichar
+char16_t
 sHTMLTagUnicodeName_th
 [
 ]
@@ -3302,7 +3302,7 @@ h
 ;
 static
 const
-PRUnichar
+char16_t
 sHTMLTagUnicodeName_thead
 [
 ]
@@ -3331,7 +3331,7 @@ d
 ;
 static
 const
-PRUnichar
+char16_t
 sHTMLTagUnicodeName_template
 [
 ]
@@ -3369,7 +3369,7 @@ e
 ;
 static
 const
-PRUnichar
+char16_t
 sHTMLTagUnicodeName_time
 [
 ]
@@ -3395,7 +3395,7 @@ e
 ;
 static
 const
-PRUnichar
+char16_t
 sHTMLTagUnicodeName_title
 [
 ]
@@ -3424,7 +3424,7 @@ e
 ;
 static
 const
-PRUnichar
+char16_t
 sHTMLTagUnicodeName_tr
 [
 ]
@@ -3444,7 +3444,7 @@ r
 ;
 static
 const
-PRUnichar
+char16_t
 sHTMLTagUnicodeName_track
 [
 ]
@@ -3473,7 +3473,7 @@ k
 ;
 static
 const
-PRUnichar
+char16_t
 sHTMLTagUnicodeName_tt
 [
 ]
@@ -3493,7 +3493,7 @@ t
 ;
 static
 const
-PRUnichar
+char16_t
 sHTMLTagUnicodeName_u
 [
 ]
@@ -3510,7 +3510,7 @@ u
 ;
 static
 const
-PRUnichar
+char16_t
 sHTMLTagUnicodeName_ul
 [
 ]
@@ -3530,7 +3530,7 @@ l
 ;
 static
 const
-PRUnichar
+char16_t
 sHTMLTagUnicodeName_var
 [
 ]
@@ -3553,7 +3553,7 @@ r
 ;
 static
 const
-PRUnichar
+char16_t
 sHTMLTagUnicodeName_video
 [
 ]
@@ -3582,7 +3582,7 @@ o
 ;
 static
 const
-PRUnichar
+char16_t
 sHTMLTagUnicodeName_wbr
 [
 ]
@@ -3605,7 +3605,7 @@ r
 ;
 static
 const
-PRUnichar
+char16_t
 sHTMLTagUnicodeName_xmp
 [
 ]
@@ -3654,7 +3654,7 @@ HTML_OTHER
 _tag
 )
 const
-PRUnichar
+char16_t
 *
 const
 nsHTMLTags
@@ -3731,7 +3731,7 @@ HashString
 static_cast
 <
 const
-PRUnichar
+char16_t
 *
 >
 (
@@ -3755,25 +3755,25 @@ key2
 )
 {
 const
-PRUnichar
+char16_t
 *
 str1
 =
 (
 const
-PRUnichar
+char16_t
 *
 )
 key1
 ;
 const
-PRUnichar
+char16_t
 *
 str2
 =
 (
 const
-PRUnichar
+char16_t
 *
 )
 key2
@@ -4105,7 +4105,7 @@ nsAutoString
 temp1
 (
 (
-PRUnichar
+char16_t
 *
 )
 sTagAtoms_info
@@ -4125,7 +4125,7 @@ nsAutoString
 temp2
 (
 (
-PRUnichar
+char16_t
 *
 )
 sTagAtoms_info
@@ -4192,7 +4192,7 @@ nsAutoString
 temp2
 (
 (
-PRUnichar
+char16_t
 *
 )
 sTagAtoms_info
@@ -4369,7 +4369,7 @@ return
 eHTMLTag_userdefined
 ;
 }
-PRUnichar
+char16_t
 buf
 [
 NS_HTMLTAG_NAME_MAX_LENGTH
@@ -4388,7 +4388,7 @@ i
 =
 0
 ;
-PRUnichar
+char16_t
 c
 ;
 aTagName
@@ -4476,7 +4476,7 @@ TestTagTable
 )
 {
 const
-PRUnichar
+char16_t
 *
 tag
 ;
@@ -4546,7 +4546,7 @@ id
 )
 ;
 const
-PRUnichar
+char16_t
 *
 check
 =

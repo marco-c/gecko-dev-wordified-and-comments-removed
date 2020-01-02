@@ -2750,7 +2750,7 @@ i
 j
 ;
 const
-PRUnichar
+char16_t
 *
 data
 ;
@@ -3245,7 +3245,7 @@ locale
 .
 Append
 (
-PRUnichar
+char16_t
 (
 '
 -

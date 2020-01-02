@@ -1748,7 +1748,7 @@ rv
 return
 rv
 ;
-PRUnichar
+char16_t
 bom
 =
 0xFEFF
@@ -1812,7 +1812,7 @@ Length
 *
 sizeof
 (
-PRUnichar
+char16_t
 )
 &
 out

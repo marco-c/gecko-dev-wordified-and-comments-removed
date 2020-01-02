@@ -104,7 +104,7 @@ Truncate
 (
 )
 ;
-PRUnichar
+char16_t
 buf
 [
 24

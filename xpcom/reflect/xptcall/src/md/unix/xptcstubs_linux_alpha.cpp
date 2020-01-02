@@ -572,7 +572,7 @@ val
 wc
 =
 (
-PRUnichar
+char16_t
 )
 *
 ap

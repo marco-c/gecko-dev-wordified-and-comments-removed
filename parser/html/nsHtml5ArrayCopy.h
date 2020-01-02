@@ -23,12 +23,12 @@ inline
 void
 arraycopy
 (
-PRUnichar
+char16_t
 *
 source
 int32_t
 sourceOffset
-PRUnichar
+char16_t
 *
 target
 int32_t
@@ -57,7 +57,7 @@ length
 *
 sizeof
 (
-PRUnichar
+char16_t
 )
 )
 ;
@@ -67,10 +67,10 @@ inline
 void
 arraycopy
 (
-PRUnichar
+char16_t
 *
 source
-PRUnichar
+char16_t
 *
 target
 int32_t
@@ -85,7 +85,7 @@ length
 *
 sizeof
 (
-PRUnichar
+char16_t
 )
 )
 ;

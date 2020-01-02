@@ -117,7 +117,7 @@ aSrc
 int32_t
 *
 aSrcLength
-PRUnichar
+char16_t
 *
 aDest
 int32_t
@@ -233,7 +233,7 @@ char
 aSrc
 int32_t
 aSrcLength
-PRUnichar
+char16_t
 *
 aDest
 int32_t
@@ -250,7 +250,7 @@ char
 aSrc
 int32_t
 aSrcLength
-PRUnichar
+char16_t
 *
 aDest
 int32_t

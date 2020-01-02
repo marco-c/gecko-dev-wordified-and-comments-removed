@@ -165,7 +165,7 @@ void
 SetText
 (
 const
-PRUnichar
+char16_t
 *
 aText
 int32_t
@@ -249,7 +249,7 @@ FormatUnicodeText
 nsPresContext
 *
 aPresContext
-PRUnichar
+char16_t
 *
 aText
 int32_t
@@ -266,7 +266,7 @@ nsresult
 RenderText
 (
 const
-PRUnichar
+char16_t
 *
 aText
 int32_t
@@ -320,7 +320,7 @@ nscoord
 MeasureTextWidth
 (
 const
-PRUnichar
+char16_t
 *
 aText
 int32_t
@@ -469,7 +469,7 @@ nsresult
 ProcessText
 (
 const
-PRUnichar
+char16_t
 *
 aText
 int32_t
@@ -530,7 +530,7 @@ nsresult
 ProcessTextForRenderingContext
 (
 const
-PRUnichar
+char16_t
 *
 aText
 int32_t
@@ -687,7 +687,7 @@ nsBidi
 *
 aBidiEngine
 const
-PRUnichar
+char16_t
 *
 aText
 int32_t
@@ -716,7 +716,7 @@ static
 void
 StripBidiControlCharacters
 (
-PRUnichar
+char16_t
 *
 aText
 int32_t
@@ -729,12 +729,12 @@ bool
 WriteLogicalToVisual
 (
 const
-PRUnichar
+char16_t
 *
 aSrc
 uint32_t
 aSrcLength
-PRUnichar
+char16_t
 *
 aDest
 nsBidiLevel
@@ -749,12 +749,12 @@ void
 WriteReverse
 (
 const
-PRUnichar
+char16_t
 *
 aSrc
 uint32_t
 aSrcLength
-PRUnichar
+char16_t
 *
 aDest
 )

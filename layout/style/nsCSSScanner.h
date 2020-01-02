@@ -96,7 +96,7 @@ mInteger2
 nsCSSTokenType
 mType
 ;
-PRUnichar
+char16_t
 mSymbol
 ;
 bool
@@ -145,7 +145,7 @@ false
 bool
 IsSymbol
 (
-PRUnichar
+char16_t
 aSymbol
 )
 const
@@ -643,7 +643,7 @@ aEOFCharacters
 )
 ;
 const
-PRUnichar
+char16_t
 *
 mBuffer
 ;

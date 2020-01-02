@@ -1276,7 +1276,7 @@ nsPrintSettingsGTK
 :
 GetToFileName
 (
-PRUnichar
+char16_t
 *
 *
 aToFileName
@@ -1380,7 +1380,7 @@ nsPrintSettingsGTK
 SetToFileName
 (
 const
-PRUnichar
+char16_t
 *
 aToFileName
 )
@@ -1524,7 +1524,7 @@ nsPrintSettingsGTK
 :
 GetPrinterName
 (
-PRUnichar
+char16_t
 *
 *
 aPrinter
@@ -1602,7 +1602,7 @@ nsPrintSettingsGTK
 SetPrinterName
 (
 const
-PRUnichar
+char16_t
 *
 aPrinter
 )
@@ -1796,7 +1796,7 @@ nsPrintSettingsGTK
 :
 GetPaperName
 (
-PRUnichar
+char16_t
 *
 *
 aPaperName
@@ -1832,7 +1832,7 @@ nsPrintSettingsGTK
 SetPaperName
 (
 const
-PRUnichar
+char16_t
 *
 aPaperName
 )

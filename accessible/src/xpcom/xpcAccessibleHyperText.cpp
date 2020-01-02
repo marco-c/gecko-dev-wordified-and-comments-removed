@@ -546,7 +546,7 @@ GetCharacterAtOffset
 (
 int32_t
 aOffset
-PRUnichar
+char16_t
 *
 aCharacter
 )

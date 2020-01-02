@@ -3277,7 +3277,7 @@ aName
 .
 FindChar
 (
-PRUnichar
+char16_t
 (
 '
 '

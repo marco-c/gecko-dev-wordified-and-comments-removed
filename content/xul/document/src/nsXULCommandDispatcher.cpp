@@ -1900,7 +1900,7 @@ indx
 0
 )
 {
-PRUnichar
+char16_t
 ch
 =
 aList
@@ -1925,7 +1925,7 @@ ch
 ch
 !
 =
-PRUnichar
+char16_t
 (
 '
 '
@@ -1952,7 +1952,7 @@ Length
 )
 )
 {
-PRUnichar
+char16_t
 ch
 =
 aList
@@ -1981,7 +1981,7 @@ ch
 ch
 !
 =
-PRUnichar
+char16_t
 (
 '
 '

@@ -128,7 +128,7 @@ s2
 )
 ;
 const
-PRUnichar
+char16_t
 *
 us1
 =
@@ -139,7 +139,7 @@ get
 )
 ;
 const
-PRUnichar
+char16_t
 *
 us2
 =

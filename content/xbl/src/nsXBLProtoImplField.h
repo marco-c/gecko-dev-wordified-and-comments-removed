@@ -59,11 +59,11 @@ public
 nsXBLProtoImplField
 (
 const
-PRUnichar
+char16_t
 *
 aName
 const
-PRUnichar
+char16_t
 *
 aReadOnly
 )
@@ -183,7 +183,7 @@ aStream
 )
 ;
 const
-PRUnichar
+char16_t
 *
 GetName
 (
@@ -237,11 +237,11 @@ nsXBLProtoImplField
 *
 mNext
 ;
-PRUnichar
+char16_t
 *
 mName
 ;
-PRUnichar
+char16_t
 *
 mFieldText
 ;

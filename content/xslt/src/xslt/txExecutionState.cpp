@@ -1552,7 +1552,7 @@ aUri
 .
 FindChar
 (
-PRUnichar
+char16_t
 (
 '
 #

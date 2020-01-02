@@ -506,7 +506,7 @@ rv
 )
 ;
 const
-PRUnichar
+char16_t
 *
 colon
 ;
@@ -1061,7 +1061,7 @@ mValue
 .
 Insert
 (
-PRUnichar
+char16_t
 (
 '
 '
@@ -2747,7 +2747,7 @@ rv
 )
 ;
 const
-PRUnichar
+char16_t
 *
 colon
 ;
@@ -3786,7 +3786,7 @@ lnameStart
 0
 ;
 const
-PRUnichar
+char16_t
 *
 colon
 ;

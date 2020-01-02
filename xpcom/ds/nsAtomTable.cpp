@@ -251,7 +251,7 @@ mLength
 *
 sizeof
 (
-PRUnichar
+char16_t
 )
 <
 =
@@ -467,7 +467,7 @@ AtomTableKey
 AtomTableKey
 (
 const
-PRUnichar
+char16_t
 *
 aUTF16String
 uint32_t
@@ -596,7 +596,7 @@ mHash
 }
 }
 const
-PRUnichar
+char16_t
 *
 mUTF16String
 ;
@@ -837,7 +837,7 @@ length
 *
 sizeof
 (
-PRUnichar
+char16_t
 )
 )
 =
@@ -1267,7 +1267,7 @@ mString
 =
 static_cast
 <
-PRUnichar
+char16_t
 *
 >
 (
@@ -1297,7 +1297,7 @@ mLength
 *
 sizeof
 (
-PRUnichar
+char16_t
 )
 )
 ;
@@ -1305,7 +1305,7 @@ mString
 =
 static_cast
 <
-PRUnichar
+char16_t
 *
 >
 (
@@ -1330,7 +1330,7 @@ mString
 mLength
 ]
 =
-PRUnichar
+char16_t
 (
 0
 )
@@ -1360,7 +1360,7 @@ mLength
 ]
 =
 =
-PRUnichar
+char16_t
 (
 0
 )
@@ -1391,7 +1391,7 @@ mLength
 *
 sizeof
 (
-PRUnichar
+char16_t
 )
 "
 enough
@@ -1440,7 +1440,7 @@ mString
 =
 static_cast
 <
-PRUnichar
+char16_t
 *
 >
 (
@@ -1483,7 +1483,7 @@ mLength
 ]
 =
 =
-PRUnichar
+char16_t
 (
 0
 )
@@ -1514,7 +1514,7 @@ mLength
 *
 sizeof
 (
-PRUnichar
+char16_t
 )
 "
 correct
@@ -2176,7 +2176,7 @@ AtomTableEntry
 GetAtomHashEntry
 (
 const
-PRUnichar
+char16_t
 *
 aString
 uint32_t
@@ -2438,7 +2438,7 @@ nsCRT
 IsAscii
 (
 (
-PRUnichar
+char16_t
 *
 )
 aAtoms
@@ -2480,7 +2480,7 @@ StorageSize
 /
 sizeof
 (
-PRUnichar
+char16_t
 )
 -
 1
@@ -2497,7 +2497,7 @@ he
 GetAtomHashEntry
 (
 (
-PRUnichar
+char16_t
 *
 )
 aAtoms
@@ -2750,7 +2750,7 @@ nsIAtom
 NS_NewAtom
 (
 const
-PRUnichar
+char16_t
 *
 aUTF16String
 )

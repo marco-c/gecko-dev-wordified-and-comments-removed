@@ -4975,7 +4975,7 @@ nullptr
 ;
 sInvisibleCharacter
 =
-PRUnichar
+char16_t
 (
 value
 )
@@ -5001,7 +5001,7 @@ window
 )
 ;
 }
-PRUnichar
+char16_t
 nsLookAndFeel
 :
 :

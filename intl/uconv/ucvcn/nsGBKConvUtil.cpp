@@ -40,7 +40,7 @@ MAX_GBK_LENGTH
 /
 static
 const
-PRUnichar
+char16_t
 gGBKToUnicodeTable
 [
 MAX_GBK_LENGTH
@@ -82,7 +82,7 @@ nsGBKConvUtil
 :
 UnicodeToGBKChar
 (
-PRUnichar
+char16_t
 aChar
 bool
 aToGL
@@ -303,7 +303,7 @@ return
 true
 ;
 }
-PRUnichar
+char16_t
 nsGBKConvUtil
 :
 :

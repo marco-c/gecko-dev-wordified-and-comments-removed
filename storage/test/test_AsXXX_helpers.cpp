@@ -163,7 +163,7 @@ len
 )
 (
 const
-PRUnichar
+char16_t
 *
 )
 nullptr
@@ -385,7 +385,7 @@ len
 )
 (
 const
-PRUnichar
+char16_t
 *
 )
 nullptr
@@ -522,7 +522,7 @@ len
 )
 (
 const
-PRUnichar
+char16_t
 *
 )
 nullptr

@@ -110,7 +110,7 @@ nsScriptError
 :
 GetMessageMoz
 (
-PRUnichar
+char16_t
 *
 *
 result

@@ -21,7 +21,7 @@ private
 :
 nsHtml5OwningUTF16Buffer
 (
-PRUnichar
+char16_t
 *
 aBuffer
 )

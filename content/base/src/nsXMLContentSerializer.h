@@ -264,7 +264,7 @@ void
 AppendToString
 (
 const
-PRUnichar
+char16_t
 aChar
 nsAString
 &

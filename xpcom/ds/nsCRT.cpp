@@ -306,11 +306,11 @@ nsCRT
 strcmp
 (
 const
-PRUnichar
+char16_t
 *
 s1
 const
-PRUnichar
+char16_t
 *
 s2
 )
@@ -329,7 +329,7 @@ for
 ;
 )
 {
-PRUnichar
+char16_t
 c1
 =
 *
@@ -337,7 +337,7 @@ s1
 +
 +
 ;
-PRUnichar
+char16_t
 c2
 =
 *
@@ -417,11 +417,11 @@ nsCRT
 strncmp
 (
 const
-PRUnichar
+char16_t
 *
 s1
 const
-PRUnichar
+char16_t
 *
 s2
 uint32_t
@@ -446,7 +446,7 @@ n
 {
 do
 {
-PRUnichar
+char16_t
 c1
 =
 *
@@ -454,7 +454,7 @@ s1
 +
 +
 ;
-PRUnichar
+char16_t
 c2
 =
 *

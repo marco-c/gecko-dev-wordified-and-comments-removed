@@ -712,7 +712,7 @@ nsBinaryOutputStream
 WriteWStringZ
 (
 const
-PRUnichar
+char16_t
 *
 aString
 )
@@ -764,7 +764,7 @@ length
 *
 sizeof
 (
-PRUnichar
+char16_t
 )
 ;
 #
@@ -788,7 +788,7 @@ byteCount
 ;
 #
 else
-PRUnichar
+char16_t
 *
 copy
 temp
@@ -815,7 +815,7 @@ copy
 =
 reinterpret_cast
 <
-PRUnichar
+char16_t
 *
 >
 (
@@ -909,7 +909,7 @@ nsBinaryOutputStream
 WriteUtf8Z
 (
 const
-PRUnichar
+char16_t
 *
 aString
 )
@@ -2456,7 +2456,7 @@ NS_OK
 struct
 WriteStringClosure
 {
-PRUnichar
+char16_t
 *
 mWriteCursor
 ;
@@ -2514,7 +2514,7 @@ NS_PRECONDITION
 (
 sizeof
 (
-PRUnichar
+char16_t
 )
 =
 =
@@ -2544,7 +2544,7 @@ WriteStringClosure
 aClosure
 )
 ;
-PRUnichar
+char16_t
 *
 cursor
 =
@@ -2586,7 +2586,7 @@ cursor
 =
 *
 (
-PRUnichar
+char16_t
 *
 )
 bytes
@@ -2624,14 +2624,14 @@ false
 ;
 }
 const
-PRUnichar
+char16_t
 *
 unicodeSegment
 =
 reinterpret_cast
 <
 const
-PRUnichar
+char16_t
 *
 >
 (
@@ -2645,7 +2645,7 @@ aCount
 /
 sizeof
 (
-PRUnichar
+char16_t
 )
 ;
 memcpy
@@ -2656,11 +2656,11 @@ segmentLength
 *
 sizeof
 (
-PRUnichar
+char16_t
 )
 )
 ;
-PRUnichar
+char16_t
 *
 end
 =
@@ -2693,7 +2693,7 @@ aCount
 %
 sizeof
 (
-PRUnichar
+char16_t
 )
 !
 =
@@ -2840,7 +2840,7 @@ length
 *
 sizeof
 (
-PRUnichar
+char16_t
 )
 &
 bytesRead
@@ -2880,7 +2880,7 @@ length
 *
 sizeof
 (
-PRUnichar
+char16_t
 )
 )
 return

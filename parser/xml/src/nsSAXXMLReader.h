@@ -328,7 +328,7 @@ nsresult
 SplitExpatName
 (
 const
-PRUnichar
+char16_t
 *
 aExpatName
 nsString

@@ -54,7 +54,7 @@ algorithm
 >
 static
 const
-PRUnichar
+char16_t
 kLongDivChar
 =
 '
@@ -63,7 +63,7 @@ kLongDivChar
 ;
 static
 const
-PRUnichar
+char16_t
 kRadicalChar
 =
 0x221A
@@ -1503,7 +1503,7 @@ fm
 mEmHeight
 )
 ;
-PRUnichar
+char16_t
 one
 =
 '

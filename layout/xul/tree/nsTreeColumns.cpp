@@ -857,7 +857,7 @@ nsTreeColumn
 GetIdConst
 (
 const
-PRUnichar
+char16_t
 *
 *
 aIdConst

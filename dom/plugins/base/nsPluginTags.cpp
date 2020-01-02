@@ -1948,7 +1948,7 @@ GetMimeTypes
 uint32_t
 *
 aCount
-PRUnichar
+char16_t
 *
 *
 *
@@ -1969,7 +1969,7 @@ aResults
 =
 static_cast
 <
-PRUnichar
+char16_t
 *
 *
 >
@@ -2050,7 +2050,7 @@ GetMimeDescriptions
 uint32_t
 *
 aCount
-PRUnichar
+char16_t
 *
 *
 *
@@ -2071,7 +2071,7 @@ aResults
 =
 static_cast
 <
-PRUnichar
+char16_t
 *
 *
 >
@@ -2152,7 +2152,7 @@ GetExtensions
 uint32_t
 *
 aCount
-PRUnichar
+char16_t
 *
 *
 *
@@ -2173,7 +2173,7 @@ aResults
 =
 static_cast
 <
-PRUnichar
+char16_t
 *
 *
 >

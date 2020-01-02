@@ -282,7 +282,7 @@ error_id
 )
 ;
 const
-PRUnichar
+char16_t
 *
 params
 [

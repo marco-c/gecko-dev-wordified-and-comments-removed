@@ -705,7 +705,7 @@ char
 *
 aMimeType
 const
-PRUnichar
+char16_t
 *
 aEncoderOptions
 nsIInputStream
@@ -5346,7 +5346,7 @@ info
 bool
 ValidateGLSLCharacter
 (
-PRUnichar
+char16_t
 c
 )
 ;

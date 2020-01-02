@@ -136,7 +136,7 @@ const
 nsCSSToken
 &
 aToken
-PRUnichar
+char16_t
 aChar
 )
 ;
@@ -152,7 +152,7 @@ aExpected
 void
 ReportUnexpectedEOF
 (
-PRUnichar
+char16_t
 aExpected
 )
 ;
@@ -335,7 +335,7 @@ char
 const
 nsCSSToken
 &
-PRUnichar
+char16_t
 )
 {
 }
@@ -359,7 +359,7 @@ ErrorReporter
 :
 ReportUnexpectedEOF
 (
-PRUnichar
+char16_t
 )
 {
 }

@@ -868,7 +868,7 @@ GtkWidget
 ConstructHeaderFooterDropdown
 (
 const
-PRUnichar
+char16_t
 *
 currentString
 )
@@ -3033,7 +3033,7 @@ nsPrintDialogWidgetGTK
 ConstructHeaderFooterDropdown
 (
 const
-PRUnichar
+char16_t
 *
 currentString
 )

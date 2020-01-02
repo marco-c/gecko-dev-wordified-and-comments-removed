@@ -615,7 +615,7 @@ utf8str
 reinterpret_cast
 <
 const
-PRUnichar
+char16_t
 *
 >
 (
@@ -6208,7 +6208,7 @@ char
 *
 topic
 const
-PRUnichar
+char16_t
 *
 data
 )

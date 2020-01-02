@@ -166,7 +166,7 @@ static_assert
 (
 sizeof
 (
-PRUnichar
+char16_t
 )
 =
 =
@@ -174,7 +174,7 @@ PRUnichar
 "
 size
 of
-PRUnichar
+char16_t
 must
 be
 2
@@ -272,7 +272,7 @@ explicit
 NS_LossyConvertUTF16toASCII
 (
 const
-PRUnichar
+char16_t
 *
 aString
 )
@@ -288,7 +288,7 @@ this
 NS_LossyConvertUTF16toASCII
 (
 const
-PRUnichar
+char16_t
 *
 aString
 uint32_t
@@ -450,7 +450,7 @@ private
 :
 NS_ConvertASCIItoUTF16
 (
-PRUnichar
+char16_t
 )
 ;
 }
@@ -467,7 +467,7 @@ explicit
 NS_ConvertUTF16toUTF8
 (
 const
-PRUnichar
+char16_t
 *
 aString
 )
@@ -483,7 +483,7 @@ this
 NS_ConvertUTF16toUTF8
 (
 const
-PRUnichar
+char16_t
 *
 aString
 uint32_t
@@ -516,7 +516,7 @@ NS_ConvertUTF16toUTF8
 static_cast
 <
 const
-PRUnichar
+char16_t
 *
 >
 (
@@ -538,7 +538,7 @@ NS_ConvertUTF16toUTF8
 static_cast
 <
 const
-PRUnichar
+char16_t
 *
 >
 (
@@ -644,7 +644,7 @@ private
 :
 NS_ConvertUTF8toUTF16
 (
-PRUnichar
+char16_t
 )
 ;
 }
@@ -775,7 +775,7 @@ inline
 void
 Recycle
 (
-PRUnichar
+char16_t
 *
 aBuffer
 )

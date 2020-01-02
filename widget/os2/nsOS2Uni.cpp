@@ -546,7 +546,7 @@ WideCharToMultiByte
 int
 aCodePage
 const
-PRUnichar
+char16_t
 *
 aSrc
 int32_t
@@ -743,7 +743,7 @@ aResultLength
 return
 NS_ERROR_OUT_OF_MEMORY
 ;
-PRUnichar
+char16_t
 *
 str
 =

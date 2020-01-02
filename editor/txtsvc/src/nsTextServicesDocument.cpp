@@ -12297,7 +12297,7 @@ entry
 mNodeOffset
 ;
 const
-PRUnichar
+char16_t
 *
 str
 =

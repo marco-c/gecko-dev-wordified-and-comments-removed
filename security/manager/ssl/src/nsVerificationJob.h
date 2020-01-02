@@ -126,7 +126,7 @@ mVerified
 uint32_t
 mCount
 ;
-PRUnichar
+char16_t
 *
 *
 mUsages

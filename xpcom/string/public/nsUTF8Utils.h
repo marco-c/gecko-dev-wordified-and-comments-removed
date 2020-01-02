@@ -692,12 +692,12 @@ uint32_t
 NextChar
 (
 const
-PRUnichar
+char16_t
 *
 *
 buffer
 const
-PRUnichar
+char16_t
 *
 end
 bool
@@ -722,7 +722,7 @@ buffer
 )
 ;
 const
-PRUnichar
+char16_t
 *
 p
 =
@@ -761,7 +761,7 @@ return
 0
 ;
 }
-PRUnichar
+char16_t
 c
 =
 *
@@ -844,7 +844,7 @@ return
 0xFFFD
 ;
 }
-PRUnichar
+char16_t
 h
 =
 c
@@ -987,7 +987,7 @@ char
 value_type
 ;
 typedef
-PRUnichar
+char16_t
 buffer_type
 ;
 ConvertUTF8toUTF16
@@ -1511,7 +1511,7 @@ ConvertUTF16toUTF8
 public
 :
 typedef
-PRUnichar
+char16_t
 value_type
 ;
 typedef
@@ -2034,7 +2034,7 @@ CalculateUTF8Size
 public
 :
 typedef
-PRUnichar
+char16_t
 value_type
 ;
 CalculateUTF8Size
@@ -2287,14 +2287,14 @@ char
 input_type
 ;
 typedef
-PRUnichar
+char16_t
 output_type
 ;
 public
 :
 LossyConvertEncoding8to16
 (
-PRUnichar
+char16_t
 *
 aDestination
 )
@@ -2361,7 +2361,7 @@ mDestination
 +
 =
 (
-PRUnichar
+char16_t
 )
 (
 unsigned
@@ -2395,7 +2395,7 @@ write_terminator
 mDestination
 =
 (
-PRUnichar
+char16_t
 )
 (
 0
@@ -2404,7 +2404,7 @@ PRUnichar
 }
 private
 :
-PRUnichar
+char16_t
 *
 mDestination
 ;
@@ -2416,11 +2416,11 @@ LossyConvertEncoding16to8
 public
 :
 typedef
-PRUnichar
+char16_t
 value_type
 ;
 typedef
-PRUnichar
+char16_t
 input_type
 ;
 typedef
@@ -2444,7 +2444,7 @@ void
 write
 (
 const
-PRUnichar
+char16_t
 *
 aSource
 uint32_t
@@ -2476,7 +2476,7 @@ return
 #
 endif
 const
-PRUnichar
+char16_t
 *
 done_writing
 =
@@ -2513,7 +2513,7 @@ void
 write_sse2
 (
 const
-PRUnichar
+char16_t
 *
 aSource
 uint32_t

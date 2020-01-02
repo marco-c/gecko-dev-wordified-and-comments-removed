@@ -193,7 +193,7 @@ int32_t
 maxLen
 ;
 const
-PRUnichar
+char16_t
 *
 data
 =

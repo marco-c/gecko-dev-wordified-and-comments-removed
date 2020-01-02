@@ -112,7 +112,7 @@ nsresult
 Write
 (
 const
-PRUnichar
+char16_t
 *
 aBuffer
 uint32_t
@@ -134,7 +134,7 @@ FlushBuffer
 ;
 protected
 :
-PRUnichar
+char16_t
 *
 mBuffer
 ;
@@ -154,7 +154,7 @@ nsIUnicodeEncoder
 *
 encoder
 const
-PRUnichar
+char16_t
 *
 aBuffer
 uint32_t
@@ -311,7 +311,7 @@ mSniffBuffer
 ;
 nsTArray
 <
-PRUnichar
+char16_t
 >
 mBufferedChars
 ;
@@ -341,7 +341,7 @@ nsresult
 Consume
 (
 const
-PRUnichar
+char16_t
 *
 data
 uint32_t

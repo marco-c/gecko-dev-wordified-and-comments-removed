@@ -86,7 +86,7 @@ endif
 endif
 extern
 const
-PRUnichar
+char16_t
 kIsoLatin1ToUCS2
 [
 256
@@ -531,11 +531,11 @@ int32_t
 strcmp
 (
 const
-PRUnichar
+char16_t
 *
 s1
 const
-PRUnichar
+char16_t
 *
 s2
 )
@@ -545,11 +545,11 @@ int32_t
 strncmp
 (
 const
-PRUnichar
+char16_t
 *
 s1
 const
-PRUnichar
+char16_t
 *
 s2
 uint32_t
@@ -650,7 +650,7 @@ static
 bool
 IsAscii
 (
-PRUnichar
+char16_t
 aChar
 )
 {
@@ -666,7 +666,7 @@ bool
 IsAscii
 (
 const
-PRUnichar
+char16_t
 *
 aString
 )
@@ -682,7 +682,7 @@ static
 bool
 IsAsciiAlpha
 (
-PRUnichar
+char16_t
 aChar
 )
 {
@@ -697,7 +697,7 @@ static
 bool
 IsAsciiDigit
 (
-PRUnichar
+char16_t
 aChar
 )
 {
@@ -712,7 +712,7 @@ static
 bool
 IsAsciiSpace
 (
-PRUnichar
+char16_t
 aChar
 )
 {
@@ -766,7 +766,7 @@ inline
 bool
 NS_IS_SPACE
 (
-PRUnichar
+char16_t
 c
 )
 {

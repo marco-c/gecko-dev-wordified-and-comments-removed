@@ -127,7 +127,7 @@ nsHtml5UTF16Buffer
 {
 private
 :
-PRUnichar
+char16_t
 *
 buffer
 ;
@@ -151,7 +151,7 @@ int32_t
 start
 )
 ;
-PRUnichar
+char16_t
 *
 getBuffer
 (

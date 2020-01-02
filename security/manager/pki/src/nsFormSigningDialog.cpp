@@ -108,12 +108,12 @@ nsAString
 &
 aSignText
 const
-PRUnichar
+char16_t
 *
 *
 aCertNickList
 const
-PRUnichar
+char16_t
 *
 *
 aCertDetailsList

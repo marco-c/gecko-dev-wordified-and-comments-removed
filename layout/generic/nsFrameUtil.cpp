@@ -2426,7 +2426,7 @@ aResult
 .
 Append
 (
-PRUnichar
+char16_t
 (
 '
 <
@@ -2446,7 +2446,7 @@ aResult
 .
 Append
 (
-PRUnichar
+char16_t
 (
 '
 /
@@ -2495,7 +2495,7 @@ aResult
 .
 Append
 (
-PRUnichar
+char16_t
 (
 '
 '
@@ -2545,7 +2545,7 @@ aResult
 .
 Append
 (
-PRUnichar
+char16_t
 (
 '
 \
@@ -2569,7 +2569,7 @@ aResult
 .
 Append
 (
-PRUnichar
+char16_t
 (
 '
 /
@@ -2582,7 +2582,7 @@ aResult
 .
 Append
 (
-PRUnichar
+char16_t
 (
 '
 >

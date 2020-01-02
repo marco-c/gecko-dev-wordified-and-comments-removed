@@ -387,7 +387,7 @@ const
 struct
 UniCharsAndModifiers
 {
-PRUnichar
+char16_t
 mChars
 [
 5
@@ -438,7 +438,7 @@ aOther
 void
 Append
 (
-PRUnichar
+char16_t
 aUniChar
 Modifiers
 aModifiers
@@ -563,7 +563,7 @@ KeyShiftState
 {
 struct
 {
-PRUnichar
+char16_t
 Chars
 [
 4
@@ -579,7 +579,7 @@ DeadKeyTable
 *
 Table
 ;
-PRUnichar
+char16_t
 DeadChar
 ;
 }
@@ -700,7 +700,7 @@ SetNormalChars
 ShiftState
 aShiftState
 const
-PRUnichar
+char16_t
 *
 aChars
 uint32_t
@@ -712,7 +712,7 @@ SetDeadChar
 (
 ShiftState
 aShiftState
-PRUnichar
+char16_t
 aDeadChar
 )
 ;
@@ -731,12 +731,12 @@ aEntries
 const
 ;
 inline
-PRUnichar
+char16_t
 GetCompositeChar
 (
 ShiftState
 aShiftState
-PRUnichar
+char16_t
 aBaseChar
 )
 const
@@ -1157,7 +1157,7 @@ ComputeVirtualKeyCodeFromScanCodeEx
 )
 const
 ;
-PRUnichar
+char16_t
 ComputeUnicharFromScanCode
 (
 )
@@ -1331,9 +1331,9 @@ static
 bool
 AddDeadKeyEntry
 (
-PRUnichar
+char16_t
 aBaseChar
-PRUnichar
+char16_t
 aCompositeChar
 DeadKeyEntry
 *

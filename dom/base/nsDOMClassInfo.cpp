@@ -6963,7 +6963,7 @@ JSObject
 >
 obj
 const
-PRUnichar
+char16_t
 *
 name
 const
@@ -9603,7 +9603,7 @@ protected
 nsDOMConstructor
 (
 const
-PRUnichar
+char16_t
 *
 aName
 bool
@@ -9637,7 +9637,7 @@ nsresult
 Create
 (
 const
-PRUnichar
+char16_t
 *
 aName
 const
@@ -10121,7 +10121,7 @@ eTypeExternalConstructorAlias
 ;
 }
 const
-PRUnichar
+char16_t
 *
 mClassName
 ;
@@ -10141,7 +10141,7 @@ nsDOMConstructor
 Create
 (
 const
-PRUnichar
+char16_t
 *
 aName
 const
@@ -11653,7 +11653,7 @@ aResult
 .
 Append
 (
-PRUnichar
+char16_t
 (
 '
 ]
@@ -11946,7 +11946,7 @@ JSObject
 >
 obj
 const
-PRUnichar
+char16_t
 *
 name
 const
@@ -12928,7 +12928,7 @@ id
 )
 ;
 const
-PRUnichar
+char16_t
 *
 class_name
 =

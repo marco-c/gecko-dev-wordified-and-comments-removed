@@ -883,7 +883,7 @@ shortcutKey
 )
 ;
 const
-PRUnichar
+char16_t
 *
 start
 =
@@ -894,7 +894,7 @@ BeginReading
 )
 ;
 const
-PRUnichar
+char16_t
 *
 end
 =

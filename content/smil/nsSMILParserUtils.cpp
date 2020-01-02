@@ -169,7 +169,7 @@ SkipWhitespace
 RangedPtr
 <
 const
-PRUnichar
+char16_t
 >
 &
 aIter
@@ -177,7 +177,7 @@ const
 RangedPtr
 <
 const
-PRUnichar
+char16_t
 >
 &
 aEnd
@@ -221,7 +221,7 @@ ParseColon
 RangedPtr
 <
 const
-PRUnichar
+char16_t
 >
 &
 aIter
@@ -229,7 +229,7 @@ const
 RangedPtr
 <
 const
-PRUnichar
+char16_t
 >
 &
 aEnd
@@ -270,7 +270,7 @@ ParseSecondsOrMinutes
 RangedPtr
 <
 const
-PRUnichar
+char16_t
 >
 &
 aIter
@@ -278,7 +278,7 @@ const
 RangedPtr
 <
 const
-PRUnichar
+char16_t
 >
 &
 aEnd
@@ -313,7 +313,7 @@ false
 RangedPtr
 <
 const
-PRUnichar
+char16_t
 >
 iter
 (
@@ -422,7 +422,7 @@ ParseClockMetric
 RangedPtr
 <
 const
-PRUnichar
+char16_t
 >
 &
 aIter
@@ -430,7 +430,7 @@ const
 RangedPtr
 <
 const
-PRUnichar
+char16_t
 >
 &
 aEnd
@@ -598,7 +598,7 @@ ParseClockValue
 RangedPtr
 <
 const
-PRUnichar
+char16_t
 >
 &
 aIter
@@ -606,7 +606,7 @@ const
 RangedPtr
 <
 const
-PRUnichar
+char16_t
 >
 &
 aEnd
@@ -643,7 +643,7 @@ TIMECOUNT_VALUE
 RangedPtr
 <
 const
-PRUnichar
+char16_t
 >
 iter
 (
@@ -986,7 +986,7 @@ ParseOffsetValue
 RangedPtr
 <
 const
-PRUnichar
+char16_t
 >
 &
 aIter
@@ -994,7 +994,7 @@ const
 RangedPtr
 <
 const
-PRUnichar
+char16_t
 >
 &
 aEnd
@@ -1006,7 +1006,7 @@ aResult
 RangedPtr
 <
 const
-PRUnichar
+char16_t
 >
 iter
 (
@@ -1098,7 +1098,7 @@ aResult
 RangedPtr
 <
 const
-PRUnichar
+char16_t
 >
 iter
 (
@@ -1115,7 +1115,7 @@ const
 RangedPtr
 <
 const
-PRUnichar
+char16_t
 >
 end
 (
@@ -1149,7 +1149,7 @@ ParseOptionalOffset
 RangedPtr
 <
 const
-PRUnichar
+char16_t
 >
 &
 aIter
@@ -1157,7 +1157,7 @@ const
 RangedPtr
 <
 const
-PRUnichar
+char16_t
 >
 &
 aEnd
@@ -1282,7 +1282,7 @@ length
 RangedPtr
 <
 const
-PRUnichar
+char16_t
 >
 iter
 (
@@ -1298,7 +1298,7 @@ aSpec
 RangedPtr
 <
 const
-PRUnichar
+char16_t
 >
 end
 (
@@ -1470,7 +1470,7 @@ MoveToNextToken
 RangedPtr
 <
 const
-PRUnichar
+char16_t
 >
 &
 aIter
@@ -1478,7 +1478,7 @@ const
 RangedPtr
 <
 const
-PRUnichar
+char16_t
 >
 &
 aEnd
@@ -1668,7 +1668,7 @@ aToken
 )
 ;
 const
-PRUnichar
+char16_t
 *
 read
 =
@@ -1679,7 +1679,7 @@ BeginReading
 )
 ;
 const
-PRUnichar
+char16_t
 *
 const
 end
@@ -1690,7 +1690,7 @@ EndReading
 (
 )
 ;
-PRUnichar
+char16_t
 *
 write
 =
@@ -1811,7 +1811,7 @@ result
 RangedPtr
 <
 const
-PRUnichar
+char16_t
 >
 start
 (
@@ -1827,7 +1827,7 @@ aSpec
 RangedPtr
 <
 const
-PRUnichar
+char16_t
 >
 end
 (
@@ -1855,7 +1855,7 @@ false
 RangedPtr
 <
 const
-PRUnichar
+char16_t
 >
 tokenEnd
 (
@@ -3125,7 +3125,7 @@ aResult
 RangedPtr
 <
 const
-PRUnichar
+char16_t
 >
 iter
 (
@@ -3141,7 +3141,7 @@ aSpec
 RangedPtr
 <
 const
-PRUnichar
+char16_t
 >
 end
 (

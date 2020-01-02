@@ -33,7 +33,7 @@ nsHtml5Portability
 :
 newLocalNameFromBuffer
 (
-PRUnichar
+char16_t
 *
 buf
 int32_t
@@ -99,7 +99,7 @@ nsHtml5Portability
 :
 newStringFromBuffer
 (
-PRUnichar
+char16_t
 *
 buf
 int32_t
@@ -205,7 +205,7 @@ newStr
 }
 jArray
 <
-PRUnichar
+char16_t
 int32_t
 >
 nsHtml5Portability
@@ -240,14 +240,14 @@ Length
 ;
 jArray
 <
-PRUnichar
+char16_t
 int32_t
 >
 arr
 =
 jArray
 <
-PRUnichar
+char16_t
 int32_t
 >
 :
@@ -269,7 +269,7 @@ len
 *
 sizeof
 (
-PRUnichar
+char16_t
 )
 )
 ;
@@ -279,7 +279,7 @@ arr
 }
 jArray
 <
-PRUnichar
+char16_t
 int32_t
 >
 nsHtml5Portability
@@ -304,14 +304,14 @@ Length
 ;
 jArray
 <
-PRUnichar
+char16_t
 int32_t
 >
 arr
 =
 jArray
 <
-PRUnichar
+char16_t
 int32_t
 >
 :
@@ -334,7 +334,7 @@ len
 *
 sizeof
 (
-PRUnichar
+char16_t
 )
 )
 ;
@@ -440,7 +440,7 @@ localEqualsBuffer
 nsIAtom
 *
 local
-PRUnichar
+char16_t
 *
 buf
 int32_t
@@ -502,7 +502,7 @@ litPtr
 lowerCaseLiteral
 ;
 const
-PRUnichar
+char16_t
 *
 strPtr
 =
@@ -514,7 +514,7 @@ BeginReading
 )
 ;
 const
-PRUnichar
+char16_t
 *
 end
 =
@@ -525,7 +525,7 @@ EndReading
 (
 )
 ;
-PRUnichar
+char16_t
 litChar
 ;
 while
@@ -581,7 +581,7 @@ return
 false
 ;
 }
-PRUnichar
+char16_t
 strChar
 =
 *

@@ -652,7 +652,7 @@ nsAppShellWindowEnumerator
 nsAppShellWindowEnumerator
 (
 const
-PRUnichar
+char16_t
 *
 aTypeString
 nsWindowMediator
@@ -810,7 +810,7 @@ nsASDOMWindowEnumerator
 nsASDOMWindowEnumerator
 (
 const
-PRUnichar
+char16_t
 *
 aTypeString
 nsWindowMediator
@@ -910,7 +910,7 @@ nsASXULWindowEnumerator
 nsASXULWindowEnumerator
 (
 const
-PRUnichar
+char16_t
 *
 aTypeString
 nsWindowMediator
@@ -990,7 +990,7 @@ nsASDOMWindowEarlyToLateEnumerator
 nsASDOMWindowEarlyToLateEnumerator
 (
 const
-PRUnichar
+char16_t
 *
 aTypeString
 nsWindowMediator
@@ -1112,7 +1112,7 @@ nsASXULWindowEarlyToLateEnumerator
 nsASXULWindowEarlyToLateEnumerator
 (
 const
-PRUnichar
+char16_t
 *
 aTypeString
 nsWindowMediator
@@ -1234,7 +1234,7 @@ nsASDOMWindowFrontToBackEnumerator
 nsASDOMWindowFrontToBackEnumerator
 (
 const
-PRUnichar
+char16_t
 *
 aTypeString
 nsWindowMediator
@@ -1356,7 +1356,7 @@ nsASXULWindowFrontToBackEnumerator
 nsASXULWindowFrontToBackEnumerator
 (
 const
-PRUnichar
+char16_t
 *
 aTypeString
 nsWindowMediator
@@ -1478,7 +1478,7 @@ nsASDOMWindowBackToFrontEnumerator
 nsASDOMWindowBackToFrontEnumerator
 (
 const
-PRUnichar
+char16_t
 *
 aTypeString
 nsWindowMediator
@@ -1620,7 +1620,7 @@ nsASXULWindowBackToFrontEnumerator
 nsASXULWindowBackToFrontEnumerator
 (
 const
-PRUnichar
+char16_t
 *
 aTypeString
 nsWindowMediator

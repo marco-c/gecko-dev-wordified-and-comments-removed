@@ -966,7 +966,7 @@ mAddSpace
 {
 AppendToString
 (
-PRUnichar
+char16_t
 (
 '
 '
@@ -988,7 +988,7 @@ mAddSpace
 {
 AppendToString
 (
-PRUnichar
+char16_t
 (
 '
 '
@@ -1677,7 +1677,7 @@ mAddSpace
 {
 AppendToString
 (
-PRUnichar
+char16_t
 (
 '
 '
@@ -1699,7 +1699,7 @@ mAddSpace
 {
 AppendToString
 (
-PRUnichar
+char16_t
 (
 '
 '
@@ -2226,7 +2226,7 @@ aLen
 aIndex
 )
 {
-PRUnichar
+char16_t
 val
 =
 aStr
@@ -2501,7 +2501,7 @@ return
 }
 nsReadingIterator
 <
-PRUnichar
+char16_t
 >
 done_reading
 ;
@@ -2519,7 +2519,7 @@ advanceLength
 ;
 nsReadingIterator
 <
-PRUnichar
+char16_t
 >
 iter
 ;
@@ -2578,7 +2578,7 @@ lengthReplaced
 0
 ;
 const
-PRUnichar
+char16_t
 *
 c
 =
@@ -2589,14 +2589,14 @@ get
 )
 ;
 const
-PRUnichar
+char16_t
 *
 fragmentStart
 =
 c
 ;
 const
-PRUnichar
+char16_t
 *
 fragmentEnd
 =
@@ -2643,7 +2643,7 @@ advanceLength
 +
 )
 {
-PRUnichar
+char16_t
 val
 =
 *
@@ -2884,7 +2884,7 @@ aOutputStr
 .
 Append
 (
-PRUnichar
+char16_t
 (
 '
 &
@@ -2902,7 +2902,7 @@ aOutputStr
 .
 Append
 (
-PRUnichar
+char16_t
 (
 '
 ;

@@ -86,11 +86,11 @@ NS_COM_GLUE
 CompareVersions
 (
 const
-PRUnichar
+char16_t
 *
 A
 const
-PRUnichar
+char16_t
 *
 B
 )
@@ -318,7 +318,7 @@ VersionW
 VersionW
 (
 const
-PRUnichar
+char16_t
 *
 versionStringW
 )
@@ -332,7 +332,7 @@ versionStringW
 ;
 }
 const
-PRUnichar
+char16_t
 *
 ReadContentW
 (
@@ -516,7 +516,7 @@ ReadContentW
 }
 private
 :
-PRUnichar
+char16_t
 *
 versionContentW
 ;

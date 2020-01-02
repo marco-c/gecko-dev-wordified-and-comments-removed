@@ -282,7 +282,7 @@ mIsUnichar
 for
 (
 const
-PRUnichar
+char16_t
 *
 s
 =

@@ -1024,7 +1024,7 @@ Assign
 (
 reinterpret_cast
 <
-PRUnichar
+char16_t
 *
 >
 (
@@ -1095,7 +1095,7 @@ nsOSHelperAppService
 GetFileTokenForPath
 (
 const
-PRUnichar
+char16_t
 *
 aPlatformAppPath
 nsIFile
@@ -3624,7 +3624,7 @@ Assign
 (
 reinterpret_cast
 <
-PRUnichar
+char16_t
 *
 >
 (
@@ -3899,7 +3899,7 @@ Assign
 (
 reinterpret_cast
 <
-PRUnichar
+char16_t
 *
 >
 (

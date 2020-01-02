@@ -1231,7 +1231,7 @@ aHash
 .
 Assign
 (
-PRUnichar
+char16_t
 (
 '
 #
@@ -1338,7 +1338,7 @@ First
 )
 !
 =
-PRUnichar
+char16_t
 (
 '
 #
@@ -1350,7 +1350,7 @@ hash
 .
 Insert
 (
-PRUnichar
+char16_t
 (
 '
 #
@@ -2721,7 +2721,7 @@ aProtocol
 .
 Append
 (
-PRUnichar
+char16_t
 (
 '
 :
@@ -2910,7 +2910,7 @@ aSearch
 .
 Assign
 (
-PRUnichar
+char16_t
 (
 '
 ?

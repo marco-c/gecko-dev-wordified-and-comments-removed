@@ -294,7 +294,7 @@ nsresult
 splitExpatName
 (
 const
-PRUnichar
+char16_t
 *
 aExpatName
 nsIAtom
@@ -333,7 +333,7 @@ bool
 isWhitespace
 (
 const
-PRUnichar
+char16_t
 &
 aChar
 )
@@ -412,7 +412,7 @@ nsAFlatString
 &
 aQName
 const
-PRUnichar
+char16_t
 *
 *
 aColon
@@ -422,7 +422,7 @@ static
 bool
 isLetter
 (
-PRUnichar
+char16_t
 aChar
 )
 {
@@ -448,7 +448,7 @@ static
 bool
 isNCNameChar
 (
-PRUnichar
+char16_t
 aChar
 )
 {

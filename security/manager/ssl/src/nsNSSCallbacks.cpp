@@ -3072,7 +3072,7 @@ rv
 =
 NS_OK
 ;
-PRUnichar
+char16_t
 *
 password
 =
@@ -3182,7 +3182,7 @@ rv
 return
 ;
 const
-PRUnichar
+char16_t
 *
 formatStrings
 [
@@ -3224,7 +3224,7 @@ Free
 (
 const_cast
 <
-PRUnichar
+char16_t
 *
 >
 (

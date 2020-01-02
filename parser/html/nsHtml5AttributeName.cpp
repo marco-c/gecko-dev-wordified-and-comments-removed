@@ -461,7 +461,7 @@ nsHtml5AttributeName
 :
 nameByBuffer
 (
-PRUnichar
+char16_t
 *
 buf
 int32_t
@@ -595,7 +595,7 @@ nsHtml5AttributeName
 :
 bufToHash
 (
-PRUnichar
+char16_t
 *
 buf
 int32_t

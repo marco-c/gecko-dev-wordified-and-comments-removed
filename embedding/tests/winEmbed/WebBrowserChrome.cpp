@@ -461,7 +461,7 @@ SetStatus
 uint32_t
 aType
 const
-PRUnichar
+char16_t
 *
 aStatus
 )
@@ -978,7 +978,7 @@ aRequest
 nsresult
 aStatus
 const
-PRUnichar
+char16_t
 *
 aMessage
 )
@@ -1833,7 +1833,7 @@ WebBrowserChrome
 :
 GetTitle
 (
-PRUnichar
+char16_t
 *
 *
 aTitle
@@ -1860,7 +1860,7 @@ WebBrowserChrome
 SetTitle
 (
 const
-PRUnichar
+char16_t
 *
 aTitle
 )
@@ -1948,7 +1948,7 @@ char
 *
 aTopic
 const
-PRUnichar
+char16_t
 *
 someData
 )
@@ -2031,7 +2031,7 @@ aXCoords
 int32_t
 aYCoords
 const
-PRUnichar
+char16_t
 *
 aTipText
 )

@@ -139,7 +139,7 @@ aName
 =
 static_cast
 <
-PRUnichar
+char16_t
 >
 (
 '

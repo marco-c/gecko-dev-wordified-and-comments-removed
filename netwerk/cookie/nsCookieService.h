@@ -1313,7 +1313,7 @@ nsISupports
 *
 aSubject
 const
-PRUnichar
+char16_t
 *
 aData
 )

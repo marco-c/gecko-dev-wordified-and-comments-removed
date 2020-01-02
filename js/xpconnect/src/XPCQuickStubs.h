@@ -968,7 +968,7 @@ JS
 MutableHandleValue
 pval
 const
-PRUnichar
+char16_t
 *
 *
 pstr

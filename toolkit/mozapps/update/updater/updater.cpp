@@ -11969,7 +11969,7 @@ return
 1
 ;
 }
-PRUnichar
+char16_t
 *
 cmdLine
 =

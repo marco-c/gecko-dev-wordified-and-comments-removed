@@ -440,7 +440,7 @@ Assign
 static_cast
 <
 const
-PRUnichar
+char16_t
 *
 >
 (
@@ -674,7 +674,7 @@ uint32_t
 *
 _length
 const
-PRUnichar
+char16_t
 *
 *
 _string
@@ -703,7 +703,7 @@ _string
 static_cast
 <
 const
-PRUnichar
+char16_t
 *
 >
 (

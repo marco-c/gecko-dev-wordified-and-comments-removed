@@ -107,7 +107,7 @@ inline
 bool
 IgnoreWhitespace
 (
-PRUnichar
+char16_t
 aChar
 )
 {

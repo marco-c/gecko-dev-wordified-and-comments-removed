@@ -3238,7 +3238,7 @@ mControllers
 union
 InputData
 {
-PRUnichar
+char16_t
 *
 mValue
 ;

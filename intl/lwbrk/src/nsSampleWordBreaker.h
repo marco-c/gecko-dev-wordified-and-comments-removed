@@ -50,13 +50,13 @@ bool
 BreakInBetween
 (
 const
-PRUnichar
+char16_t
 *
 aText1
 uint32_t
 aTextLen1
 const
-PRUnichar
+char16_t
 *
 aText2
 uint32_t
@@ -67,7 +67,7 @@ nsWordRange
 FindWord
 (
 const
-PRUnichar
+char16_t
 *
 aText1
 uint32_t
@@ -80,7 +80,7 @@ int32_t
 NextWord
 (
 const
-PRUnichar
+char16_t
 *
 aText
 uint32_t
@@ -94,7 +94,7 @@ protected
 uint8_t
 GetClass
 (
-PRUnichar
+char16_t
 aChar
 )
 ;

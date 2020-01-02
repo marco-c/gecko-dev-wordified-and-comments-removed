@@ -30,10 +30,10 @@ NS_SQR_CHAR_STYLE_CONTEXT_INDEX
 0
 static
 const
-PRUnichar
+char16_t
 kSqrChar
 =
-PRUnichar
+char16_t
 (
 0x221A
 )
@@ -784,7 +784,7 @@ fm
 ruleThickness
 )
 ;
-PRUnichar
+char16_t
 one
 =
 '

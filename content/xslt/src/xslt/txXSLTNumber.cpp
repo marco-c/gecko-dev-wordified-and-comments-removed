@@ -1314,7 +1314,7 @@ formatPos
 =
 0
 ;
-PRUnichar
+char16_t
 ch
 =
 0
@@ -1835,7 +1835,7 @@ txXSLTNumber
 :
 isAlphaNumeric
 (
-PRUnichar
+char16_t
 ch
 )
 {

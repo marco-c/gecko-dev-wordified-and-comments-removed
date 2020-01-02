@@ -855,7 +855,7 @@ nsAString
 aSource
 uint32_t
 aSrcOffset
-PRUnichar
+char16_t
 *
 aDest
 uint32_t
@@ -871,14 +871,14 @@ CopyNewlineNormalizedUnicodeTo
 (
 nsReadingIterator
 <
-PRUnichar
+char16_t
 >
 &
 aSrcStart
 const
 nsReadingIterator
 <
-PRUnichar
+char16_t
 >
 &
 aSrcEnd
@@ -907,7 +907,7 @@ template
 bool
 IsWhitespace
 (
-PRUnichar
+char16_t
 )
 >
 static
@@ -969,7 +969,7 @@ static
 bool
 IsHTMLWhitespace
 (
-PRUnichar
+char16_t
 aChar
 )
 ;
@@ -977,7 +977,7 @@ static
 bool
 IsHTMLWhitespaceOrNBSP
 (
-PRUnichar
+char16_t
 aChar
 )
 ;
@@ -1276,7 +1276,7 @@ aNamespaceAware
 =
 true
 const
-PRUnichar
+char16_t
 *
 *
 aColon
@@ -1333,7 +1333,7 @@ void
 SplitExpatName
 (
 const
-PRUnichar
+char16_t
 *
 aExpatName
 nsIAtom
@@ -1773,7 +1773,7 @@ char
 *
 aMessageName
 const
-PRUnichar
+char16_t
 *
 *
 aParams
@@ -1844,7 +1844,7 @@ char
 *
 aKey
 const
-PRUnichar
+char16_t
 *
 *
 aParams
@@ -1873,7 +1873,7 @@ char
 *
 aKey
 const
-PRUnichar
+char16_t
 *
 (
 &

@@ -61,7 +61,7 @@ NS_IMETHOD
 ConvertNoBuff
 (
 const
-PRUnichar
+char16_t
 *
 aSrc
 int32_t
@@ -79,7 +79,7 @@ NS_IMETHOD
 ConvertNoBuffNoErr
 (
 const
-PRUnichar
+char16_t
 *
 aSrc
 int32_t
@@ -123,7 +123,7 @@ m4BytesEncoder
 ;
 protected
 :
-PRUnichar
+char16_t
 mSurrogateHigh
 ;
 nsGBKConvUtil
@@ -132,7 +132,7 @@ mUtil
 bool
 TryExtensionEncoder
 (
-PRUnichar
+char16_t
 aChar
 char
 *
@@ -145,7 +145,7 @@ aOutLen
 bool
 Try4BytesEncoder
 (
-PRUnichar
+char16_t
 aChar
 char
 *
@@ -159,9 +159,9 @@ virtual
 bool
 EncodeSurrogate
 (
-PRUnichar
+char16_t
 aSurrogateHigh
-PRUnichar
+char16_t
 aSurrogateLow
 char
 *
@@ -213,9 +213,9 @@ virtual
 bool
 EncodeSurrogate
 (
-PRUnichar
+char16_t
 aSurrogateHigh
-PRUnichar
+char16_t
 aSurrogateLow
 char
 *

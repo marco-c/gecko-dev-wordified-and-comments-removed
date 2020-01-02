@@ -1559,7 +1559,7 @@ char
 *
 aTopic
 const
-PRUnichar
+char16_t
 *
 aData
 )
@@ -2253,7 +2253,7 @@ aRequest
 nsresult
 aStatus
 const
-PRUnichar
+char16_t
 *
 aMessage
 )
@@ -3508,7 +3508,7 @@ SetStatus
 uint32_t
 aStatusType
 const
-PRUnichar
+char16_t
 *
 aStatus
 )
@@ -3989,7 +3989,7 @@ TabChild
 :
 GetTitle
 (
-PRUnichar
+char16_t
 *
 *
 aTitle
@@ -4020,7 +4020,7 @@ TabChild
 SetTitle
 (
 const
-PRUnichar
+char16_t
 *
 aTitle
 )

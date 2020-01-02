@@ -1940,7 +1940,7 @@ abi
 .
 Insert
 (
-PRUnichar
+char16_t
 (
 '
 _

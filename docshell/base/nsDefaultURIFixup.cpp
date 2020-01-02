@@ -3038,13 +3038,13 @@ aIn
 {
 nsReadingIterator
 <
-PRUnichar
+char16_t
 >
 iter
 ;
 nsReadingIterator
 <
-PRUnichar
+char16_t
 >
 iterEnd
 ;

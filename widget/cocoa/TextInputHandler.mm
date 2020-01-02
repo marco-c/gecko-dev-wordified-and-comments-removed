@@ -1631,7 +1631,7 @@ i
 +
 )
 {
-PRUnichar
+char16_t
 ch
 =
 str
@@ -2741,7 +2741,7 @@ NS_ASSERTION
 (
 sizeof
 (
-PRUnichar
+char16_t
 )
 =
 =
@@ -2752,7 +2752,7 @@ UniChar
 "
 size
 of
-PRUnichar
+char16_t
 and
 size
 of
@@ -2774,7 +2774,7 @@ len
 *
 sizeof
 (
-PRUnichar
+char16_t
 )
 )
 ;
@@ -4257,7 +4257,7 @@ ret
 ret
 )
 ;
-PRUnichar
+char16_t
 ch
 =
 str
@@ -4266,7 +4266,7 @@ IsEmpty
 (
 )
 ?
-PRUnichar
+char16_t
 (
 0
 )
@@ -4999,7 +4999,7 @@ insertString
 ]
 <
 =
-PRUnichar
+char16_t
 (
 26
 )
@@ -5023,7 +5023,7 @@ IsCapsLocked
 ?
 static_cast
 <
-PRUnichar
+char16_t
 >
 (
 insertString
@@ -5042,7 +5042,7 @@ A
 :
 static_cast
 <
-PRUnichar
+char16_t
 >
 (
 insertString
@@ -6313,7 +6313,7 @@ InitKeyPressEvent
 NSEvent
 *
 aNativeKeyEvent
-PRUnichar
+char16_t
 aInsertChar
 WidgetKeyboardEvent
 &
@@ -6374,12 +6374,12 @@ utf8Chars
 chars
 )
 ;
-PRUnichar
+char16_t
 expectedChar
 =
 static_cast
 <
-PRUnichar
+char16_t
 >
 (
 aInsertChar
@@ -27191,7 +27191,7 @@ TextInputHandlerBase
 :
 IsPrintableChar
 (
-PRUnichar
+char16_t
 aChar
 )
 {

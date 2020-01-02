@@ -166,7 +166,7 @@ nsSaveAsCharset
 Convert
 (
 const
-PRUnichar
+char16_t
 *
 inString
 char
@@ -343,7 +343,7 @@ mEntityConverter
 NS_ERROR_FAILURE
 )
 ;
-PRUnichar
+char16_t
 *
 entity
 =
@@ -712,7 +712,7 @@ nsSaveAsCharset
 DoCharsetConversion
 (
 const
-PRUnichar
+char16_t
 *
 inString
 char

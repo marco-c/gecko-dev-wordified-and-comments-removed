@@ -366,11 +366,11 @@ int
 safe_strcmp
 (
 const
-PRUnichar
+char16_t
 *
 a
 const
-PRUnichar
+char16_t
 *
 b
 )
@@ -679,7 +679,7 @@ language
 .
 FindChar
 (
-PRUnichar
+char16_t
 (
 '
 '
@@ -7975,7 +7975,7 @@ nsStyleImage
 SetElementId
 (
 const
-PRUnichar
+char16_t
 *
 aElementId
 )
@@ -13399,7 +13399,7 @@ SetInitial
 {
 static
 const
-PRUnichar
+char16_t
 initialQuotes
 [
 8

@@ -202,9 +202,9 @@ nsUnicodeToGB18030
 :
 EncodeSurrogate
 (
-PRUnichar
+char16_t
 aSurrogateHigh
-PRUnichar
+char16_t
 aSurrogateLow
 char
 *
@@ -233,7 +233,7 @@ idx
 aSurrogateHigh
 -
 (
-PRUnichar
+char16_t
 )
 0xD800
 )
@@ -246,7 +246,7 @@ PRUnichar
 aSurrogateLow
 -
 (
-PRUnichar
+char16_t
 )
 0xDC00
 )
@@ -417,7 +417,7 @@ nsUnicodeToGBK
 :
 TryExtensionEncoder
 (
-PRUnichar
+char16_t
 aChar
 char
 *
@@ -513,7 +513,7 @@ nsUnicodeToGBK
 :
 Try4BytesEncoder
 (
-PRUnichar
+char16_t
 aChar
 char
 *
@@ -641,9 +641,9 @@ nsUnicodeToGBK
 :
 EncodeSurrogate
 (
-PRUnichar
+char16_t
 aSurrogateHigh
-PRUnichar
+char16_t
 aSurrogateLow
 char
 *
@@ -661,7 +661,7 @@ nsUnicodeToGBK
 ConvertNoBuff
 (
 const
-PRUnichar
+char16_t
 *
 aSrc
 int32_t
@@ -685,7 +685,7 @@ iDestLength
 =
 0
 ;
-PRUnichar
+char16_t
 unicode
 ;
 nsresult

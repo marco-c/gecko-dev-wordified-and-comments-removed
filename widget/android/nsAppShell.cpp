@@ -967,7 +967,7 @@ char
 *
 aTopic
 const
-PRUnichar
+char16_t
 *
 aData
 )
@@ -2970,14 +2970,14 @@ Length
 nsAutoArrayPtr
 <
 const
-PRUnichar
+char16_t
 *
 >
 prefNamePtrs
 (
 new
 const
-PRUnichar
+char16_t
 *
 [
 count

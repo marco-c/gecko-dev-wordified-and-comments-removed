@@ -145,7 +145,7 @@ aTextNode
 uint32_t
 aOffset
 const
-PRUnichar
+char16_t
 *
 aBuffer
 uint32_t

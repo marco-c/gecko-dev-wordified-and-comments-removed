@@ -131,14 +131,14 @@ CLASS_NON_BREAKABLE
 #
 define
 U_NULL
-PRUnichar
+char16_t
 (
 0x0000
 )
 #
 define
 U_SLASH
-PRUnichar
+char16_t
 (
 '
 /
@@ -147,7 +147,7 @@ PRUnichar
 #
 define
 U_SPACE
-PRUnichar
+char16_t
 (
 '
 '
@@ -155,7 +155,7 @@ PRUnichar
 #
 define
 U_HYPHEN
-PRUnichar
+char16_t
 (
 '
 -
@@ -164,7 +164,7 @@ PRUnichar
 #
 define
 U_EQUAL
-PRUnichar
+char16_t
 (
 '
 =
@@ -173,7 +173,7 @@ PRUnichar
 #
 define
 U_PERCENT
-PRUnichar
+char16_t
 (
 '
 %
@@ -182,7 +182,7 @@ PRUnichar
 #
 define
 U_AMPERSAND
-PRUnichar
+char16_t
 (
 '
 &
@@ -191,7 +191,7 @@ PRUnichar
 #
 define
 U_SEMICOLON
-PRUnichar
+char16_t
 (
 '
 ;
@@ -200,7 +200,7 @@ PRUnichar
 #
 define
 U_BACKSLASH
-PRUnichar
+char16_t
 (
 '
 \
@@ -210,21 +210,21 @@ PRUnichar
 #
 define
 U_OPEN_SINGLE_QUOTE
-PRUnichar
+char16_t
 (
 0x2018
 )
 #
 define
 U_OPEN_DOUBLE_QUOTE
-PRUnichar
+char16_t
 (
 0x201C
 )
 #
 define
 U_OPEN_GUILLEMET
-PRUnichar
+char16_t
 (
 0x00AB
 )
@@ -386,7 +386,7 @@ inline
 int
 IS_HALFWIDTH_IN_JISx4051_CLASS3
 (
-PRUnichar
+char16_t
 u
 )
 {
@@ -418,7 +418,7 @@ inline
 int
 IS_CJK_CHAR
 (
-PRUnichar
+char16_t
 u
 )
 {
@@ -502,7 +502,7 @@ inline
 bool
 IS_NONBREAKABLE_SPACE
 (
-PRUnichar
+char16_t
 u
 )
 {
@@ -524,7 +524,7 @@ inline
 bool
 IS_HYPHEN
 (
-PRUnichar
+char16_t
 u
 )
 {
@@ -565,7 +565,7 @@ static
 int8_t
 GetClass
 (
-PRUnichar
+char16_t
 u
 )
 {
@@ -939,7 +939,7 @@ l
 )
 {
 static
-PRUnichar
+char16_t
 NarrowFFEx
 [
 16
@@ -1361,7 +1361,7 @@ public
 ContextState
 (
 const
-PRUnichar
+char16_t
 *
 aText
 uint32_t
@@ -1430,7 +1430,7 @@ return
 mIndex
 ;
 }
-PRUnichar
+char16_t
 GetCharAt
 (
 uint32_t
@@ -1458,7 +1458,7 @@ mUniText
 aIndex
 ]
 :
-PRUnichar
+char16_t
 (
 mText
 [
@@ -1680,7 +1680,7 @@ mHasPreviousBackslash
 true
 ;
 }
-PRUnichar
+char16_t
 GetPreviousNonHyphenCharacter
 (
 )
@@ -1693,7 +1693,7 @@ mPreviousNonHyphenCharacter
 void
 NotifyNonHyphenCharacter
 (
-PRUnichar
+char16_t
 ch
 )
 {
@@ -1757,7 +1757,7 @@ mLength
 i
 )
 {
-PRUnichar
+char16_t
 u
 =
 GetCharAt
@@ -1802,7 +1802,7 @@ mHasCJKChar
 }
 }
 const
-PRUnichar
+char16_t
 *
 mUniText
 ;
@@ -1820,7 +1820,7 @@ mLength
 uint32_t
 mLastBreakIndex
 ;
-PRUnichar
+char16_t
 mPreviousNonHyphenCharacter
 ;
 bool
@@ -1844,11 +1844,11 @@ static
 int8_t
 ContextualAnalysis
 (
-PRUnichar
+char16_t
 prev
-PRUnichar
+char16_t
 cur
-PRUnichar
+char16_t
 next
 ContextState
 &
@@ -1910,7 +1910,7 @@ UseConservativeBreaking
 )
 )
 {
-PRUnichar
+char16_t
 prevOfHyphen
 =
 aState
@@ -2276,7 +2276,7 @@ nsJISx4051LineBreaker
 WordMove
 (
 const
-PRUnichar
+char16_t
 *
 aText
 uint32_t
@@ -2532,7 +2532,7 @@ nsJISx4051LineBreaker
 Next
 (
 const
-PRUnichar
+char16_t
 *
 aText
 uint32_t
@@ -2602,7 +2602,7 @@ nsJISx4051LineBreaker
 Prev
 (
 const
-PRUnichar
+char16_t
 *
 aText
 uint32_t
@@ -2676,7 +2676,7 @@ nsJISx4051LineBreaker
 GetJISx4051Breaks
 (
 const
-PRUnichar
+char16_t
 *
 aChars
 uint32_t
@@ -2723,7 +2723,7 @@ AdvanceIndex
 )
 )
 {
-PRUnichar
+char16_t
 ch
 =
 aChars
@@ -3080,7 +3080,7 @@ AdvanceIndex
 )
 )
 {
-PRUnichar
+char16_t
 ch
 =
 aChars

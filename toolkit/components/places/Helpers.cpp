@@ -781,7 +781,7 @@ aRevHost
 .
 Append
 (
-PRUnichar
+char16_t
 (
 '
 .

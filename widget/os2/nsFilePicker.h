@@ -229,7 +229,7 @@ nsAString
 inString
 )
 ;
-PRUnichar
+char16_t
 *
 ConvertFromFileSystemCharset
 (

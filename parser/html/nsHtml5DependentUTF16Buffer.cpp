@@ -20,7 +20,7 @@ nsHtml5UTF16Buffer
 (
 const_cast
 <
-PRUnichar
+char16_t
 *
 >
 (
@@ -130,7 +130,7 @@ newLength
 *
 sizeof
 (
-PRUnichar
+char16_t
 )
 )
 ;

@@ -5287,7 +5287,7 @@ NamespaceID
 else
 {
 const
-PRUnichar
+char16_t
 *
 colon
 ;
@@ -9425,7 +9425,7 @@ continue
 ;
 }
 const
-PRUnichar
+char16_t
 *
 value
 ;
@@ -12402,7 +12402,7 @@ overlay
 )
 {
 const
-PRUnichar
+char16_t
 *
 params
 [
@@ -13551,7 +13551,7 @@ spec
 )
 ;
 const
-PRUnichar
+char16_t
 *
 params
 [

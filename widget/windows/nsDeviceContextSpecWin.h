@@ -87,7 +87,7 @@ const
 nsAString
 &
 aTitle
-PRUnichar
+char16_t
 *
 aPrintToFileName
 int32_t

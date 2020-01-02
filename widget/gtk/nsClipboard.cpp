@@ -215,7 +215,7 @@ guchar
 data
 int32_t
 dataLength
-PRUnichar
+char16_t
 *
 *
 unicodeData
@@ -375,7 +375,7 @@ char
 *
 aTopic
 const
-PRUnichar
+char16_t
 *
 aData
 )
@@ -1353,7 +1353,7 @@ kHTMLMime
 )
 )
 {
-PRUnichar
+char16_t
 *
 htmlBody
 =
@@ -2502,7 +2502,7 @@ guchar
 +
 sizeof
 (
-PRUnichar
+char16_t
 )
 )
 ;
@@ -2513,7 +2513,7 @@ buffer
 )
 return
 ;
-PRUnichar
+char16_t
 prefix
 =
 0xFEFF
@@ -2729,7 +2729,7 @@ guchar
 data
 int32_t
 dataLength
-PRUnichar
+char16_t
 *
 *
 unicodeData
@@ -2777,7 +2777,7 @@ unicodeData
 =
 reinterpret_cast
 <
-PRUnichar
+char16_t
 *
 >
 (
@@ -2800,7 +2800,7 @@ sizeof
 *
 sizeof
 (
-PRUnichar
+char16_t
 )
 )
 )
@@ -2819,13 +2819,13 @@ data
 +
 sizeof
 (
-PRUnichar
+char16_t
 )
 outUnicodeLen
 *
 sizeof
 (
-PRUnichar
+char16_t
 )
 )
 ;
@@ -3000,7 +3000,7 @@ unicodeData
 =
 reinterpret_cast
 <
-PRUnichar
+char16_t
 *
 >
 (
@@ -3023,7 +3023,7 @@ sizeof
 *
 sizeof
 (
-PRUnichar
+char16_t
 )
 )
 )
@@ -3115,12 +3115,12 @@ nsCString
 str
 )
 {
-PRUnichar
+char16_t
 *
 beginChar
 =
 (
-PRUnichar
+char16_t
 *
 )
 data

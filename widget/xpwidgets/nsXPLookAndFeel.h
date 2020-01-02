@@ -303,13 +303,13 @@ RefreshImpl
 )
 ;
 virtual
-PRUnichar
+char16_t
 GetPasswordCharacterImpl
 (
 )
 {
 return
-PRUnichar
+char16_t
 (
 '
 *

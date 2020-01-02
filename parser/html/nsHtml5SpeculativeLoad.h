@@ -356,7 +356,7 @@ mTypeOrCharsetSource
 Assign
 (
 (
-PRUnichar
+char16_t
 )
 aCharsetSource
 )

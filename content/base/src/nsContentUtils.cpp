@@ -1232,7 +1232,7 @@ char
 *
 *
 next
-PRUnichar
+char16_t
 *
 result
 )
@@ -3336,10 +3336,10 @@ aString
 {
 static
 const
-PRUnichar
+char16_t
 EIGHT_BIT
 =
-PRUnichar
+char16_t
 (
 ~
 0x00FF
@@ -3406,7 +3406,7 @@ size_forward
 )
 ;
 const
-PRUnichar
+char16_t
 *
 c
 =
@@ -3417,7 +3417,7 @@ get
 )
 ;
 const
-PRUnichar
+char16_t
 *
 fragmentEnd
 =
@@ -3529,7 +3529,7 @@ NS_ERROR_DOM_INVALID_CHARACTER_ERR
 ;
 }
 const
-PRUnichar
+char16_t
 *
 start
 =
@@ -3540,7 +3540,7 @@ BeginReading
 )
 ;
 const
-PRUnichar
+char16_t
 *
 end
 =
@@ -3873,7 +3873,7 @@ Truncate
 )
 ;
 const
-PRUnichar
+char16_t
 *
 start
 =
@@ -3884,7 +3884,7 @@ get
 )
 ;
 const
-PRUnichar
+char16_t
 *
 end
 =
@@ -3897,7 +3897,7 @@ Length
 )
 ;
 const
-PRUnichar
+char16_t
 *
 iter
 ;
@@ -3982,7 +3982,7 @@ start
 end
 false
 )
-PRUnichar
+char16_t
 q
 =
 *
@@ -4058,7 +4058,7 @@ attrName
 )
 {
 const
-PRUnichar
+char16_t
 *
 chunkEnd
 =
@@ -4115,13 +4115,13 @@ start
 chunkEnd
 ;
 const
-PRUnichar
+char16_t
 *
 afterEntity
 =
 nullptr
 ;
-PRUnichar
+char16_t
 result
 [
 2
@@ -4504,7 +4504,7 @@ aValue
 .
 FindChar
 (
-PRUnichar
+char16_t
 (
 '
 ;
@@ -5235,7 +5235,7 @@ nsAString
 aSource
 uint32_t
 aSrcOffset
-PRUnichar
+char16_t
 *
 aDest
 uint32_t
@@ -5248,7 +5248,7 @@ aLastCharCR
 typedef
 NormalizeNewlinesCharTraits
 <
-PRUnichar
+char16_t
 *
 >
 sink_traits
@@ -5272,7 +5272,7 @@ aLastCharCR
 ;
 nsReadingIterator
 <
-PRUnichar
+char16_t
 >
 fromBegin
 fromEnd
@@ -5336,14 +5336,14 @@ CopyNewlineNormalizedUnicodeTo
 (
 nsReadingIterator
 <
-PRUnichar
+char16_t
 >
 &
 aSrcStart
 const
 nsReadingIterator
 <
-PRUnichar
+char16_t
 >
 &
 aSrcEnd
@@ -5355,7 +5355,7 @@ aDest
 typedef
 nsWritingIterator
 <
-PRUnichar
+char16_t
 >
 WritingIterator
 ;
@@ -5478,7 +5478,7 @@ uint32_t
 aOffset
 )
 {
-PRUnichar
+char16_t
 h
 =
 aFrag
@@ -5525,7 +5525,7 @@ GetLength
 )
 )
 {
-PRUnichar
+char16_t
 l
 =
 aFrag
@@ -5624,7 +5624,7 @@ uint32_t
 aOffset
 )
 {
-PRUnichar
+char16_t
 h
 =
 aFrag
@@ -5671,7 +5671,7 @@ GetLength
 )
 )
 {
-PRUnichar
+char16_t
 l
 =
 aFrag
@@ -5714,7 +5714,7 @@ nsContentUtils
 :
 IsHTMLWhitespace
 (
-PRUnichar
+char16_t
 aChar
 )
 {
@@ -5722,7 +5722,7 @@ return
 aChar
 =
 =
-PRUnichar
+char16_t
 (
 0x0009
 )
@@ -5731,7 +5731,7 @@ PRUnichar
 aChar
 =
 =
-PRUnichar
+char16_t
 (
 0x000A
 )
@@ -5740,7 +5740,7 @@ PRUnichar
 aChar
 =
 =
-PRUnichar
+char16_t
 (
 0x000C
 )
@@ -5749,7 +5749,7 @@ PRUnichar
 aChar
 =
 =
-PRUnichar
+char16_t
 (
 0x000D
 )
@@ -5758,7 +5758,7 @@ PRUnichar
 aChar
 =
 =
-PRUnichar
+char16_t
 (
 0x0020
 )
@@ -5770,7 +5770,7 @@ nsContentUtils
 :
 IsHTMLWhitespaceOrNBSP
 (
-PRUnichar
+char16_t
 aChar
 )
 {
@@ -5784,7 +5784,7 @@ aChar
 aChar
 =
 =
-PRUnichar
+char16_t
 (
 0xA0
 )
@@ -6690,7 +6690,7 @@ if
 iter
 =
 =
-PRUnichar
+char16_t
 (
 '
 -
@@ -6718,7 +6718,7 @@ if
 iter
 =
 =
-PRUnichar
+char16_t
 (
 '
 +
@@ -6740,7 +6740,7 @@ if
 *
 iter
 <
-PRUnichar
+char16_t
 (
 '
 0
@@ -6751,7 +6751,7 @@ PRUnichar
 *
 iter
 >
-PRUnichar
+char16_t
 (
 '
 9
@@ -6780,7 +6780,7 @@ end
 iter
 >
 =
-PRUnichar
+char16_t
 (
 '
 0
@@ -6792,7 +6792,7 @@ PRUnichar
 iter
 <
 =
-PRUnichar
+char16_t
 (
 '
 9
@@ -6810,7 +6810,7 @@ value
 *
 iter
 -
-PRUnichar
+char16_t
 (
 '
 0
@@ -9930,11 +9930,11 @@ char
 *
 aSet
 const
-PRUnichar
+char16_t
 aChar
 )
 {
-PRUnichar
+char16_t
 ch
 ;
 while
@@ -9952,7 +9952,7 @@ if
 aChar
 =
 =
-PRUnichar
+char16_t
 (
 ch
 )
@@ -10087,7 +10087,7 @@ template
 bool
 IsWhitespace
 (
-PRUnichar
+char16_t
 )
 >
 const
@@ -11055,7 +11055,7 @@ aQualifiedName
 bool
 aNamespaceAware
 const
-PRUnichar
+char16_t
 *
 *
 aColon
@@ -11069,7 +11069,7 @@ colon
 nullptr
 ;
 const
-PRUnichar
+char16_t
 *
 begin
 =
@@ -11080,7 +11080,7 @@ BeginReading
 )
 ;
 const
-PRUnichar
+char16_t
 *
 end
 =
@@ -11135,7 +11135,7 @@ aColon
 reinterpret_cast
 <
 const
-PRUnichar
+char16_t
 *
 >
 (
@@ -11203,7 +11203,7 @@ aLocalName
 )
 {
 const
-PRUnichar
+char16_t
 *
 colon
 ;
@@ -11233,7 +11233,7 @@ colon
 )
 {
 const
-PRUnichar
+char16_t
 *
 end
 ;
@@ -11381,7 +11381,7 @@ aQualifiedName
 )
 ;
 const
-PRUnichar
+char16_t
 *
 colon
 ;
@@ -11423,7 +11423,7 @@ colon
 )
 {
 const
-PRUnichar
+char16_t
 *
 end
 ;
@@ -11544,7 +11544,7 @@ nsContentUtils
 SplitExpatName
 (
 const
-PRUnichar
+char16_t
 *
 aExpatName
 nsIAtom
@@ -11561,21 +11561,21 @@ aNameSpaceID
 )
 {
 const
-PRUnichar
+char16_t
 *
 uriEnd
 =
 nullptr
 ;
 const
-PRUnichar
+char16_t
 *
 nameEnd
 =
 nullptr
 ;
 const
-PRUnichar
+char16_t
 *
 pos
 ;
@@ -11622,7 +11622,7 @@ pos
 }
 }
 const
-PRUnichar
+char16_t
 *
 nameStart
 ;
@@ -11673,7 +11673,7 @@ nameEnd
 )
 {
 const
-PRUnichar
+char16_t
 *
 prefixStart
 =
@@ -13716,7 +13716,7 @@ char
 *
 aKey
 const
-PRUnichar
+char16_t
 *
 *
 aParams
@@ -13879,7 +13879,7 @@ char
 *
 aMessageName
 const
-PRUnichar
+char16_t
 *
 *
 aParams
@@ -14694,7 +14694,7 @@ aType
 )
 {
 const
-PRUnichar
+char16_t
 *
 name
 =
@@ -17567,7 +17567,7 @@ tagName
 .
 Append
 (
-PRUnichar
+char16_t
 (
 '
 :
@@ -20233,7 +20233,7 @@ GetLocalizedEllipsis
 )
 {
 static
-PRUnichar
+char16_t
 sBuf
 [
 4
@@ -20318,7 +20318,7 @@ sBuf
 0
 ]
 =
-PRUnichar
+char16_t
 (
 0x2026
 )
@@ -20431,7 +20431,7 @@ aChar2
 &
 ToLowerCase
 (
-PRUnichar
+char16_t
 (
 aChar1
 )
@@ -20440,7 +20440,7 @@ aChar1
 =
 ToLowerCase
 (
-PRUnichar
+char16_t
 (
 aChar2
 )
@@ -20465,7 +20465,7 @@ aChar
 &
 ToLowerCase
 (
-PRUnichar
+char16_t
 (
 aChar
 )
@@ -20474,7 +20474,7 @@ aChar
 =
 ToUpperCase
 (
-PRUnichar
+char16_t
 (
 aChar
 )
@@ -20970,7 +20970,7 @@ ch
 =
 ToLowerCase
 (
-PRUnichar
+char16_t
 (
 ch
 )
@@ -21077,7 +21077,7 @@ j
 =
 ToLowerCase
 (
-PRUnichar
+char16_t
 (
 ch
 [
@@ -23299,7 +23299,7 @@ nsAString
 aStr
 )
 {
-PRUnichar
+char16_t
 *
 iter
 =
@@ -23309,7 +23309,7 @@ BeginWriting
 (
 )
 ;
-PRUnichar
+char16_t
 *
 end
 =
@@ -23344,7 +23344,7 @@ iter
 end
 )
 {
-PRUnichar
+char16_t
 c
 =
 *
@@ -23436,7 +23436,7 @@ Length
 len
 )
 {
-PRUnichar
+char16_t
 *
 dest
 =
@@ -23460,7 +23460,7 @@ NS_ERROR_OUT_OF_MEMORY
 ;
 }
 const
-PRUnichar
+char16_t
 *
 iter
 =
@@ -23471,7 +23471,7 @@ BeginReading
 )
 ;
 const
-PRUnichar
+char16_t
 *
 end
 =
@@ -23489,7 +23489,7 @@ iter
 end
 )
 {
-PRUnichar
+char16_t
 c
 =
 *
@@ -23557,7 +23557,7 @@ nsAString
 aStr
 )
 {
-PRUnichar
+char16_t
 *
 iter
 =
@@ -23567,7 +23567,7 @@ BeginWriting
 (
 )
 ;
-PRUnichar
+char16_t
 *
 end
 =
@@ -23602,7 +23602,7 @@ iter
 end
 )
 {
-PRUnichar
+char16_t
 c
 =
 *
@@ -23694,7 +23694,7 @@ Length
 len
 )
 {
-PRUnichar
+char16_t
 *
 dest
 =
@@ -23718,7 +23718,7 @@ NS_ERROR_OUT_OF_MEMORY
 ;
 }
 const
-PRUnichar
+char16_t
 *
 iter
 =
@@ -23729,7 +23729,7 @@ BeginReading
 )
 ;
 const
-PRUnichar
+char16_t
 *
 end
 =
@@ -23747,7 +23747,7 @@ iter
 end
 )
 {
-PRUnichar
+char16_t
 c
 =
 *
@@ -23846,7 +23846,7 @@ false
 ;
 }
 const
-PRUnichar
+char16_t
 *
 str1
 =
@@ -23857,7 +23857,7 @@ BeginReading
 )
 ;
 const
-PRUnichar
+char16_t
 *
 str2
 =
@@ -23868,7 +23868,7 @@ BeginReading
 )
 ;
 const
-PRUnichar
+char16_t
 *
 end
 =
@@ -23883,7 +23883,7 @@ str1
 end
 )
 {
-PRUnichar
+char16_t
 c1
 =
 *
@@ -23891,7 +23891,7 @@ str1
 +
 +
 ;
-PRUnichar
+char16_t
 c2
 =
 *
@@ -23922,7 +23922,7 @@ c1
 c2
 )
 {
-PRUnichar
+char16_t
 c1Upper
 =
 c1
@@ -23973,7 +23973,7 @@ aStr
 )
 {
 const
-PRUnichar
+char16_t
 *
 iter
 =
@@ -23984,7 +23984,7 @@ BeginReading
 )
 ;
 const
-PRUnichar
+char16_t
 *
 end
 =
@@ -24002,7 +24002,7 @@ iter
 end
 )
 {
-PRUnichar
+char16_t
 c
 =
 *
@@ -26718,7 +26718,7 @@ aString
 .
 FindChar
 (
-PRUnichar
+char16_t
 (
 '
 \
@@ -26811,7 +26811,7 @@ NS_strlen
 (
 static_cast
 <
-PRUnichar
+char16_t
 *
 >
 (
@@ -26837,7 +26837,7 @@ StorageSize
 /
 sizeof
 (
-PRUnichar
+char16_t
 )
 )
 -

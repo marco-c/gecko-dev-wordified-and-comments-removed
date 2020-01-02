@@ -3601,7 +3601,7 @@ nameLen
 )
 =
 =
-PRUnichar
+char16_t
 (
 '
 .
@@ -3895,7 +3895,7 @@ bool
 GetLocalizedString
 (
 const
-PRUnichar
+char16_t
 *
 aName
 nsXPIDLString
@@ -5233,13 +5233,13 @@ plainTextData
 =
 nullptr
 ;
-PRUnichar
+char16_t
 *
 castedUnicode
 =
 reinterpret_cast
 <
-PRUnichar
+char16_t
 *
 >
 (
@@ -5335,7 +5335,7 @@ converter
 (
 reinterpret_cast
 <
-PRUnichar
+char16_t
 *
 >
 (
@@ -5427,7 +5427,7 @@ allocLen
 =
 sizeof
 (
-PRUnichar
+char16_t
 )
 ;
 }
@@ -5779,7 +5779,7 @@ hGlobalMemory
 =
 nullptr
 ;
-PRUnichar
+char16_t
 *
 dest
 ;
@@ -5797,7 +5797,7 @@ allocLen
 *
 sizeof
 (
-PRUnichar
+char16_t
 )
 )
 ;
@@ -5867,7 +5867,7 @@ TRUE
 dest
 =
 (
-PRUnichar
+char16_t
 *
 )
 (
@@ -5901,7 +5901,7 @@ allocLen
 *
 sizeof
 (
-PRUnichar
+char16_t
 )
 )
 ;
@@ -6487,7 +6487,7 @@ allocLen
 *
 sizeof
 (
-PRUnichar
+char16_t
 )
 )
 ;
@@ -6554,12 +6554,12 @@ fWide
 =
 TRUE
 ;
-PRUnichar
+char16_t
 *
 dest
 =
 (
-PRUnichar
+char16_t
 *
 )
 (
@@ -6593,7 +6593,7 @@ allocLen
 *
 sizeof
 (
-PRUnichar
+char16_t
 )
 )
 ;
@@ -6968,7 +6968,7 @@ allocLen
 *
 sizeof
 (
-PRUnichar
+char16_t
 )
 )
 ;
@@ -7035,12 +7035,12 @@ fWide
 =
 TRUE
 ;
-PRUnichar
+char16_t
 *
 dest
 =
 (
-PRUnichar
+char16_t
 *
 )
 (
@@ -7074,7 +7074,7 @@ allocLen
 *
 sizeof
 (
-PRUnichar
+char16_t
 )
 )
 ;
@@ -8428,7 +8428,7 @@ Length
 *
 sizeof
 (
-PRUnichar
+char16_t
 )
 ;
 HGLOBAL

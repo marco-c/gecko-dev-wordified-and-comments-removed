@@ -560,7 +560,7 @@ return
 ;
 }
 const
-PRUnichar
+char16_t
 *
 status
 ;

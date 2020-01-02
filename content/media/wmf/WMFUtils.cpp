@@ -813,7 +813,7 @@ NS_ConvertUTF16toUTF8
 nsDependentString
 (
 (
-PRUnichar
+char16_t
 *
 )
 (

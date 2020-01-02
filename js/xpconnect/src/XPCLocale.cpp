@@ -876,12 +876,12 @@ unicharLength
 =
 srcLength
 ;
-PRUnichar
+char16_t
 *
 unichars
 =
 (
-PRUnichar
+char16_t
 *
 )
 JS_malloc
@@ -895,7 +895,7 @@ srcLength
 *
 sizeof
 (
-PRUnichar
+char16_t
 )
 )
 ;
@@ -945,12 +945,12 @@ srcLength
 1
 )
 {
-PRUnichar
+char16_t
 *
 shrunkUnichars
 =
 (
-PRUnichar
+char16_t
 *
 )
 JS_realloc
@@ -965,7 +965,7 @@ unicharLength
 *
 sizeof
 (
-PRUnichar
+char16_t
 )
 )
 ;

@@ -11,7 +11,7 @@ TestGoodSurrogatePair
 )
 {
 const
-PRUnichar
+char16_t
 goodPairData
 [
 ]
@@ -209,7 +209,7 @@ TestBackwardsSurrogatePair
 )
 {
 const
-PRUnichar
+char16_t
 backwardsPairData
 [
 ]
@@ -411,7 +411,7 @@ TestMalformedUTF16OrphanHighSurrogate
 )
 {
 const
-PRUnichar
+char16_t
 highSurrogateData
 [
 ]
@@ -613,7 +613,7 @@ TestMalformedUTF16OrphanLowSurrogate
 )
 {
 const
-PRUnichar
+char16_t
 lowSurrogateData
 [
 ]

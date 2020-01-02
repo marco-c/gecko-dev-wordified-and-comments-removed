@@ -350,7 +350,7 @@ Directionality
 GetDirectionFromText
 (
 const
-PRUnichar
+char16_t
 *
 aText
 const
@@ -364,14 +364,14 @@ nullptr
 )
 {
 const
-PRUnichar
+char16_t
 *
 start
 =
 aText
 ;
 const
-PRUnichar
+char16_t
 *
 end
 =
@@ -2709,7 +2709,7 @@ aTextNode
 uint32_t
 aOffset
 const
-PRUnichar
+char16_t
 *
 aBuffer
 uint32_t

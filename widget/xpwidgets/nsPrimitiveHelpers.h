@@ -69,7 +69,7 @@ static
 nsresult
 ConvertUnicodeToPlatformPlainText
 (
-PRUnichar
+char16_t
 *
 inUnicode
 int32_t
@@ -93,7 +93,7 @@ char
 inText
 int32_t
 inTextLen
-PRUnichar
+char16_t
 *
 *
 outUnicode

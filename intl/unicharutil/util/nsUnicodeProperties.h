@@ -428,7 +428,7 @@ public
 ClusterIterator
 (
 const
-PRUnichar
+char16_t
 *
 aText
 uint32_t
@@ -458,7 +458,7 @@ endif
 }
 operator
 const
-PRUnichar
+char16_t
 *
 (
 )
@@ -489,12 +489,12 @@ Next
 private
 :
 const
-PRUnichar
+char16_t
 *
 mPos
 ;
 const
-PRUnichar
+char16_t
 *
 mLimit
 ;
@@ -502,7 +502,7 @@ mLimit
 ifdef
 DEBUG
 const
-PRUnichar
+char16_t
 *
 mText
 ;

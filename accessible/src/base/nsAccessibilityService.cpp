@@ -757,7 +757,7 @@ char
 *
 aTopic
 const
-PRUnichar
+char16_t
 *
 aData
 )
@@ -5654,7 +5654,7 @@ false
 ;
 static
 const
-PRUnichar
+char16_t
 kInitIndicator
 [
 ]
@@ -5811,7 +5811,7 @@ NS_XPCOM_SHUTDOWN_OBSERVER_ID
 ;
 static
 const
-PRUnichar
+char16_t
 kShutdownIndicator
 [
 ]

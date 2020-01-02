@@ -1142,7 +1142,7 @@ mTotalRows
 ;
 nsTArray
 <
-PRUnichar
+char16_t
 *
 >
 mCurrentFilters
@@ -2054,7 +2054,7 @@ iter
 +
 iter
 ;
-PRUnichar
+char16_t
 *
 filter
 =
@@ -2911,7 +2911,7 @@ NS_OK
 ;
 }
 const
-PRUnichar
+char16_t
 *
 colID
 ;
@@ -3220,7 +3220,7 @@ nsFileView
 PerformAction
 (
 const
-PRUnichar
+char16_t
 *
 aAction
 )
@@ -3236,7 +3236,7 @@ nsFileView
 PerformActionOnRow
 (
 const
-PRUnichar
+char16_t
 *
 aAction
 int32_t
@@ -3254,7 +3254,7 @@ nsFileView
 PerformActionOnCell
 (
 const
-PRUnichar
+char16_t
 *
 aAction
 int32_t

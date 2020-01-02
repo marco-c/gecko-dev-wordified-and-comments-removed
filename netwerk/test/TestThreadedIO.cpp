@@ -565,7 +565,7 @@ aContext
 nsresult
 aStatus
 const
-PRUnichar
+char16_t
 *
 aMsg
 )

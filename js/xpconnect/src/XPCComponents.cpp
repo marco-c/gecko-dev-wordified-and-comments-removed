@@ -349,7 +349,7 @@ xpc
 CheckAccessList
 (
 const
-PRUnichar
+char16_t
 *
 wideName
 const
@@ -1401,7 +1401,7 @@ nsIID
 *
 iid
 const
-PRUnichar
+char16_t
 *
 methodName
 char
@@ -1430,7 +1430,7 @@ nsIID
 *
 iid
 const
-PRUnichar
+char16_t
 *
 propertyName
 char
@@ -1459,7 +1459,7 @@ nsIID
 *
 iid
 const
-PRUnichar
+char16_t
 *
 propertyName
 char
@@ -2494,7 +2494,7 @@ nsIID
 *
 iid
 const
-PRUnichar
+char16_t
 *
 methodName
 char
@@ -2523,7 +2523,7 @@ nsIID
 *
 iid
 const
-PRUnichar
+char16_t
 *
 propertyName
 char
@@ -2552,7 +2552,7 @@ nsIID
 *
 iid
 const
-PRUnichar
+char16_t
 *
 propertyName
 char
@@ -10457,14 +10457,14 @@ err
 uclinebuf
 ;
 const
-PRUnichar
+char16_t
 *
 ucmessage
 =
 static_cast
 <
 const
-PRUnichar
+char16_t
 *
 >
 (
@@ -10475,14 +10475,14 @@ ucmessage
 )
 ;
 const
-PRUnichar
+char16_t
 *
 uclinebuf
 =
 static_cast
 <
 const
-PRUnichar
+char16_t
 *
 >
 (
@@ -10668,7 +10668,7 @@ nsDependentString
 static_cast
 <
 const
-PRUnichar
+char16_t
 *
 >
 (
@@ -13666,7 +13666,7 @@ nsIID
 *
 iid
 const
-PRUnichar
+char16_t
 *
 methodName
 char
@@ -13715,7 +13715,7 @@ nsIID
 *
 iid
 const
-PRUnichar
+char16_t
 *
 propertyName
 char
@@ -13744,7 +13744,7 @@ nsIID
 *
 iid
 const
-PRUnichar
+char16_t
 *
 propertyName
 char
@@ -16351,7 +16351,7 @@ nsIID
 *
 iid
 const
-PRUnichar
+char16_t
 *
 methodName
 char
@@ -16400,7 +16400,7 @@ nsIID
 *
 iid
 const
-PRUnichar
+char16_t
 *
 propertyName
 char
@@ -16455,7 +16455,7 @@ nsIID
 *
 iid
 const
-PRUnichar
+char16_t
 *
 propertyName
 char

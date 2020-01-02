@@ -6741,7 +6741,7 @@ szClass
 /
 sizeof
 (
-PRUnichar
+char16_t
 )
 )
 &
@@ -9100,7 +9100,7 @@ className
 /
 sizeof
 (
-PRUnichar
+char16_t
 )
 )
 )

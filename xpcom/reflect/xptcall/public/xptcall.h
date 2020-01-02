@@ -82,7 +82,7 @@ b
 char
 c
 ;
-PRUnichar
+char16_t
 wc
 ;
 void

@@ -497,7 +497,7 @@ nsCRT
 :
 IsAsciiSpace
 (
-PRUnichar
+char16_t
 (
 *
 pos
@@ -548,7 +548,7 @@ nsCRT
 :
 IsAsciiSpace
 (
-PRUnichar
+char16_t
 (
 *
 pos
@@ -617,7 +617,7 @@ nsCRT
 :
 IsAsciiSpace
 (
-PRUnichar
+char16_t
 (
 *
 aFormatStr
@@ -658,7 +658,7 @@ nsCRT
 :
 IsAsciiSpace
 (
-PRUnichar
+char16_t
 (
 aFormatStr
 [
@@ -1024,7 +1024,7 @@ if
 gTextToSubURI
 )
 {
-PRUnichar
+char16_t
 *
 result
 =
@@ -1577,7 +1577,7 @@ mBuf
 .
 SetCharAt
 (
-PRUnichar
+char16_t
 (
 '
 \

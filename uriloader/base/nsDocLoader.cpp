@@ -3843,7 +3843,7 @@ ctxt
 nsresult
 aStatus
 const
-PRUnichar
+char16_t
 *
 aStatusArg
 )
@@ -4934,7 +4934,7 @@ aRequest
 nsresult
 aStatus
 const
-PRUnichar
+char16_t
 *
 aMessage
 )

@@ -101,12 +101,12 @@ char
 string
 )
 ;
-PRUnichar
+char16_t
 *
 nsEscapeHTML2
 (
 const
-PRUnichar
+char16_t
 *
 aSourceBuffer
 int32_t

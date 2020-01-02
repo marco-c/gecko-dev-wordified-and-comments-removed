@@ -309,7 +309,7 @@ nsresult
 GetMostRecentWindow
 (
 const
-PRUnichar
+char16_t
 *
 aType
 nsIDOMWindow
@@ -441,7 +441,7 @@ Mutex
 Mutex
 (
 const
-PRUnichar
+char16_t
 *
 name
 )
@@ -940,7 +940,7 @@ bool
 mCanHandleRequests
 ;
 static
-PRUnichar
+char16_t
 mMutexName
 [
 ]
@@ -1548,7 +1548,7 @@ mCanHandleRequests
 =
 false
 ;
-PRUnichar
+char16_t
 nsNativeAppSupportWin
 :
 :
@@ -2195,7 +2195,7 @@ mMutexName
 /
 sizeof
 (
-PRUnichar
+char16_t
 )
 L
 "
@@ -2614,7 +2614,7 @@ char
 *
 aTopic
 const
-PRUnichar
+char16_t
 *
 aData
 )
@@ -3146,7 +3146,7 @@ aString
 .
 Insert
 (
-PRUnichar
+char16_t
 (
 '
 \

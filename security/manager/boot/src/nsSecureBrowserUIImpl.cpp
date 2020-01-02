@@ -1383,7 +1383,7 @@ const
 char
 *
 const
-PRUnichar
+char16_t
 *
 )
 {
@@ -5446,7 +5446,7 @@ aRequest
 nsresult
 aStatus
 const
-PRUnichar
+char16_t
 *
 aMessage
 )

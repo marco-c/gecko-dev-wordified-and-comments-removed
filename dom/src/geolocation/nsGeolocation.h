@@ -268,7 +268,7 @@ void
 HandleMozsettingChanged
 (
 const
-PRUnichar
+char16_t
 *
 aData
 )

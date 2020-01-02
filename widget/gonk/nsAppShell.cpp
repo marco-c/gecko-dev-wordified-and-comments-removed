@@ -1025,7 +1025,7 @@ mDOMKeyCode
 KeyNameIndex
 mDOMKeyNameIndex
 ;
-PRUnichar
+char16_t
 mDOMPrintableKeyValue
 ;
 bool
@@ -1070,7 +1070,7 @@ CharCode
 )
 const
 ;
-PRUnichar
+char16_t
 PrintableKeyValue
 (
 )
@@ -1223,7 +1223,7 @@ ch
 0
 ;
 }
-PRUnichar
+char16_t
 KeyEventDispatcher
 :
 :
@@ -1282,7 +1282,7 @@ ch
 return
 static_cast
 <
-PRUnichar
+char16_t
 >
 (
 ch
@@ -1357,7 +1357,7 @@ ch
 ?
 static_cast
 <
-PRUnichar
+char16_t
 >
 (
 ch
@@ -3895,7 +3895,7 @@ char
 *
 aTopic
 const
-PRUnichar
+char16_t
 *
 aData
 )

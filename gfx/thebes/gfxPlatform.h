@@ -984,7 +984,7 @@ gfxTextRun
 *
 aTextRun
 const
-PRUnichar
+char16_t
 *
 aString
 )

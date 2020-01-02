@@ -667,7 +667,7 @@ data
 )
 ;
 const
-PRUnichar
+char16_t
 *
 start
 =
@@ -678,7 +678,7 @@ BeginReading
 )
 ;
 const
-PRUnichar
+char16_t
 *
 end
 =
@@ -689,7 +689,7 @@ EndReading
 )
 ;
 const
-PRUnichar
+char16_t
 *
 cur
 =
@@ -708,7 +708,7 @@ cur
 )
 {
 const
-PRUnichar
+char16_t
 *
 next
 =
@@ -718,7 +718,7 @@ cur
 ;
 if
 (
-PRUnichar
+char16_t
 (
 '
 -
@@ -735,7 +735,7 @@ next
 end
 &
 &
-PRUnichar
+char16_t
 (
 '
 a
@@ -751,7 +751,7 @@ next
 next
 <
 =
-PRUnichar
+char16_t
 (
 '
 z
@@ -765,7 +765,7 @@ false
 }
 if
 (
-PRUnichar
+char16_t
 (
 '
 A
@@ -781,7 +781,7 @@ cur
 cur
 <
 =
-PRUnichar
+char16_t
 (
 '
 Z
@@ -803,7 +803,7 @@ aResult
 .
 Append
 (
-PRUnichar
+char16_t
 (
 '
 -
@@ -883,7 +883,7 @@ false
 ;
 }
 const
-PRUnichar
+char16_t
 *
 cur
 =
@@ -896,7 +896,7 @@ BeginReading
 5
 ;
 const
-PRUnichar
+char16_t
 *
 end
 =
@@ -919,7 +919,7 @@ cur
 )
 {
 const
-PRUnichar
+char16_t
 *
 next
 =
@@ -929,7 +929,7 @@ cur
 ;
 if
 (
-PRUnichar
+char16_t
 (
 '
 -
@@ -946,7 +946,7 @@ next
 end
 &
 &
-PRUnichar
+char16_t
 (
 '
 a
@@ -962,7 +962,7 @@ next
 next
 <
 =
-PRUnichar
+char16_t
 (
 '
 z

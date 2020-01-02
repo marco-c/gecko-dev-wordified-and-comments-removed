@@ -1317,7 +1317,7 @@ end
 uint32_t
 c
 ;
-PRUnichar
+char16_t
 curChar
 ;
 curChar
@@ -2132,7 +2132,7 @@ aToStr
 Append
 (
 (
-PRUnichar
+char16_t
 )
 H_SURROGATE
 (
@@ -2151,7 +2151,7 @@ aToStr
 Append
 (
 (
-PRUnichar
+char16_t
 )
 L_SURROGATE
 (
@@ -2173,7 +2173,7 @@ aToStr
 Append
 (
 (
-PRUnichar
+char16_t
 )
 (
 wb

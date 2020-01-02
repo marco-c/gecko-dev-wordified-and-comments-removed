@@ -178,7 +178,7 @@ void
 unicodeToItem
 (
 const
-PRUnichar
+char16_t
 *
 SECItem
 *

@@ -323,7 +323,7 @@ unsigned
 long
 aBufferSize
 in
-PRUnichar
+char16_t
 aReplacementCharacter
 )
 ;

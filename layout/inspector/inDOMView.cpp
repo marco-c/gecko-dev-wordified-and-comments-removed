@@ -2291,7 +2291,7 @@ inDOMView
 PerformAction
 (
 const
-PRUnichar
+char16_t
 *
 action
 )
@@ -2307,7 +2307,7 @@ inDOMView
 PerformActionOnRow
 (
 const
-PRUnichar
+char16_t
 *
 action
 int32_t
@@ -2325,7 +2325,7 @@ inDOMView
 PerformActionOnCell
 (
 const
-PRUnichar
+char16_t
 *
 action
 int32_t

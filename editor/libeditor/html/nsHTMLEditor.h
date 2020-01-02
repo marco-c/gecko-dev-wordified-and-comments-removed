@@ -2167,11 +2167,11 @@ ParseCFHTML
 nsCString
 &
 aCfhtml
-PRUnichar
+char16_t
 *
 *
 aStuffToPaste
-PRUnichar
+char16_t
 *
 *
 aCfcontext

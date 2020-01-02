@@ -9090,7 +9090,7 @@ i
 ]
 =
 =
-PRUnichar
+char16_t
 (
 '
 "
@@ -9101,7 +9101,7 @@ value
 .
 Insert
 (
-PRUnichar
+char16_t
 (
 '
 \

@@ -630,7 +630,7 @@ nsContentTreeOwner
 FindItemWithName
 (
 const
-PRUnichar
+char16_t
 *
 aName
 nsIDocShellTreeItem
@@ -2096,7 +2096,7 @@ SetStatus
 uint32_t
 aStatusType
 const
-PRUnichar
+char16_t
 *
 aStatus
 )
@@ -2992,7 +2992,7 @@ nsContentTreeOwner
 :
 GetTitle
 (
-PRUnichar
+char16_t
 *
 *
 aTitle
@@ -3025,7 +3025,7 @@ nsContentTreeOwner
 SetTitle
 (
 const
-PRUnichar
+char16_t
 *
 aTitle
 )
@@ -4813,7 +4813,7 @@ nsSiteWindow
 :
 GetTitle
 (
-PRUnichar
+char16_t
 *
 *
 aTitle
@@ -4836,7 +4836,7 @@ nsSiteWindow
 SetTitle
 (
 const
-PRUnichar
+char16_t
 *
 aTitle
 )

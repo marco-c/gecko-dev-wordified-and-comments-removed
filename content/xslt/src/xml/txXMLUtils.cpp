@@ -82,7 +82,7 @@ aQName
 )
 ;
 const
-PRUnichar
+char16_t
 *
 colon
 ;
@@ -159,7 +159,7 @@ mNamespaceID
 namespaceID
 ;
 const
-PRUnichar
+char16_t
 *
 end
 ;
@@ -219,7 +219,7 @@ XMLUtils
 splitExpatName
 (
 const
-PRUnichar
+char16_t
 *
 aExpatName
 nsIAtom
@@ -236,21 +236,21 @@ aNameSpaceID
 )
 {
 const
-PRUnichar
+char16_t
 *
 uriEnd
 =
 nullptr
 ;
 const
-PRUnichar
+char16_t
 *
 nameEnd
 =
 nullptr
 ;
 const
-PRUnichar
+char16_t
 *
 pos
 ;
@@ -297,7 +297,7 @@ pos
 }
 }
 const
-PRUnichar
+char16_t
 *
 nameStart
 ;
@@ -348,7 +348,7 @@ nameEnd
 )
 {
 const
-PRUnichar
+char16_t
 *
 prefixStart
 =
@@ -474,7 +474,7 @@ aName
 )
 ;
 const
-PRUnichar
+char16_t
 *
 colon
 ;
@@ -507,7 +507,7 @@ colon
 )
 {
 const
-PRUnichar
+char16_t
 *
 end
 ;
@@ -677,7 +677,7 @@ conversionLoop
 =
 0
 ;
-PRUnichar
+char16_t
 prevCh
 =
 0
@@ -695,7 +695,7 @@ conversionLoop
 origLength
 )
 {
-PRUnichar
+char16_t
 ch
 =
 origValue
@@ -730,7 +730,7 @@ piValue
 .
 Append
 (
-PRUnichar
+char16_t
 (
 '
 '
@@ -776,7 +776,7 @@ nsAFlatString
 &
 aQName
 const
-PRUnichar
+char16_t
 *
 *
 aColon

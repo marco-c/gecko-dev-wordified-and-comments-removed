@@ -35,12 +35,12 @@ dom
 {
 static
 const
-PRUnichar
+char16_t
 kReplacementChar
 =
 static_cast
 <
-PRUnichar
+char16_t
 >
 (
 0xFFFD
@@ -250,7 +250,7 @@ fallible_t
 ;
 nsAutoArrayPtr
 <
-PRUnichar
+char16_t
 >
 buf
 (
@@ -258,7 +258,7 @@ new
 (
 fallible
 )
-PRUnichar
+char16_t
 [
 outLen
 +

@@ -707,7 +707,7 @@ char
 *
 aMessage
 const
-PRUnichar
+char16_t
 *
 aData
 )

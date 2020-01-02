@@ -16,7 +16,7 @@ mozilla
 {
 template
 <
-PRUnichar
+char16_t
 delimiter
 >
 class

@@ -927,7 +927,7 @@ FreeGlobalPrinters
 ;
 }
 static
-PRUnichar
+char16_t
 *
 GetDefaultPrinterNameFromGlobalPrinters
 (
@@ -1423,7 +1423,7 @@ rv
 rv
 )
 ;
-PRUnichar
+char16_t
 *
 fileName
 ;
@@ -1723,11 +1723,11 @@ nsIPrintSettings
 *
 aPS
 const
-PRUnichar
+char16_t
 *
 aPrinterName
 const
-PRUnichar
+char16_t
 *
 aUPrinterName
 )
@@ -1885,11 +1885,11 @@ if
 psWin
 )
 {
-PRUnichar
+char16_t
 *
 deviceName
 ;
-PRUnichar
+char16_t
 *
 driverName
 ;
@@ -2147,7 +2147,7 @@ n
 )
 ;
 }
-PRUnichar
+char16_t
 *
 printerName
 =
@@ -4051,7 +4051,7 @@ nsPrinterEnumeratorWin
 :
 GetDefaultPrinterName
 (
-PRUnichar
+char16_t
 *
 *
 aDefaultPrinterName
@@ -4080,7 +4080,7 @@ nsPrinterEnumeratorWin
 InitPrintSettingsFromPrinter
 (
 const
-PRUnichar
+char16_t
 *
 aPrinterName
 nsIPrintSettings
@@ -4393,7 +4393,7 @@ nsPrinterEnumeratorWin
 DisplayPropertiesDlg
 (
 const
-PRUnichar
+char16_t
 *
 aPrinterName
 nsIPrintSettings

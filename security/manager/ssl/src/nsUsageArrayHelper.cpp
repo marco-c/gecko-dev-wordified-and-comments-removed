@@ -213,7 +213,7 @@ flags
 uint32_t
 &
 aCounter
-PRUnichar
+char16_t
 *
 *
 outUsages
@@ -749,7 +749,7 @@ _verified
 uint32_t
 *
 _count
-PRUnichar
+char16_t
 *
 *
 outUsages

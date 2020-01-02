@@ -57,7 +57,7 @@ char
 *
 *
 next
-PRUnichar
+char16_t
 *
 result
 )
@@ -110,7 +110,7 @@ aTag
 const
 ;
 const
-PRUnichar
+char16_t
 *
 HTMLIdToStringTag
 (

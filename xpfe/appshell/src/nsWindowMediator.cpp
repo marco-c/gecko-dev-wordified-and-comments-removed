@@ -186,7 +186,7 @@ nsIXULWindow
 mWindow
 ;
 const
-PRUnichar
+char16_t
 *
 mTitle
 ;
@@ -845,7 +845,7 @@ nsWindowMediator
 GetEnumerator
 (
 const
-PRUnichar
+char16_t
 *
 inType
 nsISimpleEnumerator
@@ -915,7 +915,7 @@ nsWindowMediator
 GetXULWindowEnumerator
 (
 const
-PRUnichar
+char16_t
 *
 inType
 nsISimpleEnumerator
@@ -985,7 +985,7 @@ nsWindowMediator
 GetZOrderDOMWindowEnumerator
 (
 const
-PRUnichar
+char16_t
 *
 aWindowType
 bool
@@ -1063,7 +1063,7 @@ nsWindowMediator
 GetZOrderXULWindowEnumerator
 (
 const
-PRUnichar
+char16_t
 *
 aWindowType
 bool
@@ -1184,7 +1184,7 @@ nsWindowMediator
 GetMostRecentWindow
 (
 const
-PRUnichar
+char16_t
 *
 inType
 nsIDOMWindow
@@ -1289,7 +1289,7 @@ nsWindowMediator
 MostRecentWindowInfo
 (
 const
-PRUnichar
+char16_t
 *
 inType
 )
@@ -1588,7 +1588,7 @@ nsIXULWindow
 *
 inWindow
 const
-PRUnichar
+char16_t
 *
 inTitle
 )
@@ -3243,7 +3243,7 @@ char
 *
 aTopic
 const
-PRUnichar
+char16_t
 *
 aData
 )

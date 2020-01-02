@@ -142,7 +142,7 @@ aInput
 aLength
 )
 ;
-PRUnichar
+char16_t
 dst
 [
 aLength
@@ -207,7 +207,7 @@ dst
 j
 ]
 =
-PRUnichar
+char16_t
 (
 v
 )

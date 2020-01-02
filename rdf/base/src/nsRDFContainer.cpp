@@ -483,7 +483,7 @@ return
 rv
 ;
 const
-PRUnichar
+char16_t
 *
 s
 ;
@@ -2449,7 +2449,7 @@ return
 rv
 ;
 const
-PRUnichar
+char16_t
 *
 s
 ;
@@ -2483,7 +2483,7 @@ nextVal
 for
 (
 const
-PRUnichar
+char16_t
 *
 p
 =

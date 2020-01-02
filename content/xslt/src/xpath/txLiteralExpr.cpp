@@ -292,7 +292,7 @@ mValue
 )
 )
 ;
-PRUnichar
+char16_t
 ch
 =
 '

@@ -71,7 +71,7 @@ function
 "
 )
 const
-PRUnichar
+char16_t
 txFormatNumberFunctionCall
 :
 :
@@ -568,7 +568,7 @@ inQuote
 =
 false
 ;
-PRUnichar
+char16_t
 c
 =
 0
@@ -1412,7 +1412,7 @@ res
 SetCharAt
 (
 (
-PRUnichar
+char16_t
 )
 (
 digit
@@ -1592,7 +1592,7 @@ res
 SetCharAt
 (
 (
-PRUnichar
+char16_t
 )
 (
 digit
@@ -1642,7 +1642,7 @@ res
 Insert
 (
 (
-PRUnichar
+char16_t
 )
 (
 1

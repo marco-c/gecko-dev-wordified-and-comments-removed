@@ -531,7 +531,7 @@ nextValLiteral
 continue
 ;
 const
-PRUnichar
+char16_t
 *
 nextValStr
 ;

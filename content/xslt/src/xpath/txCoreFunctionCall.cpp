@@ -1517,7 +1517,7 @@ Length
 )
 )
 ;
-PRUnichar
+char16_t
 c
 ;
 uint32_t
@@ -1584,7 +1584,7 @@ mValue
 .
 Append
 (
-PRUnichar
+char16_t
 (
 '
 '

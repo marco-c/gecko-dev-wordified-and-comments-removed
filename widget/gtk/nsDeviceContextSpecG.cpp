@@ -305,7 +305,7 @@ aInx
 void
 GetDefaultPrinterName
 (
-PRUnichar
+char16_t
 *
 *
 aDefaultPrinterName
@@ -2498,7 +2498,7 @@ const
 nsAString
 &
 aTitle
-PRUnichar
+char16_t
 *
 aPrintToFileName
 int32_t
@@ -3289,7 +3289,7 @@ nsPrinterEnumeratorGTK
 :
 GetDefaultPrinterName
 (
-PRUnichar
+char16_t
 *
 *
 aDefaultPrinterName
@@ -3371,7 +3371,7 @@ nsPrinterEnumeratorGTK
 InitPrintSettingsFromPrinter
 (
 const
-PRUnichar
+char16_t
 *
 aPrinterName
 nsIPrintSettings
@@ -4563,7 +4563,7 @@ nsPrinterEnumeratorGTK
 DisplayPropertiesDlg
 (
 const
-PRUnichar
+char16_t
 *
 aPrinter
 nsIPrintSettings
@@ -4716,7 +4716,7 @@ GlobalPrinters
 :
 GetDefaultPrinterName
 (
-PRUnichar
+char16_t
 *
 *
 aDefaultPrinterName

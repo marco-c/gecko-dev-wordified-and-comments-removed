@@ -117,7 +117,7 @@ TABLE_SIZE
 36
 static
 const
-PRUnichar
+char16_t
 table
 [
 ]

@@ -230,7 +230,7 @@ nsIPrefBranch
 *
 prefBranch
 const
-PRUnichar
+char16_t
 *
 pref
 )

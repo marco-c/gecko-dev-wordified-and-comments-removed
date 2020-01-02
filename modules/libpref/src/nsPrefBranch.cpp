@@ -3355,7 +3355,7 @@ char
 *
 aTopic
 const
-PRUnichar
+char16_t
 *
 someData
 )
@@ -3632,7 +3632,7 @@ const
 char
 *
 aPrefName
-PRUnichar
+char16_t
 *
 *
 return_buf
@@ -3963,7 +3963,7 @@ nsPrefLocalizedString
 :
 GetData
 (
-PRUnichar
+char16_t
 *
 *
 _retval
@@ -4018,7 +4018,7 @@ nsPrefLocalizedString
 SetData
 (
 const
-PRUnichar
+char16_t
 *
 aData
 )
@@ -4055,7 +4055,7 @@ SetDataWithLength
 uint32_t
 aLength
 const
-PRUnichar
+char16_t
 *
 aData
 )

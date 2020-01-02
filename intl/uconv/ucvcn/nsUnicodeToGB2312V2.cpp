@@ -32,7 +32,7 @@ nsUnicodeToGB2312V2
 ConvertNoBuff
 (
 const
-PRUnichar
+char16_t
 *
 aSrc
 int32_t

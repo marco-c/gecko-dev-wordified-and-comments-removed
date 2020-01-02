@@ -451,7 +451,7 @@ static
 bool
 isXPathDigit
 (
-PRUnichar
+char16_t
 ch
 )
 {

@@ -616,7 +616,7 @@ void
 SetElementId
 (
 const
-PRUnichar
+char16_t
 *
 aElementId
 )
@@ -713,7 +713,7 @@ mGradient
 ;
 }
 const
-PRUnichar
+char16_t
 *
 GetElementId
 (
@@ -920,7 +920,7 @@ nsStyleGradient
 *
 mGradient
 ;
-PRUnichar
+char16_t
 *
 mElementId
 ;
@@ -8010,7 +8010,7 @@ mType
 ;
 union
 {
-PRUnichar
+char16_t
 *
 mString
 ;

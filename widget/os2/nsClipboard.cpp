@@ -1161,12 +1161,12 @@ OBJ_GIVEABLE
 NO_ERROR
 )
 {
-PRUnichar
+char16_t
 *
 uchtemp
 =
 (
-PRUnichar
+char16_t
 *
 )
 pMozData
@@ -1250,7 +1250,7 @@ WideCharToMultiByte
 0
 static_cast
 <
-PRUnichar
+char16_t
 *
 >
 (

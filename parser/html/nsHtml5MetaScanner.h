@@ -130,7 +130,7 @@ private
 static
 staticJArray
 <
-PRUnichar
+char16_t
 int32_t
 >
 CHARSET
@@ -138,7 +138,7 @@ CHARSET
 static
 staticJArray
 <
-PRUnichar
+char16_t
 int32_t
 >
 CONTENT
@@ -146,7 +146,7 @@ CONTENT
 static
 staticJArray
 <
-PRUnichar
+char16_t
 int32_t
 >
 HTTP_EQUIV
@@ -154,7 +154,7 @@ HTTP_EQUIV
 static
 staticJArray
 <
-PRUnichar
+char16_t
 int32_t
 >
 CONTENT_TYPE
@@ -194,7 +194,7 @@ strBufLen
 ;
 autoJArray
 <
-PRUnichar
+char16_t
 int32_t
 >
 strBuf

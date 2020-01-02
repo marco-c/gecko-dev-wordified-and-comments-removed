@@ -942,7 +942,7 @@ DROPFILES
 +
 sizeof
 (
-PRUnichar
+char16_t
 )
 ;
 uint32_t
@@ -950,7 +950,7 @@ alloclen
 =
 0
 ;
-PRUnichar
+char16_t
 *
 realbuffer
 ;
@@ -1034,12 +1034,12 @@ hr
 ;
 }
 }
-PRUnichar
+char16_t
 *
 buffer
 =
 (
-PRUnichar
+char16_t
 *
 )
 GlobalLock
@@ -1069,7 +1069,7 @@ DROPFILES
 /
 sizeof
 (
-PRUnichar
+char16_t
 )
 ;
 filename
@@ -1103,7 +1103,7 @@ Length
 *
 sizeof
 (
-PRUnichar
+char16_t
 )
 ;
 hGlobalMemory
@@ -1132,7 +1132,7 @@ E_FAIL
 realbuffer
 =
 (
-PRUnichar
+char16_t
 *
 )
 (
@@ -1565,7 +1565,7 @@ buffersize
 =
 sizeof
 (
-PRUnichar
+char16_t
 )
 ;
 nsAutoString
@@ -1640,12 +1640,12 @@ hr
 ;
 }
 }
-PRUnichar
+char16_t
 *
 buffer
 =
 (
-PRUnichar
+char16_t
 *
 )
 GlobalLock
@@ -1692,7 +1692,7 @@ Length
 *
 sizeof
 (
-PRUnichar
+char16_t
 )
 ;
 hGlobalMemory
@@ -1721,7 +1721,7 @@ E_FAIL
 buffer
 =
 (
-PRUnichar
+char16_t
 *
 )
 (

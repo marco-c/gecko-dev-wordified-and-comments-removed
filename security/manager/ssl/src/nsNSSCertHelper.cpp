@@ -2493,7 +2493,7 @@ return
 rv
 ;
 const
-PRUnichar
+char16_t
 *
 params
 [
@@ -2640,7 +2640,7 @@ len
 )
 ;
 const
-PRUnichar
+char16_t
 *
 params
 [
@@ -3766,7 +3766,7 @@ pathLenConstraint
 )
 ;
 const
-PRUnichar
+char16_t
 *
 params
 [
@@ -4115,7 +4115,7 @@ nsAutoString
 temp
 ;
 const
-PRUnichar
+char16_t
 *
 params
 [
@@ -4332,7 +4332,7 @@ name
 nsINSSComponent
 *
 nssComponent
-PRUnichar
+char16_t
 *
 *
 value
@@ -8820,7 +8820,7 @@ ProcessTime
 PRTime
 dispTime
 const
-PRUnichar
+char16_t
 *
 displayName
 nsIASN1Sequence
@@ -9259,7 +9259,7 @@ false
 )
 ;
 const
-PRUnichar
+char16_t
 *
 params
 [
@@ -9410,7 +9410,7 @@ i_pv
 ;
 }
 const
-PRUnichar
+char16_t
 *
 params
 [

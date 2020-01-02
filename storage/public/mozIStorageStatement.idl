@@ -1753,7 +1753,7 @@ str
 }
 inline
 const
-PRUnichar
+char16_t
 *
 AsSharedWString
 (
@@ -1765,7 +1765,7 @@ len
 )
 {
 const
-PRUnichar
+char16_t
 *
 str
 =

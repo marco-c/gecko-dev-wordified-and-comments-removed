@@ -304,7 +304,7 @@ gfxContext
 *
 aContext
 const
-PRUnichar
+char16_t
 *
 aText
 uint32_t
@@ -334,7 +334,7 @@ void
 AddRange
 (
 const
-PRUnichar
+char16_t
 *
 aText
 uint32_t

@@ -2627,7 +2627,7 @@ nsGeolocationService
 HandleMozsettingChanged
 (
 const
-PRUnichar
+char16_t
 *
 aData
 )
@@ -2927,7 +2927,7 @@ char
 *
 aTopic
 const
-PRUnichar
+char16_t
 *
 aData
 )

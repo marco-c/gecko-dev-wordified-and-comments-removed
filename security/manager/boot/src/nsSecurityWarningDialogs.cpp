@@ -255,11 +255,11 @@ char
 *
 prefName
 const
-PRUnichar
+char16_t
 *
 messageName
 const
-PRUnichar
+char16_t
 *
 showAgainName
 const
@@ -493,7 +493,7 @@ cont
 return
 NS_ERROR_FAILURE
 ;
-PRUnichar
+char16_t
 *
 msgchars
 =

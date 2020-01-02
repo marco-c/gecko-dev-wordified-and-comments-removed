@@ -297,7 +297,7 @@ define
 UTF_8_REPLACEMENT_CHAR
 static_cast
 <
-PRUnichar
+char16_t
 >
 (
 0xFFFD
@@ -360,11 +360,11 @@ char
 *
 aBundleURI
 const
-PRUnichar
+char16_t
 *
 aError
 const
-PRUnichar
+char16_t
 *
 *
 aFormatStrings
@@ -787,7 +787,7 @@ targetSpec
 )
 ;
 const
-PRUnichar
+char16_t
 *
 formatStrings
 [
@@ -3026,7 +3026,7 @@ i
 <
 static_cast
 <
-PRUnichar
+char16_t
 >
 (
 0x0021
@@ -3043,7 +3043,7 @@ i
 >
 static_cast
 <
-PRUnichar
+char16_t
 >
 (
 0x007E
@@ -4600,7 +4600,7 @@ i
 <
 static_cast
 <
-PRUnichar
+char16_t
 >
 (
 0x0021
@@ -4614,7 +4614,7 @@ i
 >
 static_cast
 <
-PRUnichar
+char16_t
 >
 (
 0x007E
@@ -5875,7 +5875,7 @@ char
 *
 aTopic
 const
-PRUnichar
+char16_t
 *
 aData
 )

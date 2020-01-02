@@ -21,10 +21,10 @@ unicode
 struct
 MultiCharMapping
 {
-PRUnichar
+char16_t
 mOriginalChar
 ;
-PRUnichar
+char16_t
 mMappedChars
 [
 3

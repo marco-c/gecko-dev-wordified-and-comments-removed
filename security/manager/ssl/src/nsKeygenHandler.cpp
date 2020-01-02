@@ -1580,7 +1580,7 @@ slotList
 =
 nullptr
 ;
-PRUnichar
+char16_t
 *
 *
 tokenNameList
@@ -1591,7 +1591,7 @@ nsITokenDialogs
 *
 dialogs
 ;
-PRUnichar
+char16_t
 *
 unicodeTokenChosen
 ;
@@ -1710,7 +1710,7 @@ tokenNameList
 =
 static_cast
 <
-PRUnichar
+char16_t
 *
 *
 >
@@ -1722,7 +1722,7 @@ Alloc
 (
 sizeof
 (
-PRUnichar
+char16_t
 *
 )
 *
@@ -1895,7 +1895,7 @@ ChooseToken
 m_ctx
 (
 const
-PRUnichar
+char16_t
 *
 *
 )

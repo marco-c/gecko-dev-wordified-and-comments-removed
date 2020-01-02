@@ -210,7 +210,7 @@ nsPrintPreviewListener
 *
 mPPEventListeners
 ;
-PRUnichar
+char16_t
 *
 mBrandName
 ;

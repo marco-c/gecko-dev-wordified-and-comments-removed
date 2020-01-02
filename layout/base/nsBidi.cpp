@@ -505,7 +505,7 @@ nsBidi
 SetPara
 (
 const
-PRUnichar
+char16_t
 *
 aText
 int32_t
@@ -1024,7 +1024,7 @@ nsBidi
 GetDirProps
 (
 const
-PRUnichar
+char16_t
 *
 aText
 )
@@ -1048,7 +1048,7 @@ flags
 =
 0
 ;
-PRUnichar
+char16_t
 uchar
 ;
 DirProp
@@ -6619,12 +6619,12 @@ nsBidi
 doWriteReverse
 (
 const
-PRUnichar
+char16_t
 *
 src
 int32_t
 srcLength
-PRUnichar
+char16_t
 *
 dest
 uint16_t
@@ -6806,7 +6806,7 @@ length
 =
 srcLength
 ;
-PRUnichar
+char16_t
 ch
 ;
 i
@@ -7003,12 +7003,12 @@ nsBidi
 WriteReverse
 (
 const
-PRUnichar
+char16_t
 *
 aSrc
 int32_t
 aSrcLength
-PRUnichar
+char16_t
 *
 aDest
 uint16_t

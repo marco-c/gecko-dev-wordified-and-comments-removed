@@ -176,7 +176,7 @@ CHARACTER
 *
 /
 const
-PRUnichar
+char16_t
 DEFAULT_REPLACEMENT_CHARACTER
 =
 0xFFFD
@@ -303,7 +303,7 @@ in
 long
 aBufferSize
 in
-PRUnichar
+char16_t
 aReplacementChar
 )
 ;

@@ -424,7 +424,7 @@ inWord
 )
 {
 const
-PRUnichar
+char16_t
 *
 begin
 =
@@ -536,7 +536,7 @@ Elements
 )
 ;
 const
-PRUnichar
+char16_t
 *
 cur
 =
@@ -545,7 +545,7 @@ begin
 wordStart
 ;
 const
-PRUnichar
+char16_t
 *
 end
 =

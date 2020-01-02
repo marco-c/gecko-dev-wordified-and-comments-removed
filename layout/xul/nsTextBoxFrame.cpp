@@ -2563,7 +2563,7 @@ kNotFound
 )
 {
 const
-PRUnichar
+char16_t
 *
 titleString
 =
@@ -2877,7 +2877,7 @@ length
 i
 )
 {
-PRUnichar
+char16_t
 ch
 =
 mTitle
@@ -3007,7 +3007,7 @@ i
 i
 )
 {
-PRUnichar
+char16_t
 ch
 =
 mTitle
@@ -3152,7 +3152,7 @@ totalWidth
 =
 0
 ;
-PRUnichar
+char16_t
 ch
 ;
 int
@@ -3530,7 +3530,7 @@ Length
 else
 {
 const
-PRUnichar
+char16_t
 kLastChar
 =
 mTitle
@@ -3544,7 +3544,7 @@ if
 kLastChar
 =
 =
-PRUnichar
+char16_t
 (
 0x2026
 )
@@ -3553,7 +3553,7 @@ PRUnichar
 kLastChar
 =
 =
-PRUnichar
+char16_t
 (
 '
 :

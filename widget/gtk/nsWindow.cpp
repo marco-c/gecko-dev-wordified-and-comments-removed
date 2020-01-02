@@ -12505,7 +12505,7 @@ NS_TEXT_TEXT
 this
 )
 ;
-PRUnichar
+char16_t
 textString
 [
 3

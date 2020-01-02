@@ -1238,7 +1238,7 @@ _protocol
 .
 Append
 (
-PRUnichar
+char16_t
 (
 '
 :
@@ -1829,7 +1829,7 @@ _hash
 .
 Assign
 (
-PRUnichar
+char16_t
 (
 '
 #

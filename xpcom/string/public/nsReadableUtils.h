@@ -31,14 +31,14 @@ Distance
 const
 nsReadingIterator
 <
-PRUnichar
+char16_t
 >
 &
 start
 const
 nsReadingIterator
 <
-PRUnichar
+char16_t
 >
 &
 end
@@ -120,7 +120,7 @@ void
 LossyCopyUTF16toASCII
 (
 const
-PRUnichar
+char16_t
 *
 aSource
 nsACString
@@ -168,7 +168,7 @@ void
 CopyUTF16toUTF8
 (
 const
-PRUnichar
+char16_t
 *
 aSource
 nsACString
@@ -216,7 +216,7 @@ void
 LossyAppendUTF16toASCII
 (
 const
-PRUnichar
+char16_t
 *
 aSource
 nsACString
@@ -283,7 +283,7 @@ void
 AppendUTF16toUTF8
 (
 const
-PRUnichar
+char16_t
 *
 aSource
 nsACString
@@ -370,7 +370,7 @@ aUTF8Count
 nullptr
 )
 ;
-PRUnichar
+char16_t
 *
 ToNewUnicode
 (
@@ -380,7 +380,7 @@ nsAString
 aSource
 )
 ;
-PRUnichar
+char16_t
 *
 ToNewUnicode
 (
@@ -399,7 +399,7 @@ nsACString
 aSource
 )
 ;
-PRUnichar
+char16_t
 *
 UTF8ToUnicodeBuffer
 (
@@ -407,7 +407,7 @@ const
 nsACString
 &
 aSource
-PRUnichar
+char16_t
 *
 aBuffer
 uint32_t
@@ -417,7 +417,7 @@ aUTF16Count
 nullptr
 )
 ;
-PRUnichar
+char16_t
 *
 UTF8ToNewUnicode
 (
@@ -432,7 +432,7 @@ aUTF16Count
 nullptr
 )
 ;
-PRUnichar
+char16_t
 *
 CopyUnicodeTo
 (
@@ -442,7 +442,7 @@ nsAString
 aSource
 uint32_t
 aSrcOffset
-PRUnichar
+char16_t
 *
 aDest
 uint32_t
@@ -825,7 +825,7 @@ nsDefaultCStringComparator
 bool
 FindCharInReadable
 (
-PRUnichar
+char16_t
 aChar
 nsAString
 :
@@ -869,7 +869,7 @@ const
 nsAString
 &
 aStr
-PRUnichar
+char16_t
 aChar
 )
 ;

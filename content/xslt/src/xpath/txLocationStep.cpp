@@ -1201,7 +1201,7 @@ str
 .
 Append
 (
-PRUnichar
+char16_t
 (
 '
 '

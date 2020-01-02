@@ -1,7 +1,7 @@
 #
 define
 CharT
-PRUnichar
+char16_t
 #
 define
 CharT_is_PRUnichar

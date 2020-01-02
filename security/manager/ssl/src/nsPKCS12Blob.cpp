@@ -792,7 +792,7 @@ len
 =
 sizeof
 (
-PRUnichar
+char16_t
 )
 )
 {
@@ -877,7 +877,7 @@ nsPKCS12Blob
 LoadCerts
 (
 const
-PRUnichar
+char16_t
 *
 *
 certNames
@@ -1814,7 +1814,7 @@ nsPKCS12Blob
 unicodeToItem
 (
 const
-PRUnichar
+char16_t
 *
 uni
 SECItem
@@ -1846,7 +1846,7 @@ nullptr
 item
 sizeof
 (
-PRUnichar
+char16_t
 )
 *
 len

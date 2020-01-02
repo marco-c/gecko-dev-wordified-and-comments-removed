@@ -1183,7 +1183,7 @@ aProtocol
 .
 Append
 (
-PRUnichar
+char16_t
 (
 '
 :
@@ -2166,7 +2166,7 @@ aHash
 .
 Assign
 (
-PRUnichar
+char16_t
 (
 '
 #

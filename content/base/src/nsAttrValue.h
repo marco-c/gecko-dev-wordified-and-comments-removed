@@ -286,7 +286,7 @@ StorageSize
 /
 sizeof
 (
-PRUnichar
+char16_t
 )
 -
 1
@@ -1655,7 +1655,7 @@ StorageSize
 /
 sizeof
 (
-PRUnichar
+char16_t
 )
 -
 1

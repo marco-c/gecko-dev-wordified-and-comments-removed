@@ -795,7 +795,7 @@ nsPrintSettingsQt
 :
 GetToFileName
 (
-PRUnichar
+char16_t
 *
 *
 aToFileName
@@ -826,7 +826,7 @@ ToNewUnicode
 nsDependentString
 (
 (
-PRUnichar
+char16_t
 *
 )
 filename
@@ -848,7 +848,7 @@ nsPrintSettingsQt
 SetToFileName
 (
 const
-PRUnichar
+char16_t
 *
 aToFileName
 )
@@ -914,7 +914,7 @@ nsPrintSettingsQt
 :
 GetPrinterName
 (
-PRUnichar
+char16_t
 *
 *
 aPrinter
@@ -934,7 +934,7 @@ nsDependentString
 (
 (
 const
-PRUnichar
+char16_t
 *
 )
 mQPrinter
@@ -961,7 +961,7 @@ nsPrintSettingsQt
 SetPrinterName
 (
 const
-PRUnichar
+char16_t
 *
 aPrinter
 )
@@ -1369,7 +1369,7 @@ nsPrintSettingsQt
 :
 GetPaperName
 (
-PRUnichar
+char16_t
 *
 *
 aPaperName
@@ -1448,7 +1448,7 @@ nsDependentString
 (
 (
 const
-PRUnichar
+char16_t
 *
 )
 name
@@ -1470,7 +1470,7 @@ nsPrintSettingsQt
 SetPaperName
 (
 const
-PRUnichar
+char16_t
 *
 aPaperName
 )
