@@ -3200,7 +3200,12 @@ mType
 eType_Plugin
 &
 &
+(
 mInstanceOwner
+|
+|
+mInstantiating
+)
 )
 {
 QueueCheckPluginStopEvent
@@ -3360,6 +3365,9 @@ Destroy
 if
 (
 mInstanceOwner
+|
+|
+mInstantiating
 )
 {
 NS_NOTREACHED
@@ -4072,6 +4080,9 @@ NotifyOwnerDocumentActivityChanged
 if
 (
 mInstanceOwner
+|
+|
+mInstantiating
 )
 QueueCheckPluginStopEvent
 (
@@ -4678,6 +4689,14 @@ aFrame
 if
 (
 mInstanceOwner
+|
+|
+mInstantiating
+)
+{
+if
+(
+mInstanceOwner
 )
 {
 mInstanceOwner
@@ -4688,6 +4707,7 @@ SetFrame
 nullptr
 )
 ;
+}
 QueueCheckPluginStopEvent
 (
 )
@@ -12194,6 +12214,10 @@ nullptr
 mPendingCheckPluginStopEvent
 =
 nullptr
+;
+mInstantiating
+=
+false
 ;
 if
 (
