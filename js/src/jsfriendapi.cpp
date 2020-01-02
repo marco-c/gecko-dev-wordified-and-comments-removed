@@ -5509,8 +5509,12 @@ JS_NewObject
 (
 cx
 nullptr
-nullptr
-nullptr
+NullPtr
+(
+)
+NullPtr
+(
+)
 )
 )
 ;

@@ -3075,8 +3075,12 @@ JS_NewObject
 aCx
 &
 kFakeBackstagePassJSClass
-nullptr
-nullptr
+NullPtr
+(
+)
+NullPtr
+(
+)
 )
 ;
 NS_ENSURE_TRUE

@@ -2103,7 +2103,12 @@ JS_NewObject
 cx
 &
 PointerHolderClass
-nullptr
+JS
+:
+:
+NullPtr
+(
+)
 funobj
 )
 ;
