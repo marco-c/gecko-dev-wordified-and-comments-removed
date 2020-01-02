@@ -940,6 +940,11 @@ aSetValueChanged
 )
 ;
 void
+ClearFiles
+(
+)
+;
+void
 SetCheckedChangedInternal
 (
 bool
