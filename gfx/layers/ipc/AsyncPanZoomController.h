@@ -364,6 +364,15 @@ InputData
 aEvent
 )
 ;
+nsEventStatus
+HandleGestureEvent
+(
+const
+InputData
+&
+aEvent
+)
+;
 void
 GetGuid
 (
