@@ -294,6 +294,7 @@ JSPropertyDescriptor
 >
 desc
 )
+const
 {
 assertEnteredPolicy
 (
@@ -447,6 +448,7 @@ bool
 *
 bp
 )
+const
 {
 assertEnteredPolicy
 (
@@ -591,6 +593,7 @@ id
 MutableHandleValue
 vp
 )
+const
 {
 assertEnteredPolicy
 (
@@ -738,6 +741,7 @@ JSContext
 *
 cx
 )
+const
 {
 return
 CrossCompartmentWrapper
@@ -776,6 +780,7 @@ bool
 *
 bp
 )
+const
 {
 if
 (

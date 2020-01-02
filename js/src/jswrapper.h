@@ -178,6 +178,7 @@ hint
 MutableHandleValue
 vp
 )
+const
 MOZ_OVERRIDE
 ;
 static
@@ -284,6 +285,7 @@ finalizeInBackground
 Value
 priv
 )
+const
 MOZ_OVERRIDE
 ;
 static
@@ -375,6 +377,7 @@ cx
 HandleObject
 wrapper
 )
+const
 MOZ_OVERRIDE
 ;
 virtual
@@ -394,6 +397,7 @@ JSPropertyDescriptor
 >
 desc
 )
+const
 MOZ_OVERRIDE
 ;
 virtual
@@ -413,6 +417,7 @@ JSPropertyDescriptor
 >
 desc
 )
+const
 MOZ_OVERRIDE
 ;
 virtual
@@ -432,6 +437,7 @@ JSPropertyDescriptor
 >
 desc
 )
+const
 MOZ_OVERRIDE
 ;
 virtual
@@ -447,6 +453,7 @@ AutoIdVector
 &
 props
 )
+const
 MOZ_OVERRIDE
 ;
 virtual
@@ -464,6 +471,7 @@ bool
 *
 bp
 )
+const
 MOZ_OVERRIDE
 ;
 virtual
@@ -479,6 +487,7 @@ AutoIdVector
 &
 props
 )
+const
 MOZ_OVERRIDE
 ;
 virtual
@@ -496,6 +505,7 @@ bool
 *
 bp
 )
+const
 MOZ_OVERRIDE
 ;
 virtual
@@ -513,6 +523,7 @@ bool
 *
 bp
 )
+const
 MOZ_OVERRIDE
 ;
 virtual
@@ -531,6 +542,7 @@ id
 MutableHandleValue
 vp
 )
+const
 MOZ_OVERRIDE
 ;
 virtual
@@ -551,6 +563,7 @@ strict
 MutableHandleValue
 vp
 )
+const
 MOZ_OVERRIDE
 ;
 virtual
@@ -566,6 +579,7 @@ AutoIdVector
 &
 props
 )
+const
 MOZ_OVERRIDE
 ;
 virtual
@@ -582,6 +596,7 @@ flags
 MutableHandleValue
 vp
 )
+const
 MOZ_OVERRIDE
 ;
 virtual
@@ -597,6 +612,7 @@ bool
 *
 extensible
 )
+const
 MOZ_OVERRIDE
 ;
 virtual
@@ -613,6 +629,7 @@ CallArgs
 &
 args
 )
+const
 MOZ_OVERRIDE
 ;
 virtual
@@ -629,6 +646,7 @@ CallArgs
 &
 args
 )
+const
 MOZ_OVERRIDE
 ;
 virtual
@@ -645,6 +663,7 @@ impl
 CallArgs
 args
 )
+const
 MOZ_OVERRIDE
 ;
 virtual
@@ -662,6 +681,7 @@ bool
 *
 bp
 )
+const
 MOZ_OVERRIDE
 ;
 virtual
@@ -676,6 +696,7 @@ cx
 HandleObject
 proxy
 )
+const
 MOZ_OVERRIDE
 ;
 virtual
@@ -691,6 +712,7 @@ wrapper
 unsigned
 indent
 )
+const
 MOZ_OVERRIDE
 ;
 virtual
@@ -706,6 +728,7 @@ RegExpGuard
 *
 g
 )
+const
 MOZ_OVERRIDE
 ;
 virtual
@@ -722,6 +745,7 @@ hint
 MutableHandleValue
 vp
 )
+const
 MOZ_OVERRIDE
 ;
 virtual
@@ -736,6 +760,7 @@ proxy
 MutableHandleObject
 protop
 )
+const
 MOZ_OVERRIDE
 ;
 virtual
@@ -753,6 +778,7 @@ bool
 *
 bp
 )
+const
 MOZ_OVERRIDE
 ;
 static
@@ -807,6 +833,7 @@ bool
 *
 extensible
 )
+const
 MOZ_OVERRIDE
 ;
 virtual
@@ -819,6 +846,7 @@ cx
 HandleObject
 wrapper
 )
+const
 MOZ_OVERRIDE
 ;
 virtual
@@ -841,6 +869,7 @@ bool
 *
 bp
 )
+const
 MOZ_OVERRIDE
 ;
 virtual
@@ -857,6 +886,7 @@ impl
 CallArgs
 args
 )
+const
 MOZ_OVERRIDE
 ;
 virtual
@@ -873,6 +903,7 @@ hint
 MutableHandleValue
 vp
 )
+const
 MOZ_OVERRIDE
 ;
 virtual
@@ -887,6 +918,7 @@ JSContext
 *
 cx
 )
+const
 MOZ_OVERRIDE
 ;
 virtual
@@ -902,6 +934,7 @@ RegExpGuard
 *
 g
 )
+const
 MOZ_OVERRIDE
 ;
 virtual
@@ -921,6 +954,7 @@ JSPropertyDescriptor
 >
 desc
 )
+const
 MOZ_OVERRIDE
 ;
 virtual
@@ -938,6 +972,7 @@ bool
 *
 bp
 )
+const
 MOZ_OVERRIDE
 ;
 virtual
@@ -963,6 +998,7 @@ JS
 HandleObject
 callable
 )
+const
 MOZ_OVERRIDE
 ;
 virtual
@@ -983,6 +1019,7 @@ JS
 HandleId
 id
 )
+const
 MOZ_OVERRIDE
 ;
 typedef
@@ -1043,6 +1080,7 @@ cx
 HandleObject
 proxy
 )
+const
 MOZ_OVERRIDE
 ;
 virtual
@@ -1062,6 +1100,7 @@ JSPropertyDescriptor
 >
 desc
 )
+const
 MOZ_OVERRIDE
 ;
 virtual
@@ -1081,6 +1120,7 @@ JSPropertyDescriptor
 >
 desc
 )
+const
 MOZ_OVERRIDE
 ;
 virtual
@@ -1100,6 +1140,7 @@ JSPropertyDescriptor
 >
 desc
 )
+const
 MOZ_OVERRIDE
 ;
 virtual
@@ -1115,6 +1156,7 @@ AutoIdVector
 &
 props
 )
+const
 MOZ_OVERRIDE
 ;
 virtual
@@ -1132,6 +1174,7 @@ bool
 *
 bp
 )
+const
 MOZ_OVERRIDE
 ;
 virtual
@@ -1147,6 +1190,7 @@ AutoIdVector
 &
 props
 )
+const
 MOZ_OVERRIDE
 ;
 virtual
@@ -1162,6 +1206,7 @@ bool
 *
 extensible
 )
+const
 MOZ_OVERRIDE
 ;
 virtual
@@ -1178,6 +1223,7 @@ CallArgs
 &
 args
 )
+const
 MOZ_OVERRIDE
 ;
 virtual
@@ -1194,6 +1240,7 @@ CallArgs
 &
 args
 )
+const
 MOZ_OVERRIDE
 ;
 virtual
@@ -1210,6 +1257,7 @@ impl
 CallArgs
 args
 )
+const
 MOZ_OVERRIDE
 ;
 virtual
@@ -1227,6 +1275,7 @@ bool
 *
 bp
 )
+const
 MOZ_OVERRIDE
 ;
 virtual
@@ -1241,6 +1290,7 @@ JSContext
 *
 cx
 )
+const
 MOZ_OVERRIDE
 ;
 virtual
@@ -1255,6 +1305,7 @@ cx
 HandleObject
 proxy
 )
+const
 MOZ_OVERRIDE
 ;
 virtual
@@ -1270,6 +1321,7 @@ proxy
 unsigned
 indent
 )
+const
 MOZ_OVERRIDE
 ;
 virtual
@@ -1285,6 +1337,7 @@ RegExpGuard
 *
 g
 )
+const
 MOZ_OVERRIDE
 ;
 virtual
@@ -1301,6 +1354,7 @@ hint
 MutableHandleValue
 vp
 )
+const
 MOZ_OVERRIDE
 ;
 virtual
@@ -1315,6 +1369,7 @@ proxy
 MutableHandleObject
 protop
 )
+const
 MOZ_OVERRIDE
 ;
 static
