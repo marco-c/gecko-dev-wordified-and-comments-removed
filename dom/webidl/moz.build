@@ -2775,11 +2775,6 @@ MozWifiConnectionInfoEvent
 webidl
 '
 '
-MozWifiManager
-.
-webidl
-'
-'
 MozWifiP2pManager
 .
 webidl
