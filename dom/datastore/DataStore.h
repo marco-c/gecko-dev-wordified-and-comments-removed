@@ -60,6 +60,11 @@ nsPIDOMWindow
 aWindow
 )
 ;
+~
+DataStore
+(
+)
+;
 static
 already_AddRefed
 <

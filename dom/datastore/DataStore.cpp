@@ -139,6 +139,15 @@ aWindow
 )
 {
 }
+DataStore
+:
+:
+~
+DataStore
+(
+)
+{
+}
 already_AddRefed
 <
 DataStore
