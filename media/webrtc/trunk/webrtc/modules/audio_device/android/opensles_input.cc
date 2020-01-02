@@ -2406,11 +2406,15 @@ audio_buffer_
 SetVQEData
 (
 delay_provider_
+?
+delay_provider_
 -
 >
 PlayoutDelayMs
 (
 )
+:
+0
 recording_delay_
 0
 )

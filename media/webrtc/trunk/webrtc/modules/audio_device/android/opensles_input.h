@@ -527,7 +527,7 @@ kNumOpenSlBuffers
 2
 kNum10MsToBuffer
 =
-4
+8
 }
 ;
 int

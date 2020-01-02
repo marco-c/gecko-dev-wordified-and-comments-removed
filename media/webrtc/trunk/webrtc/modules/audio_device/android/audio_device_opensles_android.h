@@ -744,9 +744,14 @@ const
 ;
 private
 :
+#
+ifdef
+WEBRTC_ANDROID_OPENSLES_OUTPUT
 OpenSlesOutput
 output_
 ;
+#
+endif
 OpenSlesInput
 input_
 ;

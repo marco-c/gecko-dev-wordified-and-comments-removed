@@ -192,6 +192,11 @@ enable_android_opensl
 '
 :
 1
+'
+enable_android_opensl_output
+'
+:
+0
 #
 use_system_lib
 *
