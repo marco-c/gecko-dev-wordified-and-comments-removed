@@ -1003,6 +1003,13 @@ tabNavigated
 tabNavigated
 "
 "
+frameUpdate
+"
+:
+"
+frameUpdate
+"
+"
 pageError
 "
 :
