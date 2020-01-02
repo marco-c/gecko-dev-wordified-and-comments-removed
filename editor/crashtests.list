@@ -62,16 +62,6 @@ crashtests
 .
 list
 include
-libeditor
-/
-text
-/
-crashtests
-/
-crashtests
-.
-list
-include
 composer
 /
 crashtests

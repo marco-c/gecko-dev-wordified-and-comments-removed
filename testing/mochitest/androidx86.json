@@ -1816,8 +1816,6 @@ editor
 /
 libeditor
 /
-text
-/
 tests
 /
 test_bug569988
@@ -1832,8 +1830,6 @@ TIMED_OUT
 editor
 /
 libeditor
-/
-text
 /
 tests
 /
