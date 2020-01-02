@@ -158,7 +158,7 @@ getTotalLength
 )
 ;
 [
-Creator
+NewObject
 Throws
 ]
 SVGPoint
@@ -177,7 +177,7 @@ distance
 )
 ;
 [
-Creator
+NewObject
 ]
 SVGPathSegClosePath
 createSVGPathSegClosePath
@@ -185,7 +185,7 @@ createSVGPathSegClosePath
 )
 ;
 [
-Creator
+NewObject
 ]
 SVGPathSegMovetoAbs
 createSVGPathSegMovetoAbs
@@ -197,7 +197,7 @@ y
 )
 ;
 [
-Creator
+NewObject
 ]
 SVGPathSegMovetoRel
 createSVGPathSegMovetoRel
@@ -209,7 +209,7 @@ y
 )
 ;
 [
-Creator
+NewObject
 ]
 SVGPathSegLinetoAbs
 createSVGPathSegLinetoAbs
@@ -221,7 +221,7 @@ y
 )
 ;
 [
-Creator
+NewObject
 ]
 SVGPathSegLinetoRel
 createSVGPathSegLinetoRel
@@ -233,7 +233,7 @@ y
 )
 ;
 [
-Creator
+NewObject
 ]
 SVGPathSegCurvetoCubicAbs
 createSVGPathSegCurvetoCubicAbs
@@ -253,7 +253,7 @@ y2
 )
 ;
 [
-Creator
+NewObject
 ]
 SVGPathSegCurvetoCubicRel
 createSVGPathSegCurvetoCubicRel
@@ -273,7 +273,7 @@ y2
 )
 ;
 [
-Creator
+NewObject
 ]
 SVGPathSegCurvetoQuadraticAbs
 createSVGPathSegCurvetoQuadraticAbs
@@ -289,7 +289,7 @@ y1
 )
 ;
 [
-Creator
+NewObject
 ]
 SVGPathSegCurvetoQuadraticRel
 createSVGPathSegCurvetoQuadraticRel
@@ -305,7 +305,7 @@ y1
 )
 ;
 [
-Creator
+NewObject
 ]
 SVGPathSegArcAbs
 createSVGPathSegArcAbs
@@ -327,7 +327,7 @@ sweepFlag
 )
 ;
 [
-Creator
+NewObject
 ]
 SVGPathSegArcRel
 createSVGPathSegArcRel
@@ -349,7 +349,7 @@ sweepFlag
 )
 ;
 [
-Creator
+NewObject
 ]
 SVGPathSegLinetoHorizontalAbs
 createSVGPathSegLinetoHorizontalAbs
@@ -359,7 +359,7 @@ x
 )
 ;
 [
-Creator
+NewObject
 ]
 SVGPathSegLinetoHorizontalRel
 createSVGPathSegLinetoHorizontalRel
@@ -369,7 +369,7 @@ x
 )
 ;
 [
-Creator
+NewObject
 ]
 SVGPathSegLinetoVerticalAbs
 createSVGPathSegLinetoVerticalAbs
@@ -379,7 +379,7 @@ y
 )
 ;
 [
-Creator
+NewObject
 ]
 SVGPathSegLinetoVerticalRel
 createSVGPathSegLinetoVerticalRel
@@ -389,7 +389,7 @@ y
 )
 ;
 [
-Creator
+NewObject
 ]
 SVGPathSegCurvetoCubicSmoothAbs
 createSVGPathSegCurvetoCubicSmoothAbs
@@ -405,7 +405,7 @@ y2
 )
 ;
 [
-Creator
+NewObject
 ]
 SVGPathSegCurvetoCubicSmoothRel
 createSVGPathSegCurvetoCubicSmoothRel
@@ -421,7 +421,7 @@ y2
 )
 ;
 [
-Creator
+NewObject
 ]
 SVGPathSegCurvetoQuadraticSmoothAbs
 createSVGPathSegCurvetoQuadraticSmoothAbs
@@ -433,7 +433,7 @@ y
 )
 ;
 [
-Creator
+NewObject
 ]
 SVGPathSegCurvetoQuadraticSmoothRel
 createSVGPathSegCurvetoQuadraticSmoothRel

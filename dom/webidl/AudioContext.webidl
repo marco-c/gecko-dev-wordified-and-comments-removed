@@ -196,7 +196,7 @@ AudioListener
 listener
 ;
 [
-Creator
+NewObject
 Throws
 ]
 AudioBuffer
@@ -229,7 +229,7 @@ errorCallback
 AudioNode
 creation
 [
-Creator
+NewObject
 ]
 AudioBufferSourceNode
 createBufferSource
@@ -237,7 +237,7 @@ createBufferSource
 )
 ;
 [
-Creator
+NewObject
 Throws
 ]
 MediaStreamAudioDestinationNode
@@ -246,7 +246,7 @@ createMediaStreamDestination
 )
 ;
 [
-Creator
+NewObject
 Throws
 ]
 ScriptProcessorNode
@@ -273,7 +273,7 @@ numberOfOutputChannels
 )
 ;
 [
-Creator
+NewObject
 ]
 AnalyserNode
 createAnalyser
@@ -281,7 +281,7 @@ createAnalyser
 )
 ;
 [
-Creator
+NewObject
 Throws
 ]
 MediaElementAudioSourceNode
@@ -292,7 +292,7 @@ mediaElement
 )
 ;
 [
-Creator
+NewObject
 Throws
 ]
 MediaStreamAudioSourceNode
@@ -303,7 +303,7 @@ mediaStream
 )
 ;
 [
-Creator
+NewObject
 ]
 GainNode
 createGain
@@ -311,7 +311,7 @@ createGain
 )
 ;
 [
-Creator
+NewObject
 Throws
 ]
 DelayNode
@@ -325,7 +325,7 @@ maxDelayTime
 )
 ;
 [
-Creator
+NewObject
 ]
 BiquadFilterNode
 createBiquadFilter
@@ -333,7 +333,7 @@ createBiquadFilter
 )
 ;
 [
-Creator
+NewObject
 ]
 WaveShaperNode
 createWaveShaper
@@ -341,7 +341,7 @@ createWaveShaper
 )
 ;
 [
-Creator
+NewObject
 ]
 PannerNode
 createPanner
@@ -349,7 +349,7 @@ createPanner
 )
 ;
 [
-Creator
+NewObject
 ]
 ConvolverNode
 createConvolver
@@ -357,7 +357,7 @@ createConvolver
 )
 ;
 [
-Creator
+NewObject
 Throws
 ]
 ChannelSplitterNode
@@ -372,7 +372,7 @@ numberOfOutputs
 )
 ;
 [
-Creator
+NewObject
 Throws
 ]
 ChannelMergerNode
@@ -387,7 +387,7 @@ numberOfInputs
 )
 ;
 [
-Creator
+NewObject
 ]
 DynamicsCompressorNode
 createDynamicsCompressor
@@ -395,7 +395,7 @@ createDynamicsCompressor
 )
 ;
 [
-Creator
+NewObject
 ]
 OscillatorNode
 createOscillator
@@ -403,7 +403,7 @@ createOscillator
 )
 ;
 [
-Creator
+NewObject
 Throws
 ]
 PeriodicWave
@@ -465,7 +465,7 @@ interface
 AudioContext
 {
 [
-Creator
+NewObject
 Throws
 ]
 AudioBuffer
@@ -486,7 +486,7 @@ createGain
 (
 )
 [
-Creator
+NewObject
 Pref
 =
 "
@@ -512,7 +512,7 @@ createDelay
 (
 )
 [
-Creator
+NewObject
 Throws
 Pref
 =
@@ -544,7 +544,7 @@ createScriptProcessor
 (
 )
 [
-Creator
+NewObject
 Throws
 Pref
 =

@@ -160,7 +160,7 @@ interface
 DOMParser
 {
 [
-Creator
+NewObject
 Throws
 ]
 Document
@@ -195,7 +195,7 @@ actual
 sequence
 length
 [
-Creator
+NewObject
 Throws
 ChromeOnly
 ]
@@ -232,7 +232,7 @@ typed
 array
 length
 [
-Creator
+NewObject
 Throws
 ChromeOnly
 ]
@@ -249,7 +249,7 @@ type
 )
 ;
 [
-Creator
+NewObject
 Throws
 ChromeOnly
 ]

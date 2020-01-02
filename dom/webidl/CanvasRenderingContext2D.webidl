@@ -417,7 +417,7 @@ default
 black
 )
 [
-Creator
+NewObject
 ]
 CanvasGradient
 createLinearGradient
@@ -433,7 +433,7 @@ y1
 )
 ;
 [
-Creator
+NewObject
 Throws
 ]
 CanvasGradient
@@ -454,7 +454,7 @@ r1
 )
 ;
 [
-Creator
+NewObject
 Throws
 ]
 CanvasPattern
@@ -840,7 +840,7 @@ maxWidth
 )
 ;
 [
-Creator
+NewObject
 Throws
 ]
 TextMetrics
@@ -967,7 +967,7 @@ options
 pixel
 manipulation
 [
-Creator
+NewObject
 Throws
 ]
 ImageData
@@ -980,7 +980,7 @@ sh
 )
 ;
 [
-Creator
+NewObject
 Throws
 ]
 ImageData
@@ -991,7 +991,7 @@ imagedata
 )
 ;
 [
-Creator
+NewObject
 Throws
 ]
 ImageData
