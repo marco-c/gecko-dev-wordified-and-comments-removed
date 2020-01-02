@@ -612,7 +612,7 @@ token
 )
 ;
 }
-getMatchingSpec
+getMatch
 :
 function
 (
