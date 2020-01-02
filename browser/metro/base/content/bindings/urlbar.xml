@@ -2219,11 +2219,6 @@ if
 InputSourceHelper
 .
 isPrecise
-&
-&
-this
-.
-textLength
 )
 {
 let
