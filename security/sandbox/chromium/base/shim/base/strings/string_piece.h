@@ -9,6 +9,8 @@ include
 "
 sandbox
 /
+chromium
+/
 base
 /
 strings

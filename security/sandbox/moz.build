@@ -155,6 +155,8 @@ SOURCES
 =
 [
 '
+chromium
+/
 base
 /
 at_exit
@@ -162,6 +164,8 @@ at_exit
 cc
 '
 '
+chromium
+/
 base
 /
 base_switches
@@ -169,6 +173,8 @@ base_switches
 cc
 '
 '
+chromium
+/
 base
 /
 callback_internal
@@ -176,6 +182,8 @@ callback_internal
 cc
 '
 '
+chromium
+/
 base
 /
 cpu
@@ -183,6 +191,8 @@ cpu
 cc
 '
 '
+chromium
+/
 base
 /
 debug
@@ -192,6 +202,8 @@ alias
 cc
 '
 '
+chromium
+/
 base
 /
 debug
@@ -201,6 +213,8 @@ profiler
 cc
 '
 '
+chromium
+/
 base
 /
 lazy_instance
@@ -208,6 +222,8 @@ lazy_instance
 cc
 '
 '
+chromium
+/
 base
 /
 location
@@ -215,6 +231,8 @@ location
 cc
 '
 '
+chromium
+/
 base
 /
 memory
@@ -224,6 +242,8 @@ ref_counted
 cc
 '
 '
+chromium
+/
 base
 /
 memory
@@ -233,6 +253,8 @@ singleton
 cc
 '
 '
+chromium
+/
 base
 /
 shim
@@ -244,6 +266,8 @@ logging
 cpp
 '
 '
+chromium
+/
 base
 /
 strings
@@ -253,6 +277,8 @@ nullable_string16
 cc
 '
 '
+chromium
+/
 base
 /
 strings
@@ -262,6 +288,8 @@ string_number_conversions
 cc
 '
 '
+chromium
+/
 base
 /
 strings
@@ -271,6 +299,8 @@ string_piece
 cc
 '
 '
+chromium
+/
 base
 /
 strings
@@ -280,6 +310,8 @@ string_util_constants
 cc
 '
 '
+chromium
+/
 base
 /
 strings
@@ -289,6 +321,8 @@ string_util_stripped
 cc
 '
 '
+chromium
+/
 base
 /
 strings
@@ -298,6 +332,8 @@ stringprintf
 cc
 '
 '
+chromium
+/
 base
 /
 strings
@@ -307,6 +343,8 @@ utf_string_conversion_utils
 cc
 '
 '
+chromium
+/
 base
 /
 strings
@@ -316,6 +354,8 @@ utf_string_conversions
 cc
 '
 '
+chromium
+/
 base
 /
 synchronization
@@ -325,6 +365,8 @@ lock
 cc
 '
 '
+chromium
+/
 base
 /
 synchronization
@@ -334,6 +376,8 @@ lock_impl_win
 cc
 '
 '
+chromium
+/
 base
 /
 third_party
@@ -345,6 +389,8 @@ dtoa
 cc
 '
 '
+chromium
+/
 base
 /
 third_party
@@ -356,6 +402,8 @@ g_fmt
 cc
 '
 '
+chromium
+/
 base
 /
 third_party
@@ -367,6 +415,8 @@ icu_utf
 cc
 '
 '
+chromium
+/
 base
 /
 threading
@@ -376,6 +426,8 @@ platform_thread_win
 cc
 '
 '
+chromium
+/
 base
 /
 threading
@@ -385,6 +437,8 @@ thread_collision_warner
 cc
 '
 '
+chromium
+/
 base
 /
 threading
@@ -394,6 +448,8 @@ thread_id_name_manager
 cc
 '
 '
+chromium
+/
 base
 /
 threading
@@ -403,6 +459,8 @@ thread_local_win
 cc
 '
 '
+chromium
+/
 base
 /
 threading
@@ -412,6 +470,8 @@ thread_restrictions
 cc
 '
 '
+chromium
+/
 base
 /
 time
@@ -421,6 +481,8 @@ time
 cc
 '
 '
+chromium
+/
 base
 /
 time
@@ -430,6 +492,8 @@ time_win
 cc
 '
 '
+chromium
+/
 base
 /
 win
@@ -439,6 +503,8 @@ event_trace_provider
 cc
 '
 '
+chromium
+/
 base
 /
 win
@@ -448,6 +514,8 @@ pe_image
 cc
 '
 '
+chromium
+/
 base
 /
 win
@@ -457,6 +525,8 @@ registry
 cc
 '
 '
+chromium
+/
 base
 /
 win
@@ -466,6 +536,8 @@ scoped_handle
 cc
 '
 '
+chromium
+/
 base
 /
 win
@@ -475,6 +547,8 @@ scoped_process_information
 cc
 '
 '
+chromium
+/
 base
 /
 win
@@ -484,6 +558,8 @@ startup_information
 cc
 '
 '
+chromium
+/
 base
 /
 win

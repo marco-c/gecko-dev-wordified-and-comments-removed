@@ -299,6 +299,15 @@ topsrcdir
 /
 security
 /
+\
+-
+I
+(
+topsrcdir
+)
+/
+security
+/
 sandbox
 \
 -
@@ -309,6 +318,9 @@ topsrcdir
 /
 security
 /
+sandbox
+/
+chromium
 \
 (
 NULL

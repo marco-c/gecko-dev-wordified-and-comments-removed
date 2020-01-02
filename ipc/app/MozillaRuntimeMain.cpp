@@ -74,6 +74,8 @@ include
 "
 sandbox
 /
+chromium
+/
 base
 /
 basictypes
