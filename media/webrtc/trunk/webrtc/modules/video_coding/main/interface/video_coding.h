@@ -783,6 +783,16 @@ desired_delay_ms
 0
 ;
 virtual
+void
+SetCPULoadState
+(
+CPULoadState
+state
+)
+=
+0
+;
+virtual
 int
 StartDebugRecording
 (

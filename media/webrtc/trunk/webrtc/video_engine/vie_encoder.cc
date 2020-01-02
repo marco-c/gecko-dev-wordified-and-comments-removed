@@ -6054,6 +6054,13 @@ int
 load_state
 )
 ;
+vcm_
+.
+SetCPULoadState
+(
+load_state
+)
+;
 }
 PacedSender
 *

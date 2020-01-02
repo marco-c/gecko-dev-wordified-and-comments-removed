@@ -480,6 +480,13 @@ int
 periodMs
 )
 ;
+void
+SetCPULoadState
+(
+CPULoadState
+state
+)
+;
 int
 StartDebugRecording
 (

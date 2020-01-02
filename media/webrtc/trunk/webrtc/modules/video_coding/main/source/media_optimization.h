@@ -263,6 +263,13 @@ FrameType
 encoded_frame_type
 )
 ;
+void
+SetCPULoadState
+(
+CPULoadState
+state
+)
+;
 int32_t
 RegisterProtectionCallback
 (
@@ -536,6 +543,9 @@ last_change_time_
 ;
 int
 num_layers_
+;
+CPULoadState
+loadstate_
 ;
 }
 ;
