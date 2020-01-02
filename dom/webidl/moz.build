@@ -1320,11 +1320,6 @@ PluginArray
 webidl
 '
 '
-PointerEvent
-.
-webidl
-'
-'
 Position
 .
 webidl
