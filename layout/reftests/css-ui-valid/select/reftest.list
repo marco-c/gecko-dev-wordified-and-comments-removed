@@ -260,6 +260,15 @@ fuzzy
 64
 4
 )
+random
+-
+if
+(
+B2G
+&
+&
+browserIsRemote
+)
 needs
 -
 focus

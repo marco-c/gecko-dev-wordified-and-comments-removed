@@ -245,6 +245,15 @@ rtl
 doc
 .
 html
+random
+-
+if
+(
+B2G
+&
+&
+browserIsRemote
+)
 =
 =
 setvalue

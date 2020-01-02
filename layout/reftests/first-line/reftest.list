@@ -344,6 +344,15 @@ apply
 ref
 .
 html
+skip
+-
+if
+(
+B2G
+&
+&
+browserIsRemote
+)
 =
 =
 287088
@@ -358,6 +367,9 @@ html
 ref
 .
 html
+#
+Bug
+975254
 =
 =
 287088

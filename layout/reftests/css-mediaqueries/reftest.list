@@ -283,6 +283,15 @@ xhtml
 #
 bug
 773482
+random
+-
+if
+(
+B2G
+&
+&
+browserIsRemote
+)
 =
 =
 scoped
