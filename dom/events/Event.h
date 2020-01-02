@@ -591,7 +591,7 @@ mFlags
 mIsSynthesizedForTests
 ;
 }
-uint64_t
+double
 TimeStamp
 (
 )

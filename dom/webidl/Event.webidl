@@ -274,7 +274,7 @@ Pure
 ]
 readonly
 attribute
-DOMTimeStamp
+DOMHighResTimeStamp
 timeStamp
 ;
 [
