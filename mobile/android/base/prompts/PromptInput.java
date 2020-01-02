@@ -16,17 +16,6 @@ gecko
 .
 util
 .
-GeckoEventResponder
-;
-import
-org
-.
-mozilla
-.
-gecko
-.
-util
-.
 ThreadUtils
 ;
 import

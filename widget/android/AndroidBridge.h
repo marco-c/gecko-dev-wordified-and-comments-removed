@@ -1215,9 +1215,6 @@ const
 nsAString
 &
 message
-nsAString
-&
-aRet
 )
 ;
 bool

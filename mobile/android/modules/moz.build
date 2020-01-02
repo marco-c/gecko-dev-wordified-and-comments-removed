@@ -128,6 +128,11 @@ LightweightThemeConsumer
 jsm
 '
 '
+Messaging
+.
+jsm
+'
+'
 Notifications
 .
 jsm

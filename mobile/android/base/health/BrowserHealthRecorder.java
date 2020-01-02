@@ -191,8 +191,6 @@ mozilla
 .
 gecko
 .
-util
-.
 EventDispatcher
 ;
 import
