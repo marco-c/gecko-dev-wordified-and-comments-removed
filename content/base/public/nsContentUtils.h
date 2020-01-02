@@ -4062,6 +4062,16 @@ aHeader
 ;
 static
 bool
+IsAllowedNonCorsContentType
+(
+const
+nsACString
+&
+aHeaderValue
+)
+;
+static
+bool
 IsForbiddenResponseHeader
 (
 const
