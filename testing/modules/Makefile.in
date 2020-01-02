@@ -61,6 +61,10 @@ AppInfo
 .
 jsm
 \
+Assert
+.
+jsm
+\
 (
 NULL
 )
