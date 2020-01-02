@@ -45,11 +45,6 @@ SharedSSLState
 (
 )
 ;
-~
-SharedSSLState
-(
-)
-;
 static
 void
 GlobalInit
@@ -138,6 +133,11 @@ mOCSPStaplingEnabled
 }
 private
 :
+~
+SharedSSLState
+(
+)
+;
 void
 Cleanup
 (
