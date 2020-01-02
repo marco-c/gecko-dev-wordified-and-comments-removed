@@ -265,13 +265,6 @@ NSSCleanupAutoPtrClass
 void
 PR_FREEIF
 )
-static
-NS_DEFINE_CID
-(
-kNSSComponentCID
-NS_NSSCOMPONENT_CID
-)
-;
 void
 getSiteKey
 (

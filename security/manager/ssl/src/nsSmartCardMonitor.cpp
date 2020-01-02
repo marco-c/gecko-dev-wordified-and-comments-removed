@@ -53,13 +53,6 @@ using
 namespace
 mozilla
 ;
-static
-NS_DEFINE_CID
-(
-kNSSComponentCID
-NS_NSSCOMPONENT_CID
-)
-;
 class
 SmartCardThreadEntry
 {
@@ -746,6 +739,13 @@ char
 tokenName
 )
 {
+static
+NS_DEFINE_CID
+(
+kNSSComponentCID
+NS_NSSCOMPONENT_CID
+)
+;
 nsresult
 rv
 ;

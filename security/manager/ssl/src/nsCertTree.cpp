@@ -155,13 +155,6 @@ endif
 static
 NS_DEFINE_CID
 (
-kNSSComponentCID
-NS_NSSCOMPONENT_CID
-)
-;
-static
-NS_DEFINE_CID
-(
 kCertOverrideCID
 NS_CERTOVERRIDE_CID
 )
@@ -637,6 +630,13 @@ mTreeArray
 nullptr
 )
 {
+static
+NS_DEFINE_CID
+(
+kNSSComponentCID
+NS_NSSCOMPONENT_CID
+)
+;
 mCompareCache
 .
 ops

@@ -321,13 +321,6 @@ NS_IDOMHTMLSELECTELEMENT_IID
 )
 ;
 static
-NS_DEFINE_CID
-(
-kNSSComponentCID
-NS_NSSCOMPONENT_CID
-)
-;
-static
 PQGParams
 *
 decode_pqg_params
@@ -1382,6 +1375,13 @@ Init
 (
 )
 {
+static
+NS_DEFINE_CID
+(
+kNSSComponentCID
+NS_NSSCOMPONENT_CID
+)
+;
 nsresult
 rv
 ;

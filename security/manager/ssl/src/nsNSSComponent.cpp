@@ -376,13 +376,6 @@ nullptr
 ;
 #
 endif
-static
-NS_DEFINE_CID
-(
-kNSSComponentCID
-NS_NSSCOMPONENT_CID
-)
-;
 int
 nsNSSComponent
 :
@@ -543,6 +536,13 @@ Run
 (
 )
 {
+static
+NS_DEFINE_CID
+(
+kNSSComponentCID
+NS_NSSCOMPONENT_CID
+)
+;
 nsresult
 rv
 ;

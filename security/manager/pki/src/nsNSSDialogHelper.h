@@ -1,4 +1,10 @@
 #
+ifndef
+nsNSSDialogHelper_h
+#
+define
+nsNSSDialogHelper_h
+#
 include
 "
 nsIDOMWindow
@@ -32,3 +38,5 @@ true
 ;
 }
 ;
+#
+endif

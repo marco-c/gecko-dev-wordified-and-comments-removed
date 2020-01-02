@@ -1148,13 +1148,6 @@ return
 NS_OK
 ;
 }
-static
-NS_DEFINE_CID
-(
-kNSSCertificateCID
-NS_X509CERT_CID
-)
-;
 NS_IMETHODIMP
 nsNSSCertificateFakeTransport
 :
@@ -1166,6 +1159,13 @@ nsCID
 aClassIDNoAlloc
 )
 {
+static
+NS_DEFINE_CID
+(
+kNSSCertificateCID
+NS_X509CERT_CID
+)
+;
 *
 aClassIDNoAlloc
 =
