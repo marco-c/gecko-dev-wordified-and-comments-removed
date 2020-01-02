@@ -1807,7 +1807,7 @@ if
 pc
 !
 =
-NULL
+nullptr
 )
 sp
 -
@@ -1874,7 +1874,7 @@ if
 pc
 !
 =
-NULL
+nullptr
 )
 sp
 -
@@ -2002,7 +2002,7 @@ if
 pc
 !
 =
-NULL
+nullptr
 )
 {
 if
@@ -2256,7 +2256,7 @@ js_DisassembleAtPC
 cx
 script
 lines
-NULL
+nullptr
 false
 sp
 )
@@ -2607,7 +2607,7 @@ nbytes
 =
 JS_sprintf_append
 (
-NULL
+nullptr
 "
 %
 s
@@ -2667,7 +2667,7 @@ source
 =
 JS_sprintf_append
 (
-NULL
+nullptr
 "
 <
 value
@@ -2732,7 +2732,7 @@ source
 =
 JS_sprintf_append
 (
-NULL
+nullptr
 "
 depth
 %
@@ -3144,7 +3144,7 @@ JS_ReportErrorNumber
 (
 cx
 js_GetErrorMessage
-NULL
+nullptr
 JSMSG_BYTECODE_TOO_BIG
 numBuf1
 numBuf2
@@ -4122,7 +4122,7 @@ JS_ReportErrorNumber
 (
 cx
 js_GetErrorMessage
-NULL
+nullptr
 JSMSG_UNKNOWN_FORMAT
 numBuf
 )
@@ -4252,7 +4252,7 @@ false
 endif
 base
 (
-NULL
+nullptr
 )
 size
 (
@@ -4537,7 +4537,7 @@ size
 )
 )
 return
-NULL
+nullptr
 ;
 }
 char
@@ -4791,7 +4791,7 @@ return
 ;
 DeflateStringToBuffer
 (
-NULL
+nullptr
 chars
 length
 buffer
@@ -5190,7 +5190,7 @@ qc
 0
 )
 return
-NULL
+nullptr
 ;
 const
 jschar
@@ -5214,7 +5214,7 @@ if
 s
 )
 return
-NULL
+nullptr
 ;
 const
 jschar
@@ -5346,7 +5346,7 @@ if
 bp
 )
 return
-NULL
+nullptr
 ;
 for
 (
@@ -5442,7 +5442,7 @@ c
 )
 !
 =
-NULL
+nullptr
 )
 {
 ok
@@ -5532,7 +5532,7 @@ if
 ok
 )
 return
-NULL
+nullptr
 ;
 }
 if
@@ -5556,7 +5556,7 @@ qc
 0
 )
 return
-NULL
+nullptr
 ;
 if
 (
@@ -5581,7 +5581,7 @@ sp
 0
 )
 return
-NULL
+nullptr
 ;
 return
 sp
@@ -5623,7 +5623,7 @@ init
 )
 )
 return
-NULL
+nullptr
 ;
 char
 *
@@ -5643,7 +5643,7 @@ if
 bytes
 )
 return
-NULL
+nullptr
 ;
 return
 js_NewStringCopyZ
@@ -5744,7 +5744,7 @@ JSObject
 *
 blockChain
 =
-NULL
+nullptr
 ;
 for
 (
@@ -5954,7 +5954,7 @@ PCStack
 :
 stack
 (
-NULL
+nullptr
 )
 depth_
 (
@@ -6185,7 +6185,7 @@ fun
 )
 localNames
 (
-NULL
+nullptr
 )
 sprinter
 (
@@ -7321,7 +7321,7 @@ if
 chain
 )
 return
-NULL
+nullptr
 ;
 JS_ASSERT
 (
@@ -7484,7 +7484,7 @@ BlockObject
 ;
 }
 return
-NULL
+nullptr
 ;
 }
 JSAtom
@@ -7716,7 +7716,7 @@ true
 *
 valuepc
 =
-NULL
+nullptr
 ;
 PCStack
 pcstack
@@ -7923,7 +7923,7 @@ JSDVG_SEARCH_STACK
 *
 res
 =
-NULL
+nullptr
 ;
 #
 ifdef
@@ -8000,7 +8000,7 @@ callee
 (
 )
 :
-NULL
+nullptr
 )
 ;
 JS_ASSERT
@@ -8154,7 +8154,7 @@ result
 )
 )
 return
-NULL
+nullptr
 ;
 if
 (
@@ -8219,7 +8219,7 @@ if
 fallback
 )
 return
-NULL
+nullptr
 ;
 }
 Rooted
@@ -8245,7 +8245,7 @@ if
 linear
 )
 return
-NULL
+nullptr
 ;
 TwoByteChars
 tbchars
@@ -8302,7 +8302,7 @@ formalIndex
 *
 res
 =
-NULL
+nullptr
 ;
 #
 ifdef
@@ -8393,7 +8393,7 @@ callee
 (
 )
 :
-NULL
+nullptr
 )
 ;
 JS_ASSERT
@@ -8597,7 +8597,7 @@ result
 )
 )
 return
-NULL
+nullptr
 ;
 if
 (
@@ -8659,7 +8659,7 @@ if
 fallback
 )
 return
-NULL
+nullptr
 ;
 Rooted
 <
@@ -8684,7 +8684,7 @@ if
 linear
 )
 return
-NULL
+nullptr
 ;
 return
 LossyTwoByteCharsToNewLatin1CharsZ
@@ -8723,7 +8723,7 @@ ReconstructPCStack
 cx
 script
 pc
-NULL
+nullptr
 )
 ;
 }
@@ -9999,12 +9999,12 @@ JS_ReportErrorNumber
 (
 cx
 js_GetErrorMessage
-NULL
+nullptr
 JSMSG_BUFFER_TOO_SMALL
 )
 ;
 return
-NULL
+nullptr
 ;
 }
 const
@@ -10089,7 +10089,7 @@ str
 )
 )
 return
-NULL
+nullptr
 ;
 buf
 .
@@ -10172,7 +10172,7 @@ atom
 )
 )
 return
-NULL
+nullptr
 ;
 buf
 .
@@ -10729,7 +10729,7 @@ isExceptionPending
 )
 )
 return
-NULL
+nullptr
 ;
 return
 buf
@@ -10790,7 +10790,7 @@ JS_DecompileScript
 (
 cx
 script
-NULL
+nullptr
 0
 )
 ;
@@ -11777,12 +11777,12 @@ JS_ReportErrorNumber
 (
 cx
 js_GetErrorMessage
-NULL
+nullptr
 JSMSG_BUFFER_TOO_SMALL
 )
 ;
 return
-NULL
+nullptr
 ;
 }
 const
@@ -11864,7 +11864,7 @@ buf
 )
 )
 return
-NULL
+nullptr
 ;
 }
 return

@@ -1619,7 +1619,7 @@ result
 cvt_s
 (
 ss
-NULL
+nullptr
 width
 prec
 flags
@@ -1777,7 +1777,7 @@ rv
 1
 ;
 return
-NULL
+nullptr
 ;
 }
 number
@@ -1801,7 +1801,7 @@ rv
 1
 ;
 return
-NULL
+nullptr
 ;
 }
 i
@@ -1830,7 +1830,7 @@ number
 )
 {
 return
-NULL
+nullptr
 ;
 }
 if
@@ -1871,7 +1871,7 @@ rv
 1
 ;
 return
-NULL
+nullptr
 ;
 }
 }
@@ -2585,7 +2585,7 @@ nas
 )
 ;
 return
-NULL
+nullptr
 ;
 }
 cn
@@ -2799,7 +2799,7 @@ rv
 1
 ;
 return
-NULL
+nullptr
 ;
 }
 cn
@@ -2914,7 +2914,7 @@ NumArgState
 *
 nas
 =
-NULL
+nullptr
 ;
 struct
 NumArgState
@@ -2934,7 +2934,7 @@ char
 *
 dolPt
 =
-NULL
+nullptr
 ;
 nas
 =
@@ -3082,7 +3082,7 @@ if
 nas
 !
 =
-NULL
+nullptr
 )
 {
 i
@@ -4020,7 +4020,7 @@ if
 nas
 !
 =
-NULL
+nullptr
 )
 {
 i

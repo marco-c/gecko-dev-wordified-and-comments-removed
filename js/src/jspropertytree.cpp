@@ -185,7 +185,7 @@ hash
 )
 ;
 return
-NULL
+nullptr
 ;
 }
 JS_ALWAYS_TRUE
@@ -533,7 +533,7 @@ child
 >
 parent
 =
-NULL
+nullptr
 ;
 return
 ;
@@ -575,7 +575,7 @@ child
 >
 parent
 =
-NULL
+nullptr
 ;
 if
 (
@@ -670,7 +670,7 @@ Shape
 *
 shape
 =
-NULL
+nullptr
 ;
 JS_ASSERT
 (
@@ -879,7 +879,7 @@ shape
 ;
 shape
 =
-NULL
+nullptr
 ;
 }
 }
@@ -926,7 +926,7 @@ if
 shape
 )
 return
-NULL
+nullptr
 ;
 new
 (
@@ -949,7 +949,7 @@ shape
 )
 )
 return
-NULL
+nullptr
 ;
 return
 shape
@@ -1254,7 +1254,7 @@ ensureLinear
 cx
 )
 :
-NULL
+nullptr
 ;
 }
 if
@@ -1773,7 +1773,7 @@ FILE
 *
 dumpfp
 =
-NULL
+nullptr
 ;
 if
 (

@@ -387,7 +387,7 @@ JS_ReportErrorNumber
 (
 cx
 js_GetErrorMessage
-NULL
+nullptr
 JSMSG_JSON_BAD_PARSE
 msg
 )
@@ -3166,7 +3166,7 @@ if
 obj
 )
 return
-NULL
+nullptr
 ;
 RootedId
 propid
@@ -3236,7 +3236,7 @@ JSPROP_ENUMERATE
 )
 {
 return
-NULL
+nullptr
 ;
 }
 }
