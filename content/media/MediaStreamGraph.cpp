@@ -5994,6 +5994,9 @@ AssertCurrentThreadOwns
 ;
 if
 (
+aFinalUpdate
+|
+|
 ShouldUpdateMainThread
 (
 )
