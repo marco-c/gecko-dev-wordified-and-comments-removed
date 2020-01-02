@@ -730,12 +730,6 @@ GetClassInfo
 (
 )
 id
-wrapper
--
->
-GetSecurityInfoAddr
-(
-)
 )
 )
 )
