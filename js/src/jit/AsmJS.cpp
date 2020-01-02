@@ -34500,9 +34500,9 @@ HelperThreadState
 (
 )
 .
-threadCount
-+
-1
+maxAsmJSCompilationThreads
+(
+)
 ;
 Vector
 <

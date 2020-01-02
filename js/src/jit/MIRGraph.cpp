@@ -127,6 +127,10 @@ error_
 (
 false
 )
+pauseBuild_
+(
+nullptr
+)
 cancelBuild_
 (
 false
