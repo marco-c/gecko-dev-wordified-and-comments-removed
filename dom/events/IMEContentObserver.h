@@ -624,6 +624,9 @@ mNodeOffset
 FlatTextCache
 mEndOfAddedTextCache
 ;
+FlatTextCache
+mStartOfRemovingTextRangeCache
+;
 TextChangeData
 mTextChangeData
 ;
