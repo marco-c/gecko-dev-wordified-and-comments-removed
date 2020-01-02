@@ -142,8 +142,17 @@ __STDC_LIMIT_MACROS
 define
 __STDC_CONSTANT_MACROS
 #
+if
+!
+defined
+(
+__STDC_FORMAT_MACROS
+)
+#
 define
 __STDC_FORMAT_MACROS
+#
+endif
 /
 *
 *
