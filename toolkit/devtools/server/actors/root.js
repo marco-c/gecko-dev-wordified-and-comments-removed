@@ -184,6 +184,9 @@ true
 bulk
 :
 true
+selectorEditable
+:
+true
 }
 sayHello
 :
