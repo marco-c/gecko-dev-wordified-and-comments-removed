@@ -153,14 +153,6 @@ test_oop
 .
 html
 \
-test_sync
-.
-html
-\
-file_sync
-.
-html
-\
 (
 NULL
 )
