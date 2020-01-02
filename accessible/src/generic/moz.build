@@ -281,6 +281,14 @@ LOCAL_INCLUDES
 /
 windows
 /
+ia2
+'
+'
+.
+.
+/
+windows
+/
 msaa
 '
 ]
