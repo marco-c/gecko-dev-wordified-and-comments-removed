@@ -243,10 +243,7 @@ nsCharPtrHashKey
 {
 friend
 class
-mozilla
-:
-:
-ObserverServiceReporter
+nsObserverService
 ;
 public
 :

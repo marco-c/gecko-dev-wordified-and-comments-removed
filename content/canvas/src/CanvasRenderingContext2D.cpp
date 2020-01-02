@@ -4292,7 +4292,7 @@ registered
 =
 true
 ;
-NS_RegisterMemoryReporter
+RegisterStrongMemoryReporter
 (
 new
 Canvas2dPixelsReporter

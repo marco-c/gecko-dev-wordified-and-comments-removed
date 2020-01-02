@@ -1677,7 +1677,7 @@ Run
 )
 {
 return
-NS_RegisterMemoryReporter
+RegisterStrongMemoryReporter
 (
 new
 PreferenceServiceReporter

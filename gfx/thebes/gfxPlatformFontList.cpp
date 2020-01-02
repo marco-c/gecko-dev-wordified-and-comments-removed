@@ -650,10 +650,12 @@ gFontListPrefObserver
 kObservedPrefs
 )
 ;
-NS_RegisterMemoryReporter
+RegisterStrongMemoryReporter
 (
 new
 MemoryReporter
+(
+)
 )
 ;
 }
