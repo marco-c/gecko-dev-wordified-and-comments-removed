@@ -529,6 +529,21 @@ DataView
 )
 )
 \
+real
+(
+SharedArrayBuffer
+36
+js_InitSharedArrayBufferClass
+&
+js
+:
+:
+SharedArrayBufferObject
+:
+:
+protoClass
+)
+\
 IF_INTL
 (
 real
@@ -536,7 +551,7 @@ imaginary
 )
 (
 Intl
-36
+37
 js_InitIntlClass
 CLASP
 (
@@ -551,7 +566,7 @@ imaginary
 )
 (
 TypedObject
-37
+38
 js_InitTypedObjectModuleObject
 OCLASP
 (
@@ -562,7 +577,7 @@ TypedObjectModule
 imaginary
 (
 GeneratorFunction
-38
+39
 js_InitIteratorClasses
 dummy
 )
@@ -574,7 +589,7 @@ imaginary
 )
 (
 SIMD
-39
+40
 js_InitSIMDClass
 OCLASP
 (

@@ -489,6 +489,15 @@ include
 "
 vm
 /
+SharedArrayObject
+.
+h
+"
+#
+include
+"
+vm
+/
 StopIterationObject
 .
 h

@@ -32,6 +32,9 @@ class
 ArrayBufferViewObject
 ;
 class
+SharedArrayBufferObject
+;
+class
 BaseShape
 ;
 class
@@ -314,6 +317,11 @@ DeclMarker
 (
 Object
 ArrayBufferViewObject
+)
+DeclMarker
+(
+Object
+SharedArrayBufferObject
 )
 DeclMarker
 (

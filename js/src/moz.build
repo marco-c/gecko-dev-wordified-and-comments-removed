@@ -1280,6 +1280,13 @@ cpp
 '
 vm
 /
+SharedArrayObject
+.
+cpp
+'
+'
+vm
+/
 SPSProfiler
 .
 cpp
