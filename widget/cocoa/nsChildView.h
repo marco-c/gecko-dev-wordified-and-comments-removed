@@ -930,7 +930,7 @@ aType
 (
 void
 )
-update
+updateGLContext
 ;
 -
 (
