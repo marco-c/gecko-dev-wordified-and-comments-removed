@@ -2738,13 +2738,13 @@ rt
 if
 defined
 (
-DEBUG
+JSGC_GENERATIONAL
 )
 &
 &
 defined
 (
-JSGC_GENERATIONAL
+JS_GC_ZEAL
 )
 void
 checkHashTablesAfterMovingGC
