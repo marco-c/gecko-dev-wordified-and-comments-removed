@@ -143,6 +143,11 @@ IMediaResourceManagerService
 cpp
 '
 '
+MediaResourceHandler
+.
+cpp
+'
+'
 MediaResourceManagerClient
 .
 cpp
