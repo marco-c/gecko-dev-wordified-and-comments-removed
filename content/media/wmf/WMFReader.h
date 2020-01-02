@@ -153,6 +153,11 @@ MOZ_OVERRIDE
 private
 :
 HRESULT
+CreateSourceReader
+(
+)
+;
+HRESULT
 ConfigureAudioDecoder
 (
 )
