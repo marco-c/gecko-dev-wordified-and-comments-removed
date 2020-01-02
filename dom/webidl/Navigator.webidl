@@ -1786,12 +1786,6 @@ type
 #
 ifdef
 MOZ_B2G_RIL
-/
-/
-nsIMozNavigatorMobileConnection
-interface
-MozMobileConnection
-;
 partial
 interface
 Navigator
@@ -1809,8 +1803,8 @@ HasMobileConnectionSupport
 ]
 readonly
 attribute
-MozMobileConnection
-mozMobileConnection
+MozMobileConnectionArray
+mozMobileConnections
 ;
 }
 ;
