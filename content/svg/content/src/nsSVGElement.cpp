@@ -373,7 +373,7 @@ size
 nsresult
 NS_NewSVGElement
 (
-nsIContent
+Element
 *
 *
 aResult
