@@ -2253,7 +2253,7 @@ computedTiming
 dom
 :
 :
-AnimationPlayer
+Animation
 :
 :
 GetComputedTimingAt
