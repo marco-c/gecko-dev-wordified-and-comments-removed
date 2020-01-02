@@ -376,11 +376,13 @@ ScrollableLayerGuid
 *
 aGuidOut
 )
+const
 ;
 ScrollableLayerGuid
 GetGuid
 (
 )
+const
 ;
 bool
 Matches
@@ -683,6 +685,7 @@ FrameMetrics
 GetFrameMetrics
 (
 )
+const
 ;
 void
 SetContentResponseTimer

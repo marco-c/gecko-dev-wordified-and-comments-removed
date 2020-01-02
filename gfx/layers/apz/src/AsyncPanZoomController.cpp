@@ -9123,6 +9123,7 @@ AsyncPanZoomController
 GetFrameMetrics
 (
 )
+const
 {
 mMonitor
 .
@@ -10657,6 +10658,7 @@ ScrollableLayerGuid
 *
 aGuidOut
 )
+const
 {
 if
 (
@@ -10679,6 +10681,7 @@ AsyncPanZoomController
 GetGuid
 (
 )
+const
 {
 return
 ScrollableLayerGuid
