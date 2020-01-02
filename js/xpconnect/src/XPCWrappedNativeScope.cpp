@@ -817,13 +817,7 @@ JS_DefinePropertyById
 aCx
 global
 id
-ObjectValue
-(
-*
 components
-)
-nullptr
-nullptr
 JSPROP_PERMANENT
 |
 JSPROP_READONLY

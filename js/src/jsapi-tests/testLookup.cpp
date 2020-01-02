@@ -371,8 +371,6 @@ cx
 obj
 id
 allValue
-nullptr
-nullptr
 0
 )
 ;

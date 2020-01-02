@@ -1599,8 +1599,6 @@ cx
 obj
 id
 val
-nullptr
-nullptr
 JSPROP_ENUMERATE
 |
 JSPROP_READONLY

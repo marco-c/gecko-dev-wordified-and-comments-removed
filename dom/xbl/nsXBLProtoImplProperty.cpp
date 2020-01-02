@@ -762,7 +762,11 @@ name
 Length
 (
 )
-JSVAL_VOID
+JS
+:
+:
+UndefinedHandleValue
+mJSAttributes
 JS_DATA_TO_FUNC_PTR
 (
 JSPropertyOp
@@ -781,7 +785,6 @@ get
 (
 )
 )
-mJSAttributes
 )
 )
 return

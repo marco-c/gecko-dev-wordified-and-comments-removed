@@ -748,12 +748,7 @@ token
 Length
 (
 )
-OBJECT_TO_JSVAL
-(
 dummy
-)
-nullptr
-nullptr
 JSPROP_ENUMERATE
 )
 )
@@ -844,12 +839,7 @@ token
 Length
 (
 )
-OBJECT_TO_JSVAL
-(
 dummy
-)
-nullptr
-nullptr
 JSPROP_ENUMERATE
 )
 )

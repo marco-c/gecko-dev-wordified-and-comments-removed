@@ -1571,9 +1571,9 @@ cx
 targetScope
 id
 rval
+JSPROP_ENUMERATE
 JS_PropertyStub
 JS_StrictPropertyStub
-JSPROP_ENUMERATE
 )
 )
 {

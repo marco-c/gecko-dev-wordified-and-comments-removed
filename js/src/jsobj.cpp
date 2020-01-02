@@ -2665,12 +2665,12 @@ HandleId
 id
 HandleValue
 value
+unsigned
+attrs
 PropertyOp
 getter
 StrictPropertyOp
 setter
-unsigned
-attrs
 )
 {
 if

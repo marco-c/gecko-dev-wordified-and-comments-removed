@@ -460,9 +460,10 @@ JS_DefinePropertyById
 cx
 obj
 id
-JSVAL_FALSE
-nullptr
-nullptr
+JS
+:
+:
+FalseHandleValue
 0
 )
 )
@@ -537,9 +538,10 @@ JS_DefinePropertyById
 cx
 obj
 id
-JSVAL_NULL
-nullptr
-nullptr
+JS
+:
+:
+NullHandleValue
 0
 )
 )

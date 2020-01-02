@@ -478,8 +478,6 @@ global
 netscape
 "
 objectClass
-nullptr
-0
 )
 ;
 if
@@ -502,8 +500,6 @@ obj
 security
 "
 objectClass
-nullptr
-0
 )
 ;
 if
@@ -545,8 +541,6 @@ securityObj
 PrivilegeManager
 "
 objectClass
-nullptr
-0
 )
 ;
 if

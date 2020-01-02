@@ -1725,7 +1725,8 @@ id
 JS
 :
 :
-UndefinedValue
+UndefinedHandleValue
+AccessorAttributes
 (
 )
 JS_DATA_TO_FUNC_PTR
@@ -1745,9 +1746,6 @@ set
 get
 (
 )
-)
-AccessorAttributes
-(
 )
 )
 )
@@ -2089,8 +2087,6 @@ Length
 (
 )
 result
-nullptr
-nullptr
 mJSAttributes
 )
 )

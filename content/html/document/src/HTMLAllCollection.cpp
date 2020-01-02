@@ -1539,8 +1539,6 @@ cx
 obj
 id
 v
-nullptr
-nullptr
 0
 )
 ;

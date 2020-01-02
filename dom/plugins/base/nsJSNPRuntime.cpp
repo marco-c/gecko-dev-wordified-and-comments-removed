@@ -7146,9 +7146,10 @@ JS_DefinePropertyById
 cx
 obj
 id
-JSVAL_VOID
-nullptr
-nullptr
+JS
+:
+:
+UndefinedHandleValue
 JSPROP_ENUMERATE
 |
 JSPROP_SHARED
