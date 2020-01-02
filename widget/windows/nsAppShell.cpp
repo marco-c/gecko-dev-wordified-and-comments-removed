@@ -170,6 +170,12 @@ NS_DECL_ISUPPORTS
 ;
 private
 :
+~
+WinWakeLockListener
+(
+)
+{
+}
 NS_IMETHOD
 Callback
 (
