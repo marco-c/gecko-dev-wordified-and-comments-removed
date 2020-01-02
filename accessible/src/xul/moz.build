@@ -189,10 +189,6 @@ generic
 layout
 /
 xul
-/
-base
-/
-src
 '
 '
 .
@@ -209,8 +205,6 @@ layout
 xul
 /
 tree
-/
-/
 '
 '
 .

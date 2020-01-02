@@ -255,10 +255,6 @@ style
 .
 /
 xul
-/
-base
-/
-src
 '
 ]
 DEFINES
