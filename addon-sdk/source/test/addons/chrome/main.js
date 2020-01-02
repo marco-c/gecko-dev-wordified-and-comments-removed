@@ -189,12 +189,14 @@ equal
 response
 .
 text
+.
+trim
+(
+)
 '
 test
 {
 }
-\
-n
 '
 '
 chrome

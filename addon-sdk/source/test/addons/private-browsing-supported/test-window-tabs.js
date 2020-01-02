@@ -235,6 +235,11 @@ window
 then
 (
 done
+)
+.
+then
+(
+null
 assert
 .
 fail
@@ -244,9 +249,6 @@ fail
 }
 )
 }
-assert
-.
-fail
 )
 .
 then
@@ -412,6 +414,11 @@ window
 then
 (
 done
+)
+.
+then
+(
+null
 assert
 .
 fail
@@ -421,9 +428,6 @@ fail
 }
 )
 }
-assert
-.
-fail
 )
 .
 then
@@ -586,6 +590,11 @@ window
 then
 (
 done
+)
+.
+then
+(
+null
 assert
 .
 fail
@@ -595,9 +604,6 @@ fail
 }
 )
 }
-assert
-.
-fail
 )
 .
 then
@@ -766,6 +772,11 @@ window
 then
 (
 done
+)
+.
+then
+(
+null
 assert
 .
 fail
@@ -775,9 +786,6 @@ fail
 }
 )
 }
-assert
-.
-fail
 )
 .
 then

@@ -66,6 +66,7 @@ array
 const
 {
 isNil
+isRegExp
 }
 =
 require
@@ -107,6 +108,9 @@ string
 "
 "
 undefined
+"
+"
+regexp
 "
 ]
 ;
@@ -568,6 +572,18 @@ val
 return
 "
 array
+"
+;
+if
+(
+isRegExp
+(
+val
+)
+)
+return
+"
+regexp
 "
 ;
 }

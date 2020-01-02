@@ -258,11 +258,11 @@ when
 =
 =
 '
-end
+ready
 '
 ?
 '
-load
+DOMContentLoaded
 '
 :
 when
@@ -270,11 +270,11 @@ when
 =
 =
 '
-ready
+end
 '
 ?
 '
-DOMContentLoaded
+load
 '
 :
 null
