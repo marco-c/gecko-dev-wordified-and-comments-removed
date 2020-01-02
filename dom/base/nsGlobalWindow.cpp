@@ -56829,7 +56829,7 @@ mouseEvent
 mClass
 !
 =
-NS_MOUSE_EVENT
+eMouseEventClass
 )
 {
 aError

@@ -7511,7 +7511,7 @@ mouseEvent
 mClass
 =
 =
-NS_MOUSE_EVENT
+eMouseEventClass
 )
 {
 mLastMouseDownButtonType
@@ -7633,7 +7633,7 @@ mouseEvent
 mClass
 =
 =
-NS_MOUSE_EVENT
+eMouseEventClass
 )
 {
 nsEventStatus
@@ -8828,7 +8828,7 @@ anEvent
 mClass
 =
 =
-NS_MOUSE_EVENT
+eMouseEventClass
 )
 {
 if
@@ -9427,7 +9427,7 @@ mClass
 )
 {
 case
-NS_MOUSE_EVENT
+eMouseEventClass
 :
 {
 switch
@@ -10338,7 +10338,7 @@ mClass
 )
 {
 case
-NS_MOUSE_EVENT
+eMouseEventClass
 :
 {
 switch

@@ -30303,7 +30303,7 @@ aEvent
 mClass
 =
 =
-NS_MOUSE_EVENT
+eMouseEventClass
 )
 {
 WidgetMouseEvent
@@ -32560,7 +32560,7 @@ mouseEvent
 mClass
 =
 =
-NS_MOUSE_EVENT
+eMouseEventClass
 &
 &
 mouseEvent
@@ -32803,7 +32803,7 @@ aEvent
 mClass
 =
 =
-NS_MOUSE_EVENT
+eMouseEventClass
 &
 &
 frame

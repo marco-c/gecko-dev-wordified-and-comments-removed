@@ -279,7 +279,7 @@ mClass
 )
 {
 case
-NS_MOUSE_EVENT
+eMouseEventClass
 :
 case
 NS_MOUSE_SCROLL_EVENT
@@ -510,7 +510,7 @@ mClass
 )
 {
 case
-NS_MOUSE_EVENT
+eMouseEventClass
 :
 case
 NS_MOUSE_SCROLL_EVENT
@@ -697,7 +697,7 @@ mClass
 )
 {
 case
-NS_MOUSE_EVENT
+eMouseEventClass
 :
 case
 NS_MOUSE_SCROLL_EVENT
@@ -896,7 +896,7 @@ mClass
 )
 {
 case
-NS_MOUSE_EVENT
+eMouseEventClass
 :
 case
 NS_MOUSE_SCROLL_EVENT
@@ -995,7 +995,7 @@ mClass
 )
 {
 case
-NS_MOUSE_EVENT
+eMouseEventClass
 :
 case
 NS_MOUSE_SCROLL_EVENT
@@ -1102,7 +1102,7 @@ mClass
 )
 {
 case
-NS_MOUSE_EVENT
+eMouseEventClass
 :
 case
 NS_MOUSE_SCROLL_EVENT

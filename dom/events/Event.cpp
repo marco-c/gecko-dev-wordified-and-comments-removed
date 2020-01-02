@@ -594,7 +594,7 @@ mClass
 )
 {
 case
-NS_MOUSE_EVENT
+eMouseEventClass
 :
 case
 NS_MOUSE_SCROLL_EVENT
@@ -788,7 +788,7 @@ mClass
 )
 {
 case
-NS_MOUSE_EVENT
+eMouseEventClass
 :
 case
 NS_MOUSE_SCROLL_EVENT
@@ -3073,7 +3073,7 @@ break
 break
 ;
 case
-NS_MOUSE_EVENT
+eMouseEventClass
 :
 if
 (
@@ -3380,7 +3380,7 @@ aEvent
 mClass
 !
 =
-NS_MOUSE_EVENT
+eMouseEventClass
 &
 &
 aEvent
@@ -3680,7 +3680,7 @@ aEvent
 mClass
 !
 =
-NS_MOUSE_EVENT
+eMouseEventClass
 &
 &
 aEvent

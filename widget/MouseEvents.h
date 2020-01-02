@@ -582,7 +582,7 @@ WidgetMouseEventBase
 aIsTrusted
 aMessage
 aWidget
-NS_MOUSE_EVENT
+eMouseEventClass
 )
 acceptActivation
 (
@@ -718,7 +718,7 @@ MOZ_ASSERT
 mClass
 =
 =
-NS_MOUSE_EVENT
+eMouseEventClass
 "
 Duplicate
 (

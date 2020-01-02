@@ -2204,7 +2204,7 @@ aEvent
 mClass
 =
 =
-NS_MOUSE_EVENT
+eMouseEventClass
 |
 |
 aEvent

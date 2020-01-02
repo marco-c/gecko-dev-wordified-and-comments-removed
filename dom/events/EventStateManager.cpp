@@ -4940,7 +4940,7 @@ mClass
 )
 {
 case
-NS_MOUSE_EVENT
+eMouseEventClass
 :
 {
 return
@@ -5271,7 +5271,7 @@ return
 true
 ;
 case
-NS_MOUSE_EVENT
+eMouseEventClass
 :
 switch
 (

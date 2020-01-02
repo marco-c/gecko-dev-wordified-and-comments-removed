@@ -702,7 +702,7 @@ mClass
 )
 {
 case
-NS_MOUSE_EVENT
+eMouseEventClass
 :
 case
 NS_POINTER_EVENT

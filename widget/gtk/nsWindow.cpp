@@ -25789,7 +25789,7 @@ aEvent
 mClass
 =
 =
-NS_MOUSE_EVENT
+eMouseEventClass
 "
 event
 must
@@ -25874,7 +25874,7 @@ aEvent
 mClass
 !
 =
-NS_MOUSE_EVENT
+eMouseEventClass
 )
 {
 return

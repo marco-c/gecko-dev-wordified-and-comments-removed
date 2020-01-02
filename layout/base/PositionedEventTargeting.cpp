@@ -182,7 +182,7 @@ if
 aEventClassID
 =
 =
-NS_MOUSE_EVENT
+eMouseEventClass
 )
 {
 prefBranch
@@ -377,7 +377,7 @@ if
 aEventClassID
 =
 =
-NS_MOUSE_EVENT
+eMouseEventClass
 )
 {
 Preferences
@@ -1859,7 +1859,7 @@ aEvent
 mClass
 =
 =
-NS_MOUSE_EVENT
+eMouseEventClass
 &
 &
 prefs
