@@ -1406,8 +1406,7 @@ PARENT
 )
 +
 "
-=
-=
+<
 ?
 AND
 "
@@ -1437,15 +1436,6 @@ String
 ]
 selectionArgs
 =
-DBUtils
-.
-appendSelectionArgs
-(
-new
-String
-[
-0
-]
 new
 String
 [
@@ -1457,10 +1447,9 @@ valueOf
 (
 Bookmarks
 .
-FIXED_PINNED_LIST_ID
+FIXED_ROOT_ID
 )
 }
-)
 ;
 return
 filterAllSites
