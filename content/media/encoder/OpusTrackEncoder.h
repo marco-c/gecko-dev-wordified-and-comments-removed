@@ -84,7 +84,7 @@ OpusTrackEncoder
 (
 )
 ;
-nsRefPtr
+already_AddRefed
 <
 TrackMetadataBase
 >

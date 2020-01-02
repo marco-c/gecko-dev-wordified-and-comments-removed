@@ -87,10 +87,8 @@ virtual
 nsresult
 SetMetadata
 (
-nsRefPtr
-<
 TrackMetadataBase
->
+*
 aMetadata
 )
 =
@@ -135,12 +133,6 @@ aFlags
 ;
 protected
 :
-nsRefPtr
-<
-TrackMetadataBase
->
-mMetadata
-;
 bool
 mInitialized
 ;

@@ -99,7 +99,7 @@ aGraph
 0
 ;
 virtual
-nsRefPtr
+already_AddRefed
 <
 TrackMetadataBase
 >

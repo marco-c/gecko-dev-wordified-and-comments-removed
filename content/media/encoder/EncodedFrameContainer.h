@@ -41,7 +41,7 @@ aEncodedFrame
 const
 nsTArray
 <
-nsAutoPtr
+nsRefPtr
 <
 EncodedFrame
 >
@@ -60,7 +60,7 @@ private
 :
 nsTArray
 <
-nsAutoPtr
+nsRefPtr
 <
 EncodedFrame
 >
@@ -72,6 +72,10 @@ mEncodedFrames
 class
 EncodedFrame
 {
+NS_INLINE_DECL_THREADSAFE_REFCOUNTING
+(
+EncodedFrame
+)
 public
 :
 EncodedFrame
