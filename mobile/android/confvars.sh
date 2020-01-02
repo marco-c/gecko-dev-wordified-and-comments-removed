@@ -325,6 +325,7 @@ Android
 libraries
 MOZ_NATIVE_DEVICES
 =
+1
 #
 Mark
 as
