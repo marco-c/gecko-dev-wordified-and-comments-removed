@@ -5193,12 +5193,8 @@ color
 box
 -
 shadow
-;
-transition
--
-duration
-:
-250ms
+!
+important
 ;
 }
 #
