@@ -1,4 +1,10 @@
 #
+ifndef
+GrAAConvexPathRenderer_DEFINED
+#
+define
+GrAAConvexPathRenderer_DEFINED
+#
 include
 "
 GrPathRenderer
@@ -63,3 +69,5 @@ SK_OVERRIDE
 ;
 }
 ;
+#
+endif
