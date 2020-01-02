@@ -1028,12 +1028,6 @@ true
 ;
 }
 virtual
-TextureFactoryIdentifier
-GetTextureFactoryIdentifier
-(
-)
-;
-virtual
 int32_t
 GetMaxTextureSize
 (
