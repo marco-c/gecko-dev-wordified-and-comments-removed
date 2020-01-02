@@ -292,6 +292,15 @@ RESERVE_FAILED
 0
 #
 else
+#
+include
+"
+mozilla
+/
+TaggedAnonymousMemory
+.
+h
+"
 static
 void
 *
@@ -304,7 +313,7 @@ size
 )
 {
 return
-mmap
+MozTaggedAnonymousMmap
 (
 reinterpret_cast
 <
@@ -322,6 +331,9 @@ MAP_ANON
 -
 1
 0
+"
+poison
+"
 )
 ;
 }
