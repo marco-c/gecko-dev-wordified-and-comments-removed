@@ -113,6 +113,11 @@ EXTRA_COMPONENTS
 =
 [
 '
+ActivitiesGlue
+.
+js
+'
+'
 AddonUpdateService
 .
 js
