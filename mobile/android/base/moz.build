@@ -2078,6 +2078,13 @@ java
 '
 prompts
 /
+PromptListAdapter
+.
+java
+'
+'
+prompts
+/
 PromptListItem
 .
 java
