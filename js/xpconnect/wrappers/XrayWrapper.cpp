@@ -190,6 +190,9 @@ key
 case
 JSProto_Date
 :
+case
+JSProto_Object
+:
 return
 true
 ;
