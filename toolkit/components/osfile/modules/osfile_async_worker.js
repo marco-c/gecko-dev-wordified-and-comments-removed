@@ -650,6 +650,11 @@ fileName
 :
 exn
 .
+moduleName
+|
+|
+exn
+.
 fileName
 lineNumber
 :
