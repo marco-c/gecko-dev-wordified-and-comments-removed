@@ -31390,7 +31390,8 @@ templateObj_
 ;
 MNewDeclEnvObject
 (
-HandleObject
+JSObject
+*
 templateObj
 )
 :
@@ -31420,7 +31421,8 @@ MNewDeclEnvObject
 *
 New
 (
-HandleObject
+JSObject
+*
 templateObj
 )
 {
@@ -31473,7 +31475,8 @@ needsSingletonType_
 ;
 MNewCallObject
 (
-HandleObject
+JSObject
+*
 templateObj
 bool
 needsSingletonType
@@ -31512,7 +31515,8 @@ MNewCallObject
 *
 New
 (
-HandleObject
+JSObject
+*
 templateObj
 bool
 needsSingletonType

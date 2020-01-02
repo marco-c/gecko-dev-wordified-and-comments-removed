@@ -921,7 +921,6 @@ funScript
 )
 ;
 }
-inline
 void
 ScopeObject
 :
