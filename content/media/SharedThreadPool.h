@@ -81,6 +81,12 @@ aThreadLimit
 4
 )
 ;
+static
+void
+SpinUntilShutdown
+(
+)
+;
 NS_IMETHOD
 QueryInterface
 (
