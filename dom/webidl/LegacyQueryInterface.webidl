@@ -170,14 +170,6 @@ DOMParser
 implements
 LegacyQueryInterface
 ;
-DOMRect
-implements
-LegacyQueryInterface
-;
-DOMRectList
-implements
-LegacyQueryInterface
-;
 DOMStringMap
 implements
 LegacyQueryInterface
