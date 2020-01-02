@@ -207,7 +207,7 @@ tests
 /
 SimpleTest
 /
-ChromePowers
+specialpowers
 .
 js
 "
