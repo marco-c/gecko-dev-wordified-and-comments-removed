@@ -1,0 +1,8 @@
+function
+pineapple
+(
+)
+{
+syntax
+error
+}
