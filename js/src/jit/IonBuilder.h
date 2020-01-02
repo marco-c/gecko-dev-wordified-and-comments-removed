@@ -1542,8 +1542,6 @@ bool
 emitted
 jsid
 id
-bool
-barrier
 types
 :
 :
