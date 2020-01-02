@@ -331,6 +331,11 @@ Href
 ;
 protected
 :
+~
+SVGScriptElement
+(
+)
+;
 virtual
 StringAttributesInfo
 GetStringInfo

@@ -91,6 +91,15 @@ aNodeInfo
 )
 {
 }
+nsSVGPolyElement
+:
+:
+~
+nsSVGPolyElement
+(
+)
+{
+}
 already_AddRefed
 <
 DOMSVGPointList

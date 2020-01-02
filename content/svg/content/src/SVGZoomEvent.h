@@ -156,6 +156,11 @@ mNewTranslate
 }
 private
 :
+~
+SVGZoomEvent
+(
+)
+;
 float
 mPreviousScale
 ;

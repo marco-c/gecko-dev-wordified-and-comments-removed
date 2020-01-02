@@ -242,6 +242,15 @@ MOZ_THIS_IN_INITIALIZER_LIST
 )
 {
 }
+SVGAElement
+:
+:
+~
+SVGAElement
+(
+)
+{
+}
 already_AddRefed
 <
 SVGAnimatedString

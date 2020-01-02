@@ -214,6 +214,13 @@ aNodeInfo
 )
 {
 }
+virtual
+~
+nsSVGFE
+(
+)
+{
+}
 public
 :
 typedef
@@ -740,6 +747,13 @@ aNodeInfo
 nsSVGFELightingElementBase
 (
 aNodeInfo
+)
+{
+}
+virtual
+~
+nsSVGFELightingElement
+(
 )
 {
 }

@@ -113,6 +113,11 @@ NodeInfo
 aNodeInfo
 )
 ;
+~
+SVGTitleElement
+(
+)
+;
 virtual
 JSObject
 *

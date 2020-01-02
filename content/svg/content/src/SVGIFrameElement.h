@@ -252,6 +252,11 @@ aCx
 )
 MOZ_OVERRIDE
 ;
+~
+SVGIFrameElement
+(
+)
+;
 public
 :
 NS_DECL_ISUPPORTS_INHERITED

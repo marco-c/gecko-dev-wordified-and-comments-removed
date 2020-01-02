@@ -315,6 +315,14 @@ SVGSVGElement
 >
 mElement
 ;
+private
+:
+~
+DOMSVGTranslatePoint
+(
+)
+{
+}
 }
 ;
 class

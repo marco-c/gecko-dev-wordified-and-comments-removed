@@ -92,6 +92,15 @@ this
 )
 ;
 }
+SVGTitleElement
+:
+:
+~
+SVGTitleElement
+(
+)
+{
+}
 void
 SVGTitleElement
 :

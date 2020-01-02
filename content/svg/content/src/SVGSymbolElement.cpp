@@ -93,6 +93,15 @@ aNodeInfo
 )
 {
 }
+SVGSymbolElement
+:
+:
+~
+SVGSymbolElement
+(
+)
+{
+}
 NS_IMPL_ELEMENT_CLONE_WITH_INIT
 (
 SVGSymbolElement

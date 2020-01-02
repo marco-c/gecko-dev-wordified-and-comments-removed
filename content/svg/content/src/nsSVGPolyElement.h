@@ -65,6 +65,12 @@ NodeInfo
 aNodeInfo
 )
 ;
+virtual
+~
+nsSVGPolyElement
+(
+)
+;
 public
 :
 NS_DECL_ISUPPORTS_INHERITED

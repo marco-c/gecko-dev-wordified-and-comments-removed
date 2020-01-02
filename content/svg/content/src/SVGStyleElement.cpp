@@ -162,6 +162,15 @@ this
 )
 ;
 }
+SVGStyleElement
+:
+:
+~
+SVGStyleElement
+(
+)
+{
+}
 NS_IMPL_ELEMENT_CLONE_WITH_INIT
 (
 SVGStyleElement

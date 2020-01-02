@@ -350,6 +350,15 @@ true
 }
 }
 }
+SVGZoomEvent
+:
+:
+~
+SVGZoomEvent
+(
+)
+{
+}
 }
 }
 nsresult

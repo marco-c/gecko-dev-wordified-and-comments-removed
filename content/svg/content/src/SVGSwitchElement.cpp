@@ -128,6 +128,15 @@ aNodeInfo
 )
 {
 }
+SVGSwitchElement
+:
+:
+~
+SVGSwitchElement
+(
+)
+{
+}
 void
 SVGSwitchElement
 :

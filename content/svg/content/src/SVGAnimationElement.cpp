@@ -183,6 +183,15 @@ MOZ_THIS_IN_INITIALIZER_LIST
 )
 {
 }
+SVGAnimationElement
+:
+:
+~
+SVGAnimationElement
+(
+)
+{
+}
 nsresult
 SVGAnimationElement
 :

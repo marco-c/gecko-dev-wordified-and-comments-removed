@@ -247,6 +247,15 @@ aFromParser
 )
 {
 }
+SVGIFrameElement
+:
+:
+~
+SVGIFrameElement
+(
+)
+{
+}
 gfxMatrix
 SVGIFrameElement
 :
