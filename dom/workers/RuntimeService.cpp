@@ -3182,6 +3182,9 @@ VIOLATION_TYPE_EVAL
 mFileName
 scriptSample
 mLineNum
+EmptyString
+(
+)
 )
 ;
 }

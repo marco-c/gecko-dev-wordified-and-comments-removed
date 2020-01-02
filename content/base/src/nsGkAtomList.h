@@ -4215,6 +4215,13 @@ nohref
 )
 GK_ATOM
 (
+nonce
+"
+nonce
+"
+)
+GK_ATOM
+(
 none
 "
 none
