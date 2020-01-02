@@ -209,13 +209,6 @@ SetIdle
 )
 {
 }
-virtual
-void
-SetActive
-(
-)
-{
-}
 void
 SetIgnoreAudioOutputFormat
 (

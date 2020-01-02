@@ -996,17 +996,7 @@ SetReaderIdle
 )
 ;
 void
-SetReaderActive
-(
-)
-;
-void
 DispatchDecodeTasksIfNeeded
-(
-)
-;
-void
-EnsureActive
 (
 )
 ;
@@ -1259,9 +1249,6 @@ mDispatchedAudioDecodeTask
 ;
 bool
 mDispatchedVideoDecodeTask
-;
-bool
-mIsReaderIdle
 ;
 bool
 mSkipToNextKeyFrame
