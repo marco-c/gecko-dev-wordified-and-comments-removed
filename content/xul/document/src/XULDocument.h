@@ -1457,8 +1457,12 @@ mCurrentScriptProto
 bool
 mOffThreadCompiling
 ;
-nsString
-mOffThreadCompileString
+jschar
+*
+mOffThreadCompileStringBuf
+;
+size_t
+mOffThreadCompileStringLength
 ;
 static
 nsresult
