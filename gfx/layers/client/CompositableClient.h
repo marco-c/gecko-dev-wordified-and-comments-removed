@@ -288,7 +288,7 @@ GetAsyncID
 const
 ;
 virtual
-void
+bool
 AddTextureClient
 (
 TextureClient

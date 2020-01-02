@@ -352,7 +352,7 @@ aBackBufferToDestroy
 0
 ;
 virtual
-void
+bool
 AddTexture
 (
 CompositableClient

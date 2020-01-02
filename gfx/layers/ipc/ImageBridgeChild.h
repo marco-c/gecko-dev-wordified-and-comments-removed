@@ -484,7 +484,7 @@ aCompositable
 MOZ_OVERRIDE
 ;
 virtual
-void
+bool
 AddTexture
 (
 CompositableClient

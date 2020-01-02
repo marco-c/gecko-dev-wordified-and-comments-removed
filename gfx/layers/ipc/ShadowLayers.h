@@ -620,7 +620,7 @@ aRect
 )
 ;
 virtual
-void
+bool
 AddTexture
 (
 CompositableClient
