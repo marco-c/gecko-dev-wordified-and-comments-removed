@@ -641,16 +641,6 @@ IsPlaying
 ;
 protected
 :
-virtual
-uint32_t
-GetAmpleVideoFrames
-(
-)
-{
-return
-mAmpleVideoFrames
-;
-}
 void
 AssertCurrentThreadInMonitor
 (
