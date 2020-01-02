@@ -6035,7 +6035,7 @@ return
 ;
 }
 const
-nsCSSValueGridTemplateAreas
+GridTemplateAreasValue
 &
 areas
 =
