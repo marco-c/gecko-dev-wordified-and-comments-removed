@@ -1511,6 +1511,8 @@ SHA1Sum
 Hash
 *
 aHash
+bool
+aFailIfAlreadyDoomed
 )
 ;
 nsresult
