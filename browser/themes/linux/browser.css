@@ -345,13 +345,6 @@ nav
 -
 bar
 {
-margin
--
-top
-:
--
-tabToolbarNavbarOverlap
-;
 position
 :
 relative
@@ -13698,6 +13691,13 @@ padding
 position
 :
 relative
+;
+margin
+-
+bottom
+:
+-
+tabToolbarNavbarOverlap
 ;
 }
 #

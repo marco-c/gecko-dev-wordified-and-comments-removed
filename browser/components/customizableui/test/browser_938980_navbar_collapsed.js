@@ -240,7 +240,7 @@ now
 "
 )
 ;
-is
+ok
 (
 navbar
 .
@@ -249,14 +249,17 @@ getBoundingClientRect
 )
 .
 height
+<
+=
 1
 "
 navbar
 should
 have
-a
 height
 =
+0
+or
 1
 (
 due
