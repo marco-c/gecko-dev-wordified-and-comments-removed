@@ -1628,7 +1628,7 @@ data
 &
 data
 .
-isVerified
+verified
 )
 ;
 }
@@ -1743,7 +1743,7 @@ if
 (
 data
 .
-isVerified
+verified
 )
 {
 log
@@ -2047,7 +2047,7 @@ data
 {
 data
 .
-isVerified
+verified
 =
 true
 ;

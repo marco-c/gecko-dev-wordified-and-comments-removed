@@ -445,7 +445,7 @@ uid
 '
 user_uid
 '
-isVerified
+verified
 :
 true
 }

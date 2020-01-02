@@ -696,7 +696,7 @@ kB
 "
 cafe
 "
-isVerified
+verified
 :
 true
 }
@@ -988,7 +988,7 @@ do_check_eq
 (
 user
 .
-isVerified
+verified
 true
 )
 ;
@@ -1048,7 +1048,7 @@ do_check_eq
 (
 user
 .
-isVerified
+verified
 false
 )
 ;
@@ -1276,7 +1276,7 @@ eusebius
 ;
 user
 .
-isVerified
+verified
 =
 true
 ;
@@ -1386,7 +1386,7 @@ do_check_eq
 !
 user
 .
-isVerified
+verified
 true
 )
 ;
@@ -1650,7 +1650,7 @@ do_check_eq
 (
 user
 .
-isVerified
+verified
 true
 )
 ;
@@ -1724,7 +1724,7 @@ do_check_eq
 (
 user
 .
-isVerified
+verified
 false
 )
 ;
@@ -1879,7 +1879,7 @@ expandHex
 66
 "
 )
-isVerified
+verified
 :
 true
 }
@@ -2717,7 +2717,7 @@ expandHex
 44
 "
 )
-isVerified
+verified
 :
 false
 }
