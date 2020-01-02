@@ -622,10 +622,6 @@ stop
 run_next_test
 )
 ;
-run_next_test
-(
-)
-;
 }
 )
 ;
