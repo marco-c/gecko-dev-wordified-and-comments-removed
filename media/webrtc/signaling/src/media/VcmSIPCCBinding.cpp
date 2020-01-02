@@ -571,10 +571,7 @@ VcmSIPCCBinding
 :
 disconnect_all
 )
-)
-;
-disconnect_all
-(
+true
 )
 ;
 }
