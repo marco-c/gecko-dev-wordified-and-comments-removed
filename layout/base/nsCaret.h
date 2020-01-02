@@ -119,7 +119,6 @@ bool
 intMakeVisible
 )
 ;
-virtual
 nsresult
 GetCaretVisible
 (
@@ -162,7 +161,6 @@ int32_t
 aOffset
 )
 ;
-virtual
 nsIFrame
 *
 GetGeometry
