@@ -640,6 +640,15 @@ ConfirmTLSProfile
 (
 )
 ;
+static
+bool
+ALPNCallback
+(
+nsISupports
+*
+securityInfo
+)
+;
 uint64_t
 Serial
 (
