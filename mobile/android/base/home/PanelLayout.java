@@ -1459,7 +1459,11 @@ push
 new
 FilterDetail
 (
-null
+mViewConfig
+.
+getFilter
+(
+)
 mPanelConfig
 .
 getTitle
