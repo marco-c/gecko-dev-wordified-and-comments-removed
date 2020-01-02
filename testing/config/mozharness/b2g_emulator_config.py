@@ -335,6 +335,19 @@ s
 -
 quiet
 "
+"
+-
+-
+certificate
+-
+path
+=
+%
+(
+certificate_path
+)
+s
+"
     
 ]
     
