@@ -417,12 +417,6 @@ cmd_undo
 cmd_redo
 '
 '
-cmd_cut
-'
-'
-cmd_paste
-'
-'
 cmd_delete
 '
 '
