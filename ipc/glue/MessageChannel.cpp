@@ -69,6 +69,13 @@ nsContentUtils
 h
 "
 #
+include
+"
+prprf
+.
+h
+"
+#
 undef
 compress
 using
