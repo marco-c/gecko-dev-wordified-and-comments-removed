@@ -3227,7 +3227,7 @@ unused
 ContentParent
 :
 :
-GetNewOrUsed
+GetNewOrUsedBrowserProcess
 (
 )
 ;

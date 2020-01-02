@@ -3090,7 +3090,7 @@ parent
 ContentParent
 :
 :
-GetNewOrUsed
+GetNewOrUsedBrowserProcess
 (
 )
 ;
