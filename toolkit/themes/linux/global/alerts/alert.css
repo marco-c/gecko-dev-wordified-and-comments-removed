@@ -334,16 +334,3 @@ width
 16px
 ;
 }
-.
-alertCloseButton
->
-.
-toolbarbutton
--
-text
-{
-display
-:
-none
-;
-}

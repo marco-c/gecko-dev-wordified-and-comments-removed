@@ -430,16 +430,3 @@ border
 none
 ;
 }
-.
-alertCloseButton
->
-.
-toolbarbutton
--
-text
-{
-display
-:
-none
-;
-}
