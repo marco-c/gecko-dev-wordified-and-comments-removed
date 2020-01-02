@@ -145,8 +145,6 @@ media
 /
 libogg
 /
-src
-/
 (
 LIB_PREFIX
 )
@@ -192,8 +190,6 @@ DEPTH
 media
 /
 libogg
-/
-src
 /
 (
 LIB_PREFIX
