@@ -1005,6 +1005,10 @@ change
 )
 )
 {
+AttachToPreferences
+(
+)
+;
 CacheFileIOManager
 :
 :
@@ -1016,10 +1020,6 @@ CacheFileIOManager
 :
 :
 OnProfile
-(
-)
-;
-AttachToPreferences
 (
 )
 ;
