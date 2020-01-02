@@ -308,7 +308,13 @@ aRv
 JS
 :
 :
+Handle
+<
+JS
+:
+:
 Value
+>
 params
 =
 aParams
@@ -326,9 +332,7 @@ Value
 JS
 :
 :
-UndefinedValue
-(
-)
+UndefinedHandleValue
 ;
 aRv
 =
