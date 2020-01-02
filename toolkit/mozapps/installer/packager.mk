@@ -2700,6 +2700,8 @@ BACKGROUND_TESTS_PATH
 /
 background
 -
+junit3
+-
 debug
 -
 unsigned
@@ -2712,6 +2714,8 @@ _ABS_DIST
 )
 /
 background
+-
+junit3
 .
 apk
 )
@@ -2742,6 +2746,8 @@ disabled
 No
 Android
 Background
+JUnit
+3
 tests
 for
 you

@@ -58,6 +58,8 @@ ANDROID_APK_NAME
 =
 background
 -
+junit3
+-
 debug
 PP_TARGETS
 +
@@ -102,9 +104,11 @@ org
 .
 mozilla
 .
+gecko
+.
 background
 .
-test
+tests
 '
 \
 -
