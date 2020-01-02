@@ -40,6 +40,13 @@ gfx2DGlue
 .
 h
 "
+#
+include
+"
+ScopedGLHelpers
+.
+h
+"
 namespace
 mozilla
 {

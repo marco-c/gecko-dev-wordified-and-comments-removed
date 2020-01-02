@@ -86,6 +86,13 @@ nsTraceRefcnt
 .
 h
 "
+#
+include
+"
+gfxPlatform
+.
+h
+"
 namespace
 mozilla
 {

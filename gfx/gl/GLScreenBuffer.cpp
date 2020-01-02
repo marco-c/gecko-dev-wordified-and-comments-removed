@@ -69,6 +69,13 @@ h
 "
 #
 endif
+#
+include
+"
+ScopedGLHelpers
+.
+h
+"
 using
 namespace
 mozilla
