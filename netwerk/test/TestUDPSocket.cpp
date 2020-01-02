@@ -1270,8 +1270,6 @@ Init
 (
 0
 false
-true
-0
 )
 ;
 NS_ENSURE_SUCCESS
@@ -1319,8 +1317,6 @@ Init
 (
 0
 false
-true
-0
 )
 ;
 client

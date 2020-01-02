@@ -239,6 +239,14 @@ AllocPUDPSocketChild
 const
 nsCString
 &
+aHost
+const
+uint16_t
+&
+aPort
+const
+nsCString
+&
 aFilter
 )
 MOZ_OVERRIDE
