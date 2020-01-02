@@ -278,6 +278,11 @@ nsHtml5ViewSourceUtils
 h
 '
 '
+nsIContentHandle
+.
+h
+'
+'
 nsParserUtils
 .
 h

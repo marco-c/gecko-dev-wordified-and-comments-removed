@@ -1,0 +1,4 @@
+typedef
+void
+nsIContentHandle
+;
