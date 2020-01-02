@@ -82,6 +82,8 @@ MOZ_FINAL
 :
 public
 DOMEventTargetHelper
+private
+nsIMobileConnectionListener
 {
 class
 Listener

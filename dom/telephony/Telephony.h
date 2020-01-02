@@ -71,6 +71,8 @@ MOZ_FINAL
 :
 public
 DOMEventTargetHelper
+private
+nsITelephonyListener
 {
 class
 Listener

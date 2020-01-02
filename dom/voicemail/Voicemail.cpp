@@ -282,6 +282,11 @@ mListener
 )
 ;
 }
+NS_IMPL_ISUPPORTS_INHERITED0
+(
+Voicemail
+DOMEventTargetHelper
+)
 JSObject
 *
 Voicemail
