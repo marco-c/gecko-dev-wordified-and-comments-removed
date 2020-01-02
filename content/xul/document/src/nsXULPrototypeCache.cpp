@@ -2802,7 +2802,7 @@ JSTracer
 aClosure
 )
 ;
-JS_CallHeapScriptTracer
+JS_CallScriptTracer
 (
 trc
 &

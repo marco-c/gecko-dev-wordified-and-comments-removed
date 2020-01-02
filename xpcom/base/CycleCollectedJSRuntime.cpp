@@ -3283,7 +3283,7 @@ aClosure
 const
 MOZ_OVERRIDE
 {
-JS_CallHeapValueTracer
+JS_CallValueTracer
 (
 static_cast
 <
@@ -3322,7 +3322,7 @@ aClosure
 const
 MOZ_OVERRIDE
 {
-JS_CallHeapIdTracer
+JS_CallIdTracer
 (
 static_cast
 <
@@ -3362,7 +3362,7 @@ aClosure
 const
 MOZ_OVERRIDE
 {
-JS_CallHeapObjectTracer
+JS_CallObjectTracer
 (
 static_cast
 <
@@ -3442,7 +3442,7 @@ aClosure
 const
 MOZ_OVERRIDE
 {
-JS_CallHeapStringTracer
+JS_CallStringTracer
 (
 static_cast
 <
@@ -3482,7 +3482,7 @@ aClosure
 const
 MOZ_OVERRIDE
 {
-JS_CallHeapScriptTracer
+JS_CallScriptTracer
 (
 static_cast
 <
@@ -3522,7 +3522,7 @@ aClosure
 const
 MOZ_OVERRIDE
 {
-JS_CallHeapFunctionTracer
+JS_CallFunctionTracer
 (
 static_cast
 <

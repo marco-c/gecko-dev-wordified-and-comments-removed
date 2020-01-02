@@ -1592,7 +1592,7 @@ i
 ]
 )
 {
-JS_CallHeapObjectTracer
+JS_CallObjectTracer
 (
 aTracer
 &
@@ -1947,7 +1947,7 @@ j
 ]
 )
 {
-JS_CallHeapObjectTracer
+JS_CallObjectTracer
 (
 trc
 &
@@ -8792,7 +8792,7 @@ end
 objp
 )
 {
-JS_CallObjectTracer
+JS_CallUnbarrieredObjectTracer
 (
 trc
 objp
@@ -8865,7 +8865,7 @@ end
 valp
 )
 {
-JS_CallValueTracer
+JS_CallUnbarrieredValueTracer
 (
 trc
 valp

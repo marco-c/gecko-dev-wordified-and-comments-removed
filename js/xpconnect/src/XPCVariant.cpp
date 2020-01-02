@@ -283,7 +283,7 @@ this
 0
 )
 ;
-JS_CallHeapValueTracer
+JS_CallValueTracer
 (
 trc
 &

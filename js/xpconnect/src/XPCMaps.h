@@ -404,7 +404,7 @@ prior
 =
 key
 ;
-JS_CallObjectTracer
+JS_CallUnbarrieredObjectTracer
 (
 trc
 &
@@ -3263,7 +3263,7 @@ prior
 =
 key
 ;
-JS_CallObjectTracer
+JS_CallUnbarrieredObjectTracer
 (
 trc
 &

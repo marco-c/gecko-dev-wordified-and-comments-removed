@@ -520,7 +520,7 @@ prior
 =
 key
 ;
-JS_CallObjectTracer
+JS_CallUnbarrieredObjectTracer
 (
 trc
 &

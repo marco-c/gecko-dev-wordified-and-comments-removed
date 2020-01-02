@@ -1125,7 +1125,7 @@ this
 0
 )
 ;
-JS_CallHeapObjectTracer
+JS_CallObjectTracer
 (
 trc
 &
