@@ -447,6 +447,17 @@ NSRect
 )
 _dirtyRect
 ;
+-
+(
+void
+)
+_tileTitlebarAndRedisplay
+:
+(
+BOOL
+)
+redisplay
+;
 end
 interface
 NSEvent
