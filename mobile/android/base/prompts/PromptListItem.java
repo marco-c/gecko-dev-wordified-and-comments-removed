@@ -352,6 +352,16 @@ optBoolean
 isParent
 "
 )
+|
+|
+aObject
+.
+optBoolean
+(
+"
+menu
+"
+)
 ;
 }
 BitmapUtils

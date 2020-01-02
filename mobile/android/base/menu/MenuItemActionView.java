@@ -47,6 +47,15 @@ Context
 import
 android
 .
+content
+.
+res
+.
+TypedArray
+;
+import
+android
+.
 graphics
 .
 drawable
@@ -183,7 +192,6 @@ super
 (
 context
 attrs
-defStyle
 )
 ;
 LayoutInflater
