@@ -809,7 +809,7 @@ mHasData
 ;
 #
 ifdef
-MOZ_LOGGING
+PR_LOG
 static
 char
 const
