@@ -11982,6 +11982,9 @@ NS_ERROR_DOM_NOT_SUPPORTED_ERR
 return
 ;
 }
+#
+ifdef
+ACCESSIBILITY
 HTMLCanvasElement
 *
 canvas
@@ -12019,6 +12022,8 @@ isDescendant
 false
 ;
 }
+#
+endif
 EnsureUserSpacePath
 (
 CanvasWindingRule
