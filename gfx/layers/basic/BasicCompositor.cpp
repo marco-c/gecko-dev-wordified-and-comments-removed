@@ -15,15 +15,6 @@ h
 #
 include
 "
-ipc
-/
-AutoOpenSurface
-.
-h
-"
-#
-include
-"
 mozilla
 /
 layers
