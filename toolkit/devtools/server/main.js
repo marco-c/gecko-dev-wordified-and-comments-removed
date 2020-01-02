@@ -480,8 +480,6 @@ dump
 errorStr
 )
 ;
-Cu
-.
 reportError
 (
 errorStr
@@ -4223,8 +4221,6 @@ safeErrorString
 aError
 )
 ;
-Cu
-.
 reportError
 (
 errorString

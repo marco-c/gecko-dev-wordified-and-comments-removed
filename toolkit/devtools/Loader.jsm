@@ -399,6 +399,11 @@ bind
 XPCOMUtils
 )
 }
+reportError
+:
+Cu
+.
+reportError
 }
 ;
 function
