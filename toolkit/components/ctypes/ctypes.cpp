@@ -292,8 +292,14 @@ SealObjectAndPrototype
 JSContext
 *
 cx
+JS
+:
+:
+Handle
+<
 JSObject
 *
+>
 parent
 const
 char
