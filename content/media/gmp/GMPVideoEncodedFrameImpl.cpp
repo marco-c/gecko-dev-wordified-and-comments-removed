@@ -427,7 +427,7 @@ SharedMemMgr
 >
 MgrDeallocShmem
 (
-GMPSharedMemManager
+GMPSharedMem
 :
 :
 kGMPEncodedData
@@ -495,7 +495,7 @@ SharedMemMgr
 >
 MgrAllocShmem
 (
-GMPSharedMemManager
+GMPSharedMem
 :
 :
 kGMPEncodedData
@@ -844,7 +844,7 @@ SharedMemMgr
 >
 MgrAllocShmem
 (
-GMPSharedMemManager
+GMPSharedMem
 :
 :
 kGMPEncodedData

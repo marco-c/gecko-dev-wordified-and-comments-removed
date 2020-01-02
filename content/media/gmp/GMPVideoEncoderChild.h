@@ -121,12 +121,6 @@ aError
 MOZ_OVERRIDE
 ;
 virtual
-void
-CheckThread
-(
-)
-;
-virtual
 bool
 Alloc
 (
@@ -144,6 +138,7 @@ Shmem
 *
 aMem
 )
+MOZ_OVERRIDE
 {
 #
 ifndef
@@ -191,6 +186,7 @@ Shmem
 &
 aMem
 )
+MOZ_OVERRIDE
 {
 #
 ifndef

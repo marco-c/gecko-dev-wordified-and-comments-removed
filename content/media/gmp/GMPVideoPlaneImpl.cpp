@@ -297,7 +297,7 @@ SharedMemMgr
 >
 MgrAllocShmem
 (
-GMPSharedMemManager
+GMPSharedMem
 :
 :
 kGMPFrameData
@@ -397,7 +397,7 @@ SharedMemMgr
 >
 MgrDeallocShmem
 (
-GMPSharedMemManager
+GMPSharedMem
 :
 :
 kGMPFrameData

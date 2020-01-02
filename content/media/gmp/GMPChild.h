@@ -18,6 +18,13 @@ h
 #
 include
 "
+GMPSharedMemManager
+.
+h
+"
+#
+include
+"
 gmp
 -
 entrypoints
@@ -42,6 +49,8 @@ GMPChild
 :
 public
 PGMPChild
+public
+GMPSharedMem
 {
 public
 :
@@ -98,6 +107,13 @@ MessageLoop
 GMPMessageLoop
 (
 )
+;
+virtual
+void
+CheckThread
+(
+)
+MOZ_OVERRIDE
 ;
 private
 :

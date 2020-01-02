@@ -168,6 +168,8 @@ MOZ_FINAL
 :
 public
 PGMPParent
+public
+GMPSharedMem
 {
 public
 :
@@ -354,6 +356,13 @@ forget
 )
 ;
 }
+virtual
+void
+CheckThread
+(
+)
+MOZ_OVERRIDE
+;
 private
 :
 ~
