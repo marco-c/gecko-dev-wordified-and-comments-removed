@@ -633,15 +633,7 @@ is
 thread
 .
 timestamp
-.
-getTime
-(
-)
 timestamp
-.
-getTime
-(
-)
 "
 Thread
 timestamp
