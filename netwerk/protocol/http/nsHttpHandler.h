@@ -1455,6 +1455,9 @@ mDoNotTrackValue
 bool
 mSafeHintEnabled
 ;
+bool
+mParentalControlEnabled
+;
 uint32_t
 mTelemetryEnabled
 :
