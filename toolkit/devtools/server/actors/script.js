@@ -10593,6 +10593,8 @@ obj
 displayName
 ;
 }
+try
+{
 let
 desc
 =
@@ -10641,6 +10643,18 @@ createValueGrip
 desc
 .
 value
+)
+;
+}
+}
+catch
+(
+e
+)
+{
+dumpn
+(
+e
 )
 ;
 }
