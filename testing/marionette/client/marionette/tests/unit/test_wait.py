@@ -1,7 +1,7 @@
 import
-time
-import
 sys
+import
+time
 import
 errors
 import
@@ -73,6 +73,83 @@ return
 self
 .
 ticks
+class
+SequenceClock
+(
+object
+)
+:
+    
+def
+__init__
+(
+self
+times
+)
+:
+        
+self
+.
+times
+=
+times
+        
+self
+.
+i
+=
+0
+    
+property
+    
+def
+now
+(
+self
+)
+:
+        
+if
+len
+(
+self
+.
+times
+)
+>
+self
+.
+i
+:
+            
+self
+.
+i
++
+=
+1
+        
+return
+self
+.
+times
+[
+self
+.
+i
+-
+1
+]
+    
+def
+sleep
+(
+self
+dur
+)
+:
+        
+pass
 class
 MockMarionette
 (
@@ -269,6 +346,16 @@ now
 =
 =
 2
+def
+now
+(
+clock
+end
+)
+:
+    
+return
+True
 class
 SystemClockTest
 (
@@ -432,7 +519,7 @@ self
 )
 :
         
-w
+wt
 =
 Wait
 (
@@ -448,7 +535,7 @@ self
 .
 assertEqual
 (
-w
+wt
 .
 timeout
 42
@@ -461,7 +548,7 @@ self
 )
 :
         
-w
+wt
 =
 Wait
 (
@@ -477,7 +564,7 @@ self
 .
 assertEqual
 (
-w
+wt
 .
 interval
 42
@@ -497,7 +584,7 @@ TickingClock
 1
 )
         
-w
+wt
 =
 Wait
 (
@@ -513,7 +600,7 @@ self
 .
 assertEqual
 (
-w
+wt
 .
 clock
 c
@@ -526,7 +613,7 @@ self
 )
 :
         
-w
+wt
 =
 Wait
 (
@@ -543,7 +630,7 @@ self
 assertIn
 (
 Exception
-w
+wt
 .
 exceptions
 )
@@ -554,7 +641,7 @@ assertEqual
 (
 len
 (
-w
+wt
 .
 exceptions
 )
@@ -575,7 +662,7 @@ Exception
 ValueError
 ]
         
-w
+wt
 =
 Wait
 (
@@ -598,7 +685,7 @@ self
 assertIn
 (
 e
-w
+wt
 .
 exceptions
 )
@@ -609,7 +696,7 @@ assertEqual
 (
 len
 (
-w
+wt
 .
 exceptions
 )
@@ -633,7 +720,7 @@ Exception
 ValueError
 )
         
-w
+wt
 =
 Wait
 (
@@ -656,7 +743,7 @@ self
 assertIn
 (
 e
-w
+wt
 .
 exceptions
 )
@@ -667,7 +754,7 @@ assertEqual
 (
 len
 (
-w
+wt
 .
 exceptions
 )
@@ -684,7 +771,7 @@ self
 )
 :
         
-w
+wt
 =
 Wait
 (
@@ -704,7 +791,7 @@ self
 assertIn
 (
 Exception
-w
+wt
 .
 exceptions
 )
@@ -715,7 +802,7 @@ assertEqual
 (
 len
 (
-w
+wt
 .
 exceptions
 )
@@ -765,7 +852,7 @@ self
 )
 :
         
-w
+wt
 =
 Wait
 (
@@ -778,7 +865,7 @@ self
 .
 assertIsNotNone
 (
-w
+wt
 .
 end
 )
@@ -790,7 +877,7 @@ self
 )
 :
         
-w
+wt
 =
 Wait
 (
@@ -803,7 +890,7 @@ self
 .
 assertEqual
 (
-w
+wt
 .
 marionette
 self
@@ -818,7 +905,7 @@ self
 )
 :
         
-w
+wt
 =
 Wait
 (
@@ -831,7 +918,7 @@ self
 .
 assertIsInstance
 (
-w
+wt
 .
 clock
 wait
@@ -846,7 +933,7 @@ self
 )
 :
         
-w
+wt
 =
 Wait
 (
@@ -859,7 +946,7 @@ self
 .
 assertEqual
 (
-w
+wt
 .
 timeout
 *
@@ -888,7 +975,7 @@ timeout
 =
 None
         
-w
+wt
 =
 Wait
 (
@@ -901,7 +988,7 @@ self
 .
 assertEqual
 (
-w
+wt
 .
 timeout
 wait
@@ -999,7 +1086,7 @@ TickingClock
         
 self
 .
-w
+wt
 =
 Wait
 (
@@ -1030,7 +1117,7 @@ r
 =
 self
 .
-w
+wt
 .
 until
 (
@@ -1074,7 +1161,7 @@ r
 =
 self
 .
-w
+wt
 .
 until
 (
@@ -1132,7 +1219,7 @@ r
 =
 self
 .
-w
+wt
 .
 until
 (
@@ -1179,7 +1266,7 @@ TypeError
             
 self
 .
-w
+wt
 .
 until
 (
@@ -1217,7 +1304,7 @@ self
         
 self
 .
-w
+wt
 .
 exceptions
 =
@@ -1238,7 +1325,7 @@ TimeoutException
             
 self
 .
-w
+wt
 .
 until
 (
@@ -1264,7 +1351,7 @@ self
         
 self
 .
-w
+wt
 .
 exceptions
 =
@@ -1281,7 +1368,7 @@ try
             
 self
 .
-w
+wt
 .
 until
 (
@@ -1354,7 +1441,7 @@ assertIn
 "
 self
 .
-w
+wt
 .
 until
 (
@@ -1396,7 +1483,7 @@ r
 =
 self
 .
-w
+wt
 .
 until
 (
@@ -1443,7 +1530,7 @@ KeyboardInterrupt
             
 self
 .
-w
+wt
 .
 until
 (
@@ -1478,7 +1565,7 @@ SystemExit
             
 self
 .
-w
+wt
 .
 until
 (
@@ -1504,7 +1591,7 @@ r
 =
 self
 .
-w
+wt
 .
 until
 (
@@ -1556,7 +1643,7 @@ r
 =
 self
 .
-w
+wt
 .
 until
 (
@@ -1601,7 +1688,7 @@ r
 =
 self
 .
-w
+wt
 .
 until
 (
@@ -1660,7 +1747,7 @@ TimeoutException
             
 self
 .
-w
+wt
 .
 until
 (
@@ -1713,6 +1800,8 @@ Timed
 out
 after
 2
+.
+0
 seconds
 "
 )
@@ -1720,7 +1809,7 @@ seconds
             
 self
 .
-w
+wt
 .
 until
 (
@@ -1741,6 +1830,75 @@ at_third_attempt
 )
     
 def
+test_timeout_elapsed_rounding
+(
+self
+)
+:
+        
+wt
+=
+Wait
+(
+self
+.
+m
+clock
+=
+SequenceClock
+(
+[
+1
+0
+.
+01
+1
+]
+)
+timeout
+=
+0
+)
+        
+with
+self
+.
+assertRaisesRegexp
+(
+errors
+.
+TimeoutException
+                                     
+"
+Timed
+out
+after
+1
+.
+0
+seconds
+"
+)
+:
+            
+wt
+.
+until
+(
+lambda
+x
+:
+x
+.
+true
+(
+)
+is_true
+=
+now
+)
+    
+def
 test_message
 (
 self
@@ -1749,7 +1907,7 @@ self
         
 self
 .
-w
+wt
 .
 exceptions
 =
@@ -1766,7 +1924,7 @@ try
             
 self
 .
-w
+wt
 .
 until
 (
@@ -1832,7 +1990,7 @@ self
         
 self
 .
-w
+wt
 .
 exceptions
 =
@@ -1849,7 +2007,7 @@ try
             
 self
 .
-w
+wt
 .
 until
 (
@@ -1910,7 +2068,7 @@ self
         
 self
 .
-w
+wt
 .
 exceptions
 =
@@ -1927,7 +2085,7 @@ try
             
 self
 .
-w
+wt
 .
 until
 (
