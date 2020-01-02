@@ -2211,6 +2211,7 @@ unsigned
 int
 actualFrameSize
 =
+(
 sampleFormat
 =
 =
@@ -2219,6 +2220,7 @@ sampleFormat
 1
 :
 2
+)
 *
 channels
 ;
