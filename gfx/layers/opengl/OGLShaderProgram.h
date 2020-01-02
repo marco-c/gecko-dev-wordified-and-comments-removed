@@ -167,6 +167,9 @@ ENABLE_MASK_2D
 ENABLE_MASK_3D
 =
 0x800
+ENABLE_PREMULTIPLY
+=
+0x1000
 }
 ;
 class
@@ -720,6 +723,13 @@ aEnabled
 ;
 void
 SetMask3D
+(
+bool
+aEnabled
+)
+;
+void
+SetPremultiply
 (
 bool
 aEnabled
