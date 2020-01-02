@@ -138,5 +138,11 @@ tag
 "
 "
 ;
+DOMString
+data
+=
+"
+"
+;
 }
 ;

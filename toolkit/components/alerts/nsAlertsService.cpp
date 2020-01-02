@@ -271,6 +271,10 @@ const
 nsAString
 &
 aLang
+const
+nsAString
+&
+aData
 nsIPrincipal
 *
 aPrincipal
@@ -346,6 +350,10 @@ aBidi
 PromiseFlatString
 (
 aLang
+)
+PromiseFlatString
+(
+aData
 )
 IPC
 :
@@ -424,6 +432,7 @@ aAlertListener
 aAlertName
 aBidi
 aLang
+aData
 IPC
 :
 :

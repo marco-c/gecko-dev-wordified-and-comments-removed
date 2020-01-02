@@ -2182,6 +2182,8 @@ nsString
 bidi
 nsString
 lang
+nsString
+data
 Principal
 principal
 )

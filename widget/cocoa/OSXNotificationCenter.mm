@@ -1034,6 +1034,10 @@ const
 nsAString
 &
 aLang
+const
+nsAString
+&
+aData
 nsIPrincipal
 *
 aPrincipal

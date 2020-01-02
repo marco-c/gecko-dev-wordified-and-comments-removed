@@ -395,6 +395,7 @@ body
 tag
 icon
 alertName
+data
 )
 {
 if
@@ -460,6 +461,9 @@ getTime
 origin
 :
 origin
+data
+:
+data
 }
 ;
 this
@@ -1099,6 +1103,9 @@ tag
 notification
 .
 icon
+notification
+.
+data
 )
 ;
 }

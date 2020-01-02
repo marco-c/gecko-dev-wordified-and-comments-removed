@@ -271,6 +271,14 @@ DOMString
 ?
 icon
 ;
+[
+Constant
+]
+readonly
+attribute
+any
+data
+;
 void
 close
 (
@@ -311,6 +319,11 @@ icon
 =
 "
 "
+;
+any
+data
+=
+null
 ;
 }
 ;

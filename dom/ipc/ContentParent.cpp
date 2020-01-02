@@ -14743,6 +14743,10 @@ nsString
 &
 aLang
 const
+nsString
+&
+aData
+const
 IPC
 :
 :
@@ -14819,6 +14823,7 @@ this
 aName
 aBidi
 aLang
+aData
 aPrincipal
 )
 ;
