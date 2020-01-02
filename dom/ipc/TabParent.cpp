@@ -4093,7 +4093,7 @@ TabParent
 :
 HandleQueryContentEvent
 (
-nsQueryContentEvent
+WidgetQueryContentEvent
 &
 aEvent
 )

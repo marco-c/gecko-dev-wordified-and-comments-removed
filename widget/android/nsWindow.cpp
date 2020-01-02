@@ -9022,7 +9022,7 @@ end
 0
 )
 {
-nsQueryContentEvent
+WidgetQueryContentEvent
 event
 (
 true
@@ -9413,7 +9413,7 @@ event
 ;
 }
 {
-nsQueryContentEvent
+WidgetQueryContentEvent
 queryEvent
 (
 true
@@ -10468,7 +10468,7 @@ mIMETextChanges
 i
 ]
 ;
-nsQueryContentEvent
+WidgetQueryContentEvent
 event
 (
 true
@@ -10546,7 +10546,7 @@ if
 mIMESelectionChanged
 )
 {
-nsQueryContentEvent
+WidgetQueryContentEvent
 event
 (
 true

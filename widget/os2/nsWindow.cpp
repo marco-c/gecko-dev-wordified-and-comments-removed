@@ -8961,7 +8961,7 @@ point
 0
 )
 ;
-nsQueryContentEvent
+WidgetQueryContentEvent
 selection
 (
 true
@@ -8992,7 +8992,7 @@ mSucceeded
 return
 false
 ;
-nsQueryContentEvent
+WidgetQueryContentEvent
 caret
 (
 true

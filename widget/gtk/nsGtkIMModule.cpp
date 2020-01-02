@@ -3792,7 +3792,7 @@ false
 nsEventStatus
 status
 ;
-nsQueryContentEvent
+WidgetQueryContentEvent
 selection
 (
 true
@@ -4551,7 +4551,7 @@ mCompositionState
 eCompositionState_CompositionStartDispatched
 )
 {
-nsQueryContentEvent
+WidgetQueryContentEvent
 querySelectedTextEvent
 (
 true
@@ -5451,7 +5451,7 @@ context
 return
 ;
 }
-nsQueryContentEvent
+WidgetQueryContentEvent
 charRect
 (
 true
@@ -5718,7 +5718,7 @@ EditorHasCompositionString
 )
 )
 {
-nsQueryContentEvent
+WidgetQueryContentEvent
 querySelectedTextEvent
 (
 true
@@ -5825,7 +5825,7 @@ return
 NS_ERROR_FAILURE
 ;
 }
-nsQueryContentEvent
+WidgetQueryContentEvent
 queryTextContentEvent
 (
 true
@@ -6274,7 +6274,7 @@ NS_ERROR_FAILURE
 }
 else
 {
-nsQueryContentEvent
+WidgetQueryContentEvent
 querySelectedTextEvent
 (
 true
@@ -6309,7 +6309,7 @@ mReply
 mOffset
 ;
 }
-nsQueryContentEvent
+WidgetQueryContentEvent
 queryTextContentEvent
 (
 true

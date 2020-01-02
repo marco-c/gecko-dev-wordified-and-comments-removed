@@ -4311,7 +4311,7 @@ focus
 "
 )
 ;
-nsQueryContentEvent
+WidgetQueryContentEvent
 selection
 (
 true
@@ -5712,7 +5712,7 @@ RECONVERTSTRING
 lParam
 )
 ;
-nsQueryContentEvent
+WidgetQueryContentEvent
 selection
 (
 true
@@ -6453,7 +6453,7 @@ if
 hasCompositionString
 )
 {
-nsQueryContentEvent
+WidgetQueryContentEvent
 selection
 (
 true
@@ -6606,7 +6606,7 @@ return
 false
 ;
 }
-nsQueryContentEvent
+WidgetQueryContentEvent
 textContent
 (
 true
@@ -8545,7 +8545,7 @@ point
 0
 )
 ;
-nsQueryContentEvent
+WidgetQueryContentEvent
 selection
 (
 true
@@ -8716,7 +8716,7 @@ if
 useCaretRect
 )
 {
-nsQueryContentEvent
+WidgetQueryContentEvent
 charRect
 (
 true
@@ -8868,7 +8868,7 @@ point
 0
 )
 ;
-nsQueryContentEvent
+WidgetQueryContentEvent
 selection
 (
 true
@@ -8935,7 +8935,7 @@ mReply
 .
 mOffset
 ;
-nsQueryContentEvent
+WidgetQueryContentEvent
 caretRect
 (
 true
@@ -9649,7 +9649,7 @@ lParam
 )
 )
 ;
-nsQueryContentEvent
+WidgetQueryContentEvent
 charAtPt
 (
 true
@@ -9691,7 +9691,7 @@ mReply
 mOffset
 =
 =
-nsQueryContentEvent
+WidgetQueryContentEvent
 :
 :
 NOT_FOUND

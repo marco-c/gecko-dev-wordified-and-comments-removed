@@ -1560,7 +1560,10 @@ aEvent
 void
 DoQuerySelectedText
 (
-nsQueryContentEvent
+mozilla
+:
+:
+WidgetQueryContentEvent
 *
 aEvent
 )

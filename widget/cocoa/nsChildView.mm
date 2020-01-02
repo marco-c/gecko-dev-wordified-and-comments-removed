@@ -10885,7 +10885,7 @@ has
 native
 focus
 .
-nsQueryContentEvent
+WidgetQueryContentEvent
 textContent
 (
 true
@@ -30482,7 +30482,7 @@ WidgetToScreenOffset
 )
 )
 ;
-nsQueryContentEvent
+WidgetQueryContentEvent
 hitTest
 (
 true
@@ -33469,7 +33469,7 @@ if
 sendType
 )
 {
-nsQueryContentEvent
+WidgetQueryContentEvent
 event
 (
 true
@@ -33737,7 +33737,7 @@ the
 current
 selection
 .
-nsQueryContentEvent
+WidgetQueryContentEvent
 event
 (
 true

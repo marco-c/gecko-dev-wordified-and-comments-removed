@@ -1859,7 +1859,7 @@ aFocus
 nsEventStatus
 status
 ;
-nsQueryContentEvent
+WidgetQueryContentEvent
 queryEvent
 (
 true
@@ -2046,7 +2046,7 @@ mWantHints
 nsEventStatus
 status
 ;
-nsQueryContentEvent
+WidgetQueryContentEvent
 queryEvent
 (
 true
@@ -2162,7 +2162,7 @@ NOTIFY_SELECTION_CHANGE
 nsEventStatus
 status
 ;
-nsQueryContentEvent
+WidgetQueryContentEvent
 queryEvent
 (
 true

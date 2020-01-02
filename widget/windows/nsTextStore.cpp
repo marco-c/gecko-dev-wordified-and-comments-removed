@@ -7108,7 +7108,7 @@ Destroyed
 )
 )
 ;
-nsQueryContentEvent
+WidgetQueryContentEvent
 queryText
 (
 true
@@ -7251,7 +7251,7 @@ MOZ_CRASH
 )
 ;
 }
-nsQueryContentEvent
+WidgetQueryContentEvent
 querySelection
 (
 true
@@ -13479,7 +13479,7 @@ return
 TS_E_NOLAYOUT
 ;
 }
-nsQueryContentEvent
+WidgetQueryContentEvent
 event
 (
 true
@@ -14175,7 +14175,7 @@ this
 )
 )
 ;
-nsQueryContentEvent
+WidgetQueryContentEvent
 event
 (
 true

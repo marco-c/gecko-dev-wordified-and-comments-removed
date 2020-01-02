@@ -67,7 +67,10 @@ nsIWidget
 *
 aWidget
 const
-nsQueryContentEvent
+mozilla
+:
+:
+WidgetQueryContentEvent
 &
 aEvent
 )

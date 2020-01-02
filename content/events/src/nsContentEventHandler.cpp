@@ -417,7 +417,7 @@ nsContentEventHandler
 :
 Init
 (
-nsQueryContentEvent
+WidgetQueryContentEvent
 *
 aEvent
 )
@@ -2641,7 +2641,7 @@ nsContentEventHandler
 :
 OnQuerySelectedText
 (
-nsQueryContentEvent
+WidgetQueryContentEvent
 *
 aEvent
 )
@@ -2890,7 +2890,7 @@ nsContentEventHandler
 :
 OnQueryTextContent
 (
-nsQueryContentEvent
+WidgetQueryContentEvent
 *
 aEvent
 )
@@ -3215,7 +3215,7 @@ nsContentEventHandler
 :
 OnQueryTextRect
 (
-nsQueryContentEvent
+WidgetQueryContentEvent
 *
 aEvent
 )
@@ -3770,7 +3770,7 @@ nsContentEventHandler
 :
 OnQueryEditorRect
 (
-nsQueryContentEvent
+WidgetQueryContentEvent
 *
 aEvent
 )
@@ -3940,7 +3940,7 @@ nsContentEventHandler
 :
 OnQueryCaretRect
 (
-nsQueryContentEvent
+WidgetQueryContentEvent
 *
 aEvent
 )
@@ -4361,7 +4361,7 @@ nsContentEventHandler
 :
 OnQueryContentState
 (
-nsQueryContentEvent
+WidgetQueryContentEvent
 *
 aEvent
 )
@@ -4401,7 +4401,7 @@ nsContentEventHandler
 :
 OnQuerySelectionAsTransferable
 (
-nsQueryContentEvent
+WidgetQueryContentEvent
 *
 aEvent
 )
@@ -4517,7 +4517,7 @@ nsContentEventHandler
 :
 OnQueryCharacterAtPoint
 (
-nsQueryContentEvent
+WidgetQueryContentEvent
 *
 aEvent
 )
@@ -4653,7 +4653,7 @@ NS_ERROR_FAILURE
 )
 ;
 }
-nsQueryContentEvent
+WidgetQueryContentEvent
 eventOnRoot
 (
 true
@@ -4788,7 +4788,7 @@ mReply
 .
 mOffset
 =
-nsQueryContentEvent
+WidgetQueryContentEvent
 :
 :
 NOT_FOUND
@@ -4916,7 +4916,7 @@ rv
 rv
 )
 ;
-nsQueryContentEvent
+WidgetQueryContentEvent
 textRect
 (
 true
@@ -4996,7 +4996,7 @@ nsContentEventHandler
 :
 OnQueryDOMWidgetHittest
 (
-nsQueryContentEvent
+WidgetQueryContentEvent
 *
 aEvent
 )

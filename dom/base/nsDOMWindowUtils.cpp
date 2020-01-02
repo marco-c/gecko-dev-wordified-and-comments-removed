@@ -9120,7 +9120,7 @@ aType
 QUERY_CHARACTER_AT_POINT
 )
 {
-nsQueryContentEvent
+WidgetQueryContentEvent
 dummyEvent
 (
 true
@@ -9241,7 +9241,7 @@ WidgetToScreenOffset
 )
 )
 ;
-nsQueryContentEvent
+WidgetQueryContentEvent
 queryEvent
 (
 true

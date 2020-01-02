@@ -18176,7 +18176,7 @@ as
 pointer
 size
 .
-nsQueryContentEvent
+WidgetQueryContentEvent
 textContent
 (
 true
@@ -18404,7 +18404,7 @@ this
 nsAutoString
 str
 ;
-nsQueryContentEvent
+WidgetQueryContentEvent
 textContent
 (
 true
@@ -18810,7 +18810,7 @@ kungFuDeathGrip
 this
 )
 ;
-nsQueryContentEvent
+WidgetQueryContentEvent
 selection
 (
 true
@@ -19154,7 +19154,7 @@ if
 useCaretRect
 )
 {
-nsQueryContentEvent
+WidgetQueryContentEvent
 charRect
 (
 true
@@ -19230,7 +19230,7 @@ if
 useCaretRect
 )
 {
-nsQueryContentEvent
+WidgetQueryContentEvent
 caretRect
 (
 true

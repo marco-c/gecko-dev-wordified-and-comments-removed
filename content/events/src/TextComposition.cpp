@@ -485,7 +485,7 @@ NS_COMPOSITION_START
 mWidget
 )
 ;
-nsQueryContentEvent
+WidgetQueryContentEvent
 selectedText
 (
 true
