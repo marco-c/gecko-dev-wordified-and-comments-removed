@@ -21,6 +21,13 @@ pth
 python
 /
 configobj
+jsmin
+.
+pth
+:
+python
+/
+jsmin
 mach
 .
 pth
