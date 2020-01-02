@@ -14500,12 +14500,6 @@ data
 .
 info
 ;
-netFromDOM
-(
-network
-null
-)
-;
 WifiManager
 .
 configureHttpProxy
@@ -14634,12 +14628,6 @@ msg
 data
 .
 info
-;
-netFromDOM
-(
-network
-null
-)
 ;
 info
 .
