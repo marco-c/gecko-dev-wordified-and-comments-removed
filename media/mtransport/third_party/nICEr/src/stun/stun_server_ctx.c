@@ -1029,6 +1029,8 @@ error
 ;
 int
 dont_free
+=
+0
 ;
 r_log
 (
