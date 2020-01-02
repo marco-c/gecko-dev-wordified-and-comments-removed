@@ -538,6 +538,13 @@ ComputeWeight
 )
 const
 ;
+void
+AdjustForSubSuperscript
+(
+int32_t
+aAppUnitsPerDevPixel
+)
+;
 bool
 Equals
 (
