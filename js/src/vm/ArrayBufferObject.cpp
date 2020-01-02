@@ -2496,7 +2496,7 @@ mainThread
 (
 )
 .
-asmJSActivationStackFromOwnerThread
+asmJSActivationStack
 (
 )
 ;
