@@ -3370,9 +3370,10 @@ v
 {
 return
 !
-JSVAL_IS_GCTHING
-(
 v
+.
+isGCThing
+(
 )
 ;
 }

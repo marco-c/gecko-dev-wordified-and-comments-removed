@@ -207,9 +207,10 @@ GetJSValPreserveColor
 ;
 MOZ_ASSERT
 (
-JSVAL_IS_GCTHING
-(
 val
+.
+isGCThing
+(
 )
 "
 Must

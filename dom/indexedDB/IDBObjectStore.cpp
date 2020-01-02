@@ -12557,9 +12557,10 @@ JSVAL_VOID
 ;
 if
 (
-JSVAL_IS_GCTHING
-(
 mCachedKeyPath
+.
+isGCThing
+(
 )
 )
 {
