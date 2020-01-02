@@ -2311,7 +2311,7 @@ Components
 .
 interfaces
 .
-nsIDocShellTreeNode
+nsIDocShellTreeItem
 )
 ;
 for

@@ -316,13 +316,6 @@ h
 #
 include
 "
-nsIDocShellTreeNode
-.
-h
-"
-#
-include
-"
 nsIMarkupDocumentViewer
 .
 h

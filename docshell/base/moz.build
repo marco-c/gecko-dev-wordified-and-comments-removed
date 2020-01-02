@@ -148,11 +148,6 @@ nsIDocShellTreeItem
 idl
 '
 '
-nsIDocShellTreeNode
-.
-idl
-'
-'
 nsIDocShellTreeOwner
 .
 idl

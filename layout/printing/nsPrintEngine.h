@@ -100,7 +100,7 @@ class
 nsPagePrintTimer
 ;
 class
-nsIDocShellTreeNode
+nsIDocShell
 ;
 class
 nsDeviceContext
@@ -422,7 +422,7 @@ aResult
 void
 BuildDocTree
 (
-nsIDocShellTreeNode
+nsIDocShell
 *
 aParentNode
 nsTArray

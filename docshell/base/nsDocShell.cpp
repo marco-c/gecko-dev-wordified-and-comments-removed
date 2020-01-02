@@ -4217,10 +4217,6 @@ nsIDocShellTreeItem
 )
 NS_INTERFACE_MAP_ENTRY
 (
-nsIDocShellTreeNode
-)
-NS_INTERFACE_MAP_ENTRY
-(
 nsIWebNavigation
 )
 NS_INTERFACE_MAP_ENTRY

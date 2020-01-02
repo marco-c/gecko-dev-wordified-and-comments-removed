@@ -93,9 +93,6 @@ class
 nsIDocShell
 ;
 class
-nsIDocShellTreeNode
-;
-class
 nsIDocShellTreeItem
 ;
 class

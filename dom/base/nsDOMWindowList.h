@@ -28,7 +28,7 @@ h
 #
 include
 "
-nsIDocShellTreeItem
+nsIDocShell
 .
 h
 "
@@ -140,7 +140,7 @@ EnsureFresh
 (
 )
 ;
-nsIDocShellTreeNode
+nsIDocShell
 *
 mDocShellNode
 ;
