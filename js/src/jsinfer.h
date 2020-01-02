@@ -3366,10 +3366,6 @@ ScriptAnalysis
 *
 analysis
 ;
-uint32_t
-*
-bytecodeMap
-;
 public
 :
 StackTypeSet

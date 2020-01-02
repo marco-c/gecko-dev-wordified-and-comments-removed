@@ -563,6 +563,12 @@ ionRuntime_
 =
 nullptr
 ;
+AutoLockForExclusiveAccess
+atomsLock
+(
+cx
+)
+;
 JSCompartment
 *
 comp
