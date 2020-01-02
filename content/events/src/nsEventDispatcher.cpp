@@ -29,13 +29,6 @@ h
 #
 include
 "
-nsCxPusher
-.
-h
-"
-#
-include
-"
 nsError
 .
 h
@@ -609,9 +602,6 @@ aCallback
 ELMCreationDetector
 &
 aCd
-nsCxPusher
-*
-aPusher
 )
 ;
 nsresult
@@ -631,9 +621,6 @@ aVisitor
 ELMCreationDetector
 &
 aCd
-nsCxPusher
-*
-aPusher
 )
 {
 if
@@ -751,7 +738,6 @@ CurrentTarget
 aVisitor
 .
 mEventStatus
-aPusher
 )
 ;
 NS_ASSERTION
@@ -785,9 +771,6 @@ PostHandleEvent
 nsEventChainPostVisitor
 &
 aVisitor
-nsCxPusher
-*
-aPusher
 )
 ;
 nsCOMPtr
@@ -937,18 +920,8 @@ PostHandleEvent
 nsEventChainPostVisitor
 &
 aVisitor
-nsCxPusher
-*
-aPusher
 )
 {
-aPusher
--
->
-Pop
-(
-)
-;
 aVisitor
 .
 mItemFlags
@@ -994,9 +967,6 @@ aCallback
 ELMCreationDetector
 &
 aCd
-nsCxPusher
-*
-aPusher
 )
 {
 nsCOMPtr
@@ -1109,7 +1079,6 @@ HandleEvent
 (
 aVisitor
 aCd
-aPusher
 )
 ;
 }
@@ -1237,7 +1206,6 @@ HandleEvent
 (
 aVisitor
 aCd
-aPusher
 )
 ;
 }
@@ -1258,7 +1226,6 @@ targetItem
 PostHandleEvent
 (
 aVisitor
-aPusher
 )
 ;
 }
@@ -1377,7 +1344,6 @@ HandleEvent
 (
 aVisitor
 aCd
-aPusher
 )
 ;
 }
@@ -1398,7 +1364,6 @@ item
 PostHandleEvent
 (
 aVisitor
-aPusher
 )
 ;
 }
@@ -1469,13 +1434,6 @@ if
 aCallback
 )
 {
-aPusher
--
->
-Pop
-(
-)
-;
 aCallback
 -
 >
@@ -1511,7 +1469,6 @@ aChain
 aVisitor
 aCallback
 aCd
-aPusher
 )
 ;
 aVisitor
@@ -2814,9 +2771,6 @@ postVisitor
 preVisitor
 )
 ;
-nsCxPusher
-pusher
-;
 nsEventTargetChainItem
 :
 :
@@ -2826,8 +2780,6 @@ chain
 postVisitor
 aCallback
 cd
-&
-pusher
 )
 ;
 preVisitor
