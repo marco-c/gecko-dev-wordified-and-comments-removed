@@ -4987,9 +4987,8 @@ rval
 (
 )
 .
-setObject
+setObjectOrNull
 (
-*
 stack
 )
 ;
