@@ -254,11 +254,6 @@ mSize
 textureClient
 -
 >
-AsTextureClientDrawTarget
-(
-)
--
->
 AllocateForSurface
 (
 mSize
