@@ -10481,7 +10481,7 @@ webide
 .
 enabled
 "
-false
+true
 )
 ;
 pref
@@ -13420,6 +13420,18 @@ mozilla
 .
 org
 "
+)
+;
+pref
+(
+"
+browser
+.
+cache
+.
+auto_delete_cache_version
+"
+1
 )
 ;
 pref
