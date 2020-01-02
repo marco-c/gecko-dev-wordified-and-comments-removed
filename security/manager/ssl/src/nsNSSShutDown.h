@@ -459,6 +459,7 @@ bool
 isAlreadyShutDown
 (
 )
+const
 {
 return
 mAlreadyShutDown
