@@ -19615,8 +19615,6 @@ void
 CloseAsmJSCacheEntryForReadOp
 )
 (
-HandleObject
-global
 size_t
 size
 const
@@ -19664,8 +19662,6 @@ void
 CloseAsmJSCacheEntryForWriteOp
 )
 (
-HandleObject
-global
 size_t
 size
 uint8_t

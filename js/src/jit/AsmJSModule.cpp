@@ -6776,12 +6776,6 @@ asmJSCacheOps
 .
 closeEntryForWrite
 (
-cx
--
->
-global
-(
-)
 serializedSize
 memory
 handle
@@ -7088,12 +7082,6 @@ asmJSCacheOps
 .
 closeEntryForRead
 (
-cx
--
->
-global
-(
-)
 serializedSize
 memory
 handle
