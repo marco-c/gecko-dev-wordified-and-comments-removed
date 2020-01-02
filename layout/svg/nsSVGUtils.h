@@ -1084,16 +1084,6 @@ aFrame
 )
 ;
 static
-float
-MaxExpansion
-(
-const
-gfxMatrix
-&
-aMatrix
-)
-;
-static
 gfxMatrix
 AdjustMatrixForUnits
 (
