@@ -267,7 +267,7 @@ FrameChildList
 cpp
 '
 '
-MathVariantTextRunFactory
+MathMLTextRunFactory
 .
 cpp
 '
