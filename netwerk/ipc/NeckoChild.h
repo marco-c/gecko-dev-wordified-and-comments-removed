@@ -182,6 +182,14 @@ PTCPSocketChild
 *
 AllocPTCPSocketChild
 (
+const
+nsString
+&
+host
+const
+uint16_t
+&
+port
 )
 MOZ_OVERRIDE
 ;

@@ -1868,6 +1868,12 @@ NeckoParent
 :
 AllocPTCPSocketParent
 (
+const
+nsString
+&
+const
+uint16_t
+&
 )
 {
 TCPSocketParent
