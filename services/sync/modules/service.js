@@ -4612,9 +4612,9 @@ this
 .
 identity
 .
-syncKey
-=
-null
+resetSyncKey
+(
+)
 ;
 this
 .
