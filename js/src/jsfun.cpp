@@ -1067,6 +1067,14 @@ fun
 isInterpreted
 (
 )
+|
+|
+fun
+-
+>
+isAsmJSNative
+(
+)
 )
 ;
 JS_ASSERT
