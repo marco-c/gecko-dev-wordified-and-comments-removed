@@ -180,6 +180,10 @@ MozCSSKeyframesRule
 )
 DOMCI_CLASS
 (
+CSSCounterStyleRule
+)
+DOMCI_CLASS
+(
 CSSPageRule
 )
 DOMCI_CLASS

@@ -141,6 +141,11 @@ nsCSSAnonBoxList
 h
 '
 '
+nsCSSCounterDescList
+.
+h
+'
+'
 nsCSSFontDescList
 .
 h

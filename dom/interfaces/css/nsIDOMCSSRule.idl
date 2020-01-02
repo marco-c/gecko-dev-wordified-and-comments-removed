@@ -287,6 +287,13 @@ NAMESPACE_RULE
 const
 unsigned
 short
+COUNTER_STYLE_RULE
+=
+11
+;
+const
+unsigned
+short
 SUPPORTS_RULE
 =
 12
