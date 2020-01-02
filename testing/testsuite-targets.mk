@@ -896,9 +896,9 @@ log
 \
 if
 test
-'
+"
 errors
-'
+"
 ;
 then
 \
@@ -910,9 +910,9 @@ failed
 ;
 \
 echo
-'
+"
 errors
-'
+"
 ;
 \
 (
@@ -925,6 +925,7 @@ echo
 1
 )
 )
+;
 \
 exit
 1
@@ -950,13 +951,13 @@ your
 failures
 please
 run
-'
+"
 make
 -
 rerun
 -
 failures
-'
+"
 '
 )
 endif
