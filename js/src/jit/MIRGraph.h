@@ -354,6 +354,16 @@ JS_ASSERT
 unreachable_
 )
 ;
+setUnreachableUnchecked
+(
+)
+;
+}
+void
+setUnreachableUnchecked
+(
+)
+{
 unreachable_
 =
 true
