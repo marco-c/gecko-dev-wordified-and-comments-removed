@@ -3559,11 +3559,14 @@ is
 None
 :
             
-tests
-=
+return
 self
 .
-tests
+manifest_defaults
+.
+keys
+(
+)
         
 manifests
 =

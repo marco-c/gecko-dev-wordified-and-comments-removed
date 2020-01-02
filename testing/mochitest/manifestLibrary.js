@@ -67,9 +67,11 @@ path
 ;
 if
 (
-obj
-.
+"
 disabled
+"
+in
+obj
 )
 {
 dump
