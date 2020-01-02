@@ -792,13 +792,6 @@ TypedObject
 cpp
 '
 '
-builtin
-/
-TypeRepresentation
-.
-cpp
-'
-'
 devtools
 /
 sharkctl
