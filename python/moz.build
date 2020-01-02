@@ -524,17 +524,6 @@ mozbuild
 /
 test
 /
-test_link_deps
-.
-py
-'
-'
-mozbuild
-/
-mozbuild
-/
-test
-/
 test_makeutil
 .
 py
