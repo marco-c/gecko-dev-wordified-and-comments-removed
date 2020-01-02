@@ -1303,7 +1303,7 @@ mBlockedAudioTime
 TrackTicks
 mLastTickWritten
 ;
-nsAutoPtr
+RefPtr
 <
 AudioStream
 >

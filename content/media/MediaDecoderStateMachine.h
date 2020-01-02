@@ -1145,7 +1145,7 @@ mSeekTarget
 int64_t
 mFragmentEndTime
 ;
-nsAutoPtr
+RefPtr
 <
 AudioStream
 >
