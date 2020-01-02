@@ -237,16 +237,6 @@ enabled
 ;
 this
 .
-SETTING_NFC_POWER_LEVEL
-=
-"
-nfc
-.
-powerlevel
-"
-;
-this
-.
 NFC_PEER_EVENT_READY
 =
 0x01
