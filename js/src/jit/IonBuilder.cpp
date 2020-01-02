@@ -914,6 +914,12 @@ purge
 (
 )
 ;
+scopeCoordinateNameCache
+.
+purge
+(
+)
+;
 }
 bool
 IonBuilder
@@ -47775,6 +47781,7 @@ name
 =
 ScopeCoordinateName
 (
+scopeCoordinateNameCache
 script
 (
 )
@@ -48040,6 +48047,7 @@ name
 =
 ScopeCoordinateName
 (
+scopeCoordinateNameCache
 script
 (
 )

@@ -12461,6 +12461,15 @@ purge
 rt
 -
 >
+scopeCoordinateNameCache
+.
+purge
+(
+)
+;
+rt
+-
+>
 newObjectCache
 .
 purge
