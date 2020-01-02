@@ -112,6 +112,11 @@ JavaScriptShared
 .
 cpp
 '
+'
+WrapperOwner
+.
+cpp
+'
 ]
 IPDL_SOURCES
 +
