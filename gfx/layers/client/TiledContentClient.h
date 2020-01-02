@@ -877,6 +877,9 @@ aMode
 bool
 *
 aCreatedTextureClient
+nsIntRegion
+&
+aAddPaintedRegion
 bool
 aCanRerasterizeValidRegion
 RefPtr
@@ -1038,6 +1041,9 @@ nsIntRegion
 aDirtyRegion
 bool
 aCanRerasterizeValidRegion
+nsIntRegion
+&
+aAddPaintedRegion
 )
 ;
 }
@@ -1446,6 +1452,9 @@ mLastPaintContentType
 ;
 SurfaceMode
 mLastPaintSurfaceMode
+;
+nsIntRegion
+mNewValidRegion
 ;
 RefPtr
 <
