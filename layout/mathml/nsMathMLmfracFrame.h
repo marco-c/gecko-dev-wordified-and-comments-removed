@@ -130,6 +130,15 @@ nscoord
 aDefaultRuleThickness
 )
 ;
+uint8_t
+ScriptIncrement
+(
+nsIFrame
+*
+aFrame
+)
+MOZ_OVERRIDE
+;
 protected
 :
 nsMathMLmfracFrame

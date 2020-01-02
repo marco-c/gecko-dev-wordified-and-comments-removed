@@ -660,6 +660,17 @@ aFlagsToUpdate
 ;
 static
 void
+PropagateFrameFlagFor
+(
+nsIFrame
+*
+aFrame
+uint64_t
+aFlags
+)
+;
+static
+void
 RebuildAutomaticDataForChildren
 (
 nsIFrame
