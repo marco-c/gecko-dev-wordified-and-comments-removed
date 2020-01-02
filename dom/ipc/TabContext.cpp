@@ -595,7 +595,7 @@ aAppFrameOwnerApp
 nsresult
 rv
 =
-aOwnApp
+aAppFrameOwnerApp
 -
 >
 GetLocalId
