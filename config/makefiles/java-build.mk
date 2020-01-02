@@ -82,7 +82,7 @@ INCLUDED_JAVA_BUILD_MK
 #
 {
 ifdef
-RES_FILES
+ANDROID_RESFILES
 #
 {
 res
@@ -133,7 +133,7 @@ srcdir
 )
 /
 (
-RES_FILES
+ANDROID_RESFILES
 )
 )
 \

@@ -83,7 +83,7 @@ java
 (
 NULL
 )
-RES_FILES
+ANDROID_RESFILES
 =
 \
 res

@@ -8863,7 +8863,7 @@ JAVAFILES
 )
 (
 value
-RESFILES
+ANDROID_RESFILES
 )
 )
 include
