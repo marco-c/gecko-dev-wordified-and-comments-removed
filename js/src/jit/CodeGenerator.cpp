@@ -26751,6 +26751,9 @@ code
 linker
 .
 newCode
+<
+CanGC
+>
 (
 cx
 JSC
@@ -34844,6 +34847,9 @@ cx
 linker
 .
 newCode
+<
+CanGC
+>
 (
 cx
 JSC

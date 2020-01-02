@@ -94,6 +94,11 @@ return
 nullptr
 ;
 }
+template
+<
+AllowGC
+allowGC
+>
 IonCode
 *
 newCode
@@ -287,6 +292,9 @@ IonCode
 :
 :
 New
+<
+allowGC
+>
 (
 cx
 codeStart
@@ -386,6 +394,11 @@ finish
 )
 ;
 }
+template
+<
+AllowGC
+allowGC
+>
 IonCode
 *
 newCode
@@ -402,6 +415,9 @@ kind
 {
 return
 newCode
+<
+allowGC
+>
 (
 cx
 cx
@@ -438,6 +454,9 @@ ifdef
 JS_CPU_ARM
 return
 newCode
+<
+CanGC
+>
 (
 cx
 JSC
@@ -498,6 +517,9 @@ nullptr
 ;
 return
 newCode
+<
+CanGC
+>
 (
 cx
 alloc

@@ -536,6 +536,9 @@ code
 linker
 .
 newCode
+<
+CanGC
+>
 (
 cx
 JSC

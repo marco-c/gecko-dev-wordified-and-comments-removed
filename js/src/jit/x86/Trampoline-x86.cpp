@@ -1296,6 +1296,9 @@ code
 linker
 .
 newCode
+<
+NoGC
+>
 (
 cx
 JSC
@@ -1524,6 +1527,9 @@ code
 linker
 .
 newCode
+<
+NoGC
+>
 (
 cx
 JSC
@@ -2041,6 +2047,9 @@ code
 linker
 .
 newCode
+<
+NoGC
+>
 (
 cx
 JSC
@@ -2422,6 +2431,9 @@ code
 linker
 .
 newCode
+<
+NoGC
+>
 (
 cx
 JSC
@@ -2482,6 +2494,9 @@ code
 linker
 .
 newCode
+<
+NoGC
+>
 (
 cx
 JSC
@@ -3317,6 +3332,9 @@ wrapper
 linker
 .
 newCode
+<
+NoGC
+>
 (
 cx
 JSC
@@ -3563,6 +3581,9 @@ code
 linker
 .
 newCode
+<
+NoGC
+>
 (
 cx
 JSC
@@ -3838,6 +3859,9 @@ codeDbg
 linker
 .
 newCode
+<
+NoGC
+>
 (
 cx
 JSC
@@ -3897,6 +3921,9 @@ code
 linker
 .
 newCode
+<
+NoGC
+>
 (
 cx
 JSC
@@ -3958,6 +3985,9 @@ code
 linker
 .
 newCode
+<
+NoGC
+>
 (
 cx
 JSC

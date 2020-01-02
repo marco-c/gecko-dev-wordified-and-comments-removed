@@ -4198,6 +4198,9 @@ cx
 linker
 .
 newCode
+<
+CanGC
+>
 (
 cx
 JSC

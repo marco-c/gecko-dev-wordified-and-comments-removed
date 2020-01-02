@@ -448,6 +448,11 @@ jumpRelocTableOffset
 )
 ;
 }
+template
+<
+AllowGC
+allowGC
+>
 static
 IonCode
 *
