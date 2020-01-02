@@ -1288,6 +1288,8 @@ this
 .
 _fxaService
 .
+internal
+.
 now
 (
 )
@@ -1301,6 +1303,8 @@ return
 this
 .
 _fxaService
+.
+internal
 .
 localtimeOffsetMsec
 ;
