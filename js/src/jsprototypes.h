@@ -188,7 +188,7 @@ real
 (
 Array
 3
-js_InitArrayClass
+js_InitViaClassSpec
 OCLASP
 (
 Array
