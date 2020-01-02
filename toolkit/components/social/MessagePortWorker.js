@@ -171,6 +171,7 @@ _evalInSandbox
 xhr
 .
 responseText
+scriptURL
 )
 ;
 }

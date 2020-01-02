@@ -8,6 +8,16 @@ n
 "
 )
 ;
+function
+causeError
+(
+)
+{
+does_not_exist
+(
+)
+;
+}
 testVar
 =
 "
