@@ -633,6 +633,9 @@ private
 void
 RestyleSelf
 (
+nsIFrame
+*
+aSelf
 nsRestyleHint
 aRestyleHint
 )
@@ -653,6 +656,9 @@ aOldContext
 nsStyleContext
 *
 aNewContext
+nsIFrame
+*
+aContinuation
 nsChangeHint
 aChangeToAssume
 )
@@ -672,11 +678,17 @@ RestyleBeforePseudo
 void
 RestyleAfterPseudo
 (
+nsIFrame
+*
+aFrame
 )
 ;
 void
 RestyleContentChildren
 (
+nsIFrame
+*
+aParent
 nsRestyleHint
 aChildRestyleHint
 )
