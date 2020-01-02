@@ -228,6 +228,16 @@ src
 /
 fxa
 /
+authenticator
+/
+TestAccountPickler
+.
+java
+\
+src
+/
+fxa
+/
 TestBrowserIDKeyPairGeneration
 .
 java
