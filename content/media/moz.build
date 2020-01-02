@@ -371,6 +371,11 @@ AbstractMediaDecoder
 h
 '
 '
+AudioBufferUtils
+.
+h
+'
+'
 AudioChannelFormat
 .
 h

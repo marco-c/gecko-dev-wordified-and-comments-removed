@@ -98,6 +98,9 @@ CPP_UNIT_TESTS
 =
 [
 '
+TestAudioBuffers
+'
+'
 TestAudioMixer
 '
 ]
