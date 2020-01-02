@@ -1180,15 +1180,11 @@ Window
 void
 captureEvents
 (
-long
-dummy
 )
 ;
 void
 releaseEvents
 (
-long
-dummy
 )
 ;
 }

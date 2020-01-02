@@ -29507,8 +29507,6 @@ nsGlobalWindow
 :
 CaptureEvents
 (
-int32_t
-aEventFlags
 )
 {
 if
@@ -29538,8 +29536,6 @@ nsGlobalWindow
 :
 ReleaseEvents
 (
-int32_t
-aEventFlags
 )
 {
 if

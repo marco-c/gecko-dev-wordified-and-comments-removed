@@ -517,15 +517,11 @@ anymore
 void
 captureEvents
 (
-long
-eventFlags
 )
 ;
 void
 releaseEvents
 (
-long
-eventFlags
 )
 ;
 }
