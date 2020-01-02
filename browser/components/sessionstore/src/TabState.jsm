@@ -688,6 +688,17 @@ collectSessionHistory
 "
 )
 ;
+if
+(
+!
+tab
+.
+linkedBrowser
+)
+{
+return
+;
+}
 let
 tabData
 =

@@ -191,7 +191,7 @@ msg
 data
 )
 ;
-sendSyncMessage
+sendAsyncMessage
 (
 "
 ss
@@ -248,7 +248,7 @@ data
 set
 )
 ;
-sendSyncMessage
+sendAsyncMessage
 (
 "
 ss
