@@ -1716,6 +1716,7 @@ UpdateFlags
 )
 ;
 }
+explicit
 WidgetPointerEvent
 (
 const
