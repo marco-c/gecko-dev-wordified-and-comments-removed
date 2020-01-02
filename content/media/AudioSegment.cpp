@@ -809,6 +809,11 @@ GUESS_AUDIO_CHANNELS
 >
 channelData
 ;
+uint32_t
+offset
+=
+0
+;
 if
 (
 !
@@ -835,11 +840,6 @@ SetLength
 (
 outBufferLength
 )
-;
-uint32_t
-offset
-=
-0
 ;
 for
 (
@@ -1057,7 +1057,6 @@ AudioDataValue
 )
 ;
 }
-}
 offset
 +
 =
@@ -1065,6 +1064,7 @@ frames
 *
 outputChannels
 ;
+}
 if
 (
 !
@@ -1122,9 +1122,9 @@ buf
 Elements
 (
 )
-GetDuration
-(
-)
+offset
+/
+outputChannels
 &
 (
 mChunks
