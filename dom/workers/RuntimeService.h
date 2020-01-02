@@ -696,6 +696,11 @@ bool
 aShrinking
 )
 ;
+bool
+WorkersDumpEnabled
+(
+)
+;
 private
 :
 RuntimeService
