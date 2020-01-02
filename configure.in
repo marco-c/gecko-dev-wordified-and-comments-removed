@@ -79430,6 +79430,13 @@ MOZ_BUILD_APP
 "
 browser
 "
+-
+a
+-
+z
+"
+DEVELOPER_OPTIONS
+"
 ;
 then
 #
