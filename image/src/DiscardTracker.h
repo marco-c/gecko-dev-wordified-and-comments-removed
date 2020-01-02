@@ -243,9 +243,6 @@ bool
 sTimerOn
 ;
 static
-mozilla
-:
-:
 Atomic
 <
 bool
@@ -274,9 +271,6 @@ PRLock
 sAllocationLock
 ;
 static
-mozilla
-:
-:
 Mutex
 *
 sNodeListMutex

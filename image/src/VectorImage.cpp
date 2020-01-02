@@ -1529,9 +1529,6 @@ VectorImage
 :
 HeapSizeOfSourceWithComputedFallback
 (
-mozilla
-:
-:
 MallocSizeOf
 aMallocSizeOf
 )
@@ -1547,9 +1544,6 @@ VectorImage
 :
 HeapSizeOfDecodedWithComputedFallback
 (
-mozilla
-:
-:
 MallocSizeOf
 aMallocSizeOf
 )
@@ -1963,9 +1957,6 @@ VectorImage
 SetAnimationStartTime
 (
 const
-mozilla
-:
-:
 TimeStamp
 &
 aTime
@@ -2041,9 +2032,6 @@ VectorImage
 RequestRefresh
 (
 const
-mozilla
-:
-:
 TimeStamp
 &
 aTime
@@ -2763,9 +2751,6 @@ GetImageContainer
 LayerManager
 *
 aManager
-mozilla
-:
-:
 layers
 :
 :
@@ -3409,14 +3394,8 @@ svgDrawable
 aParams
 )
 ;
-mozilla
-:
-:
 RefPtr
 <
-mozilla
-:
-:
 gfx
 :
 :

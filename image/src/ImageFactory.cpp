@@ -997,9 +997,6 @@ GetRef
 ref
 )
 ;
-mozilla
-:
-:
 net
 :
 :

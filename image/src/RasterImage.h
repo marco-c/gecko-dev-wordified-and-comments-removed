@@ -200,9 +200,6 @@ b143
 }
 \
 }
-class
-ScaleRequest
-;
 namespace
 mozilla
 {
@@ -222,6 +219,9 @@ Image
 namespace
 image
 {
+class
+ScaleRequest
+;
 class
 Decoder
 ;

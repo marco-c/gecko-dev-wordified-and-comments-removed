@@ -147,9 +147,6 @@ sAllocationLock
 =
 nullptr
 ;
-mozilla
-:
-:
 Mutex
 *
 DiscardTracker

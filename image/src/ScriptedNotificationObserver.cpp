@@ -19,13 +19,12 @@ nsCycleCollectionParticipant
 .
 h
 "
-using
 namespace
 mozilla
-:
-:
+{
+namespace
 image
-;
+{
 NS_IMPL_CYCLE_COLLECTION
 (
 ScriptedNotificationObserver
@@ -220,4 +219,6 @@ aRequest
 return
 NS_OK
 ;
+}
+}
 }

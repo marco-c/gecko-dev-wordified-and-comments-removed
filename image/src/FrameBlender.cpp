@@ -28,17 +28,6 @@ pixman
 .
 h
 "
-using
-namespace
-mozilla
-;
-using
-namespace
-mozilla
-:
-:
-image
-;
 namespace
 mozilla
 {

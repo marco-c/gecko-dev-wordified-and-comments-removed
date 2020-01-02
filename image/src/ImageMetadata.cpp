@@ -33,13 +33,12 @@ nsXPCOMCID
 .
 h
 "
-using
 namespace
 mozilla
-:
-:
+{
+namespace
 image
-;
+{
 void
 ImageMetadata
 :
@@ -166,5 +165,7 @@ i
 mIsNonPremultiplied
 )
 ;
+}
+}
 }
 }

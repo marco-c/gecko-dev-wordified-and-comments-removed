@@ -19,17 +19,12 @@ imgIContainer
 .
 h
 "
-using
 namespace
 mozilla
-:
-:
+{
+namespace
 image
-;
-using
-namespace
-mozilla
-;
+{
 FrameAnimator
 :
 :
@@ -665,9 +660,6 @@ FrameAnimator
 RequestRefresh
 (
 const
-mozilla
-:
-:
 TimeStamp
 &
 aTime
@@ -892,4 +884,6 @@ const
 return
 mFirstFrameRefreshArea
 ;
+}
+}
 }
