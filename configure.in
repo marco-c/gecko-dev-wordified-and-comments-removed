@@ -22410,9 +22410,10 @@ MOZ_USE_PTHREADS
 ;
 *
 )
-MOZ_CHECK_PTHREADS
+AC_CHECK_LIB
 (
 pthreads
+pthread_create
 MOZ_USE_PTHREADS
 =
 1
@@ -22422,9 +22423,10 @@ _PTHREAD_LDFLAGS
 -
 lpthreads
 "
-MOZ_CHECK_PTHREADS
+AC_CHECK_LIB
 (
 pthread
+pthread_create
 MOZ_USE_PTHREADS
 =
 1
@@ -22434,9 +22436,10 @@ _PTHREAD_LDFLAGS
 -
 lpthread
 "
-MOZ_CHECK_PTHREADS
+AC_CHECK_LIB
 (
 c_r
+pthread_create
 MOZ_USE_PTHREADS
 =
 1
@@ -22446,9 +22449,10 @@ _PTHREAD_LDFLAGS
 -
 lc_r
 "
-MOZ_CHECK_PTHREADS
+AC_CHECK_LIB
 (
 c
+pthread_create
 MOZ_USE_PTHREADS
 =
 1
