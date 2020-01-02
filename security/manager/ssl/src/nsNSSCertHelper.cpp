@@ -2724,6 +2724,17 @@ unsigned
 char
 keyUsage
 =
+0
+;
+if
+(
+decoded
+.
+len
+)
+{
+keyUsage
+=
 decoded
 .
 data
@@ -2731,6 +2742,7 @@ data
 0
 ]
 ;
+}
 nsMemory
 :
 :
