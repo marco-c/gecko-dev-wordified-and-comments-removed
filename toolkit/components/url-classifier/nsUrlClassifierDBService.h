@@ -294,6 +294,9 @@ bool
 mCheckPhishing
 ;
 bool
+mCheckTracking
+;
+bool
 mInUpdate
 ;
 nsTArray
