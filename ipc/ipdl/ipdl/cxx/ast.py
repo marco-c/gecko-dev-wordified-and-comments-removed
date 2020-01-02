@@ -2943,6 +2943,12 @@ self
 T
 =
 T
+        
+self
+.
+only_for_definition
+=
+False
     
 def
 __deepcopy__

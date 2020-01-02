@@ -37740,6 +37740,14 @@ never_inline
 =
 0
     
+md
+.
+decl
+.
+only_for_definition
+=
+True
+    
 for
 param
 in
