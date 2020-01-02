@@ -2102,6 +2102,8 @@ h2
 csscoverage
 .
 optimize
+.
+header
 ;
 <
 /
@@ -2113,7 +2115,9 @@ p
 &
 csscoverage
 .
-preload1
+optimize
+.
+body1
 ;
 <
 code
@@ -2133,7 +2137,9 @@ code
 &
 csscoverage
 .
-preload2
+optimize
+.
+body2
 ;
 <
 code
@@ -2153,7 +2159,9 @@ code
 &
 csscoverage
 .
-preload3
+optimize
+.
+body3
 ;
 <
 /
@@ -2177,7 +2185,9 @@ length
 &
 csscoverage
 .
-noPreload
+optimize
+.
+bodyX
 ;
 <
 /
