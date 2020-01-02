@@ -1795,9 +1795,7 @@ label
 &
 syncBrand
 .
-fxa
--
-singular
+fxAccount
 .
 label
 ;
