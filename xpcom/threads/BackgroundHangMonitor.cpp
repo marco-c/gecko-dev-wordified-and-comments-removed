@@ -403,10 +403,7 @@ mStackHelper
 Telemetry
 :
 :
-HangHistogram
-:
-:
-Stack
+HangStack
 mHangStack
 ;
 Telemetry
