@@ -1602,6 +1602,9 @@ FixupPositionedTableParts
 nsPresContext
 *
 aPresContext
+nsHTMLReflowMetrics
+&
+aDesiredSize
 const
 nsHTMLReflowState
 &
