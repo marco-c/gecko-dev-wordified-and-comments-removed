@@ -2942,7 +2942,7 @@ gfxPoint3D
 scaledOrigin
 ;
 gfxPoint3D
-mozOrigin
+transformOrigin
 ;
 for
 (
@@ -3064,11 +3064,11 @@ scale
 0f
 )
 ;
-mozOrigin
+transformOrigin
 =
 data
 .
-mozOrigin
+transformOrigin
 (
 )
 ;
@@ -3096,7 +3096,7 @@ ChangeMatrixBasis
 -
 scaledOrigin
 -
-mozOrigin
+transformOrigin
 *
 aTransform
 )

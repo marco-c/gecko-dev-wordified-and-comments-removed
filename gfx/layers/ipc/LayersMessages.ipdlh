@@ -688,9 +688,6 @@ origin
 /
 /
 the
--
-moz
--
 transform
 -
 origin
@@ -702,14 +699,11 @@ in
 css
 pixels
 gfxPoint3D
-mozOrigin
+transformOrigin
 ;
 /
 /
 the
--
-moz
--
 perspective
 -
 origin
