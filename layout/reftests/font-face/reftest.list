@@ -149,6 +149,13 @@ html
 about
 :
 blank
+asserts
+-
+if
+(
+Android
+2
+)
 skip
 -
 if
@@ -180,6 +187,11 @@ download
 3
 .
 html
+#
+bug
+1019192
+bug
+936226
 HTTP
 (
 .
