@@ -90,8 +90,10 @@ Shutdown
 MOZ_OVERRIDE
 ;
 virtual
+already_AddRefed
+<
 MediaDataDecoder
-*
+>
 CreateH264Decoder
 (
 const
@@ -122,8 +124,10 @@ aCallback
 MOZ_OVERRIDE
 ;
 virtual
+already_AddRefed
+<
 MediaDataDecoder
-*
+>
 CreateAACDecoder
 (
 const

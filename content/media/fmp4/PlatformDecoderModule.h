@@ -136,8 +136,10 @@ Shutdown
 0
 ;
 virtual
+already_AddRefed
+<
 MediaDataDecoder
-*
+>
 CreateH264Decoder
 (
 const
@@ -169,8 +171,10 @@ aCallback
 0
 ;
 virtual
+already_AddRefed
+<
 MediaDataDecoder
-*
+>
 CreateAACDecoder
 (
 const
