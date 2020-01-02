@@ -2888,7 +2888,8 @@ addMonitorStubForValue
 JSContext
 *
 cx
-HandleScript
+JSScript
+*
 script
 HandleValue
 val
@@ -5027,7 +5028,8 @@ addMonitorStubForValue
 JSContext
 *
 cx
-HandleScript
+JSScript
+*
 script
 HandleValue
 val
