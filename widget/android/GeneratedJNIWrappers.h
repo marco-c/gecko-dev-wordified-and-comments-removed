@@ -446,6 +446,16 @@ a0
 ;
 static
 void
+HandleUncaughtException
+(
+jobject
+a0
+jthrowable
+a1
+)
+;
+static
+void
 HideProgressDialog
 (
 )
@@ -1025,6 +1035,10 @@ jGetSystemColoursWrapper
 static
 jmethodID
 jHandleGeckoMessageWrapper
+;
+static
+jmethodID
+jHandleUncaughtException
 ;
 static
 jmethodID

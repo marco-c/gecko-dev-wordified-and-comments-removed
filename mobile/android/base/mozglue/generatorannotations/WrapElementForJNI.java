@@ -59,4 +59,11 @@ allowMultithread
 default
 false
 ;
+boolean
+noThrow
+(
+)
+default
+false
+;
 }
