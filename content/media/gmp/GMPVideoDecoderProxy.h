@@ -86,8 +86,13 @@ GMPVideoEncodedFrame
 aInputFrame
 bool
 aMissingFrames
+GMPBufferType
+aBufferType
 const
-GMPCodecSpecificInfo
+nsTArray
+<
+uint8_t
+>
 &
 aCodecSpecificInfo
 int64_t

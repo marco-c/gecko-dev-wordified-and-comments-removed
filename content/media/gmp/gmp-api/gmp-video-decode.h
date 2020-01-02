@@ -172,10 +172,14 @@ GMPVideoEncodedFrame
 aInputFrame
 bool
 aMissingFrames
+GMPBufferType
+aBufferType
 const
-GMPCodecSpecificInfo
-&
+uint8_t
+*
 aCodecSpecificInfo
+uint32_t
+aCodecSpecificInfoLength
 int64_t
 aRenderTimeMs
 =

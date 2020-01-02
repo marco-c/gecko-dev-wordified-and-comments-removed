@@ -116,7 +116,7 @@ WebrtcGmpVideoEncoder
 public
 WebrtcVideoEncoder
 public
-GMPVideoEncoderCallback
+GMPVideoEncoderCallbackProxy
 {
 public
 :
@@ -229,8 +229,13 @@ Encoded
 GMPVideoEncodedFrame
 *
 aEncodedFrame
+GMPBufferType
+aBufferType
 const
-GMPCodecSpecificInfo
+nsTArray
+<
+uint8_t
+>
 &
 aCodecSpecificInfo
 )
