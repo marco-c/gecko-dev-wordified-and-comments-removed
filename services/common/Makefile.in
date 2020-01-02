@@ -57,6 +57,10 @@ modules
 :
 =
 \
+hawk
+.
+js
+\
 storageservice
 .
 js
