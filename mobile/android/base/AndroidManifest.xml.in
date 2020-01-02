@@ -1055,7 +1055,7 @@ true
 >
 #
 ifdef
-GOOGLE_PLAY_SERVICES
+MOZ_NATIVE_DEVICES
 <
 !
 -

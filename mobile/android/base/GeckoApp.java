@@ -1274,6 +1274,16 @@ GeckoAppShell
 AppStateListener
 >
 mAppStateListeners
+=
+new
+LinkedList
+<
+GeckoAppShell
+.
+AppStateListener
+>
+(
+)
 ;
 protected
 MenuPanel
