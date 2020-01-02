@@ -153,6 +153,10 @@ DDT
 ;
 protected
 :
+typedef
+bool
+AcquisitionState
+;
 BlockingResourceBase
 (
 const
@@ -266,7 +270,7 @@ mChainPrev
 )
 ;
 }
-bool
+AcquisitionState
 GetAcquisitionState
 (
 )
@@ -278,7 +282,9 @@ mAcquired
 void
 SetAcquisitionState
 (
-bool
+const
+AcquisitionState
+&
 aAcquisitionState
 )
 {
@@ -301,7 +307,7 @@ mName
 BlockingResourceType
 mType
 ;
-bool
+AcquisitionState
 mAcquired
 ;
 static

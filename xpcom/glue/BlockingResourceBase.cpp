@@ -1465,7 +1465,7 @@ savedEntryCount
 =
 mEntryCount
 ;
-bool
+AcquisitionState
 savedAcquisitionState
 =
 GetAcquisitionState
@@ -1555,7 +1555,7 @@ AssertCurrentThreadOwnsMutex
 (
 )
 ;
-bool
+AcquisitionState
 savedAcquisitionState
 =
 mLock
