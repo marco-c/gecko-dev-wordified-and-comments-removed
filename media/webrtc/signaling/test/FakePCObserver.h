@@ -115,13 +115,6 @@ PeerConnectionImpl
 .
 h
 "
-#
-include
-"
-nsWeakReference
-.
-h
-"
 namespace
 sipcc
 {
@@ -149,7 +142,7 @@ class
 AFakePCObserver
 :
 public
-nsSupportsWeakReference
+nsISupports
 {
 protected
 :
