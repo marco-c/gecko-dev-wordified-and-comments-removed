@@ -3,7 +3,7 @@ ifndef
 mozilla__net__Http2HuffmanOutgoing_h
 #
 define
-mozilla__net__Http2HuffmanOutging_h
+mozilla__net__Http2HuffmanOutgoing_h
 namespace
 mozilla
 {
