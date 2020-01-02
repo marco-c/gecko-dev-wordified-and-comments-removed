@@ -258,7 +258,7 @@ doTestEncodeDecode
 (
 RSACryptoImplementation
 .
-generateKeypair
+generateKeyPair
 (
 1024
 )
@@ -268,7 +268,7 @@ doTestEncodeDecode
 (
 RSACryptoImplementation
 .
-generateKeypair
+generateKeyPair
 (
 2048
 )
@@ -287,7 +287,7 @@ doTestEncodeDecode
 (
 DSACryptoImplementation
 .
-generateKeypair
+generateKeyPair
 (
 512
 )
@@ -297,7 +297,7 @@ doTestEncodeDecode
 (
 DSACryptoImplementation
 .
-generateKeypair
+generateKeyPair
 (
 1024
 )

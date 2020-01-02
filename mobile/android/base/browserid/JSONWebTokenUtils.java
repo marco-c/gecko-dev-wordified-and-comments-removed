@@ -729,14 +729,10 @@ public
 -
 key
 "
-new
-ExtendedJSONObject
-(
 publicKeyToSign
 .
-serialize
+toJSONObject
 (
-)
 )
 )
 ;
