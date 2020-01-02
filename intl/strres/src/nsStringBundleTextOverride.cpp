@@ -26,13 +26,6 @@ nsAppDirectoryServiceDefs
 .
 h
 "
-static
-NS_DEFINE_CID
-(
-kPersistentPropertiesCID
-NS_IPERSISTENTPROPERTIES_CID
-)
-;
 class
 URLPropertyElement
 :
@@ -459,6 +452,13 @@ rv
 )
 return
 rv
+;
+static
+NS_DEFINE_CID
+(
+kPersistentPropertiesCID
+NS_IPERSISTENTPROPERTIES_CID
+)
 ;
 mValues
 =
