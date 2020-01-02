@@ -146,6 +146,11 @@ gfxWordCacheTest
 cpp
 '
 '
+LayerTestUtils
+.
+cpp
+'
+'
 TestAsyncPanZoomController
 .
 cpp
