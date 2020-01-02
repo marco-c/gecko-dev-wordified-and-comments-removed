@@ -714,6 +714,13 @@ WinIMEHandler
 .
 h
 "
+#
+include
+"
+npapi
+.
+h
+"
 using
 namespace
 mozilla
