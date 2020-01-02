@@ -198,6 +198,9 @@ Promise
 <
 TelephonyCall
 >
+[
+Throws
+]
 Promise
 dial
 (
@@ -215,6 +218,9 @@ Promise
 <
 TelephonyCall
 >
+[
+Throws
+]
 Promise
 dialEmergency
 (

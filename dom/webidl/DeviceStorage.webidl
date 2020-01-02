@@ -534,6 +534,7 @@ default
 ;
 [
 NewObject
+Throws
 ]
 Promise
 getRoot

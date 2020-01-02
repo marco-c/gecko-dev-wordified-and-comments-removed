@@ -204,6 +204,9 @@ Uint8Array
 aInitData
 SessionType
 aSessionType
+ErrorResult
+&
+aRv
 )
 ;
 already_AddRefed
@@ -216,6 +219,9 @@ const
 nsAString
 &
 aSessionId
+ErrorResult
+&
+aRv
 )
 ;
 already_AddRefed
@@ -228,6 +234,9 @@ const
 Uint8Array
 &
 aServerCertificate
+ErrorResult
+&
+aRv
 )
 ;
 static
@@ -339,6 +348,9 @@ Promise
 >
 MakePromise
 (
+ErrorResult
+&
+aRv
 )
 ;
 PromiseId

@@ -22,6 +22,15 @@ nsAutoPtr
 .
 h
 "
+#
+include
+"
+mozilla
+/
+ErrorResult
+.
+h
+"
 namespace
 mozilla
 {
@@ -58,6 +67,9 @@ nsAString
 aTargetPath
 bool
 aRecursive
+ErrorResult
+&
+aRv
 )
 ;
 RemoveTask

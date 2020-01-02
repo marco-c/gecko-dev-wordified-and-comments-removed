@@ -18,6 +18,15 @@ include
 "
 mozilla
 /
+ErrorResult
+.
+h
+"
+#
+include
+"
+mozilla
+/
 dom
 /
 BindingDeclarations
@@ -121,6 +130,9 @@ GetRoot
 FileSystemBase
 *
 aFileSystem
+ErrorResult
+&
+aRv
 )
 ;
 Directory
@@ -175,6 +187,9 @@ const
 CreateFileOptions
 &
 aOptions
+ErrorResult
+&
+aRv
 )
 ;
 already_AddRefed
@@ -187,6 +202,9 @@ const
 nsAString
 &
 aPath
+ErrorResult
+&
+aRv
 )
 ;
 already_AddRefed
@@ -199,6 +217,9 @@ const
 nsAString
 &
 aPath
+ErrorResult
+&
+aRv
 )
 ;
 already_AddRefed
@@ -211,6 +232,9 @@ const
 StringOrFileOrDirectory
 &
 aPath
+ErrorResult
+&
+aRv
 )
 ;
 already_AddRefed
@@ -223,6 +247,9 @@ const
 StringOrFileOrDirectory
 &
 aPath
+ErrorResult
+&
+aRv
 )
 ;
 FileSystemBase
@@ -274,6 +301,9 @@ StringOrFileOrDirectory
 aPath
 bool
 aRecursive
+ErrorResult
+&
+aRv
 )
 ;
 nsRefPtr

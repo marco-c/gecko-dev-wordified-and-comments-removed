@@ -349,6 +349,7 @@ passed
 .
 [
 NewObject
+Throws
 ]
 Promise
 then
@@ -375,6 +376,7 @@ null
 ;
 [
 NewObject
+Throws
 ]
 Promise
 catch

@@ -188,8 +188,11 @@ already_AddRefed
 <
 Promise
 >
-Ready
+GetReady
 (
+ErrorResult
+&
+aRv
 )
 ;
 nsIURI

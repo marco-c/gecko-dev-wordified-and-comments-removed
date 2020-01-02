@@ -409,6 +409,7 @@ error
 /
 [
 NewObject
+Throws
 ]
 /
 /
@@ -498,6 +499,7 @@ error
 /
 [
 NewObject
+Throws
 ]
 /
 /
@@ -582,6 +584,7 @@ error
 /
 [
 NewObject
+Throws
 ]
 /
 /
@@ -719,6 +722,7 @@ true
 /
 [
 NewObject
+Throws
 ]
 /
 /
@@ -852,6 +856,7 @@ true
 /
 [
 NewObject
+Throws
 ]
 /
 /

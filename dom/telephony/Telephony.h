@@ -179,6 +179,9 @@ uint32_t
 >
 &
 aServiceId
+ErrorResult
+&
+aRv
 )
 ;
 already_AddRefed
@@ -198,6 +201,9 @@ uint32_t
 >
 &
 aServiceId
+ErrorResult
+&
+aRv
 )
 ;
 void
@@ -534,6 +540,9 @@ nsAString
 aNumber
 bool
 aEmergency
+ErrorResult
+&
+aRv
 )
 ;
 already_AddRefed

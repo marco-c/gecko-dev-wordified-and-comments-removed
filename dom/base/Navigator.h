@@ -489,6 +489,9 @@ const
 nsAString
 &
 aName
+ErrorResult
+&
+aRv
 )
 ;
 bool

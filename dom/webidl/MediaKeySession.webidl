@@ -268,6 +268,7 @@ any
 >
 [
 NewObject
+Throws
 ]
 Promise
 update
@@ -284,6 +285,7 @@ any
 >
 [
 NewObject
+Throws
 ]
 Promise
 close
@@ -298,6 +300,7 @@ any
 >
 [
 NewObject
+Throws
 ]
 Promise
 remove

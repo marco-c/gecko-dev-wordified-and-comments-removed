@@ -668,6 +668,7 @@ feature
 -
 detection
 "
+Throws
 ]
 Promise
 getFeature

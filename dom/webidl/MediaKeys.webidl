@@ -214,6 +214,7 @@ MediaKeySession
 >
 [
 NewObject
+Throws
 ]
 Promise
 createSession
@@ -239,6 +240,7 @@ MediaKeySession
 >
 [
 NewObject
+Throws
 ]
 Promise
 loadSession
@@ -255,6 +257,7 @@ any
 >
 [
 NewObject
+Throws
 ]
 Promise
 setServerCertificate

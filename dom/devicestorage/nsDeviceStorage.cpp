@@ -18236,6 +18236,9 @@ nsDOMDeviceStorage
 :
 GetRoot
 (
+ErrorResult
+&
+aRv
 )
 {
 if
@@ -18275,6 +18278,7 @@ Directory
 GetRoot
 (
 mFileSystem
+aRv
 )
 ;
 }

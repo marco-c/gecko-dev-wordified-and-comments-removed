@@ -22,6 +22,15 @@ nsAutoPtr
 .
 h
 "
+#
+include
+"
+mozilla
+/
+ErrorResult
+.
+h
+"
 class
 nsIDOMBlob
 ;
@@ -69,6 +78,9 @@ uint8_t
 aArrayData
 bool
 replace
+ErrorResult
+&
+aRv
 )
 ;
 CreateFileTask

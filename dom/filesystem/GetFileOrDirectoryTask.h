@@ -22,6 +22,15 @@ nsAutoPtr
 .
 h
 "
+#
+include
+"
+mozilla
+/
+ErrorResult
+.
+h
+"
 namespace
 mozilla
 {
@@ -51,6 +60,9 @@ nsAString
 aTargetPath
 bool
 aDirectoryOnly
+ErrorResult
+&
+aRv
 )
 ;
 GetFileOrDirectoryTask

@@ -146,6 +146,9 @@ const
 CryptoOperationData
 &
 data
+ErrorResult
+&
+aRv
 )
 ;
 already_AddRefed
@@ -168,6 +171,9 @@ const
 CryptoOperationData
 &
 data
+ErrorResult
+&
+aRv
 )
 ;
 already_AddRefed
@@ -190,6 +196,9 @@ const
 CryptoOperationData
 &
 data
+ErrorResult
+&
+aRv
 )
 ;
 already_AddRefed
@@ -216,6 +225,9 @@ const
 CryptoOperationData
 &
 data
+ErrorResult
+&
+aRv
 )
 ;
 already_AddRefed
@@ -235,6 +247,9 @@ const
 CryptoOperationData
 &
 aData
+ErrorResult
+&
+aRv
 )
 ;
 already_AddRefed
@@ -267,6 +282,9 @@ nsString
 >
 &
 keyUsages
+ErrorResult
+&
+aRv
 )
 ;
 already_AddRefed
@@ -282,6 +300,9 @@ format
 CryptoKey
 &
 key
+ErrorResult
+&
+aRv
 )
 ;
 already_AddRefed
@@ -306,6 +327,9 @@ nsString
 >
 &
 keyUsages
+ErrorResult
+&
+aRv
 )
 ;
 already_AddRefed
@@ -337,6 +361,9 @@ nsString
 >
 &
 keyUsages
+ErrorResult
+&
+aRv
 )
 ;
 already_AddRefed
@@ -357,6 +384,9 @@ CryptoKey
 baseKey
 uint32_t
 length
+ErrorResult
+&
+aRv
 )
 ;
 private

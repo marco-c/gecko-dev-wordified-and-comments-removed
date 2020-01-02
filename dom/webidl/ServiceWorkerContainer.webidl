@@ -217,6 +217,9 @@ Promise
 <
 ServiceWorker
 >
+[
+Throws
+]
 readonly
 attribute
 Promise

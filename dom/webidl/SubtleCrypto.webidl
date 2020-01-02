@@ -558,6 +558,9 @@ enabled
 interface
 SubtleCrypto
 {
+[
+Throws
+]
 Promise
 encrypt
 (
@@ -569,6 +572,9 @@ CryptoOperationData
 data
 )
 ;
+[
+Throws
+]
 Promise
 decrypt
 (
@@ -580,6 +586,9 @@ CryptoOperationData
 data
 )
 ;
+[
+Throws
+]
 Promise
 sign
 (
@@ -591,6 +600,9 @@ CryptoOperationData
 data
 )
 ;
+[
+Throws
+]
 Promise
 verify
 (
@@ -604,6 +616,9 @@ CryptoOperationData
 data
 )
 ;
+[
+Throws
+]
 Promise
 digest
 (
@@ -613,6 +628,9 @@ CryptoOperationData
 data
 )
 ;
+[
+Throws
+]
 Promise
 generateKey
 (
@@ -627,6 +645,9 @@ KeyUsage
 keyUsages
 )
 ;
+[
+Throws
+]
 Promise
 deriveKey
 (
@@ -645,6 +666,9 @@ KeyUsage
 keyUsages
 )
 ;
+[
+Throws
+]
 Promise
 deriveBits
 (
@@ -657,6 +681,9 @@ long
 length
 )
 ;
+[
+Throws
+]
 Promise
 importKey
 (
@@ -675,6 +702,9 @@ KeyUsage
 keyUsages
 )
 ;
+[
+Throws
+]
 Promise
 exportKey
 (

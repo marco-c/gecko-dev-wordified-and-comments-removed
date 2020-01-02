@@ -93,6 +93,9 @@ nsAString
 aTargetPath
 bool
 aRecursive
+ErrorResult
+&
+aRv
 )
 :
 FileSystemTaskBase
@@ -167,10 +170,13 @@ return
 }
 mPromise
 =
-new
 Promise
+:
+:
+Create
 (
 globalObject
+aRv
 )
 ;
 }

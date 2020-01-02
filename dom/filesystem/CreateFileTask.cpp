@@ -124,6 +124,9 @@ uint8_t
 aArrayData
 bool
 replace
+ErrorResult
+&
+aRv
 )
 :
 FileSystemTaskBase
@@ -229,10 +232,13 @@ return
 }
 mPromise
 =
-new
 Promise
+:
+:
+Create
 (
 globalObject
+aRv
 )
 ;
 }
