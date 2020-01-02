@@ -14000,7 +14000,7 @@ scale
 nsLayoutUtils
 :
 :
-GetMaximumAnimatedScale
+ComputeSuitableScaleForAnimation
 (
 aContainerFrame
 -

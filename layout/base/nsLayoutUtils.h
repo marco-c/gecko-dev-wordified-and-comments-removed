@@ -3217,7 +3217,7 @@ IsAnimationLoggingEnabled
 ;
 static
 gfxSize
-GetMaximumAnimatedScale
+ComputeSuitableScaleForAnimation
 (
 nsIContent
 *
