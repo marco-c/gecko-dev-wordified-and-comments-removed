@@ -537,6 +537,13 @@ EndPaint
 (
 )
 ;
+mContentClient
+-
+>
+OnTransaction
+(
+)
+;
 }
 void
 ClientThebesLayer
