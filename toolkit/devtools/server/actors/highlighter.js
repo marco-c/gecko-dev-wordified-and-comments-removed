@@ -446,6 +446,9 @@ options
 {
 if
 (
+node
+&
+&
 this
 .
 _isNodeValidForHighlighting
