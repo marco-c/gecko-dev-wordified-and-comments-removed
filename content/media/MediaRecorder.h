@@ -327,8 +327,10 @@ mState
 ;
 nsTArray
 <
+nsRefPtr
+<
 Session
-*
+>
 >
 mSessions
 ;
