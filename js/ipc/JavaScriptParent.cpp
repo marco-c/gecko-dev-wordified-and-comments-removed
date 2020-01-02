@@ -2931,7 +2931,7 @@ options
 ;
 options
 .
-setCallable
+selectDefaultClass
 (
 callable
 )

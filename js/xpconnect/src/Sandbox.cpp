@@ -3490,7 +3490,7 @@ options
 ;
 options
 .
-setCallable
+selectDefaultClass
 (
 true
 )
