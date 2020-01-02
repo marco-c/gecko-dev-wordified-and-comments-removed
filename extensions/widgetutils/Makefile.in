@@ -66,9 +66,6 @@ DIST_FILES
 install
 .
 rdf
-NO_JAR_AUTO_REG
-=
-1
 USE_EXTENSION_MANIFEST
 =
 1
