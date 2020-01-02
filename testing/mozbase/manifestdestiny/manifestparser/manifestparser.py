@@ -2424,6 +2424,13 @@ tests
         
 self
 .
+manifest_defaults
+=
+{
+}
+        
+self
+.
 strict
 =
 strict
@@ -2588,6 +2595,15 @@ self
 .
 strict
 )
+        
+self
+.
+manifest_defaults
+[
+filename
+]
+=
+defaults
         
 for
 section
