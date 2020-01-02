@@ -38,6 +38,7 @@ typename
 T
 >
 static
+MOZ_ALWAYS_INLINE
 void
 PodZero
 (
@@ -63,6 +64,7 @@ typename
 T
 >
 static
+MOZ_ALWAYS_INLINE
 void
 PodZero
 (
@@ -156,6 +158,7 @@ size_t
 N
 >
 static
+MOZ_ALWAYS_INLINE
 void
 PodArrayZero
 (
@@ -188,6 +191,7 @@ typename
 T
 >
 static
+MOZ_ALWAYS_INLINE
 void
 PodAssign
 (
@@ -285,8 +289,8 @@ template
 typename
 T
 >
-MOZ_ALWAYS_INLINE
 static
+MOZ_ALWAYS_INLINE
 void
 PodCopy
 (
@@ -412,8 +416,8 @@ template
 typename
 T
 >
-MOZ_ALWAYS_INLINE
 static
+MOZ_ALWAYS_INLINE
 void
 PodCopy
 (
@@ -524,6 +528,7 @@ size_t
 N
 >
 static
+MOZ_ALWAYS_INLINE
 void
 PodArrayCopy
 (
@@ -559,8 +564,8 @@ template
 typename
 T
 >
-MOZ_ALWAYS_INLINE
 static
+MOZ_ALWAYS_INLINE
 void
 PodMove
 (
@@ -616,8 +621,8 @@ template
 typename
 T
 >
-MOZ_ALWAYS_INLINE
 static
+MOZ_ALWAYS_INLINE
 bool
 PodEqual
 (
