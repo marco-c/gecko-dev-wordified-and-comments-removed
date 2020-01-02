@@ -373,6 +373,8 @@ function
 (
 aSessionToken
 aMsisdn
+aMcc
+aMnc
 aWantShortCode
 =
 false
@@ -402,6 +404,12 @@ credentials
 msisdn
 :
 aMsisdn
+mcc
+:
+aMcc
+mnc
+:
+aMnc
 shortVerificationCode
 :
 aWantShortCode
