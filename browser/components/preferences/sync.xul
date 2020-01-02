@@ -2520,7 +2520,12 @@ vbox
 groupbox
 >
 <
-vbox
+hbox
+align
+=
+"
+center
+"
 >
 <
 label
@@ -2556,6 +2561,11 @@ id
 "
 fxaSyncComputerName
 "
+flex
+=
+"
+1
+"
 onchange
 =
 "
@@ -2570,7 +2580,7 @@ this
 >
 <
 /
-vbox
+hbox
 >
 <
 hbox
