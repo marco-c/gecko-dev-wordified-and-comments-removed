@@ -1034,7 +1034,7 @@ toObject
 )
 )
 return
-false
+true
 ;
 return
 IsBackgroundFinalized
