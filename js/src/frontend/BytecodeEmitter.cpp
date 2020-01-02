@@ -11801,7 +11801,7 @@ size_t
 intmap_bitlen
 )
 /
-JS_BITMAP_NBITS
+CHAR_BIT
 )
 ;
 }
