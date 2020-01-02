@@ -1086,6 +1086,17 @@ file
 <
 !
 ENTITY
+projects
+.
+manifestEditor
+"
+Manifest
+Editor
+"
+>
+<
+!
+ENTITY
 help
 .
 title
