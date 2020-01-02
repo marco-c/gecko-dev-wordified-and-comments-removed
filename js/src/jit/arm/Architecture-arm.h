@@ -605,9 +605,6 @@ d0
 d1
 d2
 d3
-SD0
-=
-d3
 d4
 d5
 d6
@@ -807,13 +804,6 @@ d13
 <
 d14
 )
-|
-(
-1
-<
-<
-d15
-)
 ;
 static
 const
@@ -841,7 +831,7 @@ NonAllocatableMask
 1
 <
 <
-d1
+d15
 )
 |
 (

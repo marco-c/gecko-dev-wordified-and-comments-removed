@@ -110,7 +110,7 @@ MOZ_CONSTEXPR_VAR
 FloatRegister
 FloatReg1
 =
-d2
+d1
 ;
 }
 }
