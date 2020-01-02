@@ -572,9 +572,8 @@ null
 ;
 }
 return
-AppsUtils
-.
-cloneAsMozIApplication
+new
+mozIApplication
 (
 app
 )
