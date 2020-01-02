@@ -3138,6 +3138,33 @@ all_subdirs
 ]
         
 def
+compile_filter
+(
+current
+subdirs
+)
+:
+            
+current
+parallel
+sequential
+=
+parallel_filter
+(
+current
+subdirs
+)
+            
+return
+current
+subdirs
+.
+static
++
+parallel
+sequential
+        
+def
 export_filter
 (
 current
@@ -3212,10 +3239,6 @@ parallel
                 
 subdirs
 .
-static
-+
-subdirs
-.
 dirs
 +
 subdirs
@@ -3254,10 +3277,6 @@ parallel
                 
 subdirs
 .
-static
-+
-subdirs
-.
 dirs
 +
 subdirs
@@ -3282,7 +3301,7 @@ export_filter
 compile
 '
 :
-parallel_filter
+compile_filter
             
 '
 binaries
