@@ -420,15 +420,6 @@ int32_t
 aMaxLength
 )
 ;
-static
-NS_HIDDEN_
-(
-void
-)
-ShutDown
-(
-)
-;
 void
 ClearValueCache
 (

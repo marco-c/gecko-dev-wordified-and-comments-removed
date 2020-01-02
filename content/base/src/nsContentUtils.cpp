@@ -7475,13 +7475,6 @@ NS_IF_RELEASE
 sSameOriginChecker
 )
 ;
-nsTextEditorState
-:
-:
-ShutDown
-(
-)
-;
 }
 nsresult
 nsContentUtils
