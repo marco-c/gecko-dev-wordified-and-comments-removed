@@ -2015,6 +2015,12 @@ notifyGeckoOfEvent
 e
 )
 ;
+e
+.
+recycle
+(
+)
+;
 }
 else
 {
