@@ -1374,9 +1374,9 @@ db
 .
 BrowserProvider
 "
-"
+BrowserContract
+.
 AUTHORITY
-"
 "
 browser
 .
