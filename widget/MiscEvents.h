@@ -283,7 +283,7 @@ WidgetGUIEvent
 aIsTrusted
 NS_USER_DEFINED_EVENT
 aWidget
-NS_COMMAND_EVENT
+eCommandEventClass
 )
 command
 (
@@ -309,7 +309,7 @@ MOZ_ASSERT
 mClass
 =
 =
-NS_COMMAND_EVENT
+eCommandEventClass
 "
 Duplicate
 (
