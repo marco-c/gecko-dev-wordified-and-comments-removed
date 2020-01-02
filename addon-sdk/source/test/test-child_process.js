@@ -4298,3 +4298,10 @@ run
 exports
 )
 ;
+module
+.
+exports
+=
+{
+}
+;

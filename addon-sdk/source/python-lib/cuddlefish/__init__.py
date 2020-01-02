@@ -5,8 +5,6 @@ os
 import
 optparse
 import
-webbrowser
-import
 time
 from
 copy

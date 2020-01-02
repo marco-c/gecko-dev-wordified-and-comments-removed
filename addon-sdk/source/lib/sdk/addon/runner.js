@@ -115,10 +115,6 @@ const
 {
 rootURI
 metadata
-:
-{
-preferences
-}
 }
 =
 require
@@ -186,6 +182,13 @@ Ci
 .
 nsIAppShellService
 )
+;
+const
+{
+preferences
+}
+=
+metadata
 ;
 const
 NAME2TOPIC
