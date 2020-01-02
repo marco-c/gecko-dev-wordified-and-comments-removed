@@ -2832,6 +2832,8 @@ readlink
 path
 buf
 PATH_MAX
+-
+1
 )
 )
 <
