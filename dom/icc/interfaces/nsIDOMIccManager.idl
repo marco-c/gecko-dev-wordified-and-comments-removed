@@ -1768,6 +1768,9 @@ personalizationReady
 '
 ready
 '
+'
+permanentBlocked
+'
 .
 *
 /
