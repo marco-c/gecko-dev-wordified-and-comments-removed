@@ -763,7 +763,10 @@ GetFlags
 (
 )
 &
-TEXTURE_IMMEDIATE_UPLOAD
+TextureFlags
+:
+:
+IMMEDIATE_UPLOAD
 )
 ;
 aTile

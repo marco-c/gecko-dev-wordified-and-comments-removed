@@ -2205,7 +2205,10 @@ mTextureInfo
 .
 mTextureFlags
 &
-TEXTURE_COMPONENT_ALPHA
+TextureFlags
+:
+:
+COMPONENT_ALPHA
 )
 {
 temp

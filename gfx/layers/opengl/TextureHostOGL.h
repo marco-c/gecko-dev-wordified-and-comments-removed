@@ -687,7 +687,10 @@ aGL
 TextureFlags
 aFlags
 =
-TEXTURE_FLAGS_DEFAULT
+TextureFlags
+:
+:
+DEFAULT
 )
 :
 mGL

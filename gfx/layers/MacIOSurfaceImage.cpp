@@ -54,7 +54,10 @@ buffer
 new
 MacIOSurfaceTextureClientOGL
 (
-TEXTURE_FLAGS_DEFAULT
+TextureFlags
+:
+:
+DEFAULT
 )
 ;
 buffer

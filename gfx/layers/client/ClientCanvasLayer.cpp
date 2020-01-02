@@ -684,7 +684,10 @@ mCanvasClient
 TextureFlags
 flags
 =
-TEXTURE_IMMEDIATE_UPLOAD
+TextureFlags
+:
+:
+IMMEDIATE_UPLOAD
 ;
 if
 (
@@ -694,7 +697,10 @@ mNeedsYFlip
 flags
 |
 =
-TEXTURE_NEEDS_Y_FLIP
+TextureFlags
+:
+:
+NEEDS_Y_FLIP
 ;
 }
 if
@@ -706,7 +712,10 @@ mGLContext
 flags
 |
 =
-TEXTURE_IMMEDIATE_UPLOAD
+TextureFlags
+:
+:
+IMMEDIATE_UPLOAD
 ;
 }
 else
@@ -714,7 +723,10 @@ else
 flags
 |
 =
-TEXTURE_DEALLOCATE_CLIENT
+TextureFlags
+:
+:
+DEALLOCATE_CLIENT
 ;
 }
 mCanvasClient

@@ -130,7 +130,10 @@ MOZ_ASSERT
 (
 aFlags
 &
-TEXTURE_DEALLOCATE_CLIENT
+TextureFlags
+:
+:
+DEALLOCATE_CLIENT
 )
 )
 ;
