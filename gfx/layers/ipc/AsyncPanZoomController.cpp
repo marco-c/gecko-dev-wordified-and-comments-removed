@@ -8111,6 +8111,10 @@ aLayerMetrics
 .
 mScrollOffset
 ;
+mLastDispatchedPaintMetrics
+=
+aLayerMetrics
+;
 nsRefPtr
 <
 GeckoContentController
