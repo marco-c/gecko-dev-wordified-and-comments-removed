@@ -2129,6 +2129,13 @@ VerifyPreTracer
 (
 )
 ;
+if
+(
+!
+trc
+)
+return
+;
 rt
 -
 >
@@ -3115,6 +3122,13 @@ VerifyPostTracer
 >
 (
 )
+;
+if
+(
+!
+trc
+)
+return
 ;
 rt
 -
