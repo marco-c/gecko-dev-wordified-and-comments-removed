@@ -662,6 +662,11 @@ CachedByte
 )
 ;
 int8_t
+CachedConstantByte
+(
+)
+;
+int8_t
 CachedWritableByte
 (
 )

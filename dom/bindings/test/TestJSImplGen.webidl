@@ -328,6 +328,15 @@ cachedByte
 ;
 [
 Cached
+Constant
+]
+readonly
+attribute
+byte
+cachedConstantByte
+;
+[
+Cached
 Pure
 ]
 attribute

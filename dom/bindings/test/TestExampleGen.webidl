@@ -293,6 +293,15 @@ byte
 cachedByte
 ;
 [
+StoreInSlot
+Constant
+]
+readonly
+attribute
+byte
+cachedConstantByte
+;
+[
 Cached
 Pure
 ]
