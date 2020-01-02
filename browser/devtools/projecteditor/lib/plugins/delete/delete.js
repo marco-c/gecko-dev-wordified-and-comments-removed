@@ -163,11 +163,10 @@ resource
 .
 parent
 ;
-tree
-.
-deleteResource
-(
 resource
+.
+delete
+(
 )
 .
 then
