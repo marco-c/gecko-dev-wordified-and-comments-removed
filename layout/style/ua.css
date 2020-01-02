@@ -367,6 +367,13 @@ space
 inherit
 ;
 }
+supports
+(
+display
+:
+ruby
+)
+{
 *
 |
 *
@@ -465,6 +472,7 @@ text
 -
 container
 ;
+}
 }
 *
 |
