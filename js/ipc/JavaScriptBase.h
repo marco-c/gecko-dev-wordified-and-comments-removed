@@ -339,9 +339,9 @@ ObjectId
 &
 objId
 const
-ObjectId
+ObjectVariant
 &
-receiverId
+receiverVar
 const
 nsString
 &
@@ -361,7 +361,7 @@ Answer
 AnswerGet
 (
 objId
-receiverId
+receiverVar
 id
 rs
 result
@@ -376,9 +376,9 @@ ObjectId
 &
 objId
 const
-ObjectId
+ObjectVariant
 &
-receiverId
+receiverVar
 const
 nsString
 &
@@ -406,7 +406,7 @@ Answer
 AnswerSet
 (
 objId
-receiverId
+receiverVar
 id
 strict
 value
@@ -901,9 +901,9 @@ ObjectId
 &
 objId
 const
-ObjectId
+ObjectVariant
 &
-receiverId
+receiverVar
 const
 nsString
 &
@@ -923,7 +923,7 @@ Base
 CallGet
 (
 objId
-receiverId
+receiverVar
 id
 rs
 result
@@ -938,9 +938,9 @@ ObjectId
 &
 objId
 const
-ObjectId
+ObjectVariant
 &
-receiverId
+receiverVar
 const
 nsString
 &
@@ -968,7 +968,7 @@ Base
 CallSet
 (
 objId
-receiverId
+receiverVar
 id
 strict
 value

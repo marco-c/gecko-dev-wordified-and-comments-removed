@@ -302,8 +302,8 @@ Get
 (
 uint64_t
 objId
-uint64_t
-receiverId
+ObjectVariant
+receiver
 nsString
 id
 )
@@ -320,8 +320,8 @@ Set
 (
 uint64_t
 objId
-uint64_t
-receiverId
+ObjectVariant
+receiver
 nsString
 id
 bool
