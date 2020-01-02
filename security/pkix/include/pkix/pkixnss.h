@@ -124,7 +124,7 @@ SECItem
 UnsafeMapInputToSECItem
 (
 Input
-ib
+input
 )
 {
 SECItem
@@ -138,13 +138,13 @@ uint8_t
 *
 >
 (
-ib
+input
 .
 UnsafeGetData
 (
 )
 )
-ib
+input
 .
 GetLength
 (
