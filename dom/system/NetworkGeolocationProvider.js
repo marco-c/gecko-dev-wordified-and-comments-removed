@@ -2479,14 +2479,6 @@ LOG
 "
 Sending
 request
-:
-"
-+
-url
-+
-"
-\
-n
 "
 )
 ;
