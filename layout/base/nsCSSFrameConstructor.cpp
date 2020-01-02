@@ -3297,7 +3297,10 @@ aHistoryState
 )
 mAdditionalStateBits
 (
+nsFrameState
+(
 0
+)
 )
 mFixedPosIsAbsPos
 (
@@ -3437,7 +3440,10 @@ aFloatContainingBlock
 )
 mAdditionalStateBits
 (
+nsFrameState
+(
 0
+)
 )
 mFixedPosIsAbsPos
 (
@@ -11419,7 +11425,7 @@ IsCombobox
 )
 )
 {
-uint32_t
+nsFrameState
 flags
 =
 NS_BLOCK_FLOAT_MGR
@@ -32753,7 +32759,10 @@ NS_NewColumnSetFrame
 (
 shell
 styleContext
+nsFrameState
+(
 0
+)
 )
 ;
 newFrame
@@ -42401,7 +42410,10 @@ NS_NewColumnSetFrame
 (
 mPresShell
 aStyleContext
+nsFrameState
+(
 0
+)
 )
 ;
 InitAndRestoreFrame
