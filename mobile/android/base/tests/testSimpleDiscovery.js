@@ -252,7 +252,7 @@ service
 ;
 SimpleServiceDiscovery
 .
-_found
+_processService
 (
 service
 )
