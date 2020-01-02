@@ -1083,9 +1083,6 @@ private
 nsAutoString
 mIconPath
 ;
-nsAutoCString
-mMimeTypeOfInputData
-;
 nsAutoArrayPtr
 <
 uint8_t
