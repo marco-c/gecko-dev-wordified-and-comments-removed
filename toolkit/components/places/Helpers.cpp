@@ -948,6 +948,8 @@ NS_OK
 #
 ifdef
 XP_WIN
+}
+}
 #
 include
 <
@@ -962,6 +964,12 @@ wincrypt
 .
 h
 >
+namespace
+mozilla
+{
+namespace
+places
+{
 #
 endif
 static

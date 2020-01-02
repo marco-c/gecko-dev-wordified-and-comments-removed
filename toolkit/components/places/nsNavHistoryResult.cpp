@@ -113,6 +113,9 @@ nsCycleCollectionParticipant
 h
 "
 #
+undef
+CompareString
+#
 define
 TO_ICONTAINER
 (
