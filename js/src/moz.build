@@ -1146,6 +1146,13 @@ cpp
 '
 vm
 /
+ErrorObject
+.
+cpp
+'
+'
+vm
+/
 ForkJoin
 .
 cpp
