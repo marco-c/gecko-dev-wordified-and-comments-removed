@@ -538,7 +538,13 @@ forget
 if
 (
 (
+static_cast
+<
+uint32_t
+>
+(
 index
+)
 +
 1
 )

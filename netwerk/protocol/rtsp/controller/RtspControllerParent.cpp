@@ -112,13 +112,13 @@ mIPCOpen
 &
 mTotalTracks
 >
-0
+0ul
 )
 {
 \
 for
 (
-int
+uint32_t
 i
 =
 0

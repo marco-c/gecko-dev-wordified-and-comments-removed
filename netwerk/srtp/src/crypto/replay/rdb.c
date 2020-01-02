@@ -128,6 +128,9 @@ if
 (
 delta
 <
+(
+int
+)
 rdb_bits_in_bitmask
 )
 {

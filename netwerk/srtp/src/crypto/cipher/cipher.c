@@ -382,6 +382,10 @@ if
 len
 !
 =
+(
+unsigned
+int
+)
 test_case
 -
 >
@@ -708,6 +712,10 @@ if
 len
 !
 =
+(
+unsigned
+int
+)
 test_case
 -
 >
@@ -1254,6 +1262,9 @@ if
 length
 !
 =
+(
+unsigned
+)
 plaintext_len
 )
 return

@@ -128,6 +128,9 @@ args
 ;
 if
 (
+(
+err_reporting_level_t
+)
 priority
 <
 =
