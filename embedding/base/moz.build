@@ -98,11 +98,6 @@ XPIDL_SOURCES
 =
 [
 '
-nsIDialogCreator
-.
-idl
-'
-'
 nsIWindowCreator
 .
 idl

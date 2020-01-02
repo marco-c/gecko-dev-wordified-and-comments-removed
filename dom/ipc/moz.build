@@ -409,11 +409,6 @@ PContent
 ipdl
 '
 '
-PContentDialog
-.
-ipdl
-'
-'
 PContentPermission
 .
 ipdlh
