@@ -5029,6 +5029,9 @@ case
 NS_MOUSE_MOVE
 :
 case
+NS_POINTER_DOWN
+:
+case
 NS_POINTER_MOVE
 :
 {
@@ -18964,6 +18967,9 @@ refPoint
 }
 case
 NS_POINTER_MOVE
+:
+case
+NS_POINTER_DOWN
 :
 {
 nsCOMPtr
