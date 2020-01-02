@@ -608,11 +608,10 @@ accesskey
 oncommand
 =
 "
-goDoCommand
+gContextMenu
+.
+copyLink
 (
-'
-cmd_copyLink
-'
 )
 ;
 "
