@@ -1046,6 +1046,12 @@ CDATA
 [
 this
 .
+_fullZoom
+=
+val
+;
+this
+.
 messageManager
 .
 sendAsyncMessage
@@ -1120,6 +1126,12 @@ setter
 [
 CDATA
 [
+this
+.
+_textZoom
+=
+val
+;
 this
 .
 messageManager
