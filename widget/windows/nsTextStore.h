@@ -2509,11 +2509,11 @@ mInitialized
 }
 ;
 Content
-mContent
+mLockedContent
 ;
 Content
 &
-CurrentContent
+LockedContent
 (
 )
 ;
