@@ -14,17 +14,10 @@ h
 #
 include
 "
-mozilla
-/
-dom
-/
 MobileConnection
 .
 h
 "
-class
-nsIDOMMozMobileConnection
-;
 namespace
 mozilla
 {
@@ -72,7 +65,7 @@ aCx
 )
 MOZ_OVERRIDE
 ;
-nsIDOMMozMobileConnection
+MobileConnection
 *
 Item
 (
@@ -86,7 +79,7 @@ Length
 )
 const
 ;
-nsIDOMMozMobileConnection
+MobileConnection
 *
 IndexedGetter
 (
