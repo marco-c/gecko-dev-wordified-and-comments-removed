@@ -1235,6 +1235,11 @@ GeckoScreenOrientation
 java
 '
 '
+GeckoSharedPrefs
+.
+java
+'
+'
 GeckoSmsManager
 .
 java

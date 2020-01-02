@@ -63,13 +63,6 @@ SharedPreferences
 import
 android
 .
-preference
-.
-PreferenceManager
-;
-import
-android
-.
 util
 .
 Log
@@ -323,9 +316,9 @@ null
 )
 {
 return
-PreferenceManager
+GeckoSharedPrefs
 .
-getDefaultSharedPreferences
+forApp
 (
 mContext
 )
