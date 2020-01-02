@@ -978,7 +978,7 @@ closebutton
 ]
 defaultCollapsed
 :
-false
+null
 }
 true
 )
@@ -11299,6 +11299,15 @@ ownerDocument
 .
 defaultView
 ;
+if
+(
+defaultCollapsed
+!
+=
+=
+null
+)
+{
 win
 .
 setToolbarVisibility
@@ -11308,6 +11317,7 @@ areaNode
 defaultCollapsed
 )
 ;
+}
 }
 }
 }
@@ -12132,6 +12142,13 @@ defaultCollapsed
 ;
 if
 (
+defaultCollapsed
+!
+=
+=
+null
+&
+&
 collapsed
 !
 =
