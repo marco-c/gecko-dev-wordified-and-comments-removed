@@ -27408,16 +27408,6 @@ fails
 -
 if
 (
-winWidget
-&
-&
-!
-layersGPUAccelerated
-)
-fails
--
-if
-(
 layersGPUAccelerated
 &
 &
