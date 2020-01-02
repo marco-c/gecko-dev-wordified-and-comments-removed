@@ -39,6 +39,11 @@ worker
 js
 content
 /
+default_preferences
+.
+js
+content
+/
 network
 .
 js
