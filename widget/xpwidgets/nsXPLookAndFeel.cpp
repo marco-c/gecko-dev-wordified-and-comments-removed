@@ -391,6 +391,16 @@ eIntID_TooltipDelay
 false
 0
 }
+{
+"
+ui
+.
+physicalHomeButton
+"
+eIntID_PhysicalHomeButton
+false
+0
+}
 }
 ;
 nsLookAndFeelFloatPref
