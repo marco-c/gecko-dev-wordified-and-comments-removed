@@ -58,6 +58,10 @@ nsGenericHTMLElement
 aNodeInfo
 )
 {
+SetHasWeirdParserInsertionMode
+(
+)
+;
 }
 NS_IMPL_FROMCONTENT_HTML_WITH_TAG
 (

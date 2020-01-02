@@ -56,6 +56,10 @@ nsGenericHTMLElement
 aNodeInfo
 )
 {
+SetHasWeirdParserInsertionMode
+(
+)
+;
 }
 NS_DECL_ISUPPORTS_INHERITED
 nsIHTMLCollection

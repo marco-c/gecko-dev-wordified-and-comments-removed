@@ -58,6 +58,10 @@ nsGenericHTMLElement
 aNodeInfo
 )
 {
+SetHasWeirdParserInsertionMode
+(
+)
+;
 }
 virtual
 ~

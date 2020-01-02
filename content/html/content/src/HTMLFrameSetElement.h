@@ -98,6 +98,10 @@ mCurrentRowColHint
 NS_STYLE_HINT_REFLOW
 )
 {
+SetHasWeirdParserInsertionMode
+(
+)
+;
 }
 virtual
 ~

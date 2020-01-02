@@ -513,6 +513,10 @@ mSelectedIndex
 1
 )
 {
+SetHasWeirdParserInsertionMode
+(
+)
+;
 AddStatesSilently
 (
 NS_EVENT_STATE_ENABLED
