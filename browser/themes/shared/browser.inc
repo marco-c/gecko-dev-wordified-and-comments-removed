@@ -288,3 +288,7 @@ true
 define
 tabToolbarNavbarOverlap
 1px
+%
+define
+tabHeight
+31px
