@@ -196,6 +196,12 @@ mFrameRate
 uint32_t
 mBitRateKbps
 ;
+uint32_t
+mBitRateAtLastIDR
+;
+TimeStamp
+mLastIDRTime
+;
 bool
 mOMXConfigured
 ;
