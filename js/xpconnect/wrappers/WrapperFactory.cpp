@@ -655,7 +655,6 @@ key
 =
 JS_IdentifyClassPrototype
 (
-cx
 obj
 )
 ;
