@@ -961,7 +961,7 @@ email
 )
 ;
 }
-toggle
+onMenuPanelCommand
 :
 function
 (

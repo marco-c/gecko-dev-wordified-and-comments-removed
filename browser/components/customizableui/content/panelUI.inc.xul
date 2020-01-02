@@ -204,7 +204,7 @@ oncommand
 "
 gFxAccounts
 .
-toggle
+onMenuPanelCommand
 (
 event
 )
