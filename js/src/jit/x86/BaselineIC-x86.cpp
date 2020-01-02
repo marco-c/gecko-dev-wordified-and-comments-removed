@@ -1131,12 +1131,11 @@ failure
 ;
 masm
 .
-xorl
+mov
 (
-R0
-.
-payloadReg
+ImmWord
 (
+0
 )
 R0
 .

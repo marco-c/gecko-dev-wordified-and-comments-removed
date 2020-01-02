@@ -87,9 +87,12 @@ op
 ;
 masm
 .
-xorl
+mov
 (
-dest
+ImmWord
+(
+0
+)
 dest
 )
 ;

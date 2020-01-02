@@ -3666,9 +3666,12 @@ gpr
 ;
 masm
 .
-xorl
+mov
 (
-destReg
+ImmWord
+(
+0
+)
 destReg
 )
 ;

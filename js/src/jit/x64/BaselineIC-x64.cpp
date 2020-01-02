@@ -90,9 +90,12 @@ true
 ;
 masm
 .
-xorl
+mov
 (
-ScratchReg
+ImmWord
+(
+0
+)
 ScratchReg
 )
 ;
