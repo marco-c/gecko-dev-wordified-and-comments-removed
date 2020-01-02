@@ -121,6 +121,11 @@ ContentClick
 jsm
 '
 '
+ContentLinkHandler
+.
+jsm
+'
+'
 Feeds
 .
 jsm
