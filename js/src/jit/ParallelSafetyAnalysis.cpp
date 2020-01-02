@@ -1282,6 +1282,10 @@ RegExpReplace
 )
 UNSAFE_OP
 (
+StringReplace
+)
+UNSAFE_OP
+(
 CallInstanceOf
 )
 UNSAFE_OP
