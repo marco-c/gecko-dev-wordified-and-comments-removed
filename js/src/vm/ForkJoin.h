@@ -450,6 +450,12 @@ shared
 bool
 acquiredContext_
 ;
+JS
+:
+:
+AutoAssertNoGC
+nogc_
+;
 }
 ;
 class
