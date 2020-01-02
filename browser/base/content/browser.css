@@ -5871,9 +5871,6 @@ color
 }
 #
 UITourHighlightContainer
-html
-|
-div
 #
 UITourHighlight
 {
@@ -5884,9 +5881,6 @@ events
 none
 ;
 }
-html
-|
-div
 #
 UITourHighlight
 [
@@ -5924,9 +5918,6 @@ function
 linear
 ;
 }
-html
-|
-div
 #
 UITourHighlight
 [
@@ -5952,9 +5943,6 @@ duration
 1s
 ;
 }
-html
-|
-div
 #
 UITourHighlight
 [
@@ -5980,9 +5968,6 @@ duration
 1s
 ;
 }
-html
-|
-div
 #
 UITourHighlight
 [

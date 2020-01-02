@@ -2185,9 +2185,7 @@ false
 "
 >
 <
-html
-:
-div
+box
 id
 =
 "
@@ -2196,9 +2194,7 @@ UITourHighlight
 >
 <
 /
-html
-:
-div
+box
 >
 <
 /
