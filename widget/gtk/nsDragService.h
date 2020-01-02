@@ -37,6 +37,17 @@ h
 class
 nsWindow
 ;
+namespace
+mozilla
+{
+namespace
+gfx
+{
+class
+SourceSurface
+;
+}
+}
 #
 ifndef
 HAVE_NSGOBJECTREFTRAITS
@@ -471,7 +482,7 @@ void
 bool
 SetAlphaPixmap
 (
-gfxASurface
+SourceSurface
 *
 aPixbuf
 GdkDragContext
