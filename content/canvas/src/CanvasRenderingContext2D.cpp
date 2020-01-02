@@ -9753,6 +9753,10 @@ Finish
 (
 )
 ;
+mPathBuilder
+=
+nullptr
+;
 }
 NS_ASSERTION
 (
