@@ -2,7 +2,7 @@ PNG
 IHDR
 w
 /
-IDAT8
+IDATx
 MO
 A
 G
@@ -158,5 +158,6 @@ d
 }
 B
 &
+t
 IEND
 B
