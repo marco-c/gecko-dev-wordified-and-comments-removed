@@ -3287,6 +3287,13 @@ BINPATH
 /
 components
 /
+ActivityOptions
+.
+js
+BINPATH
+/
+components
+/
 ActivityProxy
 .
 js

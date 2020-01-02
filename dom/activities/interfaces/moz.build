@@ -108,6 +108,11 @@ nsIActivityUIGlue
 idl
 '
 '
+nsIDOMActivityOptions
+.
+idl
+'
+'
 nsIDOMActivityRequestHandler
 .
 idl
