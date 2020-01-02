@@ -1269,7 +1269,7 @@ defineLazyServiceGetter
 (
 this
 "
-gTelephonyProvider
+gTelephonyService
 "
 "
 mozilla
@@ -1278,12 +1278,12 @@ org
 /
 telephony
 /
-telephonyprovider
+telephonyservice
 ;
 1
 "
 "
-nsIGonkTelephonyProvider
+nsIGonkTelephonyService
 "
 )
 ;
@@ -10656,7 +10656,7 @@ case
 callRing
 "
 :
-gTelephonyProvider
+gTelephonyService
 .
 notifyCallRing
 (
@@ -10669,7 +10669,7 @@ case
 callStateChange
 "
 :
-gTelephonyProvider
+gTelephonyService
 .
 notifyCallStateChanged
 (
@@ -10688,7 +10688,7 @@ case
 callDisconnected
 "
 :
-gTelephonyProvider
+gTelephonyService
 .
 notifyCallDisconnected
 (
@@ -10707,7 +10707,7 @@ case
 conferenceCallStateChanged
 "
 :
-gTelephonyProvider
+gTelephonyService
 .
 notifyConferenceCallStateChanged
 (
@@ -10723,7 +10723,7 @@ case
 cdmaCallWaiting
 "
 :
-gTelephonyProvider
+gTelephonyService
 .
 notifyCdmaCallWaiting
 (
@@ -10742,7 +10742,7 @@ case
 suppSvcNotification
 "
 :
-gTelephonyProvider
+gTelephonyService
 .
 notifySupplementaryService
 (

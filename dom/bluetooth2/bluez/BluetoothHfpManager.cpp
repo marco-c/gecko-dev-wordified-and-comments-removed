@@ -163,7 +163,7 @@ h
 #
 include
 "
-nsITelephonyProvider
+nsITelephonyService
 .
 h
 "
@@ -1331,7 +1331,7 @@ Reset
 {
 mState
 =
-nsITelephonyProvider
+nsITelephonyService
 :
 :
 CALL_STATE_DISCONNECTED
@@ -1368,7 +1368,7 @@ return
 mState
 =
 =
-nsITelephonyProvider
+nsITelephonyService
 :
 :
 CALL_STATE_CONNECTED
@@ -5784,7 +5784,7 @@ aCall
 mState
 =
 =
-nsITelephonyProvider
+nsITelephonyService
 :
 :
 CALL_STATE_DISCONNECTED
@@ -5845,7 +5845,7 @@ mState
 )
 {
 case
-nsITelephonyProvider
+nsITelephonyService
 :
 :
 CALL_STATE_CONNECTED
@@ -5892,7 +5892,7 @@ status
 break
 ;
 case
-nsITelephonyProvider
+nsITelephonyService
 :
 :
 CALL_STATE_HELD
@@ -5907,7 +5907,7 @@ AppendInt
 break
 ;
 case
-nsITelephonyProvider
+nsITelephonyService
 :
 :
 CALL_STATE_DIALING
@@ -5922,7 +5922,7 @@ AppendInt
 break
 ;
 case
-nsITelephonyProvider
+nsITelephonyService
 :
 :
 CALL_STATE_ALERTING
@@ -5937,7 +5937,7 @@ AppendInt
 break
 ;
 case
-nsITelephonyProvider
+nsITelephonyService
 :
 :
 CALL_STATE_INCOMING
@@ -5947,7 +5947,7 @@ if
 !
 FindFirstCall
 (
-nsITelephonyProvider
+nsITelephonyService
 :
 :
 CALL_STATE_CONNECTED
@@ -7034,7 +7034,7 @@ aCallState
 )
 {
 case
-nsITelephonyProvider
+nsITelephonyService
 :
 :
 CALL_STATE_HELD
@@ -7045,7 +7045,7 @@ prevCallState
 )
 {
 case
-nsITelephonyProvider
+nsITelephonyService
 :
 :
 CALL_STATE_CONNECTED
@@ -7056,7 +7056,7 @@ numActive
 =
 GetNumberOfCalls
 (
-nsITelephonyProvider
+nsITelephonyService
 :
 :
 CALL_STATE_CONNECTED
@@ -7067,7 +7067,7 @@ numHeld
 =
 GetNumberOfCalls
 (
-nsITelephonyProvider
+nsITelephonyService
 :
 :
 CALL_STATE_HELD
@@ -7145,7 +7145,7 @@ if
 (
 GetNumberOfConCalls
 (
-nsITelephonyProvider
+nsITelephonyService
 :
 :
 CALL_STATE_HELD
@@ -7213,7 +7213,7 @@ break
 ;
 }
 case
-nsITelephonyProvider
+nsITelephonyService
 :
 :
 CALL_STATE_DISCONNECTED
@@ -7222,7 +7222,7 @@ if
 (
 FindFirstCall
 (
-nsITelephonyProvider
+nsITelephonyService
 :
 :
 CALL_STATE_CONNECTED
@@ -7260,7 +7260,7 @@ break
 break
 ;
 case
-nsITelephonyProvider
+nsITelephonyService
 :
 :
 CALL_STATE_INCOMING
@@ -7269,7 +7269,7 @@ if
 (
 FindFirstCall
 (
-nsITelephonyProvider
+nsITelephonyService
 :
 :
 CALL_STATE_CONNECTED
@@ -7378,7 +7378,7 @@ sRingInterval
 break
 ;
 case
-nsITelephonyProvider
+nsITelephonyService
 :
 :
 CALL_STATE_DIALING
@@ -7421,7 +7421,7 @@ ConnectSco
 break
 ;
 case
-nsITelephonyProvider
+nsITelephonyService
 :
 :
 CALL_STATE_ALERTING
@@ -7446,7 +7446,7 @@ ConnectSco
 break
 ;
 case
-nsITelephonyProvider
+nsITelephonyService
 :
 :
 CALL_STATE_CONNECTED
@@ -7457,13 +7457,13 @@ prevCallState
 )
 {
 case
-nsITelephonyProvider
+nsITelephonyService
 :
 :
 CALL_STATE_INCOMING
 :
 case
-nsITelephonyProvider
+nsITelephonyService
 :
 :
 CALL_STATE_DISCONNECTED
@@ -7477,13 +7477,13 @@ ConnectSco
 )
 ;
 case
-nsITelephonyProvider
+nsITelephonyService
 :
 :
 CALL_STATE_DIALING
 :
 case
-nsITelephonyProvider
+nsITelephonyService
 :
 :
 CALL_STATE_ALERTING
@@ -7518,7 +7518,7 @@ if
 (
 FindFirstCall
 (
-nsITelephonyProvider
+nsITelephonyService
 :
 :
 CALL_STATE_HELD
@@ -7542,7 +7542,7 @@ aSend
 break
 ;
 case
-nsITelephonyProvider
+nsITelephonyService
 :
 :
 CALL_STATE_CONNECTED
@@ -7569,7 +7569,7 @@ aSend
 break
 ;
 case
-nsITelephonyProvider
+nsITelephonyService
 :
 :
 CALL_STATE_HELD
@@ -7579,7 +7579,7 @@ if
 !
 FindFirstCall
 (
-nsITelephonyProvider
+nsITelephonyService
 :
 :
 CALL_STATE_HELD
@@ -7662,7 +7662,7 @@ changed
 break
 ;
 case
-nsITelephonyProvider
+nsITelephonyService
 :
 :
 CALL_STATE_DISCONNECTED
@@ -7673,7 +7673,7 @@ prevCallState
 )
 {
 case
-nsITelephonyProvider
+nsITelephonyService
 :
 :
 CALL_STATE_INCOMING
@@ -7683,13 +7683,13 @@ sStopSendingRingFlag
 true
 ;
 case
-nsITelephonyProvider
+nsITelephonyService
 :
 :
 CALL_STATE_DIALING
 :
 case
-nsITelephonyProvider
+nsITelephonyService
 :
 :
 CALL_STATE_ALERTING
@@ -7710,7 +7710,7 @@ aSend
 break
 ;
 case
-nsITelephonyProvider
+nsITelephonyService
 :
 :
 CALL_STATE_CONNECTED
@@ -7768,7 +7768,7 @@ if
 !
 FindFirstCall
 (
-nsITelephonyProvider
+nsITelephonyService
 :
 :
 CALL_STATE_HELD
@@ -7795,7 +7795,7 @@ if
 !
 FindFirstCall
 (
-nsITelephonyProvider
+nsITelephonyService
 :
 :
 CALL_STATE_CONNECTED
@@ -7845,7 +7845,7 @@ Length
 =
 GetNumberOfCalls
 (
-nsITelephonyProvider
+nsITelephonyService
 :
 :
 CALL_STATE_DISCONNECTED
@@ -8205,7 +8205,7 @@ mCdmaSecondCall
 .
 mState
 =
-nsITelephonyProvider
+nsITelephonyService
 :
 :
 CALL_STATE_CONNECTED
@@ -8332,12 +8332,12 @@ IsActive
 )
 )
 ?
-nsITelephonyProvider
+nsITelephonyService
 :
 :
 CALL_STATE_HELD
 :
-nsITelephonyProvider
+nsITelephonyService
 :
 :
 CALL_STATE_CONNECTED

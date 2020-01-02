@@ -10,7 +10,7 @@ d063
 -
 5b3189788155
 }
-TelephonyProvider
+TelephonyService
 .
 js
 contract
@@ -20,7 +20,7 @@ org
 /
 telephony
 /
-gonktelephonyprovider
+gonktelephonyservice
 ;
 1
 {

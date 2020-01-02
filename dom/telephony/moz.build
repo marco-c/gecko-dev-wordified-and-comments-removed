@@ -98,7 +98,7 @@ XPIDL_SOURCES
 =
 [
 '
-nsITelephonyProvider
+nsITelephonyService
 .
 idl
 '
@@ -201,7 +201,7 @@ cpp
 '
 ipc
 /
-TelephonyIPCProvider
+TelephonyIPCService
 .
 cpp
 '
@@ -284,7 +284,7 @@ XPIDL_SOURCES
 =
 [
 '
-nsIGonkTelephonyProvider
+nsIGonkTelephonyService
 .
 idl
 '
@@ -296,14 +296,14 @@ EXTRA_COMPONENTS
 '
 gonk
 /
-TelephonyProvider
+TelephonyService
 .
 js
 '
 '
 gonk
 /
-TelephonyProvider
+TelephonyService
 .
 manifest
 '

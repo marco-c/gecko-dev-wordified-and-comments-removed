@@ -1,9 +1,9 @@
 #
 ifndef
-mozilla_dom_telephony_TelephonyIPCProvider_h
+mozilla_dom_telephony_TelephonyIPCService_h
 #
 define
-mozilla_dom_telephony_TelephonyIPCProvider_h
+mozilla_dom_telephony_TelephonyIPCService_h
 #
 include
 "
@@ -36,7 +36,7 @@ h
 #
 include
 "
-nsITelephonyProvider
+nsITelephonyService
 .
 h
 "
@@ -48,11 +48,11 @@ class
 PTelephonyChild
 ;
 class
-TelephonyIPCProvider
+TelephonyIPCService
 MOZ_FINAL
 :
 public
-nsITelephonyProvider
+nsITelephonyService
 public
 nsITelephonyListener
 public
@@ -61,10 +61,10 @@ nsIObserver
 public
 :
 NS_DECL_ISUPPORTS
-NS_DECL_NSITELEPHONYPROVIDER
+NS_DECL_NSITELEPHONYSERVICE
 NS_DECL_NSITELEPHONYLISTENER
 NS_DECL_NSIOBSERVER
-TelephonyIPCProvider
+TelephonyIPCService
 (
 )
 ;
@@ -76,7 +76,7 @@ NoteActorDestroyed
 private
 :
 ~
-TelephonyIPCProvider
+TelephonyIPCService
 (
 )
 ;

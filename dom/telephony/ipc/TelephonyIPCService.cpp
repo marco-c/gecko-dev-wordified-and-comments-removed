@@ -1,7 +1,7 @@
 #
 include
 "
-TelephonyIPCProvider
+TelephonyIPCService
 .
 h
 "
@@ -141,15 +141,15 @@ id
 }
 NS_IMPL_ISUPPORTS
 (
-TelephonyIPCProvider
-nsITelephonyProvider
+TelephonyIPCService
+nsITelephonyService
 nsITelephonyListener
 nsIObserver
 )
-TelephonyIPCProvider
+TelephonyIPCService
 :
 :
-TelephonyIPCProvider
+TelephonyIPCService
 (
 )
 {
@@ -190,11 +190,11 @@ getDefaultServiceId
 )
 ;
 }
-TelephonyIPCProvider
+TelephonyIPCService
 :
 :
 ~
-TelephonyIPCProvider
+TelephonyIPCService
 (
 )
 {
@@ -218,7 +218,7 @@ nullptr
 }
 }
 void
-TelephonyIPCProvider
+TelephonyIPCService
 :
 :
 NoteActorDestroyed
@@ -236,7 +236,7 @@ nullptr
 ;
 }
 NS_IMETHODIMP
-TelephonyIPCProvider
+TelephonyIPCService
 :
 :
 Observe
@@ -295,7 +295,7 @@ MOZ_ASSERT
 (
 false
 "
-TelephonyIPCProvider
+TelephonyIPCService
 got
 unexpected
 topic
@@ -308,7 +308,7 @@ NS_ERROR_UNEXPECTED
 ;
 }
 NS_IMETHODIMP
-TelephonyIPCProvider
+TelephonyIPCService
 :
 :
 GetDefaultServiceId
@@ -328,7 +328,7 @@ NS_OK
 ;
 }
 NS_IMETHODIMP
-TelephonyIPCProvider
+TelephonyIPCService
 :
 :
 RegisterListener
@@ -358,7 +358,7 @@ mPTelephonyChild
 NS_WARNING
 (
 "
-TelephonyProvider
+TelephonyService
 used
 after
 shutdown
@@ -404,7 +404,7 @@ NS_OK
 ;
 }
 NS_IMETHODIMP
-TelephonyIPCProvider
+TelephonyIPCService
 :
 :
 UnregisterListener
@@ -433,7 +433,7 @@ mPTelephonyChild
 NS_WARNING
 (
 "
-TelephonyProvider
+TelephonyService
 used
 after
 shutdown
@@ -477,7 +477,7 @@ NS_OK
 ;
 }
 nsresult
-TelephonyIPCProvider
+TelephonyIPCService
 :
 :
 SendRequest
@@ -503,7 +503,7 @@ mPTelephonyChild
 NS_WARNING
 (
 "
-TelephonyProvider
+TelephonyService
 used
 after
 shutdown
@@ -542,7 +542,7 @@ NS_OK
 ;
 }
 NS_IMETHODIMP
-TelephonyIPCProvider
+TelephonyIPCService
 :
 :
 EnumerateCalls
@@ -564,7 +564,7 @@ EnumerateCallsRequest
 ;
 }
 NS_IMETHODIMP
-TelephonyIPCProvider
+TelephonyIPCService
 :
 :
 Dial
@@ -600,7 +600,7 @@ aIsEmergency
 ;
 }
 NS_IMETHODIMP
-TelephonyIPCProvider
+TelephonyIPCService
 :
 :
 HangUp
@@ -620,7 +620,7 @@ mPTelephonyChild
 NS_WARNING
 (
 "
-TelephonyProvider
+TelephonyService
 used
 after
 shutdown
@@ -648,7 +648,7 @@ NS_OK
 ;
 }
 NS_IMETHODIMP
-TelephonyIPCProvider
+TelephonyIPCService
 :
 :
 AnswerCall
@@ -668,7 +668,7 @@ mPTelephonyChild
 NS_WARNING
 (
 "
-TelephonyProvider
+TelephonyService
 used
 after
 shutdown
@@ -696,7 +696,7 @@ NS_OK
 ;
 }
 NS_IMETHODIMP
-TelephonyIPCProvider
+TelephonyIPCService
 :
 :
 RejectCall
@@ -716,7 +716,7 @@ mPTelephonyChild
 NS_WARNING
 (
 "
-TelephonyProvider
+TelephonyService
 used
 after
 shutdown
@@ -744,7 +744,7 @@ NS_OK
 ;
 }
 NS_IMETHODIMP
-TelephonyIPCProvider
+TelephonyIPCService
 :
 :
 HoldCall
@@ -764,7 +764,7 @@ mPTelephonyChild
 NS_WARNING
 (
 "
-TelephonyProvider
+TelephonyService
 used
 after
 shutdown
@@ -792,7 +792,7 @@ NS_OK
 ;
 }
 NS_IMETHODIMP
-TelephonyIPCProvider
+TelephonyIPCService
 :
 :
 ResumeCall
@@ -812,7 +812,7 @@ mPTelephonyChild
 NS_WARNING
 (
 "
-TelephonyProvider
+TelephonyService
 used
 after
 shutdown
@@ -840,7 +840,7 @@ NS_OK
 ;
 }
 NS_IMETHODIMP
-TelephonyIPCProvider
+TelephonyIPCService
 :
 :
 ConferenceCall
@@ -858,7 +858,7 @@ mPTelephonyChild
 NS_WARNING
 (
 "
-TelephonyProvider
+TelephonyService
 used
 after
 shutdown
@@ -885,7 +885,7 @@ NS_OK
 ;
 }
 NS_IMETHODIMP
-TelephonyIPCProvider
+TelephonyIPCService
 :
 :
 SeparateCall
@@ -905,7 +905,7 @@ mPTelephonyChild
 NS_WARNING
 (
 "
-TelephonyProvider
+TelephonyService
 used
 after
 shutdown
@@ -933,7 +933,7 @@ NS_OK
 ;
 }
 NS_IMETHODIMP
-TelephonyIPCProvider
+TelephonyIPCService
 :
 :
 HoldConference
@@ -951,7 +951,7 @@ mPTelephonyChild
 NS_WARNING
 (
 "
-TelephonyProvider
+TelephonyService
 used
 after
 shutdown
@@ -978,7 +978,7 @@ NS_OK
 ;
 }
 NS_IMETHODIMP
-TelephonyIPCProvider
+TelephonyIPCService
 :
 :
 ResumeConference
@@ -996,7 +996,7 @@ mPTelephonyChild
 NS_WARNING
 (
 "
-TelephonyProvider
+TelephonyService
 used
 after
 shutdown
@@ -1023,7 +1023,7 @@ NS_OK
 ;
 }
 NS_IMETHODIMP
-TelephonyIPCProvider
+TelephonyIPCService
 :
 :
 StartTone
@@ -1045,7 +1045,7 @@ mPTelephonyChild
 NS_WARNING
 (
 "
-TelephonyProvider
+TelephonyService
 used
 after
 shutdown
@@ -1076,7 +1076,7 @@ NS_OK
 ;
 }
 NS_IMETHODIMP
-TelephonyIPCProvider
+TelephonyIPCService
 :
 :
 StopTone
@@ -1094,7 +1094,7 @@ mPTelephonyChild
 NS_WARNING
 (
 "
-TelephonyProvider
+TelephonyService
 used
 after
 shutdown
@@ -1121,7 +1121,7 @@ NS_OK
 ;
 }
 NS_IMETHODIMP
-TelephonyIPCProvider
+TelephonyIPCService
 :
 :
 GetMicrophoneMuted
@@ -1140,7 +1140,7 @@ mPTelephonyChild
 NS_WARNING
 (
 "
-TelephonyProvider
+TelephonyService
 used
 after
 shutdown
@@ -1167,7 +1167,7 @@ NS_OK
 ;
 }
 NS_IMETHODIMP
-TelephonyIPCProvider
+TelephonyIPCService
 :
 :
 SetMicrophoneMuted
@@ -1185,7 +1185,7 @@ mPTelephonyChild
 NS_WARNING
 (
 "
-TelephonyProvider
+TelephonyService
 used
 after
 shutdown
@@ -1212,7 +1212,7 @@ NS_OK
 ;
 }
 NS_IMETHODIMP
-TelephonyIPCProvider
+TelephonyIPCService
 :
 :
 GetSpeakerEnabled
@@ -1231,7 +1231,7 @@ mPTelephonyChild
 NS_WARNING
 (
 "
-TelephonyProvider
+TelephonyService
 used
 after
 shutdown
@@ -1258,7 +1258,7 @@ NS_OK
 ;
 }
 NS_IMETHODIMP
-TelephonyIPCProvider
+TelephonyIPCService
 :
 :
 SetSpeakerEnabled
@@ -1276,7 +1276,7 @@ mPTelephonyChild
 NS_WARNING
 (
 "
-TelephonyProvider
+TelephonyService
 used
 after
 shutdown
@@ -1303,7 +1303,7 @@ NS_OK
 ;
 }
 NS_IMETHODIMP
-TelephonyIPCProvider
+TelephonyIPCService
 :
 :
 CallStateChanged
@@ -1375,7 +1375,7 @@ NS_OK
 ;
 }
 NS_IMETHODIMP
-TelephonyIPCProvider
+TelephonyIPCService
 :
 :
 ConferenceCallStateChanged
@@ -1421,7 +1421,7 @@ NS_OK
 ;
 }
 NS_IMETHODIMP
-TelephonyIPCProvider
+TelephonyIPCService
 :
 :
 EnumerateCallStateComplete
@@ -1441,7 +1441,7 @@ request
 ;
 }
 NS_IMETHODIMP
-TelephonyIPCProvider
+TelephonyIPCService
 :
 :
 EnumerateCallState
@@ -1481,7 +1481,7 @@ request
 ;
 }
 NS_IMETHODIMP
-TelephonyIPCProvider
+TelephonyIPCService
 :
 :
 NotifyCdmaCallWaiting
@@ -1532,7 +1532,7 @@ NS_OK
 ;
 }
 NS_IMETHODIMP
-TelephonyIPCProvider
+TelephonyIPCService
 :
 :
 NotifyConferenceError
@@ -1585,7 +1585,7 @@ NS_OK
 ;
 }
 NS_IMETHODIMP
-TelephonyIPCProvider
+TelephonyIPCService
 :
 :
 NotifyError
@@ -1639,7 +1639,7 @@ NS_OK
 ;
 }
 NS_IMETHODIMP
-TelephonyIPCProvider
+TelephonyIPCService
 :
 :
 SupplementaryServiceNotification

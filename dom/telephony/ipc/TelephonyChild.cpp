@@ -8,7 +8,7 @@ h
 #
 include
 "
-TelephonyIPCProvider
+TelephonyIPCService
 .
 h
 "
@@ -18,7 +18,7 @@ TelephonyChild
 :
 TelephonyChild
 (
-TelephonyIPCProvider
+TelephonyIPCService
 *
 aProvider
 )

@@ -42,7 +42,7 @@ h
 #
 include
 "
-nsITelephonyProvider
+nsITelephonyService
 .
 h
 "
@@ -91,7 +91,7 @@ EnumerationAck
 ;
 nsCOMPtr
 <
-nsITelephonyProvider
+nsITelephonyService
 >
 mProvider
 ;
@@ -437,7 +437,7 @@ aCall
 )
 ;
 }
-nsITelephonyProvider
+nsITelephonyService
 *
 Provider
 (

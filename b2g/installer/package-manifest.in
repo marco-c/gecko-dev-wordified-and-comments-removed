@@ -2521,14 +2521,14 @@ BINPATH
 /
 components
 /
-TelephonyProvider
+TelephonyService
 .
 js
 BINPATH
 /
 components
 /
-TelephonyProvider
+TelephonyService
 .
 manifest
 #
@@ -4715,7 +4715,7 @@ BINPATH
 /
 components
 /
-DataStoreImpl
+DataStoreService
 .
 js
 BINPATH

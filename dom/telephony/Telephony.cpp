@@ -534,13 +534,13 @@ owner
 ;
 nsCOMPtr
 <
-nsITelephonyProvider
+nsITelephonyService
 >
 ril
 =
 do_GetService
 (
-TELEPHONY_PROVIDER_CONTRACTID
+TELEPHONY_SERVICE_CONTRACTID
 )
 ;
 if
@@ -792,7 +792,7 @@ return
 aCallState
 =
 =
-nsITelephonyProvider
+nsITelephonyService
 :
 :
 CALL_STATE_DIALING
@@ -801,7 +801,7 @@ CALL_STATE_DIALING
 aCallState
 =
 =
-nsITelephonyProvider
+nsITelephonyService
 :
 :
 CALL_STATE_ALERTING
@@ -810,7 +810,7 @@ CALL_STATE_ALERTING
 aCallState
 =
 =
-nsITelephonyProvider
+nsITelephonyService
 :
 :
 CALL_STATE_CONNECTED
@@ -919,7 +919,7 @@ CallState
 (
 )
 >
-nsITelephonyProvider
+nsITelephonyService
 :
 :
 CALL_STATE_UNKNOWN
@@ -932,7 +932,7 @@ CallState
 (
 )
 <
-nsITelephonyProvider
+nsITelephonyService
 :
 :
 CALL_STATE_CONNECTED
@@ -1214,7 +1214,7 @@ Create
 this
 aServiceId
 aNumber
-nsITelephonyProvider
+nsITelephonyService
 :
 :
 CALL_STATE_DIALING
@@ -1964,7 +1964,7 @@ CallState
 )
 =
 =
-nsITelephonyProvider
+nsITelephonyService
 :
 :
 CALL_STATE_CONNECTED
@@ -2295,7 +2295,7 @@ if
 aCallState
 =
 =
-nsITelephonyProvider
+nsITelephonyService
 :
 :
 CALL_STATE_DISCONNECTED
@@ -2378,7 +2378,7 @@ if
 aCallState
 =
 =
-nsITelephonyProvider
+nsITelephonyService
 :
 :
 CALL_STATE_INCOMING
@@ -2670,7 +2670,7 @@ aNotification
 )
 {
 case
-nsITelephonyProvider
+nsITelephonyService
 :
 :
 NOTIFICATION_REMOTE_HELD
@@ -2691,7 +2691,7 @@ associatedCall
 break
 ;
 case
-nsITelephonyProvider
+nsITelephonyService
 :
 :
 NOTIFICATION_REMOTE_RESUMED
