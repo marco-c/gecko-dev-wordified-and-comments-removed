@@ -62,6 +62,13 @@ init
 context
 )
 ;
+JavascriptBridge
+.
+init
+(
+context
+)
+;
 NavigationHelper
 .
 init
