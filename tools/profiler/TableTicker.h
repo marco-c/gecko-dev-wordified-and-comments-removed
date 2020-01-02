@@ -648,6 +648,13 @@ sample
 )
 ;
 virtual
+SyncProfile
+*
+GetBacktrace
+(
+)
+;
+virtual
 void
 RequestSave
 (
