@@ -552,6 +552,13 @@ ionScript
 )
 const
 ;
+IonScript
+*
+ionScriptFromCalleeToken
+(
+)
+const
+;
 const
 SafepointIndex
 *
