@@ -2355,13 +2355,6 @@ neededRegion
 validRegion
 )
 ;
-FinalizeFrame
-(
-result
-.
-mRegionToDraw
-)
-;
 if
 (
 result
@@ -2374,6 +2367,13 @@ IsEmpty
 )
 return
 result
+;
+FinalizeFrame
+(
+result
+.
+mRegionToDraw
+)
 ;
 nsIntRect
 drawBounds
