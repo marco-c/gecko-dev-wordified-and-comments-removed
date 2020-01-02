@@ -300,6 +300,15 @@ void
 OS
 :
 :
+Startup
+(
+)
+{
+}
+void
+OS
+:
+:
 Sleep
 (
 int

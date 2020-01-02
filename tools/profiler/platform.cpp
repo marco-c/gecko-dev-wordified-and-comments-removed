@@ -2674,7 +2674,7 @@ read_profiler_env_vars
 OS
 :
 :
-RegisterStartHandler
+Startup
 (
 )
 ;
