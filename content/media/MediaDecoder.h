@@ -522,6 +522,11 @@ bool
 aPreservesPitch
 )
 ;
+void
+SetMinimizePrerollUntilPlaybackStarts
+(
+)
+;
 struct
 DecodedStreamData
 {
@@ -1528,6 +1533,11 @@ GetOwner
 )
 MOZ_OVERRIDE
 ;
+bool
+IsLogicallyPlaying
+(
+)
+;
 #
 ifdef
 MOZ_RAW
@@ -2068,6 +2078,9 @@ dom
 :
 AudioChannelType
 mAudioChannelType
+;
+bool
+mMinimizePreroll
 ;
 }
 ;

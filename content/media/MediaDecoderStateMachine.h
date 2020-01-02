@@ -646,6 +646,11 @@ NotifyWaitingForResourcesStatusChanged
 (
 )
 ;
+void
+SetMinimizePrerollUntilPlaybackStarts
+(
+)
+;
 protected
 :
 void
@@ -1283,6 +1288,9 @@ mIsRunning
 ;
 bool
 mRunAgain
+;
+bool
+mMinimizePreroll
 ;
 bool
 mDispatchedRunEvent
