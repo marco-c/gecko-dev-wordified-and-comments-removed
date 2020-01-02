@@ -7513,6 +7513,8 @@ privateIsNSISupports
 )
 !
 =
+!
+!
 (
 options
 &
