@@ -1290,6 +1290,7 @@ libmedia
 ;
 if
 (
+*
 rate
 =
 =
