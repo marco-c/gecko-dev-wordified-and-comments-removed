@@ -224,3 +224,16 @@ properties
 h
 '
 ]
+LOCAL_INCLUDES
++
+=
+[
+'
+/
+intl
+/
+uconv
+/
+src
+'
+]

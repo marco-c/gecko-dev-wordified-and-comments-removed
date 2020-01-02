@@ -143,3 +143,14 @@ fyl
 in
 SOURCES
 ]
+LOCAL_INCLUDES
++
+=
+[
+'
+.
+.
+/
+public
+'
+]

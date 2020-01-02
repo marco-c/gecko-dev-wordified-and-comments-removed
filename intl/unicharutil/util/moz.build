@@ -151,6 +151,17 @@ unicharutil_external_s
 FORCE_STATIC_LIB
 =
 True
+LOCAL_INCLUDES
++
+=
+[
+'
+.
+.
+/
+src
+'
+]
 if
 CONFIG
 [

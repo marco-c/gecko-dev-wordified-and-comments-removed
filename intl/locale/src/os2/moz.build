@@ -134,3 +134,12 @@ properties
 h
 '
 ]
+LOCAL_INCLUDES
++
+=
+[
+'
+.
+.
+'
+]
