@@ -373,6 +373,11 @@ ProcessOrientation
 .
 cpp
 '
+'
+WidgetTraceEvent
+.
+cpp
+'
 ]
 LIBRARY_NAME
 =
