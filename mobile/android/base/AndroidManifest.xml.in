@@ -2407,6 +2407,8 @@ mozilla
 .
 gecko
 .
+preferences
+.
 GeckoPreferences
 "
 android
