@@ -1513,8 +1513,7 @@ Struct
 *
 offset
 =
--
-1
+SIZE_MAX
 ;
 *
 index
