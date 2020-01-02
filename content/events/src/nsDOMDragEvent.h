@@ -65,7 +65,7 @@ aPresContext
 mozilla
 :
 :
-WidgetInputEvent
+WidgetDragEvent
 *
 aEvent
 )

@@ -15240,13 +15240,11 @@ WidgetDragEvent
 *
 dragEvent
 =
-static_cast
-<
-WidgetDragEvent
-*
->
-(
 aEvent
+-
+>
+AsDragEvent
+(
 )
 ;
 UpdateDragDataTransfer
