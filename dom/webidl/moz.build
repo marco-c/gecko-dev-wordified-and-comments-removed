@@ -1365,6 +1365,11 @@ MozSelfSupport
 webidl
 '
 '
+MozTetheringManager
+.
+webidl
+'
+'
 MozTimeManager
 .
 webidl

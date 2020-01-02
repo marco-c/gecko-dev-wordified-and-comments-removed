@@ -403,6 +403,9 @@ DIRS
 speakermanager
 '
 '
+tethering
+'
+'
 wifi
 '
 ]
