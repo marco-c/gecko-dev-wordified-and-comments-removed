@@ -2049,16 +2049,6 @@ aLoadContextInfo
 keyPrefix
 )
 ;
-keyPrefix
-.
-Append
-(
-"
-:
-foo
-"
-)
-;
 nsAutoCString
 data64
 ;
