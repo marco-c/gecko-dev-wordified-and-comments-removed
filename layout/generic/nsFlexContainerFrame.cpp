@@ -1922,6 +1922,16 @@ mItems
 ;
 private
 :
+void
+FreezeOrRestoreEachFlexibleSize
+(
+const
+nscoord
+aTotalViolation
+bool
+aIsFinalIteration
+)
+;
 nscoord
 mTotalInnerHypotheticalMainSize
 ;
@@ -5154,21 +5164,17 @@ false
 }
 #
 endif
-static
 void
+FlexLine
+:
+:
 FreezeOrRestoreEachFlexibleSize
 (
 const
 nscoord
 aTotalViolation
-nsTArray
-<
-FlexItem
->
-&
-aItems
 bool
-aFinalIteration
+aIsFinalIteration
 )
 {
 enum
@@ -5224,7 +5230,7 @@ i
 ;
 i
 <
-aItems
+mItems
 .
 Length
 (
@@ -5239,7 +5245,7 @@ FlexItem
 &
 item
 =
-aItems
+mItems
 [
 i
 ]
@@ -5386,7 +5392,7 @@ if
 (
 MOZ_UNLIKELY
 (
-aFinalIteration
+aIsFinalIteration
 )
 )
 {
@@ -6180,7 +6186,6 @@ SetHadMaxViolation
 FreezeOrRestoreEachFlexibleSize
 (
 totalViolation
-mItems
 iterationCounter
 +
 1
@@ -6344,7 +6349,7 @@ i
 const
 FlexItem
 &
-curItem
+item
 =
 aItems
 [
@@ -6354,13 +6359,13 @@ i
 nscoord
 itemMarginBoxMainSize
 =
-curItem
+item
 .
 GetMainSize
 (
 )
 +
-curItem
+item
 .
 GetMarginBorderPaddingSizeInAxis
 (
@@ -6379,7 +6384,7 @@ itemMarginBoxMainSize
 mNumAutoMarginsInMainAxis
 +
 =
-curItem
+item
 .
 GetNumAutoMarginsInAxis
 (
@@ -7495,7 +7500,7 @@ i
 const
 FlexItem
 &
-curItem
+item
 =
 mItems
 [
@@ -7505,13 +7510,13 @@ i
 nscoord
 curOuterCrossSize
 =
-curItem
+item
 .
 GetCrossSize
 (
 )
 +
-curItem
+item
 .
 GetMarginBorderPaddingSizeInAxis
 (
@@ -7524,7 +7529,7 @@ GetCrossAxis
 ;
 if
 (
-curItem
+item
 .
 GetAlignSelf
 (
@@ -7534,7 +7539,7 @@ GetAlignSelf
 NS_STYLE_ALIGN_ITEMS_BASELINE
 &
 &
-curItem
+item
 .
 GetNumAutoMarginsInAxis
 (
@@ -7552,7 +7557,7 @@ GetCrossAxis
 nscoord
 crossStartToBaseline
 =
-curItem
+item
 .
 GetBaselineOffsetFromOuterCrossStart
 (
@@ -10398,7 +10403,7 @@ i
 {
 FlexItem
 &
-curItem
+item
 =
 line
 .
@@ -10410,7 +10415,7 @@ i
 if
 (
 !
-curItem
+item
 .
 IsStretched
 (
@@ -10418,7 +10423,7 @@ IsStretched
 &
 &
 !
-curItem
+item
 .
 IsStrut
 (
@@ -10430,7 +10435,7 @@ childReflowState
 (
 aPresContext
 aReflowState
-curItem
+item
 .
 Frame
 (
@@ -10462,7 +10467,7 @@ childReflowState
 .
 SetComputedWidth
 (
-curItem
+item
 .
 GetMainSize
 (
@@ -10476,7 +10481,7 @@ childReflowState
 .
 SetComputedHeight
 (
-curItem
+item
 .
 GetMainSize
 (
@@ -10492,7 +10497,7 @@ SizeItemInCrossAxis
 aPresContext
 aAxisTracker
 childReflowState
-curItem
+item
 )
 ;
 NS_ENSURE_SUCCESS
@@ -10797,7 +10802,7 @@ i
 {
 FlexItem
 &
-curItem
+item
 =
 line
 .
@@ -10813,12 +10818,12 @@ aAxisTracker
 .
 PhysicalPointFromLogicalPoint
 (
-curItem
+item
 .
 GetMainPosition
 (
 )
-curItem
+item
 .
 GetCrossPosition
 (
@@ -10837,7 +10842,7 @@ childReflowState
 (
 aPresContext
 aReflowState
-curItem
+item
 .
 Frame
 (
@@ -10879,7 +10884,7 @@ childReflowState
 .
 SetComputedWidth
 (
-curItem
+item
 .
 GetMainSize
 (
@@ -10897,7 +10902,7 @@ childReflowState
 .
 SetComputedHeight
 (
-curItem
+item
 .
 GetMainSize
 (
@@ -10911,7 +10916,7 @@ true
 }
 if
 (
-curItem
+item
 .
 IsStretched
 (
@@ -10920,7 +10925,7 @@ IsStretched
 {
 MOZ_ASSERT
 (
-curItem
+item
 .
 GetAlignSelf
 (
@@ -10961,7 +10966,7 @@ childReflowState
 .
 SetComputedWidth
 (
-curItem
+item
 .
 GetCrossSize
 (
@@ -10975,7 +10980,7 @@ true
 }
 else
 {
-curItem
+item
 .
 Frame
 (
@@ -10991,7 +10996,7 @@ childReflowState
 .
 SetComputedHeight
 (
-curItem
+item
 .
 GetCrossSize
 (
@@ -11006,7 +11011,7 @@ true
 }
 if
 (
-curItem
+item
 .
 HadMeasuringReflow
 (
@@ -11056,7 +11061,7 @@ rv
 =
 ReflowChild
 (
-curItem
+item
 .
 Frame
 (
@@ -11116,7 +11121,7 @@ rv
 =
 FinishReflowChild
 (
-curItem
+item
 .
 Frame
 (
@@ -11162,7 +11167,7 @@ nscoord_MIN
 {
 ResolveReflowedChildAscent
 (
-curItem
+item
 .
 Frame
 (
@@ -11172,7 +11177,7 @@ childDesiredSize
 ;
 flexContainerAscent
 =
-curItem
+item
 .
 Frame
 (
