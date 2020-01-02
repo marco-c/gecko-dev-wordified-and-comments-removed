@@ -426,8 +426,6 @@ mLists
 ;
 }
 ;
-}
-}
 inline
 mozilla
 :
@@ -524,6 +522,8 @@ aLeftOp
 |
 aRightOp
 ;
+}
+}
 }
 inline
 void
