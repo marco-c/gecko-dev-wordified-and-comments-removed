@@ -8125,6 +8125,9 @@ GetBackendType
 )
 =
 =
+LayersBackend
+:
+:
 LAYERS_CLIENT
 )
 ?
@@ -8527,6 +8530,9 @@ GetBackendType
 )
 =
 =
+LayersBackend
+:
+:
 LAYERS_CLIENT
 )
 {
@@ -8855,6 +8861,9 @@ mozilla
 layers
 :
 :
+BufferMode
+:
+:
 BUFFER_NONE
 ;
 ctx
@@ -8891,6 +8900,9 @@ mozilla
 layers
 :
 :
+BufferMode
+:
+:
 BUFFER_NONE
 ;
 #
@@ -8906,7 +8918,10 @@ mozilla
 layers
 :
 :
-BUFFER_BUFFERED
+BufferMode
+:
+:
+BUFFERED
 ;
 }
 #
@@ -8963,6 +8978,9 @@ GetBackendType
 )
 =
 =
+LayersBackend
+:
+:
 LAYERS_BASIC
 )
 {
@@ -25634,6 +25652,9 @@ mozilla
 :
 :
 layers
+:
+:
+LayersBackend
 :
 :
 LAYERS_BASIC

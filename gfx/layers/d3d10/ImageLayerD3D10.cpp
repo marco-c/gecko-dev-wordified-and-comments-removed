@@ -494,6 +494,9 @@ mozilla
 layers
 :
 :
+LayersBackend
+:
+:
 LAYERS_D3D10
 )
 )
@@ -572,6 +575,9 @@ mozilla
 :
 :
 layers
+:
+:
+LayersBackend
 :
 :
 LAYERS_D3D10
@@ -719,6 +725,9 @@ mozilla
 layers
 :
 :
+LayersBackend
+:
+:
 LAYERS_D3D10
 )
 )
@@ -794,6 +803,9 @@ mozilla
 layers
 :
 :
+LayersBackend
+:
+:
 LAYERS_D3D10
 dat
 .
@@ -849,6 +861,9 @@ mozilla
 :
 :
 layers
+:
+:
+LayersBackend
 :
 :
 LAYERS_D3D10
@@ -981,6 +996,9 @@ mozilla
 layers
 :
 :
+LayersBackend
+:
+:
 LAYERS_D3D10
 dat
 .
@@ -1030,6 +1048,9 @@ mozilla
 :
 :
 layers
+:
+:
+LayersBackend
 :
 :
 LAYERS_D3D10
@@ -1540,6 +1561,9 @@ mozilla
 layers
 :
 :
+LayersBackend
+:
+:
 LAYERS_D3D10
 )
 )
@@ -1569,6 +1593,9 @@ mozilla
 :
 :
 layers
+:
+:
+LayersBackend
 :
 :
 LAYERS_D3D10
@@ -2487,6 +2514,9 @@ mozilla
 layers
 :
 :
+LayersBackend
+:
+:
 LAYERS_D3D10
 backendData
 .
@@ -3051,6 +3081,9 @@ mozilla
 layers
 :
 :
+LayersBackend
+:
+:
 LAYERS_D3D10
 )
 )
@@ -3071,6 +3104,9 @@ mozilla
 :
 :
 layers
+:
+:
+LayersBackend
 :
 :
 LAYERS_D3D10
@@ -3198,6 +3234,9 @@ mozilla
 :
 :
 layers
+:
+:
+LayersBackend
 :
 :
 LAYERS_D3D10

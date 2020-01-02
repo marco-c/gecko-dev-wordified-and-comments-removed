@@ -261,6 +261,9 @@ mozilla
 layers
 :
 :
+LayersBackend
+:
+:
 LAYERS_OPENGL
 )
 {

@@ -149,6 +149,9 @@ mTexture
 aMode
 !
 =
+SurfaceMode
+:
+:
 SURFACE_COMPONENT_ALPHA
 |
 |

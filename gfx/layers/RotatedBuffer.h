@@ -560,6 +560,9 @@ PaintState
 :
 mMode
 (
+SurfaceMode
+:
+:
 SURFACE_NONE
 )
 mDidSelfCopy

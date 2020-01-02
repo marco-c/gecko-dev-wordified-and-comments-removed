@@ -5186,6 +5186,9 @@ GetBackendType
 )
 =
 =
+LayersBackend
+:
+:
 LAYERS_D3D10
 )
 {

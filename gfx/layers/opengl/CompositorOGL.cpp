@@ -1487,6 +1487,9 @@ CompositorOGL
 ;
 sBackend
 =
+LayersBackend
+:
+:
 LAYERS_OPENGL
 ;
 }

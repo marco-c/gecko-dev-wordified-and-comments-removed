@@ -270,6 +270,9 @@ GetBackendType
 )
 {
 return
+LayersBackend
+:
+:
 LAYERS_CLIENT
 ;
 }

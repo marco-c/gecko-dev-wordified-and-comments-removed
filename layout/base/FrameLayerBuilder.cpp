@@ -16873,6 +16873,9 @@ IsCairo
 aClip
 =
 =
+DrawRegionClip
+:
+:
 CLIP_NONE
 )
 {
@@ -17182,7 +17185,10 @@ if
 aClip
 =
 =
-CLIP_DRAW_SNAPPED
+DrawRegionClip
+:
+:
+DRAW_SNAPPED
 )
 {
 gfxUtils
@@ -17201,7 +17207,10 @@ if
 aClip
 =
 =
-CLIP_DRAW
+DrawRegionClip
+:
+:
+DRAW
 )
 {
 gfxUtils
@@ -17356,7 +17365,10 @@ iterRect
 aClip
 =
 =
-CLIP_DRAW_SNAPPED
+DrawRegionClip
+:
+:
+DRAW_SNAPPED
 )
 ;
 aContext

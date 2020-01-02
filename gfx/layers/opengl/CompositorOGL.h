@@ -357,6 +357,9 @@ MOZ_OVERRIDE
 return
 TextureFactoryIdentifier
 (
+LayersBackend
+:
+:
 LAYERS_OPENGL
 XRE_GetProcessType
 (

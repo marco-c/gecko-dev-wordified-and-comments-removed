@@ -901,6 +901,9 @@ mozilla
 layers
 :
 :
+LayersBackend
+:
+:
 LAYERS_NONE
 LayerManagerPersistence
 aPersistence
@@ -939,6 +942,9 @@ mozilla
 :
 :
 layers
+:
+:
+LayersBackend
 :
 :
 LAYERS_D3D11

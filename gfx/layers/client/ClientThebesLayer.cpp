@@ -787,6 +787,9 @@ GetCompositorBackendType
 )
 =
 =
+LayersBackend
+:
+:
 LAYERS_OPENGL
 )
 {

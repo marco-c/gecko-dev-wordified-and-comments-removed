@@ -143,6 +143,9 @@ mDeviceResetCount
 {
 sBackend
 =
+LayersBackend
+:
+:
 LAYERS_D3D9
 ;
 }
@@ -284,6 +287,9 @@ ident
 .
 mParentBackend
 =
+LayersBackend
+:
+:
 LAYERS_D3D9
 ;
 ident

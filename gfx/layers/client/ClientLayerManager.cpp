@@ -1977,6 +1977,9 @@ GetCompositorBackendType
 )
 {
 case
+LayersBackend
+:
+:
 LAYERS_BASIC
 :
 aName
@@ -1991,6 +1994,9 @@ Basic
 return
 ;
 case
+LayersBackend
+:
+:
 LAYERS_OPENGL
 :
 aName
@@ -2005,6 +2011,9 @@ OpenGL
 return
 ;
 case
+LayersBackend
+:
+:
 LAYERS_D3D9
 :
 aName
@@ -2020,6 +2029,9 @@ Direct3D
 return
 ;
 case
+LayersBackend
+:
+:
 LAYERS_D3D10
 :
 aName
@@ -2035,6 +2047,9 @@ Direct3D
 return
 ;
 case
+LayersBackend
+:
+:
 LAYERS_D3D11
 :
 aName

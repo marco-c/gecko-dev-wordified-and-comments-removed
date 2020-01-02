@@ -1746,6 +1746,9 @@ mozilla
 layers
 :
 :
+LayersBackend
+:
+:
 LAYERS_NONE
 LAYER_MANAGER_CURRENT
 aAllowRetaining
@@ -1774,6 +1777,9 @@ mozilla
 :
 :
 layers
+:
+:
+LayersBackend
 :
 :
 LAYERS_NONE

@@ -647,6 +647,9 @@ if
 aMode
 =
 =
+SurfaceMode
+:
+:
 SURFACE_COMPONENT_ALPHA
 )
 {
@@ -925,6 +928,9 @@ if
 mode
 =
 =
+SurfaceMode
+:
+:
 SURFACE_COMPONENT_ALPHA
 &
 &
@@ -945,6 +951,9 @@ SupportsComponentAlphaChildren
 {
 mode
 =
+SurfaceMode
+:
+:
 SURFACE_SINGLE_CHANNEL_ALPHA
 ;
 }
@@ -993,11 +1002,17 @@ if
 mode
 =
 =
+SurfaceMode
+:
+:
 SURFACE_OPAQUE
 )
 {
 mode
 =
+SurfaceMode
+:
+:
 SURFACE_SINGLE_CHANNEL_ALPHA
 ;
 }
@@ -1173,6 +1188,9 @@ if
 mode
 =
 =
+SurfaceMode
+:
+:
 SURFACE_COMPONENT_ALPHA
 )
 {
@@ -1483,6 +1501,9 @@ aMode
 )
 {
 case
+SurfaceMode
+:
+:
 SURFACE_OPAQUE
 :
 if
@@ -1503,6 +1524,9 @@ return
 break
 ;
 case
+SurfaceMode
+:
+:
 SURFACE_SINGLE_CHANNEL_ALPHA
 :
 if
@@ -1523,6 +1547,9 @@ return
 break
 ;
 case
+SurfaceMode
+:
+:
 SURFACE_COMPONENT_ALPHA
 :
 if
@@ -2054,6 +2081,9 @@ aMode
 )
 {
 case
+SurfaceMode
+:
+:
 SURFACE_OPAQUE
 :
 destinationSurface
@@ -2068,6 +2098,9 @@ this
 break
 ;
 case
+SurfaceMode
+:
+:
 SURFACE_SINGLE_CHANNEL_ALPHA
 :
 {
@@ -2176,6 +2209,9 @@ break
 ;
 }
 case
+SurfaceMode
+:
+:
 SURFACE_COMPONENT_ALPHA
 :
 {
@@ -2438,6 +2474,9 @@ Callback
 this
 context
 aRegion
+DrawRegionClip
+:
+:
 CLIP_NONE
 nsIntRegion
 (
@@ -2472,6 +2511,9 @@ NS_ASSERTION
 aMode
 =
 =
+SurfaceMode
+:
+:
 SURFACE_OPAQUE
 "
 Transparent
@@ -2631,6 +2673,9 @@ aMode
 )
 {
 case
+SurfaceMode
+:
+:
 SURFACE_OPAQUE
 :
 destinationSurface
@@ -2664,6 +2709,9 @@ mTexture
 break
 ;
 case
+SurfaceMode
+:
+:
 SURFACE_SINGLE_CHANNEL_ALPHA
 :
 {
@@ -2809,6 +2857,9 @@ break
 ;
 }
 case
+SurfaceMode
+:
+:
 SURFACE_COMPONENT_ALPHA
 :
 {
@@ -3147,6 +3198,9 @@ D3DUSAGE_RENDERTARGET
 aMode
 !
 =
+SurfaceMode
+:
+:
 SURFACE_SINGLE_CHANNEL_ALPHA
 ?
 D3DFMT_X8R8G8B8
@@ -3197,6 +3251,9 @@ if
 aMode
 =
 =
+SurfaceMode
+:
+:
 SURFACE_COMPONENT_ALPHA
 )
 {

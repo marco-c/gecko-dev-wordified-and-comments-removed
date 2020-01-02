@@ -1118,6 +1118,9 @@ BasicCompositor
 ;
 sBackend
 =
+LayersBackend
+:
+:
 LAYERS_BASIC
 ;
 }

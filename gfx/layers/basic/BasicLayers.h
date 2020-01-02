@@ -361,6 +361,9 @@ GetBackendType
 )
 {
 return
+LayersBackend
+:
+:
 LAYERS_BASIC
 ;
 }

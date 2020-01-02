@@ -609,6 +609,9 @@ aCallback
 this
 groupContext
 toDraw
+DrawRegionClip
+:
+:
 CLIP_NONE
 nsIntRegion
 (

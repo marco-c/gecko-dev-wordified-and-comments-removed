@@ -75,6 +75,9 @@ Compositor
 :
 sBackend
 =
+LayersBackend
+:
+:
 LAYERS_NONE
 ;
 LayersBackend

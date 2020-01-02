@@ -8976,6 +8976,9 @@ GetBackendType
 )
 !
 =
+LayersBackend
+:
+:
 LAYERS_CLIENT
 "
 Shouldn
@@ -20506,6 +20509,9 @@ GetBackendType
 )
 =
 =
+LayersBackend
+:
+:
 LAYERS_BASIC
 )
 {
@@ -20517,6 +20523,9 @@ setupLayerManager
 (
 mGeckoChild
 targetContext
+BufferMode
+:
+:
 BUFFER_NONE
 )
 ;
@@ -20547,6 +20556,9 @@ GetBackendType
 )
 =
 =
+LayersBackend
+:
+:
 LAYERS_CLIENT
 )
 {
@@ -20860,6 +20872,9 @@ mozilla
 :
 :
 layers
+:
+:
+LayersBackend
 :
 :
 LAYERS_OPENGL
@@ -22366,6 +22381,9 @@ GetBackendType
 )
 =
 =
+LayersBackend
+:
+:
 LAYERS_CLIENT
 )
 {

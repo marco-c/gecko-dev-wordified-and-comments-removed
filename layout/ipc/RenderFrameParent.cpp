@@ -486,6 +486,9 @@ mozilla
 layers
 :
 :
+LayersBackend
+:
+:
 LAYERS_BASIC
 )
 |
@@ -1692,6 +1695,9 @@ mozilla
 :
 :
 layers
+:
+:
+LayersBackend
 :
 :
 LAYERS_BASIC
@@ -3390,6 +3396,9 @@ GetBackendType
 )
 =
 =
+LayersBackend
+:
+:
 LAYERS_CLIENT
 )
 {
@@ -3534,6 +3543,9 @@ GetBackendType
 )
 =
 =
+LayersBackend
+:
+:
 LAYERS_CLIENT
 )
 {
