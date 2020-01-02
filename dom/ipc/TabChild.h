@@ -913,6 +913,16 @@ aPoint
 ;
 virtual
 bool
+RecvHandleLongTapUp
+(
+const
+CSSIntPoint
+&
+aPoint
+)
+;
+virtual
+bool
 RecvNotifyTransformBegin
 (
 const
@@ -2031,6 +2041,9 @@ mOrientation
 ;
 bool
 mUpdateHitRegion
+;
+bool
+mContextMenuHandled
 ;
 DISALLOW_EVIL_CONSTRUCTORS
 (
