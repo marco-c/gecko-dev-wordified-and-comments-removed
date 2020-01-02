@@ -230,6 +230,13 @@ global
 aboutNetworking
 .
 xhtml
+content
+/
+global
+/
+aboutWebrtc
+.
+xhtml
 *
 content
 /
