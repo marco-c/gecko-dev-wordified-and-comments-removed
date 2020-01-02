@@ -206,11 +206,8 @@ bool
 Print
 (
 const
-DDT
-:
-:
-ResourceAcquisition
-&
+DeadlockDetectorEntry
+*
 aFirstSeen
 nsACString
 &
