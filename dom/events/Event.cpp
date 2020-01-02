@@ -2822,7 +2822,7 @@ break
 break
 ;
 case
-NS_INPUT_EVENT
+eInputEventClass
 :
 if
 (

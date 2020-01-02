@@ -89,7 +89,7 @@ EventClassIDType
 {
 NS_EVENT
 eGUIEventClass
-NS_INPUT_EVENT
+eInputEventClass
 NS_UI_EVENT
 NS_KEY_EVENT
 NS_COMPOSITION_EVENT
@@ -3244,7 +3244,7 @@ WidgetGUIEvent
 aIsTrusted
 aMessage
 aWidget
-NS_INPUT_EVENT
+eInputEventClass
 )
 modifiers
 (
@@ -3266,7 +3266,7 @@ MOZ_ASSERT
 mClass
 =
 =
-NS_INPUT_EVENT
+eInputEventClass
 "
 Duplicate
 (

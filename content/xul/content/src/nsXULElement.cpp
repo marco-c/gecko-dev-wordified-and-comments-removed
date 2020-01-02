@@ -5850,7 +5850,7 @@ mEvent
 mClass
 =
 =
-NS_INPUT_EVENT
+eInputEventClass
 &
 &
 aVisitor
