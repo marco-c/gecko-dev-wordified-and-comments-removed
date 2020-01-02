@@ -85206,7 +85206,7 @@ T
 &
 "
 "
-thisObj
+thisObjPtr
 "
 )
 )
@@ -85312,7 +85312,7 @@ GetContext
 CallbackPreserveColor
 (
 )
-thisObj
+thisObjPtr
 )
 )
 ;
