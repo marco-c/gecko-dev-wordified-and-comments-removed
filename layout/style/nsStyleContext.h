@@ -26,6 +26,7 @@ nsPresContext
 ;
 class
 nsStyleContext
+MOZ_FINAL
 {
 public
 :
@@ -47,11 +48,6 @@ nsRuleNode
 aRuleNode
 bool
 aSkipParentDisplayBasedStyleFixup
-)
-;
-~
-nsStyleContext
-(
 )
 ;
 void
@@ -867,6 +863,11 @@ AssertStyleStructMaxDifferenceValid
 endif
 private
 :
+~
+nsStyleContext
+(
+)
+;
 void
 AddChild
 (
