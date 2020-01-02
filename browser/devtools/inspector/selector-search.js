@@ -227,6 +227,11 @@ direction
 "
 ltr
 "
+theme
+:
+"
+auto
+"
 onClick
 :
 this

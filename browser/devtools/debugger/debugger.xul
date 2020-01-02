@@ -3805,7 +3805,9 @@ devtools
 /
 debugger
 -
-blackboxMessageEye
+blackbox
+-
+eye
 .
 png
 "
@@ -4001,6 +4003,10 @@ devtools
 -
 horizontal
 -
+splitter
+devtools
+-
+invisible
 splitter
 "
 /

@@ -345,6 +345,9 @@ class
 profiler
 -
 sidebar
+theme
+-
+sidebar
 "
 >
 <
@@ -470,6 +473,11 @@ class
 devtools
 -
 side
+-
+splitter
+devtools
+-
+invisible
 -
 splitter
 "

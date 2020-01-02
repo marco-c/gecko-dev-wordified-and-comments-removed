@@ -911,6 +911,9 @@ chrome
 class
 =
 "
+theme
+-
+body
 splitview
 -
 root
@@ -1078,6 +1081,9 @@ target
 class
 =
 "
+theme
+-
+sidebar
 splitview
 -
 nav
@@ -1250,6 +1256,11 @@ splitter
 splitview
 -
 landscape
+-
+splitter
+devtools
+-
+invisible
 -
 splitter
 "
