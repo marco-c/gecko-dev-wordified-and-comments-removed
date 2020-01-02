@@ -13655,6 +13655,10 @@ forceAsync
 (
 false
 )
+installedFile
+(
+false
+)
 sourcePolicy
 (
 SAVE_SOURCE
@@ -13816,6 +13820,9 @@ asmJSOption
 ;
 bool
 forceAsync
+;
+bool
+installedFile
 ;
 enum
 SourcePolicy
@@ -18892,6 +18899,8 @@ OpenAsmJSCacheEntryForWriteOp
 (
 HandleObject
 global
+bool
+installed
 const
 jschar
 *

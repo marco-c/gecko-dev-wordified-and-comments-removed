@@ -151,6 +151,9 @@ mNumChars
 int64_t
 mFullHash
 ;
+bool
+mInstalled
+;
 WriteParams
 (
 )
@@ -170,6 +173,10 @@ mNumChars
 mFullHash
 (
 0
+)
+mInstalled
+(
+false
 )
 {
 }
@@ -259,6 +266,8 @@ OpenEntryForWrite
 nsIPrincipal
 *
 aPrincipal
+bool
+aInstalled
 const
 jschar
 *

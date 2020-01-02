@@ -3381,6 +3381,8 @@ JSObject
 *
 >
 aGlobal
+bool
+aInstalled
 const
 jschar
 *
@@ -3425,6 +3427,7 @@ asmjscache
 OpenEntryForWrite
 (
 principal
+aInstalled
 aBegin
 aEnd
 aSize

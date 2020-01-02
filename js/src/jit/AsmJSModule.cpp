@@ -6654,6 +6654,17 @@ endOffset
 parser
 )
 ;
+bool
+installed
+=
+parser
+.
+options
+(
+)
+.
+installedFile
+;
 ScopedCacheEntryOpenedForWrite
 entry
 (
@@ -6672,6 +6683,7 @@ cx
 global
 (
 )
+installed
 begin
 end
 entry
@@ -6687,9 +6699,11 @@ entry
 handle
 )
 )
+{
 return
 false
 ;
+}
 uint8_t
 *
 cursor
