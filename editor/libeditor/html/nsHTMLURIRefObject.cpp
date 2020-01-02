@@ -1049,8 +1049,10 @@ nsIDOMNode
 aNode
 )
 {
+nsRefPtr
+<
 nsHTMLURIRefObject
-*
+>
 refObject
 =
 new
@@ -1081,9 +1083,6 @@ rv
 aResult
 =
 0
-;
-delete
-refObject
 ;
 return
 rv
