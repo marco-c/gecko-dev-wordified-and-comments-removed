@@ -123,6 +123,11 @@ nsIDOMApplicationRegistry2
 idl
 '
 '
+nsIDOMMozApplicationEvent
+.
+idl
+'
+'
 nsIInterAppCommService
 .
 idl
