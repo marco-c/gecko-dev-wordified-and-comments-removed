@@ -120,7 +120,7 @@ width
 ;
 }
 #
-errorTitle
+errorTitleText
 {
 background
 :
@@ -138,6 +138,14 @@ no
 -
 repeat
 ;
+background
+-
+size
+:
+1
+.
+2em
+;
 -
 moz
 -
@@ -146,7 +154,7 @@ margin
 start
 :
 -
-5em
+2em
 ;
 -
 moz
@@ -155,11 +163,11 @@ padding
 -
 start
 :
-5em
+2em
 ;
 }
 #
-errorTitle
+errorTitleText
 :
 -
 moz
