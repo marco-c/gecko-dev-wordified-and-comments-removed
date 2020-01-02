@@ -187,7 +187,7 @@ target
 yield
 toolbox
 .
-loadTool
+selectTool
 (
 "
 inspector
@@ -199,10 +199,17 @@ inspector
 =
 toolbox
 .
-getPanel
+getCurrentPanel
+(
+)
+;
+yield
+toolbox
+.
+selectTool
 (
 "
-inspector
+webconsole
 "
 )
 ;
@@ -397,7 +404,6 @@ g
 ;
 is
 (
-rawNode
 inspector
 .
 selection
@@ -405,6 +411,7 @@ selection
 node
 .
 wrappedJSObject
+rawNode
 "
 The
 current
