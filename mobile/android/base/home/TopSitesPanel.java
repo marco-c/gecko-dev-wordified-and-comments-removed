@@ -2290,11 +2290,7 @@ final
 FragmentManager
 manager
 =
-getActivity
-(
-)
-.
-getSupportFragmentManager
+getChildFragmentManager
 (
 )
 ;
