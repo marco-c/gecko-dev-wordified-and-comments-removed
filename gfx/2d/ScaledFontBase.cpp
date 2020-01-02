@@ -20,15 +20,6 @@ include
 "
 skia
 /
-SkEmptyShader
-.
-h
-"
-#
-include
-"
-skia
-/
 SkPaint
 .
 h
