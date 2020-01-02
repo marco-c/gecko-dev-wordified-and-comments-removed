@@ -668,7 +668,7 @@ aSizeInBytes
 )
 ;
 void
-PurgeCache
+PurgeCaches
 (
 )
 ;
@@ -690,7 +690,7 @@ RebalanceCacheLimits
 ;
 static
 void
-PurgeTextureCaches
+PurgeAllCaches
 (
 )
 ;

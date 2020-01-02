@@ -2577,7 +2577,7 @@ aSizeInBytes
 endif
 static
 void
-PurgeTextureCaches
+PurgeAllCaches
 (
 )
 ;

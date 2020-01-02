@@ -1063,7 +1063,7 @@ topic
 Factory
 :
 :
-PurgeTextureCaches
+PurgeAllCaches
 (
 )
 ;

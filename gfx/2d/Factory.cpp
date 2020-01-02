@@ -2319,7 +2319,7 @@ void
 Factory
 :
 :
-PurgeTextureCaches
+PurgeAllCaches
 (
 )
 {
@@ -2329,7 +2329,7 @@ USE_SKIA_GPU
 DrawTargetSkia
 :
 :
-PurgeTextureCaches
+PurgeAllCaches
 (
 )
 ;

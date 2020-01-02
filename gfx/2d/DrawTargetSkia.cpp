@@ -731,7 +731,7 @@ void
 DrawTargetSkia
 :
 :
-PurgeCache
+PurgeCaches
 (
 )
 {
@@ -743,7 +743,7 @@ mGrContext
 mGrContext
 -
 >
-purgeCache
+freeGpuResources
 (
 )
 ;
@@ -753,7 +753,7 @@ void
 DrawTargetSkia
 :
 :
-PurgeTextureCaches
+PurgeAllCaches
 (
 )
 {
@@ -781,15 +781,6 @@ size
 (
 )
 ;
-if
-(
-targetCount
-=
-=
-0
-)
-return
-;
 for
 (
 uint32_t
@@ -812,7 +803,7 @@ i
 ]
 -
 >
-PurgeCache
+PurgeCaches
 (
 )
 ;
