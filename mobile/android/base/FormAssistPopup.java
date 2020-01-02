@@ -236,10 +236,12 @@ implements
 GeckoEventListener
 {
 private
+final
 Context
 mContext
 ;
 private
+final
 Animation
 mAnimation
 ;
@@ -1968,7 +1970,7 @@ mInflater
 (
 LayoutInflater
 )
-mContext
+context
 .
 getSystemService
 (
