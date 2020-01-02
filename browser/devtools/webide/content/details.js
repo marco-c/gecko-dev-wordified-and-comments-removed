@@ -741,7 +741,7 @@ runtimeApp
 )
 {
 let
-manifest
+manifestURL
 =
 AppManager
 .
@@ -802,7 +802,7 @@ manifestURL
 .
 textContent
 =
-manifest
+manifestURL
 ;
 }
 else
@@ -851,7 +851,7 @@ packaged
 )
 {
 let
-manifest
+manifestURL
 =
 AppManager
 .
@@ -862,7 +862,7 @@ project
 ;
 if
 (
-manifest
+manifestURL
 )
 {
 document
@@ -896,7 +896,7 @@ manifestURL
 .
 textContent
 =
-manifest
+manifestURL
 ;
 }
 }
