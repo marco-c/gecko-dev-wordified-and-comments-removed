@@ -8381,6 +8381,9 @@ event
 NSEvent
 mouseEventWithType
 :
+(
+NSEventType
+)
 aNativeMessage
 location
 :
