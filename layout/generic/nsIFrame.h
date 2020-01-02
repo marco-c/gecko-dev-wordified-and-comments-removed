@@ -1920,7 +1920,7 @@ nullptr
 )
 NS_DECLARE_FRAME_PROPERTY
 (
-IBSplitSpecialPrevSibling
+IBSplitPrevSibling
 nullptr
 )
 NS_DECLARE_FRAME_PROPERTY
@@ -5999,7 +5999,7 @@ Get
 nsIFrame
 :
 :
-IBSplitSpecialPrevSibling
+IBSplitPrevSibling
 (
 )
 )

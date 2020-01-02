@@ -394,7 +394,7 @@ Properties
 .
 Get
 (
-IBSplitSpecialPrevSibling
+IBSplitPrevSibling
 (
 )
 )

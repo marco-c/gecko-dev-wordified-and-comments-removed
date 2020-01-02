@@ -8002,7 +8002,7 @@ Get
 nsIFrame
 :
 :
-IBSplitSpecialPrevSibling
+IBSplitPrevSibling
 (
 )
 )
@@ -8033,7 +8033,7 @@ Get
 nsIFrame
 :
 :
-IBSplitSpecialPrevSibling
+IBSplitPrevSibling
 (
 )
 )
