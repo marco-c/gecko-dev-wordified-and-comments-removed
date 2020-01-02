@@ -902,11 +902,6 @@ aApp
 manifest
 .
 launch_path
-aExpectedApp
-.
-launch_path
-|
-|
 gSJSPath
 "
 Check
