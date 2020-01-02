@@ -1369,7 +1369,7 @@ get
 )
 ;
 return
-NS_ERROR_FAILURE
+NS_ERROR_FILE_NOT_FOUND
 ;
 }
 return
