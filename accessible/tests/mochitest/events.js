@@ -6,6 +6,13 @@ nsIAccessibleEvent
 EVENT_ALERT
 ;
 const
+EVENT_DESCRIPTION_CHANGE
+=
+nsIAccessibleEvent
+.
+EVENT_DESCRIPTION_CHANGE
+;
+const
 EVENT_DOCUMENT_LOAD_COMPLETE
 =
 nsIAccessibleEvent
