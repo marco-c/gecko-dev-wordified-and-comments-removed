@@ -1506,11 +1506,8 @@ scope
 eval
 "
 arg
+&
 v
-.
-address
-(
-)
 )
 )
 ;

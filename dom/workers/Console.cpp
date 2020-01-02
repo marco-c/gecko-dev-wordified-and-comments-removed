@@ -1355,11 +1355,8 @@ consoleObj
 queueCall
 "
 args
+&
 ret
-.
-address
-(
-)
 )
 ;
 }

@@ -90,6 +90,9 @@ T
 class
 AutoHashSetRooter
 ;
+class
+HandleValueArray
+;
 }
 namespace
 js
@@ -495,6 +498,12 @@ JS
 :
 :
 UndefinedHandleValue
+;
+using
+JS
+:
+:
+HandleValueArray
 ;
 using
 JS

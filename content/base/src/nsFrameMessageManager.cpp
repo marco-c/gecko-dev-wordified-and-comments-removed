@@ -5238,11 +5238,8 @@ cx
 thisObject
 funval
 argv
+&
 rval
-.
-address
-(
-)
 )
 )
 {
@@ -7168,11 +7165,8 @@ JS
 :
 :
 EmptyValueArray
+&
 rval
-.
-address
-(
-)
 )
 ;
 }

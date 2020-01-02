@@ -1679,10 +1679,6 @@ JS
 :
 EmptyValueArray
 retval
-.
-address
-(
-)
 )
 ;
 }

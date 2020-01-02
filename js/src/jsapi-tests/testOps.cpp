@@ -248,11 +248,8 @@ JS
 :
 :
 EmptyValueArray
+&
 rval
-.
-address
-(
-)
 )
 )
 ;
