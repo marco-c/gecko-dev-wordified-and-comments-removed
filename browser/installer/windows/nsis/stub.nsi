@@ -1031,14 +1031,6 @@ mozilla
 org
 /
 ?
-product
-=
-firefox
--
-beta
--
-latest
-&
 os
 =
 win
@@ -1048,6 +1040,14 @@ lang
 {
 AB_CD
 }
+&
+product
+=
+firefox
+-
+beta
+-
+latest
 "
 !
 undef
@@ -7388,7 +7388,7 @@ Get
 URLStubDownload
 }
 {
-URLParamAppend
+URLStubDownloadAppend
 }
 "
 "
@@ -11257,7 +11257,7 @@ open
 URLManualDownload
 }
 {
-URLParamAppend
+URLManualDownloadAppend
 }
 "
 FunctionEnd

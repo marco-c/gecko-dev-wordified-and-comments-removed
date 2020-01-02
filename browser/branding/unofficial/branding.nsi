@@ -183,12 +183,6 @@ mozilla
 org
 /
 ?
-product
-=
-firefox
--
-latest
-&
 os
 =
 win
@@ -198,6 +192,12 @@ lang
 {
 AB_CD
 }
+&
+product
+=
+firefox
+-
+latest
 "
 !
 define
