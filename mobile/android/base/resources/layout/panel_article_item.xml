@@ -137,6 +137,13 @@ layout_marginTop
 "
 android
 :
+layout_marginBottom
+=
+"
+10dip
+"
+android
+:
 layout_marginLeft
 =
 "
@@ -318,6 +325,13 @@ layout_weight
 =
 "
 2
+"
+android
+:
+gravity
+=
+"
+center_vertical
 "
 android
 :

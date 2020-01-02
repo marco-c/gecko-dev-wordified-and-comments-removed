@@ -331,10 +331,10 @@ layout_weight
 "
 android
 :
-layout_marginTop
+gravity
 =
 "
-3dp
+center_vertical
 "
 android
 :
