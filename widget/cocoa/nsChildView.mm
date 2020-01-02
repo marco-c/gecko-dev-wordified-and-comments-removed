@@ -11910,12 +11910,7 @@ scopedScissorTestState
 (
 gl
 LOCAL_GL_SCISSOR_TEST
-)
-;
-ScopedScissorRect
-scopedScissorRectState
-(
-gl
+false
 )
 ;
 MaybeDrawTitlebar
