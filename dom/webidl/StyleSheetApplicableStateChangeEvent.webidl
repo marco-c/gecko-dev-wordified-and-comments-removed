@@ -101,13 +101,6 @@ optional
 StyleSheetApplicableStateChangeEventInit
 eventInitDict
 )
-HeaderFile
-=
-"
-GeneratedEventClasses
-.
-h
-"
 ]
 interface
 StyleSheetApplicableStateChangeEvent

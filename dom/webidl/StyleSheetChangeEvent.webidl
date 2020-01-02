@@ -101,13 +101,6 @@ optional
 StyleSheetChangeEventInit
 eventInitDict
 )
-HeaderFile
-=
-"
-GeneratedEventClasses
-.
-h
-"
 ]
 interface
 StyleSheetChangeEvent

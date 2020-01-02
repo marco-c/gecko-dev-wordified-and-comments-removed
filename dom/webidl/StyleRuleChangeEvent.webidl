@@ -104,13 +104,6 @@ optional
 StyleRuleChangeEventInit
 eventInitDict
 )
-HeaderFile
-=
-"
-GeneratedEventClasses
-.
-h
-"
 ]
 interface
 StyleRuleChangeEvent
