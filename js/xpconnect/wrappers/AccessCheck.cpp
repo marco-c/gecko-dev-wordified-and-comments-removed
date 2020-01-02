@@ -1063,10 +1063,13 @@ wrapper
 ;
 if
 (
-id
+act
 =
 =
-JSID_VOID
+Wrapper
+:
+:
+ENUMERATE
 )
 return
 false

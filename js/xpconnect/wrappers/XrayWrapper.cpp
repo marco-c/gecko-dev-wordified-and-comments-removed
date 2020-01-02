@@ -8603,7 +8603,7 @@ JSID_VOID
 BaseProxyHandler
 :
 :
-GET
+ENUMERATE
 )
 ;
 return
@@ -8756,7 +8756,7 @@ JSID_VOID
 BaseProxyHandler
 :
 :
-GET
+ENUMERATE
 )
 ;
 if
