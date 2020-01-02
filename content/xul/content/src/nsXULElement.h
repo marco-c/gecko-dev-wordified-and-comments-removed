@@ -2924,7 +2924,13 @@ friend
 nsresult
 NS_NewXULElement
 (
-nsIContent
+mozilla
+:
+:
+dom
+:
+:
+Element
 *
 *
 aResult

@@ -165,7 +165,13 @@ MOZ_XUL
 nsresult
 NS_NewXULElement
 (
-nsIContent
+mozilla
+:
+:
+dom
+:
+:
+Element
 *
 *
 aResult

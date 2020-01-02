@@ -1423,7 +1423,7 @@ NS_OK
 nsresult
 NS_NewXULElement
 (
-nsIContent
+Element
 *
 *
 aResult
