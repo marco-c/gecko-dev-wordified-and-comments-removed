@@ -287,12 +287,6 @@ common
 ref
 .
 html
-fails
--
-if
-(
-B2G
-)
 =
 =
 stepDown
@@ -309,12 +303,6 @@ common
 ref
 .
 html
-fails
--
-if
-(
-B2G
-)
 =
 =
 stepDown
