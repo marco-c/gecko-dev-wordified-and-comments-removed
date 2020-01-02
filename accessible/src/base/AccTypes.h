@@ -29,6 +29,7 @@ eHTMLSelectListType
 eHTMLMediaType
 eHTMLRadioButtonType
 eHTMLRangeType
+eHTMLSpinnerType
 eHTMLTableType
 eHTMLTableCellType
 eHTMLTableRowType
