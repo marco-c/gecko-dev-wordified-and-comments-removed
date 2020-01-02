@@ -1636,7 +1636,7 @@ true
 pref
 (
 "
-apzc
+apz
 .
 axis_lock_mode
 "
