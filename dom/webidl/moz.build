@@ -2455,11 +2455,6 @@ XPathEvaluator
 webidl
 '
 '
-XPathExpression
-.
-webidl
-'
-'
 XPathResult
 .
 webidl

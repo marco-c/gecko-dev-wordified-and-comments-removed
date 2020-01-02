@@ -107,11 +107,6 @@ XPathEvaluator
 h
 '
 '
-XPathExpression
-.
-h
-'
-'
 XPathResult
 .
 h
@@ -121,6 +116,11 @@ UNIFIED_SOURCES
 +
 =
 [
+'
+nsXPathExpression
+.
+cpp
+'
 '
 nsXPathNSResolver
 .
@@ -298,11 +298,6 @@ cpp
 '
 '
 XPathEvaluator
-.
-cpp
-'
-'
-XPathExpression
 .
 cpp
 '

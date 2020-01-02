@@ -98,7 +98,17 @@ XPIDL_SOURCES
 =
 [
 '
+nsIDOMNSXPathExpression
+.
+idl
+'
+'
 nsIDOMXPathEvaluator
+.
+idl
+'
+'
+nsIDOMXPathExpression
 .
 idl
 '
