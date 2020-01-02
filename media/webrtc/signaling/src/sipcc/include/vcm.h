@@ -183,6 +183,18 @@ loaded
 codecs
 #
 define
+VCM_H264_MODE_0
+1
+#
+define
+VCM_H264_MODE_1
+2
+#
+define
+VCM_H264_MODE_2
+4
+#
+define
 CC_KFACTOR_STAT_LEN
 (
 256
@@ -1146,7 +1158,7 @@ request_type
 )
 ;
 int
-vcmGetVideoMaxSupportedPacketizationMode
+vcmGetH264SupportedPacketizationModes
 (
 )
 ;

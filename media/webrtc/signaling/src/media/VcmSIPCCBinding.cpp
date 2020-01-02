@@ -10189,12 +10189,12 @@ codecMask
 endif
 }
 int
-vcmGetVideoMaxSupportedPacketizationMode
+vcmGetH264SupportedPacketizationModes
 (
 )
 {
 return
-1
+VCM_H264_MODE_1
 ;
 }
 uint32_t
