@@ -387,8 +387,6 @@ aBlock
 [
 WEBAUDIO_BLOCK_SIZE
 ]
-uint32_t
-aChannelCount
 float
 aScale
 )
