@@ -1045,7 +1045,6 @@ JSObject
 FastGetGlobalJSObject
 (
 )
-const
 {
 return
 mJSObject
