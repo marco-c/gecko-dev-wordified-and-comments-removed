@@ -666,9 +666,8 @@ bytes
 audiodata
 -
 >
-SetFrameData
+SwapInFrameData
 (
-&
 frameData
 )
 ;
