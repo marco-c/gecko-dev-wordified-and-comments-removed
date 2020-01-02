@@ -197,7 +197,7 @@ JS_GetScriptLineExtent
 cx
 script
 )
-11
+11u
 )
 ;
 CHECK

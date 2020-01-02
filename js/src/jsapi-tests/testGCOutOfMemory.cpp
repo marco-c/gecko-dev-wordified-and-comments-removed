@@ -162,7 +162,7 @@ cx
 CHECK_EQUAL
 (
 errorCount
-1
+1u
 )
 ;
 JS_GC
@@ -242,7 +242,7 @@ root
 CHECK_EQUAL
 (
 errorCount
-1
+1u
 )
 ;
 return

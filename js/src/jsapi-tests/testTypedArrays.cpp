@@ -454,7 +454,7 @@ JS_GetTypedArrayLength
 (
 array
 )
-7
+7u
 )
 ;
 CHECK_EQUAL
@@ -463,7 +463,7 @@ JS_GetTypedArrayByteOffset
 (
 array
 )
-0
+0u
 )
 ;
 CHECK_EQUAL
@@ -673,7 +673,7 @@ JS_GetTypedArrayByteOffset
 (
 array
 )
-0
+0u
 )
 ;
 CHECK_EQUAL
@@ -742,7 +742,7 @@ CHECK_EQUAL
 (
 *
 bufdata
-1
+1u
 )
 ;
 CHECK_EQUAL
@@ -756,7 +756,7 @@ uint8_t
 (
 data
 )
-1
+1u
 )
 ;
 RootedObject
@@ -791,7 +791,7 @@ JS_GetTypedArrayByteOffset
 (
 shortArray
 )
-0
+0u
 )
 ;
 CHECK_EQUAL

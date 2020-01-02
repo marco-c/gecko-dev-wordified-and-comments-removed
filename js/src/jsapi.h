@@ -18770,7 +18770,7 @@ cx
 #
 define
 JSREG_FOLD
-0x01
+0x01u
 /
 *
 fold
@@ -18782,7 +18782,7 @@ lowercase
 #
 define
 JSREG_GLOB
-0x02
+0x02u
 /
 *
 global
@@ -18796,7 +18796,7 @@ matches
 #
 define
 JSREG_MULTILINE
-0x04
+0x04u
 /
 *
 treat
@@ -18813,7 +18813,7 @@ line
 #
 define
 JSREG_STICKY
-0x08
+0x08u
 /
 *
 only
