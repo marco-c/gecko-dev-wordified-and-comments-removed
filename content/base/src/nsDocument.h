@@ -5824,6 +5824,7 @@ mPixelRatio
 bool
 mAutoSize
 mAllowZoom
+mAllowDoubleTapZoom
 mValidScaleFloat
 mValidMaxScale
 mScaleStrEmpty

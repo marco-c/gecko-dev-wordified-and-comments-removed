@@ -809,6 +809,11 @@ AllowZoom
 (
 )
 ;
+bool
+AllowDoubleTapZoom
+(
+)
+;
 enum
 AxisLockMode
 {
