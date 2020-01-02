@@ -31556,7 +31556,7 @@ IDENTITY_MODE_MIXED_DISPLAY_LOADED_ACTIVE_BLOCKED
 "
 unknownIdentity
 mixedContent
-mixedDisplayContent
+mixedDisplayContentLoadedActiveBlocked
 "
 IDENTITY_MODE_CHROMEUI
 :
