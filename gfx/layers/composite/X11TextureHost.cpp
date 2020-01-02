@@ -119,7 +119,7 @@ get
 (
 )
 ;
-MOZ_ASSERT
+if
 (
 !
 (
@@ -131,7 +131,7 @@ TextureFlags
 DEALLOCATE_CLIENT
 )
 )
-;
+{
 mSurface
 -
 >
@@ -139,6 +139,7 @@ TakePixmap
 (
 )
 ;
+}
 }
 bool
 X11TextureHost
