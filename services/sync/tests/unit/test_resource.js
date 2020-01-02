@@ -7,13 +7,13 @@ resource
 :
 /
 /
-services
--
-common
+gre
 /
-log4moz
+modules
+/
+Log
 .
-js
+jsm
 "
 )
 ;
@@ -1162,7 +1162,7 @@ do_test_pending
 ;
 logger
 =
-Log4Moz
+Log
 .
 repository
 .
@@ -1173,7 +1173,7 @@ Test
 '
 )
 ;
-Log4Moz
+Log
 .
 repository
 .
@@ -1182,7 +1182,7 @@ rootLogger
 addAppender
 (
 new
-Log4Moz
+Log
 .
 DumpAppender
 (

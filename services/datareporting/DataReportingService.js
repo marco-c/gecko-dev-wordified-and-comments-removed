@@ -860,13 +860,13 @@ resource
 :
 /
 /
-services
--
-common
+gre
 /
-log4moz
+modules
+/
+Log
 .
-js
+jsm
 "
 ns
 )
@@ -947,7 +947,7 @@ appender
 new
 ns
 .
-Log4Moz
+Log
 .
 ConsoleAppender
 (
@@ -959,7 +959,7 @@ level
 =
 ns
 .
-Log4Moz
+Log
 .
 Level
 [
@@ -969,7 +969,7 @@ level
 |
 ns
 .
-Log4Moz
+Log
 .
 Level
 .
@@ -988,7 +988,7 @@ logger
 =
 ns
 .
-Log4Moz
+Log
 .
 repository
 .
@@ -1040,7 +1040,7 @@ appender
 new
 ns
 .
-Log4Moz
+Log
 .
 DumpAppender
 (
@@ -1052,7 +1052,7 @@ level
 =
 ns
 .
-Log4Moz
+Log
 .
 Level
 [
@@ -1062,7 +1062,7 @@ level
 |
 ns
 .
-Log4Moz
+Log
 .
 Level
 .
@@ -1081,7 +1081,7 @@ logger
 =
 ns
 .
-Log4Moz
+Log
 .
 repository
 .

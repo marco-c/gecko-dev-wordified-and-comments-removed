@@ -119,13 +119,13 @@ resource
 :
 /
 /
-services
--
-common
+gre
 /
-log4moz
+modules
+/
+Log
 .
-js
+jsm
 "
 )
 ;
@@ -238,7 +238,7 @@ options
 let
 log
 =
-Log4Moz
+Log
 .
 repository
 .
@@ -651,7 +651,7 @@ options
 let
 log
 =
-Log4Moz
+Log
 .
 repository
 .
@@ -681,7 +681,7 @@ for
 let
 level
 in
-Log4Moz
+Log
 .
 Level
 )
@@ -2851,7 +2851,7 @@ _log
 level
 <
 =
-Log4Moz
+Log
 .
 Level
 .

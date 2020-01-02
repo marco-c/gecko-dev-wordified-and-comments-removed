@@ -57,10 +57,6 @@ modules
 :
 =
 \
-log4moz
-.
-js
-\
 storageservice
 .
 js

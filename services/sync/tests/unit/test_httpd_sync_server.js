@@ -22,7 +22,7 @@ run_test
 (
 )
 {
-Log4Moz
+Log
 .
 repository
 .
@@ -39,7 +39,7 @@ Server
 .
 level
 =
-Log4Moz
+Log
 .
 Level
 .

@@ -156,6 +156,11 @@ LoadContextInfo
 jsm
 '
 '
+Log
+.
+jsm
+'
+'
 NewTabUtils
 .
 jsm

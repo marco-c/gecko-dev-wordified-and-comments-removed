@@ -123,7 +123,7 @@ run_test
 (
 )
 {
-Log4Moz
+Log
 .
 repository
 .
@@ -138,13 +138,13 @@ Service
 .
 level
 =
-Log4Moz
+Log
 .
 Level
 .
 Trace
 ;
-Log4Moz
+Log
 .
 repository
 .
@@ -159,7 +159,7 @@ StorageRequest
 .
 level
 =
-Log4Moz
+Log
 .
 Level
 .
