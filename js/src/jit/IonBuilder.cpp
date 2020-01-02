@@ -26545,9 +26545,6 @@ eval
 ;
 if
 (
-IsBuiltinEvalForScope
-(
-&
 script
 (
 )
@@ -26556,6 +26553,9 @@ script
 global
 (
 )
+.
+valueIsEval
+(
 ObjectValue
 (
 *
