@@ -1406,13 +1406,6 @@ java
 '
 gfx
 /
-FullScreenState
-.
-java
-'
-'
-gfx
-/
 GeckoLayerClient
 .
 java
