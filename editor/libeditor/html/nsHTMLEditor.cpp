@@ -4290,11 +4290,6 @@ wsObj
 (
 this
 selNode
--
->
-AsDOMNode
-(
-)
 selOffset
 )
 ;
