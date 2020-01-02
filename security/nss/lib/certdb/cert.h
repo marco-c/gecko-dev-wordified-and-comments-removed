@@ -3141,7 +3141,7 @@ cert
 extern
 SECItem
 *
-CERT_GetSPKIDigest
+CERT_GetSubjectPublicKeyDigest
 (
 PLArenaPool
 *
