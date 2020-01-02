@@ -12438,7 +12438,7 @@ newtabpage
 .
 columns
 "
-3
+8
 )
 ;
 pref
