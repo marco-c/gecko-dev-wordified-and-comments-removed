@@ -97,7 +97,7 @@ I
 .
 .
 ifdef
-MOZ_SHARED_ICU
+MOZ_NATIVE_ICU
 EXTRA_LIBS
 +
 =
