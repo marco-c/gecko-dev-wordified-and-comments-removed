@@ -249,6 +249,15 @@ void
 nsIWidgetListener
 :
 :
+DidCompositeWindow
+(
+)
+{
+}
+void
+nsIWidgetListener
+:
+:
 RequestRepaint
 (
 )
