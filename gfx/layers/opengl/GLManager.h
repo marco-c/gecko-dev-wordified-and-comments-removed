@@ -18,7 +18,7 @@ h
 #
 include
 "
-LayerManagerOGLProgram
+OGLShaderProgram
 .
 h
 "

@@ -1,7 +1,7 @@
 #
 include
 "
-LayerManagerOGLProgram
+OGLShaderProgram
 .
 h
 "
@@ -73,7 +73,7 @@ h
 #
 include
 "
-LayerManagerOGLShaders
+OGLShaders
 .
 h
 "

@@ -57,9 +57,9 @@ python
 genshaders
 .
 py
-LayerManagerOGLShaders
+OGLShaders
 .
 txt
-LayerManagerOGLShaders
+OGLShaders
 .
 h

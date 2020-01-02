@@ -267,14 +267,14 @@ h
 '
 opengl
 /
-LayerManagerOGLProgram
+OGLShaderProgram
 .
 h
 '
 '
 opengl
 /
-LayerManagerOGLShaders
+OGLShaders
 .
 h
 '
@@ -1602,7 +1602,7 @@ cpp
 '
 opengl
 /
-LayerManagerOGLProgram
+OGLShaderProgram
 .
 cpp
 '
