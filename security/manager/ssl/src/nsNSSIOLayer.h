@@ -510,12 +510,6 @@ mRememberClientAuthCertificate
 bool
 mPreliminaryHandshakeDone
 ;
-PRIntervalTime
-mHandshakeStartTime
-;
-bool
-mFirstServerHelloReceived
-;
 nsresult
 ActivateSSL
 (
