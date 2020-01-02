@@ -2040,6 +2040,9 @@ aAllowed
 mDocShellAllowsScript
 =
 aAllowed
+|
+|
+mImmuneToScriptPolicy
 ;
 }
 Scriptability
