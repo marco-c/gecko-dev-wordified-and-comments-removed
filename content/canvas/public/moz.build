@@ -113,6 +113,11 @@ EXPORTS
 =
 [
 '
+nsICanvasElementExternal
+.
+h
+'
+'
 nsICanvasRenderingContextInternal
 .
 h
