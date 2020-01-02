@@ -2799,6 +2799,17 @@ return
 }
 if
 (
+draggedWrapper
+=
+=
+targetNode
+)
+{
+return
+;
+}
+if
+(
 targetArea
 .
 id
