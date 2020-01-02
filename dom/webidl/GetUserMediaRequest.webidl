@@ -114,6 +114,13 @@ windowID
 ;
 readonly
 attribute
+unsigned
+long
+long
+innerWindowID
+;
+readonly
+attribute
 DOMString
 callID
 ;
