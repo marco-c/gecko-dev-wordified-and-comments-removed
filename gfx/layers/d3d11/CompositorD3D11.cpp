@@ -3642,6 +3642,13 @@ if
 mDefaultRT
 |
 |
+!
+mDefaultRT
+-
+>
+mRTView
+|
+|
 mSize
 .
 width
