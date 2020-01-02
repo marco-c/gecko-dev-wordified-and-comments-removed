@@ -329,6 +329,13 @@ WpaSupplicantImpl
 public
 :
 virtual
+~
+WpaSupplicantImpl
+(
+)
+{
+}
+virtual
 int32_t
 do_wifi_wait_for_event
 (
@@ -442,6 +449,10 @@ WaitForEvent
 nsAString
 &
 aEvent
+const
+nsCString
+&
+aInterface
 )
 ;
 bool
@@ -458,6 +469,10 @@ dom
 WifiResultOptions
 &
 result
+const
+nsCString
+&
+aInterface
 )
 ;
 private
