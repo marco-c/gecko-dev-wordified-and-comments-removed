@@ -4355,6 +4355,16 @@ incremental
 true
 )
 ;
+pref
+(
+"
+dom
+.
+window_experimental_bindings
+"
+false
+)
+;
 #
 ifndef
 XP_WIN
