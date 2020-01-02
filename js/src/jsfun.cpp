@@ -633,6 +633,8 @@ nonLazyScript
 -
 >
 isCallsiteClone
+(
+)
 )
 vp
 .
@@ -3523,6 +3525,8 @@ script
 -
 >
 isGeneratorExp
+(
+)
 )
 {
 if
@@ -3972,6 +3976,8 @@ script
 -
 >
 strict
+(
+)
 &
 &
 !
@@ -3979,6 +3985,8 @@ script
 -
 >
 explicitUseStrict
+(
+)
 &
 &
 !

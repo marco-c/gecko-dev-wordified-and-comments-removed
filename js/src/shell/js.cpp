@@ -12724,6 +12724,8 @@ nonLazyScript
 -
 >
 compileAndGo
+(
+)
 )
 {
 JS_ReportErrorNumber

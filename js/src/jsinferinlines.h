@@ -3223,6 +3223,8 @@ script
 -
 >
 compileAndGo
+(
+)
 |
 |
 offset

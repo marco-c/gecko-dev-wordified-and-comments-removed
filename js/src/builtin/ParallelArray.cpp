@@ -748,6 +748,8 @@ nonLazyScript
 -
 >
 shouldCloneAtCallsite
+(
+)
 )
 {
 ctor

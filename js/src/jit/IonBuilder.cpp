@@ -814,6 +814,8 @@ script
 -
 >
 failedBoundsCheck
+(
+)
 )
 failedShapeGuard_
 (
@@ -826,6 +828,8 @@ script
 -
 >
 failedShapeGuard
+(
+)
 )
 nonStringIteration_
 (
@@ -2130,6 +2134,8 @@ inlineScript
 -
 >
 uninlineable
+(
+)
 )
 return
 DontInline
@@ -2194,6 +2200,8 @@ inlineScript
 -
 >
 compileAndGo
+(
+)
 )
 return
 DontInline
@@ -5252,6 +5260,8 @@ script
 -
 >
 compileAndGo
+(
+)
 )
 return
 abort
@@ -8468,6 +8478,8 @@ script
 -
 >
 noScriptRval
+(
+)
 )
 ;
 current
@@ -16756,6 +16768,8 @@ script
 -
 >
 uninlineable
+(
+)
 &
 &
 !
@@ -17066,6 +17080,8 @@ script
 -
 >
 noScriptRval
+(
+)
 )
 {
 MInstruction
@@ -18744,9 +18760,9 @@ AbortReason_Disable
 calleeScript
 -
 >
-uninlineable
-=
-true
+setUninlineable
+(
+)
 ;
 abortReason_
 =
@@ -18865,9 +18881,9 @@ length
 calleeScript
 -
 >
-uninlineable
-=
-true
+setUninlineable
+(
+)
 ;
 abortReason_
 =
@@ -19376,6 +19392,8 @@ targetScript
 -
 >
 shouldInline
+(
+)
 )
 {
 if
@@ -22570,6 +22588,8 @@ script
 -
 >
 treatAsRunOnce
+(
+)
 slots
 )
 ;
@@ -24869,6 +24889,8 @@ nonLazyScript
 -
 >
 shouldCloneAtCallsite
+(
+)
 )
 {
 if
@@ -27060,6 +27082,8 @@ script
 -
 >
 compileAndGo
+(
+)
 )
 ;
 JSObject
@@ -27244,6 +27268,8 @@ script
 -
 >
 compileAndGo
+(
+)
 )
 ;
 JSObject
@@ -28881,6 +28907,8 @@ script
 -
 >
 noScriptRval
+(
+)
 )
 returnValue
 =
@@ -37710,6 +37738,8 @@ script
 -
 >
 strict
+(
+)
 guardHoles
 )
 ;
@@ -40832,6 +40862,8 @@ script
 -
 >
 invalidatedIdempotentCache
+(
+)
 )
 return
 true
@@ -43966,6 +43998,8 @@ script
 -
 >
 strict
+(
+)
 )
 ;
 current
@@ -44170,6 +44204,8 @@ script
 -
 >
 strict
+(
+)
 )
 ;
 current
@@ -45535,6 +45571,8 @@ script
 -
 >
 strict
+(
+)
 barrier
 )
 ;
@@ -46265,6 +46303,8 @@ script
 -
 >
 uninlineable
+(
+)
 &
 &
 !
@@ -46805,6 +46845,8 @@ script
 -
 >
 strict
+(
+)
 |
 |
 info
@@ -47602,6 +47644,8 @@ outerScript
 -
 >
 treatAsRunOnce
+(
+)
 )
 return
 false

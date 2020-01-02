@@ -2817,6 +2817,8 @@ script
 -
 >
 strict
+(
+)
 )
 {
 prepareVMCall
@@ -4959,6 +4961,8 @@ script
 -
 >
 strict
+(
+)
 |
 |
 (
@@ -7582,6 +7586,8 @@ script
 -
 >
 strict
+(
+)
 ?
 DeleteElementStrictInfo
 :
@@ -8180,6 +8186,8 @@ script
 -
 >
 strict
+(
+)
 ?
 DeletePropertyStrictInfo
 :
@@ -8520,6 +8528,8 @@ outerScript
 -
 >
 treatAsRunOnce
+(
+)
 )
 {
 frame
@@ -10051,6 +10061,8 @@ script
 -
 >
 strict
+(
+)
 )
 {
 if
@@ -10385,9 +10397,9 @@ argumentsAliasesFormals
 script
 -
 >
-uninlineable
-=
-true
+setUninlineable
+(
+)
 ;
 modifiesArguments_
 =
@@ -10920,9 +10932,9 @@ emit_JSOP_TRY
 script
 -
 >
-uninlineable
-=
-true
+setUninlineable
+(
+)
 ;
 return
 true
@@ -11873,6 +11885,8 @@ script
 -
 >
 noScriptRval
+(
+)
 )
 {
 Label

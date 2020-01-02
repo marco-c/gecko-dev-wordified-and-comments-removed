@@ -1462,6 +1462,8 @@ script
 -
 >
 hasScriptCounts
+(
+)
 )
 ;
 #
@@ -12572,6 +12574,8 @@ script
 -
 >
 compileAndGo
+(
+)
 )
 return
 buf

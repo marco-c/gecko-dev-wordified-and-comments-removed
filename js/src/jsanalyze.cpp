@@ -7664,6 +7664,8 @@ script_
 -
 >
 bindingsAccessedDynamically
+(
+)
 )
 return
 false
@@ -7724,6 +7726,8 @@ script_
 -
 >
 funHasAnyAliasedFormal
+(
+)
 &
 &
 argumentsContentsObserved_

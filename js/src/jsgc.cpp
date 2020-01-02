@@ -25318,6 +25318,8 @@ script
 -
 >
 hasScriptCounts
+(
+)
 &
 &
 script

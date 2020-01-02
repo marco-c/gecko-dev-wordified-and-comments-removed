@@ -1221,6 +1221,8 @@ script
 -
 >
 strict
+(
+)
 ;
 RootedPropertyName
 name

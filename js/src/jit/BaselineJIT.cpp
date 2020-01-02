@@ -1562,6 +1562,8 @@ script
 -
 >
 isCallsiteClone
+(
+)
 )
 {
 RootedScript

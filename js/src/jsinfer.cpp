@@ -4866,6 +4866,8 @@ script
 -
 >
 hasFreezeConstraints
+(
+)
 )
 continue
 ;
@@ -4874,9 +4876,9 @@ entry
 script
 -
 >
-hasFreezeConstraints
-=
-true
+setHasFreezeConstraints
+(
+)
 ;
 size_t
 count
@@ -9149,6 +9151,8 @@ script
 -
 >
 treatAsRunOnce
+(
+)
 )
 return
 GenericObject
@@ -16842,6 +16846,8 @@ nonLazyScript
 -
 >
 shouldCloneAtCallsite
+(
+)
 )
 return
 true
@@ -16896,6 +16902,8 @@ nonLazyScript
 -
 >
 usesArgumentsAndApply
+(
+)
 )
 return
 false
@@ -21184,9 +21192,9 @@ zone
 script
 -
 >
-hasFreezeConstraints
-=
-false
+clearHasFreezeConstraints
+(
+)
 ;
 }
 void

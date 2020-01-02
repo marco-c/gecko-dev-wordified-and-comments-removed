@@ -22147,6 +22147,8 @@ script
 -
 >
 warnedAboutUndefinedProp
+(
+)
 )
 return
 true
@@ -22213,9 +22215,9 @@ JSREPORT_STRICT
 script
 -
 >
-warnedAboutUndefinedProp
-=
-true
+setWarnedAboutUndefinedProp
+(
+)
 ;
 RootedValue
 val
@@ -23392,6 +23394,8 @@ script
 -
 >
 strict
+(
+)
 &
 &
 !
@@ -23494,6 +23498,8 @@ script
 -
 >
 strict
+(
+)
 &
 &
 !

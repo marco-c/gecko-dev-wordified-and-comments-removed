@@ -349,6 +349,8 @@ script
 -
 >
 selfHosted
+(
+)
 )
 {
 if
@@ -3090,6 +3092,8 @@ script
 -
 >
 selfHosted
+(
+)
 ;
 }
 JS_PUBLIC_API
@@ -4583,6 +4587,8 @@ script
 -
 >
 hasScriptCounts
+(
+)
 )
 ;
 Sprinter
@@ -4894,6 +4900,8 @@ script
 -
 >
 hasScriptCounts
+(
+)
 &
 &
 script

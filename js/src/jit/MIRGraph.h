@@ -1810,6 +1810,8 @@ script
 -
 >
 strict
+(
+)
 ;
 }
 void

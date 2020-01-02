@@ -8188,9 +8188,9 @@ lineno
 topScript
 -
 >
-invalidatedIdempotentCache
-=
-true
+setInvalidatedIdempotentCache
+(
+)
 ;
 if
 (
@@ -20523,6 +20523,8 @@ script
 -
 >
 funHasExtensibleScope
+(
+)
 )
 return
 ;
@@ -22134,6 +22136,8 @@ nonLazyScript
 -
 >
 shouldCloneAtCallsite
+(
+)
 )
 return
 fun

@@ -538,6 +538,8 @@ script
 -
 >
 compileAndGo
+(
+)
 )
 ;
 CallNewScriptHook

@@ -2965,6 +2965,8 @@ script
 -
 >
 compileAndGo
+(
+)
 compileAndGoGlobal
 )
 ;
@@ -2974,6 +2976,8 @@ script
 -
 >
 compileAndGo
+(
+)
 compileAndGoGlobal
 =
 =
@@ -3011,6 +3015,8 @@ script
 -
 >
 selfHosted
+(
+)
 script
 -
 >
@@ -3029,6 +3035,8 @@ script
 -
 >
 compileAndGo
+(
+)
 !
 compileAndGoGlobal
 )

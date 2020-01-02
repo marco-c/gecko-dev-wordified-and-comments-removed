@@ -19926,6 +19926,8 @@ nonLazyScript
 -
 >
 compileAndGo
+(
+)
 &
 &
 !
@@ -23001,6 +23003,8 @@ script
 -
 >
 isCachedEval
+(
+)
 )
 ;
 return
