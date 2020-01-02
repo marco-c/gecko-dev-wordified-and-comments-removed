@@ -257,7 +257,7 @@ MOZ_B2G_BT_BLUEZ
 #
 include
 "
-BluetoothGonkService
+BluetoothDBusService
 .
 h
 "
@@ -1210,7 +1210,7 @@ MOZ_B2G_BT_BLUEZ
 )
 return
 new
-BluetoothGonkService
+BluetoothDBusService
 (
 )
 ;

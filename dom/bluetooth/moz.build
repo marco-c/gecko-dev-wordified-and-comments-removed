@@ -265,15 +265,6 @@ cpp
 '
 bluez
 /
-gonk
-/
-BluetoothGonkService
-.
-cpp
-'
-'
-bluez
-/
 linux
 /
 BluetoothDBusService
@@ -287,11 +278,6 @@ LOCAL_INCLUDES
 [
 '
 bluez
-'
-'
-bluez
-/
-gonk
 '
 '
 bluez
