@@ -3804,12 +3804,6 @@ X11
 Xutil
 .
 h
-xpt_struct
-.
-h
-xpt_xdr
-.
-h
 zmouse
 .
 h
