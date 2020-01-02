@@ -1,3 +1,17 @@
+if
+(
+!
+getBuildConfiguration
+(
+)
+.
+parallelJS
+)
+quit
+(
+0
+)
+;
 Array
 .
 buildPar
