@@ -2181,15 +2181,7 @@ RemoveWindowID
 uint64_t
 aWindowId
 )
-{
-mActiveWindows
-.
-Remove
-(
-aWindowId
-)
 ;
-}
 bool
 IsWindowStillActive
 (
