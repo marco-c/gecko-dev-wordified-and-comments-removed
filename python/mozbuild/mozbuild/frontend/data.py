@@ -190,7 +190,9 @@ __init__
 (
 self
 total_file_count
-total_execution_time
+total_sandbox_execution_time
+        
+total_emitter_execution_time
 )
 :
         
@@ -209,9 +211,15 @@ total_file_count
         
 self
 .
-total_execution_time
+total_sandbox_execution_time
 =
-total_execution_time
+total_sandbox_execution_time
+        
+self
+.
+total_emitter_execution_time
+=
+total_emitter_execution_time
 class
 SandboxDerived
 (
