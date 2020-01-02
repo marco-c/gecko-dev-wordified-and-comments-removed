@@ -156,3 +156,6 @@ compat
 cpp
 '
 ]
+FORCE_STATIC_LIB
+=
+True

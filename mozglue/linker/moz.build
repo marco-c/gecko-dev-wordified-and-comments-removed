@@ -148,3 +148,6 @@ szip
 cpp
 '
 ]
+FORCE_STATIC_LIB
+=
+True

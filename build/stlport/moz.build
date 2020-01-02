@@ -98,3 +98,6 @@ LIBRARY_NAME
 '
 stlport_static
 '
+FORCE_STATIC_LIB
+=
+True

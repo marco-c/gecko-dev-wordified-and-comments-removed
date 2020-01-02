@@ -91,9 +91,6 @@ build
 (
 NULL
 )
-FORCE_STATIC_LIB
-=
-1
 #
 Don
 '

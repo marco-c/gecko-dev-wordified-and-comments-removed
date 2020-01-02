@@ -153,3 +153,6 @@ LIBRARY_NAME
 '
 unicharutil_external_s
 '
+FORCE_STATIC_LIB
+=
+True

@@ -121,3 +121,6 @@ unicharutil_s
 EXPORT_LIBRARY
 =
 True
+FORCE_STATIC_LIB
+=
+True

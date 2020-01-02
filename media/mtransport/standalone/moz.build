@@ -503,3 +503,6 @@ win32
 include
 '
 ]
+FORCE_STATIC_LIB
+=
+True

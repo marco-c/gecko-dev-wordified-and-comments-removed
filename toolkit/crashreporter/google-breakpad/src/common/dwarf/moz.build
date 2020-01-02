@@ -136,3 +136,10 @@ functioninfo
 cc
 '
 ]
+#
+need
+static
+lib
+FORCE_STATIC_LIB
+=
+True

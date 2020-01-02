@@ -129,13 +129,6 @@ DEFINES
 =
 -
 DNO_STABS_SUPPORT
-#
-need
-static
-lib
-FORCE_STATIC_LIB
-=
-1
 include
 (
 topsrcdir

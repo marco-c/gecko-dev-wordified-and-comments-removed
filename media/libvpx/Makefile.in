@@ -62,9 +62,6 @@ DHAVE_CONFIG_H
 vpx_config
 .
 h
-FORCE_STATIC_LIB
-=
-1
 ifeq
 (
 WINNT

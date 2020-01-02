@@ -69,10 +69,3 @@ srcdir
 /
 .
 .
-#
-need
-static
-lib
-FORCE_STATIC_LIB
-=
-1

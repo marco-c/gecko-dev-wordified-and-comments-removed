@@ -92,9 +92,6 @@ of
 tree
 history
 .
-FORCE_STATIC_LIB
-=
-1
 DEFINES
 +
 =

@@ -97,10 +97,3 @@ funsigned
 char
 -
 frtti
-#
-need
-static
-lib
-FORCE_STATIC_LIB
-=
-1

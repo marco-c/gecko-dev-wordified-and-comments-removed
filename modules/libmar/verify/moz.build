@@ -118,3 +118,6 @@ mar_verify
 c
 '
 ]
+FORCE_STATIC_LIB
+=
+True

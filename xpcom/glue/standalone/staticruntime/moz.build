@@ -176,3 +176,11 @@ LIB_SUFFIX
 ]
 )
 ]
+#
+create
+a
+static
+lib
+FORCE_STATIC_LIB
+=
+True

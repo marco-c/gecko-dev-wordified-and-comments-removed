@@ -141,3 +141,6 @@ opus
 MSVC_ENABLE_PGO
 =
 True
+FORCE_STATIC_LIB
+=
+True

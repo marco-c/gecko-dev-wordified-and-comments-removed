@@ -120,3 +120,6 @@ LIBRARY_NAME
 '
 profdirserviceprovidersa_s
 '
+FORCE_STATIC_LIB
+=
+True

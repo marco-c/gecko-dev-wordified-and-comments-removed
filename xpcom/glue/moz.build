@@ -572,3 +572,6 @@ LIB_SUFFIX
 ]
 )
 ]
+FORCE_STATIC_LIB
+=
+True

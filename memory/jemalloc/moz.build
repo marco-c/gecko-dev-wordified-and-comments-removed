@@ -360,3 +360,6 @@ LIBRARY_NAME
 '
 jemalloc
 '
+FORCE_STATIC_LIB
+=
+True

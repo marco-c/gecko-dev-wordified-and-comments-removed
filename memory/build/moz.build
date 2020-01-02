@@ -192,3 +192,6 @@ LIBRARY_NAME
 '
 memory
 '
+FORCE_STATIC_LIB
+=
+True

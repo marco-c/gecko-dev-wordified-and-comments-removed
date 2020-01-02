@@ -141,3 +141,6 @@ xpcshell
 ini
 '
 ]
+FORCE_STATIC_LIB
+=
+True

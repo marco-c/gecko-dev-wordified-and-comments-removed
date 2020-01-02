@@ -118,3 +118,6 @@ nss_secutil
 c
 '
 ]
+FORCE_STATIC_LIB
+=
+True
