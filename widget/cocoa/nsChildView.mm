@@ -39230,7 +39230,10 @@ CGEventTapCreateForPSN
 currentProcess
 kCGHeadInsertEventTap
 kCGEventTapOptionListenOnly
-kCGEventMaskForAllEvents
+CGEventMaskBit
+(
+kCGEventScrollWheel
+)
 HandleEvent
 self
 )
