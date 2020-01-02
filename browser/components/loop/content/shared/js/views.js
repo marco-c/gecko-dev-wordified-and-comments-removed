@@ -111,8 +111,7 @@ width
 height
 :
 "
-100
-%
+auto
 "
 }
 initialize
