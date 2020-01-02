@@ -6004,11 +6004,6 @@ UpdateParentTarget
 (
 )
 ;
-bool
-GetIsTabModalPromptAllowed
-(
-)
-;
 inline
 int32_t
 DOMMinTimeoutValue
