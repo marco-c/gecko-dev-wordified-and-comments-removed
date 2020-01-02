@@ -9348,16 +9348,6 @@ sharedWorker
 serviceWorker
 -
 >
-mState
-=
-ServiceWorkerState
-:
-:
-Parsed
-;
-serviceWorker
--
->
 mURL
 =
 aScriptURL

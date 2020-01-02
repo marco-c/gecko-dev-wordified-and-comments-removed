@@ -192,9 +192,6 @@ enum
 ServiceWorkerState
 {
 "
-parsed
-"
-"
 installing
 "
 "
