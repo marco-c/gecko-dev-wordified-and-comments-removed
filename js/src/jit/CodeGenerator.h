@@ -534,6 +534,14 @@ lir
 )
 ;
 bool
+visitStringReplace
+(
+LStringReplace
+*
+lir
+)
+;
+bool
 visitLambda
 (
 LLambda
