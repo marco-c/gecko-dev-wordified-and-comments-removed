@@ -515,7 +515,7 @@ return
 NO_ERROR
 ;
 }
-int
+uint32_t
 GonkBufferQueue
 :
 :
