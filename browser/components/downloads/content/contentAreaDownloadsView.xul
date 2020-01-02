@@ -394,6 +394,11 @@ downloadsListEmpty
 label
 ;
 "
+mousethrough
+=
+"
+always
+"
 /
 >
 <
