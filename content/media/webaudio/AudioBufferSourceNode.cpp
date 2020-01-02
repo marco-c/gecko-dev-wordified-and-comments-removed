@@ -1712,6 +1712,14 @@ mBuffer
 mDuration
 )
 {
+aOutput
+-
+>
+SetNull
+(
+WEBAUDIO_BLOCK_SIZE
+)
+;
 return
 ;
 }
