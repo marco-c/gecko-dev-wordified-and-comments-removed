@@ -127,12 +127,6 @@ SurfaceMode
 aMode
 )
 ;
-nsRefPtr
-<
-gfxASurface
->
-mD2DSurface
-;
 mozilla
 :
 :
@@ -147,12 +141,6 @@ gfx
 DrawTarget
 >
 mDrawTarget
-;
-nsRefPtr
-<
-gfxASurface
->
-mD2DSurfaceOnWhite
 ;
 void
 DrawRegion
