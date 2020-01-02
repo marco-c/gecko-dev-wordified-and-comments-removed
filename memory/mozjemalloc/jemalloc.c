@@ -2934,7 +2934,7 @@ const
 bool
 opt_poison
 =
-false
+true
 ;
 static
 const
