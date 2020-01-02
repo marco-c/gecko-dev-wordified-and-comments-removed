@@ -372,7 +372,7 @@ value
 "
 )
 "
-Object
+InstallTriggerImpl
 "
 "
 Should
@@ -1055,7 +1055,7 @@ value
 "
 )
 "
-Object
+InstallTriggerImpl
 "
 "
 Should

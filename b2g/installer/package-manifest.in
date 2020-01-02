@@ -2542,6 +2542,13 @@ BINPATH
 /
 components
 /
+amInstallTrigger
+.
+js
+BINPATH
+/
+components
+/
 amWebInstallListener
 .
 js

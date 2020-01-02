@@ -125,6 +125,11 @@ AddonUpdateChecker
 jsm
 '
 '
+Content
+.
+js
+'
+'
 LightweightThemeImageOptimizer
 .
 jsm

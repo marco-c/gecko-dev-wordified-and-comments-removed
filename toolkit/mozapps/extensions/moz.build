@@ -119,11 +119,6 @@ amIAddonManager
 idl
 '
 '
-amIInstallTrigger
-.
-idl
-'
-'
 amIWebInstaller
 .
 idl
@@ -150,6 +145,11 @@ js
 '
 '
 amContentHandler
+.
+js
+'
+'
+amInstallTrigger
 .
 js
 '
