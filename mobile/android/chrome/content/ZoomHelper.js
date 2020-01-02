@@ -480,6 +480,7 @@ rect
 aClickY
 aCanZoomOut
 aCanScrollHorizontally
+aElement
 )
 ;
 }
@@ -498,6 +499,7 @@ true
 aCanScrollHorizontally
 =
 true
+aElement
 )
 {
 const
@@ -613,6 +615,11 @@ bRect
 x
 )
 ;
+if
+(
+aElement
+)
+{
 if
 (
 BrowserEventHandler
@@ -733,6 +740,7 @@ zoomOut
 }
 return
 ;
+}
 }
 let
 rect
