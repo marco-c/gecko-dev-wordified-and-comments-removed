@@ -6311,7 +6311,7 @@ None
 onLaunch
 =
 None
-detectShutdownLeaks
+webapprtChrome
 =
 False
 screenshotOnFail
