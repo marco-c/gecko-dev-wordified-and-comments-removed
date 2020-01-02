@@ -1162,12 +1162,12 @@ panning
 ;
 }
 int
-cubeb_stream_get_current_output_device
+cubeb_stream_get_current_device
 (
 cubeb_stream
 *
 stream
-cubeb_output_device
+cubeb_device
 *
 *
 const
@@ -1199,7 +1199,7 @@ context
 ops
 -
 >
-stream_get_current_output_device
+stream_get_current_device
 )
 {
 return
@@ -1212,7 +1212,7 @@ context
 ops
 -
 >
-stream_get_current_output_device
+stream_get_current_device
 (
 stream
 device
@@ -1224,12 +1224,12 @@ CUBEB_ERROR
 ;
 }
 int
-cubeb_stream_output_device_destroy
+cubeb_stream_device_destroy
 (
 cubeb_stream
 *
 stream
-cubeb_output_device
+cubeb_device
 *
 device
 )
@@ -1259,7 +1259,7 @@ context
 ops
 -
 >
-stream_output_device_destroy
+stream_device_destroy
 )
 {
 return
@@ -1272,7 +1272,7 @@ context
 ops
 -
 >
-stream_output_device_destroy
+stream_device_destroy
 (
 stream
 device
