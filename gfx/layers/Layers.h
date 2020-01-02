@@ -5811,7 +5811,10 @@ WriteSnapshotToDumpFile
 Layer
 *
 aLayer
-gfxASurface
+gfx
+:
+:
+DataSourceSurface
 *
 aSurf
 )
@@ -5822,7 +5825,10 @@ WriteSnapshotToDumpFile
 LayerManager
 *
 aManager
-gfxASurface
+gfx
+:
+:
+DataSourceSurface
 *
 aSurf
 )
