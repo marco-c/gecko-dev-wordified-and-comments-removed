@@ -2061,6 +2061,11 @@ ELT_FEPOINTLIGHT
 static
 nsHtml5ElementName
 *
+ELT_FEDROPSHADOW
+;
+static
+nsHtml5ElementName
+*
 ELT_FEMORPHOLOGY
 ;
 static
