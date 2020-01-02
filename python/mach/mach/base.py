@@ -48,6 +48,9 @@ None
 commands
 =
 None
+*
+*
+kwargs
 )
 :
         
@@ -74,6 +77,24 @@ self
 commands
 =
 commands
+        
+for
+k
+v
+in
+kwargs
+.
+items
+(
+)
+:
+            
+setattr
+(
+self
+k
+v
+)
 class
 MachError
 (

@@ -12,7 +12,7 @@ unittest
 from
 mach
 .
-logger
+logging
 import
 StructuredHumanFormatter
 class
@@ -111,7 +111,7 @@ relevant
 =
 result
 [
-5
+9
 :
 ]
             
