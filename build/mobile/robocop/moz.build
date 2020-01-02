@@ -93,3 +93,16 @@ MPL
 0
 /
 .
+ANDROID_RESFILES
+=
+[
+'
+res
+/
+values
+/
+strings
+.
+xml
+'
+]
