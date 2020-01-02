@@ -7852,6 +7852,11 @@ chromeclass
 toolbar
 -
 additional
+toolbaritem
+-
+with
+-
+separator
 "
 removable
 =
