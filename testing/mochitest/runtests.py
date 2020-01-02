@@ -5259,6 +5259,9 @@ return
 else
 :
         
+try
+:
+          
 os
 .
 kill
@@ -5267,6 +5270,27 @@ processPID
 signal
 .
 SIGABRT
+)
+        
+except
+OSError
+:
+          
+log
+.
+info
+(
+"
+Can
+'
+t
+trigger
+Breakpad
+process
+no
+longer
+exists
+"
 )
         
 return
