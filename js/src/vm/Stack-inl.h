@@ -1886,9 +1886,10 @@ forEachCanonicalActualArg
 (
 cx
 op
-0
--
-1
+jit
+:
+:
+ReadFrame_Actuals
 )
 ;
 }
@@ -1912,9 +1913,10 @@ ionFrames_
 forEachCanonicalActualArg
 (
 op
-0
--
-1
+jit
+:
+:
+ReadFrame_Actuals
 )
 ;
 }
