@@ -3,6 +3,15 @@ use
 strict
 "
 ;
+loadHelperScript
+(
+"
+helper_attributes_test_runner
+.
+js
+"
+)
+;
 let
 TEST_URL
 =

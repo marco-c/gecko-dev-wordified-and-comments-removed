@@ -1,3 +1,17 @@
+"
+use
+strict
+"
+;
+loadHelperScript
+(
+"
+helper_outerhtml_test_runner
+.
+js
+"
+)
+;
 const
 TEST_DATA
 =
