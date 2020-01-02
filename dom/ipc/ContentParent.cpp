@@ -7235,7 +7235,7 @@ if
 gfxPrefs
 :
 :
-AsyncVideoEnabled
+AsyncVideoOOPEnabled
 (
 )
 )
