@@ -419,6 +419,10 @@ NrSocket
 (
 )
 {
+if
+(
+fd_
+)
 PR_Close
 (
 fd_
