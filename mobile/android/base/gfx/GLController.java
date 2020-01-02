@@ -177,7 +177,7 @@ mEGLConfig
 ;
 private
 EGLSurface
-mEGLSurface
+mClientSurface
 ;
 private
 static
@@ -335,7 +335,7 @@ mServerSurfaceValid
 =
 false
 ;
-mEGLSurface
+mClientSurface
 =
 null
 ;
@@ -525,7 +525,7 @@ initEGL
 )
 ;
 }
-mEGLSurface
+mClientSurface
 =
 mEGL
 .
@@ -567,13 +567,13 @@ e
 }
 if
 (
-mEGLSurface
+mClientSurface
 =
 =
 null
 |
 |
-mEGLSurface
+mClientSurface
 =
 =
 EGL10
@@ -585,7 +585,7 @@ mServerSurfaceValid
 =
 false
 ;
-mEGLSurface
+mClientSurface
 =
 null
 ;
@@ -684,7 +684,7 @@ return
 }
 if
 (
-mEGLSurface
+mClientSurface
 !
 =
 null
@@ -1126,7 +1126,7 @@ provideEGLSurface
 )
 {
 return
-mEGLSurface
+mClientSurface
 ;
 }
 private
