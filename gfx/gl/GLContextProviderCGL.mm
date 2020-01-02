@@ -1448,14 +1448,6 @@ return
 nullptr
 ;
 }
-gGlobalContext
--
->
-SetIsGlobalSharedContext
-(
-true
-)
-;
 }
 return
 gGlobalContext
