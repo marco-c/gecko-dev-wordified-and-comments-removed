@@ -198,9 +198,15 @@ textContent
 .
 indexOf
 (
+'
+{
+abba
+:
 "
-Object
+omgBug676722
 "
+}
+'
 )
 -
 1

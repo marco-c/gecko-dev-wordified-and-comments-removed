@@ -494,6 +494,9 @@ value
 )
 "
 Int8Array
+[
+10000
+]
 "
 "
 Should

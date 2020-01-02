@@ -436,7 +436,9 @@ value
 "
 )
 "
-HTMLButtonElement
+<
+button
+>
 "
 "
 Should
@@ -1015,7 +1017,9 @@ value
 "
 )
 "
-HTMLButtonElement
+<
+button
+>
 "
 "
 Should

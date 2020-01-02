@@ -17262,6 +17262,17 @@ selectNextItem
 )
 ;
 }
+this
+.
+emit
+(
+"
+autocomplete
+-
+updated
+"
+)
+;
 aCallback
 &
 &

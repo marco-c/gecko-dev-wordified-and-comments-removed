@@ -832,6 +832,13 @@ value
 )
 "
 Window
+\
+u2192
+doc_frame
+-
+parameters
+.
+html
 "
 "
 Should
@@ -968,6 +975,13 @@ value
 )
 "
 HTMLDocument
+\
+u2192
+doc_frame
+-
+parameters
+.
+html
 "
 "
 Should

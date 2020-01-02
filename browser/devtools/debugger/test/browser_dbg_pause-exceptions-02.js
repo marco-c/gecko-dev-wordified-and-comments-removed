@@ -663,7 +663,9 @@ value
 "
 )
 "
-HTMLButtonElement
+<
+button
+>
 "
 "
 Should
