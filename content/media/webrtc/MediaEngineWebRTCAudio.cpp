@@ -626,6 +626,13 @@ mSamplesSaved
 =
 to_copy
 ;
+aBuffer
++
+=
+to_copy
+*
+aChannels
+;
 if
 (
 mSamplesSaved
