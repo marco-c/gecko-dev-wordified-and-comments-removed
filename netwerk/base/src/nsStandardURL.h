@@ -198,6 +198,10 @@ bool
 aSupportsFileURL
 =
 false
+bool
+aTrackURL
+=
+true
 )
 ;
 static
