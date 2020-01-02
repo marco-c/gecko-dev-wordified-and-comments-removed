@@ -36,13 +36,6 @@ h
 #
 include
 "
-gfx3DMatrix
-.
-h
-"
-#
-include
-"
 gfxPlatform
 .
 h
