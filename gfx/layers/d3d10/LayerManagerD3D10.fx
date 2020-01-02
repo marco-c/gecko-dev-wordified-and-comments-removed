@@ -1248,7 +1248,7 @@ LayerTextureSamplerLinear
 aTexCoords
 )
 .
-r
+a
 -
 0
 .
@@ -1266,7 +1266,7 @@ LayerTextureSamplerLinear
 aTexCoords
 )
 .
-r
+a
 -
 0
 .
@@ -1284,7 +1284,7 @@ LayerTextureSamplerLinear
 aTexCoords
 )
 .
-r
+a
 -
 0
 .
