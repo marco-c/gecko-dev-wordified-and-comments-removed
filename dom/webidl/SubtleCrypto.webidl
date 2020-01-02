@@ -394,6 +394,17 @@ hash
 }
 ;
 dictionary
+RsaOaepParams
+:
+Algorithm
+{
+CryptoOperationData
+?
+label
+;
+}
+;
+dictionary
 DhKeyGenParams
 :
 Algorithm
