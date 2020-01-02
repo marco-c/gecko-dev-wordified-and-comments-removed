@@ -3240,7 +3240,7 @@ MOZ_ASSERT
 textureClient
 -
 >
-CanExposeDrawTarget
+AsTextureClientDrawTarget
 (
 )
 )
@@ -3249,6 +3249,11 @@ if
 (
 !
 textureClient
+-
+>
+AsTextureClientDrawTarget
+(
+)
 -
 >
 AllocateForSurface
@@ -3284,6 +3289,11 @@ DrawTarget
 dt
 =
 textureClient
+-
+>
+AsTextureClientDrawTarget
+(
+)
 -
 >
 GetAsDrawTarget

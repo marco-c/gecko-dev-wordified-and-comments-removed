@@ -400,6 +400,11 @@ if
 textureClient
 -
 >
+AsTextureClientDrawTarget
+(
+)
+-
+>
 AllocateForSurface
 (
 mSize
