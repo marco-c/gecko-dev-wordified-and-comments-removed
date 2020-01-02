@@ -99,3 +99,13 @@ webapp
 .
 properties
 )
+%
+locale
+branding
+AB_CD
+resource
+:
+/
+/
+webappbranding
+/
