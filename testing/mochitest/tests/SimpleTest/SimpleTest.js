@@ -3512,6 +3512,16 @@ max
 }
 SimpleTest
 .
+requestFlakyTimeout
+=
+function
+(
+reason
+)
+{
+}
+SimpleTest
+.
 waitForFocus_started
 =
 false
