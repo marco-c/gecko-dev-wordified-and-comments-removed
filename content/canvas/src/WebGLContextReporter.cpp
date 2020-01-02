@@ -18,7 +18,7 @@ mozilla
 ;
 NS_IMPL_ISUPPORTS
 (
-WebGLMemoryPressureObserver
+WebGLObserver
 nsIObserver
 )
 NS_IMETHODIMP
