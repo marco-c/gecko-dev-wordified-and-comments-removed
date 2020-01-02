@@ -80,14 +80,6 @@ AudioSegment
 class
 VideoSegment
 ;
-#
-ifdef
-GetCurrentTime
-#
-undef
-GetCurrentTime
-#
-endif
 class
 MediaDecoderStateMachine
 :

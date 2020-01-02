@@ -343,11 +343,6 @@ AudioChannelFormat
 h
 '
 '
-AudioCompactor
-.
-h
-'
-'
 AudioEventTimeline
 .
 h
@@ -613,11 +608,6 @@ cpp
 '
 '
 AudioChannelFormat
-.
-cpp
-'
-'
-AudioCompactor
 .
 cpp
 '
