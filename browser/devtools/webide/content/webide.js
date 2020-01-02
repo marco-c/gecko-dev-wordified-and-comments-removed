@@ -350,10 +350,12 @@ mozilla
 .
 org
 /
-Firefox_OS
+docs
 /
-Using_the_App_Manager
-#
+Tools
+/
+WebIDE
+/
 Troubleshooting
 "
 ;
