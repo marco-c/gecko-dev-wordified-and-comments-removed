@@ -65,6 +65,17 @@ disk
 "
 )
 ;
+var
+expectedConsumption
+=
+newCacheBackEndUsed
+(
+)
+?
+2048
+:
+24
+;
 storage
 .
 asyncVisitStorage
@@ -73,7 +84,7 @@ new
 VisitCallback
 (
 2
-24
+expectedConsumption
 [
 "
 http
