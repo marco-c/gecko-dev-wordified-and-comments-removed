@@ -54,16 +54,6 @@ MPL
 0
 /
 .
-VPATH
-=
-(
-srcdir
-)
-(
-srcdir
-)
-/
-unittest
 ifeq
 (
 (
