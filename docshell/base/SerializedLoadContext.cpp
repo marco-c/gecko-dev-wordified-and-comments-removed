@@ -226,6 +226,15 @@ mUsePrivateBrowsing
 aLoadContext
 -
 >
+GetUseRemoteTabs
+(
+&
+mUseRemoteTabs
+)
+;
+aLoadContext
+-
+>
 GetAppId
 (
 &
@@ -257,6 +266,10 @@ mIsContent
 true
 ;
 mUsePrivateBrowsing
+=
+false
+;
+mUseRemoteTabs
 =
 false
 ;

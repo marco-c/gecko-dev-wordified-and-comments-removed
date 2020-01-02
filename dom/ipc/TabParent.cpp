@@ -8685,6 +8685,12 @@ nsIWebBrowserChrome
 :
 :
 CHROME_PRIVATE_WINDOW
+mChromeFlags
+&
+nsIWebBrowserChrome
+:
+:
+CHROME_REMOTE_WINDOW
 IsBrowserElement
 (
 )
