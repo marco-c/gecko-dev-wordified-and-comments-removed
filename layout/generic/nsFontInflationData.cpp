@@ -402,6 +402,10 @@ mBFCFrame
 (
 aBFCFrame
 )
+mNCAWidth
+(
+0
+)
 mTextAmount
 (
 0
