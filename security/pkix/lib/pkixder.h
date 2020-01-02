@@ -1351,6 +1351,8 @@ Input
 &
 input
 bool
+allowInvalidExplicitEncoding
+bool
 &
 value
 )
@@ -1387,6 +1389,10 @@ Failure
 }
 if
 (
+!
+allowInvalidExplicitEncoding
+&
+&
 !
 value
 )
