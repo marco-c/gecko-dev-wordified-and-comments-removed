@@ -2719,13 +2719,7 @@ self
 .
 customTrace
 =
-desc
-.
-get
 (
-'
-customTrace
-'
 self
 .
 nativeOwnership
