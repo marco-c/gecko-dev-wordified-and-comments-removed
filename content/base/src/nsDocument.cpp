@@ -23996,7 +23996,7 @@ elemName
 CustomElementHashKey
 key
 (
-kNameSpaceID_None
+kNameSpaceID_Unknown
 typeAtom
 )
 ;
@@ -25372,7 +25372,7 @@ nullptr
 CustomElementHashKey
 duplicateFinder
 (
-kNameSpaceID_None
+kNameSpaceID_Unknown
 typeAtom
 )
 ;

@@ -1127,7 +1127,7 @@ MOZ_ASSERT
 mNamespaceID
 !
 =
-kNameSpaceID_None
+kNameSpaceID_Unknown
 "
 This
 equals
@@ -1146,7 +1146,7 @@ with
 a
 namespace
 of
-kNamespaceID_None
+kNamespaceID_Unknown
 should
 "
 "
@@ -1162,7 +1162,7 @@ hashtable
 ;
 return
 (
-kNameSpaceID_None
+kNameSpaceID_Unknown
 =
 =
 aKey
