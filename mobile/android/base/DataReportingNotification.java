@@ -235,7 +235,7 @@ AppConstants
 ANDROID_PACKAGE_NAME
 AppConstants
 .
-BROWSER_INTENT_CLASS
+BROWSER_INTENT_CLASS_NAME
 )
 ;
 GeckoPreferences
