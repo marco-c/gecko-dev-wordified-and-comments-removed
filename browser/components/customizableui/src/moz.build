@@ -112,4 +112,9 @@ CustomizeMode
 .
 jsm
 '
+'
+PanelWideWidgetTracker
+.
+jsm
+'
 ]
