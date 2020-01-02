@@ -1524,7 +1524,7 @@ alu_dbl
 (
 src1
 negImm
-dest
+negDest
 negOp
 sc
 c
