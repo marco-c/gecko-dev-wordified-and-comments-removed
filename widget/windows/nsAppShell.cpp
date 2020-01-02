@@ -1202,9 +1202,10 @@ Suspend
 GeckoProfilerSleepRAII
 profiler_sleep
 ;
+WinUtils
 :
 :
-WaitMessage
+WaitForMessage
 (
 )
 ;
