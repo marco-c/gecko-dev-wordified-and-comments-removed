@@ -260,6 +260,10 @@ ShutdownXPCOM
 )
 ;
 static
+bool
+sGeckoShuttingDown
+;
+static
 void
 SetBaseWidget
 (
