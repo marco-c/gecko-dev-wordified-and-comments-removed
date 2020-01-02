@@ -4847,9 +4847,11 @@ HasTransform
 this
 )
 )
+{
 return
 false
 ;
+}
 if
 (
 GetType
@@ -4862,9 +4864,11 @@ nsGkAtoms
 :
 scrollFrame
 )
+{
 return
 false
 ;
+}
 nsRect
 temp
 ;
