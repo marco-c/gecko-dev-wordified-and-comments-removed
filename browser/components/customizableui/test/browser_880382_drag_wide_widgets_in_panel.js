@@ -201,9 +201,6 @@ again
 )
 ;
 }
-teardown
-:
-endCustomizing
 }
 {
 desc
@@ -365,9 +362,6 @@ state
 )
 ;
 }
-teardown
-:
-endCustomizing
 }
 {
 desc
@@ -532,9 +526,6 @@ state
 )
 ;
 }
-teardown
-:
-endCustomizing
 }
 {
 desc
@@ -750,9 +741,6 @@ again
 )
 ;
 }
-teardown
-:
-endCustomizing
 }
 {
 desc
@@ -968,9 +956,6 @@ again
 )
 ;
 }
-teardown
-:
-endCustomizing
 }
 {
 desc
@@ -1314,9 +1299,6 @@ again
 )
 ;
 }
-teardown
-:
-endCustomizing
 }
 {
 desc
@@ -1480,9 +1462,6 @@ state
 )
 ;
 }
-teardown
-:
-endCustomizing
 }
 {
 desc
@@ -1675,9 +1654,6 @@ state
 )
 ;
 }
-teardown
-:
-endCustomizing
 }
 {
 desc
@@ -1874,9 +1850,6 @@ state
 )
 ;
 }
-teardown
-:
-endCustomizing
 }
 {
 desc
@@ -2079,9 +2052,6 @@ state
 )
 ;
 }
-teardown
-:
-endCustomizing
 }
 {
 desc
@@ -2265,9 +2235,6 @@ state
 )
 ;
 }
-teardown
-:
-endCustomizing
 }
 {
 desc
@@ -2551,9 +2518,6 @@ state
 )
 ;
 }
-teardown
-:
-endCustomizing
 }
 {
 desc
@@ -2776,9 +2740,6 @@ state
 ;
 }
 }
-teardown
-:
-endCustomizing
 }
 {
 desc
@@ -2926,9 +2887,6 @@ state
 )
 ;
 }
-teardown
-:
-endCustomizing
 }
 ]
 ;
@@ -2937,6 +2895,11 @@ asyncCleanup
 (
 )
 {
+yield
+endCustomizing
+(
+)
+;
 Services
 .
 prefs
