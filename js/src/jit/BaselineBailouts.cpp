@@ -5996,7 +5996,7 @@ ionScript
 )
 -
 >
-snapshotsSize
+snapshotsListSize
 (
 )
 )

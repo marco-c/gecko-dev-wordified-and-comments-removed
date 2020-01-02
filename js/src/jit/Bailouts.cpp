@@ -115,7 +115,6 @@ ionScript
 snapshots
 (
 )
-+
 iter
 .
 snapshotOffset
@@ -128,10 +127,9 @@ ionScript
 )
 -
 >
-snapshots
+snapshotsRVATableSize
 (
 )
-+
 iter
 .
 ionScript
@@ -139,7 +137,7 @@ ionScript
 )
 -
 >
-snapshotsSize
+snapshotsListSize
 (
 )
 )

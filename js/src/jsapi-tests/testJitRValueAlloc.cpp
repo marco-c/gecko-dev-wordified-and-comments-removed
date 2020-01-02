@@ -49,6 +49,12 @@ write
 writer
 )
 ;
+slot
+.
+hash
+(
+)
+;
 CompactBufferReader
 reader
 (
