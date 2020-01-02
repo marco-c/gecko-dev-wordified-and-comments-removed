@@ -179,6 +179,10 @@ const
 TimeDuration
 &
 aDelta
+float
+aFriction
+float
+aThreshold
 )
 ;
 bool
