@@ -1403,6 +1403,15 @@ JSRuntime
 )
 {
 }
+void
+disallowAlloc
+(
+JSRuntime
+*
+rt
+)
+{
+}
 #
 endif
 }
