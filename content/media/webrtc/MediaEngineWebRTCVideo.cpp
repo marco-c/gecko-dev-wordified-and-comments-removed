@@ -687,15 +687,6 @@ lock
 mMonitor
 )
 ;
-if
-(
-mState
-!
-=
-kStarted
-)
-return
-;
 nsRefPtr
 <
 layers
