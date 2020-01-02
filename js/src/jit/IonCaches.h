@@ -1756,6 +1756,8 @@ JSObject
 obj
 HandleShape
 oldShape
+bool
+checkTypeset
 )
 ;
 bool
@@ -3641,6 +3643,8 @@ obj
 Shape
 *
 oldShape
+bool
+checkTypeset
 )
 ;
 static
