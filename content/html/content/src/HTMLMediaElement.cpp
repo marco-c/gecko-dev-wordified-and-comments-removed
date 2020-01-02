@@ -11878,6 +11878,8 @@ NotifyOutput
 MediaStreamGraph
 *
 aGraph
+GraphTime
+aCurrentTime
 )
 MOZ_OVERRIDE
 {

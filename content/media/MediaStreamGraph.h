@@ -193,6 +193,8 @@ NotifyOutput
 MediaStreamGraph
 *
 aGraph
+GraphTime
+aCurrentTime
 )
 {
 }
