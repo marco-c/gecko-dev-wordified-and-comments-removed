@@ -66,10 +66,16 @@ cStringIO
 import
 StringIO
 from
-utils
+mozbuild
+.
+util
 import
-pushback_iter
-lockFile
+(
+    
+lock_file
+    
+PushbackIter
+)
 from
 Preprocessor
 import
@@ -1611,7 +1617,7 @@ file
     
 lock
 =
-lockFile
+lock_file
 (
 manifestPath
 +
@@ -1999,7 +2005,7 @@ infile
     
 lines
 =
-pushback_iter
+PushbackIter
 (
 pp
 .
@@ -2269,7 +2275,7 @@ output
 lines
 is
 a
-pushback_iterator
+PushbackIter
 of
 the
 lines
