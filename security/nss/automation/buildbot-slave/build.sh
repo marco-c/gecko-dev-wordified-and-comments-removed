@@ -1893,10 +1893,10 @@ OUTPUTDIR
 if
 [
 -
-n
+z
 "
 {
-NSS_ENABLE_ECC
+NSS_DISABLE_ECC
 }
 "
 -

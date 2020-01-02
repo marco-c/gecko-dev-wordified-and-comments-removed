@@ -599,8 +599,8 @@ prime
 }
 ;
 #
-ifdef
-NSS_ENABLE_ECC
+ifndef
+NSS_DISABLE_ECC
 const
 SEC_ASN1Template
 lg_nsslowkey_ECParamsTemplate
@@ -1377,8 +1377,8 @@ siUnsignedInteger
 ;
 }
 #
-ifdef
-NSS_ENABLE_ECC
+ifndef
+NSS_DISABLE_ECC
 void
 lg_prepare_low_ecparams_for_asn1
 (
@@ -2088,8 +2088,8 @@ pubk
 break
 ;
 #
-ifdef
-NSS_ENABLE_ECC
+ifndef
+NSS_DISABLE_ECC
 case
 NSSLOWKEYECKey
 :

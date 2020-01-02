@@ -541,9 +541,9 @@ sh
 if
 [
 -
-n
+z
 "
-NSS_ENABLE_ECC
+NSS_DISABLE_ECC
 "
 ]
 ;
@@ -1097,9 +1097,9 @@ algorithms
 if
 [
 -
-n
+z
 "
-NSS_ENABLE_ECC
+NSS_DISABLE_ECC
 "
 ]
 ;

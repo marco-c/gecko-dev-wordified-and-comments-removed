@@ -3327,8 +3327,8 @@ target
 =
 =
 SunOS
-ifdef
-NSS_ENABLE_ECC
+ifndef
+NSS_DISABLE_ECC
 ifdef
 ECL_USE_FP
 #
@@ -3365,8 +3365,6 @@ ecp_fp
 h
 endif
 endif
-#
-NSS_ENABLE_ECC
 #
 #
 #

@@ -5,8 +5,8 @@ __nss_h_
 define
 __nss_h_
 #
-ifdef
-NSS_ENABLE_ECC
+ifndef
+NSS_DISABLE_ECC
 #
 ifdef
 NSS_ECC_MORE_THAN_SUITE_B

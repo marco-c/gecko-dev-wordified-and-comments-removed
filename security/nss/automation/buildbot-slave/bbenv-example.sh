@@ -111,14 +111,6 @@ dev
 /
 null
 export
-NSS_ENABLE_ECC
-=
-1
-export
-NSS_ECC_MORE_THAN_SUITE_B
-=
-1
-export
 NSPR_LOG_MODULES
 =
 "

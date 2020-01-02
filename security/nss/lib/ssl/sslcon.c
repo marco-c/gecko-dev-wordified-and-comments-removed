@@ -15516,11 +15516,8 @@ rv
 ;
 }
 #
-if
-defined
-(
-NSS_ENABLE_ECC
-)
+ifndef
+NSS_DISABLE_ECC
 ssl3_DisableECCSuites
 (
 ss

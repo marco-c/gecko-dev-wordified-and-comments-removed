@@ -1,6 +1,6 @@
 #
-ifdef
-NSS_ENABLE_ECC
+ifndef
+NSS_DISABLE_ECC
 #
 include
 "

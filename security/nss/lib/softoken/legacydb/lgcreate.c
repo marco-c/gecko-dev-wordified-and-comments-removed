@@ -1690,8 +1690,8 @@ SECItem
 pubKey
 ;
 #
-ifdef
-NSS_ENABLE_ECC
+ifndef
+NSS_DISABLE_ECC
 SECItem
 pubKey2Space
 =
@@ -1730,8 +1730,8 @@ CKA_MODULUS
 break
 ;
 #
-ifdef
-NSS_ENABLE_ECC
+ifndef
+NSS_DISABLE_ECC
 case
 CKK_EC
 :
@@ -1784,8 +1784,8 @@ return
 crv
 ;
 #
-ifdef
-NSS_ENABLE_ECC
+ifndef
+NSS_DISABLE_ECC
 if
 (
 key_type
@@ -1979,8 +1979,8 @@ sdb
 )
 ;
 #
-ifdef
-NSS_ENABLE_ECC
+ifndef
+NSS_DISABLE_ECC
 if
 (
 priv
@@ -2058,8 +2058,8 @@ data
 )
 ;
 #
-ifdef
-NSS_ENABLE_ECC
+ifndef
+NSS_DISABLE_ECC
 if
 (
 arena
@@ -2749,8 +2749,8 @@ publicValue
 break
 ;
 #
-ifdef
-NSS_ENABLE_ECC
+ifndef
+NSS_DISABLE_ECC
 case
 CKK_EC
 :

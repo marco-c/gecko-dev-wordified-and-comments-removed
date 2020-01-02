@@ -5426,8 +5426,8 @@ dhPubKeyAttrs
 )
 ;
 #
-ifdef
-NSS_ENABLE_ECC
+ifndef
+NSS_DISABLE_ECC
 static
 const
 CK_ATTRIBUTE_TYPE
@@ -5596,8 +5596,8 @@ dhPrivKeyAttrs
 )
 ;
 #
-ifdef
-NSS_ENABLE_ECC
+ifndef
+NSS_DISABLE_ECC
 static
 const
 CK_ATTRIBUTE_TYPE
@@ -6058,8 +6058,8 @@ dhPrivKeyAttrsCount
 break
 ;
 #
-ifdef
-NSS_ENABLE_ECC
+ifndef
+NSS_DISABLE_ECC
 case
 CKK_EC
 :
@@ -6256,8 +6256,8 @@ dhPubKeyAttrsCount
 break
 ;
 #
-ifdef
-NSS_ENABLE_ECC
+ifndef
+NSS_DISABLE_ECC
 case
 CKK_EC
 :

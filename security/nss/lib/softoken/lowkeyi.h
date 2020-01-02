@@ -79,8 +79,8 @@ key
 )
 ;
 #
-ifdef
-NSS_ENABLE_ECC
+ifndef
+NSS_DISABLE_ECC
 extern
 void
 prepare_low_ec_priv_key_for_asn1

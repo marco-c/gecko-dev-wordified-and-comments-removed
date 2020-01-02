@@ -772,9 +772,9 @@ features
 -
 -
 #
-NSS_ENABLE_ECC
+NSS_DISABLE_ECC
 -
-enable
+disable
 ECC
 #
 NSS_ECC_MORE_THAN_SUITE_B

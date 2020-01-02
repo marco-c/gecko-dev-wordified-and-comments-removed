@@ -402,8 +402,8 @@ ssl_cert_status_xtn
 =
 5
 #
-ifdef
-NSS_ENABLE_ECC
+ifndef
+NSS_DISABLE_ECC
 ssl_elliptic_curves_xtn
 =
 10

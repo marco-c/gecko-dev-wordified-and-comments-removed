@@ -34,8 +34,8 @@ secerr
 h
 "
 #
-ifdef
-NSS_ENABLE_ECC
+ifndef
+NSS_DISABLE_ECC
 #
 include
 "
@@ -7057,8 +7057,8 @@ CKR_DEVICE_ERROR
 ;
 }
 #
-ifdef
-NSS_ENABLE_ECC
+ifndef
+NSS_DISABLE_ECC
 static
 CK_RV
 sftk_fips_ECDSA_Test
@@ -8919,8 +8919,8 @@ return
 rv
 ;
 #
-ifdef
-NSS_ENABLE_ECC
+ifndef
+NSS_DISABLE_ECC
 rv
 =
 sftk_fips_ECDSA_PowerUpSelfTest

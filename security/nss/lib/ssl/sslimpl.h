@@ -1162,8 +1162,8 @@ endif
 ssl3CipherSuiteCfg
 ;
 #
-ifdef
-NSS_ENABLE_ECC
+ifndef
+NSS_DISABLE_ECC
 #
 define
 ssl_V3_SUITES_IMPLEMENTED
@@ -2085,8 +2085,8 @@ SSL3KEAType
 exchKeyType
 ;
 #
-ifdef
-NSS_ENABLE_ECC
+ifndef
+NSS_DISABLE_ECC
 PRUint32
 negotiatedECCurves
 ;
@@ -2512,8 +2512,8 @@ data
 finishedMsgs
 ;
 #
-ifdef
-NSS_ENABLE_ECC
+ifndef
+NSS_DISABLE_ECC
 PRUint32
 negotiatedECCurves
 ;
@@ -5126,8 +5126,8 @@ ss
 )
 ;
 #
-ifdef
-NSS_ENABLE_ECC
+ifndef
+NSS_DISABLE_ECC
 extern
 void
 ssl3_FilterECCipherSuitesByServerCerts
@@ -5575,8 +5575,8 @@ ss
 )
 ;
 #
-ifdef
-NSS_ENABLE_ECC
+ifndef
+NSS_DISABLE_ECC
 extern
 SECStatus
 ssl3_SendECDHClientKeyExchange
@@ -6023,8 +6023,8 @@ kea
 )
 ;
 #
-ifdef
-NSS_ENABLE_ECC
+ifndef
+NSS_DISABLE_ECC
 extern
 PRInt32
 ssl3_SendSupportedCurvesXtn

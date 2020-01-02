@@ -1100,8 +1100,8 @@ CKF_DERIVE
 PR_TRUE
 }
 #
-ifdef
-NSS_ENABLE_ECC
+ifndef
+NSS_DISABLE_ECC
 {
 CKM_EC_KEY_PAIR_GEN
 {
@@ -4021,8 +4021,8 @@ CK_FALSE
 break
 ;
 #
-ifdef
-NSS_ENABLE_ECC
+ifndef
+NSS_DISABLE_ECC
 case
 CKK_EC
 :
@@ -4779,8 +4779,8 @@ CK_FALSE
 break
 ;
 #
-ifdef
-NSS_ENABLE_ECC
+ifndef
+NSS_DISABLE_ECC
 case
 CKK_EC
 :
@@ -7703,8 +7703,8 @@ CKA_VALUE
 break
 ;
 #
-ifdef
-NSS_ENABLE_ECC
+ifndef
+NSS_DISABLE_ECC
 case
 CKK_EC
 :
@@ -8551,8 +8551,8 @@ itemTemplateCount
 break
 ;
 #
-ifdef
-NSS_ENABLE_ECC
+ifndef
+NSS_DISABLE_ECC
 case
 CKK_EC
 :

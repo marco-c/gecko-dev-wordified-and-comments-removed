@@ -4588,8 +4588,8 @@ len
 break
 ;
 #
-ifdef
-NSS_ENABLE_ECC
+ifndef
+NSS_DISABLE_ECC
 case
 NSSLOWKEYECKey
 :
@@ -6230,8 +6230,8 @@ dummy
 NULL
 ;
 #
-ifdef
-NSS_ENABLE_ECC
+ifndef
+NSS_DISABLE_ECC
 SECItem
 *
 fordebug
@@ -6601,8 +6601,8 @@ loser
 break
 ;
 #
-ifdef
-NSS_ENABLE_ECC
+ifndef
+NSS_DISABLE_ECC
 case
 NSSLOWKEYECKey
 :
@@ -7211,8 +7211,8 @@ dest
 NULL
 ;
 #
-ifdef
-NSS_ENABLE_ECC
+ifndef
+NSS_DISABLE_ECC
 SECItem
 *
 fordebug
@@ -7795,8 +7795,8 @@ newPrivateKey
 break
 ;
 #
-ifdef
-NSS_ENABLE_ECC
+ifndef
+NSS_DISABLE_ECC
 case
 SEC_OID_ANSIX962_EC_PUBLIC_KEY
 :

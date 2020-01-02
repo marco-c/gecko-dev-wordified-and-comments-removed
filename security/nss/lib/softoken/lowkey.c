@@ -48,8 +48,8 @@ secerr
 h
 "
 #
-ifdef
-NSS_ENABLE_ECC
+ifndef
+NSS_DISABLE_ECC
 #
 include
 "
@@ -508,8 +508,8 @@ prime
 }
 ;
 #
-ifdef
-NSS_ENABLE_ECC
+ifndef
+NSS_DISABLE_ECC
 const
 SEC_ASN1Template
 nsslowkey_ECParamsTemplate
@@ -987,8 +987,8 @@ siUnsignedInteger
 ;
 }
 #
-ifdef
-NSS_ENABLE_ECC
+ifndef
+NSS_DISABLE_ECC
 void
 prepare_low_ecparams_for_asn1
 (
@@ -1848,8 +1848,8 @@ pubk
 break
 ;
 #
-ifdef
-NSS_ENABLE_ECC
+ifndef
+NSS_DISABLE_ECC
 case
 NSSLOWKEYECKey
 :
@@ -2845,8 +2845,8 @@ break
 break
 ;
 #
-ifdef
-NSS_ENABLE_ECC
+ifndef
+NSS_DISABLE_ECC
 case
 NSSLOWKEYECKey
 :

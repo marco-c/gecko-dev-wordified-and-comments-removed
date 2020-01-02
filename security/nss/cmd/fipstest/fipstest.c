@@ -121,8 +121,8 @@ h
 #
 endif
 #
-ifdef
-NSS_ENABLE_ECC
+ifndef
+NSS_DISABLE_ECC
 extern
 SECStatus
 EC_DecodeParams
@@ -9167,8 +9167,8 @@ ignore
 ;
 }
 #
-ifdef
-NSS_ENABLE_ECC
+ifndef
+NSS_DISABLE_ECC
 typedef
 struct
 curveNameTagPairStr
@@ -28311,8 +28311,8 @@ argv
 ;
 }
 #
-ifdef
-NSS_ENABLE_ECC
+ifndef
+NSS_DISABLE_ECC
 }
 else
 if

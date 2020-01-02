@@ -657,8 +657,8 @@ ca
 n
 "
 #
-ifdef
-NSS_ENABLE_ECC
+ifndef
+NSS_DISABLE_ECC
 "
 [
 -
@@ -10712,8 +10712,8 @@ nickName
 NULL
 ;
 #
-ifdef
-NSS_ENABLE_ECC
+ifndef
+NSS_DISABLE_ECC
 char
 *
 ecNickName
@@ -11435,8 +11435,8 @@ value
 break
 ;
 #
-ifdef
-NSS_ENABLE_ECC
+ifndef
+NSS_DISABLE_ECC
 case
 '
 e
@@ -12065,8 +12065,8 @@ nickName
 NULL
 )
 #
-ifdef
-NSS_ENABLE_ECC
+ifndef
+NSS_DISABLE_ECC
 &
 &
 (
@@ -13321,8 +13321,8 @@ pwdata
 ;
 }
 #
-ifdef
-NSS_ENABLE_ECC
+ifndef
+NSS_DISABLE_ECC
 if
 (
 ecNickName
@@ -13862,8 +13862,8 @@ certPrefix
 ;
 }
 #
-ifdef
-NSS_ENABLE_ECC
+ifndef
+NSS_DISABLE_ECC
 if
 (
 ecNickName

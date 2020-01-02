@@ -2743,8 +2743,8 @@ kt_dh
 break
 ;
 #
-ifdef
-NSS_ENABLE_ECC
+ifndef
+NSS_DISABLE_ECC
 case
 SEC_OID_ANSIX962_EC_PUBLIC_KEY
 :
