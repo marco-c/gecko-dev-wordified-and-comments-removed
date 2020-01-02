@@ -103,6 +103,14 @@ LIBRARY_NAME
 '
 gkmedias
 '
+if
+CONFIG
+[
+'
+MOZ_WEBRTC
+'
+]
+:
 DIRS
 +
 =
