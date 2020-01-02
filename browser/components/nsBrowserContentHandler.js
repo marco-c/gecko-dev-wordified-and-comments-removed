@@ -3153,7 +3153,7 @@ overridePage
 "
 ;
 var
-haveUpdateSession
+willRestoreSession
 =
 false
 ;
@@ -3267,11 +3267,11 @@ interfaces
 nsISessionStartup
 )
 ;
-haveUpdateSession
+willRestoreSession
 =
 ss
 .
-doRestore
+isAutomaticRestoreEnabled
 (
 )
 ;
@@ -3437,7 +3437,7 @@ startPage
 &
 &
 !
-haveUpdateSession
+willRestoreSession
 )
 return
 overridePage
