@@ -423,16 +423,6 @@ IPCMobileMessageCursor
 request
 )
 ;
-sync
-HasSupport
-(
-)
-returns
-(
-bool
-aHasSupport
-)
-;
 AddSilentNumber
 (
 nsString
