@@ -3112,7 +3112,7 @@ NodeListFront
 =
 exports
 .
-NodeLIstFront
+NodeListFront
 =
 protocol
 .
