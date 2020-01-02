@@ -2185,7 +2185,7 @@ XPCWrappedNativeScope
 *
 scope
 =
-GetObjectScope
+MaybeGetObjectScope
 (
 obj
 )

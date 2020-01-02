@@ -980,8 +980,7 @@ JSObject
 *
 getExpandoChain
 (
-JSObject
-*
+HandleObject
 obj
 )
 {
