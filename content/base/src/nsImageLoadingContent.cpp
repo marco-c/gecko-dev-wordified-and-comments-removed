@@ -1835,7 +1835,7 @@ presContext
 presContext
 -
 >
-PresShell
+GetPresShell
 (
 )
 :
