@@ -46660,11 +46660,10 @@ temp
 ;
 if
 (
-!
 r
 -
 >
-hasInt32UpperBound
+canBeNaN
 (
 )
 )
@@ -46739,11 +46738,10 @@ temp
 ;
 if
 (
-!
 r
 -
 >
-hasInt32LowerBound
+canBeNaN
 (
 )
 )
