@@ -15,6 +15,13 @@ h
 #
 include
 "
+nsICacheEntry
+.
+h
+"
+#
+include
+"
 mozilla
 /
 unused
@@ -210,7 +217,7 @@ false
 )
 mCacheExpirationTime
 (
-nsICache
+nsICacheEntry
 :
 :
 NO_EXPIRATION_TIME
