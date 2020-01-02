@@ -233,11 +233,12 @@ uintptr_t
 initialObj
 )
 ;
-cx
--
->
-minorGC
+js
+:
+:
+MinorGC
 (
+cx
 JS
 :
 :
