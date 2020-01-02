@@ -378,7 +378,6 @@ PageActions
 :
 Clicked
 "
-false
 )
 ;
 Services
@@ -393,7 +392,6 @@ PageActions
 :
 LongClicked
 "
-false
 )
 ;
 }
