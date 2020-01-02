@@ -31,15 +31,6 @@ jit
 static
 const
 uint32_t
-MAX_OFF_THREAD_SCRIPT_SIZE
-=
-100
-*
-1000
-;
-static
-const
-uint32_t
 MAX_MAIN_THREAD_SCRIPT_SIZE
 =
 2
