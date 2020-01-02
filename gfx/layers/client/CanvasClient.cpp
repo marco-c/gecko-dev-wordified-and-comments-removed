@@ -1001,14 +1001,6 @@ grallocTextureClient
 if
 (
 mBuffer
-&
-&
-CompositorChild
-:
-:
-ChildProcessHasCompositor
-(
-)
 )
 {
 RefPtr
