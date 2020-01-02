@@ -9365,6 +9365,11 @@ threadCount
 >
 =
 2
+&
+&
+CanUseExtraThreads
+(
+)
 ;
 #
 else

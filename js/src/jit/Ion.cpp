@@ -8898,6 +8898,11 @@ HelperThreadState
 cpuCount
 >
 1
+&
+&
+CanUseExtraThreads
+(
+)
 ;
 #
 else

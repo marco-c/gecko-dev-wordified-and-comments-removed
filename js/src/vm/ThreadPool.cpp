@@ -587,6 +587,13 @@ state_
 =
 ACTIVE
 ;
+MOZ_ASSERT
+(
+CanUseExtraThreads
+(
+)
+)
+;
 return
 PR_CreateThread
 (
@@ -709,6 +716,13 @@ MOZ_ASSERT
 (
 !
 isMainThread
+(
+)
+)
+;
+MOZ_ASSERT
+(
+CanUseExtraThreads
 (
 )
 )

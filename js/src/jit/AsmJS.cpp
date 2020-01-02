@@ -33906,6 +33906,12 @@ threadCount
 <
 =
 1
+|
+|
+!
+CanUseExtraThreads
+(
+)
 )
 return
 false
