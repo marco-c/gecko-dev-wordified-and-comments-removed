@@ -738,6 +738,11 @@ bool
 aShrinking
 )
 ;
+void
+CycleCollectAllWorkers
+(
+)
+;
 private
 :
 RuntimeService
