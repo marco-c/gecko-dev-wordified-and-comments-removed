@@ -35693,7 +35693,7 @@ pref
 "
 urlclassifier
 .
-download_block_table
+downloadBlockTable
 "
 "
 "
@@ -35704,7 +35704,7 @@ pref
 "
 urlclassifier
 .
-download_allow_table
+downloadAllowTable
 "
 "
 "

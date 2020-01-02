@@ -92,7 +92,7 @@ getCharPref
 "
 urlclassifier
 .
-download_block_table
+downloadBlockTable
 "
 )
 ;
@@ -108,7 +108,7 @@ getCharPref
 "
 urlclassifier
 .
-download_allow_table
+downloadAllowTable
 "
 )
 ;
