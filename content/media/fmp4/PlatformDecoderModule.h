@@ -180,7 +180,7 @@ already_AddRefed
 <
 MediaDataDecoder
 >
-CreateAACDecoder
+CreateAudioDecoder
 (
 const
 mp4_demuxer
@@ -198,6 +198,16 @@ aCallback
 )
 =
 0
+;
+virtual
+bool
+SupportsAudioMimeType
+(
+const
+char
+*
+aMimeType
+)
 ;
 virtual
 ~

@@ -29,7 +29,7 @@ int
 V
 >
 class
-FFmpegAACDecoder
+FFmpegAudioDecoder
 {
 }
 ;
@@ -37,7 +37,7 @@ template
 <
 >
 class
-FFmpegAACDecoder
+FFmpegAudioDecoder
 <
 LIBAV_VER
 >
@@ -50,7 +50,7 @@ LIBAV_VER
 {
 public
 :
-FFmpegAACDecoder
+FFmpegAudioDecoder
 (
 MediaTaskQueue
 *
@@ -69,7 +69,7 @@ aConfig
 ;
 virtual
 ~
-FFmpegAACDecoder
+FFmpegAudioDecoder
 (
 )
 ;
@@ -99,6 +99,16 @@ Drain
 (
 )
 MOZ_OVERRIDE
+;
+static
+AVCodecID
+GetCodecId
+(
+const
+char
+*
+aMimeType
+)
 ;
 private
 :
