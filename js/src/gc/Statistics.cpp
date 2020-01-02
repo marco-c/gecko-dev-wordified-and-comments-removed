@@ -1300,16 +1300,6 @@ Sweeping
 PHASE_SWEEP_MARK
 }
 {
-PHASE_SWEEP_MARK_DELAYED
-"
-Mark
-Delayed
-During
-Sweeping
-"
-PHASE_SWEEP_MARK
-}
-{
 PHASE_SWEEP_MARK_INCOMING_BLACK
 "
 Mark
