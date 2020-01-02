@@ -239,7 +239,7 @@ truncate
 ;
 private
 :
-void
+bool
 analyzeLoop
 (
 MBasicBlock
@@ -286,7 +286,7 @@ MBoundsCheck
 ins
 )
 ;
-void
+bool
 markBlocksInLoopBody
 (
 MBasicBlock
