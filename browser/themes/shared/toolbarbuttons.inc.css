@@ -739,6 +739,15 @@ rect
 )
 ;
 }
+%
+ifdef
+XP_MACOSX
+#
+restore
+-
+button
+%
+endif
 #
 fullscreen
 -
