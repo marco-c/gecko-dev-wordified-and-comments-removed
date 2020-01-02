@@ -280,6 +280,11 @@ EXPORTS
 =
 [
 '
+I420ColorConverterHelper
+.
+h
+'
+'
 MediaCodecDecoder
 .
 h

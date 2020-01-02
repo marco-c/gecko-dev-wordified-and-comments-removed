@@ -113,6 +113,11 @@ IMediaResourceManagerService
 h
 '
 '
+MediaResourceHandler
+.
+h
+'
+'
 MediaResourceManagerClient
 .
 h
