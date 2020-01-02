@@ -10,6 +10,15 @@ include
 "
 mozilla
 /
+MathAlgorithms
+.
+h
+"
+#
+include
+"
+mozilla
+/
 MemoryReporting
 .
 h
@@ -271,6 +280,12 @@ mozilla
 :
 :
 PodZero
+;
+using
+mozilla
+:
+:
+RotateLeft
 ;
 typedef
 Rooted
@@ -18260,7 +18275,7 @@ lineno
 ;
 hash
 =
-JS_ROTATE_LEFT32
+RotateLeft
 (
 hash
 4
@@ -18270,7 +18285,7 @@ column
 ;
 hash
 =
-JS_ROTATE_LEFT32
+RotateLeft
 (
 hash
 4
@@ -18280,7 +18295,7 @@ begin
 ;
 hash
 =
-JS_ROTATE_LEFT32
+RotateLeft
 (
 hash
 4
@@ -18300,7 +18315,7 @@ hashes
 1
 ]
 =
-JS_ROTATE_LEFT32
+RotateLeft
 (
 hashes
 [
@@ -18316,7 +18331,7 @@ hashes
 2
 ]
 =
-JS_ROTATE_LEFT32
+RotateLeft
 (
 hashes
 [

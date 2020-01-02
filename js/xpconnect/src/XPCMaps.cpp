@@ -3,6 +3,15 @@ include
 "
 mozilla
 /
+MathAlgorithms
+.
+h
+"
+#
+include
+"
+mozilla
+/
 MemoryReporting
 .
 h
@@ -23,6 +32,10 @@ HashTable
 .
 h
 "
+using
+namespace
+mozilla
+;
 static
 PLDHashNumber
 HashIIDPtrKey
@@ -2246,7 +2259,7 @@ s
 )
 h
 =
-JS_ROTATE_LEFT32
+RotateLeft
 (
 h
 4
