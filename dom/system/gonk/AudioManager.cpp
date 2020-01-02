@@ -569,9 +569,10 @@ NS_OK
 int32_t
 volIndex
 =
-JSVAL_TO_INT
-(
 aResult
+.
+toInt32
+(
 )
 ;
 if

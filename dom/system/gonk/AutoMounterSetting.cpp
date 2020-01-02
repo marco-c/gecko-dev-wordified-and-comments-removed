@@ -257,9 +257,10 @@ isInt32
 int32_t
 mode
 =
-JSVAL_TO_INT
-(
 aResult
+.
+toInt32
+(
 )
 ;
 SetAutoMounterMode

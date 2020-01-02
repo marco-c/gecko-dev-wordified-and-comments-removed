@@ -357,9 +357,10 @@ isInt32
 ;
 CHECK_EQUAL
 (
-JSVAL_TO_INT
-(
 result
+.
+toInt32
+(
 )
 100
 )

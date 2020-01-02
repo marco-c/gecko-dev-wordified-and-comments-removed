@@ -1713,9 +1713,10 @@ isInt32
 {
 INT32_TO_NPVARIANT
 (
-JSVAL_TO_INT
-(
 val
+.
+toInt32
+(
 )
 *
 variant
@@ -4145,9 +4146,10 @@ id
 =
 IntToNPIdentifier
 (
-JSVAL_TO_INT
-(
 v
+.
+toInt32
+(
 )
 )
 ;

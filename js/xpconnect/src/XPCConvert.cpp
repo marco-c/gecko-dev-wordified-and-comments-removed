@@ -5939,9 +5939,10 @@ rv
 (
 nsresult
 )
-JSVAL_TO_INT
-(
 s
+.
+toInt32
+(
 )
 ;
 if
@@ -5961,9 +5962,10 @@ number
 (
 double
 )
-JSVAL_TO_INT
-(
 s
+.
+toInt32
+(
 )
 ;
 }

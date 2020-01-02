@@ -274,9 +274,10 @@ d
 =
 double
 (
-JSVAL_TO_INT
-(
 v
+.
+toInt32
+(
 )
 )
 ;

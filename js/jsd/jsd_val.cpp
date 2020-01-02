@@ -700,9 +700,10 @@ return
 0
 ;
 return
-JSVAL_TO_INT
-(
 val
+.
+toInt32
+(
 )
 ;
 }
