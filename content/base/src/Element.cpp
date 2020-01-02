@@ -5272,7 +5272,7 @@ EnqueueLifecycleCallback
 nsIDocument
 :
 :
-eEnteredView
+eAttached
 this
 )
 ;
@@ -5938,7 +5938,7 @@ EnqueueLifecycleCallback
 nsIDocument
 :
 :
-eLeftView
+eDetached
 this
 )
 ;

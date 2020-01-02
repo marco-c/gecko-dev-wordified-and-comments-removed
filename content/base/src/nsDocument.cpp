@@ -1905,11 +1905,11 @@ case
 nsIDocument
 :
 :
-eEnteredView
+eAttached
 :
 static_cast
 <
-LifecycleEnteredViewCallback
+LifecycleAttachedCallback
 *
 >
 (
@@ -1933,11 +1933,11 @@ case
 nsIDocument
 :
 :
-eLeftView
+eDetached
 :
 static_cast
 <
-LifecycleLeftViewCallback
+LifecycleDetachedCallback
 *
 >
 (
@@ -7714,7 +7714,7 @@ if
 callbacks
 -
 >
-mEnteredViewCallback
+mAttachedCallback
 .
 WasPassed
 (
@@ -7732,7 +7732,7 @@ mCustomDefinitions
 mCallbacks
 -
 >
-mEnteredViewCallback
+mAttachedCallback
 "
 )
 ;
@@ -7747,7 +7747,7 @@ aDefinition
 mCallbacks
 -
 >
-mEnteredViewCallback
+mAttachedCallback
 .
 Value
 (
@@ -7760,7 +7760,7 @@ if
 callbacks
 -
 >
-mLeftViewCallback
+mDetachedCallback
 .
 WasPassed
 (
@@ -7778,7 +7778,7 @@ mCustomDefinitions
 mCallbacks
 -
 >
-mLeftViewCallback
+mDetachedCallback
 "
 )
 ;
@@ -7793,7 +7793,7 @@ aDefinition
 mCallbacks
 -
 >
-mLeftViewCallback
+mDetachedCallback
 .
 Value
 (
@@ -24519,7 +24519,7 @@ case
 nsIDocument
 :
 :
-eEnteredView
+eAttached
 :
 if
 (
@@ -24529,7 +24529,7 @@ definition
 mCallbacks
 -
 >
-mEnteredViewCallback
+mAttachedCallback
 .
 WasPassed
 (
@@ -24544,7 +24544,7 @@ definition
 mCallbacks
 -
 >
-mEnteredViewCallback
+mAttachedCallback
 .
 Value
 (
@@ -24557,7 +24557,7 @@ case
 nsIDocument
 :
 :
-eLeftView
+eDetached
 :
 if
 (
@@ -24567,7 +24567,7 @@ definition
 mCallbacks
 -
 >
-mLeftViewCallback
+mDetachedCallback
 .
 WasPassed
 (
@@ -24582,7 +24582,7 @@ definition
 mCallbacks
 -
 >
-mLeftViewCallback
+mDetachedCallback
 .
 Value
 (
@@ -26061,7 +26061,7 @@ EnqueueLifecycleCallback
 nsIDocument
 :
 :
-eEnteredView
+eAttached
 elem
 nullptr
 definition

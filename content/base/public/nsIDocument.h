@@ -4491,8 +4491,8 @@ enum
 ElementCallbackType
 {
 eCreated
-eEnteredView
-eLeftView
+eAttached
+eDetached
 eAttributeChanged
 }
 ;
