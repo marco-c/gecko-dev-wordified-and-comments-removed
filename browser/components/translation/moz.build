@@ -64,6 +64,11 @@ EXTRA_JS_MODULES
 =
 [
 '
+BingTranslator
+.
+jsm
+'
+'
 cld2
 /
 cld
