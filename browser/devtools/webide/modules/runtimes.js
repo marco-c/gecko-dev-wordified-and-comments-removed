@@ -437,9 +437,6 @@ let
 gLocalRuntime
 =
 {
-supportApps
-:
-false
 connect
 :
 function
