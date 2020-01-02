@@ -144,6 +144,17 @@ FxAccountMiddle
 "
 >
 <
+LinearLayout
+style
+=
+"
+style
+/
+FxAccountSpacer
+"
+/
+>
+<
 TextView
 style
 =
