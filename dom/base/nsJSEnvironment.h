@@ -453,6 +453,8 @@ static
 void
 ScheduledCycleCollectNow
 (
+int64_t
+aSliceTime
 )
 ;
 static
