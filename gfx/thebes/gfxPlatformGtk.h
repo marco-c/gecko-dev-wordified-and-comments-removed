@@ -364,7 +364,7 @@ static
 void
 SetGdkDrawable
 (
-gfxASurface
+cairo_surface_t
 *
 target
 GdkDrawable
@@ -377,7 +377,7 @@ GdkDrawable
 *
 GetGdkDrawable
 (
-gfxASurface
+cairo_surface_t
 *
 target
 )

@@ -70,7 +70,7 @@ virtual
 nsresult
 DrawWithXlib
 (
-gfxXlibSurface
+cairo_surface_t
 *
 surface
 nsIntPoint
