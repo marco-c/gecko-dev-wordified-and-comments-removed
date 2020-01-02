@@ -20526,15 +20526,6 @@ constraints
 )
 )
 ;
-script
-(
-)
--
->
-setHasBeenInlined
-(
-)
-;
 return
 InliningDecision_Inline
 ;
