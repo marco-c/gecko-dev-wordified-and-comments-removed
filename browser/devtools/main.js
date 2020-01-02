@@ -2330,9 +2330,9 @@ key
 l10n
 (
 "
-profiler2
+profiler
 .
-commandkey
+commandkey2
 "
 profilerStrings
 )
