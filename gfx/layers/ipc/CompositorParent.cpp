@@ -1323,6 +1323,13 @@ target
 GetDrawTargetForDescriptor
 (
 aInSnapshot
+gfx
+:
+:
+BackendType
+:
+:
+CAIRO
 )
 ;
 ForceComposeToTarget
