@@ -241,6 +241,15 @@ MOZ_DATA_REPORTING
 1
 #
 Enable
+runtime
+locale
+switching
+.
+MOZ_LOCALE_SWITCHER
+=
+1
+#
+Enable
 the
 "
 synthetic

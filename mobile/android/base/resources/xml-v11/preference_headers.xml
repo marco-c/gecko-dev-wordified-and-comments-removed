@@ -325,6 +325,16 @@ string
 /
 pref_header_language
 "
+android
+:
+id
+=
+"
++
+id
+/
+pref_header_language
+"
 >
 <
 extra
