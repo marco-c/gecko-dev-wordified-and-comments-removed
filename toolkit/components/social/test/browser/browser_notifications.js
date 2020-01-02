@@ -141,7 +141,7 @@ cb
 {
 SocialService
 .
-removeProvider
+disableProvider
 (
 TEST_PROVIDER_ORIGIN
 function

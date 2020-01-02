@@ -359,7 +359,7 @@ enabled
 yield
 SocialService
 .
-removeProvider
+disableProvider
 (
 manifests
 [
@@ -373,7 +373,7 @@ next
 yield
 SocialService
 .
-removeProvider
+disableProvider
 (
 manifests
 [
@@ -776,7 +776,7 @@ newProvider
 yield
 SocialService
 .
-removeProvider
+disableProvider
 (
 newProvider
 .

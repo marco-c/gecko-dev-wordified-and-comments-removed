@@ -100,7 +100,7 @@ function
 {
 SocialService
 .
-removeProvider
+disableProvider
 (
 provider
 .

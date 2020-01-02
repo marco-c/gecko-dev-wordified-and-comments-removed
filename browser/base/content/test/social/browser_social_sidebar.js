@@ -493,7 +493,7 @@ true
 ;
 SocialService
 .
-removeProvider
+disableProvider
 (
 SocialSidebar
 .

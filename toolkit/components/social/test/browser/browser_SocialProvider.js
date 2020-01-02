@@ -85,7 +85,7 @@ function
 {
 SocialService
 .
-removeProvider
+disableProvider
 (
 p
 .
@@ -616,7 +616,7 @@ initialized
 ;
 SocialService
 .
-removeProvider
+disableProvider
 (
 provider2
 .

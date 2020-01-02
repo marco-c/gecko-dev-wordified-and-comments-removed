@@ -993,7 +993,7 @@ callback
 {
 SocialService
 .
-addBuiltinProvider
+enableProvider
 (
 origin
 callback

@@ -844,7 +844,7 @@ visible
 ;
 SocialService
 .
-removeProvider
+disableProvider
 (
 manifest
 .
@@ -1143,7 +1143,7 @@ else
 {
 SocialService
 .
-removeProvider
+disableProvider
 (
 manifest
 .
@@ -1647,7 +1647,7 @@ testTab
 ;
 SocialService
 .
-removeProvider
+disableProvider
 (
 manifest
 .

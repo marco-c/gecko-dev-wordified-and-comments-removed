@@ -737,7 +737,7 @@ w1
 ;
 SocialService
 .
-removeProvider
+disableProvider
 (
 manifest
 .
@@ -748,7 +748,7 @@ function
 {
 SocialService
 .
-removeProvider
+disableProvider
 (
 manifest2
 .
@@ -1279,7 +1279,7 @@ closed
 ;
 SocialService
 .
-removeProvider
+disableProvider
 (
 manifest
 .
@@ -1346,7 +1346,7 @@ finishCheck
 {
 SocialService
 .
-removeProvider
+disableProvider
 (
 manifest
 .
@@ -1357,7 +1357,7 @@ function
 {
 SocialService
 .
-removeProvider
+disableProvider
 (
 manifest2
 .

@@ -542,7 +542,7 @@ try
 {
 SocialService
 .
-removeProvider
+disableProvider
 (
 provider
 .
@@ -582,7 +582,7 @@ false
 "
 SocialService
 .
-removeProvider
+disableProvider
 threw
 exception
 :
@@ -710,7 +710,7 @@ provider
 {
 SocialService
 .
-removeProvider
+disableProvider
 (
 provider
 .
