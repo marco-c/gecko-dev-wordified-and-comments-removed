@@ -141,6 +141,20 @@ LOOP_SERVER_PORT
 )
                         
 "
+SERVER_ADDRESS
+"
+:
+"
+localhost
+:
+"
++
+str
+(
+LOOP_SERVER_PORT
+)
+                        
+"
 WEB_APP_URL
 "
 :
