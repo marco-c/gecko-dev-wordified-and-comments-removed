@@ -3663,6 +3663,15 @@ NS_IsMainThread
 {
 nsCOMPtr
 <
+nsIDOMGetUserMediaSuccessCallback
+>
+success
+(
+mSuccess
+)
+;
+nsCOMPtr
+<
 nsIDOMGetUserMediaErrorCallback
 >
 error
