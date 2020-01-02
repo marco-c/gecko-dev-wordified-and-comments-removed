@@ -4021,6 +4021,11 @@ NATIVE_SURFACE_CAIRO_SURFACE
 )
 )
 ;
+if
+(
+csurf
+)
+{
 return
 gfxASurface
 :
@@ -4030,6 +4035,7 @@ Wrap
 csurf
 )
 ;
+}
 }
 RefPtr
 <
