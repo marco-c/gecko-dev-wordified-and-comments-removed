@@ -834,7 +834,7 @@ findZoneEdges
 JS
 :
 :
-AutoAssertNoGC
+AutoSuppressGCAnalysis
 nogc
 ;
 Zone

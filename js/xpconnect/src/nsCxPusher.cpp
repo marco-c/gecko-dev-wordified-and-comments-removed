@@ -707,7 +707,7 @@ MOZ_GUARD_OBJECT_NOTIFIER_PARAM_IN_IMPL
 JS
 :
 :
-AutoAssertNoGC
+AutoSuppressGCAnalysis
 nogc
 ;
 MOZ_ASSERT

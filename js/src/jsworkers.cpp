@@ -5059,7 +5059,7 @@ threadLoop
 JS
 :
 :
-AutoAssertNoGC
+AutoSuppressGCAnalysis
 nogc
 ;
 AutoLockWorkerThreadState

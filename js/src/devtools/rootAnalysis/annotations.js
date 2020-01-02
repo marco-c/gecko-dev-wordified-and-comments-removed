@@ -1327,7 +1327,7 @@ indexOf
 "
 :
 :
-AutoAssertNoGC
+AutoSuppressGCAnalysis
 "
 )
 !
