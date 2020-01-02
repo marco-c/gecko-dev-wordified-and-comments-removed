@@ -392,7 +392,7 @@ countAll
 (
 fragment
 )
-1
+2
 )
 ;
 is
@@ -519,7 +519,7 @@ countAll
 (
 fragment
 )
-1
+2
 )
 ;
 is
@@ -660,7 +660,7 @@ countAll
 (
 fragment
 )
-2
+3
 )
 ;
 }
@@ -741,7 +741,7 @@ countAll
 (
 fragment
 )
-2
+3
 )
 ;
 }
@@ -1035,7 +1035,7 @@ countAll
 (
 fragment
 )
-5
+10
 )
 ;
 let
@@ -1189,7 +1189,7 @@ countAll
 (
 fragment
 )
-2
+4
 )
 ;
 let
@@ -1284,7 +1284,7 @@ countAll
 (
 fragment
 )
-2
+3
 )
 ;
 is
@@ -1527,7 +1527,7 @@ countAll
 (
 fragment
 )
-2
+3
 )
 ;
 is
