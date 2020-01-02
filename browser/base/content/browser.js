@@ -21682,9 +21682,9 @@ return
 let
 toolbarItem
 =
-aEvent
+popup
 .
-explicitOriginalTarget
+triggerNode
 ;
 if
 (
