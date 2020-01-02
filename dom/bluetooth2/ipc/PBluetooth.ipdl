@@ -190,6 +190,16 @@ GetAdaptersRequest
 }
 ;
 struct
+StartBluetoothRequest
+{
+}
+;
+struct
+StopBluetoothRequest
+{
+}
+;
+struct
 SetPropertyRequest
 {
 BluetoothObjectType
@@ -427,6 +437,10 @@ union
 Request
 {
 GetAdaptersRequest
+;
+StartBluetoothRequest
+;
+StopBluetoothRequest
 ;
 SetPropertyRequest
 ;
