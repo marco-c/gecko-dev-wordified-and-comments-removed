@@ -4415,6 +4415,7 @@ this
 .
 _dragWidthMap
 )
+{
 this
 .
 _dragWidthMap
@@ -4422,6 +4423,8 @@ _dragWidthMap
 clear
 (
 )
+;
+}
 if
 (
 !

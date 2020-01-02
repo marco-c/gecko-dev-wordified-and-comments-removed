@@ -1351,6 +1351,17 @@ of
 newIds
 )
 {
+oldIds
+=
+CustomizableUI
+.
+getWidgetIdsInArea
+(
+this
+.
+id
+)
+;
 let
 nextId
 =
