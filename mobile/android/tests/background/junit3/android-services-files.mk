@@ -296,6 +296,14 @@ src
 /
 healthreport
 /
+TestEnvironmentV1HashAppender
+.
+java
+\
+src
+/
+healthreport
+/
 TestHealthReportBroadcastService
 .
 java
