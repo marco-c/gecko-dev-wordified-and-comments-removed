@@ -316,6 +316,9 @@ interface
 ApplicationCache
 ;
 interface
+IID
+;
+interface
 MozFrameRequestCallback
 ;
 interface
@@ -2766,6 +2769,17 @@ attribute
 object
 ?
 __content
+;
+[
+Throws
+ChromeOnly
+]
+any
+getInterface
+(
+IID
+iid
+)
 ;
 }
 ;
