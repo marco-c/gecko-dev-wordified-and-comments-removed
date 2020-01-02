@@ -22227,8 +22227,14 @@ return
 false
 ;
 }
+RootedDictionary
+<
 MessageEventInit
+>
 init
+(
+aCx
+)
 ;
 init
 .
