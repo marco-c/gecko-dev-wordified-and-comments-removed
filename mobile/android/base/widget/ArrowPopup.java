@@ -225,7 +225,7 @@ R
 .
 dimen
 .
-menu_popup_offset
+menu_popup_arrow_offset
 )
 ;
 setAnimationStyle
