@@ -29,13 +29,6 @@ h
 #
 include
 "
-gfxPoint
-.
-h
-"
-#
-include
-"
 mozilla
 /
 Attributes
@@ -962,7 +955,10 @@ aSurface
 )
 ;
 static
-gfxIntSize
+gfx
+:
+:
+IntSize
 GetDescriptorSurfaceSize
 (
 const
@@ -987,7 +983,10 @@ SurfaceDescriptor
 aDescriptor
 OpenMode
 aMode
-gfxIntSize
+gfx
+:
+:
+IntSize
 *
 aSize
 gfxASurface

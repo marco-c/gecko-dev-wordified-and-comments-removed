@@ -180,7 +180,10 @@ PGrallocBufferParent
 Create
 (
 const
-gfxIntSize
+gfx
+:
+:
+IntSize
 &
 aSize
 const

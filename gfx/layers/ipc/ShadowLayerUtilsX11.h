@@ -34,13 +34,6 @@ h
 #
 include
 "
-gfxPoint
-.
-h
-"
-#
-include
-"
 nsCOMPtr
 .
 h
@@ -89,7 +82,10 @@ aDrawable
 XID
 aFormatID
 const
-gfxIntSize
+gfx
+:
+:
+IntSize
 &
 aSize
 )
@@ -130,7 +126,10 @@ mId
 XID
 mFormat
 ;
-gfxIntSize
+gfx
+:
+:
+IntSize
 mSize
 ;
 }
