@@ -1022,6 +1022,7 @@ aOpacity
 aTransform
 )
 ;
+}
 mCompositor
 -
 >
@@ -1030,12 +1031,11 @@ DrawDiagnostics
 DIAGNOSTIC_CONTENT
 |
 DIAGNOSTIC_TILE
-graphicsRect
+aScreenRegion
 aClipRect
 aTransform
 )
 ;
-}
 aTile
 .
 mDeprecatedTextureHost
