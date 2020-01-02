@@ -3977,7 +3977,7 @@ value
 INT32_MIN
 )
 {
-mov
+movq
 (
 Imm32
 (
