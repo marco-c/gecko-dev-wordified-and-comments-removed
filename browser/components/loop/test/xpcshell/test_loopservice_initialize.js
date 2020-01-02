@@ -183,7 +183,7 @@ run_test
 {
 MozLoopService
 .
-_startInitializeTimer
+initializeTimerFunc
 =
 function
 (
