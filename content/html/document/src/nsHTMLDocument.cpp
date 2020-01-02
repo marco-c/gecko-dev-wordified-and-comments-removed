@@ -12927,7 +12927,7 @@ usecss
 {
 convertedCommandID
 .
-Assign
+AssignLiteral
 (
 "
 styleWithCSS
@@ -12954,7 +12954,7 @@ readonly
 {
 convertedCommandID
 .
-Assign
+AssignLiteral
 (
 "
 contentReadOnly

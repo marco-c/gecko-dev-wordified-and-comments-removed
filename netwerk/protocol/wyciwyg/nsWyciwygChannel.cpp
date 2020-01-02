@@ -1181,7 +1181,7 @@ aContentCharset
 {
 aContentCharset
 .
-Assign
+AssignLiteral
 (
 "
 UTF

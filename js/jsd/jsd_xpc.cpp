@@ -8443,7 +8443,7 @@ str
 ;
 _rval
 .
-Assign
+AssignLiteral
 (
 "
 anonymous

@@ -1699,7 +1699,7 @@ _retval
 {
 _retval
 .
-Assign
+AssignLiteral
 (
 "
 form

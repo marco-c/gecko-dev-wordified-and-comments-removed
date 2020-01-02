@@ -15982,7 +15982,7 @@ _retval
 {
 _retval
 .
-Assign
+AssignLiteral
 (
 "
 "

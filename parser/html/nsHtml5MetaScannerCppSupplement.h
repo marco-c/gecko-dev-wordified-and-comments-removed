@@ -136,7 +136,7 @@ UTF
 {
 mCharset
 .
-Assign
+AssignLiteral
 (
 "
 UTF
@@ -167,7 +167,7 @@ defined
 {
 mCharset
 .
-Assign
+AssignLiteral
 (
 "
 windows

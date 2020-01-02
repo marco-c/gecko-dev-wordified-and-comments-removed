@@ -1941,7 +1941,7 @@ BACKGROUND_TILE
 )
 options
 .
-Assign
+AssignLiteral
 (
 "
 wallpaper
@@ -1958,7 +1958,7 @@ BACKGROUND_STRETCH
 )
 options
 .
-Assign
+AssignLiteral
 (
 "
 stretched
@@ -1975,7 +1975,7 @@ BACKGROUND_FILL
 )
 options
 .
-Assign
+AssignLiteral
 (
 "
 zoom
@@ -1992,7 +1992,7 @@ BACKGROUND_FIT
 )
 options
 .
-Assign
+AssignLiteral
 (
 "
 scaled
@@ -2002,7 +2002,7 @@ scaled
 else
 options
 .
-Assign
+AssignLiteral
 (
 "
 centered
@@ -2778,7 +2778,7 @@ APPLICATION_MAIL
 )
 scheme
 .
-Assign
+AssignLiteral
 (
 "
 mailto
@@ -2795,7 +2795,7 @@ APPLICATION_NEWS
 )
 scheme
 .
-Assign
+AssignLiteral
 (
 "
 news

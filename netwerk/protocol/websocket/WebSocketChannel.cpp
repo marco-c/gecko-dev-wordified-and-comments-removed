@@ -6970,7 +6970,7 @@ nsCString
 buf
 -
 >
-Assign
+AssignLiteral
 (
 "
 PING

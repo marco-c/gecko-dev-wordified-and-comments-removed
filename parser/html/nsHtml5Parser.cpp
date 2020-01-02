@@ -284,7 +284,7 @@ aCommand
 {
 aCommand
 .
-Assign
+AssignLiteral
 (
 "
 view

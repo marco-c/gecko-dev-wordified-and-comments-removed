@@ -5994,7 +5994,7 @@ aBytes
 {
 oCharset
 .
-Assign
+AssignLiteral
 (
 "
 UTF
@@ -6022,7 +6022,7 @@ aBytes
 {
 oCharset
 .
-Assign
+AssignLiteral
 (
 "
 UTF
@@ -6050,7 +6050,7 @@ aBytes
 {
 oCharset
 .
-Assign
+AssignLiteral
 (
 "
 UTF

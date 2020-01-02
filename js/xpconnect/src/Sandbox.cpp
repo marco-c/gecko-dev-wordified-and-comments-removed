@@ -2355,7 +2355,7 @@ lineNo
 {
 filename
 .
-Assign
+AssignLiteral
 (
 "
 Unknown

@@ -374,7 +374,7 @@ aMilestone
 aMilestone
 -
 >
-Assign
+AssignLiteral
 (
 "
 <
@@ -390,7 +390,7 @@ aVersion
 aVersion
 -
 >
-Assign
+AssignLiteral
 (
 "
 <
