@@ -930,15 +930,7 @@ StartNewRepaintRequest
 SequenceNumber
 aSequenceNumber
 )
-{
-mApzTestData
-.
-StartNewRepaintRequest
-(
-aSequenceNumber
-)
 ;
-}
 void
 LogTestDataForRepaintRequest
 (
