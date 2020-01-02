@@ -201,6 +201,10 @@ currentLoop
 ioLoop
 )
 {
+Join
+(
+)
+;
 delete
 this
 ;

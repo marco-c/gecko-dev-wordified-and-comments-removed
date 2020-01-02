@@ -63,12 +63,6 @@ defined
 (
 XP_WIN
 )
-&
-&
-defined
-(
-MOZ_CONTENT_SANDBOX
-)
 #
 include
 "
@@ -317,12 +311,6 @@ defined
 (
 XP_WIN
 )
-&
-&
-defined
-(
-MOZ_CONTENT_SANDBOX
-)
 static
 bool
 gIsSandboxEnabled
@@ -423,12 +411,6 @@ if
 defined
 (
 XP_WIN
-)
-&
-&
-defined
-(
-MOZ_CONTENT_SANDBOX
 )
 gIsSandboxEnabled
 |
@@ -553,9 +535,6 @@ L
 )
 ;
 }
-#
-ifdef
-MOZ_CONTENT_SANDBOX
 if
 (
 gIsSandboxEnabled
@@ -633,8 +612,6 @@ StartSandboxCallback
 )
 ;
 }
-#
-endif
 #
 endif
 nsresult

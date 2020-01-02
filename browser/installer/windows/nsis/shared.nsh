@@ -13265,17 +13265,12 @@ mozsqlite3
 .
 dll
 "
-!
-ifdef
-MOZ_CONTENT_SANDBOX
 Push
 "
 sandboxbroker
 .
 dll
 "
-!
-endif
 Push
 "
 xpcom

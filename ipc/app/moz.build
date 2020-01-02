@@ -181,13 +181,6 @@ if
 CONFIG
 [
 '
-MOZ_CONTENT_SANDBOX
-'
-]
-and
-CONFIG
-[
-'
 OS_ARCH
 '
 ]

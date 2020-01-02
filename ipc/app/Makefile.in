@@ -199,8 +199,6 @@ WINNT
 )
 #
 {
-ifdef
-MOZ_CONTENT_SANDBOX
 LIBS
 +
 =
@@ -228,7 +226,6 @@ LIBS
 (
 NSPR_LIBS
 )
-endif
 #
 Note
 the

@@ -506,14 +506,6 @@ MOZ_METRO
 #
 endif
 #
-ifdef
-MOZ_CONTENT_SANDBOX
-!
-define
-MOZ_CONTENT_SANDBOX
-#
-endif
-#
 File
 details
 shared
