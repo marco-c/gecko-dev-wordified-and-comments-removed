@@ -2367,7 +2367,15 @@ nsISO2022KRToUnicode
 )
 NS_GENERIC_FACTORY_CONSTRUCTOR
 (
+nsGB2312ToUnicodeV2
+)
+NS_GENERIC_FACTORY_CONSTRUCTOR
+(
 nsUnicodeToGB2312V2
+)
+NS_GENERIC_FACTORY_CONSTRUCTOR
+(
+nsGBKToUnicode
 )
 NS_GENERIC_FACTORY_CONSTRUCTOR
 (
@@ -4927,7 +4935,7 @@ nsISO2022KRToUnicodeConstructor
 kNS_GB2312TOUNICODE_CID
 false
 nullptr
-nsGB18030ToUnicodeConstructor
+nsGB2312ToUnicodeV2Constructor
 }
 {
 &
@@ -4941,7 +4949,7 @@ nsUnicodeToGB2312V2Constructor
 kNS_GBKTOUNICODE_CID
 false
 nullptr
-nsGB18030ToUnicodeConstructor
+nsGBKToUnicodeConstructor
 }
 {
 &
