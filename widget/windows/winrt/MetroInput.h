@@ -744,7 +744,7 @@ UnregisterInputEvents
 )
 ;
 bool
-mChromeHitTestCacheForTouch
+mNonApzTargetForTouch
 ;
 bool
 HitTestChrome

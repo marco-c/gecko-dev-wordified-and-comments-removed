@@ -1053,7 +1053,7 @@ mWidget
 (
 aWidget
 )
-mChromeHitTestCacheForTouch
+mNonApzTargetForTouch
 (
 false
 )
@@ -5963,12 +5963,13 @@ y
 )
 )
 ;
-mChromeHitTestCacheForTouch
+mNonApzTargetForTouch
 =
 (
+!
 apzIntersect
-&
-&
+|
+|
 HitTestChrome
 (
 pt
@@ -5978,7 +5979,7 @@ pt
 }
 if
 (
-mChromeHitTestCacheForTouch
+mNonApzTargetForTouch
 )
 {
 DUMP_TOUCH_IDS
