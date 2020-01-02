@@ -172,16 +172,6 @@ nsIAsyncInputStream
 responseBody
 )
 ;
-nsHttpConnectionInfo
-*
-ConnectionInfo
-(
-)
-{
-return
-mConnInfo
-;
-}
 nsHttpResponseHead
 *
 ResponseHead
