@@ -1037,9 +1037,6 @@ TransactionIdAllocator
 >
 mTransactionIdAllocator
 ;
-uint64_t
-mLatestTransactionId
-;
 ScreenRotation
 mTargetRotation
 ;
