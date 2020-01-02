@@ -603,7 +603,7 @@ nsITransport
 idl
 '
 '
-nsIUDPServerSocket
+nsIUDPSocket
 .
 idl
 '

@@ -382,7 +382,7 @@ nsTransportUtils
 cpp
 '
 '
-nsUDPServerSocket
+nsUDPSocket
 .
 cpp
 '

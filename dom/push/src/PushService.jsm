@@ -6701,8 +6701,6 @@ org
 /
 network
 /
-server
--
 socket
 -
 udp
