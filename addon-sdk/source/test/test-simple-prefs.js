@@ -425,6 +425,7 @@ testSpecialChars
 function
 (
 assert
+done
 )
 {
 let
@@ -528,8 +529,6 @@ count
 =
 len
 )
-test
-.
 done
 (
 )

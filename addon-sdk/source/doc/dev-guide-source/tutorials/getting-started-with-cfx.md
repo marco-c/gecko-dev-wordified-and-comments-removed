@@ -843,7 +843,7 @@ an
 icon
 with
 the
-Firefox
+Mozilla
 logo
 .
 Click
