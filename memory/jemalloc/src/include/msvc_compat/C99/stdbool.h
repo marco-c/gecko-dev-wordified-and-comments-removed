@@ -11,10 +11,15 @@ wtypes
 .
 h
 >
+#
+ifndef
+__clang__
 typedef
 BOOL
 _Bool
 ;
+#
+endif
 #
 define
 bool
