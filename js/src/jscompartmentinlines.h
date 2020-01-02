@@ -77,15 +77,6 @@ const
 JS_ASSERT_IF
 (
 global_
-&
-&
-!
-runtime_
--
->
-heapProtected
-(
-)
 global_
 -
 >

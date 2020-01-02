@@ -285,12 +285,6 @@ raw
 )
 const
 {
-AutoUnprotectCell
-unprotect
-(
-this
-)
-;
 return
 code_
 ;

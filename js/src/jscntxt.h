@@ -201,9 +201,7 @@ key
 script
 -
 >
-getCode
-(
-)
+code
 +
 key
 .

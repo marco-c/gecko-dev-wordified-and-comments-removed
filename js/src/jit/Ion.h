@@ -99,9 +99,6 @@ bool
 checkRangeAnalysis
 ;
 bool
-checkThreadSafety
-;
-bool
 assertGraphConsistency
 ;
 bool

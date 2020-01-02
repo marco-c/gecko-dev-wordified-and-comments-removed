@@ -977,9 +977,7 @@ js
 :
 ToBooleanSlow
 (
-const
-Value
-&
+HandleValue
 v
 )
 {
