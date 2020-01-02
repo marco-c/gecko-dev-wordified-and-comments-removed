@@ -5303,6 +5303,12 @@ JS
 LargeAllocationFailureCallback
 largeAllocationFailureCallback
 ;
+JS
+:
+:
+OutOfMemoryCallback
+oomCallback
+;
 static
 const
 unsigned
