@@ -5784,6 +5784,11 @@ mPanDisplacement
 y
 )
 ;
+if
+(
+mPanGestureState
+)
+{
 CallDispatchScroll
 (
 aEvent
@@ -5806,6 +5811,7 @@ GetOverscrollHandoffChain
 0
 )
 ;
+}
 return
 nsEventStatus_eConsumeNoDefault
 ;
