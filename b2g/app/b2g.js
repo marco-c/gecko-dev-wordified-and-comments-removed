@@ -6599,7 +6599,7 @@ touchcaret
 .
 enabled
 "
-true
+false
 )
 ;
 pref
