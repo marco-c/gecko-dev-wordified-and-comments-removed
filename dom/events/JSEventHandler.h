@@ -1,9 +1,9 @@
 #
 ifndef
-nsJSEventListener_h__
+mozilla_JSEventHandler_h_
 #
 define
-nsJSEventListener_h__
+mozilla_JSEventHandler_h_
 #
 include
 "

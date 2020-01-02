@@ -194,6 +194,11 @@ InternalMutationEvent
 h
 '
 '
+JSEventHandler
+.
+h
+'
+'
 KeyNameList
 .
 h
@@ -480,6 +485,11 @@ IMEStateManager
 cpp
 '
 '
+JSEventHandler
+.
+cpp
+'
+'
 KeyboardEvent
 .
 cpp
@@ -511,11 +521,6 @@ cpp
 '
 '
 NotifyPaintEvent
-.
-cpp
-'
-'
-nsJSEventListener
 .
 cpp
 '
