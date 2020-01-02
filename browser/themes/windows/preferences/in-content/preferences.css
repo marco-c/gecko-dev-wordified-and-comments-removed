@@ -16,6 +16,15 @@ incontentprefs
 preferences
 .
 css
+caption
+{
+background
+-
+color
+:
+transparent
+;
+}
 menulist
 :
 not
