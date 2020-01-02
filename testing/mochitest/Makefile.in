@@ -831,6 +831,11 @@ OCSPStaplingServer
 BIN_SUFFIX
 )
 \
+GenerateOCSPResponse
+(
+BIN_SUFFIX
+)
+\
 fix_stack_using_bpsyms
 .
 py
