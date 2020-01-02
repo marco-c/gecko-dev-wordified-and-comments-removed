@@ -422,6 +422,9 @@ get
 pageTranslatedCount
 "
 )
+|
+|
+0
 day
 .
 get
@@ -430,6 +433,9 @@ get
 charactersTranslatedCount
 "
 )
+|
+|
+0
 ]
 ;
 }
