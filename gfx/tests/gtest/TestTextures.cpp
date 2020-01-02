@@ -1473,13 +1473,6 @@ Format
 (
 )
 )
-gfx
-:
-:
-BackendType
-:
-:
-CAIRO
 TEXTURE_DEALLOCATE_CLIENT
 )
 ;
@@ -1752,13 +1745,6 @@ SurfaceFormat
 :
 :
 YUV
-gfx
-:
-:
-BackendType
-:
-:
-CAIRO
 TEXTURE_DEALLOCATE_CLIENT
 )
 ;
