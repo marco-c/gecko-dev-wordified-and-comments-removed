@@ -30380,6 +30380,13 @@ warnAboutClosingWindow
 return
 false
 ;
+if
+(
+gMultiProcessBrowser
+)
+return
+true
+;
 for
 (
 let
