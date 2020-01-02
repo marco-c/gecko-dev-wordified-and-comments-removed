@@ -173,6 +173,9 @@ false
 ;
 }
 extern
+mozilla
+:
+:
 TimeStamp
 sLastTracerEvent
 ;
@@ -464,6 +467,9 @@ i
 }
 sStartTime
 =
+mozilla
+:
+:
 TimeStamp
 :
 :

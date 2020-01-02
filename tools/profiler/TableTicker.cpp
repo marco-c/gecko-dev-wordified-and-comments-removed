@@ -523,9 +523,15 @@ XRE_GetProcessType
 )
 )
 ;
+mozilla
+:
+:
 TimeDuration
 delta
 =
+mozilla
+:
+:
 TimeStamp
 :
 :
@@ -3271,6 +3277,9 @@ IsNull
 )
 )
 {
+mozilla
+:
+:
 TimeDuration
 delta
 =
@@ -3382,6 +3391,9 @@ HasData
 )
 )
 {
+mozilla
+:
+:
 TimeDuration
 delta
 =
@@ -3429,6 +3441,9 @@ if
 sample
 )
 {
+mozilla
+:
+:
 TimeDuration
 delta
 =
