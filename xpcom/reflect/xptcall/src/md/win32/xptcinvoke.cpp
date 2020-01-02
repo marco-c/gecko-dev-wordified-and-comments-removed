@@ -525,10 +525,11 @@ mov
 eax
 methodIndex
 call
+dword
+ptr
 [
 edx
-]
-[
++
 eax
 *
 4
@@ -536,6 +537,9 @@ eax
 mov
 esp
 ebp
+pop
+ebp
+ret
 }
 }
 #
