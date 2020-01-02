@@ -4505,7 +4505,7 @@ else
 return
 NS_ERROR_FAILURE
 ;
-nsKeyEvent
+WidgetKeyboardEvent
 event
 (
 true

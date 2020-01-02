@@ -7386,7 +7386,7 @@ nsWindow
 :
 InitKeyEvent
 (
-nsKeyEvent
+WidgetKeyboardEvent
 &
 event
 AndroidGeckoEvent
@@ -7820,7 +7820,7 @@ case
 AKEYCODE_BACK
 :
 {
-nsKeyEvent
+WidgetKeyboardEvent
 pressEvent
 (
 true
@@ -8112,7 +8112,7 @@ return
 nsEventStatus
 status
 ;
-nsKeyEvent
+WidgetKeyboardEvent
 event
 (
 true
@@ -8162,7 +8162,7 @@ nsEventStatus_eConsumeNoDefault
 return
 ;
 }
-nsKeyEvent
+WidgetKeyboardEvent
 pressEvent
 (
 true

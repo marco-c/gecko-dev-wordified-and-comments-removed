@@ -9227,13 +9227,13 @@ HasKeyEventMessage
 )
 )
 {
-nsKeyEvent
+WidgetKeyboardEvent
 *
 keyEvent
 =
-reinterpret_cast
+static_cast
 <
-nsKeyEvent
+WidgetKeyboardEvent
 *
 >
 (

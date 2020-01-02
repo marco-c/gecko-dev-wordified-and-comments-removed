@@ -1763,7 +1763,10 @@ aOwner
 nsPresContext
 *
 aPresContext
-nsKeyEvent
+mozilla
+:
+:
+WidgetKeyboardEvent
 *
 aEvent
 )

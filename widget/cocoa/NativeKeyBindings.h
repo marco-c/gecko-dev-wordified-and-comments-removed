@@ -161,7 +161,7 @@ bool
 KeyDown
 (
 const
-nsKeyEvent
+WidgetKeyboardEvent
 &
 aEvent
 DoCommandCallback
@@ -178,7 +178,7 @@ bool
 KeyPress
 (
 const
-nsKeyEvent
+WidgetKeyboardEvent
 &
 aEvent
 DoCommandCallback
@@ -195,7 +195,7 @@ bool
 KeyUp
 (
 const
-nsKeyEvent
+WidgetKeyboardEvent
 &
 aEvent
 DoCommandCallback

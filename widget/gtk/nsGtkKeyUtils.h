@@ -143,7 +143,7 @@ static
 void
 InitKeyEvent
 (
-nsKeyEvent
+WidgetKeyboardEvent
 &
 aKeyEvent
 GdkEventKey
@@ -396,7 +396,7 @@ aGdkKeyval
 void
 InitKeypressEvent
 (
-nsKeyEvent
+WidgetKeyboardEvent
 &
 aKeyEvent
 GdkEventKey

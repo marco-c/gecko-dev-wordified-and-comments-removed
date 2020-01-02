@@ -20825,13 +20825,13 @@ keypress
 )
 return
 ;
-nsKeyEvent
+WidgetKeyboardEvent
 *
 nativeKeyEvent
 =
 static_cast
 <
-nsKeyEvent
+WidgetKeyboardEvent
 *
 >
 (
@@ -21204,7 +21204,7 @@ nsContentUtils
 :
 GetAccessKeyCandidates
 (
-nsKeyEvent
+WidgetKeyboardEvent
 *
 aNativeKeyEvent
 nsTArray

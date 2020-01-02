@@ -3081,7 +3081,7 @@ NativeKey
 :
 InitKeyEvent
 (
-nsKeyEvent
+WidgetKeyboardEvent
 &
 aKeyEvent
 const
@@ -3219,7 +3219,7 @@ NativeKey
 :
 DispatchKeyEvent
 (
-nsKeyEvent
+WidgetKeyboardEvent
 &
 aKeyEvent
 const
@@ -3456,7 +3456,7 @@ GetInputContext
 )
 )
 ;
-nsKeyEvent
+WidgetKeyboardEvent
 keydownEvent
 (
 true
@@ -4007,7 +4007,7 @@ mOriginalVirtualKeyCode
 )
 )
 {
-nsKeyEvent
+WidgetKeyboardEvent
 keypressEvent
 (
 true
@@ -4326,7 +4326,7 @@ uniChar
 )
 ;
 }
-nsKeyEvent
+WidgetKeyboardEvent
 keypressEvent
 (
 true
@@ -4449,7 +4449,7 @@ return
 false
 ;
 }
-nsKeyEvent
+WidgetKeyboardEvent
 keyupEvent
 (
 true
@@ -5452,7 +5452,7 @@ IsEmpty
 )
 )
 {
-nsKeyEvent
+WidgetKeyboardEvent
 keypressEvent
 (
 true
@@ -5852,7 +5852,7 @@ OEMChars
 ;
 }
 }
-nsKeyEvent
+WidgetKeyboardEvent
 keypressEvent
 (
 true

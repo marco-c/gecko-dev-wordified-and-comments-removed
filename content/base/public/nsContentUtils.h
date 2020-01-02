@@ -2588,7 +2588,10 @@ static
 void
 GetAccessKeyCandidates
 (
-nsKeyEvent
+mozilla
+:
+:
+WidgetKeyboardEvent
 *
 aNativeKeyEvent
 nsTArray

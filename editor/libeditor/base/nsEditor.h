@@ -1209,7 +1209,10 @@ GetDesiredSpellCheckState
 (
 )
 ;
-nsKeyEvent
+mozilla
+:
+:
+WidgetKeyboardEvent
 *
 GetNativeKeyEvent
 (

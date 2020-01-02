@@ -226,9 +226,6 @@ nsIntRect
 using
 nsTextEvent
 ;
-using
-nsKeyEvent
-;
 namespace
 mozilla
 {

@@ -867,7 +867,10 @@ event
 bool
 SendRealKeyEvent
 (
-nsKeyEvent
+mozilla
+:
+:
+WidgetKeyboardEvent
 &
 event
 )

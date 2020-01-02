@@ -4275,7 +4275,7 @@ InitKeyEvent
 NSEvent
 *
 aNativeKeyEvent
-nsKeyEvent
+WidgetKeyboardEvent
 &
 aKeyEvent
 const
@@ -5734,7 +5734,7 @@ NSEvent
 aNativeKeyEvent
 PRUnichar
 aInsertChar
-nsKeyEvent
+WidgetKeyboardEvent
 &
 aKeyEvent
 UInt32
@@ -9038,7 +9038,7 @@ window
 firstResponder
 ]
 ;
-nsKeyEvent
+WidgetKeyboardEvent
 keydownEvent
 (
 true
@@ -9575,7 +9575,7 @@ IsIMEComposing
 )
 )
 {
-nsKeyEvent
+WidgetKeyboardEvent
 keypressEvent
 (
 true
@@ -10075,7 +10075,7 @@ IsIMEComposing
 return
 ;
 }
-nsKeyEvent
+WidgetKeyboardEvent
 keyupEvent
 (
 true
@@ -12214,7 +12214,7 @@ a
 key
 event
 .
-nsKeyEvent
+WidgetKeyboardEvent
 keyEvent
 (
 true
@@ -12985,7 +12985,7 @@ char
 instead
 of
 textEvent
-nsKeyEvent
+WidgetKeyboardEvent
 keypressEvent
 (
 true
@@ -13404,7 +13404,7 @@ CanDispatchKeyPressEvent
 )
 )
 {
-nsKeyEvent
+WidgetKeyboardEvent
 keypressEvent
 (
 true
@@ -23130,7 +23130,7 @@ eventRec
 )
 )
 {
-nsKeyEvent
+WidgetKeyboardEvent
 keydownEvent
 (
 true
@@ -24182,7 +24182,7 @@ IsInPluginComposition
 return
 ;
 }
-nsKeyEvent
+WidgetKeyboardEvent
 keyupEvent
 (
 true
@@ -25500,7 +25500,7 @@ InitKeyEvent
 NSEvent
 *
 aNativeKeyEvent
-nsKeyEvent
+WidgetKeyboardEvent
 &
 aKeyEvent
 const
@@ -26126,7 +26126,7 @@ TextInputHandlerBase
 :
 AttachNativeKeyEvent
 (
-nsKeyEvent
+WidgetKeyboardEvent
 &
 aKeyEvent
 )
@@ -26833,7 +26833,7 @@ TextInputHandlerBase
 IsNormalCharInputtingEvent
 (
 const
-nsKeyEvent
+WidgetKeyboardEvent
 &
 aKeyEvent
 )

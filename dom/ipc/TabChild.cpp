@@ -8605,12 +8605,12 @@ TabChild
 RecvRealKeyEvent
 (
 const
-nsKeyEvent
+WidgetKeyboardEvent
 &
 event
 )
 {
-nsKeyEvent
+WidgetKeyboardEvent
 localEvent
 (
 event

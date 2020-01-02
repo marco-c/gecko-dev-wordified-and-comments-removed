@@ -998,7 +998,7 @@ nsNativeKeyBindings
 KeyDown
 (
 const
-nsKeyEvent
+WidgetKeyboardEvent
 &
 aEvent
 DoCommandCallback
@@ -1019,7 +1019,7 @@ nsNativeKeyBindings
 KeyPress
 (
 const
-nsKeyEvent
+WidgetKeyboardEvent
 &
 aEvent
 DoCommandCallback
@@ -1192,7 +1192,7 @@ nsNativeKeyBindings
 KeyPressInternal
 (
 const
-nsKeyEvent
+WidgetKeyboardEvent
 &
 aEvent
 DoCommandCallback
@@ -1290,7 +1290,7 @@ nsNativeKeyBindings
 KeyUp
 (
 const
-nsKeyEvent
+WidgetKeyboardEvent
 &
 aEvent
 DoCommandCallback

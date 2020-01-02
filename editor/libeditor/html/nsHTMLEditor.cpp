@@ -2341,7 +2341,7 @@ aKeyEvent
 )
 ;
 }
-nsKeyEvent
+WidgetKeyboardEvent
 *
 nativeKeyEvent
 =

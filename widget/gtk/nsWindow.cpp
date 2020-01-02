@@ -797,7 +797,7 @@ bool
 is_context_menu_key
 (
 const
-nsKeyEvent
+WidgetKeyboardEvent
 &
 inKeyEvent
 )
@@ -11996,7 +11996,7 @@ false
 nsEventStatus
 status
 ;
-nsKeyEvent
+WidgetKeyboardEvent
 downEvent
 (
 true
@@ -12367,7 +12367,7 @@ NS_CONTENT_COMMAND_UNDO
 endif
 #
 endif
-nsKeyEvent
+WidgetKeyboardEvent
 event
 (
 true
@@ -12609,7 +12609,7 @@ return
 TRUE
 ;
 }
-nsKeyEvent
+WidgetKeyboardEvent
 event
 (
 true
@@ -23638,7 +23638,7 @@ bool
 is_context_menu_key
 (
 const
-nsKeyEvent
+WidgetKeyboardEvent
 &
 aKeyEvent
 )

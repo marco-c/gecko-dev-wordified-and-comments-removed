@@ -303,7 +303,10 @@ using
 nsIntSize
 ;
 using
-nsKeyEvent
+mozilla
+:
+:
+WidgetKeyboardEvent
 ;
 using
 nsMouseEvent
@@ -2259,7 +2262,7 @@ event
 ;
 RealKeyEvent
 (
-nsKeyEvent
+WidgetKeyboardEvent
 event
 )
 ;

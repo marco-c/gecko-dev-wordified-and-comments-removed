@@ -2916,7 +2916,7 @@ TabParent
 :
 SendRealKeyEvent
 (
-nsKeyEvent
+WidgetKeyboardEvent
 &
 event
 )
@@ -2930,7 +2930,7 @@ return
 false
 ;
 }
-nsKeyEvent
+WidgetKeyboardEvent
 e
 (
 event

@@ -1521,7 +1521,7 @@ NS_KEY_EVENT
 return
 static_cast
 <
-nsKeyEvent
+WidgetKeyboardEvent
 *
 >
 (

@@ -3158,13 +3158,13 @@ return
 NS_OK
 ;
 }
-nsKeyEvent
+WidgetKeyboardEvent
 *
 keyEvent
 =
 static_cast
 <
-nsKeyEvent
+WidgetKeyboardEvent
 *
 >
 (

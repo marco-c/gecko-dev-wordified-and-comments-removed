@@ -19876,7 +19876,7 @@ nsIDOMKeyEvent
 aKeyEvent
 )
 {
-nsKeyEvent
+WidgetKeyboardEvent
 *
 nativeKeyEvent
 =
@@ -21618,7 +21618,7 @@ return
 true
 ;
 }
-nsKeyEvent
+WidgetKeyboardEvent
 *
 nsEditor
 :
@@ -21668,7 +21668,7 @@ nullptr
 return
 static_cast
 <
-nsKeyEvent
+WidgetKeyboardEvent
 *
 >
 (

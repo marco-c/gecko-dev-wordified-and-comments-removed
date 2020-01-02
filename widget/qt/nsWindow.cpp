@@ -754,7 +754,7 @@ static
 void
 InitKeyEvent
 (
-nsKeyEvent
+WidgetKeyboardEvent
 &
 aEvent
 QKeyEvent
@@ -7710,7 +7710,7 @@ SetKeyDownFlag
 domKeyCode
 )
 ;
-nsKeyEvent
+WidgetKeyboardEvent
 downEvent
 (
 true
@@ -8099,7 +8099,7 @@ NS_CONTENT_COMMAND_UNDO
 )
 ;
 }
-nsKeyEvent
+WidgetKeyboardEvent
 event
 (
 true
@@ -9107,7 +9107,7 @@ SetKeyDownFlag
 domKeyCode
 )
 ;
-nsKeyEvent
+WidgetKeyboardEvent
 downEvent
 (
 true
@@ -9155,7 +9155,7 @@ nsEventStatus_eConsumeNoDefault
 ;
 }
 }
-nsKeyEvent
+WidgetKeyboardEvent
 event
 (
 true
@@ -9417,7 +9417,7 @@ xkeymap
 }
 #
 endif
-nsKeyEvent
+WidgetKeyboardEvent
 event
 (
 true
@@ -12510,7 +12510,7 @@ bool
 is_context_menu_key
 (
 const
-nsKeyEvent
+WidgetKeyboardEvent
 &
 aKeyEvent
 )

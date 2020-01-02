@@ -152,6 +152,10 @@ TextEvents
 .
 h
 "
+using
+namespace
+mozilla
+;
 nsIFrame
 *
 NS_NewMenuBarFrame
@@ -715,13 +719,13 @@ GetNativeEvent
 aKeyEvent
 )
 ;
-nsKeyEvent
+WidgetKeyboardEvent
 *
 nativeKeyEvent
 =
 static_cast
 <
-nsKeyEvent
+WidgetKeyboardEvent
 *
 >
 (

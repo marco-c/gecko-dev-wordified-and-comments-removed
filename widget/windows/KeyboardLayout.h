@@ -1441,7 +1441,7 @@ const
 void
 InitKeyEvent
 (
-nsKeyEvent
+WidgetKeyboardEvent
 &
 aKeyEvent
 const
@@ -1454,7 +1454,7 @@ const
 void
 InitKeyEvent
 (
-nsKeyEvent
+WidgetKeyboardEvent
 &
 aKeyEvent
 )
@@ -1470,7 +1470,7 @@ mModKeyState
 bool
 DispatchKeyEvent
 (
-nsKeyEvent
+WidgetKeyboardEvent
 &
 aKeyEvent
 const
