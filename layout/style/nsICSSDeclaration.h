@@ -85,13 +85,9 @@ nsCOMPtr
 .
 h
 "
-#
-include
-"
+class
 nsINode
-.
-h
-"
+;
 #
 define
 NS_ICSSDECLARATION_IID

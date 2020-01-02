@@ -40,13 +40,6 @@ nsIDOMCSSImportRule
 .
 h
 "
-#
-include
-"
-nsCSSRules
-.
-h
-"
 class
 nsMediaList
 ;

@@ -21,7 +21,7 @@ h
 #
 include
 "
-nsCSSValue
+nsTArray
 .
 h
 "
@@ -56,6 +56,9 @@ Attributes
 h
 "
 class
+imgIContainer
+;
+class
 nsIFrame
 ;
 class
@@ -76,6 +79,9 @@ mozilla
 namespace
 css
 {
+class
+ImageValue
+;
 class
 ImageLoader
 MOZ_FINAL

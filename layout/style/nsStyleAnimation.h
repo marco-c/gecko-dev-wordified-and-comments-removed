@@ -14,13 +14,6 @@ h
 #
 include
 "
-nsCRTGlue
-.
-h
-"
-#
-include
-"
 nsStringBuffer
 .
 h

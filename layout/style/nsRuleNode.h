@@ -18,13 +18,6 @@ nsStyleStruct
 .
 h
 "
-#
-include
-<
-stdint
-.
-h
->
 class
 nsStyleContext
 ;
