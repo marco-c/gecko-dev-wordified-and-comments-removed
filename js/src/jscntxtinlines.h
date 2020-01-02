@@ -1569,14 +1569,13 @@ native
 =
 obj_construct
 )
-!
 args
 .
 rval
 (
 )
 .
-isPrimitive
+isObject
 (
 )
 &

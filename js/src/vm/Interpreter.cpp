@@ -2528,14 +2528,13 @@ ok
 &
 &
 construct
-!
 args
 .
 rval
 (
 )
 .
-isPrimitive
+isObject
 (
 )
 )
@@ -10027,10 +10026,9 @@ error
 ;
 JS_ASSERT
 (
-!
 res
 .
-isPrimitive
+isObject
 (
 )
 )

@@ -9241,10 +9241,9 @@ intarg
 ;
 if
 (
-!
 v
 .
-isPrimitive
+isObject
 (
 )
 &

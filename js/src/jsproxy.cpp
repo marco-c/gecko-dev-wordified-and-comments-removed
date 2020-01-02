@@ -7023,10 +7023,9 @@ complete
 ;
 JS_ASSERT
 (
-!
 vp
 .
-isPrimitive
+isObject
 (
 )
 )
