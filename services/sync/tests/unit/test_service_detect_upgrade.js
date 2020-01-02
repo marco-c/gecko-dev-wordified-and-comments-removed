@@ -482,10 +482,6 @@ handler
 }
 )
 ;
-ensureLegacyIdentityManager
-(
-)
-;
 try
 {
 _

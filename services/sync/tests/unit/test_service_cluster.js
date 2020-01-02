@@ -115,10 +115,6 @@ _findCluster
 let
 server
 ;
-ensureLegacyIdentityManager
-(
-)
-;
 try
 {
 _
@@ -166,7 +162,7 @@ dummy
 ;
 Service
 .
-identity
+identify
 .
 account
 =

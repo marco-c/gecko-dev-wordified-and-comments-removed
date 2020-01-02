@@ -462,10 +462,6 @@ Level
 .
 Trace
 ;
-ensureLegacyIdentityManager
-(
-)
-;
 run_next_test
 (
 )
