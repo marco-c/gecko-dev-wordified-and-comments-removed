@@ -285,9 +285,6 @@ iccId
 |
 DOMString
 :
-[
-optional
-]
 the
 ICC
 ID
@@ -296,11 +293,7 @@ the
 SIM
 for
 receiving
-*
 message
-if
-available
-.
 *
 *
 -
