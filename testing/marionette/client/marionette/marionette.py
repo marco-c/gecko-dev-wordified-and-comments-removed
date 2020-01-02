@@ -3457,6 +3457,9 @@ None
 adb_path
 =
 None
+process_args
+=
+None
 )
 :
         
@@ -3874,6 +3877,10 @@ profile
 adb_path
 =
 adb_path
+                                            
+process_args
+=
+process_args
 )
             
 self
@@ -3948,6 +3955,10 @@ homedir
 logdir
 =
 logdir
+                                            
+process_args
+=
+process_args
 )
             
 self
