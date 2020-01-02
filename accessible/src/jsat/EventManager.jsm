@@ -1713,7 +1713,13 @@ Utils
 .
 getVirtualCursor
 (
-doc
+this
+.
+contentScope
+.
+content
+.
+document
 )
 ;
 vc
