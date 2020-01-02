@@ -526,7 +526,7 @@ function
 )
 type
 .
-toString
+toSource
 (
 )
 =
@@ -766,7 +766,7 @@ function
 )
 type
 .
-toString
+toSource
 (
 )
 =
