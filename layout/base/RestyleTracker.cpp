@@ -560,11 +560,8 @@ if
 (
 aRestyleHint
 &
-(
-eRestyle_Self
-|
-eRestyle_Subtree
-)
+~
+eRestyle_LaterSiblings
 )
 {
 mRestyleManager
