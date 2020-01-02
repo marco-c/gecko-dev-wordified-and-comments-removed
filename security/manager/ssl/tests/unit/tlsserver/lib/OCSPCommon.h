@@ -39,6 +39,7 @@ ORTTryLater
 ORTNeedsSig
 ORTUnauthorized
 ORTBadSignature
+ORTSkipResponseBytes
 }
 ;
 struct
