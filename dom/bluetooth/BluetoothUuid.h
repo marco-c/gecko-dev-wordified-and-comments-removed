@@ -21,6 +21,9 @@ BluetoothServiceClass
 A2DP
 =
 0x110D
+A2DP_SINK
+=
+0x110B
 HANDSFREE
 =
 0x111E
