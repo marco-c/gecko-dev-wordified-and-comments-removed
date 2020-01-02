@@ -49907,12 +49907,6 @@ temp
 file
 '
 else
-CC
-=
-cl
-CXX
-=
-cl
 LD
 =
 link
