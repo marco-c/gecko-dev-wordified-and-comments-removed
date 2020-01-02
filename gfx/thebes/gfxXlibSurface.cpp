@@ -2585,6 +2585,9 @@ GetMemoryLocation
 const
 {
 return
-GFX_MEMORY_OUT_OF_PROCESS
+gfxMemoryLocation
+:
+:
+OUT_OF_PROCESS
 ;
 }
