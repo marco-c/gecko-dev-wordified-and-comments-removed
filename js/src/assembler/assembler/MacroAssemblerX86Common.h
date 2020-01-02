@@ -88,7 +88,7 @@ setSSECheckState
 )
 ;
 }
-ASSERT
+MOZ_ASSERT
 (
 s_sseCheckState
 !
@@ -154,7 +154,7 @@ setSSECheckState
 )
 ;
 }
-ASSERT
+MOZ_ASSERT
 (
 s_sseCheckState
 !
@@ -208,7 +208,7 @@ setSSECheckState
 )
 ;
 }
-ASSERT
+MOZ_ASSERT
 (
 s_sseCheckState
 !
@@ -281,7 +281,7 @@ setSSECheckState
 )
 ;
 }
-ASSERT
+MOZ_ASSERT
 (
 s_sseCheckState
 !
@@ -335,7 +335,7 @@ setSSECheckState
 )
 ;
 }
-ASSERT
+MOZ_ASSERT
 (
 s_sseCheckState
 !
@@ -389,7 +389,7 @@ setSSECheckState
 )
 ;
 }
-ASSERT
+MOZ_ASSERT
 (
 s_sseCheckState
 !
@@ -443,7 +443,7 @@ setSSECheckState
 )
 ;
 }
-ASSERT
+MOZ_ASSERT
 (
 s_sseCheckState
 !
