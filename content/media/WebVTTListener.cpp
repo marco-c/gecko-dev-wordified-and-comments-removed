@@ -371,7 +371,7 @@ mTrack
 >
 SetReadyState
 (
-HTMLTrackElement
+TextTrack
 :
 :
 READY_STATE_LOADING
@@ -464,7 +464,7 @@ ReadyState
 )
 !
 =
-HTMLTrackElement
+TextTrack
 :
 :
 READY_STATE_ERROR
@@ -486,7 +486,7 @@ track
 >
 SetReadyState
 (
-HTMLTrackElement
+TextTrack
 :
 :
 READY_STATE_LOADED

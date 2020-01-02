@@ -291,7 +291,7 @@ false
 ;
 mReadyState
 =
-HTMLTrackElement
+TextTrack
 :
 :
 READY_STATE_NONE
@@ -784,7 +784,7 @@ mediaElement
 mReadyState
 =
 =
-HTMLTrackElement
+TextTrack
 :
 :
 READY_STATE_LOADED
@@ -793,7 +793,7 @@ READY_STATE_LOADED
 mReadyState
 =
 =
-HTMLTrackElement
+TextTrack
 :
 :
 READY_STATE_ERROR

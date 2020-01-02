@@ -527,7 +527,7 @@ ttrack
 >
 SetReadyState
 (
-HTMLTrackElement
+TextTrack
 :
 :
 READY_STATE_LOADED
@@ -1013,7 +1013,7 @@ ReadyState
 )
 =
 =
-HTMLTrackElement
+TextTrack
 :
 :
 READY_STATE_LOADING
