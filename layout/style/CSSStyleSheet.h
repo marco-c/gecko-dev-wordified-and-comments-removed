@@ -366,6 +366,7 @@ nsWrapperCache
 {
 public
 :
+explicit
 CSSStyleSheet
 (
 CORSMode

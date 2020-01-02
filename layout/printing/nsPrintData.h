@@ -84,6 +84,7 @@ eIsPrintPreview
 }
 ePrintDataType
 ;
+explicit
 nsPrintData
 (
 ePrintDataType

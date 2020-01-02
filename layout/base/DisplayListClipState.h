@@ -245,6 +245,7 @@ AutoSaveRestore
 {
 public
 :
+explicit
 AutoSaveRestore
 (
 nsDisplayListBuilder
@@ -597,6 +598,7 @@ AutoSaveRestore
 {
 public
 :
+explicit
 AutoClipMultiple
 (
 nsDisplayListBuilder

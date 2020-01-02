@@ -90,6 +90,7 @@ ErrorResult
 struct
 RangeData
 {
+explicit
 RangeData
 (
 nsRange
@@ -147,6 +148,7 @@ Selection
 (
 )
 ;
+explicit
 Selection
 (
 nsFrameSelection

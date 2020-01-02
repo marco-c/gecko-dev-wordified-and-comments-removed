@@ -638,6 +638,7 @@ Enumerator
 ;
 public
 :
+MOZ_IMPLICIT
 Slice
 (
 const
@@ -765,6 +766,7 @@ Enumerator
 {
 public
 :
+explicit
 Enumerator
 (
 const
@@ -982,6 +984,7 @@ friend
 class
 nsFrameList
 ;
+explicit
 FrameLinkEnumerator
 (
 const

@@ -161,6 +161,7 @@ URIPrincipalAndCORSModeHashKey
 *
 KeyTypePointer
 ;
+explicit
 URIPrincipalAndCORSModeHashKey
 (
 const
@@ -496,6 +497,7 @@ Loader
 (
 )
 ;
+explicit
 Loader
 (
 nsIDocument

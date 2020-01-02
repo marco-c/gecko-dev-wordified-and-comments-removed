@@ -481,6 +481,7 @@ nsIFrame
 {
 public
 :
+explicit
 Entry
 (
 KeyTypePointer

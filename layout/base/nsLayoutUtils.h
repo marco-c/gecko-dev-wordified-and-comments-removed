@@ -1886,6 +1886,7 @@ DOMRectList
 *
 mRectList
 ;
+explicit
 RectListBuilder
 (
 DOMRectList
@@ -4484,6 +4485,7 @@ AutoMaybeDisableFontInflation
 {
 public
 :
+explicit
 AutoMaybeDisableFontInflation
 (
 nsIFrame

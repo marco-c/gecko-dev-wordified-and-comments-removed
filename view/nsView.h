@@ -812,6 +812,7 @@ const
 ;
 private
 :
+explicit
 nsView
 (
 nsViewManager

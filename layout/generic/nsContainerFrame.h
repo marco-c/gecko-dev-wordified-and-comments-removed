@@ -745,6 +745,7 @@ ExcessOverflowContainersProperty
 )
 protected
 :
+explicit
 nsContainerFrame
 (
 nsStyleContext

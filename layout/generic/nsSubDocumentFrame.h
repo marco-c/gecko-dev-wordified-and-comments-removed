@@ -49,6 +49,7 @@ NS_DECL_QUERYFRAME_TARGET
 nsSubDocumentFrame
 )
 NS_DECL_FRAMEARENA_HELPERS
+explicit
 nsSubDocumentFrame
 (
 nsStyleContext

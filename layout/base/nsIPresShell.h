@@ -1434,6 +1434,7 @@ mOnlyIfPerceivedScrollableDirection
 :
 1
 ;
+explicit
 ScrollAxis
 (
 int16_t

@@ -2858,6 +2858,7 @@ InterruptPreventer
 {
 public
 :
+explicit
 InterruptPreventer
 (
 nsPresContext
@@ -4291,6 +4292,7 @@ nsRunnable
 {
 public
 :
+explicit
 RunWillPaintObservers
 (
 nsRootPresContext

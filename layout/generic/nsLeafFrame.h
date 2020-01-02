@@ -179,6 +179,7 @@ eReplacedContainsBlock
 }
 protected
 :
+explicit
 nsLeafFrame
 (
 nsStyleContext

@@ -213,6 +213,7 @@ MOZ_DELETE
 ;
 }
 ;
+explicit
 nsStyleCoord
 (
 nsStyleUnit

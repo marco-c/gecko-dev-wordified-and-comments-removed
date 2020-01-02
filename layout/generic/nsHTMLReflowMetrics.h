@@ -719,6 +719,7 @@ nsHTMLReflowMetrics
 {
 public
 :
+explicit
 nsHTMLReflowMetrics
 (
 mozilla
@@ -754,6 +755,7 @@ aWritingMode
 )
 {
 }
+explicit
 nsHTMLReflowMetrics
 (
 const

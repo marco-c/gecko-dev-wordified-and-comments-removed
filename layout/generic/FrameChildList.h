@@ -77,6 +77,7 @@ mIDs
 )
 {
 }
+MOZ_IMPLICIT
 FrameChildListIDs
 (
 FrameChildListID
@@ -196,6 +197,7 @@ mIDs
 }
 protected
 :
+explicit
 FrameChildListIDs
 (
 uint32_t
@@ -252,6 +254,7 @@ FrameChildListArrayIterator
 {
 public
 :
+explicit
 FrameChildListArrayIterator
 (
 const
@@ -407,6 +410,7 @@ FrameChildListArrayIterator
 {
 public
 :
+explicit
 FrameChildListIterator
 (
 const
