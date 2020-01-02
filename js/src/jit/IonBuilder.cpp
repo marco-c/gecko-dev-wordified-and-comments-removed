@@ -24162,7 +24162,7 @@ if
 templateType
 -
 >
-hasNewScript
+newScript
 (
 )
 )

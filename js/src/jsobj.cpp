@@ -9190,7 +9190,7 @@ if
 type
 -
 >
-hasNewScript
+newScript
 (
 )
 )
@@ -15786,7 +15786,7 @@ type
 )
 -
 >
-hasNewScript
+newScript
 (
 )
 )

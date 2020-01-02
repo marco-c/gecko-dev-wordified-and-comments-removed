@@ -18808,7 +18808,7 @@ zone
 >
 types
 .
-clearAllNewScriptAddendumsOnOOM
+clearAllNewScriptsOnOOM
 (
 )
 ;
