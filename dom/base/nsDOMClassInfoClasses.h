@@ -54,10 +54,6 @@ DOMCI_CLASS
 (
 CSSStyleSheet
 )
-DOMCI_CLASS
-(
-Selection
-)
 #
 ifdef
 MOZ_XUL
