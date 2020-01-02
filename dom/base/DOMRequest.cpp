@@ -308,13 +308,10 @@ Value
 aResult
 )
 {
+GetResult
+(
+nullptr
 aResult
-.
-set
-(
-Result
-(
-)
 )
 ;
 return
