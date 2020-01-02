@@ -1,4 +1,10 @@
 #
+ifndef
+TableTicker_h
+#
+define
+TableTicker_h
+#
 include
 "
 platform
@@ -1042,3 +1048,5 @@ mIntelPowerGadget
 endif
 }
 ;
+#
+endif
