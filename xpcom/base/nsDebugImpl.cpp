@@ -765,7 +765,7 @@ KINFO_PROC
 endif
 }
 ;
-size_t
+u_int
 mibSize
 =
 sizeof
