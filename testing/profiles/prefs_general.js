@@ -1982,3 +1982,15 @@ sjs
 "
 )
 ;
+user_pref
+(
+"
+dom
+.
+mozApps
+.
+debug
+"
+true
+)
+;
