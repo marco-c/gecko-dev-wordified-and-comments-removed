@@ -160,10 +160,10 @@ window
 "
 )
 ;
-privateWindow
-.
-close
+yield
+promiseWindowClosed
 (
+privateWindow
 )
 ;
 CustomizableUI

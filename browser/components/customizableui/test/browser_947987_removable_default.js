@@ -450,10 +450,10 @@ window
 ;
 }
 }
-otherWin
-.
-close
+yield
+promiseWindowClosed
 (
+otherWin
 )
 ;
 }

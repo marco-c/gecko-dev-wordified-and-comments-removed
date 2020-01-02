@@ -1638,12 +1638,12 @@ this
 otherWin
 )
 ;
+yield
+promiseWindowClosed
+(
 this
 .
 otherWin
-.
-close
-(
 )
 ;
 this
