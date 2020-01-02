@@ -216,6 +216,7 @@ new
 JavascriptMessageParser
 (
 mAsserter
+false
 )
 ;
 try
