@@ -1544,6 +1544,15 @@ function
 conn
 )
 {
+do_print
+(
+"
+handling
+"
++
+aHost
+)
+;
 do_check_eq
 (
 conn
