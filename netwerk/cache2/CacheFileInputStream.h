@@ -210,9 +210,6 @@ mWaitingForUpdate
 int64_t
 mListeningForChunk
 ;
-bool
-mInReadSegments
-;
 nsCOMPtr
 <
 nsIInputStreamCallback
