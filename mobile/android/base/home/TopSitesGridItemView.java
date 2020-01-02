@@ -392,6 +392,16 @@ mIsPinned
 ;
 }
 public
+boolean
+isEmpty
+(
+)
+{
+return
+mIsEmpty
+;
+}
+public
 void
 setTitle
 (
