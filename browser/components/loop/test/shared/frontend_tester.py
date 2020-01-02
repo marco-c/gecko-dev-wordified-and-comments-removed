@@ -250,6 +250,8 @@ getcwd
 ]
 )
         
+self
+.
 relPath
 =
 os
@@ -269,6 +271,8 @@ __file__
 commonPath
 )
         
+self
+.
 relPath
 =
 urllib
@@ -281,6 +285,8 @@ path
 .
 join
 (
+self
+.
 relPath
 srcdir_path
 )
@@ -310,6 +316,8 @@ self
 port
 )
                                               
+self
+.
 relPath
 )
     
@@ -393,6 +401,7 @@ self
 .
 get_failure_details
 (
+page
 )
 )
     
@@ -400,6 +409,7 @@ def
 get_failure_details
 (
 self
+page
 )
 :
         
@@ -424,10 +434,25 @@ fail
 '
 )
         
+fullPageUrl
+=
+urlparse
+.
+urljoin
+(
+self
+.
+relPath
+page
+)
+        
 details
 =
 [
 "
+%
+s
+:
 %
 d
 failure
@@ -438,9 +463,12 @@ encountered
 :
 "
 %
+(
+fullPageUrl
 len
 (
 fail_nodes
+)
 )
 ]
         
@@ -450,11 +478,50 @@ in
 fail_nodes
 :
             
+errorText
+=
+node
+.
+find_element
+(
+"
+css
+selector
+"
+'
+.
+error
+'
+)
+.
+text
+            
 details
 .
 append
 (
                 
+"
+TEST
+-
+UNEXPECTED
+-
+FAIL
+|
+%
+s
+|
+%
+s
+-
+%
+s
+"
+%
+\
+                
+(
+fullPageUrl
 node
 .
 find_element
@@ -480,6 +547,19 @@ n
 [
 0
 ]
+errorText
+.
+split
+(
+"
+\
+n
+"
+)
+[
+0
+]
+)
 )
             
 details
@@ -487,21 +567,7 @@ details
 append
 (
                 
-node
-.
-find_element
-(
-"
-css
-selector
-"
-'
-.
-error
-'
-)
-.
-text
+errorText
 )
         
 return
