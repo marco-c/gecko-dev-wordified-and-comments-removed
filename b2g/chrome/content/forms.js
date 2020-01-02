@@ -4236,6 +4236,13 @@ getSelection
 if
 (
 sel
+&
+&
+sel
+.
+rangeCount
+>
+0
 )
 {
 start
