@@ -93,15 +93,11 @@ MPL
 0
 /
 .
-BROWSER_CHROME_MANIFESTS
+TEST_DIRS
 +
 =
 [
 '
 test
-/
-browser
-.
-ini
 '
 ]

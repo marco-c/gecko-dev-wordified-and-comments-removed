@@ -93,3 +93,11 @@ MPL
 0
 /
 .
+TEST_DIRS
++
+=
+[
+'
+tests
+'
+]
