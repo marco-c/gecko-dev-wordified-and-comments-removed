@@ -147,6 +147,11 @@ nsCacheService
 .
 h
 '
+'
+nsDeleteDir
+.
+h
+'
 ]
 #
 These

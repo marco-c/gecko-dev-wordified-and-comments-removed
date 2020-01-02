@@ -293,6 +293,12 @@ base
 /
 src
 '
+'
+.
+.
+/
+cache
+'
 ]
 FAIL_ON_WARNINGS
 =

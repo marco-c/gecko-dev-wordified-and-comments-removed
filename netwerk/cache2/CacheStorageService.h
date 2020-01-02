@@ -158,6 +158,14 @@ DropPrivateBrowsingEntries
 )
 ;
 static
+void
+WipeCacheDirectory
+(
+uint32_t
+aVersion
+)
+;
+static
 CacheStorageService
 *
 Self

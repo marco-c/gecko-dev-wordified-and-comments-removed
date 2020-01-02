@@ -401,6 +401,16 @@ GetClearingEntries
 )
 ;
 static
+void
+GetDiskCacheDirectory
+(
+nsIFile
+*
+*
+result
+)
+;
+static
 nsCacheService
 *
 GlobalInstance
