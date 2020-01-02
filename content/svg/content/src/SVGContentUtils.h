@@ -776,7 +776,7 @@ static
 mozilla
 :
 :
-RefPtr
+TemporaryRef
 <
 mozilla
 :
