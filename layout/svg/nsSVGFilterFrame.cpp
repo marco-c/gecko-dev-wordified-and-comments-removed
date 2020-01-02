@@ -61,13 +61,6 @@ h
 #
 include
 "
-nsSVGFilterPaintCallback
-.
-h
-"
-#
-include
-"
 nsSVGIntegrationUtils
 .
 h
