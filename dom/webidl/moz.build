@@ -2844,6 +2844,11 @@ TestInterfaceJS
 .
 webidl
 '
+'
+TestInterfaceJSDictionaries
+.
+webidl
+'
 ]
 if
 CONFIG
