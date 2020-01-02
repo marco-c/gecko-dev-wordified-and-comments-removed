@@ -17251,6 +17251,11 @@ analyzeEdgeCasesBackward
 (
 )
 ;
+void
+collectRangeInfoPreTrunc
+(
+)
+;
 double
 getIdentity
 (
