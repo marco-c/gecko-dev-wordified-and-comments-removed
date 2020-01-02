@@ -78,15 +78,6 @@ config
 config
 .
 mk
-DEFINES
-+
-=
--
-DAB_CD
-=
-(
-AB_CD
-)
 include
 (
 topsrcdir

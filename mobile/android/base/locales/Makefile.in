@@ -277,15 +277,6 @@ todo
 (
 errorIfEmpty
 )
-DEFINES
-+
-=
--
-DAB_CD
-=
-(
-AB_CD
-)
 dir
 -
 res

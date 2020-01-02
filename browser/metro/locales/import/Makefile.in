@@ -121,15 +121,6 @@ mk
 l10s
 prefs
 file
-DEFINES
-+
-=
--
-DAB_CD
-=
-(
-AB_CD
-)
 #
 copying
 firefox

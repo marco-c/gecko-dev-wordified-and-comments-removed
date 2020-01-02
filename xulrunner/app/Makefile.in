@@ -96,15 +96,6 @@ xulrunner
 .
 js
 )
-DEFINES
-+
-=
--
-DAB_CD
-=
-(
-AB_CD
-)
 ifeq
 (
 cocoa
