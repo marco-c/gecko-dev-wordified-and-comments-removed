@@ -106,6 +106,14 @@ true
 }
 }
 typedef
+ScopedPtr
+<
+CERTCertificate
+CERT_DestroyCertificate
+>
+ScopedCERTCertificate
+;
+typedef
 mozilla
 :
 :

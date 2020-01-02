@@ -2132,12 +2132,6 @@ TransportSecurityInfo
 mInfoObject
 ;
 const
-mozilla
-:
-:
-pkix
-:
-:
 ScopedCERTCertificate
 mCert
 ;

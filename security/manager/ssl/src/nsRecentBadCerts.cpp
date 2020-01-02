@@ -345,12 +345,6 @@ CERT_GetDefaultCertDB
 (
 )
 ;
-mozilla
-:
-:
-pkix
-:
-:
 ScopedCERTCertificate
 nssCert
 (

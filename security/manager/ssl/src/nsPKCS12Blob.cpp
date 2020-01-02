@@ -1169,12 +1169,6 @@ certs
 i
 ]
 ;
-mozilla
-:
-:
-pkix
-:
-:
 ScopedCERTCertificate
 nssCert
 (

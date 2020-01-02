@@ -870,7 +870,11 @@ cert
 childCert
 )
 {
-ScopedCERTCertificate
+ScopedPtr
+<
+CERTCertificate
+CERT_DestroyCertificate
+>
 nssCert
 (
 CERT_NewTempCertificate

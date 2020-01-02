@@ -27,6 +27,13 @@ nsIX509CertDB
 .
 h
 "
+#
+include
+"
+ScopedNSSTypes
+.
+h
+"
 namespace
 mozilla
 {
@@ -180,12 +187,6 @@ void
 *
 mPinArg
 ;
-mozilla
-:
-:
-pkix
-:
-:
 ScopedCERTCertificate
 mTrustedRoot
 ;

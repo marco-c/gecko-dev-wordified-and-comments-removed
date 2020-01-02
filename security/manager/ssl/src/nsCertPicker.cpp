@@ -203,12 +203,6 @@ PipUIContext
 (
 )
 ;
-mozilla
-:
-:
-pkix
-:
-:
 ScopedCERTCertList
 allcerts
 (
@@ -220,12 +214,6 @@ ctx
 )
 ;
 }
-mozilla
-:
-:
-pkix
-:
-:
 ScopedCERTCertList
 certList
 (

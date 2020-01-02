@@ -697,12 +697,6 @@ return
 NS_ERROR_CMS_VERIFY_BAD_DIGEST
 ;
 }
-mozilla
-:
-:
-pkix
-:
-:
 ScopedCERTCertList
 certs
 (
@@ -749,12 +743,6 @@ i
 i
 )
 {
-mozilla
-:
-:
-pkix
-:
-:
 ScopedCERTCertificate
 cert
 (
@@ -803,7 +791,7 @@ SECSuccess
 {
 cert
 .
-release
+forget
 (
 )
 ;

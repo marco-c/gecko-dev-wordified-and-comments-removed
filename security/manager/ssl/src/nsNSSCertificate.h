@@ -86,6 +86,13 @@ h
 #
 include
 "
+ScopedNSSTypes
+.
+h
+"
+#
+include
+"
 certt
 .
 h
@@ -193,9 +200,6 @@ derLen
 private
 :
 mozilla
-:
-:
-pkix
 :
 :
 ScopedCERTCertificate

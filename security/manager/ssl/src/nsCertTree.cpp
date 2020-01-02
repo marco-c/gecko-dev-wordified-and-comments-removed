@@ -2680,12 +2680,6 @@ PipUIContext
 (
 )
 ;
-mozilla
-:
-:
-pkix
-:
-:
 ScopedCERTCertList
 certList
 (
@@ -3550,12 +3544,6 @@ mUsageCount
 1
 )
 {
-mozilla
-:
-:
-pkix
-:
-:
 ScopedCERTCertificate
 nsscert
 (
