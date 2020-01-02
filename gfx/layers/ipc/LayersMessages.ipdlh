@@ -1236,6 +1236,9 @@ invalidRegion
 FrameMetrics
 metrics
 ;
+ViewID
+scrollParentId
+;
 }
 ;
 struct
@@ -1249,9 +1252,6 @@ validRegion
 struct
 ContainerLayerAttributes
 {
-ViewID
-scrollParentId
-;
 float
 preXScale
 ;
