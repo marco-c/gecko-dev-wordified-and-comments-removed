@@ -9939,6 +9939,15 @@ script
 compileAndGo
 (
 )
+&
+&
+!
+script
+-
+>
+functionNonDelazifying
+(
+)
 )
 {
 IonSpew
