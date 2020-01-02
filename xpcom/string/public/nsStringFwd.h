@@ -5,17 +5,12 @@ nsStringFwd_h___
 define
 nsStringFwd_h___
 #
-ifndef
-nscore_h___
-#
 include
 "
 nscore
 .
 h
 "
-#
-endif
 #
 ifndef
 MOZILLA_INTERNAL_API

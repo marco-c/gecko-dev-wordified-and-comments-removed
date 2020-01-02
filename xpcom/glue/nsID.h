@@ -12,17 +12,12 @@ string
 h
 >
 #
-ifndef
-nscore_h___
-#
 include
 "
 nscore
 .
 h
 "
-#
-endif
 #
 define
 NSID_LENGTH

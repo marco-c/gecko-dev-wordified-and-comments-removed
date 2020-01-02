@@ -5,17 +5,12 @@ nsAlgorithm_h___
 define
 nsAlgorithm_h___
 #
-ifndef
-nsCharTraits_h___
-#
 include
 "
 nsCharTraits
 .
 h
 "
-#
-endif
 template
 <
 class

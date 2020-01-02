@@ -5,17 +5,12 @@ nsSubstringTuple_h___
 define
 nsSubstringTuple_h___
 #
-ifndef
-nsSubstring_h___
-#
 include
 "
 nsSubstring
 .
 h
 "
-#
-endif
 #
 include
 "

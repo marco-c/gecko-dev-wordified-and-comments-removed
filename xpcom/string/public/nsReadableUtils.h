@@ -5,17 +5,12 @@ nsReadableUtils_h___
 define
 nsReadableUtils_h___
 #
-ifndef
-nsAString_h___
-#
 include
 "
 nsAString
 .
 h
 "
-#
-endif
 #
 include
 "
