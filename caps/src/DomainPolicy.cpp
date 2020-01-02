@@ -15,9 +15,6 @@ h
 namespace
 mozilla
 {
-namespace
-hotness
-{
 NS_IMPL_ISUPPORTS1
 (
 DomainPolicy
@@ -646,6 +643,5 @@ rv
 return
 NS_OK
 ;
-}
 }
 }

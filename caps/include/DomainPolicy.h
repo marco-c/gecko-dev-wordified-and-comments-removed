@@ -28,9 +28,6 @@ h
 namespace
 mozilla
 {
-namespace
-hotness
-{
 class
 DomainPolicy
 :
@@ -111,7 +108,6 @@ mHashTable
 ;
 }
 ;
-}
 }
 #
 endif

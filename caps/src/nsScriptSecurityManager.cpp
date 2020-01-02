@@ -7642,12 +7642,6 @@ NS_ERROR_SERVICE_NOT_AVAILABLE
 mDomainPolicy
 =
 new
-mozilla
-:
-:
-hotness
-:
-:
 DomainPolicy
 (
 )
