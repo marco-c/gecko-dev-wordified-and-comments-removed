@@ -110,11 +110,9 @@ android
 drawable
 =
 "
-android
-:
-color
+drawable
 /
-transparent
+edit_text_default
 "
 /
 >
