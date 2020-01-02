@@ -80,12 +80,14 @@ gTLSThreadID
 ifdef
 MOZ_ASAN
 MOZ_ASAN_BLACKLIST
-static
+bool
+NS_IsMainThread
+(
+)
+;
 #
 else
 inline
-#
-endif
 bool
 NS_IsMainThread
 (
@@ -104,6 +106,8 @@ threads
 Main
 ;
 }
+#
+endif
 #
 else
 extern
