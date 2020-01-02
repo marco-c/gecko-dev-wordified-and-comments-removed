@@ -5554,6 +5554,9 @@ abouthome
 contextmenu
 "
 "
+newtab
+"
+"
 searchbar
 "
 "
