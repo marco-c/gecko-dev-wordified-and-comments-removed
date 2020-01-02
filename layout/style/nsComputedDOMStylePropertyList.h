@@ -300,6 +300,11 @@ FlexShrink
 )
 COMPUTED_STYLE_PROP
 (
+flex_wrap
+FlexWrap
+)
+COMPUTED_STYLE_PROP
+(
 float
 Float
 )

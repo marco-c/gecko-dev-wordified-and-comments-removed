@@ -2074,6 +2074,13 @@ kFlexDirectionKTable
 static
 const
 int32_t
+kFlexWrapKTable
+[
+]
+;
+static
+const
+int32_t
 kJustifyContentKTable
 [
 ]

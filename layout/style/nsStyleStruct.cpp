@@ -6148,6 +6148,10 @@ mFlexDirection
 =
 NS_STYLE_FLEX_DIRECTION_ROW
 ;
+mFlexWrap
+=
+NS_STYLE_FLEX_WRAP_NOWRAP
+;
 mJustifyContent
 =
 NS_STYLE_JUSTIFY_CONTENT_FLEX_START
@@ -6391,6 +6395,14 @@ mFlexDirection
 aOther
 .
 mFlexDirection
+|
+|
+mFlexWrap
+!
+=
+aOther
+.
+mFlexWrap
 )
 {
 return
