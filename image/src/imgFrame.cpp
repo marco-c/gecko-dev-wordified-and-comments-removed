@@ -421,10 +421,6 @@ mSinglePixel
 (
 false
 )
-mNeverUseDeviceSurface
-(
-false
-)
 mFormatChanged
 (
 false
@@ -717,10 +713,6 @@ USE_WIN_SURFACE
 if
 (
 !
-mNeverUseDeviceSurface
-&
-&
-!
 ShouldUseImageSurfaces
 (
 )
@@ -870,10 +862,6 @@ ifdef
 XP_MACOSX
 if
 (
-!
-mNeverUseDeviceSurface
-&
-&
 !
 ShouldUseImageSurfaces
 (
@@ -1156,9 +1144,6 @@ NS_OK
 }
 if
 (
-mNeverUseDeviceSurface
-|
-|
 ShouldUseImageSurfaces
 (
 )

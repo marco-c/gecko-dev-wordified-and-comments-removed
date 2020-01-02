@@ -703,9 +703,6 @@ bool
 mSinglePixel
 ;
 bool
-mNeverUseDeviceSurface
-;
-bool
 mFormatChanged
 ;
 bool
