@@ -28521,16 +28521,6 @@ html
 ref
 .
 html
-fails
--
-if
-(
-winWidget
-&
-&
-!
-d2d
-)
 =
 =
 942672
