@@ -878,6 +878,9 @@ mImage
 TrackTicks
 target
 =
+aSource
+-
+>
 TimeToTicksRoundUp
 (
 USECS_PER_S

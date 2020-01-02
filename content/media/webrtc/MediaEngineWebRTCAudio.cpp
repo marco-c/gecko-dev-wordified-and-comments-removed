@@ -1823,6 +1823,9 @@ DEBUG
 TrackTicks
 target
 =
+aSource
+-
+>
 TimeToTicksRoundUp
 (
 SAMPLE_FREQUENCY
