@@ -106,6 +106,9 @@ MediaStreamConstraints
 class
 MediaStreamConstraintsInternal
 ;
+class
+WakeLock
+;
 }
 }
 #
@@ -570,7 +573,7 @@ aRv
 ;
 already_AddRefed
 <
-nsIDOMMozWakeLock
+WakeLock
 >
 RequestWakeLock
 (

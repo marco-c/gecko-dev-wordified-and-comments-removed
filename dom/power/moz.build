@@ -119,11 +119,6 @@ XPIDL_SOURCES
 =
 [
 '
-nsIDOMWakeLock
-.
-idl
-'
-'
 nsIDOMWakeLockListener
 .
 idl
@@ -149,6 +144,11 @@ dom
 [
 '
 PowerManager
+.
+h
+'
+'
+WakeLock
 .
 h
 '

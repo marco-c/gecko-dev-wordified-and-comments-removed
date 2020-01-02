@@ -140,9 +140,6 @@ powermanagerservice
 %
 }
 interface
-nsIDOMMozWakeLock
-;
-interface
 nsIDOMMozWakeLockListener
 ;
 interface
@@ -280,6 +277,9 @@ Return
 a
 wake
 lock
+(
+MozWakeLock
+)
 object
 of
 aTopic
@@ -309,7 +309,7 @@ invisible
 .
 *
 /
-nsIDOMMozWakeLock
+nsISupports
 newWakeLock
 (
 in

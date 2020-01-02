@@ -151,6 +151,9 @@ TextTrack
 class
 TimeRanges
 ;
+class
+WakeLock
+;
 }
 }
 class
@@ -1683,9 +1686,9 @@ WakeLockRelease
 (
 )
 ;
-nsCOMPtr
+nsRefPtr
 <
-nsIDOMMozWakeLock
+WakeLock
 >
 mWakeLock
 ;

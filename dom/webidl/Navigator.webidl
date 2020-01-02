@@ -297,9 +297,6 @@ document
 .
 *
 /
-interface
-MozWakeLock
-;
 /
 /
 http
@@ -1425,7 +1422,7 @@ released
 *
 The
 returned
-nsIDOMMozWakeLock
+MozWakeLock
 object
 is
 a

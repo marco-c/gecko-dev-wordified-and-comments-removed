@@ -344,7 +344,7 @@ a
 volume
 acquire
 an
-nsIDOMMozWakeLock
+MozWakeLock
 /
 /
 using

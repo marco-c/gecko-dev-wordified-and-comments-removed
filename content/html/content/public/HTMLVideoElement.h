@@ -38,6 +38,9 @@ namespace
 dom
 {
 class
+WakeLock
+;
+class
 VideoPlaybackQuality
 ;
 class
@@ -393,9 +396,9 @@ WakeLockUpdate
 (
 )
 ;
-nsCOMPtr
+nsRefPtr
 <
-nsIDOMMozWakeLock
+WakeLock
 >
 mScreenWakeLock
 ;
