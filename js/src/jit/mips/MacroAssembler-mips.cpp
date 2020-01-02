@@ -7676,9 +7676,7 @@ MacroAssemblerMIPSCompat
 :
 movePtr
 (
-const
 ImmPtr
-&
 imm
 Register
 dest

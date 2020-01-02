@@ -1225,9 +1225,7 @@ currentOffset
 CodeOffsetLabel
 movWithPatch
 (
-const
 ImmPtr
-&
 imm
 Register
 dest
