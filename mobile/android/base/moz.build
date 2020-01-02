@@ -2359,11 +2359,6 @@ Telemetry
 java
 '
 '
-TelemetryContract
-.
-java
-'
-'
 TextSelection
 .
 java
