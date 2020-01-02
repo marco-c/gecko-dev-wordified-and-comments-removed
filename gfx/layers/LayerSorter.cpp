@@ -137,6 +137,12 @@ Assertions
 .
 h
 "
+namespace
+mozilla
+{
+namespace
+layers
+{
 using
 namespace
 mozilla
@@ -144,12 +150,6 @@ mozilla
 :
 gfx
 ;
-namespace
-mozilla
-{
-namespace
-layers
-{
 enum
 LayerSortOrder
 {

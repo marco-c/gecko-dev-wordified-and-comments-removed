@@ -12,6 +12,12 @@ GLContextEGL
 .
 h
 "
+namespace
+mozilla
+{
+namespace
+gl
+{
 using
 namespace
 mozilla
@@ -19,12 +25,6 @@ mozilla
 :
 gfx
 ;
-namespace
-mozilla
-{
-namespace
-gl
-{
 SurfaceFactory_ANGLEShareHandle
 *
 SurfaceFactory_ANGLEShareHandle

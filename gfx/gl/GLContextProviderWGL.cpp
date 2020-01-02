@@ -70,6 +70,12 @@ Preferences
 .
 h
 "
+namespace
+mozilla
+{
+namespace
+gl
+{
 using
 namespace
 mozilla
@@ -77,12 +83,6 @@ mozilla
 :
 gfx
 ;
-namespace
-mozilla
-{
-namespace
-gl
-{
 WGLLibrary
 sWGLLib
 ;

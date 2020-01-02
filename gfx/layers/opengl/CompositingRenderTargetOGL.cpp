@@ -30,10 +30,12 @@ gfx
 .
 h
 "
-using
 namespace
 mozilla
-;
+{
+namespace
+layers
+{
 using
 namespace
 mozilla
@@ -47,13 +49,6 @@ mozilla
 :
 :
 gl
-;
-using
-namespace
-mozilla
-:
-:
-layers
 ;
 CompositingRenderTargetOGL
 :
@@ -615,4 +610,6 @@ InitParams
 :
 INITIALIZED
 ;
+}
+}
 }

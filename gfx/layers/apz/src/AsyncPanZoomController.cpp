@@ -1077,6 +1077,12 @@ result
 ;
 }
 }
+namespace
+mozilla
+{
+namespace
+layers
+{
 using
 namespace
 mozilla
@@ -1084,12 +1090,6 @@ mozilla
 :
 css
 ;
-namespace
-mozilla
-{
-namespace
-layers
-{
 typedef
 mozilla
 :

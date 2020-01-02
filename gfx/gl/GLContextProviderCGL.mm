@@ -182,6 +182,12 @@ MacIOSurface
 .
 h
 "
+namespace
+mozilla
+{
+namespace
+gl
+{
 using
 namespace
 mozilla
@@ -189,12 +195,6 @@ mozilla
 :
 gfx
 ;
-namespace
-mozilla
-{
-namespace
-gl
-{
 static
 bool
 gUseDoubleBufferedWindows
