@@ -20,6 +20,13 @@ MobileTabList
 (
 aConnection
 )
+addonList
+:
+new
+BrowserAddonList
+(
+aConnection
+)
 globalActorFactories
 :
 DebuggerServer
