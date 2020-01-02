@@ -665,7 +665,7 @@ ended
 ;
 assertWebRTCIndicatorStatus
 (
-false
+null
 )
 ;
 }
