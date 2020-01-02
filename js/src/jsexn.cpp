@@ -2782,7 +2782,7 @@ names
 (
 )
 .
-classPrototype
+prototype
 &
 protov
 )

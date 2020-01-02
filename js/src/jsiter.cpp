@@ -7918,7 +7918,7 @@ names
 (
 )
 .
-classPrototype
+prototype
 &
 pval
 )

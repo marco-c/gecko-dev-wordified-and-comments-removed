@@ -9950,7 +9950,7 @@ names
 (
 )
 .
-classPrototype
+prototype
 |
 |
 setprop

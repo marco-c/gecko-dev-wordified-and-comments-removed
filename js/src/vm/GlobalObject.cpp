@@ -2720,7 +2720,7 @@ names
 (
 )
 .
-classPrototype
+prototype
 protoVal
 JS_PropertyStub
 JS_StrictPropertyStub

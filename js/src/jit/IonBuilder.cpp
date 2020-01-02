@@ -21875,7 +21875,7 @@ names
 (
 )
 .
-classPrototype
+prototype
 )
 ;
 getPropCache
@@ -21909,7 +21909,7 @@ names
 (
 )
 .
-classPrototype
+prototype
 )
 ;
 callGetProp
@@ -22028,7 +22028,7 @@ names
 (
 )
 .
-classPrototype
+prototype
 )
 ;
 types
@@ -47059,7 +47059,7 @@ names
 (
 )
 .
-classPrototype
+prototype
 )
 )
 ;

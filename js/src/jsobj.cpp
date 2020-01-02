@@ -8343,7 +8343,7 @@ names
 (
 )
 .
-classPrototype
+prototype
 &
 protov
 )
@@ -8782,7 +8782,7 @@ names
 (
 )
 .
-classPrototype
+prototype
 &
 protov
 )
@@ -27536,7 +27536,7 @@ names
 (
 )
 .
-classPrototype
+prototype
 &
 v
 )
@@ -27566,7 +27566,7 @@ names
 (
 )
 .
-classPrototype
+prototype
 )
 ;
 if

@@ -883,7 +883,7 @@ names
 (
 )
 .
-classPrototype
+prototype
 )
 ;
 if
@@ -1236,7 +1236,7 @@ names
 (
 )
 .
-classPrototype
+prototype
 protoVal
 JS_PropertyStub
 JS_StrictPropertyStub
@@ -1357,7 +1357,7 @@ names
 (
 )
 .
-classPrototype
+prototype
 )
 )
 {
@@ -2640,7 +2640,7 @@ names
 (
 )
 .
-classPrototype
+prototype
 &
 pval
 )

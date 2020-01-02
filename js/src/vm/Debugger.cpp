@@ -11202,7 +11202,7 @@ names
 (
 )
 .
-classPrototype
+prototype
 &
 v
 )

@@ -273,7 +273,7 @@ names
 (
 )
 .
-classPrototype
+prototype
 )
 ;
 }
