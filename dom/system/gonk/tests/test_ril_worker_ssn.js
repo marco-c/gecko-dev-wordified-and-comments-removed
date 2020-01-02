@@ -109,6 +109,18 @@ workerHelper
 .
 worker
 ;
+let
+context
+=
+worker
+.
+ContextPool
+.
+_contexts
+[
+0
+]
+;
 function
 Call
 (
@@ -259,7 +271,7 @@ testInfo
 )
 )
 ;
-worker
+context
 .
 RIL
 .
@@ -289,7 +301,7 @@ number
 number
 }
 ;
-worker
+context
 .
 RIL
 .
@@ -331,7 +343,7 @@ callIndex
 resultCallIndex
 )
 ;
-worker
+context
 .
 RIL
 .
