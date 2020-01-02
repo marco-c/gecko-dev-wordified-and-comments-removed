@@ -420,7 +420,7 @@ title
 "
 string
 /
-fxaccount_policy_linktos
+fxaccount_status_linktos
 "
 >
 <
@@ -480,7 +480,7 @@ title
 "
 string
 /
-fxaccount_policy_linkprivacy
+fxaccount_status_linkprivacy
 "
 >
 <
