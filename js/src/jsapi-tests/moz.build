@@ -230,6 +230,11 @@ testFunctionProperties
 cpp
 '
 '
+testGCAllocator
+.
+cpp
+'
+'
 testGCExactRooting
 .
 cpp
