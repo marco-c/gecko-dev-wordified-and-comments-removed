@@ -941,6 +941,11 @@ long
 timeout
 =
 0
+any
+.
+.
+.
+unused
 )
 ;
 [
@@ -982,6 +987,11 @@ handler
 optional
 long
 timeout
+any
+.
+.
+.
+unused
 )
 ;
 [
