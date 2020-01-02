@@ -1832,6 +1832,7 @@ mOriginalSize
 =
 0
 )
+{
 mOriginalSize
 =
 (
@@ -1850,6 +1851,7 @@ getWidth
 )
 )
 ;
+}
 animator
 .
 addPropertyAnimationListener
@@ -1900,6 +1902,7 @@ tabs
 closeTab
 (
 tab
+true
 )
 ;
 }
