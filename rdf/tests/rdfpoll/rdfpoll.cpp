@@ -186,12 +186,8 @@ Observer
 public
 nsIRDFObserver
 {
-public
+protected
 :
-Observer
-(
-)
-;
 virtual
 ~
 Observer
@@ -199,6 +195,12 @@ Observer
 )
 {
 }
+public
+:
+Observer
+(
+)
+;
 NS_DECL_ISUPPORTS
 NS_DECL_NSIRDFOBSERVER
 }
