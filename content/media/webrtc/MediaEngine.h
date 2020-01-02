@@ -227,6 +227,15 @@ TrackID
 0
 ;
 virtual
+void
+SetDirectListeners
+(
+bool
+)
+=
+0
+;
+virtual
 nsresult
 Snapshot
 (

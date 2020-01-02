@@ -115,6 +115,16 @@ TrackID
 )
 ;
 virtual
+void
+SetDirectListeners
+(
+bool
+aHasDirectListeners
+)
+{
+}
+;
+virtual
 nsresult
 Snapshot
 (
