@@ -590,9 +590,6 @@ CanGC
 >
 (
 cx
-JSC
-:
-:
 BASELINE_CODE
 )
 ;

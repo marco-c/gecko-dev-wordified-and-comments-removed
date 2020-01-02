@@ -1654,9 +1654,6 @@ NoGC
 >
 (
 cx
-JSC
-:
-:
 OTHER_CODE
 )
 ;
@@ -1885,9 +1882,6 @@ NoGC
 >
 (
 cx
-JSC
-:
-:
 OTHER_CODE
 )
 ;
@@ -2301,9 +2295,6 @@ NoGC
 >
 (
 cx
-JSC
-:
-:
 OTHER_CODE
 )
 ;
@@ -2762,9 +2753,6 @@ NoGC
 >
 (
 cx
-JSC
-:
-:
 OTHER_CODE
 )
 ;
@@ -3673,9 +3661,6 @@ NoGC
 >
 (
 cx
-JSC
-:
-:
 OTHER_CODE
 )
 ;
@@ -3887,9 +3872,6 @@ NoGC
 >
 (
 cx
-JSC
-:
-:
 OTHER_CODE
 )
 ;
@@ -4165,9 +4147,6 @@ NoGC
 >
 (
 cx
-JSC
-:
-:
 OTHER_CODE
 )
 ;
@@ -4227,9 +4206,6 @@ NoGC
 >
 (
 cx
-JSC
-:
-:
 OTHER_CODE
 )
 ;
@@ -4291,9 +4267,6 @@ NoGC
 >
 (
 cx
-JSC
-:
-:
 OTHER_CODE
 )
 ;

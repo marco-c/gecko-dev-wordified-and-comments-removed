@@ -16,12 +16,13 @@ MemoryMetrics
 .
 h
 "
-#
-if
-ENABLE_ASSEMBLER
+using
 namespace
-JSC
-{
+js
+:
+:
+jit
+;
 size_t
 ExecutableAllocator
 :
@@ -377,6 +378,3 @@ return
 false
 ;
 }
-}
-#
-endif

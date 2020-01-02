@@ -2013,9 +2013,6 @@ NoGC
 >
 (
 cx
-JSC
-:
-:
 REGEXP_CODE
 )
 ;

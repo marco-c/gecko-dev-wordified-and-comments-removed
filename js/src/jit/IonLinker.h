@@ -104,15 +104,9 @@ newCode
 JSContext
 *
 cx
-JSC
-:
-:
 ExecutableAllocator
 *
 execAlloc
-JSC
-:
-:
 CodeKind
 kind
 )
@@ -152,9 +146,6 @@ fail
 cx
 )
 ;
-JSC
-:
-:
 ExecutablePool
 *
 pool
@@ -392,9 +383,6 @@ newCode
 JSContext
 *
 cx
-JSC
-:
-:
 CodeKind
 kind
 )
@@ -450,9 +438,6 @@ currentThreadOwnsInterruptLock
 )
 )
 ;
-JSC
-:
-:
 ExecutableAllocator
 *
 alloc
@@ -491,9 +476,6 @@ CanGC
 (
 cx
 alloc
-JSC
-:
-:
 ION_CODE
 )
 ;

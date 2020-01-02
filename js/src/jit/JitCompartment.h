@@ -405,16 +405,10 @@ friend
 class
 JitCompartment
 ;
-JSC
-:
-:
 ExecutableAllocator
 *
 execAlloc_
 ;
-JSC
-:
-:
 ExecutableAllocator
 *
 ionAlloc_
@@ -683,9 +677,6 @@ VMFunction
 f
 )
 ;
-JSC
-:
-:
 ExecutableAllocator
 *
 createIonAlloc
@@ -736,9 +727,6 @@ JSTracer
 trc
 )
 ;
-JSC
-:
-:
 ExecutableAllocator
 *
 execAlloc
@@ -750,9 +738,6 @@ return
 execAlloc_
 ;
 }
-JSC
-:
-:
 ExecutableAllocator
 *
 getIonAlloc
@@ -788,9 +773,6 @@ cx
 )
 ;
 }
-JSC
-:
-:
 ExecutableAllocator
 *
 ionAlloc
@@ -1585,9 +1567,6 @@ bool
 enabled
 )
 ;
-JSC
-:
-:
 ExecutableAllocator
 *
 createIonAlloc
