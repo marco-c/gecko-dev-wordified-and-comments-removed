@@ -101,9 +101,6 @@ DIRS
 lib
 '
 '
-prototype
-'
-'
 offline
 '
 '
@@ -119,6 +116,13 @@ MOCHITEST_MANIFESTS
 [
 '
 jquery
+/
+mochitest
+.
+ini
+'
+'
+prototype
 /
 mochitest
 .
