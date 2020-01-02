@@ -1,3 +1,15 @@
+default
+-
+preferences
+pref
+(
+dom
+.
+forms
+.
+number
+true
+)
 needs
 -
 focus
