@@ -11630,6 +11630,12 @@ if
 listenerWindow
 |
 |
+(
+listenerWindow
+.
+location
+&
+&
 listenerWindow
 .
 location
@@ -11642,6 +11648,7 @@ message
 json
 .
 href
+)
 )
 &
 &
