@@ -2133,6 +2133,16 @@ Dialling
 Number
 .
 *
+-
+'
+sdn
+'
+:
+Service
+Dialling
+Number
+.
+*
 *
 return
 a
