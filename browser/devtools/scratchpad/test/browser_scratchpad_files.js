@@ -266,6 +266,8 @@ saved
 ;
 gScratchpad
 .
+editor
+.
 setText
 (
 gFileContent
@@ -333,6 +335,8 @@ twice
 "
 ;
 gScratchpad
+.
+editor
 .
 setText
 (

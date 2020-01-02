@@ -120,10 +120,6 @@ browser_scratchpad_bug690552_display_outputs_errors
 .
 js
 \
-browser_scratchpad_bug650345_find_ui
-.
-js
-\
 browser_scratchpad_bug714942_goto_line_ui
 .
 js
