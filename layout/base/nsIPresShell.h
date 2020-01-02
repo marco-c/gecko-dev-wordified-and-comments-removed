@@ -2194,12 +2194,7 @@ nsDocShell
 &
 aContainer
 )
-{
-mForwardingContainer
-=
-aContainer
 ;
-}
 enum
 {
 RENDER_IS_UNTRUSTED
