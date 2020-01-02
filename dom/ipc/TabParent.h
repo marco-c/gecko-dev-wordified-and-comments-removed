@@ -1124,6 +1124,16 @@ return
 mManager
 ;
 }
+bool
+IsDestroyed
+(
+)
+const
+{
+return
+mIsDestroyed
+;
+}
 protected
 :
 bool

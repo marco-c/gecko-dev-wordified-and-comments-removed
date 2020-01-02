@@ -88,6 +88,11 @@ ContentPermissionRequestParent
 (
 )
 ;
+bool
+IsBeingDestroyed
+(
+)
+;
 nsCOMPtr
 <
 nsIPrincipal
