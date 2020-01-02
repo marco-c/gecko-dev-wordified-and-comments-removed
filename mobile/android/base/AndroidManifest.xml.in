@@ -1055,7 +1055,7 @@ true
 >
 #
 ifdef
-MOZ_NATIVE_CASTING
+MOZ_NATIVE_DEVICES
 <
 !
 -

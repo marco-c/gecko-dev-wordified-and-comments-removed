@@ -476,7 +476,7 @@ v7
 compat
 libraries
 ifdef
-MOZ_NATIVE_CASTING
+MOZ_NATIVE_DEVICES
 JAVA_CLASSPATH
 +
 =
@@ -2382,7 +2382,7 @@ aapt
 deps
 ;
 ifdef
-MOZ_NATIVE_CASTING
+MOZ_NATIVE_DEVICES
 extra_packages
 +
 =

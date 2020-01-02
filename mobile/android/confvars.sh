@@ -273,6 +273,16 @@ MOZ_DEVICES
 =
 1
 #
+Enable
+second
+screen
+using
+native
+Android
+libraries
+MOZ_NATIVE_DEVICES
+=
+#
 Don
 '
 t
