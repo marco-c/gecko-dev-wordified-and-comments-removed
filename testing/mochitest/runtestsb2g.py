@@ -370,6 +370,22 @@ test_url
 )
     
 def
+buildTestPath
+(
+self
+options
+)
+:
+        
+return
+self
+.
+buildTestURL
+(
+options
+)
+    
+def
 build_profile
 (
 self
