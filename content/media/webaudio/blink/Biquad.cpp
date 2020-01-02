@@ -269,7 +269,7 @@ i
 -
 &
 &
-fabs
+fabsf
 (
 destP
 [
