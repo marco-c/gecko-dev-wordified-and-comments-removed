@@ -110,6 +110,10 @@ DBusReplyHandler
 {
 public
 :
+MOZ_DECLARE_REFCOUNTED_TYPENAME
+(
+DBusReplyHandler
+)
 virtual
 ~
 DBusReplyHandler

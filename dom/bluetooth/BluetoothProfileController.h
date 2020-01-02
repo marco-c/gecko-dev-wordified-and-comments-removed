@@ -196,6 +196,10 @@ BluetoothProfileController
 {
 public
 :
+MOZ_DECLARE_REFCOUNTED_TYPENAME
+(
+BluetoothProfileController
+)
 BluetoothProfileController
 (
 bool

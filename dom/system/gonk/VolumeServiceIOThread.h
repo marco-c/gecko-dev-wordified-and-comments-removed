@@ -57,6 +57,10 @@ VolumeServiceIOThread
 {
 public
 :
+MOZ_DECLARE_REFCOUNTED_TYPENAME
+(
+VolumeServiceIOThread
+)
 VolumeServiceIOThread
 (
 nsVolumeService

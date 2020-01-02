@@ -50,6 +50,10 @@ VolatileBufferPtr_base
 ;
 public
 :
+MOZ_DECLARE_REFCOUNTED_TYPENAME
+(
+VolatileBuffer
+)
 VolatileBuffer
 (
 )

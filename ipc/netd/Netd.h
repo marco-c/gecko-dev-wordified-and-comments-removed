@@ -76,6 +76,10 @@ NetdConsumer
 {
 public
 :
+MOZ_DECLARE_REFCOUNTED_TYPENAME
+(
+NetdConsumer
+)
 virtual
 ~
 NetdConsumer
@@ -126,6 +130,10 @@ NetdClient
 {
 public
 :
+MOZ_DECLARE_REFCOUNTED_TYPENAME
+(
+NetdClient
+)
 typedef
 std
 :

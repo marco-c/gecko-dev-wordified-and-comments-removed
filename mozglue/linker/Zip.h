@@ -61,6 +61,10 @@ Zip
 {
 public
 :
+MOZ_DECLARE_REFCOUNTED_TYPENAME
+(
+Zip
+)
 static
 mozilla
 :

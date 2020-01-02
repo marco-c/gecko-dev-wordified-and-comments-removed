@@ -73,6 +73,10 @@ Mappable
 {
 public
 :
+MOZ_DECLARE_REFCOUNTED_TYPENAME
+(
+Mappable
+)
 virtual
 ~
 Mappable

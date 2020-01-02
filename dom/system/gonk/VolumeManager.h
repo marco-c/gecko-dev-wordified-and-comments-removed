@@ -100,6 +100,10 @@ VolumeManager
 {
 public
 :
+MOZ_DECLARE_REFCOUNTED_TYPENAME
+(
+VolumeManager
+)
 typedef
 nsTArray
 <
