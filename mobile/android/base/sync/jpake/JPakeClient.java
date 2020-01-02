@@ -1464,7 +1464,7 @@ hmacHex
 =
 Utils
 .
-byte2hex
+byte2Hex
 (
 encrypted
 .
