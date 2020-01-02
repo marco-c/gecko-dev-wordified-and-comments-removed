@@ -445,14 +445,6 @@ rval_
 1
 )
 ;
-hookData_
-=
-(
-void
-*
-)
-0xbad
-;
 #
 endif
 }
