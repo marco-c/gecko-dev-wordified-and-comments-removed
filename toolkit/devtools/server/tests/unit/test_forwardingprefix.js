@@ -89,8 +89,6 @@ aConn
 ;
 return
 new
-DebuggerServer
-.
 RootActor
 (
 aConn
