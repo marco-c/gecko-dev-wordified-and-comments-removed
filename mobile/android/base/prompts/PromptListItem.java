@@ -31,6 +31,13 @@ JSONException
 import
 android
 .
+content
+.
+Intent
+;
+import
+android
+.
 graphics
 .
 drawable
@@ -93,6 +100,10 @@ id
 public
 boolean
 selected
+;
+public
+Intent
+intent
 ;
 public
 boolean
