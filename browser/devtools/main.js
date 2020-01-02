@@ -1412,6 +1412,15 @@ inspector
 -
 commands
 "
+"
+devtools
+/
+eyedropper
+/
+commands
+.
+js
+"
 ]
 preventClosingOnKey
 :
