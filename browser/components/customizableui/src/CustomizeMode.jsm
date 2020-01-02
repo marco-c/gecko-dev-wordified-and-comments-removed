@@ -4003,7 +4003,7 @@ aNode
 hasAttribute
 (
 "
-title
+label
 "
 )
 )
@@ -4020,7 +4020,7 @@ aNode
 getAttribute
 (
 "
-title
+label
 "
 )
 )
@@ -4034,7 +4034,7 @@ aNode
 hasAttribute
 (
 "
-label
+title
 "
 )
 )
@@ -4051,7 +4051,7 @@ aNode
 getAttribute
 (
 "
-label
+title
 "
 )
 )
