@@ -83,6 +83,7 @@ value
 ;
 private
 :
+explicit
 InfoObject
 (
 JSContext
