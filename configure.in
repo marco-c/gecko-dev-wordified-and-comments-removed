@@ -21060,6 +21060,11 @@ h
 byteswap
 .
 h
+sys
+/
+uio
+.
+h
 )
 dnl
 Check
