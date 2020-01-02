@@ -204,6 +204,10 @@ gfx
 :
 IntSize
 aSize
+uint32_t
+aMaxTextureClients
+uint32_t
+aShrinkTimeoutMsec
 ISurfaceAllocator
 *
 aAllocator
@@ -216,6 +220,14 @@ aFormat
 mSize
 (
 aSize
+)
+mMaxTextureClients
+(
+aMaxTextureClients
+)
+mShrinkTimeoutMsec
+(
+aShrinkTimeoutMsec
 )
 mSurfaceAllocator
 (
@@ -522,7 +534,7 @@ size
 (
 )
 <
-sMaxTextureClients
+mMaxTextureClients
 )
 {
 mAvailableTextureClients
@@ -641,7 +653,7 @@ SimpleTextureClientPool
 :
 ShrinkCallback
 this
-sShrinkTimeout
+mShrinkTimeoutMsec
 nsITimer
 :
 :

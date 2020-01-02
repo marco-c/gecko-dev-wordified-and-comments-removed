@@ -85,6 +85,10 @@ gfx
 :
 IntSize
 aSize
+uint32_t
+aMaxTextureClients
+uint32_t
+aShrinkTimeoutMsec
 ISurfaceAllocator
 *
 aAllocator
@@ -97,6 +101,14 @@ aFormat
 mSize
 (
 aSize
+)
+mMaxTextureClients
+(
+aMaxTextureClients
+)
+mShrinkTimeoutMsec
+(
+aShrinkTimeoutMsec
 )
 mOutstandingClients
 (
@@ -314,7 +326,7 @@ InitWithFuncCallback
 (
 ShrinkCallback
 this
-sShrinkTimeout
+mShrinkTimeoutMsec
 nsITimer
 :
 :
@@ -369,7 +381,7 @@ while
 (
 totalClientsOutstanding
 >
-sMaxTextureClients
+mMaxTextureClients
 )
 {
 if
