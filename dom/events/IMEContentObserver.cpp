@@ -17,6 +17,15 @@ include
 "
 mozilla
 /
+AsyncEventDispatcher
+.
+h
+"
+#
+include
+"
+mozilla
+/
 IMEStateManager
 .
 h
@@ -36,13 +45,6 @@ h
 include
 "
 nsAutoPtr
-.
-h
-"
-#
-include
-"
-nsAsyncDOMEvent
 .
 h
 "
@@ -475,7 +477,7 @@ Document
 ;
 (
 new
-nsAsyncDOMEvent
+AsyncEventDispatcher
 (
 doc
 NS_LITERAL_STRING
@@ -686,7 +688,7 @@ OwnerDoc
 ;
 (
 new
-nsAsyncDOMEvent
+AsyncEventDispatcher
 (
 doc
 NS_LITERAL_STRING

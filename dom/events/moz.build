@@ -137,11 +137,6 @@ EXPORTS
 =
 [
 '
-nsAsyncDOMEvent
-.
-h
-'
-'
 nsDOMEventTargetHelper
 .
 h
@@ -188,6 +183,11 @@ mozilla
 +
 =
 [
+'
+AsyncEventDispatcher
+.
+h
+'
 '
 EventListenerManager
 .
@@ -385,6 +385,11 @@ AnimationEvent
 cpp
 '
 '
+AsyncEventDispatcher
+.
+cpp
+'
+'
 BeforeUnloadEvent
 .
 cpp
@@ -496,11 +501,6 @@ cpp
 '
 '
 NotifyPaintEvent
-.
-cpp
-'
-'
-nsAsyncDOMEvent
 .
 cpp
 '
