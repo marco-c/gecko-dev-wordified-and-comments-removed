@@ -8493,10 +8493,9 @@ locale
 ;
 if
 (
-mHomePager
-!
-=
-null
+isHomePagerVisible
+(
+)
 )
 {
 mHomePager
