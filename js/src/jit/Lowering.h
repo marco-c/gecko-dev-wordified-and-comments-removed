@@ -911,6 +911,14 @@ object
 )
 ;
 bool
+visitOsrReturnValue
+(
+MOsrReturnValue
+*
+value
+)
+;
+bool
 visitOsrArgumentsObject
 (
 MOsrArgumentsObject

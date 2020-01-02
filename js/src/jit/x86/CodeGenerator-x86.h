@@ -258,14 +258,6 @@ value
 )
 ;
 bool
-visitOsrValue
-(
-LOsrValue
-*
-value
-)
-;
-bool
 visitLoadSlotV
 (
 LLoadSlotV
