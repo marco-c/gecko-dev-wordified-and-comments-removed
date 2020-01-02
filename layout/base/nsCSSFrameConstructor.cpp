@@ -1939,7 +1939,7 @@ IBSplitSibling
 static
 nsIFrame
 *
-GetSpecialPrevSibling
+GetIBSplitPrevSibling
 (
 nsIFrame
 *
@@ -23809,7 +23809,7 @@ nsIFrame
 *
 prevBlock
 =
-GetSpecialPrevSibling
+GetIBSplitPrevSibling
 (
 firstContinuation
 )
@@ -35427,7 +35427,7 @@ parentFirstContinuation
 |
 |
 !
-GetSpecialPrevSibling
+GetIBSplitPrevSibling
 (
 parentFirstContinuation
 )
