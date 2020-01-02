@@ -152,7 +152,7 @@ public
 static
 final
 String
-ACTION
+LAUNCH
 =
 "
 launch
