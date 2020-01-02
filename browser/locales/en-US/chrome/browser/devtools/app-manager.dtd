@@ -823,6 +823,17 @@ on
 <
 !
 ENTITY
+connection
+.
+startRegisteredSimulator
+"
+Start
+:
+"
+>
+<
+!
+ENTITY
 projects
 .
 localApps
