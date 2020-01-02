@@ -11660,6 +11660,8 @@ GeckoLoader
 .
 getGREDir
 (
+GeckoApp
+.
 this
 )
 ;
