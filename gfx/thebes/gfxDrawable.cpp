@@ -296,7 +296,10 @@ GetType
 ifdef
 MOZ_X11
 case
-gfxSurfaceTypeXlib
+gfxSurfaceType
+:
+:
+Xlib
 :
 {
 if

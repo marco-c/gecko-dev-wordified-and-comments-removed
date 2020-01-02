@@ -2613,7 +2613,10 @@ GetType
 )
 =
 =
-gfxSurfaceTypeXlib
+gfxSurfaceType
+:
+:
+Xlib
 )
 {
 mFrontSurface

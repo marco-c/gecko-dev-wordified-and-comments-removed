@@ -344,7 +344,10 @@ GetType
 )
 =
 =
-gfxSurfaceTypeQuartz
+gfxSurfaceType
+:
+:
+Quartz
 &
 &
 (

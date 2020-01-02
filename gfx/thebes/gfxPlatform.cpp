@@ -3126,7 +3126,10 @@ GetType
 )
 =
 =
-gfxSurfaceTypeQuartz
+gfxSurfaceType
+:
+:
+Quartz
 )
 {
 return
@@ -3507,7 +3510,10 @@ GetType
 )
 =
 =
-gfxSurfaceTypeD2D
+gfxSurfaceType
+:
+:
+D2D
 &
 &
 format
@@ -3720,7 +3726,10 @@ GetType
 )
 =
 =
-gfxSurfaceTypeWin32
+gfxSurfaceType
+:
+:
+Win32
 ;
 if
 (

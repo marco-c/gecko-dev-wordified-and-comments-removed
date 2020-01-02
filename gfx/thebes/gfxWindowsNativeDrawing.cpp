@@ -218,7 +218,10 @@ GetType
 )
 =
 =
-gfxSurfaceTypeWin32
+gfxSurfaceType
+:
+:
+Win32
 |
 |
 surf
@@ -229,7 +232,10 @@ GetType
 )
 =
 =
-gfxSurfaceTypeWin32Printing
+gfxSurfaceType
+:
+:
+Win32Printing
 )
 &
 &
@@ -930,7 +936,10 @@ GetType
 )
 !
 =
-gfxSurfaceTypeWin32
+gfxSurfaceType
+:
+:
+Win32
 &
 &
 surf
@@ -941,7 +950,10 @@ GetType
 )
 !
 =
-gfxSurfaceTypeWin32Printing
+gfxSurfaceType
+:
+:
+Win32Printing
 )
 {
 return

@@ -99,7 +99,10 @@ GetType
 )
 =
 =
-gfxSurfaceTypeImage
+gfxSurfaceType
+:
+:
+Image
 &
 &
 gShmAvailable

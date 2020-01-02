@@ -632,7 +632,10 @@ GetType
 )
 =
 =
-gfxSurfaceTypeImage
+gfxSurfaceType
+:
+:
+Image
 &
 &
 mUpdateSurface

@@ -1392,7 +1392,10 @@ GetType
 )
 !
 =
-gfxSurfaceTypeXlib
+gfxSurfaceType
+:
+:
+Xlib
 |
 |
 !

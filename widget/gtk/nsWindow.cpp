@@ -8674,7 +8674,10 @@ GetType
 )
 !
 =
-gfxSurfaceTypeImage
+gfxSurfaceType
+:
+:
+Image
 )
 {
 gfxImageSurface

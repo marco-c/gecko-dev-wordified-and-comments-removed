@@ -265,7 +265,10 @@ false
 }
 return
 (
-gfxSurfaceTypeXlib
+gfxSurfaceType
+:
+:
+Xlib
 =
 =
 gfxPlatform
@@ -693,7 +696,10 @@ GetType
 )
 !
 =
-gfxSurfaceTypeXlib
+gfxSurfaceType
+:
+:
+Xlib
 )
 {
 NS_ERROR
