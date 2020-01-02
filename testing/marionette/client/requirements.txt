@@ -53,3 +53,9 @@ moztest
 0
 .
 1
+mozversion
+>
+=
+0
+.
+2

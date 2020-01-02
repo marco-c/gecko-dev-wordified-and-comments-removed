@@ -67,6 +67,16 @@ collapse
 }
 #
 configuration
+{
+font
+-
+size
+:
+12px
+;
+}
+#
+configuration
 td
 {
 padding
