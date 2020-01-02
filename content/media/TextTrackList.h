@@ -126,6 +126,9 @@ TextTrack
 >
 AddTextTrack
 (
+HTMLMediaElement
+*
+aMediaElement
 TextTrackKind
 aKind
 const
@@ -171,6 +174,11 @@ const
 TextTrack
 &
 aTrack
+)
+;
+void
+DidSeek
+(
 )
 ;
 IMPL_EVENT_HANDLER
