@@ -2051,7 +2051,7 @@ defineLazyModuleGetter
 (
 this
 "
-PriorityUrlProvider
+PlacesSearchAutocompleteProvider
 "
 "
 resource
@@ -2062,7 +2062,7 @@ gre
 /
 modules
 /
-PriorityUrlProvider
+PlacesSearchAutocompleteProvider
 .
 jsm
 "
@@ -4013,9 +4013,9 @@ let
 priorityMatch
 =
 yield
-PriorityUrlProvider
+PlacesSearchAutocompleteProvider
 .
-getMatch
+findMatchByToken
 (
 this
 .
@@ -4050,7 +4050,7 @@ comment
 :
 priorityMatch
 .
-title
+engineName
 icon
 :
 priorityMatch
@@ -4061,11 +4061,8 @@ style
 "
 priority
 -
+search
 "
-+
-priorityMatch
-.
-reason
 finalCompleteValue
 :
 priorityMatch
