@@ -563,6 +563,16 @@ Clear
 <
 !
 ENTITY
+consoleCopyAll
+.
+label
+"
+Copy
+"
+>
+<
+!
+ENTITY
 consoleEvaluate
 .
 label
