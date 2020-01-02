@@ -6432,13 +6432,13 @@ twitter
 .
 com
 "
-false
-false
+true
+true
 false
 -
 1
 &
-kPinset_twitterCom
+kPinset_twitterCDN
 }
 {
 "
@@ -6886,6 +6886,6 @@ kPreloadPKPinsExpirationTime
 =
 INT64_C
 (
-1413412335521000
+1414009276397000
 )
 ;
