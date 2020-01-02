@@ -4615,13 +4615,6 @@ components
 DownloadsUI
 .
 js
-BINPATH
-/
-components
-/
-InterAppCommUIGlue
-.
-js
 #
 ifndef
 MOZ_WIDGET_GONK
