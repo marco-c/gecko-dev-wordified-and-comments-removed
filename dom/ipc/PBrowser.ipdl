@@ -136,6 +136,10 @@ PContentPermissionRequest
 ;
 include
 protocol
+PFilePicker
+;
+include
+protocol
 PRenderFrame
 ;
 include
@@ -590,6 +594,9 @@ PDocumentRenderer
 ;
 manages
 PContentPermissionRequest
+;
+manages
+PFilePicker
 ;
 manages
 PRenderFrame
@@ -1624,6 +1631,14 @@ nsString
 [
 ]
 aStringParams
+)
+;
+PFilePicker
+(
+nsString
+aTitle
+int16_t
+aMode
 )
 ;
 /

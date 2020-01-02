@@ -184,6 +184,11 @@ CrashReporterParent
 h
 '
 '
+FilePickerParent
+.
+h
+'
+'
 PermissionMessageUtils
 .
 h
@@ -262,6 +267,11 @@ cpp
 '
 '
 CrashReporterParent
+.
+cpp
+'
+'
+FilePickerParent
 .
 cpp
 '
@@ -410,6 +420,11 @@ ipdl
 '
 '
 PDocumentRenderer
+.
+ipdl
+'
+'
+PFilePicker
 .
 ipdl
 '
