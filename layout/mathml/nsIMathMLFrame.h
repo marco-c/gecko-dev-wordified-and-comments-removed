@@ -199,6 +199,14 @@ aFrame
 =
 0
 ;
+virtual
+bool
+IsMrowLike
+(
+)
+=
+0
+;
 }
 ;
 struct

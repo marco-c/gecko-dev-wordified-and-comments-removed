@@ -223,6 +223,17 @@ nscoord
 dx
 )
 ;
+virtual
+bool
+IsMrowLike
+(
+)
+MOZ_OVERRIDE
+{
+return
+true
+;
+}
 protected
 :
 nsMathMLmfencedFrame
