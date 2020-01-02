@@ -631,10 +631,6 @@ com
 "
 getXPCOMStatusFromNSS
 (
-useInsanity
-?
-SEC_ERROR_BAD_DER
-:
 SEC_ERROR_OCSP_UNKNOWN_CERT
 )
 true

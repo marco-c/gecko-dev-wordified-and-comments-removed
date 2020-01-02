@@ -560,6 +560,16 @@ return
 Success
 ;
 }
+void
+SkipToEnd
+(
+)
+{
+input
+=
+end
+;
+}
 bool
 AtEnd
 (
