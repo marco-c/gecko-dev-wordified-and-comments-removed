@@ -1184,6 +1184,11 @@ GetOwnerElement
 (
 )
 ;
+NS_ENSURE_STATE
+(
+frameElement
+)
+;
 nsIDocument
 *
 doc
