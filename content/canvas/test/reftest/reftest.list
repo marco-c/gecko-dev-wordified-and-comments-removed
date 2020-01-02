@@ -6477,7 +6477,7 @@ pref
 (
 canvas
 .
-focusring
+customfocusring
 .
 enabled
 true
