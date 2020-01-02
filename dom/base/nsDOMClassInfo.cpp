@@ -16431,6 +16431,12 @@ JSObject
 obj
 )
 {
+JS
+:
+:
+AutoAssertNoGC
+nogc
+;
 nsCOMPtr
 <
 nsIScriptGlobalObject
