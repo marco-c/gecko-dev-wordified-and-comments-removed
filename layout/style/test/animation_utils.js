@@ -1987,8 +1987,11 @@ computedStr
 }
 }
 ;
-function
+window
+.
 matricesRoughlyEqual
+=
+function
 (
 a
 b
@@ -2081,6 +2084,7 @@ return
 true
 ;
 }
+;
 window
 .
 convertTo3dMatrix
