@@ -264,6 +264,9 @@ nsIDOMGlobalPropertyInitializer
 Ci
 .
 nsISupportsWeakReference
+Ci
+.
+nsIObserver
 ]
 )
 __init

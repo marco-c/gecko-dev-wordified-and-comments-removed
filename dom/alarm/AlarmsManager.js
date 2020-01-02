@@ -217,6 +217,9 @@ nsIDOMGlobalPropertyInitializer
 Ci
 .
 nsISupportsWeakReference
+Ci
+.
+nsIObserver
 ]
 )
 classInfo
