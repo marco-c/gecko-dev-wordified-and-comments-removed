@@ -1883,6 +1883,12 @@ prop
 mProperty
 aFlags
 )
+|
+|
+IsCompositorAnimationDisabledForFrame
+(
+frame
+)
 )
 {
 return
