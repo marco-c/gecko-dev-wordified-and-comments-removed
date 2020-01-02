@@ -258,9 +258,11 @@ append
 aValue
 )
 )
+{
 return
 false
 ;
+}
 mTotal
 =
 mTotal

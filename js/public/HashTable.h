@@ -4353,7 +4353,7 @@ DebugOnly
 <
 bool
 >
-entered
+mEntered
 ;
 mozilla
 :
@@ -4697,7 +4697,7 @@ table
 (
 nullptr
 )
-entered
+mEntered
 (
 false
 )
@@ -6309,7 +6309,7 @@ finish
 MOZ_ASSERT
 (
 !
-entered
+mEntered
 )
 ;
 if

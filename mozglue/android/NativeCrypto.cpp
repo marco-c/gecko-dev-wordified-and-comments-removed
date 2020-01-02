@@ -352,7 +352,7 @@ NewByteArray
 SHA1Sum
 :
 :
-HashSize
+kHashSize
 )
 ;
 if
@@ -377,7 +377,7 @@ out
 SHA1Sum
 :
 :
-HashSize
+kHashSize
 (
 jbyte
 *

@@ -31,7 +31,7 @@ ToString
 const
 T
 &
-t
+aValue
 )
 {
 std
@@ -43,7 +43,7 @@ stream
 stream
 <
 <
-t
+aValue
 ;
 return
 stream

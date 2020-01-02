@@ -2160,7 +2160,7 @@ DebugOnly
 <
 bool
 >
-entered
+mEntered
 ;
 public
 :
@@ -2213,7 +2213,7 @@ enabled_
 (
 false
 )
-entered
+mEntered
 (
 false
 )

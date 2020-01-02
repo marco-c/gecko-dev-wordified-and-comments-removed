@@ -557,7 +557,7 @@ uint8_t
 SHA1Sum
 :
 :
-HashSize
+kHashSize
 ]
 ;
 memcpy
