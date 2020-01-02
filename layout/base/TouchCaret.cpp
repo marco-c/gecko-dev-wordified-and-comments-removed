@@ -2190,9 +2190,6 @@ message
 case
 NS_TOUCH_START
 :
-case
-NS_TOUCH_ENTER
-:
 status
 =
 HandleTouchDownEvent
