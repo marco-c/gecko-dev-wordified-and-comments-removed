@@ -612,7 +612,7 @@ nsIFile
 add_task
 (
 function
-test_getUserDownloadsDirectory
+test_getPreferredDownloadsDirectory
 (
 )
 {
@@ -622,7 +622,7 @@ downloadDir
 yield
 Downloads
 .
-getUserDownloadsDirectory
+getPreferredDownloadsDirectory
 (
 )
 ;
