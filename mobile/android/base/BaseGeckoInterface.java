@@ -117,6 +117,7 @@ GeckoAppShell
 GeckoInterface
 {
 private
+final
 Context
 mContext
 ;
@@ -264,11 +265,8 @@ run
 Window
 window
 =
+getActivity
 (
-(
-Activity
-)
-mContext
 )
 .
 getWindow
@@ -306,6 +304,7 @@ SDK_INT
 =
 11
 )
+{
 window
 .
 getDecorView
@@ -321,6 +320,7 @@ fullscreen
 0
 )
 ;
+}
 }
 }
 )
