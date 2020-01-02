@@ -142,13 +142,6 @@ h
 #
 include
 "
-nsIURI
-.
-h
-"
-#
-include
-"
 nsIFileURL
 .
 h

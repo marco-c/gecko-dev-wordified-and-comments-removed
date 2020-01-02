@@ -1,4 +1,10 @@
 #
+ifndef
+mozJSComponentLoader_h
+#
+define
+mozJSComponentLoader_h
+#
 include
 "
 mozilla
@@ -18,6 +24,13 @@ h
 include
 "
 nsIObserver
+.
+h
+"
+#
+include
+"
+nsIURI
 .
 h
 "
@@ -560,3 +573,5 @@ mReuseLoaderGlobal
 ;
 }
 ;
+#
+endif
