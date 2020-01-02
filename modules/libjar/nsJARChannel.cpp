@@ -1780,16 +1780,6 @@ MOZ_ASSERT
 mProgressSink
 )
 ;
-if
-(
-mLoadFlags
-&
-LOAD_BACKGROUND
-)
-{
-return
-;
-}
 mProgressSink
 -
 >

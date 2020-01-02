@@ -881,15 +881,8 @@ NS_SUCCEEDED
 (
 rv
 )
-&
-&
-!
-(
-mLoadFlags
-&
-LOAD_BACKGROUND
 )
-)
+{
 mProgressSink
 -
 >
@@ -910,6 +903,7 @@ mContentLength
 )
 )
 ;
+}
 }
 class
 WyciwygStopRequestEvent

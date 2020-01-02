@@ -313,6 +313,12 @@ new
 XMLHttpRequest
 ;
 var
+xhr2
+=
+new
+XMLHttpRequest
+;
+var
 eventSink
 =
 xhr
@@ -389,7 +395,7 @@ true
 try
 {
 return
-xhr
+xhr2
 .
 getInterface
 (
