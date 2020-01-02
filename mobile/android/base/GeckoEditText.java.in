@@ -1,0 +1,14 @@
+#
+filter
+substitution
+#
+define
+VIEWTYPE
+EditText
+#
+include
+GeckoView
+.
+java
+.
+frag

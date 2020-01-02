@@ -1,0 +1,14 @@
+#
+filter
+substitution
+#
+define
+VIEWTYPE
+FrameLayout
+#
+include
+GeckoView
+.
+java
+.
+frag
