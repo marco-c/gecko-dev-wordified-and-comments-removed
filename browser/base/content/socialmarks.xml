@@ -1731,16 +1731,6 @@ notificationFrameId
 "
 )
 ;
-let
-wasAlive
-=
-SharedFrame
-.
-isGroupAlive
-(
-frameId
-)
-;
 SharedFrame
 .
 setOwner

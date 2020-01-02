@@ -622,16 +622,6 @@ getElementById
 notificationFrameId
 )
 ;
-let
-wasAlive
-=
-SharedFrame
-.
-isGroupAlive
-(
-notificationFrameId
-)
-;
 SharedFrame
 .
 setOwner
@@ -905,9 +895,6 @@ readyState
 "
 complete
 "
-&
-&
-wasAlive
 )
 {
 initFrameShow
