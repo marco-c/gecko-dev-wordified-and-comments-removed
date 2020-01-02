@@ -5454,11 +5454,6 @@ GetExistingDOMRule
 ;
 }
 }
-DOMCI_DATA
-(
-CSSStyleSheet
-nsCSSStyleSheet
-)
 NS_INTERFACE_MAP_BEGIN_CYCLE_COLLECTION
 (
 nsCSSStyleSheet
@@ -5484,10 +5479,6 @@ NS_INTERFACE_MAP_ENTRY_AMBIGUOUS
 (
 nsISupports
 nsIStyleSheet
-)
-NS_DOM_INTERFACE_MAP_ENTRY_CLASSINFO
-(
-CSSStyleSheet
 )
 if
 (

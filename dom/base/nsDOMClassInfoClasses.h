@@ -34,10 +34,6 @@ DOMCI_CLASS
 (
 CSSNameSpaceRule
 )
-DOMCI_CLASS
-(
-CSSStyleSheet
-)
 #
 ifdef
 MOZ_XUL
