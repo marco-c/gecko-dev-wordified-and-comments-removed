@@ -122,13 +122,10 @@ bundled
 with
 xulrunner
 ifndef
-SYSTEM_LIBXUL
-ifndef
 MOZ_MULET
 MOZ_PKG_FATAL_WARNINGS
 =
 1
-endif
 endif
 DEFINES
 +

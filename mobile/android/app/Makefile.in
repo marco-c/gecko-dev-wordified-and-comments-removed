@@ -166,10 +166,6 @@ bin
 APP_BINARY
 )
 endif
-ifndef
-SKIP_COPY_XULRUNNER
-#
-{
 ifdef
 LIBXUL_SDK
 (
@@ -218,10 +214,6 @@ xf
 -
 )
 endif
-endif
-#
-}
-SKIP_COPY_XULRUNNER
 (
 NSINSTALL
 )
