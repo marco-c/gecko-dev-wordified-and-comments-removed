@@ -6063,13 +6063,11 @@ parser_
 .
 tokenStream
 .
-currentToken
+peekTokenPos
 (
 )
 .
-pos
-.
-end
+begin
 str
 )
 ;
