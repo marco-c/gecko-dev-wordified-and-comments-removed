@@ -1039,6 +1039,8 @@ ss_duplicateTab
 aWindow
 aTab
 aDelta
+=
+0
 )
 {
 return
@@ -6590,6 +6592,8 @@ ssi_duplicateTab
 aWindow
 aTab
 aDelta
+=
+0
 )
 {
 if
