@@ -221,6 +221,11 @@ URIUtils
 .
 h
 '
+'
+WindowsMessageLoop
+.
+h
+'
 ]
 if
 CONFIG

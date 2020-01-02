@@ -479,6 +479,9 @@ SyncStackFrame
 *
 mTopFrame
 ;
+bool
+mIsSyncWaitingOnNonMainThread
+;
 static
 SyncStackFrame
 *

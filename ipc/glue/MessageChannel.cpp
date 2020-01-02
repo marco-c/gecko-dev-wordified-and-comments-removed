@@ -909,6 +909,10 @@ mTopFrame
 =
 nullptr
 ;
+mIsSyncWaitingOnNonMainThread
+=
+false
+;
 #
 endif
 mDequeueOneTask

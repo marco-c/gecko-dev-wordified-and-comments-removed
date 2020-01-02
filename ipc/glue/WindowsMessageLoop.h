@@ -36,6 +36,11 @@ ipc
 namespace
 windows
 {
+void
+InitUIThread
+(
+)
+;
 class
 DeferredMessage
 {
