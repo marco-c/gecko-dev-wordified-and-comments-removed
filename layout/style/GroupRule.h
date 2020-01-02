@@ -82,6 +82,10 @@ protected
 :
 GroupRule
 (
+uint32_t
+aLineNumber
+uint32_t
+aColumnNumber
 )
 ;
 GroupRule

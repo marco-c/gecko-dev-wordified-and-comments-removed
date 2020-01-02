@@ -111,12 +111,8 @@ Rule
 (
 uint32_t
 aLineNumber
-=
-0
 uint32_t
 aColumnNumber
-=
-0
 )
 :
 mSheet
