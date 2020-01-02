@@ -903,14 +903,14 @@ java
 '
 db
 /
-PerProfileContentProvider
+PerProfileDatabases
 .
 java
 '
 '
 db
 /
-PerProfileDatabases
+SQLiteBridgeContentProvider
 .
 java
 '

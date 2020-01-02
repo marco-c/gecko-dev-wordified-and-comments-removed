@@ -137,7 +137,7 @@ public
 class
 FormHistoryProvider
 extends
-PerProfileContentProvider
+SQLiteBridgeContentProvider
 {
 static
 final

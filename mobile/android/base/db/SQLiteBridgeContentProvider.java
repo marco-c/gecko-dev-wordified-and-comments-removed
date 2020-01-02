@@ -156,7 +156,7 @@ Log
 public
 abstract
 class
-PerProfileContentProvider
+SQLiteBridgeContentProvider
 extends
 ContentProvider
 {
@@ -180,7 +180,7 @@ String
 mLogTag
 ;
 protected
-PerProfileContentProvider
+SQLiteBridgeContentProvider
 (
 String
 logTag

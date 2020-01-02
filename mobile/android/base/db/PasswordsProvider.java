@@ -191,7 +191,7 @@ public
 class
 PasswordsProvider
 extends
-PerProfileContentProvider
+SQLiteBridgeContentProvider
 {
 static
 final
