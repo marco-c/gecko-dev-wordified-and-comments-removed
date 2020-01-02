@@ -7046,12 +7046,6 @@ IsDoomed
 (
 )
 {
-CacheFileAutoLock
-lock
-(
-this
-)
-;
 if
 (
 !
