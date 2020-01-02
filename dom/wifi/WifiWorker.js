@@ -8574,6 +8574,16 @@ net
 pin
 )
 ;
+net
+.
+pcsc
+=
+quote
+(
+"
+"
+)
+;
 }
 if
 (
