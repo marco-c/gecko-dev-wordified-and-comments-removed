@@ -2385,7 +2385,7 @@ mIsShutDown
 =
 true
 ;
-Suspend
+Mute
 (
 )
 ;
