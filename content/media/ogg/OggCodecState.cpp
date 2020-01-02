@@ -252,7 +252,7 @@ p
 )
 ;
 }
-static
+inline
 int16_t
 LEInt16
 (
