@@ -910,6 +910,9 @@ start
 len
 +
 =
+MAX
+(
+0
 snprintf
 (
 s
@@ -929,6 +932,7 @@ feature
 -
 >
 start
+)
 )
 ;
 if
@@ -976,6 +980,9 @@ int
 len
 +
 =
+MAX
+(
+0
 snprintf
 (
 s
@@ -995,6 +1002,7 @@ feature
 -
 >
 end
+)
 )
 ;
 }
@@ -1034,6 +1042,9 @@ len
 len
 +
 =
+MAX
+(
+0
 snprintf
 (
 s
@@ -1053,6 +1064,7 @@ feature
 -
 >
 value
+)
 )
 ;
 }
@@ -1083,7 +1095,7 @@ s
 len
 )
 ;
-s
+buf
 [
 len
 ]

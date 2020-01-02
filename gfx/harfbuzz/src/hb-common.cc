@@ -114,7 +114,7 @@ hb_tag_from_string
 const
 char
 *
-s
+str
 int
 len
 )
@@ -132,7 +132,7 @@ i
 if
 (
 !
-s
+str
 |
 |
 !
@@ -141,7 +141,7 @@ len
 |
 !
 *
-s
+str
 )
 return
 HB_TAG_NONE
@@ -175,7 +175,7 @@ unsigned
 len
 &
 &
-s
+str
 [
 i
 ]
@@ -189,7 +189,7 @@ tag
 i
 ]
 =
-s
+str
 [
 i
 ]
@@ -976,6 +976,10 @@ void
 {
 free
 (
+(
+void
+*
+)
 lang
 )
 ;
@@ -1173,6 +1177,12 @@ int
 len
 )
 {
+char
+strbuf
+[
+64
+]
+;
 if
 (
 !
@@ -1189,12 +1199,6 @@ str
 )
 return
 HB_LANGUAGE_INVALID
-;
-char
-strbuf
-[
-32
-]
 ;
 if
 (
