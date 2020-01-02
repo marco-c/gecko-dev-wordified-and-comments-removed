@@ -24683,7 +24683,13 @@ if
 (
 top
 +
+static_cast
+<
+ptrdiff_t
+>
+(
 JSOP_RETURN_LENGTH
+)
 !
 =
 bce
