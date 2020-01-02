@@ -316,6 +316,9 @@ TestHashtables
 TestID
 '
 '
+TestNsRefPtr
+'
+'
 TestObserverArray
 '
 '
@@ -326,9 +329,6 @@ TestPipe
 '
 '
 TestPLDHash
-'
-'
-TestRefPtr
 '
 '
 TestStringAPI
