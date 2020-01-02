@@ -1623,7 +1623,7 @@ fsmdef_ev_default
 fsmdef_ev_addstream
 fsmdef_ev_removestream
 fsmdef_ev_addcandidate
-fsmdef_ev_default
+fsmdef_ev_foundcandidate
 }
 {
 fsmdef_ev_default
@@ -16780,6 +16780,7 @@ candidate
 ;
 if
 (
+(
 fcb
 -
 >
@@ -16787,10 +16788,8 @@ state
 =
 =
 FSMDEF_S_STABLE
-)
-{
-if
-(
+&
+&
 !
 dcb
 -
@@ -16799,6 +16798,16 @@ sdp
 -
 >
 dest_sdp
+)
+|
+|
+fcb
+-
+>
+state
+=
+=
+FSMDEF_S_HAVE_REMOTE_OFFER
 )
 {
 fsmdef_candidate_t
@@ -16901,7 +16910,6 @@ SM_RC_END
 return
 SM_RC_END
 ;
-}
 }
 ui_ice_candidate_found
 (
