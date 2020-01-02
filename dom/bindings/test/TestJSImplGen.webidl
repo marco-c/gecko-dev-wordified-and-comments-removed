@@ -2561,6 +2561,17 @@ ByteString
 arg
 )
 ;
+void
+PassUnionByteString
+(
+(
+ByteString
+or
+long
+)
+arg
+)
+;
 /
 /
 Enumerated

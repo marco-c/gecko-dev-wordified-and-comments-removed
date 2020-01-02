@@ -4405,6 +4405,14 @@ EventHandlerNonNullOrNullOrLong
 arg
 )
 ;
+void
+PassUnionWithByteString
+(
+const
+ByteStringOrLong
+&
+)
+;
 #
 endif
 void

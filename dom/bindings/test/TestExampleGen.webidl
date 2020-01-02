@@ -2348,6 +2348,17 @@ ByteString
 arg
 )
 ;
+void
+passUnionByteString
+(
+(
+ByteString
+or
+long
+)
+arg
+)
+;
 /
 /
 Enumerated

@@ -3800,6 +3800,17 @@ long
 arg
 )
 ;
+void
+passUnionWithByteString
+(
+(
+ByteString
+or
+long
+)
+arg
+)
+;
 #
 endif
 void
