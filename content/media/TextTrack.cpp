@@ -168,6 +168,8 @@ const
 nsAString
 &
 aLanguage
+TextTrackMode
+aMode
 TextTrackSource
 aTextTrackSource
 )
@@ -197,6 +199,10 @@ mLanguage
 =
 aLanguage
 ;
+mMode
+=
+aMode
+;
 SetIsDOMBinding
 (
 )
@@ -223,6 +229,8 @@ const
 nsAString
 &
 aLanguage
+TextTrackMode
+aMode
 TextTrackSource
 aTextTrackSource
 )
@@ -255,6 +263,10 @@ aLabel
 mLanguage
 =
 aLanguage
+;
+mMode
+=
+aMode
 ;
 SetIsDOMBinding
 (

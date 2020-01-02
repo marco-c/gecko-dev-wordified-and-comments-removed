@@ -310,6 +310,8 @@ const
 nsAString
 &
 aLanguage
+TextTrackMode
+aMode
 TextTrackSource
 aTextTrackSource
 const
@@ -332,6 +334,7 @@ this
 aKind
 aLabel
 aLanguage
+aMode
 aTextTrackSource
 )
 ;
