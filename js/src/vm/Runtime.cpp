@@ -1083,7 +1083,7 @@ js
 jit
 :
 :
-hasVFP
+HasVFP
 (
 )
 )

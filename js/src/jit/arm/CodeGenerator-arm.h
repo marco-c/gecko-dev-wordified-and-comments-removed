@@ -1295,7 +1295,7 @@ lir
 if
 (
 !
-useHardFpABI
+UseHardFpABI
 (
 )
 &

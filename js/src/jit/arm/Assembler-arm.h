@@ -9749,7 +9749,7 @@ arg
 JS_ASSERT
 (
 !
-useHardFpABI
+UseHardFpABI
 (
 )
 )
@@ -9805,7 +9805,7 @@ out
 {
 JS_ASSERT
 (
-useHardFpABI
+UseHardFpABI
 (
 )
 )
@@ -9851,7 +9851,7 @@ padding
 {
 JS_ASSERT
 (
-useHardFpABI
+UseHardFpABI
 (
 )
 )
@@ -9925,7 +9925,7 @@ padding
 {
 JS_ASSERT
 (
-useHardFpABI
+UseHardFpABI
 (
 )
 )
@@ -9994,7 +9994,7 @@ padding
 {
 JS_ASSERT
 (
-useHardFpABI
+UseHardFpABI
 (
 )
 )
