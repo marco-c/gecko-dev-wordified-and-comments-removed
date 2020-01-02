@@ -122,6 +122,11 @@ actors
 js
 '
 '
+FireflyApp
+.
+jsm
+'
+'
 HelperApps
 .
 jsm
