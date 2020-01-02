@@ -5662,7 +5662,7 @@ endOffset
 )
 )
 {
-NS_ASSERTION
+NS_WARNING
 (
 startTime
 <
