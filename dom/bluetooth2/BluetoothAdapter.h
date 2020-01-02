@@ -801,6 +801,11 @@ aValue
 )
 ;
 void
+HandleAdapterStateChanged
+(
+)
+;
+void
 HandlePropertyChanged
 (
 const
