@@ -3397,13 +3397,7 @@ mAudioChannelAgent
 Init
 (
 mWindow
-(
-int32_t
-)
-AudioChannel
-:
-:
-Content
+AUDIO_CHANNEL_CONTENT
 nullptr
 )
 ;
