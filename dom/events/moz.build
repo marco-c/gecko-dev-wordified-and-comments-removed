@@ -298,6 +298,11 @@ MessageEvent
 h
 '
 '
+MouseScrollEvent
+.
+h
+'
+'
 PointerEvent
 .
 h
@@ -405,6 +410,11 @@ MessageEvent
 cpp
 '
 '
+MouseScrollEvent
+.
+cpp
+'
+'
 nsAsyncDOMEvent
 .
 cpp
@@ -421,11 +431,6 @@ cpp
 '
 '
 nsDOMMouseEvent
-.
-cpp
-'
-'
-nsDOMMouseScrollEvent
 .
 cpp
 '
