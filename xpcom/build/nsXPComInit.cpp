@@ -2895,7 +2895,7 @@ nestegg_set_halloc_func
 NesteggReporter
 :
 :
-CountingRealloc
+CountingFreeingRealloc
 )
 ;
 #
