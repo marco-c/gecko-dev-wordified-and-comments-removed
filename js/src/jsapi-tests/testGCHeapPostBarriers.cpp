@@ -129,6 +129,18 @@ return
 true
 ;
 }
+MOZ_NEVER_INLINE
+bool
+Passthrough
+(
+bool
+value
+)
+{
+return
+value
+;
+}
 template
 <
 typename
@@ -191,6 +203,8 @@ heapData
 ;
 CHECK
 (
+Passthrough
+(
 heapData
 -
 >
@@ -200,6 +214,7 @@ get
 =
 =
 nullptr
+)
 )
 ;
 heapData
