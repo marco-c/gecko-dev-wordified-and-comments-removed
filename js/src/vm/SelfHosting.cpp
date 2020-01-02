@@ -2275,13 +2275,12 @@ getDenseInitializedLength
 )
 )
 ;
-JSObject
-:
-:
+arrobj
+-
+>
 setDenseElementWithType
 (
 cx
-arrobj
 idx
 args
 [

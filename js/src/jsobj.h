@@ -1706,7 +1706,6 @@ Value
 value
 )
 ;
-static
 inline
 void
 nativeSetSlotWithType
@@ -1717,10 +1716,6 @@ js
 ExclusiveContext
 *
 cx
-js
-:
-:
-HandleObject
 js
 :
 :
@@ -2818,7 +2813,6 @@ Value
 val
 )
 ;
-static
 inline
 void
 setDenseElementWithType
@@ -2829,11 +2823,6 @@ js
 ExclusiveContext
 *
 cx
-js
-:
-:
-HandleObject
-obj
 uint32_t
 index
 const
@@ -2845,7 +2834,6 @@ Value
 val
 )
 ;
-static
 inline
 void
 initDenseElementWithType
@@ -2856,11 +2844,6 @@ js
 ExclusiveContext
 *
 cx
-js
-:
-:
-HandleObject
-obj
 uint32_t
 index
 const
@@ -2872,7 +2855,6 @@ Value
 val
 )
 ;
-static
 inline
 void
 setDenseElementHole
@@ -2883,11 +2865,6 @@ js
 ExclusiveContext
 *
 cx
-js
-:
-:
-HandleObject
-obj
 uint32_t
 index
 )
@@ -7179,12 +7156,6 @@ unsigned
 DNP_UNQUALIFIED
 =
 2
-;
-const
-unsigned
-DNP_SKIP_TYPE
-=
-4
 ;
 extern
 bool
