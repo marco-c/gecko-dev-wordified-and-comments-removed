@@ -8766,6 +8766,17 @@ GetScrollLayerCount
 virtual
 nsIFrame
 *
+GetScrollFrame
+(
+)
+{
+return
+mScrollFrame
+;
+}
+virtual
+nsIFrame
+*
 GetScrolledFrame
 (
 )
