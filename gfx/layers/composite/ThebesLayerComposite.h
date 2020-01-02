@@ -221,16 +221,6 @@ return
 this
 ;
 }
-void
-EnsureTiled
-(
-)
-{
-mRequiresTiledProperties
-=
-true
-;
-}
 virtual
 void
 InvalidateRegion
@@ -350,9 +340,6 @@ RefPtr
 ContentHost
 >
 mBuffer
-;
-bool
-mRequiresTiledProperties
 ;
 }
 ;

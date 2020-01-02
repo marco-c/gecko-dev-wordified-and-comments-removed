@@ -151,10 +151,6 @@ ContentHost
 (
 aTextureInfo
 )
-mPaintWillResample
-(
-false
-)
 mInitialised
 (
 false
@@ -200,9 +196,6 @@ const
 nsIntRegion
 *
 aVisibleRegion
-TiledLayerProperties
-*
-aLayerProperties
 )
 {
 NS_ASSERTION
