@@ -2165,6 +2165,14 @@ mNeedsAsyncDestroy
 =
 true
 ;
+nsCOMPtr
+<
+nsIURI
+>
+uriToLoad
+=
+mURIToLoad
+;
 rv
 =
 mDocShell
@@ -2172,7 +2180,7 @@ mDocShell
 >
 LoadURI
 (
-mURIToLoad
+uriToLoad
 loadInfo
 flags
 false
