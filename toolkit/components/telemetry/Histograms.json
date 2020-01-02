@@ -312,7 +312,7 @@ INVALID
 "
 }
 "
-APPLICATION_REPUTATION_SERVER_RESPONSE
+APPLICATION_REPUTATION_SERVER_VERDICT
 "
 :
 {
@@ -334,7 +334,7 @@ enumerated
 n_values
 "
 :
-5
+8
 "
 description
 "
