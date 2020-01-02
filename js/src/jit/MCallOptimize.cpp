@@ -10661,8 +10661,9 @@ alloc
 )
 callInfo
 .
-thisArg
+getArg
 (
+0
 )
 callInfo
 .
