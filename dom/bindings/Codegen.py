@@ -51863,8 +51863,10 @@ infallible
 movable
                       
 aliasSet
-hasSlot
+alwaysInSlot
+lazilyInSlot
 slotIndex
+                      
 returnTypes
 args
 )
@@ -51957,7 +51959,7 @@ AliasEverything
 assert
 (
 not
-hasSlot
+alwaysInSlot
 or
 movable
 )
@@ -52082,11 +52084,26 @@ setters
 /
                   
 {
-isInSlot
+isAlwaysInSlot
 }
 /
 *
-isInSlot
+isAlwaysInSlot
+.
+Only
+relevant
+for
+getters
+.
+*
+/
+                  
+{
+isLazilyCachedInSlot
+}
+/
+*
+isLazilyCachedInSlot
 .
 Only
 relevant
@@ -52186,11 +52203,18 @@ toStringBool
 movable
 )
                 
-isInSlot
+isAlwaysInSlot
 =
 toStringBool
 (
-hasSlot
+alwaysInSlot
+)
+                
+isLazilyCachedInSlot
+=
+toStringBool
+(
+lazilyInSlot
 )
                 
 isTypedMethod
@@ -52554,7 +52578,7 @@ self
 descriptor
 )
             
-isInSlot
+isAlwaysInSlot
 =
 self
 .
@@ -52568,8 +52592,34 @@ StoreInSlot
 )
             
 if
-isInSlot
+self
+.
+member
+.
+slotIndex
+is
+not
+None
 :
+                
+assert
+isAlwaysInSlot
+or
+self
+.
+member
+.
+getExtendedAttribute
+(
+"
+Cached
+"
+)
+                
+isLazilyCachedInSlot
+=
+not
+isAlwaysInSlot
                 
 slotIndex
 =
@@ -52582,6 +52632,10 @@ member
             
 else
 :
+                
+isLazilyCachedInSlot
+=
+False
                 
 slotIndex
 =
@@ -52605,7 +52659,9 @@ getterinfal
 movable
 aliasSet
                                         
-isInSlot
+isAlwaysInSlot
+isLazilyCachedInSlot
+                                        
 slotIndex
                                         
 [
@@ -52716,6 +52772,7 @@ False
 AliasEverything
 "
                                              
+False
 False
 "
 0
@@ -52988,6 +53045,8 @@ Method
 methodInfal
 movable
 aliasSet
+                                        
+False
 False
 "
 0

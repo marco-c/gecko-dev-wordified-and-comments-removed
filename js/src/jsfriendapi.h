@@ -7467,7 +7467,12 @@ isMovable
 1
 ;
 uint32_t
-isInSlot
+isAlwaysInSlot
+:
+1
+;
+uint32_t
+isLazilyCachedInSlot
 :
 1
 ;
@@ -7479,7 +7484,7 @@ isTypedMethod
 uint32_t
 slotIndex
 :
-12
+11
 ;
 }
 ;
@@ -7658,6 +7663,7 @@ JSJitInfo
 :
 AliasEverything
 JSVAL_TYPE_MISSING
+false
 false
 false
 false

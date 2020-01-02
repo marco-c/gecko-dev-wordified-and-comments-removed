@@ -34521,7 +34521,13 @@ MOZ_ASSERT
 info_
 -
 >
-isInSlot
+isAlwaysInSlot
+|
+|
+info_
+-
+>
+isLazilyCachedInSlot
 )
 ;
 return

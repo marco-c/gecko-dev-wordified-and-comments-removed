@@ -44518,7 +44518,7 @@ if
 jitinfo
 -
 >
-isInSlot
+isAlwaysInSlot
 )
 {
 get

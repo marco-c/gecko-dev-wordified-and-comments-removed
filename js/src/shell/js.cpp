@@ -29959,6 +29959,7 @@ true
 true
 false
 false
+false
 0
 }
 ;
@@ -29989,6 +29990,7 @@ false
 false
 false
 false
+false
 0
 }
 ;
@@ -30015,6 +30017,7 @@ JSJitInfo
 :
 AliasEverything
 JSVAL_TYPE_UNKNOWN
+false
 false
 false
 false
