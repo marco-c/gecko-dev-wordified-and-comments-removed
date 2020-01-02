@@ -1472,9 +1472,8 @@ DOT
 &
 &
 !
-accept
+hostChar
 (
-isCharacterToken
 )
 )
 {
@@ -1620,9 +1619,8 @@ nullptr
 if
 (
 !
-accept
+hostChar
 (
-isCharacterToken
 )
 )
 {
@@ -2888,6 +2886,10 @@ mCurDir
 [
 i
 ]
+;
+resetCurValue
+(
+)
 ;
 CSPPARSERLOG
 (
