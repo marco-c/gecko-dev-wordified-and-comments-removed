@@ -32584,7 +32584,6 @@ nsViewportInfo
 (
 aDisplaySize
 false
-false
 )
 ;
 case
@@ -32719,8 +32718,6 @@ return
 nsViewportInfo
 (
 aDisplaySize
-true
-false
 )
 ;
 }
@@ -32758,8 +32755,6 @@ return
 nsViewportInfo
 (
 aDisplaySize
-true
-false
 )
 ;
 }
@@ -32842,7 +32837,6 @@ return
 nsViewportInfo
 (
 aDisplaySize
-false
 false
 )
 ;
@@ -33202,10 +33196,6 @@ mAllowZoom
 false
 ;
 }
-mAllowDoubleTapZoom
-=
-mAllowZoom
-;
 mScaleStrEmpty
 =
 scaleStr
@@ -33655,7 +33645,6 @@ scaleMaxFloat
 size
 mAutoSize
 mAllowZoom
-mAllowDoubleTapZoom
 )
 ;
 }
@@ -49511,6 +49500,10 @@ mAllowRelocking
 {
 Allow
 (
+JS
+:
+:
+UndefinedHandleValue
 )
 ;
 return
@@ -49629,6 +49622,12 @@ nsIArray
 aTypes
 )
 {
+nsTArray
+<
+nsString
+>
+emptyOptions
+;
 return
 CreatePermissionArray
 (
@@ -49644,6 +49643,7 @@ NS_LITERAL_CSTRING
 unused
 "
 )
+emptyOptions
 aTypes
 )
 ;
@@ -49823,8 +49823,22 @@ nsPointerLockPermissionRequest
 :
 Allow
 (
+JS
+:
+:
+HandleValue
+aChoices
 )
 {
+MOZ_ASSERT
+(
+aChoices
+.
+isUndefined
+(
+)
+)
+;
 nsCOMPtr
 <
 Element

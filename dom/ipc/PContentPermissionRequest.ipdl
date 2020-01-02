@@ -60,6 +60,9 @@ include
 protocol
 PBrowser
 ;
+include
+PContentPermission
+;
 namespace
 mozilla
 {
@@ -84,6 +87,10 @@ __delete__
 (
 bool
 allow
+PermissionChoice
+[
+]
+choices
 )
 ;
 }
