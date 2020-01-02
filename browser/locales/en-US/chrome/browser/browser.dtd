@@ -1531,19 +1531,6 @@ l
 <
 !
 ENTITY
-findShareServices
-.
-label
-"
-Find
-more
-Share
-services
-"
->
-<
-!
-ENTITY
 sharePageCmd
 .
 label
@@ -1592,7 +1579,7 @@ shareLinkCmd
 .
 accesskey
 "
-h
+s
 "
 >
 <
@@ -1614,7 +1601,7 @@ shareImageCmd
 .
 accesskey
 "
-r
+s
 "
 >
 <
@@ -1635,7 +1622,7 @@ shareSelectCmd
 .
 accesskey
 "
-r
+s
 "
 >
 <
@@ -1657,7 +1644,7 @@ shareVideoCmd
 .
 accesskey
 "
-r
+s
 "
 >
 <
