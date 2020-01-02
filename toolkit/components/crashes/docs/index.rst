@@ -1,7 +1,3 @@
-.
-.
-_crashes_crashmanager
-:
 =
 =
 =
