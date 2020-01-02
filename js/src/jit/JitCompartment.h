@@ -1492,6 +1492,17 @@ JSScript
 script
 )
 ;
+void
+FinishDiscardJitCode
+(
+FreeOp
+*
+fop
+JSCompartment
+*
+comp
+)
+;
 #
 ifdef
 XP_WIN
