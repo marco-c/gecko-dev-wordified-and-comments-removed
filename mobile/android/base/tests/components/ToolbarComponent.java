@@ -305,7 +305,7 @@ url_edit_text
 }
 private
 View
-getUrlDisplayContainer
+getUrlDisplayLayout
 (
 )
 {
@@ -320,7 +320,7 @@ R
 .
 id
 .
-url_display_container
+display_layout
 )
 ;
 }
@@ -494,7 +494,7 @@ isEditing
 )
 {
 return
-getUrlDisplayContainer
+getUrlDisplayLayout
 (
 )
 .
