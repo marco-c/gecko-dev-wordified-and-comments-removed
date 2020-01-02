@@ -273,6 +273,9 @@ PCObserverString
 #
 endif
 }
+class
+MediaConstraintsExternal
+;
 }
 #
 if
@@ -392,6 +395,12 @@ using
 mozilla
 :
 :
+MediaConstraintsExternal
+;
+using
+mozilla
+:
+:
 DOMMediaStream
 ;
 using
@@ -438,9 +447,6 @@ PeerConnectionMedia
 ;
 class
 RemoteSourceStreamInfo
-;
-class
-MediaConstraintsExternal
 ;
 class
 OnCallEventArgs
