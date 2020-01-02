@@ -12901,6 +12901,16 @@ names
 length
 |
 |
+(
+!
+script
+-
+>
+strict
+(
+)
+&
+&
 ins
 -
 >
@@ -12922,6 +12932,7 @@ names
 )
 .
 callee
+)
 )
 )
 {
