@@ -600,6 +600,13 @@ cpp
 '
 binding
 /
+Box
+.
+cpp
+'
+'
+binding
+/
 DecoderData
 .
 cpp
@@ -608,6 +615,13 @@ cpp
 binding
 /
 Index
+.
+cpp
+'
+'
+binding
+/
+MoofParser
 .
 cpp
 '

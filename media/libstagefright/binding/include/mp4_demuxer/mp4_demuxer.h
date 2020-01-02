@@ -36,6 +36,13 @@ Interval
 .
 h
 "
+#
+include
+"
+nsISupportsImpl
+.
+h
+"
 namespace
 mozilla
 {
@@ -58,6 +65,11 @@ Stream
 {
 public
 :
+NS_INLINE_DECL_THREADSAFE_REFCOUNTING
+(
+Stream
+)
+;
 virtual
 bool
 ReadAt
@@ -87,6 +99,8 @@ size
 =
 0
 ;
+protected
+:
 virtual
 ~
 Stream
@@ -246,6 +260,12 @@ nsAutoPtr
 StageFrightPrivate
 >
 mPrivate
+;
+nsRefPtr
+<
+Stream
+>
+mSource
 ;
 }
 ;
