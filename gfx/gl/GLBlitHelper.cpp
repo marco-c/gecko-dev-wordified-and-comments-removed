@@ -4159,6 +4159,14 @@ autoStates
 mGL
 )
 ;
+mGL
+-
+>
+BindDrawFB
+(
+destFB
+)
+;
 bool
 good
 =
