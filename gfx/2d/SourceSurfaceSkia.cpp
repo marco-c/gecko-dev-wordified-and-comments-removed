@@ -327,9 +327,9 @@ notifyPixelsChanged
 ;
 mBitmap
 .
-setAlphaType
+setIsOpaque
 (
-kOpaque_SkAlphaType
+true
 )
 ;
 }

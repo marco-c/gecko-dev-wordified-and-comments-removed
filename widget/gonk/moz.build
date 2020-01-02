@@ -438,8 +438,6 @@ gfx
 /
 skia
 /
-trunk
-/
 include
 /
 config
@@ -449,8 +447,6 @@ config
 gfx
 /
 skia
-/
-trunk
 /
 include
 /
