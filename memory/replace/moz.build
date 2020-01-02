@@ -111,7 +111,7 @@ not
 CONFIG
 [
 '
-MOZ_JEMALLOC
+MOZ_JEMALLOC3
 '
 ]
 :
