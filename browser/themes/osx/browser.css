@@ -18610,9 +18610,6 @@ rect
 ;
 }
 }
-%
-ifdef
-MOZ_LOOP
 #
 loop
 -
@@ -18648,8 +18645,6 @@ png
 )
 ;
 }
-%
-endif
 .
 social
 -
