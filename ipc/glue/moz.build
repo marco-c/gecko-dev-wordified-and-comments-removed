@@ -706,11 +706,6 @@ PBackgroundTest
 ipdl
 '
 '
-PProcLoader
-.
-ipdl
-'
-'
 ProtocolTypes
 .
 ipdlh
@@ -725,12 +720,6 @@ LOCAL_INCLUDES
 +
 =
 [
-'
-/
-toolkit
-/
-xre
-'
 '
 /
 xpcom
