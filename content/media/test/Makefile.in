@@ -812,6 +812,10 @@ test_texttrackcue
 .
 html
 \
+test_trackevent
+.
+html
+\
 test_texttrackregion
 .
 html

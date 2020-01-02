@@ -2682,6 +2682,11 @@ RTCPeerConnectionIceEvent
 webidl
 '
 '
+TrackEvent
+.
+webidl
+'
+'
 UserProximityEvent
 .
 webidl
