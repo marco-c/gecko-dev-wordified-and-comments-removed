@@ -47,6 +47,16 @@ testUITelemetry
 extends
 JavascriptTest
 {
+static
+final
+String
+TEST_PREFIX
+=
+"
+TEST
+-
+"
+;
 public
 testUITelemetry
 (
@@ -120,6 +130,8 @@ Telemetry
 .
 sendUIEvent
 (
+TEST_PREFIX
++
 "
 enone
 "
@@ -132,6 +144,8 @@ Telemetry
 .
 startUISession
 (
+TEST_PREFIX
++
 "
 foo
 "
@@ -141,6 +155,8 @@ Telemetry
 .
 sendUIEvent
 (
+TEST_PREFIX
++
 "
 efoo
 "
@@ -153,6 +169,8 @@ Telemetry
 .
 startUISession
 (
+TEST_PREFIX
++
 "
 foo
 "
@@ -162,6 +180,8 @@ Telemetry
 .
 sendUIEvent
 (
+TEST_PREFIX
++
 "
 efoo
 "
@@ -174,6 +194,8 @@ Telemetry
 .
 startUISession
 (
+TEST_PREFIX
++
 "
 bar
 "
@@ -183,6 +205,8 @@ Telemetry
 .
 sendUIEvent
 (
+TEST_PREFIX
++
 "
 efoobar
 "
@@ -198,6 +222,8 @@ Telemetry
 .
 stopUISession
 (
+TEST_PREFIX
++
 "
 foo
 "
@@ -210,6 +236,8 @@ Telemetry
 .
 sendUIEvent
 (
+TEST_PREFIX
++
 "
 ebar
 "
@@ -225,6 +253,8 @@ Telemetry
 .
 stopUISession
 (
+TEST_PREFIX
++
 "
 bar
 "
@@ -237,6 +267,8 @@ Telemetry
 .
 stopUISession
 (
+TEST_PREFIX
++
 "
 bar
 "
@@ -249,6 +281,8 @@ Telemetry
 .
 sendUIEvent
 (
+TEST_PREFIX
++
 "
 enone
 "
