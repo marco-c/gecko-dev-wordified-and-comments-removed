@@ -10194,14 +10194,6 @@ BlockOnload
 (
 )
 ;
-nsContentSink
-:
-:
-NotifyDocElementCreated
-(
-this
-)
-;
 }
 NS_ASSERTION
 (
