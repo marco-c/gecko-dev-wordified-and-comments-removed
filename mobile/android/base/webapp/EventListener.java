@@ -1247,6 +1247,7 @@ Activity
 context
 NativeJSObject
 message
+final
 EventCallback
 callback
 )
@@ -1568,6 +1569,19 @@ e
 )
 ;
 }
+callback
+.
+sendError
+(
+"
+APK
+installation
+cancelled
+by
+user
+"
+)
+;
 }
 }
 }
