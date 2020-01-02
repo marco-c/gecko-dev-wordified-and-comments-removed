@@ -6696,7 +6696,7 @@ c
 ENTITY
 social
 .
-markpage
+markpageMenu
 .
 accesskey
 "
@@ -6722,7 +6722,7 @@ To
 ENTITY
 social
 .
-marklink
+marklinkMenu
 .
 accesskey
 "
