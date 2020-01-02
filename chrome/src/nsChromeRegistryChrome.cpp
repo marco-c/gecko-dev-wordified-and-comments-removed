@@ -520,9 +520,6 @@ classic
 "
 )
 ;
-if
-(
-!
 PL_DHashTableInit
 (
 &
@@ -536,9 +533,6 @@ PackageEntry
 )
 16
 )
-)
-return
-NS_ERROR_FAILURE
 ;
 bool
 safeMode

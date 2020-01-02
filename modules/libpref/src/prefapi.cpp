@@ -663,6 +663,9 @@ sizeof
 PrefHashEntry
 )
 PREF_HASHTABLE_INITIAL_SIZE
+fallible_t
+(
+)
 )
 )
 {

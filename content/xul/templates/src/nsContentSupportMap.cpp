@@ -20,9 +20,6 @@ Init
 (
 )
 {
-if
-(
-!
 PL_DHashTableInit
 (
 &
@@ -37,12 +34,6 @@ Entry
 )
 PL_DHASH_MIN_SIZE
 )
-)
-mMap
-.
-ops
-=
-nullptr
 ;
 }
 void

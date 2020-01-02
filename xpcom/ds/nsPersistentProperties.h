@@ -64,7 +64,7 @@ nsPersistentProperties
 (
 )
 ;
-nsresult
+void
 Init
 (
 )

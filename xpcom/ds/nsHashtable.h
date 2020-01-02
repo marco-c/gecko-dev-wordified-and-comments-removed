@@ -266,7 +266,7 @@ aSize
 =
 16
 bool
-threadSafe
+aThreadSafe
 =
 false
 )

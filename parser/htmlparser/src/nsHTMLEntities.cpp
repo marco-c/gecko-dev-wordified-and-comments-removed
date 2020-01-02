@@ -345,6 +345,9 @@ NS_HTML_ENTITY_COUNT
 .
 75
 )
+fallible_t
+(
+)
 )
 )
 {
@@ -379,6 +382,9 @@ NS_HTML_ENTITY_COUNT
 0
 .
 75
+)
+fallible_t
+(
 )
 )
 )

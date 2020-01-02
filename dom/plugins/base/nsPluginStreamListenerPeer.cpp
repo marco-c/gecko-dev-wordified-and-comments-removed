@@ -1365,17 +1365,7 @@ mDataForwardToRequest
 new
 nsHashtable
 (
-16
-false
 )
-;
-if
-(
-!
-mDataForwardToRequest
-)
-return
-NS_ERROR_FAILURE
 ;
 return
 NS_OK

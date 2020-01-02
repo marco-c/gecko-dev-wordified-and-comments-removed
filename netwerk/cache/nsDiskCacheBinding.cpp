@@ -459,8 +459,6 @@ rv
 =
 NS_OK
 ;
-initialized
-=
 PL_DHashTableInit
 (
 &
@@ -475,14 +473,9 @@ HashTableEntry
 0
 )
 ;
-if
-(
-!
 initialized
-)
-rv
 =
-NS_ERROR_OUT_OF_MEMORY
+true
 ;
 return
 rv

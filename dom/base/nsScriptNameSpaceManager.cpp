@@ -1457,6 +1457,9 @@ sizeof
 GlobalNameMapEntry
 )
 GLOBALNAME_HASHTABLE_INITIAL_SIZE
+fallible_t
+(
+)
 )
 ;
 NS_ENSURE_TRUE
@@ -1479,6 +1482,9 @@ sizeof
 GlobalNameMapEntry
 )
 GLOBALNAME_HASHTABLE_INITIAL_SIZE
+fallible_t
+(
+)
 )
 ;
 if

@@ -604,6 +604,9 @@ sizeof
 NameTableEntry
 )
 Count
+fallible_t
+(
+)
 )
 )
 {
