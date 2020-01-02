@@ -770,6 +770,17 @@ pc2
 =
 c2
 ;
+if
+(
+!
+*
+src
+)
+{
+return
+0
+;
+}
 while
 (
 *
