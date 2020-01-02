@@ -113,6 +113,8 @@ static
 const
 ViewID
 START_SCROLL_ID
+=
+2
 ;
 FrameMetrics
 (
@@ -188,10 +190,6 @@ mPresShellId
 1
 )
 mIsRoot
-(
-false
-)
-mHasScrollgrab
 (
 false
 )
@@ -519,9 +517,6 @@ mPresShellId
 ;
 bool
 mIsRoot
-;
-bool
-mHasScrollgrab
 ;
 }
 ;

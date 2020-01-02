@@ -7,6 +7,15 @@ MOZILLA_GFX_POINT_H_
 #
 include
 "
+mozilla
+/
+Attributes
+.
+h
+"
+#
+include
+"
 Types
 .
 h
@@ -81,6 +90,7 @@ Super
 )
 {
 }
+MOZ_CONSTEXPR
 IntPointTyped
 (
 int32_t

@@ -359,6 +359,7 @@ namespace
 dom
 {
 static
+MOZ_CONSTEXPR
 const
 char
 *

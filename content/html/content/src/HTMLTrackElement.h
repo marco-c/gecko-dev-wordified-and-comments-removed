@@ -98,7 +98,7 @@ namespace
 dom
 {
 static
-const
+MOZ_CONSTEXPR
 nsAttrValue
 :
 :

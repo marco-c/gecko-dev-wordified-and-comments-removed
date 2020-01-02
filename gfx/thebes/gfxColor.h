@@ -503,6 +503,7 @@ gfxRGBA
 )
 {
 }
+MOZ_CONSTEXPR
 gfxRGBA
 (
 gfxFloat
