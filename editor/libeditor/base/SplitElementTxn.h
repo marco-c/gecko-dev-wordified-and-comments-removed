@@ -28,6 +28,13 @@ h
 #
 include
 "
+nsIDOMNode
+.
+h
+"
+#
+include
+"
 nsISupportsImpl
 .
 h
@@ -43,9 +50,6 @@ class
 nsEditor
 ;
 class
-nsINode
-;
-class
 SplitElementTxn
 :
 public
@@ -59,7 +63,7 @@ Init
 nsEditor
 *
 aEditor
-nsINode
+nsIDOMNode
 *
 aNode
 int32_t
@@ -86,7 +90,7 @@ void
 NS_IMETHOD
 GetNewNode
 (
-nsINode
+nsIDOMNode
 *
 *
 aNewNode
@@ -96,7 +100,7 @@ protected
 :
 nsCOMPtr
 <
-nsINode
+nsIDOMNode
 >
 mExistingRightNode
 ;
@@ -105,13 +109,13 @@ mOffset
 ;
 nsCOMPtr
 <
-nsINode
+nsIDOMNode
 >
 mNewLeftNode
 ;
 nsCOMPtr
 <
-nsINode
+nsIDOMNode
 >
 mParent
 ;
