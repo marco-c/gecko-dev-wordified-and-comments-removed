@@ -288,6 +288,15 @@ Edit
 "
 Remove
 "
+"
+Share
+"
+"
+Add
+to
+Home
+Screen
+"
 }
 ;
 public
