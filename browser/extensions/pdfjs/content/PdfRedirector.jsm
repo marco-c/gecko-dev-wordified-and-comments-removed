@@ -545,15 +545,3 @@ aStatusCode
 }
 }
 ;
-var
-NSGetFactory
-=
-XPCOMUtils
-.
-generateNSGetFactory
-(
-[
-PdfRedirector
-]
-)
-;
