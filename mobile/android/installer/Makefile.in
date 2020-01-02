@@ -311,7 +311,11 @@ BINPATH
 /
 chrome
 /
+'
+"
 LOCALE
+"
+'
 (
 JAREXT
 )
@@ -330,7 +334,11 @@ BINPATH
 /
 chrome
 /
+'
+"
 LOCALE
+"
+'
 .
 manifest
 \
