@@ -190,6 +190,16 @@ LAllocation
 alloc
 )
 {
+JS_ASSERT
+(
+!
+alloc
+.
+isUse
+(
+)
+)
+;
 canonicalSpill_
 =
 alloc
