@@ -137,8 +137,6 @@ const
 MultiTouchInput
 &
 aEvent
-bool
-aClearTouches
 )
 ;
 nsEventStatus
