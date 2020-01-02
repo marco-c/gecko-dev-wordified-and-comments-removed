@@ -89,17 +89,6 @@ cod
 )
 #
 define
-HAS_OBJECT_TRANSFER
-(
-cod
-)
-(
-cod
-&
-0x100000
-)
-#
-define
 HAS_RENDERING
 (
 cod

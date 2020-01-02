@@ -695,12 +695,6 @@ mMountLock
 ;
 nsRefPtr
 <
-BluetoothProfileController
->
-mController
-;
-nsRefPtr
-<
 DeviceStorageFile
 >
 mDsFile
