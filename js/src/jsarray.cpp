@@ -14540,6 +14540,17 @@ ArrayStaticReduceRight
 2
 0
 )
+JS_SELF_HOSTED_FN
+(
+"
+from
+"
+"
+ArrayFrom
+"
+3
+0
+)
 JS_FN
 (
 "
