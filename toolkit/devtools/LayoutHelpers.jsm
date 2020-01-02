@@ -2034,16 +2034,6 @@ getComputedStyle
 node
 )
 ;
-if
-(
-!
-style
-)
-{
-return
-null
-;
-}
 let
 camel
 =
