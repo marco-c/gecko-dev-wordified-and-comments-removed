@@ -1362,8 +1362,8 @@ types
 TemporaryTypeSet
 *
 observed
-BarrierKind
-kind
+bool
+needBarrier
 )
 ;
 bool
@@ -1561,7 +1561,7 @@ size_t
 nfixed
 MIRType
 rvalType
-BarrierKind
+bool
 barrier
 types
 :
@@ -1582,7 +1582,7 @@ Shape
 shape
 MIRType
 rvalType
-BarrierKind
+bool
 barrier
 types
 :
@@ -1667,7 +1667,7 @@ emitted
 PropertyName
 *
 name
-BarrierKind
+bool
 barrier
 types
 :
@@ -1703,7 +1703,7 @@ emitted
 PropertyName
 *
 name
-BarrierKind
+bool
 barrier
 types
 :
@@ -1777,7 +1777,7 @@ emitted
 PropertyName
 *
 name
-BarrierKind
+bool
 barrier
 types
 :
