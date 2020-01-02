@@ -274,6 +274,15 @@ nsXULAppAPI
 .
 h
 "
+#
+include
+"
+mozilla
+/
+StaticPtr
+.
+h
+"
 struct
 nsIntRect
 ;
@@ -998,7 +1007,7 @@ sImageBridgeChildSingleton
 nullptr
 ;
 static
-nsRefPtr
+StaticRefPtr
 <
 ImageBridgeParent
 >
