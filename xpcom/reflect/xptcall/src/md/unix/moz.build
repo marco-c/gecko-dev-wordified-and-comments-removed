@@ -2015,6 +2015,3 @@ FINAL_LIBRARY
 '
 xpcom_core
 '
-NO_PGO
-=
-True

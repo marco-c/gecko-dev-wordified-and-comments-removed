@@ -57,6 +57,9 @@ MPL
 INTERNAL_TOOLS
 =
 1
+NO_PROFILE_GUIDED_OPTIMIZE
+=
+1
 include
 (
 topsrcdir

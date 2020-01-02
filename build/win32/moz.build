@@ -152,6 +152,3 @@ crashinject
 cpp
 '
 ]
-NO_PGO
-=
-True

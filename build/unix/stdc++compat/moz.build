@@ -154,6 +154,3 @@ cpp
 FORCE_STATIC_LIB
 =
 True
-NO_PGO
-=
-True

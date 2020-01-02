@@ -53,6 +53,9 @@ MPL
 0
 /
 .
+NO_PROFILE_GUIDED_OPTIMIZE
+=
+1
 include
 (
 topsrcdir
