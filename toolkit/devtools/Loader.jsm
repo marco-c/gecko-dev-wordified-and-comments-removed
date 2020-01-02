@@ -2229,6 +2229,16 @@ function
 id
 )
 {
+if
+(
+this
+.
+_mainid
+)
+{
+return
+;
+}
 this
 .
 _mainid
