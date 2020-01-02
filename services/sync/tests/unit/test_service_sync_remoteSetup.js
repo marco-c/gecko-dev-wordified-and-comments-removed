@@ -578,10 +578,6 @@ in
 "
 )
 ;
-ensureLegacyIdentityManager
-(
-)
-;
 Service
 .
 serverURL

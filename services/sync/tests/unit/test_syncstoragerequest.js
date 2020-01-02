@@ -146,10 +146,6 @@ initTestLogging
 (
 )
 ;
-ensureLegacyIdentityManager
-(
-)
-;
 run_next_test
 (
 )

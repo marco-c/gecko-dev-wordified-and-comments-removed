@@ -169,10 +169,6 @@ initTestLogging
 (
 )
 ;
-ensureLegacyIdentityManager
-(
-)
-;
 setBasicCredentials
 (
 "

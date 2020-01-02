@@ -1736,10 +1736,6 @@ DumpAppender
 )
 )
 ;
-ensureLegacyIdentityManager
-(
-)
-;
 run_next_test
 (
 )

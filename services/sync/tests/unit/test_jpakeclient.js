@@ -1235,10 +1235,6 @@ Ci
 nsISupports
 )
 ;
-ensureLegacyIdentityManager
-(
-)
-;
 setBasicCredentials
 (
 "
