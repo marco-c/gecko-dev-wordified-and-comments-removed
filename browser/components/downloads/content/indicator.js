@@ -1335,7 +1335,7 @@ areaType
 =
 CustomizableUI
 .
-AREATYPE_MENU_PANEL
+TYPE_MENU_PANEL
 )
 {
 DownloadsPanel
