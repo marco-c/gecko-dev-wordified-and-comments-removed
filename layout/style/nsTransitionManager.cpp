@@ -4577,7 +4577,7 @@ nsIContent
 >
 mElement
 ;
-nsTransitionEvent
+InternalTransitionEvent
 mEvent
 ;
 TransitionEventInfo

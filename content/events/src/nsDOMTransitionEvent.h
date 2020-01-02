@@ -65,7 +65,10 @@ aOwner
 nsPresContext
 *
 aPresContext
-nsTransitionEvent
+mozilla
+:
+:
+InternalTransitionEvent
 *
 aEvent
 )
@@ -171,7 +174,10 @@ elapsedTime
 }
 private
 :
-nsTransitionEvent
+mozilla
+:
+:
+InternalTransitionEvent
 *
 TransitionEvent
 (
@@ -196,7 +202,10 @@ type
 return
 static_cast
 <
-nsTransitionEvent
+mozilla
+:
+:
+InternalTransitionEvent
 *
 >
 (

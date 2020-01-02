@@ -2203,7 +2203,10 @@ aOwner
 nsPresContext
 *
 aPresContext
-nsTransitionEvent
+mozilla
+:
+:
+InternalTransitionEvent
 *
 aEvent
 )

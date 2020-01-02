@@ -21,6 +21,10 @@ ContentEvents
 .
 h
 "
+using
+namespace
+mozilla
+;
 nsDOMTransitionEvent
 :
 :
@@ -38,7 +42,7 @@ aOwner
 nsPresContext
 *
 aPresContext
-nsTransitionEvent
+InternalTransitionEvent
 *
 aEvent
 )
@@ -52,7 +56,7 @@ aEvent
 aEvent
 :
 new
-nsTransitionEvent
+InternalTransitionEvent
 (
 false
 0
@@ -391,7 +395,7 @@ aOwner
 nsPresContext
 *
 aPresContext
-nsTransitionEvent
+InternalTransitionEvent
 *
 aEvent
 )

@@ -353,12 +353,5 @@ mozilla
 InternalFocusEvent
 nsFocusEvent
 ;
-typedef
-mozilla
-:
-:
-InternalTransitionEvent
-nsTransitionEvent
-;
 #
 endif
