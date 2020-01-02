@@ -1259,12 +1259,11 @@ CONFIG
 ANDROID_VERSION
 '
 ]
-in
-(
+>
+=
 '
 18
 '
-)
 :
 EXPORTS
 .
