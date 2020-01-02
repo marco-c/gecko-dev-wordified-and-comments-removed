@@ -286,9 +286,6 @@ aCallback
 void
 *
 aCallbackData
-ReadbackProcessor
-*
-aReadback
 )
 ;
 virtual
@@ -303,6 +300,9 @@ aCallback
 void
 *
 aCallbackData
+ReadbackProcessor
+*
+aReadback
 )
 MOZ_OVERRIDE
 ;

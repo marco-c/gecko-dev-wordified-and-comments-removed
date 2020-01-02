@@ -441,6 +441,14 @@ GetEffectiveOpacity
 0
 |
 |
+l
+-
+>
+GetMaskLayer
+(
+)
+|
+|
 !
 (
 l

@@ -774,9 +774,6 @@ aCallback
 void
 *
 aCallbackData
-ReadbackProcessor
-*
-aReadback
 )
 :
 mTarget
@@ -798,10 +795,6 @@ aCallback
 mCallbackData
 (
 aCallbackData
-)
-mReadback
-(
-aReadback
 )
 mPushedOpaqueRect
 (
@@ -1222,10 +1215,6 @@ mCallback
 void
 *
 mCallbackData
-;
-ReadbackProcessor
-*
-mReadback
 ;
 Matrix
 mTransform
@@ -2882,6 +2871,7 @@ Validate
 (
 aCallback
 aCallbackData
+nullptr
 )
 ;
 if
@@ -2909,6 +2899,7 @@ Validate
 (
 aCallback
 aCallbackData
+nullptr
 )
 ;
 }
@@ -3032,7 +3023,6 @@ mTarget
 mRoot
 aCallback
 aCallbackData
-nullptr
 )
 ;
 if
@@ -3997,9 +3987,6 @@ mCallback
 aPaintContext
 .
 mCallbackData
-aPaintContext
-.
-mReadback
 )
 ;
 }
@@ -4036,9 +4023,6 @@ GetMaskLayer
 }
 else
 {
-ReadbackProcessor
-readback
-;
 ContainerLayer
 *
 container
@@ -4054,21 +4038,6 @@ aPaintContext
 mLayer
 )
 ;
-if
-(
-IsRetained
-(
-)
-)
-{
-readback
-.
-BuildUpdates
-(
-container
-)
-;
-}
 nsAutoTArray
 <
 Layer
@@ -4120,8 +4089,6 @@ mCallback
 aPaintContext
 .
 mCallbackData
-&
-readback
 )
 ;
 if
@@ -4240,9 +4207,6 @@ aCallback
 void
 *
 aCallbackData
-ReadbackProcessor
-*
-aReadback
 )
 {
 PROFILER_LABEL
@@ -4262,7 +4226,6 @@ aTarget
 aLayer
 aCallback
 aCallbackData
-aReadback
 )
 ;
 if

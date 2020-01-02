@@ -668,9 +668,6 @@ aCallback
 void
 *
 aCallbackData
-ReadbackProcessor
-*
-aReadback
 )
 ;
 void

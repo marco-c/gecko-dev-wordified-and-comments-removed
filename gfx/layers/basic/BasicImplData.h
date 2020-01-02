@@ -146,9 +146,6 @@ aCallback
 void
 *
 aCallbackData
-ReadbackProcessor
-*
-aReadback
 )
 {
 }
@@ -164,6 +161,9 @@ aCallback
 void
 *
 aCallbackData
+ReadbackProcessor
+*
+aReadback
 )
 {
 }
