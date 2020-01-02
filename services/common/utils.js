@@ -643,12 +643,8 @@ let
 timer
 =
 {
-}
-;
-timer
-.
 __proto__
-=
+:
 Cc
 [
 "
@@ -668,6 +664,7 @@ Ci
 .
 nsITimer
 )
+}
 ;
 timer
 .
