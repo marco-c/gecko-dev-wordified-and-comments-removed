@@ -5899,6 +5899,15 @@ info
 )
 ;
 bool
+ValidateCopyTexImage
+(
+GLenum
+format
+WebGLTexImageFunc
+func
+)
+;
+bool
 ValidateTexImage
 (
 GLuint
