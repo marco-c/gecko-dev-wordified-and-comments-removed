@@ -351,7 +351,8 @@ bool
 decision
 )
 ;
-void
+MediaPipelineFilter
+*
 UpdateFilterFromRemoteDescription_s
 (
 nsAutoPtr

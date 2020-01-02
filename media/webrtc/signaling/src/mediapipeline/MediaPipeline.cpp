@@ -1274,14 +1274,6 @@ return
 NS_ERROR_FAILURE
 ;
 }
-if
-(
-direction_
-=
-=
-RECEIVE
-)
-{
 MOZ_MTLOG
 (
 ML_INFO
@@ -1409,7 +1401,6 @@ MOZ_CRASH
 (
 )
 ;
-}
 }
 info
 .
@@ -3865,7 +3856,8 @@ nullptr
 ;
 }
 }
-void
+MediaPipelineFilter
+*
 MediaPipeline
 :
 :
@@ -3911,6 +3903,13 @@ filter
 )
 ;
 }
+return
+filter_
+.
+get
+(
+)
+;
 }
 nsresult
 MediaPipeline
