@@ -191,3 +191,13 @@ TEST_DIRS
 forms
 '
 ]
+MOCHITEST_MANIFESTS
++
+=
+[
+'
+mochitest
+.
+ini
+'
+]

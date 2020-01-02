@@ -61,3 +61,13 @@ MPL
 0
 /
 .
+MOCHITEST_MANIFESTS
++
+=
+[
+'
+mochitest
+.
+ini
+'
+]

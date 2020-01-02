@@ -82,11 +82,6 @@ src
 (
 NULL
 )
-MOCHITEST_FILES
-=
-test_ipc
-.
-html
 include
 (
 topsrcdir

@@ -54,17 +54,3 @@ MPL
 0
 /
 .
-MOCHITEST_FILES
-=
-\
-test_Mochikit
-.
-html
-\
-manifest
-.
-json
-\
-(
-NULL
-)

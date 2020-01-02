@@ -53,14 +53,3 @@ MPL
 0
 /
 .
-MOCHITEST_FILES
-:
-=
-\
-test_ipc
-.
-html
-\
-(
-NULL
-)

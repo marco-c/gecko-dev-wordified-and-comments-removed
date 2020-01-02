@@ -98,3 +98,13 @@ MODULE
 '
 jsdebug
 '
+MOCHITEST_MANIFESTS
++
+=
+[
+'
+mochitest
+.
+ini
+'
+]

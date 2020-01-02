@@ -54,17 +54,3 @@ MPL
 0
 /
 .
-MOCHITEST_FILES
-=
-\
-manifest
-.
-json
-\
-test_Scriptaculous
-.
-html
-\
-(
-NULL
-)

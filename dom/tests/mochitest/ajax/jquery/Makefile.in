@@ -54,17 +54,3 @@ MPL
 0
 /
 .
-MOCHITEST_FILES
-=
-\
-manifest
-.
-json
-\
-test_jQuery
-.
-html
-\
-(
-NULL
-)
