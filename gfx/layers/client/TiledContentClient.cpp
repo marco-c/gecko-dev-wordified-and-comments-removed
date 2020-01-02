@@ -4402,7 +4402,7 @@ aTile
 ;
 }
 static
-LayoutDeviceRect
+LayerRect
 TransformCompositionBounds
 (
 const
@@ -4424,7 +4424,7 @@ aResolution
 const
 gfx3DMatrix
 &
-aTransformDisplayPortToLayoutDevice
+aTransformDisplayPortToLayer
 )
 {
 ParentLayerRect
@@ -4449,7 +4449,7 @@ aScrollOffset
 gfxRect
 transformedViewport
 =
-aTransformDisplayPortToLayoutDevice
+aTransformDisplayPortToLayer
 .
 TransformBounds
 (
@@ -4471,7 +4471,7 @@ height
 )
 ;
 return
-LayoutDeviceRect
+LayerRect
 (
 transformedViewport
 .
@@ -4684,7 +4684,7 @@ aIsRepeated
 ;
 }
 }
-LayoutDeviceRect
+LayerRect
 transformedCompositionBounds
 =
 TransformCompositionBounds
@@ -4702,10 +4702,10 @@ mResolution
 aPaintData
 -
 >
-mTransformDisplayPortToLayoutDevice
+mTransformDisplayPortToLayer
 )
 ;
-LayoutDeviceRect
+LayerRect
 typedCoherentUpdateRect
 =
 transformedCompositionBounds
@@ -4733,9 +4733,9 @@ TopLeft
 )
 ;
 nsIntRect
-roundedCoherentUpdateRect
-=
-LayoutDeviceIntRect
+untypedCoherentUpdateRect
+(
+LayerIntRect
 :
 :
 ToUntyped
@@ -4745,13 +4745,14 @@ RoundedOut
 typedCoherentUpdateRect
 )
 )
+)
 ;
 aRegionToPaint
 .
 And
 (
 aInvalidRegion
-roundedCoherentUpdateRect
+untypedCoherentUpdateRect
 )
 ;
 aRegionToPaint
@@ -4794,7 +4795,7 @@ aRegionToPaint
 .
 Intersects
 (
-roundedCoherentUpdateRect
+untypedCoherentUpdateRect
 )
 )
 {
@@ -4803,7 +4804,7 @@ aRegionToPaint
 And
 (
 aRegionToPaint
-roundedCoherentUpdateRect
+untypedCoherentUpdateRect
 )
 ;
 paintVisible
