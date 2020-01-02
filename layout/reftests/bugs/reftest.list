@@ -4923,7 +4923,7 @@ html
 ref
 .
 html
-random
+fails
 -
 if
 (
@@ -7395,7 +7395,7 @@ html
 notref
 .
 html
-random
+fails
 -
 if
 (
@@ -8490,7 +8490,7 @@ html
 ref
 .
 html
-random
+fails
 -
 if
 (
@@ -12195,7 +12195,7 @@ html
 ref
 .
 html
-random
+fails
 -
 if
 (
@@ -12218,7 +12218,7 @@ html
 ref
 .
 html
-random
+fails
 -
 if
 (
@@ -16154,7 +16154,7 @@ html
 ref
 .
 html
-random
+fails
 -
 if
 (
@@ -16602,7 +16602,7 @@ html
 ref
 .
 html
-random
+fails
 -
 if
 (
@@ -18409,7 +18409,7 @@ html
 ref
 .
 html
-random
+fails
 -
 if
 (
@@ -19052,7 +19052,7 @@ html
 ref
 .
 html
-random
+fails
 -
 if
 (
@@ -21524,14 +21524,15 @@ random
 if
 (
 winWidget
-|
-|
+)
+fails
+-
+if
 (
 B2G
 &
 &
 browserIsRemote
-)
 )
 =
 =
@@ -22333,7 +22334,7 @@ html
 ref
 .
 html
-random
+fails
 -
 if
 (
@@ -22651,7 +22652,7 @@ html
 #
 Bug
 989165
-random
+fails
 -
 if
 (
@@ -22813,7 +22814,7 @@ html
 ref
 .
 html
-random
+fails
 -
 if
 (
@@ -23025,7 +23026,7 @@ xul
 #
 bug
 974780
-random
+fails
 -
 if
 (
@@ -23048,7 +23049,7 @@ xhtml
 ref
 .
 xhtml
-random
+fails
 -
 if
 (
@@ -23101,7 +23102,7 @@ html
 ref
 .
 html
-random
+fails
 -
 if
 (
@@ -23124,7 +23125,7 @@ html
 ref
 .
 html
-random
+fails
 -
 if
 (
@@ -23147,7 +23148,7 @@ html
 ref
 .
 html
-random
+fails
 -
 if
 (
@@ -23170,7 +23171,7 @@ html
 ref
 .
 html
-random
+fails
 -
 if
 (
@@ -23335,7 +23336,7 @@ b
 ref
 .
 html
-random
+fails
 -
 if
 (
@@ -23514,7 +23515,7 @@ html
 ref
 .
 html
-random
+fails
 -
 if
 (
@@ -23938,7 +23939,7 @@ html
 ref
 .
 html
-random
+fails
 -
 if
 (
@@ -24239,7 +24240,7 @@ html
 ref
 .
 html
-random
+fails
 -
 if
 (
@@ -25696,7 +25697,7 @@ html
 ref
 .
 html
-random
+fails
 -
 if
 (
@@ -26055,7 +26056,7 @@ length
 ref
 .
 svg
-random
+fails
 -
 if
 (
@@ -26210,7 +26211,7 @@ if
 !
 browserIsRemote
 )
-random
+fails
 -
 if
 (
@@ -26243,7 +26244,7 @@ if
 !
 browserIsRemote
 )
-random
+fails
 -
 if
 (
@@ -26288,14 +26289,15 @@ random
 if
 (
 Android
-|
-|
+)
+fails
+-
+if
 (
 B2G
 &
 &
 browserIsRemote
-)
 )
 =
 =
@@ -26311,7 +26313,7 @@ html
 ref
 .
 html
-random
+fails
 -
 if
 (
@@ -27013,7 +27015,7 @@ html
 notref
 .
 html
-random
+fails
 -
 if
 (
@@ -27324,7 +27326,7 @@ html
 ref
 .
 html
-random
+fails
 -
 if
 (
@@ -27343,7 +27345,7 @@ html
 about
 :
 blank
-random
+fails
 -
 if
 (
@@ -27874,7 +27876,7 @@ AndroidVersion
 =
 10
 )
-random
+fails
 -
 if
 (
@@ -28885,14 +28887,15 @@ random
 if
 (
 Android
-|
-|
+)
+random
+-
+if
 (
 B2G
 &
 &
 browserIsRemote
-)
 )
 =
 =
@@ -29169,7 +29172,7 @@ html
 ref
 .
 html
-random
+fails
 -
 if
 (
@@ -29453,7 +29456,7 @@ html
 ref
 .
 html
-random
+fails
 -
 if
 (
@@ -29544,7 +29547,7 @@ html
 ref
 .
 html
-random
+fails
 -
 if
 (
@@ -29615,7 +29618,7 @@ html
 ref
 .
 html
-random
+fails
 -
 if
 (
@@ -29886,7 +29889,7 @@ html
 ref
 .
 html
-random
+fails
 -
 if
 (
@@ -30019,7 +30022,7 @@ sticky
 enabled
 true
 )
-random
+fails
 -
 if
 (
@@ -30050,7 +30053,7 @@ cocoaWidget
 1
 40
 )
-random
+fails
 -
 if
 (
@@ -30073,7 +30076,7 @@ html
 ref
 .
 html
-random
+fails
 -
 if
 (
@@ -30244,7 +30247,7 @@ svg
 ref
 .
 svg
-random
+fails
 -
 if
 (
@@ -30407,7 +30410,7 @@ html
 same
 as
 above
-random
+fails
 -
 if
 (
@@ -30444,7 +30447,7 @@ html
 ref
 .
 html
-random
+fails
 -
 if
 (
@@ -30467,7 +30470,7 @@ html
 ref
 .
 html
-random
+fails
 -
 if
 (
@@ -30627,6 +30630,29 @@ true
 .
 html
 1005405
+-
+1
+-
+ref
+.
+html
+pref
+(
+browser
+.
+display
+.
+use_document_fonts
+0
+)
+=
+=
+1022481
+-
+1
+.
+html
+1022481
 -
 1
 -
