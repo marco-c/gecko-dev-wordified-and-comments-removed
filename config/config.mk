@@ -2065,9 +2065,17 @@ with
 LIBXUL_LIBRARY
 )
 endif
+ifneq
+(
+xul
+(
+LIBRARY_NAME
+)
+)
 FORCE_STATIC_LIB
 =
 1
+endif
 endif
 #
 If
