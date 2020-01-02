@@ -725,6 +725,13 @@ GetJSContext
 )
 const
 ;
+JSObject
+*
+GetGlobalJSObject
+(
+)
+const
+;
 AudioChannel
 MozAudioChannelType
 (
