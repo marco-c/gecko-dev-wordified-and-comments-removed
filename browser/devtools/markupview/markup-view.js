@@ -256,6 +256,8 @@ AutocompletePopup
 )
 =
 >
+{
+return
 require
 (
 "
@@ -270,6 +272,7 @@ popup
 )
 .
 AutocompletePopup
+}
 )
 ;
 function
@@ -614,7 +617,6 @@ null
 template
 :
 function
-MT_template
 (
 aName
 aDest
@@ -678,7 +680,6 @@ node
 getContainer
 :
 function
-MT_getContainer
 (
 aNode
 )
@@ -819,7 +820,6 @@ documentElement
 _onNewSelection
 :
 function
-MT__onNewSelection
 (
 )
 {
@@ -911,7 +911,6 @@ done
 _selectionWalker
 :
 function
-MT__seletionWalker
 (
 aStart
 )
@@ -1001,7 +1000,6 @@ walker
 _onKeyDown
 :
 function
-MT__KeyDown
 (
 aEvent
 )
@@ -1576,7 +1574,6 @@ preventDefault
 deleteNode
 :
 function
-MC__deleteNode
 (
 aNode
 )
@@ -1735,7 +1732,6 @@ error
 _onFocus
 :
 function
-MC__onFocus
 (
 aEvent
 )
@@ -1782,7 +1778,6 @@ true
 navigate
 :
 function
-MT__navigate
 (
 aContainer
 aIgnoreFocus
@@ -1874,7 +1869,6 @@ focus
 importNode
 :
 function
-MT_importNode
 (
 aNode
 aFlashNode
@@ -2009,7 +2003,6 @@ container
 _mutationObserver
 :
 function
-MT__mutationObserver
 (
 aMutations
 )
@@ -2190,7 +2183,6 @@ markupmutation
 _flashMutatedNodes
 :
 function
-MT_flashMutatedNodes
 (
 aMutations
 )
@@ -2370,7 +2362,6 @@ flashMutation
 showNode
 :
 function
-MT_showNode
 (
 aNode
 centered
@@ -2479,7 +2470,6 @@ centered
 _expandContainer
 :
 function
-MT__expandContainer
 (
 aContainer
 )
@@ -2517,7 +2507,6 @@ true
 expandNode
 :
 function
-MT_expandNode
 (
 aNode
 )
@@ -2545,7 +2534,6 @@ container
 _expandAll
 :
 function
-MT_expandAll
 (
 aContainer
 )
@@ -2629,7 +2617,6 @@ error
 expandAll
 :
 function
-MT_expandAll
 (
 aNode
 )
@@ -2662,7 +2649,6 @@ aNode
 collapseNode
 :
 function
-MT_collapseNode
 (
 aNode
 )
@@ -2721,7 +2707,6 @@ aNode
 markNodeAsSelected
 :
 function
-MT_markNodeAsSelected
 (
 aNode
 )
@@ -2883,7 +2868,6 @@ _waitForChildren
 unmarkSelectedNode
 :
 function
-MT_unmarkSelectedNode
 (
 )
 {
@@ -2913,7 +2897,6 @@ null
 nodeChanged
 :
 function
-MT_nodeChanged
 (
 aNode
 )
@@ -3567,7 +3550,6 @@ values
 _getVisibleChildren
 :
 function
-MV__getVisibleChildren
 (
 aContainer
 aCentered
@@ -3623,7 +3605,6 @@ aCentered
 destroy
 :
 function
-MT_destroy
 (
 )
 {
@@ -3860,7 +3841,6 @@ _containers
 _initPreview
 :
 function
-MT_initPreview
 (
 )
 {
@@ -4065,7 +4045,6 @@ _updatePreview
 _updatePreview
 :
 function
-MT_updatePreview
 (
 )
 {
@@ -4344,7 +4323,6 @@ top
 _resizePreview
 :
 function
-MT_resizePreview
 (
 )
 {
@@ -6419,7 +6397,6 @@ update
 update
 :
 function
-TE_update
 (
 )
 {
@@ -6912,7 +6889,6 @@ prototype
 update
 :
 function
-EE_update
 (
 parseColors
 =
@@ -7086,7 +7062,6 @@ startModifyingAttributes
 _createAttribute
 :
 function
-EE_createAttribute
 (
 aAttr
 aBefore
@@ -7692,7 +7667,6 @@ attr
 _applyAttributes
 :
 function
-EE__applyAttributes
 (
 aValue
 aAttrNode
@@ -7815,7 +7789,6 @@ aName
 onTagEdit
 :
 function
-EE_onTagEdit
 (
 aVal
 aCommit
@@ -8241,11 +8214,16 @@ trim
 )
 ;
 let
-el
+parse
 =
 DOMParser
 .
 parseFromString
+;
+let
+el
+=
+parse
 (
 "
 <
@@ -8276,9 +8254,7 @@ childNodes
 ]
 |
 |
-DOMParser
-.
-parseFromString
+parse
 (
 "
 <
@@ -8311,9 +8287,7 @@ childNodes
 ]
 |
 |
-DOMParser
-.
-parseFromString
+parse
 (
 "
 <
