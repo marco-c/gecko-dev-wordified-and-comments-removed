@@ -847,7 +847,7 @@ h
 enable_lazy_trace_alloc
 =
 =
-0
+1
 '
 {
 '
