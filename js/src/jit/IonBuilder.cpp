@@ -48257,7 +48257,7 @@ empty
 )
 )
 return
-false
+true
 ;
 if
 (
