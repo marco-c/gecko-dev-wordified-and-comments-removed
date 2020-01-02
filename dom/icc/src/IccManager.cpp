@@ -208,6 +208,10 @@ nsIIccProvider
 return
 ;
 }
+mClientId
+=
+0
+;
 mListener
 =
 new
@@ -227,6 +231,7 @@ mProvider
 >
 RegisterIccMsg
 (
+mClientId
 mListener
 )
 ;
@@ -292,6 +297,7 @@ mProvider
 >
 UnregisterIccMsg
 (
+mClientId
 mListener
 )
 ;
@@ -342,6 +348,7 @@ mProvider
 >
 SendStkResponse
 (
+mClientId
 GetOwner
 (
 )
@@ -380,6 +387,7 @@ mProvider
 >
 SendStkMenuSelection
 (
+mClientId
 GetOwner
 (
 )
@@ -421,6 +429,7 @@ mProvider
 >
 SendStkTimerExpiration
 (
+mClientId
 GetOwner
 (
 )
@@ -461,6 +470,7 @@ mProvider
 >
 SendStkEventDownload
 (
+mClientId
 GetOwner
 (
 )
@@ -504,6 +514,7 @@ mProvider
 >
 GetIccInfo
 (
+mClientId
 aIccInfo
 )
 ;
@@ -542,6 +553,7 @@ mProvider
 >
 GetCardState
 (
+mClientId
 cardState
 )
 ;
@@ -578,6 +590,7 @@ mProvider
 >
 GetCardLockState
 (
+mClientId
 GetOwner
 (
 )
@@ -621,6 +634,7 @@ mProvider
 >
 SetCardLock
 (
+mClientId
 GetOwner
 (
 )
@@ -664,6 +678,7 @@ mProvider
 >
 UnlockCardLock
 (
+mClientId
 GetOwner
 (
 )
@@ -704,6 +719,7 @@ mProvider
 >
 GetCardLockRetryCount
 (
+mClientId
 GetOwner
 (
 )
@@ -744,6 +760,7 @@ mProvider
 >
 IccOpenChannel
 (
+mClientId
 GetOwner
 (
 )
@@ -786,6 +803,7 @@ mProvider
 >
 IccExchangeAPDU
 (
+mClientId
 GetOwner
 (
 )
@@ -825,6 +843,7 @@ mProvider
 >
 IccCloseChannel
 (
+mClientId
 GetOwner
 (
 )
@@ -865,6 +884,7 @@ mProvider
 >
 ReadContacts
 (
+mClientId
 GetOwner
 (
 )
@@ -916,6 +936,7 @@ mProvider
 >
 UpdateContact
 (
+mClientId
 GetOwner
 (
 )

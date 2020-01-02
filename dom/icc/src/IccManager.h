@@ -77,6 +77,9 @@ Shutdown
 ;
 private
 :
+uint32_t
+mClientId
+;
 nsCOMPtr
 <
 nsIIccProvider
