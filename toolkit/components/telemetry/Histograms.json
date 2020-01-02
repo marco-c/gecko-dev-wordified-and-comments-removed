@@ -29922,7 +29922,7 @@ ms
 "
 }
 "
-FX_THUMBNAILS_BG_CAPTURE_DONE_REASON
+FX_THUMBNAILS_BG_CAPTURE_DONE_REASON_2
 "
 :
 {
@@ -29937,7 +29937,7 @@ enumerated
 n_values
 "
 :
-4
+10
 "
 description
 "
