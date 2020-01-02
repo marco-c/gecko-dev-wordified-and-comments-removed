@@ -8489,7 +8489,7 @@ Run
 (
 )
 {
-nsFocusEvent
+InternalFocusEvent
 event
 (
 true

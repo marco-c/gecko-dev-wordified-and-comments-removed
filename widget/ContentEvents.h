@@ -664,12 +664,5 @@ mozilla
 InternalClipboardEvent
 nsClipboardEvent
 ;
-typedef
-mozilla
-:
-:
-InternalFocusEvent
-nsFocusEvent
-;
 #
 endif
