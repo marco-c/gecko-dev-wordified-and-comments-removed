@@ -6046,7 +6046,7 @@ false
 xpc_qsACString
 :
 :
-eStringify
+eNull
 xpc_qsACString
 :
 :
@@ -6192,11 +6192,11 @@ false
 xpc_qsACString
 :
 :
-eStringify
+eNull
 xpc_qsACString
 :
 :
-eStringify
+eNull
 )
 ;
 if

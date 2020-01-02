@@ -120,11 +120,6 @@ Navigator
 .
 webidl
 '
-'
-Window
-.
-webidl
-'
 ]
 WEBIDL_FILES
 =
@@ -951,11 +946,6 @@ webidl
 '
 '
 IDBDatabase
-.
-webidl
-'
-'
-IDBEnvironment
 .
 webidl
 '
@@ -2106,6 +2096,11 @@ webidl
 '
 '
 WifiOptions
+.
+webidl
+'
+'
+Window
 .
 webidl
 '

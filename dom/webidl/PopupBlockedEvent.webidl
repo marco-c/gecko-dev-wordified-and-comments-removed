@@ -92,6 +92,9 @@ MPL
 *
 /
 interface
+Window
+;
+interface
 URI
 ;
 [

@@ -123,6 +123,9 @@ C
 +
 +
 .
+[
+Global
+]
 interface
 DummyInterface
 :

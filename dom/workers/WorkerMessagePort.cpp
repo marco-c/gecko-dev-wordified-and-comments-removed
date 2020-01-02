@@ -474,7 +474,7 @@ void
 WorkerMessagePort
 :
 :
-PostMessageMoz
+PostMessage
 (
 JSContext
 *
