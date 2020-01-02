@@ -850,6 +850,7 @@ windowscodecs
 wininet
 wbemuuid
 wintrust
+wtsapi32
 )
 ifdef
 ACCESSIBILITY
