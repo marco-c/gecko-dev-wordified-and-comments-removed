@@ -10570,6 +10570,7 @@ family
 MathJax_Main
 STIXNonUnicode
 STIXSizeOneSym
+STIXSize1
 STIXGeneral
 Asana
 Math
@@ -18802,6 +18803,7 @@ family
 MathJax_Main
 STIXNonUnicode
 STIXSizeOneSym
+STIXSize1
 STIXGeneral
 Asana
 Math
@@ -25263,6 +25265,7 @@ family
 MathJax_Main
 STIXNonUnicode
 STIXSizeOneSym
+STIXSize1
 STIXGeneral
 Asana
 Math
