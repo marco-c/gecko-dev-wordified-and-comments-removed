@@ -4728,6 +4728,16 @@ srcdir
 /
 builtin
 /
+Map
+.
+js
+\
+(
+srcdir
+)
+/
+builtin
+/
 Number
 .
 js
@@ -4768,7 +4778,7 @@ srcdir
 /
 builtin
 /
-Map
+TypedObject
 .
 js
 \

@@ -2540,6 +2540,17 @@ ArgumentsAreUnicode
 ArgumentsAreASCII
 }
 ;
+JSFunction
+*
+SelfHostedFunction
+(
+JSContext
+*
+cx
+HandlePropertyName
+propName
+)
+;
 }
 #
 ifdef
