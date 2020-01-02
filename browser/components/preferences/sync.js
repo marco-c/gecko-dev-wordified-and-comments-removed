@@ -720,6 +720,15 @@ if
 (
 Weave
 .
+Service
+.
+identity
+.
+readyToAuthenticate
+&
+&
+Weave
+.
 Status
 .
 login

@@ -889,6 +889,14 @@ done
 "
 )
 ;
+Weave
+.
+Service
+.
+verifyLogin
+(
+)
+;
 }
 )
 .
