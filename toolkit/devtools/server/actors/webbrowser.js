@@ -1580,6 +1580,15 @@ url
 (
 )
 {
+if
+(
+this
+.
+browser
+.
+currentURI
+)
+{
 return
 this
 .
@@ -1588,6 +1597,10 @@ browser
 currentURI
 .
 spec
+;
+}
+return
+null
 ;
 }
 get
