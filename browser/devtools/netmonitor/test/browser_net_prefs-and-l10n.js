@@ -245,7 +245,7 @@ is
 (
 Prefs
 .
-root
+_root
 "
 devtools
 .
