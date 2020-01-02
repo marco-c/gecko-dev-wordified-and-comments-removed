@@ -236,8 +236,13 @@ newTabBrowser
 .
 contentWindow
 ;
-setTimeout
+window
+.
+addEventListener
 (
+"
+documentload
+"
 function
 (
 )
@@ -250,7 +255,8 @@ finish
 )
 ;
 }
-0
+false
+true
 )
 ;
 }
