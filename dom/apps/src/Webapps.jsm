@@ -14640,6 +14640,13 @@ function
 aData
 )
 {
+let
+manifestCache
+=
+this
+.
+_manifestCache
+;
 return
 Task
 .
@@ -14668,9 +14675,7 @@ id
 if
 (
 !
-this
-.
-_manifestCache
+manifestCache
 [
 id
 ]
@@ -14748,9 +14753,7 @@ of
 fileNames
 )
 {
-this
-.
-_manifestCache
+manifestCache
 [
 id
 ]
@@ -14775,9 +14778,7 @@ fileName
 ;
 if
 (
-this
-.
-_manifestCache
+manifestCache
 [
 id
 ]
@@ -14792,9 +14793,7 @@ elem
 .
 manifest
 =
-this
-.
-_manifestCache
+manifestCache
 [
 id
 ]
