@@ -245,11 +245,10 @@ SECItem
 &
 candidateCert
 TrustLevel
-*
+&
 trustLevel
 )
 {
-*
 trustLevel
 =
 TrustLevel

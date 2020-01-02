@@ -495,7 +495,7 @@ SECItem
 &
 candidateCert
 TrustLevel
-*
+&
 trustLevel
 )
 {
@@ -516,7 +516,6 @@ derCert
 )
 )
 {
-*
 trustLevel
 =
 TrustLevel
@@ -527,7 +526,6 @@ TrustAnchor
 }
 else
 {
-*
 trustLevel
 =
 TrustLevel

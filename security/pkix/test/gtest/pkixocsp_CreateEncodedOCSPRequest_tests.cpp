@@ -81,7 +81,7 @@ const
 SECItem
 &
 TrustLevel
-*
+&
 )
 {
 ADD_FAILURE

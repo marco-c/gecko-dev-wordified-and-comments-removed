@@ -267,6 +267,9 @@ time
 Result
 rv
 ;
+TrustLevel
+unusedTrustLevel
+;
 rv
 =
 CheckIssuerIndependentProperties
@@ -287,6 +290,7 @@ CertPolicyId
 :
 anyPolicy
 0
+unusedTrustLevel
 )
 ;
 if

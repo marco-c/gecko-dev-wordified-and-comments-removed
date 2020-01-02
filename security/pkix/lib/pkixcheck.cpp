@@ -2112,8 +2112,8 @@ unsigned
 int
 subCACount
 TrustLevel
-*
-trustLevelOut
+&
+trustLevel
 )
 {
 Result
@@ -2126,9 +2126,6 @@ endEntityOrCA
 cert
 .
 endEntityOrCA
-;
-TrustLevel
-trustLevel
 ;
 rv
 =
@@ -2143,7 +2140,6 @@ cert
 GetDER
 (
 )
-&
 trustLevel
 )
 ;
@@ -2202,17 +2198,6 @@ Result
 :
 :
 FATAL_ERROR_INVALID_STATE
-;
-}
-if
-(
-trustLevelOut
-)
-{
-*
-trustLevelOut
-=
-trustLevel
 ;
 }
 rv

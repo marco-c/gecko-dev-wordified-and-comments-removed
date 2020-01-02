@@ -387,7 +387,7 @@ SECItem
 &
 candidateCertDER
 TrustLevel
-*
+&
 trustLevel
 )
 =

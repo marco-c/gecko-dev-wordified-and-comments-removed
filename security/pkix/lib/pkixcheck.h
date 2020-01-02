@@ -57,10 +57,8 @@ unsigned
 int
 subCACount
 TrustLevel
-*
+&
 trustLevel
-=
-nullptr
 )
 ;
 Result

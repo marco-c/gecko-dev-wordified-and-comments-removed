@@ -767,7 +767,6 @@ requiredKeyUsageIfPresent
 requiredEKUIfPresent
 requiredPolicy
 subCACount
-&
 trustLevel
 )
 ;

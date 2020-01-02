@@ -108,7 +108,7 @@ SECItem
 &
 candidateCert
 TrustLevel
-*
+&
 trustLevel
 )
 {
@@ -121,12 +121,6 @@ EndEntityOrCA
 MustBeEndEntity
 )
 ;
-EXPECT_TRUE
-(
-trustLevel
-)
-;
-*
 trustLevel
 =
 TrustLevel
@@ -3301,7 +3295,7 @@ SECItem
 &
 candidateCert
 TrustLevel
-*
+&
 trustLevel
 )
 {
@@ -3312,11 +3306,6 @@ EndEntityOrCA
 :
 :
 MustBeEndEntity
-)
-;
-EXPECT_TRUE
-(
-trustLevel
 )
 ;
 EXPECT_TRUE
@@ -3334,7 +3323,6 @@ candidateCert
 )
 )
 ;
-*
 trustLevel
 =
 certTrustLevel
