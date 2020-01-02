@@ -107,9 +107,6 @@ char
 *
 allocProfileString
 (
-JSContext
-*
-cx
 JSScript
 *
 script
@@ -285,9 +282,6 @@ slowAssertions
 bool
 enter
 (
-JSContext
-*
-cx
 JSScript
 *
 script
@@ -299,9 +293,6 @@ maybeFun
 void
 exit
 (
-JSContext
-*
-cx
 JSScript
 *
 script
@@ -432,9 +423,6 @@ char
 *
 profileString
 (
-JSContext
-*
-cx
 JSScript
 *
 script
@@ -910,9 +898,6 @@ script
 bool
 push
 (
-JSContext
-*
-cx
 JSScript
 *
 script
@@ -943,7 +928,6 @@ profiler_
 >
 profileString
 (
-cx
 script
 script
 -

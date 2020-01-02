@@ -47728,12 +47728,6 @@ sps_
 .
 push
 (
-GetIonContext
-(
-)
--
->
-cx
 lir
 -
 >

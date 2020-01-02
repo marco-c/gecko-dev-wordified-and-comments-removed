@@ -195,7 +195,6 @@ spsProfiler
 .
 enter
 (
-cx
 script
 maybeFun
 )
@@ -304,7 +303,6 @@ spsProfiler
 .
 exit
 (
-cx
 script
 maybeFun
 )

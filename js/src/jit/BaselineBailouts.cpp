@@ -4563,7 +4563,6 @@ spsProfiler
 .
 exit
 (
-cx
 script
 fun
 )
