@@ -319,6 +319,9 @@ TEST_DIRS
 '
 test
 '
+'
+gtest
+'
 ]
 EXPORTS
 +

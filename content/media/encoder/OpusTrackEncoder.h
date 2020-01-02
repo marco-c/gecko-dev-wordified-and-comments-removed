@@ -119,13 +119,13 @@ aSamplingRate
 )
 MOZ_OVERRIDE
 ;
-private
-:
 int
 GetOutputSampleRate
 (
 )
 ;
+private
+:
 OpusEncoder
 *
 mEncoder
