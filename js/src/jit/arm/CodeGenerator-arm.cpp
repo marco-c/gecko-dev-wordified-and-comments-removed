@@ -11172,7 +11172,6 @@ Below
 )
 ;
 }
-return
 masm
 .
 append
@@ -11186,6 +11185,9 @@ getOffset
 )
 )
 )
+;
+return
+true
 ;
 }
 bool
@@ -11712,7 +11714,6 @@ Below
 )
 ;
 }
-return
 masm
 .
 append
@@ -11726,6 +11727,9 @@ getOffset
 )
 )
 )
+;
+return
+true
 ;
 }
 bool

@@ -1722,10 +1722,11 @@ size
 (
 )
 ;
-return
+if
+(
+!
 skipNote
-|
-|
+)
 masm
 .
 append
@@ -1746,6 +1747,9 @@ output
 )
 )
 )
+;
+return
+true
 ;
 }
 bool
@@ -2181,10 +2185,11 @@ size
 (
 )
 ;
-return
+if
+(
+!
 skipNote
-|
-|
+)
 masm
 .
 append
@@ -2195,6 +2200,9 @@ before
 after
 )
 )
+;
+return
+true
 ;
 }
 bool
@@ -2269,7 +2277,6 @@ output
 )
 )
 ;
-return
 masm
 .
 append
@@ -2292,6 +2299,9 @@ globalDataOffset
 )
 )
 )
+;
+return
+true
 ;
 }
 bool
@@ -2384,7 +2394,6 @@ value
 )
 )
 ;
-return
 masm
 .
 append
@@ -2407,6 +2416,9 @@ globalDataOffset
 )
 )
 )
+;
+return
+true
 ;
 }
 bool
@@ -2494,7 +2506,6 @@ TimesEight
 out
 )
 ;
-return
 masm
 .
 append
@@ -2517,6 +2528,9 @@ globalDataOffset
 )
 )
 )
+;
+return
+true
 ;
 }
 bool
@@ -2559,7 +2573,6 @@ output
 )
 )
 ;
-return
 masm
 .
 append
@@ -2582,6 +2595,9 @@ globalDataOffset
 )
 )
 )
+;
+return
+true
 ;
 }
 void

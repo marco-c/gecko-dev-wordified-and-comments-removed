@@ -9750,9 +9750,6 @@ rs
 =
 L_LDR
 ;
-enoughMemory_
-&
-=
 append
 (
 AsmJSAbsoluteLink

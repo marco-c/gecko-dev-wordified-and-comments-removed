@@ -7764,9 +7764,6 @@ Register
 dest
 )
 {
-enoughMemory_
-&
-=
 append
 (
 AsmJSAbsoluteLink
