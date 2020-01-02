@@ -1814,6 +1814,16 @@ IndirectlyImplementedInterface
 )
 ;
 void
+GetReadonlySequence
+(
+nsTArray
+<
+int32_t
+>
+&
+)
+;
+void
 ReceiveSequence
 (
 nsTArray
