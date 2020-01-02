@@ -1089,9 +1089,8 @@ VideoQueueMemoryInUse
 (
 )
 ;
-virtual
-int64_t
-AudioQueueMemoryInUse
+size_t
+SizeOfAudioQueue
 (
 )
 ;
