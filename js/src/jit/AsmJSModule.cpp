@@ -1157,7 +1157,7 @@ double
 )
 >
 (
-math_sin_impl
+sin
 )
 Args_Double_Double
 )
@@ -1176,7 +1176,7 @@ double
 )
 >
 (
-math_cos_impl
+cos
 )
 Args_Double_Double
 )
