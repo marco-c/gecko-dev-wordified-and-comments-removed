@@ -27513,6 +27513,9 @@ name_
 bool
 idempotent_
 ;
+bool
+callprop_
+;
 MCallGetProperty
 (
 MDefinition
@@ -27521,6 +27524,8 @@ value
 PropertyName
 *
 name
+bool
+callprop
 )
 :
 MUnaryInstruction
@@ -27534,6 +27539,10 @@ name
 idempotent_
 (
 false
+)
+callprop_
+(
+callprop
 )
 {
 setResultType
@@ -27559,6 +27568,8 @@ value
 PropertyName
 *
 name
+bool
+callprop
 )
 {
 return
@@ -27567,6 +27578,7 @@ MCallGetProperty
 (
 value
 name
+callprop
 )
 ;
 }
@@ -27593,6 +27605,16 @@ const
 {
 return
 name_
+;
+}
+bool
+callprop
+(
+)
+const
+{
+return
+callprop_
 ;
 }
 TypePolicy
@@ -34440,7 +34462,7 @@ name
 types
 :
 :
-StackTypeSet
+TemporaryTypeSet
 *
 observed
 bool
@@ -34471,7 +34493,7 @@ name
 types
 :
 :
-StackTypeSet
+TemporaryTypeSet
 *
 observed
 )
@@ -34522,9 +34544,6 @@ name
 bool
 AddObjectsForPropertyRead
 (
-JSContext
-*
-cx
 MDefinition
 *
 obj
@@ -34534,7 +34553,7 @@ name
 types
 :
 :
-StackTypeSet
+TemporaryTypeSet
 *
 observed
 )
