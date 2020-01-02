@@ -487,6 +487,9 @@ local
 incoming
 )
 {
+JS
+:
+:
 RootedObject
 obj
 (
