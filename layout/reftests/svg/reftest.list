@@ -5389,6 +5389,14 @@ svg
 #
 bug
 896487
+fuzzy
+-
+if
+(
+winWidget
+12
+7
+)
 =
 =
 stroke
