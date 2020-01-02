@@ -1052,9 +1052,6 @@ cyrillic
 el
 "
 "
-tr
-"
-"
 th
 "
 "
@@ -5574,12 +5571,6 @@ kRangeGreek
 :
 return
 eFontPrefLang_Greek
-;
-case
-kRangeTurkish
-:
-return
-eFontPrefLang_Turkish
 ;
 case
 kRangeHebrew

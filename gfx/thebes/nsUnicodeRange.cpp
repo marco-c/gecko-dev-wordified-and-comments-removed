@@ -44,11 +44,6 @@ el_
 nsGkAtoms
 :
 :
-tr
-&
-nsGkAtoms
-:
-:
 he
 &
 nsGkAtoms
