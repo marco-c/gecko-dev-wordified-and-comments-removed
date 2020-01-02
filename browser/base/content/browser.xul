@@ -3812,6 +3812,11 @@ hidePopup
 )
 ;
 "
+flip
+=
+"
+slide
+"
 >
 <
 hbox
@@ -3978,6 +3983,11 @@ hidePopup
 (
 )
 ;
+"
+flip
+=
+"
+slide
 "
 >
 <
