@@ -12817,6 +12817,14 @@ obj
 hasEmptyElements
 (
 )
+|
+|
+obj
+-
+>
+getMetadata
+(
+)
 )
 return
 ;
