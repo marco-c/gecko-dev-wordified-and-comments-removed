@@ -90,10 +90,12 @@ extends
 ShapedButton
 {
 private
+final
 Path
 mBorderPath
 ;
 private
+final
 Paint
 mBorderPaint
 ;
