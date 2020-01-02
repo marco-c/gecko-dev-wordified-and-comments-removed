@@ -5349,6 +5349,7 @@ refCount
 }
 )
 ;
+}
 if
 (
 (
@@ -5477,7 +5478,6 @@ aMsgName
 aEvent
 )
 ;
-}
 }
 }
 }
