@@ -27764,6 +27764,7 @@ JSPROP_ENUMERATE
 |
 JSPROP_NATIVE_ACCESSORS
 {
+{
 (
 JSPropertyOp
 )
@@ -27771,6 +27772,8 @@ dom_genericGetter
 &
 dom_x_getterinfo
 }
+}
+{
 {
 (
 JSStrictPropertyOp
@@ -27778,6 +27781,7 @@ JSStrictPropertyOp
 dom_genericSetter
 &
 dom_x_setterinfo
+}
 }
 }
 JS_PS_END
