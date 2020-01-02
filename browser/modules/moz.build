@@ -131,11 +131,6 @@ offlineAppCache
 jsm
 '
 '
-openLocationLastURL
-.
-jsm
-'
-'
 SharedFrame
 .
 jsm
