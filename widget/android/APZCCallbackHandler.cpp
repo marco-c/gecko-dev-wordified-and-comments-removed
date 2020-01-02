@@ -451,7 +451,9 @@ if
 (
 aFrameMetrics
 .
-mIsRoot
+GetIsRoot
+(
+)
 )
 {
 nsIDOMWindowUtils
