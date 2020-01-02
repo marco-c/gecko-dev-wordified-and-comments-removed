@@ -9,6 +9,14 @@ include
 <
 string
 >
+#
+ifdef
+ERROR
+#
+undef
+ERROR
+#
+endif
 namespace
 pp
 {
