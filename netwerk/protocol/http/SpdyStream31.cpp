@@ -2533,9 +2533,6 @@ PR_htonl
 toack
 )
 ;
-SpdySession31
-:
-:
 EnsureBuffer
 (
 mTxInlineFrame
@@ -5327,9 +5324,6 @@ mDecompressBufferSize
 )
 )
 ;
-SpdySession31
-:
-:
 EnsureBuffer
 (
 mDecompressBuffer
@@ -6614,9 +6608,6 @@ avail
 1
 )
 {
-SpdySession31
-:
-:
 EnsureBuffer
 (
 mTxInlineFrame

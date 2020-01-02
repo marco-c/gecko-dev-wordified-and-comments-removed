@@ -1797,9 +1797,6 @@ numFrames
 *
 8
 ;
-Http2Session
-:
-:
 EnsureBuffer
 (
 mTxInlineFrame
@@ -2430,9 +2427,6 @@ get
 +
 mTxInlineFrameUsed
 ;
-Http2Session
-:
-:
 EnsureBuffer
 (
 mTxInlineFrame
@@ -2603,9 +2597,6 @@ get
 +
 mTxInlineFrameUsed
 ;
-Http2Session
-:
-:
 EnsureBuffer
 (
 mTxInlineFrame
