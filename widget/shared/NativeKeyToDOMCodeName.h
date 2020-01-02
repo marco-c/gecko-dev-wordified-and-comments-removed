@@ -261,7 +261,7 @@ Comma
 CODE_MAP_WIN
 (
 Digit0
-0x0002
+0x000B
 )
 CODE_MAP_MAC
 (
@@ -281,7 +281,7 @@ Digit0
 CODE_MAP_WIN
 (
 Digit1
-0x0003
+0x0002
 )
 CODE_MAP_MAC
 (
@@ -301,7 +301,7 @@ Digit1
 CODE_MAP_WIN
 (
 Digit2
-0x0004
+0x0003
 )
 CODE_MAP_MAC
 (
@@ -321,7 +321,7 @@ Digit2
 CODE_MAP_WIN
 (
 Digit3
-0x0005
+0x0004
 )
 CODE_MAP_MAC
 (
@@ -341,7 +341,7 @@ Digit3
 CODE_MAP_WIN
 (
 Digit4
-0x0006
+0x0005
 )
 CODE_MAP_MAC
 (
@@ -361,7 +361,7 @@ Digit4
 CODE_MAP_WIN
 (
 Digit5
-0x0007
+0x0006
 )
 CODE_MAP_MAC
 (
@@ -381,7 +381,7 @@ Digit5
 CODE_MAP_WIN
 (
 Digit6
-0x0008
+0x0007
 )
 CODE_MAP_MAC
 (
@@ -401,7 +401,7 @@ Digit6
 CODE_MAP_WIN
 (
 Digit7
-0x0009
+0x0008
 )
 CODE_MAP_MAC
 (
@@ -421,7 +421,7 @@ Digit7
 CODE_MAP_WIN
 (
 Digit8
-0x000A
+0x0009
 )
 CODE_MAP_MAC
 (
@@ -441,7 +441,7 @@ Digit8
 CODE_MAP_WIN
 (
 Digit9
-0x000B
+0x000A
 )
 CODE_MAP_MAC
 (
