@@ -4977,13 +4977,6 @@ mIccManager
 new
 IccManager
 (
-)
-;
-mIccManager
--
->
-Init
-(
 mWindow
 )
 ;
