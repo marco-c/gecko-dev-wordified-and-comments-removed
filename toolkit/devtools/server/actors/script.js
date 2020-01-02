@@ -5588,9 +5588,9 @@ column
 ;
 this
 .
-_hooks
+threadLifetimePool
 .
-addToParentPool
+addActor
 (
 actor
 )
@@ -14092,9 +14092,9 @@ this
 .
 threadActor
 .
-_hooks
+threadLifetimePool
 .
-removeFromParentPool
+removeActor
 (
 this
 )
