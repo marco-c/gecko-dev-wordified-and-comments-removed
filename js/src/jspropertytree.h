@@ -38,13 +38,6 @@ StackShape
 ;
 struct
 ShapeHasher
-:
-public
-DefaultHasher
-<
-Shape
-*
->
 {
 typedef
 Shape

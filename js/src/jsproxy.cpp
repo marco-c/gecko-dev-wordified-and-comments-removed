@@ -15990,8 +15990,6 @@ JSObject
 *
 referent
 =
-MaybeForwarded
-(
 &
 proxy
 -
@@ -16002,7 +16000,6 @@ private_
 .
 toObject
 (
-)
 )
 ;
 if
@@ -16049,11 +16046,6 @@ compartment
 lookupWrapper
 (
 key
-)
-;
-JS_ASSERT
-(
-p
 )
 ;
 JS_ASSERT
