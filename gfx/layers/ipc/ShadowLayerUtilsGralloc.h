@@ -75,9 +75,6 @@ SurfaceDescriptorGralloc
 class
 TextureHost
 ;
-class
-DeprecatedTextureHost
-;
 struct
 MagicGrallocBufferHandle
 {
@@ -278,14 +275,6 @@ mGraphicBuffer
 ;
 size_t
 mAllocBytes
-;
-nsAutoTArray
-<
-DeprecatedTextureHost
-*
-2
->
-mDeprecatedTextureHosts
 ;
 TextureHost
 *
