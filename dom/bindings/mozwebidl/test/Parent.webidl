@@ -1,0 +1,10 @@
+interface
+Parent
+{
+void
+MethodFoo
+(
+)
+;
+}
+;
