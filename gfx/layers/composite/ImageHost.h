@@ -552,14 +552,6 @@ MOZ_OVERRIDE
 ;
 virtual
 void
-OnActorDestroy
-(
-)
-MOZ_OVERRIDE
-{
-}
-virtual
-void
 PrintInfo
 (
 nsACString
