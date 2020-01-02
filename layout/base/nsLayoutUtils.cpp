@@ -489,6 +489,17 @@ include
 "
 mozilla
 /
+dom
+/
+ScriptSettings
+.
+h
+"
+#
+include
+"
+mozilla
+/
 Preferences
 .
 h
@@ -23657,6 +23668,9 @@ wantImageSurface
 true
 ;
 }
+AutoSystemCaller
+asc
+;
 nsCOMPtr
 <
 imgIRequest

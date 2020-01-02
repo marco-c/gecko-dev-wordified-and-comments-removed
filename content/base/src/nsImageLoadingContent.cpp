@@ -245,6 +245,15 @@ using
 namespace
 mozilla
 ;
+using
+mozilla
+:
+:
+dom
+:
+:
+AutoSystemCaller
+;
 #
 ifdef
 DEBUG_chb
@@ -4439,6 +4448,9 @@ mPendingRequest
 )
 return
 ;
+AutoSystemCaller
+asc
+;
 nsLayoutUtils
 :
 :
@@ -4656,6 +4668,9 @@ aDocument
 )
 return
 ;
+AutoSystemCaller
+asc
+;
 TrackImage
 (
 mCurrentRequest
@@ -4708,6 +4723,9 @@ if
 doc
 )
 return
+;
+AutoSystemCaller
+asc
 ;
 UntrackImage
 (
