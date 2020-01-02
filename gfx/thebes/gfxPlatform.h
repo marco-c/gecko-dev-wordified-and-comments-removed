@@ -1422,6 +1422,12 @@ CanUseDirect3D9
 ;
 static
 bool
+CanUseDirect3D11
+(
+)
+;
+static
+bool
 OffMainThreadCompositionRequired
 (
 )
