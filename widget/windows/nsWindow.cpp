@@ -25961,9 +25961,17 @@ prefs
 if
 (
 !
+(
 prefs
 .
 mDisableAcceleration
+|
+|
+mTransparencyMode
+=
+=
+eTransparencyTransparent
+)
 )
 {
 if
