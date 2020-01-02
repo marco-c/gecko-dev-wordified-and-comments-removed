@@ -699,6 +699,11 @@ DataSourceSurface
 cpp
 '
 '
+DataSurfaceHelpers
+.
+cpp
+'
+'
 DrawEventRecorder
 .
 cpp
