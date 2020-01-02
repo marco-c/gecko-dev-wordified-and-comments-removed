@@ -180,11 +180,15 @@ SpeechSynthesis
 cpp
 '
 '
+ipc
+/
 SpeechSynthesisChild
 .
 cpp
 '
 '
+ipc
+/
 SpeechSynthesisParent
 .
 cpp

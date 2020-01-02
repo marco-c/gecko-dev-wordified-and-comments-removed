@@ -130,6 +130,8 @@ CPP_SOURCES
 =
 [
 '
+src
+/
 snappy
 -
 c
@@ -137,6 +139,8 @@ c
 cc
 '
 '
+src
+/
 snappy
 -
 sinksource
@@ -144,6 +148,8 @@ sinksource
 cc
 '
 '
+src
+/
 snappy
 -
 stubs
@@ -153,6 +159,8 @@ internal
 cc
 '
 '
+src
+/
 snappy
 .
 cc

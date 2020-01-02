@@ -79,6 +79,12 @@ xpcaccevents_TARGET
 :
 =
 export
+CPPSRCS
++
+=
+xpcAccEvents
+.
+cpp
 include
 (
 topsrcdir

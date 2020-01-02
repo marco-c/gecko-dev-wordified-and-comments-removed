@@ -198,6 +198,16 @@ CPP_SOURCES
 =
 [
 '
+libui
+/
+'
++
+src
+for
+src
+in
+[
+'
 EventHub
 .
 cpp
@@ -287,6 +297,7 @@ VirtualKeyMap
 .
 cpp
 '
+]
 ]
 CPP_SOURCES
 +
