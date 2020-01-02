@@ -562,7 +562,7 @@ if
 _beginthread
 (
 playSound
-NULL
+nullptr
 32768
 (
 void
@@ -1714,7 +1714,7 @@ hmmio
 =
 _mmioOpen
 (
-NULL
+nullptr
 &
 mi
 MMIO_READ

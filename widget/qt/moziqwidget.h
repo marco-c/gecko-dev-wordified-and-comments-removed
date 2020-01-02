@@ -96,7 +96,7 @@ getReceiver
 )
 {
 return
-NULL
+nullptr
 ;
 }
 ;
@@ -429,7 +429,7 @@ this
 )
 mTopLevelWidget
 (
-NULL
+nullptr
 )
 mGLWidget
 (
@@ -994,11 +994,11 @@ this
 )
 mTopLevelWidget
 (
-NULL
+nullptr
 )
 mSceneWin
 (
-NULL
+nullptr
 )
 {
 QObject

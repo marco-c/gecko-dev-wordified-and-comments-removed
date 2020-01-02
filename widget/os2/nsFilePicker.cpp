@@ -194,7 +194,7 @@ nsFilePicker
 {
 mWnd
 =
-NULL
+nullptr
 ;
 mUnicodeEncoder
 =
@@ -3659,7 +3659,7 @@ char
 *
 ptr
 =
-NULL
+nullptr
 ;
 int
 iHalfLen
@@ -4027,8 +4027,8 @@ swp
 .
 hwndInsertBehind
 290
-NULL
-NULL
+nullptr
+nullptr
 )
 ;
 WinSendMsg
@@ -4084,7 +4084,7 @@ i
 )
 !
 =
-NULL
+nullptr
 )
 {
 WinSendMsg

@@ -1051,7 +1051,7 @@ DosQueryProcAddr
 (
 sIm32Mod
 104
-NULL
+nullptr
 (
 PFN
 *
@@ -1071,7 +1071,7 @@ DosQueryProcAddr
 (
 sIm32Mod
 106
-NULL
+nullptr
 (
 PFN
 *
@@ -1091,7 +1091,7 @@ DosQueryProcAddr
 (
 sIm32Mod
 118
-NULL
+nullptr
 (
 PFN
 *
@@ -1111,7 +1111,7 @@ DosQueryProcAddr
 (
 sIm32Mod
 122
-NULL
+nullptr
 (
 PFN
 *
@@ -1131,7 +1131,7 @@ DosQueryProcAddr
 (
 sIm32Mod
 131
-NULL
+nullptr
 (
 PFN
 *
@@ -5949,7 +5949,7 @@ rollupWidget
 >
 mWnd
 :
-NULL
+nullptr
 ;
 if
 (
@@ -9136,7 +9136,7 @@ spfnImGetResultString
 (
 himi
 IMR_RESULT_RESULTSTRING
-NULL
+nullptr
 &
 ulBufLen
 )
@@ -9425,7 +9425,7 @@ spfnImGetConversionString
 (
 himi
 IMR_CONV_CONVERSIONSTRING
-NULL
+nullptr
 &
 ulBufLen
 )

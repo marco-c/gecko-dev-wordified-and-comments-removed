@@ -116,7 +116,7 @@ MApplicationPage
 *
 page
 =
-NULL
+nullptr
 ;
 switch
 (

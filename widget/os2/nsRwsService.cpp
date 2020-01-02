@@ -4229,7 +4229,7 @@ if
 !
 WinEnumObjectClasses
 (
-NULL
+nullptr
 &
 cbClass
 )
@@ -4760,7 +4760,7 @@ inst
 *
 aResult
 =
-NULL
+nullptr
 ;
 if
 (

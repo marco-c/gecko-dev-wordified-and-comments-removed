@@ -432,10 +432,10 @@ DosQueryModFromEIP
 (
 &
 hModResources
-NULL
+nullptr
 0
-NULL
-NULL
+nullptr
+nullptr
 (
 ULONG
 )

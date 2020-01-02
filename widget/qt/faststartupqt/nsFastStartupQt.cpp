@@ -73,7 +73,7 @@ nsFastStartup
 *
 sFastStartup
 =
-NULL
+nullptr
 ;
 void
 GeckoThread
@@ -170,7 +170,7 @@ MozGraphicsView
 *
 view
 =
-NULL
+nullptr
 ;
 if
 (
@@ -428,15 +428,15 @@ fakeWidget
 new
 MozQWidgetFast
 (
-NULL
-NULL
+nullptr
+nullptr
 )
 ;
 mGraphicsView
 =
 GetStartupGraphicsView
 (
-NULL
+nullptr
 fakeWidget
 )
 ;

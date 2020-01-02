@@ -1163,7 +1163,7 @@ CE_ScrollBarSubLine
 &
 opt
 qPainter
-NULL
+nullptr
 )
 ;
 break
@@ -1213,7 +1213,7 @@ CE_ScrollBarAddLine
 &
 opt
 qPainter
-NULL
+nullptr
 )
 ;
 break
@@ -1259,7 +1259,7 @@ CE_ScrollBarSubLine
 &
 opt
 qPainter
-NULL
+nullptr
 )
 ;
 break
@@ -1305,7 +1305,7 @@ CE_ScrollBarAddLine
 &
 opt
 qPainter
-NULL
+nullptr
 )
 ;
 break
@@ -1360,7 +1360,7 @@ CE_ScrollBarSlider
 &
 option
 qPainter
-NULL
+nullptr
 )
 ;
 break
@@ -1407,7 +1407,7 @@ CE_ScrollBarSlider
 &
 option
 qPainter
-NULL
+nullptr
 )
 ;
 break
@@ -1629,7 +1629,7 @@ PE_FrameLineEdit
 &
 frameOpt
 qPainter
-NULL
+nullptr
 )
 ;
 break
@@ -1667,7 +1667,7 @@ PE_FrameMenu
 &
 option
 qPainter
-NULL
+nullptr
 )
 ;
 break
@@ -1996,7 +1996,7 @@ QStyle
 SE_RadioButtonIndicator
 &
 option
-NULL
+nullptr
 )
 ;
 (
@@ -2076,7 +2076,7 @@ QStyle
 SE_PushButtonFocusRect
 &
 option
-NULL
+nullptr
 )
 ;
 (
@@ -2422,7 +2422,7 @@ QStyle
 :
 :
 SC_ComboBoxArrow
-NULL
+nullptr
 )
 ;
 (
@@ -2512,7 +2512,7 @@ QStyle
 :
 :
 SC_ComboBoxFrame
-NULL
+nullptr
 )
 ;
 (
@@ -2594,7 +2594,7 @@ QStyle
 :
 :
 SC_ComboBoxEditField
-NULL
+nullptr
 )
 ;
 (
@@ -2676,7 +2676,7 @@ QStyle
 :
 :
 SC_ComboBoxArrow
-NULL
+nullptr
 )
 ;
 QRect
@@ -2697,7 +2697,7 @@ QStyle
 :
 :
 SC_ComboBoxFrame
-NULL
+nullptr
 )
 ;
 (
