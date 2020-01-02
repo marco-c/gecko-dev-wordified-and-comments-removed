@@ -353,14 +353,6 @@ CERTGeneralName
 result
 )
 ;
-Result
-PrependNSSCertToList
-(
-CERTCertList
-*
-results
-)
-;
 PLArenaPool
 *
 GetArena
