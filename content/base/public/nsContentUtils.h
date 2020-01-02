@@ -4051,6 +4051,15 @@ aContent
 ;
 static
 bool
+HasDistributedChildren
+(
+nsIContent
+*
+aContent
+)
+;
+static
+bool
 IsForbiddenRequestHeader
 (
 const
