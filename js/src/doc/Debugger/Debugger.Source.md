@@ -1065,18 +1065,7 @@ was
 introduced
 .
 introductionScript
-introductionScriptOffset
-<
-i
->
-(
-future
-plan
-)
-<
-/
-i
->
+introductionOffset
 :
 If
 this
@@ -1111,7 +1100,7 @@ containing
 that
 call
 and
-introductionScriptOffset
+introductionOffset
 is
 the
 call
@@ -1181,7 +1170,7 @@ source
 whose
 introductionScript
 and
-introductionScriptOffset
+introductionOffset
 refer
 to
 the
@@ -1216,7 +1205,7 @@ source
 s
 introductionScript
 and
-introductionScriptOffset
+introductionOffset
 accessors
 both
 return
