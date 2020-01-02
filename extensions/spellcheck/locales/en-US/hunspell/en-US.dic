@@ -1,4 +1,4 @@
-57220
+57222
 0
 /
 nm
@@ -108450,6 +108450,12 @@ parallelepiped
 parallelism
 /
 SM
+parallelization
+/
+SM
+parallelize
+/
+SGD
 parallelogram
 /
 SM
