@@ -19,13 +19,6 @@ h
 #
 include
 "
-jsanalyze
-.
-h
-"
-#
-include
-"
 jit
 /
 IonSpewer
