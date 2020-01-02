@@ -19989,6 +19989,12 @@ ProcessAllControlRunnablesLocked
 if
 (
 normalRunnablesPending
+|
+|
+loopInfo
+-
+>
+mCompleted
 )
 {
 break
@@ -19996,6 +20002,11 @@ break
 }
 }
 }
+if
+(
+normalRunnablesPending
+)
+{
 SetGCTimerMode
 (
 PeriodicTimer
@@ -20015,6 +20026,7 @@ JS_MaybeGC
 cx
 )
 ;
+}
 }
 MOZ_ASSERT
 (
