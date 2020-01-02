@@ -127,9 +127,6 @@ License
 MODULE_NAME
 =
 libstagefright_color_conversion
-FORCE_SHARED_LIB
-=
-1
 #
 Don
 '

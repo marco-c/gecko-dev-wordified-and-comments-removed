@@ -121,3 +121,6 @@ sandboxBroker
 h
 '
 ]
+FORCE_SHARED_LIB
+=
+True

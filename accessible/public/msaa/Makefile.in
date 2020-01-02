@@ -77,9 +77,6 @@ done_gen
 dlldata
 .
 c
-FORCE_SHARED_LIB
-=
-1
 MIDL_GENERATED_FILES
 =
 \

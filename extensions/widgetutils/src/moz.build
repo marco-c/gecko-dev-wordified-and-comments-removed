@@ -144,3 +144,6 @@ s
 '
 %
 CONFIG
+FORCE_SHARED_LIB
+=
+True

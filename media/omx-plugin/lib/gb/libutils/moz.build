@@ -124,3 +124,6 @@ LIBRARY_NAME
 '
 utils
 '
+FORCE_SHARED_LIB
+=
+True

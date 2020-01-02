@@ -64,9 +64,6 @@ tests
 /
 component
 .
-FORCE_SHARED_LIB
-=
-1
 unittestlocation
 =
 xpcom

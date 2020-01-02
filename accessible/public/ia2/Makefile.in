@@ -84,9 +84,6 @@ GARBAGE
 (
 MIDL_GENERATED_FILES
 )
-FORCE_SHARED_LIB
-=
-1
 #
 Please
 keep

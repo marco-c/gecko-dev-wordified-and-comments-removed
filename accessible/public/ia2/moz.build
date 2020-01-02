@@ -98,3 +98,6 @@ LIBRARY_NAME
 '
 IA2Marshal
 '
+FORCE_SHARED_LIB
+=
+True

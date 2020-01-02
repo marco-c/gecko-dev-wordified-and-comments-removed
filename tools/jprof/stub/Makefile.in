@@ -57,9 +57,6 @@ MPL
 0
 /
 .
-FORCE_SHARED_LIB
-=
-1
 #
 override
 optimization

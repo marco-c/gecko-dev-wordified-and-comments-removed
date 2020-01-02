@@ -209,3 +209,6 @@ CrashTestUtils
 jsm
 '
 ]
+FORCE_SHARED_LIB
+=
+True

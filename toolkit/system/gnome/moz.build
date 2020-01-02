@@ -173,3 +173,6 @@ True
 IS_COMPONENT
 =
 True
+FORCE_SHARED_LIB
+=
+True

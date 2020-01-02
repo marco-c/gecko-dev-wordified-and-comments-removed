@@ -124,3 +124,6 @@ LIBRARY_NAME
 '
 stagefright_color_conversion
 '
+FORCE_SHARED_LIB
+=
+True

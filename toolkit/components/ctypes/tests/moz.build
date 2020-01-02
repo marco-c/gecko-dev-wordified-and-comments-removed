@@ -145,3 +145,6 @@ jsctypes
 -
 test
 '
+FORCE_SHARED_LIB
+=
+True

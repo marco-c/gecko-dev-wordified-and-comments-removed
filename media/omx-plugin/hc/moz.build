@@ -108,3 +108,6 @@ LIBRARY_NAME
 '
 omxpluginhc
 '
+FORCE_SHARED_LIB
+=
+True

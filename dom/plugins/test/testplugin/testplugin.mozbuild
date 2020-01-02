@@ -272,3 +272,6 @@ nptest_windows
 cpp
 '
 ]
+FORCE_SHARED_LIB
+=
+True

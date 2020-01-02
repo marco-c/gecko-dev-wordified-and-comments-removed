@@ -127,9 +127,6 @@ License
 MODULE_NAME
 =
 libandroidstagefrightgb234
-FORCE_SHARED_LIB
-=
-1
 #
 Don
 '

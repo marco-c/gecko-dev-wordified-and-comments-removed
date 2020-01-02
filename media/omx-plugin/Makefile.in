@@ -127,9 +127,6 @@ License
 MODULE_NAME
 =
 omxplugin
-FORCE_SHARED_LIB
-=
-1
 #
 Don
 '

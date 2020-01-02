@@ -162,3 +162,6 @@ cpp
 MSVC_ENABLE_PGO
 =
 True
+FORCE_SHARED_LIB
+=
+True

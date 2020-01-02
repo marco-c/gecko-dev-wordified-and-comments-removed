@@ -71,9 +71,6 @@ MPL
 SHORT_LIBNAME
 =
 widgetutils
-FORCE_SHARED_LIB
-=
-1
 EXTRA_DSO_LDOPTS
 =
 \

@@ -59,9 +59,6 @@ brwsrcmp
 MODULE_NAME
 =
 nsBrowserCompsModule
-FORCE_SHARED_LIB
-=
-1
 ifeq
 (
 (

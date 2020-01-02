@@ -68,17 +68,6 @@ WINNT
 OS_TARGET
 )
 )
-FORCE_SHARED_LIB
-=
-1
-endif
-ifeq
-(
-WINNT
-(
-OS_TARGET
-)
-)
 EXTRA_DSO_LDOPTS
 =
 (

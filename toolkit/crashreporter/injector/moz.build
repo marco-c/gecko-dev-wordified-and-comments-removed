@@ -123,3 +123,6 @@ config
 mozbuild
 '
 )
+FORCE_SHARED_LIB
+=
+True

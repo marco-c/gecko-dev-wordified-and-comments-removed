@@ -111,3 +111,6 @@ LIBRARY_NAME
 '
 replace_malloc
 '
+FORCE_SHARED_LIB
+=
+True

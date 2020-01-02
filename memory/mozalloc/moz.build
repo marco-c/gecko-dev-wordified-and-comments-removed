@@ -263,3 +263,8 @@ gonk
 FORCE_STATIC_LIB
 =
 True
+else
+:
+FORCE_SHARED_LIB
+=
+True

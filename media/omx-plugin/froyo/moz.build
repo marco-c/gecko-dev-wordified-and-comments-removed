@@ -108,3 +108,6 @@ LIBRARY_NAME
 '
 omxpluginfroyo
 '
+FORCE_SHARED_LIB
+=
+True

@@ -138,3 +138,6 @@ ISimpleDOMText_p
 c
 '
 ]
+FORCE_SHARED_LIB
+=
+True

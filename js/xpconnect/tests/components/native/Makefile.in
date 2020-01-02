@@ -57,9 +57,6 @@ MPL
 MODULE_NAME
 =
 xpconnect_test
-FORCE_SHARED_LIB
-=
-1
 componentdir
 =
 js

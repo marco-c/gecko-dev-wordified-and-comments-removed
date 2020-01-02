@@ -189,3 +189,6 @@ LIBRARY_NAME
 '
 replace_jemalloc
 '
+FORCE_SHARED_LIB
+=
+True
