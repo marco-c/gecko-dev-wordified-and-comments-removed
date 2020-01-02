@@ -416,6 +416,10 @@ return
 true
 ;
 }
+ClearPrevFenceHandles
+(
+)
+;
 EditReplyVector
 replyv
 ;
