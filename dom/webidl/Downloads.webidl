@@ -377,6 +377,7 @@ resource
 readonly
 attribute
 long
+long
 totalBytes
 ;
 /
@@ -393,6 +394,7 @@ downloaded
 .
 readonly
 attribute
+long
 long
 currentBytes
 ;
