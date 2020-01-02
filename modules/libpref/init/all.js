@@ -1302,6 +1302,12 @@ defined
 (
 MOZ_WMF
 )
+|
+|
+defined
+(
+XP_MACOSX
+)
 pref
 (
 "
