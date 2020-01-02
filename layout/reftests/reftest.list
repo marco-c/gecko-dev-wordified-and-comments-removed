@@ -1434,7 +1434,7 @@ reftest
 .
 list
 #
-webcomonents
+webcomponents
 /
 include
 webcomponents
@@ -1506,15 +1506,6 @@ xul
 /
 include
 xul
-/
-reftest
-.
-list
-#
-webcomonents
-/
-include
-webcomponents
 /
 reftest
 .
