@@ -225,11 +225,7 @@ String
 BROWSER_INTENT_PACKAGE
 =
 "
-org
-.
-mozilla
-.
-gecko
+ANDROID_PACKAGE_NAME
 "
 ;
 public
@@ -238,9 +234,12 @@ final
 String
 BROWSER_INTENT_CLASS
 =
-BROWSER_INTENT_PACKAGE
-+
 "
+org
+.
+mozilla
+.
+gecko
 .
 BrowserApp
 "
