@@ -73,6 +73,9 @@ class
 GlobalObject
 ;
 class
+XPathExpression
+;
+class
 XPathResult
 ;
 class
@@ -146,10 +149,8 @@ ErrorResult
 rv
 )
 ;
-already_AddRefed
-<
-nsIDOMXPathExpression
->
+XPathExpression
+*
 CreateExpression
 (
 const
