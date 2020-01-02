@@ -134,9 +134,6 @@ HashChangeEvent
 CloseEvent
 '
 '
-MozContactChangeEvent
-'
-'
 DeviceOrientationEvent
 '
 '

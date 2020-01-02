@@ -2373,11 +2373,6 @@ MozApplicationEvent
 webidl
 '
 '
-MozContactChangeEvent
-.
-webidl
-'
-'
 MozMmsEvent
 .
 webidl
@@ -2668,6 +2663,11 @@ webidl
 '
 '
 MediaStreamEvent
+.
+webidl
+'
+'
+MozContactChangeEvent
 .
 webidl
 '

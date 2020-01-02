@@ -100,13 +100,6 @@ optional
 MozContactChangeEventInit
 eventInitDict
 )
-HeaderFile
-=
-"
-GeneratedEventClasses
-.
-h
-"
 ]
 interface
 MozContactChangeEvent

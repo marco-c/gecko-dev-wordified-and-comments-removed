@@ -107,11 +107,6 @@ nsIDOMContactManager
 .
 idl
 '
-'
-nsIDOMMozContactChangeEvent
-.
-idl
-'
 ]
 XPIDL_MODULE
 =
