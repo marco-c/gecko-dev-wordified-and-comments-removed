@@ -10525,6 +10525,10 @@ index
 =
 0
 ;
+ent
+&
+&
+(
 index
 <
 ent
@@ -10534,6 +10538,7 @@ mActiveConns
 .
 Length
 (
+)
 )
 ;
 +
