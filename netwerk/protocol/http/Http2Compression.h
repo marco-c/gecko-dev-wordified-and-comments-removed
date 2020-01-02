@@ -751,6 +751,8 @@ const
 nvPair
 inputPair
 bool
+noLocalIndex
+bool
 neverIndex
 )
 ;
