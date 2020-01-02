@@ -8697,6 +8697,12 @@ Hash
 }
 if
 (
+!
+mShuttingDown
+)
+{
+if
+(
 aHandle
 -
 >
@@ -8714,11 +8720,6 @@ aHandle
 ;
 }
 else
-if
-(
-!
-mShuttingDown
-)
 {
 mHandles
 .
@@ -8727,6 +8728,7 @@ RemoveHandle
 aHandle
 )
 ;
+}
 }
 return
 NS_OK
@@ -16203,10 +16205,8 @@ const
 handles
 nsTArray
 <
-nsRefPtr
-<
 CacheFileHandle
->
+*
 >
 const
 &
@@ -16438,10 +16438,8 @@ mHandles
 ;
 nsTArray
 <
-nsRefPtr
-<
 CacheFileHandle
->
+*
 >
 const
 &
