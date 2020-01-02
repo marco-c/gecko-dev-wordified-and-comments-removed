@@ -100,7 +100,7 @@ jsapi
 -
 tests
 '
-SOURCES
+UNIFIED_SOURCES
 +
 =
 [

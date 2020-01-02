@@ -11,7 +11,7 @@ h
 "
 static
 bool
-native
+NativeGetterSetter
 (
 JSContext
 *
@@ -27,6 +27,11 @@ return
 true
 ;
 }
+BEGIN_TEST
+(
+testDefineGetterSetterNonEnumerable
+)
+{
 static
 const
 char
@@ -38,11 +43,6 @@ PROPERTY_NAME
 foo
 "
 ;
-BEGIN_TEST
-(
-testDefineGetterSetterNonEnumerable
-)
-{
 JS
 :
 :
@@ -87,7 +87,7 @@ funGet
 JS_NewFunction
 (
 cx
-native
+NativeGetterSetter
 0
 0
 nullptr
@@ -134,7 +134,7 @@ funSet
 JS_NewFunction
 (
 cx
-native
+NativeGetterSetter
 1
 0
 nullptr

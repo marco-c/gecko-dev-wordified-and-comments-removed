@@ -18,8 +18,9 @@ tests
 .
 h
 "
+static
 int
-count
+iterCount
 =
 0
 ;
@@ -39,7 +40,7 @@ vp
 {
 if
 (
-count
+iterCount
 +
 +
 =
@@ -58,7 +59,7 @@ cx
 vp
 INT_TO_JSVAL
 (
-count
+iterCount
 )
 )
 ;
@@ -162,6 +163,7 @@ false
 }
 }
 ;
+static
 bool
 IterClassConstructor
 (
@@ -318,7 +320,7 @@ result
 ;
 CHECK_EQUAL
 (
-count
+iterCount
 101
 )
 ;

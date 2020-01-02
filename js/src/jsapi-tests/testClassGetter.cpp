@@ -9,9 +9,11 @@ tests
 .
 h
 "
+static
 int
 called_test_fn
 ;
+static
 int
 called_test_prop_get
 ;
