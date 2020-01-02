@@ -70,3 +70,4 @@ maxdepth
 :
 2
 mozlog
+mozlog_structured
