@@ -72,9 +72,9 @@ MOZ_UA_OS_AGNOSTIC
 1
 MOZ_B2G_VERSION
 =
-1
+2
 .
-5
+0
 .
 0
 .
