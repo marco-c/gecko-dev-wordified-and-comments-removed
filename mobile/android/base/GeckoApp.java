@@ -2614,7 +2614,7 @@ params
 return
 Favicons
 .
-getFaviconUrlForPageUrl
+getFaviconURLForPageURL
 (
 url
 )
