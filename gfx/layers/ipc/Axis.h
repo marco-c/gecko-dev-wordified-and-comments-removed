@@ -204,6 +204,12 @@ float
 aScale
 )
 ;
+bool
+HasRoomToPan
+(
+)
+const
+;
 float
 GetOrigin
 (
