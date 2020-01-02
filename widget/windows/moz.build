@@ -176,11 +176,6 @@ JumpListItem
 cpp
 '
 '
-KeyboardLayout
-.
-cpp
-'
-'
 nsAppShell
 .
 cpp
@@ -351,6 +346,11 @@ SOURCES
 +
 =
 [
+'
+KeyboardLayout
+.
+cpp
+'
 '
 nsIMM32Handler
 .
