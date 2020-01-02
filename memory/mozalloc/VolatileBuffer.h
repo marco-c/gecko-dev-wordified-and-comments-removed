@@ -101,6 +101,12 @@ NonHeapSizeOfExcludingThis
 )
 const
 ;
+bool
+OnHeap
+(
+)
+const
+;
 protected
 :
 bool
@@ -116,12 +122,6 @@ void
 Unlock
 (
 )
-;
-bool
-OnHeap
-(
-)
-const
 ;
 private
 :
