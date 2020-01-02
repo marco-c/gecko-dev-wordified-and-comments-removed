@@ -197,13 +197,13 @@ during
 *
 OnStartRequest
 for
-nsIHttpChannels
+nsIChannels
 .
 *
 Note
 :
 For
-nsIHttpChannels
+nsIChannels
 OnStartRequest
 and
 OnStopRequest
