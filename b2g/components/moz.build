@@ -136,6 +136,11 @@ HelperAppDialog
 js
 '
 '
+InterAppCommUIGlue
+.
+js
+'
+'
 MailtoProtocolHandler
 .
 js

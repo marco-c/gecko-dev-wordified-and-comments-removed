@@ -132,6 +132,11 @@ nsIInterAppCommService
 .
 idl
 '
+'
+nsIInterAppCommUIGlue
+.
+idl
+'
 ]
 XPIDL_MODULE
 =
