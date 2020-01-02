@@ -9848,6 +9848,10 @@ mType
 (
 aType
 )
+mOutputColorSpace
+(
+SRGB
+)
 mIsTainted
 (
 false
