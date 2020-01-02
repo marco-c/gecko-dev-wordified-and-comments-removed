@@ -17,7 +17,6 @@ typename
 T
 >
 class
-SK_API
 SkTDArray
 {
 public
