@@ -433,7 +433,6 @@ cx
 Shape
 *
 parent
-const
 StackShape
 &
 child
