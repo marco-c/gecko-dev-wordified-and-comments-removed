@@ -1518,7 +1518,7 @@ WINTHEME_UNRECOGNIZED
 ;
 for
 (
-int
+size_t
 i
 =
 0
@@ -1682,7 +1682,7 @@ WINTHEMECOLOR_UNRECOGNIZED
 ;
 for
 (
-int
+size_t
 i
 =
 0
