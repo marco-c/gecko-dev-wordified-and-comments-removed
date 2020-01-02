@@ -149,9 +149,6 @@ attribute
 SVGAnimatedNumber
 pathLength
 ;
-[
-Throws
-]
 float
 getTotalLength
 (
