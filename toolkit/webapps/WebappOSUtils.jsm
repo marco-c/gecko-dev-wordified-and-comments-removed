@@ -1815,7 +1815,7 @@ else
 {
 deferred
 .
-resolve
+reject
 (
 "
 Error
