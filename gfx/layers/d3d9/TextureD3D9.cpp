@@ -1871,6 +1871,16 @@ _D3DFORMAT
 aFormat
 )
 {
+if
+(
+!
+aDeviceManager
+)
+{
+return
+nullptr
+;
+}
 RefPtr
 <
 IDirect3DTexture9
