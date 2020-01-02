@@ -80,6 +80,13 @@ appearance
 :
 menubar
 ;
+color
+:
+-
+moz
+-
+menubartext
+;
 min
 -
 width
@@ -168,9 +175,6 @@ toolbarpaletteitem
 {
 cursor
 :
--
-moz
--
 grab
 ;
 }
