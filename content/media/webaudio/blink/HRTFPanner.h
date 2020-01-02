@@ -180,13 +180,7 @@ mozilla
 :
 :
 DelayBuffer
-m_delayLineL
-;
-mozilla
-:
-:
-DelayBuffer
-m_delayLineR
+m_delayLine
 ;
 AudioFloatArray
 m_tempL1
