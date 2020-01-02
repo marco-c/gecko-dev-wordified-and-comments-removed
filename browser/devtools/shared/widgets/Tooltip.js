@@ -1950,6 +1950,17 @@ innerbox
 viewOptions
 )
 ;
+widget
+.
+commitHierarchy
+=
+(
+)
+=
+>
+{
+}
+;
 for
 (
 let
