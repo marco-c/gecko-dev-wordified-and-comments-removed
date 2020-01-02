@@ -22220,6 +22220,13 @@ return
 false
 ;
 }
+nsRefPtr
+<
+nsDOMMessageEvent
+>
+event
+;
+{
 MessageEventInit
 init
 ;
@@ -22249,10 +22256,6 @@ toObject
 ErrorResult
 rv
 ;
-nsRefPtr
-<
-nsDOMMessageEvent
->
 event
 =
 nsDOMMessageEvent
@@ -22272,6 +22275,7 @@ init
 rv
 )
 ;
+}
 event
 -
 >
