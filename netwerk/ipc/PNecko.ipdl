@@ -397,6 +397,10 @@ binaryType
 PUDPSocket
 (
 nsCString
+host
+uint16_t
+port
+nsCString
 filter
 )
 ;

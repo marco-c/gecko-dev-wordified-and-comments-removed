@@ -6726,15 +6726,3 @@ true
 ;
 #
 endif
-pref
-(
-"
-dom
-.
-udpsocket
-.
-enabled
-"
-true
-)
-;
