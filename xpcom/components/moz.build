@@ -198,7 +198,7 @@ plarena
 h
 .
 #
-nsNativeComponentLoader
+nsNativeModuleLoader
 .
 cpp
 cannot
@@ -234,7 +234,7 @@ nsComponentManager
 cpp
 '
 '
-nsNativeComponentLoader
+nsNativeModuleLoader
 .
 cpp
 '
