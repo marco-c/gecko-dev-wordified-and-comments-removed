@@ -1423,9 +1423,6 @@ IDBRequest
 :
 GetResult
 (
-JSContext
-*
-aCx
 mozilla
 :
 :
