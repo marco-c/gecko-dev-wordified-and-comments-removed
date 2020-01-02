@@ -1273,6 +1273,13 @@ CodeAlignment
 ;
 static
 const
+bool
+SupportsSimd
+=
+true
+;
+static
+const
 Scale
 ScalePointer
 =

@@ -691,6 +691,13 @@ CodeAlignment
 =
 8
 ;
+static
+const
+bool
+SupportsSimd
+=
+true
+;
 struct
 ImmTag
 :

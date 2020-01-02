@@ -1035,6 +1035,13 @@ true
 ;
 static
 const
+bool
+SupportsSimd
+=
+false
+;
+static
+const
 Scale
 ScalePointer
 =
