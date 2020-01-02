@@ -1337,11 +1337,6 @@ GetRuntimeInstance
 (
 )
 ;
-bool
-release_root
-=
-false
-;
 map
 =
 rt
@@ -1435,10 +1430,6 @@ NS_ADDREF
 (
 root
 )
-;
-release_root
-=
-true
 ;
 wrapper
 =
@@ -1561,10 +1552,6 @@ NS_RELEASE
 rootClasp
 )
 ;
-release_root
-=
-true
-;
 }
 }
 MOZ_ASSERT
@@ -1613,11 +1600,7 @@ NS_ADDREF
 wrapper
 )
 ;
-if
-(
-release_root
-)
-NS_RELEASE
+NS_IF_RELEASE
 (
 root
 )
