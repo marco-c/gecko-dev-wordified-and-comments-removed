@@ -328,6 +328,17 @@ trackingAreaView
 ;
 -
 (
+void
+)
+setBeingShown
+:
+(
+BOOL
+)
+aValue
+;
+-
+(
 BOOL
 )
 isVisibleOrBeingShown
