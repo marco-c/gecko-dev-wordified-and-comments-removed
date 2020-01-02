@@ -103,6 +103,9 @@ SIMPLE_PROGRAMS
 BadCertServer
 '
 '
+ClientAuthServer
+'
+'
 GenerateOCSPResponse
 '
 '

@@ -2680,6 +2680,10 @@ BadCertServer
 "
                     
 "
+ClientAuthServer
+"
+                    
+"
 OCSPStaplingServer
 "
                     

@@ -5019,6 +5019,9 @@ pk12util
 BadCertServer
 *
 \
+ClientAuthServer
+*
+\
 OCSPStaplingServer
 *
 \

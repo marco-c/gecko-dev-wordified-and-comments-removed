@@ -565,6 +565,12 @@ mSocketCreationTimestamp
 uint64_t
 mPlaintextBytesRead
 ;
+nsCOMPtr
+<
+nsIX509Cert
+>
+mClientCert
+;
 }
 ;
 class
