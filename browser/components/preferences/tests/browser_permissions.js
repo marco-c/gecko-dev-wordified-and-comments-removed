@@ -165,6 +165,16 @@ fullscreen
 "
 :
 PERM_UNKNOWN
+"
+camera
+"
+:
+PERM_UNKNOWN
+"
+microphone
+"
+:
+PERM_UNKNOWN
 }
 ;
 const
@@ -185,7 +195,7 @@ fullscreen
 const
 TEST_PERMS_COUNT
 =
-6
+8
 ;
 function
 test
