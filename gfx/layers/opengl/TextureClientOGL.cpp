@@ -304,6 +304,10 @@ TextureClient
 (
 aFlags
 )
+mStream
+(
+0
+)
 mIsLocked
 (
 false
@@ -452,15 +456,6 @@ IsAllocated
 mStream
 =
 aStream
-;
-mGL
-=
-mStream
--
->
-GLContext
-(
-)
 ;
 }
 bool

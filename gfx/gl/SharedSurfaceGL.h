@@ -7,13 +7,6 @@ SHARED_SURFACE_GL_H_
 #
 include
 "
-ScopedGLHelpers
-.
-h
-"
-#
-include
-"
 SharedSurface
 .
 h
@@ -489,9 +482,6 @@ const
 GLuint
 mTex
 ;
-GLuint
-mFB
-;
 RefPtr
 <
 gfx
@@ -686,10 +676,6 @@ IntSize
 size
 bool
 hasAlpha
-GLuint
-texture
-=
-0
 )
 ;
 static
@@ -736,10 +722,6 @@ const
 GLuint
 mTex
 ;
-const
-bool
-mOwnsTex
-;
 GLsync
 mSync
 ;
@@ -766,8 +748,6 @@ bool
 hasAlpha
 GLuint
 tex
-bool
-ownsTex
 )
 :
 SharedSurface_GL
@@ -791,10 +771,6 @@ consGL
 mTex
 (
 tex
-)
-mOwnsTex
-(
-ownsTex
 )
 mSync
 (

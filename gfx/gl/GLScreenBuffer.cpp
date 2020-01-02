@@ -172,11 +172,6 @@ if
 factory
 &
 &
-caps
-.
-surfaceAllocator
-&
-&
 XRE_GetProcessType
 (
 )
@@ -277,6 +272,9 @@ GLScreenBuffer
 (
 )
 {
+delete
+mStream
+;
 delete
 mDraw
 ;
@@ -1528,6 +1526,9 @@ MOZ_ASSERT
 (
 newStream
 )
+;
+delete
+mStream
 ;
 mStream
 =
