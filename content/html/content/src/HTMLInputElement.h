@@ -2389,6 +2389,12 @@ nsString
 aFileNames
 )
 ;
+HTMLInputElement
+*
+GetOwnerNumberControl
+(
+)
+;
 bool
 MozIsTextField
 (
