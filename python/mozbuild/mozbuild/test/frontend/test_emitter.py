@@ -1095,25 +1095,6 @@ NO_DIST_INSTALL
 =
 True
             
-OS_LIBS
-=
-[
-'
-foo
-.
-so
-'
-'
--
-l123
-'
-'
-aaa
-.
-a
-'
-]
-            
 SSRCS
 =
 [
