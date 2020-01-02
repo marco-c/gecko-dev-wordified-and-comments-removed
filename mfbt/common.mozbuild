@@ -349,6 +349,11 @@ RefPtr
 h
 '
 '
+RollingMean
+.
+h
+'
+'
 Scoped
 .
 h

@@ -148,6 +148,11 @@ TestIntegerPrintfMacros
 cpp
 '
 '
+TestRollingMean
+.
+cpp
+'
+'
 TestSHA1
 .
 cpp
