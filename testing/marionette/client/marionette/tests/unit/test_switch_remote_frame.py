@@ -343,15 +343,29 @@ html
 )
 )
         
+remote_iframe
+=
+self
+.
+marionette
+.
+find_element
+(
+"
+id
+"
+"
+remote_iframe
+"
+)
+        
 self
 .
 marionette
 .
 switch_to_frame
 (
-"
 remote_iframe
-"
 )
         
 main_process
@@ -557,9 +571,20 @@ marionette
 .
 switch_to_frame
 (
+self
+.
+marionette
+.
+find_element
+(
+"
+id
+"
+                                                                     
 "
 remote_iframe
 "
+)
 )
         
 main_process
@@ -640,9 +665,20 @@ marionette
 .
 switch_to_frame
 (
+self
+.
+marionette
+.
+find_element
+(
+"
+id
+"
+                                                                     
 "
 remote_iframe
 "
+)
 )
         
 main_process
