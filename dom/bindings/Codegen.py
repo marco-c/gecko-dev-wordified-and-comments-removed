@@ -67196,8 +67196,6 @@ __init__
 self
 descriptor
 foundVar
-=
-None
 )
 :
         
@@ -69834,6 +69832,10 @@ fill
 "
 "
                     
+bool
+found
+;
+                    
 *
 {
 presenceChecker
@@ -69880,6 +69882,11 @@ CGProxyNamedPresenceChecker
 self
 .
 descriptor
+foundVar
+=
+"
+found
+"
 )
 .
 define
@@ -70055,6 +70062,9 @@ def
 getDeleterBody
 (
 type
+foundVar
+=
+None
 )
 :
             
@@ -70107,6 +70117,11 @@ Deleter
 if
 deleter
 :
+                
+decls
+=
+"
+"
                 
 if
 (
@@ -70185,17 +70200,54 @@ n
 else
 :
                     
+decls
++
+=
+"
+bool
+result
+;
+\
+n
+"
+                    
+if
+foundVar
+is
+None
+:
+                        
+foundVar
+=
+"
+found
+"
+                        
+decls
++
+=
+"
+bool
+found
+;
+\
+n
+"
+                    
 setBp
 =
-dedent
+fill
 (
+                        
 "
 "
 "
                         
 if
 (
-found
+{
+foundVar
+}
 )
 {
                           
@@ -70220,6 +70272,10 @@ true
 "
 "
 "
+                        
+foundVar
+=
+foundVar
 )
                 
 deleterClass
@@ -70240,11 +70296,22 @@ type
 body
 =
 (
+decls
++
+                        
 deleterClass
 (
 self
 .
 descriptor
+resultVar
+=
+"
+result
+"
+foundVar
+=
+foundVar
 )
 .
 define
@@ -70288,6 +70355,33 @@ sPresenceChecker
 type
 ]
                 
+foundDecl
+=
+"
+"
+                
+if
+foundVar
+is
+None
+:
+                    
+foundVar
+=
+"
+found
+"
+                    
+foundDecl
+=
+"
+bool
+found
+;
+\
+n
+"
+                
 body
 =
 fill
@@ -70299,36 +70393,30 @@ fill
                     
 *
 {
+foundDecl
+}
+                    
+*
+{
 presenceChecker
 }
                     
-if
-(
-found
-)
-{
-                      
 *
 bp
 =
-false
-;
-                    
-}
-else
+!
 {
-                      
-*
-bp
-=
-true
+foundVar
+}
 ;
                     
-}
+"
+"
+"
                     
-"
-"
-"
+foundDecl
+=
+foundDecl
                     
 presenceChecker
 =
@@ -70337,11 +70425,18 @@ presenceCheckerClass
 self
 .
 descriptor
+foundVar
+=
+foundVar
 )
 .
 define
 (
 )
+                    
+foundVar
+=
+foundVar
 )
             
 else
@@ -70563,6 +70658,11 @@ getDeleterBody
 "
 Named
 "
+foundVar
+=
+"
+found
+"
 )
         
 if
@@ -70575,33 +70675,41 @@ None
 delete
 +
 =
+fill
 (
-namedBody
-+
-                       
+                
 "
+"
+"
+                
+bool
+found
+;
+                
+*
+{
+namedBody
+}
+                
 if
 (
 found
 )
 {
-\
-n
-"
-                       
-"
+                  
 return
 true
 ;
-\
-n
-"
-                       
-"
+                
 }
-\
-n
+                
 "
+"
+"
+                
+namedBody
+=
+namedBody
 )
             
 if
@@ -71325,6 +71433,10 @@ index
 )
 {
                   
+bool
+found
+;
+                  
 *
 {
 presenceChecker
@@ -71353,6 +71465,11 @@ CGProxyIndexedPresenceChecker
 self
 .
 descriptor
+foundVar
+=
+"
+found
+"
 )
 .
 define
@@ -71473,6 +71590,10 @@ fill
 "
 "
                 
+bool
+found
+;
+                
 *
 {
 presenceChecker
@@ -71495,6 +71616,11 @@ CGProxyNamedPresenceChecker
 self
 .
 descriptor
+foundVar
+=
+"
+found
+"
 )
 .
 define
