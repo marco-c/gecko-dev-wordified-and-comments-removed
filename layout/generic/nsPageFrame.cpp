@@ -431,7 +431,16 @@ kidReflowState
 aPresContext
 aReflowState
 frame
+LogicalSize
+(
+frame
+-
+>
+GetWritingMode
+(
+)
 maxSize
+)
 )
 ;
 kidReflowState

@@ -18779,7 +18779,7 @@ mState
 NS_STATE_SVG_TEXT_IN_REFLOW
 ;
 nscoord
-width
+inlineSize
 =
 kid
 -
@@ -18795,9 +18795,15 @@ reflowState
 presContext
 kid
 renderingContext
-nsSize
+LogicalSize
 (
-width
+kid
+-
+>
+GetWritingMode
+(
+)
+inlineSize
 NS_UNCONSTRAINEDSIZE
 )
 )

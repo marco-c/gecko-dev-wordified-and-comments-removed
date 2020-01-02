@@ -1943,10 +1943,14 @@ kidReflowState
 aPresContext
 aReflowState
 kidFrame
-nsSize
+LogicalSize
 (
-0
-0
+kidFrame
+-
+>
+GetWritingMode
+(
+)
 )
 )
 ;

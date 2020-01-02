@@ -4224,7 +4224,16 @@ kidReflowState
 aPresContext
 aReflowState
 firstKid
+LogicalSize
+(
+firstKid
+-
+>
+GetWritingMode
+(
+)
 availSize
+)
 )
 ;
 if

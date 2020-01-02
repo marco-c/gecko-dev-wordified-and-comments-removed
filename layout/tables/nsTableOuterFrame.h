@@ -865,7 +865,7 @@ void
 *
 aChildRSSpace
 nscoord
-aAvailWidth
+aAvailISize
 )
 ;
 void
@@ -922,7 +922,10 @@ nsIFrame
 aChildFrame
 nscoord
 aAvailableWidth
-nsMargin
+mozilla
+:
+:
+LogicalMargin
 &
 aMargin
 )
