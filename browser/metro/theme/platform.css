@@ -3728,7 +3728,8 @@ metro_animation_duration
 metro_animation_easing
 bottom
 appbar_keyboard_slideup_duration
-metro_animation_easing
+appbar_keyboard_slideup_easing
+appbar_keyboard_slideup_delay
 ;
 }
 appbar
