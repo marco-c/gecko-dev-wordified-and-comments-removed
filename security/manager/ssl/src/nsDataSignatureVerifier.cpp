@@ -571,11 +571,7 @@ return
 NS_ERROR_INVALID_ARG
 ;
 }
-ScopedPtr
-<
-NSSCMSMessage
-NSS_CMSMessage_Destroy
->
+ScopedNSSCMSMessage
 cmsMsg
 (
 NSS_CMSMessage_CreateFromDER
@@ -959,12 +955,6 @@ nsICertificatePrincipal
 >
 principal
 ;
-mozilla
-:
-:
-pkix
-:
-:
 ScopedCERTCertList
 builtChain
 ;

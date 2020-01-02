@@ -331,8 +331,8 @@ SECStatus
 IsChainValid
 (
 const
-CERTCertList
-*
+DERArray
+&
 )
 {
 return
@@ -484,9 +484,6 @@ ASSERT_TRUE
 cert
 )
 ;
-ScopedCERTCertList
-results
-;
 ASSERT_SECFailure
 (
 SEC_ERROR_UNKNOWN_CRITICAL_EXTENSION
@@ -513,7 +510,6 @@ CertPolicyId
 :
 anyPolicy
 nullptr
-results
 )
 )
 ;
@@ -622,9 +618,6 @@ ASSERT_TRUE
 cert
 )
 ;
-ScopedCERTCertList
-results
-;
 ASSERT_SECSuccess
 (
 BuildCertChain
@@ -650,7 +643,6 @@ CertPolicyId
 :
 anyPolicy
 nullptr
-results
 )
 )
 ;
@@ -754,9 +746,6 @@ ASSERT_TRUE
 cert
 )
 ;
-ScopedCERTCertList
-results
-;
 ASSERT_SECFailure
 (
 SEC_ERROR_UNKNOWN_CRITICAL_EXTENSION
@@ -783,7 +772,6 @@ CertPolicyId
 :
 anyPolicy
 nullptr
-results
 )
 )
 ;
@@ -887,9 +875,6 @@ ASSERT_TRUE
 cert
 )
 ;
-ScopedCERTCertList
-results
-;
 ASSERT_SECSuccess
 (
 BuildCertChain
@@ -915,7 +900,6 @@ CertPolicyId
 :
 anyPolicy
 nullptr
-results
 )
 )
 ;
@@ -1015,9 +999,6 @@ ASSERT_TRUE
 cert
 )
 ;
-ScopedCERTCertList
-results
-;
 ASSERT_SECFailure
 (
 SEC_ERROR_UNKNOWN_CRITICAL_EXTENSION
@@ -1044,7 +1025,6 @@ CertPolicyId
 :
 anyPolicy
 nullptr
-results
 )
 )
 ;
@@ -1147,9 +1127,6 @@ ASSERT_TRUE
 cert
 )
 ;
-ScopedCERTCertList
-results
-;
 ASSERT_SECSuccess
 (
 BuildCertChain
@@ -1175,7 +1152,6 @@ CertPolicyId
 :
 anyPolicy
 nullptr
-results
 )
 )
 ;
@@ -1322,9 +1298,6 @@ ASSERT_TRUE
 cert
 )
 ;
-ScopedCERTCertList
-results
-;
 ASSERT_SECFailure
 (
 SEC_ERROR_EXTENSION_VALUE_INVALID
@@ -1351,7 +1324,6 @@ CertPolicyId
 :
 anyPolicy
 nullptr
-results
 )
 )
 ;

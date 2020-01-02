@@ -530,12 +530,6 @@ PRTime
 time
 )
 {
-mozilla
-:
-:
-pkix
-:
-:
 ScopedCERTCertList
 candidates
 (
@@ -685,8 +679,8 @@ SECStatus
 IsChainValid
 (
 const
-CERTCertList
-*
+DERArray
+&
 )
 {
 return
@@ -706,7 +700,7 @@ leafCAKey
 ;
 CERTCertificate
 *
-GetLeafeCACert
+GetLeafCACert
 (
 )
 const
@@ -786,9 +780,6 @@ pkixbuild
 MaxAcceptableCertChainLength
 )
 {
-ScopedCERTCertList
-results
-;
 ASSERT_SECSuccess
 (
 BuildCertChain
@@ -796,7 +787,7 @@ BuildCertChain
 trustDomain
 trustDomain
 .
-GetLeafeCACert
+GetLeafCACert
 (
 )
 -
@@ -820,7 +811,6 @@ CertPolicyId
 :
 anyPolicy
 nullptr
-results
 )
 )
 ;
@@ -841,7 +831,7 @@ get
 )
 trustDomain
 .
-GetLeafeCACert
+GetLeafCACert
 (
 )
 -
@@ -898,7 +888,6 @@ CertPolicyId
 :
 anyPolicy
 nullptr
-results
 )
 )
 ;
@@ -909,9 +898,6 @@ pkixbuild
 BeyondMaxAcceptableCertChainLength
 )
 {
-ScopedCERTCertList
-results
-;
 ScopedSECKEYPrivateKey
 caPrivateKey
 ;
@@ -929,7 +915,7 @@ get
 )
 trustDomain
 .
-GetLeafeCACert
+GetLeafCACert
 (
 )
 -
@@ -992,7 +978,6 @@ CertPolicyId
 :
 anyPolicy
 nullptr
-results
 )
 )
 ;
@@ -1072,7 +1057,6 @@ CertPolicyId
 :
 anyPolicy
 nullptr
-results
 )
 )
 ;

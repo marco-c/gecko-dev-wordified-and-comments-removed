@@ -24,6 +24,15 @@ h
 #
 include
 "
+pkix
+/
+ScopedPtr
+.
+h
+"
+#
+include
+"
 pkixcheck
 .
 h

@@ -7,6 +7,15 @@ mozilla_pkix__pkix_h
 #
 include
 "
+pkix
+/
+nullptr
+.
+h
+"
+#
+include
+"
 pkixtypes
 .
 h
@@ -50,9 +59,6 @@ const
 SECItem
 *
 stapledOCSPResponse
-ScopedCERTCertList
-&
-results
 )
 ;
 SECStatus
