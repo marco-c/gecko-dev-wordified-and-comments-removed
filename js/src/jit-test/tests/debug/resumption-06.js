@@ -116,16 +116,8 @@ next
 '
 )
 ;
-assertThrowsInstanceOf
+assertIteratorDone
 (
 iter
-.
-next
-.
-bind
-(
-iter
-)
-TypeError
 )
 ;
