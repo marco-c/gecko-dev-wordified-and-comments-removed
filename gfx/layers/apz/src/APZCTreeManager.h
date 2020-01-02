@@ -644,6 +644,10 @@ AsyncPanZoomController
 >
 *
 aApzcsToDestroy
+const
+nsIntRegion
+&
+aObscured
 )
 ;
 private
