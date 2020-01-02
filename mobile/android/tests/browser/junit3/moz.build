@@ -154,6 +154,15 @@ src
 /
 tests
 /
+TestDistribution
+.
+java
+'
+'
+src
+/
+tests
+/
 TestGeckoSharedPrefs
 .
 java
