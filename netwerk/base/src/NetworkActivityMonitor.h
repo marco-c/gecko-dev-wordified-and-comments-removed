@@ -7,13 +7,6 @@ NetworkActivityMonitor_h___
 #
 include
 "
-nsCOMPtr
-.
-h
-"
-#
-include
-"
 prio
 .
 h
@@ -25,9 +18,6 @@ prinrval
 .
 h
 "
-class
-nsIObserverService
-;
 namespace
 mozilla
 {
@@ -125,12 +115,6 @@ mLastNotificationTime
 [
 2
 ]
-;
-nsCOMPtr
-<
-nsIObserverService
->
-mObserverService
 ;
 }
 ;
