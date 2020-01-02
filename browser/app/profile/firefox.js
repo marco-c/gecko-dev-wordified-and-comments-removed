@@ -683,6 +683,8 @@ https
 :
 /
 /
+blocklist
+.
 addons
 .
 mozilla
@@ -791,6 +793,8 @@ https
 :
 /
 /
+blocklist
+.
 addons
 .
 mozilla
