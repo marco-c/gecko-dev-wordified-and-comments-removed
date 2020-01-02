@@ -1,6 +1,8 @@
 import
 time
 import
+blessings
+import
 base
 def
 format_seconds
@@ -1081,6 +1083,20 @@ terminal
 None
 )
 :
+        
+if
+terminal
+is
+None
+:
+            
+terminal
+=
+blessings
+.
+Terminal
+(
+)
         
 self
 .
