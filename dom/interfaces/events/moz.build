@@ -138,11 +138,6 @@ nsIDOMDataTransfer
 idl
 '
 '
-nsIDOMDOMTransactionEvent
-.
-idl
-'
-'
 nsIDOMDragEvent
 .
 idl
