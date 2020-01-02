@@ -1801,6 +1801,16 @@ NS_ENSURE_ARG
 _retval
 )
 ;
+bool
+useDisk
+=
+CacheObserver
+:
+:
+UseDiskCache
+(
+)
+;
 nsCOMPtr
 <
 nsICacheStorage
@@ -1823,7 +1833,7 @@ new
 CacheStorage
 (
 aLoadContextInfo
-true
+useDisk
 aLookupAppCache
 )
 ;
@@ -1836,7 +1846,7 @@ new
 _OldStorage
 (
 aLoadContextInfo
-true
+useDisk
 aLookupAppCache
 false
 nullptr
