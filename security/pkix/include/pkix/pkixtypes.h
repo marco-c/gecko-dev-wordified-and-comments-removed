@@ -58,7 +58,7 @@ pkix
 {
 inline
 void
-ArenaFalseCleaner
+PORT_FreeArena_false
 (
 PLArenaPool
 *
@@ -77,7 +77,7 @@ typedef
 ScopedPtr
 <
 PLArenaPool
-ArenaFalseCleaner
+PORT_FreeArena_false
 >
 ScopedPLArenaPool
 ;
