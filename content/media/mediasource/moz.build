@@ -154,3 +154,8 @@ LIBRARY_NAME
 '
 gkconmediasource_s
 '
+FINAL_LIBRARY
+=
+'
+gklayout
+'

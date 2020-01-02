@@ -147,6 +147,8 @@ True
 MSVC_ENABLE_PGO
 =
 True
-EXPORT_LIBRARY
+FINAL_LIBRARY
 =
-True
+'
+xul
+'

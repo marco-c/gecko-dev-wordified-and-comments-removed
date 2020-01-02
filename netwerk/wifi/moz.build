@@ -291,3 +291,8 @@ neckowifi_s
 LIBXUL_LIBRARY
 =
 True
+FINAL_LIBRARY
+=
+'
+necko
+'

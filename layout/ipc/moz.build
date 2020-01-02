@@ -157,9 +157,6 @@ LIBRARY_NAME
 '
 gkipc_s
 '
-EXPORT_LIBRARY
-=
-True
 include
 (
 '
@@ -175,3 +172,8 @@ config
 mozbuild
 '
 )
+FINAL_LIBRARY
+=
+'
+gklayout
+'

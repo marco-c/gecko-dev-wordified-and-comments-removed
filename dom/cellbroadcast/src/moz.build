@@ -133,3 +133,8 @@ LIBRARY_NAME
 '
 dom_cellbroadcast_s
 '
+FINAL_LIBRARY
+=
+'
+gklayout
+'

@@ -190,3 +190,8 @@ hunspell_s
 LIBXUL_LIBRARY
 =
 True
+FINAL_LIBRARY
+=
+'
+spellchecker
+'

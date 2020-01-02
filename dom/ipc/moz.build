@@ -392,9 +392,6 @@ LIBRARY_NAME
 '
 domipc_s
 '
-EXPORT_LIBRARY
-=
-True
 include
 (
 '
@@ -410,6 +407,11 @@ config
 mozbuild
 '
 )
+FINAL_LIBRARY
+=
+'
+xul
+'
 LOCAL_INCLUDES
 +
 =

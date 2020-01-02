@@ -154,3 +154,8 @@ config
 mozbuild
 '
 )
+FINAL_LIBRARY
+=
+'
+toolkitcomps
+'

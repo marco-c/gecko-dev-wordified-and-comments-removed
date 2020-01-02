@@ -221,6 +221,8 @@ peerconnection
 LIBXUL_LIBRARY
 =
 True
-EXPORT_LIBRARY
+FINAL_LIBRARY
 =
-True
+'
+xul
+'

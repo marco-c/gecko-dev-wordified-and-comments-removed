@@ -147,3 +147,8 @@ nsParentalControlsServiceWin
 cpp
 '
 ]
+FINAL_LIBRARY
+=
+'
+toolkitcomps
+'

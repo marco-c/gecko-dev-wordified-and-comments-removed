@@ -171,6 +171,11 @@ LIBRARY_NAME
 '
 domencoding_s
 '
+FINAL_LIBRARY
+=
+'
+gklayout
+'
 LOCAL_INCLUDES
 +
 =

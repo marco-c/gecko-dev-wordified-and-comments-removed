@@ -154,11 +154,6 @@ as
 part
 of
 libxul
-MOZ_APP_COMPONENT_LIBS
-=
-"
-browsercomps
-"
 MOZ_APP_COMPONENT_INCLUDE
 =
 nsBrowserComponents

@@ -1895,9 +1895,6 @@ True
 MSVC_ENABLE_PGO
 =
 True
-EXPORT_LIBRARY
-=
-True
 LOCAL_INCLUDES
 +
 =
@@ -1909,3 +1906,8 @@ LOCAL_INCLUDES
 util
 '
 ]
+FINAL_LIBRARY
+=
+'
+xul
+'

@@ -187,3 +187,8 @@ dirserviceprovider
 src
 '
 ]
+FINAL_LIBRARY
+=
+'
+xulapp_s
+'

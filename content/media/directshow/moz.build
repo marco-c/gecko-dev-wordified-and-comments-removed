@@ -313,6 +313,11 @@ LIBRARY_NAME
 '
 gkcondirectshow_s
 '
+FINAL_LIBRARY
+=
+'
+gklayout
+'
 LOCAL_INCLUDES
 +
 =

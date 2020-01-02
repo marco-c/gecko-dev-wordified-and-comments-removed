@@ -98,3 +98,8 @@ LIBRARY_NAME
 '
 webrtc
 '
+FINAL_LIBRARY
+=
+'
+xul
+'

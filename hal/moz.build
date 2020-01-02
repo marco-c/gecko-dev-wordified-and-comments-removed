@@ -973,9 +973,6 @@ LIBRARY_NAME
 '
 hal_s
 '
-EXPORT_LIBRARY
-=
-True
 include
 (
 '
@@ -991,3 +988,8 @@ config
 mozbuild
 '
 )
+FINAL_LIBRARY
+=
+'
+xul
+'

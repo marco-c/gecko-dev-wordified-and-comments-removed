@@ -267,6 +267,11 @@ True
 LIBXUL_LIBRARY
 =
 True
+FINAL_LIBRARY
+=
+'
+webbrwsr
+'
 LOCAL_INCLUDES
 +
 =

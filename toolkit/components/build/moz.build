@@ -126,6 +126,8 @@ LIBRARY_NAME
 '
 toolkitcomps
 '
-EXPORT_LIBRARY
+FINAL_LIBRARY
 =
-True
+'
+xul
+'

@@ -127,3 +127,8 @@ common
 mozbuild
 '
 )
+FINAL_LIBRARY
+=
+'
+mozglue
+'

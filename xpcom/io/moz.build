@@ -668,3 +668,8 @@ config
 mozbuild
 '
 )
+FINAL_LIBRARY
+=
+'
+xpcom_core
+'

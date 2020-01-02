@@ -177,9 +177,6 @@ LIBRARY_NAME
 '
 domaudiochannel_s
 '
-EXPORT_LIBRARY
-=
-True
 include
 (
 '
@@ -195,3 +192,8 @@ config
 mozbuild
 '
 )
+FINAL_LIBRARY
+=
+'
+gklayout
+'

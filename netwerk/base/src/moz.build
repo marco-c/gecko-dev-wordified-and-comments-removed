@@ -580,6 +580,11 @@ config
 mozbuild
 '
 )
+FINAL_LIBRARY
+=
+'
+necko
+'
 LOCAL_INCLUDES
 +
 =

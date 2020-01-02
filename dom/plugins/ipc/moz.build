@@ -612,9 +612,6 @@ LIBRARY_NAME
 '
 domplugins_s
 '
-EXPORT_LIBRARY
-=
-True
 include
 (
 '
@@ -630,6 +627,11 @@ config
 mozbuild
 '
 )
+FINAL_LIBRARY
+=
+'
+xul
+'
 LOCAL_INCLUDES
 +
 =

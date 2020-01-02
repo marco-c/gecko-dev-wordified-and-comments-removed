@@ -140,9 +140,6 @@ LIBRARY_NAME
 '
 diskspacewatcher
 '
-EXPORT_LIBRARY
-=
-True
 include
 (
 '
@@ -158,3 +155,8 @@ config
 mozbuild
 '
 )
+FINAL_LIBRARY
+=
+'
+xul
+'

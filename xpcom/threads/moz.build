@@ -292,3 +292,8 @@ LOCAL_INCLUDES
 build
 '
 ]
+FINAL_LIBRARY
+=
+'
+xpcom_core
+'

@@ -196,3 +196,8 @@ xpcom
 ds
 '
 ]
+FINAL_LIBRARY
+=
+'
+gklayout
+'

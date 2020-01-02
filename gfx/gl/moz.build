@@ -646,9 +646,6 @@ LIBRARY_NAME
 '
 gl
 '
-EXPORT_LIBRARY
-=
-True
 include
 (
 '
@@ -664,3 +661,8 @@ config
 mozbuild
 '
 )
+FINAL_LIBRARY
+=
+'
+xul
+'

@@ -144,3 +144,8 @@ True
 FORCE_STATIC_LIB
 =
 True
+FINAL_LIBRARY
+=
+'
+mozglue
+'

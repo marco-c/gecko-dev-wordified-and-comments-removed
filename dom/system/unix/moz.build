@@ -150,9 +150,6 @@ LIBRARY_NAME
 '
 domsystemunix_s
 '
-EXPORT_LIBRARY
-=
-True
 include
 (
 '
@@ -168,3 +165,8 @@ config
 mozbuild
 '
 )
+FINAL_LIBRARY
+=
+'
+gklayout
+'

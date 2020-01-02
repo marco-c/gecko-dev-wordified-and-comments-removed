@@ -602,9 +602,6 @@ LIBRARY_NAME
 '
 gfx2d
 '
-EXPORT_LIBRARY
-=
-True
 include
 (
 '
@@ -620,3 +617,8 @@ config
 mozbuild
 '
 )
+FINAL_LIBRARY
+=
+'
+gkmedias
+'

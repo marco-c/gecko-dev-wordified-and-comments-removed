@@ -134,3 +134,8 @@ config
 mozbuild
 '
 )
+FINAL_LIBRARY
+=
+'
+imgicon
+'

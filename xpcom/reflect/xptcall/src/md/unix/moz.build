@@ -2003,3 +2003,8 @@ lib
 FORCE_STATIC_LIB
 =
 True
+FINAL_LIBRARY
+=
+'
+xpcom_core
+'

@@ -54,13 +54,6 @@ MPL
 0
 /
 .
-EXPORT_LIBRARY
-=
-.
-.
-/
-.
-.
 MOZILLA_INTERNAL_API
 =
 1

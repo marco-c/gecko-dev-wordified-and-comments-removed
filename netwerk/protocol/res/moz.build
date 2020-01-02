@@ -152,3 +152,8 @@ config
 mozbuild
 '
 )
+FINAL_LIBRARY
+=
+'
+necko
+'

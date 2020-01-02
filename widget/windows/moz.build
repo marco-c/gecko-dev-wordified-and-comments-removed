@@ -446,9 +446,6 @@ LIBRARY_NAME
 '
 widget_windows
 '
-EXPORT_LIBRARY
-=
-True
 include
 (
 '
@@ -464,3 +461,8 @@ config
 mozbuild
 '
 )
+FINAL_LIBRARY
+=
+'
+xul
+'

@@ -423,3 +423,8 @@ WINNT
 NO_VISIBILITY_FLAGS
 =
 True
+FINAL_LIBRARY
+=
+'
+gkmedias
+'

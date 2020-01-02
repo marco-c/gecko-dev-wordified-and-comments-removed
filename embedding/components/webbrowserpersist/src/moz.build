@@ -119,6 +119,11 @@ True
 LIBXUL_LIBRARY
 =
 True
+FINAL_LIBRARY
+=
+'
+embedcomponents
+'
 LOCAL_INCLUDES
 +
 =

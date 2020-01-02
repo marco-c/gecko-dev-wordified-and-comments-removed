@@ -131,9 +131,6 @@ LIBRARY_NAME
 '
 sandbox_s
 '
-EXPORT_LIBRARY
-=
-True
 include
 (
 '
@@ -149,3 +146,8 @@ config
 mozbuild
 '
 )
+FINAL_LIBRARY
+=
+'
+xul
+'

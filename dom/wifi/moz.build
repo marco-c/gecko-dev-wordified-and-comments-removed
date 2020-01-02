@@ -208,6 +208,8 @@ LIBRARY_NAME
 '
 domwifi_s
 '
-EXPORT_LIBRARY
+FINAL_LIBRARY
 =
-True
+'
+xul
+'

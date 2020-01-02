@@ -168,3 +168,8 @@ base
 workers
 '
 ]
+FINAL_LIBRARY
+=
+'
+gklayout
+'

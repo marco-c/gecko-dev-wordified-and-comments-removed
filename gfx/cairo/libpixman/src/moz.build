@@ -504,3 +504,8 @@ LIBRARY_NAME
 '
 mozlibpixman
 '
+FINAL_LIBRARY
+=
+'
+gkmedias
+'

@@ -321,9 +321,6 @@ LIBRARY_NAME
 '
 domsystem_s
 '
-EXPORT_LIBRARY
-=
-True
 include
 (
 '
@@ -339,6 +336,11 @@ config
 mozbuild
 '
 )
+FINAL_LIBRARY
+=
+'
+gklayout
+'
 #
 We
 fire

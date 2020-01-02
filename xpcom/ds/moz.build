@@ -620,3 +620,8 @@ LOCAL_INCLUDES
 io
 '
 ]
+FINAL_LIBRARY
+=
+'
+xpcom_core
+'

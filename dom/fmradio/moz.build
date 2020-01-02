@@ -161,6 +161,11 @@ LIBRARY_NAME
 '
 domfmradio_s
 '
+FINAL_LIBRARY
+=
+'
+gklayout
+'
 IPDL_SOURCES
 +
 =

@@ -539,9 +539,6 @@ LIBRARY_NAME
 '
 gkplugin
 '
-EXPORT_LIBRARY
-=
-True
 LOCAL_INCLUDES
 +
 =
@@ -690,3 +687,8 @@ SK_BUILD_FOR_ANDROID_NDK
 ]
 =
 True
+FINAL_LIBRARY
+=
+'
+xul
+'

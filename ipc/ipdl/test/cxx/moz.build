@@ -636,9 +636,6 @@ ipdl
 LIBXUL_LIBRARY
 =
 True
-EXPORT_LIBRARY
-=
-True
 include
 (
 '
@@ -654,3 +651,8 @@ config
 mozbuild
 '
 )
+FINAL_LIBRARY
+=
+'
+xul
+'

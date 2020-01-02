@@ -221,9 +221,6 @@ True
 MSVC_ENABLE_PGO
 =
 True
-EXPORT_LIBRARY
-=
-True
 include
 (
 '
@@ -239,3 +236,8 @@ config
 mozbuild
 '
 )
+FINAL_LIBRARY
+=
+'
+xul
+'

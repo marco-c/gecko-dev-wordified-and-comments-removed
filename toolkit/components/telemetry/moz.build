@@ -202,9 +202,6 @@ LIBRARY_NAME
 '
 telemetry
 '
-EXPORT_LIBRARY
-=
-True
 include
 (
 '
@@ -220,3 +217,8 @@ config
 mozbuild
 '
 )
+FINAL_LIBRARY
+=
+'
+xul
+'

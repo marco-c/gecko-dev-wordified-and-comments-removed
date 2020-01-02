@@ -280,6 +280,11 @@ config
 mozbuild
 '
 )
+FINAL_LIBRARY
+=
+'
+gklayout
+'
 if
 CONFIG
 [

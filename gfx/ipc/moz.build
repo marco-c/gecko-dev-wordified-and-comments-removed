@@ -189,9 +189,6 @@ LIBRARY_NAME
 '
 gfxipc_s
 '
-EXPORT_LIBRARY
-=
-True
 include
 (
 '
@@ -207,3 +204,8 @@ config
 mozbuild
 '
 )
+FINAL_LIBRARY
+=
+'
+xul
+'

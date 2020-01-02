@@ -369,6 +369,11 @@ config
 mozbuild
 '
 )
+FINAL_LIBRARY
+=
+'
+xul
+'
 LOCAL_INCLUDES
 +
 =

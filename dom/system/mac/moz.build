@@ -119,9 +119,6 @@ LIBRARY_NAME
 '
 domsystemmac_s
 '
-EXPORT_LIBRARY
-=
-True
 include
 (
 '
@@ -137,6 +134,11 @@ config
 mozbuild
 '
 )
+FINAL_LIBRARY
+=
+'
+gklayout
+'
 LOCAL_INCLUDES
 +
 =

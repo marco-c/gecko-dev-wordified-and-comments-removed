@@ -381,9 +381,6 @@ gtk3drawing
 c
 '
 ]
-EXPORT_LIBRARY
-=
-True
 include
 (
 '
@@ -399,3 +396,8 @@ config
 mozbuild
 '
 )
+FINAL_LIBRARY
+=
+'
+xul
+'

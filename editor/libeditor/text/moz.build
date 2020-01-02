@@ -179,3 +179,8 @@ txmgr
 src
 '
 ]
+FINAL_LIBRARY
+=
+'
+gklayout
+'

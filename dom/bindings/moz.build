@@ -233,9 +233,6 @@ LIBRARY_NAME
 '
 dombindings_s
 '
-EXPORT_LIBRARY
-=
-True
 LOCAL_INCLUDES
 +
 =
@@ -525,3 +522,8 @@ system
 gonk
 '
 ]
+FINAL_LIBRARY
+=
+'
+xul
+'

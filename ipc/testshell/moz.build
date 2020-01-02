@@ -209,9 +209,6 @@ LIBRARY_NAME
 '
 ipcshell_s
 '
-EXPORT_LIBRARY
-=
-True
 include
 (
 '
@@ -227,3 +224,8 @@ config
 mozbuild
 '
 )
+FINAL_LIBRARY
+=
+'
+xul
+'

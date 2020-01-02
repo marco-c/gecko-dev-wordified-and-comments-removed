@@ -228,6 +228,11 @@ LIBRARY_NAME
 '
 dom_apps_s
 '
+FINAL_LIBRARY
+=
+'
+gklayout
+'
 LOCAL_INCLUDES
 +
 =

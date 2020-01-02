@@ -134,6 +134,8 @@ gtk2xtbin
 c
 '
 ]
-EXPORT_LIBRARY
+FINAL_LIBRARY
 =
-True
+'
+xul
+'

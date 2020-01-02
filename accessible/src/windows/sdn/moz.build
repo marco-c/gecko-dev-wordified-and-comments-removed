@@ -219,6 +219,8 @@ LIBRARY_NAME
 '
 accessibility_toolkit_sdn_s
 '
-EXPORT_LIBRARY
+FINAL_LIBRARY
 =
-True
+'
+xul
+'

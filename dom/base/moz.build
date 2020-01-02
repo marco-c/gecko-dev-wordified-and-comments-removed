@@ -770,6 +770,11 @@ config
 mozbuild
 '
 )
+FINAL_LIBRARY
+=
+'
+gklayout
+'
 LOCAL_INCLUDES
 +
 =

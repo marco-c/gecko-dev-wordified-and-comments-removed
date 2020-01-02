@@ -369,9 +369,6 @@ LIBRARY_NAME
 '
 xpcom_core
 '
-EXPORT_LIBRARY
-=
-True
 include
 (
 '
@@ -387,3 +384,8 @@ config
 mozbuild
 '
 )
+FINAL_LIBRARY
+=
+'
+xul
+'

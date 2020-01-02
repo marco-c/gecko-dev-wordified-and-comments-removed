@@ -150,3 +150,8 @@ xpcom
 ds
 '
 ]
+FINAL_LIBRARY
+=
+'
+xpcom_core
+'

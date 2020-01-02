@@ -179,3 +179,8 @@ xpconnect
 src
 '
 ]
+FINAL_LIBRARY
+=
+'
+gklayout
+'

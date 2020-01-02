@@ -324,3 +324,8 @@ LOCAL_INCLUDES
 base
 '
 ]
+FINAL_LIBRARY
+=
+'
+gklayout
+'

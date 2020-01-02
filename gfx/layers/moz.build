@@ -1844,3 +1844,8 @@ config
 mozbuild
 '
 )
+FINAL_LIBRARY
+=
+'
+thebes
+'

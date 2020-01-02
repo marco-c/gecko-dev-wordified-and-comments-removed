@@ -140,16 +140,6 @@ libui
 (
 NULL
 )
-SHARED_LIBRARY_LIBS
-=
-.
-.
-/
-xpwidgets
-/
-libxpwidgets_s
-.
-a
 include
 (
 topsrcdir

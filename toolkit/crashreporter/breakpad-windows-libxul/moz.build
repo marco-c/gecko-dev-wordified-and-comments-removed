@@ -124,3 +124,8 @@ google_breakpad_libxul_s
 FORCE_STATIC_LIB
 =
 True
+FINAL_LIBRARY
+=
+'
+xulapp_s
+'

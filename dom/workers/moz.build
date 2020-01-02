@@ -352,3 +352,8 @@ xpcom
 build
 '
 ]
+FINAL_LIBRARY
+=
+'
+gklayout
+'

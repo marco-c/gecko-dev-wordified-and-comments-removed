@@ -121,9 +121,6 @@ synthpico
 LIBXUL_LIBRARY
 =
 True
-EXPORT_LIBRARY
-=
-True
 FAIL_ON_WARNINGS
 =
 True
@@ -142,3 +139,8 @@ config
 mozbuild
 '
 )
+FINAL_LIBRARY
+=
+'
+gklayout
+'

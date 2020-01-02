@@ -137,6 +137,8 @@ LIBRARY_NAME
 '
 domsystemwindows_s
 '
-EXPORT_LIBRARY
+FINAL_LIBRARY
 =
-True
+'
+gklayout
+'

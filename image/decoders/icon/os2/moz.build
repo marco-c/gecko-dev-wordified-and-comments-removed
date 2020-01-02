@@ -116,3 +116,8 @@ imgiconos2_s
 LIBXUL_LIBRARY
 =
 True
+FINAL_LIBRARY
+=
+'
+imgicon
+'

@@ -191,9 +191,6 @@ LIBRARY_NAME
 '
 widget_winrt
 '
-EXPORT_LIBRARY
-=
-True
 include
 (
 '
@@ -209,3 +206,8 @@ config
 mozbuild
 '
 )
+FINAL_LIBRARY
+=
+'
+xul
+'

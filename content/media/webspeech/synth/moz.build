@@ -259,9 +259,6 @@ LIBRARY_NAME
 '
 gkconwebspeechsynth_s
 '
-EXPORT_LIBRARY
-=
-True
 include
 (
 '
@@ -277,6 +274,11 @@ config
 mozbuild
 '
 )
+FINAL_LIBRARY
+=
+'
+gklayout
+'
 LOCAL_INCLUDES
 +
 =

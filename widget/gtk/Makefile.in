@@ -62,16 +62,6 @@ build
 our
 subdirs
 too
-SHARED_LIBRARY_LIBS
-=
-.
-.
-/
-xpwidgets
-/
-libxpwidgets_s
-.
-a
 ifdef
 NATIVE_THEME_SUPPORT
 DEFINES

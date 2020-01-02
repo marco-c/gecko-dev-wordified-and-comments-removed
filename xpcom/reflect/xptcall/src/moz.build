@@ -142,3 +142,8 @@ xptinfo
 src
 '
 ]
+FINAL_LIBRARY
+=
+'
+xpcom_core
+'

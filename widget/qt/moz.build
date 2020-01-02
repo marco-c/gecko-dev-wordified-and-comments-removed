@@ -310,9 +310,6 @@ LIBRARY_NAME
 '
 widget_qt
 '
-EXPORT_LIBRARY
-=
-True
 include
 (
 '
@@ -328,3 +325,8 @@ config
 mozbuild
 '
 )
+FINAL_LIBRARY
+=
+'
+xul
+'

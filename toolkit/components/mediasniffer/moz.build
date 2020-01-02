@@ -149,6 +149,8 @@ LIBRARY_NAME
 '
 mediasniffer
 '
-EXPORT_LIBRARY
+FINAL_LIBRARY
 =
-True
+'
+xul
+'
