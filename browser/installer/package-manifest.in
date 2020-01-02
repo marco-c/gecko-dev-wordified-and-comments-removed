@@ -3613,9 +3613,6 @@ chrome
 browser
 .
 manifest
-#
-ifdef
-NIGHTLY_BUILD
 BINPATH
 /
 browser
@@ -3634,6 +3631,9 @@ chrome
 pdfjs
 /
 *
+#
+ifdef
+NIGHTLY_BUILD
 BINPATH
 /
 browser
@@ -5022,8 +5022,6 @@ chrome
 shumway
 /
 *
-#
-endif
 BINPATH
 /
 metro
@@ -5042,6 +5040,8 @@ chrome
 pdfjs
 /
 *
+#
+endif
 BINPATH
 /
 metro
