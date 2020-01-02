@@ -145,6 +145,11 @@ workers
 =
 [
 '
+ServiceWorkerManager
+.
+h
+'
+'
 Workers
 .
 h
@@ -310,6 +315,11 @@ cpp
 '
 '
 ServiceWorkerEvents
+.
+cpp
+'
+'
+ServiceWorkerManager
 .
 cpp
 '

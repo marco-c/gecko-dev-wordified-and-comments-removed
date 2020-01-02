@@ -129,6 +129,13 @@ aURL
 mURL
 ;
 }
+WorkerPrivate
+*
+GetWorkerPrivate
+(
+)
+const
+;
 private
 :
 ServiceWorker
