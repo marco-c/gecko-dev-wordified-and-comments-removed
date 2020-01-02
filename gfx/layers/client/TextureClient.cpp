@@ -1420,9 +1420,6 @@ aTextureFlags
 #
 ifdef
 GL_PROVIDER_GLX
-#
-if
-0
 if
 (
 parentBackend
@@ -1480,8 +1477,6 @@ aTextureFlags
 )
 ;
 }
-#
-endif
 #
 endif
 #
