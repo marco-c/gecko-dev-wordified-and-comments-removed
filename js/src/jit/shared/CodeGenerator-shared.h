@@ -180,7 +180,7 @@ int32_t
 multiplier
 ;
 int32_t
-shift_amount
+shiftAmount
 ;
 }
 ;

@@ -5419,7 +5419,7 @@ d
 ;
 rmc
 .
-shift_amount
+shiftAmount
 =
 shift
 ;
