@@ -92,7 +92,7 @@ Create
 COMPONENT
 (
 ARRAY
-nsArray
+nsArrayBase
 :
 :
 XPCOMConstructor
