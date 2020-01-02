@@ -4951,6 +4951,10 @@ STLPORT_LIBS
 call
 CHECK_STDCXX
 )
+(
+call
+LOCAL_CHECKS
+)
 endif
 #
 WINNT
@@ -5474,6 +5478,10 @@ STLPORT_LIBS
 (
 call
 CHECK_STDCXX
+)
+(
+call
+LOCAL_CHECKS
 )
 endif
 #
@@ -6284,6 +6292,10 @@ DTRACE_LIB_DEPENDENT
 (
 call
 CHECK_STDCXX
+)
+(
+call
+LOCAL_CHECKS
 )
 ifeq
 (
