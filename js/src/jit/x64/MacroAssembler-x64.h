@@ -3544,9 +3544,7 @@ branchPtr
 (
 Condition
 cond
-const
 AsmJSAbsoluteAddress
-&
 addr
 Register
 ptr

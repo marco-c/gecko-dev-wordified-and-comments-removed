@@ -6746,9 +6746,7 @@ branchPtr
 (
 Condition
 cond
-const
 AsmJSAbsoluteAddress
-&
 addr
 Register
 ptr
@@ -8389,9 +8387,7 @@ dest
 void
 movePtr
 (
-const
 AsmJSImmPtr
-&
 imm
 Register
 dest
@@ -8559,9 +8555,7 @@ dest
 void
 loadPtr
 (
-const
 AsmJSAbsoluteAddress
-&
 address
 Register
 dest

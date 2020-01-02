@@ -9661,9 +9661,7 @@ MacroAssemblerARMCompat
 :
 movePtr
 (
-const
 AsmJSImmPtr
-&
 imm
 Register
 dest
@@ -10475,9 +10473,7 @@ MacroAssemblerARMCompat
 :
 loadPtr
 (
-const
 AsmJSAbsoluteAddress
-&
 address
 Register
 dest
