@@ -1439,6 +1439,7 @@ SeekingStarted
 (
 )
 ;
+virtual
 void
 PlaybackPositionChanged
 (
