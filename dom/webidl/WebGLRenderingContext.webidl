@@ -5065,14 +5065,6 @@ HALF_FLOAT_OES
 NoInterfaceObject
 ]
 interface
-WebGLExtensionTextureHalfFloatLinear
-{
-}
-;
-[
-NoInterfaceObject
-]
-interface
 WebGLExtensionVertexArray
 {
 const

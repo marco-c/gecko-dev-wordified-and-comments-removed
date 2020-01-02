@@ -302,7 +302,6 @@ standard_derivatives
 texture_float
 texture_float_linear
 texture_half_float
-texture_half_float_linear
 texture_non_power_of_two
 transform_feedback
 vertex_array_object
@@ -937,7 +936,6 @@ OES_texture_float
 OES_texture_float_linear
 ARB_texture_float
 OES_texture_half_float
-OES_texture_half_float_linear
 NV_half_float
 EXT_unpack_subimage
 OES_standard_derivatives
