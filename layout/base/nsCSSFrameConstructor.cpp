@@ -15277,7 +15277,7 @@ content
 >
 SetFlags
 (
-NODE_IS_ANONYMOUS
+NODE_IS_ANONYMOUS_ROOT
 )
 ;
 }
