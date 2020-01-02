@@ -793,6 +793,11 @@ IncrementGeneration
 (
 )
 ;
+void
+RebuildLocalRules
+(
+)
+;
 class
 UserFontCache
 {
@@ -1451,6 +1456,14 @@ format
 .
 )
 ;
+virtual
+void
+DoRebuildUserFontSet
+(
+)
+=
+0
+;
 nsRefPtrHashtable
 <
 nsStringHashKey
@@ -1460,6 +1473,9 @@ mFontFamilies
 ;
 uint64_t
 mGeneration
+;
+bool
+mLocalRulesUsed
 ;
 static
 PRLogModuleInfo

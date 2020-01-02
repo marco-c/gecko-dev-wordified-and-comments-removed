@@ -276,6 +276,13 @@ GetPrivateBrowsing
 )
 MOZ_OVERRIDE
 ;
+virtual
+void
+DoRebuildUserFontSet
+(
+)
+MOZ_OVERRIDE
+;
 nsPresContext
 *
 mPresContext
