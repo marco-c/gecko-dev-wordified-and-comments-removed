@@ -120,7 +120,6 @@ title
 mozilla
 .
 org
-/
 "
 }
 ]
