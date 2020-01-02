@@ -66,7 +66,7 @@ const
 unsigned
 StorageSpace
 =
-5
+6
 *
 sizeof
 (
@@ -224,6 +224,13 @@ return
 activation_
 ;
 }
+void
+*
+stackAddress
+(
+)
+const
+;
 enum
 Kind
 {
