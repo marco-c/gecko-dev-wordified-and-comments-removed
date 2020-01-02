@@ -442,11 +442,11 @@ init
 {
 aheader
 =
-NULL
+nullptr
 ;
 remainingHeader
 =
-NULL
+nullptr
 ;
 }
 void
@@ -463,7 +463,7 @@ aheaderArg
 ;
 remainingHeader
 =
-NULL
+nullptr
 ;
 }
 void
@@ -519,7 +519,7 @@ remainingHeader
 ;
 remainingHeader
 =
-NULL
+nullptr
 ;
 }
 }
@@ -567,7 +567,7 @@ remainingHeader
 ;
 remainingHeader
 =
-NULL
+nullptr
 ;
 }
 }
@@ -877,7 +877,7 @@ done
 {
 cell
 =
-NULL
+nullptr
 ;
 return
 ;
@@ -1117,7 +1117,7 @@ kind
 {
 lists
 =
-NULL
+nullptr
 ;
 }
 else
@@ -1665,7 +1665,7 @@ t
 }
 }
 return
-NULL
+nullptr
 ;
 }
 #

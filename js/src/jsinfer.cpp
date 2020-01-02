@@ -2199,7 +2199,7 @@ constraint
 next
 =
 =
-NULL
+nullptr
 )
 ;
 constraint
@@ -2573,7 +2573,7 @@ if
 newSet
 )
 return
-NULL
+nullptr
 ;
 PodCopy
 (
@@ -2621,7 +2621,7 @@ if
 res
 )
 return
-NULL
+nullptr
 ;
 return
 res
@@ -2766,7 +2766,7 @@ TypeObjectKey
 *
 >
 (
-NULL
+nullptr
 )
 )
 ;
@@ -2776,7 +2776,7 @@ if
 res
 )
 return
-NULL
+nullptr
 ;
 if
 (
@@ -2847,7 +2847,7 @@ alloc
 )
 )
 return
-NULL
+nullptr
 ;
 }
 for
@@ -2908,7 +2908,7 @@ alloc
 )
 )
 return
-NULL
+nullptr
 ;
 }
 }
@@ -3494,7 +3494,7 @@ asNewScript
 ;
 }
 return
-NULL
+nullptr
 ;
 }
 bool
@@ -4394,7 +4394,7 @@ baseObjectCount
 1
 )
 return
-NULL
+nullptr
 ;
 return
 getSingleObject
@@ -4439,7 +4439,7 @@ getObjectCount
 1
 )
 return
-NULL
+nullptr
 ;
 JSObject
 *
@@ -5813,14 +5813,14 @@ unknownObject
 )
 )
 return
-NULL
+nullptr
 ;
 const
 Class
 *
 clasp
 =
-NULL
+nullptr
 ;
 unsigned
 count
@@ -5873,7 +5873,7 @@ clasp
 nclasp
 )
 return
-NULL
+nullptr
 ;
 clasp
 =
@@ -6187,13 +6187,13 @@ unknownObject
 )
 )
 return
-NULL
+nullptr
 ;
 JSObject
 *
 proto
 =
-NULL
+nullptr
 ;
 unsigned
 count
@@ -6280,7 +6280,7 @@ nproto
 proto
 )
 return
-NULL
+nullptr
 ;
 }
 else
@@ -6295,7 +6295,7 @@ isObject
 )
 )
 return
-NULL
+nullptr
 ;
 proto
 =
@@ -6637,7 +6637,7 @@ if
 object
 )
 return
-NULL
+nullptr
 ;
 new
 (
@@ -6718,7 +6718,7 @@ script
 code
 )
 return
-NULL
+nullptr
 ;
 for
 (
@@ -6773,7 +6773,7 @@ hasAnalysis
 )
 )
 return
-NULL
+nullptr
 ;
 if
 (
@@ -6792,7 +6792,7 @@ initpc
 )
 )
 return
-NULL
+nullptr
 ;
 if
 (
@@ -6803,7 +6803,7 @@ initpc
 JSOP_NEWARRAY
 )
 return
-NULL
+nullptr
 ;
 jsbytecode
 *
@@ -6828,7 +6828,7 @@ last
 JSOP_INITELEM_ARRAY
 )
 return
-NULL
+nullptr
 ;
 last
 =
@@ -6851,7 +6851,7 @@ last
 JSOP_ENDINIT
 )
 return
-NULL
+nullptr
 ;
 size_t
 initDepth
@@ -6940,7 +6940,7 @@ previnit
 JSOP_NEWARRAY
 )
 return
-NULL
+nullptr
 ;
 return
 previnit
@@ -7015,7 +7015,7 @@ cx
 )
 ;
 return
-NULL
+nullptr
 ;
 }
 }
@@ -7043,7 +7043,7 @@ TypeObject
 *
 res
 =
-NULL
+nullptr
 ;
 jsbytecode
 *
@@ -7173,11 +7173,11 @@ key
 kind
 &
 proto
-NULL
+nullptr
 )
 )
 return
-NULL
+nullptr
 ;
 Rooted
 <
@@ -7228,7 +7228,7 @@ cx
 )
 ;
 return
-NULL
+nullptr
 ;
 }
 key
@@ -7281,7 +7281,7 @@ baseobj
 )
 )
 return
-NULL
+nullptr
 ;
 }
 if
@@ -7314,7 +7314,7 @@ cx
 )
 ;
 return
-NULL
+nullptr
 ;
 }
 return
@@ -8116,7 +8116,7 @@ pendingRecompiles
 ;
 pendingRecompiles
 =
-NULL
+nullptr
 ;
 JS_ASSERT
 (
@@ -8298,7 +8298,7 @@ types
 .
 pendingRecompiles
 =
-NULL
+nullptr
 ;
 }
 }
@@ -9146,7 +9146,7 @@ compartment
 AutoEnterAnalysis
 enter
 (
-NULL
+nullptr
 compartment
 )
 ;
@@ -9413,7 +9413,7 @@ UndefinedType
 )
 proto
 (
-NULL
+nullptr
 )
 {
 }
@@ -9547,7 +9547,7 @@ init
 {
 arrayTypeTable
 =
-NULL
+nullptr
 ;
 cx
 -
@@ -10373,7 +10373,7 @@ init
 {
 objectTypeTable
 =
-NULL
+nullptr
 ;
 cx
 -
@@ -11096,7 +11096,7 @@ init
 {
 objectTypeTable
 =
-NULL
+nullptr
 ;
 cx
 -
@@ -11114,7 +11114,7 @@ cx
 )
 ;
 return
-NULL
+nullptr
 ;
 }
 }
@@ -11133,7 +11133,7 @@ PropertyTree
 MAX_HEIGHT
 )
 return
-NULL
+nullptr
 ;
 gc
 :
@@ -11196,7 +11196,7 @@ if
 p
 )
 return
-NULL
+nullptr
 ;
 RootedObject
 obj
@@ -11228,7 +11228,7 @@ clearPendingException
 )
 ;
 return
-NULL
+nullptr
 ;
 }
 JS_ASSERT
@@ -11286,7 +11286,7 @@ clearPendingException
 )
 ;
 return
-NULL
+nullptr
 ;
 }
 UpdateObjectTableEntryTypes
@@ -12889,7 +12889,7 @@ addendum
 ;
 addendum
 =
-NULL
+nullptr
 ;
 js_free
 (
@@ -15965,7 +15965,7 @@ types
 >
 analysis
 =
-NULL
+nullptr
 ;
 return
 false
@@ -16106,7 +16106,7 @@ getProto
 )
 !
 =
-NULL
+nullptr
 )
 return
 false
@@ -16242,7 +16242,7 @@ TypeObject
 protoType
 (
 cx
-NULL
+nullptr
 )
 ;
 if
@@ -16440,7 +16440,7 @@ cx
 )
 )
 return
-NULL
+nullptr
 ;
 }
 Rooted
@@ -16515,7 +16515,7 @@ cx
 )
 ;
 return
-NULL
+nullptr
 ;
 }
 if
@@ -17197,7 +17197,7 @@ init
 )
 )
 return
-NULL
+nullptr
 ;
 TypeObjectSet
 :
@@ -17351,7 +17351,7 @@ this
 )
 )
 return
-NULL
+nullptr
 ;
 bool
 markUnknown
@@ -17408,7 +17408,7 @@ if
 type
 )
 return
-NULL
+nullptr
 ;
 bool
 gcHappened
@@ -17470,7 +17470,7 @@ if
 added
 )
 return
-NULL
+nullptr
 ;
 #
 ifdef
@@ -17831,7 +17831,7 @@ init
 )
 )
 return
-NULL
+nullptr
 ;
 TypeObjectSet
 :
@@ -17914,7 +17914,7 @@ if
 type
 )
 return
-NULL
+nullptr
 ;
 if
 (
@@ -17936,7 +17936,7 @@ type
 )
 )
 return
-NULL
+nullptr
 ;
 type
 -
@@ -18122,7 +18122,7 @@ object
 {
 objectSet
 =
-NULL
+nullptr
 ;
 setBaseObjectCount
 (
@@ -18133,7 +18133,7 @@ setBaseObjectCount
 }
 constraintList
 =
-NULL
+nullptr
 ;
 }
 inline
@@ -18152,7 +18152,7 @@ setBasePropertyCount
 ;
 propertySet
 =
-NULL
+nullptr
 ;
 }
 inline
@@ -18604,7 +18604,7 @@ TypeObject
 *
 typeObject
 =
-NULL
+nullptr
 ;
 if
 (
@@ -18930,7 +18930,7 @@ TypeObject
 *
 typeObject
 =
-NULL
+nullptr
 ;
 if
 (
@@ -19158,7 +19158,7 @@ pendingArray
 ;
 pendingArray
 =
-NULL
+nullptr
 ;
 pendingCapacity
 =
@@ -19302,7 +19302,7 @@ constrainedOutputs
 ;
 constrainedOutputs
 =
-NULL
+nullptr
 ;
 }
 if
@@ -19333,7 +19333,7 @@ pendingRecompiles
 ;
 pendingRecompiles
 =
-NULL
+nullptr
 ;
 }
 }
@@ -20170,7 +20170,7 @@ script
 >
 types
 =
-NULL
+nullptr
 ;
 }
 }
@@ -20412,7 +20412,7 @@ return
 AutoEnterAnalysis
 enter
 (
-NULL
+nullptr
 script
 -
 >
@@ -20538,7 +20538,7 @@ name
 >
 getChars
 (
-NULL
+nullptr
 )
 ;
 JSString

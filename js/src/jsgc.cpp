@@ -2276,7 +2276,7 @@ if
 chunk
 )
 return
-NULL
+nullptr
 ;
 JS_ASSERT
 (
@@ -2413,7 +2413,7 @@ Chunk
 *
 freeList
 =
-NULL
+nullptr
 ;
 int
 freeChunkCount
@@ -2696,7 +2696,7 @@ if
 chunk
 )
 return
-NULL
+nullptr
 ;
 chunk
 -
@@ -2945,7 +2945,7 @@ i
 .
 aheader
 :
-NULL
+nullptr
 ;
 }
 }
@@ -3172,13 +3172,13 @@ info
 .
 prevp
 =
-NULL
+nullptr
 ;
 info
 .
 next
 =
-NULL
+nullptr
 ;
 }
 uint32_t
@@ -3493,7 +3493,7 @@ rt
 gcMaxBytes
 )
 return
-NULL
+nullptr
 ;
 ArenaHeader
 *
@@ -3932,7 +3932,7 @@ if
 chunk
 )
 return
-NULL
+nullptr
 ;
 rt
 -
@@ -3988,7 +3988,7 @@ chunk
 )
 ;
 return
-NULL
+nullptr
 ;
 }
 chunk
@@ -3998,7 +3998,7 @@ info
 .
 prevp
 =
-NULL
+nullptr
 ;
 chunk
 -
@@ -4007,7 +4007,7 @@ info
 .
 next
 =
-NULL
+nullptr
 ;
 chunk
 -
@@ -4806,14 +4806,14 @@ rt
 >
 gcSystemAvailableChunkListHead
 =
-NULL
+nullptr
 ;
 rt
 -
 >
 gcUserAvailableChunkListHead
 =
-NULL
+nullptr
 ;
 for
 (
@@ -5255,7 +5255,7 @@ AddRoot
 (
 rt
 objp
-NULL
+nullptr
 JS_GC_ROOT_OBJECT_PTR
 )
 ;
@@ -5851,7 +5851,7 @@ Chunk
 *
 chunk
 =
-NULL
+nullptr
 ;
 ArenaList
 *
@@ -5934,7 +5934,7 @@ chunk
 )
 {
 return
-NULL
+nullptr
 ;
 }
 }
@@ -6161,7 +6161,7 @@ if
 chunk
 )
 return
-NULL
+nullptr
 ;
 }
 JS_ASSERT
@@ -6193,7 +6193,7 @@ if
 aheader
 )
 return
-NULL
+nullptr
 ;
 if
 (
@@ -6867,7 +6867,7 @@ arenaListsToSweep
 thingKind
 ]
 =
-NULL
+nullptr
 ;
 }
 void
@@ -7259,7 +7259,7 @@ return
 thing
 ;
 return
-NULL
+nullptr
 ;
 }
 template
@@ -7502,7 +7502,7 @@ allowGC
 allowGC
 )
 return
-NULL
+nullptr
 ;
 if
 (
@@ -7526,7 +7526,7 @@ cx
 )
 ;
 return
-NULL
+nullptr
 ;
 }
 template
@@ -7615,14 +7615,14 @@ trc
 >
 debugPrinter
 =
-NULL
+nullptr
 ;
 trc
 -
 >
 debugPrintArg
 =
-NULL
+nullptr
 ;
 trc
 -
@@ -7650,7 +7650,7 @@ trc
 >
 realLocation
 =
-NULL
+nullptr
 ;
 #
 endif
@@ -7825,7 +7825,7 @@ false
 )
 unmarkedArenaStackTop
 (
-NULL
+nullptr
 )
 markLaterArenas
 (
@@ -7840,7 +7840,7 @@ InitTracer
 (
 this
 rt
-NULL
+nullptr
 )
 ;
 }
@@ -8558,7 +8558,7 @@ GrayCallback
 ;
 callback
 =
-NULL
+nullptr
 ;
 JS_ASSERT
 (
@@ -10198,7 +10198,7 @@ rt
 >
 gcSweepingZones
 =
-NULL
+nullptr
 ;
 }
 #
@@ -10515,7 +10515,7 @@ PRThread
 *
 join
 =
-NULL
+nullptr
 ;
 {
 AutoLockGC
@@ -11396,7 +11396,7 @@ freeCursor
 {
 freeCursorEnd
 =
-NULL
+nullptr
 ;
 break
 ;
@@ -11484,7 +11484,7 @@ freeCursor
 =
 freeCursorEnd
 =
-NULL
+nullptr
 ;
 }
 else
@@ -12732,7 +12732,7 @@ compartment
 ;
 else
 return
-NULL
+nullptr
 ;
 }
 static
@@ -15429,7 +15429,7 @@ rt
 >
 gcMarkingValidator
 =
-NULL
+nullptr
 ;
 #
 endif
@@ -16248,7 +16248,7 @@ rt
 >
 gcCurrentZoneGroup
 =
-NULL
+nullptr
 ;
 }
 }
@@ -16924,7 +16924,7 @@ c
 >
 gcIncomingGrayPointers
 =
-NULL
+nullptr
 ;
 }
 SliceBudget
@@ -17168,7 +17168,7 @@ comp
 >
 gcIncomingGrayPointers
 =
-NULL
+nullptr
 ;
 }
 void
@@ -23057,7 +23057,7 @@ if
 zone
 )
 return
-NULL
+nullptr
 ;
 zoneHolder
 .
@@ -23078,7 +23078,7 @@ cx
 )
 )
 return
-NULL
+nullptr
 ;
 zone
 -
@@ -23150,7 +23150,7 @@ cx
 )
 )
 return
-NULL
+nullptr
 ;
 JS_SetCompartmentPrincipals
 (
@@ -23188,7 +23188,7 @@ cx
 )
 ;
 return
-NULL
+nullptr
 ;
 }
 if
@@ -23214,7 +23214,7 @@ cx
 )
 ;
 return
-NULL
+nullptr
 ;
 }
 zoneHolder
@@ -24277,7 +24277,7 @@ rt
 >
 scriptAndCountsVector
 =
-NULL
+nullptr
 ;
 }
 JS_FRIEND_API
@@ -24817,7 +24817,7 @@ fromList
 head
 !
 =
-NULL
+nullptr
 )
 {
 ArenaHeader
@@ -24844,7 +24844,7 @@ fromHeader
 >
 next
 =
-NULL
+nullptr
 ;
 toList
 -
@@ -24914,7 +24914,7 @@ head
 aheader
 !
 =
-NULL
+nullptr
 ;
 aheader
 =

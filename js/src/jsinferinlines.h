@@ -448,7 +448,7 @@ length
 )
 )
 return
-NULL
+nullptr
 ;
 return
 &
@@ -1345,7 +1345,7 @@ proto
 )
 )
 return
-NULL
+nullptr
 ;
 return
 cx
@@ -2802,11 +2802,11 @@ cx
 key
 &
 proto
-NULL
+nullptr
 )
 )
 return
-NULL
+nullptr
 ;
 return
 cx
@@ -4274,7 +4274,7 @@ insertpos
 ]
 !
 =
-NULL
+nullptr
 )
 {
 if
@@ -4372,7 +4372,7 @@ if
 newValues
 )
 return
-NULL
+nullptr
 ;
 mozilla
 :
@@ -4442,7 +4442,7 @@ pos
 ]
 !
 =
-NULL
+nullptr
 )
 pos
 =
@@ -4499,7 +4499,7 @@ insertpos
 ]
 !
 =
-NULL
+nullptr
 )
 insertpos
 =
@@ -4567,7 +4567,7 @@ JS_ASSERT
 values
 =
 =
-NULL
+nullptr
 )
 ;
 count
@@ -4653,7 +4653,7 @@ U
 oldData
 ;
 return
-NULL
+nullptr
 ;
 }
 mozilla
@@ -4802,7 +4802,7 @@ count
 0
 )
 return
-NULL
+nullptr
 ;
 if
 (
@@ -4835,7 +4835,7 @@ U
 )
 values
 :
-NULL
+nullptr
 ;
 if
 (
@@ -4885,7 +4885,7 @@ i
 ;
 }
 return
-NULL
+nullptr
 ;
 }
 unsigned
@@ -4922,7 +4922,7 @@ pos
 ]
 !
 =
-NULL
+nullptr
 )
 {
 if
@@ -4963,7 +4963,7 @@ capacity
 ;
 }
 return
-NULL
+nullptr
 ;
 }
 inline
@@ -5224,7 +5224,7 @@ objectKey
 )
 !
 =
-NULL
+nullptr
 ;
 }
 }
@@ -5280,7 +5280,7 @@ setBaseObjectCount
 ;
 objectSet
 =
-NULL
+nullptr
 ;
 }
 inline
@@ -5928,7 +5928,7 @@ asSingleObject
 (
 )
 :
-NULL
+nullptr
 ;
 }
 inline
@@ -5973,7 +5973,7 @@ asTypeObject
 (
 )
 :
-NULL
+nullptr
 ;
 }
 inline
@@ -6016,7 +6016,7 @@ activeAnalysis
 *
 result
 =
-NULL
+nullptr
 ;
 TypeObject
 *
@@ -6146,7 +6146,7 @@ object
 clasp
 ;
 return
-NULL
+nullptr
 ;
 }
 inline
@@ -6422,7 +6422,7 @@ cx
 )
 ;
 return
-NULL
+nullptr
 ;
 }
 if
@@ -6455,10 +6455,10 @@ setBasePropertyCount
 ;
 propertySet
 =
-NULL
+nullptr
 ;
 return
-NULL
+nullptr
 ;
 }
 if
@@ -6623,7 +6623,7 @@ prop
 >
 types
 :
-NULL
+nullptr
 ;
 }
 inline
@@ -7220,14 +7220,14 @@ types
 >
 analysis
 =
-NULL
+nullptr
 ;
 types
 -
 >
 bytecodeMap
 =
-NULL
+nullptr
 ;
 }
 }
