@@ -8080,9 +8080,6 @@ false
 )
 ;
 }
-_ignoreLiterals
-:
-true
 _findIdentifier
 :
 function
@@ -8266,11 +8263,6 @@ scriptIndex
 scriptInfo
 .
 index
-ignoreLiterals
-:
-this
-.
-_ignoreLiterals
 }
 )
 ;

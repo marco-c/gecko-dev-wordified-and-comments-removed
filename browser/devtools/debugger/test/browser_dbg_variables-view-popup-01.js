@@ -62,12 +62,6 @@ _tooltip
 .
 panel
 ;
-bubble
-.
-_ignoreLiterals
-=
-false
-;
 function
 verifyContents
 (
