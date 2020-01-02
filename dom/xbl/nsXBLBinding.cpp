@@ -4777,15 +4777,6 @@ aId
 if
 (
 !
-JS_WrapId
-(
-aCx
-&
-id
-)
-|
-|
-!
 LookupMemberInternal
 (
 aCx
