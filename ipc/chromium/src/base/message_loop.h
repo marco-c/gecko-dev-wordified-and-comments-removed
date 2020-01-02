@@ -990,6 +990,7 @@ MessageLoop
 {
 public
 :
+explicit
 MessageLoopForUI
 (
 Type
