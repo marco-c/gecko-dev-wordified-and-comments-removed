@@ -9627,8 +9627,16 @@ TopLeft
 )
 )
 ;
-NotifyWindowMoved
+if
 (
+mWidgetListener
+)
+mWidgetListener
+-
+>
+WindowMoved
+(
+this
 mBounds
 .
 x
