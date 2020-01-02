@@ -627,16 +627,6 @@ plugin
 allowed_types
 "
 "
-application
-/
-x
--
-shockwave
--
-flash
-application
-/
-futuresplash
 "
 )
 ;
