@@ -43,6 +43,13 @@ h
 #
 include
 "
+nsIConsoleListener
+.
+h
+"
+#
+include
+"
 mozilla
 /
 Preferences

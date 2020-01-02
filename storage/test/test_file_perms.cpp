@@ -12,6 +12,13 @@ nsIFile
 .
 h
 "
+#
+include
+"
+prio
+.
+h
+"
 void
 test_file_perms
 (

@@ -105,6 +105,13 @@ nsIClassInfo
 .
 h
 "
+#
+include
+"
+nsIInterfaceInfo
+.
+h
+"
 NS_IMPL_ISUPPORTS1
 (
 txXPathObjectAdaptor

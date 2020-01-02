@@ -96,7 +96,7 @@ MPL
 #
 include
 "
-nsISimpleEnumerator
+nsISupports
 .
 idl
 "

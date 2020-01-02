@@ -41,6 +41,13 @@ nsISupportsPrimitives
 h
 "
 #
+include
+"
+nsISimpleEnumerator
+.
+h
+"
+#
 define
 DEFAULT_SPELL_CHECKER
 "

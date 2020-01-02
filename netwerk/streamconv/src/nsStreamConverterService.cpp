@@ -96,6 +96,13 @@ nsHashtable
 .
 h
 "
+#
+include
+"
+nsISimpleEnumerator
+.
+h
+"
 enum
 BFScolors
 {

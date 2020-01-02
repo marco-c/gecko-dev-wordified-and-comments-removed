@@ -97,13 +97,6 @@ nsIInputStream
 .
 idl
 "
-#
-include
-"
-nsrootidl
-.
-idl
-"
 /
 *
 *

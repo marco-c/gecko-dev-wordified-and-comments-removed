@@ -100,13 +100,6 @@ nsIBinaryInputStream
 .
 idl
 "
-#
-include
-"
-nsrootidl
-.
-idl
-"
 /
 *
 *

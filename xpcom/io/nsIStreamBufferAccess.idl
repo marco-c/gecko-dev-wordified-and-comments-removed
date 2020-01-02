@@ -100,13 +100,6 @@ nsISupports
 .
 idl
 "
-#
-include
-"
-nsrootidl
-.
-idl
-"
 /
 *
 *

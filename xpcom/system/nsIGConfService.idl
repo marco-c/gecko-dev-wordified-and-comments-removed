@@ -98,13 +98,9 @@ nsISupports
 .
 idl
 "
-#
-include
-"
+interface
 nsIArray
-.
-idl
-"
+;
 [
 scriptable
 uuid

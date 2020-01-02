@@ -97,6 +97,13 @@ nsServiceManagerUtils
 h
 "
 #
+include
+"
+nsISimpleEnumerator
+.
+h
+"
+#
 define
 TEST_URL
 "

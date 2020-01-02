@@ -36,6 +36,13 @@ h
 #
 include
 "
+nsISimpleEnumerator
+.
+h
+"
+#
+include
+"
 mozilla
 /
 dom

@@ -239,6 +239,13 @@ h
 #
 include
 "
+nsISimpleEnumerator
+.
+h
+"
+#
+include
+"
 nsIImageLoadingContent
 .
 h

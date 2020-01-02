@@ -98,13 +98,9 @@ nsISerializable
 .
 idl
 "
-#
-include
-"
+interface
 nsIEnumerator
-.
-idl
-"
+;
 [
 scriptable
 uuid

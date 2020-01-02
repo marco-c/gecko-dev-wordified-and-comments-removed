@@ -129,6 +129,13 @@ h
 #
 include
 "
+nsISimpleEnumerator
+.
+h
+"
+#
+include
+"
 mozilla
 /
 Util

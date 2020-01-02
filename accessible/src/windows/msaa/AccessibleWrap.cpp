@@ -254,6 +254,13 @@ nsIPersistentProperties2
 .
 h
 "
+#
+include
+"
+nsISimpleEnumerator
+.
+h
+"
 using
 namespace
 mozilla

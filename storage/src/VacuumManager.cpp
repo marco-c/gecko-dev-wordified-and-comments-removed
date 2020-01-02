@@ -63,6 +63,13 @@ h
 #
 include
 "
+prtime
+.
+h
+"
+#
+include
+"
 mozStorageConnection
 .
 h

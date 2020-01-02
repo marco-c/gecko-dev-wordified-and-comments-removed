@@ -5,6 +5,13 @@ nsAtomService
 .
 h
 "
+#
+include
+"
+nsIAtom
+.
+h
+"
 NS_IMPL_ISUPPORTS1
 (
 nsAtomService

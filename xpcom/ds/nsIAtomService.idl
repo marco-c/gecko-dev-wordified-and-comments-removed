@@ -96,10 +96,13 @@ MPL
 #
 include
 "
-nsIAtom
+nsISupports
 .
 idl
 "
+interface
+nsIAtom
+;
 %
 {
 C
