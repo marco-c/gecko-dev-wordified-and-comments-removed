@@ -430,6 +430,11 @@ testTypedArrays
 cpp
 '
 '
+testUbiNode
+.
+cpp
+'
+'
 testUncaughtError
 .
 cpp
