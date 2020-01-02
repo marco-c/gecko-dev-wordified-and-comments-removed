@@ -2664,6 +2664,12 @@ kOS
 =
 16
 ;
+static
+uint32_t
+AccelModifier
+(
+)
+;
 KeyBinding
 (
 )
