@@ -500,6 +500,17 @@ View
 v
 )
 {
+HomeBanner
+.
+this
+.
+setVisibility
+(
+View
+.
+GONE
+)
+;
 GeckoAppShell
 .
 sendEventToGecko

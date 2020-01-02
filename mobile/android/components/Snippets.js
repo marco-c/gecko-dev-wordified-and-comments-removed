@@ -1864,6 +1864,15 @@ function
 (
 )
 {
+Home
+.
+banner
+.
+remove
+(
+id
+)
+;
 Accounts
 .
 launchSetup
