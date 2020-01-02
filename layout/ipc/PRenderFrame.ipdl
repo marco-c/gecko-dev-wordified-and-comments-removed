@@ -112,13 +112,6 @@ include
 protocol
 PLayerTransaction
 ;
-include
-"
-nsRegion
-.
-h
-"
-;
 using
 class
 nsRegion

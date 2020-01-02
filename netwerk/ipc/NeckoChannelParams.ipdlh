@@ -120,17 +120,6 @@ URIParams
 include
 InputStreamParams
 ;
-include
-"
-mozilla
-/
-net
-/
-PHttpChannelParams
-.
-h
-"
-;
 using
 struct
 mozilla

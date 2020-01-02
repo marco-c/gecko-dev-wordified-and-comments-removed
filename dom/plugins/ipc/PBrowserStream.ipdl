@@ -97,17 +97,6 @@ include
 protocol
 PPluginInstance
 ;
-include
-"
-mozilla
-/
-plugins
-/
-PluginMessageUtils
-.
-h
-"
-;
 using
 mozilla
 :

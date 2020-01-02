@@ -119,17 +119,6 @@ include
 "
 mozilla
 /
-layers
-/
-CompositorTypes
-.
-h
-"
-;
-include
-"
-mozilla
-/
 GfxMessageUtils
 .
 h

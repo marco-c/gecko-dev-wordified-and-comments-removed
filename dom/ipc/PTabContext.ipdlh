@@ -118,17 +118,6 @@ include
 protocol
 PBrowser
 ;
-include
-"
-mozilla
-/
-layout
-/
-RenderFrameUtils
-.
-h
-"
-;
 using
 mozilla
 :
