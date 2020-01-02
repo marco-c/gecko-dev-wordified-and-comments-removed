@@ -89,6 +89,7 @@ MOZ_BEGIN_ENUM_CLASS
 WebGLTexelFormat
 int
 )
+None
 BadFormat
 Auto
 R8
