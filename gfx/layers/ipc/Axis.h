@@ -165,11 +165,6 @@ GetExcess
 )
 ;
 float
-GetAccelerationFactor
-(
-)
-;
-float
 GetVelocity
 (
 )
@@ -290,9 +285,6 @@ mStartPos
 ;
 float
 mVelocity
-;
-int32_t
-mAcceleration
 ;
 bool
 mAxisLocked
