@@ -118,6 +118,11 @@ nsIWifi
 idl
 '
 '
+nsIWifiCertService
+.
+idl
+'
+'
 nsIWifiService
 .
 idl
