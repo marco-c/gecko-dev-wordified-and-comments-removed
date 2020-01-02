@@ -129,9 +129,6 @@ mozconfig
 .
 cache
 "
-ENABLE_MARIONETTE
-=
-1
 export
 CXXFLAGS
 =
