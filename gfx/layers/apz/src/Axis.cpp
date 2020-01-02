@@ -188,6 +188,10 @@ aTimestampMs
 mPosTimeMs
 )
 {
+mPos
+=
+aPos
+;
 return
 ;
 }
