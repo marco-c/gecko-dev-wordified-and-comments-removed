@@ -321,6 +321,15 @@ downloads
 title
 ;
 "
+statictitle
+=
+"
+&
+downloads
+.
+title
+;
+"
 width
 =
 "
