@@ -5202,10 +5202,7 @@ buffer
 char
 *
 )
-nsMemory
-:
-:
-Alloc
+moz_malloc
 (
 dstLength
 )

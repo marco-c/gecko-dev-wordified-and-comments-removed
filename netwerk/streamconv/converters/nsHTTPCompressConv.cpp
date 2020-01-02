@@ -491,10 +491,7 @@ unsigned
 char
 *
 )
-nsMemory
-:
-:
-Realloc
+moz_realloc
 (
 mInpBuffer
 mInpBufferLen
@@ -517,10 +514,7 @@ unsigned
 char
 *
 )
-nsMemory
-:
-:
-Realloc
+moz_realloc
 (
 mOutBuffer
 mOutBufferLen
@@ -561,10 +555,7 @@ unsigned
 char
 *
 )
-nsMemory
-:
-:
-Alloc
+moz_malloc
 (
 mInpBufferLen
 =
@@ -585,10 +576,7 @@ unsigned
 char
 *
 )
-nsMemory
-:
-:
-Alloc
+moz_malloc
 (
 mOutBufferLen
 =

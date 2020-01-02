@@ -2093,10 +2093,7 @@ mDataBuffer
 char
 *
 )
-nsMemory
-:
-:
-Alloc
+moz_malloc
 (
 (
 sizeof
@@ -2117,10 +2114,7 @@ mOutgoingBuffer
 char
 *
 )
-nsMemory
-:
-:
-Alloc
+moz_malloc
 (
 (
 sizeof
