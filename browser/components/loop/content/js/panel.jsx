@@ -1202,11 +1202,6 @@ URL
 callUrlData
 .
 callUrl
-|
-|
-callUrlData
-.
-call_url
 )
 ;
 /
