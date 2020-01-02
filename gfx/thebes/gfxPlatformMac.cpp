@@ -1434,6 +1434,13 @@ aFontList
 .
 AppendElement
 (
+kFontHiraginoKakuGothic
+)
+;
+aFontList
+.
+AppendElement
+(
 kFontAppleSymbols
 )
 ;
@@ -1456,13 +1463,6 @@ aFontList
 AppendElement
 (
 kFontGeneva
-)
-;
-aFontList
-.
-AppendElement
-(
-kFontHiraginoKakuGothic
 )
 ;
 aFontList
