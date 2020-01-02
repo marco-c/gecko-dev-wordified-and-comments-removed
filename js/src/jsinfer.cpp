@@ -4518,8 +4518,7 @@ FinishCompilation
 JSContext
 *
 cx
-JSScript
-*
+HandleScript
 script
 ExecutionMode
 executionMode
@@ -6652,8 +6651,7 @@ cx
 TypeObject
 *
 type
-JSFunction
-*
+HandleFunction
 fun
 )
 ;
@@ -6808,10 +6806,10 @@ hasNewScript
 )
 )
 {
-CheckNewScriptProperties
+RootedFunction
+fun
 (
 cx
-type
 type
 -
 >
@@ -6820,6 +6818,13 @@ newScript
 )
 -
 >
+fun
+)
+;
+CheckNewScriptProperties
+(
+cx
+type
 fun
 )
 ;
@@ -15743,8 +15748,7 @@ cx
 TypeObject
 *
 type
-JSFunction
-*
+HandleFunction
 fun
 )
 {

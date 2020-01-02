@@ -3710,8 +3710,7 @@ FinishCompilation
 JSContext
 *
 cx
-JSScript
-*
+HandleScript
 script
 ExecutionMode
 executionMode
