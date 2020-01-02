@@ -312,3 +312,17 @@ bar
 dll
 '
 ]
+RCFILE
+=
+'
+foo
+.
+rc
+'
+RESFILE
+=
+'
+bar
+.
+res
+'

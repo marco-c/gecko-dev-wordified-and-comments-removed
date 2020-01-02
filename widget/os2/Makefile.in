@@ -54,11 +54,6 @@ MPL
 0
 /
 .
-RESFILE
-=
-widget
-.
-res
 include
 (
 topsrcdir

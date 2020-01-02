@@ -1286,6 +1286,14 @@ OS_LIBS
 '
             
 '
+RCFILE
+'
+            
+'
+RESFILE
+'
+            
+'
 SDK_LIBRARY
 '
         

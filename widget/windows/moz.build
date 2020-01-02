@@ -578,3 +578,10 @@ var
 ]
 =
 True
+RESFILE
+=
+'
+widget
+.
+res
+'
