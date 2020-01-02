@@ -6640,6 +6640,17 @@ init
 ;
 #
 endif
+#
+ifdef
+MOZ_LOOP
+LoopUI
+.
+initialize
+(
+)
+;
+#
+endif
 gBrowserThumbnails
 .
 init
