@@ -38,6 +38,9 @@ JSObject
 *
 NewGCThingPar
 (
+ForkJoinSlice
+*
+slice
 gc
 :
 :
