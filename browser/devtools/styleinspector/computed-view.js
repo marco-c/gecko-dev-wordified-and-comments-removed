@@ -1364,6 +1364,14 @@ undefined
 )
 ;
 }
+this
+.
+tooltip
+.
+hide
+(
+)
+;
 if
 (
 aElement
