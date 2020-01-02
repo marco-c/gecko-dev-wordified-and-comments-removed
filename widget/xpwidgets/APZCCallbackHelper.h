@@ -85,7 +85,6 @@ UpdateSubFrame
 nsIContent
 *
 aContent
-const
 FrameMetrics
 &
 aMetrics
