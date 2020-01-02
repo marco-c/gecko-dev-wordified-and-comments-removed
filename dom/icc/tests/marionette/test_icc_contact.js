@@ -554,9 +554,7 @@ name
 =
 =
 "
-pin2
-is
-empty
+SimPin2
 "
 "
 expected
