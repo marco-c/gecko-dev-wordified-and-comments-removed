@@ -1287,7 +1287,6 @@ time
 %
 lld
 "
-this
 audio
 -
 >
