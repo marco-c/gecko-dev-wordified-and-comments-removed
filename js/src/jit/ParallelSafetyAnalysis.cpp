@@ -1380,6 +1380,10 @@ IsCallable
 )
 SAFE_OP
 (
+IsObject
+)
+SAFE_OP
+(
 HaveSameClass
 )
 SAFE_OP

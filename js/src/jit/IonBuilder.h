@@ -3530,6 +3530,14 @@ callInfo
 )
 ;
 InliningStatus
+inlineIsObject
+(
+CallInfo
+&
+callInfo
+)
+;
+InliningStatus
 inlineHaveSameClass
 (
 CallInfo
