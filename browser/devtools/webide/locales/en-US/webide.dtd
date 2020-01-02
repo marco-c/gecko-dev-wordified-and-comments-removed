@@ -65,8 +65,7 @@ ENTITY
 windowTitle
 "
 Firefox
-App
-Manager
+WebIDE
 "
 >
 <
