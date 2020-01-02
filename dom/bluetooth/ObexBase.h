@@ -1005,6 +1005,8 @@ AppendHeaderName
 uint8_t
 *
 aRetBuf
+int
+aBufferSize
 const
 char
 *
@@ -1019,6 +1021,9 @@ AppendHeaderBody
 uint8_t
 *
 aRetBuf
+int
+aBufferSize
+const
 uint8_t
 *
 aData
