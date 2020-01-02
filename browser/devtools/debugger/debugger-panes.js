@@ -10323,6 +10323,7 @@ _ellipsis
 .
 cloneNode
 (
+true
 )
 )
 ;
