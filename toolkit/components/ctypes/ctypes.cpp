@@ -169,7 +169,7 @@ charset
 )
 ;
 return
-NULL
+nullptr
 ;
 }
 char
@@ -201,7 +201,7 @@ if
 result
 )
 return
-NULL
+nullptr
 ;
 memcpy
 (
@@ -648,7 +648,7 @@ kCTypesCIDs
 &
 kJSCTYPES_CID
 false
-NULL
+nullptr
 mozilla
 :
 :
@@ -658,7 +658,7 @@ ctypes
 ModuleConstructor
 }
 {
-NULL
+nullptr
 }
 }
 ;
@@ -682,7 +682,7 @@ JSCTYPES_CONTRACTID
 kJSCTYPES_CID
 }
 {
-NULL
+nullptr
 }
 }
 ;

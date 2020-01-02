@@ -389,7 +389,7 @@ false
 NS_IMPL_CLASSINFO
 (
 nsCommandLine
-NULL
+nullptr
 0
 NS_COMMANDLINE_CID
 )
@@ -1111,7 +1111,7 @@ newurl
 =
 CFURLCreateFromFileSystemRepresentationRelativeToBase
 (
-NULL
+nullptr
 (
 const
 UInt8
@@ -3003,11 +3003,11 @@ kCommandLineCIDs
 &
 kNS_COMMANDLINE_CID
 false
-NULL
+nullptr
 nsCommandLineConstructor
 }
 {
-NULL
+nullptr
 }
 }
 ;
@@ -3043,7 +3043,7 @@ line
 kNS_COMMANDLINE_CID
 }
 {
-NULL
+nullptr
 }
 }
 ;

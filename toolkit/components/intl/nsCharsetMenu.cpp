@@ -2119,7 +2119,7 @@ nsCharsetMenu
 :
 mInner
 =
-NULL
+nullptr
 ;
 nsIRDFResource
 *
@@ -2128,7 +2128,7 @@ nsCharsetMenu
 :
 kNC_BrowserAutodetMenuRoot
 =
-NULL
+nullptr
 ;
 nsIRDFResource
 *
@@ -2137,7 +2137,7 @@ nsCharsetMenu
 :
 kNC_BrowserCharsetMenuRoot
 =
-NULL
+nullptr
 ;
 nsIRDFResource
 *
@@ -2146,7 +2146,7 @@ nsCharsetMenu
 :
 kNC_BrowserMoreCharsetMenuRoot
 =
-NULL
+nullptr
 ;
 nsIRDFResource
 *
@@ -2155,7 +2155,7 @@ nsCharsetMenu
 :
 kNC_BrowserMore1CharsetMenuRoot
 =
-NULL
+nullptr
 ;
 nsIRDFResource
 *
@@ -2164,7 +2164,7 @@ nsCharsetMenu
 :
 kNC_BrowserMore2CharsetMenuRoot
 =
-NULL
+nullptr
 ;
 nsIRDFResource
 *
@@ -2173,7 +2173,7 @@ nsCharsetMenu
 :
 kNC_BrowserMore3CharsetMenuRoot
 =
-NULL
+nullptr
 ;
 nsIRDFResource
 *
@@ -2182,7 +2182,7 @@ nsCharsetMenu
 :
 kNC_BrowserMore4CharsetMenuRoot
 =
-NULL
+nullptr
 ;
 nsIRDFResource
 *
@@ -2191,7 +2191,7 @@ nsCharsetMenu
 :
 kNC_BrowserMore5CharsetMenuRoot
 =
-NULL
+nullptr
 ;
 nsIRDFResource
 *
@@ -2200,7 +2200,7 @@ nsCharsetMenu
 :
 kNC_MaileditCharsetMenuRoot
 =
-NULL
+nullptr
 ;
 nsIRDFResource
 *
@@ -2209,7 +2209,7 @@ nsCharsetMenu
 :
 kNC_MailviewCharsetMenuRoot
 =
-NULL
+nullptr
 ;
 nsIRDFResource
 *
@@ -2218,7 +2218,7 @@ nsCharsetMenu
 :
 kNC_ComposerCharsetMenuRoot
 =
-NULL
+nullptr
 ;
 nsIRDFResource
 *
@@ -2227,7 +2227,7 @@ nsCharsetMenu
 :
 kNC_DecodersRoot
 =
-NULL
+nullptr
 ;
 nsIRDFResource
 *
@@ -2236,7 +2236,7 @@ nsCharsetMenu
 :
 kNC_EncodersRoot
 =
-NULL
+nullptr
 ;
 nsIRDFResource
 *
@@ -2245,7 +2245,7 @@ nsCharsetMenu
 :
 kNC_Name
 =
-NULL
+nullptr
 ;
 nsIRDFResource
 *
@@ -2254,7 +2254,7 @@ nsCharsetMenu
 :
 kNC_CharsetDetector
 =
-NULL
+nullptr
 ;
 nsIRDFResource
 *
@@ -2263,7 +2263,7 @@ nsCharsetMenu
 :
 kNC_BookmarkSeparator
 =
-NULL
+nullptr
 ;
 nsIRDFResource
 *
@@ -2272,7 +2272,7 @@ nsCharsetMenu
 :
 kRDF_type
 =
-NULL
+nullptr
 ;
 nsCharsetMenu
 :
@@ -3051,11 +3051,11 @@ res
 =
 AddFromPrefsToMenu
 (
-NULL
+nullptr
 container
 kMaileditPrefKey
 encs
-NULL
+nullptr
 )
 ;
 NS_ASSERTION
@@ -3517,7 +3517,7 @@ nsIRDFContainerUtils
 *
 rdfUtil
 =
-NULL
+nullptr
 ;
 res
 =
@@ -3547,7 +3547,7 @@ MakeSeq
 (
 mInner
 kNC_BrowserAutodetMenuRoot
-NULL
+nullptr
 )
 ;
 if
@@ -3569,7 +3569,7 @@ MakeSeq
 (
 mInner
 kNC_BrowserCharsetMenuRoot
-NULL
+nullptr
 )
 ;
 if
@@ -3591,7 +3591,7 @@ MakeSeq
 (
 mInner
 kNC_BrowserMoreCharsetMenuRoot
-NULL
+nullptr
 )
 ;
 if
@@ -3613,7 +3613,7 @@ MakeSeq
 (
 mInner
 kNC_BrowserMore1CharsetMenuRoot
-NULL
+nullptr
 )
 ;
 if
@@ -3635,7 +3635,7 @@ MakeSeq
 (
 mInner
 kNC_BrowserMore2CharsetMenuRoot
-NULL
+nullptr
 )
 ;
 if
@@ -3657,7 +3657,7 @@ MakeSeq
 (
 mInner
 kNC_BrowserMore3CharsetMenuRoot
-NULL
+nullptr
 )
 ;
 if
@@ -3679,7 +3679,7 @@ MakeSeq
 (
 mInner
 kNC_BrowserMore4CharsetMenuRoot
-NULL
+nullptr
 )
 ;
 if
@@ -3701,7 +3701,7 @@ MakeSeq
 (
 mInner
 kNC_BrowserMore5CharsetMenuRoot
-NULL
+nullptr
 )
 ;
 if
@@ -3723,7 +3723,7 @@ MakeSeq
 (
 mInner
 kNC_MaileditCharsetMenuRoot
-NULL
+nullptr
 )
 ;
 if
@@ -3745,7 +3745,7 @@ MakeSeq
 (
 mInner
 kNC_MailviewCharsetMenuRoot
-NULL
+nullptr
 )
 ;
 if
@@ -3767,7 +3767,7 @@ MakeSeq
 (
 mInner
 kNC_ComposerCharsetMenuRoot
-NULL
+nullptr
 )
 ;
 if
@@ -3789,7 +3789,7 @@ MakeSeq
 (
 mInner
 kNC_DecodersRoot
-NULL
+nullptr
 )
 ;
 if
@@ -3811,7 +3811,7 @@ MakeSeq
 (
 mInner
 kNC_EncodersRoot
-NULL
+nullptr
 )
 ;
 if
@@ -4009,15 +4009,15 @@ mCharsetMenuObserver
 }
 mRDFService
 =
-NULL
+nullptr
 ;
 mCCManager
 =
-NULL
+nullptr
 ;
 mPrefs
 =
-NULL
+nullptr
 ;
 return
 res
@@ -4324,11 +4324,11 @@ res
 =
 AddFromPrefsToMenu
 (
-NULL
+nullptr
 container
 kMaileditPrefKey
 maileditEncoderList
-NULL
+nullptr
 )
 ;
 NS_ASSERTION
@@ -5412,7 +5412,7 @@ AddMenuItemArrayToContainer
 container
 &
 moreMenu
-NULL
+nullptr
 )
 ;
 if
@@ -5590,11 +5590,11 @@ res
 ;
 AddFromNolocPrefsToMenu
 (
-NULL
+nullptr
 container1
 key1
 aDecs
-NULL
+nullptr
 )
 ;
 res
@@ -5621,11 +5621,11 @@ res
 ;
 AddFromNolocPrefsToMenu
 (
-NULL
+nullptr
 container2
 key2
 aDecs
-NULL
+nullptr
 )
 ;
 res
@@ -5652,11 +5652,11 @@ res
 ;
 AddFromNolocPrefsToMenu
 (
-NULL
+nullptr
 container3
 key3
 aDecs
-NULL
+nullptr
 )
 ;
 res
@@ -5683,11 +5683,11 @@ res
 ;
 AddFromNolocPrefsToMenu
 (
-NULL
+nullptr
 container4
 key4
 aDecs
-NULL
+nullptr
 )
 ;
 res
@@ -5714,11 +5714,11 @@ res
 ;
 AddFromNolocPrefsToMenu
 (
-NULL
+nullptr
 container5
 key5
 aDecs
-NULL
+nullptr
 )
 ;
 return
@@ -5759,19 +5759,19 @@ nsMenuEntry
 *
 item
 =
-NULL
+nullptr
 ;
 if
 (
 aResult
 !
 =
-NULL
+nullptr
 )
 *
 aResult
 =
-NULL
+nullptr
 ;
 item
 =
@@ -5785,7 +5785,7 @@ if
 item
 =
 =
-NULL
+nullptr
 )
 {
 res
@@ -5845,7 +5845,7 @@ if
 aArray
 !
 =
-NULL
+nullptr
 )
 {
 if
@@ -5883,7 +5883,7 @@ if
 aResult
 !
 =
-NULL
+nullptr
 )
 *
 aResult
@@ -5896,7 +5896,7 @@ if
 aArray
 !
 =
-NULL
+nullptr
 )
 |
 |
@@ -5904,12 +5904,12 @@ NULL
 aResult
 !
 =
-NULL
+nullptr
 )
 )
 item
 =
-NULL
+nullptr
 ;
 done
 :
@@ -5918,7 +5918,7 @@ if
 item
 !
 =
-NULL
+nullptr
 )
 delete
 item
@@ -5992,7 +5992,7 @@ AddCharsetToItemArray
 &
 aArray
 str
-NULL
+nullptr
 -
 1
 )
@@ -6054,7 +6054,7 @@ if
 aIDPrefix
 !
 =
-NULL
+nullptr
 )
 id
 .
@@ -6197,7 +6197,7 @@ if
 aType
 !
 =
-NULL
+nullptr
 )
 {
 if
@@ -6409,7 +6409,7 @@ if
 item
 =
 =
-NULL
+nullptr
 )
 return
 NS_ERROR_UNEXPECTED
@@ -6421,7 +6421,7 @@ AddMenuItemToContainer
 aContainer
 item
 aType
-NULL
+nullptr
 -
 1
 )
@@ -6480,7 +6480,7 @@ nsMenuEntry
 *
 item
 =
-NULL
+nullptr
 ;
 res
 =
@@ -6509,7 +6509,7 @@ AddMenuItemToContainer
 (
 aContainer
 item
-NULL
+nullptr
 aIDPrefix
 aPlace
 +
@@ -6531,11 +6531,11 @@ if
 aArray
 !
 =
-NULL
+nullptr
 )
 item
 =
-NULL
+nullptr
 ;
 done
 :
@@ -6544,7 +6544,7 @@ if
 item
 !
 =
-NULL
+nullptr
 )
 delete
 item
@@ -6714,7 +6714,7 @@ char
 *
 value
 =
-NULL
+nullptr
 ;
 res
 =
@@ -6743,7 +6743,7 @@ if
 value
 !
 =
-NULL
+nullptr
 )
 {
 res
@@ -7066,7 +7066,7 @@ aContainer
 &
 item
 kNC_BookmarkSeparator
-NULL
+nullptr
 -
 1
 )
@@ -7114,7 +7114,7 @@ FindMenuItemInArray
 (
 aArray
 aCharset
-NULL
+nullptr
 )
 ;
 if
@@ -7290,7 +7290,7 @@ if
 item
 !
 =
-NULL
+nullptr
 )
 {
 cache
@@ -7605,7 +7605,7 @@ if
 item
 !
 =
-NULL
+nullptr
 )
 {
 res
@@ -7614,7 +7614,7 @@ AddMenuItemToContainer
 (
 aContainer
 item
-NULL
+nullptr
 "
 charset
 .
@@ -7704,7 +7704,7 @@ if
 item
 !
 =
-NULL
+nullptr
 )
 {
 res
@@ -7713,7 +7713,7 @@ AddMenuItemToContainer
 (
 aContainer
 item
-NULL
+nullptr
 "
 charset
 .
@@ -7987,7 +7987,7 @@ if
 item
 !
 =
-NULL
+nullptr
 )
 {
 delete
@@ -8081,7 +8081,7 @@ if
 aResult
 !
 =
-NULL
+nullptr
 )
 *
 aResult
@@ -8098,12 +8098,12 @@ if
 aResult
 !
 =
-NULL
+nullptr
 )
 *
 aResult
 =
-NULL
+nullptr
 ;
 return
 -

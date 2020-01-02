@@ -48,14 +48,14 @@ int
 *
 gFinalizerTestResources
 =
-NULL
+nullptr
 ;
 char
 *
 *
 gFinalizerTestNames
 =
-NULL
+nullptr
 ;
 size_t
 gFinalizerTestSize
@@ -116,7 +116,7 @@ gFinalizerTestNames
 i
 ]
 =
-NULL
+nullptr
 ;
 }
 }
@@ -602,7 +602,7 @@ gFinalizerTestResources
 1
 ;
 return
-NULL
+nullptr
 ;
 }
 void
@@ -618,7 +618,7 @@ if
 i
 !
 =
-NULL
+nullptr
 )
 {
 MOZ_CRASH
@@ -973,7 +973,7 @@ test_finalizer_rel_null_function
 )
 {
 return
-NULL
+nullptr
 ;
 }
 void

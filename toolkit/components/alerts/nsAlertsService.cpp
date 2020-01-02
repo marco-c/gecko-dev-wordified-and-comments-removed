@@ -413,7 +413,7 @@ aAlertListener
 >
 Observe
 (
-NULL
+nullptr
 "
 alertfinished
 "
