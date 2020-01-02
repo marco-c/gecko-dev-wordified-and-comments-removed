@@ -3985,12 +3985,6 @@ Sprint
 sp
 "
 "
-parser
-.
-stackDepthAtPC
-(
-next
-)
 )
 ;
 }
