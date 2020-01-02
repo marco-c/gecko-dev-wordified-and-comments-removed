@@ -144,7 +144,7 @@ final
 int
 CHANGE_WAIT_MS
 =
-5000
+10000
 ;
 private
 static
