@@ -13857,7 +13857,7 @@ pcFetched
 count
 ;
 return
-NS_OK
+S_OK
 ;
 }
 PR_LOG
