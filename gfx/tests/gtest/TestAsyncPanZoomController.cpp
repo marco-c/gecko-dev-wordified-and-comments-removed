@@ -6617,6 +6617,7 @@ manager
 GetTargetAPZC
 (
 aPoint
+nullptr
 )
 ;
 if

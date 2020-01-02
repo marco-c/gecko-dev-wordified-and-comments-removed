@@ -4510,7 +4510,7 @@ BuildViewMap
 )
 ;
 }
-void
+nsEventStatus
 RenderFrameParent
 :
 :
@@ -4531,6 +4531,7 @@ GetApzcTreeManager
 )
 )
 {
+return
 GetApzcTreeManager
 (
 )
@@ -4543,6 +4544,9 @@ aOutTargetGuid
 )
 ;
 }
+return
+nsEventStatus_eIgnore
+;
 }
 void
 RenderFrameParent

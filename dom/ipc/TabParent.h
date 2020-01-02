@@ -1703,7 +1703,7 @@ UseAsyncPanZoom
 (
 )
 ;
-void
+nsEventStatus
 MaybeForwardEventToRenderFrame
 (
 WidgetInputEvent

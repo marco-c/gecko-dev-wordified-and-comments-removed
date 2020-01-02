@@ -449,6 +449,9 @@ const
 ScreenPoint
 &
 aPoint
+bool
+*
+aOutInOverscrolledApzc
 )
 ;
 void
@@ -505,6 +508,9 @@ const
 gfxPoint
 &
 aHitTestPoint
+bool
+*
+aOutInOverscrolledApzc
 )
 ;
 already_AddRefed
@@ -542,6 +548,9 @@ const
 WidgetTouchEvent
 &
 aEvent
+bool
+*
+aOutInOverscrolledApzc
 )
 ;
 nsEventStatus
@@ -641,6 +650,9 @@ nsRefPtr
 AsyncPanZoomController
 >
 mApzcForInputBlock
+;
+bool
+mInOverscrolledApzc
 ;
 uint32_t
 mTouchCount

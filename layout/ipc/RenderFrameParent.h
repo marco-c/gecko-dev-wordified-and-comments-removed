@@ -373,7 +373,7 @@ aColor
 ;
 }
 ;
-void
+nsEventStatus
 NotifyInputEvent
 (
 WidgetInputEvent
