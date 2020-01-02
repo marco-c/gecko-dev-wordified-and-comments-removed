@@ -2606,6 +2606,10 @@ SwitchState
 aState
 )
 {
+AssertMainThread
+(
+)
+;
 PROXY_IF_SANDBOXED
 (
 NotifySwitchStateFromInputDevice
