@@ -152,6 +152,13 @@ nsFrameState
 h
 "
 #
+include
+"
+CaretAssociationHint
+.
+h
+"
+#
 ifdef
 ACCESSIBILITY
 #
@@ -3639,8 +3646,11 @@ secondaryOffset
 )
 ;
 }
-bool
-associateWithNext
+mozilla
+:
+:
+CaretAssociationHint
+associate
 ;
 }
 ;

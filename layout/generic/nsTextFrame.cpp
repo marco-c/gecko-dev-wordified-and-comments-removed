@@ -31131,7 +31131,7 @@ selectedOffset
 ;
 offsets
 .
-associateWithNext
+associate
 =
 mContentOffset
 =
@@ -31139,6 +31139,10 @@ mContentOffset
 offsets
 .
 offset
+?
+CARET_ASSOCIATE_AFTER
+:
+CARET_ASSOCIATE_BEFORE
 ;
 return
 offsets

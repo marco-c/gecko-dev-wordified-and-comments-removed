@@ -136,6 +136,11 @@ ActiveLayerTracker
 h
 '
 '
+CaretAssociationHint
+.
+h
+'
+'
 DisplayItemClip
 .
 h
@@ -307,6 +312,11 @@ h
 '
 '
 UnitTransforms
+.
+h
+'
+'
+WordMovementType
 .
 h
 '

@@ -247,6 +247,13 @@ h
 #
 include
 "
+nsISelectionListener
+.
+h
+"
+#
+include
+"
 nsJSUtils
 .
 h

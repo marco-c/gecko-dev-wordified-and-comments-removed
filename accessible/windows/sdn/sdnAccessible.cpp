@@ -80,6 +80,13 @@ h
 #
 include
 "
+nsRange
+.
+h
+"
+#
+include
+"
 nsAutoPtr
 .
 h

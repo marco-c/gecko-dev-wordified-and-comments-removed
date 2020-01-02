@@ -28,13 +28,6 @@ h
 #
 include
 "
-nsFrameSelection
-.
-h
-"
-#
-include
-"
 nsITimer
 .
 h

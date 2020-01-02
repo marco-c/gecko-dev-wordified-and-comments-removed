@@ -343,6 +343,13 @@ h
 #
 include
 "
+nsFrameSelection
+.
+h
+"
+#
+include
+"
 nsContentCID
 .
 h
