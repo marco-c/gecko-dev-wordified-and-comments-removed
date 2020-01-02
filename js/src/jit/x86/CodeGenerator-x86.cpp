@@ -1862,7 +1862,7 @@ break
 ;
 default
 :
-MOZ_CRASH
+MOZ_ASSUME_UNREACHABLE
 (
 "
 unexpected
@@ -2639,7 +2639,7 @@ break
 ;
 default
 :
-MOZ_CRASH
+MOZ_ASSUME_UNREACHABLE
 (
 "
 unexpected
@@ -3664,7 +3664,7 @@ AddCacheState
 addState
 )
 {
-MOZ_CRASH
+MOZ_ASSUME_UNREACHABLE
 (
 "
 x86
