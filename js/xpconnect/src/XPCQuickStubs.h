@@ -1893,9 +1893,13 @@ obj
 return
 false
 ;
-jsval
+JS
+:
+:
+RootedValue
 v
-=
+(
+cx
 js
 :
 :
@@ -1903,6 +1907,7 @@ GetFunctionNativeReserved
 (
 callee
 0
+)
 )
 ;
 JSObject
