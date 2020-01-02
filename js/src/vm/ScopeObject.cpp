@@ -3006,6 +3006,7 @@ nullptr
 with_GetGeneric
 with_GetProperty
 with_GetElement
+nullptr
 with_GetSpecial
 with_SetGeneric
 with_SetProperty
@@ -3016,7 +3017,6 @@ with_SetGenericAttributes
 with_DeleteProperty
 with_DeleteElement
 with_DeleteSpecial
-nullptr
 nullptr
 nullptr
 with_Enumerate
