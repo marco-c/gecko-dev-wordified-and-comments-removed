@@ -688,16 +688,6 @@ aStream
 )
 MOZ_OVERRIDE
 ;
-NS_IMETHOD
-GetThebesSurface
-(
-gfxASurface
-*
-*
-surface
-)
-MOZ_OVERRIDE
-;
 mozilla
 :
 :
