@@ -218,6 +218,8 @@ sourcestamp
 (
 MOZ_SOURCE_STAMP
 )
+ifdef
+MOZILLA_OFFICIAL
 source_repo
 :
 =
@@ -258,6 +260,7 @@ sourcerepo
 (
 source_repo
 )
+endif
 endif
 endif
 #

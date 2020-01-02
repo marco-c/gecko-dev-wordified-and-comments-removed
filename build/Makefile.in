@@ -228,6 +228,8 @@ MOZ_SOURCE_STAMP
 )
 '
 endif
+ifdef
+MOZILLA_OFFICIAL
 source_repo
 ?
 =
@@ -262,6 +264,7 @@ DMOZ_SOURCE_REPO
 source_repo
 )
 '
+endif
 endif
 endif
 #

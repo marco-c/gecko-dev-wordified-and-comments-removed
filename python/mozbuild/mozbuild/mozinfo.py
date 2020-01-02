@@ -667,6 +667,25 @@ MOZ_WAVE
 )
 )
     
+d
+[
+'
+official
+'
+]
+=
+bool
+(
+substs
+.
+get
+(
+'
+MOZILLA_OFFICIAL
+'
+)
+)
+    
 return
 d
 def
