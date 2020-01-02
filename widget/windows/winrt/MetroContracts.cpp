@@ -326,6 +326,9 @@ unsigned
 int
 length
 ;
+WinUtils
+:
+:
 LogW
 (
 L
@@ -798,6 +801,9 @@ BeginReading
 )
 )
 ;
+WinUtils
+:
+:
 LogW
 (
 L
@@ -957,6 +963,9 @@ ActivationKind
 ActivationKind_Protocol
 )
 {
+WinUtils
+:
+:
 Log
 (
 "
@@ -1085,6 +1094,9 @@ ActivationKind
 ActivationKind_Search
 )
 {
+WinUtils
+:
+:
 Log
 (
 "
@@ -1129,6 +1141,9 @@ ActivationKind
 ActivationKind_File
 )
 {
+WinUtils
+:
+:
 Log
 (
 "
@@ -1173,6 +1188,9 @@ ActivationKind
 ActivationKind_Launch
 )
 {
+WinUtils
+:
+:
 Log
 (
 "
@@ -1621,6 +1639,9 @@ unsigned
 int
 length
 ;
+WinUtils
+:
+:
 LogW
 (
 L
@@ -1996,6 +2017,9 @@ Get
 )
 )
 {
+WinUtils
+:
+:
 Log
 (
 "

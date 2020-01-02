@@ -1294,6 +1294,9 @@ if
 sIsDispatching
 )
 {
+WinUtils
+:
+:
 Log
 (
 "
@@ -1813,6 +1816,9 @@ mPowerRequestCount
 0
 )
 {
+WinUtils
+:
+:
 Log
 (
 "
@@ -1924,6 +1930,9 @@ mPowerRequestCount
 mPowerRequest
 )
 {
+WinUtils
+:
+:
 Log
 (
 "
