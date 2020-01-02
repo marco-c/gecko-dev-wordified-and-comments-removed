@@ -165,9 +165,8 @@ kUseMapRole
 eNoValue
 ePressAction
 eNoLiveAttr
-kGenericAccType
+eButton
 kNoReqStates
-eARIAPressed
 }
 {
 &

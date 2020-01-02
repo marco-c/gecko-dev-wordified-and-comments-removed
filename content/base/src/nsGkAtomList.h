@@ -4025,6 +4025,13 @@ minwidth
 )
 GK_ATOM
 (
+_mixed
+"
+mixed
+"
+)
+GK_ATOM
+(
 mod
 "
 mod
