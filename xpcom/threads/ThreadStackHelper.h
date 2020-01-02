@@ -118,7 +118,8 @@ mPseudoStack
 #
 endif
 Stack
-mStackBuffer
+*
+mStackToFill
 ;
 size_t
 mMaxStackSize
