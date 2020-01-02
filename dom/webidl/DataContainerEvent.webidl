@@ -94,6 +94,9 @@ MPL
 interface
 nsIVariant
 ;
+[
+ChromeOnly
+]
 interface
 DataContainerEvent
 :
