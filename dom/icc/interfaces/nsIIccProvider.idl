@@ -64,9 +64,6 @@ nsISupports
 idl
 "
 interface
-nsIDOMContact
-;
-interface
 nsIDOMDOMRequest
 ;
 interface
@@ -386,7 +383,7 @@ in
 DOMString
 contactType
 in
-nsISupports
+jsval
 contact
 in
 DOMString
