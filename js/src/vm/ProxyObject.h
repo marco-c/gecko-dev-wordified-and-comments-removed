@@ -68,12 +68,10 @@ proto_
 JSObject
 *
 parent_
-ProxyCallable
-callable
-bool
-singleton
-=
-false
+const
+ProxyOptions
+&
+options
 )
 ;
 const
