@@ -1157,6 +1157,7 @@ StyleRule
 ;
 class
 ImportantRule
+MOZ_FINAL
 :
 public
 nsIStyleRule

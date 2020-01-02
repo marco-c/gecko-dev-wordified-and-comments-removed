@@ -115,6 +115,7 @@ nsHttpResponseHead
 ;
 class
 nsHttpTransaction
+MOZ_FINAL
 :
 public
 nsAHttpTransaction

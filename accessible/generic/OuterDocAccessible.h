@@ -19,6 +19,7 @@ a11y
 {
 class
 OuterDocAccessible
+MOZ_FINAL
 :
 public
 AccessibleWrap

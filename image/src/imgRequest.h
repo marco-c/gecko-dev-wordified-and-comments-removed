@@ -133,6 +133,7 @@ ImageURL
 }
 class
 imgRequest
+MOZ_FINAL
 :
 public
 nsIStreamListener

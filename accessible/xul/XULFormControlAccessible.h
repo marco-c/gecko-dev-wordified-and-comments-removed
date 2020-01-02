@@ -314,6 +314,7 @@ aToggleOpen
 ;
 class
 XULGroupboxAccessible
+MOZ_FINAL
 :
 public
 AccessibleWrap

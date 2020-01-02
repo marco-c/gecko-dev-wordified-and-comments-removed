@@ -46,6 +46,7 @@ DIR_HORIZONTAL
 1
 class
 inFlasher
+MOZ_FINAL
 :
 public
 inIFlasher

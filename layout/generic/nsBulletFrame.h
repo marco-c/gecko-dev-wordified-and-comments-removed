@@ -38,6 +38,7 @@ nsBulletFrame
 ;
 class
 nsBulletListener
+MOZ_FINAL
 :
 public
 imgINotificationObserver
@@ -79,6 +80,7 @@ mFrame
 ;
 class
 nsBulletFrame
+MOZ_FINAL
 :
 public
 nsFrame

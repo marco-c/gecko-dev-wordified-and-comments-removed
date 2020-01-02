@@ -487,6 +487,7 @@ nullptr
 }
 class
 nsXPCComponents_Interfaces
+MOZ_FINAL
 :
 public
 nsIXPCComponents_Interfaces
@@ -1437,6 +1438,7 @@ NS_OK
 }
 class
 nsXPCComponents_InterfacesByID
+MOZ_FINAL
 :
 public
 nsIXPCComponents_InterfacesByID
@@ -2395,6 +2397,7 @@ NS_OK
 }
 class
 nsXPCComponents_Classes
+MOZ_FINAL
 :
 public
 nsIXPCComponents_Classes
@@ -3364,6 +3367,7 @@ NS_OK
 }
 class
 nsXPCComponents_ClassesByID
+MOZ_FINAL
 :
 public
 nsIXPCComponents_ClassesByID
@@ -4432,6 +4436,7 @@ NS_OK
 }
 class
 nsXPCComponents_Results
+MOZ_FINAL
 :
 public
 nsIXPCComponents_Results
@@ -5271,6 +5276,7 @@ NS_OK
 }
 class
 nsXPCComponents_ID
+MOZ_FINAL
 :
 public
 nsIXPCComponents_ID
@@ -6056,6 +6062,7 @@ NS_OK
 }
 class
 nsXPCComponents_Exception
+MOZ_FINAL
 :
 public
 nsIXPCComponents_Exception
@@ -8523,6 +8530,7 @@ NS_OK
 }
 class
 nsXPCComponents_Constructor
+MOZ_FINAL
 :
 public
 nsIXPCComponents_Constructor
@@ -9935,6 +9943,7 @@ NS_OK
 }
 class
 nsXPCComponents_Utils
+MOZ_FINAL
 :
 public
 nsIXPCComponents_Utils

@@ -392,6 +392,7 @@ eCharsetReloadState
 ;
 class
 nsDocShell
+MOZ_FINAL
 :
 public
 nsDocLoader

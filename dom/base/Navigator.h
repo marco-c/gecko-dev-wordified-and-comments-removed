@@ -276,6 +276,7 @@ endif
 }
 class
 Navigator
+MOZ_FINAL
 :
 public
 nsIDOMNavigator

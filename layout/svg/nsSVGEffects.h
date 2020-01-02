@@ -427,6 +427,7 @@ mFramePresShell
 ;
 class
 nsSVGFilterReference
+MOZ_FINAL
 :
 public
 nsSVGIDRenderingObserver

@@ -223,6 +223,7 @@ index
 ;
 class
 nsSplitterFrameInner
+MOZ_FINAL
 :
 public
 nsIDOMEventListener

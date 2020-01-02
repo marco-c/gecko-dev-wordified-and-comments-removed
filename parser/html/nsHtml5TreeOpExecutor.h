@@ -145,6 +145,7 @@ nsIDocument
 ;
 class
 nsHtml5TreeOpExecutor
+MOZ_FINAL
 :
 public
 nsHtml5DocumentBuilder

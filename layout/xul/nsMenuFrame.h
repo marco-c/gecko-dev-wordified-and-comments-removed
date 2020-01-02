@@ -166,6 +166,7 @@ mFrame
 ;
 class
 nsMenuFrame
+MOZ_FINAL
 :
 public
 nsBoxFrame

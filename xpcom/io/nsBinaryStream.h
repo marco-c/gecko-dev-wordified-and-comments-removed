@@ -90,6 +90,7 @@ binaryoutputstream
 "
 class
 nsBinaryOutputStream
+MOZ_FINAL
 :
 public
 nsIObjectOutputStream
@@ -192,6 +193,7 @@ binaryinputstream
 "
 class
 nsBinaryInputStream
+MOZ_FINAL
 :
 public
 nsIObjectInputStream

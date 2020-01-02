@@ -242,6 +242,7 @@ mAllUppercase
 ;
 class
 nsTransformedTextRun
+MOZ_FINAL
 :
 public
 gfxTextRun

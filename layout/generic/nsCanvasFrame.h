@@ -58,6 +58,7 @@ nsRenderingContext
 ;
 class
 nsCanvasFrame
+MOZ_FINAL
 :
 public
 nsContainerFrame

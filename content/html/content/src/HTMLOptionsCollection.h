@@ -107,6 +107,7 @@ HTMLSelectElement
 ;
 class
 HTMLOptionsCollection
+MOZ_FINAL
 :
 public
 nsIHTMLCollection

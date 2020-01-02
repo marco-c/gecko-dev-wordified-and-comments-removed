@@ -78,6 +78,7 @@ aContext
 ;
 class
 nsSliderMediator
+MOZ_FINAL
 :
 public
 nsIDOMEventListener

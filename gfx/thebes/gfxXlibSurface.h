@@ -55,6 +55,7 @@ h
 "
 class
 gfxXlibSurface
+MOZ_FINAL
 :
 public
 gfxASurface

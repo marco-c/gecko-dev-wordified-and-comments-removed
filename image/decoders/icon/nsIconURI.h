@@ -51,6 +51,7 @@ NS_MOZICONURI_CID
 }
 class
 nsMozIconURI
+MOZ_FINAL
 :
 public
 nsIMozIconURI

@@ -158,6 +158,7 @@ endif
 endif
 class
 nsPluginInstanceOwner
+MOZ_FINAL
 :
 public
 nsIPluginInstanceOwner

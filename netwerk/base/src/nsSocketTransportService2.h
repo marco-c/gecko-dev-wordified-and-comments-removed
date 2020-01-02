@@ -196,6 +196,7 @@ endif
 }
 class
 nsSocketTransportService
+MOZ_FINAL
 :
 public
 nsPISocketTransportService

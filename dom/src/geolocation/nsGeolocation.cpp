@@ -231,6 +231,7 @@ dom
 ;
 class
 nsGeolocationRequest
+MOZ_FINAL
 :
 public
 nsIContentPermissionRequest

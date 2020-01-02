@@ -138,6 +138,7 @@ net
 {
 class
 nsHttpChannel
+MOZ_FINAL
 :
 public
 HttpBaseChannel

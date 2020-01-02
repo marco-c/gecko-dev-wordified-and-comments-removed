@@ -157,6 +157,7 @@ mCSP
 ;
 class
 nsPrincipal
+MOZ_FINAL
 :
 public
 nsBasePrincipal

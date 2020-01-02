@@ -110,6 +110,7 @@ nsIASN1Sequence
 ;
 class
 nsNSSCertificate
+MOZ_FINAL
 :
 public
 nsIX509Cert

@@ -79,6 +79,7 @@ SVGMPathElement
 }
 class
 SVGMotionSMILAnimationFunction
+MOZ_FINAL
 :
 public
 nsSMILAnimationFunction

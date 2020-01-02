@@ -135,6 +135,7 @@ ReadbackProcessor
 ;
 class
 BasicLayerManager
+MOZ_FINAL
 :
 public
 LayerManager

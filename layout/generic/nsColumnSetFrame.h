@@ -23,6 +23,7 @@ h
 "
 class
 nsColumnSetFrame
+MOZ_FINAL
 :
 public
 nsContainerFrame

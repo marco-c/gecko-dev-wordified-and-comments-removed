@@ -918,6 +918,7 @@ NS_TABLE_CELL_HAS_PCT_OVER_HEIGHT
 }
 class
 nsBCTableCellFrame
+MOZ_FINAL
 :
 public
 nsTableCellFrame

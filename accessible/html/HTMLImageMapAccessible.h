@@ -33,6 +33,7 @@ a11y
 {
 class
 HTMLImageMapAccessible
+MOZ_FINAL
 :
 public
 ImageAccessibleWrap
@@ -124,6 +125,7 @@ CacheChildren
 ;
 class
 HTMLAreaAccessible
+MOZ_FINAL
 :
 public
 HTMLLinkAccessible

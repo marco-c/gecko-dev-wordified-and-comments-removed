@@ -52,6 +52,7 @@ systemprincipal
 "
 class
 nsSystemPrincipal
+MOZ_FINAL
 :
 public
 nsJSPrincipals

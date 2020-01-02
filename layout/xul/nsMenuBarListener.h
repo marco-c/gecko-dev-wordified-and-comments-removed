@@ -45,6 +45,7 @@ nsIDOMKeyEvent
 ;
 class
 nsMenuBarListener
+MOZ_FINAL
 :
 public
 nsIDOMEventListener

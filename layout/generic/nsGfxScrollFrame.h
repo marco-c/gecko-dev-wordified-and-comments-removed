@@ -2913,6 +2913,7 @@ mHelper
 ;
 class
 nsXULScrollFrame
+MOZ_FINAL
 :
 public
 nsBoxFrame

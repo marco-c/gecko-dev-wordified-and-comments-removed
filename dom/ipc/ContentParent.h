@@ -246,6 +246,7 @@ ContentBridgeParent
 ;
 class
 ContentParent
+MOZ_FINAL
 :
 public
 PContentParent

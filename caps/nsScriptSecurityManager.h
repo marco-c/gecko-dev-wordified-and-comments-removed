@@ -105,6 +105,7 @@ NS_SCRIPTSECURITYMANAGER_CID
 }
 class
 nsScriptSecurityManager
+MOZ_FINAL
 :
 public
 nsIScriptSecurityManager

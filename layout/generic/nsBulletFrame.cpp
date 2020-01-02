@@ -761,6 +761,7 @@ mOrdinal
 ;
 class
 nsDisplayBullet
+MOZ_FINAL
 :
 public
 nsDisplayItem

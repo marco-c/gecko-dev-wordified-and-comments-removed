@@ -66,6 +66,7 @@ SVGParseCompleteListener
 ;
 class
 VectorImage
+MOZ_FINAL
 :
 public
 ImageResource

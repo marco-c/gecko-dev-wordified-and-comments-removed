@@ -6837,6 +6837,7 @@ TYPE_CLEAR_BACKGROUND
 ;
 class
 nsDisplayBoxShadowOuter
+MOZ_FINAL
 :
 public
 nsDisplayItem

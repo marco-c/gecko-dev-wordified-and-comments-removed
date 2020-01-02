@@ -42,6 +42,7 @@ nsITimer
 ;
 class
 nsRepeatService
+MOZ_FINAL
 :
 public
 nsITimerCallback

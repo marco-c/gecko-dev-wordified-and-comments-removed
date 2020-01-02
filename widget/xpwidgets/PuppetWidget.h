@@ -98,6 +98,7 @@ AutoCacheNativeKeyCommands
 ;
 class
 PuppetWidget
+MOZ_FINAL
 :
 public
 nsBaseWidget

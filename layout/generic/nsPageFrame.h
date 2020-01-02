@@ -32,6 +32,7 @@ nsSharedPageData
 ;
 class
 nsPageFrame
+MOZ_FINAL
 :
 public
 nsContainerFrame

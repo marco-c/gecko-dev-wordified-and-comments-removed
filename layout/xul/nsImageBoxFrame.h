@@ -66,6 +66,7 @@ nsDisplayXULImage
 ;
 class
 nsImageBoxListener
+MOZ_FINAL
 :
 public
 imgINotificationObserver
@@ -110,6 +111,7 @@ mFrame
 ;
 class
 nsImageBoxFrame
+MOZ_FINAL
 :
 public
 nsLeafBoxFrame

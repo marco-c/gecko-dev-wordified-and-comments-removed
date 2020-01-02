@@ -396,6 +396,7 @@ aDidSelfCopy
 ;
 class
 ContentClientBasic
+MOZ_FINAL
 :
 public
 ContentClient

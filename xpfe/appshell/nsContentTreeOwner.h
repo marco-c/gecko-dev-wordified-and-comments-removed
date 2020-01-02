@@ -68,6 +68,7 @@ nsSiteWindow
 ;
 class
 nsContentTreeOwner
+MOZ_FINAL
 :
 public
 nsIDocShellTreeOwner

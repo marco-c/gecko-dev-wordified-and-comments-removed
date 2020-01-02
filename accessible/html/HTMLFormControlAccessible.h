@@ -263,6 +263,7 @@ MOZ_OVERRIDE
 ;
 class
 HTMLTextFieldAccessible
+MOZ_FINAL
 :
 public
 HyperTextAccessibleWrap

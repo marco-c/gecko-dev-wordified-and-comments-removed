@@ -665,6 +665,7 @@ mStrokeOpacity
 }
 class
 SVGTextFrame
+MOZ_FINAL
 :
 public
 SVGTextFrameBase

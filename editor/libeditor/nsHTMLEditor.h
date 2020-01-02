@@ -249,6 +249,7 @@ IMEState
 }
 class
 nsHTMLEditor
+MOZ_FINAL
 :
 public
 nsPlaintextEditor

@@ -305,6 +305,7 @@ dom
 ;
 class
 CSSRuleListImpl
+MOZ_FINAL
 :
 public
 CSSRuleList

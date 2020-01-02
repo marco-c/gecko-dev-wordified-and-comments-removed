@@ -567,6 +567,7 @@ nsXMLHttpRequestXPCOMifier
 ;
 class
 nsXMLHttpRequest
+MOZ_FINAL
 :
 public
 nsXHREventTarget

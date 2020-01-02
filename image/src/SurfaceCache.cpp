@@ -733,6 +733,7 @@ mSurfaces
 ;
 class
 SurfaceCacheImpl
+MOZ_FINAL
 :
 public
 nsIMemoryReporter

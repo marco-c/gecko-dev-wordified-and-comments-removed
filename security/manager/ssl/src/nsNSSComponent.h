@@ -414,6 +414,7 @@ nsCertVerificationThread
 ;
 class
 nsNSSComponent
+MOZ_FINAL
 :
 public
 nsIEntropyCollector

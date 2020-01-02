@@ -7157,6 +7157,7 @@ aInstancePtr
 }
 class
 CCGraphBuilder
+MOZ_FINAL
 :
 public
 nsCycleCollectionTraversalCallback

@@ -226,6 +226,7 @@ mItems
 ;
 class
 nsOfflineCacheDevice
+MOZ_FINAL
 :
 public
 nsCacheDevice

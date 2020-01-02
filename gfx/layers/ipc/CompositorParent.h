@@ -320,6 +320,7 @@ CompositorParent
 ;
 class
 CompositorParent
+MOZ_FINAL
 :
 public
 PCompositorParent

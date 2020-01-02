@@ -192,6 +192,7 @@ CacheEntryHandle
 ;
 class
 CacheEntry
+MOZ_FINAL
 :
 public
 nsICacheEntry

@@ -152,6 +152,7 @@ mMonitor
 ;
 class
 OggReader
+MOZ_FINAL
 :
 public
 MediaDecoderReader

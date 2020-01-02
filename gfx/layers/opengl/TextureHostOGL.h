@@ -741,6 +741,7 @@ endif
 ;
 class
 TextureImageTextureSourceOGL
+MOZ_FINAL
 :
 public
 DataTextureSource

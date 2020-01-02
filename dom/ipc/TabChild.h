@@ -943,6 +943,7 @@ mScrolling
 ;
 class
 TabChild
+MOZ_FINAL
 :
 public
 TabChildBase

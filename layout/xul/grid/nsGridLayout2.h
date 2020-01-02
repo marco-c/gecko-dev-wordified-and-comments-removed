@@ -61,6 +61,7 @@ nsGridCell
 ;
 class
 nsGridLayout2
+MOZ_FINAL
 :
 public
 nsStackLayout

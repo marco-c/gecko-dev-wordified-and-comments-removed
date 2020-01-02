@@ -91,6 +91,7 @@ ApplicationAcc
 }
 class
 nsAccessibilityService
+MOZ_FINAL
 :
 public
 mozilla

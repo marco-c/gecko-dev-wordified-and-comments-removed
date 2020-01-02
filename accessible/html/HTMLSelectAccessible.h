@@ -488,6 +488,7 @@ HTMLComboboxListAccessible
 ;
 class
 HTMLComboboxAccessible
+MOZ_FINAL
 :
 public
 AccessibleWrap

@@ -230,6 +230,7 @@ mArg
 ;
 class
 NotificationController
+MOZ_FINAL
 :
 public
 EventQueue

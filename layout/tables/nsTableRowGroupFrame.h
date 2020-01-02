@@ -141,6 +141,7 @@ MIN_ROWS_NEEDING_CURSOR
 20
 class
 nsTableRowGroupFrame
+MOZ_FINAL
 :
 public
 nsContainerFrame

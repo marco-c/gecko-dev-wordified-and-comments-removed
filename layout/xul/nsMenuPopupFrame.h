@@ -322,6 +322,7 @@ mPresContext
 ;
 class
 nsMenuPopupFrame
+MOZ_FINAL
 :
 public
 nsBoxFrame

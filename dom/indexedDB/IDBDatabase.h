@@ -183,6 +183,7 @@ ObjectStoreInfoGuts
 ;
 class
 IDBDatabase
+MOZ_FINAL
 :
 public
 IDBWrapperCache

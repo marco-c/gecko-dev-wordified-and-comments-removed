@@ -63,6 +63,7 @@ layout
 {
 class
 ScrollbarActivity
+MOZ_FINAL
 :
 public
 nsIDOMEventListener

@@ -773,6 +773,7 @@ nsDownload
 ;
 class
 nsDownload
+MOZ_FINAL
 :
 public
 nsIDownload

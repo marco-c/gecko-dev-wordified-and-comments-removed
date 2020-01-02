@@ -64,6 +64,7 @@ MemoryReport
 }
 class
 nsMemoryReporterManager
+MOZ_FINAL
 :
 public
 nsIMemoryReporterManager

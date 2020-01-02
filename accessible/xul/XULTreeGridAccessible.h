@@ -301,6 +301,7 @@ MOZ_OVERRIDE
 ;
 class
 XULTreeGridRowAccessible
+MOZ_FINAL
 :
 public
 XULTreeItemAccessibleBase

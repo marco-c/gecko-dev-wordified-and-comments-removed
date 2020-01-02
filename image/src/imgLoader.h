@@ -761,6 +761,7 @@ mSize
 ;
 class
 imgLoader
+MOZ_FINAL
 :
 public
 imgILoader

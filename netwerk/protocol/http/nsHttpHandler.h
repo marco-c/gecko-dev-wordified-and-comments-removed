@@ -134,6 +134,7 @@ nsHttpTransaction
 ;
 class
 nsHttpHandler
+MOZ_FINAL
 :
 public
 nsIHttpProtocolHandler

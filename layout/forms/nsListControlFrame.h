@@ -104,6 +104,7 @@ HTMLOptionsCollection
 }
 class
 nsListControlFrame
+MOZ_FINAL
 :
 public
 nsHTMLScrollFrame
