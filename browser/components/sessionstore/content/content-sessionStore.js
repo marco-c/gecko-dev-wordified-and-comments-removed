@@ -1394,7 +1394,7 @@ sendMessage
 =
 sync
 ?
-sendSyncMessage
+sendRpcMessage
 :
 sendAsyncMessage
 ;
