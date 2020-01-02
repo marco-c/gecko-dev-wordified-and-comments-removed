@@ -90,6 +90,9 @@ ENCTYPE_BASE64
 =
 0
 ;
+/
+/
+obsolete
 const
 unsigned
 long

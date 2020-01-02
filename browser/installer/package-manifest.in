@@ -2205,15 +2205,6 @@ components
 /
 storage
 -
-Legacy
-.
-js
-BINPATH
-/
-components
-/
-storage
--
 mozStorage
 .
 js

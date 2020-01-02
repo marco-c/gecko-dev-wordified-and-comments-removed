@@ -121,11 +121,6 @@ nsILoginManagerCrypto
 idl
 '
 '
-nsILoginManagerIEMigrationHelper
-.
-idl
-'
-'
 nsILoginManagerPrompter
 .
 idl
@@ -176,13 +171,6 @@ js
 passwordmgr
 .
 manifest
-'
-'
-storage
--
-Legacy
-.
-js
 '
 ]
 EXTRA_PP_COMPONENTS

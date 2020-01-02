@@ -79,15 +79,6 @@ Ci
 nsILoginMetaInfo
 ]
 )
-get
-wrappedJSObject
-(
-)
-{
-return
-this
-;
-}
 hostname
 :
 null

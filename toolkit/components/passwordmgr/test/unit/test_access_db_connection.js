@@ -1,10 +1,3 @@
-const
-STORAGE_TYPE
-=
-"
-mozStorage
-"
-;
 function
 run_test
 (
@@ -17,14 +10,6 @@ LoginTest
 .
 initStorage
 (
-INDIR
-"
-signons
--
-empty
-.
-txt
-"
 OUTDIR
 "
 signons

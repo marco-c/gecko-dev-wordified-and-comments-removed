@@ -1,10 +1,3 @@
-const
-STORAGE_TYPE
-=
-"
-mozStorage
-"
-;
 Components
 .
 utils
@@ -519,14 +512,6 @@ LoginTest
 .
 initStorage
 (
-INDIR
-"
-signons
--
-empty
-.
-txt
-"
 OUTDIR
 "
 signons

@@ -1,11 +1,4 @@
 const
-STORAGE_TYPE
-=
-"
-mozStorage
-"
-;
-const
 ENCTYPE_BASE64
 =
 0
@@ -1431,10 +1424,7 @@ net
 "
 ]
 [
-testuser1
 testuser2
-testuser4
-testuser5
 ]
 )
 ;
@@ -1629,10 +1619,7 @@ net
 "
 ]
 [
-testuser1
 testuser2
-testuser4
-testuser5
 testuser3
 ]
 )
@@ -1640,10 +1627,10 @@ testuser3
 encTypes
 =
 [
+ENCTYPE_BASE64
 ENCTYPE_SDR
-ENCTYPE_SDR
-ENCTYPE_SDR
-ENCTYPE_SDR
+ENCTYPE_BASE64
+ENCTYPE_BASE64
 ENCTYPE_SDR
 ]
 ;
