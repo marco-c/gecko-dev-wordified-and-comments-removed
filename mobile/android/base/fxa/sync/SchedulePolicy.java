@@ -77,7 +77,9 @@ void
 configureBackoffMillisBeforeSyncing
 (
 BackoffHandler
-backoffHandler
+rateHandler
+BackoffHandler
+backgroundHandler
 )
 ;
 public
