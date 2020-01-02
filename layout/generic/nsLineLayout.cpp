@@ -105,6 +105,13 @@ h
 "
 #
 include
+"
+nsStyleStructInlines
+.
+h
+"
+#
+include
 <
 algorithm
 >

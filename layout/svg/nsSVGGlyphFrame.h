@@ -62,6 +62,13 @@ nsTextFragment
 .
 h
 "
+#
+include
+"
+nsIContent
+.
+h
+"
 class
 CharacterIterator
 ;

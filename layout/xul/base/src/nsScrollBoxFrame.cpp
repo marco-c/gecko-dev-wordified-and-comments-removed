@@ -49,6 +49,13 @@ BasicEvents
 .
 h
 "
+#
+include
+"
+nsIContent
+.
+h
+"
 class
 nsAutoRepeatBoxFrame
 :

@@ -35,6 +35,13 @@ Likely
 .
 h
 "
+#
+include
+"
+nsIContent
+.
+h
+"
 bool
 nsCounterUseNode
 :
