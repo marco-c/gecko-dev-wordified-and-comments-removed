@@ -9,6 +9,15 @@ include
 "
 mozilla
 /
+NullPtr
+.
+h
+"
+#
+include
+"
+mozilla
+/
 TemplateLib
 .
 h
