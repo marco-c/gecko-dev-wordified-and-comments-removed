@@ -2301,6 +2301,16 @@ AsLayer
 ;
 if
 (
+!
+newRoot
+)
+{
+return
+false
+;
+}
+if
+(
 newRoot
 -
 >
