@@ -243,6 +243,7 @@ key
 ;
 }
 static
+const
 PLDHashTableOps
 PlaceholderMapOps
 =

@@ -799,6 +799,7 @@ entry
 struct
 RuleHashTableOps
 {
+const
 PLDHashTableOps
 ops
 ;
@@ -13945,6 +13946,7 @@ true
 ;
 }
 static
+const
 PLDHashTableOps
 gRulesByWeightOps
 =

@@ -86,6 +86,7 @@ delete
 mSortedHashTable
 ;
 }
+const
 PLDHashTableOps
 SpanningCellSorter
 :

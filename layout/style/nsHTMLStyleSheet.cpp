@@ -790,6 +790,7 @@ mAttributes
 ;
 }
 static
+const
 PLDHashTableOps
 MappedAttrTable_Ops
 =
@@ -1025,6 +1026,7 @@ true
 ;
 }
 static
+const
 PLDHashTableOps
 LangRuleTable_Ops
 =

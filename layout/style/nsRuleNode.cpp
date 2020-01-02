@@ -525,6 +525,7 @@ GetKey
 key
 ;
 }
+const
 PLDHashTableOps
 nsRuleNode
 :
