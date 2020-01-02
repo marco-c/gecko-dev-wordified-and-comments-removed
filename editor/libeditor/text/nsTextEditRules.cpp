@@ -1964,6 +1964,14 @@ if
 IsPasswordEditor
 (
 )
+&
+&
+mEditor
+-
+>
+GetRoot
+(
+)
 )
 {
 \
