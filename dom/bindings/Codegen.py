@@ -54915,10 +54915,32 @@ else
 "
 "
         
+bases
+=
+[
+ClassBase
+(
+"
+AllOwningUnionBase
+"
+)
+]
+if
+self
+.
+ownsMembers
+else
+[
+]
+        
 return
 CGClass
 (
 selfName
+                       
+bases
+=
+bases
                        
 members
 =

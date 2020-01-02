@@ -129,6 +129,11 @@ AllTypedArraysBase
 }
 ;
 struct
+AllOwningUnionBase
+{
+}
+;
+struct
 EnumEntry
 {
 const
