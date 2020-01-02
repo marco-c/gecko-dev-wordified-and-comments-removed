@@ -105,9 +105,7 @@ mozilla
 /
 search
 /
-autocomplete
-/
-AcceptsJumpTaps
+AcceptsSearchQuery
 .
 java
 '
@@ -122,7 +120,7 @@ search
 /
 autocomplete
 /
-AcceptsSearchQuery
+AcceptsJumpTaps
 .
 java
 '

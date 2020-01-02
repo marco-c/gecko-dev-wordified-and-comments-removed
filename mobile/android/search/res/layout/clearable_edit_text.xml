@@ -153,7 +153,9 @@ android
 textSize
 =
 "
-16sp
+dimen
+/
+query_text_size
 "
 android
 :
