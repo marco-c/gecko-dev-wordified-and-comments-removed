@@ -568,10 +568,15 @@ cx
 ;
 if
 (
+(
+mCompartment
+&
+&
 mExceptionHandling
 =
 =
 eRethrowContentExceptions
+)
 |
 |
 mExceptionHandling
