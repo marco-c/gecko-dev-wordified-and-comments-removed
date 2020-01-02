@@ -962,14 +962,6 @@ populated
 )
 {
 return
-promise
-.
-reject
-(
-"
-unused
-"
-)
 ;
 }
 this
