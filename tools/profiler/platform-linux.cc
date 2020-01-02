@@ -1028,9 +1028,6 @@ context
 =
 context
 ;
-#
-ifdef
-ENABLE_SPS_LEAF_DATA
 if
 (
 Sampler
@@ -1053,8 +1050,6 @@ context
 )
 ;
 }
-#
-endif
 sample
 -
 >

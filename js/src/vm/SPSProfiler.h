@@ -399,7 +399,7 @@ pc
 }
 }
 void
-enterNative
+enterAsmJS
 (
 const
 char
@@ -411,7 +411,7 @@ sp
 )
 ;
 void
-exitNative
+exitAsmJS
 (
 )
 {
