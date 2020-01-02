@@ -5626,7 +5626,7 @@ JS_ASSERT
 dest
 !
 =
-ScratchFloatReg
+ScratchDoubleReg
 )
 ;
 if
@@ -5679,12 +5679,12 @@ src
 typeReg
 (
 )
-ScratchFloatReg
+ScratchDoubleReg
 )
 ;
 unpcklps
 (
-ScratchFloatReg
+ScratchDoubleReg
 dest
 )
 ;
@@ -5712,7 +5712,7 @@ JS_ASSERT
 dest
 !
 =
-ScratchFloatReg
+ScratchDoubleReg
 )
 ;
 if
@@ -5773,12 +5773,12 @@ scratch
 movd
 (
 scratch
-ScratchFloatReg
+ScratchDoubleReg
 )
 ;
 unpcklps
 (
-ScratchFloatReg
+ScratchDoubleReg
 dest
 )
 ;

@@ -1072,14 +1072,14 @@ R0
 payloadReg
 (
 )
-ScratchFloatReg
+ScratchDoubleReg
 )
 ;
 masm
 .
 boxDouble
 (
-ScratchFloatReg
+ScratchDoubleReg
 R0
 )
 ;

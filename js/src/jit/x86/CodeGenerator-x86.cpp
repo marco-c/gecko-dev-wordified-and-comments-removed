@@ -595,12 +595,12 @@ masm
 convertFloat32ToDouble
 (
 reg
-ScratchFloatReg
+ScratchFloat32Reg
 )
 ;
 reg
 =
-ScratchFloatReg
+ScratchFloat32Reg
 ;
 }
 masm
@@ -3798,7 +3798,7 @@ masm
 loadFloat32
 (
 op
-ReturnFloatReg
+ReturnFloat32Reg
 )
 ;
 masm
@@ -3843,7 +3843,7 @@ masm
 loadDouble
 (
 op
-ReturnFloatReg
+ReturnDoubleReg
 )
 ;
 masm
@@ -4837,8 +4837,8 @@ masm
 .
 xorpd
 (
-ScratchFloatReg
-ScratchFloatReg
+ScratchDoubleReg
+ScratchDoubleReg
 )
 ;
 masm
@@ -4846,7 +4846,7 @@ masm
 ucomisd
 (
 input
-ScratchFloatReg
+ScratchDoubleReg
 )
 ;
 masm
@@ -4947,7 +4947,7 @@ masm
 cvtsi2sd
 (
 output
-ScratchFloatReg
+ScratchDoubleReg
 )
 ;
 masm
@@ -4955,7 +4955,7 @@ masm
 ucomisd
 (
 temp
-ScratchFloatReg
+ScratchDoubleReg
 )
 ;
 masm
@@ -5367,8 +5367,8 @@ masm
 .
 xorps
 (
-ScratchFloatReg
-ScratchFloatReg
+ScratchFloat32Reg
+ScratchFloat32Reg
 )
 ;
 masm
@@ -5376,7 +5376,7 @@ masm
 ucomiss
 (
 input
-ScratchFloatReg
+ScratchFloat32Reg
 )
 ;
 masm
@@ -5477,7 +5477,7 @@ masm
 cvtsi2ss
 (
 output
-ScratchFloatReg
+ScratchFloat32Reg
 )
 ;
 masm
@@ -5485,7 +5485,7 @@ masm
 ucomiss
 (
 temp
-ScratchFloatReg
+ScratchFloat32Reg
 )
 ;
 masm
