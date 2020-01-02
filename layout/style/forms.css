@@ -3469,6 +3469,14 @@ cursor
 inherit
 ;
 }
+button
+:
+disabled
+:
+active
+button
+:
+disabled
 input
 [
 type
