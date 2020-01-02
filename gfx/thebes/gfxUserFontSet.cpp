@@ -152,7 +152,7 @@ sLog
 endif
 #
 define
-FONTSET_LOG
+LOG
 (
 args
 )
@@ -166,7 +166,7 @@ args
 )
 #
 define
-FONTSET_LOG_ENABLED
+LOG_ENABLED
 (
 )
 PR_LOG_TEST
@@ -676,12 +676,12 @@ ifdef
 PR_LOGGING
 if
 (
-FONTSET_LOG_ENABLED
+LOG_ENABLED
 (
 )
 )
 {
-FONTSET_LOG
+LOG
 (
 (
 "
@@ -2140,7 +2140,7 @@ if
 fe
 )
 {
-FONTSET_LOG
+LOG
 (
 (
 "
@@ -2258,7 +2258,7 @@ STATUS_LOADED
 }
 else
 {
-FONTSET_LOG
+LOG
 (
 (
 "
@@ -2547,7 +2547,7 @@ ifdef
 PR_LOGGING
 if
 (
-FONTSET_LOG_ENABLED
+LOG_ENABLED
 (
 )
 )
@@ -2565,7 +2565,7 @@ GetSpec
 fontURI
 )
 ;
-FONTSET_LOG
+LOG
 (
 (
 "
@@ -2711,7 +2711,7 @@ warningFlag
 )
 ;
 }
-FONTSET_LOG
+LOG
 (
 (
 "
@@ -3000,7 +3000,7 @@ ifdef
 PR_LOGGING
 if
 (
-FONTSET_LOG_ENABLED
+LOG_ENABLED
 (
 )
 )
@@ -3027,7 +3027,7 @@ GetSpec
 fontURI
 )
 ;
-FONTSET_LOG
+LOG
 (
 (
 "
@@ -3118,7 +3118,7 @@ ifdef
 PR_LOGGING
 if
 (
-FONTSET_LOG_ENABLED
+LOG_ENABLED
 (
 )
 )
@@ -3145,7 +3145,7 @@ GetSpec
 fontURI
 )
 ;
-FONTSET_LOG
+LOG
 (
 (
 "

@@ -1861,9 +1861,6 @@ NS_OK
 ;
 }
 #
-undef
-SMALL_GLYPH_RUN
-#
 include
 "
 gfxLanguageTagList
