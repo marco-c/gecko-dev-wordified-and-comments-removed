@@ -399,17 +399,3 @@ list
 #
 bug
 783621
-#
-Animated
-image
-disposal
-and
-blending
-operator
-tests
-include
-animated
-/
-reftest
-.
-list
