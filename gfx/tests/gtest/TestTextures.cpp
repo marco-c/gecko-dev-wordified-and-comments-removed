@@ -1277,7 +1277,7 @@ GetFlags
 )
 )
 ;
-ASSERT_TRUE
+if
 (
 host
 -
@@ -1286,7 +1286,7 @@ Lock
 (
 )
 )
-;
+{
 RefPtr
 <
 mozilla
@@ -1303,13 +1303,6 @@ host
 -
 >
 GetAsSurface
-(
-)
-;
-host
--
->
-Unlock
 (
 )
 ;
@@ -1364,6 +1357,14 @@ get
 )
 )
 ;
+host
+-
+>
+Unlock
+(
+)
+;
+}
 }
 void
 TestTextureClientYCbCr
@@ -1547,7 +1548,7 @@ GetFlags
 )
 )
 ;
-ASSERT_TRUE
+if
 (
 host
 -
@@ -1556,7 +1557,7 @@ Lock
 (
 )
 )
-;
+{
 ASSERT_EQ
 (
 host
@@ -1739,6 +1740,7 @@ Unlock
 (
 )
 ;
+}
 }
 }
 }
