@@ -3010,6 +3010,7 @@ openHelpLink
 (
 aHelpTopic
 aCalledFromModal
+aWhere
 )
 {
 var
@@ -3058,6 +3059,15 @@ url
 aHelpTopic
 ;
 var
+where
+=
+aWhere
+;
+if
+(
+!
+aWhere
+)
 where
 =
 aCalledFromModal
