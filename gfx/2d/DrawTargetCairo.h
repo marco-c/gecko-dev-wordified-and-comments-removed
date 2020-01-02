@@ -798,6 +798,11 @@ IntPoint
 aDest
 )
 ;
+Rect
+GetUserSpaceClip
+(
+)
+;
 void
 WillChange
 (
