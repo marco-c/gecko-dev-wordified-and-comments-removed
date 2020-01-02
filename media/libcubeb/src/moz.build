@@ -239,6 +239,11 @@ cubeb_audiounit
 .
 c
 '
+'
+cubeb_osx_run_loop
+.
+c
+'
 ]
 DEFINES
 [
