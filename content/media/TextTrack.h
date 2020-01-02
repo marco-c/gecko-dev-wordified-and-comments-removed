@@ -333,6 +333,9 @@ RemoveCue
 TextTrackCue
 &
 aCue
+ErrorResult
+&
+aRv
 )
 ;
 void

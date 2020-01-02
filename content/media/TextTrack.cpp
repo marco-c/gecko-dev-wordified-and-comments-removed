@@ -313,6 +313,9 @@ RemoveCue
 TextTrackCue
 &
 aCue
+ErrorResult
+&
+aRv
 )
 {
 mCueList
@@ -321,6 +324,7 @@ mCueList
 RemoveCue
 (
 aCue
+aRv
 )
 ;
 }

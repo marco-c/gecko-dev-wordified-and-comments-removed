@@ -32,6 +32,15 @@ nsWrapperCache
 .
 h
 "
+#
+include
+"
+mozilla
+/
+ErrorResult
+.
+h
+"
 namespace
 mozilla
 {
@@ -151,6 +160,9 @@ RemoveCue
 TextTrackCue
 &
 cue
+ErrorResult
+&
+aRv
 )
 ;
 private

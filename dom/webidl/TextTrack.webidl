@@ -227,6 +227,9 @@ VTTCue
 cue
 )
 ;
+[
+Throws
+]
 void
 removeCue
 (
