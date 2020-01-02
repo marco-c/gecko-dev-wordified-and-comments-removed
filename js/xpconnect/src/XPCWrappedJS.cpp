@@ -1461,11 +1461,7 @@ NS_OK
 ;
 }
 }
-if
-(
-!
-root
-)
+else
 {
 if
 (
