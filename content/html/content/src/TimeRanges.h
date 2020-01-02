@@ -84,7 +84,12 @@ aEnd
 )
 ;
 double
-GetFinalEndTime
+GetStartTime
+(
+)
+;
+double
+GetEndTime
 (
 )
 ;
