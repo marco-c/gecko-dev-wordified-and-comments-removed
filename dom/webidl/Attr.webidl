@@ -179,6 +179,11 @@ DOMString
 ?
 prefix
 ;
+readonly
+attribute
+boolean
+specified
+;
 }
 ;
 /
@@ -189,11 +194,6 @@ partial
 interface
 Attr
 {
-readonly
-attribute
-boolean
-specified
-;
 [
 GetterThrows
 ]

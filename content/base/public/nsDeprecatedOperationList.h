@@ -28,10 +28,6 @@ CreateAttributeNS
 )
 DEPRECATED_OPERATION
 (
-Specified
-)
-DEPRECATED_OPERATION
-(
 OwnerElement
 )
 DEPRECATED_OPERATION
