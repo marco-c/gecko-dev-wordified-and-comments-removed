@@ -100,14 +100,6 @@ optional
 BluetoothDeviceEventInit
 eventInitDict
 )
-Func
-=
-"
-Navigator
-:
-:
-HasBluetoothSupport
-"
 ]
 interface
 BluetoothDeviceEvent
