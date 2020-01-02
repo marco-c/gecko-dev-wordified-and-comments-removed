@@ -1707,12 +1707,12 @@ ChromeWindow
 0
 )
 ?
-ProtoAndIfaceArray
+ProtoAndIfaceCache
 :
 :
 WindowLike
 :
-ProtoAndIfaceArray
+ProtoAndIfaceCache
 :
 :
 NonWindowLike

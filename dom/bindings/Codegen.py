@@ -14462,11 +14462,11 @@ aGlobal
 Argument
 (
 '
-ProtoAndIfaceArray
+ProtoAndIfaceCache
 &
 '
 '
-aProtoAndIfaceArray
+aProtoAndIfaceCache
 '
 )
                 
@@ -15459,7 +15459,7 @@ protoCache
 =
 "
 &
-aProtoAndIfaceArray
+aProtoAndIfaceCache
 .
 EntrySlotOrCreate
 (
@@ -15512,7 +15512,7 @@ interfaceCache
 =
 "
 &
-aProtoAndIfaceArray
+aProtoAndIfaceCache
 .
 EntrySlotOrCreate
 (
@@ -15799,7 +15799,7 @@ JSObject
 *
 proto
 =
-aProtoAndIfaceArray
+aProtoAndIfaceCache
 .
 EntrySlotOrCreate
 (
@@ -16117,12 +16117,12 @@ installed
 *
 /
   
-ProtoAndIfaceArray
+ProtoAndIfaceCache
 &
-protoAndIfaceArray
+protoAndIfaceCache
 =
 *
-GetProtoAndIfaceArray
+GetProtoAndIfaceCache
 (
 aGlobal
 )
@@ -16131,7 +16131,7 @@ aGlobal
 if
 (
 !
-protoAndIfaceArray
+protoAndIfaceCache
 .
 EntrySlotIfExists
 (
@@ -16145,7 +16145,7 @@ CreateInterfaceObjects
 (
 aCx
 aGlobal
-protoAndIfaceArray
+protoAndIfaceCache
 aDefineOnGlobal
 )
 ;
@@ -16179,7 +16179,7 @@ fromMarkedLocation
 is
 safe
 because
-protoAndIfaceArray
+protoAndIfaceCache
 is
    
 *
@@ -16219,7 +16219,7 @@ JSObject
 :
 fromMarkedLocation
 (
-protoAndIfaceArray
+protoAndIfaceCache
 .
 EntrySlotMustExist
 (
@@ -77095,7 +77095,7 @@ builder
 addInMozillaDom
 (
 "
-ProtoAndIfaceArray
+ProtoAndIfaceCache
 "
 )
         
