@@ -1749,7 +1749,7 @@ aFrame
 aFrame
 -
 >
-GetPosition
+GetNormalPosition
 (
 )
 ;
@@ -1782,7 +1782,7 @@ SetPosition
 cont
 -
 >
-GetPosition
+GetNormalPosition
 (
 )
 +
