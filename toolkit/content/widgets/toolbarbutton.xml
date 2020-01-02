@@ -772,6 +772,9 @@ align
 dir
 pack
 orient
+tooltiptext
+=
+buttontooltiptext
 "
 /
 >
