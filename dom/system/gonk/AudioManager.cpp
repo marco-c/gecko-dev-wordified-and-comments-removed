@@ -2902,7 +2902,6 @@ mPhoneAudioAgent
 >
 Init
 (
-nullptr
 AUDIO_CHANNEL_TELEPHONY
 nullptr
 )
@@ -2915,7 +2914,6 @@ mPhoneAudioAgent
 >
 Init
 (
-nullptr
 AUDIO_CHANNEL_RINGER
 nullptr
 )

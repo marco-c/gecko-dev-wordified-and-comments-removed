@@ -3406,7 +3406,6 @@ mAudioChannelAgent
 >
 Init
 (
-mWindow
 AUDIO_CHANNEL_CONTENT
 nullptr
 )
