@@ -1961,6 +1961,14 @@ bool
 mDeviceSizeIsPageSize
 ;
 bool
+mCanExecuteScripts
+;
+void
+RecomputeCanExecuteScripts
+(
+)
+;
+bool
 mFiredUnloadEvent
 ;
 bool

@@ -168,6 +168,13 @@ Unblock
 (
 )
 ;
+void
+SetDocShellAllowsScript
+(
+bool
+aAllowed
+)
+;
 static
 Scriptability
 &
@@ -182,6 +189,9 @@ private
 :
 uint32_t
 mScriptBlocks
+;
+bool
+mDocShellAllowsScript
 ;
 }
 ;

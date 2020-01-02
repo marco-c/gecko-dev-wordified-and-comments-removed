@@ -3674,6 +3674,9 @@ scripting
 .
 *
 /
+[
+infallible
+]
 readonly
 attribute
 boolean
