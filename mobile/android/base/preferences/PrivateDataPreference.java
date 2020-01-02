@@ -159,6 +159,9 @@ TelemetryContract
 Method
 .
 DIALOG
+"
+settings
+"
 )
 ;
 CharSequence
