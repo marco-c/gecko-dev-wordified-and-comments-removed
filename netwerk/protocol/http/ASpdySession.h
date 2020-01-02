@@ -14,13 +14,6 @@ h
 #
 include
 "
-nsAHttpConnection
-.
-h
-"
-#
-include
-"
 prinrval
 .
 h

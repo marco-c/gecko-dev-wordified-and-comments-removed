@@ -12,9 +12,6 @@ nsIHttpAuthenticator
 h
 "
 class
-nsIURI
-;
-class
 nsHttpBasicAuth
 :
 public

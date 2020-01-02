@@ -21,7 +21,7 @@ mozilla
 /
 net
 /
-NeckoChild
+ChannelEventQueue
 .
 h
 "
@@ -60,13 +60,6 @@ h
 #
 include
 "
-nsMimeTypes
-.
-h
-"
-#
-include
-"
 nsNetUtil
 .
 h
@@ -88,7 +81,7 @@ h
 #
 include
 "
-nsILoadContext
+nsIProgressEventSink
 .
 h
 "

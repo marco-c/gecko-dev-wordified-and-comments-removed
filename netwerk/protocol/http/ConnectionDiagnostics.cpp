@@ -47,6 +47,13 @@ nsIConsoleService
 .
 h
 "
+#
+include
+"
+nsHttpRequestHead
+.
+h
+"
 using
 namespace
 mozilla

@@ -15,7 +15,14 @@ h
 #
 include
 "
-nsHttp
+nsURLHelper
+.
+h
+"
+#
+include
+"
+nsIHttpHeaderVisitor
 .
 h
 "

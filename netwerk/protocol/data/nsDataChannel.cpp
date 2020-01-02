@@ -31,13 +31,6 @@ h
 #
 include
 "
-nsNetUtil
-.
-h
-"
-#
-include
-"
 nsIPipe
 .
 h
@@ -53,13 +46,6 @@ h
 include
 "
 nsIOutputStream
-.
-h
-"
-#
-include
-"
-nsReadableUtils
 .
 h
 "

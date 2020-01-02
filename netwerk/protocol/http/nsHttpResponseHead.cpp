@@ -22,13 +22,6 @@ h
 #
 include
 "
-prprf
-.
-h
-"
-#
-include
-"
 prtime
 .
 h
@@ -36,7 +29,7 @@ h
 #
 include
 "
-nsCRT
+nsURLHelper
 .
 h
 "

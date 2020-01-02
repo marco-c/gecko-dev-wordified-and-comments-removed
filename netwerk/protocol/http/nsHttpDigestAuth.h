@@ -14,14 +14,7 @@ h
 #
 include
 "
-nsICryptoHash
-.
-h
-"
-#
-include
-"
-nsString
+nsStringFwd
 .
 h
 "
@@ -41,6 +34,9 @@ Attributes
 .
 h
 "
+class
+nsICryptoHash
+;
 #
 define
 ALGO_SPECIFIED

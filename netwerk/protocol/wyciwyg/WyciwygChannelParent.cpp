@@ -33,13 +33,6 @@ h
 #
 include
 "
-nsISupportsPriority
-.
-h
-"
-#
-include
-"
 nsCharsetSource
 .
 h

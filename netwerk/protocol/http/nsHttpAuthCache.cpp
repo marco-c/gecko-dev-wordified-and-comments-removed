@@ -31,13 +31,6 @@ h
 #
 include
 "
-nsHttp
-.
-h
-"
-#
-include
-"
 nsString
 .
 h
@@ -46,13 +39,6 @@ h
 include
 "
 nsCRT
-.
-h
-"
-#
-include
-"
-prprf
 .
 h
 "

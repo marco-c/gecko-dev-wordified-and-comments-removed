@@ -28,12 +28,6 @@ Attributes
 h
 "
 class
-nsCString
-;
-class
-nsIAboutModule
-;
-class
 nsIURI
 ;
 class

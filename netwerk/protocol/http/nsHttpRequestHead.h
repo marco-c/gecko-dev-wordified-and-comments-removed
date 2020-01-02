@@ -25,13 +25,6 @@ nsString
 .
 h
 "
-#
-include
-"
-nsCRT
-.
-h
-"
 class
 nsHttpRequestHead
 {

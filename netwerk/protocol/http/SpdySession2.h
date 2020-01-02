@@ -14,6 +14,13 @@ h
 #
 include
 "
+nsAHttpConnection
+.
+h
+"
+#
+include
+"
 nsClassHashtable
 .
 h
@@ -55,9 +62,6 @@ Attributes
 .
 h
 "
-class
-nsHttpConnection
-;
 class
 nsISocketTransport
 ;
