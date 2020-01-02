@@ -115,13 +115,6 @@ prerror
 .
 h
 "
-#
-include
-"
-ocsp
-.
-h
-"
 namespace
 mozilla
 {
@@ -291,12 +284,6 @@ MOZ_TYPE_SPECIFIC_SCOPED_POINTER_TEMPLATE
 ScopedCERTCertNicknames
 CERTCertNicknames
 CERT_FreeNicknames
-)
-MOZ_TYPE_SPECIFIC_SCOPED_POINTER_TEMPLATE
-(
-ScopedCERTOCSPCertID
-CERTOCSPCertID
-CERT_DestroyOCSPCertID
 )
 MOZ_TYPE_SPECIFIC_SCOPED_POINTER_TEMPLATE
 (
