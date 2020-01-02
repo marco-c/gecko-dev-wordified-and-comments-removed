@@ -3815,9 +3815,12 @@ aName
 .
 AssignLiteral
 (
+MOZ_UTF16
+(
 "
 uf
 "
+)
 )
 ;
 aName
