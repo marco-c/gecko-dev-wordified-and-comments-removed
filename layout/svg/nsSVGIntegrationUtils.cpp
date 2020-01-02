@@ -2013,7 +2013,10 @@ gfx
 >
 PushGroup
 (
-GFX_CONTENT_COLOR_ALPHA
+gfxContentType
+:
+:
+COLOR_ALPHA
 )
 ;
 }
@@ -2186,7 +2189,10 @@ gfx
 >
 PushGroup
 (
-GFX_CONTENT_COLOR_ALPHA
+gfxContentType
+:
+:
+COLOR_ALPHA
 )
 ;
 nsresult
@@ -2240,7 +2246,10 @@ gfx
 >
 PushGroup
 (
-GFX_CONTENT_COLOR_ALPHA
+gfxContentType
+:
+:
+COLOR_ALPHA
 )
 ;
 gfx

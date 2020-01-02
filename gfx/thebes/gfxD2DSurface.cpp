@@ -58,6 +58,9 @@ aWnd
 (
 cairo_content_t
 )
+(
+int
+)
 aContent
 )
 )
@@ -92,6 +95,9 @@ GetD2DDevice
 handle
 (
 cairo_content_t
+)
+(
+int
 )
 aContent
 )
@@ -128,6 +134,9 @@ GetD2DDevice
 texture
 (
 cairo_content_t
+)
+(
+int
 )
 aContent
 )

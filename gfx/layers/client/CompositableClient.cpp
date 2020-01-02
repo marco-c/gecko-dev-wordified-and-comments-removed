@@ -591,7 +591,10 @@ if
 aContentType
 =
 =
-GFX_CONTENT_COLOR_ALPHA
+gfxContentType
+:
+:
+COLOR_ALPHA
 |
 |
 !
@@ -946,7 +949,10 @@ aFormat
 )
 !
 =
-GFX_CONTENT_COLOR
+gfxContentType
+:
+:
+COLOR
 )
 {
 result

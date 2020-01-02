@@ -1236,7 +1236,10 @@ mD2DWindowSurface
 gfxContentType
 content
 =
-GFX_CONTENT_COLOR
+gfxContentType
+:
+:
+COLOR
 ;
 #
 if
@@ -1254,7 +1257,10 @@ eTransparencyOpaque
 {
 content
 =
-GFX_CONTENT_COLOR_ALPHA
+gfxContentType
+:
+:
+COLOR_ALPHA
 ;
 }
 #

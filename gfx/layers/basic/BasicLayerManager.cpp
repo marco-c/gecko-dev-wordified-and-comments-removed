@@ -591,7 +591,10 @@ result
 PushGroupWithCachedSurface
 (
 aContext
-GFX_CONTENT_COLOR
+gfxContentType
+:
+:
+COLOR
 )
 ;
 }
@@ -626,7 +629,10 @@ aContext
 >
 PushGroupAndCopyBackground
 (
-GFX_CONTENT_COLOR_ALPHA
+gfxContentType
+:
+:
+COLOR_ALPHA
 )
 ;
 }
@@ -637,7 +643,10 @@ aContext
 >
 PushGroup
 (
-GFX_CONTENT_COLOR_ALPHA
+gfxContentType
+:
+:
+COLOR_ALPHA
 )
 ;
 }

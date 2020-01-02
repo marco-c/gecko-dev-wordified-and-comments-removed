@@ -13336,7 +13336,10 @@ gfxIntSize
 1
 1
 )
-GFX_CONTENT_COLOR
+gfxContentType
+:
+:
+COLOR
 )
 ;
 }

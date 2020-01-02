@@ -355,9 +355,15 @@ type
 =
 hasAlpha
 ?
-GFX_CONTENT_COLOR_ALPHA
+gfxContentType
 :
-GFX_CONTENT_COLOR
+:
+COLOR_ALPHA
+:
+gfxContentType
+:
+:
+COLOR
 ;
 gfxImageFormat
 format

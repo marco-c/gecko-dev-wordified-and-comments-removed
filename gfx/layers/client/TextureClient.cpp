@@ -3012,7 +3012,10 @@ if
 mContentType
 =
 =
-GFX_CONTENT_COLOR_ALPHA
+gfxContentType
+:
+:
+COLOR_ALPHA
 )
 {
 gfxASurface
@@ -3781,7 +3784,10 @@ aType
 aType
 !
 =
-GFX_CONTENT_COLOR
+gfxContentType
+:
+:
+COLOR
 )
 ;
 mSurface
@@ -3945,7 +3951,10 @@ if
 contentType
 !
 =
-GFX_CONTENT_ALPHA
+gfxContentType
+:
+:
+ALPHA
 &
 &
 isOpaque
@@ -3953,7 +3962,10 @@ isOpaque
 {
 contentType
 =
-GFX_CONTENT_COLOR
+gfxContentType
+:
+:
+COLOR
 ;
 }
 mDeprecatedTextureClient

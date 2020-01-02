@@ -1164,7 +1164,10 @@ SurfaceFormat
 R8G8B8X8
 :
 return
-GFX_CONTENT_COLOR
+gfxContentType
+:
+:
+COLOR
 ;
 case
 SurfaceFormat
@@ -1173,7 +1176,10 @@ SurfaceFormat
 A8
 :
 return
-GFX_CONTENT_ALPHA
+gfxContentType
+:
+:
+ALPHA
 ;
 case
 SurfaceFormat
@@ -1190,7 +1196,10 @@ R8G8B8A8
 default
 :
 return
-GFX_CONTENT_COLOR_ALPHA
+gfxContentType
+:
+:
+COLOR_ALPHA
 ;
 }
 }

@@ -625,7 +625,10 @@ GetContentType
 )
 =
 =
-GFX_CONTENT_COLOR_ALPHA
+gfxContentType
+:
+:
+COLOR_ALPHA
 )
 {
 surface
@@ -666,10 +669,13 @@ surface
 cairo_surface_create_similar
 (
 mSurface
-cairo_content_t
 (
-aContent
+cairo_content_t
 )
+(
+int
+)
+aContent
 aSize
 .
 width

@@ -1171,7 +1171,10 @@ Size
 ToIntSize
 (
 )
-GFX_CONTENT_COLOR_ALPHA
+gfxContentType
+:
+:
+COLOR_ALPHA
 &
 inSnapshot
 )
@@ -1704,13 +1707,6 @@ transaction
 )
 ;
 }
-mForwarder
--
->
-ForceRemoveTexturesIfNecessary
-(
-)
-;
 mPhase
 =
 PHASE_NONE

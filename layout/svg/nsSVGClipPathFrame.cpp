@@ -322,7 +322,10 @@ gfx
 >
 PushGroup
 (
-GFX_CONTENT_ALPHA
+gfxContentType
+:
+:
+ALPHA
 )
 ;
 }
@@ -455,7 +458,10 @@ gfx
 >
 PushGroup
 (
-GFX_CONTENT_ALPHA
+gfxContentType
+:
+:
+ALPHA
 )
 ;
 }
@@ -498,7 +504,10 @@ gfx
 >
 PushGroup
 (
-GFX_CONTENT_ALPHA
+gfxContentType
+:
+:
+ALPHA
 )
 ;
 clipPathFrame
@@ -574,7 +583,10 @@ gfx
 >
 PushGroup
 (
-GFX_CONTENT_ALPHA
+gfxContentType
+:
+:
+ALPHA
 )
 ;
 clipPathFrame

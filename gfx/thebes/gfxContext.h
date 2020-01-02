@@ -965,7 +965,10 @@ PushGroup
 gfxContentType
 content
 =
-GFX_CONTENT_COLOR
+gfxContentType
+:
+:
+COLOR
 )
 ;
 void
@@ -974,7 +977,10 @@ PushGroupAndCopyBackground
 gfxContentType
 content
 =
-GFX_CONTENT_COLOR
+gfxContentType
+:
+:
+COLOR
 )
 ;
 already_AddRefed

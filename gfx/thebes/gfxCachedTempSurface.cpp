@@ -429,7 +429,10 @@ cleared
 aContentType
 !
 =
-GFX_CONTENT_COLOR
+gfxContentType
+:
+:
+COLOR
 )
 {
 ctx
