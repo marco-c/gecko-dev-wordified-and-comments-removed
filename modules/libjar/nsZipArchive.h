@@ -300,13 +300,13 @@ friend
 class
 nsZipFind
 ;
-public
-:
+~
 nsZipArchive
 (
 )
 ;
-~
+public
+:
 nsZipArchive
 (
 )

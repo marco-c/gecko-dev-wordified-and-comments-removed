@@ -159,12 +159,6 @@ nsJARURI
 (
 )
 ;
-virtual
-~
-nsJARURI
-(
-)
-;
 nsresult
 Init
 (
@@ -221,6 +215,12 @@ aBaseURL
 ;
 protected
 :
+virtual
+~
+nsJARURI
+(
+)
+;
 enum
 RefHandlingEnum
 {
