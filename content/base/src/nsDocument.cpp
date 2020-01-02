@@ -32584,6 +32584,7 @@ nsViewportInfo
 (
 aDisplaySize
 false
+false
 )
 ;
 case
@@ -32718,6 +32719,8 @@ return
 nsViewportInfo
 (
 aDisplaySize
+true
+false
 )
 ;
 }
@@ -32755,6 +32758,8 @@ return
 nsViewportInfo
 (
 aDisplaySize
+true
+false
 )
 ;
 }
@@ -32837,6 +32842,7 @@ return
 nsViewportInfo
 (
 aDisplaySize
+false
 false
 )
 ;
@@ -33196,6 +33202,10 @@ mAllowZoom
 false
 ;
 }
+mAllowDoubleTapZoom
+=
+mAllowZoom
+;
 mScaleStrEmpty
 =
 scaleStr
@@ -33645,6 +33655,7 @@ scaleMaxFloat
 size
 mAutoSize
 mAllowZoom
+mAllowDoubleTapZoom
 )
 ;
 }
