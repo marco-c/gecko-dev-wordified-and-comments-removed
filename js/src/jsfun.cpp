@@ -6306,11 +6306,8 @@ hasSourceData
 SourceDataCache
 :
 :
-AutoSuppressPurge
-asp
-(
-cx
-)
+AutoHoldEntry
+holder
 ;
 const
 jschar
@@ -6328,7 +6325,7 @@ source
 chars
 (
 cx
-asp
+holder
 )
 ;
 if
