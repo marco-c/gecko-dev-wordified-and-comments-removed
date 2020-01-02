@@ -367,6 +367,11 @@ CSSVariableDeclarations
 .
 h
 '
+'
+CSSVariableValues
+.
+h
+'
 ]
 EXPORTS
 .
@@ -457,6 +462,11 @@ cpp
 '
 '
 CSSVariableDeclarations
+.
+cpp
+'
+'
+CSSVariableValues
 .
 cpp
 '
