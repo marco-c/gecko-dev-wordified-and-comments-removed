@@ -256,6 +256,12 @@ ret
 }
 private
 :
+~
+SharedMemoryBasic
+(
+)
+{
+}
 base
 :
 :
