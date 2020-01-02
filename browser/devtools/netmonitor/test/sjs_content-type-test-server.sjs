@@ -296,6 +296,9 @@ cachedCount
 +
 ;
 }
+let
+timer
+=
 Cc
 [
 "
@@ -315,6 +318,8 @@ Ci
 .
 nsITimer
 )
+;
+timer
 .
 initWithCallback
 (
@@ -323,6 +328,16 @@ initWithCallback
 =
 >
 {
+/
+/
+to
+avoid
+garbage
+collection
+timer
+=
+null
+;
 switch
 (
 format

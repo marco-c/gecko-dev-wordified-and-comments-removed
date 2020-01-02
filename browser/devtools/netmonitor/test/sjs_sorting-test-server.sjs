@@ -102,6 +102,9 @@ split
 1
 ]
 ;
+let
+timer
+=
 Cc
 [
 "
@@ -121,6 +124,8 @@ Ci
 .
 nsITimer
 )
+;
+timer
 .
 initWithCallback
 (
@@ -129,6 +134,16 @@ initWithCallback
 =
 >
 {
+/
+/
+to
+avoid
+garbage
+collection
+timer
+=
+null
+;
 response
 .
 setStatusLine
