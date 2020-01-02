@@ -1,5 +1,12 @@
 #
 include
+"
+GonkRecorderProfiles
+.
+h
+"
+#
+include
 <
 media
 /
@@ -18,13 +25,6 @@ h
 include
 "
 CameraControlImpl
-.
-h
-"
-#
-include
-"
-GonkRecorderProfiles
 .
 h
 "
