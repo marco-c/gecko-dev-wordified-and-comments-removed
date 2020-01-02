@@ -82,6 +82,10 @@ CustomizableUI
 .
 jsm
 \
+CustomizableWidgets
+.
+jsm
+\
 CustomizeMode
 .
 jsm
