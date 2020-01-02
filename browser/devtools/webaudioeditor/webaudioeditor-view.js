@@ -735,8 +735,10 @@ AudioNodeConnections
 get
 (
 node
-[
-]
+new
+Set
+(
+)
 )
 .
 forEach
