@@ -49,12 +49,6 @@ ac_add_options
 enable
 -
 jemalloc
-ac_add_options
--
--
-enable
--
-metro
 if
 [
 -
