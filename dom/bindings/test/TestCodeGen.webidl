@@ -273,6 +273,13 @@ getDictionary
 (
 )
 ;
+void
+passArrayBuffer
+(
+ArrayBuffer
+arg
+)
+;
 }
 ;
 callback
