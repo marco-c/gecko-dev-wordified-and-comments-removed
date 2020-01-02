@@ -128,7 +128,7 @@ ssl
 .
 enable_false_start
 "
-true
+false
 )
 ;
 pref
