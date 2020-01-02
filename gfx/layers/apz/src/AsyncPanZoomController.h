@@ -995,7 +995,7 @@ mHandlingTouchQueue
 TouchBlockState
 mTouchBlockState
 ;
-RefPtr
+nsRefPtr
 <
 AsyncPanZoomAnimation
 >
