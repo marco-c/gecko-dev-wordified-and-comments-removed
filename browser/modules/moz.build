@@ -116,6 +116,11 @@ BrowserUITelemetry
 jsm
 '
 '
+Chat
+.
+jsm
+'
+'
 ContentClick
 .
 jsm
