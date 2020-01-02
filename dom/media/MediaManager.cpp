@@ -8352,6 +8352,10 @@ mMediaThread
 nullptr
 ;
 }
+mBackend
+=
+nullptr
+;
 }
 return
 NS_OK
