@@ -54,9 +54,6 @@ MPL
 0
 /
 .
-ifndef
-.
-PYMAKE
 ifeq
 (
 (
@@ -107,7 +104,6 @@ higher
 is
 required
 )
-endif
 endif
 export
 TOPLEVEL_BUILD
