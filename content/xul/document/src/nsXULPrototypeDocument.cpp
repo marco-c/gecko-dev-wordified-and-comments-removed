@@ -155,13 +155,6 @@ h
 #
 include
 "
-nsDOMJSUtils
-.
-h
-"
-#
-include
-"
 xpcpublic
 .
 h

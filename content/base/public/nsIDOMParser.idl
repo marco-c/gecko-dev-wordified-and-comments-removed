@@ -113,7 +113,7 @@ interface
 nsIPrincipal
 ;
 interface
-nsIScriptGlobalObject
+nsIGlobalObject
 ;
 /
 *
@@ -729,7 +729,7 @@ in
 nsIURI
 baseURI
 in
-nsIScriptGlobalObject
+nsIGlobalObject
 scriptObject
 )
 ;
