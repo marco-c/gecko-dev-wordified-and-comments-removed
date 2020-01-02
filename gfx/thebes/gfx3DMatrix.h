@@ -407,6 +407,15 @@ float
 aZ
 )
 ;
+void
+ChangeBasis
+(
+const
+gfxPoint3D
+&
+aOrigin
+)
+;
 gfxPoint
 Transform
 (
