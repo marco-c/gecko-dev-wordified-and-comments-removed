@@ -161,6 +161,14 @@ nsILoadContext
 aLoadContext
 )
 ;
+nsresult
+SetNSPRFileDesc
+(
+PRFileDesc
+*
+aNSPRFileDesc
+)
+;
 void
 ReleaseIPDLReference
 (
