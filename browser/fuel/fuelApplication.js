@@ -3407,9 +3407,6 @@ include
 .
 .
 /
-.
-.
-/
 toolkit
 /
 components
