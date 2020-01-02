@@ -16,17 +16,6 @@ include
 "
 assembler
 /
-wtf
-/
-Platform
-.
-h
-"
-#
-include
-"
-assembler
-/
 assembler
 /
 AssemblerBuffer

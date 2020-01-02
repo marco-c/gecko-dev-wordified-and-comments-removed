@@ -10,17 +10,6 @@ MacroAssemblerX86Common
 h
 "
 #
-include
-"
-assembler
-/
-wtf
-/
-Platform
-.
-h
-"
-#
 ifdef
 _MSC_VER
 #
