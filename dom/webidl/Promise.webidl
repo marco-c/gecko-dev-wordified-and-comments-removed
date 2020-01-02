@@ -179,7 +179,6 @@ AnyCallback
 =
 any
 (
-optional
 any
 value
 )

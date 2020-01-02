@@ -167,9 +167,6 @@ MaybeResolve
 JSContext
 *
 aCx
-const
-Optional
-<
 JS
 :
 :
@@ -180,8 +177,6 @@ JS
 :
 Value
 >
->
-&
 aValue
 )
 ;
@@ -191,9 +186,6 @@ MaybeReject
 JSContext
 *
 aCx
-const
-Optional
-<
 JS
 :
 :
@@ -204,8 +196,6 @@ JS
 :
 Value
 >
->
-&
 aValue
 )
 ;
@@ -481,9 +471,6 @@ MaybeResolveInternal
 JSContext
 *
 aCx
-const
-Optional
-<
 JS
 :
 :
@@ -494,8 +481,6 @@ JS
 :
 Value
 >
->
-&
 aValue
 PromiseTaskSync
 aSync
@@ -509,9 +494,6 @@ MaybeRejectInternal
 JSContext
 *
 aCx
-const
-Optional
-<
 JS
 :
 :
@@ -522,8 +504,6 @@ JS
 :
 Value
 >
->
-&
 aValue
 PromiseTaskSync
 aSync
@@ -537,9 +517,6 @@ ResolveInternal
 JSContext
 *
 aCx
-const
-Optional
-<
 JS
 :
 :
@@ -550,8 +527,6 @@ JS
 :
 Value
 >
->
-&
 aValue
 PromiseTaskSync
 aSync
@@ -565,9 +540,6 @@ RejectInternal
 JSContext
 *
 aCx
-const
-Optional
-<
 JS
 :
 :
@@ -578,8 +550,6 @@ JS
 :
 Value
 >
->
-&
 aValue
 PromiseTaskSync
 aSync
