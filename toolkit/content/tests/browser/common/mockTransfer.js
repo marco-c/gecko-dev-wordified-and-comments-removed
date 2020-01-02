@@ -217,13 +217,6 @@ function
 )
 {
 }
-setSignatureInfo
-:
-function
-(
-)
-{
-}
 }
 ;
 var
