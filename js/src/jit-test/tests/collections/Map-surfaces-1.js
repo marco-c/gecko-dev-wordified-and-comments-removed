@@ -73,7 +73,7 @@ assertEq
 Map
 .
 length
-1
+0
 )
 ;
 assertEq
