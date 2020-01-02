@@ -1021,9 +1021,9 @@ addMessageListenerId
 "
 Marionette
 :
-getElementPosition
+getElementLocation
 "
-getElementPosition
+getElementLocation
 )
 ;
 addMessageListenerId
@@ -1610,9 +1610,9 @@ removeMessageListenerId
 "
 Marionette
 :
-getElementPosition
+getElementLocation
 "
-getElementPosition
+getElementLocation
 )
 ;
 removeMessageListenerId
@@ -9272,7 +9272,7 @@ command_id
 }
 }
 function
-getElementPosition
+getElementLocation
 (
 msg
 )
