@@ -163,6 +163,11 @@ itself
 .
 [
 Global
+=
+(
+Worker
+ServiceWorker
+)
 Func
 =
 "

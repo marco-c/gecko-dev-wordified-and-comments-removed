@@ -172,6 +172,11 @@ document
 /
 [
 Global
+=
+(
+Worker
+DedicatedWorker
+)
 Func
 =
 "
