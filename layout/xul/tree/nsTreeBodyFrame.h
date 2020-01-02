@@ -1120,8 +1120,6 @@ aDirtyRect
 nscoord
 &
 aCurrX
-bool
-aTextRTL
 )
 ;
 void

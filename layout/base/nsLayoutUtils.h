@@ -2282,10 +2282,11 @@ int32_t
 aLength
 nsPoint
 aPoint
-uint8_t
-aDirection
+nsStyleContext
+*
+aStyleContext
 =
-NS_STYLE_DIRECTION_INHERIT
+nullptr
 )
 ;
 static

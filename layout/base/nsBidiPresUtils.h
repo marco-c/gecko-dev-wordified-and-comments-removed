@@ -64,6 +64,9 @@ nsRenderingContext
 class
 nsBlockInFlowLineIterator
 ;
+class
+nsStyleContext
+;
 template
 <
 class
@@ -268,8 +271,8 @@ PRUnichar
 aText
 int32_t
 aLength
-nsBidiDirection
-aBaseDirection
+nsBidiLevel
+aBaseLevel
 nsPresContext
 *
 aPresContext
@@ -299,7 +302,7 @@ ProcessTextForRenderingContext
 (
 aText
 aLength
-aBaseDirection
+aBaseLevel
 aPresContext
 aRenderingContext
 aTextRunConstructionContext
@@ -322,8 +325,8 @@ PRUnichar
 aText
 int32_t
 aLength
-nsBidiDirection
-aBaseDirection
+nsBidiLevel
+aBaseLevel
 nsPresContext
 *
 aPresContext
@@ -342,7 +345,7 @@ ProcessTextForRenderingContext
 (
 aText
 aLength
-aBaseDirection
+aBaseLevel
 aPresContext
 aRenderingContext
 aRenderingContext
@@ -471,8 +474,8 @@ PRUnichar
 aText
 int32_t
 aLength
-nsBidiDirection
-aBaseDirection
+nsBidiLevel
+aBaseLevel
 nsPresContext
 *
 aPresContext
@@ -511,6 +514,15 @@ bool
 aOverride
 )
 ;
+static
+nsBidiLevel
+BidiLevelFromStyle
+(
+nsStyleContext
+*
+aStyleContext
+)
+;
 private
 :
 static
@@ -523,8 +535,8 @@ PRUnichar
 aText
 int32_t
 aLength
-nsBidiDirection
-aBaseDirection
+nsBidiLevel
+aBaseLevel
 nsPresContext
 *
 aPresContext
