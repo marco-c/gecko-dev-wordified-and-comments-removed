@@ -23400,6 +23400,7 @@ statfs64
 statfs
 getpagesize
 localtime_r
+arc4random
 )
 dnl
 check
