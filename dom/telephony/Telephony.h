@@ -477,6 +477,9 @@ private
 :
 Telephony
 (
+nsPIDOMWindow
+*
+aOwner
 )
 ;
 ~

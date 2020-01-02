@@ -624,6 +624,9 @@ MOZ_OVERRIDE
 ;
 nsDOMDeviceStorage
 (
+nsPIDOMWindow
+*
+aWindow
 )
 ;
 nsresult

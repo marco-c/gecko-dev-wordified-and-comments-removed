@@ -100,6 +100,9 @@ mozilla
 DataChannel
 >
 aDataChannel
+nsPIDOMWindow
+*
+aWindow
 )
 ;
 ~

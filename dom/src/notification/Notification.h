@@ -331,6 +331,9 @@ const
 nsAString
 &
 aIconUrl
+nsPIDOMWindow
+*
+aWindow
 )
 ;
 static

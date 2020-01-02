@@ -465,6 +465,9 @@ private
 :
 TelephonyCall
 (
+nsPIDOMWindow
+*
+aOwner
 )
 ;
 ~

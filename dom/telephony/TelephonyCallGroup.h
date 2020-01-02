@@ -293,6 +293,9 @@ private
 :
 TelephonyCallGroup
 (
+nsPIDOMWindow
+*
+aOwner
 )
 ;
 ~

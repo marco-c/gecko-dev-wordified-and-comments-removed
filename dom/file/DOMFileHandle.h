@@ -88,6 +88,14 @@ protected
 :
 DOMFileHandle
 (
+nsPIDOMWindow
+*
+aWindow
+)
+:
+FileHandle
+(
+aWindow
 )
 {
 }

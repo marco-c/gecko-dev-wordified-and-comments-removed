@@ -11145,8 +11145,15 @@ nsDOMDeviceStorage
 :
 nsDOMDeviceStorage
 (
+nsPIDOMWindow
+*
+aWindow
 )
 :
+nsDOMEventTargetHelper
+(
+aWindow
+)
 mIsWatchingFile
 (
 false
@@ -11156,10 +11163,6 @@ mAllowedToWatchFile
 false
 )
 {
-SetIsDOMBinding
-(
-)
-;
 }
 JSObject
 *
@@ -11281,11 +11284,6 @@ this
 )
 ;
 }
-BindToOwner
-(
-aWindow
-)
-;
 nsCOMPtr
 <
 nsIDocument
@@ -11716,6 +11714,7 @@ ds
 new
 nsDOMDeviceStorage
 (
+aWin
 )
 ;
 if
@@ -11803,6 +11802,7 @@ storage
 new
 nsDOMDeviceStorage
 (
+aWin
 )
 ;
 rv
@@ -11886,6 +11886,7 @@ storage
 new
 nsDOMDeviceStorage
 (
+aWin
 )
 ;
 rv
@@ -12211,6 +12212,9 @@ ds
 new
 nsDOMDeviceStorage
 (
+GetOwner
+(
+)
 )
 ;
 nsresult

@@ -289,6 +289,9 @@ public
 :
 SpeechRecognition
 (
+nsPIDOMWindow
+*
+aOwnerWindow
 )
 ;
 virtual

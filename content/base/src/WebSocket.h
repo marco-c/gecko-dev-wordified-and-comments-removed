@@ -511,6 +511,9 @@ private
 :
 WebSocket
 (
+nsPIDOMWindow
+*
+aOwnerWindow
 )
 ;
 virtual
@@ -530,9 +533,6 @@ aCx
 nsIPrincipal
 *
 aPrincipal
-nsPIDOMWindow
-*
-aOwnerWindow
 const
 nsAString
 &

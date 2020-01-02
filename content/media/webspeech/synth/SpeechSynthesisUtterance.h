@@ -88,6 +88,9 @@ public
 :
 SpeechSynthesisUtterance
 (
+nsPIDOMWindow
+*
+aOwnerWindow
 const
 nsAString
 &
