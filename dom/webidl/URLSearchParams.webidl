@@ -267,12 +267,6 @@ DOMString
 value
 )
 ;
-readonly
-attribute
-unsigned
-long
-size
-;
 stringifier
 ;
 }
