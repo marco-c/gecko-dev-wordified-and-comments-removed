@@ -1030,6 +1030,8 @@ activateAccessible
 aAccessible
 )
 {
+try
+{
 if
 (
 aMessage
@@ -1047,6 +1049,15 @@ role
 Roles
 .
 KEY
+)
+{
+return
+;
+}
+}
+catch
+(
+e
 )
 {
 return
