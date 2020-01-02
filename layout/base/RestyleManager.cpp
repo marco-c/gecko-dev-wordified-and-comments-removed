@@ -7967,8 +7967,10 @@ parentContext
 }
 #
 endif
-static
 void
+RestyleManager
+:
+:
 TryStartingTransition
 (
 nsPresContext
@@ -11465,6 +11467,9 @@ if
 copyFromContinuation
 )
 {
+RestyleManager
+:
+:
 TryStartingTransition
 (
 mPresContext
