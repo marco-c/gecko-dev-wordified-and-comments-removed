@@ -208,6 +208,12 @@ false
 /
 for
 testing
+DOMString
+?
+peerIdentity
+=
+null
+;
 }
 ;
 interface

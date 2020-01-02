@@ -155,5 +155,11 @@ RTCIceServer
 >
 iceServers
 ;
+DOMString
+?
+peerIdentity
+=
+null
+;
 }
 ;
