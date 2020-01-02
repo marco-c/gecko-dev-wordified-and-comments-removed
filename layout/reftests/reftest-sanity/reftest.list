@@ -1163,14 +1163,6 @@ if
 (
 !
 browserIsRemote
-|
-|
-(
-B2G
-&
-&
-browserIsRemote
-)
 )
 =
 =

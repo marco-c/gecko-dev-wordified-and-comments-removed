@@ -213,15 +213,6 @@ sticky
 enabled
 true
 )
-skip
--
-if
-(
-B2G
-&
-&
-browserIsRemote
-)
 =
 =
 sticky

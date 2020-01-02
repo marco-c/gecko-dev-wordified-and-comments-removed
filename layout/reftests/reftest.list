@@ -1011,15 +1011,6 @@ mobile
 font
 size
 inflation
-skip
--
-if
-(
-B2G
-&
-&
-browserIsRemote
-)
 include
 font
 -

@@ -191,15 +191,6 @@ bug592366
 ref
 .
 html
-skip
--
-if
-(
-B2G
-&
-&
-browserIsRemote
-)
 =
 =
 bug592366
