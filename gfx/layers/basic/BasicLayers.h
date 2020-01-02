@@ -700,11 +700,6 @@ gfxContext
 aContext
 )
 ;
-void
-RenderDebugOverlay
-(
-)
-;
 nsIWidget
 *
 mWidget
