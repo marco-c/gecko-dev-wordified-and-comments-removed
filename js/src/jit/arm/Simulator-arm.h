@@ -1142,6 +1142,14 @@ instr
 )
 ;
 void
+decodeVCVTBetweenFloatingPointAndIntegerFrac
+(
+SimInstruction
+*
+instr
+)
+;
+void
 instructionDecode
 (
 SimInstruction
