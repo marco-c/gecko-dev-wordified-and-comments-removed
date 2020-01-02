@@ -2509,6 +2509,13 @@ parse
 aData
 )
 ;
+if
+(
+!
+themeData
+)
+return
+;
 this
 .
 updateStyleSheet
