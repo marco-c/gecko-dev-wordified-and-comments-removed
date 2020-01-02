@@ -32,9 +32,9 @@ UI
 once
 (
 "
-stylesheets
+document
 -
-reset
+load
 "
 testDocumentLoad
 )
