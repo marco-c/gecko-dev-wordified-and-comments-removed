@@ -3002,6 +3002,7 @@ nullptr
 nullptr
 nullptr
 XPC_WN_NoHelper_Trace
+JS_NULL_CLASS_SPEC
 {
 nullptr
 nullptr
@@ -6303,6 +6304,7 @@ nullptr
 nullptr
 nullptr
 XPC_WN_Shared_Proto_Trace
+JS_NULL_CLASS_SPEC
 JS_NULL_CLASS_EXT
 XPC_WN_WithCall_ObjectOps
 }
@@ -6331,6 +6333,7 @@ nullptr
 nullptr
 nullptr
 XPC_WN_Shared_Proto_Trace
+JS_NULL_CLASS_SPEC
 JS_NULL_CLASS_EXT
 XPC_WN_NoCall_ObjectOps
 }
@@ -6647,6 +6650,7 @@ nullptr
 nullptr
 nullptr
 XPC_WN_Shared_Proto_Trace
+JS_NULL_CLASS_SPEC
 JS_NULL_CLASS_EXT
 XPC_WN_WithCall_ObjectOps
 }
@@ -6675,6 +6679,7 @@ nullptr
 nullptr
 nullptr
 XPC_WN_Shared_Proto_Trace
+JS_NULL_CLASS_SPEC
 JS_NULL_CLASS_EXT
 XPC_WN_NoCall_ObjectOps
 }

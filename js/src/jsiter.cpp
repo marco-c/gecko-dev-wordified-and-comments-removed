@@ -4637,6 +4637,7 @@ nullptr
 nullptr
 nullptr
 trace
+JS_NULL_CLASS_SPEC
 {
 nullptr
 nullptr
@@ -7506,6 +7507,7 @@ TraceGenerator
 <
 LegacyGeneratorObject
 >
+JS_NULL_CLASS_SPEC
 {
 nullptr
 nullptr
@@ -7545,6 +7547,7 @@ TraceGenerator
 <
 StarGeneratorObject
 >
+JS_NULL_CLASS_SPEC
 {
 nullptr
 nullptr

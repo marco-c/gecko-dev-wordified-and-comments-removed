@@ -10136,6 +10136,7 @@ TypedDatum
 :
 :
 obj_trace
+JS_NULL_CLASS_SPEC
 JS_NULL_CLASS_EXT
 {
 TypedDatum
@@ -10886,6 +10887,7 @@ TypedDatum
 :
 :
 obj_trace
+JS_NULL_CLASS_SPEC
 JS_NULL_CLASS_EXT
 {
 TypedDatum

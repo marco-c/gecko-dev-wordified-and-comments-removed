@@ -3575,12 +3575,6 @@ ArgumentsObject
 :
 :
 trace
-{
-nullptr
-nullptr
-nullptr
-false
-}
 }
 ;
 const
@@ -3636,11 +3630,5 @@ ArgumentsObject
 :
 :
 trace
-{
-nullptr
-nullptr
-nullptr
-false
-}
 }
 ;
