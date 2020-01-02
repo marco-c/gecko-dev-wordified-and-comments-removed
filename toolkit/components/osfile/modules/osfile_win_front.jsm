@@ -1524,7 +1524,7 @@ ERROR_ACCESS_DENIED
 &
 splitPath
 .
-absolute
+winDrive
 &
 &
 splitPath
