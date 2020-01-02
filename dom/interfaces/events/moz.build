@@ -183,11 +183,6 @@ nsIDOMFocusEvent
 idl
 '
 '
-nsIDOMHashChangeEvent
-.
-idl
-'
-'
 nsIDOMKeyEvent
 .
 idl
