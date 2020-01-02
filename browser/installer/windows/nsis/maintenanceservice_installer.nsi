@@ -1304,10 +1304,7 @@ If
 {
 Errors
 }
-nsExec
-:
-:
-Exec
+ExecWait
 '
 "
 INSTDIR
@@ -1342,10 +1339,7 @@ t
 already
 installed
 .
-nsExec
-:
-:
-Exec
+ExecWait
 '
 "
 INSTDIR
@@ -1885,10 +1879,7 @@ updates
 will
 be
 attempted
-nsExec
-:
-:
-Exec
+ExecWait
 '
 "
 INSTDIR
