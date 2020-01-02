@@ -429,6 +429,9 @@ const
 void
 URLSearchParamsUpdated
 (
+URLSearchParams
+*
+aSearchParams
 )
 MOZ_OVERRIDE
 ;

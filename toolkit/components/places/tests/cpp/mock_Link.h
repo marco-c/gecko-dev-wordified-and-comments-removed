@@ -354,6 +354,9 @@ Link
 :
 URLSearchParamsUpdated
 (
+URLSearchParams
+*
+aSearchParams
 )
 {
 NS_NOTREACHED

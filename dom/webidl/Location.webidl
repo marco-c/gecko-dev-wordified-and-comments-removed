@@ -237,5 +237,5 @@ bug
 .
 Location
 implements
-URLUtilsNoSearchParams
+URLUtils
 ;

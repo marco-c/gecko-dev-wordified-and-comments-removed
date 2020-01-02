@@ -538,6 +538,9 @@ aRv
 void
 URLSearchParamsUpdated
 (
+URLSearchParams
+*
+aSearchParams
 )
 MOZ_OVERRIDE
 ;
