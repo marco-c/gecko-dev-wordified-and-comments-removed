@@ -1165,6 +1165,8 @@ true
 exponent
 )
 ;
+break
+;
 default
 :
 continue
