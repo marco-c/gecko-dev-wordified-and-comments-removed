@@ -44,10 +44,6 @@ sys
 import
 os
 import
-os
-.
-path
-import
 errno
 import
 re
@@ -3484,8 +3480,19 @@ WinError
 def
 main
 (
+args
+=
+None
 )
 :
+  
+args
+=
+args
+or
+sys
+.
+argv
   
 jm
 =
@@ -3510,6 +3517,7 @@ p
 .
 parse_args
 (
+args
 )
   
 jm
@@ -3889,16 +3897,4 @@ infile
 options
 .
 j
-)
-if
-__name__
-=
-=
-"
-__main__
-"
-:
-  
-main
-(
 )

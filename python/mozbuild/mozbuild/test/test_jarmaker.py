@@ -36,7 +36,9 @@ ZipFile
 import
 mozunit
 from
-JarMaker
+mozbuild
+.
+jar
 import
 JarMaker
 if
