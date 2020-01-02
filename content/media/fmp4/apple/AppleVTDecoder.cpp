@@ -63,6 +63,13 @@ h
 #
 include
 "
+AppleCMLinker
+.
+h
+"
+#
+include
+"
 AppleVTDecoder
 .
 h
