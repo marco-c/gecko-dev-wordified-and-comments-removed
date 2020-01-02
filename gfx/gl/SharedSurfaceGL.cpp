@@ -1308,9 +1308,11 @@ MakeCurrent
 GLuint
 tex
 =
+gl
+-
+>
 CreateTexture
 (
-gl
 formats
 .
 color_texInternalFormat
@@ -1594,9 +1596,11 @@ MakeCurrent
 GLuint
 tex
 =
+prodGL
+-
+>
 CreateTextureForOffscreen
 (
-prodGL
 formats
 size
 )
