@@ -7585,7 +7585,7 @@ height
 Matrix
 glToCairoTransform
 =
-MatrixForThebesMatrix
+ToMatrix
 (
 aTransform
 )
