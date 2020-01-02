@@ -1070,6 +1070,15 @@ tools
 <
 !
 ENTITY
+pref_developer_paint_flashing
+"
+Paint
+flashing
+"
+>
+<
+!
+ENTITY
 pref_developer_remotedebugging
 "
 Remote
