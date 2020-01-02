@@ -1145,14 +1145,6 @@ load
 )
 ;
 bool
-visitLoadElementT
-(
-LLoadElementT
-*
-load
-)
-;
-bool
 visitGuardShape
 (
 LGuardShape

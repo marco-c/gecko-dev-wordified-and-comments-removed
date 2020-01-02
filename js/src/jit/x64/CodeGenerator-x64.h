@@ -155,14 +155,6 @@ store
 )
 ;
 bool
-visitLoadElementT
-(
-LLoadElementT
-*
-load
-)
-;
-bool
 visitImplicitThis
 (
 LImplicitThis
