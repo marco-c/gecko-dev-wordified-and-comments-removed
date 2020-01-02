@@ -228,9 +228,6 @@ viewsource
 '
 workerloader
 '
-'
-workerlz4
-'
 ]
 if
 CONFIG
