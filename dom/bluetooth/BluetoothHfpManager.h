@@ -580,12 +580,6 @@ mReceiveVgsFlag
 bool
 mDialingRequestProcessed
 ;
-bool
-mIsHandsfree
-;
-bool
-mNeedsUpdatingSdpRecords
-;
 nsString
 mDeviceAddress
 ;
