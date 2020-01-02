@@ -249,6 +249,8 @@ Destroy
 void
 RunInStableState
 (
+bool
+aSourceIsMSG
 )
 ;
 void
