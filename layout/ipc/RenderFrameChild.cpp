@@ -147,6 +147,13 @@ AddIPDLReference
 (
 )
 ;
+c
+-
+>
+SetHasNoCompositor
+(
+)
+;
 return
 c
 ;
