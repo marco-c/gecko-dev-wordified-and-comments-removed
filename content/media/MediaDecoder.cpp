@@ -5012,6 +5012,12 @@ if
 IsSeeking
 (
 )
+&
+&
+mPlayState
+!
+=
+PLAY_STATE_PAUSED
 )
 {
 if
