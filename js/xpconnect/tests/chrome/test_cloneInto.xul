@@ -1540,12 +1540,12 @@ test
 /
 Check
 that
-we
-'
-re
-cloning
-input
-to
+inputs
+are
+properly
+passed
+through
+cloned
 functions
 :
 test
@@ -1586,7 +1586,7 @@ testInput
 {
 }
 ;
-isnot
+is
 (
 clonedTest
 .
@@ -1598,7 +1598,6 @@ testInput
 "
 Objects
 should
-not
 be
 identical
 "
