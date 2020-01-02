@@ -236,7 +236,7 @@ this
 }
 }
 const
-GMPEncryptedBufferData
+GMPEncryptedBufferMetadata
 *
 GMPVideoEncodedFrameImpl
 :

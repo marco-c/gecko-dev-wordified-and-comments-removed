@@ -116,7 +116,7 @@ Buffer
 ;
 virtual
 const
-GMPEncryptedBufferData
+GMPEncryptedBufferMetadata
 *
 GetDecryptionData
 (

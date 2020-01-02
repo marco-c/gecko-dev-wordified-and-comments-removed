@@ -278,7 +278,7 @@ aBufferType
 ;
 virtual
 const
-GMPEncryptedBufferData
+GMPEncryptedBufferMetadata
 *
 GetDecryptionData
 (

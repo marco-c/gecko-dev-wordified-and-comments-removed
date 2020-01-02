@@ -79,7 +79,7 @@ public
 :
 virtual
 void
-OnOpenComplete
+OpenComplete
 (
 GMPErr
 aStatus
@@ -89,7 +89,7 @@ aStatus
 ;
 virtual
 void
-OnReadComplete
+ReadComplete
 (
 GMPErr
 aStatus
@@ -105,7 +105,7 @@ aDataSize
 ;
 virtual
 void
-OnWriteComplete
+WriteComplete
 (
 GMPErr
 aStatus
