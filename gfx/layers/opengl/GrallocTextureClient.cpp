@@ -168,6 +168,12 @@ aFormat
 aMoz2dBackend
 aFlags
 )
+mGrallocHandle
+(
+null_t
+(
+)
+)
 mMappedBuffer
 (
 nullptr
