@@ -432,6 +432,7 @@ mWasSet
 ;
 public
 :
+explicit
 AutoDontReportUncaught
 (
 JSContext

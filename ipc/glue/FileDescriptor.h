@@ -137,6 +137,7 @@ aOther
 )
 ;
 }
+explicit
 FileDescriptor
 (
 PlatformHandleType

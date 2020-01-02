@@ -610,6 +610,7 @@ T
 )
 {
 }
+explicit
 Optional
 (
 JSContext

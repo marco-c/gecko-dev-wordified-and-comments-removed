@@ -2083,6 +2083,7 @@ WindowLike
 NonWindowLike
 }
 ;
+explicit
 ProtoAndIfaceCache
 (
 Kind
@@ -2450,6 +2451,7 @@ JSTracer
 bool
 ok
 ;
+explicit
 VerifyTraceProtoAndIfaceCacheCalledTracer
 (
 JSRuntime
@@ -9851,6 +9853,7 @@ CustomAutoRooter
 {
 public
 :
+explicit
 RootedUnion
 (
 JSContext
@@ -9915,6 +9918,7 @@ CustomAutoRooter
 {
 public
 :
+explicit
 NullableRootedUnion
 (
 JSContext

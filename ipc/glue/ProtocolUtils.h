@@ -581,6 +581,7 @@ IToplevelProtocol
 {
 protected
 :
+explicit
 IToplevelProtocol
 (
 ProtocolId

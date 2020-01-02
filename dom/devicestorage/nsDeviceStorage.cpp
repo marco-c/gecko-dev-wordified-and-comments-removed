@@ -4936,6 +4936,8 @@ rv
 aFileDescriptor
 =
 FileDescriptor
+(
+FileDescriptor
 :
 :
 PlatformHandleType
@@ -4943,6 +4945,7 @@ PlatformHandleType
 PR_FileDesc2NativeHandle
 (
 fd
+)
 )
 )
 ;

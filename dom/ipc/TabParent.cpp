@@ -817,7 +817,10 @@ tabParent
 SendCacheFileDescriptor
 (
 mPath
+FileDescriptor
+(
 handle
+)
 )
 ;
 nsCOMPtr

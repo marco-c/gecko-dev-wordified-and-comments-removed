@@ -668,6 +668,7 @@ mWorkerPrivate
 ;
 private
 :
+explicit
 WorkerCrossThreadDispatcher
 (
 WorkerPrivate

@@ -56,6 +56,7 @@ CustomAutoRooter
 {
 public
 :
+explicit
 RootedDictionary
 (
 JSContext
@@ -120,6 +121,7 @@ CustomAutoRooter
 {
 public
 :
+explicit
 NullableRootedDictionary
 (
 JSContext
