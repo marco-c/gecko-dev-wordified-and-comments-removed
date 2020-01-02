@@ -4123,7 +4123,7 @@ ion
 .
 chrome
 "
-false
+true
 )
 ;
 pref
@@ -4189,7 +4189,7 @@ typeinference
 .
 chrome
 "
-false
+true
 )
 ;
 pref
