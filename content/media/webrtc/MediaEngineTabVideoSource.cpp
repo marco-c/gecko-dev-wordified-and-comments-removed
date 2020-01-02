@@ -709,9 +709,9 @@ MediaEngineTabVideoSource
 Allocate
 (
 const
-mozilla
-:
-:
+VideoTrackConstraintsN
+&
+const
 MediaEnginePrefs
 &
 )

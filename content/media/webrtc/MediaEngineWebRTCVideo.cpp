@@ -54,6 +54,13 @@ runnable_utils
 h
 "
 #
+include
+"
+MediaTrackConstraints
+.
+h
+"
+#
 ifdef
 MOZ_B2G_CAMERA
 #
@@ -766,6 +773,10 @@ MediaEngineWebRTCVideoSource
 ChooseCapability
 (
 const
+VideoTrackConstraintsN
+&
+aConstraints
+const
 MediaEnginePrefs
 &
 aPrefs
@@ -1134,6 +1145,10 @@ MediaEngineWebRTCVideoSource
 Allocate
 (
 const
+VideoTrackConstraintsN
+&
+aConstraints
+const
 MediaEnginePrefs
 &
 aPrefs
@@ -1168,6 +1183,7 @@ mInitDone
 {
 ChooseCapability
 (
+aConstraints
 aPrefs
 )
 ;
@@ -1218,6 +1234,7 @@ mInitDone
 {
 ChooseCapability
 (
+aConstraints
 aPrefs
 )
 ;

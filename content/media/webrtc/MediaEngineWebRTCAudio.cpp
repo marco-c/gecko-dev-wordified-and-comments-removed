@@ -27,6 +27,13 @@ Assertions
 h
 "
 #
+include
+"
+MediaTrackConstraints
+.
+h
+"
+#
 ifdef
 FF
 #
@@ -1206,6 +1213,10 @@ MediaEngineWebRTCAudioSource
 :
 Allocate
 (
+const
+AudioTrackConstraintsN
+&
+aConstraints
 const
 MediaEnginePrefs
 &
