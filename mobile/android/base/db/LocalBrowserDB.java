@@ -4270,6 +4270,7 @@ updated
 =
 0
 )
+{
 cr
 .
 insert
@@ -4278,6 +4279,7 @@ mFaviconsUriWithProfile
 values
 )
 ;
+}
 }
 Override
 public
