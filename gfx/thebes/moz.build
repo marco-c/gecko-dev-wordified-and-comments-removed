@@ -203,6 +203,11 @@ gfxLineSegment
 h
 '
 '
+gfxMathTable
+.
+h
+'
+'
 gfxMatrix
 .
 h
@@ -1257,6 +1262,11 @@ cpp
 '
 '
 gfxImageSurface
+.
+cpp
+'
+'
+gfxMathTable
 .
 cpp
 '
