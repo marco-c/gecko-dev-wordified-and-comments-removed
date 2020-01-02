@@ -100,9 +100,6 @@ DIRS
 '
 secondplugin
 '
-'
-javaplugin
-'
 ]
 LIBRARY_NAME
 =
