@@ -103,6 +103,11 @@ UNIFIED_SOURCES
 =
 [
 '
+TestAudioCompactor
+.
+cpp
+'
+'
 TestTrackEncoder
 .
 cpp
