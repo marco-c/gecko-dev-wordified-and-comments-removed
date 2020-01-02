@@ -18565,13 +18565,6 @@ function
 )
 {
 }
-setJSDefaultStatus
-:
-function
-(
-)
-{
-}
 setDefaultStatus
 :
 function
