@@ -66,15 +66,6 @@ h
 "
 namespace
 {
-const
-char
-kWorkScheduled
-=
-'
-\
-0
-'
-;
 int
 GetTimeIntervalMilliseconds
 (
