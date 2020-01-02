@@ -958,6 +958,11 @@ RelativeLayout
 .
 LayoutParams
 (
+(
+ViewGroup
+.
+MarginLayoutParams
+)
 urlBarEntryDefaultLayoutParams
 )
 ;
