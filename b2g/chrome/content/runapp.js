@@ -17,6 +17,17 @@ function
 (
 )
 {
+if
+(
+!
+window
+.
+arguments
+)
+{
+return
+;
+}
 let
 args
 =

@@ -303,6 +303,17 @@ checkDebuggerPort
 (
 )
 {
+if
+(
+!
+window
+.
+arguments
+)
+{
+return
+;
+}
 let
 args
 =
