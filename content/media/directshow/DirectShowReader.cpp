@@ -1397,6 +1397,7 @@ mBytesPerSample
 }
 }
 mNextSample
++
 =
 maxSamples
 ;
