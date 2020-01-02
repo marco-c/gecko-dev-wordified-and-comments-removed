@@ -4418,7 +4418,7 @@ RemoveElementAt
 lastItemIdx
 )
 ;
-NS_RELEASE
+NS_IF_RELEASE
 (
 wrapper
 )
