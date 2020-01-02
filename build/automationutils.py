@@ -322,6 +322,12 @@ args
 -
 -
 "
+    
+"
+requiresEscapedArgs
+"
+:
+True
   
 }
   
@@ -1407,6 +1413,18 @@ args
 .
 split
 (
+)
+      
+"
+requiresEscapedArgs
+"
+:
+getDebuggerInfo
+(
+"
+requiresEscapedArgs
+"
+False
 )
     
 }
