@@ -292,6 +292,11 @@ SVGFEDistantLightElement
 h
 '
 '
+SVGFEDropShadowElement
+.
+h
+'
+'
 SVGFEFloodElement
 .
 h
@@ -893,6 +898,11 @@ cpp
 '
 '
 SVGFEDistantLightElement
+.
+cpp
+'
+'
+SVGFEDropShadowElement
 .
 cpp
 '

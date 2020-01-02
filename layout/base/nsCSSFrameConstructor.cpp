@@ -20283,6 +20283,11 @@ NS_NewSVGFELeafFrame
 )
 SIMPLE_SVG_CREATE
 (
+feDropShadow
+NS_NewSVGFELeafFrame
+)
+SIMPLE_SVG_CREATE
+(
 feFlood
 NS_NewSVGFELeafFrame
 )
