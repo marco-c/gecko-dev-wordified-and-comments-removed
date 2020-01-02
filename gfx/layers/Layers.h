@@ -4419,7 +4419,7 @@ ContainerLayer
 )
 ;
 virtual
-void
+bool
 InsertAfter
 (
 Layer
@@ -5604,7 +5604,7 @@ LayerManager
 private
 :
 virtual
-void
+bool
 InsertAfter
 (
 Layer
@@ -5614,10 +5614,14 @@ Layer
 *
 aAfter
 )
+MOZ_OVERRIDE
 {
 MOZ_CRASH
 (
 )
+;
+return
+false
 ;
 }
 virtual

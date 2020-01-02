@@ -623,9 +623,6 @@ bool
 aDrawingCritical
 )
 ;
-#
-ifdef
-DEBUG
 bool
 InConstruction
 (
@@ -638,6 +635,9 @@ mPhase
 PHASE_CONSTRUCTION
 ;
 }
+#
+ifdef
+DEBUG
 bool
 InDrawing
 (
