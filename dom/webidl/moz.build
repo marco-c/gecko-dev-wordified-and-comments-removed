@@ -2672,7 +2672,17 @@ MozWifiConnectionInfoEvent
 webidl
 '
 '
+MozWifiP2pStatusChangeEvent
+.
+webidl
+'
+'
 MozWifiStatusChangeEvent
+.
+webidl
+'
+'
+WifiP2pManager
 .
 webidl
 '
