@@ -891,6 +891,9 @@ aSystem
 mIsAnon
 =
 aAnon
+|
+|
+aSystem
 ;
 mIsSystem
 =
