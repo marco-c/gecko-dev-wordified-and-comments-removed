@@ -1417,16 +1417,6 @@ incorrect
 "
 )
 ;
-teardown
-(
-aMonitor
-)
-.
-then
-(
-finish
-)
-;
 }
 )
 ;
