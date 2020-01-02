@@ -2159,6 +2159,14 @@ CreateBackBuffer
 mFrontBufferRect
 )
 ;
+mBufferRect
+=
+mFrontBufferRect
+;
+mBufferRotation
+=
+mFrontBufferRotation
+;
 }
 }
 void
