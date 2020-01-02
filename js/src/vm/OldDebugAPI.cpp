@@ -4056,7 +4056,7 @@ i
 +
 )
 {
-js_RemoveRoot
+RemoveRoot
 (
 cx
 -
@@ -4073,7 +4073,7 @@ i
 id
 )
 ;
-js_RemoveRoot
+RemoveRoot
 (
 cx
 -
@@ -4101,7 +4101,7 @@ flags
 &
 JSPD_ALIAS
 )
-js_RemoveRoot
+RemoveRoot
 (
 cx
 -
