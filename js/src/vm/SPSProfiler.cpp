@@ -1623,6 +1623,9 @@ SPSEntryMarker
 JSRuntime
 *
 rt
+JSScript
+*
+script
 MOZ_GUARD_OBJECT_NOTIFIER_PARAM_IN_IMPL
 )
 :
@@ -1674,9 +1677,14 @@ js
 :
 RunScript
 "
-this
 nullptr
-nullptr
+script
+script
+-
+>
+code
+(
+)
 false
 )
 ;
