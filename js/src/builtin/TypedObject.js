@@ -7461,7 +7461,6 @@ outOffset
 =
 outGrainTypeSize
 ;
-}
 if
 (
 outGrainTypeIsTransparent
@@ -7470,6 +7469,7 @@ ClearThreadLocalArenas
 (
 )
 ;
+}
 }
 return
 sliceId
