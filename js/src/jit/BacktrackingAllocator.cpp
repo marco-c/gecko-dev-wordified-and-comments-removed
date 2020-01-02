@@ -4679,7 +4679,7 @@ newInterval
 addInterval
 -
 >
-addUse
+addUseAtEnd
 (
 new
 (
@@ -10458,7 +10458,7 @@ back
 )
 -
 >
-addUse
+addUseAtEnd
 (
 new
 (
@@ -10577,7 +10577,7 @@ back
 )
 -
 >
-addUse
+addUseAtEnd
 (
 new
 (
@@ -10609,7 +10609,7 @@ spillIntervalIsNew
 spillInterval
 -
 >
-addUse
+addUseAtEnd
 (
 new
 (
@@ -11103,7 +11103,7 @@ back
 )
 -
 >
-addUse
+addUseAtEnd
 (
 new
 (
@@ -11230,7 +11230,7 @@ back
 )
 -
 >
-addUse
+addUseAtEnd
 (
 new
 (
@@ -11269,7 +11269,7 @@ spillIntervalIsNew
 spillInterval
 -
 >
-addUse
+addUseAtEnd
 (
 new
 (
