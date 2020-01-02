@@ -15771,14 +15771,6 @@ aContext
 mGLContext
 -
 >
-SetFlipped
-(
-true
-)
-;
-mGLContext
--
->
 MakeCurrent
 (
 )
