@@ -376,6 +376,11 @@ NodeIterator
 h
 '
 '
+ShadowRoot
+.
+h
+'
+'
 Text
 .
 h
@@ -792,6 +797,11 @@ cpp
 '
 '
 nsXMLNameSpaceMap
+.
+cpp
+'
+'
+ShadowRoot
 .
 cpp
 '

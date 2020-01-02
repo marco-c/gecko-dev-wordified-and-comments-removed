@@ -56,11 +56,7 @@ class
 Element
 ;
 class
-HTMLTemplateElement
-;
-class
 DocumentFragment
-MOZ_FINAL
 :
 public
 FragmentOrElement
@@ -440,7 +436,7 @@ return
 nullptr
 ;
 }
-HTMLTemplateElement
+nsIContent
 *
 GetHost
 (
@@ -454,7 +450,7 @@ mHost
 void
 SetHost
 (
-HTMLTemplateElement
+nsIContent
 *
 aHost
 )
@@ -529,13 +525,7 @@ aResult
 const
 MOZ_OVERRIDE
 ;
-mozilla
-:
-:
-dom
-:
-:
-HTMLTemplateElement
+nsIContent
 *
 mHost
 ;

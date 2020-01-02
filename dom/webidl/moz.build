@@ -1415,6 +1415,11 @@ SettingsManager
 webidl
 '
 '
+ShadowRoot
+.
+webidl
+'
+'
 SharedWorker
 .
 webidl
@@ -2509,11 +2514,6 @@ webidl
 '
 '
 BluetoothDeviceEvent
-.
-webidl
-'
-'
-BluetoothDiscoveryStateChangedEvent
 .
 webidl
 '

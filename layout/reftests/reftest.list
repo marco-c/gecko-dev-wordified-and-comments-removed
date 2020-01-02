@@ -1889,6 +1889,15 @@ reftest
 .
 list
 #
+webcomonents
+/
+include
+webcomponents
+/
+reftest
+.
+list
+#
 widget
 /
 skip

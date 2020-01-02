@@ -2138,6 +2138,17 @@ GetBoundingClientRect
 (
 )
 ;
+already_AddRefed
+<
+ShadowRoot
+>
+CreateShadowRoot
+(
+ErrorResult
+&
+aError
+)
+;
 void
 ScrollIntoView
 (
@@ -3166,7 +3177,6 @@ UnregisterFreezableElement
 (
 )
 ;
-inline
 void
 AddToIdTable
 (
@@ -3175,7 +3185,6 @@ nsIAtom
 aId
 )
 ;
-inline
 void
 RemoveFromIdTable
 (
