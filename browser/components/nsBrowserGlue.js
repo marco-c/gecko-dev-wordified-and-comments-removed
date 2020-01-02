@@ -473,6 +473,9 @@ jsm
 "
 )
 ;
+#
+ifdef
+NIGHTLY_BUILD
 XPCOMUtils
 .
 defineLazyModuleGetter
@@ -494,6 +497,8 @@ jsm
 "
 )
 ;
+#
+endif
 XPCOMUtils
 .
 defineLazyModuleGetter
@@ -3089,12 +3094,17 @@ init
 (
 )
 ;
+#
+ifdef
+NIGHTLY_BUILD
 ShumwayUtils
 .
 init
 (
 )
 ;
+#
+endif
 webrtcUI
 .
 init
