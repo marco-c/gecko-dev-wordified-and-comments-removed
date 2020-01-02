@@ -5980,7 +5980,7 @@ src
 =
 NULL
 ;
-uint32_t
+size_t
 length
 ;
 if
@@ -5995,6 +5995,9 @@ runtime
 -
 >
 sourceHook
+-
+>
+load
 (
 cx
 ss
@@ -6655,7 +6658,7 @@ const
 jschar
 *
 src
-uint32_t
+size_t
 length
 )
 {
