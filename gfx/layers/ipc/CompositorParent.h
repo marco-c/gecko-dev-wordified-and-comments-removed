@@ -185,6 +185,9 @@ class
 AsyncCompositionManager
 ;
 class
+Compositor
+;
+class
 LayerManagerComposite
 ;
 class
@@ -798,6 +801,12 @@ nsRefPtr
 LayerManagerComposite
 >
 mLayerManager
+;
+nsRefPtr
+<
+Compositor
+>
+mCompositor
 ;
 RefPtr
 <
