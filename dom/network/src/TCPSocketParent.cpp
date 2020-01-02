@@ -1244,9 +1244,10 @@ name
 init
 (
 aCx
-JSVAL_TO_STRING
-(
 val
+.
+toString
+(
 )
 )
 )

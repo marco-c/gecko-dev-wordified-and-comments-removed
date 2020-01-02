@@ -663,9 +663,10 @@ return
 init
 (
 aContext
-JSVAL_TO_STRING
-(
 v
+.
+toString
+(
 )
 )
 ;

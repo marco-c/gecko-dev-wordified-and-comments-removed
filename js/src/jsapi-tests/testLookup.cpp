@@ -267,9 +267,10 @@ JSString
 *
 str
 =
-JSVAL_TO_STRING
-(
 v
+.
+toString
+(
 )
 ;
 JSFlatString

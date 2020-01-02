@@ -4136,9 +4136,10 @@ QuoteString
 (
 &
 sprinter
-JSVAL_TO_STRING
-(
 v
+.
+toString
+(
 )
 '
 "

@@ -9389,9 +9389,10 @@ RootedString
 str
 (
 cx
-JSVAL_TO_STRING
-(
 closure
+.
+toString
+(
 )
 )
 ;
@@ -28310,9 +28311,10 @@ JSString
 *
 str
 =
-JSVAL_TO_STRING
-(
 v
+.
+toString
+(
 )
 ;
 JS

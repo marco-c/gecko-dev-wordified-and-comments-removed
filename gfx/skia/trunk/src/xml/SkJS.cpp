@@ -434,9 +434,10 @@ name
 =
 JS_GetStringBytes
 (
-JSVAL_TO_STRING
-(
 id
+.
+toString
+(
 )
 )
 ;

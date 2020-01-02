@@ -230,9 +230,10 @@ isString
 {
 str
 =
-JSVAL_TO_STRING
-(
 arg
+.
+toString
+(
 )
 ;
 }
@@ -427,9 +428,10 @@ cx
 JS_FlattenString
 (
 cx
-JSVAL_TO_STRING
-(
 path
+.
+toString
+(
 )
 )
 )
