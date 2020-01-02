@@ -823,16 +823,6 @@ initial
 )
 ;
 static
-ThingRootKind
-kind
-(
-)
-{
-return
-THING_ROOT_BINDINGS
-;
-}
-static
 bool
 poisoned
 (
