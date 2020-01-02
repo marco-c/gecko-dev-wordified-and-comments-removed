@@ -173,11 +173,6 @@ nsClipboardHelper
 cpp
 '
 '
-nsClipboardPrivacyHandler
-.
-cpp
-'
-'
 nsClipboardProxy
 .
 cpp
