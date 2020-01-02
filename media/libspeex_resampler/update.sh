@@ -167,3 +167,14 @@ p3
 reset
 .
 patch
+patch
+-
+p3
+<
+set
+-
+skip
+-
+frac
+.
+patch
