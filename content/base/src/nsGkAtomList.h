@@ -14066,17 +14066,6 @@ symbol
 )
 GK_ATOM
 (
-x_user_def
-"
-x
--
-user
--
-def
-"
-)
-GK_ATOM
-(
 az
 "
 az

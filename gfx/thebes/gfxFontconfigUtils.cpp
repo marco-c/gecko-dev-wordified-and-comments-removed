@@ -1794,13 +1794,6 @@ nsGkAtoms
 Unicode
 0
 }
-{
-nsGkAtoms
-:
-:
-x_user_def
-0
-}
 }
 ;
 static

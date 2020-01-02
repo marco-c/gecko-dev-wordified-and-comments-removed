@@ -267,15 +267,12 @@ eFontPrefLang_LangCount
 eFontPrefLang_Others
 =
 30
-eFontPrefLang_UserDefined
-=
-31
 eFontPrefLang_CJKSet
 =
-32
+31
 eFontPrefLang_AllCount
 =
-33
+32
 }
 ;
 enum

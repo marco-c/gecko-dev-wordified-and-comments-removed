@@ -1226,13 +1226,6 @@ x
 -
 unicode
 "
-"
-x
--
-user
--
-def
-"
 }
 ;
 gfxPlatform
