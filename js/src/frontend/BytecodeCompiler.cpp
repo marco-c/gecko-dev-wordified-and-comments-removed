@@ -3016,7 +3016,7 @@ if
 sourceObject
 )
 return
-nullptr
+false
 ;
 ScriptSource
 *
