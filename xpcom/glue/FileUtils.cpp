@@ -1273,7 +1273,7 @@ type
 endif
 #
 ifdef
-HAVE_64BIT_OS
+__LP64__
 #
 undef
 LC_SEGMENT
