@@ -888,16 +888,6 @@ aIgnore
 MOZ_OVERRIDE
 ;
 virtual
-void
-SetDisplayPort
-(
-const
-nsRect
-&
-aDisplayPort
-)
-;
-virtual
 nsresult
 SetResolution
 (
