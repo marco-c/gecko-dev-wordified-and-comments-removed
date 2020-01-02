@@ -890,11 +890,6 @@ aFrameMetrics
 )
 ;
 void
-UIResolutionChanged
-(
-)
-;
-void
 AcknowledgeScrollUpdate
 (
 const

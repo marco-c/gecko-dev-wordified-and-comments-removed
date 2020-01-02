@@ -2086,13 +2086,6 @@ docShell
 )
 ;
 }
-virtual
-bool
-RecvUIResolutionChanged
-(
-)
-MOZ_OVERRIDE
-;
 protected
 :
 virtual
