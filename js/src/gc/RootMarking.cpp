@@ -4238,6 +4238,9 @@ trc
 ;
 if
 (
+rt
+-
+>
 scriptAndCountsVector
 )
 {
@@ -4246,6 +4249,9 @@ ScriptAndCountsVector
 vec
 =
 *
+rt
+-
+>
 scriptAndCountsVector
 ;
 for
