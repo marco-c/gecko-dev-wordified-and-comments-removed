@@ -96,6 +96,14 @@ ePseudoClass_any
 ;
 }
 static
+bool
+IsUserActionPseudoClass
+(
+Type
+aType
+)
+;
+static
 void
 PseudoTypeToString
 (
