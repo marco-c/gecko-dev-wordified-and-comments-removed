@@ -23,6 +23,9 @@ taintEnabled
 "
 userAgent
 "
+"
+onLine
+"
 ]
 ;
 for

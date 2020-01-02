@@ -194,6 +194,14 @@ attribute
 OnErrorEventHandler
 onerror
 ;
+attribute
+EventHandler
+onoffline
+;
+attribute
+EventHandler
+ononline
+;
 /
 /
 also
