@@ -1321,12 +1321,12 @@ SSRCS
 =
 [
 '
-fans
+bans
 .
 S
 '
 '
-tans
+fans
 .
 S
 '

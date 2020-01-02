@@ -274,6 +274,10 @@ HOST_CSRCS
 =
 [
 '
+build
+/
+make
+/
 obj_int_extract
 .
 c

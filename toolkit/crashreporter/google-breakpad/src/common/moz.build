@@ -460,6 +460,8 @@ SSRCS
 =
 [
 '
+android
+/
 breakpad_getcontext
 .
 S

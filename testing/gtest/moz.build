@@ -691,6 +691,8 @@ GTEST_CPP_SOURCES
 =
 [
 '
+mozilla
+/
 SanityTest
 .
 cpp
