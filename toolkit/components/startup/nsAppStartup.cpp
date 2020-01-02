@@ -492,13 +492,6 @@ Exit
 mService
 -
 >
-mShuttingDown
-=
-false
-;
-mService
--
->
 mRunning
 =
 false
