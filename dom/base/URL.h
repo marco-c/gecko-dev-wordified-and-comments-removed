@@ -502,6 +502,14 @@ URLProxy
 ;
 }
 ;
+bool
+IsChromeURI
+(
+nsIURI
+*
+aURI
+)
+;
 }
 }
 #
