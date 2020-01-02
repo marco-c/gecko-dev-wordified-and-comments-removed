@@ -195,6 +195,9 @@ mOutputSubtype
 bool
 mMFTProvidesOutputSamples
 ;
+bool
+mDiscontinuity
+;
 }
 ;
 }
