@@ -4342,6 +4342,10 @@ mScopeAndMapSize
 (
 0
 )
+mProtoAndIfaceCacheSize
+(
+0
+)
 {
 }
 mozilla
@@ -4352,6 +4356,9 @@ mMallocSizeOf
 ;
 size_t
 mScopeAndMapSize
+;
+size_t
+mProtoAndIfaceCacheSize
 ;
 }
 ;
