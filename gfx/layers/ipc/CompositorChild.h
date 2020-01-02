@@ -362,12 +362,6 @@ ClientLayerManager
 >
 mLayerManager
 ;
-nsCOMPtr
-<
-nsIObserver
->
-mMemoryPressureObserver
-;
 nsClassHashtable
 <
 nsUint64HashKey
