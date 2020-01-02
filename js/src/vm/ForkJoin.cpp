@@ -6361,6 +6361,15 @@ slice
 isMainThread
 (
 )
+|
+|
+!
+threadPool_
+-
+>
+isMainThreadActive
+(
+)
 )
 {
 JS_ASSERT

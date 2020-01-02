@@ -275,6 +275,12 @@ workStealing
 )
 const
 ;
+bool
+isMainThreadActive
+(
+)
+const
+;
 #
 ifdef
 DEBUG
