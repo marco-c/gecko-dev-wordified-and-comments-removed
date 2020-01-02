@@ -225,6 +225,8 @@ ptr
 )
 ;
 }
+private
+:
 ~
 nsMainThreadPtrHolder
 (
@@ -296,6 +298,8 @@ mRawPtr
 ;
 }
 }
+public
+:
 T
 *
 get
