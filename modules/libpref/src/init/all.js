@@ -12659,7 +12659,7 @@ break
 .
 enabled
 "
-false
+true
 )
 ;
 pref
