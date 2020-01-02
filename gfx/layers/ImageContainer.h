@@ -1096,17 +1096,6 @@ ImageFactory
 )
 ;
 }
-ImageFactory
-*
-GetImageFactory
-(
-)
-const
-{
-return
-mImageFactory
-;
-}
 TimeStamp
 GetPaintTime
 (
