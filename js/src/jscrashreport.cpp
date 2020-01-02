@@ -731,7 +731,7 @@ snaptime
 =
 time
 (
-NULL
+nullptr
 )
 ;
 return
@@ -835,7 +835,7 @@ t
 =
 time
 (
-NULL
+nullptr
 )
 ;
 copyBytes

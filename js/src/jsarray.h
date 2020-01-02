@@ -146,7 +146,7 @@ JSObject
 *
 proto
 =
-NULL
+nullptr
 NewObjectKind
 newKind
 =
@@ -168,7 +168,7 @@ JSObject
 *
 proto
 =
-NULL
+nullptr
 NewObjectKind
 newKind
 =
@@ -190,7 +190,7 @@ JSObject
 *
 proto
 =
-NULL
+nullptr
 NewObjectKind
 newKind
 =
@@ -215,7 +215,7 @@ JSObject
 *
 proto
 =
-NULL
+nullptr
 )
 ;
 extern
@@ -236,7 +236,7 @@ JSObject
 *
 proto
 =
-NULL
+nullptr
 NewObjectKind
 newKind
 =

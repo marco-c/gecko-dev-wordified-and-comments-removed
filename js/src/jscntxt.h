@@ -497,7 +497,7 @@ JSContext
 this
 ;
 return
-NULL
+nullptr
 ;
 }
 JSContext
@@ -579,7 +579,7 @@ ExclusiveContext
 this
 ;
 return
-NULL
+nullptr
 ;
 }
 ExclusiveContext
@@ -1073,7 +1073,7 @@ kind
 )
 workerThread_
 (
-NULL
+nullptr
 )
 enterCompartmentDepth_
 (
@@ -1263,7 +1263,7 @@ JSFunction
 *
 fun
 =
-NULL
+nullptr
 )
 ;
 types
@@ -1918,7 +1918,7 @@ jsbytecode
 *
 pc
 =
-NULL
+nullptr
 MaybeAllowCrossCompartment
 =
 DONT_ALLOW_CROSS_COMPARTMENT
@@ -2787,8 +2787,8 @@ errorNumber
 spindex
 v
 fallback
-NULL
-NULL
+nullptr
+nullptr
 )
 )
 #
@@ -2817,7 +2817,7 @@ spindex
 v
 fallback
 arg1
-NULL
+nullptr
 )
 )
 #

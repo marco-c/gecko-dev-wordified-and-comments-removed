@@ -297,7 +297,7 @@ numBegin
 )
 {
 return
-NULL
+nullptr
 ;
 }
 nDigits
@@ -332,7 +332,7 @@ bufferSize
 )
 {
 return
-NULL
+nullptr
 ;
 }
 js_memcpy
@@ -1346,7 +1346,7 @@ if
 buffer
 )
 return
-NULL
+nullptr
 ;
 p
 =
@@ -1643,7 +1643,7 @@ buffer
 )
 ;
 return
-NULL
+nullptr
 ;
 }
 do
@@ -1781,7 +1781,7 @@ mlo
 =
 mhi
 =
-NULL
+nullptr
 ;
 *
 p
@@ -1849,7 +1849,7 @@ buffer
 )
 ;
 return
-NULL
+nullptr
 ;
 }
 JS_ASSERT

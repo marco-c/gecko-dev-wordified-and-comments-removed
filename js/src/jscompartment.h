@@ -86,7 +86,7 @@ DtoaCache
 :
 s
 (
-NULL
+nullptr
 )
 {
 }
@@ -97,7 +97,7 @@ purge
 {
 s
 =
-NULL
+nullptr
 ;
 }
 JSFlatString
@@ -139,7 +139,7 @@ this
 >
 s
 :
-NULL
+nullptr
 ;
 }
 void
@@ -230,11 +230,11 @@ ObjectWrapper
 )
 debugger
 (
-NULL
+nullptr
 )
 wrapped
 (
-NULL
+nullptr
 )
 {
 }
@@ -251,7 +251,7 @@ ObjectWrapper
 )
 debugger
 (
-NULL
+nullptr
 )
 wrapped
 (
@@ -272,7 +272,7 @@ StringWrapper
 )
 debugger
 (
-NULL
+nullptr
 )
 wrapped
 (
@@ -300,7 +300,7 @@ ObjectWrapper
 )
 debugger
 (
-NULL
+nullptr
 )
 wrapped
 (
@@ -348,7 +348,7 @@ ObjectWrapper
 )
 debugger
 (
-NULL
+nullptr
 )
 wrapped
 (
@@ -1491,7 +1491,7 @@ Enum
 *
 debuggeesEnum
 =
-NULL
+nullptr
 )
 ;
 void
@@ -1525,7 +1525,7 @@ Enum
 *
 debuggeesEnum
 =
-NULL
+nullptr
 )
 ;
 bool

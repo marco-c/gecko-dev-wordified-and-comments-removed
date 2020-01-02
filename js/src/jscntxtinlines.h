@@ -1942,7 +1942,7 @@ runtime
 >
 exclusiveAccessOwner
 =
-NULL
+nullptr
 ;
 #
 endif
@@ -2414,7 +2414,7 @@ zone
 (
 )
 :
-NULL
+nullptr
 ;
 allocator_
 =
@@ -2426,7 +2426,7 @@ zone_
 >
 allocator
 :
-NULL
+nullptr
 ;
 }
 inline
@@ -2453,7 +2453,7 @@ ppc
 *
 ppc
 =
-NULL
+nullptr
 ;
 js
 :
@@ -2526,7 +2526,7 @@ if
 act
 )
 return
-NULL
+nullptr
 ;
 JS_ASSERT
 (
@@ -2558,7 +2558,7 @@ JSScript
 *
 script
 =
-NULL
+nullptr
 ;
 js
 :
@@ -2600,7 +2600,7 @@ compartment
 )
 )
 return
-NULL
+nullptr
 ;
 return
 script
@@ -2678,7 +2678,7 @@ compartment
 )
 )
 return
-NULL
+nullptr
 ;
 if
 (
