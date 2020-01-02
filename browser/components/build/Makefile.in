@@ -87,7 +87,7 @@ EXPAND_LIBNAME
 version
 )
 endif
-EXTRA_DSO_LDOPTS
+EXTRA_LIBS
 +
 =
 \
@@ -138,7 +138,7 @@ MOZ_WIDGET_TOOLKIT
 )
 )
 )
-EXTRA_DSO_LDOPTS
+OS_LIBS
 +
 =
 \

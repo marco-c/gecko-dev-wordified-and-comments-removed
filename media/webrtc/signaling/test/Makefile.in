@@ -55,7 +55,7 @@ MPL
 .
 *
 /
-LIBS
+EXTRA_LIBS
 +
 =
 \
@@ -66,6 +66,13 @@ NSPR_LIBS
 (
 NSS_LIBS
 )
+\
+(
+NULL
+)
+OS_LIBS
++
+=
 \
 (
 MOZ_WEBRTC_X11_LIBS
@@ -80,7 +87,7 @@ NULL
 )
 ifdef
 MOZ_ALSA
-LIBS
+OS_LIBS
 +
 =
 \
@@ -99,7 +106,7 @@ OS_TARGET
 )
 Android
 )
-LIBS
+EXTRA_LIBS
 +
 =
 \
@@ -128,7 +135,7 @@ NULL
 endif
 ifdef
 MOZ_NATIVE_JPEG
-LIBS
+OS_LIBS
 +
 =
 \
@@ -142,7 +149,7 @@ NULL
 endif
 ifdef
 MOZ_NATIVE_LIBVPX
-LIBS
+OS_LIBS
 +
 =
 \
@@ -156,7 +163,7 @@ NULL
 endif
 ifndef
 MOZ_TREE_PIXMAN
-LIBS
+OS_LIBS
 +
 =
 \
@@ -175,7 +182,7 @@ gtk2
 MOZ_WIDGET_TOOLKIT
 )
 )
-LIBS
+OS_LIBS
 +
 =
 \
@@ -211,7 +218,7 @@ gtk3
 MOZ_WIDGET_TOOLKIT
 )
 )
-LIBS
+OS_LIBS
 +
 =
 \
@@ -234,7 +241,7 @@ qt
 MOZ_WIDGET_TOOLKIT
 )
 )
-LIBS
+OS_LIBS
 +
 =
 \
@@ -268,7 +275,7 @@ OS_TARGET
 )
 )
 )
-LIBS
+OS_LIBS
 +
 =
 \
@@ -287,7 +294,7 @@ OS_TARGET
 )
 Darwin
 )
-LIBS
+OS_LIBS
 +
 =
 \
@@ -301,7 +308,7 @@ NULL
 endif
 ifdef
 MOZ_NATIVE_ZLIB
-LIBS
+OS_LIBS
 +
 =
 (
@@ -330,15 +337,5 @@ webrtc
 webrtc
 -
 config
-.
-mk
-include
-(
-topsrcdir
-)
-/
-config
-/
-rules
 .
 mk

@@ -1920,7 +1920,7 @@ endif
 Fold
 NSPR
 libs
-EXTRA_DSO_LDOPTS
+EXTRA_LIBS
 +
 =
 (
@@ -1940,7 +1940,7 @@ nspr4
 (
 SUFFIX
 )
-EXTRA_DSO_LDOPTS
+EXTRA_LIBS
 +
 =
 (
@@ -1960,7 +1960,7 @@ plds4
 (
 SUFFIX
 )
-EXTRA_DSO_LDOPTS
+EXTRA_LIBS
 +
 =
 (
@@ -1993,7 +1993,7 @@ smime
 ssl
 and
 nssutil
-SHARED_LIBRARY_LIBS
+EXTRA_LIBS
 +
 =
 (
@@ -2240,7 +2240,7 @@ addprefix
 NSS_STATIC_LIBS
 )
 )
-EXTRA_DSO_LDOPTS
+OS_LIBS
 +
 =
 (

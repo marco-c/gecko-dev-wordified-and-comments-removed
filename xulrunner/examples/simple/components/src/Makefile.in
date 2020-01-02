@@ -68,7 +68,7 @@ MPL
 0
 /
 .
-EXTRA_DSO_LDOPTS
+EXTRA_LIBS
 +
 =
 \

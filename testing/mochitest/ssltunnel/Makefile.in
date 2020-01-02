@@ -54,7 +54,8 @@ MPL
 0
 /
 .
-LIBS
+EXTRA_LIBS
++
 =
 \
 (

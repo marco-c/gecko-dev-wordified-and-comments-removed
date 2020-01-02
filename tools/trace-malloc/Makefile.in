@@ -114,7 +114,7 @@ config
 config
 .
 mk
-LIBS
+EXTRA_LIBS
 +
 =
 \
@@ -161,7 +161,7 @@ HAVE_BOUTELL_GD
 (
 NULL
 )
-LIBS
+OS_LIBS
 +
 =
 \
@@ -182,7 +182,7 @@ lib
 NULL
 )
 else
-LIBS
+OS_LIBS
 +
 =
 \

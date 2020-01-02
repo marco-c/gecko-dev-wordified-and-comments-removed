@@ -86,7 +86,7 @@ MPL
 0
 /
 .
-LIBS
+EXTRA_LIBS
 +
 =
 \
@@ -99,7 +99,7 @@ NULL
 )
 ifdef
 MOZ_NATIVE_NSS
-LIBS
+EXTRA_LIBS
 +
 =
 (
@@ -118,7 +118,7 @@ can
 debug
 NSS
 too
-LIBS
+EXTRA_LIBS
 +
 =
 \
@@ -184,7 +184,7 @@ OS_TARGET
 )
 Android
 )
-LIBS
+EXTRA_LIBS
 +
 =
 \

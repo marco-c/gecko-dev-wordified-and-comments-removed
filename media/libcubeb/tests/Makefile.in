@@ -93,7 +93,7 @@ OS_TARGET
 )
 Darwin
 )
-LIBS
+OS_LDFLAGS
 +
 =
 -
@@ -110,13 +110,13 @@ OS_TARGET
 )
 OpenBSD
 )
-LIBS
+OS_LIBS
 +
 =
 -
 lsndio
 else
-LIBS
+OS_LIBS
 +
 =
 (

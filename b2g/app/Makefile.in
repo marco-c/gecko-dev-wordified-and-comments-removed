@@ -87,7 +87,7 @@ gonk
 MOZ_WIDGET_TOOLKIT
 )
 )
-LIBS
+OS_LIBS
 +
 =
 \
@@ -128,7 +128,7 @@ ANDROID_VERSION
 19
 )
 )
-LIBS
+OS_LIBS
 +
 =
 \
@@ -150,7 +150,7 @@ gonk
 MOZ_WIDGET_TOOLKIT
 )
 )
-LIBS
+OS_LIBS
 +
 =
 \

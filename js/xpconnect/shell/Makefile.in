@@ -59,7 +59,7 @@ SDK_BINARY
 (
 PROGRAM
 )
-LIBS
+EXTRA_LIBS
 +
 =
 (
@@ -68,13 +68,3 @@ NSPR_LIBS
 NSDISTMODE
 =
 copy
-include
-(
-topsrcdir
-)
-/
-config
-/
-rules
-.
-mk

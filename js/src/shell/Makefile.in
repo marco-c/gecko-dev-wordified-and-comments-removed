@@ -64,12 +64,15 @@ MPL
 0
 /
 .
-LIBS
+EXTRA_LIBS
 +
 =
 (
 NSPR_LIBS
 )
+OS_LIBS
++
+=
 (
 EDITLINE_LIBS
 )
@@ -78,7 +81,7 @@ MOZ_ZLIB_LIBS
 )
 ifdef
 MOZ_NATIVE_FFI
-EXTRA_LIBS
+OS_LIBS
 +
 =
 (
@@ -87,7 +90,7 @@ MOZ_FFI_LIBS
 endif
 ifdef
 MOZ_SHARED_ICU
-EXTRA_LIBS
+OS_LIBS
 +
 =
 (

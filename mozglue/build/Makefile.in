@@ -90,7 +90,7 @@ MOZ_LINKER
 )
 ifdef
 MOZ_NATIVE_ZLIB
-EXTRA_DSO_LDOPTS
+EXTRA_LIBS
 +
 =
 (
@@ -168,7 +168,7 @@ NO_INSTALL_IMPORT_LIBRARY
 =
 1
 endif
-EXTRA_DSO_LDOPTS
+OS_LIBS
 +
 =
 \
@@ -193,7 +193,7 @@ _
 MOZ_REPLACE_MALLOC
 )
 )
-EXTRA_DSO_LDOPTS
+OS_LDFLAGS
 +
 =
 \
@@ -292,7 +292,7 @@ MOZ_REPLACE_MALLOC_LINKAGE
 compiler
 support
 )
-EXTRA_DSO_LDOPTS
+OS_LDFLAGS
 +
 =
 -
@@ -306,7 +306,7 @@ MOZ_REPLACE_MALLOC_LINKAGE
 dummy
 library
 )
-EXTRA_DSO_LDOPTS
+OS_LDFLAGS
 +
 =
 -
@@ -349,7 +349,7 @@ s
 pthread_atfork
 call
 .
-EXTRA_DSO_LDOPTS
+OS_LDFLAGS
 +
 =
 -
@@ -369,7 +369,7 @@ arm
 TARGET_CPU
 )
 )
-EXTRA_DSO_LDOPTS
+OS_LDFLAGS
 +
 =
 -

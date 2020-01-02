@@ -143,7 +143,7 @@ NULL
 )
 ifdef
 MOZ_ENABLE_SIGNMAR
-LIBS
+EXTRA_LIBS
 +
 =
 \
@@ -200,7 +200,7 @@ call
 EXPAND_LIBNAME
 ws2_32
 )
-EXTRA_LIBS
+OS_LIBS
 +
 =
 (
@@ -210,7 +210,7 @@ ws2_32
 )
 ifdef
 MOZ_ENABLE_SIGNMAR
-EXTRA_LIBS
+OS_LIBS
 +
 =
 (
@@ -218,7 +218,7 @@ call
 EXPAND_LIBNAME
 crypt32
 )
-EXTRA_LIBS
+OS_LIBS
 +
 =
 (

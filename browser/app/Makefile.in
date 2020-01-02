@@ -220,7 +220,7 @@ with
 XRE_main
 ifdef
 MOZ_LINKER
-LIBS
+OS_LIBS
 +
 =
 (
@@ -229,7 +229,7 @@ MOZ_ZLIB_LIBS
 endif
 ifdef
 HAVE_CLOCK_MONOTONIC
-LIBS
+OS_LIBS
 +
 =
 (

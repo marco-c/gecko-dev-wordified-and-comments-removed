@@ -87,7 +87,7 @@ MOZ_GLUE_PROGRAM_LDFLAGS
 =
 ifdef
 MOZ_NATIVE_BZ2
-LIBS
+OS_LIBS
 +
 =
 \
@@ -410,7 +410,7 @@ OS_ARCH
 )
 WINNT
 )
-EXTRA_LIBS
+OS_LIBS
 +
 =
 (
@@ -418,7 +418,7 @@ call
 EXPAND_LIBNAME
 crypt32
 )
-EXTRA_LIBS
+OS_LIBS
 +
 =
 (

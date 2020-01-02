@@ -162,7 +162,7 @@ as
 -
 needed
 endif
-EXTRA_DSO_LDOPTS
+OS_LIBS
 +
 =
 (

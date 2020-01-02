@@ -74,7 +74,7 @@ config
 config
 .
 mk
-LIBS
+EXTRA_LIBS
 +
 =
 \

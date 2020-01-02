@@ -83,7 +83,7 @@ MOZ_WIDGET_TOOLKIT
 WRAP_LDFLAGS
 =
 else
-LIBS
+EXTRA_LIBS
 +
 =
 \
@@ -102,7 +102,7 @@ gonk
 MOZ_WIDGET_TOOLKIT
 )
 )
-LIBS
+OS_LIBS
 +
 =
 \
@@ -195,12 +195,6 @@ WINNT
 )
 #
 {
-LIBS
-+
-=
-(
-NSPR_LIBS
-)
 #
 Note
 the
