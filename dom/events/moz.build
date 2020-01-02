@@ -293,6 +293,11 @@ KeyboardEvent
 h
 '
 '
+MessageEvent
+.
+h
+'
+'
 PointerEvent
 .
 h
@@ -395,6 +400,11 @@ KeyboardEvent
 cpp
 '
 '
+MessageEvent
+.
+cpp
+'
+'
 nsAsyncDOMEvent
 .
 cpp
@@ -406,11 +416,6 @@ cpp
 '
 '
 nsDOMEventTargetHelper
-.
-cpp
-'
-'
-nsDOMMessageEvent
 .
 cpp
 '
