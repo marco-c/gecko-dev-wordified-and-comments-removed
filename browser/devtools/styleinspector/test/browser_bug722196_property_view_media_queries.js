@@ -232,7 +232,7 @@ chrome
 :
 /
 /
-browser
+global
 /
 locale
 /

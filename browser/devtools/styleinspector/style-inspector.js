@@ -155,7 +155,7 @@ chrome
 :
 /
 /
-browser
+global
 /
 locale
 /

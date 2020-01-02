@@ -10209,7 +10209,7 @@ chrome
 :
 /
 /
-browser
+global
 /
 locale
 /
