@@ -181,11 +181,15 @@ self
 environment
 .
 substs
-[
+.
+get
+(
 '
 CPPFLAGS
 '
-]
+'
+'
+)
         
 def
 detailed
