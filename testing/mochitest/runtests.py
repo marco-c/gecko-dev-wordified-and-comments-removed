@@ -683,9 +683,7 @@ self
 .
 _httpdPath
 =
-'
-.
-'
+SCRIPT_DIR
     
 self
 .
@@ -821,16 +819,21 @@ v
 -
 f
 "
+os
+.
+path
+.
+join
+(
 self
 .
 _httpdPath
-+
 "
-/
 httpd
 .
 js
 "
+)
             
 "
 -
@@ -960,16 +963,19 @@ lower
 -
 f
 "
-"
+os
 .
-/
-"
-+
+path
+.
+join
+(
+SCRIPT_DIR
 "
 server
 .
 js
 "
+)
 ]
     
 xpcshell
@@ -1015,6 +1021,9 @@ mozprocess
 ProcessHandler
 (
 command
+cwd
+=
+SCRIPT_DIR
 env
 =
 env
@@ -1439,6 +1448,9 @@ mozprocess
 ProcessHandler
 (
 cmd
+cwd
+=
+SCRIPT_DIR
 )
     
 self
@@ -1559,13 +1571,6 @@ __init__
 self
 )
 :
-    
-os
-.
-chdir
-(
-SCRIPT_DIR
-)
     
 self
 .
@@ -4317,11 +4322,19 @@ os
 .
 path
 .
+join
+(
+os
+.
+path
+.
 abspath
 (
 "
 .
 "
+)
+SCRIPT_DIR
 )
 +
 "
@@ -6815,6 +6828,9 @@ ProcessHandler
 ssltunnel
 ssltunnel_cfg
 ]
+cwd
+=
+SCRIPT_DIR
                                                       
 env
 =
@@ -7050,6 +7066,12 @@ kill_on_timeout
 '
 :
 False
+                   
+'
+cwd
+'
+:
+SCRIPT_DIR
                    
 '
 onTimeout
