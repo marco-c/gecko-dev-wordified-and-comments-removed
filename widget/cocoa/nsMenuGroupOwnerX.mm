@@ -223,13 +223,9 @@ nsINode
 .
 h
 "
+using
 namespace
-dom
-=
 mozilla
-:
-:
-dom
 ;
 NS_IMPL_ISUPPORTS1
 (

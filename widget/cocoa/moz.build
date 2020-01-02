@@ -146,7 +146,7 @@ widget_mac
 LIBXUL_LIBRARY
 =
 True
-SOURCES
+UNIFIED_SOURCES
 +
 =
 [
@@ -354,7 +354,7 @@ TARGET_CPU
 x86_64
 '
 :
-SOURCES
+UNIFIED_SOURCES
 +
 =
 [
