@@ -799,7 +799,10 @@ PermissionSettingsModule
 .
 getPermission
 (
-permName
+expandedPermNames
+[
+idx
+]
 aApp
 .
 manifestURL
