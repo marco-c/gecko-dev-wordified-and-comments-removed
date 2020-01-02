@@ -682,6 +682,10 @@ DOMStorageDBBridge
 *
 sDatabase
 ;
+static
+bool
+sDatabaseDown
+;
 }
 ;
 class
