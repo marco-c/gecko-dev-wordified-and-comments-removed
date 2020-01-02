@@ -142,12 +142,16 @@ TabChild
 aTabChild
 )
 ;
+protected
+:
 virtual
 ~
 PuppetWidget
 (
 )
 ;
+public
+:
 NS_DECL_ISUPPORTS_INHERITED
 NS_IMETHOD
 Create

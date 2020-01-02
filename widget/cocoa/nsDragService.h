@@ -56,12 +56,6 @@ nsDragService
 (
 )
 ;
-virtual
-~
-nsDragService
-(
-)
-;
 NS_IMETHOD
 InvokeDragSession
 (
@@ -113,6 +107,14 @@ GetNumDropItems
 uint32_t
 *
 aNumItems
+)
+;
+protected
+:
+virtual
+~
+nsDragService
+(
 )
 ;
 private

@@ -218,6 +218,12 @@ NS_DECL_NSIGFXINFODEBUG
 endif
 protected
 :
+~
+GfxInfo
+(
+)
+{
+}
 virtual
 nsresult
 GetFeatureStatusImpl

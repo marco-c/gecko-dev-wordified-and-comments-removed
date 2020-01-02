@@ -1293,12 +1293,6 @@ nsChildView
 (
 )
 ;
-virtual
-~
-nsChildView
-(
-)
-;
 NS_DECL_ISUPPORTS_INHERITED
 NS_IMETHOD
 Create
@@ -2207,6 +2201,12 @@ mAPZCTreeManager
 }
 protected
 :
+virtual
+~
+nsChildView
+(
+)
+;
 void
 ReportMoveEvent
 (

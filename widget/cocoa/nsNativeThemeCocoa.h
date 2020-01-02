@@ -86,12 +86,6 @@ nsNativeThemeCocoa
 (
 )
 ;
-virtual
-~
-nsNativeThemeCocoa
-(
-)
-;
 NS_DECL_ISUPPORTS_INHERITED
 NS_IMETHOD
 DrawWidgetBackground
@@ -281,6 +275,12 @@ aFrame
 ;
 protected
 :
+virtual
+~
+nsNativeThemeCocoa
+(
+)
+;
 nsIntMargin
 RTLAwareMargin
 (

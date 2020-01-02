@@ -175,12 +175,6 @@ nsDragService
 (
 )
 ;
-virtual
-~
-nsDragService
-(
-)
-;
 NS_DECL_ISUPPORTS_INHERITED
 NS_DECL_NSIOBSERVER
 NS_IMETHOD
@@ -369,6 +363,14 @@ SetDragIcon
 GdkDragContext
 *
 aContext
+)
+;
+protected
+:
+virtual
+~
+nsDragService
+(
 )
 ;
 private

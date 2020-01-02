@@ -233,6 +233,13 @@ mOSXVersion
 protected
 :
 virtual
+~
+GfxInfo
+(
+)
+{
+}
+virtual
 nsresult
 GetFeatureStatusImpl
 (

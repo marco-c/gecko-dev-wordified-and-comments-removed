@@ -101,12 +101,6 @@ nsPrintSettingsGTK
 (
 )
 ;
-virtual
-~
-nsPrintSettingsGTK
-(
-)
-;
 GtkPageSetup
 *
 GetGtkPageSetup
@@ -493,6 +487,12 @@ aDuplex
 ;
 protected
 :
+virtual
+~
+nsPrintSettingsGTK
+(
+)
+;
 nsPrintSettingsGTK
 (
 const

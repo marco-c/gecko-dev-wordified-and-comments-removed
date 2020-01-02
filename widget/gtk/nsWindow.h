@@ -290,12 +290,6 @@ nsWindow
 (
 )
 ;
-virtual
-~
-nsWindow
-(
-)
-;
 static
 void
 ReleaseGlobals
@@ -1294,6 +1288,12 @@ GDK_MOTION_NOTIFY
 }
 protected
 :
+virtual
+~
+nsWindow
+(
+)
+;
 void
 DispatchActivateEvent
 (
