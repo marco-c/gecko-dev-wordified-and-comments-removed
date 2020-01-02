@@ -171,7 +171,7 @@ writeNDEF
 (
 sequence
 <
-MozNdefRecord
+MozNDEFRecord
 >
 records
 )

@@ -2629,7 +2629,7 @@ WEBIDL_FILES
 =
 [
 '
-MozNdefRecord
+MozNDEFRecord
 .
 webidl
 '

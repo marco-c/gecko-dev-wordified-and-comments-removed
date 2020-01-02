@@ -1,9 +1,9 @@
 #
 ifndef
-mozilla_dom_MozNdefRecord_h__
+mozilla_dom_MozNDEFRecord_h__
 #
 define
-mozilla_dom_MozNdefRecord_h__
+mozilla_dom_MozNDEFRecord_h__
 #
 include
 "
@@ -87,7 +87,7 @@ namespace
 dom
 {
 class
-MozNdefRecord
+MozNDEFRecord
 MOZ_FINAL
 :
 public
@@ -100,11 +100,11 @@ public
 NS_DECL_CYCLE_COLLECTING_ISUPPORTS
 NS_DECL_CYCLE_COLLECTION_SCRIPT_HOLDER_CLASS
 (
-MozNdefRecord
+MozNDEFRecord
 )
 public
 :
-MozNdefRecord
+MozNDEFRecord
 (
 JSContext
 *
@@ -129,7 +129,7 @@ aPlayload
 )
 ;
 ~
-MozNdefRecord
+MozNDEFRecord
 (
 )
 ;
@@ -167,7 +167,7 @@ MOZ_OVERRIDE
 static
 already_AddRefed
 <
-MozNdefRecord
+MozNDEFRecord
 >
 Constructor
 (
@@ -311,7 +311,7 @@ mPayload
 }
 private
 :
-MozNdefRecord
+MozNDEFRecord
 (
 )
 MOZ_DELETE

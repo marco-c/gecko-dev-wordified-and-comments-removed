@@ -123,7 +123,7 @@ sendNDEF
 (
 sequence
 <
-MozNdefRecord
+MozNDEFRecord
 >
 records
 )

@@ -86,7 +86,7 @@ dom
 =
 [
 '
-MozNdefRecord
+MozNDEFRecord
 .
 h
 '
@@ -96,7 +96,7 @@ SOURCES
 =
 [
 '
-MozNdefRecord
+MozNDEFRecord
 .
 cpp
 '

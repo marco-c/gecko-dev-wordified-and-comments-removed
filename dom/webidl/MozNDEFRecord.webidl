@@ -115,7 +115,7 @@ payload
 )
 ]
 interface
-MozNdefRecord
+MozNDEFRecord
 {
 /
 *
