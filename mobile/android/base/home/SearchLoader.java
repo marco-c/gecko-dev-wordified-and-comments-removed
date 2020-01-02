@@ -74,13 +74,6 @@ content
 .
 Loader
 ;
-import
-android
-.
-text
-.
-TextUtils
-;
 class
 SearchLoader
 {
