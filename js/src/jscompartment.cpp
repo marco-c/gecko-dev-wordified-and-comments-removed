@@ -232,6 +232,10 @@ isSystem
 (
 false
 )
+isSelfHosting
+(
+false
+)
 marked
 (
 true
