@@ -450,6 +450,19 @@ evt
 ok
 (
 evt
+instanceof
+DataStoreChangeEvent
+"
+DataStoreChangeEvent
+has
+been
+received
+"
+)
+;
+ok
+(
+evt
 "
 OnChangeListener
 is
@@ -544,11 +557,6 @@ something
 "
 )
 ;
-if
-(
-gChangeId
-)
-{
 is
 (
 evt
@@ -571,7 +579,6 @@ evt
 id
 )
 ;
-}
 is
 (
 evt
@@ -737,7 +744,7 @@ function
 {
 gChangeId
 =
-0
+null
 ;
 gChangeOperation
 =
@@ -874,7 +881,7 @@ function
 {
 gChangeId
 =
-0
+null
 ;
 gChangeOperation
 =
