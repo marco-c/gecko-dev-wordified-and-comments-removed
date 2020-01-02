@@ -615,6 +615,12 @@ return
 mSocketTransport
 ;
 }
+void
+SendPing
+(
+)
+MOZ_OVERRIDE
+;
 private
 :
 enum
@@ -998,6 +1004,12 @@ mPingSentEpoch
 ;
 uint32_t
 mNextPingID
+;
+PRIntervalTime
+mPreviousPingThreshold
+;
+bool
+mPreviousUsed
 ;
 nsDeque
 mGoAwayStreamsToRestart

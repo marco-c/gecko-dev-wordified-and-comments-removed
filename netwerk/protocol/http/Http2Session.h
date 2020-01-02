@@ -727,6 +727,12 @@ mServerSessionWindow
 bytes
 ;
 }
+void
+SendPing
+(
+)
+MOZ_OVERRIDE
+;
 private
 :
 enum
@@ -1199,6 +1205,12 @@ mLastDataReadEpoch
 ;
 PRIntervalTime
 mPingSentEpoch
+;
+PRIntervalTime
+mPreviousPingThreshold
+;
+bool
+mPreviousUsed
 ;
 nsDeque
 mGoAwayStreamsToRestart
