@@ -57,6 +57,10 @@ xml
 "
 )
 {
+mType
+=
+eSVG
+;
 }
 virtual
 nsresult

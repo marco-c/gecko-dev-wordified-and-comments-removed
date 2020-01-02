@@ -1302,6 +1302,10 @@ mAsync
 true
 )
 {
+mType
+=
+eGenericXML
+;
 }
 XMLDocument
 :

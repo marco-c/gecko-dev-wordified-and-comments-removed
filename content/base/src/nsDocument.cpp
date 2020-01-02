@@ -39998,9 +39998,9 @@ mSecurityInfo
 clone
 -
 >
-mIsRegularHTML
+mType
 =
-mIsRegularHTML
+mType
 ;
 clone
 -
