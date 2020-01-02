@@ -13462,6 +13462,7 @@ if
 !
 atom
 )
+return
 false
 ;
 RootedId
