@@ -3248,22 +3248,6 @@ aFlags
 )
 ;
 }
-gfxFloat
-opacity
-=
-aSVGContext
-?
-aSVGContext
--
->
-GetGlobalOpacity
-(
-)
-:
-1
-.
-0
-;
 if
 (
 drawable
@@ -3273,7 +3257,6 @@ Show
 (
 drawable
 params
-opacity
 )
 ;
 }
@@ -3282,7 +3265,6 @@ else
 CreateDrawableAndShow
 (
 params
-opacity
 )
 ;
 }
@@ -3300,8 +3282,6 @@ const
 SVGDrawingParameters
 &
 aParams
-gfxFloat
-aOpacity
 )
 {
 mSVGDocumentWrapper
@@ -3412,7 +3392,6 @@ Show
 (
 svgDrawable
 aParams
-aOpacity
 )
 ;
 RefPtr
@@ -3460,7 +3439,6 @@ Show
 (
 svgDrawable
 aParams
-aOpacity
 )
 ;
 nsRefPtr
@@ -3595,7 +3573,6 @@ Show
 (
 drawable
 aParams
-aOpacity
 )
 ;
 }
@@ -3612,8 +3589,6 @@ const
 SVGDrawingParameters
 &
 aParams
-gfxFloat
-aOpacity
 )
 {
 MOZ_ASSERT
@@ -3666,7 +3641,6 @@ filter
 aParams
 .
 flags
-aOpacity
 )
 ;
 MOZ_ASSERT
