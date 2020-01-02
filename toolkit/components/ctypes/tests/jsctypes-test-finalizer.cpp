@@ -220,7 +220,7 @@ return
 i
 ;
 }
-RECT
+myRECT
 test_finalizer_rel_size_t_return_struct_t
 (
 size_t
@@ -257,7 +257,7 @@ int32_t
 )
 i
 ;
-RECT
+myRECT
 result
 =
 {
@@ -815,7 +815,7 @@ b
 )
 ;
 }
-RECT
+myRECT
 test_finalizer_acq_struct_t
 (
 int
@@ -829,7 +829,7 @@ i
 =
 1
 ;
-RECT
+myRECT
 result
 =
 {
@@ -846,7 +846,7 @@ result
 void
 test_finalizer_rel_struct_t
 (
-RECT
+myRECT
 i
 )
 {
@@ -893,7 +893,7 @@ index
 bool
 test_finalizer_struct_resource_is_acquired
 (
-RECT
+myRECT
 i
 )
 {
@@ -942,9 +942,9 @@ index
 bool
 test_finalizer_cmp_struct_t
 (
-RECT
+myRECT
 a
-RECT
+myRECT
 b
 )
 {

@@ -68,7 +68,7 @@ i
 ;
 EXPORT_CDECL
 (
-RECT
+myRECT
 )
 test_finalizer_rel_size_t_return_struct_t
 (
@@ -308,7 +308,7 @@ i
 ;
 EXPORT_CDECL
 (
-RECT
+myRECT
 )
 test_finalizer_acq_struct_t
 (
@@ -322,7 +322,7 @@ void
 )
 test_finalizer_rel_struct_t
 (
-RECT
+myRECT
 i
 )
 ;
@@ -332,9 +332,9 @@ bool
 )
 test_finalizer_cmp_struct_t
 (
-RECT
+myRECT
 a
-RECT
+myRECT
 b
 )
 ;

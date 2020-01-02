@@ -25373,7 +25373,7 @@ ctypes
 StructType
 (
 "
-POINT
+myPOINT
 "
 [
 {
@@ -25402,7 +25402,7 @@ ctypes
 StructType
 (
 "
-RECT
+myRECT
 "
 [
 {
@@ -27978,7 +27978,7 @@ ctypes
 StructType
 (
 "
-RECT
+myRECT
 "
 [
 {
