@@ -778,7 +778,7 @@ private
 :
 Maybe
 <
-nsString
+nsAutoString
 >
 mString
 ;
