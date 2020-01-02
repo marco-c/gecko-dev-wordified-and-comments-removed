@@ -239,6 +239,12 @@ getNullableSequenceOfNullableCallbackInterfaces
 (
 )
 ;
+Dict
+?
+getDictionary
+(
+)
+;
 }
 ;
 callback
