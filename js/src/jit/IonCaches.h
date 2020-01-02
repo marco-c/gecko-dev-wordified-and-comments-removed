@@ -6,7 +6,7 @@ define
 jit_IonCaches_h
 #
 ifdef
-JS_CPU_ARM
+JS_CODEGEN_ARM
 #
 include
 "
@@ -758,7 +758,7 @@ lastJump_
 ;
 #
 ifdef
-JS_CPU_ARM
+JS_CODEGEN_ARM
 static
 const
 size_t
@@ -795,7 +795,7 @@ raw
 ;
 #
 ifdef
-JS_CPU_ARM
+JS_CODEGEN_ARM
 uint32_t
 i
 =
@@ -3118,7 +3118,7 @@ GetPropertyPar
 )
 #
 ifdef
-JS_CPU_X86
+JS_CODEGEN_X86
 void
 initializeAddCacheState
 (
@@ -3353,7 +3353,7 @@ GetElementPar
 )
 #
 ifdef
-JS_CPU_X86
+JS_CODEGEN_X86
 void
 initializeAddCacheState
 (
@@ -3607,7 +3607,7 @@ SetPropertyPar
 )
 #
 ifdef
-JS_CPU_X86
+JS_CODEGEN_X86
 void
 initializeAddCacheState
 (
@@ -3821,7 +3821,7 @@ SetElementPar
 )
 #
 ifdef
-JS_CPU_X86
+JS_CODEGEN_X86
 void
 initializeAddCacheState
 (

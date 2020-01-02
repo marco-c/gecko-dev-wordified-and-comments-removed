@@ -759,7 +759,7 @@ right
 {
 #
 ifdef
-JS_CPU_X64
+JS_CODEGEN_X64
 if
 (
 type
@@ -2010,7 +2010,7 @@ cond
 }
 #
 ifdef
-JS_CPU_X86
+JS_CODEGEN_X86
 void
 operator
 (
@@ -2092,7 +2092,7 @@ label
 }
 #
 ifdef
-JS_CPU_X86
+JS_CODEGEN_X86
 void
 operator
 (
@@ -2309,7 +2309,7 @@ framePushed
 ;
 #
 ifdef
-JS_CPU_X86
+JS_CODEGEN_X86
 if
 (
 assignBailoutId

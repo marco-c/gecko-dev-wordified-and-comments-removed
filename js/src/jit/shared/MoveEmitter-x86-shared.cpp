@@ -1155,7 +1155,7 @@ break
 ;
 #
 ifdef
-JS_CPU_X64
+JS_CODEGEN_X64
 case
 MoveOp
 :
@@ -1216,7 +1216,7 @@ break
 endif
 #
 ifndef
-JS_CPU_X64
+JS_CODEGEN_X64
 case
 MoveOp
 :
@@ -1436,7 +1436,7 @@ break
 ;
 #
 ifdef
-JS_CPU_X64
+JS_CODEGEN_X64
 case
 MoveOp
 :
@@ -1519,7 +1519,7 @@ break
 endif
 #
 ifndef
-JS_CPU_X64
+JS_CODEGEN_X64
 case
 MoveOp
 :
@@ -1665,7 +1665,7 @@ isMemory
 ;
 #
 ifdef
-JS_CPU_X64
+JS_CODEGEN_X64
 masm
 .
 load32
@@ -1826,7 +1826,7 @@ isMemory
 {
 #
 ifdef
-JS_CPU_X64
+JS_CODEGEN_X64
 masm
 .
 loadPtr
@@ -1887,7 +1887,7 @@ isEffectiveAddress
 ;
 #
 ifdef
-JS_CPU_X64
+JS_CODEGEN_X64
 masm
 .
 lea

@@ -11,7 +11,7 @@ JS_ION
 if
 defined
 (
-JS_CPU_X86
+JS_CODEGEN_X86
 )
 #
 include
@@ -30,7 +30,7 @@ h
 elif
 defined
 (
-JS_CPU_X64
+JS_CODEGEN_X64
 )
 #
 include

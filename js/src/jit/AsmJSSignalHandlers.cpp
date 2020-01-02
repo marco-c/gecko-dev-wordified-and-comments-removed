@@ -2031,7 +2031,7 @@ false
 if
 defined
 (
-JS_CPU_X64
+JS_CODEGEN_X64
 )
 template
 <
@@ -2414,7 +2414,7 @@ endif
 if
 defined
 (
-JS_CPU_X64
+JS_CODEGEN_X64
 )
 #
 if
@@ -2756,7 +2756,7 @@ context
 if
 defined
 (
-JS_CPU_X64
+JS_CODEGEN_X64
 )
 static
 void
@@ -3728,7 +3728,7 @@ true
 if
 defined
 (
-JS_CPU_X64
+JS_CODEGEN_X64
 )
 if
 (
@@ -3907,7 +3907,7 @@ state
 if
 defined
 (
-JS_CPU_X64
+JS_CODEGEN_X64
 )
 JS_STATIC_ASSERT
 (
@@ -3996,7 +3996,7 @@ endif
 if
 defined
 (
-JS_CPU_X64
+JS_CODEGEN_X64
 )
 static
 bool
@@ -5076,7 +5076,7 @@ KERN_SUCCESS
 if
 defined
 (
-JS_CPU_X64
+JS_CODEGEN_X64
 )
 if
 (
@@ -6098,7 +6098,7 @@ true
 if
 defined
 (
-JS_CPU_X64
+JS_CODEGEN_X64
 )
 if
 (

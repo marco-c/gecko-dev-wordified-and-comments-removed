@@ -9644,7 +9644,7 @@ NumFloatArgRegs
 ;
 #
 ifdef
-JS_CPU_ARM_HARDFP
+JS_CODEGEN_ARM_HARDFP
 static
 inline
 bool

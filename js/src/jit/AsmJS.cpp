@@ -7746,7 +7746,7 @@ exitIndex
 if
 defined
 (
-JS_CPU_ARM
+JS_CODEGEN_ARM
 )
 masm_
 .
@@ -7785,7 +7785,7 @@ exitIndex
 if
 defined
 (
-JS_CPU_ARM
+JS_CODEGEN_ARM
 )
 masm_
 .
@@ -7824,7 +7824,7 @@ exportIndex
 if
 defined
 (
-JS_CPU_ARM
+JS_CODEGEN_ARM
 )
 masm_
 .
@@ -8152,7 +8152,7 @@ false
 if
 defined
 (
-JS_CPU_ARM
+JS_CODEGEN_ARM
 )
 for
 (
@@ -8735,7 +8735,7 @@ false
 if
 defined
 (
-JS_CPU_X86
+JS_CODEGEN_X86
 )
 for
 (
@@ -8826,7 +8826,7 @@ endif
 if
 defined
 (
-JS_CPU_X64
+JS_CODEGEN_X64
 )
 uint8_t
 *
@@ -35431,7 +35431,7 @@ offsetOfErrorRejoinSP
 if
 defined
 (
-JS_CPU_ARM
+JS_CODEGEN_ARM
 )
 masm
 .
@@ -35457,13 +35457,13 @@ endif
 if
 defined
 (
-JS_CPU_X64
+JS_CODEGEN_X64
 )
 |
 |
 defined
 (
-JS_CPU_ARM
+JS_CODEGEN_ARM
 )
 masm
 .
@@ -35507,7 +35507,7 @@ NonArgReturnVolatileReg1
 if
 defined
 (
-JS_CPU_X86
+JS_CODEGEN_X86
 )
 masm
 .
@@ -36758,13 +36758,13 @@ offsetFromArgBase
 if
 defined
 (
-JS_CPU_X86
+JS_CODEGEN_X86
 )
 |
 |
 defined
 (
-JS_CPU_X64
+JS_CODEGEN_X64
 )
 masm
 .
@@ -36909,13 +36909,13 @@ setFramePushed
 if
 defined
 (
-JS_CPU_X86
+JS_CODEGEN_X86
 )
 |
 |
 defined
 (
-JS_CPU_X64
+JS_CODEGEN_X64
 )
 MIRType
 typeArray
@@ -38293,7 +38293,7 @@ Volatile
 if
 defined
 (
-JS_CPU_ARM
+JS_CODEGEN_ARM
 )
 masm
 .
@@ -38363,7 +38363,7 @@ extraBytes
 if
 defined
 (
-JS_CPU_ARM
+JS_CODEGEN_ARM
 )
 extraBytes
 +
@@ -38463,7 +38463,7 @@ exitIndex
 if
 defined
 (
-JS_CPU_X64
+JS_CODEGEN_X64
 )
 CodeOffsetLabel
 label2
@@ -38494,7 +38494,7 @@ globalDataOffset
 elif
 defined
 (
-JS_CPU_X86
+JS_CODEGEN_X86
 )
 CodeOffsetLabel
 label2
@@ -38662,13 +38662,13 @@ framePushed
 if
 defined
 (
-JS_CPU_X86
+JS_CODEGEN_X86
 )
 |
 |
 defined
 (
-JS_CPU_X64
+JS_CODEGEN_X64
 )
 offsetToCallerStackArgs
 +
@@ -38806,7 +38806,7 @@ scratch
 if
 defined
 (
-JS_CPU_ARM
+JS_CODEGEN_ARM
 )
 &
 &
@@ -38832,7 +38832,7 @@ masm
 if
 defined
 (
-JS_CPU_ARM
+JS_CODEGEN_ARM
 )
 &
 &
@@ -39252,7 +39252,7 @@ stackOverflowLabel
 if
 defined
 (
-JS_CPU_X86
+JS_CODEGEN_X86
 )
 masm
 .
@@ -39301,7 +39301,7 @@ StackPointer
 if
 defined
 (
-JS_CPU_X86
+JS_CODEGEN_X86
 )
 LoadAsmJSActivationIntoRegister
 (
@@ -39411,7 +39411,7 @@ operationCallbackLabel
 ;
 #
 ifndef
-JS_CPU_ARM
+JS_CODEGEN_ARM
 masm
 .
 push
@@ -39518,7 +39518,7 @@ NonVolatileReg
 if
 defined
 (
-JS_CPU_X86
+JS_CODEGEN_X86
 )
 masm
 .
@@ -39567,7 +39567,7 @@ StackPointer
 if
 defined
 (
-JS_CPU_X86
+JS_CODEGEN_X86
 )
 LoadJSContextFromActivation
 (
@@ -39592,7 +39592,7 @@ StackPointer
 elif
 defined
 (
-JS_CPU_X64
+JS_CODEGEN_X64
 )
 LoadJSContextFromActivation
 (

@@ -1620,7 +1620,7 @@ prevFrameLocalSize
 if
 defined
 (
-JS_CPU_X86
+JS_CODEGEN_X86
 )
 JS_ASSERT
 (
@@ -1649,13 +1649,13 @@ priorOffset
 elif
 defined
 (
-JS_CPU_X64
+JS_CODEGEN_X64
 )
 |
 |
 defined
 (
-JS_CPU_ARM
+JS_CODEGEN_ARM
 )
 BufferPointer
 <
@@ -5296,7 +5296,7 @@ framePushed
 if
 defined
 (
-JS_CPU_X86
+JS_CODEGEN_X86
 )
 if
 (

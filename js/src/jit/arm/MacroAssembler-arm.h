@@ -2932,7 +2932,7 @@ passedArgs_
 ;
 #
 ifdef
-JS_CPU_ARM_HARDFP
+JS_CODEGEN_ARM_HARDFP
 uint32_t
 usedIntSlots_
 ;

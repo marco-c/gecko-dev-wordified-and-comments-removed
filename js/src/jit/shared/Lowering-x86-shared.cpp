@@ -1980,7 +1980,7 @@ MIRType_Double
 ;
 #
 ifdef
-JS_CPU_X64
+JS_CODEGEN_X64
 JS_ASSERT
 (
 ecx

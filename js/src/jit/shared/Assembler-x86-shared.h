@@ -7845,7 +7845,7 @@ pop_flags
 }
 #
 ifdef
-JS_CPU_X86
+JS_CODEGEN_X86
 void
 pushAllRegs
 (
