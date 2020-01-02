@@ -2323,7 +2323,6 @@ tests
 )
             
 if
-(
 len
 (
 tests
@@ -2331,7 +2330,6 @@ tests
 =
 =
 1
-)
 :
                 
 options
