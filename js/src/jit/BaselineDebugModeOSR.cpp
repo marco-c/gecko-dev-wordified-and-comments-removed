@@ -1550,14 +1550,6 @@ case
 JitFrame_BaselineStub
 :
 {
-JSScript
-*
-script
-=
-entry
-.
-script
-;
 IonBaselineStubFrameLayout
 *
 layout
@@ -1577,6 +1569,8 @@ fp
 ;
 MOZ_ASSERT
 (
+entry
+.
 script
 -
 >
