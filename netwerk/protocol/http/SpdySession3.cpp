@@ -10027,10 +10027,10 @@ mLastReadEpoch
 ;
 if
 (
+SoftStreamError
+(
 rv
-=
-=
-NS_BASE_STREAM_CLOSED
+)
 )
 {
 SpdyStream3
@@ -10091,7 +10091,9 @@ stream
 >
 writeSegments
 returning
-BASE_STREAM_CLOSED
+code
+%
+X
 \
 n
 "
@@ -10108,6 +10110,7 @@ StreamID
 :
 0
 mNeedsCleanup
+rv
 )
 )
 ;
