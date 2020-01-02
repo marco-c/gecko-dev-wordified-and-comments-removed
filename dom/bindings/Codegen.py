@@ -65911,6 +65911,9 @@ initFromJSONMethod
 )
 )
         
+try
+:
+            
 methods
 .
 append
@@ -65921,6 +65924,12 @@ toObjectMethod
 (
 )
 )
+        
+except
+MethodNotCreatorError
+:
+            
+pass
         
 methods
 .
