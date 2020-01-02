@@ -57,9 +57,9 @@ None
 PACKAGE_VERSION
 =
 '
-0
+1
 .
-10
+8
 '
 deps
 =
@@ -75,11 +75,6 @@ mozinfo
         
 '
 mozfile
->
-=
-1
-.
-0
 '
        
 ]
@@ -282,19 +277,6 @@ False
 install_requires
 =
 deps
-      
-tests_require
-=
-[
-'
-mozprocess
->
-=
-0
-.
-15
-'
-]
       
 entry_points
 =

@@ -131,19 +131,15 @@ py
 )
 )
 ]
-test_packages
-=
-[
-"
-mock
-"
-                  
-]
 extra_packages
 =
 [
 "
 sphinx
+"
+                  
+"
+mock
 "
                   
 ]
@@ -1704,22 +1700,6 @@ call
 easy_install
 '
 version
-]
-)
-    
-for
-package
-in
-test_packages
-:
-        
-call
-(
-[
-'
-easy_install
-'
-package
 ]
 )
     

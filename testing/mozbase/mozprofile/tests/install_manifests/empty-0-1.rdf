@@ -82,9 +82,9 @@ id
 >
 test
 -
-addon
--
-4
+empty
+quality
+.
 mozilla
 .
 org
@@ -114,10 +114,10 @@ em
 name
 >
 Test
-Add
--
-on
-4
+Extension
+(
+empty
+)
 <
 /
 em
@@ -130,6 +130,7 @@ em
 creator
 >
 Mozilla
+QA
 <
 /
 em
@@ -145,6 +146,8 @@ http
 :
 /
 /
+quality
+.
 mozilla
 .
 org

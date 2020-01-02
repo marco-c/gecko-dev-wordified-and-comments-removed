@@ -133,12 +133,3 @@ testing
 mozbase
 /
 moztest
-mozversion
-.
-pth
-:
-testing
-/
-mozbase
-/
-mozversion

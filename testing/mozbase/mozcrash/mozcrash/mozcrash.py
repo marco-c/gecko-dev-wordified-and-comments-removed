@@ -12,6 +12,8 @@ check_for_java_exception
 import
 glob
 import
+mozlog
+import
 os
 import
 re
@@ -27,10 +29,14 @@ import
 urllib2
 import
 zipfile
-import
+from
 mozfile
 import
-mozlog
+extract_zip
+from
+mozfile
+import
+is_url
 def
 check_for_crashes
 (
@@ -411,8 +417,6 @@ False
 if
 symbols_path
 and
-mozfile
-.
 is_url
 (
 symbols_path
@@ -486,8 +490,6 @@ r
 '
 )
             
-mozfile
-.
 extract_zip
 (
 zfile
@@ -980,7 +982,7 @@ d
 else
 :
                 
-mozfile
+os
 .
 remove
 (
@@ -1006,7 +1008,18 @@ d
 extra
 "
             
-mozfile
+if
+os
+.
+path
+.
+exists
+(
+extra
+)
+:
+                
+os
 .
 remove
 (
@@ -1020,9 +1033,9 @@ if
 remove_symbols
 :
             
-mozfile
+shutil
 .
-remove
+rmtree
 (
 symbols_path
 )

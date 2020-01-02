@@ -2,7 +2,6 @@ from
 setuptools
 import
 setup
-find_packages
 PACKAGE_VERSION
 =
 '
@@ -17,6 +16,23 @@ deps
 mozinfo
 '
 ]
+try
+:
+    
+import
+json
+except
+ImportError
+:
+    
+deps
+.
+append
+(
+'
+simplejson
+'
+)
 setup
 (
 name
@@ -120,9 +136,11 @@ MPL
       
 packages
 =
-find_packages
-(
-)
+[
+'
+moztest
+'
+]
       
 include_package_data
 =

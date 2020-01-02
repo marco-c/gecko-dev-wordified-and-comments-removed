@@ -7,9 +7,9 @@ PACKAGE_VERSION
 '
 0
 .
-1
+3
 '
-dependencies
+deps
 =
 [
 '
@@ -18,25 +18,17 @@ mozdevice
 =
 0
 .
-29
+16
 '
-                
 '
-mozfile
+marionette_client
 >
 =
-1
-.
 0
-'
-                
-'
-mozlog
->
-=
-1
 .
 5
+.
+2
 '
 ]
 setup
@@ -44,7 +36,7 @@ setup
 name
 =
 '
-mozversion
+mozb2g
 '
       
 version
@@ -53,20 +45,19 @@ PACKAGE_VERSION
       
 description
 =
-'
-Library
-to
-get
-version
-information
+"
+B2G
+specific
+code
 for
-applications
-'
+device
+automation
+"
       
 long_description
 =
-'
-See
+"
+see
 http
 :
 /
@@ -76,7 +67,8 @@ mozbase
 readthedocs
 .
 org
-'
+/
+"
       
 classifiers
 =
@@ -86,7 +78,6 @@ classifiers
 keywords
 =
 '
-mozilla
 '
       
 author
@@ -142,7 +133,7 @@ packages
 =
 [
 '
-mozversion
+mozb2g
 '
 ]
       
@@ -156,36 +147,6 @@ False
       
 install_requires
 =
-dependencies
+deps
       
-entry_points
-=
-"
-"
-"
-      
-#
--
-*
--
-Entry
-points
-:
--
-*
--
-      
-[
-console_scripts
-]
-      
-mozversion
-=
-mozversion
-:
-cli
-      
-"
-"
-"
 )

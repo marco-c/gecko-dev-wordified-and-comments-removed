@@ -2,17 +2,12 @@ from
 setuptools
 import
 setup
-PACKAGE_NAME
-=
-'
-mozcrash
-'
 PACKAGE_VERSION
 =
 '
 0
 .
-11
+10
 '
 deps
 =
@@ -21,9 +16,9 @@ deps
 mozfile
 >
 =
-1
-.
 0
+.
+12
 '
         
 '
@@ -34,7 +29,9 @@ setup
 (
 name
 =
-PACKAGE_NAME
+'
+mozcrash
+'
       
 version
 =

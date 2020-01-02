@@ -2,18 +2,17 @@ from
 setuptools
 import
 setup
-find_packages
 PACKAGE_NAME
 =
-'
+"
 mozlog
-'
+"
 PACKAGE_VERSION
 =
 '
 1
 .
-5
+3
 '
 setup
 (
@@ -120,9 +119,11 @@ LGPL
       
 packages
 =
-find_packages
-(
-)
+[
+'
+mozlog
+'
+]
       
 zip_safe
 =

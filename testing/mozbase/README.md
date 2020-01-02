@@ -1,5 +1,3 @@
-#
-Mozbase
 Mozbase
 is
 a
