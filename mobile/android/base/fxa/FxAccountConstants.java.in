@@ -121,8 +121,6 @@ https
 api
 -
 accounts
--
-onepw
 .
 dev
 .
@@ -138,13 +136,11 @@ String
 DEFAULT_TOKEN_SERVER_ENDPOINT
 =
 "
-http
+https
 :
 /
 /
-auth
-.
-oldsync
+token
 .
 dev
 .
@@ -188,7 +184,7 @@ sync
 /
 1
 .
-1
+5
 "
 ;
 /
