@@ -165,6 +165,9 @@ __proto__
 CommonNativeApp
 .
 prototype
+_rootInstallDir
+:
+LOCAL_APP_DIR
 install
 :
 Task
@@ -223,7 +226,9 @@ localAppDir
 =
 getFile
 (
-LOCAL_APP_DIR
+this
+.
+_rootInstallDir
 )
 ;
 if
@@ -256,7 +261,9 @@ yield
 getAvailableFileName
 (
 [
-LOCAL_APP_DIR
+this
+.
+_rootInstallDir
 ]
 this
 .
@@ -276,7 +283,9 @@ Path
 .
 join
 (
-LOCAL_APP_DIR
+this
+.
+_rootInstallDir
 destinationName
 )
 ;
