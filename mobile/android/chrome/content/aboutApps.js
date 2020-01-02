@@ -218,7 +218,7 @@ formatURLPref
 (
 aEvent
 .
-target
+currentTarget
 .
 getAttribute
 (
