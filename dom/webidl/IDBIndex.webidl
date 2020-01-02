@@ -182,7 +182,6 @@ Throws
 IDBRequest
 openCursor
 (
-optional
 any
 range
 optional
@@ -200,7 +199,6 @@ Throws
 IDBRequest
 openKeyCursor
 (
-optional
 any
 range
 optional
@@ -238,7 +236,6 @@ Throws
 IDBRequest
 count
 (
-optional
 any
 key
 )
@@ -260,7 +257,6 @@ Throws
 IDBRequest
 mozGetAll
 (
-optional
 any
 key
 optional
@@ -275,7 +271,6 @@ Throws
 IDBRequest
 mozGetAllKeys
 (
-optional
 any
 key
 optional

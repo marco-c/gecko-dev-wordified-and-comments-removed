@@ -835,7 +835,6 @@ showModalDialog
 (
 DOMString
 url
-optional
 any
 argument
 optional

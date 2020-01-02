@@ -1037,9 +1037,6 @@ JS
 Value
 >
 aValue
-const
-Optional
-<
 JS
 :
 :
@@ -1050,8 +1047,6 @@ JS
 :
 Value
 >
->
-&
 aKey
 ErrorResult
 &
@@ -1101,9 +1096,6 @@ JS
 Value
 >
 aValue
-const
-Optional
-<
 JS
 :
 :
@@ -1114,8 +1106,6 @@ JS
 :
 Value
 >
->
-&
 aKey
 ErrorResult
 &
@@ -1215,9 +1205,6 @@ OpenCursor
 JSContext
 *
 aCx
-const
-Optional
-<
 JS
 :
 :
@@ -1228,8 +1215,6 @@ JS
 :
 Value
 >
->
-&
 aRange
 IDBCursorDirection
 aDirection
@@ -1329,9 +1314,6 @@ Count
 JSContext
 *
 aCx
-const
-Optional
-<
 JS
 :
 :
@@ -1342,8 +1324,6 @@ JS
 :
 Value
 >
->
-&
 aKey
 ErrorResult
 &
@@ -1359,9 +1339,6 @@ GetAll
 JSContext
 *
 aCx
-const
-Optional
-<
 JS
 :
 :
@@ -1372,8 +1349,6 @@ JS
 :
 Value
 >
->
-&
 aKey
 const
 Optional
@@ -1396,9 +1371,6 @@ GetAllKeys
 JSContext
 *
 aCx
-const
-Optional
-<
 JS
 :
 :
@@ -1409,8 +1381,6 @@ JS
 :
 Value
 >
->
-&
 aKey
 const
 Optional
@@ -1433,9 +1403,6 @@ OpenKeyCursor
 JSContext
 *
 aCx
-const
-Optional
-<
 JS
 :
 :
@@ -1446,8 +1413,6 @@ JS
 :
 Value
 >
->
-&
 aRange
 IDBCursorDirection
 aDirection
@@ -1529,9 +1494,6 @@ JS
 Value
 >
 aValue
-const
-Optional
-<
 JS
 :
 :
@@ -1542,8 +1504,6 @@ JS
 :
 Value
 >
->
-&
 aKey
 bool
 aOverwrite

@@ -210,7 +210,6 @@ Throws
 void
 continue
 (
-optional
 any
 key
 )
