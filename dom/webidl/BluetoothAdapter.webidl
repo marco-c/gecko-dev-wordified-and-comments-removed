@@ -479,8 +479,8 @@ Throws
 DOMRequest
 pair
 (
-BluetoothDevice
-device
+DOMString
+deviceAddress
 )
 ;
 [
@@ -490,8 +490,8 @@ Throws
 DOMRequest
 unpair
 (
-BluetoothDevice
-device
+DOMString
+deviceAddress
 )
 ;
 [
