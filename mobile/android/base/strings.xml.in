@@ -1841,7 +1841,7 @@ pref_update_autodownload
 "
 >
 &
-pref_update_autodownload
+pref_update_autodownload2
 ;
 <
 /
@@ -1871,7 +1871,7 @@ pref_update_autodownload_disabled
 "
 >
 &
-pref_update_autodownload_disabled
+pref_update_autodownload_never
 ;
 <
 /
@@ -1886,7 +1886,7 @@ pref_update_autodownload_enabled
 "
 >
 &
-pref_update_autodownload_enabled
+pref_update_autodownload_always
 ;
 <
 /

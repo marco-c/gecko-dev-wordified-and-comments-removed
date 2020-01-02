@@ -912,8 +912,9 @@ autoUpdateUi
 =
 {
 "
-Automatic
+Download
 updates
+automatically
 "
 "
 Only
@@ -923,7 +924,7 @@ Wi
 Fi
 "
 "
-Enabled
+Always
 "
 "
 Only
@@ -933,7 +934,7 @@ Wi
 Fi
 "
 "
-Disabled
+Never
 "
 }
 ;
