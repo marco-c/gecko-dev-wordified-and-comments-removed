@@ -199,6 +199,12 @@ Sizes
 aSizes
 )
 ;
+MOZ_EXPORT
+bool
+IsEnabled
+(
+)
+;
 }
 }
 #
