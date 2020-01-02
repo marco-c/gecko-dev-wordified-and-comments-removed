@@ -1237,7 +1237,7 @@ aReason
 {
 if
 (
-reason
+aReason
 instanceof
 OS
 .
@@ -1246,7 +1246,7 @@ File
 Error
 &
 &
-reason
+aReason
 .
 becauseNoSuchFile
 )
