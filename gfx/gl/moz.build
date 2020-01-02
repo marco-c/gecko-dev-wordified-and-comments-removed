@@ -312,6 +312,11 @@ GLScreenBuffer
 h
 '
 '
+GLSharedHandleHelpers
+.
+h
+'
+'
 GLTextureImage
 .
 h
@@ -750,6 +755,11 @@ cpp
 '
 '
 GLScreenBuffer
+.
+cpp
+'
+'
+GLSharedHandleHelpers
 .
 cpp
 '
