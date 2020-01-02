@@ -67,6 +67,9 @@ class
 nsIContent
 ;
 class
+nsRenderingContext
+;
+class
 nsIScrollableFrame
 :
 public

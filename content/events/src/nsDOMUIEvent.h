@@ -55,7 +55,14 @@ h
 #
 include
 "
-Units
+nsPresContext
+.
+h
+"
+#
+include
+"
+nsDeviceContext
 .
 h
 "

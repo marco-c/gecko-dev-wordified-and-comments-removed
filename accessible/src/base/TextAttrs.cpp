@@ -63,6 +63,15 @@ HyperTextAccessible
 .
 h
 "
+#
+include
+"
+mozilla
+/
+AppUnits
+.
+h
+"
 using
 namespace
 mozilla
@@ -2159,7 +2168,7 @@ px
 NSAppUnitsToFloatPixels
 (
 aValue
-nsDeviceContext
+mozilla
 :
 :
 AppUnitsPerCSSPixel

@@ -230,6 +230,15 @@ h
 "
 #
 include
+"
+mozilla
+/
+AppUnits
+.
+h
+"
+#
+include
 <
 algorithm
 >
@@ -4523,7 +4532,7 @@ dummy
 bounds
 float
 (
-nsDeviceContext
+mozilla
 :
 :
 AppUnitsPerCSSPixel

@@ -104,6 +104,13 @@ imgRequestProxy
 .
 h
 "
+#
+include
+"
+nsDeviceContext
+.
+h
+"
 namespace
 css
 =

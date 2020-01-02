@@ -14,7 +14,7 @@ h
 namespace
 mozilla
 {
-static
+inline
 int32_t
 AppUnitsPerCSSPixel
 (
@@ -24,7 +24,7 @@ return
 60
 ;
 }
-static
+inline
 int32_t
 AppUnitsPerCSSInch
 (
