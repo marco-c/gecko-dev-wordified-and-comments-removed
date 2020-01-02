@@ -3080,6 +3080,12 @@ propertyID
 =
 =
 eCSSProperty_UNKNOWN
+|
+|
+propertyID
+=
+=
+eCSSPropertyExtra_variable
 )
 {
 return
