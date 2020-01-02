@@ -2875,6 +2875,10 @@ connectTries
 =
 0
 ;
+recvErrors
+=
+0
+;
 manager
 .
 connectToSupplicant
@@ -3976,7 +3980,7 @@ TERMINATING
 {
 if
 (
-eventData
+event
 .
 indexOf
 (
@@ -3992,7 +3996,7 @@ closed
 1
 &
 &
-eventData
+event
 .
 indexOf
 (
