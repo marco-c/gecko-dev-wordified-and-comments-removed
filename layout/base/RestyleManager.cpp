@@ -12764,6 +12764,17 @@ GetNextContinuation
 )
 )
 {
+if
+(
+GetPrevContinuationWithSameStyle
+(
+cont
+)
+)
+{
+continue
+;
+}
 ElementRestyler
 restyler
 (
