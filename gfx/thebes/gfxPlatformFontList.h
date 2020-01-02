@@ -952,15 +952,6 @@ LoadBadUnderlineList
 )
 ;
 void
-SetFixedPitch
-(
-const
-nsAString
-&
-aFamilyName
-)
-;
-void
 GenerateFontListKey
 (
 const
