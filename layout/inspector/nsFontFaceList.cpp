@@ -269,9 +269,6 @@ uint32_t
 aOffset
 uint32_t
 aLength
-nsIFrame
-*
-aFrame
 )
 {
 gfxTextRun
