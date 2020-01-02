@@ -1029,12 +1029,6 @@ SDK_LIBRARY
 '
 SDK_LIBRARY
 '
-            
-SHARED_LIBRARY_LIBS
-=
-'
-SHARED_LIBRARY_LIBS
-'
         
 )
         
