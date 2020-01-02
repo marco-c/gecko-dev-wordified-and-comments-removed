@@ -324,6 +324,14 @@ Detach
 )
 ;
 void
+GetBuffered
+(
+TimeRanges
+*
+aBuffered
+)
+;
+void
 SetReadyState
 (
 MediaSourceReadyState
