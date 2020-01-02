@@ -325,6 +325,11 @@ CompositionEvent
 webidl
 '
 '
+Console
+.
+webidl
+'
+'
 Contacts
 .
 webidl

@@ -300,6 +300,11 @@ BarProps
 h
 '
 '
+Console
+.
+h
+'
+'
 DOMCursor
 .
 h
@@ -376,6 +381,11 @@ cpp
 '
 '
 CompositionStringSynthesizer
+.
+cpp
+'
+'
+Console
 .
 cpp
 '
@@ -657,11 +667,6 @@ EXTRA_COMPONENTS
 +
 =
 [
-'
-ConsoleAPI
-.
-js
-'
 '
 ConsoleAPI
 .

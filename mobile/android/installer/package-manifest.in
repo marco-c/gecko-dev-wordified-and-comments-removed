@@ -1661,13 +1661,6 @@ BINPATH
 /
 components
 /
-ConsoleAPI
-.
-js
-BINPATH
-/
-components
-/
 ConsoleAPIStorage
 .
 js

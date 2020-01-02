@@ -3169,11 +3169,11 @@ console
 ;
 isNative
 =
-"
-__mozillaConsole__
-"
-in
 console
+instanceof
+aWindow
+.
+Console
 ;
 }
 catch
