@@ -1956,10 +1956,7 @@ size_t
 numCerts
 )
 {
-der
-:
-:
-Version
+uint8_t
 version
 ;
 if
@@ -1993,9 +1990,6 @@ version
 !
 =
 der
-:
-:
-Version
 :
 :
 v1

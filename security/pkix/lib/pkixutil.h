@@ -25,13 +25,6 @@ h
 #
 include
 "
-pkixder
-.
-h
-"
-#
-include
-"
 prerror
 .
 h
@@ -318,12 +311,6 @@ SECItem
 subjectPublicKeyInfo
 )
 const
-;
-der
-:
-:
-Version
-version
 ;
 const
 SECItem
