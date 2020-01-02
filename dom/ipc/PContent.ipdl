@@ -2026,13 +2026,6 @@ nsString
 volumeName
 )
 ;
-async
-RecordingDeviceEvents
-(
-nsString
-recordingStatus
-)
-;
 /
 /
 Notify
