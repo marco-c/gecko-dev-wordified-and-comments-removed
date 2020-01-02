@@ -3382,7 +3382,7 @@ return
 NS_OK
 ;
 }
-nsresult
+void
 nsPrefBranch
 :
 :
@@ -3440,7 +3440,6 @@ pCallback
 )
 ;
 return
-NS_OK
 ;
 }
 uint32_t
@@ -3494,9 +3493,6 @@ get
 (
 )
 )
-;
-return
-NS_OK
 ;
 }
 PLDHashOperator
