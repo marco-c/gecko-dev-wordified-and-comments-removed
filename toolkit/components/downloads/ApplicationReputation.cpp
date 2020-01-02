@@ -823,8 +823,6 @@ nsCOMPtr
 nsIURI
 >
 uri
-=
-nullptr
 ;
 nsCOMPtr
 <
@@ -866,8 +864,6 @@ nsCOMPtr
 nsIPrincipal
 >
 principal
-=
-nullptr
 ;
 nsCOMPtr
 <
@@ -1961,8 +1957,6 @@ nsCOMPtr
 nsIX509Cert
 >
 signer
-=
-nullptr
 ;
 rv
 =
@@ -2043,8 +2037,6 @@ nsCOMPtr
 nsIX509Cert
 >
 issuer
-=
-nullptr
 ;
 rv
 =
@@ -2237,8 +2229,6 @@ nsCOMPtr
 nsIURI
 >
 uri
-=
-nullptr
 ;
 nsresult
 rv
@@ -2344,8 +2334,6 @@ nsCOMPtr
 nsIArray
 >
 sigArray
-=
-nullptr
 ;
 rv
 =
@@ -2558,8 +2546,6 @@ nsCOMPtr
 nsISimpleEnumerator
 >
 chains
-=
-nullptr
 ;
 nsresult
 rv
@@ -2671,8 +2657,6 @@ nsCOMPtr
 nsISimpleEnumerator
 >
 chainElt
-=
-nullptr
 ;
 rv
 =
@@ -2946,8 +2930,6 @@ nsCOMPtr
 nsIURI
 >
 uri
-=
-nullptr
 ;
 nsresult
 rv
@@ -3295,8 +3277,6 @@ nsCOMPtr
 nsIChannel
 >
 channel
-=
-nullptr
 ;
 nsCString
 serviceUrl
@@ -4125,8 +4105,6 @@ nsCOMPtr
 nsIURI
 >
 uri
-=
-nullptr
 ;
 rv
 =
