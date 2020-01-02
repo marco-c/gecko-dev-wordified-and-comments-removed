@@ -10595,6 +10595,10 @@ moz_hosts
 )
 )
 ;
+VacuumDatabase
+(
+)
+;
 CommitTransaction
 (
 )
