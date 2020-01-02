@@ -2005,7 +2005,7 @@ aBreakType
 )
 {
 case
-NS_STYLE_CLEAR_LEFT_AND_RIGHT
+NS_STYLE_CLEAR_BOTH
 :
 bottom
 =
@@ -2110,7 +2110,7 @@ mSplitLeftFloatAcrossBreak
 aBreakType
 =
 =
-NS_STYLE_CLEAR_LEFT_AND_RIGHT
+NS_STYLE_CLEAR_BOTH
 |
 |
 aBreakType
@@ -2134,7 +2134,7 @@ mSplitRightFloatAcrossBreak
 aBreakType
 =
 =
-NS_STYLE_CLEAR_LEFT_AND_RIGHT
+NS_STYLE_CLEAR_BOTH
 |
 |
 aBreakType

@@ -6800,7 +6800,7 @@ aState
 ClearFloats
 (
 bottomEdgeOfChildren
-NS_STYLE_CLEAR_LEFT_AND_RIGHT
+NS_STYLE_CLEAR_BOTH
 nullptr
 nsFloatManager
 :
@@ -27769,7 +27769,7 @@ aState
 ClearFloats
 (
 0
-NS_STYLE_CLEAR_LEFT_AND_RIGHT
+NS_STYLE_CLEAR_BOTH
 )
 )
 {

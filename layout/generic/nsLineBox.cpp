@@ -1019,7 +1019,7 @@ rightbr
 "
 ;
 case
-NS_STYLE_CLEAR_LEFT_AND_RIGHT
+NS_STYLE_CLEAR_BOTH
 :
 return
 "
