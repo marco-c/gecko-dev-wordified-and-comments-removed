@@ -86,6 +86,13 @@ NumericConversions
 .
 h
 "
+#
+include
+"
+jsopcodeinlines
+.
+h
+"
 using
 namespace
 js
@@ -655,9 +662,6 @@ FALSE_BRANCH
 {
 jsop
 =
-analyze
-:
-:
 NegateCompareOp
 (
 jsop
@@ -727,9 +731,6 @@ right
 ;
 jsop
 =
-analyze
-:
-:
 ReverseCompareOp
 (
 jsop

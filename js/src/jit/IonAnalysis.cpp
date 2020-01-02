@@ -96,6 +96,13 @@ h
 #
 include
 "
+jsopcodeinlines
+.
+h
+"
+#
+include
+"
 jsobjinlines
 .
 h
@@ -8002,9 +8009,6 @@ FALSE_BRANCH
 )
 jsop
 =
-analyze
-:
-:
 NegateCompareOp
 (
 jsop
