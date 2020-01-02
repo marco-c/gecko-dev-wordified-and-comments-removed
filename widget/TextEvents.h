@@ -356,6 +356,9 @@ nsDOMKeyNameList
 .
 h
 "
+case
+KEY_NAME_INDEX_USE_STRING
+:
 default
 :
 aKeyName
