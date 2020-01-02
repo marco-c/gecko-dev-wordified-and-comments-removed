@@ -137,7 +137,7 @@ drawn
 ;
 ShadersListView
 .
-_onProgramMouseEnter
+_onProgramMouseOver
 (
 {
 target
@@ -224,7 +224,7 @@ highlighted
 ;
 ShadersListView
 .
-_onProgramMouseLeave
+_onProgramMouseOut
 (
 {
 target
@@ -239,7 +239,7 @@ panel
 ;
 ShadersListView
 .
-_onProgramMouseEnter
+_onProgramMouseOver
 (
 {
 target
@@ -326,7 +326,7 @@ highlighted
 ;
 ShadersListView
 .
-_onProgramMouseLeave
+_onProgramMouseOut
 (
 {
 target

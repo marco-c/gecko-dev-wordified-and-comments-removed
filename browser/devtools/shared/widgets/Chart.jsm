@@ -505,7 +505,7 @@ pie
 on
 (
 "
-mouseenter
+mouseover
 "
 (
 event
@@ -561,7 +561,7 @@ pie
 on
 (
 "
-mouseleave
+mouseout
 "
 (
 event
@@ -615,7 +615,7 @@ table
 on
 (
 "
-mouseenter
+mouseover
 "
 (
 event
@@ -671,7 +671,7 @@ table
 on
 (
 "
-mouseleave
+mouseout
 "
 (
 event
@@ -1468,10 +1468,10 @@ proxy
 click
 "
 "
-mouseenter
+mouseover
 "
 "
-mouseleave
+mouseout
 "
 ]
 pathNode
@@ -2073,10 +2073,10 @@ proxy
 click
 "
 "
-mouseenter
+mouseover
 "
 "
-mouseleave
+mouseout
 "
 ]
 rowNode

@@ -159,7 +159,7 @@ messages
 ;
 ShadersEditorsView
 .
-_onMarkerMouseEnter
+_onMarkerMouseOver
 (
 7
 marker
