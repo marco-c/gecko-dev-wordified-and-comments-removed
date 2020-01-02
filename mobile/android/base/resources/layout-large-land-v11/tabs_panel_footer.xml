@@ -250,7 +250,7 @@ background
 "
 drawable
 /
-action_bar_button
+action_bar_button_inverse
 "
 android
 :
