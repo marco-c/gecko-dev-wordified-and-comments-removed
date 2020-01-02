@@ -4904,6 +4904,10 @@ mCameraHw
 >
 GetSensorOrientation
 (
+GonkCameraHardware
+:
+:
+OFFSET_SENSOR_ORIENTATION
 )
 ;
 r
@@ -7625,10 +7629,6 @@ mCameraHw
 >
 GetSensorOrientation
 (
-GonkCameraHardware
-:
-:
-RAW_SENSOR_ORIENTATION
 )
 ;
 r

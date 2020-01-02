@@ -225,7 +225,7 @@ GetSensorOrientation
 uint32_t
 aType
 =
-OFFSET_SENSOR_ORIENTATION
+RAW_SENSOR_ORIENTATION
 )
 ;
 int
