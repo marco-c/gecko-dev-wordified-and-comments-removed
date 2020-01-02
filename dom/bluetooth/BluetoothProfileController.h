@@ -283,6 +283,12 @@ Next
 (
 )
 ;
+bool
+IsBtServiceAvailable
+(
+)
+const
+;
 const
 bool
 mConnect
