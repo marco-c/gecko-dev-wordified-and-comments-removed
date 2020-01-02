@@ -44,7 +44,7 @@ _uiBusy
 !
 this
 .
-_isValidInput
+hasInputWidget
 (
 aTarget
 )
@@ -308,7 +308,7 @@ this
 )
 ;
 }
-_isValidInput
+hasInputWidget
 :
 function
 (
