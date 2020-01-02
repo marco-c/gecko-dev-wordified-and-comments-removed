@@ -1128,6 +1128,7 @@ value
 label
 accesskey
 crop
+wrap
 "
 /
 >
@@ -1160,6 +1161,7 @@ text
 =
 label
 accesskey
+wrap
 "
 /
 >
