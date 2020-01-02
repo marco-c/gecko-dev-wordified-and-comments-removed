@@ -228,7 +228,7 @@ FlushLayoutForTree
 window
 )
 ;
-nsCOMPtr
+nsRefPtr
 <
 nsPresContext
 >

@@ -1006,7 +1006,7 @@ rv
 1
 )
 ;
-nsCOMPtr
+nsRefPtr
 <
 UDPServerListener
 >
@@ -1055,7 +1055,7 @@ AsyncListen
 serverListener
 )
 ;
-nsCOMPtr
+nsRefPtr
 <
 UDPClientListener
 >

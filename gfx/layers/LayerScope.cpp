@@ -1599,7 +1599,7 @@ nsIThread
 >
 mDebugSenderThread
 ;
-nsCOMPtr
+nsRefPtr
 <
 DebugDataSender
 >

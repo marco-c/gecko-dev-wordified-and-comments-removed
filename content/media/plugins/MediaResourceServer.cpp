@@ -472,7 +472,7 @@ nsIOutputStream
 >
 mOutput
 ;
-nsCOMPtr
+nsRefPtr
 <
 MediaResourceServer
 >
@@ -1495,7 +1495,7 @@ nsIServerSocketListener
 {
 public
 :
-nsCOMPtr
+nsRefPtr
 <
 MediaResourceServer
 >
@@ -1817,7 +1817,7 @@ Start
 (
 )
 {
-nsCOMPtr
+nsRefPtr
 <
 MediaResourceServer
 >

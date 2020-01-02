@@ -14876,7 +14876,7 @@ rv
 false
 )
 ;
-nsCOMPtr
+nsRefPtr
 <
 ParentIdleListener
 >
@@ -14958,7 +14958,7 @@ rv
 false
 )
 ;
-nsCOMPtr
+nsRefPtr
 <
 ParentIdleListener
 >

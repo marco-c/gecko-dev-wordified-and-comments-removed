@@ -28,13 +28,6 @@ h
 #
 include
 "
-nsCOMPtr
-.
-h
-"
-#
-include
-"
 nsTArray
 .
 h
@@ -139,7 +132,7 @@ MediaQueryList
 >
 mql
 ;
-nsCOMPtr
+nsRefPtr
 <
 mozilla
 :

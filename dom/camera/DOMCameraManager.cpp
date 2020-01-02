@@ -510,7 +510,7 @@ cameraId
 1
 ;
 }
-nsCOMPtr
+nsRefPtr
 <
 CameraErrorCallback
 >

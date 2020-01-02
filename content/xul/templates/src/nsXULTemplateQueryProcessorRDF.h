@@ -179,7 +179,7 @@ public
 typedef
 nsTArray
 <
-nsCOMPtr
+nsRefPtr
 <
 nsXULTemplateResultRDF
 >
