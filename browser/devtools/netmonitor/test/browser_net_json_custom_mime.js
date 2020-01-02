@@ -35,7 +35,6 @@ let
 {
 document
 L10N
-SourceEditor
 NetMonitorView
 }
 =
