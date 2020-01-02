@@ -2497,6 +2497,8 @@ nsTemplateMatch
 replacedmatch
 =
 nullptr
+;
+nsTemplateMatch
 *
 replacedmatchtodelete
 =

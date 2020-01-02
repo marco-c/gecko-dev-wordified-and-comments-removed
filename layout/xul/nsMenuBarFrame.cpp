@@ -1347,6 +1347,8 @@ nsIContent
 aOldMenu
 =
 nullptr
+;
+nsIContent
 *
 aNewMenu
 =

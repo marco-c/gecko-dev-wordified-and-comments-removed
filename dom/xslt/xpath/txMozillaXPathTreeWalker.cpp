@@ -2789,6 +2789,8 @@ mNode
 nsINode
 *
 parent
+;
+nsINode
 *
 otherParent
 ;

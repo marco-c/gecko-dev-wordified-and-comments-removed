@@ -8646,6 +8646,9 @@ const
 char16_t
 *
 visualLeftPart
+;
+const
+char16_t
 *
 visualRightSide
 ;
