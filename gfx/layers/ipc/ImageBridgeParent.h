@@ -414,6 +414,17 @@ IsSameProcess
 const
 MOZ_OVERRIDE
 ;
+virtual
+void
+ReplyRemoveTexture
+(
+const
+OpReplyRemoveTexture
+&
+aReply
+)
+MOZ_OVERRIDE
+;
 IToplevelProtocol
 *
 CloneToplevel

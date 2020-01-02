@@ -162,6 +162,17 @@ ClearPrevFenceHandles
 (
 )
 ;
+virtual
+void
+ReplyRemoveTexture
+(
+const
+OpReplyRemoveTexture
+&
+aReply
+)
+{
+}
 protected
 :
 std

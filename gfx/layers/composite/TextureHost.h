@@ -940,6 +940,15 @@ GetIPDLActor
 (
 )
 ;
+static
+void
+SendFenceHandleIfPresent
+(
+PTextureParent
+*
+actor
+)
+;
 virtual
 LayerRenderState
 GetRenderState
