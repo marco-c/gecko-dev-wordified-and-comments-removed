@@ -6742,7 +6742,7 @@ spsEnabled
 ;
 masm
 .
-assume_unreachable
+assumeUnreachable
 (
 "
 Profiling
@@ -28156,7 +28156,7 @@ dontConvertDoubles
 else
 masm
 .
-assume_unreachable
+assumeUnreachable
 (
 "
 There
@@ -29210,7 +29210,7 @@ dontConvertDoubles
 else
 masm
 .
-assume_unreachable
+assumeUnreachable
 (
 "
 There
@@ -45632,7 +45632,7 @@ skipThisReplace
 ;
 masm
 .
-assume_unreachable
+assumeUnreachable
 (
 "
 Failed
@@ -46216,7 +46216,7 @@ createdThisIsObject
 ;
 masm
 .
-assume_unreachable
+assumeUnreachable
 (
 "
 The
@@ -46864,7 +46864,7 @@ skipThisReplace
 ;
 masm
 .
-assume_unreachable
+assumeUnreachable
 (
 "
 Return

@@ -3260,7 +3260,7 @@ ReturnFloatReg
 else
 masm
 .
-assume_unreachable
+assumeUnreachable
 (
 "
 Unable

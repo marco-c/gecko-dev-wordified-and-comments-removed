@@ -9964,7 +9964,7 @@ thunk
 ;
 masm
 .
-assume_unreachable
+assumeUnreachable
 (
 "
 Should

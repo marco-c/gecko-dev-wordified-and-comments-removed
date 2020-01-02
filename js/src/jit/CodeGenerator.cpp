@@ -14112,7 +14112,7 @@ miss
 ;
 masm
 .
-assume_unreachable
+assumeUnreachable
 (
 "
 Argument
@@ -20776,7 +20776,7 @@ success
 ;
 masm
 .
-assume_unreachable
+assumeUnreachable
 (
 "
 Result
@@ -20928,7 +20928,7 @@ success
 ;
 masm
 .
-assume_unreachable
+assumeUnreachable
 (
 "
 Result
@@ -26543,7 +26543,7 @@ ok
 ;
 masm
 .
-assume_unreachable
+assumeUnreachable
 (
 "
 Length
@@ -47232,7 +47232,7 @@ ok
 ;
 masm
 .
-assume_unreachable
+assumeUnreachable
 (
 "
 Stack
@@ -47589,7 +47589,7 @@ success
 ;
 masm
 .
-assume_unreachable
+assumeUnreachable
 (
 "
 Integer
@@ -47661,7 +47661,7 @@ success
 ;
 masm
 .
-assume_unreachable
+assumeUnreachable
 (
 "
 Integer
@@ -47771,7 +47771,7 @@ success
 ;
 masm
 .
-assume_unreachable
+assumeUnreachable
 (
 "
 Double
@@ -47861,7 +47861,7 @@ success
 ;
 masm
 .
-assume_unreachable
+assumeUnreachable
 (
 "
 Double
@@ -47970,7 +47970,7 @@ exponentLoOk
 ;
 masm
 .
-assume_unreachable
+assumeUnreachable
 (
 "
 Check
@@ -48044,7 +48044,7 @@ exponentHiOk
 ;
 masm
 .
-assume_unreachable
+assumeUnreachable
 (
 "
 Check
@@ -48104,7 +48104,7 @@ notnan
 ;
 masm
 .
-assume_unreachable
+assumeUnreachable
 (
 "
 Input
@@ -48165,7 +48165,7 @@ notposinf
 ;
 masm
 .
-assume_unreachable
+assumeUnreachable
 (
 "
 Input
@@ -48216,7 +48216,7 @@ notneginf
 ;
 masm
 .
-assume_unreachable
+assumeUnreachable
 (
 "
 Input
@@ -48615,7 +48615,7 @@ isNotDouble
 }
 masm
 .
-assume_unreachable
+assumeUnreachable
 (
 "
 Incorrect

@@ -5773,7 +5773,7 @@ finish
 )
 ;
 void
-assume_unreachable
+assumeUnreachable
 (
 const
 char

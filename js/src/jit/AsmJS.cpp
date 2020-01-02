@@ -33029,7 +33029,7 @@ ok
 ;
 masm
 .
-assume_unreachable
+assumeUnreachable
 (
 "
 Stack
@@ -36893,7 +36893,7 @@ ionFailed
 ;
 masm
 .
-assume_unreachable
+assumeUnreachable
 (
 "
 AsmJS

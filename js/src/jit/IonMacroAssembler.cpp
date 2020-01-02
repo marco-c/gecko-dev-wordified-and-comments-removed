@@ -6593,7 +6593,7 @@ nullptr
 endif
 static
 void
-assume_unreachable_
+AssumeUnreachable_
 (
 const
 char
@@ -6613,7 +6613,7 @@ void
 MacroAssembler
 :
 :
-assume_unreachable
+assumeUnreachable
 (
 const
 char
@@ -6682,7 +6682,7 @@ JS_FUNC_TO_DATA_PTR
 (
 void
 *
-assume_unreachable_
+AssumeUnreachable_
 )
 )
 ;
@@ -6706,7 +6706,7 @@ breakpoint
 }
 static
 void
-printf0_
+Printf0_
 (
 const
 char
@@ -6786,7 +6786,7 @@ JS_FUNC_TO_DATA_PTR
 (
 void
 *
-printf0_
+Printf0_
 )
 )
 ;
@@ -6803,7 +6803,7 @@ Volatile
 }
 static
 void
-printf1_
+Printf1_
 (
 const
 char
@@ -6915,7 +6915,7 @@ JS_FUNC_TO_DATA_PTR
 (
 void
 *
-printf1_
+Printf1_
 )
 )
 ;
