@@ -520,6 +520,11 @@ textSelectForeground
 "
 ui
 .
+textSelectForegroundCustom
+"
+"
+ui
+.
 textSelectBackgroundDisabled
 "
 "
