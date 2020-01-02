@@ -31,6 +31,8 @@ GeneratedInclude
     
 IPDLFile
     
+JARManifest
+    
 LocalInclude
     
 Program
@@ -162,6 +164,9 @@ read_topsrcdir
 (
 self
 reader
+filter_common
+=
+True
 )
 :
         
@@ -236,13 +241,48 @@ objs
 ReaderSummary
 )
         
-return
-objs
+filtered
+=
 [
-:
--
-1
 ]
+        
+for
+obj
+in
+objs
+:
+            
+if
+filter_common
+and
+isinstance
+(
+obj
+DirectoryTraversal
+)
+:
+                
+continue
+            
+if
+isinstance
+(
+obj
+ReaderSummary
+)
+:
+                
+continue
+            
+filtered
+.
+append
+(
+obj
+)
+        
+return
+filtered
     
 def
 test_dirs_traversal_simple
@@ -271,6 +311,9 @@ self
 read_topsrcdir
 (
 reader
+filter_common
+=
+False
 )
         
 self
@@ -498,6 +541,9 @@ self
 read_topsrcdir
 (
 reader
+filter_common
+=
+False
 )
         
 self
@@ -689,6 +735,9 @@ self
 read_topsrcdir
 (
 reader
+filter_common
+=
+False
 )
         
 self
@@ -775,7 +824,7 @@ len
 (
 objs
 )
-3
+2
 )
         
 self
@@ -786,17 +835,6 @@ objs
 [
 0
 ]
-DirectoryTraversal
-)
-        
-self
-.
-assertIsInstance
-(
-objs
-[
-1
-]
 ConfigFileSubstitution
 )
         
@@ -806,7 +844,7 @@ assertIsInstance
 (
 objs
 [
-2
+1
 ]
 ConfigFileSubstitution
 )
@@ -830,7 +868,7 @@ assertEqual
 (
 objs
 [
-1
+0
 ]
 .
 relpath
@@ -849,7 +887,7 @@ normpath
 (
 objs
 [
-1
+0
 ]
 .
 output_path
@@ -881,7 +919,7 @@ normpath
 (
 objs
 [
-2
+1
 ]
 .
 output_path
@@ -940,7 +978,7 @@ len
 (
 objs
 )
-2
+1
 )
         
 self
@@ -950,17 +988,6 @@ assertIsInstance
 objs
 [
 0
-]
-DirectoryTraversal
-)
-        
-self
-.
-assertIsInstance
-(
-objs
-[
-1
 ]
 VariablePassthru
 )
@@ -1232,7 +1259,7 @@ variables
 =
 objs
 [
-1
+0
 ]
 .
 variables
@@ -1298,7 +1325,7 @@ len
 (
 objs
 )
-2
+1
 )
         
 self
@@ -1309,17 +1336,6 @@ objs
 [
 0
 ]
-DirectoryTraversal
-)
-        
-self
-.
-assertIsInstance
-(
-objs
-[
-1
-]
 Exports
 )
         
@@ -1327,7 +1343,7 @@ exports
 =
 objs
 [
-1
+0
 ]
 .
 exports
@@ -1689,7 +1705,7 @@ len
 (
 objs
 )
-4
+3
 )
         
 self
@@ -1700,7 +1716,7 @@ objs
 [
 0
 ]
-DirectoryTraversal
+Program
 )
         
 self
@@ -1711,7 +1727,7 @@ objs
 [
 1
 ]
-Program
+SimpleProgram
 )
         
 self
@@ -1727,22 +1743,11 @@ SimpleProgram
         
 self
 .
-assertIsInstance
-(
-objs
-[
-3
-]
-SimpleProgram
-)
-        
-self
-.
 assertEqual
 (
 objs
 [
-1
+0
 ]
 .
 program
@@ -1759,7 +1764,7 @@ assertEqual
 (
 objs
 [
-2
+1
 ]
 .
 program
@@ -1776,7 +1781,7 @@ assertEqual
 (
 objs
 [
-3
+2
 ]
 .
 program
@@ -3043,6 +3048,122 @@ assertEqual
 (
 defines
 expected
+)
+    
+def
+test_jar_manifests
+(
+self
+)
+:
+        
+reader
+=
+self
+.
+reader
+(
+'
+jar
+-
+manifests
+'
+)
+        
+objs
+=
+self
+.
+read_topsrcdir
+(
+reader
+)
+        
+self
+.
+assertEqual
+(
+len
+(
+objs
+)
+1
+)
+        
+for
+obj
+in
+objs
+:
+            
+self
+.
+assertIsInstance
+(
+obj
+JARManifest
+)
+            
+self
+.
+assertTrue
+(
+os
+.
+path
+.
+isabs
+(
+obj
+.
+path
+)
+)
+    
+def
+test_jar_manifests_multiple_files
+(
+self
+)
+:
+        
+with
+self
+.
+assertRaisesRegexp
+(
+SandboxValidationError
+'
+limited
+to
+one
+value
+'
+)
+:
+            
+reader
+=
+self
+.
+reader
+(
+'
+jar
+-
+manifests
+-
+multiple
+-
+files
+'
+)
+            
+self
+.
+read_topsrcdir
+(
+reader
 )
 if
 __name__
