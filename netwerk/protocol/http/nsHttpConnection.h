@@ -274,6 +274,16 @@ UsingConnect
 )
 ;
 }
+void
+ForcePlainText
+(
+)
+{
+mForcePlainText
+=
+true
+;
+}
 nsISocketTransport
 *
 Transport
@@ -912,6 +922,9 @@ mExperienced
 ;
 bool
 mInSpdyTunnel
+;
+bool
+mForcePlainText
 ;
 uint32_t
 mHttp1xTransactionCount

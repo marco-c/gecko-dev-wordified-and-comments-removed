@@ -463,7 +463,7 @@ nsIInterfaceRequestor
 callbacks
 uint32_t
 caps
-nsAHttpTransaction
+nsHttpTransaction
 *
 trans
 nsAHttpConnection
@@ -486,6 +486,11 @@ return
 this
 ;
 }
+void
+ForcePlainText
+(
+)
+;
 void
 MapStreamToHttpConnection
 (
@@ -619,6 +624,9 @@ mOutputDataUsed
 uint32_t
 mOutputDataOffset
 ;
+bool
+mForcePlainText
+;
 TimeStamp
 mTimestampSyn
 ;
@@ -651,6 +659,12 @@ nsRefPtr
 OutputStreamShim
 >
 mTunnelStreamOut
+;
+nsRefPtr
+<
+nsHttpTransaction
+>
+mDrivingTransaction
 ;
 }
 ;

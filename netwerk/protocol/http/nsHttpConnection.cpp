@@ -282,6 +282,10 @@ mInSpdyTunnel
 (
 false
 )
+mForcePlainText
+(
+false
+)
 mHttp1xTransactionCount
 (
 0
@@ -2121,6 +2125,9 @@ mConnInfo
 FirstHopSSL
 (
 )
+|
+|
+mForcePlainText
 )
 {
 return

@@ -265,6 +265,17 @@ NS_HTTP_ALLOW_KEEPALIVE
 ;
 }
 void
+MakeSticky
+(
+)
+{
+mCaps
+|
+=
+NS_HTTP_STICKY_CONNECTION
+;
+}
+void
 SetPriority
 (
 int32_t
