@@ -3081,16 +3081,10 @@ inclname
 .
 startswith
 (
-(
 '
 assembler
 /
 '
-'
-yarr
-/
-'
-)
 )
     
 def

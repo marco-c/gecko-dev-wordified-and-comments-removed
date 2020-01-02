@@ -2707,15 +2707,6 @@ assembler
 /
 assembler
 /
-ARMAssembler
-.
-cpp
-'
-'
-assembler
-/
-assembler
-/
 MacroAssemblerARM
 .
 cpp

@@ -2500,15 +2500,6 @@ Kind
 reloc
 )
 {
-JSC
-:
-:
-MacroAssembler
-:
-:
-Label
-jsclabel
-;
 if
 (
 label
