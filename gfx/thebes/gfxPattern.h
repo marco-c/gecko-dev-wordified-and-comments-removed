@@ -186,16 +186,11 @@ SetColorStops
 mozilla
 :
 :
-RefPtr
-<
-mozilla
-:
-:
 gfx
 :
 :
 GradientStops
->
+*
 aStops
 )
 ;
