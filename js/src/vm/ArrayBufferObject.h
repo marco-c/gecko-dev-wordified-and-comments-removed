@@ -435,6 +435,17 @@ view
 )
 ;
 void
+setNewOwnedData
+(
+FreeOp
+*
+fop
+void
+*
+newData
+)
+;
+void
 changeContents
 (
 JSContext
