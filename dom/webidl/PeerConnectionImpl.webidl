@@ -460,6 +460,7 @@ pluginCrash
 (
 unsigned
 long
+long
 pluginId
 )
 ;
