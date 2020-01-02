@@ -10654,6 +10654,9 @@ match
 if
 (
 flags
+&
+&
+flags
 .
 indexOf
 (
