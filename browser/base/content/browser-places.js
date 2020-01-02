@@ -721,10 +721,6 @@ aTopic
 aData
 )
 {
-retrieveToolbarIconsizesFromTheme
-(
-)
-;
 let
 header
 =
