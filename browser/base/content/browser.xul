@@ -4236,11 +4236,6 @@ mode
 "
 icons
 "
-iconsize
-=
-"
-large
-"
 >
 <
 !
@@ -5150,7 +5145,7 @@ true
 iconsize
 =
 "
-large
+small
 "
 defaultset
 =
