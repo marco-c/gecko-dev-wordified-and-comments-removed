@@ -1803,6 +1803,13 @@ appendChild
 node
 )
 ;
+this
+.
+removeLocationAttributes
+(
+node
+)
+;
 }
 else
 {
