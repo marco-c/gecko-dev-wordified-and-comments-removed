@@ -247,7 +247,7 @@ if
 handler
 -
 >
-ChromeObjectWrapperBase
+CrossCompartmentSecurityWrapper
 :
 :
 getPropertyDescriptor
