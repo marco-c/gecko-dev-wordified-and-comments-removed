@@ -232,7 +232,7 @@ state
 ;
 stmt
 .
-bindInt32Parameter
+bindByIndex
 (
 0
 Ci
@@ -244,7 +244,7 @@ DOWNLOAD_FINISHED
 ;
 stmt
 .
-bindInt32Parameter
+bindByIndex
 (
 1
 Ci
@@ -256,7 +256,7 @@ DOWNLOAD_FAILED
 ;
 stmt
 .
-bindInt32Parameter
+bindByIndex
 (
 2
 Ci
@@ -268,7 +268,7 @@ DOWNLOAD_CANCELED
 ;
 stmt
 .
-bindInt32Parameter
+bindByIndex
 (
 3
 Ci
@@ -280,7 +280,7 @@ DOWNLOAD_BLOCKED_PARENTAL
 ;
 stmt
 .
-bindInt32Parameter
+bindByIndex
 (
 4
 Ci
@@ -292,7 +292,7 @@ DOWNLOAD_BLOCKED_POLICY
 ;
 stmt
 .
-bindInt32Parameter
+bindByIndex
 (
 5
 Ci

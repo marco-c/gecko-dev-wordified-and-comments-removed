@@ -634,7 +634,7 @@ t
 work
 stmt
 .
-bindStringParameter
+bindByIndex
 (
 0
 "
@@ -709,7 +709,7 @@ NORMAL_FILE_TYPE
 ;
 stmt
 .
-bindStringParameter
+bindByIndex
 (
 1
 Cc
@@ -752,7 +752,7 @@ as
 canceled
 stmt
 .
-bindInt32Parameter
+bindByIndex
 (
 2
 dm
@@ -762,7 +762,7 @@ DOWNLOAD_CANCELED
 ;
 stmt
 .
-bindInt32Parameter
+bindByIndex
 (
 3
 Date

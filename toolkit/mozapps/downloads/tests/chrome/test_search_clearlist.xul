@@ -506,7 +506,7 @@ sites
 {
 stmt
 .
-bindStringParameter
+bindByIndex
 (
 0
 filePath
@@ -514,7 +514,7 @@ filePath
 ;
 stmt
 .
-bindStringParameter
+bindByIndex
 (
 1
 "
@@ -534,7 +534,7 @@ file
 ;
 stmt
 .
-bindInt32Parameter
+bindByIndex
 (
 2
 dm
@@ -557,7 +557,7 @@ appears
 last
 stmt
 .
-bindInt64Parameter
+bindByIndex
 (
 3
 1112223334445556

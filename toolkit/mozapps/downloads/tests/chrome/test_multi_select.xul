@@ -475,7 +475,7 @@ spec
 ;
 stmt
 .
-bindStringParameter
+bindByIndex
 (
 0
 "
@@ -495,7 +495,7 @@ file
 ;
 stmt
 .
-bindInt32Parameter
+bindByIndex
 (
 1
 dm
@@ -505,7 +505,7 @@ DOWNLOAD_FINISHED
 ;
 stmt
 .
-bindStringParameter
+bindByIndex
 (
 2
 fileSpec
@@ -513,7 +513,7 @@ fileSpec
 ;
 stmt
 .
-bindStringParameter
+bindByIndex
 (
 3
 "

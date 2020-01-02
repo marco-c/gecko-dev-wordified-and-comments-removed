@@ -463,7 +463,7 @@ live
 {
 stmt
 .
-bindStringParameter
+bindByIndex
 (
 0
 "
@@ -475,7 +475,7 @@ Download
 ;
 stmt
 .
-bindStringParameter
+bindByIndex
 (
 1
 filePath
@@ -483,7 +483,7 @@ filePath
 ;
 stmt
 .
-bindStringParameter
+bindByIndex
 (
 2
 "
@@ -503,7 +503,7 @@ file
 ;
 stmt
 .
-bindInt32Parameter
+bindByIndex
 (
 3
 dm

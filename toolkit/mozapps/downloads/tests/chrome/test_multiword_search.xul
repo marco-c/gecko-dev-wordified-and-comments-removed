@@ -451,7 +451,7 @@ org
 {
 stmt
 .
-bindStringParameter
+bindByIndex
 (
 0
 "
@@ -463,7 +463,7 @@ Download
 ;
 stmt
 .
-bindStringParameter
+bindByIndex
 (
 1
 filePath
@@ -471,7 +471,7 @@ filePath
 ;
 stmt
 .
-bindStringParameter
+bindByIndex
 (
 2
 "
@@ -491,7 +491,7 @@ file
 ;
 stmt
 .
-bindInt32Parameter
+bindByIndex
 (
 3
 dm
@@ -501,7 +501,7 @@ DOWNLOAD_FINISHED
 ;
 stmt
 .
-bindInt64Parameter
+bindByIndex
 (
 4
 new
@@ -517,7 +517,7 @@ Date
 ;
 stmt
 .
-bindInt64Parameter
+bindByIndex
 (
 5
 111222333444
