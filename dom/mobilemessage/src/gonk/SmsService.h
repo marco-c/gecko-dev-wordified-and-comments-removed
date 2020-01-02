@@ -86,9 +86,9 @@ protected
 :
 nsCOMPtr
 <
-nsIRadioInterface
+nsIRadioInterfaceLayer
 >
-mRadioInterface
+mRil
 ;
 nsTArray
 <
