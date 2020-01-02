@@ -2029,15 +2029,6 @@ View
 menu
 )
 {
-if
-(
-!
-HardwareUtils
-.
-hasMenuButton
-(
-)
-)
 closeMenu
 (
 )
