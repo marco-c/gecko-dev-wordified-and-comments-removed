@@ -472,7 +472,7 @@ const
 uint32_t
 count
 =
-3
+2
 ;
 *
 aCount
@@ -588,10 +588,6 @@ nsIXPCComponents_Interfaces
 PUSH_IID
 (
 nsIXPCScriptable
-)
-PUSH_IID
-(
-nsISecurityCheckedComponent
 )
 #
 undef
@@ -1404,7 +1400,7 @@ const
 uint32_t
 count
 =
-3
+2
 ;
 *
 aCount
@@ -1520,10 +1516,6 @@ nsIXPCComponents_InterfacesByID
 PUSH_IID
 (
 nsIXPCScriptable
-)
-PUSH_IID
-(
-nsISecurityCheckedComponent
 )
 #
 undef
