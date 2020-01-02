@@ -1169,13 +1169,6 @@ java
 '
 db
 /
-SearchHistoryProvider
-.
-java
-'
-'
-db
-/
 SharedBrowserDatabaseProvider
 .
 java
