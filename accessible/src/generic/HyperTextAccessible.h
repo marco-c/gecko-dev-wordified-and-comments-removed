@@ -950,6 +950,12 @@ aOffset
 const
 ;
 bool
+IsCaretAtEndOfLine
+(
+)
+const
+;
+bool
 IsEmptyLastLineOffset
 (
 int32_t
