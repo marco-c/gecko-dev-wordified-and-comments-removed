@@ -12738,6 +12738,7 @@ return
 sEventDispatcher
 ;
 }
+RobocopTarget
 public
 static
 void
