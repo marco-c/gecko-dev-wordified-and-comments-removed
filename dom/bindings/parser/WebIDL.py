@@ -2881,6 +2881,12 @@ totalMembersInSlots
 =
 0
         
+self
+.
+_ownMembersInSlots
+=
+0
+        
 IDLObjectWithScope
 .
 __init__
@@ -3836,6 +3842,13 @@ totalMembersInSlots
 self
 .
 totalMembersInSlots
++
+=
+1
+                
+self
+.
+_ownMembersInSlots
 +
 =
 1
@@ -6437,6 +6450,21 @@ parent
         
 return
 deps
+    
+def
+hasMembersInSlots
+(
+self
+)
+:
+        
+return
+self
+.
+_ownMembersInSlots
+!
+=
+0
 class
 IDLDictionary
 (
