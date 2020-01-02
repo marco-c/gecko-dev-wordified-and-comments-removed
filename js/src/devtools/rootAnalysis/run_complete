@@ -247,6 +247,9 @@ use
 strict
 ;
 use
+warnings
+;
+use
 IO
 :
 :
@@ -1440,6 +1443,8 @@ port
 \
 n
 "
+unless
+suppress_logs
 ;
 print
 "
@@ -2292,7 +2297,6 @@ output
 .
 defined
 (
-my
 pid
 =
 fork
