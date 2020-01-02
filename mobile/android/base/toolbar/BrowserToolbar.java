@@ -685,8 +685,8 @@ private
 OnStopEditingListener
 stopEditingListener
 ;
-final
 private
+final
 BrowserApp
 activity
 ;
@@ -2872,7 +2872,7 @@ GONE
 ;
 }
 }
-public
+private
 boolean
 isVisible
 (
@@ -5437,7 +5437,7 @@ start
 )
 ;
 }
-public
+private
 void
 setButtonEnabled
 (

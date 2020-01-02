@@ -48,7 +48,6 @@ ThreadUtils
 class
 ToolbarTitlePrefs
 {
-public
 static
 final
 String
@@ -62,7 +61,6 @@ chrome
 titlebarMode
 "
 ;
-public
 static
 final
 String

@@ -65,7 +65,6 @@ os
 .
 Build
 ;
-public
 class
 CanvasDelegate
 {
@@ -78,7 +77,6 @@ mMode
 DrawManager
 mDrawManager
 ;
-public
 static
 interface
 DrawManager
@@ -92,7 +90,6 @@ cavas
 )
 ;
 }
-public
 CanvasDelegate
 (
 DrawManager
@@ -144,7 +141,6 @@ setStrokeWidth
 )
 ;
 }
-public
 void
 draw
 (
@@ -314,7 +310,6 @@ count
 )
 ;
 }
-public
 void
 setShader
 (

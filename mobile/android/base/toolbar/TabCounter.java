@@ -338,7 +338,6 @@ info
 ;
 }
 }
-public
 void
 setCountWithAnimation
 (
@@ -434,7 +433,6 @@ mCount
 count
 ;
 }
-public
 void
 setCount
 (

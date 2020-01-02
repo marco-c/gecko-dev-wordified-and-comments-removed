@@ -388,8 +388,8 @@ title
 )
 ;
 }
-final
 private
+final
 BrowserApp
 mActivity
 ;
