@@ -154,8 +154,6 @@ migration
 .
 /
 shell
-/
-src
 '
 ]
 USE_LIBS
