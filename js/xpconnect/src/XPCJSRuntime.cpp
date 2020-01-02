@@ -11646,7 +11646,7 @@ space
 "
 )
 ;
-REPORT_GC_BYTES
+REPORT_BYTES
 (
 rtPath2
 +
@@ -11662,6 +11662,7 @@ nursery
 decommitted
 "
 )
+KIND_NONHEAP
 rtStats
 .
 runtime
