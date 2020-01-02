@@ -3402,7 +3402,7 @@ if
 JS
 :
 :
-GetGCThingZone
+GetTenuredGCThingZone
 (
 str
 )

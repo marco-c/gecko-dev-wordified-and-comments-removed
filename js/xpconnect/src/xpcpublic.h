@@ -701,7 +701,7 @@ MOZ_ASSERT
 JS
 :
 :
-GetGCThingZone
+GetTenuredGCThingZone
 (
 cache
 -
