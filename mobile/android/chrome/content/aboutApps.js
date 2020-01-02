@@ -636,7 +636,6 @@ elmts
 i
 ]
 .
-.
 addEventListener
 (
 "
@@ -644,7 +643,6 @@ click
 "
 openLink
 false
-)
 )
 ;
 }
