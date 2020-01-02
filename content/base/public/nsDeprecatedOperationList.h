@@ -102,3 +102,7 @@ DEPRECATED_OPERATION
 (
 MozGetAsFile
 )
+DEPRECATED_OPERATION
+(
+ShowModalDialog
+)
