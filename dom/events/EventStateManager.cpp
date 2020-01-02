@@ -1304,6 +1304,9 @@ GetExtantDoc
 nullptr
 ;
 }
+namespace
+mozilla
+{
 OverOutElementsWrapper
 :
 :
@@ -1350,9 +1353,6 @@ NS_INTERFACE_MAP_ENTRY
 nsISupports
 )
 NS_INTERFACE_MAP_END
-namespace
-mozilla
-{
 static
 uint32_t
 sESMInstanceCount
