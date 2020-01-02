@@ -61,8 +61,6 @@ None
 try
 :
             
-p
-=
 processhandler
 .
 ProcessHandler
@@ -150,8 +148,6 @@ None
 try
 :
             
-p
-=
 processhandler
 .
 ProcessHandler
@@ -235,8 +231,6 @@ None
 try
 :
             
-p
-=
 processhandler
 .
 ProcessHandler
@@ -318,8 +312,6 @@ None
 try
 :
             
-p
-=
 processhandler
 .
 ProcessHandler
@@ -402,8 +394,6 @@ None
 try
 :
             
-p
-=
 processhandler
 .
 ProcessHandler
@@ -485,8 +475,6 @@ None
 try
 :
             
-p
-=
 processhandler
 .
 ProcessHandler

@@ -7,8 +7,6 @@ os
 import
 unittest
 import
-re
-import
 json
 import
 tempfile
@@ -867,10 +865,6 @@ bar
 '
 )
         
-f
-=
-None
-        
 exception_thrown
 =
 False
@@ -878,8 +872,6 @@ False
 try
 :
             
-f
-=
 urllib2
 .
 urlopen
@@ -959,10 +951,6 @@ httpd
 .
 server_port
         
-f
-=
-None
-        
 exception_thrown
 =
 False
@@ -970,8 +958,6 @@ False
 try
 :
             
-f
-=
 urllib2
 .
 urlopen
@@ -1020,10 +1006,6 @@ assertTrue
 exception_thrown
 )
         
-f
-=
-None
-        
 exception_thrown
 =
 False
@@ -1031,8 +1013,6 @@ False
 try
 :
             
-f
-=
 urllib2
 .
 urlopen
@@ -1091,10 +1071,6 @@ assertTrue
 exception_thrown
 )
         
-f
-=
-None
-        
 exception_thrown
 =
 False
@@ -1146,8 +1122,6 @@ lambda
 DEL
 '
             
-f
-=
 opener
 .
 open
@@ -1159,7 +1133,6 @@ except
 urllib2
 .
 HTTPError
-e
 :
             
 self

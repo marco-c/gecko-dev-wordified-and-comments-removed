@@ -4,8 +4,6 @@ import
 signal
 import
 unittest
-import
-mozinfo
 from
 mozprocess
 import

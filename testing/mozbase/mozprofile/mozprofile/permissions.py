@@ -46,8 +46,6 @@ Permissions
 import
 codecs
 import
-itertools
-import
 os
 import
 sqlite3

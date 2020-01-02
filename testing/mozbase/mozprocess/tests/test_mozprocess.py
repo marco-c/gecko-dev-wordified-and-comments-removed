@@ -1,6 +1,4 @@
 import
-optparse
-import
 os
 import
 subprocess
@@ -12,10 +10,6 @@ from
 mozprocess
 import
 processhandler
-from
-time
-import
-sleep
 here
 =
 os
@@ -990,8 +984,6 @@ None
 try
 :
             
-p
-=
 processhandler
 .
 ProcessHandler
@@ -1006,7 +998,7 @@ process_normal_finish
 ini
 "
 ]
-                                              
+                                          
 args
 =
 [
@@ -1020,7 +1012,7 @@ args
 3
 "
 ]
-                                              
+                                          
 cwd
 =
 here
@@ -1142,8 +1134,6 @@ None
 try
 :
             
-p
-=
 processhandler
 .
 ProcessHandler
@@ -1158,7 +1148,7 @@ process_normal_finish
 ini
 "
 ]
-                                              
+                                          
 args
 =
 [
@@ -1172,7 +1162,7 @@ args
 3
 "
 ]
-                                              
+                                          
 cwd
 =
 here

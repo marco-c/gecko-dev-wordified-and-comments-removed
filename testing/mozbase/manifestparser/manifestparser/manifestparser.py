@@ -5591,11 +5591,6 @@ manifest_dict
 {
 }
         
-seen
-=
-[
-]
-        
 if
 os
 .

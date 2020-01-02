@@ -67,7 +67,7 @@ in
 )
 :
         
-profile
+prof
 =
 profiles
 [
@@ -79,7 +79,7 @@ parts
 index
 ]
 =
-profile
+prof
 .
 summary
 (

@@ -8,11 +8,6 @@ import
 ElementTree
 import
 base
-from
-.
-.
-import
-handlers
 def
 format_test_id
 (

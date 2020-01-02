@@ -1,6 +1,4 @@
 import
-os
-import
 signal
 import
 mozrunnertest
@@ -139,8 +137,6 @@ error
 "
 "
         
-returncode
-=
 self
 .
 runner

@@ -34,8 +34,6 @@ ini
 "
 "
 import
-copy
-import
 imp
 import
 manifestparser

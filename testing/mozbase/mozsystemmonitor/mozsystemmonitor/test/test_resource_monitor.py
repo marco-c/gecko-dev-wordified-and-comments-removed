@@ -1,8 +1,6 @@
 import
 multiprocessing
 import
-tempfile
-import
 time
 import
 unittest
@@ -466,14 +464,6 @@ sleep
 0
 .
 5
-)
-        
-t1
-=
-time
-.
-time
-(
 )
         
 monitor

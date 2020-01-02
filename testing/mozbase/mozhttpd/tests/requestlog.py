@@ -6,8 +6,6 @@ import
 os
 import
 unittest
-import
-time
 here
 =
 os
@@ -43,15 +41,6 @@ log_requests
 False
 )
 :
-        
-filelist
-=
-os
-.
-listdir
-(
-here
-)
         
 httpd
 =
@@ -120,8 +109,6 @@ urlopen
 url
 )
         
-data
-=
 f
 .
 read

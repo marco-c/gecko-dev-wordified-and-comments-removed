@@ -5,8 +5,6 @@ stat
 import
 shutil
 import
-tempfile
-import
 threading
 import
 time
@@ -170,8 +168,6 @@ self
 .
 path
 )
-as
-f
 :
             
 time

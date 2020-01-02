@@ -8,12 +8,6 @@ import
 mozlog
 import
 unittest
-import
-hashlib
-import
-tempfile
-import
-os
 class
 PullTest
 (

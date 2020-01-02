@@ -184,7 +184,6 @@ src
         
 except
 Exception
-e
 :
             
 print
@@ -1485,14 +1484,6 @@ key
 =
 sort_key
 )
-        
-files_end
-=
-item_marker
-        
-dirpath_marker
-=
-item_marker
         
 if
 level

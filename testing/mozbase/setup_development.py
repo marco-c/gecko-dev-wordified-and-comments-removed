@@ -1393,10 +1393,7 @@ key
 ]
 =
 [
-sanitize_dependency
-(
 dep
-)
 for
 dep
 in
@@ -1411,10 +1408,7 @@ value
                         
 alldeps
 [
-sanitize_dependency
-(
 dep
-)
 ]
 =
 '

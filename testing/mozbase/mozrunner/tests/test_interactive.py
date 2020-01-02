@@ -1,13 +1,9 @@
 import
-os
-import
 threading
 from
 time
 import
 sleep
-import
-unittest
 import
 mozrunnertest
 class

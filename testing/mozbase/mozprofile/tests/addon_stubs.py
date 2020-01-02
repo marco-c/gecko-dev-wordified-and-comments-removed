@@ -6,8 +6,6 @@ import
 zipfile
 import
 mozfile
-import
-mozhttpd
 here
 =
 os

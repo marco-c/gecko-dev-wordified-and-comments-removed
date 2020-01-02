@@ -1,11 +1,7 @@
-import
-os
 from
 time
 import
 sleep
-import
-unittest
 import
 mozrunnertest
 class
@@ -105,8 +101,6 @@ gone
 "
 "
         
-pid1
-=
 self
 .
 runner
@@ -123,8 +117,6 @@ runner
 .
 process_handler
         
-pid2
-=
 self
 .
 runner

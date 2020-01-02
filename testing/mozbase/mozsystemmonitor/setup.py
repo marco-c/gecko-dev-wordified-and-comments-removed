@@ -42,7 +42,7 @@ path
 .
 join
 (
-here
+pwd
 '
 README
 .

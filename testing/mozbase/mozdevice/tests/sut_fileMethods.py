@@ -1,8 +1,6 @@
 import
 hashlib
 import
-mock
-import
 mozdevice
 import
 mozlog
@@ -10,8 +8,6 @@ import
 shutil
 import
 tempfile
-import
-os
 import
 unittest
 from

@@ -42,8 +42,6 @@ MockAgent
 self
 )
         
-d
-=
 mozdevice
 .
 DroidSUT
@@ -212,8 +210,6 @@ start_commands
 cmds
 )
         
-dm
-=
 mozdevice
 .
 DroidSUT

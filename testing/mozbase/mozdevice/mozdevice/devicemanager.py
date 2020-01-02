@@ -5,8 +5,6 @@ mozlog
 import
 os
 import
-ntpath
-import
 posixpath
 import
 re
@@ -16,11 +14,6 @@ import
 StringIO
 import
 zlib
-from
-Zeroconf
-import
-Zeroconf
-ServiceBrowser
 from
 functools
 import

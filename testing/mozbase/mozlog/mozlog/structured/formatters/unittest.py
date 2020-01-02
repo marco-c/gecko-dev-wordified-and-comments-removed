@@ -1,12 +1,5 @@
 import
-sys
-import
 base
-from
-.
-.
-import
-handlers
 class
 UnittestFormatter
 (

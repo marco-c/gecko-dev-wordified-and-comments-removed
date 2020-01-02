@@ -1,8 +1,4 @@
 import
-os
-import
-mozrunner
-import
 mozrunnertest
 class
 MozrunnerWaitTestCase
