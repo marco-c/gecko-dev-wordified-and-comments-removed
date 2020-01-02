@@ -30914,9 +30914,6 @@ compileTryCatch
 =
 true
 ;
-#
-ifdef
-JS_THREADSAFE
 bool
 parallelCompilation
 =
@@ -30989,6 +30986,9 @@ str
 )
 ;
 }
+#
+ifdef
+JS_THREADSAFE
 cx
 -
 >
@@ -33144,9 +33144,6 @@ catch
 statements
 "
 )
-#
-ifdef
-JS_THREADSAFE
 |
 |
 !
@@ -33182,8 +33179,6 @@ off
 )
 "
 )
-#
-endif
 |
 |
 !
