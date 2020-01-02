@@ -5554,6 +5554,15 @@ valid
 =
 true
 ;
+if
+(
+size
+<
+4
+)
+return
+INVALID_PROFILE
+;
 length
 =
 read_u32
