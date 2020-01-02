@@ -706,6 +706,33 @@ self
 .
 last_name_error
         
+default_rule
+=
+default
+[
+2
+]
+        
+if
+isinstance
+(
+default_rule
+type
+(
+lambda
+:
+None
+)
+)
+:
+            
+default_rule
+=
+default_rule
+(
+self
+)
+        
 dict
 .
 __setitem__
@@ -716,10 +743,7 @@ copy
 .
 deepcopy
 (
-default
-[
-2
-]
+default_rule
 )
 )
         
