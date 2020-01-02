@@ -163,6 +163,8 @@ mozilla
 .
 gecko
 .
+tabspanel
+.
 TabsPanel
 TabsPanelToolbar
 "
@@ -253,6 +255,8 @@ mozilla
 .
 gecko
 .
+tabspanel
+.
 TabsPanel
 TabsListContainer
 "
@@ -287,6 +291,8 @@ org
 mozilla
 .
 gecko
+.
+tabspanel
 .
 TabsTray
 android
@@ -350,6 +356,8 @@ mozilla
 .
 gecko
 .
+tabspanel
+.
 TabsTray
 android
 :
@@ -412,6 +420,8 @@ mozilla
 .
 gecko
 .
+tabspanel
+.
 RemoteTabsContainer
 android
 :
@@ -452,6 +462,8 @@ mozilla
 .
 gecko
 .
+tabspanel
+.
 RemoteTabsList
 android
 :
@@ -461,7 +473,7 @@ id
 +
 id
 /
-synced_tabs_list
+synced_tabs
 "
 style
 =
@@ -518,6 +530,8 @@ org
 mozilla
 .
 gecko
+.
+tabspanel
 .
 RemoteTabsContainer
 >
