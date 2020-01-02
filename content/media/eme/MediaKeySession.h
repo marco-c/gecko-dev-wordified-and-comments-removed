@@ -205,6 +205,14 @@ aRetval
 )
 const
 ;
+const
+nsString
+&
+GetSessionId
+(
+)
+const
+;
 double
 Expiration
 (
@@ -266,7 +274,7 @@ uint8_t
 &
 aMessage
 const
-nsString
+nsAString
 &
 aURL
 )

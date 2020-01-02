@@ -314,7 +314,7 @@ aId
 )
 ;
 void
-OnSessionActivated
+OnSessionCreated
 (
 PromiseId
 aId
@@ -377,6 +377,14 @@ PromiseId
 aId
 )
 ;
+nsresult
+GetOrigin
+(
+nsString
+&
+aOutOrigin
+)
+;
 private
 :
 already_AddRefed
@@ -412,6 +420,9 @@ mPromises
 ;
 PendingKeySessionsHashMap
 mPendingSessions
+;
+PromiseId
+mCreatePromiseId
 ;
 }
 ;
