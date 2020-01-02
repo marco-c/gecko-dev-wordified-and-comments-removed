@@ -118,6 +118,8 @@ nsIntRect
 aClip
 nsIntRect
 aBufferRect
+bool
+aYFlipped
 hwc_rect_t
 *
 aSourceCrop

@@ -1332,6 +1332,11 @@ transform
 aGLWorldTransform
 clip
 bufferRect
+state
+.
+YFlipped
+(
+)
 &
 (
 sourceCrop
