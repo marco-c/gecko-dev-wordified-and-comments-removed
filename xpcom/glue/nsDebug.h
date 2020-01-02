@@ -1605,6 +1605,11 @@ aFmt
 .
 .
 )
+MOZ_FORMAT_PRINTF
+(
+1
+2
+)
 ;
 NS_COM_GLUE
 void
@@ -1632,6 +1637,11 @@ aFmt
 .
 .
 .
+)
+MOZ_FORMAT_PRINTF
+(
+2
+3
 )
 ;
 NS_COM_GLUE
