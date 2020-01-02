@@ -328,11 +328,6 @@ nsIMutationObserver
 h
 '
 '
-nsINameSpaceManager
-.
-h
-'
-'
 nsINode
 .
 h
@@ -359,6 +354,11 @@ h
 '
 '
 nsLineBreaker
+.
+h
+'
+'
+nsNameSpaceManager
 .
 h
 '

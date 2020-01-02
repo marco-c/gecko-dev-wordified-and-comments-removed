@@ -50,7 +50,7 @@ h
 #
 include
 "
-nsINameSpaceManager
+nsNameSpaceManager
 .
 h
 "
@@ -1805,15 +1805,8 @@ shouldPosition
 !
 aSizedToPopup
 )
-{
-RemoveStateBits
-(
-NS_FRAME_FIRST_REFLOW
-)
-;
 return
 ;
-}
 }
 if
 (

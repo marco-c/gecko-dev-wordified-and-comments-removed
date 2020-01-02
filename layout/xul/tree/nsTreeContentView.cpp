@@ -1,7 +1,7 @@
 #
 include
 "
-nsINameSpaceManager
+nsNameSpaceManager
 .
 h
 "

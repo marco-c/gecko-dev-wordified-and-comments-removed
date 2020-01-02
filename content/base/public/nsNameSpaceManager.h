@@ -1,9 +1,9 @@
 #
 ifndef
-nsINameSpaceManager_h___
+nsNameSpaceManager_h___
 #
 define
-nsINameSpaceManager_h___
+nsNameSpaceManager_h___
 #
 include
 "

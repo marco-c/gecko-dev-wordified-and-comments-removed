@@ -180,6 +180,13 @@ h
 #
 include
 "
+nsNameSpaceManager
+.
+h
+"
+#
+include
+"
 nsINodeInfo
 .
 h

@@ -21,14 +21,14 @@ h
 #
 include
 "
-nsINameSpaceManager
+nsISupports
 .
 h
 "
 #
 include
 "
-nsISupports
+nsNameSpaceManager
 .
 h
 "

@@ -29,13 +29,6 @@ h
 #
 include
 "
-nsINameSpaceManager
-.
-h
-"
-#
-include
-"
 nsIServiceManager
 .
 h
@@ -44,6 +37,13 @@ h
 include
 "
 nsGkAtoms
+.
+h
+"
+#
+include
+"
+nsNameSpaceManager
 .
 h
 "

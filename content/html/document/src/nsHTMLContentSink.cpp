@@ -268,13 +268,6 @@ h
 #
 include
 "
-nsINameSpaceManager
-.
-h
-"
-#
-include
-"
 nsIDOMHTMLMapElement
 .
 h
@@ -318,6 +311,13 @@ h
 include
 "
 nsIScriptGlobalObject
+.
+h
+"
+#
+include
+"
+nsNameSpaceManager
 .
 h
 "

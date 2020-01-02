@@ -50,13 +50,6 @@ h
 #
 include
 "
-nsINameSpaceManager
-.
-h
-"
-#
-include
-"
 nsError
 .
 h
@@ -114,6 +107,13 @@ h
 include
 "
 nsCOMArray
+.
+h
+"
+#
+include
+"
+nsNameSpaceManager
 .
 h
 "
