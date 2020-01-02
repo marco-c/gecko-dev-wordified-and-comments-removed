@@ -3238,7 +3238,7 @@ try
 yield
 promiseAttempt
 ;
-do_print
+do_throw
 (
 "
 The
