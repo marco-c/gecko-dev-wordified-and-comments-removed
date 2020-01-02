@@ -146,6 +146,14 @@ nsAuthSSPI
 cpp
 '
 ]
+DEFINES
+[
+'
+USE_SSPI
+'
+]
+=
+True
 else
 :
 CPP_SOURCES

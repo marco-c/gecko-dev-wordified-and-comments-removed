@@ -151,6 +151,17 @@ nsXULWindow
 cpp
 '
 ]
+LOCAL_INCLUDES
++
+=
+[
+'
+/
+dom
+/
+base
+'
+]
 LIBRARY_NAME
 =
 '

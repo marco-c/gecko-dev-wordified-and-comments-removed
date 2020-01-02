@@ -108,6 +108,17 @@ TestFileUtils
 cpp
 '
 ]
+LOCAL_INCLUDES
+=
+[
+'
+.
+.
+/
+.
+.
+'
+]
 LIBRARY_NAME
 =
 '

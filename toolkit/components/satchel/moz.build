@@ -141,6 +141,17 @@ nsFormFillController
 cpp
 '
 ]
+LOCAL_INCLUDES
++
+=
+[
+'
+.
+.
+/
+build
+'
+]
 EXTRA_COMPONENTS
 +
 =
