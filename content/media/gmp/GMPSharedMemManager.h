@@ -54,15 +54,13 @@ kGMPBufLimit
 GMPSharedMemManager
 (
 )
-{
-}
+;
 virtual
 ~
 GMPSharedMemManager
 (
 )
-{
-}
+;
 virtual
 bool
 MgrAllocShmem
