@@ -432,6 +432,7 @@ const
 {
 url
 line
+column
 }
 =
 frame
@@ -450,6 +451,14 @@ line
 BP_LOCATION
 .
 line
+)
+;
+is
+(
+column
+BP_LOCATION
+.
+column
 )
 ;
 resumeDebuggerThenCloseAndFinish
