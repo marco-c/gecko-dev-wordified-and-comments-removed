@@ -12274,6 +12274,12 @@ GetParentNode
 if
 (
 current
+!
+=
+aRoot
+&
+&
+current
 -
 >
 NodeType
