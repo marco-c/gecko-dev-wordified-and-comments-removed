@@ -241,11 +241,6 @@ Sntp
 jsm
 '
 '
-SpatialNavigation
-.
-jsm
-'
-'
 Sqlite
 .
 jsm
