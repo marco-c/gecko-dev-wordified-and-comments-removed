@@ -1009,13 +1009,13 @@ onbeforeunload
 ;
 nsRefPtr
 <
-BeforeUnloadEventHandlerNonNull
+OnBeforeUnloadEventHandlerNonNull
 >
 handler
 =
 mHandler
 .
-BeforeUnloadEventHandler
+OnBeforeUnloadEventHandler
 (
 )
 ;
