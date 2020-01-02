@@ -474,6 +474,7 @@ ANIMATION_DURATION
 250
 ;
 private
+volatile
 String
 mSearchTerm
 ;
