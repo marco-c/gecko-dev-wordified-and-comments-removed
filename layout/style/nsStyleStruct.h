@@ -3923,6 +3923,9 @@ mBorderImageRepeatV
 uint8_t
 mFloatEdge
 ;
+uint8_t
+mBoxDecorationBreak
+;
 protected
 :
 nsMargin
