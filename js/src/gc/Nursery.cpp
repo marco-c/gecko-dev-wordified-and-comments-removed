@@ -442,6 +442,17 @@ isHeapBusy
 )
 )
 ;
+JS_ASSERT
+(
+size
+>
+=
+sizeof
+(
+RelocationOverlay
+)
+)
+;
 if
 (
 position
