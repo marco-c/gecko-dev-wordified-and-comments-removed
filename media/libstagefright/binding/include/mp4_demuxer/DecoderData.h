@@ -269,6 +269,13 @@ Update
 (
 )
 ;
+void
+Pad
+(
+size_t
+aPaddingBytes
+)
+;
 stagefright
 :
 :

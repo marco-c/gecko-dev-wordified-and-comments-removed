@@ -322,6 +322,14 @@ av_init_packet
 packet
 )
 ;
+aSample
+-
+>
+Pad
+(
+FF_INPUT_BUFFER_PADDING_SIZE
+)
+;
 packet
 .
 data
