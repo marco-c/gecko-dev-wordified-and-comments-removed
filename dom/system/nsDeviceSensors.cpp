@@ -796,7 +796,7 @@ aWindow
 aWindow
 -
 >
-GetOuterWindow
+IsCurrentInnerWindow
 (
 )
 )
