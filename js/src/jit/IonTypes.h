@@ -89,6 +89,7 @@ Bailout_ArgumentCheck
 Bailout_BoundsCheck
 Bailout_ShapeGuard
 Bailout_BaselineInfo
+Bailout_IonExceptionDebugMode
 }
 ;
 inline
@@ -144,6 +145,14 @@ Bailout_BaselineInfo
 return
 "
 Bailout_BaselineInfo
+"
+;
+case
+Bailout_IonExceptionDebugMode
+:
+return
+"
+Bailout_IonExceptionDebugMode
 "
 ;
 default
