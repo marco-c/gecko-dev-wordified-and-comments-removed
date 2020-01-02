@@ -541,10 +541,11 @@ deps
 .
 map
 (
-function
 (
 dep
 )
+=
+>
 {
 if
 (
@@ -615,11 +616,6 @@ dep
 )
 ;
 }
-.
-bind
-(
-this
-)
 )
 ;
 var

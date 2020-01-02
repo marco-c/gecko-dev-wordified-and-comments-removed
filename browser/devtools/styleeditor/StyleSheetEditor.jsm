@@ -2094,11 +2094,11 @@ asyncCopy
 (
 istream
 ostream
-function
-onStreamCopied
 (
 status
 )
+=
+>
 {
 if
 (
@@ -2165,11 +2165,6 @@ returnFile
 ;
 }
 }
-.
-bind
-(
-this
-)
 )
 ;
 }

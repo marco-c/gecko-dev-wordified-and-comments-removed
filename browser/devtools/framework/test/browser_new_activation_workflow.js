@@ -272,9 +272,10 @@ once
 "
 destroyed
 "
-function
 (
 )
+=
+>
 {
 target
 =
@@ -350,11 +351,6 @@ finishUp
 )
 ;
 }
-.
-bind
-(
-this
-)
 )
 ;
 toolbox

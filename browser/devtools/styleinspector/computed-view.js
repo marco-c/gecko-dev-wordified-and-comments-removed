@@ -2054,9 +2054,10 @@ win
 .
 setTimeout
 (
-function
 (
 )
+=
+>
 {
 this
 .
@@ -2071,11 +2072,6 @@ _filterChangeTimeout
 null
 ;
 }
-.
-bind
-(
-this
-)
 FILTER_CHANGED_TIMEOUT
 )
 ;

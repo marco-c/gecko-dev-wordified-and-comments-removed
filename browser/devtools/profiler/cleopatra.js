@@ -285,10 +285,11 @@ addEventListener
 "
 message
 "
-function
 (
 event
 )
+=
+>
 {
 if
 (
@@ -367,11 +368,6 @@ data
 ;
 }
 }
-.
-bind
-(
-this
-)
 )
 ;
 }

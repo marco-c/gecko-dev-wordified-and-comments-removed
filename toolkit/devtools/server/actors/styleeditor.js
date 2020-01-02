@@ -1548,10 +1548,11 @@ ownerNode
 let
 onSheetLoaded
 =
-function
 (
 event
 )
+=
+>
 {
 ownerNode
 .
@@ -1574,11 +1575,6 @@ ruleCount
 )
 ;
 }
-.
-bind
-(
-this
-)
 ;
 ownerNode
 .

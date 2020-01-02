@@ -1686,10 +1686,11 @@ aProperties
 .
 filter
 (
-function
 (
 aProperty
 )
+=
+>
 {
 if
 (
@@ -1748,11 +1749,6 @@ return
 true
 ;
 }
-.
-bind
-(
-this
-)
 )
 ;
 return

@@ -346,11 +346,12 @@ defer
 let
 handler
 =
-function
 (
 aEvent
 aFirstArg
 )
+=
+>
 {
 this
 .
@@ -382,11 +383,6 @@ aFirstArg
 )
 ;
 }
-.
-bind
-(
-this
-)
 ;
 handler
 .

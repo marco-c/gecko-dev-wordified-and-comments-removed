@@ -1406,12 +1406,12 @@ this
 .
 _onTabNavigated
 =
-function
-onRemoteTabNavigated
 (
 aType
 aPacket
 )
+=
+>
 {
 let
 event
@@ -1514,11 +1514,6 @@ null
 ;
 }
 }
-.
-bind
-(
-this
-)
 ;
 this
 .

@@ -712,9 +712,10 @@ defer
 ;
 executeSoon
 (
-function
 (
 )
+=
+>
 {
 this
 .
@@ -739,11 +740,6 @@ this
 )
 ;
 }
-.
-bind
-(
-this
-)
 )
 ;
 return
