@@ -12291,9 +12291,6 @@ case
 JSOP_NAME
 :
 case
-JSOP_CALLNAME
-:
-case
 JSOP_SETNAME
 :
 name
@@ -12310,9 +12307,6 @@ break
 ;
 case
 JSOP_GETALIASEDVAR
-:
-case
-JSOP_CALLALIASEDVAR
 :
 case
 JSOP_SETALIASEDVAR
