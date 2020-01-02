@@ -468,7 +468,7 @@ CompositionEventDispatcher
 }
 ;
 void
-DispatchCompsotionEventRunnable
+DispatchCompositionEventRunnable
 (
 uint32_t
 aEventMessage
