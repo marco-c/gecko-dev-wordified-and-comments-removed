@@ -53,12 +53,6 @@ include
 <
 algorithm
 >
-using
-mozilla
-:
-:
-ArrayLength
-;
 static
 const
 uint8_t

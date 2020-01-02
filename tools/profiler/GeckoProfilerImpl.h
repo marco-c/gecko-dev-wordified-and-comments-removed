@@ -51,15 +51,6 @@ h
 #
 include
 "
-mozilla
-/
-Util
-.
-h
-"
-#
-include
-"
 nsAlgorithm
 .
 h

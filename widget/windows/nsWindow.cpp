@@ -39,15 +39,6 @@ include
 "
 mozilla
 /
-Util
-.
-h
-"
-#
-include
-"
-mozilla
-/
 ipc
 /
 MessageChannel

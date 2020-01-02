@@ -80,15 +80,6 @@ h
 #
 include
 "
-mozilla
-/
-Util
-.
-h
-"
-#
-include
-"
 GeckoProfiler
 .
 h

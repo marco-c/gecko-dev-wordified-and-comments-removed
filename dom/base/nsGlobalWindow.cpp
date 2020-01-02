@@ -22,15 +22,6 @@ h
 #
 include
 "
-mozilla
-/
-Util
-.
-h
-"
-#
-include
-"
 Navigator
 .
 h

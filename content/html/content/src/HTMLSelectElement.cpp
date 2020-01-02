@@ -72,15 +72,6 @@ h
 #
 include
 "
-mozilla
-/
-Util
-.
-h
-"
-#
-include
-"
 nsContentCreatorFunctions
 .
 h

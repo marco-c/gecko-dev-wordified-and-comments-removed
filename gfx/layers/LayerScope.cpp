@@ -8,15 +8,6 @@ h
 #
 include
 "
-mozilla
-/
-Util
-.
-h
-"
-#
-include
-"
 Composer2D
 .
 h

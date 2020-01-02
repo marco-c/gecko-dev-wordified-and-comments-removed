@@ -20,15 +20,6 @@ HTMLFrameElementBinding
 .
 h
 "
-#
-include
-"
-mozilla
-/
-Util
-.
-h
-"
 class
 nsIDOMDocument
 ;

@@ -74,15 +74,6 @@ h
 #
 include
 "
-mozilla
-/
-Util
-.
-h
-"
-#
-include
-"
 nsAsyncDOMEvent
 .
 h
