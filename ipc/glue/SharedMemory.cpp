@@ -66,6 +66,12 @@ MOZ_FINAL
 public
 nsIMemoryReporter
 {
+~
+ShmemReporter
+(
+)
+{
+}
 public
 :
 NS_DECL_THREADSAFE_ISUPPORTS
