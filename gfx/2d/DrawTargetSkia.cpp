@@ -4225,6 +4225,10 @@ width
 aSize
 .
 height
+aFormat
+=
+=
+FORMAT_B8G8R8X8
 )
 )
 ;
