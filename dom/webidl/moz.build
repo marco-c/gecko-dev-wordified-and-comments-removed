@@ -2561,11 +2561,6 @@ MozOtaStatusEvent
 webidl
 '
 '
-MozStkCommandEvent
-.
-webidl
-'
-'
 MozVoicemail
 .
 webidl
@@ -2743,6 +2738,11 @@ webidl
 '
 '
 MozInterAppMessageEvent
+.
+webidl
+'
+'
+MozStkCommandEvent
 .
 webidl
 '
