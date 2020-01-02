@@ -550,7 +550,7 @@ if
 dest
 )
 {
-NS_ERROR
+NS_WARNING
 (
 "
 Blurring
