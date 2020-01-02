@@ -712,6 +712,15 @@ mismatch
 ;
 if
 (
+mInAnimationOnlyStyleUpdate
+)
+{
+return
+nullptr
+;
+}
+if
+(
 !
 mPresContext
 -
