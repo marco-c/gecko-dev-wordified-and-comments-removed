@@ -136,6 +136,8 @@ parent
 :
 __delete__
 (
+uint32_t
+generation
 MemoryReport
 [
 ]

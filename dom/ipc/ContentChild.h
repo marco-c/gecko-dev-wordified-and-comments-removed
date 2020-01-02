@@ -446,6 +446,10 @@ PMemoryReportRequestChild
 *
 AllocPMemoryReportRequestChild
 (
+const
+uint32_t
+&
+generation
 )
 ;
 virtual
@@ -464,6 +468,10 @@ RecvPMemoryReportRequestConstructor
 PMemoryReportRequestChild
 *
 child
+const
+uint32_t
+&
+generation
 )
 ;
 virtual
