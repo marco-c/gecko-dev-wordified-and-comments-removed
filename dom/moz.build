@@ -309,6 +309,9 @@ audiochannel
 promise
 '
 '
+wappush
+'
+'
 telephony
 '
 '
@@ -366,9 +369,6 @@ cellbroadcast
 '
 '
 voicemail
-'
-'
-wappush
 '
 ]
 if
