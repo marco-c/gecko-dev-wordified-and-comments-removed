@@ -1213,6 +1213,11 @@ TypedObjectElements
 \
 _
 (
+SetTypedObjectOffset
+)
+\
+_
+(
 StringLength
 )
 \
