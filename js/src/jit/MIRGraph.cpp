@@ -153,7 +153,7 @@ false
 )
 minAsmJSHeapLength_
 (
-AsmJSAllocationGranularity
+0
 )
 modifiesFrameArguments_
 (

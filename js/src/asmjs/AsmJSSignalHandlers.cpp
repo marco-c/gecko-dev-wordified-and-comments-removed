@@ -3729,7 +3729,7 @@ maybeHeap
 (
 )
 +
-AsmJSBufferProtectedSize
+AsmJSMappedSize
 )
 {
 return
@@ -5023,7 +5023,7 @@ maybeHeap
 (
 )
 +
-AsmJSBufferProtectedSize
+AsmJSMappedSize
 )
 {
 return
@@ -6057,7 +6057,7 @@ maybeHeap
 (
 )
 +
-AsmJSBufferProtectedSize
+AsmJSMappedSize
 )
 {
 return
