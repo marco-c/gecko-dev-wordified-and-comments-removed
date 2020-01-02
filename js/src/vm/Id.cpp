@@ -16,9 +16,6 @@ RootingAPI
 .
 h
 "
-#
-ifdef
-JS_USE_JSID_STRUCT_TYPES
 const
 jsid
 JSID_VOID
@@ -41,8 +38,6 @@ JSID_TYPE_OBJECT
 )
 }
 ;
-#
-endif
 static
 const
 jsid
