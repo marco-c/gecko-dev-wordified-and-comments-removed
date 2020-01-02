@@ -54,6 +54,7 @@ nsSecurityHeaderParser
 {
 public
 :
+explicit
 nsSecurityHeaderParser
 (
 const
