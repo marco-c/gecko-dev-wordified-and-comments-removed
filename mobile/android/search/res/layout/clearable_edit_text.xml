@@ -129,8 +129,6 @@ inputType
 =
 "
 textNoSuggestions
-|
-textVisiblePassword
 "
 android
 :
