@@ -777,10 +777,6 @@ baselineFrame_
 (
 baselineFrame
 )
-abortReason_
-(
-AbortReason_Disable
-)
 descrSetHash_
 (
 nullptr
@@ -932,6 +928,10 @@ info
 startPC
 (
 )
+;
+abortReason_
+=
+AbortReason_Disable
 ;
 JS_ASSERT
 (

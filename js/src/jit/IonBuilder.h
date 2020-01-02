@@ -4078,15 +4078,6 @@ backgroundCodegen_
 codegen
 ;
 }
-AbortReason
-abortReason
-(
-)
-{
-return
-abortReason_
-;
-}
 TypeDescrSetHash
 *
 getOrCreateDescrSetHash
@@ -4154,9 +4145,6 @@ analysisContext
 BaselineFrameInspector
 *
 baselineFrame_
-;
-AbortReason
-abortReason_
 ;
 TypeDescrSetHash
 *
