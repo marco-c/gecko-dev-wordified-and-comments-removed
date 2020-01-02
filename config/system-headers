@@ -5102,14 +5102,6 @@ h
 endif
 #
 if
-MOZ_ENABLE_MEEGOTOUCHSHARE
-shareuiinterface
-.
-h
-#
-endif
-#
-if
 MOZ_NATIVE_LIBVPX
 =
 =
