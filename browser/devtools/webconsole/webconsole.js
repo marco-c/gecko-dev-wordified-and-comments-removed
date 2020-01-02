@@ -12954,7 +12954,7 @@ before_start
 theme
 :
 "
-light
+auto
 "
 direction
 :

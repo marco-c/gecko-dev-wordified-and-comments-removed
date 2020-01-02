@@ -433,6 +433,9 @@ options
 citation
 -
 label
+theme
+-
+comment
 "
 value
 =
@@ -1036,6 +1039,9 @@ options
 citation
 -
 label
+theme
+-
+comment
 "
 value
 =
