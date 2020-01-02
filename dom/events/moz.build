@@ -233,6 +233,11 @@ dom
 =
 [
 '
+AnimationEvent
+.
+h
+'
+'
 EventTarget
 .
 h
@@ -280,6 +285,11 @@ UNIFIED_SOURCES
 =
 [
 '
+AnimationEvent
+.
+cpp
+'
+'
 EventTarget
 .
 cpp
@@ -291,11 +301,6 @@ cpp
 '
 '
 nsContentEventHandler
-.
-cpp
-'
-'
-nsDOMAnimationEvent
 .
 cpp
 '
