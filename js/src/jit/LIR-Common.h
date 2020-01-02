@@ -3120,9 +3120,6 @@ LIR_HEADER
 (
 ToIdV
 )
-BOX_OUTPUT_ACCESSORS
-(
-)
 LToIdV
 (
 const
@@ -10532,9 +10529,6 @@ LIR_HEADER
 (
 BinaryV
 )
-BOX_OUTPUT_ACCESSORS
-(
-)
 LBinaryV
 (
 JSOp
@@ -13109,9 +13103,6 @@ LIR_HEADER
 (
 ImplicitThis
 )
-BOX_OUTPUT_ACCESSORS
-(
-)
 LImplicitThis
 (
 const
@@ -14142,9 +14133,6 @@ LIR_HEADER
 (
 LoadElementV
 )
-BOX_OUTPUT_ACCESSORS
-(
-)
 LLoadElementV
 (
 const
@@ -14395,9 +14383,6 @@ public
 LIR_HEADER
 (
 LoadElementHole
-)
-BOX_OUTPUT_ACCESSORS
-(
 )
 LLoadElementHole
 (
@@ -15939,9 +15924,6 @@ LIR_HEADER
 (
 LoadTypedArrayElementHole
 )
-BOX_OUTPUT_ACCESSORS
-(
-)
 LLoadTypedArrayElementHole
 (
 const
@@ -16675,9 +16657,6 @@ LIR_HEADER
 (
 LoadFixedSlotV
 )
-BOX_OUTPUT_ACCESSORS
-(
-)
 LLoadFixedSlotV
 (
 const
@@ -16943,9 +16922,6 @@ LIR_HEADER
 (
 GetNameCache
 )
-BOX_OUTPUT_ACCESSORS
-(
-)
 LGetNameCache
 (
 const
@@ -17010,9 +16986,6 @@ public
 LIR_HEADER
 (
 CallGetIntrinsicValue
-)
-BOX_OUTPUT_ACCESSORS
-(
 )
 const
 MCallGetIntrinsicValue
@@ -17115,9 +17088,6 @@ public
 LIR_HEADER
 (
 GetPropertyCacheV
-)
-BOX_OUTPUT_ACCESSORS
-(
 )
 LGetPropertyCacheV
 (
@@ -17244,9 +17214,6 @@ public
 LIR_HEADER
 (
 GetPropertyPolymorphicV
-)
-BOX_OUTPUT_ACCESSORS
-(
 )
 LGetPropertyPolymorphicV
 (
@@ -17650,9 +17617,6 @@ LIR_HEADER
 (
 GetElementCacheV
 )
-BOX_OUTPUT_ACCESSORS
-(
-)
 static
 const
 size_t
@@ -17916,9 +17880,6 @@ public
 LIR_HEADER
 (
 LoadSlotV
-)
-BOX_OUTPUT_ACCESSORS
-(
 )
 LLoadSlotV
 (
@@ -18735,9 +18696,6 @@ LIR_HEADER
 (
 CallGetElement
 )
-BOX_OUTPUT_ACCESSORS
-(
-)
 static
 const
 size_t
@@ -18790,9 +18748,6 @@ public
 LIR_HEADER
 (
 CallSetElement
-)
-BOX_OUTPUT_ACCESSORS
-(
 )
 static
 const
@@ -19779,9 +19734,6 @@ LIR_HEADER
 (
 IteratorNext
 )
-BOX_OUTPUT_ACCESSORS
-(
-)
 LIteratorNext
 (
 const
@@ -20113,9 +20065,6 @@ LIR_HEADER
 (
 GetFrameArgument
 )
-BOX_OUTPUT_ACCESSORS
-(
-)
 LGetFrameArgument
 (
 const
@@ -20290,9 +20239,6 @@ public
 LIR_HEADER
 (
 SetFrameArgumentV
-)
-BOX_OUTPUT_ACCESSORS
-(
 )
 LSetFrameArgumentV
 (
