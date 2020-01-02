@@ -4,12 +4,6 @@ import
 unicode_literals
 import
 os
-import
-sys
-from
-mozlog
-import
-structured
 from
 mozbuild
 .
@@ -104,7 +98,7 @@ None
 address
 =
 None
-binary
+bin
 =
 None
 topsrcdir
@@ -210,9 +204,9 @@ else
         
 options
 .
-binary
+bin
 =
-binary
+bin
         
 path
 exe
@@ -225,7 +219,7 @@ split
 (
 options
 .
-binary
+bin
 )
     
 options
@@ -240,35 +234,6 @@ verify_usage
 (
 options
 tests
-)
-    
-options
-.
-logger
-=
-structured
-.
-commandline
-.
-setup_logging
-(
-"
-Marionette
-Unit
-Tests
-"
-                                                          
-options
-                                                          
-{
-"
-mach
-"
-:
-sys
-.
-stdout
-}
 )
     
 runner
@@ -702,7 +667,7 @@ None
 )
 :
         
-binary
+bin
 =
 self
 .
@@ -717,9 +682,9 @@ return
 run_marionette
 (
 tests
-binary
+bin
 =
-binary
+bin
 testtype
 =
 testtype
