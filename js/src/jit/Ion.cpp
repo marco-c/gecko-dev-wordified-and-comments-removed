@@ -8240,7 +8240,7 @@ logger
 TraceLogger
 :
 :
-IonLink
+IonLinking
 )
 ;
 codegen
@@ -8683,7 +8683,7 @@ logger
 TraceLogger
 :
 :
-IonCompile
+IonCompilation
 )
 ;
 JS_ASSERT

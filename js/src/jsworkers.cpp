@@ -3715,7 +3715,7 @@ logger
 TraceLogger
 :
 :
-IonCompile
+IonCompilation
 )
 ;
 JSRuntime

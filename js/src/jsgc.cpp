@@ -11360,7 +11360,7 @@ logger
 TraceLogger
 :
 :
-GCAllocating
+GCAllocation
 )
 ;
 do
