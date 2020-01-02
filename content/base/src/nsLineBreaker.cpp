@@ -1612,7 +1612,7 @@ aTextStart
 aTextLimit
 )
 ;
-nsAutoTArray
+AutoFallibleTArray
 <
 bool
 200

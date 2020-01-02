@@ -187,7 +187,7 @@ const
 nsAString
 &
 aString
-nsTArray
+FallibleTArray
 <
 bool
 >
