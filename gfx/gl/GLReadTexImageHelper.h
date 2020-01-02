@@ -54,9 +54,6 @@ Types
 .
 h
 "
-class
-gfxImageSurface
-;
 namespace
 mozilla
 {

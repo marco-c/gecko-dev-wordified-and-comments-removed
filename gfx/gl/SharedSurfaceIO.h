@@ -7,13 +7,6 @@ SHARED_SURFACEIO_H_
 #
 include
 "
-gfxImageSurface
-.
-h
-"
-#
-include
-"
 SharedSurfaceGL
 .
 h
@@ -224,12 +217,6 @@ RefPtr
 MacIOSurface
 >
 mSurface
-;
-nsRefPtr
-<
-gfxImageSurface
->
-mImageSurface
 ;
 GLuint
 mProdTex

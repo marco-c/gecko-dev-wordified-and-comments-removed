@@ -54,9 +54,6 @@ Point
 .
 h
 "
-class
-gfxImageSurface
-;
 namespace
 mozilla
 {
