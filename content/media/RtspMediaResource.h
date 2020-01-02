@@ -86,6 +86,13 @@ return
 mRealTime
 ;
 }
+void
+SetSuspend
+(
+bool
+aIsSuspend
+)
+;
 nsresult
 ReadFrameFromTrack
 (
@@ -243,7 +250,7 @@ IsSuspendedByCache
 MOZ_OVERRIDE
 {
 return
-false
+mIsSuspend
 ;
 }
 virtual
@@ -543,6 +550,13 @@ mListener
 ;
 private
 :
+void
+NotifySuspend
+(
+bool
+aIsSuspend
+)
+;
 bool
 IsVideoEnabled
 (
@@ -578,6 +592,9 @@ mIsConnected
 ;
 bool
 mRealTime
+;
+bool
+mIsSuspend
 ;
 }
 ;
