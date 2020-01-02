@@ -10896,11 +10896,8 @@ gpi
 Init
 (
 window
+&
 initReturn
-.
-address
-(
-)
 )
 ;
 if
