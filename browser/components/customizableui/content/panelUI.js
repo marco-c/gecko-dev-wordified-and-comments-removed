@@ -956,9 +956,8 @@ break
 ;
 }
 }
+get
 isReady
-:
-function
 (
 )
 {

@@ -1051,8 +1051,6 @@ window
 PanelUI
 .
 isReady
-(
-)
 )
 {
 yield
