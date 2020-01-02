@@ -309,11 +309,16 @@ UbuntuBootstrapper
             
 elif
 distro
-=
-=
+in
+(
+'
+Elementary
+OS
+'
 '
 Elementary
 '
+)
 :
                 
 cls
