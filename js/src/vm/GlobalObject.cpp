@@ -2160,6 +2160,12 @@ getOrCreateEval
 JSContext
 *
 cx
+Handle
+<
+GlobalObject
+*
+>
+global
 MutableHandleObject
 eval
 )
@@ -2167,6 +2173,9 @@ eval
 if
 (
 !
+global
+-
+>
 getOrCreateObjectPrototype
 (
 cx
@@ -2180,6 +2189,9 @@ eval
 set
 (
 &
+global
+-
+>
 getSlotRefForCompilation
 (
 EVAL
