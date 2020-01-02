@@ -1647,6 +1647,14 @@ selectionArgs
 null
 )
 ;
+if
+(
+c
+!
+=
+null
+)
+{
 final
 Uri
 notificationUri
@@ -1668,6 +1676,7 @@ cr
 notificationUri
 )
 ;
+}
 return
 c
 ;
