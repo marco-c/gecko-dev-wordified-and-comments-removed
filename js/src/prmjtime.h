@@ -65,7 +65,6 @@ extern
 int64_t
 PRMJ_Now
 (
-void
 )
 ;
 #
