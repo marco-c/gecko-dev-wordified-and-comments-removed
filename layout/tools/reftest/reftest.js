@@ -1181,6 +1181,8 @@ browser
 tabs
 .
 remote
+.
+autostart
 "
 )
 ;
