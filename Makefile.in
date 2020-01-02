@@ -270,6 +270,8 @@ backend
 RecursiveMakeBackend
 ifndef
 JS_STANDALONE
+ifndef
+LIBXUL_SDK
 libs
 binaries
 export
@@ -292,6 +294,7 @@ src
 config
 .
 status
+endif
 endif
 endif
 ifdef
@@ -688,6 +691,8 @@ NULL
 )
 ifndef
 JS_STANDALONE
+ifndef
+LIBXUL_SDK
 install_manifest_depends
 +
 =
@@ -713,6 +718,7 @@ status
 (
 NULL
 )
+endif
 endif
 .
 PHONY
