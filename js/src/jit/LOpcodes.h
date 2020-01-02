@@ -643,6 +643,11 @@ OsrScopeChain
 \
 _
 (
+OsrArgumentsObject
+)
+\
+_
+(
 RegExp
 )
 \

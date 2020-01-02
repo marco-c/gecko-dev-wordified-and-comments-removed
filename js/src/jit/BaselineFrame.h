@@ -617,11 +617,8 @@ script
 argsObjAliasesFormals
 (
 )
-)
-;
-JS_ASSERT_IF
-(
-checkAliasing
+&
+&
 !
 script
 (

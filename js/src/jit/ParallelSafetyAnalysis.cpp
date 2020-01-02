@@ -597,6 +597,10 @@ OsrScopeChain
 )
 UNSAFE_OP
 (
+OsrArgumentsObject
+)
+UNSAFE_OP
+(
 ReturnFromCtor
 )
 CUSTOM_OP

@@ -929,6 +929,14 @@ object
 )
 ;
 bool
+visitOsrArgumentsObject
+(
+MOsrArgumentsObject
+*
+object
+)
+;
+bool
 visitToDouble
 (
 MToDouble
