@@ -423,6 +423,11 @@ info
 bookmarkId
 <
 0
+|
+|
+info
+.
+inReadingList
 )
 {
 menu
