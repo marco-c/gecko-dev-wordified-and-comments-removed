@@ -500,6 +500,13 @@ JS_GetRuntime
 cx
 )
 )
+nocgc
+(
+JS_GetRuntime
+(
+cx
+)
+)
 runtime
 (
 JS_GetRuntime
@@ -538,6 +545,12 @@ JS
 :
 AutoDisableGenerationalGC
 noggc
+;
+js
+:
+:
+AutoDisableCompactingGC
+nocgc
 ;
 JSRuntime
 *
