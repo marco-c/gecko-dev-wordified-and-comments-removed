@@ -188,6 +188,9 @@ mSamplePosition
 bool
 mHaveOutput
 ;
+bool
+mFlushed
+;
 AudioStreamBasicDescription
 mOutputFormat
 ;
@@ -210,6 +213,11 @@ mp4_demuxer
 MP4Sample
 >
 aSample
+)
+;
+void
+SignalFlush
+(
 )
 ;
 }
