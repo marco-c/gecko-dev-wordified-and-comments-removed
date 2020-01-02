@@ -322,12 +322,6 @@ ref
 html
 #
 focus
-fails
--
-if
-(
-B2G
-)
 needs
 -
 focus
@@ -345,9 +339,6 @@ handling
 ref
 .
 html
-#
-bug
-940760
 #
 pseudo
 -
