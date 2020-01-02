@@ -4247,12 +4247,13 @@ typedef
 bool
 (
 *
-DOMInstanceClassMatchesProto
+DOMInstanceClassHasProtoAtDepth
 )
 (
-JSObject
+const
+Class
 *
-protoObject
+instanceClass
 uint32_t
 protoID
 uint32_t
@@ -4262,7 +4263,7 @@ depth
 struct
 JSDOMCallbacks
 {
-DOMInstanceClassMatchesProto
+DOMInstanceClassHasProtoAtDepth
 instanceClassMatchesProto
 ;
 }
