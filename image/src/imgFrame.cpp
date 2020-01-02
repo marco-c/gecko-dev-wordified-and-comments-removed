@@ -3702,10 +3702,15 @@ called
 "
 )
 ;
+#
+ifdef
+MOZ_WIDGET_ANDROID
 mDiscardable
 =
 true
 ;
+#
+endif
 }
 int32_t
 imgFrame
