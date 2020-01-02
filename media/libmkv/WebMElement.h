@@ -57,6 +57,7 @@ int
 trackNumber
 int
 flagLacing
+const
 char
 *
 codecId
@@ -81,6 +82,7 @@ int
 trackNumber
 int
 flagLacing
+const
 char
 *
 codecId
