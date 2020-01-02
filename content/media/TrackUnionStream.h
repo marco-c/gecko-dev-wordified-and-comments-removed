@@ -1482,7 +1482,7 @@ interval
 mStart
 )
 ;
-NS_WARN_IF_FALSE
+MOZ_ASSERT
 (
 startTicks
 =

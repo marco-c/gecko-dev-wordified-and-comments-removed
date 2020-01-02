@@ -7,6 +7,11 @@ h
 >
 #
 include
+<
+algorithm
+>
+#
+include
 "
 mozilla
 /
@@ -18,6 +23,13 @@ h
 include
 "
 CubebUtils
+.
+h
+"
+#
+include
+"
+prdtoa
 .
 h
 "
@@ -636,8 +648,10 @@ defined
 (
 MOZ_B2G
 )
-static
 cubeb_stream_type
+CubebUtils
+:
+:
 ConvertChannelToCubebType
 (
 dom

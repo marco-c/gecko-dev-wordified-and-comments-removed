@@ -1584,6 +1584,9 @@ params
 .
 stream_type
 =
+CubebUtils
+:
+:
 ConvertChannelToCubebType
 (
 aAudioChannel
@@ -4833,6 +4836,9 @@ params
 .
 stream_type
 =
+CubebUtils
+:
+:
 ConvertChannelToCubebType
 (
 mAudioChannel
