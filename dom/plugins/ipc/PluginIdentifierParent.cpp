@@ -102,7 +102,8 @@ mIdentifier
 ;
 if
 (
-JSID_IS_INT
+!
+JSID_IS_STRING
 (
 id
 )
