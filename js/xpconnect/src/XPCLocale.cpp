@@ -151,10 +151,6 @@ localeToUnicode
 =
 LocaleToUnicode
 ;
-localeGetErrorMessage
-=
-nullptr
-;
 }
 ~
 XPCLocaleCallbacks

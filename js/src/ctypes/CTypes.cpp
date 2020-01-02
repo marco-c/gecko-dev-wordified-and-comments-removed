@@ -4220,10 +4220,6 @@ void
 *
 userRef
 const
-char
-*
-locale
-const
 unsigned
 errorNumber
 )

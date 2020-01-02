@@ -650,10 +650,8 @@ JSErrorFormatString
 *
 efs
 =
-js_GetLocalizedErrorMessage
+js_GetErrorMessage
 (
-cx
-nullptr
 nullptr
 errorNumber
 )

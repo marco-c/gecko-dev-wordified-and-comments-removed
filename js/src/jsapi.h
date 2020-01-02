@@ -2996,10 +2996,6 @@ void
 *
 userRef
 const
-char
-*
-locale
-const
 unsigned
 errorNumber
 )
@@ -18462,9 +18458,6 @@ localeCompare
 ;
 JSLocaleToUnicode
 localeToUnicode
-;
-JSErrorCallback
-localeGetErrorMessage
 ;
 }
 ;
