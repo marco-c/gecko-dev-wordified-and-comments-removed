@@ -3567,7 +3567,7 @@ const
 SIZE_T
 kReserveSize
 =
-0xc00000
+0x2400000
 ;
 static
 void
@@ -3588,7 +3588,7 @@ VirtualAlloc
 nullptr
 kReserveSize
 MEM_RESERVE
-0
+PAGE_NOACCESS
 )
 ;
 }
@@ -3607,7 +3607,7 @@ gBreakpadReservedVM
 VirtualFree
 (
 gBreakpadReservedVM
-kReserveSize
+0
 MEM_RELEASE
 )
 ;
