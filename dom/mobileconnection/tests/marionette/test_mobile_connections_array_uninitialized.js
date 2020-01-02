@@ -30,15 +30,8 @@ mozMobileConnections
 let
 num
 =
-SpecialPowers
-.
-getIntPref
+getNumOfRadioInterfaces
 (
-"
-ril
-.
-numRadioInterfaces
-"
 )
 ;
 is

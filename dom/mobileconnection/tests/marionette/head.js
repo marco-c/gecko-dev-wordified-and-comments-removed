@@ -260,6 +260,9 @@ deferred
 promise
 ;
 }
+let
+workingFrame
+;
 function
 getSettings
 (
@@ -270,6 +273,10 @@ aAllowError
 let
 request
 =
+workingFrame
+.
+contentWindow
+.
 navigator
 .
 mozSettings
@@ -362,6 +369,10 @@ aAllowError
 let
 request
 =
+workingFrame
+.
+contentWindow
+.
 navigator
 .
 mozSettings
@@ -557,9 +568,6 @@ aAllowError
 )
 ;
 }
-let
-workingFrame
-;
 let
 mobileConnection
 ;
@@ -855,6 +863,10 @@ undefined
 {
 mobileConn
 =
+workingFrame
+.
+contentWindow
+.
 navigator
 .
 mozMobileConnections
@@ -1181,6 +1193,10 @@ undefined
 {
 mobileConn
 =
+workingFrame
+.
+contentWindow
+.
 navigator
 .
 mozMobileConnections
@@ -1361,6 +1377,10 @@ undefined
 {
 mobileConn
 =
+workingFrame
+.
+contentWindow
+.
 navigator
 .
 mozMobileConnections
