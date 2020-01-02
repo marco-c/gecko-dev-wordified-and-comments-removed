@@ -1657,6 +1657,15 @@ target
 ;
 #
 endif
+SelectionMgr
+(
+)
+-
+>
+ResetCaretOffset
+(
+)
+;
 nsRefPtr
 <
 AccEvent
