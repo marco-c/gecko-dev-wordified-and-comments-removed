@@ -11778,6 +11778,7 @@ vcmCheckAttribs
 codec
 sdp_p
 level
+remote_pt
 &
 media
 -
