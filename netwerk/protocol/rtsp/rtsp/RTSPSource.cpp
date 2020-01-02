@@ -1209,6 +1209,12 @@ if
 mState
 !
 =
+CONNECTED
+&
+&
+mState
+!
+=
 PLAYING
 &
 &
