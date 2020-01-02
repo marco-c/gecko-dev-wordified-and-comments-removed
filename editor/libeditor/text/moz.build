@@ -151,12 +151,6 @@ src
 '
 '
 /
-dom
-/
-events
-'
-'
-/
 editor
 /
 txmgr

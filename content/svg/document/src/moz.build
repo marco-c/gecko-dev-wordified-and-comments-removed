@@ -164,12 +164,6 @@ src
 '
 '
 /
-dom
-/
-events
-'
-'
-/
 layout
 /
 style

@@ -303,12 +303,6 @@ bindings
 '
 '
 /
-dom
-/
-events
-'
-'
-/
 js
 /
 xpconnect

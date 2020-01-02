@@ -552,10 +552,4 @@ base
 /
 src
 '
-'
-/
-dom
-/
-events
-'
 ]

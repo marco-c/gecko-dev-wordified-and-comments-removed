@@ -341,12 +341,6 @@ base
 /
 src
 '
-'
-/
-dom
-/
-events
-'
 ]
 for
 var

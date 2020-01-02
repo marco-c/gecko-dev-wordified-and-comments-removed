@@ -222,12 +222,6 @@ base
 '
 '
 /
-dom
-/
-events
-'
-'
-/
 layout
 /
 style

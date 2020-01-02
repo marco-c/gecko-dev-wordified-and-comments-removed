@@ -244,10 +244,4 @@ base
 /
 src
 '
-'
-/
-dom
-/
-events
-'
 ]

@@ -466,12 +466,6 @@ shared
 '
 '
 /
-dom
-/
-events
-'
-'
-/
 layout
 /
 base

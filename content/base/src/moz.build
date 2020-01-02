@@ -1121,12 +1121,6 @@ base
 /
 dom
 /
-events
-'
-'
-/
-dom
-/
 ipc
 '
 '

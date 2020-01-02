@@ -188,12 +188,6 @@ dom
 /
 base
 '
-'
-/
-dom
-/
-events
-'
 ]
 if
 CONFIG

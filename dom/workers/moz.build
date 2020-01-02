@@ -336,12 +336,6 @@ src
 '
 '
 /
-dom
-/
-events
-'
-'
-/
 xpcom
 /
 build

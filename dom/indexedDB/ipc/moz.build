@@ -237,12 +237,6 @@ LOCAL_INCLUDES
 /
 dom
 /
-events
-'
-'
-/
-dom
-/
 indexedDB
 '
 ]

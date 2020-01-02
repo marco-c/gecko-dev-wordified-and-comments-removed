@@ -517,12 +517,6 @@ xpwidgets
 '
 '
 /
-dom
-/
-events
-'
-'
-/
 layout
 /
 generic

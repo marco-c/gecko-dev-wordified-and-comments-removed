@@ -472,10 +472,4 @@ base
 /
 src
 '
-'
-/
-dom
-/
-events
-'
 ]

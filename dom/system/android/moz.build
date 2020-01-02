@@ -139,12 +139,6 @@ LOCAL_INCLUDES
 /
 dom
 /
-events
-'
-'
-/
-dom
-/
 src
 /
 geolocation

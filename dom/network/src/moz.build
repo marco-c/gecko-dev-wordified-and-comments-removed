@@ -353,14 +353,3 @@ FINAL_LIBRARY
 '
 gklayout
 '
-LOCAL_INCLUDES
-+
-=
-[
-'
-/
-dom
-/
-events
-'
-]
