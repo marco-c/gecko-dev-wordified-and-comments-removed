@@ -700,7 +700,10 @@ aNonSVGFrame
 )
 const
 {
-gfxSize
+gfx
+:
+:
+Size
 size
 =
 nsSVGIntegrationUtils
