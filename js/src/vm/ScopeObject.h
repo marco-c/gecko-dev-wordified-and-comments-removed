@@ -624,6 +624,9 @@ HandleShape
 shape
 HandleTypeObject
 type
+HeapSlot
+*
+slots
 )
 ;
 static
