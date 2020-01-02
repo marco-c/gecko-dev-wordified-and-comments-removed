@@ -43,7 +43,7 @@ download
 .
 backgroundInterval
 "
-0
+60
 )
 ;
 pref
