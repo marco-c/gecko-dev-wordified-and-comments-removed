@@ -178,11 +178,6 @@ OrientationObserver
 .
 h
 '
-'
-PowerWakeLock
-.
-h
-'
 ]
 DIRS
 +
@@ -370,11 +365,6 @@ cpp
 '
 '
 ParentProcessController
-.
-cpp
-'
-'
-PowerWakeLock
 .
 cpp
 '
