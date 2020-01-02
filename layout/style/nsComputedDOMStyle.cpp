@@ -2619,7 +2619,7 @@ aPropertyName
 nsCSSProps
 :
 :
-eEnabled
+eEnabledForAllContent
 )
 ;
 bool
