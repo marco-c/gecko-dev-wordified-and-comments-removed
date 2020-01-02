@@ -11,8 +11,6 @@ path
 import
 os
 import
-platform
-import
 sys
 import
 warnings
@@ -886,11 +884,6 @@ parse_args
 0
 ]
         
-test_path_dir
-=
-False
-;
-        
 if
 test_path
 :
@@ -943,22 +936,6 @@ test_root_file
                 
 return
 1
-            
-if
-os
-.
-path
-.
-isdir
-(
-test_root_file
-)
-:
-                
-test_path_dir
-=
-True
-;
             
 options
 .

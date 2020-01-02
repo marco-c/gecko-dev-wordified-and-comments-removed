@@ -107,10 +107,6 @@ runtestsremote
 .
 py
 \
-runtestsvmware
-.
-py
-\
 mochitest_options
 .
 py
