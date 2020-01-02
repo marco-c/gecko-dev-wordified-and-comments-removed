@@ -550,7 +550,7 @@ FILE
 *
 file
 =
-NULL
+nullptr
 )
 :
 mFile
@@ -569,7 +569,7 @@ if
 mFile
 !
 =
-NULL
+nullptr
 )
 fclose
 (
@@ -718,7 +718,7 @@ HANDLE
 )
 _beginthreadex
 (
-NULL
+nullptr
 0
 ThreadMain
 this
@@ -838,7 +838,7 @@ pthread_create
 (
 &
 thr
-NULL
+nullptr
 (
 void
 *
@@ -914,7 +914,7 @@ mThread
 _beginthread
 (
 ThreadMain
-NULL
+nullptr
 16384
 (
 void
@@ -1175,7 +1175,7 @@ str
 str
 )
 return
-NULL
+nullptr
 ;
 NS_tchar
 *
@@ -1252,7 +1252,7 @@ str
 ret
 ;
 return
-NULL
+nullptr
 ;
 }
 NS_tchar
@@ -1333,7 +1333,7 @@ i
 *
 str
 =
-NULL
+nullptr
 ;
 return
 ret
@@ -1399,7 +1399,7 @@ if
 s
 )
 return
-NULL
+nullptr
 ;
 NS_tchar
 *
@@ -1499,7 +1499,7 @@ line
 )
 ;
 return
-NULL
+nullptr
 ;
 }
 if
@@ -1536,7 +1536,7 @@ path
 )
 ;
 return
-NULL
+nullptr
 ;
 }
 #
@@ -1591,7 +1591,7 @@ path
 )
 ;
 return
-NULL
+nullptr
 ;
 }
 #
@@ -1647,7 +1647,7 @@ path
 )
 ;
 return
-NULL
+nullptr
 ;
 }
 path
@@ -1684,7 +1684,7 @@ NS_T
 )
 !
 =
-NULL
+nullptr
 )
 {
 LOG
@@ -1709,7 +1709,7 @@ path
 )
 ;
 return
-NULL
+nullptr
 ;
 }
 return
@@ -1778,7 +1778,7 @@ if
 s
 )
 return
-NULL
+nullptr
 ;
 NS_tchar
 *
@@ -2396,7 +2396,7 @@ if
 f
 !
 =
-NULL
+nullptr
 )
 {
 fclose
@@ -2406,7 +2406,7 @@ f
 ;
 }
 return
-NULL
+nullptr
 ;
 }
 struct
@@ -2439,7 +2439,7 @@ if
 f
 !
 =
-NULL
+nullptr
 )
 {
 fclose
@@ -2449,7 +2449,7 @@ f
 ;
 }
 return
-NULL
+nullptr
 ;
 }
 return
@@ -4320,7 +4320,7 @@ if
 MoveFileEx
 (
 path
-NULL
+nullptr
 MOVEFILE_DELAY_UNTIL_REBOOT
 )
 )
@@ -4446,7 +4446,7 @@ mProgressCost
 )
 mNext
 (
-NULL
+nullptr
 )
 {
 }
@@ -4523,7 +4523,7 @@ RemoveFile
 :
 mFile
 (
-NULL
+nullptr
 )
 mSkip
 (
@@ -4971,7 +4971,7 @@ RemoveDir
 :
 mDir
 (
-NULL
+nullptr
 )
 mSkip
 (
@@ -5415,7 +5415,7 @@ AddFile
 :
 mFile
 (
-NULL
+nullptr
 )
 mAdded
 (
@@ -5611,8 +5611,8 @@ mFile
 1
 sourcefile
 MAXPATHLEN
-NULL
-NULL
+nullptr
+nullptr
 )
 )
 {
@@ -5738,7 +5738,7 @@ mPatchIndex
 )
 buf
 (
-NULL
+nullptr
 )
 {
 }
@@ -6311,8 +6311,8 @@ mPatchFile
 1
 sourcefile
 MAXPATHLEN
-NULL
-NULL
+nullptr
+nullptr
 )
 )
 {
@@ -6413,7 +6413,7 @@ if
 pfile
 =
 =
-NULL
+nullptr
 )
 return
 READ_ERROR
@@ -6439,7 +6439,7 @@ FILE
 *
 origfile
 =
-NULL
+nullptr
 ;
 #
 ifdef
@@ -6686,10 +6686,10 @@ CreateFileW
 mFile
 GENERIC_WRITE
 0
-NULL
+nullptr
 CREATE_ALWAYS
 FILE_ATTRIBUTE_NORMAL
-NULL
+nullptr
 )
 ;
 if
@@ -6708,7 +6708,7 @@ hfile
 header
 .
 dlen
-NULL
+nullptr
 FILE_BEGIN
 )
 !
@@ -6902,7 +6902,7 @@ if
 ofile
 =
 =
-NULL
+nullptr
 )
 {
 LOG
@@ -6964,7 +6964,7 @@ ofile
 ;
 pfile
 =
-NULL
+nullptr
 ;
 NS_tremove
 (
@@ -6991,7 +6991,7 @@ buf
 ;
 buf
 =
-NULL
+nullptr
 ;
 return
 rv
@@ -7040,7 +7040,7 @@ AddIfFile
 :
 mTestFile
 (
-NULL
+nullptr
 )
 {
 }
@@ -7157,7 +7157,7 @@ F_OK
 {
 mTestFile
 =
-NULL
+nullptr
 ;
 return
 OK
@@ -7237,7 +7237,7 @@ PatchIfFile
 :
 mTestFile
 (
-NULL
+nullptr
 )
 {
 }
@@ -7354,7 +7354,7 @@ F_OK
 {
 mTestFile
 =
-NULL
+nullptr
 ;
 return
 OK
@@ -7657,7 +7657,7 @@ argv
 ]
 argc
 argv
-NULL
+nullptr
 )
 ;
 }
@@ -7749,7 +7749,7 @@ if
 file
 =
 =
-NULL
+nullptr
 )
 return
 false
@@ -7932,7 +7932,7 @@ if
 file
 =
 =
-NULL
+nullptr
 )
 return
 false
@@ -8091,7 +8091,7 @@ if
 file
 =
 =
-NULL
+nullptr
 )
 return
 false
@@ -8948,7 +8948,7 @@ if
 MoveFileExW
 (
 tmpDir
-NULL
+nullptr
 MOVEFILE_DELAY_UNTIL_REBOOT
 )
 )
@@ -9730,7 +9730,7 @@ if
 linkFile
 =
 =
-NULL
+nullptr
 )
 {
 NS_tsnprintf
@@ -10330,7 +10330,7 @@ cwd
 =
 getcwd
 (
-NULL
+nullptr
 0
 )
 ;
@@ -10344,7 +10344,7 @@ if
 utimes
 (
 cwd
-NULL
+nullptr
 )
 !
 =
@@ -10663,7 +10663,7 @@ MOZ_NO_SERVICE_FALLBACK
 )
 !
 =
-NULL
+nullptr
 ;
 putenv
 (
@@ -10715,13 +10715,13 @@ Classes
 Applications
 "
 0
-NULL
+nullptr
 REG_OPTION_NON_VOLATILE
 KEY_SET_VALUE
-NULL
+nullptr
 &
 hkApp
-NULL
+nullptr
 )
 ;
 RegCloseKey
@@ -10750,13 +10750,13 @@ updater
 exe
 "
 0
-NULL
+nullptr
 REG_OPTION_VOLATILE
 KEY_SET_VALUE
-NULL
+nullptr
 &
 hkApp
-NULL
+nullptr
 )
 =
 =
@@ -11463,7 +11463,7 @@ pid
 waitpid
 (
 pid
-NULL
+nullptr
 0
 )
 ;
@@ -11523,7 +11523,7 @@ MOZ_USING_SERVICE
 )
 !
 =
-NULL
+nullptr
 ;
 putenv
 (
@@ -11804,10 +11804,10 @@ GENERIC_READ
 |
 GENERIC_WRITE
 0
-NULL
+nullptr
 OPEN_ALWAYS
 FILE_FLAG_DELETE_ON_CLOSE
-NULL
+nullptr
 )
 ;
 NS_tsnprintf
@@ -11860,7 +11860,7 @@ UACHelper
 :
 DisablePrivileges
 (
-NULL
+nullptr
 )
 ;
 }
@@ -11935,10 +11935,10 @@ GENERIC_READ
 |
 GENERIC_WRITE
 0
-NULL
+nullptr
 OPEN_ALWAYS
 FILE_FLAG_DELETE_ON_CLOSE
-NULL
+nullptr
 )
 ;
 if
@@ -12223,7 +12223,7 @@ t1
 Run
 (
 WaitForServiceFinishThread
-NULL
+nullptr
 )
 =
 =
@@ -12346,7 +12346,7 @@ LaunchWinPostProcess
 installDir
 gSourcePath
 false
-NULL
+nullptr
 )
 )
 {
@@ -12432,7 +12432,7 @@ sinfo
 .
 hwnd
 =
-NULL
+nullptr
 ;
 sinfo
 .
@@ -13054,7 +13054,7 @@ argv
 callbackIndex
 ]
 gDestinationPath
-NULL
+nullptr
 )
 ;
 NS_tchar
@@ -13169,7 +13169,7 @@ argv
 callbackIndex
 ]
 installDir
-NULL
+nullptr
 )
 ;
 NS_tstrncpy
@@ -13461,10 +13461,10 @@ GENERIC_WRITE
 FILE_SHARE_DELETE
 |
 FILE_SHARE_WRITE
-NULL
+nullptr
 OPEN_EXISTING
 0
-NULL
+nullptr
 )
 ;
 if
@@ -13697,7 +13697,7 @@ t
 Run
 (
 UpdateThreadFunc
-NULL
+nullptr
 )
 =
 =
@@ -13805,7 +13805,7 @@ if
 MoveFileEx
 (
 DELETE_DIR
-NULL
+nullptr
 MOVEFILE_DELAY_UNTIL_REBOOT
 )
 )
@@ -13920,7 +13920,7 @@ LaunchWinPostProcess
 installDir
 gSourcePath
 false
-NULL
+nullptr
 )
 )
 {
@@ -14015,11 +14015,11 @@ ActionList
 :
 mFirst
 (
-NULL
+nullptr
 )
 mLast
 (
-NULL
+nullptr
 )
 mCount
 (
@@ -15458,7 +15458,7 @@ pathargv
 =
 {
 searchpath
-NULL
+nullptr
 }
 ;
 if
@@ -15477,7 +15477,7 @@ FTS_NOSTAT
 FTS_XDEV
 |
 FTS_NOCHDIR
-NULL
+nullptr
 )
 )
 )
@@ -15496,7 +15496,7 @@ ftsdir
 )
 !
 =
-NULL
+nullptr
 )
 {
 NS_tchar
@@ -15513,7 +15513,7 @@ Action
 *
 action
 =
-NULL
+nullptr
 ;
 switch
 (
@@ -15881,7 +15881,7 @@ if
 mfile
 =
 =
-NULL
+nullptr
 )
 {
 LOG
@@ -15902,7 +15902,7 @@ manifest
 )
 ;
 return
-NULL
+nullptr
 ;
 }
 struct
@@ -15949,7 +15949,7 @@ manifest
 )
 ;
 return
-NULL
+nullptr
 ;
 }
 char
@@ -15975,7 +15975,7 @@ if
 mbuf
 )
 return
-NULL
+nullptr
 ;
 size_t
 r
@@ -16042,7 +16042,7 @@ manifest
 )
 ;
 return
-NULL
+nullptr
 ;
 }
 r
@@ -16110,7 +16110,7 @@ if
 wrb
 )
 return
-NULL
+nullptr
 ;
 if
 (
@@ -16163,7 +16163,7 @@ wrb
 )
 ;
 return
-NULL
+nullptr
 ;
 }
 free
@@ -16213,7 +16213,7 @@ if
 rb
 =
 =
-NULL
+nullptr
 )
 {
 LOG
@@ -16318,7 +16318,7 @@ Action
 *
 action
 =
-NULL
+nullptr
 ;
 if
 (
@@ -16565,7 +16565,7 @@ if
 rb
 =
 =
-NULL
+nullptr
 )
 {
 LOG
@@ -16761,7 +16761,7 @@ Action
 *
 action
 =
-NULL
+nullptr
 ;
 if
 (

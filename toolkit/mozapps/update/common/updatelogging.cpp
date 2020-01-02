@@ -57,7 +57,7 @@ UpdateLog
 :
 logFP
 (
-NULL
+nullptr
 )
 {
 }
@@ -217,7 +217,7 @@ logFP
 ;
 logFP
 =
-NULL
+nullptr
 ;
 }
 void

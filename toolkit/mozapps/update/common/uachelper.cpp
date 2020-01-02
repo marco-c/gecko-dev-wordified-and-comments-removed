@@ -138,7 +138,7 @@ dll
 HANDLE
 token
 =
-NULL
+nullptr
 ;
 LPWTSQueryUserToken
 wtsQueryUserToken
@@ -192,7 +192,7 @@ tlt
 HANDLE
 hNewLinkedToken
 =
-NULL
+nullptr
 ;
 DWORD
 len
@@ -254,7 +254,7 @@ if
 !
 LookupPrivilegeValue
 (
-NULL
+nullptr
 priv
 &
 luidOfPriv
@@ -318,8 +318,8 @@ sizeof
 (
 tokenPriv
 )
-NULL
-NULL
+nullptr
+nullptr
 )
 )
 {
@@ -354,7 +354,7 @@ count
 HANDLE
 obtainedToken
 =
-NULL
+nullptr
 ;
 if
 (

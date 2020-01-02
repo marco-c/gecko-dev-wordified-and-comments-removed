@@ -313,7 +313,7 @@ G_CALLBACK
 (
 OnDeleteEvent
 )
-NULL
+nullptr
 )
 ;
 gtk_window_set_title
@@ -377,7 +377,7 @@ pixbuf
 gdk_pixbuf_new_from_file
 (
 icon_path
-NULL
+nullptr
 )
 ;
 gtk_window_set_icon
@@ -463,7 +463,7 @@ g_timeout_add
 (
 TIMER_INTERVAL
 UpdateDialog
-NULL
+nullptr
 )
 ;
 gtk_container_set_border_width
