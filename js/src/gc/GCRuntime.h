@@ -819,7 +819,7 @@ maxMallocBytesAllocated
 )
 {
 return
-maxBytes
+maxMallocBytes
 ;
 }
 public
