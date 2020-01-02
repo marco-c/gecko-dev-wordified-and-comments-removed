@@ -1681,7 +1681,12 @@ Array
 forEach
 (
 scripts
+(
+[
 script
+runGlobal
+]
+)
 =
 >
 mm
@@ -1690,6 +1695,7 @@ loadFrameScript
 (
 script
 true
+runGlobal
 )
 )
 ;

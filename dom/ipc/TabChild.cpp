@@ -1149,6 +1149,7 @@ tab
 TryCacheLoadAndCompileScript
 (
 BROWSER_ELEMENT_CHILD_SCRIPT
+true
 )
 ;
 tab
@@ -1172,6 +1173,7 @@ preload
 js
 "
 )
+true
 )
 ;
 nsCOMPtr
@@ -9318,6 +9320,10 @@ const
 nsString
 &
 aURL
+const
+bool
+&
+aRunInGlobalScope
 )
 {
 if
@@ -9337,6 +9343,7 @@ true
 LoadFrameScriptInternal
 (
 aURL
+aRunInGlobalScope
 )
 ;
 return
@@ -9955,6 +9962,7 @@ IsBrowserOrApp
 RecvLoadRemoteScript
 (
 BROWSER_ELEMENT_CHILD_SCRIPT
+true
 )
 ;
 }
