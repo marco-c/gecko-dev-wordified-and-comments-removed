@@ -569,6 +569,9 @@ DEFINES
 DUSE_FAKE_MEDIA_STREAMS
 \
 -
+DUSE_FAKE_PCOBSERVER
+\
+-
 DNR_SOCKET_IS_VOID_PTR
 \
 -
@@ -1077,6 +1080,17 @@ topsrcdir
 xpcom
 /
 base
+/
+\
+-
+I
+(
+DEPTH
+)
+/
+dom
+/
+bindings
 /
 \
 (

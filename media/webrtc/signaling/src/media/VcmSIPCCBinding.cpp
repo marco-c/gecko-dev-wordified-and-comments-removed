@@ -78,6 +78,13 @@ h
 #
 include
 "
+PeerConnectionMedia
+.
+h
+"
+#
+include
+"
 nsThreadUtils
 .
 h
@@ -315,6 +322,10 @@ cc_media_cap_name
 define
 SIPSDP_ILBC_MODE20
 20
+using
+namespace
+mozilla
+;
 using
 namespace
 CSF
