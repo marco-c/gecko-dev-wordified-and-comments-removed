@@ -8538,6 +8538,13 @@ runtime
 -
 >
 profilingScripts
+&
+&
+!
+IonSpewEnabled
+(
+IonSpew_Logs
+)
 )
 {
 ionCompiling
