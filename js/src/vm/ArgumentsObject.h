@@ -816,15 +816,9 @@ data
 >
 callee
 .
-set
-(
-zone
-(
-)
-MagicValue
+setMagic
 (
 JS_OVERWRITTEN_CALLEE
-)
 )
 ;
 }
