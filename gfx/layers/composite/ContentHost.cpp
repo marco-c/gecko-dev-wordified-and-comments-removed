@@ -3377,7 +3377,10 @@ result
 mFlags
 |
 =
-LAYER_RENDER_STATE_BUFFER_ROTATION
+LayerRenderStateFlags
+:
+:
+BUFFER_ROTATION
 ;
 }
 result

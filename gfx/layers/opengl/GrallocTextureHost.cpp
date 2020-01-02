@@ -1582,7 +1582,10 @@ NEEDS_Y_FLIP
 flags
 |
 =
-LAYER_RENDER_STATE_Y_FLIPPED
+LayerRenderStateFlags
+:
+:
+Y_FLIPPED
 ;
 }
 if
@@ -1598,7 +1601,10 @@ RB_SWAPPED
 flags
 |
 =
-LAYER_RENDER_STATE_FORMAT_RB_SWAP
+LayerRenderStateFlags
+:
+:
+FORMAT_RB_SWAP
 ;
 }
 return
