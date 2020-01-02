@@ -445,6 +445,14 @@ now
 -
 startMs
 ;
+telemetry
+.
+FX_SESSION_RESTORE_FILE_SIZE_BYTES
+=
+bytes
+.
+byteLength
+;
 return
 {
 result
