@@ -342,6 +342,13 @@ GetScreenDepth
 )
 const
 ;
+virtual
+bool
+UseAcceleratedSkiaCanvas
+(
+)
+MOZ_OVERRIDE
+;
 private
 :
 int
