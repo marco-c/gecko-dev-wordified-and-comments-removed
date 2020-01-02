@@ -104,10 +104,6 @@ XSLTProcessor
 )
 DOMCI_CLASS
 (
-XPathExpression
-)
-DOMCI_CLASS
-(
 XPathNSResolver
 )
 DOMCI_CLASS

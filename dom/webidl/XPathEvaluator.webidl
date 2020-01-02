@@ -92,9 +92,6 @@ MPL
 *
 /
 interface
-XPathExpression
-;
-interface
 XPathNSResolver
 ;
 [
