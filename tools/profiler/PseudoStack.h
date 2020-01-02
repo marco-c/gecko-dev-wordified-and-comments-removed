@@ -368,7 +368,7 @@ sparg
 )
 &
 ~
-0x1
+NoCopyBit
 )
 )
 ;
@@ -391,7 +391,7 @@ uintptr_t
 sparg
 )
 |
-0x1
+NoCopyBit
 )
 )
 ;

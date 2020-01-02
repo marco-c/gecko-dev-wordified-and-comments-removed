@@ -1086,7 +1086,7 @@ size
 ;
 JS_ASSERT
 (
-enabled
+installed
 (
 )
 )
@@ -1469,7 +1469,7 @@ if
 profiler
 -
 >
-enabled
+installed
 (
 )
 )
@@ -1492,7 +1492,7 @@ size_
 profiler
 -
 >
-push
+pushNoCopy
 (
 "
 js

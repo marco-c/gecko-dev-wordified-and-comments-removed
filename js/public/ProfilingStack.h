@@ -307,6 +307,13 @@ NullPCIndex
 -
 1
 ;
+static
+const
+uintptr_t
+NoCopyBit
+=
+1
+;
 }
 ;
 JS_FRIEND_API
