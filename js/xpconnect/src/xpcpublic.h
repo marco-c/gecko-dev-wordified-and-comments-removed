@@ -1436,6 +1436,12 @@ JSObject
 aObj
 )
 ;
+JSObject
+*
+GetSafeJSContextGlobal
+(
+)
+;
 nsGlobalWindow
 *
 WindowGlobalOrNull

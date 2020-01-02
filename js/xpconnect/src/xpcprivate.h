@@ -10639,6 +10639,10 @@ mSafeJSContext
 (
 nullptr
 )
+mSafeJSContextGlobal
+(
+nullptr
+)
 {
 }
 virtual
@@ -10698,6 +10702,12 @@ InitSafeJSContext
 JSContext
 *
 GetSafeJSContext
+(
+)
+;
+JSObject
+*
+GetSafeJSContextGlobal
 (
 )
 ;
@@ -10783,6 +10793,10 @@ mRuntime
 JSContext
 *
 mSafeJSContext
+;
+JSObject
+*
+mSafeJSContextGlobal
 ;
 }
 ;
