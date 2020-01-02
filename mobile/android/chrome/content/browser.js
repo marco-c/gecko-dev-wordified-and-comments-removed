@@ -25152,6 +25152,14 @@ true
 ;
 if
 (
+!
+this
+.
+restoredSessionZoom
+(
+)
+&
+&
 contentDocument
 .
 mozSyntheticDocument
