@@ -7316,15 +7316,6 @@ get
 )
 lineNo
 )
-;
-if
-(
-jsVersion
-!
-=
-JSVERSION_DEFAULT
-)
-options
 .
 setVersion
 (
