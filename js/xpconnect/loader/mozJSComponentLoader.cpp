@@ -5748,11 +5748,8 @@ JS_ValueToId
 (
 mContext
 value
+&
 symbolId
-.
-address
-(
-)
 )
 )
 {

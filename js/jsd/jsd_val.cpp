@@ -2503,11 +2503,8 @@ JS_ValueToId
 (
 cx
 nameval
+&
 nameid
-.
-address
-(
-)
 )
 )
 return
@@ -2678,11 +2675,8 @@ JS_IdToValue
 (
 cx
 nameid
+&
 propId
-.
-address
-(
-)
 )
 )
 return

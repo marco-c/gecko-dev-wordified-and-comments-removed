@@ -662,11 +662,8 @@ JS_IdToValue
 (
 cx
 id
+&
 idval
-.
-address
-(
-)
 )
 )
 return
@@ -776,10 +773,6 @@ StringValue
 str
 )
 to
-.
-address
-(
-)
 )
 ;
 }

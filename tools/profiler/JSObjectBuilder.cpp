@@ -406,10 +406,6 @@ mOk
 JS_GetArrayLength
 (
 mCx
-(
-JSObject
-*
-)
 aArray
 &
 length
@@ -510,10 +506,6 @@ mOk
 JS_GetArrayLength
 (
 mCx
-(
-JSObject
-*
-)
 aArray
 &
 length
