@@ -59129,7 +59129,7 @@ self
 DoNewResolve
 (
 cx
-obj
+wrapper
 id
 &
 value
