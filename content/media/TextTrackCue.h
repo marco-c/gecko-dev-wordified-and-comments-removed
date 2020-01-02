@@ -299,10 +299,8 @@ mStartTime
 =
 aStartTime
 )
-{
 return
 ;
-}
 mStartTime
 =
 aStartTime
@@ -336,10 +334,8 @@ mEndTime
 =
 aEndTime
 )
-{
 return
 ;
-}
 mEndTime
 =
 aEndTime
@@ -372,10 +368,8 @@ mPauseOnExit
 =
 aPauseOnExit
 )
-{
 return
 ;
-}
 mPauseOnExit
 =
 aPauseOnExit
@@ -454,10 +448,8 @@ mVertical
 =
 aVertical
 )
-{
 return
 ;
-}
 mReset
 =
 true
@@ -494,10 +486,8 @@ mSnapToLines
 =
 aSnapToLines
 )
-{
 return
 ;
-}
 mReset
 =
 true
@@ -753,10 +743,8 @@ mPosition
 =
 aPosition
 )
-{
 return
 ;
-}
 if
 (
 aPosition
@@ -883,10 +871,8 @@ mAlign
 =
 aAlign
 )
-{
 return
 ;
-}
 mReset
 =
 true
@@ -930,10 +916,8 @@ mText
 =
 aText
 )
-{
 return
 ;
-}
 mReset
 =
 true
