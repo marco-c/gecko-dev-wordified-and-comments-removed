@@ -1847,7 +1847,7 @@ struct
 NumArgState
 *
 )
-malloc
+js_malloc
 (
 number
 *
