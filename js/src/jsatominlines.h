@@ -746,10 +746,7 @@ JSTYPE_LIMIT
 *
 sizeof
 (
-FixedHeapPtr
-<
-PropertyName
->
+ImmutablePropertyNamePtr
 )
 <
 =
@@ -813,10 +810,7 @@ JSProto_LIMIT
 *
 sizeof
 (
-FixedHeapPtr
-<
-PropertyName
->
+ImmutablePropertyNamePtr
 )
 <
 =
