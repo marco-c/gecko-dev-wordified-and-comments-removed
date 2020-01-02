@@ -514,9 +514,8 @@ malloc_zone_t
 zone
 )
 {
-assert
+not_reached
 (
-false
 )
 ;
 return

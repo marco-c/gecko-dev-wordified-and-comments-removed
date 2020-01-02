@@ -482,7 +482,7 @@ tcache_t
 )
 malloc_tsd_funcs
 (
-JEMALLOC_INLINE
+JEMALLOC_ALWAYS_INLINE
 tcache
 tcache_t
 *
@@ -496,7 +496,7 @@ tcache_enabled_t
 )
 malloc_tsd_funcs
 (
-JEMALLOC_INLINE
+JEMALLOC_ALWAYS_INLINE
 tcache_enabled
 tcache_enabled_t
 tcache_enabled_default
@@ -714,7 +714,7 @@ tcache
 }
 }
 }
-JEMALLOC_INLINE
+JEMALLOC_ALWAYS_INLINE
 tcache_t
 *
 tcache_get
@@ -889,7 +889,7 @@ tcache
 )
 ;
 }
-JEMALLOC_INLINE
+JEMALLOC_ALWAYS_INLINE
 void
 tcache_event
 (
@@ -941,7 +941,7 @@ tcache
 )
 ;
 }
-JEMALLOC_INLINE
+JEMALLOC_ALWAYS_INLINE
 void
 *
 tcache_alloc_easy
@@ -1031,7 +1031,7 @@ ret
 )
 ;
 }
-JEMALLOC_INLINE
+JEMALLOC_ALWAYS_INLINE
 void
 *
 tcache_alloc_small
@@ -1080,6 +1080,15 @@ tbins
 [
 binind
 ]
+;
+size
+=
+arena_bin_info
+[
+binind
+]
+.
+reg_size
 ;
 ret
 =
@@ -1177,6 +1186,12 @@ size
 )
 ;
 }
+VALGRIND_MAKE_MEM_UNDEFINED
+(
+ret
+size
+)
+;
 }
 else
 {
@@ -1255,7 +1270,7 @@ ret
 )
 ;
 }
-JEMALLOC_INLINE
+JEMALLOC_ALWAYS_INLINE
 void
 *
 tcache_alloc_large
@@ -1460,6 +1475,12 @@ size
 )
 ;
 }
+VALGRIND_MAKE_MEM_UNDEFINED
+(
+ret
+size
+)
+;
 }
 else
 {
@@ -1514,7 +1535,7 @@ ret
 )
 ;
 }
-JEMALLOC_INLINE
+JEMALLOC_ALWAYS_INLINE
 void
 tcache_dalloc_small
 (
@@ -1653,7 +1674,7 @@ tcache
 )
 ;
 }
-JEMALLOC_INLINE
+JEMALLOC_ALWAYS_INLINE
 void
 tcache_dalloc_large
 (
