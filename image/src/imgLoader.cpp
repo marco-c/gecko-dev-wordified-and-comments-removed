@@ -2648,14 +2648,6 @@ callbacks
 )
 ;
 }
-aLoadFlags
-|
-=
-nsIChannel
-:
-:
-LOAD_CLASSIFY_URI
-;
 rv
 =
 NS_NewChannel
