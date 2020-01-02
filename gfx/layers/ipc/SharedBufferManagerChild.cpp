@@ -1358,7 +1358,7 @@ aBuffer
 type
 (
 )
-=
+!
 =
 mozilla
 :
