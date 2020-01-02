@@ -2404,6 +2404,12 @@ uninit
 (
 )
 ;
+gContentRestore
+.
+resetRestore
+(
+)
+;
 }
 )
 ;
