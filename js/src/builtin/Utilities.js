@@ -294,6 +294,13 @@ Std_String
 String
 ;
 var
+std_String_fromCharCode
+=
+String
+.
+fromCharCode
+;
+var
 std_String_charCodeAt
 =
 String
