@@ -307,7 +307,7 @@ selected
 let
 {
 line
-col
+ch
 }
 =
 gUI
@@ -316,7 +316,7 @@ selectedEditor
 .
 sourceEditor
 .
-getCaretPosition
+getCursor
 (
 )
 ;
@@ -333,7 +333,7 @@ selected
 ;
 is
 (
-col
+ch
 COL_NO
 "
 correct
@@ -465,7 +465,7 @@ selected
 let
 {
 line
-col
+ch
 }
 =
 gUI
@@ -474,7 +474,7 @@ selectedEditor
 .
 sourceEditor
 .
-getCaretPosition
+getCursor
 (
 )
 ;
@@ -492,7 +492,7 @@ selected
 ;
 is
 (
-col
+ch
 0
 "
 first

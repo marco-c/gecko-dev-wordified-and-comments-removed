@@ -266,6 +266,10 @@ matchbrackets
 .
 js
 *
+closebrackets
+.
+js
+*
 search
 /
 match
