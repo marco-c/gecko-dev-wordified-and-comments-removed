@@ -418,8 +418,8 @@ the
 certificate
 '
 s
-public
-key
+DER
+encoding
 *
 calculated
 using
