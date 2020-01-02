@@ -710,8 +710,9 @@ NUMBER_OF_QUICK_STRETCH_ROUNDS
 }
 catch
 (
-Throwable
-t
+final
+LinkageError
+e
 )
 {
 Logger
@@ -727,6 +728,9 @@ password
 using
 native
 pbkdf2SHA256
+"
++
+"
 implementation
 ;
 ignoring
@@ -736,7 +740,7 @@ Java
 implementation
 .
 "
-t
+e
 )
 ;
 return
