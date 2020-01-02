@@ -14,6 +14,13 @@ h
 #
 include
 "
+WebGLFramebufferAttachable
+.
+h
+"
+#
+include
+"
 nsWrapperCache
 .
 h
@@ -50,6 +57,8 @@ public
 WebGLRectangleObject
 public
 WebGLContextBoundObject
+public
+WebGLFramebufferAttachable
 {
 public
 :

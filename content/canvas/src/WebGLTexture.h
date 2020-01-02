@@ -14,6 +14,13 @@ h
 #
 include
 "
+WebGLFramebufferAttachable
+.
+h
+"
+#
+include
+"
 nsWrapperCache
 .
 h
@@ -118,6 +125,8 @@ WebGLTexture
 >
 public
 WebGLContextBoundObject
+public
+WebGLFramebufferAttachable
 {
 public
 :

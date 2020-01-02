@@ -395,6 +395,11 @@ WebGLFramebuffer
 cpp
 '
 '
+WebGLFramebufferAttachable
+.
+cpp
+'
+'
 WebGLObjectModel
 .
 cpp

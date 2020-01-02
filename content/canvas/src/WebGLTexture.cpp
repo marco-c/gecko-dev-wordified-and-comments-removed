@@ -717,6 +717,10 @@ SetCustomMipmap
 (
 )
 ;
+NotifyFBsStatusChanged
+(
+)
+;
 SetFakeBlackStatus
 (
 WebGLTextureFakeBlackStatus
