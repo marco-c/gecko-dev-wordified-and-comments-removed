@@ -1088,6 +1088,7 @@ controlMessage
 manager
 .
 ifname
+sdkVersion
 )
 ;
 var
@@ -1107,6 +1108,7 @@ controlMessage
 WifiP2pManager
 .
 INTERFACE_NAME
+sdkVersion
 )
 ;
 p2pManager
@@ -15744,9 +15746,6 @@ WifiManager
 .
 wpsPbc
 (
-WifiManager
-.
-ifname
 function
 (
 ok

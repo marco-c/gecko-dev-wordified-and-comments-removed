@@ -6013,10 +6013,10 @@ aP2pCommand
 .
 wpsPbc
 (
+onWpsCommandSent
 _groupInfo
 .
 ifname
-onWpsCommandSent
 )
 ;
 }
