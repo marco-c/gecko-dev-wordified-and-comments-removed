@@ -308,7 +308,15 @@ self
 .
 marionette
 .
-close
+switch_to_window
 (
 handle
+)
+            
+self
+.
+marionette
+.
+close
+(
 )
