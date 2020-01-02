@@ -5038,15 +5038,6 @@ numOperands
 ;
 JS_ASSERT
 (
-numOperands
-(
-)
->
-1
-)
-;
-JS_ASSERT
-(
 getUseFor
 (
 index
