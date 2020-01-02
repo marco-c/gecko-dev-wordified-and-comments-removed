@@ -417,6 +417,13 @@ LocaleNumberGroupingIsEnabled
 )
 )
 ;
+unum_setAttribute
+(
+format
+UNUM_MAX_FRACTION_DIGITS
+16
+)
+;
 int32_t
 length
 =
