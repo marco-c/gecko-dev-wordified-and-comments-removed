@@ -143,3 +143,13 @@ ac_add_options
 enable
 -
 release
+.
+"
+topsrcdir
+/
+build
+/
+mozconfig
+.
+automation
+"
