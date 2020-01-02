@@ -551,6 +551,9 @@ GB
 "
 gb18030
 "
+"
+replacement
+"
 ]
 ;
 var
@@ -1029,6 +1032,9 @@ ISO
 2022
 -
 CN
+"
+"
+replacement
 "
 ]
 ;

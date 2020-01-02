@@ -1189,7 +1189,7 @@ rv
 convManager
 -
 >
-GetUnicodeDecoder
+GetUnicodeDecoderRaw
 (
 "
 UTF

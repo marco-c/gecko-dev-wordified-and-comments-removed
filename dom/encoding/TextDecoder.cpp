@@ -103,6 +103,16 @@ FindEncodingForLabel
 label
 mEncoding
 )
+|
+|
+mEncoding
+.
+EqualsLiteral
+(
+"
+replacement
+"
+)
 )
 {
 aRv

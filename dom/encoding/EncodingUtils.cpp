@@ -182,6 +182,16 @@ aPreferredName
 LowerCaseEqualsLiteral
 (
 "
+replacement
+"
+)
+|
+|
+aPreferredName
+.
+LowerCaseEqualsLiteral
+(
+"
 utf
 -
 7

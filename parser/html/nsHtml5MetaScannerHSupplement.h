@@ -1,11 +1,5 @@
 private
 :
-nsCOMPtr
-<
-nsIUnicodeDecoder
->
-mUnicodeDecoder
-;
 nsCString
 mCharset
 ;
@@ -32,10 +26,6 @@ sniff
 nsHtml5ByteReadable
 *
 bytes
-nsIUnicodeDecoder
-*
-*
-decoder
 nsACString
 &
 charset
