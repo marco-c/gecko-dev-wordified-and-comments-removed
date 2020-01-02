@@ -339,6 +339,13 @@ const
 CompositingRenderTarget
 *
 aSource
+const
+gfx
+:
+:
+IntPoint
+&
+aSourcePoint
 )
 =
 0

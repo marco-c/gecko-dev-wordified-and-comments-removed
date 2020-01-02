@@ -1156,6 +1156,10 @@ const
 CompositingRenderTarget
 *
 aSource
+const
+IntPoint
+&
+aSourcePoint
 )
 {
 RefPtr
@@ -1246,6 +1250,17 @@ Snapshot
 (
 )
 ;
+IntRect
+sourceRect
+(
+aSourcePoint
+aRect
+.
+Size
+(
+)
+)
+;
 rt
 -
 >
@@ -1255,7 +1270,7 @@ mDrawTarget
 CopySurface
 (
 snapshot
-aRect
+sourceRect
 IntPoint
 (
 0
