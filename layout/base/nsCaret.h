@@ -72,14 +72,6 @@ nsCaret
 ;
 public
 :
-enum
-EViewCoordinates
-{
-eTopLevelWindowCoordinates
-eRenderingViewCoordinates
-eClosestViewCoordinates
-}
-;
 NS_DECL_ISUPPORTS
 nsresult
 Init
