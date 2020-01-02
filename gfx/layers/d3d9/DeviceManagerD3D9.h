@@ -512,9 +512,6 @@ aTextureHostIDirect3DTexture9
 ifdef
 DEBUG
 bool
-DeviceManagerD3D9
-:
-:
 IsInTextureHostList
 (
 TextureSourceD3D9
