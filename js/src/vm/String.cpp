@@ -1194,7 +1194,7 @@ template
 void
 CopyChars
 (
-char
+Latin1Char
 *
 dest
 const
@@ -2259,7 +2259,7 @@ return
 flattenInternal
 <
 b
-char
+Latin1Char
 >
 (
 maybecx
@@ -2566,7 +2566,7 @@ if
 isLatin1
 )
 {
-char
+Latin1Char
 *
 buf
 =

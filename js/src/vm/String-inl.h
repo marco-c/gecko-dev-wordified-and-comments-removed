@@ -1445,7 +1445,10 @@ inlineStorageTwoByte
 ;
 }
 MOZ_ALWAYS_INLINE
-char
+JS
+:
+:
+Latin1Char
 *
 JSInlineString
 :
@@ -1531,7 +1534,10 @@ inlineStorageTwoByte
 ;
 }
 MOZ_ALWAYS_INLINE
-char
+JS
+:
+:
+Latin1Char
 *
 JSFatInlineString
 :

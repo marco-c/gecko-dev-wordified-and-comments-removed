@@ -2654,7 +2654,10 @@ length
 union
 {
 const
-char
+JS
+:
+:
+Latin1Char
 *
 nonInlineCharsLatin1
 ;
@@ -2663,7 +2666,10 @@ jschar
 *
 nonInlineCharsTwoByte
 ;
-char
+JS
+:
+:
+Latin1Char
 inlineStorageLatin1
 [
 1

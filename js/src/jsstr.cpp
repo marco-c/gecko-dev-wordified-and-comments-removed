@@ -22044,7 +22044,7 @@ bool
 EqualCharsLatin1TwoByte
 (
 const
-char
+Latin1Char
 *
 s1
 const
@@ -22058,7 +22058,7 @@ len
 for
 (
 const
-char
+Latin1Char
 *
 s1end
 =
@@ -22082,10 +22082,6 @@ if
 (
 jschar
 (
-(
-unsigned
-char
-)
 *
 s1
 )
