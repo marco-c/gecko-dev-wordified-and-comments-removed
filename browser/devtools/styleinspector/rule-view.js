@@ -8379,17 +8379,6 @@ tooltip
 isShown
 (
 )
-|
-|
-this
-.
-ruleEditor
-.
-ruleView
-.
-colorPicker
-.
-eyedropperOpen
 )
 ;
 }
