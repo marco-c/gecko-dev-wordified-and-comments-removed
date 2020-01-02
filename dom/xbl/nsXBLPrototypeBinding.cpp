@@ -2523,7 +2523,9 @@ return
 mResources
 -
 >
-mRuleProcessor
+GetRuleProcessor
+(
+)
 ;
 }
 return
