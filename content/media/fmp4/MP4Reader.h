@@ -224,6 +224,13 @@ ResetDecode
 )
 MOZ_OVERRIDE
 ;
+virtual
+void
+Shutdown
+(
+)
+MOZ_OVERRIDE
+;
 private
 :
 void
@@ -235,11 +242,6 @@ uint8_t
 >
 &
 aInitData
-)
-;
-void
-Shutdown
-(
 )
 ;
 void
