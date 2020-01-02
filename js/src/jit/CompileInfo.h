@@ -163,7 +163,7 @@ nonLazyScript
 )
 -
 >
-function
+functionNonDelazifying
 (
 )
 ;
@@ -311,7 +311,7 @@ script_
 }
 JSFunction
 *
-fun
+funMaybeLazy
 (
 )
 const
@@ -700,7 +700,7 @@ const
 {
 JS_ASSERT
 (
-fun
+funMaybeLazy
 (
 )
 )
@@ -873,7 +873,7 @@ CountArgSlots
 script
 (
 )
-fun
+funMaybeLazy
 (
 )
 )
@@ -892,7 +892,7 @@ script
 )
 &
 &
-fun
+funMaybeLazy
 (
 )
 )
@@ -921,7 +921,7 @@ const
 {
 if
 (
-fun
+funMaybeLazy
 (
 )
 &

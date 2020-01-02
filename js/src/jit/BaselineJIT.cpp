@@ -1282,6 +1282,14 @@ alloc
 BASELINE_LIFO_ALLOC_PRIMARY_CHUNK_SIZE
 )
 ;
+script
+-
+>
+ensureNonLazyCanonicalFunction
+(
+cx
+)
+;
 TempAllocator
 *
 temp

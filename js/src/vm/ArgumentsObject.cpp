@@ -2139,7 +2139,7 @@ arg
 script
 -
 >
-function
+functionNonDelazifying
 (
 )
 -

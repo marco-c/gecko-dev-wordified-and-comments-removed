@@ -1085,7 +1085,7 @@ fun
 =
 info
 .
-fun
+funMaybeLazy
 (
 )
 ;

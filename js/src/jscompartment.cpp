@@ -3686,7 +3686,7 @@ fun
 lazy
 -
 >
-function
+functionNonDelazifying
 (
 )
 ;

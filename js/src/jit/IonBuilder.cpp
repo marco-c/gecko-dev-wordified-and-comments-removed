@@ -389,7 +389,7 @@ if
 script
 -
 >
-function
+functionNonDelazifying
 (
 )
 )
@@ -3833,7 +3833,7 @@ info
 (
 )
 .
-fun
+funMaybeLazy
 (
 )
 )
@@ -5085,7 +5085,7 @@ info
 (
 )
 .
-fun
+funMaybeLazy
 (
 )
 )
@@ -5165,7 +5165,7 @@ info
 (
 )
 .
-fun
+funMaybeLazy
 (
 )
 )
@@ -5473,7 +5473,7 @@ info
 (
 )
 .
-fun
+funMaybeLazy
 (
 )
 )
@@ -26144,7 +26144,7 @@ info
 (
 )
 .
-fun
+funMaybeLazy
 (
 )
 )
@@ -28736,7 +28736,7 @@ info
 (
 )
 .
-fun
+funMaybeLazy
 (
 )
 )
@@ -29382,7 +29382,7 @@ info
 (
 )
 .
-fun
+funMaybeLazy
 (
 )
 )
@@ -29586,7 +29586,7 @@ info
 (
 )
 .
-fun
+funMaybeLazy
 (
 )
 &
@@ -46587,7 +46587,7 @@ info
 (
 )
 .
-fun
+funMaybeLazy
 (
 )
 )
@@ -46620,7 +46620,7 @@ info
 (
 )
 .
-fun
+funMaybeLazy
 (
 )
 -
@@ -47435,7 +47435,7 @@ get
 outerScript
 -
 >
-function
+functionNonDelazifying
 (
 )
 )
@@ -47493,7 +47493,7 @@ script
 )
 -
 >
-function
+functionNonDelazifying
 (
 )
 -

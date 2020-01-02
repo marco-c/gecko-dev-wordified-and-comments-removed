@@ -19000,7 +19000,7 @@ ImmGCPtr
 (
 info
 .
-fun
+funMaybeLazy
 (
 )
 )

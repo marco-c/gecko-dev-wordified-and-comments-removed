@@ -1565,7 +1565,7 @@ info
 (
 )
 .
-fun
+funMaybeLazy
 (
 )
 ;

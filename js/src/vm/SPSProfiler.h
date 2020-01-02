@@ -948,7 +948,7 @@ script
 script
 -
 >
-function
+functionNonDelazifying
 (
 )
 )

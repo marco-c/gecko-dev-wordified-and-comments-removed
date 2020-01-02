@@ -16661,7 +16661,7 @@ sourceObject
 }
 if
 (
-function
+functionNonDelazifying
 (
 )
 )
@@ -17490,7 +17490,7 @@ JS_ASSERT
 script
 -
 >
-function
+functionNonDelazifying
 (
 )
 )

@@ -6600,7 +6600,7 @@ if
 script
 -
 >
-function
+functionNonDelazifying
 (
 )
 -
@@ -8764,7 +8764,7 @@ cx
 script
 -
 >
-function
+functionNonDelazifying
 (
 )
 )
@@ -13585,7 +13585,7 @@ bce
 script
 -
 >
-function
+functionNonDelazifying
 (
 )
 )

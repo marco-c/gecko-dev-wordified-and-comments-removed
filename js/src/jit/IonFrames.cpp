@@ -3129,7 +3129,7 @@ script
 script
 -
 >
-function
+functionNonDelazifying
 (
 )
 popSPSFrame
@@ -3233,7 +3233,7 @@ script
 script
 -
 >
-function
+functionNonDelazifying
 (
 )
 iter

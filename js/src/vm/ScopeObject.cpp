@@ -193,7 +193,7 @@ return
 script
 -
 >
-function
+functionNonDelazifying
 (
 )
 ;
@@ -12493,7 +12493,7 @@ name
 script
 -
 >
-function
+functionNonDelazifying
 (
 )
 -
@@ -12559,7 +12559,7 @@ name
 innerScript
 -
 >
-function
+functionNonDelazifying
 (
 )
 -
@@ -12949,7 +12949,7 @@ if
 script
 -
 >
-function
+functionDelazifying
 (
 )
 &
@@ -12957,7 +12957,7 @@ function
 script
 -
 >
-function
+functionDelazifying
 (
 )
 -

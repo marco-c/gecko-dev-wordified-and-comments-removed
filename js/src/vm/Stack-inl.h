@@ -1636,6 +1636,14 @@ nonLazyScript
 script
 )
 ;
+script
+-
+>
+ensureNonLazyCanonicalFunction
+(
+cx
+)
+;
 StackFrame
 *
 prev

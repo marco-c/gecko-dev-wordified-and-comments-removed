@@ -343,7 +343,7 @@ return
 script
 -
 >
-function
+functionNonDelazifying
 (
 )
 ;
