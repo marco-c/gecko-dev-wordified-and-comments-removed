@@ -238,14 +238,6 @@ nsString
 retval
 )
 ;
-void
-GetFilename
-(
-nsString
-&
-retval
-)
-;
 uint32_t
 LineNumber
 (
@@ -346,7 +338,7 @@ nsISupports
 >
 mData
 ;
-nsCString
+nsString
 mFilename
 ;
 int

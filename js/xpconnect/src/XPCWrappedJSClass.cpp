@@ -3880,7 +3880,7 @@ lineNumber
 =
 0
 ;
-nsCString
+nsString
 sourceName
 ;
 nsCOMPtr
@@ -3936,10 +3936,7 @@ NS_ConvertUTF8toUTF16
 (
 newMessage
 )
-NS_ConvertUTF8toUTF16
-(
 sourceName
-)
 EmptyString
 (
 )
