@@ -904,7 +904,7 @@ version
 optional
 ]
 in
-jsval
+AUTF8String
 filename
 [
 optional

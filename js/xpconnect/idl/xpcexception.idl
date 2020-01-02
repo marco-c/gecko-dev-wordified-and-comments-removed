@@ -133,13 +133,13 @@ void
 initialize
 (
 in
-string
+AUTF8String
 aMessage
 in
 nsresult
 aResult
 in
-string
+AUTF8String
 aName
 in
 nsIStackFrame
