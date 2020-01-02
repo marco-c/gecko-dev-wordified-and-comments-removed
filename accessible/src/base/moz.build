@@ -235,6 +235,11 @@ ARIAStateMap
 cpp
 '
 '
+Asserts
+.
+cpp
+'
+'
 DocManager
 .
 cpp
@@ -291,11 +296,6 @@ cpp
 '
 '
 nsTextEquivUtils
-.
-cpp
-'
-'
-RoleAsserts
 .
 cpp
 '
