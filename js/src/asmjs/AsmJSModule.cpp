@@ -4087,16 +4087,13 @@ AsmJSImm_Limit
 break
 ;
 }
-MOZ_ASSUME_UNREACHABLE
+MOZ_CRASH
 (
 "
 Bad
 AsmJSImmKind
 "
 )
-;
-return
-nullptr
 ;
 }
 void

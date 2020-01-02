@@ -344,7 +344,7 @@ CodeRange
 :
 Thunk
 :
-MOZ_ASSUME_UNREACHABLE
+MOZ_CRASH
 (
 "
 Should
@@ -3201,7 +3201,7 @@ Builtin_Limit
 break
 ;
 }
-MOZ_ASSUME_UNREACHABLE
+MOZ_CRASH
 (
 "
 Bad
@@ -3498,7 +3498,7 @@ thunkTarget
 )
 ;
 }
-MOZ_ASSUME_UNREACHABLE
+MOZ_CRASH
 (
 "
 Bad
