@@ -386,6 +386,17 @@ localName
 )
 ;
 [
+Throws
+Pure
+]
+boolean
+matches
+(
+DOMString
+selector
+)
+;
+[
 Pure
 ]
 HTMLCollection
