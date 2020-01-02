@@ -143,6 +143,11 @@ xpcAccessibleTableCell
 cpp
 '
 '
+xpcAccessibleTextRange
+.
+cpp
+'
+'
 xpcAccessibleValue
 .
 cpp

@@ -227,6 +227,11 @@ nsIAccessibleTextChangeEvent
 idl
 '
 '
+nsIAccessibleTextRange
+.
+idl
+'
+'
 nsIAccessibleTypes
 .
 idl
