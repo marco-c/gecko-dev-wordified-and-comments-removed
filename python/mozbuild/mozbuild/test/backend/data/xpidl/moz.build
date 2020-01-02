@@ -57,7 +57,7 @@ zero
 .
 0
 /
-MODULE
+XPIDL_MODULE
 =
 '
 my_module

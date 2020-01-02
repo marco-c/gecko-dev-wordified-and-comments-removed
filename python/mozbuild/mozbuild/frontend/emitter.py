@@ -655,24 +655,6 @@ xpidl_module
 sandbox
 [
 '
-MODULE
-'
-]
-        
-if
-sandbox
-[
-'
-XPIDL_MODULE
-'
-]
-:
-            
-xpidl_module
-=
-sandbox
-[
-'
 XPIDL_MODULE
 '
 ]
@@ -693,16 +675,14 @@ raise
 SandboxValidationError
 (
 '
-MODULE
-or
 XPIDL_MODULE
 must
 be
+defined
+if
 '
                 
 '
-defined
-if
 XPIDL_SOURCES
 is
 defined
@@ -1028,12 +1008,6 @@ LIBXUL_LIBRARY
 =
 '
 LIBXUL_LIBRARY
-'
-            
-MODULE
-=
-'
-MODULE
 '
             
 MSVC_ENABLE_PGO

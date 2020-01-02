@@ -57,11 +57,6 @@ zero
 .
 0
 /
-MODULE
-=
-'
-module_name
-'
 SOURCES
 +
 =
