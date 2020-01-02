@@ -2366,6 +2366,16 @@ account
 <
 !
 ENTITY
+fxaccount_status_signed_in_as
+'
+Signed
+in
+as
+'
+>
+<
+!
+ENTITY
 fxaccount_status_sync
 '
 &
