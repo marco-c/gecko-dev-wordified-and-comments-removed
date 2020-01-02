@@ -486,6 +486,9 @@ mBottomEdge
 nsRect
 mContentArea
 ;
+nscoord
+mContainerWidth
+;
 nsFrameList
 *
 mPushedFloats

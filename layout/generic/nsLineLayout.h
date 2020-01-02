@@ -253,13 +253,11 @@ TrimTrailingWhiteSpace
 void
 InlineDirAlignFrames
 (
-nsRect
-&
-aLineBounds
+nsLineBox
+*
+aLine
 bool
 aIsLastLine
-int32_t
-aFrameCount
 )
 ;
 void

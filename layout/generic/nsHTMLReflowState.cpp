@@ -5024,7 +5024,9 @@ mTop
 lineBox
 -
 >
-mBounds
+GetPhysicalBounds
+(
+)
 .
 y
 +
@@ -5124,7 +5126,9 @@ mTop
 lineBox
 -
 >
-mBounds
+GetPhysicalBounds
+(
+)
 .
 y
 +
@@ -5140,7 +5144,9 @@ mTop
 lineBox
 -
 >
-mBounds
+GetPhysicalBounds
+(
+)
 .
 YMost
 (
