@@ -398,7 +398,7 @@ JSObject
 *
 memOf
 =
-NULL
+nullptr
 )
 :
 Base
@@ -872,7 +872,7 @@ key
 .
 unsafeSet
 (
-NULL
+nullptr
 )
 ;
 }

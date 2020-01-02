@@ -483,7 +483,7 @@ metavar
 )
 value
 (
-NULL
+nullptr
 )
 {
 }
@@ -1031,11 +1031,11 @@ usage
 )
 ver
 (
-NULL
+nullptr
 )
 descr
 (
-NULL
+nullptr
 )
 descrWidth
 (

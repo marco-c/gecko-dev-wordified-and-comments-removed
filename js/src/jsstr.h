@@ -1208,7 +1208,7 @@ PutEscapedStringImpl
 (
 buffer
 size
-NULL
+nullptr
 str
 quote
 )
@@ -1255,7 +1255,7 @@ PutEscapedStringImpl
 (
 buffer
 bufferSize
-NULL
+nullptr
 chars
 length
 quote
@@ -1294,7 +1294,7 @@ quote
 return
 PutEscapedStringImpl
 (
-NULL
+nullptr
 0
 fp
 str

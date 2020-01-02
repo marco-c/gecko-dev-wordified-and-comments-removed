@@ -349,7 +349,7 @@ rhs
 >
 name
 =
-NULL
+nullptr
 ;
 }
 Edge
@@ -466,7 +466,7 @@ cx
 )
 parent
 (
-NULL
+nullptr
 )
 {
 JS_TracerInit
@@ -1154,7 +1154,7 @@ if
 name
 )
 return
-NULL
+nullptr
 ;
 strcpy
 (
@@ -1191,7 +1191,7 @@ if
 name
 )
 return
-NULL
+nullptr
 ;
 if
 (
@@ -1611,7 +1611,7 @@ if
 path
 !
 =
-NULL
+nullptr
 )
 {
 jsval
@@ -1811,7 +1811,7 @@ if
 path
 )
 return
-NULL
+nullptr
 ;
 strcpy
 (
@@ -2103,9 +2103,9 @@ result
 JS_NewObject
 (
 context
-NULL
-NULL
-NULL
+nullptr
+nullptr
+nullptr
 )
 ;
 if
@@ -2114,7 +2114,7 @@ if
 result
 )
 return
-NULL
+nullptr
 ;
 if
 (
@@ -2122,11 +2122,11 @@ if
 visit
 (
 target
-NULL
+nullptr
 )
 )
 return
-NULL
+nullptr
 ;
 return
 result
@@ -2156,7 +2156,7 @@ JS_ReportErrorNumber
 (
 cx
 js_GetErrorMessage
-NULL
+nullptr
 JSMSG_MORE_ARGS_NEEDED
 "
 findReferences
@@ -2201,7 +2201,7 @@ JS_ReportErrorNumber
 (
 cx
 js_GetErrorMessage
-NULL
+nullptr
 JSMSG_UNEXPECTED_TYPE
 "
 argument

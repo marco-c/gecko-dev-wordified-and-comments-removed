@@ -320,7 +320,7 @@ JS_ASSERT
 WeakMapNotInList
 !
 =
-NULL
+nullptr
 )
 ;
 WeakMapBase
@@ -337,7 +337,7 @@ c
 >
 gcWeakMapList
 =
-NULL
+nullptr
 ;
 while
 (
@@ -612,12 +612,12 @@ JS_ReportErrorNumber
 (
 cx
 js_GetErrorMessage
-NULL
+nullptr
 JSMSG_NOT_NONNULL_OBJECT
 )
 ;
 return
-NULL
+nullptr
 ;
 }
 return
@@ -700,7 +700,7 @@ JS_ReportErrorNumber
 (
 cx
 js_GetErrorMessage
-NULL
+nullptr
 JSMSG_MORE_ARGS_NEEDED
 "
 WeakMap
@@ -986,7 +986,7 @@ JS_ReportErrorNumber
 (
 cx
 js_GetErrorMessage
-NULL
+nullptr
 JSMSG_MORE_ARGS_NEEDED
 "
 WeakMap
@@ -1204,7 +1204,7 @@ JS_ReportErrorNumber
 (
 cx
 js_GetErrorMessage
-NULL
+nullptr
 JSMSG_MORE_ARGS_NEEDED
 "
 WeakMap
@@ -1474,7 +1474,7 @@ JS_ReportErrorNumber
 (
 cx
 js_GetErrorMessage
-NULL
+nullptr
 JSMSG_BAD_WEAKMAP_KEY
 )
 ;
@@ -1525,7 +1525,7 @@ JS_ReportErrorNumber
 (
 cx
 js_GetErrorMessage
-NULL
+nullptr
 JSMSG_MORE_ARGS_NEEDED
 "
 WeakMap
@@ -1923,7 +1923,7 @@ WeakMapObject
 *
 ret
 =
-NULL
+nullptr
 ;
 return
 true
@@ -2276,10 +2276,10 @@ JS_EnumerateStub
 JS_ResolveStub
 JS_ConvertStub
 WeakMap_finalize
-NULL
-NULL
-NULL
-NULL
+nullptr
+nullptr
+nullptr
+nullptr
 WeakMap_mark
 }
 ;
@@ -2404,7 +2404,7 @@ if
 weakMapProto
 )
 return
-NULL
+nullptr
 ;
 RootedFunction
 ctor
@@ -2435,7 +2435,7 @@ if
 ctor
 )
 return
-NULL
+nullptr
 ;
 if
 (
@@ -2448,7 +2448,7 @@ weakMapProto
 )
 )
 return
-NULL
+nullptr
 ;
 if
 (
@@ -2457,12 +2457,12 @@ DefinePropertiesAndBrand
 (
 cx
 weakMapProto
-NULL
+nullptr
 weak_map_methods
 )
 )
 return
-NULL
+nullptr
 ;
 if
 (
@@ -2477,7 +2477,7 @@ weakMapProto
 )
 )
 return
-NULL
+nullptr
 ;
 return
 weakMapProto

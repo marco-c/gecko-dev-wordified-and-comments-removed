@@ -69,7 +69,7 @@ Bindings
 :
 callObjShape_
 (
-NULL
+nullptr
 )
 bindingArrayAndFlag_
 (
@@ -329,7 +329,7 @@ getCallerFunction
 )
 ;
 return
-NULL
+nullptr
 ;
 }
 inline
@@ -472,7 +472,7 @@ if
 isCallsiteClone
 )
 return
-NULL
+nullptr
 ;
 return
 &

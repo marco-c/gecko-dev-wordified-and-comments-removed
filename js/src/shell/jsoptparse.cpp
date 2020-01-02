@@ -1767,7 +1767,7 @@ char
 *
 value
 =
-NULL
+nullptr
 ;
 if
 (
@@ -1810,7 +1810,7 @@ char
 *
 value
 =
-NULL
+nullptr
 ;
 if
 (
@@ -1856,7 +1856,7 @@ char
 *
 value
 =
-NULL
+nullptr
 ;
 if
 (
@@ -2808,7 +2808,7 @@ shortflag
 &
 helpOption
 :
-NULL
+nullptr
 ;
 }
 const
@@ -3025,7 +3025,7 @@ longflag
 longflag
 )
 ?
-NULL
+nullptr
 :
 &
 helpOption
@@ -3173,7 +3173,7 @@ index
 1
 )
 ?
-NULL
+nullptr
 :
 arguments
 [
@@ -3213,7 +3213,7 @@ index
 1
 )
 ?
-NULL
+nullptr
 :
 arguments
 [
@@ -3651,7 +3651,7 @@ const
 char
 *
 )
-NULL
+nullptr
 )
 ;
 if
@@ -3746,7 +3746,7 @@ const
 char
 *
 )
-NULL
+nullptr
 )
 ;
 if

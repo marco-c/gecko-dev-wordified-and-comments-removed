@@ -123,7 +123,7 @@ workerThreadState
 )
 !
 =
-NULL
+nullptr
 )
 ;
 return
@@ -210,7 +210,7 @@ rt
 >
 workerThreadState
 =
-NULL
+nullptr
 ;
 return
 false
@@ -244,7 +244,7 @@ workerThreadState
 )
 !
 =
-NULL
+nullptr
 )
 ;
 JS_ASSERT
@@ -263,7 +263,7 @@ asmData
 lir
 =
 =
-NULL
+nullptr
 )
 ;
 WorkerThreadState
@@ -871,7 +871,7 @@ JS_StrictPropertyStub
 JS_EnumerateStub
 JS_ResolveStub
 JS_ConvertStub
-NULL
+nullptr
 }
 ;
 ParseTask
@@ -942,7 +942,7 @@ callbackData
 )
 script
 (
-NULL
+nullptr
 )
 errors
 (
@@ -1213,7 +1213,7 @@ JS_NewGlobalObject
 cx
 &
 workerGlobalClass
-NULL
+nullptr
 JS
 :
 :
@@ -1444,7 +1444,7 @@ runtime
 PerThreadData
 *
 )
-NULL
+nullptr
 ThreadSafeContext
 :
 :
@@ -1931,7 +1931,7 @@ threads
 ;
 threads
 =
-NULL
+nullptr
 ;
 numThreads
 =
@@ -1997,7 +1997,7 @@ threads
 ;
 threads
 =
-NULL
+nullptr
 ;
 numThreads
 =
@@ -2015,7 +2015,7 @@ empty
 )
 finishParseTask
 (
-NULL
+nullptr
 rt
 parseFinishedList
 [
@@ -2128,7 +2128,7 @@ ifdef
 DEBUG
 lockOwner
 =
-NULL
+nullptr
 ;
 #
 endif
@@ -2184,7 +2184,7 @@ ifdef
 DEBUG
 lockOwner
 =
-NULL
+nullptr
 ;
 #
 endif
@@ -2597,7 +2597,7 @@ ParseTask
 *
 parseTask
 =
-NULL
+nullptr
 ;
 {
 AutoLockWorkerThreadState
@@ -2915,7 +2915,7 @@ GlobalObject
 *
 compileAndGoGlobal
 =
-NULL
+nullptr
 ;
 if
 (
@@ -3246,7 +3246,7 @@ success
 {
 asmData
 =
-NULL
+nullptr
 ;
 state
 .
@@ -3282,7 +3282,7 @@ asmData
 ;
 asmData
 =
-NULL
+nullptr
 ;
 state
 .
@@ -3474,7 +3474,7 @@ ionBuilder
 ;
 ionBuilder
 =
-NULL
+nullptr
 ;
 state
 .
@@ -3717,7 +3717,7 @@ parseTask
 ;
 parseTask
 =
-NULL
+nullptr
 ;
 state
 .
@@ -3813,11 +3813,11 @@ compressionTask
 >
 workerThread
 =
-NULL
+nullptr
 ;
 compressionTask
 =
-NULL
+nullptr
 ;
 state
 .
@@ -4085,11 +4085,11 @@ computedSizeOfData
 ;
 ss
 =
-NULL
+nullptr
 ;
 chars
 =
-NULL
+nullptr
 ;
 }
 if
@@ -4221,7 +4221,7 @@ task
 ;
 }
 return
-NULL
+nullptr
 ;
 }
 const
@@ -4245,7 +4245,7 @@ ready
 )
 {
 return
-NULL
+nullptr
 ;
 }
 WorkerThreadState
@@ -4292,7 +4292,7 @@ ready_
 true
 ;
 return
-NULL
+nullptr
 ;
 }
 void
@@ -5136,7 +5136,7 @@ ready
 )
 ;
 return
-NULL
+nullptr
 ;
 }
 AutoPauseWorkersForGC
