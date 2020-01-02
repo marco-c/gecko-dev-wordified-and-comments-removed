@@ -237,6 +237,10 @@ AbstractMediaDecoder
 aDecoder
 )
 :
+mAudioCompactor
+(
+mAudioQueue
+)
 mDecoder
 (
 aDecoder
