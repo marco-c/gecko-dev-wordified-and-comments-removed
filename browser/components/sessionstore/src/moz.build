@@ -164,6 +164,11 @@ SessionWorker
 js
 '
 '
+TabStateCache
+.
+jsm
+'
+'
 XPathGenerator
 .
 jsm
