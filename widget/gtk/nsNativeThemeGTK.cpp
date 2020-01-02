@@ -3250,6 +3250,9 @@ const
 nsRect
 &
 aDirtyRect
+nsIntRegion
+*
+aRegionToClear
 )
 {
 GtkWidgetState
