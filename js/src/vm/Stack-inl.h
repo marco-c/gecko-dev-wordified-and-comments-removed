@@ -1821,7 +1821,7 @@ Op
 >
 inline
 void
-ScriptFrameIter
+FrameIter
 :
 :
 unaliasedForEachActual
@@ -1842,6 +1842,9 @@ state_
 {
 case
 DONE
+:
+case
+ASMJS
 :
 break
 ;
