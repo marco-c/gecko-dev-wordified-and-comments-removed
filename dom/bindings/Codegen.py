@@ -1,6 +1,4 @@
 import
-operator
-import
 os
 import
 re
@@ -8,8 +6,6 @@ import
 string
 import
 math
-import
-itertools
 import
 textwrap
 from
@@ -3377,9 +3373,9 @@ Rooted
 "
     
 if
-not
 isXrayCheck
 is
+not
 None
 :
         
@@ -3720,10 +3716,8 @@ self
 )
 :
         
-(
 prototypeID
 depth
-)
 =
 PrototypeIDAndDepth
 (
@@ -4074,10 +4068,8 @@ hasinstance
 nullptr
 "
         
-(
 prototypeID
 depth
-)
 =
 PrototypeIDAndDepth
 (
@@ -4465,7 +4457,7 @@ def
 join
 (
 self
-generator
+iterable
 )
 :
         
@@ -4476,25 +4468,18 @@ joiner
 .
 join
 (
-filter
-(
-lambda
 s
-:
+for
+s
+in
+iterable
+if
 len
 (
 s
 )
 >
 0
-(
-child
-for
-child
-in
-generator
-)
-)
 )
     
 def
@@ -7221,48 +7206,6 @@ h
 '
 )
 def
-SortedTuples
-(
-l
-)
-:
-    
-"
-"
-"
-    
-Sort
-a
-list
-of
-tuples
-based
-on
-the
-first
-item
-in
-the
-tuple
-    
-"
-"
-"
-    
-return
-sorted
-(
-l
-key
-=
-operator
-.
-itemgetter
-(
-0
-)
-)
-def
 SortedDictValues
 (
 d
@@ -7290,9 +7233,14 @@ key
 "
 "
     
-d
-=
-SortedTuples
+return
+[
+v
+for
+k
+v
+in
+sorted
 (
 d
 .
@@ -7300,18 +7248,7 @@ items
 (
 )
 )
-    
-return
-(
-i
-[
-1
 ]
-for
-i
-in
-d
-)
 def
 UnionTypes
 (
@@ -7430,50 +7367,18 @@ dict
 (
 )
     
-def
-addInfoForType
-(
-(
+for
 t
 descriptor
 dictionary
-)
+in
+getAllTypes
+(
+descriptors
+dictionaries
+callbacks
 )
 :
-        
-"
-"
-"
-        
-Add
-info
-for
-the
-given
-type
-.
-descriptor
-and
-dictionary
-if
-passed
-are
-        
-used
-to
-figure
-out
-what
-to
-do
-with
-interface
-types
-.
-        
-"
-"
-"
         
 assert
 not
@@ -7499,7 +7404,7 @@ isUnion
 )
 :
             
-return
+continue
         
 name
 =
@@ -7509,8 +7414,8 @@ t
 )
         
 if
-not
 name
+not
 in
 unionStructs
 :
@@ -7798,17 +7703,6 @@ f
 )
 )
     
-map
-(
-addInfoForType
-getAllTypes
-(
-descriptors
-dictionaries
-callbacks
-)
-)
-    
 return
 (
 headers
@@ -7817,20 +7711,17 @@ declarations
             
 CGList
 (
-itertools
-.
-chain
-(
 SortedDictValues
 (
 unionStructs
 )
-                                   
++
+                   
 SortedDictValues
 (
 owningUnionStructs
 )
-)
+                   
 "
 \
 n
@@ -7880,50 +7771,18 @@ dict
 (
 )
     
-def
-addInfoForType
-(
-(
+for
 t
 descriptor
 dictionary
-)
+in
+getAllTypes
+(
+descriptors
+dictionaries
+callbacks
 )
 :
-        
-"
-"
-"
-        
-Add
-info
-for
-the
-given
-type
-.
-descriptor
-and
-dictionary
-if
-passed
-are
-        
-used
-to
-figure
-out
-what
-to
-do
-with
-interface
-types
-.
-        
-"
-"
-"
         
 assert
 not
@@ -7949,7 +7808,7 @@ isUnion
 )
 :
             
-return
+continue
         
 name
 =
@@ -7959,8 +7818,8 @@ t
 )
         
 if
-not
 name
+not
 in
 unionConversions
 :
@@ -8202,17 +8061,6 @@ PrimitiveConversions
 .
 h
 "
-)
-    
-map
-(
-addInfoForType
-getAllTypes
-(
-descriptors
-dictionaries
-callbacks
-)
 )
     
 return
@@ -9266,6 +9114,7 @@ JSContext
 cx
 '
 )
+                
 Argument
 (
 '
@@ -9298,6 +9147,7 @@ jsid
 id
 '
 )
+                
 Argument
 (
 '
@@ -9763,6 +9613,7 @@ JSContext
 cx
 '
 )
+                
 Argument
 (
 '
@@ -9772,6 +9623,7 @@ unsigned
 argc
 '
 )
+                
 Argument
 (
 '
@@ -10970,6 +10822,7 @@ JSContext
 cx
 '
 )
+                
 Argument
 (
 '
@@ -11005,6 +10858,7 @@ Value
 vp
 '
 )
+                
 Argument
 (
 '
@@ -12803,10 +12657,8 @@ overloadLength
 arguments
 )
 for
-(
 retType
 arguments
-)
 in
 signatures
 )
@@ -16199,10 +16051,8 @@ pref
 )
                 
 for
-(
 pref
 ptr
-)
 in
 prefCacheData
 ]
@@ -31860,12 +31710,10 @@ haveValue
 "
 "
     
-(
 templateBody
 declType
 holderType
 dealWithOptional
-)
 =
 (
         
@@ -34470,10 +34318,8 @@ nullable
 )
 :
             
-(
 recTemplate
 recInfall
-)
 =
 getWrapTemplateForType
 (
@@ -34481,7 +34327,7 @@ type
 .
 inner
 descriptorProvider
-                                                              
+                                                            
 "
 %
 s
@@ -34493,10 +34339,10 @@ Value
 %
 result
 successCode
-                                                              
+                                                            
 returnsNewObject
 exceptionCode
-                                                              
+                                                            
 typedArraysAreStructs
 )
             
@@ -35097,11 +34943,6 @@ n
 "
 +
                           
-"
-%
-s
-"
-%
 exceptionCode
 )
             
@@ -35854,10 +35695,8 @@ nullable
 )
 :
         
-(
 recTemplate
 recInfal
-)
 =
 getWrapTemplateForType
 (
@@ -35865,7 +35704,7 @@ type
 .
 inner
 descriptorProvider
-                                                         
+                                                       
 "
 %
 s
@@ -35877,10 +35716,10 @@ Value
 %
 result
 successCode
-                                                         
+                                                       
 returnsNewObject
 exceptionCode
-                                                         
+                                                       
 typedArraysAreStructs
 )
         
@@ -37629,23 +37468,21 @@ returnType
 .
 inner
         
-(
 result
 _
 _
 _
-)
 =
 getRetvalDeclarationForType
 (
 returnType
 .
 inner
-                                                        
+                                                      
 descriptorProvider
-                                                        
+                                                      
 resultAlreadyAddRefed
-                                                        
+                                                      
 isMember
 =
 "
@@ -38010,10 +37847,10 @@ extendedAttributes
 :
     
 return
-not
 '
 resultNotAddRefed
 '
+not
 in
 extendedAttributes
 def
@@ -38270,12 +38107,10 @@ isResultAlreadyAddRefed
 extendedAttributes
 )
         
-(
 result
 resultOutParam
 resultRooter
 resultArgs
-)
 =
 \
             
@@ -38306,10 +38141,8 @@ argsPre
 )
         
 for
-(
 a
 name
-)
 in
 arguments
 :
@@ -40920,10 +40753,8 @@ False
 )
                     
 for
-(
 arg
 argname
-)
 in
 self
 .
@@ -41022,10 +40853,8 @@ i
 )
 )
 for
-(
 i
 a
-)
 in
 enumerate
 (
@@ -41043,10 +40872,10 @@ self
 :
         
 return
-not
 '
 infallible
 '
+not
 in
 self
 .
@@ -42443,10 +42272,8 @@ argCountCases
 ]
         
 for
-(
 argCountIdx
 argCount
-)
 in
 enumerate
 (
@@ -45325,6 +45152,7 @@ JSContext
 cx
 '
 )
+                
 Argument
 (
 '
@@ -45543,6 +45371,7 @@ JSContext
 cx
 '
 )
+                
 Argument
 (
 '
@@ -45796,6 +45625,7 @@ JSContext
 cx
 '
 )
+                
 Argument
 (
 '
@@ -46484,6 +46314,7 @@ JSContext
 cx
 '
 )
+                
 Argument
 (
 '
@@ -46661,6 +46492,7 @@ JSContext
 cx
 '
 )
+                
 Argument
 (
 '
@@ -46693,6 +46525,7 @@ jsid
 id
 '
 )
+                
 Argument
 (
 '
@@ -47838,6 +47671,7 @@ JSContext
 cx
 '
 )
+                
 Argument
 (
 '
@@ -48651,21 +48485,19 @@ name
 )
 )
         
-(
 _
 resultOutParam
 _
 _
-)
 =
 getRetvalDeclarationForType
 (
 attr
 .
 type
-                                                                
+                                                              
 descriptor
-                                                                
+                                                              
 False
 )
         
@@ -48881,6 +48713,7 @@ JSContext
 cx
 '
 )
+                
 Argument
 (
 '
@@ -55862,6 +55695,7 @@ append
                     
 ClassConstructor
 (
+                        
 [
 Argument
 (
@@ -55873,27 +55707,26 @@ s
 "
 %
 selfName
-                                               
 "
 aOther
 "
 )
 ]
-                                     
+                        
 bodyInHeader
 =
 True
-                                     
+                        
 visibility
 =
 "
 public
 "
-                                     
+                        
 explicit
 =
 True
-                                     
+                        
 body
 =
 "
@@ -55902,6 +55735,8 @@ this
 =
 aOther
 ;
+\
+n
 "
 )
 )
@@ -57745,7 +57580,6 @@ ClassItem
 "
 "
 "
-"
     
 Used
 for
@@ -57841,51 +57675,28 @@ cgClass
 :
         
 return
-string
-.
-Template
-(
-            
 "
 using
-{
-baseClass
-}
+%
+s
 :
 :
-{
-name
-}
+%
+s
 ;
 \
 n
 \
 n
 "
-        
-)
-.
-substitute
+%
 (
-{
-            
-'
-baseClass
-'
-:
 self
 .
 baseClass
-            
-'
-name
-'
-:
 self
 .
 name
-        
-}
 )
     
 def
@@ -60382,10 +60193,8 @@ in
 order
 :
             
-(
 code
 lastVisibility
-)
 =
 declareMembers
 (
@@ -60581,24 +60390,20 @@ itemCount
 0
         
 for
-(
 memberList
 separator
-)
 in
 order
 :
             
-(
 memberString
 itemCount
-)
 =
 defineMembers
 (
 self
 memberList
-                                                      
+                                                    
 itemCount
 separator
 )
@@ -61899,10 +61704,8 @@ signatures
 0
 ]
         
-(
 returnType
 arguments
-)
 =
 signature
         
@@ -63762,6 +63565,7 @@ JSContext
 cx
 '
 )
+                
 Argument
 (
 '
@@ -64248,10 +64052,10 @@ n
 )
                 
 if
-not
 '
 IndexedCreator
 '
+not
 in
 self
 .
@@ -64319,10 +64123,10 @@ NamedSetter
 :
                 
 if
-not
 '
 NamedCreator
 '
+not
 in
 self
 .
@@ -64932,6 +64736,7 @@ JSContext
 cx
 '
 )
+                
 Argument
 (
 '
@@ -65049,8 +64854,6 @@ indexedSetter
 :
             
 if
-not
-(
 self
 .
 descriptor
@@ -65062,8 +64865,8 @@ IndexedCreator
 '
 ]
 is
+not
 indexedSetter
-)
 :
                 
 raise
@@ -65387,7 +65190,6 @@ namedSetter
 :
             
 if
-not
 self
 .
 descriptor
@@ -65399,6 +65201,7 @@ NamedCreator
 '
 ]
 is
+not
 namedSetter
 :
                 
@@ -65621,6 +65424,7 @@ JSContext
 cx
 '
 )
+                
 Argument
 (
 '
@@ -65728,16 +65532,15 @@ Indexed
             
 assert
 type
-is
+in
+(
 "
 Named
 "
-or
-type
-is
 "
 Indexed
 "
+)
             
 deleter
 =
@@ -68129,6 +67932,7 @@ JSContext
 cx
 '
 )
+                
 Argument
 (
 '
@@ -68353,6 +68157,7 @@ return
 "
 %
 s
+*
 self
 =
 UnwrapProxy
@@ -68366,17 +68171,11 @@ n
 n
 "
 %
-(
 self
 .
 descriptor
 .
 nativeType
-+
-"
-*
-"
-)
 +
                 
 finalizeHook
@@ -69177,32 +68976,6 @@ splitlines
 (
 )
     
-for
-i
-in
-range
-(
-len
-(
-lines
-)
-)
-:
-        
-lines
-[
-i
-]
-=
-lines
-[
-i
-]
-.
-rstrip
-(
-)
-    
 return
 '
 \
@@ -69211,6 +68984,14 @@ n
 .
 join
 (
+line
+.
+rstrip
+(
+)
+for
+line
+in
 lines
 )
 +
@@ -73211,10 +72992,8 @@ parent
 )
         
 for
-(
 m
 _
-)
 in
 self
 .
@@ -73873,14 +73652,10 @@ CGList
 struct
                        
 CGNamespace
-.
-build
 (
-[
 '
 binding_detail
 '
-]
 fastStruct
 )
 ]
@@ -73976,10 +73751,8 @@ memberInfo
 )
 :
         
-(
 _
 conversionInfo
-)
 =
 memberInfo
         
@@ -74027,10 +73800,8 @@ memberInfo
 )
 :
         
-(
 member
 conversionInfo
-)
 =
 memberInfo
         
@@ -75310,10 +75081,8 @@ times
 "
 "
         
-(
 member
 _
-)
 =
 memberInfo
         
@@ -76342,8 +76111,6 @@ decls
 =
 set
 (
-[
-]
 )
         
 self
@@ -76437,11 +76204,11 @@ else
 :
             
 assert
+'
+:
+:
+'
 not
-'
-:
-:
-'
 in
 name
             
@@ -76644,10 +76411,8 @@ isStruct
 )
                                  
 for
-(
 cname
 isStruct
-)
 in
 sorted
 (
@@ -76701,12 +76466,10 @@ cg
 CGList
 (
 decls
-joiner
-=
-'
+"
 \
 n
-'
+"
 )
         
 if
@@ -77745,11 +77508,9 @@ typeInfo
 )
 :
             
-(
 type
 _
 _
-)
 =
 typeInfo
             
@@ -78289,18 +78050,17 @@ bindingHeaders
 =
 [
 header
+                          
 for
-(
 header
 include
-)
 in
-                          
 bindingHeaders
 .
 iteritems
 (
 )
+                          
 if
 include
 ]
@@ -80088,10 +79848,10 @@ aRetVal
 )
         
 if
-not
 '
 infallible
 '
+not
 in
 self
 .
@@ -81035,11 +80795,9 @@ Variadic
 "
 "
         
-(
 decl
 ref
 handleNullable
-)
 =
 self
 .
@@ -81047,7 +80805,6 @@ doGetArgType
 (
 type
 optional
-                                                        
 isMember
 )
         
@@ -81166,10 +80923,8 @@ argument
 "
 "
         
-(
 decl
 ref
-)
 =
 self
 .
@@ -81178,7 +80933,7 @@ getArgType
 arg
 .
 type
-                                      
+                                    
 arg
 .
 optional
@@ -81187,7 +80942,7 @@ not
 arg
 .
 defaultValue
-                                      
+                                    
 "
 Variadic
 "
@@ -81764,10 +81519,8 @@ signatures
 =
 1
             
-(
 returnType
 args
-)
 =
 op
 .
@@ -81945,10 +81698,8 @@ x
 )
         
 for
-(
 name
 op
-)
 in
 ops
 :
@@ -87989,12 +87740,10 @@ getArgConversion
 i
 arg
 )
+                          
 for
-(
 i
 arg
-)
-                          
 in
 enumerate
 (
@@ -90641,10 +90390,8 @@ generatedStructs
 [
 struct
 for
-(
 structName
 struct
-)
 in
 structs
 ]
@@ -90654,10 +90401,8 @@ structNames
 [
 structName
 for
-(
 structName
 struct
-)
 in
 structs
 ]
@@ -91872,12 +91617,10 @@ CGList
 ]
         
 for
-(
 clazz
 isStruct
-)
 in
-SortedTuples
+sorted
 (
 declarations
 )
@@ -92098,10 +91841,8 @@ config
 )
 :
         
-(
 headers
 unions
-)
 =
 UnionConversions
 (
@@ -92110,19 +91851,19 @@ config
 getDescriptors
 (
 )
-                                             
+                                           
 config
 .
 getDictionaries
 (
 )
-                                             
+                                           
 config
 .
 getCallbacks
 (
 )
-                                             
+                                           
 config
 )
         
@@ -92296,10 +92037,10 @@ argList
 :
         
 if
-not
 '
 infallible
 '
+not
 in
 self
 .
@@ -92869,10 +92610,8 @@ arg
 )
 :
         
-(
 decl
 ref
-)
 =
 self
 .
@@ -92881,7 +92620,7 @@ getArgType
 arg
 .
 type
-                                      
+                                    
 arg
 .
 optional
@@ -92890,7 +92629,7 @@ not
 arg
 .
 defaultValue
-                                      
+                                    
 "
 Variadic
 "
