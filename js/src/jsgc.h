@@ -5185,9 +5185,15 @@ ZealFrameVerifierPostValue
 ;
 const
 int
+ZealCheckHashTablesOnMinorGC
+=
+13
+;
+const
+int
 ZealLimit
 =
-12
+13
 ;
 enum
 VerifierType

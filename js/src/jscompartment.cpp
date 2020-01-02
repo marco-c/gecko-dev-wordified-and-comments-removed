@@ -990,7 +990,7 @@ key
 ;
 #
 ifdef
-DEBUG
+JS_GC_ZEAL
 void
 JSCompartment
 :
