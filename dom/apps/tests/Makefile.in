@@ -120,6 +120,10 @@ test_uninstall_errors
 .
 html
 \
+test_bug_795164
+.
+html
+\
 (
 NULL
 )
