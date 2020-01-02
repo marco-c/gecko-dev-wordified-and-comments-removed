@@ -717,8 +717,10 @@ JS_SetTrap
 JSContext
 *
 cx
-JSScript
-*
+JS
+:
+:
+HandleScript
 script
 jsbytecode
 *
@@ -728,7 +730,7 @@ handler
 JS
 :
 :
-Value
+HandleValue
 closure
 )
 ;

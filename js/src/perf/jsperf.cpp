@@ -845,7 +845,7 @@ JS_NewObjectForConstructor
 cx
 &
 pm_class
-vp
+args
 )
 )
 ;

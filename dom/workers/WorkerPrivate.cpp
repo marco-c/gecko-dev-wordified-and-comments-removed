@@ -1697,11 +1697,8 @@ height
 JS_ReadTypedArray
 (
 aReader
+&
 dataArray
-.
-address
-(
-)
 )
 )
 {

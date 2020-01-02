@@ -2569,11 +2569,8 @@ if
 JS_WrapId
 (
 cx
+&
 id
-.
-address
-(
-)
 )
 )
 return
