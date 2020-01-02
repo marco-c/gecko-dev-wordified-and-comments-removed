@@ -100,9 +100,6 @@ DIRS
 '
 lib
 '
-'
-scriptaculous
-'
 ]
 MOCHITEST_MANIFESTS
 +
@@ -140,6 +137,13 @@ ini
 '
 '
 prototype
+/
+mochitest
+.
+ini
+'
+'
+scriptaculous
 /
 mochitest
 .
