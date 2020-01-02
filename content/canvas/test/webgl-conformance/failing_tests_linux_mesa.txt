@@ -13,6 +13,17 @@ maps
 html
 conformance
 /
+extensions
+/
+oes
+-
+texture
+-
+float
+.
+html
+conformance
+/
 glsl
 /
 functions

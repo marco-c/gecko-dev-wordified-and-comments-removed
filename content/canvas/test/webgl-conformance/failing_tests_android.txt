@@ -4,6 +4,17 @@ extensions
 /
 oes
 -
+texture
+-
+float
+.
+html
+conformance
+/
+extensions
+/
+oes
+-
 vertex
 -
 array
