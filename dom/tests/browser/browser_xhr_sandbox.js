@@ -311,6 +311,12 @@ happy
 "
 )
 ;
+frame
+.
+remove
+(
+)
+;
 finish
 (
 )
