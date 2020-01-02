@@ -170,11 +170,6 @@ TestColorNames
 .
 cpp
 '
-'
-TestTextures
-.
-cpp
-'
 ]
 #
 Because
