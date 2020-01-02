@@ -1054,6 +1054,7 @@ SplayTreeNode
 SplayInt
 >
 {
+explicit
 SplayInt
 (
 int

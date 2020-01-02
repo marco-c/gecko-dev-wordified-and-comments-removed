@@ -516,6 +516,7 @@ SelfReferencingWeakPtr
 )
 ;
 }
+MOZ_IMPLICIT
 WeakPtr
 (
 T

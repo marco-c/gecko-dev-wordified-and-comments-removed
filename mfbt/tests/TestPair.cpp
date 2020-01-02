@@ -311,6 +311,7 @@ long
 struct
 EmptyClass
 {
+explicit
 EmptyClass
 (
 int
@@ -325,6 +326,7 @@ NonEmpty
 char
 mC
 ;
+explicit
 NonEmpty
 (
 int
@@ -371,6 +373,7 @@ A
 char
 dummy
 ;
+explicit
 A
 (
 int
@@ -384,6 +387,7 @@ B
 :
 A
 {
+explicit
 B
 (
 int
@@ -427,6 +431,7 @@ OtherEmpty
 :
 EmptyClass
 {
+explicit
 OtherEmpty
 (
 int
