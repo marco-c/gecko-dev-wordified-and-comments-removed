@@ -198,6 +198,13 @@ GfxTexturesReporter
 h
 "
 #
+include
+"
+GLBlitTextureImageHelper
+.
+h
+"
+#
 ifdef
 XP_MACOSX
 #
@@ -2320,6 +2327,11 @@ type
 )
 ;
 mGL
+-
+>
+BlitTextureImageHelper
+(
+)
 -
 >
 BlitTextureImage

@@ -252,6 +252,11 @@ GfxTexturesReporter
 h
 '
 '
+GLBlitTextureImageHelper
+.
+h
+'
+'
 GLConsts
 .
 h
@@ -689,6 +694,11 @@ cpp
 '
 '
 GLBlitHelper
+.
+cpp
+'
+'
+GLBlitTextureImageHelper
 .
 cpp
 '
