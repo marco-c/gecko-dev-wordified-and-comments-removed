@@ -183,7 +183,7 @@ ToastNotificationHandler
 {
 }
 ;
-void
+bool
 DisplayNotification
 (
 HSTRING
@@ -202,7 +202,7 @@ nsAString
 aAppId
 )
 ;
-void
+bool
 DisplayTextNotification
 (
 HSTRING
@@ -252,7 +252,7 @@ IToastNotificationManagerStatics
 >
 mToastNotificationManagerStatics
 ;
-void
+bool
 CreateWindowsNotificationFromXml
 (
 IXmlDocument
