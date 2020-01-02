@@ -9395,8 +9395,23 @@ v
 )
 {
     
+/
+/
+XXX
+Assertion
+disabled
+for
+now
+see
+bug
+991271
+.
+    
 MOZ_ASSERT
 (
+true
+|
+|
 JS_IsExceptionPending
 (
 aCx
@@ -34272,6 +34287,9 @@ failed
 "
 MOZ_ASSERT
 (
+true
+|
+|
 JS_IsExceptionPending
 (
 cx
@@ -84174,8 +84192,23 @@ wrappedVal
 )
 {
   
+/
+/
+XXX
+Assertion
+disabled
+for
+now
+see
+bug
+991271
+.
+  
 MOZ_ASSERT
 (
+true
+|
+|
 JS_IsExceptionPending
 (
 cx
