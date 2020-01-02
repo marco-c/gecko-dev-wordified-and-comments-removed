@@ -352,6 +352,11 @@ method
 exn
 exn
 .
+moduleStack
+|
+|
+exn
+.
 stack
 |
 |
