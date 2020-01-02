@@ -11120,7 +11120,7 @@ current
 )
 )
 return
-ControlStatus_Error
+false
 ;
 }
 edge
@@ -11193,7 +11193,7 @@ block
 )
 )
 return
-ControlStatus_Error
+false
 ;
 edge
 =
@@ -11460,6 +11460,9 @@ successor
 )
 )
 ;
+if
+(
+!
 successor
 -
 >
@@ -11470,6 +11473,9 @@ alloc
 )
 current
 )
+)
+return
+ControlStatus_Error
 ;
 }
 graph
@@ -11746,6 +11752,9 @@ successor
 )
 )
 ;
+if
+(
+!
 successor
 -
 >
@@ -11756,6 +11765,9 @@ alloc
 )
 current
 )
+)
+return
+ControlStatus_Error
 ;
 }
 pc
@@ -12678,6 +12690,10 @@ if
 (
 breaks
 )
+{
+if
+(
+!
 successor
 -
 >
@@ -12688,7 +12704,11 @@ alloc
 )
 current
 )
+)
+return
+ControlStatus_Error
 ;
+}
 }
 pc
 =
@@ -14513,6 +14533,9 @@ defaultcase
 )
 )
 ;
+if
+(
+!
 defaultcase
 -
 >
@@ -14523,6 +14546,9 @@ alloc
 )
 caseblock
 )
+)
+return
+ControlStatus_Error
 ;
 }
 tableswitch
@@ -16606,6 +16632,9 @@ nextBody
 )
 )
 ;
+if
+(
+!
 nextBody
 -
 >
@@ -16616,6 +16645,9 @@ alloc
 )
 current
 )
+)
+return
+ControlStatus_Error
 ;
 }
 setCurrentAndSpecializePhis
@@ -29700,6 +29732,9 @@ preheader
 )
 )
 ;
+if
+(
+!
 preheader
 -
 >
@@ -29710,6 +29745,9 @@ alloc
 )
 osrBlock
 )
+)
+return
+nullptr
 ;
 graph
 (
