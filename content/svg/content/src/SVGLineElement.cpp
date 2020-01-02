@@ -492,6 +492,9 @@ SVGLineElement
 :
 BuildPath
 (
+PathBuilder
+*
+aBuilder
 )
 {
 RefPtr
@@ -500,6 +503,10 @@ PathBuilder
 >
 pathBuilder
 =
+aBuilder
+?
+aBuilder
+:
 CreatePathBuilder
 (
 )

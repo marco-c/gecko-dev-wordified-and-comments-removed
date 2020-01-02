@@ -240,6 +240,11 @@ Path
 >
 BuildPath
 (
+PathBuilder
+*
+aBuilder
+=
+nullptr
 )
 MOZ_OVERRIDE
 ;

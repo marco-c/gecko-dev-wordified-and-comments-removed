@@ -210,6 +210,11 @@ Path
 >
 BuildPath
 (
+PathBuilder
+*
+aBuilder
+=
+nullptr
 )
 =
 0

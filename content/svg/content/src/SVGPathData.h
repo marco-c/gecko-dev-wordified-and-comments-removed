@@ -151,6 +151,13 @@ typedef
 gfx
 :
 :
+PathBuilder
+PathBuilder
+;
+typedef
+gfx
+:
+:
 FillRule
 FillRule
 ;
@@ -415,8 +422,9 @@ Path
 >
 BuildPath
 (
-FillRule
-aFillRule
+PathBuilder
+*
+aBuilder
 uint8_t
 aCapStyle
 Float

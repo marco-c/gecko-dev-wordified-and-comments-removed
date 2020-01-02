@@ -599,6 +599,9 @@ nsSVGPolyElement
 :
 BuildPath
 (
+PathBuilder
+*
+aBuilder
 )
 {
 const
@@ -631,6 +634,10 @@ PathBuilder
 >
 pathBuilder
 =
+aBuilder
+?
+aBuilder
+:
 CreatePathBuilder
 (
 )

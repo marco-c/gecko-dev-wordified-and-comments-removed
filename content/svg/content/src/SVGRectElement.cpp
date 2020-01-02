@@ -688,6 +688,9 @@ SVGRectElement
 :
 BuildPath
 (
+PathBuilder
+*
+aBuilder
 )
 {
 float
@@ -739,6 +742,10 @@ PathBuilder
 >
 pathBuilder
 =
+aBuilder
+?
+aBuilder
+:
 CreatePathBuilder
 (
 )
