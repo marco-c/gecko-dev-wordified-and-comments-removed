@@ -18027,6 +18027,9 @@ aWidgetType
 )
 {
 case
+NS_THEME_WINDOW_TITLEBAR
+:
+case
 NS_THEME_TOOLBOX
 :
 case
