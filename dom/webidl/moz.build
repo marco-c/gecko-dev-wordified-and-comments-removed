@@ -1350,6 +1350,11 @@ MozPowerManager
 webidl
 '
 '
+MozSelfSupport
+.
+webidl
+'
+'
 MozTimeManager
 .
 webidl
