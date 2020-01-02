@@ -765,6 +765,14 @@ clasp
 )
 ;
 bool
+IsTypedObjectArray
+(
+JSObject
+&
+obj
+)
+;
+bool
 InitializeCommonTypeDescriptorProperties
 (
 JSContext
