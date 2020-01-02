@@ -15793,19 +15793,6 @@ IsOS
 )
 )
 {
-if
-(
-!
-aVisitor
-.
-mEvent
--
->
-mFlags
-.
-mDefaultPreventedByContent
-)
-{
 StepNumberControlForUserEvent
 (
 keyEvent
@@ -15828,7 +15815,6 @@ mEventStatus
 =
 nsEventStatus_eConsumeNoDefault
 ;
-}
 }
 else
 if
