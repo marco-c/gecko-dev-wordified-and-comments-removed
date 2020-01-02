@@ -66,6 +66,13 @@ h
 #
 include
 "
+nsIDOMElement
+.
+h
+"
+#
+include
+"
 nsXULAppAPI
 .
 h
