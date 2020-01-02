@@ -7052,7 +7052,7 @@ ELEMENT_NODE
 ;
 nsCOMPtr
 <
-nsIContent
+Element
 >
 container
 ;
