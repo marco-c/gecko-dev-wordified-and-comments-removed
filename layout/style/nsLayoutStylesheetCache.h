@@ -167,6 +167,13 @@ MathMLSheet
 )
 ;
 static
+nsCSSStyleSheet
+*
+CounterStylesSheet
+(
+)
+;
+static
 void
 Shutdown
 (
@@ -335,6 +342,12 @@ nsRefPtr
 nsCSSStyleSheet
 >
 mMathMLSheet
+;
+nsRefPtr
+<
+nsCSSStyleSheet
+>
+mCounterStylesSheet
 ;
 }
 ;
