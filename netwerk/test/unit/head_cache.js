@@ -572,6 +572,7 @@ function
 syncWithCacheIOThread
 (
 callback
+force
 )
 {
 if
@@ -580,6 +581,9 @@ if
 newCacheBackEndUsed
 (
 )
+|
+|
+force
 )
 {
 asyncOpenCacheEntry
