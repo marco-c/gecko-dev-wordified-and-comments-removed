@@ -337,7 +337,7 @@ defined
 JS_CPU_X86
 )
 static
-JS_NEVER_INLINE
+MOZ_NEVER_INLINE
 bool
 #
 else
@@ -384,7 +384,7 @@ defined
 JS_CPU_X86
 )
 static
-JS_NEVER_INLINE
+MOZ_NEVER_INLINE
 bool
 #
 else
@@ -1772,7 +1772,7 @@ nullptr
 ;
 }
 static
-JS_NEVER_INLINE
+MOZ_NEVER_INLINE
 bool
 Interpret
 (
@@ -7055,7 +7055,7 @@ strict
 ;
 }
 static
-JS_NEVER_INLINE
+MOZ_NEVER_INLINE
 bool
 Interpret
 (

@@ -1525,7 +1525,7 @@ end
 ;
 }
 static
-JS_NEVER_INLINE
+MOZ_NEVER_INLINE
 void
 MarkConservativeStackRoots
 (
@@ -1867,7 +1867,7 @@ end
 #
 endif
 }
-JS_NEVER_INLINE
+MOZ_NEVER_INLINE
 void
 ConservativeGCData
 :

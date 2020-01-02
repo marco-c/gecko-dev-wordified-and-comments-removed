@@ -305,7 +305,7 @@ return
 true
 ;
 }
-JS_NEVER_INLINE
+MOZ_NEVER_INLINE
 bool
 switchAndAdd
 (

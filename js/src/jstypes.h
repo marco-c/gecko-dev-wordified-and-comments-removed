@@ -258,15 +258,6 @@ MOZ_ALWAYS_INLINE
 #
 endif
 #
-ifndef
-JS_NEVER_INLINE
-#
-define
-JS_NEVER_INLINE
-MOZ_NEVER_INLINE
-#
-endif
-#
 define
 JS_BEGIN_MACRO
 do
