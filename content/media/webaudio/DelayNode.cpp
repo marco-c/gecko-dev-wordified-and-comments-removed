@@ -841,10 +841,6 @@ ChannelInterpretation
 :
 Speakers
 )
-mMediaStreamGraphUpdateIndexAtLastInputConnection
-(
-0
-)
 mDelay
 (
 new

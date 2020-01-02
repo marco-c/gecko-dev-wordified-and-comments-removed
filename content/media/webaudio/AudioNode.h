@@ -576,13 +576,6 @@ AudioParam
 aParam
 )
 ;
-virtual
-void
-NotifyInputConnected
-(
-)
-{
-}
 void
 MarkActive
 (

@@ -700,10 +700,6 @@ ChannelInterpretation
 :
 Speakers
 )
-mMediaStreamGraphUpdateIndexAtLastInputConnection
-(
-0
-)
 mNormalize
 (
 true
