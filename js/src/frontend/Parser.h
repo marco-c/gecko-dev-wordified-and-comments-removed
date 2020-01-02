@@ -1320,9 +1320,6 @@ stringLiteral
 (
 )
 ;
-#
-ifdef
-JS_HAS_TEMPLATE_STRINGS
 Node
 noSubstitutionTemplate
 (
@@ -1359,8 +1356,6 @@ TokenKind
 tt
 )
 ;
-#
-endif
 inline
 Node
 newName

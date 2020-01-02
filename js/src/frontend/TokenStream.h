@@ -1433,9 +1433,6 @@ errorNumber
 .
 )
 ;
-#
-ifdef
-JS_HAS_TEMPLATE_STRINGS
 JSAtom
 *
 getRawTemplateStringAtom
@@ -1645,8 +1642,6 @@ length
 )
 ;
 }
-#
-endif
 private
 :
 bool
