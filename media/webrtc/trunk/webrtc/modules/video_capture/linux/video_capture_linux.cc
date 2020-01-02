@@ -64,12 +64,6 @@ h
 if
 defined
 (
-__DragonFly__
-)
-|
-|
-defined
-(
 __NetBSD__
 )
 |
