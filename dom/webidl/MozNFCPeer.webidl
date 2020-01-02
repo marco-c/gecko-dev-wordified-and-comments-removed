@@ -118,6 +118,9 @@ NFCPeer
 interface
 MozNFCPeer
 {
+[
+Throws
+]
 DOMRequest
 sendNDEF
 (
@@ -128,6 +131,9 @@ MozNDEFRecord
 records
 )
 ;
+[
+Throws
+]
 DOMRequest
 sendFile
 (
