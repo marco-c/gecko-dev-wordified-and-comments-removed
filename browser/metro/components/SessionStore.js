@@ -4491,6 +4491,19 @@ browser
 "
 )
 ;
+if
+(
+typeof
+data
+.
+selectedWindow
+=
+=
+"
+number
+"
+)
+{
 this
 .
 _selectedWindow
@@ -4499,6 +4512,7 @@ data
 .
 selectedWindow
 ;
+}
 let
 windowIndex
 =
