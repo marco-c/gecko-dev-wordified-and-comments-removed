@@ -525,6 +525,16 @@ return
 asmJSGlobalAccesses_
 ;
 }
+bool
+modifiesFrameArguments
+(
+)
+const
+{
+return
+modifiesFrameArguments_
+;
+}
 public
 :
 CompileCompartment
@@ -577,6 +587,9 @@ asmJSGlobalAccesses_
 ;
 uint32_t
 minAsmJSHeapLength_
+;
+bool
+modifiesFrameArguments_
 ;
 #
 if
