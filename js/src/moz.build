@@ -1072,11 +1072,6 @@ jsweakmap
 cpp
 '
 '
-jsworkers
-.
-cpp
-'
-'
 jswrapper
 .
 cpp
@@ -1167,6 +1162,13 @@ cpp
 vm
 /
 GlobalObject
+.
+cpp
+'
+'
+vm
+/
+HelperThreads
 .
 cpp
 '

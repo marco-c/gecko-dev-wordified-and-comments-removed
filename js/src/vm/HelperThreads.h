@@ -1,9 +1,9 @@
 #
 ifndef
-jsworkers_h
+vm_HelperThreads_h
 #
 define
-jsworkers_h
+vm_HelperThreads_h
 #
 include
 "
