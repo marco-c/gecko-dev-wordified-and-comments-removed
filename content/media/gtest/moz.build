@@ -130,6 +130,11 @@ TestVideoTrackEncoder
 .
 cpp
 '
+'
+TestVorbisTrackEncoder
+.
+cpp
+'
 ]
 EXPORT_LIBRARY
 =
