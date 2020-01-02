@@ -2176,6 +2176,9 @@ const
 ref
 =
 ref
+hasimplicitcopyctor
+=
+False
 )
 def
 _cxxFallibleArrayType
@@ -5714,6 +5717,20 @@ defaultValue
 self
 )
 :
+        
+if
+not
+self
+.
+bareType
+(
+)
+.
+hasimplicitcopyctor
+:
+            
+return
+None
         
 if
 self
@@ -33015,7 +33032,6 @@ tmpvar
 .
 name
 )
-                      
 init
 =
 c
@@ -33023,12 +33039,6 @@ c
 defaultValue
 (
 )
-if
-ct
-.
-ptr
-else
-None
 )
                     
 StmtExpr

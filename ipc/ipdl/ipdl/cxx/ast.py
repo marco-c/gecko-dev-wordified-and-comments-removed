@@ -1641,6 +1641,10 @@ ref
 =
 0
                  
+hasimplicitcopyctor
+=
+True
+                 
 T
 =
 None
@@ -1792,6 +1796,12 @@ self
 ref
 =
 ref
+        
+self
+.
+hasimplicitcopyctor
+=
+hasimplicitcopyctor
         
 self
 .
