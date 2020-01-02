@@ -475,24 +475,23 @@ SipccOfferOptions
 public
 :
 void
-setBooleanOption
+setInt32Option
 (
 const
 char
 *
 namePtr
-bool
+int32_t
 value
 )
 {
-cc_boolean_option_t
+auto
 &
 member
-(
+=
 getMember
 (
 namePtr
-)
 )
 ;
 member
@@ -510,7 +509,7 @@ value
 }
 private
 :
-cc_boolean_option_t
+cc_int32_option_t
 &
 getMember
 (
@@ -568,7 +567,7 @@ false
 return
 mOptions
 .
-moz_dont_offer_datachannel
+offer_to_receive_video
 ;
 }
 }
@@ -10633,7 +10632,7 @@ aoptions
 ;
 aoptions
 .
-setBooleanOption
+setInt32Option
 (
 "
 OfferToReceiveAudio
@@ -10643,7 +10642,7 @@ true
 ;
 aoptions
 .
-setBooleanOption
+setInt32Option
 (
 "
 OfferToReceiveVideo
@@ -12071,7 +12070,7 @@ options
 ;
 options
 .
-setBooleanOption
+setInt32Option
 (
 "
 OfferToReceiveAudio
@@ -12081,7 +12080,7 @@ true
 ;
 options
 .
-setBooleanOption
+setInt32Option
 (
 "
 OfferToReceiveVideo
@@ -12113,7 +12112,7 @@ options
 ;
 options
 .
-setBooleanOption
+setInt32Option
 (
 "
 OfferToReceiveAudio
@@ -12123,7 +12122,7 @@ true
 ;
 options
 .
-setBooleanOption
+setInt32Option
 (
 "
 OfferToReceiveVideo
@@ -12155,7 +12154,7 @@ options
 ;
 options
 .
-setBooleanOption
+setInt32Option
 (
 "
 OfferToReceiveAudio
@@ -12165,7 +12164,7 @@ true
 ;
 options
 .
-setBooleanOption
+setInt32Option
 (
 "
 OfferToReceiveVideo
@@ -12197,7 +12196,7 @@ options
 ;
 options
 .
-setBooleanOption
+setInt32Option
 (
 "
 OfferToReceiveAudio
@@ -12207,7 +12206,7 @@ false
 ;
 options
 .
-setBooleanOption
+setInt32Option
 (
 "
 OfferToReceiveVideo
@@ -12239,7 +12238,7 @@ options
 ;
 options
 .
-setBooleanOption
+setInt32Option
 (
 "
 OfferToReceiveAudio
@@ -12249,7 +12248,7 @@ false
 ;
 options
 .
-setBooleanOption
+setInt32Option
 (
 "
 OfferToReceiveVideo
@@ -12281,7 +12280,7 @@ options
 ;
 options
 .
-setBooleanOption
+setInt32Option
 (
 "
 OfferToReceiveAudio
@@ -12291,7 +12290,7 @@ true
 ;
 options
 .
-setBooleanOption
+setInt32Option
 (
 "
 OfferToReceiveVideo
@@ -12323,7 +12322,7 @@ options
 ;
 options
 .
-setBooleanOption
+setInt32Option
 (
 "
 OfferToReceiveAudio
@@ -12333,7 +12332,7 @@ true
 ;
 options
 .
-setBooleanOption
+setInt32Option
 (
 "
 OfferToReceiveVideo
@@ -12368,7 +12367,7 @@ options
 ;
 options
 .
-setBooleanOption
+setInt32Option
 (
 "
 OfferToReceiveAudio
@@ -12378,7 +12377,7 @@ false
 ;
 options
 .
-setBooleanOption
+setInt32Option
 (
 "
 OfferToReceiveVideo
@@ -12411,7 +12410,7 @@ options
 ;
 options
 .
-setBooleanOption
+setInt32Option
 (
 "
 OfferToReceiveAudio
@@ -12421,7 +12420,7 @@ true
 ;
 options
 .
-setBooleanOption
+setInt32Option
 (
 "
 OfferToReceiveVideo
@@ -12478,7 +12477,7 @@ options
 ;
 options
 .
-setBooleanOption
+setInt32Option
 (
 "
 OfferToReceiveAudio
@@ -12488,7 +12487,7 @@ false
 ;
 options
 .
-setBooleanOption
+setInt32Option
 (
 "
 OfferToReceiveVideo
@@ -12526,7 +12525,7 @@ options
 ;
 options
 .
-setBooleanOption
+setInt32Option
 (
 "
 OfferToReceiveAudio
@@ -12536,7 +12535,7 @@ true
 ;
 options
 .
-setBooleanOption
+setInt32Option
 (
 "
 OfferToReceiveVideo
@@ -12574,7 +12573,7 @@ options
 ;
 options
 .
-setBooleanOption
+setInt32Option
 (
 "
 OfferToReceiveAudio
@@ -12584,7 +12583,7 @@ true
 ;
 options
 .
-setBooleanOption
+setInt32Option
 (
 "
 OfferToReceiveVideo
@@ -12620,7 +12619,7 @@ options
 ;
 options
 .
-setBooleanOption
+setInt32Option
 (
 "
 OfferToReceiveAudio
@@ -12630,7 +12629,7 @@ true
 ;
 options
 .
-setBooleanOption
+setInt32Option
 (
 "
 OfferToReceiveVideo
@@ -12666,7 +12665,7 @@ options
 ;
 options
 .
-setBooleanOption
+setInt32Option
 (
 "
 OfferToReceiveAudio
@@ -12676,7 +12675,7 @@ true
 ;
 options
 .
-setBooleanOption
+setInt32Option
 (
 "
 OfferToReceiveVideo
@@ -12714,7 +12713,7 @@ options
 ;
 options
 .
-setBooleanOption
+setInt32Option
 (
 "
 OfferToReceiveAudio
@@ -12724,7 +12723,7 @@ false
 ;
 options
 .
-setBooleanOption
+setInt32Option
 (
 "
 OfferToReceiveVideo
@@ -12762,7 +12761,7 @@ options
 ;
 options
 .
-setBooleanOption
+setInt32Option
 (
 "
 OfferToReceiveAudio
@@ -12772,7 +12771,7 @@ true
 ;
 options
 .
-setBooleanOption
+setInt32Option
 (
 "
 OfferToReceiveVideo
@@ -12810,7 +12809,7 @@ options
 ;
 options
 .
-setBooleanOption
+setInt32Option
 (
 "
 OfferToReceiveAudio
@@ -12820,7 +12819,7 @@ true
 ;
 options
 .
-setBooleanOption
+setInt32Option
 (
 "
 OfferToReceiveVideo
@@ -12858,7 +12857,7 @@ options
 ;
 options
 .
-setBooleanOption
+setInt32Option
 (
 "
 OfferToReceiveAudio
@@ -12868,7 +12867,7 @@ true
 ;
 options
 .
-setBooleanOption
+setInt32Option
 (
 "
 OfferToReceiveVideo
@@ -12904,7 +12903,7 @@ options
 ;
 options
 .
-setBooleanOption
+setInt32Option
 (
 "
 OfferToReceiveAudio
@@ -12914,7 +12913,7 @@ true
 ;
 options
 .
-setBooleanOption
+setInt32Option
 (
 "
 OfferToReceiveVideo
@@ -12950,7 +12949,7 @@ options
 ;
 options
 .
-setBooleanOption
+setInt32Option
 (
 "
 OfferToReceiveAudio
@@ -12960,7 +12959,7 @@ true
 ;
 options
 .
-setBooleanOption
+setInt32Option
 (
 "
 OfferToReceiveVideo
@@ -12994,7 +12993,7 @@ options
 ;
 options
 .
-setBooleanOption
+setInt32Option
 (
 "
 OfferToReceiveAudio
@@ -13004,7 +13003,7 @@ true
 ;
 options
 .
-setBooleanOption
+setInt32Option
 (
 "
 OfferToReceiveVideo
@@ -13040,7 +13039,7 @@ options
 ;
 options
 .
-setBooleanOption
+setInt32Option
 (
 "
 OfferToReceiveAudio
@@ -13050,7 +13049,7 @@ false
 ;
 options
 .
-setBooleanOption
+setInt32Option
 (
 "
 OfferToReceiveVideo
@@ -13084,7 +13083,7 @@ options
 ;
 options
 .
-setBooleanOption
+setInt32Option
 (
 "
 OfferToReceiveAudio
@@ -13094,7 +13093,7 @@ true
 ;
 options
 .
-setBooleanOption
+setInt32Option
 (
 "
 OfferToReceiveVideo
@@ -13132,7 +13131,7 @@ options
 ;
 options
 .
-setBooleanOption
+setInt32Option
 (
 "
 OfferToReceiveAudio
@@ -13142,7 +13141,7 @@ false
 ;
 options
 .
-setBooleanOption
+setInt32Option
 (
 "
 OfferToReceiveVideo
@@ -13234,7 +13233,7 @@ aoptions
 ;
 aoptions
 .
-setBooleanOption
+setInt32Option
 (
 "
 OfferToReceiveAudio
@@ -13244,7 +13243,7 @@ true
 ;
 aoptions
 .
-setBooleanOption
+setInt32Option
 (
 "
 OfferToReceiveVideo
@@ -13260,7 +13259,7 @@ boptions
 ;
 boptions
 .
-setBooleanOption
+setInt32Option
 (
 "
 OfferToReceiveAudio
@@ -13270,7 +13269,7 @@ true
 ;
 boptions
 .
-setBooleanOption
+setInt32Option
 (
 "
 OfferToReceiveVideo
@@ -13319,7 +13318,7 @@ options
 ;
 options
 .
-setBooleanOption
+setInt32Option
 (
 "
 OfferToReceiveAudio
@@ -13329,7 +13328,7 @@ true
 ;
 options
 .
-setBooleanOption
+setInt32Option
 (
 "
 OfferToReceiveVideo
@@ -13365,7 +13364,7 @@ options
 ;
 options
 .
-setBooleanOption
+setInt32Option
 (
 "
 OfferToReceiveAudio
@@ -13375,7 +13374,7 @@ true
 ;
 options
 .
-setBooleanOption
+setInt32Option
 (
 "
 OfferToReceiveVideo
@@ -13411,7 +13410,7 @@ options
 ;
 options
 .
-setBooleanOption
+setInt32Option
 (
 "
 OfferToReceiveAudio
@@ -13421,7 +13420,7 @@ true
 ;
 options
 .
-setBooleanOption
+setInt32Option
 (
 "
 OfferToReceiveVideo
@@ -13681,7 +13680,7 @@ answeroptions
 ;
 answeroptions
 .
-setBooleanOption
+setInt32Option
 (
 "
 offerToReceiveAudio
@@ -13691,7 +13690,7 @@ true
 ;
 answeroptions
 .
-setBooleanOption
+setInt32Option
 (
 "
 offerToReceiveVideo

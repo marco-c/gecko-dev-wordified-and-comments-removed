@@ -335,7 +335,7 @@ int32_t
 >
 &
 aSrc
-cc_boolean_option_t
+cc_int32_option_t
 *
 aDst
 )
@@ -361,8 +361,6 @@ aDst
 >
 value
 =
-!
-!
 aSrc
 .
 Value
