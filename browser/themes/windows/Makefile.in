@@ -229,9 +229,7 @@ preprocessor
 -
 -
 marker
-"
 %
-"
 -
 D
 TAB_SIDE
@@ -256,7 +254,8 @@ tab
 selected
 .
 svg
->
+-
+o
 tab
 -
 selected
@@ -273,9 +272,7 @@ preprocessor
 -
 -
 marker
-"
 %
-"
 -
 D
 TAB_SIDE
@@ -300,7 +297,8 @@ tab
 selected
 .
 svg
->
+-
+o
 tab
 -
 selected
@@ -324,9 +322,7 @@ preprocessor
 -
 -
 marker
-"
 %
-"
 -
 D
 TAB_SIDE
@@ -354,7 +350,8 @@ tab
 selected
 .
 svg
->
+-
+o
 tab
 -
 selected
@@ -373,9 +370,7 @@ preprocessor
 -
 -
 marker
-"
 %
-"
 -
 D
 TAB_SIDE
@@ -403,7 +398,8 @@ tab
 selected
 .
 svg
->
+-
+o
 tab
 -
 selected
