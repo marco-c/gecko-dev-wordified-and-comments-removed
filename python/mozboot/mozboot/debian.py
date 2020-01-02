@@ -110,6 +110,12 @@ dev
 '
         
 '
+libpulse
+-
+dev
+'
+        
+'
 libxt
 -
 dev
