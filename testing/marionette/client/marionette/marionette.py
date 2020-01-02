@@ -4215,6 +4215,10 @@ _send_message
 self
 command
 response_key
+=
+"
+ok
+"
 *
 *
 kwargs
@@ -4231,20 +4235,18 @@ command
 not
 in
 (
-'
+"
 newSession
-'
-'
+"
+"
 getStatus
-'
+"
 )
 :
             
 raise
 MarionetteException
 (
-message
-=
 "
 Please
 start
@@ -4256,9 +4258,9 @@ session
 message
 =
 {
-'
+"
 name
-'
+"
 :
 command
 }
@@ -4271,9 +4273,9 @@ session
             
 message
 [
-'
+"
 sessionId
-'
+"
 ]
 =
 self
@@ -4286,9 +4288,9 @@ kwargs
             
 message
 [
-'
+"
 parameters
-'
+"
 ]
 =
 kwargs
@@ -4311,6 +4313,8 @@ except
 socket
 .
 timeout
+as
+e
 :
             
 self
@@ -4336,21 +4340,21 @@ close
 raise
 TimeoutException
 (
-message
-=
-'
-socket
-.
-timeout
-'
+                
+"
+Connection
+timed
+out
+"
 status
 =
 ErrorCodes
 .
 TIMEOUT
-stacktrace
+                
+cause
 =
-None
+e
 )
         
 while
@@ -4374,27 +4378,6 @@ response
 )
         
 if
-(
-response_key
-=
-=
-'
-ok
-'
-and
-response
-.
-get
-(
-'
-ok
-'
-)
-=
-=
-True
-)
-or
 response_key
 in
 response
@@ -4406,9 +4389,6 @@ response
 response_key
 ]
         
-else
-:
-            
 self
 .
 _handle_error
@@ -4448,8 +4428,7 @@ emulator
 raise
 MarionetteException
 (
-message
-=
+                
 "
 No
 emulator
@@ -4458,12 +4437,8 @@ this
 test
 to
 run
-"
-                                      
-"
 command
 against
-.
 "
 )
         
@@ -5293,22 +5268,21 @@ None
 )
 :
         
-'
-'
-'
-        
-Creates
+"
+"
+"
+Create
 a
 new
 Marionette
 session
 .
         
-You
-must
-call
-this
+This
 method
+must
+be
+called
 before
 performing
 any
@@ -5316,9 +5290,38 @@ other
 action
 .
         
-'
-'
-'
+:
+params
+desired_capabilities
+:
+An
+optional
+dict
+of
+desired
+            
+capabilities
+.
+This
+is
+currently
+ignored
+.
+        
+:
+returns
+:
+A
+dict
+of
+the
+capabilities
+offered
+.
+        
+"
+"
+"
         
 try
 :

@@ -11785,14 +11785,8 @@ newSession
 {
 this
 .
-sendResponse
+getSessionCapabilities
 (
-reg
-.
-id
-this
-.
-newSessionCommandId
 )
 ;
 this
