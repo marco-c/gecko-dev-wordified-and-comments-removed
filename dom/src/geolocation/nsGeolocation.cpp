@@ -2601,7 +2601,7 @@ ifdef
 MOZ_WIDGET_GONK
 mProvider
 =
-do_CreateInstance
+do_GetService
 (
 GONK_GPS_GEOLOCATION_PROVIDER_CONTRACTID
 )
