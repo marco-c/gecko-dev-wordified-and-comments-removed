@@ -359,6 +359,11 @@ URL
 .
 h
 '
+'
+URLSearchParams
+.
+h
+'
 ]
 UNIFIED_SOURCES
 +
@@ -521,6 +526,11 @@ cpp
 '
 '
 URL
+.
+cpp
+'
+'
+URLSearchParams
 .
 cpp
 '
