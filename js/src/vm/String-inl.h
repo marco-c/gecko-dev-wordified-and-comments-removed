@@ -2586,7 +2586,7 @@ jschar
 *
 >
 (
-nonInlineChars
+rawTwoByteChars
 (
 )
 )
