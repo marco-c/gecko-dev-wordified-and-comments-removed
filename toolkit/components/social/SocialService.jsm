@@ -3944,10 +3944,12 @@ manifest
 installCallback
 )
 ;
-installer
+this
 .
-install
+_showInstallNotification
 (
+aDOMDocument
+installer
 )
 ;
 break
