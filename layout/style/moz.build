@@ -251,11 +251,6 @@ nsICSSPseudoComparator
 h
 '
 '
-nsICSSRuleList
-.
-h
-'
-'
 nsICSSStyleRuleDOMWrapper
 .
 h
@@ -387,6 +382,11 @@ CSS
 h
 '
 '
+CSSRuleList
+.
+h
+'
+'
 CSSValue
 .
 h
@@ -462,6 +462,11 @@ cpp
 '
 '
 CSS
+.
+cpp
+'
+'
+CSSRuleList
 .
 cpp
 '
@@ -602,11 +607,6 @@ cpp
 '
 '
 nsHTMLStyleSheet
-.
-cpp
-'
-'
-nsICSSRuleList
 .
 cpp
 '

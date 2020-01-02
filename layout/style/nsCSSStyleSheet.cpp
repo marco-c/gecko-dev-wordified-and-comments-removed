@@ -146,7 +146,11 @@ h
 #
 include
 "
-nsICSSRuleList
+mozilla
+/
+dom
+/
+CSSRuleList
 .
 h
 "
@@ -301,7 +305,7 @@ class
 CSSRuleListImpl
 :
 public
-nsICSSRuleList
+CSSRuleList
 {
 public
 :
@@ -8202,7 +8206,7 @@ ErrorCode
 )
 ;
 }
-nsICSSRuleList
+CSSRuleList
 *
 nsCSSStyleSheet
 :

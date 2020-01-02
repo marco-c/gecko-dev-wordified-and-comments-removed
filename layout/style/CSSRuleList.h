@@ -1,9 +1,9 @@
 #
 ifndef
-nsICSSRuleList_h
+mozilla_dom_CSSRuleList_h
 #
 define
-nsICSSRuleList_h
+mozilla_dom_CSSRuleList_h
 #
 include
 "
@@ -28,6 +28,12 @@ h
 class
 nsCSSStyleSheet
 ;
+namespace
+mozilla
+{
+namespace
+dom
+{
 #
 define
 NS_ICSSRULELIST_IID
@@ -49,7 +55,7 @@ NS_ICSSRULELIST_IID
 }
 }
 class
-nsICSSRuleList
+CSSRuleList
 :
 public
 nsIDOMCSSRuleList
@@ -58,7 +64,7 @@ nsWrapperCache
 {
 public
 :
-nsICSSRuleList
+CSSRuleList
 (
 )
 {
@@ -69,7 +75,7 @@ SetIsDOMBinding
 }
 virtual
 ~
-nsICSSRuleList
+CSSRuleList
 (
 )
 {
@@ -81,7 +87,7 @@ NS_ICSSRULELIST_IID
 NS_DECL_CYCLE_COLLECTING_ISUPPORTS
 NS_DECL_CYCLE_COLLECTION_SCRIPT_HOLDER_CLASS
 (
-nsICSSRuleList
+CSSRuleList
 )
 virtual
 nsCSSStyleSheet
@@ -198,8 +204,10 @@ Length
 ;
 NS_DEFINE_STATIC_IID_ACCESSOR
 (
-nsICSSRuleList
+CSSRuleList
 NS_ICSSRULELIST_IID
 )
+}
+}
 #
 endif

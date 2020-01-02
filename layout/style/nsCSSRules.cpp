@@ -104,7 +104,11 @@ h
 #
 include
 "
-nsICSSRuleList
+mozilla
+/
+dom
+/
+CSSRuleList
 .
 h
 "
@@ -545,7 +549,10 @@ GroupRuleRuleList
 MOZ_FINAL
 :
 public
-nsICSSRuleList
+dom
+:
+:
+CSSRuleList
 {
 public
 :
