@@ -136,12 +136,6 @@ mTransformToDisplayInverse
 (
 false
 )
-mSurfaceDescriptor
-(
-SurfaceDescriptor
-(
-)
-)
 {
 mCrop
 .

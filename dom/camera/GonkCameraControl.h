@@ -93,7 +93,7 @@ namespace
 layers
 {
 class
-GraphicBufferLocked
+TextureClient
 ;
 class
 ImageContainer
@@ -147,7 +147,7 @@ OnNewPreviewFrame
 layers
 :
 :
-GraphicBufferLocked
+TextureClient
 *
 aBuffer
 )
@@ -852,7 +852,7 @@ gc
 layers
 :
 :
-GraphicBufferLocked
+TextureClient
 *
 aBuffer
 )

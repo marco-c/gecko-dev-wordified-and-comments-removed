@@ -6331,7 +6331,7 @@ OnNewPreviewFrame
 layers
 :
 :
-GraphicBufferLocked
+TextureClient
 *
 aBuffer
 )
@@ -6380,17 +6380,7 @@ data
 .
 mGraphicBuffer
 =
-static_cast
-<
-layers
-:
-:
-GraphicBufferLocked
-*
->
-(
 aBuffer
-)
 ;
 data
 .
@@ -6560,7 +6550,7 @@ gc
 layers
 :
 :
-GraphicBufferLocked
+TextureClient
 *
 aBuffer
 )
