@@ -61,6 +61,9 @@ char
 Latin1Char
 ;
 class
+Symbol
+;
+class
 Value
 ;
 template
