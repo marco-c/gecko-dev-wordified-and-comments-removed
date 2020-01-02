@@ -128,15 +128,6 @@ srcdir
 libEGL
 .
 def
-RCFILE
-=
-(
-srcdir
-)
-/
-libEGL
-.
-rc
 include
 (
 topsrcdir

@@ -75,16 +75,6 @@ sqlite
 processed
 .
 def
-RCFILE
-=
-sqlite
-.
-rc
-RESFILE
-=
-sqlite
-.
-res
 GARBAGE
 +
 =

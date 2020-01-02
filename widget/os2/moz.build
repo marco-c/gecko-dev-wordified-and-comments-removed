@@ -237,3 +237,10 @@ CONFIG
 MOZ_APP_DISPLAYNAME
 '
 ]
+RESFILE
+=
+'
+widget
+.
+res
+'
