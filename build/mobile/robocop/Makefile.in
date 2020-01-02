@@ -192,6 +192,10 @@ PaintedSurface
 .
 java
 \
+StructuredLogger
+.
+java
+\
 (
 NULL
 )
