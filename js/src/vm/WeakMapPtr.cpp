@@ -221,13 +221,6 @@ removeWeakMapFromList
 map
 )
 ;
-map
--
->
-check
-(
-)
-;
 js_delete
 (
 map
