@@ -1093,7 +1093,7 @@ RandomInteger
 size_t
 >
 (
-1
+0
 maxBufferSize
 )
 ;
