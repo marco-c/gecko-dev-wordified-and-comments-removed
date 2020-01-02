@@ -359,6 +359,15 @@ m_refCount
 0
 )
 ;
+JS_ASSERT_IF
+(
+willDestroy
+m_refCount
+=
+=
+1
+)
+;
 if
 (
 -
