@@ -87,7 +87,7 @@ final
 boolean
 DEFAULT_TO_FXA
 =
-false
+true
 ;
 private
 Context
