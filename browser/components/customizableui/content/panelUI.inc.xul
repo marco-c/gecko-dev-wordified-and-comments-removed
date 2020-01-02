@@ -346,8 +346,6 @@ PanelUI
 showHelpView
 (
 this
-.
-parentNode
 )
 ;
 "
