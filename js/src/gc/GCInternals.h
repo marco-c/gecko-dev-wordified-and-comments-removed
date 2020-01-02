@@ -420,10 +420,13 @@ rt
 gcVerifyPostData
 &
 &
+JS
+:
+:
+IsGenerationalGCEnabled
+(
 rt
--
->
-gcGenerationalEnabled
+)
 ;
 if
 (

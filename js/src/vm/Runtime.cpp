@@ -944,9 +944,9 @@ gcIncrementalEnabled
 (
 true
 )
-gcGenerationalEnabled
+gcGenerationalDisabled
 (
-true
+0
 )
 gcManipulatingDeadZones
 (

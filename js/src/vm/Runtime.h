@@ -3908,8 +3908,8 @@ gcSliceBudget
 bool
 gcIncrementalEnabled
 ;
-bool
-gcGenerationalEnabled
+unsigned
+gcGenerationalDisabled
 ;
 bool
 gcManipulatingDeadZones
