@@ -612,6 +612,14 @@ UInt32
 aNativeKeyCode
 )
 ;
+static
+CodeNameIndex
+ComputeGeckoCodeNameIndex
+(
+UInt32
+aNativeKeyCode
+)
+;
 protected
 :
 bool
