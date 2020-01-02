@@ -6942,7 +6942,6 @@ AddRef
 (
 )
 ;
-register
 Assertion
 *
 first
