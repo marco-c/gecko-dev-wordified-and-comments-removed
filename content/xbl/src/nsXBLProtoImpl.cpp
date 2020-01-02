@@ -509,13 +509,6 @@ cx
 propertyHolder
 )
 ;
-JSAutoCompartment
-ac2
-(
-cx
-targetClassObject
-)
-;
 if
 (
 propertyHolder
@@ -635,6 +628,13 @@ NS_ERROR_UNEXPECTED
 }
 }
 }
+JSAutoCompartment
+ac2
+(
+cx
+targetClassObject
+)
+;
 for
 (
 nsXBLProtoImplField
