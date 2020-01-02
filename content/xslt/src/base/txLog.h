@@ -12,8 +12,6 @@ prlog
 h
 "
 #
-endif
-#
 ifdef
 PR_LOGGING
 class
@@ -92,5 +90,7 @@ TX_LG_IMPL
 #
 define
 TX_LG_CREATE
+#
+endif
 #
 endif
