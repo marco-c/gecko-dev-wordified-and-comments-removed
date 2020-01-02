@@ -1085,6 +1085,7 @@ i
 >
 CloseActive
 (
+true
 )
 ;
 }
@@ -2026,6 +2027,7 @@ i
 >
 CloseActive
 (
+true
 )
 ;
 mPlugins

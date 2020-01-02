@@ -186,6 +186,8 @@ CloseIfUnused
 void
 CloseActive
 (
+bool
+aDieWhenUnloaded
 )
 ;
 void
@@ -450,6 +452,9 @@ mCapabilities
 GMPProcessParent
 *
 mProcess
+;
+bool
+mDeleteProcessOnUnload
 ;
 nsTArray
 <
