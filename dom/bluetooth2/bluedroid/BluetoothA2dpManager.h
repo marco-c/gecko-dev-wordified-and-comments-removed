@@ -96,6 +96,16 @@ BluetoothA2dpManager
 )
 ;
 void
+OnConnectError
+(
+)
+;
+void
+OnDisconnectError
+(
+)
+;
+void
 HandleSinkPropertyChanged
 (
 const
