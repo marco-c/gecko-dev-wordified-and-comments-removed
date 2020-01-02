@@ -133,9 +133,6 @@ nsString
 number
 ;
 bool
-isActive
-;
-bool
 isOutGoing
 ;
 bool

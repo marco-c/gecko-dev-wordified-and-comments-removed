@@ -1319,8 +1319,6 @@ nsAString
 &
 aNumber
 bool
-aIsActive
-bool
 aIsOutgoing
 bool
 aIsEmergency
@@ -1364,7 +1362,6 @@ aClientId
 aCallIndex
 aCallState
 aNumber
-aIsActive
 aIsOutgoing
 aIsEmergency
 aIsConference
@@ -1459,8 +1456,6 @@ const
 nsAString
 &
 aNumber
-bool
-aIsActive
 bool
 aIsOutgoing
 bool

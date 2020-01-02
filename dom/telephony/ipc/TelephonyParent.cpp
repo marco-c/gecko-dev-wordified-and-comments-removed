@@ -996,8 +996,6 @@ nsAString
 &
 aNumber
 bool
-aIsActive
-bool
 aIsOutgoing
 bool
 aIsEmergency
@@ -1025,7 +1023,6 @@ nsString
 (
 aNumber
 )
-aIsActive
 aIsOutgoing
 aIsEmergency
 aIsConference
@@ -1109,8 +1106,6 @@ const
 nsAString
 &
 aNumber
-bool
-aIsActive
 bool
 aIsOutgoing
 bool
@@ -1474,8 +1469,6 @@ nsAString
 &
 aNumber
 bool
-aIsActive
-bool
 aIsOutgoing
 bool
 aIsEmergency
@@ -1565,8 +1558,6 @@ nsAString
 &
 aNumber
 bool
-aIsActive
-bool
 aIsOutgoing
 bool
 aIsEmergency
@@ -1594,7 +1585,6 @@ nsString
 (
 aNumber
 )
-aIsActive
 aIsOutgoing
 aIsEmergency
 aIsConference

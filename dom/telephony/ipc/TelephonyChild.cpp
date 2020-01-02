@@ -201,11 +201,6 @@ number
 )
 aData
 .
-isActive
-(
-)
-aData
-.
 isOutGoing
 (
 )
@@ -513,11 +508,6 @@ callState
 aData
 .
 number
-(
-)
-aData
-.
-isActive
 (
 )
 aData
