@@ -3727,9 +3727,13 @@ contentWindow
 r
 .
 width
+/
+zoom
 r
 .
 height
+/
+zoom
 "
 white
 "
