@@ -3347,10 +3347,10 @@ aPrefs
 >
 SetCapacity
 (
-PL_DHASH_TABLE_CAPACITY
-(
-&
 gHashTable
+.
+Capacity
+(
 )
 )
 ;
@@ -4319,7 +4319,9 @@ char
 [
 gHashTable
 .
-entryCount
+EntryCount
+(
+)
 ]
 )
 ;
@@ -4329,7 +4331,9 @@ valueArray
 0
 gHashTable
 .
-entryCount
+EntryCount
+(
+)
 *
 sizeof
 (
@@ -4367,7 +4371,9 @@ NS_QuickSort
 valueArray
 gHashTable
 .
-entryCount
+EntryCount
+(
+)
 sizeof
 (
 char
@@ -4411,7 +4417,9 @@ valueIdx
 <
 gHashTable
 .
-entryCount
+EntryCount
+(
+)
 ;
 valueIdx
 +

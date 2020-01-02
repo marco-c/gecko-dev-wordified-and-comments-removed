@@ -2224,7 +2224,9 @@ SetCapacity
 (
 mTable
 .
-entryCount
+EntryCount
+(
+)
 )
 ;
 uint32_t
@@ -2249,7 +2251,9 @@ n
 <
 mTable
 .
-entryCount
+EntryCount
+(
+)
 )
 {
 return

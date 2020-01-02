@@ -461,7 +461,9 @@ index
 <
 mNameTable
 .
-entryCount
+EntryCount
+(
+)
 ;
 index
 +
@@ -1061,7 +1063,9 @@ aIndex
 <
 mNameTable
 .
-entryCount
+EntryCount
+(
+)
 )
 )
 {

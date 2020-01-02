@@ -137,10 +137,6 @@ static
 struct
 PLDHashTable
 sAtomTable
-=
-{
-0
-}
 ;
 static
 struct

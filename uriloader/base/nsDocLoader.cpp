@@ -4949,7 +4949,9 @@ ops
 !
 mRequestInfoHash
 .
-entryCount
+EntryCount
+(
+)
 )
 {
 return

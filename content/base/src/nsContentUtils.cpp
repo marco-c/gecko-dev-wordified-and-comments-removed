@@ -8729,7 +8729,9 @@ NS_ASSERTION
 (
 sEventListenerManagersHash
 .
-entryCount
+EntryCount
+(
+)
 =
 =
 0
@@ -8750,7 +8752,9 @@ if
 (
 sEventListenerManagersHash
 .
-entryCount
+EntryCount
+(
+)
 =
 =
 0

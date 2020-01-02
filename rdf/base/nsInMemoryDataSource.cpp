@@ -5143,7 +5143,9 @@ hash
 mPropertyHash
 -
 >
-entryCount
+EntryCount
+(
+)
 )
 {
 root
@@ -6634,7 +6636,9 @@ SetCapacity
 (
 mForwardArcs
 .
-entryCount
+EntryCount
+(
+)
 )
 ;
 PL_DHashTableEnumerate
@@ -7774,7 +7778,9 @@ hash
 mPropertyHash
 -
 >
-entryCount
+EntryCount
+(
+)
 )
 {
 as

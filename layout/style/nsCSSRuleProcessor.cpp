@@ -11176,7 +11176,9 @@ cascade
 >
 mAnonBoxRules
 .
-entryCount
+EntryCount
+(
+)
 )
 {
 RuleHashTagTableEntry
@@ -11320,7 +11322,9 @@ cascade
 >
 mXULTreeRules
 .
-entryCount
+EntryCount
+(
+)
 )
 {
 RuleHashTagTableEntry
@@ -15612,7 +15616,9 @@ data
 .
 mRulesByWeight
 .
-entryCount
+EntryCount
+(
+)
 ;
 nsAutoArrayPtr
 <
