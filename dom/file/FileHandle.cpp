@@ -580,7 +580,6 @@ GetOwner
 (
 )
 lockedFile
-false
 )
 ;
 nsRefPtr
