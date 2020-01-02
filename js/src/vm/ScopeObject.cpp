@@ -783,9 +783,6 @@ HandleShape
 shape
 HandleTypeObject
 type
-HeapSlot
-*
-slots
 )
 {
 gc
@@ -867,7 +864,6 @@ kind
 heap
 shape
 type
-slots
 )
 ;
 if
