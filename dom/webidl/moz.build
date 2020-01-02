@@ -1360,11 +1360,6 @@ MozMobileMessageManager
 webidl
 '
 '
-MozNamedAttrMap
-.
-webidl
-'
-'
 MozPowerManager
 .
 webidl
@@ -1396,6 +1391,11 @@ webidl
 '
 '
 MutationObserver
+.
+webidl
+'
+'
+NamedNodeMap
 .
 webidl
 '
