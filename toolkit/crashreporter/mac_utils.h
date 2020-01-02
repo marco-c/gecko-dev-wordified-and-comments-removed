@@ -7,7 +7,7 @@ toolkit_breakpad_mac_utils_h__
 #
 include
 "
-nsStringGlue
+nsString
 .
 h
 "

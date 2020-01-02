@@ -45,7 +45,7 @@ endif
 #
 include
 "
-nsStringGlue
+nsString
 .
 h
 "

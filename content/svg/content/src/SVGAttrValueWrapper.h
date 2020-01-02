@@ -7,7 +7,7 @@ MOZILLA_SVGATTRVALUEWRAPPER_H__
 #
 include
 "
-nsStringGlue
+nsString
 .
 h
 "
