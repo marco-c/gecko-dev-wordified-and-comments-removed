@@ -352,3 +352,16 @@ load
 898939
 .
 html
+pref
+(
+security
+.
+fileuri
+.
+strict_origin_policy
+false
+)
+load
+938297
+.
+html
