@@ -110,8 +110,8 @@ asyncVisitStorage
 new
 VisitCallback
 (
-5
-60
+4
+4096
 [
 "
 http
@@ -143,14 +143,6 @@ http
 /
 /
 d
-/
-"
-"
-http
-:
-/
-/
-mem1
 /
 "
 ]
