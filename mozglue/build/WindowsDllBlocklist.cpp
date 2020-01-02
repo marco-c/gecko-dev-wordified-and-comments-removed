@@ -498,13 +498,7 @@ bitguard
 .
 dll
 "
-MAKE_VERSION
-(
-2
-6
-1694
-24
-)
+ALL_VERSIONS
 }
 {
 "
