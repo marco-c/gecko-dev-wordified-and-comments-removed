@@ -32,6 +32,13 @@ nsAutoPtr
 .
 h
 "
+#
+include
+"
+nsCxPusher
+.
+h
+"
 using
 namespace
 mozilla
@@ -216,8 +223,8 @@ mCx
 false
 )
 ;
-JSAutoRequest
-ar
+AutoCxPusher
+pusher
 (
 mCx
 )
