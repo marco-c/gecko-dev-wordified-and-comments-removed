@@ -536,7 +536,7 @@ URLSearchParamsBinding
 GetConstructorObject
 (
 aCx
-global
+aGlobal
 )
 |
 |

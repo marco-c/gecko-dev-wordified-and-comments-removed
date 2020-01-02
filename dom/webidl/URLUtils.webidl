@@ -249,8 +249,6 @@ attribute
 DOMString
 search
 ;
-/
-/
 attribute
 URLSearchParams
 ?
