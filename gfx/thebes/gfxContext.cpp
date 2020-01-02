@@ -11692,9 +11692,6 @@ CurrentMatrix
 HasNonTranslation
 (
 )
-|
-|
-mDT
 )
 {
 *
