@@ -285,14 +285,6 @@ attribute
 DOMString
 type
 ;
-/
-/
-Not
-supported
-yet
-:
-/
-/
 [
 PutForwards
 =

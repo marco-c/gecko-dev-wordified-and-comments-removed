@@ -14510,6 +14510,11 @@ nsGkAtoms
 :
 :
 sandbox
+&
+nsGkAtoms
+:
+:
+sizes
 nullptr
 }
 ;

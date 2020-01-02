@@ -7005,6 +7005,13 @@ size
 )
 GK_ATOM
 (
+sizes
+"
+sizes
+"
+)
+GK_ATOM
+(
 sizemode
 "
 sizemode
