@@ -4704,9 +4704,12 @@ AutoDisableProxyCheck
 {
 MOZ_DECL_USE_GUARD_OBJECT_NOTIFIER
 ;
-uintptr_t
+gc
+:
+:
+GCRuntime
 &
-count
+gc
 ;
 public
 :
@@ -4723,12 +4726,7 @@ MOZ_GUARD_OBJECT_NOTIFIER_PARAM
 AutoDisableProxyCheck
 (
 )
-{
-count
--
--
 ;
-}
 }
 ;
 #

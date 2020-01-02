@@ -216,7 +216,9 @@ rt
 >
 gc
 .
-number
+gcNumber
+(
+)
 )
 count
 (
@@ -1657,7 +1659,9 @@ rt
 >
 gc
 .
-number
+gcNumber
+(
+)
 )
 count
 (

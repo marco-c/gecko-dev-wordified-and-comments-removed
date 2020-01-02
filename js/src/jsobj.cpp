@@ -7637,7 +7637,7 @@ rt
 >
 gc
 .
-disableIncrementalGC
+disallowIncrementalGC
 (
 )
 ;
@@ -7649,6 +7649,8 @@ if
 rt
 -
 >
+gc
+.
 gcMode
 (
 )

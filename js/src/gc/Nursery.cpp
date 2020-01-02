@@ -1536,9 +1536,9 @@ rt
 >
 gc
 .
-number
-+
-+
+incGcNumber
+(
+)
 ;
 rt
 -

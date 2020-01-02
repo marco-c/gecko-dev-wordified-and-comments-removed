@@ -71,7 +71,9 @@ rt
 >
 gc
 .
-isFull
+isFullGc
+(
+)
 )
 ;
 CHECK
@@ -152,7 +154,9 @@ rt
 >
 gc
 .
-isFull
+isFullGc
+(
+)
 )
 ;
 CHECK
@@ -268,7 +272,9 @@ rt
 >
 gc
 .
-isFull
+isFullGc
+(
+)
 )
 ;
 CHECK
@@ -359,7 +365,9 @@ rt
 >
 gc
 .
-isFull
+isFullGc
+(
+)
 )
 ;
 CHECK
@@ -446,7 +454,9 @@ rt
 >
 gc
 .
-isFull
+isFullGc
+(
+)
 )
 ;
 CHECK
@@ -559,7 +569,9 @@ rt
 >
 gc
 .
-isFull
+isFullGc
+(
+)
 )
 ;
 CHECK
@@ -644,7 +656,9 @@ rt
 >
 gc
 .
-isFull
+isFullGc
+(
+)
 )
 ;
 JS
@@ -698,7 +712,9 @@ rt
 >
 gc
 .
-isFull
+isFullGc
+(
+)
 )
 ;
 CHECK

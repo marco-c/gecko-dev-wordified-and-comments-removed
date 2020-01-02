@@ -1005,11 +1005,6 @@ liveRuntimesCount
 +
 +
 ;
-setGCMode
-(
-JSGC_MODE_GLOBAL
-)
-;
 JS_INIT_CLIST
 (
 &
