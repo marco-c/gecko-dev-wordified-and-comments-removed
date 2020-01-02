@@ -18282,7 +18282,7 @@ aList
 AddSelector
 (
 '
->
+:
 '
 )
 ;

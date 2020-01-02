@@ -2577,7 +2577,7 @@ oper
 PRUnichar
 (
 '
->
+:
 '
 )
 "
