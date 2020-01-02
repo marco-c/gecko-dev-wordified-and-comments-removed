@@ -956,7 +956,7 @@ mObject
 ;
 mObject
 =
-NULL
+nullptr
 ;
 }
 void
@@ -1857,7 +1857,7 @@ CheckForException
 )
 )
 return
-NULL
+nullptr
 ;
 double
 longitude
@@ -1880,7 +1880,7 @@ CheckForException
 )
 )
 return
-NULL
+nullptr
 ;
 double
 altitude
@@ -1903,7 +1903,7 @@ CheckForException
 )
 )
 return
-NULL
+nullptr
 ;
 float
 accuracy
@@ -1926,7 +1926,7 @@ CheckForException
 )
 )
 return
-NULL
+nullptr
 ;
 float
 bearing
@@ -1949,7 +1949,7 @@ CheckForException
 )
 )
 return
-NULL
+nullptr
 ;
 float
 speed
@@ -1972,7 +1972,7 @@ CheckForException
 )
 )
 return
-NULL
+nullptr
 ;
 long
 long
@@ -1996,7 +1996,7 @@ CheckForException
 )
 )
 return
-NULL
+nullptr
 ;
 return
 new
@@ -3037,7 +3037,7 @@ jenv
 GetIntArrayElements
 (
 jIntArray
-NULL
+nullptr
 )
 ;
 for
@@ -3124,7 +3124,7 @@ jenv
 GetFloatArrayElements
 (
 jFloatArray
-NULL
+nullptr
 )
 ;
 for
@@ -8083,7 +8083,7 @@ jni
 GetStringChars
 (
 jstr
-NULL
+nullptr
 )
 ;
 if

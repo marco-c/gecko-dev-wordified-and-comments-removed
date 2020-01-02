@@ -3415,7 +3415,7 @@ jMessageQueueCls
 jNextMethod
 )
 return
-NULL
+nullptr
 ;
 if
 (
@@ -3441,7 +3441,7 @@ msg
 )
 {
 return
-NULL
+nullptr
 ;
 }
 }
@@ -3843,7 +3843,7 @@ Bridge
 >
 SetNativePanZoomController
 (
-NULL
+nullptr
 )
 ;
 if
@@ -4084,7 +4084,7 @@ sizeof
 char
 *
 )
-NULL
+nullptr
 0
 )
 ;
@@ -4112,7 +4112,7 @@ profiler_is_active
 )
 {
 return
-NULL
+nullptr
 ;
 }
 char
@@ -4149,7 +4149,7 @@ profiler_get_profile
 jstring
 result
 =
-NULL
+nullptr
 ;
 if
 (

@@ -956,7 +956,7 @@ JNIEnv
 *
 env
 =
-NULL
+nullptr
 )
 ;
 EGLSurface
@@ -2096,12 +2096,12 @@ JNIEnv
 *
 aJNIEnv
 =
-NULL
+nullptr
 )
 :
 mObject
 (
-NULL
+nullptr
 )
 {
 mJNIEnv
@@ -2304,7 +2304,7 @@ mJNIEnv
 >
 PopLocalFrame
 (
-NULL
+nullptr
 )
 ;
 Push
@@ -2385,7 +2385,7 @@ mJNIEnv
 >
 PopLocalFrame
 (
-NULL
+nullptr
 )
 ;
 }

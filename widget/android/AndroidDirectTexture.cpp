@@ -70,7 +70,7 @@ format
 )
 mPendingReallocBuffer
 (
-NULL
+nullptr
 )
 {
 mFrontBuffer
@@ -114,7 +114,7 @@ mFrontBuffer
 ;
 mFrontBuffer
 =
-NULL
+nullptr
 ;
 }
 if
@@ -127,7 +127,7 @@ mBackBuffer
 ;
 mBackBuffer
 =
-NULL
+nullptr
 ;
 }
 }
@@ -159,7 +159,7 @@ mFormat
 ;
 mPendingReallocBuffer
 =
-NULL
+nullptr
 ;
 }
 }

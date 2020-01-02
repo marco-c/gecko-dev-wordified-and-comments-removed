@@ -1025,9 +1025,9 @@ sLayerManager
 {
 SetCompositor
 (
-NULL
-NULL
-NULL
+nullptr
+nullptr
+nullptr
 )
 ;
 }
@@ -5642,7 +5642,7 @@ case
 NS_NATIVE_DISPLAY
 :
 return
-NULL
+nullptr
 ;
 case
 NS_NATIVE_WIDGET
@@ -7501,7 +7501,7 @@ event
 .
 pluginEvent
 =
-NULL
+nullptr
 ;
 }
 else
