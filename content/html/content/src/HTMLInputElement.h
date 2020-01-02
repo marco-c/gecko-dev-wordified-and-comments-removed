@@ -121,6 +121,13 @@ Decimal
 .
 h
 "
+#
+include
+"
+nsContentUtils
+.
+h
+"
 class
 nsDOMFileList
 ;
@@ -3349,6 +3356,12 @@ kStepAny
 ;
 uint8_t
 mType
+;
+nsContentUtils
+:
+:
+AutocompleteAttrState
+mAutocompleteAttrState
 ;
 bool
 mDisabledChanged
