@@ -461,7 +461,7 @@ mAttributeName
 nsCSSProps
 :
 :
-eEnabled
+eEnabledForAllContent
 )
 ;
 if
