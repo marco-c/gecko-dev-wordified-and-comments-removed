@@ -8343,7 +8343,7 @@ JS_UNLIKELY
 (
 vp
 .
-isPrimitive
+isUndefined
 (
 )
 )
