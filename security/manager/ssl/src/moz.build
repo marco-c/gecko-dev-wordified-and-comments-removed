@@ -175,16 +175,6 @@ nsClientAuthRemember
 cpp
 '
 '
-nsCMS
-.
-cpp
-'
-'
-nsCMSSecureMessage
-.
-cpp
-'
-'
 nsCrypto
 .
 cpp

@@ -49,13 +49,6 @@ h
 #
 include
 "
-nsISMimeCert
-.
-h
-"
-#
-include
-"
 nsIIdentityInfo
 .
 h
@@ -128,8 +121,6 @@ nsIX509Cert3
 public
 nsIIdentityInfo
 public
-nsISMimeCert
-public
 nsISerializable
 public
 nsIClassInfo
@@ -143,7 +134,6 @@ NS_DECL_NSIX509CERT
 NS_DECL_NSIX509CERT2
 NS_DECL_NSIX509CERT3
 NS_DECL_NSIIDENTITYINFO
-NS_DECL_NSISMIMECERT
 NS_DECL_NSISERIALIZABLE
 NS_DECL_NSICLASSINFO
 friend
