@@ -4770,6 +4770,7 @@ rt
 }
 PersistentRooted
 (
+const
 PersistentRooted
 &
 rhs
@@ -4794,7 +4795,14 @@ rhs
 ptr
 )
 {
+const_cast
+<
+PersistentRooted
+&
+>
+(
 rhs
+)
 .
 setNext
 (
