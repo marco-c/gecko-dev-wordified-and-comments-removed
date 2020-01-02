@@ -2976,7 +2976,7 @@ cx
 xpc
 :
 :
-GetXBLScope
+GetXBLScopeOrGlobal
 (
 cx
 jsobj

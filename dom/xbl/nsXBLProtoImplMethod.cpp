@@ -1456,7 +1456,7 @@ cx
 xpc
 :
 :
-GetXBLScope
+GetXBLScopeOrGlobal
 (
 cx
 globalObject

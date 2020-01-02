@@ -1440,7 +1440,7 @@ aCx
 xpc
 :
 :
-GetXBLScope
+GetXBLScopeOrGlobal
 (
 aCx
 globalObject
@@ -1942,7 +1942,7 @@ cx
 xpc
 :
 :
-GetXBLScope
+GetXBLScopeOrGlobal
 (
 cx
 aBoundNode
