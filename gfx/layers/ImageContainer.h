@@ -766,6 +766,8 @@ SourceSurface
 GetAsSourceSurface
 (
 )
+=
+0
 ;
 protected
 :
