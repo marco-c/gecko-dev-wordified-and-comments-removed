@@ -1110,6 +1110,16 @@ if
 actor
 )
 {
+if
+(
+actor
+-
+>
+GetForwarder
+(
+)
+)
+{
 actor
 -
 >
@@ -1123,6 +1133,7 @@ RemoveTexture
 this
 )
 ;
+}
 actor
 -
 >
