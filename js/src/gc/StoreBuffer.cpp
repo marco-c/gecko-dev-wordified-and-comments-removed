@@ -1589,13 +1589,6 @@ next
 )
 )
 {
-c
--
->
-checkNewTypeObjectTableAfterMovingGC
-(
-)
-;
 if
 (
 c
