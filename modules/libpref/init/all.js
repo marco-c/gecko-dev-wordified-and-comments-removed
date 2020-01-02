@@ -31762,3 +31762,15 @@ low_memory_thresholdMB
 ;
 #
 endif
+pref
+(
+"
+dom
+.
+udpsocket
+.
+enabled
+"
+false
+)
+;
