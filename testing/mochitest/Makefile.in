@@ -777,6 +777,11 @@ pk12util
 BIN_SUFFIX
 )
 \
+BadCertServer
+(
+BIN_SUFFIX
+)
+\
 OCSPStaplingServer
 (
 BIN_SUFFIX
