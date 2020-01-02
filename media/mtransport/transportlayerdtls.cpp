@@ -2419,7 +2419,7 @@ LAYER_INFO
 <
 "
 Lower
-lower
+layer
 is
 connecting
 .
@@ -2439,7 +2439,7 @@ LAYER_INFO
 <
 "
 Lower
-lower
+layer
 is
 now
 open
@@ -2466,7 +2466,7 @@ LAYER_INFO
 <
 "
 Lower
-lower
+layer
 is
 now
 closed
@@ -2491,7 +2491,7 @@ LAYER_INFO
 <
 "
 Lower
-lower
+layer
 experienced
 an
 error
