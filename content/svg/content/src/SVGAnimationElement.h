@@ -203,11 +203,6 @@ aNotify
 )
 MOZ_OVERRIDE
 ;
-bool
-PassesConditionalProcessingTests
-(
-)
-;
 const
 nsAttrValue
 *
