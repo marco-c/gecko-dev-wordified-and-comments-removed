@@ -2431,7 +2431,7 @@ nsIDOMHTMLMediaElement
 NETWORK_IDLE
 )
 {
-DispatchAsyncEvent
+DispatchEvent
 (
 NS_LITERAL_STRING
 (
@@ -2558,7 +2558,7 @@ false
 )
 ;
 }
-DispatchAsyncEvent
+DispatchEvent
 (
 NS_LITERAL_STRING
 (
