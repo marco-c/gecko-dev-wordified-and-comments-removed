@@ -1517,13 +1517,6 @@ mUserFontSetDirty
 =
 true
 ;
-gfxPlatform
-:
-:
-GetPlatform
-(
-)
-;
 PRLogModuleInfo
 *
 log
