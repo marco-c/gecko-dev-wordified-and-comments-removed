@@ -295,9 +295,7 @@ _32
 0
 ;
 }
-const
-gfxMatrix
-&
+bool
 Invert
 (
 )

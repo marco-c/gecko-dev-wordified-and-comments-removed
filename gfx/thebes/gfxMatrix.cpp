@@ -79,9 +79,7 @@ return
 this
 ;
 }
-const
-gfxMatrix
-&
+bool
 gfxMatrix
 :
 :
@@ -89,6 +87,7 @@ Invert
 (
 )
 {
+return
 cairo_matrix_invert
 (
 CAIRO_MATRIX
@@ -96,10 +95,9 @@ CAIRO_MATRIX
 this
 )
 )
-;
-return
-*
-this
+=
+=
+CAIRO_STATUS_SUCCESS
 ;
 }
 const
