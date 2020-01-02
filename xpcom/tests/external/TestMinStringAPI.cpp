@@ -2663,9 +2663,7 @@ check
 return
 check
 .
-Equals
-(
-NS_LITERAL_STRING
+EqualsLiteral
 (
 "
 Testing
@@ -2673,7 +2671,6 @@ Testing
 2
 3
 "
-)
 )
 ;
 }

@@ -1519,9 +1519,7 @@ if
 (
 scope
 .
-Equals
-(
-NS_LITERAL_CSTRING
+EqualsLiteral
 (
 "
 knalb
@@ -1529,7 +1527,6 @@ knalb
 :
 about
 "
-)
 )
 )
 {

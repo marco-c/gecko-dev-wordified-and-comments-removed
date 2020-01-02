@@ -4223,14 +4223,11 @@ mSoundInterface
 !
 mNotFoundSoundURL
 .
-Equals
-(
-NS_LITERAL_CSTRING
+EqualsLiteral
 (
 "
 beep
 "
-)
 )
 )
 {

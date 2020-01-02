@@ -1715,14 +1715,11 @@ if
 (
 mHardware
 .
-Equals
-(
-NS_LITERAL_STRING
+EqualsLiteral
 (
 "
 ville
 "
-)
 )
 )
 {

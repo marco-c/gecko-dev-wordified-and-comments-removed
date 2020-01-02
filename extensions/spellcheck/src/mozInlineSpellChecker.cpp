@@ -4475,16 +4475,13 @@ if
 (
 classname
 .
-Equals
-(
-NS_LITERAL_STRING
+EqualsLiteral
 (
 "
 moz
 -
 signature
 "
-)
 )
 )
 *

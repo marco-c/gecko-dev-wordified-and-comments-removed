@@ -550,14 +550,11 @@ if
 !
 tmp16
 .
-Equals
-(
-NS_LITERAL_STRING
+EqualsLiteral
 (
 "
 string
 "
-)
 )
 )
 return

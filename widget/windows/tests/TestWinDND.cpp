@@ -428,9 +428,7 @@ if
 !
 string
 .
-Equals
-(
-NS_LITERAL_CSTRING
+EqualsLiteral
 (
 "
 Mozilla
@@ -439,7 +437,6 @@ drag
 and
 drop
 "
-)
 )
 )
 {
@@ -558,9 +555,7 @@ if
 !
 string
 .
-Equals
-(
-NS_LITERAL_CSTRING
+EqualsLiteral
 (
 "
 Mozilla
@@ -571,7 +566,6 @@ drop
 twice
 over
 "
-)
 )
 )
 {
@@ -690,9 +684,7 @@ if
 !
 string
 .
-Equals
-(
-NS_LITERAL_STRING
+EqualsLiteral
 (
 "
 Mozilla
@@ -701,7 +693,6 @@ drag
 and
 drop
 "
-)
 )
 )
 {
@@ -820,9 +811,7 @@ if
 !
 string
 .
-Equals
-(
-NS_LITERAL_STRING
+EqualsLiteral
 (
 "
 Mozilla
@@ -833,7 +822,6 @@ drop
 twice
 over
 "
-)
 )
 )
 {

@@ -3824,14 +3824,11 @@ if
 (
 aError
 .
-Equals
-(
-NS_LITERAL_STRING
+EqualsLiteral
 (
 "
 PERMISSION_DENIED
 "
-)
 )
 )
 {

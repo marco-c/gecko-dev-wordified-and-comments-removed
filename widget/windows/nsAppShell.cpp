@@ -198,16 +198,13 @@ shouldLock
 =
 aState
 .
-Equals
-(
-NS_LITERAL_STRING
+EqualsLiteral
 (
 "
 locked
 -
 foreground
 "
-)
 )
 ;
 if
