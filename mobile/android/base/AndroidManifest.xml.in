@@ -888,7 +888,9 @@ android
 label
 =
 "
-MOZ_APP_DISPLAYNAME
+string
+/
+moz_app_displayname
 "
 android
 :
@@ -984,7 +986,9 @@ android
 label
 =
 "
-MOZ_APP_DISPLAYNAME
+string
+/
+moz_app_displayname
 "
 android
 :
