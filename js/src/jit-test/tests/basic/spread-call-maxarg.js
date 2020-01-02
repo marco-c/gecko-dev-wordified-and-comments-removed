@@ -8,16 +8,15 @@ getBuildConfiguration
 if
 (
 !
-(
 config
 .
 debug
 &
 &
+!
 config
 .
 asan
-)
 )
 {
 let
