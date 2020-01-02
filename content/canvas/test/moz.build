@@ -105,7 +105,7 @@ conformance
 '
 webgl
 -
-mochi
+mochitest
 '
 ]
 MOCHITEST_MANIFESTS
