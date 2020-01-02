@@ -529,6 +529,14 @@ friend
 class
 ServiceWorkerUpdateInstance
 ;
+friend
+class
+GetRegistrationsRunnable
+;
+friend
+class
+GetRegistrationRunnable
+;
 public
 :
 NS_DECL_ISUPPORTS
