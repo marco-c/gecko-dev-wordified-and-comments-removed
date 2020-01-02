@@ -514,6 +514,14 @@ MAKE_VERSION
 )
 }
 {
+"
+atkdx11disp
+.
+dll
+"
+ALL_VERSIONS
+}
+{
 nullptr
 0
 }
