@@ -28656,6 +28656,11 @@ aLength
 i
 )
 {
+uint32_t
+extraCodeUnits
+=
+0
+;
 RunCaseAction
 chAction
 =
@@ -28714,6 +28719,10 @@ i
 1
 ]
 )
+;
+extraCodeUnits
+=
+1
 ;
 }
 if
@@ -29187,6 +29196,11 @@ runStart
 i
 ;
 }
+i
++
+=
+extraCodeUnits
+;
 if
 (
 i
