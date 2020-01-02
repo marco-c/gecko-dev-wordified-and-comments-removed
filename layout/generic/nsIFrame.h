@@ -6317,9 +6317,15 @@ NS_FRAME_FONT_INFLATION_CONTAINER
 ;
 }
 virtual
-nsIContent
+mozilla
+:
+:
+dom
+:
+:
+Element
 *
-GetPseudoElementContent
+GetPseudoElement
 (
 nsCSSPseudoElements
 :

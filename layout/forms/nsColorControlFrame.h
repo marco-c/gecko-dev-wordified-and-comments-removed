@@ -38,6 +38,16 @@ nsColorControlFrameSuper
 public
 nsIAnonymousContentCreator
 {
+typedef
+mozilla
+:
+:
+dom
+:
+:
+Element
+Element
+;
 public
 :
 friend
@@ -148,9 +158,9 @@ GetContentInsertionFrame
 MOZ_OVERRIDE
 ;
 virtual
-nsIContent
+Element
 *
-GetPseudoElementContent
+GetPseudoElement
 (
 nsCSSPseudoElements
 :
@@ -176,7 +186,7 @@ UpdateColor
 ;
 nsCOMPtr
 <
-nsIContent
+Element
 >
 mColorContent
 ;

@@ -45,6 +45,16 @@ nsContainerFrame
 public
 nsIAnonymousContentCreator
 {
+typedef
+mozilla
+:
+:
+dom
+:
+:
+Element
+Element
+;
 public
 :
 NS_DECL_QUERYFRAME_TARGET
@@ -273,9 +283,9 @@ ShouldUseNativeStyle
 const
 ;
 virtual
-nsIContent
+Element
 *
-GetPseudoElementContent
+GetPseudoElement
 (
 nsCSSPseudoElements
 :
@@ -307,7 +317,7 @@ aStatus
 ;
 nsCOMPtr
 <
-nsIContent
+Element
 >
 mBarDiv
 ;

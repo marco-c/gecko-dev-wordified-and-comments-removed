@@ -4333,6 +4333,17 @@ return
 mCreatingStaticClone
 ;
 }
+already_AddRefed
+<
+Element
+>
+CreateHTMLElement
+(
+nsIAtom
+*
+aTag
+)
+;
 nsIGlobalObject
 *
 GetParentObject
