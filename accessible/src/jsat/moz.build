@@ -115,6 +115,11 @@ Constants
 jsm
 '
 '
+ContentControl
+.
+jsm
+'
+'
 EventManager
 .
 jsm
