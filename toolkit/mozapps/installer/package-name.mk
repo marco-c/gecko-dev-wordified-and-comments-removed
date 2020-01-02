@@ -1112,8 +1112,6 @@ exists
 #
 #
 #
-ifdef
-MOZILLA_OFFICIAL
 MOZ_SOURCE_REPO
 =
 (
@@ -1129,7 +1127,6 @@ NULL
 NULL
 )
 )
-endif
 MOZ_SOURCESTAMP_FILE
 =
 (

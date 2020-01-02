@@ -1641,11 +1641,6 @@ BUILDID
 )
 '
 \
-(
-if
-(
-MOZ_SOURCE_REPO
-)
 -
 -
 define
@@ -1655,7 +1650,6 @@ moz_source_repo
 MOZ_SOURCE_REPO
 )
 '
-)
 \
 -
 -
@@ -5932,8 +5926,6 @@ BUILDID
 (
 MOZ_SOURCESTAMP_FILE
 )
-ifdef
-MOZ_SOURCE_REPO
 echo
 '
 (
@@ -5951,7 +5943,6 @@ MOZ_SOURCE_STAMP
 (
 MOZ_SOURCESTAMP_FILE
 )
-endif
 .
 PHONY
 :
@@ -5993,15 +5984,10 @@ BUILDID
 BUILDID
 )
 \
-(
-addprefix
-MOZ_SOURCE_REPO
-=
 MOZ_SOURCE_REPO
 =
 (
 MOZ_SOURCE_REPO
-)
 )
 \
 MOZ_SOURCE_STAMP

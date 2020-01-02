@@ -141,8 +141,6 @@ MOZ_SOURCE_STAMP
 )
 '
 endif
-ifdef
-MOZILLA_OFFICIAL
 source_repo
 ?
 =
@@ -193,7 +191,6 @@ DSOURCE_GIT_COMMIT
 source_repo
 )
 '
-endif
 endif
 ifndef
 BUILD_HOSTNAME
