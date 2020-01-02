@@ -161,11 +161,6 @@ originalDebugMode_
 #
 endif
 bool
-localsAliasStack_
-:
-1
-;
-bool
 canTrackVars
 :
 1
@@ -235,15 +230,6 @@ JSContext
 cx
 )
 ;
-bool
-localsAliasStack
-(
-)
-{
-return
-localsAliasStack_
-;
-}
 bool
 isReachable
 (
