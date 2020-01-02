@@ -11,7 +11,7 @@ gPreloadListExpirationTime
 =
 INT64_C
 (
-1392458781200000
+1393063845260000
 )
 ;
 class
@@ -149,6 +149,14 @@ blog
 torproject
 .
 org
+"
+false
+}
+{
+"
+blueseed
+.
+co
 "
 false
 }
@@ -606,7 +614,7 @@ makeyourlaws
 .
 org
 "
-true
+false
 }
 {
 "
@@ -1106,7 +1114,7 @@ makeyourlaws
 .
 org
 "
-true
+false
 }
 {
 "
