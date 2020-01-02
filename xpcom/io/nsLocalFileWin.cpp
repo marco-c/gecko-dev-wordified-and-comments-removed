@@ -1099,12 +1099,6 @@ nsDriveEnumerator
 (
 )
 ;
-virtual
-~
-nsDriveEnumerator
-(
-)
-;
 NS_DECL_ISUPPORTS
 NS_DECL_NSISIMPLEENUMERATOR
 nsresult
@@ -1114,6 +1108,12 @@ Init
 ;
 private
 :
+virtual
+~
+nsDriveEnumerator
+(
+)
+;
 nsString
 mDrives
 ;
