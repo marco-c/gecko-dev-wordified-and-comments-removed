@@ -18,8 +18,6 @@ mozilla
 /
 dom
 /
-file
-/
 FileHandle
 .
 h
@@ -45,9 +43,6 @@ class
 IDBFileHandle
 :
 public
-file
-:
-:
 FileHandle
 {
 typedef
@@ -55,9 +50,6 @@ mozilla
 :
 :
 dom
-:
-:
-file
 :
 :
 LockedFile

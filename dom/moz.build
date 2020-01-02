@@ -201,6 +201,9 @@ base
 activities
 '
 '
+archivereader
+'
+'
 bindings
 '
 '
@@ -236,7 +239,7 @@ encoding
 events
 '
 '
-file
+filehandle
 '
 '
 filesystem

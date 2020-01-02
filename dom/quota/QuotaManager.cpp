@@ -112,6 +112,13 @@ h
 "
 #
 include
+"
+nsPIDOMWindow
+.
+h
+"
+#
+include
 <
 algorithm
 >
@@ -159,8 +166,6 @@ include
 mozilla
 /
 dom
-/
-file
 /
 FileService
 .
@@ -462,9 +467,6 @@ mozilla
 :
 :
 dom
-:
-:
-file
 :
 :
 FileService

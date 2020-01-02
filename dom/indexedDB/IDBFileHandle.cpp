@@ -12,8 +12,6 @@ mozilla
 /
 dom
 /
-file
-/
 File
 .
 h
@@ -474,9 +472,6 @@ mozilla
 dom
 :
 :
-file
-:
-:
 LockedFile
 *
 aLockedFile
@@ -491,15 +486,6 @@ nsIDOMFile
 file
 =
 new
-mozilla
-:
-:
-dom
-:
-:
-file
-:
-:
 File
 (
 mName
