@@ -2149,7 +2149,10 @@ nextCurrentTime
 =
 mCurrentTime
 +
+MillisecondsToMediaTime
+(
 MEDIA_GRAPH_TARGET_PERIOD_MS
+)
 ;
 STREAM_LOG
 (
