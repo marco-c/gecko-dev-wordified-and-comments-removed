@@ -34,6 +34,13 @@ front
 2
 )
 ;
+yield
+front
+.
+waitForFrame
+(
+)
+;
 let
 pixel
 =
