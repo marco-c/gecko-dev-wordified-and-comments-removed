@@ -7646,7 +7646,9 @@ OS_ARCH
 GNU_kFreeBSD
 OS_TARGET
 =
-GNU_kFreeBSD
+GNU
+/
+kFreeBSD
 ;
 ;
 gnu
