@@ -5167,10 +5167,6 @@ clip
 (
 aBuilder
 this
-DisplayListClipState
-:
-:
-ASSUME_DRAWING_RESTRICTED_TO_CONTENT_RECT
 )
 ;
 if
