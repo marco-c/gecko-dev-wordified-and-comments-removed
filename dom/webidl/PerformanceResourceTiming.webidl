@@ -267,5 +267,7 @@ attribute
 DOMHighResTimeStamp
 responseEnd
 ;
+jsonifier
+;
 }
 ;

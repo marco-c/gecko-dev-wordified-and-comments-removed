@@ -172,5 +172,7 @@ attribute
 DOMHighResTimeStamp
 duration
 ;
+jsonifier
+;
 }
 ;
