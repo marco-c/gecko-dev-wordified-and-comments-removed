@@ -319,6 +319,9 @@ idl
 *
 /
 interface
+StyleSheetList
+;
+interface
 WindowProxy
 ;
 interface

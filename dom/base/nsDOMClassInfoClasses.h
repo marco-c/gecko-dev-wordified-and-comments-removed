@@ -40,6 +40,10 @@ CSSRuleList
 )
 DOMCI_CLASS
 (
+StyleSheetList
+)
+DOMCI_CLASS
+(
 CSSStyleSheet
 )
 #

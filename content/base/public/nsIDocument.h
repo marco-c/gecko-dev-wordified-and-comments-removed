@@ -398,9 +398,6 @@ class
 ProcessingInstruction
 ;
 class
-StyleSheetList
-;
-class
 Touch
 ;
 class
@@ -5479,13 +5476,7 @@ VisibilityState
 ;
 }
 virtual
-mozilla
-:
-:
-dom
-:
-:
-StyleSheetList
+nsIDOMStyleSheetList
 *
 StyleSheets
 (
