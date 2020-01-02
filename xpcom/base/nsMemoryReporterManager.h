@@ -34,12 +34,6 @@ nsHashKeys
 .
 h
 "
-using
-mozilla
-:
-:
-Mutex
-;
 class
 nsITimer
 ;
@@ -317,6 +311,9 @@ kTimeoutLengthMS
 =
 5000
 ;
+mozilla
+:
+:
 Mutex
 mMutex
 ;
