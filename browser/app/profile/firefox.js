@@ -11583,16 +11583,6 @@ unload_timeout_ms
 pref
 (
 "
-social
-.
-allowMultipleWorkers
-"
-true
-)
-;
-pref
-(
-"
 dom
 .
 identity
