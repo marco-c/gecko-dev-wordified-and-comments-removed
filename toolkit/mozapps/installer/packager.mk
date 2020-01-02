@@ -814,7 +814,7 @@ MAKE_JSSHELL
 PYTHON
 )
 (
-topsrcdir
+MOZILLA_DIR
 )
 /
 toolkit
