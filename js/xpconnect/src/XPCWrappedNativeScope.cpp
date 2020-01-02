@@ -103,13 +103,10 @@ HandleObject
 aGlobal
 )
 {
-if
+MOZ_ASSERT
 (
-!
 aPrincipal
 )
-return
-false
 ;
 if
 (
