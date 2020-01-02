@@ -11741,7 +11741,7 @@ TabState
 .
 dropPendingCollections
 (
-tab
+browser
 )
 ;
 if
