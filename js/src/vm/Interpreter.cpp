@@ -324,6 +324,12 @@ mozilla
 :
 PodCopy
 ;
+using
+JS
+:
+:
+ForOfIterator
+;
 #
 if
 defined

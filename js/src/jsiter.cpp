@@ -56,13 +56,6 @@ h
 #
 include
 "
-jsfriendapi
-.
-h
-"
-#
-include
-"
 jsgc
 .
 h
@@ -6421,10 +6414,7 @@ stopiter_hasInstance
 nullptr
 }
 ;
-JS_FRIEND_API
-(
 bool
-)
 ForOfIterator
 :
 :
@@ -6638,10 +6628,7 @@ return
 true
 ;
 }
-JS_FRIEND_API
-(
 bool
-)
 ForOfIterator
 :
 :

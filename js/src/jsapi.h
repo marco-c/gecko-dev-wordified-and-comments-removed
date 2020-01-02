@@ -18551,10 +18551,7 @@ ThrowOnNonIterable
 AllowNonIterable
 }
 ;
-JS_PUBLIC_API
-(
 bool
-)
 init
 (
 JS
@@ -18568,10 +18565,7 @@ nonIterableBehavior
 ThrowOnNonIterable
 )
 ;
-JS_PUBLIC_API
-(
 bool
-)
 next
 (
 JS
