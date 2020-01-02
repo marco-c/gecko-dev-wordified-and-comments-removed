@@ -694,7 +694,7 @@ focusOrder
 ;
 private
 final
-ImageView
+ThemedImageView
 editCancel
 ;
 private
@@ -1225,7 +1225,7 @@ hasMenuButton
 editCancel
 =
 (
-ImageView
+ThemedImageView
 )
 findViewById
 (
@@ -6460,6 +6460,12 @@ setBackgroundDrawable
 stateList
 )
 ;
+editCancel
+.
+onLightweightThemeChanged
+(
+)
+;
 }
 Override
 public
@@ -6475,6 +6481,12 @@ R
 drawable
 .
 url_bar_bg
+)
+;
+editCancel
+.
+onLightweightThemeReset
+(
 )
 ;
 }

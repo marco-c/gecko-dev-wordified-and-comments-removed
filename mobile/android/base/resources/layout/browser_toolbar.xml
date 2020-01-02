@@ -926,7 +926,15 @@ layout
 -
 >
 <
-ImageView
+org
+.
+mozilla
+.
+gecko
+.
+widget
+.
+ThemedImageView
 android
 :
 id
@@ -962,7 +970,7 @@ src
 "
 drawable
 /
-close_edit_mode
+close_edit_mode_selector
 "
 android
 :
