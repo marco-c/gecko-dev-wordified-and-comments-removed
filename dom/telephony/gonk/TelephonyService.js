@@ -2296,6 +2296,7 @@ return
 function
 onCdmaDialSuccess
 (
+aCallIndex
 )
 {
 let
@@ -2318,15 +2319,16 @@ if
 indexes
 .
 length
-!
 =
-1
+=
+0
 )
 {
 aTelephonyCallback
 .
 notifyDialSuccess
 (
+aCallIndex
 )
 ;
 return
@@ -2374,6 +2376,7 @@ aTelephonyCallback
 .
 notifyDialSuccess
 (
+CDMA_SECOND_CALL_INDEX
 )
 ;
 this
@@ -2522,6 +2525,9 @@ onCdmaDialSuccess
 call
 (
 this
+response
+.
+callIndex
 )
 ;
 }
