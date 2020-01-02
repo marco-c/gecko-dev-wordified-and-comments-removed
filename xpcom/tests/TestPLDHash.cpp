@@ -312,15 +312,10 @@ DECL_TEST
 (
 test_pldhash_Init_overflow
 )
-#
-ifndef
-MOZ_WIDGET_ANDROID
 DECL_TEST
 (
 test_pldhash_grow_to_max_capacity
 )
-#
-endif
 {
 nullptr
 nullptr
