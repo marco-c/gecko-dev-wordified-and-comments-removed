@@ -2458,9 +2458,6 @@ static
 bool
 IsInRanges
 (
-dom
-:
-:
 TimeRanges
 &
 aRanges
@@ -2608,9 +2605,6 @@ value
 "
 )
 ;
-dom
-:
-:
 TimeRanges
 seekable
 ;
@@ -5510,9 +5504,6 @@ MediaDecoder
 :
 GetSeekable
 (
-dom
-:
-:
 TimeRanges
 *
 aSeekable
@@ -6224,9 +6215,6 @@ MediaDecoder
 :
 GetBuffered
 (
-dom
-:
-:
 TimeRanges
 *
 aBuffered

@@ -114,6 +114,13 @@ TimeRanges
 ;
 }
 }
+using
+namespace
+mozilla
+:
+:
+dom
+;
 namespace
 mozilla
 {
@@ -172,6 +179,16 @@ AbstractMediaDecoder
 {
 public
 :
+typedef
+mozilla
+:
+:
+layers
+:
+:
+Image
+Image
+;
 NS_DECL_THREADSAFE_ISUPPORTS
 NS_DECL_NSIOBSERVER
 enum
@@ -447,9 +464,6 @@ mDecoder
 ;
 nsRefPtr
 <
-layers
-:
-:
 Image
 >
 mLastVideoImage
@@ -763,9 +777,6 @@ virtual
 nsresult
 GetSeekable
 (
-dom
-:
-:
 TimeRanges
 *
 aSeekable
@@ -820,6 +831,9 @@ MoveLoadsToBackground
 (
 )
 ;
+mozilla
+:
+:
 MediaDecoderOwner
 *
 GetMediaOwner
@@ -886,9 +900,6 @@ virtual
 nsresult
 GetBuffered
 (
-dom
-:
-:
 TimeRanges
 *
 aBuffered
@@ -918,6 +929,9 @@ return
 mVideoFrameContainer
 ;
 }
+mozilla
+:
+:
 layers
 :
 :
@@ -1048,9 +1062,6 @@ MOZ_OVERRIDE
 void
 SetAudioChannelType
 (
-dom
-:
-:
 AudioChannelType
 aType
 )
@@ -1060,9 +1071,6 @@ mAudioChannelType
 aType
 ;
 }
-dom
-:
-:
 AudioChannelType
 GetAudioChannelType
 (
@@ -1601,8 +1609,6 @@ aDecoded
 )
 ;
 }
-protected
-:
 int64_t
 mDecoderPosition
 ;
@@ -1705,7 +1711,7 @@ mReentrantMonitor
 RestrictedAccessMonitor
 mReentrantMonitor
 ;
-protected
+public
 :
 nsTArray
 <
@@ -1746,6 +1752,8 @@ mInfiniteStream
 bool
 mTriggerPlaybackEndedWhenSourceStreamFinishes
 ;
+protected
+:
 nsresult
 StartProgress
 (
@@ -1806,9 +1814,6 @@ mShuttingDown
 bool
 mPausedForPlaybackRateNull
 ;
-dom
-:
-:
 AudioChannelType
 mAudioChannelType
 ;

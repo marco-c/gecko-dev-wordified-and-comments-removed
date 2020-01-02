@@ -379,9 +379,6 @@ DECODER_STATE_SEEKING
 nsresult
 GetBuffered
 (
-dom
-:
-:
 TimeRanges
 *
 aBuffered
