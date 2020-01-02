@@ -912,10 +912,6 @@ mask
 .
 length
 )
-=
-=
--
-1
 ;
 if
 (
@@ -936,6 +932,11 @@ out
 ap
 .
 ssid
++
+"
+"
++
+result
 )
 ;
 }
