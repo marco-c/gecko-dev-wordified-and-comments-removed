@@ -873,11 +873,6 @@ NonAllocatableMask
 ;
 }
 ;
-uint32_t
-GetARMFlags
-(
-)
-;
 bool
 hasMOVWT
 (

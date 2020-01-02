@@ -4447,12 +4447,6 @@ structuredCloneCallbacks
 JSAccumulateTelemetryDataCallback
 telemetryCallback
 ;
-JS
-:
-:
-AsmJSCacheOps
-asmJSCacheOps
-;
 uint32_t
 propertyRemovals
 ;
