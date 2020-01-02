@@ -882,10 +882,17 @@ if
 aOffThreadToken
 )
 {
+JS
+:
+:
+Rooted
+<
 JSScript
 *
+>
 script
-=
+(
+aCx
 JS
 :
 :
@@ -898,6 +905,7 @@ aCx
 )
 *
 aOffThreadToken
+)
 )
 ;
 *
