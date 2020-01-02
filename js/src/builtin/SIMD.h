@@ -67,7 +67,7 @@ V
 (
 abs
 (
-Func
+UnaryFunc
 <
 Float32x4
 Abs
@@ -98,7 +98,7 @@ V
 (
 neg
 (
-Func
+UnaryFunc
 <
 Float32x4
 Neg
@@ -114,7 +114,7 @@ V
 (
 not
 (
-CoercedFunc
+CoercedUnaryFunc
 <
 Float32x4
 Int32x4
@@ -131,7 +131,7 @@ V
 (
 reciprocal
 (
-Func
+UnaryFunc
 <
 Float32x4
 Rec
@@ -147,7 +147,7 @@ V
 (
 reciprocalSqrt
 (
-Func
+UnaryFunc
 <
 Float32x4
 RecSqrt
@@ -177,7 +177,7 @@ V
 (
 sqrt
 (
-Func
+UnaryFunc
 <
 Float32x4
 Sqrt
@@ -214,7 +214,7 @@ V
 (
 add
 (
-Func
+BinaryFunc
 <
 Float32x4
 Add
@@ -230,7 +230,7 @@ V
 (
 and
 (
-CoercedFunc
+CoercedBinaryFunc
 <
 Float32x4
 Int32x4
@@ -247,7 +247,7 @@ V
 (
 div
 (
-Func
+BinaryFunc
 <
 Float32x4
 Div
@@ -263,7 +263,7 @@ V
 (
 equal
 (
-Func
+BinaryFunc
 <
 Float32x4
 Equal
@@ -279,7 +279,7 @@ V
 (
 greaterThan
 (
-Func
+BinaryFunc
 <
 Float32x4
 GreaterThan
@@ -295,7 +295,7 @@ V
 (
 greaterThanOrEqual
 (
-Func
+BinaryFunc
 <
 Float32x4
 GreaterThanOrEqual
@@ -311,7 +311,7 @@ V
 (
 lessThan
 (
-Func
+BinaryFunc
 <
 Float32x4
 LessThan
@@ -327,7 +327,7 @@ V
 (
 lessThanOrEqual
 (
-Func
+BinaryFunc
 <
 Float32x4
 LessThanOrEqual
@@ -343,7 +343,7 @@ V
 (
 max
 (
-Func
+BinaryFunc
 <
 Float32x4
 Maximum
@@ -359,7 +359,7 @@ V
 (
 min
 (
-Func
+BinaryFunc
 <
 Float32x4
 Minimum
@@ -375,7 +375,7 @@ V
 (
 mul
 (
-Func
+BinaryFunc
 <
 Float32x4
 Mul
@@ -391,7 +391,7 @@ V
 (
 notEqual
 (
-Func
+BinaryFunc
 <
 Float32x4
 NotEqual
@@ -419,7 +419,7 @@ V
 (
 or
 (
-CoercedFunc
+CoercedBinaryFunc
 <
 Float32x4
 Int32x4
@@ -451,7 +451,7 @@ V
 (
 sub
 (
-Func
+BinaryFunc
 <
 Float32x4
 Sub
@@ -527,7 +527,7 @@ V
 (
 xor
 (
-CoercedFunc
+CoercedBinaryFunc
 <
 Float32x4
 Int32x4
@@ -638,7 +638,7 @@ V
 (
 neg
 (
-Func
+UnaryFunc
 <
 Int32x4
 Neg
@@ -654,7 +654,7 @@ V
 (
 not
 (
-Func
+UnaryFunc
 <
 Int32x4
 Not
@@ -705,7 +705,7 @@ V
 (
 add
 (
-Func
+BinaryFunc
 <
 Int32x4
 Add
@@ -721,7 +721,7 @@ V
 (
 and
 (
-Func
+BinaryFunc
 <
 Int32x4
 And
@@ -737,7 +737,7 @@ V
 (
 equal
 (
-Func
+BinaryFunc
 <
 Int32x4
 Equal
@@ -753,7 +753,7 @@ V
 (
 greaterThan
 (
-Func
+BinaryFunc
 <
 Int32x4
 GreaterThan
@@ -769,7 +769,7 @@ V
 (
 lessThan
 (
-Func
+BinaryFunc
 <
 Int32x4
 LessThan
@@ -785,7 +785,7 @@ V
 (
 mul
 (
-Func
+BinaryFunc
 <
 Int32x4
 Mul
@@ -801,7 +801,7 @@ V
 (
 or
 (
-Func
+BinaryFunc
 <
 Int32x4
 Or
@@ -817,7 +817,7 @@ V
 (
 sub
 (
-Func
+BinaryFunc
 <
 Int32x4
 Sub
@@ -1007,7 +1007,7 @@ V
 (
 xor
 (
-Func
+BinaryFunc
 <
 Int32x4
 Xor
