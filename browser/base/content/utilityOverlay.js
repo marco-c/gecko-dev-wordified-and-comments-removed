@@ -935,6 +935,15 @@ params
 .
 skipTabAnimation
 ;
+var
+aAllowPinnedTabHostChange
+=
+!
+!
+params
+.
+allowPinnedTabHostChange
+;
 if
 (
 where
@@ -1385,6 +1394,10 @@ gBrowser
 selectedTab
 .
 pinned
+&
+&
+!
+aAllowPinnedTabHostChange
 )
 {
 try

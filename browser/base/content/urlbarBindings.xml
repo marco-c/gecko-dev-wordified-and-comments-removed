@@ -2600,6 +2600,9 @@ disallowInheritPrincipal
 :
 !
 mayInheritPrincipal
+allowPinnedTabHostChange
+:
+true
 postData
 :
 postData
