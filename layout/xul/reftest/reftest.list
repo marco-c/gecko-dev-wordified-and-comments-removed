@@ -168,6 +168,15 @@ height
 ref
 .
 xul
+skip
+-
+if
+(
+B2G
+&
+&
+browserIsRemote
+)
 =
 =
 textbox
