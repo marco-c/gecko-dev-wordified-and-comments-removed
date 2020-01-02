@@ -1287,6 +1287,10 @@ PAYLOAD_PACKED_TAG
 fprintf
 (
 fp
+"
+%
+s
+"
 ValTypeToString
 (
 p
