@@ -182,6 +182,11 @@ ocspCache
 void
 *
 pinArg
+CertVerifier
+:
+:
+ocsp_get_config
+ocspGETConfig
 CERTChainVerifyCallback
 *
 checkChainCallback
@@ -202,6 +207,10 @@ ocspCache
 mPinArg
 (
 pinArg
+)
+mOCSPGetConfig
+(
+ocspGETConfig
 )
 mCheckChainCallback
 (
@@ -1331,6 +1340,13 @@ OCSPFetchingTypeToTimeoutTime
 (
 mOCSPFetching
 )
+mOCSPGetConfig
+=
+=
+CertVerifier
+:
+:
+ocsp_get_enabled
 )
 ;
 }

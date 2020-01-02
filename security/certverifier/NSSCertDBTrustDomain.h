@@ -176,6 +176,11 @@ ocspCache
 void
 *
 pinArg
+CertVerifier
+:
+:
+ocsp_get_config
+ocspGETConfig
 CERTChainVerifyCallback
 *
 checkChainCallback
@@ -351,6 +356,13 @@ mOCSPCache
 void
 *
 mPinArg
+;
+const
+CertVerifier
+:
+:
+ocsp_get_config
+mOCSPGetConfig
 ;
 CERTChainVerifyCallback
 *
