@@ -3131,6 +3131,17 @@ Browser
 .
 tabs
 .
+filter
+(
+tab
+=
+>
+!
+tab
+.
+isPrivate
+)
+.
 map
 (
 tab
