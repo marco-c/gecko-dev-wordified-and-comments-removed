@@ -62,7 +62,7 @@ namespace
 JS
 {
 struct
-ObjectsExtraSizes
+ClassInfo
 ;
 }
 namespace
@@ -1412,9 +1412,9 @@ mallocSizeOf
 JS
 :
 :
-ObjectsExtraSizes
+ClassInfo
 *
-sizes
+info
 )
 ;
 bool
