@@ -126,7 +126,7 @@ return
 ;
 default
 :
-NS_ABORT_IF_FALSE
+MOZ_ASSERT
 (
 false
 "
@@ -274,7 +274,7 @@ return
 ;
 }
 }
-NS_ABORT_IF_FALSE
+MOZ_ASSERT
 (
 !
 mAlreadyRun
@@ -389,7 +389,7 @@ MaxElementsPerTexel
 =
 4
 ;
-NS_ABORT_IF_FALSE
+MOZ_ASSERT
 (
 NumElementsPerSrcTexel
 <
@@ -401,7 +401,7 @@ format
 "
 )
 ;
-NS_ABORT_IF_FALSE
+MOZ_ASSERT
 (
 NumElementsPerDstTexel
 <
@@ -413,7 +413,7 @@ format
 "
 )
 ;
-NS_ABORT_IF_FALSE
+MOZ_ASSERT
 (
 mSrcStride
 %
@@ -670,7 +670,7 @@ Unpremultiply
 )
 default
 :
-NS_ABORT_IF_FALSE
+MOZ_ASSERT
 (
 false
 "
@@ -782,7 +782,7 @@ RGBA32F
 )
 default
 :
-NS_ABORT_IF_FALSE
+MOZ_ASSERT
 (
 false
 "
@@ -901,7 +901,7 @@ RGBA32F
 )
 default
 :
-NS_ABORT_IF_FALSE
+MOZ_ASSERT
 (
 false
 "
@@ -1076,7 +1076,7 @@ dstPremultiplied
 )
 )
 {
-NS_ABORT_IF_FALSE
+MOZ_ASSERT
 (
 mPixelStoreFlipY
 |

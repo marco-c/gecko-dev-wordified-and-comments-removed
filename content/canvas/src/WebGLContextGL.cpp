@@ -10612,8 +10612,9 @@ fragment
 }
 else
 {
-NS_ABORT
+MOZ_ASSERT
 (
+false
 )
 ;
 shaderTypeName
@@ -17740,7 +17741,7 @@ activeBoundTextureForTarget
 target
 )
 ;
-NS_ABORT_IF_FALSE
+MOZ_ASSERT
 (
 tex
 !
@@ -20208,7 +20209,7 @@ RA8
 ;
 default
 :
-NS_ABORT_IF_FALSE
+MOZ_ASSERT
 (
 false
 "
@@ -20294,7 +20295,7 @@ RA32F
 ;
 default
 :
-NS_ABORT_IF_FALSE
+MOZ_ASSERT
 (
 false
 "
@@ -20355,7 +20356,7 @@ RGB565
 ;
 default
 :
-NS_ABORT_IF_FALSE
+MOZ_ASSERT
 (
 false
 "

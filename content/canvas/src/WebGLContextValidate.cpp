@@ -367,7 +367,7 @@ mGLName
 nameBuf
 )
 ;
-NS_ABORT_IF_FALSE
+MOZ_ASSERT
 (
 loc
 >
@@ -2411,8 +2411,9 @@ return
 16
 ;
 }
-NS_ABORT
+MOZ_ASSERT
 (
+false
 )
 ;
 return
