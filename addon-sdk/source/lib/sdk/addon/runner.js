@@ -750,6 +750,13 @@ error
 )
 ;
 }
+if
+(
+options
+.
+prefsURI
+)
+{
 setDefaultPrefs
 (
 options
@@ -757,6 +764,7 @@ options
 prefsURI
 )
 ;
+}
 let
 program
 =
