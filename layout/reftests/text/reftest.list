@@ -1064,14 +1064,6 @@ do
 subpixel
 positioning
 vertically
-fuzzy
--
-if
-(
-Android
-19
-2
-)
 =
 =
 subpixel
