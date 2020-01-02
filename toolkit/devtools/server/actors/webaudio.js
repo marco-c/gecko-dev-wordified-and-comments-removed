@@ -1374,6 +1374,9 @@ true
 performReload
 :
 reload
+holdWeak
+:
+true
 }
 )
 ;
