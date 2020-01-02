@@ -207,6 +207,10 @@ video
 .
 ogg
 \
+offlineByDefault
+.
+js
+\
 (
 NULL
 )
