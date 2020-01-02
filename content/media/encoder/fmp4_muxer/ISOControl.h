@@ -54,9 +54,6 @@ uint32_t
 aTrackType
 uint32_t
 aFragDuration
-TrackMetadataBase
-*
-aMetadata
 )
 ;
 ~
@@ -474,7 +471,7 @@ GetAudioMetadata
 (
 nsRefPtr
 <
-AACTrackMetadata
+AudioTrackMetadata
 >
 &
 aAudMeta
@@ -485,7 +482,7 @@ GetVideoMetadata
 (
 nsRefPtr
 <
-AVCTrackMetadata
+VideoTrackMetadata
 >
 &
 aVidMeta
@@ -494,8 +491,11 @@ aVidMeta
 uint32_t
 GetTrackID
 (
-uint32_t
-aTrackType
+TrackMetadataBase
+:
+:
+MetadataKind
+aKind
 )
 ;
 uint32_t

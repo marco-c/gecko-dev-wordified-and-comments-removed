@@ -28,12 +28,6 @@ class
 FragmentBuffer
 ;
 class
-AACTrackMetadata
-;
-class
-AVCTrackMetadata
-;
-class
 ISOMediaWriterRunnable
 ;
 class
