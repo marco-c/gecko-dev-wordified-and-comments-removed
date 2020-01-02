@@ -11796,13 +11796,6 @@ RemoveChild
 this
 )
 ;
-mParent
--
->
-InvalidateChildrenGroupInfo
-(
-)
-;
 }
 else
 {
