@@ -421,7 +421,7 @@ EventHandler
 onrequestmediaplaystatus
 ;
 [
-Creator
+NewObject
 Throws
 ]
 DOMRequest
@@ -432,7 +432,7 @@ name
 )
 ;
 [
-Creator
+NewObject
 Throws
 ]
 DOMRequest
@@ -443,7 +443,7 @@ discoverable
 )
 ;
 [
-Creator
+NewObject
 Throws
 ]
 DOMRequest
@@ -455,7 +455,7 @@ timeout
 )
 ;
 [
-Creator
+NewObject
 Throws
 ]
 DOMRequest
@@ -464,7 +464,7 @@ startDiscovery
 )
 ;
 [
-Creator
+NewObject
 Throws
 ]
 DOMRequest
@@ -473,7 +473,7 @@ stopDiscovery
 )
 ;
 [
-Creator
+NewObject
 Throws
 ]
 DOMRequest
@@ -484,7 +484,7 @@ device
 )
 ;
 [
-Creator
+NewObject
 Throws
 ]
 DOMRequest
@@ -495,7 +495,7 @@ device
 )
 ;
 [
-Creator
+NewObject
 Throws
 ]
 DOMRequest
@@ -504,7 +504,7 @@ getPairedDevices
 )
 ;
 [
-Creator
+NewObject
 Throws
 ]
 DOMRequest
@@ -516,7 +516,7 @@ serviceUuid
 )
 ;
 [
-Creator
+NewObject
 Throws
 ]
 DOMRequest
@@ -529,7 +529,7 @@ pinCode
 )
 ;
 [
-Creator
+NewObject
 Throws
 ]
 DOMRequest
@@ -543,7 +543,7 @@ passkey
 )
 ;
 [
-Creator
+NewObject
 Throws
 ]
 DOMRequest
@@ -707,7 +707,7 @@ optional
 *
 /
 [
-Creator
+NewObject
 Throws
 ]
 DOMRequest
@@ -722,7 +722,7 @@ serviceUuid
 )
 ;
 [
-Creator
+NewObject
 Throws
 ]
 DOMRequest
@@ -749,7 +749,7 @@ at
 a
 time
 [
-Creator
+NewObject
 Throws
 ]
 DOMRequest
@@ -762,7 +762,7 @@ blob
 )
 ;
 [
-Creator
+NewObject
 Throws
 ]
 DOMRequest
@@ -773,7 +773,7 @@ deviceAddress
 )
 ;
 [
-Creator
+NewObject
 Throws
 ]
 DOMRequest
@@ -796,7 +796,7 @@ audio
 )
 connection
 [
-Creator
+NewObject
 Throws
 ]
 DOMRequest
@@ -805,7 +805,7 @@ connectSco
 )
 ;
 [
-Creator
+NewObject
 Throws
 ]
 DOMRequest
@@ -814,7 +814,7 @@ disconnectSco
 )
 ;
 [
-Creator
+NewObject
 Throws
 ]
 DOMRequest
@@ -897,7 +897,7 @@ and
 *
 /
 [
-Creator
+NewObject
 Throws
 ]
 DOMRequest
@@ -906,7 +906,7 @@ answerWaitingCall
 )
 ;
 [
-Creator
+NewObject
 Throws
 ]
 DOMRequest
@@ -915,7 +915,7 @@ ignoreWaitingCall
 )
 ;
 [
-Creator
+NewObject
 Throws
 ]
 DOMRequest
@@ -931,7 +931,7 @@ AVRCP
 3
 methods
 [
-Creator
+NewObject
 Throws
 ]
 DOMRequest
@@ -943,7 +943,7 @@ mediaMetaData
 )
 ;
 [
-Creator
+NewObject
 Throws
 ]
 DOMRequest

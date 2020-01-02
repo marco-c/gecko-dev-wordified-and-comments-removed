@@ -447,7 +447,7 @@ elementId
 )
 ;
 [
-Creator
+NewObject
 Throws
 ]
 Element
@@ -458,7 +458,7 @@ localName
 )
 ;
 [
-Creator
+NewObject
 Throws
 ]
 Element
@@ -472,7 +472,7 @@ qualifiedName
 )
 ;
 [
-Creator
+NewObject
 ]
 DocumentFragment
 createDocumentFragment
@@ -480,7 +480,7 @@ createDocumentFragment
 )
 ;
 [
-Creator
+NewObject
 ]
 Text
 createTextNode
@@ -490,7 +490,7 @@ data
 )
 ;
 [
-Creator
+NewObject
 ]
 Comment
 createComment
@@ -500,7 +500,7 @@ data
 )
 ;
 [
-Creator
+NewObject
 Throws
 ]
 ProcessingInstruction
@@ -538,7 +538,7 @@ node
 )
 ;
 [
-Creator
+NewObject
 Throws
 ]
 Event
@@ -549,7 +549,7 @@ interface
 )
 ;
 [
-Creator
+NewObject
 Throws
 ]
 Range
@@ -565,7 +565,7 @@ SHOW_ALL
 =
 0xFFFFFFFF
 [
-Creator
+NewObject
 Throws
 ]
 NodeIterator
@@ -588,7 +588,7 @@ null
 )
 ;
 [
-Creator
+NewObject
 Throws
 ]
 TreeWalker
@@ -680,7 +680,7 @@ like
 Gecko
 extensions
 [
-Creator
+NewObject
 Throws
 ]
 CDATASection
@@ -691,7 +691,7 @@ data
 )
 ;
 [
-Creator
+NewObject
 Throws
 ]
 Attr
@@ -702,7 +702,7 @@ name
 )
 ;
 [
-Creator
+NewObject
 Throws
 ]
 Attr
@@ -2427,7 +2427,7 @@ for
 now
 .
 [
-Creator
+NewObject
 Func
 =
 "
@@ -2572,7 +2572,7 @@ C
 +
 .
 [
-Creator
+NewObject
 Func
 =
 "
@@ -2631,7 +2631,7 @@ createTouchList
 )
 .
 [
-Creator
+NewObject
 Func
 =
 "
@@ -2647,7 +2647,7 @@ createTouchList
 )
 ;
 [
-Creator
+NewObject
 Func
 =
 "

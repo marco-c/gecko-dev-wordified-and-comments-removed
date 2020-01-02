@@ -128,7 +128,7 @@ aProfile
 )
 ;
 [
-Creator
+NewObject
 Throws
 ]
 DOMRequest

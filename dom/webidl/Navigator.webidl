@@ -836,7 +836,7 @@ NavigatorDataStore
 {
 [
 Throws
-Creator
+NewObject
 Pref
 =
 "

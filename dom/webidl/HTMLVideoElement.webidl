@@ -435,7 +435,7 @@ mediasource
 .
 enabled
 "
-Creator
+NewObject
 ]
 VideoPlaybackQuality
 getVideoPlaybackQuality

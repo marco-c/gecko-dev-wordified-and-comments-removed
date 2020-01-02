@@ -322,7 +322,7 @@ deselectAll
 )
 ;
 [
-Creator
+NewObject
 ]
 SVGNumber
 createSVGNumber
@@ -330,7 +330,7 @@ createSVGNumber
 )
 ;
 [
-Creator
+NewObject
 ]
 SVGLength
 createSVGLength
@@ -338,7 +338,7 @@ createSVGLength
 )
 ;
 [
-Creator
+NewObject
 ]
 SVGAngle
 createSVGAngle
@@ -346,7 +346,7 @@ createSVGAngle
 )
 ;
 [
-Creator
+NewObject
 ]
 SVGPoint
 createSVGPoint
@@ -354,7 +354,7 @@ createSVGPoint
 )
 ;
 [
-Creator
+NewObject
 ]
 SVGMatrix
 createSVGMatrix
@@ -362,7 +362,7 @@ createSVGMatrix
 )
 ;
 [
-Creator
+NewObject
 ]
 SVGRect
 createSVGRect
@@ -370,7 +370,7 @@ createSVGRect
 )
 ;
 [
-Creator
+NewObject
 ]
 SVGTransform
 createSVGTransform
@@ -378,7 +378,7 @@ createSVGTransform
 )
 ;
 [
-Creator
+NewObject
 ]
 SVGTransform
 createSVGTransformFromMatrix
