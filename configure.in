@@ -43718,6 +43718,11 @@ test
 "
 MOZ_WEBM
 "
+-
+o
+"
+MOZ_OGG
+"
 ;
 then
 MOZ_CUBEB
