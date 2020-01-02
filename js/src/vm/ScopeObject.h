@@ -622,9 +622,6 @@ HandleShape
 shape
 HandleTypeObject
 type
-HeapSlot
-*
-slots
 )
 ;
 static
@@ -637,9 +634,6 @@ JSContext
 cx
 HandleShape
 shape
-HeapSlot
-*
-slots
 )
 ;
 static

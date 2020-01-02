@@ -789,9 +789,6 @@ HandleShape
 shape
 HandleTypeObject
 type
-HeapSlot
-*
-slots
 )
 {
 MOZ_ASSERT
@@ -883,7 +880,6 @@ gc
 DefaultHeap
 shape
 type
-slots
 )
 ;
 if
@@ -919,9 +915,6 @@ JSContext
 cx
 HandleShape
 shape
-HeapSlot
-*
-slots
 )
 {
 gc
@@ -1006,7 +999,6 @@ gc
 TenuredHeap
 shape
 type
-slots
 )
 )
 ;
