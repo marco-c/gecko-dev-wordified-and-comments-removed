@@ -90,6 +90,16 @@ helper
 "
 )
 ;
+const
+promise
+=
+require
+(
+"
+promise
+"
+)
+;
 var
 Shell
 =

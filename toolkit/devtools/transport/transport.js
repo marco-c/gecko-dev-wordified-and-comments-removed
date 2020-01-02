@@ -208,6 +208,16 @@ packets
 "
 )
 ;
+const
+promise
+=
+require
+(
+"
+promise
+"
+)
+;
 DevToolsUtils
 .
 defineLazyGetter

@@ -189,6 +189,16 @@ Services
 "
 )
 ;
+const
+promise
+=
+require
+(
+"
+promise
+"
+)
+;
 EventEmitter
 .
 decorate

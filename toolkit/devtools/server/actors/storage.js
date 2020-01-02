@@ -5510,7 +5510,12 @@ uri
 ;
 }
 return
+require
+(
+"
 indexedDB
+"
+)
 .
 openForPrincipal
 (

@@ -71,6 +71,16 @@ DevToolsUtils
 "
 )
 ;
+const
+Debugger
+=
+require
+(
+"
+Debugger
+"
+)
+;
 Cu
 .
 import

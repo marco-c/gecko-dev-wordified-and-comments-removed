@@ -27,6 +27,16 @@ Services
 "
 )
 ;
+const
+promise
+=
+require
+(
+"
+promise
+"
+)
+;
 Cu
 .
 import

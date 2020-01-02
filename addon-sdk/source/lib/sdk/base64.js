@@ -29,7 +29,7 @@ chrome
 "
 )
 ;
-const
+var
 {
 atob
 btoa
