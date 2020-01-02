@@ -478,7 +478,6 @@ SEC_ERROR_INADEQUATE_CERT_TYPE
     
 if
 (
-(
 "
 NONE
 "
@@ -494,15 +493,6 @@ or
 "
 NS
 "
-in
-int_string
-)
-and
-        
-"
-OS
-"
-not
 in
 int_string
 )
@@ -783,19 +773,11 @@ cert_usage
 )
     
 if
-(
 "
 OS
 "
 in
 ee_string
-or
-"
-OS
-"
-in
-int_string
-)
 :
         
 return
