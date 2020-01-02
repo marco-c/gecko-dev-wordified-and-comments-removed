@@ -18748,7 +18748,11 @@ ReferenceFrame
 (
 )
 container
-mVisibleRect
+mList
+.
+GetVisibleRect
+(
+)
 viewport
 (
 usingDisplayport
