@@ -13382,6 +13382,10 @@ asmJSOption
 (
 false
 )
+forceAsync
+(
+false
+)
 sourcePolicy
 (
 SAVE_SOURCE
@@ -13502,6 +13506,9 @@ werrorOption
 ;
 bool
 asmJSOption
+;
+bool
+forceAsync
 ;
 enum
 SourcePolicy
@@ -14427,6 +14434,8 @@ const
 ReadOnlyCompileOptions
 &
 options
+size_t
+length
 )
 ;
 extern
