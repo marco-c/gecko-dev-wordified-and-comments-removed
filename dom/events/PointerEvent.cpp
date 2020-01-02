@@ -634,7 +634,7 @@ AsPointerEvent
 height
 ;
 }
-int32_t
+float
 PointerEvent
 :
 :
