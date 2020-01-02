@@ -717,7 +717,10 @@ gfxASurface
 *
 aMask
 const
-gfxMatrix
+gfx
+:
+:
+Matrix
 *
 aMaskTransform
 )

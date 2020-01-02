@@ -941,7 +941,7 @@ gfxASurface
 *
 aMask
 const
-gfxMatrix
+Matrix
 *
 aMaskTransform
 )
@@ -1081,11 +1081,8 @@ aMaskTransform
 {
 maskTransform
 =
-ToMatrix
-(
 *
 aMaskTransform
-)
 ;
 }
 DrawBufferWithRotation
