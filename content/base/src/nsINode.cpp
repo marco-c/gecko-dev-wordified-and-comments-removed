@@ -1937,6 +1937,9 @@ GetTextContentInternal
 nsAString
 &
 aTextContent
+ErrorResult
+&
+aError
 )
 {
 SetDOMStringToNull

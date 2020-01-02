@@ -153,6 +153,9 @@ title
 nsAutoString
 title
 ;
+ErrorResult
+rv
+;
 /
 /
 XXX
@@ -180,6 +183,7 @@ GetContent
 GetTextContent
 (
 title
+rv
 )
 ;
 return

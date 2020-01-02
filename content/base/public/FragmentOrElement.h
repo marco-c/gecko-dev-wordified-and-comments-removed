@@ -502,6 +502,12 @@ GetTextContentInternal
 nsAString
 &
 aTextContent
+mozilla
+:
+:
+ErrorResult
+&
+aError
 )
 MOZ_OVERRIDE
 ;

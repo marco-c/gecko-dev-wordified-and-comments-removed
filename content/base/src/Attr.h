@@ -138,6 +138,9 @@ GetTextContentInternal
 nsAString
 &
 aTextContent
+ErrorResult
+&
+aError
 )
 MOZ_OVERRIDE
 ;

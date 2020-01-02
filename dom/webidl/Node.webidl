@@ -373,7 +373,7 @@ DOMString
 nodeValue
 ;
 [
-SetterThrows
+Throws
 Pure
 ]
 attribute
