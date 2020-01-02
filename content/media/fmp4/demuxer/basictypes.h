@@ -90,7 +90,7 @@ max
 #
 define
 OVERRIDE
-override
+MOZ_OVERRIDE
 #
 define
 WARN_UNUSED_RESULT
