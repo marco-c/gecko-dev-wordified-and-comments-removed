@@ -234,6 +234,7 @@ NS_IMPL_CYCLE_COLLECTION
 (
 ImportLoader
 mDocument
+mImportParent
 mLinks
 )
 ImportLoader
@@ -931,6 +932,8 @@ NS_ENSURE_SUCCESS_VOID
 rv
 )
 ;
+rv
+=
 mChannel
 -
 >
@@ -938,6 +941,11 @@ AsyncOpen
 (
 this
 nullptr
+)
+;
+NS_ENSURE_SUCCESS_VOID
+(
+rv
 )
 ;
 BlockScripts
