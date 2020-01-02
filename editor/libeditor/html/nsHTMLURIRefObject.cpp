@@ -85,6 +85,13 @@ nsString
 h
 "
 #
+include
+"
+nsAutoPtr
+.
+h
+"
+#
 define
 MATCHES
 (
