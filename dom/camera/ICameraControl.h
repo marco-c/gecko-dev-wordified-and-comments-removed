@@ -201,10 +201,10 @@ StartRecordingOptions
 uint32_t
 rotation
 ;
-uint32_t
+uint64_t
 maxFileSizeBytes
 ;
-uint32_t
+uint64_t
 maxVideoLengthMs
 ;
 bool
