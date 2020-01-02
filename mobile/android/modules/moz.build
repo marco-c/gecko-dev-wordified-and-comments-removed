@@ -181,7 +181,7 @@ MOZ_ANDROID_SYNTHAPKS
 '
 ]
 :
-EXTRA_JS_MODULES
+EXTRA_PP_JS_MODULES
 +
 =
 [
@@ -190,6 +190,11 @@ WebappManager
 .
 jsm
 '
+]
+EXTRA_JS_MODULES
++
+=
+[
 '
 WebappManagerWorker
 .
