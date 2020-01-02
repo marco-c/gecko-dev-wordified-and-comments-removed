@@ -1707,6 +1707,15 @@ result
 {
 case
 "
+low
+-
+battery
+"
+:
+break
+;
+case
+"
 wait
 "
 :
