@@ -2484,7 +2484,10 @@ write
 "
 NS_ENSURE_STATE
 (
-JS_ValueToECMAUint32
+JS
+:
+:
+ToUint32
 (
 aCx
 v
@@ -2606,7 +2609,10 @@ write
 "
 NS_ENSURE_STATE
 (
-JS_ValueToECMAUint32
+JS
+:
+:
+ToUint32
 (
 aCx
 v
