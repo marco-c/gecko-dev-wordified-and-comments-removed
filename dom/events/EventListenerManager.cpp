@@ -870,7 +870,7 @@ AddEventListenerInternal
 const
 EventListenerHolder
 &
-aListener
+aListenerHolder
 uint32_t
 aType
 nsIAtom
@@ -934,7 +934,7 @@ type
 if
 (
 !
-aListener
+aListenerHolder
 |
 |
 mClearingListeners
@@ -1018,7 +1018,7 @@ listener
 mListener
 =
 =
-aListener
+aListenerHolder
 )
 {
 return
@@ -1055,7 +1055,7 @@ listener
 >
 mListener
 =
-aListener
+aListenerHolder
 ;
 MOZ_ASSERT
 (
@@ -1129,7 +1129,7 @@ mListenerIsJSListener
 MOZ_ASSERT
 (
 !
-aListener
+aListenerHolder
 .
 HasWebIDLCallback
 (
@@ -1150,7 +1150,7 @@ eJSEventListener
 else
 if
 (
-aListener
+aListenerHolder
 .
 HasWebIDLCallback
 (
@@ -1176,7 +1176,7 @@ wjs
 =
 do_QueryInterface
 (
-aListener
+aListenerHolder
 .
 GetXPCOMCallback
 (
@@ -2243,7 +2243,7 @@ RemoveEventListenerInternal
 const
 EventListenerHolder
 &
-aListener
+aListenerHolder
 uint32_t
 aType
 nsIAtom
@@ -2264,7 +2264,7 @@ aAllEvents
 if
 (
 !
-aListener
+aListenerHolder
 |
 |
 !
@@ -2384,7 +2384,7 @@ listener
 mListener
 =
 =
-aListener
+aListenerHolder
 &
 &
 listener
@@ -2673,7 +2673,7 @@ AddEventListenerByType
 const
 EventListenerHolder
 &
-aListener
+aListenerHolder
 const
 nsAString
 &
@@ -2719,7 +2719,7 @@ atom
 ;
 AddEventListenerInternal
 (
-aListener
+aListenerHolder
 type
 atom
 aType
@@ -2736,7 +2736,7 @@ RemoveEventListenerByType
 const
 EventListenerHolder
 &
-aListener
+aListenerHolder
 const
 nsAString
 &
@@ -2782,7 +2782,7 @@ atom
 ;
 RemoveEventListenerInternal
 (
-aListener
+aListenerHolder
 type
 atom
 aType
@@ -2986,7 +2986,7 @@ nsCOMPtr
 <
 nsIJSEventListener
 >
-scriptListener
+jsListener
 ;
 NS_NewJSEventListener
 (
@@ -2996,19 +2996,19 @@ aName
 aHandler
 getter_AddRefs
 (
-scriptListener
+jsListener
 )
 )
 ;
 EventListenerHolder
-holder
+listenerHolder
 (
-scriptListener
+jsListener
 )
 ;
 AddEventListenerInternal
 (
-holder
+listenerHolder
 eventType
 aName
 aTypeString
@@ -3030,7 +3030,7 @@ else
 {
 nsIJSEventListener
 *
-scriptListener
+jsListener
 =
 listener
 -
@@ -3041,7 +3041,7 @@ GetJSListener
 ;
 MOZ_ASSERT
 (
-scriptListener
+jsListener
 "
 How
 can
@@ -3060,7 +3060,7 @@ nsIJSEventListener
 bool
 same
 =
-scriptListener
+jsListener
 -
 >
 GetHandler
@@ -3070,7 +3070,7 @@ GetHandler
 =
 aHandler
 ;
-scriptListener
+jsListener
 -
 >
 SetHandler
@@ -5213,7 +5213,7 @@ aType
 const
 EventListenerHolder
 &
-aListener
+aListenerHolder
 bool
 aUseCapture
 bool
@@ -5238,7 +5238,7 @@ aWantsUntrusted
 return
 AddEventListenerByType
 (
-aListener
+aListenerHolder
 aType
 flags
 )
@@ -5257,7 +5257,7 @@ aType
 const
 EventListenerHolder
 &
-aListener
+aListenerHolder
 bool
 aUseCapture
 )
@@ -5273,7 +5273,7 @@ aUseCapture
 ;
 RemoveEventListenerByType
 (
-aListener
+aListenerHolder
 aType
 flags
 )
@@ -5287,7 +5287,7 @@ AddListenerForAllEvents
 (
 nsIDOMEventListener
 *
-aListener
+aDOMListener
 bool
 aUseCapture
 bool
@@ -5318,14 +5318,14 @@ mInSystemGroup
 aSystemEventGroup
 ;
 EventListenerHolder
-holder
+listenerHolder
 (
-aListener
+aDOMListener
 )
 ;
 AddEventListenerInternal
 (
-holder
+listenerHolder
 NS_EVENT_ALL
 nullptr
 EmptyString
@@ -5345,7 +5345,7 @@ RemoveListenerForAllEvents
 (
 nsIDOMEventListener
 *
-aListener
+aDOMListener
 bool
 aUseCapture
 bool
@@ -5368,14 +5368,14 @@ mInSystemGroup
 aSystemEventGroup
 ;
 EventListenerHolder
-holder
+listenerHolder
 (
-aListener
+aDOMListener
 )
 ;
 RemoveEventListenerInternal
 (
-holder
+listenerHolder
 NS_EVENT_ALL
 nullptr
 EmptyString
@@ -6483,7 +6483,7 @@ i
 ;
 nsIJSEventListener
 *
-jsl
+jsListener
 =
 listener
 .
@@ -6493,12 +6493,12 @@ GetJSListener
 ;
 if
 (
-jsl
+jsListener
 )
 {
 if
 (
-jsl
+jsListener
 -
 >
 GetHandler
@@ -6515,7 +6515,7 @@ JS
 :
 ExposeObjectToActiveJS
 (
-jsl
+jsListener
 -
 >
 GetHandler
@@ -6539,7 +6539,7 @@ JSObject
 *
 scope
 =
-jsl
+jsListener
 -
 >
 GetEventScope
