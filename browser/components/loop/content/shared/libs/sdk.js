@@ -65,7 +65,7 @@ otcdn
 loggingURL
 :
 '
-http
+https
 :
 /
 /
@@ -80,7 +80,7 @@ prod
 apiURL
 :
 '
-http
+https
 :
 /
 /
