@@ -95,13 +95,10 @@ resource
 :
 /
 /
-gre
-/
-browser
 /
 modules
 /
-Experiments
+experiments
 /
 Experiments
 .
