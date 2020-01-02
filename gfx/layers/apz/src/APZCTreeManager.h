@@ -226,7 +226,6 @@ aPaintSequenceNumber
 nsEventStatus
 ReceiveInputEvent
 (
-const
 InputData
 &
 aEvent

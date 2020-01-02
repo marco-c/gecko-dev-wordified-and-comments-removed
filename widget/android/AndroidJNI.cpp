@@ -3705,9 +3705,7 @@ env
 event
 )
 ;
-const
 MultiTouchInput
-&
 input
 =
 wrapper
