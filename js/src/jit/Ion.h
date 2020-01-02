@@ -190,7 +190,7 @@ MaybeGetIonContext
 (
 )
 ;
-bool
+void
 SetIonContext
 (
 IonContext
