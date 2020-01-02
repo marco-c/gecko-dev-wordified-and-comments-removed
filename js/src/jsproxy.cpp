@@ -6914,7 +6914,7 @@ set
 (
 desc
 .
-pd
+descriptorValue
 (
 )
 )
