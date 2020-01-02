@@ -1551,11 +1551,6 @@ GlobalShutdown
 (
 )
 {
-if
-(
-gLock
-)
-{
 delete
 gLock
 ;
@@ -1563,7 +1558,6 @@ gLock
 =
 nullptr
 ;
-}
 if
 (
 gNativeToUnicode
