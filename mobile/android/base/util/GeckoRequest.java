@@ -33,6 +33,17 @@ json
 JSONObject
 ;
 import
+org
+.
+mozilla
+.
+gecko
+.
+mozglue
+.
+RobocopTarget
+;
+import
 android
 .
 util
@@ -87,6 +98,7 @@ final
 String
 data
 ;
+RobocopTarget
 public
 GeckoRequest
 (
@@ -194,6 +206,7 @@ return
 data
 ;
 }
+RobocopTarget
 public
 abstract
 void
@@ -203,6 +216,7 @@ NativeJSObject
 nativeJSObject
 )
 ;
+RobocopTarget
 public
 void
 onError
