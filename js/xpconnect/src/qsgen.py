@@ -2690,7 +2690,10 @@ n
 if
 (
 !
-JS_ValueToNumber
+JS
+:
+:
+ToNumber
 (
 cx
 {
@@ -2752,7 +2755,10 @@ n
 if
 (
 !
-JS_ValueToNumber
+JS
+:
+:
+ToNumber
 (
 cx
 {

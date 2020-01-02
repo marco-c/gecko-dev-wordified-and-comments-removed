@@ -1284,7 +1284,10 @@ num
 ;
 rc
 =
-JS_ValueToNumber
+JS
+:
+:
+ToNumber
 (
 aCtx
 value
