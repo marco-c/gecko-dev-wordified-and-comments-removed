@@ -9517,6 +9517,11 @@ gExperimentsEnabled
 )
 {
 return
+Promise
+.
+resolve
+(
+)
 ;
 }
 if
