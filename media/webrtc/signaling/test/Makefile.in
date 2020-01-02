@@ -234,6 +234,15 @@ LIB_SUFFIX
 NULL
 )
 ifdef
+JS_SHARED_LIBRARY
+LIBS
++
+=
+(
+MOZ_JS_LIBS
+)
+endif
+ifdef
 MOZ_ALSA
 LIBS
 +
