@@ -6408,6 +6408,8 @@ NS_ERROR_DOM_NOT_SUPPORTED_ERR
 SECKEYPublicKey
 *
 pubKey
+=
+nullptr
 ;
 mPrivateKey
 =
