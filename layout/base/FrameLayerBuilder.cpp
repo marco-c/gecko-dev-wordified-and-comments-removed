@@ -12947,10 +12947,6 @@ ToReferenceFrame
 (
 )
 invalid
-.
-GetBounds
-(
-)
 )
 ;
 }

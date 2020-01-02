@@ -47,6 +47,9 @@ nsIFrame
 class
 nsRenderingContext
 ;
+class
+nsIntRegion
+;
 struct
 nsRect
 ;
@@ -133,7 +136,7 @@ aPreEffectsOverflowRect
 )
 ;
 static
-nsIntRect
+nsIntRegion
 AdjustInvalidAreaForSVGEffects
 (
 nsIFrame
@@ -144,9 +147,9 @@ nsPoint
 &
 aToReferenceFrame
 const
-nsIntRect
+nsIntRegion
 &
-aInvalidRect
+aInvalidRegion
 )
 ;
 static
