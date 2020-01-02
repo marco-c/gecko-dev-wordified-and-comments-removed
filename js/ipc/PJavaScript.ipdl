@@ -352,7 +352,7 @@ result
 )
 ;
 rpc
-Call
+CallOrConstruct
 (
 uint64_t
 objId
@@ -360,6 +360,8 @@ JSParam
 [
 ]
 argv
+bool
+construct
 )
 returns
 (

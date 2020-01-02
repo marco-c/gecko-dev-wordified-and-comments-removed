@@ -443,7 +443,7 @@ result
 ;
 }
 bool
-AnswerCall
+AnswerCallOrConstruct
 (
 const
 ObjectId
@@ -456,6 +456,10 @@ JSParam
 >
 &
 argv
+const
+bool
+&
+construct
 ReturnStatus
 *
 rs
@@ -474,10 +478,11 @@ return
 Answer
 :
 :
-AnswerCall
+AnswerCallOrConstruct
 (
 objId
 argv
+construct
 rs
 result
 outparams
@@ -1005,7 +1010,7 @@ result
 ;
 }
 bool
-CallCall
+CallCallOrConstruct
 (
 const
 ObjectId
@@ -1018,6 +1023,10 @@ JSParam
 >
 &
 argv
+const
+bool
+&
+construct
 ReturnStatus
 *
 rs
@@ -1036,10 +1045,11 @@ return
 Base
 :
 :
-CallCall
+CallCallOrConstruct
 (
 objId
 argv
+construct
 rs
 result
 outparams

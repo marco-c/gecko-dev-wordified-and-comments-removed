@@ -377,7 +377,7 @@ extensible
 )
 ;
 bool
-call
+callOrConstruct
 (
 JSContext
 *
@@ -394,6 +394,8 @@ JS
 CallArgs
 &
 args
+bool
+construct
 )
 ;
 bool
@@ -854,7 +856,7 @@ result
 ;
 virtual
 bool
-CallCall
+CallCallOrConstruct
 (
 const
 ObjectId
@@ -867,6 +869,10 @@ JSParam
 >
 &
 argv
+const
+bool
+&
+construct
 ReturnStatus
 *
 rs

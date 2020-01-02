@@ -236,7 +236,7 @@ result
 )
 ;
 bool
-AnswerCall
+AnswerCallOrConstruct
 (
 const
 ObjectId
@@ -249,6 +249,10 @@ JSParam
 >
 &
 argv
+const
+bool
+&
+construct
 ReturnStatus
 *
 rs
