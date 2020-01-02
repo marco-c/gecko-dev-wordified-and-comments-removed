@@ -121,11 +121,6 @@ nsPIDOMWindow
 aWindow
 )
 ;
-~
-CameraCapabilities
-(
-)
-;
 nsresult
 Populate
 (
@@ -350,6 +345,11 @@ const
 ;
 protected
 :
+~
+CameraCapabilities
+(
+)
+;
 nsresult
 TranslateToDictionary
 (

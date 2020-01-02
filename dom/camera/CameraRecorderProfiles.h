@@ -269,8 +269,6 @@ AAC
 UNKNOWN
 }
 ;
-public
-:
 Codec
 GetCodec
 (
@@ -684,7 +682,7 @@ format
 )
 {
 return
-NS_ERROR_FAILURE
+NS_ERROR_NOT_AVAILABLE
 ;
 }
 JS
