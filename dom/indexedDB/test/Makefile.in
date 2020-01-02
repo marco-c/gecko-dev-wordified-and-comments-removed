@@ -324,15 +324,7 @@ test_objectCursors
 .
 html
 \
-test_objectStore_getAllKeys
-.
-html
-\
 test_objectStore_inline_autoincrement_key_added_on_put
-.
-html
-\
-test_objectStore_openKeyCursor
 .
 html
 \

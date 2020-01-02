@@ -113,6 +113,18 @@ dom
 indexedDB
 :
 :
+SerializedStructuredCloneReadInfo
+;
+using
+mozilla
+:
+:
+dom
+:
+:
+indexedDB
+:
+:
 SerializedStructuredCloneWriteInfo
 ;
 namespace
@@ -184,8 +196,6 @@ GetParams
 ;
 GetAllParams
 ;
-GetAllKeysParams
-;
 AddParams
 ;
 PutParams
@@ -197,8 +207,6 @@ ClearParams
 CountParams
 ;
 OpenCursorParams
-;
-OpenKeyCursorParams
 ;
 }
 ;
@@ -239,8 +247,8 @@ direction
 Key
 key
 ;
-OptionalStructuredCloneReadInfo
-optionalCloneInfo
+SerializedStructuredCloneReadInfo
+cloneInfo
 ;
 PBlob
 [
