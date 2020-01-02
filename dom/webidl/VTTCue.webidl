@@ -212,8 +212,9 @@ boolean
 pauseOnExit
 ;
 attribute
-DOMString
-regionId
+VTTRegion
+?
+region
 ;
 attribute
 DirectionSetting
