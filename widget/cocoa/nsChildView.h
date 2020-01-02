@@ -2416,6 +2416,12 @@ mozilla
 :
 :
 Mutex
+mViewTearDownLock
+;
+mozilla
+:
+:
+Mutex
 mEffectsLock
 ;
 bool
