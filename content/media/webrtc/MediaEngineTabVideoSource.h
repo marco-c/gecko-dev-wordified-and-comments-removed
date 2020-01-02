@@ -334,6 +334,12 @@ mBufW
 int
 mBufH
 ;
+int64_t
+mWindowId
+;
+bool
+mScrollWithPage
+;
 int
 mTimePerFrame
 ;

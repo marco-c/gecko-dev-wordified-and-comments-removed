@@ -141,6 +141,12 @@ frameRate
 "
 mediaSource
 "
+"
+browserWindow
+"
+"
+scrollWithPage
+"
 }
 ;
 enum
@@ -172,6 +178,13 @@ mediaSource
 "
 camera
 "
+;
+long
+long
+browserWindow
+;
+boolean
+scrollWithPage
 ;
 }
 ;
