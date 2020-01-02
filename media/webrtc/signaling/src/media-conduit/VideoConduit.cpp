@@ -572,16 +572,6 @@ cumulativeLost
 )
 {
 unsigned
-int
-ntpHigh
-ntpLow
-;
-unsigned
-int
-packetsSent
-bytesSent
-;
-unsigned
 short
 fractionLost
 ;
@@ -599,10 +589,6 @@ mPtrRTP
 GetReceivedRTCPStatistics
 (
 mChannel
-ntpHigh
-ntpLow
-packetsSent
-bytesSent
 fractionLost
 *
 cumulativeLost
