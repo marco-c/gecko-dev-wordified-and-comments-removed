@@ -708,6 +708,7 @@ ErrorResult
 aError
 )
 ;
+virtual
 void
 Blur
 (

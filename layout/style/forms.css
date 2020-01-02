@@ -4629,6 +4629,17 @@ appearance
 :
 none
 ;
+-
+moz
+-
+user
+-
+modify
+:
+read
+-
+write
+;
 flex
 :
 1
