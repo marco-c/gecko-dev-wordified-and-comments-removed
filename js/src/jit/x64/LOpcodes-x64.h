@@ -53,6 +53,11 @@ ModPowTwoI
 \
 _
 (
+ModSelfI
+)
+\
+_
+(
 PowHalfD
 )
 \
