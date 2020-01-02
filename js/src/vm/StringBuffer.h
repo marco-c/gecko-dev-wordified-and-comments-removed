@@ -85,6 +85,9 @@ bool
 >
 hasEnsuredTwoByteChars_
 ;
+size_t
+reserved_
+;
 StringBuffer
 (
 const
@@ -236,6 +239,10 @@ hasEnsuredTwoByteChars_
 (
 false
 )
+reserved_
+(
+0
+)
 {
 if
 (
@@ -271,6 +278,16 @@ size_t
 len
 )
 {
+if
+(
+len
+>
+reserved_
+)
+reserved_
+=
+len
+;
 return
 isLatin1
 (
