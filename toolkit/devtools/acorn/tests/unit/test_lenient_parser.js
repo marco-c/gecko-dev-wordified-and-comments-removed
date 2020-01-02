@@ -4,8 +4,6 @@ acorn_loose
 require
 (
 "
-acorn
-/
 acorn_loose
 "
 )

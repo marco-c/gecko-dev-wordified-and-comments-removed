@@ -127,9 +127,11 @@ apps
 styleinspector
 '
 '
-escodegen
-'
-'
 acorn
+'
+'
+pretty
+-
+fast
 '
 ]
