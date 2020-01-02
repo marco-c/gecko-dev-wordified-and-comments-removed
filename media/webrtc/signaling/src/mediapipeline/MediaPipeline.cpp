@@ -209,6 +209,11 @@ MediaPipeline
 (
 )
 {
+ASSERT_ON_THREAD
+(
+main_thread_
+)
+;
 MOZ_ASSERT
 (
 !
