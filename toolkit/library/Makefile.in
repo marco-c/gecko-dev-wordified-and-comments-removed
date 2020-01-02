@@ -658,6 +658,7 @@ STATIC_LIBS
 +
 =
 mozipcunixsocket_s
+mozkeystore_s
 endif
 #
 }
