@@ -256,6 +256,7 @@ GamepadButton
 [
 Pure
 Cached
+Frozen
 ]
 readonly
 attribute
@@ -289,6 +290,7 @@ doubles
 [
 Pure
 Cached
+Frozen
 ]
 readonly
 attribute
