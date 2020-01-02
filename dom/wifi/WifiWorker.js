@@ -6052,7 +6052,7 @@ result
 notify
 (
 "
-stationInfoUpdate
+stationinfoupdate
 "
 {
 station
@@ -12354,7 +12354,7 @@ wantScanResults
 ;
 WifiManager
 .
-onstationInfoUpdate
+onstationinfoupdate
 =
 function
 (
@@ -12365,7 +12365,7 @@ self
 _fireEvent
 (
 "
-stationInfoUpdate
+stationinfoupdate
 "
 {
 station
@@ -13228,7 +13228,7 @@ debug
 (
 "
 Firing
-connectionInfoUpdate
+connectioninfoupdate
 :
 "
 +
@@ -13243,7 +13243,7 @@ self
 _fireEvent
 (
 "
-connectionInfoUpdate
+connectioninfoupdate
 "
 info
 )
