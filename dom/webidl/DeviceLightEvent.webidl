@@ -108,6 +108,7 @@ Event
 {
 readonly
 attribute
+unrestricted
 double
 value
 ;
