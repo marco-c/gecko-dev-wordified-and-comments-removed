@@ -5864,6 +5864,16 @@ throttle
 pref
 (
 "
+apz
+.
+pan_repaint_interval
+"
+40
+)
+;
+pref
+(
+"
 gfx
 .
 canvas
