@@ -87,23 +87,12 @@ exe
 '
 )
     
-if
-os
-.
-path
-.
-exists
-(
-mozmake
-)
-:
-        
 cmd
 =
 [
 mozmake
 ]
-        
+    
 cmd
 .
 extend
@@ -116,7 +105,7 @@ argv
 :
 ]
 )
-        
+    
 shell
 =
 os
@@ -129,7 +118,7 @@ get
 SHELL
 '
 )
-        
+    
 if
 shell
 and
@@ -148,7 +137,7 @@ exe
 '
 )
 :
-            
+        
 cmd
 +
 =
@@ -164,7 +153,7 @@ exe
 %
 shell
 ]
-        
+    
 sys
 .
 exit

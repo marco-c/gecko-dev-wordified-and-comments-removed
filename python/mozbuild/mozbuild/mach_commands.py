@@ -1595,36 +1595,6 @@ CommandArgument
 (
 '
 -
-p
-'
-'
--
--
-pymake
-'
-action
-=
-'
-store_true
-'
-        
-help
-=
-'
-Force
-using
-pymake
-over
-GNU
-make
-.
-'
-)
-    
-CommandArgument
-(
-'
--
 X
 '
 '
@@ -1701,16 +1671,13 @@ self
 what
 =
 None
-pymake
-=
-False
-        
 disable_extra_make_dependencies
 =
 None
 jobs
 =
 0
+        
 verbose
 =
 False
@@ -2132,18 +2099,15 @@ backend
 RecursiveMakeBackend
 '
                     
-force_pymake
-=
-pymake
 line_handler
 =
 output
 .
 on_line
-                    
 log
 =
 False
+                    
 print_directory
 =
 False
@@ -2205,10 +2169,6 @@ b
 1
 '
 }
-                        
-force_pymake
-=
-pymake
 )
                     
 if
@@ -2272,9 +2232,6 @@ silent
 =
 not
 verbose
-force_pymake
-=
-pymake
 )
                 
 make_extra
@@ -2377,10 +2334,6 @@ silent
 =
 not
 verbose
-                        
-force_pymake
-=
-pymake
 )
                 
 self
