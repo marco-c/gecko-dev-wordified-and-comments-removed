@@ -86,7 +86,7 @@ dy
 ;
 public
 void
-scrollMarginsBy
+onSubdocumentScrollBy
 (
 float
 dx
