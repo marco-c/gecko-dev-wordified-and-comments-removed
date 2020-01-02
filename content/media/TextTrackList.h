@@ -84,6 +84,11 @@ TextTrackManager
 aTextTrackManager
 )
 ;
+~
+TextTrackList
+(
+)
+;
 virtual
 JSObject
 *
