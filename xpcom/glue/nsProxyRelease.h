@@ -199,7 +199,7 @@ true
 :
 mRawPtr
 (
-NULL
+nullptr
 )
 mStrict
 (
@@ -424,7 +424,7 @@ nsMainThreadPtrHandle
 :
 mPtr
 (
-NULL
+nullptr
 )
 {
 }

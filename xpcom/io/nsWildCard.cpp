@@ -1055,7 +1055,7 @@ T
 *
 >
 (
-NULL
+nullptr
 )
 )
 ;
@@ -2132,7 +2132,7 @@ T
 *
 expr
 =
-NULL
+nullptr
 ;
 int
 x
@@ -2269,7 +2269,7 @@ T
 *
 >
 (
-NULL
+nullptr
 )
 )
 ;

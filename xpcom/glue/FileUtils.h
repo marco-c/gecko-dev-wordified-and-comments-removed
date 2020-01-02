@@ -208,7 +208,7 @@ empty
 )
 {
 return
-NULL
+nullptr
 ;
 }
 static
@@ -224,7 +224,7 @@ if
 fd
 !
 =
-NULL
+nullptr
 )
 {
 PR_Close

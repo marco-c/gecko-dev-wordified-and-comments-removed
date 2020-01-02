@@ -216,7 +216,7 @@ nsStringInputStream
 NS_IMPL_CLASSINFO
 (
 nsStringInputStream
-NULL
+nullptr
 nsIClassInfo
 :
 :

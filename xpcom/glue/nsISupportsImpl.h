@@ -136,7 +136,7 @@ p
 )
 {
 return
-NULL
+nullptr
 ;
 }
 #

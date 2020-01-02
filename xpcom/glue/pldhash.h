@@ -1021,7 +1021,7 @@ void
 *
 arg
 =
-NULL
+nullptr
 )
 ;
 NS_COM_GLUE
@@ -1043,7 +1043,7 @@ void
 *
 arg
 =
-NULL
+nullptr
 )
 ;
 #

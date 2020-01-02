@@ -133,7 +133,7 @@ implemented
 *
 contractid
 =
-NULL
+nullptr
 ;
 return
 NS_ERROR_NOT_IMPLEMENTED
@@ -154,7 +154,7 @@ description
 *
 description
 =
-NULL
+nullptr
 ;
 return
 NS_ERROR_NOT_IMPLEMENTED
@@ -184,7 +184,7 @@ implemented
 *
 classid
 =
-NULL
+nullptr
 ;
 return
 NS_ERROR_NOT_IMPLEMENTED

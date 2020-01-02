@@ -533,7 +533,7 @@ void
 *
 userArg
 =
-NULL
+nullptr
 )
 const
 {
@@ -567,7 +567,7 @@ PL_DHashTableSizeOfExcludingThis
 (
 &
 mTable
-NULL
+nullptr
 mallocSizeOf
 )
 ;

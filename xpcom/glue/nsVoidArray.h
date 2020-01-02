@@ -507,7 +507,7 @@ void
 *
 aData
 =
-NULL
+nullptr
 )
 const
 ;

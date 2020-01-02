@@ -682,14 +682,14 @@ if
 str
 )
 return
-NULL
+nullptr
 ;
 return
 nsEscapeCount
 (
 str
 flags
-NULL
+nullptr
 )
 ;
 }

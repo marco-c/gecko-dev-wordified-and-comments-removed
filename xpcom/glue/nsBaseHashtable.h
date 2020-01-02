@@ -656,7 +656,7 @@ this
 -
 >
 mTable
-NULL
+nullptr
 mallocSizeOf
 )
 ;

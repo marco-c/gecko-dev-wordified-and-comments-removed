@@ -232,7 +232,7 @@ NS_CLASSINFO_NAME
 _class
 )
 =
-NULL
+nullptr
 ;
 #
 define

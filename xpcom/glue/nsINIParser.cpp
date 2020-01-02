@@ -675,10 +675,10 @@ buffer
 )
 -
 1
-NULL
+nullptr
 0
-NULL
-NULL
+nullptr
+nullptr
 )
 ;
 if
@@ -726,8 +726,8 @@ buffer
 1
 utf8Buffer
 flen
-NULL
-NULL
+nullptr
+nullptr
 )
 )
 {

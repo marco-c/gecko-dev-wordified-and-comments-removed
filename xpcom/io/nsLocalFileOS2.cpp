@@ -367,7 +367,7 @@ char
 )
 p
 :
-NULL
+nullptr
 ;
 }
 static
@@ -555,7 +555,7 @@ return
 *
 pSub
 ?
-NULL
+nullptr
 :
 (
 unsigned
@@ -664,7 +664,7 @@ char
 )
 p
 :
-NULL
+nullptr
 ;
 }
 static
@@ -2070,7 +2070,7 @@ if
 inst
 =
 =
-NULL
+nullptr
 )
 return
 NS_ERROR_OUT_OF_MEMORY
@@ -2822,7 +2822,7 @@ get
 (
 )
 )
-NULL
+nullptr
 )
 ;
 if
@@ -2943,7 +2943,7 @@ get
 (
 )
 )
-NULL
+nullptr
 )
 ;
 if
@@ -5656,14 +5656,14 @@ achProgram
 ;
 DosExecPgm
 (
-NULL
+nullptr
 0
 EXEC_SYNC
 achProgram
 (
 PSZ
 )
-NULL
+nullptr
 &
 rescResults
 achProgram
@@ -7409,7 +7409,7 @@ OPEN_ACTION_OPEN_IF_EXISTS
 OPEN_SHARE_DENYREADWRITE
 |
 OPEN_ACCESS_READWRITE
-NULL
+nullptr
 )
 ;
 if

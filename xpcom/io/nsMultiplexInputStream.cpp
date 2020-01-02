@@ -204,7 +204,7 @@ nsMultiplexInputStream
 NS_IMPL_CLASSINFO
 (
 nsMultiplexInputStream
-NULL
+nullptr
 nsIClassInfo
 :
 :

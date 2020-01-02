@@ -1319,7 +1319,7 @@ aFilePath
 :
 buf
 (
-NULL
+nullptr
 )
 {
 fd
@@ -1373,7 +1373,7 @@ char
 )
 mmap
 (
-NULL
+nullptr
 size
 PROT_READ
 MAP_PRIVATE
@@ -2309,10 +2309,10 @@ CreateFileW
 aFilePath
 GENERIC_READ
 FILE_SHARE_READ
-NULL
+nullptr
 OPEN_EXISTING
 FILE_FLAG_SEQUENTIAL_SCAN
-NULL
+nullptr
 )
 ;
 if

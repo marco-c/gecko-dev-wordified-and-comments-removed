@@ -781,7 +781,7 @@ void
 *
 aData
 =
-NULL
+nullptr
 )
 const
 ;
@@ -1629,7 +1629,7 @@ void
 *
 aData
 =
-NULL
+nullptr
 )
 const
 {

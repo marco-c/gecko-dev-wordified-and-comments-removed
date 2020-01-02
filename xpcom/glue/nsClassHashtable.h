@@ -257,7 +257,7 @@ if
 ent
 )
 return
-NULL
+nullptr
 ;
 return
 ent

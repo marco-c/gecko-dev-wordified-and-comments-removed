@@ -285,7 +285,7 @@ static
 nsGetKnownFolderPath
 gGetKnownFolderPath
 =
-NULL
+nullptr
 ;
 #
 endif
@@ -369,14 +369,14 @@ NS_ERROR_FAILURE
 PWSTR
 path
 =
-NULL
+nullptr
 ;
 gGetKnownFolderPath
 (
 *
 guid
 0
-NULL
+nullptr
 &
 path
 )
@@ -444,7 +444,7 @@ result
 =
 SHGetSpecialFolderPathW
 (
-NULL
+nullptr
 path
 folder
 true
@@ -548,7 +548,7 @@ ppv
 *
 ppv
 =
-NULL
+nullptr
 ;
 IShellLibrary
 *
@@ -560,7 +560,7 @@ hr
 CoCreateInstance
 (
 CLSID_ShellLibrary
-NULL
+nullptr
 CLSCTX_INPROC_SERVER
 IID_PPV_ARGS
 (
@@ -918,7 +918,7 @@ L
 AppData
 "
 )
-NULL
+nullptr
 &
 type
 (
@@ -1199,7 +1199,7 @@ if
 home_dir
 =
 =
-NULL
+nullptr
 )
 goto
 error
@@ -1218,7 +1218,7 @@ if
 config_home
 =
 =
-NULL
+nullptr
 |
 |
 config_home
@@ -1266,7 +1266,7 @@ if
 config_file
 =
 =
-NULL
+nullptr
 )
 goto
 error
@@ -1329,7 +1329,7 @@ if
 config_file
 =
 =
-NULL
+nullptr
 )
 goto
 error
@@ -1374,14 +1374,14 @@ if
 file
 =
 =
-NULL
+nullptr
 )
 goto
 error
 ;
 user_dir
 =
-NULL
+nullptr
 ;
 while
 (
@@ -1680,7 +1680,7 @@ if
 user_dir
 =
 =
-NULL
+nullptr
 )
 goto
 error2
@@ -1723,7 +1723,7 @@ if
 user_dir
 =
 =
-NULL
+nullptr
 )
 goto
 error2
@@ -1822,7 +1822,7 @@ user_dir
 error
 :
 return
-NULL
+nullptr
 ;
 }
 static
