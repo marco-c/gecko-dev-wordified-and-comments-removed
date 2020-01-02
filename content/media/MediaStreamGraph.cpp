@@ -4377,7 +4377,11 @@ stream
 stream
 -
 >
-GetBufferEnd
+GetStreamBuffer
+(
+)
+.
+GetAllTracksEnd
 (
 )
 )
