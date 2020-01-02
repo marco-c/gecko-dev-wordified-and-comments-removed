@@ -243,6 +243,17 @@ LIBRARY_NAME
 '
 memory
 '
+if
+CONFIG
+[
+'
+MOZ_GLUE_PROGRAM_LDFLAGS
+'
+]
+:
+SDK_LIBRARY
+=
+True
 #
 Keep
 jemalloc

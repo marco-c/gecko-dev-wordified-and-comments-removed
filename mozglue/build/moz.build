@@ -153,6 +153,9 @@ False
 FORCE_STATIC_LIB
 =
 True
+SDK_LIBRARY
+=
+True
 if
 CONFIG
 [

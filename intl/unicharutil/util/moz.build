@@ -166,6 +166,9 @@ unicharutil_external_s
 FORCE_STATIC_LIB
 =
 True
+SDK_LIBRARY
+=
+True
 LOCAL_INCLUDES
 +
 =

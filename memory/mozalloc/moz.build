@@ -362,6 +362,9 @@ else
 FORCE_SHARED_LIB
 =
 True
+SDK_LIBRARY
+=
+True
 #
 The
 strndup

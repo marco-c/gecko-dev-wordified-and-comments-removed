@@ -124,6 +124,9 @@ nss3
 FORCE_SHARED_LIB
 =
 True
+SDK_LIBRARY
+=
+True
 if
 CONFIG
 [

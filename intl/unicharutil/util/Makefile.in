@@ -94,11 +94,6 @@ subdirectory
 DIST_INSTALL
 =
 1
-SDK_LIBRARY
-=
-(
-LIBRARY
-)
 include
 (
 topsrcdir

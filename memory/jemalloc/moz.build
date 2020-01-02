@@ -362,6 +362,17 @@ if
 CONFIG
 [
 '
+MOZ_GLUE_PROGRAM_LDFLAGS
+'
+]
+:
+SDK_LIBRARY
+=
+True
+if
+CONFIG
+[
+'
 _MSC_VER
 '
 ]
