@@ -598,6 +598,7 @@ wrappedJSObject
 .
 targetWN
 )
+is
 )
 ;
 testJSM
@@ -608,8 +609,9 @@ gWinC
 .
 wrappedJSObject
 .
-targetDOM
+targetNodeList
 )
+is
 )
 ;
 testJSM
@@ -620,8 +622,9 @@ gWinC
 .
 wrappedJSObject
 .
-targetJS
+targetXHR
 )
+is
 )
 ;
 /
@@ -656,7 +659,7 @@ gWinB
 .
 wrappedJSObject
 .
-targetDOM
+targetNodeList
 )
 )
 ;
@@ -668,7 +671,7 @@ gWinB
 .
 wrappedJSObject
 .
-targetJS
+targetXHR
 )
 )
 ;
@@ -707,6 +710,7 @@ function
 testJSM
 (
 target
+is_op
 )
 {
 target
@@ -738,7 +742,7 @@ baz
 checkFromJSM
 (
 target
-is
+is_op
 )
 ;
 }
