@@ -360,7 +360,7 @@ type
 TileLock
 :
 :
-TShmem
+TShmemSection
 )
 {
 sharedLock
@@ -373,7 +373,7 @@ Open
 aAllocator
 ipcLock
 .
-get_Shmem
+get_ShmemSection
 (
 )
 )
