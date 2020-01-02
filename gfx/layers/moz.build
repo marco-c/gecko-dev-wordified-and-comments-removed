@@ -1046,6 +1046,11 @@ ShadowLayerUtilsMac
 cpp
 '
 '
+MacIOSurfaceImage
+.
+cpp
+'
+'
 opengl
 /
 GLManager
