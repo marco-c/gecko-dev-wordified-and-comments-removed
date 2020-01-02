@@ -194,13 +194,16 @@ set
 "
 )
 ;
-is
+ok
 (
 tooltip
 .
 content
 .
 className
+.
+contains
+(
 "
 devtools
 -
@@ -212,6 +215,7 @@ text
 -
 container
 "
+)
 "
 The
 tooltip
@@ -252,7 +256,7 @@ tooltip
 "
 )
 ;
-is
+ok
 (
 messages
 [
@@ -260,6 +264,9 @@ messages
 ]
 .
 className
+.
+contains
+(
 "
 devtools
 -
@@ -269,6 +276,7 @@ simple
 -
 text
 "
+)
 "
 The
 first
@@ -280,7 +288,7 @@ correctly
 "
 )
 ;
-is
+ok
 (
 messages
 [
@@ -288,6 +296,9 @@ messages
 ]
 .
 className
+.
+contains
+(
 "
 devtools
 -
@@ -297,6 +308,7 @@ simple
 -
 text
 "
+)
 "
 The
 second

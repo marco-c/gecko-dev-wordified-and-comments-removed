@@ -1637,7 +1637,7 @@ coords
 =
 gEditor
 .
-cursorCoords
+getCoordsFromPosition
 (
 {
 line

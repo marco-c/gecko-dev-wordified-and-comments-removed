@@ -2630,10 +2630,7 @@ GUTTER_ERROR_PANEL_OFFSET_X
 tooltip
 .
 setTextContent
-.
-apply
 (
-tooltip
 messages
 )
 ;

@@ -1791,7 +1791,7 @@ scrollY
 ;
 gVariables
 .
-_boxObject
+boxObject
 .
 getPosition
 (
