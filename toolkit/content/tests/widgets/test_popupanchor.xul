@@ -137,11 +137,6 @@ type
 "
 arrow
 "
-animate
-=
-"
-false
-"
 noautohide
 =
 "

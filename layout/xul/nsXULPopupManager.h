@@ -584,8 +584,6 @@ nsPopupType
 aPopupType
 bool
 aDeselectMenu
-bool
-aIsRollup
 )
 :
 mPopup
@@ -607,10 +605,6 @@ aPopupType
 mDeselectMenu
 (
 aDeselectMenu
-)
-mIsRollup
-(
-aIsRollup
 )
 {
 NS_ASSERTION
@@ -658,9 +652,6 @@ mPopupType
 ;
 bool
 mDeselectMenu
-;
-bool
-mIsRollup
 ;
 }
 ;
@@ -822,10 +813,6 @@ nsXULPopupHidingEvent
 friend
 class
 nsXULMenuCommandEvent
-;
-friend
-class
-TransitionEnder
 ;
 NS_DECL_ISUPPORTS
 NS_DECL_NSIOBSERVER
@@ -1112,8 +1099,6 @@ bool
 aDeselectMenu
 bool
 aAsynchronous
-bool
-aIsRollup
 nsIContent
 *
 aLastPopup
@@ -1459,18 +1444,6 @@ nsPopupType
 aPopupType
 bool
 aDeselectMenu
-bool
-aIsRollup
-)
-;
-void
-HidePopupFrame
-(
-nsIContent
-*
-aPopup
-bool
-aDeselectMenu
 )
 ;
 void
@@ -1504,8 +1477,6 @@ nsPopupType
 aPopupType
 bool
 aDeselectMenu
-bool
-aIsRollup
 )
 ;
 bool

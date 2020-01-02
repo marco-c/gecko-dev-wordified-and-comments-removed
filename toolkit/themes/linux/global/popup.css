@@ -56,6 +56,11 @@ arrow
 "
 ]
 {
+transition
+:
+opacity
+300ms
+;
 -
 moz
 -
