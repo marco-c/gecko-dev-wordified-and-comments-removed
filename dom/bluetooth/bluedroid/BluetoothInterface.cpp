@@ -171,6 +171,8 @@ Obj
 typename
 Res
 typename
+Tin1
+typename
 Arg1
 >
 class
@@ -258,7 +260,7 @@ Obj
 >
 mObj
 ;
-void
+Res
 (
 Obj
 :
@@ -270,7 +272,7 @@ mMethod
 Arg1
 )
 ;
-Arg1
+Tin1
 mArg1
 ;
 }
@@ -282,6 +284,12 @@ Obj
 typename
 Res
 typename
+Tin1
+typename
+Tin2
+typename
+Tin3
+typename
 Arg1
 typename
 Arg2
@@ -393,7 +401,7 @@ Obj
 >
 mObj
 ;
-void
+Res
 (
 Obj
 :
@@ -407,13 +415,13 @@ Arg2
 Arg3
 )
 ;
-Arg1
+Tin1
 mArg1
 ;
-Arg2
+Tin2
 mArg2
 ;
-Arg3
+Tin3
 mArg3
 ;
 }
@@ -452,6 +460,7 @@ BluetoothInterfaceRunnable1
 BluetoothSocketResultHandler
 void
 int
+int
 >
 BluetoothSocketIntResultRunnable
 ;
@@ -460,6 +469,10 @@ BluetoothInterfaceRunnable3
 <
 BluetoothSocketResultHandler
 void
+int
+const
+nsString
+int
 int
 const
 nsAString_internal
@@ -473,6 +486,7 @@ BluetoothInterfaceRunnable1
 <
 BluetoothSocketResultHandler
 void
+bt_status_t
 bt_status_t
 >
 BluetoothSocketErrorRunnable
@@ -2160,6 +2174,7 @@ BluetoothInterfaceRunnable1
 BluetoothHandsfreeResultHandler
 void
 bt_status_t
+bt_status_t
 >
 BluetoothHandsfreeErrorRunnable
 ;
@@ -3070,6 +3085,7 @@ BluetoothInterfaceRunnable1
 BluetoothA2dpResultHandler
 void
 bt_status_t
+bt_status_t
 >
 BluetoothA2dpErrorRunnable
 ;
@@ -3414,6 +3430,7 @@ BluetoothInterfaceRunnable1
 <
 BluetoothAvrcpResultHandler
 void
+bt_status_t
 bt_status_t
 >
 BluetoothAvrcpErrorRunnable
@@ -4110,6 +4127,7 @@ BluetoothInterfaceRunnable1
 <
 BluetoothResultHandler
 void
+int
 int
 >
 BluetoothErrorRunnable
