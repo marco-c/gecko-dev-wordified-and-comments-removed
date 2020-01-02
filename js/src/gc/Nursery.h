@@ -1149,6 +1149,14 @@ nelems
 )
 ;
 void
+freeHugeSlots
+(
+JSRuntime
+*
+rt
+)
+;
+void
 sweep
 (
 JSRuntime

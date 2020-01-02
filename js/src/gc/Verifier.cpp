@@ -3627,7 +3627,7 @@ rt
 >
 gcStoreBuffer
 .
-mark
+markAll
 (
 trc
 )
