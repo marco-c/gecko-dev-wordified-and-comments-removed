@@ -4480,6 +4480,9 @@ shrinkAllocableSpace
 (
 )
 {
+#
+ifdef
+JS_GC_ZEAL
 if
 (
 runtime
@@ -4494,6 +4497,8 @@ ZealGenerationalGCValue
 )
 return
 ;
+#
+endif
 numActiveChunks_
 =
 Max
