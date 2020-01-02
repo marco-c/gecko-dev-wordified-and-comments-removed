@@ -454,6 +454,11 @@ mMaskLayer
 effectChain
 )
 ;
+AddBlendModeEffect
+(
+effectChain
+)
+;
 gfx
 :
 :

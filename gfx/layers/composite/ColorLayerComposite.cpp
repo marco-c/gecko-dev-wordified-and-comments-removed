@@ -246,6 +246,11 @@ GetEffectiveOpacity
 (
 )
 ;
+AddBlendModeEffect
+(
+effects
+)
+;
 const
 gfx
 :

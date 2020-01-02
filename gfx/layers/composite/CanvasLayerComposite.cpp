@@ -447,6 +447,11 @@ effectChain
 this
 )
 ;
+AddBlendModeEffect
+(
+effectChain
+)
+;
 LayerManagerComposite
 :
 :

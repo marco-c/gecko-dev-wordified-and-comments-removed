@@ -1089,6 +1089,14 @@ DestroyFrontBuffer
 {
 }
 void
+AddBlendModeEffect
+(
+EffectChain
+&
+aEffectChain
+)
+;
+void
 SetShadowVisibleRegion
 (
 const
