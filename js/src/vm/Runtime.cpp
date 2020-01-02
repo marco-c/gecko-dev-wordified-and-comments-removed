@@ -2618,6 +2618,7 @@ SignalBasedTriggersDisabled
 RequestInterruptForAsmJSCode
 (
 this
+mode
 )
 ;
 jit

@@ -46,6 +46,8 @@ RequestInterruptForAsmJSCode
 JSRuntime
 *
 rt
+int
+interruptMode
 )
 ;
 #
