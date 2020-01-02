@@ -25,7 +25,6 @@ enabled
 expected
 :
 "
-no
 "
 type
 )
