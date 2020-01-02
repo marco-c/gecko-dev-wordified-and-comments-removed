@@ -10311,6 +10311,7 @@ type
 typeLabel
 )
 \
+explicit
 FilterAttribute
 (
 type
@@ -10378,6 +10379,7 @@ MAKE_CONSTRUCTOR_AND_ACCESSOR_CLASS
 className
 )
 \
+explicit
 FilterAttribute
 (
 const

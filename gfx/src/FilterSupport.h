@@ -1013,6 +1013,7 @@ FilterPrimitiveDescription
 (
 )
 ;
+explicit
 FilterPrimitiveDescription
 (
 PrimitiveType
@@ -1372,6 +1373,7 @@ FilterDescription
 )
 {
 }
+explicit
 FilterDescription
 (
 const

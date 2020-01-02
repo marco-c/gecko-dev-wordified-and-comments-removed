@@ -587,6 +587,7 @@ gfxDrawingCallback
 {
 public
 :
+explicit
 DrawingCallbackFromDrawable
 (
 gfxDrawable

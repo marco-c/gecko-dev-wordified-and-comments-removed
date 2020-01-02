@@ -31,6 +31,7 @@ gfxFontShaper
 {
 public
 :
+explicit
 gfxCoreTextShaper
 (
 gfxMacFont

@@ -9505,6 +9505,7 @@ AFTER_GL_CALL
 }
 protected
 :
+explicit
 GLContext
 (
 const

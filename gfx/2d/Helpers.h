@@ -22,6 +22,7 @@ AutoSaveTransform
 {
 public
 :
+explicit
 AutoSaveTransform
 (
 DrawTarget

@@ -61,6 +61,7 @@ gfxDrawable
 )
 public
 :
+explicit
 gfxDrawable
 (
 const

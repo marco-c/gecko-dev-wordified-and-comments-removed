@@ -2574,6 +2574,7 @@ FontTableBlobData
 {
 public
 :
+explicit
 FontTableBlobData
 (
 FallibleTArray
@@ -30135,6 +30136,7 @@ nullptr
 struct
 PrefFontCallbackData
 {
+explicit
 PrefFontCallbackData
 (
 nsTArray
@@ -34649,6 +34651,7 @@ false
 struct
 BufferAlphaColor
 {
+explicit
 BufferAlphaColor
 (
 gfxContext

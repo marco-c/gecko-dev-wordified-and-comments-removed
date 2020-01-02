@@ -114,6 +114,7 @@ bool
 aClear
 )
 ;
+explicit
 gfxImageSurface
 (
 cairo_surface_t

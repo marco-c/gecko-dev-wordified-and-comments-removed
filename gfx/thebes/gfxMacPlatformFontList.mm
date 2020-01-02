@@ -2253,6 +2253,7 @@ gfxFontFamily
 {
 public
 :
+explicit
 gfxMacFontFamily
 (
 nsAString
@@ -3207,6 +3208,7 @@ gfxFontFamily
 {
 public
 :
+explicit
 gfxSingleFaceMacFontFamily
 (
 nsAString

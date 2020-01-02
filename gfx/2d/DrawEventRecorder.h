@@ -69,6 +69,7 @@ MOZ_DECLARE_REFCOUNTED_VIRTUAL_TYPENAME
 (
 DrawEventRecorderPrivate
 )
+explicit
 DrawEventRecorderPrivate
 (
 std
@@ -240,6 +241,7 @@ MOZ_DECLARE_REFCOUNTED_VIRTUAL_TYPENAME
 (
 DrawEventRecorderFile
 )
+explicit
 DrawEventRecorderFile
 (
 const

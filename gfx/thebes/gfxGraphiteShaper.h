@@ -28,6 +28,7 @@ gfxFontShaper
 {
 public
 :
+explicit
 gfxGraphiteShaper
 (
 gfxFont

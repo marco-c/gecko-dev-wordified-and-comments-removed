@@ -69,6 +69,7 @@ SourceSurfaceCG
 )
 {
 }
+explicit
 SourceSurfaceCG
 (
 CGImageRef
@@ -176,6 +177,7 @@ DataSourceSurfaceCG
 )
 {
 }
+explicit
 DataSourceSurfaceCG
 (
 CGImageRef
@@ -325,6 +327,7 @@ MOZ_DECLARE_REFCOUNTED_VIRTUAL_TYPENAME
 (
 DataSourceSurfaceCGBitmapContext
 )
+explicit
 SourceSurfaceCGBitmapContext
 (
 DrawTargetCG
@@ -490,6 +493,7 @@ MOZ_DECLARE_REFCOUNTED_VIRTUAL_TYPENAME
 (
 DataSourceSurfaceCGIOSurfaceContext
 )
+explicit
 SourceSurfaceCGIOSurfaceContext
 (
 DrawTargetCG

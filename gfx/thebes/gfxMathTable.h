@@ -37,6 +37,7 @@ gfxMathTable
 {
 public
 :
+explicit
 gfxMathTable
 (
 hb_blob_t

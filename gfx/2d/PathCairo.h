@@ -47,6 +47,7 @@ MOZ_DECLARE_REFCOUNTED_VIRTUAL_TYPENAME
 (
 PathBuilderCairo
 )
+explicit
 PathBuilderCairo
 (
 FillRule
@@ -204,6 +205,7 @@ Point
 aCurrentPoint
 )
 ;
+explicit
 PathCairo
 (
 cairo_t

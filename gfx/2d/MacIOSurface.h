@@ -386,6 +386,7 @@ aHasAlpha
 true
 )
 ;
+explicit
 MacIOSurface
 (
 const

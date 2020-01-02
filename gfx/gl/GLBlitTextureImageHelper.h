@@ -68,6 +68,7 @@ aTexture
 ;
 public
 :
+explicit
 GLBlitTextureImageHelper
 (
 GLContext

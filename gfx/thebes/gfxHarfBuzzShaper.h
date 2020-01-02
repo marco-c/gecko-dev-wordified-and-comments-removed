@@ -35,6 +35,7 @@ gfxFontShaper
 {
 public
 :
+explicit
 gfxHarfBuzzShaper
 (
 gfxFont

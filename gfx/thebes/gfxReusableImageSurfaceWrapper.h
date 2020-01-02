@@ -22,6 +22,7 @@ gfxReusableSurfaceWrapper
 {
 public
 :
+explicit
 gfxReusableImageSurfaceWrapper
 (
 gfxImageSurface
