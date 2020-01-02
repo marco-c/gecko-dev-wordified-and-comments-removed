@@ -431,7 +431,10 @@ GetBackendType
 const
 {
 return
-BACKEND_SKIA
+BackendType
+:
+:
+SKIA
 ;
 }
 std
@@ -2782,7 +2785,10 @@ GetBackendType
 )
 !
 =
-BACKEND_SKIA
+BackendType
+:
+:
+SKIA
 )
 {
 return
@@ -3045,7 +3051,10 @@ GetBackendType
 )
 !
 =
-BACKEND_SKIA
+BackendType
+:
+:
+SKIA
 )
 {
 return
@@ -4846,7 +4855,10 @@ GetBackendType
 )
 !
 =
-BACKEND_SKIA
+BackendType
+:
+:
+SKIA
 )
 {
 return

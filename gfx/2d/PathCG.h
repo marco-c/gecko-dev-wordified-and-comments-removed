@@ -257,7 +257,10 @@ GetBackendType
 const
 {
 return
-BACKEND_COREGRAPHICS
+BackendType
+:
+:
+COREGRAPHICS
 ;
 }
 virtual

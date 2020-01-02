@@ -895,7 +895,10 @@ aDrawTarget
 >
 GetNativeSurface
 (
-NATIVE_SURFACE_CGCONTEXT
+NativeSurfaceType
+:
+:
+CGCONTEXT
 )
 ;
 if
@@ -1110,7 +1113,10 @@ aDrawTarget
 >
 GetNativeSurface
 (
-NATIVE_SURFACE_CGCONTEXT_ACCELERATED
+NativeSurfaceType
+:
+:
+CGCONTEXT_ACCELERATED
 )
 ;
 RefPtr

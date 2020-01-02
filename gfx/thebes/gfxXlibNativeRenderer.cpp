@@ -2301,7 +2301,10 @@ drawTarget
 >
 GetNativeSurface
 (
-NATIVE_SURFACE_CAIRO_SURFACE
+NativeSurfaceType
+:
+:
+CAIRO_SURFACE
 )
 )
 ;

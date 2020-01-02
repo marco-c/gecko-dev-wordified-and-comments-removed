@@ -5500,7 +5500,10 @@ Factory
 :
 CreateDrawTarget
 (
-BACKEND_CAIRO
+BackendType
+:
+:
+CAIRO
 aRect
 .
 Size

@@ -271,7 +271,10 @@ GetBackendType
 const
 {
 return
-BACKEND_RECORDING
+BackendType
+:
+:
+RECORDING
 ;
 }
 virtual

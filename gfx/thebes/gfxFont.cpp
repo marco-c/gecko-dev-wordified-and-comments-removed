@@ -12663,7 +12663,10 @@ GetType
 )
 !
 =
-BACKEND_CAIRO
+BackendType
+:
+:
+CAIRO
 )
 {
 cairo_matrix_t

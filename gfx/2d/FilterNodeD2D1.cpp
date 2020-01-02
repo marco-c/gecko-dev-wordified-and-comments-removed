@@ -404,7 +404,10 @@ GetType
 )
 =
 =
-BACKEND_DIRECT2D1_1
+BackendType
+:
+:
+DIRECT2D1_1
 )
 {
 return

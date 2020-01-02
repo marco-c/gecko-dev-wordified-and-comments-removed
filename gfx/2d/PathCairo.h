@@ -216,7 +216,10 @@ GetBackendType
 const
 {
 return
-BACKEND_CAIRO
+BackendType
+:
+:
+CAIRO
 ;
 }
 virtual

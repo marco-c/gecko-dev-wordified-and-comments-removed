@@ -530,7 +530,10 @@ Factory
 :
 CreateDrawTargetForData
 (
-BACKEND_CAIRO
+BackendType
+:
+:
+CAIRO
 (
 uint8_t
 *

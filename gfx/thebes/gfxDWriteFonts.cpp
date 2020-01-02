@@ -3192,7 +3192,10 @@ GetType
 )
 =
 =
-BACKEND_CAIRO
+BackendType
+:
+:
+CAIRO
 ;
 if
 (

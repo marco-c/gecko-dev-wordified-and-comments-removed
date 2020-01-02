@@ -1425,7 +1425,10 @@ GetType
 )
 =
 =
-BACKEND_CAIRO
+BackendType
+:
+:
+CAIRO
 |
 |
 aTarget
@@ -1436,7 +1439,10 @@ GetType
 )
 =
 =
-BACKEND_SKIA
+BackendType
+:
+:
+SKIA
 )
 {
 nativeFont

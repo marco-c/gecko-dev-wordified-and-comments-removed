@@ -16891,7 +16891,10 @@ GetType
 )
 =
 =
-BACKEND_DIRECT2D
+BackendType
+:
+:
+DIRECT2D
 ;
 }
 static

@@ -69,7 +69,10 @@ Factory
 :
 CreateDrawTarget
 (
-BACKEND_CAIRO
+BackendType
+:
+:
+CAIRO
 IntSize
 (
 100
@@ -92,7 +95,10 @@ Factory
 :
 CreateDrawTarget
 (
-BACKEND_CAIRO
+BackendType
+:
+:
+CAIRO
 IntSize
 (
 100
@@ -506,7 +512,10 @@ Factory
 :
 CreateDrawTarget
 (
-BACKEND_CAIRO
+BackendType
+:
+:
+CAIRO
 IntSize
 (
 500

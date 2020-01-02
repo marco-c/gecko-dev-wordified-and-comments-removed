@@ -15295,7 +15295,10 @@ CreateDrawTarget
 gfx
 :
 :
-BACKEND_COREGRAPHICS
+BackendType
+:
+:
+COREGRAPHICS
 size
 gfx
 :
@@ -20171,7 +20174,10 @@ SupportsAzureContentForType
 gfx
 :
 :
-BACKEND_CAIRO
+BackendType
+:
+:
+CAIRO
 )
 )
 {
@@ -20248,7 +20254,10 @@ SupportsAzureContentForType
 gfx
 :
 :
-BACKEND_COREGRAPHICS
+BackendType
+:
+:
+COREGRAPHICS
 )
 )
 {
