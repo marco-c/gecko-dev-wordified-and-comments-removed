@@ -1117,9 +1117,6 @@ cur
 HandleAtom
 prefixArg
 =
-js
-:
-:
 NullPtr
 (
 )
