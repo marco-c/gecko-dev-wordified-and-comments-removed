@@ -120,7 +120,7 @@ PluginScriptableObjectChild
 (
 )
 ;
-void
+bool
 InitializeProxy
 (
 )
