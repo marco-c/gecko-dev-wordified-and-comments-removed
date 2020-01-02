@@ -2153,7 +2153,7 @@ TestRunner
 .
 _hasMemoryStatistics
 .
-heapAllocated
+vsizeMaxContiguous
 =
 MEM_STAT_UNKNOWN
 ;
@@ -2161,7 +2161,7 @@ TestRunner
 .
 _hasMemoryStatistics
 .
-largestContiguousVMBlock
+heapAllocated
 =
 MEM_STAT_UNKNOWN
 ;
