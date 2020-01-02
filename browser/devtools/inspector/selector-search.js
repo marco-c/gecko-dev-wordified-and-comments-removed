@@ -214,9 +214,6 @@ panel
 -
 listbox
 "
-fixedWidth
-:
-true
 autoSelect
 :
 true

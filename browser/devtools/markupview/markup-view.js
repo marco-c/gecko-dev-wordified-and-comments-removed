@@ -441,9 +441,6 @@ let
 options
 =
 {
-fixedWidth
-:
-true
 autoSelect
 :
 true
