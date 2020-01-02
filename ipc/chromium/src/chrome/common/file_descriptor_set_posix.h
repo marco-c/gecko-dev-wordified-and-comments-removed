@@ -63,7 +63,7 @@ enum
 {
 MAX_DESCRIPTORS_PER_MESSAGE
 =
-7
+4
 }
 ;
 bool

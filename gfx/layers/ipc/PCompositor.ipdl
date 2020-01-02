@@ -109,6 +109,10 @@ LayersSurfaces
 ;
 include
 protocol
+PGrallocBuffer
+;
+include
+protocol
 PLayerTransaction
 ;
 include
