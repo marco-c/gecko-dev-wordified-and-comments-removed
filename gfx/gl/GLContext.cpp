@@ -340,6 +340,9 @@ GL_ARB_texture_float
 GL_OES_texture_half_float
 "
 "
+GL_OES_texture_half_float_linear
+"
+"
 GL_NV_half_float
 "
 "
