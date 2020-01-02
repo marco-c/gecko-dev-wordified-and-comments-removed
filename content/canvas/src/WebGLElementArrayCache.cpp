@@ -93,7 +93,7 @@ WebGLElementArrayCache
 &
 mParent
 ;
-nsTArray
+FallibleTArray
 <
 T
 >
