@@ -3738,6 +3738,14 @@ mBoxOrdinal
 aOther
 .
 mBoxOrdinal
+&
+&
+mStretchStack
+=
+=
+aOther
+.
+mStretchStack
 )
 return
 NS_STYLE_HINT_NONE
