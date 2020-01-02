@@ -2545,6 +2545,13 @@ components
 nsBlocklistService
 .
 js
+BINPATH
+/
+components
+/
+OopCommandLine
+.
+js
 #
 endif
 #
