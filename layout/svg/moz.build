@@ -352,3 +352,13 @@ style
 xul
 '
 ]
+RESOURCE_FILES
++
+=
+[
+'
+svg
+.
+css
+'
+]

@@ -720,3 +720,14 @@ jar
 mn
 '
 ]
+RESOURCE_FILES
+.
+html
+=
+[
+'
+folder
+.
+png
+'
+]

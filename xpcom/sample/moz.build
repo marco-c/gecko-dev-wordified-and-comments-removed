@@ -287,3 +287,17 @@ library
 IS_COMPONENT
 =
 True
+RESOURCE_FILES
+.
+samples
++
+=
+[
+'
+xpconnect
+-
+sample
+.
+html
+'
+]
