@@ -249,6 +249,7 @@ JSSLOT_DEBUGSOURCE_OWNER
 JSSLOT_DEBUGSOURCE_COUNT
 }
 ;
+static
 bool
 ReportMoreArgsNeeded
 (
@@ -363,6 +364,7 @@ n
 ;
 \
 JS_END_MACRO
+static
 bool
 ReportObjectRequired
 (
@@ -383,6 +385,7 @@ return
 false
 ;
 }
+static
 bool
 ValueToIdentifier
 (

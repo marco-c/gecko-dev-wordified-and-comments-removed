@@ -833,6 +833,7 @@ return
 true
 ;
 }
+static
 void
 ReplaceNode
 (

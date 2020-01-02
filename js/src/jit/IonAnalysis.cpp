@@ -1125,6 +1125,7 @@ return
 false
 ;
 }
+static
 inline
 MDefinition
 *

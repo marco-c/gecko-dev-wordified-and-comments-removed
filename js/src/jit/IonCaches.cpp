@@ -11326,6 +11326,7 @@ return
 true
 ;
 }
+static
 bool
 IsCacheableDOMProxyUnshadowedSetterCall
 (

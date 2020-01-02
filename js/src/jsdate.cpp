@@ -212,6 +212,7 @@ JS
 :
 GenericNaN
 ;
+static
 inline
 double
 Day
@@ -261,6 +262,7 @@ return
 result
 ;
 }
+static
 inline
 bool
 IsLeapYear
@@ -313,6 +315,7 @@ year
 )
 ;
 }
+static
 inline
 double
 DaysInYear
@@ -345,6 +348,7 @@ year
 365
 ;
 }
+static
 inline
 double
 DayFromYear
@@ -402,6 +406,7 @@ y
 )
 ;
 }
+static
 inline
 double
 TimeFromYear
@@ -514,6 +519,7 @@ return
 y
 ;
 }
+static
 inline
 int
 DaysInFebruary
@@ -533,6 +539,7 @@ year
 28
 ;
 }
+static
 inline
 double
 DayWithinYear
@@ -1103,6 +1110,7 @@ return
 result
 ;
 }
+static
 inline
 int
 DayFromMonth
@@ -1186,6 +1194,7 @@ template
 typename
 T
 >
+static
 inline
 int
 DayFromMonth
@@ -1337,6 +1346,7 @@ dt
 1
 ;
 }
+static
 inline
 double
 MakeDate

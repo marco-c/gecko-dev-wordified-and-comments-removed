@@ -2663,6 +2663,7 @@ true
 }
 #
 endif
+static
 bool
 obj_getPrototypeOf
 (

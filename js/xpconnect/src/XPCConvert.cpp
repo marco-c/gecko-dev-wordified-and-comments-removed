@@ -4210,6 +4210,7 @@ return
 true
 ;
 }
+static
 inline
 bool
 CreateHolderIfNeeded

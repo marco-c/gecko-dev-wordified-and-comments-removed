@@ -7402,6 +7402,7 @@ mode
 ;
 }
 }
+static
 void
 printf0_
 (
@@ -7498,6 +7499,7 @@ Volatile
 )
 ;
 }
+static
 void
 printf1_
 (

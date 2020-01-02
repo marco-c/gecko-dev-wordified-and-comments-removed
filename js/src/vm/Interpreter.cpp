@@ -1021,6 +1021,7 @@ ok
 }
 #
 endif
+static
 inline
 bool
 GetPropertyOperation
@@ -1495,6 +1496,7 @@ vp
 )
 ;
 }
+static
 inline
 bool
 SetPropertyOperation
@@ -5655,6 +5657,7 @@ fp_
 )
 ;
 }
+static
 inline
 bool
 ComputeImplicitThis

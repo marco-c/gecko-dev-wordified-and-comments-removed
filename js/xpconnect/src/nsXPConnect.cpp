@@ -1466,6 +1466,7 @@ GetJSObject
 ;
 }
 }
+static
 inline
 nsresult
 UnexpectedFailure
@@ -6515,12 +6516,14 @@ return
 NS_OK
 ;
 }
+static
 const
 uint8_t
 HAS_PRINCIPALS_FLAG
 =
 1
 ;
+static
 const
 uint8_t
 HAS_ORIGIN_PRINCIPALS_FLAG

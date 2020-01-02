@@ -37721,6 +37721,7 @@ return
 true
 ;
 }
+static
 inline
 bool
 TestClassHasAccessorHook
@@ -37768,6 +37769,7 @@ return
 false
 ;
 }
+static
 inline
 bool
 TestTypeHasOwnProperty
@@ -37827,6 +37829,7 @@ return
 true
 ;
 }
+static
 inline
 bool
 TestCommonAccessorProtoChain
@@ -37976,6 +37979,7 @@ return
 true
 ;
 }
+static
 inline
 bool
 SearchCommonPropFunc

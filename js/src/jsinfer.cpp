@@ -12146,6 +12146,7 @@ return
 true
 ;
 }
+static
 inline
 void
 InlineAddTypeProperty

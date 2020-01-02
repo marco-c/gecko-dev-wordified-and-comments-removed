@@ -18934,6 +18934,7 @@ return
 ida
 ;
 }
+static
 const
 uint32_t
 JSSLOT_ITER_INDEX

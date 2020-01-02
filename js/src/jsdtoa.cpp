@@ -61,6 +61,7 @@ ULong
 uint32_t
 #
 endif
+static
 inline
 void
 *
@@ -77,6 +78,7 @@ size
 )
 ;
 }
+static
 inline
 void
 dtoa_free

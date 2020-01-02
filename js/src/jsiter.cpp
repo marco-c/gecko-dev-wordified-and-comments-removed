@@ -4543,6 +4543,7 @@ rval
 )
 ;
 }
+static
 bool
 iterator_next
 (
@@ -4776,6 +4777,7 @@ iterator_iteratorObject
 }
 }
 ;
+static
 const
 uint32_t
 CLOSED_INDEX

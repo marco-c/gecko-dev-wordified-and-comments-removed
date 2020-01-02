@@ -836,8 +836,8 @@ alignment
 )
 ;
 }
-JS_ALWAYS_INLINE
 static
+JS_ALWAYS_INLINE
 size_t
 UnsignedPtrDiff
 (

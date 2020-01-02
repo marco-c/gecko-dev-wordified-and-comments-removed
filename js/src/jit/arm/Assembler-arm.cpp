@@ -7333,6 +7333,7 @@ pos
 )
 ;
 }
+static
 const
 int
 mull_tag

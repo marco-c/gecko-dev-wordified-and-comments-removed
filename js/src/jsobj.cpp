@@ -15030,6 +15030,7 @@ return
 ED_OK
 ;
 }
+static
 ObjectElements
 *
 AllocateElements
@@ -15111,6 +15112,7 @@ HeapValue
 )
 ;
 }
+static
 ObjectElements
 *
 ReallocateElements
@@ -28051,6 +28053,7 @@ false
 #
 ifdef
 DEBUG
+static
 void
 dumpValue
 (

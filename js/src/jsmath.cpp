@@ -4306,6 +4306,7 @@ template
 UnaryMathFunctionType
 F
 >
+static
 bool
 math_function
 (
@@ -6348,6 +6349,7 @@ vp
 )
 ;
 }
+static
 double
 sign
 (

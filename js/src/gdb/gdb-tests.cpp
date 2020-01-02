@@ -69,6 +69,7 @@ template
 typename
 T
 >
+static
 inline
 T
 *
@@ -92,6 +93,7 @@ return
 ptr
 ;
 }
+static
 void
 checkBool
 (

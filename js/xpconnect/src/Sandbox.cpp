@@ -1753,6 +1753,7 @@ return
 false
 ;
 }
+static
 const
 JSStructuredCloneCallbacks
 gForwarderStructuredCloneCallbacks
@@ -1763,6 +1764,7 @@ CloneNonReflectorsWrite
 nullptr
 }
 ;
+static
 bool
 CloneNonReflectors
 (
@@ -7617,6 +7619,7 @@ return
 NS_OK
 ;
 }
+static
 bool
 NonCloningFunctionForwarder
 (
@@ -7711,6 +7714,7 @@ vp
 )
 ;
 }
+static
 bool
 CloningFunctionForwarder
 (

@@ -12416,6 +12416,7 @@ ignored
 member
 ;
 }
+static
 inline
 nsresult
 UnexpectedFailure

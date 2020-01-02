@@ -3385,6 +3385,7 @@ bool
 allowDictionary
 )
 ;
+static
 inline
 bool
 CheckCanChangeAttrs

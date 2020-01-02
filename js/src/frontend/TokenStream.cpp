@@ -4154,6 +4154,7 @@ length
 #
 ifdef
 DEBUG
+static
 bool
 IsTokenSane
 (

@@ -457,6 +457,7 @@ return
 true
 ;
 }
+static
 const
 uint8_t
 PM_FATTRS
@@ -512,6 +513,7 @@ PM_FATTRS
 JS_FS_END
 }
 ;
+static
 const
 uint8_t
 PM_PATTRS
@@ -599,6 +601,7 @@ JS_PS_END
 #
 undef
 GETTER
+static
 const
 uint8_t
 PM_CATTRS
