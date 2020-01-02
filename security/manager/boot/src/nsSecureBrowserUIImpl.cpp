@@ -1933,6 +1933,8 @@ nsISupports
 info
 bool
 withNewLocation
+bool
+withNewSink
 )
 {
 uint32_t
@@ -2143,6 +2145,9 @@ UpdateSecurityState
 (
 aRequest
 withNewLocation
+withNewSink
+|
+|
 updateStatus
 )
 ;
@@ -4480,6 +4485,7 @@ EvaluateAndUpdateSecurityState
 aRequest
 securityInfo
 false
+sinkChanged
 )
 ;
 }
@@ -5308,6 +5314,7 @@ EvaluateAndUpdateSecurityState
 aRequest
 securityInfo
 true
+false
 )
 ;
 }
