@@ -275,13 +275,6 @@ nsIWebSocketChannel
 .
 h
 "
-#
-include
-"
-GeneratedEvents
-.
-h
-"
 namespace
 mozilla
 {

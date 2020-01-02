@@ -383,13 +383,6 @@ h
 #
 include
 "
-GeneratedEvents
-.
-h
-"
-#
-include
-"
 nsIMIMEService
 .
 h
