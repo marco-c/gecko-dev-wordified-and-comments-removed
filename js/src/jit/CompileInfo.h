@@ -1682,6 +1682,12 @@ true
 ;
 if
 (
+(
+hasArguments
+(
+)
+|
+|
 !
 script
 (
@@ -1690,6 +1696,7 @@ script
 >
 strict
 (
+)
 )
 &
 &
@@ -1711,9 +1718,11 @@ nargs
 (
 )
 )
+{
 return
 true
 ;
+}
 return
 false
 ;
