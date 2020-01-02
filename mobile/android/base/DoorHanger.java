@@ -210,6 +210,7 @@ util
 .
 List
 ;
+public
 class
 DoorHanger
 extends
@@ -340,6 +341,7 @@ private
 int
 mDividerColor
 ;
+public
 static
 enum
 Theme
@@ -347,6 +349,7 @@ Theme
 LIGHT
 DARK
 }
+public
 interface
 OnButtonClickListener
 {
@@ -361,6 +364,7 @@ tag
 )
 ;
 }
+public
 DoorHanger
 (
 Context
@@ -378,6 +382,7 @@ theme
 )
 ;
 }
+public
 DoorHanger
 (
 Context
@@ -669,6 +674,7 @@ doorhanger_textsize_small
 ;
 }
 }
+public
 int
 getTabId
 (
@@ -678,6 +684,7 @@ return
 mTabId
 ;
 }
+public
 String
 getValue
 (
@@ -687,6 +694,7 @@ return
 mValue
 ;
 }
+public
 List
 <
 PromptInput
@@ -699,6 +707,7 @@ return
 mInputs
 ;
 }
+public
 CheckBox
 getCheckBox
 (
@@ -708,6 +717,7 @@ return
 mCheckBox
 ;
 }
+public
 void
 showDivider
 (
@@ -723,6 +733,7 @@ VISIBLE
 )
 ;
 }
+public
 void
 hideDivider
 (
@@ -738,6 +749,7 @@ GONE
 )
 ;
 }
+public
 void
 setMessage
 (
@@ -753,6 +765,7 @@ message
 )
 ;
 }
+public
 void
 setIcon
 (
@@ -777,6 +790,7 @@ VISIBLE
 )
 ;
 }
+public
 void
 addLink
 (
@@ -914,6 +928,7 @@ getInstance
 )
 ;
 }
+public
 void
 addButton
 (
@@ -1101,6 +1116,7 @@ sButtonParams
 )
 ;
 }
+public
 void
 setOptions
 (
@@ -1618,6 +1634,7 @@ textPadding
 ;
 }
 }
+public
 boolean
 shouldRemove
 (
