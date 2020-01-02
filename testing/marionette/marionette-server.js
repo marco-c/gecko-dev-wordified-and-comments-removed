@@ -9720,10 +9720,10 @@ command_id
 )
 ;
 }
-closeWindow
+close
 :
 function
-MDA_closeWindow
+MDA_close
 (
 )
 {
@@ -12274,6 +12274,15 @@ prototype
 .
 getAppCacheStatus
 "
+close
+"
+:
+MarionetteServerConnection
+.
+prototype
+.
+close
+"
 closeWindow
 "
 :
@@ -12281,7 +12290,7 @@ MarionetteServerConnection
 .
 prototype
 .
-closeWindow
+close
 "
 setTestName
 "
