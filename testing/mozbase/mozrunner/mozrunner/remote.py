@@ -14,8 +14,6 @@ import
 tempfile
 import
 time
-import
-traceback
 from
 runner
 import
@@ -24,8 +22,6 @@ from
 mozdevice
 import
 DMError
-import
-mozcrash
 import
 mozlog
 __all__
@@ -75,6 +71,10 @@ None
 restore
 =
 True
+                       
+*
+*
+kwargs
 )
 :
         
@@ -90,13 +90,16 @@ profile
 clean_profile
 =
 clean_profile
-                                                
+                                           
 process_class
 =
 process_class
 env
 =
 env
+*
+*
+kwargs
 )
         
 self
@@ -117,6 +120,12 @@ self
 dm
 =
 devicemanager
+        
+self
+.
+last_test
+=
+None
         
 self
 .
@@ -236,16 +245,19 @@ def
 check_for_crashes
 (
 self
-symbols_path
 last_test
 =
 None
 )
 :
         
-crashed
+last_test
 =
-False
+last_test
+or
+self
+.
+last_test
         
 remote_dump_dir
 =
@@ -260,6 +272,10 @@ remote_profile
 minidumps
 '
 )
+        
+crashed
+=
+False
         
 self
 .
@@ -310,41 +326,31 @@ remote_dump_dir
 local_dump_dir
 )
             
-try
-:
-                
 crashed
 =
-mozcrash
+super
+(
+RemoteRunner
+self
+)
 .
 check_for_crashes
 (
 local_dump_dir
-symbols_path
+\
+                                                                  
 test_name
 =
 last_test
 )
             
-except
-:
-                
-traceback
-.
-print_exc
-(
-)
-            
-finally
-:
-                
 shutil
 .
 rmtree
 (
 local_dump_dir
 )
-                
+            
 self
 .
 dm
@@ -1415,6 +1421,12 @@ self
 last_test
 timeout
 )
+)
+        
+self
+.
+check_for_crashes
+(
 )
     
 def

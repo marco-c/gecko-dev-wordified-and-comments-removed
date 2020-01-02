@@ -862,6 +862,14 @@ self
 remote_test_root
                             
 '
+symbols_path
+'
+:
+options
+.
+symbolsPath
+                            
+'
 test_script
 '
 :
@@ -974,6 +982,14 @@ application
 \
 n
 "
+)
+            
+self
+.
+runner
+.
+check_for_crashes
+(
 )
             
 status

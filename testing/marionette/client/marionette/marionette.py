@@ -3316,12 +3316,6 @@ None
         
 self
 .
-symbols_path
-=
-symbols_path
-        
-self
-.
 timeout
 =
 timeout
@@ -3543,6 +3537,10 @@ emulator
 sdcard
 =
 sdcard
+                                     
+symbols_path
+=
+symbols_path
                                      
 emulatorBinary
 =
@@ -4924,17 +4922,10 @@ True
 if
 self
 .
-symbols_path
-and
-self
-.
 emulator
 .
 check_for_minidumps
 (
-self
-.
-symbols_path
 )
 :
                 
