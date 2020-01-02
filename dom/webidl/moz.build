@@ -625,6 +625,11 @@ Geolocation
 webidl
 '
 '
+GeometryUtils
+.
+webidl
+'
+'
 GetUserMediaRequest
 .
 webidl
