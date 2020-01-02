@@ -974,12 +974,6 @@ kwargs
 )
 :
         
-if
-self
-.
-device_manager
-:
-            
 self
 .
 add_checkpoint_function
@@ -988,7 +982,7 @@ self
 .
 memory_b2g_checkpoint
 )
-            
+        
 self
 .
 add_process_checkpoint_function
@@ -1004,6 +998,15 @@ memory_b2g_checkpoint
 self
 )
 :
+        
+if
+not
+self
+.
+device_manager
+:
+            
+return
         
 idle_time
 =
@@ -1101,6 +1104,15 @@ memory_b2g_process_checkpoint
 self
 )
 :
+        
+if
+not
+self
+.
+device_manager
+:
+            
+return
         
 self
 .
