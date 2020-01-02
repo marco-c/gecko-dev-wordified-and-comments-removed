@@ -1480,11 +1480,13 @@ const
 uint32_t
 mAPZCId
 ;
+nsRefPtr
+<
 ipc
 :
 :
 SharedMemoryBasic
-*
+>
 mSharedFrameMetricsBuffer
 ;
 CrossProcessMutex

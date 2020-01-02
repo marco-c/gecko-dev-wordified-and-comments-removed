@@ -2488,10 +2488,6 @@ sAsyncPanZoomControllerCount
 +
 +
 )
-mSharedFrameMetricsBuffer
-(
-nullptr
-)
 mSharedLock
 (
 nullptr
@@ -2755,9 +2751,6 @@ lock
 (
 mMonitor
 )
-;
-delete
-mSharedFrameMetricsBuffer
 ;
 mSharedFrameMetricsBuffer
 =
