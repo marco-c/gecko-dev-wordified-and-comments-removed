@@ -245,6 +245,17 @@ aEvent
 {
 if
 (
+aEvent
+.
+target
+=
+=
+document
+)
+return
+;
+if
+(
 this
 .
 _debugEvents
