@@ -53,6 +53,7 @@ Flip
 struct
 Orientation
 {
+explicit
 Orientation
 (
 Angle
