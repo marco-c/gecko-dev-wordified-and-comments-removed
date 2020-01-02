@@ -2083,7 +2083,7 @@ charsLength_
 ;
 }
 bool
-addGlobalVarInitConstant
+addGlobalVarInit
 (
 const
 Value
