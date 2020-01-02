@@ -859,6 +859,15 @@ src
 NULL
 )
 endif
+ABS_DIST
+:
+=
+(
+abspath
+(
+DIST
+)
+)
 EXTRA_EXPORT_MDDEPEND_FILES
 :
 =
@@ -883,7 +892,7 @@ EXPORTS_GENERATED_DEST
 :
 =
 (
-DIST
+ABS_DIST
 )
 /
 include
@@ -972,7 +981,7 @@ NULL
 globalgen_headers_DEST
 =
 (
-DIST
+ABS_DIST
 )
 /
 include
