@@ -231,6 +231,11 @@ aIsReliable
 )
 MOZ_OVERRIDE
 {
+*
+aIsReliable
+=
+false
+;
 return
 0
 ;

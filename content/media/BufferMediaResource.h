@@ -478,6 +478,11 @@ bool
 aIsReliable
 )
 {
+*
+aIsReliable
+=
+false
+;
 return
 0
 .
