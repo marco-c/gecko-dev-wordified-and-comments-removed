@@ -882,15 +882,9 @@ reuseGlobal
 {
 options
 .
-setSourcePolicy
+setSourceIsLazy
 (
-JS
-:
-:
-CompileOptions
-:
-:
-LAZY_SOURCE
+true
 )
 ;
 *
