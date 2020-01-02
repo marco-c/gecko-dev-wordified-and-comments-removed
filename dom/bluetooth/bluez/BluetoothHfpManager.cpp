@@ -3244,10 +3244,16 @@ EqualsLiteral
 "
 )
 ;
+if
+(
+mCMER
+)
+{
 mSlcConnected
 =
-mCMER
+true
 ;
+}
 if
 (
 mConnectScoRequest
