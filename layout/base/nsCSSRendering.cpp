@@ -1018,7 +1018,7 @@ aFrame
 aFrame
 -
 >
-GetFirstContinuation
+FirstContinuation
 (
 )
 ;
@@ -21109,7 +21109,7 @@ targetURI
 mForFrame
 -
 >
-GetFirstContinuation
+FirstContinuation
 (
 )
 nsSVGEffects

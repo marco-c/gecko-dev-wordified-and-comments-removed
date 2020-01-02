@@ -1127,7 +1127,7 @@ aPrevFrame
 aPrevFrame
 -
 >
-GetLastContinuation
+LastContinuation
 (
 )
 "

@@ -2808,7 +2808,7 @@ nsIFrame
 nsLayoutUtils
 :
 :
-GetLastContinuationWithChild
+LastContinuationWithChild
 (
 nsIFrame
 *
@@ -2830,7 +2830,7 @@ aFrame
 aFrame
 -
 >
-GetLastContinuation
+LastContinuation
 (
 )
 ;
@@ -2966,7 +2966,7 @@ lastParentContinuation
 nsLayoutUtils
 :
 :
-GetLastContinuationWithChild
+LastContinuationWithChild
 (
 aFrame
 )
@@ -2996,7 +2996,7 @@ lastChildFrame
 lastChildFrame
 -
 >
-GetFirstContinuation
+FirstContinuation
 (
 )
 ;
@@ -12696,7 +12696,7 @@ aFrame
 aFrame
 -
 >
-GetFirstContinuation
+FirstContinuation
 (
 )
 ;
@@ -12741,7 +12741,7 @@ nsIFrame
 nsLayoutUtils
 :
 :
-GetFirstContinuationOrSpecialSibling
+FirstContinuationOrSpecialSibling
 (
 nsIFrame
 *
@@ -12755,7 +12755,7 @@ result
 aFrame
 -
 >
-GetFirstContinuation
+FirstContinuation
 (
 )
 ;

@@ -441,7 +441,7 @@ aFrame1
 aFrame1
 -
 >
-GetFirstInFlow
+FirstInFlow
 (
 )
 ;
@@ -450,7 +450,7 @@ aFrame2
 aFrame2
 -
 >
-GetFirstInFlow
+FirstInFlow
 (
 )
 ;
@@ -459,7 +459,7 @@ aKnownCommonAncestor
 aKnownCommonAncestor
 -
 >
-GetFirstInFlow
+FirstInFlow
 (
 )
 ;
@@ -503,7 +503,7 @@ f
 f
 -
 >
-GetFirstInFlow
+FirstInFlow
 (
 )
 )
@@ -548,7 +548,7 @@ f
 f
 -
 >
-GetFirstInFlow
+FirstInFlow
 (
 )
 )
@@ -653,7 +653,7 @@ aAncestorReflowState
 frame
 -
 >
-GetFirstInFlow
+FirstInFlow
 (
 )
 ;
@@ -704,7 +704,7 @@ GetParent
 )
 -
 >
-GetFirstInFlow
+FirstInFlow
 (
 )
 )
@@ -829,7 +829,7 @@ GetParent
 )
 -
 >
-GetFirstInFlow
+FirstInFlow
 (
 )
 =
@@ -839,7 +839,7 @@ parentReflowState
 frame
 -
 >
-GetFirstInFlow
+FirstInFlow
 (
 )
 "
@@ -1081,7 +1081,7 @@ GetParent
 )
 -
 >
-GetFirstInFlow
+FirstInFlow
 (
 )
 ;

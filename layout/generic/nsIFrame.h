@@ -3424,7 +3424,7 @@ nsIFrame
 virtual
 nsIFrame
 *
-GetFirstContinuation
+FirstContinuation
 (
 )
 const
@@ -3443,7 +3443,7 @@ this
 virtual
 nsIFrame
 *
-GetLastContinuation
+LastContinuation
 (
 )
 const
@@ -3532,7 +3532,7 @@ nsIFrame
 virtual
 nsIFrame
 *
-GetFirstInFlow
+FirstInFlow
 (
 )
 const
@@ -3551,7 +3551,7 @@ this
 virtual
 nsIFrame
 *
-GetLastInFlow
+LastInFlow
 (
 )
 const

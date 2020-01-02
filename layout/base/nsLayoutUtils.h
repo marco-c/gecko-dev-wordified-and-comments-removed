@@ -529,7 +529,7 @@ aFrameList
 static
 nsIFrame
 *
-GetLastContinuationWithChild
+LastContinuationWithChild
 (
 nsIFrame
 *
@@ -1581,7 +1581,7 @@ aFrame
 static
 nsIFrame
 *
-GetFirstContinuationOrSpecialSibling
+FirstContinuationOrSpecialSibling
 (
 nsIFrame
 *
@@ -2664,7 +2664,7 @@ NS_FRAME_IS_SPECIAL
 aFrame
 -
 >
-GetFirstContinuation
+FirstContinuation
 (
 )
 -
@@ -2710,7 +2710,7 @@ NS_FRAME_IS_SPECIAL
 aFrame
 -
 >
-GetFirstContinuation
+FirstContinuation
 (
 )
 -

@@ -823,7 +823,7 @@ mstyle
 frame
 -
 >
-GetFirstContinuation
+FirstContinuation
 (
 )
 ;

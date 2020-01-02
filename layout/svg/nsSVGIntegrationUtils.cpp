@@ -595,7 +595,7 @@ firstFrame
 nsLayoutUtils
 :
 :
-GetFirstContinuationOrSpecialSibling
+FirstContinuationOrSpecialSibling
 (
 aNonSVGFrame
 )
@@ -656,7 +656,7 @@ firstFrame
 nsLayoutUtils
 :
 :
-GetFirstContinuationOrSpecialSibling
+FirstContinuationOrSpecialSibling
 (
 aNonSVGFrame
 )
@@ -749,7 +749,7 @@ firstFrame
 nsLayoutUtils
 :
 :
-GetFirstContinuationOrSpecialSibling
+FirstContinuationOrSpecialSibling
 (
 aNonSVGFrame
 )
@@ -839,7 +839,7 @@ firstFrame
 nsLayoutUtils
 :
 :
-GetFirstContinuationOrSpecialSibling
+FirstContinuationOrSpecialSibling
 (
 aFrame
 )
@@ -997,7 +997,7 @@ firstFrame
 nsLayoutUtils
 :
 :
-GetFirstContinuationOrSpecialSibling
+FirstContinuationOrSpecialSibling
 (
 aFrame
 )
@@ -1188,7 +1188,7 @@ firstFrame
 nsLayoutUtils
 :
 :
-GetFirstContinuationOrSpecialSibling
+FirstContinuationOrSpecialSibling
 (
 aFrame
 )
@@ -1271,7 +1271,7 @@ firstFrame
 nsLayoutUtils
 :
 :
-GetFirstContinuationOrSpecialSibling
+FirstContinuationOrSpecialSibling
 (
 aFrame
 )
@@ -1688,7 +1688,7 @@ firstFrame
 nsLayoutUtils
 :
 :
-GetFirstContinuationOrSpecialSibling
+FirstContinuationOrSpecialSibling
 (
 aFrame
 )

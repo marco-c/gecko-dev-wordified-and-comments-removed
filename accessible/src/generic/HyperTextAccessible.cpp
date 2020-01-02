@@ -3454,7 +3454,7 @@ frameAtOffset
 frameAtOffset
 -
 >
-GetLastContinuation
+LastContinuation
 (
 )
 ;
