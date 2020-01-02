@@ -370,6 +370,13 @@ load
 of
 sections
 .
+ifneq
+(
+OpenBSD
+(
+OS_TARGET
+)
+)
 ifdef
 LD_IS_BFD
 OS_LDFLAGS
@@ -386,6 +393,7 @@ library
 StaticXULComponents
 .
 ld
+endif
 endif
 ifeq
 (
