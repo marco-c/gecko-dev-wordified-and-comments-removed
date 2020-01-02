@@ -782,8 +782,6 @@ LInstruction
 ins
 bool
 considerCopy
-=
-false
 )
 ;
 bool
@@ -795,6 +793,10 @@ use
 LInstruction
 *
 ins
+bool
+considerCopy
+=
+false
 )
 ;
 bool
