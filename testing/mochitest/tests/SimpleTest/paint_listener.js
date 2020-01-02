@@ -1,3 +1,8 @@
+(
+function
+(
+)
+{
 var
 accumulatedRect
 =
@@ -389,3 +394,14 @@ subdoc
 }
 ;
 }
+window
+.
+waitForAllPaintsFlushed
+=
+waitForAllPaintsFlushed
+;
+}
+)
+(
+)
+;
