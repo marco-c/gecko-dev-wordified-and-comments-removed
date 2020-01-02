@@ -54,11 +54,6 @@ MPL
 0
 /
 .
-CHROME_DEPS
-=
-buildconfig
-.
-html
 USE_RCS_MK
 :
 =
