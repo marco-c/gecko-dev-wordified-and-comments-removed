@@ -786,14 +786,14 @@ sBuffers
 ;
 sBuffers
 =
-NULL
+nullptr
 ;
 delete
 sScreenSize
 ;
 sScreenSize
 =
-NULL
+nullptr
 ;
 close
 (

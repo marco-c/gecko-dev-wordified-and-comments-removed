@@ -6250,7 +6250,7 @@ if
 buf
 )
 return
-NULL
+nullptr
 ;
 }
 if

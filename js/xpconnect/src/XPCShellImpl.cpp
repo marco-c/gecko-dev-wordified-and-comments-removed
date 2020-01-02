@@ -2583,7 +2583,7 @@ char
 *
 names
 =
-NULL
+nullptr
 ;
 if
 (

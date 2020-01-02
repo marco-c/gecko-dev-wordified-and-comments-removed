@@ -7520,7 +7520,7 @@ environment
 (
 )
 :
-NULL
+nullptr
 ;
 while
 (

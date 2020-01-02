@@ -139,11 +139,11 @@ _nsCocoaWindowList
 :
 prev
 (
-NULL
+nullptr
 )
 window
 (
-NULL
+nullptr
 )
 {
 }

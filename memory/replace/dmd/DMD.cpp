@@ -1666,7 +1666,7 @@ pthread_mutex_init
 (
 &
 mMutex
-NULL
+nullptr
 )
 ;
 }

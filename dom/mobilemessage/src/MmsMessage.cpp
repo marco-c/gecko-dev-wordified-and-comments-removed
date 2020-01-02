@@ -2509,8 +2509,8 @@ infoJsObj
 receiver
 "
 tmpJsVal
-NULL
-NULL
+nullptr
+nullptr
 JSPROP_ENUMERATE
 )
 )
@@ -2564,8 +2564,8 @@ infoJsObj
 deliveryStatus
 "
 tmpJsVal
-NULL
-NULL
+nullptr
+nullptr
 JSPROP_ENUMERATE
 )
 )
@@ -2587,8 +2587,8 @@ deliveryTimestamp
 info
 .
 deliveryTimestamp
-NULL
-NULL
+nullptr
+nullptr
 JSPROP_ENUMERATE
 )
 )
