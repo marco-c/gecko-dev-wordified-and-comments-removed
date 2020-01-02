@@ -41,6 +41,13 @@ TRACK_NONE
 =
 0
 ;
+const
+TrackID
+TRACK_INVALID
+=
+-
+1
+;
 inline
 TrackTicks
 RateConvertTicksRoundDown
