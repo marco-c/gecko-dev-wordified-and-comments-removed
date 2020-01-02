@@ -8076,6 +8076,9 @@ GetRootWidget
 bool
 hidpi
 =
+false
+&
+&
 widget
 &
 &
