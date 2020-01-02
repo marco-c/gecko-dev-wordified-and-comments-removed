@@ -4004,7 +4004,8 @@ ok
 )
 ;
 }
-bool
+PCompositorParent
+*
 CompositorParent
 :
 :
@@ -4047,7 +4048,7 @@ handle
 )
 {
 return
-false
+nullptr
 ;
 }
 cpcp
@@ -4082,7 +4083,11 @@ XRE_GetIOMessageLoop
 )
 ;
 return
-true
+cpcp
+.
+get
+(
+)
 ;
 }
 IToplevelProtocol

@@ -251,7 +251,8 @@ nsAString
 aName
 )
 ;
-bool
+PCompositorChild
+*
 AllocPCompositorChild
 (
 mozilla
@@ -271,7 +272,8 @@ aOtherProcess
 )
 MOZ_OVERRIDE
 ;
-bool
+PImageBridgeChild
+*
 AllocPImageBridgeChild
 (
 mozilla

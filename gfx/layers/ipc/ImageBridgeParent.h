@@ -167,7 +167,8 @@ aWhy
 MOZ_OVERRIDE
 ;
 static
-bool
+PImageBridgeParent
+*
 Create
 (
 Transport

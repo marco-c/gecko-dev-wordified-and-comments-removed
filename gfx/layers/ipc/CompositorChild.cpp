@@ -244,7 +244,8 @@ SendStop
 )
 ;
 }
-bool
+PCompositorChild
+*
 CompositorChild
 :
 :
@@ -310,7 +311,7 @@ process
 )
 ;
 return
-false
+nullptr
 ;
 }
 if
@@ -349,9 +350,10 @@ channel
 )
 ;
 return
-false
+nullptr
 ;
 }
+return
 sCompositor
 =
 child
@@ -363,9 +365,6 @@ forget
 get
 (
 )
-;
-return
-true
 ;
 }
 PCompositorChild

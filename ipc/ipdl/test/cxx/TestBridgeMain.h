@@ -136,7 +136,8 @@ Main
 protected
 :
 virtual
-bool
+PTestBridgeMainSubParent
+*
 AllocPTestBridgeMainSubParent
 (
 Transport
@@ -344,7 +345,8 @@ RecvPing
 MOZ_OVERRIDE
 ;
 virtual
-bool
+PTestBridgeMainSubChild
+*
 AllocPTestBridgeMainSubChild
 (
 Transport
