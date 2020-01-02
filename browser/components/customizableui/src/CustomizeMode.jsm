@@ -239,7 +239,7 @@ getElementById
 "
 customization
 -
-restore
+reset
 -
 button
 "
