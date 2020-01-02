@@ -1517,7 +1517,10 @@ return
 false
 ;
 }
-bool
+nsIFrame
+:
+:
+FrameSearchResult
 nsContainerFrame
 :
 :
@@ -1549,10 +1552,13 @@ range
 )
 ;
 return
-false
+CONTINUE_EMPTY
 ;
 }
-bool
+nsIFrame
+:
+:
+FrameSearchResult
 nsContainerFrame
 :
 :
@@ -1586,7 +1592,7 @@ range
 )
 ;
 return
-false
+CONTINUE_EMPTY
 ;
 }
 static

@@ -32257,7 +32257,10 @@ return
 NS_OK
 ;
 }
-bool
+nsIFrame
+:
+:
+FrameSearchResult
 nsTextFrame
 :
 :
@@ -32307,7 +32310,7 @@ if
 mTextRun
 )
 return
-false
+CONTINUE_EMPTY
 ;
 TrimmedOffsets
 trimmed
@@ -32324,6 +32327,7 @@ true
 )
 ;
 return
+(
 iter
 .
 ConvertOriginalToSkipped
@@ -32343,6 +32347,11 @@ trimmed
 .
 mStart
 )
+)
+?
+FOUND
+:
+CONTINUE
 ;
 }
 class
@@ -32518,7 +32527,10 @@ return
 true
 ;
 }
-bool
+nsIFrame
+:
+:
+FrameSearchResult
 nsTextFrame
 :
 :
@@ -32580,7 +32592,7 @@ selectStyle
 NS_STYLE_USER_SELECT_ALL
 )
 return
-false
+CONTINUE_UNSELECTABLE
 ;
 gfxSkipCharsIterator
 iter
@@ -32599,7 +32611,7 @@ if
 mTextRun
 )
 return
-false
+CONTINUE_EMPTY
 ;
 TrimmedOffsets
 trimmed
@@ -32698,7 +32710,7 @@ i
 mContentOffset
 ;
 return
-true
+FOUND
 ;
 }
 }
@@ -32837,7 +32849,7 @@ i
 mContentOffset
 ;
 return
-true
+FOUND
 ;
 }
 }
@@ -32849,7 +32861,7 @@ contentLength
 ;
 }
 return
-false
+CONTINUE
 ;
 }
 bool
@@ -33555,7 +33567,10 @@ indexInText
 ;
 }
 }
-bool
+nsIFrame
+:
+:
+FrameSearchResult
 nsTextFrame
 :
 :
@@ -33622,7 +33637,7 @@ selectStyle
 NS_STYLE_USER_SELECT_ALL
 )
 return
-false
+CONTINUE_UNSELECTABLE
 ;
 int32_t
 offset
@@ -33670,7 +33685,7 @@ NextCluster
 )
 )
 return
-false
+CONTINUE_EMPTY
 ;
 do
 {
@@ -33834,7 +33849,7 @@ GetBeforeOffset
 mContentOffset
 ;
 return
-true
+FOUND
 ;
 }
 }
@@ -33869,7 +33884,7 @@ GetAfterOffset
 mContentOffset
 ;
 return
-false
+CONTINUE
 ;
 }
 nsresult
@@ -33943,6 +33958,9 @@ true
 &
 dummyOffset
 )
+=
+=
+FOUND
 )
 {
 *
