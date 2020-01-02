@@ -1293,7 +1293,7 @@ WebAppAllocator
 java
 '
 '
-WebApp
+WebAppImpl
 .
 java
 '
@@ -2104,6 +2104,11 @@ generated_sources
 =
 [
 '
+App
+.
+java
+'
+'
 AppConstants
 .
 java
@@ -2115,6 +2120,11 @@ java
 '
 '
 SysInfo
+.
+java
+'
+'
+WebApp
 .
 java
 '

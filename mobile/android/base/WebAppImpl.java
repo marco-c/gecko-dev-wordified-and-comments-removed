@@ -148,7 +148,7 @@ File
 ;
 public
 class
-WebApp
+WebAppImpl
 extends
 GeckoApp
 {
@@ -159,7 +159,7 @@ String
 LOGTAG
 =
 "
-GeckoWebApp
+GeckoWebAppImpl
 "
 ;
 private
