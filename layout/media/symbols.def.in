@@ -256,16 +256,6 @@ opus_encode
 opus_encode_float
 #
 endif
-ShInitialize
-ShFinalize
-ShGetObjectCode
-ShDestruct
-ShGetInfoLog
-ShCompile
-ShGetInfo
-ShConstructCompiler
-ShGetActiveAttrib
-ShGetActiveUniform
 #
 ifndef
 MOZ_NATIVE_PNG

@@ -185,6 +185,11 @@ UNIFIED_SOURCES
 =
 [
 '
+MurmurHash3
+.
+cpp
+'
+'
 WebGL1Context
 .
 cpp
