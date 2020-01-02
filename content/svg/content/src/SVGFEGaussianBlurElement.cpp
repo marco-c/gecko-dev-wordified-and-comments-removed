@@ -269,9 +269,9 @@ IntRect
 aFilterSubregion
 nsTArray
 <
-nsRefPtr
+RefPtr
 <
-gfxASurface
+SourceSurface
 >
 >
 &
