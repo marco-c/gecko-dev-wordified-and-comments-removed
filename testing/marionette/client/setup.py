@@ -133,6 +133,15 @@ mozprofile
 .
 7
 '
+        
+'
+moztest
+>
+=
+0
+.
+1
+'
 ]
 setup
 (
