@@ -2044,8 +2044,6 @@ this
 _listeners
 )
 {
-if
-(
 this
 .
 _removeTargetFromListener
@@ -2057,11 +2055,7 @@ manifestURL
 true
 null
 )
-)
-{
-break
 ;
-}
 }
 break
 ;
