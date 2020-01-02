@@ -397,7 +397,7 @@ addObserver
 (
 listener
 '
-accessfu
+accessibility
 -
 output
 '
@@ -443,7 +443,7 @@ removeObserver
 (
 aListener
 '
-accessfu
+accessibility
 -
 output
 '
@@ -478,7 +478,7 @@ removeObserver
 (
 this
 '
-accessfu
+accessibility
 -
 output
 '
