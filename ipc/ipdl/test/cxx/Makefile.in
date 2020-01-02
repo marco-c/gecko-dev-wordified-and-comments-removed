@@ -91,6 +91,8 @@ TestInterruptRaces
 \
 TestInterruptShutdownRace
 \
+TestRPC
+\
 TestRaceDeferral
 \
 TestRacyReentry

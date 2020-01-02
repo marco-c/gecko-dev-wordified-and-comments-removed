@@ -360,6 +360,11 @@ PTestOpensOpened
 ipdl
 '
 '
+PTestRPC
+.
+ipdl
+'
+'
 PTestRaceDeferral
 .
 ipdl
