@@ -12,6 +12,8 @@ queue
 #
 include
 "
+webrtc
+/
 modules
 /
 video_coding
@@ -27,6 +29,10 @@ h
 #
 include
 "
+webrtc
+/
+test
+/
 testsupport
 /
 packet_reader
@@ -78,6 +84,7 @@ double
 RandomUniform
 (
 )
+OVERRIDE
 ;
 private
 :

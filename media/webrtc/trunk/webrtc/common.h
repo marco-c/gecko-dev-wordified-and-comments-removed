@@ -1,9 +1,9 @@
 #
 ifndef
-WEBRTC_COMMON_H
+WEBRTC_COMMON_H_
 #
 define
-WEBRTC_COMMON_H
+WEBRTC_COMMON_H_
 #
 include
 <

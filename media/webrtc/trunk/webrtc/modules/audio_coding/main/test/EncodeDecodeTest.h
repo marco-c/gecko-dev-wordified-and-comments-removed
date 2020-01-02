@@ -167,11 +167,6 @@ Add10MsData
 (
 )
 ;
-bool
-Process
-(
-)
-;
 uint8_t
 testMode
 ;

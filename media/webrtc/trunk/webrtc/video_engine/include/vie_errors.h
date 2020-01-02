@@ -83,8 +83,6 @@ kViENetworkInvalidArgument
 kViENetworkSendCodecNotSet
 kViENetworkServiceTypeNotSupported
 kViENetworkNotSupported
-kViENetworkObserverAlreadyRegistered
-kViENetworkObserverNotRegistered
 kViENetworkUnknownError
 kViERtpRtcpInvalidChannelId
 =

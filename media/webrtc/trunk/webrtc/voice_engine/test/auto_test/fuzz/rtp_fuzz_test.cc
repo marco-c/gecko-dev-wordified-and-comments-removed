@@ -1,7 +1,9 @@
 #
 include
 <
-ctime
+time
+.
+h
 >
 #
 include
@@ -53,9 +55,6 @@ flip_probability
 BitFlipEncryption
 bit_flip_encryption
 (
-std
-:
-:
 time
 (
 NULL

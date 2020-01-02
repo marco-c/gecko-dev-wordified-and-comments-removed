@@ -126,6 +126,9 @@ h
 namespace
 webrtc
 {
+namespace
+acm1
+{
 class
 AcmNetEqTest
 :
@@ -807,5 +810,6 @@ stats
 medianWaitingTimeMs
 )
 ;
+}
 }
 }

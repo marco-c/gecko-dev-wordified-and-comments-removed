@@ -507,6 +507,7 @@ unsigned
 int
 number_of_streams
 )
+OVERRIDE
 ;
 int
 DeliverFrame
@@ -521,7 +522,11 @@ uint32_t
 time_stamp
 int64_t
 render_time
+void
+*
+handle
 )
+OVERRIDE
 ;
 private
 :

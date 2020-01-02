@@ -34,6 +34,14 @@ h
 #
 include
 "
+webrtc
+/
+modules
+/
+video_render
+/
+windows
+/
 i_video_render_win
 .
 h

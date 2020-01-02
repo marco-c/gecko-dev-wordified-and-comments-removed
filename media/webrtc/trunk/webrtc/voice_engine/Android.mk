@@ -149,10 +149,6 @@ channel_manager
 .
 cc
 \
-channel_manager_base
-.
-cc
-\
 dtmf_inband
 .
 cc

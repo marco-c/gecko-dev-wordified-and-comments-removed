@@ -1,6 +1,8 @@
 #
 include
 "
+webrtc
+/
 modules
 /
 video_coding
@@ -16,12 +18,16 @@ h
 #
 include
 <
-cassert
+assert
+.
+h
 >
 #
 include
 <
-cstdio
+stdio
+.
+h
 >
 namespace
 webrtc

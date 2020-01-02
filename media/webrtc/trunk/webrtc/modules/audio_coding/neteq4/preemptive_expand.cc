@@ -140,7 +140,7 @@ PreemptiveExpand
 :
 SetParametersForPassiveSpeech
 (
-int
+size_t
 len
 int16_t
 *
@@ -166,9 +166,15 @@ min
 (
 *
 peak_index
+static_cast
+<
+int
+>
+(
 len
 -
 old_data_length_per_channel_
+)
 )
 ;
 }
@@ -185,7 +191,7 @@ const
 int16_t
 *
 input
-int
+size_t
 input_length
 size_t
 peak_index

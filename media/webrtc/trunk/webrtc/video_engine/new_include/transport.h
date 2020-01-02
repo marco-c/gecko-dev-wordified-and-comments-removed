@@ -11,6 +11,15 @@ stddef
 .
 h
 >
+#
+include
+"
+webrtc
+/
+typedefs
+.
+h
+"
 namespace
 webrtc
 {
@@ -27,7 +36,7 @@ bool
 SendRTP
 (
 const
-void
+uint8_t
 *
 packet
 size_t
@@ -41,7 +50,7 @@ bool
 SendRTCP
 (
 const
-void
+uint8_t
 *
 packet
 size_t

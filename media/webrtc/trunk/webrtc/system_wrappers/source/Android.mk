@@ -146,10 +146,6 @@ cpu_features_android
 .
 c
 \
-map
-.
-cc
-\
 sort
 .
 cc

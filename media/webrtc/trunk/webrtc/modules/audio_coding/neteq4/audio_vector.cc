@@ -837,7 +837,13 @@ alpha_step
 16384
 /
 (
+static_cast
+<
+int
+>
+(
 fade_length
+)
 +
 1
 )
@@ -1027,7 +1033,13 @@ alpha_step
 16384
 /
 (
+static_cast
+<
+int
+>
+(
 fade_length
+)
 +
 1
 )

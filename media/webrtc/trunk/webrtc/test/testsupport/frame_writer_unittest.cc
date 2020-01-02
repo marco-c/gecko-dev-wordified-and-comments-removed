@@ -92,9 +92,6 @@ SetUp
 (
 )
 {
-std
-:
-:
 remove
 (
 kOutputFilename
@@ -132,9 +129,6 @@ TearDown
 delete
 frame_writer_
 ;
-std
-:
-:
 remove
 (
 kOutputFilename

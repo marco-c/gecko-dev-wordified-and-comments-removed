@@ -1,6 +1,8 @@
 #
 include
 "
+webrtc
+/
 modules
 /
 video_coding
@@ -23,6 +25,8 @@ h
 #
 include
 "
+webrtc
+/
 modules
 /
 interface
@@ -34,6 +38,8 @@ h
 #
 include
 "
+webrtc
+/
 modules
 /
 video_coding

@@ -262,7 +262,7 @@ this
 Trace
 :
 :
-SetLevelFilter
+set_level_filter
 (
 kTraceWarning
 |

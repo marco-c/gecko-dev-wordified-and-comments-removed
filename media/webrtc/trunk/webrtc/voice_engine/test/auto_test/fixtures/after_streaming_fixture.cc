@@ -18,7 +18,9 @@ h
 #
 include
 <
-cstring
+string
+.
+h
 >
 AfterStreamingFixture
 :

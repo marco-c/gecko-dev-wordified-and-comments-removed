@@ -140,11 +140,7 @@ unsigned
 int
 amount_of_processors
 )
-{
-return
-false
 ;
-}
 virtual
 bool
 Stop

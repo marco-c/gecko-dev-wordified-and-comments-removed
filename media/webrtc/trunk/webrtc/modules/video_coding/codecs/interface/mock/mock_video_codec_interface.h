@@ -12,6 +12,12 @@ string
 #
 include
 "
+testing
+/
+gmock
+/
+include
+/
 gmock
 /
 gmock
@@ -21,6 +27,8 @@ h
 #
 include
 "
+webrtc
+/
 modules
 /
 video_coding
@@ -36,6 +44,8 @@ h
 #
 include
 "
+webrtc
+/
 typedefs
 .
 h

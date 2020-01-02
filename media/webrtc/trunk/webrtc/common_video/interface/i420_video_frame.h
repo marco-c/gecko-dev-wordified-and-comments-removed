@@ -20,6 +20,19 @@ include
 "
 webrtc
 /
+system_wrappers
+/
+interface
+/
+scoped_refptr
+.
+h
+"
+#
+include
+"
+webrtc
+/
 typedefs
 .
 h
@@ -91,6 +104,7 @@ return
 1
 ;
 }
+virtual
 int
 CreateEmptyFrame
 (
@@ -106,6 +120,7 @@ int
 stride_v
 )
 ;
+virtual
 int
 CreateFrame
 (
@@ -139,6 +154,7 @@ int
 stride_v
 )
 ;
+virtual
 int
 CopyFrame
 (
@@ -148,6 +164,7 @@ I420VideoFrame
 videoFrame
 )
 ;
+virtual
 void
 SwapFrame
 (
@@ -156,6 +173,7 @@ I420VideoFrame
 videoFrame
 )
 ;
+virtual
 uint8_t
 *
 buffer
@@ -164,6 +182,7 @@ PlaneType
 type
 )
 ;
+virtual
 const
 uint8_t
 *
@@ -174,6 +193,7 @@ type
 )
 const
 ;
+virtual
 int
 allocated_size
 (
@@ -182,6 +202,7 @@ type
 )
 const
 ;
+virtual
 int
 stride
 (
@@ -190,6 +211,7 @@ type
 )
 const
 ;
+virtual
 int
 set_width
 (
@@ -197,6 +219,7 @@ int
 width
 )
 ;
+virtual
 int
 set_height
 (
@@ -204,6 +227,7 @@ int
 height
 )
 ;
+virtual
 int
 width
 (
@@ -214,6 +238,7 @@ return
 width_
 ;
 }
+virtual
 int
 height
 (
@@ -224,6 +249,7 @@ return
 height_
 ;
 }
+virtual
 void
 set_timestamp
 (
@@ -236,6 +262,7 @@ timestamp_
 timestamp
 ;
 }
+virtual
 uint32_t
 timestamp
 (
@@ -246,6 +273,7 @@ return
 timestamp_
 ;
 }
+virtual
 void
 set_render_time_ms
 (
@@ -258,6 +286,7 @@ render_time_ms_
 render_time_ms
 ;
 }
+virtual
 int64_t
 render_time_ms
 (
@@ -268,19 +297,30 @@ return
 render_time_ms_
 ;
 }
+virtual
 bool
 IsZeroSize
 (
 )
 const
 ;
+virtual
 void
 ResetSize
 (
 )
 ;
-private
+virtual
+void
+*
+native_handle
+(
+)
+const
+;
+protected
 :
+virtual
 int
 CheckDimensions
 (
@@ -296,6 +336,8 @@ int
 stride_v
 )
 ;
+private
+:
 const
 Plane
 *

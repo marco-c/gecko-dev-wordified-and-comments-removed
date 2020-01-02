@@ -111,6 +111,9 @@ dependencies
 audio_coding_module
 '
 '
+media_file
+'
+'
 <
 (
 webrtc_root

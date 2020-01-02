@@ -133,6 +133,14 @@ LOCAL_SRC_FILES
 \
 testsupport
 /
+android
+/
+root_path_android
+.
+cc
+\
+testsupport
+/
 fileutils
 .
 cc

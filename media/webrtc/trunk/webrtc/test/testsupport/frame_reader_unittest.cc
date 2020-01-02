@@ -103,9 +103,6 @@ SetUp
 (
 )
 {
-std
-:
-:
 remove
 (
 kInputFilename
@@ -178,9 +175,6 @@ TearDown
 delete
 frame_reader_
 ;
-std
-:
-:
 remove
 (
 kInputFilename

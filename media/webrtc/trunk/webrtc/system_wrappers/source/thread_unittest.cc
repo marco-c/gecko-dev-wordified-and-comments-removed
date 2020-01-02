@@ -54,6 +54,13 @@ return
 true
 ;
 }
+#
+if
+!
+defined
+(
+THREAD_SANITIZER
+)
 TEST
 (
 ThreadTest
@@ -197,4 +204,6 @@ delete
 thread
 ;
 }
+#
+endif
 }

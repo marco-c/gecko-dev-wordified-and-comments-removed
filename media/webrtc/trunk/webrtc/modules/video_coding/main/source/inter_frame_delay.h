@@ -7,6 +7,8 @@ WEBRTC_MODULES_VIDEO_CODING_INTER_FRAME_DELAY_H_
 #
 include
 "
+webrtc
+/
 typedefs
 .
 h

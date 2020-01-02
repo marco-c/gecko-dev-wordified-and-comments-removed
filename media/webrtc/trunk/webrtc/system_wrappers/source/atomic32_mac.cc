@@ -178,17 +178,4 @@ value_
 )
 ;
 }
-int32_t
-Atomic32
-:
-:
-Value
-(
-)
-const
-{
-return
-value_
-;
-}
 }

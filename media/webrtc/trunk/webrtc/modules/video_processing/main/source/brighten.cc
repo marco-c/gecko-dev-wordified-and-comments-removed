@@ -18,7 +18,9 @@ h
 #
 include
 <
-cstdlib
+stdlib
+.
+h
 >
 #
 include

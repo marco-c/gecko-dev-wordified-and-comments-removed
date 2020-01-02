@@ -510,6 +510,11 @@ const
 int
 samples_left
 =
+static_cast
+<
+int
+>
+(
 sync_buffer
 .
 FutureLength
@@ -520,6 +525,7 @@ expand
 .
 overlap_length
 (
+)
 )
 ;
 const
@@ -536,10 +542,7 @@ decoder_database_
 decoder_frame_length
 )
 ;
-LOG
-(
-LS_VERBOSE
-)
+NETEQ_LOG_VERBOSE
 <
 <
 "

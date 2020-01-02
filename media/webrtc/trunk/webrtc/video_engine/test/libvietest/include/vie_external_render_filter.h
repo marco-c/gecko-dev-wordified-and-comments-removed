@@ -148,6 +148,7 @@ TickTime
 MillisecondTimestamp
 (
 )
+NULL
 )
 ;
 }

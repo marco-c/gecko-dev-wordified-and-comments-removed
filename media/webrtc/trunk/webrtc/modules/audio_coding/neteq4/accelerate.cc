@@ -44,7 +44,7 @@ const
 int16_t
 *
 input
-int
+size_t
 input_length
 AudioMultiVector
 <
@@ -72,7 +72,13 @@ num_channels_
 0
 |
 |
+static_cast
+<
+int
+>
+(
 input_length
+)
 /
 num_channels_
 <
@@ -119,7 +125,7 @@ Accelerate
 :
 SetParametersForPassiveSpeech
 (
-int
+size_t
 int16_t
 *
 best_correlation
@@ -147,7 +153,7 @@ const
 int16_t
 *
 input
-int
+size_t
 input_length
 size_t
 peak_index

@@ -7,6 +7,14 @@ WEBRTC_MODULES_VIDEO_RENDER_MAIN_SOURCE_I_VIDEO_RENDER_H_
 #
 include
 "
+webrtc
+/
+modules
+/
+video_render
+/
+include
+/
 video_render
 .
 h

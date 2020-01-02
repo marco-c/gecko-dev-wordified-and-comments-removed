@@ -285,6 +285,17 @@ size
 =
 =
 1
+|
+|
+video_frame
+-
+>
+native_handle
+(
+)
+!
+=
+NULL
 )
 {
 frame_callbacks_

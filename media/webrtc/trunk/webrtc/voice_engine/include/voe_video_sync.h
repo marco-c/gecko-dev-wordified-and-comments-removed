@@ -17,6 +17,9 @@ namespace
 webrtc
 {
 class
+RtpReceiver
+;
+class
 RtpRtcp
 ;
 class
@@ -155,8 +158,12 @@ int
 channel
 RtpRtcp
 *
-&
+*
 rtpRtcpModule
+RtpReceiver
+*
+*
+rtp_receiver
 )
 =
 0

@@ -7,6 +7,14 @@ WEBRTC_MODULES_UTILITY_SOURCE_RTP_DUMP_IMPL_H_
 #
 include
 "
+webrtc
+/
+modules
+/
+utility
+/
+interface
+/
 rtp_dump
 .
 h

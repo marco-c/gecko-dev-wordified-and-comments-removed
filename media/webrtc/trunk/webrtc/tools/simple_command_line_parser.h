@@ -59,14 +59,12 @@ public
 CommandLineParser
 (
 )
-{
-}
+;
 ~
 CommandLineParser
 (
 )
-{
-}
+;
 void
 Init
 (

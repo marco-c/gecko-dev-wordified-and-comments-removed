@@ -1,6 +1,8 @@
 #
 include
 "
+webrtc
+/
 modules
 /
 utility
@@ -17,6 +19,8 @@ WEBRTC_MODULE_UTILITY_VIDEO
 #
 include
 "
+webrtc
+/
 common_video
 /
 libyuv
@@ -30,6 +34,8 @@ h
 #
 include
 "
+webrtc
+/
 system_wrappers
 /
 interface

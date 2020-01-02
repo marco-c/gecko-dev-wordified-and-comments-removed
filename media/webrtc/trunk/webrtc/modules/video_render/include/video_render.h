@@ -7,6 +7,8 @@ WEBRTC_MODULES_VIDEO_RENDER_MAIN_INTERFACE_VIDEO_RENDER_H_
 #
 include
 "
+webrtc
+/
 modules
 /
 interface

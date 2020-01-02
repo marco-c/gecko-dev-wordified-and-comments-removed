@@ -7,7 +7,9 @@ WEBRTC_SYSTEM_WRAPPERS_INTERFACE_ATOMIC32_H_
 #
 include
 <
-cstddef
+stddef
+.
+h
 >
 #
 include
@@ -97,8 +99,15 @@ int32_t
 Value
 (
 )
-const
+{
+return
+*
+this
++
+=
+0
 ;
+}
 private
 :
 Atomic32

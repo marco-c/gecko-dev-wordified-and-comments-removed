@@ -14,7 +14,9 @@ h
 #
 include
 <
-cstring
+string
+.
+h
 >
 #
 include
@@ -106,7 +108,13 @@ sample_rate_hz
 )
 num_channels_
 (
+static_cast
+<
+int
+>
+(
 num_channels
+)
 )
 master_channel_
 (
@@ -211,7 +219,7 @@ virtual
 void
 SetParametersForPassiveSpeech
 (
-int
+size_t
 input_length
 int16_t
 *
@@ -232,7 +240,7 @@ const
 int16_t
 *
 input
-int
+size_t
 input_length
 size_t
 peak_index

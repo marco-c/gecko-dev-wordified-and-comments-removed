@@ -50,12 +50,14 @@ void
 Enter
 (
 )
+OVERRIDE
 ;
 virtual
 void
 Leave
 (
 )
+OVERRIDE
 ;
 private
 :

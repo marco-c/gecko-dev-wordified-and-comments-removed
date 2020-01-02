@@ -10,9 +10,6 @@ webrtc
 class
 I420VideoFrame
 ;
-namespace
-newapi
-{
 struct
 EncodedFrame
 ;
@@ -71,7 +68,6 @@ EncodedFrameObserver
 }
 }
 ;
-}
 }
 #
 endif

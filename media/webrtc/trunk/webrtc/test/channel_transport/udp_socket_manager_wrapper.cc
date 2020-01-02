@@ -14,7 +14,9 @@ h
 #
 include
 <
-cassert
+assert
+.
+h
 >
 #
 ifdef

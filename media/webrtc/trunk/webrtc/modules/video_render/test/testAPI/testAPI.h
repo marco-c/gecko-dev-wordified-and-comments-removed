@@ -7,6 +7,14 @@ WEBRTC_MODULES_VIDEO_RENDER_MAIN_TEST_TESTAPI_TESTAPI_H
 #
 include
 "
+webrtc
+/
+modules
+/
+video_render
+/
+include
+/
 video_render_defines
 .
 h

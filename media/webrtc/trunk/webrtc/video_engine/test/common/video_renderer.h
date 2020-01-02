@@ -34,7 +34,7 @@ class
 VideoRenderer
 :
 public
-newapi
+webrtc
 :
 :
 VideoRenderer

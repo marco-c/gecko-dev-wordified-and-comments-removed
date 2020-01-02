@@ -63,6 +63,7 @@ TraceLevel
 level
 )
 const
+OVERRIDE
 ;
 virtual
 int32_t
@@ -73,6 +74,7 @@ char
 trace_message
 )
 const
+OVERRIDE
 ;
 virtual
 int32_t
@@ -83,6 +85,7 @@ char
 trace_message
 )
 const
+OVERRIDE
 ;
 private
 :

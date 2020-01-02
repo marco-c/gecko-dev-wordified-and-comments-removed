@@ -245,13 +245,6 @@ kViEMaxSrtpKeyAuthNullLength
 ;
 enum
 {
-kViEMaxFilePlayers
-=
-3
-}
-;
-enum
-{
 kViEMaxMtu
 =
 1500
@@ -327,12 +320,6 @@ kViECaptureIdBase
 kViECaptureIdMax
 =
 0x10FF
-kViEFileIdBase
-=
-0x2000
-kViEFileIdMax
-=
-0x200F
 kViEDummyChannelId
 =
 0xFFFF

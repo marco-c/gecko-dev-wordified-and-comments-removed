@@ -7,7 +7,9 @@ WEBRTC_VIDEO_ENGINE_MAIN_TEST_AUTOTEST_INTERFACE_VIE_AUTOTEST_DEFINES_H_
 #
 include
 <
-cassert
+assert
+.
+h
 >
 #
 include

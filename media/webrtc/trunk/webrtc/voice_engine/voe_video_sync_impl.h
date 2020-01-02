@@ -132,8 +132,12 @@ int
 channel
 RtpRtcp
 *
-&
+*
 rtpRtcpModule
+RtpReceiver
+*
+*
+rtp_receiver
 )
 ;
 protected

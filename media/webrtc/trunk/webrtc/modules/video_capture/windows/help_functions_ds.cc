@@ -8,6 +8,14 @@ h
 #
 include
 "
+webrtc
+/
+modules
+/
+video_capture
+/
+windows
+/
 help_functions_ds
 .
 h

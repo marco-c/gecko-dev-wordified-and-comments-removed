@@ -124,7 +124,9 @@ WIN32
 #
 include
 <
-cassert
+assert
+.
+h
 >
 #
 include
@@ -141,9 +143,7 @@ WEBRTC_LINUX
 #
 include
 <
-netinet
-/
-in
+assert
 .
 h
 >
@@ -157,7 +157,11 @@ h
 #
 include
 <
-cassert
+netinet
+/
+in
+.
+h
 >
 #
 endif

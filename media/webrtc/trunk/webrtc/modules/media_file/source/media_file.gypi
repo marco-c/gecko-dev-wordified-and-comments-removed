@@ -108,9 +108,6 @@ dependencies
 :
 [
 '
-webrtc_utility
-'
-'
 <
 (
 webrtc_root

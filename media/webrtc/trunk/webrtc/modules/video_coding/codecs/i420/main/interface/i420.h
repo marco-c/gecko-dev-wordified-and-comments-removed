@@ -74,6 +74,7 @@ codecSettings
 int
 uint32_t
 )
+OVERRIDE
 ;
 virtual
 int
@@ -96,6 +97,7 @@ VideoFrameType
 >
 *
 )
+OVERRIDE
 ;
 virtual
 int
@@ -105,12 +107,14 @@ EncodedImageCallback
 *
 callback
 )
+OVERRIDE
 ;
 virtual
 int
 Release
 (
 )
+OVERRIDE
 ;
 virtual
 int
@@ -119,6 +123,7 @@ SetRates
 uint32_t
 uint32_t
 )
+OVERRIDE
 {
 return
 WEBRTC_VIDEO_CODEC_OK
@@ -131,6 +136,7 @@ SetChannelParameters
 uint32_t
 int
 )
+OVERRIDE
 {
 return
 WEBRTC_VIDEO_CODEC_OK
@@ -144,6 +150,7 @@ uint8_t
 *
 int
 )
+OVERRIDE
 {
 return
 WEBRTC_VIDEO_CODEC_OK
@@ -205,6 +212,7 @@ VideoCodec
 codecSettings
 int
 )
+OVERRIDE
 ;
 virtual
 int
@@ -215,6 +223,7 @@ uint8_t
 *
 int
 )
+OVERRIDE
 {
 return
 WEBRTC_VIDEO_CODEC_OK
@@ -238,6 +247,7 @@ CodecSpecificInfo
 *
 int64_t
 )
+OVERRIDE
 ;
 virtual
 int
@@ -247,18 +257,21 @@ DecodedImageCallback
 *
 callback
 )
+OVERRIDE
 ;
 virtual
 int
 Release
 (
 )
+OVERRIDE
 ;
 virtual
 int
 Reset
 (
 )
+OVERRIDE
 ;
 private
 :

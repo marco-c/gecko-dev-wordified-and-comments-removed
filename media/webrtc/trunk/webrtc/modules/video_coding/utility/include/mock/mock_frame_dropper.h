@@ -12,6 +12,12 @@ string
 #
 include
 "
+testing
+/
+gmock
+/
+include
+/
 gmock
 /
 gmock

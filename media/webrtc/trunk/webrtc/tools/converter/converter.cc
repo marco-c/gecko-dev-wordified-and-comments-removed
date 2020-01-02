@@ -1,6 +1,13 @@
 #
 include
 <
+stdio
+.
+h
+>
+#
+include
+<
 stdlib
 .
 h
@@ -13,11 +20,6 @@ sys
 stat
 .
 h
->
-#
-include
-<
-cstdio
 >
 #
 include

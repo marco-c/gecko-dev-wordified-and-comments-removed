@@ -1,8 +1,11 @@
 #
 include
 "
-.
-.
+webrtc
+/
+modules
+/
+video_capture
 /
 device_info_impl
 .
@@ -11,8 +14,11 @@ h
 #
 include
 "
-.
-.
+webrtc
+/
+modules
+/
+video_capture
 /
 video_capture_impl
 .

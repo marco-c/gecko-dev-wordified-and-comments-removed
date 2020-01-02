@@ -12,6 +12,8 @@ vector
 #
 include
 "
+webrtc
+/
 common_types
 .
 h
@@ -19,6 +21,8 @@ h
 #
 include
 "
+webrtc
+/
 common_video
 /
 interface
@@ -30,6 +34,8 @@ h
 #
 include
 "
+webrtc
+/
 modules
 /
 interface
@@ -41,6 +47,8 @@ h
 #
 include
 "
+webrtc
+/
 modules
 /
 video_coding
@@ -56,6 +64,8 @@ h
 #
 include
 "
+webrtc
+/
 modules
 /
 video_coding
@@ -276,15 +286,6 @@ RTPFragmentationHeader
 *
 FragmentationHeader
 (
-)
-const
-;
-int32_t
-Store
-(
-VCMFrameStorageCallback
-&
-storeCallback
 )
 const
 ;

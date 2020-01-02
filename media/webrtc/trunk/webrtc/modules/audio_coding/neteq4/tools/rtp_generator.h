@@ -92,6 +92,12 @@ samples_per_ms_
 (
 samples_per_ms
 )
+drift_factor_
+(
+0
+.
+0
+)
 {
 }
 uint32_t
@@ -104,6 +110,13 @@ payload_length_samples
 WebRtcRTPHeader
 *
 rtp_header
+)
+;
+void
+set_drift_factor
+(
+double
+factor
 )
 ;
 private
@@ -124,6 +137,9 @@ ssrc_
 const
 int
 samples_per_ms_
+;
+double
+drift_factor_
 ;
 DISALLOW_COPY_AND_ASSIGN
 (

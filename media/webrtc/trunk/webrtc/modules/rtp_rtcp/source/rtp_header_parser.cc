@@ -119,6 +119,7 @@ RTPHeader
 header
 )
 const
+OVERRIDE
 ;
 virtual
 bool
@@ -129,6 +130,7 @@ type
 uint8_t
 id
 )
+OVERRIDE
 ;
 virtual
 bool
@@ -137,6 +139,7 @@ DeregisterRtpHeaderExtension
 RTPExtensionType
 type
 )
+OVERRIDE
 ;
 private
 :

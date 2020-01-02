@@ -45,7 +45,7 @@ test
 /
 unit_test
 /
-unit_test
+video_processing_unittest
 .
 h
 "

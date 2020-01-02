@@ -1,6 +1,12 @@
 #
 include
 "
+webrtc
+/
+modules
+/
+audio_device
+/
 audio_device_generic
 .
 h
@@ -8,6 +14,12 @@ h
 #
 include
 "
+webrtc
+/
+system_wrappers
+/
+interface
+/
 trace
 .
 h

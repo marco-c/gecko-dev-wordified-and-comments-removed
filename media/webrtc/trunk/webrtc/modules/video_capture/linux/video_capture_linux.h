@@ -7,6 +7,8 @@ WEBRTC_MODULES_VIDEO_CAPTURE_MAIN_SOURCE_LINUX_VIDEO_CAPTURE_LINUX_H_
 #
 include
 "
+webrtc
+/
 common_types
 .
 h
@@ -14,8 +16,11 @@ h
 #
 include
 "
-.
-.
+webrtc
+/
+modules
+/
+video_capture
 /
 video_capture_impl
 .

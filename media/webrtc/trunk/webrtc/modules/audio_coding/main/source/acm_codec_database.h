@@ -50,6 +50,9 @@ h
 namespace
 webrtc
 {
+namespace
+acm1
+{
 class
 ACMCodecDB
 {
@@ -187,7 +190,12 @@ endif
 kCNNB
 kCNWB
 kCNSWB
+#
+ifdef
+ENABLE_48000_HZ
 kCNFB
+#
+endif
 #
 ifdef
 WEBRTC_CODEC_AVT
@@ -784,6 +792,7 @@ kMaxNumCodecs
 ;
 }
 ;
+}
 }
 #
 endif

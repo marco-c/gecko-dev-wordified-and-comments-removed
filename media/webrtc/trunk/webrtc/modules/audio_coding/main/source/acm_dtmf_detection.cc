@@ -35,6 +35,9 @@ h
 namespace
 webrtc
 {
+namespace
+acm1
+{
 ACMDTMFDetection
 :
 :
@@ -102,5 +105,6 @@ return
 -
 1
 ;
+}
 }
 }

@@ -7,6 +7,8 @@ WEBRTC_AUDIO_DEVICE_AUDIO_MIXER_MANAGER_WIN_H
 #
 include
 "
+webrtc
+/
 typedefs
 .
 h
@@ -14,6 +16,14 @@ h
 #
 include
 "
+webrtc
+/
+modules
+/
+audio_device
+/
+include
+/
 audio_device
 .
 h
@@ -21,6 +31,12 @@ h
 #
 include
 "
+webrtc
+/
+system_wrappers
+/
+interface
+/
 critical_section_wrapper
 .
 h

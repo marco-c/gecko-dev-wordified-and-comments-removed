@@ -50,6 +50,9 @@ h
 namespace
 webrtc
 {
+namespace
+acm1
+{
 class
 ACMDTMFDetection
 {
@@ -106,6 +109,7 @@ resampler_
 ;
 }
 ;
+}
 }
 #
 endif

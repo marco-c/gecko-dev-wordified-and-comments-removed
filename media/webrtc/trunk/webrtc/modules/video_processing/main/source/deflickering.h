@@ -6,6 +6,13 @@ define
 VPM_DEFLICKERING_H
 #
 include
+<
+string
+.
+h
+>
+#
+include
 "
 webrtc
 /
@@ -30,11 +37,6 @@ typedefs
 .
 h
 "
-#
-include
-<
-cstring
->
 namespace
 webrtc
 {

@@ -533,6 +533,16 @@ video_coding_impl
 .
 cc
 '
+'
+video_sender
+.
+cc
+'
+'
+video_receiver
+.
+cc
+'
 ]
 #
 source

@@ -326,7 +326,7 @@ nsglContext
 _owner
 -
 >
-UnlockAGLCntx
+LockAGLCntx
 (
 )
 ;
@@ -2587,6 +2587,7 @@ fmt
 =
 [
 [
+[
 NSOpenGLPixelFormat
 alloc
 ]
@@ -2597,6 +2598,8 @@ NSOpenGLPixelFormatAttribute
 *
 )
 attribs
+]
+autorelease
 ]
 ;
 if
@@ -2623,11 +2626,6 @@ return
 1
 ;
 }
-[
-fmt
-release
-]
-;
 _nsglContext
 =
 [
@@ -2707,6 +2705,7 @@ fmt
 =
 [
 [
+[
 NSOpenGLPixelFormat
 alloc
 ]
@@ -2717,6 +2716,8 @@ NSOpenGLPixelFormatAttribute
 *
 )
 attribs
+]
+autorelease
 ]
 ;
 /
@@ -2829,11 +2830,6 @@ return
 1
 ;
 }
-[
-fmt
-release
-]
-;
 _nsglContext
 =
 [

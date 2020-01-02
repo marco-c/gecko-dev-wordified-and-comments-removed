@@ -23,7 +23,9 @@ h
 #
 include
 <
-cstring
+string
+.
+h
 >
 #
 include

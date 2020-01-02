@@ -55,12 +55,7 @@ SetTimeSeconds
 float
 time
 )
-{
-time_seconds_
-=
-time
 ;
-}
 virtual
 void
 Print
@@ -74,6 +69,7 @@ msg_array
 int
 length
 )
+OVERRIDE
 ;
 private
 :

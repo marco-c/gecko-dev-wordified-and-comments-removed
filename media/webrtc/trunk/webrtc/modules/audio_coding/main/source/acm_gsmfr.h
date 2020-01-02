@@ -30,6 +30,9 @@ GSMFR_decinst_t_
 namespace
 webrtc
 {
+namespace
+acm1
+{
 class
 ACMGSMFR
 :
@@ -165,6 +168,7 @@ decoder_inst_ptr_
 ;
 }
 ;
+}
 }
 #
 endif

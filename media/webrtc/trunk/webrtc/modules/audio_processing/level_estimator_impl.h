@@ -80,6 +80,7 @@ is_enabled
 (
 )
 const
+OVERRIDE
 ;
 private
 :
@@ -90,12 +91,14 @@ Enable
 bool
 enable
 )
+OVERRIDE
 ;
 virtual
 int
 RMS
 (
 )
+OVERRIDE
 ;
 virtual
 void
@@ -104,6 +107,7 @@ CreateHandle
 (
 )
 const
+OVERRIDE
 ;
 virtual
 int
@@ -114,6 +118,7 @@ void
 handle
 )
 const
+OVERRIDE
 ;
 virtual
 int
@@ -124,6 +129,7 @@ void
 handle
 )
 const
+OVERRIDE
 ;
 virtual
 int
@@ -134,6 +140,7 @@ void
 handle
 )
 const
+OVERRIDE
 ;
 virtual
 int
@@ -141,6 +148,7 @@ num_handles_required
 (
 )
 const
+OVERRIDE
 ;
 virtual
 int
@@ -151,6 +159,7 @@ void
 handle
 )
 const
+OVERRIDE
 ;
 const
 AudioProcessingImpl

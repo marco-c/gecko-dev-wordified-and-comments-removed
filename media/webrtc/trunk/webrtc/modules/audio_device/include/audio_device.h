@@ -7,6 +7,8 @@ MODULES_AUDIO_DEVICE_INCLUDE_AUDIO_DEVICE_H_
 #
 include
 "
+webrtc
+/
 modules
 /
 audio_device
@@ -20,6 +22,8 @@ h
 #
 include
 "
+webrtc
+/
 modules
 /
 interface

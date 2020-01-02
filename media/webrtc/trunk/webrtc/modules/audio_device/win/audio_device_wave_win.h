@@ -7,6 +7,12 @@ WEBRTC_AUDIO_DEVICE_AUDIO_DEVICE_WAVE_WIN_H
 #
 include
 "
+webrtc
+/
+modules
+/
+audio_device
+/
 audio_device_generic
 .
 h
@@ -14,6 +20,14 @@ h
 #
 include
 "
+webrtc
+/
+modules
+/
+audio_device
+/
+win
+/
 audio_mixer_manager_win
 .
 h

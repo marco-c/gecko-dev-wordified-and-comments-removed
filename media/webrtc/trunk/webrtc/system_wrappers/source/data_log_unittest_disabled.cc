@@ -14,7 +14,9 @@ h
 #
 include
 <
-cstdio
+stdio
+.
+h
 >
 #
 include
@@ -198,9 +200,6 @@ TestDataLogDisabled
 EnsureNoFileIsWritten
 )
 {
-std
-:
-:
 remove
 (
 kDataLogFileName

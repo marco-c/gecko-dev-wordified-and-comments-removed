@@ -12,12 +12,14 @@ h
 #
 include
 <
-algorithm
+string
+.
+h
 >
 #
 include
 <
-cstring
+algorithm
 >
 namespace
 webrtc

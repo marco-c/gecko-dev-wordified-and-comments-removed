@@ -6,6 +6,13 @@ import
 sys
 import
 helper_functions
+sys
+.
+stderr
+=
+sys
+.
+stdout
 def
 convert_yuv_to_png_files
 (
@@ -345,11 +352,6 @@ err
 :
     
 print
->
->
-sys
-.
-stderr
 '
 Error
 executing
@@ -366,8 +368,33 @@ s
 %
 (
 command
-                                                                     
 err
+)
+    
+return
+False
+  
+except
+OSError
+:
+    
+print
+(
+'
+Did
+not
+find
+%
+s
+.
+Have
+you
+installed
+it
+?
+'
+%
+ffmpeg_executable
 )
     
 return
@@ -831,11 +858,6 @@ err
 :
     
 print
->
->
-sys
-.
-stderr
 '
 Barcode
 in
@@ -850,12 +872,33 @@ decoded
 file_name
     
 print
->
->
-sys
-.
-stderr
 err
+    
+return
+False
+  
+except
+OSError
+:
+    
+print
+(
+'
+Did
+not
+find
+%
+s
+.
+Have
+you
+installed
+it
+?
+'
+%
+command_line_decoder
+)
     
 return
 False
@@ -2096,11 +2139,6 @@ ffmpeg_dir
 :
     
 print
->
->
-sys
-.
-stderr
 '
 An
 error
@@ -2137,12 +2175,6 @@ zxing_dir
 :
     
 print
->
->
-sys
-.
-stderr
-(
 '
 An
 error
@@ -2154,20 +2186,6 @@ PNG
 frames
 .
 '
-                          
-'
-Have
-you
-built
-the
-zxing
-C
-+
-+
-executable
-?
-'
-)
     
 return
 -

@@ -18,7 +18,9 @@ h
 #
 include
 <
-cstdio
+stdio
+.
+h
 >
 #
 include
@@ -129,9 +131,6 @@ SetUp
 (
 )
 {
-std
-:
-:
 remove
 (
 kOutputFilename
@@ -147,9 +146,6 @@ TearDown
 (
 )
 {
-std
-:
-:
 remove
 (
 kOutputFilename

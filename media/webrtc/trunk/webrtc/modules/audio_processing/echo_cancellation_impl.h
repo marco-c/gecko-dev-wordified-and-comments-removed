@@ -13,58 +13,13 @@ modules
 /
 audio_processing
 /
-include
-/
-audio_processing
-.
-h
-"
-#
-include
-"
-webrtc
-/
-modules
-/
-audio_processing
-/
-processing_component
+echo_cancellation_impl_wrapper
 .
 h
 "
 namespace
 webrtc
 {
-struct
-DelayCorrection
-{
-DelayCorrection
-(
-)
-:
-enabled
-(
-false
-)
-{
-}
-DelayCorrection
-(
-bool
-enabled
-)
-:
-enabled
-(
-enabled
-)
-{
-}
-bool
-enabled
-;
-}
-;
 class
 AudioProcessingImpl
 ;
@@ -75,9 +30,7 @@ class
 EchoCancellationImpl
 :
 public
-EchoCancellation
-public
-ProcessingComponent
+EchoCancellationImplWrapper
 {
 public
 :
@@ -96,6 +49,7 @@ EchoCancellationImpl
 (
 )
 ;
+virtual
 int
 ProcessRenderAudio
 (
@@ -104,7 +58,9 @@ AudioBuffer
 *
 audio
 )
+OVERRIDE
 ;
+virtual
 int
 ProcessCaptureAudio
 (
@@ -112,6 +68,7 @@ AudioBuffer
 *
 audio
 )
+OVERRIDE
 ;
 virtual
 bool
@@ -119,6 +76,7 @@ is_enabled
 (
 )
 const
+OVERRIDE
 ;
 virtual
 int
@@ -126,6 +84,7 @@ device_sample_rate_hz
 (
 )
 const
+OVERRIDE
 ;
 virtual
 int
@@ -133,12 +92,14 @@ stream_drift_samples
 (
 )
 const
+OVERRIDE
 ;
 virtual
 int
 Initialize
 (
 )
+OVERRIDE
 ;
 private
 :
@@ -149,6 +110,7 @@ Enable
 bool
 enable
 )
+OVERRIDE
 ;
 virtual
 int
@@ -157,6 +119,7 @@ enable_drift_compensation
 bool
 enable
 )
+OVERRIDE
 ;
 virtual
 bool
@@ -164,6 +127,7 @@ is_drift_compensation_enabled
 (
 )
 const
+OVERRIDE
 ;
 virtual
 int
@@ -172,6 +136,7 @@ set_device_sample_rate_hz
 int
 rate
 )
+OVERRIDE
 ;
 virtual
 void
@@ -180,6 +145,7 @@ set_stream_drift_samples
 int
 drift
 )
+OVERRIDE
 ;
 virtual
 int
@@ -188,6 +154,7 @@ set_suppression_level
 SuppressionLevel
 level
 )
+OVERRIDE
 ;
 virtual
 SuppressionLevel
@@ -195,6 +162,7 @@ suppression_level
 (
 )
 const
+OVERRIDE
 ;
 virtual
 int
@@ -203,6 +171,7 @@ enable_metrics
 bool
 enable
 )
+OVERRIDE
 ;
 virtual
 bool
@@ -210,6 +179,7 @@ are_metrics_enabled
 (
 )
 const
+OVERRIDE
 ;
 virtual
 bool
@@ -217,6 +187,7 @@ stream_has_echo
 (
 )
 const
+OVERRIDE
 ;
 virtual
 int
@@ -226,6 +197,7 @@ Metrics
 *
 metrics
 )
+OVERRIDE
 ;
 virtual
 int
@@ -234,6 +206,7 @@ enable_delay_logging
 bool
 enable
 )
+OVERRIDE
 ;
 virtual
 bool
@@ -241,6 +214,7 @@ is_delay_logging_enabled
 (
 )
 const
+OVERRIDE
 ;
 virtual
 int
@@ -253,6 +227,7 @@ int
 *
 std
 )
+OVERRIDE
 ;
 virtual
 struct
@@ -262,6 +237,7 @@ aec_core
 (
 )
 const
+OVERRIDE
 ;
 virtual
 void
@@ -270,6 +246,7 @@ CreateHandle
 (
 )
 const
+OVERRIDE
 ;
 virtual
 int
@@ -280,6 +257,7 @@ void
 handle
 )
 const
+OVERRIDE
 ;
 virtual
 int
@@ -290,6 +268,7 @@ void
 handle
 )
 const
+OVERRIDE
 ;
 virtual
 int
@@ -300,6 +279,7 @@ void
 handle
 )
 const
+OVERRIDE
 ;
 virtual
 int
@@ -307,6 +287,7 @@ num_handles_required
 (
 )
 const
+OVERRIDE
 ;
 virtual
 int
@@ -317,6 +298,7 @@ void
 handle
 )
 const
+OVERRIDE
 ;
 const
 AudioProcessingImpl
@@ -346,9 +328,6 @@ stream_has_echo_
 ;
 bool
 delay_logging_enabled_
-;
-bool
-delay_correction_enabled_
 ;
 }
 ;

@@ -7,6 +7,14 @@ WEBRTC_AUDIO_DEVICE_PULSEAUDIOSYMBOLTABLE_LINUX_H
 #
 include
 "
+webrtc
+/
+modules
+/
+audio_device
+/
+linux
+/
 latebindingsymboltable_linux
 .
 h

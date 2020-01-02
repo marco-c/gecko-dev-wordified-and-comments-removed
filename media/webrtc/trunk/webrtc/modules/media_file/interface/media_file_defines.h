@@ -7,6 +7,8 @@ WEBRTC_MODULES_MEDIA_FILE_INTERFACE_MEDIA_FILE_DEFINES_H_
 #
 include
 "
+webrtc
+/
 engine_configurations
 .
 h
@@ -14,6 +16,12 @@ h
 #
 include
 "
+webrtc
+/
+modules
+/
+interface
+/
 module_common_types
 .
 h
@@ -21,6 +29,8 @@ h
 #
 include
 "
+webrtc
+/
 typedefs
 .
 h

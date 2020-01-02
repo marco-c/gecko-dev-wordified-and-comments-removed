@@ -412,6 +412,7 @@ WEBRTC_LINUX
 ]
 [
 '
+(
 target_arch
 =
 =
@@ -423,6 +424,14 @@ armv7
 =
 =
 1
+)
+or
+target_arch
+=
+=
+"
+armv7
+"
 '
 {
 '
@@ -479,6 +488,7 @@ conditions
 [
 [
 '
+(
 target_arch
 =
 =
@@ -490,6 +500,14 @@ armv7
 =
 =
 1
+)
+or
+target_arch
+=
+=
+"
+armv7
+"
 '
 {
 '

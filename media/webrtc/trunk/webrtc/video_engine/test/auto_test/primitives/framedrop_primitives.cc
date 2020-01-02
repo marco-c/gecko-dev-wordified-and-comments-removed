@@ -1,12 +1,16 @@
 #
 include
 <
-cassert
+assert
+.
+h
 >
 #
 include
 <
-cmath
+math
+.
+h
 >
 #
 include
@@ -1639,9 +1643,6 @@ Close
 ASSERT_EQ
 (
 0
-std
-:
-:
 remove
 (
 output_file
@@ -1655,9 +1656,6 @@ c_str
 ASSERT_EQ
 (
 0
-std
-:
-:
 rename
 (
 temp_file
@@ -4006,6 +4004,8 @@ uint32_t
 time_stamp
 int64_t
 render_time
+void
+*
 )
 {
 int64_t
@@ -4069,6 +4069,7 @@ buffer
 buffer_size
 time_stamp
 render_time
+NULL
 )
 ;
 }

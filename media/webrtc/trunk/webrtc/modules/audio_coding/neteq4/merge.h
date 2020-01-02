@@ -123,7 +123,7 @@ Process
 int16_t
 *
 input
-int
+size_t
 input_length
 int16_t
 *

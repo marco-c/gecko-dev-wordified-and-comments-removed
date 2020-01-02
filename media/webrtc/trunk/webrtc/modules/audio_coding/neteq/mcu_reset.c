@@ -95,6 +95,17 @@ minimum_delay_ms
 inst
 -
 >
+BufferStat_inst
+.
+Automode_inst
+.
+maximum_delay_ms
+=
+10000
+;
+inst
+-
+>
 NetEqPlayoutMode
 =
 kPlayoutOn

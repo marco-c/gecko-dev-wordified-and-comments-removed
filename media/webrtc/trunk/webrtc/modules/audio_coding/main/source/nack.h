@@ -60,6 +60,9 @@ h
 namespace
 webrtc
 {
+namespace
+acm1
+{
 class
 Nack
 {
@@ -327,6 +330,7 @@ max_nack_list_size_
 ;
 }
 ;
+}
 }
 #
 endif

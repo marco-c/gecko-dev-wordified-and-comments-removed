@@ -26,7 +26,7 @@ audio_coding
 /
 main
 /
-source
+acm2
 /
 acm_common_defs
 .
@@ -833,6 +833,9 @@ endif
 namespace
 webrtc
 {
+namespace
+acm1
+{
 const
 CodecInst
 ACMCodecDB
@@ -1286,6 +1289,9 @@ CN
 1
 0
 }
+#
+ifdef
+ENABLE_48000_HZ
 {
 100
 "
@@ -1296,6 +1302,8 @@ CN
 1
 0
 }
+#
+endif
 #
 ifdef
 WEBRTC_CODEC_AVT
@@ -1797,6 +1805,9 @@ endif
 960
 1
 }
+#
+ifdef
+ENABLE_48000_HZ
 {
 1
 {
@@ -1805,6 +1816,8 @@ endif
 1440
 1
 }
+#
+endif
 #
 ifdef
 WEBRTC_CODEC_AVT
@@ -1981,7 +1994,12 @@ endif
 kDecoderCNG
 kDecoderCNG
 kDecoderCNG
+#
+ifdef
+ENABLE_48000_HZ
 kDecoderCNG
+#
+endif
 #
 ifdef
 WEBRTC_CODEC_AVT
@@ -3504,6 +3522,9 @@ kCNSWB
 break
 ;
 }
+#
+ifdef
+ENABLE_48000_HZ
 case
 48000
 :
@@ -3515,6 +3536,8 @@ kCNFB
 break
 ;
 }
+#
+endif
 default
 :
 {
@@ -3748,6 +3771,9 @@ kCNSWB
 break
 ;
 }
+#
+ifdef
+ENABLE_48000_HZ
 case
 48000
 :
@@ -3759,6 +3785,8 @@ kCNFB
 break
 ;
 }
+#
+endif
 default
 :
 {
@@ -4462,5 +4490,6 @@ false
 return
 true
 ;
+}
 }
 }

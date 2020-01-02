@@ -7,6 +7,16 @@ WEBRTC_MODULES_VIDEO_CODING_GENERIC_ENCODER_H_
 #
 include
 "
+webrtc
+/
+modules
+/
+video_coding
+/
+codecs
+/
+interface
+/
 video_codec_interface
 .
 h
@@ -25,7 +35,7 @@ namespace
 media_optimization
 {
 class
-VCMMediaOptimization
+MediaOptimization
 ;
 }
 class
@@ -85,7 +95,7 @@ SetMediaOpt
 media_optimization
 :
 :
-VCMMediaOptimization
+MediaOptimization
 *
 mediaOpt
 )
@@ -152,7 +162,7 @@ _sendCallback
 media_optimization
 :
 :
-VCMMediaOptimization
+MediaOptimization
 *
 _mediaOpt
 ;

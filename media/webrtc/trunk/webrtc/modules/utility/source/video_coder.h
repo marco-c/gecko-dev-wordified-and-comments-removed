@@ -10,6 +10,8 @@ WEBRTC_MODULE_UTILITY_VIDEO
 #
 include
 "
+webrtc
+/
 engine_configurations
 .
 h
@@ -17,6 +19,16 @@ h
 #
 include
 "
+webrtc
+/
+modules
+/
+video_coding
+/
+main
+/
+interface
+/
 video_coding
 .
 h
@@ -42,11 +54,6 @@ instanceID
 ;
 ~
 VideoCoder
-(
-)
-;
-int32_t
-ResetDecoder
 (
 )
 ;

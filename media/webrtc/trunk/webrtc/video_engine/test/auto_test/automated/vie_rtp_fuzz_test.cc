@@ -1,7 +1,9 @@
 #
 include
 <
-ctime
+time
+.
+h
 >
 #
 include
@@ -373,9 +375,6 @@ FLAGS_rtp_fuzz_test_rand_seed
 ;
 }
 return
-std
-:
-:
 time
 (
 NULL

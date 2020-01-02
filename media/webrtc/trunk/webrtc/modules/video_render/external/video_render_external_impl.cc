@@ -1,6 +1,14 @@
 #
 include
 "
+webrtc
+/
+modules
+/
+video_render
+/
+external
+/
 video_render_external_impl
 .
 h

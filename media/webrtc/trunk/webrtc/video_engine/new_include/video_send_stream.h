@@ -68,9 +68,6 @@ webrtc
 class
 VideoEncoder
 ;
-namespace
-newapi
-{
 struct
 SendStreamState
 ;
@@ -260,6 +257,10 @@ target_delay_ms
 (
 0
 )
+pacing
+(
+false
+)
 stats_callback
 (
 NULL
@@ -282,6 +283,9 @@ Rtp
 :
 mode
 (
+newapi
+:
+:
 kRtcpReducedSize
 )
 max_packet_size
@@ -290,6 +294,9 @@ max_packet_size
 )
 {
 }
+newapi
+:
+:
 RtcpMode
 mode
 ;
@@ -356,6 +363,9 @@ internal_source
 ;
 int
 target_delay_ms
+;
+bool
+pacing
 ;
 StatsCallback
 *
@@ -436,7 +446,6 @@ VideoSendStream
 }
 }
 ;
-}
 }
 #
 endif

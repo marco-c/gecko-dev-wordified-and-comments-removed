@@ -14,7 +14,9 @@ h
 #
 include
 <
-cassert
+assert
+.
+h
 >
 #
 include
@@ -32,6 +34,14 @@ h
 namespace
 webrtc
 {
+ProcessingComponent
+:
+:
+ProcessingComponent
+(
+)
+{
+}
 ProcessingComponent
 :
 :

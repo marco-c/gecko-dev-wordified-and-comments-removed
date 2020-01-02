@@ -288,9 +288,6 @@ NULL
 ;
 output_file_
 =
-std
-:
-:
 fopen
 (
 (
@@ -396,9 +393,6 @@ Stop
 continue
 ;
 }
-std
-:
-:
 fclose
 (
 output_file_
@@ -441,9 +435,6 @@ output_filename_
 ;
 if
 (
-std
-:
-:
 rename
 (
 (
@@ -472,9 +463,6 @@ c_str
 0
 )
 {
-std
-:
-:
 perror
 (
 "
@@ -523,9 +511,6 @@ output_filename_
 ;
 if
 (
-std
-:
-:
 remove
 (
 (
@@ -543,9 +528,6 @@ c_str
 0
 )
 {
-std
-:
-:
 perror
 (
 "
@@ -623,6 +605,8 @@ uint32_t
 time_stamp
 int64_t
 render_time
+void
+*
 )
 {
 webrtc
@@ -765,6 +749,18 @@ return
 0
 ;
 }
+bool
+ViEToFileRenderer
+:
+:
+IsTextureSupported
+(
+)
+{
+return
+false
+;
+}
 int
 ViEToFileRenderer
 :
@@ -891,9 +887,6 @@ output_file_
 int
 written
 =
-std
-:
-:
 fwrite
 (
 frame

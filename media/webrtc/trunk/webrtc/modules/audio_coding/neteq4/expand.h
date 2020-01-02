@@ -478,7 +478,7 @@ const
 int16_t
 *
 input
-int16_t
+size_t
 input_length
 int16_t
 *

@@ -62,7 +62,9 @@ endif
 #
 include
 <
-cassert
+assert
+.
+h
 >
 #
 include

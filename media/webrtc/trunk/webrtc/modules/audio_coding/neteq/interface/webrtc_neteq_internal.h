@@ -314,6 +314,16 @@ minimum_delay_ms
 )
 ;
 int
+WebRtcNetEQ_SetMaximumDelay
+(
+void
+*
+inst
+int
+maximum_delay_ms
+)
+;
+int
 WebRtcNetEQ_GetRequiredDelayMs
 (
 const

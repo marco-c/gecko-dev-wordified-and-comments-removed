@@ -111,7 +111,7 @@ const
 int16_t
 *
 input
-int
+size_t
 input_length
 AudioMultiVector
 <
@@ -130,7 +130,7 @@ virtual
 void
 SetParametersForPassiveSpeech
 (
-int
+size_t
 len
 int16_t
 *
@@ -140,6 +140,7 @@ int
 peak_index
 )
 const
+OVERRIDE
 ;
 virtual
 ReturnCodes
@@ -149,7 +150,7 @@ const
 int16_t
 *
 input
-int
+size_t
 input_length
 size_t
 peak_index
@@ -165,6 +166,7 @@ int16_t
 output
 )
 const
+OVERRIDE
 ;
 private
 :

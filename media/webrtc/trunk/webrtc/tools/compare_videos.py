@@ -23,6 +23,13 @@ abspath
 __file__
 )
 )
+sys
+.
+stderr
+=
+sys
+.
+stdout
 def
 _ParseArgs
 (
@@ -64,6 +71,51 @@ OptionParser
 usage
 =
 usage
+)
+  
+parser
+.
+add_option
+(
+'
+-
+-
+label
+'
+type
+=
+'
+string
+'
+default
+=
+"
+MY_TEST
+"
+                    
+help
+=
+(
+'
+Label
+of
+the
+test
+used
+to
+identify
+different
+'
+                          
+'
+tests
+.
+Default
+:
+%
+default
+'
+)
 )
   
 parser
@@ -119,7 +171,7 @@ Test
 video
 to
 be
-comared
+compared
 with
 the
 reference
@@ -699,11 +751,6 @@ returncode
 :
     
 print
->
->
-sys
-.
-stderr
 '
 Failed
 to
@@ -724,6 +771,19 @@ cmd
 options
 .
 frame_analyzer
+    
+'
+-
+-
+label
+=
+%
+s
+'
+%
+options
+.
+label
     
 '
 -
@@ -749,7 +809,7 @@ s
 %
 options
 .
-ref_video
+test_video
     
 '
 -
@@ -827,11 +887,6 @@ returncode
 :
     
 print
->
->
-sys
-.
-stderr
 '
 Failed
 to

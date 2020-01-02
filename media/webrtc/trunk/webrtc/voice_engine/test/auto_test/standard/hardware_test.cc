@@ -361,7 +361,10 @@ endif
 TEST_F
 (
 HardwareTest
+DISABLED_ON_WIN
+(
 BuiltInWasapiAECWorksForAudioWindowsCoreAudioLayer
+)
 )
 {
 #

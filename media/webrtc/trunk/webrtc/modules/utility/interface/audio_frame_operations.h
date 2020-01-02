@@ -7,6 +7,8 @@ WEBRTC_VOICE_ENGINE_AUDIO_FRAME_OPERATIONS_H_
 #
 include
 "
+webrtc
+/
 typedefs
 .
 h

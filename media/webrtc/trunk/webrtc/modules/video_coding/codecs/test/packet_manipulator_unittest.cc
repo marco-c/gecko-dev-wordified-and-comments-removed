@@ -1,6 +1,8 @@
 #
 include
 "
+webrtc
+/
 modules
 /
 video_coding
@@ -21,6 +23,12 @@ queue
 #
 include
 "
+testing
+/
+gtest
+/
+include
+/
 gtest
 /
 gtest
@@ -30,6 +38,8 @@ h
 #
 include
 "
+webrtc
+/
 modules
 /
 video_coding
@@ -45,6 +55,8 @@ h
 #
 include
 "
+webrtc
+/
 modules
 /
 video_coding
@@ -60,6 +72,10 @@ h
 #
 include
 "
+webrtc
+/
+test
+/
 testsupport
 /
 unittest_utils
@@ -69,6 +85,8 @@ h
 #
 include
 "
+webrtc
+/
 typedefs
 .
 h

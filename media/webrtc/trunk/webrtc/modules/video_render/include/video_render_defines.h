@@ -7,6 +7,8 @@ WEBRTC_MODULES_VIDEO_RENDER_MAIN_INTERFACE_VIDEO_RENDER_DEFINES_H_
 #
 include
 "
+webrtc
+/
 common_types
 .
 h
@@ -14,6 +16,8 @@ h
 #
 include
 "
+webrtc
+/
 common_video
 /
 interface
@@ -25,6 +29,8 @@ h
 #
 include
 "
+webrtc
+/
 modules
 /
 interface
@@ -60,7 +66,7 @@ kRenderCocoa
 kRenderCarbon
 =
 3
-kRenderiPhone
+kRenderiOS
 =
 4
 kRenderAndroid

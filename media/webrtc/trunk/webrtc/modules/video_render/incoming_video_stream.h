@@ -19,17 +19,6 @@ video_render
 .
 h
 "
-#
-include
-"
-system_wrappers
-/
-interface
-/
-map_wrapper
-.
-h
-"
 namespace
 webrtc
 {

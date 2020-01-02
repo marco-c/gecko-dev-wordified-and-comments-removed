@@ -18,7 +18,9 @@ h
 #
 include
 <
-cassert
+assert
+.
+h
 >
 #
 include
@@ -71,7 +73,9 @@ WEBRTC_MAC
 #
 include
 <
-cstring
+string
+.
+h
 >
 #
 endif

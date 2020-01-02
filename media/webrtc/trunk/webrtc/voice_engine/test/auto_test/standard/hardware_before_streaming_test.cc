@@ -1,7 +1,9 @@
 #
 include
 <
-cstring
+string
+.
+h
 >
 #
 include

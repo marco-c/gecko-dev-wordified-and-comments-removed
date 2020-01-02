@@ -7,7 +7,9 @@ WEBRTC_MODULES_AUDIO_CODING_NETEQ4_DSP_HELPER_H_
 #
 include
 <
-cstring
+string
+.
+h
 >
 #
 include
@@ -325,7 +327,7 @@ const
 int16_t
 *
 input2
-int
+size_t
 length
 int16_t
 *
@@ -345,7 +347,7 @@ const
 int16_t
 *
 input
-int
+size_t
 length
 int16_t
 *
@@ -366,7 +368,7 @@ int16_t
 signal
 int16_t
 mute_slope
-int
+size_t
 length
 )
 ;
@@ -378,7 +380,7 @@ const
 int16_t
 *
 input
-int
+size_t
 input_length
 int
 output_length

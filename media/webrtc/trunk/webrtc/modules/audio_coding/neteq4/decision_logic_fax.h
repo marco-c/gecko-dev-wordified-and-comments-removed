@@ -122,6 +122,7 @@ bool
 *
 reset_decoder
 )
+OVERRIDE
 ;
 private
 :

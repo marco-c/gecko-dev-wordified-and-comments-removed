@@ -79,9 +79,6 @@ VcmCapturer
 *
 Create
 (
-newapi
-:
-:
 VideoSendStreamInput
 *
 input
@@ -144,9 +141,6 @@ private
 explicit
 VcmCapturer
 (
-newapi
-:
-:
 VideoSendStreamInput
 *
 input

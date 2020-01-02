@@ -10,6 +10,11 @@ webrtc
 namespace
 test
 {
+void
+PressEnterToContinue
+(
+)
+;
 int
 RunAllTests
 (

@@ -213,7 +213,13 @@ max_input_value_
 WebRtcSpl_MaxAbsValueW16
 (
 signal
+static_cast
+<
+int
+>
+(
 signal_len
+)
 )
 ;
 DspHelper

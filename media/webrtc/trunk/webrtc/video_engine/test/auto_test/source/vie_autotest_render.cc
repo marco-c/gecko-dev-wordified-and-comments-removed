@@ -295,6 +295,8 @@ uint32_t
 time_stamp
 int64_t
 render_time
+void
+*
 )
 {
 if
@@ -340,6 +342,16 @@ return
 }
 return
 0
+;
+}
+virtual
+bool
+IsTextureSupported
+(
+)
+{
+return
+false
 ;
 }
 public

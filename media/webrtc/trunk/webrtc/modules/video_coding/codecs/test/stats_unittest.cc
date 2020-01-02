@@ -1,6 +1,8 @@
 #
 include
 "
+webrtc
+/
 modules
 /
 video_coding
@@ -16,6 +18,12 @@ h
 #
 include
 "
+testing
+/
+gtest
+/
+include
+/
 gtest
 /
 gtest
@@ -25,6 +33,8 @@ h
 #
 include
 "
+webrtc
+/
 typedefs
 .
 h

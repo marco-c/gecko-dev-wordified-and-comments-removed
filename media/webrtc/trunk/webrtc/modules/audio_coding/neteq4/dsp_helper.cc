@@ -23,12 +23,14 @@ h
 #
 include
 <
-algorithm
+string
+.
+h
 >
 #
 include
 <
-cstring
+algorithm
 >
 #
 include
@@ -1648,7 +1650,7 @@ const
 int16_t
 *
 input2
-int
+size_t
 length
 int16_t
 *
@@ -1675,7 +1677,7 @@ factor
 ;
 for
 (
-int
+size_t
 i
 =
 0
@@ -1742,7 +1744,7 @@ const
 int16_t
 *
 input
-int
+size_t
 length
 int16_t
 *
@@ -1780,7 +1782,7 @@ factor_16b
 ;
 for
 (
-int
+size_t
 i
 =
 0
@@ -1858,7 +1860,7 @@ int16_t
 signal
 int16_t
 mute_slope
-int
+size_t
 length
 )
 {
@@ -1876,7 +1878,7 @@ factor
 ;
 for
 (
-int
+size_t
 i
 =
 0
@@ -1931,7 +1933,7 @@ const
 int16_t
 *
 input
-int
+size_t
 input_length
 int
 output_length
@@ -2098,7 +2100,13 @@ filter_length
 -
 1
 ]
+static_cast
+<
+int
+>
+(
 input_length
+)
 -
 (
 filter_length

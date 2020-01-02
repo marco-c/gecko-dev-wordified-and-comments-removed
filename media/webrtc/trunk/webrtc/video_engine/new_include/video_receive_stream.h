@@ -81,9 +81,6 @@ webrtc
 class
 VideoDecoder
 ;
-namespace
-newapi
-{
 struct
 ExternalVideoDecoder
 {
@@ -412,7 +409,6 @@ VideoReceiveStream
 }
 }
 ;
-}
 }
 #
 endif

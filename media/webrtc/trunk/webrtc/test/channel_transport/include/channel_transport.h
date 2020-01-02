@@ -52,6 +52,7 @@ VoiceChannelTransport
 (
 )
 ;
+virtual
 void
 IncomingRTPPacket
 (
@@ -68,7 +69,9 @@ char
 const
 uint16_t
 )
+OVERRIDE
 ;
+virtual
 void
 IncomingRTCPPacket
 (
@@ -85,6 +88,7 @@ char
 const
 uint16_t
 )
+OVERRIDE
 ;
 int
 SetLocalReceiver
@@ -142,6 +146,7 @@ VideoChannelTransport
 (
 )
 ;
+virtual
 void
 IncomingRTPPacket
 (
@@ -158,7 +163,9 @@ char
 const
 uint16_t
 )
+OVERRIDE
 ;
+virtual
 void
 IncomingRTCPPacket
 (
@@ -175,6 +182,7 @@ char
 const
 uint16_t
 )
+OVERRIDE
 ;
 int
 SetLocalReceiver

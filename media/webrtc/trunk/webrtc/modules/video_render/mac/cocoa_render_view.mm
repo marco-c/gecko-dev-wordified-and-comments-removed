@@ -147,10 +147,7 @@ frame
 ]
 pixelFormat
 :
-[
 fmt
-autorelease
-]
 ]
 ;
 if
@@ -251,10 +248,7 @@ initWithFrame
 screenRect
 pixelFormat
 :
-[
 fmt
-autorelease
-]
 ]
 ;
 if

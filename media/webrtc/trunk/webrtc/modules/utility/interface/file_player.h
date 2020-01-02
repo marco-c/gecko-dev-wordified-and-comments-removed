@@ -7,6 +7,8 @@ WEBRTC_MODULES_UTILITY_INTERFACE_FILE_PLAYER_H_
 #
 include
 "
+webrtc
+/
 common_types
 .
 h
@@ -14,6 +16,8 @@ h
 #
 include
 "
+webrtc
+/
 common_video
 /
 interface
@@ -25,6 +29,8 @@ h
 #
 include
 "
+webrtc
+/
 engine_configurations
 .
 h
@@ -32,6 +38,12 @@ h
 #
 include
 "
+webrtc
+/
+modules
+/
+interface
+/
 module_common_types
 .
 h
@@ -39,6 +51,8 @@ h
 #
 include
 "
+webrtc
+/
 typedefs
 .
 h

@@ -7,9 +7,7 @@ common_audio
 /
 signal_processing
 /
-include
-/
-signal_processing_library
+complex_fft_tables
 .
 h
 "
@@ -22,7 +20,9 @@ common_audio
 /
 signal_processing
 /
-complex_fft_tables
+include
+/
+signal_processing_library
 .
 h
 "

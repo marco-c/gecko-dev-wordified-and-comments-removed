@@ -1,6 +1,14 @@
 #
 include
 "
+webrtc
+/
+modules
+/
+audio_device
+/
+mac
+/
 audio_mixer_manager_mac
 .
 h
@@ -8,6 +16,12 @@ h
 #
 include
 "
+webrtc
+/
+system_wrappers
+/
+interface
+/
 trace
 .
 h

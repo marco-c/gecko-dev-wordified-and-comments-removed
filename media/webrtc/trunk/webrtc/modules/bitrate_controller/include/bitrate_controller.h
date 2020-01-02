@@ -7,6 +7,8 @@ WEBRTC_MODULES_BITRATE_CONTROLLER_INCLUDE_BITRATE_CONTROLLER_H_
 #
 include
 "
+webrtc
+/
 modules
 /
 rtp_rtcp

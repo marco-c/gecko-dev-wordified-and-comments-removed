@@ -53,6 +53,9 @@ h
 namespace
 webrtc
 {
+namespace
+acm1
+{
 ACMResampler
 :
 :
@@ -225,5 +228,6 @@ out_length
 /
 num_audio_channels
 ;
+}
 }
 }

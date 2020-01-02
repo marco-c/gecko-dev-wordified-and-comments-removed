@@ -569,6 +569,13 @@ thread_
 ;
 }
 ;
+#
+if
+!
+defined
+(
+THREAD_SANITIZER
+)
 TEST_F
 (
 CondVarTest
@@ -638,5 +645,7 @@ PassCount
 )
 ;
 }
+#
+endif
 }
 }

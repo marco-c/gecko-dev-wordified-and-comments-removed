@@ -18,12 +18,14 @@ h
 #
 include
 <
-algorithm
+assert
+.
+h
 >
 #
 include
 <
-cassert
+algorithm
 >
 #
 include
@@ -53,6 +55,9 @@ h
 "
 namespace
 webrtc
+{
+namespace
+acm1
 {
 namespace
 {
@@ -973,5 +978,6 @@ first
 return
 sequence_numbers
 ;
+}
 }
 }

@@ -7,6 +7,12 @@ WEBRTC_MODULES_VIDEO_CODING_MAIN_INTERFACE_MOCK_MOCK_VCM_CALLBACKS_H_
 #
 include
 "
+testing
+/
+gmock
+/
+include
+/
 gmock
 /
 gmock

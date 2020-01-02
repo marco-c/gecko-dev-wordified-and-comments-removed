@@ -7,6 +7,8 @@ WEBRTC_MODULES_VIDEO_CODING_QM_SELECT_H_
 #
 include
 "
+webrtc
+/
 common_types
 .
 h
@@ -14,6 +16,8 @@ h
 #
 include
 "
+webrtc
+/
 typedefs
 .
 h

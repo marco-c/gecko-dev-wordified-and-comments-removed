@@ -7,6 +7,8 @@ WEBRTC_MODULES_VIDEO_CODING_SOURCE_QM_SELECT_DATA_H_
 #
 include
 "
+webrtc
+/
 typedefs
 .
 h

@@ -355,10 +355,6 @@ ViEEncryptionStandardTest
 (
 )
 ;
-ViEFileStandardTest
-(
-)
-;
 ViEImageProcessStandardTest
 (
 )
@@ -396,10 +392,6 @@ ViEEncryptionExtendedTest
 (
 )
 ;
-ViEFileExtendedTest
-(
-)
-;
 ViEImageProcessExtendedTest
 (
 )
@@ -434,10 +426,6 @@ ViECodecAPITest
 )
 ;
 ViEEncryptionAPITest
-(
-)
-;
-ViEFileAPITest
 (
 )
 ;

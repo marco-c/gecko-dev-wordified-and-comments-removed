@@ -112,9 +112,6 @@ class
 CriticalSectionWrapper
 ;
 class
-MapWrapper
-;
-class
 ProcessThread
 ;
 class

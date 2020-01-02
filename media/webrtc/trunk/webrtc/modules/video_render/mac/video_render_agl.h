@@ -1,6 +1,8 @@
 #
 include
 "
+webrtc
+/
 engine_configurations
 .
 h
@@ -20,6 +22,14 @@ WEBRTC_MODULES_VIDEO_RENDER_MAIN_SOURCE_MAC_VIDEO_RENDER_AGL_H_
 #
 include
 "
+webrtc
+/
+modules
+/
+video_render
+/
+include
+/
 video_render_defines
 .
 h
@@ -67,7 +77,7 @@ include
 <
 OpenGL
 /
-glu
+glext
 .
 h
 >
@@ -76,7 +86,7 @@ include
 <
 OpenGL
 /
-glext
+glu
 .
 h
 >
