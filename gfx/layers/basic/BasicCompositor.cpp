@@ -2523,16 +2523,7 @@ break
 ;
 }
 case
-EFFECT_BGRA
-:
-case
-EFFECT_BGRX
-:
-case
-EFFECT_RGBA
-:
-case
-EFFECT_RGBX
+EFFECT_RGB
 :
 {
 TexturedEffect

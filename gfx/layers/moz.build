@@ -279,13 +279,6 @@ h
 '
 opengl
 /
-OGLShaders
-.
-h
-'
-'
-opengl
-/
 TexturePoolOGL
 .
 h
