@@ -3051,10 +3051,6 @@ nsHTMLReflowMetrics
 childDesiredSize
 (
 childRSForMeasuringHeight
-.
-GetWritingMode
-(
-)
 )
 ;
 nsReflowStatus
@@ -8936,10 +8932,6 @@ nsHTMLReflowMetrics
 childDesiredSize
 (
 aChildReflowState
-.
-GetWritingMode
-(
-)
 )
 ;
 nsReflowStatus
@@ -10285,10 +10277,6 @@ nsHTMLReflowMetrics
 childDesiredSize
 (
 childReflowState
-.
-GetWritingMode
-(
-)
 )
 ;
 nsReflowStatus

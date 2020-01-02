@@ -5637,10 +5637,6 @@ nsHTMLReflowMetrics
 metrics
 (
 aReflowState
-.
-GetWritingMode
-(
-)
 )
 ;
 nsLayoutUtils
@@ -11451,10 +11447,6 @@ metrics
 aState
 .
 mReflowState
-.
-GetWritingMode
-(
-)
 )
 ;
 nsIFrame
@@ -18784,10 +18776,6 @@ metrics
 aState
 .
 mReflowState
-.
-GetWritingMode
-(
-)
 )
 ;
 nsIFrame

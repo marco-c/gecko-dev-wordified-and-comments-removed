@@ -1609,10 +1609,6 @@ nsHTMLReflowMetrics
 trackDesiredSize
 (
 aReflowState
-.
-GetWritingMode
-(
-)
 )
 ;
 nsresult
@@ -1718,10 +1714,6 @@ nsHTMLReflowMetrics
 thumbDesiredSize
 (
 aReflowState
-.
-GetWritingMode
-(
-)
 )
 ;
 nsresult
@@ -1845,10 +1837,6 @@ nsHTMLReflowMetrics
 progressDesiredSize
 (
 aReflowState
-.
-GetWritingMode
-(
-)
 )
 ;
 nsresult

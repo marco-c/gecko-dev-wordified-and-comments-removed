@@ -927,10 +927,6 @@ nsHTMLReflowMetrics
 childDesiredSize
 (
 aReflowState
-.
-GetWritingMode
-(
-)
 aDesiredSize
 .
 mFlags
@@ -1084,10 +1080,6 @@ nsHTMLReflowMetrics
 childDesiredSize
 (
 aReflowState
-.
-GetWritingMode
-(
-)
 )
 ;
 GetReflowAndBoundingMetricsFor
@@ -1426,10 +1418,6 @@ nsHTMLReflowMetrics
 childSize
 (
 aReflowState
-.
-GetWritingMode
-(
-)
 )
 ;
 GetReflowAndBoundingMetricsFor

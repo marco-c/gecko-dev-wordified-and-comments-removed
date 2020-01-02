@@ -3852,10 +3852,6 @@ nsHTMLReflowMetrics
 desiredSize
 (
 aReflowState
-.
-GetWritingMode
-(
-)
 )
 ;
 nsReflowStatus
@@ -4159,10 +4155,6 @@ nsHTMLReflowMetrics
 desiredSize
 (
 aReflowState
-.
-GetWritingMode
-(
-)
 )
 ;
 nsSize
@@ -5193,10 +5185,6 @@ nsHTMLReflowMetrics
 desiredSize
 (
 aReflowState
-.
-GetWritingMode
-(
-)
 )
 ;
 ReflowChild

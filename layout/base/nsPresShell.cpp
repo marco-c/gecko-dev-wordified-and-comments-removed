@@ -36055,10 +36055,6 @@ nsHTMLReflowMetrics
 desiredSize
 (
 reflowState
-.
-GetWritingMode
-(
-)
 )
 ;
 target
