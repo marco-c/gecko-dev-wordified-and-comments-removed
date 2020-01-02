@@ -134,6 +134,17 @@ mozilla
 /
 dom
 /
+MediaStreamBinding
+.
+h
+"
+#
+include
+"
+mozilla
+/
+dom
+/
 MediaStreamTrackBinding
 .
 h

@@ -21,7 +21,7 @@ mozilla
 /
 dom
 /
-MediaStreamTrackBinding
+MediaStreamBinding
 .
 h
 "
@@ -110,7 +110,11 @@ aCallID
 )
 mConstraints
 (
+new
+MediaStreamConstraintsInternal
+(
 aConstraints
+)
 )
 {
 SetIsDOMBinding
@@ -239,6 +243,7 @@ result
 {
 result
 =
+*
 mConstraints
 ;
 }
