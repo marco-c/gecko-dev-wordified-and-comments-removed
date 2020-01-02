@@ -468,6 +468,12 @@ mCaretStyle
 #
 endif
 {
+GetDefaultEditorPrefs
+(
+mNewlineHandling
+mCaretStyle
+)
+;
 }
 nsPlaintextEditor
 :
@@ -642,12 +648,6 @@ aInitialValue
 )
 ;
 }
-GetDefaultEditorPrefs
-(
-mNewlineHandling
-mCaretStyle
-)
-;
 NS_ENSURE_SUCCESS
 (
 rulesRes
