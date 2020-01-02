@@ -9837,7 +9837,10 @@ doubleSlots
 padding
 )
 *
-STACK_SLOT_SIZE
+sizeof
+(
+intptr_t
+)
 ;
 }
 static
@@ -9896,7 +9899,10 @@ float32Slots
 padding
 )
 *
-STACK_SLOT_SIZE
+sizeof
+(
+intptr_t
+)
 ;
 }
 static
@@ -9975,7 +9981,10 @@ doubleSlots
 padding
 )
 *
-STACK_SLOT_SIZE
+sizeof
+(
+intptr_t
+)
 ;
 }
 #

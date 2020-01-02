@@ -558,11 +558,7 @@ framePushed
 (
 )
 -
-(
 slot
-*
-STACK_SLOT_SIZE
-)
 ;
 JS_ASSERT
 (
@@ -586,7 +582,6 @@ offset
 const
 {
 return
-(
 masm
 .
 framePushed
@@ -594,9 +589,6 @@ framePushed
 )
 -
 offset
-)
-/
-STACK_SLOT_SIZE
 ;
 }
 inline
