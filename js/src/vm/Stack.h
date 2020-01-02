@@ -4442,7 +4442,6 @@ Vector
 <
 RematerializedFrame
 *
-1
 >
 RematerializedFrameVector
 ;
@@ -4458,14 +4457,6 @@ RematerializedFrameTable
 RematerializedFrameTable
 *
 rematerializedFrames_
-;
-void
-freeRematerializedFramesInVector
-(
-RematerializedFrameVector
-&
-frames
-)
 ;
 void
 clearRematerializedFrames
@@ -4659,6 +4650,11 @@ endif
 #
 ifdef
 JS_ION
+template
+<
+class
+T
+>
 RematerializedFrame
 *
 getRematerializedFrame
@@ -4666,7 +4662,8 @@ getRematerializedFrame
 ThreadSafeContext
 *
 cx
-JitFrameIterator
+const
+T
 &
 iter
 size_t
