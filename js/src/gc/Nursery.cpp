@@ -3828,11 +3828,6 @@ TypeObjectList
 pretenureTypes
 )
 {
-JS_AbortIfWrongThread
-(
-rt
-)
-;
 if
 (
 rt
@@ -3843,6 +3838,11 @@ mainThread
 suppressGC
 )
 return
+;
+JS_AbortIfWrongThread
+(
+rt
+)
 ;
 if
 (
