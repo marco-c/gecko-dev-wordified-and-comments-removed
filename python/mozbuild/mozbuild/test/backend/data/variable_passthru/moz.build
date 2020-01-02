@@ -175,11 +175,6 @@ foo
 c
 '
 ]
-HOST_LIBRARY_NAME
-=
-'
-host_bar
-'
 LIBS
 =
 [
