@@ -21,7 +21,7 @@ h
 #
 include
 "
-nsVoidArray
+nsTArray
 .
 h
 "
@@ -380,10 +380,6 @@ nsProviderArray
 (
 )
 {
-Clear
-(
-)
-;
 }
 enum
 MatchType
@@ -447,11 +443,6 @@ nsCString
 a
 )
 ;
-void
-Clear
-(
-)
-;
 private
 :
 ProviderEntry
@@ -466,7 +457,10 @@ MatchType
 aType
 )
 ;
-nsVoidArray
+nsTArray
+<
+ProviderEntry
+>
 mArray
 ;
 }
