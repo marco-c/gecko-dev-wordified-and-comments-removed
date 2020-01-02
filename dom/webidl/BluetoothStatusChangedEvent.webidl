@@ -100,6 +100,14 @@ optional
 BluetoothStatusChangedEventInit
 eventInitDict
 )
+Func
+=
+"
+Navigator
+:
+:
+HasBluetoothSupport
+"
 ]
 interface
 BluetoothStatusChangedEvent

@@ -280,6 +280,16 @@ playStatus
 ;
 }
 ;
+[
+Func
+=
+"
+Navigator
+:
+:
+HasBluetoothSupport
+"
+]
 interface
 BluetoothAdapter
 :

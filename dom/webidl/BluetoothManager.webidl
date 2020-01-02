@@ -91,6 +91,16 @@ MPL
 .
 *
 /
+[
+Func
+=
+"
+Navigator
+:
+:
+HasBluetoothSupport
+"
+]
 interface
 BluetoothManager
 :
