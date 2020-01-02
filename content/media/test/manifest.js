@@ -3875,12 +3875,12 @@ indexOf
 Windows
 "
 )
-=
+!
 =
 -
 1
-|
-|
+&
+&
 IsWindows8OrLater
 (
 )
