@@ -5019,6 +5019,9 @@ ENABLE_STRIP
 (
 STRIP
 )
+(
+STRIP_FLAGS
+)
 endif
 ifdef
 MOZ_POST_PROGRAM_COMMAND
@@ -5539,6 +5542,9 @@ ifdef
 ENABLE_STRIP
 (
 STRIP
+)
+(
+STRIP_FLAGS
 )
 endif
 ifdef
@@ -6456,6 +6462,9 @@ ifdef
 ENABLE_STRIP
 (
 STRIP
+)
+(
+STRIP_FLAGS
 )
 endif
 ifdef
