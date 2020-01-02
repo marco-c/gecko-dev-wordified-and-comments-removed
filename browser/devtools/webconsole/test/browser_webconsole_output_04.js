@@ -260,8 +260,6 @@ Exception
 .
 .
 .
-\
-\
 "
 An
 invalid
@@ -270,8 +268,6 @@ illegal
 string
 was
 specified
-\
-\
 "
 '
 inspectable

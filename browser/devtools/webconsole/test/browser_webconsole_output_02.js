@@ -60,13 +60,11 @@ getElementById
 )
 {
 \
-\
 n
 [
 native
 code
 ]
-\
 \
 n
 }
