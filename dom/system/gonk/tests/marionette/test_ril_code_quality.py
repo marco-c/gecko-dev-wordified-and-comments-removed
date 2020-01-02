@@ -2736,24 +2736,6 @@ js
 )
     
 def
-test_ril_worker
-(
-self
-)
-:
-        
-self
-.
-_check
-(
-'
-ril_worker
-.
-js
-'
-)
-    
-def
 test_ril_consts
 (
 self
