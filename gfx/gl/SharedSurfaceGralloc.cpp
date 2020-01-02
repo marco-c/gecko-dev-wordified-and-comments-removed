@@ -1094,6 +1094,10 @@ fReadPixels
 LOCAL_GL_RGBA
 LOCAL_GL_UNSIGNED_BYTE
 buf
+.
+get
+(
+)
 )
 ;
 }
