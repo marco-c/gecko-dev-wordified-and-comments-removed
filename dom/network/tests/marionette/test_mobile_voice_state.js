@@ -505,7 +505,7 @@ connection
 voice
 .
 emergencyCallsOnly
-false
+true
 )
 ;
 is
@@ -619,7 +619,7 @@ connection
 voice
 .
 emergencyCallsOnly
-false
+true
 )
 ;
 is
@@ -733,7 +733,7 @@ connection
 voice
 .
 emergencyCallsOnly
-false
+true
 )
 ;
 is
