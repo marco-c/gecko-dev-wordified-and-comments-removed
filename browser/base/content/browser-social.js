@@ -7786,7 +7786,6 @@ PanelFrame
 showPopup
 (
 window
-PanelUI
 aToolbarButton
 "
 social
