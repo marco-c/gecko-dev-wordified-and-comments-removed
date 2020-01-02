@@ -1183,11 +1183,6 @@ new_
 ScriptSource
 >
 (
-(
-JSPrincipals
-*
-)
-nullptr
 )
 ;
 if
