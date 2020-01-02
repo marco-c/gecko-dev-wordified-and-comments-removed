@@ -708,6 +708,14 @@ localFile
 )
 )
 ;
+if
+(
+!
+localFile
+)
+return
+false
+;
 bool
 exists
 ;
