@@ -1075,6 +1075,17 @@ _shiftBrowserDeck
 return
 ;
 }
+if
+(
+SelectionHelperUI
+.
+layerMode
+=
+=
+=
+2
+)
+{
 Browser
 .
 selectedBrowser
@@ -1097,6 +1108,7 @@ viewableHeight
 }
 )
 ;
+}
 }
 _onRepositionResponse
 :
