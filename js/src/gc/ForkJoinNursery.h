@@ -652,6 +652,14 @@ trc
 )
 ;
 void
+forwardFromRematerializedFrames
+(
+ForkJoinNurseryCollectionTracer
+*
+trc
+)
+;
+void
 collectToFixedPoint
 (
 ForkJoinNurseryCollectionTracer
