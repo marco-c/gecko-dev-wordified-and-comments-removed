@@ -5287,16 +5287,6 @@ type
 "
 resize
 "
-&
-&
-aEvent
-.
-eventPhase
-=
-=
-aEvent
-.
-BUBBLING_PHASE
 )
 {
 this
@@ -5640,6 +5630,7 @@ addEventListener
 resize
 "
 this
+true
 )
 ;
 ]
@@ -5670,6 +5661,7 @@ removeEventListener
 resize
 "
 this
+true
 )
 ;
 ]

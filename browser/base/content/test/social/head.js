@@ -3462,19 +3462,6 @@ resize_handler
 event
 )
 {
-if
-(
-event
-.
-eventPhase
-!
-=
-event
-.
-AT_TARGET
-)
-return
-;
 let
 newSize
 =
@@ -3515,6 +3502,7 @@ removeEventListener
 resize
 "
 resize_handler
+true
 )
 ;
 info
@@ -3555,6 +3543,7 @@ addEventListener
 resize
 "
 resize_handler
+true
 )
 ;
 window
