@@ -142,6 +142,13 @@ sys
 .
 stderr
 )
+    
+sys
+.
+exit
+(
+1
+)
 def
 get_xdr_version
 (
