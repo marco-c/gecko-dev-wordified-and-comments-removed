@@ -390,6 +390,11 @@ DataStore
 webidl
 '
 '
+DataStoreImpl
+.
+webidl
+'
+'
 DataTransfer
 .
 webidl

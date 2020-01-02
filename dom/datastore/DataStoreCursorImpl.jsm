@@ -154,6 +154,14 @@ aDataStore
 aRevisionId
 )
 {
+debug
+(
+"
+DataStoreCursor
+created
+"
+)
+;
 this
 .
 init
@@ -210,6 +218,8 @@ dom
 datastore
 -
 cursor
+-
+impl
 ;
 1
 '
