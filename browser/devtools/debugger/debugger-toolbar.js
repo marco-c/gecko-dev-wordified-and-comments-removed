@@ -6439,8 +6439,6 @@ let
 parseResult
 of
 scriptResult
-.
-parseResults
 )
 {
 aStore
