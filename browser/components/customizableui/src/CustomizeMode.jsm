@@ -1077,6 +1077,12 @@ selectedPanel
 =
 browser
 ;
+this
+.
+_customizing
+=
+false
+;
 if
 (
 this
@@ -1164,12 +1170,6 @@ customizationTab
 this
 .
 _changed
-=
-false
-;
-this
-.
-_customizing
 =
 false
 ;
