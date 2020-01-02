@@ -2274,10 +2274,10 @@ NS_STYLE_ANIMATION_FILL_MODE_BOTH
 ComputedTiming
 computedTiming
 =
-ElementAnimations
+ElementAnimation
 :
 :
-GetPositionInIteration
+GetComputedTimingAt
 (
 elapsedDuration
 timing
