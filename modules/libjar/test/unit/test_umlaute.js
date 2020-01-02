@@ -219,7 +219,15 @@ Ci
 nsILocalFile
 .
 NORMAL_FILE_TYPE
-0640
+6
+*
+64
++
+4
+*
+8
++
+0
 )
 ;
 zipreader
