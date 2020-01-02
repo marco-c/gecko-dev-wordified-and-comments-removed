@@ -2581,17 +2581,6 @@ android
 '
 :
                 
-app_path
-=
-self
-.
-get_binary_path
-(
-'
-app
-'
-)
-                
 print
 (
 '
@@ -2605,11 +2594,11 @@ test
 drive
 run
 :
-%
-s
+|
+mach
+run
+|
 '
-%
-app_path
 )
             
 app
