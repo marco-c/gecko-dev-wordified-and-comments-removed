@@ -202,9 +202,6 @@ pointer
 endif
 #
 }
-XPI_NAME
-=
-crashreporter
 VPATH
 +
 =

@@ -74,9 +74,6 @@ rdf
 USE_EXTENSION_MANIFEST
 =
 1
-XPI_NAME
-=
-mochijar
 #
 we
 turn

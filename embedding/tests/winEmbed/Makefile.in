@@ -254,9 +254,6 @@ BLOCK
 *
 *
 *
-XPI_NAME
-=
-winembed
 RESFILE
 =
 winEmbed

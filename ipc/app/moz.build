@@ -129,6 +129,15 @@ MozillaRuntimeMainAndroid
 cpp
 '
 ]
+FINAL_TARGET
+=
+'
+dist
+/
+bin
+/
+lib
+'
 else
 :
 CPP_SOURCES

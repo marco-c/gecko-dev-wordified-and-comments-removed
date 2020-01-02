@@ -123,3 +123,8 @@ WorkerTest
 manifest
 '
 ]
+XPI_NAME
+=
+'
+worker
+'

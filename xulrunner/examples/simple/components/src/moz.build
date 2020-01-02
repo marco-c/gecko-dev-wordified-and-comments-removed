@@ -131,3 +131,8 @@ manifest
 IS_COMPONENT
 =
 True
+XPI_NAME
+=
+'
+simple
+'
