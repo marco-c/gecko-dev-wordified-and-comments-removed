@@ -144,6 +144,10 @@ gcBytes
 (
 0
 )
+gcBytesAfterGC
+(
+0
+)
 gcTriggerBytes
 (
 0
