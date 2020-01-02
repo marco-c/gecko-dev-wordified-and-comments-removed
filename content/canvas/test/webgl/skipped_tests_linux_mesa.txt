@@ -24,6 +24,17 @@ test
 html
 conformance
 /
+more
+/
+conformance
+/
+quickCheckAPI
+-
+B2
+.
+html
+conformance
+/
 reading
 /
 read
