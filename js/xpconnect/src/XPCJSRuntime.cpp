@@ -7457,7 +7457,7 @@ rv
 else
 {
 \
-otherSundries
+sundriesMallocHeap
 +
 =
 amount
@@ -7557,7 +7557,7 @@ amount
 else
 {
 \
-gcHeapSundries
+sundriesGCHeap
 +
 =
 amount
@@ -7701,10 +7701,10 @@ size_t
 gcTotal
 =
 0
-gcHeapSundries
+sundriesGCHeap
 =
 0
-otherSundries
+sundriesMallocHeap
 =
 0
 ;
@@ -8860,7 +8860,7 @@ memory
 }
 if
 (
-gcHeapSundries
+sundriesGCHeap
 >
 0
 )
@@ -8879,7 +8879,7 @@ gc
 heap
 "
 )
-gcHeapSundries
+sundriesGCHeap
 "
 The
 sum
@@ -8910,7 +8910,7 @@ individually
 }
 if
 (
-otherSundries
+sundriesMallocHeap
 >
 0
 )
@@ -8930,7 +8930,7 @@ heap
 "
 )
 KIND_HEAP
-otherSundries
+sundriesMallocHeap
 "
 The
 sum
@@ -9029,10 +9029,10 @@ size_t
 gcTotal
 =
 0
-gcHeapSundries
+sundriesGCHeap
 =
 0
-otherSundries
+sundriesMallocHeap
 =
 0
 ;
@@ -9174,7 +9174,7 @@ ordinary
 )
 cStats
 .
-gcHeapObjectsOrdinary
+objectsGCHeapOrdinary
 "
 Memory
 on
@@ -9226,7 +9226,7 @@ function
 )
 cStats
 .
-gcHeapObjectsFunction
+objectsGCHeapFunction
 "
 Memory
 on
@@ -9266,7 +9266,7 @@ array
 )
 cStats
 .
-gcHeapObjectsDenseArray
+objectsGCHeapDenseArray
 "
 Memory
 on
@@ -9307,7 +9307,7 @@ array
 )
 cStats
 .
-gcHeapObjectsSlowArray
+objectsGCHeapSlowArray
 "
 Memory
 on
@@ -9350,7 +9350,7 @@ wrapper
 )
 cStats
 .
-gcHeapObjectsCrossCompartmentWrapper
+objectsGCHeapCrossCompartmentWrapper
 "
 Memory
 on
@@ -9389,7 +9389,7 @@ heap
 )
 cStats
 .
-gcHeapScripts
+scriptsGCHeap
 "
 Memory
 on
@@ -9463,7 +9463,7 @@ parented
 )
 cStats
 .
-gcHeapShapesTreeGlobalParented
+shapesGCHeapTreeGlobalParented
 "
 Memory
 on
@@ -9530,7 +9530,7 @@ parented
 )
 cStats
 .
-gcHeapShapesTreeNonGlobalParented
+shapesGCHeapTreeNonGlobalParented
 "
 Memory
 on
@@ -9592,7 +9592,7 @@ dict
 )
 cStats
 .
-gcHeapShapesDict
+shapesGCHeapDict
 "
 Memory
 on
@@ -9634,7 +9634,7 @@ base
 )
 cStats
 .
-gcHeapShapesBase
+shapesGCHeapBase
 "
 Memory
 on
@@ -9677,7 +9677,7 @@ cStats
 .
 objectsExtra
 .
-slots
+mallocHeapSlots
 "
 Memory
 allocated
@@ -9774,7 +9774,7 @@ cStats
 .
 objectsExtra
 .
-elementsNonAsmJS
+mallocHeapElementsNonAsmJS
 "
 Memory
 allocated
@@ -9806,32 +9806,32 @@ properties
 )
 ;
 size_t
-asmJSHeap
+mallocHeapElementsAsmJS
 =
 cStats
 .
 objectsExtra
 .
-elementsAsmJSHeap
+mallocHeapElementsAsmJS
 ;
 size_t
-asmJSNonHeap
+nonHeapElementsAsmJS
 =
 cStats
 .
 objectsExtra
 .
-elementsAsmJSNonHeap
+nonHeapElementsAsmJS
 ;
 MOZ_ASSERT
 (
-asmJSHeap
+mallocHeapElementsAsmJS
 =
 =
 0
 |
 |
-asmJSNonHeap
+nonHeapElementsAsmJS
 =
 =
 0
@@ -9839,7 +9839,7 @@ asmJSNonHeap
 ;
 if
 (
-asmJSHeap
+mallocHeapElementsAsmJS
 >
 0
 )
@@ -9865,7 +9865,7 @@ js
 "
 )
 KIND_HEAP
-asmJSHeap
+mallocHeapElementsAsmJS
 "
 Memory
 allocated
@@ -9893,7 +9893,7 @@ buffers
 }
 if
 (
-asmJSNonHeap
+nonHeapElementsAsmJS
 >
 0
 )
@@ -9919,7 +9919,7 @@ js
 "
 )
 KIND_NONHEAP
-asmJSNonHeap
+nonHeapElementsAsmJS
 "
 Memory
 allocated
@@ -9979,7 +9979,7 @@ cStats
 .
 objectsExtra
 .
-asmJSModuleCode
+nonHeapCodeAsmJS
 "
 Memory
 allocated
@@ -10021,7 +10021,7 @@ cStats
 .
 objectsExtra
 .
-asmJSModuleData
+mallocHeapAsmJSModuleData
 "
 Memory
 allocated
@@ -10057,7 +10057,7 @@ cStats
 .
 objectsExtra
 .
-argumentsData
+mallocHeapArgumentsData
 "
 Memory
 allocated
@@ -10097,7 +10097,7 @@ cStats
 .
 objectsExtra
 .
-regExpStatics
+mallocHeapRegExpStatics
 "
 Memory
 allocated
@@ -10136,7 +10136,7 @@ cStats
 .
 objectsExtra
 .
-propertyIteratorData
+mallocHeapPropertyIteratorData
 "
 Memory
 allocated
@@ -10177,7 +10177,7 @@ cStats
 .
 objectsExtra
 .
-ctypesData
+mallocHeapCtypesData
 "
 Memory
 allocated
@@ -10250,7 +10250,7 @@ tables
 )
 cStats
 .
-shapesExtraTreeTables
+shapesMallocHeapTreeTables
 "
 Memory
 allocated
@@ -10298,7 +10298,7 @@ tables
 )
 cStats
 .
-shapesExtraDictTables
+shapesMallocHeapDictTables
 "
 Memory
 allocated
@@ -10347,7 +10347,7 @@ kids
 )
 cStats
 .
-shapesExtraTreeShapeKids
+shapesMallocHeapTreeShapeKids
 "
 Memory
 allocated
@@ -10395,7 +10395,7 @@ tables
 )
 cStats
 .
-shapesCompartmentTables
+shapesMallocHeapCompartmentTables
 "
 Memory
 on
@@ -10440,7 +10440,7 @@ data
 )
 cStats
 .
-scriptData
+scriptsMallocHeapData
 "
 Memory
 on
@@ -10929,7 +10929,7 @@ literals
 ;
 if
 (
-gcHeapSundries
+sundriesGCHeap
 >
 0
 )
@@ -10948,7 +10948,7 @@ gc
 heap
 "
 )
-gcHeapSundries
+sundriesGCHeap
 "
 The
 sum
@@ -10979,7 +10979,7 @@ individually
 }
 if
 (
-otherSundries
+sundriesMallocHeap
 >
 0
 )
@@ -10999,7 +10999,7 @@ heap
 "
 )
 KIND_HEAP
-otherSundries
+sundriesMallocHeap
 "
 The
 sum

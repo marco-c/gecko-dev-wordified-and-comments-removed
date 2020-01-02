@@ -361,7 +361,7 @@ js
 :
 :
 NotLiveGCThing
-slots
+mallocHeapSlots
 )
 \
 macro
@@ -370,7 +370,7 @@ js
 :
 :
 NotLiveGCThing
-elementsNonAsmJS
+mallocHeapElementsNonAsmJS
 )
 \
 macro
@@ -379,7 +379,7 @@ js
 :
 :
 NotLiveGCThing
-elementsAsmJSHeap
+mallocHeapElementsAsmJS
 )
 \
 macro
@@ -388,7 +388,7 @@ js
 :
 :
 NotLiveGCThing
-elementsAsmJSNonHeap
+nonHeapElementsAsmJS
 )
 \
 macro
@@ -397,7 +397,7 @@ js
 :
 :
 NotLiveGCThing
-asmJSModuleCode
+nonHeapCodeAsmJS
 )
 \
 macro
@@ -406,7 +406,7 @@ js
 :
 :
 NotLiveGCThing
-asmJSModuleData
+mallocHeapAsmJSModuleData
 )
 \
 macro
@@ -415,7 +415,7 @@ js
 :
 :
 NotLiveGCThing
-argumentsData
+mallocHeapArgumentsData
 )
 \
 macro
@@ -424,7 +424,7 @@ js
 :
 :
 NotLiveGCThing
-regExpStatics
+mallocHeapRegExpStatics
 )
 \
 macro
@@ -433,7 +433,7 @@ js
 :
 :
 NotLiveGCThing
-propertyIteratorData
+mallocHeapPropertyIteratorData
 )
 \
 macro
@@ -442,7 +442,7 @@ js
 :
 :
 NotLiveGCThing
-ctypesData
+mallocHeapCtypesData
 )
 ObjectsExtraSizes
 (
@@ -1315,7 +1315,7 @@ js
 :
 :
 IsLiveGCThing
-gcHeapObjectsOrdinary
+objectsGCHeapOrdinary
 )
 \
 macro
@@ -1324,7 +1324,7 @@ js
 :
 :
 IsLiveGCThing
-gcHeapObjectsFunction
+objectsGCHeapFunction
 )
 \
 macro
@@ -1333,7 +1333,7 @@ js
 :
 :
 IsLiveGCThing
-gcHeapObjectsDenseArray
+objectsGCHeapDenseArray
 )
 \
 macro
@@ -1342,7 +1342,7 @@ js
 :
 :
 IsLiveGCThing
-gcHeapObjectsSlowArray
+objectsGCHeapSlowArray
 )
 \
 macro
@@ -1351,7 +1351,7 @@ js
 :
 :
 IsLiveGCThing
-gcHeapObjectsCrossCompartmentWrapper
+objectsGCHeapCrossCompartmentWrapper
 )
 \
 macro
@@ -1360,7 +1360,7 @@ js
 :
 :
 IsLiveGCThing
-gcHeapShapesTreeGlobalParented
+shapesGCHeapTreeGlobalParented
 )
 \
 macro
@@ -1369,7 +1369,7 @@ js
 :
 :
 IsLiveGCThing
-gcHeapShapesTreeNonGlobalParented
+shapesGCHeapTreeNonGlobalParented
 )
 \
 macro
@@ -1378,7 +1378,7 @@ js
 :
 :
 IsLiveGCThing
-gcHeapShapesDict
+shapesGCHeapDict
 )
 \
 macro
@@ -1387,7 +1387,7 @@ js
 :
 :
 IsLiveGCThing
-gcHeapShapesBase
+shapesGCHeapBase
 )
 \
 macro
@@ -1396,7 +1396,7 @@ js
 :
 :
 IsLiveGCThing
-gcHeapScripts
+scriptsGCHeap
 )
 \
 macro
@@ -1414,7 +1414,7 @@ js
 :
 :
 NotLiveGCThing
-shapesExtraTreeTables
+shapesMallocHeapTreeTables
 )
 \
 macro
@@ -1423,7 +1423,7 @@ js
 :
 :
 NotLiveGCThing
-shapesExtraDictTables
+shapesMallocHeapDictTables
 )
 \
 macro
@@ -1432,7 +1432,7 @@ js
 :
 :
 NotLiveGCThing
-shapesExtraTreeShapeKids
+shapesMallocHeapTreeShapeKids
 )
 \
 macro
@@ -1441,7 +1441,7 @@ js
 :
 :
 NotLiveGCThing
-shapesCompartmentTables
+shapesMallocHeapCompartmentTables
 )
 \
 macro
@@ -1450,7 +1450,7 @@ js
 :
 :
 NotLiveGCThing
-scriptData
+scriptsMallocHeapData
 )
 \
 macro

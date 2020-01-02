@@ -29834,7 +29834,7 @@ hasDynamicSlots
 sizes
 -
 >
-slots
+mallocHeapSlots
 =
 mallocSizeOf
 (
@@ -29881,7 +29881,7 @@ JS_CPU_X64
 sizes
 -
 >
-elementsAsmJSNonHeap
+nonHeapElementsAsmJS
 =
 as
 <
@@ -29899,7 +29899,7 @@ else
 sizes
 -
 >
-elementsAsmJSHeap
+mallocHeapElementsAsmJS
 =
 mallocSizeOf
 (
@@ -29914,7 +29914,7 @@ else
 sizes
 -
 >
-elementsNonAsmJS
+mallocHeapElementsNonAsmJS
 =
 mallocSizeOf
 (
@@ -29936,7 +29936,7 @@ ArgumentsObject
 sizes
 -
 >
-argumentsData
+mallocHeapArgumentsData
 =
 as
 <
@@ -29965,7 +29965,7 @@ RegExpStaticsObject
 sizes
 -
 >
-regExpStatics
+mallocHeapRegExpStatics
 =
 as
 <
@@ -29994,7 +29994,7 @@ PropertyIteratorObject
 sizes
 -
 >
-propertyIteratorData
+mallocHeapPropertyIteratorData
 =
 as
 <
@@ -30037,12 +30037,12 @@ mallocSizeOf
 sizes
 -
 >
-asmJSModuleCode
+nonHeapCodeAsmJS
 &
 sizes
 -
 >
-asmJSModuleData
+mallocHeapAsmJSModuleData
 )
 ;
 #
@@ -30056,7 +30056,7 @@ else
 sizes
 -
 >
-ctypesData
+mallocHeapCtypesData
 =
 js
 :
