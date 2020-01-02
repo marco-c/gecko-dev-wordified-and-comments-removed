@@ -869,6 +869,11 @@ TrackMetadataBase
 aMetadata
 )
 {
+MOZ_ASSERT
+(
+aMetadata
+)
+;
 if
 (
 aMetadata
