@@ -98,11 +98,6 @@ EXTRA_JS_MODULES
 =
 [
 '
-DragPositionManager
-.
-jsm
-'
-'
 ScrollbarSampler
 .
 jsm
