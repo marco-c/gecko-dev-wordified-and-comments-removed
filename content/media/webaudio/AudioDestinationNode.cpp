@@ -1382,6 +1382,7 @@ DOMMediaStream
 :
 :
 HINT_CONTENTS_AUDIO
+aChannel
 )
 ;
 AudioNodeEngine
