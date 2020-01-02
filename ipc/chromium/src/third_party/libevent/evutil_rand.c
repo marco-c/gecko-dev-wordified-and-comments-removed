@@ -400,6 +400,9 @@ n
 )
 ;
 }
+#
+ifndef
+__OpenBSD__
 void
 evutil_secure_rng_add_bytes
 (
@@ -435,3 +438,5 @@ n
 )
 ;
 }
+#
+endif
