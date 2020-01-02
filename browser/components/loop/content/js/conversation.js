@@ -62,7 +62,7 @@ React
 .
 PropTypes
 .
-func
+object
 .
 isRequired
 }

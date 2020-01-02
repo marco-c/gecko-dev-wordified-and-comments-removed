@@ -1,0 +1,14 @@
+navigator
+.
+mozLoop
+=
+{
+getLoopCharPref
+:
+function
+(
+)
+{
+}
+}
+;
