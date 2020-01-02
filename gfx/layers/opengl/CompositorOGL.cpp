@@ -281,13 +281,6 @@ nsString
 h
 "
 #
-include
-"
-prtypes
-.
-h
-"
-#
 if
 MOZ_ANDROID_OMTC
 #
@@ -6911,7 +6904,7 @@ int64_t
 )
 )
 >
-PR_INT32_MAX
+INT32_MAX
 )
 {
 NS_ERROR
