@@ -7460,6 +7460,9 @@ extend
 (
 GENERIC_VARIABLES_VIEW_SETTINGS
 {
+onlyEnumVisible
+:
+true
 searchPlaceholder
 :
 L10N
