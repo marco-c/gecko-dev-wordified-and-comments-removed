@@ -400,6 +400,7 @@ self
 srcdir
 objdir
 environment
+topobjdir
 )
 :
         
@@ -419,18 +420,13 @@ self
 .
 relobjdir
 =
-objdir
-[
-len
-(
-environment
+mozpath
 .
+relpath
+(
+objdir
 topobjdir
 )
-+
-1
-:
-]
         
 self
 .
@@ -2111,6 +2107,12 @@ objdir
 obj
 .
 config
+                    
+self
+.
+environment
+.
+topobjdir
 )
         
 backend_file
@@ -2347,9 +2349,20 @@ do_unify
                         
 unified_prefix
 =
+mozpath
+.
+relpath
+(
 backend_file
 .
-relobjdir
+objdir
+                            
+backend_file
+.
+environment
+.
+topobjdir
+)
                         
 if
 len
@@ -8862,21 +8875,6 @@ lib
 )
 :
             
-if
-lib
-.
-objdir
-.
-startswith
-(
-topobjdir
-+
-'
-/
-'
-)
-:
-                
 return
 '
 (
@@ -8887,17 +8885,15 @@ DEPTH
 s
 '
 %
+mozpath
+.
+relpath
+(
 lib
 .
-relobjdir
-            
-else
-:
-                
-return
-lib
-.
-relobjdir
+objdir
+topobjdir
+)
         
 topobjdir
 =
