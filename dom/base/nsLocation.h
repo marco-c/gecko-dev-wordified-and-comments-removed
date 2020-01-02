@@ -585,6 +585,17 @@ return
 mInnerWindow
 ;
 }
+virtual
+JSObject
+*
+WrapObject
+(
+JSContext
+*
+aCx
+)
+MOZ_OVERRIDE
+;
 protected
 :
 virtual
