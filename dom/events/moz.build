@@ -308,6 +308,11 @@ MutationEvent
 h
 '
 '
+NotifyAudioAvailableEvent
+.
+h
+'
+'
 PointerEvent
 .
 h
@@ -440,6 +445,11 @@ MutationEvent
 cpp
 '
 '
+NotifyAudioAvailableEvent
+.
+cpp
+'
+'
 nsAsyncDOMEvent
 .
 cpp
@@ -451,11 +461,6 @@ cpp
 '
 '
 nsDOMEventTargetHelper
-.
-cpp
-'
-'
-nsDOMNotifyAudioAvailableEvent
 .
 cpp
 '
