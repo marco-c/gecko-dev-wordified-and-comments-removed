@@ -128,17 +128,6 @@ Matrix
 aTransformHint
 )
 ;
-virtual
-bool
-GetFontFileData
-(
-FontFileDataOutput
-aDataCallback
-void
-*
-aBaton
-)
-;
 float
 GetSize
 (
