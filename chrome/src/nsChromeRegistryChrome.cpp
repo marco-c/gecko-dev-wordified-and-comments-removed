@@ -2894,7 +2894,7 @@ MatchType
 aType
 )
 {
-int32_t
+size_t
 i
 =
 mArray
@@ -2920,6 +2920,8 @@ nullptr
 ProviderEntry
 *
 entry
+=
+nullptr
 ;
 while
 (
