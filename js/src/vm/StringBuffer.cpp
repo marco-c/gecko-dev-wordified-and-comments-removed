@@ -72,7 +72,7 @@ if
 buf
 )
 return
-NULL
+nullptr
 ;
 JS_ASSERT
 (
@@ -152,7 +152,7 @@ buf
 )
 ;
 return
-NULL
+nullptr
 ;
 }
 buf
@@ -221,7 +221,7 @@ length
 )
 )
 return
-NULL
+nullptr
 ;
 JS_STATIC_ASSERT
 (
@@ -278,7 +278,7 @@ append
 )
 )
 return
-NULL
+nullptr
 ;
 jschar
 *
@@ -294,7 +294,7 @@ if
 buf
 )
 return
-NULL
+nullptr
 ;
 JSFlatString
 *

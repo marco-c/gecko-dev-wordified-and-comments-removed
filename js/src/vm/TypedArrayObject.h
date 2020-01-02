@@ -162,7 +162,7 @@ uint8_t
 *
 contents
 =
-NULL
+nullptr
 )
 ;
 static
@@ -801,7 +801,7 @@ uint8_t
 *
 contents
 =
-NULL
+nullptr
 )
 ;
 void
@@ -1492,7 +1492,7 @@ uint32_t
 *
 ip
 =
-NULL
+nullptr
 )
 ;
 void
