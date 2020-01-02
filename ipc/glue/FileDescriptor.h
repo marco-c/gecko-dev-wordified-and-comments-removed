@@ -121,6 +121,15 @@ FileDescriptor
 &
 aOther
 )
+:
+mHandleCreatedByOtherProcess
+(
+false
+)
+mHandleCreatedByOtherProcessWasUsed
+(
+false
+)
 {
 Assign
 (

@@ -286,6 +286,10 @@ const
 bool
 &
 allowSpdy
+const
+OptionalFileDescriptorSet
+&
+aFds
 )
 ;
 virtual

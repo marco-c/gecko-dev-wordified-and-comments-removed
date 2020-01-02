@@ -1195,6 +1195,12 @@ PJavaScript
 (
 )
 ;
+PFileDescriptorSet
+(
+FileDescriptor
+fd
+)
+;
 child
 :
 /
@@ -1253,12 +1259,6 @@ bool
 minimizeMemoryUsage
 nsString
 DMDDumpIdent
-)
-;
-PFileDescriptorSet
-(
-FileDescriptor
-fd
 )
 ;
 /

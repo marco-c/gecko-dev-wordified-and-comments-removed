@@ -447,6 +447,9 @@ appCacheClientID
 bool
 allowSpdy
 ;
+OptionalFileDescriptorSet
+fds
+;
 }
 ;
 struct

@@ -75,6 +75,10 @@ include
 protocol
 PBlob
 ;
+include
+protocol
+PFileDescriptorSet
+;
 namespace
 mozilla
 {
@@ -200,6 +204,15 @@ startedReading
 ;
 bool
 addContentLength
+;
+}
+;
+union
+OptionalFileDescriptorSet
+{
+PFileDescriptorSet
+;
+void_t
 ;
 }
 ;
