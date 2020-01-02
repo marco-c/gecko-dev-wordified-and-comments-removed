@@ -196,14 +196,6 @@ nsISVGChildFrame
 )
 FRAME_ID
 (
-nsISVGGlyphFragmentLeaf
-)
-FRAME_ID
-(
-nsISVGGlyphFragmentNode
-)
-FRAME_ID
-(
 nsISVGSVGFrame
 )
 FRAME_ID

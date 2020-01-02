@@ -103,13 +103,6 @@ h
 #
 include
 "
-nsISVGGlyphFragmentNode
-.
-h
-"
-#
-include
-"
 nsISelection
 .
 h
