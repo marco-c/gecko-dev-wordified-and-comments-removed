@@ -15,7 +15,7 @@ js
 ;
 runDictionaryPropertyPresentTestsFraction
 (
-4
-8
+7
+32
 )
 ;
