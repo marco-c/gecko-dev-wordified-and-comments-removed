@@ -168,7 +168,7 @@ failure
 )
 {
 return
-NS_ERROR_NOT_INITIALIZED
+NS_ERROR_FAILURE
 ;
 }
 return

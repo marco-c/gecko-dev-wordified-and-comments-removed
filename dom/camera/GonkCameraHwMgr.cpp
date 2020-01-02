@@ -439,13 +439,13 @@ break
 case
 CAMERA_MSG_ERROR
 :
-OnSystemError
+OnError
 (
 mTarget
 CameraControlListener
 :
 :
-kSystemService
+kErrorServiceFailed
 ext1
 ext2
 )
@@ -643,7 +643,7 @@ mCameraId
 )
 ;
 return
-NS_ERROR_NOT_INITIALIZED
+NS_ERROR_FAILURE
 ;
 }
 mRawSensorOrientation

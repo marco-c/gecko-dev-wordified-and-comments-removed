@@ -164,11 +164,11 @@ MOZ_OVERRIDE
 ;
 virtual
 void
-OnUserError
+OnError
 (
-UserContext
+CameraErrorContext
 aContext
-nsresult
+CameraError
 aError
 )
 MOZ_OVERRIDE

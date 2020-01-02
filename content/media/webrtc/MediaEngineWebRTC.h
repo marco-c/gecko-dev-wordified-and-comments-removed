@@ -767,11 +767,11 @@ aHeight
 )
 ;
 void
-OnUserError
+OnError
 (
-UserContext
+CameraErrorContext
 aContext
-nsresult
+CameraError
 aError
 )
 ;

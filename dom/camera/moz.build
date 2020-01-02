@@ -232,11 +232,6 @@ GonkRecorderProfiles
 cpp
 '
 '
-TestGonkCameraControl
-.
-cpp
-'
-'
 TestGonkCameraHardware
 .
 cpp
