@@ -870,7 +870,9 @@ mozilla
 .
 gecko
 .
-CustomEditText
+toolbar
+.
+ToolbarEditText
 android
 :
 id
