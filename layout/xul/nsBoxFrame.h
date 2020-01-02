@@ -489,7 +489,7 @@ MOZ_OVERRIDE
 #
 endif
 virtual
-nsresult
+void
 DidReflow
 (
 nsPresContext

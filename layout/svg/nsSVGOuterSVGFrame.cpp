@@ -1956,7 +1956,7 @@ aDesiredSize
 )
 ;
 }
-nsresult
+void
 nsSVGOuterSVGFrame
 :
 :
@@ -1973,9 +1973,6 @@ nsDidReflowStatus
 aStatus
 )
 {
-nsresult
-rv
-=
 nsSVGOuterSVGFrameBase
 :
 :
@@ -2000,9 +1997,6 @@ SynthesizeMouseMove
 (
 false
 )
-;
-return
-rv
 ;
 }
 bool

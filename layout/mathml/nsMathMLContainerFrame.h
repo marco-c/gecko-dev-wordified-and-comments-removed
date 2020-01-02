@@ -328,7 +328,7 @@ aPresContext
 ;
 }
 virtual
-nsresult
+void
 DidReflow
 (
 nsPresContext
