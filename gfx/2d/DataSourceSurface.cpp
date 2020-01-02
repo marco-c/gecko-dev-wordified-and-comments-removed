@@ -42,7 +42,10 @@ GetType
 )
 =
 =
-SURFACE_DATA
+SurfaceType
+:
+:
+DATA
 )
 {
 temp

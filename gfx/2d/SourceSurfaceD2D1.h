@@ -88,7 +88,10 @@ GetType
 const
 {
 return
-SURFACE_D2D1_1_IMAGE
+SurfaceType
+:
+:
+D2D1_1_IMAGE
 ;
 }
 virtual
@@ -232,7 +235,10 @@ GetType
 const
 {
 return
-SURFACE_DATA
+SurfaceType
+:
+:
+DATA
 ;
 }
 virtual

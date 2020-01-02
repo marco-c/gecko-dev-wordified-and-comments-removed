@@ -442,7 +442,10 @@ GetType
 )
 {
 case
-SURFACE_D2D1_1_IMAGE
+SurfaceType
+:
+:
+D2D1_1_IMAGE
 :
 image
 =
@@ -477,7 +480,10 @@ EnsureIndependent
 break
 ;
 case
-SURFACE_D2D1_BITMAP
+SurfaceType
+:
+:
+D2D1_BITMAP
 :
 image
 =
@@ -498,7 +504,10 @@ GetBitmap
 break
 ;
 case
-SURFACE_D2D1_DRAWTARGET
+SurfaceType
+:
+:
+D2D1_DRAWTARGET
 :
 {
 SourceSurfaceD2DTarget

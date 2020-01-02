@@ -741,7 +741,10 @@ GetType
 )
 =
 =
-SURFACE_CAIRO
+SurfaceType
+:
+:
+CAIRO
 )
 {
 cairo_surface_t
@@ -781,7 +784,10 @@ GetType
 )
 =
 =
-SURFACE_CAIRO_IMAGE
+SurfaceType
+:
+:
+CAIRO_IMAGE
 )
 {
 cairo_surface_t
@@ -2372,7 +2378,10 @@ GetType
 )
 !
 =
-SURFACE_CAIRO
+SurfaceType
+:
+:
+CAIRO
 )
 {
 return

@@ -47,7 +47,10 @@ const
 MOZ_OVERRIDE
 {
 return
-SURFACE_DATA
+SurfaceType
+:
+:
+DATA
 ;
 }
 virtual

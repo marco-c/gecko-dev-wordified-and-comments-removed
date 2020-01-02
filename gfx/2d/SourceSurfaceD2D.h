@@ -57,7 +57,10 @@ GetType
 const
 {
 return
-SURFACE_D2D1_BITMAP
+SurfaceType
+:
+:
+D2D1_BITMAP
 ;
 }
 virtual

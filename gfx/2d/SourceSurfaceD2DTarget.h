@@ -72,7 +72,10 @@ GetType
 const
 {
 return
-SURFACE_D2D1_DRAWTARGET
+SurfaceType
+:
+:
+D2D1_DRAWTARGET
 ;
 }
 virtual
@@ -197,7 +200,10 @@ GetType
 const
 {
 return
-SURFACE_DATA
+SurfaceType
+:
+:
+DATA
 ;
 }
 virtual

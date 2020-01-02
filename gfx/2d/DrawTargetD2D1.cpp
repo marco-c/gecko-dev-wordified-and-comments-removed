@@ -4891,7 +4891,10 @@ GetType
 )
 {
 case
-SURFACE_D2D1_1_IMAGE
+SurfaceType
+:
+:
+D2D1_1_IMAGE
 :
 {
 SourceSurfaceD2D1
