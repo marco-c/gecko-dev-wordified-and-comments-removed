@@ -1682,6 +1682,11 @@ rv
 SECFailure
 &
 &
+PR_GetError
+(
+)
+=
+=
 SEC_ERROR_UNKNOWN_ISSUER
 )
 {
