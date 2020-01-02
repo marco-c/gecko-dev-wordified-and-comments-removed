@@ -55,12 +55,6 @@ DestroyScriptSettings
 ;
 nsIGlobalObject
 *
-BrokenGetEntryGlobal
-(
-)
-;
-nsIGlobalObject
-*
 GetIncumbentGlobal
 (
 )
