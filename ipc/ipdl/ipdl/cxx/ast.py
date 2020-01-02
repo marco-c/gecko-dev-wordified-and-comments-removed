@@ -1474,8 +1474,7 @@ self
 directive
 rest
 =
-'
-'
+None
 )
 :
         
