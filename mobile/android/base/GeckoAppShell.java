@@ -1945,6 +1945,14 @@ geckoLoaded
 }
 )
 ;
+if
+(
+!
+AppConstants
+.
+MOZILLA_OFFICIAL
+)
+{
 Log
 .
 d
@@ -1959,6 +1967,7 @@ nativeRun
 combinedArgs
 )
 ;
+}
 GeckoLoader
 .
 nativeRun

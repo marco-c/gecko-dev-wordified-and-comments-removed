@@ -880,6 +880,14 @@ getTypeFromAction
 mAction
 )
 ;
+if
+(
+!
+AppConstants
+.
+MOZILLA_OFFICIAL
+)
+{
 Log
 .
 i
@@ -895,6 +903,7 @@ args
 args
 )
 ;
+}
 GeckoAppShell
 .
 runGecko
