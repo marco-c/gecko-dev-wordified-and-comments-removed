@@ -11210,6 +11210,8 @@ INSTALL
 (
 NSINSTALL_PY
 )
+-
+t
 )
 (
 1
