@@ -7546,6 +7546,14 @@ aLayerMetrics
 .
 mCumulativeResolution
 ;
+mFrameMetrics
+.
+mHasScrollgrab
+=
+aLayerMetrics
+.
+mHasScrollgrab
+;
 if
 (
 aLayerMetrics
