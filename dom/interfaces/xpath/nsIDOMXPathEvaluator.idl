@@ -135,9 +135,6 @@ interface
 nsIDOMXPathNSResolver
 ;
 interface
-nsIDOMXPathResult
-;
-interface
 nsIDOMXPathExpression
 ;
 interface

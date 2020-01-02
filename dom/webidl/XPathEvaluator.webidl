@@ -97,9 +97,6 @@ XPathExpression
 interface
 XPathNSResolver
 ;
-interface
-XPathResult
-;
 [
 Constructor
 ]
@@ -154,7 +151,7 @@ resolver
 unsigned
 short
 type
-XPathResult
+object
 ?
 result
 )

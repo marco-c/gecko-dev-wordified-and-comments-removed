@@ -132,9 +132,6 @@ domstubs
 idl
 "
 interface
-nsIDOMXPathResult
-;
-interface
 XPathException
 ;
 [
