@@ -383,7 +383,7 @@ S
 "
 #
 ifndef
-__powerpc64__
+POWERPC64
 ENTRY
 (
 ffi_closure_SYSV
@@ -2045,8 +2045,6 @@ align
 LEFDE1
 :
 #
-endif
-#
 if
 defined
 __ELF__
@@ -2065,5 +2063,7 @@ stack
 "
 "
 progbits
+#
+endif
 #
 endif

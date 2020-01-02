@@ -558,6 +558,10 @@ f20
 set
 f21
 21
+.
+extern
+.
+ffi_prep_args
 #
 define
 LIBFFI_ASM
@@ -823,6 +827,7 @@ r1
 bl
 .
 ffi_prep_args
+nop
 /
 *
 Now
@@ -882,7 +887,7 @@ registers
 *
 /
 /
-/
+*
 We
 have
 set
@@ -897,6 +902,8 @@ it
 into
 registers
 .
+*
+/
 ld
 r3
 40
@@ -1010,10 +1017,12 @@ bf
 6
 L2
 /
-/
+*
 2f
 +
 0x18
+*
+/
 lfd
 f1
 -
@@ -1492,6 +1501,7 @@ r1
 bl
 .
 ffi_prep_args
+nop
 /
 *
 Now
@@ -1551,7 +1561,7 @@ registers
 *
 /
 /
-/
+*
 We
 have
 set
@@ -1566,6 +1576,8 @@ it
 into
 registers
 .
+*
+/
 lwz
 r3
 20
@@ -1679,10 +1691,12 @@ bf
 6
 L2
 /
-/
+*
 2f
 +
 0x18
+*
+/
 lfd
 f1
 -
@@ -2036,11 +2050,13 @@ byte
 0
 0
 /
-/
+*
 END
 (
 ffi_call_AIX
 )
+*
+/
 .
 csect
 .
@@ -2116,8 +2132,10 @@ byte
 0
 0
 /
-/
+*
 END
 (
 ffi_call_DARWIN
 )
+*
+/

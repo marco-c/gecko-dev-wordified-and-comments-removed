@@ -537,6 +537,9 @@ h
 "
 #
 else
+#
+define
+_STRUCT_MALLINFO
 struct
 mallinfo
 {
@@ -2719,8 +2722,7 @@ malloc_chunk
 sbinptr
 ;
 typedef
-unsigned
-int
+size_t
 bindex_t
 ;
 typedef
@@ -12420,6 +12422,9 @@ size
 =
 tsize
 ;
+(
+void
+)
 set_segment_flags
 (
 &
@@ -13233,6 +13238,9 @@ size
 =
 tsize
 ;
+(
+void
+)
 set_segment_flags
 (
 &

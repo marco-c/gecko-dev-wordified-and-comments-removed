@@ -367,7 +367,7 @@ h
 >
 #
 ifdef
-__powerpc64__
+POWERPC64
 .
 hidden
 ffi_call_LINUX64

@@ -1333,6 +1333,10 @@ fun
 (
 cif
 rvalue
+(
+ffi_raw
+*
+)
 raw
 cl
 -

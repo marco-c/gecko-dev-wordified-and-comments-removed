@@ -335,6 +335,9 @@ res
 ffi_arg
 )
 (
+uintptr_t
+)
+(
 (
 void
 *

@@ -188,6 +188,10 @@ trample6
 +
 trample2
 ;
+void
+*
+result
+;
 dummyVar
 =
 dummy_func
@@ -202,8 +206,6 @@ trample7
 trample8
 )
 ;
-void
-*
 result
 =
 (
@@ -404,6 +406,10 @@ trample6
 +
 trample2
 ;
+void
+*
+result
+;
 dummyVar
 =
 dummy_func
@@ -418,8 +424,6 @@ trample7
 trample8
 )
 ;
-void
-*
 result
 =
 (
@@ -888,6 +892,9 @@ res
 =
 (
 ffi_arg
+)
+(
+uintptr_t
 )
 (
 (

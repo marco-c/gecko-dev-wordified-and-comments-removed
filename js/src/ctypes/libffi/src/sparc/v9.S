@@ -389,7 +389,7 @@ instructions
 #
 define
 STACKFRAME
-128
+176
 /
 *
 Minimum
@@ -397,6 +397,9 @@ stack
 framesize
 for
 SPARC
+64
+-
+bit
 *
 /
 #

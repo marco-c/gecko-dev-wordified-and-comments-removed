@@ -25,10 +25,14 @@ FFI_FIRST_ABI
 =
 0
 FFI_EABI
-FFI_LAST_ABI
 FFI_DEFAULT_ABI
 =
 FFI_EABI
+FFI_LAST_ABI
+=
+FFI_DEFAULT_ABI
++
+1
 }
 ffi_abi
 ;
@@ -37,7 +41,7 @@ endif
 #
 define
 FFI_CLOSURES
-0
+1
 #
 define
 FFI_NATIVE_RAW_API
@@ -46,9 +50,7 @@ FFI_NATIVE_RAW_API
 define
 FFI_TRAMPOLINE_SIZE
 (
-5
-*
-4
+12
 )
 #
 endif

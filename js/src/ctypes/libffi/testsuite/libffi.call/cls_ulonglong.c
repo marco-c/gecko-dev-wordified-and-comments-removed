@@ -35,6 +35,8 @@ long
 )
 resp
 =
+0xfffffffffffffffLL
+^
 *
 (
 unsigned

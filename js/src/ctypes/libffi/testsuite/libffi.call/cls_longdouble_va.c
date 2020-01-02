@@ -159,11 +159,12 @@ NULL
 ;
 CHECK
 (
-ffi_prep_cif
+ffi_prep_cif_var
 (
 &
 cif
 FFI_DEFAULT_ABI
+1
 2
 &
 ffi_type_sint
@@ -253,8 +254,9 @@ int
 (
 char
 *
-long
-double
+.
+.
+.
 )
 )
 (

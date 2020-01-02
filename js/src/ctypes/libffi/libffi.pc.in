@@ -7,6 +7,9 @@ exec_prefix
 libdir
 =
 libdir
+toolexeclibdir
+=
+toolexeclibdir
 includedir
 =
 {
@@ -36,7 +39,7 @@ Libs
 -
 L
 {
-libdir
+toolexeclibdir
 }
 -
 lffi

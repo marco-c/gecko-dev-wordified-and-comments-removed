@@ -2767,3 +2767,15 @@ ifndef
 __x86_64__
 *
 /
+.
+section
+.
+note
+.
+GNU
+-
+stack
+"
+"
+%
+progbits

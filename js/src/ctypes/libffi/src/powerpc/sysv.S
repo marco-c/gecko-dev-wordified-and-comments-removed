@@ -370,7 +370,7 @@ h
 >
 #
 ifndef
-__powerpc64__
+POWERPC64
 .
 globl
 ffi_prep_args_SYSV
@@ -1690,8 +1690,6 @@ align
 LEFDE1
 :
 #
-endif
-#
 if
 defined
 __ELF__
@@ -1710,5 +1708,7 @@ stack
 "
 "
 progbits
+#
+endif
 #
 endif

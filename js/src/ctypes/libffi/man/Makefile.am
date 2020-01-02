@@ -23,6 +23,9 @@ ffi_call
 ffi_prep_cif
 .
 3
+ffi_prep_cif_var
+.
+3
 man_MANS
 =
 ffi
@@ -32,5 +35,8 @@ ffi_call
 .
 3
 ffi_prep_cif
+.
+3
+ffi_prep_cif_var
 .
 3
