@@ -114,13 +114,6 @@ h
 #
 include
 "
-nsDOMNotifyPaintEvent
-.
-h
-"
-#
-include
-"
 nsIDOMClientRectList
 .
 h

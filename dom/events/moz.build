@@ -313,6 +313,11 @@ NotifyAudioAvailableEvent
 h
 '
 '
+NotifyPaintEvent
+.
+h
+'
+'
 PointerEvent
 .
 h
@@ -580,7 +585,7 @@ windows
 h
 .
 '
-nsDOMEvent
+NotifyPaintEvent
 .
 cpp
 '
@@ -610,7 +615,7 @@ windows
 h
 .
 '
-nsDOMNotifyPaintEvent
+nsDOMEvent
 .
 cpp
 '
