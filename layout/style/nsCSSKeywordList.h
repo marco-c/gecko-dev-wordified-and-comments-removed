@@ -1597,6 +1597,11 @@ dashed
 )
 CSS_KEY
 (
+dense
+dense
+)
+CSS_KEY
+(
 decimal
 decimal
 )

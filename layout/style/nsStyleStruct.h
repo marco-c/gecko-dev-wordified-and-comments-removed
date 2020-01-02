@@ -4658,6 +4658,9 @@ nsStyleCoord
 mGridAutoRowsMax
 ;
 uint8_t
+mGridAutoFlow
+;
+uint8_t
 mBoxSizing
 ;
 uint8_t
