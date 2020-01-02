@@ -231,6 +231,8 @@ aNode
 void
 Error
 (
+bool
+aUnblockScripts
 )
 ;
 void

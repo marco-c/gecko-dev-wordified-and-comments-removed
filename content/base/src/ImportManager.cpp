@@ -128,6 +128,10 @@ dom
 ImportLoader
 *
 loader
+bool
+scriptsBlocked
+=
+true
 )
 :
 mLoader
@@ -137,6 +141,10 @@ loader
 mPassed
 (
 false
+)
+mScriptsBlocked
+(
+scriptsBlocked
 )
 {
 }
@@ -156,6 +164,7 @@ mLoader
 >
 Error
 (
+mScriptsBlocked
 )
 ;
 }
@@ -184,6 +193,9 @@ mLoader
 ;
 bool
 mPassed
+;
+bool
+mScriptsBlocked
 ;
 }
 ;
@@ -602,6 +614,8 @@ ImportLoader
 :
 Error
 (
+bool
+aUnblockScripts
 )
 {
 mDocument
@@ -646,10 +660,16 @@ i
 )
 ;
 }
+if
+(
+aUnblockScripts
+)
+{
 UnblockScripts
 (
 )
 ;
+}
 ReleaseResources
 (
 )
@@ -688,6 +708,7 @@ AutoError
 ae
 (
 this
+false
 )
 ;
 nsCOMPtr
