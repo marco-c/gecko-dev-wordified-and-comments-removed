@@ -149,6 +149,9 @@ screen
 "
 application
 "
+"
+window
+"
 }
 ;
 dictionary
