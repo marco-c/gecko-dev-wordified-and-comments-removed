@@ -1350,6 +1350,11 @@ BrowserProvider
 "
 AUTHORITY
 "
+"
+browser
+.
+db
+"
 )
 ;
 mGenerator

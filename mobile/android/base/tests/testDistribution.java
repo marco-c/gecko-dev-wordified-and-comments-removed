@@ -1954,6 +1954,11 @@ BrowserProvider
 "
 AUTHORITY
 "
+"
+browser
+.
+db
+"
 )
 ;
 }
