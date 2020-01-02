@@ -288,6 +288,11 @@ FocusEvent
 h
 '
 '
+KeyboardEvent
+.
+h
+'
+'
 PointerEvent
 .
 h
@@ -385,6 +390,11 @@ FocusEvent
 cpp
 '
 '
+KeyboardEvent
+.
+cpp
+'
+'
 nsAsyncDOMEvent
 .
 cpp
@@ -396,11 +406,6 @@ cpp
 '
 '
 nsDOMEventTargetHelper
-.
-cpp
-'
-'
-nsDOMKeyboardEvent
 .
 cpp
 '
