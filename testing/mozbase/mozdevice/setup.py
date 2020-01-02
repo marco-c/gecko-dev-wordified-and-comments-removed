@@ -28,6 +28,11 @@ mozfile
         
 '
 mozlog
+>
+=
+2
+.
+1
 '
         
 '
