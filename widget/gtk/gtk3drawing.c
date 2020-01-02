@@ -3229,7 +3229,7 @@ rect
 -
 >
 width
-=
+>
 =
 indicator_size
 "
@@ -3245,6 +3245,17 @@ rect
 -
 >
 x
++
+(
+rect
+-
+>
+width
+-
+indicator_size
+)
+/
+2
 ;
 y
 =
