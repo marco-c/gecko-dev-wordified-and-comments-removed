@@ -7156,7 +7156,7 @@ if
 (
 end
 <
-inputOf
+outputOf
 (
 ins
 )
@@ -7296,7 +7296,7 @@ interval
 >
 covers
 (
-outputOf
+inputOf
 (
 ins
 )

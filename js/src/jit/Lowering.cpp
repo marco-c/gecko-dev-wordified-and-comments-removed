@@ -2183,7 +2183,7 @@ LComputeThis
 if
 (
 !
-useBoxAtStart
+useBox
 (
 lir
 LComputeThis
