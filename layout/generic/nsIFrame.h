@@ -5828,7 +5828,7 @@ out
 endif
 virtual
 bool
-HasTerminalNewline
+HasSignificantTerminalNewline
 (
 )
 const

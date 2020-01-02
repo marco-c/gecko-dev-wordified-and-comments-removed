@@ -812,7 +812,7 @@ MOZ_OVERRIDE
 ;
 virtual
 bool
-HasTerminalNewline
+HasSignificantTerminalNewline
 (
 )
 const
