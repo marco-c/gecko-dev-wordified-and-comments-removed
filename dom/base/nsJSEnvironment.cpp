@@ -7084,6 +7084,12 @@ this
 AutoJSAPI
 jsapi
 ;
+jsapi
+.
+Init
+(
+)
+;
 JSContext
 *
 cx
