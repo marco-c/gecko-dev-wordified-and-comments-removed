@@ -200,8 +200,10 @@ factory
 {
 factory
 =
-new
 SurfaceFactory_IOSurface
+:
+:
+Create
 (
 gl
 caps

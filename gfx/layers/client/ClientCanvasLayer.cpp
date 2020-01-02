@@ -478,8 +478,10 @@ ifdef
 XP_MACOSX
 factory
 =
-new
 SurfaceFactory_IOSurface
+:
+:
+Create
 (
 mGLContext
 caps
