@@ -7867,6 +7867,7 @@ bool
 mustBeFloat32
 (
 )
+const
 {
 return
 mustBeFloat32_
@@ -11585,6 +11586,7 @@ bool
 canBeNegativeZero
 (
 )
+const
 {
 return
 canBeNegativeZero_
@@ -13163,6 +13165,7 @@ bool
 fallible
 (
 )
+const
 ;
 void
 computeRange
@@ -15184,6 +15187,7 @@ bool
 fallible
 (
 )
+const
 ;
 void
 computeRange
@@ -15356,6 +15360,7 @@ bool
 fallible
 (
 )
+const
 ;
 void
 computeRange
@@ -15588,11 +15593,13 @@ bool
 canOverflow
 (
 )
+const
 ;
 bool
 canBeNegativeZero
 (
 )
+const
 {
 return
 canBeNegativeZero_
@@ -15622,6 +15629,7 @@ bool
 fallible
 (
 )
+const
 {
 return
 canBeNegativeZero_
@@ -15897,6 +15905,7 @@ bool
 canBeNegativeZero
 (
 )
+const
 {
 return
 canBeNegativeZero_
@@ -15918,6 +15927,7 @@ bool
 canBeNegativeOverflow
 (
 )
+const
 {
 return
 canBeNegativeOverflow_
@@ -15927,6 +15937,7 @@ bool
 canBeDivideByZero
 (
 )
+const
 {
 return
 canBeDivideByZero_
@@ -15936,6 +15947,7 @@ bool
 isUnsigned
 (
 )
+const
 {
 return
 unsigned_
@@ -15960,6 +15972,7 @@ bool
 fallible
 (
 )
+const
 ;
 bool
 truncate
@@ -16169,6 +16182,7 @@ bool
 isUnsigned
 (
 )
+const
 {
 return
 unsigned_
@@ -16178,6 +16192,7 @@ bool
 fallible
 (
 )
+const
 ;
 void
 computeRange
@@ -33732,6 +33747,7 @@ bool
 needsSingletonType
 (
 )
+const
 {
 return
 needsSingletonType_
