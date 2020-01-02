@@ -167,11 +167,6 @@ height
 "
 1
 "
-filterRes
-=
-"
-1000
-"
 >
 <
 feGaussianBlur
