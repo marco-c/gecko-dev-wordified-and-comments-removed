@@ -1,4 +1,4 @@
-afe9b1f9b180define
+define
 hookpost
 -
 run
@@ -38,7 +38,7 @@ end
 set
 ignored
 =
-__GI___sigaction
+__sigaction
 (
 11
 0
