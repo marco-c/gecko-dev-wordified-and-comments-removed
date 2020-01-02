@@ -515,6 +515,17 @@ return
 mASCIIOrigin
 ;
 }
+bool
+FromIPC
+(
+)
+{
+return
+!
+!
+mContentParent
+;
+}
 virtual
 JSObject
 *
