@@ -1,0 +1,10 @@
+interface
+DummyInterface
+{
+}
+;
+interface
+DummyInterfaceWorkers
+{
+}
+;
