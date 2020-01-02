@@ -480,11 +480,6 @@ iceGatheringState
 ;
 readonly
 attribute
-PCImplReadyState
-readyState
-;
-readonly
-attribute
 PCImplSignalingState
 signalingState
 ;

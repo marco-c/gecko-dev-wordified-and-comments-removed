@@ -114,9 +114,6 @@ PCObserverStateType
 None
 "
 "
-ReadyState
-"
-"
 IceConnectionState
 "
 "
