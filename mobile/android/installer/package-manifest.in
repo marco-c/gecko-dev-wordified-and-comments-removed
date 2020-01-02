@@ -2358,6 +2358,13 @@ BINPATH
 /
 components
 /
+servicesComponents
+.
+manifest
+BINPATH
+/
+components
+/
 TelemetryStartup
 .
 js
