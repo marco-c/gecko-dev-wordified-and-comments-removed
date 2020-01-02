@@ -3140,7 +3140,13 @@ protoSetter
 )
 {
 return
-true
+warnOnceAbout
+(
+cx
+protoSetter
+WARNED_PROTO_SETTING_SLOW
+JSMSG_PROTO_SETTING_SLOW
+)
 ;
 }
 static
