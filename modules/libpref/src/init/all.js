@@ -10798,10 +10798,8 @@ skip_default_features_space_check
 "
 Fira
 Sans
-OT
 Fira
 Mono
-OT
 "
 )
 ;
@@ -25010,7 +25008,6 @@ he
 "
 Fira
 Sans
-OT
 "
 )
 ;
@@ -25028,7 +25025,6 @@ he
 "
 Fira
 Mono
-OT
 "
 )
 ;
@@ -25053,7 +25049,6 @@ Sans
 Hebrew
 Fira
 Sans
-OT
 "
 )
 ;
@@ -25091,7 +25086,6 @@ ja
 "
 Fira
 Sans
-OT
 "
 )
 ;
@@ -25129,7 +25123,6 @@ ja
 "
 Fira
 Sans
-OT
 MotoyaLMaru
 MotoyaLCedar
 Droid
@@ -25156,7 +25149,6 @@ MotoyaLMaru
 MotoyaLCedar
 Fira
 Mono
-OT
 "
 )
 ;
@@ -25194,7 +25186,6 @@ ko
 "
 Fira
 Sans
-OT
 "
 )
 ;
@@ -25212,7 +25203,6 @@ ko
 "
 Fira
 Mono
-OT
 "
 )
 ;
@@ -25250,7 +25240,6 @@ th
 "
 Fira
 Sans
-OT
 "
 )
 ;
@@ -25268,7 +25257,6 @@ th
 "
 Fira
 Mono
-OT
 "
 )
 ;
@@ -25290,7 +25278,6 @@ th
 "
 Fira
 Sans
-OT
 Noto
 Sans
 Thai
@@ -25334,7 +25321,6 @@ tr
 "
 Fira
 Sans
-OT
 "
 )
 ;
@@ -25352,7 +25338,6 @@ tr
 "
 Fira
 Mono
-OT
 "
 )
 ;
@@ -25394,7 +25379,6 @@ baltic
 "
 Fira
 Sans
-OT
 "
 )
 ;
@@ -25414,7 +25398,6 @@ baltic
 "
 Fira
 Mono
-OT
 "
 )
 ;
@@ -25460,7 +25443,6 @@ euro
 "
 Fira
 Sans
-OT
 "
 )
 ;
@@ -25482,7 +25464,6 @@ euro
 "
 Fira
 Mono
-OT
 "
 )
 ;
@@ -25524,7 +25505,6 @@ cyrillic
 "
 Fira
 Sans
-OT
 "
 )
 ;
@@ -25544,7 +25524,6 @@ cyrillic
 "
 Fira
 Mono
-OT
 "
 )
 ;
@@ -25586,7 +25565,6 @@ unicode
 "
 Fira
 Sans
-OT
 "
 )
 ;
@@ -25606,7 +25584,6 @@ unicode
 "
 Fira
 Mono
-OT
 "
 )
 ;
@@ -25648,7 +25625,6 @@ western
 "
 Fira
 Sans
-OT
 "
 )
 ;
@@ -25668,7 +25644,6 @@ western
 "
 Fira
 Mono
-OT
 "
 )
 ;
@@ -25710,7 +25685,6 @@ CN
 "
 Fira
 Sans
-OT
 "
 )
 ;
@@ -25730,7 +25704,6 @@ CN
 "
 Fira
 Mono
-OT
 "
 )
 ;
@@ -25772,7 +25745,6 @@ HK
 "
 Fira
 Sans
-OT
 "
 )
 ;
@@ -25792,7 +25764,6 @@ HK
 "
 Fira
 Mono
-OT
 "
 )
 ;
@@ -25834,7 +25805,6 @@ TW
 "
 Fira
 Sans
-OT
 "
 )
 ;
@@ -25854,7 +25824,6 @@ TW
 "
 Fira
 Mono
-OT
 "
 )
 ;
