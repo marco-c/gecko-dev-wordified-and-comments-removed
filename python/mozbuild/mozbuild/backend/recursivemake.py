@@ -5018,7 +5018,7 @@ if
 objdir
 =
 =
-bf
+self
 .
 environment
 .
@@ -5044,7 +5044,7 @@ relpath
 (
 objdir
                             
-bf
+self
 .
 environment
 .
