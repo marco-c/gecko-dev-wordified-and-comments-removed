@@ -934,11 +934,11 @@ protocolId
 )
 =
 =
+unsigned
 (
-int
-)
 GetProtocolId
 (
+)
 )
 )
 {
