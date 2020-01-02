@@ -2420,6 +2420,15 @@ sSingleton
 =
 this
 ;
+GetIPCChannel
+(
+)
+-
+>
+BlockScripts
+(
+)
+;
 #
 ifdef
 MOZ_X11
