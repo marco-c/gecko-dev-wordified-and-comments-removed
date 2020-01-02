@@ -120,6 +120,19 @@ CPP_SOURCES
 =
 [
 '
+.
+.
+/
+common
+/
+'
++
+src
+for
+src
+in
+[
+'
 debug
 .
 cpp
@@ -129,6 +142,7 @@ RefCountObject
 .
 cpp
 '
+]
 ]
 #
 src
