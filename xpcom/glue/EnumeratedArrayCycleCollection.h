@@ -63,9 +63,9 @@ size_t
 SizeAsEnumValue
 )
 ;
++
++
 i
-+
-+
 )
 {
 aField

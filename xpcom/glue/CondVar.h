@@ -94,6 +94,7 @@ if
 !
 mCvar
 )
+{
 NS_RUNTIMEABORT
 (
 "
@@ -108,6 +109,7 @@ CondVar
 "
 )
 ;
+}
 }
 ~
 CondVar
@@ -156,7 +158,7 @@ nsresult
 Wait
 (
 PRIntervalTime
-interval
+aInterval
 =
 PR_INTERVAL_NO_TIMEOUT
 )
@@ -173,7 +175,7 @@ return
 PR_WaitCondVar
 (
 mCvar
-interval
+aInterval
 )
 =
 =
@@ -190,7 +192,7 @@ nsresult
 Wait
 (
 PRIntervalTime
-interval
+aInterval
 =
 PR_INTERVAL_NO_TIMEOUT
 )

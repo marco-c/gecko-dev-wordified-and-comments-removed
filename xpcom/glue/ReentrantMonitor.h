@@ -82,6 +82,7 @@ if
 !
 mReentrantMonitor
 )
+{
 NS_RUNTIMEABORT
 (
 "
@@ -96,6 +97,7 @@ ReentrantMonitor
 "
 )
 ;
+}
 }
 ~
 ReentrantMonitor
@@ -159,7 +161,7 @@ nsresult
 Wait
 (
 PRIntervalTime
-interval
+aInterval
 =
 PR_INTERVAL_NO_TIMEOUT
 )
@@ -176,7 +178,7 @@ return
 PR_Wait
 (
 mReentrantMonitor
-interval
+aInterval
 )
 =
 =
@@ -203,7 +205,7 @@ nsresult
 Wait
 (
 PRIntervalTime
-interval
+aInterval
 =
 PR_INTERVAL_NO_TIMEOUT
 )
@@ -379,7 +381,7 @@ nsresult
 Wait
 (
 PRIntervalTime
-interval
+aInterval
 =
 PR_INTERVAL_NO_TIMEOUT
 )
@@ -390,7 +392,7 @@ mReentrantMonitor
 >
 Wait
 (
-interval
+aInterval
 )
 ;
 }

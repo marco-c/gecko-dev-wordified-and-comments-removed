@@ -87,7 +87,7 @@ nsISupports
 aSource
 nsresult
 *
-error
+aError
 )
 :
 mSource
@@ -96,7 +96,7 @@ aSource
 )
 mErrorPtr
 (
-error
+aError
 )
 {
 }
@@ -138,7 +138,7 @@ nsISupports
 aSource
 nsresult
 *
-error
+aError
 =
 0
 )
@@ -147,7 +147,7 @@ return
 nsGetInterface
 (
 aSource
-error
+aError
 )
 ;
 }

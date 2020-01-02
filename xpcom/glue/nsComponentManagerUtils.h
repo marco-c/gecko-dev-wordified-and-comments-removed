@@ -322,7 +322,7 @@ nsCID
 aCID
 nsresult
 *
-error
+aError
 =
 0
 )
@@ -332,7 +332,7 @@ nsCreateInstanceByCID
 (
 aCID
 0
-error
+aError
 )
 ;
 }
@@ -350,7 +350,7 @@ nsISupports
 aOuter
 nsresult
 *
-error
+aError
 =
 0
 )
@@ -360,7 +360,7 @@ nsCreateInstanceByCID
 (
 aCID
 aOuter
-error
+aError
 )
 ;
 }
@@ -375,7 +375,7 @@ char
 aContractID
 nsresult
 *
-error
+aError
 =
 0
 )
@@ -385,7 +385,7 @@ nsCreateInstanceByContractID
 (
 aContractID
 0
-error
+aError
 )
 ;
 }
@@ -403,7 +403,7 @@ nsISupports
 aOuter
 nsresult
 *
-error
+aError
 =
 0
 )
@@ -413,7 +413,7 @@ nsCreateInstanceByContractID
 (
 aContractID
 aOuter
-error
+aError
 )
 ;
 }
@@ -427,7 +427,7 @@ nsIFactory
 aFactory
 nsresult
 *
-error
+aError
 =
 0
 )
@@ -437,7 +437,7 @@ nsCreateInstanceFromFactory
 (
 aFactory
 0
-error
+aError
 )
 ;
 }
@@ -454,7 +454,7 @@ nsISupports
 aOuter
 nsresult
 *
-error
+aError
 =
 0
 )
@@ -464,7 +464,7 @@ nsCreateInstanceFromFactory
 (
 aFactory
 aOuter
-error
+aError
 )
 ;
 }
@@ -597,7 +597,7 @@ nsCID
 aCID
 nsresult
 *
-error
+aError
 =
 0
 )
@@ -606,7 +606,7 @@ return
 nsGetClassObjectByCID
 (
 aCID
-error
+aError
 )
 ;
 }
@@ -621,7 +621,7 @@ char
 aContractID
 nsresult
 *
-error
+aError
 =
 0
 )
@@ -630,7 +630,7 @@ return
 nsGetClassObjectByContractID
 (
 aContractID
-error
+aError
 )
 ;
 }

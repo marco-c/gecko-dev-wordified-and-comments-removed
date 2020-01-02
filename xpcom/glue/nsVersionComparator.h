@@ -71,11 +71,11 @@ CompareVersions
 const
 char
 *
-A
+aStrA
 const
 char
 *
-B
+aStrB
 )
 ;
 #
@@ -88,11 +88,11 @@ CompareVersions
 const
 char16_t
 *
-A
+aStrA
 const
 char16_t
 *
-B
+aStrB
 )
 ;
 #
@@ -106,14 +106,14 @@ Version
 const
 char
 *
-versionString
+aVersionString
 )
 {
 versionContent
 =
 strdup
 (
-versionString
+aVersionString
 )
 ;
 }
@@ -147,7 +147,7 @@ operator
 const
 Version
 &
-rhs
+aRhs
 )
 const
 {
@@ -155,7 +155,7 @@ return
 CompareVersions
 (
 versionContent
-rhs
+aRhs
 .
 ReadContent
 (
@@ -175,7 +175,7 @@ operator
 const
 Version
 &
-rhs
+aRhs
 )
 const
 {
@@ -183,7 +183,7 @@ return
 CompareVersions
 (
 versionContent
-rhs
+aRhs
 .
 ReadContent
 (
@@ -200,7 +200,7 @@ operator
 const
 Version
 &
-rhs
+aRhs
 )
 const
 {
@@ -208,7 +208,7 @@ return
 CompareVersions
 (
 versionContent
-rhs
+aRhs
 .
 ReadContent
 (
@@ -227,7 +227,7 @@ operator
 const
 Version
 &
-rhs
+aRhs
 )
 const
 {
@@ -235,7 +235,7 @@ return
 CompareVersions
 (
 versionContent
-rhs
+aRhs
 .
 ReadContent
 (
@@ -254,7 +254,7 @@ operator
 const
 Version
 &
-rhs
+aRhs
 )
 const
 {
@@ -262,7 +262,7 @@ return
 CompareVersions
 (
 versionContent
-rhs
+aRhs
 .
 ReadContent
 (
@@ -281,7 +281,7 @@ operator
 const
 Version
 &
-rhs
+aRhs
 )
 const
 {
@@ -289,7 +289,7 @@ return
 CompareVersions
 (
 versionContent
-rhs
+aRhs
 .
 ReadContent
 (
@@ -320,7 +320,7 @@ VersionW
 const
 char16_t
 *
-versionStringW
+aVersionStringW
 )
 {
 versionContentW
@@ -335,7 +335,7 @@ wcsdup
 (
 char16ptr_t
 (
-versionStringW
+aVersionStringW
 )
 )
 )
@@ -371,7 +371,7 @@ operator
 const
 VersionW
 &
-rhs
+aRhs
 )
 const
 {
@@ -379,7 +379,7 @@ return
 CompareVersions
 (
 versionContentW
-rhs
+aRhs
 .
 ReadContentW
 (
@@ -399,7 +399,7 @@ operator
 const
 VersionW
 &
-rhs
+aRhs
 )
 const
 {
@@ -407,7 +407,7 @@ return
 CompareVersions
 (
 versionContentW
-rhs
+aRhs
 .
 ReadContentW
 (
@@ -424,7 +424,7 @@ operator
 const
 VersionW
 &
-rhs
+aRhs
 )
 const
 {
@@ -432,7 +432,7 @@ return
 CompareVersions
 (
 versionContentW
-rhs
+aRhs
 .
 ReadContentW
 (
@@ -451,7 +451,7 @@ operator
 const
 VersionW
 &
-rhs
+aRhs
 )
 const
 {
@@ -459,7 +459,7 @@ return
 CompareVersions
 (
 versionContentW
-rhs
+aRhs
 .
 ReadContentW
 (
@@ -478,7 +478,7 @@ operator
 const
 VersionW
 &
-rhs
+aRhs
 )
 const
 {
@@ -486,7 +486,7 @@ return
 CompareVersions
 (
 versionContentW
-rhs
+aRhs
 .
 ReadContentW
 (
@@ -505,7 +505,7 @@ operator
 const
 VersionW
 &
-rhs
+aRhs
 )
 const
 {
@@ -513,7 +513,7 @@ return
 CompareVersions
 (
 versionContentW
-rhs
+aRhs
 .
 ReadContentW
 (

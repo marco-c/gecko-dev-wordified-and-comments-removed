@@ -175,7 +175,7 @@ ResourceAcquisition
 aFirstSeen
 nsACString
 &
-out
+aOut
 bool
 aPrintFirstSeenCx
 =
@@ -246,10 +246,10 @@ DDT
 :
 ResourceAcquisitionArray
 *
-cycle
+aCycle
 nsACString
 &
-out
+aOut
 )
 ;
 static
@@ -410,6 +410,7 @@ if
 !
 sDeadlockDetector
 )
+{
 NS_RUNTIMEABORT
 (
 "
@@ -422,6 +423,7 @@ detector
 "
 )
 ;
+}
 return
 PR_SUCCESS
 ;

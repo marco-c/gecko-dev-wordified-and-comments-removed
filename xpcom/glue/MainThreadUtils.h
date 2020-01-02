@@ -33,7 +33,7 @@ NS_GetMainThread
 nsIThread
 *
 *
-result
+aResult
 )
 ;
 #

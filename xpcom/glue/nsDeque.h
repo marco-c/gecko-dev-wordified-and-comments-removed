@@ -59,7 +59,7 @@ operator
 (
 void
 *
-anObject
+aObject
 )
 =
 0
@@ -145,6 +145,7 @@ mSize
 ;
 }
 }
+NS_WARN_UNUSED_RESULT
 bool
 Push
 (
@@ -155,7 +156,6 @@ const
 fallible_t
 &
 )
-NS_WARN_UNUSED_RESULT
 ;
 void
 PushFront
@@ -184,6 +184,7 @@ mSize
 ;
 }
 }
+NS_WARN_UNUSED_RESULT
 bool
 PushFront
 (
@@ -194,7 +195,6 @@ const
 fallible_t
 &
 )
-NS_WARN_UNUSED_RESULT
 ;
 void
 *
@@ -350,7 +350,7 @@ nsDeque
 const
 nsDeque
 &
-other
+aOther
 )
 ;
 nsDeque
@@ -361,7 +361,7 @@ operator
 const
 nsDeque
 &
-anOther
+aOther
 )
 ;
 bool

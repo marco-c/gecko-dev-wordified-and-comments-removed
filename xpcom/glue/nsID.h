@@ -47,7 +47,7 @@ Equals
 const
 nsID
 &
-other
+aOther
 )
 const
 {
@@ -55,7 +55,6 @@ return
 (
 (
 (
-(
 uint32_t
 *
 )
@@ -73,7 +72,7 @@ uint32_t
 *
 )
 &
-other
+aOther
 .
 m0
 )
@@ -103,7 +102,7 @@ uint32_t
 *
 )
 &
-other
+aOther
 .
 m0
 )
@@ -133,7 +132,7 @@ uint32_t
 *
 )
 &
-other
+aOther
 .
 m0
 )
@@ -163,14 +162,13 @@ uint32_t
 *
 )
 &
-other
+aOther
 .
 m0
 )
 [
 3
 ]
-)
 )
 ;
 }
@@ -202,7 +200,7 @@ ToProvidedString
 char
 (
 &
-dest
+aDest
 )
 [
 NSID_LENGTH

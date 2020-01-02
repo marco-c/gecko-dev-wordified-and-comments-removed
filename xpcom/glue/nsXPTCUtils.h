@@ -63,11 +63,13 @@ if
 (
 mXPTCStub
 )
+{
 NS_DestroyXPTCallStub
 (
 mXPTCStub
 )
 ;
+}
 }
 }
 ;

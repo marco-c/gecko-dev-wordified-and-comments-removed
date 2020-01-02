@@ -63,7 +63,7 @@ NoteIntentionalCrash
 const
 char
 *
-processType
+aProcessType
 )
 {
 char
@@ -82,8 +82,10 @@ if
 !
 f
 )
+{
 return
 ;
+}
 fprintf
 (
 stderr
@@ -124,9 +126,6 @@ size
 4
 &
 &
-0
-=
-=
 bloatLog
 .
 compare
@@ -145,6 +144,9 @@ log
 "
 4
 )
+=
+=
+0
 )
 {
 hasExt
@@ -183,7 +185,7 @@ _
 "
 <
 <
-processType
+aProcessType
 <
 <
 "
@@ -199,6 +201,7 @@ if
 (
 hasExt
 )
+{
 bloatName
 <
 <
@@ -207,6 +210,7 @@ bloatName
 log
 "
 ;
+}
 fprintf
 (
 stderr

@@ -247,7 +247,7 @@ InitFromFILE
 (
 FILE
 *
-fd
+aFd
 )
 ;
 static

@@ -27,10 +27,10 @@ NS_NewArrayEnumerator
 nsISimpleEnumerator
 *
 *
-result
+aResult
 nsIArray
 *
-array
+aArray
 )
 ;
 NS_COM_GLUE

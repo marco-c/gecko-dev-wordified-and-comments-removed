@@ -46,12 +46,12 @@ NS_DECL_NSIFACTORY
 GenericFactory
 (
 ConstructorProcPtr
-ctor
+aCtor
 )
 :
 mCtor
 (
-ctor
+aCtor
 )
 {
 NS_ASSERTION

@@ -48,12 +48,12 @@ nsHashKeyDisallowMemmove
 const
 T
 &
-key
+aKey
 )
 :
 T
 (
-key
+aKey
 )
 {
 }

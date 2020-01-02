@@ -238,10 +238,12 @@ if
 (
 expectFormat1
 )
+{
++
++
 aIDStr
-+
-+
 ;
+}
 PARSE_CHARS_TO_NUM
 (
 aIDStr
@@ -291,10 +293,11 @@ i
 <
 2
 ;
++
++
 i
-+
-+
 )
+{
 PARSE_CHARS_TO_NUM
 (
 aIDStr
@@ -305,6 +308,7 @@ i
 2
 )
 ;
+}
 PARSE_HYPHEN
 (
 aIDStr
@@ -413,9 +417,6 @@ NSID_LENGTH
 if
 (
 res
-!
-=
-nullptr
 )
 {
 PR_snprintf
@@ -504,7 +505,7 @@ ToProvidedString
 char
 (
 &
-dest
+aDest
 )
 [
 NSID_LENGTH
@@ -514,7 +515,7 @@ const
 {
 PR_snprintf
 (
-dest
+aDest
 NSID_LENGTH
 gIDFormat
 m0

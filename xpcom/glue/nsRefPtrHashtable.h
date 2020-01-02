@@ -109,7 +109,7 @@ KeyType
 aKey
 UserDataType
 *
-pData
+aData
 )
 const
 ;
@@ -145,6 +145,7 @@ RefPtr
 aData
 )
 ;
+MOZ_WARN_UNUSED_RESULT
 bool
 Put
 (
@@ -162,7 +163,6 @@ mozilla
 fallible_t
 &
 )
-MOZ_WARN_UNUSED_RESULT
 ;
 using
 base_type
@@ -177,7 +177,7 @@ KeyType
 aKey
 UserDataType
 *
-pData
+aData
 )
 ;
 }
@@ -288,7 +288,7 @@ KeyType
 aKey
 UserDataType
 *
-pRefPtr
+aRefPtr
 )
 const
 {
@@ -315,11 +315,11 @@ ent
 {
 if
 (
-pRefPtr
+aRefPtr
 )
 {
 *
-pRefPtr
+aRefPtr
 =
 ent
 -
@@ -329,7 +329,7 @@ mData
 NS_IF_ADDREF
 (
 *
-pRefPtr
+aRefPtr
 )
 ;
 }
@@ -339,11 +339,11 @@ true
 }
 if
 (
-pRefPtr
+aRefPtr
 )
 {
 *
-pRefPtr
+aRefPtr
 =
 nullptr
 ;
@@ -589,12 +589,12 @@ KeyType
 aKey
 UserDataType
 *
-pRefPtr
+aRefPtr
 )
 {
 MOZ_ASSERT
 (
-pRefPtr
+aRefPtr
 )
 ;
 typename
@@ -625,7 +625,7 @@ mData
 .
 forget
 (
-pRefPtr
+aRefPtr
 )
 ;
 this
@@ -641,7 +641,7 @@ true
 ;
 }
 *
-pRefPtr
+aRefPtr
 =
 nullptr
 ;

@@ -127,14 +127,14 @@ ToSupports
 (
 T
 *
-p
+aPtr
 typename
 T
 :
 :
 NS_CYCLE_COLLECTION_INNERCLASS
 *
-dummy
+aDummy
 =
 0
 )
@@ -148,7 +148,7 @@ NS_CYCLE_COLLECTION_INNERCLASS
 :
 Upcast
 (
-p
+aPtr
 )
 ;
 }
