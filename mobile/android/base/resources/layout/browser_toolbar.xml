@@ -180,6 +180,8 @@ mozilla
 .
 gecko
 .
+toolbar
+.
 BrowserToolbarBackground
 android
 :
@@ -464,6 +466,8 @@ mozilla
 .
 gecko
 .
+toolbar
+.
 ShapedButton
 android
 :
@@ -603,6 +607,8 @@ org
 mozilla
 .
 gecko
+.
+toolbar
 .
 ShapedButton
 android
@@ -767,6 +773,8 @@ org
 mozilla
 .
 gecko
+.
+toolbar
 .
 TabCounter
 android
@@ -1435,6 +1443,8 @@ org
 mozilla
 .
 gecko
+.
+toolbar
 .
 PageActionLayout
 android

@@ -4,6 +4,17 @@ org
 mozilla
 .
 gecko
+.
+toolbar
+;
+import
+org
+.
+mozilla
+.
+gecko
+.
+R
 ;
 import
 android

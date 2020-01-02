@@ -130,6 +130,8 @@ mozilla
 .
 gecko
 .
+toolbar
+.
 BrowserToolbarBackground
 android
 :
@@ -172,6 +174,8 @@ org
 mozilla
 .
 gecko
+.
+toolbar
 .
 ShapedButton
 android
@@ -327,6 +331,8 @@ org
 mozilla
 .
 gecko
+.
+toolbar
 .
 TabCounter
 android
@@ -501,6 +507,8 @@ mozilla
 .
 gecko
 .
+toolbar
+.
 ForwardButton
 style
 =
@@ -541,6 +549,8 @@ org
 mozilla
 .
 gecko
+.
+toolbar
 .
 BackButton
 android
@@ -1256,6 +1266,8 @@ org
 mozilla
 .
 gecko
+.
+toolbar
 .
 PageActionLayout
 android
