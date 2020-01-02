@@ -2920,8 +2920,6 @@ MOZ_CRASH
 #
 endif
 }
-namespace
-{
 class
 CompilerConstraint
 {
@@ -2987,7 +2985,6 @@ recompileInfo
 ;
 }
 ;
-}
 class
 types
 :

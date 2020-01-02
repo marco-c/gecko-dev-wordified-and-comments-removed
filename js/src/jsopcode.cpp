@@ -7618,6 +7618,8 @@ return
 blockChain
 ;
 }
+namespace
+{
 struct
 ExpressionDecompiler
 {
@@ -9184,6 +9186,7 @@ len
 return
 true
 ;
+}
 }
 static
 bool
