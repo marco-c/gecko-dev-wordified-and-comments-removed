@@ -5978,7 +5978,7 @@ print
 function
 JSTH_print
 (
-aString
+aValue
 )
 {
 aOwner
@@ -5994,7 +5994,12 @@ true
 return
 String
 (
-aString
+Cu
+.
+waiveXrays
+(
+aValue
+)
 )
 ;
 }
