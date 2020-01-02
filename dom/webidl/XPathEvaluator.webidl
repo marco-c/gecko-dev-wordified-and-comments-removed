@@ -112,7 +112,7 @@ Based
 on
 nsIDOMXPathEvaluator
 [
-NewObject
+Creator
 Throws
 ]
 XPathExpression
@@ -126,7 +126,7 @@ resolver
 )
 ;
 [
-NewObject
+Creator
 Throws
 ]
 XPathNSResolver

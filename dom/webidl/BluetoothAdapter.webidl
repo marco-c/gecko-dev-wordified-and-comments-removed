@@ -421,7 +421,7 @@ EventHandler
 onrequestmediaplaystatus
 ;
 [
-NewObject
+Creator
 Throws
 ]
 DOMRequest
@@ -432,7 +432,7 @@ name
 )
 ;
 [
-NewObject
+Creator
 Throws
 ]
 DOMRequest
@@ -443,7 +443,7 @@ discoverable
 )
 ;
 [
-NewObject
+Creator
 Throws
 ]
 DOMRequest
@@ -455,7 +455,7 @@ timeout
 )
 ;
 [
-NewObject
+Creator
 Throws
 ]
 DOMRequest
@@ -464,7 +464,7 @@ startDiscovery
 )
 ;
 [
-NewObject
+Creator
 Throws
 ]
 DOMRequest
@@ -473,7 +473,7 @@ stopDiscovery
 )
 ;
 [
-NewObject
+Creator
 Throws
 ]
 DOMRequest
@@ -484,7 +484,7 @@ device
 )
 ;
 [
-NewObject
+Creator
 Throws
 ]
 DOMRequest
@@ -495,7 +495,7 @@ device
 )
 ;
 [
-NewObject
+Creator
 Throws
 ]
 DOMRequest
@@ -504,7 +504,7 @@ getPairedDevices
 )
 ;
 [
-NewObject
+Creator
 Throws
 ]
 DOMRequest
@@ -516,7 +516,7 @@ serviceUuid
 )
 ;
 [
-NewObject
+Creator
 Throws
 ]
 DOMRequest
@@ -529,7 +529,7 @@ pinCode
 )
 ;
 [
-NewObject
+Creator
 Throws
 ]
 DOMRequest
@@ -543,7 +543,7 @@ passkey
 )
 ;
 [
-NewObject
+Creator
 Throws
 ]
 DOMRequest
@@ -707,7 +707,7 @@ optional
 *
 /
 [
-NewObject
+Creator
 Throws
 ]
 DOMRequest
@@ -722,7 +722,7 @@ serviceUuid
 )
 ;
 [
-NewObject
+Creator
 Throws
 ]
 DOMRequest
@@ -749,7 +749,7 @@ at
 a
 time
 [
-NewObject
+Creator
 Throws
 ]
 DOMRequest
@@ -762,7 +762,7 @@ blob
 )
 ;
 [
-NewObject
+Creator
 Throws
 ]
 DOMRequest
@@ -773,7 +773,7 @@ deviceAddress
 )
 ;
 [
-NewObject
+Creator
 Throws
 ]
 DOMRequest
@@ -796,7 +796,7 @@ audio
 )
 connection
 [
-NewObject
+Creator
 Throws
 ]
 DOMRequest
@@ -805,7 +805,7 @@ connectSco
 )
 ;
 [
-NewObject
+Creator
 Throws
 ]
 DOMRequest
@@ -814,7 +814,7 @@ disconnectSco
 )
 ;
 [
-NewObject
+Creator
 Throws
 ]
 DOMRequest
@@ -931,7 +931,7 @@ AVRCP
 3
 methods
 [
-NewObject
+Creator
 Throws
 ]
 DOMRequest
@@ -943,7 +943,7 @@ mediaMetaData
 )
 ;
 [
-NewObject
+Creator
 Throws
 ]
 DOMRequest

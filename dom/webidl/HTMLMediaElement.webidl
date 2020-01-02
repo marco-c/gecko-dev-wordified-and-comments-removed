@@ -240,7 +240,7 @@ DOMString
 preload
 ;
 [
-NewObject
+Creator
 ]
 readonly
 attribute
@@ -372,7 +372,7 @@ double
 playbackRate
 ;
 [
-NewObject
+Creator
 ]
 readonly
 attribute
@@ -380,7 +380,7 @@ TimeRanges
 played
 ;
 [
-NewObject
+Creator
 ]
 readonly
 attribute

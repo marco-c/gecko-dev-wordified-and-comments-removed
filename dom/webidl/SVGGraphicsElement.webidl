@@ -162,7 +162,7 @@ SVGElement
 farthestViewportElement
 ;
 [
-NewObject
+Creator
 Throws
 ]
 SVGRect

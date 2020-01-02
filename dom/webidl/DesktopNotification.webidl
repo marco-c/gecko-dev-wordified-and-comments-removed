@@ -111,7 +111,7 @@ interface
 DesktopNotificationCenter
 {
 [
-NewObject
+Creator
 ]
 DesktopNotification
 createNotification

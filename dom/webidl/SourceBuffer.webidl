@@ -196,7 +196,7 @@ boolean
 updating
 ;
 [
-NewObject
+Creator
 Throws
 ]
 readonly

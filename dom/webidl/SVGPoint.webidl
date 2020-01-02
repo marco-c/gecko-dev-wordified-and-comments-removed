@@ -157,7 +157,7 @@ float
 y
 ;
 [
-NewObject
+Creator
 ]
 SVGPoint
 matrixTransform

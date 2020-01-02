@@ -287,7 +287,7 @@ object
 first
 .
 [
-NewObject
+Creator
 Throws
 Func
 =
@@ -321,7 +321,7 @@ any
 value
 )
 [
-NewObject
+Creator
 Throws
 Func
 =
@@ -347,7 +347,7 @@ value
 )
 ;
 [
-NewObject
+Creator
 ]
 Promise
 then
@@ -371,7 +371,7 @@ rejectCallback
 )
 ;
 [
-NewObject
+Creator
 ]
 Promise
 catch

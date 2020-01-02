@@ -152,7 +152,7 @@ boolean
 upperOpen
 ;
 [
-NewObject
+Creator
 Throws
 ]
 static
@@ -164,7 +164,7 @@ value
 )
 ;
 [
-NewObject
+Creator
 Throws
 ]
 static
@@ -181,7 +181,7 @@ false
 )
 ;
 [
-NewObject
+Creator
 Throws
 ]
 static
@@ -198,7 +198,7 @@ false
 )
 ;
 [
-NewObject
+Creator
 Throws
 ]
 static

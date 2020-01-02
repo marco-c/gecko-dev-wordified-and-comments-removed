@@ -185,7 +185,7 @@ float
 f
 ;
 [
-NewObject
+Creator
 ]
 SVGMatrix
 multiply
@@ -195,7 +195,7 @@ secondMatrix
 )
 ;
 [
-NewObject
+Creator
 Throws
 ]
 SVGMatrix
@@ -204,7 +204,7 @@ inverse
 )
 ;
 [
-NewObject
+Creator
 ]
 SVGMatrix
 translate
@@ -216,7 +216,7 @@ y
 )
 ;
 [
-NewObject
+Creator
 ]
 SVGMatrix
 scale
@@ -226,7 +226,7 @@ scaleFactor
 )
 ;
 [
-NewObject
+Creator
 ]
 SVGMatrix
 scaleNonUniform
@@ -238,7 +238,7 @@ scaleFactorY
 )
 ;
 [
-NewObject
+Creator
 ]
 SVGMatrix
 rotate
@@ -248,7 +248,7 @@ angle
 )
 ;
 [
-NewObject
+Creator
 Throws
 ]
 SVGMatrix
@@ -261,7 +261,7 @@ y
 )
 ;
 [
-NewObject
+Creator
 ]
 SVGMatrix
 flipX
@@ -269,7 +269,7 @@ flipX
 )
 ;
 [
-NewObject
+Creator
 ]
 SVGMatrix
 flipY
@@ -277,7 +277,7 @@ flipY
 )
 ;
 [
-NewObject
+Creator
 Throws
 ]
 SVGMatrix
@@ -288,7 +288,7 @@ angle
 )
 ;
 [
-NewObject
+Creator
 Throws
 ]
 SVGMatrix

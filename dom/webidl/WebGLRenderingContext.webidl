@@ -3243,7 +3243,7 @@ target
 )
 ;
 [
-NewObject
+Creator
 ]
 WebGLActiveInfo
 ?
@@ -3257,7 +3257,7 @@ index
 )
 ;
 [
-NewObject
+Creator
 ]
 WebGLActiveInfo
 ?
@@ -3375,7 +3375,7 @@ pname
 )
 ;
 [
-NewObject
+Creator
 ]
 WebGLShaderPrecisionFormat
 ?
@@ -3429,7 +3429,7 @@ location
 )
 ;
 [
-NewObject
+Creator
 ]
 WebGLUniformLocation
 ?

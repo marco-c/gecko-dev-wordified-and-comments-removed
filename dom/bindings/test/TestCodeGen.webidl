@@ -1503,7 +1503,7 @@ cache
 interface
 types
 [
-NewObject
+Creator
 ]
 TestNonWrapperCacheInterface
 receiveNonWrapperCacheInterface
@@ -1511,7 +1511,7 @@ receiveNonWrapperCacheInterface
 )
 ;
 [
-NewObject
+Creator
 ]
 TestNonWrapperCacheInterface
 ?
@@ -1520,7 +1520,7 @@ receiveNullableNonWrapperCacheInterface
 )
 ;
 [
-NewObject
+Creator
 ]
 sequence
 <
@@ -1531,7 +1531,7 @@ receiveNonWrapperCacheInterfaceSequence
 )
 ;
 [
-NewObject
+Creator
 ]
 sequence
 <
@@ -1543,7 +1543,7 @@ receiveNullableNonWrapperCacheInterfaceSequence
 )
 ;
 [
-NewObject
+Creator
 ]
 sequence
 <
@@ -1555,7 +1555,7 @@ receiveNonWrapperCacheInterfaceNullableSequence
 )
 ;
 [
-NewObject
+Creator
 ]
 sequence
 <

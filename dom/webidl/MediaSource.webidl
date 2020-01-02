@@ -222,7 +222,7 @@ double
 duration
 ;
 [
-NewObject
+Creator
 Throws
 ]
 SourceBuffer

@@ -226,7 +226,7 @@ charnum
 )
 ;
 [
-NewObject
+Creator
 Throws
 ]
 SVGRect
