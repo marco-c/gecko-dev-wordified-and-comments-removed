@@ -18,7 +18,7 @@ waitForExplicitFinish
 (
 )
 ;
-addTabAndOpenStyleEditor
+addTabAndCheckOnStyleEditorAdded
 (
 function
 (
@@ -45,6 +45,12 @@ location
 =
 TESTCASE_URI
 ;
+}
+(
+)
+=
+>
+{
 }
 )
 ;
