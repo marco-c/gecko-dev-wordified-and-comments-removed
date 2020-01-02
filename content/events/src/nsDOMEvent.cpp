@@ -2295,13 +2295,11 @@ WidgetInputEvent
 *
 oldInputEvent
 =
-static_cast
-<
-WidgetInputEvent
-*
->
-(
 mEvent
+-
+>
+AsInputEvent
+(
 )
 ;
 WidgetInputEvent

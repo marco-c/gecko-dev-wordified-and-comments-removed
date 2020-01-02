@@ -25441,13 +25441,11 @@ WidgetInputEvent
 &
 inputEvent
 =
-static_cast
-<
-WidgetInputEvent
-&
->
-(
+*
 aEvent
+.
+AsInputEvent
+(
 )
 ;
 if
