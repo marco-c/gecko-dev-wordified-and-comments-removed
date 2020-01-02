@@ -174,18 +174,7 @@ self
 )
 :
         
-self
-.
-logger
-.
-suite_start
-(
-tests
-=
-self
-.
-test_list
-)
+pass
     
 def
 startTest
@@ -232,13 +221,7 @@ self
 )
 :
         
-self
-.
-logger
-.
-suite_end
-(
-)
+pass
     
 def
 addError
