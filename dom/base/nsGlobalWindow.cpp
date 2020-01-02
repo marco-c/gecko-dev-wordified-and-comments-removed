@@ -12338,6 +12338,13 @@ PreloadLocalStorage
 (
 )
 {
+MOZ_ASSERT
+(
+IsOuterWindow
+(
+)
+)
+;
 if
 (
 !
