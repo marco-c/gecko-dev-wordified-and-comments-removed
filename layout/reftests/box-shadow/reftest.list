@@ -288,6 +288,15 @@ spread
 ref
 .
 html
+skip
+-
+if
+(
+B2G
+&
+&
+browserIsRemote
+)
 HTTP
 (
 .

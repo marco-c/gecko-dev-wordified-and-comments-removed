@@ -693,6 +693,15 @@ opentype_svg
 enabled
 true
 )
+random
+-
+if
+(
+B2G
+&
+&
+browserIsRemote
+)
 =
 =
 svg
