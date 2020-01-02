@@ -146,15 +146,6 @@ google
 breakpad
 /
 src
-VPATH
-+
-=
-(
-topsrcdir
-)
-/
-build
-/
 ifeq
 (
 (

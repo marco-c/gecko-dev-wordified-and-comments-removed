@@ -81,14 +81,6 @@ OS_TARGET
 )
 Android
 )
-VPATH
-+
-=
-(
-srcdir
-)
-/
-android
 TARGET_LOCAL_INCLUDES
 +
 =

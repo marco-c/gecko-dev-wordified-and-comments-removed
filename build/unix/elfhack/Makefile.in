@@ -57,14 +57,6 @@ MPL
 INTERNAL_TOOLS
 =
 1
-VPATH
-+
-=
-(
-topsrcdir
-)
-/
-build
 OS_CXXFLAGS
 :
 =

@@ -202,17 +202,6 @@ pointer
 endif
 #
 }
-VPATH
-+
-=
-(
-srcdir
-)
-/
-.
-.
-/
-log
 LOCAL_INCLUDES
 =
 \
