@@ -2985,11 +2985,6 @@ id
 "
 updateRadioGroup
 "
-align
-=
-"
-start
-"
 oncommand
 =
 "

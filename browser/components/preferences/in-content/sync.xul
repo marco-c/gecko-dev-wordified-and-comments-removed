@@ -2131,11 +2131,6 @@ fxaSyncEngines
 >
 <
 vbox
-align
-=
-"
-start
-"
 >
 <
 checkbox
