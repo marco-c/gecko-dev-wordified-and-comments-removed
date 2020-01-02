@@ -243,9 +243,6 @@ loop
 .
 FeedbackAPIClient
 (
-{
-baseUrl
-:
 "
 https
 :
@@ -263,6 +260,7 @@ v1
 /
 feedback
 "
+{
 product
 :
 "
