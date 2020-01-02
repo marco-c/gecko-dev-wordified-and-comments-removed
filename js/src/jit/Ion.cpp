@@ -9993,7 +9993,7 @@ isFunctionFrame
 {
 if
 (
-TooManyArguments
+TooManyActualArguments
 (
 frame
 -
@@ -10021,7 +10021,7 @@ false
 }
 if
 (
-TooManyArguments
+TooManyFormalArguments
 (
 frame
 -
@@ -11105,7 +11105,7 @@ asInvoke
 ;
 if
 (
-TooManyArguments
+TooManyActualArguments
 (
 invoke
 .
@@ -11142,7 +11142,7 @@ Method_CantCompile
 }
 if
 (
-TooManyArguments
+TooManyFormalArguments
 (
 invoke
 .

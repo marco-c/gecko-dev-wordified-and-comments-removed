@@ -2157,7 +2157,7 @@ jitcode
 ;
 if
 (
-TooManyArguments
+TooManyFormalArguments
 (
 target
 -
@@ -2180,7 +2180,7 @@ args
 ;
 if
 (
-TooManyArguments
+TooManyFormalArguments
 (
 callInfo
 .
@@ -2196,6 +2196,7 @@ inlineScript
 "
 Too
 many
+actual
 args
 "
 )
