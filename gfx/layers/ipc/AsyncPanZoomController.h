@@ -880,7 +880,6 @@ protected
 FrameMetrics
 mFrameMetrics
 ;
-mutable
 ReentrantMonitor
 mMonitor
 ;
