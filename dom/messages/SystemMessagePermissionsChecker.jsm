@@ -620,16 +620,6 @@ write
 "
 ]
 }
-"
-rtsp
--
-open
--
-video
-"
-:
-{
-}
 }
 ;
 this
