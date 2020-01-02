@@ -3904,11 +3904,31 @@ self
 session
 :
             
+try
+:
+                
 self
 .
 delete_session
 (
 )
+            
+except
+(
+MarionetteException
+socket
+.
+error
+)
+:
+                
+pass
+            
+self
+.
+session
+=
+None
         
 if
 self
