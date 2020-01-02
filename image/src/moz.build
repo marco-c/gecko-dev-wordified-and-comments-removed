@@ -213,6 +213,11 @@ ScriptedNotificationObserver
 cpp
 '
 '
+SurfaceCache
+.
+cpp
+'
+'
 VectorImage
 .
 cpp
