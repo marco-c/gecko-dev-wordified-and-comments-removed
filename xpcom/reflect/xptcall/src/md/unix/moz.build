@@ -1651,11 +1651,15 @@ CONFIG
 OS_ARCH
 '
 ]
-=
-=
+in
+(
 '
 OpenBSD
 '
+'
+FreeBSD
+'
+)
 and
 CONFIG
 [
