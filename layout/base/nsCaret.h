@@ -423,8 +423,6 @@ aBidiIndicatorSize
 bool
 MustDrawCaret
 (
-bool
-aIgnoreDrawnState
 )
 ;
 void
