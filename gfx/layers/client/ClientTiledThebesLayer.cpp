@@ -43,6 +43,13 @@ h
 #
 include
 "
+gfxPrefs
+.
+h
+"
+#
+include
+"
 gfxRect
 .
 h
@@ -899,7 +906,7 @@ if
 (
 (
 !
-gfxPlatform
+gfxPrefs
 :
 :
 UseProgressiveTilePainting
@@ -908,7 +915,7 @@ UseProgressiveTilePainting
 &
 &
 !
-gfxPlatform
+gfxPrefs
 :
 :
 UseLowPrecisionBuffer
@@ -1074,7 +1081,7 @@ IsEmpty
 {
 if
 (
-gfxPlatform
+gfxPrefs
 :
 :
 UseLowPrecisionBuffer
@@ -1159,7 +1166,7 @@ false
 ;
 if
 (
-gfxPlatform
+gfxPrefs
 :
 :
 UseProgressiveTilePainting

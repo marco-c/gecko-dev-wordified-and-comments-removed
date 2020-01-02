@@ -127,7 +127,7 @@ h
 #
 include
 "
-gfxPlatform
+gfxPrefs
 .
 h
 "
@@ -1904,10 +1904,10 @@ aBounds
 {
 if
 (
-gfxPlatform
+gfxPrefs
 :
 :
-GetPrefLayersDrawFPS
+LayersDrawFPS
 (
 )
 )
@@ -1964,7 +1964,7 @@ nullptr
 }
 if
 (
-gfxPlatform
+gfxPrefs
 :
 :
 DrawFrameCounter
@@ -2170,10 +2170,10 @@ return
 }
 if
 (
-gfxPlatform
+gfxPrefs
 :
 :
-GetPrefLayersDump
+LayersDump
 (
 )
 )
@@ -2244,10 +2244,10 @@ Now
 ;
 if
 (
-gfxPlatform
+gfxPrefs
 :
 :
-GetPrefLayersDrawFPS
+LayersDrawFPS
 (
 )
 )
@@ -3253,7 +3253,7 @@ GetRoot
 if
 (
 !
-gfxPlatform
+gfxPrefs
 :
 :
 UseProgressiveTilePainting

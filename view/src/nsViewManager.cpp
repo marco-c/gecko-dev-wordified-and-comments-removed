@@ -173,6 +173,13 @@ h
 #
 include
 "
+gfxPrefs
+.
+h
+"
+#
+include
+"
 nsIDocument
 .
 h
@@ -2113,7 +2120,7 @@ nearestViewWithWidget
 ;
 if
 (
-gfxPlatform
+gfxPrefs
 :
 :
 DrawFrameCounter
