@@ -379,6 +379,11 @@ aAtString
 )
 ;
 void
+ProcessKeyPressed
+(
+)
+;
+void
 UpdateSecondNumber
 (
 const
