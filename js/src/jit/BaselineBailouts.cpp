@@ -2421,6 +2421,14 @@ read
 (
 )
 ;
+flags
+|
+=
+BaselineFrame
+:
+:
+HAS_RVAL
+;
 if
 (
 script
