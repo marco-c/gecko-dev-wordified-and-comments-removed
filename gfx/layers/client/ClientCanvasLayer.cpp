@@ -146,6 +146,13 @@ h
 "
 #
 endif
+#
+include
+"
+gfxPrefs
+.
+h
+"
 using
 namespace
 mozilla
@@ -235,7 +242,12 @@ nullptr
 if
 (
 !
-mForceReadback
+gfxPrefs
+:
+:
+WebGLForceLayersReadback
+(
+)
 )
 {
 if

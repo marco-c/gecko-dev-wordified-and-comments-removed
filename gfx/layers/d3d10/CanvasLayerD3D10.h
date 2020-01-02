@@ -158,9 +158,6 @@ mIsD2DTexture
 bool
 mHasAlpha
 ;
-bool
-mForceReadback
-;
 nsAutoArrayPtr
 <
 uint8_t
