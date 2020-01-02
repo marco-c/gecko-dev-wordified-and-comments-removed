@@ -203,6 +203,14 @@ ObjectArray
 array
 )
 ;
+ObjectBox
+*
+find
+(
+uint32_t
+index
+)
+;
 }
 ;
 struct
