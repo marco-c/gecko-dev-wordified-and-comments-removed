@@ -112,6 +112,8 @@ tests
 cpp
 '
 '
+tests
+/
 test
 -
 JSObject
@@ -119,6 +121,8 @@ JSObject
 cpp
 '
 '
+tests
+/
 test
 -
 JSString
@@ -126,6 +130,8 @@ JSString
 cpp
 '
 '
+tests
+/
 test
 -
 Root
@@ -133,6 +139,8 @@ Root
 cpp
 '
 '
+tests
+/
 test
 -
 jsid
@@ -140,6 +148,8 @@ jsid
 cpp
 '
 '
+tests
+/
 test
 -
 jsval
@@ -147,6 +157,8 @@ jsval
 cpp
 '
 '
+tests
+/
 test
 -
 prettyprinters
@@ -154,6 +166,8 @@ prettyprinters
 cpp
 '
 '
+tests
+/
 typedef
 -
 printers
