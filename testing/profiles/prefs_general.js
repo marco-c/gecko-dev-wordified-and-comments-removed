@@ -2150,3 +2150,13 @@ debug
 true
 )
 ;
+user_pref
+(
+"
+loop
+.
+enabled
+"
+true
+)
+;
