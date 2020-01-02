@@ -6750,6 +6750,13 @@ DOMEventTargetHelper
 aObject
 )
 {
+MOZ_ASSERT
+(
+IsInnerWindow
+(
+)
+)
+;
 mEventTargetObjects
 .
 PutEntry
@@ -6769,6 +6776,13 @@ DOMEventTargetHelper
 aObject
 )
 {
+MOZ_ASSERT
+(
+IsInnerWindow
+(
+)
+)
+;
 mEventTargetObjects
 .
 RemoveEntry
