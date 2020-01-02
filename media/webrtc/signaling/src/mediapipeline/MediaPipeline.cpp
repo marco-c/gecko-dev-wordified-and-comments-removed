@@ -1675,7 +1675,7 @@ rtp_packets_sent_
 {
 MOZ_MTLOG
 (
-ML_DEBUG
+ML_INFO
 "
 RTP
 sent
@@ -1753,7 +1753,7 @@ rtcp_packets_sent_
 {
 MOZ_MTLOG
 (
-ML_DEBUG
+ML_INFO
 "
 RTCP
 sent
@@ -1831,7 +1831,7 @@ rtp_packets_received_
 {
 MOZ_MTLOG
 (
-ML_DEBUG
+ML_INFO
 "
 RTP
 received
@@ -1909,7 +1909,7 @@ rtcp_packets_received_
 {
 MOZ_MTLOG
 (
-ML_DEBUG
+ML_INFO
 "
 RTCP
 received
