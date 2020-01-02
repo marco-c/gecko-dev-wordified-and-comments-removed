@@ -1314,7 +1314,7 @@ auto
 .
 accesskey
 "
-l
+S
 "
 >
 <
@@ -1339,7 +1339,7 @@ ask
 .
 accesskey
 "
-i
+A
 "
 >
 <
@@ -1360,7 +1360,7 @@ viewCerts
 .
 accesskey
 "
-s
+C
 "
 >
 <
@@ -1401,6 +1401,6 @@ viewSecurityDevices
 .
 accesskey
 "
-y
+D
 "
 >

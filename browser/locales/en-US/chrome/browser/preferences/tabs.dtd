@@ -139,7 +139,7 @@ warnOpenManyTabs
 .
 accesskey
 "
-o
+d
 "
 >
 <
@@ -164,7 +164,7 @@ restoreTabsOnDemand
 .
 accesskey
 "
-l
+u
 "
 >
 <
@@ -196,7 +196,7 @@ switchToNewTabs
 .
 accesskey
 "
-s
+h
 "
 >
 <
