@@ -490,10 +490,6 @@ StopAnimation
 (
 )
 ;
-mAnimating
-=
-false
-;
 }
 }
 }
