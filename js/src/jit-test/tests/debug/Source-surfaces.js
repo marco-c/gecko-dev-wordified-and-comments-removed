@@ -163,7 +163,7 @@ Source
 .
 prototype
 .
-elementProperty
+elementAttributeName
 .
 call
 (
@@ -185,7 +185,7 @@ Source
 .
 prototype
 .
-elementProperty
+elementAttributeName
 .
 call
 (
@@ -208,7 +208,7 @@ Source
 .
 prototype
 .
-elementProperty
+elementAttributeName
 .
 call
 (

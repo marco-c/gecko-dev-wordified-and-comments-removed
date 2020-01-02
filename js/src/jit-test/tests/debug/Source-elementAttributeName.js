@@ -45,7 +45,7 @@ x
 }
 "
 {
-elementProperty
+elementAttributeName
 :
 "
 src
@@ -75,7 +75,7 @@ script
 .
 source
 .
-elementProperty
+elementAttributeName
 "
 src
 "
@@ -123,7 +123,7 @@ script
 .
 source
 .
-elementProperty
+elementAttributeName
 undefined
 )
 ;
