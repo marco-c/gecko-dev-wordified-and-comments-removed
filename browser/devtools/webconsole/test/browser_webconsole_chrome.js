@@ -23,7 +23,7 @@ loadTab
 "
 about
 :
-credits
+config
 "
 )
 ;
