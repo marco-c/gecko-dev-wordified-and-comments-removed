@@ -32,7 +32,6 @@ StoreRef
 {
 public
 :
-explicit
 StoreRef
 (
 RevocableStore
@@ -88,7 +87,6 @@ Revocable
 {
 public
 :
-explicit
 Revocable
 (
 RevocableStore

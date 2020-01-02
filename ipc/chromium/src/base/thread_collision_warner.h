@@ -202,7 +202,6 @@ ThreadCollisionWarner
 {
 public
 :
-explicit
 ThreadCollisionWarner
 (
 AsserterBase
