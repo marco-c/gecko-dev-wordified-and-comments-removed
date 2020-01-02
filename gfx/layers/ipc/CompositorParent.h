@@ -293,6 +293,13 @@ MOZ_OVERRIDE
 ;
 virtual
 bool
+RecvRequestOverfill
+(
+)
+MOZ_OVERRIDE
+;
+virtual
+bool
 RecvWillStop
 (
 )

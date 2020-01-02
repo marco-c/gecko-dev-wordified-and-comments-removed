@@ -377,6 +377,9 @@ class
 FrameRequestCallback
 ;
 class
+OverfillCallback
+;
+class
 HTMLBodyElement
 ;
 struct
