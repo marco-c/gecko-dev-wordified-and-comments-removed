@@ -1311,7 +1311,7 @@ return
 buffer
 ;
 }
-JS_ALWAYS_INLINE
+MOZ_ALWAYS_INLINE
 StackFrame
 *
 InterpreterStack
@@ -1569,7 +1569,7 @@ nformal
 )
 ;
 }
-JS_ALWAYS_INLINE
+MOZ_ALWAYS_INLINE
 bool
 InterpreterStack
 :
@@ -1768,7 +1768,7 @@ return
 true
 ;
 }
-JS_ALWAYS_INLINE
+MOZ_ALWAYS_INLINE
 void
 InterpreterStack
 :

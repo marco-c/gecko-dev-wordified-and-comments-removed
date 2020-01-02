@@ -118,7 +118,7 @@ JS_ResolveStub
 JS_ConvertStub
 }
 ;
-JS_ALWAYS_INLINE
+MOZ_ALWAYS_INLINE
 bool
 IsBoolean
 (
@@ -160,7 +160,7 @@ BooleanObject
 #
 if
 JS_HAS_TOSOURCE
-JS_ALWAYS_INLINE
+MOZ_ALWAYS_INLINE
 bool
 bool_toSource_impl
 (
@@ -335,7 +335,7 @@ args
 }
 #
 endif
-JS_ALWAYS_INLINE
+MOZ_ALWAYS_INLINE
 bool
 bool_toString_impl
 (
@@ -449,7 +449,7 @@ args
 )
 ;
 }
-JS_ALWAYS_INLINE
+MOZ_ALWAYS_INLINE
 bool
 bool_valueOf_impl
 (

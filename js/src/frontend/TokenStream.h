@@ -1699,7 +1699,7 @@ ntokensMask
 pos
 ;
 }
-JS_ALWAYS_INLINE
+MOZ_ALWAYS_INLINE
 TokenKind
 peekTokenSameLine
 (

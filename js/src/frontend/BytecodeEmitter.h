@@ -598,7 +598,7 @@ ParseNode
 pn
 )
 ;
-JS_ALWAYS_INLINE
+MOZ_ALWAYS_INLINE
 bool
 makeAtomIndex
 (

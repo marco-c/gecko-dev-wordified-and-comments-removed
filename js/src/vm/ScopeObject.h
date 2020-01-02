@@ -2463,7 +2463,7 @@ ObjectWeakMap
 proxiedScopes
 ;
 static
-JS_ALWAYS_INLINE
+MOZ_ALWAYS_INLINE
 void
 proxiedScopesPostWriteBarrier
 (
@@ -2499,7 +2499,7 @@ class
 MissingScopesRef
 ;
 static
-JS_ALWAYS_INLINE
+MOZ_ALWAYS_INLINE
 void
 missingScopesPostWriteBarrier
 (
@@ -2534,7 +2534,7 @@ LiveScopeMap
 liveScopes
 ;
 static
-JS_ALWAYS_INLINE
+MOZ_ALWAYS_INLINE
 void
 liveScopesPostWriteBarrier
 (

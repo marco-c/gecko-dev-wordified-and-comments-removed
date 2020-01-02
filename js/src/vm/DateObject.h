@@ -190,7 +190,7 @@ dtInfo
 )
 ;
 static
-JS_ALWAYS_INLINE
+MOZ_ALWAYS_INLINE
 bool
 getTime_impl
 (
@@ -202,7 +202,7 @@ args
 )
 ;
 static
-JS_ALWAYS_INLINE
+MOZ_ALWAYS_INLINE
 bool
 getYear_impl
 (
@@ -214,7 +214,7 @@ args
 )
 ;
 static
-JS_ALWAYS_INLINE
+MOZ_ALWAYS_INLINE
 bool
 getFullYear_impl
 (
@@ -226,7 +226,7 @@ args
 )
 ;
 static
-JS_ALWAYS_INLINE
+MOZ_ALWAYS_INLINE
 bool
 getUTCFullYear_impl
 (
@@ -238,7 +238,7 @@ args
 )
 ;
 static
-JS_ALWAYS_INLINE
+MOZ_ALWAYS_INLINE
 bool
 getMonth_impl
 (
@@ -250,7 +250,7 @@ args
 )
 ;
 static
-JS_ALWAYS_INLINE
+MOZ_ALWAYS_INLINE
 bool
 getUTCMonth_impl
 (
@@ -262,7 +262,7 @@ args
 )
 ;
 static
-JS_ALWAYS_INLINE
+MOZ_ALWAYS_INLINE
 bool
 getDate_impl
 (
@@ -274,7 +274,7 @@ args
 )
 ;
 static
-JS_ALWAYS_INLINE
+MOZ_ALWAYS_INLINE
 bool
 getUTCDate_impl
 (
@@ -286,7 +286,7 @@ args
 )
 ;
 static
-JS_ALWAYS_INLINE
+MOZ_ALWAYS_INLINE
 bool
 getDay_impl
 (
@@ -298,7 +298,7 @@ args
 )
 ;
 static
-JS_ALWAYS_INLINE
+MOZ_ALWAYS_INLINE
 bool
 getUTCDay_impl
 (
@@ -310,7 +310,7 @@ args
 )
 ;
 static
-JS_ALWAYS_INLINE
+MOZ_ALWAYS_INLINE
 bool
 getHours_impl
 (
@@ -322,7 +322,7 @@ args
 )
 ;
 static
-JS_ALWAYS_INLINE
+MOZ_ALWAYS_INLINE
 bool
 getUTCHours_impl
 (
@@ -334,7 +334,7 @@ args
 )
 ;
 static
-JS_ALWAYS_INLINE
+MOZ_ALWAYS_INLINE
 bool
 getMinutes_impl
 (
@@ -346,7 +346,7 @@ args
 )
 ;
 static
-JS_ALWAYS_INLINE
+MOZ_ALWAYS_INLINE
 bool
 getUTCMinutes_impl
 (
@@ -358,7 +358,7 @@ args
 )
 ;
 static
-JS_ALWAYS_INLINE
+MOZ_ALWAYS_INLINE
 bool
 getUTCSeconds_impl
 (
@@ -370,7 +370,7 @@ args
 )
 ;
 static
-JS_ALWAYS_INLINE
+MOZ_ALWAYS_INLINE
 bool
 getUTCMilliseconds_impl
 (
@@ -382,7 +382,7 @@ args
 )
 ;
 static
-JS_ALWAYS_INLINE
+MOZ_ALWAYS_INLINE
 bool
 getTimezoneOffset_impl
 (

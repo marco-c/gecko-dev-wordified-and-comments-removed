@@ -657,7 +657,7 @@ s
 #
 endif
 static
-JS_ALWAYS_INLINE
+MOZ_ALWAYS_INLINE
 bool
 AllocChars
 (

@@ -353,7 +353,7 @@ double
 result
 )
 ;
-JS_ALWAYS_INLINE
+MOZ_ALWAYS_INLINE
 bool
 ToNumber
 (
@@ -513,7 +513,7 @@ namespace
 js
 {
 static
-JS_ALWAYS_INLINE
+MOZ_ALWAYS_INLINE
 bool
 ValueFitsInInt32
 (
@@ -571,7 +571,7 @@ pi
 ;
 }
 static
-JS_ALWAYS_INLINE
+MOZ_ALWAYS_INLINE
 bool
 IsDefinitelyIndex
 (
@@ -951,7 +951,7 @@ double
 dp
 )
 ;
-JS_ALWAYS_INLINE
+MOZ_ALWAYS_INLINE
 bool
 ToNumber
 (
@@ -1135,7 +1135,7 @@ uint32_t
 out
 )
 ;
-JS_ALWAYS_INLINE
+MOZ_ALWAYS_INLINE
 bool
 NonObjectToUint32
 (

@@ -6204,7 +6204,7 @@ toDouble
 )
 ;
 }
-JS_ALWAYS_INLINE
+MOZ_ALWAYS_INLINE
 bool
 IsDate
 (
@@ -6234,7 +6234,7 @@ DateObject
 )
 ;
 }
-JS_ALWAYS_INLINE
+MOZ_ALWAYS_INLINE
 bool
 DateObject
 :
@@ -6320,7 +6320,7 @@ args
 )
 ;
 }
-JS_ALWAYS_INLINE
+MOZ_ALWAYS_INLINE
 bool
 DateObject
 :
@@ -6472,7 +6472,7 @@ args
 )
 ;
 }
-JS_ALWAYS_INLINE
+MOZ_ALWAYS_INLINE
 bool
 DateObject
 :
@@ -6584,7 +6584,7 @@ args
 )
 ;
 }
-JS_ALWAYS_INLINE
+MOZ_ALWAYS_INLINE
 bool
 DateObject
 :
@@ -6693,7 +6693,7 @@ args
 )
 ;
 }
-JS_ALWAYS_INLINE
+MOZ_ALWAYS_INLINE
 bool
 DateObject
 :
@@ -6805,7 +6805,7 @@ args
 )
 ;
 }
-JS_ALWAYS_INLINE
+MOZ_ALWAYS_INLINE
 bool
 DateObject
 :
@@ -6903,7 +6903,7 @@ args
 )
 ;
 }
-JS_ALWAYS_INLINE
+MOZ_ALWAYS_INLINE
 bool
 DateObject
 :
@@ -7015,7 +7015,7 @@ args
 )
 ;
 }
-JS_ALWAYS_INLINE
+MOZ_ALWAYS_INLINE
 bool
 DateObject
 :
@@ -7124,7 +7124,7 @@ args
 )
 ;
 }
-JS_ALWAYS_INLINE
+MOZ_ALWAYS_INLINE
 bool
 DateObject
 :
@@ -7236,7 +7236,7 @@ args
 )
 ;
 }
-JS_ALWAYS_INLINE
+MOZ_ALWAYS_INLINE
 bool
 DateObject
 :
@@ -7345,7 +7345,7 @@ args
 )
 ;
 }
-JS_ALWAYS_INLINE
+MOZ_ALWAYS_INLINE
 bool
 DateObject
 :
@@ -7457,7 +7457,7 @@ args
 )
 ;
 }
-JS_ALWAYS_INLINE
+MOZ_ALWAYS_INLINE
 bool
 DateObject
 :
@@ -7566,7 +7566,7 @@ args
 )
 ;
 }
-JS_ALWAYS_INLINE
+MOZ_ALWAYS_INLINE
 bool
 DateObject
 :
@@ -7678,7 +7678,7 @@ args
 )
 ;
 }
-JS_ALWAYS_INLINE
+MOZ_ALWAYS_INLINE
 bool
 DateObject
 :
@@ -7787,7 +7787,7 @@ args
 )
 ;
 }
-JS_ALWAYS_INLINE
+MOZ_ALWAYS_INLINE
 bool
 DateObject
 :
@@ -7899,7 +7899,7 @@ args
 )
 ;
 }
-JS_ALWAYS_INLINE
+MOZ_ALWAYS_INLINE
 bool
 DateObject
 :
@@ -8008,7 +8008,7 @@ args
 )
 ;
 }
-JS_ALWAYS_INLINE
+MOZ_ALWAYS_INLINE
 bool
 DateObject
 :
@@ -8142,7 +8142,7 @@ args
 )
 ;
 }
-JS_ALWAYS_INLINE
+MOZ_ALWAYS_INLINE
 bool
 date_setTime_impl
 (
@@ -8462,7 +8462,7 @@ mins
 )
 ;
 }
-JS_ALWAYS_INLINE
+MOZ_ALWAYS_INLINE
 bool
 date_setMilliseconds_impl
 (
@@ -8653,7 +8653,7 @@ args
 )
 ;
 }
-JS_ALWAYS_INLINE
+MOZ_ALWAYS_INLINE
 bool
 date_setUTCMilliseconds_impl
 (
@@ -8818,7 +8818,7 @@ args
 )
 ;
 }
-JS_ALWAYS_INLINE
+MOZ_ALWAYS_INLINE
 bool
 date_setSeconds_impl
 (
@@ -9025,7 +9025,7 @@ args
 )
 ;
 }
-JS_ALWAYS_INLINE
+MOZ_ALWAYS_INLINE
 bool
 date_setUTCSeconds_impl
 (
@@ -9206,7 +9206,7 @@ args
 )
 ;
 }
-JS_ALWAYS_INLINE
+MOZ_ALWAYS_INLINE
 bool
 date_setMinutes_impl
 (
@@ -9429,7 +9429,7 @@ args
 )
 ;
 }
-JS_ALWAYS_INLINE
+MOZ_ALWAYS_INLINE
 bool
 date_setUTCMinutes_impl
 (
@@ -9626,7 +9626,7 @@ args
 )
 ;
 }
-JS_ALWAYS_INLINE
+MOZ_ALWAYS_INLINE
 bool
 date_setHours_impl
 (
@@ -9865,7 +9865,7 @@ args
 )
 ;
 }
-JS_ALWAYS_INLINE
+MOZ_ALWAYS_INLINE
 bool
 date_setUTCHours_impl
 (
@@ -10078,7 +10078,7 @@ args
 )
 ;
 }
-JS_ALWAYS_INLINE
+MOZ_ALWAYS_INLINE
 bool
 date_setDate_impl
 (
@@ -10265,7 +10265,7 @@ args
 )
 ;
 }
-JS_ALWAYS_INLINE
+MOZ_ALWAYS_INLINE
 bool
 date_setUTCDate_impl
 (
@@ -10538,7 +10538,7 @@ month
 )
 ;
 }
-JS_ALWAYS_INLINE
+MOZ_ALWAYS_INLINE
 bool
 date_setMonth_impl
 (
@@ -10741,7 +10741,7 @@ args
 )
 ;
 }
-JS_ALWAYS_INLINE
+MOZ_ALWAYS_INLINE
 bool
 date_setUTCMonth_impl
 (
@@ -11011,7 +11011,7 @@ t
 t
 ;
 }
-JS_ALWAYS_INLINE
+MOZ_ALWAYS_INLINE
 bool
 date_setFullYear_impl
 (
@@ -11221,7 +11221,7 @@ args
 )
 ;
 }
-JS_ALWAYS_INLINE
+MOZ_ALWAYS_INLINE
 bool
 date_setUTCFullYear_impl
 (
@@ -11408,7 +11408,7 @@ args
 )
 ;
 }
-JS_ALWAYS_INLINE
+MOZ_ALWAYS_INLINE
 bool
 date_setYear_impl
 (
@@ -11956,7 +11956,7 @@ utctime
 )
 ;
 }
-JS_ALWAYS_INLINE
+MOZ_ALWAYS_INLINE
 bool
 date_toGMTString_impl
 (
@@ -12094,7 +12094,7 @@ args
 )
 ;
 }
-JS_ALWAYS_INLINE
+MOZ_ALWAYS_INLINE
 bool
 date_toISOString_impl
 (
@@ -13589,7 +13589,7 @@ rval
 )
 ;
 }
-JS_ALWAYS_INLINE
+MOZ_ALWAYS_INLINE
 bool
 date_toLocaleString_impl
 (
@@ -13675,7 +13675,7 @@ args
 )
 ;
 }
-JS_ALWAYS_INLINE
+MOZ_ALWAYS_INLINE
 bool
 date_toLocaleDateString_impl
 (
@@ -13796,7 +13796,7 @@ args
 )
 ;
 }
-JS_ALWAYS_INLINE
+MOZ_ALWAYS_INLINE
 bool
 date_toLocaleTimeString_impl
 (
@@ -13888,7 +13888,7 @@ args
 }
 #
 endif
-JS_ALWAYS_INLINE
+MOZ_ALWAYS_INLINE
 bool
 date_toLocaleFormat_impl
 (
@@ -14070,7 +14070,7 @@ args
 )
 ;
 }
-JS_ALWAYS_INLINE
+MOZ_ALWAYS_INLINE
 bool
 date_toTimeString_impl
 (
@@ -14153,7 +14153,7 @@ args
 )
 ;
 }
-JS_ALWAYS_INLINE
+MOZ_ALWAYS_INLINE
 bool
 date_toDateString_impl
 (
@@ -14239,7 +14239,7 @@ args
 #
 if
 JS_HAS_TOSOURCE
-JS_ALWAYS_INLINE
+MOZ_ALWAYS_INLINE
 bool
 date_toSource_impl
 (
@@ -14386,7 +14386,7 @@ args
 }
 #
 endif
-JS_ALWAYS_INLINE
+MOZ_ALWAYS_INLINE
 bool
 date_toString_impl
 (
@@ -14469,7 +14469,7 @@ args
 )
 ;
 }
-JS_ALWAYS_INLINE
+MOZ_ALWAYS_INLINE
 bool
 date_valueOf_impl
 (

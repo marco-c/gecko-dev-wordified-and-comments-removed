@@ -4194,7 +4194,7 @@ setter
 ;
 }
 static
-JS_ALWAYS_INLINE
+MOZ_ALWAYS_INLINE
 bool
 IsFunctionObject
 (
@@ -4230,7 +4230,7 @@ JSFunction
 ;
 }
 static
-JS_ALWAYS_INLINE
+MOZ_ALWAYS_INLINE
 bool
 IsFunctionObject
 (
@@ -4296,7 +4296,7 @@ false
 ;
 }
 static
-JS_ALWAYS_INLINE
+MOZ_ALWAYS_INLINE
 bool
 IsNativeFunction
 (
@@ -4331,7 +4331,7 @@ isNative
 ;
 }
 static
-JS_ALWAYS_INLINE
+MOZ_ALWAYS_INLINE
 bool
 IsNativeFunction
 (
@@ -4368,7 +4368,7 @@ isNative
 ;
 }
 static
-JS_ALWAYS_INLINE
+MOZ_ALWAYS_INLINE
 bool
 IsNativeFunction
 (
@@ -4408,7 +4408,7 @@ native
 ;
 }
 static
-JS_ALWAYS_INLINE
+MOZ_ALWAYS_INLINE
 bool
 ClassMethodIsNative
 (
@@ -4525,7 +4525,7 @@ native
 ;
 }
 static
-JS_ALWAYS_INLINE
+MOZ_ALWAYS_INLINE
 bool
 ToPrimitive
 (
@@ -4715,7 +4715,7 @@ vp
 ;
 }
 static
-JS_ALWAYS_INLINE
+MOZ_ALWAYS_INLINE
 bool
 ToPrimitive
 (
@@ -6123,7 +6123,7 @@ cx
 ;
 }
 static
-JS_ALWAYS_INLINE
+MOZ_ALWAYS_INLINE
 bool
 ValueMightBeSpecial
 (
@@ -6142,7 +6142,7 @@ isObject
 ;
 }
 static
-JS_ALWAYS_INLINE
+MOZ_ALWAYS_INLINE
 bool
 ValueIsSpecial
 (
@@ -6224,7 +6224,7 @@ FinalizeKind
 )
 ;
 static
-JS_ALWAYS_INLINE
+MOZ_ALWAYS_INLINE
 bool
 NewObjectMetadata
 (

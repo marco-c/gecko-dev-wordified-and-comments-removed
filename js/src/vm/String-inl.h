@@ -54,7 +54,7 @@ AllowGC
 allowGC
 >
 static
-JS_ALWAYS_INLINE
+MOZ_ALWAYS_INLINE
 JSInlineString
 *
 NewShortString
@@ -194,7 +194,7 @@ AllowGC
 allowGC
 >
 static
-JS_ALWAYS_INLINE
+MOZ_ALWAYS_INLINE
 JSInlineString
 *
 NewShortString
@@ -318,7 +318,7 @@ AllowGC
 allowGC
 >
 static
-JS_ALWAYS_INLINE
+MOZ_ALWAYS_INLINE
 JSInlineString
 *
 NewShortString
@@ -524,7 +524,7 @@ strp
 {
 }
 }
-JS_ALWAYS_INLINE
+MOZ_ALWAYS_INLINE
 bool
 JSString
 :
@@ -567,7 +567,7 @@ return
 true
 ;
 }
-JS_ALWAYS_INLINE
+MOZ_ALWAYS_INLINE
 void
 JSRope
 :
@@ -657,7 +657,7 @@ js
 AllowGC
 allowGC
 >
-JS_ALWAYS_INLINE
+MOZ_ALWAYS_INLINE
 JSRope
 *
 JSRope
@@ -811,7 +811,7 @@ child
 )
 ;
 }
-JS_ALWAYS_INLINE
+MOZ_ALWAYS_INLINE
 void
 JSDependentString
 :
@@ -900,7 +900,7 @@ base
 )
 ;
 }
-JS_ALWAYS_INLINE
+MOZ_ALWAYS_INLINE
 JSLinearString
 *
 JSDependentString
@@ -1284,7 +1284,7 @@ asPropertyName
 )
 ;
 }
-JS_ALWAYS_INLINE
+MOZ_ALWAYS_INLINE
 void
 JSStableString
 :
@@ -1326,7 +1326,7 @@ js
 AllowGC
 allowGC
 >
-JS_ALWAYS_INLINE
+MOZ_ALWAYS_INLINE
 JSStableString
 *
 JSStableString
@@ -1419,7 +1419,7 @@ js
 AllowGC
 allowGC
 >
-JS_ALWAYS_INLINE
+MOZ_ALWAYS_INLINE
 JSInlineString
 *
 JSInlineString
@@ -1449,7 +1449,7 @@ cx
 )
 ;
 }
-JS_ALWAYS_INLINE
+MOZ_ALWAYS_INLINE
 jschar
 *
 JSInlineString
@@ -1511,7 +1511,7 @@ d
 inlineStorage
 ;
 }
-JS_ALWAYS_INLINE
+MOZ_ALWAYS_INLINE
 void
 JSInlineString
 :
@@ -1565,7 +1565,7 @@ js
 AllowGC
 allowGC
 >
-JS_ALWAYS_INLINE
+MOZ_ALWAYS_INLINE
 JSShortString
 *
 JSShortString
@@ -1591,7 +1591,7 @@ cx
 )
 ;
 }
-JS_ALWAYS_INLINE
+MOZ_ALWAYS_INLINE
 void
 JSExternalString
 :
@@ -1652,7 +1652,7 @@ externalFinalizer
 fin
 ;
 }
-JS_ALWAYS_INLINE
+MOZ_ALWAYS_INLINE
 JSExternalString
 *
 JSExternalString
@@ -1895,7 +1895,7 @@ index
 ]
 ;
 }
-JS_ALWAYS_INLINE
+MOZ_ALWAYS_INLINE
 void
 JSString
 :

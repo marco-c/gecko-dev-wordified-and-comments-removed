@@ -921,7 +921,7 @@ size_t
 dstlenp
 )
 ;
-JS_ALWAYS_INLINE
+MOZ_ALWAYS_INLINE
 void
 ASSERT_OK
 (

@@ -744,7 +744,7 @@ template
 typename
 ParseHandler
 >
-JS_ALWAYS_INLINE
+MOZ_ALWAYS_INLINE
 typename
 ParseHandler
 :

@@ -8418,7 +8418,7 @@ DebugScopeProxy
 singleton
 ;
 }
-JS_ALWAYS_INLINE
+MOZ_ALWAYS_INLINE
 void
 DebugScopes
 :
@@ -8659,7 +8659,7 @@ key
 ;
 #
 endif
-JS_ALWAYS_INLINE
+MOZ_ALWAYS_INLINE
 void
 DebugScopes
 :
@@ -8717,7 +8717,7 @@ key
 #
 endif
 }
-JS_ALWAYS_INLINE
+MOZ_ALWAYS_INLINE
 void
 DebugScopes
 :

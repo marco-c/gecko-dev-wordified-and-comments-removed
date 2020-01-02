@@ -907,7 +907,7 @@ inl
 inlNext
 ;
 }
-JS_ALWAYS_INLINE
+MOZ_ALWAYS_INLINE
 Ptr
 lookup
 (
@@ -982,7 +982,7 @@ nullptr
 )
 ;
 }
-JS_ALWAYS_INLINE
+MOZ_ALWAYS_INLINE
 AddPtr
 lookupForAdd
 (
@@ -1061,7 +1061,7 @@ false
 )
 ;
 }
-JS_ALWAYS_INLINE
+MOZ_ALWAYS_INLINE
 bool
 add
 (
@@ -1196,7 +1196,7 @@ value
 )
 ;
 }
-JS_ALWAYS_INLINE
+MOZ_ALWAYS_INLINE
 bool
 put
 (

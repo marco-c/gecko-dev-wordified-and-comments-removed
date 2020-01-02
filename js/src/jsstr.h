@@ -678,7 +678,7 @@ AllowGC
 allowGC
 >
 static
-JS_ALWAYS_INLINE
+MOZ_ALWAYS_INLINE
 JSString
 *
 ToString
@@ -937,7 +937,7 @@ limit
 )
 ;
 static
-JS_ALWAYS_INLINE
+MOZ_ALWAYS_INLINE
 void
 js_strncpy
 (

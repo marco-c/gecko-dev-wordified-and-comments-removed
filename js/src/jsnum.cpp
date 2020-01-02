@@ -2584,7 +2584,7 @@ return
 true
 ;
 }
-JS_ALWAYS_INLINE
+MOZ_ALWAYS_INLINE
 bool
 IsNumber
 (
@@ -2671,7 +2671,7 @@ unbox
 #
 if
 JS_HAS_TOSOURCE
-JS_ALWAYS_INLINE
+MOZ_ALWAYS_INLINE
 bool
 num_toSource_impl
 (
@@ -2849,7 +2849,7 @@ dbuf
 )
 ;
 }
-JS_ALWAYS_INLINE
+MOZ_ALWAYS_INLINE
 static
 JSFlatString
 *
@@ -2919,7 +2919,7 @@ return
 nullptr
 ;
 }
-JS_ALWAYS_INLINE
+MOZ_ALWAYS_INLINE
 static
 void
 CacheNumber
@@ -2977,7 +2977,7 @@ str
 )
 ;
 }
-JS_ALWAYS_INLINE
+MOZ_ALWAYS_INLINE
 static
 JSFlatString
 *
@@ -3032,7 +3032,7 @@ template
 typename
 T
 >
-JS_ALWAYS_INLINE
+MOZ_ALWAYS_INLINE
 static
 T
 *
@@ -3630,7 +3630,7 @@ int
 base
 )
 ;
-JS_ALWAYS_INLINE
+MOZ_ALWAYS_INLINE
 bool
 num_toString_impl
 (
@@ -3814,7 +3814,7 @@ args
 if
 !
 EXPOSE_INTL_API
-JS_ALWAYS_INLINE
+MOZ_ALWAYS_INLINE
 bool
 num_toLocaleString_impl
 (
@@ -4625,7 +4625,7 @@ args
 }
 #
 endif
-JS_ALWAYS_INLINE
+MOZ_ALWAYS_INLINE
 bool
 num_valueOf_impl
 (
@@ -4904,7 +4904,7 @@ return
 true
 ;
 }
-JS_ALWAYS_INLINE
+MOZ_ALWAYS_INLINE
 bool
 num_toFixed_impl
 (
@@ -5023,7 +5023,7 @@ args
 )
 ;
 }
-JS_ALWAYS_INLINE
+MOZ_ALWAYS_INLINE
 bool
 num_toExponential_impl
 (
@@ -5153,7 +5153,7 @@ args
 )
 ;
 }
-JS_ALWAYS_INLINE
+MOZ_ALWAYS_INLINE
 bool
 num_toPrecision_impl
 (

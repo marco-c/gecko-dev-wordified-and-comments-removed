@@ -1489,7 +1489,7 @@ other
 kind
 ;
 }
-JS_ALWAYS_INLINE
+MOZ_ALWAYS_INLINE
 HeapSlot
 *
 slotLocation
@@ -1497,7 +1497,7 @@ slotLocation
 )
 const
 ;
-JS_ALWAYS_INLINE
+MOZ_ALWAYS_INLINE
 void
 *
 deref
@@ -1505,7 +1505,7 @@ deref
 )
 const
 ;
-JS_ALWAYS_INLINE
+MOZ_ALWAYS_INLINE
 void
 *
 location
@@ -1523,7 +1523,7 @@ nursery
 )
 const
 ;
-JS_ALWAYS_INLINE
+MOZ_ALWAYS_INLINE
 bool
 isNullEdge
 (

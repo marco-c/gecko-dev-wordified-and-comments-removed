@@ -6229,7 +6229,7 @@ true
 ;
 }
 static
-JS_ALWAYS_INLINE
+MOZ_ALWAYS_INLINE
 bool
 AddOperation
 (
@@ -6559,7 +6559,7 @@ true
 ;
 }
 static
-JS_ALWAYS_INLINE
+MOZ_ALWAYS_INLINE
 bool
 SubOperation
 (
@@ -6618,7 +6618,7 @@ true
 ;
 }
 static
-JS_ALWAYS_INLINE
+MOZ_ALWAYS_INLINE
 bool
 MulOperation
 (
@@ -6677,7 +6677,7 @@ true
 ;
 }
 static
-JS_ALWAYS_INLINE
+MOZ_ALWAYS_INLINE
 bool
 DivOperation
 (
@@ -6738,7 +6738,7 @@ true
 ;
 }
 static
-JS_ALWAYS_INLINE
+MOZ_ALWAYS_INLINE
 bool
 ModOperation
 (
@@ -6865,7 +6865,7 @@ true
 ;
 }
 static
-JS_ALWAYS_INLINE
+MOZ_ALWAYS_INLINE
 bool
 SetObjectElementOperation
 (

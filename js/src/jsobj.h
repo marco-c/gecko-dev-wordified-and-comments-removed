@@ -3945,7 +3945,7 @@ FreeOp
 fop
 )
 ;
-JS_ALWAYS_INLINE
+MOZ_ALWAYS_INLINE
 void
 finalize
 (
@@ -6444,7 +6444,7 @@ MOZ_DELETE
 }
 ;
 static
-JS_ALWAYS_INLINE
+MOZ_ALWAYS_INLINE
 bool
 operator
 =
@@ -6470,7 +6470,7 @@ rhs
 ;
 }
 static
-JS_ALWAYS_INLINE
+MOZ_ALWAYS_INLINE
 bool
 operator
 !
@@ -7845,7 +7845,7 @@ bool
 reportScanStack
 )
 ;
-JS_ALWAYS_INLINE
+MOZ_ALWAYS_INLINE
 JSObject
 *
 ToObject
@@ -7882,7 +7882,7 @@ false
 )
 ;
 }
-JS_ALWAYS_INLINE
+MOZ_ALWAYS_INLINE
 JSObject
 *
 ToObjectFromStack

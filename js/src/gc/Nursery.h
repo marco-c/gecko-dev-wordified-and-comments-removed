@@ -254,7 +254,7 @@ template
 typename
 T
 >
-JS_ALWAYS_INLINE
+MOZ_ALWAYS_INLINE
 bool
 isInside
 (
@@ -450,7 +450,7 @@ template
 typename
 T
 >
-JS_ALWAYS_INLINE
+MOZ_ALWAYS_INLINE
 bool
 getForwardedPointer
 (
@@ -725,7 +725,7 @@ index
 ]
 ;
 }
-JS_ALWAYS_INLINE
+MOZ_ALWAYS_INLINE
 uintptr_t
 start
 (
@@ -756,7 +756,7 @@ runtime_
 gcNurseryStart_
 ;
 }
-JS_ALWAYS_INLINE
+MOZ_ALWAYS_INLINE
 uintptr_t
 heapEnd
 (
@@ -787,7 +787,7 @@ runtime_
 gcNurseryEnd_
 ;
 }
-JS_ALWAYS_INLINE
+MOZ_ALWAYS_INLINE
 void
 setCurrentChunk
 (
@@ -847,7 +847,7 @@ end
 )
 ;
 }
-JS_ALWAYS_INLINE
+MOZ_ALWAYS_INLINE
 uintptr_t
 allocationEnd
 (
@@ -874,7 +874,7 @@ end
 )
 ;
 }
-JS_ALWAYS_INLINE
+MOZ_ALWAYS_INLINE
 bool
 isFullyGrown
 (
@@ -888,7 +888,7 @@ numActiveChunks_
 NumNurseryChunks
 ;
 }
-JS_ALWAYS_INLINE
+MOZ_ALWAYS_INLINE
 uintptr_t
 currentEnd
 (
@@ -1022,7 +1022,7 @@ TenureCountCache
 tenureCounts
 )
 ;
-JS_ALWAYS_INLINE
+MOZ_ALWAYS_INLINE
 void
 traceObject
 (
@@ -1037,7 +1037,7 @@ JSObject
 src
 )
 ;
-JS_ALWAYS_INLINE
+MOZ_ALWAYS_INLINE
 void
 markSlots
 (
@@ -1054,7 +1054,7 @@ uint32_t
 nslots
 )
 ;
-JS_ALWAYS_INLINE
+MOZ_ALWAYS_INLINE
 void
 markSlots
 (
@@ -1072,7 +1072,7 @@ HeapSlot
 end
 )
 ;
-JS_ALWAYS_INLINE
+MOZ_ALWAYS_INLINE
 void
 markSlot
 (

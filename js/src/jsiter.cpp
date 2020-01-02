@@ -4274,7 +4274,7 @@ return
 true
 ;
 }
-JS_ALWAYS_INLINE
+MOZ_ALWAYS_INLINE
 bool
 IsIterator
 (
@@ -4306,7 +4306,7 @@ class_
 )
 ;
 }
-JS_ALWAYS_INLINE
+MOZ_ALWAYS_INLINE
 bool
 iterator_next_impl
 (
@@ -8441,7 +8441,7 @@ return
 ok
 ;
 }
-JS_ALWAYS_INLINE
+MOZ_ALWAYS_INLINE
 bool
 star_generator_next
 (
@@ -8578,7 +8578,7 @@ rval
 )
 ;
 }
-JS_ALWAYS_INLINE
+MOZ_ALWAYS_INLINE
 bool
 star_generator_throw
 (
@@ -8668,7 +8668,7 @@ rval
 )
 ;
 }
-JS_ALWAYS_INLINE
+MOZ_ALWAYS_INLINE
 bool
 legacy_generator_next
 (
@@ -8798,7 +8798,7 @@ rval
 )
 ;
 }
-JS_ALWAYS_INLINE
+MOZ_ALWAYS_INLINE
 bool
 legacy_generator_throw
 (
@@ -9039,7 +9039,7 @@ rval
 )
 ;
 }
-JS_ALWAYS_INLINE
+MOZ_ALWAYS_INLINE
 bool
 legacy_generator_close
 (
@@ -9084,7 +9084,7 @@ template
 typename
 T
 >
-JS_ALWAYS_INLINE
+MOZ_ALWAYS_INLINE
 bool
 IsObjectOfType
 (

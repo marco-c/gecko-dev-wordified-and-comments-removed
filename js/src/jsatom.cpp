@@ -1350,7 +1350,7 @@ isTagged
 )
 ;
 }
-JS_ALWAYS_INLINE
+MOZ_ALWAYS_INLINE
 static
 JSAtom
 *
@@ -1586,7 +1586,7 @@ return
 atom
 ;
 }
-JS_ALWAYS_INLINE
+MOZ_ALWAYS_INLINE
 static
 JSAtom
 *

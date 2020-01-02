@@ -85,7 +85,7 @@ const
 FunctionClassPtr
 ;
 static
-JS_ALWAYS_INLINE
+MOZ_ALWAYS_INLINE
 jsid
 SPECIALID_TO_JSID
 (
@@ -102,7 +102,7 @@ uintptr_t
 bits_
 ;
 friend
-JS_ALWAYS_INLINE
+MOZ_ALWAYS_INLINE
 jsid
 SPECIALID_TO_JSID
 (
@@ -335,7 +335,7 @@ TYPE_VOID
 }
 ;
 static
-JS_ALWAYS_INLINE
+MOZ_ALWAYS_INLINE
 jsid
 SPECIALID_TO_JSID
 (
@@ -414,7 +414,7 @@ id
 ;
 }
 static
-JS_ALWAYS_INLINE
+MOZ_ALWAYS_INLINE
 bool
 JSID_IS_SPECIAL
 (
@@ -442,7 +442,7 @@ id
 ;
 }
 static
-JS_ALWAYS_INLINE
+MOZ_ALWAYS_INLINE
 SpecialId
 JSID_TO_SPECIALID
 (
@@ -2761,7 +2761,7 @@ Class
 )
 ;
 static
-JS_ALWAYS_INLINE
+MOZ_ALWAYS_INLINE
 const
 JSClass
 *
@@ -2783,7 +2783,7 @@ c
 ;
 }
 static
-JS_ALWAYS_INLINE
+MOZ_ALWAYS_INLINE
 const
 Class
 *

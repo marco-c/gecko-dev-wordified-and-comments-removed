@@ -1761,7 +1761,7 @@ parent
 ;
 }
 static
-JS_ALWAYS_INLINE
+MOZ_ALWAYS_INLINE
 JSCompartment
 *
 GetObjectCompartment
@@ -5955,7 +5955,7 @@ wrapperName
 _ParallelNativeThreadSafeWrapper
 )
 static
-JS_ALWAYS_INLINE
+MOZ_ALWAYS_INLINE
 const
 JSJitInfo
 *
@@ -6025,7 +6025,7 @@ JS_FUNCTION_INTERPRETED_BIT
 0x1
 ;
 static
-JS_ALWAYS_INLINE
+MOZ_ALWAYS_INLINE
 void
 SET_JITINFO
 (
@@ -6085,7 +6085,7 @@ info
 ;
 }
 static
-JS_ALWAYS_INLINE
+MOZ_ALWAYS_INLINE
 jsid
 JSID_FROM_BITS
 (
@@ -6126,7 +6126,7 @@ atom
 }
 }
 static
-JS_ALWAYS_INLINE
+MOZ_ALWAYS_INLINE
 jsid
 NON_INTEGER_ATOM_TO_JSID
 (
@@ -6181,7 +6181,7 @@ id
 ;
 }
 static
-JS_ALWAYS_INLINE
+MOZ_ALWAYS_INLINE
 bool
 JSID_IS_ATOM
 (
@@ -6197,7 +6197,7 @@ id
 ;
 }
 static
-JS_ALWAYS_INLINE
+MOZ_ALWAYS_INLINE
 bool
 JSID_IS_ATOM
 (
@@ -6222,7 +6222,7 @@ atom
 ;
 }
 static
-JS_ALWAYS_INLINE
+MOZ_ALWAYS_INLINE
 JSAtom
 *
 JSID_TO_ATOM
@@ -6261,7 +6261,7 @@ namespace
 js
 {
 static
-JS_ALWAYS_INLINE
+MOZ_ALWAYS_INLINE
 JS
 :
 :

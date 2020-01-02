@@ -3324,7 +3324,7 @@ bufsize
 )
 ;
 static
-JS_ALWAYS_INLINE
+MOZ_ALWAYS_INLINE
 jsval
 JS_NumberValue
 (
@@ -3399,7 +3399,7 @@ str
 )
 ;
 static
-JS_ALWAYS_INLINE
+MOZ_ALWAYS_INLINE
 bool
 JSVAL_IS_UNIVERSAL
 (
@@ -4035,7 +4035,7 @@ v
 namespace
 JS
 {
-JS_ALWAYS_INLINE
+MOZ_ALWAYS_INLINE
 bool
 ToNumber
 (
@@ -4110,7 +4110,7 @@ out
 )
 ;
 }
-JS_ALWAYS_INLINE
+MOZ_ALWAYS_INLINE
 bool
 ToBoolean
 (
@@ -4207,7 +4207,7 @@ v
 )
 ;
 }
-JS_ALWAYS_INLINE
+MOZ_ALWAYS_INLINE
 JSString
 *
 ToString
@@ -4389,7 +4389,7 @@ out
 namespace
 JS
 {
-JS_ALWAYS_INLINE
+MOZ_ALWAYS_INLINE
 bool
 ToUint16
 (
@@ -4457,7 +4457,7 @@ out
 )
 ;
 }
-JS_ALWAYS_INLINE
+MOZ_ALWAYS_INLINE
 bool
 ToInt32
 (
@@ -4522,7 +4522,7 @@ out
 )
 ;
 }
-JS_ALWAYS_INLINE
+MOZ_ALWAYS_INLINE
 bool
 ToUint32
 (
@@ -4590,7 +4590,7 @@ out
 )
 ;
 }
-JS_ALWAYS_INLINE
+MOZ_ALWAYS_INLINE
 bool
 ToInt64
 (
@@ -4658,7 +4658,7 @@ out
 )
 ;
 }
-JS_ALWAYS_INLINE
+MOZ_ALWAYS_INLINE
 bool
 ToUint64
 (
@@ -7374,7 +7374,7 @@ data
 )
 ;
 static
-JS_ALWAYS_INLINE
+MOZ_ALWAYS_INLINE
 bool
 JSVAL_IS_TRACEABLE
 (
@@ -7393,7 +7393,7 @@ v
 ;
 }
 static
-JS_ALWAYS_INLINE
+MOZ_ALWAYS_INLINE
 void
 *
 JSVAL_TO_TRACEABLE
@@ -7410,7 +7410,7 @@ v
 ;
 }
 static
-JS_ALWAYS_INLINE
+MOZ_ALWAYS_INLINE
 JSGCTraceKind
 JSVAL_TRACE_KIND
 (
@@ -16211,7 +16211,7 @@ str
 )
 ;
 static
-JS_ALWAYS_INLINE
+MOZ_ALWAYS_INLINE
 JSFlatString
 *
 JSID_TO_FLAT_STRING
@@ -16242,7 +16242,7 @@ id
 ;
 }
 static
-JS_ALWAYS_INLINE
+MOZ_ALWAYS_INLINE
 JSFlatString
 *
 JS_ASSERT_STRING_IS_FLAT
@@ -16273,7 +16273,7 @@ str
 ;
 }
 static
-JS_ALWAYS_INLINE
+MOZ_ALWAYS_INLINE
 JSString
 *
 JS_FORGET_STRING_FLATNESS

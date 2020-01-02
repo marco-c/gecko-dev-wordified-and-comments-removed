@@ -594,7 +594,7 @@ maxPtr
 )
 ;
 }
-JS_ALWAYS_INLINE
+MOZ_ALWAYS_INLINE
 void
 TokenStream
 :
@@ -695,7 +695,7 @@ lineStartOffset
 ;
 }
 }
-JS_ALWAYS_INLINE
+MOZ_ALWAYS_INLINE
 void
 TokenStream
 :
@@ -821,7 +821,7 @@ i
 )
 ;
 }
-JS_ALWAYS_INLINE
+MOZ_ALWAYS_INLINE
 uint32_t
 TokenStream
 :
@@ -1628,7 +1628,7 @@ fast_getc
 getc
 #
 endif
-JS_ALWAYS_INLINE
+MOZ_ALWAYS_INLINE
 void
 TokenStream
 :
@@ -1668,7 +1668,7 @@ base
 )
 ;
 }
-JS_ALWAYS_INLINE
+MOZ_ALWAYS_INLINE
 void
 TokenStream
 :
@@ -3974,7 +3974,7 @@ sourceMapURL_
 )
 ;
 }
-JS_ALWAYS_INLINE
+MOZ_ALWAYS_INLINE
 Token
 *
 TokenStream
@@ -4051,7 +4051,7 @@ return
 tp
 ;
 }
-JS_ALWAYS_INLINE
+MOZ_ALWAYS_INLINE
 JSAtom
 *
 TokenStream
