@@ -59,17 +59,6 @@ gecko
 .
 gfx
 .
-GeckoLayerClient
-;
-import
-org
-.
-mozilla
-.
-gecko
-.
-gfx
-.
 LayerView
 ;
 import

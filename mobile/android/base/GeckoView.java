@@ -1234,7 +1234,7 @@ GeckoAppShell
 .
 setLayerClient
 (
-getLayerClient
+getLayerClientObject
 (
 )
 )

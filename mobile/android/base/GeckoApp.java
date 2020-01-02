@@ -9562,7 +9562,7 @@ setLayerClient
 (
 mLayerView
 .
-getLayerClient
+getLayerClientObject
 (
 )
 )
