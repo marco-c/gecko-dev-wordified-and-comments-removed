@@ -137,6 +137,14 @@ mInfo
 }
 private
 :
+~
+DOMMMIError
+(
+)
+{
+}
+private
+:
 nsString
 mServiceCode
 ;

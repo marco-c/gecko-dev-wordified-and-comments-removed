@@ -72,11 +72,6 @@ nsPIDOMWindow
 aWindow
 )
 ;
-~
-IccManager
-(
-)
-;
 void
 Shutdown
 (
@@ -153,6 +148,13 @@ JSContext
 aCx
 )
 MOZ_OVERRIDE
+;
+private
+:
+~
+IccManager
+(
+)
 ;
 private
 :
