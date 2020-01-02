@@ -4401,13 +4401,6 @@ transientAsyncUntransform
 aApzc
 -
 >
-GetTransformToLastDispatchedPaint
-(
-)
-*
-aApzc
--
->
 GetCSSTransform
 (
 )
@@ -4500,13 +4493,6 @@ aTransformToApzcOut
 aTransformToGeckoOut
 =
 aTransformToGeckoOut
-*
-parent
--
->
-GetTransformToLastDispatchedPaint
-(
-)
 *
 parent
 -
