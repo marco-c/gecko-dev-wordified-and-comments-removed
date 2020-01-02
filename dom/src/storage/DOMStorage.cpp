@@ -1012,6 +1012,8 @@ false
 uint32_t
 perm
 ;
+rv
+=
 permissionManager
 -
 >
@@ -1021,6 +1023,12 @@ subjectPrincipal
 kPermissionType
 &
 perm
+)
+;
+NS_ENSURE_SUCCESS
+(
+rv
+false
 )
 ;
 if
