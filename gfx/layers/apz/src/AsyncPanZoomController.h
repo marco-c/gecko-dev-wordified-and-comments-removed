@@ -834,6 +834,16 @@ CancelAnimationForHandoffChain
 (
 )
 ;
+bool
+ArePointerEventsConsumable
+(
+TouchBlockState
+*
+aBlock
+uint32_t
+aTouchPoints
+)
+;
 void
 SetState
 (

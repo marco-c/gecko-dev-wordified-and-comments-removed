@@ -792,7 +792,7 @@ IsEmpty
 )
 {
 return
-false
+true
 ;
 }
 TouchBehaviorFlags
@@ -848,7 +848,7 @@ IsEmpty
 )
 {
 return
-false
+true
 ;
 }
 TouchBehaviorFlags
@@ -904,7 +904,7 @@ IsEmpty
 )
 {
 return
-false
+true
 ;
 }
 TouchBehaviorFlags
