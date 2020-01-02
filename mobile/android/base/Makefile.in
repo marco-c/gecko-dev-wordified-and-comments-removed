@@ -2162,7 +2162,14 @@ r
 -
 x
 (
+subst
+*
+\
+\
+*
+(
 not_android_res_files
+)
 )
 endef
 #
