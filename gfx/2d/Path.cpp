@@ -1255,7 +1255,7 @@ aT
 -
 CubicRoot
 (
-double
+abs
 (
 aTolerance
 /
@@ -1278,6 +1278,8 @@ aT
 +
 CubicRoot
 (
+abs
+(
 aTolerance
 /
 (
@@ -1288,6 +1290,7 @@ x
 cp41
 .
 y
+)
 )
 )
 ;
