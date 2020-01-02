@@ -2445,6 +2445,11 @@ XPathEvaluator
 webidl
 '
 '
+XPathResult
+.
+webidl
+'
+'
 XULCommandEvent
 .
 webidl

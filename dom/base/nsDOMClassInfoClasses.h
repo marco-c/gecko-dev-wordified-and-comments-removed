@@ -112,10 +112,6 @@ XPathNSResolver
 )
 DOMCI_CLASS
 (
-XPathResult
-)
-DOMCI_CLASS
-(
 Storage
 )
 DOMCI_CLASS
