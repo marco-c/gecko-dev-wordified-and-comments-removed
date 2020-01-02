@@ -202,6 +202,13 @@ h
 #
 include
 "
+nsITabParent
+.
+h
+"
+#
+include
+"
 nsCRT
 .
 h
@@ -2191,6 +2198,12 @@ mScrollObservers
 ;
 nsCString
 mOriginalUriString
+;
+nsWeakPtr
+mOpener
+;
+nsWeakPtr
+mOpenedRemote
 ;
 nsresult
 DoFindItemWithName

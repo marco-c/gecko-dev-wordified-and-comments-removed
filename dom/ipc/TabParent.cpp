@@ -972,6 +972,7 @@ TabParent
 nsITabParent
 nsIAuthPromptProvider
 nsISecureBrowserUI
+nsISupportsWeakReference
 )
 TabParent
 :

@@ -91,6 +91,13 @@ h
 #
 include
 "
+nsWeakReference
+.
+h
+"
+#
+include
+"
 Units
 .
 h
@@ -171,6 +178,8 @@ public
 nsIAuthPromptProvider
 public
 nsISecureBrowserUI
+public
+nsSupportsWeakReference
 public
 TabContext
 {
