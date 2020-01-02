@@ -268,7 +268,7 @@ PopupNotifications
 getNotification
 (
 "
-mixed
+bad
 -
 content
 -
