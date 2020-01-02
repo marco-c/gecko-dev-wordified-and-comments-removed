@@ -1920,12 +1920,9 @@ return
 false
 ;
 }
-else
-{
 return
 true
 ;
-}
 }
 static
 const
