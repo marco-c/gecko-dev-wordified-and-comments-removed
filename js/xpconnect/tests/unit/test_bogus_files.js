@@ -156,7 +156,7 @@ jsm
 "
 true
 "
-NS_ERROR_FILE_NOT_FOUND
+NS_ERROR_NOT_AVAILABLE
 "
 )
 ;

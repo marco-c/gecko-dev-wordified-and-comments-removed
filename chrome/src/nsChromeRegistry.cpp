@@ -1361,7 +1361,7 @@ get
 )
 ;
 return
-NS_ERROR_FILE_NOT_FOUND
+NS_ERROR_FAILURE
 ;
 }
 return

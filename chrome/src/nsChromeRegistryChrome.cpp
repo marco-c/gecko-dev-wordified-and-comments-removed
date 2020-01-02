@@ -1265,7 +1265,7 @@ entry
 )
 )
 return
-NS_ERROR_FILE_NOT_FOUND
+NS_ERROR_FAILURE
 ;
 aLocale
 =
@@ -2658,7 +2658,7 @@ entry
 )
 )
 return
-NS_ERROR_FILE_NOT_FOUND
+NS_ERROR_NOT_AVAILABLE
 ;
 *
 aFlags
