@@ -5244,13 +5244,10 @@ Set
 {
 return
 [
-i
-for
-(
-i
-of
+.
+.
+.
 aValue
-)
 ]
 ;
 }
