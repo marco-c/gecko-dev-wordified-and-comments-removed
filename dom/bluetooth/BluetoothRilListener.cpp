@@ -509,8 +509,6 @@ nsAString
 &
 aNumber
 bool
-aIsActive
-bool
 aIsOutgoing
 bool
 aIsEmergency
@@ -575,8 +573,6 @@ const
 nsAString_internal
 &
 aNumber
-bool
-aIsActive
 bool
 aIsOutgoing
 bool
