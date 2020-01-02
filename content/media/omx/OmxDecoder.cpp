@@ -4829,9 +4829,7 @@ const
 int64_t
 sReadSize
 =
-8
-*
-1024
+32
 *
 1024
 ;
