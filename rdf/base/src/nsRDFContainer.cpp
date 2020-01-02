@@ -89,15 +89,6 @@ kRDFContainerUtilsCID
 NS_RDFCONTAINERUTILS_CID
 )
 ;
-static
-const
-char
-kRDFNameSpaceURI
-[
-]
-=
-RDF_NAMESPACE_URI
-;
 #
 define
 RDF_SEQ_LIST_LIMIT
@@ -2577,7 +2568,7 @@ buf
 [
 sizeof
 (
-kRDFNameSpaceURI
+RDF_NAMESPACE_URI
 )
 +
 16
@@ -2596,7 +2587,7 @@ buf
 ;
 nextValStr
 =
-kRDFNameSpaceURI
+RDF_NAMESPACE_URI
 ;
 nextValStr
 .

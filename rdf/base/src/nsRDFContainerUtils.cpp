@@ -83,13 +83,6 @@ rdfutil
 h
 "
 static
-NS_DEFINE_CID
-(
-kRDFServiceCID
-NS_RDFSERVICE_CID
-)
-;
-static
 const
 char
 kRDFNameSpaceURI
@@ -1376,7 +1369,7 @@ rv
 =
 CallGetService
 (
-kRDFServiceCID
+NS_RDFSERVICE_CID
 &
 gRDFService
 )

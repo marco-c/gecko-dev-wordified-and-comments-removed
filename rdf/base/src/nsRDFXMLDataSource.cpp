@@ -285,13 +285,6 @@ kRDFInMemoryDataSourceCID
 NS_RDFINMEMORYDATASOURCE_CID
 )
 ;
-static
-NS_DEFINE_CID
-(
-kRDFServiceCID
-NS_RDFSERVICE_CID
-)
-;
 #
 ifdef
 PR_LOGGING
@@ -1373,7 +1366,7 @@ rv
 =
 CallGetService
 (
-kRDFServiceCID
+NS_RDFSERVICE_CID
 &
 gRDFService
 )
