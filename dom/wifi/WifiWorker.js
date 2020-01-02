@@ -10331,12 +10331,12 @@ if
 (
 net
 .
-eap
+phase2
 =
 =
 =
 "
-PEAP
+TLS
 "
 )
 {
@@ -10347,7 +10347,7 @@ phase2
 quote
 (
 "
-auth
+autheap
 =
 "
 +
@@ -10366,7 +10366,7 @@ phase2
 quote
 (
 "
-autheap
+auth
 =
 "
 +
