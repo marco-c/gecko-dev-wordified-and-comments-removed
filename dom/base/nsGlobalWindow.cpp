@@ -24357,11 +24357,6 @@ return
 NS_OK
 ;
 }
-nsresult
-rv
-=
-NS_OK
-;
 nsCOMPtr
 <
 nsIDocShellTreeOwner
@@ -24389,8 +24384,6 @@ if
 siteWindow
 )
 {
-rv
-=
 siteWindow
 -
 >
@@ -24471,7 +24464,7 @@ this
 }
 }
 return
-rv
+NS_OK
 ;
 }
 NS_IMETHODIMP

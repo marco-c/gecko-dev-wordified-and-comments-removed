@@ -4185,7 +4185,7 @@ SetFocus
 (
 )
 {
-NS_NOTREACHED
+NS_WARNING
 (
 "
 TabChild
@@ -4321,7 +4321,7 @@ Blur
 (
 )
 {
-NS_NOTREACHED
+NS_WARNING
 (
 "
 TabChild
