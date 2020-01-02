@@ -7397,6 +7397,10 @@ mediaDevices
 =
 None
   
+structured_logger
+=
+None
+  
 test_name
 =
 '
@@ -7412,17 +7416,17 @@ self
 )
 :
     
-super
-(
-Mochitest
+if
 self
-)
 .
-__init__
-(
-)
-    
-structured_log
+structured_logger
+is
+None
+:
+        
+self
+.
+structured_logger
 =
 StructuredLogger
 (
@@ -7430,7 +7434,7 @@ StructuredLogger
 mochitest
 '
 )
-    
+        
 stream_handler
 =
 StreamHandler
@@ -7446,12 +7450,32 @@ MochitestFormatter
 (
 )
 )
-    
-structured_log
+        
+self
+.
+structured_logger
 .
 add_handler
 (
 stream_handler
+)
+        
+Mochitest
+.
+structured_logger
+=
+self
+.
+structured_logger
+    
+super
+(
+Mochitest
+self
+)
+.
+__init__
+(
 )
     
 self
@@ -7462,7 +7486,9 @@ MessageLogger
 (
 logger
 =
-structured_log
+self
+.
+structured_logger
 )
     
 self
