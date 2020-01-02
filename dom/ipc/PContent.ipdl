@@ -1536,6 +1536,8 @@ bool
 isSharing
 bool
 isFormatting
+bool
+isFake
 )
 ;
 /

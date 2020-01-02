@@ -1143,6 +1143,7 @@ STATE_MOUNTED
 true
 false
 false
+true
 )
 ;
 vol
@@ -1820,13 +1821,6 @@ STATE_INIT
 true
 false
 false
-)
-;
-vol
--
->
-SetIsFake
-(
 true
 )
 ;

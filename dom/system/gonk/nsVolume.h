@@ -92,6 +92,10 @@ const
 bool
 &
 aIsFormatting
+const
+bool
+&
+aIsFake
 )
 :
 mName
@@ -116,7 +120,7 @@ false
 )
 mIsFake
 (
-false
+aIsFake
 )
 mIsMediaPresent
 (
@@ -344,6 +348,7 @@ Array
 ;
 private
 :
+virtual
 ~
 nsVolume
 (

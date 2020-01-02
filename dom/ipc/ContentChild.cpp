@@ -7098,6 +7098,10 @@ const
 bool
 &
 aIsFormatting
+const
+bool
+&
+aIsFake
 )
 {
 #
@@ -7119,6 +7123,7 @@ aMountGeneration
 aIsMediaPresent
 aIsSharing
 aIsFormatting
+aIsFake
 )
 ;
 nsRefPtr
@@ -7184,6 +7189,11 @@ unused
 <
 <
 aIsFormatting
+;
+unused
+<
+<
+aIsFake
 ;
 #
 endif

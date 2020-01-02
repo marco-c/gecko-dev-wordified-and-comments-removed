@@ -9948,6 +9948,9 @@ isSharing
 bool
 isFormatting
 ;
+bool
+isFake
+;
 vol
 -
 >
@@ -10009,6 +10012,15 @@ GetIsFormatting
 isFormatting
 )
 ;
+vol
+-
+>
+GetIsFake
+(
+&
+isFake
+)
+;
 unused
 <
 <
@@ -10021,6 +10033,7 @@ mountGeneration
 isMediaPresent
 isSharing
 isFormatting
+isFake
 )
 ;
 }
