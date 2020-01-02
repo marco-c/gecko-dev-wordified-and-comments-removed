@@ -1668,9 +1668,11 @@ mFromValue
 collection
 -
 >
-mStyleRule
+mStyleRuleRefreshTime
 =
-nullptr
+TimeStamp
+(
+)
 ;
 return
 coverRule
