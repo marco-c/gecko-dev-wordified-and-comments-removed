@@ -172,10 +172,6 @@ friend
 class
 nsThreadShutdownEvent
 ;
-friend
-class
-nsThreadManager
-;
 virtual
 ~
 nsThread
