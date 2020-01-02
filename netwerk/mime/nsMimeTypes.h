@@ -610,6 +610,14 @@ amr
 "
 #
 define
+AUDIO_3GPP
+"
+audio
+/
+3gpp
+"
+#
+define
 AUDIO_MIDI
 "
 audio
