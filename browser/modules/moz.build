@@ -111,6 +111,11 @@ BrowserNewTabPreloader
 jsm
 '
 '
+CharsetMenu
+.
+jsm
+'
+'
 ContentClick
 .
 jsm
