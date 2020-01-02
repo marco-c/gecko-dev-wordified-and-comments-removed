@@ -495,7 +495,7 @@ Logger
 info
 (
 '
-Enabled
+enable
 '
 )
 ;
@@ -898,7 +898,7 @@ Logger
 info
 (
 '
-Disabled
+disable
 '
 )
 ;
@@ -3044,7 +3044,7 @@ win
 ;
 Logger
 .
-debug
+info
 (
 '
 tts
@@ -4287,7 +4287,7 @@ length
 ;
 Logger
 .
-debug
+info
 (
 '
 Gesture
