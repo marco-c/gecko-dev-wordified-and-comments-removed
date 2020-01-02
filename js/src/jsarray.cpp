@@ -14385,6 +14385,17 @@ ArrayFindIndex
 JS_SELF_HOSTED_FN
 (
 "
+copyWithin
+"
+"
+ArrayCopyWithin
+"
+3
+0
+)
+JS_SELF_HOSTED_FN
+(
+"
 fill
 "
 "
