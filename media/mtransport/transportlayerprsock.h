@@ -190,13 +190,6 @@ mPollFlags
 PR_POLL_READ
 ;
 }
-virtual
-~
-SocketHandler
-(
-)
-{
-}
 void
 Detach
 (
@@ -320,6 +313,13 @@ DISALLOW_COPY_ASSIGN
 SocketHandler
 )
 ;
+virtual
+~
+SocketHandler
+(
+)
+{
+}
 }
 ;
 friend

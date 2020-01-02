@@ -367,6 +367,10 @@ pending_requests_
 )
 {
 }
+NS_DECL_ISUPPORTS
+NS_DECL_NSIUDPSOCKETFILTER
+private
+:
 virtual
 ~
 STUNUDPSocketFilter
@@ -374,10 +378,6 @@ STUNUDPSocketFilter
 )
 {
 }
-NS_DECL_ISUPPORTS
-NS_DECL_NSIUDPSOCKETFILTER
-private
-:
 bool
 filter_incoming_packet
 (

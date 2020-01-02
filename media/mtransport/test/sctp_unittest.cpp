@@ -176,6 +176,10 @@ to_send
 )
 {
 }
+NS_DECL_THREADSAFE_ISUPPORTS
+NS_DECL_NSITIMERCALLBACK
+protected
+:
 virtual
 ~
 SendPeriodic
@@ -183,10 +187,6 @@ SendPeriodic
 )
 {
 }
-NS_DECL_THREADSAFE_ISUPPORTS
-NS_DECL_NSITIMERCALLBACK
-protected
-:
 TransportTestPeer
 *
 peer_
