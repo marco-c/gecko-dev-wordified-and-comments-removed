@@ -6278,6 +6278,15 @@ audio
 mFrames
 )
 ;
+aChannels
+=
+mAudioStream
+-
+>
+GetOutChannels
+(
+)
+;
 StartAudioStreamPlaybackIfNeeded
 (
 mAudioStream

@@ -709,6 +709,15 @@ return
 mChannels
 ;
 }
+int
+GetOutChannels
+(
+)
+{
+return
+mOutChannels
+;
+}
 nsresult
 EnsureTimeStretcherInitialized
 (
@@ -933,6 +942,9 @@ mOutRate
 ;
 int
 mChannels
+;
+int
+mOutChannels
 ;
 int64_t
 mWritten
