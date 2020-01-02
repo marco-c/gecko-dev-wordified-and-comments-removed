@@ -603,7 +603,7 @@ aTimeStamp
 {
 Logger
 .
-debug
+gesture
 (
 (
 )
@@ -999,7 +999,7 @@ now
 ;
 Logger
 .
-debug
+gesture
 (
 '
 Creating
@@ -1552,7 +1552,7 @@ return
 }
 Logger
 .
-debug
+gesture
 (
 '
 Resolving
@@ -1629,7 +1629,7 @@ return
 }
 Logger
 .
-debug
+gesture
 (
 '
 Rejecting
