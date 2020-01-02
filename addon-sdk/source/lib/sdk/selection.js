@@ -1109,6 +1109,8 @@ element
 return
 null
 ;
+try
+{
 let
 {
 value
@@ -1158,6 +1160,16 @@ element
 :
 null
 ;
+}
+catch
+(
+err
+)
+{
+return
+null
+;
+}
 }
 function
 addSelectionListener
