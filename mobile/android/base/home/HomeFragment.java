@@ -253,7 +253,7 @@ LOGTAG
 GeckoHomeFragment
 "
 ;
-private
+protected
 static
 final
 String
@@ -655,6 +655,9 @@ null
 "
 )
 ;
+return
+false
+;
 }
 else
 {
@@ -679,6 +682,9 @@ getDisplayTitle
 (
 )
 )
+;
+return
+true
 ;
 }
 }
