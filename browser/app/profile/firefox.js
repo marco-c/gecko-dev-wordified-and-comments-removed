@@ -10303,7 +10303,7 @@ devtools
 theme
 "
 "
-light
+dark
 "
 )
 ;
