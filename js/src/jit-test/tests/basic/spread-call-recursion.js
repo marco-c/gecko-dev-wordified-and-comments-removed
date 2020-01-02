@@ -1,3 +1,18 @@
+if
+(
+!
+getBuildConfiguration
+(
+)
+[
+'
+generational
+-
+gc
+'
+]
+)
+{
 let
 a
 =
@@ -107,3 +122,4 @@ check
 h
 )
 ;
+}
