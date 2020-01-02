@@ -144,8 +144,8 @@ to
 MoveOp
 :
 :
-Kind
-kind
+Type
+type
 )
 ;
 void
@@ -162,8 +162,8 @@ to
 MoveOp
 :
 :
-Kind
-kind
+Type
+type
 )
 ;
 void

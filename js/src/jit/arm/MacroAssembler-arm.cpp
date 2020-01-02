@@ -17350,8 +17350,8 @@ from
 MoveOp
 :
 :
-Kind
-kind
+Type
+type
 )
 {
 MoveOperand
@@ -17370,7 +17370,7 @@ return
 ;
 switch
 (
-kind
+type
 )
 {
 case
@@ -17546,7 +17546,7 @@ MOZ_ASSUME_UNREACHABLE
 "
 Unexpected
 argument
-kind
+type
 "
 )
 ;
@@ -17559,7 +17559,7 @@ addMove
 (
 from
 to
-kind
+type
 )
 ;
 }
@@ -17578,8 +17578,8 @@ from
 MoveOp
 :
 :
-Kind
-kind
+Type
+type
 )
 {
 MoveOperand
@@ -17601,7 +17601,7 @@ passedArgs_
 ;
 switch
 (
-kind
+type
 )
 {
 case
@@ -17648,7 +17648,7 @@ MOZ_ASSUME_UNREACHABLE
 "
 Unexpected
 argument
-kind
+type
 "
 )
 ;
@@ -17672,7 +17672,7 @@ destReg
 {
 if
 (
-kind
+type
 =
 =
 MoveOp
@@ -17681,7 +17681,7 @@ MoveOp
 DOUBLE
 |
 |
-kind
+type
 =
 =
 MoveOp
@@ -17793,7 +17793,7 @@ addMove
 (
 from
 dest
-kind
+type
 )
 ;
 usedSlots_
@@ -17842,8 +17842,8 @@ freg
 MoveOp
 :
 :
-Kind
-kind
+Type
+type
 )
 {
 passABIArg
@@ -17852,7 +17852,7 @@ MoveOperand
 (
 freg
 )
-kind
+type
 )
 ;
 }
@@ -18198,7 +18198,7 @@ stackAdjust
 MoveOp
 :
 :
-Kind
+Type
 result
 )
 {
@@ -18338,7 +18338,7 @@ fun
 MoveOp
 :
 :
-Kind
+Type
 result
 )
 {
@@ -18377,7 +18377,7 @@ imm
 MoveOp
 :
 :
-Kind
+Type
 result
 )
 {
@@ -18415,7 +18415,7 @@ fun
 MoveOp
 :
 :
-Kind
+Type
 result
 )
 {

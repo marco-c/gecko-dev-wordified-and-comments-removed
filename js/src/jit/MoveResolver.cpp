@@ -61,8 +61,8 @@ to
 MoveOp
 :
 :
-Kind
-kind
+Type
+type
 )
 {
 JS_ASSERT
@@ -102,7 +102,7 @@ PendingMove
 (
 from
 to
-kind
+type
 )
 ;
 pending_

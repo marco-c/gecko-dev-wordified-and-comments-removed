@@ -527,7 +527,7 @@ completeCycle
 to
 move
 .
-kind
+type
 (
 )
 )
@@ -585,7 +585,7 @@ breakCycle
 to
 move
 .
-kind
+type
 (
 )
 )
@@ -599,7 +599,7 @@ switch
 (
 move
 .
-kind
+type
 (
 )
 )
@@ -645,7 +645,7 @@ MOZ_ASSUME_UNREACHABLE
 "
 Unexpected
 move
-kind
+type
 "
 )
 ;
@@ -995,13 +995,13 @@ to
 MoveOp
 :
 :
-Kind
-kind
+Type
+type
 )
 {
 switch
 (
-kind
+type
 )
 {
 case
@@ -1091,7 +1091,7 @@ MOZ_ASSUME_UNREACHABLE
 "
 Unexpected
 move
-kind
+type
 "
 )
 ;
@@ -1110,13 +1110,13 @@ to
 MoveOp
 :
 :
-Kind
-kind
+Type
+type
 )
 {
 switch
 (
-kind
+type
 )
 {
 case
@@ -1230,7 +1230,7 @@ MOZ_ASSUME_UNREACHABLE
 "
 Unexpected
 move
-kind
+type
 "
 )
 ;

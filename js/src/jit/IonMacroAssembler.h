@@ -4507,7 +4507,7 @@ fun
 MoveOp
 :
 :
-Kind
+Type
 result
 =
 MoveOp
@@ -4541,7 +4541,7 @@ fun
 MoveOp
 :
 :
-Kind
+Type
 result
 =
 MoveOp
