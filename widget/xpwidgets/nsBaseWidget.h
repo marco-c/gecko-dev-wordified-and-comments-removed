@@ -764,6 +764,15 @@ aRect
 )
 ;
 NS_IMETHOD
+GetRestoredBounds
+(
+nsIntRect
+&
+aRect
+)
+MOZ_OVERRIDE
+;
+NS_IMETHOD
 GetNonClientMargins
 (
 nsIntMargin
