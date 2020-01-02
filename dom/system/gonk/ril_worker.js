@@ -193,12 +193,6 @@ let
 RILQUIRKS_DATA_REGISTRATION_ON_DEMAND
 ;
 let
-PENDING_NETWORK_TYPE
-=
-{
-}
-;
-let
 Buf
 =
 {
@@ -650,6 +644,10 @@ _pendingSentSmsMap
 preferredNetworkType
 :
 null
+pendingNetworkType
+:
+{
+}
 cellBroadcastDisabled
 :
 false
@@ -10966,7 +10964,9 @@ pending
 type
 ]
 =
-PENDING_NETWORK_TYPE
+this
+.
+pendingNetworkType
 ;
 }
 for
@@ -11046,7 +11046,9 @@ key
 ]
 =
 =
-PENDING_NETWORK_TYPE
+this
+.
+pendingNetworkType
 )
 {
 delete
