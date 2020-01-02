@@ -6115,6 +6115,14 @@ immediateDominator
 (
 )
 ;
+child
+-
+>
+addNumDominated
+(
+1
+)
+;
 if
 (
 child
@@ -6149,8 +6157,6 @@ child
 numDominated
 (
 )
-+
-1
 )
 ;
 }
@@ -6185,8 +6191,6 @@ graph
 numBlocks
 (
 )
--
-1
 )
 ;
 #
@@ -7495,6 +7499,18 @@ block
 +
 )
 {
+JS_ASSERT
+(
+block
+-
+>
+dominates
+(
+*
+block
+)
+)
+;
 MBasicBlock
 *
 idom
@@ -7560,8 +7576,6 @@ block
 numDominated
 (
 )
-+
-1
 ;
 }
 else
@@ -7624,7 +7638,7 @@ foundInParent
 size_t
 numDominated
 =
-0
+1
 ;
 for
 (
@@ -7710,8 +7724,6 @@ dom
 numDominated
 (
 )
-+
-1
 ;
 }
 JS_ASSERT
@@ -7735,8 +7747,6 @@ block
 numDominated
 (
 )
-+
-1
 <
 =
 i
@@ -7763,7 +7773,7 @@ numDominated
 )
 =
 =
-0
+1
 )
 ;
 i
@@ -8202,7 +8212,7 @@ MBoundsCheck
 check
 ;
 uint32_t
-validUntil
+validEnd
 ;
 }
 ;
@@ -8320,6 +8330,7 @@ p
 |
 index
 >
+=
 p
 -
 >
@@ -8327,7 +8338,7 @@ value
 (
 )
 .
-validUntil
+validEnd
 )
 {
 BoundsCheckInfo
@@ -8341,7 +8352,7 @@ check
 ;
 info
 .
-validUntil
+validEnd
 =
 index
 +

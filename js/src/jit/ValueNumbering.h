@@ -121,7 +121,7 @@ MDefinition
 def
 ;
 uint32_t
-validUntil
+validEnd
 ;
 }
 ;

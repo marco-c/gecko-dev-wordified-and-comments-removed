@@ -4807,7 +4807,6 @@ domIndex
 (
 )
 <
-=
 high
 ;
 }

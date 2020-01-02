@@ -1529,6 +1529,14 @@ numDominated
 )
 const
 {
+JS_ASSERT
+(
+numDominated_
+!
+=
+0
+)
+;
 return
 numDominated_
 ;
