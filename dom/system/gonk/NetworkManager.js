@@ -2986,6 +2986,8 @@ getGateways
 )
 ;
 }
+#
+endif
 selectGateway
 :
 function
@@ -3079,6 +3081,9 @@ return
 null
 ;
 }
+#
+ifdef
+MOZ_B2G_RIL
 setSecondaryDefaultRoute
 :
 function
@@ -3754,9 +3759,6 @@ active
 ;
 }
 }
-#
-ifdef
-MOZ_B2G_RIL
 resolveHostname
 :
 function
@@ -4005,8 +4007,6 @@ deferred
 promise
 ;
 }
-#
-endif
 convertConnectionType
 :
 function
