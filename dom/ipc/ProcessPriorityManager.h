@@ -59,6 +59,12 @@ CurrentProcessIsForeground
 )
 ;
 static
+bool
+AnyProcessHasHighPriority
+(
+)
+;
+static
 void
 RemoveFromBackgroundLRUPool
 (
