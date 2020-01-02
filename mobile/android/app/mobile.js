@@ -6874,3 +6874,13 @@ phone
 false
 )
 ;
+pref
+(
+"
+snav
+.
+enabled
+"
+true
+)
+;
