@@ -722,6 +722,10 @@ getAction
 )
 )
 {
+mApplyImmediately
+=
+true
+;
 startUpdate
 (
 UpdateServiceHelper
