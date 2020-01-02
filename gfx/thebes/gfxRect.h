@@ -512,9 +512,6 @@ CCWCorner
 mozilla
 :
 :
-css
-:
-:
 Side
 side
 )
@@ -571,9 +568,6 @@ gfxPoint
 CWCorner
 (
 mozilla
-:
-:
-css
 :
 :
 Side

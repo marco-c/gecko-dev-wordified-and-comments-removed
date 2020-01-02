@@ -504,9 +504,6 @@ GetCorner
 mozilla
 :
 :
-css
-:
-:
 Side
 &
 aCornerOwner
@@ -522,9 +519,6 @@ SetCorner
 BCPixelSize
 aSubSize
 mozilla
-:
-:
-css
 :
 :
 Side
@@ -1600,9 +1594,6 @@ GetCorner
 mozilla
 :
 :
-css
-:
-:
 Side
 &
 aOwnerSide
@@ -1615,9 +1606,6 @@ const
 aOwnerSide
 =
 mozilla
-:
-:
-css
 :
 :
 Side
@@ -1646,9 +1634,6 @@ SetCorner
 BCPixelSize
 aSubSize
 mozilla
-:
-:
-css
 :
 :
 Side
