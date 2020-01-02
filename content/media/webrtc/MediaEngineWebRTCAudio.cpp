@@ -188,7 +188,7 @@ NS_IMPL_ISUPPORTS0
 (
 MediaEngineWebRTCAudioSource
 )
-StaticAutoPtr
+StaticRefPtr
 <
 AudioOutputObserver
 >
@@ -348,6 +348,11 @@ uint32_t
 aSampleRate
 )
 {
+if
+(
+gFarendObserver
+)
+{
 gFarendObserver
 -
 >
@@ -361,6 +366,7 @@ aChannels
 aFormat
 )
 ;
+}
 }
 void
 AudioOutputObserver

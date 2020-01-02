@@ -91,6 +91,9 @@ T
 class
 LinkedList
 ;
+class
+AudioOutputObserver
+;
 struct
 StreamUpdate
 {
@@ -967,9 +970,9 @@ mMixer
 ;
 nsRefPtr
 <
-AudioStream
+AudioOutputObserver
 >
-mMixedAudioStream
+mFarendObserverRef
 ;
 private
 :
