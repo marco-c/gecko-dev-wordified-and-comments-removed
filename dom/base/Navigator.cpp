@@ -6437,11 +6437,8 @@ WrapNative
 aCx
 aObject
 native
+&
 prop_val
-.
-address
-(
-)
 getter_AddRefs
 (
 holder

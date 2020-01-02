@@ -746,10 +746,6 @@ StringToJsval
 aCx
 key
 aVal
-.
-address
-(
-)
 )
 )
 {

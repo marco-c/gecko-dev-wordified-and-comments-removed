@@ -325,11 +325,8 @@ WrapNative
 cx
 global
 aMessage
+&
 wrappedMessage
-.
-address
-(
-)
 )
 ;
 NS_ENSURE_SUCCESS

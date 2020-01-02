@@ -494,11 +494,8 @@ WrapNative
 cx
 global
 supports
+&
 val
-.
-address
-(
-)
 getter_AddRefs
 (
 wrapper

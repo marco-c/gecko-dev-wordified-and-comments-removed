@@ -334,11 +334,8 @@ WrapNative
 cx
 global
 aResult
+&
 wrappedResult
-.
-address
-(
-)
 )
 ;
 NS_ENSURE_SUCCESS
