@@ -22126,7 +22126,7 @@ templateObject
 ;
 masm
 .
-push
+Push
 (
 lengthReg
 )
@@ -22149,7 +22149,7 @@ false
 ;
 masm
 .
-pop
+Pop
 (
 lengthReg
 )
@@ -39489,7 +39489,7 @@ templateObject
 ;
 masm
 .
-push
+Push
 (
 numActuals
 )
@@ -39512,7 +39512,7 @@ false
 ;
 masm
 .
-pop
+Pop
 (
 numActuals
 )
