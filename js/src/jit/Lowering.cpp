@@ -5623,9 +5623,6 @@ useRegister
 (
 right
 )
-temp
-(
-)
 )
 ;
 if
@@ -5705,9 +5702,6 @@ LCompareStrictS
 useRegister
 (
 right
-)
-temp
-(
 )
 tempToUnbox
 (

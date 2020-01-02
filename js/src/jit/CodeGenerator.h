@@ -1441,8 +1441,6 @@ Register
 right
 Register
 output
-Register
-temp
 )
 ;
 bool
