@@ -235,6 +235,13 @@ CondVar
 which
 )
 ;
+void
+notifyOne
+(
+CondVar
+which
+)
+;
 bool
 canStartAsmJSCompile
 (
