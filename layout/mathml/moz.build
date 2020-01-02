@@ -173,11 +173,6 @@ nsMathMLmsqrtFrame
 cpp
 '
 '
-nsMathMLmstyleFrame
-.
-cpp
-'
-'
 nsMathMLmtableFrame
 .
 cpp
