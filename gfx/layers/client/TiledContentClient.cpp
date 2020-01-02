@@ -7539,11 +7539,15 @@ viewTransform
 mTranslation
 .
 x
+.
+value
 viewTransform
 .
 mTranslation
 .
 y
+.
+value
 viewTransform
 .
 mScale
