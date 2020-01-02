@@ -3973,6 +3973,19 @@ get_PointerDeviceType
 deviceType
 )
 ;
+unsigned
+int
+tapCount
+;
+aArgs
+-
+>
+get_TapCount
+(
+&
+tapCount
+)
+;
 if
 (
 deviceType
@@ -4009,9 +4022,10 @@ get_Position
 position
 )
 ;
-HandleSingleTap
+HandleTap
 (
 position
+tapCount
 )
 ;
 return
@@ -4099,7 +4113,7 @@ void
 MetroInput
 :
 :
-HandleSingleTap
+HandleTap
 (
 const
 Foundation
@@ -4108,6 +4122,9 @@ Foundation
 Point
 &
 aPoint
+unsigned
+int
+aTapCount
 )
 {
 #
@@ -4164,7 +4181,7 @@ mouseEvent
 >
 clickCount
 =
-1
+aTapCount
 ;
 mouseEvent
 -
@@ -4215,7 +4232,7 @@ mouseEvent
 >
 clickCount
 =
-1
+aTapCount
 ;
 mouseEvent
 -
@@ -4279,7 +4296,7 @@ mouseEvent
 >
 clickCount
 =
-1
+aTapCount
 ;
 mouseEvent
 -
@@ -4379,7 +4396,7 @@ mouseEvent
 >
 clickCount
 =
-1
+aTapCount
 ;
 mouseEvent
 -

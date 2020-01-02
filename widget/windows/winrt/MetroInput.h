@@ -634,12 +634,15 @@ aArgs
 )
 ;
 void
-HandleSingleTap
+HandleTap
 (
 const
 Point
 &
 aPoint
+unsigned
+int
+aTapCount
 )
 ;
 void
