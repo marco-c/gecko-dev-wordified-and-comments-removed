@@ -257,6 +257,9 @@ data
 int16_t
 hashShift
 ;
+uint16_t
+entrySize
+;
 mozilla
 :
 :
@@ -265,9 +268,6 @@ Atomic
 uint32_t
 >
 recursionLevel
-;
-uint32_t
-entrySize
 ;
 uint32_t
 entryCount
