@@ -306,6 +306,12 @@ base
 /
 camera
 '
+'
+/
+caps
+/
+include
+'
 ]
 include
 (
