@@ -159,7 +159,7 @@ document
 *
 /
 [
-TreatNonCallableAsNull
+TreatNonObjectAsNull
 ]
 callback
 EventHandlerNonNull
@@ -176,7 +176,7 @@ EventHandlerNonNull
 EventHandler
 ;
 [
-TreatNonCallableAsNull
+TreatNonObjectAsNull
 ]
 /
 /
@@ -228,7 +228,7 @@ OnBeforeUnloadEventHandlerNonNull
 OnBeforeUnloadEventHandler
 ;
 [
-TreatNonCallableAsNull
+TreatNonObjectAsNull
 ]
 callback
 OnErrorEventHandlerNonNull

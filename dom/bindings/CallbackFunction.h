@@ -52,15 +52,6 @@ aCallable
 aIncumbentGlobal
 )
 {
-MOZ_ASSERT
-(
-JS_ObjectIsCallable
-(
-nullptr
-mCallback
-)
-)
-;
 }
 JS
 :
