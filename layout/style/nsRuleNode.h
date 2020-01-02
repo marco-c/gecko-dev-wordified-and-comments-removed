@@ -2309,6 +2309,10 @@ EnsureBlockDisplay
 uint8_t
 &
 display
+bool
+aConvertListItem
+=
+false
 )
 ;
 nsRuleNode
