@@ -3785,11 +3785,11 @@ nsIURI
 *
 aURI
 bool
-aSetUpForAboutBlank
+aInheritForAboutBlank
 bool
-aForceOwner
-=
-false
+aIsSandboxed
+bool
+aForceInherit
 )
 ;
 static
