@@ -327,6 +327,10 @@ nsGlobalWindow
 *
 win
 =
+aIsJSImplementedWebIDL
+?
+nullptr
+:
 xpc
 :
 :
@@ -569,6 +573,10 @@ Callback
 if
 (
 mIsMainThread
+&
+&
+!
+aIsJSImplementedWebIDL
 )
 {
 bool
