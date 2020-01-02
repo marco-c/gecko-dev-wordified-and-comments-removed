@@ -24037,7 +24037,7 @@ menubar
 .
 style
 .
-marginBottom
+paddingBottom
 =
 "
 "
@@ -24176,7 +24176,7 @@ menubar
 .
 style
 .
-marginBottom
+paddingBottom
 =
 menuTitlebarDelta
 +
