@@ -458,6 +458,15 @@ jsm
 let
 translationDocument
 =
+this
+.
+global
+.
+content
+.
+translationDocument
+|
+|
 new
 TranslationDocument
 (
