@@ -511,17 +511,6 @@ generateOutOfLineCode
 (
 )
 ;
-Operand
-createArrayElementOperand
-(
-Register
-elements
-const
-LAllocation
-*
-index
-)
-;
 void
 emitCompare
 (
