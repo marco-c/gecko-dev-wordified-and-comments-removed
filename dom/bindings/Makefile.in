@@ -2029,10 +2029,6 @@ example
 cpp
 )
 \
-(
-unified_binding_cpp_files
-)
-\
 .
 BindingGen
 \

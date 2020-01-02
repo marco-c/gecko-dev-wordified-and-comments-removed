@@ -216,8 +216,6 @@ put
 backend
 .
 RecursiveMakeBackend
-.
-built
 here
 #
 otherwise
@@ -252,8 +250,6 @@ status
 backend
 .
 RecursiveMakeBackend
-.
-built
 ifndef
 LIBXUL_SDK
 libs
@@ -472,8 +468,6 @@ SUBMAKE
 backend
 .
 RecursiveMakeBackend
-.
-built
 js
 /
 src
@@ -507,8 +501,6 @@ status
 backend
 .
 RecursiveMakeBackend
-.
-built
 \
 (
 NULL

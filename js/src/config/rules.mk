@@ -3664,8 +3664,6 @@ DEPTH
 backend
 .
 RecursiveMakeBackend
-.
-built
 (
 TOUCH
 )
@@ -3676,8 +3674,6 @@ DEPTH
 backend
 .
 RecursiveMakeBackend
-.
-built
 :
 echo
 "
@@ -3715,8 +3711,6 @@ backend
 .
 RecursiveMakeBackend
 .
-built
-.
 pp
 default
 :
@@ -3728,8 +3722,6 @@ DEPTH
 backend
 .
 RecursiveMakeBackend
-.
-built
 export
 MOZBUILD_BACKEND_CHECKED
 =
