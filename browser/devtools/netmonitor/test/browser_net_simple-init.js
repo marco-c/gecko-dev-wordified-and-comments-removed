@@ -3,6 +3,16 @@ test
 (
 )
 {
+let
+gInfo
+=
+info
+;
+let
+gOk
+=
+ok
+;
 initNetMonitor
 (
 SIMPLE_URL
@@ -294,7 +304,7 @@ checkIfDestroyed
 aTag
 )
 {
-info
+gInfo
 (
 "
 Checking
@@ -306,7 +316,7 @@ ok
 "
 )
 ;
-ok
+gOk
 (
 aMonitor
 .
@@ -330,7 +340,7 @@ aTag
 "
 )
 ;
-ok
+gOk
 (
 aMonitor
 .
@@ -354,7 +364,7 @@ aTag
 "
 )
 ;
-ok
+gOk
 (
 aMonitor
 .
@@ -383,7 +393,7 @@ aTag
 "
 )
 ;
-ok
+gOk
 (
 !
 aMonitor
@@ -413,7 +423,7 @@ aTag
 "
 )
 ;
-ok
+gOk
 (
 !
 aMonitor
@@ -443,7 +453,7 @@ aTag
 "
 )
 ;
-ok
+gOk
 (
 !
 aMonitor
@@ -605,7 +615,7 @@ then
 =
 >
 {
-info
+gInfo
 (
 "
 Shutting
@@ -645,7 +655,7 @@ then
 =
 >
 {
-info
+gInfo
 (
 "
 Disconnecting
