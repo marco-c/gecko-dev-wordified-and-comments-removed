@@ -7992,8 +7992,6 @@ GeckoProcessesVisitor
 public
 boolean
 otherPidExist
-=
-false
 ;
 Override
 public
@@ -11093,8 +11091,6 @@ hardware
 .
 Camera
 sCamera
-=
-null
 ;
 static
 native
@@ -11118,8 +11114,6 @@ byte
 [
 ]
 sCameraBuffer
-=
-null
 ;
 WrapElementForJNI
 (

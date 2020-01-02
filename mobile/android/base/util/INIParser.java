@@ -88,8 +88,6 @@ String
 INISection
 >
 mSections
-=
-null
 ;
 public
 INIParser

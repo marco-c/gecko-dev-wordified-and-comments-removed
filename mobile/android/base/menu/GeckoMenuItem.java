@@ -233,8 +233,6 @@ MenuItem
 .
 OnMenuItemClickListener
 mMenuItemClickListener
-=
-null
 ;
 private
 OnShowAsActionChangedListener

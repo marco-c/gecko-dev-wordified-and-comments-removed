@@ -1191,8 +1191,6 @@ Telemetry
 .
 Timer
 mAboutHomeStartupTimer
-=
-null
 ;
 private
 ActionModeCompat

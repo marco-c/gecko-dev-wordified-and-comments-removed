@@ -101,8 +101,6 @@ String
 Object
 >
 mProperties
-=
-null
 ;
 public
 INISection
