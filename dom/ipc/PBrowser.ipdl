@@ -1114,6 +1114,13 @@ selected
 IME
 composition
 *
+caretRect
+The
+rect
+of
+IME
+caret
+*
 /
 NotifyIMESelectedCompositionRect
 (
@@ -1121,6 +1128,8 @@ uint32_t
 offset
 nsIntRect
 rect
+nsIntRect
+caretRect
 )
 ;
 /

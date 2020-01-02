@@ -5434,6 +5434,17 @@ case
 NS_QUERY_CARET_RECT
 :
 {
+if
+(
+RemoteQueryContentEvent
+(
+aEvent
+)
+)
+{
+break
+;
+}
 nsContentEventHandler
 handler
 (

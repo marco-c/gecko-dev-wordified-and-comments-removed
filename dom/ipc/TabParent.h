@@ -536,7 +536,12 @@ const
 nsIntRect
 &
 aRect
+const
+nsIntRect
+&
+aCaretRect
 )
+MOZ_OVERRIDE
 ;
 virtual
 bool
@@ -1527,6 +1532,9 @@ mIMECompositionRectOffset
 ;
 nsIntRect
 mIMECompositionRect
+;
+nsIntRect
+mIMECaretRect
 ;
 int32_t
 mEventCaptureDepth
