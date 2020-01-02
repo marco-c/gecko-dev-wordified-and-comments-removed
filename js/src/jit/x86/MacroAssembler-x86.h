@@ -302,6 +302,7 @@ Result
 {
 GENERAL
 DOUBLE
+FLOAT
 }
 ;
 typedef
@@ -3377,6 +3378,19 @@ rhs
 }
 Condition
 testNegativeZero
+(
+const
+FloatRegister
+&
+reg
+const
+Register
+&
+scratch
+)
+;
+Condition
+testNegativeZeroFloat32
 (
 const
 FloatRegister

@@ -670,6 +670,15 @@ lir
 ;
 virtual
 bool
+visitFloorF
+(
+LFloorF
+*
+lir
+)
+;
+virtual
+bool
 visitRound
 (
 LRound
