@@ -270,6 +270,16 @@ Cached
 ]
 readonly
 attribute
+unsigned
+long
+maxDetectedFaces
+;
+[
+Constant
+Cached
+]
+readonly
+attribute
 double
 minExposureCompensation
 ;

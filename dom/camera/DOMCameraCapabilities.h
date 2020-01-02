@@ -288,6 +288,12 @@ MaxMeteringAreas
 )
 const
 ;
+uint32_t
+MaxDetectedFaces
+(
+)
+const
+;
 double
 MinExposureCompensation
 (
@@ -425,6 +431,9 @@ mMaxFocusAreas
 ;
 uint32_t
 mMaxMeteringAreas
+;
+uint32_t
+mMaxDetectedFaces
 ;
 double
 mMinExposureCompensation
