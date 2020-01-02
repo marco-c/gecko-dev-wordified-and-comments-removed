@@ -1,3 +1,5 @@
+X
+-
 Content
 -
 Security
@@ -10,7 +12,5 @@ src
 '
 self
 '
-default
--
-src
+allow
 *
