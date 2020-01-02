@@ -5969,7 +5969,7 @@ nsIDOMWindow
 >
 window
 =
-GetWindow
+GetInnerWindow
 (
 )
 ;
