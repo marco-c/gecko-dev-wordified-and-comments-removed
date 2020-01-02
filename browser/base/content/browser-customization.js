@@ -434,12 +434,6 @@ updateStarState
 (
 )
 ;
-SocialMark
-.
-updateMarkState
-(
-)
-;
 }
 let
 menubar
