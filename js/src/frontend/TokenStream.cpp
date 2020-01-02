@@ -4902,6 +4902,7 @@ if
 (
 c1kind
 <
+=
 OneChar_Max
 )
 {
