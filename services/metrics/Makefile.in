@@ -111,13 +111,6 @@ PP_TARGETS
 +
 =
 MAIN_JS_MODULE
-JS_MODULES_PATH
-=
-modules
-/
-services
-/
-metrics
 TESTING_JS_MODULES
 :
 =

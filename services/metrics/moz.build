@@ -121,3 +121,12 @@ storage
 jsm
 '
 ]
+JS_MODULES_PATH
+=
+'
+modules
+/
+services
+/
+metrics
+'
