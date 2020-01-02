@@ -6602,6 +6602,15 @@ aTarget
 ;
 #
 endif
+nsIntRect
+ToOutsideIntRect
+(
+const
+gfxRect
+&
+aRect
+)
+;
 }
 }
 #
