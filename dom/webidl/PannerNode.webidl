@@ -212,9 +212,6 @@ exponential
 "
 }
 ;
-[
-PrefControlled
-]
 interface
 PannerNode
 :
@@ -353,9 +350,6 @@ html
 AlternateNames
 *
 /
-[
-PrefControlled
-]
 partial
 interface
 PannerNode

@@ -293,17 +293,6 @@ if
 (
 B2G
 )
-test
--
-pref
-(
-media
-.
-webaudio
-.
-enabled
-true
-)
 load
 880202
 .

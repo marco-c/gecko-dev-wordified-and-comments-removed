@@ -171,7 +171,6 @@ length
 float
 sampleRate
 )
-PrefControlled
 ]
 interface
 OfflineAudioContext

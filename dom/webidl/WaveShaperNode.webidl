@@ -164,9 +164,6 @@ none
 "
 }
 ;
-[
-PrefControlled
-]
 interface
 WaveShaperNode
 :

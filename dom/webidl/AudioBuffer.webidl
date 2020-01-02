@@ -150,9 +150,6 @@ apply
 .
 *
 /
-[
-PrefControlled
-]
 interface
 AudioBuffer
 {

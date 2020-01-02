@@ -150,9 +150,6 @@ apply
 .
 *
 /
-[
-PrefControlled
-]
 interface
 AudioParam
 {
@@ -351,9 +348,6 @@ html
 AlternateNames
 *
 /
-[
-PrefControlled
-]
 partial
 interface
 AudioParam

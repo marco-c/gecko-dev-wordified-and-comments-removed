@@ -18,13 +18,6 @@ h
 #
 include
 "
-EnableWebAudioCheck
-.
-h
-"
-#
-include
-"
 MediaBufferDecoder
 .
 h
@@ -222,8 +215,6 @@ public
 nsDOMEventTargetHelper
 public
 nsIMemoryReporter
-public
-EnableWebAudioCheck
 {
 AudioContext
 (

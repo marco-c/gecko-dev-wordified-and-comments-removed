@@ -177,9 +177,6 @@ discrete
 "
 }
 ;
-[
-PrefControlled
-]
 interface
 AudioNode
 :

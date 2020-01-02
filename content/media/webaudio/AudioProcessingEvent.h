@@ -36,8 +36,6 @@ AudioProcessingEvent
 :
 public
 nsDOMEvent
-public
-EnableWebAudioCheck
 {
 public
 :

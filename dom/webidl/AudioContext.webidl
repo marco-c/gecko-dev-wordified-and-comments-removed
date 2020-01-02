@@ -168,7 +168,6 @@ void
 ;
 [
 Constructor
-PrefControlled
 ]
 interface
 AudioContext
@@ -457,9 +456,6 @@ html
 AlternateNames
 *
 /
-[
-PrefControlled
-]
 partial
 interface
 AudioContext

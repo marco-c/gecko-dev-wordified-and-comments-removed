@@ -196,9 +196,6 @@ custom
 "
 }
 ;
-[
-PrefControlled
-]
 interface
 OscillatorNode
 :

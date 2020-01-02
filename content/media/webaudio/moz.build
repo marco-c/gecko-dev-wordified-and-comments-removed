@@ -238,11 +238,6 @@ DynamicsCompressorNode
 h
 '
 '
-EnableWebAudioCheck
-.
-h
-'
-'
 GainNode
 .
 h
@@ -374,11 +369,6 @@ cpp
 '
 '
 DynamicsCompressorNode
-.
-cpp
-'
-'
-EnableWebAudioCheck
 .
 cpp
 '

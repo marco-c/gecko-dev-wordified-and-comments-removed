@@ -30,13 +30,6 @@ h
 #
 include
 "
-EnableWebAudioCheck
-.
-h
-"
-#
-include
-"
 nsAutoPtr
 .
 h
@@ -94,8 +87,6 @@ MOZ_FINAL
 :
 public
 nsWrapperCache
-public
-EnableWebAudioCheck
 {
 public
 :

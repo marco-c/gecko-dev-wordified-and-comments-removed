@@ -214,9 +214,6 @@ allpass
 "
 }
 ;
-[
-PrefControlled
-]
 interface
 BiquadFilterNode
 :
@@ -315,9 +312,6 @@ html
 AlternateNames
 *
 /
-[
-PrefControlled
-]
 partial
 interface
 BiquadFilterNode

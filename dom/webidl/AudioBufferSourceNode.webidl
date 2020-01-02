@@ -150,9 +150,6 @@ apply
 .
 *
 /
-[
-PrefControlled
-]
 interface
 AudioBufferSourceNode
 :
@@ -260,9 +257,6 @@ html
 AlternateNames
 *
 /
-[
-PrefControlled
-]
 partial
 interface
 AudioBufferSourceNode

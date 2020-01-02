@@ -32,8 +32,6 @@ OfflineAudioCompletionEvent
 :
 public
 nsDOMEvent
-public
-EnableWebAudioCheck
 {
 public
 :
