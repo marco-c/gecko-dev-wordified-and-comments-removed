@@ -126,9 +126,9 @@ aCallback
 ;
 }
 "
-FullZoom
-:
-TESTS
+browser
+-
+fullZoom
 :
 location
 -
