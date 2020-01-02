@@ -488,6 +488,10 @@ boolean
 mFocused
 ;
 private
+boolean
+mGeckoFocused
+;
+private
 volatile
 boolean
 mSuppressCompositions
@@ -3625,8 +3629,15 @@ type
 =
 =
 NOTIFY_IME_OF_BLUR
+&
+&
+mGeckoFocused
 )
 {
+mGeckoFocused
+=
+false
+;
 mSuppressCompositions
 =
 false
@@ -3657,6 +3668,10 @@ type
 NOTIFY_IME_OF_FOCUS
 )
 {
+mGeckoFocused
+=
+true
+;
 mSuppressCompositions
 =
 false
