@@ -143,7 +143,7 @@ const
 size_t
 ChunkMarkBitmapOffset
 =
-1032352
+1032360
 ;
 const
 size_t
@@ -169,8 +169,6 @@ ChunkLocationOffset
 =
 ChunkSize
 -
-2
-*
 sizeof
 (
 void
@@ -179,7 +177,7 @@ void
 -
 sizeof
 (
-uint64_t
+uintptr_t
 )
 ;
 static

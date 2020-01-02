@@ -1395,6 +1395,14 @@ index
 extra
 )
 {
+JSRuntime
+*
+rt
+=
+runtimeFromAnyThread
+(
+)
+;
 size_t
 offset
 =
@@ -1431,12 +1439,12 @@ offset
 +
 +
 )
-{
 sp
 -
 >
 init
 (
+rt
 this
 js
 :
@@ -1455,7 +1463,6 @@ JS_ELEMENTS_HOLE
 )
 )
 ;
-}
 initlen
 =
 index

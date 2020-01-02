@@ -742,6 +742,10 @@ JSObject
 writeBarrierPost
 (
 scopeChain_
+(
+void
+*
+)
 &
 scopeChain_
 )
@@ -758,6 +762,10 @@ JSObject
 writeBarrierPost
 (
 argsObj_
+(
+void
+*
+)
 &
 argsObj_
 )
@@ -777,6 +785,10 @@ writeBarrierPost
 exec
 .
 fun
+(
+void
+*
+)
 &
 exec
 .
@@ -797,6 +809,10 @@ writeBarrierPost
 u
 .
 evalScript
+(
+void
+*
+)
 &
 u
 .
@@ -814,6 +830,10 @@ writeBarrierPost
 exec
 .
 script
+(
+void
+*
+)
 &
 exec
 .
