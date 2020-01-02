@@ -83,6 +83,15 @@ use
 #
 unicharutil_external_s
 .
+ifdef
+ENABLE_INTL_API
+LOCAL_INCLUDES
++
+=
+(
+MOZ_ICU_CFLAGS
+)
+endif
 DIST_INSTALL
 =
 1

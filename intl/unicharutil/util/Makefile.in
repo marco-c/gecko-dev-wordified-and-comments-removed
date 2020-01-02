@@ -113,6 +113,15 @@ rules
 .
 mk
 ifdef
+ENABLE_INTL_API
+LOCAL_INCLUDES
++
+=
+(
+MOZ_ICU_CFLAGS
+)
+endif
+ifdef
 _MSC_VER
 #
 Don
