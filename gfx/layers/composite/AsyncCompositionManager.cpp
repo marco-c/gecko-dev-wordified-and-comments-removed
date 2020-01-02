@@ -2224,6 +2224,15 @@ duration
 ;
 timing
 .
+mDelay
+=
+TimeDuration
+(
+0
+)
+;
+timing
+.
 mIterationCount
 =
 animation
