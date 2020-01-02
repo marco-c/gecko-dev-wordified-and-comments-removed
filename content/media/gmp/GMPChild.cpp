@@ -202,6 +202,9 @@ aChannel
 {
 #
 ifdef
+GMP_CRASHREPORTER_READY
+#
+ifdef
 MOZ_CRASHREPORTER
 SendPCrashReporterConstructor
 (
@@ -213,6 +216,8 @@ CurrentThreadId
 )
 )
 ;
+#
+endif
 #
 endif
 #
