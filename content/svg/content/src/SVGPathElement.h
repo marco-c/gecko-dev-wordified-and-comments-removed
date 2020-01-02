@@ -294,7 +294,7 @@ eForTextPath
 eForStroking
 }
 ;
-gfxFloat
+float
 GetPathLengthScale
 (
 PathLengthScaleForType

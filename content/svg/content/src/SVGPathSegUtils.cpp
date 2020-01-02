@@ -1111,7 +1111,7 @@ y
 ;
 }
 static
-gfxFloat
+float
 CalcBezLengthHelper
 (
 const
@@ -1150,7 +1150,7 @@ right
 4
 ]
 ;
-gfxFloat
+float
 length
 =
 0
@@ -1257,7 +1257,7 @@ length
 }
 static
 inline
-gfxFloat
+float
 CalcLengthOfCubicBezier
 (
 const
@@ -1303,7 +1303,7 @@ SplitCubicBezier
 }
 static
 inline
-gfxFloat
+float
 CalcLengthOfQuadraticBezier
 (
 const

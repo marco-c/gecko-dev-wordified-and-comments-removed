@@ -1444,7 +1444,7 @@ aCtx
 )
 ;
 }
-gfxFloat
+float
 SVGPathElement
 :
 :
