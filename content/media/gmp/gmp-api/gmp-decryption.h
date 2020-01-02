@@ -632,6 +632,14 @@ aMetadata
 =
 0
 ;
+virtual
+void
+DecryptingComplete
+(
+)
+=
+0
+;
 }
 ;
 #
