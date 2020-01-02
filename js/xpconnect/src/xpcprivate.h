@@ -11008,6 +11008,12 @@ class
 mozilla
 :
 :
+dom
+:
+:
+danger
+:
+:
 AutoCxPusher
 ;
 friend
