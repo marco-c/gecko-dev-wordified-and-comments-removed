@@ -39,6 +39,13 @@ h
 #
 include
 "
+ReorderQueue
+.
+h
+"
+#
+include
+"
 VideoToolbox
 /
 VideoToolbox
@@ -186,6 +193,9 @@ mFormat
 VTDecompressionSessionRef
 mSession
 ;
+ReorderQueue
+mReorderQueue
+;
 nsresult
 SubmitFrame
 (
@@ -199,6 +209,11 @@ aSample
 ;
 nsresult
 InitializeSession
+(
+)
+;
+nsresult
+DrainReorderedFrames
 (
 )
 ;
