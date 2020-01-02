@@ -2926,8 +2926,7 @@ AddSizeOfTab
 JSRuntime
 *
 rt
-JSObject
-*
+HandleObject
 obj
 MallocSizeOf
 mallocSizeOf
