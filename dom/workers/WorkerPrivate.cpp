@@ -12876,7 +12876,7 @@ rv
 ;
 for
 (
-uint32_t
+size_t
 index
 =
 0
@@ -12917,7 +12917,7 @@ GetOwner
 (
 )
 ;
-uint32_t
+size_t
 actionsIndex
 =
 windowActions

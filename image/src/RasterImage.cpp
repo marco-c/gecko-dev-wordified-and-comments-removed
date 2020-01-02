@@ -10675,7 +10675,7 @@ RasterImage
 :
 DecodeSomeData
 (
-uint32_t
+size_t
 aMaxBytes
 DecodeStrategy
 aStrategy
@@ -10771,7 +10771,7 @@ Length
 )
 )
 ;
-uint32_t
+size_t
 bytesToDecode
 =
 std
@@ -12704,7 +12704,7 @@ DecodeRequest
 :
 REQUEST_ACTIVE
 ;
-uint32_t
+size_t
 oldByteCount
 =
 mImage
@@ -12748,7 +12748,7 @@ mRequest
 mBytesToDecode
 )
 ;
-uint32_t
+size_t
 bytesDecoded
 =
 mImage

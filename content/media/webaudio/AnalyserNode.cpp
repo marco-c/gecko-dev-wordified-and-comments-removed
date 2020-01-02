@@ -693,7 +693,7 @@ Data
 (
 )
 ;
-uint32_t
+size_t
 length
 =
 std
@@ -701,10 +701,13 @@ std
 :
 min
 (
+size_t
+(
 aArray
 .
 Length
 (
+)
 )
 mOutputBuffer
 .
@@ -715,7 +718,7 @@ Length
 ;
 for
 (
-uint32_t
+size_t
 i
 =
 0
@@ -796,7 +799,7 @@ Data
 (
 )
 ;
-uint32_t
+size_t
 length
 =
 std
@@ -804,10 +807,13 @@ std
 :
 min
 (
+size_t
+(
 aArray
 .
 Length
 (
+)
 )
 mOutputBuffer
 .
@@ -818,7 +824,7 @@ Length
 ;
 for
 (
-uint32_t
+size_t
 i
 =
 0
@@ -919,7 +925,7 @@ Data
 (
 )
 ;
-uint32_t
+size_t
 length
 =
 std
@@ -927,10 +933,13 @@ std
 :
 min
 (
+size_t
+(
 aArray
 .
 Length
 (
+)
 )
 mBuffer
 .
@@ -941,7 +950,7 @@ Length
 ;
 for
 (
-uint32_t
+size_t
 i
 =
 0
@@ -1001,7 +1010,7 @@ Data
 (
 )
 ;
-uint32_t
+size_t
 length
 =
 std
@@ -1009,10 +1018,13 @@ std
 :
 min
 (
+size_t
+(
 aArray
 .
 Length
 (
+)
 )
 mBuffer
 .
@@ -1023,7 +1035,7 @@ Length
 ;
 for
 (
-uint32_t
+size_t
 i
 =
 0

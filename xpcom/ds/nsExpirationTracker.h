@@ -658,7 +658,7 @@ mGenerations
 reapGeneration
 ]
 ;
-uint32_t
+size_t
 index
 =
 generation

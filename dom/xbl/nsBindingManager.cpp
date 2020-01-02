@@ -1339,7 +1339,7 @@ nsXBLBinding
 aBinding
 )
 {
-uint32_t
+size_t
 index
 =
 mAttachedStack
@@ -3427,7 +3427,7 @@ nsIContent
 aFirstNewContent
 )
 {
-uint32_t
+size_t
 insertionIndex
 ;
 if
@@ -4322,7 +4322,7 @@ point
 break
 ;
 }
-uint32_t
+size_t
 index
 =
 aAppend
@@ -4363,7 +4363,7 @@ GetPreviousSibling
 )
 )
 {
-uint32_t
+size_t
 pointIndex
 =
 point

@@ -6534,7 +6534,7 @@ search
 aPath
 )
 ;
-uint32_t
+size_t
 index
 =
 mCachedFileDescriptorInfos
@@ -6735,7 +6735,7 @@ search
 aPath
 )
 ;
-uint32_t
+size_t
 index
 =
 mCachedFileDescriptorInfos
@@ -6940,7 +6940,7 @@ aPath
 aCallback
 )
 ;
-uint32_t
+size_t
 index
 =
 mCachedFileDescriptorInfos

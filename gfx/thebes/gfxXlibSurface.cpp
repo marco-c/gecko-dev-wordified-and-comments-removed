@@ -1662,7 +1662,7 @@ sDisplayTable
 >
 mDisplays
 ;
-uint32_t
+size_t
 d
 =
 displays

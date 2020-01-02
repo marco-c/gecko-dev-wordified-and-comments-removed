@@ -4758,7 +4758,7 @@ mControls
 >
 mNotInElements
 ;
-uint32_t
+size_t
 index
 =
 controls
@@ -9116,7 +9116,7 @@ HTMLImageElement
 aChild
 )
 {
-uint32_t
+size_t
 index
 =
 mImageElements

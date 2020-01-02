@@ -3527,6 +3527,8 @@ d
 \
 n
 "
+int
+(
 mTableFrame
 .
 GetColCache
@@ -3535,6 +3537,7 @@ GetColCache
 .
 Length
 (
+)
 )
 )
 ;
@@ -10814,10 +10817,13 @@ min
 endColIndex
 +
 1
+uint32_t
+(
 row
 .
 Length
 (
+)
 )
 )
 ;

@@ -217,7 +217,7 @@ nsISupports
 aElement
 )
 {
-uint32_t
+size_t
 index
 =
 aArray

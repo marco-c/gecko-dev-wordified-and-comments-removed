@@ -107,7 +107,7 @@ mResampler
 ;
 }
 }
-uint32_t
+size_t
 AudioNodeExternalInputStream
 :
 :
@@ -139,7 +139,7 @@ AudioSegment
 ;
 for
 (
-uint32_t
+size_t
 i
 =
 0
@@ -247,7 +247,7 @@ resampler
 =
 nullptr
 ;
-uint32_t
+size_t
 channelCount
 =
 std
@@ -2026,7 +2026,7 @@ inputTrack
 *
 tracks
 ;
-uint32_t
+size_t
 trackMapIndex
 =
 GetTrackMapEntry

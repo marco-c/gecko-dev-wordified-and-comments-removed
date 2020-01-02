@@ -716,7 +716,7 @@ return
 1
 ;
 }
-uint32_t
+size_t
 index
 =
 0
@@ -792,7 +792,7 @@ IsEmpty
 )
 )
 {
-uint32_t
+size_t
 insIndex
 =
 point
@@ -863,7 +863,7 @@ return
 index
 +
 (
-uint32_t
+size_t
 )
 insIndex
 ;

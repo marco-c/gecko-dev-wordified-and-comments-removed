@@ -13357,7 +13357,7 @@ nsAString
 aURL
 )
 {
-uint32_t
+size_t
 foundIndex
 ;
 foundIndex
@@ -13425,7 +13425,7 @@ aStyleSheet
 =
 0
 ;
-uint32_t
+size_t
 foundIndex
 ;
 foundIndex

@@ -318,7 +318,7 @@ aPrefix
 )
 const
 {
-uint32_t
+size_t
 index
 =
 mNameSpaces
@@ -367,7 +367,7 @@ aNameSpaceID
 )
 const
 {
-uint32_t
+size_t
 index
 =
 mNameSpaces

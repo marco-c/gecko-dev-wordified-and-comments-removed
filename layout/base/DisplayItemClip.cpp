@@ -1803,7 +1803,10 @@ mRoundedClipRects
 Length
 (
 )
+size_t
+(
 aMax
+)
 )
 aOther
 .
@@ -1886,7 +1889,10 @@ mRoundedClipRects
 Length
 (
 )
+size_t
+(
 aCount
+)
 )
 ;
 for

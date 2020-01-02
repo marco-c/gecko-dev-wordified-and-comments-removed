@@ -44,7 +44,7 @@ namespace
 dom
 {
 const
-uint32_t
+size_t
 WebAudioUtils
 :
 :

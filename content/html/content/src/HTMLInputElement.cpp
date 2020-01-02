@@ -10738,10 +10738,13 @@ count
 .
 AppendInt
 (
+int
+(
 mFiles
 .
 Length
 (
+)
 )
 )
 ;
