@@ -103,10 +103,6 @@ getInstrumentation
 getTargetContext
 (
 )
-.
-getApplicationContext
-(
-)
 ;
 }
 public

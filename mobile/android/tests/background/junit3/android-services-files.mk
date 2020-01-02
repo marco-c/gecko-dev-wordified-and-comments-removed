@@ -440,6 +440,14 @@ src
 /
 sync
 /
+AndroidSyncTestCaseWithAccounts
+.
+java
+\
+src
+/
+sync
+/
 helpers
 /
 BookmarkHelpers
