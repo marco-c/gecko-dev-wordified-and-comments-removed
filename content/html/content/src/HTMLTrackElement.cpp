@@ -1099,10 +1099,17 @@ shouldLoad
 return
 ;
 }
+if
+(
+!
+mTrack
+)
+{
 CreateTextTrack
 (
 )
 ;
+}
 nsCOMPtr
 <
 nsIChannelPolicy
