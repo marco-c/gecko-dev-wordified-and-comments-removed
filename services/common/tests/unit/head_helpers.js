@@ -892,7 +892,9 @@ prefs
 setBoolPref
 (
 "
-identity
+services
+.
+sync
 .
 fxaccounts
 .
