@@ -742,6 +742,12 @@ cbOffset
 crOffset
 aData
 .
+mYStride
+aData
+.
+mCbCrStride
+aData
+.
 mYSize
 aData
 .
