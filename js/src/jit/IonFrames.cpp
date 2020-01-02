@@ -7415,6 +7415,10 @@ snapshotsListSize
 (
 )
 )
+recover_
+(
+snapshot_
+)
 fp_
 (
 fp
@@ -7495,6 +7499,10 @@ snapshotsListSize
 (
 )
 )
+recover_
+(
+snapshot_
+)
 fp_
 (
 iter
@@ -7534,6 +7542,10 @@ nullptr
 0
 0
 0
+)
+recover_
+(
+snapshot_
 )
 fp_
 (
