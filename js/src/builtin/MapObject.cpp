@@ -120,6 +120,12 @@ JS
 :
 DoubleNaNValue
 ;
+using
+JS
+:
+:
+ForOfIterator
+;
 namespace
 js
 {
