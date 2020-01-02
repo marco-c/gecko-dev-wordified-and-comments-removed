@@ -100,6 +100,9 @@ page_cache
 size_t
 bookkeeping
 ;
+size_t
+bin_unused
+;
 }
 jemalloc_stats_t
 ;
