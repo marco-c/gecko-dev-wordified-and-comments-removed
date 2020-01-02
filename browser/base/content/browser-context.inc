@@ -3673,7 +3673,7 @@ gContextMenu
 .
 browser
 .
-contentDocument
+contentDocumentAsCPOW
 )
 ;
 "
