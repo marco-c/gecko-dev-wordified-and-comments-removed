@@ -2929,6 +2929,10 @@ ScheduleContentResponseTimeout
 (
 )
 ;
+CancelAnimation
+(
+)
+;
 }
 else
 {
