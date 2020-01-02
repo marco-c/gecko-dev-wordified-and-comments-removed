@@ -1578,6 +1578,11 @@ nsIAddonInterposition
 interposition
 )
 ;
+bool
+ExtraWarningsForSystemJS
+(
+)
+;
 }
 namespace
 mozilla
