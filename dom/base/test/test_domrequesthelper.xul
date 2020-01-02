@@ -1355,7 +1355,7 @@ name
 "
 name1
 "
-strongRef
+weakRef
 :
 false
 }
@@ -1365,7 +1365,7 @@ name
 "
 nameN
 "
-strongRef
+weakRef
 :
 true
 }
@@ -1610,7 +1610,7 @@ name
 "
 name5
 "
-strongRef
+weakRef
 :
 true
 }
@@ -1620,7 +1620,7 @@ name
 "
 name6
 "
-strongRef
+weakRef
 :
 false
 }
@@ -2003,7 +2003,7 @@ name
 "
 name4
 "
-strongRef
+weakRef
 :
 true
 }
@@ -2910,9 +2910,9 @@ name
 "
 foo
 "
-strongRef
+weakRef
 :
-false
+true
 }
 ]
 gc
@@ -2980,9 +2980,9 @@ name
 "
 foo
 "
-strongRef
+weakRef
 :
-false
+true
 }
 ]
 gc
@@ -3052,9 +3052,9 @@ name
 "
 foo
 "
-strongRef
+weakRef
 :
-true
+false
 }
 ]
 gc
@@ -3122,9 +3122,9 @@ name
 "
 foo
 "
-strongRef
+weakRef
 :
-true
+false
 }
 ]
 gc

@@ -233,7 +233,7 @@ if
 !
 aMsg
 .
-strongRef
+weakRef
 =
 =
 this
@@ -258,11 +258,11 @@ NS_ERROR_FAILURE
 }
 aMsg
 .
-strongRef
+weakRef
 ?
 cpmm
 .
-addMessageListener
+addWeakMessageListener
 (
 name
 this
@@ -270,7 +270,7 @@ this
 :
 cpmm
 .
-addWeakMessageListener
+addMessageListener
 (
 name
 this
@@ -287,7 +287,7 @@ name
 !
 aMsg
 .
-strongRef
+weakRef
 ;
 }
 )
@@ -368,7 +368,7 @@ aName
 ?
 cpmm
 .
-removeMessageListener
+removeWeakMessageListener
 (
 aName
 this
@@ -376,7 +376,7 @@ this
 :
 cpmm
 .
-removeWeakMessageListener
+removeMessageListener
 (
 aName
 this
@@ -581,7 +581,7 @@ aName
 ?
 cpmm
 .
-removeMessageListener
+removeWeakMessageListener
 (
 aName
 this
@@ -589,7 +589,7 @@ this
 :
 cpmm
 .
-removeWeakMessageListener
+removeMessageListener
 (
 aName
 this
