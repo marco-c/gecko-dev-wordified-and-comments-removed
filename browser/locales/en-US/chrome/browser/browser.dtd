@@ -769,16 +769,6 @@ Toolbar
 <
 !
 ENTITY
-navbarCmd
-.
-accesskey
-"
-N
-"
->
-<
-!
-ENTITY
 personalbarCmd
 .
 label
