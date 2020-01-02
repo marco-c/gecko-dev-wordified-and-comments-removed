@@ -1727,6 +1727,11 @@ CacheIndexStateChangedInternal
 (
 )
 ;
+nsresult
+UpdateSmartCacheSize
+(
+)
+;
 size_t
 SizeOfExcludingThisInternal
 (
@@ -1831,6 +1836,9 @@ nsRefPtr
 CacheFileContextEvictor
 >
 mContextEvictor
+;
+TimeStamp
+mLastSmartSizeTime
 ;
 }
 ;
