@@ -549,10 +549,6 @@ UpdatePhoneCIND
 (
 uint32_t
 aCallIndex
-bool
-aSend
-=
-true
 )
 ;
 void
