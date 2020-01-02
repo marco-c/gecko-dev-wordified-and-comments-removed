@@ -6958,8 +6958,6 @@ bytesSent
 res
 .
 packetsSent
-*
-8
 "
 Rtp
 bytesSent
@@ -6994,8 +6992,6 @@ bytesReceived
 res
 .
 packetsReceived
-*
-8
 "
 Rtp
 bytesReceived
@@ -7136,8 +7132,6 @@ bytesReceived
 rem
 .
 packetsReceived
-*
-8
 "
 Rtcp
 bytesReceived
@@ -7285,8 +7279,6 @@ bytesSent
 rem
 .
 packetsSent
-*
-8
 "
 Rtcp
 bytesSent
