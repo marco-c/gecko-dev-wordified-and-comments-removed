@@ -3072,6 +3072,7 @@ buffer
 function
 mapThread
 (
+_
 warmup
 )
 {
@@ -3355,6 +3356,7 @@ accumulator
 function
 reduceThread
 (
+_
 warmup
 )
 {
@@ -3735,6 +3737,7 @@ accumulator
 function
 phase1
 (
+_
 warmup
 )
 {
@@ -3817,6 +3820,7 @@ length
 function
 phase2
 (
+_
 warmup
 )
 {
@@ -4467,6 +4471,7 @@ chunks
 function
 findSurvivorsThread
 (
+_
 warmup
 )
 {
@@ -4635,6 +4640,7 @@ return
 function
 copySurvivorsThread
 (
+_
 warmup
 )
 {
@@ -5071,6 +5077,7 @@ buffer
 function
 constructThread
 (
+_
 warmup
 )
 {
