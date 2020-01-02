@@ -11749,6 +11749,13 @@ nsRestyleHint
 aChildRestyleHint
 )
 {
+bool
+mightReframePseudos
+=
+aChildRestyleHint
+&
+eRestyle_Subtree
+;
 RestyleUndisplayedChildren
 (
 aChildRestyleHint
@@ -11764,7 +11771,7 @@ nsChangeHint_ReconstructFrame
 )
 &
 &
-aChildRestyleHint
+mightReframePseudos
 )
 {
 RestyleBeforePseudo
@@ -11840,7 +11847,7 @@ nsChangeHint_ReconstructFrame
 )
 &
 &
-aChildRestyleHint
+mightReframePseudos
 )
 {
 RestyleAfterPseudo
