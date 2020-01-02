@@ -673,16 +673,6 @@ data
 wbxml
 }
 ;
-authInfo
-.
-data
-.
-length
-=
-wbxml
-.
-length
-;
 switch
 (
 authInfo
