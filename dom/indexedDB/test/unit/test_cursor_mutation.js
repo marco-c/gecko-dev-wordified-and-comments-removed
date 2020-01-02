@@ -218,15 +218,6 @@ true
 }
 )
 ;
-(
-function
-(
-)
-{
-objectStore
-}
-)
-;
 for
 (
 let
@@ -721,10 +712,6 @@ removed
 )
 ;
 finishTest
-(
-)
-;
-gc
 (
 )
 ;
