@@ -672,6 +672,13 @@ rssMemory
 0
 ;
 }
+sample
+-
+>
+ussMemory
+=
+0
+;
 static
 const
 DWORD

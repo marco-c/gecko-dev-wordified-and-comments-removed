@@ -796,6 +796,9 @@ timestamp
 int64_t
 rssMemory
 ;
+int64_t
+ussMemory
+;
 }
 ;
 class

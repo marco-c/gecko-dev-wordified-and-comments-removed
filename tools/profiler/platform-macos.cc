@@ -1176,6 +1176,13 @@ rssMemory
 0
 ;
 }
+sample
+-
+>
+ussMemory
+=
+0
+;
 if
 (
 KERN_SUCCESS

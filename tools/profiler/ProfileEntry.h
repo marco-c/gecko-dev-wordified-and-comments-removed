@@ -674,6 +674,9 @@ public
 int64_t
 mRssMemory
 ;
+int64_t
+mUssMemory
+;
 #
 endif
 }
