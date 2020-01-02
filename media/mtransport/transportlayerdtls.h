@@ -184,10 +184,6 @@ TransportLayerDtls
 (
 )
 :
-TransportLayer
-(
-DGRAM
-)
 role_
 (
 CLIENT
