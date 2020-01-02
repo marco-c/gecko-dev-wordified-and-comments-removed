@@ -1674,9 +1674,11 @@ spec
 ;
 return
 aURI
-=
-=
+.
+startsWith
+(
 kStartURI
+)
 |
 |
 aURI
