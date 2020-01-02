@@ -1731,6 +1731,7 @@ DIAGNOSTIC_TILE
 aScreenRegion
 aClipRect
 aTransform
+mFlashCounter
 )
 ;
 }
@@ -2275,6 +2276,7 @@ DIAGNOSTIC_CONTENT
 rect
 aClipRect
 aTransform
+mFlashCounter
 )
 ;
 }

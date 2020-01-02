@@ -490,6 +490,13 @@ filter
 clipRect
 )
 ;
+mImageHost
+-
+>
+BumpFlashCounter
+(
+)
+;
 }
 CompositableHost
 *
