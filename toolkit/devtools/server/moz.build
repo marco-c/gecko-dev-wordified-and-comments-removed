@@ -140,11 +140,6 @@ XPIDL_SOURCES
 =
 [
 '
-nsIDebuggerServerController
-.
-idl
-'
-'
 nsIJSInspector
 .
 idl
