@@ -295,7 +295,10 @@ JSObject
 *
 obj
 =
-js_NewGCObject
+js
+:
+:
+NewGCObject
 <
 NoGC
 >
@@ -305,6 +308,7 @@ entry
 -
 >
 kind
+0
 heap
 )
 ;
