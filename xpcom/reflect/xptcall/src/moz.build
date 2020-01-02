@@ -125,8 +125,6 @@ xpcom
 reflect
 /
 xptinfo
-/
-src
 '
 ]
 FINAL_LIBRARY

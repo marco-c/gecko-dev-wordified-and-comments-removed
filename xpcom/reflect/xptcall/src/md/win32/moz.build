@@ -243,8 +243,6 @@ LOCAL_INCLUDES
 .
 /
 xptinfo
-/
-src
 '
 ]
 if

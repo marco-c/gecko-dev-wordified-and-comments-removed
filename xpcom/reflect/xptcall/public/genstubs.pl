@@ -191,8 +191,6 @@ reflect
 /
 xptinfo
 /
-src
-/
 xptiInterfaceInfoManager
 .
 cpp
