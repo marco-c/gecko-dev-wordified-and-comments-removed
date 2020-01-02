@@ -4215,13 +4215,6 @@ title
 uri
 :
 emailAddr
-type
-:
-"
-text
-/
-mailto
-"
 }
 ;
 }
@@ -4340,13 +4333,6 @@ title
 uri
 :
 phoneNumber
-type
-:
-"
-text
-/
-tel
-"
 }
 ;
 }
