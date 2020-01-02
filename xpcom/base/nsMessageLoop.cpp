@@ -93,6 +93,10 @@ MessageLoopIdleTask
 {
 public
 :
+MOZ_DECLARE_REFCOUNTED_TYPENAME
+(
+MessageLoopIdleTask
+)
 MessageLoopIdleTask
 (
 nsIRunnable

@@ -100,6 +100,10 @@ nsTextEditorState
 {
 public
 :
+MOZ_DECLARE_REFCOUNTED_TYPENAME
+(
+nsTextEditorState
+)
 explicit
 nsTextEditorState
 (

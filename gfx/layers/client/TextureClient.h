@@ -1260,6 +1260,10 @@ DeprecatedTextureClient
 {
 public
 :
+MOZ_DECLARE_REFCOUNTED_TYPENAME
+(
+DeprecatedTextureClient
+)
 typedef
 gl
 :

@@ -130,6 +130,10 @@ RefCounted
 Effect
 >
 {
+MOZ_DECLARE_REFCOUNTED_TYPENAME
+(
+Effect
+)
 Effect
 (
 EffectTypes

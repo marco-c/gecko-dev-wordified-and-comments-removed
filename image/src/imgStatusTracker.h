@@ -462,6 +462,10 @@ imgStatusTracker
 {
 public
 :
+MOZ_DECLARE_REFCOUNTED_TYPENAME
+(
+imgStatusTracker
+)
 NS_INLINE_DECL_THREADSAFE_REFCOUNTING
 (
 imgStatusTracker
