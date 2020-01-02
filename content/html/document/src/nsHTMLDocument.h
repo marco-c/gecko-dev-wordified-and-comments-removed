@@ -1451,6 +1451,13 @@ HTMLAllCollection
 >
 mAll
 ;
+nsRefPtrHashtable
+<
+nsStringHashKey
+nsContentList
+>
+mAllMap
+;
 int32_t
 mNumForms
 ;
