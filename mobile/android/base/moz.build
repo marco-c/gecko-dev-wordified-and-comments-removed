@@ -2608,6 +2608,13 @@ java
 '
 tabspanel
 /
+PrivateTabsPanel
+.
+java
+'
+'
+tabspanel
+/
 RemoteTabsContainerPanel
 .
 java
