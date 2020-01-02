@@ -776,16 +776,6 @@ do_GetWeakReference
 domSelection
 )
 ;
-if
-(
-mVisible
-)
-{
-StartBlinking
-(
-)
-;
-}
 return
 NS_OK
 ;
