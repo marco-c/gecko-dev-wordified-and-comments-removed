@@ -20798,7 +20798,7 @@ GetSize
 )
 ;
 }
-NS_IMETHODIMP
+void
 nsFrame
 :
 :
@@ -20894,6 +20894,7 @@ if
 (
 frame
 )
+{
 *
 aView
 =
@@ -20904,9 +20905,7 @@ GetView
 (
 )
 ;
-return
-NS_OK
-;
+}
 }
 nsIWidget
 *
@@ -27146,8 +27145,6 @@ nsView
 *
 view
 ;
-result
-=
 resultFrame
 -
 >
@@ -27160,14 +27157,14 @@ view
 ;
 if
 (
-NS_FAILED
-(
-result
+!
+view
 )
-)
+{
 return
-result
+NS_ERROR_FAILURE
 ;
+}
 point
 .
 y

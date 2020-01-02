@@ -801,7 +801,8 @@ nsIFrame
 )
 MOZ_OVERRIDE
 ;
-NS_IMETHOD
+virtual
+void
 GetOffsetFromView
 (
 nsPoint

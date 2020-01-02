@@ -4337,7 +4337,8 @@ GetScreenRectInAppUnitsExternal
 )
 const
 ;
-NS_IMETHOD
+virtual
+void
 GetOffsetFromView
 (
 nsPoint
