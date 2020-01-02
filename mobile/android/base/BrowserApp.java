@@ -14592,6 +14592,12 @@ new
 BrowserHealthRecorder
 (
 context
+GeckoSharedPrefs
+.
+forApp
+(
+context
+)
 profilePath
 dispatcher
 osLocale
