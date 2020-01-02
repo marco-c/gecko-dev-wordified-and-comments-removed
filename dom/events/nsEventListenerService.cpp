@@ -248,8 +248,13 @@ aCx
 JS
 :
 :
+MutableHandle
+<
+JS
+:
+:
 Value
-*
+>
 aObject
 )
 {
@@ -267,6 +272,10 @@ GetJSVal
 aCx
 ac
 aObject
+.
+address
+(
+)
 )
 ;
 return

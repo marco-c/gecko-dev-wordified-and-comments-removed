@@ -2932,7 +2932,10 @@ handler
 "
 )
 jsVal
-JSVAL_NULL
+JS
+:
+:
+NullHandleValue
 principal
 cx
 2

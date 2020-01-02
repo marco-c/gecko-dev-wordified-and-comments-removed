@@ -5325,11 +5325,8 @@ gpi
 Init
 (
 mWindow
+&
 prop_val
-.
-address
-(
-)
 )
 ;
 NS_ENSURE_SUCCESS
@@ -6411,11 +6408,8 @@ gpi
 Init
 (
 mWindow
+&
 prop_val
-.
-address
-(
-)
 )
 ;
 if
