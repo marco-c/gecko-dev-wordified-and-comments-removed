@@ -960,9 +960,6 @@ code
 )
 =
 =
-JSC
-:
-:
 X86Registers
 :
 :

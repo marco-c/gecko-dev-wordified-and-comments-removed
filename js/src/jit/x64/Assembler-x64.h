@@ -56,9 +56,6 @@ Register
 rax
 =
 {
-JSC
-:
-:
 X86Registers
 :
 :
@@ -71,9 +68,6 @@ Register
 rbx
 =
 {
-JSC
-:
-:
 X86Registers
 :
 :
@@ -86,9 +80,6 @@ Register
 rcx
 =
 {
-JSC
-:
-:
 X86Registers
 :
 :
@@ -101,9 +92,6 @@ Register
 rdx
 =
 {
-JSC
-:
-:
 X86Registers
 :
 :
@@ -116,9 +104,6 @@ Register
 rsi
 =
 {
-JSC
-:
-:
 X86Registers
 :
 :
@@ -131,9 +116,6 @@ Register
 rdi
 =
 {
-JSC
-:
-:
 X86Registers
 :
 :
@@ -146,9 +128,6 @@ Register
 rbp
 =
 {
-JSC
-:
-:
 X86Registers
 :
 :
@@ -161,9 +140,6 @@ Register
 r8
 =
 {
-JSC
-:
-:
 X86Registers
 :
 :
@@ -176,9 +152,6 @@ Register
 r9
 =
 {
-JSC
-:
-:
 X86Registers
 :
 :
@@ -191,9 +164,6 @@ Register
 r10
 =
 {
-JSC
-:
-:
 X86Registers
 :
 :
@@ -206,9 +176,6 @@ Register
 r11
 =
 {
-JSC
-:
-:
 X86Registers
 :
 :
@@ -221,9 +188,6 @@ Register
 r12
 =
 {
-JSC
-:
-:
 X86Registers
 :
 :
@@ -236,9 +200,6 @@ Register
 r13
 =
 {
-JSC
-:
-:
 X86Registers
 :
 :
@@ -251,9 +212,6 @@ Register
 r14
 =
 {
-JSC
-:
-:
 X86Registers
 :
 :
@@ -266,9 +224,6 @@ Register
 r15
 =
 {
-JSC
-:
-:
 X86Registers
 :
 :
@@ -281,9 +236,6 @@ Register
 rsp
 =
 {
-JSC
-:
-:
 X86Registers
 :
 :
@@ -296,9 +248,6 @@ FloatRegister
 xmm0
 =
 {
-JSC
-:
-:
 X86Registers
 :
 :
@@ -311,9 +260,6 @@ FloatRegister
 xmm1
 =
 {
-JSC
-:
-:
 X86Registers
 :
 :
@@ -326,9 +272,6 @@ FloatRegister
 xmm2
 =
 {
-JSC
-:
-:
 X86Registers
 :
 :
@@ -341,9 +284,6 @@ FloatRegister
 xmm3
 =
 {
-JSC
-:
-:
 X86Registers
 :
 :
@@ -356,9 +296,6 @@ FloatRegister
 xmm4
 =
 {
-JSC
-:
-:
 X86Registers
 :
 :
@@ -371,9 +308,6 @@ FloatRegister
 xmm5
 =
 {
-JSC
-:
-:
 X86Registers
 :
 :
@@ -386,9 +320,6 @@ FloatRegister
 xmm6
 =
 {
-JSC
-:
-:
 X86Registers
 :
 :
@@ -401,9 +332,6 @@ FloatRegister
 xmm7
 =
 {
-JSC
-:
-:
 X86Registers
 :
 :
@@ -416,9 +344,6 @@ FloatRegister
 xmm8
 =
 {
-JSC
-:
-:
 X86Registers
 :
 :
@@ -431,9 +356,6 @@ FloatRegister
 xmm9
 =
 {
-JSC
-:
-:
 X86Registers
 :
 :
@@ -446,9 +368,6 @@ FloatRegister
 xmm10
 =
 {
-JSC
-:
-:
 X86Registers
 :
 :
@@ -461,9 +380,6 @@ FloatRegister
 xmm11
 =
 {
-JSC
-:
-:
 X86Registers
 :
 :
@@ -476,9 +392,6 @@ FloatRegister
 xmm12
 =
 {
-JSC
-:
-:
 X86Registers
 :
 :
@@ -491,9 +404,6 @@ FloatRegister
 xmm13
 =
 {
-JSC
-:
-:
 X86Registers
 :
 :
@@ -506,9 +416,6 @@ FloatRegister
 xmm14
 =
 {
-JSC
-:
-:
 X86Registers
 :
 :
@@ -521,9 +428,6 @@ FloatRegister
 xmm15
 =
 {
-JSC
-:
-:
 X86Registers
 :
 :
@@ -592,9 +496,6 @@ Register
 InvalidReg
 =
 {
-JSC
-:
-:
 X86Registers
 :
 :
@@ -607,9 +508,6 @@ FloatRegister
 InvalidFloatReg
 =
 {
-JSC
-:
-:
 X86Registers
 :
 :
@@ -4514,9 +4412,6 @@ jCC
 (
 static_cast
 <
-JSC
-:
-:
 X86Assembler
 :
 :
@@ -4840,9 +4735,6 @@ label
 {
 if
 (
-JSC
-:
-:
 X86Assembler
 :
 :
@@ -4861,9 +4753,6 @@ raw
 )
 )
 {
-JSC
-:
-:
 X86Assembler
 :
 :
@@ -4884,9 +4773,6 @@ raw
 }
 else
 {
-JSC
-:
-:
 X86Assembler
 :
 :

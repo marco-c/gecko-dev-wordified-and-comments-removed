@@ -3548,9 +3548,6 @@ label
 {
 if
 (
-JSC
-:
-:
 X86Assembler
 :
 :
@@ -3617,9 +3614,6 @@ label
 {
 if
 (
-JSC
-:
-:
 X86Assembler
 :
 :
@@ -3686,9 +3680,6 @@ label
 {
 if
 (
-JSC
-:
-:
 X86Assembler
 :
 :
@@ -3765,9 +3756,6 @@ ScratchReg
 ;
 if
 (
-JSC
-:
-:
 X86Assembler
 :
 :
@@ -4350,9 +4338,6 @@ dest
 {
 if
 (
-JSC
-:
-:
 X86Assembler
 :
 :
@@ -4497,9 +4482,6 @@ dest
 {
 if
 (
-JSC
-:
-:
 X86Assembler
 :
 :
@@ -4742,9 +4724,6 @@ address
 {
 if
 (
-JSC
-:
-:
 X86Assembler
 :
 :
@@ -4802,9 +4781,6 @@ address
 {
 if
 (
-JSC
-:
-:
 X86Assembler
 :
 :
@@ -8172,9 +8148,6 @@ dest
 {
 if
 (
-JSC
-:
-:
 X86Assembler
 :
 :

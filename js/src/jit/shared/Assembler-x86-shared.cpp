@@ -228,9 +228,6 @@ void
 *
 ptr
 =
-JSC
-:
-:
 X86Assembler
 :
 :
