@@ -85,6 +85,13 @@ nsINetworkManager
 h
 "
 #
+include
+"
+nsProxyRelease
+.
+h
+"
+#
 endif
 #
 include
@@ -903,7 +910,7 @@ mAppId
 #
 ifdef
 MOZ_WIDGET_GONK
-nsCOMPtr
+nsMainThreadPtrHandle
 <
 nsINetworkInterface
 >
