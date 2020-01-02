@@ -428,6 +428,14 @@ nr_ice_candidate
 cand
 )
 ;
+void
+nr_ice_media_stream_role_change
+(
+nr_ice_media_stream
+*
+stream
+)
+;
 #
 ifdef
 __cplusplus

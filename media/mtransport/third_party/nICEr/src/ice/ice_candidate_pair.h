@@ -97,7 +97,7 @@ stun_cb_timer
 ;
 void
 *
-restart_controlled_cb_timer
+restart_role_change_cb_timer
 ;
 void
 *
@@ -235,6 +235,14 @@ nr_ice_cand_pair
 *
 *
 pairp
+)
+;
+void
+nr_ice_candidate_pair_role_change
+(
+nr_ice_cand_pair
+*
+pair
 )
 ;
 #
