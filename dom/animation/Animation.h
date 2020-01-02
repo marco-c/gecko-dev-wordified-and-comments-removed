@@ -321,6 +321,9 @@ namespace
 dom
 {
 class
+AnimationEffect
+;
+class
 Animation
 :
 public
@@ -415,6 +418,14 @@ return
 nullptr
 ;
 }
+already_AddRefed
+<
+AnimationEffect
+>
+GetEffect
+(
+)
+;
 void
 SetParentTime
 (

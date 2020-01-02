@@ -131,6 +131,11 @@ Animation
 h
 '
 '
+AnimationEffect
+.
+h
+'
+'
 AnimationPlayer
 .
 h
@@ -147,6 +152,11 @@ SOURCES
 [
 '
 Animation
+.
+cpp
+'
+'
+AnimationEffect
 .
 cpp
 '
