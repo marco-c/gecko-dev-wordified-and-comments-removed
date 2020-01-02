@@ -638,14 +638,6 @@ testInlineStyle
 ;
 }
 )
-.
-then
-(
-null
-console
-.
-error
-)
 ;
 }
 function
