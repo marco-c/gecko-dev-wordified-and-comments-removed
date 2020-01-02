@@ -78301,7 +78301,7 @@ cx
 xpc
 :
 :
-GetSafeJSContextGlobal
+UnprivilegedJunkScope
 (
 )
 )

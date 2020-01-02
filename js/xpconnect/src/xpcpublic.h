@@ -1482,6 +1482,12 @@ reflector
 ;
 JSObject
 *
+UnprivilegedJunkScope
+(
+)
+;
+JSObject
+*
 PrivilegedJunkScope
 (
 )
@@ -1499,12 +1505,6 @@ WindowOrNull
 JSObject
 *
 aObj
-)
-;
-JSObject
-*
-GetSafeJSContextGlobal
-(
 )
 ;
 nsGlobalWindow

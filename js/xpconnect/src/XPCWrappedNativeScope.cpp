@@ -190,16 +190,6 @@ aPrincipal
 ;
 if
 (
-JS_GetClass
-(
-aGlobal
-)
-=
-=
-&
-SafeJSContextGlobalClass
-|
-|
 IsSandbox
 (
 aGlobal
