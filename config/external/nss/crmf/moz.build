@@ -134,10 +134,12 @@ L
 OS_LIBS
 +
 =
+[
 '
 -
 lcrmf
 '
+]
 else
 :
 USE_LIBS
