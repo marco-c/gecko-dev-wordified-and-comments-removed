@@ -94,14 +94,6 @@ aAdapterDeviceID
 )
 ;
 NS_IMETHOD
-GetAdapterSubsysID
-(
-nsAString
-&
-aAdapterSubsysID
-)
-;
-NS_IMETHOD
 GetAdapterRAM
 (
 nsAString
@@ -155,14 +147,6 @@ GetAdapterDeviceID2
 nsAString
 &
 aAdapterDeviceID
-)
-;
-NS_IMETHOD
-GetAdapterSubsysID2
-(
-nsAString
-&
-aAdapterSubsysID
 )
 ;
 NS_IMETHOD
@@ -309,7 +293,7 @@ mAdapterVendorID
 nsString
 mAdapterDeviceID
 ;
-nsString
+uint32_t
 mAdapterSubsysID
 ;
 nsString
@@ -333,7 +317,7 @@ mAdapterVendorID2
 nsString
 mAdapterDeviceID2
 ;
-nsString
+uint32_t
 mAdapterSubsysID2
 ;
 uint32_t
