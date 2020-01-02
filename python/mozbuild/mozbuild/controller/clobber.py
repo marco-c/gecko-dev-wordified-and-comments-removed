@@ -1228,6 +1228,9 @@ TinderboxPrint
 auto
 clobber
 '
+file
+=
+fh
 )
         
 return
