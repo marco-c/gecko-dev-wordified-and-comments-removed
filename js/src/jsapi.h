@@ -18963,6 +18963,9 @@ JSContext
 context
 ;
 bool
+wasPropagatingForcedReturn
+;
+bool
 wasThrowing
 ;
 RootedValue
@@ -18988,6 +18991,10 @@ drop
 (
 )
 {
+wasPropagatingForcedReturn
+=
+false
+;
 wasThrowing
 =
 false
