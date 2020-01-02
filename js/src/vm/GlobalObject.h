@@ -155,7 +155,7 @@ const
 unsigned
 APPLICATION_SLOTS
 =
-3
+JSCLASS_GLOBAL_APPLICATION_SLOTS
 ;
 static
 const
