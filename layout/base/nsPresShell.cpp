@@ -26348,6 +26348,10 @@ nsLayoutUtils
 :
 PAINT_COMPRESSED
 ;
+mNextPaintCompressed
+=
+false
+;
 }
 if
 (
