@@ -13046,10 +13046,6 @@ result
 =
 0
 ;
-send_count
-=
-0
-;
 m
 =
 SCTP_HEADER_TO_CHAIN
@@ -14066,10 +14062,6 @@ use_udp_tunneling
 ;
 *
 result
-=
-0
-;
-send_count
 =
 0
 ;

@@ -3371,11 +3371,6 @@ buffer
 length
 )
 ;
-res
-=
--
-1
-;
 peer
 -
 >
