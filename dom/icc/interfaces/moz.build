@@ -103,11 +103,6 @@ nsIDOMIccInfo
 idl
 '
 '
-nsIDOMIccManager
-.
-idl
-'
-'
 nsIIccProvider
 .
 idl

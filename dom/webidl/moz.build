@@ -2719,6 +2719,11 @@ MozIcc
 webidl
 '
 '
+MozIccManager
+.
+webidl
+'
+'
 MozMobileConnectionArray
 .
 webidl

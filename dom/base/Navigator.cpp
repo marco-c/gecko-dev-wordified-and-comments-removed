@@ -6507,7 +6507,7 @@ return
 mVoicemail
 ;
 }
-nsIDOMMozIccManager
+IccManager
 *
 Navigator
 :

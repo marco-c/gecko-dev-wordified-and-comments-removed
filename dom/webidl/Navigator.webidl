@@ -1905,12 +1905,6 @@ mozVoicemail
 ;
 }
 ;
-/
-/
-nsIMozNavigatorIccManager
-interface
-MozIccManager
-;
 partial
 interface
 Navigator

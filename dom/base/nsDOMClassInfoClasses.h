@@ -207,15 +207,6 @@ DOMCI_CLASS
 (
 CSSPageRule
 )
-#
-ifdef
-MOZ_B2G_RIL
-DOMCI_CLASS
-(
-MozIccManager
-)
-#
-endif
 DOMCI_CLASS
 (
 CSSFontFeatureValuesRule
