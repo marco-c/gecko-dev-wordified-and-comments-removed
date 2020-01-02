@@ -3558,10 +3558,6 @@ nsHTMLReflowMetrics
 metrics
 (
 aReflowState
-.
-GetWritingMode
-(
-)
 )
 ;
 metrics

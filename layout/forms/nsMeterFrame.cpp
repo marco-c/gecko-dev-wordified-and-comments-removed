@@ -971,10 +971,6 @@ nsHTMLReflowMetrics
 barDesiredSize
 (
 reflowState
-.
-GetWritingMode
-(
-)
 )
 ;
 ReflowChild

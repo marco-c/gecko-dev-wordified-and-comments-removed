@@ -1787,10 +1787,6 @@ desiredSize
 aReflowState
 .
 reflowState
-.
-GetWritingMode
-(
-)
 aDesiredSize
 .
 mFlags
@@ -5555,10 +5551,6 @@ nsHTMLReflowMetrics
 rowMetrics
 (
 aReflowState
-.
-GetWritingMode
-(
-)
 )
 ;
 nsRect
