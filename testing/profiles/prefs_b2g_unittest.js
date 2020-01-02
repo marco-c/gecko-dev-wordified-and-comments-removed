@@ -137,3 +137,15 @@ local
 true
 )
 ;
+user_pref
+(
+"
+dom
+.
+testing
+.
+datastore_enabled_for_hosted_apps
+"
+true
+)
+;
