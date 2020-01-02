@@ -2734,6 +2734,9 @@ notifyDialSuccess
 response
 .
 callIndex
+response
+.
+number
 )
 ;
 }
@@ -2773,6 +2776,9 @@ notifyDialSuccess
 response
 .
 callIndex
+response
+.
+number
 )
 ;
 }
@@ -2783,6 +2789,9 @@ aCallback
 notifyDialSuccess
 (
 CDMA_SECOND_CALL_INDEX
+response
+.
+number
 )
 ;
 this

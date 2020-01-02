@@ -293,6 +293,10 @@ const
 uint32_t
 &
 aCallIndex
+const
+nsString
+&
+aNumber
 )
 MOZ_OVERRIDE
 ;

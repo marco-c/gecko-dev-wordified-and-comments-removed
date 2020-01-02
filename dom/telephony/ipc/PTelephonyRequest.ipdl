@@ -180,6 +180,8 @@ NotifyDialSuccess
 (
 uint32_t
 aCallIndex
+nsString
+aNumber
 )
 ;
 /
