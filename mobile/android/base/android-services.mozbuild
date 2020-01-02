@@ -7605,6 +7605,15 @@ fxa
 /
 sync
 /
+FxAccountNotificationManager
+.
+java
+'
+'
+fxa
+/
+sync
+/
 FxAccountSchedulePolicy
 .
 java
