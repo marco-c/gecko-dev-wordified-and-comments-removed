@@ -138,7 +138,7 @@ static
 int
 DB_VERSION
 =
-2
+1
 ;
 private
 static
