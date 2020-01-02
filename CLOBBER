@@ -195,7 +195,15 @@ any
 more
 .
 Clobber
-for
+to
+make
+sure
+any
+residual
+damage
+from
 bug
-1022262
+975011
+is
+gone
 .
