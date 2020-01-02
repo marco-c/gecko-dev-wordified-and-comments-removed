@@ -505,7 +505,7 @@ mCompositableType
 case
 BUFFER_BRIDGE
 :
-MOZ_CRASH
+NS_ERROR
 (
 "
 Cannot
@@ -591,7 +591,7 @@ break
 ;
 default
 :
-MOZ_CRASH
+NS_ERROR
 (
 "
 Unknown
