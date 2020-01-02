@@ -560,6 +560,13 @@ UiAsyncTask
 .
 java
 '
+'
+util
+/
+WebActivityMapper
+.
+java
+'
 ]
 gujar
 .
