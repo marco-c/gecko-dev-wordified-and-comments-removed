@@ -7174,7 +7174,7 @@ allowedAreas
 shortcut
 :
 null
-description
+tooltiptext
 :
 null
 }
@@ -7313,7 +7313,7 @@ kOptStringProps
 =
 [
 "
-name
+label
 "
 "
 tooltiptext
@@ -9890,10 +9890,10 @@ type
 disabled
 "
 "
-name
+label
 "
 "
-description
+tooltiptext
 "
 ]
 ;
@@ -10142,7 +10142,7 @@ nodeProps
 label
 "
 "
-description
+tooltiptext
 "
 ]
 ;
