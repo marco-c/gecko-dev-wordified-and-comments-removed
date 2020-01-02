@@ -265,7 +265,7 @@ profile
 /
 dirserviceprovider
 /
-standalone
+src
 /
 (
 LIB_PREFIX
