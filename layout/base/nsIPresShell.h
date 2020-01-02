@@ -2808,7 +2808,7 @@ aFlushOnHoverChange
 ;
 virtual
 void
-SizeOfIncludingThis
+AddSizeOfIncludingThis
 (
 mozilla
 :

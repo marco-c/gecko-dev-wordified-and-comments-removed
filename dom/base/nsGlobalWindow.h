@@ -2306,7 +2306,7 @@ sWindowsById
 ;
 }
 void
-SizeOfIncludingThis
+AddSizeOfIncludingThis
 (
 nsWindowSizes
 *

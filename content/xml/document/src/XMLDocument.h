@@ -175,7 +175,7 @@ MOZ_OVERRIDE
 ;
 virtual
 void
-DocSizeOfExcludingThis
+DocAddSizeOfExcludingThis
 (
 nsWindowSizes
 *

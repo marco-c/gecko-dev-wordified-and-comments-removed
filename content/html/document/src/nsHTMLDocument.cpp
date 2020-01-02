@@ -16185,7 +16185,7 @@ void
 nsHTMLDocument
 :
 :
-DocSizeOfExcludingThis
+DocAddSizeOfExcludingThis
 (
 nsWindowSizes
 *
@@ -16196,7 +16196,7 @@ const
 nsDocument
 :
 :
-DocSizeOfExcludingThis
+DocAddSizeOfExcludingThis
 (
 aWindowSizes
 )

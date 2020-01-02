@@ -655,7 +655,7 @@ aElementId
 }
 virtual
 void
-DocSizeOfExcludingThis
+DocAddSizeOfExcludingThis
 (
 nsWindowSizes
 *

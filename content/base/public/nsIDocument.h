@@ -4174,7 +4174,7 @@ SetNeedStyleFlush
 }
 virtual
 void
-DocSizeOfExcludingThis
+DocAddSizeOfExcludingThis
 (
 nsWindowSizes
 *
@@ -4184,7 +4184,7 @@ const
 ;
 virtual
 void
-DocSizeOfIncludingThis
+DocAddSizeOfIncludingThis
 (
 nsWindowSizes
 *

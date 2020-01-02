@@ -242,7 +242,7 @@ aPtr
 ;
 }
 void
-SizeOfExcludingThis
+AddSizeOfExcludingThis
 (
 mozilla
 :
