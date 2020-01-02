@@ -207,11 +207,8 @@ MOZ_ASSERT
 mShuttingDownOnIOThread
 )
 ;
-RemoveWatchers
+Close
 (
-READ_WATCHER
-|
-WRITE_WATCHER
 )
 ;
 mShuttingDownOnIOThread
