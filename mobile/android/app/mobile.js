@@ -4187,13 +4187,10 @@ mozilla
 .
 org
 /
-legal
-/
 privacy
 /
 firefox
-.
-html
+/
 "
 )
 ;
