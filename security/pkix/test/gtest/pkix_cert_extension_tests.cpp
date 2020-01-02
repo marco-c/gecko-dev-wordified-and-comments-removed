@@ -302,11 +302,12 @@ CheckRevocation
 (
 EndEntityOrCA
 const
-CERTCertificate
-*
-CERTCertificate
-*
+CertID
+&
 PRTime
+const
+SECItem
+*
 const
 SECItem
 *
