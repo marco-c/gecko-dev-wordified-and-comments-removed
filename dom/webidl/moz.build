@@ -2353,6 +2353,11 @@ WEBIDL_FILES
 =
 [
 '
+MozStkCommandEvent
+.
+webidl
+'
+'
 MozVoicemail
 .
 webidl
@@ -2550,11 +2555,6 @@ webidl
 '
 '
 MozOtaStatusEvent
-.
-webidl
-'
-'
-MozStkCommandEvent
 .
 webidl
 '
