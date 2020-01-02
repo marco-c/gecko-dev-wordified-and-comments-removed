@@ -1605,7 +1605,7 @@ pc
 sc
 -
 >
-bindingsAccessedDynamically
+allLocalsAliased
 (
 )
 &
