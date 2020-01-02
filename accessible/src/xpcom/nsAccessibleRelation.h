@@ -69,6 +69,11 @@ nsAccessibleRelation
 (
 )
 ;
+~
+nsAccessibleRelation
+(
+)
+;
 nsAccessibleRelation
 (
 const

@@ -150,6 +150,15 @@ required
 )
 ;
 }
+nsAccessiblePivot
+:
+:
+~
+nsAccessiblePivot
+(
+)
+{
+}
 NS_IMPL_CYCLE_COLLECTION
 (
 nsAccessiblePivot

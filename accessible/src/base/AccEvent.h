@@ -89,13 +89,6 @@ aEventRule
 eRemoveDupes
 )
 ;
-virtual
-~
-AccEvent
-(
-)
-{
-}
 uint32_t
 GetEventType
 (
@@ -218,6 +211,13 @@ AccEvent
 )
 protected
 :
+virtual
+~
+AccEvent
+(
+)
+{
+}
 bool
 mIsFromUserInput
 ;

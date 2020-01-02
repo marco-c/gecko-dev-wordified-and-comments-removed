@@ -93,6 +93,15 @@ false
 )
 ;
 }
+nsAccessibleRelation
+:
+:
+~
+nsAccessibleRelation
+(
+)
+{
+}
 NS_IMPL_ISUPPORTS
 (
 nsAccessibleRelation

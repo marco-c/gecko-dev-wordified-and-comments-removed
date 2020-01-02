@@ -98,6 +98,11 @@ mPosition
 }
 private
 :
+~
+nsAccessiblePivot
+(
+)
+;
 nsAccessiblePivot
 (
 )
