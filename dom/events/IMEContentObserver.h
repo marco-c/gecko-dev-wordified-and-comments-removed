@@ -92,6 +92,9 @@ namespace
 mozilla
 {
 class
+EventStateManager
+;
+class
 IMEContentObserver
 MOZ_FINAL
 :
@@ -149,6 +152,11 @@ aContent
 ;
 void
 Destroy
+(
+)
+;
+void
+DisconnectFromEventStateManager
 (
 )
 ;
@@ -256,6 +264,10 @@ nsCOMPtr
 nsIDocShell
 >
 mDocShell
+;
+EventStateManager
+*
+mESM
 ;
 nsIMEUpdatePreference
 mUpdatePreference
