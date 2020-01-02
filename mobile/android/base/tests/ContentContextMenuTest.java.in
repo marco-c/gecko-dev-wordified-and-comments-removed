@@ -56,7 +56,7 @@ abstract
 class
 ContentContextMenuTest
 extends
-BaseTest
+PixelTest
 {
 private
 static
