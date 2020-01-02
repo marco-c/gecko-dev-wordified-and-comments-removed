@@ -872,6 +872,17 @@ EditReply
 reply
 )
 {
+profiler_tracing
+(
+"
+Paint
+"
+"
+Composite
+"
+TRACING_INTERVAL_START
+)
+;
 PROFILER_LABEL
 (
 "

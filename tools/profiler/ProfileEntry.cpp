@@ -6,13 +6,6 @@ ostream
 #
 include
 "
-GeckoProfilerImpl
-.
-h
-"
-#
-include
-"
 platform
 .
 h
