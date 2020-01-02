@@ -440,6 +440,7 @@ PR_SockOpt_McastLoopback
 PR_SockOpt_NoDelay
 PR_SockOpt_MaxSegment
 PR_SockOpt_Broadcast
+PR_SockOpt_Reuseport
 PR_SockOpt_Last
 }
 PRSockOption
@@ -493,6 +494,9 @@ non_blocking
 ;
 PRBool
 reuse_addr
+;
+PRBool
+reuse_port
 ;
 PRBool
 keep_alive

@@ -276,6 +276,9 @@ PR_SockOpt_NoDelay
 case
 PR_SockOpt_Broadcast
 :
+case
+PR_SockOpt_Reuseport
+:
 {
 #
 ifdef
@@ -985,6 +988,9 @@ PR_SockOpt_NoDelay
 case
 PR_SockOpt_Broadcast
 :
+case
+PR_SockOpt_Reuseport
+:
 {
 #
 ifdef
@@ -1509,6 +1515,15 @@ SO_BROADCAST
 _PR_NO_SUCH_SOCKOPT
 #
 endif
+#
+ifndef
+SO_REUSEPORT
+#
+define
+SO_REUSEPORT
+_PR_NO_SUCH_SOCKOPT
+#
+endif
 PRStatus
 _PR_MapOptionName
 (
@@ -1546,6 +1561,7 @@ IP_MULTICAST_LOOP
 TCP_NODELAY
 TCP_MAXSEG
 SO_BROADCAST
+SO_REUSEPORT
 }
 ;
 static
@@ -1571,6 +1587,7 @@ IPPROTO_IP
 IPPROTO_IP
 IPPROTO_TCP
 IPPROTO_TCP
+SOL_SOCKET
 SOL_SOCKET
 }
 ;
