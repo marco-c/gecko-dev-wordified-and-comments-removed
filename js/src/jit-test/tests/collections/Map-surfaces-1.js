@@ -1,3 +1,14 @@
+load
+(
+libdir
++
+"
+iteration
+.
+js
+"
+)
+;
 var
 desc
 =
@@ -388,8 +399,9 @@ assertEq
 Map
 .
 prototype
-.
-iterator
+[
+std_iterator
+]
 Map
 .
 prototype

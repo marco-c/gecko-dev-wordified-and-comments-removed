@@ -1,3 +1,14 @@
+load
+(
+libdir
++
+"
+iteration
+.
+js
+"
+)
+;
 var
 desc
 =
@@ -386,8 +397,9 @@ assertEq
 Set
 .
 prototype
-.
-iterator
+[
+std_iterator
+]
 Set
 .
 prototype

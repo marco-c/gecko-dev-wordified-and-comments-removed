@@ -942,6 +942,9 @@ case
 JSOP_SPREADEVAL
 :
 case
+JSOP_ENTERLET2
+:
+case
 JSOP_ENTERWITH
 :
 canTrackVars

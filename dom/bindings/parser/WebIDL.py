@@ -1933,9 +1933,6 @@ in
 constructor
 "
 "
-iterator
-"
-"
 toString
 "
 "
