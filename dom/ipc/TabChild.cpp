@@ -2785,14 +2785,6 @@ GetIsFirstPaint
 isFirstPaint
 )
 ;
-MOZ_ASSERT
-(
-NS_SUCCEEDED
-(
-rv
-)
-)
-;
 if
 (
 NS_FAILED
