@@ -8574,11 +8574,8 @@ hideWebContent
 {
 mLayerView
 .
-setVisibility
+hide
 (
-View
-.
-INVISIBLE
 )
 ;
 }
@@ -8662,11 +8659,8 @@ false
 ;
 mLayerView
 .
-setVisibility
+show
 (
-View
-.
-VISIBLE
 )
 ;
 if
