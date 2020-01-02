@@ -147,6 +147,12 @@ width
 :
 1px
 ;
+shape
+-
+rendering
+:
+crispEdges
+;
 }
 <
 /
