@@ -126,5 +126,11 @@ lang
 "
 "
 ;
+DOMString
+tag
+=
+"
+"
+;
 }
 ;
