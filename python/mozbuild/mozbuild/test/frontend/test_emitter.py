@@ -1150,10 +1150,6 @@ FORCE_SHARED_LIB
 =
 True
             
-FORCE_STATIC_LIB
-=
-True
-            
 GTEST_CSRCS
 =
 [
