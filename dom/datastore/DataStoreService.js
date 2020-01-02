@@ -722,15 +722,7 @@ results
 ;
 }
 }
-function
-(
-)
-{
-reject
-(
-)
-;
-}
+false
 )
 ;
 }
