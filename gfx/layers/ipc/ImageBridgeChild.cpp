@@ -994,6 +994,13 @@ sImageBridgeChildSingleton
 nullptr
 ;
 static
+nsRefPtr
+<
+ImageBridgeParent
+>
+sImageBridgeParentSingleton
+;
+static
 Thread
 *
 sImageBridgeChildThread
@@ -1098,6 +1105,10 @@ delete
 sImageBridgeChildSingleton
 ;
 sImageBridgeChildSingleton
+=
+nullptr
+;
+sImageBridgeParentSingleton
 =
 nullptr
 ;
@@ -2689,9 +2700,7 @@ ImageBridgeChild
 (
 )
 ;
-ImageBridgeParent
-*
-imageBridgeParent
+sImageBridgeParentSingleton
 =
 new
 ImageBridgeParent
@@ -2710,7 +2719,7 @@ sImageBridgeChildSingleton
 >
 ConnectAsync
 (
-imageBridgeParent
+sImageBridgeParentSingleton
 )
 ;
 return
