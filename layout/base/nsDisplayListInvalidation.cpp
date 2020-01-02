@@ -12,6 +12,13 @@ nsDisplayList
 .
 h
 "
+#
+include
+"
+nsIFrame
+.
+h
+"
 nsDisplayItemGeometry
 :
 :
