@@ -4759,8 +4759,6 @@ links
 =
 node
 .
-ownerDocument
-.
 querySelectorAll
 (
 '
