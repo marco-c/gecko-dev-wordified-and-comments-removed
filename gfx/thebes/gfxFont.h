@@ -5845,6 +5845,7 @@ bool
 ProvidesGlyphWidths
 (
 )
+const
 {
 return
 false
