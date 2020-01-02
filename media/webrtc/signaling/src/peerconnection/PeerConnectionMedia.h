@@ -1647,6 +1647,7 @@ int
 aIndex
 bool
 aRtcp
+const
 mozilla
 :
 :
@@ -1657,6 +1658,7 @@ mozilla
 :
 TransportFlow
 >
+&
 aFlow
 )
 {
@@ -1700,7 +1702,7 @@ RefPtr
 mozilla
 :
 :
-AudioSessionConduit
+MediaSessionConduit
 >
 GetConduit
 (
@@ -1727,7 +1729,7 @@ aReceive
 ;
 if
 (
-mAudioConduits
+mConduits
 .
 find
 (
@@ -1735,7 +1737,7 @@ index_inner
 )
 =
 =
-mAudioConduits
+mConduits
 .
 end
 (
@@ -1745,7 +1747,7 @@ return
 NULL
 ;
 return
-mAudioConduits
+mConduits
 [
 index_inner
 ]
@@ -1767,7 +1769,7 @@ RefPtr
 mozilla
 :
 :
-AudioSessionConduit
+MediaSessionConduit
 >
 &
 aConduit
@@ -1791,13 +1793,13 @@ aReceive
 MOZ_ASSERT
 (
 !
-mAudioConduits
+mConduits
 [
 index_inner
 ]
 )
 ;
-mAudioConduits
+mConduits
 [
 index_inner
 ]
@@ -2000,10 +2002,10 @@ RefPtr
 mozilla
 :
 :
-AudioSessionConduit
+MediaSessionConduit
 >
 >
-mAudioConduits
+mConduits
 ;
 nsCOMPtr
 <

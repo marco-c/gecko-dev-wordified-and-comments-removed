@@ -247,6 +247,9 @@ VideoSessionConduit
 >
 Create
 (
+VideoSessionConduit
+*
+aOther
 )
 ;
 enum
