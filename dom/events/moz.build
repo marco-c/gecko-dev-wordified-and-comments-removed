@@ -157,11 +157,6 @@ nsDOMKeyNameList
 h
 '
 '
-nsDOMTouchEvent
-.
-h
-'
-'
 nsDOMUIEvent
 .
 h
@@ -328,6 +323,11 @@ Touch
 h
 '
 '
+TouchEvent
+.
+h
+'
+'
 WheelEvent
 .
 h
@@ -465,11 +465,6 @@ nsDOMTextEvent
 cpp
 '
 '
-nsDOMTouchEvent
-.
-cpp
-'
-'
 nsDOMTransitionEvent
 .
 cpp
@@ -526,6 +521,11 @@ cpp
 '
 '
 Touch
+.
+cpp
+'
+'
+TouchEvent
 .
 cpp
 '

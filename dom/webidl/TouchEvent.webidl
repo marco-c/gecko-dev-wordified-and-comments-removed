@@ -98,7 +98,13 @@ WindowProxy
 Func
 =
 "
-nsDOMTouchEvent
+mozilla
+:
+:
+dom
+:
+:
+TouchEvent
 :
 :
 PrefEnabled

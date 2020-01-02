@@ -152,7 +152,13 @@ apply
 Func
 =
 "
-nsDOMTouchList
+mozilla
+:
+:
+dom
+:
+:
+TouchList
 :
 :
 PrefEnabled

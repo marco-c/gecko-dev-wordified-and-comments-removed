@@ -1,9 +1,9 @@
 #
 ifndef
-mozilla_dom_Touch_h
+mozilla_dom_Touch_h_
 #
 define
-mozilla_dom_Touch_h
+mozilla_dom_Touch_h_
 #
 include
 "
@@ -91,12 +91,6 @@ aGlobal
 ;
 Touch
 (
-mozilla
-:
-:
-dom
-:
-:
 EventTarget
 *
 aTarget
@@ -162,12 +156,6 @@ aEvent
 void
 SetTarget
 (
-mozilla
-:
-:
-dom
-:
-:
 EventTarget
 *
 aTarget
