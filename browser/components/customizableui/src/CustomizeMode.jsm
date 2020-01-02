@@ -7068,7 +7068,7 @@ this
 panelUIContents
 ;
 let
-visibleCombinedButtons
+visibleWideItems
 =
 contents
 .
@@ -7087,7 +7087,7 @@ hidden
 .
 panel
 -
-combined
+wide
 -
 item
 "
@@ -7120,7 +7120,7 @@ visibleChildren
 .
 length
 -
-visibleCombinedButtons
+visibleWideItems
 .
 length
 )

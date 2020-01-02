@@ -121,7 +121,7 @@ kWidePanelItemClass
 "
 panel
 -
-combined
+wide
 -
 item
 "

@@ -6707,6 +6707,11 @@ chromeclass
 toolbar
 -
 additional
+panel
+-
+wide
+-
+item
 "
 customizableui
 -
