@@ -1191,15 +1191,6 @@ html
 about
 :
 blank
-fails
--
-if
-(
-B2G
-&
-&
-browserIsRemote
-)
 !
 =
 transform
