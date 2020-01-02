@@ -655,9 +655,6 @@ nsIObserverService
 >
 observerService
 =
-mozilla
-:
-:
 services
 :
 :
@@ -720,9 +717,6 @@ nsIObserverService
 >
 observerService
 =
-mozilla
-:
-:
 services
 :
 :
@@ -798,9 +792,6 @@ nsIObserverService
 >
 observerService
 =
-mozilla
-:
-:
 services
 :
 :
@@ -869,6 +860,10 @@ nsIObserver
 )
 ;
 }
+using
+namespace
+mozilla
+;
 namespace
 sipcc
 {
@@ -888,9 +883,6 @@ gMainThread
 ;
 StaticRefPtr
 <
-mozilla
-:
-:
 PeerConnectionCtxShutdown
 >
 PeerConnectionCtx
@@ -1389,9 +1381,6 @@ NS_ERROR_FAILURE
 ;
 ChangeSipccState
 (
-mozilla
-:
-:
 dom
 :
 :
@@ -1537,9 +1526,6 @@ getServiceState
 (
 )
 ;
-mozilla
-:
-:
 dom
 :
 :
@@ -1590,9 +1576,6 @@ state
 {
 if
 (
-mozilla
-:
-:
 dom
 :
 :
@@ -1605,9 +1588,6 @@ Starting
 currentSipccState
 |
 |
-mozilla
-:
-:
 dom
 :
 :
@@ -1622,9 +1602,6 @@ currentSipccState
 {
 ChangeSipccState
 (
-mozilla
-:
-:
 dom
 :
 :

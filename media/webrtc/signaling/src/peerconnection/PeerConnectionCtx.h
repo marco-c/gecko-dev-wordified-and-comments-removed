@@ -153,10 +153,6 @@ mConstraints
 namespace
 sipcc
 {
-using
-namespace
-mozilla
-;
 class
 OnCallEventArgs
 {
@@ -488,6 +484,9 @@ nsIThread
 gMainThread
 ;
 static
+mozilla
+:
+:
 StaticRefPtr
 <
 mozilla

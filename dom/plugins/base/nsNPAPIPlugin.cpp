@@ -10443,6 +10443,15 @@ kJavaContext_ANPGetValue
 jobject
 ret
 =
+mozilla
+:
+:
+widget
+:
+:
+android
+:
+:
 GeckoAppShell
 :
 :
