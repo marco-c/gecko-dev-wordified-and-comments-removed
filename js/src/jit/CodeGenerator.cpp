@@ -20122,12 +20122,7 @@ ifdef
 JSGC_GENERATIONAL
 if
 (
-ins
--
->
-templateObject
-(
-)
+templateObj
 -
 >
 hasDynamicSlots
