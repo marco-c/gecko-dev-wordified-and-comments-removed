@@ -3849,6 +3849,18 @@ self
 if
 self
 .
+session
+:
+            
+self
+.
+delete_session
+(
+)
+        
+if
+self
+.
 emulator
 :
             
