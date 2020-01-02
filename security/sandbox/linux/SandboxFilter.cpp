@@ -666,6 +666,14 @@ Allow
 (
 SYSCALL
 (
+times
+)
+)
+;
+Allow
+(
+SYSCALL
+(
 madvise
 )
 )
