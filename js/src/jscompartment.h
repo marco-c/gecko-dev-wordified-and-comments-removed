@@ -950,6 +950,11 @@ checkNewTypeObjectTableAfterMovingGC
 (
 )
 ;
+void
+checkInitialShapesTableAfterMovingGC
+(
+)
+;
 #
 endif
 js
