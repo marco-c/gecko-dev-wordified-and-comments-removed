@@ -158,11 +158,6 @@ nsIDOMCryptoDialogs
 idl
 '
 '
-nsIFormSigningDialog
-.
-idl
-'
-'
 nsIGenKeypairInfoDlg
 .
 idl

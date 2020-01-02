@@ -103,11 +103,6 @@ nsASN1Tree
 cpp
 '
 '
-nsFormSigningDialog
-.
-cpp
-'
-'
 nsNSSDialogHelper
 .
 cpp

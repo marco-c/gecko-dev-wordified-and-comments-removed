@@ -108,7 +108,7 @@ h
 "
 #
 ifndef
-MOZ_DISABLE_CRYPTOLEGACY
+MOZ_NO_SMART_CARDS
 #
 include
 "
@@ -844,7 +844,7 @@ false
 )
 #
 ifndef
-MOZ_DISABLE_CRYPTOLEGACY
+MOZ_NO_SMART_CARDS
 mThreadList
 (
 nullptr
@@ -1422,7 +1422,7 @@ rv
 }
 #
 ifndef
-MOZ_DISABLE_CRYPTOLEGACY
+MOZ_NO_SMART_CARDS
 void
 nsNSSComponent
 :
@@ -4456,7 +4456,7 @@ initTable
 ;
 #
 ifndef
-MOZ_DISABLE_CRYPTOLEGACY
+MOZ_NO_SMART_CARDS
 LaunchSmartCardThreads
 (
 )
@@ -4589,7 +4589,7 @@ n
 }
 #
 ifndef
-MOZ_DISABLE_CRYPTOLEGACY
+MOZ_NO_SMART_CARDS
 ShutdownSmartCardThreads
 (
 )

@@ -223,6 +223,14 @@ LoadModules
 )
 ;
 "
+onunload
+=
+"
+DeregisterSmartCardObservers
+(
+)
+;
+"
 buttons
 =
 "

@@ -58,11 +58,6 @@ nsIObserverService
 h
 "
 #
-ifndef
-MOZ_DISABLE_CRYPTOLEGACY
-#
-endif
-#
 include
 "
 nsINSSErrorsService
@@ -349,7 +344,7 @@ LogoutAuthenticatedPK11
 ;
 #
 ifndef
-MOZ_DISABLE_CRYPTOLEGACY
+MOZ_NO_SMART_CARDS
 NS_IMETHOD
 LaunchSmartCardThread
 (
@@ -552,7 +547,7 @@ LogoutAuthenticatedPK11
 ;
 #
 ifndef
-MOZ_DISABLE_CRYPTOLEGACY
+MOZ_NO_SMART_CARDS
 NS_IMETHOD
 LaunchSmartCardThread
 (
@@ -751,7 +746,7 @@ mShutdownObjectList
 ;
 #
 ifndef
-MOZ_DISABLE_CRYPTOLEGACY
+MOZ_NO_SMART_CARDS
 SmartCardThreadList
 *
 mThreadList
