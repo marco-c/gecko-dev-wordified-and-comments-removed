@@ -954,6 +954,18 @@ id
 tabs_counter
 )
 ;
+if
+(
+Build
+.
+VERSION
+.
+SDK_INT
+>
+=
+11
+)
+{
 mTabsCounter
 .
 setLayerType
@@ -964,6 +976,7 @@ LAYER_TYPE_HARDWARE
 null
 )
 ;
+}
 mBack
 =
 (
