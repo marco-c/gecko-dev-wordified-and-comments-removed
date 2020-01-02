@@ -556,7 +556,7 @@ drawArrays
 )
 return
 ;
-RunContextLossTimer
+SetupContextLossTimer
 (
 )
 ;
@@ -641,7 +641,7 @@ drawArraysInstanced
 )
 return
 ;
-RunContextLossTimer
+SetupContextLossTimer
 (
 )
 ;
@@ -1387,7 +1387,7 @@ upperBound
 return
 ;
 }
-RunContextLossTimer
+SetupContextLossTimer
 (
 )
 ;
@@ -1524,7 +1524,7 @@ drawElementsInstanced
 )
 return
 ;
-RunContextLossTimer
+SetupContextLossTimer
 (
 )
 ;
