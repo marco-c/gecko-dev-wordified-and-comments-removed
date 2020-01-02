@@ -266,6 +266,16 @@ ScaleType
 CENTER_CROP
 ;
 private
+static
+final
+ScaleType
+SCALE_TYPE_URL
+=
+ScaleType
+.
+CENTER_INSIDE
+;
+private
 final
 TextView
 mTitleView
@@ -964,7 +974,7 @@ mThumbnailView
 .
 setScaleType
 (
-SCALE_TYPE_RESOURCE
+SCALE_TYPE_URL
 )
 ;
 mThumbnailView
