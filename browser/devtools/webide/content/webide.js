@@ -307,9 +307,11 @@ chrome
 :
 /
 /
-webide
+browser
 /
-content
+locale
+/
+devtools
 /
 webide
 .

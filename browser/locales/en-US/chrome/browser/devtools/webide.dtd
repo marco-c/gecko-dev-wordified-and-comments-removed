@@ -537,7 +537,9 @@ Devices
 ENTITY
 runtimePanel_WiFiDevices
 "
-WiFi
+Wi
+-
+Fi
 Devices
 "
 >
