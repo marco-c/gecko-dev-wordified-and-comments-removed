@@ -191,7 +191,7 @@ platformData
 >
 display
 =
-NULL
+nullptr
 ;
 instanceData
 -
@@ -201,7 +201,7 @@ platformData
 >
 visual
 =
-NULL
+nullptr
 ;
 instanceData
 -
@@ -221,7 +221,7 @@ platformData
 >
 plug
 =
-NULL
+nullptr
 ;
 return
 NPERR_NO_ERROR
@@ -357,8 +357,8 @@ plug
 G_SIGNAL_MATCH_DATA
 0
 0
-NULL
-NULL
+nullptr
+nullptr
 instanceData
 )
 ;
@@ -3202,7 +3202,7 @@ _exit
 ;
 return
 (
-NULL
+nullptr
 )
 ;
 }
@@ -3228,7 +3228,7 @@ while
 (
 g_main_context_iteration
 (
-NULL
+nullptr
 FALSE
 )
 )
@@ -3285,9 +3285,9 @@ pthread_create
 (
 &
 crasherThread
-NULL
+nullptr
 CrasherThread
-NULL
+nullptr
 )
 )
 {
@@ -3313,7 +3313,7 @@ while
 (
 g_main_context_iteration
 (
-NULL
+nullptr
 FALSE
 )
 )

@@ -126,7 +126,7 @@ platformData
 >
 display
 =
-NULL
+nullptr
 ;
 instanceData
 -
@@ -136,7 +136,7 @@ platformData
 >
 visual
 =
-NULL
+nullptr
 ;
 instanceData
 -
