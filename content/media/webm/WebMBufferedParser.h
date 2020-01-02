@@ -50,6 +50,8 @@ int64_t
 aOffset
 uint64_t
 aTimecode
+int64_t
+aSyncOffset
 )
 :
 mOffset
@@ -59,6 +61,10 @@ aOffset
 mTimecode
 (
 aTimecode
+)
+mSyncOffset
+(
+aSyncOffset
 )
 {
 }
@@ -99,6 +105,9 @@ mOffset
 ;
 uint64_t
 mTimecode
+;
+int64_t
+mSyncOffset
 ;
 }
 ;
@@ -228,6 +237,9 @@ mBlockSize
 ;
 uint64_t
 mClusterTimecode
+;
+int64_t
+mClusterOffset
 ;
 int64_t
 mBlockOffset
