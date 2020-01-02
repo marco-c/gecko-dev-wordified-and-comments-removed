@@ -19880,8 +19880,6 @@ GCRuntime
 :
 endSweepPhase
 (
-JSGCInvocationKind
-gckind
 bool
 lastGC
 )
@@ -20149,7 +20147,7 @@ rt
 ;
 expireChunksAndArenas
 (
-gckind
+invocationKind
 =
 =
 GC_SHRINK
@@ -20374,7 +20372,7 @@ usage
 gcBytes
 (
 )
-gckind
+invocationKind
 tunables
 schedulingState
 )
@@ -21237,7 +21235,6 @@ gcreason
 :
 :
 RESET
-GC_NORMAL
 )
 ;
 {
@@ -21728,8 +21725,6 @@ gcreason
 :
 Reason
 reason
-JSGCInvocationKind
-gckind
 )
 {
 JS_ASSERT
@@ -22089,7 +22084,6 @@ break
 ;
 endSweepPhase
 (
-gckind
 lastGC
 )
 ;
@@ -22101,7 +22095,7 @@ helperState
 .
 startBackgroundSweep
 (
-gckind
+invocationKind
 =
 =
 GC_SHRINK
@@ -22716,11 +22710,21 @@ TraceMajorGCStart
 (
 )
 ;
+if
+(
+incrementalState
+=
+=
+NO_INCREMENTAL
+)
+invocationKind
+=
+gckind
+;
 incrementalCollectSlice
 (
 budget
 reason
-gckind
 )
 ;
 #

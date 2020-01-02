@@ -1853,8 +1853,6 @@ double
 growthFactor
 size_t
 lastBytes
-JSGCInvocationKind
-gckind
 )
 ;
 JSGCMode
@@ -2163,8 +2161,6 @@ gcreason
 :
 Reason
 reason
-JSGCInvocationKind
-gckind
 )
 ;
 void
@@ -2316,8 +2312,6 @@ sliceBudget
 void
 endSweepPhase
 (
-JSGCInvocationKind
-gckind
 bool
 lastGC
 )
@@ -2590,6 +2584,9 @@ isIncremental
 ;
 bool
 isFull
+;
+JSGCInvocationKind
+invocationKind
 ;
 JS
 :
