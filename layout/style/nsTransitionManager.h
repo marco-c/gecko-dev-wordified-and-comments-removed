@@ -145,16 +145,6 @@ aNow
 ;
 virtual
 bool
-HasAnimationOfProperty
-(
-nsCSSProperty
-aProperty
-)
-const
-MOZ_OVERRIDE
-;
-virtual
-bool
 CanPerformOnCompositorThread
 (
 CanAnimateFlags
