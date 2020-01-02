@@ -240,10 +240,6 @@ mAuthType
 (
 NONE
 )
-mSocket
-(
-nullptr
-)
 mConnectionID
 (
 0
@@ -255,6 +251,10 @@ mNextCSeq
 mReceiveResponseEventPending
 (
 false
+)
+mSocket
+(
+nullptr
 )
 mNumSocketPollTimeoutRetries
 (

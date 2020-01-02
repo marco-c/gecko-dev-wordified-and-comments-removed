@@ -1464,7 +1464,7 @@ PRPollDesc
 )
 )
 ;
-int
+uint32_t
 numSocketsToPoll
 =
 0
