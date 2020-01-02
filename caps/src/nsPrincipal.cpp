@@ -913,7 +913,7 @@ NS_IMETHODIMP
 nsPrincipal
 :
 :
-Equals
+EqualsConsideringDomain
 (
 nsIPrincipal
 *
@@ -992,7 +992,7 @@ NS_IMETHODIMP
 nsPrincipal
 :
 :
-EqualsIgnoringDomain
+Equals
 (
 nsIPrincipal
 *
@@ -1134,7 +1134,7 @@ NS_IMETHODIMP
 nsPrincipal
 :
 :
-EqualsConsideringDomain
+EqualsIgnoringDomain
 (
 nsIPrincipal
 *
@@ -1211,7 +1211,7 @@ aResult
 )
 {
 return
-Subsumes
+EqualsConsideringDomain
 (
 aOther
 aResult
