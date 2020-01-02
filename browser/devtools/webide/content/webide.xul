@@ -176,6 +176,17 @@ id
 "
 webide
 "
+onclose
+=
+"
+return
+UI
+.
+canWindowClose
+(
+)
+;
+"
 xmlns
 =
 "
