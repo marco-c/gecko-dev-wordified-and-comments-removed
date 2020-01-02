@@ -7921,7 +7921,9 @@ integrity
 lir
 )
 ;
-TraceLogStartEvent
+{
+AutoTraceLog
+log
 (
 logger
 TraceLogger
@@ -8188,15 +8190,7 @@ Registers
 return
 nullptr
 ;
-TraceLogStopEvent
-(
-logger
-TraceLogger
-:
-:
-RegisterAllocation
-)
-;
+}
 {
 AutoTraceLog
 log
