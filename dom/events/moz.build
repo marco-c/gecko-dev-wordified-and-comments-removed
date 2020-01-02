@@ -342,6 +342,11 @@ WheelEvent
 .
 h
 '
+'
+XULCommandEvent
+.
+h
+'
 ]
 if
 CONFIG
@@ -475,11 +480,6 @@ nsDOMTextEvent
 cpp
 '
 '
-nsDOMXULCommandEvent
-.
-cpp
-'
-'
 nsEventDispatcher
 .
 cpp
@@ -541,6 +541,11 @@ cpp
 '
 '
 WheelEvent
+.
+cpp
+'
+'
+XULCommandEvent
 .
 cpp
 '
