@@ -761,7 +761,7 @@ public
 xpc_qsBasicString
 <
 nsAString
-nsAutoString
+nsDependentString
 >
 {
 public
