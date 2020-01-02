@@ -736,6 +736,11 @@ ErrorResult
 aRv
 )
 ;
+AudioChannel
+TestAudioChannelInAudioNodeStream
+(
+)
+;
 void
 UpdateNodeCount
 (
