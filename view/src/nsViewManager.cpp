@@ -3320,13 +3320,11 @@ HasMouseEventMessage
 )
 &
 &
-static_cast
-<
-WidgetMouseEvent
-*
->
-(
 aEvent
+-
+>
+AsMouseEvent
+(
 )
 -
 >
