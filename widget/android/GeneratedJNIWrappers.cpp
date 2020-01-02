@@ -6179,10 +6179,7 @@ JNIEnv
 *
 env
 =
-AndroidBridge
-:
-:
-GetJNIEnv
+GetJNIForThread
 (
 )
 ;

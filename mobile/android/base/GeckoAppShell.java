@@ -2122,6 +2122,9 @@ event
 ;
 WrapElementForJNI
 (
+allowMultithread
+=
+true
 generateStatic
 =
 true
