@@ -34950,9 +34950,6 @@ PropertyReadNeedsTypeBarrier
 (
 JSContext
 *
-cx
-JSContext
-*
 propertycx
 types
 :
@@ -34984,9 +34981,6 @@ PropertyReadNeedsTypeBarrier
 (
 JSContext
 *
-cx
-JSContext
-*
 propertycx
 types
 :
@@ -35011,9 +35005,6 @@ observed
 bool
 PropertyReadOnPrototypeNeedsTypeBarrier
 (
-JSContext
-*
-cx
 types
 :
 :

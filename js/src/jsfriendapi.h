@@ -2951,10 +2951,8 @@ bool
 DOMInstanceClassMatchesProto
 )
 (
-JS
-:
-:
-HandleObject
+JSObject
+*
 protoObject
 uint32_t
 protoID

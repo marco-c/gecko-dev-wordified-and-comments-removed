@@ -28092,7 +28092,8 @@ static
 bool
 InstanceClassHasProtoAtDepth
 (
-HandleObject
+JSObject
+*
 protoObject
 uint32_t
 protoID

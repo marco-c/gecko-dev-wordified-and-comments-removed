@@ -2025,7 +2025,6 @@ barrier
 =
 PropertyReadNeedsTypeBarrier
 (
-cx
 context
 (
 )
