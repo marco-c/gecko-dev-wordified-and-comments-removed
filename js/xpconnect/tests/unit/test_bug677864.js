@@ -31,14 +31,6 @@ run_test
 check_cl
 (
 Components
-'
-XPCComponents
-'
-)
-;
-check_cl
-(
-Components
 .
 interfaces
 '
