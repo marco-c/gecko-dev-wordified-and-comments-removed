@@ -271,6 +271,7 @@ mHaveReceivedCommands
 }
 ;
 class
+MOZ_STACK_CLASS
 MotionValueParser
 :
 public
@@ -286,7 +287,7 @@ MotionValueParser
 PathGenerator
 *
 aPathGenerator
-nsTArray
+FallibleTArray
 <
 double
 >
@@ -330,7 +331,7 @@ empty
 ;
 }
 virtual
-nsresult
+bool
 Parse
 (
 const
@@ -346,7 +347,7 @@ PathGenerator
 *
 mPathGenerator
 ;
-nsTArray
+FallibleTArray
 <
 double
 >

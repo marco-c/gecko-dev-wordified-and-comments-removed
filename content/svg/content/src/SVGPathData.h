@@ -376,7 +376,7 @@ const
 bool
 GetDistancesFromOriginToEndsOfVisibleSegments
 (
-nsTArray
+FallibleTArray
 <
 double
 >

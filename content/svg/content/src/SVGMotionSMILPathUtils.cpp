@@ -498,7 +498,7 @@ return
 true
 ;
 }
-nsresult
+bool
 SVGMotionSMILPathUtils
 :
 :
@@ -600,10 +600,6 @@ mDistanceSoFar
 }
 return
 success
-?
-NS_OK
-:
-NS_ERROR_FAILURE
 ;
 }
 }
