@@ -12529,8 +12529,6 @@ nullptr
 \
 }
 \
-JS_FRIEND_DATA
-(
 const
 js
 :
@@ -12538,7 +12536,6 @@ js
 Class
 *
 const
-)
 js
 :
 :
