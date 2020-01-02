@@ -80,7 +80,6 @@ keywordResult
 (
 aURL
 aPostData
-aIsUnsafe
 )
 {
 this
@@ -94,12 +93,6 @@ this
 postData
 =
 aPostData
-;
-this
-.
-isUnsafe
-=
-aIsUnsafe
 ;
 }
 function
@@ -447,7 +440,6 @@ search
 foo4
 "
 null
-true
 )
 ]
 [
@@ -492,7 +484,6 @@ search
 =
 foo5
 "
-true
 )
 ]
 [
@@ -547,7 +538,6 @@ search2
 =
 foo6
 "
-true
 )
 ]
 [
@@ -579,7 +569,6 @@ keywordResult
 (
 null
 null
-true
 )
 ]
 [
@@ -615,7 +604,6 @@ keywordResult
 (
 null
 null
-true
 )
 ]
 [
@@ -889,7 +877,6 @@ keywordResult
 (
 null
 null
-true
 )
 ]
 ]
@@ -1015,27 +1002,6 @@ postData
 got
 correct
 postData
-for
-"
-+
-data
-.
-keyword
-)
-;
-is
-(
-returnedData
-.
-mayInheritPrincipal
-!
-result
-.
-isUnsafe
-"
-got
-correct
-mayInheritPrincipal
 for
 "
 +
