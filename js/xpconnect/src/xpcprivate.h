@@ -14244,15 +14244,6 @@ obj
 scope
 ;
 }
-XPCWrappedNativeScope
-*
-MaybeGetObjectScope
-(
-JSObject
-*
-obj
-)
-;
 extern
 bool
 gDebugMode
