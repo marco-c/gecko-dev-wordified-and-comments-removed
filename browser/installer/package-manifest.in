@@ -3774,9 +3774,6 @@ endif
 Webide
 Files
 ]
-#
-ifdef
-MOZ_DEVTOOLS_WEBIDE
 BINPATH
 /
 browser
@@ -3805,8 +3802,6 @@ webide
 prefs
 .
 js
-#
-endif
 ;
 shell
 icons
