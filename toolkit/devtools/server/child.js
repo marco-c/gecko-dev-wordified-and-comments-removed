@@ -156,7 +156,7 @@ actor
 new
 DebuggerServer
 .
-ContentAppActor
+ContentActor
 (
 conn
 content
