@@ -410,6 +410,12 @@ nsIFileURL
 .
 file
 ;
+file
+.
+normalize
+(
+)
+;
 let
 appRoot
 =
