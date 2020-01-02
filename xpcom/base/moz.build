@@ -429,6 +429,11 @@ Debug
 h
 '
 '
+LinuxUtils
+.
+h
+'
+'
 nsMemoryInfoDumper
 .
 h
@@ -773,6 +778,11 @@ SOURCES
 +
 =
 [
+'
+LinuxUtils
+.
+cpp
+'
 '
 SystemMemoryReporter
 .
