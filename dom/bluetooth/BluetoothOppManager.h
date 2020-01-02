@@ -214,11 +214,6 @@ SendDisconnectRequest
 )
 ;
 void
-SendAbortRequest
-(
-)
-;
-void
 ExtractPacketHeaders
 (
 const
