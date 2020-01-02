@@ -1201,17 +1201,6 @@ path
 )
 :
             
-assert
-path
-[
-0
-]
-=
-=
-'
-/
-'
-            
 if
 filesystem_absolute
 :
