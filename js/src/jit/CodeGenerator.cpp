@@ -10886,7 +10886,7 @@ false
 Register
 temp
 =
-ToRegister
+ToTempRegisterOrInvalid
 (
 lir
 -
@@ -11070,7 +11070,7 @@ false
 Register
 temp
 =
-ToRegister
+ToTempRegisterOrInvalid
 (
 lir
 -
