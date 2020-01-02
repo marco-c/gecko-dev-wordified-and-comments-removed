@@ -96,6 +96,15 @@ ANGLE_PRELOADED_D3DCOMPILER_MODULE_NAMES
 TEXT
 (
 "
+d3dcompiler_47
+.
+dll
+"
+)
+\
+TEXT
+(
+"
 d3dcompiler_46
 .
 dll
