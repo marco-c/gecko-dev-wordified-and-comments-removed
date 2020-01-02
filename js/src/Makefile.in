@@ -2591,6 +2591,16 @@ srcdir
 /
 builtin
 /
+Parallel
+.
+js
+\
+(
+srcdir
+)
+/
+builtin
+/
 String
 .
 js
