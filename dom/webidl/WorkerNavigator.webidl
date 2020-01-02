@@ -69,3 +69,7 @@ WorkerNavigator
 implements
 NavigatorOnLine
 ;
+WorkerNavigator
+implements
+NavigatorDataStore
+;
