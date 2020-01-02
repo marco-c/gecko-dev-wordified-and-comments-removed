@@ -165,12 +165,6 @@ nsFrameMessageManager
 aChrome
 )
 ;
-virtual
-~
-nsInProcessTabChildGlobal
-(
-)
-;
 NS_DECL_ISUPPORTS_INHERITED
 NS_DECL_CYCLE_COLLECTION_CLASS_INHERITED
 (
@@ -731,6 +725,12 @@ GetJSObject
 }
 protected
 :
+virtual
+~
+nsInProcessTabChildGlobal
+(
+)
+;
 nsresult
 Init
 (

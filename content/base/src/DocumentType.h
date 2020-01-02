@@ -126,12 +126,6 @@ nsAString
 aInternalSubset
 )
 ;
-virtual
-~
-DocumentType
-(
-)
-;
 NS_DECL_ISUPPORTS_INHERITED
 NS_DECL_NSIDOMDOCUMENTTYPE
 virtual
@@ -221,6 +215,12 @@ this
 }
 protected
 :
+virtual
+~
+DocumentType
+(
+)
+;
 virtual
 JSObject
 *

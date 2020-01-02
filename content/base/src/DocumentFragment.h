@@ -199,13 +199,6 @@ Init
 ;
 }
 virtual
-~
-DocumentFragment
-(
-)
-{
-}
-virtual
 JSObject
 *
 WrapNode
@@ -488,6 +481,13 @@ MOZ_OVERRIDE
 endif
 protected
 :
+virtual
+~
+DocumentFragment
+(
+)
+{
+}
 nsresult
 Clone
 (

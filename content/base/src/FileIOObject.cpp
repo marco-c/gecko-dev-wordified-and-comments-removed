@@ -189,6 +189,15 @@ mTransferred
 )
 {
 }
+FileIOObject
+:
+:
+~
+FileIOObject
+(
+)
+{
+}
 void
 FileIOObject
 :

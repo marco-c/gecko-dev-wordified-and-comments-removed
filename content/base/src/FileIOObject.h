@@ -259,6 +259,12 @@ DOMEventTargetHelper
 protected
 :
 virtual
+~
+FileIOObject
+(
+)
+;
+virtual
 void
 DoAbort
 (

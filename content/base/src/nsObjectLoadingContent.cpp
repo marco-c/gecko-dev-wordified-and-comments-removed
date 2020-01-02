@@ -1779,6 +1779,15 @@ nsITimer
 timer
 )
 ;
+protected
+:
+virtual
+~
+nsStopPluginRunnable
+(
+)
+{
+}
 private
 :
 nsCOMPtr

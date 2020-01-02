@@ -312,13 +312,6 @@ aTo
 )
 {
 }
-virtual
-~
-ChangeNotification
-(
-)
-{
-}
 NS_DECL_ISUPPORTS_INHERITED
 NS_IMETHOD
 Run
@@ -390,6 +383,13 @@ nullptr
 }
 protected
 :
+virtual
+~
+ChangeNotification
+(
+)
+{
+}
 nsRefPtr
 <
 Element
