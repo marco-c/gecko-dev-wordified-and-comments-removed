@@ -3359,7 +3359,7 @@ getPropertyCount
 (
 )
 <
-8
+128
 )
 return
 ;
