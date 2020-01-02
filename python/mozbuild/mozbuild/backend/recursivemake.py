@@ -2016,14 +2016,6 @@ set
 )
             
 '
-binaries
-'
-:
-set
-(
-)
-            
-'
 libs
 '
 :
@@ -3424,13 +3416,6 @@ parallel_filter
             
 (
 '
-binaries
-'
-parallel_filter
-)
-            
-(
-'
 libs
 '
 libs_filter
@@ -4756,21 +4741,6 @@ items
 (
 )
 :
-                        
-if
-tier
-in
-(
-'
-compile
-'
-'
-binaries
-'
-)
-:
-                            
-continue
                         
 if
 bf
