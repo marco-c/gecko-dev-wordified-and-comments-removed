@@ -1550,6 +1550,17 @@ options
 rules
 )
 {
+if
+(
+!
+element
+.
+style
+)
+{
+return
+;
+}
 let
 elementStyle
 =

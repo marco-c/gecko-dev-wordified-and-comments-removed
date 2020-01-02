@@ -2062,6 +2062,11 @@ if
 element
 .
 style
+&
+&
+element
+.
+style
 .
 length
 >
