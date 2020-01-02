@@ -16,7 +16,7 @@ mozilla
 /
 layers
 /
-PLayerTransactionChild
+LayerTransactionChild
 .
 h
 "
