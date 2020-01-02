@@ -386,6 +386,12 @@ checkView
 20
 )
 ;
+yield
+hideVarPopup
+(
+panel
+)
+;
 let
 updatedFrame
 =
@@ -413,7 +419,7 @@ checkView
 )
 ;
 yield
-reopenVarPopup
+openVarPopup
 (
 panel
 {
