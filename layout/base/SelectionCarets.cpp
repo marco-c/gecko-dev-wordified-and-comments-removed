@@ -2407,6 +2407,12 @@ GetEndParent
 ;
 if
 (
+(
+pos
+.
+mResultContent
+&
+&
 nsLayoutUtils
 :
 :
@@ -2419,6 +2425,7 @@ endContent
 )
 >
 0
+)
 |
 |
 (
