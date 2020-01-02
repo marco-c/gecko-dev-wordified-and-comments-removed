@@ -4386,6 +4386,7 @@ instrumentedProfiling
 (
 )
 )
+{
 predecessor
 -
 >
@@ -4410,6 +4411,7 @@ inliningDepth_
 )
 )
 ;
+}
 predecessor
 -
 >
@@ -17768,6 +17770,7 @@ instrumentedProfiling
 (
 )
 )
+{
 current
 -
 >
@@ -17788,9 +17791,11 @@ MFunctionBoundary
 :
 :
 Exit
+inliningDepth_
 )
 )
 ;
+}
 MReturn
 *
 ret

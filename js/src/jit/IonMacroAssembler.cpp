@@ -7844,7 +7844,7 @@ passABIArg
 temp
 )
 ;
-callWithABI
+callWithABINoProfiling
 (
 JS_FUNC_TO_DATA_PTR
 (
@@ -7973,7 +7973,7 @@ passABIArg
 value
 )
 ;
-callWithABI
+callWithABINoProfiling
 (
 JS_FUNC_TO_DATA_PTR
 (
@@ -8124,7 +8124,7 @@ passABIArg
 rscript
 )
 ;
-callWithABI
+callWithABINoProfiling
 (
 JS_FUNC_TO_DATA_PTR
 (
@@ -8253,7 +8253,7 @@ passABIArg
 type
 )
 ;
-callWithABI
+callWithABINoProfiling
 (
 JS_FUNC_TO_DATA_PTR
 (
@@ -8384,7 +8384,7 @@ passABIArg
 rtype
 )
 ;
-callWithABI
+callWithABINoProfiling
 (
 JS_FUNC_TO_DATA_PTR
 (
