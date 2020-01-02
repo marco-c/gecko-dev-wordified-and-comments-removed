@@ -59,17 +59,6 @@ gecko
 .
 sync
 .
-PrefsSource
-;
-import
-org
-.
-mozilla
-.
-gecko
-.
-sync
-.
 SyncConfiguration
 ;
 import
@@ -84,8 +73,6 @@ class
 TestSyncConfiguration
 extends
 AndroidSyncTestCase
-implements
-PrefsSource
 {
 public
 static
@@ -97,7 +84,6 @@ TEST_PREFS_NAME
 test
 "
 ;
-Override
 public
 SharedPreferences
 getPrefs
@@ -842,8 +828,11 @@ SyncConfiguration
 (
 null
 null
+getPrefs
+(
 TEST_PREFS_NAME
-this
+0
+)
 )
 ;
 }

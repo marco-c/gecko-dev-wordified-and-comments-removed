@@ -8581,13 +8581,6 @@ java
 '
 sync
 /
-PrefsSource
-.
-java
-'
-'
-sync
-/
 receivers
 /
 SyncAccountDeletedReceiver
