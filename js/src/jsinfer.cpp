@@ -22221,6 +22221,11 @@ addTypedObjectAddendum
 JSContext
 *
 cx
+TypeTypedObject
+:
+:
+Kind
+kind
 TypeRepresentation
 *
 repr
@@ -22299,6 +22304,7 @@ js_new
 TypeTypedObject
 >
 (
+kind
 repr
 )
 ;
@@ -22351,6 +22357,8 @@ TypeTypedObject
 :
 TypeTypedObject
 (
+Kind
+kind
 TypeRepresentation
 *
 repr
@@ -22359,6 +22367,10 @@ repr
 TypeObjectAddendum
 (
 TypedObject
+)
+kind
+(
+kind
 )
 typeRepr
 (

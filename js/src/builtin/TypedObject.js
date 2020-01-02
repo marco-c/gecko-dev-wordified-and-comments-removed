@@ -1207,7 +1207,7 @@ typeRepr
 var
 T
 =
-StandardTypeObjectDescriptors
+GetTypedObjectModule
 (
 )
 ;
@@ -3662,7 +3662,7 @@ object
 var
 T
 =
-StandardTypeObjectDescriptors
+GetTypedObjectModule
 (
 )
 ;
@@ -3759,7 +3759,7 @@ obj
 var
 T
 =
-StandardTypeObjectDescriptors
+GetTypedObjectModule
 (
 )
 ;

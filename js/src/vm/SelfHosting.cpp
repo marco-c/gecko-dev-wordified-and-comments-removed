@@ -3857,12 +3857,12 @@ MemcpyJitInfo
 JS_FN
 (
 "
-StandardTypeObjectDescriptors
+GetTypedObjectModule
 "
 js
 :
 :
-StandardTypeObjectDescriptors
+GetTypedObjectModule
 0
 0
 )
