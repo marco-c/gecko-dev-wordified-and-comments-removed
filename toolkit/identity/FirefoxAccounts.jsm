@@ -1017,7 +1017,7 @@ error
 {
 log
 .
-error
+debug
 (
 "
 get
@@ -1036,6 +1036,7 @@ error
 ;
 if
 (
+(
 error
 .
 error
@@ -1044,6 +1045,19 @@ error
 (
 error
 .
+error
+.
+details
+=
+=
+"
+DIALOG_CLOSED_BY_USER
+"
+)
+)
+|
+|
+(
 error
 .
 details
