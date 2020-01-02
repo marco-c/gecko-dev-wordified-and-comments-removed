@@ -225,9 +225,9 @@ GlobalEventHandlers
 ;
 SVGElement
 implements
-NodeEventHandlers
+TouchEventHandlers
 ;
 SVGElement
 implements
-TouchEventHandlers
+OnErrorEventHandlerForNodes
 ;
