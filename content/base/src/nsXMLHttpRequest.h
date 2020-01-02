@@ -2616,6 +2616,9 @@ uint64_t
 mLoadTotal
 ;
 uint64_t
+mDataAvailable
+;
+uint64_t
 mLoadTransferred
 ;
 nsCOMPtr

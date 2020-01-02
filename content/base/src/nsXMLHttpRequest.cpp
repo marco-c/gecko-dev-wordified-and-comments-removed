@@ -1871,6 +1871,10 @@ mResultJSON
 =
 JSVAL_VOID
 ;
+mDataAvailable
+=
+0
+;
 mLoadTransferred
 =
 0
@@ -3155,7 +3159,7 @@ mDOMFile
 CreateSlice
 (
 0
-mLoadTransferred
+mDataAvailable
 EmptyString
 (
 )
@@ -8052,7 +8056,7 @@ mDOMFile
 GetSize
 (
 &
-mLoadTransferred
+mDataAvailable
 )
 ;
 ChangeState
@@ -8070,7 +8074,7 @@ NS_OK
 )
 ;
 }
-mLoadTransferred
+mDataAvailable
 +
 =
 totalRead
@@ -14900,6 +14904,10 @@ lengthComputable
 aProgressMax
 :
 0
+;
+mLoadTransferred
+=
+aProgress
 ;
 }
 if
