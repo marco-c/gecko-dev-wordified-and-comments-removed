@@ -508,7 +508,7 @@ this
 }
 public
 void
-show
+showBanner
 (
 )
 {
@@ -539,7 +539,7 @@ null
 }
 public
 void
-hide
+hideBanner
 (
 )
 {
