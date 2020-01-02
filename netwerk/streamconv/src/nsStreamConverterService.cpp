@@ -135,16 +135,12 @@ predecessor
 }
 }
 ;
-struct
-SCTableData
-{
+typedef
 nsCOMArray
 <
 nsIAtom
 >
-edges
-;
-}
+SCTableData
 ;
 struct
 BFSTableData
@@ -689,8 +685,6 @@ return
 fromEdges
 -
 >
-edges
-.
 AppendObject
 (
 vertex
@@ -1356,8 +1350,6 @@ edgeCount
 data2
 -
 >
-edges
-.
 Count
 (
 )
@@ -1385,8 +1377,6 @@ curVertexAtom
 data2
 -
 >
-edges
-.
 ObjectAt
 (
 i
