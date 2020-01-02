@@ -2842,6 +2842,12 @@ kMinMLSCoordChangeInMeters
 =
 10
 ;
+const
+int
+kMaxGPSDelayBeforeConsideringMLS
+=
+10000
+;
 int64_t
 diff
 =
@@ -2864,7 +2870,7 @@ mLocationCallback
 &
 diff
 >
-kDefaultPeriod
+kMaxGPSDelayBeforeConsideringMLS
 &
 &
 delta
