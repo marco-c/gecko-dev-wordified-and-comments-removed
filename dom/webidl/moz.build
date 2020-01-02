@@ -2878,6 +2878,11 @@ BluetoothPairingHandle
 .
 webidl
 '
+'
+BluetoothPairingListener
+.
+webidl
+'
 ]
 else
 :
