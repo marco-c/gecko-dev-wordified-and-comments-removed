@@ -1565,6 +1565,11 @@ StyleSheet
 webidl
 '
 '
+StyleSheetList
+.
+webidl
+'
+'
 SVGAElement
 .
 webidl

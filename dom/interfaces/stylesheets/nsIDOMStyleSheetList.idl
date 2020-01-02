@@ -178,6 +178,12 @@ unsigned
 long
 length
 ;
+[
+binaryname
+(
+SlowItem
+)
+]
 nsIDOMStyleSheet
 item
 (
