@@ -99,6 +99,10 @@ PUBLIC_MECH_SEED_FLAG
 0x00020000ul
 #
 define
+PUBLIC_MECH_ECC_FLAG
+0x00040000ul
+#
+define
 PUBLIC_MECH_RANDOM_FLAG
 0x08000000ul
 #
@@ -463,6 +467,16 @@ SECMOD_PubMechFlagstoInternal
 unsigned
 long
 publicFlags
+)
+;
+extern
+unsigned
+long
+SECMOD_InternaltoPubMechFlags
+(
+unsigned
+long
+internalFlags
 )
 ;
 extern

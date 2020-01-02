@@ -89,6 +89,12 @@ error
 h
 "
 Error
+LoadMechanismList
+(
+void
+)
+;
+Error
 FipsMode
 (
 char

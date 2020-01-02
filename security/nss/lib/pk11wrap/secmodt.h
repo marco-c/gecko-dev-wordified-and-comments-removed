@@ -375,6 +375,7 @@ PK11CertListType
 struct
 PK11DefaultArrayEntryStr
 {
+const
 char
 *
 name

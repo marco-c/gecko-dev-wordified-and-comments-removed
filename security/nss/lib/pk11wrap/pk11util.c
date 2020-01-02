@@ -123,12 +123,14 @@ secmod_PrivateModuleCount
 0
 ;
 extern
+const
 PK11DefaultArrayEntry
 PK11_DefaultArray
 [
 ]
 ;
 extern
+const
 int
 num_pk11_default_mechanisms
 ;

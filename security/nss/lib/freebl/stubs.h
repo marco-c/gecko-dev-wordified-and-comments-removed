@@ -32,6 +32,10 @@ PORT_Alloc
 PORT_Alloc_stub
 #
 define
+PORT_ArenaAlloc
+PORT_ArenaAlloc_stub
+#
+define
 PORT_ArenaZAlloc
 PORT_ArenaZAlloc_stub
 #
@@ -82,6 +86,10 @@ SECITEM_FreeItem_stub
 define
 SECITEM_ZfreeItem
 SECITEM_ZfreeItem_stub
+#
+define
+SECOID_FindOIDTag
+SECOID_FindOIDTag_stub
 #
 define
 NSS_SecureMemcmp

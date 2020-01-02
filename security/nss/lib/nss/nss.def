@@ -3378,6 +3378,8 @@ PK11_ExportDERPrivateKeyInfo
 ;
 PK11_ExportPrivKeyInfo
 ;
+SECMOD_InternaltoPubMechFlags
+;
 ;
 +
 local

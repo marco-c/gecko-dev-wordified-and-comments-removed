@@ -247,6 +247,9 @@ RSA_CheckSignPSS
 RSA_Sign
 RSA_CheckSign
 RSA_CheckSignRecover
+EC_FillParams
+EC_DecodeParams
+EC_CopyParams
 }
 ;
 const

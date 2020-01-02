@@ -2464,6 +2464,7 @@ SECItem
 *
 PK11_DEREncodePublicKey
 (
+const
 SECKEYPublicKey
 *
 pubk
@@ -3400,6 +3401,7 @@ SECItem
 pwd
 )
 ;
+const
 PK11DefaultArrayEntry
 *
 PK11_GetDefaultArray

@@ -89,6 +89,7 @@ utilpars
 .
 h
 "
+const
 PK11DefaultArrayEntry
 PK11_DefaultArray
 [
@@ -108,6 +109,13 @@ DSA
 "
 SECMOD_DSA_FLAG
 CKM_DSA
+}
+{
+"
+ECC
+"
+SECMOD_ECC_FLAG
+CKM_ECDSA
 }
 {
 "
@@ -261,6 +269,7 @@ PK11_DefaultArray
 ]
 )
 ;
+const
 PK11DefaultArrayEntry
 *
 PK11_GetDefaultArray

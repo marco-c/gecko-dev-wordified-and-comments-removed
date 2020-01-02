@@ -190,10 +190,6 @@ NULL
 CSRCS
 =
 \
-ecdecode
-.
-c
-\
 fipsaudt
 .
 c

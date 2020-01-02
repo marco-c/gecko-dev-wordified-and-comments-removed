@@ -249,16 +249,6 @@ newModule
 extern
 unsigned
 long
-SECMOD_InternaltoPubMechFlags
-(
-unsigned
-long
-internalFlags
-)
-;
-extern
-unsigned
-long
 SECMOD_InternaltoPubCipherFlags
 (
 unsigned
