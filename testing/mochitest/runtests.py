@@ -8843,7 +8843,7 @@ readline
 (
 )
 .
-strip
+rstrip
 (
 )
         
