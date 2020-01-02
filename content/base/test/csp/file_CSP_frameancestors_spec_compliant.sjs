@@ -380,7 +380,7 @@ script
 src
 =
 "
-file_CSP_frameancestors
+file_CSP_frameancestors_spec_compliant
 .
 sjs
 ?
@@ -420,7 +420,7 @@ script
 src
 =
 "
-file_CSP_frameancestors
+file_CSP_frameancestors_spec_compliant
 .
 sjs
 ?

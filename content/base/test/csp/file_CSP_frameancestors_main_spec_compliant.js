@@ -37,7 +37,7 @@ test
 /
 csp
 /
-file_CSP_frameancestors
+file_CSP_frameancestors_spec_compliant
 .
 sjs
 '
@@ -64,7 +64,7 @@ test
 /
 csp
 /
-file_CSP_frameancestors
+file_CSP_frameancestors_spec_compliant
 .
 sjs
 '
@@ -89,7 +89,7 @@ test
 /
 csp
 /
-file_CSP_frameancestors
+file_CSP_frameancestors_spec_compliant
 .
 sjs
 '
