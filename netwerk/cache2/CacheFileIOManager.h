@@ -1783,6 +1783,8 @@ CacheIndexStateChangedInternal
 nsresult
 UpdateSmartCacheSize
 (
+int64_t
+aFreeSpace
 )
 ;
 size_t
