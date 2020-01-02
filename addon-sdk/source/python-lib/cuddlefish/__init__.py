@@ -3570,7 +3570,7 @@ arguments
 =
 [
 "
-run
+testrun
 "
                            
 "
@@ -5326,6 +5326,9 @@ test
 "
 run
 "
+"
+testrun
+"
 ]
 :
         
@@ -5687,6 +5690,23 @@ use_main
 =
 True
     
+elif
+command
+=
+=
+"
+testrun
+"
+:
+        
+use_main
+=
+True
+        
+enforce_timeouts
+=
+True
+    
 else
 :
         
@@ -5779,6 +5799,9 @@ xpi
 '
 '
 run
+'
+'
+testrun
 '
 )
 :
