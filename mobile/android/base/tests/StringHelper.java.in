@@ -902,11 +902,10 @@ public
 static
 final
 String
-MOST_RECENT_LABEL
+TODAY_LABEL
 =
 "
-Most
-recent
+Today
 "
 ;
 public
