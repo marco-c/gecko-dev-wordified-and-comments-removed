@@ -335,10 +335,10 @@ mFBO
 uint32_t
 mIOTexture
 ;
-uint32_t
+int
 mUnsupportedWidth
 ;
-uint32_t
+int
 mUnsupportedHeight
 ;
 AllowOfflineRendererEnum
