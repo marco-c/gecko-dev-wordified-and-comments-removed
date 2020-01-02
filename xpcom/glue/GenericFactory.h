@@ -49,6 +49,7 @@ ConstructorProcPtr
 ;
 NS_DECL_THREADSAFE_ISUPPORTS
 NS_DECL_NSIFACTORY
+explicit
 GenericFactory
 (
 ConstructorProcPtr

@@ -64,6 +64,7 @@ this
 )
 ;
 }
+explicit
 ScopedAppData
 (
 const

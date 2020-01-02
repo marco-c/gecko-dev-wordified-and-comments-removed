@@ -43,6 +43,7 @@ BlockingResourceBase
 {
 public
 :
+explicit
 ReentrantMonitor
 (
 const
@@ -330,6 +331,7 @@ ReentrantMonitorAutoEnter
 {
 public
 :
+explicit
 ReentrantMonitorAutoEnter
 (
 mozilla
@@ -481,6 +483,7 @@ ReentrantMonitorAutoExit
 {
 public
 :
+explicit
 ReentrantMonitorAutoExit
 (
 ReentrantMonitor

@@ -34,6 +34,7 @@ nsXPTType
 )
 {
 }
+MOZ_IMPLICIT
 nsXPTType
 (
 const
@@ -52,6 +53,7 @@ this
 prefix
 ;
 }
+MOZ_IMPLICIT
 nsXPTType
 (
 const
@@ -345,6 +347,7 @@ XPTParamDescriptor
 {
 public
 :
+MOZ_IMPLICIT
 nsXPTParamInfo
 (
 const
@@ -578,6 +581,7 @@ XPTMethodDescriptor
 {
 public
 :
+MOZ_IMPLICIT
 nsXPTMethodInfo
 (
 const
@@ -803,6 +807,7 @@ XPTConstDescriptor
 {
 public
 :
+MOZ_IMPLICIT
 nsXPTConstant
 (
 const

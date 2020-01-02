@@ -7924,11 +7924,12 @@ mozilla
 :
 Version
 version
-=
+(
 javaVersion
 .
 get
 (
+)
 )
 ;
 if

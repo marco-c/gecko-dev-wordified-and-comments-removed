@@ -6071,7 +6071,7 @@ nsMainThreadPtrHandle
 nsISupports
 >
 supports
-=
+(
 new
 nsMainThreadPtrHolder
 <
@@ -6079,6 +6079,7 @@ nsISupports
 >
 (
 aSupports
+)
 )
 ;
 mSupportsArray

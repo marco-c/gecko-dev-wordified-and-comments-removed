@@ -1209,7 +1209,7 @@ nsMainThreadPtrHandle
 ServiceWorkerUpdateInstance
 >
 handle
-=
+(
 new
 nsMainThreadPtrHolder
 <
@@ -1217,6 +1217,7 @@ ServiceWorkerUpdateInstance
 >
 (
 this
+)
 )
 ;
 nsRefPtr
@@ -4190,7 +4191,7 @@ nsMainThreadPtrHandle
 ServiceWorkerRegistration
 >
 handle
-=
+(
 new
 nsMainThreadPtrHolder
 <
@@ -4198,6 +4199,7 @@ ServiceWorkerRegistration
 >
 (
 aRegistration
+)
 )
 ;
 nsRefPtr
@@ -4451,7 +4453,7 @@ nsMainThreadPtrHandle
 ServiceWorkerRegistration
 >
 handle
-=
+(
 new
 nsMainThreadPtrHolder
 <
@@ -4459,6 +4461,7 @@ ServiceWorkerRegistration
 >
 (
 mRegistration
+)
 )
 ;
 nsRefPtr

@@ -264,6 +264,7 @@ nsISupports
 aResult
 )
 ;
+explicit
 nsSingletonEnumerator
 (
 nsISupports

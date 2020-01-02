@@ -468,6 +468,7 @@ GenericModule
 }
 public
 :
+explicit
 GenericModule
 (
 const

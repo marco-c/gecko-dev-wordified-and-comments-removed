@@ -493,8 +493,9 @@ nsMainThreadPtrHandle
 DataStore
 >
 backingStore
-=
+(
 dataStoreholder
+)
 ;
 nsRefPtr
 <

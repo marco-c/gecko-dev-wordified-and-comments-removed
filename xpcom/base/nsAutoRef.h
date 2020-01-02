@@ -613,7 +613,7 @@ nsReturnRef
 )
 {
 }
-explicit
+MOZ_IMPLICIT
 nsReturnRef
 (
 RawRefOnly
@@ -642,6 +642,7 @@ aRefToSteal
 )
 {
 }
+MOZ_IMPLICIT
 nsReturnRef
 (
 const
@@ -806,6 +807,7 @@ Void
 )
 {
 }
+explicit
 nsSimpleRef
 (
 RawRef
@@ -903,6 +905,7 @@ RawRefOnly
 {
 public
 :
+MOZ_IMPLICIT
 RawRefOnly
 (
 RawRef

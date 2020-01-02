@@ -794,6 +794,7 @@ typedef
 Iterator
 base_type
 ;
+explicit
 ForwardIterator
 (
 const
@@ -951,6 +952,7 @@ typedef
 Iterator
 base_type
 ;
+explicit
 EndLimitedIterator
 (
 const
@@ -1051,6 +1053,7 @@ typedef
 Iterator
 base_type
 ;
+explicit
 BackwardIterator
 (
 const

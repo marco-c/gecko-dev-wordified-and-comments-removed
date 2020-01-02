@@ -1044,6 +1044,7 @@ nsNameThreadRunnable
 }
 public
 :
+explicit
 nsNameThreadRunnable
 (
 const

@@ -109,6 +109,7 @@ nsVoidArray
 (
 )
 ;
+explicit
 nsVoidArray
 (
 int32_t

@@ -27,6 +27,7 @@ nsRunnable
 {
 public
 :
+explicit
 nsProxyReleaseEvent
 (
 nsISupports
