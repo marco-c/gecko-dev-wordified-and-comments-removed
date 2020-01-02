@@ -235,6 +235,9 @@ messageId
 bool
 value
 ;
+bool
+sendReadReport
+;
 }
 ;
 struct
