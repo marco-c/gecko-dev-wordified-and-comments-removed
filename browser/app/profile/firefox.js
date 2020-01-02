@@ -13471,3 +13471,15 @@ supported
 true
 )
 ;
+pref
+(
+"
+media
+.
+openh264
+.
+providerEnabled
+"
+true
+)
+;
