@@ -564,8 +564,13 @@ activeStreams
 type
 )
 ;
+event
+.
+preventDefault
+(
+)
+;
 return
-false
 ;
 }
 for
@@ -633,9 +638,6 @@ item
 )
 ;
 }
-return
-true
-;
 }
 function
 onPopupMenuHiding
