@@ -1766,6 +1766,7 @@ socket
 .
 error
 MarionetteException
+IOError
 )
 :
                     
