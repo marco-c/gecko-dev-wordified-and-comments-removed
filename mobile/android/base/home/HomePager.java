@@ -313,6 +313,7 @@ private
 OnPanelChangeListener
 mPanelChangedListener
 ;
+public
 static
 final
 String
@@ -322,6 +323,7 @@ LIST_TAG_HISTORY
 history
 "
 ;
+public
 static
 final
 String
@@ -331,6 +333,7 @@ LIST_TAG_BOOKMARKS
 bookmarks
 "
 ;
+public
 static
 final
 String
@@ -340,6 +343,7 @@ LIST_TAG_READING_LIST
 reading_list
 "
 ;
+public
 static
 final
 String
@@ -349,6 +353,7 @@ LIST_TAG_TOP_SITES
 top_sites
 "
 ;
+public
 static
 final
 String
@@ -358,6 +363,7 @@ LIST_TAG_RECENT_TABS
 recent_tabs
 "
 ;
+public
 static
 final
 String
