@@ -464,6 +464,11 @@ IsDoomed
 (
 )
 ;
+bool
+IsWriteInProgress
+(
+)
+;
 size_t
 SizeOfExcludingThis
 (
@@ -763,6 +768,9 @@ mReady
 ;
 bool
 mMemoryOnly
+;
+bool
+mOpenAsMemoryOnly
 ;
 bool
 mDataAccessed

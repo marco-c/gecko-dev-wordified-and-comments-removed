@@ -253,9 +253,11 @@ browser
 .
 cache
 .
-memory_limit
+disk
+.
+metadata_memory_limit
 "
-51200
+250
 )
 ;
 pref
