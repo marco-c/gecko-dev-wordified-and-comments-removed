@@ -5251,9 +5251,6 @@ EXPAND_LIBS_EXEC
 )
 -
 -
-uselist
--
--
 (
 HOST_LD
 )
@@ -5455,9 +5452,6 @@ EXPAND_LIBS_EXEC
 )
 -
 -
-uselist
--
--
 (
 HOST_CXX
 )
@@ -5482,9 +5476,6 @@ else
 (
 EXPAND_LIBS_EXEC
 )
--
--
-uselist
 -
 -
 (
@@ -5790,9 +5781,6 @@ EXPAND_LIBS_EXEC
 )
 -
 -
-uselist
--
--
 (
 HOST_LD
 )
@@ -5832,9 +5820,6 @@ EXPAND_LIBS_EXEC
 )
 -
 -
-uselist
--
--
 (
 HOST_CXX
 )
@@ -5858,9 +5843,6 @@ else
 (
 EXPAND_LIBS_EXEC
 )
--
--
-uselist
 -
 -
 (
