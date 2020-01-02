@@ -3292,6 +3292,7 @@ nsIntRegion
 GetVisibleRegion
 (
 )
+const
 {
 return
 mVisibleRegion
