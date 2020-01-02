@@ -3504,13 +3504,11 @@ NS_NewDOMTransitionEvent
 aDOMEvent
 aOwner
 aPresContext
-static_cast
-<
-InternalTransitionEvent
-*
->
-(
 aEvent
+-
+>
+AsTransitionEvent
+(
 )
 )
 ;

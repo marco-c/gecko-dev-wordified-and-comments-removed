@@ -3246,13 +3246,11 @@ InternalTransitionEvent
 *
 oldTransitionEvent
 =
-static_cast
-<
-InternalTransitionEvent
-*
->
-(
 mEvent
+-
+>
+AsTransitionEvent
+(
 )
 ;
 InternalTransitionEvent
