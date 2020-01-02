@@ -102,11 +102,6 @@ ipc
 =
 [
 '
-DBusThread
-.
-h
-'
-'
 DBusUtils
 .
 h
@@ -121,11 +116,6 @@ SOURCES
 +
 =
 [
-'
-DBusThread
-.
-cpp
-'
 '
 DBusUtils
 .
