@@ -782,6 +782,16 @@ tabindex
 ;
 item
 .
+setAttribute
+(
+"
+targetURI
+"
+uri
+)
+;
+item
+.
 addEventListener
 (
 "

@@ -464,6 +464,11 @@ PanelUI
 -
 recentlyClosedTabs
 "
+tooltip
+=
+"
+bhTooltip
+"
 /
 >
 <
@@ -488,6 +493,11 @@ PanelUI
 -
 recentlyClosedWindows
 "
+tooltip
+=
+"
+bhTooltip
+"
 /
 >
 <
@@ -511,6 +521,11 @@ id
 PanelUI
 -
 historyItems
+"
+tooltip
+=
+"
+bhTooltip
 "
 /
 >
