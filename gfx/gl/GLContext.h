@@ -285,6 +285,7 @@ draw_instanced
 element_index_uint
 ES2_compatibility
 ES3_compatibility
+frag_color_float
 frag_depth
 framebuffer_blit
 framebuffer_multisample
@@ -297,6 +298,8 @@ occlusion_query_boolean
 occlusion_query2
 packed_depth_stencil
 query_objects
+renderbuffer_color_float
+renderbuffer_color_half_float
 robustness
 sRGB
 standard_derivatives
@@ -941,6 +944,9 @@ ARB_texture_float
 OES_texture_half_float
 OES_texture_half_float_linear
 NV_half_float
+EXT_color_buffer_float
+EXT_color_buffer_half_float
+ARB_color_buffer_float
 EXT_unpack_subimage
 OES_standard_derivatives
 EXT_texture_filter_anisotropic
