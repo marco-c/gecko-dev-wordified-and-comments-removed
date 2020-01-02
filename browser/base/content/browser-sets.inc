@@ -460,9 +460,13 @@ oncommand
 "
 BrowserViewSourceOfDocument
 (
-content
+window
 .
-document
+gBrowser
+.
+selectedBrowser
+.
+contentDocumentAsCPOW
 )
 ;
 "
