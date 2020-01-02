@@ -642,7 +642,7 @@ SetFrameType
 EncodedFrame
 :
 :
-AUDIO_FRAME
+VORBIS_AUDIO_FRAME
 )
 ;
 nsTArray

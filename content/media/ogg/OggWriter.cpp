@@ -255,7 +255,7 @@ GetFrameType
 EncodedFrame
 :
 :
-AUDIO_FRAME
+OPUS_AUDIO_FRAME
 )
 {
 LOG

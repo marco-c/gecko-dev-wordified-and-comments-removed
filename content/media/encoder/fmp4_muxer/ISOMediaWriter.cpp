@@ -416,7 +416,7 @@ type
 EncodedFrame
 :
 :
-AUDIO_FRAME
+AAC_AUDIO_FRAME
 |
 |
 type
@@ -442,7 +442,7 @@ type
 EncodedFrame
 :
 :
-I_FRAME
+AVC_I_FRAME
 |
 |
 type
@@ -451,7 +451,7 @@ type
 EncodedFrame
 :
 :
-P_FRAME
+AVC_P_FRAME
 |
 |
 type
@@ -460,7 +460,7 @@ type
 EncodedFrame
 :
 :
-B_FRAME
+AVC_B_FRAME
 |
 |
 type
