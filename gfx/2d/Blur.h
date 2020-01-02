@@ -93,7 +93,9 @@ aRect
 int32_t
 aStride
 float
-aSigma
+aSigmaX
+float
+aSigmaY
 )
 ;
 ~

@@ -2447,6 +2447,7 @@ cairo_image_surface_get_stride
 blursurf
 )
 aSigma
+aSigma
 )
 ;
 blur
