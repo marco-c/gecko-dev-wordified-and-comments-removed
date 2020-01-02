@@ -23,6 +23,13 @@ h
 #
 include
 "
+nsAutoPtr
+.
+h
+"
+#
+include
+"
 gfxPoint
 .
 h

@@ -18,6 +18,13 @@ nsExpirationTracker
 .
 h
 "
+#
+include
+"
+nsSize
+.
+h
+"
 class
 gfxContext
 ;

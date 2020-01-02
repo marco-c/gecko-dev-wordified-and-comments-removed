@@ -18,6 +18,13 @@ nsTArray
 .
 h
 "
+#
+include
+"
+nsSize
+.
+h
+"
 class
 gfxTeeSurface
 :
