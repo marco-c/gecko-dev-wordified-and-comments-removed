@@ -12585,6 +12585,7 @@ _domRequest
 .
 forEach
 (
+(
 function
 (
 req
@@ -12614,6 +12615,12 @@ msg
 )
 ;
 }
+)
+.
+bind
+(
+this
+)
 )
 ;
 }
