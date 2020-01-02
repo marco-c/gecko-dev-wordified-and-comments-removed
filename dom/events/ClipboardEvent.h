@@ -148,6 +148,14 @@ ErrorResult
 aError
 )
 ;
+protected
+:
+~
+ClipboardEvent
+(
+)
+{
+}
 }
 ;
 }

@@ -700,6 +700,12 @@ const
 ;
 protected
 :
+~
+UIEvent
+(
+)
+{
+}
 nsIntPoint
 GetMovementPoint
 (

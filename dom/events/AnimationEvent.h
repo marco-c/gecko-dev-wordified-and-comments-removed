@@ -128,6 +128,14 @@ ElapsedTime
 (
 )
 ;
+protected
+:
+~
+AnimationEvent
+(
+)
+{
+}
 }
 ;
 }

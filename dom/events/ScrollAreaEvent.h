@@ -276,6 +276,12 @@ aHeight
 }
 protected
 :
+~
+ScrollAreaEvent
+(
+)
+{
+}
 DOMRect
 mClientArea
 ;

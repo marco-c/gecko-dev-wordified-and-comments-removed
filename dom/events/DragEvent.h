@@ -150,6 +150,14 @@ ErrorResult
 aError
 )
 ;
+protected
+:
+~
+DragEvent
+(
+)
+{
+}
 }
 ;
 }

@@ -196,6 +196,12 @@ aSourceEvent
 }
 protected
 :
+~
+XULCommandEvent
+(
+)
+{
+}
 nsCOMPtr
 <
 nsIDOMEvent

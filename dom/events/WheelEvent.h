@@ -140,6 +140,14 @@ DeltaMode
 (
 )
 ;
+protected
+:
+~
+WheelEvent
+(
+)
+{
+}
 private
 :
 int32_t

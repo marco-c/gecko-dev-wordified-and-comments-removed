@@ -244,6 +244,14 @@ aCharCode
 )
 ;
 }
+protected
+:
+~
+KeyboardEvent
+(
+)
+{
+}
 private
 :
 bool

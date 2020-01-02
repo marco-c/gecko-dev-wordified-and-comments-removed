@@ -138,6 +138,12 @@ aLocale
 }
 protected
 :
+~
+CompositionEvent
+(
+)
+{
+}
 nsString
 mData
 ;

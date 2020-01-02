@@ -176,6 +176,14 @@ aAttrChange
 )
 ;
 }
+protected
+:
+~
+MutationEvent
+(
+)
+{
+}
 }
 ;
 }

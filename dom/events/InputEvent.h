@@ -115,6 +115,14 @@ IsComposing
 (
 )
 ;
+protected
+:
+~
+InputEvent
+(
+)
+{
+}
 }
 ;
 }

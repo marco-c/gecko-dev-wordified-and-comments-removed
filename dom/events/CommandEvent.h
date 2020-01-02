@@ -127,6 +127,14 @@ aCommand
 )
 ;
 }
+protected
+:
+~
+CommandEvent
+(
+)
+{
+}
 }
 ;
 }
