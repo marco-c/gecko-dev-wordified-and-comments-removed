@@ -399,9 +399,7 @@ Live
 "
 apz
 .
-allow
--
-checkerboarding
+allow_checkerboarding
 "
 APZAllowCheckerboarding
 bool
