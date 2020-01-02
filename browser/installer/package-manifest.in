@@ -5128,10 +5128,15 @@ xpt
 #
 ifdef
 MOZ_ASAN
+#
+ifdef
+CLANG_CXX
 BINPATH
 /
 llvm
 -
 symbolizer
+#
+endif
 #
 endif
