@@ -2489,7 +2489,7 @@ StringAlloc
 Writer
 DescribeCodeAddressLock
 >
-DMDLocationService
+CodeAddressService
 ;
 class
 StackTrace
@@ -2619,7 +2619,7 @@ const
 Writer
 &
 aWriter
-DMDLocationService
+CodeAddressService
 *
 aLocService
 )
@@ -2887,7 +2887,7 @@ const
 Writer
 &
 aWriter
-DMDLocationService
+CodeAddressService
 *
 aLocService
 )
@@ -5325,7 +5325,7 @@ const
 Writer
 &
 aWriter
-DMDLocationService
+CodeAddressService
 *
 aLocService
 uint32_t
@@ -5446,7 +5446,7 @@ const
 Writer
 &
 aWriter
-DMDLocationService
+CodeAddressService
 *
 aLocService
 uint32_t
@@ -7245,7 +7245,7 @@ const
 Writer
 &
 aWriter
-DMDLocationService
+CodeAddressService
 *
 aLocService
 int
@@ -7900,7 +7900,7 @@ const
 Writer
 &
 aWriter
-DMDLocationService
+CodeAddressService
 *
 aLocService
 )
@@ -8179,7 +8179,7 @@ const
 Writer
 &
 aWriter
-DMDLocationService
+CodeAddressService
 *
 aLocService
 )
@@ -8815,7 +8815,7 @@ const
 Writer
 &
 aWriter
-DMDLocationService
+CodeAddressService
 *
 aLocService
 )
@@ -9272,7 +9272,7 @@ n
 "
 )
 ;
-DMDLocationService
+CodeAddressService
 *
 locService
 =
@@ -9281,7 +9281,7 @@ InfallibleAllocPolicy
 :
 new_
 <
-DMDLocationService
+CodeAddressService
 >
 (
 )
