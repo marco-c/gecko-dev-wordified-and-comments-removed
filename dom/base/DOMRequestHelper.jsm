@@ -619,12 +619,6 @@ _requests
 =
 null
 ;
-this
-.
-_window
-=
-null
-;
 if
 (
 this
@@ -639,6 +633,12 @@ uninit
 )
 ;
 }
+this
+.
+_window
+=
+null
+;
 }
 observe
 :
