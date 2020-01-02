@@ -454,6 +454,16 @@ WebGLVertexArray
 .
 cpp
 '
+'
+WebGLVertexArrayFake
+.
+cpp
+'
+'
+WebGLVertexArrayGL
+.
+cpp
+'
 ]
 LOCAL_INCLUDES
 +

@@ -1000,7 +1000,7 @@ if
 mBoundVertexArray
 -
 >
-mBoundElementArrayBuffer
+mElementArrayBuffer
 )
 {
 ErrorInvalidOperation
@@ -1031,7 +1031,7 @@ elemArrayBuffer
 mBoundVertexArray
 -
 >
-mBoundElementArrayBuffer
+mElementArrayBuffer
 ;
 if
 (

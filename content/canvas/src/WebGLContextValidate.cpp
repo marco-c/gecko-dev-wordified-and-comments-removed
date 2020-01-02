@@ -7831,8 +7831,10 @@ false
 }
 mDefaultVertexArray
 =
-new
 WebGLVertexArray
+:
+:
+Create
 (
 this
 )

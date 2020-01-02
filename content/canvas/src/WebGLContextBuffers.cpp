@@ -2009,7 +2009,7 @@ if
 mBoundVertexArray
 -
 >
-mBoundElementArrayBuffer
+mElementArrayBuffer
 =
 =
 buffer
@@ -2221,7 +2221,7 @@ return
 mBoundVertexArray
 -
 >
-mBoundElementArrayBuffer
+mElementArrayBuffer
 ;
 case
 LOCAL_GL_TRANSFORM_FEEDBACK_BUFFER
@@ -2455,7 +2455,7 @@ boundBuffer
 mBoundVertexArray
 -
 >
-mBoundElementArrayBuffer
+mElementArrayBuffer
 ;
 }
 MOZ_ASSERT
