@@ -375,10 +375,6 @@ sticky
 enabled
 true
 )
-asserts
-(
-1
-)
 load
 973322
 -
