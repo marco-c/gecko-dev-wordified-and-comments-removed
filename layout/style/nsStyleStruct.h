@@ -7261,6 +7261,16 @@ uint8_t
 mMixBlendMode
 ;
 uint8_t
+mWillChangeBitField
+;
+nsAutoTArray
+<
+nsString
+1
+>
+mWillChange
+;
+uint8_t
 mTouchAction
 ;
 uint8_t
