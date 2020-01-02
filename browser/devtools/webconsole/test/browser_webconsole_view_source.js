@@ -387,12 +387,6 @@ node
 "
 )
 ;
-executeSoon
-(
-function
-(
-)
-{
 aSubject
 .
 close
@@ -426,9 +420,6 @@ null
 ;
 finishTest
 (
-)
-;
-}
 )
 ;
 }
