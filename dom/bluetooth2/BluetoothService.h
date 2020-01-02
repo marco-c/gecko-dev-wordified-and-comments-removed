@@ -112,8 +112,6 @@ BluetoothService
 :
 public
 nsIObserver
-public
-BluetoothSignalObserver
 {
 class
 ToggleBtTask
@@ -204,15 +202,6 @@ const
 BluetoothSignal
 &
 aEvent
-)
-;
-void
-Notify
-(
-const
-BluetoothSignal
-&
-aParam
 )
 ;
 static
