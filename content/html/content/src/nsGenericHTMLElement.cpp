@@ -14313,8 +14313,6 @@ ConvertJSValueToString
 (
 aCx
 value
-&
-value
 eStringify
 eStringify
 string

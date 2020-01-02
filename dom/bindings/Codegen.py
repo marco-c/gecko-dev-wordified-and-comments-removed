@@ -23514,22 +23514,6 @@ in
 question
           
 {
-mutableVal
-}
-is
-a
-mutable
-handle
-to
-the
-JS
-:
-:
-Value
-in
-question
-          
-{
 holderName
 }
 replaced
@@ -25783,15 +25767,6 @@ temp
 "
                 
 "
-mutableVal
-"
-:
-"
-&
-temp
-"
-                
-"
 declName
 "
 :
@@ -26428,15 +26403,6 @@ temp
 "
                 
 "
-mutableVal
-"
-:
-"
-&
-temp
-"
-                
-"
 declName
 "
 :
@@ -26671,10 +26637,8 @@ ConvertJSValueToString
 (
 cx
 propNameValue
-&
-propNameValue
-                                          
 eStringify
+                                          
 eStringify
 propName
 )
@@ -27033,9 +26997,6 @@ cx
 {
 val
 }
-{
-mutableVal
-}
 tryNext
 )
 )
@@ -27174,9 +27135,6 @@ cx
 {
 val
 }
-{
-mutableVal
-}
 tryNext
 )
 )
@@ -27272,9 +27230,6 @@ s
 cx
 {
 val
-}
-{
-mutableVal
 }
 )
 ;
@@ -27401,9 +27356,6 @@ cx
 {
 val
 }
-{
-mutableVal
-}
 tryNext
 )
 )
@@ -27503,9 +27455,6 @@ cx
 {
 val
 }
-{
-mutableVal
-}
 tryNext
 )
 )
@@ -27604,9 +27553,6 @@ s
 cx
 {
 val
-}
-{
-mutableVal
 }
 tryNext
 )
@@ -28079,9 +28025,6 @@ s
 cx
 {
 val
-}
-{
-mutableVal
 }
 tryNext
 )
@@ -30482,9 +30425,6 @@ cx
 {
 val
 }
-{
-mutableVal
-}
 %
 s
 %
@@ -30771,9 +30711,6 @@ ConvertJSValueToByteString
 cx
 {
 val
-}
-{
-mutableVal
 }
 %
 s
@@ -34247,24 +34184,6 @@ substitute
 replacer
 )
         
-self
-.
-replacementVariables
-[
-"
-mutableVal
-"
-]
-=
-self
-.
-replacementVariables
-[
-"
-val
-"
-]
-        
 haveValueCheck
 =
 string
@@ -34808,12 +34727,6 @@ substitute
                 
 "
 val
-"
-:
-val
-                
-"
-mutableVal
 "
 :
 val
@@ -45170,12 +45083,6 @@ _holder
                         
 "
 val
-"
-:
-distinguishingArg
-                        
-"
-mutableVal
 "
 :
 distinguishingArg
@@ -56522,12 +56429,6 @@ val
 value
 "
             
-mutableVal
-=
-"
-pvalue
-"
-            
 declName
 =
 "
@@ -56669,25 +56570,6 @@ Value
 "
 "
 value
-"
-)
-                              
-Argument
-(
-"
-JS
-:
-:
-MutableHandle
-<
-JS
-:
-:
-Value
->
-"
-"
-pvalue
 "
 )
                               
@@ -64883,12 +64765,6 @@ val
 argumentMutableValue
                 
 "
-mutableVal
-"
-:
-argumentMutableValue
-                
-"
 obj
 "
 :
@@ -65822,11 +65698,9 @@ ConvertJSValueToString
 (
 cx
 nameVal
-&
-nameVal
+eStringify
+eStringify
                                         
-eStringify
-eStringify
 {
 argName
 }
@@ -77337,19 +77211,6 @@ val
 "
 :
 "
-temp
-.
-ref
-(
-)
-"
-            
-"
-mutableVal
-"
-:
-"
-&
 temp
 .
 ref
@@ -91575,15 +91436,6 @@ val
 "
 :
 "
-rval
-"
-            
-"
-mutableVal
-"
-:
-"
-&
 rval
 "
             
