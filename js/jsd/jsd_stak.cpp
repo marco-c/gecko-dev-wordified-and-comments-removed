@@ -1889,13 +1889,6 @@ JS_ASSERT
 cx
 )
 ;
-exceptionState
-=
-JS_SaveExceptionState
-(
-cx
-)
-;
 JS
 :
 :
@@ -1904,6 +1897,13 @@ v
 (
 cx
 val
+)
+;
+exceptionState
+=
+JS_SaveExceptionState
+(
+cx
 )
 ;
 retval
