@@ -109,6 +109,8 @@ mSink
 )
 ;
 }
+private
+:
 virtual
 ~
 nsTransportEventSinkProxy
@@ -122,6 +124,8 @@ mSink
 )
 ;
 }
+public
+:
 nsITransportEventSink
 *
 mSink

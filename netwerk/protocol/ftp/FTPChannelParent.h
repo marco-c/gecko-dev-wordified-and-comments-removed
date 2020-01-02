@@ -87,12 +87,6 @@ PBOverrideStatus
 aOverrideStatus
 )
 ;
-virtual
-~
-FTPChannelParent
-(
-)
-;
 bool
 Init
 (
@@ -135,6 +129,12 @@ true
 ;
 protected
 :
+virtual
+~
+FTPChannelParent
+(
+)
+;
 nsresult
 ResumeForDiversion
 (

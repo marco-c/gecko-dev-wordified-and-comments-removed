@@ -52,14 +52,14 @@ nsStreamConverterService
 (
 )
 ;
+private
+:
 virtual
 ~
 nsStreamConverterService
 (
 )
 ;
-private
-:
 nsresult
 FindConverter
 (

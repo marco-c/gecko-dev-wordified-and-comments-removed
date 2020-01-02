@@ -281,12 +281,6 @@ SpdyPush31TransactionBuffer
 (
 )
 ;
-virtual
-~
-SpdyPush31TransactionBuffer
-(
-)
-;
 nsresult
 GetBufferedData
 (
@@ -315,6 +309,12 @@ stream
 }
 private
 :
+virtual
+~
+SpdyPush31TransactionBuffer
+(
+)
+;
 const
 static
 uint32_t

@@ -80,12 +80,6 @@ uint32_t
 caps
 )
 ;
-virtual
-~
-NullHttpTransaction
-(
-)
-;
 bool
 IsNullTransaction
 (
@@ -123,6 +117,14 @@ PR_SecondsToInterval
 )
 ;
 }
+protected
+:
+virtual
+~
+NullHttpTransaction
+(
+)
+;
 private
 :
 nsresult

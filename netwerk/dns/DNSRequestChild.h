@@ -79,13 +79,6 @@ nsIEventTarget
 target
 )
 ;
-virtual
-~
-DNSRequestChild
-(
-)
-{
-}
 void
 AddIPDLReference
 (
@@ -118,6 +111,13 @@ CallOnLookupComplete
 ;
 private
 :
+virtual
+~
+DNSRequestChild
+(
+)
+{
+}
 virtual
 bool
 Recv__delete__

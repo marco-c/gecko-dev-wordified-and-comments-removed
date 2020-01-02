@@ -38,6 +38,12 @@ MOZ_FINAL
 public
 nsINetAddr
 {
+~
+nsNetAddr
+(
+)
+{
+}
 public
 :
 NS_DECL_ISUPPORTS

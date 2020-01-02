@@ -98,6 +98,11 @@ MOZ_FINAL
 public
 nsIInputStreamCallback
 {
+~
+nsFtpControlConnection
+(
+)
+;
 public
 :
 NS_DECL_ISUPPORTS
@@ -110,11 +115,6 @@ nsCSubstring
 host
 uint32_t
 port
-)
-;
-~
-nsFtpControlConnection
-(
 )
 ;
 nsresult

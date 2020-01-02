@@ -77,12 +77,6 @@ CookieServiceChild
 (
 )
 ;
-virtual
-~
-CookieServiceChild
-(
-)
-;
 static
 CookieServiceChild
 *
@@ -92,6 +86,12 @@ GetSingleton
 ;
 protected
 :
+virtual
+~
+CookieServiceChild
+(
+)
+;
 void
 SerializeURIs
 (

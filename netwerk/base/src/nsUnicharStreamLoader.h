@@ -59,13 +59,6 @@ nsUnicharStreamLoader
 )
 {
 }
-virtual
-~
-nsUnicharStreamLoader
-(
-)
-{
-}
 static
 nsresult
 Create
@@ -83,6 +76,13 @@ aResult
 ;
 protected
 :
+virtual
+~
+nsUnicharStreamLoader
+(
+)
+{
+}
 nsresult
 DetermineCharset
 (

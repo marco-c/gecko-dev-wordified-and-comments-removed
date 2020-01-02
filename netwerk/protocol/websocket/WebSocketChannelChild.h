@@ -61,11 +61,6 @@ bool
 aSecure
 )
 ;
-~
-WebSocketChannelChild
-(
-)
-;
 NS_DECL_ISUPPORTS
 NS_DECL_NSITHREADRETARGETABLEREQUEST
 NS_IMETHOD
@@ -156,6 +151,11 @@ ReleaseIPDLReference
 ;
 private
 :
+~
+WebSocketChannelChild
+(
+)
+;
 bool
 RecvOnStart
 (

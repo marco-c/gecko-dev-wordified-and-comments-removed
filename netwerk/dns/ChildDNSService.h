@@ -52,12 +52,6 @@ ChildDNSService
 (
 )
 ;
-virtual
-~
-ChildDNSService
-(
-)
-;
 static
 ChildDNSService
 *
@@ -67,6 +61,12 @@ GetSingleton
 ;
 private
 :
+virtual
+~
+ChildDNSService
+(
+)
+;
 bool
 mFirstTime
 ;

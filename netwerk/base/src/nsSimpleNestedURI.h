@@ -33,6 +33,14 @@ nsSimpleURI
 public
 nsINestedURI
 {
+protected
+:
+~
+nsSimpleNestedURI
+(
+)
+{
+}
 public
 :
 nsSimpleNestedURI

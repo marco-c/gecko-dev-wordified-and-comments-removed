@@ -51,8 +51,6 @@ nsIObserver
 public
 nsSupportsWeakReference
 {
-NS_DECL_THREADSAFE_ISUPPORTS
-NS_DECL_NSIOBSERVER
 virtual
 ~
 CacheObserver
@@ -60,6 +58,8 @@ CacheObserver
 )
 {
 }
+NS_DECL_THREADSAFE_ISUPPORTS
+NS_DECL_NSIOBSERVER
 static
 nsresult
 Init

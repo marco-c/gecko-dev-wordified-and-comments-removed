@@ -183,13 +183,6 @@ bool
 aIsHttpOnly
 )
 ;
-virtual
-~
-nsCookie
-(
-)
-{
-}
 size_t
 SizeOfIncludingThis
 (
@@ -437,6 +430,13 @@ aTime
 }
 protected
 :
+virtual
+~
+nsCookie
+(
+)
+{
+}
 const
 char
 *

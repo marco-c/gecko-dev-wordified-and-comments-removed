@@ -93,6 +93,11 @@ nsAHttpSegmentReader
 public
 nsAHttpSegmentWriter
 {
+~
+SpdySession3
+(
+)
+;
 public
 :
 NS_DECL_THREADSAFE_ISUPPORTS
@@ -107,11 +112,6 @@ SpdySession3
 (
 nsISocketTransport
 *
-)
-;
-~
-SpdySession3
-(
 )
 ;
 bool

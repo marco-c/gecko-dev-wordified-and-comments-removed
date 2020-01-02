@@ -101,14 +101,14 @@ nsServerSocket
 (
 )
 ;
+private
+:
 virtual
 ~
 nsServerSocket
 (
 )
 ;
-private
-:
 void
 OnMsgClose
 (

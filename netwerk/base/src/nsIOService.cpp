@@ -4802,6 +4802,12 @@ MOZ_FINAL
 public
 nsIProtocolProxyCallback
 {
+~
+IOServiceProxyCallback
+(
+)
+{
+}
 public
 :
 NS_DECL_ISUPPORTS

@@ -90,13 +90,13 @@ nsHttpDigestAuth
 (
 )
 ;
+protected
+:
 ~
 nsHttpDigestAuth
 (
 )
 ;
-protected
-:
 nsresult
 ExpandToHex
 (

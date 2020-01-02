@@ -89,14 +89,14 @@ nsHttpChannelAuthProvider
 (
 )
 ;
+private
+:
 virtual
 ~
 nsHttpChannelAuthProvider
 (
 )
 ;
-private
-:
 const
 char
 *

@@ -839,13 +839,6 @@ false
 )
 {
 }
-virtual
-~
-FileOpenHelper
-(
-)
-{
-}
 void
 Cancel
 (
@@ -865,6 +858,13 @@ true
 }
 private
 :
+virtual
+~
+FileOpenHelper
+(
+)
+{
+}
 NS_IMETHOD
 OnFileOpened
 (

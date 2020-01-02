@@ -149,6 +149,12 @@ MOZ_FINAL
 public
 nsIStreamListener
 {
+~
+EndListener
+(
+)
+{
+}
 public
 :
 NS_DECL_ISUPPORTS

@@ -48,6 +48,13 @@ TestConverter
 public
 nsIStreamConverter
 {
+virtual
+~
+TestConverter
+(
+)
+{
+}
 public
 :
 NS_DECL_ISUPPORTS
@@ -57,13 +64,6 @@ TestConverter
 (
 )
 ;
-virtual
-~
-TestConverter
-(
-)
-{
-}
 NS_IMETHOD
 Convert
 (

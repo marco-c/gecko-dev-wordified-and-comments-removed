@@ -80,12 +80,6 @@ nsAsyncStreamCopier
 (
 )
 ;
-virtual
-~
-nsAsyncStreamCopier
-(
-)
-;
 bool
 IsComplete
 (
@@ -105,6 +99,12 @@ status
 ;
 private
 :
+virtual
+~
+nsAsyncStreamCopier
+(
+)
+;
 nsresult
 InitInternal
 (

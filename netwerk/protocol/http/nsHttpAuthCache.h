@@ -831,6 +831,13 @@ AppDataClearObserver
 public
 nsIObserver
 {
+virtual
+~
+AppDataClearObserver
+(
+)
+{
+}
 public
 :
 NS_DECL_ISUPPORTS
@@ -845,13 +852,6 @@ aOwner
 mOwner
 (
 aOwner
-)
-{
-}
-virtual
-~
-AppDataClearObserver
-(
 )
 {
 }

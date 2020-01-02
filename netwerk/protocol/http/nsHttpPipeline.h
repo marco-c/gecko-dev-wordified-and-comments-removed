@@ -67,12 +67,6 @@ nsHttpPipeline
 (
 )
 ;
-virtual
-~
-nsHttpPipeline
-(
-)
-;
 bool
 ResponseTimeoutEnabled
 (
@@ -87,6 +81,12 @@ true
 }
 private
 :
+virtual
+~
+nsHttpPipeline
+(
+)
+;
 nsresult
 FillSendBuf
 (

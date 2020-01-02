@@ -26,6 +26,13 @@ nsIFileProtocolHandler
 public
 nsSupportsWeakReference
 {
+virtual
+~
+nsFileProtocolHandler
+(
+)
+{
+}
 public
 :
 NS_DECL_THREADSAFE_ISUPPORTS
@@ -35,13 +42,6 @@ nsFileProtocolHandler
 (
 )
 ;
-virtual
-~
-nsFileProtocolHandler
-(
-)
-{
-}
 nsresult
 Init
 (

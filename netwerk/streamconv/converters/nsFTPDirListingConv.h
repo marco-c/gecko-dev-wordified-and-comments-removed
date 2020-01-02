@@ -74,12 +74,6 @@ nsFTPDirListingConv
 (
 )
 ;
-virtual
-~
-nsFTPDirListingConv
-(
-)
-;
 nsresult
 Init
 (
@@ -87,6 +81,12 @@ Init
 ;
 private
 :
+virtual
+~
+nsFTPDirListingConv
+(
+)
+;
 nsresult
 GetHeaders
 (

@@ -23601,6 +23601,12 @@ aKey
 ;
 protected
 :
+~
+nsHttpChannelCacheKey
+(
+)
+{
+}
 nsCOMPtr
 <
 nsISupportsPRUint32

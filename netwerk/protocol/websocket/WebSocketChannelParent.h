@@ -87,6 +87,12 @@ nsIWebSocketListener
 public
 nsIInterfaceRequestor
 {
+~
+WebSocketChannelParent
+(
+)
+{
+}
 public
 :
 NS_DECL_THREADSAFE_ISUPPORTS

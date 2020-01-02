@@ -84,12 +84,6 @@ WyciwygChannelChild
 (
 )
 ;
-virtual
-~
-WyciwygChannelChild
-(
-)
-;
 void
 AddIPDLReference
 (
@@ -115,6 +109,12 @@ IsSuspended
 ;
 protected
 :
+virtual
+~
+WyciwygChannelChild
+(
+)
+;
 bool
 RecvOnStartRequest
 (

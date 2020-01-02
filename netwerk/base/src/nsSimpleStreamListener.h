@@ -36,6 +36,8 @@ nsSimpleStreamListener
 )
 {
 }
+protected
+:
 virtual
 ~
 nsSimpleStreamListener
@@ -43,8 +45,6 @@ nsSimpleStreamListener
 )
 {
 }
-protected
-:
 nsCOMPtr
 <
 nsIOutputStream

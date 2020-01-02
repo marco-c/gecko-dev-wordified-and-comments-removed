@@ -297,13 +297,6 @@ diskEntry
 )
 {
 }
-virtual
-~
-nsDiskCacheEntryInfo
-(
-)
-{
-}
 const
 char
 *
@@ -322,6 +315,13 @@ Key
 }
 private
 :
+virtual
+~
+nsDiskCacheEntryInfo
+(
+)
+{
+}
 const
 char
 *

@@ -410,6 +410,8 @@ void
 rv
 ;
 }
+private
+:
 virtual
 ~
 DataChannelShutdown
@@ -454,6 +456,8 @@ teardown
 )
 ;
 }
+public
+:
 NS_IMETHODIMP
 Observe
 (

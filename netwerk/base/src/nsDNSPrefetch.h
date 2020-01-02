@@ -56,6 +56,12 @@ MOZ_FINAL
 public
 nsIDNSListener
 {
+~
+nsDNSPrefetch
+(
+)
+{
+}
 public
 :
 NS_DECL_THREADSAFE_ISUPPORTS

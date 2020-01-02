@@ -71,6 +71,12 @@ MOZ_FINAL
 public
 nsBaseURLParser
 {
+~
+nsNoAuthURLParser
+(
+)
+{
+}
 public
 :
 NS_DECL_THREADSAFE_ISUPPORTS
@@ -166,9 +172,8 @@ nsAuthURLParser
 public
 nsBaseURLParser
 {
-public
+protected
 :
-NS_DECL_THREADSAFE_ISUPPORTS
 virtual
 ~
 nsAuthURLParser
@@ -176,6 +181,9 @@ nsAuthURLParser
 )
 {
 }
+public
+:
+NS_DECL_THREADSAFE_ISUPPORTS
 NS_IMETHOD
 ParseAuthority
 (
@@ -282,6 +290,13 @@ nsStdURLParser
 public
 nsAuthURLParser
 {
+virtual
+~
+nsStdURLParser
+(
+)
+{
+}
 public
 :
 void

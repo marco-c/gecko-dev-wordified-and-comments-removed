@@ -157,6 +157,8 @@ false
 )
 {
 }
+private
+:
 virtual
 ~
 nsInputStreamTransport
@@ -164,8 +166,6 @@ nsInputStreamTransport
 )
 {
 }
-private
-:
 nsCOMPtr
 <
 nsIAsyncInputStream
@@ -749,6 +749,8 @@ false
 )
 {
 }
+private
+:
 virtual
 ~
 nsOutputStreamTransport
@@ -756,8 +758,6 @@ nsOutputStreamTransport
 )
 {
 }
-private
-:
 nsCOMPtr
 <
 nsIAsyncOutputStream

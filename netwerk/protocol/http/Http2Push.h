@@ -284,12 +284,6 @@ Http2PushTransactionBuffer
 (
 )
 ;
-virtual
-~
-Http2PushTransactionBuffer
-(
-)
-;
 nsresult
 GetBufferedData
 (
@@ -318,6 +312,12 @@ stream
 }
 private
 :
+virtual
+~
+Http2PushTransactionBuffer
+(
+)
+;
 const
 static
 uint32_t

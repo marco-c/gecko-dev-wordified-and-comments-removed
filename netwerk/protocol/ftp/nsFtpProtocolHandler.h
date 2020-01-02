@@ -69,12 +69,6 @@ nsFtpProtocolHandler
 (
 )
 ;
-virtual
-~
-nsFtpProtocolHandler
-(
-)
-;
 nsresult
 Init
 (
@@ -132,6 +126,12 @@ mControlQoSBits
 }
 private
 :
+virtual
+~
+nsFtpProtocolHandler
+(
+)
+;
 struct
 timerStruct
 {

@@ -46,6 +46,11 @@ AppClearDataObserverInit
 ;
 private
 :
+~
+nsApplicationCacheService
+(
+)
+;
 nsRefPtr
 <
 nsCacheService

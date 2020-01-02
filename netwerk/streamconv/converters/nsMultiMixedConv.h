@@ -274,14 +274,14 @@ nsMultiMixedConv
 (
 )
 ;
+protected
+:
 virtual
 ~
 nsMultiMixedConv
 (
 )
 ;
-protected
-:
 nsresult
 SendStart
 (

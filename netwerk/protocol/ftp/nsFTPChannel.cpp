@@ -367,6 +367,12 @@ MOZ_FINAL
 public
 nsIFTPEventSink
 {
+~
+FTPEventSinkProxy
+(
+)
+{
+}
 public
 :
 FTPEventSinkProxy

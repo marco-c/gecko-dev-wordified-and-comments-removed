@@ -374,6 +374,8 @@ callback
 )
 ;
 }
+private
+:
 ~
 nsAsyncResolveRequest
 (
@@ -503,6 +505,8 @@ false
 }
 }
 }
+public
+:
 void
 SetResult
 (

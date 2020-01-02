@@ -2685,6 +2685,14 @@ nsITimer
 >
 mTimer
 ;
+private
+:
+~
+PACResolver
+(
+)
+{
+}
 }
 ;
 NS_IMPL_ISUPPORTS

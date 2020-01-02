@@ -78,13 +78,6 @@ nsAboutCache
 )
 {
 }
-virtual
-~
-nsAboutCache
-(
-)
-{
-}
 static
 nsresult
 Create
@@ -119,6 +112,13 @@ storage
 ;
 protected
 :
+virtual
+~
+nsAboutCache
+(
+)
+{
+}
 nsresult
 ParseURI
 (

@@ -96,6 +96,11 @@ ArrayBufferInputStream
 (
 )
 ;
+NS_DECL_ISUPPORTS
+NS_DECL_NSIARRAYBUFFERINPUTSTREAM
+NS_DECL_NSIINPUTSTREAM
+private
+:
 virtual
 ~
 ArrayBufferInputStream
@@ -103,11 +108,6 @@ ArrayBufferInputStream
 )
 {
 }
-NS_DECL_ISUPPORTS
-NS_DECL_NSIARRAYBUFFERINPUTSTREAM
-NS_DECL_NSIINPUTSTREAM
-private
-:
 mozilla
 :
 :

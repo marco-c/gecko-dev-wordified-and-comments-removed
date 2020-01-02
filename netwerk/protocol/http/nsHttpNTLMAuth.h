@@ -32,6 +32,8 @@ nsHttpNTLMAuth
 )
 {
 }
+private
+:
 virtual
 ~
 nsHttpNTLMAuth
@@ -39,8 +41,6 @@ nsHttpNTLMAuth
 )
 {
 }
-private
-:
 bool
 mUseNative
 ;

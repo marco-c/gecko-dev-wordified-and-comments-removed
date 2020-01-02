@@ -1278,13 +1278,6 @@ entry
 )
 {
 }
-virtual
-~
-nsCacheEntryInfo
-(
-)
-{
-}
 void
 DetachEntry
 (
@@ -1301,6 +1294,13 @@ nsCacheEntry
 *
 mCacheEntry
 ;
+virtual
+~
+nsCacheEntryInfo
+(
+)
+{
+}
 }
 ;
 typedef

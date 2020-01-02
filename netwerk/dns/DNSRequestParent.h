@@ -51,12 +51,6 @@ DNSRequestParent
 (
 )
 ;
-virtual
-~
-DNSRequestParent
-(
-)
-;
 void
 DoAsyncResolve
 (
@@ -81,6 +75,12 @@ MOZ_OVERRIDE
 ;
 private
 :
+virtual
+~
+DNSRequestParent
+(
+)
+;
 uint32_t
 mFlags
 ;

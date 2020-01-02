@@ -121,11 +121,6 @@ nsDNSService
 (
 )
 ;
-~
-nsDNSService
-(
-)
-;
 static
 nsIDNSService
 *
@@ -146,6 +141,11 @@ const
 ;
 private
 :
+~
+nsDNSService
+(
+)
+;
 static
 nsDNSService
 *

@@ -45,6 +45,8 @@ nsAboutProtocolHandler
 )
 {
 }
+private
+:
 virtual
 ~
 nsAboutProtocolHandler

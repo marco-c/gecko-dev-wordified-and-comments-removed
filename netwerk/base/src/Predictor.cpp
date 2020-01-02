@@ -929,6 +929,8 @@ PredictorDNSListener
 )
 {
 }
+private
+:
 virtual
 ~
 PredictorDNSListener

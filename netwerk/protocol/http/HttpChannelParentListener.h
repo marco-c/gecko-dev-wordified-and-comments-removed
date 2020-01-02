@@ -64,12 +64,6 @@ HttpChannelParent
 aInitialChannel
 )
 ;
-virtual
-~
-HttpChannelParentListener
-(
-)
-;
 nsresult
 DivertTo
 (
@@ -85,6 +79,12 @@ SuspendForDiversion
 ;
 private
 :
+virtual
+~
+HttpChannelParentListener
+(
+)
+;
 nsresult
 ResumeForDiversion
 (

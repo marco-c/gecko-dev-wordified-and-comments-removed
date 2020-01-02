@@ -1179,12 +1179,6 @@ CacheEntry
 aEntry
 )
 ;
-virtual
-~
-CacheEntryHandle
-(
-)
-;
 CacheEntry
 *
 Entry
@@ -1205,6 +1199,12 @@ mEntry
 )
 private
 :
+virtual
+~
+CacheEntryHandle
+(
+)
+;
 nsRefPtr
 <
 CacheEntry

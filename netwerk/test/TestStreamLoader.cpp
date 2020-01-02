@@ -76,6 +76,12 @@ MOZ_FINAL
 public
 nsIStreamLoaderObserver
 {
+~
+MyStreamLoaderObserver
+(
+)
+{
+}
 public
 :
 NS_DECL_ISUPPORTS

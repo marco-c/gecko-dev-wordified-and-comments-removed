@@ -93,6 +93,11 @@ nsAHttpSegmentReader
 public
 nsAHttpSegmentWriter
 {
+~
+SpdySession31
+(
+)
+;
 public
 :
 NS_DECL_ISUPPORTS
@@ -107,11 +112,6 @@ SpdySession31
 (
 nsISocketTransport
 *
-)
-;
-~
-SpdySession31
-(
 )
 ;
 bool

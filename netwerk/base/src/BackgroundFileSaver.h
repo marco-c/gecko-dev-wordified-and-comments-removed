@@ -471,11 +471,6 @@ PK11Context
 aContext
 )
 ;
-~
-DigestOutputStream
-(
-)
-;
 void
 virtualDestroyNSSReference
 (
@@ -484,6 +479,11 @@ virtualDestroyNSSReference
 }
 private
 :
+~
+DigestOutputStream
+(
+)
+;
 nsCOMPtr
 <
 nsIOutputStream

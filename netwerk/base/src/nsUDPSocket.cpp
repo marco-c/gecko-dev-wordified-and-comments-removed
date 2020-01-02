@@ -1288,6 +1288,12 @@ NS_DECL_THREADSAFE_ISUPPORTS
 NS_DECL_NSIUDPMESSAGE
 private
 :
+~
+UDPMessageProxy
+(
+)
+{
+}
 NetAddr
 mAddr
 ;
@@ -2306,6 +2312,12 @@ MOZ_FINAL
 public
 nsIUDPSocketListener
 {
+~
+SocketListenerProxy
+(
+)
+{
+}
 public
 :
 SocketListenerProxy
@@ -2719,6 +2731,8 @@ aData
 )
 ;
 }
+private
+:
 virtual
 ~
 PendingSend
@@ -2726,8 +2740,6 @@ PendingSend
 )
 {
 }
-private
-:
 nsRefPtr
 <
 nsUDPSocket

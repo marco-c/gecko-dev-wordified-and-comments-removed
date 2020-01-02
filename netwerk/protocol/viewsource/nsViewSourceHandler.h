@@ -35,11 +35,6 @@ nsViewSourceHandler
 (
 )
 ;
-~
-nsViewSourceHandler
-(
-)
-;
 nsresult
 NewSrcdocChannel
 (
@@ -68,6 +63,11 @@ GetInstance
 ;
 private
 :
+~
+nsViewSourceHandler
+(
+)
+;
 static
 nsViewSourceHandler
 *

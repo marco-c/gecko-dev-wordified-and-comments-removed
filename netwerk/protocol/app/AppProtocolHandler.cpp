@@ -71,6 +71,12 @@ Run
 ;
 private
 :
+~
+DummyChannel
+(
+)
+{
+}
 bool
 mPending
 ;

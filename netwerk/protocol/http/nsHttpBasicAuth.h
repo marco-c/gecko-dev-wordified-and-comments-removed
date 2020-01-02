@@ -31,6 +31,8 @@ nsHttpBasicAuth
 (
 )
 ;
+private
+:
 virtual
 ~
 nsHttpBasicAuth

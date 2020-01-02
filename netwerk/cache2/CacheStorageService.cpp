@@ -6064,14 +6064,14 @@ aCallback
 )
 {
 }
+private
+:
 virtual
 ~
 CacheEntryDoomByKeyCallback
 (
 )
 ;
-private
-:
 NS_IMETHOD
 OnFileOpened
 (

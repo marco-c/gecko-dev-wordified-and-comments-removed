@@ -117,6 +117,12 @@ nsIInterfaceRequestor
 public
 NudgeTunnelCallback
 {
+virtual
+~
+nsHttpConnection
+(
+)
+;
 public
 :
 NS_DECL_THREADSAFE_ISUPPORTS
@@ -127,12 +133,6 @@ NS_DECL_NSIOUTPUTSTREAMCALLBACK
 NS_DECL_NSITRANSPORTEVENTSINK
 NS_DECL_NSIINTERFACEREQUESTOR
 NS_DECL_NUDGETUNNELCALLBACK
-nsHttpConnection
-(
-)
-;
-virtual
-~
 nsHttpConnection
 (
 )
