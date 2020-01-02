@@ -4722,6 +4722,15 @@ sandbox
 ;
 if
 (
+js
+:
+:
+GetContextCompartment
+(
+cx
+)
+&
+&
 !
 JS_WrapValue
 (
