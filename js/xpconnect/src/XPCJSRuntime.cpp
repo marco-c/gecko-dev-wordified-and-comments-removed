@@ -15096,7 +15096,7 @@ const
 size_t
 kTrustedScriptBuffer
 =
-120
+140
 *
 1024
 ;
