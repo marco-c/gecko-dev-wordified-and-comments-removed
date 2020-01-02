@@ -109,12 +109,12 @@ CPP_SOURCES
 =
 [
 '
-TestZip
+ShowSSEConfig
 .
 cpp
 '
 '
-ShowSSEConfig
+TestZip
 .
 cpp
 '

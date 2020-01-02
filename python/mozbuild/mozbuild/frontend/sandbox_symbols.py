@@ -2833,7 +2833,7 @@ CPP_SOURCES
 '
 :
 (
-list
+StrictOrderingOnAppendList
 list
 [
 ]

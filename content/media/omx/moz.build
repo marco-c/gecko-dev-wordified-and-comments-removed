@@ -128,12 +128,12 @@ MediaOmxReader
 cpp
 '
 '
-OmxDecoder
+OMXCodecProxy
 .
 cpp
 '
 '
-OMXCodecProxy
+OmxDecoder
 .
 cpp
 '

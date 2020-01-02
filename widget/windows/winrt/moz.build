@@ -103,6 +103,11 @@ CPP_SOURCES
 =
 [
 '
+APZController
+.
+cpp
+'
+'
 FrameworkView
 .
 cpp
@@ -159,11 +164,6 @@ cpp
 '
 '
 nsWinMetroUtils
-.
-cpp
-'
-'
-APZController
 .
 cpp
 '

@@ -187,6 +187,11 @@ RedirectChannelRegistrar
 cpp
 '
 '
+StreamingProtocolService
+.
+cpp
+'
+'
 Tickler
 .
 cpp
@@ -421,11 +426,6 @@ nsUnicharStreamLoader
 .
 cpp
 '
-'
-StreamingProtocolService
-.
-cpp
-'
 ]
 if
 CONFIG
@@ -468,7 +468,7 @@ CPP_SOURCES
 =
 [
 '
-nsURLHelperWin
+nsAutodialWin
 .
 cpp
 '
@@ -478,7 +478,7 @@ nsNativeConnectionHelper
 cpp
 '
 '
-nsAutodialWin
+nsURLHelperWin
 .
 cpp
 '

@@ -405,6 +405,11 @@ CPP_SOURCES
 =
 [
 '
+TimeStamp
+.
+cpp
+'
+'
 nsArray
 .
 cpp
@@ -486,11 +491,6 @@ cpp
 '
 '
 nsVariant
-.
-cpp
-'
-'
-TimeStamp
 .
 cpp
 '

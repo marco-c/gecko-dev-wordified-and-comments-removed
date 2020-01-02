@@ -301,12 +301,12 @@ GonkConsumerBase
 cpp
 '
 '
-GonkNativeWindowJB
+GonkNativeWindowClientJB
 .
 cpp
 '
 '
-GonkNativeWindowClientJB
+GonkNativeWindowJB
 .
 cpp
 '

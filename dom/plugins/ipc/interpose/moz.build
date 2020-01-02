@@ -112,6 +112,11 @@ mm
 (
 LIBRARY_NAME
 )
+]
+CMMSRCS
++
+=
+[
 '
 plugin_child_quirks
 .

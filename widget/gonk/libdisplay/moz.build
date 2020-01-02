@@ -230,12 +230,12 @@ FramebufferSurface
 cpp
 '
 '
-GraphicBufferAlloc
+GonkDisplayJB
 .
 cpp
 '
 '
-GonkDisplayJB
+GraphicBufferAlloc
 .
 cpp
 '

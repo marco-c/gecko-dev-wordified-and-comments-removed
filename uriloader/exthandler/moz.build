@@ -475,13 +475,6 @@ CPP_SOURCES
 '
 android
 /
-nsMIMEInfoAndroid
-.
-cpp
-'
-'
-android
-/
 nsAndroidHandlerApp
 .
 cpp
@@ -497,6 +490,13 @@ cpp
 android
 /
 nsExternalURLHandlerService
+.
+cpp
+'
+'
+android
+/
+nsMIMEInfoAndroid
 .
 cpp
 '

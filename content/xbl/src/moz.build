@@ -137,6 +137,11 @@ CPP_SOURCES
 =
 [
 '
+XBLChildrenElement
+.
+cpp
+'
+'
 nsBindingManager
 .
 cpp
@@ -213,11 +218,6 @@ cpp
 '
 '
 nsXBLWindowKeyHandler
-.
-cpp
-'
-'
-XBLChildrenElement
 .
 cpp
 '

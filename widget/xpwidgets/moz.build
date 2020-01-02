@@ -198,12 +198,12 @@ nsHTMLFormatConverter
 cpp
 '
 '
-nsIdleService
+nsIWidgetListener
 .
 cpp
 '
 '
-nsIWidgetListener
+nsIdleService
 .
 cpp
 '

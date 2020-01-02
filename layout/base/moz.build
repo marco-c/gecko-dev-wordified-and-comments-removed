@@ -124,12 +124,12 @@ CPP_SOURCES
 =
 [
 '
-nsBidiPresUtils
+nsBidi
 .
 cpp
 '
 '
-nsBidi
+nsBidiPresUtils
 .
 cpp
 '

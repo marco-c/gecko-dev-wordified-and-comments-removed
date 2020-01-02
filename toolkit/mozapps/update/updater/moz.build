@@ -215,12 +215,12 @@ CPP_SOURCES
 =
 [
 '
-progressui_gonk
+automounter_gonk
 .
 cpp
 '
 '
-automounter_gonk
+progressui_gonk
 .
 cpp
 '

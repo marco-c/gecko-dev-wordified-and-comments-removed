@@ -138,7 +138,7 @@ GStreamerFormatHelper
 cpp
 '
 '
-GStreamerReader
+GStreamerLoader
 .
 cpp
 '
@@ -148,7 +148,7 @@ GStreamerMozVideoBuffer
 cpp
 '
 '
-GStreamerLoader
+GStreamerReader
 .
 cpp
 '

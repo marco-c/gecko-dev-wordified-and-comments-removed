@@ -230,12 +230,12 @@ crashreporter_gtk_common
 cpp
 '
 '
-crashreporter_unix_common
+crashreporter_linux
 .
 cpp
 '
 '
-crashreporter_linux
+crashreporter_unix_common
 .
 cpp
 '

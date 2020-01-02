@@ -334,7 +334,7 @@ CPP_SOURCES
 =
 [
 '
-nsPluginsDirWin
+nsPluginDirServiceProvider
 .
 cpp
 '
@@ -344,7 +344,7 @@ nsPluginNativeWindowWin
 cpp
 '
 '
-nsPluginDirServiceProvider
+nsPluginsDirWin
 .
 cpp
 '
@@ -367,12 +367,12 @@ CPP_SOURCES
 =
 [
 '
-nsPluginsDirOS2
+nsPluginNativeWindowOS2
 .
 cpp
 '
 '
-nsPluginNativeWindowOS2
+nsPluginsDirOS2
 .
 cpp
 '
@@ -395,12 +395,12 @@ CPP_SOURCES
 =
 [
 '
-nsPluginsDirDarwin
+nsPluginNativeWindow
 .
 cpp
 '
 '
-nsPluginNativeWindow
+nsPluginsDirDarwin
 .
 cpp
 '

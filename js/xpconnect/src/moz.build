@@ -138,6 +138,11 @@ CPP_SOURCES
 =
 [
 '
+Sandbox
+.
+cpp
+'
+'
 XPCCallContext
 .
 cpp
@@ -289,11 +294,6 @@ cpp
 '
 '
 nsXPConnect
-.
-cpp
-'
-'
-Sandbox
 .
 cpp
 '

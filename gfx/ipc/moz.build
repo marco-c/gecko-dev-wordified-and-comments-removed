@@ -161,12 +161,12 @@ CPP_SOURCES
 =
 [
 '
-SharedDIBWin
+SharedDIBSurface
 .
 cpp
 '
 '
-SharedDIBSurface
+SharedDIBWin
 .
 cpp
 '

@@ -461,12 +461,12 @@ CPP_SOURCES
 =
 [
 '
-LoadLibraryRemote
+InjectCrashReporter
 .
 cpp
 '
 '
-InjectCrashReporter
+LoadLibraryRemote
 .
 cpp
 '

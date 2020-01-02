@@ -194,12 +194,7 @@ CPP_SOURCES
 =
 [
 '
-nsCookie
-.
-cpp
-'
-'
-nsCookieService
+CookieServiceChild
 .
 cpp
 '
@@ -209,7 +204,12 @@ CookieServiceParent
 cpp
 '
 '
-CookieServiceChild
+nsCookie
+.
+cpp
+'
+'
+nsCookieService
 .
 cpp
 '

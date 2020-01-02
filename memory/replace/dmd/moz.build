@@ -113,11 +113,6 @@ CPP_SOURCES
 =
 [
 '
-DMD
-.
-cpp
-'
-'
 .
 .
 /
@@ -148,6 +143,11 @@ xpcom
 base
 /
 nsStackWalk
+.
+cpp
+'
+'
+DMD
 .
 cpp
 '

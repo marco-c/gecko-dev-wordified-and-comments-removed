@@ -151,12 +151,12 @@ MediaEngineWebRTC
 cpp
 '
 '
-MediaEngineWebRTCVideo
+MediaEngineWebRTCAudio
 .
 cpp
 '
 '
-MediaEngineWebRTCAudio
+MediaEngineWebRTCVideo
 .
 cpp
 '

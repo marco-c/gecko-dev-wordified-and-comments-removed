@@ -149,6 +149,11 @@ nsProfileLock
 .
 cpp
 '
+]
+CPP_SOURCES
++
+=
+[
 '
 nsToolkitProfileService
 .
