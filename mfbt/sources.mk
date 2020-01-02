@@ -79,6 +79,10 @@ CPPSRCS
 +
 =
 \
+Compression
+.
+cpp
+\
 HashFunctions
 .
 cpp
