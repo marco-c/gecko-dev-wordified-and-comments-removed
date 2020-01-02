@@ -16904,6 +16904,7 @@ HAS_I422TOARGBROW_SSSE3
 )
 #
 if
+(
 defined
 (
 __x86_64__
@@ -16913,6 +16914,14 @@ __x86_64__
 defined
 (
 __i386__
+)
+)
+&
+&
+!
+defined
+(
+_MSC_VER
 )
 void
 I422ToRGB565Row_SSSE3
