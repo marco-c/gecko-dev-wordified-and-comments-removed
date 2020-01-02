@@ -1532,7 +1532,7 @@ document
 ;
 SpecialPowers
 .
-setBoolPref
+clearUserPref
 (
 "
 dom
@@ -1541,7 +1541,6 @@ sms
 .
 enabled
 "
-false
 )
 ;
 log
