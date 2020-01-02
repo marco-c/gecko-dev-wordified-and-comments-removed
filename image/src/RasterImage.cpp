@@ -6004,18 +6004,13 @@ mHasSize
 )
 {
 {
-AutoSetSyncDecode
-syncDecode
-(
-mDecoder
-)
-;
 rv
 =
 WriteToDecoder
 (
 aBuffer
 aCount
+DECODE_SYNC
 )
 ;
 CONTAINER_ENSURE_SUCCESS
@@ -8123,6 +8118,8 @@ char
 aBuffer
 uint32_t
 aCount
+DecodeStrategy
+aStrategy
 )
 {
 mDecodingMutex
@@ -8164,6 +8161,7 @@ Write
 (
 aBuffer
 aCount
+aStrategy
 )
 ;
 mInDecoder
@@ -8656,12 +8654,6 @@ get
 )
 )
 ;
-AutoSetSyncDecode
-syncDecode
-(
-mDecoder
-)
-;
 DecodePool
 :
 :
@@ -8673,6 +8665,7 @@ Singleton
 DecodeABitOf
 (
 this
+DECODE_SYNC
 )
 ;
 return
@@ -8936,13 +8929,6 @@ rv
 )
 ;
 }
-{
-AutoSetSyncDecode
-syncDecode
-(
-mDecoder
-)
-;
 rv
 =
 DecodeSomeData
@@ -8954,6 +8940,7 @@ Length
 )
 -
 mBytesDecoded
+DECODE_SYNC
 )
 ;
 CONTAINER_ENSURE_SUCCESS
@@ -8961,7 +8948,6 @@ CONTAINER_ENSURE_SUCCESS
 rv
 )
 ;
-}
 nsRefPtr
 <
 Decoder
@@ -10235,6 +10221,8 @@ DecodeSomeData
 (
 uint32_t
 aMaxBytes
+DecodeStrategy
+aStrategy
 )
 {
 NS_ABORT_IF_FALSE
@@ -10278,6 +10266,7 @@ WriteToDecoder
 (
 nullptr
 0
+aStrategy
 )
 ;
 if
@@ -10357,6 +10346,7 @@ Elements
 +
 mBytesDecoded
 bytesToDecode
+aStrategy
 )
 ;
 return
@@ -11967,6 +11957,8 @@ DecodeABitOf
 RasterImage
 *
 aImg
+DecodeStrategy
+aStrategy
 )
 {
 MOZ_ASSERT
@@ -12022,6 +12014,7 @@ FinishedSomeDecoding
 DecodeSomeOfImage
 (
 aImg
+aStrategy
 )
 ;
 aImg
@@ -12297,6 +12290,7 @@ Singleton
 DecodeSomeOfImage
 (
 mImage
+DECODE_ASYNC
 type
 mRequest
 -
@@ -12519,6 +12513,7 @@ rv
 DecodeSomeOfImage
 (
 aImg
+DECODE_ASYNC
 DECODE_TYPE_UNTIL_SIZE
 )
 ;
@@ -12590,6 +12585,8 @@ DecodeSomeOfImage
 RasterImage
 *
 aImg
+DecodeStrategy
+aStrategy
 DecodeType
 aDecodeType
 uint32_t
@@ -12650,15 +12647,10 @@ NS_OK
 ;
 if
 (
-aImg
--
->
-mDecoder
--
->
-IsSynchronous
-(
-)
+aStrategy
+=
+=
+DECODE_SYNC
 &
 &
 aImg
@@ -12919,6 +12911,7 @@ aImg
 DecodeSomeData
 (
 chunkSize
+aStrategy
 )
 ;
 if

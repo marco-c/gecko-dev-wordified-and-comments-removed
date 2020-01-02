@@ -715,6 +715,7 @@ Write
 (
 nullptr
 0
+DECODE_SYNC
 )
 ;
 }
@@ -730,6 +731,7 @@ char
 aBuffer
 uint32_t
 aCount
+DecodeStrategy
 )
 {
 mSegment

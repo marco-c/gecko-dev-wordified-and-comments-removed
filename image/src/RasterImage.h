@@ -63,6 +63,13 @@ h
 #
 include
 "
+DecodeStrategy
+.
+h
+"
+#
+include
+"
 DiscardTracker
 .
 h
@@ -848,6 +855,8 @@ DecodeABitOf
 RasterImage
 *
 aImg
+DecodeStrategy
+aStrategy
 )
 ;
 static
@@ -910,6 +919,8 @@ DecodeSomeOfImage
 RasterImage
 *
 aImg
+DecodeStrategy
+aStrategy
 DecodeType
 aDecodeType
 =
@@ -1555,6 +1566,8 @@ char
 aBuffer
 uint32_t
 aCount
+DecodeStrategy
+aStrategy
 )
 ;
 nsresult
@@ -1562,6 +1575,8 @@ DecodeSomeData
 (
 uint32_t
 aMaxBytes
+DecodeStrategy
+aStrategy
 )
 ;
 bool
