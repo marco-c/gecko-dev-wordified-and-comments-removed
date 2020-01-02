@@ -1696,6 +1696,10 @@ mDecodeCount
 (
 0
 )
+mRequestedSampleSize
+(
+0
+)
 #
 ifdef
 DEBUG

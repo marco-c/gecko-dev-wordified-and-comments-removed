@@ -35255,3 +35255,15 @@ v1
 "
 )
 ;
+pref
+(
+"
+image
+.
+mozsamplesize
+.
+enabled
+"
+false
+)
+;
