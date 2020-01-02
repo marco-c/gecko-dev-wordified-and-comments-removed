@@ -1,4 +1,10 @@
 #
+ifndef
+SpanningCellSorter_h
+#
+define
+SpanningCellSorter_h
+#
 include
 "
 pldhash
@@ -273,3 +279,5 @@ nullptr
 }
 }
 ;
+#
+endif
