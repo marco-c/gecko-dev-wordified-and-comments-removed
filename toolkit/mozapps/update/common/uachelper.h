@@ -33,6 +33,12 @@ HANDLE
 token
 )
 ;
+static
+bool
+CanUserElevate
+(
+)
+;
 private
 :
 static
