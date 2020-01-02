@@ -181,7 +181,7 @@ if
 type_
 =
 =
-IonFrame_OptimizedJS
+JitFrame_IonJS
 )
 {
 InlineFrameIterator
@@ -830,7 +830,7 @@ fp
 ;
 type_
 =
-IonFrame_OptimizedJS
+JitFrame_IonJS
 ;
 topFrameSize_
 =

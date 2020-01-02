@@ -1875,7 +1875,7 @@ data_
 .
 ionFrames_
 .
-isOptimizedJS
+isIonJS
 (
 )
 )

@@ -536,7 +536,7 @@ masm
 makeFrameDescriptor
 (
 esi
-IonFrame_Entry
+JitFrame_Entry
 )
 ;
 masm
@@ -903,7 +903,7 @@ masm
 makeFrameDescriptor
 (
 scratch
-IonFrame_BaselineJS
+JitFrame_BaselineJS
 )
 ;
 masm
@@ -1893,7 +1893,7 @@ masm
 makeFrameDescriptor
 (
 ebx
-IonFrame_Rectifier
+JitFrame_Rectifier
 )
 ;
 masm

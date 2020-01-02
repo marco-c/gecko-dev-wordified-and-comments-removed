@@ -12479,7 +12479,7 @@ type
 )
 =
 =
-IonFrame_Exit
+JitFrame_Exit
 )
 ;
 #
@@ -12495,7 +12495,7 @@ type
 )
 {
 case
-IonFrame_Exit
+JitFrame_Exit
 :
 IonSpew
 (
@@ -12520,10 +12520,10 @@ fp
 break
 ;
 case
-IonFrame_BaselineJS
+JitFrame_BaselineJS
 :
 case
-IonFrame_OptimizedJS
+JitFrame_IonJS
 :
 {
 JS_ASSERT
@@ -12542,7 +12542,7 @@ type
 =
 it
 .
-isOptimizedJS
+isIonJS
 (
 )
 ?
@@ -12638,7 +12638,7 @@ break
 ;
 }
 case
-IonFrame_BaselineStub
+JitFrame_BaselineStub
 :
 IonSpew
 (
@@ -12664,7 +12664,7 @@ fp
 break
 ;
 case
-IonFrame_Rectifier
+JitFrame_Rectifier
 :
 IonSpew
 (
@@ -12689,10 +12689,10 @@ fp
 break
 ;
 case
-IonFrame_Unwound_OptimizedJS
+JitFrame_Unwound_IonJS
 :
 case
-IonFrame_Unwound_BaselineStub
+JitFrame_Unwound_BaselineStub
 :
 MOZ_ASSUME_UNREACHABLE
 (
@@ -12702,7 +12702,7 @@ invalid
 )
 ;
 case
-IonFrame_Unwound_Rectifier
+JitFrame_Unwound_Rectifier
 :
 IonSpew
 (
@@ -12728,7 +12728,7 @@ fp
 break
 ;
 case
-IonFrame_Entry
+JitFrame_Entry
 :
 IonSpew
 (
@@ -12760,7 +12760,7 @@ if
 !
 it
 .
-isOptimizedJS
+isIonJS
 (
 )
 )

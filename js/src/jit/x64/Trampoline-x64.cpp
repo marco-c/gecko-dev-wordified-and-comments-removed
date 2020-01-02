@@ -678,7 +678,7 @@ masm
 makeFrameDescriptor
 (
 r14
-IonFrame_Entry
+JitFrame_Entry
 )
 ;
 masm
@@ -1029,7 +1029,7 @@ masm
 makeFrameDescriptor
 (
 valuesSize
-IonFrame_BaselineJS
+JitFrame_BaselineJS
 )
 ;
 masm
@@ -2120,7 +2120,7 @@ masm
 makeFrameDescriptor
 (
 r9
-IonFrame_Rectifier
+JitFrame_Rectifier
 )
 ;
 masm

@@ -341,7 +341,7 @@ masm
 makeFrameDescriptor
 (
 eax
-IonFrame_BaselineJS
+JitFrame_BaselineJS
 )
 ;
 masm
@@ -415,7 +415,7 @@ masm
 makeFrameDescriptor
 (
 reg
-IonFrame_BaselineStub
+JitFrame_BaselineStub
 )
 ;
 }
@@ -552,7 +552,7 @@ masm
 makeFrameDescriptor
 (
 scratch
-IonFrame_BaselineJS
+JitFrame_BaselineJS
 )
 ;
 masm

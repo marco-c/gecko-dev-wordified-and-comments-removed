@@ -800,7 +800,7 @@ masm
 makeFrameDescriptor
 (
 r8
-IonFrame_Entry
+JitFrame_Entry
 )
 ;
 masm
@@ -1217,7 +1217,7 @@ masm
 makeFrameDescriptor
 (
 scratch
-IonFrame_BaselineJS
+JitFrame_BaselineJS
 )
 ;
 masm
@@ -2293,7 +2293,7 @@ masm
 makeFrameDescriptor
 (
 r6
-IonFrame_Rectifier
+JitFrame_Rectifier
 )
 ;
 masm
