@@ -539,6 +539,15 @@ type
 data
 )
 {
+if
+(
+msg
+.
+target
+.
+messageManager
+)
+{
 msg
 .
 target
@@ -559,6 +568,7 @@ data
 )
 )
 ;
+}
 }
 _broadcast
 :
