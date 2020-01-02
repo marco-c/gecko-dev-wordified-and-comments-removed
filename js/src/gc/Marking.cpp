@@ -1293,7 +1293,7 @@ Mark
 JSTracer
 *
 trc
-BarrieredPtr
+BarrieredBase
 <
 T
 *
@@ -2010,7 +2010,7 @@ base
 JSTracer
 *
 trc
-BarrieredPtr
+BarrieredBase
 <
 type
 *
@@ -2303,7 +2303,7 @@ base
 #
 Marked
 (
-BarrieredPtr
+BarrieredBase
 <
 type
 *
@@ -2373,7 +2373,7 @@ base
 #
 AboutToBeFinalized
 (
-BarrieredPtr
+BarrieredBase
 <
 type
 *
@@ -2416,7 +2416,7 @@ IfRelocated
 JSRuntime
 *
 rt
-BarrieredPtr
+BarrieredBase
 <
 type
 *
@@ -3080,7 +3080,10 @@ MarkId
 JSTracer
 *
 trc
-BarrieredId
+BarrieredBase
+<
+jsid
+>
 *
 id
 const
@@ -3426,7 +3429,10 @@ MarkValue
 JSTracer
 *
 trc
-BarrieredValue
+BarrieredBase
+<
+Value
+>
 *
 v
 const
@@ -3629,7 +3635,10 @@ JSTracer
 trc
 size_t
 len
-BarrieredValue
+BarrieredBase
+<
+Value
+>
 *
 vec
 const
@@ -5242,7 +5251,10 @@ base
 )
 ;
 const
-BarrieredId
+BarrieredBase
+<
+jsid
+>
 &
 id
 =
