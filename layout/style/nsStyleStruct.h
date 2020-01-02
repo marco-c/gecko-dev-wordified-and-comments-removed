@@ -4911,6 +4911,8 @@ mGridTemplateColumns
 nsStyleGridTrackList
 mGridTemplateRows
 ;
+nsRefPtr
+<
 mozilla
 :
 :
@@ -4918,6 +4920,7 @@ css
 :
 :
 GridTemplateAreasValue
+>
 mGridTemplateAreas
 ;
 nsStyleGridLine
