@@ -1796,6 +1796,11 @@ IsVistaOrLater
 IsWin8OrLater
 (
 )
+&
+&
+HasBogusPopupsDropShadowOnMultiMonitor
+(
+)
 )
 {
 extendedStyle
