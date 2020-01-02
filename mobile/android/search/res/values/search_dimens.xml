@@ -340,7 +340,7 @@ name
 widget_text_size
 "
 >
-15sp
+13sp
 <
 /
 dimen
@@ -353,7 +353,7 @@ name
 widget_drawable_padding
 "
 >
-2dp
+4dp
 <
 /
 dimen
