@@ -124,9 +124,10 @@ cx
 ;
 CHECK
 (
-JSVAL_IS_STRING
-(
 v
+.
+isString
+(
 )
 )
 ;

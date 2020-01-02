@@ -3961,9 +3961,10 @@ nsIAtom
 )
 &
 &
-JSVAL_IS_STRING
-(
 s
+.
+isString
+(
 )
 )
 {

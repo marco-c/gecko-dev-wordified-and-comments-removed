@@ -388,9 +388,10 @@ fun
 if
 (
 !
-JSVAL_IS_STRING
-(
 id
+.
+isString
+(
 )
 )
 return

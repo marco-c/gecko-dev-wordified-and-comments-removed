@@ -1774,9 +1774,10 @@ variant
 else
 if
 (
-JSVAL_IS_STRING
-(
 val
+.
+isString
+(
 )
 )
 {

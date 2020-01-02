@@ -357,9 +357,10 @@ size
 ;
 if
 (
-JSVAL_IS_STRING
-(
 v
+.
+isString
+(
 )
 )
 {
