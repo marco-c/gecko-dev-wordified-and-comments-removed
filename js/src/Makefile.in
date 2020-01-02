@@ -2037,6 +2037,10 @@ includedir
 (
 LIBRARY_NAME
 )
+(
+DEPTH
+)
+/
 _build_manifests
 /
 install
