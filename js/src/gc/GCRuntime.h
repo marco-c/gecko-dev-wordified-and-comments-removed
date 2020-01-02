@@ -1699,9 +1699,14 @@ ScriptAndCountsVector
 *
 scriptAndCountsVector
 ;
+#
+ifdef
+DEBUG
 int
 inUnsafeRegion
 ;
+#
+endif
 private
 :
 bool

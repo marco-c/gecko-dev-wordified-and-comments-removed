@@ -4461,10 +4461,15 @@ scriptAndCountsVector
 (
 nullptr
 )
+#
+ifdef
+DEBUG
 inUnsafeRegion
 (
 0
 )
+#
+endif
 alwaysPreserveCode
 (
 false
@@ -25699,6 +25704,9 @@ number
 }
 #
 endif
+#
+ifdef
+DEBUG
 JS
 :
 :
@@ -25915,3 +25923,5 @@ region
 )
 ;
 }
+#
+endif
