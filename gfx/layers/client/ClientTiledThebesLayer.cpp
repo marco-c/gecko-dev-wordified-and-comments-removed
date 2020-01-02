@@ -836,12 +836,9 @@ mTransformToCompBounds
 Inverse
 (
 )
-ParentLayerRect
-(
 scrollMetrics
 .
 mCompositionBounds
-)
 )
 ;
 TILING_PRLOG_OBJ

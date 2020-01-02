@@ -4399,8 +4399,6 @@ metrics
 .
 mCompositionBounds
 =
-RoundedToInt
-(
 LayoutDeviceRect
 :
 :
@@ -4411,7 +4409,6 @@ auPerDevPixel
 )
 *
 layoutToParentLayerScale
-)
 ;
 bool
 isRootScrollFrame
@@ -4490,11 +4487,9 @@ GetOffsetToCrossDoc
 aReferenceFrame
 )
 ;
-ParentLayerIntRect
+ParentLayerRect
 viewBounds
 =
-RoundedToInt
-(
 LayoutDeviceRect
 :
 :
@@ -4505,7 +4500,6 @@ auPerDevPixel
 )
 *
 layoutToParentLayerScale
-)
 ;
 nsIWidget
 *
@@ -4552,12 +4546,15 @@ metrics
 .
 mCompositionBounds
 =
+ParentLayerRect
+(
 ViewAs
 <
 ParentLayerPixel
 >
 (
 widgetBounds
+)
 )
 ;
 #
@@ -4630,11 +4627,9 @@ GetActualScrollbarSizes
 (
 )
 ;
-ParentLayerIntMargin
+ParentLayerMargin
 boundMargins
 =
-RoundedToInt
-(
 CSSMargin
 :
 :
@@ -4648,7 +4643,6 @@ CSSToParentLayerScale
 1
 .
 0f
-)
 )
 ;
 metrics
