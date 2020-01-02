@@ -2877,6 +2877,8 @@ ArrayObject
 (
 )
 )
+tenuredSize
+=
 srcSize
 =
 sizeof
