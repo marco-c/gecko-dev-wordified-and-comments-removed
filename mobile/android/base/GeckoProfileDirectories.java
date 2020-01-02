@@ -40,6 +40,17 @@ mozilla
 .
 gecko
 .
+mozglue
+.
+RobocopTarget
+;
+import
+org
+.
+mozilla
+.
+gecko
+.
 util
 .
 INIParser
@@ -264,6 +275,8 @@ null
 }
 }
 ;
+RobocopTarget
+public
 static
 INIParser
 getProfilesINI
@@ -428,6 +441,8 @@ toString
 )
 ;
 }
+RobocopTarget
+public
 static
 File
 getMozillaDirectory
