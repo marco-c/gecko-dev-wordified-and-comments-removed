@@ -1242,7 +1242,13 @@ aColorFormat
 {
 switch
 (
+static_cast
+<
+int
+>
+(
 aColorFormat
+)
 )
 {
 case
@@ -1560,9 +1566,6 @@ aDecoderLen
 *
 aColorFormat
 =
-(
-OMX_COLOR_FORMATTYPE
-)
 color
 ;
 found
@@ -3703,7 +3706,13 @@ mVideoSliceHeight
 ;
 if
 (
+static_cast
+<
+int
+>
+(
 aSize
+)
 =
 =
 mVideoWidth
