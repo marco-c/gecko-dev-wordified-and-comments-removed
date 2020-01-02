@@ -938,6 +938,10 @@ nsHTMLReflowMetrics
 kidDesiredSize
 (
 aReflowState
+.
+GetWritingMode
+(
+)
 )
 ;
 nsSize

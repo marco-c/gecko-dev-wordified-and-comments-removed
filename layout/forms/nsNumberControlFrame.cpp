@@ -430,6 +430,10 @@ nsHTMLReflowMetrics
 wrappersDesiredSize
 (
 aReflowState
+.
+GetWritingMode
+(
+)
 )
 ;
 nsIFrame

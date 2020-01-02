@@ -1973,6 +1973,10 @@ nsHTMLReflowMetrics
 legendDesiredSize
 (
 aReflowState
+.
+GetWritingMode
+(
+)
 )
 ;
 ReflowChild
@@ -2335,6 +2339,10 @@ nsHTMLReflowMetrics
 kidDesiredSize
 (
 kidReflowState
+.
+GetWritingMode
+(
+)
 aDesiredSize
 .
 mFlags
