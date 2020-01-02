@@ -1417,7 +1417,7 @@ WPARAM
 wParam
 LPARAM
 lParam
-nsSimpleGestureEvent
+WidgetSimpleGestureEvent
 &
 evt
 )

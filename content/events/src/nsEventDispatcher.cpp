@@ -3460,7 +3460,7 @@ aOwner
 aPresContext
 static_cast
 <
-nsSimpleGestureEvent
+WidgetSimpleGestureEvent
 *
 >
 (

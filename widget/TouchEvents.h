@@ -189,7 +189,7 @@ clickCount
 WidgetSimpleGestureEvent
 (
 const
-nsSimpleGestureEvent
+WidgetSimpleGestureEvent
 &
 aOther
 )
@@ -427,13 +427,6 @@ mozilla
 :
 WidgetGestureNotifyEvent
 nsGestureNotifyEvent
-;
-typedef
-mozilla
-:
-:
-WidgetSimpleGestureEvent
-nsSimpleGestureEvent
 ;
 #
 endif

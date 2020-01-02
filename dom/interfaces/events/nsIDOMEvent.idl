@@ -2161,7 +2161,10 @@ aOwner
 nsPresContext
 *
 aPresContext
-nsSimpleGestureEvent
+mozilla
+:
+:
+WidgetSimpleGestureEvent
 *
 aEvent
 )

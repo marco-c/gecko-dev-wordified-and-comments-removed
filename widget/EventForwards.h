@@ -297,12 +297,5 @@ mozilla
 WidgetGestureNotifyEvent
 nsGestureNotifyEvent
 ;
-typedef
-mozilla
-:
-:
-WidgetSimpleGestureEvent
-nsSimpleGestureEvent
-;
 #
 endif

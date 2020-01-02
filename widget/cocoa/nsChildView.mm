@@ -22457,7 +22457,7 @@ swipe
 "
 event
 .
-nsSimpleGestureEvent
+WidgetSimpleGestureEvent
 geckoEvent
 (
 true
@@ -22760,7 +22760,7 @@ Setup
 the
 event
 .
-nsSimpleGestureEvent
+WidgetSimpleGestureEvent
 geckoEvent
 (
 true
@@ -22862,7 +22862,7 @@ tap
 "
 event
 .
-nsSimpleGestureEvent
+WidgetSimpleGestureEvent
 geckoEvent
 (
 true
@@ -23004,7 +23004,7 @@ Setup
 the
 event
 .
-nsSimpleGestureEvent
+WidgetSimpleGestureEvent
 geckoEvent
 (
 true
@@ -23183,7 +23183,7 @@ magnify
 "
 event
 .
-nsSimpleGestureEvent
+WidgetSimpleGestureEvent
 geckoEvent
 (
 true
@@ -23234,7 +23234,7 @@ rotate
 "
 event
 .
-nsSimpleGestureEvent
+WidgetSimpleGestureEvent
 geckoEvent
 (
 true
@@ -23521,7 +23521,7 @@ mGeckoChild
 return
 false
 ;
-nsSimpleGestureEvent
+WidgetSimpleGestureEvent
 geckoEvent
 (
 true

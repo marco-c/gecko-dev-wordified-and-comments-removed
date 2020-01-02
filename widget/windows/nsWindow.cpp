@@ -24276,7 +24276,7 @@ return
 true
 ;
 }
-nsSimpleGestureEvent
+WidgetSimpleGestureEvent
 event
 (
 true

@@ -633,7 +633,10 @@ WPARAM
 wParam
 LPARAM
 lParam
-nsSimpleGestureEvent
+mozilla
+:
+:
+WidgetSimpleGestureEvent
 &
 evt
 )
