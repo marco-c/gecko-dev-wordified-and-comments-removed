@@ -2937,6 +2937,12 @@ if
 (
 !
 bypass
+&
+&
+NS_SUCCEEDED
+(
+mFileStatus
+)
 )
 {
 int64_t
@@ -6562,6 +6568,14 @@ NS_IsMainThread
 )
 )
 ;
+if
+(
+NS_SUCCEEDED
+(
+mFileStatus
+)
+)
+{
 mFile
 -
 >
@@ -6573,6 +6587,7 @@ mFrecency
 )
 )
 ;
+}
 }
 CacheOutputCloseListener
 :
