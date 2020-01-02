@@ -1633,7 +1633,7 @@ for
 var
 status
 of
-hstsStatuses
+sortedStatuses
 )
 {
 if
