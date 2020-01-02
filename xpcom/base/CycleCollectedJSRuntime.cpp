@@ -3358,12 +3358,7 @@ MOZ_OVERRIDE
 *
 aPtr
 =
-jsid
-:
-:
-voidId
-(
-)
+JSID_VOID
 ;
 }
 virtual

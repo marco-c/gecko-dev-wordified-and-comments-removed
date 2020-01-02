@@ -86,12 +86,7 @@ INT_TO_JSID
 jsid
 void_id
 =
-jsid
-:
-:
-voidId
-(
-)
+JSID_VOID
 ;
 JS
 :
