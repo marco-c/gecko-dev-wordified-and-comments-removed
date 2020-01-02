@@ -5157,16 +5157,6 @@ results_list
 )
 )
         
-if
-hasattr
-(
-results
-'
-skipped
-'
-)
-:
-            
 testsuite
 .
 setAttribute
