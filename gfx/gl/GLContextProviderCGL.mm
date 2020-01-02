@@ -802,6 +802,7 @@ GLContextCGL
 IsDoubleBuffered
 (
 )
+const
 {
 return
 gUseDoubleBufferedWindows
