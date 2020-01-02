@@ -3176,6 +3176,8 @@ popupURIspec
 blockedPopup
 .
 popupWindowURI
+.
+spec
 ;
 if
 (

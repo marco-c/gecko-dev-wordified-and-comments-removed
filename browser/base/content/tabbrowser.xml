@@ -6750,7 +6750,6 @@ mCurrentBrowser
 .
 updateBlockedPopups
 (
-false
 )
 ;
 /
