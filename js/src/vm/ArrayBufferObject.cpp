@@ -3132,6 +3132,8 @@ uint32_t
 nbytes
 bool
 clear
+NewObjectKind
+newKind
 )
 {
 Rooted
@@ -3148,6 +3150,7 @@ ArrayBufferObject
 >
 (
 cx
+newKind
 )
 )
 ;
@@ -6568,6 +6571,8 @@ create
 (
 cx
 0
+true
+TenuredObject
 )
 ;
 if

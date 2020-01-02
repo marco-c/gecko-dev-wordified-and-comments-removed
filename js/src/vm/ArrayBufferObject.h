@@ -174,6 +174,10 @@ bool
 clear
 =
 true
+NewObjectKind
+newKind
+=
+GenericObject
 )
 ;
 static
