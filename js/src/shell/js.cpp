@@ -27548,13 +27548,7 @@ dom_genericSetter
 dom_x_setterinfo
 }
 }
-{
-nullptr
-0
-0
-JSOP_NULLWRAPPER
-JSOP_NULLWRAPPER
-}
+JS_PS_END
 }
 ;
 static
