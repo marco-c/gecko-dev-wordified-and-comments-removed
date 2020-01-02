@@ -789,7 +789,7 @@ functionSearchCommand
 oncommand
 =
 "
-DepbuggerView
+DebuggerView
 .
 Filtering
 .
