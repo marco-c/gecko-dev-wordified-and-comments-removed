@@ -50,7 +50,7 @@ private
 :
 bool
 *
-statementDone
+mStatementDone
 ;
 public
 :
@@ -58,7 +58,7 @@ GuardObjectNotifier
 (
 )
 :
-statementDone
+mStatementDone
 (
 nullptr
 )
@@ -70,7 +70,7 @@ GuardObjectNotifier
 )
 {
 *
-statementDone
+mStatementDone
 =
 true
 ;
@@ -80,12 +80,12 @@ setStatementDone
 (
 bool
 *
-statementIsDone
+aStatementIsDone
 )
 {
-statementDone
+mStatementDone
 =
-statementIsDone
+aStatementIsDone
 ;
 }
 }
@@ -96,7 +96,7 @@ GuardObjectNotificationReceiver
 private
 :
 bool
-statementDone
+mStatementDone
 ;
 public
 :
@@ -104,7 +104,7 @@ GuardObjectNotificationReceiver
 (
 )
 :
-statementDone
+mStatementDone
 (
 false
 )
@@ -117,7 +117,7 @@ GuardObjectNotificationReceiver
 {
 MOZ_ASSERT
 (
-statementDone
+mStatementDone
 )
 ;
 }
@@ -127,7 +127,7 @@ init
 const
 GuardObjectNotifier
 &
-constNotifier
+aConstNotifier
 )
 {
 GuardObjectNotifier
@@ -140,7 +140,7 @@ GuardObjectNotifier
 &
 >
 (
-constNotifier
+aConstNotifier
 )
 ;
 notifier
@@ -148,7 +148,7 @@ notifier
 setStatementDone
 (
 &
-statementDone
+mStatementDone
 )
 ;
 }

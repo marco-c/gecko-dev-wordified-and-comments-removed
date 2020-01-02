@@ -114,7 +114,7 @@ double
 >
 :
 :
-ExponentShift
+kExponentShift
 ;
 int_fast16_t
 exp
@@ -133,7 +133,7 @@ double
 >
 :
 :
-ExponentBits
+kExponentBits
 )
 >
 >
@@ -151,7 +151,7 @@ double
 >
 :
 :
-ExponentBias
+kExponentBias
 )
 ;
 if
@@ -301,7 +301,7 @@ double
 >
 :
 :
-SignBit
+kSignBit
 )
 ?
 ~

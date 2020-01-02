@@ -1998,7 +1998,7 @@ double
 >
 :
 :
-ExponentBias
+kExponentBias
 )
 )
 ;
@@ -2022,7 +2022,7 @@ double
 >
 :
 :
-ExponentBias
+kExponentBias
 )
 )
 ;
@@ -2125,7 +2125,7 @@ double
 >
 :
 :
-ExponentBias
+kExponentBias
 +
 1
 )
@@ -2149,7 +2149,7 @@ double
 >
 :
 :
-ExponentBias
+kExponentBias
 +
 1
 )
@@ -2173,7 +2173,7 @@ double
 >
 :
 :
-ExponentBias
+kExponentBias
 +
 1
 )
@@ -2204,7 +2204,7 @@ float
 >
 :
 :
-ExponentBias
+kExponentBias
 )
 )
 ;
@@ -2228,7 +2228,7 @@ float
 >
 :
 :
-ExponentBias
+kExponentBias
 )
 )
 ;
@@ -2331,7 +2331,7 @@ float
 >
 :
 :
-ExponentBias
+kExponentBias
 +
 1
 )
@@ -2355,7 +2355,7 @@ float
 >
 :
 :
-ExponentBias
+kExponentBias
 +
 1
 )
@@ -2379,7 +2379,7 @@ float
 >
 :
 :
-ExponentBias
+kExponentBias
 +
 1
 )

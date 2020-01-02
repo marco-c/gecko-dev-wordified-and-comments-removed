@@ -14,7 +14,7 @@ bool
 IsFloat32Representable
 (
 double
-x
+aFloat32
 )
 {
 float
@@ -25,7 +25,7 @@ static_cast
 float
 >
 (
-x
+aFloat32
 )
 ;
 double
@@ -43,7 +43,7 @@ return
 floatAsDouble
 =
 =
-x
+aFloat32
 ;
 }
 }

@@ -382,7 +382,6 @@ secondSlot
 aHash
 )
 ;
-{
 if
 (
 MOZ_LIKELY
@@ -394,6 +393,7 @@ slot2
 )
 )
 )
+{
 +
 +
 slot2

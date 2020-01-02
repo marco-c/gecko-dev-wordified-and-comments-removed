@@ -515,10 +515,12 @@ bitField
 &
 1
 )
+{
 count
 +
 +
 ;
+}
 }
 return
 count

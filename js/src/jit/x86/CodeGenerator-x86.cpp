@@ -4660,7 +4660,7 @@ double
 >
 :
 :
-ExponentShift
+kExponentShift
 -
 32
 ;
@@ -4676,7 +4676,7 @@ double
 >
 :
 :
-ExponentBias
+kExponentBias
 +
 63
 )
@@ -5179,7 +5179,7 @@ float
 >
 :
 :
-ExponentBits
+kExponentBits
 ;
 static
 const
@@ -5192,7 +5192,7 @@ float
 >
 :
 :
-ExponentShift
+kExponentShift
 ;
 static
 const
@@ -5206,7 +5206,7 @@ float
 >
 :
 :
-ExponentBias
+kExponentBias
 +
 63
 )

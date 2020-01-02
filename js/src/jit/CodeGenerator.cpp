@@ -53790,7 +53790,7 @@ double
 >
 :
 :
-ExponentBias
+kExponentBias
 )
 {
 Label

@@ -373,7 +373,7 @@ double
 >
 :
 :
-ExponentShift
+kExponentShift
 ;
 static
 const
@@ -389,7 +389,7 @@ double
 >
 :
 :
-ExponentBias
+kExponentBias
 ;
 static
 const
