@@ -26376,6 +26376,17 @@ thisTypes
 thisTypes
 -
 >
+getKnownMIRType
+(
+)
+=
+=
+MIRType_Object
+&
+&
+thisTypes
+-
+>
 isDOMClass
 (
 )
