@@ -2607,10 +2607,6 @@ UsePrivateBrowsing
 }
 if
 (
-!
-isUsingRemoteTabs
-&
-&
 parentContext
 )
 {
