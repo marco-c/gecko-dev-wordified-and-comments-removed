@@ -103,6 +103,11 @@ APZCCallbackHelper
 h
 '
 '
+ContentHelper
+.
+h
+'
+'
 GfxDriverInfo
 .
 h
@@ -124,6 +129,11 @@ UNIFIED_SOURCES
 [
 '
 APZCCallbackHelper
+.
+cpp
+'
+'
+ContentHelper
 .
 cpp
 '
