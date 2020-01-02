@@ -73,7 +73,6 @@ UpdateRootFrame
 nsIDOMWindowUtils
 *
 aUtils
-const
 FrameMetrics
 &
 aMetrics

@@ -309,6 +309,11 @@ SharedTextureImage
 .
 h
 '
+'
+TiledLayerBuffer
+.
+h
+'
 ]
 if
 CONFIG
