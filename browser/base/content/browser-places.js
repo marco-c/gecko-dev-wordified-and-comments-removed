@@ -4237,6 +4237,12 @@ updateOverflowStatus
 }
 this
 .
+_shouldWrap
+=
+false
+;
+this
+.
 _setupPlaceholder
 (
 )
