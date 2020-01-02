@@ -1336,6 +1336,17 @@ aEvent
 .
 currentTarget
 ;
+if
+(
+aEvent
+.
+originalTarget
+=
+=
+browser
+.
+contentDocument
+)
 this
 .
 onTabLoad
