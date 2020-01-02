@@ -618,6 +618,13 @@ Condition
 cond
 )
 {
+mir
+=
+skipTrivialBlocks
+(
+mir
+)
+;
 Label
 *
 label
