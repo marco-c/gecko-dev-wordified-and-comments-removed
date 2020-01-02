@@ -1007,6 +1007,16 @@ backgroundImage
 '
 in
 aTileNode
+&
+&
+aTileNode
+.
+backgroundImage
+!
+=
+aSite
+.
+backgroundImage
 )
 {
 aTileNode
