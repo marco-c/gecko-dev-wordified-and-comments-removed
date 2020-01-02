@@ -98,6 +98,13 @@ h
 #
 include
 "
+nsCxPusher
+.
+h
+"
+#
+include
+"
 nsMathUtils
 .
 h
