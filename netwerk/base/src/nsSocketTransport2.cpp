@@ -9731,8 +9731,8 @@ MOZ_ASSERT
 mKeepaliveIdleTimeS
 >
 0
-|
-|
+&
+&
 mKeepaliveIdleTimeS
 <
 =
@@ -9744,8 +9744,8 @@ MOZ_ASSERT
 mKeepaliveRetryIntervalS
 >
 0
-|
-|
+&
+&
 mKeepaliveRetryIntervalS
 <
 =
@@ -9757,8 +9757,8 @@ MOZ_ASSERT
 mKeepaliveProbeCount
 >
 0
-|
-|
+&
+&
 mKeepaliveProbeCount
 <
 =
