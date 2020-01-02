@@ -128,6 +128,7 @@ MAX_PACKET_LENGTH
 =
 0xFFFE
 ;
+virtual
 ~
 BluetoothOppManager
 (
@@ -488,12 +489,6 @@ ComposePacket
 (
 uint8_t
 aOpCode
-mozilla
-:
-:
-ipc
-:
-:
 UnixSocketRawData
 *
 aMessage

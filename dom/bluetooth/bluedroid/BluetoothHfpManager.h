@@ -236,6 +236,7 @@ Get
 (
 )
 ;
+virtual
 ~
 BluetoothHfpManager
 (

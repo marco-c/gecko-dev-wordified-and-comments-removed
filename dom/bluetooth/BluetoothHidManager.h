@@ -63,6 +63,7 @@ Get
 (
 )
 ;
+virtual
 ~
 BluetoothHidManager
 (

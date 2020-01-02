@@ -756,6 +756,9 @@ MOZ_ASSERT
 (
 mProfilesIndex
 <
+(
+int
+)
 mProfiles
 .
 Length
@@ -769,6 +772,9 @@ if
 +
 mProfilesIndex
 <
+(
+int
+)
 mProfiles
 .
 Length
