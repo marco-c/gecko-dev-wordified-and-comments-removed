@@ -526,7 +526,7 @@ Handle
 JSObject
 *
 >
-scopeChain
+aScopeChain
 JS
 :
 :
