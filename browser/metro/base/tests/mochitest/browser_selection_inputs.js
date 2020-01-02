@@ -14,11 +14,6 @@ gInput
 null
 ;
 const
-kMarkerOffsetY
-=
-12
-;
-const
 kCommonWaitMs
 =
 7000
