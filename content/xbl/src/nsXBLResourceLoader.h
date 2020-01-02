@@ -1,4 +1,10 @@
 #
+ifndef
+nsXBLResourceLoader_h
+#
+define
+nsXBLResourceLoader_h
+#
 include
 "
 mozilla
@@ -172,3 +178,5 @@ mBoundElements
 ;
 }
 ;
+#
+endif
