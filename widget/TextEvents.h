@@ -1684,7 +1684,7 @@ InternalUIEvent
 aIsTrusted
 aMessage
 aWidget
-NS_EDITOR_INPUT_EVENT
+eEditorInputEventClass
 )
 mIsComposing
 (
@@ -1739,7 +1739,7 @@ MOZ_ASSERT
 mClass
 =
 =
-NS_EDITOR_INPUT_EVENT
+eEditorInputEventClass
 "
 Duplicate
 (

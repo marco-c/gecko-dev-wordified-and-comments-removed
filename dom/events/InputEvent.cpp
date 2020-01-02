@@ -72,7 +72,7 @@ mEvent
 mClass
 =
 =
-NS_EDITOR_INPUT_EVENT
+eEditorInputEventClass
 "
 event
 type

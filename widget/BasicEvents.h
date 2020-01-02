@@ -96,7 +96,7 @@ eCompositionEventClass
 eTextEventClass
 eQueryContentEventClass
 eSelectionEventClass
-NS_EDITOR_INPUT_EVENT
+eEditorInputEventClass
 NS_MOUSE_EVENT
 NS_DRAG_EVENT
 NS_MOUSE_SCROLL_EVENT
