@@ -188,7 +188,7 @@ mObserver
 ;
 nsCOMPtr
 <
-AudioChannelAgent
+nsIAudioChannelAgent
 >
 mPhoneAudioAgent
 ;

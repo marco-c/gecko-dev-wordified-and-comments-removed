@@ -4771,7 +4771,7 @@ rv
 }
 nsCOMPtr
 <
-IOEventComplete
+nsIRunnable
 >
 iocomplete
 =
@@ -5047,7 +5047,7 @@ rv
 }
 nsCOMPtr
 <
-IOEventComplete
+nsIRunnable
 >
 iocomplete
 =
@@ -5283,7 +5283,7 @@ rv
 }
 nsCOMPtr
 <
-IOEventComplete
+nsIRunnable
 >
 iocomplete
 =
@@ -8524,7 +8524,7 @@ check
 {
 nsCOMPtr
 <
-PostErrorEvent
+nsIRunnable
 >
 event
 =
@@ -8579,7 +8579,7 @@ cursor
 mSince
 )
 ;
-nsCOMPtr
+nsRefPtr
 <
 ContinueCursorEvent
 >
@@ -8851,7 +8851,7 @@ Cancel
 {
 nsCOMPtr
 <
-PostErrorEvent
+nsIRunnable
 >
 event
 =
@@ -8997,7 +8997,7 @@ target
 ;
 nsCOMPtr
 <
-InitCursorEvent
+nsIRunnable
 >
 event
 =
@@ -9065,7 +9065,7 @@ mDone
 false
 ;
 }
-nsCOMPtr
+nsRefPtr
 <
 ContinueCursorEvent
 >
@@ -10192,7 +10192,7 @@ check
 {
 nsCOMPtr
 <
-PostErrorEvent
+nsIRunnable
 >
 event
 =
@@ -10249,7 +10249,7 @@ false
 ;
 nsCOMPtr
 <
-PostErrorEvent
+nsIRunnable
 >
 event
 =
@@ -10273,7 +10273,7 @@ event
 }
 nsCOMPtr
 <
-PostResultEvent
+nsIRunnable
 >
 event
 =
@@ -10418,7 +10418,7 @@ check
 {
 nsCOMPtr
 <
-PostErrorEvent
+nsIRunnable
 >
 event
 =
@@ -10472,7 +10472,7 @@ false
 ;
 nsCOMPtr
 <
-PostErrorEvent
+nsIRunnable
 >
 event
 =
@@ -10507,7 +10507,7 @@ fullPath
 ;
 nsCOMPtr
 <
-PostResultEvent
+nsIRunnable
 >
 event
 =
@@ -10617,9 +10617,9 @@ NS_IsMainThread
 )
 )
 ;
-nsRefPtr
+nsCOMPtr
 <
-nsRunnable
+nsIRunnable
 >
 r
 ;
@@ -10818,9 +10818,9 @@ Remove
 (
 )
 ;
-nsRefPtr
+nsCOMPtr
 <
-nsRunnable
+nsIRunnable
 >
 r
 ;
@@ -11871,7 +11871,7 @@ Cancel
 {
 nsCOMPtr
 <
-PostErrorEvent
+nsIRunnable
 >
 event
 =

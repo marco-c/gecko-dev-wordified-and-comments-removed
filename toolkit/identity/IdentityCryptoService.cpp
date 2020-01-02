@@ -607,7 +607,7 @@ mRv
 ;
 nsCOMPtr
 <
-KeyPair
+nsIIdentityKeyPair
 >
 mKeyPair
 ;

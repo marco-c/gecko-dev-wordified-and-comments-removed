@@ -1454,7 +1454,7 @@ mInvalidatedRegion
 ;
 nsCOMPtr
 <
-nsIdleService
+nsIIdleServiceInternal
 >
 mIdleService
 ;

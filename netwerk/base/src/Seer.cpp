@@ -2060,7 +2060,7 @@ ifdef
 MOZ_NUWA_PROCESS
 nsCOMPtr
 <
-NuwaMarkSeerThreadRunner
+nsIRunnable
 >
 runner
 =

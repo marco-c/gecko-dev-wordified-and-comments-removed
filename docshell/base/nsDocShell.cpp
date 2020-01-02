@@ -4050,7 +4050,7 @@ rv
 ;
 nsCOMPtr
 <
-InterfaceRequestorProxy
+nsIInterfaceRequestor
 >
 proxy
 =

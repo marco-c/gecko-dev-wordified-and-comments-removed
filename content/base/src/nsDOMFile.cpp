@@ -3384,7 +3384,7 @@ aStream
 {
 nsCOMPtr
 <
-nsTemporaryFileInputStream
+nsIInputStream
 >
 stream
 =
