@@ -857,13 +857,6 @@ BINPATH
 /
 components
 /
-content_canvas
-.
-xpt
-BINPATH
-/
-components
-/
 content_htmldoc
 .
 xpt

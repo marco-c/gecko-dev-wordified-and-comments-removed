@@ -681,13 +681,6 @@ BINPATH
 /
 components
 /
-content_canvas
-.
-xpt
-BINPATH
-/
-components
-/
 content_htmldoc
 .
 xpt
@@ -2543,6 +2536,13 @@ BINPATH
 components
 /
 nsBlocklistService
+.
+js
+BINPATH
+/
+components
+/
+OopCommandLine
 .
 js
 #
