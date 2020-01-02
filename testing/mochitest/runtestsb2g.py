@@ -1459,6 +1459,17 @@ options
         
 return
 status
+    
+def
+getGMPPluginPath
+(
+self
+options
+)
+:
+        
+return
+None
 class
 B2GDeviceMochitest
 (
