@@ -3479,7 +3479,10 @@ isNumber
 if
 (
 !
-js_math_pow_handle
+js
+:
+:
+math_pow_handle
 (
 cx
 base
@@ -3608,7 +3611,10 @@ isNumber
 if
 (
 !
-js_math_pow_handle
+js
+:
+:
+math_pow_handle
 (
 cx
 base
@@ -3739,7 +3745,10 @@ cx
 if
 (
 !
-js_minmax_impl
+js
+:
+:
+minmax_impl
 (
 cx
 isMax_
@@ -3845,7 +3854,10 @@ cx
 if
 (
 !
-js_math_abs_handle
+js
+:
+:
+math_abs_handle
 (
 cx
 v

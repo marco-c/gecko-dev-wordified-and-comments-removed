@@ -1064,7 +1064,7 @@ AsmJSMathBuiltin_pow
 :
 native
 =
-js_math_pow
+math_pow
 ;
 break
 ;
@@ -1073,7 +1073,7 @@ AsmJSMathBuiltin_sqrt
 :
 native
 =
-js_math_sqrt
+math_sqrt
 ;
 break
 ;
@@ -1082,7 +1082,7 @@ AsmJSMathBuiltin_min
 :
 native
 =
-js_math_min
+math_min
 ;
 break
 ;
@@ -1091,7 +1091,7 @@ AsmJSMathBuiltin_max
 :
 native
 =
-js_math_max
+math_max
 ;
 break
 ;
@@ -1100,7 +1100,7 @@ AsmJSMathBuiltin_abs
 :
 native
 =
-js_math_abs
+math_abs
 ;
 break
 ;

@@ -395,6 +395,9 @@ HandleObject
 obj
 )
 ;
+namespace
+js
+{
 extern
 double
 math_random_no_outparam
@@ -406,7 +409,7 @@ cx
 ;
 extern
 bool
-js_math_random
+math_random
 (
 JSContext
 *
@@ -423,7 +426,7 @@ vp
 ;
 extern
 bool
-js_math_abs_handle
+math_abs_handle
 (
 JSContext
 *
@@ -442,7 +445,7 @@ r
 ;
 extern
 bool
-js_math_abs
+math_abs
 (
 JSContext
 *
@@ -459,7 +462,7 @@ vp
 ;
 extern
 bool
-js_math_max
+math_max
 (
 JSContext
 *
@@ -476,7 +479,7 @@ vp
 ;
 extern
 bool
-js_math_min
+math_min
 (
 JSContext
 *
@@ -493,7 +496,7 @@ vp
 ;
 extern
 bool
-js_math_sqrt
+math_sqrt
 (
 JSContext
 *
@@ -510,7 +513,7 @@ vp
 ;
 extern
 bool
-js_math_pow_handle
+math_pow_handle
 (
 JSContext
 *
@@ -534,7 +537,7 @@ result
 ;
 extern
 bool
-js_math_pow
+math_pow
 (
 JSContext
 *
@@ -551,7 +554,7 @@ vp
 ;
 extern
 bool
-js_minmax_impl
+minmax_impl
 (
 JSContext
 *
@@ -575,9 +578,6 @@ MutableHandleValue
 res
 )
 ;
-namespace
-js
-{
 extern
 bool
 math_sqrt_handle
