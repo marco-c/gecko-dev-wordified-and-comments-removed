@@ -10,15 +10,12 @@ default
 -
 src
 '
-self
+none
 '
 ;
 img
 -
 src
-'
-self
-'
 http
 :
 /
