@@ -399,7 +399,7 @@ getApplicationInfo
 ;
 }
 }
-private
+protected
 class
 DelegatingTestContentProvider
 extends
@@ -664,6 +664,16 @@ values
 )
 ;
 }
+public
+ContentProvider
+getTargetProvider
+(
+)
+{
+return
+mTargetProvider
+;
+}
 }
 protected
 class
@@ -857,8 +867,6 @@ param
 String
 value
 )
-throws
-Exception
 {
 return
 uri
