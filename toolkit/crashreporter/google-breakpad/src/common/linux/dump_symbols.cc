@@ -3437,10 +3437,6 @@ e_shnum
 ;
 if
 (
-!
-found_debug_info_section
-&
-&
 arm_exidx_section
 &
 &

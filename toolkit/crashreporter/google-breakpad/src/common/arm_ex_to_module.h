@@ -199,6 +199,15 @@ ARMExToModule
 )
 {
 }
+bool
+HasStackFrame
+(
+uintptr_t
+addr
+size_t
+size
+)
+;
 void
 AddStackFrame
 (
