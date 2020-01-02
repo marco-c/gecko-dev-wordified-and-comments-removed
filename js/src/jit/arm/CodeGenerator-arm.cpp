@@ -6407,6 +6407,8 @@ LBlock
 *
 caseblock
 =
+skipTrivialBlocks
+(
 mir
 -
 >
@@ -6417,6 +6419,7 @@ numCases
 1
 -
 i
+)
 )
 -
 >
@@ -6505,11 +6508,14 @@ Label
 *
 defaultcase
 =
+skipTrivialBlocks
+(
 mir
 -
 >
 getDefault
 (
+)
 )
 -
 >
