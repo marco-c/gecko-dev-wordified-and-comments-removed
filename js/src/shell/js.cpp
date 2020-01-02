@@ -508,7 +508,7 @@ using
 mozilla
 :
 :
-DoubleEqualsInt32
+NumberEqualsInt32
 ;
 using
 mozilla
@@ -2706,7 +2706,7 @@ fvi
 ;
 if
 (
-DoubleEqualsInt32
+NumberEqualsInt32
 (
 fv
 &

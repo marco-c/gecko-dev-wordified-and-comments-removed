@@ -316,7 +316,7 @@ using
 mozilla
 :
 :
-DoubleEqualsInt32
+NumberEqualsInt32
 ;
 using
 mozilla
@@ -14905,7 +14905,7 @@ isDouble
 |
 |
 !
-DoubleEqualsInt32
+NumberEqualsInt32
 (
 rref
 .

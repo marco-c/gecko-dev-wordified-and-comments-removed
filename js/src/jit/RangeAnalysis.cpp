@@ -120,7 +120,7 @@ using
 mozilla
 :
 :
-DoubleEqualsInt32
+NumberEqualsInt32
 ;
 using
 mozilla
@@ -626,6 +626,9 @@ double
 conservativeLower
 =
 NegativeInfinity
+<
+double
+>
 (
 )
 ;
@@ -633,6 +636,9 @@ double
 conservativeUpper
 =
 PositiveInfinity
+<
+double
+>
 (
 )
 ;
@@ -1064,7 +1070,7 @@ intbound
 ;
 if
 (
-DoubleEqualsInt32
+NumberEqualsInt32
 (
 bound
 &
@@ -1129,7 +1135,7 @@ intbound
 ;
 if
 (
-DoubleEqualsInt32
+NumberEqualsInt32
 (
 bound
 &

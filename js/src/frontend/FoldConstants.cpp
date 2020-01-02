@@ -755,6 +755,9 @@ d2
 d
 =
 NegativeInfinity
+<
+double
+>
 (
 )
 ;
@@ -762,6 +765,9 @@ else
 d
 =
 PositiveInfinity
+<
+double
+>
 (
 )
 ;

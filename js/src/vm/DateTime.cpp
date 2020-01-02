@@ -426,6 +426,9 @@ DateTimeInfo
 localTZA_
 =
 UnspecifiedNaN
+<
+double
+>
 (
 )
 ;

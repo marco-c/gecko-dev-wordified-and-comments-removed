@@ -559,7 +559,7 @@ isDouble
 mozilla
 :
 :
-DoubleIsInt32
+NumberIsInt32
 (
 v
 .
@@ -631,7 +631,7 @@ isDouble
 mozilla
 :
 :
-DoubleIsInt32
+NumberIsInt32
 (
 v
 .

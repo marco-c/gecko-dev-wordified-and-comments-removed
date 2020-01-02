@@ -3588,6 +3588,9 @@ mozilla
 :
 :
 SpecificNaN
+<
+double
+>
 (
 0
 0x8000000000000ULL
@@ -3913,7 +3916,7 @@ if
 mozilla
 :
 :
-DoubleIsInt32
+NumberIsInt32
 (
 d
 &
@@ -7096,7 +7099,7 @@ if
 mozilla
 :
 :
-DoubleIsInt32
+NumberIsInt32
 (
 d
 &

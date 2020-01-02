@@ -2175,7 +2175,7 @@ return
 mozilla
 :
 :
-DoubleIsInt32
+NumberIsInt32
 (
 d
 ip

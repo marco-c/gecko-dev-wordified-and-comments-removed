@@ -240,7 +240,7 @@ using
 mozilla
 :
 :
-DoubleExponentBias
+FloatingPoint
 ;
 using
 mozilla
@@ -50013,7 +50013,13 @@ exponent
 (
 )
 <
-DoubleExponentBias
+FloatingPoint
+<
+double
+>
+:
+:
+ExponentBias
 )
 {
 Label
@@ -50244,6 +50250,9 @@ masm
 loadConstantDouble
 (
 PositiveInfinity
+<
+double
+>
 (
 )
 temp
@@ -50295,6 +50304,9 @@ masm
 loadConstantDouble
 (
 NegativeInfinity
+<
+double
+>
 (
 )
 temp
