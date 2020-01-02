@@ -234,7 +234,6 @@ prototype
 _dispatchMessage
 :
 function
-sysMessMgr_dispatchMessage
 (
 aType
 aDispatcher
@@ -470,7 +469,6 @@ shift
 mozSetMessageHandler
 :
 function
-sysMessMgr_setMessageHandler
 (
 aType
 aHandler
@@ -600,7 +598,6 @@ _manifest
 mozHasPendingMessage
 :
 function
-sysMessMgr_hasPendingMessage
 (
 aType
 )
@@ -696,7 +693,6 @@ _manifest
 uninit
 :
 function
-sysMessMgr_uninit
 (
 )
 {
@@ -801,7 +797,6 @@ innerWindowID
 receiveMessage
 :
 function
-sysMessMgr_receiveMessage
 (
 aMessage
 )
@@ -1111,7 +1106,6 @@ null
 init
 :
 function
-sysMessMgr_init
 (
 aWindow
 )
@@ -1280,7 +1274,6 @@ done
 observe
 :
 function
-sysMessMgr_observe
 (
 aSubject
 aTopic
@@ -1323,7 +1316,6 @@ aData
 _registerManifest
 :
 function
-sysMessMgr_registerManifest
 (
 )
 {
