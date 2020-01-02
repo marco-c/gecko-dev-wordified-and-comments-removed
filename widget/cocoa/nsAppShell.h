@@ -315,6 +315,9 @@ kHadMoreEventsCountMax
 3
 ;
 int32_t
+mRecursionDepth
+;
+int32_t
 mNativeEventCallbackDepth
 ;
 int32_t
