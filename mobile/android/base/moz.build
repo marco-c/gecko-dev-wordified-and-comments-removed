@@ -1626,6 +1626,11 @@ LightweightThemeDrawable
 java
 '
 '
+LocaleManager
+.
+java
+'
+'
 MemoryMonitor
 .
 java

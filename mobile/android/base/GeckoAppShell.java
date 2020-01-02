@@ -8542,16 +8542,6 @@ LINK_TYPE_UNKNOWN
 ;
 }
 }
-public
-static
-void
-setSelectedLocale
-(
-String
-localeCode
-)
-{
-}
 WrapElementForJNI
 (
 stubName
