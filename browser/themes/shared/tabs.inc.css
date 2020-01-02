@@ -21,6 +21,17 @@ TabsToolbar
 :
 before
 {
+-
+moz
+-
+box
+-
+ordinal
+-
+group
+:
+0
+;
 content
 :
 '
