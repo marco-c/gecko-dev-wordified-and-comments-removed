@@ -1182,7 +1182,7 @@ index
 {
 for
 (
-int
+size_t
 i
 =
 0
@@ -1205,7 +1205,7 @@ i
 +
 )
 {
-int
+uint32_t
 aindex
 =
 registerIndex
