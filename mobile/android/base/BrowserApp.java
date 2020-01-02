@@ -7478,7 +7478,7 @@ HomePager
 .
 Page
 .
-HISTORY
+TOP_SITES
 animator
 )
 ;
