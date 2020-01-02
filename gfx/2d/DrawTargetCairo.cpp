@@ -728,6 +728,11 @@ surf
 )
 )
 {
+cairo_surface_destroy
+(
+surf
+)
+;
 return
 nullptr
 ;
