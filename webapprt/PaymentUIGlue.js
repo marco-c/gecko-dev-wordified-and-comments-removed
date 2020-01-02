@@ -279,6 +279,8 @@ aRequests
 0
 ]
 .
+wrappedJSObject
+.
 type
 )
 ;
@@ -316,6 +318,8 @@ aRequests
 [
 i
 ]
+.
+wrappedJSObject
 ;
 let
 requestText
@@ -465,6 +469,8 @@ selected
 .
 value
 ]
+.
+wrappedJSObject
 .
 type
 )
