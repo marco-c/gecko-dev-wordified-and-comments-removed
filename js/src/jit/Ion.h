@@ -779,6 +779,17 @@ InterruptMode
 mode
 )
 ;
+bool
+RematerializeAllFrames
+(
+JSContext
+*
+cx
+JSCompartment
+*
+comp
+)
+;
 }
 }
 #
