@@ -191,8 +191,14 @@ nsMimeType
 >
 mMimeTypes
 ;
-uint32_t
-mPluginMimeTypeCount
+nsTArray
+<
+nsRefPtr
+<
+nsMimeType
+>
+>
+mHiddenMimeTypes
 ;
 }
 ;
