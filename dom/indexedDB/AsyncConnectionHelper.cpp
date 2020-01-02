@@ -102,6 +102,13 @@ h
 #
 include
 "
+ReportInternalError
+.
+h
+"
+#
+include
+"
 TransactionThreadPool
 .
 h
@@ -237,7 +244,7 @@ if
 array
 )
 {
-NS_WARNING
+IDB_WARNING
 (
 "
 Failed
@@ -280,7 +287,7 @@ Length
 )
 )
 {
-NS_WARNING
+IDB_WARNING
 (
 "
 Failed
@@ -384,7 +391,7 @@ val
 )
 )
 {
-NS_WARNING
+IDB_WARNING
 (
 "
 Failed
@@ -629,7 +636,7 @@ aNative
 aResult
 )
 ;
-NS_ENSURE_SUCCESS
+IDB_ENSURE_SUCCESS
 (
 rv
 NS_ERROR_DOM_INDEXEDDB_UNKNOWN_ERR
@@ -1109,7 +1116,7 @@ case
 Error
 :
 {
-NS_WARNING
+IDB_WARNING
 (
 "
 MaybeSendResultsToChildProcess
@@ -1531,6 +1538,10 @@ NS_ERROR_DOM_INDEXEDDB_RECOVERABLE_ERR
 }
 else
 {
+IDB_REPORT_INTERNAL_ERR
+(
+)
+;
 mResultCode
 =
 NS_ERROR_DOM_INDEXEDDB_UNKNOWN_ERR
@@ -2022,7 +2033,7 @@ if
 event
 )
 {
-NS_ERROR
+IDB_WARNING
 (
 "
 Failed
@@ -2053,7 +2064,7 @@ event
 dummy
 )
 ;
-NS_ENSURE_SUCCESS
+IDB_ENSURE_SUCCESS
 (
 rv
 NS_ERROR_DOM_INDEXEDDB_UNKNOWN_ERR

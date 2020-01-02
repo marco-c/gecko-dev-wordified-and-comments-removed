@@ -362,6 +362,11 @@ IDBObjectStore
 .
 cpp
 '
+'
+ReportInternalError
+.
+cpp
+'
 ]
 FAIL_ON_WARNINGS
 =

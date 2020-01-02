@@ -143,6 +143,13 @@ h
 #
 include
 "
+ReportInternalError
+.
+h
+"
+#
+include
+"
 ipc
 /
 IndexedDBChild
@@ -1765,7 +1772,7 @@ if
 request
 )
 {
-NS_WARNING
+IDB_WARNING
 (
 "
 Failed
@@ -1820,7 +1827,7 @@ rv
 )
 )
 {
-NS_WARNING
+IDB_WARNING
 (
 "
 Failed
@@ -2032,7 +2039,7 @@ if
 request
 )
 {
-NS_WARNING
+IDB_WARNING
 (
 "
 Failed
@@ -2087,7 +2094,7 @@ rv
 )
 )
 {
-NS_WARNING
+IDB_WARNING
 (
 "
 Failed
@@ -2301,7 +2308,7 @@ if
 request
 )
 {
-NS_WARNING
+IDB_WARNING
 (
 "
 Failed
@@ -2357,7 +2364,7 @@ rv
 )
 )
 {
-NS_WARNING
+IDB_WARNING
 (
 "
 Failed
@@ -2574,7 +2581,7 @@ if
 request
 )
 {
-NS_WARNING
+IDB_WARNING
 (
 "
 Failed
@@ -2630,7 +2637,7 @@ rv
 )
 )
 {
-NS_WARNING
+IDB_WARNING
 (
 "
 Failed
@@ -2845,7 +2852,7 @@ if
 request
 )
 {
-NS_WARNING
+IDB_WARNING
 (
 "
 Failed
@@ -2900,7 +2907,7 @@ rv
 )
 )
 {
-NS_WARNING
+IDB_WARNING
 (
 "
 Failed
@@ -3131,7 +3138,7 @@ if
 request
 )
 {
-NS_WARNING
+IDB_WARNING
 (
 "
 Failed
@@ -3187,7 +3194,7 @@ rv
 )
 )
 {
-NS_WARNING
+IDB_WARNING
 (
 "
 Failed
@@ -3407,7 +3414,7 @@ GenerateRequest
 this
 )
 ;
-NS_ENSURE_TRUE
+IDB_ENSURE_TRUE
 (
 request
 NS_ERROR_DOM_INDEXEDDB_UNKNOWN_ERR
@@ -3439,7 +3446,7 @@ DispatchToTransactionPool
 (
 )
 ;
-NS_ENSURE_SUCCESS
+IDB_ENSURE_SUCCESS
 (
 rv
 NS_ERROR_DOM_INDEXEDDB_UNKNOWN_ERR
@@ -3651,7 +3658,7 @@ aKey
 aObjectKey
 )
 ;
-NS_ENSURE_TRUE
+IDB_ENSURE_TRUE
 (
 cursor
 NS_ERROR_DOM_INDEXEDDB_UNKNOWN_ERR
@@ -3780,7 +3787,7 @@ aCloneInfo
 )
 )
 {
-NS_WARNING
+IDB_WARNING
 (
 "
 Failed
@@ -3839,7 +3846,7 @@ aObjectKey
 cloneInfo
 )
 ;
-NS_ENSURE_TRUE
+IDB_ENSURE_TRUE
 (
 cursor
 NS_ERROR_DOM_INDEXEDDB_UNKNOWN_ERR
@@ -4807,7 +4814,7 @@ if
 request
 )
 {
-NS_WARNING
+IDB_WARNING
 (
 "
 Failed
@@ -4863,7 +4870,7 @@ rv
 )
 )
 {
-NS_WARNING
+IDB_WARNING
 (
 "
 Failed
@@ -5252,6 +5259,10 @@ IsInvalidated
 )
 )
 {
+IDB_REPORT_INTERNAL_ERR
+(
+)
+;
 return
 NS_ERROR_DOM_INDEXEDDB_UNKNOWN_ERR
 ;
@@ -5291,7 +5302,7 @@ PackArgumentsForParentProcess
 params
 )
 ;
-NS_ENSURE_SUCCESS
+IDB_ENSURE_SUCCESS
 (
 rv
 NS_ERROR_DOM_INDEXEDDB_UNKNOWN_ERR
@@ -5311,7 +5322,7 @@ Dispatch
 target
 )
 ;
-NS_ENSURE_SUCCESS
+IDB_ENSURE_SUCCESS
 (
 rv
 NS_ERROR_DOM_INDEXEDDB_UNKNOWN_ERR
@@ -5525,7 +5536,7 @@ GetCachedStatement
 query
 )
 ;
-NS_ENSURE_TRUE
+IDB_ENSURE_TRUE
 (
 stmt
 NS_ERROR_DOM_INDEXEDDB_UNKNOWN_ERR
@@ -5559,7 +5570,7 @@ Id
 )
 )
 ;
-NS_ENSURE_SUCCESS
+IDB_ENSURE_SUCCESS
 (
 rv
 NS_ERROR_DOM_INDEXEDDB_UNKNOWN_ERR
@@ -5595,7 +5606,7 @@ ExecuteStep
 hasResult
 )
 ;
-NS_ENSURE_SUCCESS
+IDB_ENSURE_SUCCESS
 (
 rv
 NS_ERROR_DOM_INDEXEDDB_UNKNOWN_ERR
@@ -6161,7 +6172,7 @@ GetCachedStatement
 query
 )
 ;
-NS_ENSURE_TRUE
+IDB_ENSURE_TRUE
 (
 stmt
 NS_ERROR_DOM_INDEXEDDB_UNKNOWN_ERR
@@ -6195,7 +6206,7 @@ Id
 )
 )
 ;
-NS_ENSURE_SUCCESS
+IDB_ENSURE_SUCCESS
 (
 rv
 NS_ERROR_DOM_INDEXEDDB_UNKNOWN_ERR
@@ -6231,7 +6242,7 @@ ExecuteStep
 hasResult
 )
 ;
-NS_ENSURE_SUCCESS
+IDB_ENSURE_SUCCESS
 (
 rv
 NS_ERROR_DOM_INDEXEDDB_UNKNOWN_ERR
@@ -6833,7 +6844,7 @@ cloneInfo
 )
 )
 {
-NS_WARNING
+IDB_WARNING
 (
 "
 Failed
@@ -7043,7 +7054,7 @@ GetCachedStatement
 query
 )
 ;
-NS_ENSURE_TRUE
+IDB_ENSURE_TRUE
 (
 stmt
 NS_ERROR_DOM_INDEXEDDB_UNKNOWN_ERR
@@ -7077,7 +7088,7 @@ Id
 )
 )
 ;
-NS_ENSURE_SUCCESS
+IDB_ENSURE_SUCCESS
 (
 rv
 NS_ERROR_DOM_INDEXEDDB_UNKNOWN_ERR
@@ -7218,7 +7229,7 @@ rv
 )
 ;
 }
-NS_ENSURE_SUCCESS
+IDB_ENSURE_SUCCESS
 (
 rv
 NS_ERROR_DOM_INDEXEDDB_UNKNOWN_ERR
@@ -7327,7 +7338,7 @@ if
 array
 )
 {
-NS_WARNING
+IDB_WARNING
 (
 "
 Failed
@@ -7370,7 +7381,7 @@ Length
 )
 )
 {
-NS_WARNING
+IDB_WARNING
 (
 "
 Failed
@@ -7498,7 +7509,7 @@ value
 )
 )
 {
-NS_WARNING
+IDB_WARNING
 (
 "
 Failed
@@ -8041,7 +8052,7 @@ GetCachedStatement
 query
 )
 ;
-NS_ENSURE_TRUE
+IDB_ENSURE_TRUE
 (
 stmt
 NS_ERROR_DOM_INDEXEDDB_UNKNOWN_ERR
@@ -8075,7 +8086,7 @@ Id
 )
 )
 ;
-NS_ENSURE_SUCCESS
+IDB_ENSURE_SUCCESS
 (
 rv
 NS_ERROR_DOM_INDEXEDDB_UNKNOWN_ERR
@@ -8210,7 +8221,7 @@ rv
 )
 ;
 }
-NS_ENSURE_SUCCESS
+IDB_ENSURE_SUCCESS
 (
 rv
 NS_ERROR_DOM_INDEXEDDB_UNKNOWN_ERR
@@ -9015,7 +9026,7 @@ srcInfo
 )
 )
 {
-NS_WARNING
+IDB_WARNING
 (
 "
 Failed
@@ -9320,7 +9331,7 @@ GetCachedStatement
 firstQuery
 )
 ;
-NS_ENSURE_TRUE
+IDB_ENSURE_TRUE
 (
 stmt
 NS_ERROR_DOM_INDEXEDDB_UNKNOWN_ERR
@@ -9354,7 +9365,7 @@ Id
 )
 )
 ;
-NS_ENSURE_SUCCESS
+IDB_ENSURE_SUCCESS
 (
 rv
 NS_ERROR_DOM_INDEXEDDB_UNKNOWN_ERR
@@ -9396,7 +9407,7 @@ ExecuteStep
 hasResult
 )
 ;
-NS_ENSURE_SUCCESS
+IDB_ENSURE_SUCCESS
 (
 rv
 NS_ERROR_DOM_INDEXEDDB_UNKNOWN_ERR
@@ -9988,7 +9999,7 @@ mKey
 mObjectKey
 )
 ;
-NS_ENSURE_TRUE
+IDB_ENSURE_TRUE
 (
 cursor
 NS_ERROR_DOM_INDEXEDDB_UNKNOWN_ERR
@@ -10054,7 +10065,7 @@ mCursor
 aVal
 )
 ;
-NS_ENSURE_SUCCESS
+IDB_ENSURE_SUCCESS
 (
 rv
 NS_ERROR_DOM_INDEXEDDB_UNKNOWN_ERR
@@ -10700,19 +10711,9 @@ break
 ;
 default
 :
-NS_NOTREACHED
+MOZ_CRASH
 (
-"
-Unknown
-response
-union
-type
-!
-"
 )
-;
-return
-NS_ERROR_DOM_INDEXEDDB_UNKNOWN_ERR
 ;
 }
 return
@@ -11037,7 +11038,7 @@ GetCachedStatement
 firstQuery
 )
 ;
-NS_ENSURE_TRUE
+IDB_ENSURE_TRUE
 (
 stmt
 NS_ERROR_DOM_INDEXEDDB_UNKNOWN_ERR
@@ -11071,7 +11072,7 @@ Id
 )
 )
 ;
-NS_ENSURE_SUCCESS
+IDB_ENSURE_SUCCESS
 (
 rv
 NS_ERROR_DOM_INDEXEDDB_UNKNOWN_ERR
@@ -11113,7 +11114,7 @@ ExecuteStep
 hasResult
 )
 ;
-NS_ENSURE_SUCCESS
+IDB_ENSURE_SUCCESS
 (
 rv
 NS_ERROR_DOM_INDEXEDDB_UNKNOWN_ERR
@@ -11773,7 +11774,7 @@ mObjectKey
 mCloneReadInfo
 )
 ;
-NS_ENSURE_TRUE
+IDB_ENSURE_TRUE
 (
 cursor
 NS_ERROR_DOM_INDEXEDDB_UNKNOWN_ERR
@@ -12681,7 +12682,7 @@ GetCachedStatement
 query
 )
 ;
-NS_ENSURE_TRUE
+IDB_ENSURE_TRUE
 (
 stmt
 NS_ERROR_DOM_INDEXEDDB_UNKNOWN_ERR
@@ -12715,7 +12716,7 @@ Id
 )
 )
 ;
-NS_ENSURE_SUCCESS
+IDB_ENSURE_SUCCESS
 (
 rv
 NS_ERROR_DOM_INDEXEDDB_UNKNOWN_ERR
@@ -12815,13 +12816,13 @@ ExecuteStep
 hasResult
 )
 ;
-NS_ENSURE_SUCCESS
+IDB_ENSURE_SUCCESS
 (
 rv
 NS_ERROR_DOM_INDEXEDDB_UNKNOWN_ERR
 )
 ;
-NS_ENSURE_TRUE
+IDB_ENSURE_TRUE
 (
 hasResult
 NS_ERROR_DOM_INDEXEDDB_UNKNOWN_ERR

@@ -177,6 +177,13 @@ h
 #
 include
 "
+ReportInternalError
+.
+h
+"
+#
+include
+"
 TransactionThreadPool
 .
 h
@@ -1782,7 +1789,7 @@ newInfo
 )
 )
 {
-NS_WARNING
+IDB_WARNING
 (
 "
 Put
@@ -1837,7 +1844,7 @@ if
 objectStore
 )
 {
-NS_WARNING
+IDB_WARNING
 (
 "
 Failed
@@ -1900,7 +1907,7 @@ rv
 )
 )
 {
-NS_WARNING
+IDB_WARNING
 (
 "
 Failed
@@ -2162,7 +2169,7 @@ objectStoreNames
 )
 )
 {
-NS_WARNING
+IDB_WARNING
 (
 "
 Couldn
@@ -2237,7 +2244,7 @@ index
 )
 )
 {
-NS_WARNING
+IDB_WARNING
 (
 "
 Failed
@@ -2633,7 +2640,7 @@ rv
 )
 )
 {
-NS_WARNING
+IDB_WARNING
 (
 "
 Failed
@@ -2807,6 +2814,10 @@ IsShuttingDown
 )
 )
 {
+IDB_REPORT_INTERNAL_ERR
+(
+)
+;
 aRv
 .
 Throw
@@ -3021,7 +3032,7 @@ if
 transaction
 )
 {
-NS_WARNING
+IDB_WARNING
 (
 "
 Failed
@@ -3145,7 +3156,7 @@ IsMainProcess
 )
 )
 {
-NS_WARNING
+IDB_WARNING
 (
 "
 Not
@@ -3176,6 +3187,10 @@ IsShuttingDown
 )
 )
 {
+IDB_REPORT_INTERNAL_ERR
+(
+)
+;
 aRv
 .
 Throw
@@ -3296,7 +3311,7 @@ rv
 )
 )
 {
-NS_WARNING
+IDB_WARNING
 (
 "
 Failed
@@ -3806,7 +3821,7 @@ key_path
 )
 )
 ;
-NS_ENSURE_TRUE
+IDB_ENSURE_TRUE
 (
 stmt
 NS_ERROR_DOM_INDEXEDDB_UNKNOWN_ERR
@@ -3840,7 +3855,7 @@ Id
 )
 )
 ;
-NS_ENSURE_SUCCESS
+IDB_ENSURE_SUCCESS
 (
 rv
 NS_ERROR_DOM_INDEXEDDB_UNKNOWN_ERR
@@ -3871,7 +3886,7 @@ IsAutoIncrement
 0
 )
 ;
-NS_ENSURE_SUCCESS
+IDB_ENSURE_SUCCESS
 (
 rv
 NS_ERROR_DOM_INDEXEDDB_UNKNOWN_ERR
@@ -3898,7 +3913,7 @@ Name
 )
 )
 ;
-NS_ENSURE_SUCCESS
+IDB_ENSURE_SUCCESS
 (
 rv
 NS_ERROR_DOM_INDEXEDDB_UNKNOWN_ERR
@@ -3951,7 +3966,7 @@ key_path
 keyPathSerialization
 )
 ;
-NS_ENSURE_SUCCESS
+IDB_ENSURE_SUCCESS
 (
 rv
 NS_ERROR_DOM_INDEXEDDB_UNKNOWN_ERR
@@ -3975,7 +3990,7 @@ key_path
 )
 )
 ;
-NS_ENSURE_SUCCESS
+IDB_ENSURE_SUCCESS
 (
 rv
 NS_ERROR_DOM_INDEXEDDB_UNKNOWN_ERR
@@ -3991,7 +4006,7 @@ Execute
 (
 )
 ;
-NS_ENSURE_SUCCESS
+IDB_ENSURE_SUCCESS
 (
 rv
 NS_ERROR_DOM_INDEXEDDB_UNKNOWN_ERR
@@ -4101,7 +4116,7 @@ id
 )
 )
 ;
-NS_ENSURE_TRUE
+IDB_ENSURE_TRUE
 (
 stmt
 NS_ERROR_DOM_INDEXEDDB_UNKNOWN_ERR
@@ -4130,7 +4145,7 @@ id
 mObjectStoreId
 )
 ;
-NS_ENSURE_SUCCESS
+IDB_ENSURE_SUCCESS
 (
 rv
 NS_ERROR_DOM_INDEXEDDB_UNKNOWN_ERR
@@ -4145,7 +4160,7 @@ Execute
 (
 )
 ;
-NS_ENSURE_SUCCESS
+IDB_ENSURE_SUCCESS
 (
 rv
 NS_ERROR_DOM_INDEXEDDB_UNKNOWN_ERR
@@ -4248,7 +4263,7 @@ GetNewFileInfo
 (
 )
 ;
-NS_ENSURE_TRUE
+IDB_ENSURE_TRUE
 (
 mFileInfo
 NS_ERROR_DOM_INDEXEDDB_UNKNOWN_ERR
@@ -4336,7 +4351,7 @@ GetDirectory
 (
 )
 ;
-NS_ENSURE_TRUE
+IDB_ENSURE_TRUE
 (
 directory
 NS_ERROR_DOM_INDEXEDDB_UNKNOWN_ERR
@@ -4353,7 +4368,7 @@ directory
 fileId
 )
 ;
-NS_ENSURE_TRUE
+IDB_ENSURE_TRUE
 (
 file
 NS_ERROR_DOM_INDEXEDDB_UNKNOWN_ERR
@@ -4373,7 +4388,7 @@ NORMAL_FILE_TYPE
 0644
 )
 ;
-NS_ENSURE_SUCCESS
+IDB_ENSURE_SUCCESS
 (
 rv
 NS_ERROR_DOM_INDEXEDDB_UNKNOWN_ERR
@@ -4426,7 +4441,7 @@ forget
 )
 )
 ;
-NS_ENSURE_TRUE
+IDB_ENSURE_TRUE
 (
 fileHandle
 NS_ERROR_DOM_INDEXEDDB_UNKNOWN_ERR

@@ -96,6 +96,13 @@ h
 #
 include
 "
+ReportInternalError
+.
+h
+"
+#
+include
+"
 TransactionThreadPool
 .
 h
@@ -2195,7 +2202,7 @@ rv
 )
 )
 {
-NS_WARNING
+IDB_WARNING
 (
 "
 Failed
@@ -4845,6 +4852,10 @@ IsInvalidated
 )
 )
 {
+IDB_REPORT_INTERNAL_ERR
+(
+)
+;
 return
 NS_ERROR_DOM_INDEXEDDB_UNKNOWN_ERR
 ;
@@ -4884,7 +4895,7 @@ PackArgumentsForParentProcess
 params
 )
 ;
-NS_ENSURE_SUCCESS
+IDB_ENSURE_SUCCESS
 (
 rv
 NS_ERROR_DOM_INDEXEDDB_UNKNOWN_ERR
@@ -4904,7 +4915,7 @@ Dispatch
 target
 )
 ;
-NS_ENSURE_SUCCESS
+IDB_ENSURE_SUCCESS
 (
 rv
 NS_ERROR_DOM_INDEXEDDB_UNKNOWN_ERR
@@ -5064,7 +5075,7 @@ GetCachedStatement
 query
 )
 ;
-NS_ENSURE_TRUE
+IDB_ENSURE_TRUE
 (
 stmt
 NS_ERROR_DOM_INDEXEDDB_UNKNOWN_ERR
@@ -5084,7 +5095,7 @@ BindArgumentsToStatement
 stmt
 )
 ;
-NS_ENSURE_SUCCESS
+IDB_ENSURE_SUCCESS
 (
 rv
 NS_ERROR_DOM_INDEXEDDB_UNKNOWN_ERR
@@ -5132,7 +5143,7 @@ ExecuteStep
 hasResult
 )
 ;
-NS_ENSURE_SUCCESS
+IDB_ENSURE_SUCCESS
 (
 rv
 NS_ERROR_DOM_INDEXEDDB_UNKNOWN_ERR
@@ -5160,7 +5171,7 @@ GatherResultsFromStatement
 stmt
 )
 ;
-NS_ENSURE_SUCCESS
+IDB_ENSURE_SUCCESS
 (
 rv
 NS_ERROR_DOM_INDEXEDDB_UNKNOWN_ERR
@@ -5767,7 +5778,7 @@ cloneInfo
 )
 )
 {
-NS_WARNING
+IDB_WARNING
 (
 "
 Failed
@@ -5851,7 +5862,7 @@ Id
 )
 )
 ;
-NS_ENSURE_SUCCESS
+IDB_ENSURE_SUCCESS
 (
 rv
 NS_ERROR_DOM_INDEXEDDB_UNKNOWN_ERR
@@ -6100,7 +6111,7 @@ Id
 )
 )
 ;
-NS_ENSURE_SUCCESS
+IDB_ENSURE_SUCCESS
 (
 rv
 NS_ERROR_DOM_INDEXEDDB_UNKNOWN_ERR
