@@ -13,8 +13,8 @@ arm_neon
 h
 >
 #
-ifdef
-DEBUG
+if
+0
 #
 define
 ASSERT_ALIGNED
