@@ -93,6 +93,17 @@ true
 }
 virtual
 bool
+PollSync
+(
+)
+MOZ_OVERRIDE
+{
+return
+true
+;
+}
+virtual
+bool
 ReadPixels
 (
 GLint

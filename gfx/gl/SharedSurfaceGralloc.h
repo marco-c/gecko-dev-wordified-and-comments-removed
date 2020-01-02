@@ -213,6 +213,13 @@ WaitSync
 MOZ_OVERRIDE
 ;
 virtual
+bool
+PollSync
+(
+)
+MOZ_OVERRIDE
+;
+virtual
 void
 WaitForBufferOwnership
 (

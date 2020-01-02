@@ -230,6 +230,14 @@ WaitSync
 0
 ;
 virtual
+bool
+PollSync
+(
+)
+=
+0
+;
+virtual
 void
 WaitForBufferOwnership
 (
