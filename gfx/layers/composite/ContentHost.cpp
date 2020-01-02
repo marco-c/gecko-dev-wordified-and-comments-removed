@@ -121,10 +121,10 @@ gfx
 namespace
 layers
 {
-ContentHostBaseNew
+ContentHostBase
 :
 :
-ContentHostBaseNew
+ContentHostBase
 (
 const
 TextureInfo
@@ -146,11 +146,11 @@ false
 )
 {
 }
-ContentHostBaseNew
+ContentHostBase
 :
 :
 ~
-ContentHostBaseNew
+ContentHostBase
 (
 )
 {
@@ -165,7 +165,7 @@ DestroyTextureHostOnWhite
 }
 TextureHost
 *
-ContentHostBaseNew
+ContentHostBase
 :
 :
 GetAsTextureHost
@@ -177,7 +177,7 @@ mTextureHost
 ;
 }
 void
-ContentHostBaseNew
+ContentHostBase
 :
 :
 DestroyTextureHost
@@ -240,7 +240,7 @@ nullptr
 ;
 }
 void
-ContentHostBaseNew
+ContentHostBase
 :
 :
 DestroyTextureHostOnWhite
@@ -303,7 +303,7 @@ nullptr
 ;
 }
 void
-ContentHostBaseNew
+ContentHostBase
 :
 :
 RemoveTextureHost
@@ -455,7 +455,7 @@ mLockSuccess
 }
 ;
 void
-ContentHostBaseNew
+ContentHostBase
 :
 :
 Composite
@@ -1340,7 +1340,7 @@ aTransform
 ;
 }
 void
-ContentHostBaseNew
+ContentHostBase
 :
 :
 UseTextureHost
@@ -1384,7 +1384,7 @@ aTexture
 }
 }
 void
-ContentHostBaseNew
+ContentHostBase
 :
 :
 SetCompositor
@@ -1435,7 +1435,7 @@ aCompositor
 ifdef
 MOZ_DUMP_PAINTING
 void
-ContentHostBaseNew
+ContentHostBase
 :
 :
 Dump
@@ -1605,10 +1605,10 @@ ul
 }
 #
 endif
-ContentHostBase
+DeprecatedContentHostBase
 :
 :
-ContentHostBase
+DeprecatedContentHostBase
 (
 const
 TextureInfo
@@ -1630,18 +1630,18 @@ false
 )
 {
 }
-ContentHostBase
+DeprecatedContentHostBase
 :
 :
 ~
-ContentHostBase
+DeprecatedContentHostBase
 (
 )
 {
 }
 DeprecatedTextureHost
 *
-ContentHostBase
+DeprecatedContentHostBase
 :
 :
 GetDeprecatedTextureHost
@@ -1653,7 +1653,7 @@ mDeprecatedTextureHost
 ;
 }
 void
-ContentHostBase
+DeprecatedContentHostBase
 :
 :
 DestroyFrontHost
@@ -1722,7 +1722,7 @@ nullptr
 ;
 }
 void
-ContentHostBase
+DeprecatedContentHostBase
 :
 :
 OnActorDestroy
@@ -1783,7 +1783,7 @@ OnActorDestroy
 }
 }
 void
-ContentHostBase
+DeprecatedContentHostBase
 :
 :
 Composite
@@ -2649,7 +2649,7 @@ aTransform
 ;
 }
 void
-ContentHostBase
+DeprecatedContentHostBase
 :
 :
 SetCompositor
@@ -2700,7 +2700,7 @@ aCompositor
 ifdef
 MOZ_DUMP_PAINTING
 void
-ContentHostBase
+DeprecatedContentHostBase
 :
 :
 Dump
@@ -2871,7 +2871,7 @@ ul
 #
 endif
 void
-ContentHostSingleBufferedNew
+ContentHostSingleBuffered
 :
 :
 UpdateThebes
@@ -3115,11 +3115,11 @@ rotation
 )
 ;
 }
-ContentHostSingleBuffered
+DeprecatedContentHostSingleBuffered
 :
 :
 ~
-ContentHostSingleBuffered
+DeprecatedContentHostSingleBuffered
 (
 )
 {
@@ -3133,7 +3133,7 @@ DestroyFrontHost
 ;
 }
 void
-ContentHostSingleBuffered
+DeprecatedContentHostSingleBuffered
 :
 :
 EnsureDeprecatedTextureHost
@@ -3252,7 +3252,7 @@ compositor
 }
 }
 void
-ContentHostSingleBuffered
+DeprecatedContentHostSingleBuffered
 :
 :
 DestroyTextures
@@ -3321,7 +3321,7 @@ nullptr
 ;
 }
 void
-ContentHostSingleBuffered
+DeprecatedContentHostSingleBuffered
 :
 :
 UpdateThebes
@@ -3637,7 +3637,7 @@ rotation
 ;
 }
 void
-ContentHostDoubleBufferedNew
+ContentHostDoubleBuffered
 :
 :
 UpdateThebes
@@ -3727,11 +3727,11 @@ mValidRegionForNextBackBuffer
 aOldValidRegionBack
 ;
 }
-ContentHostDoubleBuffered
+DeprecatedContentHostDoubleBuffered
 :
 :
 ~
-ContentHostDoubleBuffered
+DeprecatedContentHostDoubleBuffered
 (
 )
 {
@@ -3745,7 +3745,7 @@ DestroyFrontHost
 ;
 }
 void
-ContentHostDoubleBuffered
+DeprecatedContentHostDoubleBuffered
 :
 :
 EnsureDeprecatedTextureHost
@@ -3908,7 +3908,7 @@ identifier
 ;
 }
 void
-ContentHostDoubleBuffered
+DeprecatedContentHostDoubleBuffered
 :
 :
 DestroyTextures
@@ -4045,7 +4045,7 @@ nullptr
 }
 }
 void
-ContentHostDoubleBuffered
+DeprecatedContentHostDoubleBuffered
 :
 :
 OnActorDestroy
@@ -4132,7 +4132,7 @@ OnActorDestroy
 }
 }
 void
-ContentHostDoubleBuffered
+DeprecatedContentHostDoubleBuffered
 :
 :
 UpdateThebes
@@ -5545,7 +5545,7 @@ offset
 }
 }
 void
-ContentHostBaseNew
+ContentHostBase
 :
 :
 PrintInfo
@@ -5570,7 +5570,7 @@ aTo
 nsPrintfCString
 (
 "
-ContentHostSingleBuffered
+ContentHost
 (
 0x
 %
@@ -5674,7 +5674,7 @@ get
 }
 }
 void
-ContentHostSingleBuffered
+DeprecatedContentHostSingleBuffered
 :
 :
 PrintInfo
@@ -5699,7 +5699,7 @@ aTo
 nsPrintfCString
 (
 "
-ContentHostSingleBuffered
+DeprecatedContentHostSingleBuffered
 (
 0x
 %
@@ -5803,7 +5803,7 @@ get
 }
 }
 void
-ContentHostDoubleBuffered
+DeprecatedContentHostDoubleBuffered
 :
 :
 PrintInfo
@@ -5828,7 +5828,7 @@ aTo
 nsPrintfCString
 (
 "
-ContentHostDoubleBuffered
+DeprecatedContentHostDoubleBuffered
 (
 0x
 %
@@ -5962,7 +5962,7 @@ get
 ifdef
 MOZ_DUMP_PAINTING
 void
-ContentHostDoubleBuffered
+DeprecatedContentHostDoubleBuffered
 :
 :
 Dump
@@ -5978,7 +5978,7 @@ bool
 aDumpHtml
 )
 {
-ContentHostBase
+DeprecatedContentHostBase
 :
 :
 Dump
@@ -6143,7 +6143,7 @@ ul
 #
 endif
 LayerRenderState
-ContentHostBaseNew
+ContentHostBase
 :
 :
 GetRenderState
@@ -6204,7 +6204,7 @@ result
 ;
 }
 LayerRenderState
-ContentHostBase
+DeprecatedContentHostBase
 :
 :
 GetRenderState
@@ -6262,7 +6262,7 @@ gfx
 :
 DataSourceSurface
 >
-ContentHostBaseNew
+ContentHostBase
 :
 :
 GetAsSurface
@@ -6295,7 +6295,7 @@ gfx
 :
 DataSourceSurface
 >
-ContentHostBase
+DeprecatedContentHostBase
 :
 :
 GetAsSurface
