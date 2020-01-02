@@ -2183,7 +2183,13 @@ E
 typedef
 nsTArray_CopyWithConstructors
 <
+JS
+:
+:
+Heap
+<
 E
+>
 >
 Type
 ;
