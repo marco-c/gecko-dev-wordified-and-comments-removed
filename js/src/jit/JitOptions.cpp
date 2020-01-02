@@ -86,6 +86,10 @@ disableRangeAnalysis
 =
 false
 ;
+disableLoopUnrolling
+=
+true
+;
 disableUce
 =
 false

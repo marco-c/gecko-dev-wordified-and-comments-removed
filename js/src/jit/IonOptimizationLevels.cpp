@@ -91,6 +91,10 @@ rangeAnalysis_
 =
 true
 ;
+loopUnrolling_
+=
+true
+;
 autoTruncate_
 =
 true
