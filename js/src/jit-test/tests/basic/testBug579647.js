@@ -3,7 +3,7 @@ expected
 "
 TypeError
 :
-a
+NaN
 is
 not
 a
@@ -67,7 +67,7 @@ e
 }
 assertEq
 (
-actual
 expected
+actual
 )
 ;
