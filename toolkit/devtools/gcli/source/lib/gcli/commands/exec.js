@@ -271,7 +271,7 @@ shift
 )
 ;
 var
-execSpec
+spawnSpec
 =
 {
 cmd
@@ -299,9 +299,9 @@ cwd
 return
 host
 .
-exec
+spawn
 (
-execSpec
+spawnSpec
 )
 .
 then

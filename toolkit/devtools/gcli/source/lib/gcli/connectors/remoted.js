@@ -1067,7 +1067,7 @@ env
 return
 host
 .
-exec
+spawn
 (
 {
 cmd
