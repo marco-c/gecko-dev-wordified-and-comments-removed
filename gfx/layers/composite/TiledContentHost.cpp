@@ -1433,6 +1433,13 @@ RenderLayerBuffer
 mLowPrecisionTiledBuffer
 aEffectChain
 aOpacity
+*
+gfxPrefs
+:
+:
+LowPrecisionOpacity
+(
+)
 aFilter
 aClipRect
 aLayerProperties
