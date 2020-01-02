@@ -6858,11 +6858,6 @@ nsLayoutUtils
 :
 :
 SFE_WANT_FIRST_FRAME
-|
-nsLayoutUtils
-:
-:
-SFE_WANT_NEW_SURFACE
 )
 ;
 if
