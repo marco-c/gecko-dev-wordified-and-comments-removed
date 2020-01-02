@@ -263,12 +263,16 @@ nsHtml5TreeOpExecutor
 (
 )
 ;
+protected
+:
 virtual
 ~
 nsHtml5TreeOpExecutor
 (
 )
 ;
+public
+:
 NS_IMETHOD
 WillParse
 (
