@@ -10,13 +10,6 @@ h
 #
 include
 "
-jsanalyze
-.
-h
-"
-#
-include
-"
 jsscript
 .
 h
@@ -262,10 +255,7 @@ MAX_MAIN_THREAD_SCRIPT_SIZE
 uint32_t
 numLocalsAndArgs
 =
-analyze
-:
-:
-TotalSlots
+NumLocalsAndArgs
 (
 script
 )

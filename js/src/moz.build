@@ -937,11 +937,6 @@ jsalloc
 cpp
 '
 '
-jsanalyze
-.
-cpp
-'
-'
 jsapi
 .
 cpp
