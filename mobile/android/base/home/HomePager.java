@@ -1017,6 +1017,17 @@ boolean
 hasFocus
 )
 {
+if
+(
+mHomeBanner
+=
+=
+null
+)
+{
+return
+;
+}
 final
 boolean
 active
