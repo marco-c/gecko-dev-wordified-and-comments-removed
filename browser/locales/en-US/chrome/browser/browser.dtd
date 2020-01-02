@@ -223,10 +223,14 @@ Browsing
 ENTITY
 appmenu
 .
-tooltip
+title
 "
-Open
-menu
+Customize
+and
+Control
+&
+brandFullName
+;
 "
 >
 <

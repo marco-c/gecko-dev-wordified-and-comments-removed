@@ -8008,6 +8008,15 @@ removable
 "
 false
 "
+title
+=
+"
+&
+appmenu
+.
+title
+;
+"
 >
 <
 toolbarbutton
@@ -8040,7 +8049,7 @@ tooltiptext
 &
 appmenu
 .
-tooltip
+title
 ;
 "
 /
