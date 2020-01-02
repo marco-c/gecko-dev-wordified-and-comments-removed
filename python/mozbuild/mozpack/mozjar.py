@@ -2656,7 +2656,7 @@ creator_version
 ]
 >
 >
-16
+8
             
 xattr
 =
@@ -4018,6 +4018,9 @@ data
 compress
 =
 None
+mode
+=
+None
 )
 :
         
@@ -4116,6 +4119,24 @@ than
 the
 uncompressed
 size
+.
+        
+The
+mode
+option
+gives
+the
+unix
+permissions
+that
+should
+be
+stored
+        
+for
+the
+jar
+entry
 .
         
 The
@@ -4321,6 +4342,42 @@ creator_version
 ]
 =
 20
+        
+if
+mode
+is
+not
+None
+:
+            
+entry
+[
+'
+creator_version
+'
+]
+|
+=
+3
+<
+<
+8
+            
+entry
+[
+'
+external_attr
+'
+]
+=
+(
+mode
+&
+0xFFFF
+)
+<
+<
+16L
         
 if
 deflater
