@@ -4310,6 +4310,11 @@ aProperty
 nsAString
 &
 aResult
+nsCSSValue
+:
+:
+Serialization
+aSerialization
 )
 :
 mProperty
@@ -4319,6 +4324,10 @@ aProperty
 mResult
 (
 aResult
+)
+mValueSerialization
+(
+aSerialization
 )
 {
 }
@@ -4406,6 +4415,7 @@ AppendToString
 (
 mProperty
 mResult
+mValueSerialization
 )
 ;
 }
@@ -4440,6 +4450,7 @@ AppendToString
 (
 mProperty
 mResult
+mValueSerialization
 )
 ;
 }
@@ -4451,6 +4462,12 @@ mProperty
 nsAString
 &
 mResult
+;
+nsCSSValue
+:
+:
+Serialization
+mValueSerialization
 ;
 }
 ;
@@ -4466,6 +4483,8 @@ aProperty
 nsAString
 &
 aResult
+Serialization
+aSerialization
 )
 const
 {
@@ -4962,6 +4981,7 @@ AppendToString
 (
 prop
 aResult
+aSerialization
 )
 ;
 mark
@@ -5268,6 +5288,7 @@ AppendToString
 (
 aProperty
 aResult
+aSerialization
 )
 ;
 if
@@ -5330,6 +5351,7 @@ ops
 (
 aProperty
 aResult
+aSerialization
 )
 ;
 css
@@ -6415,6 +6437,7 @@ AppendToString
 (
 aProperty
 aResult
+aSerialization
 )
 ;
 if
@@ -6453,6 +6476,7 @@ AppendToString
 (
 aProperty
 aResult
+aSerialization
 )
 ;
 }
@@ -6608,6 +6632,7 @@ AppendToString
 (
 eCSSProperty_background_position
 aResult
+aSerialization
 )
 ;
 }
@@ -6649,6 +6674,7 @@ AppendToString
 (
 eCSSProperty_background_position
 aResult
+aSerialization
 )
 ;
 }
@@ -6682,6 +6708,7 @@ AppendToString
 (
 aProperty
 aResult
+aSerialization
 )
 ;
 needSep
@@ -6803,6 +6830,7 @@ AppendToString
 (
 eCSSProperty_background_position
 aResult
+aSerialization
 )
 ;
 aResult
@@ -6842,6 +6870,7 @@ AppendToString
 (
 eCSSProperty_background_position
 aResult
+aSerialization
 )
 ;
 aResult
@@ -6894,6 +6923,7 @@ AppendToString
 (
 aProperty
 aResult
+aSerialization
 )
 ;
 }
@@ -7185,6 +7215,7 @@ AppendToString
 (
 aProperty
 aResult
+aSerialization
 )
 ;
 if
@@ -7229,6 +7260,7 @@ AppendToString
 (
 aProperty
 aResult
+aSerialization
 )
 ;
 }
@@ -7427,6 +7459,7 @@ AppendToString
 (
 aProperty
 aResult
+aSerialization
 )
 ;
 }
@@ -7448,6 +7481,7 @@ AppendToString
 (
 aProperty
 aResult
+aSerialization
 )
 ;
 }
@@ -7468,6 +7502,7 @@ AppendToString
 (
 aProperty
 aResult
+aSerialization
 )
 ;
 }
@@ -7495,6 +7530,7 @@ AppendToString
 (
 aProperty
 aResult
+aSerialization
 )
 ;
 }
@@ -7516,6 +7552,7 @@ AppendToString
 (
 aProperty
 aResult
+aSerialization
 )
 ;
 }
@@ -7565,6 +7602,7 @@ AppendToString
 (
 aProperty
 aResult
+aSerialization
 )
 ;
 break
@@ -8885,6 +8923,11 @@ aProperty
 nsAString
 &
 aResult
+nsCSSValue
+:
+:
+Serialization
+aSerialization
 )
 const
 {
@@ -8910,6 +8953,7 @@ AppendToString
 (
 aProperty
 aResult
+aSerialization
 )
 ;
 val
@@ -9203,6 +9247,11 @@ aProperty
 nsAString
 &
 aResult
+nsCSSValue
+:
+:
+Serialization
+aSerialization
 )
 const
 {
@@ -9218,6 +9267,7 @@ AppendToString
 (
 aProperty
 aResult
+aSerialization
 )
 ;
 }
@@ -9387,6 +9437,11 @@ aProperty
 nsAString
 &
 aResult
+nsCSSValue
+:
+:
+Serialization
+aSerialization
 )
 const
 {
@@ -9474,6 +9529,7 @@ AppendToString
 (
 aProperty
 aResult
+aSerialization
 )
 ;
 aResult
@@ -9489,6 +9545,7 @@ AppendToString
 (
 aProperty
 aResult
+aSerialization
 )
 ;
 aResult
@@ -9504,6 +9561,7 @@ AppendToString
 (
 aProperty
 aResult
+aSerialization
 )
 ;
 aResult
@@ -9519,6 +9577,7 @@ AppendToString
 (
 aProperty
 aResult
+aSerialization
 )
 ;
 }
@@ -9547,6 +9606,7 @@ AppendToString
 (
 aProperty
 aResult
+aSerialization
 )
 ;
 aResult
@@ -9562,6 +9622,7 @@ AppendToString
 (
 aProperty
 aResult
+aSerialization
 )
 ;
 aResult
@@ -9577,6 +9638,7 @@ AppendToString
 (
 aProperty
 aResult
+aSerialization
 )
 ;
 aResult
@@ -9592,6 +9654,7 @@ AppendToString
 (
 aProperty
 aResult
+aSerialization
 )
 ;
 aResult
@@ -9798,6 +9861,11 @@ aProperty
 nsAString
 &
 aResult
+nsCSSValue
+:
+:
+Serialization
+aSerialization
 )
 const
 {
@@ -9807,6 +9875,7 @@ AppendToString
 (
 aProperty
 aResult
+aSerialization
 )
 ;
 if
@@ -9838,6 +9907,7 @@ AppendToString
 (
 aProperty
 aResult
+aSerialization
 )
 ;
 }
@@ -9942,6 +10012,11 @@ aProperty
 nsAString
 &
 aResult
+nsCSSValue
+:
+:
+Serialization
+aSerialization
 )
 const
 {
@@ -9951,6 +10026,7 @@ AppendToString
 (
 aProperty
 aResult
+aSerialization
 )
 ;
 if
@@ -9982,6 +10058,7 @@ AppendToString
 (
 aProperty
 aResult
+aSerialization
 )
 ;
 if
@@ -10013,6 +10090,7 @@ AppendToString
 (
 aProperty
 aResult
+aSerialization
 )
 ;
 }
@@ -10179,6 +10257,11 @@ aProperty
 nsAString
 &
 aResult
+nsCSSValue
+:
+:
+Serialization
+aSerialization
 )
 const
 {
@@ -10224,6 +10307,7 @@ AppendToString
 (
 aProperty
 aResult
+aSerialization
 )
 ;
 if
@@ -10300,6 +10384,7 @@ AppendToString
 (
 aProperty
 aResult
+aSerialization
 )
 ;
 }

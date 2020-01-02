@@ -2196,6 +2196,10 @@ AppendToString
 (
 eCSSProperty_width
 aString
+nsCSSValue
+:
+:
+eNormalized
 )
 ;
 break
@@ -2238,6 +2242,10 @@ AppendToString
 (
 eCSSProperty_z_index
 aString
+nsCSSValue
+:
+:
+eNormalized
 )
 ;
 break
@@ -2275,6 +2283,10 @@ AppendToString
 (
 eCSSProperty_line_height
 aString
+nsCSSValue
+:
+:
+eNormalized
 )
 ;
 }
@@ -2393,6 +2405,10 @@ AppendToString
 (
 eCSSProperty_z_index
 aString
+nsCSSValue
+:
+:
+eNormalized
 )
 ;
 aString
@@ -2416,6 +2432,10 @@ AppendToString
 (
 eCSSProperty_z_index
 aString
+nsCSSValue
+:
+:
+eNormalized
 )
 ;
 }
