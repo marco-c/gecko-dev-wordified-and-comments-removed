@@ -1744,6 +1744,11 @@ LocaleManager
 java
 '
 '
+MediaCastingBar
+.
+java
+'
+'
 MemoryMonitor
 .
 java
