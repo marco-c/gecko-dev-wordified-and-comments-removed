@@ -279,8 +279,10 @@ uuids
 .
 *
 /
-/
-/
+[
+NewObject
+Throws
+]
 Promise
 <
 sequence
@@ -288,11 +290,6 @@ sequence
 DOMString
 >
 >
-[
-NewObject
-Throws
-]
-Promise
 fetchUuids
 (
 )

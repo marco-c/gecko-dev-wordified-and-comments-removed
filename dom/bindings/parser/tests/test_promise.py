@@ -22,7 +22,7 @@ parse
 "
             
 interface
-Promise
+_Promise
 {
 }
 ;
@@ -33,6 +33,9 @@ A
               
 legacycaller
 Promise
+<
+any
+>
 foo
 (
 )
@@ -104,7 +107,7 @@ parse
 "
             
 interface
-Promise
+_Promise
 {
 }
 ;
@@ -114,6 +117,9 @@ A
 {
               
 Promise
+<
+any
+>
 foo
 (
 )
@@ -203,7 +209,7 @@ parse
 "
             
 interface
-Promise
+_Promise
 {
 }
 ;
@@ -221,6 +227,9 @@ arg
 ;
               
 Promise
+<
+any
+>
 foo
 (
 )
@@ -295,7 +304,7 @@ parse
 "
         
 interface
-Promise
+_Promise
 {
 }
 ;
@@ -305,12 +314,18 @@ A
 {
           
 Promise
+<
+any
+>
 foo
 (
 )
 ;
           
 Promise
+<
+any
+>
 foo
 (
 long

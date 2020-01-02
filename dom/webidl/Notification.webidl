@@ -190,6 +190,12 @@ Throws
 ]
 static
 Promise
+<
+sequence
+<
+Notification
+>
+>
 get
 (
 optional

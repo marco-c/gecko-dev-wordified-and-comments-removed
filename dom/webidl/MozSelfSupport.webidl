@@ -233,6 +233,9 @@ collected
 *
 /
 Promise
+<
+object
+>
 getHealthReportPayload
 (
 )

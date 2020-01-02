@@ -709,6 +709,9 @@ SubtleCrypto
 Throws
 ]
 Promise
+<
+any
+>
 encrypt
 (
 AlgorithmIdentifier
@@ -723,6 +726,9 @@ data
 Throws
 ]
 Promise
+<
+any
+>
 decrypt
 (
 AlgorithmIdentifier
@@ -737,6 +743,9 @@ data
 Throws
 ]
 Promise
+<
+any
+>
 sign
 (
 AlgorithmIdentifier
@@ -751,6 +760,9 @@ data
 Throws
 ]
 Promise
+<
+any
+>
 verify
 (
 AlgorithmIdentifier
@@ -767,6 +779,9 @@ data
 Throws
 ]
 Promise
+<
+any
+>
 digest
 (
 AlgorithmIdentifier
@@ -779,6 +794,9 @@ data
 Throws
 ]
 Promise
+<
+any
+>
 generateKey
 (
 AlgorithmIdentifier
@@ -796,6 +814,9 @@ keyUsages
 Throws
 ]
 Promise
+<
+any
+>
 deriveKey
 (
 AlgorithmIdentifier
@@ -817,6 +838,9 @@ keyUsages
 Throws
 ]
 Promise
+<
+any
+>
 deriveBits
 (
 AlgorithmIdentifier
@@ -832,6 +856,9 @@ length
 Throws
 ]
 Promise
+<
+any
+>
 importKey
 (
 KeyFormat
@@ -853,6 +880,9 @@ keyUsages
 Throws
 ]
 Promise
+<
+any
+>
 exportKey
 (
 KeyFormat
@@ -865,6 +895,9 @@ key
 Throws
 ]
 Promise
+<
+any
+>
 wrapKey
 (
 KeyFormat
@@ -881,6 +914,9 @@ wrapAlgorithm
 Throws
 ]
 Promise
+<
+any
+>
 unwrapKey
 (
 KeyFormat
