@@ -945,6 +945,16 @@ lookup
 cmdSetdirDesc
 "
 )
+manual
+:
+gcli
+.
+lookup
+(
+"
+cmdSetdirManual2
+"
+)
 params
 :
 [
@@ -1041,7 +1051,7 @@ gcli
 lookupFormat
 (
 "
-cmdStatus2
+cmdStatus3
 "
 [
 args
