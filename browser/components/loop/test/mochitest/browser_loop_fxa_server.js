@@ -545,12 +545,13 @@ request
 .
 response
 .
-scopes
+scope
 "
+profile
 "
 "
 Check
-scopes
+scope
 "
 )
 ;
