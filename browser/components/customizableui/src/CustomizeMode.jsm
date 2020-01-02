@@ -1043,6 +1043,18 @@ beginBatchUpdate
 (
 )
 ;
+if
+(
+!
+window
+.
+PanelUI
+.
+isReady
+(
+)
+)
+{
 yield
 window
 .
@@ -1053,6 +1065,7 @@ ensureReady
 true
 )
 ;
+}
 this
 .
 visiblePalette
