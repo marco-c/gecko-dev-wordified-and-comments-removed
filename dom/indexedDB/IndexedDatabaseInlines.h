@@ -1,5 +1,11 @@
 #
 ifndef
+IndexedDatabaseInlines_h
+#
+define
+IndexedDatabaseInlines_h
+#
+ifndef
 mozilla_dom_indexeddb_indexeddatabase_h__
 #
 error
@@ -252,3 +258,5 @@ aArgName
 ;
 }
 END_INDEXEDDB_NAMESPACE
+#
+endif

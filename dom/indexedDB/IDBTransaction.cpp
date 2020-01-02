@@ -215,7 +215,7 @@ NS_APPSHELL_CID
 ifdef
 MOZ_ENABLE_PROFILER_SPS
 uint64_t
-gNextSerialNumber
+gNextTransactionSerialNumber
 =
 1
 ;
@@ -763,7 +763,7 @@ ifdef
 MOZ_ENABLE_PROFILER_SPS
 mSerialNumber
 (
-gNextSerialNumber
+gNextTransactionSerialNumber
 +
 +
 )

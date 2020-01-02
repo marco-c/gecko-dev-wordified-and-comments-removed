@@ -83,7 +83,7 @@ kIdleThreadTimeoutMs
 ;
 TransactionThreadPool
 *
-gInstance
+gThreadPool
 =
 nullptr
 ;
@@ -182,7 +182,7 @@ thread
 NS_ASSERTION
 (
 !
-gInstance
+gThreadPool
 "
 More
 than
@@ -215,7 +215,7 @@ thread
 ;
 NS_ASSERTION
 (
-gInstance
+gThreadPool
 =
 =
 this
@@ -226,7 +226,7 @@ instances
 "
 )
 ;
-gInstance
+gThreadPool
 =
 nullptr
 ;
@@ -243,7 +243,7 @@ GetOrCreate
 if
 (
 !
-gInstance
+gThreadPool
 &
 &
 !
@@ -290,7 +290,7 @@ rv
 nullptr
 )
 ;
-gInstance
+gThreadPool
 =
 pool
 .
@@ -300,7 +300,7 @@ forget
 ;
 }
 return
-gInstance
+gThreadPool
 ;
 }
 TransactionThreadPool
@@ -313,7 +313,7 @@ Get
 )
 {
 return
-gInstance
+gThreadPool
 ;
 }
 void
@@ -342,14 +342,14 @@ true
 ;
 if
 (
-gInstance
+gThreadPool
 )
 {
 if
 (
 NS_FAILED
 (
-gInstance
+gThreadPool
 -
 >
 Cleanup
@@ -372,9 +372,9 @@ pool
 ;
 }
 delete
-gInstance
+gThreadPool
 ;
-gInstance
+gThreadPool
 =
 nullptr
 ;
@@ -2985,7 +2985,7 @@ Run
 if
 (
 !
-gInstance
+gThreadPool
 )
 {
 NS_ERROR
@@ -3002,7 +3002,7 @@ return
 NS_ERROR_FAILURE
 ;
 }
-gInstance
+gThreadPool
 -
 >
 FinishTransaction

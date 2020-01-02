@@ -131,7 +131,7 @@ xpcshell
 ini
 '
 ]
-SOURCES
+UNIFIED_SOURCES
 +
 =
 [

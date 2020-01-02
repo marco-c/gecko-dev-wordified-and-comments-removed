@@ -175,7 +175,7 @@ namespace
 ifdef
 MOZ_ENABLE_PROFILER_SPS
 uint64_t
-gNextSerialNumber
+gNextRequestSerialNumber
 =
 1
 ;
@@ -216,7 +216,7 @@ ifdef
 MOZ_ENABLE_PROFILER_SPS
 mSerialNumber
 (
-gNextSerialNumber
+gNextRequestSerialNumber
 +
 +
 )
