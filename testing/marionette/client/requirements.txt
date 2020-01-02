@@ -37,6 +37,12 @@ mozdevice
 0
 .
 37
+mozlog
+>
+=
+2
+.
+0
 moznetwork
 >
 =
