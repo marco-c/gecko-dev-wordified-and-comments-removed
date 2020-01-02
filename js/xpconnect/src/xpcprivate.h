@@ -13700,14 +13700,6 @@ forcePermissiveCOWs
 (
 false
 )
-adoptedNode
-(
-false
-)
-donatedNode
-(
-false
-)
 warnedAboutXrays
 (
 false
@@ -13813,12 +13805,6 @@ universalXPConnectEnabled
 ;
 bool
 forcePermissiveCOWs
-;
-bool
-adoptedNode
-;
-bool
-donatedNode
 ;
 bool
 warnedAboutXrays
