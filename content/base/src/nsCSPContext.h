@@ -213,12 +213,6 @@ nsIURI
 >
 mReferrer
 ;
-nsCOMPtr
-<
-nsIPrincipal
->
-mPrincipal
-;
 uint64_t
 mInnerWindowID
 ;
