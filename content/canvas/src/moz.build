@@ -325,11 +325,6 @@ WebGLExtensionLoseContext
 cpp
 '
 '
-WebGLExtensionSRGB
-.
-cpp
-'
-'
 WebGLExtensionStandardDerivatives
 .
 cpp
