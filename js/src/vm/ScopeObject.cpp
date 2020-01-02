@@ -3661,13 +3661,6 @@ id
 )
 )
 ;
-JS_ASSERT
-(
-index
-<
-LOCAL_INDEX_LIMIT
-)
-;
 *
 redeclared
 =

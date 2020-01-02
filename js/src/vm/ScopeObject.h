@@ -1751,16 +1751,6 @@ toPrivate
 ;
 }
 static
-const
-unsigned
-LOCAL_INDEX_LIMIT
-=
-JS_BIT
-(
-16
-)
-;
-static
 Shape
 *
 addVar
