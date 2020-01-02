@@ -13512,6 +13512,8 @@ lastTimestamp
 .
 openKeyCursor
 (
+null
+PREV
 )
 ;
 request
