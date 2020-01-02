@@ -1083,11 +1083,34 @@ h
 '
 )
             
+asm_sources
+=
+set
+(
+f
+for
+f
+in
+sources
+if
+f
+.
+endswith
+(
+'
+.
+S
+'
+)
+)
+            
 unified_sources
 =
 sources
 -
 non_unified_sources
+-
+asm_sources
             
 sources
 -
