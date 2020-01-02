@@ -4996,6 +4996,16 @@ process
 }
 else
 {
+base
+:
+:
+CloseProcessHandle
+(
+OtherProcess
+(
+)
+)
+;
 SetOtherProcess
 (
 handle
@@ -6410,7 +6420,7 @@ GetChannel
 mSubprocess
 -
 >
-GetChildProcessHandle
+GetOwnedChildProcessHandle
 (
 )
 )
@@ -10913,6 +10923,11 @@ ShutDownProcess
 true
 )
 3000
+)
+;
+SetOtherProcess
+(
+0
 )
 ;
 }
