@@ -134,7 +134,7 @@ DocShellCapabilities
 jsm
 '
 '
-DocumentUtils
+FormData
 .
 jsm
 '
@@ -155,6 +155,11 @@ jsm
 '
 '
 PrivacyLevel
+.
+jsm
+'
+'
+PrivacyLevelFilter
 .
 jsm
 '
@@ -210,11 +215,6 @@ jsm
 '
 '
 TabStateCache
-.
-jsm
-'
-'
-TextAndScrollData
 .
 jsm
 '
