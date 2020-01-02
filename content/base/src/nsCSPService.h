@@ -92,10 +92,6 @@ static
 bool
 sCSPEnabled
 ;
-static
-bool
-sNewBackendEnabled
-;
 protected
 :
 virtual

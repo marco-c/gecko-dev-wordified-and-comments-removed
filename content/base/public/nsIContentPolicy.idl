@@ -961,9 +961,7 @@ update
 nsContentBlocker
 *
 NS_CP_ContentTypeName
-contentSecurityPolicy
-.
-js
+nsCSPContext
 all
 nsIContentPolicy
 *
