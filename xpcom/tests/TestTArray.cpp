@@ -4854,7 +4854,7 @@ const
 unsigned
 numArrays
 =
-9
+36
 ;
 FallibleTArray
 <
@@ -4891,7 +4891,7 @@ i
 .
 SetCapacity
 (
-512
+128
 *
 1024
 *
@@ -4908,7 +4908,7 @@ if
 (
 i
 <
-2
+8
 )
 {
 printf
