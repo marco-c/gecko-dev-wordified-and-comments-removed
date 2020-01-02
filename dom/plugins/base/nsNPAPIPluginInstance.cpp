@@ -647,6 +647,9 @@ sPluginContext
 gl
 :
 :
+SharedTextureShareType
+:
+:
 SameProcess
 (
 void
@@ -656,6 +659,9 @@ mTextureInfo
 .
 mTexture
 gl
+:
+:
+SharedTextureBufferType
 :
 :
 TextureID
@@ -4630,9 +4636,15 @@ sPluginContext
 gl
 :
 :
+SharedTextureShareType
+:
+:
 SameProcess
 mContentSurface
 gl
+:
+:
+SharedTextureBufferType
 :
 :
 SurfaceTexture
