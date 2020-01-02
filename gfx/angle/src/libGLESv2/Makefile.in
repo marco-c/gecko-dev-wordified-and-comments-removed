@@ -142,6 +142,7 @@ call
 EXPAND_LIBNAME_PATH
 d3d9
 dxguid
+'
 (
 MOZ_DIRECTX_SDK_PATH
 )
@@ -151,6 +152,7 @@ lib
 (
 MOZ_DIRECTX_SDK_CPU_SUFFIX
 )
+'
 )
 endif
 EXTRA_DSO_LDOPTS

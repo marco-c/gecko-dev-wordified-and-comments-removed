@@ -896,6 +896,7 @@ call
 EXPAND_LIBNAME_PATH
 dxguid
 dinput8
+'
 (
 subst
 \
@@ -910,6 +911,7 @@ Lib
 (
 MOZ_DIRECTX_SDK_CPU_SUFFIX
 )
+'
 )
 endif
 endif
