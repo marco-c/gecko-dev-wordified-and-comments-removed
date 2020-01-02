@@ -458,6 +458,17 @@ mozilla
 /
 layers
 /
+CompositorCocoaWidgetHelper
+.
+h
+"
+#
+include
+"
+mozilla
+/
+layers
+/
 CompositorOGL
 .
 h
@@ -11388,7 +11399,7 @@ nsChildView
 :
 PreRender
 (
-LayerManagerComposite
+LayerManager
 *
 aManager
 )
@@ -11530,7 +11541,7 @@ nsChildView
 :
 PostRender
 (
-LayerManagerComposite
+LayerManager
 *
 aManager
 )
@@ -11607,7 +11618,7 @@ nsChildView
 :
 DrawWindowOverlay
 (
-LayerManagerComposite
+LayerManager
 *
 aManager
 nsIntRect

@@ -821,6 +821,13 @@ h
 '
 ipc
 /
+CompositorCocoaWidgetHelper
+.
+h
+'
+'
+ipc
+/
 CompositorParent
 .
 h
@@ -1488,6 +1495,13 @@ cpp
 ipc
 /
 CompositorChild
+.
+cpp
+'
+'
+ipc
+/
+CompositorCocoaWidgetHelper
 .
 cpp
 '

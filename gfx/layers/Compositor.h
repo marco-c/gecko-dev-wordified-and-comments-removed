@@ -779,6 +779,16 @@ nullptr
 ;
 }
 virtual
+const
+nsIntSize
+&
+GetWidgetSize
+(
+)
+=
+0
+;
+virtual
 void
 SaveState
 (
