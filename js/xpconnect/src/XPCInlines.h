@@ -26,9 +26,6 @@ variant
 >
 AddToRootSet
 (
-GetMapLock
-(
-)
 &
 mVariantRoots
 )
@@ -51,9 +48,6 @@ wrappedJS
 >
 AddToRootSet
 (
-GetMapLock
-(
-)
 &
 mWrappedJSRoots
 )
@@ -76,9 +70,6 @@ holder
 >
 AddToRootSet
 (
-GetMapLock
-(
-)
 &
 mObjectHolderRoots
 )
