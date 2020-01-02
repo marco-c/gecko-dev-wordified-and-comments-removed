@@ -3574,6 +3574,9 @@ inherits
 oncommand
 =
 closeitemcommand
+hidden
+=
+hidenotnow
 "
 /
 >
