@@ -634,11 +634,6 @@ TypedObjectElements
 \
 _
 (
-SetTypedObjectOffset
-)
-\
-_
-(
 InitializedLength
 )
 \
