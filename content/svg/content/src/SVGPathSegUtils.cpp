@@ -24,6 +24,13 @@ h
 #
 include
 "
+gfxPoint
+.
+h
+"
+#
+include
+"
 nsSVGPathDataParser
 .
 h

@@ -27,13 +27,6 @@ nsSVGFilterInstance
 .
 h
 "
-#
-include
-"
-gfxUtils
-.
-h
-"
 NS_IMPL_NS_NEW_NAMESPACED_SVG_ELEMENT
 (
 FETile

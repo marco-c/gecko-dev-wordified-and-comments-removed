@@ -62,13 +62,6 @@ FilterSupport
 .
 h
 "
-#
-include
-"
-gfxASurface
-.
-h
-"
 class
 nsSVGFilterInstance
 ;
