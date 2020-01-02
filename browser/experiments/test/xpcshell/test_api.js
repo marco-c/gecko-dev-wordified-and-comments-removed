@@ -483,6 +483,10 @@ stop
 )
 )
 ;
+disableCertificateChecks
+(
+)
+;
 Services
 .
 prefs

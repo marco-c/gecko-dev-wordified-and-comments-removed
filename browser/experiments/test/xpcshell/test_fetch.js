@@ -278,6 +278,10 @@ stop
 )
 )
 ;
+disableCertificateChecks
+(
+)
+;
 Services
 .
 prefs
