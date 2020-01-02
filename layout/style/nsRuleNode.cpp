@@ -9493,10 +9493,7 @@ tokenStream
 -
 >
 mSheetPrincipal
-tokenStream
--
->
-mSheet
+nullptr
 tokenStream
 -
 >
