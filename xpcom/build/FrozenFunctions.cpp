@@ -88,8 +88,7 @@ NS_RegisterXPCOMExitRoutine
 NS_UnregisterXPCOMExitRoutine
 &
 NS_GetDebug
-&
-NS_GetTraceRefcnt
+nullptr
 &
 NS_StringContainerInit
 &

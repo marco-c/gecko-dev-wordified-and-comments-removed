@@ -188,11 +188,6 @@ nsISupports
 idl
 '
 '
-nsITraceRefcnt
-.
-idl
-'
-'
 nsIUUIDGenerator
 .
 idl
