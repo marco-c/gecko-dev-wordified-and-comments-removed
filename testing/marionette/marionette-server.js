@@ -11785,8 +11785,14 @@ newSession
 {
 this
 .
-getSessionCapabilities
+sendResponse
 (
+reg
+.
+id
+this
+.
+newSessionCommandId
 )
 ;
 this
