@@ -6897,13 +6897,13 @@ target
 getAttribute
 (
 "
-noautoclose
+closemenu
 "
 )
 =
 =
 "
-true
+none
 "
 |
 |

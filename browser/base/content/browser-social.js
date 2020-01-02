@@ -7221,10 +7221,10 @@ node
 setAttribute
 (
 "
-noautoclose
+closemenu
 "
 "
-true
+none
 "
 )
 ;
