@@ -400,6 +400,11 @@ testSetProperty
 cpp
 '
 '
+testSetPropertyIgnoringNamedGetter
+.
+cpp
+'
+'
 testSourcePolicy
 .
 cpp
