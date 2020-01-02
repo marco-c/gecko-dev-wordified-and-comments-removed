@@ -2065,6 +2065,11 @@ gInstalledAddonId
 OPENH264_PLUGIN_ID
 )
 ;
+delete
+OpenH264Scope
+.
+GMPInstallManager
+;
 }
 )
 ;
