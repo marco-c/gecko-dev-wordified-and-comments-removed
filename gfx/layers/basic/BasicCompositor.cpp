@@ -208,8 +208,6 @@ gfx
 DataSourceSurface
 *
 aSurface
-TextureFlags
-aFlags
 nsIntRegion
 *
 aDestRegion

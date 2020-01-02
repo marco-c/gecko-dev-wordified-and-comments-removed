@@ -901,6 +901,15 @@ TEXTURE_ALLOC_FALLBACK
 )
 )
 {
+result
+=
+new
+TextureClientD3D11
+(
+aFormat
+aTextureFlags
+)
+;
 }
 if
 (

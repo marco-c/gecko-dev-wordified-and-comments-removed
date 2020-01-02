@@ -7839,12 +7839,7 @@ new
 TextureImageTextureSourceOGL
 (
 mGLContext
-!
-(
 aFlags
-&
-TEXTURE_DISALLOW_BIGIMAGE
-)
 )
 ;
 return

@@ -292,8 +292,8 @@ SurfaceDescriptorD3D10
 WindowsHandle
 handle
 ;
-bool
-hasAlpha
+SurfaceFormat
+format
 ;
 }
 ;

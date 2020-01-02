@@ -318,6 +318,15 @@ sourceOnWhite
 aFilter
 )
 ;
+if
+(
+!
+effect
+)
+{
+return
+;
+}
 aEffectChain
 .
 mPrimaryEffect

@@ -91,6 +91,12 @@ GetData
 (
 )
 ;
+uint32_t
+GetStride
+(
+)
+const
+;
 gfx
 :
 :
@@ -141,12 +147,6 @@ GetAsDrawTarget
 ;
 protected
 :
-uint32_t
-GetStride
-(
-)
-const
-;
 ImageDataSerializerBase
 (
 uint8_t
