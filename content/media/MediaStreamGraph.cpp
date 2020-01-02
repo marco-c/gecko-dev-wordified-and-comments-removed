@@ -258,13 +258,6 @@ msg
 #
 endif
 static
-const
-int32_t
-INITIAL_CURRENT_TIME
-=
-1
-;
-static
 MediaStreamGraphImpl
 *
 gGraph
@@ -2170,8 +2163,6 @@ mCurrentTime
 ;
 nextCurrentTime
 =
-INITIAL_CURRENT_TIME
-+
 SecondsToMediaTime
 (
 (
@@ -13705,11 +13696,11 @@ aSampleRate
 :
 mCurrentTime
 (
-INITIAL_CURRENT_TIME
+0
 )
 mStateComputedTime
 (
-INITIAL_CURRENT_TIME
+0
 )
 mProcessingGraphUpdateIndex
 (
