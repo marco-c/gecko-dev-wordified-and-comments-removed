@@ -24744,7 +24744,7 @@ rpc
 activation
 -
 >
-setInterrupted
+setResumePC
 (
 (
 void
