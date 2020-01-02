@@ -17823,6 +17823,8 @@ if
 script
 )
 {
+if
+(
 MResumePoint
 *
 resume
@@ -17833,7 +17835,8 @@ block
 entryResumePoint
 (
 )
-;
+)
+{
 while
 (
 resume
@@ -17867,6 +17870,7 @@ pc
 )
 )
 ;
+}
 }
 if
 (
