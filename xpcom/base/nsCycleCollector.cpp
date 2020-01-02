@@ -13122,15 +13122,6 @@ return
 false
 ;
 }
-AutoRestore
-<
-bool
->
-ar
-(
-mActivelyCollecting
-)
-;
 mActivelyCollecting
 =
 true
@@ -13274,6 +13265,10 @@ checkOverBudget
 !
 finished
 )
+;
+mActivelyCollecting
+=
+false
 ;
 if
 (
