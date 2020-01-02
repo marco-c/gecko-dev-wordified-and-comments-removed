@@ -10252,6 +10252,15 @@ lowerTruncateDToInt32
 truncate
 )
 ;
+case
+MIRType_Float32
+:
+return
+lowerTruncateFToInt32
+(
+truncate
+)
+;
 default
 :
 MOZ_ASSUME_UNREACHABLE

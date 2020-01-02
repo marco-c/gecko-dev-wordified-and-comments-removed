@@ -623,6 +623,15 @@ LTruncateDToInt32
 ins
 )
 ;
+virtual
+bool
+visitTruncateFToInt32
+(
+LTruncateFToInt32
+*
+ins
+)
+;
 bool
 visitOutOfLineBailout
 (

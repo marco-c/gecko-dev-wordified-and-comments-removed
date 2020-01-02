@@ -623,6 +623,11 @@ TruncateDToInt32
 \
 _
 (
+TruncateFToInt32
+)
+\
+_
+(
 IntToString
 )
 \
