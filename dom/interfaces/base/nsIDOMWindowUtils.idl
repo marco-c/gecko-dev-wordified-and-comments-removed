@@ -1330,10 +1330,7 @@ float
 aBottomMargin
 in
 uint32_t
-aAlignmentX
-in
-uint32_t
-aAlignmentY
+aAlignment
 in
 nsIDOMElement
 aElement

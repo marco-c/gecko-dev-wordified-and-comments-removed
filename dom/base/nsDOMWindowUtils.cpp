@@ -1985,9 +1985,7 @@ aRightMargin
 float
 aBottomMargin
 uint32_t
-aAlignmentX
-uint32_t
-aAlignmentY
+aAlignment
 nsIDOMElement
 *
 aElement
@@ -2142,8 +2140,7 @@ new
 DisplayPortMarginsPropertyData
 (
 displayportMargins
-aAlignmentX
-aAlignmentY
+aAlignment
 aPriority
 )
 nsINode
