@@ -57,6 +57,13 @@ h
 #
 include
 "
+nsRange
+.
+h
+"
+#
+include
+"
 gfxFont
 .
 h
