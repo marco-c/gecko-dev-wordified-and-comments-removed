@@ -321,13 +321,11 @@ dump
 (
 fh
 )
-if
-__name__
-=
-=
-'
-__main__
-'
+def
+main
+(
+argv
+)
 :
     
 parser
@@ -520,6 +518,7 @@ parser
 .
 parse_args
 (
+argv
 )
     
 process
@@ -546,4 +545,23 @@ module
 args
 .
 idls
+)
+if
+__name__
+=
+=
+'
+__main__
+'
+:
+    
+main
+(
+sys
+.
+argv
+[
+1
+:
+]
 )

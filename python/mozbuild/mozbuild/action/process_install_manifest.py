@@ -5,6 +5,8 @@ print_function
 unicode_literals
 import
 argparse
+import
+sys
 from
 mozpack
 .
@@ -110,13 +112,11 @@ remove_unaccounted
 =
 remove_unaccounted
 )
-if
-__name__
-=
-=
-'
-__main__
-'
+def
+main
+(
+argv
+)
 :
     
 parser
@@ -216,6 +216,7 @@ parser
 .
 parse_args
 (
+argv
 )
     
 result
@@ -273,4 +274,23 @@ result
 .
 removed_directories_count
 )
+)
+if
+__name__
+=
+=
+'
+__main__
+'
+:
+    
+main
+(
+sys
+.
+argv
+[
+1
+:
+]
 )
