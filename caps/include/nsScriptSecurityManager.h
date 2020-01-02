@@ -152,6 +152,12 @@ GetScriptSecurityManager
 )
 ;
 static
+void
+InitStatics
+(
+)
+;
+static
 nsSystemPrincipal
 *
 SystemPrincipalSingletonConstructor
