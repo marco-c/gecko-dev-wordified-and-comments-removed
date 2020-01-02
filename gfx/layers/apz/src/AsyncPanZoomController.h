@@ -1604,6 +1604,13 @@ aDelta
 =
 0
 ;
+virtual
+void
+Cancel
+(
+)
+{
+}
 Vector
 <
 Task

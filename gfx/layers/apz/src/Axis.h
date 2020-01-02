@@ -155,6 +155,11 @@ IsOverscrolled
 )
 const
 ;
+void
+ClearOverscroll
+(
+)
+;
 float
 PanDistance
 (
