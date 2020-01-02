@@ -518,6 +518,11 @@ Factory
 cpp
 '
 '
+FilterNodeSoftware
+.
+cpp
+'
+'
 FilterProcessing
 .
 cpp
