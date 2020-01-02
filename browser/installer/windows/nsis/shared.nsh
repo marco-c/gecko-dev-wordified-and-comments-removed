@@ -5409,7 +5409,7 @@ Don
 '
 t
 add
-URLInfoAbout
+URLUpdateInfo
 which
 is
 the
@@ -5438,7 +5438,7 @@ notes
 ;
 Note
 :
-URLInfoAbout
+URLUpdateInfo
 is
 only
 defined
@@ -5451,7 +5451,7 @@ nsi
 .
 !
 ifdef
-URLInfoAbout
+URLUpdateInfo
 !
 ifndef
 BETA_UPDATE_CHANNEL
@@ -5463,11 +5463,11 @@ WriteRegStr2
 0
 "
 "
-URLInfoAbout
+URLUpdateInfo
 "
 "
 {
-URLInfoAbout
+URLUpdateInfo
 }
 "
 0
@@ -5483,11 +5483,11 @@ WriteRegStr2
 0
 "
 "
-URLUpdateInfo
+URLInfoAbout
 "
 "
 {
-URLUpdateInfo
+URLInfoAbout
 }
 "
 0
