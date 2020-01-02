@@ -9943,7 +9943,7 @@ newInVersion
 :
 1
 }
-FirefoxTouch
+Windows8Touch
 :
 {
 title
@@ -9953,7 +9953,7 @@ bundle
 GetStringFromName
 (
 "
-firefoxTouchTitle
+windows8TouchTitle
 "
 )
 uri
