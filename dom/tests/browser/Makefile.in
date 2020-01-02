@@ -120,6 +120,14 @@ sjs
 page_privatestorageevent
 .
 html
+\
+browser_frame_elements
+.
+js
+\
+browser_frame_elements
+.
+html
 (
 NULL
 )
