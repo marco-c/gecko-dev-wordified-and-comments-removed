@@ -389,8 +389,6 @@ devtools
 /
 netmonitor
 /
-netmonitor
--
 panel
 "
 )

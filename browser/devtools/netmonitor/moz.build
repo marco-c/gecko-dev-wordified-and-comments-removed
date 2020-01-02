@@ -83,8 +83,6 @@ EXTRA_JS_MODULES
 =
 [
 '
-netmonitor
--
 panel
 .
 js
