@@ -9282,7 +9282,7 @@ templateObject
 }
 JSObject
 *
-getTemplateObject
+templateObject
 (
 )
 const

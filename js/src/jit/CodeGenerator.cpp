@@ -19458,7 +19458,7 @@ mir
 )
 -
 >
-getTemplateObject
+templateObject
 (
 )
 ;
