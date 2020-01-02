@@ -148,6 +148,8 @@ aManualListener
 void
 nsCycleCollector_scheduledCollect
 (
+int64_t
+aSliceTime
 )
 ;
 uint32_t
