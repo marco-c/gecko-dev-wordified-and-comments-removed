@@ -241,6 +241,13 @@ getMainThread
 )
 ;
 static
+nsIEventTarget
+*
+getSTSThread
+(
+)
+;
+static
 void
 setSTSThread
 (
