@@ -175,9 +175,6 @@ nsIRunnable
 metadataUpdatedEvent
 =
 new
-mozilla
-:
-:
 AudioMetadataEventRunner
 (
 aDecoder
@@ -213,6 +210,7 @@ metadataUpdatedEvent
 NS_DISPATCH_NORMAL
 )
 ;
+delete
 mMetadataQueue
 .
 popFirst
