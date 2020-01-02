@@ -805,6 +805,12 @@ unifiedcomplete
 "
 )
 ;
+this
+.
+mSearchNames
+=
+null
+;
 }
 }
 catch
@@ -4647,6 +4653,12 @@ urlinline
 history
 "
 )
+;
+this
+.
+mSearchNames
+=
+null
 ;
 }
 }
