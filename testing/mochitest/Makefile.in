@@ -413,6 +413,12 @@ b2g
 .
 json
 \
+b2g
+-
+desktop
+.
+json
+\
 b2g_start_script
 .
 js
