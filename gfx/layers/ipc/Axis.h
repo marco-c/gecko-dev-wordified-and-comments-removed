@@ -178,15 +178,6 @@ float
 aDisplacement
 )
 ;
-Overscroll
-ScaleWillOverscroll
-(
-float
-aScale
-float
-aFocus
-)
-;
 float
 ScaleWillOverscrollAmount
 (
