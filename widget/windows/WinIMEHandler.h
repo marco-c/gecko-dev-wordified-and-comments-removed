@@ -268,6 +268,10 @@ sIsInTSFMode
 ;
 static
 bool
+sIsIMMEnabled
+;
+static
+bool
 sPluginHasFocus
 ;
 static
