@@ -1131,7 +1131,7 @@ window
 .
 resizeTo
 (
-380
+360
 window
 .
 outerHeight
@@ -1146,12 +1146,17 @@ waitForCondition
 >
 navbar
 .
-hasAttribute
+getAttribute
 (
 "
 overflowing
 "
 )
+=
+=
+"
+true
+"
 )
 ;
 ok
