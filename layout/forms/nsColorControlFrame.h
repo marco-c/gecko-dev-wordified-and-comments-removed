@@ -73,8 +73,12 @@ aDestructRoot
 )
 MOZ_OVERRIDE
 ;
-NS_DECL_FRAMEARENA_HELPERS
+NS_DECL_QUERYFRAME_TARGET
+(
+nsColorControlFrame
+)
 NS_DECL_QUERYFRAME
+NS_DECL_FRAMEARENA_HELPERS
 virtual
 nsIAtom
 *
@@ -172,6 +176,11 @@ aType
 )
 MOZ_OVERRIDE
 ;
+nsresult
+UpdateColor
+(
+)
+;
 private
 :
 nsColorControlFrame
@@ -179,11 +188,6 @@ nsColorControlFrame
 nsStyleContext
 *
 aContext
-)
-;
-nsresult
-UpdateColor
-(
 )
 ;
 nsCOMPtr
