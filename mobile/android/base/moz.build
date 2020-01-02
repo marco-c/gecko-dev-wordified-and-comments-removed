@@ -2133,6 +2133,13 @@ java
 '
 toolbar
 /
+ToolbarDisplayLayout
+.
+java
+'
+'
+toolbar
+/
 ToolbarEditLayout
 .
 java
