@@ -188,6 +188,9 @@ type
 "
 mousedown
 "
+isSynthesized
+:
+false
 }
 content
 )
@@ -215,6 +218,9 @@ type
 "
 mousemove
 "
+isSynthesized
+:
+false
 }
 content
 )
@@ -250,6 +256,9 @@ type
 "
 mouseup
 "
+isSynthesized
+:
+false
 }
 content
 )
@@ -309,6 +318,9 @@ type
 "
 mousedown
 "
+isSynthesized
+:
+false
 }
 content
 )
@@ -336,6 +348,9 @@ type
 "
 mousemove
 "
+isSynthesized
+:
+false
 }
 content
 )
@@ -373,6 +388,9 @@ type
 "
 mouseup
 "
+isSynthesized
+:
+false
 }
 content
 )
@@ -455,6 +473,9 @@ type
 "
 mousedown
 "
+isSynthesized
+:
+false
 }
 content
 )
@@ -482,6 +503,9 @@ type
 "
 mousemove
 "
+isSynthesized
+:
+false
 }
 content
 )
@@ -517,6 +541,9 @@ type
 "
 mouseup
 "
+isSynthesized
+:
+false
 }
 content
 )
