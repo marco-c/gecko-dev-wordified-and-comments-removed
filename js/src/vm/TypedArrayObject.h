@@ -1970,14 +1970,6 @@ TypedArrayObject
 >
 (
 )
-|
-|
-IsTypedObjectClass
-(
-getClass
-(
-)
-)
 ;
 }
 #
