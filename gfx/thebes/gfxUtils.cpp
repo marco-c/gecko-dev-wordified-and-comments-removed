@@ -1922,7 +1922,7 @@ gfxRect
 &
 aSubimage
 const
-SurfaceFormat
+gfxImageFormat
 aFormat
 )
 {
@@ -2113,8 +2113,17 @@ TopLeft
 }
 else
 {
+mozilla
+:
+:
 RefPtr
 <
+mozilla
+:
+:
+gfx
+:
+:
 DrawTarget
 >
 target
@@ -2133,7 +2142,10 @@ ToIntSize
 (
 size
 )
+ImageFormatToSurfaceFormat
+(
 aFormat
+)
 )
 ;
 if
@@ -2768,7 +2780,7 @@ gfxRect
 &
 aFill
 const
-SurfaceFormat
+gfxImageFormat
 aFormat
 GraphicsFilter
 aFilter

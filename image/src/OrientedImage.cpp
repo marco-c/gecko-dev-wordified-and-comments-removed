@@ -445,6 +445,9 @@ gfx
 SurfaceFormat
 surfaceFormat
 ;
+gfxImageFormat
+imageFormat
+;
 if
 (
 InnerImage
@@ -468,6 +471,13 @@ SurfaceFormat
 :
 B8G8R8X8
 ;
+imageFormat
+=
+gfxImageFormat
+:
+:
+ARGB32
+;
 }
 else
 {
@@ -480,6 +490,13 @@ SurfaceFormat
 :
 :
 B8G8R8A8
+;
+imageFormat
+=
+gfxImageFormat
+:
+:
+ARGB32
 ;
 }
 mozilla
@@ -589,7 +606,7 @@ imageRect
 imageRect
 imageRect
 imageRect
-surfaceFormat
+imageFormat
 GraphicsFilter
 :
 :
