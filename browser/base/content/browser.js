@@ -20507,6 +20507,7 @@ nsIWebProgressListener
 .
 STATE_START
 )
+{
 TelemetryStopwatch
 .
 start
@@ -20517,6 +20518,23 @@ FX_PAGE_LOAD_MS
 aBrowser
 )
 ;
+Services
+.
+telemetry
+.
+getHistogramById
+(
+"
+FX_TOTAL_TOP_VISITS
+"
+)
+.
+add
+(
+true
+)
+;
+}
 else
 if
 (
@@ -20528,6 +20546,7 @@ nsIWebProgressListener
 .
 STATE_STOP
 )
+{
 TelemetryStopwatch
 .
 finish
@@ -20538,6 +20557,7 @@ FX_PAGE_LOAD_MS
 aBrowser
 )
 ;
+}
 }
 else
 if
