@@ -589,7 +589,7 @@ obj
 >
 is
 <
-WithObject
+DynamicWithObject
 >
 (
 )
@@ -605,7 +605,7 @@ obj
 >
 as
 <
-WithObject
+DynamicWithObject
 >
 (
 )

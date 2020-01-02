@@ -88,10 +88,10 @@ JSOP_ENTERWITH
 enterwith
 "
 NULL
+5
 1
 1
-1
-JOF_BYTE
+JOF_OBJECT
 )
 \
 macro

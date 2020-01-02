@@ -2170,12 +2170,15 @@ expr
 ParseNode
 *
 body
+ObjectBox
+*
+staticWith
 )
 {
 return
 new_
 <
-BinaryNode
+BinaryObjNode
 >
 (
 PNK_WITH
@@ -2192,6 +2195,7 @@ end
 )
 expr
 body
+staticWith
 )
 ;
 }
