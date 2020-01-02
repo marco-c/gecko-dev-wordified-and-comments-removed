@@ -4959,6 +4959,14 @@ changeData
 =
 =
 ChangeData
+&
+&
+buffer
+-
+>
+hasStealableContents
+(
+)
 )
 {
 newData
