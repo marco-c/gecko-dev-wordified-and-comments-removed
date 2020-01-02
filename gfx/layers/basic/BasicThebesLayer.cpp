@@ -968,10 +968,6 @@ mContentClient
 new
 ContentClientBasic
 (
-nullptr
-BasicManager
-(
-)
 )
 ;
 }
