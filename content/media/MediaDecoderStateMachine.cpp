@@ -10222,6 +10222,13 @@ lld
 mCurrentFrameTime
 )
 ;
+mScheduler
+-
+>
+FreezeScheduling
+(
+)
+;
 {
 ReentrantMonitorAutoExit
 exitMon
@@ -10246,6 +10253,13 @@ mQuickBuffering
 false
 ;
 ScheduleStateMachine
+(
+)
+;
+mScheduler
+-
+>
+ThawScheduling
 (
 )
 ;
