@@ -578,7 +578,7 @@ addTest
 (
 "
 "
-0
+1
 PDU_MAX_USER_DATA_7BIT
 PDU_MAX_USER_DATA_7BIT
 -
