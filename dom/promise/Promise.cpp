@@ -2528,8 +2528,12 @@ IsChromeWorker
 )
 ;
 }
-NS_DispatchToMainThread
-(
+nsRefPtr
+<
+AsyncErrorReporter
+>
+r
+=
 new
 AsyncErrorReporter
 (
@@ -2547,6 +2551,10 @@ nullptr
 isChromeError
 win
 )
+;
+NS_DispatchToMainThread
+(
+r
 )
 ;
 }
