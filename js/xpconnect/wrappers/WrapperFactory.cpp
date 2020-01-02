@@ -980,12 +980,6 @@ flags
 }
 }
 }
-nsCOMPtr
-<
-nsIXPConnectJSObjectHolder
->
-holder
-;
 RootedValue
 v
 (
@@ -1024,10 +1018,6 @@ v
 .
 address
 (
-)
-getter_AddRefs
-(
-holder
 )
 )
 ;
