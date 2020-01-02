@@ -122,6 +122,16 @@ toolkitsearch
 manifest
 '
 ]
+EXTRA_JS_MODULES
++
+=
+[
+'
+SearchSuggestionController
+.
+jsm
+'
+]
 EXTRA_PP_COMPONENTS
 +
 =
