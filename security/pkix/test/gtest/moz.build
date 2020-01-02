@@ -108,6 +108,11 @@ nssgtest
 cpp
 '
 '
+pkix_ocsp_request_tests
+.
+cpp
+'
+'
 pkixder_input_tests
 .
 cpp
@@ -140,6 +145,12 @@ include
 .
 .
 /
+.
+.
+/
+lib
+'
+'
 .
 .
 /

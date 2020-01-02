@@ -3758,7 +3758,7 @@ hashLen
 ;
 if
 (
-issuerCert
+cert
 -
 >
 serialNumber
