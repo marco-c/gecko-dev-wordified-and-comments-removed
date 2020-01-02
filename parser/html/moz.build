@@ -208,6 +208,11 @@ nsHtml5NamedCharactersAccel
 h
 '
 '
+nsHtml5OplessBuilder
+.
+h
+'
+'
 nsHtml5OwningUTF16Buffer
 .
 h
@@ -359,6 +364,11 @@ cpp
 '
 '
 nsHtml5NamedCharactersAccel
+.
+cpp
+'
+'
+nsHtml5OplessBuilder
 .
 cpp
 '

@@ -174,6 +174,13 @@ nsIContentHandle
 .
 h
 "
+#
+include
+"
+nsHtml5OplessBuilder
+.
+h
+"
 class
 nsHtml5StreamParser
 ;
