@@ -396,7 +396,7 @@ Handle
 JSObject
 *
 >
-obj
+objArg
 void
 *
 closure
@@ -423,6 +423,17 @@ StackScopedCloneData
 >
 (
 closure
+)
+;
+RootedObject
+obj
+(
+cx
+JS_ObjectToInnerObject
+(
+cx
+objArg
+)
 )
 ;
 if
