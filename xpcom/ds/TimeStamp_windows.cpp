@@ -1195,12 +1195,9 @@ TimeDuration
 :
 FromTicks
 (
-int64_t
-(
 ms2mt
 (
 aMilliseconds
-)
 )
 )
 ;
