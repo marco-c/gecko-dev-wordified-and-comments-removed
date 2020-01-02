@@ -1912,11 +1912,6 @@ SharedPreferencesHelper
 java
 '
 '
-SiteIdentityPopup
-.
-java
-'
-'
 SmsManager
 .
 java
@@ -2045,6 +2040,13 @@ java
 toolbar
 /
 ShapedButton
+.
+java
+'
+'
+toolbar
+/
+SiteIdentityPopup
 .
 java
 '
