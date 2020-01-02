@@ -6935,6 +6935,17 @@ GetReentrantMonitor
 ;
 if
 (
+mState
+=
+=
+DECODER_STATE_SHUTDOWN
+)
+{
+return
+;
+}
+if
+(
 !
 mDecoder
 -
