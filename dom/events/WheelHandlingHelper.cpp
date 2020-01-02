@@ -319,13 +319,8 @@ aDirectionY
 )
 ;
 }
-}
-using
-namespace
-mozilla
-;
 nsWeakFrame
-nsMouseWheelTransaction
+WheelTransaction
 :
 :
 sTargetFrame
@@ -334,7 +329,7 @@ nullptr
 )
 ;
 uint32_t
-nsMouseWheelTransaction
+WheelTransaction
 :
 :
 sTime
@@ -342,7 +337,7 @@ sTime
 0
 ;
 uint32_t
-nsMouseWheelTransaction
+WheelTransaction
 :
 :
 sMouseMoved
@@ -351,7 +346,7 @@ sMouseMoved
 ;
 nsITimer
 *
-nsMouseWheelTransaction
+WheelTransaction
 :
 :
 sTimer
@@ -359,7 +354,7 @@ sTimer
 nullptr
 ;
 int32_t
-nsMouseWheelTransaction
+WheelTransaction
 :
 :
 sScrollSeriesCounter
@@ -367,7 +362,7 @@ sScrollSeriesCounter
 0
 ;
 bool
-nsMouseWheelTransaction
+WheelTransaction
 :
 :
 sOwnScrollbars
@@ -375,7 +370,7 @@ sOwnScrollbars
 false
 ;
 bool
-nsMouseWheelTransaction
+WheelTransaction
 :
 :
 OutOfTime
@@ -407,7 +402,7 @@ aThreshold
 ;
 }
 void
-nsMouseWheelTransaction
+WheelTransaction
 :
 :
 OwnScrollbars
@@ -422,7 +417,7 @@ aOwn
 ;
 }
 void
-nsMouseWheelTransaction
+WheelTransaction
 :
 :
 BeginTransaction
@@ -516,7 +511,7 @@ EndTransaction
 }
 }
 bool
-nsMouseWheelTransaction
+WheelTransaction
 :
 :
 UpdateTransaction
@@ -617,7 +612,7 @@ true
 ;
 }
 void
-nsMouseWheelTransaction
+WheelTransaction
 :
 :
 MayEndTransaction
@@ -656,7 +651,7 @@ EndTransaction
 }
 }
 void
-nsMouseWheelTransaction
+WheelTransaction
 :
 :
 EndTransaction
@@ -709,7 +704,7 @@ Inactivate
 }
 }
 void
-nsMouseWheelTransaction
+WheelTransaction
 :
 :
 OnEvent
@@ -913,7 +908,7 @@ return
 }
 }
 void
-nsMouseWheelTransaction
+WheelTransaction
 :
 :
 Shutdown
@@ -927,7 +922,7 @@ sTimer
 ;
 }
 void
-nsMouseWheelTransaction
+WheelTransaction
 :
 :
 OnFailToScrollTarget
@@ -1011,7 +1006,7 @@ EndTransaction
 }
 }
 void
-nsMouseWheelTransaction
+WheelTransaction
 :
 :
 OnTimeout
@@ -1098,7 +1093,7 @@ true
 }
 }
 void
-nsMouseWheelTransaction
+WheelTransaction
 :
 :
 SetTimeout
@@ -1185,7 +1180,7 @@ failed
 ;
 }
 nsIntPoint
-nsMouseWheelTransaction
+WheelTransaction
 :
 :
 GetScreenPoint
@@ -1244,7 +1239,7 @@ WidgetToScreenOffset
 ;
 }
 uint32_t
-nsMouseWheelTransaction
+WheelTransaction
 :
 :
 GetTimeoutTime
@@ -1269,7 +1264,7 @@ timeout
 ;
 }
 uint32_t
-nsMouseWheelTransaction
+WheelTransaction
 :
 :
 GetIgnoreMoveDelayTime
@@ -1294,7 +1289,7 @@ ignoremovedelay
 ;
 }
 DeltaValues
-nsMouseWheelTransaction
+WheelTransaction
 :
 :
 AccelerateWheelDelta
@@ -1409,7 +1404,7 @@ result
 ;
 }
 double
-nsMouseWheelTransaction
+WheelTransaction
 :
 :
 ComputeAcceleratedWheelDelta
@@ -1450,7 +1445,7 @@ aFactor
 ;
 }
 int32_t
-nsMouseWheelTransaction
+WheelTransaction
 :
 :
 GetAccelerationStart
@@ -1476,7 +1471,7 @@ start
 ;
 }
 int32_t
-nsMouseWheelTransaction
+WheelTransaction
 :
 :
 GetAccelerationFactor
@@ -1502,7 +1497,7 @@ factor
 ;
 }
 DeltaValues
-nsMouseWheelTransaction
+WheelTransaction
 :
 :
 OverrideSystemScrollSpeed
@@ -1666,9 +1661,6 @@ aEvent
 overriddenDeltaValues
 ;
 }
-namespace
-mozilla
-{
 const
 DeltaValues
 ScrollbarsForWheel
@@ -1774,7 +1766,7 @@ message
 NS_WHEEL_START
 )
 {
-nsMouseWheelTransaction
+WheelTransaction
 :
 :
 OwnScrollbars
@@ -1882,7 +1874,7 @@ if
 sOwnWheelTransaction
 &
 &
-nsMouseWheelTransaction
+WheelTransaction
 :
 :
 GetTargetFrame
@@ -1890,7 +1882,7 @@ GetTargetFrame
 )
 )
 {
-nsMouseWheelTransaction
+WheelTransaction
 :
 :
 OwnScrollbars
@@ -1954,7 +1946,7 @@ sOwnWheelTransaction
 =
 false
 ;
-nsMouseWheelTransaction
+WheelTransaction
 :
 :
 OwnScrollbars
@@ -1962,7 +1954,7 @@ OwnScrollbars
 false
 )
 ;
-nsMouseWheelTransaction
+WheelTransaction
 :
 :
 EndTransaction
