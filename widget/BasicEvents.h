@@ -1999,11 +1999,6 @@ mOnlyChromeDispatch
 :
 1
 ;
-bool
-mWantReplyFromContentProcess
-:
-1
-;
 inline
 bool
 InTargetPhase
