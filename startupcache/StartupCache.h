@@ -85,6 +85,15 @@ MemoryReporting
 .
 h
 "
+#
+include
+"
+mozilla
+/
+StaticPtr
+.
+h
+"
 class
 nsIMemoryReporter
 ;
@@ -177,6 +186,9 @@ NS_DECL_NSIOBSERVER
 ;
 class
 StartupCache
+:
+public
+nsISupports
 {
 friend
 class
@@ -188,6 +200,7 @@ StartupCacheWrapper
 ;
 public
 :
+NS_DECL_ISUPPORTS
 nsresult
 GetBuffer
 (
@@ -281,6 +294,7 @@ StartupCache
 (
 )
 ;
+virtual
 ~
 StartupCache
 (
@@ -422,8 +436,10 @@ bool
 mStartupWriteInitiated
 ;
 static
+StaticRefPtr
+<
 StartupCache
-*
+>
 gStartupCache
 ;
 static
