@@ -4775,8 +4775,17 @@ vp
 )
 {
 #
-ifdef
+if
+defined
+(
+JS_ION
+)
+&
+&
+defined
+(
 CHECK_OSIPOINT_REGISTERS
+)
 jit
 :
 :
@@ -5768,6 +5777,9 @@ argc
 vp
 )
 ;
+#
+ifdef
+JS_ION
 jit
 :
 :
@@ -5785,6 +5797,8 @@ get
 )
 )
 ;
+#
+endif
 args
 .
 rval

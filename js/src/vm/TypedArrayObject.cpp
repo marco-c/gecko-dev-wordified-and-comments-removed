@@ -2519,6 +2519,9 @@ ArrayBufferObject
 buffer
 )
 {
+#
+ifdef
+JS_ION
 AsmJSActivation
 *
 act
@@ -2585,6 +2588,13 @@ cx
 return
 false
 ;
+#
+else
+return
+true
+;
+#
+endif
 }
 void
 ArrayBufferObject
