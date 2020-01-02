@@ -62,5 +62,5 @@ toctree
 :
 maxdepth
 :
-2
+3
 mozdevice
