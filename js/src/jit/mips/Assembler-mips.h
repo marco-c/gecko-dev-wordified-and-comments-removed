@@ -3386,9 +3386,7 @@ getOffset
 void
 writeDataRelocation
 (
-const
 ImmGCPtr
-&
 ptr
 )
 {

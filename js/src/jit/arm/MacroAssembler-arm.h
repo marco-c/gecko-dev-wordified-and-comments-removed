@@ -652,9 +652,7 @@ Always
 void
 ma_mov
 (
-const
 ImmGCPtr
-&
 ptr
 Register
 dest
@@ -8408,9 +8406,7 @@ dest
 void
 movePtr
 (
-const
 ImmGCPtr
-&
 imm
 Register
 dest
@@ -9165,9 +9161,7 @@ cmpPtr
 (
 Register
 lhs
-const
 ImmGCPtr
-&
 rhs
 )
 ;

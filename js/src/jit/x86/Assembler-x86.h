@@ -1042,9 +1042,7 @@ buffer
 void
 push
 (
-const
 ImmGCPtr
-&
 ptr
 )
 {
@@ -1250,9 +1248,7 @@ dest
 void
 movl
 (
-const
 ImmGCPtr
-&
 ptr
 Register
 dest
@@ -1281,9 +1277,7 @@ ptr
 void
 movl
 (
-const
 ImmGCPtr
-&
 ptr
 const
 Operand

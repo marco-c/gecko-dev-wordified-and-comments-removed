@@ -3635,9 +3635,7 @@ const
 Address
 &
 ptr1
-const
 ImmMaybeNurseryPtr
-&
 ptr2
 Label
 *
@@ -3647,9 +3645,7 @@ label
 void
 moveNurseryPtr
 (
-const
 ImmMaybeNurseryPtr
-&
 ptr
 Register
 reg

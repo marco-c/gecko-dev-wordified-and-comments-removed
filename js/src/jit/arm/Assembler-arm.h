@@ -5825,9 +5825,7 @@ src
 void
 writeDataRelocation
 (
-const
 ImmGCPtr
-&
 ptr
 )
 {

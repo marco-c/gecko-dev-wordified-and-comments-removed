@@ -733,9 +733,7 @@ currentOffset
 void
 writeDataRelocation
 (
-const
 ImmGCPtr
-&
 ptr
 )
 {
