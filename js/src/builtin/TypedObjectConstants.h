@@ -211,12 +211,12 @@ JS_X4TYPEREPR_FLOAT32
 1
 #
 define
-JS_DATUM_SLOT_TYPE_OBJ
+JS_DATUM_SLOT_TYPE_DESCR
 0
 /
 /
 Type
-object
+descr
 for
 a
 given

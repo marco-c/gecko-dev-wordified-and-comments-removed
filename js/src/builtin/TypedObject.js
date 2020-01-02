@@ -19,7 +19,7 @@ JS_TYPEOBJ_SLOT_TYPE_REPR
 )
 #
 define
-DATUM_TYPE_OBJ
+DATUM_TYPE_DESCR
 (
 obj
 )
@@ -27,7 +27,7 @@ obj
 UnsafeGetReservedSlot
 (
 obj
-JS_DATUM_SLOT_TYPE_OBJ
+JS_DATUM_SLOT_TYPE_DESCR
 )
 #
 define
@@ -154,7 +154,7 @@ obj
 return
 TYPE_TYPE_REPR
 (
-DATUM_TYPE_OBJ
+DATUM_TYPE_DESCR
 (
 obj
 )
@@ -165,7 +165,7 @@ function
 TypedObjectPointer
 (
 typeRepr
-typeObj
+descr
 datum
 offset
 )
@@ -178,9 +178,9 @@ typeRepr
 ;
 this
 .
-typeObj
+descr
 =
-typeObj
+descr
 ;
 this
 .
@@ -219,7 +219,7 @@ DATUM_TYPE_REPR
 (
 typed
 )
-DATUM_TYPE_OBJ
+DATUM_TYPE_DESCR
 (
 typed
 )
@@ -249,7 +249,7 @@ Ptr
 +
 this
 .
-typeObj
+descr
 .
 toSource
 (
@@ -289,7 +289,7 @@ this
 typeRepr
 this
 .
-typeObj
+descr
 this
 .
 datum
@@ -321,11 +321,11 @@ typeRepr
 ;
 this
 .
-typeObj
+descr
 =
 inPtr
 .
-typeObj
+descr
 ;
 this
 .
@@ -517,7 +517,7 @@ HAS_PROPERTY
 (
 this
 .
-typeObj
+descr
 .
 fieldTypes
 propName
@@ -643,7 +643,7 @@ elementTypeObj
 =
 this
 .
-typeObj
+descr
 .
 elementType
 ;
@@ -663,7 +663,7 @@ elementTypeRepr
 ;
 this
 .
-typeObj
+descr
 =
 elementTypeObj
 ;
@@ -728,7 +728,7 @@ HAS_PROPERTY
 (
 this
 .
-typeObj
+descr
 .
 fieldTypes
 propName
@@ -747,7 +747,7 @@ fieldTypeObj
 =
 this
 .
-typeObj
+descr
 .
 fieldTypes
 [
@@ -761,7 +761,7 @@ TO_INT32
 (
 this
 .
-typeObj
+descr
 .
 fieldOffsets
 [
@@ -771,7 +771,7 @@ propName
 ;
 this
 .
-typeObj
+descr
 =
 fieldTypeObj
 ;
@@ -872,7 +872,7 @@ NewDerivedTypedDatum
 (
 this
 .
-typeObj
+descr
 this
 .
 datum
@@ -889,7 +889,7 @@ NewDerivedTypedDatum
 (
 this
 .
-typeObj
+descr
 this
 .
 datum
@@ -1273,7 +1273,7 @@ offset
 )
 ;
 return
-GetFloat32x4TypeObject
+GetFloat32x4TypeDescr
 (
 )
 (
@@ -1347,7 +1347,7 @@ offset
 )
 ;
 return
-GetInt32x4TypeObject
+GetInt32x4TypeDescr
 (
 )
 (
@@ -1658,7 +1658,7 @@ fieldNames
 =
 this
 .
-typeObj
+descr
 .
 fieldNames
 ;
@@ -2143,7 +2143,7 @@ destTypeObj
 )
 &
 &
-ObjectIsTypeObject
+ObjectIsTypeDescr
 (
 destTypeObj
 )
@@ -2248,7 +2248,7 @@ sourceTypeObj
 )
 &
 &
-ObjectIsTypeObject
+ObjectIsTypeDescr
 (
 sourceTypeObj
 )
@@ -2416,7 +2416,7 @@ elementSize
 ;
 }
 function
-TypeObjectEquivalent
+TypeDescrEquivalent
 (
 otherTypeObj
 )
@@ -2431,7 +2431,7 @@ this
 |
 |
 !
-ObjectIsTypeObject
+ObjectIsTypeDescr
 (
 this
 )
@@ -2458,7 +2458,7 @@ otherTypeObj
 |
 |
 !
-ObjectIsTypeObject
+ObjectIsTypeDescr
 (
 otherTypeObj
 )
@@ -2532,7 +2532,7 @@ newArrayType
 |
 |
 !
-ObjectIsTypeObject
+ObjectIsTypeDescr
 (
 newArrayType
 )
@@ -2550,7 +2550,7 @@ object
 var
 oldArrayType
 =
-DATUM_TYPE_OBJ
+DATUM_TYPE_DESCR
 (
 this
 )
@@ -2805,7 +2805,7 @@ this
 |
 |
 !
-ObjectIsTypeObject
+ObjectIsTypeDescr
 (
 this
 )
@@ -3382,7 +3382,7 @@ this
 |
 |
 !
-ObjectIsTypeObject
+ObjectIsTypeDescr
 (
 this
 )
@@ -3491,7 +3491,7 @@ obj
 )
 )
 return
-DATUM_TYPE_OBJ
+DATUM_TYPE_DESCR
 (
 obj
 )
@@ -3668,7 +3668,7 @@ this
 |
 |
 !
-ObjectIsTypeObject
+ObjectIsTypeDescr
 (
 this
 )
@@ -3927,7 +3927,7 @@ this
 |
 |
 !
-ObjectIsTypeObject
+ObjectIsTypeDescr
 (
 this
 )
@@ -4146,7 +4146,7 @@ array
 var
 thisType
 =
-DATUM_TYPE_OBJ
+DATUM_TYPE_DESCR
 (
 this
 )
@@ -4154,7 +4154,7 @@ this
 if
 (
 !
-TypeObjectIsArrayType
+TypeDescrIsArrayType
 (
 thisType
 )
@@ -4299,7 +4299,7 @@ array
 var
 thisType
 =
-DATUM_TYPE_OBJ
+DATUM_TYPE_DESCR
 (
 this
 )
@@ -4307,7 +4307,7 @@ this
 if
 (
 !
-TypeObjectIsArrayType
+TypeDescrIsArrayType
 (
 thisType
 )
@@ -4412,7 +4412,7 @@ array
 var
 thisType
 =
-DATUM_TYPE_OBJ
+DATUM_TYPE_DESCR
 (
 this
 )
@@ -4420,7 +4420,7 @@ this
 if
 (
 !
-TypeObjectIsArrayType
+TypeDescrIsArrayType
 (
 thisType
 )
@@ -4448,14 +4448,14 @@ a
 |
 |
 !
-ObjectIsTypeObject
+ObjectIsTypeDescr
 (
 a
 )
 |
 |
 !
-TypeObjectIsSizedArrayType
+TypeDescrIsSizedArrayType
 (
 a
 )
@@ -4552,7 +4552,7 @@ array
 var
 thisType
 =
-DATUM_TYPE_OBJ
+DATUM_TYPE_DESCR
 (
 this
 )
@@ -4560,7 +4560,7 @@ this
 if
 (
 !
-TypeObjectIsArrayType
+TypeDescrIsArrayType
 (
 thisType
 )
@@ -4812,7 +4812,7 @@ mask
 ;
 }
 function
-TypeObjectIsArrayType
+TypeDescrIsArrayType
 (
 t
 )
@@ -4825,12 +4825,12 @@ t
 )
 &
 &
-ObjectIsTypeObject
+ObjectIsTypeDescr
 (
 t
 )
 "
-TypeObjectIsArrayType
+TypeDescrIsArrayType
 called
 on
 non
@@ -4900,7 +4900,7 @@ object
 }
 }
 function
-TypeObjectIsSizedArrayType
+TypeDescrIsSizedArrayType
 (
 t
 )
@@ -4913,12 +4913,12 @@ t
 )
 &
 &
-ObjectIsTypeObject
+ObjectIsTypeDescr
 (
 t
 )
 "
-TypeObjectIsSizedArrayType
+TypeDescrIsSizedArrayType
 called
 on
 non
@@ -4988,7 +4988,7 @@ object
 }
 }
 function
-TypeObjectIsSimpleType
+TypeDescrIsSimpleType
 (
 t
 )
@@ -5001,12 +5001,12 @@ t
 )
 &
 &
-ObjectIsTypeObject
+ObjectIsTypeDescr
 (
 t
 )
 "
-TypeObjectIsSimpleType
+TypeDescrIsSimpleType
 called
 on
 non
@@ -5092,7 +5092,7 @@ arrayType
 )
 &
 &
-ObjectIsTypeObject
+ObjectIsTypeDescr
 (
 arrayType
 )
@@ -5323,7 +5323,7 @@ arrayType
 )
 &
 &
-ObjectIsTypeObject
+ObjectIsTypeDescr
 (
 arrayType
 )
@@ -5341,7 +5341,7 @@ object
 ;
 assert
 (
-TypeObjectIsArrayType
+TypeDescrIsArrayType
 (
 arrayType
 )
@@ -5418,7 +5418,7 @@ i
 {
 if
 (
-TypeObjectIsArrayType
+TypeDescrIsArrayType
 (
 grainType
 )
@@ -5612,7 +5612,7 @@ outputType
 ;
 assert
 (
-ObjectIsTypeObject
+ObjectIsTypeDescr
 (
 outputType
 )
@@ -5642,7 +5642,7 @@ inArray
 ;
 assert
 (
-TypeObjectIsArrayType
+TypeDescrIsArrayType
 (
 outputType
 )
@@ -5850,7 +5850,7 @@ outputType
 )
 &
 &
-ObjectIsTypeObject
+ObjectIsTypeDescr
 (
 outputType
 )
@@ -5902,7 +5902,7 @@ array
 ;
 assert
 (
-TypeObjectIsArrayType
+TypeDescrIsArrayType
 (
 outputType
 )
@@ -5983,7 +5983,7 @@ inGrainType
 |
 |
 !
-ObjectIsTypeObject
+ObjectIsTypeDescr
 (
 inGrainType
 )
@@ -6119,7 +6119,7 @@ outGrainType
 var
 inGrainTypeIsSimple
 =
-TypeObjectIsSimpleType
+TypeDescrIsSimpleType
 (
 inGrainType
 )
@@ -6446,7 +6446,7 @@ outputType
 )
 &
 &
-ObjectIsTypeObject
+ObjectIsTypeDescr
 (
 outputType
 )
@@ -6489,7 +6489,7 @@ JSMSG_TYPEDOBJECT_ARRAYTYPE_BAD_ARGS
 ;
 if
 (
-TypeObjectIsSimpleType
+TypeDescrIsSimpleType
 (
 outputType
 )
@@ -6678,7 +6678,7 @@ outputType
 )
 &
 &
-ObjectIsTypeObject
+ObjectIsTypeDescr
 (
 outputType
 )
@@ -6697,7 +6697,7 @@ outputType
 ;
 assert
 (
-TypeObjectIsSizedArrayType
+TypeDescrIsSizedArrayType
 (
 outputType
 )
@@ -6968,7 +6968,7 @@ array
 if
 (
 !
-TypeObjectIsArrayType
+TypeDescrIsArrayType
 (
 arrayType
 )

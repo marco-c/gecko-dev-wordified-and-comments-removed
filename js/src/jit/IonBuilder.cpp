@@ -49853,7 +49853,7 @@ alloc
 (
 )
 typedObj
-JS_DATUM_SLOT_TYPE_OBJ
+JS_DATUM_SLOT_TYPE_DESCR
 )
 ;
 current

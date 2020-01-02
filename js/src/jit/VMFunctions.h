@@ -3815,7 +3815,7 @@ JSContext
 *
 cx
 HandleObject
-type
+descr
 HandleObject
 owner
 int32_t
