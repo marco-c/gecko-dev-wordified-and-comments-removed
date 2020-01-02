@@ -32873,6 +32873,11 @@ if
 (
 this
 .
+hidden
+|
+|
+this
+.
 closing
 )
 return
