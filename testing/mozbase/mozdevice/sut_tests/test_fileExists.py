@@ -93,9 +93,7 @@ self
 .
 dm
 .
-getDeviceRoot
-(
-)
+deviceRoot
 '
 testFile
 '
@@ -177,9 +175,7 @@ self
 .
 dm
 .
-getDeviceRoot
-(
-)
+deviceRoot
 '
 testDir
 '

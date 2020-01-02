@@ -16,17 +16,13 @@ automationutils
 import
 replaceBackSlashes
 from
-mozdevice
-import
-devicemanagerADB
-devicemanagerSUT
-devicemanager
-from
 zipfile
 import
 ZipFile
 import
 shutil
+import
+mozdevice
 import
 mozfile
 import
@@ -1004,7 +1000,7 @@ timeout
 )
             
 except
-devicemanager
+mozdevice
 .
 DMError
 as
@@ -1501,16 +1497,18 @@ self
 .
 remoteTestRoot
 =
+"
+%
+s
+/
+xpcshell
+"
+%
 self
 .
 device
 .
-getTestRoot
-(
-"
-xpcshell
-"
-)
+deviceRoot
         
 self
 .
@@ -2422,7 +2420,7 @@ remoteBinDir
 ;
             
 except
-devicemanager
+mozdevice
 .
 DMError
 :
@@ -4834,7 +4832,6 @@ exit
 )
     
 if
-(
 options
 .
 dm_trans
@@ -4843,22 +4840,19 @@ dm_trans
 "
 adb
 "
-)
 :
         
 if
-(
 options
 .
 deviceIP
-)
 :
             
 dm
 =
-devicemanagerADB
+mozdevice
 .
-DeviceManagerADB
+DroidADB
 (
 options
 .
@@ -4881,9 +4875,9 @@ else
             
 dm
 =
-devicemanagerADB
+mozdevice
 .
-DeviceManagerADB
+DroidADB
 (
 packageName
 =
@@ -4898,34 +4892,11 @@ remoteTestRoot
 else
 :
         
-dm
-=
-devicemanagerSUT
-.
-DeviceManagerSUT
-(
-options
-.
-deviceIP
-options
-.
-devicePort
-deviceRoot
-=
-options
-.
-remoteTestRoot
-)
-        
 if
-(
+not
 options
 .
 deviceIP
-=
-=
-None
-)
 :
             
 print
@@ -4954,6 +4925,25 @@ sys
 exit
 (
 1
+)
+        
+dm
+=
+mozdevice
+.
+DroidSUT
+(
+options
+.
+deviceIP
+options
+.
+devicePort
+deviceRoot
+=
+options
+.
+remoteTestRoot
 )
     
 if

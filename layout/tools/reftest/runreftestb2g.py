@@ -1265,9 +1265,7 @@ auto
 .
 _devicemanager
 .
-getDeviceRoot
-(
-)
+deviceRoot
 +
 "
 /

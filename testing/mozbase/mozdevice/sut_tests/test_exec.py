@@ -54,9 +54,7 @@ self
 .
 dm
 .
-getDeviceRoot
-(
-)
+deviceRoot
 '
 test_exec_file
 '

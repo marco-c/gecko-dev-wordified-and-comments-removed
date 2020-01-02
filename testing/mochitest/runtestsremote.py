@@ -1130,9 +1130,7 @@ automation
 .
 _devicemanager
 .
-getDeviceRoot
-(
-)
+deviceRoot
         
 if
 options
@@ -3967,9 +3965,7 @@ self
 .
 _dm
 .
-getDeviceRoot
-(
-)
+deviceRoot
 )
         
 except
@@ -4005,9 +4001,7 @@ self
 .
 _dm
 .
-getDeviceRoot
-(
-)
+deviceRoot
         
 fHandle
 =
@@ -4815,9 +4809,7 @@ deviceRoot
 =
 dm
 .
-getDeviceRoot
-(
-)
+deviceRoot
     
 if
 options

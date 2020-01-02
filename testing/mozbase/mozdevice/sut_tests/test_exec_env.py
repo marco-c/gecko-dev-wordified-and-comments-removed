@@ -67,9 +67,7 @@ self
 .
 dm
 .
-getDeviceRoot
-(
-)
+deviceRoot
 '
 test_script
 .

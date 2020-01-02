@@ -44,9 +44,7 @@ self
 .
 dm
 .
-getDeviceRoot
-(
-)
+deviceRoot
         
 dvpath
 =

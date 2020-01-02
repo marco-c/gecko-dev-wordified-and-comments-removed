@@ -1506,9 +1506,7 @@ remoteTestRoot
 =
 dm
 .
-getDeviceRoot
-(
-)
+deviceRoot
     
 xpcsh
 =
