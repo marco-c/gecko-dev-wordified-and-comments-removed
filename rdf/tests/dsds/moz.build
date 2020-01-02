@@ -127,11 +127,11 @@ rdf
 '
 DataSourceViewer
 .
-xul
+css
 '
 '
 DataSourceViewer
 .
-css
+xul
 '
 ]
