@@ -3454,7 +3454,12 @@ mm
 =
 aWindow
 .
-messageManager
+getGroupMessageManager
+(
+"
+browsers
+"
+)
 ;
 MESSAGES
 .
@@ -4898,7 +4903,12 @@ mm
 =
 aWindow
 .
-messageManager
+getGroupMessageManager
+(
+"
+browsers
+"
+)
 ;
 MESSAGES
 .

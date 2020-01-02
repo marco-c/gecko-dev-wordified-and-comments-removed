@@ -480,7 +480,12 @@ mm
 =
 gWindow
 .
-messageManager
+getGroupMessageManager
+(
+"
+browsers
+"
+)
 ;
 let
 callback
@@ -741,9 +746,7 @@ content
 js
 "
 ;
-gWindow
-.
-messageManager
+mm
 .
 loadFrameScript
 (
