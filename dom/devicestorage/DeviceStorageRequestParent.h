@@ -503,6 +503,8 @@ aFile
 nsIInputStream
 *
 aInputStream
+int32_t
+aRequestType
 )
 ;
 virtual
@@ -530,6 +532,9 @@ nsCOMPtr
 nsIInputStream
 >
 mInputStream
+;
+int32_t
+mRequestType
 ;
 }
 ;
