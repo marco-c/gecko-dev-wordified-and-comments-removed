@@ -1,3 +1,12 @@
+if
+(
+getBuildConfiguration
+(
+)
+.
+parallelJS
+)
+{
 for
 (
 var
@@ -30,4 +39,5 @@ return
 }
 )
 )
+}
 }
