@@ -248,9 +248,9 @@ void
 UpdateZoomConstraints
 (
 const
-uint64_t
+ScrollableLayerGuid
 &
-aLayersId
+aGuid
 bool
 aAllowZoom
 const

@@ -136,7 +136,7 @@ aDelayMs
 ;
 virtual
 bool
-GetZoomConstraints
+GetRootZoomConstraints
 (
 bool
 *

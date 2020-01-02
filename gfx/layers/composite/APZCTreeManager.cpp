@@ -791,7 +791,7 @@ state
 mController
 -
 >
-GetZoomConstraints
+GetRootZoomConstraints
 (
 &
 allowZoom
@@ -2835,9 +2835,9 @@ APZCTreeManager
 UpdateZoomConstraints
 (
 const
-uint64_t
+ScrollableLayerGuid
 &
-aLayersId
+aGuid
 bool
 aAllowZoom
 const
@@ -2856,9 +2856,9 @@ AsyncPanZoomController
 >
 apzc
 =
-GetRootAPZCFor
+GetTargetAPZC
 (
-aLayersId
+aGuid
 )
 ;
 if

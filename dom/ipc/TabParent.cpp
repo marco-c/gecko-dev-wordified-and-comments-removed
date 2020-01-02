@@ -7454,6 +7454,14 @@ TabParent
 RecvUpdateZoomConstraints
 (
 const
+uint32_t
+&
+aPresShellId
+const
+ViewID
+&
+aViewId
+const
 bool
 &
 aAllowZoom
@@ -7483,6 +7491,8 @@ rfp
 >
 UpdateZoomConstraints
 (
+aPresShellId
+aViewId
 aAllowZoom
 aMinZoom
 aMaxZoom
