@@ -6899,6 +6899,11 @@ nsIPKCS11Slot
 .
 SLOT_READY
 ;
+if
+(
+mpEnabled
+)
+{
 Services
 .
 telemetry
@@ -6915,6 +6920,7 @@ add
 mpEnabled
 )
 ;
+}
 }
 5000
 )
