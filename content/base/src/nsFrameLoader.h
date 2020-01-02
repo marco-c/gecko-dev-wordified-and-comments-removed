@@ -902,6 +902,11 @@ OwnerIsBrowserOrAppFrame
 )
 ;
 bool
+OwnerIsWidget
+(
+)
+;
+bool
 OwnerIsAppFrame
 (
 )
