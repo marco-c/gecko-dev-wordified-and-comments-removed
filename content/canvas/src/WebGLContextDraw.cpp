@@ -31,6 +31,13 @@ h
 #
 include
 "
+WebGLContextUtils
+.
+h
+"
+#
+include
+"
 WebGLFramebuffer
 .
 h
@@ -3207,7 +3214,7 @@ ImageInfoBase
 (
 )
 .
-InternalFormat
+WebGLFormat
 (
 )
 )
