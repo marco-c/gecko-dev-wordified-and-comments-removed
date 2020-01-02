@@ -308,6 +308,16 @@ ClearData
 )
 MOZ_OVERRIDE
 ;
+GLuint
+GetTexture
+(
+)
+;
+void
+DeleteTextureIfPresent
+(
+)
+;
 gl
 :
 :
@@ -325,6 +335,9 @@ RefPtr
 CompositorOGL
 >
 mCompositor
+;
+GLuint
+mTexture
 ;
 }
 ;
