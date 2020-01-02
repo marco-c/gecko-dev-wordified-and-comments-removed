@@ -202,16 +202,6 @@ indexedDB
 unlimited
 "
 "
-offline
--
-app
-"
-"
-pin
--
-app
-"
-"
 geolocation
 "
 "
