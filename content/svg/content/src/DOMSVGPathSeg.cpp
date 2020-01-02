@@ -810,6 +810,11 @@ propName
 )
 ;
 \
+InvalidateCachedList
+(
+)
+;
+\
 }
 else
 {
