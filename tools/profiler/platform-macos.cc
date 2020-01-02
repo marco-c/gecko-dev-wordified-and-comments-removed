@@ -300,6 +300,9 @@ sampler
 =
 NULL
 ;
+#
+ifdef
+DEBUG
 static
 const
 pthread_t
@@ -310,6 +313,8 @@ pthread_t
 )
 0
 ;
+#
+endif
 void
 OS
 :
