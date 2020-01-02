@@ -7760,6 +7760,15 @@ blank
 "
 )
 ;
+sbrowser
+.
+docShell
+.
+createAboutBlankContentViewer
+(
+null
+)
+;
 SocialFlyout
 .
 unload
