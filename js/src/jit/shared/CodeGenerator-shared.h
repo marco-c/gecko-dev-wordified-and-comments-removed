@@ -1805,6 +1805,9 @@ MBasicBlock
 mir
 )
 ;
+#
+ifndef
+JS_CODEGEN_MIPS
 void
 jumpToBlock
 (
@@ -1818,6 +1821,8 @@ Condition
 cond
 )
 ;
+#
+endif
 private
 :
 void

@@ -759,7 +759,7 @@ MOZ_CONSTEXPR_VAR
 Register
 FramePointer
 =
-fp
+InvalidReg
 ;
 static
 MOZ_CONSTEXPR_VAR
@@ -1143,7 +1143,7 @@ const
 uint32_t
 FunctionBits
 =
-5
+6
 ;
 static
 const
