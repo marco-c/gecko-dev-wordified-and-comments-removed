@@ -4865,6 +4865,12 @@ data
 return
 ;
 }
+msgData
+.
+successRv
+=
+null
+;
 sendAsyncMsg
 (
 '
@@ -4880,12 +4886,6 @@ active
 '
 msgData
 )
-;
-msgData
-.
-successRv
-=
-null
 ;
 return
 ;
