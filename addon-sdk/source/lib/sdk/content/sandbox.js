@@ -691,8 +691,7 @@ wantGlobalProperties
 wantGlobalProperties
 wantExportHelpers
 :
-!
-waiveSecurityMembrane
+true
 sameZoneAs
 :
 window
