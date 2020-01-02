@@ -447,11 +447,6 @@ DOMParser
 h
 '
 '
-DOMPoint
-.
-h
-'
-'
 DOMRect
 .
 h
@@ -533,11 +528,6 @@ cpp
 '
 '
 DOMParser
-.
-cpp
-'
-'
-DOMPoint
 .
 cpp
 '
