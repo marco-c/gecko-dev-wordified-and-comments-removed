@@ -1893,6 +1893,13 @@ InitStaticMembers
 (
 )
 {
+MOZ_ASSERT
+(
+NS_IsMainThread
+(
+)
+)
+;
 if
 (
 !
