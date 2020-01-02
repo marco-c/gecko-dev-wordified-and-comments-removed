@@ -5420,7 +5420,7 @@ if
 mir
 -
 >
-isTruncated
+canTruncateInfinities
 (
 )
 )
@@ -5547,7 +5547,7 @@ if
 mir
 -
 >
-isTruncated
+canTruncateOverflow
 (
 )
 )
@@ -5613,7 +5613,7 @@ if
 mir
 -
 >
-isTruncated
+canTruncateNegativeZero
 (
 )
 &
@@ -5723,7 +5723,7 @@ if
 mir
 -
 >
-isTruncated
+canTruncateRemainder
 (
 )
 )
