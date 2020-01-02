@@ -5332,8 +5332,16 @@ largeAllocationFailureCallback
 )
 ;
 return
-js_calloc
+onOutOfMemory
 (
+reinterpret_cast
+<
+void
+*
+>
+(
+1
+)
 bytes
 )
 ;
@@ -5389,7 +5397,7 @@ largeAllocationFailureCallback
 )
 ;
 return
-js_realloc
+onOutOfMemory
 (
 p
 bytes
