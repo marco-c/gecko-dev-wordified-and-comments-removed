@@ -17,6 +17,7 @@ if
 (
 mHead
 )
+{
 len
 =
 mHead
@@ -26,7 +27,9 @@ Length
 (
 )
 ;
+}
 else
+{
 len
 =
 TO_SUBSTRING
@@ -38,6 +41,7 @@ Length
 (
 )
 ;
+}
 return
 len
 +
@@ -59,9 +63,9 @@ WriteTo
 (
 char_type
 *
-buf
+aBuf
 uint32_t
-bufLen
+aBufLen
 )
 const
 {
@@ -77,7 +81,7 @@ mFragB
 ;
 NS_ASSERTION
 (
-bufLen
+aBufLen
 >
 =
 b
@@ -95,7 +99,7 @@ small
 uint32_t
 headLen
 =
-bufLen
+aBufLen
 -
 b
 .
@@ -113,7 +117,7 @@ mHead
 >
 WriteTo
 (
-buf
+aBuf
 headLen
 )
 ;
@@ -152,7 +156,7 @@ char_traits
 :
 copy
 (
-buf
+aBuf
 a
 .
 Data
@@ -171,7 +175,7 @@ char_traits
 :
 copy
 (
-buf
+aBuf
 +
 headLen
 b
@@ -201,7 +205,7 @@ mFragB
 ;
 NS_ASSERTION
 (
-bufLen
+aBufLen
 >
 =
 b
@@ -222,9 +226,9 @@ char_traits
 :
 copy
 (
-buf
+aBuf
 +
-bufLen
+aBufLen
 -
 b
 .
@@ -243,7 +247,7 @@ Length
 )
 )
 ;
-bufLen
+aBufLen
 -
 =
 b
@@ -262,8 +266,8 @@ mHead
 >
 WriteTo
 (
-buf
-bufLen
+aBuf
+aBufLen
 )
 ;
 }
@@ -281,7 +285,7 @@ mFragA
 ;
 NS_ASSERTION
 (
-bufLen
+aBufLen
 =
 =
 a
@@ -302,7 +306,7 @@ char_traits
 :
 copy
 (
-buf
+aBuf
 a
 .
 Data
@@ -349,13 +353,16 @@ start
 end
 )
 )
+{
 return
 true
 ;
+}
 if
 (
 mHead
 )
+{
 return
 mHead
 -
@@ -366,6 +373,7 @@ start
 end
 )
 ;
+}
 return
 TO_SUBSTRING
 (

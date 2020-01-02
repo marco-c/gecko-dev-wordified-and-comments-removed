@@ -23,7 +23,7 @@ const
 char_type
 (
 &
-str
+aStr
 )
 [
 N
@@ -38,7 +38,7 @@ char_type
 *
 >
 (
-str
+aStr
 )
 N
 -
@@ -61,7 +61,7 @@ nsTLiteralString_CharT
 char_type
 (
 &
-str
+aStr
 )
 [
 N

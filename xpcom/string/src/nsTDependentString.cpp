@@ -47,10 +47,12 @@ startPos
 >
 strLength
 )
+{
 startPos
 =
 strLength
 ;
+}
 mData
 =
 const_cast
