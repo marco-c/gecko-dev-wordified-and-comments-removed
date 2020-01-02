@@ -869,14 +869,6 @@ argument
 ;
 [
 Throws
-Func
-=
-"
-nsGlobalWindow
-:
-:
-IsShowModalDialogEnabled
-"
 ]
 any
 showModalDialog
