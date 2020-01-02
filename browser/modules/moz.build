@@ -199,6 +199,11 @@ EXTRA_JS_MODULES
 =
 [
 '
+Windows8WindowFrameColor
+.
+jsm
+'
+'
 WindowsJumpLists
 .
 jsm
