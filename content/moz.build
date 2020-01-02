@@ -134,9 +134,6 @@ xul
 '
 xbl
 '
-'
-xslt
-'
 ]
 TEST_TOOL_DIRS
 +

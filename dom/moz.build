@@ -320,6 +320,9 @@ inputmethod
 '
 webidl
 '
+'
+xslt
+'
 ]
 if
 CONFIG

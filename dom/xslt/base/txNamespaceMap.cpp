@@ -79,11 +79,11 @@ nsGkAtoms
 :
 _empty
 ?
-nsnull
+nullptr
 :
 aPrefix
 ;
-PRInt32
+int32_t
 nsId
 ;
 if
@@ -98,7 +98,7 @@ IsEmpty
 )
 )
 {
-PRInt32
+int32_t
 index
 =
 mPrefixes
@@ -171,7 +171,7 @@ NS_ERROR_FAILURE
 )
 ;
 }
-PRInt32
+int32_t
 index
 =
 mPrefixes
@@ -227,7 +227,7 @@ nsId
 )
 =
 =
-nsnull
+nullptr
 )
 {
 mPrefixes
@@ -251,7 +251,7 @@ return
 NS_OK
 ;
 }
-PRInt32
+int32_t
 txNamespaceMap
 :
 :
@@ -293,7 +293,7 @@ _empty
 :
 aPrefix
 ;
-PRInt32
+int32_t
 index
 =
 mPrefixes
@@ -335,7 +335,7 @@ return
 kNameSpaceID_Unknown
 ;
 }
-PRInt32
+int32_t
 txNamespaceMap
 :
 :
@@ -379,7 +379,7 @@ prefix
 return
 lookupNamespace
 (
-nsnull
+nullptr
 )
 ;
 }
