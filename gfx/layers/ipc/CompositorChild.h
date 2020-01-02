@@ -377,6 +377,8 @@ GetAPZCId
 ;
 private
 :
+nsRefPtr
+<
 mozilla
 :
 :
@@ -384,7 +386,7 @@ ipc
 :
 :
 SharedMemoryBasic
-*
+>
 mBuffer
 ;
 CrossProcessMutex

@@ -961,10 +961,6 @@ uint32_t
 aAPZCId
 )
 :
-mBuffer
-(
-nullptr
-)
 mMutex
 (
 nullptr
@@ -1024,8 +1020,9 @@ SharedFrameMetricsData
 delete
 mMutex
 ;
-delete
 mBuffer
+=
+nullptr
 ;
 MOZ_COUNT_DTOR
 (
