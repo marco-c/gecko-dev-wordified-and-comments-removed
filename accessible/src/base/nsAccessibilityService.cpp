@@ -8414,6 +8414,16 @@ aContent
 document
 )
 ;
+else
+newAcc
+=
+new
+HyperTextAccessibleWrap
+(
+aContent
+document
+)
+;
 break
 ;
 case
