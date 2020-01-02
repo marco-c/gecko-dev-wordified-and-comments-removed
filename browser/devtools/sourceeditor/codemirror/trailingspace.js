@@ -1,13 +1,3 @@
-(
-function
-(
-)
-{
-"
-use
-strict
-"
-;
 CodeMirror
 .
 defineOption
@@ -15,7 +5,7 @@ defineOption
 "
 showTrailingSpace
 "
-true
+false
 function
 (
 cm
@@ -156,10 +146,5 @@ trailingspace
 )
 ;
 }
-)
-;
-}
-)
-(
 )
 ;
