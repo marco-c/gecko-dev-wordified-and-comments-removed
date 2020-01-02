@@ -196,6 +196,8 @@ GetParams
 ;
 GetAllParams
 ;
+GetAllKeysParams
+;
 AddParams
 ;
 PutParams
