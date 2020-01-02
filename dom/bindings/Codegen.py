@@ -30819,12 +30819,6 @@ type
 isDOMString
 (
 )
-or
-type
-.
-isScalarValueString
-(
-)
 :
         
 assert
@@ -30907,35 +30901,6 @@ varName
 )
 :
             
-normalizeCode
-=
-"
-"
-            
-if
-type
-.
-isScalarValueString
-(
-)
-:
-                
-normalizeCode
-=
-"
-NormalizeScalarValueString
-(
-cx
-%
-s
-)
-;
-\
-n
-"
-%
-varName
-            
 conversionCode
 =
 (
@@ -30973,23 +30938,17 @@ s
 \
 n
 "
-                
-"
-%
-s
-"
 %
 (
 nullBehavior
 undefinedBehavior
 varName
-                        
+                         
 exceptionCodeIndented
 .
 define
 (
 )
-normalizeCode
 )
 )
             
@@ -37393,12 +37352,6 @@ type
 isDOMString
 (
 )
-or
-type
-.
-isScalarValueString
-(
-)
 :
         
 if
@@ -39585,12 +39538,6 @@ if
 returnType
 .
 isDOMString
-(
-)
-or
-returnType
-.
-isScalarValueString
 (
 )
 :
@@ -56421,12 +56368,6 @@ if
 type
 .
 isDOMString
-(
-)
-or
-type
-.
-isScalarValueString
 (
 )
 :
@@ -83031,12 +82972,6 @@ type
 isDOMString
 (
 )
-or
-type
-.
-isScalarValueString
-(
-)
 :
             
 if
@@ -83887,12 +83822,6 @@ if
 returnType
 .
 isDOMString
-(
-)
-or
-returnType
-.
-isScalarValueString
 (
 )
 :
@@ -84928,12 +84857,6 @@ if
 type
 .
 isDOMString
-(
-)
-or
-type
-.
-isScalarValueString
 (
 )
 :
@@ -97282,12 +97205,6 @@ type
 isByteString
 (
 )
-or
-type
-.
-isScalarValueString
-(
-)
 :
             
 return
@@ -100320,12 +100237,6 @@ elif
 type
 .
 isDOMString
-(
-)
-or
-type
-.
-isScalarValueString
 (
 )
 :
