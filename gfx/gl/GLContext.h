@@ -3878,6 +3878,7 @@ AFTER_GL_CALL
 void
 fGetObjectPtrLabel
 (
+const
 GLvoid
 *
 ptr
@@ -4018,6 +4019,7 @@ GLenum
 target
 GLenum
 pname
+const
 GLint
 *
 params
@@ -4169,7 +4171,6 @@ GLenum
 target
 GLenum
 pname
-const
 GLfloat
 *
 params
@@ -4196,7 +4197,6 @@ GLenum
 target
 GLenum
 pname
-const
 GLint
 *
 params
@@ -4600,6 +4600,7 @@ AFTER_GL_CALL
 void
 fObjectPtrLabel
 (
+const
 GLvoid
 *
 ptr

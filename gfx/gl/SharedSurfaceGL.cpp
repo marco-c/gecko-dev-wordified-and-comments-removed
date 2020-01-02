@@ -1513,11 +1513,6 @@ MakeCurrent
 )
 return
 ;
-GLuint
-tex
-=
-mTex
-;
 mGL
 -
 >
@@ -1525,7 +1520,7 @@ fDeleteTextures
 (
 1
 &
-tex
+mTex
 )
 ;
 }
@@ -1730,11 +1725,6 @@ MakeCurrent
 )
 return
 ;
-GLuint
-tex
-=
-mTex
-;
 mGL
 -
 >
@@ -1742,7 +1732,7 @@ fDeleteTextures
 (
 1
 &
-tex
+mTex
 )
 ;
 if

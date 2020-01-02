@@ -703,10 +703,6 @@ mGL
 fDeleteTextures
 (
 1
-(
-GLuint
-*
-)
 &
 mProdTex
 )

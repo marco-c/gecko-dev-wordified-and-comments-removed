@@ -1039,6 +1039,7 @@ GLenum
 target
 GLenum
 pname
+const
 GLint
 *
 param
@@ -1139,7 +1140,6 @@ GLenum
 target
 GLenum
 pname
-const
 GLfloat
 *
 params
@@ -1160,7 +1160,6 @@ GLenum
 target
 GLenum
 pname
-const
 GLint
 *
 params
@@ -3819,6 +3818,7 @@ GLAPIENTRY
 PFNGLOBJECTPTRLABEL
 )
 (
+const
 GLvoid
 *
 ptr
@@ -3841,6 +3841,7 @@ GLAPIENTRY
 PFNGLGETOBJECTPTRLABEL
 )
 (
+const
 GLvoid
 *
 ptr
