@@ -1938,10 +1938,6 @@ installs
 '
         
 '
-pattern_installs
-'
-        
-'
 install_prefix
 '
         
@@ -2061,13 +2057,6 @@ installs
 =
 {
 }
-        
-self
-.
-pattern_installs
-=
-[
-]
         
 self
 .
