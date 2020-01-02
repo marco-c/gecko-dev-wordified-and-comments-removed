@@ -505,7 +505,6 @@ ReaderModeUtils
 getAboutReaderForUrl
 (
 url
-true
 )
 ;
 mUrlOpenListener
