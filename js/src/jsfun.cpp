@@ -5453,7 +5453,7 @@ vp
 ;
 frame
 .
-forEachCanonicalActualArg
+unaliasedForEachActual
 (
 CopyTo
 (
@@ -5694,7 +5694,7 @@ vp
 ;
 iter
 .
-forEachCanonicalActualArg
+unaliasedForEachActual
 (
 cx
 CopyTo
@@ -5877,7 +5877,7 @@ vp
 fp
 -
 >
-forEachUnaliasedActual
+unaliasedForEachActual
 (
 CopyTo
 (

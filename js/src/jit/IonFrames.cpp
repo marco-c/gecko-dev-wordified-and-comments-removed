@@ -10455,7 +10455,7 @@ nargs
 )
 )
 ;
-forEachCanonicalActualArg
+unaliasedForEachActual
 (
 GetJSContextFromJitCode
 (

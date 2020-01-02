@@ -589,7 +589,7 @@ class
 Op
 >
 void
-forEachCanonicalActualArg
+unaliasedForEachActual
 (
 Op
 op
@@ -1649,7 +1649,7 @@ class
 Op
 >
 void
-forEachCanonicalActualArg
+unaliasedForEachActual
 (
 JSContext
 *
