@@ -51931,13 +51931,10 @@ cocoa
 "
 -
 a
+-
+z
 "
-MOZ_WIDGET_TOOLKIT
-"
-!
-=
-"
-gtk2
+MOZ_WIDGET_GTK
 "
 ;
 then

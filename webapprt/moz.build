@@ -139,14 +139,9 @@ elif
 CONFIG
 [
 '
-MOZ_WIDGET_TOOLKIT
+MOZ_ENABLE_GTK
 '
 ]
-=
-=
-'
-gtk2
-'
 :
 DIRS
 +
