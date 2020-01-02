@@ -108,6 +108,8 @@ aTimestampMs
 void
 EndTouch
 (
+uint32_t
+aTimestampMs
 )
 ;
 void
@@ -356,7 +358,14 @@ mOverscroll
 ;
 nsTArray
 <
+std
+:
+:
+pair
+<
+uint32_t
 float
+>
 >
 mVelocityQueue
 ;
