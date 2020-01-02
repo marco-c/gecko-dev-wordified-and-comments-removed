@@ -63,6 +63,13 @@ h
 #
 include
 "
+nsILoadInfo
+.
+h
+"
+#
+include
+"
 nsIStreamListener
 .
 h
@@ -703,6 +710,12 @@ nsCOMPtr
 nsISupports
 >
 mOwner
+;
+nsCOMPtr
+<
+nsILoadInfo
+>
+mLoadInfo
 ;
 nsCOMPtr
 <

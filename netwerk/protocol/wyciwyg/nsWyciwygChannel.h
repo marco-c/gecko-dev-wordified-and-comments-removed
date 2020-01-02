@@ -21,6 +21,13 @@ h
 #
 include
 "
+nsILoadInfo
+.
+h
+"
+#
+include
+"
 nsIWyciwygChannel
 .
 h
@@ -270,6 +277,12 @@ nsCOMPtr
 nsISupports
 >
 mOwner
+;
+nsCOMPtr
+<
+nsILoadInfo
+>
+mLoadInfo
 ;
 nsCOMPtr
 <
