@@ -8612,7 +8612,7 @@ surf
 GetType
 (
 )
-!
+=
 =
 gfxSurfaceType
 :
