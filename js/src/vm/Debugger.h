@@ -80,6 +80,10 @@ class
 Key
 class
 Value
+bool
+InvisibleKeysOk
+=
+false
 >
 class
 DebuggerWeakMap
@@ -297,8 +301,10 @@ Base
 compartment
 )
 ;
-JS_ASSERT
+JS_ASSERT_IF
 (
+!
+InvisibleKeysOk
 !
 k
 -
@@ -899,6 +905,7 @@ DebuggerWeakMap
 <
 EncapsulatedPtrObject
 RelocatablePtrObject
+true
 >
 SourceWeakMap
 ;
