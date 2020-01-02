@@ -149,6 +149,16 @@ chrome
 ini
 '
 ]
+SPHINX_TREES
+[
+'
+toolkit_modules
+'
+]
+=
+'
+docs
+'
 EXTRA_JS_MODULES
 +
 =
