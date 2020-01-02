@@ -90,6 +90,7 @@ nestegg_track_video_params
 nestegg_tstamp_scale
 nestegg_has_cues
 nestegg_sniff
+nestegg_set_halloc_func
 #
 endif
 #
