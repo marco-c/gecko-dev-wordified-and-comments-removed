@@ -113,7 +113,7 @@ eClipboardEventClass
 eTransitionEventClass
 eAnimationEventClass
 eSVGZoomEventClass
-NS_SMIL_TIME_EVENT
+eSMILTimeEventClass
 NS_COMMAND_EVENT
 NS_CONTENT_COMMAND_EVENT
 NS_PLUGIN_EVENT

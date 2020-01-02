@@ -1358,7 +1358,7 @@ NON_IDL_EVENT
 beginEvent
 NS_SMIL_BEGIN
 EventNameType_None
-NS_SMIL_TIME_EVENT
+eSMILTimeEventClass
 )
 #
 ifndef
@@ -1377,7 +1377,7 @@ NON_IDL_EVENT
 endEvent
 NS_SMIL_END
 EventNameType_None
-NS_SMIL_TIME_EVENT
+eSMILTimeEventClass
 )
 #
 ifndef
@@ -1396,7 +1396,7 @@ NON_IDL_EVENT
 repeatEvent
 NS_SMIL_REPEAT
 EventNameType_None
-NS_SMIL_TIME_EVENT
+eSMILTimeEventClass
 )
 NON_IDL_EVENT
 (

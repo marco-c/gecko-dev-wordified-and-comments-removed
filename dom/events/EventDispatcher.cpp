@@ -3436,7 +3436,7 @@ AsSVGZoomEvent
 )
 ;
 case
-NS_SMIL_TIME_EVENT
+eSMILTimeEventClass
 :
 return
 NS_NewDOMTimeEvent
