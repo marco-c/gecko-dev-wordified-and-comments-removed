@@ -6085,6 +6085,10 @@ init
 (
 )
 ;
+Services
+.
+logins
+;
 #
 ifdef
 MOZ_CRASHREPORTER
@@ -30926,9 +30930,9 @@ bookmarkData
 =
 GetSearchFieldBookmarkData
 (
-document
+gContextMenu
 .
-popupNode
+target
 )
 ;
 PlacesUIUtils
