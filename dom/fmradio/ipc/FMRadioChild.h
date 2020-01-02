@@ -195,6 +195,15 @@ aObserver
 MOZ_OVERRIDE
 ;
 virtual
+void
+EnableAudio
+(
+bool
+aAudioEnabled
+)
+MOZ_OVERRIDE
+;
+virtual
 bool
 Recv__delete__
 (
