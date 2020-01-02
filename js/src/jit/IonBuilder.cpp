@@ -39572,6 +39572,8 @@ elements
 MConstant
 *
 index
+=
+nullptr
 ;
 for
 (
