@@ -26,6 +26,10 @@ define
 SIGSLOT_DEFAULT_MT_POLICY
 single_threaded
 #
+define
+SIGSLOT_LEAVE_OUT_MULTITHREADING
+1
+#
 if
 defined
 (
@@ -67,6 +71,9 @@ WIN32
 define
 _SIGSLOT_HAS_WIN32_THREADS
 #
+ifndef
+SIGSLOT_LEAVE_OUT_MULTITHREADING
+#
 if
 !
 defined
@@ -85,6 +92,8 @@ windows
 .
 h
 "
+#
+endif
 #
 elif
 defined
@@ -174,6 +183,9 @@ unlock
 }
 }
 ;
+#
+ifndef
+SIGSLOT_LEAVE_OUT_MULTITHREADING
 #
 ifdef
 _SIGSLOT_HAS_WIN32_THREADS
@@ -516,6 +528,8 @@ m_mutex
 ;
 }
 ;
+#
+endif
 #
 endif
 template
