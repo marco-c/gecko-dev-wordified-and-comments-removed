@@ -24164,11 +24164,7 @@ return
 false
 ;
 }
-return
-true
-;
 }
-else
 if
 (
 IsFrameForFieldSet
