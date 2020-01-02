@@ -371,6 +371,7 @@ ProfilerMarker
 ;
 public
 :
+explicit
 ProfilerMarker
 (
 const
