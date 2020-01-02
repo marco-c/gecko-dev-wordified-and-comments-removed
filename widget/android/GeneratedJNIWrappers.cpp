@@ -1731,12 +1731,12 @@ GLController
 "
 )
 ;
-jProvideEGLSurfaceWrapper
+jCreateEGLSurfaceForCompositorWrapper
 =
 getMethod
 (
 "
-provideEGLSurface
+createEGLSurfaceForCompositor
 "
 "
 (
@@ -16183,7 +16183,7 @@ jobject
 AndroidBridge
 :
 :
-ProvideEGLSurfaceWrapper
+CreateEGLSurfaceForCompositorWrapper
 (
 jobject
 aTarget
@@ -16275,7 +16275,7 @@ env
 CallObjectMethod
 (
 aTarget
-jProvideEGLSurfaceWrapper
+jCreateEGLSurfaceForCompositorWrapper
 )
 ;
 if

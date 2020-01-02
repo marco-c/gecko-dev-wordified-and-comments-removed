@@ -933,12 +933,12 @@ true
 stubName
 =
 "
-ProvideEGLSurfaceWrapper
+CreateEGLSurfaceForCompositorWrapper
 "
 )
 private
 EGLSurface
-provideEGLSurface
+createEGLSurfaceForCompositor
 (
 )
 {

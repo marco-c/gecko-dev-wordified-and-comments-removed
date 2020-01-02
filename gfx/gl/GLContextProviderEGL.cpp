@@ -761,7 +761,7 @@ Bridge
 )
 -
 >
-ProvideEGLSurface
+CreateEGLSurfaceForCompositor
 (
 )
 ;
