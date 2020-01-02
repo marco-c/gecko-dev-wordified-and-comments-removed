@@ -627,11 +627,6 @@ devicefound
 ;
 IMPL_EVENT_HANDLER
 (
-discoverystatechanged
-)
-;
-IMPL_EVENT_HANDLER
-(
 a2dpstatuschanged
 )
 ;
