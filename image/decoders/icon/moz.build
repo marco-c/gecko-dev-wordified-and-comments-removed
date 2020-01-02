@@ -108,7 +108,7 @@ XPIDL_MODULE
 '
 imgicon
 '
-SOURCES
+UNIFIED_SOURCES
 +
 =
 [
