@@ -320,13 +320,11 @@ message
 Not
 enough
 arguments
-\
-[
-mozIDOMApplicationRegistry
+to
+DOMApplicationsRegistry
 .
 install
-\
-]
+.
 "
 "
 install

@@ -64,9 +64,6 @@ domstubs
 idl
 "
 interface
-mozIDOMApplication
-;
-interface
 mozIApplication
 ;
 interface

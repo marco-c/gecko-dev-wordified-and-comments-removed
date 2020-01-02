@@ -91,9 +91,6 @@ MPL
 .
 *
 /
-interface
-mozIDOMApplication
-;
 [
 Constructor
 (
@@ -103,6 +100,7 @@ optional
 MozApplicationEventInit
 eventInitDict
 )
+ChromeOnly
 ]
 interface
 MozApplicationEvent
@@ -111,7 +109,7 @@ Event
 {
 readonly
 attribute
-mozIDOMApplication
+DOMApplication
 ?
 application
 ;
@@ -122,7 +120,7 @@ MozApplicationEventInit
 :
 EventInit
 {
-mozIDOMApplication
+DOMApplication
 ?
 application
 =
