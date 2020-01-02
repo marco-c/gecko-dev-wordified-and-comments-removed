@@ -126,7 +126,7 @@ XPIDL_MODULE
 '
 toolkitprofile
 '
-SOURCES
+UNIFIED_SOURCES
 +
 =
 [
@@ -145,7 +145,7 @@ nsProfileLock
 cpp
 '
 ]
-SOURCES
+UNIFIED_SOURCES
 +
 =
 [
