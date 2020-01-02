@@ -674,6 +674,17 @@ resize
 :
 inherit
 ;
+-
+moz
+-
+control
+-
+character
+-
+visibility
+:
+visible
+;
 }
 textarea
 >
