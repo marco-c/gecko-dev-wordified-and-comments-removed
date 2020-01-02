@@ -782,6 +782,8 @@ this
 )
 ;
 }
+protected
+:
 ~
 StackDescriptionOwner
 (
@@ -815,6 +817,8 @@ this
 )
 ;
 }
+public
+:
 NS_INLINE_DECL_CYCLE_COLLECTING_NATIVE_REFCOUNTING
 (
 StackDescriptionOwner
@@ -1029,12 +1033,6 @@ size_t
 aIndex
 )
 ;
-virtual
-~
-JSStackFrame
-(
-)
-;
 static
 already_AddRefed
 <
@@ -1078,6 +1076,12 @@ aCaller
 ;
 private
 :
+virtual
+~
+JSStackFrame
+(
+)
+;
 bool
 IsJSFrame
 (

@@ -85685,6 +85685,12 @@ self
 refcounted
 :
             
+destructorVisibility
+=
+"
+protected
+"
+            
 if
 self
 .
@@ -85790,6 +85796,12 @@ descriptor
 else
 :
             
+destructorVisibility
+=
+"
+public
+"
+            
 extradeclarations
 =
 "
@@ -85857,9 +85869,7 @@ ClassDestructor
 (
 visibility
 =
-"
-public
-"
+destructorVisibility
 )
                          
 methods
@@ -88403,7 +88413,7 @@ True
 visibility
 =
 "
-public
+protected
 "
 )
         
@@ -88418,7 +88428,17 @@ MOZ_FINAL
             
 destructor
 =
-None
+ClassDestructor
+(
+virtual
+=
+False
+visibility
+=
+"
+private
+"
+)
         
 baseConstructors
 =
