@@ -61,6 +61,12 @@ mozilla
 :
 MonitorAutoLock
 ;
+using
+mozilla
+:
+:
+TimeStamp
+;
 class
 CheckResponsivenessTask
 :
