@@ -588,7 +588,7 @@ GrallocTextureSourceOGL
 :
 SetCompositor
 (
-CompositorOGL
+Compositor
 *
 aCompositor
 )
@@ -609,7 +609,14 @@ DeallocateDeviceData
 }
 mCompositor
 =
+static_cast
+<
+CompositorOGL
+*
+>
+(
 aCompositor
+)
 ;
 }
 GLenum

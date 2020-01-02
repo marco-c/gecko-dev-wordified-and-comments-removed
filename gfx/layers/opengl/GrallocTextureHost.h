@@ -181,13 +181,15 @@ gl
 )
 const
 ;
+virtual
 void
 SetCompositor
 (
-CompositorOGL
+Compositor
 *
 aCompositor
 )
+MOZ_OVERRIDE
 ;
 void
 ForgetBuffer
