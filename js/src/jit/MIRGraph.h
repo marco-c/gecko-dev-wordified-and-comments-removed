@@ -191,14 +191,6 @@ uint32_t
 slot
 )
 ;
-void
-discardResumePoint
-(
-MResumePoint
-*
-rp
-)
-;
 enum
 ReferencesType
 {
