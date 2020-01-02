@@ -91,6 +91,9 @@ MPL
 .
 *
 /
+[
+ArrayClass
+]
 interface
 ClientRectList
 {
