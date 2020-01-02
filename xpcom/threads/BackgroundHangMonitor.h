@@ -56,6 +56,13 @@ mThread
 ;
 public
 :
+static
+const
+uint32_t
+kNoTimeout
+=
+0
+;
 class
 ThreadHangStatsIterator
 :

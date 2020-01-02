@@ -387,6 +387,14 @@ false
 )
 #
 endif
+transient_hang_timeout_
+(
+0
+)
+permanent_hang_timeout_
+(
+0
+)
 next_sequence_num_
 (
 0
