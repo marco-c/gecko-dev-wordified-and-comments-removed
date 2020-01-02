@@ -171,6 +171,16 @@ Data
 aData
 )
 ;
+virtual
+bool
+IsDataValid
+(
+const
+Data
+&
+aData
+)
+;
 protected
 :
 void
