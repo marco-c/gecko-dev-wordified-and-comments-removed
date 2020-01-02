@@ -1121,6 +1121,13 @@ SizeOfIncludingThis
 aMallocSizeOf
 )
 ;
+if
+(
+HasNode
+(
+)
+)
+{
 aUsage
 .
 mDomNode
@@ -1144,6 +1151,7 @@ NodeType
 (
 )
 ;
+}
 }
 private
 :
