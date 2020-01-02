@@ -2692,7 +2692,7 @@ isFromCache
 uint32_t
 expirationTime
 =
-nsICache
+nsICacheEntry
 :
 :
 NO_EXPIRATION_TIME
