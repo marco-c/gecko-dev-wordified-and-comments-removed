@@ -50,13 +50,6 @@ h
 #
 include
 "
-nsIDocShell
-.
-h
-"
-#
-include
-"
 nsIDocShellTreeItem
 .
 h
@@ -666,7 +659,7 @@ return
 }
 nsCOMPtr
 <
-nsIDocShell
+nsISupports
 >
 container
 ;
