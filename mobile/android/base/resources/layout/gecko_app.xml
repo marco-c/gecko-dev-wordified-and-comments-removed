@@ -491,7 +491,7 @@ layout_below
 +
 id
 /
-browser_toolbar
+browser_actionbar
 "
 android
 :
@@ -579,7 +579,6 @@ android
 id
 =
 "
-+
 id
 /
 browser_actionbar
@@ -630,6 +629,7 @@ android
 id
 =
 "
++
 id
 /
 browser_toolbar
