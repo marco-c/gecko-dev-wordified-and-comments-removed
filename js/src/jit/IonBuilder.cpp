@@ -22772,6 +22772,12 @@ getClass
 (
 )
 )
+templateObj
+-
+>
+getClass
+(
+)
 )
 ;
 slots
