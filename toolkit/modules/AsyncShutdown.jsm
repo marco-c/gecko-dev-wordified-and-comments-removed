@@ -381,7 +381,7 @@ error
 ;
 }
 function
-err
+fatalerr
 (
 msg
 error
@@ -394,6 +394,7 @@ log
 (
 msg
 "
+FATAL
 ERROR
 :
 "
@@ -2474,7 +2475,7 @@ resources
 .
 "
 ;
-err
+fatalerr
 (
 msg
 )
