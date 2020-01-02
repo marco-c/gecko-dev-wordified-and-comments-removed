@@ -93,10 +93,6 @@ test_basic
 .
 html
 \
-test_revision
-.
-html
-\
 file_app
 .
 sjs
