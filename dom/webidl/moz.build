@@ -1320,6 +1320,11 @@ PluginArray
 webidl
 '
 '
+PointerEvent
+.
+webidl
+'
+'
 Position
 .
 webidl
@@ -2556,11 +2561,6 @@ MozEmergencyCbModeEvent
 webidl
 '
 '
-MozIcc
-.
-webidl
-'
-'
 MozMobileConnectionArray
 .
 webidl
@@ -2766,11 +2766,6 @@ webidl
 '
 '
 ErrorEvent
-.
-webidl
-'
-'
-IccChangeEvent
 .
 webidl
 '
