@@ -149,7 +149,7 @@ elif
 c
 =
 =
-0x39
+0x27
 :
         
 return
