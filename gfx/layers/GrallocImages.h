@@ -51,6 +51,9 @@ class
 GrallocTextureClientOGL
 ;
 class
+IntSize
+;
+class
 GraphicBufferLocked
 {
 NS_INLINE_DECL_THREADSAFE_REFCOUNTING
@@ -130,7 +133,7 @@ GraphicBufferLocked
 >
 mGraphicBuffer
 ;
-gfxIntSize
+IntSize
 mPicSize
 ;
 }

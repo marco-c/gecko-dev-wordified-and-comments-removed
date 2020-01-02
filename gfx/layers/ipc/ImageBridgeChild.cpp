@@ -162,6 +162,17 @@ include
 "
 mozilla
 /
+gfx
+/
+Point
+.
+h
+"
+#
+include
+"
+mozilla
+/
 layers
 /
 CompositableClient
@@ -307,6 +318,13 @@ mozilla
 :
 :
 ipc
+;
+using
+namespace
+mozilla
+:
+:
+gfx
 ;
 namespace
 mozilla
@@ -1057,7 +1075,7 @@ NotifyAll
 struct
 GrallocParam
 {
-gfxIntSize
+IntSize
 size
 ;
 uint32_t
@@ -1073,7 +1091,7 @@ buffer
 GrallocParam
 (
 const
-gfxIntSize
+IntSize
 &
 aSize
 const
@@ -3016,7 +3034,7 @@ ImageBridgeChild
 AllocPGrallocBufferChild
 (
 const
-gfxIntSize
+IntSize
 &
 const
 uint32_t
@@ -3106,7 +3124,7 @@ ImageBridgeChild
 AllocSurfaceDescriptorGralloc
 (
 const
-gfxIntSize
+IntSize
 &
 aSize
 const
@@ -3212,7 +3230,7 @@ ImageBridgeChild
 AllocSurfaceDescriptorGrallocNow
 (
 const
-gfxIntSize
+IntSize
 &
 aSize
 const
@@ -4000,7 +4018,7 @@ ImageBridgeChild
 AllocGrallocBuffer
 (
 const
-gfxIntSize
+IntSize
 &
 aSize
 uint32_t

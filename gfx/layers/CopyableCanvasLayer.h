@@ -56,13 +56,6 @@ h
 #
 include
 "
-gfxPoint
-.
-h
-"
-#
-include
-"
 mozilla
 /
 Assertions
@@ -265,7 +258,10 @@ gfxImageSurface
 >
 mCachedTempSurface
 ;
-gfxIntSize
+gfx
+:
+:
+IntSize
 mCachedSize
 ;
 gfxImageFormat
@@ -276,7 +272,10 @@ gfxImageSurface
 GetTempSurface
 (
 const
-gfxIntSize
+gfx
+:
+:
+IntSize
 &
 aSize
 const

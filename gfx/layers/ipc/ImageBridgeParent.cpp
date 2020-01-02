@@ -67,7 +67,11 @@ h
 #
 include
 "
-gfxPoint
+mozilla
+/
+gfx
+/
+Point
 .
 h
 "
@@ -264,6 +268,13 @@ mozilla
 :
 :
 ipc
+;
+using
+namespace
+mozilla
+:
+:
+gfx
 ;
 namespace
 mozilla
@@ -767,7 +778,7 @@ ImageBridgeParent
 AllocPGrallocBufferParent
 (
 const
-gfxIntSize
+IntSize
 &
 aSize
 const

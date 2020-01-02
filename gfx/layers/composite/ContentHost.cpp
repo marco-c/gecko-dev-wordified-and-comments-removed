@@ -26,7 +26,11 @@ h
 #
 include
 "
-gfxPoint
+mozilla
+/
+gfx
+/
+Point
 .
 h
 "
@@ -2630,7 +2634,7 @@ rotation
 )
 )
 ;
-gfxIntSize
+IntSize
 size
 =
 aData
@@ -3137,7 +3141,7 @@ rotation
 )
 )
 ;
-gfxIntSize
+IntSize
 size
 =
 aData

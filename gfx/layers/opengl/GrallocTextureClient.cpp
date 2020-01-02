@@ -1009,13 +1009,7 @@ allocator
 >
 AllocGrallocBuffer
 (
-gfx
-:
-:
-ThebesIntSize
-(
 aSize
-)
 aAndroidFormat
 aUsage
 &

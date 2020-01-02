@@ -297,7 +297,7 @@ h
 sync
 PGrallocBuffer
 (
-gfxIntSize
+IntSize
 size
 uint32_t
 format
