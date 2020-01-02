@@ -20066,13 +20066,6 @@ clearAnalysis
 (
 )
 ;
-script
--
->
-clearPropertyReadTypes
-(
-)
-;
 }
 }
 {

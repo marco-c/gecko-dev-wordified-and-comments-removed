@@ -2987,12 +2987,6 @@ analysis
 )
 ;
 inline
-void
-clearPropertyReadTypes
-(
-)
-;
-inline
 js
 :
 :

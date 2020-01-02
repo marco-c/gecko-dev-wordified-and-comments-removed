@@ -586,9 +586,6 @@ namespace
 types
 {
 class
-TypeCallsite
-;
-class
 TypeCompartment
 ;
 class
@@ -3369,10 +3366,6 @@ bytecodeMap
 ;
 public
 :
-HeapTypeSet
-*
-propertyReadTypes
-;
 TypeSet
 *
 typeArray
