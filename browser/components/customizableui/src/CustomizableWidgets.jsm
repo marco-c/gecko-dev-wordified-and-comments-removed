@@ -255,9 +255,6 @@ description
 :
 "
 History
-repeats
-itself
-!
 "
 defaultArea
 :
