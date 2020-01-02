@@ -163,6 +163,9 @@ bool
 mShuttingDown
 ;
 bool
+mStartingUp
+;
+bool
 mAttemptingQuit
 ;
 bool
