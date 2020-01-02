@@ -1637,7 +1637,10 @@ char
 >
 bytes
 (
-TwoByteCharsToNewUTF8CharsZ
+JS
+:
+:
+CharsToNewUTF8CharsZ
 (
 cx
 inspector
