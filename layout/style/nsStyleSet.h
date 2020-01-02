@@ -1002,16 +1002,6 @@ EndReconstruct
 (
 )
 ;
-bool
-IsInRuleTreeReconstruct
-(
-)
-const
-{
-return
-mInReconstruct
-;
-}
 void
 SetQuirkStyleSheet
 (
