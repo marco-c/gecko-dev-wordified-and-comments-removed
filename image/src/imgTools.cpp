@@ -248,6 +248,9 @@ rv
 ;
 nsRefPtr
 <
+image
+:
+:
 Image
 >
 image
