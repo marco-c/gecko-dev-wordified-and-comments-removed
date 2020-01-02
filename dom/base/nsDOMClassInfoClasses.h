@@ -112,10 +112,6 @@ CSSSupportsRule
 )
 DOMCI_CLASS
 (
-SVGLength
-)
-DOMCI_CLASS
-(
 SVGNumber
 )
 DOMCI_CLASS
