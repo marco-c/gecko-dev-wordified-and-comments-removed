@@ -1918,6 +1918,10 @@ const
 nsAString
 &
 anImage
+const
+nsAString
+&
+aCookie
 )
 {
 if
@@ -2003,6 +2007,7 @@ DisplayNotification
 title
 msg
 imagePath
+aCookie
 )
 ;
 return
