@@ -3646,7 +3646,7 @@ pdfjs
 .
 firstRun
 "
-false
+true
 )
 ;
 pref

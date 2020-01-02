@@ -928,6 +928,12 @@ init
 (
 )
 ;
+PdfJs
+.
+init
+(
+)
+;
 }
 catch
 (
