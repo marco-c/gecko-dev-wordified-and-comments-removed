@@ -151,6 +151,7 @@ aNodeInfo
 ;
 public
 :
+NS_DECL_SIZEOF_EXCLUDING_THIS
 NS_IMETHOD_
 (
 bool
