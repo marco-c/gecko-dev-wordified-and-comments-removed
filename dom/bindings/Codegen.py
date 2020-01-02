@@ -38067,6 +38067,48 @@ not
 None
 :
             
+if
+(
+self
+.
+idlNode
+.
+getExtendedAttribute
+(
+"
+Cached
+"
+)
+and
+                
+self
+.
+descriptor
+.
+wrapperCache
+)
+:
+                
+preserveWrapper
+=
+"
+PreserveWrapper
+(
+self
+)
+;
+\
+n
+"
+            
+else
+:
+                
+preserveWrapper
+=
+"
+"
+            
 successCode
 =
 (
@@ -38228,6 +38270,11 @@ n
 "
                 
 "
+%
+s
+"
+                
+"
 }
 \
 n
@@ -38240,11 +38287,14 @@ true
 "
 %
                 
+(
 memberReservedSlot
 (
 self
 .
 idlNode
+)
+preserveWrapper
 )
 )
         
