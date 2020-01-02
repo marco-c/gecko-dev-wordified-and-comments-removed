@@ -3146,6 +3146,11 @@ MediaStreamEvent
 webidl
 '
 '
+MozApplicationEvent
+.
+webidl
+'
+'
 MozClirModeEvent
 .
 webidl
@@ -3172,6 +3177,11 @@ webidl
 '
 '
 MozOtaStatusEvent
+.
+webidl
+'
+'
+MozSettingsEvent
 .
 webidl
 '

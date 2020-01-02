@@ -107,9 +107,6 @@ simple_events
 =
 [
 '
-MozSettingsEvent
-'
-'
 CustomEvent
 '
 '
@@ -117,9 +114,6 @@ DOMTransactionEvent
 '
 '
 DeviceOrientationEvent
-'
-'
-MozApplicationEvent
 '
 '
 StyleRuleChangeEvent

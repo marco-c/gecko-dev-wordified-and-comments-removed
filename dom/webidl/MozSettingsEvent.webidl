@@ -100,13 +100,6 @@ optional
 MozSettingsEventInit
 eventInitDict
 )
-HeaderFile
-=
-"
-GeneratedEventClasses
-.
-h
-"
 ]
 interface
 MozSettingsEvent
@@ -119,9 +112,6 @@ DOMString
 ?
 settingName
 ;
-[
-Throws
-]
 readonly
 attribute
 any

@@ -103,13 +103,6 @@ optional
 MozApplicationEventInit
 eventInitDict
 )
-HeaderFile
-=
-"
-GeneratedEventClasses
-.
-h
-"
 ]
 interface
 MozApplicationEvent
