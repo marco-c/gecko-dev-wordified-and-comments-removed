@@ -13328,6 +13328,8 @@ int32_t
 lineNo
 JSVersion
 jsVersion
+bool
+returnStringOnly
 JS
 :
 :
