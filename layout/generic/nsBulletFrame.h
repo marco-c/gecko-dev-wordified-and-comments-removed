@@ -362,6 +362,14 @@ aImage
 )
 ;
 void
+AppendSpacingToPadding
+(
+nsFontMetrics
+*
+aFontMetrics
+)
+;
+void
 GetDesiredSize
 (
 nsPresContext
