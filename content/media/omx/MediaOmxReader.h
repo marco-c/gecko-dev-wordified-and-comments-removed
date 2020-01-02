@@ -344,6 +344,14 @@ CheckAudioOffload
 ;
 #
 endif
+private
+:
+DebugOnly
+<
+bool
+>
+mIsActive
+;
 }
 ;
 }
