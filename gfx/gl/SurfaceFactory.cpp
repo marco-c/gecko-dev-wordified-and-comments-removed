@@ -65,7 +65,10 @@ SurfaceFactory
 NewSharedSurface
 (
 const
-gfxIntSize
+gfx
+:
+:
+IntSize
 &
 size
 )
