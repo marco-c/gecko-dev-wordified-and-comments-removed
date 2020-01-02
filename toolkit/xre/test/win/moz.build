@@ -120,3 +120,11 @@ s
 in
 SIMPLE_PROGRAMS
 ]
+DEFINES
+[
+'
+NS_NO_XPCOM
+'
+]
+=
+True

@@ -62,11 +62,6 @@ win_srcdir
 AccessibleMarshal
 .
 def
-DEFINES
-+
-=
--
-DREGISTER_PROXY_DLL
 GARBAGE
 +
 =

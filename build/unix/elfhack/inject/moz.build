@@ -159,3 +159,11 @@ c
 %
 cpu
 ]
+DEFINES
+[
+'
+ELFHACK_BUILD
+'
+]
+=
+True

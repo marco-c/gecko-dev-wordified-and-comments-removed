@@ -93,3 +93,16 @@ MPL
 0
 /
 .
+DEFINES
+[
+'
+ANDROID_SDK
+'
+]
+=
+CONFIG
+[
+'
+ANDROID_SDK
+'
+]

@@ -65,16 +65,6 @@ RCINCLUDE
 HangUIDlg
 .
 rc
-DEFINES
-+
-=
-\
--
-DNS_NO_XPCOM
-\
-(
-NULL
-)
 STL_FLAGS
 =
 \

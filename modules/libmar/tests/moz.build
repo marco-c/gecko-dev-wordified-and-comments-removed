@@ -105,3 +105,16 @@ xpcshell
 ini
 '
 ]
+DEFINES
+[
+'
+BIN_SUFFIX
+'
+]
+=
+CONFIG
+[
+'
+BIN_SUFFIX
+'
+]

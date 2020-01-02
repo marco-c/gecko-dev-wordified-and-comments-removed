@@ -145,17 +145,6 @@ TK_LIBS
 NULL
 )
 endif
-DEFINES
-+
-=
--
-DLIBRARY_FILENAME
-=
-"
-(
-SHARED_LIBRARY
-)
-"
 LIB_FILES
 =
 (

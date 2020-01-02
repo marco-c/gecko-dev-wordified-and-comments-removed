@@ -110,11 +110,6 @@ config
 rules
 .
 mk
-DEFINES
-+
-=
--
-DNS_NO_XPCOM
 libs
 :
 :

@@ -118,3 +118,11 @@ FINAL_LIBRARY
 '
 xpcom_core
 '
+DEFINES
+[
+'
+MOZ_NEED_LEADING_UNDERSCORE
+'
+]
+=
+True

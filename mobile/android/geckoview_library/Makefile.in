@@ -140,15 +140,6 @@ res
 (
 NULL
 )
-DEFINES
-+
-=
--
-DANDROID_SDK
-=
-(
-ANDROID_SDK
-)
 include
 (
 topsrcdir

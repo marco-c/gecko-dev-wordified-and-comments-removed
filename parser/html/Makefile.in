@@ -88,9 +88,3 @@ src
 (
 NULL
 )
-#
-DEFINES
-+
-=
--
-DENABLE_VOID_MENUITEM

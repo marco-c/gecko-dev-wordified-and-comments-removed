@@ -141,3 +141,11 @@ c
 FORCE_SHARED_LIB
 =
 True
+DEFINES
+[
+'
+REGISTER_PROXY_DLL
+'
+]
+=
+True

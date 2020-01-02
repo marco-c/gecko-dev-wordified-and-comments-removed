@@ -135,3 +135,11 @@ config
 mozbuild
 '
 )
+DEFINES
+[
+'
+NS_NO_XPCOM
+'
+]
+=
+True

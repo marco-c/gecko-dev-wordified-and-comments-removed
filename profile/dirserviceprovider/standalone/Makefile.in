@@ -75,10 +75,5 @@ srcdir
 .
 /
 src
-DEFINES
-+
-=
--
-DXPCOM_GLUE
 STL_FLAGS
 =
