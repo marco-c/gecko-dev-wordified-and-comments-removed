@@ -1531,6 +1531,7 @@ IDX_REALFRAMEELEMENT
 IDX_LENGTH
 IDX_NAME
 IDX_UNDEFINED
+IDX_EMPTYSTRING
 IDX_TOTAL_COUNT
 }
 ;
@@ -12411,8 +12412,6 @@ JS
 :
 HandleObject
 callable
-bool
-doclone
 JS
 :
 :
@@ -12421,7 +12420,7 @@ vp
 )
 ;
 bool
-NewFunctionForwarder
+NewNonCloningFunctionForwarder
 (
 JSContext
 *
@@ -12429,10 +12428,13 @@ cx
 JS
 :
 :
+HandleId
+id
+JS
+:
+:
 HandleObject
 callable
-bool
-doclone
 JS
 :
 :

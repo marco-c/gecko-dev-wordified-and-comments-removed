@@ -12374,12 +12374,11 @@ continue
 if
 (
 !
-NewFunctionForwarder
+NewNonCloningFunctionForwarder
 (
 cx
 id
 propobj
-false
 &
 v
 )
