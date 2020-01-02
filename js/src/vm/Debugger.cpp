@@ -3224,6 +3224,7 @@ compartment
 >
 putWrapper
 (
+cx
 key
 ObjectValue
 (
@@ -3505,6 +3506,7 @@ compartment
 >
 putWrapper
 (
+cx
 key
 ObjectValue
 (
@@ -8370,7 +8372,7 @@ for
 gc
 :
 :
-GCCompartmentsIter
+GCCompartmentGroupIter
 comp
 (
 rt
@@ -14761,6 +14763,7 @@ cx
 DebuggerScript_class
 proto
 nullptr
+TenuredObject
 )
 ;
 if
@@ -14920,6 +14923,7 @@ compartment
 >
 putWrapper
 (
+cx
 key
 ObjectValue
 (
@@ -19655,6 +19659,7 @@ cx
 DebuggerSource_class
 proto
 nullptr
+TenuredObject
 )
 ;
 if
@@ -19814,6 +19819,7 @@ compartment
 >
 putWrapper
 (
+cx
 key
 ObjectValue
 (
