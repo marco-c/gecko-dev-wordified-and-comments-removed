@@ -6,7 +6,7 @@ endif
 %
 define
 tabHeight
-30px
+31px
 %
 define
 tabCurveWidth
@@ -174,7 +174,7 @@ z
 -
 index
 :
-1
+2
 ;
 }
 .
@@ -659,13 +659,6 @@ start
 :
 -
 tabCurveWidth
-;
-margin
--
-bottom
-:
--
-1px
 ;
 display
 :
