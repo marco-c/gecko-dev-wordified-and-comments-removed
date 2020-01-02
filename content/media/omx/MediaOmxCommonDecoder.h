@@ -98,10 +98,16 @@ aIsVisible
 ;
 virtual
 void
-SetCanOffloadAudio
+SetPlatformCanOffloadAudio
 (
 bool
 aCanOffloadAudio
+)
+;
+virtual
+bool
+CheckDecoderCanOffloadAudio
+(
 )
 ;
 virtual
