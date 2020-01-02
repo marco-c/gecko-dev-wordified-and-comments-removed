@@ -616,6 +616,9 @@ generateQI
 Ci
 .
 nsIDOMGlobalPropertyInitializer
+Ci
+.
+nsISupportsWeakReference
 ]
 )
 }

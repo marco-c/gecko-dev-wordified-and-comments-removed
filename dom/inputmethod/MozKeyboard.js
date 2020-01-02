@@ -2468,6 +2468,9 @@ nsIB2GInputContext
 Ci
 .
 nsIObserver
+Ci
+.
+nsISupportsWeakReference
 ]
 )
 classInfo
