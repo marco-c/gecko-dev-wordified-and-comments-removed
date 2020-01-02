@@ -204,6 +204,7 @@ long
 aDb
 )
 ;
+RobocopTarget
 public
 SQLiteBridge
 (

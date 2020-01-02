@@ -1564,6 +1564,7 @@ false
 #
 endif
 }
+RobocopTarget
 public
 static
 void
