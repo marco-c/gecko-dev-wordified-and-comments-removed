@@ -483,6 +483,9 @@ UpdateStyleAndEvents
 ElementAnimations
 *
 aEA
+mozilla
+:
+:
 TimeStamp
 aRefreshTime
 mozilla
