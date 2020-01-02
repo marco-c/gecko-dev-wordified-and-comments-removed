@@ -11357,6 +11357,8 @@ classic
 /
 aero
 /
+browser
+/
 devtools
 /
 tracer
@@ -11378,6 +11380,8 @@ skin
 classic
 /
 aero
+/
+browser
 /
 devtools
 /
