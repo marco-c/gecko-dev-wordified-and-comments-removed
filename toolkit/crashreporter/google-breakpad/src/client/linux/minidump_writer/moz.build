@@ -197,3 +197,16 @@ android
 include
 '
 ]
+include
+(
+'
+/
+toolkit
+/
+crashreporter
+/
+crashreporter
+.
+mozbuild
+'
+)

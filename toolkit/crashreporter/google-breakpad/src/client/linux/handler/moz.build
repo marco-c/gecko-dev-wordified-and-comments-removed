@@ -200,3 +200,16 @@ breakpad
 src
 '
 ]
+include
+(
+'
+/
+toolkit
+/
+crashreporter
+/
+crashreporter
+.
+mozbuild
+'
+)
