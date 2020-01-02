@@ -775,6 +775,7 @@ double
 INT64_MAX
 )
 )
+{
 return
 TimeDuration
 :
@@ -784,6 +785,7 @@ FromTicks
 INT64_MAX
 )
 ;
+}
 if
 (
 aTicks
@@ -794,6 +796,7 @@ double
 INT64_MIN
 )
 )
+{
 return
 TimeDuration
 :
@@ -803,6 +806,7 @@ FromTicks
 INT64_MIN
 )
 ;
+}
 return
 TimeDuration
 :

@@ -37,7 +37,7 @@ nsSupportsArrayEnumerator
 (
 nsISupportsArray
 *
-array
+aArray
 )
 ;
 NS_DECL_NSIENUMERATOR

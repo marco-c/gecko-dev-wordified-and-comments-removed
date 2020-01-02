@@ -80,7 +80,7 @@ NS_NewHashPropertyBag
 nsIWritablePropertyBag
 *
 *
-_retval
+aResult
 )
 ;
 #

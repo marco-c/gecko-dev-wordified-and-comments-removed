@@ -119,9 +119,11 @@ if
 !
 p
 )
+{
 return
 NS_ERROR_OUT_OF_MEMORY
 ;
+}
 nsresult
 rv
 =
@@ -140,6 +142,7 @@ NS_SUCCEEDED
 rv
 )
 )
+{
 NS_ADDREF
 (
 *
@@ -148,6 +151,7 @@ aResult
 p
 )
 ;
+}
 return
 rv
 ;
@@ -176,9 +180,11 @@ NS_WARN_IF
 aOuter
 )
 )
+{
 return
 NS_ERROR_NO_AGGREGATION
 ;
+}
 return
 QueryInterface
 (
@@ -283,9 +289,11 @@ if
 !
 strings
 )
+{
 return
 NS_ERROR_OUT_OF_MEMORY
 ;
+}
 nsresult
 rv
 =
@@ -304,6 +312,7 @@ NS_SUCCEEDED
 rv
 )
 )
+{
 rv
 =
 NS_NewAdoptingUTF8StringEnumerator
@@ -312,6 +321,7 @@ aResult
 strings
 )
 ;
+}
 if
 (
 NS_FAILED
@@ -319,9 +329,11 @@ NS_FAILED
 rv
 )
 )
+{
 delete
 strings
 ;
+}
 return
 rv
 ;
@@ -411,9 +423,11 @@ if
 !
 strings
 )
+{
 return
 NS_ERROR_OUT_OF_MEMORY
 ;
+}
 nsresult
 rv
 =
@@ -440,6 +454,7 @@ NS_SUCCEEDED
 rv
 )
 )
+{
 rv
 =
 NS_NewAdoptingUTF8StringEnumerator
@@ -448,6 +463,7 @@ aResult
 strings
 )
 ;
+}
 if
 (
 NS_FAILED
@@ -455,9 +471,11 @@ NS_FAILED
 rv
 )
 )
+{
 delete
 strings
 ;
+}
 return
 rv
 ;

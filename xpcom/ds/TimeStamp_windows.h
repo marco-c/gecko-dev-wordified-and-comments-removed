@@ -53,11 +53,11 @@ mIsNull
 TimeStampValue
 (
 uint64_t
-GTC
+aGTC
 uint64_t
-QPC
+aQPC
 bool
-hasQPC
+aHasQPC
 )
 ;
 uint64_t
@@ -78,7 +78,7 @@ TimeStampValue
 (
 _SomethingVeryRandomHere
 *
-nullValue
+aNullValue
 )
 :
 mGTC

@@ -42,7 +42,7 @@ aNames
 [
 ]
 int32_t
-Count
+aCount
 )
 ;
 int32_t
@@ -69,7 +69,7 @@ nsAFlatCString
 GetStringValue
 (
 int32_t
-index
+aIndex
 )
 ;
 nsStaticCaseInsensitiveNameTable
