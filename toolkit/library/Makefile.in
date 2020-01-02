@@ -65,6 +65,16 @@ library
 libxul
 .
 mk
+include
+(
+topsrcdir
+)
+/
+config
+/
+config
+.
+mk
 ifeq
 (
 WINNT_1
@@ -86,7 +96,7 @@ virtual
 memory
 usage
 .
-LD
+EXPAND_LIBS_EXEC
 :
 =
 (
@@ -105,7 +115,7 @@ linker
 -
 vsize
 (
-LD
+EXPAND_LIBS_EXEC
 )
 endif
 include
