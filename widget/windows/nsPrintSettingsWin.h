@@ -33,6 +33,12 @@ nsPrintSettings
 public
 nsIPrintSettingsWin
 {
+virtual
+~
+nsPrintSettingsWin
+(
+)
+;
 public
 :
 NS_DECL_ISUPPORTS_INHERITED
@@ -47,12 +53,6 @@ const
 nsPrintSettingsWin
 &
 aPS
-)
-;
-virtual
-~
-nsPrintSettingsWin
-(
 )
 ;
 virtual

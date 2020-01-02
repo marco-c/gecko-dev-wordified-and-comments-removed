@@ -261,13 +261,13 @@ MOZ_FINAL
 public
 nsIPrinterEnumerator
 {
-public
-:
+~
 nsPrinterEnumeratorWin
 (
 )
 ;
-~
+public
+:
 nsPrinterEnumeratorWin
 (
 )

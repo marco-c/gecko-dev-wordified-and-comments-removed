@@ -42,12 +42,6 @@ nsSound
 (
 )
 ;
-virtual
-~
-nsSound
-(
-)
-;
 void
 ShutdownOldPlayerThread
 (
@@ -58,6 +52,12 @@ NS_DECL_NSISOUND
 NS_DECL_NSISTREAMLOADEROBSERVER
 private
 :
+virtual
+~
+nsSound
+(
+)
+;
 void
 PurgeLastSound
 (
