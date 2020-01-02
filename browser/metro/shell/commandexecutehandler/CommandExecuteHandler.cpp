@@ -115,7 +115,7 @@ endif
 #
 define
 HEARTBEAT_MSEC
-1000
+250
 #
 define
 REQUEST_WAIT_TIMEOUT
