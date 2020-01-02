@@ -29,6 +29,12 @@ reftest
 .
 list
 include
+number
+/
+reftest
+.
+list
+include
 file
 /
 reftest

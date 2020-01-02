@@ -521,12 +521,6 @@ NS_FORM_INPUT_URL
 aType
 =
 =
-NS_FORM_INPUT_NUMBER
-|
-|
-aType
-=
-=
 NS_FORM_INPUT_DATE
 |
 |

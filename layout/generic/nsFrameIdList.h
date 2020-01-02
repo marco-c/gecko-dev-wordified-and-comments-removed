@@ -400,6 +400,10 @@ nsMeterFrame
 )
 FRAME_ID
 (
+nsNumberControlFrame
+)
+FRAME_ID
+(
 nsObjectFrame
 )
 FRAME_ID

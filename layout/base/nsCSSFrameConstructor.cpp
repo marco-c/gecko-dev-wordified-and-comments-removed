@@ -13632,7 +13632,7 @@ buttonContent
 SIMPLE_INT_CREATE
 (
 NS_FORM_INPUT_NUMBER
-NS_NewTextControlFrame
+NS_NewNumberControlFrame
 )
 SIMPLE_INT_CREATE
 (

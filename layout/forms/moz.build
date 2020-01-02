@@ -206,6 +206,11 @@ nsMeterFrame
 cpp
 '
 '
+nsNumberControlFrame
+.
+cpp
+'
+'
 nsProgressFrame
 .
 cpp
