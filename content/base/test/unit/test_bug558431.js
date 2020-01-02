@@ -805,6 +805,7 @@ mkuri
 (
 DOCUMENT_URI
 )
+false
 docChan
 csp
 )
@@ -892,6 +893,7 @@ mkuri
 (
 DOCUMENT_URI
 )
+false
 docChan
 csp
 )
