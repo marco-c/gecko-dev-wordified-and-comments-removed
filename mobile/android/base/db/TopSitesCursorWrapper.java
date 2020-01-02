@@ -1895,6 +1895,16 @@ return
 false
 ;
 }
+public
+Uri
+getNotificationUri
+(
+)
+{
+return
+null
+;
+}
 Override
 public
 void
