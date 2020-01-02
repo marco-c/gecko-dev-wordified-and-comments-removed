@@ -6076,6 +6076,18 @@ true
 pref
 (
 "
+ril
+.
+cellbroadcast
+.
+disabled
+"
+false
+)
+;
+pref
+(
+"
 b2g
 .
 neterror
@@ -6369,7 +6381,7 @@ z_effect
 "
 0
 .
-2
+5
 "
 )
 ;
@@ -6421,7 +6433,7 @@ snap_back
 mass
 "
 "
-1000
+1200
 "
 )
 ;
