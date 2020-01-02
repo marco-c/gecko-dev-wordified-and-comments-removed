@@ -68,10 +68,10 @@ tid
 )
 CreateThread
 (
-NULL
+nullptr
 0
 CrashingThread
-NULL
+nullptr
 0
 &
 tid

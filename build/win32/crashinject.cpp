@@ -112,7 +112,7 @@ if
 (
 GetModuleFileNameW
 (
-NULL
+nullptr
 filename
 sizeof
 (
@@ -150,7 +150,7 @@ if
 slash
 =
 =
-NULL
+nullptr
 )
 return
 1
@@ -191,7 +191,7 @@ if
 targetProc
 =
 =
-NULL
+nullptr
 )
 {
 fprintf
@@ -234,7 +234,7 @@ pLibRemote
 VirtualAllocEx
 (
 targetProc
-NULL
+nullptr
 sizeof
 (
 filename
@@ -248,7 +248,7 @@ if
 pLibRemote
 =
 =
-NULL
+nullptr
 )
 {
 fprintf
@@ -293,7 +293,7 @@ sizeof
 (
 filename
 )
-NULL
+nullptr
 )
 )
 {
@@ -340,7 +340,7 @@ hThread
 CreateRemoteThread
 (
 targetProc
-NULL
+nullptr
 0
 (
 LPTHREAD_START_ROUTINE
@@ -354,7 +354,7 @@ LoadLibraryW
 )
 pLibRemote
 0
-NULL
+nullptr
 )
 ;
 if
@@ -362,7 +362,7 @@ if
 hThread
 =
 =
-NULL
+nullptr
 )
 {
 fprintf
