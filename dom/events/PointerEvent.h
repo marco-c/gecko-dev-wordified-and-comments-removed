@@ -1,9 +1,9 @@
 #
 ifndef
-PointerEvent_h__
+mozilla_dom_PointerEvent_h_
 #
 define
-PointerEvent_h__
+mozilla_dom_PointerEvent_h_
 #
 include
 "
@@ -77,12 +77,6 @@ aScope
 MOZ_OVERRIDE
 {
 return
-mozilla
-:
-:
-dom
-:
-:
 PointerEventBinding
 :
 :
@@ -113,9 +107,6 @@ const
 PointerEventInit
 &
 aParam
-mozilla
-:
-:
 ErrorResult
 &
 aRv
