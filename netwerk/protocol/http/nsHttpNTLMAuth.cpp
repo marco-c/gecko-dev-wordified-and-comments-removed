@@ -1505,9 +1505,15 @@ AllowGenericNTLM
 )
 |
 |
+(
+!
+isProxyAuth
+&
+&
 AllowGenericNTLMforHTTPS
 (
 channel
+)
 )
 )
 {
