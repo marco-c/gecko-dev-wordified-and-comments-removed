@@ -3322,7 +3322,7 @@ LayerTransactionParent
 AllocPGrallocBufferParent
 (
 const
-gfxIntSize
+IntSize
 &
 aSize
 const

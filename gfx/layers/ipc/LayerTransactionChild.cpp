@@ -141,7 +141,7 @@ LayerTransactionChild
 AllocPGrallocBufferChild
 (
 const
-gfxIntSize
+IntSize
 &
 const
 uint32_t

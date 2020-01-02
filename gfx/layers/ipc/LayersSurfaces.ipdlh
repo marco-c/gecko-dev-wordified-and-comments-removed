@@ -61,15 +61,6 @@ protocol
 PGrallocBuffer
 ;
 using
-gfxIntSize
-from
-"
-nsSize
-.
-h
-"
-;
-using
 struct
 gfxPoint
 from
@@ -740,7 +731,7 @@ MemoryImage
 uintptr_t
 data
 ;
-gfxIntSize
+IntSize
 size
 ;
 uint32_t

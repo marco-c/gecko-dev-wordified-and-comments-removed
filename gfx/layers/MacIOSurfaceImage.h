@@ -99,7 +99,10 @@ GetSize
 )
 {
 return
-gfxIntSize
+gfx
+:
+:
+IntSize
 (
 mSurface
 -

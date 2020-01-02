@@ -28,13 +28,6 @@ h
 #
 include
 "
-gfxPoint
-.
-h
-"
-#
-include
-"
 mozilla
 /
 Attributes
@@ -383,7 +376,7 @@ PGrallocBufferParent
 AllocPGrallocBufferParent
 (
 const
-gfxIntSize
+IntSize
 &
 aSize
 const
