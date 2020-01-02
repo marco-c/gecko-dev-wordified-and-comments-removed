@@ -3747,6 +3747,17 @@ lazyScriptOrNull
 ;
 if
 (
+lazy
+-
+>
+hasUncompiledEnclosingScript
+(
+)
+)
+continue
+;
+if
+(
 !
 lazyFunctions
 .
