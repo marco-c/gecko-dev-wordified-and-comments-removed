@@ -9188,6 +9188,17 @@ IsDone
 )
 )
 {
+timeLog
+.
+Checkpoint
+(
+"
+MarkRoots
+(
+)
+"
+)
+;
 return
 ;
 }
