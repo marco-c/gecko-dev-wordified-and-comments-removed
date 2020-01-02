@@ -30685,12 +30685,15 @@ nsBlockFrame
 *
 block
 =
-(
+static_cast
+<
 nsBlockFrame
 *
-)
+>
+(
 FirstInFlow
 (
+)
 )
 ;
 return
