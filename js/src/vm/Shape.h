@@ -310,7 +310,7 @@ const
 uint32_t
 MIN_SIZE_LOG2
 =
-4
+2
 ;
 static
 const
