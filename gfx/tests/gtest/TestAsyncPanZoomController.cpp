@@ -8299,8 +8299,8 @@ GetTargetAPZC
 manager
 ScreenPoint
 (
-25
-25
+15
+15
 )
 transformToApzc
 transformToGecko
@@ -8333,8 +8333,8 @@ EXPECT_EQ
 (
 gfxPoint
 (
-25
-25
+15
+15
 )
 transformToApzc
 .
@@ -8342,8 +8342,8 @@ Transform
 (
 gfxPoint
 (
-25
-25
+15
+15
 )
 )
 )
@@ -8352,8 +8352,8 @@ EXPECT_EQ
 (
 gfxPoint
 (
-25
-25
+15
+15
 )
 transformToGecko
 .
@@ -8361,8 +8361,8 @@ Transform
 (
 gfxPoint
 (
-25
-25
+15
+15
 )
 )
 )
@@ -8383,7 +8383,10 @@ transformToGecko
 ;
 EXPECT_EQ
 (
-root
+layers
+[
+3
+]
 -
 >
 AsContainerLayer
