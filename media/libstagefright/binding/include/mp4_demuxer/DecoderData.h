@@ -367,9 +367,6 @@ samples_per_second
 int8_t
 frequency_index
 ;
-int8_t
-aac_profile
-;
 mozilla
 :
 :
@@ -422,6 +419,9 @@ private
 friend
 class
 MP4Demuxer
+;
+int8_t
+aac_profile
 ;
 }
 ;
