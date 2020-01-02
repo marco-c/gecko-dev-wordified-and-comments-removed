@@ -202,6 +202,17 @@ pruneEnvironments
 count
 )
 ;
+this
+.
+currentEnvironmentID
+=
+-
+1
+;
+getCurrentEnvironmentID
+(
+)
+;
 }
 public
 int
