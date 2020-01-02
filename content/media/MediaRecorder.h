@@ -18,7 +18,9 @@ h
 #
 include
 "
-nsDOMEventTargetHelper
+mozilla
+/
+DOMEventTargetHelper
 .
 h
 "
@@ -57,7 +59,7 @@ class
 MediaRecorder
 :
 public
-nsDOMEventTargetHelper
+DOMEventTargetHelper
 {
 class
 Session
@@ -119,7 +121,7 @@ NS_DECL_ISUPPORTS_INHERITED
 NS_DECL_CYCLE_COLLECTION_CLASS_INHERITED
 (
 MediaRecorder
-nsDOMEventTargetHelper
+DOMEventTargetHelper
 )
 void
 Start

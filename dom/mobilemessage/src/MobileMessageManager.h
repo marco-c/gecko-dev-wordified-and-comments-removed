@@ -7,6 +7,15 @@ mozilla_dom_mobilemessage_MobileMessageManager_h
 #
 include
 "
+mozilla
+/
+DOMEventTargetHelper
+.
+h
+"
+#
+include
+"
 nsIDOMMobileMessageManager
 .
 h
@@ -15,13 +24,6 @@ h
 include
 "
 nsIObserver
-.
-h
-"
-#
-include
-"
-nsDOMEventTargetHelper
 .
 h
 "
@@ -41,7 +43,7 @@ class
 MobileMessageManager
 :
 public
-nsDOMEventTargetHelper
+DOMEventTargetHelper
 public
 nsIDOMMozMobileMessageManager
 public
@@ -54,7 +56,7 @@ NS_DECL_NSIOBSERVER
 NS_DECL_NSIDOMMOZMOBILEMESSAGEMANAGER
 NS_REALLY_FORWARD_NSIDOMEVENTTARGET
 (
-nsDOMEventTargetHelper
+DOMEventTargetHelper
 )
 void
 Init

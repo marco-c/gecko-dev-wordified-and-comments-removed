@@ -137,11 +137,6 @@ EXPORTS
 =
 [
 '
-nsDOMEventTargetHelper
-.
-h
-'
-'
 nsDOMKeyNameList
 .
 h
@@ -175,6 +170,11 @@ mozilla
 [
 '
 AsyncEventDispatcher
+.
+h
+'
+'
+DOMEventTargetHelper
 .
 h
 '
@@ -430,6 +430,11 @@ DeviceMotionEvent
 cpp
 '
 '
+DOMEventTargetHelper
+.
+cpp
+'
+'
 DragEvent
 .
 cpp
@@ -506,11 +511,6 @@ cpp
 '
 '
 NotifyPaintEvent
-.
-cpp
-'
-'
-nsDOMEventTargetHelper
 .
 cpp
 '

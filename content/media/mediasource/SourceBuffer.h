@@ -72,6 +72,15 @@ include
 "
 mozilla
 /
+DOMEventTargetHelper
+.
+h
+"
+#
+include
+"
+mozilla
+/
 mozalloc
 .
 h
@@ -101,13 +110,6 @@ h
 include
 "
 nsCycleCollectionParticipant
-.
-h
-"
-#
-include
-"
-nsDOMEventTargetHelper
 .
 h
 "
@@ -169,7 +171,7 @@ SourceBuffer
 MOZ_FINAL
 :
 public
-nsDOMEventTargetHelper
+DOMEventTargetHelper
 {
 public
 :
@@ -322,7 +324,7 @@ NS_DECL_ISUPPORTS_INHERITED
 NS_DECL_CYCLE_COLLECTION_CLASS_INHERITED
 (
 SourceBuffer
-nsDOMEventTargetHelper
+DOMEventTargetHelper
 )
 explicit
 SourceBuffer

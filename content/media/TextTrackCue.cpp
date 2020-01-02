@@ -56,7 +56,7 @@ dom
 NS_IMPL_CYCLE_COLLECTION_INHERITED_5
 (
 TextTrackCue
-nsDOMEventTargetHelper
+DOMEventTargetHelper
 mDocument
 mTrack
 mTrackElement
@@ -66,12 +66,12 @@ mRegion
 NS_IMPL_ADDREF_INHERITED
 (
 TextTrackCue
-nsDOMEventTargetHelper
+DOMEventTargetHelper
 )
 NS_IMPL_RELEASE_INHERITED
 (
 TextTrackCue
-nsDOMEventTargetHelper
+DOMEventTargetHelper
 )
 NS_INTERFACE_MAP_BEGIN_CYCLE_COLLECTION_INHERITED
 (
@@ -79,7 +79,7 @@ TextTrackCue
 )
 NS_INTERFACE_MAP_END_INHERITING
 (
-nsDOMEventTargetHelper
+DOMEventTargetHelper
 )
 StaticRefPtr
 <

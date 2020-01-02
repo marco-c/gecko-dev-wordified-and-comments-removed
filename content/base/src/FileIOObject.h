@@ -7,7 +7,9 @@ FileIOObject_h__
 #
 include
 "
-nsDOMEventTargetHelper
+mozilla
+/
+DOMEventTargetHelper
 .
 h
 "
@@ -86,7 +88,7 @@ class
 FileIOObject
 :
 public
-nsDOMEventTargetHelper
+DOMEventTargetHelper
 public
 nsIStreamListener
 public
@@ -260,7 +262,7 @@ NS_DECL_NSIREQUESTOBSERVER
 NS_DECL_CYCLE_COLLECTION_CLASS_INHERITED
 (
 FileIOObject
-nsDOMEventTargetHelper
+DOMEventTargetHelper
 )
 protected
 :

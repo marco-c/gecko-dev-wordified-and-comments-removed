@@ -25,6 +25,15 @@ include
 "
 mozilla
 /
+DOMEventTargetHelper
+.
+h
+"
+#
+include
+"
+mozilla
+/
 dom
 /
 FileModeBinding
@@ -39,13 +48,6 @@ mozilla
 dom
 /
 TypedArray
-.
-h
-"
-#
-include
-"
-nsDOMEventTargetHelper
 .
 h
 "
@@ -98,7 +100,7 @@ class
 LockedFile
 :
 public
-nsDOMEventTargetHelper
+DOMEventTargetHelper
 public
 nsIRunnable
 {
@@ -125,7 +127,7 @@ NS_DECL_NSIRUNNABLE
 NS_DECL_CYCLE_COLLECTION_CLASS_INHERITED
 (
 LockedFile
-nsDOMEventTargetHelper
+DOMEventTargetHelper
 )
 enum
 RequestMode

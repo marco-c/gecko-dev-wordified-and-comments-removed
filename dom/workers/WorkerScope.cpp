@@ -164,6 +164,10 @@ value
 using
 namespace
 mozilla
+;
+using
+namespace
+mozilla
 :
 :
 dom
@@ -220,7 +224,7 @@ WorkerGlobalScope
 NS_IMPL_CYCLE_COLLECTION_TRAVERSE_BEGIN_INHERITED
 (
 WorkerGlobalScope
-nsDOMEventTargetHelper
+DOMEventTargetHelper
 )
 tmp
 -
@@ -236,7 +240,7 @@ NS_IMPL_CYCLE_COLLECTION_TRAVERSE_END
 NS_IMPL_CYCLE_COLLECTION_UNLINK_BEGIN_INHERITED
 (
 WorkerGlobalScope
-nsDOMEventTargetHelper
+DOMEventTargetHelper
 )
 tmp
 -
@@ -252,7 +256,7 @@ NS_IMPL_CYCLE_COLLECTION_UNLINK_END
 NS_IMPL_CYCLE_COLLECTION_TRACE_BEGIN_INHERITED
 (
 WorkerGlobalScope
-nsDOMEventTargetHelper
+DOMEventTargetHelper
 )
 tmp
 -
@@ -280,12 +284,12 @@ NS_IMPL_CYCLE_COLLECTION_TRACE_END
 NS_IMPL_ADDREF_INHERITED
 (
 WorkerGlobalScope
-nsDOMEventTargetHelper
+DOMEventTargetHelper
 )
 NS_IMPL_RELEASE_INHERITED
 (
 WorkerGlobalScope
-nsDOMEventTargetHelper
+DOMEventTargetHelper
 )
 NS_INTERFACE_MAP_BEGIN_CYCLE_COLLECTION
 (
@@ -297,7 +301,7 @@ nsIGlobalObject
 )
 NS_INTERFACE_MAP_END_INHERITING
 (
-nsDOMEventTargetHelper
+DOMEventTargetHelper
 )
 JSObject
 *

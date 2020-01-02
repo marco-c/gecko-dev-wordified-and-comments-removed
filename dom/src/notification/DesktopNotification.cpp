@@ -623,7 +623,7 @@ nsIPrincipal
 principal
 )
 :
-nsDOMEventTargetHelper
+DOMEventTargetHelper
 (
 aWindow
 )

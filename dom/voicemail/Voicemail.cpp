@@ -179,7 +179,7 @@ nsIVoicemailProvider
 aProvider
 )
 :
-nsDOMEventTargetHelper
+DOMEventTargetHelper
 (
 aWindow
 )

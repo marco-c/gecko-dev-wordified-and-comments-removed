@@ -119,7 +119,7 @@ WorkerPrivate
 aWorkerPrivate
 )
 :
-nsDOMEventTargetHelper
+DOMEventTargetHelper
 (
 aWindow
 )
@@ -714,12 +714,12 @@ nullptr
 NS_IMPL_ADDREF_INHERITED
 (
 SharedWorker
-nsDOMEventTargetHelper
+DOMEventTargetHelper
 )
 NS_IMPL_RELEASE_INHERITED
 (
 SharedWorker
-nsDOMEventTargetHelper
+DOMEventTargetHelper
 )
 NS_INTERFACE_MAP_BEGIN_CYCLE_COLLECTION_INHERITED
 (
@@ -727,7 +727,7 @@ SharedWorker
 )
 NS_INTERFACE_MAP_END_INHERITING
 (
-nsDOMEventTargetHelper
+DOMEventTargetHelper
 )
 NS_IMPL_CYCLE_COLLECTION_CLASS
 (
@@ -736,7 +736,7 @@ SharedWorker
 NS_IMPL_CYCLE_COLLECTION_TRAVERSE_BEGIN_INHERITED
 (
 SharedWorker
-nsDOMEventTargetHelper
+DOMEventTargetHelper
 )
 NS_IMPL_CYCLE_COLLECTION_TRAVERSE
 (
@@ -750,7 +750,7 @@ NS_IMPL_CYCLE_COLLECTION_TRAVERSE_END
 NS_IMPL_CYCLE_COLLECTION_UNLINK_BEGIN_INHERITED
 (
 SharedWorker
-nsDOMEventTargetHelper
+DOMEventTargetHelper
 )
 tmp
 -
@@ -861,7 +861,7 @@ NS_OK
 ;
 }
 return
-nsDOMEventTargetHelper
+DOMEventTargetHelper
 :
 :
 PreHandleEvent

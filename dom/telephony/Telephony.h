@@ -70,7 +70,7 @@ Telephony
 MOZ_FINAL
 :
 public
-nsDOMEventTargetHelper
+DOMEventTargetHelper
 {
 class
 Listener
@@ -135,12 +135,12 @@ NS_DECL_ISUPPORTS_INHERITED
 NS_DECL_NSITELEPHONYLISTENER
 NS_REALLY_FORWARD_NSIDOMEVENTTARGET
 (
-nsDOMEventTargetHelper
+DOMEventTargetHelper
 )
 NS_DECL_CYCLE_COLLECTION_CLASS_INHERITED
 (
 Telephony
-nsDOMEventTargetHelper
+DOMEventTargetHelper
 )
 nsPIDOMWindow
 *

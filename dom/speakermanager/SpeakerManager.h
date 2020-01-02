@@ -7,7 +7,9 @@ mozilla_dom_SpeakerManager_h
 #
 include
 "
-nsDOMEventTargetHelper
+mozilla
+/
+DOMEventTargetHelper
 .
 h
 "
@@ -33,7 +35,7 @@ SpeakerManager
 MOZ_FINAL
 :
 public
-nsDOMEventTargetHelper
+DOMEventTargetHelper
 public
 nsIDOMEventListener
 {

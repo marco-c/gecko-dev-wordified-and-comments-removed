@@ -35,7 +35,9 @@ h
 #
 include
 "
-nsDOMEventTargetHelper
+mozilla
+/
+DOMEventTargetHelper
 .
 h
 "
@@ -547,7 +549,10 @@ nsDOMDeviceStorage
 MOZ_FINAL
 :
 public
-nsDOMEventTargetHelper
+mozilla
+:
+:
+DOMEventTargetHelper
 public
 nsIDOMDeviceStorage
 public

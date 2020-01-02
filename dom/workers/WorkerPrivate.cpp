@@ -4286,7 +4286,7 @@ aCx
 WorkerPrivate
 *
 aWorkerPrivate
-nsDOMEventTargetHelper
+DOMEventTargetHelper
 *
 aTarget
 bool
@@ -14590,7 +14590,7 @@ WorkerPrivateParent
 <
 Derived
 >
-nsDOMEventTargetHelper
+DOMEventTargetHelper
 )
 template
 <
@@ -14603,7 +14603,7 @@ WorkerPrivateParent
 <
 Derived
 >
-nsDOMEventTargetHelper
+DOMEventTargetHelper
 )
 template
 <
@@ -14619,7 +14619,7 @@ Derived
 )
 NS_INTERFACE_MAP_END_INHERITING
 (
-nsDOMEventTargetHelper
+DOMEventTargetHelper
 )
 template
 <
@@ -14632,7 +14632,7 @@ WorkerPrivateParent
 <
 Derived
 >
-nsDOMEventTargetHelper
+DOMEventTargetHelper
 )
 tmp
 -
@@ -14674,7 +14674,7 @@ WorkerPrivateParent
 <
 Derived
 >
-nsDOMEventTargetHelper
+DOMEventTargetHelper
 )
 tmp
 -
@@ -14696,7 +14696,7 @@ WorkerPrivateParent
 <
 Derived
 >
-nsDOMEventTargetHelper
+DOMEventTargetHelper
 )
 tmp
 -

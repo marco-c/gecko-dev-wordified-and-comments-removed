@@ -1244,7 +1244,9 @@ h
 #
 include
 "
-nsDOMEventTargetHelper
+mozilla
+/
+DOMEventTargetHelper
 .
 h
 "
@@ -6221,7 +6223,7 @@ DisconnectEventTargetObjects
 (
 nsPtrHashKey
 <
-nsDOMEventTargetHelper
+DOMEventTargetHelper
 >
 *
 aKey
@@ -6232,7 +6234,7 @@ aClosure
 {
 nsRefPtr
 <
-nsDOMEventTargetHelper
+DOMEventTargetHelper
 >
 target
 =
@@ -6681,7 +6683,7 @@ nsGlobalWindow
 :
 AddEventTargetObject
 (
-nsDOMEventTargetHelper
+DOMEventTargetHelper
 *
 aObject
 )
@@ -6700,7 +6702,7 @@ nsGlobalWindow
 :
 RemoveEventTargetObject
 (
-nsDOMEventTargetHelper
+DOMEventTargetHelper
 *
 aObject
 )
@@ -53683,7 +53685,7 @@ CollectSizeAndListenerCount
 (
 nsPtrHashKey
 <
-nsDOMEventTargetHelper
+DOMEventTargetHelper
 >
 *
 aEntry
@@ -53705,7 +53707,7 @@ nsWindowSizes
 arg
 )
 ;
-nsDOMEventTargetHelper
+DOMEventTargetHelper
 *
 et
 =
@@ -53924,7 +53926,7 @@ nsTHashtable
 <
 nsPtrHashKey
 <
-nsDOMEventTargetHelper
+DOMEventTargetHelper
 >
 >
 *

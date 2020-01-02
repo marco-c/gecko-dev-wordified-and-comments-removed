@@ -40,7 +40,9 @@ h
 #
 include
 "
-nsDOMEventTargetHelper
+mozilla
+/
+DOMEventTargetHelper
 .
 h
 "
@@ -72,7 +74,7 @@ SharedWorker
 MOZ_FINAL
 :
 public
-nsDOMEventTargetHelper
+DOMEventTargetHelper
 {
 friend
 class
@@ -213,7 +215,7 @@ NS_DECL_ISUPPORTS_INHERITED
 NS_DECL_CYCLE_COLLECTION_CLASS_INHERITED
 (
 SharedWorker
-nsDOMEventTargetHelper
+DOMEventTargetHelper
 )
 IMPL_EVENT_HANDLER
 (

@@ -1174,7 +1174,7 @@ nsPIDOMWindow
 aWindow
 )
 :
-nsDOMEventTargetHelper
+DOMEventTargetHelper
 (
 aWindow
 )
@@ -1199,7 +1199,7 @@ MessagePort
 NS_IMPL_CYCLE_COLLECTION_UNLINK_BEGIN_INHERITED
 (
 MessagePort
-nsDOMEventTargetHelper
+DOMEventTargetHelper
 )
 NS_IMPL_CYCLE_COLLECTION_UNLINK
 (
@@ -1272,7 +1272,7 @@ NS_IMPL_CYCLE_COLLECTION_UNLINK_END
 NS_IMPL_CYCLE_COLLECTION_TRAVERSE_BEGIN_INHERITED
 (
 MessagePort
-nsDOMEventTargetHelper
+DOMEventTargetHelper
 )
 NS_IMPL_CYCLE_COLLECTION_TRAVERSE
 (
@@ -1351,17 +1351,17 @@ MessagePort
 )
 NS_INTERFACE_MAP_END_INHERITING
 (
-nsDOMEventTargetHelper
+DOMEventTargetHelper
 )
 NS_IMPL_ADDREF_INHERITED
 (
 MessagePort
-nsDOMEventTargetHelper
+DOMEventTargetHelper
 )
 NS_IMPL_RELEASE_INHERITED
 (
 MessagePort
-nsDOMEventTargetHelper
+DOMEventTargetHelper
 )
 MessagePort
 :

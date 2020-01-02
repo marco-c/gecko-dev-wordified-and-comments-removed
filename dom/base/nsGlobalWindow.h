@@ -385,9 +385,6 @@ class
 nsGlobalWindow
 ;
 class
-nsDOMEventTargetHelper
-;
-class
 nsDOMWindowUtils
 ;
 class
@@ -405,6 +402,9 @@ nsWindowSizes
 namespace
 mozilla
 {
+class
+DOMEventTargetHelper
+;
 class
 Selection
 ;
@@ -2415,7 +2415,10 @@ UnmarkGrayTimers
 void
 AddEventTargetObject
 (
-nsDOMEventTargetHelper
+mozilla
+:
+:
+DOMEventTargetHelper
 *
 aObject
 )
@@ -2423,7 +2426,10 @@ aObject
 void
 RemoveEventTargetObject
 (
-nsDOMEventTargetHelper
+mozilla
+:
+:
+DOMEventTargetHelper
 *
 aObject
 )
@@ -6709,7 +6715,10 @@ nsTHashtable
 <
 nsPtrHashKey
 <
-nsDOMEventTargetHelper
+mozilla
+:
+:
+DOMEventTargetHelper
 >
 >
 mEventTargetObjects

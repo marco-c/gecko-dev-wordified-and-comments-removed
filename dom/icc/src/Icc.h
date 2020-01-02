@@ -7,7 +7,9 @@ mozilla_dom_Icc_h
 #
 include
 "
-nsDOMEventTargetHelper
+mozilla
+/
+DOMEventTargetHelper
 .
 h
 "
@@ -29,13 +31,13 @@ Icc
 MOZ_FINAL
 :
 public
-nsDOMEventTargetHelper
+DOMEventTargetHelper
 {
 public
 :
 NS_REALLY_FORWARD_NSIDOMEVENTTARGET
 (
-nsDOMEventTargetHelper
+DOMEventTargetHelper
 )
 Icc
 (

@@ -126,7 +126,9 @@ h
 #
 include
 "
-nsDOMEventTargetHelper
+mozilla
+/
+DOMEventTargetHelper
 .
 h
 "
@@ -157,7 +159,10 @@ class
 nsDOMOfflineResourceList
 :
 public
-nsDOMEventTargetHelper
+mozilla
+:
+:
+DOMEventTargetHelper
 public
 nsIDOMOfflineResourceList
 public
@@ -183,7 +188,10 @@ NS_DECL_NSIOFFLINECACHEUPDATEOBSERVER
 NS_DECL_CYCLE_COLLECTION_CLASS_INHERITED
 (
 nsDOMOfflineResourceList
-nsDOMEventTargetHelper
+mozilla
+:
+:
+DOMEventTargetHelper
 )
 nsDOMOfflineResourceList
 (

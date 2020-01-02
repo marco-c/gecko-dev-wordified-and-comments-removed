@@ -43,6 +43,15 @@ include
 "
 mozilla
 /
+DOMEventTargetHelper
+.
+h
+"
+#
+include
+"
+mozilla
+/
 dom
 /
 MediaSourceBinding
@@ -74,13 +83,6 @@ h
 include
 "
 nsCycleCollectionParticipant
-.
-h
-"
-#
-include
-"
-nsDOMEventTargetHelper
 .
 h
 "
@@ -173,7 +175,7 @@ MediaSource
 MOZ_FINAL
 :
 public
-nsDOMEventTargetHelper
+DOMEventTargetHelper
 {
 public
 :
@@ -283,7 +285,7 @@ NS_DECL_ISUPPORTS_INHERITED
 NS_DECL_CYCLE_COLLECTION_CLASS_INHERITED
 (
 MediaSource
-nsDOMEventTargetHelper
+DOMEventTargetHelper
 )
 NS_DECLARE_STATIC_IID_ACCESSOR
 (

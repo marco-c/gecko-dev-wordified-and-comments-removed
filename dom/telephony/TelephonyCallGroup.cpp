@@ -71,7 +71,7 @@ nsPIDOMWindow
 aOwner
 )
 :
-nsDOMEventTargetHelper
+DOMEventTargetHelper
 (
 aOwner
 )
@@ -995,7 +995,7 @@ TelephonyCallGroup
 NS_IMPL_CYCLE_COLLECTION_TRAVERSE_BEGIN_INHERITED
 (
 TelephonyCallGroup
-nsDOMEventTargetHelper
+DOMEventTargetHelper
 )
 NS_IMPL_CYCLE_COLLECTION_TRAVERSE
 (
@@ -1013,7 +1013,7 @@ NS_IMPL_CYCLE_COLLECTION_TRAVERSE_END
 NS_IMPL_CYCLE_COLLECTION_UNLINK_BEGIN_INHERITED
 (
 TelephonyCallGroup
-nsDOMEventTargetHelper
+DOMEventTargetHelper
 )
 NS_IMPL_CYCLE_COLLECTION_UNLINK
 (
@@ -1034,17 +1034,17 @@ TelephonyCallGroup
 )
 NS_INTERFACE_MAP_END_INHERITING
 (
-nsDOMEventTargetHelper
+DOMEventTargetHelper
 )
 NS_IMPL_ADDREF_INHERITED
 (
 TelephonyCallGroup
-nsDOMEventTargetHelper
+DOMEventTargetHelper
 )
 NS_IMPL_RELEASE_INHERITED
 (
 TelephonyCallGroup
-nsDOMEventTargetHelper
+DOMEventTargetHelper
 )
 already_AddRefed
 <
