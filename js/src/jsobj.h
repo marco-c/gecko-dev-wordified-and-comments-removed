@@ -2450,14 +2450,6 @@ return
 true
 ;
 }
-static
-uint32_t
-goodAllocated
-(
-uint32_t
-count
-)
-;
 bool
 growElements
 (
