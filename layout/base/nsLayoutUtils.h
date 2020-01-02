@@ -3060,6 +3060,12 @@ UnsetValueEnabled
 )
 ;
 static
+bool
+IsTextAlignTrueValueEnabled
+(
+)
+;
+static
 void
 UnionChildOverflow
 (

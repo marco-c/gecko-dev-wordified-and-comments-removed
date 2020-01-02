@@ -2427,14 +2427,12 @@ kTableLayoutKTable
 ]
 ;
 static
-const
 int32_t
 kTextAlignKTable
 [
 ]
 ;
 static
-const
 int32_t
 kTextAlignLastKTable
 [
