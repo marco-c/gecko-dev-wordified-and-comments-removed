@@ -371,6 +371,11 @@ DOMRect
 h
 '
 '
+DOMStringList
+.
+h
+'
+'
 EventSource
 .
 h
@@ -447,6 +452,11 @@ cpp
 '
 '
 DOMRect
+.
+cpp
+'
+'
+DOMStringList
 .
 cpp
 '
@@ -582,11 +592,6 @@ cpp
 '
 '
 nsDOMFileReader
-.
-cpp
-'
-'
-nsDOMLists
 .
 cpp
 '

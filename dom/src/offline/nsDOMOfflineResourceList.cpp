@@ -22,7 +22,11 @@ h
 #
 include
 "
-nsDOMLists
+mozilla
+/
+dom
+/
+DOMStringList
 .
 h
 "
@@ -757,12 +761,12 @@ nullptr
 ;
 nsRefPtr
 <
-nsDOMStringList
+DOMStringList
 >
 items
 =
 new
-nsDOMStringList
+DOMStringList
 (
 )
 ;

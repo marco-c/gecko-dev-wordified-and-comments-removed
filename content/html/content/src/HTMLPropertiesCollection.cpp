@@ -2022,7 +2022,7 @@ HTMLPropertiesCollection
 aCollection
 )
 :
-nsDOMStringList
+DOMStringList
 (
 )
 mCollection
@@ -2082,7 +2082,7 @@ EnsureFresh
 )
 ;
 return
-nsDOMStringList
+DOMStringList
 :
 :
 Item
@@ -2111,7 +2111,7 @@ EnsureFresh
 )
 ;
 return
-nsDOMStringList
+DOMStringList
 :
 :
 GetLength
@@ -2143,7 +2143,7 @@ EnsureFresh
 )
 ;
 return
-nsDOMStringList
+DOMStringList
 :
 :
 Contains
@@ -2168,7 +2168,7 @@ aString
 bool
 result
 ;
-nsDOMStringList
+DOMStringList
 :
 :
 Contains

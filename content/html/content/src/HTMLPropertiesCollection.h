@@ -16,7 +16,11 @@ h
 #
 include
 "
-nsDOMLists
+mozilla
+/
+dom
+/
+DOMStringList
 .
 h
 "
@@ -122,7 +126,7 @@ class
 PropertyStringList
 :
 public
-nsDOMStringList
+DOMStringList
 {
 public
 :
@@ -326,7 +330,7 @@ aName
 nullptr
 ;
 }
-nsDOMStringList
+DOMStringList
 *
 Names
 (

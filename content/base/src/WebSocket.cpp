@@ -226,7 +226,11 @@ h
 #
 include
 "
-nsDOMLists
+mozilla
+/
+dom
+/
+DOMStringList
 .
 h
 "
