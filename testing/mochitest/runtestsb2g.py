@@ -1129,6 +1129,15 @@ env
 )
             
 if
+mozinfo
+.
+info
+[
+'
+debug
+'
+]
+and
 '
 MOZ_DISABLE_NONLOCAL_CONNECTIONS
 '
