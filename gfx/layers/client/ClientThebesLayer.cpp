@@ -255,7 +255,7 @@ CompositorMightResample
 flags
 |
 =
-ThebesLayerBuffer
+RotatedContentBuffer
 :
 :
 PAINT_WILL_RESAMPLE
@@ -267,7 +267,7 @@ if
 (
 flags
 &
-ThebesLayerBuffer
+RotatedContentBuffer
 :
 :
 PAINT_WILL_RESAMPLE
@@ -284,7 +284,7 @@ MayResample
 flags
 |
 =
-ThebesLayerBuffer
+RotatedContentBuffer
 :
 :
 PAINT_WILL_RESAMPLE

@@ -14,7 +14,7 @@ h
 #
 include
 "
-ThebesLayerBuffer
+RotatedBuffer
 .
 h
 "
@@ -130,14 +130,14 @@ BasicImplData
 public
 :
 typedef
-ThebesLayerBuffer
+RotatedContentBuffer
 :
 :
 PaintState
 PaintState
 ;
 typedef
-ThebesLayerBuffer
+RotatedContentBuffer
 :
 :
 ContentType

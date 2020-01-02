@@ -1638,7 +1638,7 @@ RenderTrace
 cpp
 '
 '
-ThebesLayerBuffer
+RotatedBuffer
 .
 cpp
 '

@@ -37,7 +37,7 @@ h
 #
 include
 "
-ThebesLayerBuffer
+RotatedBuffer
 .
 h
 "
@@ -339,14 +339,14 @@ ContentHost
 public
 :
 typedef
-ThebesLayerBuffer
+RotatedContentBuffer
 :
 :
 ContentType
 ContentType
 ;
 typedef
-ThebesLayerBuffer
+RotatedContentBuffer
 :
 :
 PaintState

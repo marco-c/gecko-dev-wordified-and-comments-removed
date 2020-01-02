@@ -21,7 +21,7 @@ h
 #
 include
 "
-ThebesLayerBuffer
+RotatedBuffer
 .
 h
 "
@@ -124,14 +124,14 @@ ClientLayer
 public
 :
 typedef
-ThebesLayerBuffer
+RotatedContentBuffer
 :
 :
 PaintState
 PaintState
 ;
 typedef
-ThebesLayerBuffer
+RotatedContentBuffer
 :
 :
 ContentType

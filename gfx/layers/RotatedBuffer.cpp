@@ -1,7 +1,7 @@
 #
 include
 "
-ThebesLayerBuffer
+RotatedBuffer
 .
 h
 "
@@ -868,7 +868,7 @@ aMaskTransform
 ;
 }
 bool
-ThebesLayerBuffer
+RotatedContentBuffer
 :
 :
 IsClippingCheap
@@ -907,7 +907,7 @@ GetNumRects
 ;
 }
 void
-ThebesLayerBuffer
+RotatedContentBuffer
 :
 :
 DrawTo
@@ -1142,7 +1142,7 @@ already_AddRefed
 <
 gfxContext
 >
-ThebesLayerBuffer
+RotatedContentBuffer
 :
 :
 GetContextForQuadrantUpdate
@@ -1401,7 +1401,7 @@ forget
 ;
 }
 gfxContentType
-ThebesLayerBuffer
+RotatedContentBuffer
 :
 :
 BufferContentType
@@ -1464,7 +1464,7 @@ GFX_CONTENT_SENTINEL
 ;
 }
 bool
-ThebesLayerBuffer
+RotatedContentBuffer
 :
 :
 BufferSizeOkFor
@@ -1506,7 +1506,7 @@ Size
 ;
 }
 bool
-ThebesLayerBuffer
+RotatedContentBuffer
 :
 :
 EnsureBuffer
@@ -1548,7 +1548,7 @@ mDTBuffer
 ;
 }
 bool
-ThebesLayerBuffer
+RotatedContentBuffer
 :
 :
 EnsureBufferOnWhite
@@ -1588,7 +1588,7 @@ mDTBufferOnWhite
 ;
 }
 bool
-ThebesLayerBuffer
+RotatedContentBuffer
 :
 :
 HaveBuffer
@@ -1604,7 +1604,7 @@ mBufferProvider
 ;
 }
 bool
-ThebesLayerBuffer
+RotatedContentBuffer
 :
 :
 HaveBufferOnWhite
@@ -1728,11 +1728,11 @@ return
 rect
 ;
 }
-ThebesLayerBuffer
+RotatedContentBuffer
 :
 :
 PaintState
-ThebesLayerBuffer
+RotatedContentBuffer
 :
 :
 BeginPaint
