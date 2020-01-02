@@ -2287,6 +2287,13 @@ VCM_CODEC_RESOURCE_H264
 ;
 }
 #
+else
+codecMask
+|
+=
+VCM_CODEC_RESOURCE_H264
+;
+#
 endif
 codecMask
 |
