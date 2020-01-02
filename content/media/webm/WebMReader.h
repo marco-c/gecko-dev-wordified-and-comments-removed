@@ -603,7 +603,7 @@ nestegg
 mContext
 ;
 vpx_codec_ctx_t
-mVP8
+mVPX
 ;
 vorbis_info
 mVorbisInfo
@@ -682,6 +682,9 @@ mHasAudio
 ;
 int
 mAudioCodec
+;
+int
+mVideoCodec
 ;
 }
 ;
