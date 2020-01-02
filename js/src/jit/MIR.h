@@ -39189,7 +39189,7 @@ PropertyName
 name
 )
 ;
-bool
+void
 AddObjectsForPropertyRead
 (
 MDefinition
