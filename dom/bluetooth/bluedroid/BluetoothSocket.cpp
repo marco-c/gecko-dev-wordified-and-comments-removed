@@ -44,14 +44,14 @@ h
 #
 include
 "
-BluetoothServiceBluedroid
+BluetoothSocketObserver
 .
 h
 "
 #
 include
 "
-BluetoothSocketObserver
+BluetoothUtils
 .
 h
 "
