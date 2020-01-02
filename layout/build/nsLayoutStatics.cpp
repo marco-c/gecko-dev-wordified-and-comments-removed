@@ -284,7 +284,7 @@ h
 #
 include
 "
-nsTextFrameTextRunCache
+nsTextFrame
 .
 h
 "

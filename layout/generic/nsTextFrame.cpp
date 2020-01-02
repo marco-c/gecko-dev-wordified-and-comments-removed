@@ -249,13 +249,6 @@ h
 #
 include
 "
-nsTextFrameTextRunCache
-.
-h
-"
-#
-include
-"
 nsExpirationTracker
 .
 h
