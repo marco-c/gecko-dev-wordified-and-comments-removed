@@ -186,6 +186,11 @@ mMappedSize
 0
 )
 {
+MOZ_COUNT_CTOR
+(
+SharedMemory
+)
+;
 static
 Atomic
 <
