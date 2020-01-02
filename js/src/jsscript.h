@@ -8097,9 +8097,7 @@ DescribeScriptedCallerForCompilation
 JSContext
 *
 cx
-JSScript
-*
-*
+MutableHandleScript
 maybeScript
 const
 char

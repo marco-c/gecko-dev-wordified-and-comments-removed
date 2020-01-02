@@ -1589,9 +1589,11 @@ foundScript
 )
 )
 {
-JSScript
-*
+RootedScript
 maybeScript
+(
+cx
+)
 ;
 unsigned
 lineno
@@ -2019,9 +2021,11 @@ foundScript
 )
 )
 {
-JSScript
-*
+RootedScript
 maybeScript
+(
+cx
+)
 ;
 const
 char
