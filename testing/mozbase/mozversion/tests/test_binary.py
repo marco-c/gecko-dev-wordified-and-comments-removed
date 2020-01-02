@@ -46,6 +46,9 @@ App
 Name
 =
 AppName
+CodeName
+=
+AppCodeName
 Version
 =
 AppVersion
@@ -436,6 +439,23 @@ application_name
 )
 '
 AppName
+'
+)
+        
+self
+.
+assertEqual
+(
+version
+.
+get
+(
+'
+application_code_name
+'
+)
+'
+AppCodeName
 '
 )
         
