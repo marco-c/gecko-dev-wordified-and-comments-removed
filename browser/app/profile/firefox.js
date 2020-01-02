@@ -13568,9 +13568,9 @@ https
 /
 tiles
 .
-up
+services
 .
-mozillalabs
+mozilla
 .
 com
 /
@@ -13600,9 +13600,9 @@ https
 /
 tiles
 .
-up
+services
 .
-mozillalabs
+mozilla
 .
 com
 /
