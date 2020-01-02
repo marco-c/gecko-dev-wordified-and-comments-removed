@@ -709,6 +709,15 @@ dom
 Element
 *
 aElement
+mozilla
+:
+:
+dom
+:
+:
+Element
+*
+aElementOrPseudoElement
 )
 ;
 bool
