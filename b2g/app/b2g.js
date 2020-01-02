@@ -6486,9 +6486,6 @@ enabled
 false
 )
 ;
-#
-ifdef
-MOZ_SERVICES_FXACCOUNTS
 pref
 (
 "
@@ -6515,8 +6512,6 @@ enabled
 true
 )
 ;
-#
-endif
 pref
 (
 "

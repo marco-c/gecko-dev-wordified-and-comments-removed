@@ -4857,9 +4857,6 @@ SimulatorScreen
 js
 #
 endif
-#
-ifdef
-MOZ_SERVICES_FXACCOUNTS
 BINPATH
 /
 components
@@ -4874,8 +4871,6 @@ components
 services_fxaccounts
 .
 xpt
-#
-endif
 BINPATH
 /
 components

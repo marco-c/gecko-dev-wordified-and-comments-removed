@@ -221,12 +221,6 @@ MOZ_SERVICES_HEALTHREPORT
 =
 1
 #
-Enable
-FirefoxAccounts
-MOZ_SERVICES_FXACCOUNTS
-=
-1
-#
 Wifi
 -
 AP
