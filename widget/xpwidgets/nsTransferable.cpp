@@ -1821,12 +1821,7 @@ MOZ_ASSERT
 mInitialized
 )
 ;
-uint32_t
-idx
-;
-if
-(
-(
+size_t
 idx
 =
 GetDataForFlavor
@@ -1834,7 +1829,10 @@ GetDataForFlavor
 mDataArray
 aDataFlavor
 )
-)
+;
+if
+(
+idx
 !
 =
 mDataArray
