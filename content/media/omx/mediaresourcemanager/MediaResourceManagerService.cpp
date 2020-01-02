@@ -188,6 +188,15 @@ who
 NULL
 )
 {
+Mutex
+:
+:
+Autolock
+autoLock
+(
+mLock
+)
+;
 sp
 <
 IBinder
