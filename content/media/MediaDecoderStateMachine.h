@@ -574,6 +574,11 @@ nullptr
 ;
 }
 void
+SetSyncPointForMediaStream
+(
+)
+;
+void
 NotifyAudioAvailableListener
 (
 )
@@ -1054,6 +1059,12 @@ mTimeout
 ;
 TimeStamp
 mPlayStartTime
+;
+StreamTime
+mSyncPointInMediaStream
+;
+int64_t
+mSyncPointInDecodedStream
 ;
 bool
 mResetPlayStartTime
