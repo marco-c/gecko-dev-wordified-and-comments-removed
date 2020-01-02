@@ -95,9 +95,6 @@ class
 gfxContext
 ;
 class
-gfxPath
-;
-class
 nsSVGPathDataParser
 ;
 struct
