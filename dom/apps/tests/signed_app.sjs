@@ -794,7 +794,6 @@ res
 readFile
 (
 templatePath
-false
 )
 .
 replace
