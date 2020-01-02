@@ -2086,6 +2086,9 @@ id
 device
 "
 ;
+#
+ifdef
+MOZ_B2G_RIL
 if
 (
 this
@@ -2139,6 +2142,8 @@ network
 serviceId
 ;
 }
+#
+endif
 return
 id
 +
