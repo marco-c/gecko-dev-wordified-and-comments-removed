@@ -949,12 +949,12 @@ RefPtr
 <
 CompositingRenderTarget
 >
-PushGroup
+PushGroupForLayerEffects
 (
 )
 ;
 void
-PopGroup
+PopGroupForLayerEffects
 (
 RefPtr
 <
@@ -963,6 +963,12 @@ CompositingRenderTarget
 aPreviousTarget
 nsIntRect
 aClipRect
+bool
+aGrayscaleEffect
+bool
+aInvertEffect
+float
+aContrastEffect
 )
 ;
 RefPtr
