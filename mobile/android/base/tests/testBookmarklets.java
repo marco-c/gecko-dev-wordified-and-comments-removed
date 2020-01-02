@@ -14,7 +14,7 @@ mozilla
 .
 gecko
 .
-*
+Actions
 ;
 import
 android

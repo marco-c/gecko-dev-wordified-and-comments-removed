@@ -14,7 +14,7 @@ mozilla
 .
 gecko
 .
-*
+Actions
 ;
 import
 org
@@ -26,13 +26,6 @@ gecko
 util
 .
 Clipboard
-;
-import
-android
-.
-content
-.
-ContentResolver
 ;
 import
 android

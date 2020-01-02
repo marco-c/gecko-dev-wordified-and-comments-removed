@@ -8,7 +8,6 @@ gecko
 tests
 ;
 import
-static
 org
 .
 mozilla
@@ -19,9 +18,7 @@ tests
 .
 helpers
 .
-AssertionHelper
-.
-*
+GeckoHelper
 ;
 import
 org
@@ -34,7 +31,7 @@ tests
 .
 helpers
 .
-*
+NavigationHelper
 ;
 public
 class

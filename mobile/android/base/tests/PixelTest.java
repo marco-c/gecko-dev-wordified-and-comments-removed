@@ -14,7 +14,16 @@ mozilla
 .
 gecko
 .
-*
+Actions
+;
+import
+org
+.
+mozilla
+.
+gecko
+.
+PaintedSurface
 ;
 abstract
 class

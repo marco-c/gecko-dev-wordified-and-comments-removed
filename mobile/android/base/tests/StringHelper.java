@@ -7,15 +7,6 @@ gecko
 .
 tests
 ;
-import
-org
-.
-mozilla
-.
-gecko
-.
-*
-;
 public
 class
 StringHelper

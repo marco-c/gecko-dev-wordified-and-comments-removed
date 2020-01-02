@@ -8,15 +8,6 @@ gecko
 tests
 ;
 import
-org
-.
-mozilla
-.
-gecko
-.
-*
-;
-import
 android
 .
 content

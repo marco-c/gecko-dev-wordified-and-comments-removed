@@ -6,13 +6,6 @@ mozilla
 gecko
 ;
 import
-android
-.
-app
-.
-Activity
-;
-import
 java
 .
 util
@@ -29,6 +22,13 @@ util
 concurrent
 .
 TimeUnit
+;
+import
+android
+.
+app
+.
+Activity
 ;
 public
 final

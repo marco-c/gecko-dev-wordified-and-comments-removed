@@ -12,14 +12,14 @@ android
 .
 content
 .
-ContentValues
+ContentUris
 ;
 import
 android
 .
 content
 .
-ContentUris
+ContentValues
 ;
 import
 android

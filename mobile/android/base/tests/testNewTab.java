@@ -14,7 +14,16 @@ mozilla
 .
 gecko
 .
-*
+Element
+;
+import
+org
+.
+mozilla
+.
+gecko
+.
+R
 ;
 import
 android

@@ -14,7 +14,7 @@ mozilla
 .
 gecko
 .
-*
+Actions
 ;
 public
 class
