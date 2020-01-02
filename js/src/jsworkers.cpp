@@ -1904,6 +1904,18 @@ CONSUMER
 ;
 }
 }
+#
+ifdef
+XP_WIN
+static
+const
+uint32_t
+WORKER_STACK_SIZE
+=
+0
+;
+#
+else
 static
 const
 uint32_t
@@ -1913,6 +1925,8 @@ WORKER_STACK_SIZE
 *
 1024
 ;
+#
+endif
 static
 const
 uint32_t
