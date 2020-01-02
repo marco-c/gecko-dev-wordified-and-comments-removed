@@ -8804,11 +8804,11 @@ compilation
 time
 %
 dms
-%
-s
-%
-s
 ;
+%
+s
+%
+s
 "
 msTotal
 storedInCache
