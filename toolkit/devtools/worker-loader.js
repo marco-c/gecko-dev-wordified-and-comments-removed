@@ -330,13 +330,6 @@ chromeWhitelist
 "
 devtools
 /
-server
-/
-main
-"
-"
-devtools
-/
 toolkit
 /
 transport
