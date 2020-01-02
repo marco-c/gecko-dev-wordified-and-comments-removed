@@ -2911,7 +2911,7 @@ status
 =
 nsEventStatus_eIgnore
 ;
-nsClipboardEvent
+InternalClipboardEvent
 evt
 (
 true
