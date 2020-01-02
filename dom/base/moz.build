@@ -851,9 +851,13 @@ src
 '
 '
 /
-dom
+content
 /
 xul
+/
+document
+/
+src
 '
 '
 /
