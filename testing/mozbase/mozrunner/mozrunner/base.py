@@ -828,9 +828,16 @@ self
 dump_directory
 =
 None
+dump_save_path
+=
+None
+                          
 test_name
 =
 None
+quiet
+=
+False
 )
 :
         
@@ -860,6 +867,18 @@ files
         
 :
 param
+dump_save_path
+:
+Directory
+to
+save
+the
+minidump
+files
+to
+        
+:
+param
 test_name
 :
 Name
@@ -869,6 +888,24 @@ in
 the
 crash
 output
+        
+:
+param
+quiet
+:
+If
+True
+don
+'
+t
+print
+the
+PROCESS
+-
+CRASH
+message
+to
+stdout
         
 "
 "
@@ -916,9 +953,17 @@ self
 .
 symbols_path
                                                  
+dump_save_path
+=
+dump_save_path
+                                                 
 test_name
 =
 test_name
+                                                 
+quiet
+=
+quiet
 )
         
 except
