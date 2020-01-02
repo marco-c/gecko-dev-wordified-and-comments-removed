@@ -7763,8 +7763,9 @@ aDefer
 true
 ;
 return
-GetOrCreateListenerManager
+GetListenerManager
 (
+true
 )
 ;
 }

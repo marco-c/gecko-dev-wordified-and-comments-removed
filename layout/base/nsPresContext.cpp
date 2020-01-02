@@ -9082,8 +9082,9 @@ manager
 parentTarget
 -
 >
-GetExistingListenerManager
+GetListenerManager
 (
+false
 )
 )
 &
@@ -9238,8 +9239,9 @@ manager
 tabChildGlobal
 -
 >
-GetExistingListenerManager
+GetListenerManager
 (
+false
 )
 )
 &

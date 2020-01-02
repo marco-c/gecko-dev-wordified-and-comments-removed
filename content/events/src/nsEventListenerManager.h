@@ -1979,8 +1979,9 @@ listenerManager
 aTarget
 -
 >
-GetOrCreateListenerManager
+GetListenerManager
 (
+true
 )
 ;
 NS_ENSURE_STATE
