@@ -309,11 +309,6 @@ dom
 =
 [
 '
-DOMMobileMessageError
-.
-h
-'
-'
 MmsMessage
 .
 h
@@ -345,11 +340,6 @@ UNIFIED_SOURCES
 [
 '
 Constants
-.
-cpp
-'
-'
-DOMMobileMessageError
 .
 cpp
 '

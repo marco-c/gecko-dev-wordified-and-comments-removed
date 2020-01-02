@@ -490,11 +490,6 @@ DOMImplementation
 webidl
 '
 '
-DOMMobileMessageError
-.
-webidl
-'
-'
 DOMParser
 .
 webidl
