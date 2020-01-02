@@ -768,7 +768,7 @@ getType
 =
 PanelType
 .
-LIST
+DYNAMIC
 )
 {
 args

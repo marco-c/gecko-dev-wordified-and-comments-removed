@@ -196,7 +196,7 @@ EnumSet
 ;
 public
 class
-ListPanel
+DynamicPanel
 extends
 HomeFragment
 {
@@ -207,7 +207,7 @@ String
 LOGTAG
 =
 "
-GeckoListPanel
+GeckoDynamicPanel
 "
 ;
 private
@@ -374,7 +374,7 @@ Can
 t
 create
 a
-ListPanel
+DynamicPanel
 without
 a
 PanelConfig

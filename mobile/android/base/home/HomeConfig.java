@@ -96,12 +96,12 @@ ReadingListPanel
 .
 class
 )
-LIST
+DYNAMIC
 (
 "
-list
+dynamic
 "
-ListPanel
+DynamicPanel
 .
 class
 )

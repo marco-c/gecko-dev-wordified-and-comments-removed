@@ -1482,6 +1482,13 @@ java
 '
 home
 /
+DynamicPanel
+.
+java
+'
+'
+home
+/
 FadedTextView
 .
 java
@@ -1560,13 +1567,6 @@ java
 home
 /
 LastTabsPanel
-.
-java
-'
-'
-home
-/
-ListPanel
 .
 java
 '
