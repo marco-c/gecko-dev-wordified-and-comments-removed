@@ -106,6 +106,10 @@ MOZ_FINAL
 public
 nsIDOMSVGLength
 {
+friend
+class
+AutoChangeLengthNotifier
+;
 public
 :
 NS_DECLARE_STATIC_IID_ACCESSOR

@@ -93,6 +93,10 @@ MOZ_FINAL
 public
 nsIDOMSVGNumber
 {
+friend
+class
+AutoChangeNumberNotifier
+;
 public
 :
 NS_DECLARE_STATIC_IID_ACCESSOR

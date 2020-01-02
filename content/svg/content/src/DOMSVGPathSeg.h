@@ -350,6 +350,10 @@ DOMSVGPathSeg
 public
 nsWrapperCache
 {
+friend
+class
+AutoChangePathSegNotifier
+;
 public
 :
 NS_INLINE_DECL_CYCLE_COLLECTING_NATIVE_REFCOUNTING
