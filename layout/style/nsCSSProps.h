@@ -2542,6 +2542,13 @@ kTextTransformKTable
 static
 const
 int32_t
+kTouchActionKTable
+[
+]
+;
+static
+const
+int32_t
 kTransitionTimingFunctionKTable
 [
 ]

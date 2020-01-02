@@ -655,6 +655,11 @@ Top
 )
 COMPUTED_STYLE_PROP
 (
+touch_action
+TouchAction
+)
+COMPUTED_STYLE_PROP
+(
 transform
 Transform
 )
