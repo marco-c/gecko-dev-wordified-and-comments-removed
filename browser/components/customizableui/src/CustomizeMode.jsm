@@ -5174,6 +5174,12 @@ customizing
 )
 ;
 }
+this
+.
+_onUIChange
+(
+)
+;
 }
 onWidgetMoved
 :
