@@ -368,10 +368,6 @@ head
 .
 js
 \
-accounts_testRemoteCommands
-.
-html
-\
 alltabslistener
 .
 html
@@ -403,10 +399,6 @@ xml
 blockPluginVulnerableUpdatable
 .
 xml
-\
-browser_aboutAccounts
-.
-js
 \
 browser_aboutHealthReport
 .
