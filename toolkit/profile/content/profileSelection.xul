@@ -632,7 +632,7 @@ label
 =
 "
 &
-autoSelect
+useSelected
 .
 label
 ;
@@ -641,7 +641,7 @@ accesskey
 =
 "
 &
-autoSelect
+useSelected
 .
 accesskey
 ;
