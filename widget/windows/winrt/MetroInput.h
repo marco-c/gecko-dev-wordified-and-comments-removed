@@ -861,9 +861,6 @@ aOutBehaviors
 )
 ;
 bool
-mApzConsumingTouch
-;
-bool
 mCancelable
 ;
 bool
