@@ -752,6 +752,16 @@ nsAString
 key
 )
 ;
+void
+TryFiringAdapterAdded
+(
+)
+;
+void
+AdapterAddedReceived
+(
+)
+;
 protected
 :
 BluetoothService
@@ -759,6 +769,10 @@ BluetoothService
 )
 :
 mEnabled
+(
+false
+)
+mAdapterAddedReceived
 (
 false
 )
@@ -876,6 +890,9 @@ nsCOMPtr
 nsIThread
 >
 mBluetoothThread
+;
+bool
+mAdapterAddedReceived
 ;
 }
 ;
