@@ -296,16 +296,6 @@ PropertyListUtils
 jsm
 '
 '
-RemoteAddonsChild
-.
-jsm
-'
-'
-RemoteAddonsParent
-.
-jsm
-'
-'
 RemoteController
 .
 jsm
