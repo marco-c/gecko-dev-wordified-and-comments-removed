@@ -116,7 +116,9 @@ newElement
 yield
 selectNode
 (
-newElement
+"
+div
+"
 inspector
 )
 ;

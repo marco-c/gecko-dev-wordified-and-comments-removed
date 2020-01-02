@@ -124,6 +124,7 @@ view
 inspector
 )
 ;
+yield
 assertRuleAndMarkupViewWidth
 (
 "
@@ -146,6 +147,7 @@ id2
 inspector
 )
 ;
+yield
 assertRuleAndMarkupViewWidth
 (
 "
@@ -168,6 +170,7 @@ view
 inspector
 )
 ;
+yield
 assertRuleAndMarkupViewWidth
 (
 "
@@ -196,6 +199,7 @@ id1
 inspector
 )
 ;
+yield
 assertRuleAndMarkupViewWidth
 (
 "
@@ -218,6 +222,7 @@ id2
 inspector
 )
 ;
+yield
 assertRuleAndMarkupViewWidth
 (
 "
@@ -472,10 +477,12 @@ onNewFieldBlur
 ;
 }
 function
+*
 getContainerStyleAttrValue
 (
 id
 {
+walker
 markup
 }
 )
@@ -483,20 +490,19 @@ markup
 let
 front
 =
-markup
-.
+yield
 walker
 .
-frontForRawNode
+querySelector
 (
-content
+walker
 .
-document
-.
-getElementById
-(
+rootNode
+"
+#
+"
++
 id
-)
 )
 ;
 let
@@ -573,6 +579,7 @@ attrIndex
 }
 }
 function
+*
 assertRuleAndMarkupViewWidth
 (
 id
@@ -625,6 +632,7 @@ expected
 let
 attr
 =
+yield
 getContainerStyleAttrValue
 (
 id
