@@ -24891,7 +24891,7 @@ surf
 container
 -
 >
-GetCurrentAsSurface
+DeprecatedGetCurrentAsSurface
 (
 &
 size
