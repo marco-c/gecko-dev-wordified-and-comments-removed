@@ -119,6 +119,11 @@ LIBRARY_NAME
 '
 mozgtk
 '
+SONAME
+=
+'
+mozgtk
+'
 FORCE_SHARED_LIB
 =
 True
