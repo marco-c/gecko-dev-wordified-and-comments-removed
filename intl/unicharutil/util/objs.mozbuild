@@ -125,6 +125,11 @@ intl_unicharutil_util_lcppsrcs
 =
 [
 '
+IrishCasing
+.
+cpp
+'
+'
 nsBidiUtils
 .
 cpp

@@ -116,6 +116,11 @@ ICUUtils
 h
 '
 '
+IrishCasing
+.
+h
+'
+'
 nsBidiUtils
 .
 h
