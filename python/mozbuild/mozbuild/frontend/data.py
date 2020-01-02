@@ -109,7 +109,7 @@ from
 .
 sandbox_symbols
 import
-FinalTargetValue
+compute_final_target
 class
 TreeMetadata
 (
@@ -1938,6 +1938,10 @@ installs
 '
         
 '
+pattern_installs
+'
+        
+'
 install_prefix
 '
         
@@ -2057,6 +2061,13 @@ installs
 =
 {
 }
+        
+self
+.
+pattern_installs
+=
+[
+]
         
 self
 .
@@ -2600,7 +2611,7 @@ subdir
 "
         
 return
-FinalTargetValue
+compute_final_target
 (
 dict
 (
