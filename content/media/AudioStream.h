@@ -897,6 +897,12 @@ GetVolumeScale
 )
 ;
 static
+bool
+GetFirstStream
+(
+)
+;
+static
 cubeb
 *
 GetCubebContext
@@ -1222,6 +1228,9 @@ mState
 ;
 bool
 mNeedsStart
+;
+bool
+mIsFirst
 ;
 static
 StaticMutex
