@@ -14100,6 +14100,14 @@ universalXPConnectEnabled
 (
 false
 )
+adoptedNode
+(
+false
+)
+donatedNode
+(
+false
+)
 scope
 (
 nullptr
@@ -14128,6 +14136,12 @@ wantXrays
 ;
 bool
 universalXPConnectEnabled
+;
+bool
+adoptedNode
+;
+bool
+donatedNode
 ;
 XPCWrappedNativeScope
 *
