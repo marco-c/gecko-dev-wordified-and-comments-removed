@@ -128,9 +128,6 @@ h
 "
 ;
 using
-ImageHandle
-;
-using
 mozilla
 :
 :

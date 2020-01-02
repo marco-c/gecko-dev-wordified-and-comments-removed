@@ -290,9 +290,6 @@ using
 GeoPosition
 ;
 using
-PrefTuple
-;
-using
 ChromePackage
 ;
 using
@@ -348,15 +345,6 @@ dom
 :
 :
 AudioChannelState
-;
-using
-mozilla
-:
-:
-dom
-:
-:
-BlobConstructorParams
 ;
 using
 mozilla

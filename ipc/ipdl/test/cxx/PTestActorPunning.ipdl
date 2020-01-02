@@ -17,15 +17,6 @@ IPDLUnitTestUtils
 h
 "
 ;
-using
-mozilla
-:
-:
-_ipdltest
-:
-:
-Bad
-;
 namespace
 mozilla
 {
