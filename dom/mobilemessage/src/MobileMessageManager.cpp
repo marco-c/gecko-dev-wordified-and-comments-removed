@@ -2227,6 +2227,8 @@ int32_t
 aId
 bool
 aValue
+bool
+aSendReadReport
 nsIDOMDOMRequest
 *
 *
@@ -2286,6 +2288,7 @@ MarkMessageRead
 (
 aId
 aValue
+aSendReadReport
 msgCallback
 )
 ;
