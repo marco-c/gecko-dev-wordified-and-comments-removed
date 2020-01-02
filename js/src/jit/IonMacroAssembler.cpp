@@ -6676,7 +6676,7 @@ passABIArg
 temp
 )
 ;
-callWithABI
+callWithABINoProfiling
 (
 JS_FUNC_TO_DATA_PTR
 (
