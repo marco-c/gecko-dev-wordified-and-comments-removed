@@ -337,11 +337,12 @@ size
 ;
 if
 (
+mChildOffset
+>
+=
 boxRange
 .
 mEnd
->
-mChildOffset
 |
 |
 (
