@@ -4084,6 +4084,12 @@ inner
 text
 )
             
+if
+inner
+.
+offset
+:
+                
 s
 .
 write
