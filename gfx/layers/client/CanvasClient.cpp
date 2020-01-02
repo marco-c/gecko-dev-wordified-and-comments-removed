@@ -1062,7 +1062,7 @@ SetDescriptor
 grallocSurf
 -
 >
-LockSurfaceDescriptor
+GetDescriptor
 (
 )
 )
