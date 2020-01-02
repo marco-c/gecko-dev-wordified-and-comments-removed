@@ -231,6 +231,10 @@ AudioOutputObserver
 (
 )
 {
+Clear
+(
+)
+;
 }
 void
 AudioOutputObserver
@@ -263,6 +267,10 @@ Pop
 )
 ;
 }
+mSaved
+=
+nullptr
+;
 }
 FarEndAudioChunk
 *
