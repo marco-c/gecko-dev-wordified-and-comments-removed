@@ -648,17 +648,12 @@ GMPAudioDecoderParent
 >
 mAudioDecoders
 ;
-#
-ifdef
-DEBUG
 nsCOMPtr
 <
 nsIThread
 >
 mGMPThread
 ;
-#
-endif
 nsAutoString
 mOrigin
 ;
