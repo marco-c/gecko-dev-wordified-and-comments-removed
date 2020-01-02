@@ -429,6 +429,12 @@ MouseEvent
 MouseEvent
 )
 ;
+NEW_BINDING
+(
+nsGlobalWindow
+Window
+)
+;
 #
 define
 DEFINE_UNWRAP_CAST
