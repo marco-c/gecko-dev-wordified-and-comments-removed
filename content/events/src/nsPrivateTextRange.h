@@ -39,7 +39,7 @@ include
 "
 mozilla
 /
-TextEvents
+TextRange
 .
 h
 "

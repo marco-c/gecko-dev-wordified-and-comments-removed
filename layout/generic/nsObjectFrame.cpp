@@ -574,13 +574,6 @@ namespace
 mozilla
 :
 :
-plugins
-;
-using
-namespace
-mozilla
-:
-:
 layers
 ;
 class
@@ -8273,6 +8266,9 @@ pluginEvent
 .
 event
 =
+plugins
+:
+:
 DoublePassRenderingEvent
 (
 )
