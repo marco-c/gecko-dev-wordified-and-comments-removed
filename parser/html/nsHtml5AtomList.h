@@ -160,6 +160,13 @@ ruby
 )
 HTML5_ATOM
 (
+rtc
+"
+rtc
+"
+)
+HTML5_ATOM
+(
 select
 "
 select
@@ -5305,6 +5312,13 @@ HTML5_ATOM
 pi
 "
 pi
+"
+)
+HTML5_ATOM
+(
+rb
+"
+rb
 "
 )
 HTML5_ATOM
