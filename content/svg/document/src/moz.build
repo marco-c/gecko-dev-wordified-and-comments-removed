@@ -154,9 +154,13 @@ src
 '
 '
 /
-dom
+content
 /
 xml
+/
+document
+/
+src
 '
 '
 /
