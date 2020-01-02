@@ -81,6 +81,12 @@ ext
 .
 todo
 '
+    
+'
+mozbuild
+.
+sphinx
+'
 ]
 templates_path
 =
