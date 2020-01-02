@@ -47,13 +47,11 @@ namespace
 std
 ;
 using
+namespace
 mozilla
 :
 :
 dom
-:
-:
-WebAudioUtils
 ;
 using
 mozilla

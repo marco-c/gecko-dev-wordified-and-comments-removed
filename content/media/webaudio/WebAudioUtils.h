@@ -56,15 +56,28 @@ dom
 class
 AudioParamTimeline
 ;
-struct
+namespace
 WebAudioUtils
 {
-static
 const
 size_t
 MaxChannelCount
+=
+32
 ;
-static
+const
+uint32_t
+MinSampleRate
+=
+8000
+;
+const
+uint32_t
+MaxSampleRate
+=
+192000
+;
+inline
 bool
 FuzzyEqual
 (
@@ -91,7 +104,7 @@ v2
 7f
 ;
 }
-static
+inline
 bool
 FuzzyEqual
 (
@@ -118,7 +131,7 @@ v2
 7
 ;
 }
-static
+inline
 double
 ComputeSmoothingRate
 (
@@ -151,7 +164,6 @@ aSampleRate
 )
 ;
 }
-static
 void
 ConvertAudioParamToTicks
 (
@@ -166,7 +178,7 @@ AudioNodeStream
 aDest
 )
 ;
-static
+inline
 float
 ConvertLinearToDecibels
 (
@@ -194,7 +206,7 @@ aLinearValue
 aMinDecibels
 ;
 }
-static
+inline
 float
 ConvertDecibelsToLinear
 (
@@ -219,7 +231,7 @@ aDecibels
 )
 ;
 }
-static
+inline
 float
 ConvertDecibelToLinear
 (
@@ -244,7 +256,7 @@ aDecibel
 )
 ;
 }
-static
+inline
 void
 FixNaN
 (
@@ -275,7 +287,7 @@ aDouble
 ;
 }
 }
-static
+inline
 double
 DiscreteTimeConstantForSampleRate
 (
@@ -308,7 +320,7 @@ timeConstant
 )
 ;
 }
-static
+inline
 bool
 IsTimeValid
 (
@@ -341,7 +353,6 @@ IntType
 typename
 FloatType
 >
-static
 IntType
 TruncateFloatToInt
 (
@@ -493,13 +504,11 @@ f
 )
 ;
 }
-static
 void
 Shutdown
 (
 )
 ;
-static
 int
 SpeexResamplerProcess
 (
@@ -523,7 +532,6 @@ uint32_t
 aOutLen
 )
 ;
-static
 int
 SpeexResamplerProcess
 (
@@ -547,7 +555,6 @@ uint32_t
 aOutLen
 )
 ;
-static
 int
 SpeexResamplerProcess
 (
@@ -572,7 +579,6 @@ aOutLen
 )
 ;
 }
-;
 }
 }
 #

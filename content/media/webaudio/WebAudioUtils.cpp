@@ -43,15 +43,6 @@ mozilla
 namespace
 dom
 {
-const
-size_t
-WebAudioUtils
-:
-:
-MaxChannelCount
-=
-32
-;
 struct
 ConvertTimeToTickHelper
 {
