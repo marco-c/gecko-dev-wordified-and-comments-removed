@@ -16080,6 +16080,11 @@ mEvent
 mFlags
 .
 mDefaultPreventedByContent
+&
+&
+IsMutable
+(
+)
 )
 {
 StepNumberControlForUserEvent
@@ -17288,6 +17293,11 @@ message
 =
 =
 NS_MOUSE_BUTTON_DOWN
+&
+&
+IsMutable
+(
+)
 )
 {
 switch
