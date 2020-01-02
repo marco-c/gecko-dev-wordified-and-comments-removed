@@ -153,6 +153,9 @@ title
 nsAutoString
 title
 ;
+mozilla
+:
+:
 ErrorResult
 rv
 ;
