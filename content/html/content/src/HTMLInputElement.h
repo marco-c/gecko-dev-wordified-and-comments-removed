@@ -828,7 +828,7 @@ MOZ_OVERRIDE
 ;
 NS_IMETHOD_
 (
-nsIContent
+Element
 *
 )
 CreatePlaceholderNode
@@ -838,7 +838,7 @@ MOZ_OVERRIDE
 ;
 NS_IMETHOD_
 (
-nsIContent
+Element
 *
 )
 GetPlaceholderNode

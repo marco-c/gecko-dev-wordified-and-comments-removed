@@ -10168,7 +10168,7 @@ nullptr
 }
 NS_IMETHODIMP_
 (
-nsIContent
+Element
 *
 )
 HTMLInputElement
@@ -10217,7 +10217,7 @@ nullptr
 }
 NS_IMETHODIMP_
 (
-nsIContent
+Element
 *
 )
 HTMLInputElement

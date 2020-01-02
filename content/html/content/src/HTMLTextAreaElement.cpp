@@ -976,7 +976,7 @@ GetRootNode
 }
 NS_IMETHODIMP_
 (
-nsIContent
+Element
 *
 )
 HTMLTextAreaElement
@@ -1006,7 +1006,7 @@ GetPlaceholderNode
 }
 NS_IMETHODIMP_
 (
-nsIContent
+Element
 *
 )
 HTMLTextAreaElement
