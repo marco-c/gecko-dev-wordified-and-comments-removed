@@ -1731,7 +1731,7 @@ cx
 =
 aGlobal
 .
-GetContext
+Context
 (
 )
 ;
@@ -1850,7 +1850,7 @@ cx
 =
 aGlobal
 .
-GetContext
+Context
 (
 )
 ;
@@ -3475,7 +3475,7 @@ cx
 =
 aGlobal
 .
-GetContext
+Context
 (
 )
 ;
@@ -3650,7 +3650,7 @@ cx
 =
 aGlobal
 .
-GetContext
+Context
 (
 )
 ;

@@ -9453,7 +9453,7 @@ cx
 =
 aGlobal
 .
-GetContext
+Context
 (
 )
 ;

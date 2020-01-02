@@ -276,7 +276,7 @@ Init
 (
 aGlobal
 .
-GetContext
+Context
 (
 )
 JS

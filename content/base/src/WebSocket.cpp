@@ -2422,7 +2422,7 @@ Init
 (
 aGlobal
 .
-GetContext
+Context
 (
 )
 principal

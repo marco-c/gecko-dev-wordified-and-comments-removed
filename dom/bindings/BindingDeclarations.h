@@ -179,7 +179,7 @@ const
 ;
 JSContext
 *
-GetContext
+Context
 (
 )
 const

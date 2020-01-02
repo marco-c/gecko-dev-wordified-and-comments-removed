@@ -253,7 +253,7 @@ MozNDEFRecord
 (
 aGlobal
 .
-GetContext
+Context
 (
 )
 win

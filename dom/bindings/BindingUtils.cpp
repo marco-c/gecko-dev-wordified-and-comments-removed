@@ -9716,6 +9716,11 @@ mGlobalObject
 nullptr
 )
 {
+MOZ_ASSERT
+(
+mCx
+)
+;
 JS
 :
 :
