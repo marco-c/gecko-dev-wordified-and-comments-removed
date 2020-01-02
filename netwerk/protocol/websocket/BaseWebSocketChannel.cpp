@@ -90,10 +90,6 @@ mClientSetPingTimeout
 (
 0
 )
-mPingForced
-(
-0
-)
 mPingInterval
 (
 0
