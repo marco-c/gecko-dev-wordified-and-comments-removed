@@ -159,9 +159,15 @@ AndroidManifest
 .
 xml
 '
-TOPOBJDIR
-+
 '
+.
+.
+/
+.
+.
+/
+.
+.
 /
 mobile
 /
