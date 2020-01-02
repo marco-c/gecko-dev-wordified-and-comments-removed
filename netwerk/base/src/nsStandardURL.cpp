@@ -227,6 +227,9 @@ PR_LOG_DEBUG
 args
 )
 #
+undef
+LOG_ENABLED
+#
 define
 LOG_ENABLED
 (

@@ -57,6 +57,12 @@ nullptr
 #
 endif
 #
+undef
+LOGD
+#
+undef
+LOGE
+#
 define
 LOGD
 (

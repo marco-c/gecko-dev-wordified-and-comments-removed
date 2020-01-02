@@ -68,6 +68,9 @@ gChannelClassifierLog
 #
 endif
 #
+undef
+LOG
+#
 define
 LOG
 (

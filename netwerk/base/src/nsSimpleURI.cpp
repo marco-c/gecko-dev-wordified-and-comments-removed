@@ -8,6 +8,9 @@ DebugOnly
 h
 "
 #
+undef
+LOG
+#
 include
 "
 IPCMessageUtils

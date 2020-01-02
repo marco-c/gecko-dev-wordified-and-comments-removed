@@ -6755,6 +6755,7 @@ ResolveHost
 ;
 }
 else
+{
 SOCKET_LOG
 (
 (
@@ -6768,6 +6769,7 @@ n
 )
 )
 ;
+}
 break
 ;
 case

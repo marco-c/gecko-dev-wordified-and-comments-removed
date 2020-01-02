@@ -117,6 +117,9 @@ nullptr
 #
 endif
 #
+undef
+LOG
+#
 define
 LOG
 (
