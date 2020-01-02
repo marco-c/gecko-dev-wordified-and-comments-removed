@@ -64,8 +64,9 @@ check_hidden
 false
 )
 ;
-run_next_test
+executeSoon
 (
+run_next_test
 )
 ;
 }
@@ -92,8 +93,9 @@ check_hidden
 false
 )
 ;
-run_next_test
+executeSoon
 (
+run_next_test
 )
 ;
 }
@@ -113,6 +115,11 @@ not
 expect
 onInstallFailed
 "
+)
+;
+executeSoon
+(
+run_next_test
 )
 ;
 }
