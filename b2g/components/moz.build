@@ -131,6 +131,11 @@ ContentPermissionPrompt
 js
 '
 '
+DebuggerServerController
+.
+js
+'
+'
 FilePicker
 .
 js
