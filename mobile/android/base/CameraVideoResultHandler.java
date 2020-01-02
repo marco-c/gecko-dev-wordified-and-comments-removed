@@ -180,6 +180,16 @@ data
 null
 |
 |
+data
+.
+getData
+(
+)
+=
+=
+null
+|
+|
 resultCode
 !
 =
