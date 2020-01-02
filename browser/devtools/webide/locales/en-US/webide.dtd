@@ -503,6 +503,15 @@ Devices
 <
 !
 ENTITY
+runtimePanel_WiFiDevices
+"
+WiFi
+Devices
+"
+>
+<
+!
+ENTITY
 runtimePanel_simulators
 "
 Simulators
