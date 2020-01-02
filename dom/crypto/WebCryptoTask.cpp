@@ -55,7 +55,7 @@ mozilla
 /
 dom
 /
-Key
+CryptoKey
 .
 h
 "
@@ -77,7 +77,7 @@ mozilla
 /
 dom
 /
-KeyPair
+CryptoKeyPair
 .
 h
 "
@@ -843,7 +843,7 @@ mozilla
 dom
 :
 :
-Key
+CryptoKey
 &
 aKey
 const
@@ -1754,7 +1754,7 @@ mozilla
 dom
 :
 :
-Key
+CryptoKey
 &
 aKey
 const
@@ -2036,7 +2036,7 @@ mozilla
 dom
 :
 :
-Key
+CryptoKey
 &
 aKey
 const
@@ -2539,7 +2539,7 @@ mozilla
 dom
 :
 :
-Key
+CryptoKey
 &
 aKey
 const
@@ -3359,7 +3359,7 @@ return
 mKey
 =
 new
-Key
+CryptoKey
 (
 global
 )
@@ -3453,7 +3453,7 @@ protected
 :
 nsRefPtr
 <
-Key
+CryptoKey
 >
 mKey
 ;
@@ -3792,12 +3792,12 @@ mKey
 >
 HasUsageOtherThan
 (
-Key
+CryptoKey
 :
 :
 ENCRYPT
 |
-Key
+CryptoKey
 :
 :
 DECRYPT
@@ -3867,12 +3867,12 @@ mKey
 >
 HasUsageOtherThan
 (
-Key
+CryptoKey
 :
 :
 SIGN
 |
-Key
+CryptoKey
 :
 :
 VERIFY
@@ -3939,7 +3939,7 @@ mKey
 >
 SetType
 (
-Key
+CryptoKey
 :
 :
 SECRET
@@ -4204,7 +4204,7 @@ WEBCRYPTO_KEY_FORMAT_PKCS8
 ScopedSECKEYPrivateKey
 privKey
 (
-Key
+CryptoKey
 :
 :
 PrivateKeyFromPkcs8
@@ -4245,7 +4245,7 @@ mKey
 >
 SetType
 (
-Key
+CryptoKey
 :
 :
 PRIVATE
@@ -4286,7 +4286,7 @@ WEBCRYPTO_KEY_FORMAT_SPKI
 {
 pubKey
 =
-Key
+CryptoKey
 :
 :
 PublicKeyFromSpki
@@ -4341,7 +4341,7 @@ mKey
 >
 SetType
 (
-Key
+CryptoKey
 :
 :
 PUBLIC
@@ -4442,7 +4442,7 @@ GetKeyType
 )
 =
 =
-Key
+CryptoKey
 :
 :
 PUBLIC
@@ -4453,7 +4453,7 @@ mKey
 >
 HasUsageOtherThan
 (
-Key
+CryptoKey
 :
 :
 ENCRYPT
@@ -4470,7 +4470,7 @@ GetKeyType
 )
 =
 =
-Key
+CryptoKey
 :
 :
 PRIVATE
@@ -4481,7 +4481,7 @@ mKey
 >
 HasUsageOtherThan
 (
-Key
+CryptoKey
 :
 :
 DECRYPT
@@ -4531,7 +4531,7 @@ GetKeyType
 )
 =
 =
-Key
+CryptoKey
 :
 :
 PUBLIC
@@ -4542,7 +4542,7 @@ mKey
 >
 HasUsageOtherThan
 (
-Key
+CryptoKey
 :
 :
 VERIFY
@@ -4559,7 +4559,7 @@ GetKeyType
 )
 =
 =
-Key
+CryptoKey
 :
 :
 PRIVATE
@@ -4570,7 +4570,7 @@ mKey
 >
 HasUsageOtherThan
 (
-Key
+CryptoKey
 :
 :
 SIGN
@@ -4644,7 +4644,7 @@ const
 nsAString
 &
 aFormat
-Key
+CryptoKey
 &
 aKey
 )
@@ -4806,7 +4806,7 @@ keyType
 case
 rsaKey
 :
-Key
+CryptoKey
 :
 :
 PrivateKeyToPkcs8
@@ -4852,7 +4852,7 @@ NS_ERROR_DOM_NOT_SUPPORTED_ERR
 ;
 }
 return
-Key
+CryptoKey
 :
 :
 PublicKeyToSpki
@@ -4950,7 +4950,7 @@ return
 mKey
 =
 new
-Key
+CryptoKey
 (
 global
 )
@@ -4968,7 +4968,7 @@ mKey
 >
 SetType
 (
-Key
+CryptoKey
 :
 :
 SECRET
@@ -5130,12 +5130,12 @@ mLength
 ;
 allowedUsages
 =
-Key
+CryptoKey
 :
 :
 ENCRYPT
 |
-Key
+CryptoKey
 :
 :
 DECRYPT
@@ -5392,12 +5392,12 @@ hashName
 ;
 allowedUsages
 =
-Key
+CryptoKey
 :
 :
 SIGN
 |
-Key
+CryptoKey
 :
 :
 VERIFY
@@ -5494,7 +5494,7 @@ private
 :
 nsRefPtr
 <
-Key
+CryptoKey
 >
 mKey
 ;
@@ -5692,7 +5692,7 @@ return
 mKeyPair
 =
 new
-KeyPair
+CryptoKeyPair
 (
 global
 )
@@ -5943,14 +5943,14 @@ return
 }
 privateAllowedUsages
 =
-Key
+CryptoKey
 :
 :
 SIGN
 ;
 publicAllowedUsages
 =
-Key
+CryptoKey
 :
 :
 VERIFY
@@ -6120,24 +6120,24 @@ return
 }
 privateAllowedUsages
 =
-Key
+CryptoKey
 :
 :
 DECRYPT
 |
-Key
+CryptoKey
 :
 :
 UNWRAPKEY
 ;
 publicAllowedUsages
 =
-Key
+CryptoKey
 :
 :
 ENCRYPT
 |
-Key
+CryptoKey
 :
 :
 WRAPKEY
@@ -6175,7 +6175,7 @@ PrivateKey
 >
 SetType
 (
-Key
+CryptoKey
 :
 :
 PRIVATE
@@ -6204,7 +6204,7 @@ PublicKey
 >
 SetType
 (
-Key
+CryptoKey
 :
 :
 PUBLIC
@@ -6320,7 +6320,7 @@ private
 :
 nsRefPtr
 <
-KeyPair
+CryptoKeyPair
 >
 mKeyPair
 ;
@@ -6527,7 +6527,7 @@ const
 ObjectOrString
 &
 aAlgorithm
-Key
+CryptoKey
 &
 aKey
 const
@@ -6617,7 +6617,7 @@ aKey
 .
 HasUsage
 (
-Key
+CryptoKey
 :
 :
 ENCRYPT
@@ -6635,7 +6635,7 @@ aKey
 .
 HasUsage
 (
-Key
+CryptoKey
 :
 :
 DECRYPT
@@ -6734,7 +6734,7 @@ const
 ObjectOrString
 &
 aAlgorithm
-Key
+CryptoKey
 &
 aKey
 const
@@ -6828,7 +6828,7 @@ aKey
 .
 HasUsage
 (
-Key
+CryptoKey
 :
 :
 SIGN
@@ -6846,7 +6846,7 @@ aKey
 .
 HasUsage
 (
-Key
+CryptoKey
 :
 :
 VERIFY
@@ -7146,7 +7146,7 @@ const
 nsAString
 &
 aFormat
-Key
+CryptoKey
 &
 aKey
 )
@@ -7371,7 +7371,7 @@ const
 ObjectOrString
 &
 aAlgorithm
-Key
+CryptoKey
 &
 aBaseKey
 const
@@ -7423,7 +7423,7 @@ const
 ObjectOrString
 &
 aAlgorithm
-Key
+CryptoKey
 &
 aKey
 uint32_t
