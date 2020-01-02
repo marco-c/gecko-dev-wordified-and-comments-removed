@@ -383,7 +383,7 @@ NOT_FROM_PARSER
 mBrowse
 -
 >
-SetNativeAnonymous
+SetIsNativeAnonymousRoot
 (
 )
 ;
@@ -595,7 +595,7 @@ forget
 mTextContent
 -
 >
-SetNativeAnonymous
+SetIsNativeAnonymousRoot
 (
 )
 ;

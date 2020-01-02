@@ -840,7 +840,7 @@ scriptBlocker
 newContent
 -
 >
-SetNativeAnonymous
+SetIsNativeAnonymousRoot
 (
 )
 ;

@@ -6853,7 +6853,7 @@ return
 container
 -
 >
-SetNativeAnonymous
+SetIsNativeAnonymousRoot
 (
 )
 ;
@@ -15286,7 +15286,7 @@ else
 content
 -
 >
-SetNativeAnonymous
+SetIsNativeAnonymousRoot
 (
 )
 ;

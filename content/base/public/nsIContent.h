@@ -298,7 +298,7 @@ NODE_IS_ROOT_OF_CHROME_ONLY_ACCESS
 ;
 }
 void
-SetNativeAnonymous
+SetIsNativeAnonymousRoot
 (
 )
 {
