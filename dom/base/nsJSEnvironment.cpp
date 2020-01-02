@@ -8890,6 +8890,10 @@ time
 :
 %
 lums
+slices
+:
+%
+lu
 suspected
 :
 %
@@ -9002,6 +9006,9 @@ mMaxSliceTime
 gCCStats
 .
 mTotalSliceTime
+aResults
+.
+mNumSlices
 gCCStats
 .
 mSuspected

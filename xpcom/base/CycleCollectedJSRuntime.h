@@ -225,6 +225,15 @@ IncrementalFinalizeRunnable
 struct
 CycleCollectorResults
 {
+CycleCollectorResults
+(
+)
+{
+Init
+(
+)
+;
+}
 void
 Init
 (
@@ -254,6 +263,10 @@ mFreedGCed
 =
 0
 ;
+mNumSlices
+=
+1
+;
 }
 bool
 mForcedGC
@@ -272,6 +285,9 @@ mFreedRefCounted
 ;
 uint32_t
 mFreedGCed
+;
+uint32_t
+mNumSlices
 ;
 }
 ;
