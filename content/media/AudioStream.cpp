@@ -2305,6 +2305,11 @@ Run
 (
 )
 {
+MOZ_ASSERT
+(
+mThread
+)
+;
 if
 (
 NS_IsMainThread
