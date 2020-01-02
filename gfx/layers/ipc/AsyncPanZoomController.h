@@ -948,7 +948,7 @@ void
 SetLayerHitTestData
 (
 const
-LayerRect
+ScreenRect
 &
 aRect
 const
@@ -998,7 +998,7 @@ bool
 VisibleRegionContains
 (
 const
-LayerPoint
+ScreenPoint
 &
 aPoint
 )
@@ -1015,7 +1015,7 @@ aPoint
 }
 private
 :
-LayerRect
+ScreenRect
 mVisibleRect
 ;
 gfx3DMatrix
