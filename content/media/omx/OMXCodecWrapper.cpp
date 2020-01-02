@@ -2369,7 +2369,7 @@ msg
 setInt32
 (
 "
-bitrate
+videoBitrate
 "
 aKbps
 *
