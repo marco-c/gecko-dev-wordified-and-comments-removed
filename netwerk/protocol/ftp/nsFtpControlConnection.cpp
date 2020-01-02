@@ -288,6 +288,10 @@ GetSessionId
 (
 )
 )
+mUseUTF8
+(
+false
+)
 mHost
 (
 host
