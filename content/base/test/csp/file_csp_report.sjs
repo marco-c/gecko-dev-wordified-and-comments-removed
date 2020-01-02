@@ -135,8 +135,6 @@ response
 setHeader
 (
 "
-X
--
 Content
 -
 Security
@@ -144,7 +142,9 @@ Security
 Policy
 "
 "
-allow
+default
+-
+src
 '
 self
 '

@@ -12,5 +12,7 @@ src
 '
 self
 '
-allow
+default
+-
+src
 *

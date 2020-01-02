@@ -309,8 +309,6 @@ response
 setHeader
 (
 "
-X
--
 Content
 -
 Security
