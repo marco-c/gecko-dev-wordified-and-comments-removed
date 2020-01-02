@@ -1431,7 +1431,7 @@ MoveTo
 }
 newTransform
 .
-Translate
+PostTranslate
 (
 -
 offset
