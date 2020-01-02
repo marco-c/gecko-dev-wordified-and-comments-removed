@@ -1319,12 +1319,6 @@ src
 /
 content
 /
-smil
-'
-'
-/
-content
-/
 xbl
 /
 src
@@ -1342,6 +1336,12 @@ src
 '
 /
 dom
+'
+'
+/
+dom
+/
+smil
 '
 '
 /

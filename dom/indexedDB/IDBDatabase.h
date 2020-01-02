@@ -794,6 +794,9 @@ private
 :
 IDBDatabase
 (
+IDBWrapperCache
+*
+aOwnerCache
 )
 ;
 ~
