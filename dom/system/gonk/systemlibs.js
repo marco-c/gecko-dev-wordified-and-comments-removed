@@ -2171,6 +2171,16 @@ stringToIP
 string
 )
 {
+if
+(
+!
+string
+)
+{
+return
+null
+;
+}
 let
 ip
 =
