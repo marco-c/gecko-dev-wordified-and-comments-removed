@@ -7368,6 +7368,14 @@ return
 false
 ;
 }
+install
+.
+addon
+.
+userDisabled
+=
+false
+;
 }
 .
 bind
