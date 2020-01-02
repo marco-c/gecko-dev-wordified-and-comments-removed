@@ -945,7 +945,7 @@ theText
 uint32_t
 rangeCount
 ;
-nsTextRangeArray
+TextRangeArray
 rangeArray
 ;
 bool
@@ -1530,13 +1530,6 @@ mozilla
 :
 TextRange
 nsTextRange
-;
-typedef
-mozilla
-:
-:
-TextRangeArray
-nsTextRangeArray
 ;
 typedef
 mozilla

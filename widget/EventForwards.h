@@ -202,13 +202,6 @@ typedef
 mozilla
 :
 :
-TextRangeArray
-nsTextRangeArray
-;
-typedef
-mozilla
-:
-:
 WidgetTextEvent
 nsTextEvent
 ;
