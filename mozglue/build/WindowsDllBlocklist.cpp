@@ -534,6 +534,14 @@ DllBlockInfo
 BLOCK_XP_ONLY
 }
 {
+"
+libinject
+.
+dll
+"
+UNVERSIONED
+}
+{
 nullptr
 0
 }
