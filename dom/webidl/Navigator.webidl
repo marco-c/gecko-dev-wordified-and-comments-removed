@@ -1753,6 +1753,12 @@ whenOffline
 ;
 }
 ;
+/
+/
+nsIDOMMozNavigatorMobileMessage
+interface
+MozMobileMessageManager
+;
 partial
 interface
 Navigator
