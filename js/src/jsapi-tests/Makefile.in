@@ -66,9 +66,8 @@ MPL
 .
 LIBS
 =
-(
-DEPTH
-)
+.
+.
 /
 (
 LIB_PREFIX
@@ -90,8 +89,11 @@ LOCAL_INCLUDES
 -
 I
 (
-topsrcdir
+srcdir
 )
+/
+.
+.
 -
 I
 .
@@ -184,8 +186,11 @@ Dtopsrcdir
 (
 abspath
 (
-topsrcdir
+srcdir
 )
+/
+.
+.
 )
 include
 (

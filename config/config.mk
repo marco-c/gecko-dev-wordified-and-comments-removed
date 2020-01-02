@@ -4147,8 +4147,10 @@ else
 NSINSTALL
 =
 (
-CONFIG_TOOLS
+DIST
 )
+/
+bin
 /
 nsinstall
 (

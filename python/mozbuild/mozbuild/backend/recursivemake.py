@@ -3608,6 +3608,19 @@ if
 dirs
 :
                     
+all_dirs
+=
+self
+.
+_traversal
+.
+traverse
+(
+'
+'
+filter
+)
+                    
 root_mk
 .
 add_statement
@@ -3628,7 +3641,7 @@ tier
 .
 join
 (
-dirs
+all_dirs
 )
 )
 )
