@@ -647,7 +647,7 @@ i
 ;
 i
 <
-100000
+1000000
 ;
 +
 +
@@ -1050,7 +1050,9 @@ return
 Write
 the
 first
-120K
+1
+.
+2M
 of
 the
 Wave
@@ -1093,7 +1095,7 @@ out
 write
 (
 bytes
-120000
+1200000
 )
 ;
 response
