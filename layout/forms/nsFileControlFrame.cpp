@@ -101,7 +101,9 @@ h
 #
 include
 "
-nsEventStates
+mozilla
+/
+EventStates
 .
 h
 "
@@ -1126,7 +1128,7 @@ SyncDisabledState
 (
 )
 {
-nsEventStates
+EventStates
 eventStates
 =
 mContent
@@ -1285,7 +1287,7 @@ nsFileControlFrame
 :
 ContentStatesChanged
 (
-nsEventStates
+EventStates
 aStates
 )
 {

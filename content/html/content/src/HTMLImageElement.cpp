@@ -227,6 +227,15 @@ h
 #
 include
 "
+mozilla
+/
+EventStates
+.
+h
+"
+#
+include
+"
 nsLayoutUtils
 .
 h
@@ -1994,7 +2003,7 @@ true
 ;
 }
 }
-nsEventStates
+EventStates
 HTMLImageElement
 :
 :

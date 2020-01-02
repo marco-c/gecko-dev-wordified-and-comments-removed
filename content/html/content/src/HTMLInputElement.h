@@ -647,7 +647,7 @@ DoneCreatingElement
 MOZ_OVERRIDE
 ;
 virtual
-nsEventStates
+EventStates
 IntrinsicState
 (
 )
@@ -660,7 +660,7 @@ virtual
 void
 AddStates
 (
-nsEventStates
+EventStates
 aStates
 )
 ;
@@ -668,7 +668,7 @@ virtual
 void
 RemoveStates
 (
-nsEventStates
+EventStates
 aStates
 )
 ;

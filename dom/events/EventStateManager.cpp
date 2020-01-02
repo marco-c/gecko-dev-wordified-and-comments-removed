@@ -30,6 +30,15 @@ include
 "
 mozilla
 /
+EventStates
+.
+h
+"
+#
+include
+"
+mozilla
+/
 IMEStateManager
 .
 h
@@ -18749,7 +18758,7 @@ DoStateChange
 Element
 *
 aElement
-nsEventStates
+EventStates
 aState
 bool
 aAddState
@@ -18791,7 +18800,7 @@ DoStateChange
 nsIContent
 *
 aContent
-nsEventStates
+EventStates
 aState
 bool
 aStateAdded
@@ -18833,7 +18842,7 @@ aStartNode
 nsIContent
 *
 aStopBefore
-nsEventStates
+EventStates
 aState
 bool
 aAddState
@@ -19002,7 +19011,7 @@ SetContentState
 nsIContent
 *
 aContent
-nsEventStates
+EventStates
 aState
 )
 {

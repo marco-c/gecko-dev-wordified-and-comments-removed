@@ -10,6 +10,15 @@ h
 #
 include
 "
+mozilla
+/
+EventStates
+.
+h
+"
+#
+include
+"
 inDOMUtils
 .
 h
@@ -3492,7 +3501,7 @@ SetContentState
 nsIDOMElement
 *
 aElement
-nsEventStates
+EventStates
 :
 :
 InternalType
@@ -3546,7 +3555,7 @@ esm
 SetContentState
 (
 content
-nsEventStates
+EventStates
 (
 aState
 )
@@ -3566,7 +3575,7 @@ GetContentState
 nsIDOMElement
 *
 aElement
-nsEventStates
+EventStates
 :
 :
 InternalType
@@ -3792,7 +3801,7 @@ aFontFaceList
 ;
 }
 static
-nsEventStates
+EventStates
 GetStatesForPseudoClass
 (
 const
@@ -3803,7 +3812,7 @@ aStatePseudo
 {
 static
 const
-nsEventStates
+EventStates
 sPseudoClassStates
 [
 ]
@@ -3818,7 +3827,7 @@ _value
 _pref
 )
 \
-nsEventStates
+EventStates
 (
 )
 #
@@ -3845,10 +3854,10 @@ CSS_STATE_PSEUDO_CLASS
 #
 undef
 CSS_PSEUDO_CLASS
-nsEventStates
+EventStates
 (
 )
-nsEventStates
+EventStates
 (
 )
 }
@@ -3906,7 +3915,7 @@ ePseudoClass_mozAnyLink
 )
 {
 return
-nsEventStates
+EventStates
 (
 )
 ;
@@ -3939,7 +3948,7 @@ nsAString
 aPseudoClass
 )
 {
-nsEventStates
+EventStates
 state
 =
 GetStatesForPseudoClass
@@ -4009,7 +4018,7 @@ nsAString
 aPseudoClass
 )
 {
-nsEventStates
+EventStates
 state
 =
 GetStatesForPseudoClass
@@ -4082,7 +4091,7 @@ bool
 _retval
 )
 {
-nsEventStates
+EventStates
 state
 =
 GetStatesForPseudoClass
@@ -4130,7 +4139,7 @@ NS_ENSURE_ARG_POINTER
 element
 )
 ;
-nsEventStates
+EventStates
 locks
 =
 element

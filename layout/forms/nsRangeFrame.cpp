@@ -10,6 +10,15 @@ include
 "
 mozilla
 /
+EventStates
+.
+h
+"
+#
+include
+"
+mozilla
+/
 TouchEvents
 .
 h
@@ -1039,7 +1048,7 @@ aBuilder
 return
 ;
 }
-nsEventStates
+EventStates
 eventStates
 =
 mContent

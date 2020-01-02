@@ -254,7 +254,10 @@ NS_DECL_NSISTREAMLISTENER
 NS_DECL_NSIFRAMELOADEROWNER
 NS_DECL_NSIOBJECTLOADINGCONTENT
 NS_DECL_NSICHANNELEVENTSINK
-nsEventStates
+mozilla
+:
+:
+EventStates
 ObjectState
 (
 )
@@ -859,7 +862,10 @@ NotifyStateChanged
 (
 ObjectType
 aOldType
-nsEventStates
+mozilla
+:
+:
+EventStates
 aOldState
 bool
 aSync

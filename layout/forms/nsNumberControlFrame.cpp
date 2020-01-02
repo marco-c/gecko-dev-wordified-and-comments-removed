@@ -94,6 +94,15 @@ h
 #
 include
 "
+mozilla
+/
+EventStates
+.
+h
+"
+#
+include
+"
 nsContentUtils
 .
 h
@@ -923,7 +932,7 @@ SyncDisabledState
 (
 )
 {
-nsEventStates
+EventStates
 eventStates
 =
 mContent
@@ -1123,7 +1132,7 @@ nsNumberControlFrame
 :
 ContentStatesChanged
 (
-nsEventStates
+EventStates
 aStates
 )
 {

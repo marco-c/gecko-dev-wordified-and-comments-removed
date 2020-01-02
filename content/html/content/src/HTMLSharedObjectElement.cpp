@@ -3,6 +3,15 @@ include
 "
 mozilla
 /
+EventStates
+.
+h
+"
+#
+include
+"
+mozilla
+/
 dom
 /
 HTMLSharedObjectElement
@@ -1099,7 +1108,7 @@ false
 )
 ;
 }
-nsEventStates
+EventStates
 HTMLSharedObjectElement
 :
 :

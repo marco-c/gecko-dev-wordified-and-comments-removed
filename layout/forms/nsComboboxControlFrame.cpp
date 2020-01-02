@@ -250,6 +250,15 @@ include
 "
 mozilla
 /
+EventStates
+.
+h
+"
+#
+include
+"
+mozilla
+/
 LookAndFeel
 .
 h
@@ -3850,7 +3859,7 @@ mDelayedShowDropDown
 =
 false
 ;
-nsEventStates
+EventStates
 eventStates
 =
 mContent
@@ -4625,7 +4634,7 @@ return
 NS_OK
 ;
 }
-nsEventStates
+EventStates
 eventStates
 =
 mContent
@@ -6299,7 +6308,7 @@ nsPoint
 aPt
 )
 {
-nsEventStates
+EventStates
 eventStates
 =
 mContent

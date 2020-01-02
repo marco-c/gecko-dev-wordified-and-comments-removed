@@ -183,6 +183,15 @@ include
 "
 mozilla
 /
+EventStates
+.
+h
+"
+#
+include
+"
+mozilla
+/
 LookAndFeel
 .
 h
@@ -3365,7 +3374,7 @@ aEvent
 aEventStatus
 )
 ;
-nsEventStates
+EventStates
 eventStates
 =
 mContent
@@ -5814,7 +5823,7 @@ mButtonDown
 =
 false
 ;
-nsEventStates
+EventStates
 eventStates
 =
 mContent
@@ -6732,7 +6741,7 @@ UpdateInListState
 aMouseEvent
 )
 ;
-nsEventStates
+EventStates
 eventStates
 =
 mContent
@@ -7791,7 +7800,7 @@ null
 "
 )
 ;
-nsEventStates
+EventStates
 eventStates
 =
 mContent
@@ -8457,7 +8466,7 @@ null
 "
 )
 ;
-nsEventStates
+EventStates
 eventStates
 =
 mContent

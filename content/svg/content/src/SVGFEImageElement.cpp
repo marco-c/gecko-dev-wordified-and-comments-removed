@@ -14,6 +14,15 @@ include
 "
 mozilla
 /
+EventStates
+.
+h
+"
+#
+include
+"
+mozilla
+/
 dom
 /
 SVGFEImageElementBinding
@@ -646,7 +655,7 @@ aNullParent
 )
 ;
 }
-nsEventStates
+EventStates
 SVGFEImageElement
 :
 :

@@ -78,7 +78,7 @@ HTMLMeterElement
 )
 ;
 virtual
-nsEventStates
+EventStates
 IntrinsicState
 (
 )
@@ -318,7 +318,7 @@ const
 double
 kDefaultMax
 ;
-nsEventStates
+EventStates
 GetOptimumState
 (
 )

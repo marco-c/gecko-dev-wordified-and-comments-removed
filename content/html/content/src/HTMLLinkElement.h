@@ -309,7 +309,7 @@ aTarget
 MOZ_OVERRIDE
 ;
 virtual
-nsEventStates
+EventStates
 IntrinsicState
 (
 )

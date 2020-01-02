@@ -257,6 +257,15 @@ include
 "
 mozilla
 /
+EventStates
+.
+h
+"
+#
+include
+"
+mozilla
+/
 IMEStateManager
 .
 h
@@ -4879,7 +4888,7 @@ IsElement
 return
 ;
 }
-nsEventStates
+EventStates
 eventState
 =
 NS_EVENT_STATE_FOCUS

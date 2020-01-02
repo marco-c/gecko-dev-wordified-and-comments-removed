@@ -48,6 +48,15 @@ include
 "
 mozilla
 /
+EventStates
+.
+h
+"
+#
+include
+"
+mozilla
+/
 dom
 /
 HTMLFormControlsCollection
@@ -69,13 +78,6 @@ h
 include
 "
 nsIHTMLDocument
-.
-h
-"
-#
-include
-"
-nsEventStates
 .
 h
 "
@@ -8528,7 +8530,7 @@ aValue
 )
 ;
 }
-nsEventStates
+EventStates
 HTMLFormElement
 :
 :
@@ -8537,7 +8539,7 @@ IntrinsicState
 )
 const
 {
-nsEventStates
+EventStates
 state
 =
 nsGenericHTMLElement

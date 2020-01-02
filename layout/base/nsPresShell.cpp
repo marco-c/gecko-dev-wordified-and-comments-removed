@@ -45,6 +45,15 @@ include
 "
 mozilla
 /
+EventStates
+.
+h
+"
+#
+include
+"
+mozilla
+/
 IMEStateManager
 .
 h
@@ -18113,7 +18122,7 @@ aDocument
 nsIContent
 *
 aContent
-nsEventStates
+EventStates
 aStateMask
 )
 {
@@ -18177,7 +18186,7 @@ DocumentStatesChanged
 nsIDocument
 *
 aDocument
-nsEventStates
+EventStates
 aStateMask
 )
 {

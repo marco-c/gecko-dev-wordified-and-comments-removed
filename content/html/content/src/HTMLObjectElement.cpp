@@ -3,6 +3,15 @@ include
 "
 mozilla
 /
+EventStates
+.
+h
+"
+#
+include
+"
+mozilla
+/
 dom
 /
 HTMLObjectElement
@@ -1480,7 +1489,7 @@ false
 )
 ;
 }
-nsEventStates
+EventStates
 HTMLObjectElement
 :
 :

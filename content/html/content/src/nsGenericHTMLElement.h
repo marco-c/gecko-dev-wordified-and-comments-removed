@@ -146,6 +146,9 @@ EventChainVisitor
 class
 EventListenerManager
 ;
+class
+EventStates
+;
 namespace
 dom
 {
@@ -3050,7 +3053,10 @@ aNotify
 MOZ_OVERRIDE
 ;
 virtual
-nsEventStates
+mozilla
+:
+:
+EventStates
 IntrinsicState
 (
 )
@@ -4817,7 +4823,10 @@ GetDesiredIMEState
 MOZ_OVERRIDE
 ;
 virtual
-nsEventStates
+mozilla
+:
+:
+EventStates
 IntrinsicState
 (
 )

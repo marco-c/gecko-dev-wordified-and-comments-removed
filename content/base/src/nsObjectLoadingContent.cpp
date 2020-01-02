@@ -64,13 +64,6 @@ h
 #
 include
 "
-nsEventStates
-.
-h
-"
-#
-include
-"
 nsIObjectFrame
 .
 h
@@ -454,6 +447,15 @@ include
 mozilla
 /
 EventDispatcher
+.
+h
+"
+#
+include
+"
+mozilla
+/
+EventStates
 .
 h
 "
@@ -4983,7 +4985,7 @@ return
 NS_OK
 ;
 }
-nsEventStates
+EventStates
 nsObjectLoadingContent
 :
 :
@@ -5018,7 +5020,7 @@ case
 eType_Document
 :
 return
-nsEventStates
+EventStates
 (
 )
 ;
@@ -8233,7 +8235,7 @@ mChannelLoaded
 false
 ;
 }
-nsEventStates
+EventStates
 oldState
 =
 ObjectState
@@ -10351,7 +10353,7 @@ NotifyStateChanged
 (
 ObjectType
 aOldType
-nsEventStates
+EventStates
 aOldState
 bool
 aSync
@@ -10506,7 +10508,7 @@ doc
 return
 ;
 }
-nsEventStates
+EventStates
 newState
 =
 ObjectState
@@ -10534,7 +10536,7 @@ confused
 "
 )
 ;
-nsEventStates
+EventStates
 changedBits
 =
 aOldState
@@ -11722,7 +11724,7 @@ bool
 aNotify
 )
 {
-nsEventStates
+EventStates
 oldState
 =
 ObjectState

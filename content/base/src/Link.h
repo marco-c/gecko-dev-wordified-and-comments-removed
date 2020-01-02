@@ -36,13 +36,6 @@ h
 #
 include
 "
-nsEventStates
-.
-h
-"
-#
-include
-"
 nsIContent
 .
 h
@@ -50,6 +43,9 @@ h
 namespace
 mozilla
 {
+class
+EventStates
+;
 namespace
 dom
 {
@@ -103,7 +99,7 @@ nsLinkState
 aState
 )
 ;
-nsEventStates
+EventStates
 LinkState
 (
 )

@@ -12,6 +12,15 @@ include
 "
 mozilla
 /
+EventStates
+.
+h
+"
+#
+include
+"
+mozilla
+/
 dom
 /
 SVGImageElement
@@ -777,7 +786,7 @@ aNullParent
 )
 ;
 }
-nsEventStates
+EventStates
 SVGImageElement
 :
 :

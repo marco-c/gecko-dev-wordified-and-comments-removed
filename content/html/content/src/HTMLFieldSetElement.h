@@ -331,7 +331,7 @@ Elements
 )
 ;
 virtual
-nsEventStates
+EventStates
 IntrinsicState
 (
 )

@@ -10,6 +10,15 @@ include
 "
 mozilla
 /
+EventStates
+.
+h
+"
+#
+include
+"
+mozilla
+/
 dom
 /
 HTMLMeterElementBinding
@@ -91,7 +100,7 @@ NS_IMPL_ELEMENT_CLONE
 (
 HTMLMeterElement
 )
-nsEventStates
+EventStates
 HTMLMeterElement
 :
 :
@@ -100,7 +109,7 @@ IntrinsicState
 )
 const
 {
-nsEventStates
+EventStates
 state
 =
 nsGenericHTMLElement
@@ -738,7 +747,7 @@ max
 )
 ;
 }
-nsEventStates
+EventStates
 HTMLMeterElement
 :
 :

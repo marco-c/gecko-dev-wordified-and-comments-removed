@@ -132,13 +132,6 @@ h
 #
 include
 "
-nsEventStates
-.
-h
-"
-#
-include
-"
 nsPresArena
 .
 h
@@ -315,6 +308,9 @@ SelectionType
 namespace
 mozilla
 {
+class
+EventStates
+;
 class
 Selection
 ;
@@ -1953,7 +1949,10 @@ aDocument
 nsIContent
 *
 aContent
-nsEventStates
+mozilla
+:
+:
+EventStates
 aStateMask
 )
 =

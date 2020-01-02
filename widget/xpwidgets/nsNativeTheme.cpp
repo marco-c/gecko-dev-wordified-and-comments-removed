@@ -143,6 +143,15 @@ include
 "
 mozilla
 /
+EventStates
+.
+h
+"
+#
+include
+"
+mozilla
+/
 dom
 /
 Element
@@ -183,6 +192,10 @@ include
 <
 algorithm
 >
+using
+namespace
+mozilla
+;
 using
 namespace
 mozilla
@@ -262,7 +275,7 @@ GetPresShell
 nullptr
 ;
 }
-nsEventStates
+EventStates
 nsNativeTheme
 :
 :
@@ -281,7 +294,7 @@ if
 aFrame
 )
 return
-nsEventStates
+EventStates
 (
 )
 ;
@@ -338,7 +351,7 @@ GetContent
 )
 )
 return
-nsEventStates
+EventStates
 (
 )
 ;
@@ -357,7 +370,7 @@ if
 shell
 )
 return
-nsEventStates
+EventStates
 (
 )
 ;
@@ -372,7 +385,7 @@ GetContent
 (
 )
 ;
-nsEventStates
+EventStates
 flags
 ;
 if
@@ -1118,7 +1131,7 @@ nsIFrame
 aFrame
 )
 {
-nsEventStates
+EventStates
 eventState
 =
 GetContentState
@@ -1610,7 +1623,7 @@ IsDisabled
 nsIFrame
 *
 aFrame
-nsEventStates
+EventStates
 aEventStates
 )
 {
@@ -2468,7 +2481,7 @@ IsIndeterminateProgress
 nsIFrame
 *
 aFrame
-nsEventStates
+EventStates
 aEventStates
 )
 {

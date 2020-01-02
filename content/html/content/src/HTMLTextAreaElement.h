@@ -51,13 +51,6 @@ h
 #
 include
 "
-nsEventStates
-.
-h
-"
-#
-include
-"
 nsStubMutationObserver
 .
 h
@@ -128,6 +121,9 @@ EventChainPostVisitor
 ;
 class
 EventChainPreVisitor
+;
+class
+EventStates
 ;
 namespace
 dom
@@ -274,7 +270,7 @@ aNotify
 MOZ_OVERRIDE
 ;
 virtual
-nsEventStates
+EventStates
 IntrinsicState
 (
 )

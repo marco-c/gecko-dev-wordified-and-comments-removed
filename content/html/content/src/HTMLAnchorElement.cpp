@@ -34,6 +34,15 @@ include
 "
 mozilla
 /
+EventStates
+.
+h
+"
+#
+include
+"
+mozilla
+/
 MemoryReporting
 .
 h
@@ -1546,7 +1555,7 @@ aResult
 )
 ;
 }
-nsEventStates
+EventStates
 HTMLAnchorElement
 :
 :

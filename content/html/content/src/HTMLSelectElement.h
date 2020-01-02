@@ -1020,7 +1020,7 @@ aNotify
 )
 MOZ_OVERRIDE
 ;
-nsEventStates
+EventStates
 IntrinsicState
 (
 )

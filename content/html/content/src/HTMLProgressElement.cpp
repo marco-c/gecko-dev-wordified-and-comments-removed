@@ -3,6 +3,15 @@ include
 "
 mozilla
 /
+EventStates
+.
+h
+"
+#
+include
+"
+mozilla
+/
 dom
 /
 HTMLProgressElement
@@ -101,7 +110,7 @@ NS_IMPL_ELEMENT_CLONE
 (
 HTMLProgressElement
 )
-nsEventStates
+EventStates
 HTMLProgressElement
 :
 :
@@ -110,7 +119,7 @@ IntrinsicState
 )
 const
 {
-nsEventStates
+EventStates
 state
 =
 nsGenericHTMLElement

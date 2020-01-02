@@ -43,7 +43,9 @@ h
 #
 include
 "
-nsEventStates
+mozilla
+/
+EventStates
 .
 h
 "
@@ -58,6 +60,10 @@ Element
 .
 h
 "
+using
+namespace
+mozilla
+;
 using
 namespace
 mozilla
@@ -138,7 +144,7 @@ NativeLinkState
 )
 const
 {
-nsEventStates
+EventStates
 eventState
 =
 mContent
@@ -491,7 +497,7 @@ IsDefunct
 return
 false
 ;
-nsEventStates
+EventStates
 state
 =
 mContent

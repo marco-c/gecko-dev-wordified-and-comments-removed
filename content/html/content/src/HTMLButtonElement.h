@@ -251,7 +251,7 @@ DoneCreatingElement
 )
 MOZ_OVERRIDE
 ;
-nsEventStates
+EventStates
 IntrinsicState
 (
 )

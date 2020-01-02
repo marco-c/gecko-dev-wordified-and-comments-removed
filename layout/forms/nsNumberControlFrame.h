@@ -146,7 +146,10 @@ virtual
 void
 ContentStatesChanged
 (
-nsEventStates
+mozilla
+:
+:
+EventStates
 aStates
 )
 MOZ_OVERRIDE

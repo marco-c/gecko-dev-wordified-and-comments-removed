@@ -194,13 +194,6 @@ h
 #
 include
 "
-nsEventStates
-.
-h
-"
-#
-include
-"
 nsNameSpaceManager
 .
 h
@@ -244,6 +237,15 @@ h
 include
 "
 nsIScrollableFrame
+.
+h
+"
+#
+include
+"
+mozilla
+/
+EventStates
 .
 h
 "
@@ -302,6 +304,10 @@ include
 <
 algorithm
 >
+using
+namespace
+mozilla
+;
 using
 namespace
 mozilla
@@ -5850,7 +5856,7 @@ HIRect
 inBoxRect
 bool
 inSelected
-nsEventStates
+EventStates
 inState
 nsIFrame
 *
@@ -6181,7 +6187,7 @@ inBoxRect
 nsIFrame
 *
 aFrame
-nsEventStates
+EventStates
 inState
 )
 {
@@ -6428,7 +6434,7 @@ const
 HIRect
 &
 inBoxRect
-nsEventStates
+EventStates
 inState
 uint8_t
 aWidgetType
@@ -7226,7 +7232,7 @@ ThemeButtonValue
 inValue
 ThemeButtonAdornment
 inAdornment
-nsEventStates
+EventStates
 inState
 nsIFrame
 *
@@ -7892,7 +7898,7 @@ const
 HIRect
 &
 inBoxRect
-nsEventStates
+EventStates
 inState
 uint8_t
 aWidgetType
@@ -8166,7 +8172,7 @@ ThemeDrawState
 inDrawState
 ThemeButtonAdornment
 inAdornment
-nsEventStates
+EventStates
 inState
 nsIFrame
 *
@@ -8262,7 +8268,7 @@ ThemeDrawState
 inDrawState
 ThemeButtonAdornment
 inAdornment
-nsEventStates
+EventStates
 inState
 nsIFrame
 *
@@ -8528,7 +8534,7 @@ HIRect
 inBoxRect
 bool
 inDisabled
-nsEventStates
+EventStates
 inState
 )
 {
@@ -9592,7 +9598,7 @@ state
 .
 *
 /
-nsEventStates
+EventStates
 states
 =
 aFrame
@@ -10056,7 +10062,7 @@ const
 HIRect
 &
 inBoxRect
-nsEventStates
+EventStates
 inState
 bool
 inIsVertical
@@ -10608,7 +10614,7 @@ const
 HIRect
 &
 inBoxRect
-nsEventStates
+EventStates
 inState
 nsIFrame
 *
@@ -10897,7 +10903,7 @@ inline
 UInt8
 ConvertToPressState
 (
-nsEventStates
+EventStates
 aButtonState
 UInt8
 aPressState
@@ -10945,7 +10951,7 @@ GetScrollbarPressStates
 nsIFrame
 *
 aFrame
-nsEventStates
+EventStates
 aButtonStates
 [
 ]
@@ -11603,7 +11609,7 @@ OnLionOrLater
 )
 )
 {
-nsEventStates
+EventStates
 buttonStates
 [
 4
@@ -13452,7 +13458,7 @@ bounds
 ;
 #
 endif
-nsEventStates
+EventStates
 eventState
 =
 GetContentState
