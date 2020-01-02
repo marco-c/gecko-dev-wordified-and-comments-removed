@@ -574,11 +574,6 @@ TextTrackRegion
 h
 '
 '
-TextTrackRegionList
-.
-h
-'
-'
 VideoPlaybackQuality
 .
 h
@@ -755,11 +750,6 @@ cpp
 '
 '
 TextTrackRegion
-.
-cpp
-'
-'
-TextTrackRegionList
 .
 cpp
 '

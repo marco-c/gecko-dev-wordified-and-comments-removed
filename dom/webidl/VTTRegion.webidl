@@ -146,16 +146,6 @@ enabled
 interface
 VTTRegion
 {
-readonly
-attribute
-TextTrack
-?
-track
-;
-attribute
-DOMString
-id
-;
 [
 SetterThrows
 ]
