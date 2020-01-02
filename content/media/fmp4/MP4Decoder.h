@@ -59,6 +59,16 @@ CreateStateMachine
 (
 )
 ;
+virtual
+nsresult
+SetCDMProxy
+(
+CDMProxy
+*
+aProxy
+)
+MOZ_OVERRIDE
+;
 static
 bool
 GetSupportedCodecs

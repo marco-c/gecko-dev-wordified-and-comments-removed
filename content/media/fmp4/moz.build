@@ -98,6 +98,13 @@ EXPORTS
 =
 [
 '
+eme
+/
+EMEDecoderModule
+.
+h
+'
+'
 MP4Decoder
 .
 h
@@ -119,6 +126,13 @@ UNIFIED_SOURCES
 [
 '
 BlankDecoderModule
+.
+cpp
+'
+'
+eme
+/
+EMEDecoderModule
 .
 cpp
 '

@@ -77,6 +77,16 @@ nsIRunnable
 aRunnable
 )
 ;
+nsresult
+SyncDispatch
+(
+TemporaryRef
+<
+nsIRunnable
+>
+aRunnable
+)
+;
 void
 Flush
 (
