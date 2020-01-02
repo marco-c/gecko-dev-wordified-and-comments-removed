@@ -441,6 +441,11 @@ NodeIterator
 h
 '
 '
+ResponsiveImageSelector
+.
+h
+'
+'
 ShadowRoot
 .
 h
@@ -897,6 +902,11 @@ cpp
 '
 '
 nsXMLNameSpaceMap
+.
+cpp
+'
+'
+ResponsiveImageSelector
 .
 cpp
 '
