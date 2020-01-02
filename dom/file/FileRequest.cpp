@@ -292,16 +292,8 @@ NS_ENSURE_STATE
 sc
 )
 ;
-AutoPushJSContext
+AutoJSContext
 cx
-(
-sc
--
->
-GetNativeContext
-(
-)
-)
 ;
 NS_ASSERTION
 (
