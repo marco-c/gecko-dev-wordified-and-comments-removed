@@ -415,7 +415,7 @@ GTK_STOCK_CANCEL
 GTK_RESPONSE_REJECT
 GTK_STOCK_OK
 GTK_RESPONSE_ACCEPT
-NULL
+nullptr
 )
 ;
 gtk_dialog_set_default_response
@@ -1110,7 +1110,7 @@ radio_as_laid_out
 =
 gtk_radio_button_new_with_mnemonic
 (
-NULL
+nullptr
 GetUTF8FromBundle
 (
 "
@@ -1226,7 +1226,7 @@ print_frames_label
 =
 gtk_label_new
 (
-NULL
+nullptr
 )
 ;
 char
@@ -1463,7 +1463,7 @@ page
 setup
 "
 TRUE
-NULL
+nullptr
 )
 ;
 }
@@ -1580,7 +1580,7 @@ appearance_label
 =
 gtk_label_new
 (
-NULL
+nullptr
 )
 ;
 pangoMarkup
@@ -1707,7 +1707,7 @@ header_footer_label
 =
 gtk_label_new
 (
-NULL
+nullptr
 )
 ;
 pangoMarkup
@@ -3162,7 +3162,7 @@ GTK_COMBO_BOX_TEXT
 (
 dropdown
 )
-NULL
+nullptr
 GetUTF8FromBundle
 (
 hf_options

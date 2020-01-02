@@ -569,7 +569,7 @@ list
 =
 gtk_target_list_new
 (
-NULL
+nullptr
 0
 )
 ;
@@ -972,7 +972,7 @@ guchar
 *
 data
 =
-NULL
+nullptr
 ;
 gint
 length
@@ -1647,7 +1647,7 @@ GdkAtom
 *
 targets
 =
-NULL
+nullptr
 ;
 if
 (
@@ -3658,7 +3658,7 @@ GtkWidget
 *
 cbWidget
 =
-NULL
+nullptr
 ;
 gdk_window_get_user_data
 (
@@ -3916,7 +3916,7 @@ context
 .
 cbWidget
 =
-NULL
+nullptr
 ;
 context
 .
@@ -4101,8 +4101,8 @@ select
 cnumber
 &
 select_set
-NULL
-NULL
+nullptr
+nullptr
 &
 tv
 )

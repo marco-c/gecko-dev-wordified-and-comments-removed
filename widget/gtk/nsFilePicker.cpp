@@ -328,7 +328,7 @@ gdk_pixbuf_new_from_file_at_size
 image_filename
 MAX_PREVIEW_SIZE
 MAX_PREVIEW_SIZE
-NULL
+nullptr
 )
 ;
 }
@@ -339,7 +339,7 @@ preview_pixbuf
 gdk_pixbuf_new_from_file
 (
 image_filename
-NULL
+nullptr
 )
 ;
 }
@@ -1390,7 +1390,7 @@ GTK_STOCK_CANCEL
 GTK_RESPONSE_CANCEL
 accept_button
 GTK_RESPONSE_ACCEPT
-NULL
+nullptr
 )
 ;
 gtk_dialog_set_alternative_button_order
@@ -1757,7 +1757,7 @@ j
 ]
 !
 =
-NULL
+nullptr
 ;
 +
 +

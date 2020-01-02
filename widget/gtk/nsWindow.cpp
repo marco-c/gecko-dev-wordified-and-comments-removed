@@ -1271,7 +1271,7 @@ nsWindow
 *
 gFocusWindow
 =
-NULL
+nullptr
 ;
 static
 bool
@@ -1296,7 +1296,7 @@ nsWindow
 *
 gPluginFocusWindow
 =
-NULL
+nullptr
 ;
 #
 define
@@ -1324,7 +1324,7 @@ GtkWidget
 *
 gInvisibleContainer
 =
-NULL
+nullptr
 ;
 static
 guint
@@ -2211,7 +2211,7 @@ gInvisibleContainer
 ;
 gInvisibleContainer
 =
-NULL
+nullptr
 ;
 }
 }
@@ -2862,7 +2862,7 @@ DestroyChildWindows
 gdk_window_set_user_data
 (
 mGdkWindow
-NULL
+nullptr
 )
 ;
 g_object_set_data
@@ -2874,7 +2874,7 @@ mGdkWindow
 "
 nsWindow
 "
-NULL
+nullptr
 )
 ;
 gdk_window_destroy
@@ -6101,7 +6101,7 @@ GdkCursor
 *
 newCursor
 =
-NULL
+nullptr
 ;
 newCursor
 =
@@ -6935,7 +6935,7 @@ path
 get
 (
 )
-NULL
+nullptr
 )
 ;
 if
@@ -7524,13 +7524,13 @@ MOZ_WIDGET_GTK
 gdk_window_get_geometry
 (
 aGdkWindow
-NULL
-NULL
+nullptr
+nullptr
 &
 width
 &
 height
-NULL
+nullptr
 )
 ;
 #
@@ -7538,8 +7538,8 @@ else
 gdk_window_get_geometry
 (
 aGdkWindow
-NULL
-NULL
+nullptr
+nullptr
 &
 width
 &
@@ -9528,7 +9528,7 @@ type
 "
 &
 type
-NULL
+nullptr
 )
 ;
 if
@@ -9602,12 +9602,12 @@ mGdkWindow
 "
 nsWindow
 "
-NULL
+nullptr
 )
 ;
 mGdkWindow
 =
-NULL
+nullptr
 ;
 }
 }
@@ -9837,7 +9837,7 @@ aEvent
 subwindow
 !
 =
-NULL
+nullptr
 )
 return
 ;
@@ -10042,7 +10042,7 @@ aEvent
 subwindow
 !
 =
-NULL
+nullptr
 )
 return
 ;
@@ -12981,7 +12981,7 @@ mHasMappedToplevel
 gdk_window_invalidate_rect
 (
 mGdkWindow
-NULL
+nullptr
 FALSE
 )
 ;
@@ -13733,7 +13733,7 @@ MOZ_WIDGET_GTK
 gdk_window_set_back_pixmap
 (
 window
-NULL
+nullptr
 FALSE
 )
 ;
@@ -14315,7 +14315,7 @@ gtk_widget_get_window
 mShell
 )
 popup_take_focus_filter
-NULL
+nullptr
 )
 ;
 #
@@ -14746,7 +14746,7 @@ G_CALLBACK
 (
 configure_event_cb
 )
-NULL
+nullptr
 )
 ;
 g_signal_connect
@@ -14759,7 +14759,7 @@ G_CALLBACK
 (
 delete_event_cb
 )
-NULL
+nullptr
 )
 ;
 g_signal_connect
@@ -14772,7 +14772,7 @@ G_CALLBACK
 (
 window_state_event_cb
 )
-NULL
+nullptr
 )
 ;
 GtkSettings
@@ -14839,7 +14839,7 @@ G_CALLBACK
 (
 container_unrealize_cb
 )
-NULL
+nullptr
 )
 ;
 g_signal_connect_after
@@ -14852,7 +14852,7 @@ G_CALLBACK
 (
 size_allocate_cb
 )
-NULL
+nullptr
 )
 ;
 g_signal_connect
@@ -14867,7 +14867,7 @@ G_CALLBACK
 (
 hierarchy_changed_cb
 )
-NULL
+nullptr
 )
 ;
 hierarchy_changed_cb
@@ -14876,7 +14876,7 @@ GTK_WIDGET
 (
 mContainer
 )
-NULL
+nullptr
 )
 ;
 #
@@ -14897,7 +14897,7 @@ G_CALLBACK
 (
 expose_event_cb
 )
-NULL
+nullptr
 )
 ;
 #
@@ -14915,7 +14915,7 @@ G_CALLBACK
 (
 expose_event_cb
 )
-NULL
+nullptr
 )
 ;
 #
@@ -14930,7 +14930,7 @@ G_CALLBACK
 (
 focus_in_event_cb
 )
-NULL
+nullptr
 )
 ;
 g_signal_connect
@@ -14943,7 +14943,7 @@ G_CALLBACK
 (
 focus_out_event_cb
 )
-NULL
+nullptr
 )
 ;
 g_signal_connect
@@ -14956,7 +14956,7 @@ G_CALLBACK
 (
 key_press_event_cb
 )
-NULL
+nullptr
 )
 ;
 g_signal_connect
@@ -14969,7 +14969,7 @@ G_CALLBACK
 (
 key_release_event_cb
 )
-NULL
+nullptr
 )
 ;
 gtk_drag_dest_set
@@ -14983,7 +14983,7 @@ mContainer
 GtkDestDefaults
 )
 0
-NULL
+nullptr
 0
 (
 GdkDragAction
@@ -15001,7 +15001,7 @@ G_CALLBACK
 (
 drag_motion_event_cb
 )
-NULL
+nullptr
 )
 ;
 g_signal_connect
@@ -15014,7 +15014,7 @@ G_CALLBACK
 (
 drag_leave_event_cb
 )
-NULL
+nullptr
 )
 ;
 g_signal_connect
@@ -15027,7 +15027,7 @@ G_CALLBACK
 (
 drag_drop_event_cb
 )
-NULL
+nullptr
 )
 ;
 g_signal_connect
@@ -15040,7 +15040,7 @@ G_CALLBACK
 (
 drag_data_received_event_cb
 )
-NULL
+nullptr
 )
 ;
 GtkWidget
@@ -15099,7 +15099,7 @@ G_CALLBACK
 (
 visibility_notify_event_cb
 )
-NULL
+nullptr
 )
 ;
 gtk_widget_set_double_buffered
@@ -15194,7 +15194,7 @@ G_CALLBACK
 (
 enter_notify_event_cb
 )
-NULL
+nullptr
 )
 ;
 g_signal_connect
@@ -15211,7 +15211,7 @@ G_CALLBACK
 (
 leave_notify_event_cb
 )
-NULL
+nullptr
 )
 ;
 g_signal_connect
@@ -15228,7 +15228,7 @@ G_CALLBACK
 (
 motion_notify_event_cb
 )
-NULL
+nullptr
 )
 ;
 g_signal_connect
@@ -15245,7 +15245,7 @@ G_CALLBACK
 (
 button_press_event_cb
 )
-NULL
+nullptr
 )
 ;
 g_signal_connect
@@ -15262,7 +15262,7 @@ G_CALLBACK
 (
 button_release_event_cb
 )
-NULL
+nullptr
 )
 ;
 g_signal_connect
@@ -15277,7 +15277,7 @@ G_CALLBACK
 (
 scroll_event_cb
 )
-NULL
+nullptr
 )
 ;
 }
@@ -15477,7 +15477,7 @@ char
 *
 role
 =
-NULL
+nullptr
 ;
 for
 (
@@ -16147,7 +16147,7 @@ mIsFullyObscured
 gdk_window_invalidate_rect
 (
 mGdkWindow
-NULL
+nullptr
 FALSE
 )
 ;
@@ -18465,8 +18465,8 @@ GDK_POINTER_MOTION_MASK
 GdkWindow
 *
 )
-NULL
-NULL
+nullptr
+nullptr
 aTime
 )
 ;
@@ -18625,7 +18625,7 @@ if
 mGdkWindow
 )
 return
-NULL
+nullptr
 ;
 if
 (
@@ -19069,7 +19069,7 @@ this
 ;
 gdk_window_add_filter
 (
-NULL
+nullptr
 plugin_client_message_filter
 this
 )
@@ -19209,7 +19209,7 @@ gdk_error_trap_pop
 }
 gPluginFocusWindow
 =
-NULL
+nullptr
 ;
 mOldFocusWindow
 =
@@ -19217,7 +19217,7 @@ mOldFocusWindow
 ;
 gdk_window_remove_filter
 (
-NULL
+nullptr
 plugin_client_message_filter
 this
 )
@@ -20184,7 +20184,7 @@ window
 gpointer
 user_data
 =
-NULL
+nullptr
 ;
 gdk_window_get_user_data
 (
@@ -20680,7 +20680,7 @@ if
 cursor_pixbuf
 )
 return
-NULL
+nullptr
 ;
 guchar
 *
@@ -22848,7 +22848,7 @@ event
 .
 window
 =
-NULL
+nullptr
 ;
 event
 .
@@ -23544,7 +23544,7 @@ cy
 cw
 &
 ch
-NULL
+nullptr
 )
 ;
 #
@@ -24487,7 +24487,7 @@ XRenderPictFormat
 *
 pf
 =
-NULL
+nullptr
 ;
 switch
 (
@@ -24750,7 +24750,7 @@ target
 )
 ;
 return
-NULL
+nullptr
 ;
 }
 #

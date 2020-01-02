@@ -307,7 +307,7 @@ i
 instance
 !
 =
-NULL
+nullptr
 )
 {
 fullName

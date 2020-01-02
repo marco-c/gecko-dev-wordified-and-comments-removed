@@ -141,7 +141,7 @@ mHaveBidiKeyboards
 GdkKeymapHaveBidiLayouts
 )
 (
-NULL
+nullptr
 )
 ;
 #

@@ -379,12 +379,12 @@ sPollFunc
 =
 g_main_context_get_poll_func
 (
-NULL
+nullptr
 )
 ;
 g_main_context_set_poll_func
 (
-NULL
+nullptr
 &
 PollWrapper
 )
@@ -664,7 +664,7 @@ mayWait
 return
 g_main_context_iteration
 (
-NULL
+nullptr
 mayWait
 )
 ;

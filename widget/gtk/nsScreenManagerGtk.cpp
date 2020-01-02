@@ -357,7 +357,7 @@ XineramaScreenInfo
 *
 screenInfo
 =
-NULL
+nullptr
 ;
 int
 numScreens

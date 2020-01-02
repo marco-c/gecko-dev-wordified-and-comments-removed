@@ -231,7 +231,7 @@ PRLogModuleInfo
 *
 sDragLm
 =
-NULL
+nullptr
 ;
 static
 guint
@@ -508,7 +508,7 @@ G_CALLBACK
 invisibleSourceDragFailed
 )
 this
-NULL
+nullptr
 )
 FALSE
 )
@@ -757,7 +757,7 @@ sMotionEvent
 ;
 sMotionEvent
 =
-NULL
+nullptr
 ;
 if
 (
@@ -936,8 +936,8 @@ g_timeout_add_full
 G_PRIORITY_DEFAULT_IDLE
 350
 DispatchMotionEventCopy
-NULL
-NULL
+nullptr
+nullptr
 )
 ;
 }
@@ -968,7 +968,7 @@ if
 doc
 )
 return
-NULL
+nullptr
 ;
 nsCOMPtr
 <
@@ -989,7 +989,7 @@ if
 presShell
 )
 return
-NULL
+nullptr
 ;
 nsRefPtr
 <
@@ -1010,7 +1010,7 @@ if
 vm
 )
 return
-NULL
+nullptr
 ;
 nsCOMPtr
 <
@@ -1035,7 +1035,7 @@ if
 widget
 )
 return
-NULL
+nullptr
 ;
 GtkWidget
 *
@@ -1065,13 +1065,13 @@ if
 gtkWidget
 )
 return
-NULL
+nullptr
 ;
 GtkWidget
 *
 toplevel
 =
-NULL
+nullptr
 ;
 toplevel
 =
@@ -1089,7 +1089,7 @@ toplevel
 )
 )
 return
-NULL
+nullptr
 ;
 return
 GTK_WINDOW
@@ -1509,7 +1509,7 @@ pixmap
 =
 gdk_pixmap_new
 (
-NULL
+nullptr
 dragRect
 .
 width
@@ -1634,7 +1634,7 @@ gtk_drag_set_icon_pixmap
 aContext
 alphaColormap
 pixmap
-NULL
+nullptr
 aXOffset
 aYOffset
 )
@@ -1735,7 +1735,7 @@ sGrabWidget
 ;
 sGrabWidget
 =
-NULL
+nullptr
 ;
 if
 (
@@ -1764,7 +1764,7 @@ sMotionEvent
 ;
 sMotionEvent
 =
-NULL
+nullptr
 ;
 }
 }
@@ -4350,7 +4350,7 @@ gchar
 *
 name
 =
-NULL
+nullptr
 ;
 name
 =
@@ -4904,7 +4904,7 @@ mTargetDragContext
 )
 =
 =
-NULL
+nullptr
 )
 return
 retval
@@ -4947,7 +4947,7 @@ gchar
 *
 name
 =
-NULL
+nullptr
 ;
 name
 =
@@ -5201,7 +5201,7 @@ if
 mSourceDataItems
 )
 return
-NULL
+nullptr
 ;
 nsTArray
 <
@@ -6148,12 +6148,12 @@ display
 gdk_display_get_pointer
 (
 display
-NULL
+nullptr
 &
 x
 &
 y
-NULL
+nullptr
 )
 ;
 SetDragEndPoint
@@ -6282,7 +6282,7 @@ Schedule
 (
 eDragTaskSourceEnd
 nullptr
-NULL
+nullptr
 nsIntPoint
 (
 )
@@ -6316,7 +6316,7 @@ uriList
 =
 g_string_new
 (
-NULL
+nullptr
 )
 ;
 items
@@ -6388,7 +6388,7 @@ void
 *
 tmpData
 =
-NULL
+nullptr
 ;
 nsresult
 rv
@@ -6879,7 +6879,7 @@ void
 *
 tmpData
 =
-NULL
+nullptr
 ;
 nsresult
 rv
@@ -7600,7 +7600,7 @@ Schedule
 (
 eDragTaskLeave
 nullptr
-NULL
+nullptr
 nsIntPoint
 (
 )
@@ -7758,7 +7758,7 @@ g_idle_add_full
 G_PRIORITY_HIGH
 TaskDispatchCallback
 this
-NULL
+nullptr
 )
 ;
 }
@@ -8031,11 +8031,11 @@ true
 }
 mTargetWidget
 =
-NULL
+nullptr
 ;
 mTargetDragContext
 =
-NULL
+nullptr
 ;
 if
 (

@@ -800,7 +800,7 @@ GtkIMContext
 *
 slave
 =
-NULL
+nullptr
 ;
 #
 endif
@@ -855,7 +855,7 @@ gtk_check_version
 )
 =
 =
-NULL
+nullptr
 )
 {
 return
@@ -908,8 +908,8 @@ container
 G_SIGNAL_MATCH_DATA
 0
 0
-NULL
-NULL
+nullptr
+nullptr
 signal_data
 )
 ;
@@ -5075,10 +5075,10 @@ g_utf8_to_utf16
 (
 preedit_string
 start
-NULL
+nullptr
 &
 uniStrLen
-NULL
+nullptr
 )
 ;
 if
@@ -5116,10 +5116,10 @@ start
 end
 -
 start
-NULL
+nullptr
 &
 uniStrLen
-NULL
+nullptr
 )
 ;
 if
