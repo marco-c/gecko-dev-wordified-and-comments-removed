@@ -185,6 +185,11 @@ Paint
 Paint
 (
 )
+:
+mPaintType
+(
+eStyleSVGPaintType_None
+)
 {
 }
 void

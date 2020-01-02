@@ -4997,6 +4997,16 @@ forget
 ;
 default
 :
+MOZ_ASSERT
+(
+false
+"
+invalid
+paint
+type
+"
+)
+;
 return
 nullptr
 ;
