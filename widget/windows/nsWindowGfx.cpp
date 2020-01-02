@@ -249,8 +249,10 @@ SM_CYICON
 }
 }
 ;
-static
 bool
+nsWindow
+:
+:
 IsRenderMode
 (
 gfxWindowsPlatform
