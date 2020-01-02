@@ -512,9 +512,7 @@ gfxFontFeature
 >
 &
 aFeatureSettings
-const
-nsString
-&
+uint32_t
 aLanguageOverride
 gfxSparseBitSet
 *
@@ -590,17 +588,6 @@ family
 )
 ;
 }
-uint32_t
-languageOverride
-=
-gfxFontStyle
-:
-:
-ParseFontLanguageOverride
-(
-aLanguageOverride
-)
-;
 nsTArray
 <
 nsRefPtr
@@ -689,7 +676,7 @@ aWeight
 aStretch
 aItalicStyle
 aFeatureSettings
-languageOverride
+aLanguageOverride
 aUnicodeRanges
 )
 )
@@ -721,7 +708,7 @@ aWeight
 aStretch
 aItalicStyle
 aFeatureSettings
-languageOverride
+aLanguageOverride
 aUnicodeRanges
 )
 ;

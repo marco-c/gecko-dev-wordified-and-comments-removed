@@ -623,9 +623,7 @@ gfxFontFeature
 >
 &
 aFeatureSettings
-const
-nsString
-&
+uint32_t
 aLanguageOverride
 gfxSparseBitSet
 *
