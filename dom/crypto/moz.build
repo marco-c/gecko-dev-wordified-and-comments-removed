@@ -127,11 +127,6 @@ CryptoKeyPair
 h
 '
 '
-EcKeyAlgorithm
-.
-h
-'
-'
 HmacKeyAlgorithm
 .
 h
@@ -183,11 +178,6 @@ cpp
 '
 '
 CryptoKeyPair
-.
-cpp
-'
-'
-EcKeyAlgorithm
 .
 cpp
 '
