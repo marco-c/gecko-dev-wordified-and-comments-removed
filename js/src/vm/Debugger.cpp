@@ -12437,11 +12437,11 @@ url
 (
 cx
 )
-sourceURL
+displayURL
 (
 cx
 )
-sourceURLChars
+displayURLChars
 (
 nullptr
 )
@@ -12919,7 +12919,7 @@ names
 .
 displayURL
 &
-sourceURL
+displayURL
 )
 )
 return
@@ -12928,7 +12928,7 @@ false
 if
 (
 !
-sourceURL
+displayURL
 .
 isUndefined
 (
@@ -12936,7 +12936,7 @@ isUndefined
 &
 &
 !
-sourceURL
+displayURL
 .
 isString
 (
@@ -12995,7 +12995,7 @@ innermost
 =
 false
 ;
-sourceURLChars
+displayURLChars
 =
 nullptr
 ;
@@ -13189,15 +13189,15 @@ JSAutoByteString
 urlCString
 ;
 RootedValue
-sourceURL
+displayURL
 ;
 const
 jschar
 *
-sourceURLChars
+displayURLChars
 ;
 size_t
-sourceURLLength
+displayURLLength
 ;
 bool
 hasLine
@@ -13437,7 +13437,7 @@ false
 }
 if
 (
-sourceURL
+displayURL
 .
 isString
 (
@@ -13448,13 +13448,13 @@ JSString
 *
 s
 =
-sourceURL
+displayURL
 .
 toString
 (
 )
 ;
-sourceURLChars
+displayURLChars
 =
 s
 -
@@ -13464,7 +13464,7 @@ getChars
 cx
 )
 ;
-sourceURLLength
+displayURLLength
 =
 s
 -
@@ -13476,7 +13476,7 @@ length
 if
 (
 !
-sourceURLChars
+displayURLChars
 )
 return
 false
@@ -13645,7 +13645,7 @@ return
 }
 if
 (
-sourceURLChars
+displayURLChars
 )
 {
 if
@@ -13668,7 +13668,7 @@ scriptSource
 )
 -
 >
-hasSourceURL
+hasDisplayURL
 (
 )
 )
@@ -13687,7 +13687,7 @@ scriptSource
 )
 -
 >
-sourceURL
+displayURL
 (
 )
 ;
@@ -13700,8 +13700,8 @@ js_strlen
 (
 s
 )
-sourceURLChars
-sourceURLLength
+displayURLChars
+displayURLLength
 )
 !
 =
@@ -20386,7 +20386,7 @@ if
 ss
 -
 >
-hasSourceURL
+hasDisplayURL
 (
 )
 )
@@ -20401,7 +20401,7 @@ cx
 ss
 -
 >
-sourceURL
+displayURL
 (
 )
 )

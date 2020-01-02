@@ -100,7 +100,7 @@ x
 }
 "
 {
-sourceURL
+displayURL
 :
 '
 file
@@ -208,7 +208,7 @@ debugger
 ;
 '
 {
-sourceURL
+displayURL
 :
 '
 file
@@ -624,7 +624,7 @@ foo
 js
 '
 {
-sourceMapURL
+displayURL
 :
 '
 http

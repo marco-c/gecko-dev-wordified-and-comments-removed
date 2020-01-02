@@ -1259,7 +1259,7 @@ filename
 (
 )
 )
-sourceURL_
+displayURL_
 (
 nullptr
 )
@@ -1582,7 +1582,7 @@ TokenStream
 {
 js_free
 (
-sourceURL_
+displayURL_
 )
 ;
 js_free
@@ -3654,7 +3654,7 @@ shouldWarnDeprecated
 if
 (
 !
-getSourceURL
+getDisplayURL
 (
 isMultiline
 shouldWarnDeprecated
@@ -3918,7 +3918,7 @@ bool
 TokenStream
 :
 :
-getSourceURL
+getDisplayURL
 (
 bool
 isMultiline
@@ -3940,7 +3940,7 @@ sourceURL
 sourceURL
 "
 &
-sourceURL_
+displayURL_
 )
 ;
 }
