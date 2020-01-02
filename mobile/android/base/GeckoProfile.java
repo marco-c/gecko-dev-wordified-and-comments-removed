@@ -933,6 +933,12 @@ lock
 (
 )
 ;
+profile
+.
+enqueueInitialization
+(
+)
+;
 return
 profile
 ;
