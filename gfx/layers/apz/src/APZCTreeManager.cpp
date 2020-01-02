@@ -3684,7 +3684,7 @@ aOverscrollHandoffChainIndex
 )
 ;
 }
-void
+bool
 APZCTreeManager
 :
 :
@@ -3791,6 +3791,7 @@ nullptr
 )
 {
 return
+false
 ;
 }
 ScreenPoint
@@ -3819,6 +3820,7 @@ endPoint
 -
 startPoint
 ;
+return
 next
 -
 >

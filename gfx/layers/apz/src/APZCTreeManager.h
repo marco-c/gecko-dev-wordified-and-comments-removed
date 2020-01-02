@@ -382,7 +382,7 @@ uint32_t
 aOverscrollHandoffChainIndex
 )
 ;
-void
+bool
 HandOffFling
 (
 AsyncPanZoomController
