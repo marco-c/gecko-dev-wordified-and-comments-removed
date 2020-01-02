@@ -243,6 +243,7 @@ permissions
 xul
 "
 "
+resizable
 "
 params
 )
@@ -938,6 +939,7 @@ translation
 xul
 "
 "
+resizable
 "
 null
 )

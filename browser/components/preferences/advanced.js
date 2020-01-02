@@ -1837,6 +1837,7 @@ permissions
 xul
 "
 "
+resizable
 "
 params
 )

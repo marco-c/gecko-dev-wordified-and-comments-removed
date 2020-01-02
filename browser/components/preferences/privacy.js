@@ -1952,6 +1952,7 @@ permissions
 xul
 "
 "
+resizable
 "
 params
 )
@@ -1991,6 +1992,7 @@ cookies
 xul
 "
 "
+resizable
 "
 null
 )

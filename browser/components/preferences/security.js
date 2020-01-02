@@ -328,6 +328,7 @@ passwordManagerExceptions
 xul
 "
 "
+resizable
 "
 null
 )
@@ -777,6 +778,7 @@ passwordManager
 xul
 "
 "
+resizable
 "
 null
 )
