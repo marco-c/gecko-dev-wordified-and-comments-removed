@@ -14924,9 +14924,10 @@ global
 JS
 :
 :
-ExposeObjectToActiveJS
+ExposeGCThingToActiveJS
 (
 global
+JSTRACE_OBJECT
 )
 ;
 RootedValue

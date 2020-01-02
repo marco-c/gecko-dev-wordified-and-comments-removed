@@ -426,7 +426,7 @@ closurep
 JS
 :
 :
-ExposeObjectToActiveJS
+ExposeGCThingToActiveJS
 (
 p
 -
@@ -436,6 +436,7 @@ value
 )
 .
 closure
+JSTRACE_OBJECT
 )
 ;
 *
@@ -695,9 +696,10 @@ slot
 JS
 :
 :
-ExposeObjectToActiveJS
+ExposeGCThingToActiveJS
 (
 closure
+JSTRACE_OBJECT
 )
 ;
 return
