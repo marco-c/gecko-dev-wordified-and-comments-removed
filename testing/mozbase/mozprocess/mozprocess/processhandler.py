@@ -1,8 +1,4 @@
 import
-logging
-import
-mozinfo
-import
 os
 import
 select
@@ -47,9 +43,27 @@ getenv
 MOZPROCESS_DEBUG
 "
 )
-if
-mozinfo
+isWin
+=
+os
 .
+name
+=
+=
+"
+nt
+"
+isPosix
+=
+os
+.
+name
+=
+=
+"
+posix
+"
+if
 isWin
 :
     
@@ -116,13 +130,46 @@ command
 to
 run
 .
+May
+be
+a
+string
+or
+a
+list
+.
+If
+specified
+as
+a
+list
+the
+first
+element
+will
+be
+interpreted
+as
+the
+command
+and
+all
+additional
+elements
+will
+be
+interpreted
+as
+arguments
+to
+that
+command
+.
     
 :
 param
 args
 :
-is
-a
 list
 of
 arguments
@@ -136,6 +183,18 @@ defaults
 to
 None
 )
+.
+Must
+not
+be
+set
+when
+cmd
+is
+specified
+as
+a
+list
 .
     
 :
@@ -499,8 +558,6 @@ self
 _ignore_children
 and
 not
-mozinfo
-.
 isWin
 :
                 
@@ -580,8 +637,6 @@ maxint
 :
             
 if
-mozinfo
-.
 isWin
 :
                 
@@ -670,8 +725,6 @@ returncode
 0
             
 if
-mozinfo
-.
 isWin
 :
                 
@@ -988,8 +1041,6 @@ class
 "
         
 if
-mozinfo
-.
 isWin
 :
             
@@ -2878,13 +2929,7 @@ _handle
 None
         
 elif
-mozinfo
-.
-isMac
-or
-mozinfo
-.
-isUnix
+isPosix
 :
             
 def
@@ -2955,7 +3000,8 @@ _ignore_children
 try
 :
                         
-return
+status
+=
 os
 .
 waitpid
@@ -2968,6 +3014,22 @@ pid
 [
 1
 ]
+                        
+if
+status
+>
+255
+:
+                            
+return
+status
+>
+>
+8
+                        
+return
+-
+status
                     
 except
 OSError
@@ -3248,7 +3310,6 @@ onFinish
 )
         
 if
-not
 isinstance
 (
 self
@@ -3258,33 +3319,69 @@ list
 )
 :
             
-self
-.
-cmd
-=
-[
-self
-.
-cmd
-]
-        
 if
 self
 .
 args
+!
+=
+None
+:
+                
+raise
+TypeError
+(
+"
+cmd
+and
+args
+must
+not
+both
+be
+lists
+"
+)
+            
+(
+self
+.
+cmd
+self
+.
+args
+)
+=
+(
+self
+.
+cmd
+[
+0
+]
+self
+.
+cmd
+[
+1
+:
+]
+)
+        
+elif
+self
+.
+args
+is
+None
 :
             
 self
 .
-cmd
-=
-self
-.
-cmd
-+
-self
-.
 args
+=
+[
+]
     
 property
     
@@ -3521,9 +3618,15 @@ self
 .
 Process
 (
+[
 self
 .
 cmd
+]
++
+self
+.
+args
 *
 *
 args
@@ -4061,11 +4164,6 @@ lines
 =
 "
 "
-and
-not
-self
-.
-didTimeout
 :
                 
 for
@@ -4088,6 +4186,14 @@ rstrip
 (
 )
 )
+                
+if
+self
+.
+didTimeout
+:
+                    
+break
                 
 if
 timeout
@@ -4273,6 +4379,46 @@ the
 process
 .
         
+Returns
+the
+process
+'
+exit
+code
+.
+A
+None
+value
+indicates
+the
+        
+process
+hasn
+'
+t
+terminated
+yet
+.
+A
+negative
+value
+-
+N
+indicates
+        
+the
+process
+was
+killed
+by
+signal
+N
+(
+Unix
+only
+)
+.
+        
 "
 "
 "
@@ -4384,8 +4530,6 @@ timeout
 )
     
 if
-mozinfo
-.
 isWin
 :
         
@@ -4660,11 +4804,22 @@ not
 output
 :
                     
-return
-(
+output
+=
 self
 .
 read_buffer
+                    
+self
+.
+read_buffer
+=
+'
+'
+                    
+return
+(
+output
 False
 )
                 
