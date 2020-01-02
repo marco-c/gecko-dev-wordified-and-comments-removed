@@ -3668,6 +3668,17 @@ JSObject
 obj
 )
 ;
+void
+PostGlobalWriteBarrier
+(
+JSRuntime
+*
+rt
+JSObject
+*
+obj
+)
+;
 #
 endif
 uint32_t

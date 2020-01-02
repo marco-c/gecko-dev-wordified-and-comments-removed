@@ -254,6 +254,10 @@ typeReprs
 (
 runtime_
 )
+globalWriteBarriered
+(
+false
+)
 propertyTree
 (
 thisForCtor

@@ -814,6 +814,9 @@ js
 TypeRepresentationHash
 typeReprs
 ;
+bool
+globalWriteBarriered
+;
 private
 :
 void
