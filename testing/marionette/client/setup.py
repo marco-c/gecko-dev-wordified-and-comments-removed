@@ -12,9 +12,7 @@ version
 '
 0
 .
-7
-.
-10
+8
 '
 with
 open
