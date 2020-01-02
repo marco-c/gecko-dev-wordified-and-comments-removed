@@ -147,6 +147,11 @@ gc
 struct
 Cell
 ;
+template
+<
+typename
+T
+>
 struct
 PersistentRootedMarker
 ;
@@ -4915,6 +4920,9 @@ gc
 :
 :
 PersistentRootedMarker
+<
+T
+>
 ;
 void
 registerWithRuntime
