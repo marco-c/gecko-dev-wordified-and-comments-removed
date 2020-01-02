@@ -157,14 +157,6 @@ xpcom
 base
 '
 ]
-DEFINES
-[
-'
-MOZILLA_INTERNAL_API
-'
-]
-=
-True
 #
 component
 libraries
