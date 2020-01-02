@@ -6738,12 +6738,11 @@ data
 )
 {
 data
-.
-set
-(
+[
 key
+]
+=
 dval
-)
 ;
 }
 }
