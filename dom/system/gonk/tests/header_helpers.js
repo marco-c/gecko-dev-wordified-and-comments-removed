@@ -354,7 +354,7 @@ writeIndex
 ;
 }
 function
-writeUint32
+writeInt32
 (
 value
 )
@@ -470,12 +470,12 @@ writeParcelSize
 fakeParcelSize
 )
 ;
-writeUint32
+writeInt32
 (
 response
 )
 ;
-writeUint32
+writeInt32
 (
 request
 )

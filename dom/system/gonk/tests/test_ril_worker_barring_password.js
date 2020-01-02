@@ -175,7 +175,7 @@ do_check_eq
 (
 this
 .
-readUint32
+readInt32
 (
 )
 REQUEST_CHANGE_BARRING_PASSWORD
@@ -183,7 +183,7 @@ REQUEST_CHANGE_BARRING_PASSWORD
 ;
 this
 .
-readUint32
+readInt32
 (
 )
 ;

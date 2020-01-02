@@ -360,7 +360,7 @@ cdmaHome
 ;
 buf
 .
-writeUint32
+writeInt32
 (
 cdmaHome
 .
@@ -600,7 +600,7 @@ options
 {
 buf
 .
-writeUint32
+writeInt32
 (
 file
 .

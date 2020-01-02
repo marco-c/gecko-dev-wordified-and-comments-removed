@@ -157,7 +157,7 @@ worker
 .
 Buf
 .
-readUint32
+readInt32
 (
 )
 ;

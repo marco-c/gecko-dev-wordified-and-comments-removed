@@ -2457,14 +2457,14 @@ do_check_eq
 (
 this
 .
-readUint32
+readInt32
 (
 )
 REQUEST_QUERY_FACILITY_LOCK
 )
 this
 .
-readUint32
+readInt32
 (
 )
 ;
@@ -2472,7 +2472,7 @@ do_check_eq
 (
 this
 .
-readUint32
+readInt32
 (
 )
 worker
@@ -2535,7 +2535,7 @@ RILQUIRKS_V5_LEGACY
 {
 this
 .
-readUint32
+readInt32
 (
 )
 ;
@@ -3659,7 +3659,7 @@ pbr_1
 ;
 buf
 .
-writeUint32
+writeInt32
 (
 pbr_1
 .
@@ -3938,7 +3938,7 @@ email_1
 ;
 buf
 .
-writeUint32
+writeInt32
 (
 email_1
 .
@@ -4280,7 +4280,7 @@ do_check_eq
 (
 this
 .
-readUint32
+readInt32
 (
 )
 REQUEST_SIM_IO
@@ -4288,7 +4288,7 @@ REQUEST_SIM_IO
 ;
 this
 .
-readUint32
+readInt32
 (
 )
 ;
@@ -4296,7 +4296,7 @@ do_check_eq
 (
 this
 .
-readUint32
+readInt32
 (
 )
 ICC_COMMAND_UPDATE_RECORD
@@ -4306,7 +4306,7 @@ do_check_eq
 (
 this
 .
-readUint32
+readInt32
 (
 )
 fileId
@@ -4330,7 +4330,7 @@ do_check_eq
 (
 this
 .
-readUint32
+readInt32
 (
 )
 recordNumber
@@ -4340,7 +4340,7 @@ do_check_eq
 (
 this
 .
-readUint32
+readInt32
 (
 )
 READ_RECORD_ABSOLUTE_MODE
@@ -4350,7 +4350,7 @@ do_check_eq
 (
 this
 .
-readUint32
+readInt32
 (
 )
 recordSize
@@ -4361,7 +4361,7 @@ strLen
 =
 this
 .
-readUint32
+readInt32
 (
 )
 ;
@@ -4462,7 +4462,7 @@ RILQUIRKS_V5_LEGACY
 {
 this
 .
-readUint32
+readInt32
 (
 )
 ;
@@ -4599,7 +4599,7 @@ anr_1
 ;
 buf
 .
-writeUint32
+writeInt32
 (
 anr_1
 .
@@ -4926,7 +4926,7 @@ do_check_eq
 (
 this
 .
-readUint32
+readInt32
 (
 )
 REQUEST_SIM_IO
@@ -4934,7 +4934,7 @@ REQUEST_SIM_IO
 ;
 this
 .
-readUint32
+readInt32
 (
 )
 ;
@@ -4942,7 +4942,7 @@ do_check_eq
 (
 this
 .
-readUint32
+readInt32
 (
 )
 ICC_COMMAND_UPDATE_RECORD
@@ -4952,7 +4952,7 @@ do_check_eq
 (
 this
 .
-readUint32
+readInt32
 (
 )
 fileId
@@ -4976,7 +4976,7 @@ do_check_eq
 (
 this
 .
-readUint32
+readInt32
 (
 )
 recordNumber
@@ -4986,7 +4986,7 @@ do_check_eq
 (
 this
 .
-readUint32
+readInt32
 (
 )
 READ_RECORD_ABSOLUTE_MODE
@@ -4996,7 +4996,7 @@ do_check_eq
 (
 this
 .
-readUint32
+readInt32
 (
 )
 recordSize
@@ -5007,7 +5007,7 @@ strLen
 =
 this
 .
-readUint32
+readInt32
 (
 )
 ;
@@ -5104,7 +5104,7 @@ RILQUIRKS_V5_LEGACY
 {
 this
 .
-readUint32
+readInt32
 (
 )
 ;
@@ -5229,7 +5229,7 @@ iap_1
 ;
 buf
 .
-writeUint32
+writeInt32
 (
 iap_1
 .
@@ -5579,7 +5579,7 @@ do_check_eq
 (
 this
 .
-readUint32
+readInt32
 (
 )
 REQUEST_SIM_IO
@@ -5587,7 +5587,7 @@ REQUEST_SIM_IO
 ;
 this
 .
-readUint32
+readInt32
 (
 )
 ;
@@ -5595,7 +5595,7 @@ do_check_eq
 (
 this
 .
-readUint32
+readInt32
 (
 )
 ICC_COMMAND_UPDATE_RECORD
@@ -5605,7 +5605,7 @@ do_check_eq
 (
 this
 .
-readUint32
+readInt32
 (
 )
 fileId
@@ -5629,7 +5629,7 @@ do_check_eq
 (
 this
 .
-readUint32
+readInt32
 (
 )
 recordNumber
@@ -5639,7 +5639,7 @@ do_check_eq
 (
 this
 .
-readUint32
+readInt32
 (
 )
 READ_RECORD_ABSOLUTE_MODE
@@ -5649,7 +5649,7 @@ do_check_eq
 (
 this
 .
-readUint32
+readInt32
 (
 )
 recordSize
@@ -5660,7 +5660,7 @@ strLen
 =
 this
 .
-readUint32
+readInt32
 (
 )
 ;
@@ -5721,7 +5721,7 @@ RILQUIRKS_V5_LEGACY
 {
 this
 .
-readUint32
+readInt32
 (
 )
 ;
@@ -5887,7 +5887,7 @@ do_check_eq
 (
 this
 .
-readUint32
+readInt32
 (
 )
 REQUEST_SIM_IO
@@ -5895,7 +5895,7 @@ REQUEST_SIM_IO
 ;
 this
 .
-readUint32
+readInt32
 (
 )
 ;
@@ -5903,7 +5903,7 @@ do_check_eq
 (
 this
 .
-readUint32
+readInt32
 (
 )
 ICC_COMMAND_UPDATE_RECORD
@@ -5913,7 +5913,7 @@ do_check_eq
 (
 this
 .
-readUint32
+readInt32
 (
 )
 fileId
@@ -5935,7 +5935,7 @@ do_check_eq
 (
 this
 .
-readUint32
+readInt32
 (
 )
 1
@@ -5945,7 +5945,7 @@ do_check_eq
 (
 this
 .
-readUint32
+readInt32
 (
 )
 READ_RECORD_ABSOLUTE_MODE
@@ -5955,7 +5955,7 @@ do_check_eq
 (
 this
 .
-readUint32
+readInt32
 (
 )
 0x20
@@ -6035,7 +6035,7 @@ RILQUIRKS_V5_LEGACY
 {
 this
 .
-readUint32
+readInt32
 (
 )
 ;
@@ -6163,7 +6163,7 @@ record
 {
 buf
 .
-writeUint32
+writeInt32
 (
 record
 .
@@ -8288,7 +8288,7 @@ do_check_eq
 (
 this
 .
-readUint32
+readInt32
 (
 )
 REQUEST_SET_FACILITY_LOCK
@@ -8296,7 +8296,7 @@ REQUEST_SET_FACILITY_LOCK
 ;
 this
 .
-readUint32
+readInt32
 (
 )
 ;
@@ -8569,7 +8569,7 @@ do_check_eq
 (
 this
 .
-readUint32
+readInt32
 (
 )
 REQUEST_ENTER_NETWORK_DEPERSONALIZATION_CODE
@@ -8577,7 +8577,7 @@ REQUEST_ENTER_NETWORK_DEPERSONALIZATION_CODE
 ;
 this
 .
-readUint32
+readInt32
 (
 )
 ;
@@ -8593,7 +8593,7 @@ do_check_eq
 (
 this
 .
-readUint32
+readInt32
 (
 )
 lockType
@@ -8953,7 +8953,7 @@ mncLengthInEf
 }
 buf
 .
-writeUint32
+writeInt32
 (
 ad
 .
