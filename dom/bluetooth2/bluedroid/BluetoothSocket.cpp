@@ -2236,7 +2236,7 @@ aFd
 void
 OnError
 (
-bt_status_t
+BluetoothStatus
 aStatus
 )
 MOZ_OVERRIDE
@@ -2903,7 +2903,7 @@ aFd
 void
 OnError
 (
-bt_status_t
+BluetoothStatus
 aStatus
 )
 MOZ_OVERRIDE
@@ -3068,7 +3068,7 @@ aFd
 void
 OnError
 (
-bt_status_t
+BluetoothStatus
 aStatus
 )
 MOZ_OVERRIDE

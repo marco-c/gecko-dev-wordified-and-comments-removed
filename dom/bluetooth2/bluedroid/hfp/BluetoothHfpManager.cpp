@@ -1541,7 +1541,7 @@ mInterface
 void
 OnError
 (
-bt_status_t
+BluetoothStatus
 aStatus
 )
 MOZ_OVERRIDE
@@ -2001,7 +2001,7 @@ aRes
 void
 OnError
 (
-bt_status_t
+BluetoothStatus
 aStatus
 )
 MOZ_OVERRIDE
@@ -2995,7 +2995,7 @@ public
 void
 OnError
 (
-bt_status_t
+BluetoothStatus
 aStatus
 )
 MOZ_OVERRIDE
@@ -3097,7 +3097,7 @@ public
 void
 OnError
 (
-bt_status_t
+BluetoothStatus
 aStatus
 )
 MOZ_OVERRIDE
@@ -3257,7 +3257,7 @@ public
 void
 OnError
 (
-bt_status_t
+BluetoothStatus
 aStatus
 )
 MOZ_OVERRIDE
@@ -3728,7 +3728,7 @@ public
 void
 OnError
 (
-bt_status_t
+BluetoothStatus
 aStatus
 )
 MOZ_OVERRIDE
@@ -4408,7 +4408,7 @@ public
 void
 OnError
 (
-bt_status_t
+BluetoothStatus
 aStatus
 )
 MOZ_OVERRIDE
@@ -4573,7 +4573,7 @@ public
 void
 OnError
 (
-bt_status_t
+BluetoothStatus
 aStatus
 )
 MOZ_OVERRIDE
@@ -4670,7 +4670,7 @@ public
 void
 OnError
 (
-bt_status_t
+BluetoothStatus
 aStatus
 )
 MOZ_OVERRIDE
@@ -4829,7 +4829,7 @@ public
 void
 OnError
 (
-bt_status_t
+BluetoothStatus
 aStatus
 )
 MOZ_OVERRIDE
@@ -5812,7 +5812,7 @@ public
 void
 OnError
 (
-bt_status_t
+BluetoothStatus
 aStatus
 )
 MOZ_OVERRIDE
@@ -5908,7 +5908,7 @@ public
 void
 OnError
 (
-bt_status_t
+BluetoothStatus
 aStatus
 )
 MOZ_OVERRIDE
@@ -6073,7 +6073,7 @@ mHfpManager
 void
 OnError
 (
-bt_status_t
+BluetoothStatus
 aStatus
 )
 MOZ_OVERRIDE
@@ -6270,7 +6270,7 @@ mHfpManager
 void
 OnError
 (
-bt_status_t
+BluetoothStatus
 aStatus
 )
 MOZ_OVERRIDE
