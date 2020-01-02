@@ -546,11 +546,8 @@ string
 &
 pwd
 const
-std
-:
-:
-string
-&
+char
+*
 transport
 )
 {
