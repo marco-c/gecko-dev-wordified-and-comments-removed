@@ -4036,7 +4036,7 @@ function
 DSC_removeActorPool
 (
 aActorPool
-aCleanup
+aNoCleanup
 )
 {
 let
@@ -4074,7 +4074,8 @@ index
 ;
 if
 (
-aCleanup
+!
+aNoCleanup
 )
 {
 pool
