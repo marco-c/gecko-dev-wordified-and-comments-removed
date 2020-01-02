@@ -137,9 +137,7 @@ BasicHeader
 Authorization
 "
 "
-Browser
--
-ID
+BrowserID
 "
 +
 assertion
