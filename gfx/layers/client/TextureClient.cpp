@@ -2259,7 +2259,14 @@ mLocked
 true
 ;
 return
-true
+IsValid
+(
+)
+&
+&
+IsAllocated
+(
+)
 ;
 }
 void

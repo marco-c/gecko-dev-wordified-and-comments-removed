@@ -5953,6 +5953,12 @@ if
 IsValid
 (
 )
+|
+|
+!
+IsAllocated
+(
+)
 )
 {
 return
