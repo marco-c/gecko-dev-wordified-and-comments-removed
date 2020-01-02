@@ -2634,7 +2634,7 @@ RelativeFontChangeOnNode
 (
 int32_t
 aSizeChange
-nsINode
+nsIContent
 *
 aNode
 )
