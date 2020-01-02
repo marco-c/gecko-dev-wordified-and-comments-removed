@@ -3729,6 +3729,16 @@ GtkStyleContext
 *
 style
 ;
+(
+void
+)
+gtk_settings_get_for_screen
+(
+gdk_screen_get_default
+(
+)
+)
+;
 GtkWidgetPath
 *
 path
