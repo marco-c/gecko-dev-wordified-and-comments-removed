@@ -3226,6 +3226,11 @@ RTCPeerConnectionIdentityEvent
 webidl
 '
 '
+SmartCardEvent
+.
+webidl
+'
+'
 TrackEvent
 .
 webidl

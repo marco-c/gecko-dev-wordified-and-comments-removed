@@ -100,13 +100,6 @@ optional
 SmartCardEventInit
 eventInitDict
 )
-HeaderFile
-=
-"
-GeneratedEventClasses
-.
-h
-"
 ]
 interface
 SmartCardEvent

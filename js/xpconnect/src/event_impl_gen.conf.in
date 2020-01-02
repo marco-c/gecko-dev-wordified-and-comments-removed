@@ -122,9 +122,6 @@ DeviceOrientationEvent
 MozApplicationEvent
 '
 '
-SmartCardEvent
-'
-'
 StyleRuleChangeEvent
 '
 '

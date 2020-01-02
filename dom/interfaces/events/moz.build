@@ -228,11 +228,6 @@ nsIDOMSimpleGestureEvent
 idl
 '
 '
-nsIDOMSmartCardEvent
-.
-idl
-'
-'
 nsIDOMStyleRuleChangeEvent
 .
 idl
