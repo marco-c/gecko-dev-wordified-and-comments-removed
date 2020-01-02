@@ -2876,12 +2876,6 @@ if
 (
 B2G
 )
-fails
--
-if
-(
-Android
-)
 HTTP
 (
 .
