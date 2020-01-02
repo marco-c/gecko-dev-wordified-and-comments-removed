@@ -85,6 +85,14 @@ test_app_install
 .
 html
 \
+test_readonly
+.
+html
+\
+test_basic
+.
+html
+\
 file_app
 .
 sjs
