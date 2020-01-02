@@ -203,6 +203,11 @@ nsIdleService
 cpp
 '
 '
+nsIWidgetListener
+.
+cpp
+'
+'
 nsPrimitiveHelpers
 .
 cpp

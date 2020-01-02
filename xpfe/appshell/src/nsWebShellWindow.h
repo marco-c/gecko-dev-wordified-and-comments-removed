@@ -51,6 +51,9 @@ h
 class
 nsIURI
 ;
+struct
+nsWidgetInitData
+;
 namespace
 mozilla
 {

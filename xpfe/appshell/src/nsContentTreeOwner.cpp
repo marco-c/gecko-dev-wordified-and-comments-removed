@@ -169,6 +169,13 @@ h
 #
 include
 "
+nsIWidget
+.
+h
+"
+#
+include
+"
 mozilla
 /
 BrowserElementParent
