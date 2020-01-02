@@ -477,6 +477,14 @@ skey
 param
 )
 ;
+if
+(
+!
+hmac_ctx
+)
+goto
+abort
+;
 status
 =
 PK11_DigestBegin
