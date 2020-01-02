@@ -153,6 +153,7 @@ nsLineStyle
 ;
 class
 nsRenderingContext
+MOZ_FINAL
 {
 typedef
 mozilla
@@ -724,8 +725,14 @@ key
 )
 ;
 }
-protected
+private
 :
+~
+nsRenderingContext
+(
+)
+{
+}
 int32_t
 GetMaxChunkLength
 (
