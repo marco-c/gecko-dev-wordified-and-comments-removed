@@ -466,6 +466,11 @@ AnimationCommon
 cpp
 '
 '
+CounterStyleManager
+.
+cpp
+'
+'
 CSS
 .
 cpp

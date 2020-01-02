@@ -3589,7 +3589,7 @@ informal
 ;
 }
 ;
-static
+extern
 const
 char16_t
 gJapaneseNegative
@@ -3668,7 +3668,7 @@ JAPANESE
 false
 }
 ;
-static
+extern
 const
 char16_t
 gKoreanNegative
@@ -3780,7 +3780,7 @@ KOREAN
 false
 }
 ;
-static
+extern
 const
 char16_t
 gSimpChineseNegative
@@ -3856,7 +3856,7 @@ CHINESE
 false
 }
 ;
-static
+extern
 const
 char16_t
 gTradChineseNegative

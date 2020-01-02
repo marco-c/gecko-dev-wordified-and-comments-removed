@@ -434,6 +434,13 @@ h
 #
 include
 "
+CounterStyleManager
+.
+h
+"
+#
+include
+"
 AudioChannelService
 .
 h
@@ -1519,6 +1526,13 @@ CacheObserver
 :
 :
 Init
+(
+)
+;
+CounterStyleManager
+:
+:
+InitializeBuiltinCounterStyles
 (
 )
 ;
