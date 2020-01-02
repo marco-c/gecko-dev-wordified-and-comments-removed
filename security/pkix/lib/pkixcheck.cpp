@@ -1152,7 +1152,7 @@ return
 Result
 :
 :
-ERROR_CA_CERT_INVALID
+ERROR_CA_CERT_USED_AS_END_ENTITY
 ;
 }
 return
