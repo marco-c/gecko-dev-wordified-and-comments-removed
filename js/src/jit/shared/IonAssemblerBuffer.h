@@ -1201,7 +1201,7 @@ prevOffset
 )
 const
 {
-MOZ_ASSUME_UNREACHABLE
+MOZ_CRASH
 (
 "
 Don

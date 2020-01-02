@@ -2123,7 +2123,7 @@ break
 ;
 default
 :
-MOZ_ASSUME_UNREACHABLE
+MOZ_CRASH
 (
 "
 Bad
@@ -5628,7 +5628,7 @@ guess
 ;
 }
 }
-MOZ_ASSUME_UNREACHABLE
+MOZ_CRASH
 (
 "
 displacement
@@ -5697,7 +5697,7 @@ return
 it
 ;
 }
-MOZ_ASSUME_UNREACHABLE
+MOZ_CRASH
 (
 "
 Failed
@@ -8215,7 +8215,7 @@ break
 }
 default
 :
-MOZ_ASSUME_UNREACHABLE
+MOZ_CRASH
 (
 "
 Bad
@@ -12963,7 +12963,7 @@ JitFrame_Unwound_IonJS
 case
 JitFrame_Unwound_BaselineStub
 :
-MOZ_ASSUME_UNREACHABLE
+MOZ_CRASH
 (
 "
 invalid
@@ -14150,7 +14150,7 @@ break
 ;
 default
 :
-MOZ_ASSUME_UNREACHABLE
+MOZ_CRASH
 (
 "
 No
@@ -14395,7 +14395,7 @@ return
 ;
 default
 :
-MOZ_ASSUME_UNREACHABLE
+MOZ_CRASH
 (
 "
 bad
@@ -14674,7 +14674,7 @@ return
 ;
 default
 :
-MOZ_ASSUME_UNREACHABLE
+MOZ_CRASH
 (
 "
 No
@@ -14685,7 +14685,7 @@ mode
 )
 ;
 }
-MOZ_ASSUME_UNREACHABLE
+MOZ_CRASH
 (
 "
 No

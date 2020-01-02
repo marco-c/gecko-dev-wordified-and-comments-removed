@@ -270,7 +270,7 @@ nonLazyScript
 )
 ;
 }
-MOZ_ASSUME_UNREACHABLE
+MOZ_CRASH
 (
 "
 invalid
