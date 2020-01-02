@@ -822,6 +822,17 @@ VERSION_CODES
 HONEYCOMB
 )
 {
+getPreferenceManager
+(
+)
+.
+setSharedPreferencesName
+(
+GeckoSharedPrefs
+.
+APP_PREFS_NAME
+)
+;
 int
 res
 =
