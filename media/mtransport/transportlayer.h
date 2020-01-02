@@ -92,7 +92,6 @@ string
 id
 (
 )
-const
 {
 return
 name
@@ -294,7 +293,6 @@ string
 id
 (
 )
-const
 =
 0
 ;
@@ -307,7 +305,6 @@ string
 flow_id
 (
 )
-const
 {
 return
 flow_id_
@@ -340,7 +337,6 @@ void
 CheckThread
 (
 )
-const
 {
 NS_ABORT_IF_FALSE
 (
@@ -387,7 +383,6 @@ bool
 CheckThreadInt
 (
 )
-const
 {
 bool
 on
