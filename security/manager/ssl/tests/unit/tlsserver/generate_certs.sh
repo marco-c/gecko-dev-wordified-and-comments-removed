@@ -1114,6 +1114,13 @@ pinning
 example
 .
 com
+*
+.
+pinning
+.
+example
+.
+com
 "
 RUN_MOZILLA
 CERTUTIL
