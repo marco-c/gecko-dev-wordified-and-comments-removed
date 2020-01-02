@@ -797,6 +797,16 @@ k
 digit
 t
 ;
+if
+(
+!
+input_length
+)
+{
+return
+punycode_bad_input
+;
+}
 n
 =
 initial_n
