@@ -1732,12 +1732,6 @@ DisplayReflowShutdown
 ;
 #
 endif
-static
-void
-ShutdownLayerActivityTimer
-(
-)
-;
 bool
 DisplayBackgroundUnconditional
 (

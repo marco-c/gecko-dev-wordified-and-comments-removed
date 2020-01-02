@@ -414,6 +414,13 @@ h
 #
 include
 "
+ActiveLayerTracker
+.
+h
+"
+#
+include
+"
 AudioChannelService
 .
 h
@@ -1583,10 +1590,10 @@ Shutdown
 (
 )
 ;
-nsFrame
+ActiveLayerTracker
 :
 :
-ShutdownLayerActivityTimer
+Shutdown
 (
 )
 ;
