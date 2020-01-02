@@ -8626,6 +8626,40 @@ _ctor
 )
 :
             
+mayInvokeCtor
+=
+"
+nsContentUtils
+:
+:
+ThreadsafeIsCallerChrome
+(
+)
+"
+        
+else
+:
+            
+mayInvokeCtor
+=
+"
+(
+args
+.
+isConstructing
+(
+)
+|
+|
+nsContentUtils
+:
+:
+ThreadsafeIsCallerChrome
+(
+)
+)
+"
+        
 preamble
 +
 =
@@ -8635,12 +8669,8 @@ preamble
 if
 (
 !
-nsContentUtils
-:
-:
-ThreadsafeIsCallerChrome
-(
-)
+%
+s
 )
 {
     
@@ -8657,6 +8687,8 @@ vp
 "
 "
 "
+%
+mayInvokeCtor
         
 name
 =
