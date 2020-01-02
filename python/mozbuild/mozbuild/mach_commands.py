@@ -6793,6 +6793,14 @@ False
 )
 :
         
+state_dir
+=
+self
+.
+_mach_context
+.
+state_dir
+        
 import
 platform
         
@@ -6931,10 +6939,6 @@ t
 s
 '
 %
-self
-.
-_mach_context
-.
 state_dir
 )
         
