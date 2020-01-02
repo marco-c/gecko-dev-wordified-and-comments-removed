@@ -18603,14 +18603,6 @@ pageStyle
 pageStyle
 ;
 }
-this
-.
-_updateTextAndScrollDataForTab
-(
-tab
-tabData
-)
-;
 if
 (
 this
