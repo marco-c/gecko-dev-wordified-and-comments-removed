@@ -80,6 +80,9 @@ props
 hb_buffer_flags_t
 flags
 ;
+hb_codepoint_t
+replacement
+;
 hb_buffer_content_type_t
 content_type
 ;

@@ -267,7 +267,7 @@ DB
 ;
 GB
 =
-12
+11
 ;
 H
 =
@@ -369,17 +369,11 @@ MY
 ?
 MR
 ?
-(
-(
 MW
+?
 MH
 ?
-|
-MH
-)
 As
-?
-)
 ?
 ;
 main_vowel_group

@@ -547,6 +547,8 @@ USHORT
 count
 ;
 Offset
+<
+>
 stringOffset
 ;
 NameRecord

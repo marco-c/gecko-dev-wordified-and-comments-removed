@@ -1215,6 +1215,11 @@ hb_font_t
 font
 )
 {
+_hb_buffer_assert_unicode_vars
+(
+buffer
+)
+;
 hb_ot_shape_normalization_mode_t
 mode
 =

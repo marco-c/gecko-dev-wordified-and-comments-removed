@@ -86,7 +86,7 @@ major
 )
 ;
 }
-protected
+public
 :
 FixedVersion
 version

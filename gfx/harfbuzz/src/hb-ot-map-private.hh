@@ -789,16 +789,16 @@ hb_ot_map_feature_flags_t
 {
 F_NONE
 =
-0x0000
+0x0000u
 F_GLOBAL
 =
-0x0001
+0x0001u
 F_HAS_FALLBACK
 =
-0x0002
+0x0002u
 F_MANUAL_ZWJ
 =
-0x0004
+0x0004u
 }
 ;
 #
@@ -828,6 +828,7 @@ r
 )
 )
 )
+static
 inline
 hb_ot_map_feature_flags_t
 operator
@@ -856,6 +857,7 @@ r
 )
 ;
 }
+static
 inline
 hb_ot_map_feature_flags_t
 operator
@@ -884,6 +886,7 @@ r
 )
 ;
 }
+static
 inline
 hb_ot_map_feature_flags_t
 operator
@@ -905,6 +908,7 @@ r
 )
 ;
 }
+static
 inline
 hb_ot_map_feature_flags_t
 &
@@ -929,6 +933,7 @@ return
 l
 ;
 }
+static
 inline
 hb_ot_map_feature_flags_t
 &

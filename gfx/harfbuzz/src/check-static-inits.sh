@@ -201,7 +201,7 @@ obj
 |
 grep
 '
-__c
+__cxa_
 '
 ;
 then

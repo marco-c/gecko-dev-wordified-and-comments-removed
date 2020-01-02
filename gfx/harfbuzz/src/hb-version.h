@@ -42,7 +42,7 @@ HB_VERSION_MINOR
 #
 define
 HB_VERSION_MICRO
-25
+34
 #
 define
 HB_VERSION_STRING
@@ -51,11 +51,11 @@ HB_VERSION_STRING
 .
 9
 .
-25
+34
 "
 #
 define
-HB_VERSION_CHECK
+HB_VERSION_ATLEAST
 (
 major
 minor
@@ -78,7 +78,7 @@ minor
 (
 micro
 )
->
+<
 =
 \
 HB_VERSION_MAJOR
@@ -117,7 +117,7 @@ void
 )
 ;
 hb_bool_t
-hb_version_check
+hb_version_atleast
 (
 unsigned
 int

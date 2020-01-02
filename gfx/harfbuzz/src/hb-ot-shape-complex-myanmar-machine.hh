@@ -289,8 +289,8 @@ _myanmar_syllable_machine_indicies
 5
 0
 6
-0
 1
+0
 0
 0
 0
@@ -749,7 +749,7 @@ _myanmar_syllable_machine_indicies
 20
 20
 20
-20
+34
 20
 20
 27
@@ -805,7 +805,7 @@ _myanmar_syllable_machine_indicies
 20
 20
 20
-20
+34
 20
 20
 27
@@ -1150,8 +1150,8 @@ _myanmar_syllable_machine_indicies
 5
 42
 6
-42
 1
+42
 42
 42
 42
@@ -1326,7 +1326,7 @@ _myanmar_syllable_machine_indicies
 42
 42
 42
-42
+16
 42
 42
 9
@@ -1382,7 +1382,7 @@ _myanmar_syllable_machine_indicies
 42
 42
 42
-42
+16
 42
 42
 9

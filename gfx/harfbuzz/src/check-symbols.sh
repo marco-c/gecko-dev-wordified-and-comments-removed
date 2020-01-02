@@ -140,6 +140,11 @@ _ftext
 >
 \
 |
+_fbss
+\
+>
+\
+|
 __bss_start
 \
 >

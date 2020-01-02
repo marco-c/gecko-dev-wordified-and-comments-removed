@@ -111,7 +111,7 @@ version
 minor
 =
 =
-0x5000
+0x5000u
 )
 )
 )

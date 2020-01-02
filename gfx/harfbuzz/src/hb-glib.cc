@@ -877,7 +877,7 @@ return
 g_unichar_fully_decompose
 (
 u
-TRUE
+true
 decomposed
 HB_UNICODE_MAX_DECOMPOSITION_LEN
 )

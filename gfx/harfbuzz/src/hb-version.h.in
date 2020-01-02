@@ -245,7 +245,7 @@ HB_VERSION
 "
 #
 define
-HB_VERSION_CHECK
+HB_VERSION_ATLEAST
 (
 major
 minor
@@ -268,7 +268,7 @@ minor
 (
 micro
 )
->
+<
 =
 \
 HB_VERSION_MAJOR
@@ -307,7 +307,7 @@ void
 )
 ;
 hb_bool_t
-hb_version_check
+hb_version_atleast
 (
 unsigned
 int

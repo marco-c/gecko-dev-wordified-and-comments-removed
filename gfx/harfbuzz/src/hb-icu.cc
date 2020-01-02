@@ -1236,7 +1236,7 @@ len
 ;
 err
 =
-FALSE
+false
 ;
 U16_APPEND
 (
