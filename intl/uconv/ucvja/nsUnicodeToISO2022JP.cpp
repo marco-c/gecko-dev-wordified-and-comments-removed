@@ -252,7 +252,7 @@ g_ufAsciiMapping
 ;
 #
 define
-SIZE_OF_TABLES
+SIZE_OF_ISO2022JP_TABLES
 5
 static
 const
@@ -260,7 +260,7 @@ uint16_t
 *
 g_ufMappingTables
 [
-SIZE_OF_TABLES
+SIZE_OF_ISO2022JP_TABLES
 ]
 =
 {
@@ -276,7 +276,7 @@ const
 uScanClassID
 g_ufScanClassIDs
 [
-SIZE_OF_TABLES
+SIZE_OF_ISO2022JP_TABLES
 ]
 =
 {
@@ -898,7 +898,7 @@ i
 ;
 i
 <
-SIZE_OF_TABLES
+SIZE_OF_ISO2022JP_TABLES
 ;
 i
 +
@@ -958,7 +958,7 @@ if
 i
 >
 =
-SIZE_OF_TABLES
+SIZE_OF_ISO2022JP_TABLES
 )
 {
 if

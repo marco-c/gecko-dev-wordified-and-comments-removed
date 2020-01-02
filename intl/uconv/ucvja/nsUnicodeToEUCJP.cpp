@@ -50,14 +50,14 @@ u1BytePrefix8EChar
 ;
 #
 define
-SIZE_OF_TABLES
+SIZE_OF_EUCJP_TABLES
 3
 static
 const
 uScanClassID
 gScanClassIDs
 [
-SIZE_OF_TABLES
+SIZE_OF_EUCJP_TABLES
 ]
 =
 {
@@ -72,7 +72,7 @@ int16_t
 *
 gShiftTables
 [
-SIZE_OF_TABLES
+SIZE_OF_EUCJP_TABLES
 ]
 =
 {
@@ -87,7 +87,7 @@ uint16_t
 *
 gMappingTables
 [
-SIZE_OF_TABLES
+SIZE_OF_EUCJP_TABLES
 ]
 =
 {
@@ -113,7 +113,7 @@ aResult
 return
 CreateMultiTableEncoder
 (
-SIZE_OF_TABLES
+SIZE_OF_EUCJP_TABLES
 (
 uScanClassID
 *
