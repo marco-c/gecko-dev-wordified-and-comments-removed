@@ -4200,8 +4200,10 @@ if
 backBuffer
 )
 {
-NS_WARNING
+NS_WARN_IF_FALSE
 (
+!
+mDeprecatedTextureClientOnWhite
 "
 Could
 not
