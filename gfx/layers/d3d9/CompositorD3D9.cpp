@@ -2360,6 +2360,13 @@ SendInvalidateAll
 (
 )
 ;
+CancelCompositing
+(
+aRenderBoundsOut
+)
+;
+return
+;
 }
 if
 (
