@@ -11621,7 +11621,7 @@ aObj
 JS
 :
 :
-MutableHandle
+Handle
 <
 jsid
 >
