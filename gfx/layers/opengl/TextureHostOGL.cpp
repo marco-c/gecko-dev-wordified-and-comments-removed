@@ -1234,11 +1234,6 @@ GetFormat
 )
 )
 LOCAL_GL_CLAMP_TO_EDGE
-WrapMode
-(
-mGL
-mFlags
-)
 FlagsToGLFlags
 (
 mFlags
