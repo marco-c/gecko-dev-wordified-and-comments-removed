@@ -2976,7 +2976,7 @@ showPrivateTabs
 }
 }
 }
-private
+public
 void
 updateTabCountAndAnimate
 (
@@ -3058,7 +3058,7 @@ one_tab
 ;
 }
 }
-private
+public
 void
 updateTabCount
 (
@@ -3155,7 +3155,7 @@ one_tab
 )
 ;
 }
-private
+public
 void
 setProgressVisibility
 (
@@ -3171,7 +3171,7 @@ visible
 )
 ;
 }
-private
+public
 void
 setPageActionVisibility
 (
@@ -4547,7 +4547,7 @@ HIDE
 }
 }
 }
-private
+public
 void
 setIsEditing
 (
@@ -6280,7 +6280,7 @@ return
 true
 ;
 }
-private
+protected
 void
 registerEventListener
 (
@@ -6301,7 +6301,7 @@ this
 )
 ;
 }
-private
+protected
 void
 unregisterEventListener
 (
