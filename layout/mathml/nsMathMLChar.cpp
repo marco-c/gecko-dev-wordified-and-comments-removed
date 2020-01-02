@@ -7202,6 +7202,15 @@ ascent
 }
 if
 (
+glyphFound
+)
+{
+return
+NS_OK
+;
+}
+if
+(
 stretchy
 )
 {
@@ -7352,10 +7361,6 @@ scale
 }
 if
 (
-!
-glyphFound
-&
-&
 largeop
 )
 {
