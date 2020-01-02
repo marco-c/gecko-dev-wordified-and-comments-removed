@@ -697,6 +697,7 @@ getMarkColor
 =
 =
 GRAY
+!
 thing
 -
 >
@@ -705,7 +706,7 @@ zone
 )
 -
 >
-isGCMarkingGray
+isGCMarkingBlack
 (
 )
 |

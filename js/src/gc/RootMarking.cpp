@@ -4923,6 +4923,13 @@ gcmarker
 >
 runtime
 ;
+gcmarker
+-
+>
+startBufferingGrayRoots
+(
+)
+;
 if
 (
 JSTraceDataOp
@@ -4935,14 +4942,6 @@ gcGrayRootTracer
 .
 op
 )
-{
-gcmarker
--
->
-startBufferingGrayRoots
-(
-)
-;
 (
 *
 op
@@ -4964,5 +4963,4 @@ endBufferingGrayRoots
 (
 )
 ;
-}
 }
