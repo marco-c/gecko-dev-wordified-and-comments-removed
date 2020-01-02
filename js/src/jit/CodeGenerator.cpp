@@ -52520,6 +52520,12 @@ masm
 .
 call
 (
+mir
+-
+>
+desc
+(
+)
 AsmJSImmPtr
 (
 callee

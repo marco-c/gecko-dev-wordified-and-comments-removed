@@ -1722,13 +1722,6 @@ cpp
 '
 jit
 /
-AsmJSFrameIterator
-.
-cpp
-'
-'
-jit
-/
 AsmJSLink
 .
 cpp
