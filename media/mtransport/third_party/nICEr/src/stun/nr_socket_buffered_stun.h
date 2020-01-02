@@ -25,5 +25,16 @@ nr_socket
 sockp
 )
 ;
+int
+nr_socket_buffered_set_connected_to
+(
+nr_socket
+*
+sock
+nr_transport_addr
+*
+remote_addr
+)
+;
 #
 endif
