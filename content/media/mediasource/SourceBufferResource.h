@@ -1074,6 +1074,16 @@ aOffset
 MOZ_OVERRIDE
 {
 return
+GetLength
+(
+)
+=
+=
+aOffset
+?
+-
+1
+:
 aOffset
 ;
 }
