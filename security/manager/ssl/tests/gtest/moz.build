@@ -98,9 +98,6 @@ LIBRARY_NAME
 '
 ssltest
 '
-LIBXUL_LIBRARY
-=
-True
 SOURCES
 +
 =
@@ -178,3 +175,10 @@ config
 mozbuild
 '
 )
+FINAL_LIBRARY
+=
+'
+xul
+-
+gtest
+'
