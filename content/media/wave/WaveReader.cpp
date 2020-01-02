@@ -3066,11 +3066,11 @@ p
 ;
 if
 (
-p
-+
-length
->
 end
+-
+p
+<
+length
 )
 {
 break
