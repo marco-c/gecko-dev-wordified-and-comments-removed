@@ -3329,6 +3329,14 @@ nullptr
 fun_hasInstance
 nullptr
 fun_trace
+{
+CreateFunctionConstructor
+CreateFunctionPrototype
+nullptr
+function_methods
+nullptr
+FinishFunctionClassInit
+}
 }
 ;
 const
