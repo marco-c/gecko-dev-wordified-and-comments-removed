@@ -671,7 +671,7 @@ aName
 )
 ;
 bool
-HasSingleTextControl
+ImplicitSubmissionIsDisabled
 (
 )
 const

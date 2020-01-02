@@ -2101,6 +2101,7 @@ IsHTML
 )
 &
 &
+!
 static_cast
 <
 dom
@@ -2114,7 +2115,7 @@ formElement
 )
 -
 >
-HasSingleTextControl
+ImplicitSubmissionIsDisabled
 (
 )
 )
