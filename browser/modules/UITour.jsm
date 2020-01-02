@@ -4442,9 +4442,9 @@ maxDimension
 minDimension
 <
 =
-2
+3
 .
-1
+0
 )
 {
 highlightHeight
