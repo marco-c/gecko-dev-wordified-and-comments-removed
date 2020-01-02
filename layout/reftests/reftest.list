@@ -343,14 +343,7 @@ if
 B2G
 |
 |
-(
 Android
-&
-&
-AndroidVersion
-<
-15
-)
 )
 include
 css
