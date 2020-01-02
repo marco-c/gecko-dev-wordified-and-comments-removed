@@ -566,7 +566,7 @@ const
 NS_ASSERTION
 (
 !
-Pending
+IsPending
 (
 )
 "
@@ -1138,7 +1138,7 @@ result
 *
 result
 =
-Pending
+IsPending
 (
 )
 ;

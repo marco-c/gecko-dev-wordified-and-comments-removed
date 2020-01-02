@@ -365,9 +365,8 @@ flag
 0
 ;
 }
-virtual
 bool
-Pending
+IsPending
 (
 )
 const
