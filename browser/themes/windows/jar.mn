@@ -460,6 +460,7 @@ mixed
 display
 .
 png
+*
 skin
 /
 classic
@@ -474,11 +475,6 @@ common
 .
 css
 (
-.
-.
-/
-shared
-/
 in
 -
 content
@@ -10032,6 +10028,7 @@ mixed
 display
 .
 png
+*
 skin
 /
 classic
@@ -10048,11 +10045,6 @@ common
 .
 css
 (
-.
-.
-/
-shared
-/
 in
 -
 content

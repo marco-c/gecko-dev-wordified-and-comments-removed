@@ -551,6 +551,7 @@ browser
 Info
 .
 png
+*
 skin
 /
 classic
@@ -565,11 +566,6 @@ common
 .
 css
 (
-.
-.
-/
-shared
-/
 in
 -
 content
