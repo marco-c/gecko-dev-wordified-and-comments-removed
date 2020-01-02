@@ -37,6 +37,8 @@ hostname
 const
 PRTime
 time
+bool
+enforceTestMode
 )
 ;
 }

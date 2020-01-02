@@ -706,6 +706,8 @@ hostname
 const
 PRTime
 time
+bool
+enforceTestMode
 )
 {
 if
@@ -985,10 +987,17 @@ Telemetry
 :
 CERT_PINNING_TEST_RESULTS
 ;
+if
+(
+!
+enforceTestMode
+)
+{
 retval
 =
 true
 ;
+}
 }
 if
 (
@@ -1149,6 +1158,8 @@ certList
 const
 PRTime
 time
+bool
+enforceTestMode
 )
 {
 PR_LOG
@@ -1388,6 +1399,7 @@ CheckPinsForHostname
 certList
 hostName
 time
+enforceTestMode
 )
 )
 {
@@ -1436,6 +1448,8 @@ hostname
 const
 PRTime
 time
+bool
+enforceTestMode
 )
 {
 if
@@ -1479,6 +1493,7 @@ CheckChainAgainstAllNames
 (
 certList
 time
+enforceTestMode
 )
 ;
 }
@@ -1488,6 +1503,7 @@ CheckPinsForHostname
 certList
 hostname
 time
+enforceTestMode
 )
 ;
 }
