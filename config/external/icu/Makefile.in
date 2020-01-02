@@ -344,6 +344,11 @@ target
 :
 :
 buildicu
+(
+STATIC_LIBS
+)
+:
+buildicu
 #
 -
 Force

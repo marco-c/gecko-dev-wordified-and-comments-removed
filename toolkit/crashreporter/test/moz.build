@@ -300,6 +300,9 @@ USE_LIBS
 mozalloc
 '
 '
+nspr
+'
+'
 xpcomglue_s
 '
 '

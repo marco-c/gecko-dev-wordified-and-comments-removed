@@ -79,17 +79,6 @@ PP_TARGETS
 +
 =
 MANIFEST
-EXTRA_LIBS
-+
-=
-\
-(
-NSPR_LIBS
-)
-\
-(
-NULL
-)
 LIB_FILES
 =
 (

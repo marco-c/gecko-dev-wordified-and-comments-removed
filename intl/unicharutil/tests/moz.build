@@ -165,6 +165,9 @@ USE_LIBS
 mozalloc
 '
 '
+nspr
+'
+'
 unicharutil_external_s
 '
 '

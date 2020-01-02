@@ -64,17 +64,6 @@ MPL
 0
 /
 .
-EXTRA_LIBS
-+
-=
-\
-(
-NSPR_LIBS
-)
-\
-(
-NULL
-)
 DEFINES
 +
 =

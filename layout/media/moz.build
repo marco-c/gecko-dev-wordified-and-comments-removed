@@ -116,6 +116,9 @@ USE_LIBS
 '
 mozalloc
 '
+'
+nspr
+'
 ]
 if
 CONFIG

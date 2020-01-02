@@ -234,14 +234,6 @@ replace
 dmd
 '
 )
-if
-CONFIG
-[
-'
-MOZ_TREE_FREETYPE
-'
-]
-:
 add_tier_dir
 (
 '
@@ -253,11 +245,6 @@ config
 external
 /
 freetype2
-'
-trigger
-=
-'
-FT2_LIBS
 '
 )
 add_tier_dir

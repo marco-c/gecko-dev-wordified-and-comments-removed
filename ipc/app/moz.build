@@ -153,6 +153,9 @@ USE_LIBS
 mozalloc
 '
 '
+nspr
+'
+'
 xul
 '
 ]

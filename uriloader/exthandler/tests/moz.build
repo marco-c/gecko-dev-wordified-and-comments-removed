@@ -223,3 +223,11 @@ s
 in
 SIMPLE_PROGRAMS
 ]
+USE_LIBS
++
+=
+[
+'
+nspr
+'
+]

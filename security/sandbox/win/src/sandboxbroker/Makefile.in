@@ -56,14 +56,3 @@ MPL
 #
 MOZ_GLUE_LDFLAGS
 =
-EXTRA_LIBS
-+
-=
-\
-(
-NSPR_LIBS
-)
-\
-(
-NULL
-)

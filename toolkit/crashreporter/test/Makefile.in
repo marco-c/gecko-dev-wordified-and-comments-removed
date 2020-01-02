@@ -54,12 +54,6 @@ MPL
 0
 /
 .
-EXTRA_LIBS
-+
-=
-(
-NSPR_LIBS
-)
 UNIT_FILES
 =
 (

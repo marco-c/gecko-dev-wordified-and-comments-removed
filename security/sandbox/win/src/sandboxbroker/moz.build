@@ -103,6 +103,9 @@ USE_LIBS
 =
 [
 '
+nspr
+'
+'
 sandbox_s
 '
 ]

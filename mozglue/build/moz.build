@@ -402,15 +402,7 @@ if
 CONFIG
 [
 '
-ZLIB_IN_MOZGLUE
-'
-]
-and
-not
-CONFIG
-[
-'
-MOZ_NATIVE_ZLIB
+MOZ_LINKER
 '
 ]
 :
@@ -419,7 +411,7 @@ USE_LIBS
 =
 [
 '
-mozz
+zlib
 '
 ]
 if

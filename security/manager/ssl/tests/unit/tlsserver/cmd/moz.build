@@ -148,6 +148,12 @@ mozalloc
 mozillapkix
 '
 '
+nspr
+'
+'
+nss
+'
+'
 pkixtestutil
 '
 '
