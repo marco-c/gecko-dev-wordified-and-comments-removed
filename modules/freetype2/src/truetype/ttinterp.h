@@ -475,13 +475,7 @@ TT_Round_Func
 func_round_sphn
 ;
 FT_Bool
-grayscale_hinting
-;
-FT_Bool
-subpixel_hinting
-;
-FT_Bool
-native_hinting
+subpixel
 ;
 FT_Bool
 ignore_x_mode

@@ -16,10 +16,6 @@ AF_DECLARE_WRITING_SYSTEM_CLASS
 (
 af_indic_writing_system_class
 )
-AF_DECLARE_SCRIPT_CLASS
-(
-af_deva_script_class
-)
 FT_END_HEADER
 #
 endif

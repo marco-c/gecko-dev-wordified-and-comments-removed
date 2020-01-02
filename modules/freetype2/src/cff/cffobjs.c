@@ -3691,6 +3691,7 @@ cffface
 -
 >
 face_flags
+|
 =
 flags
 ;

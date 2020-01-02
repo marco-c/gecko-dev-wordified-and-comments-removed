@@ -15,6 +15,7 @@ Copyright
 2005
 2006
 2013
+2014
 by
 #
 David
@@ -111,7 +112,7 @@ windows
 PLATFORM
 :
 =
-win32
+windows
 #
 The
 executable

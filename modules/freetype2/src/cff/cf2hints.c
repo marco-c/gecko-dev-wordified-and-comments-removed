@@ -2632,6 +2632,16 @@ vStemHintArray
 )
 )
 ;
+if
+(
+!
+cf2_hintmask_isValid
+(
+hintMask
+)
+)
+return
+;
 }
 hintmap
 -

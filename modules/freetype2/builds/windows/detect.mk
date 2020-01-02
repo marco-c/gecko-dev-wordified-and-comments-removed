@@ -21,6 +21,7 @@ Copyright
 2004
 2006
 2007
+2014
 by
 #
 David
@@ -139,7 +140,7 @@ Windows_NT
 PLATFORM
 :
 =
-win32
+windows
 else
 #
 Detecting
@@ -298,8 +299,9 @@ is
 set
 only
 if
-win32
+windows
 is
+#
 available
 .
 #
@@ -359,7 +361,7 @@ windir
 PLATFORM
 :
 =
-win32
+windows
 endif
 endif
 endif
@@ -376,7 +378,7 @@ ifeq
 (
 PLATFORM
 )
-win32
+windows
 )
 DELETE
 :
@@ -1020,6 +1022,6 @@ endif
 #
 test
 PLATFORM
-win32
+windows
 #
 EOF

@@ -370,3 +370,11 @@ FT_TRACE_DEF
 (
 afwarp
 )
+FT_TRACE_DEF
+(
+afharfbuzz
+)
+FT_TRACE_DEF
+(
+afglobal
+)

@@ -6,6 +6,7 @@ txt
 #
 Copyright
 2013
+2014
 by
 #
 David
@@ -248,7 +249,7 @@ set
 (
 VERSION_PATCH
 "
-2
+3
 "
 )
 set

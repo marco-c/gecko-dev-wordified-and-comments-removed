@@ -5478,10 +5478,6 @@ y
 /
 2
 ;
-v_last
-=
-v_start
-;
 }
 point
 -

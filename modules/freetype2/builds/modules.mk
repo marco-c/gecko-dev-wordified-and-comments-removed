@@ -15,6 +15,7 @@ Copyright
 2003
 2006
 2008
+2014
 by
 #
 David
@@ -150,8 +151,7 @@ findstring
 PLATFORM
 )
 dos
-win32
-win16
+windows
 os2
 )
 )

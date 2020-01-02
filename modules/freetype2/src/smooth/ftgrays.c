@@ -5335,10 +5335,6 @@ int
 )
 y
 ;
-count
-=
-0
-;
 span
 =
 ras

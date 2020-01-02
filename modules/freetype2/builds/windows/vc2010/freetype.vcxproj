@@ -2817,7 +2817,7 @@ Win32
 '
 "
 >
-freetype252_D
+freetype253_D
 <
 /
 TargetName
@@ -2845,7 +2845,7 @@ x64
 '
 "
 >
-freetype252_D
+freetype253_D
 <
 /
 TargetName
@@ -2874,7 +2874,7 @@ Win32
 '
 "
 >
-freetype252MT_D
+freetype253MT_D
 <
 /
 TargetName
@@ -2903,7 +2903,7 @@ x64
 '
 "
 >
-freetype252MT_D
+freetype253MT_D
 <
 /
 TargetName
@@ -2932,7 +2932,7 @@ Win32
 '
 "
 >
-freetype252ST_D
+freetype253ST_D
 <
 /
 TargetName
@@ -2961,7 +2961,7 @@ x64
 '
 "
 >
-freetype252ST_D
+freetype253ST_D
 <
 /
 TargetName
@@ -2989,7 +2989,7 @@ Win32
 '
 "
 >
-freetype252
+freetype253
 <
 /
 TargetName
@@ -3017,7 +3017,7 @@ x64
 '
 "
 >
-freetype252
+freetype253
 <
 /
 TargetName
@@ -3046,7 +3046,7 @@ Win32
 '
 "
 >
-freetype252MT
+freetype253MT
 <
 /
 TargetName
@@ -3075,7 +3075,7 @@ x64
 '
 "
 >
-freetype252MT
+freetype253MT
 <
 /
 TargetName
@@ -3104,7 +3104,7 @@ Win32
 '
 "
 >
-freetype252ST
+freetype253ST
 <
 /
 TargetName
@@ -3133,7 +3133,7 @@ x64
 '
 "
 >
-freetype252ST
+freetype253ST
 <
 /
 TargetName

@@ -392,7 +392,7 @@ are
 used
 :
 platform
-win32
+windows
 compiler
 gcc
 configuration
@@ -1337,11 +1337,11 @@ Makefiles
 -
 Copyright
 2003
-2004
-2005
+-
 2006
 2008
 2013
+2014
 by
 David
 Turner

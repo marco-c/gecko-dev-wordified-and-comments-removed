@@ -11,10 +11,10 @@ rules
 Copyright
 1996
 -
-2000
 2001
 2003
 2011
+2013
 by
 #
 David
@@ -259,7 +259,7 @@ PSNAMES_DRV_SRC_S
 PSNAMES_DIR
 )
 /
-psmodule
+psnames
 .
 c
 #

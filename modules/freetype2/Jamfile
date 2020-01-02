@@ -9,8 +9,7 @@ Jamfile
 Copyright
 2001
 -
-2011
-2013
+2014
 by
 #
 David
@@ -1043,7 +1042,7 @@ FreeType
 .
 5
 .
-2
+3
 -
 -
 output

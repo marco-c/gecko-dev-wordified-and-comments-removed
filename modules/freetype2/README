@@ -3,7 +3,7 @@ FreeType
 .
 5
 .
-2
+3
 =
 =
 =
@@ -130,7 +130,7 @@ the
 file
 ft2
 -
-doc
+toc
 .
 html
 '
@@ -186,7 +186,7 @@ doc
 .
 5
 .
-2
+3
 .
 tar
 .
@@ -199,12 +199,12 @@ doc
 .
 5
 .
-2
+3
 .
 tar
 .
 gz
-ftdoc252
+ftdoc253
 .
 zip
 To
@@ -468,7 +468,7 @@ Team
 Copyright
 2006
 -
-2013
+2014
 by
 David
 Turner

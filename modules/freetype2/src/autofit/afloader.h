@@ -41,7 +41,7 @@ gloader
 AF_GlyphHintsRec
 hints
 ;
-AF_ScriptMetrics
+AF_StyleMetrics
 metrics
 ;
 FT_Bool

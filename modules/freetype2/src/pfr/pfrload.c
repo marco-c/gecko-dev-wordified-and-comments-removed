@@ -2913,11 +2913,6 @@ PFR_NEXT_SHORT
 q
 )
 ;
-q
-+
-=
-16
-;
 break
 ;
 case

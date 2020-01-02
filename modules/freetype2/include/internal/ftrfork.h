@@ -146,7 +146,7 @@ type
 \
 void
 \
-FT_Init_
+FT_Init_Table_
 #
 #
 name
@@ -279,6 +279,8 @@ FT_Long
 rdata_pos
 FT_Long
 tag
+FT_Bool
+sort_by_res_id
 FT_Long
 *
 *

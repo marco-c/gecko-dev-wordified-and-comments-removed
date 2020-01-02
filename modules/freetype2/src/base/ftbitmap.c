@@ -1479,6 +1479,7 @@ return
 FT_Err_Ok
 ;
 }
+static
 FT_Byte
 ft_gray_for_premultiplied_srgb_bgra
 (

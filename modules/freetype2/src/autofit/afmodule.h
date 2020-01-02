@@ -33,7 +33,10 @@ FT_ModuleRec
 root
 ;
 FT_UInt
-fallback_script
+fallback_style
+;
+FT_UInt
+default_script
 ;
 AF_LoaderRec
 loader

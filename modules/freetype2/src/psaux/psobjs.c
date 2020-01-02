@@ -3885,7 +3885,7 @@ if
 (
 result
 <
-0
+4
 )
 {
 FT_ERROR
@@ -4045,6 +4045,14 @@ if
 result
 <
 0
+|
+|
+(
+FT_UInt
+)
+result
+<
+max_objects
 )
 {
 FT_ERROR

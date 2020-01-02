@@ -23,10 +23,6 @@ AF_DECLARE_WRITING_SYSTEM_CLASS
 (
 af_cjk_writing_system_class
 )
-AF_DECLARE_SCRIPT_CLASS
-(
-af_hani_script_class
-)
 #
 define
 AF_CJK_IS_TOP_BLUE
@@ -182,7 +178,7 @@ typedef
 struct
 AF_CJKMetricsRec_
 {
-AF_ScriptMetricsRec
+AF_StyleMetricsRec
 root
 ;
 FT_UInt

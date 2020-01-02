@@ -660,8 +660,9 @@ glyph_index
 +
 )
 {
-error
-=
+(
+void
+)
 T1_Parse_Glyph
 (
 &

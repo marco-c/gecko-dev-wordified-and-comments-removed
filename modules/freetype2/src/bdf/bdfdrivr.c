@@ -1050,10 +1050,6 @@ value
 atom
 )
 ;
-len
-=
-0
-;
 for
 (
 len
@@ -1694,6 +1690,7 @@ bdfface
 -
 >
 face_flags
+|
 =
 FT_FACE_FLAG_FIXED_SIZES
 |

@@ -76957,7 +76957,7 @@ LIBPNG_CFLAGS
 MOZ_PNG_CFLAGS
 "
 export
-LIBPNG_LDFLAGS
+LIBPNG_LIBS
 =
 "
 MOZ_PNG_LIBS
@@ -77018,6 +77018,13 @@ shared
 with
 -
 pic
+=
+yes
+-
+-
+with
+-
+png
 =
 yes
 "

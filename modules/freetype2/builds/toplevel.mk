@@ -23,7 +23,8 @@ Copyright
 -
 2010
 2012
-2013
+-
+2014
 by
 #
 David
@@ -681,8 +682,8 @@ created
 by
 a
 run
-#
 of
+#
 the
 configure
 script
@@ -733,7 +734,7 @@ g
 .
 make
 setup
-win32
+windows
 '
 has
 #

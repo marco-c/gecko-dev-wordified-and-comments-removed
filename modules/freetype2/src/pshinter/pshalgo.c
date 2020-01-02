@@ -5088,10 +5088,6 @@ before
 =
 point
 ;
-after
-=
-point
-;
 do
 {
 before
@@ -7752,10 +7748,6 @@ first
 ;
 do
 {
-point
-=
-first
-;
 for
 (
 ;

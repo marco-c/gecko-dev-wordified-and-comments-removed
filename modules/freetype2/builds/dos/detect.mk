@@ -20,6 +20,7 @@ Copyright
 2003
 2004
 2006
+2014
 by
 #
 David
@@ -314,7 +315,7 @@ launched
 See
 builds
 /
-win32
+windows
 /
 detect
 .
@@ -344,7 +345,7 @@ Windows_NT
 )
 #
 If
-win32
+windows
 is
 available
 do
@@ -700,7 +701,7 @@ XP
 See
 builds
 /
-win32
+windows
 /
 detect
 .

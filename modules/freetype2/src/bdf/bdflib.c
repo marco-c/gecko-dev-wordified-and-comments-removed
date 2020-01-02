@@ -3605,10 +3605,6 @@ start
 =
 0
 ;
-end
-=
-0
-;
 avail
 =
 0
@@ -6560,7 +6556,7 @@ break
 }
 if
 (
-ft_memcmp
+ft_strncmp
 (
 name
 "
@@ -6613,7 +6609,7 @@ props_used
 ;
 if
 (
-ft_memcmp
+ft_strncmp
 (
 name
 "
@@ -6640,7 +6636,7 @@ l
 else
 if
 (
-ft_memcmp
+ft_strncmp
 (
 name
 "
@@ -6667,7 +6663,7 @@ l
 else
 if
 (
-ft_memcmp
+ft_strncmp
 (
 name
 "
@@ -6694,7 +6690,7 @@ l
 else
 if
 (
-ft_memcmp
+ft_strncmp
 (
 name
 "
@@ -6987,7 +6983,7 @@ memory
 ;
 if
 (
-ft_memcmp
+ft_strncmp
 (
 line
 "
@@ -7060,7 +7056,7 @@ _BDF_GLYPHS
 {
 if
 (
-ft_memcmp
+ft_strncmp
 (
 line
 "
@@ -7236,7 +7232,7 @@ Exit
 }
 if
 (
-ft_memcmp
+ft_strncmp
 (
 line
 "
@@ -7285,7 +7281,7 @@ Exit
 }
 if
 (
-ft_memcmp
+ft_strncmp
 (
 line
 "
@@ -7356,7 +7352,7 @@ Exit
 ;
 if
 (
-ft_memcmp
+ft_strncmp
 (
 line
 "
@@ -7512,7 +7508,7 @@ Exit
 }
 if
 (
-ft_memcmp
+ft_strncmp
 (
 line
 "
@@ -8461,7 +8457,7 @@ Exit
 }
 if
 (
-ft_memcmp
+ft_strncmp
 (
 line
 "
@@ -8554,7 +8550,7 @@ Exit
 }
 if
 (
-ft_memcmp
+ft_strncmp
 (
 line
 "
@@ -8705,7 +8701,7 @@ Exit
 }
 if
 (
-ft_memcmp
+ft_strncmp
 (
 line
 "
@@ -9196,7 +9192,7 @@ Exit
 }
 if
 (
-ft_memcmp
+ft_strncmp
 (
 line
 "
@@ -9528,7 +9524,7 @@ client_data
 ;
 if
 (
-ft_memcmp
+ft_strncmp
 (
 line
 "
@@ -9781,7 +9777,7 @@ Exit
 }
 if
 (
-ft_memcmp
+ft_strncmp
 (
 line
 "
@@ -9798,7 +9794,7 @@ Exit
 ;
 if
 (
-ft_memcmp
+ft_strncmp
 (
 line
 "
@@ -10078,7 +10074,7 @@ memory
 ;
 if
 (
-ft_memcmp
+ft_strncmp
 (
 line
 "
@@ -10189,7 +10185,7 @@ memory
 ;
 if
 (
-ft_memcmp
+ft_strncmp
 (
 line
 "
@@ -10423,7 +10419,7 @@ Exit
 }
 if
 (
-ft_memcmp
+ft_strncmp
 (
 line
 "
@@ -10581,7 +10577,7 @@ Exit
 }
 if
 (
-ft_memcmp
+ft_strncmp
 (
 line
 "
@@ -10835,7 +10831,7 @@ Exit
 }
 if
 (
-ft_memcmp
+ft_strncmp
 (
 line
 "
@@ -11013,7 +11009,7 @@ Exit
 }
 if
 (
-ft_memcmp
+ft_strncmp
 (
 line
 "
@@ -11364,7 +11360,7 @@ Exit
 }
 if
 (
-ft_memcmp
+ft_strncmp
 (
 line
 "
@@ -11770,16 +11766,6 @@ font
 0
 )
 {
-memory
-=
-p
--
->
-font
--
->
-memory
-;
 if
 (
 p

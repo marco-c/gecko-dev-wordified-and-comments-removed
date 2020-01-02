@@ -861,15 +861,6 @@ result
 FT_Byte
 *
 p
-=
-(
-FT_Byte
-*
-)
-name
--
->
-string
 ;
 if
 (

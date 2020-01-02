@@ -46,6 +46,13 @@ c
 #
 include
 "
+afranges
+.
+c
+"
+#
+include
+"
 afdummy
 .
 c
@@ -80,6 +87,13 @@ c
 include
 "
 afindic
+.
+c
+"
+#
+include
+"
+hbshim
 .
 c
 "

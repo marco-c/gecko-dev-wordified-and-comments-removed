@@ -404,7 +404,7 @@ scaler_flags
 FT_UInt32
 other_flags
 ;
-AF_ScriptMetrics
+AF_StyleMetrics
 metrics
 ;
 FT_Pos
@@ -636,7 +636,7 @@ af_glyph_hints_rescale
 (
 AF_GlyphHints
 hints
-AF_ScriptMetrics
+AF_StyleMetrics
 metrics
 )
 ;
