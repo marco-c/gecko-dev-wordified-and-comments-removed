@@ -5136,10 +5136,6 @@ Data
 (
 )
 :
-mSurface
-(
-nullptr
-)
 mDrawTarget
 (
 nullptr
@@ -5159,10 +5155,6 @@ false
 )
 {
 }
-gfxASurface
-*
-mSurface
-;
 mozilla
 :
 :
