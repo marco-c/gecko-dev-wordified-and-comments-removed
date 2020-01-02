@@ -126,7 +126,7 @@ MODULE
 '
 necko
 '
-SOURCES
+UNIFIED_SOURCES
 +
 =
 [
@@ -149,7 +149,7 @@ MOZ_WIDGET_TOOLKIT
 gonk
 '
 :
-SOURCES
+UNIFIED_SOURCES
 +
 =
 [
@@ -161,7 +161,7 @@ cpp
 ]
 else
 :
-SOURCES
+UNIFIED_SOURCES
 +
 =
 [
@@ -199,7 +199,7 @@ understand
 FAIL_ON_WARNINGS
 =
 False
-SOURCES
+UNIFIED_SOURCES
 +
 =
 [
@@ -209,7 +209,7 @@ nsWifiScannerMac
 cpp
 '
 ]
-SOURCES
+UNIFIED_SOURCES
 +
 =
 [
@@ -232,7 +232,7 @@ OS_ARCH
 WINNT
 '
 :
-SOURCES
+UNIFIED_SOURCES
 +
 =
 [
@@ -255,7 +255,7 @@ OS_ARCH
 SunOS
 '
 :
-SOURCES
+UNIFIED_SOURCES
 +
 =
 [
@@ -273,7 +273,7 @@ NECKO_WIFI_DBUS
 '
 ]
 :
-SOURCES
+UNIFIED_SOURCES
 +
 =
 [

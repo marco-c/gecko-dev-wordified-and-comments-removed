@@ -133,7 +133,7 @@ MODULE
 '
 necko
 '
-SOURCES
+UNIFIED_SOURCES
 +
 =
 [
