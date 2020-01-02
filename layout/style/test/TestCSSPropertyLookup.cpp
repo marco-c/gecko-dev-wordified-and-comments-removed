@@ -181,7 +181,7 @@ tagName
 nsCSSProps
 :
 :
-eIgnoreEnabledState
+eAny
 )
 ;
 if
@@ -311,7 +311,7 @@ tagName
 nsCSSProps
 :
 :
-eIgnoreEnabledState
+eAny
 )
 ;
 if
@@ -446,7 +446,7 @@ tag
 nsCSSProps
 :
 :
-eIgnoreEnabledState
+eAny
 )
 ;
 if

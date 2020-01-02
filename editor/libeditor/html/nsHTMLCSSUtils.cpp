@@ -3206,7 +3206,7 @@ aProperty
 nsCSSProps
 :
 :
-eEnabledForAllContent
+eEnabled
 )
 ;
 MOZ_ASSERT
