@@ -769,7 +769,10 @@ GetLayer
 )
 ;
 const
-gfx3DMatrix
+gfx
+:
+:
+Matrix4x4
 &
 transform
 =
@@ -787,7 +790,10 @@ raw
 &
 const_cast
 <
-gfx3DMatrix
+gfx
+:
+:
+Matrix4x4
 &
 >
 (
