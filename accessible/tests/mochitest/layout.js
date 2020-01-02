@@ -823,9 +823,8 @@ hyperText
 .
 getRangeExtents
 (
-0
--
-1
+aStartOffset
+aEndOffset
 xObj
 yObj
 widthObj
