@@ -345,11 +345,6 @@ ScreenOrientation
 h
 '
 '
-ScriptSettings
-.
-h
-'
-'
 StructuredCloneTags
 .
 h
@@ -511,11 +506,6 @@ cpp
 '
 '
 nsWrapperCache
-.
-cpp
-'
-'
-ScriptSettings
 .
 cpp
 '
