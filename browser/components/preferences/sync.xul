@@ -2570,6 +2570,15 @@ this
 hbox
 >
 <
+spacer
+flex
+=
+"
+1
+"
+/
+>
+<
 hbox
 id
 =
@@ -2590,6 +2599,7 @@ class
 text
 -
 link
+small
 "
 onclick
 =
@@ -2628,6 +2638,7 @@ class
 text
 -
 link
+small
 "
 onclick
 =

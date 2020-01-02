@@ -240,6 +240,17 @@ important
 }
 %
 endif
+label
+.
+small
+{
+font
+-
+size
+:
+smaller
+;
+}
 #
 tabPrefsBox
 {

@@ -323,6 +323,17 @@ png
 }
 %
 endif
+label
+.
+small
+{
+font
+-
+size
+:
+smaller
+;
+}
 #
 BrowserPreferences
 [
