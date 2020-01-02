@@ -1156,6 +1156,14 @@ video
 "
 #
 define
+VIDEO_3GPP2
+"
+video
+/
+3gpp2
+"
+#
+define
 APPLICATION_OGG
 "
 application

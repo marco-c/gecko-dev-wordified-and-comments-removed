@@ -873,6 +873,11 @@ video
 "
 video
 /
+3gpp2
+"
+"
+video
+/
 quicktime
 "
 #
