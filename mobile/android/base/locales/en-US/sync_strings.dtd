@@ -1700,6 +1700,15 @@ strings
 >
 <
 !
+ENTITY
+fxaccount_full_label
+'
+Firefox
+Accounts
+'
+>
+<
+!
 -
 -
 Localization
