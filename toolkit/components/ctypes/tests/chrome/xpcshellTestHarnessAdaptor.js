@@ -4,6 +4,11 @@ _WORKINGDIR_
 null
 ;
 var
+_OS_
+=
+null
+;
+var
 Components
 =
 {
@@ -358,5 +363,14 @@ i
 }
 return
 lf
+;
+}
+function
+get_os
+(
+)
+{
+return
+_OS_
 ;
 }

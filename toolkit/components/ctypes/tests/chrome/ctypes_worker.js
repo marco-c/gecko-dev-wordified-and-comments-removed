@@ -19,6 +19,16 @@ _WORKINGDIR_
 event
 .
 data
+.
+dir
+;
+_OS_
+=
+event
+.
+data
+.
+os
 ;
 importScripts
 (
