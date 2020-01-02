@@ -990,6 +990,11 @@ DoorHangerPopup
 java
 '
 '
+DynamicToolbar
+.
+java
+'
+'
 EditBookmarkDialog
 .
 java
