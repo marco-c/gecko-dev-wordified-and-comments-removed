@@ -76,12 +76,6 @@ nsTObserverArray
 h
 "
 class
-ELMCreationDetector
-;
-class
-nsEventTargetChainItem
-;
-class
 nsIDOMEvent
 ;
 class
@@ -107,6 +101,9 @@ nsCOMArray
 namespace
 mozilla
 {
+class
+ELMCreationDetector
+;
 class
 EventListenerManager
 ;
@@ -1813,8 +1810,6 @@ mNoListenerForEventAtom
 ;
 friend
 class
-:
-:
 ELMCreationDetector
 ;
 static

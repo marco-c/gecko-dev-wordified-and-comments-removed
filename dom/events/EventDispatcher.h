@@ -27,9 +27,6 @@ h
 undef
 CreateEvent
 class
-nsEventTargetChainItem
-;
-class
 nsIDOMEvent
 ;
 class
@@ -424,6 +421,12 @@ nsIDOMEvent
 *
 *
 aDOMEvent
+)
+;
+static
+void
+Shutdown
+(
 )
 ;
 }
