@@ -257,12 +257,6 @@ canvas
 reftest
 .
 list
-skip
--
-if
-(
-xulFennec
-)
 include
 .
 .
