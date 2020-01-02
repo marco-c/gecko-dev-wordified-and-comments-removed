@@ -2619,6 +2619,9 @@ boolean
 isCharSequence
 (
 Class
+<
+?
+>
 aClass
 )
 {
@@ -2647,6 +2650,9 @@ true
 ;
 }
 Class
+<
+?
+>
 [
 ]
 interfaces
@@ -2660,6 +2666,9 @@ getInterfaces
 for
 (
 Class
+<
+?
+>
 c
 :
 interfaces
