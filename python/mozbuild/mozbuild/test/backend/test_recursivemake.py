@@ -2439,23 +2439,6 @@ mm
 ]
             
 '
-CPP_UNIT_TESTS
-'
-:
-[
-                
-'
-CPP_UNIT_TESTS
-+
-=
-foo
-.
-cpp
-'
-            
-]
-            
-'
 CSRCS
 '
 :

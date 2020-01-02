@@ -1100,16 +1100,6 @@ c
 '
 ]
             
-CPP_UNIT_TESTS
-=
-[
-'
-foo
-.
-cpp
-'
-]
-            
 DISABLE_STL_WRAPPING
 =
 True

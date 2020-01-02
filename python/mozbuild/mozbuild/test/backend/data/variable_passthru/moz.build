@@ -136,15 +136,6 @@ pp
 jsm
 '
 ]
-CPP_UNIT_TESTS
-=
-[
-'
-foo
-.
-cpp
-'
-]
 HOST_SOURCES
 +
 =

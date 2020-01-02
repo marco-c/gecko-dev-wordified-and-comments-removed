@@ -2100,10 +2100,6 @@ ANDROID_RES_DIRS
 '
             
 '
-CPP_UNIT_TESTS
-'
-            
-'
 DISABLE_STL_WRAPPING
 '
             
@@ -3071,6 +3067,13 @@ SimpleProgram
                 
 (
 '
+CPP_UNIT_TESTS
+'
+SimpleProgram
+)
+                
+(
+'
 HOST_SIMPLE_PROGRAMS
 '
 HostSimpleProgram
@@ -3149,6 +3152,15 @@ cls
 (
 sandbox
 program
+                    
+is_unit_test
+=
+kind
+=
+=
+'
+CPP_UNIT_TESTS
+'
 )
                 
 self
@@ -3166,17 +3178,21 @@ _binaries
 program
 ]
                     
+'
+HOST_USE_LIBS
+'
+if
 kind
-.
-replace
-(
+=
+=
 '
-SIMPLE_PROGRAM
+HOST_SIMPLE_PROGRAMS
 '
+                    
+else
 '
 USE_LIBS
 '
-)
 )
 )
         
