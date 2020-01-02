@@ -607,8 +607,6 @@ const
 nsIntRegion
 &
 aRegionToClear
-uint64_t
-aId
 bool
 aScheduleComposite
 uint32_t

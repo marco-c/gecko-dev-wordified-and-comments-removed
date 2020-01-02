@@ -1229,8 +1229,6 @@ ClientLayerManager
 :
 DidComposite
 (
-uint64_t
-aTransactionId
 )
 {
 MOZ_ASSERT
@@ -1901,11 +1899,6 @@ mPhase
 =
 PHASE_FORWARD
 ;
-uint64_t
-pendingTransactionId
-=
-1
-;
 bool
 sent
 ;
@@ -1931,7 +1924,6 @@ EndTransaction
 &
 replies
 mRegionToClear
-pendingTransactionId
 aScheduleComposite
 mPaintSequenceNumber
 &

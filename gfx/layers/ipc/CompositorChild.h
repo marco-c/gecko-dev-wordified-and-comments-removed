@@ -210,10 +210,6 @@ const
 uint64_t
 &
 aId
-const
-uint64_t
-&
-aTransactionId
 )
 MOZ_OVERRIDE
 ;

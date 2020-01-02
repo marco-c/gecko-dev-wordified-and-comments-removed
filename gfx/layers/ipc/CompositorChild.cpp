@@ -581,10 +581,6 @@ const
 uint64_t
 &
 aId
-const
-uint64_t
-&
-aTransactionId
 )
 {
 if
@@ -605,7 +601,6 @@ mLayerManager
 >
 DidComposite
 (
-aTransactionId
 )
 ;
 }
@@ -646,7 +641,6 @@ child
 >
 DidComposite
 (
-aTransactionId
 )
 ;
 }

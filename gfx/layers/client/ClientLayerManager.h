@@ -794,8 +794,6 @@ virtual
 void
 DidComposite
 (
-uint64_t
-aTransactionId
 )
 ;
 virtual

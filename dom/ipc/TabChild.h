@@ -2044,8 +2044,6 @@ aLayersId
 void
 DidComposite
 (
-uint64_t
-aTransactionId
 )
 ;
 static
