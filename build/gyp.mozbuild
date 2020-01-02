@@ -464,6 +464,14 @@ moz_widget_toolkit_gonk
 ]
 =
 1
+gyp_vars
+[
+'
+opus_complexity
+'
+]
+=
+1
 if
 int
 (
