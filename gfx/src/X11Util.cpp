@@ -12,6 +12,13 @@ nsDebug
 .
 h
 "
+#
+include
+"
+MainThreadUtils
+.
+h
+"
 namespace
 mozilla
 {
@@ -253,6 +260,13 @@ ScopedXErrorHandler
 (
 )
 {
+MOZ_ASSERT
+(
+NS_IsMainThread
+(
+)
+)
+;
 mOldXErrorPtr
 =
 sXErrorPtr
