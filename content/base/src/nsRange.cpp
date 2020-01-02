@@ -11466,6 +11466,8 @@ GetTextFrameForContent
 nsIContent
 *
 aContent
+bool
+aFlushLayout
 )
 {
 nsIPresShell
@@ -11509,6 +11511,11 @@ aContent
 )
 )
 ;
+if
+(
+aFlushLayout
+)
+{
 aContent
 -
 >
@@ -11522,6 +11529,7 @@ FlushPendingNotifications
 Flush_Layout
 )
 ;
+}
 nsIFrame
 *
 frame
@@ -11587,6 +11595,8 @@ int32_t
 aEndOffset
 bool
 aClampToEdge
+bool
+aFlushLayout
 )
 {
 nsTextFrame
@@ -11596,6 +11606,7 @@ textFrame
 GetTextFrameForContent
 (
 aContent
+aFlushLayout
 )
 ;
 if
@@ -11820,6 +11831,8 @@ int32_t
 aEndOffset
 bool
 aClampToEdge
+bool
+aFlushLayout
 )
 {
 nsCOMPtr
@@ -11852,6 +11865,11 @@ IsInDoc
 return
 ;
 }
+if
+(
+aFlushLayout
+)
+{
 aStartParent
 -
 >
@@ -11878,6 +11896,7 @@ IsInDoc
 {
 return
 ;
+}
 }
 RangeSubtreeIterator
 iter
@@ -11945,6 +11964,7 @@ textFrame
 GetTextFrameForContent
 (
 content
+aFlushLayout
 )
 ;
 if
@@ -12130,6 +12150,7 @@ content
 aStartOffset
 offset
 aClampToEdge
+aFlushLayout
 )
 ;
 continue
@@ -12151,6 +12172,7 @@ content
 0
 aEndOffset
 aClampToEdge
+aFlushLayout
 )
 ;
 continue
@@ -12245,6 +12267,8 @@ GetBoundingClientRect
 (
 bool
 aClampToEdge
+bool
+aFlushLayout
 )
 {
 nsRefPtr
@@ -12292,6 +12316,7 @@ mStartOffset
 mEndParent
 mEndOffset
 aClampToEdge
+aFlushLayout
 )
 ;
 nsRect
@@ -12368,6 +12393,8 @@ GetClientRects
 (
 bool
 aClampToEdge
+bool
+aFlushLayout
 )
 {
 if
@@ -12418,6 +12445,7 @@ mStartOffset
 mEndParent
 mEndOffset
 aClampToEdge
+aFlushLayout
 )
 ;
 return

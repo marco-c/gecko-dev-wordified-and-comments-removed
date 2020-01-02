@@ -39120,6 +39120,7 @@ nsrange
 GetBoundingClientRect
 (
 true
+false
 )
 ;
 range

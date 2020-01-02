@@ -1999,6 +1999,7 @@ EndOffset
 (
 )
 true
+true
 )
 ;
 nsIFrame

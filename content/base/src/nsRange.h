@@ -882,6 +882,10 @@ bool
 aClampToEdge
 =
 true
+bool
+aFlushLayout
+=
+true
 )
 ;
 already_AddRefed
@@ -892,6 +896,10 @@ GetClientRects
 (
 bool
 aClampToEdge
+=
+true
+bool
+aFlushLayout
 =
 true
 )
@@ -1031,6 +1039,8 @@ int32_t
 aEndOffset
 bool
 aClampToEdge
+bool
+aFlushLayout
 )
 ;
 typedef
