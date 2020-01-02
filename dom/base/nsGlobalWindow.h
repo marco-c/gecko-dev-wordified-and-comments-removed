@@ -5461,6 +5461,8 @@ nsIDOMWindow
 _retval
 )
 ;
+private
+:
 nsresult
 OpenInternal
 (
@@ -5504,6 +5506,8 @@ nsIDOMWindow
 aReturn
 )
 ;
+public
+:
 nsresult
 SetTimeoutOrInterval
 (
