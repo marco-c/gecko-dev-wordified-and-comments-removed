@@ -6841,7 +6841,7 @@ if
 (
 aMessage
 .
-msisdn
+phoneNumber
 )
 {
 let
@@ -6853,7 +6853,7 @@ indexOf
 (
 aMessage
 .
-msisdn
+phoneNumber
 )
 ;
 if

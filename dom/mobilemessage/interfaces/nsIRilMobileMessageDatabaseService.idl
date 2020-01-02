@@ -378,7 +378,7 @@ receivers
 *
 -
 |
-msisdn
+phoneNumber
 |
 DOMString
 :
