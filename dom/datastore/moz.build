@@ -145,9 +145,4 @@ DataStore
 .
 jsm
 '
-'
-DataStoreDB
-.
-jsm
-'
 ]
