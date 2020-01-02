@@ -4051,6 +4051,11 @@ NS_IsMainThread
 OnStateMachineThread
 (
 )
+|
+|
+OnDecodeThread
+(
+)
 )
 ;
 int64_t
