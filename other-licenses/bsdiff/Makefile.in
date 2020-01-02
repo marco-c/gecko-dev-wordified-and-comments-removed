@@ -403,7 +403,3 @@ HOST_CXXFLAGS
 (
 MOZ_BZ2_CFLAGS
 )
-<
-/
-textarea
->
