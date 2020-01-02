@@ -195,8 +195,6 @@ attribute
 boolean
 stepMismatch
 ;
-/
-/
 readonly
 attribute
 boolean

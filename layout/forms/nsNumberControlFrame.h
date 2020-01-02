@@ -315,6 +315,11 @@ nsAString
 aValue
 )
 ;
+bool
+AnonTextControlIsEmpty
+(
+)
+;
 void
 HandlingInputEvent
 (

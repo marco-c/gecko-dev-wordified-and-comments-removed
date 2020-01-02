@@ -1099,6 +1099,12 @@ HasStepMismatch
 )
 const
 ;
+bool
+HasBadInput
+(
+)
+const
+;
 void
 UpdateTooLongValidityState
 (
@@ -1131,6 +1137,11 @@ UpdateRangeUnderflowValidityState
 ;
 void
 UpdateStepMismatchValidityState
+(
+)
+;
+void
+UpdateBadInputValidityState
 (
 )
 ;
