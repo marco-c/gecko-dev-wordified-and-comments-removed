@@ -1949,6 +1949,16 @@ IS_TOOL_DIR
 False
 )
         
+o
+.
+affected_tiers
+=
+sandbox
+.
+get_affected_tiers
+(
+)
+        
 if
 '
 TIERS

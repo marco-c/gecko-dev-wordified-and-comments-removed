@@ -692,6 +692,7 @@ st_typ
 in_type
 default
 doc
+tier
 =
 VARIABLES
 [

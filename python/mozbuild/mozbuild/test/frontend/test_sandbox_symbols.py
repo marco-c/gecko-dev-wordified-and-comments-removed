@@ -141,6 +141,7 @@ typ
 inp
 default
 doc
+tier
 in
 VARIABLES
 .
