@@ -2682,7 +2682,6 @@ jitInfo
 )
 |
 |
-!
 fval
 .
 toObject
@@ -2701,7 +2700,7 @@ jitInfo
 )
 -
 >
-isDOMJitInfo
+needsOuterizedThisObject
 (
 )
 )

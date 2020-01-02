@@ -6469,6 +6469,7 @@ Getter
 Setter
 Method
 ParallelNative
+StaticMethod
 OpTypeCount
 }
 ;
@@ -6666,7 +6667,7 @@ ParallelNative
 ;
 }
 bool
-isDOMJitInfo
+needsOuterizedThisObject
 (
 )
 const
@@ -6677,7 +6678,15 @@ type
 )
 !
 =
-ParallelNative
+Getter
+&
+&
+type
+(
+)
+!
+=
+Setter
 ;
 }
 bool
@@ -6742,6 +6751,9 @@ method
 ;
 JSParallelNative
 parallelNative
+;
+JSNative
+staticMethod
 ;
 }
 ;

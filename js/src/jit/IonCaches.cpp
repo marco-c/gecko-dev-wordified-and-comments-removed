@@ -2611,6 +2611,7 @@ jitInfo
 )
 &
 &
+!
 getter
 .
 jitInfo
@@ -2618,7 +2619,7 @@ jitInfo
 )
 -
 >
-isDOMJitInfo
+needsOuterizedThisObject
 (
 )
 )
