@@ -73,8 +73,6 @@ intl
 /
 locale
 /
-src
-/
 props2arrays
 .
 py
