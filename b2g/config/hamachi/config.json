@@ -325,6 +325,13 @@ MOZ_TELEMETRY_REPORTING
 "
 1
 "
+"
+B2G_UPDATE_CHANNEL
+"
+:
+"
+nightly
+"
 }
 "
 b2g_manifest

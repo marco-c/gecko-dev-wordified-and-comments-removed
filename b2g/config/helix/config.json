@@ -408,6 +408,13 @@ helix
 -
 ics
 "
+"
+B2G_UPDATE_CHANNEL
+"
+:
+"
+nightly
+"
 }
 "
 b2g_manifest
