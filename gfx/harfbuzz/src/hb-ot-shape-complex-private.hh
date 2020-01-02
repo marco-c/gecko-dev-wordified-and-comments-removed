@@ -485,9 +485,6 @@ case
 HB_SCRIPT_SINHALA
 :
 case
-HB_SCRIPT_BUGINESE
-:
-case
 HB_SCRIPT_BALINESE
 :
 case
@@ -664,6 +661,9 @@ return
 &
 _hb_ot_complex_shaper_default
 ;
+case
+HB_SCRIPT_BUGINESE
+:
 case
 HB_SCRIPT_NEW_TAI_LUE
 :

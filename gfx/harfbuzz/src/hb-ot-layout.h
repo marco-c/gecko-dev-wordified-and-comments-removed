@@ -485,6 +485,17 @@ int
 lookup_indexes
 )
 ;
+unsigned
+int
+hb_ot_layout_table_get_lookup_count
+(
+hb_face_t
+*
+face
+hb_tag_t
+table_tag
+)
+;
 void
 hb_ot_layout_collect_lookups
 (
