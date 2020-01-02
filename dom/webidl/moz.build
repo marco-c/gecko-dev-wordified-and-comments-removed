@@ -675,6 +675,11 @@ History
 webidl
 '
 '
+HTMLAllCollection
+.
+webidl
+'
+'
 HTMLAnchorElement
 .
 webidl
