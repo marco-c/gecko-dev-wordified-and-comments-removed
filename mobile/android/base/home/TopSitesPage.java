@@ -1736,6 +1736,12 @@ onEditPinnedSite
 info
 .
 position
+decodeUserEnteredUrl
+(
+info
+.
+url
+)
 )
 ;
 return
@@ -1875,6 +1881,8 @@ onEditPinnedSite
 (
 int
 position
+String
+searchTerm
 )
 {
 mPosition
@@ -1928,6 +1936,13 @@ dialog
 setOnSiteSelectedListener
 (
 this
+)
+;
+dialog
+.
+setSearchTerm
+(
+searchTerm
 )
 ;
 dialog
