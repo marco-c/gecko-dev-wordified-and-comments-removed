@@ -966,12 +966,6 @@ update
 (
 void
 )
-lockFocus
-;
--
-(
-void
-)
 _surfaceNeedsUpdate
 :
 (
