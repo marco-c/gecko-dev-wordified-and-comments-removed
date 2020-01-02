@@ -1325,15 +1325,6 @@ preventDefault
 ;
 this
 .
-emit
-(
-"
-contextMenu
-"
-)
-;
-this
-.
 showContextMenu
 (
 doc

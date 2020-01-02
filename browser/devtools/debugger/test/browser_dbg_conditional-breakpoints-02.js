@@ -825,7 +825,7 @@ EVENTS
 BREAKPOINT_ADDED
 )
 ;
-setContextPosition
+setCaretPosition
 (
 19
 )
@@ -858,7 +858,7 @@ EVENTS
 CONDITIONAL_BREAKPOINT_POPUP_SHOWING
 )
 ;
-setContextPosition
+setCaretPosition
 (
 19
 )
@@ -891,7 +891,7 @@ EVENTS
 BREAKPOINT_ADDED
 )
 ;
-setContextPosition
+setCaretPosition
 (
 20
 )
@@ -966,7 +966,7 @@ EVENTS
 BREAKPOINT_ADDED
 )
 ;
-setContextPosition
+setCaretPosition
 (
 21
 )
@@ -999,7 +999,7 @@ EVENTS
 BREAKPOINT_REMOVED
 )
 ;
-setContextPosition
+setCaretPosition
 (
 21
 )
@@ -1467,21 +1467,6 @@ ch
 0
 }
 )
-;
-}
-function
-setContextPosition
-(
-aLine
-)
-{
-gSources
-.
-_editorContextMenuLineNumber
-=
-aLine
--
-1
 ;
 }
 function
