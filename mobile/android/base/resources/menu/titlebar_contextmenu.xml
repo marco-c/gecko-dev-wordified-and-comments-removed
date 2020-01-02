@@ -215,13 +215,6 @@ string
 /
 contextmenu_add_search_engine
 "
-android
-:
-visible
-=
-"
-false
-"
 /
 >
 <
