@@ -194,5 +194,14 @@ attribute
 boolean
 specified
 ;
+[
+GetterThrows
+]
+readonly
+attribute
+Element
+?
+ownerElement
+;
 }
 ;
