@@ -1736,7 +1736,7 @@ info
 (
 LOG_TAG
 "
-Disabling
+Enabling
 sync
 for
 account
