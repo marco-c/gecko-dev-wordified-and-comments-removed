@@ -826,7 +826,7 @@ TypeDescrSet
 :
 allHaveSameSize
 (
-size_t
+int32_t
 *
 out
 )
@@ -853,7 +853,7 @@ kind
 )
 )
 ;
-size_t
+int32_t
 size
 =
 get
@@ -1207,7 +1207,7 @@ TypeDescrSet
 :
 hasKnownArrayLength
 (
-size_t
+int32_t
 *
 l
 )
@@ -1486,7 +1486,7 @@ IonBuilder
 builder
 jsid
 id
-size_t
+int32_t
 *
 offset
 TypeDescrSet
@@ -1527,7 +1527,7 @@ TypeDescrSet
 (
 )
 ;
-size_t
+int32_t
 offset0
 ;
 size_t

@@ -199,7 +199,7 @@ allOfArrayKind
 bool
 allHaveSameSize
 (
-size_t
+int32_t
 *
 out
 )
@@ -271,7 +271,7 @@ out
 bool
 hasKnownArrayLength
 (
-size_t
+int32_t
 *
 length
 )
@@ -295,7 +295,7 @@ IonBuilder
 builder
 jsid
 id
-size_t
+int32_t
 *
 offset
 TypeDescrSet
