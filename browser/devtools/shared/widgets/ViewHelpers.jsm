@@ -1739,7 +1739,7 @@ for
 (
 let
 childItem
-in
+of
 aItem
 )
 {
@@ -4643,7 +4643,7 @@ for
 (
 let
 childItem
-in
+of
 aItem
 )
 {
@@ -5006,11 +5006,11 @@ Item
 .
 prototype
 .
-__iterator__
+iterator
 =
 WidgetMethods
 .
-__iterator__
+iterator
 =
 function
 (

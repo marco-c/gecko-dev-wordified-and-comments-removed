@@ -1205,7 +1205,7 @@ for
 (
 let
 source
-in
+of
 this
 )
 {
@@ -1213,7 +1213,7 @@ for
 (
 let
 breakpointItem
-in
+of
 source
 )
 {
@@ -5744,7 +5744,7 @@ i
 for
 (
 i
-in
+of
 this
 )
 if
@@ -5839,7 +5839,7 @@ i
 for
 (
 i
-in
+of
 this
 )
 if
@@ -8988,7 +8988,7 @@ for
 (
 let
 sourceResults
-in
+of
 aGlobalResults
 )
 {
@@ -10658,19 +10658,19 @@ GlobalResults
 .
 prototype
 .
-__iterator__
+iterator
 =
 SourceResults
 .
 prototype
 .
-__iterator__
+iterator
 =
 LineResults
 .
 prototype
 .
-__iterator__
+iterator
 =
 function
 (
