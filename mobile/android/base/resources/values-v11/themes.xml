@@ -184,7 +184,7 @@ name
 arrowPopupWidth
 "
 >
-fill_parent
+match_parent
 <
 /
 item

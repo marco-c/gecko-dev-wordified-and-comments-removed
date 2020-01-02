@@ -206,7 +206,7 @@ android
 layout_width
 "
 >
-fill_parent
+match_parent
 <
 /
 item
@@ -338,7 +338,7 @@ android
 layout_width
 "
 >
-fill_parent
+match_parent
 <
 /
 item
@@ -472,7 +472,7 @@ android
 layout_width
 "
 >
-fill_parent
+match_parent
 <
 /
 item
@@ -700,7 +700,7 @@ android
 layout_width
 "
 >
-fill_parent
+match_parent
 <
 /
 item
@@ -1030,7 +1030,7 @@ android
 layout_width
 "
 >
-fill_parent
+match_parent
 <
 /
 item
@@ -1176,7 +1176,7 @@ android
 layout_width
 "
 >
-fill_parent
+match_parent
 <
 /
 item
@@ -1465,7 +1465,7 @@ android
 layout_width
 "
 >
-fill_parent
+match_parent
 <
 /
 item
@@ -1524,7 +1524,7 @@ android
 layout_width
 "
 >
-fill_parent
+match_parent
 <
 /
 item

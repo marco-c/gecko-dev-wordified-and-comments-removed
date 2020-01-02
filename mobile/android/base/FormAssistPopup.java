@@ -1473,7 +1473,7 @@ RelativeLayout
 .
 LayoutParams
 .
-FILL_PARENT
+MATCH_PARENT
 ;
 int
 popupLeft

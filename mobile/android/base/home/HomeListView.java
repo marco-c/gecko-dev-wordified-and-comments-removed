@@ -290,7 +290,7 @@ LayoutParams
 (
 LayoutParams
 .
-FILL_PARENT
+MATCH_PARENT
 dividerHeight
 )
 )
