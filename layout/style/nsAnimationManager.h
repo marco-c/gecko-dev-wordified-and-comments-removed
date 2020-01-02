@@ -246,15 +246,6 @@ aNow
 )
 ;
 void
-EnsureStyleRuleFor
-(
-TimeStamp
-aRefreshTime
-bool
-aIsThrottled
-)
-;
-void
 GetEventsAt
 (
 TimeStamp
@@ -378,9 +369,6 @@ aProperty
 )
 const
 MOZ_OVERRIDE
-;
-bool
-mNeedsRefreshes
 ;
 }
 ;

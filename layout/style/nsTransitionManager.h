@@ -143,16 +143,6 @@ TimeStamp
 aNow
 )
 ;
-void
-EnsureStyleRuleFor
-(
-mozilla
-:
-:
-TimeStamp
-aRefreshTime
-)
-;
 virtual
 bool
 HasAnimationOfProperty

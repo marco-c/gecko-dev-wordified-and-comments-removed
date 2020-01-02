@@ -1485,6 +1485,10 @@ mFlushGeneration
 (
 aNow
 )
+mNeedsRefreshes
+(
+true
+)
 #
 ifdef
 DEBUG
@@ -1557,6 +1561,15 @@ mElementProperty
 )
 ;
 }
+void
+EnsureStyleRuleFor
+(
+TimeStamp
+aRefreshTime
+bool
+aIsThrottled
+)
+;
 bool
 CanThrottleTransformChanges
 (
@@ -1710,6 +1723,9 @@ mStyleRuleRefreshTime
 ;
 TimeStamp
 mFlushGeneration
+;
+bool
+mNeedsRefreshes
 ;
 #
 ifdef
