@@ -348,6 +348,13 @@ h
 #
 include
 "
+nsContainerFrame
+.
+h
+"
+#
+include
+"
 nsPresState
 .
 h

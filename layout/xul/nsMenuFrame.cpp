@@ -887,7 +887,7 @@ nsMenuFrame
 :
 SetParent
 (
-nsIFrame
+nsContainerFrame
 *
 aParent
 )

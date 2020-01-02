@@ -88,6 +88,9 @@ struct
 nsGenConInitializer
 ;
 class
+nsFirstLineFrame
+;
+class
 nsICSSAnonBoxPseudo
 ;
 class
@@ -4062,7 +4065,7 @@ aBlockContent
 nsIFrame
 *
 aBlockFrame
-nsIFrame
+nsFirstLineFrame
 *
 aLineFrame
 nsFrameItems

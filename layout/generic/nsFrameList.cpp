@@ -8,7 +8,7 @@ h
 #
 include
 "
-nsIFrame
+nsContainerFrame
 .
 h
 "
@@ -1550,7 +1550,14 @@ f
 >
 SetParent
 (
+static_cast
+<
+nsContainerFrame
+*
+>
+(
 aParent
+)
 )
 ;
 }

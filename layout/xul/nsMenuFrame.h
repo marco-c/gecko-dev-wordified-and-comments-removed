@@ -467,7 +467,7 @@ virtual
 void
 SetParent
 (
-nsIFrame
+nsContainerFrame
 *
 aParent
 )

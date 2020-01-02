@@ -306,7 +306,7 @@ nsStyleContext
 aContext
 )
 ;
-nsIFrame
+nsContainerFrame
 *
 NS_NewMathMLmathBlockFrame
 (
@@ -320,7 +320,7 @@ nsFrameState
 aFlags
 )
 ;
-nsIFrame
+nsContainerFrame
 *
 NS_NewMathMLmathInlineFrame
 (
@@ -333,7 +333,7 @@ aContext
 )
 ;
 inline
-nsIFrame
+nsContainerFrame
 *
 NS_CreateNewMathMLmathBlockFrame
 (

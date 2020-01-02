@@ -117,7 +117,7 @@ h
 #
 include
 "
-nsIFrame
+nsContainerFrame
 .
 h
 "
@@ -6151,7 +6151,7 @@ return
 lineNumber
 ;
 }
-nsIFrame
+nsContainerFrame
 *
 parentFrame
 =

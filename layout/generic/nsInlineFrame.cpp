@@ -4148,7 +4148,7 @@ eNoType
 }
 #
 endif
-nsIFrame
+nsFirstLineFrame
 *
 NS_NewFirstLineFrame
 (

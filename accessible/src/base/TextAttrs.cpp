@@ -59,6 +59,13 @@ h
 #
 include
 "
+nsContainerFrame
+.
+h
+"
+#
+include
+"
 HyperTextAccessible
 .
 h
@@ -1582,7 +1589,7 @@ return
 true
 ;
 }
-nsIFrame
+nsContainerFrame
 *
 parentFrame
 =

@@ -98,7 +98,7 @@ h
 #
 include
 "
-nsIFrame
+nsContainerFrame
 .
 h
 "

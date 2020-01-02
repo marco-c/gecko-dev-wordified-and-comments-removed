@@ -257,7 +257,7 @@ aList
 ;
 }
 friend
-nsIFrame
+nsBlockFrame
 *
 NS_NewBlockFrame
 (

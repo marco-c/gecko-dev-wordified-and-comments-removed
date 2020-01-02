@@ -104,7 +104,10 @@ NS_BLOCK_HAS_FIRST_LETTER_CHILD
 \
 NS_BLOCK_FRAME_HAS_INSIDE_BULLET
 )
-nsIFrame
+class
+nsBlockFrame
+;
+nsBlockFrame
 *
 NS_NewBlockFrame
 (
@@ -155,7 +158,7 @@ aFlags
 )
 ;
 inline
-nsIFrame
+nsBlockFrame
 *
 NS_NewBlockFormattingContext
 (
@@ -417,7 +420,10 @@ nsStyleContext
 aContext
 )
 ;
-nsIFrame
+class
+nsFirstLineFrame
+;
+nsFirstLineFrame
 *
 NS_NewFirstLineFrame
 (

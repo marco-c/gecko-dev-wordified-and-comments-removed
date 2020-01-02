@@ -5473,7 +5473,7 @@ kPrincipalList
 #
 ifdef
 DEBUG
-nsIFrame
+nsContainerFrame
 *
 parent
 =

@@ -1191,7 +1191,7 @@ NS_DECLARE_FRAME_PROPERTY
 BottomEdgeOfChildrenProperty
 nullptr
 )
-nsIFrame
+nsBlockFrame
 *
 NS_NewBlockFrame
 (
@@ -2632,10 +2632,10 @@ ReparentFrame
 nsIFrame
 *
 aFrame
-nsIFrame
+nsContainerFrame
 *
 aOldParent
-nsIFrame
+nsContainerFrame
 *
 aNewParent
 )
@@ -2686,10 +2686,10 @@ ReparentFrames
 nsFrameList
 &
 aFrameList
-nsIFrame
+nsContainerFrame
 *
 aOldParent
-nsIFrame
+nsContainerFrame
 *
 aNewParent
 )

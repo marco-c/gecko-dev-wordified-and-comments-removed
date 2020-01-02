@@ -7,7 +7,7 @@ nsFontInflationData_h_
 #
 include
 "
-nsIFrame
+nsContainerFrame
 .
 h
 "
