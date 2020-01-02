@@ -7222,6 +7222,9 @@ T
 seq
 )
 ;
+namespace
+binding_detail
+{
 template
 <
 typename
@@ -7281,6 +7284,7 @@ this
 }
 }
 ;
+}
 template
 <
 typename
