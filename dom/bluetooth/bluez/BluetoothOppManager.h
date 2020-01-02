@@ -117,13 +117,6 @@ OPP
 static
 const
 int
-DEFAULT_OPP_CHANNEL
-=
-10
-;
-static
-const
-int
 MAX_PACKET_LENGTH
 =
 0xFFFE

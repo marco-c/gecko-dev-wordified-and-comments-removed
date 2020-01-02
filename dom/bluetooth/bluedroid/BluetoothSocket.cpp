@@ -2194,15 +2194,8 @@ sBluetoothSocketInterface
 >
 connect
 (
-(
-bt_bdaddr_t
-*
-)
 &
 remoteBdAddress
-(
-btsock_type_t
-)
 BTSOCK_RFCOMM
 UUID_OBEX_OBJECT_PUSH
 aChannel
@@ -2286,9 +2279,6 @@ sBluetoothSocketInterface
 >
 listen
 (
-(
-btsock_type_t
-)
 BTSOCK_RFCOMM
 serviceName
 .
