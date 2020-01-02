@@ -6747,6 +6747,7 @@ light
 .
 css
 )
+*
 skin
 /
 classic
@@ -6759,6 +6760,11 @@ inspector
 .
 css
 (
+.
+.
+/
+shared
+/
 devtools
 /
 inspector
@@ -16144,6 +16150,7 @@ light
 .
 css
 )
+*
 skin
 /
 classic
@@ -16158,6 +16165,11 @@ inspector
 .
 css
 (
+.
+.
+/
+shared
+/
 devtools
 /
 inspector
