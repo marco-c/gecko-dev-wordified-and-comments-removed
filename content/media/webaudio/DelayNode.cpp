@@ -96,9 +96,6 @@ AudioNodeEngine
 {
 typedef
 PlayingRefChangeHandler
-<
-DelayNode
->
 PlayingRefChanged
 ;
 public

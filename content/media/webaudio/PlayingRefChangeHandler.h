@@ -24,11 +24,6 @@ mozilla
 namespace
 dom
 {
-template
-<
-class
-NodeType
->
 class
 PlayingRefChangeHandler
 :
@@ -70,7 +65,7 @@ Run
 {
 nsRefPtr
 <
-NodeType
+AudioNode
 >
 node
 ;
@@ -93,12 +88,6 @@ NodeMutex
 ;
 node
 =
-static_cast
-<
-NodeType
-*
->
-(
 mStream
 -
 >
@@ -109,7 +98,6 @@ Engine
 >
 Node
 (
-)
 )
 ;
 }

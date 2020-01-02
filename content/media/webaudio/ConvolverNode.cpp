@@ -84,9 +84,6 @@ AudioNodeEngine
 {
 typedef
 PlayingRefChangeHandler
-<
-ConvolverNode
->
 PlayingRefChanged
 ;
 public
