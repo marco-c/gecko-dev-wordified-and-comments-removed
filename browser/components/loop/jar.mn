@@ -452,8 +452,8 @@ shared
 libs
 /
 sjcl
-.
-min
+-
+dev20140604
 .
 js
 (
@@ -464,8 +464,8 @@ shared
 libs
 /
 sjcl
-.
-min
+-
+dev20140604
 .
 js
 )
