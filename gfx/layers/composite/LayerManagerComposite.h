@@ -238,9 +238,6 @@ class
 ColorLayerComposite
 ;
 class
-Composer2D
-;
-class
 CompositableHost
 ;
 class
@@ -872,12 +869,6 @@ RefPtr
 Compositor
 >
 mCompositor
-;
-nsRefPtr
-<
-Composer2D
->
-mComposer2D
 ;
 gfxMatrix
 mWorldMatrix
