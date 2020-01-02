@@ -11891,7 +11891,7 @@ aMsg
 nsEventStatus
 status
 ;
-nsContentCommandEvent
+WidgetContentCommandEvent
 event
 (
 true

@@ -33609,7 +33609,7 @@ mGeckoChild
 returnType
 )
 {
-nsContentCommandEvent
+WidgetContentCommandEvent
 command
 (
 true
@@ -34188,7 +34188,7 @@ mGeckoChild
 false
 )
 ;
-nsContentCommandEvent
+WidgetContentCommandEvent
 command
 (
 true

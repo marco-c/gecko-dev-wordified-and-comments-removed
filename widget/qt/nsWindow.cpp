@@ -7113,7 +7113,7 @@ int32_t
 aMsg
 )
 {
-nsContentCommandEvent
+WidgetContentCommandEvent
 event
 (
 true

@@ -2615,7 +2615,7 @@ aLParam
 )
 )
 ;
-nsContentCommandEvent
+WidgetContentCommandEvent
 commandEvent
 (
 true
@@ -2653,7 +2653,7 @@ mScroll
 .
 mUnit
 =
-nsContentCommandEvent
+WidgetContentCommandEvent
 :
 :
 eCmdScrollUnit_Line
@@ -2678,7 +2678,7 @@ mScroll
 .
 mUnit
 =
-nsContentCommandEvent
+WidgetContentCommandEvent
 :
 :
 eCmdScrollUnit_Line
@@ -2702,7 +2702,7 @@ mScroll
 .
 mUnit
 =
-nsContentCommandEvent
+WidgetContentCommandEvent
 :
 :
 eCmdScrollUnit_Page
@@ -2727,7 +2727,7 @@ mScroll
 .
 mUnit
 =
-nsContentCommandEvent
+WidgetContentCommandEvent
 :
 :
 eCmdScrollUnit_Page
@@ -2751,7 +2751,7 @@ mScroll
 .
 mUnit
 =
-nsContentCommandEvent
+WidgetContentCommandEvent
 :
 :
 eCmdScrollUnit_Whole
@@ -2776,7 +2776,7 @@ mScroll
 .
 mUnit
 =
-nsContentCommandEvent
+WidgetContentCommandEvent
 :
 :
 eCmdScrollUnit_Whole

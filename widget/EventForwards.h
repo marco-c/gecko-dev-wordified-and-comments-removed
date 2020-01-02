@@ -367,12 +367,5 @@ mozilla
 InternalAnimationEvent
 nsAnimationEvent
 ;
-typedef
-mozilla
-:
-:
-WidgetContentCommandEvent
-nsContentCommandEvent
-;
 #
 endif

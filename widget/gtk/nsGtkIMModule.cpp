@@ -6692,7 +6692,7 @@ return
 NS_ERROR_FAILURE
 ;
 }
-nsContentCommandEvent
+WidgetContentCommandEvent
 contentCommandEvent
 (
 true

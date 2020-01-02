@@ -12802,7 +12802,7 @@ kungFuDeathGrip
 this
 )
 ;
-nsContentCommandEvent
+WidgetContentCommandEvent
 deleteCommandEvent
 (
 true

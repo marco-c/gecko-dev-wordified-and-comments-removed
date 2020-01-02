@@ -249,12 +249,5 @@ retargetToFocusedDocument
 }
 ;
 }
-typedef
-mozilla
-:
-:
-WidgetContentCommandEvent
-nsContentCommandEvent
-;
 #
 endif
