@@ -3920,6 +3920,9 @@ bool
 always
 )
 {
+#
+ifdef
+JSGC_GENERATIONAL
 if
 (
 rt
@@ -3942,6 +3945,17 @@ rt
 mainThread
 .
 suppressGC
+|
+|
+!
+rt
+-
+>
+gcStoreBuffer
+.
+isEnabled
+(
+)
 )
 return
 ;
@@ -3992,6 +4006,8 @@ StartVerifyPostBarriers
 rt
 )
 ;
+#
+endif
 }
 void
 js
