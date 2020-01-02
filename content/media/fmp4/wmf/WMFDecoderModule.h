@@ -51,7 +51,7 @@ MOZ_OVERRIDE
 virtual
 MediaDataDecoder
 *
-CreateVideoDecoder
+CreateH264Decoder
 (
 mozilla
 :
@@ -76,7 +76,7 @@ MOZ_OVERRIDE
 virtual
 MediaDataDecoder
 *
-CreateAudioDecoder
+CreateAACDecoder
 (
 uint32_t
 aChannelCount

@@ -281,7 +281,7 @@ MediaDataDecoder
 WMFDecoderModule
 :
 :
-CreateVideoDecoder
+CreateH264Decoder
 (
 mozilla
 :
@@ -346,7 +346,7 @@ MediaDataDecoder
 WMFDecoderModule
 :
 :
-CreateAudioDecoder
+CreateAACDecoder
 (
 uint32_t
 aChannelCount

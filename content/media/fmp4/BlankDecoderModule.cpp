@@ -845,7 +845,7 @@ NS_OK
 virtual
 MediaDataDecoder
 *
-CreateVideoDecoder
+CreateH264Decoder
 (
 layers
 :
@@ -885,7 +885,7 @@ decoder
 virtual
 MediaDataDecoder
 *
-CreateAudioDecoder
+CreateAACDecoder
 (
 uint32_t
 aChannelCount
