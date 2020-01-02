@@ -6874,11 +6874,7 @@ typeItem
 type
 ]
 ;
-document
-.
-documentElement
-.
-openSubDialog
+openDialog
 (
 "
 chrome
@@ -6896,6 +6892,13 @@ applicationManager
 xul
 "
 "
+"
+"
+modal
+centerscreen
+resizable
+=
+no
 "
 handlerInfo
 )
