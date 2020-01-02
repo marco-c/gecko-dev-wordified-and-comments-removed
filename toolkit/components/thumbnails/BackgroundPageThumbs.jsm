@@ -359,8 +359,6 @@ exists
 if
 (
 exists
-.
-ok
 )
 {
 if

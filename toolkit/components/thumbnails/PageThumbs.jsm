@@ -1201,8 +1201,6 @@ if
 (
 !
 recent
-.
-ok
 &
 &
 aBrowser

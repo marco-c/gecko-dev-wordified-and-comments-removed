@@ -357,8 +357,10 @@ PageThumbs
 captureAndStoreIfStale
 (
 browser
+function
+(
 )
-;
+{
 is
 (
 numNotifications
@@ -386,6 +388,9 @@ PageThumbs
 captureAndStoreIfStale
 (
 browser
+)
+;
+}
 )
 ;
 }
