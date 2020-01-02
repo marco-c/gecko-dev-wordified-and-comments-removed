@@ -392,6 +392,13 @@ include
 algorithm
 >
 #
+include
+"
+PowerWakeLock
+.
+h
+"
+#
 define
 NsecPerMsec
 1000000LL
@@ -2749,6 +2756,10 @@ SetEnabled
 (
 aEnabled
 )
+;
+gPowerWakelock
+=
+nullptr
 ;
 sScreenEnabled
 =
