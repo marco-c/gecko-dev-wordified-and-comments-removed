@@ -3194,9 +3194,10 @@ query
 .
 Append
 (
-"
 '
-"
+\
+'
+'
 )
 ;
 sqlite3_stmt

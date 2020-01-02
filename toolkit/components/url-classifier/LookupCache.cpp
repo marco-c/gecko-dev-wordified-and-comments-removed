@@ -1860,9 +1860,9 @@ key
 .
 Append
 (
-"
+'
 /
-"
+'
 )
 ;
 return
@@ -1951,9 +1951,9 @@ lookupHost
 .
 Append
 (
-"
+'
 .
-"
+'
 )
 ;
 }
@@ -1973,9 +1973,9 @@ lookupHost
 .
 Append
 (
-"
+'
 .
-"
+'
 )
 ;
 lookupHost
@@ -1992,9 +1992,9 @@ lookupHost
 .
 Append
 (
-"
+'
 /
-"
+'
 )
 ;
 return

@@ -1027,9 +1027,9 @@ mConfigURL
 .
 Append
 (
-"
+'
 ?
-"
+'
 )
 ;
 mConfigURL

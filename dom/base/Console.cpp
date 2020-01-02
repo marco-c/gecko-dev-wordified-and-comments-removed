@@ -6897,9 +6897,9 @@ aFormat
 .
 Append
 (
-"
+'
 %
-"
+'
 )
 ;
 if
@@ -6930,9 +6930,9 @@ aFormat
 .
 Append
 (
-"
+'
 .
-"
+'
 )
 ;
 aFormat

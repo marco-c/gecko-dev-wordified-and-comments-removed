@@ -614,9 +614,9 @@ string
 .
 Append
 (
-"
+'
 -
-"
+'
 )
 ;
 string

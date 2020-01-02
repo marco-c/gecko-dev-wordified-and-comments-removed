@@ -6740,9 +6740,9 @@ string
 .
 Append
 (
-"
+'
 -
-"
+'
 )
 ;
 string
@@ -6855,9 +6855,9 @@ string
 .
 Append
 (
-"
+'
 -
-"
+'
 )
 ;
 string

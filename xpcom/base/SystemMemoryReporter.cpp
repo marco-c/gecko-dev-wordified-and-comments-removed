@@ -1184,9 +1184,9 @@ processName
 .
 Append
 (
-"
+'
 )
-"
+'
 )
 ;
 nsPrintfCString
@@ -2282,9 +2282,9 @@ aName
 .
 Append
 (
-"
+'
 ]
-"
+'
 )
 ;
 aDesc
@@ -2307,9 +2307,9 @@ aDesc
 .
 Append
 (
-"
+'
 ]
-"
+'
 )
 ;
 }
@@ -2497,9 +2497,9 @@ path
 .
 Append
 (
-"
+'
 /
-"
+'
 )
 ;
 path
