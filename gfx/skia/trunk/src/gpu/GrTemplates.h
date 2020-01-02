@@ -56,7 +56,6 @@ T
 class
 GrAutoTRestore
 :
-public
 SkNoncopyable
 {
 public

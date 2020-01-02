@@ -74,7 +74,6 @@ T
 class
 SkTLList
 :
-public
 SkNoncopyable
 {
 private

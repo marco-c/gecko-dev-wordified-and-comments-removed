@@ -26,7 +26,6 @@ GrGpuGL
 class
 GrGLBufferImpl
 :
-public
 SkNoncopyable
 {
 public
@@ -127,7 +126,7 @@ const
 ;
 void
 *
-lock
+map
 (
 GrGpuGL
 *
@@ -135,18 +134,7 @@ gpu
 )
 ;
 void
-*
-lockPtr
-(
-)
-const
-{
-return
-fLockPtr
-;
-}
-void
-unlock
+unmap
 (
 GrGpuGL
 *
@@ -154,7 +142,7 @@ gpu
 )
 ;
 bool
-isLocked
+isMapped
 (
 )
 const
@@ -193,7 +181,10 @@ fCPUData
 ;
 void
 *
-fLockPtr
+fMapPtr
+;
+size_t
+fGLSizeInBytes
 ;
 typedef
 SkNoncopyable

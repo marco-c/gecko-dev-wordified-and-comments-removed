@@ -64,16 +64,11 @@ SkASSERT
 alpha
 )
 ;
-memcpy
+sk_memcpy32
 (
 dst
 src
 count
-*
-sizeof
-(
-SkPMColor
-)
 )
 ;
 }

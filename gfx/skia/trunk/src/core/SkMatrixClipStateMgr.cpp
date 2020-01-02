@@ -323,7 +323,7 @@ curClip
 .
 fMatrixID
 ;
-int
+size_t
 offset
 =
 0
@@ -558,7 +558,6 @@ fCurMCState
 MatrixClipState
 (
 NULL
-0
 )
 ;
 #
@@ -620,11 +619,6 @@ SkMatrixClipStateMgr
 :
 MCStackPush
 (
-SkCanvas
-:
-:
-SaveFlags
-flags
 )
 {
 MatrixClipState
@@ -648,7 +642,6 @@ newTop
 MatrixClipState
 (
 fCurMCState
-flags
 )
 ;
 fCurMCState
@@ -679,11 +672,6 @@ SkMatrixClipStateMgr
 :
 save
 (
-SkCanvas
-:
-:
-SaveFlags
-flags
 )
 {
 SkDEBUGCODE
@@ -702,7 +690,6 @@ this
 >
 MCStackPush
 (
-flags
 )
 ;
 }
@@ -776,7 +763,6 @@ this
 >
 MCStackPush
 (
-flags
 )
 ;
 +
@@ -851,20 +837,7 @@ recordSaveLayer
 (
 bounds
 paint
-(
-SkCanvas
-:
-:
-SaveFlags
-)
-(
 flags
-|
-SkCanvas
-:
-:
-kMatrixClip_SaveFlag
-)
 )
 ;
 #
@@ -1430,10 +1403,6 @@ fPicRecord
 >
 recordSave
 (
-SkCanvas
-:
-:
-kMatrixClip_SaveFlag
 )
 ;
 #

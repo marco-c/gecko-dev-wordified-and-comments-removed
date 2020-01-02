@@ -29,7 +29,7 @@ class
 SkBitmap
 ;
 class
-GrEffectRef
+GrEffect
 ;
 class
 GrContext
@@ -178,7 +178,7 @@ add
 )
 ;
 virtual
-GrEffectRef
+GrEffect
 *
 asNewEffect
 (

@@ -55,6 +55,9 @@ class
 SkRRect
 ;
 class
+SkWStream
+;
+class
 SK_API
 SkPath
 {
@@ -1838,15 +1841,10 @@ const
 void
 dump
 (
+SkWStream
+*
 bool
 forceClose
-const
-char
-title
-[
-]
-=
-NULL
 )
 const
 ;

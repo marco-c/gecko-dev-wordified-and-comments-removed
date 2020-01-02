@@ -69,7 +69,7 @@ numGlyphs
 =
 =
 4
-SkOTTableHead_glyphDataFormat_not_at_2
+SkOTTableMaximumProfile_CFF_numGlyphs_not_at_4
 )
 ;
 SK_COMPILE_ASSERT
@@ -81,7 +81,7 @@ SkOTTableMaximumProfile_CFF
 =
 =
 6
-sizeof_SkOTTableHead_not_4
+sizeof_SkOTTableMaximumProfile_CFF_not_6
 )
 ;
 #

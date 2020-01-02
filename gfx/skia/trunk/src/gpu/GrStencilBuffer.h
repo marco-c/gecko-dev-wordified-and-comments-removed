@@ -14,15 +14,12 @@ h
 #
 include
 "
-GrResource
+GrGpuResource
 .
 h
 "
 class
 GrRenderTarget
-;
-class
-GrResourceEntry
 ;
 class
 GrResourceKey
@@ -31,7 +28,7 @@ class
 GrStencilBuffer
 :
 public
-GrResource
+GrGpuResource
 {
 public
 :
@@ -187,7 +184,7 @@ int
 sampleCnt
 )
 :
-GrResource
+GrGpuResource
 (
 gpu
 isWrapped
@@ -247,7 +244,7 @@ SkIPoint
 fLastClipSpaceOffset
 ;
 typedef
-GrResource
+GrGpuResource
 INHERITED
 ;
 }

@@ -7,7 +7,7 @@ GrPath_DEFINED
 #
 include
 "
-GrResource
+GrGpuResource
 .
 h
 "
@@ -43,7 +43,7 @@ class
 GrPath
 :
 public
-GrResource
+GrGpuResource
 {
 public
 :
@@ -104,6 +104,15 @@ const
 SkStrokeRec
 &
 stroke
+)
+;
+static
+uint64_t
+ComputeStrokeKey
+(
+const
+SkStrokeRec
+&
 )
 ;
 bool
@@ -170,7 +179,7 @@ fBounds
 private
 :
 typedef
-GrResource
+GrGpuResource
 INHERITED
 ;
 }

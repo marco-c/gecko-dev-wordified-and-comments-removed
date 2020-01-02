@@ -61,7 +61,7 @@ class
 GrContext
 ;
 class
-GrEffectRef
+GrEffect
 ;
 class
 GrTexture
@@ -69,13 +69,12 @@ GrTexture
 class
 GrEffectTestFactory
 :
-public
 SkNoncopyable
 {
 public
 :
 typedef
-GrEffectRef
+GrEffect
 *
 (
 *
@@ -119,7 +118,7 @@ this
 ;
 }
 static
-GrEffectRef
+GrEffect
 *
 CreateStage
 (
@@ -217,7 +216,7 @@ gTestFactory
 ;
 \
 static
-GrEffectRef
+GrEffect
 *
 TestCreate
 (
@@ -263,7 +262,7 @@ define
 GR_DECLARE_EFFECT_TEST
 \
 static
-GrEffectRef
+GrEffect
 *
 TestCreate
 (

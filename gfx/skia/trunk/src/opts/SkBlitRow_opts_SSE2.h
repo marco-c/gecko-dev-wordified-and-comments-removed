@@ -1,4 +1,10 @@
 #
+ifndef
+SkBlitRow_opts_SSE2_DEFINED
+#
+define
+SkBlitRow_opts_SSE2_DEFINED
+#
 include
 "
 SkBlitRow
@@ -204,3 +210,5 @@ int
 y
 )
 ;
+#
+endif

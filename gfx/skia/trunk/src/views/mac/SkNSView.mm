@@ -328,7 +328,7 @@ int
 size
 .
 height
-kPMColor_SkColorType
+kN32_SkColorType
 )
 ;
 }

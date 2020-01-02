@@ -154,10 +154,6 @@ bounds
 fRect
 &
 realPaint
-SkCanvas
-:
-:
-kHasAlphaLayer_SaveFlag
 )
 ;
 }
@@ -175,10 +171,6 @@ bounds
 >
 fRect
 save
-SkCanvas
-:
-:
-kHasAlphaLayer_SaveFlag
 )
 ;
 SkPaint

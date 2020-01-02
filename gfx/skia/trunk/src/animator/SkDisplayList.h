@@ -21,14 +21,14 @@ h
 #
 include
 "
-SkBounder
+SkRect
 .
 h
 "
 #
 include
 "
-SkRect
+SkRefCnt
 .
 h
 "
@@ -51,7 +51,7 @@ class
 SkDisplayList
 :
 public
-SkBounder
+SkRefCnt
 {
 public
 :

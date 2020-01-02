@@ -23,7 +23,6 @@ h
 class
 GrFakeRefObj
 :
-public
 SkNoncopyable
 {
 public

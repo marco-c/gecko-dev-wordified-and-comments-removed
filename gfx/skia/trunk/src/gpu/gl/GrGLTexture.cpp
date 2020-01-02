@@ -253,14 +253,6 @@ onRelease
 (
 )
 {
-GPUGL
--
->
-notifyTextureDelete
-(
-this
-)
-;
 fTexIDObj
 .
 reset

@@ -1028,12 +1028,13 @@ writeUInt
 0
 )
 ;
-bitmap
-.
-flatten
+SkBitmap
+:
+:
+WriteRawPixels
 (
-*
 this
+bitmap
 )
 ;
 }

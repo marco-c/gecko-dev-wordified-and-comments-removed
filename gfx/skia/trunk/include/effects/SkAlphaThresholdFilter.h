@@ -37,6 +37,11 @@ SkScalar
 innerThreshold
 SkScalar
 outerThreshold
+SkImageFilter
+*
+input
+=
+NULL
 )
 ;
 }

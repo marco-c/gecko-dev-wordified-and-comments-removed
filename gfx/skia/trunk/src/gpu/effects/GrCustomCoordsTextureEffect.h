@@ -30,7 +30,7 @@ GrVertexEffect
 public
 :
 static
-GrEffectRef
+GrEffect
 *
 Create
 (
@@ -43,9 +43,7 @@ GrTextureParams
 p
 )
 {
-AutoEffectUnref
-effect
-(
+return
 SkNEW_ARGS
 (
 GrCustomCoordsTextureEffect
@@ -53,13 +51,6 @@ GrCustomCoordsTextureEffect
 tex
 p
 )
-)
-)
-;
-return
-CreateEffectRef
-(
-effect
 )
 ;
 }

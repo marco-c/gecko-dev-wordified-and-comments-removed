@@ -193,7 +193,7 @@ SkRect
 devRect
 const
 SkStrokeRec
-*
+&
 stroke
 bool
 useVertexCoverage

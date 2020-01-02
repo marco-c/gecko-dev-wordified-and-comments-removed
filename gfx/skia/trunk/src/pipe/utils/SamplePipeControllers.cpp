@@ -107,8 +107,6 @@ fBlock
 fBlockSize
 =
 minRequest
-*
-4
 ;
 fBlock
 =

@@ -31,7 +31,6 @@ GrTexture
 class
 GrClipMaskCache
 :
-public
 SkNoncopyable
 {
 public

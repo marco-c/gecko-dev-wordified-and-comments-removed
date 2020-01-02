@@ -121,8 +121,6 @@ const
 CropRect
 *
 cropRect
-=
-NULL
 )
 ;
 SkColorFilter

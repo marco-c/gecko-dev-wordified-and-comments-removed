@@ -87,6 +87,7 @@ INHERITED
 endif
 SkPDFType0Font
 (
+const
 SkAdvancedTypefaceMetrics
 *
 info
@@ -139,6 +140,7 @@ SkPDFType0Font
 ;
 SkPDFCIDFont
 (
+const
 SkAdvancedTypefaceMetrics
 *
 info
@@ -209,6 +211,7 @@ SkPDFFont
 ;
 SkPDFType1Font
 (
+const
 SkAdvancedTypefaceMetrics
 *
 info
@@ -285,6 +288,7 @@ SkPDFFont
 ;
 SkPDFType3Font
 (
+const
 SkAdvancedTypefaceMetrics
 *
 info

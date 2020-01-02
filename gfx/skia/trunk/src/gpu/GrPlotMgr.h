@@ -14,13 +14,6 @@ h
 #
 include
 "
-GrPoint
-.
-h
-"
-#
-include
-"
 SkTypes
 .
 h
@@ -28,7 +21,6 @@ h
 class
 GrPlotMgr
 :
-public
 SkNoncopyable
 {
 public
@@ -132,7 +124,7 @@ fY
 bool
 newPlot
 (
-GrIPoint16
+SkIPoint16
 *
 loc
 )
@@ -342,7 +334,7 @@ char
 *
 fBusy
 ;
-GrIPoint16
+SkIPoint16
 fDim
 ;
 }

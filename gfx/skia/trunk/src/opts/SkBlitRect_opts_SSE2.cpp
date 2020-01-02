@@ -1,5 +1,12 @@
 #
 include
+<
+emmintrin
+.
+h
+>
+#
+include
 "
 SkBlitRect_opts_SSE2
 .
@@ -19,13 +26,6 @@ SkColorPriv
 .
 h
 "
-#
-include
-<
-emmintrin
-.
-h
->
 static
 void
 BlitRect32_OpaqueNarrow_SSE2

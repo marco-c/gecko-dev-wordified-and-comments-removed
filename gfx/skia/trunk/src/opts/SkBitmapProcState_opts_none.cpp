@@ -1,6 +1,13 @@
 #
 include
 "
+SkBitmapScaler
+.
+h
+"
+#
+include
+"
 SkBitmapProcState
 .
 h
@@ -15,10 +22,10 @@ platformProcs
 {
 }
 void
-SkBitmapProcState
+SkBitmapScaler
 :
 :
-platformConvolutionProcs
+PlatformConvolutionProcs
 (
 SkConvolutionProcs
 *

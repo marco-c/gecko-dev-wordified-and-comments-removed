@@ -105,9 +105,6 @@ refEncodedData
 )
 ;
 }
-SK_DECLARE_UNFLATTENABLE_OBJECT
-(
-)
 private
 :
 SkImageGenerator

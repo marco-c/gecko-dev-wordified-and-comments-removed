@@ -47,7 +47,7 @@ kMaxEdges
 }
 ;
 static
-GrEffectRef
+GrEffect
 *
 Create
 (
@@ -86,10 +86,6 @@ NULL
 ;
 }
 return
-CreateEffectRef
-(
-AutoEffectUnref
-(
 SkNEW_ARGS
 (
 GrConvexPolyEffect
@@ -99,12 +95,10 @@ n
 edges
 )
 )
-)
-)
 ;
 }
 static
-GrEffectRef
+GrEffect
 *
 Create
 (
@@ -121,7 +115,7 @@ NULL
 )
 ;
 static
-GrEffectRef
+GrEffect
 *
 Create
 (

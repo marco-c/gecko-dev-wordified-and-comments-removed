@@ -41,10 +41,6 @@ const
 {
 if
 (
-!
-antiAlias
-|
-|
 NULL
 =
 =

@@ -30,9 +30,6 @@ int
 fV0
 fV1
 ;
-bool
-fOverflowed
-;
 void
 init
 (

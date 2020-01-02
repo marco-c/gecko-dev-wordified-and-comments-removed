@@ -183,7 +183,7 @@ uint16_t
 qIdxBuffer
 -
 >
-lock
+map
 (
 )
 ;
@@ -377,7 +377,7 @@ else
 qIdxBuffer
 -
 >
-unlock
+unmap
 (
 )
 ;
@@ -406,7 +406,7 @@ uint16_t
 lIdxBuffer
 -
 >
-lock
+map
 (
 )
 ;
@@ -699,7 +699,7 @@ else
 lIdxBuffer
 -
 >
-unlock
+unmap
 (
 )
 ;
@@ -1626,9 +1626,9 @@ gSubdivTol
 ;
 log
 =
-GrMin
+SkTMin
 (
-GrMax
+SkTMax
 (
 0
 log
@@ -1724,13 +1724,13 @@ for
 ;
 )
 {
-GrPoint
+SkPoint
 pathPts
 [
 4
 ]
 ;
-GrPoint
+SkPoint
 devPts
 [
 4
@@ -2735,7 +2735,7 @@ totalQuadCount
 struct
 LineVertex
 {
-GrPoint
+SkPoint
 fPos
 ;
 GrColor
@@ -2746,7 +2746,7 @@ fCoverage
 struct
 BezierVertex
 {
-GrPoint
+SkPoint
 fPos
 ;
 union
@@ -2765,7 +2765,7 @@ fM
 }
 fConic
 ;
-GrVec
+SkVector
 fQuadCoord
 ;
 struct
@@ -2794,7 +2794,7 @@ BezierVertex
 *
 sizeof
 (
-GrPoint
+SkPoint
 )
 )
 ;
@@ -2981,7 +2981,7 @@ BezierVertex
 )
 sizeof
 (
-GrPoint
+SkPoint
 )
 >
 (
@@ -4035,7 +4035,7 @@ kPosition_GrVertexAttribBinding
 kVec4f_GrVertexAttribType
 sizeof
 (
-GrPoint
+SkPoint
 )
 kEffect_GrVertexAttribBinding
 }
@@ -4058,7 +4058,7 @@ kPosition_GrVertexAttribBinding
 kVec4ub_GrVertexAttribType
 sizeof
 (
-GrPoint
+SkPoint
 )
 kCoverage_GrVertexAttribBinding
 }
@@ -5356,7 +5356,7 @@ lineCnt
 int
 n
 =
-GrMin
+SkTMin
 (
 lineCnt
 -
@@ -5541,7 +5541,7 @@ quadCnt
 0
 )
 {
-GrEffectRef
+GrEffect
 *
 hairQuadEffect
 =
@@ -5614,7 +5614,7 @@ quadCnt
 int
 n
 =
-GrMin
+SkTMin
 (
 quadCnt
 -
@@ -5665,7 +5665,7 @@ are
 drawState
 )
 ;
-GrEffectRef
+GrEffect
 *
 hairConicEffect
 =
@@ -5722,7 +5722,7 @@ conicCnt
 int
 n
 =
-GrMin
+SkTMin
 (
 conicCnt
 -

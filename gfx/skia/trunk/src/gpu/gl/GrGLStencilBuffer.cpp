@@ -32,7 +32,7 @@ size_t
 GrGLStencilBuffer
 :
 :
-sizeInBytes
+gpuMemorySize
 (
 )
 const
@@ -67,7 +67,7 @@ fTotalBits
 size
 *
 =
-GrMax
+SkTMax
 (
 1
 this

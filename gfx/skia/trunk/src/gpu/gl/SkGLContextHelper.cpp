@@ -101,6 +101,8 @@ SkGLContextHelper
 :
 init
 (
+GrGLStandard
+forcedGpuAPI
 int
 width
 int
@@ -134,6 +136,7 @@ this
 >
 createGLContext
 (
+forcedGpuAPI
 )
 ;
 if

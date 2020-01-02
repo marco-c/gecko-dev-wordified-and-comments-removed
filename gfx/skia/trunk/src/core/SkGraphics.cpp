@@ -588,13 +588,6 @@ Term
 (
 )
 ;
-SkXfermode
-:
-:
-Term
-(
-)
-;
 }
 static
 const

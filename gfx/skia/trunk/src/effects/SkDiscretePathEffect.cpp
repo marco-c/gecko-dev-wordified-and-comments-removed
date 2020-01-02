@@ -82,6 +82,8 @@ SkScalar
 segLength
 SkScalar
 deviation
+uint32_t
+seedAssist
 )
 :
 fSegLength
@@ -91,6 +93,10 @@ segLength
 fPerterb
 (
 deviation
+)
+fSeedAssist
+(
+seedAssist
 )
 {
 }
@@ -136,6 +142,8 @@ doFill
 uint32_t
 seed
 =
+fSeedAssist
+^
 SkScalarRoundToInt
 (
 meas
@@ -422,6 +430,13 @@ writeScalar
 fPerterb
 )
 ;
+buffer
+.
+writeUInt
+(
+fSeedAssist
+)
+;
 }
 SkDiscretePathEffect
 :
@@ -446,6 +461,14 @@ fPerterb
 buffer
 .
 readScalar
+(
+)
+;
+fSeedAssist
+=
+buffer
+.
+readUInt
 (
 )
 ;

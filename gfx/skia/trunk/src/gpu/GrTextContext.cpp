@@ -29,7 +29,7 @@ h
 #
 include
 "
-SkGr
+GrFontScaler
 .
 h
 "
@@ -357,7 +357,7 @@ scaler
 =
 SkNEW_ARGS
 (
-SkGrFontScaler
+GrFontScaler
 (
 cache
 )

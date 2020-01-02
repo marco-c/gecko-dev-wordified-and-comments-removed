@@ -40,7 +40,7 @@ kPMConversionCnt
 ;
 static
 const
-GrEffectRef
+GrEffect
 *
 Create
 (

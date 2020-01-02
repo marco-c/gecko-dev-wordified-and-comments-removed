@@ -266,7 +266,7 @@ copyTo
 (
 &
 copyBitmap
-kPMColor_SkColorType
+kN32_SkColorType
 )
 )
 {

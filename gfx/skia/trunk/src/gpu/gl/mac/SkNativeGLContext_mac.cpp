@@ -108,6 +108,8 @@ SkNativeGLContext
 :
 createGLContext
 (
+GrGLStandard
+forcedGpuAPI
 )
 {
 SkASSERT
@@ -118,6 +120,18 @@ NULL
 fContext
 )
 ;
+if
+(
+kGLES_GrGLStandard
+=
+=
+forcedGpuAPI
+)
+{
+return
+NULL
+;
+}
 CGLPixelFormatAttribute
 attributes
 [

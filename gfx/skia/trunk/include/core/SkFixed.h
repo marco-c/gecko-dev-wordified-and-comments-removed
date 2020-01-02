@@ -538,9 +538,9 @@ endif
 if
 defined
 (
-SK_CPU_ARM
+SK_CPU_ARM32
 )
-inline
+SK_ALWAYS_INLINE
 SkFixed
 SkFloatToFixed_arm
 (

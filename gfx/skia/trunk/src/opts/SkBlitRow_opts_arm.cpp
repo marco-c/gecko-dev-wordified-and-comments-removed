@@ -41,13 +41,6 @@ SkUtilsArm
 h
 "
 #
-include
-"
-SkCachePreload_arm
-.
-h
-"
-#
 define
 USE_NEON_CODE
 (

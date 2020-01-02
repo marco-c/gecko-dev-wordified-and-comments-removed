@@ -19,6 +19,15 @@ include
 "
 gl
 /
+GrGLShaderBuilder
+.
+h
+"
+#
+include
+"
+gl
+/
 GrGLSL
 .
 h
@@ -82,7 +91,9 @@ const
 GrDrawEffect
 &
 drawEffect
-EffectKey
+const
+GrEffectKey
+&
 key
 const
 char
@@ -220,7 +231,7 @@ GR_DEFINE_EFFECT_TEST
 GrSimpleTextureEffect
 )
 ;
-GrEffectRef
+GrEffect
 *
 GrSimpleTextureEffect
 :
@@ -368,7 +379,7 @@ random
 >
 nextULessThan
 (
-GR_ARRAY_COUNT
+SK_ARRAY_COUNT
 (
 kCoordSets
 )

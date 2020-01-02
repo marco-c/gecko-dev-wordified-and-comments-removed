@@ -19,7 +19,7 @@ GrTypesPriv
 h
 "
 class
-GrEffectRef
+GrEffect
 ;
 class
 SkRRect
@@ -27,7 +27,7 @@ SkRRect
 namespace
 GrRRectEffect
 {
-GrEffectRef
+GrEffect
 *
 Create
 (

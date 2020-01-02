@@ -283,7 +283,7 @@ allocator
 break
 ;
 case
-kPMColor_SkColorType
+kN32_SkColorType
 :
 blitter
 =

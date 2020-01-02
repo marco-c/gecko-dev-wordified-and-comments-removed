@@ -69,7 +69,7 @@ MaxZones
 SK_TYPED_ENUM
 (
 Value
-SK_OT_SHORT
+SK_OT_USHORT
 (
 (
 DoesNotUseTwilightZone
@@ -116,6 +116,9 @@ SK_OT_USHORT
 maxSizeOfInstructions
 ;
 SK_OT_USHORT
+maxComponentElements
+;
+SK_OT_USHORT
 maxComponentDepth
 ;
 }
@@ -142,8 +145,8 @@ maxComponentDepth
 )
 =
 =
-28
-SkOTTableMaximumProfile_TT_maxComponentDepth_not_at_26
+30
+SkOTTableMaximumProfile_TT_maxComponentDepth_not_at_30
 )
 ;
 SK_COMPILE_ASSERT
@@ -154,8 +157,8 @@ SkOTTableMaximumProfile_TT
 )
 =
 =
-30
-sizeof_SkOTTableMaximumProfile_TT_not_28
+32
+sizeof_SkOTTableMaximumProfile_TT_not_32
 )
 ;
 #

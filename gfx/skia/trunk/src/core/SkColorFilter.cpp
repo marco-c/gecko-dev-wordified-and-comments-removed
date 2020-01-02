@@ -207,7 +207,7 @@ dst
 )
 ;
 }
-GrEffectRef
+GrEffect
 *
 SkColorFilter
 :

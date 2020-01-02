@@ -12,6 +12,14 @@ SkMath
 h
 "
 #
+ifdef
+SK_BUILD_FOR_IOS
+#
+define
+SK_DISCARD_DENORMALIZED_FOR_SPEED
+#
+endif
+#
 define
 SkExtractSign
 (

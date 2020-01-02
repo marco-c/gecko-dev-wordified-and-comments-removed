@@ -194,11 +194,12 @@ changes
 any
 more
 .
-Bug
-1046533
+Skia
+update
 needs
 a
-clobber
+CLOBBER
 on
-Android
+all
+platforms
 .

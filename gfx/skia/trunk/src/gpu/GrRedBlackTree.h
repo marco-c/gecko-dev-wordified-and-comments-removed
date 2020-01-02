@@ -144,7 +144,6 @@ T
 class
 GrRedBlackTree
 :
-public
 SkNoncopyable
 {
 public

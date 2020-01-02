@@ -414,8 +414,8 @@ combinedMatrix
 ;
 mult_color_matrix
 (
-inputMatrix
 colorMatrix
+inputMatrix
 combinedMatrix
 )
 ;
@@ -484,6 +484,8 @@ cropRect
 :
 INHERITED
 (
+1
+&
 input
 cropRect
 )

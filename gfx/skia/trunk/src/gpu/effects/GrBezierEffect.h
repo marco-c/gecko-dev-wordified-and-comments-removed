@@ -44,7 +44,7 @@ GrVertexEffect
 public
 :
 static
-GrEffectRef
+GrEffect
 *
 Create
 (
@@ -298,7 +298,7 @@ GrVertexEffect
 public
 :
 static
-GrEffectRef
+GrEffect
 *
 Create
 (
@@ -552,7 +552,7 @@ GrVertexEffect
 public
 :
 static
-GrEffectRef
+GrEffect
 *
 Create
 (

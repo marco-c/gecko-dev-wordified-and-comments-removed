@@ -7,6 +7,13 @@ SkTileGrid_DEFINED
 #
 include
 "
+SkBBHFactory
+.
+h
+"
+#
+include
+"
 SkBBoxHierarchy
 .
 h
@@ -15,13 +22,6 @@ h
 include
 "
 SkPictureStateTree
-.
-h
-"
-#
-include
-"
-SkTileGridPicture
 .
 h
 "
@@ -72,7 +72,7 @@ xTileCount
 int
 yTileCount
 const
-SkTileGridPicture
+SkTileGridFactory
 :
 :
 TileGridInfo
@@ -203,7 +203,7 @@ fXTileCount
 fYTileCount
 fTileCount
 ;
-SkTileGridPicture
+SkTileGridFactory
 :
 :
 TileGridInfo

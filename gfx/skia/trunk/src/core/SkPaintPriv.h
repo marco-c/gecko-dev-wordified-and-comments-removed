@@ -32,5 +32,14 @@ bmpReplacesShader
 NULL
 )
 ;
+bool
+NeedsDeepCopy
+(
+const
+SkPaint
+&
+paint
+)
+;
 #
 endif

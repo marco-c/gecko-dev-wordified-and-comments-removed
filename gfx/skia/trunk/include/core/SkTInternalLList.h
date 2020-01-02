@@ -143,7 +143,6 @@ T
 class
 SkTInternalLList
 :
-public
 SkNoncopyable
 {
 public

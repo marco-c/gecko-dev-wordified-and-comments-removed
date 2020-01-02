@@ -301,10 +301,7 @@ kDomainKeyBits
 }
 ;
 static
-GrGLEffect
-:
-:
-EffectKey
+uint32_t
 DomainKey
 (
 const
@@ -383,7 +380,7 @@ GrSingleTextureEffect
 public
 :
 static
-GrEffectRef
+GrEffect
 *
 Create
 (

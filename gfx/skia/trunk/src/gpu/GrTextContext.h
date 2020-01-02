@@ -7,13 +7,6 @@ GrTextContext_DEFINED
 #
 include
 "
-GrPoint
-.
-h
-"
-#
-include
-"
 GrGlyph
 .
 h

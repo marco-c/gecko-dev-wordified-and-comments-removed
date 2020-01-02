@@ -667,7 +667,7 @@ hr
 bm
 -
 >
-setConfig
+setInfo
 (
 SkImageInfo
 :
@@ -1101,7 +1101,7 @@ bitmapCopy
 ;
 if
 (
-kPMColor_SkColorType
+kN32_SkColorType
 =
 =
 bitmapOrig
@@ -1135,7 +1135,7 @@ copyTo
 (
 &
 bitmapCopy
-kPMColor_SkColorType
+kN32_SkColorType
 )
 )
 {

@@ -19,6 +19,15 @@ include
 "
 gl
 /
+GrGLShaderBuilder
+.
+h
+"
+#
+include
+"
+gl
+/
 GrGLSL
 .
 h
@@ -92,7 +101,9 @@ const
 GrDrawEffect
 &
 drawEffect
-EffectKey
+const
+GrEffectKey
+&
 key
 const
 char
@@ -447,7 +458,7 @@ GR_DEFINE_EFFECT_TEST
 GrCustomCoordsTextureEffect
 )
 ;
-GrEffectRef
+GrEffect
 *
 GrCustomCoordsTextureEffect
 :

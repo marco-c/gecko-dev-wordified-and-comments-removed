@@ -80,6 +80,8 @@ SkNativeGLContext
 :
 createGLContext
 (
+GrGLStandard
+forcedGpuAPI
 )
 {
 return

@@ -49,13 +49,16 @@ k140_GrGLSLGeneration
 k150_GrGLSLGeneration
 }
 ;
-GrGLSLGeneration
+bool
 GrGetGLSLGeneration
 (
 const
 GrGLInterface
 *
 gl
+GrGLSLGeneration
+*
+generation
 )
 ;
 const
@@ -150,7 +153,7 @@ sampler2D
 ;
 default
 :
-GrCrash
+SkFAIL
 (
 "
 Unknown

@@ -180,7 +180,7 @@ kSkPathEffect_Type
 kSkPixelRef_Type
 kSkRasterizer_Type
 kSkShader_Type
-kSkUnitMapper_Type
+kSkUnused_Type
 kSkXfermode_Type
 }
 ;

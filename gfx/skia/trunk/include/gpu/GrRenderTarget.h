@@ -38,7 +38,7 @@ GrRenderTarget
 )
 virtual
 size_t
-sizeInBytes
+gpuMemorySize
 (
 )
 const
@@ -258,6 +258,11 @@ fResolveRect
 }
 void
 resolve
+(
+)
+;
+void
+discard
 (
 )
 ;

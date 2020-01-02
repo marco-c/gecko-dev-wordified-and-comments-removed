@@ -42,7 +42,6 @@ kPosition_GrCoordSet
 class
 GrCoordTransform
 :
-public
 SkNoncopyable
 {
 public

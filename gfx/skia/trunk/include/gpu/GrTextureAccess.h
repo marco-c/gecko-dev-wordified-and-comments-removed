@@ -531,7 +531,6 @@ fFilterMode
 class
 GrTextureAccess
 :
-public
 SkNoncopyable
 {
 public

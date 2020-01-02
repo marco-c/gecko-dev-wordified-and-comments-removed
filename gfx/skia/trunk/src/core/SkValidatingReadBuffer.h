@@ -80,6 +80,7 @@ SkValidatingReadBuffer
 (
 )
 ;
+virtual
 const
 void
 *
@@ -88,6 +89,7 @@ skip
 size_t
 size
 )
+SK_OVERRIDE
 ;
 virtual
 bool
@@ -174,6 +176,13 @@ SkFlattenable
 :
 Type
 type
+)
+SK_OVERRIDE
+;
+virtual
+void
+skipFlattenable
+(
 )
 SK_OVERRIDE
 ;
@@ -301,16 +310,6 @@ virtual
 uint32_t
 getArrayCount
 (
-)
-SK_OVERRIDE
-;
-virtual
-void
-readBitmap
-(
-SkBitmap
-*
-bitmap
 )
 SK_OVERRIDE
 ;

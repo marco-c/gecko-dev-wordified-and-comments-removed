@@ -154,7 +154,7 @@ purgeAllUnlockedResources
 (
 )
 {
-fTextureCache
+fResourceCache
 -
 >
 purgeAllUnlocked

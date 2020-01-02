@@ -79,7 +79,7 @@ colorType
 )
 =
 =
-kPMColor_SkColorType
+kN32_SkColorType
 )
 ;
 unsigned
@@ -1673,7 +1673,7 @@ source
 break
 ;
 case
-kPMColor_SkColorType
+kN32_SkColorType
 :
 if
 (

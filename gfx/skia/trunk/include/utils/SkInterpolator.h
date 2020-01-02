@@ -290,15 +290,6 @@ NULL
 )
 const
 ;
-SkDEBUGCODE
-(
-static
-void
-UnitTest
-(
-)
-;
-)
 private
 :
 SkScalar

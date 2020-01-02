@@ -13,7 +13,7 @@ SkColorPriv
 h
 "
 static
-inline
+SK_ALWAYS_INLINE
 void
 Filter_32_opaque_neon
 (
@@ -226,7 +226,7 @@ vres
 ;
 }
 static
-inline
+SK_ALWAYS_INLINE
 void
 Filter_32_alpha_neon
 (

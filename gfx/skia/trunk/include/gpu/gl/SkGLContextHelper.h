@@ -37,6 +37,8 @@ SkGLContextHelper
 bool
 init
 (
+GrGLStandard
+forcedGpuAPI
 const
 int
 width
@@ -121,6 +123,8 @@ GrGLInterface
 *
 createGLContext
 (
+GrGLStandard
+forcedGpuAPI
 )
 =
 0
@@ -181,7 +185,7 @@ X
 \
 SkASSERT
 (
-GR_GL_NO_ERROR
+0
 =
 =
 (
@@ -230,7 +234,7 @@ X
 \
 SkASSERT
 (
-GR_GL_NO_ERROR
+0
 =
 =
 (

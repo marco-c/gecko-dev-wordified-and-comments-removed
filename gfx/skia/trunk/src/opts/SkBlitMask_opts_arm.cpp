@@ -42,11 +42,8 @@ SkBlitMask
 :
 PlatformColorProcs
 (
-SkBitmap
-:
-:
-Config
-dstConfig
+SkColorType
+dstCT
 SkMask
 :
 :
@@ -114,11 +111,8 @@ SkBlitMask
 :
 PlatformRowProcs
 (
-SkBitmap
-:
-:
-Config
-dstConfig
+SkColorType
+dstCT
 SkMask
 :
 :

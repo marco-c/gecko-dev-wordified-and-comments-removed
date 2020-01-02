@@ -39,6 +39,9 @@ SkTypeface
 .
 h
 "
+struct
+SkBaseMutex
+;
 class
 SK_API
 SkFontConfigInterface
@@ -228,6 +231,11 @@ SkFontConfigInterface
 *
 GetSingletonDirectInterface
 (
+SkBaseMutex
+*
+mutex
+=
+NULL
 )
 ;
 virtual

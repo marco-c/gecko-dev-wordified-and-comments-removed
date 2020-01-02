@@ -48,7 +48,9 @@ const
 GrDrawEffect
 &
 drawEffect
-EffectKey
+const
+GrEffectKey
+&
 key
 const
 char
@@ -81,7 +83,9 @@ const
 GrDrawEffect
 &
 drawEffect
-EffectKey
+const
+GrEffectKey
+&
 key
 const
 char
@@ -102,7 +106,7 @@ samplers
 )
 SK_OVERRIDE
 {
-GrCrash
+SkFAIL
 (
 "
 GrGLVertexEffect
