@@ -103,6 +103,14 @@ points
 }
 virtual
 bool
+HasValidDimensions
+(
+)
+const
+MOZ_OVERRIDE
+;
+virtual
+bool
 AttributeDefinesGeometry
 (
 const
