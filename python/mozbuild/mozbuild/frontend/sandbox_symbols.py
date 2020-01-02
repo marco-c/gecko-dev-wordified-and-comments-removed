@@ -4051,6 +4051,12 @@ sandbox_vars
 '
 :
 dict
+            
+'
+non_unified_sources
+'
+:
+StrictOrderingOnAppendList
         
 }
 )
@@ -4181,6 +4187,32 @@ from
 gyp
               
 configuration
+.
+            
+-
+non_unified_sources
+a
+list
+containing
+sources
+files
+relative
+to
+              
+the
+current
+moz
+.
+build
+that
+should
+be
+excluded
+from
+source
+file
+              
+unification
 .
         
 Typical
