@@ -3092,6 +3092,15 @@ isRecoveredOnBailout
 inst
 -
 >
+isGuard
+(
+)
+&
+&
+!
+inst
+-
+>
 hasLiveDefUses
 (
 )
