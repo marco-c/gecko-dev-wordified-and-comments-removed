@@ -939,10 +939,6 @@ JS_WrapValue
 (
 cx
 d
-.
-address
-(
-)
 )
 )
 return

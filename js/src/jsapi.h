@@ -6838,8 +6838,10 @@ JS_WrapValue
 JSContext
 *
 cx
-jsval
-*
+JS
+:
+:
+MutableHandleValue
 vp
 )
 ;

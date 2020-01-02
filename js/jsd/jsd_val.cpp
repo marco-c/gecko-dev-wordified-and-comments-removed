@@ -899,11 +899,8 @@ string
 JS_WrapValue
 (
 cx
+&
 stringval
-.
-address
-(
-)
 )
 )
 {
@@ -1172,11 +1169,8 @@ if
 JS_WrapValue
 (
 cx
+&
 val
-.
-address
-(
-)
 )
 )
 {

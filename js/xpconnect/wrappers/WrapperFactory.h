@@ -272,8 +272,10 @@ WaiveXrayAndWrap
 JSContext
 *
 cx
-jsval
-*
+JS
+:
+:
+MutableHandleValue
 vp
 )
 ;

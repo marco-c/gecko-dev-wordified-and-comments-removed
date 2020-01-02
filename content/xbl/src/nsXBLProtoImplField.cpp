@@ -1570,11 +1570,8 @@ if
 JS_WrapValue
 (
 aCx
+&
 wrappedClassObj
-.
-address
-(
-)
 )
 |
 |
@@ -2090,11 +2087,8 @@ if
 JS_WrapValue
 (
 cx
+&
 result
-.
-address
-(
-)
 )
 |
 |

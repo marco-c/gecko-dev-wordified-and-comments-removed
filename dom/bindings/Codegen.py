@@ -34829,9 +34829,20 @@ isMember
 value
 =
 "
+JS
+:
+:
+MutableHandleValue
+:
+:
+fromMarkedLocation
+(
 &
+%
+s
+)
 "
-+
+%
 value
         
 else
@@ -34839,14 +34850,11 @@ else
             
 value
 =
-value
+"
+&
+"
 +
-"
-.
-address
-(
-)
-"
+value
         
 return
 CGGeneric

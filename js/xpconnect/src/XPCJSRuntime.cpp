@@ -17409,11 +17409,8 @@ rv
 CreateSandboxObject
 (
 cx
+&
 v
-.
-address
-(
-)
 nsContentUtils
 :
 :
