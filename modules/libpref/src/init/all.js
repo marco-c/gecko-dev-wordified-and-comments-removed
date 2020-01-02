@@ -3567,6 +3567,16 @@ pref
 "
 dom
 .
+disable_beforeunload
+"
+false
+)
+;
+pref
+(
+"
+dom
+.
 disable_image_src_set
 "
 false
