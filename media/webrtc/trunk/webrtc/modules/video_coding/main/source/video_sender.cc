@@ -490,6 +490,13 @@ SetTransportCallback
 NULL
 )
 ;
+_encodedFrameCallback
+.
+SetCritSect
+(
+_sendCritSect
+)
+;
 _mediaOpt
 .
 Reset
