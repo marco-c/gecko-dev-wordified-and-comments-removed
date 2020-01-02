@@ -1321,7 +1321,6 @@ JSData2Native
 aResult
 val
 type
-true
 &
 NS_GET_IID
 (
@@ -5960,12 +5959,6 @@ val
 )
 val
 type
-!
-param
-.
-IsDipper
-(
-)
 &
 param_iid
 nullptr
@@ -5993,12 +5986,6 @@ pv
 val
 val
 type
-!
-param
-.
-IsDipper
-(
-)
 &
 param_iid
 nullptr
@@ -6375,7 +6362,6 @@ pv
 val
 val
 type
-true
 &
 param_iid
 nullptr
