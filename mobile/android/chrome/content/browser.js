@@ -25595,16 +25595,6 @@ x
 y
 )
 ;
-element
-=
-ElementTouchHelper
-.
-anyElementFromPoint
-(
-x
-y
-)
-;
 }
 let
 isFocused
