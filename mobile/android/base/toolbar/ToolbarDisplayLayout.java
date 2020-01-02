@@ -1227,17 +1227,6 @@ flags
 {
 if
 (
-!
-isAttachedToWindow
-(
-)
-)
-{
-return
-;
-}
-if
-(
 flags
 .
 contains
