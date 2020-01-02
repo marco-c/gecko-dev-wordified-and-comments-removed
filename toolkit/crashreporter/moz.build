@@ -573,7 +573,7 @@ mozbuild
 FINAL_LIBRARY
 =
 '
-xulapp_s
+xul
 '
 if
 CONFIG

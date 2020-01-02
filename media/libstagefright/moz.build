@@ -915,7 +915,7 @@ include
 FINAL_LIBRARY
 =
 '
-gklayout
+xul
 '
 #
 Suppress

@@ -162,7 +162,7 @@ True
 FINAL_LIBRARY
 =
 '
-xpconnect_s
+xul
 '
 DEFINES
 [

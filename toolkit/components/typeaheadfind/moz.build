@@ -121,7 +121,7 @@ cpp
 FINAL_LIBRARY
 =
 '
-toolkitcomps
+xul
 '
 JAR_MANIFESTS
 +

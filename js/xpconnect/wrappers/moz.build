@@ -201,7 +201,7 @@ True
 FINAL_LIBRARY
 =
 '
-xpconnect_s
+xul
 '
 LOCAL_INCLUDES
 +

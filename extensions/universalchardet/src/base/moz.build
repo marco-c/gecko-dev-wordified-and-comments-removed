@@ -226,7 +226,7 @@ cpp
 FINAL_LIBRARY
 =
 '
-universalchardet
+xul
 '
 FAIL_ON_WARNINGS
 =

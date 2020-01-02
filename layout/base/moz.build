@@ -735,7 +735,7 @@ xbl
 FINAL_LIBRARY
 =
 '
-gklayout
+xul
 '
 MOCHITEST_MANIFESTS
 +

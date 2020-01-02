@@ -2028,7 +2028,7 @@ mbackchain
 FINAL_LIBRARY
 =
 '
-xpcom_core
+xul
 '
 LOCAL_INCLUDES
 +

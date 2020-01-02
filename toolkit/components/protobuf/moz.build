@@ -409,7 +409,7 @@ cc
 FINAL_LIBRARY
 =
 '
-toolkitcomps
+xul
 '
 DEFINES
 [

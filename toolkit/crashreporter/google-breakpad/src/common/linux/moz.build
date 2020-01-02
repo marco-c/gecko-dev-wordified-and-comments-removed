@@ -233,7 +233,7 @@ breakpad_linux_common_s
 FINAL_LIBRARY
 =
 '
-xulapp_s
+xul
 '
 if
 CONFIG

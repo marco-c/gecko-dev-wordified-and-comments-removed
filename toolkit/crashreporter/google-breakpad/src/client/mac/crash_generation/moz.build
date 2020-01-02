@@ -116,7 +116,7 @@ crashreporter
 FINAL_LIBRARY
 =
 '
-xulapp_s
+xul
 '
 LOCAL_INCLUDES
 +

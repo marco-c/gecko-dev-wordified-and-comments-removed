@@ -333,7 +333,7 @@ mozbuild
 FINAL_LIBRARY
 =
 '
-necko
+xul
 '
 LOCAL_INCLUDES
 +

@@ -312,7 +312,7 @@ True
 FINAL_LIBRARY
 =
 '
-toolkitcomps
+xul
 '
 LOCAL_INCLUDES
 +

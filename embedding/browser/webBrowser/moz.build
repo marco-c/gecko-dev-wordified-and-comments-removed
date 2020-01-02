@@ -257,7 +257,7 @@ True
 FINAL_LIBRARY
 =
 '
-webbrwsr
+xul
 '
 LOCAL_INCLUDES
 +

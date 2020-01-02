@@ -224,7 +224,7 @@ True
 FINAL_LIBRARY
 =
 '
-spellchecker
+xul
 '
 LOCAL_INCLUDES
 +

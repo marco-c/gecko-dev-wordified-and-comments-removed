@@ -300,7 +300,7 @@ mozbuild
 FINAL_LIBRARY
 =
 '
-necko
+xul
 '
 GENERATED_FILES
 =

@@ -151,7 +151,7 @@ cpp
 FINAL_LIBRARY
 =
 '
-gklayout
+xul
 '
 IPDL_SOURCES
 +

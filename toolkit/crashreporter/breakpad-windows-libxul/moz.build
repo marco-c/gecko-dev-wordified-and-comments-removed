@@ -124,7 +124,7 @@ google_breakpad_libxul_s
 FINAL_LIBRARY
 =
 '
-xulapp_s
+xul
 '
 for
 var

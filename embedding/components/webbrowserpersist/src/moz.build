@@ -109,7 +109,7 @@ True
 FINAL_LIBRARY
 =
 '
-embedcomponents
+xul
 '
 LOCAL_INCLUDES
 +

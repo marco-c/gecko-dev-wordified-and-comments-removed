@@ -615,5 +615,5 @@ io
 FINAL_LIBRARY
 =
 '
-xpcom_core
+xul
 '

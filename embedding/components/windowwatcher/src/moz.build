@@ -142,7 +142,7 @@ True
 FINAL_LIBRARY
 =
 '
-embedcomponents
+xul
 '
 #
 For

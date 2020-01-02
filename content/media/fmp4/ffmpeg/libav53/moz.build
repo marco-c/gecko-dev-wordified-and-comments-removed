@@ -145,7 +145,7 @@ include
 FINAL_LIBRARY
 =
 '
-gklayout
+xul
 '
 FAIL_ON_WARNINGS
 =

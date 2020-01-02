@@ -204,7 +204,7 @@ True
 FINAL_LIBRARY
 =
 '
-i18n
+xul
 '
 LOCAL_INCLUDES
 +

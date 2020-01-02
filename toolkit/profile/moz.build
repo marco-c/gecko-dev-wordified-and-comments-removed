@@ -184,7 +184,7 @@ True
 FINAL_LIBRARY
 =
 '
-xulapp_s
+xul
 '
 JAR_MANIFESTS
 +

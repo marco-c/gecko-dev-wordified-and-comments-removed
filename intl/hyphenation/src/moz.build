@@ -145,7 +145,7 @@ True
 FINAL_LIBRARY
 =
 '
-i18n
+xul
 '
 #
 Suppress

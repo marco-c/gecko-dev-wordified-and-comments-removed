@@ -248,7 +248,7 @@ True
 FINAL_LIBRARY
 =
 '
-xpcom_core
+xul
 '
 GENERATED_INCLUDES
 +

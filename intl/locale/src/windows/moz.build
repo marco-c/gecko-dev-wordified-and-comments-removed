@@ -121,7 +121,7 @@ cpp
 FINAL_LIBRARY
 =
 '
-i18n
+xul
 '
 GENERATED_FILES
 =

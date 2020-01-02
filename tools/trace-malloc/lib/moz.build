@@ -154,7 +154,7 @@ cpp
 FINAL_LIBRARY
 =
 '
-xpcom_core
+xul
 '
 if
 CONFIG

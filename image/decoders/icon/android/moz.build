@@ -124,5 +124,5 @@ mozbuild
 FINAL_LIBRARY
 =
 '
-imgicon
+xul
 '

@@ -325,7 +325,7 @@ mozbuild
 FINAL_LIBRARY
 =
 '
-gklayout
+xul
 '
 if
 CONFIG

@@ -176,7 +176,7 @@ mozbuild
 FINAL_LIBRARY
 =
 '
-gklayout
+xul
 '
 LOCAL_INCLUDES
 +

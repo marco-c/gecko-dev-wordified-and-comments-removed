@@ -2254,7 +2254,7 @@ mozbuild
 FINAL_LIBRARY
 =
 '
-thebes
+xul
 '
 if
 CONFIG

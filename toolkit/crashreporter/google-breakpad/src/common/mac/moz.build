@@ -238,7 +238,7 @@ breakpad_mac_common_s
 FINAL_LIBRARY
 =
 '
-xulapp_s
+xul
 '
 LOCAL_INCLUDES
 +

@@ -146,5 +146,5 @@ loader
 FINAL_LIBRARY
 =
 '
-toolkitcomps
+xul
 '

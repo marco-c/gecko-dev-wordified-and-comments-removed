@@ -322,5 +322,5 @@ mozbuild
 FINAL_LIBRARY
 =
 '
-necko
+xul
 '
