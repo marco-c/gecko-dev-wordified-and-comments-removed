@@ -713,6 +713,15 @@ const
 ;
 #
 endif
+virtual
+LayersBackend
+GetBackendType
+(
+)
+const
+=
+0
+;
 uint32_t
 GetCompositorID
 (
