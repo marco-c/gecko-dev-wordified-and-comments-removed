@@ -321,7 +321,9 @@ nsSVGContainerFrame
 *
 >
 (
-mParent
+GetParent
+(
+)
 )
 ;
 gfxMatrix
@@ -1095,7 +1097,9 @@ nsSVGContainerFrame
 *
 >
 (
-mParent
+GetParent
+(
+)
 )
 ;
 float
@@ -1282,7 +1286,9 @@ mCanvasTM
 {
 NS_ASSERTION
 (
-mParent
+GetParent
+(
+)
 "
 null
 parent
@@ -1299,7 +1305,9 @@ nsSVGContainerFrame
 *
 >
 (
-mParent
+GetParent
+(
+)
 )
 ;
 SVGSVGElement

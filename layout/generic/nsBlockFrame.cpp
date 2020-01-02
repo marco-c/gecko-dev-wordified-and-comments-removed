@@ -6813,7 +6813,9 @@ ComputedHeight
 &
 &
 (
-mParent
+GetParent
+(
+)
 -
 >
 GetType
@@ -30180,7 +30182,9 @@ nsCSSAnonBoxes
 cellContent
 &
 &
-mParent
+GetParent
+(
+)
 -
 >
 StyleContext
@@ -33727,7 +33731,9 @@ nsIFrame
 *
 parent
 =
-mParent
+GetParent
+(
+)
 ;
 while
 (

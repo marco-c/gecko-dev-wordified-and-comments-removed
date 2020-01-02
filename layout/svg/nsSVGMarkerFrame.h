@@ -526,7 +526,9 @@ nsSVGMarkerFrame
 *
 >
 (
-mParent
+GetParent
+(
+)
 )
 ;
 return

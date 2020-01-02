@@ -1579,7 +1579,9 @@ parentData
 ;
 GetEmbellishDataFrom
 (
-mParent
+GetParent
+(
+)
 parentData
 )
 ;
@@ -1865,7 +1867,9 @@ mathMLFrame
 =
 do_QueryFrame
 (
-mParent
+GetParent
+(
+)
 )
 ;
 if
@@ -2713,7 +2717,9 @@ nsIFrame
 *
 parent
 =
-mParent
+GetParent
+(
+)
 ;
 nsEmbellishData
 embellishData

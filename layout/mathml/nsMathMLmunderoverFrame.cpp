@@ -105,7 +105,9 @@ aAttribute
 return
 ReLayoutChildren
 (
-mParent
+GetParent
+(
+)
 )
 ;
 }

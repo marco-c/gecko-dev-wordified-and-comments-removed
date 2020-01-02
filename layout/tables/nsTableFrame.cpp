@@ -608,7 +608,9 @@ const
 {
 NS_PRECONDITION
 (
-mParent
+GetParent
+(
+)
 "
 table
 constructed
@@ -645,15 +647,8 @@ nullptr
 ;
 }
 return
-static_cast
-<
-nsFrame
-*
->
-(
 GetParent
 (
-)
 )
 -
 >

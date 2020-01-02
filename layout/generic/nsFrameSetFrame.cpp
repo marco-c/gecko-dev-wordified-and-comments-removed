@@ -4055,7 +4055,9 @@ StyleSet
 (
 )
 ;
-mParent
+GetParent
+(
+)
 -
 >
 AddStateBits
