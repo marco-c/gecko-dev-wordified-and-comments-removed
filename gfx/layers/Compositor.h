@@ -91,6 +91,13 @@ nsTraceRefcnt
 .
 h
 "
+#
+include
+"
+nsRegion
+.
+h
+"
 class
 nsIWidget
 ;
@@ -439,6 +446,10 @@ virtual
 void
 BeginFrame
 (
+const
+nsIntRegion
+&
+aInvalidRegion
 const
 gfx
 :

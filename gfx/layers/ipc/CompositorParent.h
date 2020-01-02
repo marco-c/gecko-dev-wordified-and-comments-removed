@@ -353,6 +353,17 @@ RecvFlushRendering
 MOZ_OVERRIDE
 ;
 virtual
+bool
+RecvNotifyRegionInvalidated
+(
+const
+nsIntRegion
+&
+aRegion
+)
+MOZ_OVERRIDE
+;
+virtual
 void
 ActorDestroy
 (

@@ -389,6 +389,15 @@ FlushRendering
 )
 MOZ_OVERRIDE
 ;
+void
+SendInvalidRegion
+(
+const
+nsIntRegion
+&
+aRegion
+)
+;
 virtual
 bool
 NeedsWidgetInvalidation

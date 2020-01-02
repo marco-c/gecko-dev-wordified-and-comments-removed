@@ -365,6 +365,10 @@ void
 BeginFrame
 (
 const
+nsIntRegion
+&
+aInvalidRegion
+const
 gfx
 :
 :
@@ -649,6 +653,15 @@ gfx
 DrawTarget
 >
 mCopyTarget
+;
+gfx
+:
+:
+IntRect
+mInvalidRect
+;
+nsIntRegion
+mInvalidRegion
 ;
 }
 ;

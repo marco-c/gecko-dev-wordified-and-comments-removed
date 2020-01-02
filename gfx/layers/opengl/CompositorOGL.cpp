@@ -3799,6 +3799,10 @@ CompositorOGL
 BeginFrame
 (
 const
+nsIntRegion
+&
+aInvalidRegion
+const
 Rect
 *
 aClipRectIn
