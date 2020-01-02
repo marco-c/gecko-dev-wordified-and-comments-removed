@@ -409,6 +409,14 @@ AddCue
 aCue
 )
 ;
+mMediaElement
+-
+>
+AddCue
+(
+aCue
+)
+;
 SetDirty
 (
 )
