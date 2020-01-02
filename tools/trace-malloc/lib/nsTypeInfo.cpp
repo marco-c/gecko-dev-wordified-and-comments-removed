@@ -1,6 +1,11 @@
 #
 include
 <
+exception
+>
+#
+include
+<
 typeinfo
 >
 #
