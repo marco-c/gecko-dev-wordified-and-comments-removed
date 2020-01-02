@@ -363,12 +363,12 @@ flushPendingRequests
 )
 ;
 void
-postReceiveReponseEvent
+postReceiveResponseEvent
 (
 )
 ;
 bool
-receiveRTSPReponse
+receiveRTSPResponse
 (
 )
 ;

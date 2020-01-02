@@ -1663,7 +1663,7 @@ mNextCSeq
 =
 1
 ;
-postReceiveReponseEvent
+postReceiveResponseEvent
 (
 )
 ;
@@ -2182,7 +2182,7 @@ mNextCSeq
 =
 1
 ;
-postReceiveReponseEvent
+postReceiveResponseEvent
 (
 )
 ;
@@ -2661,7 +2661,7 @@ true
 bool
 success
 =
-receiveRTSPReponse
+receiveRTSPResponse
 (
 )
 ;
@@ -2685,7 +2685,7 @@ return
 ;
 }
 }
-postReceiveReponseEvent
+postReceiveResponseEvent
 (
 )
 ;
@@ -2762,7 +2762,7 @@ void
 ARTSPConnection
 :
 :
-postReceiveReponseEvent
+postReceiveResponseEvent
 (
 )
 {
@@ -3205,7 +3205,7 @@ bool
 ARTSPConnection
 :
 :
-receiveRTSPReponse
+receiveRTSPResponse
 (
 )
 {
