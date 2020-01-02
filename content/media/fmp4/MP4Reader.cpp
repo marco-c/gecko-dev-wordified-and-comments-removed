@@ -291,6 +291,11 @@ sum
 =
 0
 ;
+uint32_t
+bytesRead
+=
+0
+;
 do
 {
 uint32_t
@@ -321,11 +326,6 @@ toRead
 aCount
 -
 sum
-;
-uint32_t
-bytesRead
-=
-0
 ;
 nsresult
 rv
@@ -365,6 +365,11 @@ while
 sum
 <
 aCount
+&
+&
+bytesRead
+>
+0
 )
 ;
 *
