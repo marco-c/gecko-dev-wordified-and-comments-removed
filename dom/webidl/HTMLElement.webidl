@@ -484,6 +484,9 @@ from
 HTMLElement
 to
 Element
+[
+Pure
+]
 attribute
 DOMString
 className

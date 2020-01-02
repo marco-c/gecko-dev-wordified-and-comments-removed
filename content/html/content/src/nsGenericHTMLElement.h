@@ -1328,7 +1328,13 @@ EVENT
 void
 GetClassName
 (
-nsString
+mozilla
+:
+:
+dom
+:
+:
+DOMString
 &
 aClassName
 )
