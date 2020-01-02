@@ -1080,13 +1080,6 @@ case
 DOMContentLoaded
 "
 :
-LoginManagerContent
-.
-onContentLoaded
-(
-aEvent
-)
-;
 this
 .
 _maybeNotifyErrorPage
