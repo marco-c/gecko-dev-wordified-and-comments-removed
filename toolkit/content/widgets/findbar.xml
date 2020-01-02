@@ -6049,12 +6049,10 @@ it
 .
 if
 (
+!
 this
 .
 _findFailedString
-=
-=
-null
 |
 |
 !
