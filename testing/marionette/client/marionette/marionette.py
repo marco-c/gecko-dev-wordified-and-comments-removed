@@ -3375,6 +3375,9 @@ None
 device_serial
 =
 None
+gecko_log
+=
+None
 )
 :
         
@@ -3712,6 +3715,10 @@ app_args
 symbols_path
 =
 symbols_path
+                                           
+gecko_log
+=
+gecko_log
 )
             
 self
