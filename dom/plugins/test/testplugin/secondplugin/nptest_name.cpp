@@ -37,9 +37,9 @@ application
 /
 x
 -
-second
+Second
 -
-test
+Test
 :
 ts2
 :
