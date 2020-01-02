@@ -26828,12 +26828,6 @@ JSOP_SETELEM
 op
 =
 =
-JSOP_ENUMELEM
-|
-|
-op
-=
-=
 JSOP_INITELEM
 |
 |
