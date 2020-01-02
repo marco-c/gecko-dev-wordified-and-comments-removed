@@ -212,11 +212,12 @@ setClassName
 getApplicationContext
 (
 )
-getPackageName
-(
-)
-+
 "
+org
+.
+mozilla
+.
+gecko
 .
 WebApps
 WebApp

@@ -5,6 +5,11 @@ android
 name
 =
 "
+org
+.
+mozilla
+.
+gecko
 .
 WebApps
 WebApp
