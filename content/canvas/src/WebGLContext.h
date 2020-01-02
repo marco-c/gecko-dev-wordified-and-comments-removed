@@ -352,12 +352,6 @@ class
 SourceSurface
 ;
 }
-using
-WebGLTexelConversions
-:
-:
-WebGLTexelFormat
-;
 WebGLTexelFormat
 GetWebGLTexelFormat
 (
