@@ -756,8 +756,6 @@ SetHrefAttribute
 uri
 )
 ;
-return
-;
 }
 void
 Link
