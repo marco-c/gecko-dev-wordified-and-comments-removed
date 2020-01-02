@@ -104,13 +104,6 @@ shellapi
 h
 >
 #
-include
-<
-wininet
-.
-h
->
-#
 ifdef
 SHOW_CONSOLE
 #
@@ -1160,12 +1153,6 @@ aLaunchType
 =
 =
 AHE_DESKTOP
-)
-;
-SetLastAHE
-(
-*
-aLaunchType
 )
 ;
 return
