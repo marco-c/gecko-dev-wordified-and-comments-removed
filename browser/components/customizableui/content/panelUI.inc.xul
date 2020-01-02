@@ -120,11 +120,6 @@ PanelUI
 -
 mainView
 "
-flex
-=
-"
-1
-"
 contextmenu
 =
 "
