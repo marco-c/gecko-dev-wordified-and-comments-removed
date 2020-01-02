@@ -2048,7 +2048,7 @@ Emit1
 cx
 &
 bce
-JSOP_STOP
+JSOP_RETRVAL
 )
 <
 0

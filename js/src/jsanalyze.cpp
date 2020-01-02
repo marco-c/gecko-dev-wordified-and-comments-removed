@@ -879,7 +879,7 @@ case
 JSOP_RETURN
 :
 case
-JSOP_STOP
+JSOP_RETRVAL
 :
 numReturnSites_
 +
@@ -5530,9 +5530,6 @@ JSOP_THROW
 :
 case
 JSOP_RETURN
-:
-case
-JSOP_STOP
 :
 case
 JSOP_RETRVAL

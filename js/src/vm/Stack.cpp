@@ -2670,7 +2670,7 @@ script
 >
 length
 -
-JSOP_STOP_LENGTH
+JSOP_RETRVAL_LENGTH
 ;
 JS_ASSERT
 (
@@ -2678,7 +2678,7 @@ JS_ASSERT
 pc
 =
 =
-JSOP_STOP
+JSOP_RETRVAL
 )
 ;
 }

@@ -6278,9 +6278,6 @@ case
 JSOP_SETRVAL
 :
 case
-JSOP_POPV
-:
-case
 JSOP_VOID
 :
 break
@@ -6447,9 +6444,6 @@ pc
 ;
 case
 JSOP_RETURN
-:
-case
-JSOP_STOP
 :
 case
 JSOP_RETRVAL
@@ -8038,9 +8032,6 @@ jsop_in
 ;
 case
 JSOP_SETRVAL
-:
-case
-JSOP_POPV
 :
 JS_ASSERT
 (
@@ -16445,7 +16436,7 @@ pop
 break
 ;
 case
-JSOP_STOP
+JSOP_RETRVAL
 :
 if
 (
@@ -16486,9 +16477,6 @@ ins
 break
 ;
 }
-case
-JSOP_RETRVAL
-:
 def
 =
 current
