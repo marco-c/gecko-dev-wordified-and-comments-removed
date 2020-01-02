@@ -502,6 +502,7 @@ mk
 UPLOAD_EXTRA_FILES
 =
 "
+UPLOAD_EXTRA_FILES
 sccache
 .
 log
