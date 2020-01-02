@@ -219,8 +219,10 @@ mozilla
 .
 gecko
 .
-WebApps
-WebApp
+webapp
+.
+Webapps
+Webapp
 "
 +
 index

@@ -2870,7 +2870,9 @@ WebappImpl
 java
 '
 '
-WebApps
+webapp
+/
+Webapps
 .
 java
 '
