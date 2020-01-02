@@ -4357,9 +4357,6 @@ IsInHTMLDocument
 nsAutoString
 lower
 ;
-nsresult
-rv
-=
 nsContentUtils
 :
 :
@@ -4369,14 +4366,6 @@ aName
 lower
 )
 ;
-if
-(
-NS_SUCCEEDED
-(
-rv
-)
-)
-{
 nameAtom
 =
 do_GetAtom
@@ -4384,7 +4373,6 @@ do_GetAtom
 lower
 )
 ;
-}
 }
 else
 {
