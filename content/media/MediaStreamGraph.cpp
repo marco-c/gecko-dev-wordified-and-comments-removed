@@ -1542,7 +1542,7 @@ runnables
 i
 ]
 .
-mThread
+mTarget
 -
 >
 Dispatch
@@ -11677,7 +11677,7 @@ DispatchWhenNotEnoughBuffered
 (
 TrackID
 aID
-nsIThread
+nsIEventTarget
 *
 aSignalThread
 nsIRunnable

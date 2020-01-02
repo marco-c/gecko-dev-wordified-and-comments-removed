@@ -514,8 +514,7 @@ uint32_t
 aLength
 )
 ;
-static
-nsIThread
+nsIEventTarget
 *
 GetStateMachineThread
 (
@@ -1054,6 +1053,12 @@ RefPtr
 MediaTaskQueue
 >
 mDecodeTaskQueue
+;
+RefPtr
+<
+SharedThreadPool
+>
+mStateMachineThreadPool
 ;
 nsCOMPtr
 <
