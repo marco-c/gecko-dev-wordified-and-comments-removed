@@ -2861,6 +2861,13 @@ return
 false
 ;
 }
+mTexture
+-
+>
+AddRef
+(
+)
+;
 aOutDescriptor
 =
 SurfaceDescriptorD3D9
@@ -3762,6 +3769,13 @@ aDescriptor
 texture
 (
 )
+)
+;
+mTexture
+-
+>
+Release
+(
 )
 ;
 MOZ_ASSERT
