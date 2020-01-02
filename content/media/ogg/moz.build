@@ -117,6 +117,11 @@ OggWriter
 .
 h
 '
+'
+OpusParser
+.
+h
+'
 ]
 UNIFIED_SOURCES
 +
@@ -139,6 +144,11 @@ cpp
 '
 '
 OggWriter
+.
+cpp
+'
+'
+OpusParser
 .
 cpp
 '
