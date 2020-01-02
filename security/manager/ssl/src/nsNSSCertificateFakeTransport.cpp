@@ -156,9 +156,8 @@ nsNSSCertificateFakeTransport
 :
 GetWindowTitle
 (
-char
-*
-*
+nsAString
+&
 aWindowTitle
 )
 {
