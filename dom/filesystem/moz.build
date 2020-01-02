@@ -142,11 +142,6 @@ CreateDirectoryTask
 cpp
 '
 '
-CreateFileTask
-.
-cpp
-'
-'
 DeviceStorageFileSystem
 .
 cpp
