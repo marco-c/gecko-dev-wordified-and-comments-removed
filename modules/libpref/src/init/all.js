@@ -6698,7 +6698,7 @@ enabled
 .
 http2draft
 "
-false
+true
 )
 ;
 pref
