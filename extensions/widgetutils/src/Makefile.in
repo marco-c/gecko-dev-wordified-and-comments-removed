@@ -68,9 +68,6 @@ MPL
 0
 /
 .
-SHORT_LIBNAME
-=
-widgetutils
 EXTRA_DSO_LDOPTS
 =
 \

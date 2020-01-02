@@ -54,9 +54,6 @@ MPL
 0
 /
 .
-SHORT_LIBNAME
-=
-mozsqlt3
 LIB_IS_C_ONLY
 =
 1

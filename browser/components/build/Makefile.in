@@ -53,9 +53,6 @@ MPL
 0
 /
 .
-SHORT_LIBNAME
-=
-brwsrcmp
 MODULE_NAME
 =
 nsBrowserCompsModule

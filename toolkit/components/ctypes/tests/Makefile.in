@@ -53,9 +53,6 @@ MPL
 0
 /
 .
-SHORT_LIBNAME
-=
-jscttest
 LOCAL_INCLUDES
 =
 \

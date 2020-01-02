@@ -68,9 +68,6 @@ MPL
 0
 /
 .
-SHORT_LIBNAME
-=
-nkgnomevfs
 LOCAL_INCLUDES
 =
 (
