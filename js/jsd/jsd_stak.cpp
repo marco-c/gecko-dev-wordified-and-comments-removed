@@ -397,7 +397,7 @@ pc
 (
 uintptr_t
 )
-iter
+frame
 .
 pc
 (
