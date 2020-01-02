@@ -158,6 +158,10 @@ CodeGeneratorSpecific
 bool
 generateArgumentsChecks
 (
+bool
+bailout
+=
+true
 )
 ;
 bool
