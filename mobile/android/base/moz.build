@@ -717,6 +717,11 @@ BrowserToolbar
 java
 '
 '
+BrowserToolbarBackground
+.
+java
+'
+'
 CameraImageResultHandler
 .
 java
