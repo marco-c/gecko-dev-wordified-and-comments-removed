@@ -802,8 +802,6 @@ dist
 "
 test
 -
-package
--
 stage
 "
 "

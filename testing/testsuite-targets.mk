@@ -2633,8 +2633,6 @@ TESTS_PATH
 =
 test
 -
-package
--
 stage
 /
 jsreftest
@@ -2688,8 +2686,6 @@ DIST
 )
 /
 test
--
-package
 -
 stage
 /
@@ -3719,8 +3715,6 @@ DIST
 /
 test
 -
-package
--
 stage
 package
 -
@@ -3807,8 +3801,6 @@ DIST
 universal
 /
 test
--
-package
 -
 stage
 endif

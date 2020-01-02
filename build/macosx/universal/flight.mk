@@ -299,8 +299,6 @@ DIST_UNI
 /
 test
 -
-package
--
 stage
 #
 automation
@@ -338,8 +336,6 @@ DIST_ARCH_1
 /
 test
 -
-package
--
 stage
 -
 a
@@ -352,8 +348,6 @@ DIST_ARCH_2
 /
 test
 -
-package
--
 stage
 ;
 then
@@ -365,8 +359,6 @@ DIST_ARCH_1
 /
 test
 -
-package
--
 stage
 /
 mochitest
@@ -380,8 +372,6 @@ DIST_ARCH_2
 )
 /
 test
--
-package
 -
 stage
 /
@@ -398,8 +388,6 @@ DIST_ARCH_1
 /
 test
 -
-package
--
 stage
 /
 mochitest
@@ -414,8 +402,6 @@ DIST_ARCH_2
 /
 test
 -
-package
--
 stage
 /
 mochitest
@@ -431,8 +417,6 @@ DIST_ARCH_1
 /
 test
 -
-package
--
 stage
 /
 xpcshell
@@ -446,8 +430,6 @@ DIST_ARCH_2
 )
 /
 test
--
-package
 -
 stage
 /
@@ -462,8 +444,6 @@ DIST_ARCH_1
 /
 test
 -
-package
--
 stage
 /
 reftest
@@ -477,8 +457,6 @@ DIST_ARCH_2
 )
 /
 test
--
-package
 -
 stage
 /
@@ -495,8 +473,6 @@ DIST_ARCH_1
 /
 test
 -
-package
--
 stage
 /
 reftest
@@ -508,8 +484,6 @@ DIST_ARCH_2
 )
 /
 test
--
-package
 -
 stage
 /
@@ -566,8 +540,6 @@ DIST_ARCH_1
 /
 test
 -
-package
--
 stage
 \
 (
@@ -576,8 +548,6 @@ DIST_ARCH_2
 /
 test
 -
-package
--
 stage
 \
 (
@@ -585,8 +555,6 @@ DIST_UNI
 )
 /
 test
--
-package
 -
 stage
 ;

@@ -623,8 +623,6 @@ dist
 /
 test
 -
-package
--
 stage
 /
 *

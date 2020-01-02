@@ -1026,8 +1026,6 @@ DIST
 /
 test
 -
-package
--
 stage
 DIST_BIN
 =

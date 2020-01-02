@@ -235,8 +235,6 @@ DIST
 /
 test
 -
-package
--
 stage
 libs
 :

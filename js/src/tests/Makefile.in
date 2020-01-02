@@ -178,8 +178,6 @@ DIST
 /
 test
 -
-package
--
 stage
 #
 stage
