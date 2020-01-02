@@ -5647,7 +5647,7 @@ nullptr
 global
 -
 >
-setReservedSlot
+setConstructor
 (
 JSProto_TypedObject
 moduleValue
@@ -5659,15 +5659,6 @@ global
 setArrayType
 (
 arrayType
-)
-;
-global
--
->
-markStandardClassInitializedNoProto
-(
-&
-TypedObjectClass
 )
 ;
 RootedObject
