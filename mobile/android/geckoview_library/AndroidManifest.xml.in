@@ -1,3 +1,6 @@
+#
+filter
+substitution
 <
 manifest
 xmlns
@@ -97,7 +100,7 @@ android
 targetSdkVersion
 =
 "
-17
+ANDROID_TARGET_SDK
 "
 /
 >

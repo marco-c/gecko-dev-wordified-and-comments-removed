@@ -1,4 +1,7 @@
 #
+filter
+substitution
+#
 This
 file
 is
@@ -124,7 +127,7 @@ target
 =
 android
 -
-16
+ANDROID_TARGET_SDK
 android
 .
 library

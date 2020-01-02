@@ -1,3 +1,6 @@
+#
+filter
+substitution
 <
 ?
 xml
@@ -82,7 +85,7 @@ android
 targetSdkVersion
 =
 "
-16
+ANDROID_TARGET_SDK
 "
 /
 >
