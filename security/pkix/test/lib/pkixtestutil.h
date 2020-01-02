@@ -277,6 +277,7 @@ arena
 bool
 isCA
 long
+*
 pathLenConstraint
 ExtensionCriticality
 criticality
