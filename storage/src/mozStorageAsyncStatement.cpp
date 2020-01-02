@@ -457,9 +457,6 @@ mSQLString
 =
 aSQLStatement
 ;
-#
-ifdef
-PR_LOGGING
 PR_LOG
 (
 gStorageLog
@@ -487,8 +484,6 @@ get
 )
 )
 ;
-#
-endif
 #
 ifdef
 DEBUG
@@ -1106,9 +1101,6 @@ rc
 SQLITE_OK
 )
 {
-#
-ifdef
-PR_LOGGING
 PR_LOG
 (
 gStorageLog
@@ -1164,8 +1156,6 @@ get
 )
 )
 ;
-#
-endif
 *
 _stmt
 =
@@ -1175,9 +1165,6 @@ return
 rc
 ;
 }
-#
-ifdef
-PR_LOGGING
 PR_LOG
 (
 gStorageLog
@@ -1205,8 +1192,6 @@ mAsyncStatement
 )
 )
 ;
-#
-endif
 }
 *
 _stmt
@@ -1322,9 +1307,6 @@ mFinalized
 =
 true
 ;
-#
-ifdef
-PR_LOGGING
 PR_LOG
 (
 gStorageLog
@@ -1346,8 +1328,6 @@ get
 )
 )
 ;
-#
-endif
 asyncFinalize
 (
 )

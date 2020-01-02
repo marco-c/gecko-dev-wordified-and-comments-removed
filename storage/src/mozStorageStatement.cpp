@@ -502,9 +502,6 @@ srv
 SQLITE_OK
 )
 {
-#
-ifdef
-PR_LOGGING
 PR_LOG
 (
 gStorageLog
@@ -558,15 +555,10 @@ get
 )
 )
 ;
-#
-endif
 return
 NS_ERROR_FAILURE
 ;
 }
-#
-ifdef
-PR_LOGGING
 PR_LOG
 (
 gStorageLog
@@ -597,8 +589,6 @@ mDBStatement
 )
 )
 ;
-#
-endif
 mDBConnection
 =
 aDBConnection
@@ -1160,9 +1150,6 @@ return
 rc
 ;
 }
-#
-ifdef
-PR_LOGGING
 PR_LOG
 (
 gStorageLog
@@ -1184,8 +1171,6 @@ mAsyncStatement
 )
 )
 ;
-#
-endif
 }
 *
 _stmt
@@ -1420,9 +1405,6 @@ true
 )
 )
 {
-#
-ifdef
-PR_LOGGING
 PR_LOG
 (
 gStorageLog
@@ -1449,8 +1431,6 @@ mDBStatement
 )
 )
 ;
-#
-endif
 srv
 =
 :
@@ -2482,9 +2462,6 @@ if
 mExecuting
 )
 {
-#
-ifdef
-PR_LOGGING
 PR_LOG
 (
 gStorageLog
@@ -2502,8 +2479,6 @@ true
 )
 )
 ;
-#
-endif
 mExecuting
 =
 false

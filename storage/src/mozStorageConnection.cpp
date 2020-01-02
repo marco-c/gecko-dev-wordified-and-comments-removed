@@ -4187,9 +4187,6 @@ get
 ;
 #
 endif
-#
-ifdef
-PR_LOGGING
 PR_LOG
 (
 gStorageLog
@@ -4207,8 +4204,6 @@ get
 )
 )
 ;
-#
-endif
 }
 (
 void
