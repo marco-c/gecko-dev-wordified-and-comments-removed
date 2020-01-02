@@ -303,13 +303,10 @@ libs
 update
 .
 locale
-cat
-<
-|
 sed
 -
 e
-"
+'
 s
 /
 %
@@ -320,7 +317,8 @@ AB_CD
 AB_CD
 )
 /
-"
+'
+<
 >
 (
 FINAL_TARGET

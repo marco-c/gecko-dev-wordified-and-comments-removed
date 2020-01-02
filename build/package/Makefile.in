@@ -729,7 +729,7 @@ makexpi
 packages
 :
 echo
-"
+'
 Please
 set
 PACKAGES
@@ -741,7 +741,7 @@ line
 or
 environment
 .
-"
+'
 else
 #
 PACKAGES

@@ -236,13 +236,13 @@ CXXFLAGS
 =
 -
 I
-"
+'
 (
 MOZ_DIRECTX_SDK_PATH
 )
 /
 include
-"
+'
 #
 OS_LIBS
 +
@@ -281,7 +281,7 @@ llibGLESv2
 else
 EXTRA_DSO_LDOPTS
 =
-"
+'
 (
 MOZ_DIRECTX_SDK_PATH
 )
@@ -295,9 +295,9 @@ MOZ_DIRECTX_SDK_CPU_SUFFIX
 d3d9
 .
 lib
-"
+'
 \
-"
+'
 (
 DIST
 )
@@ -307,7 +307,7 @@ lib
 libGLESv2
 .
 lib
-"
+'
 \
 delayimp
 .

@@ -198,11 +198,11 @@ LOCAL_INCLUDES
 \
 -
 I
-"
+'
 (
 HAVE_BOUTELL_GD
 )
-"
+'
 \
 (
 NULL
@@ -214,7 +214,7 @@ LIBS
 -
 lmozz_s
 \
-"
+'
 (
 HAVE_BOUTELL_GD
 )
@@ -222,7 +222,7 @@ HAVE_BOUTELL_GD
 gd
 .
 lib
-"
+'
 \
 (
 NULL

@@ -420,7 +420,7 @@ export
 preqs
 )
 echo
-"
+'
 #
 include
 <
@@ -428,7 +428,7 @@ event
 .
 h
 >
-"
+'
 >
 (
 DIST

@@ -119,7 +119,7 @@ parent
 -
 template
 =
-"
+'
 {
 node
 |
@@ -127,7 +127,7 @@ short
 }
 \
 n
-"
+'
 2
 >
 /
@@ -144,11 +144,11 @@ DEFINES
 -
 DHISTOGRAMS_FILE_VERSION
 =
-"
+'
 (
 MOZ_HISTOGRAMS_VERSION
 )
-"
+'
 endif
 INSTALL_TARGETS
 +

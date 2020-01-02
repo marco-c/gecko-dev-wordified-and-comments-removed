@@ -306,7 +306,7 @@ o
 ifdef
 MOZ_CHROME_MULTILOCALE
 printf
-"
+'
 \
 n
 [
@@ -314,7 +314,7 @@ multilocale
 ]
 \
 n
-"
+'
 >
 >
 for
@@ -328,7 +328,7 @@ MOZ_CHROME_MULTILOCALE
 do
 \
 printf
-"
+'
 (
 BINPATH
 )
@@ -341,13 +341,13 @@ JAREXT
 )
 \
 n
-"
+'
 >
 >
 ;
 \
 printf
-"
+'
 (
 BINPATH
 )
@@ -359,7 +359,7 @@ LOCALE
 manifest
 \
 n
-"
+'
 >
 >
 ;

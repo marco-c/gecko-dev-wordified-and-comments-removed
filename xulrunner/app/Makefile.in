@@ -365,7 +365,7 @@ RCFLAGS
 -
 DXULRUNNER_ICO
 =
-\
+'
 "
 (
 DIST
@@ -376,12 +376,12 @@ branding
 xulrunner
 .
 ico
-\
 "
+'
 -
 DDOCUMENT_ICO
 =
-\
+'
 "
 (
 DIST
@@ -392,8 +392,8 @@ branding
 document
 .
 ico
-\
 "
+'
 endif
 include
 (
@@ -411,7 +411,7 @@ DEFINES
 -
 DXULRUNNER_ICO
 =
-\
+'
 "
 (
 DIST
@@ -422,12 +422,12 @@ branding
 xulrunner
 .
 ico
-\
 "
+'
 -
 DDOCUMENT_ICO
 =
-\
+'
 "
 (
 DIST
@@ -438,8 +438,8 @@ branding
 document
 .
 ico
-\
 "
+'
 ifeq
 (
 (
@@ -874,7 +874,7 @@ Resources
 sed
 -
 e
-"
+'
 s
 /
 APP_VERSION
@@ -883,7 +883,7 @@ APP_VERSION
 APP_VERSION
 )
 /
-"
+'
 (
 srcdir
 )

@@ -119,12 +119,12 @@ FINAL_TARGET
 chrome
 .
 manifest
-"
+'
 resource
 webapprt
 .
 /
-"
+'
 )
 GRE_BUILDID
 :

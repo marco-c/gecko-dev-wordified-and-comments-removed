@@ -307,10 +307,10 @@ export
 ifdef
 MOZ_BUILD_DATE
 printf
-"
+'
 %
 s
-"
+'
 (
 MOZ_BUILD_DATE
 )

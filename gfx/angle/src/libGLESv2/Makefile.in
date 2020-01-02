@@ -339,13 +339,13 @@ CXXFLAGS
 =
 -
 I
-"
+'
 (
 MOZ_DIRECTX_SDK_PATH
 )
 /
 include
-"
+'
 ifdef
 GNU_CC
 TextureSSE2
@@ -386,7 +386,7 @@ ldxguid
 else
 EXTRA_DSO_LDOPTS
 =
-"
+'
 (
 MOZ_DIRECTX_SDK_PATH
 )
@@ -400,9 +400,9 @@ MOZ_DIRECTX_SDK_CPU_SUFFIX
 d3d9
 .
 lib
-"
+'
 \
-"
+'
 (
 MOZ_DIRECTX_SDK_PATH
 )
@@ -416,7 +416,7 @@ MOZ_DIRECTX_SDK_CPU_SUFFIX
 dxguid
 .
 lib
-"
+'
 \
 delayimp
 .

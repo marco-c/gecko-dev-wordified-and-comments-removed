@@ -4676,11 +4676,11 @@ os2
 test_os2
 .
 cmd
-"
+'
 (
 LIBXUL_DIST
 )
-"
+'
 else
 ifneq
 (
@@ -4977,7 +4977,7 @@ null
 &
 &
 echo
-"
+'
 TEST
 -
 UNEXPECTED
@@ -4986,9 +4986,8 @@ FAIL
 |
 |
 We
-don
-'
-t
+do
+not
 want
 these
 libstdc
@@ -4999,7 +4998,7 @@ to
 be
 used
 :
-"
+'
 &
 &
 objdump

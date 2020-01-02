@@ -182,11 +182,9 @@ txt
 (
 RM
 )
-"
 metroapp
 .
 ini
-"
 (
 call
 py_action

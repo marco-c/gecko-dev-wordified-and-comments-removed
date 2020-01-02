@@ -1251,10 +1251,10 @@ DIST
 guard
 (
 addprefix
-"
+'
 (
 addsuffix
-"
+'
 ^
 )
 )

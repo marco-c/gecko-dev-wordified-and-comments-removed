@@ -184,11 +184,11 @@ f
 (
 REDIST_FILES
 )
-"
+'
 (
 WIN32_REDIST_DIR
 )
-"
+'
 /
 (
 f

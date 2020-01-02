@@ -434,11 +434,11 @@ C
 -
 -
 exclude
-"
+'
 *
 .
 in
-"
+'
 (
 srcdir
 )
@@ -458,7 +458,7 @@ app
 sed
 -
 e
-"
+'
 s
 /
 %
@@ -469,7 +469,7 @@ APP_NAME
 MOZ_APP_DISPLAYNAME
 )
 /
-"
+'
 (
 srcdir
 )

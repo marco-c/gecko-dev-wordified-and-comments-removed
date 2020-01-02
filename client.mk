@@ -1688,7 +1688,7 @@ line
 MOZCONFIG_MK_LINES
 )
 echo
-"
+'
 (
 subst
 |
@@ -1697,7 +1697,7 @@ subst
 line
 )
 )
-"
+'
 ;
 )
 )
@@ -2366,11 +2366,11 @@ MOZ_OBJDIR
 )
 MOZ_BUILD_PROJECTS
 =
-"
+'
 (
 MOZ_BUILD_PROJECTS
 )
-"
+'
 ;
 \
 done
@@ -2762,11 +2762,11 @@ CONFIGURE_ENV_ARGS
 \
 MAKE
 =
-"
+'
 (
 MAKE
 )
-"
+'
 \
 (
 NULL
@@ -2993,7 +2993,7 @@ CONFIGURE_ARGS
 |
 (
 echo
-"
+'
 *
 *
 *
@@ -3005,7 +3005,6 @@ then
 restart
 with
 \
-\
 "
 (
 MAKE
@@ -3016,9 +3015,8 @@ client
 .
 mk
 build
-\
 "
-"
+'
 &
 &
 exit
@@ -3648,11 +3646,11 @@ MOZ_OBJDIR
 )
 MOZ_BUILD_PROJECTS
 =
-"
+'
 (
 MOZ_BUILD_PROJECTS
 )
-"
+'
 ;
 \
 done
@@ -3684,7 +3682,7 @@ distclean
 else
 \
 echo
-"
+'
 Removing
 object
 files
@@ -3693,7 +3691,7 @@ srcdir
 .
 .
 .
-"
+'
 ;
 \
 rm

@@ -167,7 +167,7 @@ install
 :
 :
 echo
-"
+'
 No
 devices
 are
@@ -181,7 +181,7 @@ start
 an
 emulator
 .
-"
+'
 exit
 1
 else
@@ -196,7 +196,7 @@ install
 :
 :
 echo
-"
+'
 Multiple
 devices
 are
@@ -210,7 +210,7 @@ the
 install
 target
 .
-"
+'
 (
 ADB
 )
@@ -243,7 +243,7 @@ PKG_BASENAME
 apk
 else
 echo
-"
+'
 Mobile
 can
 '
@@ -252,7 +252,7 @@ be
 installed
 directly
 .
-"
+'
 exit
 1
 endif

@@ -128,11 +128,11 @@ check
 :
 :
 echo
-"
+'
 Running
 TestXREMakeCommandLineWin
 tests
-"
+'
 (
 RUN_TEST_PROGRAM
 )
@@ -144,11 +144,11 @@ TestXREMakeCommandLineWin
 .
 exe
 echo
-"
+'
 Running
 TestDllInterceptor
 tests
-"
+'
 (
 RUN_TEST_PROGRAM
 )

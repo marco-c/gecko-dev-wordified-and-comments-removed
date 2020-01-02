@@ -191,11 +191,11 @@ DIST_SUBDIR
 )
 XPI_ROOT_APPID
 =
-"
+'
 (
 XPI_ROOT_APPID
 )
-"
+'
 libs
 :
 :

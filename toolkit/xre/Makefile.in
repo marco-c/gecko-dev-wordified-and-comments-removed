@@ -279,13 +279,13 @@ DEFINES
 -
 DTOOLKIT_EM_VERSION
 =
-\
+'
 "
 (
 TOOLKIT_EM_VERSION
 )
-\
 "
+'
 MOZ_SOURCE_STAMP
 ?
 =
@@ -304,7 +304,7 @@ parent
 -
 template
 =
-"
+'
 {
 node
 |
@@ -312,7 +312,7 @@ short
 }
 \
 n
-"
+'
 2
 >
 /

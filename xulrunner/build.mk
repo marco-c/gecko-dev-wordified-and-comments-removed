@@ -56,7 +56,7 @@ MPL
 installer
 :
 echo
-"
+'
 XULRunner
 doesn
 '
@@ -66,7 +66,7 @@ an
 installer
 yet
 .
-"
+'
 package
 :
 (

@@ -679,7 +679,7 @@ JS
 )
 ANALYZE
 =
-"
+'
 (
 ANALYSIS_SCRIPT_DIR
 )
@@ -687,15 +687,15 @@ ANALYSIS_SCRIPT_DIR
 analyzeRoots
 .
 js
-"
+'
 SIXGILL
 =
-"
+'
 (
 SIXGILL
 )
-"
-"
+'
+'
 (
 ANALYSIS_SCRIPT_DIR
 )
@@ -705,7 +705,7 @@ gen
 hazards
 .
 sh
-"
+'
 (
 JOBS
 )

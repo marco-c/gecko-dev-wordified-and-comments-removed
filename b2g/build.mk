@@ -78,7 +78,7 @@ install
 :
 :
 echo
-"
+'
 B2G
 can
 '
@@ -87,7 +87,7 @@ be
 installed
 directly
 .
-"
+'
 exit
 1
 upload

@@ -261,11 +261,11 @@ DIST_SUBDIR
 )
 XPI_ROOT_APPID
 =
-"
+'
 (
 XPI_ROOT_APPID
 )
-"
+'
 #
 #
 #
@@ -414,10 +414,10 @@ bookmarks
 .
 inc
 echo
-"
+'
 Generating
 :
-"
+'
 (
 call
 py_action

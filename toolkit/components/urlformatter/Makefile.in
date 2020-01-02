@@ -76,14 +76,14 @@ mk
 google_api_key
 :
 echo
-"
+'
 #
 define
 MOZ_GOOGLE_API_KEY
 (
 MOZ_GOOGLE_API_KEY
 )
-"
+'
 >
 GARBAGE
 +
