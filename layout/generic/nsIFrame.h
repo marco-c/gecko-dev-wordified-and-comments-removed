@@ -1477,7 +1477,6 @@ mParent
 )
 ;
 }
-virtual
 void
 SetParent
 (
@@ -1485,8 +1484,6 @@ nsContainerFrame
 *
 aParent
 )
-=
-0
 ;
 mozilla
 :
