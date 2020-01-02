@@ -182,7 +182,6 @@ getItemId
 )
 ;
 }
-private
 void
 setIcon
 (
@@ -218,7 +217,6 @@ GONE
 ;
 }
 }
-private
 void
 setIcon
 (
@@ -254,7 +252,6 @@ GONE
 ;
 }
 }
-private
 void
 setTitle
 (

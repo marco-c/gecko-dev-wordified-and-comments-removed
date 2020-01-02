@@ -288,6 +288,13 @@ string
 /
 share
 "
+android
+:
+showAsAction
+=
+"
+ifRoom
+"
 /
 >
 <
