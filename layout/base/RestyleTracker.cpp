@@ -577,14 +577,7 @@ primaryFrame
 aChangeHint
 *
 this
-(
 aRestyleHint
-&
-eRestyle_Subtree
-)
-!
-=
-0
 )
 ;
 }

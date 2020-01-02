@@ -241,8 +241,8 @@ aMinChange
 RestyleTracker
 &
 aRestyleTracker
-bool
-aRestyleDescendants
+nsRestyleHint
+aRestyleHint
 )
 ;
 #
@@ -470,8 +470,8 @@ aMinHint
 RestyleTracker
 &
 aRestyleTracker
-bool
-aRestyleDescendants
+nsRestyleHint
+aRestyleHint
 )
 ;
 void
