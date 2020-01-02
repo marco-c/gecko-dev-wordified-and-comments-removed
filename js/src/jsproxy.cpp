@@ -8646,6 +8646,7 @@ false
 ;
 if
 (
+!
 extensible
 &
 &
