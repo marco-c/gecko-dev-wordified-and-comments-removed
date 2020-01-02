@@ -4789,7 +4789,7 @@ dark
 -
 rtl
 .
-png
+svg
 (
 .
 .
@@ -4806,7 +4806,7 @@ dark
 -
 rtl
 .
-png
+svg
 )
 skin
 /
@@ -4822,7 +4822,7 @@ dark
 -
 ltr
 .
-png
+svg
 (
 .
 .
@@ -4839,7 +4839,7 @@ dark
 -
 ltr
 .
-png
+svg
 )
 skin
 /
