@@ -171,11 +171,6 @@ aSelection
 nsRect
 *
 aRect
-nscoord
-*
-aBidiIndicatorSize
-=
-nullptr
 )
 ;
 nsIFrame
