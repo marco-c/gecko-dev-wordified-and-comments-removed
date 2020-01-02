@@ -177,6 +177,17 @@ value
 {
 if
 (
+!
+this
+.
+telemetryInfo
+)
+{
+return
+;
+}
+if
+(
 histogramId
 )
 {
