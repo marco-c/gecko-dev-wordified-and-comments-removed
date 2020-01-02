@@ -2119,6 +2119,8 @@ bool
 aIsFirstPaint
 bool
 aScheduleComposite
+uint32_t
+aPaintSequenceNumber
 )
 {
 if
@@ -2157,6 +2159,7 @@ GetRoot
 )
 aIsFirstPaint
 aId
+aPaintSequenceNumber
 )
 ;
 mLayerManager
@@ -3305,6 +3308,8 @@ bool
 aIsFirstPaint
 bool
 aScheduleComposite
+uint32_t
+aPaintSequenceNumber
 )
 {
 ScheduleRotationOnCompositorThread
@@ -3385,6 +3390,7 @@ this
 root
 aIsFirstPaint
 mRootLayerTreeID
+aPaintSequenceNumber
 )
 ;
 }
@@ -4847,6 +4853,8 @@ bool
 aIsFirstPaint
 bool
 aScheduleComposite
+uint32_t
+aPaintSequenceNumber
 )
 MOZ_OVERRIDE
 ;
@@ -5639,6 +5647,8 @@ bool
 aIsFirstPaint
 bool
 aScheduleComposite
+uint32_t
+aPaintSequenceNumber
 )
 {
 uint64_t
@@ -5744,6 +5754,7 @@ NotifyShadowTreeTransaction
 id
 aIsFirstPaint
 aScheduleComposite
+aPaintSequenceNumber
 )
 ;
 }

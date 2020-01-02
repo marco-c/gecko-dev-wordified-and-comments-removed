@@ -593,6 +593,8 @@ nsIntRegion
 aRegionToClear
 bool
 aScheduleComposite
+uint32_t
+aPaintSequenceNumber
 bool
 *
 aSent

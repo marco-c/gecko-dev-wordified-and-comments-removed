@@ -303,6 +303,10 @@ mNeedsComposite
 (
 false
 )
+mPaintSequenceNumber
+(
+0
+)
 mForwarder
 (
 new
@@ -742,6 +746,17 @@ GeckoProcessType_Default
 mShadowTarget
 =
 aTarget
+;
+}
+if
+(
+!
+mIsRepeatTransaction
+)
+{
++
++
+mPaintSequenceNumber
 ;
 }
 }
@@ -1792,6 +1807,7 @@ EndTransaction
 replies
 mRegionToClear
 aScheduleComposite
+mPaintSequenceNumber
 &
 sent
 )

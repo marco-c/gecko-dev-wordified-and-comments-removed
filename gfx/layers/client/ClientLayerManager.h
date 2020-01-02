@@ -904,6 +904,9 @@ mCompositorMightResample
 bool
 mNeedsComposite
 ;
+uint32_t
+mPaintSequenceNumber
+;
 RefPtr
 <
 ShadowLayerForwarder

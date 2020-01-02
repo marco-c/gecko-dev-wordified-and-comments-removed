@@ -301,9 +301,7 @@ async
 ParentAsyncMessage
 (
 AsyncParentMessageData
-[
-]
-aMessages
+aMessage
 )
 ;
 parent
@@ -365,6 +363,8 @@ bool
 isFirstPaint
 bool
 scheduleComposite
+uint32_t
+paintSequenceNumber
 )
 returns
 (
@@ -584,6 +584,8 @@ bool
 isFirstPaint
 bool
 scheduleComposite
+uint32_t
+paintSequenceNumber
 )
 ;
 /

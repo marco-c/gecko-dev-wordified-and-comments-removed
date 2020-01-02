@@ -213,6 +213,8 @@ bool
 aIsFirstPaint
 uint64_t
 aFirstPaintLayersId
+uint32_t
+aPaintSequenceNumber
 )
 ;
 nsEventStatus
