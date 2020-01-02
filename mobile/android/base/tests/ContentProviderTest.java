@@ -857,6 +857,7 @@ mProvider
 ;
 }
 public
+static
 Uri
 appendUriParam
 (
