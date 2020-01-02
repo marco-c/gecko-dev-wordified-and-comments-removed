@@ -5356,7 +5356,7 @@ isBlackBoxed
 {
 item
 .
-target
+prebuiltNode
 .
 classList
 .
@@ -5374,7 +5374,7 @@ else
 {
 item
 .
-target
+prebuiltNode
 .
 classList
 .

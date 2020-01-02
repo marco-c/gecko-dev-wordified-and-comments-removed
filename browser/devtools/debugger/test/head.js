@@ -4954,7 +4954,7 @@ aPanel
 )
 {
 return
-gPanel
+aPanel
 .
 panelWin
 .
@@ -4964,7 +4964,7 @@ Sources
 .
 selectedItem
 .
-target
+prebuiltNode
 ;
 }
 function
