@@ -172,8 +172,10 @@ RegisterPerfMeasurement
 JSContext
 *
 cx
-JSObject
-*
+JS
+:
+:
+HandleObject
 global
 )
 ;

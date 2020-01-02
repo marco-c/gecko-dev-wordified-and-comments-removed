@@ -537,8 +537,10 @@ CreateWithBuffer
 (
 JSContext
 *
-JSObject
-*
+JS
+:
+:
+HandleObject
 uint32_t
 int32_t
 )
@@ -548,8 +550,10 @@ CreateFromArray
 (
 JSContext
 *
-JSObject
-*
+JS
+:
+:
+HandleObject
 )
 typename
 Element
