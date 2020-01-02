@@ -113,6 +113,9 @@ Application
 Window
 =
 3
+Browser
+=
+4
 }
 ;
 struct

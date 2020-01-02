@@ -152,6 +152,9 @@ application
 "
 window
 "
+"
+browser
+"
 }
 ;
 dictionary
