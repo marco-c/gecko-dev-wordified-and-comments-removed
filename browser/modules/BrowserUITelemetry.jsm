@@ -674,6 +674,15 @@ in
 -
 button
 "
+"
+BMB_bookmarksPopup
+"
+"
+BMB_unsortedBookmarksPopup
+"
+"
+BMB_bookmarksToolbarPopup
+"
 ]
 return
 DEFAULT_ITEMS
