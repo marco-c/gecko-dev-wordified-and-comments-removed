@@ -90,12 +90,6 @@ nsComposerCommandsUpdater
 (
 )
 ;
-virtual
-~
-nsComposerCommandsUpdater
-(
-)
-;
 NS_DECL_ISUPPORTS
 NS_DECL_NSISELECTIONLISTENER
 NS_DECL_NSIDOCUMENTSTATELISTENER
@@ -268,6 +262,12 @@ aDOMWindow
 ;
 protected
 :
+virtual
+~
+nsComposerCommandsUpdater
+(
+)
+;
 enum
 {
 eStateUninitialized

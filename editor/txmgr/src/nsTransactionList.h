@@ -65,6 +65,14 @@ nsTransactionItem
 >
 mTxnItem
 ;
+protected
+:
+virtual
+~
+nsTransactionList
+(
+)
+;
 public
 :
 nsTransactionList
@@ -85,12 +93,6 @@ aTxnMgr
 nsTransactionItem
 *
 aTxnItem
-)
-;
-virtual
-~
-nsTransactionList
-(
 )
 ;
 NS_DECL_ISUPPORTS

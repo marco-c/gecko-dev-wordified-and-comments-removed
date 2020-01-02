@@ -56,12 +56,6 @@ EditTxn
 nsITransaction
 )
 virtual
-~
-EditTxn
-(
-)
-;
-virtual
 void
 LastRelease
 (
@@ -91,6 +85,14 @@ aTransaction
 bool
 *
 aDidMerge
+)
+;
+protected
+:
+virtual
+~
+EditTxn
+(
 )
 ;
 }

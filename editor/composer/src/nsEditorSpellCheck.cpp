@@ -659,6 +659,12 @@ mDictionary
 ;
 private
 :
+~
+DictionaryFetcher
+(
+)
+{
+}
 nsRefPtr
 <
 nsEditorSpellCheck

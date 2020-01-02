@@ -90,12 +90,6 @@ nsEditorEventListener
 )
 ;
 virtual
-~
-nsEditorEventListener
-(
-)
-;
-virtual
 nsresult
 Connect
 (
@@ -215,6 +209,12 @@ SpellCheckIfNeeded
 ;
 protected
 :
+virtual
+~
+nsEditorEventListener
+(
+)
+;
 nsresult
 InstallToEditor
 (

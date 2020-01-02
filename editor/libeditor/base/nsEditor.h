@@ -468,12 +468,16 @@ nsEditor
 (
 )
 ;
+protected
+:
 virtual
 ~
 nsEditor
 (
 )
 ;
+public
+:
 NS_DECL_CYCLE_COLLECTING_ISUPPORTS
 NS_DECL_CYCLE_COLLECTION_CLASS_AMBIGUOUS
 (

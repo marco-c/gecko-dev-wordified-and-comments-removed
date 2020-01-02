@@ -104,6 +104,12 @@ nsITransactionListener
 >
 mListeners
 ;
+virtual
+~
+nsTransactionManager
+(
+)
+;
 public
 :
 nsTransactionManager
@@ -113,12 +119,6 @@ aMaxTransactionCount
 =
 -
 1
-)
-;
-virtual
-~
-nsTransactionManager
-(
 )
 ;
 NS_DECL_CYCLE_COLLECTING_ISUPPORTS
