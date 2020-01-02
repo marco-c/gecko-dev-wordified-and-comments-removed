@@ -149,7 +149,7 @@ PARALLEL_DIRS
 printing
 '
 ]
-TEST_TOOL_DIRS
+TEST_DIRS
 +
 =
 [

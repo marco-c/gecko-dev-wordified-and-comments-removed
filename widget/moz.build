@@ -296,7 +296,7 @@ nsIPrintDialogService
 h
 '
 ]
-TEST_TOOL_DIRS
+TEST_DIRS
 +
 =
 [

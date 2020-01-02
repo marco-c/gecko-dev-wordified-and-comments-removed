@@ -113,7 +113,7 @@ loader
 src
 '
 ]
-TOOL_DIRS
+DIRS
 +
 =
 [
@@ -121,7 +121,7 @@ TOOL_DIRS
 shell
 '
 ]
-TEST_TOOL_DIRS
+TEST_DIRS
 +
 =
 [
@@ -137,7 +137,7 @@ MOZ_XPCTOOLS
 '
 ]
 :
-TOOL_DIRS
+DIRS
 +
 =
 [

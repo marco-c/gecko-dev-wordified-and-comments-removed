@@ -539,15 +539,7 @@ parallel_dirs
 '
         
 '
-tool_dirs
-'
-        
-'
 test_dirs
-'
-        
-'
-test_tool_dirs
 '
         
 '
@@ -592,21 +584,7 @@ parallel_dirs
         
 self
 .
-tool_dirs
-=
-[
-]
-        
-self
-.
 test_dirs
-=
-[
-]
-        
-self
-.
-test_tool_dirs
 =
 [
 ]

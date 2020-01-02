@@ -101,7 +101,7 @@ TEST_DIRS
 test
 '
 ]
-TEST_TOOL_DIRS
+TEST_DIRS
 +
 =
 [

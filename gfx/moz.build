@@ -190,7 +190,7 @@ tests
 gtest
 '
 ]
-TEST_TOOL_DIRS
+TEST_DIRS
 +
 =
 [

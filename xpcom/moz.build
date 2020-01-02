@@ -175,7 +175,7 @@ DIRS
 windbgdlg
 '
 ]
-TEST_TOOL_DIRS
+TEST_DIRS
 +
 =
 [
@@ -210,7 +210,7 @@ not
 exported
 .
 #
-TEST_TOOL_DIRS
+TEST_DIRS
 +
 =
 [

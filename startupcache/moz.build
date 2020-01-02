@@ -102,7 +102,7 @@ MOZ_B2G
 '
 ]
 :
-TEST_TOOL_DIRS
+TEST_DIRS
 +
 =
 [

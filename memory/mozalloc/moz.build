@@ -387,7 +387,7 @@ _GNU_SOURCE
 ]
 =
 True
-TEST_TOOL_DIRS
+TEST_DIRS
 +
 =
 [

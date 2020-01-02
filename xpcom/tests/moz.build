@@ -93,7 +93,7 @@ MPL
 0
 /
 .
-TEST_TOOL_DIRS
+TEST_DIRS
 +
 =
 [
@@ -123,7 +123,7 @@ OS_ARCH
 WINNT
 '
 :
-TEST_TOOL_DIRS
+TEST_DIRS
 +
 =
 [
@@ -139,7 +139,7 @@ DEHYDRA_PATH
 '
 ]
 :
-TEST_TOOL_DIRS
+TEST_DIRS
 +
 =
 [

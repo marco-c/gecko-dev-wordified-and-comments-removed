@@ -110,11 +110,11 @@ need
 to
 replace
 #
-TEST_TOOL_DIRS
+TEST_DIRS
 with
 DIRS
 .
-TEST_TOOL_DIRS
+TEST_DIRS
 +
 =
 [
