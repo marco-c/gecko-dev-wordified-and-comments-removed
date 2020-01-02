@@ -81,7 +81,7 @@ selectProjectsPanel
 )
 ;
 yield
-addSampleHostedApp
+addSamplePackagedApp
 (
 )
 ;
@@ -104,7 +104,7 @@ app
 )
 ;
 yield
-removeSampleHostedApp
+removeSamplePackagedApp
 (
 )
 ;
