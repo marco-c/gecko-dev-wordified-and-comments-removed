@@ -34,6 +34,10 @@ DOMCI_CLASS
 (
 CSSNameSpaceRule
 )
+DOMCI_CLASS
+(
+CSSStyleSheet
+)
 #
 ifdef
 MOZ_XUL
@@ -100,7 +104,7 @@ CSSSupportsRule
 )
 DOMCI_CLASS
 (
-WindowUtils
+SVGNumber
 )
 DOMCI_CLASS
 (
