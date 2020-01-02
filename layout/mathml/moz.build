@@ -327,12 +327,7 @@ mathfontStandardSymbolsL
 properties
 '
 '
-mathfontSTIXNonUnicode
-.
-properties
-'
-'
-mathfontSTIXSizeOneSym
+mathfontSTIXGeneral
 .
 properties
 '
