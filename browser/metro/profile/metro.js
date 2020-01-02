@@ -206,9 +206,7 @@ false
 pref
 (
 "
-gfx
-.
-azpc
+apz
 .
 touch_start_tolerance
 "
@@ -222,9 +220,7 @@ touch_start_tolerance
 pref
 (
 "
-gfx
-.
-azpc
+apz
 .
 pan_repaint_interval
 "
@@ -236,9 +232,7 @@ pan_repaint_interval
 pref
 (
 "
-gfx
-.
-azpc
+apz
 .
 fling_repaint_interval
 "
@@ -250,9 +244,7 @@ fling_repaint_interval
 pref
 (
 "
-gfx
-.
-axis
+apz
 .
 fling_friction
 "
@@ -266,9 +258,7 @@ fling_friction
 pref
 (
 "
-gfx
-.
-axis
+apz
 .
 fling_stopped_threshold
 "
@@ -282,7 +272,7 @@ fling_stopped_threshold
 pref
 (
 "
-apzc
+apz
 .
 axis_lock_mode
 "
@@ -292,7 +282,7 @@ axis_lock_mode
 pref
 (
 "
-apzc
+apz
 .
 cross_slide
 .
