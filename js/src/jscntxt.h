@@ -3630,7 +3630,7 @@ vp
 )
 ;
 bool
-intrinsic_DefineValueProperty
+intrinsic_DefineDataProperty
 (
 JSContext
 *
