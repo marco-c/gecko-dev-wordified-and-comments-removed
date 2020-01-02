@@ -3204,7 +3204,7 @@ TabParent
 TryCapture
 (
 const
-nsGUIEvent
+WidgetGUIEvent
 &
 aEvent
 )

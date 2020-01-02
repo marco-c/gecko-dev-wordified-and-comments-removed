@@ -1747,7 +1747,7 @@ MOZ_OVERRIDE
 nsEventStatus
 DispatchWidgetEvent
 (
-nsGUIEvent
+WidgetGUIEvent
 &
 event
 )

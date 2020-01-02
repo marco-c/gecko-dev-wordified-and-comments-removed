@@ -85,7 +85,10 @@ HandleEvent
 nsPresContext
 *
 aPresContext
-nsGUIEvent
+mozilla
+:
+:
+WidgetGUIEvent
 *
 aEvent
 nsEventStatus
@@ -101,7 +104,10 @@ MouseClicked
 nsPresContext
 *
 aPresContext
-nsGUIEvent
+mozilla
+:
+:
+WidgetGUIEvent
 *
 aEvent
 )
@@ -144,7 +150,10 @@ endif
 void
 DoMouseClick
 (
-nsGUIEvent
+mozilla
+:
+:
+WidgetGUIEvent
 *
 aEvent
 bool

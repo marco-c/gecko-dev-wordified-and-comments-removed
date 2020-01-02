@@ -317,7 +317,10 @@ virtual
 nsresult
 DispatchEvent
 (
-nsGUIEvent
+mozilla
+:
+:
+WidgetGUIEvent
 *
 aEvent
 nsEventStatus
@@ -1030,7 +1033,10 @@ sLastButtonPressTime
 NS_IMETHOD
 BeginResizeDrag
 (
-nsGUIEvent
+mozilla
+:
+:
+WidgetGUIEvent
 *
 aEvent
 int32_t

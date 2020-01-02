@@ -5320,7 +5320,7 @@ status
 =
 nsEventStatus_eIgnore
 ;
-nsGUIEvent
+WidgetGUIEvent
 guiEvent
 (
 true
@@ -9143,7 +9143,7 @@ nsChildView
 :
 DispatchEvent
 (
-nsGUIEvent
+WidgetGUIEvent
 *
 event
 nsEventStatus
@@ -9440,7 +9440,7 @@ nsChildView
 :
 DispatchWindowEvent
 (
-nsGUIEvent
+WidgetGUIEvent
 &
 event
 )
@@ -17708,7 +17708,7 @@ status
 =
 nsEventStatus_eIgnore
 ;
-nsGUIEvent
+WidgetGUIEvent
 focusGuiEvent
 (
 true

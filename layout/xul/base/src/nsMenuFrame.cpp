@@ -1794,7 +1794,7 @@ HandleEvent
 nsPresContext
 *
 aPresContext
-nsGUIEvent
+WidgetGUIEvent
 *
 aEvent
 nsEventStatus
@@ -3526,7 +3526,7 @@ nsMenuFrame
 :
 Enter
 (
-nsGUIEvent
+WidgetGUIEvent
 *
 aEvent
 )
@@ -5167,7 +5167,7 @@ nsMenuFrame
 :
 Execute
 (
-nsGUIEvent
+WidgetGUIEvent
 *
 aEvent
 )
@@ -5313,7 +5313,7 @@ nsMenuFrame
 :
 StartBlinking
 (
-nsGUIEvent
+WidgetGUIEvent
 *
 aEvent
 bool
@@ -5462,7 +5462,7 @@ nsMenuFrame
 :
 CreateMenuCommandEvent
 (
-nsGUIEvent
+WidgetGUIEvent
 *
 aEvent
 bool

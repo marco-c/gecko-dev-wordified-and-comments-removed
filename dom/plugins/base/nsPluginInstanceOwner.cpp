@@ -568,7 +568,7 @@ nsEventStatus
 ProcessEvent
 (
 const
-nsGUIEvent
+WidgetGUIEvent
 &
 anEvent
 )
@@ -8351,7 +8351,7 @@ if
 theEvent
 )
 {
-nsGUIEvent
+WidgetGUIEvent
 focusEvent
 (
 theEvent
@@ -8544,7 +8544,7 @@ ProcessEvent
 *
 static_cast
 <
-nsGUIEvent
+WidgetGUIEvent
 *
 >
 (
@@ -8727,7 +8727,7 @@ ProcessEvent
 *
 static_cast
 <
-nsGUIEvent
+WidgetGUIEvent
 *
 >
 (
@@ -8842,7 +8842,7 @@ ProcessEvent
 *
 static_cast
 <
-nsGUIEvent
+WidgetGUIEvent
 *
 >
 (
@@ -9343,7 +9343,7 @@ nsPluginInstanceOwner
 ProcessEvent
 (
 const
-nsGUIEvent
+WidgetGUIEvent
 &
 anEvent
 )

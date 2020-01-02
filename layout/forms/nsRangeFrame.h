@@ -386,7 +386,10 @@ mozilla
 Decimal
 GetValueAtEventPoint
 (
-nsGUIEvent
+mozilla
+:
+:
+WidgetGUIEvent
 *
 aEvent
 )

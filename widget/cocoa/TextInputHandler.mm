@@ -25414,7 +25414,7 @@ TextInputHandlerBase
 :
 DispatchEvent
 (
-nsGUIEvent
+WidgetGUIEvent
 &
 aEvent
 )

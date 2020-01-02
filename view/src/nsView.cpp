@@ -4896,7 +4896,7 @@ nsView
 :
 HandleEvent
 (
-nsGUIEvent
+WidgetGUIEvent
 *
 aEvent
 bool

@@ -117,7 +117,10 @@ HandlePress
 nsPresContext
 *
 aPresContext
-nsGUIEvent
+mozilla
+:
+:
+WidgetGUIEvent
 *
 aEvent
 nsEventStatus
@@ -132,7 +135,10 @@ HandleMultiplePress
 nsPresContext
 *
 aPresContext
-nsGUIEvent
+mozilla
+:
+:
+WidgetGUIEvent
 *
 aEvent
 nsEventStatus
@@ -149,7 +155,10 @@ HandleDrag
 nsPresContext
 *
 aPresContext
-nsGUIEvent
+mozilla
+:
+:
+WidgetGUIEvent
 *
 aEvent
 nsEventStatus
@@ -164,7 +173,10 @@ HandleRelease
 nsPresContext
 *
 aPresContext
-nsGUIEvent
+mozilla
+:
+:
+WidgetGUIEvent
 *
 aEvent
 nsEventStatus

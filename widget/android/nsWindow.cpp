@@ -3037,7 +3037,7 @@ nsWindow
 :
 DispatchEvent
 (
-nsGUIEvent
+WidgetGUIEvent
 *
 aEvent
 nsEventStatus
@@ -3062,7 +3062,7 @@ nsWindow
 :
 DispatchEvent
 (
-nsGUIEvent
+WidgetGUIEvent
 *
 aEvent
 )
@@ -5520,7 +5520,7 @@ nsWindow
 :
 InitEvent
 (
-nsGUIEvent
+WidgetGUIEvent
 &
 event
 nsIntPoint

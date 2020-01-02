@@ -93,7 +93,10 @@ static
 nsEventStatus
 DispatchInputEvent
 (
-nsGUIEvent
+mozilla
+:
+:
+WidgetGUIEvent
 &
 aEvent
 bool
@@ -269,7 +272,10 @@ WidgetToScreenOffset
 NS_IMETHOD
 DispatchEvent
 (
-nsGUIEvent
+mozilla
+:
+:
+WidgetGUIEvent
 *
 aEvent
 nsEventStatus

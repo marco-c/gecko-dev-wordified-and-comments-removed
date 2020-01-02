@@ -551,7 +551,7 @@ aVisitor
 void
 StartRangeThumbDrag
 (
-nsGUIEvent
+WidgetGUIEvent
 *
 aEvent
 )
@@ -559,7 +559,7 @@ aEvent
 void
 FinishRangeThumbDrag
 (
-nsGUIEvent
+WidgetGUIEvent
 *
 aEvent
 =

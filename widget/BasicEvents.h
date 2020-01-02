@@ -3140,12 +3140,5 @@ mozilla
 WidgetEvent
 nsEvent
 ;
-typedef
-mozilla
-:
-:
-WidgetGUIEvent
-nsGUIEvent
-;
 #
 endif

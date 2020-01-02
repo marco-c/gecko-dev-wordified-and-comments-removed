@@ -8794,7 +8794,7 @@ TabChild
 :
 DispatchWidgetEvent
 (
-nsGUIEvent
+WidgetGUIEvent
 &
 event
 )

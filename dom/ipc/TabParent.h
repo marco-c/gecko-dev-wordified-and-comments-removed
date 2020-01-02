@@ -278,7 +278,7 @@ bool
 TryCapture
 (
 const
-nsGUIEvent
+WidgetGUIEvent
 &
 aEvent
 )

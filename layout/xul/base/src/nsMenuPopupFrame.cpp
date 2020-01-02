@@ -7252,7 +7252,7 @@ nsMenuPopupFrame
 :
 Enter
 (
-nsGUIEvent
+WidgetGUIEvent
 *
 aEvent
 )

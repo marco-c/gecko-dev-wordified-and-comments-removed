@@ -916,7 +916,7 @@ OnFirstPointerMoveCallback
 void
 DispatchEventIgnoreStatus
 (
-nsGUIEvent
+WidgetGUIEvent
 *
 aEvent
 )

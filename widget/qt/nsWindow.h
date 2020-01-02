@@ -625,7 +625,10 @@ WidgetToScreenOffset
 NS_IMETHOD
 DispatchEvent
 (
-nsGUIEvent
+mozilla
+:
+:
+WidgetGUIEvent
 *
 aEvent
 nsEventStatus
@@ -676,7 +679,10 @@ aCycleCount
 NS_IMETHOD
 BeginResizeDrag
 (
-nsGUIEvent
+mozilla
+:
+:
+WidgetGUIEvent
 *
 aEvent
 int32_t
@@ -760,7 +766,10 @@ aStatus
 nsEventStatus
 DispatchEvent
 (
-nsGUIEvent
+mozilla
+:
+:
+WidgetGUIEvent
 *
 aEvent
 )

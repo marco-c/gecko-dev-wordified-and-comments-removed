@@ -186,6 +186,10 @@ MouseEvents
 .
 h
 "
+using
+namespace
+mozilla
+;
 class
 nsSplitterInfo
 {
@@ -289,7 +293,7 @@ MouseDrag
 nsPresContext
 *
 aPresContext
-nsGUIEvent
+WidgetGUIEvent
 *
 aEvent
 )
@@ -300,7 +304,7 @@ MouseUp
 nsPresContext
 *
 aPresContext
-nsGUIEvent
+WidgetGUIEvent
 *
 aEvent
 )
@@ -1382,7 +1386,7 @@ HandlePress
 nsPresContext
 *
 aPresContext
-nsGUIEvent
+WidgetGUIEvent
 *
 aEvent
 nsEventStatus
@@ -1403,7 +1407,7 @@ HandleMultiplePress
 nsPresContext
 *
 aPresContext
-nsGUIEvent
+WidgetGUIEvent
 *
 aEvent
 nsEventStatus
@@ -1426,7 +1430,7 @@ HandleDrag
 nsPresContext
 *
 aPresContext
-nsGUIEvent
+WidgetGUIEvent
 *
 aEvent
 nsEventStatus
@@ -1447,7 +1451,7 @@ HandleRelease
 nsPresContext
 *
 aPresContext
-nsGUIEvent
+WidgetGUIEvent
 *
 aEvent
 nsEventStatus
@@ -1529,7 +1533,7 @@ HandleEvent
 nsPresContext
 *
 aPresContext
-nsGUIEvent
+WidgetGUIEvent
 *
 aEvent
 nsEventStatus
@@ -1668,7 +1672,7 @@ MouseUp
 nsPresContext
 *
 aPresContext
-nsGUIEvent
+WidgetGUIEvent
 *
 aEvent
 )
@@ -1807,7 +1811,7 @@ MouseDrag
 nsPresContext
 *
 aPresContext
-nsGUIEvent
+WidgetGUIEvent
 *
 aEvent
 )

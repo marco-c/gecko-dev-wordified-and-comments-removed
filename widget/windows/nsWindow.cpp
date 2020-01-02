@@ -5705,7 +5705,7 @@ nsWindow
 :
 BeginResizeDrag
 (
-nsGUIEvent
+WidgetGUIEvent
 *
 aEvent
 int32_t
@@ -13698,7 +13698,7 @@ nsWindow
 :
 InitEvent
 (
-nsGUIEvent
+WidgetGUIEvent
 &
 event
 nsIntPoint
@@ -13844,7 +13844,7 @@ nsWindow
 :
 DispatchEvent
 (
-nsGUIEvent
+WidgetGUIEvent
 *
 event
 nsEventStatus
@@ -13938,7 +13938,7 @@ uint32_t
 aMsg
 )
 {
-nsGUIEvent
+WidgetGUIEvent
 event
 (
 true
@@ -13970,7 +13970,7 @@ nsWindow
 :
 DispatchKeyboardEvent
 (
-nsGUIEvent
+WidgetGUIEvent
 *
 event
 )
@@ -13997,7 +13997,7 @@ nsWindow
 :
 DispatchWindowEvent
 (
-nsGUIEvent
+WidgetGUIEvent
 *
 event
 )
@@ -14024,7 +14024,7 @@ nsWindow
 :
 DispatchWindowEvent
 (
-nsGUIEvent
+WidgetGUIEvent
 *
 event
 nsEventStatus

@@ -14098,7 +14098,7 @@ Forget
 (
 )
 ;
-nsGUIEvent
+WidgetGUIEvent
 event
 (
 true

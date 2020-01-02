@@ -241,11 +241,14 @@ virtual
 nsEventStatus
 HandleEvent
 (
-nsGUIEvent
+mozilla
+:
+:
+WidgetGUIEvent
 *
-event
+aEvent
 bool
-useAttachedEvents
+aUseAttachedEvents
 )
 {
 return

@@ -729,7 +729,7 @@ public
 :
 AutoDeleteEvent
 (
-nsGUIEvent
+WidgetGUIEvent
 *
 aPtr
 )
@@ -755,7 +755,7 @@ mPtr
 ;
 }
 }
-nsGUIEvent
+WidgetGUIEvent
 *
 mPtr
 ;
@@ -4862,13 +4862,13 @@ DeliverNextQueuedEventIgnoreStatus
 (
 )
 {
-nsGUIEvent
+WidgetGUIEvent
 *
 event
 =
 static_cast
 <
-nsGUIEvent
+WidgetGUIEvent
 *
 >
 (
@@ -5294,7 +5294,7 @@ MetroInput
 :
 DispatchEventIgnoreStatus
 (
-nsGUIEvent
+WidgetGUIEvent
 *
 aEvent
 )

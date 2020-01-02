@@ -61,6 +61,10 @@ nsTextNode
 .
 h
 "
+using
+namespace
+mozilla
+;
 nsGfxButtonControlFrame
 :
 :
@@ -760,7 +764,7 @@ HandleEvent
 nsPresContext
 *
 aPresContext
-nsGUIEvent
+WidgetGUIEvent
 *
 aEvent
 nsEventStatus

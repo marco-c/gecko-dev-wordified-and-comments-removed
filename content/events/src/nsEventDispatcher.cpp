@@ -3215,7 +3215,7 @@ aOwner
 aPresContext
 static_cast
 <
-nsGUIEvent
+WidgetGUIEvent
 *
 >
 (
@@ -3424,7 +3424,7 @@ aOwner
 aPresContext
 static_cast
 <
-nsGUIEvent
+WidgetGUIEvent
 *
 >
 (

@@ -2738,7 +2738,10 @@ HandleEvent
 nsIFrame
 *
 aFrame
-nsGUIEvent
+mozilla
+:
+:
+WidgetGUIEvent
 *
 aEvent
 bool
@@ -2813,7 +2816,10 @@ virtual
 void
 DispatchSynthMouseMove
 (
-nsGUIEvent
+mozilla
+:
+:
+WidgetGUIEvent
 *
 aEvent
 bool

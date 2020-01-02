@@ -85,7 +85,10 @@ virtual
 void
 InitEvent
 (
-nsGUIEvent
+mozilla
+:
+:
+WidgetGUIEvent
 &
 aEvent
 nsIntPoint
@@ -101,7 +104,10 @@ virtual
 bool
 DispatchWindowEvent
 (
-nsGUIEvent
+mozilla
+:
+:
+WidgetGUIEvent
 *
 aEvent
 )
@@ -112,7 +118,10 @@ virtual
 bool
 DispatchKeyboardEvent
 (
-nsGUIEvent
+mozilla
+:
+:
+WidgetGUIEvent
 *
 aEvent
 )

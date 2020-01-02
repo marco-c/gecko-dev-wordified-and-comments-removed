@@ -192,7 +192,10 @@ InvalidateAllViews
 void
 DispatchEvent
 (
-nsGUIEvent
+mozilla
+:
+:
+WidgetGUIEvent
 *
 aEvent
 nsView

@@ -813,7 +813,10 @@ mLayoutManager
 bool
 GetEventPoint
 (
-nsGUIEvent
+mozilla
+:
+:
+WidgetGUIEvent
 *
 aEvent
 nsPoint
@@ -824,7 +827,10 @@ aPoint
 bool
 GetEventPoint
 (
-nsGUIEvent
+mozilla
+:
+:
+WidgetGUIEvent
 *
 aEvent
 nsIntPoint

@@ -143,7 +143,7 @@ aOwner
 nsPresContext
 *
 aPresContext
-nsGUIEvent
+WidgetGUIEvent
 *
 aEvent
 )
@@ -615,7 +615,7 @@ NS_SIMPLE_GESTURE_EVENT
 (
 static_cast
 <
-nsGUIEvent
+WidgetGUIEvent
 *
 >
 (
@@ -2299,7 +2299,7 @@ aOwner
 nsPresContext
 *
 aPresContext
-nsGUIEvent
+WidgetGUIEvent
 *
 aEvent
 )

@@ -1016,7 +1016,7 @@ if
 widget
 )
 {
-nsGUIEvent
+WidgetGUIEvent
 event
 (
 true

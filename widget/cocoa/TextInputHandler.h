@@ -809,7 +809,7 @@ mRefCnt
 bool
 DispatchEvent
 (
-nsGUIEvent
+WidgetGUIEvent
 &
 aEvent
 )

@@ -453,7 +453,10 @@ nsEventStatus
 ProcessEvent
 (
 const
-nsGUIEvent
+mozilla
+:
+:
+WidgetGUIEvent
 &
 anEvent
 )

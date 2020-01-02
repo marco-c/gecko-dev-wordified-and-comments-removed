@@ -10616,7 +10616,7 @@ nsCocoaWindow
 :
 DispatchEvent
 (
-nsGUIEvent
+WidgetGUIEvent
 *
 event
 nsEventStatus
