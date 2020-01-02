@@ -100,14 +100,6 @@ NS_DECL_NSPICOMMANDUPDATER
 protected
 :
 nsresult
-IsCallerChrome
-(
-bool
-*
-aIsCallerChrome
-)
-;
-nsresult
 GetControllerForCommand
 (
 const
