@@ -753,6 +753,10 @@ mMarkedForDeath
 (
 false
 )
+mUsingXBLScope
+(
+false
+)
 mPrototypeBinding
 (
 aBinding
