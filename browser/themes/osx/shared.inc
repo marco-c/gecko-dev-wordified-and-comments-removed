@@ -119,7 +119,7 @@ toolbarColorLWT
 %
 define
 fgTabBackgroundMiddle
-fgTabTexture
+none
 %
 define
 hudButton
