@@ -1,9 +1,9 @@
 #
 ifndef
-jit_ExecutionModeInlines_h
+jit_ExecutionMode_inl_h
 #
 define
-jit_ExecutionModeInlines_h
+jit_ExecutionMode_inl_h
 #
 ifdef
 JS_ION
