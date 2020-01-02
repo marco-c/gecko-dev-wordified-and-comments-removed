@@ -145,6 +145,10 @@ targets
 python
 test_manifests
 mozinfo
+preprocessor
+jar
+-
+manifests
 mozbuild
 =
 =
