@@ -92,6 +92,10 @@ doevil
 %
 5D
 )
+/
+/
+'
+;
 actual
 +
 =
@@ -153,6 +157,10 @@ doevil
 %
 5D
 )
+/
+/
+'
+;
 actual
 =
 eval

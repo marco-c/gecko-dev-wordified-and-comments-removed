@@ -2169,6 +2169,17 @@ documentURI
 '
 chrome
 :
+/
+/
+global
+/
+content
+/
+commonDialog
+.
+xul
+'
+)
 {
 subject
 .

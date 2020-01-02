@@ -7,6 +7,10 @@ var
 summary
 =
 '
+/
+*
+*
+/
 comments
 with
 newlines
