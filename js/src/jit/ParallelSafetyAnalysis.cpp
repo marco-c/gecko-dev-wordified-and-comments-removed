@@ -1282,10 +1282,6 @@ RegExpTest
 )
 UNSAFE_OP
 (
-RegExpExec
-)
-UNSAFE_OP
-(
 CallInstanceOf
 )
 UNSAFE_OP
