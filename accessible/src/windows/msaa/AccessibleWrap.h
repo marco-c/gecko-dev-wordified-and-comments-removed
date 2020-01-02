@@ -513,8 +513,11 @@ aAccessible
 )
 ;
 void
-UpdateSystemCaret
+UpdateSystemCaretFor
 (
+Accessible
+*
+aAccessible
 )
 ;
 Accessible

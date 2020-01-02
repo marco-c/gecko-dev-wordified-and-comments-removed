@@ -560,6 +560,15 @@ CaretLineNumber
 (
 )
 ;
+nsIntRect
+GetCaretRect
+(
+nsIWidget
+*
+*
+aWidget
+)
+;
 virtual
 already_AddRefed
 <
