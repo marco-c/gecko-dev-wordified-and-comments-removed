@@ -927,7 +927,11 @@ endif
 #
 include
 "
-nsIDOMCustomEvent
+mozilla
+/
+dom
+/
+CustomEvent
 .
 h
 "

@@ -106,9 +106,6 @@ constructor
 simple_events
 =
 [
-'
-CustomEvent
-'
 ]
 "
 "

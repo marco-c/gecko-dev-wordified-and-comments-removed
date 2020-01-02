@@ -243,6 +243,11 @@ CompositionEvent
 h
 '
 '
+CustomEvent
+.
+h
+'
+'
 DataContainerEvent
 .
 h
@@ -619,6 +624,11 @@ SOURCES
 +
 =
 [
+'
+CustomEvent
+.
+cpp
+'
 '
 EventStateManager
 .
