@@ -5248,7 +5248,7 @@ None
 ;
 }
 void
-infer
+cacheOperandMightEmulateUndefined
 (
 )
 ;
@@ -12475,7 +12475,7 @@ useValueNumbers
 )
 ;
 void
-infer
+cacheInputMaybeCallableOrEmulatesUndefined
 (
 )
 ;
@@ -22488,7 +22488,7 @@ Not
 )
 ;
 void
-infer
+cacheOperandMightEmulateUndefined
 (
 )
 ;

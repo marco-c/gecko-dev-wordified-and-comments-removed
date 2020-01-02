@@ -9773,7 +9773,7 @@ either
 resultInverted
 -
 >
-infer
+cacheOperandMightEmulateUndefined
 (
 )
 ;
@@ -9803,7 +9803,7 @@ resultInverted
 result
 -
 >
-infer
+cacheOperandMightEmulateUndefined
 (
 )
 ;
