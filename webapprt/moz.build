@@ -192,6 +192,11 @@ DirectoryProvider
 js
 '
 '
+PaymentUIGlue
+.
+js
+'
+'
 components
 .
 manifest
