@@ -11071,10 +11071,8 @@ getBoolPref
 '
 devtools
 .
-debugger
+chrome
 .
-addon
--
 enabled
 '
 )

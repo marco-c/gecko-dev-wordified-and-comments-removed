@@ -291,10 +291,8 @@ PREF_ADDON_DEBUGGING_ENABLED
 "
 devtools
 .
-debugger
+chrome
 .
-addon
--
 enabled
 "
 ;

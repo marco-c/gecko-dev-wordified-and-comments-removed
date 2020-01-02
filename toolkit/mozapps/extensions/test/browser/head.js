@@ -593,10 +593,8 @@ name
 "
 devtools
 .
-debugger
+chrome
 .
-addon
--
 enabled
 "
 }

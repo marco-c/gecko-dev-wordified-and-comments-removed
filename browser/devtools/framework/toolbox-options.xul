@@ -1202,7 +1202,7 @@ options
 .
 enableChrome
 .
-label3
+label4
 ;
 "
 tooltiptext
@@ -1213,7 +1213,7 @@ options
 .
 enableChrome
 .
-tooltip
+tooltip2
 ;
 "
 data

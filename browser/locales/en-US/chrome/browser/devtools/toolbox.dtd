@@ -694,7 +694,7 @@ options
 .
 enableChrome
 .
-label3
+label4
 )
 :
 This
@@ -740,10 +740,12 @@ options
 .
 enableChrome
 .
-label3
+label4
 "
 Enable
 chrome
+and
+addon
 debugging
 "
 >
@@ -754,7 +756,7 @@ options
 .
 enableChrome
 .
-tooltip
+tooltip2
 "
 Turning
 this
@@ -771,6 +773,15 @@ tools
 in
 browser
 context
+and
+debug
+addons
+from
+the
+Add
+-
+On
+Manager
 "
 >
 <
