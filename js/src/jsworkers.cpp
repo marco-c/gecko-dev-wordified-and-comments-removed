@@ -1439,7 +1439,7 @@ cx
 global
 (
 )
-JSProto_GeneratorFunction
+JSProto_Iterator
 &
 obj
 )
@@ -1497,7 +1497,7 @@ js_GetClassObject
 (
 cx
 global
-JSProto_GeneratorFunction
+JSProto_Iterator
 &
 obj
 )
