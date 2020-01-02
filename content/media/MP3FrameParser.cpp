@@ -1316,9 +1316,7 @@ const
 uint32_t
 MAX_SKIPPED_BYTES
 =
-200
-*
-1024
+4096
 ;
 static
 const
