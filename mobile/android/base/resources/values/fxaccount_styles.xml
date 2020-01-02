@@ -928,13 +928,9 @@ FxAccountLinkifiedItem
 parent
 =
 "
-android
-:
 style
 /
-TextAppearance
-.
-Small
+FxAccountTextItem
 "
 >
 <
