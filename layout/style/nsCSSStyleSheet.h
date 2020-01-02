@@ -943,7 +943,7 @@ EnsureUniqueInner
 (
 )
 ;
-bool
+void
 AppendAllChildSheets
 (
 nsTArray

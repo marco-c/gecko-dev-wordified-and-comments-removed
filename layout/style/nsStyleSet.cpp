@@ -10114,9 +10114,6 @@ res
 sheetRes
 ;
 }
-if
-(
-!
 sheet
 -
 >
@@ -10124,15 +10121,7 @@ AppendAllChildSheets
 (
 queue
 )
-)
-{
-return
-nsCSSStyleSheet
-:
-:
-eUniqueInner_CloneFailed
 ;
-}
 }
 return
 res
