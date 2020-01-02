@@ -6413,7 +6413,7 @@ backedge
 =
 masm
 .
-jumpWithPatch
+backedgeJump
 (
 &
 rejoin

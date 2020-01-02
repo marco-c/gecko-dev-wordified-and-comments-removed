@@ -4645,6 +4645,14 @@ data
 )
 ;
 CodeOffsetJump
+backedgeJump
+(
+RepatchLabel
+*
+label
+)
+;
+CodeOffsetJump
 jumpWithPatch
 (
 RepatchLabel
