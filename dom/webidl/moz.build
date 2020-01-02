@@ -490,6 +490,11 @@ DOMImplementation
 webidl
 '
 '
+DOMMobileMessageError
+.
+webidl
+'
+'
 DOMParser
 .
 webidl
@@ -666,11 +671,6 @@ webidl
 '
 '
 History
-.
-webidl
-'
-'
-HTMLAllCollection
 .
 webidl
 '
@@ -1170,11 +1170,6 @@ LegacyQueryInterface
 webidl
 '
 '
-LinkImport
-.
-webidl
-'
-'
 LinkStyle
 .
 webidl
@@ -1631,11 +1626,6 @@ webidl
 '
 '
 StyleSheetList
-.
-webidl
-'
-'
-SubtleCrypto
 .
 webidl
 '
