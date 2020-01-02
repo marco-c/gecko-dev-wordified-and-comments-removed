@@ -173,6 +173,10 @@ AssertIsOnMainThread
 (
 )
 ;
+Close
+(
+)
+;
 MOZ_ASSERT
 (
 !
