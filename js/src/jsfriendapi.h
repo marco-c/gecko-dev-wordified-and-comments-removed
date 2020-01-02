@@ -6775,7 +6775,7 @@ callback
 JSTracer
 *
 trc
-void
+JSObject
 *
 key
 void
@@ -6809,7 +6809,7 @@ callback
 JSTracer
 *
 trc
-void
+JSString
 *
 key
 void
@@ -6842,7 +6842,7 @@ callback
 JSTracer
 *
 trc
-void
+JSObject
 *
 key
 void
@@ -6874,7 +6874,7 @@ callback
 JSTracer
 *
 trc
-void
+JSString
 *
 key
 void

@@ -295,7 +295,7 @@ keyMarkCallback
 JSTracer
 *
 trc
-void
+JSObject
 *
 key
 void
