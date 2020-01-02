@@ -31490,6 +31490,9 @@ break
 case
 PNK_IMPORT
 :
+case
+PNK_EXPORT
+:
 bce
 -
 >
