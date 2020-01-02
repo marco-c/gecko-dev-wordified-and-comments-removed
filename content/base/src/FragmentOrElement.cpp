@@ -2009,7 +2009,7 @@ return
 1
 ;
 }
-NS_IMPL_CYCLE_COLLECTION_1
+NS_IMPL_CYCLE_COLLECTION
 (
 nsNode3Tearoff
 mNode
@@ -2206,7 +2206,7 @@ aInstancePtr
 NS_ERROR_NULL_POINTER
 ;
 }
-NS_IMPL_CYCLE_COLLECTION_1
+NS_IMPL_CYCLE_COLLECTION
 (
 nsNodeSupportsWeakRefTearoff
 mNode

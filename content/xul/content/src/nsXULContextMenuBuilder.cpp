@@ -91,7 +91,7 @@ nsXULContextMenuBuilder
 )
 {
 }
-NS_IMPL_CYCLE_COLLECTION_4
+NS_IMPL_CYCLE_COLLECTION
 (
 nsXULContextMenuBuilder
 mFragment

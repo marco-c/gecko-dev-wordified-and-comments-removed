@@ -299,7 +299,7 @@ eAutoCompletePopup
 ;
 }
 }
-NS_IMPL_CYCLE_COLLECTION_INHERITED_2
+NS_IMPL_CYCLE_COLLECTION_INHERITED
 (
 XULTreeAccessible
 Accessible
@@ -2872,7 +2872,7 @@ mStateFlags
 eSharedNode
 ;
 }
-NS_IMPL_CYCLE_COLLECTION_INHERITED_1
+NS_IMPL_CYCLE_COLLECTION_INHERITED
 (
 XULTreeItemAccessibleBase
 Accessible
@@ -4479,7 +4479,7 @@ mCachedName
 )
 ;
 }
-NS_IMPL_CYCLE_COLLECTION_INHERITED_1
+NS_IMPL_CYCLE_COLLECTION_INHERITED
 (
 XULTreeItemAccessible
 XULTreeItemAccessibleBase

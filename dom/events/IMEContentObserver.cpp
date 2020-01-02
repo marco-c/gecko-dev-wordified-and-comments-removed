@@ -192,7 +192,7 @@ using
 namespace
 widget
 ;
-NS_IMPL_CYCLE_COLLECTION_5
+NS_IMPL_CYCLE_COLLECTION
 (
 IMEContentObserver
 mWidget

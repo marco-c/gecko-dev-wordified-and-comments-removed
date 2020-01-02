@@ -1347,7 +1347,7 @@ OverOutElementsWrapper
 )
 {
 }
-NS_IMPL_CYCLE_COLLECTION_3
+NS_IMPL_CYCLE_COLLECTION
 (
 OverOutElementsWrapper
 mLastOverElement
@@ -2001,7 +2001,7 @@ NS_IMPL_CYCLE_COLLECTING_RELEASE
 (
 EventStateManager
 )
-NS_IMPL_CYCLE_COLLECTION_17
+NS_IMPL_CYCLE_COLLECTION
 (
 EventStateManager
 mCurrentTargetContent

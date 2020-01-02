@@ -1073,7 +1073,7 @@ mGenericTypes
 eTableRow
 ;
 }
-NS_IMPL_CYCLE_COLLECTION_INHERITED_1
+NS_IMPL_CYCLE_COLLECTION_INHERITED
 (
 XULTreeGridRowAccessible
 XULTreeItemAccessibleBase
@@ -1831,7 +1831,7 @@ mCachedTextEquiv
 )
 ;
 }
-NS_IMPL_CYCLE_COLLECTION_INHERITED_2
+NS_IMPL_CYCLE_COLLECTION_INHERITED
 (
 XULTreeGridCellAccessible
 LeafAccessible

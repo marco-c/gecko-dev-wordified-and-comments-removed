@@ -696,7 +696,7 @@ mOnError
 ;
 }
 ;
-NS_IMPL_CYCLE_COLLECTION_3
+NS_IMPL_CYCLE_COLLECTION
 (
 CameraPermissionRequest
 mWindow

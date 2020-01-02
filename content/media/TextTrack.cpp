@@ -92,7 +92,7 @@ mozilla
 namespace
 dom
 {
-NS_IMPL_CYCLE_COLLECTION_INHERITED_4
+NS_IMPL_CYCLE_COLLECTION_INHERITED
 (
 TextTrack
 DOMEventTargetHelper

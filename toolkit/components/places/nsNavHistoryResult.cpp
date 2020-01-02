@@ -305,7 +305,7 @@ mozilla
 :
 places
 ;
-NS_IMPL_CYCLE_COLLECTION_1
+NS_IMPL_CYCLE_COLLECTION
 (
 nsNavHistoryResultNode
 mParent
@@ -1298,7 +1298,7 @@ return
 nullptr
 ;
 }
-NS_IMPL_CYCLE_COLLECTION_INHERITED_2
+NS_IMPL_CYCLE_COLLECTION_INHERITED
 (
 nsNavHistoryContainerResultNode
 nsNavHistoryResultNode

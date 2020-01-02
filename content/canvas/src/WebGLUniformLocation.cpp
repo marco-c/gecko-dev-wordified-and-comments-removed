@@ -121,7 +121,7 @@ ElementSize
 )
 ;
 }
-NS_IMPL_CYCLE_COLLECTION_1
+NS_IMPL_CYCLE_COLLECTION
 (
 WebGLUniformLocation
 mProgram

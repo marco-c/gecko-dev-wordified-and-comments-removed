@@ -431,7 +431,7 @@ return
 NS_OK
 ;
 }
-NS_IMPL_CYCLE_COLLECTION_4
+NS_IMPL_CYCLE_COLLECTION
 (
 nsTreeContentView
 mBoxObject

@@ -160,7 +160,7 @@ HTMLContentElement
 )
 {
 }
-NS_IMPL_CYCLE_COLLECTION_INHERITED_1
+NS_IMPL_CYCLE_COLLECTION_INHERITED
 (
 HTMLContentElement
 nsGenericHTMLElement
@@ -956,7 +956,7 @@ forget
 )
 ;
 }
-NS_IMPL_CYCLE_COLLECTION_2
+NS_IMPL_CYCLE_COLLECTION
 (
 DistributedContentList
 mParent
