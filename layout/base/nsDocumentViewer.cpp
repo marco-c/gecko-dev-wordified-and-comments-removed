@@ -3471,6 +3471,13 @@ ScrollToAnchor
 (
 )
 ;
+mPresShell
+-
+>
+LoadComplete
+(
+)
+;
 }
 }
 nsJSContext

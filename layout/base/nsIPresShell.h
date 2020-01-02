@@ -1046,6 +1046,17 @@ IsLayoutFlushObserver
 virtual
 NS_HIDDEN_
 (
+void
+)
+LoadComplete
+(
+)
+=
+0
+;
+virtual
+NS_HIDDEN_
+(
 nsIFrame
 *
 )

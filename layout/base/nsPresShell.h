@@ -1571,6 +1571,13 @@ this
 )
 ;
 }
+virtual
+void
+LoadComplete
+(
+)
+MOZ_OVERRIDE
+;
 void
 AddSizeOfIncludingThis
 (
