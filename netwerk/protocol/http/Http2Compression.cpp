@@ -420,6 +420,13 @@ accept
 encoding
 "
 )
+NS_LITERAL_CSTRING
+(
+"
+gzip
+deflate
+"
+)
 )
 ;
 AddStaticElement
