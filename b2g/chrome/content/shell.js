@@ -1404,9 +1404,9 @@ prefs
 getCharPref
 (
 '
-browser
+b2g
 .
-homescreenURL
+system_startup_url
 '
 )
 ;
@@ -1424,9 +1424,9 @@ prefs
 getCharPref
 (
 '
-browser
+b2g
 .
-manifestURL
+system_manifest_url
 '
 )
 ;

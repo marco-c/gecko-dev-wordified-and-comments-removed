@@ -3343,9 +3343,9 @@ False
 prefs
 [
 "
-browser
+b2g
 .
-homescreenURL
+system_startup_url
 "
 ]
 =
@@ -3370,9 +3370,9 @@ html
 prefs
 [
 "
-browser
+b2g
 .
-manifestURL
+system_manifest_url
 "
 ]
 =
