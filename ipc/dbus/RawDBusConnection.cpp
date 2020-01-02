@@ -89,14 +89,6 @@ args
 ;
 #
 endif
-#
-define
-BLUEZ_DBUS_BASE_IFC
-"
-org
-.
-bluez
-"
 namespace
 mozilla
 {
@@ -1244,6 +1236,10 @@ aTimeout
 const
 char
 *
+aDestination
+const
+char
+*
 aPath
 const
 char
@@ -1283,6 +1279,7 @@ msg
 =
 BuildDBusMessage
 (
+aDestination
 aPath
 aIntf
 aFunc
@@ -1325,6 +1322,10 @@ BuildDBusMessage
 const
 char
 *
+aDestination
+const
+char
+*
 aPath
 const
 char
@@ -1346,7 +1347,7 @@ msg
 =
 dbus_message_new_method_call
 (
-BLUEZ_DBUS_BASE_IFC
+aDestination
 aPath
 aIntf
 aFunc

@@ -5091,6 +5091,7 @@ get
 (
 )
 1000
+BLUEZ_DBUS_BASE_IFC
 NS_ConvertUTF16toUTF8
 (
 devicePath
@@ -6507,6 +6508,7 @@ get
 )
 -
 1
+BLUEZ_DBUS_BASE_IFC
 NS_ConvertUTF16toUTF8
 (
 sAdapterPath
@@ -6649,6 +6651,7 @@ get
 )
 -
 1
+BLUEZ_DBUS_BASE_IFC
 NS_ConvertUTF16toUTF8
 (
 sAdapterPath
@@ -8621,6 +8624,7 @@ SendWithReply
 OnDefaultAdapterReply
 nullptr
 1000
+BLUEZ_DBUS_BASE_IFC
 "
 /
 "
@@ -9769,6 +9773,7 @@ get
 (
 )
 1000
+BLUEZ_DBUS_BASE_IFC
 NS_ConvertUTF16toUTF8
 (
 mAdapterPath
@@ -9998,6 +10003,7 @@ get
 (
 )
 1000
+BLUEZ_DBUS_BASE_IFC
 "
 /
 "
@@ -10277,6 +10283,7 @@ get
 )
 -
 1
+BLUEZ_DBUS_BASE_IFC
 NS_ConvertUTF16toUTF8
 (
 sAdapterPath
@@ -10628,6 +10635,7 @@ mServiceClass
 )
 -
 1
+BLUEZ_DBUS_BASE_IFC
 mObjectPath
 .
 get
@@ -11454,6 +11462,7 @@ get
 (
 )
 1000
+BLUEZ_DBUS_BASE_IFC
 NS_ConvertUTF16toUTF8
 (
 mObjectPath
@@ -11940,11 +11949,7 @@ msg
 =
 dbus_message_new_method_call
 (
-"
-org
-.
-bluez
-"
+BLUEZ_DBUS_BASE_IFC
 NS_ConvertUTF16toUTF8
 (
 sAdapterPath
@@ -12701,6 +12706,7 @@ void
 mRunnable
 )
 mTimeout
+BLUEZ_DBUS_BASE_IFC
 NS_ConvertUTF16toUTF8
 (
 sAdapterPath
@@ -12921,6 +12927,7 @@ get
 )
 -
 1
+BLUEZ_DBUS_BASE_IFC
 NS_ConvertUTF16toUTF8
 (
 sAdapterPath
@@ -15058,6 +15065,7 @@ Callback
 handler
 -
 1
+BLUEZ_DBUS_BASE_IFC
 NS_ConvertUTF16toUTF8
 (
 objectPath
@@ -15315,6 +15323,7 @@ void
 callbackRunnable
 -
 1
+BLUEZ_DBUS_BASE_IFC
 NS_ConvertUTF16toUTF8
 (
 objectPath
@@ -16289,6 +16298,7 @@ get
 )
 -
 1
+BLUEZ_DBUS_BASE_IFC
 objectPath
 .
 get
@@ -16907,6 +16917,7 @@ get
 )
 -
 1
+BLUEZ_DBUS_BASE_IFC
 objectPath
 .
 get
@@ -17437,6 +17448,7 @@ ControlCallback
 nullptr
 -
 1
+BLUEZ_DBUS_BASE_IFC
 objectPath
 .
 get
@@ -17694,6 +17706,7 @@ ControlCallback
 nullptr
 -
 1
+BLUEZ_DBUS_BASE_IFC
 objectPath
 .
 get
