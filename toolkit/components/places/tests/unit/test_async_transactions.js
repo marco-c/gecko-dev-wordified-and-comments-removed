@@ -2793,11 +2793,6 @@ newParentGUID
 folder_a_info
 .
 GUID
-newIndex
-:
-bmsvc
-.
-DEFAULT_INDEX
 }
 )
 ;

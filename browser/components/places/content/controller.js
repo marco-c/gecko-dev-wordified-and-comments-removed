@@ -472,11 +472,6 @@ placesCmd_delete
 :
 case
 "
-placesCmd_moveBookmarks
-"
-:
-case
-"
 cmd_paste
 "
 :
