@@ -3388,7 +3388,8 @@ const
 =
 0
 ;
-NS_IMETHOD
+virtual
+void
 SetPrevContinuation
 (
 nsIFrame
@@ -3407,7 +3408,8 @@ const
 =
 0
 ;
-NS_IMETHOD
+virtual
+void
 SetNextContinuation
 (
 nsIFrame
@@ -3483,7 +3485,8 @@ GetPrevInFlowVirtual
 )
 ;
 }
-NS_IMETHOD
+virtual
+void
 SetPrevInFlow
 (
 nsIFrame
@@ -3515,7 +3518,8 @@ GetNextInFlowVirtual
 )
 ;
 }
-NS_IMETHOD
+virtual
+void
 SetNextInFlow
 (
 nsIFrame

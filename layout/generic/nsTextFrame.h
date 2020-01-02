@@ -236,7 +236,8 @@ return
 mNextContinuation
 ;
 }
-NS_IMETHOD
+virtual
+void
 SetNextContinuation
 (
 nsIFrame
@@ -312,9 +313,6 @@ RemoveStateBits
 NS_FRAME_IS_FLUID_CONTINUATION
 )
 ;
-return
-NS_OK
-;
 }
 virtual
 nsIFrame
@@ -358,7 +356,8 @@ mNextContinuation
 nullptr
 ;
 }
-NS_IMETHOD
+virtual
+void
 SetNextInFlow
 (
 nsIFrame
@@ -434,9 +433,6 @@ AddStateBits
 (
 NS_FRAME_IS_FLUID_CONTINUATION
 )
-;
-return
-NS_OK
 ;
 }
 virtual

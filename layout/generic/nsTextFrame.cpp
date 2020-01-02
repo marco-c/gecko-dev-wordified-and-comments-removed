@@ -19458,7 +19458,8 @@ return
 mPrevContinuation
 ;
 }
-NS_IMETHOD
+virtual
+void
 SetPrevContinuation
 (
 nsIFrame
@@ -19526,9 +19527,6 @@ RemoveStateBits
 NS_FRAME_IS_FLUID_CONTINUATION
 )
 ;
-return
-NS_OK
-;
 }
 virtual
 nsIFrame
@@ -19565,13 +19563,15 @@ mPrevContinuation
 nullptr
 ;
 }
-NS_IMETHOD
+virtual
+void
 SetPrevInFlow
 (
 nsIFrame
 *
 aPrevInFlow
 )
+MOZ_OVERRIDE
 {
 NS_ASSERTION
 (
@@ -19633,9 +19633,6 @@ AddStateBits
 (
 NS_FRAME_IS_FLUID_CONTINUATION
 )
-;
-return
-NS_OK
 ;
 }
 virtual

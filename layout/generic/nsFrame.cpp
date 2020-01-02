@@ -19516,7 +19516,7 @@ return
 nullptr
 ;
 }
-NS_IMETHODIMP
+void
 nsFrame
 :
 :
@@ -19540,13 +19540,7 @@ splittable
 "
 )
 ;
-return
-NS_ERROR_NOT_IMPLEMENTED
-;
 }
-return
-NS_OK
-;
 }
 nsIFrame
 *
@@ -19562,7 +19556,7 @@ return
 nullptr
 ;
 }
-NS_IMETHODIMP
+void
 nsFrame
 :
 :
@@ -19580,9 +19574,6 @@ splittable
 "
 )
 ;
-return
-NS_ERROR_NOT_IMPLEMENTED
-;
 }
 nsIFrame
 *
@@ -19598,7 +19589,7 @@ return
 nullptr
 ;
 }
-NS_IMETHODIMP
+void
 nsFrame
 :
 :
@@ -19622,13 +19613,7 @@ splittable
 "
 )
 ;
-return
-NS_ERROR_NOT_IMPLEMENTED
-;
 }
-return
-NS_OK
-;
 }
 nsIFrame
 *
@@ -19644,7 +19629,7 @@ return
 nullptr
 ;
 }
-NS_IMETHODIMP
+void
 nsFrame
 :
 :
@@ -19661,9 +19646,6 @@ not
 splittable
 "
 )
-;
-return
-NS_ERROR_NOT_IMPLEMENTED
 ;
 }
 nsIFrame

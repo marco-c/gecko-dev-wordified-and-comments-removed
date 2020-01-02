@@ -732,7 +732,8 @@ GetPrevContinuation
 const
 MOZ_OVERRIDE
 ;
-NS_IMETHOD
+virtual
+void
 SetPrevContinuation
 (
 nsIFrame
@@ -749,7 +750,8 @@ GetNextContinuation
 const
 MOZ_OVERRIDE
 ;
-NS_IMETHOD
+virtual
+void
 SetNextContinuation
 (
 nsIFrame
@@ -766,7 +768,8 @@ GetPrevInFlowVirtual
 const
 MOZ_OVERRIDE
 ;
-NS_IMETHOD
+virtual
+void
 SetPrevInFlow
 (
 nsIFrame
@@ -783,7 +786,8 @@ GetNextInFlowVirtual
 const
 MOZ_OVERRIDE
 ;
-NS_IMETHOD
+virtual
+void
 SetNextInFlow
 (
 nsIFrame

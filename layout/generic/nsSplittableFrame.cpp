@@ -124,7 +124,7 @@ return
 mPrevContinuation
 ;
 }
-NS_METHOD
+void
 nsSplittableFrame
 :
 :
@@ -192,9 +192,6 @@ RemoveStateBits
 NS_FRAME_IS_FLUID_CONTINUATION
 )
 ;
-return
-NS_OK
-;
 }
 nsIFrame
 *
@@ -210,7 +207,7 @@ return
 mNextContinuation
 ;
 }
-NS_METHOD
+void
 nsSplittableFrame
 :
 :
@@ -284,9 +281,6 @@ RemoveStateBits
 (
 NS_FRAME_IS_FLUID_CONTINUATION
 )
-;
-return
-NS_OK
 ;
 }
 nsIFrame
@@ -554,7 +548,7 @@ mPrevContinuation
 nullptr
 ;
 }
-NS_METHOD
+void
 nsSplittableFrame
 :
 :
@@ -623,9 +617,6 @@ AddStateBits
 NS_FRAME_IS_FLUID_CONTINUATION
 )
 ;
-return
-NS_OK
-;
 }
 nsIFrame
 *
@@ -657,7 +648,7 @@ mNextContinuation
 nullptr
 ;
 }
-NS_METHOD
+void
 nsSplittableFrame
 :
 :
@@ -732,9 +723,6 @@ AddStateBits
 (
 NS_FRAME_IS_FLUID_CONTINUATION
 )
-;
-return
-NS_OK
 ;
 }
 nsIFrame
