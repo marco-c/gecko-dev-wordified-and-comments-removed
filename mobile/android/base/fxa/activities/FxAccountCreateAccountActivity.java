@@ -196,9 +196,7 @@ gecko
 .
 fxa
 .
-activities
-.
-FxAccountSetupTask
+tasks
 .
 FxAccountCreateAccountTask
 ;
