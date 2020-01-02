@@ -140,6 +140,13 @@ InstructionMap
 ;
 protected
 :
+TempAllocator
+&
+alloc
+(
+)
+const
+;
 uint32_t
 lookupValue
 (
