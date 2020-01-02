@@ -173,6 +173,11 @@ nsILoadContext
 idl
 '
 '
+nsILoadInfo
+.
+idl
+'
+'
 nsIMarkupDocumentViewer
 .
 idl
