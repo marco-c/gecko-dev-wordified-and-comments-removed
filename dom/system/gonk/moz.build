@@ -289,11 +289,6 @@ MozMtpServer
 cpp
 '
 '
-MozMtpStorage
-.
-cpp
-'
-'
 NetworkUtils
 .
 cpp

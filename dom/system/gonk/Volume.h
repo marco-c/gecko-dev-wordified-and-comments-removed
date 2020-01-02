@@ -158,16 +158,6 @@ return
 mMountPoint
 ;
 }
-uint32_t
-Id
-(
-)
-const
-{
-return
-mId
-;
-}
 int32_t
 MountGeneration
 (
@@ -548,9 +538,6 @@ mIsSharing
 ;
 bool
 mIsFormatting
-;
-uint32_t
-mId
 ;
 static
 EventObserverList
