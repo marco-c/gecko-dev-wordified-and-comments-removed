@@ -1825,6 +1825,12 @@ void
 *
 compartmentStats
 ;
+bool
+scheduledForDestruction
+;
+bool
+maybeAlive
+;
 private
 :
 js

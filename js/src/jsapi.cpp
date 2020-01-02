@@ -4890,12 +4890,6 @@ cx
 )
 ;
 {
-AutoMaybeTouchDeadZones
-agc
-(
-cx
-)
-;
 AutoDisableProxyCheck
 adpc
 (

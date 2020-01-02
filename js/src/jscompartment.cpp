@@ -332,6 +332,14 @@ jitCompartment_
 (
 nullptr
 )
+scheduledForDestruction
+(
+false
+)
+maybeAlive
+(
+true
+)
 {
 runtime_
 -
