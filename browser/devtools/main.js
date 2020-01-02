@@ -1240,7 +1240,10 @@ target
 )
 {
 return
-true
+!
+target
+.
+isAddon
 ;
 }
 build
@@ -2663,6 +2666,12 @@ target
 )
 {
 return
+!
+target
+.
+isAddon
+&
+&
 target
 .
 isRemote

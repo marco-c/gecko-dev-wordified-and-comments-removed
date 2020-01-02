@@ -324,16 +324,6 @@ print
 innerID
 :
 innerID
-consoleID
-:
-"
-addon
-/
-"
-+
-self
-.
-id
 }
 ;
 let
