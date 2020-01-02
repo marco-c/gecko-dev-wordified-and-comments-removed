@@ -311,6 +311,13 @@ CONFIG
 MOZ_OMX_DECODER
 '
 ]
+or
+CONFIG
+[
+'
+MOZ_WEBRTC
+'
+]
 :
 if
 CONFIG

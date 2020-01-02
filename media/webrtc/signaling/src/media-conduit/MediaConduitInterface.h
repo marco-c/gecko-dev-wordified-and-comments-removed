@@ -416,11 +416,6 @@ VideoEncoder
 {
 }
 ;
-NS_INLINE_DECL_THREADSAFE_REFCOUNTING
-(
-VideoEncoder
-)
-;
 }
 ;
 class
@@ -435,11 +430,6 @@ VideoDecoder
 )
 {
 }
-;
-NS_INLINE_DECL_THREADSAFE_REFCOUNTING
-(
-VideoDecoder
-)
 ;
 }
 ;
