@@ -262,7 +262,6 @@ nsIGlobalObject
 {
 public
 :
-explicit
 TabChildGlobal
 (
 TabChildBase
@@ -644,7 +643,6 @@ nsIDOMEventListener
 {
 public
 :
-explicit
 ContentListener
 (
 TabChild
@@ -2302,6 +2300,12 @@ PIndexedDBChild
 aActor
 )
 MOZ_OVERRIDE
+;
+virtual
+bool
+RecvRequestNotifyAfterRemotePaint
+(
+)
 ;
 private
 :
