@@ -712,6 +712,13 @@ SupportsSimd
 =
 true
 ;
+static
+const
+uint32_t
+SimdStackAlignment
+=
+16
+;
 struct
 ImmTag
 :
