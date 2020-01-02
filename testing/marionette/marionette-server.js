@@ -5947,6 +5947,8 @@ this
 command_id
 )
 ;
+return
+;
 }
 }
 }
