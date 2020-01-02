@@ -713,6 +713,7 @@ Transaction
 struct
 AutoTxnEnd
 {
+explicit
 AutoTxnEnd
 (
 Transaction

@@ -473,6 +473,7 @@ LayerPropertiesBase
 public
 LayerProperties
 {
+explicit
 LayerPropertiesBase
 (
 Layer
@@ -1007,6 +1008,7 @@ ContainerLayerProperties
 public
 LayerPropertiesBase
 {
+explicit
 ContainerLayerProperties
 (
 ContainerLayer
@@ -1491,6 +1493,7 @@ ColorLayerProperties
 public
 LayerPropertiesBase
 {
+explicit
 ColorLayerProperties
 (
 ColorLayer
@@ -1581,6 +1584,7 @@ ImageLayerProperties
 public
 LayerPropertiesBase
 {
+explicit
 ImageLayerProperties
 (
 ImageLayer

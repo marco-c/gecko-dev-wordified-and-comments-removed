@@ -327,6 +327,7 @@ CompositorTexturePoolOGL
 {
 public
 :
+explicit
 PerUnitTexturePoolOGL
 (
 gl
@@ -424,6 +425,7 @@ CompositorTexturePoolOGL
 {
 public
 :
+explicit
 PerFrameTexturePoolOGL
 (
 gl
@@ -552,6 +554,7 @@ mPrograms
 ;
 public
 :
+explicit
 CompositorOGL
 (
 nsIWidget
@@ -957,6 +960,9 @@ OGL
 }
 #
 endif
+/
+/
+MOZ_DUMP_PAINTING
 virtual
 LayersBackend
 GetBackendType

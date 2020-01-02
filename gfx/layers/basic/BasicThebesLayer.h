@@ -136,6 +136,7 @@ RotatedContentBuffer
 ContentType
 ContentType
 ;
+explicit
 BasicThebesLayer
 (
 BasicLayerManager

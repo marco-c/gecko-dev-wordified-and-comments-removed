@@ -137,6 +137,7 @@ ClientLayer
 {
 public
 :
+explicit
 ClientImageLayer
 (
 ClientLayerManager

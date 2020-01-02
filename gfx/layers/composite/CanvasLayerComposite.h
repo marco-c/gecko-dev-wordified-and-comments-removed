@@ -97,6 +97,7 @@ LayerComposite
 {
 public
 :
+explicit
 CanvasLayerComposite
 (
 LayerManagerComposite

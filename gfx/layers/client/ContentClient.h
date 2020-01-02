@@ -229,6 +229,7 @@ CompositableForwarder
 aFwd
 )
 ;
+explicit
 ContentClient
 (
 CompositableForwarder
@@ -359,6 +360,7 @@ ContentClient
 {
 public
 :
+explicit
 ContentClientRemote
 (
 CompositableForwarder
@@ -642,6 +644,7 @@ BufferRotation
 ;
 public
 :
+explicit
 ContentClientRemoteBuffer
 (
 CompositableForwarder
@@ -1058,6 +1061,7 @@ ContentClientRemoteBuffer
 {
 public
 :
+explicit
 ContentClientDoubleBuffered
 (
 CompositableForwarder
@@ -1242,6 +1246,7 @@ ContentClientRemoteBuffer
 {
 public
 :
+explicit
 ContentClientSingleBuffered
 (
 CompositableForwarder
@@ -1294,6 +1299,7 @@ BorrowDrawTarget
 {
 public
 :
+explicit
 ContentClientIncremental
 (
 CompositableForwarder

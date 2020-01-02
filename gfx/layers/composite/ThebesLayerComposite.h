@@ -110,6 +110,7 @@ LayerComposite
 {
 public
 :
+explicit
 ThebesLayerComposite
 (
 LayerManagerComposite

@@ -285,6 +285,7 @@ NS_INLINE_DECL_REFCOUNTING
 (
 CompositableHost
 )
+explicit
 CompositableHost
 (
 const
@@ -1060,6 +1061,7 @@ MOZ_FINAL
 {
 public
 :
+explicit
 AutoLockCompositableHost
 (
 CompositableHost

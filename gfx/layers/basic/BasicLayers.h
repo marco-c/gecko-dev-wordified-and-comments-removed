@@ -149,12 +149,14 @@ BLM_OFFSCREEN
 BLM_INACTIVE
 }
 ;
+explicit
 BasicLayerManager
 (
 BasicLayerManagerType
 aType
 )
 ;
+explicit
 BasicLayerManager
 (
 nsIWidget

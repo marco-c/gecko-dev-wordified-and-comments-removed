@@ -751,6 +751,7 @@ BigImageIterator
 {
 public
 :
+explicit
 TextureImageTextureSourceOGL
 (
 gl

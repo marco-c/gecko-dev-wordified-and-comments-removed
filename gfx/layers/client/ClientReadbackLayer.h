@@ -34,6 +34,7 @@ ClientLayer
 {
 public
 :
+explicit
 ClientReadbackLayer
 (
 ClientLayerManager

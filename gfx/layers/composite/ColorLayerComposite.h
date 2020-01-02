@@ -63,6 +63,7 @@ LayerComposite
 {
 public
 :
+explicit
 ColorLayerComposite
 (
 LayerManagerComposite

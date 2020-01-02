@@ -686,6 +686,7 @@ Task
 {
 public
 :
+explicit
 DeleteSharedBufferManagerParentTask
 (
 UniquePtr

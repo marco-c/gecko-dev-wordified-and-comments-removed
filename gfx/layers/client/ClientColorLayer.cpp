@@ -90,6 +90,7 @@ ClientLayer
 {
 public
 :
+explicit
 ClientColorLayer
 (
 ClientLayerManager

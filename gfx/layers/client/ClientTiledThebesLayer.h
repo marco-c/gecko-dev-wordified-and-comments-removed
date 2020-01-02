@@ -81,6 +81,7 @@ Base
 ;
 public
 :
+explicit
 ClientTiledThebesLayer
 (
 ClientLayerManager

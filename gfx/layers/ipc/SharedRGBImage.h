@@ -132,6 +132,7 @@ ISharedImage
 {
 public
 :
+explicit
 SharedRGBImage
 (
 ImageClient

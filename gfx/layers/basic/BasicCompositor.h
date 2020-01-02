@@ -176,6 +176,7 @@ Compositor
 {
 public
 :
+explicit
 BasicCompositor
 (
 nsIWidget

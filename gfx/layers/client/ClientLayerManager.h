@@ -212,6 +212,7 @@ LayerRefArray
 ;
 public
 :
+explicit
 ClientLayerManager
 (
 nsIWidget

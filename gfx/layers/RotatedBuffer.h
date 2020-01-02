@@ -549,6 +549,7 @@ SizedToVisibleBounds
 ContainsVisibleBounds
 }
 ;
+explicit
 RotatedContentBuffer
 (
 BufferSizePolicy

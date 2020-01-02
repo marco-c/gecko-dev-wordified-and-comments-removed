@@ -110,6 +110,7 @@ TextureImage
 ;
 public
 :
+explicit
 ImageLayerComposite
 (
 LayerManagerComposite

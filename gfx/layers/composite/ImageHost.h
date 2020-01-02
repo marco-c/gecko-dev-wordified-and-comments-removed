@@ -176,6 +176,7 @@ CompositableHost
 {
 public
 :
+explicit
 ImageHost
 (
 const

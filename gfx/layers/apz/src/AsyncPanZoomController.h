@@ -1661,6 +1661,7 @@ AsyncPanZoomAnimation
 )
 public
 :
+explicit
 AsyncPanZoomAnimation
 (
 const

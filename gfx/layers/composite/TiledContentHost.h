@@ -699,6 +699,7 @@ TiledLayerComposer
 {
 public
 :
+explicit
 TiledContentHost
 (
 const

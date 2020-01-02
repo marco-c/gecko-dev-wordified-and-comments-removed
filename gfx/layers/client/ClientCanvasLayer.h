@@ -144,6 +144,7 @@ CanvasClientType
 ;
 public
 :
+explicit
 ClientCanvasLayer
 (
 ClientLayerManager

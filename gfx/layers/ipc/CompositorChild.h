@@ -149,6 +149,7 @@ CompositorChild
 )
 public
 :
+explicit
 CompositorChild
 (
 ClientLayerManager

@@ -137,6 +137,7 @@ NS_INLINE_DECL_REFCOUNTING
 (
 Effect
 )
+explicit
 Effect
 (
 EffectTypes
@@ -372,6 +373,7 @@ EffectBlendMode
 public
 Effect
 {
+explicit
 EffectBlendMode
 (
 gfx
@@ -438,6 +440,7 @@ EffectRenderTarget
 public
 TexturedEffect
 {
+explicit
 EffectRenderTarget
 (
 CompositingRenderTarget
@@ -771,6 +774,7 @@ EffectSolidColor
 public
 Effect
 {
+explicit
 EffectSolidColor
 (
 const

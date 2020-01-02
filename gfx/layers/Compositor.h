@@ -213,6 +213,7 @@ NS_INLINE_DECL_REFCOUNTING
 (
 Compositor
 )
+explicit
 Compositor
 (
 PCompositorParent

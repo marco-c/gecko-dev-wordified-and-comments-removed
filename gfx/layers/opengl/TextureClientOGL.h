@@ -99,6 +99,7 @@ TextureClient
 {
 public
 :
+explicit
 SharedTextureClientOGL
 (
 TextureFlags
