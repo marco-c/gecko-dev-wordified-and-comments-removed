@@ -115,6 +115,9 @@ def
 .
 in
 (
+GLOBAL_DEPS
+)
+(
 call
 py_action
 preprocessor
