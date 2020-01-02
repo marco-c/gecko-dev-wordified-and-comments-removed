@@ -1549,15 +1549,6 @@ true
 /
 >
 <
-tooltip
-id
-=
-"
-remoteBrowserTooltip
-"
-/
->
-<
 !
 -
 -
@@ -2241,6 +2232,11 @@ noautohide
 =
 "
 true
+"
+flip
+=
+"
+none
 "
 consumeoutsideclicks
 =
