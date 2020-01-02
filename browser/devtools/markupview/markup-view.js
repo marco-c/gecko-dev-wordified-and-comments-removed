@@ -1563,9 +1563,6 @@ selection
 .
 nodeFront
 {
-scrollIntoView
-:
-true
 }
 )
 ;
