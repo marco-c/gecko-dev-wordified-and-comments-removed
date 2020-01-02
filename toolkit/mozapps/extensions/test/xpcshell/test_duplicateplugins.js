@@ -670,9 +670,7 @@ gmp
 -
 gmpopenh264
 .
-provider
-.
-enabled
+providerEnabled
 "
 false
 )
