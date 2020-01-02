@@ -4096,7 +4096,10 @@ nativeFont
 .
 mType
 =
-NATIVE_FONT_CAIRO_FONT_FACE
+NativeFontType
+:
+:
+CAIRO_FONT_FACE
 ;
 nativeFont
 .

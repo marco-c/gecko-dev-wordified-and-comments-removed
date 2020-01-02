@@ -3219,7 +3219,10 @@ nativeFont
 .
 mType
 =
-NATIVE_FONT_DWRITE_FONT_FACE
+NativeFontType
+:
+:
+DWRITE_FONT_FACE
 ;
 nativeFont
 .

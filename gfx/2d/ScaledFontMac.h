@@ -63,7 +63,10 @@ GetType
 const
 {
 return
-FONT_MAC
+FontType
+:
+:
+MAC
 ;
 }
 #

@@ -3882,7 +3882,10 @@ mozilla
 gfx
 :
 :
-FONT_HINTING_NORMAL
+FontHinting
+:
+:
+NORMAL
 ;
 }
 else
@@ -3895,7 +3898,10 @@ mozilla
 gfx
 :
 :
-FONT_HINTING_NONE
+FontHinting
+:
+:
+NONE
 ;
 }
 return

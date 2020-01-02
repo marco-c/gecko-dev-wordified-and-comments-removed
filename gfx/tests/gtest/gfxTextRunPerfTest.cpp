@@ -238,7 +238,10 @@ mozilla
 gfx
 :
 :
-FONT_STYLE_NORMAL
+FontStyle
+:
+:
+NORMAL
 400
 0
 16

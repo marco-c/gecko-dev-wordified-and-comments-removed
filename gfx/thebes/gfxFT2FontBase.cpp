@@ -892,7 +892,10 @@ mFontOptions
 .
 mStyle
 =
-FONT_STYLE_BOLD_ITALIC
+FontStyle
+:
+:
+BOLD_ITALIC
 ;
 }
 else
@@ -901,7 +904,10 @@ mFontOptions
 .
 mStyle
 =
-FONT_STYLE_ITALIC
+FontStyle
+:
+:
+ITALIC
 ;
 }
 }
@@ -922,7 +928,10 @@ mFontOptions
 .
 mStyle
 =
-FONT_STYLE_BOLD
+FontStyle
+:
+:
+BOLD
 ;
 }
 else
@@ -931,7 +940,10 @@ mFontOptions
 .
 mStyle
 =
-FONT_STYLE_NORMAL
+FontStyle
+:
+:
+NORMAL
 ;
 }
 }
