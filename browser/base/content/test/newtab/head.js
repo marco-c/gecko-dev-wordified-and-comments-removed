@@ -2252,7 +2252,7 @@ function
 synthesizeNativeMouseDrag
 (
 aElement
-aOffsetY
+aOffsetX
 )
 {
 let
@@ -2268,8 +2268,7 @@ synthesizeNativeMouseEvent
 (
 aElement
 msg
-0
-aOffsetY
+aOffsetX
 )
 ;
 }
