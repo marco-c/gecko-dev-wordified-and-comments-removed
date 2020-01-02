@@ -9404,7 +9404,7 @@ InParallelSection
 ForkJoinSlice
 :
 :
-Current
+current
 (
 )
 -
@@ -9497,7 +9497,7 @@ InParallelSection
 ForkJoinSlice
 :
 :
-Current
+current
 (
 )
 -

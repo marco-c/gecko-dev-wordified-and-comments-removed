@@ -3467,7 +3467,7 @@ slice
 ForkJoinSlice
 :
 :
-Current
+current
 (
 )
 ;
