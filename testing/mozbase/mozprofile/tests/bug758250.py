@@ -75,13 +75,25 @@ id
 "
     
 def
-test_profile_addon_cleanup
+setUp
 (
 self
 )
 :
         
-empty
+self
+.
+tmpdir
+=
+tempfile
+.
+mkdtemp
+(
+)
+        
+self
+.
+addon
 =
 os
 .
@@ -97,6 +109,29 @@ addons
 empty
 '
 )
+    
+def
+tearDown
+(
+self
+)
+:
+        
+shutil
+.
+rmtree
+(
+self
+.
+tmpdir
+)
+    
+def
+test_profile_addon_cleanup
+(
+self
+)
+:
         
 self
 .
@@ -108,7 +143,9 @@ path
 .
 exists
 (
-empty
+self
+.
+addon
 )
 )
         
@@ -122,7 +159,9 @@ path
 .
 isdir
 (
-empty
+self
+.
+addon
 )
 )
         
@@ -142,7 +181,9 @@ path
 .
 join
 (
-empty
+self
+.
+addon
 '
 install
 .
@@ -152,19 +193,24 @@ rdf
 )
 )
         
-tmpdir
-=
-tempfile
+shutil
 .
-mktemp
+rmtree
 (
+self
+.
+tmpdir
 )
         
 shutil
 .
 copytree
 (
-empty
+self
+.
+addon
+self
+.
 tmpdir
 )
         
@@ -184,6 +230,8 @@ path
 .
 join
 (
+self
+.
 tmpdir
 '
 install
@@ -220,6 +268,8 @@ path
 addons
 =
 [
+self
+.
 tmpdir
 ]
 )
@@ -240,6 +290,8 @@ path
 .
 exists
 (
+self
+.
 tmpdir
 )
 )
@@ -260,6 +312,8 @@ path
 .
 join
 (
+self
+.
 tmpdir
 '
 install
@@ -268,13 +322,6 @@ rdf
 '
 )
 )
-)
-        
-shutil
-.
-rmtree
-(
-tmpdir
 )
 if
 __name__
