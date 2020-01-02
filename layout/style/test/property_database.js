@@ -30305,6 +30305,11 @@ chinese
 formal
 "
 "
+ethiopic
+-
+numeric
+"
+"
 -
 moz
 -
