@@ -2516,7 +2516,7 @@ ioWidth
 surf
 -
 >
-GetWidth
+GetDevicePixelWidth
 (
 )
 ;
@@ -2526,7 +2526,7 @@ ioHeight
 surf
 -
 >
-GetHeight
+GetDevicePixelHeight
 (
 )
 ;
