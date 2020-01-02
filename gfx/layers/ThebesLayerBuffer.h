@@ -495,6 +495,9 @@ mBufferRect
 nsIntPoint
 mBufferRotation
 ;
+bool
+mDidSelfCopy
+;
 }
 ;
 class
