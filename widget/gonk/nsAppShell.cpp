@@ -93,6 +93,13 @@ h
 #
 include
 "
+GonkPermission
+.
+h
+"
+#
+include
+"
 nscore
 .
 h
@@ -3482,6 +3489,13 @@ instantiate
 ;
 #
 endif
+GonkPermissionService
+:
+:
+instantiate
+(
+)
+;
 }
 nsCOMPtr
 <
