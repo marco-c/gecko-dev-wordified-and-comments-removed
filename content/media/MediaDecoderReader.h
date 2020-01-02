@@ -1529,8 +1529,6 @@ aBuffered
 int64_t
 aStartTime
 )
-=
-0
 ;
 class
 VideoQueueMemoryFunctor
