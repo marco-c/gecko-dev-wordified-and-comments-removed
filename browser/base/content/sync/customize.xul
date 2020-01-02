@@ -488,6 +488,14 @@ endif
 /
 >
 <
+vbox
+align
+=
+"
+start
+"
+>
+<
 checkbox
 label
 =
@@ -693,6 +701,10 @@ engine
 prefs
 "
 /
+>
+<
+/
+vbox
 >
 <
 /
