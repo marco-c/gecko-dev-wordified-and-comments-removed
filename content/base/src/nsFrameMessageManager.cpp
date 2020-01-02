@@ -1971,6 +1971,10 @@ bool
 aRunInGlobalScope
 )
 {
+aRunInGlobalScope
+=
+true
+;
 if
 (
 aAllowDelayedLoad
