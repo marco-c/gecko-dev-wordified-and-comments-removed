@@ -126,6 +126,11 @@ ContentLinkHandler
 jsm
 '
 '
+CustomizationTabPreloader
+.
+jsm
+'
+'
 Feeds
 .
 jsm
