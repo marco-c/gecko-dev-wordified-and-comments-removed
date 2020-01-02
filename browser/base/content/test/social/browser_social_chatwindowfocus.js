@@ -216,7 +216,7 @@ SocialChatBar
 .
 openChat
 (
-Social
+SocialSidebar
 .
 provider
 data
@@ -261,7 +261,7 @@ doneCallback
 let
 port
 =
-Social
+SocialSidebar
 .
 provider
 .
@@ -658,6 +658,12 @@ function
 finishcb
 )
 {
+SocialSidebar
+.
+show
+(
+)
+;
 runSocialTests
 (
 tests

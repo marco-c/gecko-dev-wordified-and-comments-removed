@@ -34519,16 +34519,6 @@ pref
 "
 social
 .
-enabled
-"
-false
-)
-;
-pref
-(
-"
-social
-.
 whitelist
 "
 "

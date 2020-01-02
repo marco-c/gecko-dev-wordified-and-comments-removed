@@ -709,6 +709,7 @@ runSocialTestWithProvider
 manifest
 function
 (
+finishcb
 )
 {
 runSocialTests
@@ -774,7 +775,7 @@ reset
 (
 )
 ;
-finish
+finishcb
 (
 )
 ;
