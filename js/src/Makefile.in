@@ -1986,10 +1986,6 @@ DESTDIR
 (
 includedir
 )
-/
-(
-LIBRARY_NAME
-)
 (
 DEPTH
 )
