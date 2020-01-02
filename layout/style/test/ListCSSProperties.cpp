@@ -755,6 +755,14 @@ math
 -
 variant
 "
+"
+-
+moz
+-
+math
+-
+display
+"
 }
 ;
 inline

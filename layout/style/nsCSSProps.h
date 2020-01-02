@@ -2307,6 +2307,13 @@ kMathVariantKTable
 static
 const
 int32_t
+kMathDisplayKTable
+[
+]
+;
+static
+const
+int32_t
 kContextOpacityKTable
 [
 ]
