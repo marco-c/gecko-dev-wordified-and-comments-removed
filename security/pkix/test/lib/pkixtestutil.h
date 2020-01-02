@@ -280,7 +280,7 @@ int16_t
 seconds
 )
 ;
-SECStatus
+Result
 GenerateKeyPair
 (
 ScopedSECKEYPublicKey
