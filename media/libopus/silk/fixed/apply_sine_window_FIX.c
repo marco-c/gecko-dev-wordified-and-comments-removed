@@ -18,6 +18,7 @@ SigProc_FIX
 h
 "
 static
+const
 opus_int16
 freq_table_Q16
 [
@@ -162,6 +163,9 @@ c_Q16
 =
 silk_SMULWB
 (
+(
+opus_int32
+)
 f_Q16
 -
 f_Q16
@@ -204,6 +208,9 @@ else
 S0_Q16
 =
 (
+(
+opus_int32
+)
 1
 <
 <
@@ -213,6 +220,9 @@ S0_Q16
 S1_Q16
 =
 (
+(
+opus_int32
+)
 1
 <
 <
@@ -316,6 +326,9 @@ silk_min
 (
 S0_Q16
 (
+(
+opus_int32
+)
 1
 <
 <
@@ -393,6 +406,9 @@ silk_min
 (
 S1_Q16
 (
+(
+opus_int32
+)
 1
 <
 <

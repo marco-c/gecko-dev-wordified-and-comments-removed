@@ -458,10 +458,6 @@ DECISION_DELAY
 endif
 #
 define
-HIGH_PASS_INPUT
-1
-#
-define
 VAD_N_BANDS
 4
 #

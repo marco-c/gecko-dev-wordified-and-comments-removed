@@ -75,7 +75,7 @@ opus_val16
 mem
 )
 ;
-void
+int
 _celt_autocorr
 (
 const

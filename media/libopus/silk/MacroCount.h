@@ -2483,7 +2483,7 @@ ops_count
 1
 ;
 return
-abs
+silk_abs
 (
 a
 )
@@ -4055,9 +4055,6 @@ ret
 }
 #
 else
-#
-define
-exVarDefine
 #
 define
 varDefine

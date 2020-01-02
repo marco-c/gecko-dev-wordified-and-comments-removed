@@ -49,10 +49,6 @@ MAX_PITCH_LAG_MS
 18
 #
 define
-SA_THRES_Q8
-50
-#
-define
 RAND_BUF_SIZE
 128
 #

@@ -67,7 +67,7 @@ inLog_Q7
 {
 out
 =
-silk_ADD_RSHIFT
+silk_ADD_RSHIFT32
 (
 out
 silk_MUL

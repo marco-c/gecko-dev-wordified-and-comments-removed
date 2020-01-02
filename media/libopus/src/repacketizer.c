@@ -130,7 +130,7 @@ unsigned
 char
 *
 data
-int
+opus_int32
 len
 )
 {
@@ -347,7 +347,7 @@ count
 opus_int32
 tot_size
 ;
-short
+opus_int16
 *
 len
 ;

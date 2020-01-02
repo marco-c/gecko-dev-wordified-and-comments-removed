@@ -76,6 +76,9 @@ return
 ft
 *
 (
+opus_int32
+)
+(
 16384
 -
 decay

@@ -458,6 +458,9 @@ err_Q32
 silk_LSHIFT
 (
 (
+(
+opus_int32
+)
 1
 <
 <

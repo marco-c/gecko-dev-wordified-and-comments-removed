@@ -25,7 +25,7 @@ silk_decoder_state
 psDec
 opus_int
 fs_kHz
-opus_int
+opus_int32
 fs_API_Hz
 )
 {

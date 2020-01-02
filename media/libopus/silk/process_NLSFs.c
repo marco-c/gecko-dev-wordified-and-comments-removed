@@ -315,6 +315,9 @@ i
 ]
 1
 )
+(
+opus_int32
+)
 pNLSFW0_temp_QW
 [
 i

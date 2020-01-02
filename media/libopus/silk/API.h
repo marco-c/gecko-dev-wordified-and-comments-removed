@@ -91,18 +91,6 @@ encStatus
 )
 ;
 opus_int
-silk_QueryEncoder
-(
-const
-void
-*
-encState
-silk_EncControlStruct
-*
-encStatus
-)
-;
-opus_int
 silk_Encode
 (
 void
@@ -120,7 +108,7 @@ nSamplesIn
 ec_enc
 *
 psRangeEnc
-opus_int
+opus_int32
 *
 nBytesOut
 const
@@ -168,6 +156,9 @@ opus_int32
 nSamplesOut
 )
 ;
+#
+if
+0
 opus_int
 silk_get_TOC
 (
@@ -186,6 +177,8 @@ silk_TOC_struct
 Silk_TOC
 )
 ;
+#
+endif
 #
 ifdef
 __cplusplus

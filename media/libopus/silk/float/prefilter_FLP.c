@@ -55,6 +55,7 @@ opus_int
 length
 )
 ;
+static
 void
 silk_warped_LPC_analysis_filter_FLP
 (

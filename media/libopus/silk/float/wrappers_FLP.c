@@ -775,7 +775,7 @@ silk_float2int
 (
 8
 .
-0
+0f
 *
 x
 [

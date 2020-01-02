@@ -505,6 +505,9 @@ silk_RSHIFT
 (
 silk_SMULWB
 (
+(
+opus_int32
+)
 subfr_length
 655
 )

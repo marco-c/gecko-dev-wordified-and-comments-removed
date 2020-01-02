@@ -80,6 +80,9 @@ tmp1_int
 =
 silk_DIV32_16
 (
+(
+opus_int32
+)
 1
 <
 <
@@ -111,6 +114,9 @@ tmp2_int
 =
 silk_DIV32_16
 (
+(
+opus_int32
+)
 1
 <
 <
@@ -188,6 +194,9 @@ tmp1_int
 =
 silk_DIV32_16
 (
+(
+opus_int32
+)
 1
 <
 <
@@ -249,6 +258,9 @@ tmp2_int
 =
 silk_DIV32_16
 (
+(
+opus_int32
+)
 1
 <
 <
@@ -315,6 +327,9 @@ tmp1_int
 =
 silk_DIV32_16
 (
+(
+opus_int32
+)
 1
 <
 <

@@ -146,6 +146,9 @@ denom_Q16
 =
 silk_DIV32_16
 (
+(
+opus_int32
+)
 1
 <
 <

@@ -201,6 +201,9 @@ hi
 ;
 if
 (
+(
+int
+)
 cache
 [
 mid
@@ -232,6 +235,9 @@ lo
 -
 1
 :
+(
+int
+)
 cache
 [
 lo
@@ -239,6 +245,9 @@ lo
 )
 <
 =
+(
+int
+)
 cache
 [
 hi
@@ -375,6 +384,8 @@ int
 encode
 int
 prev
+int
+signalBandwidth
 )
 ;
 #

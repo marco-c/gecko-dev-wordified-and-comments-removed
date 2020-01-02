@@ -254,6 +254,9 @@ ind_tmp
 =
 silk_SMULWB
 (
+(
+opus_int32
+)
 inv_quant_step_size_Q6
 res_Q10
 )
@@ -407,6 +410,9 @@ out0_Q10
 =
 silk_SMULWB
 (
+(
+opus_int32
+)
 out0_Q10
 quant_step_size_Q16
 )
@@ -415,6 +421,9 @@ out1_Q10
 =
 silk_SMULWB
 (
+(
+opus_int32
+)
 out1_Q10
 quant_step_size_Q16
 )

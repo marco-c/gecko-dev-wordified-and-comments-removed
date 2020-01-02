@@ -368,7 +368,7 @@ psEnc
 sCmn
 .
 pitchEstimationLPCOrder
-FIND_PITCH_BANDWITH_EXPANSION
+FIND_PITCH_BANDWIDTH_EXPANSION
 )
 ;
 silk_LPC_analysis_filter_FLP

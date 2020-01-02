@@ -101,6 +101,9 @@ order
 ;
 invGain_Q30
 =
+(
+opus_int32
+)
 1
 <
 <

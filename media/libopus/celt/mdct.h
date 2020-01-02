@@ -7,6 +7,13 @@ MDCT_H
 #
 include
 "
+opus_defines
+.
+h
+"
+#
+include
+"
 kiss_fft
 .
 h
@@ -38,7 +45,7 @@ kfft
 const
 kiss_twiddle_scalar
 *
-restrict
+OPUS_RESTRICT
 trig
 ;
 }
@@ -76,6 +83,7 @@ kiss_fft_scalar
 in
 kiss_fft_scalar
 *
+OPUS_RESTRICT
 out
 const
 opus_val16
@@ -101,11 +109,12 @@ kiss_fft_scalar
 in
 kiss_fft_scalar
 *
+OPUS_RESTRICT
 out
 const
 opus_val16
 *
-restrict
+OPUS_RESTRICT
 window
 int
 overlap

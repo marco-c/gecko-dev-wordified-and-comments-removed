@@ -146,6 +146,9 @@ out_Q10
 silk_SMLAWB
 (
 pred_Q10
+(
+opus_int32
+)
 out_Q10
 quant_step_size_Q16
 )

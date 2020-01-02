@@ -194,6 +194,7 @@ silk_stereo_only_code_mid_iCDF
 0
 }
 ;
+static
 const
 opus_uint8
 silk_LBRR_flags_2_iCDF
@@ -207,6 +208,7 @@ silk_LBRR_flags_2_iCDF
 0
 }
 ;
+static
 const
 opus_uint8
 silk_LBRR_flags_3_iCDF

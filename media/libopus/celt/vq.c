@@ -553,11 +553,11 @@ normalise_residual
 (
 int
 *
-restrict
+OPUS_RESTRICT
 iy
 celt_norm
 *
-restrict
+OPUS_RESTRICT
 X
 int
 N

@@ -30,6 +30,7 @@ silk_LTP_per_index_iCDF
 0
 }
 ;
+static
 const
 opus_uint8
 silk_LTP_gain_iCDF_0
@@ -48,6 +49,7 @@ silk_LTP_gain_iCDF_0
 0
 }
 ;
+static
 const
 opus_uint8
 silk_LTP_gain_iCDF_1
@@ -74,6 +76,7 @@ silk_LTP_gain_iCDF_1
 0
 }
 ;
+static
 const
 opus_uint8
 silk_LTP_gain_iCDF_2
@@ -122,6 +125,7 @@ silk_LTP_gain_middle_avg_RD_Q14
 =
 12304
 ;
+static
 const
 opus_uint8
 silk_LTP_gain_BITS_Q5_0
@@ -140,6 +144,7 @@ silk_LTP_gain_BITS_Q5_0
 173
 }
 ;
+static
 const
 opus_uint8
 silk_LTP_gain_BITS_Q5_1
@@ -166,6 +171,7 @@ silk_LTP_gain_BITS_Q5_1
 160
 }
 ;
+static
 const
 opus_uint8
 silk_LTP_gain_BITS_Q5_2
@@ -238,6 +244,7 @@ silk_LTP_gain_BITS_Q5_1
 silk_LTP_gain_BITS_Q5_2
 }
 ;
+static
 const
 opus_int8
 silk_LTP_gain_vq_0
@@ -316,6 +323,7 @@ silk_LTP_gain_vq_0
 }
 }
 ;
+static
 const
 opus_int8
 silk_LTP_gain_vq_1
@@ -460,6 +468,7 @@ silk_LTP_gain_vq_1
 }
 }
 ;
+static
 const
 opus_int8
 silk_LTP_gain_vq_2

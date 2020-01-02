@@ -17,6 +17,7 @@ tables
 .
 h
 "
+static
 const
 opus_uint8
 silk_NLSF_CB1_WB_Q8
@@ -539,6 +540,7 @@ silk_NLSF_CB1_WB_Q8
 237
 }
 ;
+static
 const
 opus_uint8
 silk_NLSF_CB1_iCDF_WB
@@ -613,6 +615,7 @@ silk_NLSF_CB1_iCDF_WB
 0
 }
 ;
+static
 const
 opus_uint8
 silk_NLSF_CB2_SELECT_WB
@@ -879,6 +882,7 @@ silk_NLSF_CB2_SELECT_WB
 0
 }
 ;
+static
 const
 opus_uint8
 silk_NLSF_CB2_iCDF_WB
@@ -961,6 +965,7 @@ silk_NLSF_CB2_iCDF_WB
 0
 }
 ;
+static
 const
 opus_uint8
 silk_NLSF_CB2_BITS_WB_Q5
@@ -1043,6 +1048,7 @@ silk_NLSF_CB2_BITS_WB_Q5
 255
 }
 ;
+static
 const
 opus_uint8
 silk_NLSF_PRED_WB_Q8
@@ -1083,6 +1089,7 @@ silk_NLSF_PRED_WB_Q8
 155
 }
 ;
+static
 const
 opus_int16
 silk_NLSF_DELTA_MIN_WB_Q15
