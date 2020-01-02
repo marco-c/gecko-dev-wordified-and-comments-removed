@@ -243,6 +243,10 @@ const
 nsAString
 &
 aName
+bool
+aDontOverride
+=
+false
 )
 ;
 void
@@ -1380,6 +1384,9 @@ mIsForApp
 ;
 bool
 mIsForBrowser
+;
+bool
+mCanOverrideProcessName
 ;
 nsString
 mProcessName

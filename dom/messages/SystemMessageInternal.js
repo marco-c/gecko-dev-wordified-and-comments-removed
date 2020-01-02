@@ -1716,11 +1716,6 @@ Register
 "
 SystemMessageManager
 :
-Unregister
-"
-"
-SystemMessageManager
-:
 GetPendingMessages
 "
 "
