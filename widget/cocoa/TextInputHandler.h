@@ -112,6 +112,9 @@ kVK_Delete
 kVK_PC_Delete
 =
 kVK_ForwardDelete
+kVK_PC_ContextMenu
+=
+0x6E
 kVK_Powerbook_KeypadEnter
 =
 0x34

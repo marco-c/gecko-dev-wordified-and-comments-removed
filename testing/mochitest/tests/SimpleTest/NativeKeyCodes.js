@@ -1579,6 +1579,11 @@ MAC_VK_F10
 0x6D
 ;
 const
+MAC_VK_PC_ContextMenu
+=
+0x6E
+;
+const
 MAC_VK_F12
 =
 0x6F
