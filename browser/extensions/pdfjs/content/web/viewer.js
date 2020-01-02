@@ -268,6 +268,7 @@ arguments
 length
 =
 =
+=
 1
 &
 &
@@ -276,6 +277,7 @@ _cache
 [
 propName
 ]
+=
 =
 =
 '
@@ -315,6 +317,7 @@ style
 [
 propName
 ]
+=
 =
 =
 '
@@ -392,6 +395,7 @@ prefixed
 ]
 =
 =
+=
 '
 string
 '
@@ -449,6 +453,7 @@ if
 (
 prop
 !
+=
 =
 '
 undefined
@@ -617,6 +622,7 @@ scaled
 :
 pixelRatio
 !
+=
 =
 1
 }
@@ -985,6 +991,7 @@ indexOf
 '
 )
 !
+=
 =
 -
 1
@@ -8096,6 +8103,13 @@ secondaryToolbarLastPageClick
 evt
 )
 {
+if
+(
+PDFView
+.
+pdfDocument
+)
+{
 PDFView
 .
 page
@@ -8106,6 +8120,7 @@ pdfDocument
 .
 numPages
 ;
+}
 this
 .
 close
@@ -12820,6 +12835,7 @@ if
 utRel
 =
 =
+=
 '
 -
 '
@@ -12840,6 +12856,7 @@ else
 if
 (
 utRel
+=
 =
 =
 '
@@ -13017,6 +13034,10 @@ null
 currentPosition
 :
 null
+url
+:
+'
+'
 initialize
 :
 function
@@ -16781,6 +16802,7 @@ destKind
 destKind
 .
 name
+=
 =
 =
 '
@@ -21731,10 +21753,12 @@ if
 currentPage
 =
 =
+=
 1
 &
 &
 pageFlipDirection
+=
 =
 =
 PageFlipDirection
@@ -21747,6 +21771,7 @@ UP
 currentPage
 =
 =
+=
 this
 .
 pages
@@ -21755,6 +21780,7 @@ length
 &
 &
 pageFlipDirection
+=
 =
 =
 PageFlipDirection
@@ -30884,6 +30910,7 @@ e
 target
 =
 =
+=
 mainContainer
 )
 {
@@ -32147,6 +32174,7 @@ option
 .
 value
 !
+=
 =
 value
 )
@@ -33581,6 +33609,12 @@ PresentationMode
 active
 |
 |
+(
+PDFView
+.
+pdfDocument
+&
+&
 PDFView
 .
 page
@@ -33590,6 +33624,7 @@ PDFView
 pdfDocument
 .
 numPages
+)
 )
 {
 PDFView
