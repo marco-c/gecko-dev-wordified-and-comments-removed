@@ -118,11 +118,6 @@ mozView
 h
 '
 '
-nsBidiKeyboard
-.
-h
-'
-'
 nsChangeObserver
 .
 h
