@@ -3551,8 +3551,6 @@ long
 arg
 )
 ;
-/
-/
 void
 passUnion20
 (
