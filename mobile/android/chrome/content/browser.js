@@ -23897,15 +23897,6 @@ sameDocument
 {
 this
 .
-setBrowserSize
-(
-kDefaultCSSViewportWidth
-kDefaultCSSViewportHeight
-true
-)
-;
-this
-.
 contentDocumentIsDisplayed
 =
 false
@@ -25304,13 +25295,6 @@ function
 (
 aWidth
 aHeight
-aForce
-)
-{
-if
-(
-!
-aForce
 )
 {
 if
@@ -25335,7 +25319,6 @@ aHeight
 {
 return
 ;
-}
 }
 this
 .
