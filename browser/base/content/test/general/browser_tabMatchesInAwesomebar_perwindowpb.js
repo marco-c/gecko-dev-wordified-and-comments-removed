@@ -686,7 +686,7 @@ gBrowser
 .
 tabs
 [
-0
+1
 ]
 .
 linkedBrowser
@@ -700,7 +700,7 @@ gBrowser
 .
 selectTabAtIndex
 (
-0
+1
 )
 ;
 gBrowser
