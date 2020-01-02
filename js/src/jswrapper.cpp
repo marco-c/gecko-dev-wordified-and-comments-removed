@@ -990,7 +990,6 @@ js_CopyErrorObject
 (
 cx
 errObj
-scope
 )
 ;
 if

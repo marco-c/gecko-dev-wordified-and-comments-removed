@@ -135,11 +135,6 @@ ErrorObject
 *
 >
 errobj
-js
-:
-:
-HandleObject
-scope
 )
 ;
 static
