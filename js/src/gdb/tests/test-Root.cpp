@@ -168,12 +168,7 @@ cx
 JS_NewArrayObject
 (
 cx
-1
 plinth
-.
-address
-(
-)
 )
 )
 ;

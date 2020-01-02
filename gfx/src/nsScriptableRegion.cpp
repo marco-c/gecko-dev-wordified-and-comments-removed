@@ -647,7 +647,6 @@ aCx
 numRects
 *
 4
-nullptr
 )
 )
 ;

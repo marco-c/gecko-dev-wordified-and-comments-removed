@@ -724,15 +724,6 @@ JS_NewArrayObject
 (
 aCx
 numbers
-.
-length
-(
-)
-numbers
-.
-begin
-(
-)
 )
 ;
 if

@@ -2405,7 +2405,6 @@ JS_NewArrayObject
 (
 aCx
 length
-nullptr
 )
 )
 ;
@@ -2992,7 +2991,6 @@ JS_NewArrayObject
 (
 aCx
 length
-nullptr
 )
 )
 ;

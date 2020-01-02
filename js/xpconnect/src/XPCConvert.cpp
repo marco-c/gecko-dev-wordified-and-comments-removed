@@ -6535,7 +6535,6 @@ JS_NewArrayObject
 (
 cx
 count
-nullptr
 )
 )
 ;

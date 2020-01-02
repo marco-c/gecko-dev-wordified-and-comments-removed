@@ -348,7 +348,6 @@ JS_NewArrayObject
 (
 aContext
 0
-nullptr
 )
 )
 ;

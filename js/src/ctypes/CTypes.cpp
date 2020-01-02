@@ -25448,12 +25448,7 @@ cx
 JS_NewArrayObject
 (
 cx
-len
 fieldsVec
-.
-begin
-(
-)
 )
 )
 ;
@@ -29759,12 +29754,7 @@ argTypes
 JS_NewArrayObject
 (
 cx
-len
 vec
-.
-begin
-(
-)
 )
 ;
 if

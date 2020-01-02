@@ -2050,12 +2050,7 @@ array
 JS_NewArrayObject
 (
 context
-1
 referrer
-.
-address
-(
-)
 )
 ;
 if

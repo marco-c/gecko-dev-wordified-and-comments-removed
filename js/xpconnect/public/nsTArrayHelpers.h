@@ -74,7 +74,6 @@ aSourceArray
 Length
 (
 )
-nullptr
 )
 )
 ;
@@ -313,7 +312,6 @@ aSourceArray
 Length
 (
 )
-nullptr
 )
 )
 ;

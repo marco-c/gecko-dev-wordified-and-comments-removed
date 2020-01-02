@@ -1409,15 +1409,6 @@ JS_NewArrayObject
 (
 aCx
 requests
-.
-length
-(
-)
-requests
-.
-begin
-(
-)
 )
 ;
 if
