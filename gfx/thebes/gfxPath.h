@@ -48,6 +48,7 @@ Path
 }
 class
 gfxPath
+MOZ_FINAL
 {
 NS_INLINE_DECL_REFCOUNTING
 (
@@ -79,14 +80,13 @@ Path
 aPath
 )
 ;
-virtual
+private
+:
 ~
 gfxPath
 (
 )
 ;
-private
-:
 cairo_path_t
 *
 mPath
