@@ -359,6 +359,14 @@ nsInputEvent
 aOutEvent
 )
 ;
+nsEventStatus
+ReceiveInputEvent
+(
+nsInputEvent
+&
+aEvent
+)
+;
 void
 UpdateCompositionBounds
 (
