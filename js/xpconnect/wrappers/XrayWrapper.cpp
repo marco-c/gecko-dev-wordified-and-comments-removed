@@ -10298,7 +10298,7 @@ cx
 if
 (
 !
-getOwnPropertyDescriptor
+JS_GetPropertyDescriptorById
 (
 cx
 wrapper
@@ -10317,6 +10317,9 @@ existing_desc
 object
 (
 )
+=
+=
+wrapper
 &
 &
 existing_desc
