@@ -387,6 +387,10 @@ gfx
 IntSize
 &
 destSize
+bool
+internalFBs
+=
+false
 )
 ;
 void
@@ -414,6 +418,10 @@ const
 GLFormats
 &
 srcFormats
+bool
+internalFBs
+=
+false
 )
 ;
 void
@@ -441,6 +449,10 @@ GLenum
 srcTarget
 =
 LOCAL_GL_TEXTURE_2D
+bool
+internalFBs
+=
+false
 )
 ;
 void
@@ -468,6 +480,10 @@ GLenum
 destTarget
 =
 LOCAL_GL_TEXTURE_2D
+bool
+internalFBs
+=
+false
 )
 ;
 void
