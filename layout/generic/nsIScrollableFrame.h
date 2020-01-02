@@ -455,6 +455,7 @@ bool
 DidHistoryRestore
 (
 )
+const
 =
 0
 ;
