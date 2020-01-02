@@ -9259,9 +9259,6 @@ case
 SRC_ASSIGNOP
 :
 case
-SRC_CATCH
-:
-case
 SRC_XDELTA
 :
 break
