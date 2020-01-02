@@ -931,7 +931,10 @@ prologueEntryAddr
 *
 pcRes
 =
-0
+script
+-
+>
+code
 ;
 return
 ;
