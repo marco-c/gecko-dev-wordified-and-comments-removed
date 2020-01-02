@@ -5796,6 +5796,12 @@ ac
 _strippedPrefix
 +
 trimmedHost
+"
+"
+"
+"
+"
+"
 untrimmedHost
 )
 ;
@@ -6178,6 +6184,12 @@ ac
 _strippedPrefix
 +
 url
+"
+"
+"
+"
+"
+"
 untrimmedURL
 )
 ;

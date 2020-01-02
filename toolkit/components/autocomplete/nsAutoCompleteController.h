@@ -230,7 +230,7 @@ GetResultValueAt
 int32_t
 aIndex
 bool
-aValueOnly
+aGetFinalValue
 nsAString
 &
 _retval
@@ -241,8 +241,6 @@ GetResultLabelAt
 (
 int32_t
 aIndex
-bool
-aValueOnly
 nsAString
 &
 _retval
@@ -256,7 +254,7 @@ GetResultValueLabelAt
 int32_t
 aIndex
 bool
-aValueOnly
+aGetFinalValue
 bool
 aGetValue
 nsAString
