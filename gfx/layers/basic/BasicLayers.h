@@ -288,12 +288,11 @@ END_DEFAULT
 ;
 virtual
 bool
-AreComponentAlphaLayersEnabled
+ShouldAvoidComponentAlphaLayers
 (
 )
 {
 return
-!
 IsWidgetLayerManager
 (
 )

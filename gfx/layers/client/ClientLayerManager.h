@@ -712,12 +712,12 @@ GetCompositorChild
 ;
 virtual
 bool
-AreComponentAlphaLayersEnabled
+ShouldAvoidComponentAlphaLayers
 (
 )
-MOZ_OVERRIDE
 {
 return
+!
 IsCompositingCheap
 (
 )
