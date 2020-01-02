@@ -634,10 +634,13 @@ true
 }
 template
 class
+JS_PUBLIC_API
+(
 JS
 :
 :
 WeakMapPtr
+)
 <
 JSObject
 *
@@ -650,10 +653,13 @@ ifdef
 DEBUG
 template
 class
+JS_PUBLIC_API
+(
 JS
 :
 :
 WeakMapPtr
+)
 <
 JSObject
 *
