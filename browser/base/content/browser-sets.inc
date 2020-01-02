@@ -460,13 +460,9 @@ oncommand
 "
 BrowserViewSourceOfDocument
 (
-window
+content
 .
-gBrowser
-.
-selectedBrowser
-.
-contentDocumentAsCPOW
+document
 )
 ;
 "
@@ -1827,6 +1823,11 @@ sharePage
 (
 )
 ;
+"
+disabled
+=
+"
+true
 "
 /
 >
