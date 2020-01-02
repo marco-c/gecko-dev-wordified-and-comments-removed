@@ -3147,16 +3147,6 @@ Session
 <
 !
 ENTITY
-historyHomeCmd
-.
-label
-"
-Home
-"
->
-<
-!
-ENTITY
 showAllHistoryCmd2
 .
 label
