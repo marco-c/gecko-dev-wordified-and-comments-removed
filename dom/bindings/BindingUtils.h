@@ -1792,7 +1792,7 @@ props
 )
 ;
 bool
-DefineWebIDLBindingPropertiesOnXPCObject
+DefineWebIDLBindingPropertiesOnXPCProto
 (
 JSContext
 *
@@ -1805,13 +1805,11 @@ Handle
 JSObject
 *
 >
-obj
+proto
 const
 NativeProperties
 *
 properties
-bool
-defineUnforgeableAttributes
 )
 ;
 #
