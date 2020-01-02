@@ -25,7 +25,7 @@ appmanager
 enabled
 "
 "
-menu_chromeDebugger
+menu_browserToolbox
 "
 :
 [

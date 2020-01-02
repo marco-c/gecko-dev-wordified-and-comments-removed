@@ -863,7 +863,7 @@ defineLazyGetter
 (
 this
 "
-BrowserDebuggerProcess
+BrowserToolboxProcess
 "
 function
 (
@@ -889,7 +889,7 @@ modules
 /
 devtools
 /
-DebuggerProcess
+ToolboxProcess
 .
 jsm
 "
@@ -899,7 +899,7 @@ tmp
 return
 tmp
 .
-BrowserDebuggerProcess
+BrowserToolboxProcess
 ;
 }
 )

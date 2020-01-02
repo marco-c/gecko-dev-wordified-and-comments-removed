@@ -1679,7 +1679,7 @@ toggleCmd
 "
 Tools
 :
-ChromeDebugger
+BrowserToolbox
 "
 remoteEnabled
 )

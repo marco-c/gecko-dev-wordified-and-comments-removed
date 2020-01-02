@@ -226,7 +226,7 @@ jsm
 ;
 let
 {
-BrowserDebuggerProcess
+BrowserToolboxProcess
 }
 =
 Cu
@@ -243,7 +243,7 @@ modules
 /
 devtools
 /
-DebuggerProcess
+ToolboxProcess
 .
 jsm
 "
@@ -3195,7 +3195,7 @@ defer
 (
 )
 ;
-BrowserDebuggerProcess
+BrowserToolboxProcess
 .
 init
 (
@@ -3207,8 +3207,8 @@ aProcess
 info
 (
 "
-Chrome
-debugger
+Browser
+toolbox
 process
 started
 successfully

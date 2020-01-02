@@ -2675,6 +2675,16 @@ styleEditorActor
 "
 )
 ;
+DebuggerServer
+.
+addGlobalActor
+(
+StyleEditorActor
+"
+styleEditorActor
+"
+)
+;
 XPCOMUtils
 .
 defineLazyGetter

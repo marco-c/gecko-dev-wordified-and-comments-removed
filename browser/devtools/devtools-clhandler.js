@@ -394,13 +394,13 @@ modules
 /
 devtools
 /
-DebuggerProcess
+ToolboxProcess
 .
 jsm
 "
 )
 ;
-BrowserDebuggerProcess
+BrowserToolboxProcess
 .
 init
 (
@@ -503,7 +503,7 @@ jsdebugger
 Open
 the
 Browser
-Debugger
+Toolbox
 .
 \
 n
