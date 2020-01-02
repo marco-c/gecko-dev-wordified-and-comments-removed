@@ -4513,6 +4513,12 @@ const
 nsAString
 &
 aLocalName
+mozilla
+:
+:
+ErrorResult
+&
+aResult
 )
 ;
 already_AddRefed

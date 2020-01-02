@@ -450,6 +450,7 @@ localName
 ;
 [
 Pure
+Throws
 ]
 HTMLCollection
 getElementsByTagNameNS
