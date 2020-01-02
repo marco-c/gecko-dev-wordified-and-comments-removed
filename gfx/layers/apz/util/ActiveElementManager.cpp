@@ -472,6 +472,13 @@ mTarget
 )
 ;
 }
+else
+{
+ResetActive
+(
+)
+;
+}
 ResetTouchBlockState
 (
 )
