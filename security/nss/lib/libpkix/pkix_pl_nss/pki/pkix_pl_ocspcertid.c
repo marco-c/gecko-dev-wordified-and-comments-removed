@@ -361,6 +361,9 @@ rv
 SECStatus
 rvOcsp
 ;
+OCSPFreshness
+freshness
+;
 PKIX_ENTER
 (
 DATE
@@ -408,7 +411,7 @@ PR_Now
 }
 rv
 =
-ocsp_GetCachedOCSPResponseStatusIfFresh
+ocsp_GetCachedOCSPResponseStatus
 (
 cid
 -
@@ -419,6 +422,8 @@ PR_TRUE
 &
 rvOcsp
 missingResponseError
+&
+freshness
 )
 ;
 *
@@ -429,6 +434,12 @@ rv
 =
 =
 SECSuccess
+&
+&
+freshness
+=
+=
+ocspFresh
 )
 ;
 if
