@@ -758,10 +758,6 @@ const
 T
 *
 aProposed
-const
-CallStack
-&
-aCallContext
 )
 {
 if
