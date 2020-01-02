@@ -999,9 +999,11 @@ prevReporter
 }
 }
 ;
-static
 JSString
 *
+js
+:
+:
 ComputeStackString
 (
 JSContext
