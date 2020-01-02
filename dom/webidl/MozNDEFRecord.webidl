@@ -106,10 +106,13 @@ Constructor
 (
 octet
 tnf
+optional
 Uint8Array
 type
+optional
 Uint8Array
 id
+optional
 Uint8Array
 payload
 )
@@ -209,6 +212,7 @@ Constant
 readonly
 attribute
 Uint8Array
+?
 type
 ;
 /
@@ -230,6 +234,7 @@ Constant
 readonly
 attribute
 Uint8Array
+?
 id
 ;
 /
@@ -260,6 +265,7 @@ Constant
 readonly
 attribute
 Uint8Array
+?
 payload
 ;
 }
