@@ -286,7 +286,7 @@ mAsserter
 .
 is
 (
-waitForListToLoad
+waitForNonEmptyListToLoad
 (
 bookmarks
 )
