@@ -1,7 +1,7 @@
 #
 include
 "
-wmf
+WMF
 .
 h
 "

@@ -12,6 +12,13 @@ include
 <
 sstream
 >
+#
+include
+<
+string
+.
+h
+>
 namespace
 mp4_demuxer
 {
