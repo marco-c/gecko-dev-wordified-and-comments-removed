@@ -1078,6 +1078,11 @@ aAppManifestURL
 )
 ;
 void
+TransformPreallocatedIntoBrowser
+(
+)
+;
+void
 MarkAsDead
 (
 )
