@@ -173,6 +173,7 @@ NrIceStunServer
 {
 public
 :
+explicit
 NrIceStunServer
 (
 const

@@ -40,6 +40,15 @@ include
 "
 mozilla
 /
+Attributes
+.
+h
+"
+#
+include
+"
+mozilla
+/
 net
 /
 DNS
@@ -67,6 +76,7 @@ NetAddressAdapter
 {
 public
 :
+MOZ_IMPLICIT
 NetAddressAdapter
 (
 const
@@ -225,6 +235,7 @@ true
 )
 {
 }
+MOZ_IMPLICIT
 PendingSTUNRequest
 (
 const

@@ -546,6 +546,7 @@ mt_policy
 *
 m_mutex
 ;
+explicit
 lock_block
 (
 mt_policy
