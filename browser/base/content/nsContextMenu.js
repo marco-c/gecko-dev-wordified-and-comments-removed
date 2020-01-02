@@ -2511,11 +2511,6 @@ onVideo
 this
 .
 onAudio
-|
-|
-this
-.
-onCanvas
 )
 ;
 this

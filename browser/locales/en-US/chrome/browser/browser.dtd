@@ -1592,7 +1592,7 @@ shareLinkCmd
 .
 accesskey
 "
-h
+s
 "
 >
 <
@@ -1614,7 +1614,7 @@ shareImageCmd
 .
 accesskey
 "
-r
+s
 "
 >
 <
@@ -1635,7 +1635,7 @@ shareSelectCmd
 .
 accesskey
 "
-r
+s
 "
 >
 <
@@ -1657,7 +1657,7 @@ shareVideoCmd
 .
 accesskey
 "
-r
+s
 "
 >
 <
