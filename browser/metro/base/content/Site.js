@@ -262,9 +262,11 @@ key
 }
 if
 (
-aNode
-.
+'
 refresh
+'
+in
+aNode
 )
 {
 aNode
