@@ -572,9 +572,6 @@ mallocSizeOf
 )
 ;
 }
-#
-ifdef
-DEBUG
 void
 MarkImmutable
 (
@@ -602,8 +599,6 @@ mTable
 )
 ;
 }
-#
-endif
 protected
 :
 PLDHashTable

@@ -5009,17 +5009,12 @@ i
 )
 )
 ;
-#
-ifdef
-DEBUG
 mTrackedDBs
 .
 MarkImmutable
 (
 )
 ;
-#
-endif
 mReporter
 =
 new
