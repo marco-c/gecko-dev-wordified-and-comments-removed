@@ -5958,6 +5958,13 @@ return
 true
 ;
 }
+typedef
+MoveResolver
+:
+:
+MoveOperand
+MoveOperand
+;
 MoveOperand
 CodeGeneratorARM
 :

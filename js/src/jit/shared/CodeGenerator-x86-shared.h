@@ -194,6 +194,9 @@ output
 )
 ;
 }
+MoveResolver
+:
+:
 MoveOperand
 toMoveOperand
 (
