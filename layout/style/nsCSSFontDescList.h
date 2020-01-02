@@ -40,9 +40,6 @@ UnicodeRange
 )
 CSS_FONT_DESC
 (
--
-moz
--
 font
 -
 feature
@@ -52,9 +49,6 @@ FontFeatureSettings
 )
 CSS_FONT_DESC
 (
--
-moz
--
 font
 -
 language
