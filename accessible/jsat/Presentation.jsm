@@ -242,6 +242,7 @@ pivotChanged
 (
 aContext
 aReason
+aIsFromUserInput
 )
 {
 }
@@ -278,7 +279,7 @@ aStart
 aEnd
 aOldStart
 aOldEnd
-aIsFromUser
+aIsFromUserInput
 )
 {
 }
@@ -1500,7 +1501,7 @@ aStart
 aEnd
 aOldStart
 aOldEnd
-aIsFromUser
+aIsFromUserInput
 )
 {
 let
@@ -1520,7 +1521,7 @@ AndroidSdkVersion
 &
 &
 !
-aIsFromUser
+aIsFromUserInput
 )
 {
 if
@@ -1555,7 +1556,7 @@ aStart
 aEnd
 aOldStart
 aOldEnd
-aIsFromUser
+aIsFromUserInput
 )
 .
 details
@@ -1603,7 +1604,7 @@ AndroidSdkVersion
 16
 &
 &
-aIsFromUser
+aIsFromUserInput
 )
 {
 let
@@ -1954,6 +1955,7 @@ B2GPresenter_pivotChanged
 (
 aContext
 aReason
+aIsUserInput
 )
 {
 if
@@ -2022,6 +2024,9 @@ pivotChangedReasons
 [
 aReason
 ]
+isUserInput
+:
+aIsUserInput
 }
 }
 }
@@ -2412,6 +2417,7 @@ aOldPosition
 aReason
 aStartOffset
 aEndOffset
+aIsUserInput
 )
 {
 let
@@ -2434,6 +2440,7 @@ pivotChanged
 (
 context
 aReason
+aIsUserInput
 )
 for
 each
@@ -2523,7 +2530,7 @@ aStart
 aEnd
 aOldStart
 aOldEnd
-aIsFromUser
+aIsFromUserInput
 )
 {
 return
@@ -2537,7 +2544,7 @@ aStart
 aEnd
 aOldStart
 aOldEnd
-aIsFromUser
+aIsFromUserInput
 )
 for
 each
