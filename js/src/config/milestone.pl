@@ -305,10 +305,7 @@ MILESTONE_FILE
 ;
 if
 (
-defined
-(
 TEMPLATE_FILE
-)
 )
 {
 my
