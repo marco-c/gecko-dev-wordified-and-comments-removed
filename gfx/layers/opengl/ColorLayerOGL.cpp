@@ -151,6 +151,17 @@ Activate
 program
 -
 >
+SetProjectionMatrix
+(
+aManager
+-
+>
+mProjMatrix
+)
+;
+program
+-
+>
 SetLayerQuadRect
 (
 aLayer

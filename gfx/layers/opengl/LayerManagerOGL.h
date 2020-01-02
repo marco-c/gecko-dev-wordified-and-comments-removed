@@ -1185,6 +1185,9 @@ ComputeRenderIntegrity
 (
 )
 ;
+gfx3DMatrix
+mProjMatrix
+;
 private
 :
 nsIWidget
@@ -1318,15 +1321,6 @@ CopyToTarget
 gfxContext
 *
 aTarget
-)
-;
-void
-SetLayerProgramProjectionMatrix
-(
-const
-gfx3DMatrix
-&
-aMatrix
 )
 ;
 void
