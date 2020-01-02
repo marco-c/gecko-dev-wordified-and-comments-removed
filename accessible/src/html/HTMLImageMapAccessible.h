@@ -101,6 +101,17 @@ aDoFireEvents
 true
 )
 ;
+Accessible
+*
+GetChildAccessibleFor
+(
+const
+nsINode
+*
+aNode
+)
+const
+;
 protected
 :
 virtual
