@@ -220,11 +220,6 @@ config
 rules
 .
 mk
-CFLAGS
-+
-=
--
-DMOZ_QCMS
 #
 Disable
 spammy
