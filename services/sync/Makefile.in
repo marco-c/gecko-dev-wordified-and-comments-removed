@@ -318,6 +318,10 @@ utils
 .
 js
 \
+fxa_utils
+.
+js
+\
 (
 NULL
 )

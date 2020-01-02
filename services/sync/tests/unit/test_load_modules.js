@@ -190,6 +190,11 @@ utils
 .
 js
 "
+"
+fxa_utils
+.
+js
+"
 ]
 ;
 function
