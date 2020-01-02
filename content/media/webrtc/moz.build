@@ -151,11 +151,6 @@ LoadMonitor
 h
 '
 '
-MediaEngineTabVideoSource
-.
-h
-'
-'
 MediaEngineWebRTC
 .
 h
