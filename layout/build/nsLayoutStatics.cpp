@@ -1616,13 +1616,6 @@ Shutdown
 (
 )
 ;
-nsComputedDOMStyle
-:
-:
-Shutdown
-(
-)
-;
 nsCSSParser
 :
 :
