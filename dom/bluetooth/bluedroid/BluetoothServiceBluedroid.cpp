@@ -4069,8 +4069,14 @@ sBtInterface
 >
 Init
 (
-&
-sBluetoothCallbacks
+reinterpret_cast
+<
+BluetoothServiceBluedroid
+*
+>
+(
+bs
+)
 new
 InitResultHandler
 (
