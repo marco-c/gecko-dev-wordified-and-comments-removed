@@ -3574,6 +3574,16 @@ channelInfo
 keaKeyBits
 )
 ;
+infoObject
+-
+>
+SetMACAlgorithmUsed
+(
+cipherInfo
+.
+macAlgorithm
+)
+;
 }
 }
 SSLNextProtoState
