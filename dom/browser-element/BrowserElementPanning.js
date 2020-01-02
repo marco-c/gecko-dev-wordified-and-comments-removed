@@ -2410,12 +2410,12 @@ elt
 =
 this
 .
-target
+pointerDownTarget
 |
 |
 this
 .
-pointerDownTarget
+target
 ;
 let
 root
