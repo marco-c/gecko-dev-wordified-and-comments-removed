@@ -9110,9 +9110,8 @@ manager
 eventTarget
 -
 >
-GetListenerManager
+GetOrCreateListenerManager
 (
-true
 )
 ;
 manager
