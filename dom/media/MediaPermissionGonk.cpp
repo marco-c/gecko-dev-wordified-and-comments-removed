@@ -130,6 +130,17 @@ nsServiceManagerUtils
 h
 "
 #
+include
+"
+mozilla
+/
+dom
+/
+PermissionMessageUtils
+.
+h
+"
+#
 define
 AUDIO_PERMISSION_NAME
 "

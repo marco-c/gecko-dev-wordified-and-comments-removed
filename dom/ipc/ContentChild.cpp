@@ -703,6 +703,17 @@ PTelephonyChild
 .
 h
 "
+#
+include
+"
+mozilla
+/
+net
+/
+NeckoMessageUtils
+.
+h
+"
 using
 namespace
 base

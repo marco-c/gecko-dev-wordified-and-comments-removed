@@ -164,6 +164,17 @@ nsIScriptSecurityManager
 h
 "
 #
+include
+"
+mozilla
+/
+dom
+/
+PermissionMessageUtils
+.
+h
+"
+#
 ifdef
 MOZ_B2G
 #

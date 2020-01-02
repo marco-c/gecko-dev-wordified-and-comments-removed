@@ -128,6 +128,17 @@ PluginIdentifierChild
 h
 "
 #
+include
+"
+mozilla
+/
+plugins
+/
+PluginMessageUtils
+.
+h
+"
+#
 define
 NP_CALLBACK
 NP_LOADDS

@@ -667,6 +667,17 @@ nsIDocShell
 h
 "
 #
+include
+"
+mozilla
+/
+net
+/
+NeckoMessageUtils
+.
+h
+"
+#
 if
 defined
 (
