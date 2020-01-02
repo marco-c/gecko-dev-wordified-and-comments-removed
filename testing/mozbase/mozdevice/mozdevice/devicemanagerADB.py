@@ -2869,9 +2869,9 @@ killProcess
 (
 self
 appname
-forceKill
+sig
 =
-False
+None
 )
 :
         
@@ -2912,7 +2912,7 @@ kill
 ]
                 
 if
-forceKill
+sig
 :
                     
 args
@@ -2921,8 +2921,11 @@ append
 (
 "
 -
-9
+%
+d
 "
+%
+sig
 )
                 
 args
