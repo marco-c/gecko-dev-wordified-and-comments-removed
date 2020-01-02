@@ -827,6 +827,9 @@ in
 this
 code
 :
+language
+-
+js
 function
 f
 (
@@ -1360,6 +1363,9 @@ following
 source
 code
 :
+language
+-
+js
 a
 =
 [
@@ -1411,6 +1417,9 @@ array
 like
 this
 :
+language
+-
+js
 [
 [
 0
@@ -1733,9 +1742,6 @@ SpiderMonkey
 calls
 the
 hit
-<
-code
->
 method
 of
 <
@@ -1749,10 +1755,6 @@ i
 passing
 a
 [
-<
-/
-code
->
 Debugger
 .
 Frame

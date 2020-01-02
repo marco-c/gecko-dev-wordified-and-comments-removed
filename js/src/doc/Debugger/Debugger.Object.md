@@ -795,6 +795,9 @@ context
 For
 example
 :
+language
+-
+js
 function
 f
 (
@@ -1002,6 +1005,9 @@ i
 For
 example
 :
+language
+-
+js
 function
 h
 (
@@ -1172,6 +1178,9 @@ in
 this
 way
 :
+language
+-
+js
 function
 f
 (
@@ -1207,6 +1216,9 @@ have
 the
 value
 :
+language
+-
+js
 [
 "
 a
@@ -1750,6 +1762,9 @@ look
 like
 this
 :
+language
+-
+js
 {
 "
 type

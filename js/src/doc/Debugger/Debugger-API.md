@@ -1032,6 +1032,9 @@ in
 your
 browser
 :
+language
+-
+html
 <
 div
 onclick
@@ -1128,6 +1131,9 @@ in
 the
 Scratchpad
 :
+language
+-
+js
 /
 /
 This
