@@ -578,7 +578,7 @@ splashscreen
 String
 origin
 =
-WebAppAllocator
+Allocator
 .
 getInstance
 (
@@ -837,7 +837,7 @@ isApk
 int
 dominantColor
 =
-WebAppAllocator
+Allocator
 .
 getInstance
 (

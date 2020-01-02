@@ -164,7 +164,7 @@ String
 LOGTAG
 =
 "
-GeckoInstallHelper
+GeckoWebAppInstallHelper
 "
 ;
 private
@@ -849,10 +849,10 @@ assertOnBackgroundThread
 (
 )
 ;
-WebAppAllocator
+Allocator
 slots
 =
-WebAppAllocator
+Allocator
 .
 getInstance
 (

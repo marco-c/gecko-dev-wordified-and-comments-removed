@@ -1697,7 +1697,7 @@ gecko
 .
 webapp
 .
-WebAppDispatcher
+Dispatcher
 "
 android
 :
