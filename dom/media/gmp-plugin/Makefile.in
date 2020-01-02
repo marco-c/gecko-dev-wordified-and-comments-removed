@@ -71,6 +71,10 @@ bin
 gmp
 -
 fake
+/
+1
+.
+0
 FAKE_GMP_PLUGIN_FILES
 =
 \

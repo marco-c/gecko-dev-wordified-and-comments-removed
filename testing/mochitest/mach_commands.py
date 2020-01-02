@@ -2480,6 +2480,11 @@ gmp
 -
 fake
 '
+'
+1
+.
+0
+'
 )
         
 logger_options

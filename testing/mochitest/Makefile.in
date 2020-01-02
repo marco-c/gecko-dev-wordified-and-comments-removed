@@ -1157,6 +1157,10 @@ plugins
 gmp
 -
 fake
+/
+1
+.
+0
 cp
 (
 DEPTH
@@ -1367,5 +1371,9 @@ plugins
 gmp
 -
 fake
+/
+1
+.
+0
 ;
 )
