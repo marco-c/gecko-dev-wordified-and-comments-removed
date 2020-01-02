@@ -506,12 +506,6 @@ asyncUpdateUI
 (
 )
 ;
-BookmarkingUI
-.
-updateStarState
-(
-)
-;
 }
 let
 menubar
