@@ -30,7 +30,7 @@ gre
 /
 modules
 /
-SettingsRequestManager
+SettingsChangeNotifier
 .
 jsm
 '

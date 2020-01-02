@@ -115,8 +115,6 @@ enabled
 ]
 interface
 SettingsLock
-:
-EventTarget
 {
 /
 /
@@ -173,14 +171,6 @@ DOMRequest
 clear
 (
 )
-;
-attribute
-EventHandler
-onsettingstransactionsuccess
-;
-attribute
-EventHandler
-onsettingstransactionfailure
 ;
 }
 ;
