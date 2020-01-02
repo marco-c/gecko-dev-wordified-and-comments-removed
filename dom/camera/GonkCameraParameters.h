@@ -254,6 +254,12 @@ mExposureCompensationMin
 double
 mExposureCompensationStep
 ;
+nsTArray
+<
+int
+>
+mZoomRatios
+;
 class
 Parameters
 :
