@@ -1352,6 +1352,16 @@ mClosedTabs
 =
 closedTabs
 ;
+if
+(
+getActivity
+(
+)
+!
+=
+null
+)
+{
 getLoaderManager
 (
 )
@@ -1363,6 +1373,7 @@ null
 mCursorLoaderCallbacks
 )
 ;
+}
 }
 }
 )
