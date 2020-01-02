@@ -208,7 +208,7 @@ void
 MessagePort
 :
 :
-PostMessage
+PostMessageMoz
 (
 JSContext
 *

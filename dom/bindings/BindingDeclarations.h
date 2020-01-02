@@ -1544,9 +1544,12 @@ GetWrapperCache
 (
 nsGlobalWindow
 *
-not_allowed
 )
+{
+return
+nullptr
 ;
+}
 inline
 nsWrapperCache
 *

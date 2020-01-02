@@ -152,9 +152,6 @@ h
 *
 /
 interface
-Window
-;
-interface
 nsISupports
 ;
 /
