@@ -1557,6 +1557,11 @@ mode
 )
 return
 ;
+GLuint
+upperBound
+=
+0
+;
 if
 (
 !
@@ -1569,6 +1574,8 @@ primcount
 "
 drawElementsInstanced
 "
+&
+upperBound
 )
 )
 return
