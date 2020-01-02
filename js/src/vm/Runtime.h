@@ -1152,10 +1152,6 @@ pentry
 bool
 lookupType
 (
-const
-Class
-*
-clasp
 js
 :
 :
@@ -1178,7 +1174,12 @@ pentry
 return
 lookup
 (
+type
+-
+>
 clasp
+(
+)
 type
 kind
 pentry
@@ -1260,10 +1261,6 @@ fillType
 (
 EntryIndex
 entry
-const
-Class
-*
-clasp
 js
 :
 :
@@ -1300,7 +1297,12 @@ return
 fill
 (
 entry
+type
+-
+>
 clasp
+(
+)
 type
 kind
 obj
