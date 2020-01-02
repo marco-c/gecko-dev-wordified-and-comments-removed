@@ -284,6 +284,13 @@ globalObject
 =
 nullptr
 ;
+{
+JS
+:
+:
+AutoAssertNoGC
+nogc
+;
 if
 (
 mIsMainThread
@@ -505,6 +512,7 @@ Callback
 )
 )
 ;
+}
 if
 (
 mIsMainThread
