@@ -50,7 +50,9 @@ h
 #
 include
 "
-nsAutoPtr
+mozilla
+/
+UniquePtr
 .
 h
 "
@@ -97,8 +99,10 @@ tracked_objects
 Location
 &
 aLocation
+UniquePtr
+<
 CancelableTask
-*
+>
 aTask
 const
 TimeStamp
@@ -205,7 +209,7 @@ private
 bool
 mOutstanding
 ;
-nsAutoPtr
+UniquePtr
 <
 CancelableTask
 >

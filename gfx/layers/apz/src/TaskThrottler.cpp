@@ -53,8 +53,10 @@ tracked_objects
 Location
 &
 aLocation
+UniquePtr
+<
 CancelableTask
-*
+>
 aTask
 const
 TimeStamp
@@ -90,7 +92,10 @@ Cancel
 }
 mQueuedTask
 =
+Move
+(
 aTask
+)
 ;
 }
 else
@@ -105,9 +110,6 @@ aTask
 Run
 (
 )
-;
-delete
-aTask
 ;
 mOutstanding
 =

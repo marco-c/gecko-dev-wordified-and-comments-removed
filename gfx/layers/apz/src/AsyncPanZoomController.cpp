@@ -8701,6 +8701,11 @@ mPaintThrottler
 PostTask
 (
 FROM_HERE
+UniquePtr
+<
+CancelableTask
+>
+(
 NewRunnableMethod
 (
 this
@@ -8710,6 +8715,7 @@ AsyncPanZoomController
 :
 DispatchRepaintRequest
 aFrameMetrics
+)
 )
 GetFrameTime
 (
