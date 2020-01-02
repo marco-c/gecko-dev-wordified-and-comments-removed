@@ -134,14 +134,6 @@ xpcshellMacUtils
 mm
 '
 ]
-DEFINES
-[
-'
-JS_THREADSAFE
-'
-]
-=
-True
 if
 CONFIG
 [

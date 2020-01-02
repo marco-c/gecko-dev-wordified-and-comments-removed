@@ -365,14 +365,6 @@ dom_quickstubs
 h
 '
 ]
-DEFINES
-[
-'
-JS_THREADSAFE
-'
-]
-=
-True
 LOCAL_INCLUDES
 +
 =
