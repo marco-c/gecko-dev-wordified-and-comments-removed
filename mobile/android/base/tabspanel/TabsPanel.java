@@ -552,7 +552,7 @@ R
 .
 id
 .
-synced_tabs
+remote_tabs
 )
 ;
 mPanelRemote
