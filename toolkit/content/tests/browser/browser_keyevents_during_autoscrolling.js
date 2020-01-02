@@ -434,17 +434,6 @@ gBrowser
 contentWindow
 )
 ;
-executeSoon
-(
-continueTest
-)
-;
-}
-function
-continueTest
-(
-)
-{
 expectedKeyEvents
 =
 kNoKeyEvents
