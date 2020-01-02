@@ -1373,6 +1373,9 @@ w
 )
 ;
 }
+#
+ifndef
+JSGC_USE_EXACT_ROOTING
 MOZ_ASAN_BLACKLIST
 static
 void
@@ -1424,9 +1427,6 @@ i
 )
 ;
 }
-#
-ifndef
-JSGC_USE_EXACT_ROOTING
 static
 void
 MarkRangeConservativelyAndSkipIon
@@ -1775,8 +1775,6 @@ words
 )
 ;
 }
-#
-endif
 void
 js
 :
@@ -1874,6 +1872,8 @@ end
 #
 endif
 }
+#
+endif
 MOZ_NEVER_INLINE
 void
 ConservativeGCData
