@@ -190,11 +190,9 @@ android
 background
 =
 "
-android
-:
 color
 /
-darker_gray
+text_color_secondary_inverse
 "
 /
 >
