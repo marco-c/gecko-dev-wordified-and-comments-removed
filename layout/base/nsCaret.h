@@ -247,9 +247,13 @@ void
 aClosure
 )
 ;
+static
 nsresult
 GetCaretFrameForNodeOffset
 (
+nsFrameSelection
+*
+aFrameSelection
 nsIContent
 *
 aContentNode
@@ -470,9 +474,6 @@ mIgnoreUserModify
 ;
 bool
 mKeyboardRTL
-;
-bool
-mBidiUI
 ;
 nsRect
 mHookRect
