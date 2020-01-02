@@ -12,10 +12,6 @@ one
 test
 per
 line
-TestTXMgr
-#
-Bug
-919595
 TestPlainTextSerializer
 #
 Bug
