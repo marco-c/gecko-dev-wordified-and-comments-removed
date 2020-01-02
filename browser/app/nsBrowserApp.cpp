@@ -594,8 +594,8 @@ XRE_StartupTimelineRecord
 XRE_mainType
 XRE_main
 ;
-XRE_DisableWritePoisoningType
-XRE_DisableWritePoisoning
+XRE_StopLateWriteChecksType
+XRE_StopLateWriteChecks
 ;
 static
 const
@@ -689,14 +689,14 @@ XRE_main
 }
 {
 "
-XRE_DisableWritePoisoning
+XRE_StopLateWriteChecks
 "
 (
 NSFuncPtr
 *
 )
 &
-XRE_DisableWritePoisoning
+XRE_StopLateWriteChecks
 }
 {
 nullptr
@@ -2991,7 +2991,7 @@ NS_LogTerm
 #
 ifdef
 XP_MACOSX
-XRE_DisableWritePoisoning
+XRE_StopLateWriteChecks
 (
 )
 ;
