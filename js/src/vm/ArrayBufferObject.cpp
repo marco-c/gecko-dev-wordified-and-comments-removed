@@ -2475,9 +2475,6 @@ length
 )
 {
 return
-SystemPageAllocator
-:
-:
 AllocateMappedContent
 (
 fd
@@ -2509,9 +2506,6 @@ isNeutered
 )
 return
 ;
-SystemPageAllocator
-:
-:
 DeallocateMappedContent
 (
 dataPointer
@@ -5531,9 +5525,6 @@ size_t
 length
 )
 {
-SystemPageAllocator
-:
-:
 DeallocateMappedContent
 (
 contents
