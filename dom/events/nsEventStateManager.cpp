@@ -9788,7 +9788,7 @@ false
 ;
 nsCOMPtr
 <
-Element
+nsIContent
 >
 dragTarget
 =
@@ -9807,10 +9807,7 @@ dragTarget
 {
 dragTarget
 =
-do_QueryInterface
-(
 aDragTarget
-)
 ;
 if
 (

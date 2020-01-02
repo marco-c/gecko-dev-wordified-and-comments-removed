@@ -313,11 +313,6 @@ do_QueryInterface
 aDataTransfer
 )
 ;
-NS_ENSURE_ARG
-(
-dataTransfer
-)
-;
 nsresult
 rv
 =
