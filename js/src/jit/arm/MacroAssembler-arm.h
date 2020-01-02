@@ -1680,6 +1680,8 @@ Register
 dest
 Register
 hold
+Register
+tmp
 int32_t
 shift
 )

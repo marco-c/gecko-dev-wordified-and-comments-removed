@@ -914,7 +914,7 @@ LInstructionHelper
 <
 1
 1
-1
+2
 >
 {
 const
@@ -938,6 +938,10 @@ const
 LDefinition
 &
 temp1
+const
+LDefinition
+&
+temp2
 int32_t
 shift
 )
@@ -957,6 +961,12 @@ setTemp
 (
 0
 temp1
+)
+;
+setTemp
+(
+1
+temp2
 )
 ;
 }

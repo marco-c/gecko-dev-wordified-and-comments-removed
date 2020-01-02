@@ -4161,6 +4161,8 @@ Register
 dest
 Register
 hold
+Register
+tmp
 int32_t
 shift
 )
@@ -4182,7 +4184,7 @@ head
 ;
 as_mov
 (
-ScratchRegister
+tmp
 O2Reg
 (
 src
@@ -4226,7 +4228,7 @@ Imm32
 (
 0
 )
-ScratchRegister
+tmp
 SetCond
 Signed
 )
@@ -4243,7 +4245,7 @@ Imm32
 (
 mask
 )
-ScratchRegister
+tmp
 secondScratchReg_
 )
 ;
@@ -4275,10 +4277,10 @@ NotSigned
 ;
 as_mov
 (
-ScratchRegister
+tmp
 lsr
 (
-ScratchRegister
+tmp
 shift
 )
 SetCond
