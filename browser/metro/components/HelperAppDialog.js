@@ -429,7 +429,7 @@ browserBundle
 GetStringFromName
 (
 "
-downloadOpen
+downloadRun
 "
 )
 ;
@@ -642,7 +642,7 @@ browserBundle
 GetStringFromName
 (
 "
-alertDownloadSave2
+alertDownloadSave
 "
 )
 ;
