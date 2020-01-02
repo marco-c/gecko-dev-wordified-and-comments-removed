@@ -2988,14 +2988,6 @@ res
 /
 xml
 /
-sync_authenticator
-.
-xml
-\
-res
-/
-xml
-/
 sync_options
 .
 xml
