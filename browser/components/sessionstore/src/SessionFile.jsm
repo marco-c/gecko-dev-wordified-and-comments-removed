@@ -1018,7 +1018,7 @@ function
 )
 {
 return
-SessionFile
+SessionFileInternal
 .
 _latestWrite
 ;
