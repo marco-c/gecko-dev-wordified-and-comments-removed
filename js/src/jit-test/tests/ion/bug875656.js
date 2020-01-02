@@ -1,6 +1,5 @@
-enableSPSProfilingAssertions
+enableSPSProfiling
 (
-false
 )
 ;
 Object

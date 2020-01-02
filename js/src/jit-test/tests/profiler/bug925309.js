@@ -9,9 +9,8 @@ i
 <
 100
 ;
-enableSPSProfilingAssertions
+enableSPSProfiling
 (
-false
 )
 i
 +

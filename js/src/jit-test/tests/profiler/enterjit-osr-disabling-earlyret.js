@@ -22,9 +22,8 @@ trigger
 20
 )
 ;
-enableSPSProfilingAssertions
+enableSPSProfilingWithSlowAssertions
 (
-true
 )
 ;
 (
@@ -55,9 +54,8 @@ n
 )
 return
 ;
-enableSPSProfilingAssertions
+enableSPSProfilingWithSlowAssertions
 (
-true
 )
 ;
 }

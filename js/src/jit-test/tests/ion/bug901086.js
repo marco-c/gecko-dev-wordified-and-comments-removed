@@ -1,6 +1,5 @@
-enableSPSProfilingAssertions
+enableSPSProfiling
 (
-false
 )
 ;
 function

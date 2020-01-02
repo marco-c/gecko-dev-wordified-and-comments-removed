@@ -22,9 +22,8 @@ trigger
 20
 )
 ;
-enableSPSProfilingAssertions
+enableSPSProfilingWithSlowAssertions
 (
-true
 )
 ;
 (

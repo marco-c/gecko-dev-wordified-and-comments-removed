@@ -39,9 +39,8 @@ n
 -
 )
 {
-enableSPSProfilingAssertions
+enableSPSProfilingWithSlowAssertions
 (
-true
 )
 ;
 if

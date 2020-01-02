@@ -27,9 +27,8 @@ function
 (
 )
 {
-enableSPSProfilingAssertions
+enableSPSProfilingWithSlowAssertions
 (
-true
 )
 ;
 var
