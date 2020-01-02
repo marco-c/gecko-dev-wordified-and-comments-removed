@@ -2079,7 +2079,6 @@ isPrivate
 )
 )
 ;
-}
 if
 (
 message
@@ -2096,6 +2095,7 @@ selectTab
 id
 )
 ;
+}
 if
 (
 message
