@@ -141,7 +141,7 @@ ParentID
 (
 )
 :
-0
+mCachedPluginId
 ;
 }
 virtual
@@ -361,6 +361,9 @@ EncodedImageCallback
 *
 mCallback
 ;
+uint64_t
+mCachedPluginId
+;
 }
 ;
 class
@@ -401,7 +404,7 @@ ParentID
 (
 )
 :
-0
+mCachedPluginId
 ;
 }
 virtual
@@ -648,6 +651,9 @@ webrtc
 DecodedImageCallback
 *
 mCallback
+;
+uint64_t
+mCachedPluginId
 ;
 }
 ;
