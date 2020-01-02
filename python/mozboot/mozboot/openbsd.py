@@ -79,10 +79,6 @@ pulseaudio
 '
             
 '
-libIDL
-'
-            
-'
 gmake
 '
             
