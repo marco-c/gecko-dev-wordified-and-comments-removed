@@ -1208,6 +1208,8 @@ selectiontype
 =
 "
 single
+|
+none
 "
 selection
 =
@@ -1395,7 +1397,7 @@ new_bookmark
 accesskey
 ;
 "
-selection
+selectiontype
 =
 "
 any
@@ -1445,7 +1447,7 @@ context_new_folder
 accesskey
 ;
 "
-selection
+selectiontype
 =
 "
 any
@@ -1500,7 +1502,7 @@ closemenu
 "
 single
 "
-selection
+selectiontype
 =
 "
 any
@@ -1659,11 +1661,6 @@ copyCmd
 accesskey
 ;
 "
-selection
-=
-"
-any
-"
 /
 >
 <
@@ -1701,7 +1698,7 @@ pasteCmd
 accesskey
 ;
 "
-selection
+selectiontype
 =
 "
 any
