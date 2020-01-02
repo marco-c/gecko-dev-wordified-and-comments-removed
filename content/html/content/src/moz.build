@@ -417,6 +417,11 @@ MediaError
 h
 '
 '
+TextTrackManager
+.
+h
+'
+'
 TimeRanges
 .
 h
@@ -753,6 +758,11 @@ cpp
 '
 '
 MediaError
+.
+cpp
+'
+'
+TextTrackManager
 .
 cpp
 '
