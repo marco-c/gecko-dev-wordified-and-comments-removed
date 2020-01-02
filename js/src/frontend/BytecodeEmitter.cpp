@@ -2547,10 +2547,6 @@ break
 case
 STMT_WITH
 :
-FLUSH_POPS
-(
-)
-;
 if
 (
 Emit1

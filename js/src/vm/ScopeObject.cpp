@@ -2179,8 +2179,6 @@ HandleObject
 object
 HandleObject
 enclosing
-uint32_t
-depth
 HandleObject
 staticWith
 )
@@ -2323,18 +2321,6 @@ ScopeObject
 setEnclosingScope
 (
 enclosing
-)
-;
-obj
--
->
-setReservedSlot
-(
-DEPTH_SLOT
-PrivateUint32Value
-(
-depth
-)
 )
 ;
 obj
