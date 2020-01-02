@@ -75,7 +75,7 @@ const
 size_t
 TYPE_SLOT
 =
-JS_TYPEDOBJ_SLOT_TYPE_DESCR
+JS_TYPEDARR_SLOT_TYPE
 ;
 static
 const
