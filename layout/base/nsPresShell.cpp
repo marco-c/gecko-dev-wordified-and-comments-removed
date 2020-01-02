@@ -37002,7 +37002,6 @@ caret
 >
 GetGeometry
 (
-domSelection
 &
 caretCoords
 )
