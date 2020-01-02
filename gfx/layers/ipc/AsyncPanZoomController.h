@@ -325,6 +325,11 @@ GetNontransientAsyncTransform
 (
 )
 ;
+gfx3DMatrix
+GetTransformToLastDispatchedPaint
+(
+)
+;
 static
 const
 CSSRect
