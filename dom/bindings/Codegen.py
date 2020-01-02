@@ -100,8 +100,15 @@ member
 :
     
 return
-INSTANCE_RESERVED_SLOTS
+"
+(
+DOM_INSTANCE_RESERVED_SLOTS
 +
+%
+d
+)
+"
+%
 member
 .
 slotIndex
@@ -18595,7 +18602,7 @@ CGGeneric
 static_assert
 (
 %
-d
+s
 <
 js
 :
@@ -18984,7 +18991,7 @@ GetReservedSlot
 (
 obj
 %
-d
+s
 )
 )
 ;
@@ -19063,7 +19070,7 @@ SetReservedSlot
 (
 obj
 %
-d
+s
 oldValue
 )
 ;
@@ -19209,7 +19216,7 @@ SetReservedSlot
 (
 obj
 %
-d
+s
 JS
 :
 :
@@ -38666,7 +38673,7 @@ SetReservedSlot
 (
 reflector
 %
-d
+s
 tempVal
 )
 ;
@@ -45127,7 +45134,7 @@ GetReservedSlot
 (
 reflector
 %
-d
+s
 )
 ;
 \
@@ -47131,7 +47138,7 @@ n
                 
 "
 %
-d
+s
 /
 *
 Reserved
@@ -47423,42 +47430,15 @@ self
 member
 )
 ;
-                
-if
-slotIndex
->
-=
-16
-:
-                    
-raise
-TypeError
-(
-"
-Make
-sure
-we
-can
-actually
-have
-this
-many
-"
-                                    
-"
-fixed
-slots
-please
-!
-"
-)
             
 else
 :
                 
 slotIndex
 =
+"
 0
+"
             
 result
 =
@@ -47588,7 +47568,9 @@ AliasEverything
 "
                                              
 False
+"
 0
+"
                                              
 [
 BuiltinTypes
@@ -47822,7 +47804,9 @@ methodInfal
 False
 aliasSet
 False
+"
 0
+"
                                         
 [
 s
