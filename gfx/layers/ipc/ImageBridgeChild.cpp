@@ -3204,7 +3204,10 @@ ImageBridgeChild
 AllocPGrallocBufferChild
 (
 const
-gfxIntSize
+gfx
+:
+:
+IntSize
 &
 const
 uint32_t
@@ -4186,7 +4189,10 @@ ImageBridgeChild
 AllocGrallocBuffer
 (
 const
-gfxIntSize
+gfx
+:
+:
+IntSize
 &
 aSize
 uint32_t

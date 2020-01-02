@@ -139,6 +139,15 @@ layers
 :
 TextureInfo
 ;
+using
+mozilla
+:
+:
+gfx
+:
+:
+IntSize
+;
 namespace
 mozilla
 {
@@ -293,7 +302,7 @@ h
 sync
 PGrallocBuffer
 (
-gfxIntSize
+IntSize
 size
 uint32_t
 format
