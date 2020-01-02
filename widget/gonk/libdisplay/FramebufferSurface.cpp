@@ -168,6 +168,10 @@ mCurrentBuffer
 (
 0
 )
+lastHandle
+(
+0
+)
 {
 mName
 =
