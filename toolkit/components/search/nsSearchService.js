@@ -21282,6 +21282,9 @@ nsPref
 changed
 "
 :
+#
+ifdef
+MOZ_FENNEC
 if
 (
 aVerb
@@ -21299,6 +21302,8 @@ _asyncReInit
 break
 ;
 }
+#
+endif
 let
 currPref
 =
@@ -21621,6 +21626,9 @@ this
 false
 )
 ;
+#
+ifdef
+MOZ_FENNEC
 Services
 .
 prefs
@@ -21632,6 +21640,8 @@ this
 false
 )
 ;
+#
+endif
 let
 shutdownState
 =
@@ -21885,6 +21895,9 @@ selectedEngine
 this
 )
 ;
+#
+ifdef
+MOZ_FENNEC
 Services
 .
 prefs
@@ -21895,6 +21908,8 @@ LOCALE_PREF
 this
 )
 ;
+#
+endif
 }
 QueryInterface
 :
