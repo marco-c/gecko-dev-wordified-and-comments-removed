@@ -30,6 +30,15 @@ mozilla
 .
 gecko
 .
+AppConstants
+;
+import
+org
+.
+mozilla
+.
+gecko
+.
 GeckoProfile
 ;
 import
@@ -674,7 +683,7 @@ content
 /
 "
 +
-TestConstants
+AppConstants
 .
 ANDROID_PACKAGE_NAME
 +
