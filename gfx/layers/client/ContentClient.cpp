@@ -309,13 +309,6 @@ if
 !
 defined
 (
-MOZ_WIDGET_GONK
-)
-&
-&
-!
-defined
-(
 XP_WIN
 )
 useDeprecatedTextures
