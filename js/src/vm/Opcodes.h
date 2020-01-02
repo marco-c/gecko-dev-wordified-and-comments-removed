@@ -750,6 +750,7 @@ JOF_ATOM
 JOF_NAME
 )
 \
+\
 macro
 (
 JSOP_DELPROP
@@ -765,6 +766,7 @@ JOF_ATOM
 |
 JOF_PROP
 )
+\
 \
 macro
 (
@@ -998,6 +1000,7 @@ JOF_BYTE
 )
 \
 \
+\
 macro
 (
 JSOP_GETPROP
@@ -1017,6 +1020,7 @@ JOF_TYPESET
 |
 JOF_TMPSLOT3
 )
+\
 \
 macro
 (
@@ -1038,6 +1042,7 @@ JOF_SET
 JOF_DETECTING
 )
 \
+\
 macro
 (
 JSOP_GETELEM
@@ -1057,6 +1062,7 @@ JOF_TYPESET
 |
 JOF_LEFTASSOC
 )
+\
 \
 macro
 (
@@ -1630,6 +1636,7 @@ JOF_UINT16
 \
 \
 \
+\
 macro
 (
 JSOP_NEWINIT
@@ -1643,6 +1650,7 @@ NULL
 1
 JOF_UINT8
 )
+\
 \
 macro
 (
@@ -1658,6 +1666,7 @@ NULL
 JOF_UINT24
 )
 \
+\
 macro
 (
 JSOP_NEWOBJECT
@@ -1672,6 +1681,7 @@ NULL
 JOF_OBJECT
 )
 \
+\
 macro
 (
 JSOP_ENDINIT
@@ -1685,6 +1695,7 @@ NULL
 0
 JOF_BYTE
 )
+\
 \
 macro
 (
@@ -1792,6 +1803,7 @@ JOF_SET
 JOF_DETECTING
 )
 \
+\
 macro
 (
 JSOP_INITPROP_SETTER
@@ -1812,6 +1824,7 @@ JOF_SET
 JOF_DETECTING
 )
 \
+\
 macro
 (
 JSOP_INITELEM_GETTER
@@ -1831,6 +1844,7 @@ JOF_SET
 |
 JOF_DETECTING
 )
+\
 \
 macro
 (
@@ -3143,6 +3157,7 @@ JOF_BYTE
 )
 \
 \
+\
 macro
 (
 JSOP_CALLPROP
@@ -3278,6 +3293,7 @@ NULL
 0
 JOF_BYTE
 )
+\
 \
 \
 macro
@@ -3461,6 +3477,7 @@ NULL
 1
 JOF_BYTE
 )
+\
 \
 macro
 (
