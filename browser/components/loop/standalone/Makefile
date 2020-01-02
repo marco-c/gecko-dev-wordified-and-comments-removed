@@ -84,7 +84,7 @@ jshint
 *
 .
 js
-static
+content
 test
 runserver
 :

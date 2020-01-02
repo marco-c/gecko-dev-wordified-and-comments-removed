@@ -77,11 +77,12 @@ localhost
 :
 3000
 /
-static
+content
 /
 for
+all
 public
-web
+webapp
 contents
 -
 http
@@ -108,6 +109,9 @@ provided
 static
 file
 server
+for
+web
+contents
 is
 *
 *
