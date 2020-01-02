@@ -1426,7 +1426,7 @@ return
 GLuint
 upperBound
 =
-UINT_MAX
+0
 ;
 if
 (

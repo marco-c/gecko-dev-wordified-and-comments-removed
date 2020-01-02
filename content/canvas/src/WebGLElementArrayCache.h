@@ -104,8 +104,6 @@ count
 uint32_t
 *
 out_upperBound
-=
-nullptr
 )
 ;
 template
