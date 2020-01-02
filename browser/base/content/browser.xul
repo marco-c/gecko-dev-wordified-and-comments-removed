@@ -471,6 +471,17 @@ mainWindow
 titlePrivateBrowsingSuffix
 ;
 "
+chromemargin
+=
+"
+0
+-
+1
+-
+1
+-
+1
+"
 #
 else
 title_privatebrowsing
