@@ -87,7 +87,7 @@ Start
 (
 )
 ;
-urgent
+rpc
 Test1_InnerQuery
 (
 )
@@ -97,7 +97,7 @@ uint32_t
 result
 )
 ;
-urgent
+rpc
 Test1_NoReenter
 (
 )
@@ -107,17 +107,17 @@ uint32_t
 result
 )
 ;
-urgent
+rpc
 Test2_FirstUrgent
 (
 )
 ;
-urgent
+rpc
 Test2_SecondUrgent
 (
 )
 ;
-urgent
+rpc
 Test3_WakeUp
 (
 )
@@ -127,7 +127,7 @@ uint32_t
 result
 )
 ;
-urgent
+rpc
 Test4_WakeUp
 (
 )

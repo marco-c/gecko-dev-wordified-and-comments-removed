@@ -181,7 +181,7 @@ that
 CPOWs
 need
 .
-urgent
+rpc
 PreventExtensions
 (
 uint64_t
@@ -193,7 +193,7 @@ ReturnStatus
 rs
 )
 ;
-urgent
+rpc
 GetPropertyDescriptor
 (
 uint64_t
@@ -211,7 +211,7 @@ PPropertyDescriptor
 result
 )
 ;
-urgent
+rpc
 GetOwnPropertyDescriptor
 (
 uint64_t
@@ -229,7 +229,7 @@ PPropertyDescriptor
 result
 )
 ;
-urgent
+rpc
 DefineProperty
 (
 uint64_t
@@ -245,7 +245,7 @@ ReturnStatus
 rs
 )
 ;
-urgent
+rpc
 Delete
 (
 uint64_t
@@ -261,7 +261,7 @@ bool
 successful
 )
 ;
-urgent
+rpc
 Has
 (
 uint64_t
@@ -277,7 +277,7 @@ bool
 has
 )
 ;
-urgent
+rpc
 HasOwn
 (
 uint64_t
@@ -293,7 +293,7 @@ bool
 has
 )
 ;
-urgent
+rpc
 Get
 (
 uint64_t
@@ -311,7 +311,7 @@ JSVariant
 result
 )
 ;
-urgent
+rpc
 Set
 (
 uint64_t
@@ -333,7 +333,7 @@ JSVariant
 result
 )
 ;
-urgent
+rpc
 IsExtensible
 (
 uint64_t
@@ -347,7 +347,7 @@ bool
 result
 )
 ;
-urgent
+rpc
 Call
 (
 uint64_t
@@ -369,7 +369,7 @@ JSParam
 outparams
 )
 ;
-urgent
+rpc
 ObjectClassIs
 (
 uint64_t
@@ -383,7 +383,7 @@ bool
 result
 )
 ;
-urgent
+rpc
 ClassName
 (
 uint64_t
@@ -395,7 +395,7 @@ nsString
 name
 )
 ;
-urgent
+rpc
 GetPropertyNames
 (
 uint64_t
@@ -413,7 +413,7 @@ nsString
 names
 )
 ;
-urgent
+rpc
 InstanceOf
 (
 uint64_t
@@ -429,7 +429,7 @@ bool
 instanceof
 )
 ;
-urgent
+rpc
 DOMInstanceOf
 (
 uint64_t

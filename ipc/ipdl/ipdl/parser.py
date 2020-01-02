@@ -811,10 +811,6 @@ union
 '
         
 '
-urgent
-'
-        
-'
 using
 '
 )
@@ -4342,9 +4338,6 @@ INTR
 RPC
                          
 |
-URGENT
-                         
-|
 SYNC
 "
 "
@@ -4401,21 +4394,6 @@ p
 ]
 =
 SYNC
-    
-elif
-'
-urgent
-'
-=
-=
-s
-:
-p
-[
-0
-]
-=
-URGENT
     
 elif
 '

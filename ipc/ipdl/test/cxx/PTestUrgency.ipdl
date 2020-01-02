@@ -47,7 +47,7 @@ Start
 (
 )
 ;
-urgent
+rpc
 Reply1
 (
 )
@@ -57,7 +57,7 @@ uint32_t
 result
 )
 ;
-urgent
+rpc
 Reply2
 (
 )
@@ -67,7 +67,7 @@ uint32_t
 result
 )
 ;
-urgent
+rpc
 FinalTest_Hang
 (
 )
