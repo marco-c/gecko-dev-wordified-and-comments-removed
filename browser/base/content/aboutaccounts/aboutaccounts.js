@@ -1506,6 +1506,16 @@ if
 (
 window
 .
+closed
+)
+{
+return
+;
+}
+if
+(
+window
+.
 location
 .
 href
