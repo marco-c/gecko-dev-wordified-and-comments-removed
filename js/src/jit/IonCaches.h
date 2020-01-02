@@ -2753,7 +2753,9 @@ ion
 HandleObject
 scopeChain
 HandleObject
-obj
+holderBase
+HandleObject
+holder
 HandleShape
 shape
 )
