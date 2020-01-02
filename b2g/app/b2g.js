@@ -5674,6 +5674,9 @@ socket
 "
 )
 ;
+#
+ifdef
+MOZ_WIDGET_GONK
 pref
 (
 "
@@ -5704,6 +5707,8 @@ accelerated
 true
 )
 ;
+#
+endif
 pref
 (
 "
