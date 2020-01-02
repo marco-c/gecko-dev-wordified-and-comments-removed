@@ -17,6 +17,13 @@ h
 "
 #
 include
+"
+nsISupportsImpl
+.
+h
+"
+#
+include
 <
 string
 >
