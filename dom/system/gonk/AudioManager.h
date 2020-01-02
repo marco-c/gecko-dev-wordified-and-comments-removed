@@ -199,6 +199,12 @@ AudioChannelAgent
 >
 mPhoneAudioAgent
 ;
+bool
+mMuteCallToRIL
+;
+bool
+mIsMicMuted
+;
 void
 HandleBluetoothStatusChanged
 (
