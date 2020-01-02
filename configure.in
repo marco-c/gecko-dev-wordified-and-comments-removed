@@ -70185,7 +70185,7 @@ then
 if
 test
 "
-MOZ_ENABLE_GTK2
+MOZ_ENABLE_GTK
 "
 ;
 then
