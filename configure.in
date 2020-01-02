@@ -77725,10 +77725,6 @@ COMPILE_ENVIRONMENT
 &
 !
 LIBXUL_SDK_DIR
-export
-WRITE_MOZINFO
-=
-1
 dnl
 we
 need
@@ -77790,5 +77786,3 @@ variables
 MOZ_RUN_CONFIG_STATUS
 (
 )
-unset
-WRITE_MOZINFO
