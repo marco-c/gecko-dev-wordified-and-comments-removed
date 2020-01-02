@@ -1883,7 +1883,7 @@ version_range
 =
 {
 SSL_LIBRARY_VERSION_TLS_1_1
-SSL_LIBRARY_VERSION_TLS_1_2
+SSL_LIBRARY_VERSION_TLS_1_1
 }
 ;
 rv
@@ -2525,6 +2525,9 @@ false
 ;
 }
 }
+#
+if
+0
 for
 (
 size_t
@@ -2668,6 +2671,8 @@ false
 }
 }
 }
+#
+endif
 return
 true
 ;
