@@ -34,11 +34,6 @@ x
 &
 HBHEADERS
 =
-cd
-"
-srcdir
-"
-;
 find
 .
 -
@@ -63,11 +58,6 @@ x
 &
 HBSOURCES
 =
-cd
-"
-srcdir
-"
-;
 find
 .
 -
