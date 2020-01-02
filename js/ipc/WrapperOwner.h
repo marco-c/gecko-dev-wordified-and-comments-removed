@@ -1006,6 +1006,14 @@ JSObject
 obj
 )
 ;
+bool
+IsWrappedCPOW
+(
+JSObject
+*
+obj
+)
+;
 nsresult
 InstanceOf
 (
