@@ -18802,13 +18802,10 @@ IsEmpty
 {
 messageStr
 .
-AssignLiteral
+Assign
 (
-MOZ_UTF16
-(
-"
-"
-)
+'
+'
 )
 ;
 }

@@ -5282,8 +5282,6 @@ aVersion
 .
 AssignLiteral
 (
-MOZ_UTF16
-(
 "
 0
 .
@@ -5293,7 +5291,6 @@ MOZ_UTF16
 .
 0
 "
-)
 )
 ;
 versInfoSize

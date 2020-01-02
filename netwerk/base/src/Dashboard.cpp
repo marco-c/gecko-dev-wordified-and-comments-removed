@@ -577,12 +577,9 @@ mStatus
 .
 AssignLiteral
 (
-MOZ_UTF16
-(
 "
 NS_ERROR_NET_TIMEOUT
 "
-)
 )
 ;
 nsCOMPtr
@@ -3833,8 +3830,6 @@ protocolVersion
 .
 AssignLiteral
 (
-MOZ_UTF16
-(
 "
 http
 /
@@ -3842,7 +3837,6 @@ http
 .
 9
 "
-)
 )
 ;
 break
@@ -3854,8 +3848,6 @@ protocolVersion
 .
 AssignLiteral
 (
-MOZ_UTF16
-(
 "
 http
 /
@@ -3863,7 +3855,6 @@ http
 .
 0
 "
-)
 )
 ;
 break
@@ -3875,8 +3866,6 @@ protocolVersion
 .
 AssignLiteral
 (
-MOZ_UTF16
-(
 "
 http
 /
@@ -3884,7 +3873,6 @@ http
 .
 1
 "
-)
 )
 ;
 break
@@ -3896,8 +3884,6 @@ protocolVersion
 .
 AssignLiteral
 (
-MOZ_UTF16
-(
 "
 http
 /
@@ -3905,7 +3891,6 @@ http
 .
 0
 "
-)
 )
 ;
 break
@@ -3916,14 +3901,11 @@ protocolVersion
 .
 AssignLiteral
 (
-MOZ_UTF16
-(
 "
 unknown
 protocol
 version
 "
-)
 )
 ;
 }
@@ -3950,14 +3932,11 @@ protocolVersion
 .
 AssignLiteral
 (
-MOZ_UTF16
-(
 "
 spdy
 /
 3
 "
-)
 )
 ;
 }
@@ -3974,8 +3953,6 @@ protocolVersion
 .
 AssignLiteral
 (
-MOZ_UTF16
-(
 "
 spdy
 /
@@ -3983,7 +3960,6 @@ spdy
 .
 1
 "
-)
 )
 ;
 }

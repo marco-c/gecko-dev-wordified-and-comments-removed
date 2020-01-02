@@ -1680,12 +1680,9 @@ appName
 .
 AssignLiteral
 (
-MOZ_UTF16
-(
 "
 Gecko
 "
-)
 )
 ;
 }
