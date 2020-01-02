@@ -1002,7 +1002,7 @@ internal
 .
 notifyObservers
 (
-ONLOGIN_NOTIFICATION
+ONVERIFIED_NOTIFICATION
 )
 ;
 return
@@ -2426,6 +2426,13 @@ then
 =
 >
 {
+internal
+.
+notifyObservers
+(
+ONLOGIN_NOTIFICATION
+)
+;
 if
 (
 !
