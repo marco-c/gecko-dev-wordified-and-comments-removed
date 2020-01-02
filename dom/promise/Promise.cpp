@@ -2061,7 +2061,6 @@ get
 (
 0
 )
-SyncTask
 )
 ;
 }
@@ -2079,7 +2078,6 @@ get
 (
 0
 )
-SyncTask
 )
 ;
 }
