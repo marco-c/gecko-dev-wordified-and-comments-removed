@@ -3567,10 +3567,10 @@ numRegions
 if
 (
 !
-JitcodeMainTable
+JitcodeIonTable
 :
 :
-WriteMainTable
+WriteIonTable
 (
 writer
 nativeToBytecodeScriptList_
@@ -3795,14 +3795,14 @@ uint32_t
 )
 ;
 const
-JitcodeMainTable
+JitcodeIonTable
 *
-mainTable
+ionTable
 =
 reinterpret_cast
 <
 const
-JitcodeMainTable
+JitcodeIonTable
 *
 >
 (
@@ -3811,7 +3811,7 @@ tablePtr
 ;
 JS_ASSERT
 (
-mainTable
+ionTable
 -
 >
 numRegions
@@ -3824,7 +3824,7 @@ nativeToBytecodeNumRegions_
 ;
 JS_ASSERT
 (
-mainTable
+ionTable
 -
 >
 regionOffset
@@ -3845,7 +3845,7 @@ i
 ;
 i
 <
-mainTable
+ionTable
 -
 >
 numRegions
@@ -3859,7 +3859,7 @@ i
 {
 JS_ASSERT
 (
-mainTable
+ionTable
 -
 >
 regionOffset
@@ -3876,7 +3876,7 @@ JS_ASSERT_IF
 i
 >
 0
-mainTable
+ionTable
 -
 >
 regionOffset
@@ -3884,7 +3884,7 @@ regionOffset
 i
 )
 <
-mainTable
+ionTable
 -
 >
 regionOffset
@@ -3898,7 +3898,7 @@ i
 JitcodeRegionEntry
 entry
 =
-mainTable
+ionTable
 -
 >
 regionEntry
