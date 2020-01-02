@@ -740,6 +740,7 @@ html_msg
 "
 TESTNAME
 "
+#
 TESTNAME
 =
 "
@@ -749,12 +750,14 @@ supports
 OCSP
 stapling
 "
+#
 echo
 "
 SCRIPTNAME
 :
 TESTNAME
 "
+#
 echo
 "
 tstclnt
@@ -793,6 +796,7 @@ d
 REQF
 }
 "
+#
 {
 BINDIR
 }
@@ -832,6 +836,7 @@ d
 {
 REQF
 }
+#
 html_msg
 ?
 3
