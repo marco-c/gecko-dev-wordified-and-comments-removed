@@ -7454,7 +7454,10 @@ manifest_relpath
         
 for
 source
+(
 dest
+is_test
+)
 in
 obj
 .
@@ -7492,6 +7495,8 @@ not
 obj
 .
 dupe_manifest
+and
+is_test
 :
                     
 raise

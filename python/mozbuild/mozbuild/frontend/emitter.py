@@ -3163,6 +3163,16 @@ pattern
 )
 )
                             
+dest_path
+=
+mozpath
+.
+join
+(
+out_dir
+pattern
+)
+                            
 if
 not
 full
@@ -3173,6 +3183,38 @@ manifest_dir
 )
 :
                                 
+if
+thing
+=
+=
+'
+support
+-
+files
+'
+:
+                                    
+dest_path
+=
+mozpath
+.
+join
+(
+out_dir
+                                        
+os
+.
+path
+.
+basename
+(
+pattern
+)
+)
+                                
+else
+:
+                                    
 continue
                             
 obj
@@ -3182,12 +3224,15 @@ installs
 full
 ]
 =
+(
 mozpath
 .
-join
+normpath
 (
-out_dir
-pattern
+dest_path
+)
+                                
+False
 )
             
 for
@@ -3224,6 +3269,7 @@ path
 =
 \
                     
+(
 mozpath
 .
 join
@@ -3235,6 +3281,8 @@ test
 relpath
 '
 ]
+)
+True
 )
                 
 process_support_files
@@ -3274,7 +3322,10 @@ installs
 path
 ]
 =
+(
 out_path
+False
+)
             
 for
 f
