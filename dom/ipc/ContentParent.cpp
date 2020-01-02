@@ -11430,9 +11430,12 @@ OpenMode
 &
 aOpenMode
 const
-int64_t
+asmjscache
+:
+:
+WriteParams
 &
-aSizeToWrite
+aWriteParams
 const
 IPC
 :
@@ -11449,7 +11452,7 @@ asmjscache
 AllocEntryParent
 (
 aOpenMode
-aSizeToWrite
+aWriteParams
 aPrincipal
 )
 ;

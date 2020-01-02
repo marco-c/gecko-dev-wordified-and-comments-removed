@@ -697,9 +697,12 @@ OpenMode
 &
 aOpenMode
 const
-int64_t
+asmjscache
+:
+:
+WriteParams
 &
-aSizeToWrite
+aWriteParams
 const
 IPC
 :
