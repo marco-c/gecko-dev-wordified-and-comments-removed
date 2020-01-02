@@ -83,16 +83,6 @@ aObj
 )
 ;
 static
-nsIScriptGlobalObject
-*
-GetDynamicScriptGlobal
-(
-JSContext
-*
-aContext
-)
-;
-static
 nsIScriptContext
 *
 GetDynamicScriptContext
