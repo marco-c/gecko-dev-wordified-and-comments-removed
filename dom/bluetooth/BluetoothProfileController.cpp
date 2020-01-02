@@ -250,14 +250,6 @@ MOZ_ASSERT
 mTimer
 )
 ;
-mCheckProfileStatusCallback
-=
-new
-CheckProfileStatusCallback
-(
-this
-)
-;
 mProfiles
 .
 Clear
@@ -841,7 +833,11 @@ mTimer
 >
 InitWithCallback
 (
-mCheckProfileStatusCallback
+new
+CheckProfileStatusCallback
+(
+this
+)
 CONNECTION_TIMEOUT_MS
 nsITimer
 :
