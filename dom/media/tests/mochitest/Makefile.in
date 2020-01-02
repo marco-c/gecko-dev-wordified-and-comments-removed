@@ -76,3 +76,17 @@ MOCHITEST_FILES
 NULL
 )
 endif
+ifdef
+MOZ_B2G_CAMERA
+MOCHITEST_FILES
++
+=
+\
+test_getUserMedia_permission
+.
+html
+\
+(
+NULL
+)
+endif
