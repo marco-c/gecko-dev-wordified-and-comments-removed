@@ -4817,6 +4817,13 @@ X11
 /
 extensions
 /
+Xfixes
+.
+h
+X11
+/
+extensions
+/
 Xdamage
 .
 h
