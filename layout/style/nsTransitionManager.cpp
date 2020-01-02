@@ -303,6 +303,8 @@ aRefreshTime
 >
 =
 mStartTime
++
+mDelay
 )
 {
 timePortion
@@ -329,7 +331,11 @@ timePortion
 (
 aRefreshTime
 -
+(
 mStartTime
++
+mDelay
+)
 )
 .
 ToSeconds
@@ -607,6 +613,8 @@ IsRemovedSentinel
 &
 &
 mStartTime
++
+mDelay
 <
 =
 aTime
@@ -615,6 +623,8 @@ aTime
 aTime
 <
 mStartTime
++
+mDelay
 +
 mDuration
 ;
@@ -2901,7 +2911,11 @@ pt
 mStartTime
 =
 mostRecentRefresh
-+
+;
+pt
+.
+mDelay
+=
 TimeDuration
 :
 :
@@ -4079,6 +4093,10 @@ mStartTime
 +
 pt
 .
+mDelay
++
+pt
+.
 mDuration
 <
 =
@@ -4209,6 +4227,10 @@ if
 pt
 .
 mStartTime
++
+pt
+.
+mDelay
 <
 =
 now

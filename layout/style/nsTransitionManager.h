@@ -84,6 +84,12 @@ mozilla
 :
 :
 TimeDuration
+mDelay
+;
+mozilla
+:
+:
+TimeDuration
 mDuration
 ;
 mozilla

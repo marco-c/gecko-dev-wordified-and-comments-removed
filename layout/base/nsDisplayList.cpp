@@ -3037,13 +3037,10 @@ anim
 .
 mDelay
 =
-TimeDuration
-:
-:
-FromMilliseconds
-(
-0
-)
+pt
+-
+>
+mDelay
 ;
 anim
 .
