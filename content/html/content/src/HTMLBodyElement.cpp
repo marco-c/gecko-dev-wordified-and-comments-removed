@@ -75,13 +75,6 @@ h
 #
 include
 "
-nsIMarkupDocumentViewer
-.
-h
-"
-#
-include
-"
 nsMappedAttributes
 .
 h

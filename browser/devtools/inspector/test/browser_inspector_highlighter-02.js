@@ -334,13 +334,6 @@ selectedBrowser
 docShell
 .
 contentViewer
-.
-QueryInterface
-(
-Ci
-.
-nsIMarkupDocumentViewer
-)
 ;
 contentViewer
 .

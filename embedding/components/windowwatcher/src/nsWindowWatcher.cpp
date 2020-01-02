@@ -253,13 +253,6 @@ h
 #
 include
 "
-nsIMarkupDocumentViewer
-.
-h
-"
-#
-include
-"
 nsIContentViewer
 .
 h

@@ -342,15 +342,6 @@ docViewer
 docShell
 .
 contentViewer
-.
-QueryInterface
-(
-Components
-.
-interfaces
-.
-nsIMarkupDocumentViewer
-)
 ;
 docViewer
 .

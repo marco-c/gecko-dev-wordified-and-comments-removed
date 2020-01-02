@@ -2428,13 +2428,6 @@ return
 docShell
 .
 contentViewer
-.
-QueryInterface
-(
-Ci
-.
-nsIMarkupDocumentViewer
-)
 ;
 }
 getStyleSheetInfo

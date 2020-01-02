@@ -5718,13 +5718,6 @@ window
 )
 .
 contentViewer
-.
-QueryInterface
-(
-Ci
-.
-nsIMarkupDocumentViewer
-)
 ;
 }
 _getTopChromeWindow

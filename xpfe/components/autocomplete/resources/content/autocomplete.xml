@@ -11573,15 +11573,6 @@ nsIDocShell
 )
 .
 contentViewer
-.
-QueryInterface
-(
-Components
-.
-interfaces
-.
-nsIMarkupDocumentViewer
-)
 ;
 var
 rect

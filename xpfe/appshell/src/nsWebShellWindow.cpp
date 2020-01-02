@@ -323,13 +323,6 @@ h
 #
 include
 "
-nsIMarkupDocumentViewer
-.
-h
-"
-#
-include
-"
 mozilla
 /
 Attributes

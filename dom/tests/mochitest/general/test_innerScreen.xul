@@ -506,13 +506,6 @@ fmudv
 fshell
 .
 contentViewer
-.
-QueryInterface
-(
-CI
-.
-nsIMarkupDocumentViewer
-)
 ;
 isRounded
 (

@@ -6775,7 +6775,7 @@ _approximately_
 the
 same
 as
-nsIMarkupDocumentViewer
+nsIContentViewer
 .
 fullZoom
 *

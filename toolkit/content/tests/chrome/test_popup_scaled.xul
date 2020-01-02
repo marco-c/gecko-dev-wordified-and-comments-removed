@@ -505,15 +505,6 @@ docViewer
 shell
 .
 contentViewer
-.
-QueryInterface
-(
-Components
-.
-interfaces
-.
-nsIMarkupDocumentViewer
-)
 ;
 docViewer
 .

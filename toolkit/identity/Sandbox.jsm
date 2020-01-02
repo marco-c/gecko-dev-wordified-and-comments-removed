@@ -487,13 +487,6 @@ markupDocViewer
 docShell
 .
 contentViewer
-.
-QueryInterface
-(
-Ci
-.
-nsIMarkupDocumentViewer
-)
 ;
 markupDocViewer
 .

@@ -71,13 +71,6 @@ h
 #
 include
 "
-nsIMarkupDocumentViewer
-.
-h
-"
-#
-include
-"
 nsIDocShell
 .
 h

@@ -1711,13 +1711,6 @@ return
 docShell
 .
 contentViewer
-.
-QueryInterface
-(
-Ci
-.
-nsIMarkupDocumentViewer
-)
 ;
 }
 _cache

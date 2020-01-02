@@ -2447,15 +2447,6 @@ this
 docShell
 .
 contentViewer
-.
-QueryInterface
-(
-Components
-.
-interfaces
-.
-nsIMarkupDocumentViewer
-)
 ;
 "
 readonly
