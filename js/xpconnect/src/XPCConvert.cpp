@@ -2210,7 +2210,7 @@ JSString
 *
 str
 =
-JS_ValueToString
+ToString
 (
 cx
 s
@@ -2308,7 +2308,7 @@ if
 (
 str
 =
-JS_ValueToString
+ToString
 (
 cx
 s
@@ -2704,7 +2704,7 @@ s
 {
 str
 =
-JS_ValueToString
+ToString
 (
 cx
 s
@@ -3039,7 +3039,7 @@ JSString
 *
 str
 =
-JS_ValueToString
+ToString
 (
 cx
 s
@@ -3286,7 +3286,7 @@ if
 (
 str
 =
-JS_ValueToString
+ToString
 (
 cx
 s
@@ -3516,7 +3516,7 @@ if
 (
 str
 =
-JS_ValueToString
+ToString
 (
 cx
 s
@@ -3740,7 +3740,7 @@ JSString
 *
 str
 =
-JS_ValueToString
+ToString
 (
 cx
 s
@@ -5722,7 +5722,7 @@ nullptr
 (
 str
 =
-JS_ValueToString
+ToString
 (
 cx
 s
@@ -5854,7 +5854,7 @@ JSString
 *
 str
 =
-JS_ValueToString
+ToString
 (
 cx
 s
@@ -6176,7 +6176,7 @@ JSString
 *
 str
 =
-JS_ValueToString
+ToString
 (
 cx
 s
@@ -8809,7 +8809,7 @@ JSString
 *
 str
 =
-JS_ValueToString
+ToString
 (
 cx
 s
@@ -9091,7 +9091,7 @@ if
 (
 str
 =
-JS_ValueToString
+ToString
 (
 cx
 s

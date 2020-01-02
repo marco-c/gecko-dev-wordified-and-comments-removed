@@ -593,7 +593,10 @@ InitOrStringify
 JSContext
 *
 cx
-jsval
+JS
+:
+:
+HandleValue
 v
 JS
 :
@@ -710,7 +713,10 @@ nullptr
 }
 s
 =
-JS_ValueToString
+JS
+:
+:
+ToString
 (
 cx
 v
