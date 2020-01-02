@@ -7321,6 +7321,14 @@ mContentBackend
 =
 aContentDefault
 ;
+mContentBackendBitmask
+|
+=
+BackendTypeBit
+(
+aContentDefault
+)
+;
 }
 }
 BackendType
