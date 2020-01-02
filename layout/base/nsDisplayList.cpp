@@ -3708,10 +3708,7 @@ aCriticalDisplayPort
 ViewID
 aScrollId
 const
-nsDisplayItem
-:
-:
-ContainerParameters
+ContainerLayerParameters
 &
 aContainerParameters
 )
@@ -6685,10 +6682,7 @@ GetRoot
 nullptr
 )
 ;
-nsDisplayItem
-:
-:
-ContainerParameters
+ContainerLayerParameters
 containerParameters
 (
 presShell
@@ -10260,10 +10254,7 @@ LayerManager
 *
 aManager
 const
-FrameLayerBuilder
-:
-:
-ContainerParameters
+ContainerLayerParameters
 &
 aParameters
 )
@@ -10581,7 +10572,7 @@ LayerManager
 *
 aManager
 const
-ContainerParameters
+ContainerLayerParameters
 &
 aParameters
 )
@@ -15167,10 +15158,7 @@ LayerManager
 *
 aManager
 const
-FrameLayerBuilder
-:
-:
-ContainerParameters
+ContainerLayerParameters
 &
 aParameters
 const
@@ -15355,7 +15343,7 @@ LayerManager
 *
 aManager
 const
-ContainerParameters
+ContainerLayerParameters
 &
 aParameters
 const
@@ -15961,7 +15949,7 @@ LayerManager
 *
 aManager
 const
-ContainerParameters
+ContainerLayerParameters
 &
 aContainerParameters
 )
@@ -16151,7 +16139,7 @@ LayerManager
 *
 aManager
 const
-ContainerParameters
+ContainerLayerParameters
 &
 aParameters
 )
@@ -16459,12 +16447,12 @@ LayerManager
 *
 aManager
 const
-ContainerParameters
+ContainerLayerParameters
 &
 aContainerParameters
 )
 {
-ContainerParameters
+ContainerLayerParameters
 newContainerParameters
 =
 aContainerParameters
@@ -16754,12 +16742,12 @@ LayerManager
 *
 aManager
 const
-ContainerParameters
+ContainerLayerParameters
 &
 aContainerParameters
 )
 {
-ContainerParameters
+ContainerLayerParameters
 newContainerParameters
 =
 aContainerParameters
@@ -16978,7 +16966,7 @@ LayerManager
 *
 aManager
 const
-ContainerParameters
+ContainerLayerParameters
 &
 aContainerParameters
 )
@@ -17104,7 +17092,7 @@ LayerManager
 *
 aManager
 const
-ContainerParameters
+ContainerLayerParameters
 &
 aContainerParameters
 )
@@ -17125,10 +17113,7 @@ PresShell
 (
 )
 ;
-nsDisplayItem
-:
-:
-ContainerParameters
+ContainerLayerParameters
 containerParameters
 (
 presShell
@@ -17282,7 +17267,7 @@ nsPresContext
 *
 aPresContext
 const
-ContainerParameters
+ContainerLayerParameters
 &
 aContainerParameters
 )
@@ -17669,7 +17654,7 @@ LayerManager
 *
 aManager
 const
-ContainerParameters
+ContainerLayerParameters
 &
 aContainerParameters
 )
@@ -17922,7 +17907,7 @@ LayerManager
 *
 aManager
 const
-ContainerParameters
+ContainerLayerParameters
 &
 aContainerParameters
 )
@@ -18471,7 +18456,7 @@ LayerManager
 *
 aManager
 const
-ContainerParameters
+ContainerLayerParameters
 &
 aContainerParameters
 )
@@ -18765,7 +18750,7 @@ LayerManager
 *
 aManager
 const
-ContainerParameters
+ContainerLayerParameters
 &
 aParameters
 )
@@ -19129,7 +19114,7 @@ LayerManager
 *
 aManager
 const
-ContainerParameters
+ContainerLayerParameters
 &
 aParameters
 )
@@ -22019,7 +22004,7 @@ LayerManager
 *
 aManager
 const
-ContainerParameters
+ContainerLayerParameters
 &
 aContainerParameters
 )
@@ -22285,7 +22270,7 @@ LayerManager
 *
 aManager
 const
-ContainerParameters
+ContainerLayerParameters
 &
 aParameters
 )
@@ -23947,7 +23932,7 @@ LayerManager
 *
 aManager
 const
-ContainerParameters
+ContainerLayerParameters
 &
 aParameters
 )
@@ -23972,7 +23957,7 @@ LayerManager
 *
 aManager
 const
-ContainerParameters
+ContainerLayerParameters
 &
 aContainerParameters
 )

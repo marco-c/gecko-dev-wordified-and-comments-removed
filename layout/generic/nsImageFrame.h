@@ -1316,7 +1316,7 @@ LayerManager
 *
 aManager
 const
-ContainerParameters
+ContainerLayerParameters
 &
 aParameters
 )
@@ -1371,7 +1371,7 @@ LayerManager
 *
 aManager
 const
-ContainerParameters
+ContainerLayerParameters
 &
 aContainerParameters
 )

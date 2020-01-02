@@ -255,7 +255,7 @@ LayerManager
 *
 aManager
 const
-ContainerParameters
+ContainerLayerParameters
 &
 aContainerParameters
 )
@@ -291,10 +291,7 @@ LayerManager
 *
 aManager
 const
-FrameLayerBuilder
-:
-:
-ContainerParameters
+ContainerLayerParameters
 &
 aParameters
 )
@@ -1100,7 +1097,7 @@ nsDisplayItem
 *
 aItem
 const
-ContainerParameters
+ContainerLayerParameters
 &
 aContainerParameters
 )

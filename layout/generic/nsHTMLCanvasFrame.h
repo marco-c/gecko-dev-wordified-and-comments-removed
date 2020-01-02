@@ -94,11 +94,8 @@ typedef
 mozilla
 :
 :
-FrameLayerBuilder
-:
-:
-ContainerParameters
-ContainerParameters
+ContainerLayerParameters
+ContainerLayerParameters
 ;
 NS_DECL_QUERYFRAME_TARGET
 (
@@ -169,7 +166,7 @@ nsDisplayItem
 *
 aItem
 const
-ContainerParameters
+ContainerLayerParameters
 &
 aContainerParameters
 )

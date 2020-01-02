@@ -111,11 +111,8 @@ typedef
 mozilla
 :
 :
-FrameLayerBuilder
-:
-:
-ContainerParameters
-ContainerParameters
+ContainerLayerParameters
+ContainerLayerParameters
 ;
 nsVideoFrame
 (
@@ -391,7 +388,7 @@ nsDisplayItem
 *
 aItem
 const
-ContainerParameters
+ContainerLayerParameters
 &
 aContainerParameters
 )

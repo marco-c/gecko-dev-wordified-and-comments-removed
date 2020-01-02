@@ -3416,7 +3416,7 @@ nsDisplayItem
 *
 aItem
 const
-ContainerParameters
+ContainerLayerParameters
 &
 aContainerParameters
 )
@@ -4861,7 +4861,7 @@ LayerManager
 *
 aManager
 const
-ContainerParameters
+ContainerLayerParameters
 &
 aContainerParameters
 )

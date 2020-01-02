@@ -152,11 +152,8 @@ typedef
 mozilla
 :
 :
-FrameLayerBuilder
-:
-:
-ContainerParameters
-ContainerParameters
+ContainerLayerParameters
+ContainerLayerParameters
 ;
 NS_DECL_FRAMEARENA_HELPERS
 friend
@@ -584,7 +581,7 @@ nsDisplayItem
 *
 aItem
 const
-ContainerParameters
+ContainerLayerParameters
 &
 aContainerParameters
 )
@@ -1035,7 +1032,7 @@ LayerManager
 *
 aManager
 const
-ContainerParameters
+ContainerLayerParameters
 &
 aContainerParameters
 )
@@ -1072,7 +1069,7 @@ LayerManager
 *
 aManager
 const
-ContainerParameters
+ContainerLayerParameters
 &
 aParameters
 )
