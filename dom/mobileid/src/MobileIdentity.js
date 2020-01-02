@@ -167,6 +167,7 @@ getMobileIdAssertion
 function
 (
 aWindow
+aOptions
 )
 {
 log
@@ -253,6 +254,9 @@ GetAssertion
 promiseId
 :
 promiseId
+options
+:
+aOptions
 }
 null
 aWindow

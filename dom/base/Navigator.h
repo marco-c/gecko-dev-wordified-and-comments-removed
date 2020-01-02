@@ -134,6 +134,9 @@ WakeLock
 class
 ArrayBufferViewOrBlobOrStringOrFormData
 ;
+struct
+MobileIdOptions
+;
 }
 }
 #
@@ -766,6 +769,10 @@ Promise
 >
 GetMobileIdAssertion
 (
+const
+MobileIdOptions
+&
+options
 ErrorResult
 &
 aRv
