@@ -275,6 +275,9 @@ init
 (
 )
 ;
+#
+ifdef
+MOZ_SERVICES_FXACCOUNTS
 Cu
 .
 import
@@ -294,6 +297,8 @@ jsm
 '
 )
 ;
+#
+endif
 Cu
 .
 import
