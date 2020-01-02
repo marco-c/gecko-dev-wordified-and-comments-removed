@@ -22494,6 +22494,15 @@ friend
 class
 ICStubSpace
 ;
+public
+:
+static
+const
+uint32_t
+MAX_ARGS_SPREAD_LENGTH
+=
+16
+;
 protected
 :
 HeapPtrScript
