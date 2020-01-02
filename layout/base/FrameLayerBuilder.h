@@ -479,8 +479,9 @@ aContainerFrame
 nsDisplayItem
 *
 aContainerItem
+const
 nsDisplayList
-*
+&
 aChildren
 const
 ContainerLayerParameters

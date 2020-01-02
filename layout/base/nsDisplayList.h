@@ -4399,6 +4399,7 @@ aCtx
 uint32_t
 aFlags
 )
+const
 ;
 void
 PaintForFrame
@@ -4415,6 +4416,7 @@ aForFrame
 uint32_t
 aFlags
 )
+const
 ;
 nsRect
 GetBounds
