@@ -324,9 +324,6 @@ childCount
 nsAutoString
 data
 ;
-if
-(
-!
 nsContentUtils
 :
 :
@@ -336,16 +333,7 @@ mContent
 false
 data
 )
-)
-{
-NS_RUNTIMEABORT
-(
-"
-OOM
-"
-)
 ;
-}
 data
 .
 CompressWhitespace

@@ -2341,7 +2341,7 @@ aTryReuse
 )
 ;
 static
-bool
+void
 GetNodeTextContent
 (
 nsINode
@@ -2353,10 +2353,9 @@ nsAString
 &
 aResult
 )
-NS_WARN_UNUSED_RESULT
 ;
 static
-bool
+void
 AppendNodeTextContent
 (
 nsINode
@@ -2367,12 +2366,6 @@ aDeep
 nsAString
 &
 aResult
-const
-mozilla
-:
-:
-fallible_t
-&
 )
 ;
 static

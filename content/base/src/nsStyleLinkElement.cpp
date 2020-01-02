@@ -1608,9 +1608,6 @@ isInline
 nsAutoString
 text
 ;
-if
-(
-!
 nsContentUtils
 :
 :
@@ -1620,12 +1617,7 @@ thisContent
 false
 text
 )
-)
-{
-return
-NS_ERROR_OUT_OF_MEMORY
 ;
-}
 MOZ_ASSERT
 (
 thisContent
