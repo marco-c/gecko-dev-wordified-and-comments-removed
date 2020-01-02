@@ -6904,7 +6904,7 @@ int64_t
 )
 )
 >
-INT32_MAX
+PR_INT32_MAX
 )
 {
 NS_ERROR

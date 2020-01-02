@@ -7,13 +7,6 @@ GFX_UNISCRIBESHAPER_H
 #
 include
 "
-prtypes
-.
-h
-"
-#
-include
-"
 gfxTypes
 .
 h
