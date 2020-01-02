@@ -119,11 +119,6 @@ public
 TestShellCommandParent
 (
 )
-:
-mCx
-(
-nullptr
-)
 {
 }
 bool
@@ -189,10 +184,6 @@ aResponse
 }
 private
 :
-JSContext
-*
-mCx
-;
 nsAutoJSValHolder
 mCallback
 ;
