@@ -4292,9 +4292,10 @@ scrollId
 ;
 metrics
 .
-mIsRoot
-=
+SetIsRoot
+(
 aIsRoot
+)
 ;
 if
 (

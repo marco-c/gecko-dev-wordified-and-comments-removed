@@ -2333,7 +2333,9 @@ if
 (
 aFrameMetrics
 .
-mIsRoot
+GetIsRoot
+(
+)
 )
 {
 nsCOMPtr
