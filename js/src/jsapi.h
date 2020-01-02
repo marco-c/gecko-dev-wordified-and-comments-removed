@@ -12765,7 +12765,7 @@ JS_AllocateArrayBufferContents
 (
 JSContext
 *
-cx
+maybecx
 uint32_t
 nbytes
 void
