@@ -420,6 +420,15 @@ google_root_pems
 "
 }
 "
+production_pinsets
+"
+:
+[
+"
+google_root_pems
+"
+]
+"
 production_domains
 "
 :
