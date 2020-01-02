@@ -1501,6 +1501,11 @@ aAvailable
 IsWin7OrLater
 (
 )
+&
+&
+Initialize
+(
+)
 ;
 return
 NS_OK
