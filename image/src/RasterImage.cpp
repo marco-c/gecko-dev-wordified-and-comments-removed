@@ -1448,9 +1448,6 @@ request
 >
 done
 =
-mozilla
-:
-:
 gfx
 :
 :
@@ -2159,9 +2156,6 @@ RasterImage
 RequestRefresh
 (
 const
-mozilla
-:
-:
 TimeStamp
 &
 aTime
@@ -5894,9 +5888,6 @@ RasterImage
 SetAnimationStartTime
 (
 const
-mozilla
-:
-:
 TimeStamp
 &
 aTime
@@ -11963,9 +11954,6 @@ nsIObserverService
 >
 obsSvc
 =
-mozilla
-:
-:
 services
 :
 :

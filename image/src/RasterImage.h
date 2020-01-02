@@ -339,9 +339,6 @@ virtual
 size_t
 HeapSizeOfSourceWithComputedFallback
 (
-mozilla
-:
-:
 MallocSizeOf
 aMallocSizeOf
 )
@@ -351,9 +348,6 @@ virtual
 size_t
 HeapSizeOfDecodedWithComputedFallback
 (
-mozilla
-:
-:
 MallocSizeOf
 aMallocSizeOf
 )
@@ -1045,9 +1039,6 @@ mImage
 ;
 private
 :
-mozilla
-:
-:
 Mutex
 mThreadPoolMutex
 ;
@@ -1257,9 +1248,6 @@ SizeOfDecodedWithComputedFallbackIfHeap
 (
 gfxMemoryLocation
 aLocation
-mozilla
-:
-:
 MallocSizeOf
 aMallocSizeOf
 )
@@ -1484,9 +1472,6 @@ mRequestedSampleSize
 ;
 nsRefPtr
 <
-mozilla
-:
-:
 layers
 :
 :
@@ -1496,9 +1481,6 @@ mImageContainer
 ;
 WeakPtr
 <
-mozilla
-:
-:
 layers
 :
 :
@@ -1514,9 +1496,6 @@ mFramesNotified
 ;
 #
 endif
-mozilla
-:
-:
 ReentrantMonitor
 mDecodingMonitor
 ;

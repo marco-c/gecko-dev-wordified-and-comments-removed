@@ -83,6 +83,13 @@ h
 #
 include
 "
+gfxImageSurface
+.
+h
+"
+#
+include
+"
 mozilla
 /
 DebugOnly

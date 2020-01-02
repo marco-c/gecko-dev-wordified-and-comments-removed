@@ -43,6 +43,13 @@ h
 #
 include
 "
+gfxImageSurface
+.
+h
+"
+#
+include
+"
 ScopedGLHelpers
 .
 h
