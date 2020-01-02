@@ -1527,6 +1527,7 @@ new
 EventHandlerNonNull
 (
 bound
+nullptr
 )
 ;
 nsEventHandler
