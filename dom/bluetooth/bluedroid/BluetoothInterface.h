@@ -74,6 +74,7 @@ BluetoothSocketInterface
 public
 :
 friend
+class
 BluetoothInterface
 ;
 bt_status_t
@@ -150,6 +151,7 @@ BluetoothHandsfreeInterface
 public
 :
 friend
+class
 BluetoothInterface
 ;
 bt_status_t
@@ -343,6 +345,7 @@ BluetoothA2dpInterface
 public
 :
 friend
+class
 BluetoothInterface
 ;
 bt_status_t
@@ -410,6 +413,7 @@ ANDROID_VERSION
 public
 :
 friend
+class
 BluetoothInterface
 ;
 bt_status_t
