@@ -168,6 +168,11 @@ SiteSpecificUserAgent
 js
 '
 '
+Snippets
+.
+js
+'
+'
 XPIDialogService
 .
 js

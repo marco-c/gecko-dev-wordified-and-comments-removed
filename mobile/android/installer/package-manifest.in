@@ -3512,6 +3512,13 @@ BINPATH
 /
 components
 /
+Snippets
+.
+js
+BINPATH
+/
+components
+/
 Payment
 .
 js
