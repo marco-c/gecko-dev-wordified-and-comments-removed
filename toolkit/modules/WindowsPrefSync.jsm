@@ -274,6 +274,13 @@ sessionstore
 .
 resume_session_once
 "
+"
+browser
+.
+startup
+.
+page
+"
 ]
 get
 prefRegistryPath
