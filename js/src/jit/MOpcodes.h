@@ -1021,6 +1021,11 @@ _
 (
 CheckInterruptPar
 )
+\
+_
+(
+RecompileCheck
+)
 #
 define
 FORWARD_DECLARE

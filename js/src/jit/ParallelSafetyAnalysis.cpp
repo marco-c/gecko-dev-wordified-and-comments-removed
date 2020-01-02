@@ -1400,6 +1400,10 @@ UNSAFE_OP
 (
 AsmJSCheckOverRecursed
 )
+DROP_OP
+(
+RecompileCheck
+)
 UNSAFE_OP
 (
 ConvertElementsToDoubles

@@ -1373,6 +1373,11 @@ CheckInterruptPar
 \
 _
 (
+RecompileCheck
+)
+\
+_
+(
 AssertRangeI
 )
 \
