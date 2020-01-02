@@ -449,6 +449,11 @@ setOffscreenPageLimit
 3
 )
 ;
+setFocusableInTouchMode
+(
+true
+)
+;
 }
 Override
 public
