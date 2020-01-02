@@ -372,9 +372,7 @@ aResult
 {
 aResult
 .
-Assign
-(
-NS_LITERAL_CSTRING
+AssignLiteral
 (
 "
 -
@@ -391,7 +389,6 @@ Debugger
 \
 n
 "
-)
 )
 ;
 return

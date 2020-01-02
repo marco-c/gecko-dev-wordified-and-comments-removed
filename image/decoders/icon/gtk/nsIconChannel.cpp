@@ -1678,14 +1678,11 @@ name
 ;
 appName
 .
-Assign
-(
-NS_LITERAL_STRING
+AssignLiteral
 (
 "
 Gecko
 "
-)
 )
 ;
 }

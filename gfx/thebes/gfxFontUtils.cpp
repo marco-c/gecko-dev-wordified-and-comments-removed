@@ -3806,14 +3806,11 @@ p
 }
 aName
 .
-Assign
-(
-NS_LITERAL_STRING
+AssignLiteral
 (
 "
 uf
 "
-)
 )
 ;
 aName

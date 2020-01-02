@@ -18804,11 +18804,8 @@ messageStr
 .
 Assign
 (
-NS_LITERAL_STRING
-(
-"
-"
-)
+'
+'
 )
 ;
 }

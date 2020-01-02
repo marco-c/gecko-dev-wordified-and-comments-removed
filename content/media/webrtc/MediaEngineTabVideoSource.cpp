@@ -661,9 +661,7 @@ aName
 {
 aName
 .
-Assign
-(
-NS_LITERAL_STRING
+AssignLiteral
 (
 "
 &
@@ -674,7 +672,6 @@ videoDevice
 tabShare
 ;
 "
-)
 )
 ;
 }
@@ -691,14 +688,11 @@ aUuid
 {
 aUuid
 .
-Assign
-(
-NS_LITERAL_STRING
+AssignLiteral
 (
 "
 uuid
 "
-)
 )
 ;
 }

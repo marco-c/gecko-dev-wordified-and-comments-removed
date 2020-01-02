@@ -405,9 +405,7 @@ else
 {
 tmpStr
 .
-Assign
-(
-NS_LITERAL_STRING
+AssignLiteral
 (
 "
 url
@@ -417,7 +415,6 @@ about
 invalid
 )
 "
-)
 )
 ;
 }

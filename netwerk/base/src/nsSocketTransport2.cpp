@@ -11009,9 +11009,7 @@ header
 ;
 header
 .
-Assign
-(
-NS_LITERAL_CSTRING
+AssignLiteral
 (
 "
 Reading
@@ -11019,7 +11017,11 @@ from
 :
 "
 )
-+
+;
+header
+.
+Append
+(
 mHost
 )
 ;
@@ -11094,9 +11096,7 @@ header
 ;
 header
 .
-Assign
-(
-NS_LITERAL_CSTRING
+AssignLiteral
 (
 "
 Writing
@@ -11104,7 +11104,11 @@ to
 :
 "
 )
-+
+;
+header
+.
+Append
+(
 mHost
 )
 ;

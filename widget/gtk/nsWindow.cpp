@@ -13488,14 +13488,11 @@ IsEmpty
 )
 brandName
 .
-Assign
-(
-NS_LITERAL_STRING
+AssignLiteral
 (
 "
 Mozilla
 "
-)
 )
 ;
 }

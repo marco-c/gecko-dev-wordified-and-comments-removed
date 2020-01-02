@@ -5253,9 +5253,7 @@ vers
 ;
 aVersion
 .
-Assign
-(
-NS_LITERAL_STRING
+AssignLiteral
 (
 "
 0
@@ -5266,7 +5264,6 @@ NS_LITERAL_STRING
 .
 0
 "
-)
 )
 ;
 versInfoSize
