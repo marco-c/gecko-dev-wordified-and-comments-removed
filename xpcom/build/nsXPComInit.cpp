@@ -3405,6 +3405,13 @@ NS_ProcessPendingEvents
 thread
 )
 ;
+gfxPlatform
+:
+:
+ShutdownLayersIPC
+(
+)
+;
 mozilla
 :
 :
@@ -3433,13 +3440,6 @@ NotifyObservers
 nullptr
 NS_XPCOM_SHUTDOWN_THREADS_OBSERVER_ID
 nullptr
-)
-;
-gfxPlatform
-:
-:
-ShutdownLayersIPC
-(
 )
 ;
 gXPCOMThreadsShutDown
