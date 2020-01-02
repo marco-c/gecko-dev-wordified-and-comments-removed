@@ -665,6 +665,11 @@ fullscreenbutton
 "
 true
 "
+sizemode
+=
+"
+normal
+"
 persist
 =
 "
