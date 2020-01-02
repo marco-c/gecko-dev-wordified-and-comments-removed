@@ -831,13 +831,6 @@ getBitmap
 )
 ;
 }
-builder
-.
-setIcon
-(
-mPromptIcon
-)
-;
 ThreadUtils
 .
 postToUiThread
