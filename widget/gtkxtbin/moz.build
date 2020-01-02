@@ -103,14 +103,6 @@ gtk2xtbin
 h
 '
 ]
-if
-CONFIG
-[
-'
-MOZ_ENABLE_GTK2
-'
-]
-:
 SOURCES
 +
 =

@@ -171,6 +171,10 @@ gdk_get_default_root_window
 )
 STUB
 (
+gdk_get_display
+)
+STUB
+(
 gdk_get_display_arg_name
 )
 STUB
@@ -1500,6 +1504,10 @@ gtk_settings_get_default
 STUB
 (
 gtk_settings_get_for_screen
+)
+STUB
+(
+gtk_socket_add_id
 )
 STUB
 (
