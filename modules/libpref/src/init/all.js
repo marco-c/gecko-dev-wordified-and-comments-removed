@@ -1818,6 +1818,16 @@ axis_lock_mode
 0
 )
 ;
+pref
+(
+"
+apz
+.
+printtree
+"
+false
+)
+;
 #
 ifdef
 XP_MACOSX
