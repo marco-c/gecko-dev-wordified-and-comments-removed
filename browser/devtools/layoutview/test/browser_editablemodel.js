@@ -173,6 +173,12 @@ inspector
 view
 )
 ;
+yield
+destroyToolbox
+(
+inspector
+)
+;
 }
 )
 ;

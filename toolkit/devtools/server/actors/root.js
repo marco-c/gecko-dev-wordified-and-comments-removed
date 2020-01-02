@@ -156,6 +156,16 @@ true
 highlightable
 :
 true
+customHighlighters
+:
+[
+"
+BoxModelHighlighter
+"
+"
+CssTransformHighlighter
+"
+]
 urlToImageDataResolver
 :
 true

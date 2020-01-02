@@ -1103,6 +1103,7 @@ options
 }
 )
 {
+return
 this
 .
 _inspector
