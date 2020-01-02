@@ -653,6 +653,12 @@ case
 SurfaceDescriptor
 :
 :
+TSurfaceDescriptorDIB
+:
+case
+SurfaceDescriptor
+:
+:
 TSurfaceDescriptorD3D10
 :
 break

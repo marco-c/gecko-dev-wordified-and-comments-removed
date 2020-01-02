@@ -235,6 +235,18 @@ texture
 }
 ;
 struct
+SurfaceDescriptorDIB
+{
+/
+/
+gfxWindowsSurface
+*
+uintptr_t
+surface
+;
+}
+;
+struct
 SurfaceDescriptorD3D10
 {
 WindowsHandle
@@ -747,6 +759,8 @@ SurfaceDescriptorShmem
 SurfaceDescriptorMemory
 ;
 SurfaceDescriptorD3D9
+;
+SurfaceDescriptorDIB
 ;
 SurfaceDescriptorD3D10
 ;
