@@ -703,6 +703,14 @@ Marionette
 start_session
 .
 .
+automethod
+:
+:
+Marionette
+.
+delete_session
+.
+.
 autoattribute
 :
 :

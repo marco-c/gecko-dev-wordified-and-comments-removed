@@ -6314,7 +6314,6 @@ the
 capabilities
 offered
 .
-        
 "
 "
 "
@@ -6411,7 +6410,6 @@ self
 "
 "
 "
-        
 Close
 the
 current
@@ -6422,7 +6420,6 @@ from
 the
 server
 .
-        
 "
 "
 "
