@@ -189,8 +189,19 @@ chunks
 "
 dir
 "
-or
+:
+            
+dirs
+.
+append
 (
+chunks
+[
+1
+]
+)
+        
+elif
 chunks
 [
 0
@@ -210,7 +221,6 @@ chunks
 "
 dir
 "
-)
 :
             
 dirs
@@ -222,7 +232,6 @@ chunks
 1
 ]
 )
-;
         
 elif
 chunks
@@ -302,6 +311,9 @@ manual
 "
 "
 parser
+"
+"
+http
 "
 ]
 :
