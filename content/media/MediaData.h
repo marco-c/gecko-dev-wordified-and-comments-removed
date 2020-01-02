@@ -600,6 +600,14 @@ VideoData
 (
 )
 ;
+size_t
+SizeOfIncludingThis
+(
+MallocSizeOf
+aMallocSizeOf
+)
+const
+;
 const
 IntSize
 mDisplay

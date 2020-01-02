@@ -1108,9 +1108,8 @@ TimeRanges
 aBuffered
 )
 ;
-virtual
-int64_t
-VideoQueueMemoryInUse
+size_t
+SizeOfVideoQueue
 (
 )
 ;

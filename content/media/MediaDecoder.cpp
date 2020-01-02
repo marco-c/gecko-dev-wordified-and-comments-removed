@@ -6540,11 +6540,11 @@ return
 NS_ERROR_FAILURE
 ;
 }
-int64_t
+size_t
 MediaDecoder
 :
 :
-VideoQueueMemoryInUse
+SizeOfVideoQueue
 (
 )
 {
@@ -6557,7 +6557,7 @@ return
 mDecoderStateMachine
 -
 >
-VideoQueueMemoryInUse
+SizeOfVideoQueue
 (
 )
 ;
@@ -7647,7 +7647,7 @@ video
 decoder
 -
 >
-VideoQueueMemoryInUse
+SizeOfVideoQueue
 (
 )
 ;
