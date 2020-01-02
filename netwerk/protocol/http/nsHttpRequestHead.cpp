@@ -42,6 +42,10 @@ mParsedMethod
 (
 kMethod_Get
 )
+mHTTPS
+(
+false
+)
 {
 MOZ_COUNT_CTOR
 (
