@@ -1998,6 +1998,7 @@ range
 EndOffset
 (
 )
+true
 )
 ;
 nsIFrame

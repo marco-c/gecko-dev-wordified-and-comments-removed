@@ -878,6 +878,10 @@ DOMRect
 >
 GetBoundingClientRect
 (
+bool
+aClampToEdge
+=
+true
 )
 ;
 already_AddRefed
@@ -886,6 +890,10 @@ DOMRectList
 >
 GetClientRects
 (
+bool
+aClampToEdge
+=
+true
 )
 ;
 nsINode
@@ -1021,6 +1029,8 @@ nsINode
 aEndParent
 int32_t
 aEndOffset
+bool
+aClampToEdge
 )
 ;
 typedef
