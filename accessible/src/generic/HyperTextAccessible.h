@@ -301,6 +301,19 @@ false
 )
 const
 ;
+int32_t
+TransformOffset
+(
+Accessible
+*
+aDescendant
+int32_t
+aOffset
+bool
+aIsEndOffset
+)
+const
+;
 bool
 OffsetsToDOMRange
 (
@@ -1027,7 +1040,6 @@ EWhichLineBoundary
 aWhichLineBoundary
 )
 ;
-virtual
 int32_t
 FindOffset
 (
