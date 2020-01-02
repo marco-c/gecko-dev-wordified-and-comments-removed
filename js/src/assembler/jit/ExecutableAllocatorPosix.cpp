@@ -56,17 +56,6 @@ h
 #
 include
 "
-assembler
-/
-wtf
-/
-VMTags
-.
-h
-"
-#
-include
-"
 js
 /
 Utility
@@ -115,7 +104,8 @@ INITIAL_PROTECTION_FLAGS
 MAP_PRIVATE
 |
 MAP_ANON
-VM_TAG_FOR_EXECUTABLEALLOCATOR_MEMORY
+-
+1
 0
 "
 js
