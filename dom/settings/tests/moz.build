@@ -103,6 +103,14 @@ mochitest
 ini
 '
 ]
+if
+CONFIG
+[
+'
+MOZ_B2G
+'
+]
+:
 MOCHITEST_CHROME_MANIFESTS
 +
 =
