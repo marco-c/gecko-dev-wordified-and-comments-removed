@@ -372,6 +372,10 @@ mSize
 aData
 .
 mPicSize
+.
+ToUnknownSize
+(
+)
 ;
 if
 (
@@ -402,9 +406,16 @@ ibc
 >
 AllocSurfaceDescriptorGralloc
 (
+ThebesIntSize
+(
 aData
 .
 mYSize
+.
+ToUnknownSize
+(
+)
+)
 HAL_PIXEL_FORMAT_YV12
 GraphicBuffer
 :

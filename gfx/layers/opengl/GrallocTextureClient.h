@@ -251,15 +251,9 @@ virtual
 bool
 AllocateForYCbCr
 (
-gfx
-:
-:
-IntSize
+LayerIntSize
 aYSize
-gfx
-:
-:
-IntSize
+LayerIntSize
 aCbCrSize
 StereoMode
 aStereoMode

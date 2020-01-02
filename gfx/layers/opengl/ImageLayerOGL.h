@@ -35,13 +35,6 @@ h
 #
 include
 "
-gfxPoint
-.
-h
-"
-#
-include
-"
 mozilla
 /
 Assertions
@@ -239,7 +232,7 @@ aTexture
 TextureType
 aType
 const
-gfxIntSize
+LayerIntSize
 &
 aSize
 )
@@ -250,7 +243,7 @@ GetTexture
 TextureType
 aType
 const
-gfxIntSize
+LayerIntSize
 &
 aSize
 GLContext
@@ -282,7 +275,7 @@ mRecycledTextures
 2
 ]
 ;
-gfxIntSize
+LayerIntSize
 mRecycledTextureSizes
 [
 2
@@ -507,7 +500,7 @@ mTextures
 3
 ]
 ;
-gfxIntSize
+LayerIntSize
 mYSize
 mCbCrSize
 ;

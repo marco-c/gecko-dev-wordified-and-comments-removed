@@ -131,6 +131,13 @@ LayerManagerOGL
 h
 "
 #
+include
+"
+gfx2DGlue
+.
+h
+"
+#
 ifdef
 XP_MACOSX
 #
@@ -1941,7 +1948,7 @@ CanvasLayerOGL
 GetTempSurface
 (
 const
-gfxIntSize
+LayerIntSize
 &
 aSize
 const
@@ -1986,7 +1993,14 @@ mCachedTempSurface
 new
 gfxImageSurface
 (
+ThebesIntSize
+(
 aSize
+.
+ToUnknownSize
+(
+)
+)
 aFormat
 )
 ;
