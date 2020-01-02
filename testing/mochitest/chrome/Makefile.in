@@ -86,15 +86,6 @@ test_sanityException2
 .
 xul
 \
-test_chromeGetTestFile
-.
-xul
-\
-test
--
-dir
-/
-\
 (
 NULL
 )
