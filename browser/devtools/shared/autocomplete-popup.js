@@ -746,6 +746,12 @@ return
 this
 .
 _panel
+&
+&
+(
+this
+.
+_panel
 .
 state
 =
@@ -765,6 +771,7 @@ state
 "
 showing
 "
+)
 ;
 }
 destroy
