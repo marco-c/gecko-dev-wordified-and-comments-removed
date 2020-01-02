@@ -1683,6 +1683,9 @@ true
 "
 /
 >
+#
+ifdef
+E10S_TESTING_ONLY
 <
 command
 id
@@ -1731,6 +1734,8 @@ false
 "
 /
 >
+#
+endif
 <
 command
 id
