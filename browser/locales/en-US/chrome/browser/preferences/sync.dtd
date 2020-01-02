@@ -530,14 +530,13 @@ Notice
 <
 !
 ENTITY
-determiningStatus
+determiningAcctStatus
 .
 label
 "
 Determining
 your
-Firefox
-Account
+account
 status
 "
 >
