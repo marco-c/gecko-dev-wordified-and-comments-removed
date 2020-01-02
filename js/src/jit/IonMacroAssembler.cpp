@@ -4650,6 +4650,12 @@ resumeAddr
 ;
 enterFakeExitFrame
 (
+IonExitFrameLayout
+:
+:
+BareToken
+(
+)
 )
 ;
 Label

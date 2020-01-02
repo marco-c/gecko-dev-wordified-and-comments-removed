@@ -4455,8 +4455,6 @@ enterFakeExitFrame
 JitCode
 *
 codeVal
-=
-nullptr
 )
 {
 linkExitFrame
@@ -4565,8 +4563,6 @@ scratch
 JitCode
 *
 codeVal
-=
-nullptr
 )
 ;
 void
@@ -4581,8 +4577,6 @@ executionMode
 JitCode
 *
 codeVal
-=
-nullptr
 )
 ;
 void

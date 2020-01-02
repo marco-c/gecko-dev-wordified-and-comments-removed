@@ -47873,6 +47873,12 @@ masm
 .
 enterFakeExitFrame
 (
+IonNativeExitFrameLayout
+:
+:
+Token
+(
+)
 )
 ;
 emitProfilingUpdate

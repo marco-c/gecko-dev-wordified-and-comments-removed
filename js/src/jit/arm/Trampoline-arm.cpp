@@ -1260,6 +1260,12 @@ masm
 .
 enterFakeExitFrame
 (
+IonExitFrameLayout
+:
+:
+BareToken
+(
+)
 )
 ;
 masm

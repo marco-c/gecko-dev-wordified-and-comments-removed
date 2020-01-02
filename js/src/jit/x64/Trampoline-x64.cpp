@@ -1071,6 +1071,12 @@ masm
 .
 enterFakeExitFrame
 (
+IonExitFrameLayout
+:
+:
+BareToken
+(
+)
 )
 ;
 regs
