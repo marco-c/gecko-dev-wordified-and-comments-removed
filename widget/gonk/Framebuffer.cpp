@@ -509,17 +509,6 @@ gfxImageFormat
 :
 RGB16_565
 ;
-int
-bytesPerPixel
-=
-gfxASurface
-:
-:
-BytePerPixelFromFormat
-(
-format
-)
-;
 if
 (
 !
