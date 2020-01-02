@@ -65,9 +65,9 @@ UNIT_FILES
 (
 SHARED_LIBRARY
 )
-(
-EXTRA_JS_MODULES
-)
+CrashTestUtils
+.
+jsm
 UNIT_DEST
 =
 (

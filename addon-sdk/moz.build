@@ -117,14 +117,9 @@ modules
 system
 "
 ]
-JS_MODULES_PATH
-=
-'
-modules
-/
-sdk
-'
 EXTRA_JS_MODULES
+.
+sdk
 +
 =
 [

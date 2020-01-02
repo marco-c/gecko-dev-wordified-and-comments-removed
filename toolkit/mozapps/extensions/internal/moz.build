@@ -93,14 +93,9 @@ MPL
 0
 /
 .
-JS_MODULES_PATH
-=
-'
-modules
-/
-addons
-'
 EXTRA_JS_MODULES
+.
+addons
 +
 =
 [
@@ -151,6 +146,8 @@ js
 '
 ]
 EXTRA_PP_JS_MODULES
+.
+addons
 +
 =
 [

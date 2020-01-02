@@ -169,14 +169,9 @@ nsSessionStore
 manifest
 '
 ]
-JS_MODULES_PATH
-=
-'
-modules
-/
-sessionstore
-'
 EXTRA_JS_MODULES
+.
+sessionstore
 =
 [
 '
@@ -276,6 +271,8 @@ jsm
 '
 ]
 EXTRA_PP_JS_MODULES
+.
+sessionstore
 +
 =
 [

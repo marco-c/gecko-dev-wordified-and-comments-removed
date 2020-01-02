@@ -93,14 +93,9 @@ MPL
 0
 /
 .
-JS_MODULES_PATH
-=
-'
-modules
-/
-osfile
-'
 EXTRA_JS_MODULES
+.
+osfile
 +
 =
 [

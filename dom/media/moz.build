@@ -278,14 +278,9 @@ PeerConnection
 manifest
 '
 ]
-JS_MODULES_PATH
-=
-'
-modules
-/
-media
-'
 EXTRA_JS_MODULES
+.
+media
 +
 =
 [

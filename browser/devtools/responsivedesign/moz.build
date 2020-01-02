@@ -53,14 +53,9 @@ MPL
 0
 /
 .
-JS_MODULES_PATH
-=
-'
-modules
-/
-devtools
-'
 EXTRA_JS_MODULES
+.
+devtools
 +
 =
 [

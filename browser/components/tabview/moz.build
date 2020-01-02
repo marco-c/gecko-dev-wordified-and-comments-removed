@@ -94,6 +94,8 @@ MPL
 /
 .
 EXTRA_JS_MODULES
+.
+tabview
 =
 [
 '
@@ -104,13 +106,6 @@ utils
 jsm
 '
 ]
-JS_MODULES_PATH
-=
-'
-modules
-/
-tabview
-'
 BROWSER_CHROME_MANIFESTS
 +
 =

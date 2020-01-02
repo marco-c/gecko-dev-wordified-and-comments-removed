@@ -93,14 +93,9 @@ MPL
 0
 /
 .
-JS_MODULES_PATH
-=
-'
-modules
-/
-accessibility
-'
 EXTRA_JS_MODULES
+.
+accessibility
 +
 =
 [

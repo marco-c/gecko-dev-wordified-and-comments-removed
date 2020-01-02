@@ -102,6 +102,10 @@ tests
 '
 ]
 EXTRA_PP_JS_MODULES
+.
+services
+.
+metrics
 +
 =
 [
@@ -121,15 +125,6 @@ storage
 jsm
 '
 ]
-JS_MODULES_PATH
-=
-'
-modules
-/
-services
-/
-metrics
-'
 TESTING_JS_MODULES
 .
 services

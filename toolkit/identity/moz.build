@@ -146,14 +146,9 @@ IdentityCryptoService
 cpp
 '
 ]
-JS_MODULES_PATH
-=
-'
-modules
-/
-identity
-'
 EXTRA_JS_MODULES
+.
+identity
 +
 =
 [
@@ -204,6 +199,8 @@ jsm
 '
 ]
 EXTRA_PP_JS_MODULES
+.
+identity
 +
 =
 [

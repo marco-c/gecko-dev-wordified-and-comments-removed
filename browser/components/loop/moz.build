@@ -103,13 +103,6 @@ jar
 mn
 '
 ]
-JS_MODULES_PATH
-=
-'
-modules
-/
-loop
-'
 XPCSHELL_TESTS_MANIFESTS
 +
 =
@@ -139,6 +132,8 @@ ini
 '
 ]
 EXTRA_JS_MODULES
+.
+loop
 +
 =
 [

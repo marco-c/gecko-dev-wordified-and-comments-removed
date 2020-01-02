@@ -93,14 +93,9 @@ MPL
 0
 /
 .
-JS_MODULES_PATH
-=
-'
-modules
-/
-workers
-'
 EXTRA_JS_MODULES
+.
+workers
 =
 [
 '

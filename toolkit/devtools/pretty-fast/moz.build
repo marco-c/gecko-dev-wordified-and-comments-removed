@@ -107,14 +107,9 @@ xpcshell
 ini
 '
 ]
-JS_MODULES_PATH
-=
-'
-modules
-/
-devtools
-'
 EXTRA_JS_MODULES
+.
+devtools
 +
 =
 [
