@@ -13652,6 +13652,10 @@ donatedNode
 (
 false
 )
+warnedAboutXrays
+(
+false
+)
 scriptability
 (
 c
@@ -13759,6 +13763,9 @@ adoptedNode
 ;
 bool
 donatedNode
+;
+bool
+warnedAboutXrays
 ;
 Scriptability
 scriptability
