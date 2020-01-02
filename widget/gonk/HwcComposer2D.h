@@ -275,6 +275,11 @@ bool
 aGeometryChanged
 )
 ;
+void
+SendtoLayerScope
+(
+)
+;
 HwcDevice
 *
 mHwc

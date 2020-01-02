@@ -718,7 +718,7 @@ DestroyCompositor
 LayerScope
 :
 :
-DestroyServerSocket
+DeInit
 (
 )
 ;
@@ -3470,7 +3470,7 @@ return
 LayerScope
 :
 :
-CreateServerSocket
+Init
 (
 )
 ;
