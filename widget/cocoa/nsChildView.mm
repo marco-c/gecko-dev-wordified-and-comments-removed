@@ -34808,14 +34808,6 @@ nil
 item
 -
 >
-Init
-(
-nullptr
-)
-;
-item
--
->
 SetTransferData
 (
 kFilePromiseDirectoryMime
