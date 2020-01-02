@@ -33,10 +33,10 @@ struct
 Aligner
 {
 char
-c
+mChar
 ;
 T
-t
+mT
 ;
 }
 ;
@@ -260,13 +260,13 @@ union
 U
 {
 char
-bytes
+mBytes
 [
 Nbytes
 ]
 ;
 uint64_t
-_
+mDummy
 ;
 }
 u
@@ -282,7 +282,7 @@ const
 return
 u
 .
-bytes
+mBytes
 ;
 }
 void
@@ -294,7 +294,7 @@ addr
 return
 u
 .
-bytes
+mBytes
 ;
 }
 }
@@ -311,7 +311,7 @@ union
 U
 {
 char
-bytes
+mBytes
 [
 sizeof
 (
@@ -320,7 +320,7 @@ T
 ]
 ;
 uint64_t
-_
+mDummy
 ;
 }
 u
@@ -343,7 +343,7 @@ T
 (
 u
 .
-bytes
+mBytes
 )
 ;
 }
@@ -368,7 +368,7 @@ void
 (
 u
 .
-bytes
+mBytes
 )
 )
 ;
