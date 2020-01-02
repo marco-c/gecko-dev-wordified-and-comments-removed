@@ -658,11 +658,6 @@ GetObserverService
 (
 )
 ;
-MOZ_ASSERT
-(
-observerService
-)
-;
 if
 (
 observerService
