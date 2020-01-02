@@ -110,9 +110,14 @@ DOMString
 error
 )
 ;
+[
+Pure
+Cached
+Frozen
+]
 readonly
 attribute
-object
+ActivityOptions
 source
 ;
 }
