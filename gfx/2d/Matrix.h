@@ -3232,6 +3232,16 @@ _33
 _44
 ;
 }
+bool
+Invert
+(
+)
+;
+void
+SetNAN
+(
+)
+;
 }
 ;
 class

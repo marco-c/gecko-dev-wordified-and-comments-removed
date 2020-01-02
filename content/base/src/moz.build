@@ -401,6 +401,11 @@ DOMImplementation
 h
 '
 '
+DOMMatrix
+.
+h
+'
+'
 DOMParser
 .
 h
@@ -507,6 +512,11 @@ cpp
 '
 '
 DOMImplementation
+.
+cpp
+'
+'
+DOMMatrix
 .
 cpp
 '
