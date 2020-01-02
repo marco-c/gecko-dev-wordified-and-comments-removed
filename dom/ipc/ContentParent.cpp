@@ -4776,7 +4776,7 @@ sAppContentParents
 ;
 sAppContentParents
 =
-NULL
+nullptr
 ;
 }
 }
@@ -4811,7 +4811,7 @@ sNonAppContentParents
 ;
 sNonAppContentParents
 =
-NULL
+nullptr
 ;
 }
 }
@@ -4844,7 +4844,7 @@ sPrivateContent
 ;
 sPrivateContent
 =
-NULL
+nullptr
 ;
 }
 }
@@ -5752,7 +5752,7 @@ crashReporter
 GenerateCrashReport
 (
 this
-NULL
+nullptr
 )
 ;
 nsAutoString
@@ -5830,7 +5830,7 @@ mSubprocess
 ;
 mSubprocess
 =
-NULL
+nullptr
 ;
 NS_DispatchToCurrentThread
 (
@@ -7813,7 +7813,7 @@ clipboard
 SetData
 (
 trans
-NULL
+nullptr
 whichClipboard
 )
 ;
@@ -9773,7 +9773,7 @@ delete
 parent
 ;
 return
-NULL
+nullptr
 ;
 }
 return
@@ -14350,7 +14350,7 @@ sPrivateContent
 ;
 sPrivateContent
 =
-NULL
+nullptr
 ;
 }
 }

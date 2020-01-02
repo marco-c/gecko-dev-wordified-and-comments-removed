@@ -3539,7 +3539,7 @@ JS_ReportErrorNumber
 (
 cx
 js_GetErrorMessage
-NULL
+nullptr
 JSMSG_CANT_CHANGE_EXTENSIBILITY
 )
 ;
@@ -6138,7 +6138,7 @@ js
 :
 PrivateValue
 (
-NULL
+nullptr
 )
 )
 ;
@@ -9507,7 +9507,7 @@ nsGlobalWindow
 *
 top
 =
-NULL
+nullptr
 ;
 if
 (
@@ -10721,7 +10721,7 @@ js
 :
 PrivateValue
 (
-NULL
+nullptr
 )
 )
 ;
@@ -13894,7 +13894,7 @@ mJSObject
 {
 mJSObject
 =
-NULL
+nullptr
 ;
 }
 }
@@ -23629,7 +23629,7 @@ Unlock
 ;
 mWakeLock
 =
-NULL
+nullptr
 ;
 }
 return
@@ -46208,7 +46208,7 @@ parent
 ;
 }
 return
-NULL
+nullptr
 ;
 }
 void
@@ -52977,7 +52977,7 @@ mGamepads
 EnumerateRead
 (
 EnumGamepadsForSync
-NULL
+nullptr
 )
 ;
 }

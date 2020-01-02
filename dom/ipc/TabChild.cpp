@@ -5601,9 +5601,9 @@ nsIWebNavigation
 :
 :
 LOAD_FLAGS_DISALLOW_INHERIT_OWNER
-NULL
-NULL
-NULL
+nullptr
+nullptr
+nullptr
 )
 ;
 if
@@ -7832,7 +7832,7 @@ event
 (
 true
 aMsg
-NULL
+nullptr
 WidgetMouseEvent
 :
 :
@@ -10767,7 +10767,7 @@ here
 )
 ;
 return
-NULL
+nullptr
 ;
 }
 bool

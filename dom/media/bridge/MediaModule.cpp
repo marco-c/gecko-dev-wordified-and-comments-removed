@@ -95,14 +95,14 @@ kCIDs
 &
 kPEERCONNECTION_CID
 false
-NULL
+nullptr
 sipcc
 :
 :
 PeerConnectionImplConstructor
 }
 {
-NULL
+nullptr
 }
 }
 ;
@@ -126,7 +126,7 @@ PEERCONNECTION_CONTRACTID
 kPEERCONNECTION_CID
 }
 {
-NULL
+nullptr
 }
 }
 ;

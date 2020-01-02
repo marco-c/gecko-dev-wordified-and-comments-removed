@@ -416,7 +416,7 @@ getter_AddRefs
 (
 crashDump
 )
-NULL
+nullptr
 )
 &
 &

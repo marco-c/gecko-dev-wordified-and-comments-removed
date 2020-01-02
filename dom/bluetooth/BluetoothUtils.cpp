@@ -563,9 +563,9 @@ cx
 JS_NewObject
 (
 cx
-NULL
-NULL
-NULL
+nullptr
+nullptr
+nullptr
 )
 )
 ;

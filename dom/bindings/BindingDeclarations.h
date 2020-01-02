@@ -1561,7 +1561,7 @@ p
 )
 {
 return
-NULL
+nullptr
 ;
 }
 template

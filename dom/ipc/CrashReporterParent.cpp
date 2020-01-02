@@ -255,7 +255,7 @@ mStartTime
 (
 time
 (
-NULL
+nullptr
 )
 )
 mInitialized

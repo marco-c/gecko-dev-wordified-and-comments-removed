@@ -891,7 +891,7 @@ aReturnWindow
 *
 aReturnWindow
 =
-NULL
+nullptr
 ;
 nsCOMPtr
 <

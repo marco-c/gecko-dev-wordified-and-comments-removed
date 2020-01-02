@@ -535,7 +535,7 @@ nsUint64HashKey
 *
 aOutGhostIDs
 =
-NULL
+nullptr
 )
 ;
 nsDataHashtable

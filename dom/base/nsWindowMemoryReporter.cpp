@@ -788,7 +788,7 @@ nsGlobalWindow
 *
 top
 =
-NULL
+nullptr
 ;
 nsCOMPtr
 <
@@ -2627,7 +2627,7 @@ topWindowPaths
 nsWindowSizes
 windowTotalSizes
 (
-NULL
+nullptr
 )
 ;
 nsCOMPtr
