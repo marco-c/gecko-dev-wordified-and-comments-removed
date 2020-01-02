@@ -11385,6 +11385,11 @@ loadSavedState
 (
 )
 ;
+if
+(
+gSavedState
+)
+{
 for
 (
 let
@@ -11425,6 +11430,7 @@ _rebuildRegisteredAreas
 (
 )
 ;
+}
 }
 _clearPreviousUIState
 :
