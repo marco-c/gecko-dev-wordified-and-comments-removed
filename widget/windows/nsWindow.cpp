@@ -13336,7 +13336,6 @@ gfxWindowsPlatform
 :
 RENDER_DIRECT2D
 )
-)
 |
 |
 IsRenderMode
@@ -13345,7 +13344,6 @@ gfxWindowsPlatform
 :
 :
 RENDER_GDI
-)
 )
 "
 Unexpected
@@ -13565,7 +13563,6 @@ gfxWindowsPlatform
 :
 :
 RENDER_DIRECT2D
-)
 )
 |
 |
