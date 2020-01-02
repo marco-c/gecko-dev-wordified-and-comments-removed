@@ -1831,7 +1831,6 @@ Signed
 Unsigned
 Intish
 Void
-Unknown
 }
 ;
 private
@@ -1982,12 +1981,6 @@ which_
 =
 =
 Intish
-|
-|
-which_
-=
-=
-Unknown
 ;
 }
 bool
@@ -2019,12 +2012,6 @@ which_
 =
 =
 Doublish
-|
-|
-which_
-=
-=
-Unknown
 ;
 }
 bool
@@ -2115,9 +2102,6 @@ MIRType_Int32
 case
 Void
 :
-case
-Unknown
-:
 return
 MIRType_None
 ;
@@ -2206,14 +2190,6 @@ Void
 return
 "
 void
-"
-;
-case
-Unknown
-:
-return
-"
-unknown
 "
 ;
 }
@@ -23316,7 +23292,7 @@ if
 (
 operandType
 .
-isDouble
+isDoublish
 (
 )
 )
@@ -23369,7 +23345,7 @@ not
 a
 subtype
 of
-double
+doublish
 or
 intish
 "
