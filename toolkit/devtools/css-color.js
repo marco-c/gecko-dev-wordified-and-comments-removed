@@ -494,8 +494,7 @@ specialValue
 (
 )
 {
-if
-(
+return
 SPECIALVALUES
 .
 has
@@ -504,14 +503,13 @@ this
 .
 authored
 )
-)
-{
-return
+?
 this
 .
 authored
+:
+null
 ;
-}
 }
 get
 name

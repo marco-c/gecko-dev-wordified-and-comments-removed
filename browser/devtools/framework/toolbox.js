@@ -361,6 +361,9 @@ name
 "
 )
 ;
+return
+null
+;
 }
 }
 ;
@@ -3260,6 +3263,9 @@ return
 true
 ;
 }
+return
+false
+;
 }
 )
 ;
@@ -4585,6 +4591,7 @@ isLocalTab
 )
 {
 return
+null
 ;
 }
 let
@@ -5264,11 +5271,16 @@ then
 {
 if
 (
+!
 this
 .
 _target
 )
 {
+return
+null
+;
+}
 let
 target
 =
@@ -5301,7 +5313,6 @@ destroy
 (
 )
 ;
-}
 }
 )
 .

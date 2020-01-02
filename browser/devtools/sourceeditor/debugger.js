@@ -123,13 +123,16 @@ state
 .
 query
 )
-return
+{
 searchNext
 (
 ctx
 rev
 )
 ;
+return
+;
+}
 cm
 .
 operation
