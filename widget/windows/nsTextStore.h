@@ -1026,6 +1026,11 @@ ITfThreadMgr
 aThreadMgr
 )
 ;
+void
+Shutdown
+(
+)
+;
 static
 void
 MarkContextAsKeyboardDisabled
