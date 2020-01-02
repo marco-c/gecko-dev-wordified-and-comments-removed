@@ -2915,9 +2915,15 @@ id
 ;
 for
 (
+let
 prop
-in
+of
+Object
+.
+getOwnPropertyNames
+(
 bookmark
+)
 )
 {
 original
