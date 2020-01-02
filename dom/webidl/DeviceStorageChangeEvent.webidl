@@ -100,13 +100,6 @@ optional
 DeviceStorageChangeEventInit
 eventInitDict
 )
-HeaderFile
-=
-"
-GeneratedEventClasses
-.
-h
-"
 ]
 interface
 DeviceStorageChangeEvent

@@ -3126,6 +3126,11 @@ DeviceProximityEvent
 webidl
 '
 '
+DeviceStorageChangeEvent
+.
+webidl
+'
+'
 DownloadEvent
 .
 webidl

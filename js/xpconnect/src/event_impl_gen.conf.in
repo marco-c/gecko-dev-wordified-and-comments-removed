@@ -129,9 +129,6 @@ SpeechSynthesisEvent
 '
 #
 endif
-'
-DeviceStorageChangeEvent
-'
 #
 ifdef
 MOZ_WEBSPEECH

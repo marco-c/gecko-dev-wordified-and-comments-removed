@@ -102,11 +102,6 @@ nsIDOMDeviceStorage
 .
 idl
 '
-'
-nsIDOMDeviceStorageChangeEvent
-.
-idl
-'
 ]
 XPIDL_MODULE
 =
