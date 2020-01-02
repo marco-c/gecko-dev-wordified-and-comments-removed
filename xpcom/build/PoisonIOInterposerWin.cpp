@@ -332,7 +332,7 @@ aIoStatusBlock
 ;
 typedef
 struct
-FILE_NETWORK_OPEN_INFORMATION
+_FILE_NETWORK_OPEN_INFORMATION
 *
 PFILE_NETWORK_OPEN_INFORMATION
 ;
@@ -678,7 +678,8 @@ ULONG
 aEaLength
 )
 {
-char16_t
+const
+wchar_t
 *
 buf
 =
@@ -692,11 +693,9 @@ ObjectName
 >
 Buffer
 :
-MOZ_UTF16
-(
+L
 "
 "
-)
 ;
 uint32_t
 len
@@ -1029,7 +1028,8 @@ PFILE_NETWORK_OPEN_INFORMATION
 aFileInformation
 )
 {
-char16_t
+const
+wchar_t
 *
 buf
 =
@@ -1043,11 +1043,9 @@ ObjectName
 >
 Buffer
 :
-MOZ_UTF16
-(
+L
 "
 "
-)
 ;
 uint32_t
 len
