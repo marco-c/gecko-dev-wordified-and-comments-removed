@@ -1642,7 +1642,7 @@ audio_data
 .
 enabled
 "
-true
+false
 )
 ;
 pref
