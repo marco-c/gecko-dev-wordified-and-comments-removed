@@ -646,7 +646,10 @@ sandboxPrototype
 proto
 wantXrays
 :
-true
+!
+worker
+.
+_injectInDocument
 wantGlobalProperties
 :
 wantGlobalProperties

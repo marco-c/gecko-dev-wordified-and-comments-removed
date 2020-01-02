@@ -663,7 +663,11 @@ sandboxPrototype
 proto
 wantXrays
 :
-true
+!
+requiresAddonGlobal
+(
+worker
+)
 wantGlobalProperties
 :
 wantGlobalProperties
