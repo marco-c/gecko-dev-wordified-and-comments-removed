@@ -49,11 +49,6 @@ COLLAPSE_DATA_URL_LENGTH
 60
 ;
 const
-CONTAINER_FLASHING_DURATION
-=
-500
-;
-const
 NEW_SELECTION_HIGHLIGHTER_TIMER
 =
 1000
@@ -731,6 +726,9 @@ MarkupView
 prototype
 =
 {
+CONTAINER_FLASHING_DURATION
+:
+500
 _selectedContainer
 :
 null
@@ -7612,6 +7610,10 @@ flashed
 false
 ;
 }
+this
+.
+markup
+.
 CONTAINER_FLASHING_DURATION
 )
 ;
