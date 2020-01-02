@@ -4825,6 +4825,17 @@ return
 }
 if
 (
+(
+aEvent
+.
+type
+=
+=
+"
+click
+"
+|
+|
 aEvent
 .
 type
@@ -4833,6 +4844,7 @@ type
 "
 mouseup
 "
+)
 &
 &
 aEvent
