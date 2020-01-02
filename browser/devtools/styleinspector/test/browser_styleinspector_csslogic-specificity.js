@@ -288,6 +288,12 @@ data
 text
 /
 html
+;
+charset
+=
+utf
+-
+8
 Computed
 view
 specificity

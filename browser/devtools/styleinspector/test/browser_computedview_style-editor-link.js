@@ -50,6 +50,12 @@ data
 text
 /
 html
+;
+charset
+=
+utf
+-
+8
 "
 +
 encodeURIComponent
