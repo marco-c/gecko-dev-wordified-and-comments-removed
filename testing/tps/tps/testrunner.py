@@ -24,6 +24,8 @@ from
 mozprofile
 import
 Profile
+import
+mozversion
 from
 .
 firefoxrunner
@@ -2363,14 +2365,13 @@ try
             
 repoinfo
 =
+mozversion
+.
+get_version
+(
 self
 .
-firefoxRunner
-.
-runner
-.
-get_repositoryInfo
-(
+binary
 )
         
 except
