@@ -2204,7 +2204,7 @@ DirPickerRecursiveFileEnumerator
 nsISimpleEnumerator
 )
 class
-DirPickerBuildFileListTask
+DirPickerFileListBuilderTask
 MOZ_FINAL
 :
 public
@@ -2212,7 +2212,7 @@ nsRunnable
 {
 public
 :
-DirPickerBuildFileListTask
+DirPickerFileListBuilderTask
 (
 HTMLInputElement
 *
@@ -2674,12 +2674,12 @@ StartProgressEventTimer
 ;
 nsRefPtr
 <
-DirPickerBuildFileListTask
+DirPickerFileListBuilderTask
 >
 event
 =
 new
-DirPickerBuildFileListTask
+DirPickerFileListBuilderTask
 (
 mInput
 .
