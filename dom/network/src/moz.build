@@ -207,6 +207,11 @@ MobileConnection
 .
 h
 '
+'
+MobileConnectionArray
+.
+h
+'
 ]
 SOURCES
 +
@@ -214,6 +219,11 @@ SOURCES
 [
 '
 MobileConnection
+.
+cpp
+'
+'
+MobileConnectionArray
 .
 cpp
 '
