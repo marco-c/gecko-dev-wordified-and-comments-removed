@@ -739,7 +739,7 @@ actionModeCutDrawable
 >
 drawable
 /
-cut
+ab_cut
 <
 /
 item
@@ -756,7 +756,7 @@ actionModeCopyDrawable
 >
 drawable
 /
-copy
+ab_copy
 <
 /
 item
@@ -773,7 +773,7 @@ actionModePasteDrawable
 >
 drawable
 /
-paste
+ab_paste
 <
 /
 item
@@ -790,7 +790,7 @@ actionModeSelectAllDrawable
 >
 drawable
 /
-select_all
+ab_select_all
 <
 /
 item

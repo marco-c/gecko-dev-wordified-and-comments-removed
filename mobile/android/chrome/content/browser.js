@@ -37987,7 +37987,7 @@ drawable
 :
 /
 /
-ic_url_bar_search
+ab_add_search_engine
 "
 selector
 :

@@ -2115,7 +2115,7 @@ drawable
 :
 /
 /
-select_all
+ab_select_all
 "
 action
 :
@@ -2170,7 +2170,7 @@ drawable
 :
 /
 /
-cut
+ab_cut
 "
 action
 :
@@ -2267,7 +2267,7 @@ drawable
 :
 /
 /
-copy
+ab_copy
 "
 action
 :
@@ -2323,7 +2323,7 @@ drawable
 :
 /
 /
-paste
+ab_paste
 "
 action
 :
@@ -2457,7 +2457,7 @@ drawable
 :
 /
 /
-ic_url_bar_search
+ab_search
 "
 action
 :
