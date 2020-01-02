@@ -17184,12 +17184,13 @@ return
 true
 ;
 return
-global
--
->
+GlobalObject
+:
+:
 ensureConstructor
 (
 cx
+global
 key
 )
 ;
