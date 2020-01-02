@@ -1651,11 +1651,6 @@ reftest
 list
 #
 invalidation
--
-only
-run
-on
-B2G
 include
 invalidation
 /
