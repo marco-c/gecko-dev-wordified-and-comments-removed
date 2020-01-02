@@ -3441,7 +3441,7 @@ aOwner
 aPresContext
 static_cast
 <
-nsCommandEvent
+WidgetCommandEvent
 *
 >
 (

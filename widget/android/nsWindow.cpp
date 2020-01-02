@@ -7914,7 +7914,7 @@ if
 doCommand
 )
 {
-nsCommandEvent
+WidgetCommandEvent
 event
 (
 true

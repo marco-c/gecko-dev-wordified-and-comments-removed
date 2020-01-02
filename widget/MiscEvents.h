@@ -256,12 +256,5 @@ mozilla
 WidgetContentCommandEvent
 nsContentCommandEvent
 ;
-typedef
-mozilla
-:
-:
-WidgetCommandEvent
-nsCommandEvent
-;
 #
 endif

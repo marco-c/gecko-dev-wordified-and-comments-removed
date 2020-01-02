@@ -21,6 +21,10 @@ MiscEvents
 .
 h
 "
+using
+namespace
+mozilla
+;
 nsDOMCommandEvent
 :
 :
@@ -38,7 +42,7 @@ aOwner
 nsPresContext
 *
 aPresContext
-nsCommandEvent
+WidgetCommandEvent
 *
 aEvent
 )
@@ -52,7 +56,7 @@ aEvent
 aEvent
 :
 new
-nsCommandEvent
+WidgetCommandEvent
 (
 false
 nullptr
@@ -113,7 +117,7 @@ NS_COMMAND_EVENT
 delete
 static_cast
 <
-nsCommandEvent
+WidgetCommandEvent
 *
 >
 (
@@ -165,7 +169,7 @@ command
 =
 static_cast
 <
-nsCommandEvent
+WidgetCommandEvent
 *
 >
 (
@@ -243,7 +247,7 @@ rv
 ;
 static_cast
 <
-nsCommandEvent
+WidgetCommandEvent
 *
 >
 (
@@ -281,7 +285,7 @@ aOwner
 nsPresContext
 *
 aPresContext
-nsCommandEvent
+WidgetCommandEvent
 *
 aEvent
 )

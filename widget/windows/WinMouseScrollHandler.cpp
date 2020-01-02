@@ -5831,7 +5831,7 @@ Back
 )
 )
 ;
-nsCommandEvent
+WidgetCommandEvent
 commandEvent
 (
 true
