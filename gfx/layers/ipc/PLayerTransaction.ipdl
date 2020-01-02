@@ -427,7 +427,7 @@ Edit
 [
 ]
 cset
-uin64_t
+uint64_t
 id
 TargetConfig
 targetConfig
