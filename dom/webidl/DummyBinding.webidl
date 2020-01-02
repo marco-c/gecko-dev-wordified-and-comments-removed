@@ -265,14 +265,6 @@ AppNotificationServiceOptions
 arg
 )
 ;
-void
-AppInfo
-(
-optional
-AppInfo
-arg1
-)
-;
 }
 ;
 interface
