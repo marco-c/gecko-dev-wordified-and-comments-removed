@@ -2724,10 +2724,17 @@ SELFHOSTED_DEFINES
 )
 \
 -
+c
+'
+(
+CCC
+)
+'
+-
 p
 '
 (
-CPP
+PREPROCESS_OPTION
 )
 '
 -
@@ -2739,6 +2746,7 @@ srcdir
 js
 .
 msg
+\
 -
 o
 (
