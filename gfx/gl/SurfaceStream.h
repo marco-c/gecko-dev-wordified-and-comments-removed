@@ -105,8 +105,10 @@ preserveBuffer
 )
 ;
 static
+TemporaryRef
+<
 SurfaceStream
-*
+>
 CreateForType
 (
 SurfaceStreamType

@@ -104,8 +104,10 @@ TripleBuffer
 ;
 }
 }
+TemporaryRef
+<
 SurfaceStream
-*
+>
 SurfaceStream
 :
 :
@@ -127,11 +129,11 @@ SurfaceStream
 prevStream
 )
 {
+RefPtr
+<
 SurfaceStream
-*
+>
 result
-=
-nullptr
 ;
 switch
 (
@@ -223,6 +225,10 @@ glContext
 ;
 return
 result
+.
+forget
+(
+)
 ;
 }
 bool
