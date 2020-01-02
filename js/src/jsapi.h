@@ -20335,6 +20335,10 @@ JSContext
 cx
 MutableHandleObject
 stackp
+unsigned
+maxFrameCount
+=
+0
 )
 ;
 }

@@ -33034,6 +33034,8 @@ JS
 :
 MutableHandleObject
 stackp
+unsigned
+maxFrameCount
 )
 {
 JSCompartment
@@ -33077,6 +33079,7 @@ saveCurrentStack
 cx
 &
 frame
+maxFrameCount
 )
 )
 return
