@@ -115,14 +115,6 @@ NSCAP_FEATURE_USE_BASE
 endif
 #
 ifdef
-NSCAP_DISABLE_TEST_DONTQUERY_CASES
-#
-undef
-NSCAP_FEATURE_TEST_DONTQUERY_CASES
-#
-endif
-#
-ifdef
 __GNUC__
 #
 define
