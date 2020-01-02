@@ -124,6 +124,14 @@ SuccessResponse
 }
 ;
 struct
+FileDescriptorResponse
+{
+FileDescriptor
+fileDescriptor
+;
+}
+;
+struct
 BlobResponse
 {
 PBlob
@@ -183,6 +191,14 @@ mountState
 }
 ;
 struct
+StorageStatusResponse
+{
+nsString
+storageStatus
+;
+}
+;
+struct
 FormatStorageResponse
 {
 nsString
@@ -197,6 +213,8 @@ ErrorResponse
 ;
 SuccessResponse
 ;
+FileDescriptorResponse
+;
 BlobResponse
 ;
 EnumerationResponse
@@ -206,6 +224,8 @@ FreeSpaceStorageResponse
 UsedSpaceStorageResponse
 ;
 AvailableStorageResponse
+;
+StorageStatusResponse
 ;
 FormatStorageResponse
 ;

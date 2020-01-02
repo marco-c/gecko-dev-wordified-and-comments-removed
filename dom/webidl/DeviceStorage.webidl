@@ -240,6 +240,14 @@ available
 Throws
 ]
 DOMRequest
+storageStatus
+(
+)
+;
+[
+Throws
+]
+DOMRequest
 format
 (
 )
