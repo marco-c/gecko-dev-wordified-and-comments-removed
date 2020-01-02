@@ -911,6 +911,14 @@ aDeletingEmptyFrames
 )
 MOZ_OVERRIDE
 ;
+virtual
+const
+nsStyleText
+*
+StyleTextForLineLayout
+(
+)
+;
 bool
 CheckForCollapsedBottomMarginFromClearanceLine
 (
