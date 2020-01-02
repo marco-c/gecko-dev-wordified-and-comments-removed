@@ -211,3 +211,15 @@ cursor
 pointer
 ;
 }
+.
+ruleview
+-
+colorswatch
+{
+display
+:
+inline
+-
+block
+;
+}
