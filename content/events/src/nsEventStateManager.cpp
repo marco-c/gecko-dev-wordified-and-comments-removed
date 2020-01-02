@@ -21,6 +21,15 @@ include
 "
 mozilla
 /
+TouchEvents
+.
+h
+"
+#
+include
+"
+mozilla
+/
 dom
 /
 TabParent

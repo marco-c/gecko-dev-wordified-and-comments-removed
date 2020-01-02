@@ -40,6 +40,15 @@ h
 #
 include
 "
+mozilla
+/
+TouchEvents
+.
+h
+"
+#
+include
+"
 nsCOMPtr
 .
 h

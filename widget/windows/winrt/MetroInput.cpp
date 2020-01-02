@@ -67,6 +67,15 @@ h
 "
 #
 include
+"
+mozilla
+/
+TouchEvents
+.
+h
+"
+#
+include
 <
 windows
 .

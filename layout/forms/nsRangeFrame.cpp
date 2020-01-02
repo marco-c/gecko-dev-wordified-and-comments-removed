@@ -8,6 +8,15 @@ h
 #
 include
 "
+mozilla
+/
+TouchEvents
+.
+h
+"
+#
+include
+"
 nsContentCreatorFunctions
 .
 h

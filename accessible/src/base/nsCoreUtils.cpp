@@ -141,6 +141,15 @@ h
 #
 include
 "
+mozilla
+/
+TouchEvents
+.
+h
+"
+#
+include
+"
 nsView
 .
 h

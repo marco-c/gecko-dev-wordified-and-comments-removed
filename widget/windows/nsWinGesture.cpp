@@ -58,6 +58,15 @@ Preferences
 .
 h
 "
+#
+include
+"
+mozilla
+/
+TouchEvents
+.
+h
+"
 using
 namespace
 mozilla

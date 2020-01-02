@@ -35,7 +35,9 @@ h
 #
 include
 "
-nsGUIEvent
+mozilla
+/
+TouchEvents
 .
 h
 "

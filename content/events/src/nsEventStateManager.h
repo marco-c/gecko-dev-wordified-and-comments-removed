@@ -9,6 +9,15 @@ include
 "
 mozilla
 /
+EventForwards
+.
+h
+"
+#
+include
+"
+mozilla
+/
 TypedEnum
 .
 h

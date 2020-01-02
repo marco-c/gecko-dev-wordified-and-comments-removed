@@ -146,6 +146,15 @@ h
 #
 include
 "
+mozilla
+/
+TouchEvents
+.
+h
+"
+#
+include
+"
 nsObjCExceptions
 .
 h
