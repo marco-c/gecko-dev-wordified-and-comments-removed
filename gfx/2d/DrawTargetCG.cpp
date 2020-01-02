@@ -6840,6 +6840,11 @@ CGContextRestoreGState
 mCg
 )
 ;
+CGImageRelease
+(
+image
+)
+;
 }
 }
 void
