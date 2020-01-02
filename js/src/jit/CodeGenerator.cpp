@@ -18935,6 +18935,12 @@ templateObject
 (
 )
 ;
+AutoThreadSafeAccess
+ts
+(
+templateObj
+)
+;
 OutOfLineCode
 *
 ool

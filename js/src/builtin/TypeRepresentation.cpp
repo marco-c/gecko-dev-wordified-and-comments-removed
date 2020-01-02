@@ -4642,6 +4642,12 @@ JSID_TO_ATOM
 id
 )
 ;
+AutoThreadSafeAccess
+ts
+(
+atom
+)
+;
 if
 (
 atom

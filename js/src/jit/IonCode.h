@@ -294,6 +294,12 @@ raw
 )
 const
 {
+AutoThreadSafeAccess
+ts
+(
+this
+)
+;
 return
 code_
 ;

@@ -101,8 +101,6 @@ begin_
 script
 -
 >
-bindings
-.
 bindingArray
 (
 )
@@ -126,8 +124,6 @@ funHasAnyAliasedFormal
 script
 -
 >
-bindings
-.
 numArgs
 (
 )
@@ -430,6 +426,15 @@ global
 )
 const
 {
+js
+:
+:
+AutoThreadSafeAccess
+ts
+(
+this
+)
+;
 return
 *
 compartment

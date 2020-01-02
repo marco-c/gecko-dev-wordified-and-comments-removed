@@ -5876,6 +5876,8 @@ type
 -
 >
 singleton
+(
+)
 &
 &
 !
@@ -5893,6 +5895,8 @@ type
 -
 >
 singleton
+(
+)
 )
 ;
 if
@@ -6093,6 +6097,8 @@ type
 -
 >
 singleton
+(
+)
 &
 &
 !
@@ -6110,7 +6116,9 @@ trc
 type
 -
 >
-singleton
+singletonRaw
+(
+)
 "
 type_singleton
 "

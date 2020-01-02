@@ -2155,7 +2155,7 @@ set
 global
 -
 >
-getSlotRefForCompilation
+getSlotForCompilation
 (
 EVAL
 )
@@ -2179,11 +2179,10 @@ Value
 val
 )
 {
-HeapSlot
-&
+Value
 eval
 =
-getSlotRef
+getSlotForCompilation
 (
 EVAL
 )
@@ -2197,10 +2196,6 @@ isObject
 &
 &
 eval
-.
-get
-(
-)
 =
 =
 val
