@@ -118,11 +118,6 @@ nsIDOMApplicationRegistry
 idl
 '
 '
-nsIDOMApplicationRegistry2
-.
-idl
-'
-'
 nsIInterAppCommService
 .
 idl
