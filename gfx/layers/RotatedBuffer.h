@@ -562,6 +562,13 @@ SurfaceMode
 :
 SURFACE_NONE
 )
+mContentType
+(
+gfxContentType
+:
+:
+SENTINEL
+)
 mDidSelfCopy
 (
 false
@@ -579,6 +586,9 @@ mMode
 ;
 DrawRegionClip
 mClip
+;
+ContentType
+mContentType
 ;
 bool
 mDidSelfCopy
