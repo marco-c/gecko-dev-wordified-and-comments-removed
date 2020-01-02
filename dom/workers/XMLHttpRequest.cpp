@@ -3857,12 +3857,12 @@ mXMLHttpRequestPrivate
 ;
 if
 (
-NS_FAILED
-(
-NS_DispatchToCurrentThread
-(
+!
 runnable
-)
+-
+>
+RegisterAndDispatch
+(
 )
 )
 {
