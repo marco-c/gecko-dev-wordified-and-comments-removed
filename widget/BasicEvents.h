@@ -102,7 +102,7 @@ eDragEventClass
 eMouseScrollEventClass
 eWheelEventClass
 ePointerEventClass
-NS_GESTURENOTIFY_EVENT
+eGestureNotifyEventClass
 NS_SIMPLE_GESTURE_EVENT
 NS_TOUCH_EVENT
 NS_SCROLLPORT_EVENT
