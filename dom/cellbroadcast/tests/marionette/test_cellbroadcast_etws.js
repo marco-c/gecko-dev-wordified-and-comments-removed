@@ -1071,10 +1071,6 @@ msMessage
 message
 .
 timestamp
-.
-getTime
-(
-)
 ;
 let
 msNow
