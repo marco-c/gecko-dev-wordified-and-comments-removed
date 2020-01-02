@@ -430,12 +430,12 @@ pref_import_android_entries
 "
 gecko
 :
-entryKeys
+entryValues
 =
 "
 array
 /
-pref_import_android_keys
+pref_import_android_values
 "
 gecko
 :
@@ -444,7 +444,7 @@ initialValues
 "
 array
 /
-pref_import_android_values
+pref_import_android_defaults
 "
 android
 :
