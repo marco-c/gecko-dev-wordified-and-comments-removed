@@ -3375,6 +3375,14 @@ callInfo
 )
 ;
 InliningStatus
+inlineConstantCharCodeAt
+(
+CallInfo
+&
+callInfo
+)
+;
+InliningStatus
 inlineStrFromCharCode
 (
 CallInfo
