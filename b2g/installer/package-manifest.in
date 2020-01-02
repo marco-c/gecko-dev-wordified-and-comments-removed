@@ -4855,6 +4855,13 @@ BINPATH
 /
 components
 /
+dom_mobileidentity
+.
+xpt
+BINPATH
+/
+components
+/
 MobileIdentityUIGlue
 .
 js
@@ -4862,7 +4869,7 @@ BINPATH
 /
 components
 /
-dom_mobileidentity
+services_mobileidentity
 .
 xpt
 #
