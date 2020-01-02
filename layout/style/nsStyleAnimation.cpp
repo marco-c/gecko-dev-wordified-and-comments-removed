@@ -1432,7 +1432,7 @@ mNext
 ;
 }
 struct
-CalcValue
+PixelCalcValue
 {
 float
 mLength
@@ -1444,7 +1444,7 @@ mHasPercent
 }
 ;
 static
-CalcValue
+PixelCalcValue
 ExtractCalcValueInternal
 (
 const
@@ -1512,7 +1512,7 @@ Item
 0
 )
 ;
-CalcValue
+PixelCalcValue
 result
 ;
 if
@@ -1673,7 +1673,7 @@ result
 ;
 }
 static
-CalcValue
+PixelCalcValue
 ExtractCalcValue
 (
 const
@@ -1685,7 +1685,7 @@ Value
 aValue
 )
 {
-CalcValue
+PixelCalcValue
 result
 ;
 if
@@ -1818,7 +1818,7 @@ val
 ;
 }
 static
-CalcValue
+PixelCalcValue
 ExtractCalcValue
 (
 const
@@ -1827,7 +1827,7 @@ nsCSSValue
 aValue
 )
 {
-CalcValue
+PixelCalcValue
 result
 ;
 if
@@ -2058,7 +2058,7 @@ void
 SetCalcValue
 (
 const
-CalcValue
+PixelCalcValue
 &
 aCalc
 nsCSSValue
@@ -2767,7 +2767,7 @@ case
 eUnit_Calc
 :
 {
-CalcValue
+PixelCalcValue
 v1
 =
 ExtractCalcValue
@@ -2775,7 +2775,7 @@ ExtractCalcValue
 aStartValue
 )
 ;
-CalcValue
+PixelCalcValue
 v2
 =
 ExtractCalcValue
@@ -3103,7 +3103,7 @@ case
 eCSSUnit_Calc
 :
 {
-CalcValue
+PixelCalcValue
 v1
 =
 ExtractCalcValue
@@ -3115,7 +3115,7 @@ pair1
 member
 )
 ;
-CalcValue
+PixelCalcValue
 v2
 =
 ExtractCalcValue
@@ -3497,7 +3497,7 @@ case
 eCSSUnit_Calc
 :
 {
-CalcValue
+PixelCalcValue
 v1
 =
 ExtractCalcValue
@@ -3509,7 +3509,7 @@ triplet1
 member
 )
 ;
-CalcValue
+PixelCalcValue
 v2
 =
 ExtractCalcValue
@@ -4704,7 +4704,7 @@ arrays
 "
 )
 ;
-CalcValue
+PixelCalcValue
 calcVal
 [
 4
@@ -5301,7 +5301,7 @@ case
 eCSSUnit_Calc
 :
 {
-CalcValue
+PixelCalcValue
 val1
 =
 ExtractCalcValue
@@ -5309,7 +5309,7 @@ ExtractCalcValue
 v1
 )
 ;
-CalcValue
+PixelCalcValue
 val2
 =
 ExtractCalcValue
@@ -5947,7 +5947,7 @@ nsCSSValue
 aResult
 )
 {
-CalcValue
+PixelCalcValue
 v1
 =
 ExtractCalcValue
@@ -5955,7 +5955,7 @@ ExtractCalcValue
 aValue1
 )
 ;
-CalcValue
+PixelCalcValue
 v2
 =
 ExtractCalcValue
@@ -5963,7 +5963,7 @@ ExtractCalcValue
 aValue2
 )
 ;
-CalcValue
+PixelCalcValue
 result
 ;
 result
@@ -10584,7 +10584,7 @@ case
 eUnit_Calc
 :
 {
-CalcValue
+PixelCalcValue
 v1
 =
 ExtractCalcValue
@@ -10592,7 +10592,7 @@ ExtractCalcValue
 aValue1
 )
 ;
-CalcValue
+PixelCalcValue
 v2
 =
 ExtractCalcValue
