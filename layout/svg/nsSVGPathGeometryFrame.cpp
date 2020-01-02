@@ -2657,17 +2657,6 @@ mode
 gfxContextMatrixAutoSaveRestore
 autoSaveRestore
 ;
-if
-(
-renderMode
-!
-=
-SVGAutoRenderState
-:
-:
-CLIP
-)
-{
 autoSaveRestore
 .
 SetContext
@@ -2675,7 +2664,6 @@ SetContext
 gfx
 )
 ;
-}
 GeneratePath
 (
 gfx
