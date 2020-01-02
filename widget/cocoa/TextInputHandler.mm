@@ -24105,6 +24105,13 @@ ComplexTextInputPanel
 sharedComplexTextInputPanel
 ]
 ;
+[
+ctiPanel
+adjustTo
+:
+mView
+]
+;
 /
 /
 If
