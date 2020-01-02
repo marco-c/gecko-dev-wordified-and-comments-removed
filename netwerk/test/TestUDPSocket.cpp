@@ -560,6 +560,9 @@ written
 )
 ;
 }
+return
+NS_OK
+;
 }
 else
 if
@@ -851,6 +854,9 @@ written
 )
 ;
 }
+return
+NS_OK
+;
 }
 else
 if
@@ -874,6 +880,10 @@ mResult
 NS_ERROR_FAILURE
 ;
 }
+QuitPumpingEvents
+(
+)
+;
 return
 NS_OK
 ;
