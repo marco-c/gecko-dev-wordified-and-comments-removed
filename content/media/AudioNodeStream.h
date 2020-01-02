@@ -140,6 +140,10 @@ mAudioParamStream
 (
 false
 )
+mPassThrough
+(
+false
+)
 {
 MOZ_ASSERT
 (
@@ -271,6 +275,13 @@ ChannelCountMode
 aChannelCountMoe
 ChannelInterpretation
 aChannelInterpretation
+)
+;
+void
+SetPassThrough
+(
+bool
+aPassThrough
 )
 ;
 ChannelInterpretation
@@ -617,6 +628,9 @@ mMarkAsFinishedAfterThisBlock
 ;
 bool
 mAudioParamStream
+;
+bool
+mPassThrough
 ;
 }
 ;

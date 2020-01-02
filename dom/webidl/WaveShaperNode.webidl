@@ -180,3 +180,11 @@ oversample
 ;
 }
 ;
+/
+/
+Mozilla
+extension
+WaveShaperNode
+implements
+AudioNodePassThrough
+;

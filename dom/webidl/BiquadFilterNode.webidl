@@ -237,3 +237,11 @@ phaseResponse
 ;
 }
 ;
+/
+/
+Mozilla
+extension
+BiquadFilterNode
+implements
+AudioNodePassThrough
+;

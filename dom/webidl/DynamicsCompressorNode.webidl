@@ -212,3 +212,11 @@ in
 Seconds
 }
 ;
+/
+/
+Mozilla
+extension
+DynamicsCompressorNode
+implements
+AudioNodePassThrough
+;

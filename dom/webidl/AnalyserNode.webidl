@@ -243,3 +243,11 @@ smoothingTimeConstant
 ;
 }
 ;
+/
+/
+Mozilla
+extension
+AnalyserNode
+implements
+AudioNodePassThrough
+;

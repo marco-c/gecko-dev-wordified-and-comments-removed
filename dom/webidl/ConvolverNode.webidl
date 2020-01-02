@@ -169,3 +169,11 @@ normalize
 ;
 }
 ;
+/
+/
+Mozilla
+extension
+ConvolverNode
+implements
+AudioNodePassThrough
+;

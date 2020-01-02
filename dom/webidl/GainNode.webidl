@@ -162,3 +162,11 @@ gain
 ;
 }
 ;
+/
+/
+Mozilla
+extension
+GainNode
+implements
+AudioNodePassThrough
+;

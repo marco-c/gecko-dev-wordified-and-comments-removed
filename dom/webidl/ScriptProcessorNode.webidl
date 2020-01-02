@@ -166,3 +166,11 @@ bufferSize
 ;
 }
 ;
+/
+/
+Mozilla
+extension
+ScriptProcessorNode
+implements
+AudioNodePassThrough
+;

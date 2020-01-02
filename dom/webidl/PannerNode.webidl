@@ -273,3 +273,11 @@ coneOuterGain
 ;
 }
 ;
+/
+/
+Mozilla
+extension
+PannerNode
+implements
+AudioNodePassThrough
+;

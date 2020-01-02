@@ -162,3 +162,11 @@ delayTime
 ;
 }
 ;
+/
+/
+Mozilla
+extension
+DelayNode
+implements
+AudioNodePassThrough
+;
