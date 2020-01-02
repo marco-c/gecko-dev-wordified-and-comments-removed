@@ -934,6 +934,9 @@ True
 remove_unaccounted
 =
 True
+remove_empty_directories
+=
+True
 )
 :
         
@@ -1045,6 +1048,17 @@ unregistered
 files
 pass
 remove_unaccounted
+=
+False
+.
+To
+disable
+removing
+        
+empty
+directories
+pass
+remove_empty_directories
 =
 False
 .
@@ -1681,6 +1695,14 @@ add
 (
 destfile
 )
+        
+if
+not
+remove_empty_directories
+:
+            
+return
+result
         
 remove_dirs
 =
