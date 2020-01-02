@@ -5669,9 +5669,6 @@ true
 ;
 #
 endif
-#
-ifdef
-MOZ_WIDGET_GONK
 pref
 (
 "
@@ -5690,8 +5687,6 @@ enabled
 true
 )
 ;
-#
-endif
 pref
 (
 "
