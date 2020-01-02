@@ -4274,7 +4274,7 @@ const
 int32_t
 PSM_DEFAULT_MAX_TLS_VERSION
 =
-2
+3
 ;
 int32_t
 minVersion
