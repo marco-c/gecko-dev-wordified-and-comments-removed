@@ -938,9 +938,6 @@ ParentLayerPoint
 mLastScrollOffset
 ;
 gfx3DMatrix
-mTransformDisplayPortToLayer
-;
-gfx3DMatrix
 mTransformToCompBounds
 ;
 LayerIntRect
