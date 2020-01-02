@@ -103,6 +103,16 @@ installer
 Makefile
 '
 ]
+SPHINX_TREES
+[
+'
+browser
+'
+]
+=
+'
+docs
+'
 DIRS
 +
 =
