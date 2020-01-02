@@ -2585,6 +2585,9 @@ child
 else
 if
 (
+parentBlock
+&
+&
 nsHTMLEditUtils
 :
 :
