@@ -749,11 +749,15 @@ nsPipe
 :
 mInput
 (
-this
+MOZ_THIS_IN_INITIALIZER_LIST
+(
+)
 )
 mOutput
 (
-this
+MOZ_THIS_IN_INITIALIZER_LIST
+(
+)
 )
 mReentrantMonitor
 (
