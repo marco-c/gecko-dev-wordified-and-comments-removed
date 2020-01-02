@@ -109,6 +109,14 @@ seq
 )
 ;
 }
+if
+(
+getBuildConfiguration
+(
+)
+.
+parallelJS
+)
 run
 (
 range
