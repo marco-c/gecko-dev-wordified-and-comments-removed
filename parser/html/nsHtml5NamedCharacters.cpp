@@ -4,13 +4,6 @@ nsHtml5NamedCharacters_cpp_
 #
 include
 "
-prtypes
-.
-h
-"
-#
-include
-"
 jArray
 .
 h

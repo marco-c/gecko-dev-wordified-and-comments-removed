@@ -7,13 +7,6 @@ nsHtml5Highlighter_h
 #
 include
 "
-prtypes
-.
-h
-"
-#
-include
-"
 nsCOMPtr
 .
 h
