@@ -115,6 +115,8 @@ bin
 activate
 else
 curl
+-
+L
 https
 :
 /

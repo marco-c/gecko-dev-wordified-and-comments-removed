@@ -241,6 +241,8 @@ VENV_DIR
 }
 "
 curl
+-
+L
 https
 :
 /
