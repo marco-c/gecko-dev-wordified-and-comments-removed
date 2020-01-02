@@ -86,12 +86,10 @@ ABS_CONFIG_DIR
 :
 =
 (
-shell
-pwd
-)
-/
+abspath
 (
 CONFIG_DIR
+)
 )
 SFX_MODULE
 ?

@@ -393,8 +393,7 @@ SIXGILL
 /
 bin
 (
-shell
-pwd
+CURDIR
 )
 echo
 Finished
