@@ -1918,6 +1918,14 @@ other
 )
 ;
 bool
+objectsAreSubset
+(
+TypeSet
+*
+other
+)
+;
+bool
 addTypesToConstraint
 (
 JSContext
