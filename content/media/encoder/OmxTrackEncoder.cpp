@@ -112,6 +112,10 @@ int
 aWidth
 int
 aHeight
+int
+aDisplayWidth
+int
+aDisplayHeight
 TrackRate
 aTrackRate
 )
@@ -127,6 +131,14 @@ aHeight
 mTrackRate
 =
 aTrackRate
+;
+mDisplayWidth
+=
+aDisplayWidth
+;
+mDisplayHeight
+=
+aDisplayHeight
 ;
 mEncoder
 =

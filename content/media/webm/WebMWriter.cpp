@@ -224,6 +224,14 @@ mHeight
 meta
 -
 >
+mDisplayWidth
+meta
+-
+>
+mDisplayHeight
+meta
+-
+>
 mEncodedFrameRate
 )
 ;

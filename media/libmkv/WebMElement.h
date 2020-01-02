@@ -67,6 +67,12 @@ pixelWidth
 unsigned
 int
 pixelHeight
+unsigned
+int
+displayWidth
+unsigned
+int
+displayHeight
 double
 frameRate
 )

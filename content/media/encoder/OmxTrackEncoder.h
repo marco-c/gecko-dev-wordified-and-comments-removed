@@ -68,6 +68,10 @@ int
 aWidth
 int
 aHeight
+int
+aDisplayWidth
+int
+aDisplayHeight
 TrackRate
 aTrackRate
 )

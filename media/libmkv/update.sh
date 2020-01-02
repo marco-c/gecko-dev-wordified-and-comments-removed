@@ -301,3 +301,10 @@ p3
 bock_fix
 .
 patch
+patch
+-
+p3
+<
+bug970774
+.
+patch

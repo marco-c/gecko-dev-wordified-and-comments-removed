@@ -37,6 +37,10 @@ uint32_t
 aWidth
 uint32_t
 aHeight
+uint32_t
+aDisplayWidth
+uint32_t
+aDisplayHeight
 float
 aFrameRate
 )
@@ -147,6 +151,12 @@ mWidth
 ;
 int
 mHeight
+;
+int
+mDisplayWidth
+;
+int
+mDisplayHeight
 ;
 float
 mFrameRate
