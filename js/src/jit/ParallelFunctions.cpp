@@ -217,7 +217,7 @@ datum
 return
 true
 ;
-TypedDatum
+ArrayBufferObject
 &
 owner
 =
