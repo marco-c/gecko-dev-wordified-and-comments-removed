@@ -315,6 +315,9 @@ gOfflineCacheUpdateLog
 #
 endif
 #
+undef
+LOG
+#
 define
 LOG
 (
@@ -326,6 +329,9 @@ gOfflineCacheUpdateLog
 4
 args
 )
+#
+undef
+LOG_ENABLED
 #
 define
 LOG_ENABLED

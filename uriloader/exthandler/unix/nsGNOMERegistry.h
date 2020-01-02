@@ -1,4 +1,10 @@
 #
+ifndef
+nsGNOMERegistry_h
+#
+define
+nsGNOMERegistry_h
+#
 include
 "
 nsIURI
@@ -80,3 +86,5 @@ aMIMEType
 ;
 }
 ;
+#
+endif

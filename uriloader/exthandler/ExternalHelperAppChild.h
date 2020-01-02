@@ -1,4 +1,10 @@
 #
+ifndef
+mozilla_dom_ExternalHelperAppChild_h
+#
+define
+mozilla_dom_ExternalHelperAppChild_h
+#
 include
 "
 mozilla
@@ -83,3 +89,5 @@ mStatus
 ;
 }
 }
+#
+endif
