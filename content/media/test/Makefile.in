@@ -737,10 +737,6 @@ test_mediarecorder_record_session
 .
 html
 \
-test_media_selection
-.
-html
-\
 test_playback
 .
 html
@@ -990,6 +986,14 @@ test_bug493187
 html
 #
 Bug
+897843
+:
+#
+test_media_selection
+.
+html
+#
+Bug
 832678
 bug
 795271
@@ -1038,6 +1042,10 @@ test_bug465498
 html
 \
 test_bug493187
+.
+html
+\
+test_media_selection
 .
 html
 \
