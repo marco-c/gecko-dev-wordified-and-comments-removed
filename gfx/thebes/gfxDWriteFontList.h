@@ -119,6 +119,17 @@ nsAString
 aLocalizedName
 )
 ;
+virtual
+void
+ReadFaceNames
+(
+gfxPlatformFontList
+*
+aPlatformFontList
+bool
+aNeedFullnamePostscriptNames
+)
+;
 void
 SetForceGDIClassic
 (
