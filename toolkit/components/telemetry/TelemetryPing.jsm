@@ -2181,6 +2181,9 @@ manufacturer
 hardware
 "
 "
+tablet
+"
+"
 hasMMX
 "
 "
