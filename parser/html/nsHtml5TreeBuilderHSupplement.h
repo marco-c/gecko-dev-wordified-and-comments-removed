@@ -88,6 +88,17 @@ aTemplate
 nsIContent
 *
 *
+getFormPointerForContext
+(
+nsIContent
+*
+*
+aContext
+)
+;
+nsIContent
+*
+*
 AllocateContentHandle
 (
 )
