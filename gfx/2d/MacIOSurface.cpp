@@ -8,6 +8,15 @@ h
 #
 include
 <
+OpenGL
+/
+gl
+.
+h
+>
+#
+include
+<
 QuartzCore
 /
 QuartzCore
