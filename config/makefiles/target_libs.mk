@@ -579,10 +579,7 @@ BINARIES_PP
 :
 Makefile
 (
-if
-(
-EXTERNALLY_MANAGED_MAKE_FILE
-)
+wildcard
 backend
 .
 mk
@@ -648,10 +645,7 @@ binaries
 :
 Makefile
 (
-if
-(
-EXTERNALLY_MANAGED_MAKE_FILE
-)
+wildcard
 backend
 .
 mk
