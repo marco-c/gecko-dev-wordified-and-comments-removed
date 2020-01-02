@@ -257,14 +257,6 @@ WifiResultOptions
 arg2
 )
 ;
-void
-AppNotificationServiceOptions
-(
-optional
-AppNotificationServiceOptions
-arg
-)
-;
 }
 ;
 interface
