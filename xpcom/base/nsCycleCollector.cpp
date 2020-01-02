@@ -5439,9 +5439,11 @@ aLog
 mFile
 )
 )
+{
 return
 NS_ERROR_UNEXPECTED
 ;
+}
 MOZ_ASSERT
 (
 !
@@ -5480,9 +5482,11 @@ aLog
 mStream
 )
 )
+{
 return
 NS_ERROR_UNEXPECTED
 ;
+}
 MozillaRegisterDebugFILE
 (
 aLog
@@ -5568,9 +5572,11 @@ NS_WARN_IF
 logFileFinalDestination
 )
 )
+{
 return
 NS_ERROR_UNEXPECTED
 ;
+}
 nsAutoString
 logFileFinalDestinationName
 ;
@@ -5593,9 +5599,11 @@ IsEmpty
 )
 )
 )
+{
 return
 NS_ERROR_UNEXPECTED
 ;
+}
 aLog
 -
 >

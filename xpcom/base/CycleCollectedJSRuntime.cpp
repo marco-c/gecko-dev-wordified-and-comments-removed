@@ -1300,8 +1300,7 @@ nsCycleCollectionTraversalCallback
 aCb
 )
 {
-CycleCollectedJSRuntime
-*
+auto
 runtime
 =
 reinterpret_cast
@@ -1368,8 +1367,7 @@ nsCycleCollectionTraversalCallback
 aCb
 )
 {
-CycleCollectedJSRuntime
-*
+auto
 runtime
 =
 reinterpret_cast

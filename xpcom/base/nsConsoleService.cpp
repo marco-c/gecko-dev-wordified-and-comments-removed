@@ -202,9 +202,6 @@ mMessages
 [
 i
 ]
-!
-=
-nullptr
 )
 {
 NS_RELEASE

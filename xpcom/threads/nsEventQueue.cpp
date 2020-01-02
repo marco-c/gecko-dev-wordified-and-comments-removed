@@ -336,7 +336,7 @@ PutEvent
 (
 nsIRunnable
 *
-runnable
+aRunnable
 )
 {
 nsRefPtr
@@ -345,7 +345,7 @@ nsIRunnable
 >
 event
 (
-runnable
+aRunnable
 )
 ;
 if

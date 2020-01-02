@@ -71,10 +71,12 @@ that
 endif
 }
 else
+{
 status
 =
 NS_ERROR_NULL_POINTER
 ;
+}
 return
 status
 ;
@@ -145,10 +147,12 @@ that
 endif
 }
 else
+{
 status
 =
 NS_ERROR_NULL_POINTER
 ;
+}
 if
 (
 mErrorPtr

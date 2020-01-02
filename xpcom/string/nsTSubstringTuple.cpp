@@ -332,11 +332,11 @@ IsDependentOn
 const
 char_type
 *
-start
+aStart
 const
 char_type
 *
-end
+aEnd
 )
 const
 {
@@ -349,8 +349,8 @@ mFragB
 .
 IsDependentOn
 (
-start
-end
+aStart
+aEnd
 )
 )
 {
@@ -369,8 +369,8 @@ mHead
 >
 IsDependentOn
 (
-start
-end
+aStart
+aEnd
 )
 ;
 }
@@ -382,8 +382,8 @@ mFragA
 .
 IsDependentOn
 (
-start
-end
+aStart
+aEnd
 )
 ;
 }
