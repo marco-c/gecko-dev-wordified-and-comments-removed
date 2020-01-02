@@ -461,6 +461,9 @@ FILTER_NEAREST
 endif
 EffectChain
 effectChain
+(
+this
+)
 ;
 LayerManagerComposite
 :

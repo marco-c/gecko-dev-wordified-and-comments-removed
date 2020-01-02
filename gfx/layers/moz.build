@@ -243,6 +243,11 @@ Layers
 h
 '
 '
+LayerScope
+.
+h
+'
+'
 LayersLogging
 .
 h
@@ -1572,6 +1577,11 @@ cpp
 '
 '
 Layers
+.
+cpp
+'
+'
+LayerScope
 .
 cpp
 '
