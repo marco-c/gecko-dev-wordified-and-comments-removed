@@ -137,6 +137,9 @@ base
 '
 config
 '
+'
+mfbt
+'
 ]
 )
 add_tier_dir
