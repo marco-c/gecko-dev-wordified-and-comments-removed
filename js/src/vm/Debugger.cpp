@@ -7004,6 +7004,8 @@ options
 )
 .
 invisibleToDebugger
+(
+)
 )
 return
 ;
@@ -10218,6 +10220,8 @@ options
 )
 .
 invisibleToDebugger
+(
+)
 )
 continue
 ;
@@ -11466,6 +11470,8 @@ options
 )
 .
 invisibleToDebugger
+(
+)
 )
 {
 JS_ReportErrorNumber
