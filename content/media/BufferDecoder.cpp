@@ -386,15 +386,6 @@ void
 BufferDecoder
 :
 :
-RemoveMediaTracks
-(
-)
-{
-}
-void
-BufferDecoder
-:
-:
 SetMediaEndTime
 (
 int64_t
