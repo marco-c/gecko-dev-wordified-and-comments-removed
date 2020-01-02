@@ -189,4 +189,11 @@ SHARED_LIBRARY
 '
 <
 >
+LINK_PDBFILE
+=
+xul
+-
+gtest
+.
+pdb
 endif
