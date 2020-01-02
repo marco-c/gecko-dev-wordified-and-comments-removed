@@ -287,6 +287,13 @@ this
 .
 width
 ;
+if
+(
+gMultiProcessBrowser
+)
+return
+thumbnail
+;
 var
 ctx
 =
