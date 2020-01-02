@@ -147,10 +147,6 @@ addBannerTest
 (
 )
 {
-addBannerMessage
-(
-)
-;
 Actions
 .
 EventExpecter
@@ -169,6 +165,10 @@ MessageShown
 "
 )
 ;
+addBannerMessage
+(
+)
+;
 NavigationHelper
 .
 enterAndLoadUrl
@@ -178,6 +178,12 @@ about
 :
 home
 "
+)
+;
+eventExpecter
+.
+blockForEvent
+(
 )
 ;
 mAboutHome
