@@ -84,17 +84,6 @@ config
 rules
 .
 mk
-CXXFLAGS
-+
-=
-\
-(
-TK_CFLAGS
-)
-\
-(
-NULL
-)
 GRE_BUILDID
 :
 =

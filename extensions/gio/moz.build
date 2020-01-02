@@ -111,3 +111,12 @@ FINAL_LIBRARY
 '
 xul
 '
+CXXFLAGS
++
+=
+CONFIG
+[
+'
+MOZ_GIO_CFLAGS
+'
+]

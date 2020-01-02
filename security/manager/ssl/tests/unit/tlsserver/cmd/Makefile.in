@@ -89,9 +89,3 @@ NSS_LIBS
 (
 NULL
 )
-DEFINES
-+
-=
-(
-TK_CFLAGS
-)

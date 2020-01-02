@@ -380,3 +380,12 @@ GOOGLE_PROTOBUF_NO_RTTI
 ]
 =
 True
+CXXFLAGS
++
+=
+CONFIG
+[
+'
+TK_CFLAGS
+'
+]

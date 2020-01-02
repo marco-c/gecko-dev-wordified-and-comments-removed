@@ -94,15 +94,6 @@ config
 rules
 .
 mk
-ifdef
-MOZ_WIDGET_GTK
-CXXFLAGS
-+
-=
-(
-TK_CFLAGS
-)
-endif
 #
 We
 generate

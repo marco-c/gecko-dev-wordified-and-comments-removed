@@ -125,6 +125,15 @@ screenshot
 cpp
 '
 ]
+CXXFLAGS
++
+=
+CONFIG
+[
+'
+TK_CFLAGS
+'
+]
 elif
 CONFIG
 [

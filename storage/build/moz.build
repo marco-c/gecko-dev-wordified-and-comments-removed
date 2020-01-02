@@ -132,3 +132,12 @@ LOCAL_INCLUDES
 src
 '
 ]
+CXXFLAGS
++
+=
+CONFIG
+[
+'
+SQLITE_CFLAGS
+'
+]

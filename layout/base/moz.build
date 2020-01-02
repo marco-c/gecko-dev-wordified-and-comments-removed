@@ -768,3 +768,12 @@ browser
 ini
 '
 ]
+CXXFLAGS
++
+=
+CONFIG
+[
+'
+MOZ_CAIRO_CFLAGS
+'
+]

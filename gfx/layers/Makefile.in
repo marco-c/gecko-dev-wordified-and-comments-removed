@@ -64,15 +64,6 @@ config
 rules
 .
 mk
-CXXFLAGS
-+
-=
-(
-MOZ_CAIRO_CFLAGS
-)
-(
-TK_CFLAGS
-)
 PremultiplyTables
 .
 h

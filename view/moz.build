@@ -149,3 +149,12 @@ FINAL_LIBRARY
 '
 xul
 '
+CXXFLAGS
++
+=
+CONFIG
+[
+'
+MOZ_CAIRO_CFLAGS
+'
+]

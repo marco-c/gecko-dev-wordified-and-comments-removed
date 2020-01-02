@@ -221,6 +221,17 @@ HUNSPELL_STATIC
 ]
 =
 True
+else
+:
+CXXFLAGS
++
+=
+CONFIG
+[
+'
+MOZ_HUNSPELL_CFLAGS
+'
+]
 FINAL_LIBRARY
 =
 '

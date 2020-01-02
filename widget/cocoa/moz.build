@@ -809,3 +809,12 @@ nib
 '
 ]
 )
+CXXFLAGS
++
+=
+CONFIG
+[
+'
+TK_CFLAGS
+'
+]

@@ -515,3 +515,12 @@ dom
 base
 '
 ]
+CXXFLAGS
++
+=
+CONFIG
+[
+'
+SQLITE_CFLAGS
+'
+]

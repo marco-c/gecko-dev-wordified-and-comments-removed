@@ -859,3 +859,12 @@ mochitest
 ini
 '
 ]
+CXXFLAGS
++
+=
+CONFIG
+[
+'
+TK_CFLAGS
+'
+]

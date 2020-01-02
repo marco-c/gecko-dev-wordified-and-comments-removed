@@ -85,12 +85,3 @@ config
 rules
 .
 mk
-CXXFLAGS
-+
-=
-(
-TK_CFLAGS
-)
-(
-MOZ_DBUS_GLIB_CFLAGS
-)

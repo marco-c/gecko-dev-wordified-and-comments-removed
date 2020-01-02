@@ -480,3 +480,12 @@ class
 struct
 tags
 ]
+CXXFLAGS
++
+=
+CONFIG
+[
+'
+TK_CFLAGS
+'
+]

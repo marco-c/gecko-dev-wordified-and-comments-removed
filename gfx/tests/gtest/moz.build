@@ -330,3 +330,12 @@ xul
 -
 gtest
 '
+CXXFLAGS
++
+=
+CONFIG
+[
+'
+MOZ_CAIRO_CFLAGS
+'
+]

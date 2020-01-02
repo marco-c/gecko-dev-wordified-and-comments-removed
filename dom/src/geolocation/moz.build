@@ -192,6 +192,15 @@ system
 qt
 '
 ]
+CXXFLAGS
++
+=
+CONFIG
+[
+'
+MOZ_QT_CFLAGS
+'
+]
 if
 CONFIG
 [

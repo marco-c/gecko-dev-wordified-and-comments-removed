@@ -301,3 +301,12 @@ var
 ]
 =
 True
+CXXFLAGS
++
+=
+CONFIG
+[
+'
+MOZ_CAIRO_CFLAGS
+'
+]

@@ -121,6 +121,15 @@ QTMLocationProvider
 cpp
 '
 ]
+CXXFLAGS
++
+=
+CONFIG
+[
+'
+MOZ_QT_CFLAGS
+'
+]
 LOCAL_INCLUDES
 +
 =

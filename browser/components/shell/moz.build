@@ -305,3 +305,12 @@ CONFIG
 [
 var
 ]
+CXXFLAGS
++
+=
+CONFIG
+[
+'
+TK_CFLAGS
+'
+]

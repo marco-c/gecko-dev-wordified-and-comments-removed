@@ -120,12 +120,6 @@ shlwapi
 endif
 ifdef
 MOZ_WIDGET_GTK
-OS_CXXFLAGS
-+
-=
-(
-TK_CFLAGS
-)
 OS_LIBS
 +
 =
