@@ -50,7 +50,7 @@ type
 organic
 "
 "
-imageURISpec
+imageURI
 "
 :
 "
@@ -2017,7 +2017,7 @@ type
 sponsored
 "
 "
-imageURISpec
+imageURI
 "
 :
 "
@@ -3982,7 +3982,7 @@ type
 organic
 "
 "
-imageURISpec
+imageURI
 "
 :
 "
@@ -5947,7 +5947,7 @@ type
 sponsored
 "
 "
-imageURISpec
+imageURI
 "
 :
 "
@@ -7912,7 +7912,7 @@ type
 affiliate
 "
 "
-imageURISpec
+imageURI
 "
 :
 "
@@ -9875,7 +9875,7 @@ type
 organic
 "
 "
-imageURISpec
+imageURI
 "
 :
 "
@@ -11840,7 +11840,7 @@ type
 organic
 "
 "
-imageURISpec
+imageURI
 "
 :
 "
@@ -13805,7 +13805,7 @@ type
 organic
 "
 "
-imageURISpec
+imageURI
 "
 :
 "
@@ -15761,7 +15761,7 @@ type
 affiliate
 "
 "
-imageURISpec
+imageURI
 "
 :
 "
