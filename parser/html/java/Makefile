@@ -154,6 +154,13 @@ java
 xargs
 javac
 -
+encoding
+ISO
+-
+8859
+-
+1
+-
 g
 -
 d
