@@ -36,6 +36,13 @@ MediaQueue
 .
 h
 "
+#
+include
+"
+AudioCompactor
+.
+h
+"
 namespace
 mozilla
 {
@@ -232,6 +239,9 @@ MediaQueue
 VideoData
 >
 mVideoQueue
+;
+AudioCompactor
+mAudioCompactor
 ;
 public
 :

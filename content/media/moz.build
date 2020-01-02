@@ -343,6 +343,11 @@ AudioChannelFormat
 h
 '
 '
+AudioCompactor
+.
+h
+'
+'
 AudioEventTimeline
 .
 h
@@ -478,11 +483,6 @@ MediaStreamGraph
 h
 '
 '
-MediaTaskQueue
-.
-h
-'
-'
 MP3FrameParser
 .
 h
@@ -612,6 +612,11 @@ AudioChannelFormat
 cpp
 '
 '
+AudioCompactor
+.
+cpp
+'
+'
 AudioNodeEngine
 .
 cpp
@@ -708,11 +713,6 @@ cpp
 '
 '
 MediaStreamTrack
-.
-cpp
-'
-'
-MediaTaskQueue
 .
 cpp
 '

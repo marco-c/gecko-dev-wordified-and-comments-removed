@@ -221,6 +221,14 @@ msg
 )
 #
 endif
+#
+ifdef
+GetCurrentTime
+#
+undef
+GetCurrentTime
+#
+endif
 static
 const
 uint32_t
