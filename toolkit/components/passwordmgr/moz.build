@@ -241,6 +241,11 @@ LoginManagerContent
 .
 jsm
 '
+'
+LoginManagerParent
+.
+jsm
+'
 ]
 if
 CONFIG
