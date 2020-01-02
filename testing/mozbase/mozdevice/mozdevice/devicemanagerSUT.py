@@ -1640,6 +1640,20 @@ timer
 timeout
 :
                             
+self
+.
+_sock
+.
+close
+(
+)
+                            
+self
+.
+_sock
+=
+None
+                            
 raise
 DMError
 (
