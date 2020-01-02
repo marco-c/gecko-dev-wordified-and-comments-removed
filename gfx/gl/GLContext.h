@@ -994,6 +994,7 @@ EXT_framebuffer_sRGB
 KHR_debug
 ARB_half_float_pixel
 EXT_frag_depth
+OES_compressed_ETC1_RGB8_texture
 Extensions_Max
 Extensions_End
 }
