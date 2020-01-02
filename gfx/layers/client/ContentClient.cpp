@@ -5257,6 +5257,10 @@ surf
 GetSize
 (
 )
+.
+ToIntSize
+(
+)
 )
 ;
 }
