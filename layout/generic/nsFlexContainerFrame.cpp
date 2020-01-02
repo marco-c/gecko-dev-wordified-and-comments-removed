@@ -9199,6 +9199,14 @@ bottom
 ;
 if
 (
+aReflowState
+.
+availableHeight
+=
+=
+NS_UNCONSTRAINEDSIZE
+|
+|
 aDesiredSize
 .
 height
