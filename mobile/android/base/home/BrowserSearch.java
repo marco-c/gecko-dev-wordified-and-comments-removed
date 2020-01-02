@@ -1378,7 +1378,6 @@ getLoaderManager
 LOADER_ID_SEARCH
 mCursorLoaderCallbacks
 mSearchTerm
-false
 )
 ;
 }
@@ -2829,7 +2828,6 @@ getLoaderManager
 LOADER_ID_SEARCH
 mCursorLoaderCallbacks
 mSearchTerm
-false
 )
 ;
 filterSuggestions
