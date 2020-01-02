@@ -456,7 +456,7 @@ kPerfCIDs
 &
 kJSPERF_CID
 false
-NULL
+nullptr
 mozilla
 :
 :
@@ -466,7 +466,7 @@ jsperf
 ModuleConstructor
 }
 {
-NULL
+nullptr
 }
 }
 ;
@@ -490,7 +490,7 @@ JSPERF_CONTRACTID
 kJSPERF_CID
 }
 {
-NULL
+nullptr
 }
 }
 ;

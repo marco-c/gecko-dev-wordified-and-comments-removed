@@ -2134,7 +2134,7 @@ history
 VisitURI
 (
 visitedURI
-NULL
+nullptr
 mozilla
 :
 :
@@ -2235,7 +2235,7 @@ history
 RegisterVisitedCallback
 (
 testURI
-NULL
+nullptr
 )
 ;
 do_check_success
@@ -2251,7 +2251,7 @@ history
 RegisterVisitedCallback
 (
 testURI
-NULL
+nullptr
 )
 ;
 do_check_success
@@ -2267,7 +2267,7 @@ history
 VisitURI
 (
 testURI
-NULL
+nullptr
 mozilla
 :
 :

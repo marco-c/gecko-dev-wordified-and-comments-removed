@@ -391,7 +391,7 @@ nsIURI
 *
 aReferrer
 =
-NULL
+nullptr
 )
 :
 placeId
@@ -2725,7 +2725,7 @@ mozIVisitInfoCallback
 *
 aCallback
 =
-NULL
+nullptr
 )
 {
 nsNavHistory
@@ -2872,7 +2872,7 @@ mozIVisitInfoCallback
 *
 aCallback
 =
-NULL
+nullptr
 )
 {
 MOZ_ASSERT
@@ -3030,7 +3030,7 @@ VisitData
 *
 lastPlace
 =
-NULL
+nullptr
 ;
 for
 (
@@ -7474,7 +7474,7 @@ mozIVisitInfoCallback
 *
 aCallback
 =
-NULL
+nullptr
 )
 {
 MOZ_ASSERT
@@ -7742,7 +7742,7 @@ History
 :
 gService
 =
-NULL
+nullptr
 ;
 History
 :

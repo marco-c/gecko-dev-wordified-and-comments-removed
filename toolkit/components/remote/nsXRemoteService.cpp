@@ -968,7 +968,7 @@ char
 *
 response
 =
-NULL
+nullptr
 ;
 if
 (

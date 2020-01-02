@@ -273,10 +273,10 @@ FILE_SHARE_READ
 FILE_SHARE_WRITE
 |
 FILE_SHARE_DELETE
-NULL
+nullptr
 OPEN_EXISTING
 0
-NULL
+nullptr
 )
 )
 ;
@@ -333,7 +333,7 @@ buf
 )
 &
 read
-NULL
+nullptr
 )
 )
 {
@@ -786,12 +786,12 @@ argv
 0
 ]
 cmdLine
-NULL
-NULL
+nullptr
+nullptr
 FALSE
 CREATE_DEFAULT_ERROR_MODE
-NULL
-NULL
+nullptr
+nullptr
 &
 si
 &
@@ -1216,7 +1216,7 @@ LaunchWinPostProcess
 installDir
 updateInfoDir
 true
-NULL
+nullptr
 )
 )
 {
@@ -1534,10 +1534,10 @@ argv
 ]
 GENERIC_READ
 FILE_SHARE_READ
-NULL
+nullptr
 OPEN_EXISTING
 0
-NULL
+nullptr
 )
 )
 ;
@@ -1847,7 +1847,7 @@ argv
 [
 0
 ]
-NULL
+nullptr
 LOAD_LIBRARY_AS_DATAFILE
 )
 ;
@@ -2307,7 +2307,7 @@ if
 !
 GetModuleFileNameW
 (
-NULL
+nullptr
 serviceUpdaterPath
 MAX_PATH
 )
@@ -2445,7 +2445,7 @@ FALSE
 CreateDirectoryW
 (
 serviceUpdaterPath
-NULL
+nullptr
 )
 ;
 if

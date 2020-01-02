@@ -408,7 +408,7 @@ status
 =
 NetWkstaGetInfo
 (
-NULL
+nullptr
 level
 &
 info

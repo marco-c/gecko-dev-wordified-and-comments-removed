@@ -4936,11 +4936,11 @@ kSatchelCIDs
 &
 kNS_FORMFILLCONTROLLER_CID
 false
-NULL
+nullptr
 nsFormFillControllerConstructor
 }
 {
-NULL
+nullptr
 }
 }
 ;
@@ -4983,7 +4983,7 @@ NS_FORMHISTORYAUTOCOMPLETE_CONTRACTID
 kNS_FORMFILLCONTROLLER_CID
 }
 {
-NULL
+nullptr
 }
 }
 ;

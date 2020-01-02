@@ -119,7 +119,7 @@ static
 HINSTANCE
 gAdvAPIDLLInst
 =
-NULL
+nullptr
 ;
 typedef
 ULONG
@@ -172,17 +172,17 @@ RegHandle
 MyEventWrite
 gEventWrite
 =
-NULL
+nullptr
 ;
 MyEventRegister
 gEventRegister
 =
-NULL
+nullptr
 ;
 MyEventUnregister
 gEventUnregister
 =
-NULL
+nullptr
 ;
 nsParentalControlsServiceWin
 :
@@ -209,7 +209,7 @@ hr
 ;
 CoInitialize
 (
-NULL
+nullptr
 )
 ;
 hr
@@ -217,7 +217,7 @@ hr
 CoCreateInstance
 (
 CLSID_WinParentalControls
-NULL
+nullptr
 CLSCTX_INPROC
 IID_IWinParentalControls
 (
@@ -253,7 +253,7 @@ mPC
 >
 GetUserSettings
 (
-NULL
+nullptr
 getter_AddRefs
 (
 wpcs
@@ -470,7 +470,7 @@ mPC
 >
 GetWebSettings
 (
-NULL
+nullptr
 getter_AddRefs
 (
 wpcws
@@ -549,7 +549,7 @@ mPC
 >
 GetUserSettings
 (
-NULL
+nullptr
 getter_AddRefs
 (
 wpcs
@@ -654,8 +654,8 @@ gEventRegister
 (
 &
 WPCPROV
-NULL
-NULL
+nullptr
+nullptr
 &
 mProvider
 )
@@ -820,7 +820,7 @@ mPC
 >
 GetWebSettings
 (
-NULL
+nullptr
 getter_AddRefs
 (
 wpcws
@@ -844,7 +844,7 @@ get
 (
 )
 0
-NULL
+nullptr
 &
 ret
 )
@@ -1182,7 +1182,7 @@ mPC
 >
 GetWebSettings
 (
-NULL
+nullptr
 getter_AddRefs
 (
 wpcws

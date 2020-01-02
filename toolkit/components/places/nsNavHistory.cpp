@@ -726,7 +726,7 @@ nsNavHistory
 NS_IMPL_CLASSINFO
 (
 nsNavHistory
-NULL
+nullptr
 nsIClassInfo
 :
 :

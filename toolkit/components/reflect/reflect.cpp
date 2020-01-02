@@ -220,7 +220,7 @@ kReflectCIDs
 &
 kJSREFLECT_CID
 false
-NULL
+nullptr
 mozilla
 :
 :
@@ -230,7 +230,7 @@ reflect
 ModuleConstructor
 }
 {
-NULL
+nullptr
 }
 }
 ;
@@ -254,7 +254,7 @@ JSREFLECT_CONTRACTID
 kJSREFLECT_CID
 }
 {
-NULL
+nullptr
 }
 }
 ;

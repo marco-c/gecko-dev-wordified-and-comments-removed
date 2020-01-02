@@ -41,11 +41,11 @@ kMediaSnifferCIDs
 &
 kNS_MEDIA_SNIFFER_CID
 false
-NULL
+nullptr
 nsMediaSnifferConstructor
 }
 {
-NULL
+nullptr
 }
 }
 ;
@@ -69,7 +69,7 @@ NS_MEDIA_SNIFFER_CONTRACTID
 kNS_MEDIA_SNIFFER_CID
 }
 {
-NULL
+nullptr
 }
 }
 ;
@@ -110,7 +110,7 @@ NS_MEDIA_SNIFFER_CONTRACTID
 NS_MEDIA_SNIFFER_CONTRACTID
 }
 {
-NULL
+nullptr
 }
 }
 ;

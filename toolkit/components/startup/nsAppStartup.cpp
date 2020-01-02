@@ -2654,9 +2654,9 @@ aCx
 JS_NewObject
 (
 aCx
-NULL
-NULL
-NULL
+nullptr
+nullptr
+nullptr
 )
 )
 ;
@@ -2920,8 +2920,8 @@ OBJECT_TO_JSVAL
 (
 date
 )
-NULL
-NULL
+nullptr
+nullptr
 JSPROP_ENUMERATE
 )
 ;

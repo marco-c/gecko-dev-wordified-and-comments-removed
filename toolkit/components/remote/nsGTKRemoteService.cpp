@@ -715,11 +715,11 @@ kRemoteCIDs
 &
 kNS_REMOTESERVICE_CID
 false
-NULL
+nullptr
 nsGTKRemoteServiceConstructor
 }
 {
-NULL
+nullptr
 }
 }
 ;
@@ -755,7 +755,7 @@ service
 kNS_REMOTESERVICE_CID
 }
 {
-NULL
+nullptr
 }
 }
 ;
