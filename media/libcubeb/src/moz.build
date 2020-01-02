@@ -316,6 +316,16 @@ c
 '
 ]
 SOURCES
++
+=
+[
+'
+cubeb_resampler
+.
+cpp
+'
+]
+SOURCES
 [
 '
 cubeb_opensl
