@@ -88,6 +88,11 @@ LanguageDetector
 .
 jsm
 '
+'
+Translation
+.
+jsm
+'
 ]
 JAR_MANIFESTS
 +
