@@ -94,7 +94,7 @@ android
 layout_height
 =
 "
-wrap_content
+match_parent
 "
 android
 :
@@ -129,6 +129,13 @@ android
 color
 /
 transparent
+"
+android
+:
+visibility
+=
+"
+invisible
 "
 /
 >
