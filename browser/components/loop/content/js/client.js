@@ -76,7 +76,7 @@ requestCallUrl
 :
 function
 (
-simplepushUrl
+nickname
 cb
 )
 {
@@ -99,9 +99,9 @@ url
 reqData
 =
 {
-simplepushUrl
+callerId
 :
-simplepushUrl
+nickname
 }
 ;
 function
