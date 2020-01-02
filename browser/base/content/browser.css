@@ -395,7 +395,7 @@ max
 -
 width
 :
-250px
+180px
 ;
 min
 -
@@ -419,7 +419,7 @@ out
 max
 -
 width
-250ms
+230ms
 ease
 -
 out
@@ -484,7 +484,7 @@ out
 max
 -
 width
-250ms
+230ms
 ease
 -
 out
@@ -493,7 +493,7 @@ opacity
 ease
 -
 out
-180ms
+160ms
 ;
 }
 .
