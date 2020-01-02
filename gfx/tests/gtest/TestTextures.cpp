@@ -1473,6 +1473,13 @@ Format
 (
 )
 )
+gfx
+:
+:
+BackendType
+:
+:
+NONE
 TEXTURE_DEALLOCATE_CLIENT
 )
 ;
@@ -1745,6 +1752,13 @@ SurfaceFormat
 :
 :
 YUV
+gfx
+:
+:
+BackendType
+:
+:
+NONE
 TEXTURE_DEALLOCATE_CLIENT
 )
 ;
