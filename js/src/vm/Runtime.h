@@ -3651,6 +3651,9 @@ private
 bool
 signalHandlersInstalled_
 ;
+bool
+canUseSignalHandlers_
+;
 public
 :
 bool
@@ -3661,6 +3664,16 @@ const
 {
 return
 signalHandlersInstalled_
+;
+}
+bool
+canUseSignalHandlers
+(
+)
+const
+{
+return
+canUseSignalHandlers_
 ;
 }
 private

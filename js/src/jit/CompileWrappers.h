@@ -145,7 +145,7 @@ spsProfiler
 )
 ;
 bool
-signalHandlersInstalled
+canUseSignalHandlers
 (
 )
 ;
