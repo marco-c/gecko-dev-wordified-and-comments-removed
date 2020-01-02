@@ -278,6 +278,10 @@ mSurface
 (
 nullptr
 )
+mTexture
+(
+nullptr
+)
 mFlags
 (
 0
@@ -285,10 +289,6 @@ mFlags
 mHasOwnOffset
 (
 false
-)
-mTexture
-(
-nullptr
 )
 #
 endif
@@ -324,6 +324,10 @@ mSize
 (
 aSize
 )
+mTexture
+(
+aTexture
+)
 mFlags
 (
 aFlags
@@ -331,10 +335,6 @@ aFlags
 mHasOwnOffset
 (
 false
-)
-mTexture
-(
-aTexture
 )
 {
 }
