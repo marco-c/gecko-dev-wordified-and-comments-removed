@@ -236,9 +236,6 @@ any
 time
 )
 ;
-[
-Throws
-]
 void
 profile
 (
@@ -249,9 +246,6 @@ any
 data
 )
 ;
-[
-Throws
-]
 void
 profileEnd
 (
