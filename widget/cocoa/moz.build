@@ -293,6 +293,11 @@ nsStandaloneNativeMenu
 mm
 '
 '
+nsSystemStatusBarCocoa
+.
+mm
+'
+'
 nsToolkit
 .
 mm
