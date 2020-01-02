@@ -6722,3 +6722,16 @@ obj_isSealed
 JS_FS_END
 }
 ;
+const
+JSFunctionSpec
+js
+:
+:
+object_static_selfhosted_methods
+[
+]
+=
+{
+JS_FS_END
+}
+;
