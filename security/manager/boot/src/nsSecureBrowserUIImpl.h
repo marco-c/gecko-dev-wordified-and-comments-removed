@@ -410,6 +410,9 @@ UpdateSubrequestMembers
 nsISupports
 *
 securityInfo
+nsIRequest
+*
+request
 )
 ;
 void
