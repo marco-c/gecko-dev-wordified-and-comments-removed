@@ -2697,7 +2697,7 @@ endif
 )
 )
 {
-png_error
+png_chunk_error
 (
 png_ptr
 "

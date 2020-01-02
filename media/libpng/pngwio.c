@@ -312,16 +312,7 @@ output_flush_fn
 #
 endif
 #
-else
-PNG_UNUSED
-(
-output_flush_fn
-)
-#
 endif
-#
-ifdef
-PNG_READ_SUPPORTED
 if
 (
 png_ptr
@@ -362,8 +353,6 @@ structure
 )
 ;
 }
-#
-endif
 }
 #
 endif

@@ -200,9 +200,6 @@ read_data_fn
 ;
 #
 endif
-#
-ifdef
-PNG_WRITE_SUPPORTED
 if
 (
 png_ptr
@@ -243,8 +240,6 @@ structure
 )
 ;
 }
-#
-endif
 #
 ifdef
 PNG_WRITE_FLUSH_SUPPORTED

@@ -181,9 +181,6 @@ transformations
 =
 PNG_PACK
 ;
-#
-ifdef
-PNG_WRITE_SUPPORTED
 png_ptr
 -
 >
@@ -191,8 +188,6 @@ usr_bit_depth
 =
 8
 ;
-#
-endif
 }
 }
 #

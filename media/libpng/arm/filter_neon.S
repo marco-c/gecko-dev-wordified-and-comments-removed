@@ -35,10 +35,10 @@ libpng
 .
 6
 .
-8
+7
 [
-December
-19
+November
+14
 2013
 ]
 *
@@ -130,9 +130,6 @@ not
 )
 of
 PNG_ARM_NEON_OPT
-and
-*
-PNG_ARM_NEON_IMPLEMENTATION
 .
 *
 /
