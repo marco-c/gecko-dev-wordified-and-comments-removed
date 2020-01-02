@@ -2684,6 +2684,7 @@ masm
 ;
 public
 :
+explicit
 StoreOp
 (
 MacroAssembler

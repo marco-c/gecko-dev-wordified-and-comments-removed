@@ -1118,6 +1118,7 @@ flag
 )
 {
 }
+MOZ_IMPLICIT
 Key
 (
 RegExpShared

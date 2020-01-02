@@ -13853,6 +13853,7 @@ MarkingValidator
 {
 public
 :
+explicit
 MarkingValidator
 (
 GCRuntime

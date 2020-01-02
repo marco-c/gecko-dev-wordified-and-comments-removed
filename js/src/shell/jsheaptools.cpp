@@ -111,6 +111,7 @@ Node
 )
 {
 }
+explicit
 Node
 (
 JSGCTraceKind
@@ -467,6 +468,7 @@ Map
 Map
 map
 ;
+explicit
 HeapReverser
 (
 JSContext
@@ -1396,6 +1398,7 @@ next
 struct
 AutoNodeMarker
 {
+explicit
 AutoNodeMarker
 (
 HeapReverser
