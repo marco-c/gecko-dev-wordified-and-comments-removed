@@ -5033,6 +5033,14 @@ return
 true
 ;
 }
+bool
+js
+:
+:
+EnableLatin1Strings
+=
+false
+;
 #
 ifdef
 DEBUG
