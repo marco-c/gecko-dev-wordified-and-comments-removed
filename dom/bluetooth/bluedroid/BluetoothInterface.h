@@ -478,13 +478,16 @@ BluetoothHandsfreeResultHandler
 aRes
 )
 ;
-bt_status_t
+void
 VolumeControl
 (
 bthf_volume_type_t
 aType
 int
 aVolume
+BluetoothHandsfreeResultHandler
+*
+aRes
 )
 ;
 bt_status_t
