@@ -148,7 +148,7 @@ high_load
 "
 0
 .
-90
+90f
 )
 ;
 float
@@ -173,7 +173,7 @@ low_load
 "
 0
 .
-40
+40f
 )
 ;
 sSingleton

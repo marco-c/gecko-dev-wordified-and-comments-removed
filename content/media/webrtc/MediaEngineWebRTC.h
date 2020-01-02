@@ -1169,6 +1169,10 @@ char
 uuid
 )
 :
+mSamples
+(
+0
+)
 mVoiceEngine
 (
 aVoiceEnginePtr
@@ -1197,10 +1201,6 @@ false
 mStarted
 (
 false
-)
-mSamples
-(
-0
 )
 mEchoOn
 (
@@ -1426,6 +1426,11 @@ isStereo
 )
 ;
 NS_DECL_THREADSAFE_ISUPPORTS
+protected
+:
+int
+mSamples
+;
 private
 :
 static
@@ -1530,9 +1535,6 @@ mInitDone
 ;
 bool
 mStarted
-;
-int
-mSamples
 ;
 nsString
 mDeviceName
