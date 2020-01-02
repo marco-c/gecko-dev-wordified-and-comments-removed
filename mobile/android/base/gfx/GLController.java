@@ -423,13 +423,13 @@ mServerSurfaceValid
 =
 true
 ;
-createCompositor
+updateCompositor
 (
 )
 ;
 }
 void
-createCompositor
+updateCompositor
 (
 )
 {
@@ -448,7 +448,7 @@ LOGTAG
 GLController
 :
 :
-createCompositor
+updateCompositor
 with
 mCompositorCreated
 =
@@ -478,7 +478,7 @@ done
 GLController
 :
 :
-createCompositor
+updateCompositor
 with
 compositor
 resume
@@ -526,7 +526,7 @@ done
 GLController
 :
 :
-createCompositor
+updateCompositor
 "
 )
 ;

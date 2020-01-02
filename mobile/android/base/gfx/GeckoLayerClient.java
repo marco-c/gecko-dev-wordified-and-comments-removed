@@ -539,7 +539,7 @@ getGLController
 (
 )
 .
-createCompositor
+updateCompositor
 (
 )
 ;
