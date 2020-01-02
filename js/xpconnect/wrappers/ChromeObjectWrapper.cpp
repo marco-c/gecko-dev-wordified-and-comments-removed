@@ -155,7 +155,7 @@ unwrapped
 )
 ;
 return
-JS_IdentifyClassPrototype
+IdentifyStandardPrototype
 (
 unwrapped
 )
