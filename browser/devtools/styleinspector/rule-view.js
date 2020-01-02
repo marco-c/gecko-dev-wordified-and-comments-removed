@@ -4435,6 +4435,9 @@ then
 def
 .
 resolve
+def
+.
+reject
 )
 ;
 hasTooltip
@@ -4680,6 +4683,19 @@ if
 hasTooltip
 )
 {
+if
+(
+this
+.
+colorPicker
+.
+tooltip
+.
+isShown
+(
+)
+)
+{
 this
 .
 colorPicker
@@ -4696,6 +4712,7 @@ hide
 (
 )
 ;
+}
 }
 else
 {
