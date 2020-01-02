@@ -1079,7 +1079,7 @@ void
 Prepare
 (
 const
-nsIntRect
+RenderTargetIntRect
 &
 aClipRect
 )
