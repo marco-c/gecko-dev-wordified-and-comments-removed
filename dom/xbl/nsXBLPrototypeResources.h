@@ -105,7 +105,11 @@ nsCycleCollectionTraversalCallback
 &
 cb
 )
-const
+;
+void
+Unlink
+(
+)
 ;
 void
 ClearLoader

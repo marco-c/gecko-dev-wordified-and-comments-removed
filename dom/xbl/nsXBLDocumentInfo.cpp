@@ -280,7 +280,7 @@ PL_DHASH_NEXT
 }
 static
 PLDHashOperator
-UnlinkProtoJSObjects
+UnlinkProto
 (
 const
 nsACString
@@ -297,7 +297,7 @@ aClosure
 aProto
 -
 >
-UnlinkJSObjects
+Unlink
 (
 )
 ;
@@ -391,7 +391,7 @@ mBindingTable
 >
 EnumerateRead
 (
-UnlinkProtoJSObjects
+UnlinkProto
 nullptr
 )
 ;
