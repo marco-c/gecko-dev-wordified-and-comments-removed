@@ -884,6 +884,7 @@ false
 }
 finally
 {
+yield
 reporter
 .
 _shutdown
@@ -918,11 +919,10 @@ _initiateShutdown
 (
 )
 ;
+yield
 reporter
 .
-_waitForShutdown
-(
-)
+_promiseShutdown
 ;
 }
 )
@@ -981,11 +981,10 @@ init
 (
 )
 ;
+yield
 reporter
 .
-_waitForShutdown
-(
-)
+_promiseShutdown
 ;
 do_check_eq
 (
@@ -1061,11 +1060,10 @@ init
 (
 )
 ;
+yield
 reporter
 .
-_waitForShutdown
-(
-)
+_promiseShutdown
 ;
 do_check_eq
 (
@@ -1147,11 +1145,10 @@ init
 (
 )
 ;
+yield
 reporter
 .
-_waitForShutdown
-(
-)
+_promiseShutdown
 ;
 do_check_eq
 (
@@ -1452,6 +1449,7 @@ size
 }
 finally
 {
+yield
 reporter
 .
 _shutdown
@@ -1622,6 +1620,7 @@ collectDailyCount
 }
 finally
 {
+yield
 reporter
 .
 _shutdown
@@ -1799,6 +1798,7 @@ save
 (
 )
 ;
+yield
 reporter
 .
 _shutdown
@@ -1877,6 +1877,7 @@ path
 }
 finally
 {
+yield
 reporter
 .
 _shutdown
@@ -2100,6 +2101,7 @@ object
 }
 finally
 {
+yield
 reporter
 .
 _shutdown
@@ -2230,6 +2232,7 @@ _v
 }
 finally
 {
+yield
 reporter
 .
 _shutdown
@@ -2339,6 +2342,7 @@ object
 }
 finally
 {
+yield
 reporter
 .
 _shutdown
@@ -2709,6 +2713,7 @@ promise
 }
 finally
 {
+yield
 reporter
 .
 _shutdown
@@ -2913,6 +2918,7 @@ days
 }
 finally
 {
+yield
 reporter
 .
 _shutdown
@@ -3307,6 +3313,7 @@ highestVersion
 }
 finally
 {
+yield
 reporter
 .
 _shutdown
@@ -3480,6 +3487,7 @@ size
 }
 finally
 {
+yield
 reporter
 .
 _shutdown
@@ -3626,6 +3634,7 @@ length
 }
 finally
 {
+yield
 reporter
 .
 _shutdown
@@ -3793,6 +3802,7 @@ shutdownServer
 server
 )
 ;
+yield
 reporter
 .
 _shutdown
@@ -4072,6 +4082,7 @@ reporter
 .
 lastSubmitID
 ;
+yield
 reporter
 .
 _shutdown
@@ -4112,6 +4123,7 @@ getTime
 )
 )
 ;
+yield
 reporter
 .
 _shutdown
@@ -4371,6 +4383,7 @@ length
 }
 finally
 {
+yield
 reporter
 .
 _shutdown
@@ -4545,6 +4558,7 @@ id
 }
 finally
 {
+yield
 reporter
 .
 _shutdown
@@ -4648,6 +4662,7 @@ willUploadData
 }
 finally
 {
+yield
 reporter
 .
 _shutdown
@@ -4808,6 +4823,7 @@ AppDataURI
 }
 finally
 {
+yield
 reporter
 .
 _shutdown
@@ -5016,6 +5032,7 @@ geckoAppInfo
 }
 finally
 {
+yield
 reporter
 .
 _shutdown
@@ -5131,6 +5148,7 @@ pref
 }
 finally
 {
+yield
 reporter
 .
 _shutdown
@@ -5159,6 +5177,7 @@ failure_if_not_initialized
 "
 )
 ;
+yield
 reporter
 .
 _shutdown
@@ -5558,6 +5577,7 @@ initialization
 )
 )
 ;
+yield
 reporter
 .
 _shutdown
@@ -5747,6 +5767,7 @@ lastPingTime
 }
 finally
 {
+yield
 reporter
 .
 _shutdown
@@ -5872,6 +5893,7 @@ length
 }
 finally
 {
+yield
 reporter
 .
 _shutdown
@@ -5998,6 +6020,7 @@ length
 }
 finally
 {
+yield
 reporter
 .
 _shutdown
@@ -6116,6 +6139,7 @@ lastSubmitID
 }
 finally
 {
+yield
 reporter
 .
 _shutdown
@@ -6468,6 +6492,7 @@ shutdownServer
 server
 )
 ;
+yield
 reporter
 .
 _shutdown
@@ -6707,6 +6732,7 @@ getTime
 }
 finally
 {
+yield
 reporter
 .
 _shutdown
