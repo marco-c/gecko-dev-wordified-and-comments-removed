@@ -1041,17 +1041,6 @@ src
 /
 mediapipeline
 /
-MediaPipelineFilter
-.
-cpp
-'
-'
-signaling
-/
-src
-/
-mediapipeline
-/
 SrtpFlow
 .
 cpp
