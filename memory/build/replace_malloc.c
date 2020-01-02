@@ -1842,6 +1842,10 @@ NULL
 endif
 #
 endif
+malloc_zone_t
+*
+purgeable_zone
+=
 malloc_default_purgeable_zone
 (
 )
@@ -1870,6 +1874,16 @@ default_zone
 malloc_zone_register
 (
 default_zone
+)
+;
+malloc_zone_unregister
+(
+purgeable_zone
+)
+;
+malloc_zone_register
+(
+purgeable_zone
 )
 ;
 }
