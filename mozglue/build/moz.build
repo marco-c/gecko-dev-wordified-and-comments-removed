@@ -246,6 +246,13 @@ WindowsDllBlocklist
 cpp
 '
 ]
+DEFFILE
+=
+'
+mozglue
+.
+def
+'
 if
 CONFIG
 [

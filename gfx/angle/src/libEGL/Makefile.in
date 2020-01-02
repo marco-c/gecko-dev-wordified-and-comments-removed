@@ -119,15 +119,6 @@ with
 '
 libGLESv2
 '
-DEFFILE
-=
-(
-srcdir
-)
-/
-libEGL
-.
-def
 include
 (
 topsrcdir

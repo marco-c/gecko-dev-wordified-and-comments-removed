@@ -1296,6 +1296,14 @@ bar
 res
 '
             
+DEFFILE
+=
+'
+baz
+.
+def
+'
+            
 USE_STATIC_LIBS
 =
 True

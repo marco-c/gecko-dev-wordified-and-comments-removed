@@ -298,3 +298,13 @@ nptest
 .
 res
 '
+DEFFILE
+=
+SRCDIR
++
+'
+/
+nptest
+.
+def
+'

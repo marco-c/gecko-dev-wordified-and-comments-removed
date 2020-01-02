@@ -92,15 +92,6 @@ OS_CPPFLAGS
 -
 EHsc
 endif
-DEFFILE
-=
-(
-srcdir
-)
-/
-libGLESv2
-.
-def
 #
 End
 build_angle

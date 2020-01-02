@@ -298,3 +298,13 @@ libEGL
 .
 rc
 '
+DEFFILE
+=
+SRCDIR
++
+'
+/
+libEGL
+.
+def
+'

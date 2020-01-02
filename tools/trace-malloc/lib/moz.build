@@ -180,3 +180,13 @@ MOZ_NO_MOZALLOC
 ]
 =
 True
+DEFFILE
+=
+SRCDIR
++
+'
+/
+tm
+.
+def
+'

@@ -54,14 +54,5 @@ MPL
 0
 /
 .
-DEFFILE
-=
-(
-win_srcdir
-)
-/
-tm
-.
-def
 STL_FLAGS
 =

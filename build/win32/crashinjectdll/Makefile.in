@@ -53,14 +53,5 @@ MPL
 0
 /
 .
-DEFFILE
-=
-(
-srcdir
-)
-/
-crashinjectdll
-.
-def
 MOZ_GLUE_LDFLAGS
 =

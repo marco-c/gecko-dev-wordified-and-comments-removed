@@ -149,3 +149,13 @@ REGISTER_PROXY_DLL
 ]
 =
 True
+DEFFILE
+=
+SRCDIR
++
+'
+/
+AccessibleMarshal
+.
+def
+'

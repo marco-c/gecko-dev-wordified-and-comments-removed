@@ -121,15 +121,6 @@ MOZ_WIDGET_TOOLKIT
 )
 windows
 )
-DEFFILE
-=
-(
-win_srcdir
-)
-/
-nptest
-.
-def
 OS_LIBS
 +
 =

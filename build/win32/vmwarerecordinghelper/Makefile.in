@@ -53,16 +53,5 @@ MPL
 0
 /
 .
-DEFFILE
-=
-(
-srcdir
-)
-/
-(
-LIBRARY_NAME
-)
-.
-def
 MOZ_GLUE_LDFLAGS
 =

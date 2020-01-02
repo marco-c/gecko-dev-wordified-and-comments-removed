@@ -1107,3 +1107,13 @@ libGLESv2
 .
 rc
 '
+DEFFILE
+=
+SRCDIR
++
+'
+/
+libGLESv2
+.
+def
+'

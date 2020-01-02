@@ -85,11 +85,6 @@ EXPAND_LIBNAME
 usp10
 ole32
 )
-DEFFILE
-=
-symbols
-.
-def
 endif
 include
 (
