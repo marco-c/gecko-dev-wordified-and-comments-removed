@@ -11955,8 +11955,8 @@ browser
 .
 cache
 .
-use_new_backend
+use_new_backend_temp
 "
-1
+true
 )
 ;
