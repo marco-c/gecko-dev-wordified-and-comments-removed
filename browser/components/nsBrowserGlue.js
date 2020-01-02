@@ -3107,6 +3107,12 @@ init
 (
 )
 ;
+SessionStore
+.
+init
+(
+)
+;
 if
 (
 Services
@@ -4121,13 +4127,6 @@ startup
 }
 #
 endif
-SessionStore
-.
-init
-(
-aWindow
-)
-;
 this
 .
 _trackSlowStartup
