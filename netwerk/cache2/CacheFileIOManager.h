@@ -1083,8 +1083,6 @@ nsACString
 aKey
 uint32_t
 aFlags
-bool
-aResultOnAnyThread
 CacheFileIOListener
 *
 aCallback
@@ -1104,8 +1102,6 @@ char
 aBuf
 int32_t
 aCount
-bool
-aResultOnAnyThread
 CacheFileIOListener
 *
 aCallback

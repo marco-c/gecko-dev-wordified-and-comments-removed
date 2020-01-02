@@ -28,6 +28,12 @@ function
 (
 )
 {
+do_execute_soon
+(
+function
+(
+)
+{
 syncWithCacheIOThread
 (
 function
@@ -118,6 +124,9 @@ false
 }
 )
 true
+)
+;
+}
 )
 ;
 }
