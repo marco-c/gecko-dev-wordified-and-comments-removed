@@ -144,6 +144,15 @@ Clone
 )
 const
 ;
+nsresult
+CreateWildCard
+(
+nsHttpConnectionInfo
+*
+*
+outParam
+)
+;
 const
 char
 *
