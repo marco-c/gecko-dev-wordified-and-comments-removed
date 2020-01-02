@@ -397,7 +397,7 @@ kw
 no_match
 :
 return
-NULL
+nullptr
 ;
 }
 bool
@@ -529,7 +529,7 @@ length
 )
 !
 =
-NULL
+nullptr
 ;
 }
 TokenStream
@@ -1241,7 +1241,7 @@ column
 )
 prevLinebase
 (
-NULL
+nullptr
 )
 userbuf
 (
@@ -1265,11 +1265,11 @@ filename
 )
 sourceURL_
 (
-NULL
+nullptr
 )
 sourceMapURL_
 (
-NULL
+nullptr
 )
 tokenbuf
 (
@@ -1956,7 +1956,7 @@ prevLinebase
 ;
 prevLinebase
 =
-NULL
+nullptr
 ;
 lineno
 -
@@ -2600,8 +2600,8 @@ cx
 message
 &
 report
-NULL
-NULL
+nullptr
+nullptr
 )
 )
 {
@@ -2721,7 +2721,7 @@ message
 ;
 message
 =
-NULL
+nullptr
 ;
 if
 (
@@ -2961,7 +2961,7 @@ js_ExpandErrorArguments
 (
 cx
 js_GetErrorMessage
-NULL
+nullptr
 errorNumber
 &
 err

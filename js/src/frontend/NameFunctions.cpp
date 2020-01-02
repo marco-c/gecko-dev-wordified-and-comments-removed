@@ -475,7 +475,7 @@ case
 PNK_FUNCTION
 :
 return
-NULL
+nullptr
 ;
 case
 PNK_RETURN
@@ -570,7 +570,7 @@ break
 }
 }
 return
-NULL
+nullptr
 ;
 }
 JSAtom
@@ -589,7 +589,7 @@ JS_ASSERT
 pn
 !
 =
-NULL
+nullptr
 &
 &
 pn
@@ -640,7 +640,7 @@ displayAtom
 )
 !
 =
-NULL
+nullptr
 )
 {
 if
@@ -648,7 +648,7 @@ if
 prefix
 =
 =
-NULL
+nullptr
 )
 return
 fun
@@ -694,7 +694,7 @@ displayAtom
 )
 )
 return
-NULL
+nullptr
 ;
 return
 buf
@@ -709,7 +709,7 @@ if
 prefix
 !
 =
-NULL
+nullptr
 &
 &
 (
@@ -734,7 +734,7 @@ append
 )
 )
 return
-NULL
+nullptr
 ;
 ParseNode
 *
@@ -787,7 +787,7 @@ assignment
 )
 )
 return
-NULL
+nullptr
 ;
 }
 for
@@ -870,7 +870,7 @@ pn_atom
 )
 )
 return
-NULL
+nullptr
 ;
 }
 else
@@ -897,7 +897,7 @@ pn_dval
 )
 )
 return
-NULL
+nullptr
 ;
 }
 }
@@ -941,7 +941,7 @@ append
 )
 )
 return
-NULL
+nullptr
 ;
 }
 }
@@ -983,7 +983,7 @@ append
 )
 )
 return
-NULL
+nullptr
 ;
 if
 (
@@ -994,7 +994,7 @@ empty
 )
 )
 return
-NULL
+nullptr
 ;
 JSAtom
 *
@@ -1012,7 +1012,7 @@ if
 atom
 )
 return
-NULL
+nullptr
 ;
 fun
 -
@@ -1084,7 +1084,7 @@ nparents
 )
 buf
 (
-NULL
+nullptr
 )
 {
 }
@@ -1114,7 +1114,7 @@ if
 cur
 =
 =
-NULL
+nullptr
 )
 return
 ;

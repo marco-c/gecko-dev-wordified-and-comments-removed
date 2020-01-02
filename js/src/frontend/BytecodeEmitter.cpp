@@ -423,11 +423,11 @@ evalCaller
 )
 topStmt
 (
-NULL
+nullptr
 )
 topScopeStmt
 (
-NULL
+nullptr
 )
 blockChain
 (
@@ -874,7 +874,7 @@ nuses
 =
 StackUses
 (
-NULL
+nullptr
 pc
 )
 ;
@@ -882,7 +882,7 @@ ndefs
 =
 StackDefs
 (
-NULL
+nullptr
 pc
 )
 ;
@@ -3213,7 +3213,7 @@ parent
 )
 ;
 return
-NULL
+nullptr
 ;
 }
 return
@@ -3684,7 +3684,7 @@ pn
 pn_atom
 !
 =
-NULL
+nullptr
 )
 ;
 return
@@ -5401,7 +5401,7 @@ bce
 >
 reportError
 (
-NULL
+nullptr
 JSMSG_TOO_MANY_LOCALS
 )
 ;
@@ -8322,7 +8322,7 @@ GlobalObject
 *
 compileAndGoGlobal
 =
-NULL
+nullptr
 ;
 if
 (
@@ -8708,8 +8708,8 @@ cx
 obj
 value_id
 undefined
-NULL
-NULL
+nullptr
+nullptr
 JSPROP_ENUMERATE
 0
 0
@@ -8727,8 +8727,8 @@ cx
 obj
 done_id
 undefined
-NULL
-NULL
+nullptr
+nullptr
 JSPROP_ENUMERATE
 0
 0
@@ -9357,7 +9357,7 @@ ParseNode
 *
 pnup
 =
-NULL
+nullptr
 *
 pndown
 ;
@@ -9488,7 +9488,7 @@ pnup
 )
 !
 =
-NULL
+nullptr
 )
 ;
 return
@@ -11206,7 +11206,7 @@ ParseNode
 >
 table
 (
-NULL
+nullptr
 )
 ;
 if
@@ -11305,7 +11305,7 @@ jsbitmap
 *
 intmap
 =
-NULL
+nullptr
 ;
 int32_t
 intmap_bitlen
@@ -12388,7 +12388,7 @@ JSOP_CONDSWITCH
 {
 pc
 =
-NULL
+nullptr
 ;
 JS_ASSERT
 (
@@ -13365,7 +13365,7 @@ cx
 bce
 prologOp
 pn
-NULL
+nullptr
 )
 ;
 }
@@ -17309,7 +17309,7 @@ NewDenseAllocatedArray
 (
 cx
 pn_count
-NULL
+nullptr
 MaybeSingletonObject
 )
 )
@@ -17396,8 +17396,8 @@ cx
 obj
 id
 value
-NULL
-NULL
+nullptr
+nullptr
 JSPROP_ENUMERATE
 )
 )
@@ -17647,8 +17647,8 @@ cx
 obj
 index
 value
-NULL
-NULL
+nullptr
+nullptr
 JSPROP_ENUMERATE
 )
 )
@@ -17705,8 +17705,8 @@ cx
 obj
 index
 value
-NULL
-NULL
+nullptr
+nullptr
 JSPROP_ENUMERATE
 )
 )
@@ -17733,8 +17733,8 @@ asPropertyName
 (
 )
 value
-NULL
-NULL
+nullptr
+nullptr
 JSPROP_ENUMERATE
 )
 )
@@ -18489,7 +18489,7 @@ ParseNode
 *
 lastCatch
 =
-NULL
+nullptr
 ;
 if
 (
@@ -20039,7 +20039,7 @@ StaticBlockObject
 (
 )
 :
-NULL
+nullptr
 )
 ;
 uint32_t
@@ -20316,7 +20316,7 @@ EmitLoopHead
 (
 cx
 bce
-NULL
+nullptr
 )
 <
 0
@@ -20363,7 +20363,7 @@ forHead
 >
 pn_kid2
 JSOP_NOP
-NULL
+nullptr
 )
 )
 return
@@ -20441,7 +20441,7 @@ down
 )
 !
 =
-NULL
+nullptr
 &
 &
 stmt
@@ -20466,7 +20466,7 @@ EmitLoopEntry
 (
 cx
 bce
-NULL
+nullptr
 )
 )
 return
@@ -21084,7 +21084,7 @@ down
 )
 !
 =
-NULL
+nullptr
 &
 &
 stmt
@@ -22623,7 +22623,7 @@ EmitLoopEntry
 (
 cx
 bce
-NULL
+nullptr
 )
 )
 return
@@ -22684,7 +22684,7 @@ down
 )
 !
 =
-NULL
+nullptr
 &
 &
 stmt
@@ -23196,7 +23196,7 @@ StmtInfoBCE
 *
 loop
 =
-NULL
+nullptr
 ;
 while
 (
@@ -23474,7 +23474,7 @@ EmitNonLocalJumpFixup
 (
 cx
 bce
-NULL
+nullptr
 )
 )
 return
@@ -27449,7 +27449,7 @@ JSOP_INITPROP_SETTER
 )
 obj
 =
-NULL
+nullptr
 ;
 if
 (
@@ -27464,7 +27464,7 @@ PNK_NUMBER
 {
 obj
 =
-NULL
+nullptr
 ;
 switch
 (
@@ -27587,7 +27587,7 @@ proto
 )
 obj
 =
-NULL
+nullptr
 ;
 if
 (
@@ -27639,8 +27639,8 @@ cx
 obj
 id
 undefinedValue
-NULL
-NULL
+nullptr
+nullptr
 JSPROP_ENUMERATE
 0
 0
@@ -27662,7 +27662,7 @@ inDictionaryMode
 )
 obj
 =
-NULL
+nullptr
 ;
 }
 if
@@ -28861,7 +28861,7 @@ ParseNode
 *
 rest
 =
-NULL
+nullptr
 ;
 bool
 restIsDefn
@@ -29974,7 +29974,7 @@ pn_next
 )
 !
 =
-NULL
+nullptr
 )
 {
 if
@@ -30567,7 +30567,7 @@ bce
 >
 reportError
 (
-NULL
+nullptr
 JSMSG_SYNTAX_ERROR
 )
 ;
@@ -31471,7 +31471,7 @@ return
 setvbuf
 (
 fp
-NULL
+nullptr
 _IONBF
 0
 )
@@ -32270,7 +32270,7 @@ emitLink
 )
 !
 =
-NULL
+nullptr
 )
 ;
 JS_ASSERT

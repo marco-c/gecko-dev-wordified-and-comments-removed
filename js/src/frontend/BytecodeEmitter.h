@@ -151,7 +151,7 @@ length
 )
 lastbox
 (
-NULL
+nullptr
 )
 {
 }

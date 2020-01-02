@@ -557,7 +557,7 @@ clearMap
 {
 map_
 =
-NULL
+nullptr
 ;
 }
 Map
@@ -971,7 +971,7 @@ else
 {
 node
 =
-NULL
+nullptr
 ;
 bits
 =
@@ -991,7 +991,7 @@ Range
 :
 node
 (
-NULL
+nullptr
 )
 bits
 (
@@ -1329,7 +1329,7 @@ alloc
 u
 .
 bits
-NULL
+nullptr
 )
 ;
 if
@@ -1589,7 +1589,7 @@ alloc
 )
 map
 (
-NULL
+nullptr
 )
 {
 }

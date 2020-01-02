@@ -435,7 +435,7 @@ toObjectBox
 )
 =
 =
-NULL
+nullptr
 ;
 }
 inline
@@ -637,7 +637,7 @@ toObjectBox
 )
 {
 return
-NULL
+nullptr
 ;
 }
 JSObject
@@ -1446,14 +1446,14 @@ stmt
 >
 label
 =
-NULL
+nullptr
 ;
 stmt
 -
 >
 blockObj
 =
-NULL
+nullptr
 ;
 stmt
 -
@@ -1507,7 +1507,7 @@ stmt
 >
 downScope
 =
-NULL
+nullptr
 ;
 }
 }

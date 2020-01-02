@@ -955,7 +955,7 @@ CompileError
 :
 message
 (
-NULL
+nullptr
 )
 argumentsType
 (
@@ -1975,7 +1975,7 @@ return
 sourceURL_
 !
 =
-NULL
+nullptr
 ;
 }
 jschar
@@ -1998,7 +1998,7 @@ return
 sourceMapURL_
 !
 =
-NULL
+nullptr
 ;
 }
 jschar
@@ -2503,7 +2503,7 @@ poison
 {
 ptr
 =
-NULL
+nullptr
 ;
 }
 #

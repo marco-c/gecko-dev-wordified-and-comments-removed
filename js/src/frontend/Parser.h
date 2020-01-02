@@ -583,11 +583,11 @@ bodyid
 )
 topStmt
 (
-NULL
+nullptr
 )
 topScopeStmt
 (
-NULL
+nullptr
 )
 blockChain
 (
@@ -666,7 +666,7 @@ context
 )
 funcStmts
 (
-NULL
+nullptr
 )
 innerFunctions
 (
@@ -1225,7 +1225,7 @@ JSObject
 *
 proto
 =
-NULL
+nullptr
 )
 ;
 void
@@ -1536,12 +1536,12 @@ bool
 *
 psimple
 =
-NULL
+nullptr
 StaticBlockObject
 *
 blockObj
 =
-NULL
+nullptr
 VarContext
 varContext
 =
@@ -1608,7 +1608,7 @@ bool
 *
 genexp
 =
-NULL
+nullptr
 )
 ;
 bool
@@ -1939,7 +1939,7 @@ Node
 *
 duplicatedArg
 =
-NULL
+nullptr
 )
 ;
 Node

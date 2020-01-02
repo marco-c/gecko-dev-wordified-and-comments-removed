@@ -439,7 +439,7 @@ Definition
 *
 prevDef
 =
-NULL
+nullptr
 ;
 if
 (
@@ -539,7 +539,7 @@ pnup
 )
 !
 =
-NULL
+nullptr
 &
 &
 pnu
@@ -1088,7 +1088,7 @@ append
 Definition
 *
 )
-NULL
+nullptr
 )
 )
 return
@@ -2179,19 +2179,19 @@ thisForCtor
 )
 traceListHead
 (
-NULL
+nullptr
 )
 pc
 (
-NULL
+nullptr
 )
 sct
 (
-NULL
+nullptr
 )
 ss
 (
-NULL
+nullptr
 )
 keepAtoms
 (
@@ -2354,7 +2354,7 @@ context
 )
 ;
 return
-NULL
+nullptr
 ;
 }
 traceListHead
@@ -2699,7 +2699,7 @@ context
 )
 ;
 return
-NULL
+nullptr
 ;
 }
 traceListHead
@@ -2832,7 +2832,7 @@ context
 )
 ;
 return
-NULL
+nullptr
 ;
 }
 traceListHead
@@ -2954,7 +2954,7 @@ ParseHandler
 globalpc
 (
 this
-NULL
+nullptr
 ParseHandler
 :
 :
@@ -2963,7 +2963,7 @@ null
 )
 &
 globalsc
-NULL
+nullptr
 0
 0
 )
@@ -4192,7 +4192,7 @@ newFunctionBox
 (
 fn
 fun
-NULL
+nullptr
 inheritedDirectives
 generatorKind
 )
@@ -4756,7 +4756,7 @@ report
 (
 ParseError
 false
-NULL
+nullptr
 JSMSG_ARGUMENTS_AND_REST
 )
 ;
@@ -5756,7 +5756,7 @@ dn
 >
 pn_link
 =
-NULL
+nullptr
 ;
 dn
 =
@@ -6097,7 +6097,7 @@ Statement
 atom
 !
 =
-NULL
+nullptr
 )
 ;
 while
@@ -6206,7 +6206,7 @@ context
 NullPtr
 (
 )
-NULL
+nullptr
 0
 flags
 parent
@@ -6225,7 +6225,7 @@ if
 fun
 )
 return
-NULL
+nullptr
 ;
 if
 (
@@ -6907,7 +6907,7 @@ dn
 >
 dn_uses
 =
-NULL
+nullptr
 ;
 }
 outer_dn
@@ -8303,7 +8303,7 @@ report
 (
 reporter
 false
-NULL
+nullptr
 JSMSG_REDECLARED_VAR
 Definition
 :
@@ -8432,7 +8432,7 @@ fn
 >
 pn_body
 =
-NULL
+nullptr
 ;
 fn
 -
@@ -10693,7 +10693,7 @@ newFunctionBox
 (
 pn
 fun
-NULL
+nullptr
 directives
 generatorKind
 )
@@ -10737,7 +10737,7 @@ FullParseHandler
 funpc
 (
 this
-NULL
+nullptr
 pn
 funbox
 &
@@ -10850,7 +10850,7 @@ dn
 )
 )
 return
-NULL
+nullptr
 ;
 }
 }
@@ -11411,12 +11411,12 @@ report
 (
 ParseError
 false
-NULL
+nullptr
 JSMSG_MODULE_STATEMENT
 )
 ;
 return
-NULL
+nullptr
 ;
 }
 ParseNode
@@ -11439,7 +11439,7 @@ if
 pn
 )
 return
-NULL
+nullptr
 ;
 JS_ALWAYS_TRUE
 (
@@ -11485,7 +11485,7 @@ if
 module
 )
 return
-NULL
+nullptr
 ;
 ModuleBox
 *
@@ -11503,7 +11503,7 @@ if
 modulebox
 )
 return
-NULL
+nullptr
 ;
 pn
 -
@@ -11520,9 +11520,9 @@ modulepc
 (
 this
 pc
-NULL
+nullptr
 modulebox
-NULL
+nullptr
 pc
 -
 >
@@ -11546,7 +11546,7 @@ tokenStream
 )
 )
 return
-NULL
+nullptr
 ;
 MUST_MATCH_TOKEN
 (
@@ -11572,7 +11572,7 @@ pn
 pn_body
 )
 return
-NULL
+nullptr
 ;
 MUST_MATCH_TOKEN
 (
@@ -12152,7 +12152,7 @@ if
 ss
 =
 =
-NULL
+nullptr
 )
 return
 true
@@ -12885,7 +12885,7 @@ label
 .
 set
 (
-NULL
+nullptr
 )
 ;
 }
@@ -13804,7 +13804,7 @@ LexicalLookup
 (
 pc
 atom
-NULL
+nullptr
 stmt
 -
 >
@@ -13941,12 +13941,12 @@ LexicalLookup
 (
 pc
 name
-NULL
+nullptr
 (
 StmtInfoPC
 *
 )
-NULL
+nullptr
 )
 ;
 if
@@ -14507,12 +14507,12 @@ LexicalLookup
 (
 pc
 name
-NULL
+nullptr
 (
 StmtInfoPC
 *
 )
-NULL
+nullptr
 )
 ;
 DefinitionList
@@ -14844,7 +14844,7 @@ get
 (
 )
 :
-NULL
+nullptr
 ;
 uint32_t
 blockCountBefore
@@ -15867,7 +15867,7 @@ vars
 variables
 (
 PNK_LET
-NULL
+nullptr
 blockObj
 DontHoistVars
 )
@@ -17466,7 +17466,7 @@ pn
 variables
 (
 PNK_LET
-NULL
+nullptr
 pc
 -
 >
@@ -17505,7 +17505,7 @@ tokenStream
 ?
 pn
 :
-NULL
+nullptr
 ;
 }
 template
@@ -18451,7 +18451,7 @@ TOK_SEMI
 {
 pn1
 =
-NULL
+nullptr
 ;
 }
 else
@@ -18581,7 +18581,7 @@ pn1
 variables
 (
 PNK_LET
-NULL
+nullptr
 blockObj
 DontHoistVars
 )
@@ -18655,19 +18655,19 @@ ParseNode
 *
 forLetImpliedBlock
 =
-NULL
+nullptr
 ;
 ParseNode
 *
 forLetDecl
 =
-NULL
+nullptr
 ;
 ParseNode
 *
 hoistedVar
 =
-NULL
+nullptr
 ;
 StmtInfoPC
 letStmt
@@ -18856,7 +18856,7 @@ PNX_POPVAR
 ;
 pn1
 =
-NULL
+nullptr
 ;
 #
 if
@@ -18927,7 +18927,7 @@ pn1
 ;
 pn1
 =
-NULL
+nullptr
 ;
 if
 (
@@ -19172,7 +19172,7 @@ pn1
 ;
 pn1
 =
-NULL
+nullptr
 ;
 }
 MUST_MATCH_TOKEN
@@ -19199,7 +19199,7 @@ TOK_SEMI
 {
 pn2
 =
-NULL
+nullptr
 ;
 }
 else
@@ -19245,7 +19245,7 @@ TOK_RP
 {
 pn3
 =
-NULL
+nullptr
 ;
 }
 else
@@ -20488,7 +20488,7 @@ StmtInfoPC
 *
 stmt2
 =
-NULL
+nullptr
 ;
 ;
 stmt
@@ -24189,7 +24189,7 @@ if
 !
 checkDestructuring
 (
-NULL
+nullptr
 pn
 )
 )
@@ -26189,12 +26189,12 @@ LexicalLookup
 (
 pc
 atom
-NULL
+nullptr
 (
 StmtInfoPC
 *
 )
-NULL
+nullptr
 )
 ;
 JS_ASSERT
@@ -26330,7 +26330,7 @@ pnup
 )
 !
 =
-NULL
+nullptr
 &
 &
 pnu
@@ -26395,7 +26395,7 @@ pnup
 *
 pnup
 =
-NULL
+nullptr
 ;
 DefinitionSingle
 def
@@ -26671,7 +26671,7 @@ abortedSyntaxParse
 true
 ;
 return
-NULL
+nullptr
 ;
 }
 unsigned
@@ -27745,7 +27745,7 @@ pn
 >
 pn_tail
 =
-NULL
+nullptr
 ;
 ParseNode
 *
@@ -27759,7 +27759,7 @@ pn
 >
 pn_blockid
 false
-NULL
+nullptr
 PNK_ARRAYPUSH
 JSOP_ARRAYPUSH
 )
@@ -28028,7 +28028,7 @@ this
 outerpc
 genfn
 genFunbox
-NULL
+nullptr
 outerpc
 -
 >
@@ -30927,7 +30927,7 @@ atom
 length
 (
 )
-NULL
+nullptr
 )
 )
 return
@@ -31016,7 +31016,7 @@ PropertyName
 funName
 (
 context
-NULL
+nullptr
 )
 ;
 TokenStream
