@@ -111,7 +111,7 @@ cod
 )
 =
 =
-0xa
+0x5
 )
 class
 BluetoothProfileManagerBase

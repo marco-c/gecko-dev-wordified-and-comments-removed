@@ -634,6 +634,17 @@ mProfilesIndex
 1
 )
 ;
+NS_ENSURE_TRUE_VOID
+(
+mProfiles
+.
+Length
+(
+)
+>
+0
+)
+;
 +
 +
 mProfilesIndex
