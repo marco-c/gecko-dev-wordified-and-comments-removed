@@ -315,6 +315,12 @@ JSCLASS_HAS_PRIVATE
 )
 |
 |
+mozilla
+:
+:
+dom
+:
+:
 IsDOMClass
 (
 clasp
