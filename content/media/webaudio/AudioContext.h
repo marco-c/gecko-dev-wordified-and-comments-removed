@@ -718,13 +718,6 @@ Unmute
 )
 const
 ;
-JSContext
-*
-GetJSContext
-(
-)
-const
-;
 JSObject
 *
 GetGlobalJSObject
