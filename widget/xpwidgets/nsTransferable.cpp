@@ -933,7 +933,7 @@ rv
 ;
 for
 (
-uint32_t
+size_t
 i
 =
 0
@@ -1065,11 +1065,9 @@ nsISupports
 >
 savedData
 ;
-uint32_t
-i
-;
 for
 (
+size_t
 i
 =
 0
@@ -1234,6 +1232,7 @@ mFormatConv
 {
 for
 (
+size_t
 i
 =
 0
@@ -1461,7 +1460,7 @@ aDataLen
 ;
 for
 (
-uint32_t
+size_t
 i
 =
 0
@@ -1555,13 +1554,9 @@ NS_ENSURE_ARG
 aFlavor
 )
 ;
-uint32_t
-i
-=
-0
-;
 for
 (
+size_t
 i
 =
 0
@@ -1624,6 +1619,7 @@ mFormatConv
 {
 for
 (
+size_t
 i
 =
 0
