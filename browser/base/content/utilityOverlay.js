@@ -1455,6 +1455,7 @@ if
 (
 aAllowThirdPartyFixup
 )
+{
 flags
 |
 =
@@ -1464,6 +1465,16 @@ nsIWebNavigation
 .
 LOAD_FLAGS_ALLOW_THIRD_PARTY_FIXUP
 ;
+flags
+|
+=
+Ci
+.
+nsIWebNavigation
+.
+LOAD_FLAGS_FIXUP_SCHEME_TYPOS
+;
+}
 if
 (
 aDisallowInheritPrincipal

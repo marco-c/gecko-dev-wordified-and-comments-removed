@@ -8987,6 +8987,12 @@ Ci
 nsIWebNavigation
 .
 LOAD_FLAGS_ALLOW_THIRD_PARTY_FIXUP
+|
+Ci
+.
+nsIWebNavigation
+.
+LOAD_FLAGS_FIXUP_SCHEME_TYPOS
 ;
 if
 (
