@@ -270,6 +270,11 @@ transform
 ease
 -
 out
+metro_animation_duration
+background
+-
+color
+metro_animation_easing
 ;
 }
 .
@@ -617,6 +622,14 @@ text
 overflow
 :
 ellipsis
+;
+transition
+:
+metro_animation_duration
+background
+-
+color
+metro_animation_easing
 ;
 }
 richgriditem
