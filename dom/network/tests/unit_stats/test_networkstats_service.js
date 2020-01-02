@@ -31,6 +31,11 @@ NETWORK_STATUS_AWAY
 =
 2
 ;
+const
+QUEUE_TYPE_UPDATE_STATS
+=
+0
+;
 var
 wifiId
 =
@@ -467,6 +472,9 @@ netId
 callbacks
 :
 null
+queueType
+:
+QUEUE_TYPE_UPDATE_STATS
 }
 {
 netId
@@ -475,6 +483,9 @@ netId
 callbacks
 :
 null
+queueType
+:
+QUEUE_TYPE_UPDATE_STATS
 }
 {
 netId
@@ -483,6 +494,9 @@ netId
 callbacks
 :
 null
+queueType
+:
+QUEUE_TYPE_UPDATE_STATS
 }
 {
 netId
@@ -491,6 +505,9 @@ netId
 callbacks
 :
 null
+queueType
+:
+QUEUE_TYPE_UPDATE_STATS
 }
 {
 netId
@@ -499,6 +516,9 @@ netId
 callbacks
 :
 null
+queueType
+:
+QUEUE_TYPE_UPDATE_STATS
 }
 ]
 ;
