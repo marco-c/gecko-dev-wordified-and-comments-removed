@@ -3,12 +3,9 @@ marionette_test
 import
 MarionetteTestCase
 from
-marionette
+errors
 import
 MarionetteException
-from
-marionette
-import
 TimeoutException
 class
 TestNavigate

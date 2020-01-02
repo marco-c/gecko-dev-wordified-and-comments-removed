@@ -140,7 +140,7 @@ bin
         
 self
 .
-profile
+profile_path
 =
 profile
         
@@ -178,12 +178,6 @@ self
 )
 :
         
-profile_path
-=
-self
-.
-profile
-        
 profile_args
 =
 {
@@ -198,12 +192,10 @@ required_prefs
         
 if
 not
+self
+.
 profile_path
 :
-            
-runner_class
-=
-Runner
             
 profile_args
 [
@@ -213,13 +205,18 @@ restore
 ]
 =
 False
+            
+profile
+=
+Profile
+(
+*
+*
+profile_args
+)
         
 else
 :
-            
-runner_class
-=
-CloneRunner
             
 profile_args
 [
@@ -228,7 +225,20 @@ path_from
 "
 ]
 =
+self
+.
 profile_path
+            
+profile
+=
+Profile
+.
+clone
+(
+*
+*
+profile_args
+)
         
 if
 self
@@ -369,9 +379,7 @@ self
 .
 runner
 =
-runner_class
-.
-create
+Runner
 (
             
 binary
@@ -380,9 +388,9 @@ self
 .
 bin
             
-profile_args
+profile
 =
-profile_args
+profile
             
 cmdargs
 =
@@ -413,7 +421,7 @@ self
 .
 symbols_path
             
-kp_kwargs
+process_args
 =
 {
                 
@@ -468,6 +476,12 @@ self
 )
 :
         
+if
+self
+.
+runner
+:
+            
 self
 .
 runner
@@ -475,7 +489,7 @@ runner
 stop
 (
 )
-        
+            
 self
 .
 runner
@@ -501,33 +515,6 @@ testmode
 :
 True
 }
-apps
-=
-{
-'
-b2g
-'
-:
-B2GDesktopInstance
-        
-'
-b2gdesktop
-'
-:
-B2GDesktopInstance
-}
-class
-CloneRunner
-(
-Runner
-)
-:
-    
-profile_class
-=
-Profile
-.
-clone
 class
 NullOutput
 (
@@ -544,3 +531,18 @@ line
 :
         
 pass
+apps
+=
+{
+'
+b2g
+'
+:
+B2GDesktopInstance
+        
+'
+b2gdesktop
+'
+:
+B2GDesktopInstance
+}

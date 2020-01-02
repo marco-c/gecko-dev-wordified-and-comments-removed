@@ -11,7 +11,7 @@ by
 import
 By
 from
-marionette
+errors
 import
 NoSuchElementException
 class

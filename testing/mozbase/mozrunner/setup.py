@@ -4,6 +4,7 @@ from
 setuptools
 import
 setup
+find_packages
 PACKAGE_NAME
 =
 '
@@ -12,9 +13,9 @@ mozrunner
 PACKAGE_VERSION
 =
 '
-5
+6
 .
-37
+0
 '
 desc
 =
@@ -57,7 +58,7 @@ mozdevice
 =
 0
 .
-30
+37
 '
         
 '
@@ -288,11 +289,9 @@ MPL
       
 packages
 =
-[
-'
-mozrunner
-'
-]
+find_packages
+(
+)
       
 package_data
 =

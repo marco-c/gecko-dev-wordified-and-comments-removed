@@ -7,7 +7,7 @@ marionette
 import
 Actions
 from
-marionette
+errors
 import
 MarionetteException
 import

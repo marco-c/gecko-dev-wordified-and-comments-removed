@@ -3,8 +3,6 @@ hashlib
 import
 mozlog
 import
-socket
-import
 os
 import
 posixpath
@@ -2633,6 +2631,17 @@ as
 a
 string
 .
+Raises
+if
+        
+the
+return
+code
+is
+non
+-
+zero
+.
         
 :
 param
@@ -2687,6 +2696,11 @@ command
 requires
 root
 privileges
+        
+:
+raises
+:
+DMError
         
 "
 "

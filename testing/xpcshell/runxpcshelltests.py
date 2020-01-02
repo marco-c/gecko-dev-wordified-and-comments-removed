@@ -1459,6 +1459,9 @@ stdout
 stderr
 env
 cwd
+timeout
+=
+None
 )
 :
         
@@ -4443,6 +4446,9 @@ env
 cwd
 =
 test_dir
+timeout
+=
+testTimeoutInterval
 )
             
 if

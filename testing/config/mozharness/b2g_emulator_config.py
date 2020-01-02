@@ -54,9 +54,7 @@ res
 "
 -
 -
-logcat
--
-dir
+logdir
 =
 %
 (
@@ -233,9 +231,7 @@ s
 "
 -
 -
-logcat
--
-dir
+logdir
 =
 %
 (
@@ -417,9 +413,7 @@ res
 "
 -
 -
-logcat
--
-dir
+logdir
 =
 %
 (
@@ -585,9 +579,7 @@ res
 "
 -
 -
-logcat
--
-dir
+logdir
 =
 %
 (
@@ -737,9 +729,7 @@ s
 "
 -
 -
-logcat
--
-dir
+logdir
 =
 %
 (

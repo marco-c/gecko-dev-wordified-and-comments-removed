@@ -5,7 +5,7 @@ by
 import
 By
 from
-marionette
+errors
 import
 JavascriptException
 MarionetteException

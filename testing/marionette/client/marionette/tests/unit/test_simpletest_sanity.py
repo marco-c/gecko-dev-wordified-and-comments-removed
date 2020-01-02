@@ -3,7 +3,7 @@ marionette_test
 import
 MarionetteTestCase
 from
-marionette
+errors
 import
 JavascriptException
 MarionetteException
