@@ -50,6 +50,9 @@ jemalloc_bool
 opt_junk
 ;
 jemalloc_bool
+opt_poison
+;
+jemalloc_bool
 opt_utrace
 ;
 jemalloc_bool
