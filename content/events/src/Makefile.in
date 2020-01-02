@@ -278,13 +278,8 @@ tree
 (
 NULL
 )
-ifeq
-(
-gonk
-(
-MOZ_WIDGET_TOOLKIT
-)
-)
+ifdef
+MOZ_B2G_RIL
 LOCAL_INCLUDES
 +
 =

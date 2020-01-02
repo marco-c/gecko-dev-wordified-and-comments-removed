@@ -665,7 +665,7 @@ h
 endif
 #
 ifdef
-MOZ_WIDGET_GONK
+MOZ_B2G_RIL
 #
 include
 "
@@ -1676,7 +1676,7 @@ FactoryCreate
 )
 #
 ifdef
-MOZ_WIDGET_GONK
+MOZ_B2G_RIL
 NS_GENERIC_FACTORY_SINGLETON_CONSTRUCTOR
 (
 SystemWorkerManager
@@ -3611,7 +3611,7 @@ QUOTA_MANAGER_CID
 ;
 #
 ifdef
-MOZ_WIDGET_GONK
+MOZ_B2G_RIL
 NS_DEFINE_NAMED_CID
 (
 SYSTEMWORKERMANAGER_CID
@@ -5117,7 +5117,7 @@ QuotaManagerConstructor
 }
 #
 ifdef
-MOZ_WIDGET_GONK
+MOZ_B2G_RIL
 {
 &
 kSYSTEMWORKERMANAGER_CID
@@ -6432,7 +6432,7 @@ kQUOTA_MANAGER_CID
 }
 #
 ifdef
-MOZ_WIDGET_GONK
+MOZ_B2G_RIL
 {
 SYSTEMWORKERMANAGER_CONTRACTID
 &
@@ -7002,7 +7002,7 @@ endif
 CONTENTDLF_CATEGORIES
 #
 ifdef
-MOZ_WIDGET_GONK
+MOZ_B2G_RIL
 {
 "
 profile
@@ -7012,7 +7012,7 @@ after
 change
 "
 "
-Gonk
+Telephony
 System
 Worker
 Manager

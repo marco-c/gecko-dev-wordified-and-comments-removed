@@ -75,13 +75,8 @@ html
 (
 NULL
 )
-ifeq
-(
-gonk
-(
-MOZ_WIDGET_TOOLKIT
-)
-)
+ifdef
+MOZ_B2G_RIL
 MOCHITEST_FILES
 =
 \
