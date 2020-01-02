@@ -349,8 +349,10 @@ mDocument
 uint32_t
 mNonDocumentNodeInfos
 ;
+nsCOMPtr
+<
 nsIPrincipal
-*
+>
 mPrincipal
 ;
 nsCOMPtr
