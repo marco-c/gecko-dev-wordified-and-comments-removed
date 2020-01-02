@@ -259,13 +259,12 @@ mParent
 ;
 nsString
 namestr
-;
+=
 mNode
 -
 >
-GetNodeName
+NodeName
 (
-namestr
 )
 ;
 char
