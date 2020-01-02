@@ -540,6 +540,7 @@ i
 )
 undoCloseTab
 (
+0
 )
 ;
 "
