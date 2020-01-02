@@ -1362,7 +1362,7 @@ aFrame
 )
 ;
 void
-ApplyStartMargin
+AllowForStartMargin
 (
 PerFrameData
 *
