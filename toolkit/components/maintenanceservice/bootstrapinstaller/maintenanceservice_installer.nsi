@@ -1537,12 +1537,14 @@ FallbackKey
 issuer
 "
 "
-Thawte
+DigiCert
+Assured
+ID
 Code
 Signing
 CA
 -
-G2
+1
 "
 WriteRegStr
 HKLM

@@ -150,12 +150,14 @@ Corporation
 define
 CERTIFICATE_ISSUER
 "
-Thawte
+DigiCert
+Assured
+ID
 Code
 Signing
 CA
 -
-G2
+1
 "
 #
 LSP_CATEGORIES
