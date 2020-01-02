@@ -246,7 +246,10 @@ aNow
 )
 ;
 static
-double
+mozilla
+:
+:
+ComputedTiming
 GetPositionInIteration
 (
 TimeDuration
