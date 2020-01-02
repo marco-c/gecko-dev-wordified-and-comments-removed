@@ -2434,7 +2434,7 @@ if
 buffer
 -
 >
-copyData
+ensureNonInline
 (
 cx
 )
