@@ -3668,6 +3668,13 @@ removeLocationAttributes
 widgetNode
 )
 ;
+this
+.
+ensureButtonContextMenu
+(
+widgetNode
+)
+;
 widgetNode
 .
 removeAttribute
