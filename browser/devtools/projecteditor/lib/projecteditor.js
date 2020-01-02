@@ -287,8 +287,6 @@ plugins
 /
 dirty
 /
-lib
-/
 dirty
 "
 )
@@ -302,8 +300,6 @@ plugins
 /
 delete
 /
-lib
-/
 delete
 "
 )
@@ -317,8 +313,6 @@ plugins
 /
 new
 /
-lib
-/
 new
 "
 )
@@ -331,8 +325,6 @@ projecteditor
 plugins
 /
 save
-/
-lib
 /
 save
 "
@@ -349,8 +341,6 @@ image
 -
 view
 /
-lib
-/
 plugin
 "
 )
@@ -366,8 +356,6 @@ app
 -
 manager
 /
-lib
-/
 plugin
 "
 )
@@ -382,8 +370,6 @@ plugins
 status
 -
 bar
-/
-lib
 /
 plugin
 "
