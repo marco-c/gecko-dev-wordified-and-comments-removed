@@ -262,11 +262,7 @@ h
 #
 include
 "
-mozilla
-/
-dom
-/
-CellBroadcast
+MobileConnection
 .
 h
 "
@@ -277,9 +273,7 @@ mozilla
 /
 dom
 /
-network
-/
-MobileConnection
+CellBroadcast
 .
 h
 "
