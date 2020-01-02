@@ -82,6 +82,11 @@ found
 exit
 1
 fi
+VIRTUAL_ENV_VERSION
+=
+"
+49f40128a9ca3824ebf253eca408596e135cf893
+"
 #
 Check
 if
@@ -124,7 +129,9 @@ pypa
 /
 virtualenv
 /
-develop
+{
+VIRTUAL_ENV_VERSION
+}
 /
 virtualenv
 .
