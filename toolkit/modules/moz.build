@@ -320,6 +320,11 @@ WindowDraggingUtils
 .
 jsm
 '
+'
+WindowsPrefSync
+.
+jsm
+'
 ]
 if
 '
