@@ -11768,7 +11768,7 @@ if
 SameValue
 (
 cx
-vp
+trapResult
 desc
 .
 value
