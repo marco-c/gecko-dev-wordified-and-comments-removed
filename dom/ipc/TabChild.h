@@ -1878,6 +1878,14 @@ GetDOMWindowUtils
 (
 )
 ;
+already_AddRefed
+<
+nsIDocument
+>
+GetDocument
+(
+)
+;
 class
 CachedFileDescriptorInfo
 ;
