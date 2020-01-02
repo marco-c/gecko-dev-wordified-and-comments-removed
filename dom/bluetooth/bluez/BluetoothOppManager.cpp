@@ -705,7 +705,7 @@ mPacketLength
 (
 0
 )
-mPacketReceivedLength
+mPutPacketReceivedLength
 (
 0
 )
@@ -1840,14 +1840,6 @@ mWaitingForConfirmationFlag
 false
 )
 ;
-MOZ_ASSERT
-(
-mPacketReceivedLength
-=
-=
-0
-)
-;
 mWaitingForConfirmationFlag
 =
 false
@@ -1934,7 +1926,7 @@ mPutFinalFlag
 =
 false
 ;
-mPacketReceivedLength
+mPutPacketReceivedLength
 =
 0
 ;
@@ -2039,7 +2031,7 @@ mLastCommand
 =
 0
 ;
-mPacketReceivedLength
+mPutPacketReceivedLength
 =
 0
 ;
@@ -2172,7 +2164,7 @@ CreateFile
 {
 MOZ_ASSERT
 (
-mPacketReceivedLength
+mPutPacketReceivedLength
 =
 =
 mPacketLength
@@ -3012,7 +3004,7 @@ frameHeaderLength
 ;
 if
 (
-mPacketReceivedLength
+mPutPacketReceivedLength
 =
 =
 0
@@ -3092,7 +3084,7 @@ dataLength
 0
 |
 |
-mPacketReceivedLength
+mPutPacketReceivedLength
 +
 dataLength
 >
@@ -3136,7 +3128,7 @@ get
 (
 )
 +
-mPacketReceivedLength
+mPutPacketReceivedLength
 &
 aMessage
 -
@@ -3148,14 +3140,14 @@ frameHeaderLength
 dataLength
 )
 ;
-mPacketReceivedLength
+mPutPacketReceivedLength
 +
 =
 dataLength
 ;
 return
 (
-mPacketReceivedLength
+mPutPacketReceivedLength
 =
 =
 mPacketLength
@@ -3193,7 +3185,7 @@ mSize
 ;
 if
 (
-mPacketReceivedLength
+mPutPacketReceivedLength
 >
 0
 )
@@ -3469,7 +3461,7 @@ mReceivedDataBuffer
 get
 (
 )
-mPacketReceivedLength
+mPutPacketReceivedLength
 &
 pktHeaders
 )
@@ -3482,10 +3474,6 @@ pktHeaders
 ValidateFileName
 (
 )
-;
-mPacketReceivedLength
-=
-0
 ;
 if
 (
@@ -4940,6 +4928,10 @@ if
 mConnected
 )
 return
+;
+mPutPacketReceivedLength
+=
+0
 ;
 uint8_t
 req

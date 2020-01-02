@@ -522,7 +522,7 @@ int
 mPacketLength
 ;
 int
-mPacketReceivedLength
+mPutPacketReceivedLength
 ;
 int
 mBodySegmentLength
