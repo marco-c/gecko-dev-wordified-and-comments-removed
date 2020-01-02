@@ -1991,7 +1991,7 @@ true
 ;
 }
 }
-NS_IMETHODIMP
+nsresult
 nsEditorEventListener
 :
 :
@@ -2104,7 +2104,7 @@ return
 NS_OK
 ;
 }
-NS_IMETHODIMP
+nsresult
 nsEditorEventListener
 :
 :
@@ -2211,7 +2211,7 @@ NS_OK
 }
 #
 endif
-NS_IMETHODIMP
+nsresult
 nsEditorEventListener
 :
 :
@@ -2471,7 +2471,7 @@ return
 NS_OK
 ;
 }
-NS_IMETHODIMP
+nsresult
 nsEditorEventListener
 :
 :
@@ -2926,7 +2926,7 @@ return
 NS_OK
 ;
 }
-NS_IMETHODIMP
+nsresult
 nsEditorEventListener
 :
 :
@@ -2954,7 +2954,7 @@ return
 NS_OK
 ;
 }
-NS_IMETHODIMP
+nsresult
 nsEditorEventListener
 :
 :
@@ -3946,7 +3946,7 @@ return
 true
 ;
 }
-NS_IMETHODIMP
+nsresult
 nsEditorEventListener
 :
 :
@@ -4044,7 +4044,7 @@ EndIMEComposition
 )
 ;
 }
-NS_IMETHODIMP
+nsresult
 nsEditorEventListener
 :
 :
@@ -4282,7 +4282,7 @@ return
 NS_OK
 ;
 }
-NS_IMETHODIMP
+nsresult
 nsEditorEventListener
 :
 :
