@@ -5697,6 +5697,8 @@ Cc
 activeExperiment
 )
 {
+try
+{
 gCrashReporter
 .
 annotateCrashReport
@@ -5709,6 +5711,13 @@ activeExperiment
 id
 )
 ;
+}
+catch
+(
+e
+)
+{
+}
 }
 }
 _scheduleNextRun
