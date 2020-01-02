@@ -132,6 +132,13 @@ AlignSetting
 :
 Middle
 ;
+mLineAlign
+=
+AlignSetting
+:
+:
+Start
+;
 mVertical
 =
 DirectionSetting
