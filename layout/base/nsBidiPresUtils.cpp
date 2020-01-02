@@ -6176,7 +6176,7 @@ NS_INLINE_FRAME_BIDI_VISUAL_IS_LAST
 LogicalMargin
 margin
 (
-frameWM
+aLineWM
 aFrame
 -
 >
@@ -6197,7 +6197,7 @@ margin
 .
 IStart
 (
-frameWM
+aLineWM
 )
 ;
 }
@@ -6479,7 +6479,7 @@ margin
 .
 IEnd
 (
-frameWM
+aLineWM
 )
 ;
 }
@@ -6593,20 +6593,10 @@ startSpace
 =
 0
 ;
-WritingMode
-frameWM
-=
-aFirstChild
--
->
-GetWritingMode
-(
-)
-;
 LogicalMargin
 margin
 (
-frameWM
+aLineWM
 aFirstChild
 -
 >
@@ -6640,7 +6630,7 @@ margin
 .
 IStart
 (
-frameWM
+aLineWM
 )
 ;
 nscoord
