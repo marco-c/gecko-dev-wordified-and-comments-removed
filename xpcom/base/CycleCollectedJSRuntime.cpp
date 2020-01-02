@@ -3737,7 +3737,7 @@ nsresult
 CycleCollectedJSRuntime
 :
 :
-BeginCycleCollection
+TraverseRoots
 (
 nsCycleCollectionNoteRootCallback
 &

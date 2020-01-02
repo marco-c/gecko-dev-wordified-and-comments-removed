@@ -12835,7 +12835,7 @@ mJSRuntime
 mJSRuntime
 -
 >
-BeginCycleCollection
+TraverseRoots
 (
 *
 mBuilder
@@ -12849,7 +12849,7 @@ Checkpoint
 mJSRuntime
 -
 >
-BeginCycleCollection
+TraverseRoots
 (
 )
 "
