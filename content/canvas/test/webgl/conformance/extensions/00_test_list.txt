@@ -46,16 +46,6 @@ debug
 shaders
 .
 html
--
--
-min
--
-version
-1
-.
-0
-.
-2
 webgl
 -
 compressed
