@@ -2124,15 +2124,6 @@ xpcom
 xpidl
 /
 export
-js
-/
-src
-/
-export
-:
-mfbt
-/
-export
 ifdef
 ENABLE_CLANG_PLUGIN
 js
