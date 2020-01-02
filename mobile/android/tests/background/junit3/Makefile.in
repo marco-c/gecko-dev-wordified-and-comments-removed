@@ -236,6 +236,8 @@ mobile
 android
 /
 base
+/
+jars
 JAVA_BOOTCLASSPATH
 :
 =
