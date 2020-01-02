@@ -127,6 +127,13 @@ Debugger
 :
 EditorSourceErrorShown
 "
+EDITOR_LOCATION_SET
+:
+"
+Debugger
+:
+EditorLocationSet
+"
 FETCHED_SCOPES
 :
 "
@@ -5788,6 +5795,7 @@ message
 source
 :
 text
+contentType
 }
 )
 =
@@ -5833,6 +5841,7 @@ resolve
 [
 aSource
 text
+contentType
 ]
 )
 ;
@@ -5989,6 +5998,7 @@ message
 source
 :
 text
+contentType
 }
 )
 =
@@ -6035,6 +6045,7 @@ resolve
 [
 aSource
 text
+contentType
 ]
 )
 ;
@@ -6143,6 +6154,7 @@ onFetch
 [
 aSource
 aText
+aContentType
 ]
 )
 {
@@ -6180,6 +6192,7 @@ aSource
 .
 url
 aText
+aContentType
 ]
 )
 ;
