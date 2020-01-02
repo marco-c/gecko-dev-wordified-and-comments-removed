@@ -766,14 +766,6 @@ data
 0
 ]
 ;
-unsigned
-CMR
-=
-payloadHeader
->
->
-4
-;
 CHECK_EQ
 (
 payloadHeader
