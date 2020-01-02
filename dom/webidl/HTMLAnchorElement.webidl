@@ -253,14 +253,6 @@ attribute
 DOMString
 rel
 ;
-/
-/
-relList
-not
-supported
-yet
-/
-/
 readonly
 attribute
 DOMTokenList

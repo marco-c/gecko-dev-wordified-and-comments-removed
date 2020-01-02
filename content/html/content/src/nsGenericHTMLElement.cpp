@@ -5157,6 +5157,15 @@ nsGkAtoms
 :
 :
 itemtype
+|
+|
+aAttribute
+=
+=
+nsGkAtoms
+:
+:
+rel
 )
 {
 aResult

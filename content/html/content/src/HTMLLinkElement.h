@@ -402,6 +402,12 @@ aRv
 )
 ;
 }
+nsDOMTokenList
+*
+RelList
+(
+)
+;
 void
 SetMedia
 (
@@ -606,6 +612,12 @@ nsAString
 text
 )
 MOZ_OVERRIDE
+;
+nsRefPtr
+<
+nsDOMTokenList
+>
+mRelList
 ;
 }
 ;
