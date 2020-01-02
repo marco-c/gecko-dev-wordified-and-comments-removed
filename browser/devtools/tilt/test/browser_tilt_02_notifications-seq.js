@@ -615,6 +615,16 @@ obs_DESTROYED
 DESTROYED
 )
 ;
+Services
+.
+obs
+.
+removeObserver
+(
+obs_STARTUP
+STARTUP
+)
+;
 gBrowser
 .
 removeCurrentTab
