@@ -1820,6 +1820,12 @@ options
 webServer
         
 options
+.
+dumpOutputDirectory
+=
+None
+        
+options
 =
 MochitestOptions
 .
@@ -4924,6 +4930,12 @@ dmdPathOnDevice
 options
 .
 dmdPath
+=
+deviceRoot
+    
+options
+.
+dumpOutputDirectory
 =
 deviceRoot
     
