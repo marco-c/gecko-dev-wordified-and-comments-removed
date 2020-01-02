@@ -588,8 +588,7 @@ LIBXUL_SDK
 _ABS_DIST
 =
 (
-call
-core_abspath
+abspath
 (
 DIST
 )
@@ -597,8 +596,7 @@ DIST
 JARLOG_DIR
 =
 (
-call
-core_abspath
+abspath
 (
 DEPTH
 )
@@ -2142,8 +2140,7 @@ endif
 GECKO_APP_AP_PATH
 =
 (
-call
-core_abspath
+abspath
 (
 DEPTH
 )
@@ -2325,8 +2322,7 @@ apk
 ROBOCOP_PATH
 =
 (
-call
-core_abspath
+abspath
 (
 _ABS_DIST
 )
@@ -2386,8 +2382,7 @@ apk
 BACKGROUND_TESTS_PATH
 =
 (
-call
-core_abspath
+abspath
 (
 _ABS_DIST
 )

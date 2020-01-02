@@ -87,8 +87,7 @@ pgo
 ABSOLUTE_TOPSRCDIR
 =
 (
-call
-core_abspath
+abspath
 (
 MOZILLA_DIR
 )

@@ -340,8 +340,7 @@ failure
 file
 =
 (
-call
-core_abspath
+abspath
 _tests
 /
 testing
@@ -427,8 +426,7 @@ failure
 file
 =
 (
-call
-core_abspath
+abspath
 _tests
 /
 testing
@@ -449,8 +447,7 @@ modules
 dir
 =
 (
-call
-core_abspath
+abspath
 _tests
 /
 modules
@@ -561,8 +558,7 @@ modules
 dir
 =
 (
-call
-core_abspath
+abspath
 _tests
 /
 modules
@@ -695,8 +691,7 @@ modules
 dir
 =
 (
-call
-core_abspath
+abspath
 _tests
 /
 modules
@@ -2762,8 +2757,7 @@ root
 dir
 =
 (
-call
-core_abspath
+abspath
 _tests
 /
 xpcshell
@@ -2778,8 +2772,7 @@ modules
 dir
 =
 (
-call
-core_abspath
+abspath
 _tests
 /
 modules
@@ -2792,8 +2785,7 @@ xunit
 file
 =
 (
-call
-core_abspath
+abspath
 _tests
 /
 xpcshell
@@ -3203,8 +3195,7 @@ modules
 dir
 =
 (
-call
-core_abspath
+abspath
 _tests
 /
 modules
@@ -3872,8 +3863,7 @@ zip
 rq9D
 "
 (
-call
-core_abspath
+abspath
 (
 DIST
 )

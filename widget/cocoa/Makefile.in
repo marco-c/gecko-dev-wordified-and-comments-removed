@@ -166,8 +166,7 @@ ABS_topsrcdir
 :
 =
 (
-call
-core_abspath
+abspath
 (
 topsrcdir
 )

@@ -272,8 +272,7 @@ ABS_DIST
 :
 =
 (
-call
-core_abspath
+abspath
 (
 DIST
 )
@@ -1652,8 +1651,7 @@ patch
 p1
 <
 (
-call
-core_abspath
+abspath
 (
 MOZ_NSS_PATCH
 )
@@ -2990,8 +2988,7 @@ NSINSTALL_PY
 =
 '
 (
-call
-core_abspath
+abspath
 (
 topsrcdir
 )

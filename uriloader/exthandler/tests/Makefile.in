@@ -93,8 +93,7 @@ export
 PERSONAL_MAILCAP
 =
 (
-call
-core_abspath
+abspath
 (
 srcdir
 )

@@ -67,8 +67,7 @@ mk
 abs_srcdir
 =
 (
-call
-core_abspath
+abspath
 (
 srcdir
 )

@@ -57,8 +57,7 @@ MPL
 DISTROEXT
 =
 (
-call
-core_abspath
+abspath
 (
 FINAL_TARGET
 )
@@ -270,8 +269,7 @@ mkdir
 done
 cd
 (
-call
-core_abspath
+abspath
 (
 srcdir
 )

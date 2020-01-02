@@ -56,8 +56,7 @@ MPL
 CONFIG_DIR
 =
 (
-call
-core_abspath
+abspath
 (
 srcdir
 )
@@ -65,8 +64,7 @@ srcdir
 OBJ_DIR
 =
 (
-call
-core_abspath
+abspath
 (
 DEPTH
 )
@@ -74,8 +72,7 @@ DEPTH
 SRC_DIR
 =
 (
-call
-core_abspath
+abspath
 (
 topsrcdir
 )

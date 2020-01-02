@@ -125,8 +125,7 @@ DEBUG_JARSIGNER
 PYTHON
 )
 (
-call
-core_abspath
+abspath
 (
 topsrcdir
 )

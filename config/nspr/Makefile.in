@@ -116,8 +116,7 @@ SDK
 ABS_DIST
 =
 (
-call
-core_abspath
+abspath
 (
 DIST
 )

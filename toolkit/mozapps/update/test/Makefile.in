@@ -56,8 +56,7 @@ MPL
 TESTROOT
 =
 (
-call
-core_abspath
+abspath
 (
 DEPTH
 )

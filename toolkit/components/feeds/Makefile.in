@@ -71,8 +71,7 @@ ABS_SRCDIR
 :
 =
 (
-call
-core_abspath
+abspath
 (
 srcdir
 )
