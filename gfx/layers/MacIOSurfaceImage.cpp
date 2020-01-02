@@ -12,7 +12,7 @@ mozilla
 /
 layers
 /
-TextureClientOGL
+MacIOSurfaceTextureClientOGL
 .
 h
 "
