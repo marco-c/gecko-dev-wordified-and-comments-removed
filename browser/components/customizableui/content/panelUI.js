@@ -683,10 +683,6 @@ iconAnchor
 |
 |
 anchor
-"
-bottomcenter
-topright
-"
 )
 ;
 this
