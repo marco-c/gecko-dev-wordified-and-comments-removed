@@ -4038,11 +4038,8 @@ JS_GetObjectId
 (
 cx
 parent_proto
+&
 parent_proto_id
-.
-address
-(
-)
 )
 )
 {
