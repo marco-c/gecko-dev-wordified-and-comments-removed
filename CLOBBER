@@ -195,11 +195,10 @@ any
 more
 .
 Bug
-1004726
+994964
+apparently
 requires
 a
 clobber
-for
-B2G
-Emulator
-builds
+unclear
+why

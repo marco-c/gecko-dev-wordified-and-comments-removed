@@ -1790,7 +1790,7 @@ if
 (
 entry
 .
-isJs
+js
 (
 )
 )
@@ -1923,15 +1923,6 @@ sampleLabel
 )
 )
 ;
-if
-(
-entry
-.
-isCpp
-(
-)
-)
-{
 lineno
 =
 entry
@@ -1940,7 +1931,6 @@ line
 (
 )
 ;
-}
 }
 if
 (
@@ -2631,7 +2621,7 @@ if
 !
 entry
 .
-isJs
+js
 (
 )
 &
