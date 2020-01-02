@@ -383,12 +383,6 @@ d2d
 143
 681
 )
-fails
--
-if
-(
-Android
-)
 fuzzy
 -
 if
@@ -434,12 +428,6 @@ if
 d2d
 143
 681
-)
-fails
--
-if
-(
-Android
 )
 fuzzy
 -
