@@ -854,7 +854,7 @@ getInstance
 (
 )
 .
-getTabForUrl
+getFirstTabForUrl
 (
 pageURL
 )

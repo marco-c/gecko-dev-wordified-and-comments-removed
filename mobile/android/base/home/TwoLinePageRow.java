@@ -475,8 +475,8 @@ isPrivate
 (
 )
 ;
-int
-tabId
+Tab
+tab
 =
 Tabs
 .
@@ -484,7 +484,7 @@ getInstance
 (
 )
 .
-getTabIdForUrl
+getFirstTabForUrl
 (
 mPageUrl
 isPrivate
@@ -496,9 +496,10 @@ if
 mShowIcons
 |
 |
-tabId
-<
-0
+tab
+=
+=
+null
 )
 {
 setSecondaryText
