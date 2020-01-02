@@ -956,6 +956,8 @@ ComputePriority
 ProcessCPUPriority
 ComputeCPUPriority
 (
+ProcessPriority
+aPriority
 )
 ;
 void
@@ -3813,11 +3815,13 @@ ParticularProcessPriorityManager
 :
 ComputeCPUPriority
 (
+ProcessPriority
+aPriority
 )
 {
 if
 (
-mPriority
+aPriority
 =
 =
 PROCESS_PRIORITY_PREALLOC
@@ -3829,7 +3833,7 @@ PROCESS_CPU_PRIORITY_LOW
 }
 if
 (
-mPriority
+aPriority
 >
 =
 PROCESS_PRIORITY_FOREGROUND_HIGH
@@ -3889,6 +3893,7 @@ SetPriorityNow
 aPriority
 ComputeCPUPriority
 (
+aPriority
 )
 aBackgroundLRU
 )
