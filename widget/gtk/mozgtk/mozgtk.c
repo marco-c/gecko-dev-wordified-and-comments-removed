@@ -239,6 +239,10 @@ gdk_screen_get_font_options
 )
 STUB
 (
+gdk_screen_get_number
+)
+STUB
+(
 gdk_screen_get_resolution
 )
 STUB
