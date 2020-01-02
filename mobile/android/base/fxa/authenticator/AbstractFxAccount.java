@@ -38,6 +38,12 @@ getServerURI
 )
 ;
 public
+String
+getProfile
+(
+)
+;
+public
 boolean
 isValid
 (
