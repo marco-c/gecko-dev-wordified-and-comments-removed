@@ -164,6 +164,11 @@ BorrowedContext
 h
 '
 '
+DataSurfaceHelpers
+.
+h
+'
+'
 Matrix
 .
 h

@@ -44,6 +44,13 @@ DrawTargetSkia
 .
 h
 "
+#
+include
+"
+DataSurfaceHelpers
+.
+h
+"
 namespace
 mozilla
 {
