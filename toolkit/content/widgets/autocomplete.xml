@@ -3600,7 +3600,7 @@ this
 .
 popup
 .
-mPopupOpen
+popupOpen
 )
 this
 .
@@ -4026,7 +4026,7 @@ this
 .
 popup
 .
-mPopupOpen
+popupOpen
 )
 cancel
 =
