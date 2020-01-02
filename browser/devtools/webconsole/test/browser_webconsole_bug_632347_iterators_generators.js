@@ -200,9 +200,16 @@ win
 )
 ;
 let
-result
+container
 =
 win
+.
+_container
+;
+let
+result
+=
+container
 .
 gen1
 .
@@ -218,6 +225,8 @@ JSPropertyProvider
 dbgWindow
 null
 "
+_container
+.
 gen1
 .
 "
@@ -244,7 +253,7 @@ is
 result
 +
 1
-win
+container
 .
 gen1
 .
@@ -265,7 +274,7 @@ execute
 ;
 result
 =
-win
+container
 .
 gen2
 .
@@ -280,6 +289,8 @@ JSPropertyProvider
 dbgWindow
 null
 "
+_container
+.
 gen2
 .
 "
@@ -312,7 +323,7 @@ result
 )
 *
 2
-win
+container
 .
 gen2
 .
@@ -333,7 +344,7 @@ execute
 ;
 result
 =
-win
+container
 .
 iter1
 .
@@ -394,6 +405,8 @@ JSPropertyProvider
 dbgWindow
 null
 "
+_container
+.
 iter1
 .
 "
@@ -417,7 +430,7 @@ iter1
 ;
 result
 =
-win
+container
 .
 iter1
 .
@@ -488,6 +501,8 @@ JSPropertyProvider
 dbgContent
 null
 "
+_container
+.
 iter2
 .
 "
@@ -518,6 +533,8 @@ null
 "
 window
 .
+_container
+.
 "
 )
 ;
@@ -529,6 +546,8 @@ matches
 available
 for
 window
+.
+_container
 "
 )
 ;
@@ -562,6 +581,8 @@ execute
 (
 "
 window
+.
+_container
 "
 (
 msg
