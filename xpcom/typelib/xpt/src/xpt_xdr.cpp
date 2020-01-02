@@ -1744,6 +1744,7 @@ XPTArena
 arena
 uint16_t
 length
+const
 char
 *
 bytes
@@ -1847,6 +1848,7 @@ XPT_NewStringZ
 XPTArena
 *
 arena
+const
 char
 *
 bytes
