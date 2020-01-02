@@ -7024,7 +7024,7 @@ mUrlBarViewOffset
 }
 Override
 public
-void
+boolean
 addActionItem
 (
 View
@@ -7037,6 +7037,9 @@ addView
 (
 actionItem
 )
+;
+return
+true
 ;
 }
 Override
