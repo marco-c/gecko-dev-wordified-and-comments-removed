@@ -21493,6 +21493,7 @@ if
 (
 aStart
 <
+=
 aEnd
 )
 {

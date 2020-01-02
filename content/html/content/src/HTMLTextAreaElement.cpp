@@ -3792,6 +3792,7 @@ if
 (
 aStart
 <
+=
 aEnd
 )
 {
