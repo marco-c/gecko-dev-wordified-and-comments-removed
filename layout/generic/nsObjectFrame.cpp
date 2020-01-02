@@ -4158,6 +4158,10 @@ aBuilder
 nsRegion
 *
 aVisibleRegion
+const
+nsRect
+&
+aAllowVisibleRegionExpansion
 )
 {
 if
@@ -4402,6 +4406,7 @@ ComputeVisibility
 (
 aBuilder
 aVisibleRegion
+aAllowVisibleRegionExpansion
 )
 ;
 }
