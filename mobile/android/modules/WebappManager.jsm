@@ -2015,7 +2015,7 @@ drawable
 :
 /
 /
-alert_download
+alert_app
 "
 }
 )
