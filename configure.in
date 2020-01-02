@@ -32764,14 +32764,13 @@ dnl
 =
 dnl
 Check
-Android
-SDK
+android
+sdk
 version
 depending
 on
 mobile
 target
-.
 dnl
 =
 =
@@ -32858,7 +32857,7 @@ android
 )
 android_min_api_level
 =
-19
+16
 case
 "
 target
