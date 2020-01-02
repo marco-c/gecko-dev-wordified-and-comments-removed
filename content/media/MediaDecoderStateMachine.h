@@ -517,9 +517,11 @@ aUsecs
 0
 )
 ;
-void
+nsresult
 TimeoutExpired
 (
+int
+aGeneration
 )
 ;
 void
@@ -1285,6 +1287,9 @@ MediaDecoderOwner
 :
 NextFrameStatus
 mLastFrameStatus
+;
+int
+mTimerId
 ;
 }
 ;
