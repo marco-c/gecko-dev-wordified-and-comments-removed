@@ -336,9 +336,6 @@ mozilla
 jsipc
 :
 :
-JavaScriptParent
-:
-:
 IsCPOW
 (
 mainObj
