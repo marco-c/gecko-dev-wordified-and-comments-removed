@@ -1,7 +1,7 @@
 #
 include
 "
-nsParentalControlsServiceWin
+nsParentalControlsService
 .
 h
 "
@@ -112,7 +112,7 @@ IID_IWinParentalControls
 ;
 NS_IMPL_ISUPPORTS
 (
-nsParentalControlsServiceWin
+nsParentalControlsService
 nsIParentalControlsService
 )
 static
@@ -148,10 +148,10 @@ gEventUnregister
 =
 nullptr
 ;
-nsParentalControlsServiceWin
+nsParentalControlsService
 :
 :
-nsParentalControlsServiceWin
+nsParentalControlsService
 (
 )
 :
@@ -335,11 +335,11 @@ true
 ;
 }
 }
-nsParentalControlsServiceWin
+nsParentalControlsService
 :
 :
 ~
-nsParentalControlsServiceWin
+nsParentalControlsService
 (
 )
 {
@@ -379,7 +379,7 @@ gAdvAPIDLLInst
 ;
 }
 NS_IMETHODIMP
-nsParentalControlsServiceWin
+nsParentalControlsService
 :
 :
 GetParentalControlsEnabled
@@ -408,7 +408,7 @@ NS_OK
 ;
 }
 NS_IMETHODIMP
-nsParentalControlsServiceWin
+nsParentalControlsService
 :
 :
 GetBlockFileDownloadsEnabled
@@ -487,7 +487,7 @@ NS_OK
 ;
 }
 NS_IMETHODIMP
-nsParentalControlsServiceWin
+nsParentalControlsService
 :
 :
 GetLoggingEnabled
@@ -563,7 +563,7 @@ NS_OK
 ;
 }
 NS_IMETHODIMP
-nsParentalControlsServiceWin
+nsParentalControlsService
 :
 :
 Log
@@ -675,7 +675,7 @@ NS_OK
 ;
 }
 NS_IMETHODIMP
-nsParentalControlsServiceWin
+nsParentalControlsService
 :
 :
 RequestURIOverride
@@ -836,7 +836,7 @@ NS_OK
 ;
 }
 NS_IMETHODIMP
-nsParentalControlsServiceWin
+nsParentalControlsService
 :
 :
 RequestURIOverrides
@@ -1232,7 +1232,7 @@ NS_OK
 ;
 }
 void
-nsParentalControlsServiceWin
+nsParentalControlsService
 :
 :
 LogFileDownload
