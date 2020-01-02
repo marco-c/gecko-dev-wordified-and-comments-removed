@@ -290,7 +290,7 @@ gBrowser
 .
 tabs
 [
-0
+1
 ]
 )
 ;
