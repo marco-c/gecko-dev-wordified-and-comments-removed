@@ -101,6 +101,9 @@ PARALLEL_DIRS
 content
 '
 '
+components
+'
+'
 themes
 '
 ]
