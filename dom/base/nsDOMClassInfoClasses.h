@@ -193,10 +193,6 @@ CSSFontFaceRule
 )
 DOMCI_CLASS
 (
-EventListenerInfo
-)
-DOMCI_CLASS
-(
 ContentFrameMessageManager
 )
 DOMCI_CLASS
