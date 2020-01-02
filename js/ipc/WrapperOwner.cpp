@@ -218,13 +218,6 @@ sCPOWProxyHandler
 {
 }
 virtual
-~
-CPOWProxyHandler
-(
-)
-{
-}
-virtual
 bool
 finalizeInBackground
 (

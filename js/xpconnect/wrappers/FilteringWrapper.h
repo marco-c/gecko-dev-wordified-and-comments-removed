@@ -64,12 +64,6 @@ flags
 )
 ;
 virtual
-~
-FilteringWrapper
-(
-)
-;
-virtual
 bool
 getPropertyDescriptor
 (

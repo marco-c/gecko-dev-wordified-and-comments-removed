@@ -266,12 +266,6 @@ false
 )
 ;
 virtual
-~
-Wrapper
-(
-)
-;
-virtual
 bool
 finalizeInBackground
 (
@@ -345,12 +339,6 @@ bool
 hasPrototype
 =
 false
-)
-;
-virtual
-~
-CrossCompartmentWrapper
-(
 )
 ;
 virtual
