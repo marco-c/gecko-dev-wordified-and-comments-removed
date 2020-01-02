@@ -71325,6 +71325,14 @@ define
 CAIRO_HAS_PS_SURFACE
 1
 "
+fi
+if
+test
+"
+_HAVE_FREETYPE2
+"
+;
+then
 FT_FONT_FEATURE
 =
 "

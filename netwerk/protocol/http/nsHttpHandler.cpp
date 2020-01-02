@@ -3423,7 +3423,7 @@ Macintosh
 elif
 defined
 (
-MOZ_X11
+XP_UNIX
 )
 "
 X11
