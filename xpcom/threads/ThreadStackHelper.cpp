@@ -314,13 +314,9 @@ ThreadStackHelper
 (
 )
 :
-mStackToFill
-(
-nullptr
-)
 #
 ifdef
-MOZ_THREADSTACKHELPER_PSEUDO
+MOZ_ENABLE_PROFILER_SPS
 mPseudoStack
 (
 mozilla_get_pseudo_stack
@@ -329,6 +325,10 @@ mozilla_get_pseudo_stack
 )
 #
 endif
+mStackToFill
+(
+nullptr
+)
 mMaxStackSize
 (
 Stack
@@ -863,7 +863,7 @@ clear
 ;
 #
 ifdef
-MOZ_THREADSTACKHELPER_PSEUDO
+MOZ_ENABLE_PROFILER_SPS
 #
 ifdef
 MOZ_WIDGET_GONK
@@ -934,7 +934,7 @@ endif
 }
 #
 ifdef
-MOZ_THREADSTACKHELPER_PSEUDO
+MOZ_ENABLE_PROFILER_SPS
 namespace
 {
 bool
@@ -1265,7 +1265,7 @@ empty
 ;
 #
 ifdef
-MOZ_THREADSTACKHELPER_PSEUDO
+MOZ_ENABLE_PROFILER_SPS
 size_t
 reservedSize
 =
