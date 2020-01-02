@@ -225,6 +225,14 @@ sandbox
 INTEGRITY_LEVEL_UNTRUSTED
 )
 ;
+mPolicy
+-
+>
+SetAlternateDesktop
+(
+false
+)
+;
 PROCESS_INFORMATION
 targetInfo
 ;
