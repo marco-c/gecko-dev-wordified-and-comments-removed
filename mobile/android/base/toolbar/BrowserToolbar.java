@@ -844,10 +844,6 @@ isSwitchingTabs
 =
 true
 ;
-isAnimatingEntry
-=
-false
-;
 EventDispatcher
 .
 getInstance
@@ -962,11 +958,6 @@ RelativeLayout
 .
 LayoutParams
 (
-(
-ViewGroup
-.
-MarginLayoutParams
-)
 urlBarEntryDefaultLayoutParams
 )
 ;

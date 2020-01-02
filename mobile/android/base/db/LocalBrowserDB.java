@@ -623,10 +623,6 @@ Long
 (
 )
 ;
-mDesktopBookmarksExist
-=
-null
-;
 mBookmarksUriWithProfile
 =
 appendProfile
@@ -8158,10 +8154,6 @@ super
 (
 c
 )
-;
-mIndexOffset
-=
-0
 ;
 if
 (

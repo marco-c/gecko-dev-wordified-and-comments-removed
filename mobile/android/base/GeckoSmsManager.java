@@ -222,10 +222,6 @@ mMessageId
 -
 1
 ;
-mMessageTimestamp
-=
-0
-;
 mError
 =
 GeckoSmsManager

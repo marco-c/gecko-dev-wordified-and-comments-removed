@@ -285,10 +285,6 @@ HandleType
 .
 END
 ;
-mIsRTL
-=
-false
-;
 mGeckoPoint
 =
 new

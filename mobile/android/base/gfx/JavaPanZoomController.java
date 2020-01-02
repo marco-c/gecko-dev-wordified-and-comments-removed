@@ -585,10 +585,6 @@ gamepad_dead_zone
 "
 }
 ;
-mNegateWheelScrollY
-=
-false
-;
 PrefsHelper
 .
 getPrefs

@@ -386,14 +386,6 @@ DisplayPortMetrics
 (
 )
 ;
-mLastProgressiveUpdateWasLowPrecision
-=
-false
-;
-mProgressiveUpdateWasInDanger
-=
-false
-;
 mForceRedraw
 =
 true

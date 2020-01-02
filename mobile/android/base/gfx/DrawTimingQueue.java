@@ -84,10 +84,6 @@ BUFFER_SIZE
 -
 1
 ;
-mTail
-=
-0
-;
 }
 boolean
 add

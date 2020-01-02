@@ -2411,14 +2411,6 @@ TabSwipeGestureListener
 (
 )
 {
-mSwipeView
-=
-null
-;
-mSwiping
-=
-false
-;
 mEnabled
 =
 true

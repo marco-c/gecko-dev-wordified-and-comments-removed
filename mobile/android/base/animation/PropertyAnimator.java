@@ -278,10 +278,6 @@ mUseHardwareLayer
 =
 true
 ;
-mListeners
-=
-null
-;
 }
 public
 void

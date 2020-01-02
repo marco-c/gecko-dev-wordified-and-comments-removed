@@ -97,10 +97,6 @@ getZip
 path
 )
 ;
-mInput
-=
-null
-;
 }
 public
 NativeZip

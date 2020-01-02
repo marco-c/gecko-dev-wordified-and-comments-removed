@@ -394,10 +394,6 @@ recycle
 (
 )
 ;
-mIsHandlingFocusChange
-=
-false
-;
 }
 Override
 public
