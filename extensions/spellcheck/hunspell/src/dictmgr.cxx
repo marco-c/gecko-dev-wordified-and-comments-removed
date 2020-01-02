@@ -33,6 +33,13 @@ dictmgr
 .
 hxx
 "
+#
+include
+"
+csutil
+.
+hxx
+"
 DictMgr
 :
 :
@@ -265,7 +272,7 @@ dictlst
 ;
 dictlst
 =
-fopen
+myfopen
 (
 dictpath
 "

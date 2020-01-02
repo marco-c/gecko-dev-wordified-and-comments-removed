@@ -45,7 +45,10 @@ dllimport
 endif
 #
 elif
+defined
+(
 BUILDING_LIBHUNSPELL
+)
 &
 &
 1

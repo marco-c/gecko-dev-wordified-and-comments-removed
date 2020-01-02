@@ -167,6 +167,9 @@ FLAG
 compoundpermitflag
 ;
 int
+compoundmoresuffixes
+;
+int
 checkcompounddup
 ;
 int
@@ -1530,6 +1533,14 @@ char
 *
 cond
 int
+)
+;
+void
+finishFileMgr
+(
+FileMgr
+*
+afflst
 )
 ;
 }

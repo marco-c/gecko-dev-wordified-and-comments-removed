@@ -258,6 +258,7 @@ a
 b
 c
 )
+(
 flag_bsearch
 (
 (
@@ -272,6 +273,7 @@ short
 )
 b
 c
+)
 )
 struct
 affentry
