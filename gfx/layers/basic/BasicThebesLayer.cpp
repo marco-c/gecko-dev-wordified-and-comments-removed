@@ -651,7 +651,10 @@ if
 GetMaskData
 (
 aMaskLayer
-Point
+aContext
+-
+>
+GetDeviceOffset
 (
 )
 &
