@@ -9085,7 +9085,7 @@ TriggerCallbackMainThread
 )
 ;
 }
-void
+bool
 js
 :
 :
@@ -9125,6 +9125,7 @@ reason
 )
 ;
 return
+true
 ;
 }
 if
@@ -9137,6 +9138,7 @@ currentThreadOwnsOperationCallbackLock
 )
 )
 return
+false
 ;
 JS_ASSERT
 (
@@ -9151,11 +9153,12 @@ if
 rt
 -
 >
-isHeapBusy
+isHeapCollecting
 (
 )
 )
 return
+true
 ;
 JS
 :
@@ -9171,8 +9174,11 @@ rt
 reason
 )
 ;
+return
+true
+;
 }
-void
+bool
 js
 :
 :
@@ -9213,6 +9219,7 @@ reason
 )
 ;
 return
+true
 ;
 }
 if
@@ -9223,6 +9230,7 @@ zone
 usedByExclusiveThread
 )
 return
+false
 ;
 JSRuntime
 *
@@ -9245,17 +9253,19 @@ currentThreadOwnsOperationCallbackLock
 )
 )
 return
+false
 ;
 if
 (
 rt
 -
 >
-isHeapBusy
+isHeapCollecting
 (
 )
 )
 return
+true
 ;
 if
 (
@@ -9277,6 +9287,7 @@ reason
 )
 ;
 return
+true
 ;
 }
 if
@@ -9297,6 +9308,7 @@ reason
 )
 ;
 return
+true
 ;
 }
 PrepareZoneForGC
@@ -9309,6 +9321,9 @@ TriggerOperationCallback
 rt
 reason
 )
+;
+return
+true
 ;
 }
 void

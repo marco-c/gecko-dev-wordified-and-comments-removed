@@ -2656,7 +2656,7 @@ trc
 )
 ;
 extern
-void
+bool
 TriggerGC
 (
 JSRuntime
@@ -2673,7 +2673,7 @@ reason
 )
 ;
 extern
-void
+bool
 TriggerZoneGC
 (
 Zone
