@@ -260,10 +260,6 @@ argumentsSize
 (
 )
 )
-frameInitialAdjustment_
-(
-0
-)
 {
 if
 (
@@ -347,7 +343,7 @@ if
 gen
 -
 >
-needsInitialStackAlignment
+performsAsmJSCall
 (
 )
 |
@@ -371,7 +367,6 @@ alignmentAtCall
 %
 StackAlignment
 )
-{
 frameDepth_
 +
 =
@@ -379,11 +374,6 @@ StackAlignment
 -
 rem
 ;
-frameInitialAdjustment_
-=
-rem
-;
-}
 }
 frameClass_
 =
