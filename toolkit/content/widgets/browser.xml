@@ -5428,6 +5428,13 @@ data
 .
 blockedPopups
 ;
+if
+(
+this
+.
+blockedPopups
+)
+{
 for
 (
 let
@@ -5520,6 +5527,7 @@ reported
 =
 false
 ;
+}
 }
 this
 .
