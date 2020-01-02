@@ -359,6 +359,13 @@ _
 (
 UseRemoved
 )
+\
+\
+\
+_
+(
+RecoveredOnBailout
+)
 class
 MDefinition
 ;

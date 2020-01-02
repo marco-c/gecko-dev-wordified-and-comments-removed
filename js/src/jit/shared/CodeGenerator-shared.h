@@ -1091,14 +1091,14 @@ snapshot
 )
 ;
 bool
-encodeAllocations
+encodeAllocation
 (
 LSnapshot
 *
 snapshot
-MResumePoint
+MDefinition
 *
-resumePoint
+def
 uint32_t
 *
 startIndex
