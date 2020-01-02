@@ -5,14 +5,14 @@ _byteorder_h
 define
 _byteorder_h
 UINT8
-htonll
+nr_htonll
 (
 UINT8
 hostlonglong
 )
 ;
 UINT8
-ntohll
+nr_ntohll
 (
 UINT8
 netlonglong

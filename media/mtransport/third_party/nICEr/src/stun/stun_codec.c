@@ -632,7 +632,7 @@ offset
 UINT8
 d
 =
-htonll
+nr_htonll
 (
 data
 )
@@ -1079,7 +1079,7 @@ d
 *
 data
 =
-htonll
+nr_htonll
 (
 d
 )
