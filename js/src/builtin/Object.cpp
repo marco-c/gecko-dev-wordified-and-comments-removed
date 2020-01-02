@@ -2025,8 +2025,10 @@ rval
 )
 ;
 }
-static
 bool
+js
+:
+:
 obj_valueOf
 (
 JSContext
