@@ -1651,15 +1651,6 @@ selectionEnd
 {
 this
 .
-sendKeyboardState
-(
-this
-.
-focusedElement
-)
-;
-this
-.
 updateSelection
 (
 )
