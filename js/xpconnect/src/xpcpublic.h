@@ -1492,11 +1492,6 @@ JSCompartment
 c
 )
 ;
-bool
-ShouldDiscardSystemSource
-(
-)
-;
 }
 namespace
 mozilla

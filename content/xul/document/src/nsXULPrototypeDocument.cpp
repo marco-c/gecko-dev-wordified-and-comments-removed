@@ -2977,16 +2977,6 @@ setInvisibleToDebugger
 (
 true
 )
-.
-setDiscardSource
-(
-xpc
-:
-:
-ShouldDiscardSystemSource
-(
-)
-)
 ;
 mJSObject
 =
