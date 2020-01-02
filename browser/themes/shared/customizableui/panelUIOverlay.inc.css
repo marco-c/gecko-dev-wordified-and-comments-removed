@@ -1496,6 +1496,7 @@ margin
 padding
 :
 10px
+0
 ;
 -
 moz
@@ -1553,7 +1554,12 @@ vertical
 ;
 flex
 :
-auto
+1
+1
+33
+.
+33
+%
 ;
 }
 :
