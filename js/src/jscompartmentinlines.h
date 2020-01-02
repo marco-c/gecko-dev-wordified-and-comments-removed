@@ -247,6 +247,17 @@ if
 (
 vp
 .
+isSymbol
+(
+)
+)
+return
+true
+;
+if
+(
+vp
+.
 isString
 (
 )

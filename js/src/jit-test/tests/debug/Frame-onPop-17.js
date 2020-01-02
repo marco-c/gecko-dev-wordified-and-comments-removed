@@ -139,6 +139,16 @@ stringy
 ;
 test
 (
+Symbol
+(
+"
+symbolic
+"
+)
+)
+;
+test
+(
 {
 }
 )
