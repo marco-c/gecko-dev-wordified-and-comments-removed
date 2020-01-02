@@ -2855,14 +2855,14 @@ java
 '
 toolbar
 /
-ToolbarProgressView
+ToolbarPrefs
 .
 java
 '
 '
 toolbar
 /
-ToolbarTitlePrefs
+ToolbarProgressView
 .
 java
 '
