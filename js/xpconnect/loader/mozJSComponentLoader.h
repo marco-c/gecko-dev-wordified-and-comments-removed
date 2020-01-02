@@ -1,4 +1,10 @@
 #
+ifndef
+mozJSComponentLoader_h
+#
+define
+mozJSComponentLoader_h
+#
 include
 "
 mozilla
@@ -567,3 +573,5 @@ mReuseLoaderGlobal
 ;
 }
 ;
+#
+endif
