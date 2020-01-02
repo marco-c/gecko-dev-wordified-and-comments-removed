@@ -1,3 +1,8 @@
+setCachingEnabled
+(
+true
+)
+;
 (
 function
 (

@@ -1,3 +1,8 @@
+setCachingEnabled
+(
+true
+)
+;
 if
 (
 !
@@ -16,6 +21,11 @@ code
 setIonCheckGraphCoherency
 (
 false
+)
+;
+setCachingEnabled
+(
+true
 )
 ;
 load

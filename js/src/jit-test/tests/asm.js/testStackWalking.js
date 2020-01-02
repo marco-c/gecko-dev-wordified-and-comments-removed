@@ -126,6 +126,11 @@ enable
 0
 )
 ;
+setCachingEnabled
+(
+true
+)
+;
 var
 callFFI
 =

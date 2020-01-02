@@ -303,6 +303,11 @@ var
 code
 =
 "
+setCachingEnabled
+(
+true
+)
+;
 var
 f
 =

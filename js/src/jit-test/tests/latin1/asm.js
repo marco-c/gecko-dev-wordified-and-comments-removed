@@ -9,6 +9,11 @@ js
 "
 )
 ;
+setCachingEnabled
+(
+true
+)
+;
 if
 (
 !
