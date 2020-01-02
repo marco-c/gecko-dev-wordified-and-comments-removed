@@ -8806,6 +8806,8 @@ gCCStats
 .
 mBeginTime
 )
+/
+1000
 ;
 Telemetry
 :
