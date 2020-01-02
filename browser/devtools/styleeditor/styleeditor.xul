@@ -1434,9 +1434,9 @@ class
 "
 stylesheet
 -
-rule
+linked
 -
-count
+file
 "
 >
 <
@@ -1450,9 +1450,9 @@ class
 "
 stylesheet
 -
-error
+rule
 -
-message
+count
 "
 >
 <
