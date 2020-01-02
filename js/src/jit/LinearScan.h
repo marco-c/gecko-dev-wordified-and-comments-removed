@@ -190,6 +190,7 @@ private
 LiveRangeAllocator
 <
 LinearScanVirtualRegister
+true
 >
 {
 friend
@@ -493,12 +494,12 @@ graph
 LiveRangeAllocator
 <
 LinearScanVirtualRegister
+true
 >
 (
 mir
 lir
 graph
-true
 )
 {
 }

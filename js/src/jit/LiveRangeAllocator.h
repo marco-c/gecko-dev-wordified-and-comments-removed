@@ -2656,6 +2656,8 @@ template
 <
 typename
 VREG
+bool
+forLSRA
 >
 class
 LiveRangeAllocator
@@ -2694,9 +2696,6 @@ LiveInterval
 *
 fixedIntervalsUnion
 ;
-bool
-forLSRA
-;
 StackSlotAllocator
 stackSlotAllocator
 ;
@@ -2711,8 +2710,6 @@ lir
 LIRGraph
 &
 graph
-bool
-forLSRA
 )
 :
 RegisterAllocator
@@ -2728,10 +2725,6 @@ nullptr
 fixedIntervalsUnion
 (
 nullptr
-)
-forLSRA
-(
-forLSRA
 )
 {
 }

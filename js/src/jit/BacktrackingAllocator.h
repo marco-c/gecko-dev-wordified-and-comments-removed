@@ -338,6 +338,7 @@ private
 LiveRangeAllocator
 <
 BacktrackingVirtualRegister
+false
 >
 {
 struct
@@ -625,12 +626,12 @@ graph
 LiveRangeAllocator
 <
 BacktrackingVirtualRegister
+false
 >
 (
 mir
 lir
 graph
-false
 )
 {
 }

@@ -1843,6 +1843,7 @@ bool
 LiveRangeAllocator
 <
 LinearScanVirtualRegister
+true
 >
 :
 :
@@ -1855,6 +1856,7 @@ bool
 LiveRangeAllocator
 <
 BacktrackingVirtualRegister
+false
 >
 :
 :
@@ -2124,11 +2126,14 @@ template
 <
 typename
 VREG
+bool
+forLSRA
 >
 bool
 LiveRangeAllocator
 <
 VREG
+forLSRA
 >
 :
 :
@@ -2660,11 +2665,14 @@ template
 <
 typename
 VREG
+bool
+forLSRA
 >
 bool
 LiveRangeAllocator
 <
 VREG
+forLSRA
 >
 :
 :
