@@ -78,12 +78,10 @@ w
 )
 ;
 return
-(
 spewout_
 !
 =
 nullptr
-)
 ;
 }
 void

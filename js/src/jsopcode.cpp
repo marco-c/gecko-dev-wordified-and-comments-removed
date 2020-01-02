@@ -9842,13 +9842,11 @@ pc
 JSOP_NOT_LENGTH
 ;
 return
-(
 *
 pc
 !
 =
 JSOP_IFEQ
-)
 ;
 }
 extern

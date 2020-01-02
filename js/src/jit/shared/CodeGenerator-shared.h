@@ -1212,7 +1212,6 @@ block
 )
 {
 return
-(
 current
 -
 >
@@ -1238,7 +1237,6 @@ mir
 >
 id
 (
-)
 )
 ;
 }

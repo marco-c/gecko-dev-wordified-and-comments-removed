@@ -5366,12 +5366,10 @@ numFixedSlots
 const
 {
 return
-(
 slotInfo
 >
 >
 FIXED_SLOTS_SHIFT
-)
 ;
 }
 void

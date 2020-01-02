@@ -1689,7 +1689,6 @@ imm
 )
 {
 return
-(
 imm
 .
 decode
@@ -1705,7 +1704,6 @@ this
 .
 decode
 (
-)
 )
 ;
 }
@@ -1741,7 +1739,6 @@ dest
 )
 {
 return
-(
 dest
 =
 =
@@ -1749,7 +1746,6 @@ toRD
 (
 *
 this
-)
 )
 ;
 }

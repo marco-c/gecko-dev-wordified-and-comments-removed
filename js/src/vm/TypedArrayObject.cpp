@@ -707,12 +707,10 @@ toTruncate
 )
 {
 return
-(
 y
 &
 ~
 1
-)
 ;
 }
 return
@@ -12030,7 +12028,6 @@ getClass
 ;
 \
 return
-(
 clasp
 =
 =
@@ -12050,7 +12047,6 @@ ArrayTypeID
 (
 )
 ]
-)
 ;
 \
 }

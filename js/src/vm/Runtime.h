@@ -1394,7 +1394,6 @@ pentry
 ]
 ;
 return
-(
 entry
 -
 >
@@ -1411,7 +1410,6 @@ key
 =
 =
 key
-)
 ;
 }
 void
