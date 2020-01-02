@@ -2200,11 +2200,6 @@ VTTRegion
 webidl
 '
 '
-VTTRegionList
-.
-webidl
-'
-'
 WaveShaperNode
 .
 webidl
