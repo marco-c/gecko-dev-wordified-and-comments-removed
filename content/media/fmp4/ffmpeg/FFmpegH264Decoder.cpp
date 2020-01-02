@@ -295,13 +295,9 @@ return
 }
 if
 (
-!
 decoded
 )
 {
-return
-;
-}
 nsAutoPtr
 <
 VideoData
@@ -431,6 +427,7 @@ Output
 d
 )
 ;
+}
 }
 if
 (
