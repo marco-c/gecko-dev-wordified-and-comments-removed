@@ -53,6 +53,17 @@ MPL
 0
 /
 .
+MOCHITEST_FILES
+:
+=
+.
+.
+/
+test
+/
+devicestorage_common
+.
+js
 include
 (
 topsrcdir
