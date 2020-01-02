@@ -1500,6 +1500,15 @@ TestInterface
 ?
 nullableSelf
 ;
+[
+Cached
+Pure
+]
+readonly
+attribute
+TestInterface
+cachedSelf
+;
 /
 /
 Optional

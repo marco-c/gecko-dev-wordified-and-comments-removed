@@ -951,6 +951,15 @@ TestJSImplInterface
 ?
 nullableSelf
 ;
+[
+Cached
+Pure
+]
+readonly
+attribute
+TestJSImplInterface
+cachedSelf
+;
 /
 /
 Optional
