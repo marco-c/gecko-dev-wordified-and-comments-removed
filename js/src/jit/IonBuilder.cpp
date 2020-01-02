@@ -25661,6 +25661,13 @@ i
 )
 )
 ;
+call
+-
+>
+computeMovable
+(
+)
+;
 if
 (
 callInfo

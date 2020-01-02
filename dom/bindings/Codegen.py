@@ -21662,7 +21662,7 @@ method
 with
 a
 (
-PRUnichar
+char16_t
 *
 length
 )
@@ -21720,7 +21720,7 @@ return
 "
 static
 const
-PRUnichar
+char16_t
 data
 [
 ]
@@ -48814,6 +48814,10 @@ False
 args
 =
 None
+                
+movable
+=
+False
             
 else
 :
@@ -48824,6 +48828,29 @@ sigs
 [
 0
 ]
+                
+hasInfallibleImpl
+=
+"
+infallible
+"
+in
+self
+.
+descriptor
+.
+getExtendedAttributes
+(
+self
+.
+member
+)
+                
+movable
+=
+methodPure
+and
+hasInfallibleImpl
                 
 if
 (
@@ -48865,20 +48892,7 @@ else
                     
 methodInfal
 =
-"
-infallible
-"
-in
-self
-.
-descriptor
-.
-getExtendedAttributes
-(
-self
-.
-member
-)
+hasInfallibleImpl
                 
 if
 methodPure
@@ -48900,6 +48914,9 @@ None
             
 if
 args
+is
+not
+None
 :
                 
 aliasSet
@@ -48930,7 +48947,7 @@ Method
 "
                                         
 methodInfal
-False
+movable
 aliasSet
 False
 "
