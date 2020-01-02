@@ -1966,6 +1966,13 @@ function
 (
 )
 {
+return
+{
+accepted
+:
+true
+}
+;
 }
 }
 ;
