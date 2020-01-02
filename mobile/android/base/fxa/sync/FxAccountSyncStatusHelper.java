@@ -100,6 +100,8 @@ protected
 static
 FxAccountSyncStatusHelper
 sInstance
+=
+null
 ;
 public
 synchronized
@@ -132,6 +134,8 @@ sInstance
 protected
 Object
 handle
+=
+null
 ;
 protected
 Map

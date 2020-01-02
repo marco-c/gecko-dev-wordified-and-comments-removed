@@ -68,6 +68,8 @@ getSimpleName
 protected
 FxAccountAuthenticator
 accountAuthenticator
+=
+null
 ;
 protected
 synchronized

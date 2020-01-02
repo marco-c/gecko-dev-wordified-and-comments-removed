@@ -113,6 +113,8 @@ protected
 static
 SigningPrivateKey
 cachedMockMyIDPrivateKey
+=
+null
 ;
 public
 static
