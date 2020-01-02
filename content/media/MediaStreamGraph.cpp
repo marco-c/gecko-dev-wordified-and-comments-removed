@@ -12104,6 +12104,11 @@ ChannelCount
 (
 )
 ;
+if
+(
+channels
+)
+{
 SpeexResamplerState
 *
 state
@@ -12129,9 +12134,13 @@ nullptr
 ;
 if
 (
+!
 state
 )
 {
+return
+;
+}
 aTrackData
 -
 >
