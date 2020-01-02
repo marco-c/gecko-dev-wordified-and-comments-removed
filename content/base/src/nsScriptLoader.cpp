@@ -6772,6 +6772,8 @@ NS_ERROR_NOT_AVAILABLE
 nsAutoCString
 sourceMapURL
 ;
+rv
+=
 httpChannel
 -
 >
@@ -6788,6 +6790,14 @@ SourceMap
 sourceMapURL
 )
 ;
+if
+(
+NS_SUCCEEDED
+(
+rv
+)
+)
+{
 aRequest
 -
 >
@@ -6805,6 +6815,7 @@ NS_ConvertUTF8toUTF16
 sourceMapURL
 )
 ;
+}
 }
 nsCOMPtr
 <
