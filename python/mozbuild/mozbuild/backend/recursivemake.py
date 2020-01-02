@@ -10144,6 +10144,10 @@ unified_binding_cpp_files
 poison_windows_h
 =
 True
+            
+files_per_unified_file
+=
+32
 )
         
 webidls_mk
