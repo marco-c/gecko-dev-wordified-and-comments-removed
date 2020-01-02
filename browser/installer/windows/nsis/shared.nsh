@@ -12408,3 +12408,5 @@ SetAsDefaultAppUser
 "
 !
 endif
+;
+NO_LOG
