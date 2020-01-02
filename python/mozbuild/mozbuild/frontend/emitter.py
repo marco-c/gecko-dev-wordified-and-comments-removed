@@ -923,6 +923,27 @@ sandbox
 moz
 ]
         
+if
+sandbox
+[
+'
+NO_VISIBILITY_FLAGS
+'
+]
+:
+            
+passthru
+.
+variables
+[
+'
+VISIBILITY_FLAGS
+'
+]
+=
+'
+'
+        
 varmap
 =
 dict

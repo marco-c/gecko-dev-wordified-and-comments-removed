@@ -383,3 +383,6 @@ True
 IS_COMPONENT
 =
 True
+NO_VISIBILITY_FLAGS
+=
+True
