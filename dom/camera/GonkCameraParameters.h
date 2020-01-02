@@ -51,6 +51,13 @@ h
 #
 include
 "
+nsClassHashtable
+.
+h
+"
+#
+include
+"
 ICameraControl
 .
 h
@@ -268,6 +275,13 @@ nsTArray
 nsString
 >
 mIsoModes
+;
+nsClassHashtable
+<
+nsStringHashKey
+nsCString
+>
+mIsoModeMap
 ;
 class
 Parameters
