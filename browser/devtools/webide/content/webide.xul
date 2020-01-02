@@ -2603,10 +2603,6 @@ xhtml
 deck
 >
 <
-/
-notificationbox
->
-<
 splitter
 hidden
 =
@@ -2641,6 +2637,10 @@ inserted
 here
 -
 -
+>
+<
+/
+notificationbox
 >
 <
 /
