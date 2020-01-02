@@ -78,5 +78,8 @@ makeInfallible
 yieldingEach
 :
 yieldingEach
+defineLazyPrototypeGetter
+:
+defineLazyPrototypeGetter
 }
 ;
