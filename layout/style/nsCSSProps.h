@@ -896,6 +896,15 @@ CSS_PROPERTY_GETCS_NEEDS_LAYOUT_FLUSH
 <
 20
 )
+#
+define
+CSS_PROPERTY_CREATES_STACKING_CONTEXT
+(
+1
+<
+<
+21
+)
 enum
 nsStyleAnimType
 {
