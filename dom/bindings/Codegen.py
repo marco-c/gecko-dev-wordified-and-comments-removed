@@ -607,13 +607,8 @@ self
 .
 descriptor
 .
-interface
-.
-getExtendedAttribute
+needsXrayResolveHooks
 (
-"
-NeedNewResolve
-"
 )
 :
             
@@ -68920,13 +68915,8 @@ descriptor
 elif
 descriptor
 .
-interface
-.
-getExtendedAttribute
+needsXrayResolveHooks
 (
-"
-NeedNewResolve
-"
 )
 :
             
