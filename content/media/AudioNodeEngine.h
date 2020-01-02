@@ -380,7 +380,7 @@ aSize
 )
 ;
 void
-AudioBufferInPlaceScale
+AudioBlockInPlaceScale
 (
 float
 aBlock
