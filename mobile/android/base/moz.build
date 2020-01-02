@@ -1566,13 +1566,6 @@ java
 '
 home
 /
-ListManager
-.
-java
-'
-'
-home
-/
 ListPage
 .
 java
@@ -1588,6 +1581,13 @@ java
 home
 /
 MultiTypeCursorAdapter
+.
+java
+'
+'
+home
+/
+PanelManager
 .
 java
 '
