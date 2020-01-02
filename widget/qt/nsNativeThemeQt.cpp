@@ -1498,6 +1498,9 @@ case
 NS_THEME_DROPDOWN_TEXTFIELD
 :
 case
+NS_THEME_NUMBER_INPUT
+:
+case
 NS_THEME_TEXTFIELD
 :
 case
@@ -1555,6 +1558,12 @@ Flat
 ;
 if
 (
+aWidgetType
+=
+=
+NS_THEME_NUMBER_INPUT
+|
+|
 aWidgetType
 =
 =
@@ -1827,6 +1836,12 @@ aResult
 {
 if
 (
+aWidgetType
+=
+=
+NS_THEME_NUMBER_INPUT
+|
+|
 aWidgetType
 =
 =
@@ -2747,6 +2762,9 @@ break
 ;
 }
 case
+NS_THEME_NUMBER_INPUT
+:
+case
 NS_THEME_TEXTFIELD
 :
 case
@@ -2898,6 +2916,9 @@ NS_THEME_DROPDOWN_TEXT
 :
 case
 NS_THEME_DROPDOWN_TEXTFIELD
+:
+case
+NS_THEME_NUMBER_INPUT
 :
 case
 NS_THEME_TEXTFIELD
