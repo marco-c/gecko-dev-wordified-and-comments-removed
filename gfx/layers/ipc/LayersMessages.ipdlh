@@ -1274,7 +1274,7 @@ after
 }
 ;
 struct
-OpAppendChild
+OpPrependChild
 {
 PLayer
 container
@@ -1618,7 +1618,7 @@ OpSetRoot
 ;
 OpInsertAfter
 ;
-OpAppendChild
+OpPrependChild
 ;
 OpRemoveChild
 ;
