@@ -984,11 +984,13 @@ scrolling
 void
 scrollIntoView
 (
-optional
+)
+;
+void
+scrollIntoView
+(
 boolean
 top
-=
-true
 )
 ;
 /

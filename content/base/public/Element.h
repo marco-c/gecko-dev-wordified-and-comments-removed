@@ -2127,6 +2127,17 @@ GetBoundingClientRect
 void
 ScrollIntoView
 (
+)
+{
+ScrollIntoView
+(
+true
+)
+;
+}
+void
+ScrollIntoView
+(
 bool
 aTop
 )

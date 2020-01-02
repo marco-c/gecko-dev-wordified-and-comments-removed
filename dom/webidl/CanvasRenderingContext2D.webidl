@@ -595,11 +595,6 @@ beginPath
 void
 fill
 (
-[
-TreatUndefinedAs
-=
-Missing
-]
 optional
 CanvasWindingRule
 winding
@@ -707,11 +702,6 @@ path
 void
 clip
 (
-[
-TreatUndefinedAs
-=
-Missing
-]
 optional
 CanvasWindingRule
 winding
@@ -750,11 +740,6 @@ x
 unrestricted
 double
 y
-[
-TreatUndefinedAs
-=
-Missing
-]
 optional
 CanvasWindingRule
 winding
