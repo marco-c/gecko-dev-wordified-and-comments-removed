@@ -3250,7 +3250,7 @@ b
 }
 static
 PLDHashOperator
-AddFeature
+AddOpenTypeFeature
 (
 const
 uint32_t
@@ -3903,7 +3903,7 @@ mergedFeatures
 .
 Enumerate
 (
-AddFeature
+AddOpenTypeFeature
 &
 features
 )
