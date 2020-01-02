@@ -172,14 +172,14 @@ default
 to
 1
 .
-7
+5
 ifndef
 JAVA_VERSION
 JAVA_VERSION
 =
 1
 .
-7
+5
 endif
 JAVAC_FLAGS
 =
