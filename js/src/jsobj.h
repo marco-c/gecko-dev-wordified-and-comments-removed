@@ -3716,6 +3716,12 @@ setShouldConvertDoubleElements
 )
 ;
 inline
+void
+clearShouldConvertDoubleElements
+(
+)
+;
+inline
 bool
 writeToIndexWouldMarkNotPacked
 (
