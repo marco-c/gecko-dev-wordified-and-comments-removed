@@ -1110,11 +1110,6 @@ IDBVersionChangeEvent
 webidl
 '
 '
-Identity
-.
-webidl
-'
-'
 ImageData
 .
 webidl
