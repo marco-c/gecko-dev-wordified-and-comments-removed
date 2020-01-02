@@ -827,10 +827,6 @@ ShadowLayerForwarder
 (
 )
 :
-mShadowManager
-(
-nullptr
-)
 mDiagnosticTypes
 (
 DIAGNOSTIC_NONE
