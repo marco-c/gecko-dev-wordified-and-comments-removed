@@ -247,6 +247,7 @@ CSP_FONT_SRC
 CSP_CONNECT_SRC
 CSP_REPORT_URI
 CSP_FRAME_ANCESTORS
+CSP_REFLECTED_XSS
 CSP_LAST_DIRECTIVE_VALUE
 }
 ;
@@ -313,6 +314,11 @@ uri
 frame
 -
 ancestors
+"
+"
+reflected
+-
+xss
 "
 }
 ;
