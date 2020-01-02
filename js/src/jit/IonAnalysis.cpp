@@ -3978,6 +3978,11 @@ usedef
 >
 canConsumeFloat32
 (
+use
+.
+use
+(
+)
 )
 ;
 }
@@ -4054,6 +4059,7 @@ phi
 >
 canConsumeFloat32
 (
+nullptr
 )
 )
 ;
@@ -4103,6 +4109,11 @@ def
 >
 canConsumeFloat32
 (
+use
+.
+use
+(
+)
 )
 )
 {
@@ -4188,6 +4199,7 @@ input
 >
 canConsumeFloat32
 (
+nullptr
 )
 )
 {
@@ -5024,6 +5036,11 @@ consumer
 >
 isConsistentFloat32Use
 (
+use
+.
+use
+(
+)
 )
 )
 ;

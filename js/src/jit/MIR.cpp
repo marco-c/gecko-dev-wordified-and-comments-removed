@@ -232,6 +232,11 @@ def
 >
 canConsumeFloat32
 (
+use
+.
+use
+(
+)
 )
 ;
 return
