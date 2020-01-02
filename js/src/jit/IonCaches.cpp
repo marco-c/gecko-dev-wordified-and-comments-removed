@@ -176,7 +176,7 @@ if
 masm
 !
 =
-NULL
+nullptr
 )
 {
 #
@@ -294,7 +294,7 @@ if
 masm
 !
 =
-NULL
+nullptr
 )
 {
 #
@@ -698,7 +698,7 @@ if
 label
 !
 =
-NULL
+nullptr
 )
 masm
 .
@@ -3173,7 +3173,7 @@ Label
 *
 failures
 =
-NULL
+nullptr
 )
 {
 JS_ASSERT
@@ -3201,7 +3201,7 @@ holder
 failures
 !
 =
-NULL
+nullptr
 &
 &
 failures
@@ -15257,7 +15257,7 @@ NotEqual
 tmpReg
 ImmPtr
 (
-NULL
+nullptr
 )
 &
 failurePopIndex
@@ -18477,7 +18477,7 @@ GenerateScopeChainGuard
 masm
 tobj
 outputReg
-NULL
+nullptr
 failures
 )
 ;
@@ -18608,7 +18608,7 @@ scopeChain
 &
 failures
 :
-NULL
+nullptr
 )
 ;
 if
@@ -18949,7 +18949,7 @@ holder
 )
 )
 return
-NULL
+nullptr
 ;
 }
 if
@@ -18987,7 +18987,7 @@ scopeChain
 )
 )
 return
-NULL
+nullptr
 ;
 }
 else
@@ -19014,7 +19014,7 @@ holder
 )
 )
 return
-NULL
+nullptr
 ;
 }
 else
@@ -19132,7 +19132,7 @@ used
 &
 failures
 :
-NULL
+nullptr
 )
 ;
 return
@@ -20009,7 +20009,7 @@ if
 clone
 )
 return
-NULL
+nullptr
 ;
 if
 (
@@ -20034,7 +20034,7 @@ clone
 )
 )
 return
-NULL
+nullptr
 ;
 }
 return

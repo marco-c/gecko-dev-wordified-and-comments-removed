@@ -920,7 +920,7 @@ jsbytecode
 *
 continuepc
 =
-NULL
+nullptr
 )
 ;
 void
@@ -1056,7 +1056,7 @@ pc
 return
 newBlock
 (
-NULL
+nullptr
 pc
 )
 ;
@@ -1077,7 +1077,7 @@ return
 newBlockAfter
 (
 at
-NULL
+nullptr
 pc
 )
 ;
@@ -1269,7 +1269,7 @@ MDefinition
 *
 callee
 =
-NULL
+nullptr
 )
 ;
 bool
@@ -3425,7 +3425,7 @@ pc
 (
 )
 :
-NULL
+nullptr
 ;
 }
 IonBuilder
@@ -3581,11 +3581,11 @@ constructing
 :
 fun_
 (
-NULL
+nullptr
 )
 thisArg_
 (
-NULL
+nullptr
 )
 constructing_
 (

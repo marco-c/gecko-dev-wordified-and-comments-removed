@@ -156,11 +156,11 @@ IonCode
 :
 code_
 (
-NULL
+nullptr
 )
 pool_
 (
-NULL
+nullptr
 )
 {
 }
@@ -2525,7 +2525,7 @@ return
 blocks_
 !
 =
-NULL
+nullptr
 ;
 }
 size_t

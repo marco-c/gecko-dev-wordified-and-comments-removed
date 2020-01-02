@@ -1159,7 +1159,7 @@ p
 value
 ;
 return
-NULL
+nullptr
 ;
 }
 bool
@@ -1230,7 +1230,7 @@ JS_ASSERT
 baselineCallReturnAddr_
 =
 =
-NULL
+nullptr
 )
 ;
 baselineCallReturnAddr_
@@ -1249,7 +1249,7 @@ JS_ASSERT
 baselineCallReturnAddr_
 !
 =
-NULL
+nullptr
 )
 ;
 return
@@ -1269,7 +1269,7 @@ JS_ASSERT
 baselineGetPropReturnAddr_
 =
 =
-NULL
+nullptr
 )
 ;
 baselineGetPropReturnAddr_
@@ -1288,7 +1288,7 @@ JS_ASSERT
 baselineGetPropReturnAddr_
 !
 =
-NULL
+nullptr
 )
 ;
 return
@@ -1308,7 +1308,7 @@ JS_ASSERT
 baselineSetPropReturnAddr_
 =
 =
-NULL
+nullptr
 )
 ;
 baselineSetPropReturnAddr_
@@ -1327,7 +1327,7 @@ JS_ASSERT
 baselineSetPropReturnAddr_
 !
 =
-NULL
+nullptr
 )
 ;
 return
