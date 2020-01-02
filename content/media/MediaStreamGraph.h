@@ -566,6 +566,16 @@ aListener
 )
 ;
 }
+void
+RunAfterPendingUpdates
+(
+nsRefPtr
+<
+nsIRunnable
+>
+aRunnable
+)
+;
 virtual
 void
 Destroy

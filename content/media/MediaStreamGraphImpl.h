@@ -154,6 +154,7 @@ ControlMessage
 {
 public
 :
+explicit
 ControlMessage
 (
 MediaStream
