@@ -528,12 +528,6 @@ hidePopup
 (
 )
 ;
-this
-.
-showMainView
-(
-)
-;
 }
 handleEvent
 :
@@ -623,6 +617,12 @@ popuphidden
 "
 :
 {
+this
+.
+showMainView
+(
+)
+;
 this
 .
 _updatePanelButton
