@@ -17501,12 +17501,6 @@ MOZ_ASSERT
 shift
 <
 32
-&
-&
-shift
->
-=
-0
 )
 ;
 MOZ_ASSERT

@@ -1533,14 +1533,6 @@ i
 &
 31
 ;
-uint32_t
-kind
-=
-i
->
->
-5
-;
 return
 VFPRegister
 (
