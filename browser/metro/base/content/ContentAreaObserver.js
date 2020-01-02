@@ -467,7 +467,7 @@ newHeight
 ;
 this
 .
-_disatchBrowserEvent
+_dispatchBrowserEvent
 (
 "
 SizeChanged
@@ -702,7 +702,7 @@ newHeight
 ;
 this
 .
-_disatchBrowserEvent
+_dispatchBrowserEvent
 (
 "
 ContentSizeChanged
@@ -882,7 +882,7 @@ _updateButtons
 ;
 this
 .
-_disatchBrowserEvent
+_dispatchBrowserEvent
 (
 "
 ViewableSizeChanged
@@ -1552,7 +1552,7 @@ event
 )
 ;
 }
-_disatchBrowserEvent
+_dispatchBrowserEvent
 :
 function
 (
