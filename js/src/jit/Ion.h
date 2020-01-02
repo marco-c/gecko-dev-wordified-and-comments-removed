@@ -760,7 +760,7 @@ MacroAssembler
 *
 maybeMasm
 =
-NULL
+nullptr
 )
 ;
 CodeGenerator
@@ -774,7 +774,7 @@ MacroAssembler
 *
 maybeMasm
 =
-NULL
+nullptr
 )
 ;
 void

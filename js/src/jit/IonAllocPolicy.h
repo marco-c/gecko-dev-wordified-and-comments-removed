@@ -78,7 +78,7 @@ lifoAlloc
 )
 rootList_
 (
-NULL
+nullptr
 )
 {
 }
@@ -145,7 +145,7 @@ ensureBallast
 )
 )
 return
-NULL
+nullptr
 ;
 return
 p

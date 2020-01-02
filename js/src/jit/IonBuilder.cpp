@@ -223,7 +223,7 @@ info
 )
 backgroundCodegen_
 (
-NULL
+nullptr
 )
 recompileInfo
 (
@@ -266,11 +266,11 @@ loopDepth
 )
 callerResumePoint_
 (
-NULL
+nullptr
 )
 callerBuilder_
 (
-NULL
+nullptr
 )
 inspector
 (
@@ -314,11 +314,11 @@ false
 )
 lazyArguments_
 (
-NULL
+nullptr
 )
 inlineCallInfo_
 (
-NULL
+nullptr
 )
 {
 script_
@@ -353,11 +353,11 @@ clearForBackEnd
 {
 cx
 =
-NULL
+nullptr
 ;
 baselineFrame_
 =
-NULL
+nullptr
 ;
 }
 bool
@@ -731,7 +731,7 @@ tableswitch
 .
 breaks
 =
-NULL
+nullptr
 ;
 state
 .
@@ -774,7 +774,7 @@ if
 calleeTypes
 )
 return
-NULL
+nullptr
 ;
 JSObject
 *
@@ -805,7 +805,7 @@ JSFunction
 )
 )
 return
-NULL
+nullptr
 ;
 return
 &
@@ -1844,11 +1844,11 @@ jsbytecode
 *
 last
 =
-NULL
+nullptr
 *
 earlier
 =
-NULL
+nullptr
 ;
 for
 (
@@ -2356,7 +2356,7 @@ phi
 addBackedgeType
 (
 type
-NULL
+nullptr
 )
 ;
 }
@@ -2508,7 +2508,7 @@ loop
 .
 successor
 =
-NULL
+nullptr
 ;
 state
 .
@@ -2516,7 +2516,7 @@ loop
 .
 breaks
 =
-NULL
+nullptr
 ;
 state
 .
@@ -2524,7 +2524,7 @@ loop
 .
 continues
 =
-NULL
+nullptr
 ;
 state
 .
@@ -4114,7 +4114,7 @@ MInstruction
 *
 actual
 =
-NULL
+nullptr
 ;
 switch
 (
@@ -4572,7 +4572,7 @@ MInstruction
 *
 scope
 =
-NULL
+nullptr
 ;
 if
 (
@@ -4933,7 +4933,7 @@ def
 >
 setResultTypeSet
 (
-NULL
+nullptr
 )
 ;
 if
@@ -7181,7 +7181,7 @@ jsop_newarray
 return
 jsop_newobject
 (
-NULL
+nullptr
 )
 ;
 case
@@ -10239,7 +10239,7 @@ edge
 *
 prev
 =
-NULL
+nullptr
 ;
 while
 (
@@ -10477,7 +10477,7 @@ loop
 .
 continues
 =
-NULL
+nullptr
 ;
 setCurrentAndSpecializePhis
 (
@@ -10530,7 +10530,7 @@ if
 successor
 )
 return
-NULL
+nullptr
 ;
 edge
 -
@@ -10593,7 +10593,7 @@ block
 )
 )
 return
-NULL
+nullptr
 ;
 edge
 =
@@ -11393,7 +11393,7 @@ found
 ;
 setCurrent
 (
-NULL
+nullptr
 )
 ;
 pc
@@ -11471,7 +11471,7 @@ CFGState
 *
 found
 =
-NULL
+nullptr
 ;
 jsbytecode
 *
@@ -11585,7 +11585,7 @@ continues
 ;
 setCurrent
 (
-NULL
+nullptr
 )
 ;
 pc
@@ -11629,7 +11629,7 @@ CFGState
 *
 found
 =
-NULL
+nullptr
 ;
 jsbytecode
 *
@@ -11715,7 +11715,7 @@ DeferredEdge
 *
 breaks
 =
-NULL
+nullptr
 ;
 switch
 (
@@ -11784,7 +11784,7 @@ breaks
 ;
 setCurrent
 (
-NULL
+nullptr
 )
 ;
 pc
@@ -11836,7 +11836,7 @@ MBasicBlock
 *
 successor
 =
-NULL
+nullptr
 ;
 if
 (
@@ -13214,7 +13214,7 @@ ifne
 ?
 condpc
 :
-NULL
+nullptr
 ;
 state
 .
@@ -13231,7 +13231,7 @@ condpc
 ?
 updatepc
 :
-NULL
+nullptr
 ;
 if
 (
@@ -13527,7 +13527,7 @@ jsbytecode
 *
 casepc
 =
-NULL
+nullptr
 ;
 for
 (
@@ -14255,7 +14255,7 @@ state
 .
 stopAt
 =
-NULL
+nullptr
 ;
 state
 .
@@ -14333,7 +14333,7 @@ condswitch
 .
 breaks
 =
-NULL
+nullptr
 ;
 return
 state
@@ -14377,7 +14377,7 @@ label
 .
 breaks
 =
-NULL
+nullptr
 ;
 return
 state
@@ -14537,7 +14537,7 @@ pc
 (
 )
 :
-NULL
+nullptr
 ;
 jssrcnote
 *
@@ -14613,7 +14613,7 @@ MBasicBlock
 *
 bodyBlock
 =
-NULL
+nullptr
 ;
 jsbytecode
 *
@@ -14675,7 +14675,7 @@ bodies
 currentIdx
 ]
 =
-NULL
+nullptr
 ;
 if
 (
@@ -14759,7 +14759,7 @@ MBasicBlock
 *
 caseBlock
 =
-NULL
+nullptr
 ;
 if
 (
@@ -14837,7 +14837,7 @@ defaultIdx
 ]
 =
 =
-NULL
+nullptr
 )
 {
 JS_ASSERT
@@ -15178,7 +15178,7 @@ currentIdx
 ;
 setCurrent
 (
-NULL
+nullptr
 )
 ;
 state
@@ -16264,7 +16264,7 @@ else
 {
 successor
 =
-NULL
+nullptr
 ;
 current
 -
@@ -16408,7 +16408,7 @@ default
 :
 def
 =
-NULL
+nullptr
 ;
 MOZ_ASSUME_UNREACHABLE
 (
@@ -16483,7 +16483,7 @@ ControlStatus_Error
 ;
 setCurrent
 (
-NULL
+nullptr
 )
 ;
 return
@@ -16600,7 +16600,7 @@ ControlStatus_Error
 ;
 setCurrent
 (
-NULL
+nullptr
 )
 ;
 return
@@ -17851,7 +17851,7 @@ target
 jsbytecode
 *
 )
-NULL
+nullptr
 callInfo
 .
 constructing
@@ -17915,7 +17915,7 @@ graph
 &
 inspector
 info
-NULL
+nullptr
 inliningDepth_
 +
 1
@@ -18022,7 +18022,7 @@ returnBlock
 =
 newBlock
 (
-NULL
+nullptr
 postCall
 )
 ;
@@ -18058,7 +18058,7 @@ MFunctionBoundary
 :
 New
 (
-NULL
+nullptr
 MFunctionBoundary
 :
 :
@@ -18346,7 +18346,7 @@ exit
 )
 )
 return
-NULL
+nullptr
 ;
 return
 rdef
@@ -18436,7 +18436,7 @@ length
 )
 )
 return
-NULL
+nullptr
 ;
 for
 (
@@ -18478,7 +18478,7 @@ if
 rdef
 )
 return
-NULL
+nullptr
 ;
 phi
 -
@@ -18551,7 +18551,7 @@ if
 target
 =
 =
-NULL
+nullptr
 )
 return
 false
@@ -19250,7 +19250,7 @@ constructing
 )
 )
 return
-NULL
+nullptr
 ;
 MDefinition
 *
@@ -19275,7 +19275,7 @@ type
 MIRType_Object
 )
 return
-NULL
+nullptr
 ;
 if
 (
@@ -19323,7 +19323,7 @@ type
 MIRType_Object
 )
 return
-NULL
+nullptr
 ;
 if
 (
@@ -19356,7 +19356,7 @@ hasUses
 )
 )
 return
-NULL
+nullptr
 ;
 if
 (
@@ -19368,7 +19368,7 @@ thisDef
 )
 )
 return
-NULL
+nullptr
 ;
 return
 cache
@@ -19405,7 +19405,7 @@ hasUses
 )
 )
 return
-NULL
+nullptr
 ;
 if
 (
@@ -19420,7 +19420,7 @@ type
 MIRType_Object
 )
 return
-NULL
+nullptr
 ;
 if
 (
@@ -19438,7 +19438,7 @@ isGetPropertyCache
 )
 )
 return
-NULL
+nullptr
 ;
 MGetPropertyCache
 *
@@ -19475,7 +19475,7 @@ hasOneUse
 )
 )
 return
-NULL
+nullptr
 ;
 if
 (
@@ -19487,14 +19487,14 @@ thisDef
 )
 )
 return
-NULL
+nullptr
 ;
 return
 cache
 ;
 }
 return
-NULL
+nullptr
 ;
 }
 IonBuilder
@@ -20121,7 +20121,7 @@ pc
 )
 !
 =
-NULL
+nullptr
 )
 ;
 JS_ASSERT
@@ -20134,7 +20134,7 @@ priorResumePoint
 )
 !
 =
-NULL
+nullptr
 )
 ;
 MBasicBlock
@@ -20381,7 +20381,7 @@ if
 !
 inlineGenericFallback
 (
-NULL
+nullptr
 fallbackInfo
 preCallBlock
 false
@@ -20553,7 +20553,7 @@ numEntries
 )
 maybeCache
 =
-NULL
+nullptr
 ;
 }
 MDispatchInstruction
@@ -20630,7 +20630,7 @@ returnBlock
 =
 newBlock
 (
-NULL
+nullptr
 postCall
 )
 ;
@@ -20771,7 +20771,7 @@ resultTypeSet
 (
 )
 :
-NULL
+nullptr
 ;
 JS_ASSERT
 (
@@ -21298,7 +21298,7 @@ numCases
 ;
 maybeCache
 =
-NULL
+nullptr
 ;
 }
 }
@@ -21367,7 +21367,7 @@ JSFunction
 *
 remaining
 =
-NULL
+nullptr
 ;
 bool
 clonedAtCallsite
@@ -21638,7 +21638,7 @@ if
 templateObj
 )
 return
-NULL
+nullptr
 ;
 templateObj
 -
@@ -21799,7 +21799,7 @@ if
 templateObj
 )
 return
-NULL
+nullptr
 ;
 MInstruction
 *
@@ -22229,7 +22229,7 @@ hasSingletonType
 )
 )
 return
-NULL
+nullptr
 ;
 types
 :
@@ -22256,7 +22256,7 @@ unknownProperties
 )
 )
 return
-NULL
+nullptr
 ;
 jsid
 protoid
@@ -22295,7 +22295,7 @@ if
 protoTypes
 )
 return
-NULL
+nullptr
 ;
 return
 protoTypes
@@ -22337,7 +22337,7 @@ if
 proto
 )
 return
-NULL
+nullptr
 ;
 if
 (
@@ -22353,7 +22353,7 @@ nonLazyScript
 types
 )
 return
-NULL
+nullptr
 ;
 types
 :
@@ -22382,7 +22382,7 @@ if
 type
 )
 return
-NULL
+nullptr
 ;
 if
 (
@@ -22419,7 +22419,7 @@ type
 )
 )
 return
-NULL
+nullptr
 ;
 RootedObject
 targetRoot
@@ -22446,7 +22446,7 @@ if
 templateObject
 )
 return
-NULL
+nullptr
 ;
 if
 (
@@ -22569,7 +22569,7 @@ isNativeConstructor
 )
 )
 return
-NULL
+nullptr
 ;
 MConstant
 *
@@ -24157,7 +24157,7 @@ JSFunction
 *
 target
 =
-NULL
+nullptr
 ;
 if
 (
@@ -25049,7 +25049,7 @@ if
 call
 )
 return
-NULL
+nullptr
 ;
 for
 (
@@ -25298,7 +25298,7 @@ call
 )
 ;
 return
-NULL
+nullptr
 ;
 }
 thisArg
@@ -26220,7 +26220,7 @@ false
 return
 makeCall
 (
-NULL
+nullptr
 evalCallInfo
 false
 )
@@ -26454,7 +26454,7 @@ NewDenseUnallocatedArray
 (
 cx
 count
-NULL
+nullptr
 newKind
 )
 ;
@@ -26464,7 +26464,7 @@ if
 templateObject
 )
 return
-NULL
+nullptr
 ;
 if
 (
@@ -26503,7 +26503,7 @@ if
 type
 )
 return
-NULL
+nullptr
 ;
 templateObject
 -
@@ -28042,7 +28042,7 @@ if
 block
 )
 return
-NULL
+nullptr
 ;
 graph
 (
@@ -28261,7 +28261,7 @@ if
 block
 )
 return
-NULL
+nullptr
 ;
 graph
 (
@@ -28407,7 +28407,7 @@ osrBlock
 preheader
 )
 return
-NULL
+nullptr
 ;
 MOsrEntry
 *
@@ -28514,7 +28514,7 @@ MInstruction
 *
 argsObj
 =
-NULL
+nullptr
 ;
 if
 (
@@ -29035,7 +29035,7 @@ loopEntry
 )
 )
 return
-NULL
+nullptr
 ;
 osrBlock
 -
@@ -29308,7 +29308,7 @@ loopDepth_
 )
 )
 return
-NULL
+nullptr
 ;
 if
 (
@@ -29583,7 +29583,7 @@ if
 typeSet
 )
 return
-NULL
+nullptr
 ;
 phi
 -
@@ -30192,7 +30192,7 @@ getSingleton
 (
 )
 :
-NULL
+nullptr
 ;
 if
 (
@@ -30540,7 +30540,7 @@ cx
 key
 &
 proto
-NULL
+nullptr
 )
 )
 return
@@ -30607,7 +30607,7 @@ MInstruction
 *
 replace
 =
-NULL
+nullptr
 ;
 switch
 (
@@ -31089,7 +31089,7 @@ HeapTypeSet
 *
 propertyTypes
 =
-NULL
+nullptr
 ;
 if
 (
@@ -31705,7 +31705,7 @@ HeapTypeSet
 *
 propertyTypes
 =
-NULL
+nullptr
 ;
 if
 (
@@ -33813,7 +33813,7 @@ PropertyReadNeedsTypeBarrier
 (
 cx
 obj
-NULL
+nullptr
 baseTypes
 &
 barrier
@@ -34055,7 +34055,7 @@ AddObjectsForPropertyRead
 (
 cx
 obj
-NULL
+nullptr
 baseTypes
 )
 )
@@ -34073,7 +34073,7 @@ PropertyReadNeedsTypeBarrier
 (
 cx
 obj
-NULL
+nullptr
 baseTypes
 &
 barrier
@@ -34767,7 +34767,7 @@ isEffectful
 )
 )
 return
-NULL
+nullptr
 ;
 if
 (
@@ -34786,7 +34786,7 @@ isConstant
 )
 )
 return
-NULL
+nullptr
 ;
 const
 Value
@@ -34837,7 +34837,7 @@ viewType
 )
 )
 return
-NULL
+nullptr
 ;
 MConstant
 *
@@ -34892,8 +34892,8 @@ ptr
 >
 infer
 (
-NULL
-NULL
+nullptr
+nullptr
 )
 ;
 JS_ASSERT
@@ -35976,7 +35976,7 @@ cx
 current
 &
 object
-NULL
+nullptr
 &
 value
 true
@@ -36266,7 +36266,7 @@ cx
 current
 &
 object
-NULL
+nullptr
 &
 value
 true
@@ -37650,7 +37650,7 @@ NewDenseUnallocatedArray
 (
 cx
 length
-NULL
+nullptr
 TenuredObject
 )
 ;
@@ -38048,7 +38048,7 @@ getObjectCount
 1
 )
 return
-NULL
+nullptr
 ;
 types
 :
@@ -38079,7 +38079,7 @@ unknownProperties
 )
 )
 return
-NULL
+nullptr
 ;
 jsid
 id
@@ -38103,7 +38103,7 @@ id
 )
 )
 return
-NULL
+nullptr
 ;
 types
 :
@@ -38147,7 +38147,7 @@ type
 )
 {
 return
-NULL
+nullptr
 ;
 }
 return
@@ -38981,7 +38981,7 @@ JSObject
 *
 obj
 =
-NULL
+nullptr
 ;
 if
 (
@@ -39163,18 +39163,18 @@ JSObject
 *
 found
 =
-NULL
+nullptr
 ;
 JSObject
 *
 foundProto
 =
-NULL
+nullptr
 ;
 *
 funcp
 =
-NULL
+nullptr
 ;
 *
 isDOM
@@ -39452,7 +39452,7 @@ i
 )
 !
 =
-NULL
+nullptr
 )
 return
 true
@@ -39624,7 +39624,7 @@ JSObject
 *
 singleton
 =
-NULL
+nullptr
 ;
 JSObject
 *
@@ -39729,7 +39729,7 @@ break
 ;
 singleton
 =
-NULL
+nullptr
 ;
 }
 }
@@ -40905,7 +40905,7 @@ getSingleton
 (
 )
 :
-NULL
+nullptr
 ;
 if
 (
@@ -43310,7 +43310,7 @@ commonSetter
 false
 &
 isDOM
-NULL
+nullptr
 )
 )
 return
@@ -46412,7 +46412,7 @@ JSObject
 *
 call
 =
-NULL
+nullptr
 ;
 if
 (
@@ -46616,7 +46616,7 @@ JSObject
 *
 call
 =
-NULL
+nullptr
 ;
 if
 (
@@ -47242,7 +47242,7 @@ getSingleton
 (
 )
 :
-NULL
+nullptr
 ;
 if
 (
@@ -47341,7 +47341,7 @@ getSingleton
 cx
 )
 :
-NULL
+nullptr
 ;
 if
 (
@@ -47694,7 +47694,7 @@ hash
 )
 ;
 return
-NULL
+nullptr
 ;
 }
 reprSetHash_

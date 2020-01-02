@@ -1151,10 +1151,10 @@ if
 first
 =
 =
-NULL
+nullptr
 )
 return
-NULL
+nullptr
 ;
 if
 (
@@ -4970,7 +4970,7 @@ idom
 finger1
 )
 return
-NULL
+nullptr
 ;
 finger1
 =
@@ -5013,7 +5013,7 @@ idom
 finger2
 )
 return
-NULL
+nullptr
 ;
 finger2
 =
@@ -5185,7 +5185,7 @@ immediateDominator
 )
 =
 =
-NULL
+nullptr
 )
 continue
 ;
@@ -5202,7 +5202,7 @@ if
 newIdom
 =
 =
-NULL
+nullptr
 )
 {
 block
@@ -5292,7 +5292,7 @@ immediateDominator
 )
 !
 =
-NULL
+nullptr
 )
 ;
 }
@@ -6793,7 +6793,7 @@ successorWithPhis
 )
 !
 =
-NULL
+nullptr
 )
 ;
 }
@@ -6973,7 +6973,7 @@ info
 )
 )
 return
-NULL
+nullptr
 ;
 return
 check
@@ -7076,7 +7076,7 @@ isInt32
 return
 SimpleLinearSum
 (
-NULL
+nullptr
 v
 .
 toInt32
@@ -8865,7 +8865,7 @@ break
 ;
 }
 return
-NULL
+nullptr
 ;
 }
 bool
@@ -10105,8 +10105,8 @@ cx
 baseobj
 id
 value
-NULL
-NULL
+nullptr
+nullptr
 JSPROP_ENUMERATE
 0
 0
@@ -10815,7 +10815,7 @@ nonLazyScript
 (
 )
 fun
-NULL
+nullptr
 false
 DefinitePropertiesAnalysis
 )
@@ -10852,7 +10852,7 @@ graph
 inspector
 &
 info
-NULL
+nullptr
 )
 ;
 if
