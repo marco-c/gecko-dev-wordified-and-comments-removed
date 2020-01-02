@@ -30,8 +30,6 @@ h
 template
 <
 typename
-SubstringType
-typename
 DependentSubstringType
 bool
 IsWhitespace
@@ -44,11 +42,19 @@ nsTCharSeparatedTokenizer
 {
 typedef
 typename
-SubstringType
+DependentSubstringType
 :
 :
 char_type
 CharType
+;
+typedef
+typename
+DependentSubstringType
+:
+:
+substring_type
+SubstringType
 ;
 public
 :
@@ -539,7 +545,6 @@ nsCharSeparatedTokenizerTemplate
 public
 nsTCharSeparatedTokenizer
 <
-nsSubstring
 nsDependentSubstring
 IsWhitespace
 >
@@ -562,7 +567,6 @@ aFlags
 :
 nsTCharSeparatedTokenizer
 <
-nsSubstring
 nsDependentSubstring
 IsWhitespace
 >
@@ -627,7 +631,6 @@ nsCCharSeparatedTokenizerTemplate
 public
 nsTCharSeparatedTokenizer
 <
-nsCSubstring
 nsDependentCSubstring
 IsWhitespace
 >
@@ -650,7 +653,6 @@ aFlags
 :
 nsTCharSeparatedTokenizer
 <
-nsCSubstring
 nsDependentCSubstring
 IsWhitespace
 >
