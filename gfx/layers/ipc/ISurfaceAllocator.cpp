@@ -145,7 +145,7 @@ mozilla
 :
 Atomic
 <
-int32_t
+size_t
 >
 GfxMemoryImageReporter
 :
