@@ -3562,6 +3562,9 @@ FreeOp
 fop
 )
 ;
+#
+ifdef
+JS_ION
 void
 queueJitCodeForSweep
 (
@@ -3570,6 +3573,8 @@ FreeOp
 fop
 )
 ;
+#
+endif
 bool
 foregroundFinalize
 (

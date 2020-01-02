@@ -890,6 +890,9 @@ FINALIZE_SCRIPT
 FINALIZE_LAZY_SCRIPT
 }
 ;
+#
+ifdef
+JS_ION
 static
 const
 AllocKind
@@ -901,6 +904,8 @@ FinalizePhaseJitCode
 FINALIZE_JITCODE
 }
 ;
+#
+endif
 static
 const
 AllocKind
@@ -913,7 +918,12 @@ FinalizePhases
 {
 FinalizePhaseStrings
 FinalizePhaseScripts
+#
+ifdef
+JS_ION
 FinalizePhaseJitCode
+#
+endif
 }
 ;
 static
@@ -958,6 +968,9 @@ sizeof
 (
 AllocKind
 )
+#
+ifdef
+JS_ION
 sizeof
 (
 FinalizePhaseJitCode
@@ -967,6 +980,8 @@ sizeof
 (
 AllocKind
 )
+#
+endif
 }
 ;
 static
@@ -988,10 +1003,15 @@ gcstats
 :
 :
 PHASE_SWEEP_SCRIPT
+#
+ifdef
+JS_ION
 gcstats
 :
 :
 PHASE_SWEEP_JITCODE
+#
+endif
 }
 ;
 static
@@ -9202,6 +9222,9 @@ FINALIZE_LAZY_SCRIPT
 )
 ;
 }
+#
+ifdef
+JS_ION
 void
 ArenaLists
 :
@@ -9243,6 +9266,8 @@ FINALIZE_JITCODE
 )
 ;
 }
+#
+endif
 void
 ArenaLists
 :
