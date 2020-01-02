@@ -118,6 +118,7 @@ util
 .
 ArrayList
 ;
+public
 class
 SuggestClient
 {
