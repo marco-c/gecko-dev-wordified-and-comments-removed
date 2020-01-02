@@ -516,9 +516,6 @@ mmap
 ;
 #
 endif
-#
-ifdef
-MOZ_WIDGET_GONK
 Allow
 (
 SYSCALL
@@ -543,8 +540,6 @@ gettimeofday
 )
 )
 ;
-#
-endif
 Allow
 (
 SYSCALL
@@ -1019,9 +1014,6 @@ getpid
 )
 )
 ;
-#
-ifdef
-MOZ_WIDGET_GONK
 Allow
 (
 SOCKETCALL
@@ -1089,8 +1081,6 @@ sigaltstack
 )
 )
 ;
-#
-endif
 #
 if
 SYSCALL_EXISTS
@@ -1170,7 +1160,7 @@ restart_syscall
 ;
 #
 ifndef
-MOZ_WIDGET_GONK
+ANDROID
 Allow
 (
 SYSCALL
