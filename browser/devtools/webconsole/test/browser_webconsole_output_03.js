@@ -217,6 +217,9 @@ TEST_URI
 '
 "
 '
+noClick
+:
+true
 }
 {
 input
