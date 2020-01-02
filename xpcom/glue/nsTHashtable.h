@@ -1108,8 +1108,14 @@ to
 )
 EntryType
 (
+mozilla
+:
+:
+Move
+(
 *
 fromEntry
+)
 )
 ;
 fromEntry
