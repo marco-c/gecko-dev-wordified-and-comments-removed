@@ -18,6 +18,11 @@ base
 import
 MozbuildObject
 from
+.
+util
+import
+OrderedDefaultDict
+from
 collections
 import
 defaultdict
@@ -276,7 +281,7 @@ self
 .
 _tests_by_path
 =
-defaultdict
+OrderedDefaultDict
 (
 list
 )

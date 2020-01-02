@@ -1560,23 +1560,24 @@ as
 fh
 :
             
+s
+=
 json
 .
-dump
+dumps
 (
 self
 .
 _test_manager
 .
 tests_by_path
+)
+            
 fh
-sort_keys
-=
-True
-                
-indent
-=
-2
+.
+write
+(
+s
 )
     
 def
