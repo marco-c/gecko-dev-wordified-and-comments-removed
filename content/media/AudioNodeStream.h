@@ -555,7 +555,7 @@ aDownmixBuffer
 )
 ;
 uint32_t
-ComputeFinalOuputChannelCount
+ComputedNumberOfChannels
 (
 uint32_t
 aInputChannelCount
