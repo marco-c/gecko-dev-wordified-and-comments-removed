@@ -252,6 +252,8 @@ sourceMap
 '
 names
 '
+[
+]
 )
 ;
 var
@@ -313,7 +315,6 @@ if
 (
 version
 !
-=
 =
 this
 .
@@ -5179,7 +5180,7 @@ aGenerated
 source
 :
 aSource
-orginal
+original
 :
 aOriginal
 name
