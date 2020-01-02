@@ -2873,6 +2873,13 @@ JSTracer
 trc
 )
 {
+savedStacks_
+.
+trace
+(
+trc
+)
+;
 }
 void
 JSCompartment

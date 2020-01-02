@@ -3945,6 +3945,14 @@ JitCode
 PreBarrieredJitCode
 ;
 typedef
+PreBarriered
+<
+JSAtom
+*
+>
+PreBarrieredAtom
+;
+typedef
 RelocatablePtr
 <
 JSObject
