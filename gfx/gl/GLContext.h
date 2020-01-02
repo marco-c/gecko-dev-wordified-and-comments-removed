@@ -10728,8 +10728,10 @@ friend
 class
 GLScreenBuffer
 ;
+UniquePtr
+<
 GLScreenBuffer
-*
+>
 mScreen
 ;
 void
@@ -10813,6 +10815,10 @@ const
 {
 return
 mScreen
+.
+get
+(
+)
 ;
 }
 bool
