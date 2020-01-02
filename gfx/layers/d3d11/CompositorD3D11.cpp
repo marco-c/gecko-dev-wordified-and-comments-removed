@@ -3578,7 +3578,10 @@ Rect
 *
 aClipRectIn
 const
-gfxMatrix
+gfx
+:
+:
+Matrix
 &
 aTransform
 const

@@ -545,7 +545,10 @@ void
 EndFrameForExternalComposition
 (
 const
-gfxMatrix
+gfx
+:
+:
+Matrix
 &
 aTransform
 )
@@ -1005,7 +1008,10 @@ Rect
 *
 aClipRectIn
 const
-gfxMatrix
+gfx
+:
+:
+Matrix
 &
 aTransform
 const

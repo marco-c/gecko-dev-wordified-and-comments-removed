@@ -3457,7 +3457,10 @@ nsIntRect
 &
 aCurrentScissorRect
 const
-gfxMatrix
+gfx
+:
+:
+Matrix
 *
 aWorldTransform
 )
@@ -3752,7 +3755,10 @@ if
 aWorldTransform
 )
 {
-gfxRect
+gfx
+:
+:
+Rect
 r
 (
 scissor
@@ -3769,7 +3775,10 @@ scissor
 height
 )
 ;
-gfxRect
+gfx
+:
+:
+Rect
 trScissor
 =
 aWorldTransform
@@ -3794,7 +3803,10 @@ gfxUtils
 :
 GfxRectToIntRect
 (
+ThebesRect
+(
 trScissor
+)
 &
 scissor
 )

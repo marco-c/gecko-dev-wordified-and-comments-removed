@@ -122,6 +122,9 @@ namespace
 gfx
 {
 class
+Matrix
+;
+class
 Matrix4x4
 ;
 class
@@ -524,7 +527,10 @@ Rect
 *
 aClipRectIn
 const
-gfxMatrix
+gfx
+:
+:
+Matrix
 &
 aTransform
 const
@@ -567,7 +573,10 @@ void
 EndFrameForExternalComposition
 (
 const
-gfxMatrix
+gfx
+:
+:
+Matrix
 &
 aTransform
 )
