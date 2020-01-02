@@ -358,6 +358,11 @@ bytesAsHex
 CommonUtils
 .
 bytesAsHex
+hexToBytes
+:
+CommonUtils
+.
+hexToBytes
 encodeBase32
 :
 CommonUtils
