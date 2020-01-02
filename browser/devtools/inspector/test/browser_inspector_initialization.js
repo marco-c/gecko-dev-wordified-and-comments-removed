@@ -945,6 +945,12 @@ inspectNode
 (
 )
 ;
+contextMenu
+.
+hiding
+(
+)
+;
 info
 (
 "

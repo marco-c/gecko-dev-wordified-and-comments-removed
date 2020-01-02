@@ -216,6 +216,12 @@ inspectNode
 (
 )
 ;
+contextMenu
+.
+hiding
+(
+)
+;
 yield
 onInspectorReady
 ;
