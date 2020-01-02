@@ -765,14 +765,14 @@ width
 "
 250
 "
->
-<
-vbox
 id
 =
 "
 sources
 "
+>
+<
+vbox
 flex
 =
 "

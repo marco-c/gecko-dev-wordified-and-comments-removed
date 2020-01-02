@@ -883,6 +883,8 @@ querySelector
 "
 #
 sources
+>
+vbox
 "
 )
 ;
