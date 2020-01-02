@@ -400,6 +400,11 @@ FlushRepaintsForOverscrollHandoffChain
 )
 ;
 bool
+CancelAnimationsForOverscrollHandoffChain
+(
+)
+;
+bool
 CanBePanned
 (
 AsyncPanZoomController
