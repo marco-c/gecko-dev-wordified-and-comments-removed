@@ -3862,6 +3862,15 @@ cm
 -
 comment
 "
+"
+symbol
+"
+:
+"
+cm
+-
+atom
+"
 }
 ;
 let
