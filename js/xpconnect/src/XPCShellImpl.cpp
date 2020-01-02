@@ -5401,7 +5401,7 @@ manifest
 .
 [
 -
-PsSwWCijmIn
+WwxiCSsmIp
 ]
 [
 -
@@ -6052,6 +6052,13 @@ break
 ;
 case
 '
+m
+'
+:
+break
+;
+case
+'
 f
 '
 :
@@ -6183,11 +6190,6 @@ S
 case
 '
 s
-'
-:
-case
-'
-m
 '
 :
 case
