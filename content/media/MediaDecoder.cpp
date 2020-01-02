@@ -6346,7 +6346,7 @@ void
 MediaDecoder
 :
 :
-ReleaseStateMachine
+BreakCycles
 (
 )
 {

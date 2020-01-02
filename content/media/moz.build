@@ -434,6 +434,11 @@ MediaData
 h
 '
 '
+MediaDataDecodedListener
+.
+h
+'
+'
 MediaDecoder
 .
 h
