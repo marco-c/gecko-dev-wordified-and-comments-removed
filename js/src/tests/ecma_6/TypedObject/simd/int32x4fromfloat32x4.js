@@ -21,8 +21,8 @@ var
 summary
 =
 '
-float32x4
-bitsToInt32x4
+int32x4
+fromFloat32x4
 '
 ;
 function
@@ -47,9 +47,17 @@ a
 float32x4
 (
 1
+.
+1
+2
+.
 2
 3
+.
+3
 4
+.
+6
 )
 ;
 var
@@ -57,9 +65,9 @@ c
 =
 SIMD
 .
-float32x4
+int32x4
 .
-bitsToInt32x4
+fromFloat32x4
 (
 a
 )
@@ -69,7 +77,7 @@ assertEq
 c
 .
 x
-1065353216
+1
 )
 ;
 assertEq
@@ -77,7 +85,7 @@ assertEq
 c
 .
 y
-1073741824
+2
 )
 ;
 assertEq
@@ -85,7 +93,7 @@ assertEq
 c
 .
 z
-1077936128
+3
 )
 ;
 assertEq
@@ -93,7 +101,7 @@ assertEq
 c
 .
 w
-1082130432
+4
 )
 ;
 if
