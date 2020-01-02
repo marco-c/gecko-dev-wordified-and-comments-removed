@@ -429,6 +429,11 @@ CycleCollectedJSRuntime
 h
 '
 '
+Debug
+.
+h
+'
+'
 nsMemoryInfoDumper
 .
 h
@@ -495,6 +500,11 @@ cpp
 '
 '
 CycleCollectedJSRuntime
+.
+cpp
+'
+'
+Debug
 .
 cpp
 '
