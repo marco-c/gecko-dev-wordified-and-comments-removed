@@ -527,7 +527,7 @@ LOG
 Creating
 nsHttpTransaction
 %
-x
+p
 \
 n
 "
@@ -560,7 +560,7 @@ LOG
 Destroying
 nsHttpTransaction
 %
-x
+p
 \
 n
 "
@@ -3718,7 +3718,7 @@ attempts
 failing
 transaction
 %
-x
+p
 \
 n
 "
@@ -3737,7 +3737,7 @@ LOG
 restarting
 transaction
 %
-x
+p
 \
 n
 "
