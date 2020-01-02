@@ -1704,6 +1704,13 @@ transaction
 )
 ;
 }
+mForwarder
+-
+>
+ForceRemoveTexturesIfNecessary
+(
+)
+;
 mPhase
 =
 PHASE_NONE
