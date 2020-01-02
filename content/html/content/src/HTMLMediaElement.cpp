@@ -16941,6 +16941,9 @@ Hidden
 )
 ;
 }
+AutoNoJSAPI
+nojsapi
+;
 if
 (
 mPlayingThroughTheAudioChannel
