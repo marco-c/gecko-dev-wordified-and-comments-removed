@@ -593,13 +593,6 @@ this
 follow
 )
 {
-Util
-.
-dumpLn
-(
-index
-)
-;
 this
 .
 _list
