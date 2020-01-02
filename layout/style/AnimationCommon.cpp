@@ -1683,6 +1683,17 @@ aPortion
 }
 }
 }
+const
+double
+ComputedTiming
+:
+:
+kNullTimeFraction
+=
+NS_IEEEPositiveInfinity
+(
+)
+;
 bool
 ElementAnimation
 :
