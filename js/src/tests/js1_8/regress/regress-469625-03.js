@@ -86,7 +86,13 @@ expect
 '
 TypeError
 :
-x
+(
+intermediate
+value
+)
+[
+2
+]
 is
 null
 '
