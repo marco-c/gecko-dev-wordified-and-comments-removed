@@ -3755,6 +3755,14 @@ aBuilder
 IsForEventDelivery
 (
 )
+|
+|
+aBuilder
+-
+>
+IsForImageVisibility
+(
+)
 )
 {
 return
