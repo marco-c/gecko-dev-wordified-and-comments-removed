@@ -430,6 +430,16 @@ nsIFile
 aProfD
 )
 ;
+void
+LeavingStartupStage
+(
+)
+;
+void
+EnteringShutdownStage
+(
+)
+;
 const
 uint32_t
 kSlowSQLThresholdForMainThread
