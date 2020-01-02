@@ -1922,9 +1922,6 @@ count_
 nscolor
 mBackgroundColor
 ;
-uint8_t
-mBackgroundInlinePolicy
-;
 bool
 IsTransparent
 (

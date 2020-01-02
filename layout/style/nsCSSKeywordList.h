@@ -1291,13 +1291,6 @@ bottom_outside
 )
 CSS_KEY
 (
-bounding
--
-box
-bounding_box
-)
-CSS_KEY
-(
 break
 -
 all
@@ -1698,13 +1691,6 @@ e
 -
 resize
 e_resize
-)
-CSS_KEY
-(
-each
--
-box
-each_box
 )
 CSS_KEY
 (
