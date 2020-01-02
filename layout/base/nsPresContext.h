@@ -2663,7 +2663,7 @@ UserFontSetUpdated
 (
 )
 ;
-bool
+void
 EnsureSafeToHandOutCSSRules
 (
 )
