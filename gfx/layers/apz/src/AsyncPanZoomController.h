@@ -833,6 +833,15 @@ PanZoomState
 mState
 )
 ;
+void
+ApplyOverscrollEffect
+(
+ViewTransform
+*
+aTransform
+)
+const
+;
 enum
 AxisLockMode
 {
