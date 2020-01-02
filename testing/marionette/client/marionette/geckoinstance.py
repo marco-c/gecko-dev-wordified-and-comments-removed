@@ -39,6 +39,14 @@ port
 2828
                       
 "
+marionette
+.
+logging
+"
+:
+True
+                      
+"
 startup
 .
 homepage_welcome_url
