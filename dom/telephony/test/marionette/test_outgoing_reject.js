@@ -150,7 +150,7 @@ alerting
 ;
 emulator
 .
-runWithCallback
+runCmdWithCallback
 (
 "
 gsm
@@ -309,7 +309,7 @@ false
 ;
 emulator
 .
-runWithCallback
+runCmdWithCallback
 (
 "
 gsm
@@ -337,7 +337,7 @@ verifyCallList
 {
 emulator
 .
-runWithCallback
+runCmdWithCallback
 (
 "
 gsm

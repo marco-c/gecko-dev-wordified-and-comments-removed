@@ -27,7 +27,7 @@ defer
 ;
 emulator
 .
-runWithCallback
+runCmdWithCallback
 (
 "
 mux

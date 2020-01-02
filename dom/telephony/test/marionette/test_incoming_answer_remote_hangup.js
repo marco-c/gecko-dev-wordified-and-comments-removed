@@ -113,7 +113,7 @@ incomingCall
 ;
 emulator
 .
-runWithCallback
+runCmdWithCallback
 (
 "
 gsm
@@ -167,7 +167,7 @@ answerIncoming
 ;
 emulator
 .
-runWithCallback
+runCmdWithCallback
 (
 "
 gsm
@@ -308,7 +308,7 @@ active
 ;
 emulator
 .
-runWithCallback
+runCmdWithCallback
 (
 "
 gsm
@@ -446,7 +446,7 @@ length
 ;
 emulator
 .
-runWithCallback
+runCmdWithCallback
 (
 "
 gsm
@@ -481,7 +481,7 @@ cleanUp
 ;
 emulator
 .
-runWithCallback
+runCmdWithCallback
 (
 "
 gsm
