@@ -8509,7 +8509,10 @@ nullptr
 )
 exitReason_
 (
-AsmJSNoExit
+AsmJSExit
+:
+:
+None
 )
 {
 if
