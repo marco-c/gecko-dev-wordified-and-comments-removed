@@ -98,7 +98,7 @@ helpView
 "
 PanelUI
 -
-help
+helpView
 "
 menuButton
 :
@@ -853,7 +853,7 @@ showSubView
 "
 PanelUI
 -
-help
+helpView
 "
 aAnchor
 )
