@@ -419,9 +419,14 @@ const
 nsAString
 &
 format
-const
-KeyData
-&
+JS
+:
+:
+Handle
+<
+JSObject
+*
+>
 keyData
 const
 ObjectOrString

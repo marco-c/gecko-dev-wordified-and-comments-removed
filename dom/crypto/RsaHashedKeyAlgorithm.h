@@ -93,6 +93,14 @@ aCx
 )
 MOZ_OVERRIDE
 ;
+virtual
+nsString
+ToJwkAlg
+(
+)
+const
+MOZ_OVERRIDE
+;
 KeyAlgorithm
 *
 Hash

@@ -147,6 +147,13 @@ aRetVal
 const
 ;
 virtual
+nsString
+ToJwkAlg
+(
+)
+const
+;
+virtual
 bool
 WriteStructuredClone
 (
