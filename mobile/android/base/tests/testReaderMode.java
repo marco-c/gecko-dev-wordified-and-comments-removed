@@ -111,6 +111,16 @@ READER_ICON_MAX_WAIT_MS
 =
 15000
 ;
+private
+static
+final
+String
+PAGE_ACTION_LAYOUT_ID
+=
+"
+page_action_layout
+"
+;
 Override
 protected
 int
@@ -1232,7 +1242,7 @@ mSolo
 .
 getView
 (
-0x7f070025
+PAGE_ACTION_LAYOUT_ID
 )
 ;
 final
