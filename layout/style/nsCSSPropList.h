@@ -3992,6 +3992,17 @@ mFlexDirection
 )
 eStyleAnimType_EnumU8
 )
+CSS_PROP_SHORTHAND
+(
+flex
+-
+flow
+flex_flow
+FlexFlow
+CSS_PROPERTY_PARSE_FUNCTION
+"
+"
+)
 CSS_PROP_POSITION
 (
 flex
