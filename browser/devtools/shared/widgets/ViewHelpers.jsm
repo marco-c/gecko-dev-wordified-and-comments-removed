@@ -1977,10 +1977,11 @@ aOptions
 staged
 )
 {
-delete
 aOptions
 .
 index
+=
+undefined
 ;
 return
 void
