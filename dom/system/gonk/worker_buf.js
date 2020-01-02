@@ -62,7 +62,6 @@ null
 _init
 :
 function
-_init
 (
 )
 {
@@ -163,7 +162,6 @@ outgoingBufferCalSizeQueue
 startCalOutgoingSize
 :
 function
-startCalOutgoingSize
 (
 writeFunction
 )
@@ -214,7 +212,6 @@ sizeInfo
 stopCalOutgoingSize
 :
 function
-stopCalOutgoingSize
 (
 )
 {
@@ -276,7 +273,6 @@ currentOutgoingIndex
 growIncomingBuffer
 :
 function
-growIncomingBuffer
 (
 min_size
 )
@@ -504,7 +500,6 @@ incomingBufferLength
 growOutgoingBuffer
 :
 function
-growOutgoingBuffer
 (
 min_size
 )
@@ -627,7 +622,6 @@ outgoingBufferLength
 ensureIncomingAvailable
 :
 function
-ensureIncomingAvailable
 (
 index
 )
@@ -690,7 +684,6 @@ begin
 seekIncoming
 :
 function
-seekIncoming
 (
 offset
 )
@@ -775,7 +768,6 @@ newIndex
 readUint8Unchecked
 :
 function
-readUint8Unchecked
 (
 )
 {
@@ -814,7 +806,6 @@ value
 readUint8
 :
 function
-readUint8
 (
 )
 {
@@ -853,7 +844,6 @@ readUint8Unchecked
 readUint8Array
 :
 function
-readUint8Array
 (
 length
 )
@@ -936,7 +926,6 @@ array
 readUint16
 :
 function
-readUint16
 (
 )
 {
@@ -960,7 +949,6 @@ readUint8
 readInt32
 :
 function
-readInt32
 (
 )
 {
@@ -1002,7 +990,6 @@ readUint8
 readInt32List
 :
 function
-readInt32List
 (
 )
 {
@@ -1056,7 +1043,6 @@ ints
 readString
 :
 function
-readString
 (
 )
 {
@@ -1139,7 +1125,6 @@ s
 readStringList
 :
 function
-readStringList
 (
 )
 {
@@ -1193,7 +1178,6 @@ strings
 readStringDelimiter
 :
 function
-readStringDelimiter
 (
 length
 )
@@ -1263,7 +1247,6 @@ delimiter
 readParcelSize
 :
 function
-readParcelSize
 (
 )
 {
@@ -1305,7 +1288,6 @@ readUint8Unchecked
 ensureOutgoingAvailable
 :
 function
-ensureOutgoingAvailable
 (
 index
 )
@@ -1334,7 +1316,6 @@ index
 writeUint8
 :
 function
-writeUint8
 (
 value
 )
@@ -1369,7 +1350,6 @@ outgoingIndex
 writeUint16
 :
 function
-writeUint16
 (
 value
 )
@@ -1401,7 +1381,6 @@ value
 writeInt32
 :
 function
-writeInt32
 (
 value
 )
@@ -1461,7 +1440,6 @@ value
 writeString
 :
 function
-writeString
 (
 value
 )
@@ -1538,7 +1516,6 @@ length
 writeStringList
 :
 function
-writeStringList
 (
 strings
 )
@@ -1585,7 +1562,6 @@ i
 writeStringDelimiter
 :
 function
-writeStringDelimiter
 (
 length
 )
@@ -1619,7 +1595,6 @@ writeUint16
 writeParcelSize
 :
 function
-writeParcelSize
 (
 value
 )
@@ -1698,7 +1673,6 @@ currentIndex
 copyIncomingToOutgoing
 :
 function
-copyIncomingToOutgoing
 (
 length
 )
@@ -1897,7 +1871,6 @@ length
 writeToIncoming
 :
 function
-writeToIncoming
 (
 incoming
 )
@@ -2032,7 +2005,6 @@ incomingBufferLength
 processIncoming
 :
 function
-processIncoming
 (
 incoming
 )
@@ -2490,7 +2462,6 @@ currentParcelSize
 sendParcel
 :
 function
-sendParcel
 (
 )
 {
@@ -2566,7 +2537,6 @@ PARCEL_SIZE_SIZE
 getCurrentParcelSize
 :
 function
-getCurrentParcelSize
 (
 )
 {
@@ -2579,7 +2549,6 @@ currentParcelSize
 getReadAvailable
 :
 function
-getReadAvailable
 (
 )
 {

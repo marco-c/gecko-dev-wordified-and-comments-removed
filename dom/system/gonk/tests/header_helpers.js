@@ -61,7 +61,6 @@ worker_ns
 importScripts
 :
 function
-fakeImportScripts
 (
 )
 {
@@ -125,7 +124,6 @@ this
 postRILMessage
 :
 function
-fakePostRILMessage
 (
 message
 )
@@ -134,7 +132,6 @@ message
 postMessage
 :
 function
-fakepostMessage
 (
 message
 )

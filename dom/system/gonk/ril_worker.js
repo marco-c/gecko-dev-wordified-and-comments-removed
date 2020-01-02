@@ -434,7 +434,6 @@ null
 init
 :
 function
-init
 (
 )
 {
@@ -461,7 +460,6 @@ mTokenRequestMap
 processParcel
 :
 function
-processParcel
 (
 )
 {
@@ -670,7 +668,6 @@ options
 newParcel
 :
 function
-newParcel
 (
 type
 options
@@ -767,7 +764,6 @@ mToken
 simpleRequest
 :
 function
-simpleRequest
 (
 type
 options
@@ -791,7 +787,6 @@ sendParcel
 onSendParcel
 :
 function
-onSendParcel
 (
 parcel
 )
@@ -858,7 +853,6 @@ _receivedSmsCbPagesMap
 initRILState
 :
 function
-initRILState
 (
 )
 {
@@ -1119,7 +1113,6 @@ null
 parseInt
 :
 function
-RIL_parseInt
 (
 string
 defaultValue
@@ -1172,7 +1165,6 @@ defaultValue
 getICCStatus
 :
 function
-getICCStatus
 (
 )
 {
@@ -1187,7 +1179,6 @@ REQUEST_GET_SIM_STATUS
 iccUnlockCardLock
 :
 function
-iccUnlockCardLock
 (
 options
 )
@@ -1346,7 +1337,6 @@ options
 enterICCPIN
 :
 function
-enterICCPIN
 (
 options
 )
@@ -1410,7 +1400,6 @@ sendParcel
 enterICCPIN2
 :
 function
-enterICCPIN2
 (
 options
 )
@@ -1474,7 +1463,6 @@ sendParcel
 enterDepersonalization
 :
 function
-enterDepersonalization
 (
 type
 password
@@ -1513,7 +1501,6 @@ sendParcel
 iccSetCardLock
 :
 function
-iccSetCardLock
 (
 options
 )
@@ -1694,7 +1681,6 @@ options
 changeICCPIN
 :
 function
-changeICCPIN
 (
 options
 )
@@ -1767,7 +1753,6 @@ sendParcel
 changeICCPIN2
 :
 function
-changeICCPIN2
 (
 options
 )
@@ -1840,7 +1825,6 @@ sendParcel
 enterICCPUK
 :
 function
-enterICCPUK
 (
 options
 )
@@ -1913,7 +1897,6 @@ sendParcel
 enterICCPUK2
 :
 function
-enterICCPUK2
 (
 options
 )
@@ -1986,7 +1969,6 @@ sendParcel
 iccGetCardLockState
 :
 function
-iccGetCardLockState
 (
 options
 )
@@ -2077,7 +2059,6 @@ options
 iccGetCardLockRetryCount
 :
 function
-iccGetCardLockRetryCount
 (
 options
 )
@@ -2200,7 +2181,6 @@ options
 queryICCLockRetryCount
 :
 function
-queryICCLockRetryCount
 (
 options
 )
@@ -2239,7 +2219,6 @@ sendParcel
 queryICCFacilityLock
 :
 function
-queryICCFacilityLock
 (
 options
 )
@@ -2325,7 +2304,6 @@ sendParcel
 setICCFacilityLock
 :
 function
-setICCFacilityLock
 (
 options
 )
@@ -2428,7 +2406,6 @@ sendParcel
 iccIO
 :
 function
-iccIO
 (
 options
 )
@@ -2596,7 +2573,6 @@ sendParcel
 getIMSI
 :
 function
-getIMSI
 (
 aid
 )
@@ -2652,7 +2628,6 @@ sendParcel
 readICCContacts
 :
 function
-readICCContacts
 (
 options
 )
@@ -2807,7 +2782,6 @@ this
 updateICCContact
 :
 function
-updateICCContact
 (
 options
 )
@@ -3077,7 +3051,6 @@ onerror
 setRadioEnabled
 :
 function
-setRadioEnabled
 (
 options
 )
@@ -3120,7 +3093,6 @@ sendParcel
 _handleQueryMMICallWaiting
 :
 function
-_handleQueryMMICallWaiting
 (
 options
 )
@@ -3275,7 +3247,6 @@ options
 _handleSetMMICallWaiting
 :
 function
-_handleSetMMICallWaiting
 (
 options
 )
@@ -3339,7 +3310,6 @@ options
 queryCallWaiting
 :
 function
-queryCallWaiting
 (
 options
 )
@@ -3376,7 +3346,6 @@ sendParcel
 setCallWaiting
 :
 function
-setCallWaiting
 (
 options
 )
@@ -3438,7 +3407,6 @@ sendParcel
 queryCLIP
 :
 function
-queryCLIP
 (
 options
 )
@@ -3455,7 +3423,6 @@ options
 getCLIR
 :
 function
-getCLIR
 (
 options
 )
@@ -3472,7 +3439,6 @@ options
 setCLIR
 :
 function
-setCLIR
 (
 options
 )
@@ -3525,7 +3491,6 @@ sendParcel
 setScreenState
 :
 function
-setScreenState
 (
 options
 )
@@ -3567,7 +3532,6 @@ sendParcel
 getVoiceRegistrationState
 :
 function
-getVoiceRegistrationState
 (
 )
 {
@@ -3582,7 +3546,6 @@ REQUEST_VOICE_REGISTRATION_STATE
 getVoiceRadioTechnology
 :
 function
-getVoiceRadioTechnology
 (
 )
 {
@@ -3597,7 +3560,6 @@ REQUEST_VOICE_RADIO_TECH
 getDataRegistrationState
 :
 function
-getDataRegistrationState
 (
 )
 {
@@ -3612,7 +3574,6 @@ REQUEST_DATA_REGISTRATION_STATE
 getOperator
 :
 function
-getOperator
 (
 )
 {
@@ -3627,7 +3588,6 @@ REQUEST_OPERATOR
 setPreferredNetworkType
 :
 function
-setPreferredNetworkType
 (
 options
 )
@@ -3693,7 +3653,6 @@ sendParcel
 getPreferredNetworkType
 :
 function
-getPreferredNetworkType
 (
 options
 )
@@ -3710,7 +3669,6 @@ options
 requestNetworkInfo
 :
 function
-requestNetworkInfo
 (
 )
 {
@@ -3805,7 +3763,6 @@ getSignalStrength
 getAvailableNetworks
 :
 function
-getAvailableNetworks
 (
 options
 )
@@ -3841,7 +3798,6 @@ sendParcel
 getNetworkSelectionMode
 :
 function
-getNetworkSelectionMode
 (
 )
 {
@@ -3870,7 +3826,6 @@ REQUEST_QUERY_NETWORK_SELECTION_MODE
 selectNetworkAuto
 :
 function
-selectNetworkAuto
 (
 options
 )
@@ -3901,7 +3856,6 @@ options
 setRoamingPreference
 :
 function
-setRoamingPreference
 (
 options
 )
@@ -3976,7 +3930,6 @@ sendParcel
 queryRoamingPreference
 :
 function
-getRoamingPreference
 (
 options
 )
@@ -3993,7 +3946,6 @@ options
 setVoicePrivacyMode
 :
 function
-setVoicePrivacyMode
 (
 options
 )
@@ -4036,7 +3988,6 @@ sendParcel
 queryVoicePrivacyMode
 :
 function
-getVoicePrivacyMode
 (
 options
 )
@@ -4053,7 +4004,6 @@ options
 iccOpenChannel
 :
 function
-iccOpenChannel
 (
 options
 )
@@ -4106,7 +4056,6 @@ sendParcel
 iccExchangeAPDU
 :
 function
-iccExchangeAPDU
 (
 options
 )
@@ -4302,7 +4251,6 @@ sendParcel
 iccCloseChannel
 :
 function
-iccCloseChannel
 (
 options
 )
@@ -4360,7 +4308,6 @@ sendParcel
 selectNetwork
 :
 function
-selectNetwork
 (
 options
 )
@@ -4442,7 +4389,6 @@ sendParcel
 getCurrentCalls
 :
 function
-getCurrentCalls
 (
 )
 {
@@ -4457,7 +4403,6 @@ REQUEST_GET_CURRENT_CALLS
 getSignalStrength
 :
 function
-getSignalStrength
 (
 )
 {
@@ -4472,7 +4417,6 @@ REQUEST_SIGNAL_STRENGTH
 getIMEI
 :
 function
-getIMEI
 (
 options
 )
@@ -4489,7 +4433,6 @@ options
 getIMEISV
 :
 function
-getIMEISV
 (
 )
 {
@@ -4504,7 +4447,6 @@ REQUEST_GET_IMEISV
 getDeviceIdentity
 :
 function
-getDeviceIdentity
 (
 )
 {
@@ -4519,7 +4461,6 @@ REQUEST_DEVICE_IDENTITY
 getBasebandVersion
 :
 function
-getBasebandVersion
 (
 )
 {
@@ -4534,7 +4475,6 @@ REQUEST_BASEBAND_VERSION
 sendExitEmergencyCbModeRequest
 :
 function
-sendExitEmergencyCbModeRequest
 (
 options
 )
@@ -4551,7 +4491,6 @@ options
 getCdmaSubscription
 :
 function
-getCdmaSubscription
 (
 )
 {
@@ -4566,7 +4505,6 @@ REQUEST_CDMA_SUBSCRIPTION
 exitEmergencyCbMode
 :
 function
-exitEmergencyCbMode
 (
 options
 )
@@ -4606,7 +4544,6 @@ null
 dial
 :
 function
-dial
 (
 options
 )
@@ -4732,7 +4669,6 @@ onerror
 dialNonEmergencyNumber
 :
 function
-dialNonEmergencyNumber
 (
 options
 onerror
@@ -4812,7 +4748,6 @@ options
 dialEmergencyNumber
 :
 function
-dialEmergencyNumber
 (
 options
 onerror
@@ -4921,7 +4856,6 @@ options
 sendDialRequest
 :
 function
-sendDialRequest
 (
 options
 )
@@ -4985,7 +4919,6 @@ sendParcel
 hangUp
 :
 function
-hangUp
 (
 options
 )
@@ -5075,7 +5008,6 @@ break
 setMute
 :
 function
-setMute
 (
 options
 )
@@ -5117,7 +5049,6 @@ sendParcel
 answerCall
 :
 function
-answerCall
 (
 options
 )
@@ -5179,7 +5110,6 @@ break
 rejectCall
 :
 function
-rejectCall
 (
 options
 )
@@ -5258,7 +5188,6 @@ break
 holdCall
 :
 function
-holdCall
 (
 options
 )
@@ -5332,7 +5261,6 @@ REQUEST_SWITCH_HOLDING_AND_ACTIVE
 resumeCall
 :
 function
-resumeCall
 (
 options
 )
@@ -5377,7 +5305,6 @@ false
 conferenceCall
 :
 function
-conferenceCall
 (
 options
 )
@@ -5400,7 +5327,6 @@ options
 separateCall
 :
 function
-separateCall
 (
 options
 )
@@ -5439,7 +5365,6 @@ sendParcel
 holdConference
 :
 function
-holdConference
 (
 )
 {
@@ -5454,7 +5379,6 @@ REQUEST_SWITCH_HOLDING_AND_ACTIVE
 resumeConference
 :
 function
-resumeConference
 (
 )
 {
@@ -5469,7 +5393,6 @@ REQUEST_SWITCH_HOLDING_AND_ACTIVE
 sendSMS
 :
 function
-sendSMS
 (
 options
 )
@@ -5619,7 +5542,6 @@ sendParcel
 acknowledgeGsmSms
 :
 function
-acknowledgeGsmSms
 (
 success
 cause
@@ -5667,7 +5589,6 @@ sendParcel
 ackSMS
 :
 function
-ackSMS
 (
 options
 )
@@ -5730,7 +5651,6 @@ result
 acknowledgeCdmaSms
 :
 function
-acknowledgeCdmaSms
 (
 success
 cause
@@ -5771,7 +5691,6 @@ sendParcel
 setCellBroadcastDisabled
 :
 function
-setCellBroadcastDisabled
 (
 options
 )
@@ -5802,7 +5721,6 @@ updateCellBroadcastConfig
 setCellBroadcastSearchList
 :
 function
-setCellBroadcastSearchList
 (
 options
 )
@@ -5896,7 +5814,6 @@ _mergeAllCellBroadcastConfigs
 updateCellBroadcastConfig
 :
 function
-updateCellBroadcastConfig
 (
 )
 {
@@ -5958,7 +5875,6 @@ false
 setGsmSmsBroadcastConfig
 :
 function
-setGsmSmsBroadcastConfig
 (
 config
 )
@@ -6061,7 +5977,6 @@ sendParcel
 setCdmaSmsBroadcastConfig
 :
 function
-setCdmaSmsBroadcastConfig
 (
 config
 )
@@ -6206,7 +6121,6 @@ sendParcel
 setSmsBroadcastConfig
 :
 function
-setSmsBroadcastConfig
 (
 config
 )
@@ -6240,7 +6154,6 @@ config
 setSmsBroadcastActivation
 :
 function
-setSmsBroadcastActivation
 (
 activate
 )
@@ -6291,7 +6204,6 @@ sendParcel
 startTone
 :
 function
-startTone
 (
 options
 )
@@ -6322,7 +6234,6 @@ sendParcel
 stopTone
 :
 function
-stopTone
 (
 )
 {
@@ -6337,7 +6248,6 @@ REQUEST_DTMF_STOP
 sendTone
 :
 function
-sendTone
 (
 options
 )
@@ -6368,7 +6278,6 @@ sendParcel
 getSmscAddress
 :
 function
-getSmscAddress
 (
 options
 )
@@ -6442,7 +6351,6 @@ options
 setSmscAddress
 :
 function
-setSmscAddress
 (
 options
 )
@@ -6474,7 +6382,6 @@ sendParcel
 setupDataCall
 :
 function
-setupDataCall
 (
 options
 )
@@ -6611,7 +6518,6 @@ token
 deactivateDataCall
 :
 function
-deactivateDataCall
 (
 options
 )
@@ -6696,7 +6602,6 @@ datacall
 getDataCallList
 :
 function
-getDataCallList
 (
 )
 {
@@ -6714,7 +6619,6 @@ false
 setDataRegistration
 :
 function
-setDataRegistration
 (
 options
 )
@@ -6749,7 +6653,6 @@ request
 getFailCauseCode
 :
 function
-getFailCauseCode
 (
 options
 )
@@ -6766,7 +6669,6 @@ options
 _parseMMI
 :
 function
-_parseMMI
 (
 mmiString
 )
@@ -6888,7 +6790,6 @@ null
 _matchMMIRegexp
 :
 function
-_matchMMIRegexp
 (
 mmiString
 )
@@ -7047,7 +6948,6 @@ mmiString
 _isPoundString
 :
 function
-_isPoundString
 (
 mmiString
 )
@@ -7074,7 +6974,6 @@ MMI_END_OF_USSD
 _isMMIShortString
 :
 function
-_isMMIShortString
 (
 mmiString
 )
@@ -7165,7 +7064,6 @@ false
 sendMMI
 :
 function
-sendMMI
 (
 options
 )
@@ -8380,7 +8278,6 @@ MMI_ERROR_KS_ERROR
 sendUSSD
 :
 function
-sendUSSD
 (
 options
 )
@@ -8412,7 +8309,6 @@ sendParcel
 cancelUSSD
 :
 function
-cancelUSSD
 (
 options
 )
@@ -8435,7 +8331,6 @@ options
 queryCallForwardStatus
 :
 function
-queryCallForwardStatus
 (
 options
 )
@@ -8516,7 +8411,6 @@ sendParcel
 setCallForward
 :
 function
-setCallForward
 (
 options
 )
@@ -8598,7 +8492,6 @@ sendParcel
 queryCallBarringStatus
 :
 function
-queryCallBarringStatus
 (
 options
 )
@@ -8632,7 +8525,6 @@ options
 setCallBarring
 :
 function
-setCallBarring
 (
 options
 )
@@ -8659,7 +8551,6 @@ options
 changeCallBarringPassword
 :
 function
-changeCallBarringPassword
 (
 options
 )
@@ -8714,7 +8605,6 @@ sendParcel
 stkHandleCallSetup
 :
 function
-stkHandleCallSetup
 (
 options
 )
@@ -8756,7 +8646,6 @@ sendParcel
 sendStkTerminalProfile
 :
 function
-sendStkTerminalProfile
 (
 profile
 )
@@ -8825,7 +8714,6 @@ sendParcel
 sendStkTerminalResponse
 :
 function
-sendStkTerminalResponse
 (
 response
 )
@@ -9483,7 +9371,6 @@ sendParcel
 sendStkMenuSelection
 :
 function
-sendStkMenuSelection
 (
 command
 )
@@ -9518,7 +9405,6 @@ command
 sendStkTimerExpiration
 :
 function
-sendStkTimerExpiration
 (
 command
 )
@@ -9573,7 +9459,6 @@ command
 sendStkEventDownload
 :
 function
-sendStkEventDownload
 (
 command
 )
@@ -9835,7 +9720,6 @@ command
 sendICCEnvelopeCommand
 :
 function
-sendICCEnvelopeCommand
 (
 options
 )
@@ -10356,7 +10240,6 @@ sendParcel
 _isEmergencyNumber
 :
 function
-_isEmergencyNumber
 (
 number
 )
@@ -10436,7 +10319,6 @@ number
 _isTemporaryModeCLIR
 :
 function
-_isTemporaryModeCLIR
 (
 mmi
 )
@@ -10481,7 +10363,6 @@ MMI_PROCEDURE_DEACTIVATION
 reportStkServiceIsRunning
 :
 function
-reportStkServiceIsRunning
 (
 )
 {
@@ -10496,7 +10377,6 @@ REQUEST_REPORT_STK_SERVICE_IS_RUNNING
 _processICCStatus
 :
 function
-_processICCStatus
 (
 iccStatus
 )
@@ -10859,7 +10739,6 @@ cardState
 _processEnterAndChangeICCResponses
 :
 function
-_processEnterAndChangeICCResponses
 (
 length
 options
@@ -11132,7 +11011,6 @@ options
 _sendNetworkInfoMessage
 :
 function
-_sendNetworkInfoMessage
 (
 type
 message
@@ -11196,7 +11074,6 @@ message
 _receivedNetworkInfo
 :
 function
-_receivedNetworkInfo
 (
 type
 )
@@ -11381,7 +11258,6 @@ _sendPendingNetworkInfo
 _sendPendingNetworkInfo
 :
 function
-_sendPendingNetworkInfo
 (
 )
 {
@@ -11454,7 +11330,6 @@ requestNetworkInfo
 _processSignalLevel
 :
 function
-_processSignalLevel
 (
 signal
 min
@@ -11509,7 +11384,6 @@ min
 _processSignalStrength
 :
 function
-_processSignalStrength
 (
 signal
 )
@@ -11788,7 +11662,6 @@ null
 _processCREG
 :
 function
-_processCREG
 (
 curState
 newState
@@ -12085,7 +11958,6 @@ changed
 _processVoiceRegistrationState
 :
 function
-_processVoiceRegistrationState
 (
 state
 )
@@ -12323,7 +12195,6 @@ rs
 _processDataRegistrationState
 :
 function
-_processDataRegistrationState
 (
 state
 )
@@ -12372,7 +12243,6 @@ rs
 _processOperator
 :
 function
-_processOperator
 (
 operatorData
 )
@@ -12744,7 +12614,6 @@ operator
 _processCalls
 :
 function
-_processCalls
 (
 newCalls
 )
@@ -13512,7 +13381,6 @@ _ensureConference
 _ensureConference
 :
 function
-_ensureConference
 (
 )
 {
@@ -13747,7 +13615,6 @@ message
 _handleChangedCallState
 :
 function
-_handleChangedCallState
 (
 changedCall
 )
@@ -13777,7 +13644,6 @@ message
 _handleDisconnectedCall
 :
 function
-_handleDisconnectedCall
 (
 disconnectedCall
 )
@@ -13807,7 +13673,6 @@ message
 _sendCallError
 :
 function
-_sendCallError
 (
 callIndex
 errorMsg
@@ -13836,7 +13701,6 @@ errorMsg
 _sendDataCallError
 :
 function
-_sendDataCallError
 (
 message
 errorCode
@@ -13896,7 +13760,6 @@ message
 _compareDataCallLink
 :
 function
-_compareDataCallLink
 (
 source
 target
@@ -14010,7 +13873,6 @@ true
 _processDataCallList
 :
 function
-_processDataCallList
 (
 datacalls
 newDataCallOptions
@@ -14573,7 +14435,6 @@ newDataCall
 _setDataCallGeckoState
 :
 function
-_setDataCallGeckoState
 (
 datacall
 )
@@ -14615,7 +14476,6 @@ break
 _processSuppSvcNotification
 :
 function
-_processSuppSvcNotification
 (
 info
 )
@@ -14806,7 +14666,6 @@ message
 _cancelEmergencyCbModeTimeout
 :
 function
-_cancelEmergencyCbModeTimeout
 (
 )
 {
@@ -14835,7 +14694,6 @@ null
 _handleChangedEmergencyCbMode
 :
 function
-_handleChangedEmergencyCbMode
 (
 active
 )
@@ -14903,7 +14761,6 @@ message
 _processNetworks
 :
 function
-_processNetworks
 (
 )
 {
@@ -15059,7 +14916,6 @@ networks
 _processNetworkTuple
 :
 function
-_processNetworkTuple
 (
 networkTuple
 network
@@ -15151,7 +15007,6 @@ networkTuple
 _processRadioTech
 :
 function
-_processRadioTech
 (
 radioTech
 )
@@ -15316,7 +15171,6 @@ getICCStatus
 _toaFromString
 :
 function
-_toaFromString
 (
 number
 )
@@ -15361,7 +15215,6 @@ toa
 _siToServiceClass
 :
 function
-_siToServiceClass
 (
 si
 )
@@ -15480,7 +15333,6 @@ ICC_SERVICE_CLASS_NONE
 dataDownloadViaSMSPP
 :
 function
-dataDownloadViaSMSPP
 (
 message
 )
@@ -15779,7 +15631,6 @@ sendParcel
 acknowledgeIncomingGsmSmsWithPDU
 :
 function
-acknowledgeIncomingGsmSmsWithPDU
 (
 success
 responsePduLen
@@ -15949,7 +15800,6 @@ sendParcel
 writeSmsToSIM
 :
 function
-writeSmsToSIM
 (
 message
 )
@@ -16169,7 +16019,6 @@ sendParcel
 _processSmsMultipart
 :
 function
-_processSmsMultipart
 (
 message
 )
@@ -16362,7 +16211,6 @@ PDU_FCS_OK
 _processSmsStatusReport
 :
 function
-_processSmsStatusReport
 (
 length
 )
@@ -16630,7 +16478,6 @@ PDU_FCS_OK
 _processCdmaSmsStatusReport
 :
 function
-_processCdmaSmsStatusReport
 (
 message
 )
@@ -16794,7 +16641,6 @@ PDU_FCS_OK
 _processCdmaSmsWapPush
 :
 function
-_processCdmaSmsWapPush
 (
 message
 )
@@ -17046,7 +16892,6 @@ message
 _processReceivedSmsSegment
 :
 function
-_processReceivedSmsSegment
 (
 original
 )
@@ -17538,7 +17383,6 @@ options
 _processSentSmsSegment
 :
 function
-_processSentSmsSegment
 (
 options
 )
@@ -17595,7 +17439,6 @@ options
 _processSmsSendResult
 :
 function
-_processSmsSendResult
 (
 length
 options
@@ -17818,7 +17661,6 @@ rilMessageToken
 _processReceivedSmsCbPage
 :
 function
-_processReceivedSmsCbPage
 (
 original
 )
@@ -18360,7 +18202,6 @@ options
 _mergeCellBroadcastConfigs
 :
 function
-_mergeCellBroadcastConfigs
 (
 list
 from
@@ -18788,7 +18629,6 @@ true
 _mergeAllCellBroadcastConfigs
 :
 function
-_mergeAllCellBroadcastConfigs
 (
 )
 {
@@ -19010,7 +18850,6 @@ updateCellBroadcastConfig
 _checkCellBroadcastMMISettable
 :
 function
-_checkCellBroadcastMMISettable
 (
 from
 to
@@ -19117,7 +18956,6 @@ true
 _convertCellBroadcastSearchList
 :
 function
-_convertCellBroadcastSearchList
 (
 searchListStr
 )
@@ -19294,7 +19132,6 @@ list
 handleChromeMessage
 :
 function
-handleChromeMessage
 (
 message
 )
@@ -19383,7 +19220,6 @@ message
 enumerateCalls
 :
 function
-enumerateCalls
 (
 options
 )
@@ -19444,7 +19280,6 @@ options
 enumerateDataCalls
 :
 function
-enumerateDataCalls
 (
 )
 {
@@ -19493,7 +19328,6 @@ datacall_list
 processStkProactiveCommand
 :
 function
-processStkProactiveCommand
 (
 )
 {
@@ -19719,7 +19553,6 @@ cmdDetails
 sendChromeMessage
 :
 function
-sendChromeMessage
 (
 message
 )
@@ -19733,7 +19566,6 @@ message
 handleParcel
 :
 function
-handleParcel
 (
 request_type
 length
@@ -19790,7 +19622,6 @@ options
 setInitialOptions
 :
 function
-setInitialOptions
 (
 options
 )
@@ -27994,7 +27825,6 @@ GsmPDUHelper
 readHexNibble
 :
 function
-readHexNibble
 (
 )
 {
@@ -28097,7 +27927,6 @@ nibble
 writeHexNibble
 :
 function
-writeHexNibble
 (
 nibble
 )
@@ -28139,7 +27968,6 @@ nibble
 readHexOctet
 :
 function
-readHexOctet
 (
 )
 {
@@ -28165,7 +27993,6 @@ readHexNibble
 writeHexOctet
 :
 function
-writeHexOctet
 (
 octet
 )
@@ -28191,7 +28018,6 @@ octet
 readHexOctetArray
 :
 function
-readHexOctetArray
 (
 length
 )
@@ -28240,7 +28066,6 @@ array
 octetToBCD
 :
 function
-octetToBCD
 (
 octet
 )
@@ -28291,7 +28116,6 @@ octet
 BCDToOctet
 :
 function
-BCDToOctet
 (
 bcd
 )
@@ -28342,7 +28166,6 @@ bcdChars
 semiOctetToBcdChar
 :
 function
-semiOctetToBcdChar
 (
 semiOctet
 )
@@ -28376,7 +28199,6 @@ semiOctet
 readSwappedNibbleBcdNum
 :
 function
-readSwappedNibbleBcdNum
 (
 pairs
 )
@@ -28472,7 +28294,6 @@ number
 readSwappedNibbleBcdString
 :
 function
-readSwappedNibbleBcdString
 (
 pairs
 )
@@ -28565,7 +28386,6 @@ str
 writeSwappedNibbleBCD
 :
 function
-writeSwappedNibbleBCD
 (
 data
 )
@@ -28645,7 +28465,6 @@ i
 writeSwappedNibbleBCDNum
 :
 function
-writeSwappedNibbleBCDNum
 (
 data
 )
@@ -28726,7 +28545,6 @@ i
 readSeptetsToString
 :
 function
-readSeptetsToString
 (
 length
 paddingBits
@@ -29015,7 +28833,6 @@ ret
 writeStringAsSeptets
 :
 function
-writeStringAsSeptets
 (
 message
 paddingBits
@@ -29267,7 +29084,6 @@ data
 readUCS2String
 :
 function
-readUCS2String
 (
 numOctets
 )
@@ -29355,7 +29171,6 @@ str
 writeUCS2String
 :
 function
-writeUCS2String
 (
 message
 )
@@ -29416,7 +29231,6 @@ code
 readUserDataHeader
 :
 function
-readUserDataHeader
 (
 msg
 )
@@ -30185,7 +29999,6 @@ header
 writeUserDataHeader
 :
 function
-writeUserDataHeader
 (
 options
 )
@@ -30380,7 +30193,6 @@ langShiftIndex
 readAddress
 :
 function
-readAddress
 (
 len
 )
@@ -30580,7 +30392,6 @@ addr
 readProtocolIndicator
 :
 function
-readProtocolIndicator
 (
 msg
 )
@@ -30647,7 +30458,6 @@ PDU_PID_DEFAULT
 readDataCodingScheme
 :
 function
-readDataCodingScheme
 (
 msg
 )
@@ -31021,7 +30831,6 @@ bit
 readTimestamp
 :
 function
-readTimestamp
 (
 )
 {
@@ -31157,7 +30966,6 @@ timestamp
 writeTimestamp
 :
 function
-writeTimestamp
 (
 date
 )
@@ -31278,7 +31086,6 @@ octet
 readUserData
 :
 function
-readUserData
 (
 msg
 length
@@ -31552,7 +31359,6 @@ break
 readExtraParams
 :
 function
-readExtraParams
 (
 msg
 )
@@ -31664,7 +31470,6 @@ userDataLength
 readMessage
 :
 function
-readMessage
 (
 )
 {
@@ -31862,7 +31667,6 @@ null
 processReceivedSms
 :
 function
-processReceivedSms
 (
 length
 )
@@ -32107,7 +31911,6 @@ PDU_FCS_OK
 readDeliverMessage
 :
 function
-readDeliverMessage
 (
 msg
 )
@@ -32188,7 +31991,6 @@ msg
 readStatusReportMessage
 :
 function
-readStatusReportMessage
 (
 msg
 )
@@ -32267,7 +32069,6 @@ msg
 writeMessage
 :
 function
-writeMessage
 (
 options
 )
@@ -32697,7 +32498,6 @@ writeUint16
 readCbSerialNumber
 :
 function
-readCbSerialNumber
 (
 msg
 )
@@ -32767,7 +32567,6 @@ serial
 readCbMessageIdentifier
 :
 function
-readCbMessageIdentifier
 (
 msg
 )
@@ -32884,7 +32683,6 @@ warningType
 readCbDataCodingScheme
 :
 function
-readCbDataCodingScheme
 (
 msg
 )
@@ -33169,7 +32967,6 @@ hasLanguageIndicator
 readCbPageParameter
 :
 function
-readCbPageParameter
 (
 msg
 )
@@ -33234,7 +33031,6 @@ numPages
 readCbWarningType
 :
 function
-readCbWarningType
 (
 msg
 )
@@ -33297,7 +33093,6 @@ false
 readGsmCbData
 :
 function
-readGsmCbData
 (
 msg
 length
@@ -33310,7 +33105,6 @@ bufAdapter
 readHexOctet
 :
 function
-readHexOctet
 (
 )
 {
@@ -33476,7 +33270,6 @@ break
 readCbMessage
 :
 function
-readCbMessage
 (
 pduLength
 )
@@ -33598,7 +33391,6 @@ null
 readGsmCbMessage
 :
 function
-readGsmCbMessage
 (
 msg
 pduLength
@@ -33649,7 +33441,6 @@ msg
 readEtwsCbMessage
 :
 function
-readEtwsCbMessage
 (
 msg
 )
@@ -33682,7 +33473,6 @@ msg
 readNetworkName
 :
 function
-readNetworkName
 (
 len
 )
@@ -33835,7 +33625,6 @@ writeBuffer
 readBits
 :
 function
-readBits
 (
 length
 )
@@ -33988,7 +33777,6 @@ result
 backwardReadPilot
 :
 function
-backwardReadPilot
 (
 length
 )
@@ -34100,7 +33888,6 @@ readBits
 writeBits
 :
 function
-writeBits
 (
 value
 length
@@ -34311,7 +34098,6 @@ return
 nextOctetAlign
 :
 function
-nextOctetAlign
 (
 )
 {
@@ -34331,7 +34117,6 @@ readCacheSize
 flushWithPadding
 :
 function
-flushWithPadding
 (
 )
 {
@@ -34379,7 +34164,6 @@ writeCacheSize
 startWrite
 :
 function
-startWrite
 (
 dataBuffer
 )
@@ -34406,7 +34190,6 @@ writeCacheSize
 startRead
 :
 function
-startRead
 (
 dataBuffer
 )
@@ -34439,7 +34222,6 @@ readIndex
 getWriteBufferSize
 :
 function
-getWriteBufferSize
 (
 )
 {
@@ -34454,7 +34236,6 @@ length
 overwriteWriteBuffer
 :
 function
-overwriteWriteBuffer
 (
 position
 data
@@ -34544,7 +34325,6 @@ dtmfChars
 writeMessage
 :
 function
-cdma_writeMessage
 (
 options
 )
@@ -34793,7 +34573,6 @@ null
 writeInt
 :
 function
-writeInt
 (
 value
 )
@@ -34809,7 +34588,6 @@ value
 writeByte
 :
 function
-writeByte
 (
 value
 )
@@ -34827,7 +34605,6 @@ value
 gsmDcsToCdmaEncoding
 :
 function
-gsmDcsToCdmaEncoding
 (
 encoding
 )
@@ -34880,7 +34657,6 @@ encoding
 encodeAddr
 :
 function
-cdma_encodeAddr
 (
 address
 )
@@ -35097,7 +34873,6 @@ result
 encodeUserData
 :
 function
-cdma_encodeUserData
 (
 options
 )
@@ -35143,7 +34918,6 @@ userDataBuffer
 encodeUserDataMsgId
 :
 function
-cdma_encodeUserDataMsgId
 (
 options
 )
@@ -35219,7 +34993,6 @@ flushWithPadding
 encodeUserDataMsg
 :
 function
-cdma_encodeUserDataMsg
 (
 options
 )
@@ -35786,7 +35559,6 @@ lengthPosition
 encodeUserDataReplyOption
 :
 function
-cdma_encodeUserDataReplyOption
 (
 options
 )
@@ -35841,7 +35613,6 @@ flushWithPadding
 readMessage
 :
 function
-cdma_readMessage
 (
 )
 {
@@ -36358,7 +36129,6 @@ msg
 processReceivedSms
 :
 function
-cdma_processReceivedSms
 (
 length
 )
@@ -36443,7 +36213,6 @@ PDU_FCS_OK
 readInt
 :
 function
-readInt
 (
 )
 {
@@ -36458,7 +36227,6 @@ readInt32
 readByte
 :
 function
-readByte
 (
 )
 {
@@ -36477,7 +36245,6 @@ readInt32
 decodeAddr
 :
 function
-cdma_decodeAddr
 (
 addrInfo
 )
@@ -36561,7 +36328,6 @@ result
 decodeUserData
 :
 function
-cdma_decodeUserData
 (
 message
 )
@@ -36780,7 +36546,6 @@ userDataBuffer
 decodeUserDataMsgId
 :
 function
-cdma_decodeUserDataMsgId
 (
 )
 {
@@ -36830,7 +36595,6 @@ result
 decodeUserDataHeader
 :
 function
-cdma_decodeUserDataHeader
 (
 encoding
 )
@@ -37480,7 +37244,6 @@ header
 getCdmaMsgEncoding
 :
 function
-getCdmaMsgEncoding
 (
 encoding
 )
@@ -37537,7 +37300,6 @@ null
 decodeCdmaPDUMsg
 :
 function
-decodeCdmaPDUMsg
 (
 encoding
 msgType
@@ -38141,7 +37903,6 @@ result
 decodeUserDataMsg
 :
 function
-cdma_decodeUserDataMsg
 (
 hasUserHeader
 )
@@ -38314,7 +38075,6 @@ result
 decodeBcd
 :
 function
-cdma_decodeBcd
 (
 value
 )
@@ -38343,7 +38103,6 @@ value
 decodeUserDataTimestamp
 :
 function
-cdma_decodeUserDataTimestamp
 (
 )
 {
@@ -38485,7 +38244,6 @@ result
 decodeUserDataReplyOption
 :
 function
-cdma_decodeUserDataReplyOption
 (
 )
 {
@@ -38554,7 +38312,6 @@ result
 decodeLanguageIndicator
 :
 function
-cdma_decodeLanguageIndicator
 (
 )
 {
@@ -38583,7 +38340,6 @@ result
 decodeUserDataCallbackNumber
 :
 function
-cdma_decodeUserDataCallbackNumber
 (
 )
 {
@@ -38714,7 +38470,6 @@ result
 decodeUserDataMsgStatus
 :
 function
-cdma_decodeUserDataMsgStatus
 (
 )
 {
@@ -38747,7 +38502,6 @@ result
 decodeInformationRecord
 :
 function
-cdma_decodeInformationRecord
 (
 )
 {
@@ -39479,7 +39233,6 @@ ICCPDUHelper
 read8BitUnpackedToString
 :
 function
-read8BitUnpackedToString
 (
 numOctets
 )
@@ -39653,7 +39406,6 @@ ret
 writeStringTo8BitUnpacked
 :
 function
-writeStringTo8BitUnpacked
 (
 numOctets
 str
@@ -39828,7 +39580,6 @@ writeHexOctet
 readICCUCS2String
 :
 function
-readICCUCS2String
 (
 scheme
 numOctets
@@ -40172,7 +39923,6 @@ str
 readAlphaIdDiallingNumber
 :
 function
-readAlphaIdDiallingNumber
 (
 recordSize
 )
@@ -40262,7 +40012,6 @@ contact
 writeAlphaIdDiallingNumber
 :
 function
-writeAlphaIdDiallingNumber
 (
 recordSize
 alphaId
@@ -40330,7 +40079,6 @@ strLen
 readAlphaIdentifier
 :
 function
-readAlphaIdentifier
 (
 numOctets
 )
@@ -40421,7 +40169,6 @@ numOctets
 writeAlphaIdentifier
 :
 function
-writeAlphaIdentifier
 (
 numOctets
 alphaId
@@ -40544,7 +40291,6 @@ writeHexOctet
 readDiallingNumber
 :
 function
-readDiallingNumber
 (
 len
 )
@@ -40666,7 +40412,6 @@ number
 writeDiallingNumber
 :
 function
-writeDiallingNumber
 (
 number
 )
@@ -40723,7 +40468,6 @@ number
 readNumberWithLength
 :
 function
-readNumberWithLength
 (
 )
 {
@@ -40820,7 +40564,6 @@ number
 writeNumberWithLength
 :
 function
-writeNumberWithLength
 (
 number
 )
@@ -40978,7 +40721,6 @@ StkCommandParamsFactory
 createParam
 :
 function
-createParam
 (
 cmdDetails
 ctlvs
@@ -41047,7 +40789,6 @@ ctlvs
 processRefresh
 :
 function
-processRefresh
 (
 cmdDetails
 ctlvs
@@ -41130,7 +40871,6 @@ null
 processPollInterval
 :
 function
-processPollInterval
 (
 cmdDetails
 ctlvs
@@ -41194,7 +40934,6 @@ value
 processPollOff
 :
 function
-processPollOff
 (
 cmdDetails
 ctlvs
@@ -41207,7 +40946,6 @@ null
 processSetUpEventList
 :
 function
-processSetUpEventList
 (
 cmdDetails
 ctlvs
@@ -41279,7 +41017,6 @@ null
 processSelectItem
 :
 function
-processSelectItem
 (
 cmdDetails
 ctlvs
@@ -41503,7 +41240,6 @@ menu
 processDisplayText
 :
 function
-processDisplayText
 (
 cmdDetails
 ctlvs
@@ -41660,7 +41396,6 @@ textMsg
 processSetUpIdleModeText
 :
 function
-processSetUpIdleModeText
 (
 cmdDetails
 ctlvs
@@ -41741,7 +41476,6 @@ textMsg
 processGetInkey
 :
 function
-processGetInkey
 (
 cmdDetails
 ctlvs
@@ -41920,7 +41654,6 @@ input
 processGetInput
 :
 function
-processGetInput
 (
 cmdDetails
 ctlvs
@@ -42141,7 +41874,6 @@ input
 processEventNotify
 :
 function
-processEventNotify
 (
 cmdDetails
 ctlvs
@@ -42220,7 +41952,6 @@ textMsg
 processSetupCall
 :
 function
-processSetupCall
 (
 cmdDetails
 ctlvs
@@ -42383,7 +42114,6 @@ call
 processLaunchBrowser
 :
 function
-processLaunchBrowser
 (
 cmdDetails
 ctlvs
@@ -42497,7 +42227,6 @@ browser
 processPlayTone
 :
 function
-processPlayTone
 (
 cmdDetails
 ctlvs
@@ -42609,7 +42338,6 @@ playTone
 processProvideLocalInfo
 :
 function
-processProvideLocalInfo
 (
 cmdDetails
 ctlvs
@@ -42633,7 +42361,6 @@ provideLocalInfo
 processTimerManagement
 :
 function
-processTimerManagement
 (
 cmdDetails
 ctlvs
@@ -42710,7 +42437,6 @@ timer
 processBipMessage
 :
 function
-processBipMessage
 (
 cmdDetails
 ctlvs
@@ -43291,7 +43017,6 @@ StkProactiveCmdHelper
 retrieve
 :
 function
-retrieve
 (
 tag
 length
@@ -43366,7 +43091,6 @@ length
 retrieveCommandDetails
 :
 function
-retrieveCommandDetails
 (
 length
 )
@@ -43405,7 +43129,6 @@ cmdDetails
 retrieveDeviceId
 :
 function
-retrieveDeviceId
 (
 length
 )
@@ -43437,7 +43160,6 @@ deviceId
 retrieveAlphaId
 :
 function
-retrieveAlphaId
 (
 length
 )
@@ -43463,7 +43185,6 @@ alphaId
 retrieveDuration
 :
 function
-retrieveDuration
 (
 length
 )
@@ -43495,7 +43216,6 @@ duration
 retrieveAddress
 :
 function
-retrieveAddress
 (
 length
 )
@@ -43521,7 +43241,6 @@ address
 retrieveTextString
 :
 function
-retrieveTextString
 (
 length
 )
@@ -43629,7 +43348,6 @@ text
 retrieveTone
 :
 function
-retrieveTone
 (
 length
 )
@@ -43654,7 +43372,6 @@ tone
 retrieveItem
 :
 function
-retrieveItem
 (
 length
 )
@@ -43699,7 +43416,6 @@ item
 retrieveItemId
 :
 function
-retrieveItemId
 (
 length
 )
@@ -43724,7 +43440,6 @@ itemId
 retrieveResponseLength
 :
 function
-retrieveResponseLength
 (
 length
 )
@@ -43756,7 +43471,6 @@ rspLength
 retrieveFileList
 :
 function
-retrieveFileList
 (
 length
 )
@@ -43824,7 +43538,6 @@ fileList
 retrieveDefaultText
 :
 function
-retrieveDefaultText
 (
 length
 )
@@ -43841,7 +43554,6 @@ length
 retrieveEventList
 :
 function
-retrieveEventList
 (
 length
 )
@@ -43901,7 +43613,6 @@ eventList
 retrieveTimerId
 :
 function
-retrieveTimerId
 (
 length
 )
@@ -43926,7 +43637,6 @@ id
 retrieveTimerValue
 :
 function
-retrieveTimerValue
 (
 length
 )
@@ -43978,7 +43688,6 @@ value
 retrieveImmediaResponse
 :
 function
-retrieveImmediaResponse
 (
 length
 )
@@ -43991,7 +43700,6 @@ return
 retrieveUrl
 :
 function
-retrieveUrl
 (
 length
 )
@@ -44044,7 +43752,6 @@ s
 retrieveNextActionList
 :
 function
-retrieveNextActionList
 (
 length
 )
@@ -44090,7 +43797,6 @@ nextActionList
 searchForTag
 :
 function
-searchForTag
 (
 tag
 ctlvs
@@ -44117,7 +43823,6 @@ iter
 searchForNextTag
 :
 function
-searchForNextTag
 (
 tag
 iter
@@ -44545,7 +44250,6 @@ ComprehensionTlvHelper
 decode
 :
 function
-decode
 (
 )
 {
@@ -44933,7 +44637,6 @@ ctlv
 decodeChunks
 :
 function
-decodeChunks
 (
 length
 )
@@ -44994,7 +44697,6 @@ chunks
 writeLocationInfoTlv
 :
 function
-writeLocationInfoTlv
 (
 loc
 )
@@ -45219,7 +44921,6 @@ gsmCellId
 writeCauseTlv
 :
 function
-writeCauseTlv
 (
 geckoError
 )
@@ -45307,7 +45008,6 @@ cause
 writeDateTimeZoneTlv
 :
 function
-writeDataTimeZoneTlv
 (
 date
 )
@@ -45337,7 +45037,6 @@ date
 writeLanguageTlv
 :
 function
-writeLanguageTlv
 (
 language
 )
@@ -45396,7 +45095,6 @@ language
 writeTimerValueTlv
 :
 function
-writeTimerValueTlv
 (
 seconds
 cr
@@ -45469,7 +45167,6 @@ seconds
 getSizeOfLengthOctets
 :
 function
-getSizeOfLengthOctets
 (
 length
 )
@@ -45522,7 +45219,6 @@ return
 writeLength
 :
 function
-writeLength
 (
 length
 )
@@ -45702,7 +45398,6 @@ BerTlvHelper
 decode
 :
 function
-decode
 (
 dataLen
 )
@@ -45905,7 +45600,6 @@ value
 processFcpTemplate
 :
 function
-processFcpTemplate
 (
 length
 )
@@ -45927,7 +45621,6 @@ tlvs
 processProactiveCommand
 :
 function
-processProactiveCommand
 (
 length
 )
@@ -45949,7 +45642,6 @@ ctlvs
 decodeInnerTlv
 :
 function
-decodeInnerTlv
 (
 )
 {
@@ -45994,7 +45686,6 @@ length
 decodeChunks
 :
 function
-decodeChunks
 (
 length
 )
@@ -46061,7 +45752,6 @@ chunks
 retrieve
 :
 function
-retrieve
 (
 tag
 length
@@ -46138,7 +45828,6 @@ length
 retrieveFileSizeData
 :
 function
-retrieveFileSizeData
 (
 length
 )
@@ -46192,7 +45881,6 @@ fileSizeData
 retrieveFileDescriptor
 :
 function
-retrieveFileDescriptor
 (
 length
 )
@@ -46292,7 +45980,6 @@ fileDescriptor
 retrieveFileIdentifier
 :
 function
-retrieveFileIdentifier
 (
 length
 )
@@ -46323,7 +46010,6 @@ readHexOctet
 searchForNextTag
 :
 function
-searchForNextTag
 (
 tag
 iter
@@ -46474,7 +46160,6 @@ ICCFileHelper
 getCommonEFPath
 :
 function
-getCommonEFPath
 (
 fileId
 )
@@ -46516,7 +46201,6 @@ null
 getSimEFPath
 :
 function
-getSimEFPath
 (
 fileId
 )
@@ -46594,7 +46278,6 @@ null
 getUSimEFPath
 :
 function
-getUSimEFPath
 (
 fileId
 )
@@ -46665,7 +46348,6 @@ EF_PATH_DF_PHONEBOOK
 getRuimEFPath
 :
 function
-getRuimEFPath
 (
 fileId
 )
@@ -46710,7 +46392,6 @@ null
 getEFPath
 :
 function
-getEFPath
 (
 fileId
 )
@@ -46804,7 +46485,6 @@ ICCIOHelper
 loadLinearFixedEF
 :
 function
-loadLinearFixedEF
 (
 options
 )
@@ -46930,7 +46610,6 @@ options
 loadNextRecord
 :
 function
-loadNextRecord
 (
 options
 )
@@ -46952,7 +46631,6 @@ options
 updateLinearFixedEF
 :
 function
-updateLinearFixedEF
 (
 options
 )
@@ -47090,7 +46768,6 @@ options
 loadTransparentEF
 :
 function
-loadTransparentEF
 (
 options
 )
@@ -47163,7 +46840,6 @@ options
 getResponse
 :
 function
-getResponse
 (
 options
 )
@@ -47250,7 +46926,6 @@ options
 processICCIO
 :
 function
-processICCIO
 (
 options
 )
@@ -47277,7 +46952,6 @@ options
 processICCIOGetResponse
 :
 function
-processICCIOGetResponse
 (
 options
 )
@@ -47368,7 +47042,6 @@ options
 processUSimGetResponse
 :
 function
-processUSimGetResponse
 (
 options
 octetLen
@@ -47617,7 +47290,6 @@ fileSizeData
 processSimGetResponse
 :
 function
-processSimGetResponse
 (
 options
 )
@@ -47864,7 +47536,6 @@ PDU_HEX_OCTET_SIZE
 processICCIOReadRecord
 :
 function
-processICCIOReadRecord
 (
 options
 )
@@ -47888,7 +47559,6 @@ options
 processICCIOReadBinary
 :
 function
-processICCIOReadBinary
 (
 options
 )
@@ -47912,7 +47582,6 @@ options
 processICCIOUpdateRecord
 :
 function
-processICCIOUpdateRecord
 (
 options
 )
@@ -47936,7 +47605,6 @@ options
 processICCIOError
 :
 function
-processICCIOError
 (
 options
 )
@@ -48160,7 +47828,6 @@ ICCRecordHelper
 fetchICCRecords
 :
 function
-fetchICCRecords
 (
 )
 {
@@ -48201,7 +47868,6 @@ break
 readICCID
 :
 function
-readICCID
 (
 )
 {
@@ -48310,7 +47976,6 @@ this
 readADNLike
 :
 function
-readADNLike
 (
 fileId
 onsuccess
@@ -48471,7 +48136,6 @@ onerror
 updateADNLike
 :
 function
-updateADNLike
 (
 fileId
 contact
@@ -48587,7 +48251,6 @@ onerror
 readPBR
 :
 function
-readPBR
 (
 onsuccess
 onerror
@@ -48875,7 +48538,6 @@ null
 readIAP
 :
 function
-readIAP
 (
 fileId
 recordNumber
@@ -48976,7 +48638,6 @@ onerror
 updateIAP
 :
 function
-updateIAP
 (
 fileId
 recordNumber
@@ -49081,7 +48742,6 @@ null
 readEmail
 :
 function
-readEmail
 (
 fileId
 fileType
@@ -49221,7 +48881,6 @@ onerror
 updateEmail
 :
 function
-updateEmail
 (
 pbr
 recordNumber
@@ -49369,7 +49028,6 @@ null
 readANR
 :
 function
-readANR
 (
 fileId
 fileType
@@ -49509,7 +49167,6 @@ onerror
 updateANR
 :
 function
-updateANR
 (
 pbr
 recordNumber
@@ -49661,7 +49318,6 @@ onerror
 findFreeRecordId
 :
 function
-findFreeRecordId
 (
 fileId
 onsuccess
@@ -49847,7 +49503,6 @@ SimRecordHelper
 fetchSimRecords
 :
 function
-fetchSimRecords
 (
 )
 {
@@ -49873,7 +49528,6 @@ readSST
 readSimPhase
 :
 function
-readSimPhase
 (
 )
 {
@@ -49950,7 +49604,6 @@ this
 readMSISDN
 :
 function
-readMSISDN
 (
 )
 {
@@ -50065,7 +49718,6 @@ this
 readAD
 :
 function
-readAD
 (
 )
 {
@@ -50236,7 +49888,6 @@ this
 readSPN
 :
 function
-readSPN
 (
 )
 {
@@ -50366,7 +50017,6 @@ this
 readSST
 :
 function
-readSST
 (
 )
 {
@@ -50963,7 +50613,6 @@ this
 readMBDN
 :
 function
-readMBDN
 (
 )
 {
@@ -51097,7 +50746,6 @@ this
 readMWIS
 :
 function
-readMWIS
 (
 )
 {
@@ -51258,7 +50906,6 @@ callback
 updateMWIS
 :
 function
-updateMWIS
 (
 mwi
 )
@@ -51423,7 +51070,6 @@ dataWriter
 readSPDI
 :
 function
-readSPDI
 (
 )
 {
@@ -51636,7 +51282,6 @@ this
 _readCbmiHelper
 :
 function
-_readCbmiHelper
 (
 which
 )
@@ -51845,7 +51490,6 @@ this
 readCBMI
 :
 function
-readCBMI
 (
 )
 {
@@ -51862,7 +51506,6 @@ CBMI
 readCBMID
 :
 function
-readCBMID
 (
 )
 {
@@ -51879,7 +51522,6 @@ CBMID
 readCBMIR
 :
 function
-readCBMIR
 (
 )
 {
@@ -52100,7 +51742,6 @@ this
 readOPL
 :
 function
-readOPL
 (
 )
 {
@@ -52523,7 +52164,6 @@ this
 readPNN
 :
 function
-readPNN
 (
 )
 {
@@ -52817,7 +52457,6 @@ this
 readPLMNEntries
 :
 function
-readPLMNEntries
 (
 length
 )
@@ -53195,7 +52834,6 @@ plmnList
 readSMS
 :
 function
-readSMS
 (
 recordNumber
 onsuccess
@@ -53323,7 +52961,6 @@ RuimRecordHelper
 fetchRuimRecords
 :
 function
-fetchRuimRecords
 (
 )
 {
@@ -53355,7 +52992,6 @@ getCdmaSubscription
 getIMSI_M
 :
 function
-getIMSI_M
 (
 )
 {
@@ -53508,7 +53144,6 @@ this
 decodeIMSI
 :
 function
-decodeIMSI
 (
 encodedImsi
 )
@@ -53752,7 +53387,6 @@ min1Last3
 decodeIMSIValue
 :
 function
-decodeIMSIValue
 (
 encoded
 length
@@ -53869,7 +53503,6 @@ s
 readCDMAHome
 :
 function
-readCDMAHome
 (
 )
 {
@@ -54074,7 +53707,6 @@ this
 readCST
 :
 function
-readCST
 (
 )
 {
@@ -54232,7 +53864,6 @@ this
 readSPN
 :
 function
-readSPN
 (
 )
 {
@@ -54508,7 +54139,6 @@ ICCUtilsHelper
 getNetworkNameFromICC
 :
 function
-getNetworkNameFromICC
 (
 mcc
 mnc
@@ -54771,7 +54401,6 @@ shortName
 updateDisplayCondition
 :
 function
-updateDisplayCondition
 (
 )
 {
@@ -55332,7 +54961,6 @@ isDisplaySpnRequired
 decodeSimTlvs
 :
 function
-decodeSimTlvs
 (
 tlvsLen
 )
@@ -55412,7 +55040,6 @@ tlvs
 parsePbrTlvs
 :
 function
-parsePbrTlvs
 (
 pbrTlvs
 )
@@ -55601,7 +55228,6 @@ pbr
 handleICCInfoChange
 :
 function
-handleICCInfoChange
 (
 )
 {
@@ -55628,7 +55254,6 @@ iccInfo
 isICCServiceAvailable
 :
 function
-isICCServiceAvailable
 (
 geckoService
 )
@@ -55854,7 +55479,6 @@ bitmask
 isGsm8BitAlphabet
 :
 function
-isGsm8BitAlphabet
 (
 str
 )
@@ -55963,7 +55587,6 @@ true
 parseMccMncFromImsi
 :
 function
-parseMccMncFromImsi
 (
 imsi
 mncLength
@@ -56081,7 +55704,6 @@ ICCContactHelper
 hasDfPhoneBook
 :
 function
-hasDfPhoneBook
 (
 appType
 )
@@ -56126,7 +55748,6 @@ false
 readICCContacts
 :
 function
-readICCContacts
 (
 appType
 contactType
@@ -56225,7 +55846,6 @@ break
 findFreeICCContact
 :
 function
-findFreeICCContact
 (
 appType
 contactType
@@ -56361,7 +55981,6 @@ break
 findUSimFreeADNRecordId
 :
 function
-findUSimFreeADNRecordId
 (
 pbrs
 onsuccess
@@ -56449,7 +56068,6 @@ pbrIndex
 addICCContact
 :
 function
-addICCContact
 (
 appType
 contactType
@@ -56509,7 +56127,6 @@ onerror
 updateICCContact
 :
 function
-updateICCContact
 (
 appType
 contactType
@@ -56629,7 +56246,6 @@ break
 readUSimContacts
 :
 function
-readUSimContacts
 (
 onsuccess
 onerror
@@ -56672,7 +56288,6 @@ onerror
 readAllPhonebookSets
 :
 function
-readAllPhonebookSets
 (
 pbrs
 onsuccess
@@ -56812,7 +56427,6 @@ onerror
 readPhonebookSet
 :
 function
-readPhonebookSet
 (
 pbr
 onsuccess
@@ -56862,7 +56476,6 @@ onerror
 readSupportedPBRFields
 :
 function
-readSupportedPBRFields
 (
 pbr
 contacts
@@ -56934,7 +56547,6 @@ onerror
 readPhonebookField
 :
 function
-readPhonebookField
 (
 pbr
 contacts
@@ -57029,7 +56641,6 @@ onerror
 readContactField
 :
 function
-readContactField
 (
 pbr
 contact
@@ -57269,7 +56880,6 @@ onerror
 getContactFieldRecordId
 :
 function
-getContactFieldRecordId
 (
 pbr
 contact
@@ -57416,7 +57026,6 @@ CONTACT_ERR_REQUEST_NOT_SUPPORTED
 updateUSimContact
 :
 function
-updateUSimContact
 (
 contact
 onsuccess
@@ -57496,7 +57105,6 @@ onerror
 updatePhonebookSet
 :
 function
-updatePhonebookSet
 (
 pbr
 contact
@@ -57547,7 +57155,6 @@ onerror
 updateSupportedPBRFields
 :
 function
-updateSupportedPBRFields
 (
 pbr
 contact
@@ -57689,7 +57296,6 @@ onerror
 updateContactField
 :
 function
-updateContactField
 (
 pbr
 contact
@@ -57786,7 +57392,6 @@ CONTACT_ERR_REQUEST_NOT_SUPPORTED
 updateContactFieldType1
 :
 function
-updateContactFieldType1
 (
 pbr
 contact
@@ -57880,7 +57485,6 @@ CONTACT_ERR_FIELD_NOT_SUPPORTED
 updateContactFieldType2
 :
 function
-updateContactFieldType2
 (
 pbr
 contact
@@ -58042,7 +57646,6 @@ onerror
 addContactFieldType2
 :
 function
-addContactFieldType2
 (
 pbr
 contact
@@ -58209,7 +57812,6 @@ errorCb
 updateContactFieldIndexInIAP
 :
 function
-updateContactFieldIndexInIAP
 (
 pbr
 recordNumber

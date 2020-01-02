@@ -130,7 +130,6 @@ return
 property_get
 :
 function
-fake_property_get
 (
 key
 defaultValue
@@ -165,7 +164,6 @@ defaultValue
 property_set
 :
 function
-fake_property_set
 (
 key
 value
@@ -262,7 +260,6 @@ return
 property_get
 :
 function
-property_get
 (
 key
 defaultValue
@@ -300,7 +297,6 @@ readString
 property_set
 :
 function
-property_set
 (
 key
 value
@@ -420,7 +416,6 @@ library
 declare
 :
 function
-fake_declare
 (
 )
 {
@@ -1992,7 +1987,6 @@ netHelpers
 swap32
 :
 function
-swap32
 (
 n
 )
@@ -2066,7 +2060,6 @@ n
 ntohl
 :
 function
-ntohl
 (
 n
 )
@@ -2083,7 +2076,6 @@ n
 htonl
 :
 function
-htonl
 (
 n
 )
@@ -2100,7 +2092,6 @@ n
 ipToString
 :
 function
-ipToString
 (
 ip
 )
@@ -2166,7 +2157,6 @@ ip
 stringToIP
 :
 function
-stringToIP
 (
 string
 )
@@ -2290,7 +2280,6 @@ ip
 makeMask
 :
 function
-makeMask
 (
 len
 )
@@ -2339,7 +2328,6 @@ mask
 getMaskLength
 :
 function
-getMaskLength
 (
 mask
 )

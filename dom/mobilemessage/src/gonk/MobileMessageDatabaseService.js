@@ -213,7 +213,6 @@ null
 observe
 :
 function
-observe
 (
 )
 {

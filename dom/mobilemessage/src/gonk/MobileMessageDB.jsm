@@ -482,7 +482,6 @@ lastMessageId
 ensureDB
 :
 function
-ensureDB
 (
 callback
 )
@@ -1576,7 +1575,6 @@ null
 newTxn
 :
 function
-newTxn
 (
 txn_type
 callback
@@ -1850,7 +1848,6 @@ stores
 init
 :
 function
-init
 (
 aDbName
 aDbVersion
@@ -2076,7 +2073,6 @@ errorCode
 close
 :
 function
-close
 (
 )
 {
@@ -2115,7 +2111,6 @@ lastMessageId
 updatePendingTransactionToError
 :
 function
-updatePendingTransactionToError
 (
 aError
 )
@@ -2450,7 +2445,6 @@ continue
 createSchema
 :
 function
-createSchema
 (
 db
 next
@@ -2513,7 +2507,6 @@ next
 upgradeSchema
 :
 function
-upgradeSchema
 (
 transaction
 next
@@ -2554,7 +2547,6 @@ next
 upgradeSchema2
 :
 function
-upgradeSchema2
 (
 transaction
 next
@@ -2643,7 +2635,6 @@ continue
 upgradeSchema3
 :
 function
-upgradeSchema3
 (
 db
 transaction
@@ -2721,7 +2712,6 @@ next
 upgradeSchema4
 :
 function
-upgradeSchema4
 (
 transaction
 next
@@ -2943,7 +2933,6 @@ continue
 upgradeSchema5
 :
 function
-upgradeSchema5
 (
 transaction
 next
@@ -2957,7 +2946,6 @@ next
 upgradeSchema6
 :
 function
-upgradeSchema6
 (
 transaction
 next
@@ -3219,7 +3207,6 @@ continue
 upgradeSchema7
 :
 function
-upgradeSchema7
 (
 db
 transaction
@@ -3742,7 +3729,6 @@ continue
 upgradeSchema8
 :
 function
-upgradeSchema8
 (
 transaction
 next
@@ -3910,7 +3896,6 @@ continue
 upgradeSchema9
 :
 function
-upgradeSchema9
 (
 transaction
 next
@@ -4006,7 +3991,6 @@ continue
 upgradeSchema10
 :
 function
-upgradeSchema10
 (
 transaction
 next
@@ -4259,7 +4243,6 @@ continue
 upgradeSchema11
 :
 function
-upgradeSchema11
 (
 transaction
 next
@@ -4413,7 +4396,6 @@ continue
 upgradeSchema12
 :
 function
-upgradeSchema12
 (
 transaction
 next
@@ -4617,7 +4599,6 @@ continue
 upgradeSchema13
 :
 function
-upgradeSchema13
 (
 transaction
 next
@@ -5541,7 +5522,6 @@ continue
 upgradeSchema14
 :
 function
-upgradeSchema14
 (
 transaction
 next
@@ -5686,7 +5666,6 @@ continue
 upgradeSchema15
 :
 function
-upgradeSchema15
 (
 transaction
 next
@@ -5769,7 +5748,6 @@ continue
 upgradeSchema16
 :
 function
-upgradeSchema16
 (
 transaction
 next
@@ -5865,7 +5843,6 @@ continue
 upgradeSchema17
 :
 function
-upgradeSchema17
 (
 transaction
 next
@@ -6044,7 +6021,6 @@ continue
 upgradeSchema18
 :
 function
-upgradeSchema18
 (
 transaction
 next
@@ -6142,7 +6118,6 @@ continue
 upgradeSchema19
 :
 function
-upgradeSchema19
 (
 transaction
 next
@@ -6399,7 +6374,6 @@ continue
 upgradeSchema20
 :
 function
-upgradeSchema20
 (
 transaction
 next
@@ -6522,7 +6496,6 @@ continue
 matchParsedPhoneNumbers
 :
 function
-matchParsedPhoneNumbers
 (
 addr1
 parsedAddr1
@@ -6676,7 +6649,6 @@ val
 matchPhoneNumbers
 :
 function
-matchPhoneNumbers
 (
 addr1
 parsedAddr1
@@ -6784,7 +6756,6 @@ false
 createDomMessageFromRecord
 :
 function
-createDomMessageFromRecord
 (
 aMessageRecord
 )
@@ -7226,7 +7197,6 @@ readReportRequested
 findParticipantRecordByAddress
 :
 function
-findParticipantRecordByAddress
 (
 aParticipantStore
 aAddress
@@ -7724,7 +7694,6 @@ this
 findParticipantIdsByAddresses
 :
 function
-findParticipantIdsByAddresses
 (
 aParticipantStore
 aAddresses
@@ -7964,7 +7933,6 @@ result
 findThreadRecordByParticipants
 :
 function
-findThreadRecordByParticipants
 (
 aThreadStore
 aParticipantStore
@@ -8117,7 +8085,6 @@ participantIds
 newTxnWithCallback
 :
 function
-newTxnWithCallback
 (
 aCallback
 aFunc
@@ -8258,7 +8225,6 @@ aStoreNames
 saveRecord
 :
 function
-saveRecord
 (
 aMessageRecord
 aAddresses
@@ -8467,7 +8433,6 @@ THREAD_STORE_NAME
 replaceShortMessageOnSave
 :
 function
-replaceShortMessageOnSave
 (
 aTransaction
 aMessageStore
@@ -8758,7 +8723,6 @@ aAddresses
 realSaveRecord
 :
 function
-realSaveRecord
 (
 aTransaction
 aMessageStore
@@ -9201,7 +9165,6 @@ threadId
 forEachMatchedMmsDeliveryInfo
 :
 function
-forEachMatchedMmsDeliveryInfo
 (
 aDeliveryInfo
 aNeedle
@@ -9395,7 +9358,6 @@ element
 updateMessageDeliveryById
 :
 function
-updateMessageDeliveryById
 (
 id
 type
@@ -9867,7 +9829,6 @@ messageRecord
 fillReceivedMmsThreadParticipants
 :
 function
-fillReceivedMmsThreadParticipants
 (
 aMessage
 threadParticipants
@@ -9994,7 +9955,6 @@ slicedReceivers
 updateThreadByMessageChange
 :
 function
-updateThreadByMessageChange
 (
 messageStore
 threadStore
@@ -10326,7 +10286,6 @@ threadRecord
 saveReceivedMessage
 :
 function
-saveReceivedMessage
 (
 aMessage
 aCallback
@@ -10716,7 +10675,6 @@ aCallback
 saveSendingMessage
 :
 function
-saveSendingMessage
 (
 aMessage
 aCallback
@@ -11131,7 +11089,6 @@ aCallback
 setMessageDeliveryByMessageId
 :
 function
-setMessageDeliveryByMessageId
 (
 messageId
 receiver
@@ -11160,7 +11117,6 @@ callback
 setMessageDeliveryStatusByEnvelopeId
 :
 function
-setMessageDeliveryStatusByEnvelopeId
 (
 aEnvelopeId
 aReceiver
@@ -11187,7 +11143,6 @@ aCallback
 setMessageReadStatusByEnvelopeId
 :
 function
-setMessageReadStatusByEnvelopeId
 (
 aEnvelopeId
 aReceiver
@@ -11462,7 +11417,6 @@ messageRecord
 getMessageRecordByTransactionId
 :
 function
-getMessageRecordByTransactionId
 (
 aTransactionId
 aCallback
@@ -11701,7 +11655,6 @@ null
 getMessageRecordById
 :
 function
-getMessageRecordById
 (
 aMessageId
 aCallback
@@ -12047,7 +12000,6 @@ null
 getMessage
 :
 function
-getMessage
 (
 aMessageId
 aRequest
@@ -12076,7 +12028,6 @@ notifyCallback
 notify
 :
 function
-notify
 (
 aRv
 aMessageRecord
@@ -12128,7 +12079,6 @@ notifyCallback
 deleteMessage
 :
 function
-deleteMessage
 (
 messageIds
 length
@@ -12519,7 +12469,6 @@ THREAD_STORE_NAME
 createMessageCursor
 :
 function
-createMessageCursor
 (
 filter
 reverse
@@ -12678,7 +12627,6 @@ cursor
 markMessageRead
 :
 function
-markMessageRead
 (
 messageId
 value
@@ -13285,7 +13233,6 @@ THREAD_STORE_NAME
 createThreadCursor
 :
 function
-createThreadCursor
 (
 callback
 )
@@ -13494,7 +13441,6 @@ FilterSearcherHelper
 filterIndex
 :
 function
-filterIndex
 (
 index
 range
@@ -13652,7 +13598,6 @@ COLLECT_TIMESTAMP_UNUSED
 filterTimestamp
 :
 function
-filterTimestamp
 (
 startDate
 endDate
@@ -13762,7 +13707,6 @@ collect
 transact
 :
 function
-transact
 (
 mmdb
 txn
@@ -14527,7 +14471,6 @@ null
 collect
 :
 function
-collect
 (
 txn
 id
@@ -14658,7 +14601,6 @@ done
 squeeze
 :
 function
-squeeze
 (
 callback
 )
@@ -14714,7 +14656,6 @@ callback
 drip
 :
 function
-drip
 (
 txn
 callback
@@ -14854,7 +14795,6 @@ null
 collect
 :
 function
-collect
 (
 contextIndex
 txn
@@ -15251,7 +15191,6 @@ timestamp
 newContext
 :
 function
-newContext
 (
 )
 {
@@ -15347,7 +15286,6 @@ null
 collect
 :
 function
-collect
 (
 contextIndex
 txn
@@ -15583,7 +15521,6 @@ false
 newTimestampContext
 :
 function
-newTimestampContext
 (
 )
 {
@@ -15602,7 +15539,6 @@ this
 newContext
 :
 function
-newContext
 (
 )
 {
@@ -15698,7 +15634,6 @@ null
 getMessageTxn
 :
 function
-getMessageTxn
 (
 messageStore
 messageId
@@ -15835,7 +15770,6 @@ INTERNAL_ERROR
 notify
 :
 function
-notify
 (
 txn
 messageId
@@ -15965,7 +15899,6 @@ MESSAGE_STORE_NAME
 handleContinue
 :
 function
-handleContinue
 (
 )
 {
@@ -16070,7 +16003,6 @@ null
 getThreadTxn
 :
 function
-getThreadTxn
 (
 threadStore
 threadId
@@ -16237,7 +16169,6 @@ INTERNAL_ERROR
 notify
 :
 function
-notify
 (
 txn
 threadId
@@ -16367,7 +16298,6 @@ THREAD_STORE_NAME
 handleContinue
 :
 function
-handleContinue
 (
 )
 {

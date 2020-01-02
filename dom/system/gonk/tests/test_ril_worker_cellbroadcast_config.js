@@ -44,7 +44,6 @@ newWorker
 postRILMessage
 :
 function
-fakePostRILMessage
 (
 id
 parcel
@@ -54,7 +53,6 @@ parcel
 postMessage
 :
 function
-fakePostMessage
 (
 message
 )
@@ -234,7 +232,6 @@ newWorker
 postRILMessage
 :
 function
-fakePostRILMessage
 (
 id
 parcel
@@ -248,7 +245,6 @@ parcel
 postMessage
 :
 function
-fakePostMessage
 (
 message
 )
@@ -548,7 +544,6 @@ newWorker
 postRILMessage
 :
 function
-fakePostRILMessage
 (
 id
 parcel
@@ -558,7 +553,6 @@ parcel
 postMessage
 :
 function
-fakePostMessage
 (
 message
 )

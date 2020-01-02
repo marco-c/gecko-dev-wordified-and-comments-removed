@@ -992,7 +992,6 @@ mmsPort
 setApnSetting
 :
 function
-setApnSetting
 (
 network
 )
@@ -1211,7 +1210,6 @@ nsITimer
 flushPendingCallbacks
 :
 function
-flushPendingCallbacks
 (
 status
 )
@@ -1285,7 +1283,6 @@ status
 onDisconnectTimerTimeout
 :
 function
-onDisconnectTimerTimeout
 (
 )
 {
@@ -1330,7 +1327,6 @@ mms
 init
 :
 function
-init
 (
 )
 {
@@ -1553,7 +1549,6 @@ rilNetwork
 isVoiceRoaming
 :
 function
-isVoiceRoaming
 (
 )
 {
@@ -1591,7 +1586,6 @@ isRoaming
 getPhoneNumber
 :
 function
-getPhoneNumber
 (
 )
 {
@@ -1664,7 +1658,6 @@ number
 getIccId
 :
 function
-getIccId
 (
 )
 {
@@ -1735,7 +1728,6 @@ iccId
 acquire
 :
 function
-acquire
 (
 callback
 )
@@ -1949,7 +1941,6 @@ true
 release
 :
 function
-release
 (
 )
 {
@@ -2018,7 +2009,6 @@ TYPE_ONE_SHOT
 shutdown
 :
 function
-shutdown
 (
 )
 {
@@ -2075,7 +2065,6 @@ onDisconnectTimerTimeout
 observe
 :
 function
-observe
 (
 subject
 topic
@@ -2461,7 +2450,6 @@ nsIProtocolProxyFilter
 applyFilter
 :
 function
-applyFilter
 (
 proxyService
 uri
@@ -2610,7 +2598,6 @@ helper
 sendRequest
 :
 function
-sendRequest
 (
 mmsConnection
 method
@@ -2635,7 +2622,6 @@ false
 cancel
 :
 function
-cancel
 (
 )
 {
@@ -2692,7 +2678,6 @@ abort
 done
 :
 function
-done
 (
 httpStatus
 data
@@ -2898,7 +2883,6 @@ cancellable
 sendHttpRequest
 :
 function
-sendHttpRequest
 (
 mmsConnection
 method
@@ -3336,7 +3320,6 @@ null
 countRecipients
 :
 function
-countRecipients
 (
 recipients
 )
@@ -3503,7 +3486,6 @@ totalRecipients
 checkMaxValuesParameters
 :
 function
-checkMaxValuesParameters
 (
 msg
 )
@@ -3767,7 +3749,6 @@ true
 translateHttpStatusToMmsStatus
 :
 function
-translateHttpStatusToMmsStatus
 (
 httpStatus
 cancelledReason
@@ -3945,7 +3926,6 @@ prototype
 run
 :
 function
-run
 (
 callback
 )
@@ -4045,7 +4025,6 @@ _MMS_ERROR_USER_CANCELLED_NO_REASON
 registerRunCallback
 :
 function
-registerRunCallback
 (
 callback
 )
@@ -4114,7 +4093,6 @@ false
 removeObservers
 :
 function
-removeObservers
 (
 )
 {
@@ -4166,7 +4144,6 @@ false
 runCallbackIfValid
 :
 function
-runCallbackIfValid
 (
 mmsStatus
 msg
@@ -4207,7 +4184,6 @@ null
 cancelRunning
 :
 function
-cancelRunning
 (
 reason
 )
@@ -4282,7 +4258,6 @@ null
 observe
 :
 function
-observe
 (
 subject
 topic
@@ -4470,7 +4445,6 @@ run
 value
 :
 function
-run
 (
 callback
 )
@@ -4652,7 +4626,6 @@ retrieve
 value
 :
 function
-retrieve
 (
 callback
 )
@@ -5395,7 +5368,6 @@ loadBlobs
 value
 :
 function
-loadBlobs
 (
 parts
 callback
@@ -5622,7 +5594,6 @@ run
 value
 :
 function
-run
 (
 callback
 )
@@ -5962,7 +5933,6 @@ send
 value
 :
 function
-send
 (
 callback
 )
@@ -6248,7 +6218,6 @@ prototype
 run
 :
 function
-run
 (
 callback
 )
@@ -6639,7 +6608,6 @@ CONFIG_SEND_REPORT_DEFAULT_YES
 getReportAllowed
 :
 function
-getReportAllowed
 (
 config
 wish
@@ -6695,7 +6663,6 @@ CONFIG_SEND_REPORT_DEFAULT_YES
 convertIntermediateToSavable
 :
 function
-convertIntermediateToSavable
 (
 mmsConnection
 intermediate
@@ -6836,7 +6803,6 @@ intermediate
 mergeRetrievalConfirmation
 :
 function
-mergeRetrievalConfirmation
 (
 mmsConnection
 intermediate
@@ -7046,7 +7012,6 @@ savable
 retrieveMessage
 :
 function
-retrieveMessage
 (
 aMmsConnection
 aContentLocation
@@ -7089,7 +7054,6 @@ aCallback
 broadcastMmsSystemMessage
 :
 function
-broadcastMmsSystemMessage
 (
 aName
 aDomMessage
@@ -7196,7 +7160,6 @@ expiryDate
 broadcastSentMessageEvent
 :
 function
-broadcastSentMessageEvent
 (
 aDomMessage
 )
@@ -7252,7 +7215,6 @@ null
 retrieveMessageCallback
 :
 function
-retrieveMessageCallback
 (
 mmsConnection
 wish
@@ -7534,7 +7496,6 @@ this
 saveReceivedMessageCallback
 :
 function
-saveReceivedMessageCallback
 (
 mmsConnection
 retrievalMode
@@ -7763,7 +7724,6 @@ domMessage
 handleNotificationIndication
 :
 function
-handleNotificationIndication
 (
 serviceId
 notification
@@ -8001,7 +7961,6 @@ this
 handleDeliveryIndication
 :
 function
-handleDeliveryIndication
 (
 aMsg
 )
@@ -8318,7 +8277,6 @@ this
 handleReadOriginateIndication
 :
 function
-handleReadOriginateIndication
 (
 aIndication
 )
@@ -8552,7 +8510,6 @@ this
 createSavableFromParams
 :
 function
-createSavableFromParams
 (
 aMmsConnection
 aParams
@@ -9238,7 +9195,6 @@ mmsDefaultServiceId
 send
 :
 function
-send
 (
 aServiceId
 aParams
@@ -10056,7 +10012,6 @@ envelopeId
 retrieve
 :
 function
-retrieve
 (
 aMessageId
 aRequest
@@ -11060,7 +11015,6 @@ this
 sendReadReport
 :
 function
-sendReadReport
 (
 messageID
 toAddress
@@ -11210,7 +11164,6 @@ e
 receiveWapPush
 :
 function
-receiveWapPush
 (
 array
 length
@@ -11358,7 +11311,6 @@ break
 observe
 :
 function
-observe
 (
 aSubject
 aTopic
