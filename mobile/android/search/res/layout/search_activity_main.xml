@@ -160,6 +160,15 @@ PostSearchFragment
 "
 android
 :
+layout_marginTop
+=
+"
+dimen
+/
+webview_height_offset
+"
+android
+:
 id
 =
 "
