@@ -255,6 +255,11 @@ NS_ENSURE_TRUE_VOID
 mController
 )
 ;
+if
+(
+mController
+)
+{
 mController
 -
 >
@@ -266,6 +271,7 @@ mController
 =
 nullptr
 ;
+}
 }
 bool
 RtspControllerParent
@@ -1302,6 +1308,16 @@ reason
 {
 return
 NS_ERROR_FAILURE
+;
+}
+if
+(
+mController
+)
+{
+mController
+=
+nullptr
 ;
 }
 return

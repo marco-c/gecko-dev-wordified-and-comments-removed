@@ -517,12 +517,7 @@ void
 Revoke
 (
 )
-{
-mResource
-=
-nullptr
 ;
-}
 private
 :
 nsRefPtr

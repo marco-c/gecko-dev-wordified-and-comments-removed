@@ -904,7 +904,15 @@ NS_ERROR_NOT_INITIALIZED
 }
 mListener
 =
+new
+nsMainThreadPtrHolder
+<
+nsIStreamingProtocolListener
+>
+(
 aListener
+false
+)
 ;
 if
 (
@@ -1447,6 +1455,10 @@ mListener
 index
 reason
 )
+;
+mListener
+=
+nullptr
 ;
 return
 NS_DispatchToMainThread

@@ -86,7 +86,7 @@ nsIURI
 >
 mURI
 ;
-nsCOMPtr
+nsMainThreadPtrHandle
 <
 nsIStreamingProtocolListener
 >
