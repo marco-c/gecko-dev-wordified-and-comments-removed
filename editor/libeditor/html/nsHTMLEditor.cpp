@@ -23719,7 +23719,7 @@ nsHTMLEditor
 :
 IsEditable
 (
-nsIContent
+nsINode
 *
 aNode
 )

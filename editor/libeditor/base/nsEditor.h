@@ -1785,7 +1785,7 @@ virtual
 bool
 IsEditable
 (
-nsIContent
+nsINode
 *
 aNode
 )
@@ -1793,7 +1793,7 @@ aNode
 bool
 IsMozEditorBogusNode
 (
-nsIContent
+nsINode
 *
 aNode
 )
