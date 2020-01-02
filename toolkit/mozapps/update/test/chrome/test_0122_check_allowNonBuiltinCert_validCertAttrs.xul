@@ -620,6 +620,16 @@ PREF_APP_UPDATE_CERT_REQUIREBUILTIN
 false
 )
 ;
+Services
+.
+prefs
+.
+setBoolPref
+(
+PREF_APP_UPDATE_CERT_CHECKATTRS
+true
+)
+;
 let
 url
 =
