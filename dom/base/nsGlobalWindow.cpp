@@ -9319,6 +9319,13 @@ nsIDocument
 aNewDocument
 )
 {
+MOZ_ASSERT
+(
+IsOuterWindow
+(
+)
+)
+;
 if
 (
 !
