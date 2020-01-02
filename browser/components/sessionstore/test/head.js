@@ -1000,6 +1000,8 @@ deferred
 resolve
 (
 msg
+.
+data
 )
 ;
 }
@@ -1362,6 +1364,19 @@ load
 function
 onLoad
 (
+event
+)
+{
+if
+(
+event
+.
+target
+=
+=
+aBrowser
+.
+contentDocument
 )
 {
 aBrowser
@@ -1380,6 +1395,7 @@ executeSoon
 aCallback
 )
 ;
+}
 }
 true
 )
