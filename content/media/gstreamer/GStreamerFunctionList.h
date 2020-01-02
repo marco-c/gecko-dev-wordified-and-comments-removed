@@ -562,6 +562,11 @@ gst_event_parse_segment
 GST_FUNC
 (
 LIBGSTREAMER
+gst_event_type_get_name
+)
+GST_FUNC
+(
+LIBGSTREAMER
 gst_memory_init
 )
 GST_FUNC
