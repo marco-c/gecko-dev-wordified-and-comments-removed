@@ -362,7 +362,8 @@ element
 mInvalidated
 )
 {
-break
+return
+null
 ;
 }
 return
