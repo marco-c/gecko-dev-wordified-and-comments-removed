@@ -163,12 +163,6 @@ IsEnabled
 )
 {
 return
-!
-IsVistaOrLater
-(
-)
-&
-&
 Preferences
 :
 :
