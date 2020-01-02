@@ -57,6 +57,13 @@ Rect
 .
 h
 "
+#
+include
+"
+Units
+.
+h
+"
 class
 gfxASurface
 ;
@@ -1274,10 +1281,7 @@ GLContext
 *
 aGL
 const
-gfx
-:
-:
-IntSize
+LayerIntSize
 &
 aSize
 TextureImage
