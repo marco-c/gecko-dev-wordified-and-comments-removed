@@ -346,13 +346,6 @@ MOZ_WIDGET_TOOLKIT
 '
 gonk
 '
-and
-CONFIG
-[
-'
-MOZ_B2G_BT_BLUEZ
-'
-]
 :
 CPP_SOURCES
 +
