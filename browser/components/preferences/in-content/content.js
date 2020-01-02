@@ -807,7 +807,9 @@ function
 (
 )
 {
-openDialog
+gSubDialog
+.
+open
 (
 "
 chrome
@@ -824,12 +826,6 @@ fonts
 .
 xul
 "
-"
-Browser
-:
-FontPreferences
-"
-null
 )
 ;
 }
@@ -895,7 +891,9 @@ function
 (
 )
 {
-openDialog
+gSubDialog
+.
+open
 (
 "
 chrome
@@ -912,12 +910,6 @@ translation
 .
 xul
 "
-"
-Browser
-:
-TranslationExceptions
-"
-null
 )
 ;
 }
