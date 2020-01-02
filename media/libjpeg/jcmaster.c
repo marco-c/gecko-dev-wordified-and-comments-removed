@@ -3008,6 +3008,13 @@ cinfo
 -
 >
 progressive_mode
+&
+&
+!
+cinfo
+-
+>
+arith_code
 )
 cinfo
 -

@@ -817,6 +817,9 @@ restart_interval
 ;
 }
 #
+define
+AVOID_TABLES
+#
 ifdef
 AVOID_TABLES
 #

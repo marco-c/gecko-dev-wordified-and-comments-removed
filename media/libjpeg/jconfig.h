@@ -9,7 +9,7 @@ LIBJPEG_TURBO_VERSION
 .
 3
 .
-0
+1
 #
 define
 HAVE_PROTOTYPES
@@ -34,6 +34,9 @@ HAVE_UNSIGNED_SHORT
 define
 NEED_SYS_TYPES_H
 1
+#
+undef
+SIZEOF_LONG
 #
 define
 WITH_SIMD
