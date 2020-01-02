@@ -396,7 +396,7 @@ _syncHandlers
 .
 set
 (
-otherHandler
+otherBrowser
 handler
 )
 ;
