@@ -119,13 +119,6 @@ h
 >
 #
 include
-<
-dlfcn
-.
-h
->
-#
-include
 "
 CustomCocoaEvents
 .
@@ -291,13 +284,6 @@ h
 "
 #
 include
-"
-npapi
-.
-h
-"
-#
-include
 <
 IOKit
 /
@@ -373,6 +359,7 @@ on
 .
 class
 MacWakeLockListener
+MOZ_FINAL
 :
 public
 nsIDOMMozWakeLockListener
