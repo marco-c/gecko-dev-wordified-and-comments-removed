@@ -857,6 +857,15 @@ aFilter
 ;
 if
 (
+!
+effect
+)
+{
+return
+;
+}
+if
+(
 aTile
 .
 mDeprecatedTextureHost

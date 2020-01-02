@@ -916,7 +916,7 @@ break
 ;
 default
 :
-MOZ_CRASH
+NS_WARNING
 (
 "
 unhandled
@@ -924,6 +924,8 @@ program
 type
 "
 )
+;
+break
 ;
 }
 return

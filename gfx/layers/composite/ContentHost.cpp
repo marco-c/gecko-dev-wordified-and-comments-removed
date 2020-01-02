@@ -397,6 +397,15 @@ mDeprecatedTextureHostOnWhite
 aFilter
 )
 ;
+if
+(
+!
+effect
+)
+{
+return
+;
+}
 aEffectChain
 .
 mPrimaryEffect
