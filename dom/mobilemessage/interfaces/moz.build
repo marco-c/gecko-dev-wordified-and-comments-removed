@@ -118,11 +118,6 @@ nsIDOMMozSmsMessage
 idl
 '
 '
-nsIDOMSmsFilter
-.
-idl
-'
-'
 nsIMmsService
 .
 idl
