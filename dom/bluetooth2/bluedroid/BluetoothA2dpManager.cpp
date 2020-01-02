@@ -665,6 +665,7 @@ GetElementAttrRsp
 (
 mNumAttr
 attrs
+nullptr
 )
 ;
 return
@@ -3946,6 +3947,7 @@ BTRC_EVT_TRACK_CHANGE
 BTRC_NOTIFICATION_TYPE_CHANGED
 &
 param
+nullptr
 )
 ;
 if
@@ -3975,6 +3977,7 @@ BTRC_EVT_PLAY_POS_CHANGED
 BTRC_NOTIFICATION_TYPE_CHANGED
 &
 param
+nullptr
 )
 ;
 }
@@ -4057,6 +4060,7 @@ btrc_play_status_t
 aPlayStatus
 aDuration
 aPosition
+nullptr
 )
 ;
 if
@@ -4098,6 +4102,7 @@ BTRC_EVT_PLAY_STATUS_CHANGED
 BTRC_NOTIFICATION_TYPE_CHANGED
 &
 param
+nullptr
 )
 ;
 }
@@ -4137,6 +4142,7 @@ BTRC_EVT_PLAY_POS_CHANGED
 BTRC_NOTIFICATION_TYPE_CHANGED
 &
 param
+nullptr
 )
 ;
 }
@@ -4332,6 +4338,7 @@ aEventId
 BTRC_NOTIFICATION_TYPE_INTERIM
 &
 param
+nullptr
 )
 ;
 #
