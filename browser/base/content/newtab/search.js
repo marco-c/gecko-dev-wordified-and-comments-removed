@@ -58,12 +58,6 @@ ContentSearchService
 this
 )
 ;
-this
-.
-setUpInitialState
-(
-)
-;
 }
 setUpInitialState
 :
