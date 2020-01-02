@@ -721,8 +721,6 @@ PR_MemMap
 ;
 PR_MemUnmap
 ;
-PR_SyncMemMap
-;
 PR_MicrosecondsToInterval
 ;
 PR_MillisecondsToInterval
