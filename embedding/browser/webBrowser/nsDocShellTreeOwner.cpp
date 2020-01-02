@@ -3234,9 +3234,8 @@ elmP
 target
 -
 >
-GetListenerManager
+GetOrCreateListenerManager
 (
-true
 )
 ;
 if
@@ -3363,9 +3362,8 @@ elmP
 piTarget
 -
 >
-GetListenerManager
+GetOrCreateListenerManager
 (
-true
 )
 ;
 if

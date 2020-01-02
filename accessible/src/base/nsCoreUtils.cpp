@@ -219,9 +219,8 @@ listenerManager
 aContent
 -
 >
-GetListenerManager
+GetExistingListenerManager
 (
-false
 )
 ;
 return

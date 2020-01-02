@@ -5896,9 +5896,8 @@ manager
 target
 -
 >
-GetListenerManager
+GetExistingListenerManager
 (
-false
 )
 ;
 if
@@ -7644,9 +7643,8 @@ manager
 target
 -
 >
-GetListenerManager
+GetOrCreateListenerManager
 (
-true
 )
 ;
 if
