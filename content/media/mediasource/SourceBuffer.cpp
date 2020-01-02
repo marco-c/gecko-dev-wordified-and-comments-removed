@@ -1790,12 +1790,7 @@ mDecoder
 mDecoder
 -
 >
-GetResource
-(
-)
--
->
-Ended
+SetDiscarded
 (
 )
 ;
