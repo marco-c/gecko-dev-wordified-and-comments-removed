@@ -1159,7 +1159,7 @@ bufsize
 ;
 #
 ifdef
-HAVE_64BIT_OS
+__LP64__
 typedef
 Elf64_Ehdr
 Elf_Ehdr
