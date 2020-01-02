@@ -334,7 +334,6 @@ String
 [
 ]
 {
-HOME
 ADDONS
 CONFIG
 DOWNLOADS
@@ -359,7 +358,7 @@ DEFAULT_ICON_PAGES
 public
 static
 boolean
-isDefaultIconPage
+isBuiltinIconPage
 (
 final
 String
@@ -388,6 +387,18 @@ about
 {
 return
 false
+;
+}
+if
+(
+isAboutHome
+(
+url
+)
+)
+{
+return
+true
 ;
 }
 for
