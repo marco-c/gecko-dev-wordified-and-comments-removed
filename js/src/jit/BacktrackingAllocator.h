@@ -1008,6 +1008,9 @@ chooseIntervalSplit
 LiveInterval
 *
 interval
+LiveInterval
+*
+conflict
 )
 ;
 bool
@@ -1039,6 +1042,9 @@ trySplitAfterLastRegisterUse
 LiveInterval
 *
 interval
+LiveInterval
+*
+conflict
 bool
 *
 success
