@@ -502,6 +502,10 @@ virtual
 void
 EnumerateVideoDevices
 (
+dom
+:
+:
+MediaSourceEnum
 nsTArray
 <
 nsRefPtr
@@ -516,6 +520,10 @@ virtual
 void
 EnumerateAudioDevices
 (
+dom
+:
+:
+MediaSourceEnum
 nsTArray
 <
 nsRefPtr
