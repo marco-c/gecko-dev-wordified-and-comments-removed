@@ -2713,10 +2713,7 @@ typedef
 HashMap
 <
 ScopeIterKey
-ReadBarriered
-<
-DebugScopeObject
->
+ReadBarrieredDebugScopeObject
 ScopeIterKey
 RuntimeAllocPolicy
 >

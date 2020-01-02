@@ -3595,10 +3595,7 @@ proto
 struct
 TypeObjectWithNewScriptEntry
 {
-ReadBarriered
-<
-TypeObject
->
+ReadBarrieredTypeObject
 object
 ;
 JSFunction
@@ -4213,10 +4210,7 @@ typedef
 HashMap
 <
 ArrayTableKey
-ReadBarriered
-<
-TypeObject
->
+ReadBarrieredTypeObject
 ArrayTableKey
 SystemAllocPolicy
 >
@@ -4245,10 +4239,7 @@ typedef
 HashMap
 <
 AllocationSiteKey
-ReadBarriered
-<
-TypeObject
->
+ReadBarrieredTypeObject
 AllocationSiteKey
 SystemAllocPolicy
 >

@@ -1244,16 +1244,7 @@ inline
 bool
 IsAboutToBeFinalized
 (
-ReadBarriered
-<
-js
-:
-:
-jit
-:
-:
-JitCode
->
+ReadBarrieredJitCode
 code
 )
 {

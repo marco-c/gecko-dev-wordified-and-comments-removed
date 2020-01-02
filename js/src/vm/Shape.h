@@ -3728,10 +3728,7 @@ compartment
 typedef
 HashSet
 <
-ReadBarriered
-<
-UnownedBaseShape
->
+ReadBarrieredUnownedBaseShape
 StackBaseShape
 SystemAllocPolicy
 >
@@ -6444,10 +6441,7 @@ obj
 struct
 InitialShapeEntry
 {
-ReadBarriered
-<
-Shape
->
+ReadBarrieredShape
 shape
 ;
 TaggedProto
@@ -6627,10 +6621,7 @@ inline
 InitialShapeEntry
 (
 const
-ReadBarriered
-<
-Shape
->
+ReadBarrieredShape
 &
 shape
 TaggedProto

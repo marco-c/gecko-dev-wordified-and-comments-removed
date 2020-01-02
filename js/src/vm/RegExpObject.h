@@ -1123,10 +1123,7 @@ PendingSet
 PendingSet
 inUse_
 ;
-ReadBarriered
-<
-JSObject
->
+ReadBarrieredObject
 matchResultTemplateObject_
 ;
 JSObject

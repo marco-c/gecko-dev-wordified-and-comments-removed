@@ -17,8 +17,6 @@ include
 gc
 /
 Barrier
--
-inl
 .
 h
 "

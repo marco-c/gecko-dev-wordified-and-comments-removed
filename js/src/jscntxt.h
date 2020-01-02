@@ -243,10 +243,7 @@ typedef
 HashMap
 <
 CallsiteCloneKey
-ReadBarriered
-<
-JSFunction
->
+ReadBarrieredFunction
 CallsiteCloneKey
 SystemAllocPolicy
 >
