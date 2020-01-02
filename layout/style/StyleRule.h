@@ -1477,8 +1477,10 @@ ImportantRule
 *
 mImportantRule
 ;
+nsRefPtr
+<
 DOMCSSStyleRule
-*
+>
 mDOMRule
 ;
 uint32_t
