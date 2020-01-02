@@ -7134,12 +7134,6 @@ aTarget
 mType
 )
 ;
-mBasePosition
-=
-seekTime
--
-mStartTime
-;
 DECODER_LOG
 (
 PR_LOG_DEBUG
@@ -9314,6 +9308,12 @@ seekTime
 )
 ;
 }
+mBasePosition
+=
+seekTime
+-
+mStartTime
+;
 {
 ReentrantMonitorAutoExit
 exitMon
