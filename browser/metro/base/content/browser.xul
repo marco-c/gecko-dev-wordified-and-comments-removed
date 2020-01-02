@@ -3929,17 +3929,6 @@ tabscrolling
 "
 true
 "
-onclick
-=
-"
-SelectionHelperUI
-.
-urlbarTextboxClick
-(
-this
-)
-;
-"
 /
 >
 <

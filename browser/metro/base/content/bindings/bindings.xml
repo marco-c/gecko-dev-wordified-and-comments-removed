@@ -1639,6 +1639,7 @@ clientX
 event
 .
 clientY
+this
 )
 ;
 }
@@ -2420,6 +2421,7 @@ clientX
 event
 .
 clientY
+this
 )
 ;
 }
