@@ -82073,7 +82073,9 @@ setupCall
 CallSetup
 s
 (
-this
+CallbackPreserveColor
+(
+)
 aRv
 aExceptionHandling
 )
@@ -84168,7 +84170,9 @@ callSetup
 CallSetup
 s
 (
-this
+CallbackPreserveColor
+(
+)
 aRv
 "
         

@@ -359,9 +359,15 @@ public
 :
 CallSetup
 (
-CallbackObject
+JS
+:
+:
+Handle
+<
+JSObject
 *
-aCallback
+>
+aCallable
 ErrorResult
 &
 aRv
