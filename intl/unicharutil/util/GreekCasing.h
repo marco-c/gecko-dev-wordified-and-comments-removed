@@ -11,6 +11,15 @@ stdint
 .
 h
 >
+#
+include
+"
+mozilla
+/
+Attributes
+.
+h
+"
 namespace
 mozilla
 {
@@ -58,6 +67,7 @@ kStart
 )
 {
 }
+MOZ_IMPLICIT
 State
 (
 const

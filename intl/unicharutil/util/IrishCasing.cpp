@@ -712,6 +712,7 @@ kActionShift
 ;
 aState
 =
+State
 (
 stateEntry
 &

@@ -40,6 +40,7 @@ nsEncoderSupport
 {
 public
 :
+explicit
 nsUnicodeToGBK
 (
 uint32_t

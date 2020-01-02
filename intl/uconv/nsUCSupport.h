@@ -286,6 +286,7 @@ aSrcLength
 ;
 public
 :
+explicit
 nsBufferDecoderSupport
 (
 uint32_t
@@ -478,6 +479,7 @@ nsBasicDecoderSupport
 {
 public
 :
+explicit
 nsOneByteDecoderSupport
 (
 uMappingTable
@@ -683,6 +685,7 @@ aDestEnd
 ;
 public
 :
+explicit
 nsEncoderSupport
 (
 uint32_t
