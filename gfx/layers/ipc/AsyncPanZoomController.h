@@ -540,9 +540,9 @@ GetAccelerationVector
 (
 )
 ;
-SingleTouchData
+ScreenIntPoint
 &
-GetFirstSingleTouch
+GetFirstTouchScreenPoint
 (
 const
 MultiTouchInput
