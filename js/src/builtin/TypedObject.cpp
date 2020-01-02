@@ -6108,14 +6108,6 @@ type
 ;
 if
 (
-cx
--
->
-typeInferenceEnabled
-(
-)
-&
-&
 !
 type
 -

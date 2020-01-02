@@ -635,9 +635,12 @@ baseline
 cx
 -
 >
-typeInferenceEnabled
+runtime
 (
 )
+-
+>
+jitSupportsFloatingPoint
 ;
 }
 inline

@@ -1289,13 +1289,6 @@ return
 zone_
 ;
 }
-inline
-bool
-typeInferenceEnabled
-(
-)
-const
-;
 types
 :
 :

@@ -5098,9 +5098,6 @@ RecompileInfo
 *
 pendingRecompiles
 ;
-bool
-inferenceEnabled
-;
 TypeZone
 (
 JS
@@ -5114,14 +5111,6 @@ zone
 ~
 TypeZone
 (
-)
-;
-void
-init
-(
-JSContext
-*
-cx
 )
 ;
 JS
