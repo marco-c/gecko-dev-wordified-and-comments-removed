@@ -619,6 +619,11 @@ layers
 =
 [
 '
+AtomicRefCountedWithFinalize
+.
+h
+'
+'
 basic
 /
 BasicCompositor
