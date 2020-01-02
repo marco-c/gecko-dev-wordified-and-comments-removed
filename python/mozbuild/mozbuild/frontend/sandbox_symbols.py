@@ -3916,6 +3916,12 @@ input
 '
 :
 unicode
+            
+'
+sandbox_vars
+'
+:
+dict
         
 }
 )
@@ -4020,6 +4026,32 @@ to
 the
 gyp
 processor
+.
+            
+-
+sandbox_vars
+a
+dictionary
+containing
+variables
+and
+values
+to
+              
+pass
+to
+the
+mozbuild
+processor
+on
+top
+of
+those
+derived
+from
+gyp
+              
+configuration
 .
         
 Typical

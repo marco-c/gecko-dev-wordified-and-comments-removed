@@ -2181,6 +2181,12 @@ final_lib
 :
             
 if
+isinstance
+(
+sandbox
+MozbuildSandbox
+)
+and
 sandbox
 .
 get
