@@ -193,6 +193,14 @@ FilterPrimitiveDescription
 aDescr
 )
 ;
+nsresult
+SetAttributesForSaturate
+(
+FilterPrimitiveDescription
+&
+aDescr
+)
+;
 int32_t
 GetLastResultIndex
 (
