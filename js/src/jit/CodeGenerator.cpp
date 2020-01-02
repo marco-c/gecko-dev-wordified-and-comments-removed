@@ -19669,6 +19669,10 @@ DEBUG
 if
 (
 !
+counts
+&
+&
+!
 emitDebugResultChecks
 (
 *

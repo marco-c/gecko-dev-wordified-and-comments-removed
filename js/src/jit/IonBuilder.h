@@ -3667,6 +3667,17 @@ JSFunction
 target
 )
 ;
+InliningStatus
+inlineNativeGetter
+(
+CallInfo
+&
+callInfo
+JSFunction
+*
+target
+)
+;
 bool
 inlineScriptedCall
 (
