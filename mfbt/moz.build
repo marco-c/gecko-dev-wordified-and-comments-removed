@@ -414,6 +414,11 @@ TypeTraits
 h
 '
 '
+UniquePtr
+.
+h
+'
+'
 Vector
 .
 h

@@ -198,6 +198,11 @@ TestTypeTraits
 cpp
 '
 '
+TestUniquePtr
+.
+cpp
+'
+'
 TestWeakPtr
 .
 cpp
