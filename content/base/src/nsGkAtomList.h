@@ -14443,11 +14443,9 @@ el
 )
 GK_ATOM
 (
-ga_ie
+ga
 "
 ga
--
-ie
 "
 )
 GK_ATOM
