@@ -4376,6 +4376,9 @@ name
 {
 return
 {
+configurable
+:
+true
 value
 :
 Int32Array
