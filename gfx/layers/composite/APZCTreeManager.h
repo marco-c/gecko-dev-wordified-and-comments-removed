@@ -99,7 +99,7 @@ h
 #
 include
 "
-nsTArray
+nsTArrayForwardDeclare
 .
 h
 "
@@ -116,14 +116,6 @@ h
 "
 class
 gfx3DMatrix
-;
-template
-<
-class
-E
->
-class
-nsTArray
 ;
 namespace
 mozilla
