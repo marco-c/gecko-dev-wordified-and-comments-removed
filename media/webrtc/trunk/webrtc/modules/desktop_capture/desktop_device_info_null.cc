@@ -118,4 +118,16 @@ return
 0
 ;
 }
+int32_t
+DesktopDeviceInfoNull
+:
+:
+Refresh
+(
+)
+{
+return
+0
+;
+}
 }
