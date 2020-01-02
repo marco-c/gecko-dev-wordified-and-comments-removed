@@ -112,15 +112,6 @@ JSAutoRequest
 >
 mAutoRequest
 ;
-mozilla
-:
-:
-Maybe
-<
-JSAutoCompartment
->
-mAutoCompartment
-;
 nsCOMPtr
 <
 nsIScriptContext
