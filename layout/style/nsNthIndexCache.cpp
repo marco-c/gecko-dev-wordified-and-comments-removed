@@ -202,6 +202,8 @@ siblingEntry
 -
 >
 value
+(
+)
 ;
 NS_ASSERTION
 (
@@ -386,6 +388,8 @@ entry
 -
 >
 value
+(
+)
 ;
 if
 (

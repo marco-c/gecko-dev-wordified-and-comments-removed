@@ -171,6 +171,8 @@ p
 -
 >
 key
+(
+)
 .
 object
 )
@@ -181,6 +183,8 @@ p
 -
 >
 key
+(
+)
 .
 id
 )
@@ -192,6 +196,8 @@ p
 -
 >
 value
+(
+)
 .
 held
 )
@@ -200,6 +206,8 @@ p
 -
 >
 value
+(
+)
 .
 held
 =
@@ -243,6 +251,8 @@ p
 -
 >
 value
+(
+)
 .
 held
 =
@@ -403,6 +413,8 @@ p
 -
 >
 value
+(
+)
 .
 handler
 ;
@@ -420,6 +432,8 @@ p
 -
 >
 value
+(
+)
 .
 closure
 JSTRACE_OBJECT
@@ -432,6 +446,8 @@ p
 -
 >
 value
+(
+)
 .
 closure
 ;
@@ -499,6 +515,8 @@ if
 entry
 .
 key
+(
+)
 .
 object
 =
@@ -572,6 +590,8 @@ p
 -
 >
 value
+(
+)
 .
 held
 )
@@ -593,6 +613,8 @@ p
 -
 >
 value
+(
+)
 .
 handler
 ;
@@ -604,6 +626,8 @@ p
 -
 >
 value
+(
+)
 .
 closure
 )
@@ -793,6 +817,8 @@ priorKeyObj
 entry
 .
 key
+(
+)
 .
 object
 ;
@@ -802,6 +828,8 @@ priorKeyId
 entry
 .
 key
+(
+)
 .
 id
 .
@@ -825,6 +853,8 @@ EncapsulatedPtrObject
 entry
 .
 key
+(
+)
 .
 object
 )
@@ -838,6 +868,8 @@ objectIsLive
 entry
 .
 value
+(
+)
 .
 held
 )
@@ -861,6 +893,8 @@ EncapsulatedPtrObject
 entry
 .
 key
+(
+)
 .
 object
 )
@@ -903,6 +937,8 @@ EncapsulatedId
 entry
 .
 key
+(
+)
 .
 id
 )
@@ -919,6 +955,8 @@ if
 entry
 .
 value
+(
+)
 .
 closure
 &
@@ -930,6 +968,8 @@ IsObjectMarked
 entry
 .
 value
+(
+)
 .
 closure
 )
@@ -942,6 +982,8 @@ trc
 entry
 .
 value
+(
+)
 .
 closure
 "
@@ -965,6 +1007,8 @@ priorKeyObj
 entry
 .
 key
+(
+)
 .
 object
 |
@@ -975,6 +1019,8 @@ priorKeyId
 entry
 .
 key
+(
+)
 .
 id
 )
@@ -987,11 +1033,15 @@ WatchKey
 entry
 .
 key
+(
+)
 .
 object
 entry
 .
 key
+(
+)
 .
 id
 )
@@ -1058,6 +1108,8 @@ key
 entry
 .
 key
+(
+)
 ;
 WatchKey
 prior
@@ -1132,6 +1184,8 @@ trc
 entry
 .
 value
+(
+)
 .
 closure
 "
@@ -1278,6 +1332,8 @@ obj
 entry
 .
 key
+(
+)
 .
 object
 )
@@ -1297,6 +1353,8 @@ JS_ASSERT
 entry
 .
 value
+(
+)
 .
 held
 )
@@ -1317,6 +1375,8 @@ obj
 entry
 .
 key
+(
+)
 .
 object
 )
@@ -1331,6 +1391,8 @@ obj
 entry
 .
 key
+(
+)
 .
 id
 )
@@ -1465,6 +1527,8 @@ nullptr
 entry
 .
 key
+(
+)
 .
 object
 .
@@ -1475,6 +1539,8 @@ JSTRACE_OBJECT
 entry
 .
 value
+(
+)
 .
 closure
 .

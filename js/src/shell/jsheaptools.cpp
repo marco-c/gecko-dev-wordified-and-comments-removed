@@ -825,6 +825,8 @@ front
 )
 .
 key
+(
+)
 )
 "
 HeapReverser
@@ -844,6 +846,8 @@ front
 )
 .
 value
+(
+)
 .
 trace
 (
@@ -1025,6 +1029,8 @@ a
 -
 >
 value
+(
+)
 .
 incoming
 .
@@ -1629,6 +1635,8 @@ p
 -
 >
 value
+(
+)
 ;
 if
 (

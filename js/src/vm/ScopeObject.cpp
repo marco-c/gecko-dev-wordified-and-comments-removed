@@ -523,6 +523,8 @@ p
 -
 >
 value
+(
+)
 ;
 }
 else
@@ -8580,6 +8582,8 @@ front
 )
 .
 value
+(
+)
 .
 unsafeGet
 (
@@ -8629,6 +8633,8 @@ front
 )
 .
 key
+(
+)
 ;
 AbstractFramePtr
 frame
@@ -8640,6 +8646,8 @@ front
 )
 .
 value
+(
+)
 ;
 if
 (
@@ -8900,6 +8908,8 @@ p
 -
 >
 value
+(
+)
 -
 >
 as
@@ -9135,6 +9145,8 @@ p
 -
 >
 value
+(
+)
 ;
 }
 return
@@ -9471,6 +9483,8 @@ p
 -
 >
 value
+(
+)
 -
 >
 as
@@ -9515,6 +9529,8 @@ p
 -
 >
 value
+(
+)
 ;
 scopes
 -
@@ -9849,6 +9865,8 @@ p
 -
 >
 value
+(
+)
 -
 >
 scope
@@ -10118,6 +10136,8 @@ livePtr
 -
 >
 value
+(
+)
 =
 to
 ;
@@ -10228,6 +10248,8 @@ p
 -
 >
 value
+(
+)
 ;
 scopes
 -
@@ -10246,6 +10268,8 @@ scope
 -
 >
 value
+(
+)
 =
 to
 ;
@@ -10624,6 +10648,8 @@ p
 -
 >
 value
+(
+)
 ;
 if
 (

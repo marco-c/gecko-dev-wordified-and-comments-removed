@@ -577,6 +577,8 @@ front
 )
 .
 key
+(
+)
 ;
 JSFunction
 *
@@ -589,6 +591,8 @@ front
 )
 .
 value
+(
+)
 ;
 if
 (
@@ -735,6 +739,8 @@ p
 -
 >
 value
+(
+)
 ;
 return
 nullptr

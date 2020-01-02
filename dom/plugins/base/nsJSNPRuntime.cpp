@@ -4495,6 +4495,8 @@ p
 -
 >
 value
+(
+)
 )
 ;
 return
@@ -4504,6 +4506,8 @@ p
 -
 >
 value
+(
+)
 )
 ;
 }
@@ -8445,6 +8449,8 @@ front
 )
 .
 value
+(
+)
 ;
 MOZ_ASSERT
 (
