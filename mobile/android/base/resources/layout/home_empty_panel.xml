@@ -229,14 +229,7 @@ android
 scaleType
 =
 "
-center
-"
-android
-:
-paddingBottom
-=
-"
-10dp
+fitCenter
 "
 /
 >
