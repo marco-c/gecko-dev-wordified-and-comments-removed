@@ -359,6 +359,12 @@ baselineFrame_
 =
 nullptr
 ;
+gsn
+.
+purge
+(
+)
+;
 }
 bool
 IonBuilder
