@@ -449,6 +449,12 @@ executeSoon
 =
 >
 {
+h1
+.
+scrollIntoView
+(
+)
+;
 EventUtils
 .
 synthesizeMouseAtCenter
