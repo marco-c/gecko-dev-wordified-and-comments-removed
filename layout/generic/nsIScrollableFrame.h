@@ -484,15 +484,6 @@ aGeneration
 =
 0
 ;
-virtual
-bool
-WantAsyncScroll
-(
-)
-const
-=
-0
-;
 }
 ;
 #
