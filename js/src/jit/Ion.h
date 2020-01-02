@@ -598,9 +598,6 @@ cx
 )
 {
 return
-false
-&
-&
 cx
 -
 >

@@ -1959,13 +1959,6 @@ obj
 return
 false
 ;
-JSAutoCompartment
-comp
-(
-cx
-obj
-)
-;
 bool
 extensible
 ;

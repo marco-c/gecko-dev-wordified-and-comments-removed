@@ -837,15 +837,6 @@ int32
 \
 macro
 (
-isExtensible
-isExtensible
-"
-isExtensible
-"
-)
-\
-macro
-(
 iterator
 iterator
 "
