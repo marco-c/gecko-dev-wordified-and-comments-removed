@@ -247,6 +247,8 @@ HOST_LIBRARY_NAME
 \
 IS_COMPONENT
 \
+JAVA_JAR_TARGETS
+\
 JS_MODULES_PATH
 \
 LIBRARY_NAME
@@ -1498,7 +1500,6 @@ LIB_SUFFIX
 ifdef
 _MSC_VER
 CC_WRAPPER
-?
 =
 (
 call
@@ -1506,7 +1507,6 @@ py_action
 cl
 )
 CXX_WRAPPER
-?
 =
 (
 call
