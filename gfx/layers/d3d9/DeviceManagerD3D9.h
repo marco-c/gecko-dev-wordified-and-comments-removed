@@ -124,7 +124,6 @@ DeviceManagerState
 DeviceOK
 DeviceFail
 DeviceMustRecreate
-DeviceRetry
 }
 ;
 struct
