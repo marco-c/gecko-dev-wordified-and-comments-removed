@@ -13,6 +13,8 @@ gre
 /
 modules
 /
+addons
+/
 AddonUpdateChecker
 .
 jsm

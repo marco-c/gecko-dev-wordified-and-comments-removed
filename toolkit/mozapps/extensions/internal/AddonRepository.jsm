@@ -203,6 +203,8 @@ gre
 /
 modules
 /
+addons
+/
 AddonRepository_SQLiteMigrator
 .
 jsm
@@ -542,6 +544,8 @@ resource
 gre
 /
 modules
+/
+addons
 /
 AddonLogging
 .
