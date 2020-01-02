@@ -12659,7 +12659,7 @@ setMovable
 ;
 }
 void
-specializeForAsmJS
+specializeAsInt32
 (
 )
 ;
