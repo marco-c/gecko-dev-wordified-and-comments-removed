@@ -311,13 +311,6 @@ useDeprecatedTextures
 =
 true
 ;
-#
-if
-!
-defined
-(
-XP_WIN
-)
 useDeprecatedTextures
 =
 gfxPlatform
@@ -332,8 +325,6 @@ UseDeprecatedTextures
 (
 )
 ;
-#
-endif
 #
 ifdef
 XP_WIN
