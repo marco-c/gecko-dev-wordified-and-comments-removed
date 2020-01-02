@@ -13599,8 +13599,6 @@ SetCapturingContent
 (
 this
 CAPTURE_IGNOREALLOWED
-|
-CAPTURE_RETARGETTOELEMENT
 )
 ;
 nsRangeFrame
