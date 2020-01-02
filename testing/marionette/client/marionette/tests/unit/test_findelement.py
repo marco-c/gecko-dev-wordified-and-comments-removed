@@ -1388,6 +1388,28 @@ navigate
 test_html
 )
         
+button
+=
+self
+.
+marionette
+.
+find_element
+(
+"
+id
+"
+"
+createDivButton
+"
+)
+        
+button
+.
+click
+(
+)
+        
 self
 .
 assertRaises
@@ -1417,17 +1439,8 @@ marionette
 .
 set_search_timeout
 (
-4000
+8000
 )
-)
-        
-self
-.
-marionette
-.
-navigate
-(
-test_html
 )
         
 self
