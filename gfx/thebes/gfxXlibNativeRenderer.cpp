@@ -2684,7 +2684,6 @@ RecoverAlpha
 (
 blackImage
 whiteImage
-nullptr
 )
 )
 {
