@@ -468,6 +468,10 @@ Run
 (
 )
 ;
+event
+=
+nullptr
+;
 {
 MonitorAutoLock
 mon
