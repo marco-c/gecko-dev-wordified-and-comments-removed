@@ -3749,10 +3749,6 @@ lastRdn
 =
 rdns
 ;
-lastRdn
-=
-rdns
-;
 while
 (
 *
