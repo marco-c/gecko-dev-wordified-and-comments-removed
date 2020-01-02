@@ -1,8 +1,0 @@
-function
-pineapple
-(
-)
-{
-syntax
-error
-}
