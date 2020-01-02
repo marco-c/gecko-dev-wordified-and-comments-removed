@@ -384,7 +384,7 @@ echo
 1_PKG_ERRORS
 )
 fi
-AC_SUBST
+AC_SUBST_LIST
 (
 1_CFLAGS
 )

@@ -195,7 +195,7 @@ source
 /
 i18n
 '
-AC_SUBST
+AC_SUBST_LIST
 (
 MOZ_ICU_CFLAGS
 )
