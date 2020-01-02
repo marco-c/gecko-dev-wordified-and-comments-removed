@@ -1502,7 +1502,8 @@ param
 .
 data
 ;
-ScopedCERTCertificate
+CERTCertificate
+*
 cert
 =
 CERT_FindCertByNickname
