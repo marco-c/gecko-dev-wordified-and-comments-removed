@@ -1960,5 +1960,12 @@ service
 )
 ;
 }
+offerSyncOptions
+:
+function
+(
+)
+{
+}
 }
 ;
