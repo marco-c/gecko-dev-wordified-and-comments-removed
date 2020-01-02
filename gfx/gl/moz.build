@@ -237,6 +237,11 @@ EXPORTS
 =
 [
 '
+DecomposeIntoNoRepeatTriangles
+.
+h
+'
+'
 ForceDiscreteGPUHelperCGL
 .
 h
@@ -672,6 +677,11 @@ UNIFIED_SOURCES
 +
 =
 [
+'
+DecomposeIntoNoRepeatTriangles
+.
+cpp
+'
 '
 GfxTexturesReporter
 .
