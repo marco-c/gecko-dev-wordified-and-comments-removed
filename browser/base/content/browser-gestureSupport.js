@@ -819,12 +819,6 @@ true
 if
 (
 isVerticalSwipe
-&
-&
-!
-gHistorySwipeAnimation
-.
-active
 )
 {
 return
