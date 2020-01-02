@@ -251,10 +251,6 @@ enabled
 )
 return
 ;
-enabled_
-=
-enabled
-;
 ReleaseAllJITCode
 (
 rt
@@ -264,6 +260,10 @@ defaultFreeOp
 (
 )
 )
+;
+enabled_
+=
+enabled
 ;
 #
 ifdef

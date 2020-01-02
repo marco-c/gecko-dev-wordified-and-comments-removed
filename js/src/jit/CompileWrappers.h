@@ -159,6 +159,9 @@ positiveInfinityValue
 (
 )
 ;
+#
+ifdef
+DEBUG
 bool
 isInsideNursery
 (
@@ -170,6 +173,8 @@ Cell
 cell
 )
 ;
+#
+endif
 const
 DOMCallbacks
 *
@@ -260,6 +265,13 @@ JSCompartment
 compartment
 (
 )
+;
+friend
+class
+js
+:
+:
+AutoLockForCompilation
 ;
 public
 :

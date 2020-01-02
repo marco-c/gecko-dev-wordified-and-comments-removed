@@ -1688,12 +1688,6 @@ MutableHandleValue
 vp
 )
 ;
-static
-JSObject
-*
-const
-LazyProto
-;
 }
 ;
 extern

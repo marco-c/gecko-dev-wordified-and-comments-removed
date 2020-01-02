@@ -688,6 +688,13 @@ fun
 ;
 JS_ASSERT
 (
+CurrentThreadCanReadCompilationData
+(
+)
+)
+;
+JS_ASSERT
+(
 fun
 -
 >
@@ -716,7 +723,7 @@ p
 =
 table
 .
-lookup
+readonlyThreadsafeLookup
 (
 CallsiteCloneKey
 (
@@ -843,6 +850,12 @@ Key
 typedef
 CallsiteCloneTable
 Table
+;
+AutoLockForCompilation
+lock
+(
+cx
+)
 ;
 Table
 &

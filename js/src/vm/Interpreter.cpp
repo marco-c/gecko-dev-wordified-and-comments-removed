@@ -6888,6 +6888,7 @@ baselineScript
 >
 noteArrayWriteHole
 (
+cx
 script
 -
 >

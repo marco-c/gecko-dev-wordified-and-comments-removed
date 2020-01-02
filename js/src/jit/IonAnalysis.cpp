@@ -1114,14 +1114,6 @@ if
 fun
 &
 &
-fun
--
->
-isHeavyweight
-(
-)
-&
-&
 info
 .
 hasArguments
@@ -11527,6 +11519,12 @@ fun
 nullptr
 false
 DefinitePropertiesAnalysis
+script
+-
+>
+needsArgsObj
+(
+)
 )
 ;
 AutoTempAllocatorRooter

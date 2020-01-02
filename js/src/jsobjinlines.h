@@ -2336,13 +2336,11 @@ set
 obj
 -
 >
-js
-:
-:
-ObjectImpl
-:
-:
-getProto
+getTaggedProto
+(
+)
+.
+toObjectOrNull
 (
 )
 )
@@ -2648,6 +2646,8 @@ type
 -
 >
 clasp
+(
+)
 =
 =
 shape
@@ -2664,6 +2664,8 @@ type
 -
 >
 clasp
+(
+)
 !
 =
 &
@@ -2691,6 +2693,8 @@ type
 -
 >
 clasp
+(
+)
 )
 =
 =
@@ -2708,6 +2712,8 @@ type
 -
 >
 clasp
+(
+)
 -
 >
 flags
@@ -2725,6 +2731,8 @@ type
 -
 >
 clasp
+(
+)
 -
 >
 finalize
@@ -2957,6 +2965,8 @@ type
 -
 >
 clasp
+(
+)
 ;
 if
 (
@@ -3083,6 +3093,8 @@ type
 -
 >
 clasp
+(
+)
 =
 =
 shape
@@ -3099,6 +3111,8 @@ type
 -
 >
 clasp
+(
+)
 =
 =
 &
@@ -3117,6 +3131,8 @@ type
 -
 >
 clasp
+(
+)
 -
 >
 finalize
@@ -5631,6 +5647,13 @@ id
 )
 )
 ;
+{
+AutoLockForCompilation
+lock
+(
+cx
+)
+;
 global
 -
 >
@@ -5657,6 +5680,7 @@ proto
 )
 )
 ;
+}
 global
 -
 >

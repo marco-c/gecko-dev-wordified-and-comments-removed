@@ -9948,6 +9948,12 @@ genFunctionProto
 return
 false
 ;
+AutoLockForCompilation
+lock
+(
+cx
+)
+;
 global
 -
 >

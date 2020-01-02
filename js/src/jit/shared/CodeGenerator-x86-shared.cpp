@@ -9677,13 +9677,14 @@ cmpPtr
 Operand
 (
 tmp
-offsetof
-(
 types
 :
 :
 TypeObject
-clasp
+:
+:
+offsetOfClasp
+(
 )
 )
 ImmPtr

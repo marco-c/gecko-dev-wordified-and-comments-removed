@@ -705,9 +705,9 @@ ICStubIterator
 :
 unlink
 (
-Zone
+JSContext
 *
-zone
+cx
 )
 {
 JS_ASSERT
@@ -737,16 +737,29 @@ JS_ASSERT
 unlinked_
 )
 ;
+{
+AutoLockForCompilation
+lock
+(
+cx
+)
+;
 fallbackStub_
 -
 >
 unlinkStub
 (
+cx
+-
+>
 zone
+(
+)
 previousStub_
 currentStub_
 )
 ;
+}
 unlinked_
 =
 true
@@ -3724,11 +3737,6 @@ iter
 unlink
 (
 cx
--
->
-zone
-(
-)
 )
 ;
 }
@@ -6584,6 +6592,7 @@ stub
 >
 addNewStub
 (
+cx
 optStub
 )
 ;
@@ -7020,9 +7029,16 @@ if
 !
 stub
 )
+{
+js_ReportOutOfMemory
+(
+cx
+)
+;
 return
 false
 ;
+}
 IonSpew
 (
 IonSpew_BaselineIC
@@ -7185,9 +7201,16 @@ if
 !
 stub
 )
+{
+js_ReportOutOfMemory
+(
+cx
+)
+;
 return
 false
 ;
+}
 IonSpew
 (
 IonSpew_BaselineIC
@@ -7316,9 +7339,16 @@ if
 !
 stub
 )
+{
+js_ReportOutOfMemory
+(
+cx
+)
+;
 return
 false
 ;
+}
 IonSpew
 (
 IonSpew_BaselineIC
@@ -10362,6 +10392,7 @@ stub
 >
 addNewStub
 (
+cx
 int32Stub
 )
 ;
@@ -10487,6 +10518,7 @@ stub
 >
 addNewStub
 (
+cx
 doubleStub
 )
 ;
@@ -10619,6 +10651,7 @@ stub
 >
 addNewStub
 (
+cx
 doubleStub
 )
 ;
@@ -10700,6 +10733,7 @@ stub
 >
 addNewStub
 (
+cx
 booleanStub
 )
 ;
@@ -10832,6 +10866,7 @@ stub
 >
 addNewStub
 (
+cx
 optStub
 )
 ;
@@ -10934,6 +10969,7 @@ stub
 >
 addNewStub
 (
+cx
 stringStub
 )
 ;
@@ -11030,6 +11066,7 @@ stub
 >
 addNewStub
 (
+cx
 objectStub
 )
 ;
@@ -11198,6 +11235,7 @@ stub
 >
 addNewStub
 (
+cx
 objectStub
 )
 ;
@@ -12105,13 +12143,14 @@ loadPtr
 Address
 (
 obj
-offsetof
-(
 types
 :
 :
 TypeObject
-clasp
+:
+:
+offsetOfClasp
+(
 )
 )
 obj
@@ -12624,6 +12663,7 @@ stub
 >
 addNewStub
 (
+cx
 int32Stub
 )
 ;
@@ -12703,6 +12743,7 @@ stub
 >
 addNewStub
 (
+cx
 doubleStub
 )
 ;
@@ -12770,6 +12811,7 @@ stub
 >
 addNewStub
 (
+cx
 stringStub
 )
 ;
@@ -12831,6 +12873,7 @@ stub
 >
 addNewStub
 (
+cx
 nilStub
 )
 ;
@@ -12899,6 +12942,7 @@ stub
 >
 addNewStub
 (
+cx
 objStub
 )
 ;
@@ -14249,6 +14293,7 @@ stub
 >
 setSawDoubleResult
 (
+cx
 )
 ;
 if
@@ -14272,6 +14317,7 @@ stub
 >
 noteUnoptimizableOperands
 (
+cx
 )
 ;
 return
@@ -14368,6 +14414,7 @@ stub
 >
 addNewStub
 (
+cx
 strcatStub
 )
 ;
@@ -14508,6 +14555,7 @@ stub
 >
 addNewStub
 (
+cx
 strcatStub
 )
 ;
@@ -14698,6 +14746,7 @@ stub
 >
 addNewStub
 (
+cx
 arithStub
 )
 ;
@@ -14728,6 +14777,7 @@ stub
 >
 noteUnoptimizableOperands
 (
+cx
 )
 ;
 return
@@ -14873,6 +14923,7 @@ stub
 >
 addNewStub
 (
+cx
 doubleStub
 )
 ;
@@ -14998,6 +15049,7 @@ stub
 >
 addNewStub
 (
+cx
 int32Stub
 )
 ;
@@ -15154,6 +15206,7 @@ stub
 >
 addNewStub
 (
+cx
 optStub
 )
 ;
@@ -15172,6 +15225,7 @@ stub
 >
 noteUnoptimizableOperands
 (
+cx
 )
 ;
 return
@@ -17176,6 +17230,7 @@ stub
 >
 addNewStub
 (
+cx
 int32Stub
 )
 ;
@@ -17282,6 +17337,7 @@ stub
 >
 addNewStub
 (
+cx
 doubleStub
 )
 ;
@@ -20059,11 +20115,6 @@ iter
 unlink
 (
 cx
--
->
-zone
-(
-)
 )
 ;
 continue
@@ -20141,11 +20192,6 @@ iter
 unlink
 (
 cx
--
->
-zone
-(
-)
 )
 ;
 continue
@@ -20172,11 +20218,6 @@ iter
 unlink
 (
 cx
--
->
-zone
-(
-)
 )
 ;
 continue
@@ -20743,6 +20784,7 @@ stub
 >
 addNewStub
 (
+cx
 newStub
 )
 ;
@@ -21131,6 +21173,7 @@ stub
 >
 addNewStub
 (
+cx
 newStub
 )
 ;
@@ -21318,6 +21361,7 @@ stub
 >
 addNewStub
 (
+cx
 stringStub
 )
 ;
@@ -21429,6 +21473,7 @@ stub
 >
 addNewStub
 (
+cx
 argsStub
 )
 ;
@@ -21587,6 +21632,7 @@ stub
 >
 addNewStub
 (
+cx
 argsStub
 )
 ;
@@ -21697,6 +21743,7 @@ stub
 >
 addNewStub
 (
+cx
 denseStub
 )
 ;
@@ -21897,6 +21944,7 @@ stub
 >
 addNewStub
 (
+cx
 typedArrayStub
 )
 ;
@@ -21931,6 +21979,7 @@ stub
 >
 noteNonNativeAccess
 (
+cx
 )
 ;
 if
@@ -21955,6 +22004,7 @@ stub
 >
 noteNegativeIndex
 (
+cx
 )
 ;
 return
@@ -26484,11 +26534,6 @@ iter
 unlink
 (
 cx
--
->
-zone
-(
-)
 )
 ;
 return
@@ -27278,6 +27323,7 @@ stub
 >
 addNewStub
 (
+cx
 denseStub
 )
 ;
@@ -27391,6 +27437,7 @@ stub
 >
 addNewStub
 (
+cx
 denseStub
 )
 ;
@@ -27635,6 +27682,7 @@ stub
 >
 addNewStub
 (
+cx
 typedArrayStub
 )
 ;
@@ -27866,6 +27914,9 @@ BaselineScript
 :
 noteArrayWriteHole
 (
+JSContext
+*
+cx
 uint32_t
 pcOffset
 )
@@ -27908,6 +27959,7 @@ toSetElem_Fallback
 >
 noteArrayWriteHole
 (
+cx
 )
 ;
 }
@@ -30685,6 +30737,7 @@ stub
 >
 addNewStub
 (
+cx
 newStub
 )
 ;
@@ -31198,6 +31251,7 @@ stub
 >
 addNewStub
 (
+cx
 newStub
 )
 ;
@@ -32347,6 +32401,7 @@ stub
 >
 addNewStub
 (
+cx
 newStub
 )
 ;
@@ -32573,6 +32628,7 @@ stub
 >
 addNewStub
 (
+cx
 newStub
 )
 ;
@@ -32659,6 +32715,7 @@ stub
 >
 addNewStub
 (
+cx
 newStub
 )
 ;
@@ -32768,6 +32825,7 @@ stub
 >
 addNewStub
 (
+cx
 newStub
 )
 ;
@@ -32855,6 +32913,7 @@ stub
 >
 addNewStub
 (
+cx
 newStub
 )
 ;
@@ -32990,6 +33049,7 @@ stub
 >
 addNewStub
 (
+cx
 newStub
 )
 ;
@@ -33494,6 +33554,7 @@ stub
 >
 addNewStub
 (
+cx
 newStub
 )
 ;
@@ -33679,6 +33740,7 @@ stub
 >
 addNewStub
 (
+cx
 newStub
 )
 ;
@@ -33958,6 +34020,7 @@ stub
 >
 addNewStub
 (
+cx
 newStub
 )
 ;
@@ -34082,6 +34145,7 @@ stub
 >
 addNewStub
 (
+cx
 newStub
 )
 ;
@@ -34392,6 +34456,7 @@ stub
 >
 addNewStub
 (
+cx
 newStub
 )
 ;
@@ -34890,6 +34955,7 @@ stub
 >
 noteUnoptimizableAccess
 (
+cx
 )
 ;
 return
@@ -38592,6 +38658,9 @@ BaselineScript
 :
 noteAccessedGetter
 (
+JSContext
+*
+cx
 uint32_t
 pcOffset
 )
@@ -38634,6 +38703,7 @@ toGetProp_Fallback
 >
 noteAccessedGetter
 (
+cx
 )
 ;
 }
@@ -38851,6 +38921,7 @@ stub
 >
 addNewStub
 (
+cx
 newStub
 )
 ;
@@ -38969,6 +39040,7 @@ stub
 >
 addNewStub
 (
+cx
 newStub
 )
 ;
@@ -39136,6 +39208,7 @@ stub
 >
 addNewStub
 (
+cx
 newStub
 )
 ;
@@ -39267,6 +39340,7 @@ stub
 >
 addNewStub
 (
+cx
 newStub
 )
 ;
@@ -39726,6 +39800,7 @@ stub
 >
 noteUnoptimizableAccess
 (
+cx
 )
 ;
 return
@@ -42359,6 +42434,7 @@ stub
 >
 addNewStub
 (
+cx
 newStub
 )
 ;
@@ -42480,6 +42556,7 @@ stub
 >
 addNewStub
 (
+cx
 newStub
 )
 ;
@@ -43336,6 +43413,7 @@ stub
 >
 addNewStub
 (
+cx
 newStub
 )
 ;
@@ -43516,6 +43594,7 @@ stub
 >
 addNewStub
 (
+cx
 newStub
 )
 ;
@@ -43768,6 +43847,7 @@ stub
 >
 addNewStub
 (
+cx
 newStub
 )
 ;
@@ -49474,6 +49554,7 @@ stub
 >
 addNewStub
 (
+cx
 newStub
 )
 ;
@@ -49826,6 +49907,7 @@ stub
 >
 setHasNonStringResult
 (
+cx
 )
 ;
 if
@@ -49897,6 +49979,7 @@ stub
 >
 addNewStub
 (
+cx
 newStub
 )
 ;
@@ -50673,6 +50756,7 @@ stub
 >
 addNewStub
 (
+cx
 typeOfStub
 )
 ;
@@ -51116,6 +51200,7 @@ stub
 >
 addNewStub
 (
+cx
 optStub
 )
 ;
