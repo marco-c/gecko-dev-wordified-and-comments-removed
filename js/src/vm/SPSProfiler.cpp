@@ -1492,6 +1492,7 @@ ProfileEntry
 pc
 (
 )
+const
 volatile
 {
 JS_ASSERT_IF

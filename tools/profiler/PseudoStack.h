@@ -309,6 +309,7 @@ bool
 isCopyLabel
 (
 )
+const
 volatile
 {
 return
