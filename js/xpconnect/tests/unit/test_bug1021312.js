@@ -37,10 +37,14 @@ str
 {
 do_check_true
 (
-str
-"
+/
 someString
-"
+/
+.
+test
+(
+str
+)
 )
 ;
 called
