@@ -2919,13 +2919,13 @@ USE_STATIC_LIBS
 ]
             
 '
-CFLAGS
+MOZBUILD_CFLAGS
 '
 :
 [
                 
 '
-CFLAGS
+MOZBUILD_CFLAGS
 +
 =
 -
@@ -2935,7 +2935,7 @@ exceptions
 '
                 
 '
-CFLAGS
+MOZBUILD_CFLAGS
 +
 =
 -
@@ -2945,13 +2945,13 @@ w
 ]
             
 '
-CXXFLAGS
+MOZBUILD_CXXFLAGS
 '
 :
 [
                 
 '
-CXXFLAGS
+MOZBUILD_CXXFLAGS
 +
 =
 -
@@ -2961,7 +2961,7 @@ exceptions
 '
                 
 '
-CXXFLAGS
+MOZBUILD_CXXFLAGS
 +
 =
 -
@@ -2974,13 +2974,13 @@ h
 ]
             
 '
-LDFLAGS
+MOZBUILD_LDFLAGS
 '
 :
 [
                 
 '
-LDFLAGS
+MOZBUILD_LDFLAGS
 +
 =
 -
@@ -2989,7 +2989,7 @@ Foo
 '
                 
 '
-LDFLAGS
+MOZBUILD_LDFLAGS
 +
 =
 -

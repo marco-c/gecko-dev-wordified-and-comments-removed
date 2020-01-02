@@ -287,3 +287,17 @@ gonk
 libdisplay
 '
 ]
+LDFLAGS
++
+=
+[
+'
+-
+Wl
+-
+-
+export
+-
+dynamic
+'
+]
