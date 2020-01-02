@@ -20705,7 +20705,7 @@ loadPtr
 Address
 (
 obj
-BinaryBlock
+TypedObject
 :
 :
 dataOffset

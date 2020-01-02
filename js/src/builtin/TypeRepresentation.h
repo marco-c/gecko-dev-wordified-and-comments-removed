@@ -342,10 +342,10 @@ buffer
 ;
 static
 bool
-isTypeRepresentationOwnerObject
+isOwnerObject
 (
 JSObject
-*
+&
 obj
 )
 ;
@@ -355,7 +355,7 @@ TypeRepresentation
 fromOwnerObject
 (
 JSObject
-*
+&
 obj
 )
 ;
