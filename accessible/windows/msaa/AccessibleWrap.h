@@ -653,6 +653,9 @@ GetBinaryType
 undef
 RemoveDirectory
 #
+undef
+SetProp
+#
 endif
 #
 endif
