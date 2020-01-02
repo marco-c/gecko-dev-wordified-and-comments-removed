@@ -4098,6 +4098,15 @@ AsyncDoom
 nullptr
 )
 ;
+if
+(
+!
+mCachedContentIsPartial
+&
+&
+!
+mConcurentCacheAccess
+)
 CloseCacheEntry
 (
 false
