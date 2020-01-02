@@ -84,13 +84,6 @@ ShadowStackSpace
 static
 const
 uint32_t
-MaxAliasedRegisters
-=
-2
-;
-static
-const
-uint32_t
 BAILOUT_TABLE_ENTRY_SIZE
 =
 4

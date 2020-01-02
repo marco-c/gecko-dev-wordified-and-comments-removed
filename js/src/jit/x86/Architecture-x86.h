@@ -56,13 +56,6 @@ NUNBOX32_PAYLOAD_OFFSET
 static
 const
 uint32_t
-MaxAliasedRegisters
-=
-1
-;
-static
-const
-uint32_t
 BAILOUT_TABLE_ENTRY_SIZE
 =
 5
