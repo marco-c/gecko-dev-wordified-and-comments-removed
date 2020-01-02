@@ -17152,17 +17152,6 @@ script
 pc
 )
 ;
-RootedValue
-lval
-(
-cx
-ObjectValue
-(
-*
-obj
-)
-)
-;
 if
 (
 cache
@@ -17175,7 +17164,7 @@ isDisabled
 if
 (
 !
-GetElementOperation
+GetObjectElementOperation
 (
 cx
 JSOp
@@ -17183,8 +17172,8 @@ JSOp
 *
 pc
 )
-&
-lval
+obj
+true
 idval
 res
 )
@@ -17564,7 +17553,7 @@ true
 if
 (
 !
-GetElementOperation
+GetObjectElementOperation
 (
 cx
 JSOp
@@ -17572,8 +17561,8 @@ JSOp
 *
 pc
 )
-&
-lval
+obj
+true
 idval
 res
 )
