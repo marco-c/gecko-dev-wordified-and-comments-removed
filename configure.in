@@ -8562,6 +8562,10 @@ x86
 powerpc64
 |
 ppc64
+|
+powerpc64le
+|
+ppc64le
 )
 CPU_ARCH
 =
