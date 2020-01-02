@@ -904,7 +904,7 @@ nsEvent
 event
 (
 true
-NS_EVENT_TYPE_NULL
+NS_EVENT_NULL
 )
 ;
 nsCOMArray
