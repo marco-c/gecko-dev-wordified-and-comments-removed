@@ -248,6 +248,11 @@ mOCSPGETEnabled
 ;
 }
 ;
+void
+InitCertVerifierLog
+(
+)
+;
 }
 }
 #

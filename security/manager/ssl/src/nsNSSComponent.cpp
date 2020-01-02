@@ -4795,6 +4795,10 @@ ConfigureInternalPKCS11Token
 (
 )
 ;
+InitCertVerifierLog
+(
+)
+;
 SECStatus
 init_rv
 =
