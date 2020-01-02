@@ -538,6 +538,10 @@ extensions
 (
 nullptr
 )
+includeEmptyExtensions
+(
+false
+)
 {
 for
 (
@@ -2278,6 +2282,11 @@ if
 context
 .
 extensions
+|
+|
+context
+.
+includeEmptyExtensions
 )
 {
 responseExtensions

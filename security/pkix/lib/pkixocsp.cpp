@@ -3585,7 +3585,7 @@ SEQUENCE
 der
 :
 :
-MustNotBeEmpty
+MayBeEmpty
 CheckExtensionForCriticality
 )
 ;

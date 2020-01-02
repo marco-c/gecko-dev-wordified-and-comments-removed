@@ -161,6 +161,9 @@ OCSPResponseExtension
 *
 extensions
 ;
+bool
+includeEmptyExtensions
+;
 }
 ;
 SECItem

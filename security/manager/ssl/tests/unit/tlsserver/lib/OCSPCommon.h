@@ -42,6 +42,7 @@ ORTBadSignature
 ORTSkipResponseBytes
 ORTCriticalExtension
 ORTNoncriticalExtension
+ORTEmptyExtensions
 ORTDelegatedIncluded
 ORTDelegatedIncludedLast
 ORTDelegatedMissing
