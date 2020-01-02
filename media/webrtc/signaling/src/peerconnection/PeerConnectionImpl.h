@@ -1906,6 +1906,8 @@ tmp
 )
 ;
 delete
+[
+]
 tmp
 ;
 }
@@ -1944,6 +1946,8 @@ tmp
 )
 ;
 delete
+[
+]
 tmp
 ;
 }
