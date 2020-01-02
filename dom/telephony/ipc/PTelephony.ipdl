@@ -175,6 +175,14 @@ uint16_t
 aCallState
 )
 ;
+NotifyConferenceError
+(
+nsString
+aName
+nsString
+aMessage
+)
+;
 NotifySupplementaryService
 (
 uint32_t
