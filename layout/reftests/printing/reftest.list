@@ -332,7 +332,7 @@ html
 ref
 .
 html
-random
+fails
 -
 if
 (
@@ -362,12 +362,6 @@ t
 work
 on
 B2G
-random
--
-if
-(
-B2G
-)
 =
 =
 115199
@@ -382,12 +376,6 @@ html
 ref
 .
 html
-random
--
-if
-(
-B2G
-)
 =
 =
 115199
@@ -500,7 +488,7 @@ to
 bug
 967311
 .
-random
+fails
 -
 if
 (

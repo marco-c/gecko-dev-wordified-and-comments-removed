@@ -194,12 +194,6 @@ scalez
 ref
 .
 html
-fails
--
-if
-(
-B2G
-)
 =
 =
 preserve3d
@@ -214,9 +208,6 @@ preserve3d
 ref
 .
 html
-#
-Bug
-988766
 =
 =
 preserve3d
@@ -339,12 +330,6 @@ AndroidVersion
 4
 300
 )
-fails
--
-if
-(
-B2G
-)
 =
 =
 preserve3d
@@ -359,9 +344,6 @@ preserve3d
 ref
 .
 html
-#
-Bug
-988767
 =
 =
 scale3d

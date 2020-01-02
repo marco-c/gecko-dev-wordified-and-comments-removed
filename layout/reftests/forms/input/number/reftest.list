@@ -340,12 +340,6 @@ html
 auto
 width
 :
-random
--
-if
-(
-B2G
-)
 =
 =
 number

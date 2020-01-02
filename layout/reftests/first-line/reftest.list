@@ -344,12 +344,6 @@ apply
 ref
 .
 html
-skip
--
-if
-(
-B2G
-)
 =
 =
 287088
@@ -364,9 +358,6 @@ html
 ref
 .
 html
-#
-Bug
-975254
 =
 =
 287088
