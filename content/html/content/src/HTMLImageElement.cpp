@@ -378,6 +378,12 @@ src
 NS_IMPL_STRING_ATTR
 (
 HTMLImageElement
+Srcset
+srcset
+)
+NS_IMPL_STRING_ATTR
+(
+HTMLImageElement
 UseMap
 usemap
 )
