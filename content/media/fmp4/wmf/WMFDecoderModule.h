@@ -105,6 +105,16 @@ aCallback
 )
 MOZ_OVERRIDE
 ;
+bool
+SupportsAudioMimeType
+(
+const
+char
+*
+aMimeType
+)
+MOZ_OVERRIDE
+;
 static
 void
 Init
