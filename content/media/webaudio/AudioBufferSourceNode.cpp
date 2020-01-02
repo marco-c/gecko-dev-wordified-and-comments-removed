@@ -996,6 +996,9 @@ mPosition
 <
 =
 mDuration
+|
+|
+mLoop
 )
 ;
 aFramesWritten
