@@ -186,6 +186,15 @@ bool
 aNewState
 )
 ;
+ScopedGLState
+(
+GLContext
+*
+aGL
+GLenum
+aCapability
+)
+;
 protected
 :
 void
