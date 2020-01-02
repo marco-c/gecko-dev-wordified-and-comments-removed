@@ -1794,15 +1794,6 @@ noib
 ref
 .
 html
-random
--
-if
-(
-B2G
-&
-&
-browserIsRemote
-)
 =
 =
 float

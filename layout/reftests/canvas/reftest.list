@@ -46,15 +46,6 @@ size
 ref
 .
 html
-random
--
-if
-(
-B2G
-&
-&
-browserIsRemote
-)
 =
 =
 empty

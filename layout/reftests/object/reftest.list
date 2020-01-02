@@ -718,15 +718,6 @@ to
 run
 them
 #
-random
--
-if
-(
-B2G
-&
-&
-browserIsRemote
-)
 =
 =
 malformed

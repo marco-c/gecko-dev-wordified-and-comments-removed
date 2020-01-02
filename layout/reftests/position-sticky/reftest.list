@@ -803,15 +803,6 @@ inline
 ref
 .
 html
-random
--
-if
-(
-B2G
-&
-&
-browserIsRemote
-)
 =
 =
 inline
