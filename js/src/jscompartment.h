@@ -1005,8 +1005,7 @@ gcIncomingGrayPointers
 js
 :
 :
-ArrayBufferObject
-*
+ArrayBufferVector
 gcLiveArrayBuffers
 ;
 js
