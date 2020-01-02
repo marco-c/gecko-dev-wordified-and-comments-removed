@@ -1491,11 +1491,6 @@ ELT_BGSOUND
 static
 nsHtml5ElementName
 *
-ELT_COMMAND
-;
-static
-nsHtml5ElementName
-*
 ELT_COMPOSE
 ;
 static

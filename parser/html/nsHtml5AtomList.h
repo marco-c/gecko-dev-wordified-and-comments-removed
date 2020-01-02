@@ -6478,13 +6478,6 @@ bgsound
 )
 HTML5_ATOM
 (
-command
-"
-command
-"
-)
-HTML5_ATOM
-(
 compose
 "
 compose

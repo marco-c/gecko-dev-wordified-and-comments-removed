@@ -622,13 +622,6 @@ RT_OR_RP
 final
 static
 int
-COMMAND
-=
-54
-;
-final
-static
-int
 PARAM_OR_SOURCE_OR_TRACK
 =
 55
@@ -9396,9 +9389,6 @@ case
 TITLE
 :
 case
-COMMAND
-:
-case
 TEMPLATE
 :
 break
@@ -11139,9 +11129,6 @@ starttagloop
 ;
 case
 BASE
-:
-case
-COMMAND
 :
 case
 LINK_OR_BASEFONT_OR_BGSOUND
