@@ -180,7 +180,7 @@ gBrowser
 .
 selectedBrowser
 ;
-waitForContentMessage
+promiseContentMessage
 (
 browser
 "
@@ -188,7 +188,10 @@ SessionStore
 :
 input
 "
-1000
+)
+.
+then
+(
 result
 =
 >
