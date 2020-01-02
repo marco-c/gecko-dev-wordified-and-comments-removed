@@ -33,7 +33,7 @@ is
 command
 .
 typeOfCommand
-icc
+iccManager
 .
 STK_CMD_SET_UP_IDLE_MODE_TEXT
 expect

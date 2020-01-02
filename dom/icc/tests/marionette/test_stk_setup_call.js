@@ -33,7 +33,7 @@ is
 command
 .
 typeOfCommand
-icc
+iccManager
 .
 STK_CMD_SET_UP_CALL
 expect
@@ -486,7 +486,7 @@ duration
 {
 timeUnit
 :
-icc
+iccManager
 .
 STK_TIME_UNIT_SECOND
 timeInterval
@@ -2098,7 +2098,7 @@ duration
 {
 timeUnit
 :
-icc
+iccManager
 .
 STK_TIME_UNIT_SECOND
 timeInterval

@@ -32,7 +32,7 @@ is
 cmd
 .
 typeOfCommand
-icc
+iccManager
 .
 STK_CMD_PROVIDE_LOCAL_INFO
 )
@@ -50,7 +50,7 @@ is
 cmd
 .
 commandQualifier
-icc
+iccManager
 .
 STK_LOCAL_INFO_LOCATION_INFO
 )
@@ -62,7 +62,7 @@ cmd
 options
 .
 localInfoType
-icc
+iccManager
 .
 STK_LOCAL_INFO_LOCATION_INFO
 )
@@ -98,7 +98,7 @@ is
 cmd
 .
 typeOfCommand
-icc
+iccManager
 .
 STK_CMD_PROVIDE_LOCAL_INFO
 )
@@ -116,7 +116,7 @@ is
 cmd
 .
 commandQualifier
-icc
+iccManager
 .
 STK_LOCAL_INFO_IMEI
 )
@@ -128,7 +128,7 @@ cmd
 options
 .
 localInfoType
-icc
+iccManager
 .
 STK_LOCAL_INFO_IMEI
 )
@@ -164,7 +164,7 @@ is
 cmd
 .
 typeOfCommand
-icc
+iccManager
 .
 STK_CMD_PROVIDE_LOCAL_INFO
 )
@@ -182,7 +182,7 @@ is
 cmd
 .
 commandQualifier
-icc
+iccManager
 .
 STK_LOCAL_INFO_DATE_TIME_ZONE
 )
@@ -194,7 +194,7 @@ cmd
 options
 .
 localInfoType
-icc
+iccManager
 .
 STK_LOCAL_INFO_DATE_TIME_ZONE
 )
@@ -230,7 +230,7 @@ is
 cmd
 .
 typeOfCommand
-icc
+iccManager
 .
 STK_CMD_PROVIDE_LOCAL_INFO
 )
@@ -248,7 +248,7 @@ is
 cmd
 .
 commandQualifier
-icc
+iccManager
 .
 STK_LOCAL_INFO_LANGUAGE
 )
@@ -260,7 +260,7 @@ cmd
 options
 .
 localInfoType
-icc
+iccManager
 .
 STK_LOCAL_INFO_LANGUAGE
 )
@@ -296,7 +296,7 @@ is
 cmd
 .
 typeOfCommand
-icc
+iccManager
 .
 STK_CMD_REFRESH
 )
@@ -356,7 +356,7 @@ is
 cmd
 .
 typeOfCommand
-icc
+iccManager
 .
 STK_CMD_TIMER_MANAGEMENT
 )
@@ -374,7 +374,7 @@ is
 cmd
 .
 commandQualifier
-icc
+iccManager
 .
 STK_TIMER_START
 )
@@ -386,7 +386,7 @@ cmd
 options
 .
 timerAction
-icc
+iccManager
 .
 STK_TIMER_START
 )
@@ -456,7 +456,7 @@ is
 cmd
 .
 typeOfCommand
-icc
+iccManager
 .
 STK_CMD_TIMER_MANAGEMENT
 )
@@ -474,7 +474,7 @@ is
 cmd
 .
 commandQualifier
-icc
+iccManager
 .
 STK_TIMER_DEACTIVATE
 )
@@ -486,7 +486,7 @@ cmd
 options
 .
 timerAction
-icc
+iccManager
 .
 STK_TIMER_DEACTIVATE
 )
@@ -532,7 +532,7 @@ is
 cmd
 .
 typeOfCommand
-icc
+iccManager
 .
 STK_CMD_TIMER_MANAGEMENT
 )
@@ -550,7 +550,7 @@ is
 cmd
 .
 commandQualifier
-icc
+iccManager
 .
 STK_TIMER_GET_CURRENT_VALUE
 )
@@ -562,7 +562,7 @@ cmd
 options
 .
 timerAction
-icc
+iccManager
 .
 STK_TIMER_GET_CURRENT_VALUE
 )

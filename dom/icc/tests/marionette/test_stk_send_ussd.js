@@ -33,7 +33,7 @@ is
 command
 .
 typeOfCommand
-icc
+iccManager
 .
 STK_CMD_SEND_USSD
 expect

@@ -33,7 +33,7 @@ is
 command
 .
 typeOfCommand
-icc
+iccManager
 .
 STK_CMD_GET_INKEY
 expect
@@ -636,7 +636,7 @@ duration
 {
 timeUnit
 :
-icc
+iccManager
 .
 STK_TIME_UNIT_SECOND
 timeInterval
