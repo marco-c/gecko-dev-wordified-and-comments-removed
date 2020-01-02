@@ -553,7 +553,7 @@ height
 }
 static
 uint32_t
-GetRequiredTiles
+GetRequiredTilesD3D9
 (
 uint32_t
 aSize
@@ -1315,7 +1315,7 @@ true
 uint32_t
 tileCount
 =
-GetRequiredTiles
+GetRequiredTilesD3D9
 (
 size
 .
@@ -1323,7 +1323,7 @@ width
 maxSize
 )
 *
-GetRequiredTiles
+GetRequiredTilesD3D9
 (
 size
 .
@@ -1446,7 +1446,7 @@ GetMaxTextureSize
 uint32_t
 horizontalTiles
 =
-GetRequiredTiles
+GetRequiredTilesD3D9
 (
 mSize
 .
@@ -1457,7 +1457,7 @@ maxSize
 uint32_t
 verticalTiles
 =
-GetRequiredTiles
+GetRequiredTilesD3D9
 (
 mSize
 .
@@ -2079,7 +2079,7 @@ true
 uint32_t
 tileCount
 =
-GetRequiredTiles
+GetRequiredTilesD3D9
 (
 mSize
 .
@@ -2087,7 +2087,7 @@ width
 maxSize
 )
 *
-GetRequiredTiles
+GetRequiredTilesD3D9
 (
 mSize
 .
@@ -2699,7 +2699,7 @@ true
 uint32_t
 tileCount
 =
-GetRequiredTiles
+GetRequiredTilesD3D9
 (
 mSize
 .
@@ -2707,7 +2707,7 @@ width
 maxSize
 )
 *
-GetRequiredTiles
+GetRequiredTilesD3D9
 (
 mSize
 .

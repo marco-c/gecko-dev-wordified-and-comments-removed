@@ -1112,7 +1112,7 @@ height
 }
 static
 uint32_t
-GetRequiredTiles
+GetRequiredTilesD3D11
 (
 uint32_t
 aSize
@@ -1453,7 +1453,7 @@ true
 uint32_t
 tileCount
 =
-GetRequiredTiles
+GetRequiredTilesD3D11
 (
 size
 .
@@ -1461,7 +1461,7 @@ width
 maxSize
 )
 *
-GetRequiredTiles
+GetRequiredTilesD3D11
 (
 size
 .
@@ -1606,7 +1606,7 @@ GetFeatureLevel
 uint32_t
 horizontalTiles
 =
-GetRequiredTiles
+GetRequiredTilesD3D11
 (
 mSize
 .
@@ -1617,7 +1617,7 @@ maxSize
 uint32_t
 verticalTiles
 =
-GetRequiredTiles
+GetRequiredTilesD3D11
 (
 mSize
 .
