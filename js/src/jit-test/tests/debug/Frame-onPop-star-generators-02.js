@@ -135,16 +135,11 @@ enabled
 =
 false
 ;
-assertIteratorResult
+assertIteratorNext
 (
 g
 .
 it
-.
-next
-(
-)
 1
-false
 )
 ;

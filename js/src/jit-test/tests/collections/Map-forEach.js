@@ -155,13 +155,9 @@ k
 )
 )
 ;
-assertIteratorResult
+assertIteratorNext
 (
 iterator
-.
-next
-(
-)
 [
 k
 testMap
@@ -171,7 +167,6 @@ get
 k
 )
 ]
-false
 )
 ;
 count
