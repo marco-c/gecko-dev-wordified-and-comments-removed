@@ -265,6 +265,13 @@ text
 plain
 "
 ;
+static
+final
+boolean
+DEFAULT_CAN_LOAD_HINT
+=
+false
+;
 private
 boolean
 mCanLoadHint
@@ -314,7 +321,7 @@ getBoolean
 HomePager
 .
 CAN_LOAD_ARG
-false
+DEFAULT_CAN_LOAD_HINT
 )
 ;
 }
@@ -322,7 +329,7 @@ else
 {
 mCanLoadHint
 =
-false
+DEFAULT_CAN_LOAD_HINT
 ;
 }
 mIsLoaded
