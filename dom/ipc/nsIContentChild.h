@@ -73,7 +73,7 @@ CpowEntry
 namespace
 dom
 {
-struct
+class
 IPCTabContext
 ;
 class

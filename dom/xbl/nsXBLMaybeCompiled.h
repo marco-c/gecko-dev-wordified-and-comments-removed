@@ -244,7 +244,7 @@ mCompiled
 }
 ;
 friend
-class
+struct
 js
 :
 :

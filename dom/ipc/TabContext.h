@@ -35,7 +35,7 @@ mozilla
 namespace
 dom
 {
-struct
+class
 IPCTabContext
 ;
 class

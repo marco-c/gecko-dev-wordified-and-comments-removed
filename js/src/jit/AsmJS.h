@@ -59,7 +59,7 @@ template
 typename
 ParseHandler
 >
-struct
+class
 Parser
 ;
 template
@@ -73,7 +73,7 @@ ParseContext
 class
 FullParseHandler
 ;
-struct
+class
 ParseNode
 ;
 }

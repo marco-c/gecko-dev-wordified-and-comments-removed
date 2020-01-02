@@ -228,7 +228,7 @@ CompositableClient
 class
 PlanarYCbCrImage
 ;
-class
+struct
 PlanarYCbCrData
 ;
 class

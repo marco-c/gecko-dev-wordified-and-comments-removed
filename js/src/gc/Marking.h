@@ -40,7 +40,7 @@ BaseShape
 class
 DebugScopeObject
 ;
-struct
+class
 GCMarker
 ;
 class
@@ -71,10 +71,10 @@ jit
 class
 JitCode
 ;
-class
+struct
 IonScript
 ;
-class
+struct
 VMFunction
 ;
 }

@@ -106,7 +106,7 @@ ZoneVector
 class
 MarkingValidator
 ;
-class
+struct
 AutoPrepareForTracing
 ;
 class

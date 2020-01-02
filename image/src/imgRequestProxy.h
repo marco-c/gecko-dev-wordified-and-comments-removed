@@ -131,7 +131,7 @@ imgRequestNotifyRunnable
 class
 imgStatusNotifyRunnable
 ;
-class
+struct
 nsIntRect
 ;
 class

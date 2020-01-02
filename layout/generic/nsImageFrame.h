@@ -83,7 +83,7 @@ nsILoadGroup
 struct
 nsHTMLReflowState
 ;
-struct
+class
 nsHTMLReflowMetrics
 ;
 class

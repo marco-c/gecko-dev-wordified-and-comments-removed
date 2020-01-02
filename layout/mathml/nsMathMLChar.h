@@ -71,13 +71,13 @@ nsPresContext
 class
 nsRenderingContext
 ;
-class
+struct
 nsBoundingMetrics
 ;
 class
 nsStyleContext
 ;
-class
+struct
 nsFont
 ;
 enum

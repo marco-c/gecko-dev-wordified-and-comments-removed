@@ -325,7 +325,7 @@ WebGLExtensionBase
 class
 WebGLBuffer
 ;
-class
+struct
 WebGLVertexAttribData
 ;
 class

@@ -114,7 +114,7 @@ nsPresContext
 class
 nsStyleChangeList
 ;
-class
+struct
 ElementPropertyTransition
 ;
 namespace

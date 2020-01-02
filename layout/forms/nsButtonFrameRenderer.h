@@ -36,7 +36,7 @@ nsPresContext
 class
 nsRenderingContext
 ;
-class
+struct
 nsRect
 ;
 class

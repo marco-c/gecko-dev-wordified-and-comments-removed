@@ -4446,7 +4446,7 @@ PersistentRooted
 >
 ;
 friend
-class
+struct
 js
 :
 :

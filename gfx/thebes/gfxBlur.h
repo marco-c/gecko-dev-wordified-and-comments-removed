@@ -50,10 +50,10 @@ gfxRect
 struct
 gfxRGBA
 ;
-class
+struct
 gfxCornerSizes
 ;
-class
+struct
 gfxMatrix
 ;
 namespace

@@ -712,7 +712,7 @@ void
 stackTop
 )
 ;
-class
+struct
 PseudoStack
 ;
 class

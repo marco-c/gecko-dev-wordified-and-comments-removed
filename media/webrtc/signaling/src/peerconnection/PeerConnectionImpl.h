@@ -297,10 +297,10 @@ endif
 namespace
 dom
 {
-class
+struct
 RTCConfiguration
 ;
-class
+struct
 MediaConstraintsInternal
 ;
 class
@@ -955,7 +955,7 @@ has_slots
 <
 >
 {
-class
+struct
 Internal
 ;
 public

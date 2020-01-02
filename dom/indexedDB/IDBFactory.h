@@ -107,7 +107,7 @@ dom
 class
 nsIContentParent
 ;
-class
+struct
 IDBOpenDBOptions
 ;
 namespace

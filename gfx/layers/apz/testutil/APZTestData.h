@@ -99,7 +99,7 @@ APZTestData
 >
 ;
 friend
-class
+struct
 APZTestDataToJSConverter
 ;
 public

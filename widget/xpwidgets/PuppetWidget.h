@@ -93,7 +93,7 @@ TabChild
 namespace
 widget
 {
-class
+struct
 AutoCacheNativeKeyCommands
 ;
 class
@@ -494,7 +494,7 @@ aCallbackData
 MOZ_OVERRIDE
 ;
 friend
-class
+struct
 AutoCacheNativeKeyCommands
 ;
 virtual

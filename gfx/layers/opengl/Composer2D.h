@@ -24,7 +24,7 @@ mozilla
 namespace
 gfx
 {
-struct
+class
 Matrix
 ;
 }

@@ -18,7 +18,7 @@ class
 CSSVariableResolver
 ;
 }
-class
+struct
 nsRuleData
 ;
 namespace

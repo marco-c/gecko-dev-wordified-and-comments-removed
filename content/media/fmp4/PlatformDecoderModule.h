@@ -56,7 +56,7 @@ VideoDecoderConfig
 class
 AudioDecoderConfig
 ;
-struct
+class
 MP4Sample
 ;
 }

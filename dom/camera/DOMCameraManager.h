@@ -95,7 +95,7 @@ nsDOMCameraControl
 namespace
 dom
 {
-class
+struct
 CameraConfiguration
 ;
 class

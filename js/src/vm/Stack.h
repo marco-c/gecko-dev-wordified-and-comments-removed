@@ -101,7 +101,7 @@ InterpreterFrame
 class
 StaticBlockObject
 ;
-struct
+class
 ScopeCoordinate
 ;
 enum

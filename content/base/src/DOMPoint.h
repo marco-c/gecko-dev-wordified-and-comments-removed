@@ -70,7 +70,7 @@ dom
 class
 GlobalObject
 ;
-class
+struct
 DOMPointInit
 ;
 class

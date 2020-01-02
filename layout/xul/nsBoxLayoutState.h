@@ -31,7 +31,7 @@ nsRenderingContext
 class
 nsCalculatedBoxInfo
 ;
-struct
+class
 nsHTMLReflowMetrics
 ;
 struct

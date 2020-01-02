@@ -152,7 +152,7 @@ ContainerLayer
 class
 PCompositorParent
 ;
-class
+struct
 ViewTransform
 ;
 class

@@ -103,7 +103,7 @@ gfxTextPerfMetrics
 class
 gfxUserFontSet
 ;
-class
+struct
 nsFont
 ;
 class
@@ -127,7 +127,7 @@ nsIScreenManager
 class
 nsIWidget
 ;
-class
+struct
 nsRect
 ;
 class

@@ -63,10 +63,10 @@ nsCOMArray
 class
 nsIMemoryReporter
 ;
-class
+struct
 XPTHeader
 ;
-class
+struct
 XPTInterfaceDirectoryEntry
 ;
 class

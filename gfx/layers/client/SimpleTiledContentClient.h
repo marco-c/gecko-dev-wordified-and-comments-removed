@@ -27,7 +27,7 @@ layers
 class
 ClientTiledThebesLayer
 ;
-class
+struct
 SimpleTiledLayerTile
 ;
 class

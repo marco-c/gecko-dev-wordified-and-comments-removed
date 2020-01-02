@@ -25,7 +25,7 @@ WritingModes
 .
 h
 "
-class
+struct
 nsHTMLReflowState
 ;
 #

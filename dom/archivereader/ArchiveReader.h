@@ -54,7 +54,7 @@ mozilla
 namespace
 dom
 {
-class
+struct
 ArchiveReaderOptions
 ;
 class

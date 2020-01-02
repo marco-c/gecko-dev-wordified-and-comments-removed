@@ -80,7 +80,7 @@ mozilla
 namespace
 dom
 {
-class
+struct
 PositionOptions
 ;
 }

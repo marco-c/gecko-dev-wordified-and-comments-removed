@@ -91,7 +91,7 @@ mozilla
 namespace
 dom
 {
-class
+struct
 MediaKeyMessageEventInit
 ;
 class

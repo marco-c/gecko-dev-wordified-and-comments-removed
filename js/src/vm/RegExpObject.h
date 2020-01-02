@@ -66,7 +66,7 @@ h
 namespace
 js
 {
-class
+struct
 MatchPair
 ;
 class

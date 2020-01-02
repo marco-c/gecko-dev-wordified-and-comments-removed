@@ -22,7 +22,7 @@ Snapshots
 .
 h
 "
-class
+struct
 JSContext
 ;
 namespace

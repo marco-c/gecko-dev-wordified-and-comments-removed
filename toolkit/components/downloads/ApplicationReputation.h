@@ -55,7 +55,7 @@ PendingDBLookup
 class
 PendingLookup
 ;
-class
+struct
 PRLogModuleInfo
 ;
 class

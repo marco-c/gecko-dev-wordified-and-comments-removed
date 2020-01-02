@@ -132,10 +132,10 @@ PeerIdentity
 namespace
 dom
 {
-class
+struct
 RTCInboundRTPStreamStats
 ;
-class
+struct
 RTCOutboundRTPStreamStats
 ;
 }

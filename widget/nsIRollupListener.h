@@ -17,7 +17,7 @@ nsIContent
 class
 nsIWidget
 ;
-class
+struct
 nsIntPoint
 ;
 class

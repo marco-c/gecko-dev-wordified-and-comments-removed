@@ -41,7 +41,7 @@ nsThreadUtils
 .
 h
 "
-class
+struct
 JSContext
 ;
 class

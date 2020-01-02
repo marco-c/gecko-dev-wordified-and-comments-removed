@@ -89,7 +89,7 @@ dom
 class
 ConsoleCallData
 ;
-class
+struct
 ConsoleStackEntry
 ;
 class

@@ -213,7 +213,7 @@ h
 class
 gfxContext
 ;
-class
+struct
 nsRect
 ;
 %

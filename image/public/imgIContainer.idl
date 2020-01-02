@@ -206,7 +206,7 @@ mozilla
 namespace
 image
 {
-class
+struct
 Orientation
 ;
 }

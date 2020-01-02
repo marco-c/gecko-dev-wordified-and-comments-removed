@@ -21,7 +21,7 @@ h
 class
 nsContainerFrame
 ;
-class
+struct
 nsHTMLReflowState
 ;
 class

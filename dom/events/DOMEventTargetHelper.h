@@ -82,7 +82,7 @@ EventTarget
 .
 h
 "
-class
+struct
 JSCompartment
 ;
 namespace

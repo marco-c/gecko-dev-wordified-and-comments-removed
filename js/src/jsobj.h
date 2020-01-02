@@ -89,7 +89,7 @@ js
 class
 AutoPropDescVector
 ;
-struct
+class
 GCMarker
 ;
 struct
@@ -693,7 +693,7 @@ js
 Shape
 ;
 friend
-struct
+class
 js
 :
 :

@@ -52,7 +52,7 @@ ObjectImpl
 namespace
 gc
 {
-class
+struct
 ArenaHeader
 ;
 }
@@ -66,7 +66,7 @@ JitCode
 namespace
 types
 {
-class
+struct
 TypeObject
 ;
 }

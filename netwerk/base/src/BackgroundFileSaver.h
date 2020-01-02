@@ -78,7 +78,7 @@ nsIThread
 class
 nsIX509CertList
 ;
-class
+struct
 PRLogModuleInfo
 ;
 namespace

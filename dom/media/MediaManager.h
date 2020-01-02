@@ -195,7 +195,7 @@ mozilla
 namespace
 dom
 {
-class
+struct
 MediaStreamConstraints
 ;
 class

@@ -63,7 +63,7 @@ gfxFontFeature
 struct
 gfxAlternateValue
 ;
-class
+struct
 nsCSSValueList
 ;
 class

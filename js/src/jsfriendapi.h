@@ -156,7 +156,7 @@ JSLinearString
 struct
 JSJitInfo
 ;
-class
+struct
 JSErrorReport
 ;
 namespace

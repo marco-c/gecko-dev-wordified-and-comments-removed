@@ -58,7 +58,7 @@ COORDINATE_EPSILON
 .
 01f
 ;
-class
+struct
 FrameMetrics
 ;
 class

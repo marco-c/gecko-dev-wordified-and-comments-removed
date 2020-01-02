@@ -184,7 +184,7 @@ h
 "
 ;
 using
-struct
+class
 mozilla
 :
 :

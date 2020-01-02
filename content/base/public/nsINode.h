@@ -148,7 +148,7 @@ nsAttrAndChildArray
 class
 nsChildContentList
 ;
-class
+struct
 nsCSSSelectorList
 ;
 class

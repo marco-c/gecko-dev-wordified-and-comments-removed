@@ -166,7 +166,7 @@ nsIURI
 namespace
 JS
 {
-class
+struct
 RuntimeStats
 ;
 }
