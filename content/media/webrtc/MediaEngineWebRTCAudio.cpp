@@ -795,13 +795,6 @@ AdvanceKnownTracksTime
 STREAM_TIME_MAX
 )
 ;
-aStream
--
->
-RegisterForAudioMixing
-(
-)
-;
 LOG
 (
 (
