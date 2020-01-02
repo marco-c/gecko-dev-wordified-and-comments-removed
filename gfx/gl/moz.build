@@ -307,6 +307,11 @@ GLLibraryLoader
 h
 '
 '
+GLReadTexImageHelper
+.
+h
+'
+'
 GLScreenBuffer
 .
 h
@@ -742,6 +747,11 @@ cpp
 '
 '
 GLLibraryLoader
+.
+cpp
+'
+'
+GLReadTexImageHelper
 .
 cpp
 '
