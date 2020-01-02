@@ -646,7 +646,7 @@ aResult
 }
 ;
 class
-nsSafeFileOutputStream
+nsAtomicFileOutputStream
 :
 public
 nsFileOutputStream
@@ -657,7 +657,7 @@ public
 :
 NS_DECL_ISUPPORTS_INHERITED
 NS_DECL_NSISAFEOUTPUTSTREAM
-nsSafeFileOutputStream
+nsAtomicFileOutputStream
 (
 )
 :
@@ -673,7 +673,7 @@ NS_OK
 }
 virtual
 ~
-nsSafeFileOutputStream
+nsAtomicFileOutputStream
 (
 )
 {
@@ -687,6 +687,7 @@ nsresult
 DoOpen
 (
 )
+MOZ_OVERRIDE
 ;
 NS_IMETHODIMP
 Close
@@ -740,6 +741,21 @@ mTargetFileExists
 ;
 nsresult
 mWriteResult
+;
+}
+;
+class
+nsSafeFileOutputStream
+:
+public
+nsAtomicFileOutputStream
+{
+public
+:
+NS_IMETHOD
+Finish
+(
+)
 ;
 }
 ;
