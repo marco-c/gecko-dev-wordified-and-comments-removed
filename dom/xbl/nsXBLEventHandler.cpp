@@ -676,7 +676,7 @@ case
 eMouseEventClass
 :
 case
-NS_MOUSE_SCROLL_EVENT
+eMouseScrollEventClass
 :
 case
 NS_WHEEL_EVENT

@@ -597,7 +597,7 @@ case
 eMouseEventClass
 :
 case
-NS_MOUSE_SCROLL_EVENT
+eMouseScrollEventClass
 :
 case
 NS_WHEEL_EVENT
@@ -791,7 +791,7 @@ case
 eMouseEventClass
 :
 case
-NS_MOUSE_SCROLL_EVENT
+eMouseScrollEventClass
 :
 case
 NS_WHEEL_EVENT
@@ -3389,7 +3389,7 @@ aEvent
 mClass
 !
 =
-NS_MOUSE_SCROLL_EVENT
+eMouseScrollEventClass
 &
 &
 aEvent
@@ -3689,7 +3689,7 @@ aEvent
 mClass
 !
 =
-NS_MOUSE_SCROLL_EVENT
+eMouseScrollEventClass
 &
 &
 aEvent

@@ -9363,7 +9363,7 @@ aEvent
 mClass
 !
 =
-NS_MOUSE_SCROLL_EVENT
+eMouseScrollEventClass
 &
 &
 aEvent

@@ -2707,7 +2707,7 @@ event
 mClass
 =
 =
-NS_MOUSE_SCROLL_EVENT
+eMouseScrollEventClass
 |
 |
 event

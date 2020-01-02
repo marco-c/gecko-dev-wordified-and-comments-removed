@@ -3317,7 +3317,7 @@ AsFocusEvent
 )
 ;
 case
-NS_MOUSE_SCROLL_EVENT
+eMouseScrollEventClass
 :
 return
 NS_NewDOMMouseScrollEvent

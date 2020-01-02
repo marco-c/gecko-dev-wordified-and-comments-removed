@@ -542,7 +542,7 @@ mEvent
 mClass
 !
 =
-NS_MOUSE_SCROLL_EVENT
+eMouseScrollEventClass
 &
 &
 mEvent
@@ -1247,7 +1247,7 @@ mEvent
 mClass
 !
 =
-NS_MOUSE_SCROLL_EVENT
+eMouseScrollEventClass
 &
 &
 mEvent

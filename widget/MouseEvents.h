@@ -1091,7 +1091,7 @@ WidgetMouseEventBase
 aIsTrusted
 aMessage
 aWidget
-NS_MOUSE_SCROLL_EVENT
+eMouseScrollEventClass
 )
 delta
 (
@@ -1117,7 +1117,7 @@ MOZ_ASSERT
 mClass
 =
 =
-NS_MOUSE_SCROLL_EVENT
+eMouseScrollEventClass
 "
 Duplicate
 (
