@@ -10106,7 +10106,7 @@ ifneq
 XPI_PKGNAME
 )
 )
-libs
+tools
 realchrome
 :
 :
@@ -10397,7 +10397,7 @@ for
 INSTALL_EXTENSION_ID
 )
 endif
-libs
+tools
 :
 :
 (
