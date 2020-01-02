@@ -234,12 +234,6 @@ mTextureState
 bool
 mBound
 ;
-virtual
-void
-ApplyFilter
-(
-)
-;
 }
 ;
 already_AddRefed

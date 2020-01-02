@@ -103,14 +103,6 @@ aTextureUnit
 MOZ_OVERRIDE
 ;
 virtual
-void
-UnbindTexture
-(
-)
-MOZ_OVERRIDE
-{
-}
-virtual
 gfx
 :
 :
