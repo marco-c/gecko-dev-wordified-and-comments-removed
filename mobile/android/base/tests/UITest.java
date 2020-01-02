@@ -247,10 +247,6 @@ Activity
 sLauncherActivityClass
 ;
 private
-Activity
-mActivity
-;
-private
 Solo
 mSolo
 ;
@@ -391,7 +387,9 @@ setActivityIntent
 intent
 )
 ;
-mActivity
+final
+Activity
+activity
 =
 getActivity
 (
@@ -473,7 +471,7 @@ Solo
 getInstrumentation
 (
 )
-mActivity
+activity
 )
 ;
 mDriver
@@ -481,7 +479,7 @@ mDriver
 new
 FennecNativeDriver
 (
-mActivity
+activity
 mSolo
 rootPath
 )
@@ -491,7 +489,7 @@ mActions
 new
 FennecNativeActions
 (
-mActivity
+activity
 mSolo
 getInstrumentation
 (
