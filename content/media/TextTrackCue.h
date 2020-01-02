@@ -318,6 +318,10 @@ mStartTime
 =
 aStartTime
 ;
+mReset
+=
+true
+;
 CueChanged
 (
 )
@@ -354,6 +358,10 @@ return
 mEndTime
 =
 aEndTime
+;
+mReset
+=
+true
 ;
 CueChanged
 (
