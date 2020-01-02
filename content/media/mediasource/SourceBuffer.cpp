@@ -983,6 +983,12 @@ ErrorResult
 aRv
 )
 {
+aData
+.
+ComputeLengthAndData
+(
+)
+;
 AppendData
 (
 aData
@@ -1014,6 +1020,12 @@ ErrorResult
 aRv
 )
 {
+aData
+.
+ComputeLengthAndData
+(
+)
+;
 AppendData
 (
 aData

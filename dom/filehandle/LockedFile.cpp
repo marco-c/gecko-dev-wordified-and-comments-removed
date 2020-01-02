@@ -2969,6 +2969,12 @@ ErrorResult
 aRv
 )
 {
+aValue
+.
+ComputeLengthAndData
+(
+)
+;
 const
 char
 *

@@ -299,6 +299,12 @@ return
 nullptr
 ;
 }
+aArray
+.
+ComputeLengthAndData
+(
+)
+;
 uint32_t
 dataLen
 =
