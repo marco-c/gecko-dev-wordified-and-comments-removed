@@ -12686,6 +12686,17 @@ mAntialiasOption
 if
 (
 mScaledFont
+&
+&
+dt
+-
+>
+GetType
+(
+)
+!
+=
+BACKEND_CAIRO
 )
 {
 cairo_matrix_t
