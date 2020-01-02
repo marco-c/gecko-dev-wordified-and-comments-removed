@@ -607,15 +607,7 @@ format
 ;
 if
 (
-gfxPlatform
-:
-:
-GetPlatform
-(
-)
--
->
-PreferMemoryOverShmem
+IsSameProcess
 (
 )
 )
