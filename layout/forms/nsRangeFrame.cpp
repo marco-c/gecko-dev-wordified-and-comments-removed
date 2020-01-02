@@ -2509,7 +2509,7 @@ PresShell
 )
 -
 >
-GetReferenceRenderingContext
+CreateReferenceRenderingContext
 (
 )
 ;

@@ -524,7 +524,7 @@ already_AddRefed
 nsRenderingContext
 >
 )
-GetReferenceRenderingContext
+CreateReferenceRenderingContext
 (
 )
 ;

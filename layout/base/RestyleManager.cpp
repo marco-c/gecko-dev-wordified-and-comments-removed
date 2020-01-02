@@ -1618,12 +1618,12 @@ PresContext
 )
 -
 >
-GetPresShell
+PresShell
 (
 )
 -
 >
-GetReferenceRenderingContext
+CreateReferenceRenderingContext
 (
 )
 ;

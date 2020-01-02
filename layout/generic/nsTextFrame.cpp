@@ -8363,7 +8363,7 @@ already_AddRefed
 <
 gfxContext
 >
-GetReferenceRenderingContext
+CreateReferenceThebesContext
 (
 nsTextFrame
 *
@@ -8389,17 +8389,9 @@ PresShell
 )
 -
 >
-GetReferenceRenderingContext
+CreateReferenceRenderingContext
 (
 )
-;
-if
-(
-!
-tmp
-)
-return
-nullptr
 ;
 nsRefPtr
 <
@@ -8454,7 +8446,7 @@ ctx
 {
 ctx
 =
-GetReferenceRenderingContext
+CreateReferenceThebesContext
 (
 aTextFrame
 )
@@ -12917,7 +12909,7 @@ ctx
 {
 ctx
 =
-GetReferenceRenderingContext
+CreateReferenceThebesContext
 (
 this
 )
@@ -14491,7 +14483,7 @@ GetContext
 )
 {
 return
-GetReferenceRenderingContext
+CreateReferenceThebesContext
 (
 GetFrame
 (
