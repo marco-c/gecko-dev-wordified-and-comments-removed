@@ -530,9 +530,6 @@ checkAliasing
 script
 (
 )
-maybeBlockChain
-(
-)
 i
 )
 ;

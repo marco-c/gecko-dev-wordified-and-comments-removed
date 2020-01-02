@@ -16935,7 +16935,7 @@ pn1
 >
 setOp
 (
-JSOP_LEAVEBLOCK
+JSOP_POPN
 )
 ;
 pn1
@@ -17157,13 +17157,16 @@ getOp
 )
 !
 =
-JSOP_LEAVEBLOCK
+JSOP_POPNV
 pn
+-
+>
+pn_expr
 -
 >
 isOp
 (
-JSOP_NOP
+JSOP_POPN
 )
 )
 ;
