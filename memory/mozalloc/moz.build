@@ -222,7 +222,7 @@ msvc_throw_wrapper
 cpp
 '
 ]
-SOURCES
+UNIFIED_SOURCES
 +
 =
 [
