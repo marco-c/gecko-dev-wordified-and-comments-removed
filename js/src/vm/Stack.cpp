@@ -7655,7 +7655,7 @@ if
 active
 )
 {
-prevIonTop_
+prevJitTop_
 =
 cx
 -
@@ -7664,7 +7664,7 @@ mainThread
 (
 )
 .
-ionTop
+jitTop
 ;
 prevJitJSContext_
 =
@@ -7691,7 +7691,7 @@ cx
 }
 else
 {
-prevIonTop_
+prevJitTop_
 =
 nullptr
 ;
@@ -7737,7 +7737,7 @@ nullptr
 #
 endif
 {
-prevIonTop_
+prevJitTop_
 =
 cx
 -
@@ -7745,7 +7745,7 @@ cx
 perThreadData
 -
 >
-ionTop
+jitTop
 ;
 prevJitJSContext_
 =
@@ -7790,9 +7790,9 @@ cx_
 perThreadData
 -
 >
-ionTop
+jitTop
 =
-prevIonTop_
+prevJitTop_
 ;
 cx_
 -
@@ -7868,7 +7868,7 @@ if
 active
 )
 {
-prevIonTop_
+prevJitTop_
 =
 cx
 -
@@ -7877,7 +7877,7 @@ mainThread
 (
 )
 .
-ionTop
+jitTop
 ;
 prevJitJSContext_
 =
@@ -7911,9 +7911,9 @@ mainThread
 (
 )
 .
-ionTop
+jitTop
 =
-prevIonTop_
+prevJitTop_
 ;
 cx
 -
@@ -8849,7 +8849,7 @@ rt
 >
 mainThread
 .
-ionTop
+jitTop
 )
 activation_
 (
@@ -8881,7 +8881,7 @@ jitTop_
 perThreadData
 -
 >
-ionTop
+jitTop
 )
 activation_
 (
@@ -8944,7 +8944,7 @@ asJit
 )
 -
 >
-prevIonTop
+prevJitTop
 (
 )
 ;

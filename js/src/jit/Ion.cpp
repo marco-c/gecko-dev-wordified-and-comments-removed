@@ -814,6 +814,13 @@ ionCodeProtected_
 (
 false
 )
+ionReturnOverride_
+(
+MagicValue
+(
+JS_ARG_POISON
+)
+)
 {
 }
 JitRuntime
@@ -12020,6 +12027,11 @@ runtime
 )
 -
 >
+jitRuntime
+(
+)
+-
+>
 hasIonReturnOverride
 (
 )
@@ -12792,6 +12804,11 @@ runtime
 )
 -
 >
+jitRuntime
+(
+)
+-
+>
 hasIonReturnOverride
 (
 )
@@ -12844,7 +12861,7 @@ FreeOp
 fop
 uint8_t
 *
-ionTop
+jitTop
 bool
 invalidateAll
 )
@@ -12869,7 +12886,7 @@ for
 JitFrameIterator
 it
 (
-ionTop
+jitTop
 SequentialExecution
 )
 ;

@@ -369,7 +369,7 @@ mainThread
 (
 )
 .
-ionTop
+jitTop
 returnAddrOut
 SequentialExecution
 )
@@ -400,7 +400,7 @@ cx
 perThreadData
 -
 >
-ionTop
+jitTop
 returnAddrOut
 ParallelExecution
 )

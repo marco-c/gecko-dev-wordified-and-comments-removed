@@ -17652,7 +17652,7 @@ GetIonContext
 runtime
 -
 >
-addressOfIonTop
+addressOfJitTop
 (
 )
 ;
@@ -17697,7 +17697,7 @@ pt
 offsetof
 (
 PerThreadData
-ionTop
+jitTop
 )
 )
 )

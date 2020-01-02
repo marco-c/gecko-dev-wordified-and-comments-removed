@@ -3542,6 +3542,11 @@ runtime
 )
 -
 >
+jitRuntime
+(
+)
+-
+>
 hasIonReturnOverride
 (
 )
@@ -3575,6 +3580,11 @@ cx
 -
 >
 runtime
+(
+)
+-
+>
+jitRuntime
 (
 )
 -

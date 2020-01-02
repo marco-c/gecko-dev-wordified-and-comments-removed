@@ -61,7 +61,7 @@ mainThread
 const
 void
 *
-addressOfIonTop
+addressOfJitTop
 (
 )
 ;

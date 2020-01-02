@@ -701,6 +701,11 @@ runtime
 )
 -
 >
+jitRuntime
+(
+)
+-
+>
 hasIonReturnOverride
 (
 )

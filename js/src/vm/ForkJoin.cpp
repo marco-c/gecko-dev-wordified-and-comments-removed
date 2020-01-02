@@ -1507,7 +1507,7 @@ Activation
 cx
 ForkJoin
 )
-prevIonTop_
+prevJitTop_
 (
 cx
 -
@@ -1516,7 +1516,7 @@ mainThread
 (
 )
 .
-ionTop
+jitTop
 )
 av_
 (
@@ -1659,9 +1659,9 @@ cx_
 perThreadData
 -
 >
-ionTop
+jitTop
 =
-prevIonTop_
+prevJitTop_
 ;
 }
 static

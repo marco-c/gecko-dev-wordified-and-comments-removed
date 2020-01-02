@@ -40244,7 +40244,7 @@ offsetOfActivation
 )
 ;
 size_t
-offsetOfIonTop
+offsetOfJitTop
 =
 offsetof
 (
@@ -40255,7 +40255,7 @@ mainThread
 offsetof
 (
 PerThreadData
-ionTop
+jitTop
 )
 ;
 size_t
@@ -40346,7 +40346,7 @@ loadPtr
 Address
 (
 reg0
-offsetOfIonTop
+offsetOfJitTop
 )
 reg2
 )
@@ -40362,7 +40362,7 @@ reg1
 JitActivation
 :
 :
-offsetOfPrevIonTop
+offsetOfPrevJitTop
 (
 )
 )
@@ -40482,7 +40482,7 @@ offsetOfActivation
 )
 ;
 size_t
-offsetOfIonTop
+offsetOfJitTop
 =
 offsetof
 (
@@ -40493,7 +40493,7 @@ mainThread
 offsetof
 (
 PerThreadData
-ionTop
+jitTop
 )
 ;
 size_t
@@ -40587,7 +40587,7 @@ reg1
 JitActivation
 :
 :
-offsetOfPrevIonTop
+offsetOfPrevJitTop
 (
 )
 )
@@ -40602,7 +40602,7 @@ reg2
 Address
 (
 reg0
-offsetOfIonTop
+offsetOfJitTop
 )
 )
 ;
