@@ -108,7 +108,6 @@ int
 GetPacketDuration
 (
 )
-MOZ_OVERRIDE
 ;
 nsresult
 Init
@@ -131,10 +130,7 @@ OpusEncoder
 *
 mEncoder
 ;
-nsAutoPtr
-<
 AudioSegment
->
 mSourceSegment
 ;
 int
