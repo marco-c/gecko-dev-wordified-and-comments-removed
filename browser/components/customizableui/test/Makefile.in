@@ -109,6 +109,10 @@ browser_887438_currentset_shim
 .
 js
 \
+browser_890262_destroyWidget_after_add_to_panel
+.
+js
+\
 head
 .
 js
