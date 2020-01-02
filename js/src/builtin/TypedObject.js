@@ -460,6 +460,9 @@ JSMSG_TYPEDOBJECT_NO_SUCH_PROP
 propName
 )
 ;
+return
+undefined
+;
 }
 ;
 TypedObjectPointer
@@ -810,6 +813,9 @@ typeRepr
 )
 )
 ;
+return
+undefined
+;
 }
 TypedObjectPointer
 .
@@ -965,6 +971,9 @@ type
 type
 )
 ;
+return
+undefined
+;
 }
 TypedObjectPointer
 .
@@ -1046,6 +1055,9 @@ type
 +
 type
 )
+;
+return
+undefined
 ;
 }
 TypedObjectPointer
@@ -1241,6 +1253,9 @@ type
 +
 type
 )
+;
+return
+undefined
 ;
 }
 TypedObjectPointer
@@ -1588,6 +1603,7 @@ toSource
 (
 )
 )
+;
 }
 TypedObjectPointer
 .
@@ -1822,6 +1838,9 @@ type
 type
 )
 ;
+return
+undefined
+;
 }
 TypedObjectPointer
 .
@@ -1929,6 +1948,9 @@ type
 type
 )
 ;
+return
+undefined
+;
 }
 TypedObjectPointer
 .
@@ -1956,6 +1978,7 @@ toSource
 (
 )
 )
+;
 }
 function
 ConvertAndCopyTo
@@ -3007,6 +3030,9 @@ constant
 "
 )
 ;
+return
+undefined
+;
 }
 var
 X4LaneStrings
@@ -3145,6 +3171,9 @@ type
 constant
 "
 )
+;
+return
+undefined
 ;
 }
 function
