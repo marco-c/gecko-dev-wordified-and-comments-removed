@@ -352,6 +352,16 @@ buf
 1024
 ]
 ;
+memset
+(
+buf
+0
+sizeof
+(
+buf
+)
+)
+;
 fread
 (
 buf
@@ -363,6 +373,8 @@ sizeof
 (
 buf
 )
+-
+1
 fp
 )
 ;
