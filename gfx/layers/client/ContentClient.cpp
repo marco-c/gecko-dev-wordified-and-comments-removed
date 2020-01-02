@@ -2464,6 +2464,10 @@ frontBuffer
 updateRegion
 )
 ;
+FlushBuffers
+(
+)
+;
 mFrontClient
 -
 >
@@ -3374,6 +3378,10 @@ UpdateDestinationFrom
 (
 frontBuffer
 updateRegion
+)
+;
+FlushBuffers
+(
 )
 ;
 mFrontAndBackBufferDiffer

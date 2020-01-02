@@ -1040,6 +1040,11 @@ EnsureBufferOnWhite
 (
 )
 ;
+void
+FlushBuffers
+(
+)
+;
 virtual
 bool
 HaveBuffer
