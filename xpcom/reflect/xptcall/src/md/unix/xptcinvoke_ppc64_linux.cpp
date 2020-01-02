@@ -460,10 +460,15 @@ float
 )
 d
 ;
+#
+ifndef
+__LITTLE_ENDIAN__
 p
 +
 +
 ;
+#
+endif
 *
 p
 =
