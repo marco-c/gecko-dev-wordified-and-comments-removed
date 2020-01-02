@@ -468,7 +468,7 @@ aTransformToSurface
 )
 {
 }
-void
+bool
 RepositionChild
 (
 Layer
@@ -479,6 +479,9 @@ Layer
 aAfter
 )
 {
+return
+true
+;
 }
 }
 ;
