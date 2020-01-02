@@ -32128,6 +32128,16 @@ false
 pref
 (
 "
+touchcaret
+.
+enabled
+"
+false
+)
+;
+pref
+(
+"
 dom
 .
 wakelock
