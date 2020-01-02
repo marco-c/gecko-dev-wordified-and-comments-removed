@@ -387,7 +387,7 @@ serverURI
 =
 fxAccount
 .
-getServerURI
+getAccountServerURI
 (
 )
 ;
@@ -468,7 +468,7 @@ serverURI
 =
 fxAccount
 .
-getServerURI
+getAccountServerURI
 (
 )
 ;
