@@ -1936,7 +1936,6 @@ return
 surface
 ;
 }
-else
 if
 (
 format
@@ -1978,7 +1977,6 @@ return
 surface
 ;
 }
-else
 if
 (
 format
@@ -2055,6 +2053,13 @@ Invalid
 color
 conversion
 "
+)
+;
+surface
+-
+>
+Unmap
+(
 )
 ;
 return
