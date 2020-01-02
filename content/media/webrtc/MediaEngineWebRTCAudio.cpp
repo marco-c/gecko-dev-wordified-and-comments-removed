@@ -760,8 +760,6 @@ bool
 aNoiseOn
 uint32_t
 aNoise
-int32_t
-aPlayoutDelay
 )
 {
 LOG
@@ -927,10 +925,6 @@ aNoise
 ;
 }
 }
-mPlayoutDelay
-=
-aPlayoutDelay
-;
 if
 (
 mInitDone
