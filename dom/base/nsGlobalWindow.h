@@ -2075,6 +2075,16 @@ NS_DECL_CYCLE_COLLECTION_SKIPPABLE_SCRIPT_HOLDER_CLASS_AMBIGUOUS
 nsGlobalWindow
 nsIDOMEventTarget
 )
+#
+ifdef
+DEBUG
+void
+RiskyUnlink
+(
+)
+;
+#
+endif
 virtual
 NS_HIDDEN_
 (

@@ -338,6 +338,17 @@ Init
 (
 )
 ;
+#
+ifdef
+DEBUG
+static
+void
+UnlinkGhostWindows
+(
+)
+;
+#
+endif
 private
 :
 class
