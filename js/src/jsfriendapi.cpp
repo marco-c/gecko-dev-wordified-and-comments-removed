@@ -932,7 +932,6 @@ principals
 )
 return
 ;
-const
 JSPrincipals
 *
 trusted
@@ -5303,7 +5302,6 @@ DOMcallbacks
 ;
 }
 static
-const
 void
 *
 gDOMProxyHandlerFamily
@@ -5329,7 +5327,6 @@ js
 :
 SetDOMProxyInformation
 (
-const
 void
 *
 domProxyHandlerFamily
@@ -5352,7 +5349,6 @@ gDOMProxyShadowsCheck
 domProxyShadowsCheck
 ;
 }
-const
 void
 *
 js

@@ -817,7 +817,6 @@ nsXPCWrappedJSClass
 value
 ;
 static
-const
 struct
 PLDHashTableOps
 sOps
@@ -1072,7 +1071,6 @@ XPCNativeInterface
 value
 ;
 static
-const
 struct
 PLDHashTableOps
 sOps
@@ -1863,7 +1861,6 @@ key
 )
 ;
 static
-const
 struct
 PLDHashTableOps
 sOps
@@ -2194,7 +2191,6 @@ entry
 )
 ;
 static
-const
 struct
 PLDHashTableOps
 sOps
@@ -2440,7 +2436,6 @@ key
 )
 ;
 static
-const
 struct
 PLDHashTableOps
 sOps

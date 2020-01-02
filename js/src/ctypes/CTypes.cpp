@@ -3779,7 +3779,6 @@ result
 ;
 }
 static
-const
 JSErrorFormatString
 ErrorFormatString
 [

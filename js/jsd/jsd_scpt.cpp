@@ -824,7 +824,6 @@ he
 }
 }
 static
-const
 JSHashAllocOps
 script_alloc_ops
 =

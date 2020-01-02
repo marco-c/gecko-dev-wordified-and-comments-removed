@@ -810,8 +810,7 @@ BaseProxyHandler
 public
 :
 static
-const
-char
+int
 sDeadObjectFamily
 ;
 explicit
@@ -1157,8 +1156,7 @@ flags
 extern
 JS_FRIEND_DATA
 (
-const
-char
+int
 )
 sWrapperFamily
 ;

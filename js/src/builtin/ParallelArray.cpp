@@ -886,11 +886,9 @@ isNative
 )
 ;
 {
-static
 const
 char
 *
-const
 ctorStrs
 [
 NumCtors

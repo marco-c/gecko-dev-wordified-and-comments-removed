@@ -6370,8 +6370,8 @@ true
 ;
 }
 static
-const
 uint64_t
+const
 powersOf10
 [
 ]

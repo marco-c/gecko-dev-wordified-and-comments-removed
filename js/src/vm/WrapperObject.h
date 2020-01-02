@@ -31,8 +31,7 @@ namespace
 js
 {
 extern
-const
-char
+int
 sWrapperFamily
 ;
 class

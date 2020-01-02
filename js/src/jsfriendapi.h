@@ -3439,7 +3439,6 @@ void
 )
 SetDOMProxyInformation
 (
-const
 void
 *
 domProxyHandlerFamily
@@ -3449,7 +3448,6 @@ DOMProxyShadowsCheck
 domProxyShadowsCheck
 )
 ;
-const
 void
 *
 GetDOMProxyHandlerFamily
