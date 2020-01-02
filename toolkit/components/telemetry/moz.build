@@ -192,6 +192,11 @@ ThirdPartyCookieProbe
 .
 jsm
 '
+'
+UITelemetry
+.
+jsm
+'
 ]
 FAIL_ON_WARNINGS
 =
