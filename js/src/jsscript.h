@@ -5722,6 +5722,15 @@ ScriptDataTable
 ;
 extern
 void
+UnmarkScriptData
+(
+JSRuntime
+*
+rt
+)
+;
+extern
+void
 SweepScriptData
 (
 JSRuntime
