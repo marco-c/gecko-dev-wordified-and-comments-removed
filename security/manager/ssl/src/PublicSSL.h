@@ -26,10 +26,8 @@ StopSSLServerCertVerificationThreads
 )
 ;
 void
-ConfigureMD5
+DisableMD5
 (
-bool
-enabled
 )
 ;
 nsresult
