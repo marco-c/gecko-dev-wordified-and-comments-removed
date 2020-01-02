@@ -99,7 +99,7 @@ let
 previousValues
 =
 [
-24
+9
 1
 1
 1
