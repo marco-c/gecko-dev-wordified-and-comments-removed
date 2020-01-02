@@ -35,6 +35,13 @@ h
 >
 #
 include
+<
+assert
+.
+h
+>
+#
+include
 "
 cubeb
 /
