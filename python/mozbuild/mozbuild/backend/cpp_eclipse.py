@@ -5095,7 +5095,7 @@ PROJECT_ATTR
 value
 =
 "
-gecko
+Gecko
 "
 /
 >
@@ -5753,7 +5753,7 @@ PROJECT_ATTR
 value
 =
 "
-gecko
+Gecko
 "
 /
 >
