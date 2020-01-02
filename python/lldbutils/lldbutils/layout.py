@@ -138,7 +138,7 @@ lldbutils
 .
 layout
 .
-frametree
+frametreelimited
 frametreelimited
 '
 )
@@ -163,6 +163,6 @@ HandleCommand
 command
 alias
 ftl
-frametree
+frametreelimited
 '
 )
