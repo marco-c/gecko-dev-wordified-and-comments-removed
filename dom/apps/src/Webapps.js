@@ -5263,7 +5263,7 @@ fireSuccess
 req
 msg
 .
-origin
+manifestURL
 )
 ;
 break
