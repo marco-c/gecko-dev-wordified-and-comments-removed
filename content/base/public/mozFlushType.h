@@ -7,6 +7,9 @@ mozFlushType_h___
 enum
 mozFlushType
 {
+Flush_None
+=
+0
 Flush_Content
 =
 1

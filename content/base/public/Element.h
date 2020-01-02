@@ -2275,6 +2275,15 @@ y
 ;
 }
 }
+bool
+ScrollByNoFlush
+(
+int32_t
+aDx
+int32_t
+aDy
+)
+;
 int32_t
 ScrollWidth
 (
@@ -3338,6 +3347,10 @@ nsIFrame
 aStyledFrame
 =
 nullptr
+bool
+aFlushLayout
+=
+true
 )
 ;
 nsresult
