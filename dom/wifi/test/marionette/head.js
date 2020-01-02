@@ -840,6 +840,7 @@ function
 ensureWifiEnabled
 (
 aEnabled
+useAPI
 )
 {
 if
@@ -884,6 +885,7 @@ return
 requestWifiEnabled
 (
 aEnabled
+useAPI
 )
 ;
 }
@@ -891,6 +893,7 @@ function
 requestWifiEnabled
 (
 aEnabled
+useAPI
 )
 {
 return
@@ -911,6 +914,18 @@ enabled
 disabled
 '
 )
+useAPI
+?
+wrapDomRequestAsPromise
+(
+wifiManager
+.
+setWifiEnabled
+(
+aEnabled
+)
+)
+:
 setSettings
 (
 {
