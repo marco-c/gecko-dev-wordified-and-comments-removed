@@ -186,6 +186,14 @@ aDescr
 )
 ;
 nsresult
+SetAttributesForGrayscale
+(
+FilterPrimitiveDescription
+&
+aDescr
+)
+;
+nsresult
 SetAttributesForHueRotate
 (
 FilterPrimitiveDescription
