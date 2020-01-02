@@ -554,7 +554,7 @@ DebuggerView
 .
 Sources
 .
-prettyPrint
+togglePrettyPrint
 (
 )
 "

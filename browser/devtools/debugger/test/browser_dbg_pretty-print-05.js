@@ -203,7 +203,7 @@ try
 yield
 gControllerSources
 .
-prettyPrint
+togglePrettyPrint
 (
 source
 )
@@ -364,17 +364,6 @@ clickPrettyPrintButton
 (
 )
 {
-EventUtils
-.
-sendMouseEvent
-(
-{
-type
-:
-"
-click
-"
-}
 gDebugger
 .
 document
@@ -387,7 +376,9 @@ pretty
 print
 "
 )
-gDebugger
+.
+click
+(
 )
 ;
 }
