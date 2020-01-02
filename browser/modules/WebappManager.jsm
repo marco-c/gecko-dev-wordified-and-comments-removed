@@ -1165,6 +1165,7 @@ confirmInstall
 aData
 localDir
 (
+aApp
 aManifest
 aZipPath
 )
@@ -1187,6 +1188,7 @@ nativeApp
 .
 install
 (
+aApp
 aManifest
 aZipPath
 )
@@ -1203,9 +1205,7 @@ promise
 ;
 notifyInstallSuccess
 (
-aData
-.
-app
+aApp
 nativeApp
 bundle
 )

@@ -248,6 +248,7 @@ async
 function
 *
 (
+aApp
 aManifest
 aZipPath
 )
@@ -268,9 +269,7 @@ WebappOSUtils
 .
 getInstallPath
 (
-this
-.
-app
+aApp
 )
 )
 {
@@ -280,6 +279,7 @@ this
 .
 prepareUpdate
 (
+aApp
 aManifest
 aZipPath
 )
@@ -289,6 +289,7 @@ this
 .
 _setData
 (
+aApp
 aManifest
 )
 ;
@@ -502,6 +503,7 @@ async
 function
 *
 (
+aApp
 aManifest
 aZipPath
 )
@@ -520,6 +522,7 @@ this
 .
 _setData
 (
+aApp
 aManifest
 )
 ;
@@ -530,9 +533,7 @@ WebappOSUtils
 .
 getInstallPath
 (
-this
-.
-app
+aApp
 )
 ;
 if
@@ -711,6 +712,7 @@ async
 function
 *
 (
+aApp
 )
 {
 if
@@ -730,9 +732,7 @@ WebappOSUtils
 .
 getInstallPath
 (
-this
-.
-app
+aApp
 )
 ;
 let

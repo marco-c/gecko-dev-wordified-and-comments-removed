@@ -502,6 +502,9 @@ nativeApp
 .
 applyUpdate
 (
+config
+.
+app
 )
 ;
 }

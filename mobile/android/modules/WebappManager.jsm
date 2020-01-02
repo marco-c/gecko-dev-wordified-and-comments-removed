@@ -1168,6 +1168,7 @@ file
 (
 function
 (
+aApp
 aManifest
 )
 {

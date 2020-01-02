@@ -474,6 +474,7 @@ new
 TestAppInfo
 (
 app
+true
 )
 ;
 let
@@ -595,6 +596,7 @@ nativeApp
 .
 prepareUpdate
 (
+app
 manifest
 zipPath
 )
@@ -725,10 +727,9 @@ if
 MAC
 )
 {
-nativeApp
-.
-_rootInstallDir
-=
+yield
+setMacRootInstallDir
+(
 OS
 .
 Path
@@ -746,22 +747,6 @@ homeDir
 Applications
 "
 )
-;
-yield
-OS
-.
-File
-.
-makeDir
-(
-nativeApp
-.
-_rootInstallDir
-{
-ignoreExisting
-:
-true
-}
 )
 ;
 }
@@ -782,6 +767,7 @@ nativeApp
 .
 install
 (
+app
 manifest
 zipPath
 )
@@ -933,6 +919,7 @@ nativeApp
 .
 install
 (
+app
 manifest
 zipPath
 )
@@ -1009,6 +996,7 @@ nativeApp
 .
 applyUpdate
 (
+app
 )
 ;
 while
@@ -1189,6 +1177,7 @@ nativeApp
 .
 prepareUpdate
 (
+app
 manifest
 zipPath
 )
@@ -1265,6 +1254,7 @@ nativeApp
 .
 applyUpdate
 (
+app
 )
 ;
 while
