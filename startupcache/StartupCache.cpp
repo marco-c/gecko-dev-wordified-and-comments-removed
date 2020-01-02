@@ -494,13 +494,6 @@ SC_WORDSIZE
 "
 SC_ENDIAN
 ;
-static
-NS_DEFINE_CID
-(
-kZipReaderCID
-NS_ZIPREADER_CID
-)
-;
 StartupCache
 *
 StartupCache

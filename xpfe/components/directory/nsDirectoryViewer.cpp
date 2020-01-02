@@ -259,13 +259,6 @@ mozilla
 static
 const
 int
-FORMAT_HTML
-=
-2
-;
-static
-const
-int
 FORMAT_XUL
 =
 3

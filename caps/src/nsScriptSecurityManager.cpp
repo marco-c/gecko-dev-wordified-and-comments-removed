@@ -430,13 +430,6 @@ mozilla
 :
 dom
 ;
-static
-NS_DEFINE_CID
-(
-kZipReaderCID
-NS_ZIPREADER_CID
-)
-;
 nsIIOService
 *
 nsScriptSecurityManager

@@ -72,13 +72,6 @@ kUsPerSec
 ;
 static
 const
-uint64_t
-kNsPerSec
-=
-1000000000
-;
-static
-const
 double
 kNsPerMsd
 =
