@@ -78,7 +78,7 @@ RegisterCurrentThread
 (
 nsThread
 *
-thread
+aThread
 )
 ;
 void
@@ -86,7 +86,7 @@ UnregisterCurrentThread
 (
 nsThread
 *
-thread
+aThread
 )
 ;
 nsThread

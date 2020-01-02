@@ -30,14 +30,14 @@ void
 NS_DispatchEventualMemoryPressure
 (
 MemoryPressureState
-state
+aState
 )
 ;
 nsresult
 NS_DispatchMemoryPressure
 (
 MemoryPressureState
-state
+aState
 )
 ;
 #

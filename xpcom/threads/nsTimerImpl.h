@@ -289,6 +289,7 @@ cbType
 =
 CALLBACK_TYPE_INTERFACE
 )
+{
 NS_RELEASE
 (
 mCallback
@@ -296,6 +297,7 @@ mCallback
 i
 )
 ;
+}
 else
 if
 (
@@ -304,6 +306,7 @@ cbType
 =
 CALLBACK_TYPE_OBSERVER
 )
+{
 NS_RELEASE
 (
 mCallback
@@ -311,6 +314,7 @@ mCallback
 o
 )
 ;
+}
 }
 bool
 IsRepeating

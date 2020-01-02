@@ -93,7 +93,7 @@ ShutdownThread
 (
 nsIThread
 *
-thread
+aThread
 )
 ;
 nsresult
@@ -101,7 +101,7 @@ PutEvent
 (
 nsIRunnable
 *
-event
+aEvent
 )
 ;
 nsCOMArray
