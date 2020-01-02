@@ -1577,9 +1577,6 @@ const
 nsIntSize
 &
 aSize
-gfxASurface
-:
-:
 gfxContentType
 aType
 )

@@ -13128,10 +13128,7 @@ aFrameRect
 .
 height
 )
-gfxImageSurface
-:
-:
-ImageFormatARGB32
+gfxImageFormatARGB32
 )
 ;
 if

@@ -231,9 +231,6 @@ class
 ContentClientIncremental
 ;
 typedef
-gfxASurface
-:
-:
 gfxImageFormat
 gfxImageFormat
 ;

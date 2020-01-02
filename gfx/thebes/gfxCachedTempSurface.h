@@ -39,9 +39,6 @@ gfxContext
 >
 Get
 (
-gfxASurface
-:
-:
 gfxContentType
 aContentType
 const
@@ -108,9 +105,6 @@ mSize
 nsExpirationState
 mExpirationState
 ;
-gfxASurface
-:
-:
 gfxSurfaceType
 mType
 ;

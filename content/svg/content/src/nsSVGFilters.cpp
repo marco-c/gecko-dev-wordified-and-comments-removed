@@ -892,10 +892,7 @@ new
 gfxImageSurface
 (
 scaledSize
-gfxASurface
-:
-:
-ImageFormatARGB32
+gfxImageFormatARGB32
 )
 ;
 result
@@ -906,10 +903,7 @@ new
 gfxImageSurface
 (
 scaledSize
-gfxASurface
-:
-:
-ImageFormatARGB32
+gfxImageFormatARGB32
 )
 ;
 if

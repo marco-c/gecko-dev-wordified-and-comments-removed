@@ -47,9 +47,6 @@ gfxIntSize
 aSize
 long
 aStride
-gfxASurface
-:
-:
 gfxImageFormat
 aFormat
 const

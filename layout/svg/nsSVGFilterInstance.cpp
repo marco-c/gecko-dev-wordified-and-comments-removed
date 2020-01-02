@@ -405,10 +405,7 @@ mSurfaceRect
 .
 height
 )
-gfxASurface
-:
-:
-ImageFormatARGB32
+gfxImageFormatARGB32
 )
 ;
 if
@@ -2080,10 +2077,7 @@ mSurfaceRect
 .
 height
 )
-gfxASurface
-:
-:
-CONTENT_COLOR_ALPHA
+GFX_CONTENT_COLOR_ALPHA
 )
 ;
 if
@@ -2488,10 +2482,7 @@ mSurfaceRect
 .
 height
 )
-gfxASurface
-:
-:
-CONTENT_COLOR_ALPHA
+GFX_CONTENT_COLOR_ALPHA
 )
 ;
 if

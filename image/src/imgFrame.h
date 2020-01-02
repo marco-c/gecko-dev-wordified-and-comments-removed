@@ -131,9 +131,6 @@ int32_t
 aWidth
 int32_t
 aHeight
-gfxASurface
-:
-:
 gfxImageFormat
 aFormat
 uint8_t
@@ -204,9 +201,6 @@ GetRect
 )
 const
 ;
-gfxASurface
-:
-:
 gfxImageFormat
 GetFormat
 (
@@ -489,10 +483,7 @@ mImageSurface
 size_t
 SizeOfExcludingThisWithComputedFallbackIfHeap
 (
-gfxASurface
-:
-:
-MemoryLocation
+gfxMemoryLocation
 aLocation
 mozilla
 :
@@ -553,9 +544,6 @@ gfxDrawable
 >
 mDrawable
 ;
-gfxImageSurface
-:
-:
 gfxImageFormat
 mFormat
 ;
@@ -569,9 +557,6 @@ SurfaceWithFormat
 gfxDrawable
 *
 aDrawable
-gfxImageSurface
-:
-:
 gfxImageFormat
 aFormat
 )
@@ -701,9 +686,6 @@ mDisposalMethod
 int32_t
 mLockCount
 ;
-gfxASurface
-:
-:
 gfxImageFormat
 mFormat
 ;

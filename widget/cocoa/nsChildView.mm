@@ -11088,10 +11088,7 @@ gfxSize
 1
 1
 )
-gfxASurface
-:
-:
-ImageFormatARGB32
+gfxImageFormatARGB32
 )
 ;
 }

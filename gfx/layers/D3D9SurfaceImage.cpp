@@ -495,10 +495,7 @@ new
 gfxImageSurface
 (
 mSize
-gfxASurface
-:
-:
-ImageFormatRGB24
+gfxImageFormatRGB24
 )
 ;
 if

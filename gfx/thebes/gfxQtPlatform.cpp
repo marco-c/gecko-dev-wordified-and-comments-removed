@@ -319,10 +319,7 @@ static
 gfxImageFormat
 sOffscreenFormat
 =
-gfxASurface
-:
-:
-ImageFormatRGB24
+gfxImageFormatRGB24
 ;
 #
 ifndef
@@ -597,10 +594,7 @@ depth
 {
 sOffscreenFormat
 =
-gfxASurface
-:
-:
-ImageFormatRGB16_565
+gfxImageFormatRGB16_565
 ;
 }
 mScreenDepth
@@ -948,9 +942,6 @@ const
 gfxIntSize
 &
 size
-gfxASurface
-:
-:
 gfxContentType
 contentType
 )
@@ -963,9 +954,6 @@ newSurface
 =
 nullptr
 ;
-gfxASurface
-:
-:
 gfxImageFormat
 imageFormat
 =

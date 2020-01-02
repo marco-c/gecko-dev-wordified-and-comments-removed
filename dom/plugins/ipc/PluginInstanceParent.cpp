@@ -2590,10 +2590,7 @@ GetType
 )
 =
 =
-gfxASurface
-:
-:
-SurfaceTypeXlib
+gfxSurfaceTypeXlib
 )
 {
 mFrontSurface
@@ -3892,10 +3889,7 @@ aSize
 .
 height
 )
-gfxASurface
-:
-:
-ImageFormatRGB24
+gfxImageFormatRGB24
 )
 ;
 return

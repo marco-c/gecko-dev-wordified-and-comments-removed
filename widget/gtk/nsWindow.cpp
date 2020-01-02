@@ -8564,10 +8564,7 @@ GetType
 )
 !
 =
-gfxASurface
-:
-:
-SurfaceTypeImage
+gfxSurfaceTypeImage
 )
 {
 gfxImageSurface
@@ -8752,10 +8749,7 @@ ctx
 >
 PushGroup
 (
-gfxASurface
-:
-:
-CONTENT_COLOR_ALPHA
+GFX_CONTENT_COLOR_ALPHA
 )
 ;
 #
@@ -9269,10 +9263,7 @@ Size
 (
 )
 )
-gfxImageSurface
-:
-:
-ImageFormatA8
+gfxImageFormatA8
 )
 ;
 if

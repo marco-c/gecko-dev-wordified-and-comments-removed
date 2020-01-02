@@ -602,10 +602,7 @@ gfxIntSize
 aScaledWidth
 aScaledHeight
 )
-gfxASurface
-:
-:
-ImageFormatARGB32
+gfxImageFormatARGB32
 )
 ;
 gfxContext
@@ -874,10 +871,7 @@ gfxIntSize
 aWidth
 aHeight
 )
-gfxASurface
-:
-:
-ImageFormatARGB32
+gfxImageFormatARGB32
 )
 ;
 gfxContext

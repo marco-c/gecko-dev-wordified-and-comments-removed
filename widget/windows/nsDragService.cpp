@@ -375,10 +375,7 @@ gfxIntSize
 bmWidth
 bmHeight
 )
-gfxImageSurface
-:
-:
-ImageFormatARGB32
+gfxImageFormatARGB32
 )
 ;
 if

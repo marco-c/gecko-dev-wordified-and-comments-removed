@@ -759,10 +759,7 @@ int32_t
 )
 height
 )
-gfxASurface
-:
-:
-ImageFormatARGB32
+gfxImageFormatARGB32
 true
 )
 ;

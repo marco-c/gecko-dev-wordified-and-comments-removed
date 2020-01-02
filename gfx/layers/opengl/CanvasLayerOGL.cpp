@@ -690,10 +690,7 @@ GetType
 )
 =
 =
-gfxASurface
-:
-:
-SurfaceTypeXlib
+gfxSurfaceTypeXlib
 )
 {
 gfxXlibSurface

@@ -189,9 +189,6 @@ const
 gfxIntSize
 &
 aSize
-gfxASurface
-:
-:
 gfxContentType
 aContent
 gfxSharedImageSurface
@@ -210,9 +207,6 @@ OptimalShmemType
 (
 )
 ;
-gfxASurface
-:
-:
 gfxImageFormat
 format
 =
@@ -281,9 +275,6 @@ const
 gfxIntSize
 &
 aSize
-gfxASurface
-:
-:
 gfxContentType
 aContent
 SurfaceDescriptor
@@ -311,9 +302,6 @@ const
 gfxIntSize
 &
 aSize
-gfxASurface
-:
-:
 gfxContentType
 aContent
 uint32_t
@@ -439,10 +427,7 @@ if
 format
 =
 =
-gfxASurface
-:
-:
-ImageFormatA8
+gfxImageFormatA8
 )
 {
 memset
@@ -722,9 +707,6 @@ PlatformAllocSurfaceDescriptor
 const
 gfxIntSize
 &
-gfxASurface
-:
-:
 gfxContentType
 uint32_t
 SurfaceDescriptor

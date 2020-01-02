@@ -406,9 +406,6 @@ int32_t
 aWidth
 int32_t
 aHeight
-gfxASurface
-:
-:
 gfxImageFormat
 aFormat
 uint8_t
@@ -446,9 +443,6 @@ int32_t
 aWidth
 int32_t
 aHeight
-gfxASurface
-:
-:
 gfxImageFormat
 aFormat
 uint8_t
@@ -1120,10 +1114,7 @@ const
 size_t
 SizeOfDecodedWithComputedFallbackIfHeap
 (
-gfxASurface
-:
-:
-MemoryLocation
+gfxMemoryLocation
 aLocation
 mozilla
 :
@@ -1179,9 +1170,6 @@ int32_t
 aWidth
 int32_t
 aHeight
-gfxASurface
-:
-:
 gfxImageFormat
 aFormat
 uint8_t

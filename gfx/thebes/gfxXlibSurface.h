@@ -290,10 +290,7 @@ visual
 )
 ;
 virtual
-gfxASurface
-:
-:
-MemoryLocation
+gfxMemoryLocation
 GetMemoryLocation
 (
 )

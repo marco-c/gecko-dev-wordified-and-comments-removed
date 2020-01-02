@@ -1727,10 +1727,7 @@ size
 .
 height
 )
-gfxASurface
-:
-:
-ImageFormatARGB32
+gfxImageFormatARGB32
 )
 ;
 if

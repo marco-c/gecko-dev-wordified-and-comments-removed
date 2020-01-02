@@ -125,9 +125,6 @@ ImageContainer
 aImageContainer
 nsIntSize
 aSize
-gfxASurface
-:
-:
 gfxImageFormat
 aImageFormat
 )
@@ -152,9 +149,6 @@ ImageContainer
 aImageContainer
 nsIntSize
 aSize
-gfxASurface
-:
-:
 gfxImageFormat
 aImageFormat
 )
@@ -162,9 +156,6 @@ aImageFormat
 public
 :
 typedef
-gfxASurface
-:
-:
 gfxImageFormat
 gfxImageFormat
 ;
@@ -314,9 +305,6 @@ public
 ISharedImage
 {
 typedef
-gfxASurface
-:
-:
 gfxImageFormat
 gfxImageFormat
 ;

@@ -2096,10 +2096,7 @@ yuvDeserializer
 GetYStride
 (
 )
-gfxASurface
-:
-:
-ImageFormatA8
+gfxImageFormatA8
 )
 ;
 }

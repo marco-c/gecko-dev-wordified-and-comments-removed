@@ -54,9 +54,6 @@ const
 0
 ;
 virtual
-gfxASurface
-:
-:
 gfxImageFormat
 Format
 (

@@ -21,9 +21,6 @@ const
 gfxIntSize
 &
 aSize
-gfxASurface
-:
-:
 gfxImageFormat
 aImageFormat
 )

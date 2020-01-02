@@ -326,10 +326,7 @@ new
 gfxImageSurface
 (
 surfaceSize
-gfxASurface
-:
-:
-ImageFormatARGB32
+gfxImageFormatARGB32
 )
 ;
 if

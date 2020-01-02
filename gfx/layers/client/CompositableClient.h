@@ -177,16 +177,10 @@ CreateDeprecatedTextureClient
 (
 DeprecatedTextureClientType
 aDeprecatedTextureClientType
-gfxASurface
-:
-:
 gfxContentType
 aContentType
 =
-gfxASurface
-:
-:
-CONTENT_SENTINEL
+GFX_CONTENT_SENTINEL
 )
 ;
 virtual

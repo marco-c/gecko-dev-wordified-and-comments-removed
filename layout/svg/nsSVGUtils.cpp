@@ -4581,10 +4581,7 @@ gfx
 >
 PushGroup
 (
-gfxASurface
-:
-:
-CONTENT_COLOR_ALPHA
+GFX_CONTENT_COLOR_ALPHA
 )
 ;
 }
@@ -4831,10 +4828,7 @@ gfx
 >
 PushGroup
 (
-gfxASurface
-:
-:
-CONTENT_COLOR_ALPHA
+GFX_CONTENT_COLOR_ALPHA
 )
 ;
 nsresult
@@ -4888,10 +4882,7 @@ gfx
 >
 PushGroup
 (
-gfxASurface
-:
-:
-CONTENT_COLOR_ALPHA
+GFX_CONTENT_COLOR_ALPHA
 )
 ;
 gfx

@@ -248,9 +248,6 @@ gfxCachedTempSurface
 :
 Get
 (
-gfxASurface
-:
-:
 gfxContentType
 aContentType
 const
@@ -432,10 +429,7 @@ cleared
 aContentType
 !
 =
-gfxASurface
-:
-:
-CONTENT_COLOR
+GFX_CONTENT_COLOR
 )
 {
 ctx

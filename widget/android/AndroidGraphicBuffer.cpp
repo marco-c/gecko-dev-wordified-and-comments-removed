@@ -96,9 +96,6 @@ uint32_t
 EGLBoolean
 ;
 typedef
-gfxASurface
-:
-:
 gfxImageFormat
 gfxImageFormat
 ;
@@ -1594,7 +1591,7 @@ case
 gfxImageFormat
 :
 :
-ImageFormatRGB24
+gfxImageFormatRGB24
 :
 return
 HAL_PIXEL_FORMAT_RGBX_8888
@@ -1603,7 +1600,7 @@ case
 gfxImageFormat
 :
 :
-ImageFormatRGB16_565
+gfxImageFormatRGB16_565
 :
 return
 HAL_PIXEL_FORMAT_RGB_565

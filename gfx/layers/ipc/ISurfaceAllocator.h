@@ -224,9 +224,6 @@ const
 gfxIntSize
 &
 aSize
-gfxASurface
-:
-:
 gfxContentType
 aContent
 gfxSharedImageSurface
@@ -243,9 +240,6 @@ const
 gfxIntSize
 &
 aSize
-gfxASurface
-:
-:
 gfxContentType
 aContent
 SurfaceDescriptor
@@ -261,9 +255,6 @@ const
 gfxIntSize
 &
 aSize
-gfxASurface
-:
-:
 gfxContentType
 aContent
 uint32_t
@@ -332,9 +323,6 @@ const
 gfxIntSize
 &
 aSize
-gfxASurface
-:
-:
 gfxContentType
 aContent
 uint32_t

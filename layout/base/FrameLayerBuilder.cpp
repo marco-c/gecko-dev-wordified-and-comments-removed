@@ -8623,10 +8623,7 @@ itemVisibleRect
 Size
 (
 )
-gfxASurface
-:
-:
-CONTENT_COLOR_ALPHA
+GFX_CONTENT_COLOR_ALPHA
 )
 ;
 surf
@@ -14776,10 +14773,7 @@ bounds
 .
 height
 )
-gfxASurface
-:
-:
-CONTENT_COLOR_ALPHA
+GFX_CONTENT_COLOR_ALPHA
 )
 ;
 surf

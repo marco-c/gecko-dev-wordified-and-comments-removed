@@ -108,10 +108,7 @@ if
 aFormat
 =
 =
-gfxASurface
-:
-:
-ImageFormatA8
+gfxImageFormatA8
 )
 {
 return
@@ -602,10 +599,7 @@ new
 gfxImageSurface
 (
 aSize
-gfxASurface
-:
-:
-ImageFormatARGB32
+gfxImageFormatARGB32
 )
 ;
 nsRefPtr
@@ -2011,10 +2005,7 @@ GetContentType
 )
 =
 =
-gfxASurface
-:
-:
-CONTENT_COLOR_ALPHA
+GFX_CONTENT_COLOR_ALPHA
 ;
 }
 else
@@ -2376,10 +2367,7 @@ GetContentType
 )
 !
 =
-gfxASurface
-:
-:
-CONTENT_ALPHA
+GFX_CONTENT_ALPHA
 "
 Image
 layer

@@ -52,16 +52,10 @@ AutoOpenSurface
 public
 :
 typedef
-gfxASurface
-:
-:
 gfxContentType
 gfxContentType
 ;
 typedef
-gfxASurface
-:
-:
 gfxImageFormat
 gfxImageFormat
 ;

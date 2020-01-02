@@ -110,7 +110,7 @@ size
 gfxImageFormat
 imageFormat
 =
-ImageFormatRGB24
+gfxImageFormatRGB24
 )
 ;
 gfxWindowsSurface
@@ -124,7 +124,7 @@ size
 gfxImageFormat
 imageFormat
 =
-ImageFormatRGB24
+gfxImageFormatRGB24
 )
 ;
 gfxWindowsSurface
@@ -266,10 +266,7 @@ aDestTopLeft
 ;
 }
 virtual
-gfxASurface
-:
-:
-MemoryLocation
+gfxMemoryLocation
 GetMemoryLocation
 (
 )

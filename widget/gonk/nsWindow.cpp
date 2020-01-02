@@ -874,10 +874,7 @@ gfxIntSize
 1
 1
 )
-gfxASurface
-:
-:
-ImageFormatRGB24
+gfxImageFormatRGB24
 )
 ;
 }
@@ -2705,10 +2702,7 @@ gfxIntSize
 5
 5
 )
-gfxImageSurface
-:
-:
-ImageFormatRGB24
+gfxImageFormatRGB24
 )
 ;
 }

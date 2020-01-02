@@ -323,9 +323,6 @@ gfx
 :
 IntSize
 aSize
-gfxASurface
-:
-:
 gfxContentType
 aContentType
 )

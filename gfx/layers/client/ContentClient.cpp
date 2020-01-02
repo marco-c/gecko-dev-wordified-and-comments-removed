@@ -479,9 +479,6 @@ SupportsAzureContent
 )
 )
 {
-gfxASurface
-:
-:
 gfxImageFormat
 format
 =
@@ -3318,10 +3315,7 @@ else
 {
 contentType
 =
-gfxASurface
-:
-:
-CONTENT_COLOR
+GFX_CONTENT_COLOR
 ;
 }
 }
@@ -3374,10 +3368,7 @@ SURFACE_OPAQUE
 {
 contentType
 =
-gfxASurface
-:
-:
-CONTENT_COLOR_ALPHA
+GFX_CONTENT_COLOR_ALPHA
 ;
 mode
 =
@@ -4499,10 +4490,7 @@ if
 mContentType
 =
 =
-gfxASurface
-:
-:
-CONTENT_COLOR_ALPHA
+GFX_CONTENT_COLOR_ALPHA
 )
 {
 result

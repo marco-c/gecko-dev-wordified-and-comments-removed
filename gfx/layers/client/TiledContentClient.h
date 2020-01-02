@@ -902,9 +902,6 @@ BasicTiledLayerTile
 }
 private
 :
-gfxASurface
-:
-:
 gfxContentType
 GetContentType
 (

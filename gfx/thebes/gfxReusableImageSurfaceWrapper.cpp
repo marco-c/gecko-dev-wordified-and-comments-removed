@@ -177,9 +177,6 @@ Data
 )
 ;
 }
-gfxASurface
-:
-:
 gfxImageFormat
 gfxReusableImageSurfaceWrapper
 :

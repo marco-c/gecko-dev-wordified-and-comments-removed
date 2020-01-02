@@ -198,9 +198,9 @@ format
 =
 aTransparent
 ?
-ImageFormatARGB32
+gfxImageFormatARGB32
 :
-ImageFormatRGB24
+gfxImageFormatRGB24
 ;
 gfxImageSurface
 :
@@ -250,10 +250,7 @@ GetType
 )
 =
 =
-gfxASurface
-:
-:
-SurfaceTypeImage
+gfxSurfaceTypeImage
 &
 &
 aSurface

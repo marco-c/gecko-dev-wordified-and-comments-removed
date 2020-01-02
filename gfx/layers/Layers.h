@@ -935,9 +935,6 @@ const
 gfxIntSize
 &
 aSize
-gfxASurface
-:
-:
 gfxImageFormat
 imageFormat
 )

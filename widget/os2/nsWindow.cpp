@@ -5362,9 +5362,6 @@ nsWindow
 :
 CreateTransparencyMask
 (
-gfxASurface
-:
-:
 gfxImageFormat
 format
 uint8_t
@@ -5421,10 +5418,7 @@ if
 format
 =
 =
-gfxASurface
-:
-:
-ImageFormatARGB32
+gfxImageFormatARGB32
 )
 {
 int32_t

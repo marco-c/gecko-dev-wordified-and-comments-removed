@@ -1840,10 +1840,7 @@ nsIntSize
 aWidth
 aHeight
 )
-gfxASurface
-:
-:
-ImageFormatRGB16_565
+gfxImageFormatRGB16_565
 )
 ;
 if

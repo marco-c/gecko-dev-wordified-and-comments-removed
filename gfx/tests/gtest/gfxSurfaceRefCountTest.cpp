@@ -196,10 +196,7 @@ gfxIntSize
 10
 10
 )
-gfxASurface
-:
-:
-ImageFormatARGB32
+gfxImageFormatARGB32
 )
 ;
 cairo_surface_t

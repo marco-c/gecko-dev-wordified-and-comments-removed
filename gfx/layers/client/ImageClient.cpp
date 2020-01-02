@@ -1240,9 +1240,6 @@ if
 mFrontBuffer
 )
 {
-gfxASurface
-:
-:
 gfxImageFormat
 format
 =

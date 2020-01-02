@@ -439,9 +439,6 @@ CreateDeprecatedTextureClient
 (
 DeprecatedTextureClientType
 aDeprecatedTextureClientType
-gfxASurface
-:
-:
 gfxContentType
 aContentType
 )
@@ -688,10 +685,7 @@ if
 aContentType
 =
 =
-gfxASurface
-:
-:
-CONTENT_COLOR_ALPHA
+GFX_CONTENT_COLOR_ALPHA
 )
 {
 result

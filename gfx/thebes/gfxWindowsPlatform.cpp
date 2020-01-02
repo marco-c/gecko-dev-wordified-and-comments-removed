@@ -2758,9 +2758,6 @@ const
 gfxIntSize
 &
 size
-gfxASurface
-:
-:
 gfxContentType
 contentType
 )
@@ -2869,9 +2866,6 @@ const
 gfxIntSize
 &
 aSize
-gfxASurface
-:
-:
 gfxContentType
 aContentType
 )

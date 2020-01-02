@@ -74,10 +74,7 @@ Format
 )
 !
 =
-gfxASurface
-:
-:
-ImageFormatARGB32
+gfxImageFormatARGB32
 &
 &
 blackSurf
@@ -88,10 +85,7 @@ Format
 )
 !
 =
-gfxASurface
-:
-:
-ImageFormatRGB24
+gfxImageFormatRGB24
 )
 |
 |
@@ -104,10 +98,7 @@ Format
 )
 !
 =
-gfxASurface
-:
-:
-ImageFormatARGB32
+gfxImageFormatARGB32
 &
 &
 whiteSurf
@@ -118,10 +109,7 @@ Format
 )
 !
 =
-gfxASurface
-:
-:
-ImageFormatRGB24
+gfxImageFormatRGB24
 )
 )
 return

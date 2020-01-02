@@ -227,10 +227,7 @@ GetType
 )
 =
 =
-gfxASurface
-:
-:
-SurfaceTypeWin32
+gfxSurfaceTypeWin32
 |
 |
 aSurface
@@ -241,10 +238,7 @@ GetType
 )
 =
 =
-gfxASurface
-:
-:
-SurfaceTypeWin32Printing
+gfxSurfaceTypeWin32Printing
 )
 )
 {
@@ -478,9 +472,6 @@ const
 gfxIntSize
 &
 size
-gfxASurface
-:
-:
 gfxContentType
 contentType
 )
@@ -496,9 +487,6 @@ const
 gfxIntSize
 &
 aSize
-gfxASurface
-:
-:
 gfxContentType
 aContentType
 )

@@ -427,10 +427,7 @@ const
 size_t
 SizeOfDecodedWithComputedFallbackIfHeap
 (
-gfxASurface
-:
-:
-MemoryLocation
+gfxMemoryLocation
 aLocation
 mozilla
 :

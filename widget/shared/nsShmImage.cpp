@@ -99,10 +99,7 @@ GetType
 )
 =
 =
-gfxASurface
-:
-:
-SurfaceTypeImage
+gfxSurfaceTypeImage
 &
 &
 gShmAvailable
@@ -468,10 +465,7 @@ shm
 >
 mFormat
 =
-gfxASurface
-:
-:
-ImageFormatRGB24
+gfxImageFormatRGB24
 ;
 break
 ;
@@ -487,10 +481,7 @@ shm
 >
 mFormat
 =
-gfxASurface
-:
-:
-ImageFormatRGB16_565
+gfxImageFormatRGB16_565
 ;
 break
 ;

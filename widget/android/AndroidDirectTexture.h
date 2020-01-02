@@ -46,9 +46,6 @@ uint32_t
 height
 uint32_t
 usage
-gfxASurface
-:
-:
 gfxImageFormat
 format
 )
@@ -112,9 +109,6 @@ uint32_t
 aWidth
 uint32_t
 aHeight
-gfxASurface
-:
-:
 gfxImageFormat
 aFormat
 )
@@ -159,9 +153,6 @@ mWidth
 uint32_t
 mHeight
 ;
-gfxASurface
-:
-:
 gfxImageFormat
 mFormat
 ;

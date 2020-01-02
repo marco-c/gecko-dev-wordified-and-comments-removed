@@ -1421,10 +1421,7 @@ gfxIntSize
 width
 height
 )
-gfxASurface
-:
-:
-ImageFormatARGB32
+gfxImageFormatARGB32
 )
 ;
 nsCOMPtr

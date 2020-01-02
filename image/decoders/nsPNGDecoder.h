@@ -107,9 +107,6 @@ int32_t
 width
 int32_t
 height
-gfxASurface
-:
-:
 gfxImageFormat
 format
 )
@@ -225,9 +222,6 @@ qcms_transform
 *
 mTransform
 ;
-gfxASurface
-:
-:
 gfxImageFormat
 format
 ;

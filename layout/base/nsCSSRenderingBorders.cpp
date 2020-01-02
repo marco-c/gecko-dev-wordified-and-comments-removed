@@ -6269,10 +6269,7 @@ GetType
 )
 =
 =
-gfxASurface
-:
-:
-SurfaceTypeD2D
+gfxSurfaceTypeD2D
 |
 |
 mContext
@@ -6288,10 +6285,7 @@ GetType
 )
 =
 =
-gfxASurface
-:
-:
-SurfaceTypeQuartz
+gfxSurfaceTypeQuartz
 )
 )
 {

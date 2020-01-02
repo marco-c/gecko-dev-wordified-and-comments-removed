@@ -137,9 +137,6 @@ gfxRect
 &
 aFill
 const
-gfxImageSurface
-:
-:
 gfxImageFormat
 aFormat
 gfxPattern
@@ -250,9 +247,6 @@ static
 int
 ImageFormatToDepth
 (
-gfxASurface
-:
-:
 gfxImageFormat
 aFormat
 )
@@ -317,9 +311,6 @@ PlanarYCbCrImage
 Data
 &
 aData
-gfxASurface
-:
-:
 gfxImageFormat
 &
 aSuggestedFormat
@@ -346,9 +337,6 @@ Data
 &
 aData
 const
-gfxASurface
-:
-:
 gfxImageFormat
 &
 aDestFormat

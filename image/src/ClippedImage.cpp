@@ -1116,10 +1116,7 @@ imageRect
 imageRect
 imageRect
 imageRect
-gfxASurface
-:
-:
-ImageFormatARGB32
+gfxImageFormatARGB32
 gfxPattern
 :
 :
@@ -1517,10 +1514,7 @@ subimage
 sourceRect
 imageRect
 aFill
-gfxASurface
-:
-:
-ImageFormatARGB32
+gfxImageFormatARGB32
 aFilter
 )
 ;

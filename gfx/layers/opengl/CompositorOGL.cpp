@@ -6659,10 +6659,7 @@ rect
 Size
 (
 )
-gfxASurface
-:
-:
-CONTENT_COLOR_ALPHA
+GFX_CONTENT_COLOR_ALPHA
 )
 ;
 nsRefPtr
@@ -7133,10 +7130,7 @@ gfxIntSize
 width
 height
 )
-gfxASurface
-:
-:
-ImageFormatARGB32
+gfxImageFormatARGB32
 )
 ;
 mGLContext

@@ -1030,10 +1030,7 @@ gfxIntSize
 width
 height
 )
-gfxImageSurface
-:
-:
-ImageFormatARGB32
+gfxImageFormatARGB32
 )
 ;
 if

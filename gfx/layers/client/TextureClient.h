@@ -1262,9 +1262,6 @@ gfx
 :
 IntSize
 aSize
-gfxASurface
-:
-:
 gfxContentType
 aType
 )
@@ -1388,9 +1385,6 @@ mAccessMode
 ;
 }
 virtual
-gfxASurface
-:
-:
 gfxContentType
 GetContentType
 (
@@ -1548,9 +1542,6 @@ gfx
 :
 IntSize
 aSize
-gfxASurface
-:
-:
 gfxContentType
 aType
 )
@@ -1575,9 +1566,6 @@ aDescriptor
 MOZ_OVERRIDE
 ;
 virtual
-gfxASurface
-:
-:
 gfxContentType
 GetContentType
 (
@@ -1617,9 +1605,6 @@ DrawTarget
 >
 mDrawTarget
 ;
-gfxASurface
-:
-:
 gfxContentType
 mContentType
 ;
@@ -1695,9 +1680,6 @@ gfx
 :
 IntSize
 aSize
-gfxASurface
-:
-:
 gfxContentType
 aType
 )
@@ -1732,9 +1714,6 @@ ReleaseResources
 )
 ;
 virtual
-gfxASurface
-:
-:
 gfxContentType
 GetContentType
 (
@@ -1742,10 +1721,7 @@ GetContentType
 MOZ_OVERRIDE
 {
 return
-gfxASurface
-:
-:
-CONTENT_COLOR_ALPHA
+GFX_CONTENT_COLOR_ALPHA
 ;
 }
 }
@@ -1796,9 +1772,6 @@ gfx
 :
 IntSize
 aSize
-gfxASurface
-:
-:
 gfxContentType
 aType
 )
@@ -1851,9 +1824,6 @@ SurfaceDescriptors
 ;
 }
 virtual
-gfxASurface
-:
-:
 gfxContentType
 GetContentType
 (
@@ -1864,9 +1834,6 @@ mContentType
 ;
 }
 private
-:
-gfxASurface
-:
 :
 gfxContentType
 mContentType

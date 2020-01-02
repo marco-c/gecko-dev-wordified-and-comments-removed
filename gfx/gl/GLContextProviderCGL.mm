@@ -850,10 +850,7 @@ TextureImage
 ImageFormat
 aImageFormat
 =
-gfxASurface
-:
-:
-ImageFormatUnknown
+gfxImageFormatUnknown
 )
 MOZ_OVERRIDE
 ;
@@ -889,10 +886,7 @@ TextureImage
 ImageFormat
 aImageFormat
 =
-gfxASurface
-:
-:
-ImageFormatUnknown
+gfxImageFormatUnknown
 )
 MOZ_OVERRIDE
 ;
@@ -1547,10 +1541,7 @@ TextureImage
 ImageFormat
 aImageFormat
 =
-gfxASurface
-:
-:
-ImageFormatUnknown
+gfxImageFormatUnknown
 )
 :
 BasicTextureImage
@@ -2570,10 +2561,7 @@ gfxIntSize
 ioWidth
 ioHeight
 )
-gfxASurface
-:
-:
-ImageFormatARGB32
+gfxImageFormatARGB32
 )
 ;
 for

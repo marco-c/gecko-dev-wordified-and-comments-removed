@@ -4767,10 +4767,7 @@ Height
 map
 .
 RowPitch
-gfxASurface
-:
-:
-ImageFormatARGB32
+gfxImageFormatARGB32
 )
 ;
 mTarget
