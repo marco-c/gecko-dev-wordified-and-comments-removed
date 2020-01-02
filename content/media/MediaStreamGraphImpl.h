@@ -606,16 +606,6 @@ mStreamOrderDirty
 true
 ;
 }
-void
-PauseAllAudioOutputs
-(
-)
-;
-void
-ResumeAllAudioOutputs
-(
-)
-;
 nsCOMPtr
 <
 nsIThread

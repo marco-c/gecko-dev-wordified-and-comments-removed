@@ -117,11 +117,6 @@ EXPORTS
 =
 [
 '
-AudioContext
-.
-h
-'
-'
 AudioParamTimeline
 .
 h
