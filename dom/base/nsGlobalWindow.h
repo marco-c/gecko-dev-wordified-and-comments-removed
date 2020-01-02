@@ -6260,11 +6260,6 @@ mFocusByKeyOccurred
 1
 ;
 bool
-mInnerObjectsFreed
-:
-1
-;
-bool
 mHasGamepad
 :
 1
