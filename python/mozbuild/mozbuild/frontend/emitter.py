@@ -1257,11 +1257,12 @@ relpath
 (
 path
             
-self
-.
-config
-.
-topsrcdir
+sandbox
+[
+'
+TOPSRCDIR
+'
+]
 )
 )
         
