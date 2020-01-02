@@ -1497,6 +1497,13 @@ repeat
 )
 HTML5_ATOM
 (
+srcset
+"
+srcset
+"
+)
+HTML5_ATOM
+(
 rspace
 "
 rspace
