@@ -176,6 +176,13 @@ double
 aDensity
 )
 ;
+void
+SetParameterAsComputedWidth
+(
+int32_t
+aWidth
+)
+;
 bool
 SetParamaterFromDescriptor
 (
@@ -216,6 +223,7 @@ eCandidateType
 eCandidateType_Invalid
 eCandidateType_Density
 eCandidateType_Default
+eCandidateType_ComputedFromWidth
 }
 ;
 eCandidateType
@@ -243,6 +251,9 @@ union
 {
 double
 mDensity
+;
+int32_t
+mWidth
 ;
 }
 mValue
