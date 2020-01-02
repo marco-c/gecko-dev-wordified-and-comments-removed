@@ -173,7 +173,7 @@ nsHTMLReflowState
 class
 nsHTMLReflowCommand
 ;
-class
+struct
 gfxMatrix
 ;
 class

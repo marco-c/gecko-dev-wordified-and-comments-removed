@@ -22,7 +22,7 @@ SVGGraphicsElement
 .
 h
 "
-class
+struct
 gfxMatrix
 ;
 struct
