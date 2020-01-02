@@ -30727,9 +30727,11 @@ rilMessageType
 "
 cdmaCallWaiting
 "
-waitingCall
+number
 :
 call
+.
+number
 }
 )
 ;
