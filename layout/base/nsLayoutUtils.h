@@ -3819,6 +3819,12 @@ nsIFrame
 aFrame
 )
 ;
+static
+bool
+WantSubAPZC
+(
+)
+;
 private
 :
 static
