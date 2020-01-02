@@ -22310,7 +22310,7 @@ GetStateBits
 (
 )
 &
-NS_FRAME_IS_DIRTY
+TEXT_OFFSETS_NEED_FIXING
 )
 )
 {
