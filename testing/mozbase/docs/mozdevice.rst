@@ -1233,7 +1233,6 @@ ADBHost
 kill_server
 (
 self
-cmds
 timeout
 =
 None
