@@ -362,6 +362,13 @@ search
 searchURL
 :
 base
++
+"
+&
+form
+=
+MOZTSB
+"
 run
 :
 function
