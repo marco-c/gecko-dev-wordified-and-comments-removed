@@ -26087,10 +26087,6 @@ random
 if
 (
 winWidget
-&
-&
-!
-d2d
 )
 =
 =
