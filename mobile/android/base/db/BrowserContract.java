@@ -2262,6 +2262,16 @@ CREATED
 created
 "
 ;
+public
+static
+final
+String
+FILTER
+=
+"
+filter
+"
+;
 }
 static
 final
