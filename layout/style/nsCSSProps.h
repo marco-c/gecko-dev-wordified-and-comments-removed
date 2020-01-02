@@ -2431,6 +2431,13 @@ kOverflowSubKTable
 static
 const
 KTableValue
+kOverflowClipBoxKTable
+[
+]
+;
+static
+const
+KTableValue
 kPageBreakKTable
 [
 ]
