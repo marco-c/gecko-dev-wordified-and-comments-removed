@@ -14,8 +14,8 @@ webapp
 (
 function
 (
+_
 OT
-webl10n
 )
 {
 "
@@ -49,11 +49,6 @@ localhost
 :
 5000
 "
-__
-=
-webl10n
-.
-get
 ;
 var
 router
@@ -783,11 +778,9 @@ WebappRouter
 )
 (
 jQuery
+_
 window
 .
 OT
-document
-.
-webL10n
 )
 ;
