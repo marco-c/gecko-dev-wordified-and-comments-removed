@@ -152,6 +152,7 @@ Scriptability
 {
 public
 :
+explicit
 Scriptability
 (
 JSCompartment

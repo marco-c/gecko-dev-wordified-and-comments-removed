@@ -80,6 +80,7 @@ xpcObjectHelper
 {
 public
 :
+explicit
 xpcObjectHelper
 (
 nsISupports
