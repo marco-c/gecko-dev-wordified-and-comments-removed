@@ -98,7 +98,7 @@ MODULE
 '
 unicharutil
 '
-SOURCES
+UNIFIED_SOURCES
 +
 =
 [
