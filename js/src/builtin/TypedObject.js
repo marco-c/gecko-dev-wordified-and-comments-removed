@@ -3008,6 +3008,7 @@ constant
 )
 ;
 }
+var
 X4LaneStrings
 =
 [
