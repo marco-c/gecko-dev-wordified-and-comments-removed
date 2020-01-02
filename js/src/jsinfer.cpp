@@ -22472,9 +22472,8 @@ sweepIndex
 ;
 output
 .
-setSweepIndex
+invalidateSweepIndex
 (
-0
 )
 ;
 (
