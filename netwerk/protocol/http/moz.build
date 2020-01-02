@@ -447,6 +447,11 @@ SpdyStream31
 .
 cpp
 '
+'
+SpdyZlibReporter
+.
+cpp
+'
 ]
 #
 These
