@@ -3011,6 +3011,14 @@ browser
 otherBrowser
 )
 ;
+TabStateCache
+.
+onSwapDocShells
+(
+browser
+otherBrowser
+)
+;
 break
 ;
 case
