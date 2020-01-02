@@ -3686,6 +3686,9 @@ SetPermitSubpixelAA
 aPermitSubpixelAA
 )
 ;
+#
+ifdef
+MOZ_TREE_CAIRO
 cairo_surface_set_subpixel_antialiasing
 (
 mSurface
@@ -3696,6 +3699,8 @@ CAIRO_SUBPIXEL_ANTIALIASING_ENABLED
 CAIRO_SUBPIXEL_ANTIALIASING_DISABLED
 )
 ;
+#
+endif
 }
 void
 DrawTargetCairo
