@@ -49,6 +49,14 @@ svg
 lime
 .
 svg
+fuzzy
+-
+if
+(
+cocoaWidget
+1
+32
+)
 =
 =
 paced
@@ -63,6 +71,9 @@ paced
 ref
 .
 svg
+#
+bug
+981640
 =
 =
 rotate
