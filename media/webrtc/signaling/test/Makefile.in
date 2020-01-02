@@ -71,10 +71,6 @@ NSS_LIBS
 )
 \
 (
-MOZ_WEBRTC_X11_LIBS
-)
-\
-(
 REALTIME_LIBS
 )
 \
@@ -398,6 +394,12 @@ XLIBS
 MOZ_GTK2_LIBS
 )
 \
+-
+lgmodule
+-
+2
+.
+0
 -
 lgthread
 -
