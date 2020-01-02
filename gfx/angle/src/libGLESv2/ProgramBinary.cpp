@@ -109,6 +109,11 @@ VertexDataManager
 h
 "
 #
+include
+<
+algorithm
+>
+#
 undef
 near
 #

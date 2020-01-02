@@ -40,6 +40,11 @@ compiler_debug
 .
 h
 "
+#
+include
+<
+algorithm
+>
 struct
 TPublicType
 ;

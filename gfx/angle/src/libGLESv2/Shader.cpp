@@ -16,6 +16,11 @@ h
 "
 #
 include
+<
+algorithm
+>
+#
+include
 "
 GLSLANG
 /

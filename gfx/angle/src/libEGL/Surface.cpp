@@ -70,6 +70,11 @@ Display
 .
 h
 "
+#
+include
+<
+algorithm
+>
 namespace
 egl
 {
