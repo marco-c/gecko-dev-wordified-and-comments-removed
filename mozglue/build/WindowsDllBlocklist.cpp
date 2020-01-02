@@ -379,10 +379,6 @@ sprotector
 dll
 "
 ALL_VERSIONS
-DllBlockInfo
-:
-:
-BLOCK_WIN8PLUS_ONLY
 }
 {
 "
