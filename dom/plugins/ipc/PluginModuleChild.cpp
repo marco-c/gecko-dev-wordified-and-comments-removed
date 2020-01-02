@@ -778,9 +778,11 @@ mLibrary
 )
 )
 )
+{
 return
 false
 ;
+}
 #
 if
 defined
@@ -838,6 +840,13 @@ fName
 ;
 #
 endif
+pluginFile
+.
+FreePluginInfo
+(
+info
+)
+;
 if
 (
 !
