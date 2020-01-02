@@ -764,6 +764,12 @@ inherit
 ;
 align
 -
+content
+:
+inherit
+;
+align
+-
 items
 :
 inherit
@@ -771,6 +777,12 @@ inherit
 flex
 -
 direction
+:
+inherit
+;
+flex
+-
+wrap
 :
 inherit
 ;
