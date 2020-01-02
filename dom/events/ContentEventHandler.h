@@ -190,6 +190,11 @@ aEvent
 )
 ;
 nsresult
+InitBasic
+(
+)
+;
+nsresult
 InitCommon
 (
 )
