@@ -5423,6 +5423,25 @@ self
 )
 :
         
+"
+"
+"
+        
+Close
+the
+current
+session
+and
+disconnect
+from
+the
+server
+.
+        
+"
+"
+"
+        
 response
 =
 self
