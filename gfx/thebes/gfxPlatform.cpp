@@ -245,6 +245,13 @@ h
 #
 include
 "
+gfxGradientCache
+.
+h
+"
+#
+include
+"
 nsUnicodeRange
 .
 h
@@ -2423,6 +2430,13 @@ Shutdown
 )
 ;
 gfxFontGroup
+:
+:
+Shutdown
+(
+)
+;
+gfxGradientCache
 :
 :
 Shutdown

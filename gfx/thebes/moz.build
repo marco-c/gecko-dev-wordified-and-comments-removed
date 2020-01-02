@@ -188,6 +188,11 @@ gfxFontUtils
 h
 '
 '
+gfxGradientCache
+.
+h
+'
+'
 gfxImageSurface
 .
 h
@@ -1217,6 +1222,11 @@ cpp
 '
 '
 gfxFontUtils
+.
+cpp
+'
+'
+gfxGradientCache
 .
 cpp
 '
