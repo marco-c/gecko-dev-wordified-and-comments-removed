@@ -139,7 +139,7 @@ namespace
 mozilla
 {
 class
-PreferencesReporter
+PreferenceServiceReporter
 ;
 }
 class
@@ -156,7 +156,7 @@ class
 mozilla
 :
 :
-PreferencesReporter
+PreferenceServiceReporter
 ;
 public
 :
@@ -634,7 +634,7 @@ class
 mozilla
 :
 :
-PreferencesReporter
+PreferenceServiceReporter
 ;
 public
 :
