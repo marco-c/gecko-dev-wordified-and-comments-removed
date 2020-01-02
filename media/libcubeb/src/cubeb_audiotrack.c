@@ -1669,6 +1669,10 @@ audiotrack_get_min_frame_count
 ctx
 &
 params
+(
+int
+*
+)
 latency_ms
 )
 ;
@@ -1845,6 +1849,10 @@ audiotrack_get_min_frame_count
 ctx
 &
 stream_params
+(
+int
+*
+)
 &
 min_frame_count
 )
