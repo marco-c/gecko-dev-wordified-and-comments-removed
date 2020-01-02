@@ -1646,7 +1646,7 @@ nullptr
 ;
 mResponseTimeoutEnabled
 =
-mHttpHandler
+mTransaction
 -
 >
 ResponseTimeout
@@ -4635,7 +4635,7 @@ if
 (
 initialResponseDelta
 >
-gHttpHandler
+mTransaction
 -
 >
 ResponseTimeout
@@ -4669,7 +4669,7 @@ initialResponseDelta
 )
 PR_IntervalToMilliseconds
 (
-gHttpHandler
+mTransaction
 -
 >
 ResponseTimeout
@@ -4697,7 +4697,7 @@ nextTickAfter
 =
 PR_IntervalToSeconds
 (
-gHttpHandler
+mTransaction
 -
 >
 ResponseTimeout

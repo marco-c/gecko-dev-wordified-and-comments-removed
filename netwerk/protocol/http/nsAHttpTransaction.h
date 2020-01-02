@@ -305,11 +305,13 @@ ResponseTimeoutEnabled
 (
 )
 const
-{
-return
-false
 ;
-}
+virtual
+PRIntervalTime
+ResponseTimeout
+(
+)
+;
 enum
 Classifier
 {

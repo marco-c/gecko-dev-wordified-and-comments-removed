@@ -540,13 +540,8 @@ ResponseTimeoutEnabled
 (
 )
 const
-MOZ_OVERRIDE
 MOZ_FINAL
-{
-return
-mResponseTimeoutEnabled
 ;
-}
 private
 :
 class
