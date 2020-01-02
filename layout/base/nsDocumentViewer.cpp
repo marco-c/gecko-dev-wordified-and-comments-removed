@@ -11435,6 +11435,16 @@ return
 NS_ERROR_FAILURE
 ;
 }
+bool
+fullZoomChange
+=
+(
+mPageZoom
+!
+=
+aFullZoom
+)
+;
 mPageZoom
 =
 aFullZoom
@@ -11486,6 +11496,11 @@ SetExtResourceFullZoom
 ZoomInfo
 )
 ;
+if
+(
+fullZoomChange
+)
+{
 nsContentUtils
 :
 :
@@ -11510,6 +11525,7 @@ true
 true
 )
 ;
+}
 return
 NS_OK
 ;
