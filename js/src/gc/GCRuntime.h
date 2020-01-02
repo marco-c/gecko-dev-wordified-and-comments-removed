@@ -613,6 +613,9 @@ recordNativeStackTop
 (
 )
 ;
+#
+ifdef
+JS_THREADSAFE
 void
 notifyRequestEnd
 (
@@ -625,6 +628,8 @@ updateForRequestEnd
 )
 ;
 }
+#
+endif
 bool
 isBackgroundSweeping
 (
