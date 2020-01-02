@@ -334,6 +334,13 @@ PreviousExperimentProvider
 e
 )
 ;
+e
+.
+_setPreviousExperimentsProvider
+(
+provider
+)
+;
 let
 deferred
 =
@@ -1043,6 +1050,13 @@ Experiments
 PreviousExperimentProvider
 (
 e
+)
+;
+e
+.
+_setPreviousExperimentsProvider
+(
+provider
 )
 ;
 gManifestObject
