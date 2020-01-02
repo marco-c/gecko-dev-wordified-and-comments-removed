@@ -3419,6 +3419,35 @@ None
 )
     
 '
+MOCHITEST_CHROME_MANIFESTS
+'
+:
+(
+StrictOrderingOnAppendList
+list
+[
+]
+        
+"
+"
+"
+List
+of
+manifest
+files
+defining
+mochitest
+chrome
+tests
+.
+        
+"
+"
+"
+None
+)
+    
+'
 MOCHITEST_MANIFESTS
 '
 :
@@ -3447,7 +3476,7 @@ None
 )
     
 '
-MOCHITEST_CHROME_MANIFESTS
+MOCHITEST_WEBAPPRT_CHROME_MANIFESTS
 '
 :
 (
@@ -3464,6 +3493,7 @@ of
 manifest
 files
 defining
+webapprt
 mochitest
 chrome
 tests
