@@ -95,12 +95,6 @@ collections
 import
 OrderedDict
 from
-mozbuild
-.
-util
-import
-StrictOrderingOnAppendList
-from
 .
 sandbox_symbols
 import
@@ -2192,8 +2186,6 @@ members
 *
 sources
 -
-strictly
-ordered
 list
 of
 input
@@ -2203,13 +2195,10 @@ sources
 *
 generated_sources
 -
-strictly
-ordered
 list
 of
 generated
 input
-          
 java
 sources
         
@@ -2233,7 +2222,7 @@ classpath
 *
 javac_flags
 -
-list
+string
 containing
 extra
 flags
@@ -2294,8 +2283,7 @@ extra_jars
 ]
 javac_flags
 =
-[
-]
+None
 )
 :
         
@@ -2309,7 +2297,7 @@ self
 .
 sources
 =
-StrictOrderingOnAppendList
+list
 (
 sources
 )
@@ -2318,7 +2306,7 @@ self
 .
 generated_sources
 =
-StrictOrderingOnAppendList
+list
 (
 generated_sources
 )
@@ -2336,10 +2324,7 @@ self
 .
 javac_flags
 =
-list
-(
 javac_flags
-)
 class
 InstallationTarget
 (
