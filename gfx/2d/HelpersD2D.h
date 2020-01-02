@@ -1726,6 +1726,8 @@ D2D1_DASH_STYLE_CUSTOM
 aStrokeOptions
 .
 mDashOffset
+/
+lineWidth
 )
 &
 dash
