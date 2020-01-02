@@ -472,6 +472,7 @@ function
 {
 source
 parsed
+noFilesFound
 }
 )
 {
@@ -738,10 +739,7 @@ else
 {
 if
 (
-!
-this
-.
-_initialState
+noFilesFound
 )
 {
 this

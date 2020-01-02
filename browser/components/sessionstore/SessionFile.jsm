@@ -644,6 +644,11 @@ function
 let
 result
 ;
+let
+noFilesFound
+=
+true
+;
 for
 (
 let
@@ -814,6 +819,10 @@ if
 exists
 )
 {
+noFilesFound
+=
+false
+;
 Telemetry
 .
 getHistogramById
@@ -855,6 +864,12 @@ null
 }
 ;
 }
+result
+.
+noFilesFound
+=
+noFilesFound
+;
 SessionWorker
 .
 post
