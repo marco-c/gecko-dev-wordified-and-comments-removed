@@ -18,6 +18,10 @@ rmtree
 import
 mozunit
 from
+mozbuild
+.
+action
+.
 buildlist
 import
 addEntriesToListFile

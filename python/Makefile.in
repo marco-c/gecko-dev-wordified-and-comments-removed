@@ -69,6 +69,14 @@ mozbuild
 /
 test
 /
+action
+\
+mozbuild
+/
+mozbuild
+/
+test
+/
 backend
 \
 mozbuild
