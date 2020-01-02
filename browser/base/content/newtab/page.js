@@ -983,13 +983,6 @@ type
 }
 }
 }
-DirectoryLinksProvider
-.
-reportShownCount
-(
-directoryCount
-)
-;
 for
 (
 let

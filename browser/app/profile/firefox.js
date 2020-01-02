@@ -12008,9 +12008,7 @@ browser
 .
 newtabpage
 .
-directory
-.
-source
+directorySource
 "
 "
 chrome
