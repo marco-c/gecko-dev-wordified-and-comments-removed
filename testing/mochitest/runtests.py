@@ -6700,6 +6700,26 @@ self
 immersiveHelperPath
     
 if
+options
+.
+jsdebugger
+:
+      
+options
+.
+browserArgs
+.
+extend
+(
+[
+'
+-
+jsdebugger
+'
+]
+)
+    
+if
 os
 .
 path
