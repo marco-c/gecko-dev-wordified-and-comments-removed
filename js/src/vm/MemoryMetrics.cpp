@@ -726,7 +726,7 @@ SystemAllocPolicy
 SourceSet
 ;
 struct
-IteratorClosure
+StatsClosure
 {
 RuntimeStats
 *
@@ -739,7 +739,7 @@ opv
 SourceSet
 seenSources
 ;
-IteratorClosure
+StatsClosure
 (
 RuntimeStats
 *
@@ -1001,7 +1001,7 @@ rtStats
 =
 static_cast
 <
-IteratorClosure
+StatsClosure
 *
 >
 (
@@ -1116,7 +1116,7 @@ rtStats
 =
 static_cast
 <
-IteratorClosure
+StatsClosure
 *
 >
 (
@@ -1214,7 +1214,7 @@ rtStats
 =
 static_cast
 <
-IteratorClosure
+StatsClosure
 *
 >
 (
@@ -1306,13 +1306,13 @@ size_t
 thingSize
 )
 {
-IteratorClosure
+StatsClosure
 *
 closure
 =
 static_cast
 <
-IteratorClosure
+StatsClosure
 *
 >
 (
@@ -2516,7 +2516,7 @@ gcHeapDecommittedArenas
 DecommittedArenasChunkCallback
 )
 ;
-IteratorClosure
+StatsClosure
 closure
 (
 rtStats
