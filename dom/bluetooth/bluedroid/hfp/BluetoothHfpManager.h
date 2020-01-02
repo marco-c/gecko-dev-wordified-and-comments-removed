@@ -465,6 +465,9 @@ class
 CloseScoTask
 ;
 class
+CloseScoRunnable
+;
+class
 RespondToBLDNTask
 ;
 class
