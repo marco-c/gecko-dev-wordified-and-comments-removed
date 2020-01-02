@@ -639,7 +639,9 @@ AddBlendModeEffect
 effectChain
 )
 ;
+const
 nsIntRegion
+&
 visibleRegion
 =
 GetEffectiveVisibleRegion
