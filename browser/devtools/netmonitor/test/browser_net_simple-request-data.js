@@ -639,7 +639,7 @@ available
 "
 )
 ;
-ok
+is
 (
 requestItem
 .
@@ -650,9 +650,7 @@ requestHeaders
 headers
 .
 length
->
-=
-6
+8
 "
 The
 requestHeaders
@@ -889,7 +887,7 @@ responseHeaders
 headers
 .
 length
-6
+9
 "
 The
 responseHeaders
@@ -914,7 +912,7 @@ attachment
 responseHeaders
 .
 headersSize
-173
+255
 "
 The
 responseHeaders
@@ -1134,7 +1132,7 @@ requestItem
 attachment
 .
 headersSize
-173
+255
 "
 The
 headersSize
