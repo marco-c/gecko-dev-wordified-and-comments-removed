@@ -24120,7 +24120,7 @@ numAnimations
 i
 )
 {
-nsAnimation
+StyleAnimation
 *
 animation
 =

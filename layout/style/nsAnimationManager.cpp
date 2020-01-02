@@ -1739,7 +1739,7 @@ animIdx
 )
 {
 const
-nsAnimation
+StyleAnimation
 &
 src
 =
@@ -2691,7 +2691,7 @@ aSegments
 nsCSSProperty
 aProperty
 const
-nsAnimation
+StyleAnimation
 &
 aAnimation
 float
