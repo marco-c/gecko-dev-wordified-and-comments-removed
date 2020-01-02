@@ -806,12 +806,7 @@ mSingleTapOccurred
 }
 ;
 bool
-TouchActionAllowPinchZoom
-(
-)
-;
-bool
-TouchActionAllowDoubleTapZoom
+TouchActionAllowZoom
 (
 )
 ;
