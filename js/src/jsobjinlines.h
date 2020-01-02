@@ -135,7 +135,7 @@ js
 types
 :
 :
-MarkTypePropertyConfigured
+MarkTypePropertyNonData
 (
 cx
 obj
@@ -282,7 +282,7 @@ js
 types
 :
 :
-MarkTypePropertyConfigured
+MarkTypePropertyNonData
 (
 cx
 obj
@@ -381,7 +381,7 @@ js
 types
 :
 :
-MarkTypePropertyConfigured
+MarkTypePropertyNonData
 (
 cx
 obj
@@ -470,7 +470,7 @@ js
 types
 :
 :
-MarkTypePropertyConfigured
+MarkTypePropertyNonData
 (
 cx
 obj

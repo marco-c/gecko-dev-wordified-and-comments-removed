@@ -1780,7 +1780,7 @@ false
 types
 :
 :
-MarkTypePropertyConfigured
+MarkTypePropertyNonData
 (
 cx
 obj
