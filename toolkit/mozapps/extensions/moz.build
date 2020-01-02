@@ -314,7 +314,7 @@ if
 CONFIG
 [
 '
-MOZ_EM_DEBUG
+MOZ_DEBUG
 '
 ]
 :
