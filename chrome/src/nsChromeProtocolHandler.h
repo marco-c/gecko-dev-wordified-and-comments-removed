@@ -82,6 +82,8 @@ nsChromeProtocolHandler
 )
 {
 }
+private
+:
 ~
 nsChromeProtocolHandler
 (

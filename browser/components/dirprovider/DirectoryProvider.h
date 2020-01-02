@@ -78,6 +78,12 @@ NS_DECL_NSIDIRECTORYSERVICEPROVIDER
 NS_DECL_NSIDIRECTORYSERVICEPROVIDER2
 private
 :
+~
+DirectoryProvider
+(
+)
+{
+}
 class
 AppendingEnumerator
 MOZ_FINAL
@@ -104,6 +110,12 @@ aAppendList
 ;
 private
 :
+~
+AppendingEnumerator
+(
+)
+{
+}
 nsCOMPtr
 <
 nsISimpleEnumerator

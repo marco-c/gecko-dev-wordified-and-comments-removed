@@ -32,13 +32,6 @@ AboutRedirector
 )
 {
 }
-virtual
-~
-AboutRedirector
-(
-)
-{
-}
 static
 nsresult
 Create
@@ -56,6 +49,13 @@ aResult
 ;
 protected
 :
+virtual
+~
+AboutRedirector
+(
+)
+{
+}
 }
 ;
 }

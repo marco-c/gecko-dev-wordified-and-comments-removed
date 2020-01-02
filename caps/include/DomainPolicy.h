@@ -42,14 +42,14 @@ DomainPolicy
 (
 )
 ;
+private
+:
 virtual
 ~
 DomainPolicy
 (
 )
 ;
-private
-:
 nsCOMPtr
 <
 nsIDomainSet
@@ -91,6 +91,8 @@ DomainSet
 )
 {
 }
+protected
+:
 virtual
 ~
 DomainSet
@@ -98,8 +100,6 @@ DomainSet
 )
 {
 }
-protected
-:
 nsTHashtable
 <
 nsURIHashKey
