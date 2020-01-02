@@ -571,13 +571,14 @@ exitNestedEventLoop
 )
 ;
 }
-do_throw
+dump
 (
 "
 head_dbg
 .
 js
-got
+observed
+a
 console
 message
 :
