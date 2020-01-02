@@ -1549,6 +1549,15 @@ true
 /
 >
 <
+tooltip
+id
+=
+"
+remoteBrowserTooltip
+"
+/
+>
+<
 !
 -
 -
@@ -8156,6 +8165,11 @@ bookmarks
 toolbar
 -
 placeholder
+"
+type
+=
+"
+wrap
 "
 mousethrough
 =

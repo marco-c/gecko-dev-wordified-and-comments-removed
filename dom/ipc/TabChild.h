@@ -165,6 +165,13 @@ h
 #
 include
 "
+nsITooltipListener
+.
+h
+"
+#
+include
+"
 mozilla
 /
 Attributes
@@ -675,6 +682,8 @@ ipc
 MessageManagerCallback
 public
 TabContext
+public
+nsITooltipListener
 {
 typedef
 mozilla
@@ -755,6 +764,7 @@ NS_DECL_NSIWEBPROGRESSLISTENER
 NS_DECL_NSIDIALOGCREATOR
 NS_DECL_NSITABCHILD
 NS_DECL_NSIOBSERVER
+NS_DECL_NSITOOLTIPLISTENER
 virtual
 bool
 DoSendBlockingMessage
