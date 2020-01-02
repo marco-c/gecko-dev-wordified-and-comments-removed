@@ -2556,6 +2556,10 @@ if
 (
 !
 asyncPanZoom
+|
+|
+!
+browserIsRemote
 )
 =
 =
@@ -2617,6 +2621,10 @@ if
 (
 !
 asyncPanZoom
+|
+|
+!
+browserIsRemote
 )
 !
 =
