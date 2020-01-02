@@ -455,10 +455,17 @@ if
 aClientCert
 )
 {
+RefPtr
+<
 nsNSSCertificate
+>
 pipCert
 (
+new
+nsNSSCertificate
+(
 aClientCert
+)
 )
 ;
 char
@@ -470,7 +477,8 @@ nullptr
 rv
 =
 pipCert
-.
+-
+>
 GetDbKey
 (
 &
