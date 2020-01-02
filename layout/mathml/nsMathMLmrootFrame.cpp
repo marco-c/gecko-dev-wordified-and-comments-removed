@@ -156,7 +156,6 @@ mContent
 mStyleContext
 &
 mSqrChar
-true
 )
 ;
 }

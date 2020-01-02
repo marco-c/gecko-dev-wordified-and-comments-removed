@@ -289,8 +289,6 @@ aParenStyleContext
 nsMathMLChar
 *
 aMathMLChar
-bool
-aIsMutableChar
 )
 ;
 static

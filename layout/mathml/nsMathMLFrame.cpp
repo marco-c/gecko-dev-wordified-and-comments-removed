@@ -263,8 +263,6 @@ aParentStyleContext
 nsMathMLChar
 *
 aMathMLChar
-bool
-aIsMutableChar
 )
 {
 nsCSSPseudoElements
@@ -273,15 +271,6 @@ nsCSSPseudoElements
 Type
 pseudoType
 =
-(
-aIsMutableChar
-)
-?
-nsCSSPseudoElements
-:
-:
-ePseudo_mozMathStretchy
-:
 nsCSSPseudoElements
 :
 :

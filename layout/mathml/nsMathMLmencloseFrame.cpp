@@ -281,7 +281,6 @@ mMathMLChar
 [
 i
 ]
-true
 )
 ;
 return
