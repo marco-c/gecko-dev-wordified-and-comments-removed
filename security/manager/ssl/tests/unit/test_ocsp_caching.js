@@ -596,12 +596,6 @@ run_next_test
 }
 )
 ;
-if
-(
-!
-useMozillaPKIX
-)
-{
 add_connection_test
 (
 "
@@ -640,7 +634,6 @@ run_next_test
 }
 )
 ;
-}
 add_connection_test
 (
 "

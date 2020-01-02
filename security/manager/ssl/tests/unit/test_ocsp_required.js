@@ -262,10 +262,6 @@ function
 do_check_eq
 (
 gOCSPRequestCount
-useMozillaPKIX
-?
-2
-:
 1
 )
 ;
