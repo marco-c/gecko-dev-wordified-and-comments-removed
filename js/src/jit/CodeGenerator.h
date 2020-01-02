@@ -2806,14 +2806,6 @@ perfSpewer_
 ;
 #
 endif
-bool
-initUsedVMWrappers
-(
-JSContext
-*
-cx
-)
-;
 }
 ;
 }

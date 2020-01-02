@@ -194,7 +194,6 @@ jitRuntime
 >
 getVMWrapper
 (
-cx
 fun
 )
 ;
