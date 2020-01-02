@@ -737,11 +737,11 @@ data
 int
 SendPacket
 (
+const
 unsigned
 char
+*
 data
-[
-]
 size_t
 len
 bool
