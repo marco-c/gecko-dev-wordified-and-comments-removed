@@ -126,11 +126,4 @@ SIMPLE_PROGRAMS
 '
 TestZip
 '
-+
-CONFIG
-[
-'
-BIN_SUFFIX
-'
-]
 ]

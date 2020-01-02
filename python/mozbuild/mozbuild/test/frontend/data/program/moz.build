@@ -30,3 +30,13 @@ PROGRAM
 '
 test_program
 '
+SIMPLE_PROGRAMS
+=
+[
+'
+test_program1
+'
+'
+test_program2
+'
+]

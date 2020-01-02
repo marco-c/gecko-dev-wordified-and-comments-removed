@@ -72,6 +72,8 @@ ReaderSummary
     
 SandboxWrapped
     
+SimpleProgram
+    
 TestWebIDLFile
     
 TestManifest
@@ -842,12 +844,6 @@ SHARED_LIBRARY_LIBS
 '
 SHARED_LIBRARY_LIBS
 '
-            
-SIMPLE_PROGRAMS
-=
-'
-SIMPLE_PROGRAMS
-'
         
 )
         
@@ -1351,6 +1347,35 @@ program
             
 yield
 Program
+(
+sandbox
+program
+sandbox
+[
+'
+CONFIG
+'
+]
+[
+'
+BIN_SUFFIX
+'
+]
+)
+        
+for
+program
+in
+sandbox
+[
+'
+SIMPLE_PROGRAMS
+'
+]
+:
+            
+yield
+SimpleProgram
 (
 sandbox
 program

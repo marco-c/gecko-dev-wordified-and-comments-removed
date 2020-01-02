@@ -21,25 +21,27 @@ import
     
 ConfigFileSubstitution
     
-DirectoryTraversal
-    
-ReaderSummary
-    
-VariablePassthru
-    
 Defines
+    
+DirectoryTraversal
     
 Exports
     
 GeneratedInclude
     
-Program
-    
 IPDLFile
     
 LocalInclude
     
+Program
+    
+ReaderSummary
+    
+SimpleProgram
+    
 TestManifest
+    
+VariablePassthru
 )
 from
 mozbuild
@@ -1302,21 +1304,6 @@ sll
 '
 ]
             
-SIMPLE_PROGRAMS
-=
-[
-'
-fans
-.
-x
-'
-'
-tans
-.
-x
-'
-]
-            
 SSRCS
 =
 [
@@ -1800,7 +1787,7 @@ len
 (
 objs
 )
-2
+4
 )
         
 self
@@ -1825,22 +1812,74 @@ objs
 Program
 )
         
-program
-=
+self
+.
+assertIsInstance
+(
+objs
+[
+2
+]
+SimpleProgram
+)
+        
+self
+.
+assertIsInstance
+(
+objs
+[
+3
+]
+SimpleProgram
+)
+        
+self
+.
+assertEqual
+(
 objs
 [
 1
 ]
 .
 program
+'
+test_program
+.
+prog
+'
+)
         
 self
 .
 assertEqual
 (
+objs
+[
+2
+]
+.
 program
 '
-test_program
+test_program1
+.
+prog
+'
+)
+        
+self
+.
+assertEqual
+(
+objs
+[
+3
+]
+.
+program
+'
+test_program2
 .
 prog
 '
