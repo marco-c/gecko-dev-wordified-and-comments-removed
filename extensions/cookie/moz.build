@@ -121,7 +121,7 @@ XPIDL_MODULE
 '
 cookie
 '
-SOURCES
+UNIFIED_SOURCES
 +
 =
 [
