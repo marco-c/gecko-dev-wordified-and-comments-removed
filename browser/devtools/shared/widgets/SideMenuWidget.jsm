@@ -1480,16 +1480,6 @@ name
 aName
 )
 ;
-target
-.
-setAttribute
-(
-"
-tooltiptext
-"
-aName
-)
-;
 let
 list
 =
