@@ -206,6 +206,10 @@ IndexedDatabaseManager
 ;
 friend
 class
+IndexedDBDatabaseParent
+;
+friend
+class
 IndexedDBDatabaseChild
 ;
 public
@@ -809,6 +813,13 @@ IDBDatabase
 void
 OnUnlink
 (
+)
+;
+void
+InvalidateInternal
+(
+bool
+aIsDead
 )
 ;
 nsRefPtr

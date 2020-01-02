@@ -2379,8 +2379,9 @@ nullptr
 mDatabase
 -
 >
-Invalidate
+InvalidateInternal
 (
+true
 )
 ;
 }
