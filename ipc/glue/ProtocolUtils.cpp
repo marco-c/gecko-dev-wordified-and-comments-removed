@@ -62,13 +62,6 @@ IToplevelProtocol
 (
 )
 {
-MOZ_ASSERT
-(
-NS_IsMainThread
-(
-)
-)
-;
 mOpenActors
 .
 clear
@@ -87,13 +80,6 @@ IToplevelProtocol
 aActor
 )
 {
-MOZ_ASSERT
-(
-NS_IsMainThread
-(
-)
-)
-;
 #
 ifdef
 DEBUG
