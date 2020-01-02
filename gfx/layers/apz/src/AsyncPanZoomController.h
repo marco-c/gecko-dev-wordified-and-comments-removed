@@ -1132,10 +1132,6 @@ private
 :
 friend
 class
-OverscrollableAnimation
-;
-friend
-class
 FlingAnimation
 ;
 friend
@@ -1629,13 +1625,6 @@ aDelta
 =
 0
 ;
-virtual
-void
-Cancel
-(
-)
-{
-}
 Vector
 <
 Task
