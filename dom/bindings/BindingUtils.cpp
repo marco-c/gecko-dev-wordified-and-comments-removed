@@ -500,9 +500,9 @@ aCx
 aArgs
 aErrorNumber
 NamesOfInterfacesWithProtos
-[
+(
 aProtoId
-]
+)
 )
 ;
 }
@@ -529,9 +529,9 @@ attribute
 setter
 "
 NamesOfInterfacesWithProtos
-[
+(
 aProtoId
-]
+)
 )
 ;
 return
