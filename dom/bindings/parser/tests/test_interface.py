@@ -1477,13 +1477,13 @@ len
 (
 results
 )
-1
+2
                   
 "
 Should
 have
-one
-result
+two
+results
 with
 partial
 interface
@@ -1762,13 +1762,13 @@ len
 (
 results
 )
-1
+2
                   
 "
 Should
 have
-one
-result
+two
+results
 with
 reversed
 partial
@@ -1780,7 +1780,7 @@ iface
 =
 results
 [
-0
+1
 ]
     
 harness
