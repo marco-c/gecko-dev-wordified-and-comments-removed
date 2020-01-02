@@ -41,8 +41,8 @@ JSObject
 >
 {
 typedef
-EncapsulatedPtrObject
-Encapsulated
+PreBarrieredObject
+PreBarriered
 ;
 static
 JSObject
@@ -70,8 +70,8 @@ Value
 >
 {
 typedef
-EncapsulatedValue
-Encapsulated
+PreBarrieredValue
+PreBarriered
 ;
 static
 JS
@@ -111,7 +111,7 @@ K
 >
 :
 :
-Encapsulated
+PreBarriered
 KeyType
 ;
 typedef
@@ -122,7 +122,7 @@ V
 >
 :
 :
-Encapsulated
+PreBarriered
 ValueType
 ;
 typedef

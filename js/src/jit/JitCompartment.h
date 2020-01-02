@@ -1207,7 +1207,7 @@ parallelStringConcatStub_
 typedef
 HashSet
 <
-EncapsulatedPtrScript
+PreBarrieredScript
 >
 ScriptSet
 ;

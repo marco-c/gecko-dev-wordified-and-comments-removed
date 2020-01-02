@@ -8585,7 +8585,7 @@ ObjectWeakMap
 *
 map
 const
-EncapsulatedPtrObject
+PreBarrieredObject
 &
 key
 )

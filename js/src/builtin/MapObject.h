@@ -26,7 +26,7 @@ js
 class
 HashableValue
 {
-EncapsulatedValue
+PreBarrieredValue
 value
 ;
 public

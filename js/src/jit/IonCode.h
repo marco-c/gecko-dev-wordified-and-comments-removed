@@ -615,10 +615,10 @@ IonScript
 {
 private
 :
-EncapsulatedPtrJitCode
+PreBarrieredJitCode
 method_
 ;
-EncapsulatedPtrJitCode
+PreBarrieredJitCode
 deoptTable_
 ;
 jsbytecode
@@ -825,7 +825,7 @@ bailoutTable_
 ]
 ;
 }
-EncapsulatedValue
+PreBarrieredValue
 *
 constants
 (
@@ -833,7 +833,7 @@ constants
 {
 return
 (
-EncapsulatedValue
+PreBarrieredValue
 *
 )
 &
@@ -1803,7 +1803,7 @@ this
 )
 ;
 }
-EncapsulatedValue
+PreBarrieredValue
 &
 getConstant
 (

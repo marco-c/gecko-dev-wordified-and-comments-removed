@@ -24,7 +24,7 @@ js
 typedef
 WeakMap
 <
-EncapsulatedPtrObject
+PreBarrieredObject
 RelocatableValue
 >
 ObjectValueMap

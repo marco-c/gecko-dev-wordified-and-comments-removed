@@ -914,7 +914,7 @@ frames
 typedef
 DebuggerWeakMap
 <
-EncapsulatedPtrScript
+PreBarrieredScript
 RelocatablePtrObject
 >
 ScriptWeakMap
@@ -925,7 +925,7 @@ scripts
 typedef
 DebuggerWeakMap
 <
-EncapsulatedPtrObject
+PreBarrieredObject
 RelocatablePtrObject
 true
 >
@@ -937,7 +937,7 @@ sources
 typedef
 DebuggerWeakMap
 <
-EncapsulatedPtrObject
+PreBarrieredObject
 RelocatablePtrObject
 >
 ObjectWeakMap
@@ -2625,7 +2625,7 @@ private
 js
 :
 :
-EncapsulatedPtrObject
+PreBarrieredObject
 handler
 ;
 JSCList
@@ -2690,7 +2690,7 @@ nextInSite
 )
 ;
 const
-EncapsulatedPtrObject
+PreBarrieredObject
 &
 getHandler
 (
@@ -2701,7 +2701,7 @@ return
 handler
 ;
 }
-EncapsulatedPtrObject
+PreBarrieredObject
 &
 getHandlerRef
 (
