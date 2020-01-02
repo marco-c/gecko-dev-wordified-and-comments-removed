@@ -195,6 +195,7 @@ NULL
 void
 dump_struct
 (
+const
 char
 *
 label
@@ -705,6 +706,10 @@ n
 ;
 whole
 =
+(
+char
+*
+)
 malloc
 (
 dlen
