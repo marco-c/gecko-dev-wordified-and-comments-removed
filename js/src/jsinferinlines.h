@@ -6692,8 +6692,6 @@ clasp
 TaggedProto
 proto
 bool
-function
-bool
 unknown
 )
 {
@@ -6747,15 +6745,6 @@ proto
 raw
 (
 )
-;
-if
-(
-function
-)
-flags
-|
-=
-OBJECT_FLAG_FUNCTION
 ;
 if
 (

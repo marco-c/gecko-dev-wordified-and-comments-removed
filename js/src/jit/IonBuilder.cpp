@@ -1030,15 +1030,6 @@ if
 typeObj
 -
 >
-isFunction
-(
-)
-|
-|
-!
-typeObj
--
->
 interpretedFunction
 )
 {
