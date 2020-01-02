@@ -24169,7 +24169,7 @@ false
 nsEventStatus
 status
 ;
-WheelEvent
+WidgetWheelEvent
 wheelEvent
 (
 true
