@@ -6774,6 +6774,11 @@ seq5
 [
 ]
 ;
+long
+dashed
+-
+name
+;
 }
 ;
 dictionary
