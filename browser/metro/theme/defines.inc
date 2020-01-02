@@ -285,6 +285,10 @@ touch_action_minwidth
 133px
 %
 define
+touch_action_snapped_minwidth
+80px
+%
+define
 margin_large
 16px
 %

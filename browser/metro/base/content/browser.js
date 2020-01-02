@@ -2209,6 +2209,18 @@ tabmodalprompt
 "
 )
 ;
+newPrompt
+.
+setAttribute
+(
+"
+promptType
+"
+args
+.
+promptType
+)
+;
 stack
 .
 appendChild
@@ -2248,7 +2260,7 @@ chromeTab
 ;
 newPrompt
 .
-init
+metroInit
 (
 args
 tab
