@@ -1934,6 +1934,14 @@ aWindow
 if
 (
 window
+&
+&
+window
+-
+>
+IsOuterWindow
+(
+)
 )
 window
 =
