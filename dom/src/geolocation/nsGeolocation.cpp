@@ -1609,9 +1609,7 @@ cachedPositionTime
 uint32_t
 maximumAge
 =
-30
-*
-PR_MSEC_PER_SEC
+0
 ;
 if
 (
@@ -1625,7 +1623,6 @@ mOptions
 >
 mMaximumAge
 >
-=
 0
 )
 {
