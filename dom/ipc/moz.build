@@ -778,14 +778,6 @@ ENABLE_TESTS
 '
 ]
 :
-DEFINES
-[
-'
-ENABLE_TESTS
-'
-]
-=
-1
 LOCAL_INCLUDES
 +
 =

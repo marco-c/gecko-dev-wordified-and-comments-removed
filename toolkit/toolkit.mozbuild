@@ -681,14 +681,6 @@ testing
 specialpowers
 '
 )
-if
-CONFIG
-[
-'
-ENABLE_TESTS
-'
-]
-:
 add_tier_dir
 (
 '
