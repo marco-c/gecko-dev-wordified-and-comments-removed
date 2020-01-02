@@ -1239,6 +1239,17 @@ rect
 ref
 .
 svg
+fuzzy
+-
+if
+(
+d2d
+&
+&
+layersGPUAccelerated
+3
+1200
+)
 =
 =
 dynamic
@@ -1257,6 +1268,12 @@ rect
 ref
 .
 svg
+#
+bug
+776038
+for
+Win7
+Win8
 =
 =
 dynamic
@@ -1431,7 +1448,7 @@ d2d
 &
 &
 layersGPUAccelerated
-2
+3
 12739
 )
 =
@@ -1457,6 +1474,7 @@ bug
 776038
 for
 Win7
+Win8
 fuzzy
 -
 if
