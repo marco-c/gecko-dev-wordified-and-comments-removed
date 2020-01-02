@@ -5,6 +5,14 @@ ANDROID_AUDIOSYSTEM_H_
 define
 ANDROID_AUDIOSYSTEM_H_
 #
+pragma
+GCC
+visibility
+push
+(
+default
+)
+#
 include
 <
 utils
@@ -2954,5 +2962,10 @@ mParameters
 ;
 }
 ;
+#
+pragma
+GCC
+visibility
+pop
 #
 endif
