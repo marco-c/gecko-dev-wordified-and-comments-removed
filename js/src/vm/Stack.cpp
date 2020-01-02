@@ -393,10 +393,6 @@ prevsp_
 =
 nullptr
 ;
-blockChain_
-=
-nullptr
-;
 JS_ASSERT_IF
 (
 evalInFramePrev
@@ -1577,14 +1573,6 @@ JS_ASSERT
 (
 !
 isYielding
-(
-)
-)
-;
-JS_ASSERT
-(
-!
-hasBlockChain
 (
 )
 )

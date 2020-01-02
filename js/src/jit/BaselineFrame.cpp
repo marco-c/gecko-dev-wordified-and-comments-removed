@@ -569,15 +569,6 @@ BaselineFrame
 :
 HAS_CALL_OBJ
 ;
-blockChain_
-=
-fp
--
->
-maybeBlockChain
-(
-)
-;
 if
 (
 fp
