@@ -7106,7 +7106,7 @@ defineHow
 ;
 extern
 bool
-LookupPropertyWithFlags
+LookupNativeProperty
 (
 ExclusiveContext
 *
@@ -7115,8 +7115,6 @@ HandleObject
 obj
 HandleId
 id
-unsigned
-flags
 js
 :
 :
@@ -7187,13 +7185,6 @@ AutoPropDescArrayRooter
 *
 descs
 )
-;
-static
-const
-unsigned
-RESOLVE_INFER
-=
-0xffff
 ;
 extern
 bool

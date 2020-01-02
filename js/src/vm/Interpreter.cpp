@@ -7590,13 +7590,6 @@ EnableInterruptsPseudoOpcode
 ;
 \
 JS_END_MACRO
-JSAutoResolveFlags
-rf
-(
-cx
-RESOLVE_INFER
-)
-;
 gc
 :
 :

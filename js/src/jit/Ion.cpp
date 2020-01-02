@@ -11846,13 +11846,6 @@ data
 constructing
 )
 ;
-JSAutoResolveFlags
-rf
-(
-cx
-RESOLVE_INFER
-)
-;
 AutoFlushInhibitor
 afi
 (
@@ -12638,13 +12631,6 @@ fun
 nargs
 (
 )
-)
-;
-JSAutoResolveFlags
-rf
-(
-cx
-RESOLVE_INFER
 )
 ;
 CALL_GENERATED_CODE

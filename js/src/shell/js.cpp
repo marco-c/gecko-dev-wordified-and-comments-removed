@@ -16301,12 +16301,11 @@ isNative
 if
 (
 !
-LookupPropertyWithFlags
+LookupNativeProperty
 (
 cx
 referent
 id
-0
 &
 obj2
 &
