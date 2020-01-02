@@ -1637,8 +1637,6 @@ mThread
 GeckoLayerClient
 *
 mLayerClient
-=
-NULL
 ;
 jclass
 mAndroidSmsMessageClass
