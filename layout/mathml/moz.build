@@ -317,11 +317,6 @@ mathfont
 properties
 '
 '
-mathfontAsanaMath
-.
-properties
-'
-'
 mathfontMathJax_Main
 .
 properties
@@ -333,11 +328,6 @@ properties
 '
 '
 mathfontSTIXNonUnicode
-.
-properties
-'
-'
-mathfontSTIXSize1
 .
 properties
 '
