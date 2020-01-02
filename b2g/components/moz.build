@@ -141,6 +141,11 @@ FilePicker
 js
 '
 '
+HelperAppDialog
+.
+js
+'
+'
 MailtoProtocolHandler
 .
 js
