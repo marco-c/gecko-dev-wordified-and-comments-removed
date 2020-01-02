@@ -623,6 +623,11 @@ MetadataTags
 aTags
 )
 ;
+bool
+IsPlaying
+(
+)
+;
 protected
 :
 virtual
@@ -922,11 +927,6 @@ StartWaitForResources
 ;
 void
 StartDecodeMetadata
-(
-)
-;
-bool
-IsPlaying
 (
 )
 ;

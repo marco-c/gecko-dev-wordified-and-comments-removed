@@ -482,6 +482,9 @@ mStream
 bool
 mHaveBlockedForPlayState
 ;
+bool
+mHaveBlockedForStateMachineNotPlaying
+;
 virtual
 void
 NotifyMainThreadStateChanged
@@ -548,6 +551,11 @@ RecreateDecodedStream
 (
 int64_t
 aStartTimeUSecs
+)
+;
+void
+UpdateStreamBlockingForStateMachinePlaying
+(
 )
 ;
 void
