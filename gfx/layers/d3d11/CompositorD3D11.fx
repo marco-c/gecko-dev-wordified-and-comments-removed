@@ -1161,7 +1161,7 @@ sSampler
 aTexCoords
 )
 .
-r
+a
 -
 0
 .
@@ -1179,7 +1179,7 @@ sSampler
 aTexCoords
 )
 .
-r
+a
 -
 0
 .
@@ -1197,7 +1197,7 @@ sSampler
 aTexCoords
 )
 .
-r
+a
 -
 0
 .
