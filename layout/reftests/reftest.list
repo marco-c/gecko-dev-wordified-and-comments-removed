@@ -756,6 +756,17 @@ reftest
 .
 list
 #
+css
+variables
+include
+css
+-
+variables
+/
+reftest
+.
+list
+#
 Reftests
 in
 css
