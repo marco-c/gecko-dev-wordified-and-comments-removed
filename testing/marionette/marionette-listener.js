@@ -811,9 +811,9 @@ addMessageListenerId
 "
 Marionette
 :
-goUrl
+get
 "
-goUrl
+get
 )
 ;
 addMessageListenerId
@@ -1410,9 +1410,9 @@ removeMessageListenerId
 "
 Marionette
 :
-goUrl
+get
 "
-goUrl
+get
 )
 ;
 removeMessageListenerId
@@ -6612,7 +6612,7 @@ command_id
 }
 }
 function
-goUrl
+get
 (
 msg
 )

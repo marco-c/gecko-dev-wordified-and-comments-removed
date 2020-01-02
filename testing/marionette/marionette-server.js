@@ -5275,10 +5275,10 @@ error
 ;
 }
 }
-goUrl
+get
 :
 function
-MDA_goUrl
+MDA_get
 (
 aRequest
 )
@@ -5329,7 +5329,7 @@ this
 sendAsync
 (
 "
-goUrl
+get
 "
 aRequest
 .
@@ -12151,6 +12151,15 @@ prototype
 .
 getPageSource
 "
+get
+"
+:
+MarionetteServerConnection
+.
+prototype
+.
+get
+"
 goUrl
 "
 :
@@ -12158,7 +12167,7 @@ MarionetteServerConnection
 .
 prototype
 .
-goUrl
+get
 "
 getCurrentUrl
 "
