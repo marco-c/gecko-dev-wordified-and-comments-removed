@@ -97,8 +97,6 @@ CheckKeyUsage
 (
 EndEntityOrCA
 endEntityOrCA
-bool
-isTrustAnchor
 const
 SECItem
 *
@@ -1581,7 +1579,6 @@ rv
 CheckKeyUsage
 (
 endEntityOrCA
-isTrustAnchor
 cert
 .
 encodedKeyUsage
