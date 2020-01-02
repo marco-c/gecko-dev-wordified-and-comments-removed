@@ -5499,6 +5499,9 @@ nsIDOMMozCdmaIccInfo
 mdn
 :
 null
+prlVersion
+:
+0
 }
 ;
 function
