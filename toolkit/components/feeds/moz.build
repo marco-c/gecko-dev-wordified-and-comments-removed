@@ -93,12 +93,16 @@ MPL
 0
 /
 .
-TEST_DIRS
+MOCHITEST_CHROME_MANIFESTS
 +
 =
 [
 '
 test
+/
+chrome
+.
+ini
 '
 ]
 XPIDL_SOURCES

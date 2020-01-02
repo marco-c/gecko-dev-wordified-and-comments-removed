@@ -93,12 +93,16 @@ MPL
 0
 /
 .
-TEST_DIRS
+MOCHITEST_MANIFESTS
 +
 =
 [
 '
 test
+/
+mochitest
+.
+ini
 '
 ]
 XPIDL_SOURCES

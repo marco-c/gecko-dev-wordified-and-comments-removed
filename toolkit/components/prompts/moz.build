@@ -101,12 +101,16 @@ DIRS
 src
 '
 ]
-TEST_DIRS
+MOCHITEST_MANIFESTS
 +
 =
 [
 '
 test
+/
+mochitest
+.
+ini
 '
 ]
 JAR_MANIFESTS

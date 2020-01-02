@@ -93,12 +93,16 @@ MPL
 0
 /
 .
-PARALLEL_DIRS
+MOCHITEST_CHROME_MANIFESTS
 +
 =
 [
 '
 test
+/
+chrome
+.
+ini
 '
 ]
 UNIFIED_SOURCES

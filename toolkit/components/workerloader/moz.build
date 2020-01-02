@@ -93,11 +93,15 @@ MPL
 0
 /
 .
-TEST_DIRS
+MOCHITEST_CHROME_MANIFESTS
 +
 =
 [
 '
 tests
+/
+chrome
+.
+ini
 '
 ]

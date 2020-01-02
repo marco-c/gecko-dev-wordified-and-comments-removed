@@ -120,11 +120,15 @@ DIRS
 help
 '
 ]
-TEST_DIRS
+MOCHITEST_CHROME_MANIFESTS
 +
 =
 [
 '
 mochitests
+/
+chrome
+.
+ini
 '
 ]

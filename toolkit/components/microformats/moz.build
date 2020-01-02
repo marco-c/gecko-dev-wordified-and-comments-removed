@@ -93,12 +93,16 @@ MPL
 0
 /
 .
-TEST_DIRS
+MOCHITEST_MANIFESTS
 +
 =
 [
 '
 tests
+/
+mochitest
+.
+ini
 '
 ]
 EXTRA_JS_MODULES

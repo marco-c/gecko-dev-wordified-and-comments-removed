@@ -93,12 +93,16 @@ MPL
 0
 /
 .
-TEST_DIRS
+BROWSER_CHROME_MANIFESTS
 +
 =
 [
 '
 test
+/
+browser
+.
+ini
 '
 ]
 EXTRA_COMPONENTS
