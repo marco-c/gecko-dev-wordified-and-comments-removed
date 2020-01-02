@@ -310,11 +310,6 @@ CompositionEvent
 webidl
 '
 '
-Contacts
-.
-webidl
-'
-'
 ConvolverNode
 .
 webidl
@@ -2348,6 +2343,11 @@ MozApplicationEvent
 webidl
 '
 '
+MozContactChangeEvent
+.
+webidl
+'
+'
 MozMmsEvent
 .
 webidl
@@ -2628,11 +2628,6 @@ webidl
 '
 '
 MediaStreamEvent
-.
-webidl
-'
-'
-MozContactChangeEvent
 .
 webidl
 '
