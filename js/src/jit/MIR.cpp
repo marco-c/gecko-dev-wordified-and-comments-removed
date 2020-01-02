@@ -9214,6 +9214,16 @@ op
 >
 mightBeType
 (
+MIRType_Float32
+)
+&
+&
+!
+op
+-
+>
+mightBeType
+(
 MIRType_Magic
 )
 ;
