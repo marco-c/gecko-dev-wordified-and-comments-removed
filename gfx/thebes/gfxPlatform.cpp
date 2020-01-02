@@ -1805,16 +1805,6 @@ mScreenReferenceSurface
 )
 ;
 }
-if
-(
-gPlatform
--
->
-SupportsAzureContent
-(
-)
-)
-{
 gPlatform
 -
 >
@@ -1855,7 +1845,6 @@ mScreenReferenceDrawTarget
 "
 )
 ;
-}
 }
 rv
 =
