@@ -1826,6 +1826,10 @@ next_input
 {
 if
 (
+!
+curve
+&
+&
 PL_strncmp
 (
 name
@@ -1858,6 +1862,13 @@ value_len
 else
 if
 (
+!
+keyPairInfo
+-
+>
+ecPopCert
+&
+&
 PL_strncmp
 (
 name
