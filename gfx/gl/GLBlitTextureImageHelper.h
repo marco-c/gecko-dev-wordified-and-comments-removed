@@ -50,8 +50,10 @@ GLContext
 *
 mGL
 ;
-GLuint
+GLProgram
 mBlitProgram
+;
+GLuint
 mBlitFramebuffer
 ;
 void
