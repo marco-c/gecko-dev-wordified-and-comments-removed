@@ -103,7 +103,7 @@ aUsername
 =
 nullptr
 ;
-PRUnichar
+wchar_t
 username
 [
 UNLEN
@@ -179,7 +179,7 @@ aFullname
 =
 nullptr
 ;
-PRUnichar
+wchar_t
 fullName
 [
 512
@@ -228,7 +228,7 @@ GetLastError
 (
 )
 ;
-PRUnichar
+wchar_t
 username
 [
 UNLEN
@@ -482,7 +482,7 @@ aEmailAddress
 =
 nullptr
 ;
-PRUnichar
+wchar_t
 emailAddress
 [
 255

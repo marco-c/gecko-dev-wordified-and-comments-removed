@@ -157,9 +157,7 @@ char
 *
 AllocConvertUTF16toUTF8
 (
-const
-WCHAR
-*
+char16ptr_t
 arg
 )
 {

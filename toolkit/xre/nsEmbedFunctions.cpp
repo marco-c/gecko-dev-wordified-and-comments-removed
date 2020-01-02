@@ -584,7 +584,7 @@ ifdef
 XP_WIN
 static
 const
-PRUnichar
+wchar_t
 kShellLibraryName
 [
 ]
