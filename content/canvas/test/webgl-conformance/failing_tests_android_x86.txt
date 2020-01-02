@@ -76,6 +76,15 @@ textures
 texture
 -
 size
+.
+html
+conformance
+/
+textures
+/
+texture
+-
+size
 -
 cube
 -
