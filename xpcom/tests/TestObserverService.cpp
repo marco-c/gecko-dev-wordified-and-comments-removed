@@ -607,7 +607,7 @@ topicA
 get
 (
 )
-NS_LITERAL_STRING
+MOZ_UTF16
 (
 "
 Testing
@@ -621,10 +621,6 @@ topic
 A
 )
 "
-)
-.
-get
-(
 )
 )
 ;
@@ -667,7 +663,7 @@ topicB
 get
 (
 )
-NS_LITERAL_STRING
+MOZ_UTF16
 (
 "
 Testing
@@ -681,10 +677,6 @@ topic
 B
 )
 "
-)
-.
-get
-(
 )
 )
 ;
@@ -864,16 +856,12 @@ topicA
 get
 (
 )
-NS_LITERAL_STRING
+MOZ_UTF16
 (
 "
 during
 enumeration
 "
-)
-.
-get
-(
 )
 )
 ;

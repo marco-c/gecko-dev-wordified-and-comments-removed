@@ -41,7 +41,7 @@ algorithm
 #
 define
 TOKEN_DELIMITERS
-NS_LITERAL_STRING
+MOZ_UTF16
 (
 "
 \
@@ -51,10 +51,6 @@ r
 \
 n
 "
-)
-.
-get
-(
 )
 NS_IMPL_ISUPPORTS4
 (

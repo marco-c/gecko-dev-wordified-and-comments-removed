@@ -7803,15 +7803,11 @@ bundle
 >
 FormatStringFromName
 (
-NS_LITERAL_STRING
+MOZ_UTF16
 (
 "
 title
 "
-)
-.
-get
-(
 )
 strings
 1

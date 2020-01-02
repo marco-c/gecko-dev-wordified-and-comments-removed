@@ -180,15 +180,11 @@ entities
 >
 GetStringFromName
 (
-NS_LITERAL_STRING
+MOZ_UTF16
 (
 "
 length
 "
-)
-.
-get
-(
 )
 getter_Copies
 (

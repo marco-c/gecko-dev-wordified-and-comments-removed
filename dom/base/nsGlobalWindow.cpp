@@ -37376,15 +37376,11 @@ windowMediator
 >
 GetMostRecentWindow
 (
-NS_LITERAL_STRING
+MOZ_UTF16
 (
 "
 findInPage
 "
-)
-.
-get
-(
 )
 getter_AddRefs
 (

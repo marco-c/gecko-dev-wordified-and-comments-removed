@@ -381,15 +381,11 @@ nsICommandManager
 this
 )
 aCommandName
-NS_LITERAL_STRING
+MOZ_UTF16
 (
 "
 command_status_changed
 "
-)
-.
-get
-(
 )
 )
 ;

@@ -20456,7 +20456,7 @@ sFlushTIPInputMessage
 :
 RegisterWindowMessageW
 (
-NS_LITERAL_STRING
+MOZ_UTF16
 (
 "
 Flush
@@ -20464,10 +20464,6 @@ TIP
 Input
 Message
 "
-)
-.
-get
-(
 )
 )
 ;

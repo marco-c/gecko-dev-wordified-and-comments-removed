@@ -7647,7 +7647,7 @@ final
 .
 Append
 (
-NS_LITERAL_STRING
+MOZ_UTF16
 (
 "
 \
@@ -7655,10 +7655,6 @@ n
 \
 n
 "
-)
-.
-get
-(
 )
 )
 ;
@@ -7688,7 +7684,7 @@ final
 .
 Append
 (
-NS_LITERAL_STRING
+MOZ_UTF16
 (
 "
 \
@@ -7696,10 +7692,6 @@ n
 \
 n
 "
-)
-.
-get
-(
 )
 )
 ;

@@ -5977,7 +5977,7 @@ rv
 =
 HandleProcessingInstruction
 (
-NS_LITERAL_STRING
+MOZ_UTF16
 (
 "
 xml
@@ -5985,11 +5985,7 @@ xml
 stylesheet
 "
 )
-.
-get
-(
-)
-NS_LITERAL_STRING
+MOZ_UTF16
 (
 "
 href
@@ -6019,10 +6015,6 @@ css
 \
 "
 "
-)
-.
-get
-(
 )
 )
 ;

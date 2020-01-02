@@ -1327,15 +1327,11 @@ bundle
 >
 GetStringFromName
 (
-NS_LITERAL_STRING
+MOZ_UTF16
 (
 "
 PrintToFile
 "
-)
-.
-get
-(
 )
 getter_Copies
 (

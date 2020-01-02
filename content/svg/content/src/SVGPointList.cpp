@@ -142,7 +142,7 @@ ArrayLength
 (
 buf
 )
-NS_LITERAL_STRING
+MOZ_UTF16
 (
 "
 %
@@ -150,10 +150,6 @@ g
 %
 g
 "
-)
-.
-get
-(
 )
 double
 (

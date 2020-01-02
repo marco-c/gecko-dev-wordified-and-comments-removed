@@ -1637,15 +1637,11 @@ bundle
 >
 GetStringFromName
 (
-NS_LITERAL_STRING
+MOZ_UTF16
 (
 "
 brandShortName
 "
-)
-.
-get
-(
 )
 getter_Copies
 (
