@@ -32,6 +32,11 @@ boolean
 noThrow
 ;
 public
+final
+boolean
+narrowChars
+;
+public
 AnnotationInfo
 (
 String
@@ -42,6 +47,8 @@ boolean
 aIsMultithreaded
 boolean
 aNoThrow
+boolean
+aNarrowChars
 )
 {
 wrapperName
@@ -59,6 +66,10 @@ aIsMultithreaded
 noThrow
 =
 aNoThrow
+;
+narrowChars
+=
+aNarrowChars
 ;
 }
 }

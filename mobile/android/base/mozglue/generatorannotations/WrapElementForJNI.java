@@ -66,4 +66,11 @@ noThrow
 default
 false
 ;
+boolean
+narrowChars
+(
+)
+default
+false
+;
 }

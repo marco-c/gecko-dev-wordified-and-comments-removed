@@ -1124,6 +1124,8 @@ Class
 ?
 >
 type
+boolean
+aNarrowChars
 )
 {
 String
@@ -1243,6 +1245,19 @@ type
 )
 )
 {
+if
+(
+aNarrowChars
+)
+{
+return
+"
+const
+nsACString
+&
+"
+;
+}
 return
 "
 const
@@ -1311,6 +1326,8 @@ Class
 ?
 >
 type
+boolean
+aNarrowChars
 )
 {
 if
@@ -1345,6 +1362,7 @@ cParameterType
 getCParameterType
 (
 type
+aNarrowChars
 )
 ;
 if
@@ -1356,6 +1374,18 @@ equals
 "
 const
 nsAString
+&
+"
+)
+|
+|
+cParameterType
+.
+equals
+(
+"
+const
+nsACString
 &
 "
 )
@@ -2120,6 +2150,8 @@ String
 aCMethodName
 String
 aCClassName
+boolean
+aNarrowChars
 )
 {
 StringBuilder
@@ -2137,6 +2169,7 @@ append
 getCReturnType
 (
 aReturnType
+aNarrowChars
 )
 )
 ;
@@ -2209,6 +2242,7 @@ aArgumentTypes
 [
 aT
 ]
+aNarrowChars
 )
 )
 ;
@@ -2296,6 +2330,8 @@ String
 aCClassName
 boolean
 aIsStaticStub
+boolean
+aNarrowChars
 )
 {
 StringBuilder
@@ -2328,6 +2364,7 @@ append
 getCReturnType
 (
 aReturnType
+aNarrowChars
 )
 )
 ;
@@ -2383,6 +2420,7 @@ aArgumentTypes
 [
 aT
 ]
+aNarrowChars
 )
 )
 ;
