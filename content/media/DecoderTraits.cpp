@@ -1894,6 +1894,9 @@ amr
 )
 )
 {
+dom
+:
+:
 HTMLMediaElement
 *
 element

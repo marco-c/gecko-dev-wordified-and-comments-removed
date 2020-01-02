@@ -379,6 +379,9 @@ DECODER_STATE_SEEKING
 nsresult
 GetBuffered
 (
+dom
+:
+:
 TimeRanges
 *
 aBuffered
@@ -767,11 +770,9 @@ HasLowUndecodedData
 )
 const
 ;
-bool
-HasLowUndecodedData
+int64_t
+GetUndecodedData
 (
-double
-aUsecs
 )
 const
 ;
