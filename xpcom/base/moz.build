@@ -301,11 +301,6 @@ nsGZFileWriter
 h
 '
 '
-nsIAllocator
-.
-h
-'
-'
 nsIID
 .
 h

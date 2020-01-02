@@ -7,13 +7,6 @@ nsAllocator_h__
 #
 include
 "
-nsIAllocator
-.
-h
-"
-#
-include
-"
 nsAgg
 .
 h
