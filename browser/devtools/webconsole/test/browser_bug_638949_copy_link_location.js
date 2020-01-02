@@ -362,6 +362,12 @@ disabled
 "
 )
 ;
+message
+.
+scrollIntoView
+(
+)
+;
 waitForContextMenu
 (
 menu
@@ -569,6 +575,12 @@ testMenuWithNetActivity
 (
 )
 {
+message
+.
+scrollIntoView
+(
+)
+;
 waitForContextMenu
 (
 menu

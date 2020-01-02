@@ -344,6 +344,14 @@ disabled
 "
 )
 ;
+outputNode
+.
+selectedItem
+.
+scrollIntoView
+(
+)
+;
 waitForContextMenu
 (
 contextMenu
@@ -662,6 +670,12 @@ output
 selectMessage
 (
 msg
+)
+;
+msg
+.
+scrollIntoView
+(
 )
 ;
 waitForContextMenu

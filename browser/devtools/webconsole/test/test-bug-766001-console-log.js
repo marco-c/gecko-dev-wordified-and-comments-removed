@@ -1,11 +1,5 @@
-window
-.
-addEventListener
-(
-"
-load
-"
 function
+onLoad123
 (
 )
 {
@@ -20,6 +14,14 @@ Blah
 )
 ;
 }
+window
+.
+addEventListener
+(
+"
+load
+"
+onLoad123
 false
 )
 ;
