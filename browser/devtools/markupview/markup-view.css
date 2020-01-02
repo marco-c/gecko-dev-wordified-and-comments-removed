@@ -446,3 +446,17 @@ cursor
 default
 ;
 }
+.
+markupview
+-
+events
+{
+display
+:
+none
+;
+cursor
+:
+pointer
+;
+}
