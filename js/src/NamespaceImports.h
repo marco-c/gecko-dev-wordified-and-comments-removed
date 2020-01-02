@@ -96,6 +96,9 @@ SourceBufferHolder
 class
 HandleValueArray
 ;
+class
+AutoCheckCannotGC
+;
 }
 namespace
 js
@@ -519,6 +522,12 @@ JS
 :
 :
 Zone
+;
+using
+JS
+:
+:
+AutoCheckCannotGC
 ;
 }
 #
