@@ -160,6 +160,11 @@ AppNotificationServiceOptions
 webidl
 '
 '
+APZTestData
+.
+webidl
+'
+'
 ArchiveReader
 .
 webidl
