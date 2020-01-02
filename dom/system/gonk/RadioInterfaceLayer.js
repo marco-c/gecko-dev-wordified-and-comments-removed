@@ -16400,9 +16400,6 @@ set
 kSettingsClockAutoUpdateAvailable
 value
 null
-"
-fromInternalSetting
-"
 )
 ;
 }
@@ -16424,9 +16421,6 @@ set
 kSettingsTimezoneAutoUpdateAvailable
 value
 null
-"
-fromInternalSetting
-"
 )
 ;
 }
@@ -17339,7 +17333,7 @@ setting
 value
 setting
 .
-message
+isInternalChange
 )
 ;
 break
@@ -17656,7 +17650,7 @@ function
 (
 aName
 aResult
-aMessage
+aIsInternalSetting
 )
 {
 if
@@ -17668,13 +17662,8 @@ aName
 kSettingsClockAutoUpdateAvailable
 &
 &
-aMessage
 !
-=
-=
-"
-fromInternalSetting
-"
+aIsInternalSetting
 )
 {
 let
@@ -17754,13 +17743,8 @@ aName
 kSettingsTimezoneAutoUpdateAvailable
 &
 &
-aMessage
 !
-=
-=
-"
-fromInternalSetting
-"
+aIsInternalSetting
 )
 {
 let
