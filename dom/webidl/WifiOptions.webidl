@@ -392,12 +392,6 @@ gateway_str
 "
 ;
 DOMString
-broadcast_str
-=
-"
-"
-;
-DOMString
 dns1_str
 =
 "

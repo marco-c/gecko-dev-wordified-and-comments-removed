@@ -2111,11 +2111,6 @@ prefixLength
 i
 .
 prefixLength
-broadcast
-:
-i
-.
-broadcast
 gateway
 :
 i
