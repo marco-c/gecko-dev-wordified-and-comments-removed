@@ -34980,6 +34980,14 @@ ins
 )
 ;
 }
+void
+computeRange
+(
+TempAllocator
+&
+alloc
+)
+;
 }
 ;
 class
