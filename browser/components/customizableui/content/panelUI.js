@@ -742,6 +742,12 @@ popupshown
 onPopupShown
 )
 ;
+gCustomizationTabPreloader
+.
+ensurePreloading
+(
+)
+;
 deferred
 .
 resolve

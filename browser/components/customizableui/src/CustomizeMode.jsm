@@ -1591,6 +1591,14 @@ customizationready
 window
 )
 ;
+window
+.
+gCustomizationTabPreloader
+.
+ensurePreloading
+(
+)
+;
 if
 (
 !
