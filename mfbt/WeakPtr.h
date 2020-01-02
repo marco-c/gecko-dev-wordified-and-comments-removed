@@ -622,6 +622,7 @@ o
 )
 {
 }
+MOZ_IMPLICIT
 WeakPtr
 (
 const

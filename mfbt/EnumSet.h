@@ -15,6 +15,15 @@ h
 "
 #
 include
+"
+mozilla
+/
+Attributes
+.
+h
+"
+#
+include
 <
 stdint
 .
@@ -43,6 +52,7 @@ mBitField
 )
 {
 }
+MOZ_IMPLICIT
 EnumSet
 (
 T

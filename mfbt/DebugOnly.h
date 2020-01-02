@@ -4,6 +4,15 @@ mozilla_DebugOnly_h
 #
 define
 mozilla_DebugOnly_h
+#
+include
+"
+mozilla
+/
+Attributes
+.
+h
+"
 namespace
 mozilla
 {
@@ -28,6 +37,7 @@ DebugOnly
 )
 {
 }
+MOZ_IMPLICIT
 DebugOnly
 (
 const
@@ -171,6 +181,7 @@ DebugOnly
 )
 {
 }
+MOZ_IMPLICIT
 DebugOnly
 (
 const

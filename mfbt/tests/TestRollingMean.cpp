@@ -30,6 +30,7 @@ public
 uint32_t
 value
 ;
+explicit
 MyClass
 (
 uint32_t
