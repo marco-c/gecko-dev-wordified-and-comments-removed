@@ -28203,7 +28203,7 @@ idvar
 ExprVar
 (
 '
-aId
+id
 '
 )
         
@@ -28300,7 +28300,7 @@ ptr
 =
 1
 )
-memvar
+outmemvar
 .
 name
 )
@@ -28375,11 +28375,11 @@ StmtDecl
 (
 Decl
 (
-_autoptr
-(
 _rawShmemType
 (
-)
+ptr
+=
+1
 )
 rawvar
 .
@@ -28428,14 +28428,11 @@ ExprAssn
                     
 ExprDeref
 (
-memvar
+outmemvar
 )
 _shmemCtor
 (
-_autoptrForget
-(
 rawvar
-)
 idvar
 )
 )
