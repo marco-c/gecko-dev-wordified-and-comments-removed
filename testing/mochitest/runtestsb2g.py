@@ -377,33 +377,6 @@ options
 )
 :
         
-if
-options
-.
-manifestFile
-!
-=
-'
-tests
-.
-json
-'
-:
-            
-super
-(
-B2GMochitest
-self
-)
-.
-buildTestPath
-(
-options
-disabled
-=
-False
-)
-        
 return
 self
 .
@@ -1101,7 +1074,6 @@ class
 B2GDeviceMochitest
 (
 B2GMochitest
-Mochitest
 )
 :
     
@@ -1139,13 +1111,6 @@ True
 profile_data_dir
 =
 profile_data_dir
-)
-        
-Mochitest
-.
-__init__
-(
-self
 )
         
 self
@@ -1529,24 +1494,6 @@ self
 setup_common_options
 (
 options
-)
-        
-self
-.
-urlOpts
-.
-append
-(
-"
-manifestFile
-=
-%
-s
-"
-%
-options
-.
-manifestFile
 )
         
 options

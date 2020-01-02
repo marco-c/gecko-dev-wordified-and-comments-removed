@@ -3222,9 +3222,6 @@ buildTestPath
 (
 self
 options
-disabled
-=
-True
 )
 :
     
@@ -3264,65 +3261,14 @@ the
 harness
 to
 read
-        
-disabled
--
--
-This
-allows
-to
-add
-all
-disabled
-tests
-on
-the
-build
-side
-                    
-and
-then
-on
-the
-run
-side
-to
-only
-run
-the
-enabled
-ones
     
 "
 "
 "
     
-self
-.
-testRoot
+manifest
 =
-self
-.
-getTestRoot
-(
-options
-)
-    
-self
-.
-testRootAbs
-=
-os
-.
-path
-.
-join
-(
-SCRIPT_DIR
-self
-.
-testRoot
-)
+None
     
 manifest
 =
@@ -3461,7 +3407,7 @@ active_tests
 (
 disabled
 =
-disabled
+True
 options
 =
 None
@@ -3503,7 +3449,7 @@ active_tests
 (
 disabled
 =
-disabled
+True
 options
 =
 options
@@ -3605,10 +3551,7 @@ tp
 )
 :
           
-log
-.
-warning
-(
+print
 '
 Warning
 :
@@ -3638,7 +3581,6 @@ test
 manifest
 '
 ]
-)
 )
           
 continue
