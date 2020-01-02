@@ -117,11 +117,14 @@ CancelTouch
 (
 )
 ;
-float
+bool
 AdjustDisplacement
 (
 float
 aDisplacement
+float
+&
+aDisplacementOut
 float
 &
 aOverscrollAmountOut
