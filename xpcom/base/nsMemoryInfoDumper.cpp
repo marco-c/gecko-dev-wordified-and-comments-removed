@@ -446,6 +446,12 @@ NS_OK
 }
 private
 :
+~
+GCAndCCLogDumpRunnable
+(
+)
+{
+}
 const
 nsString
 mIdentifier
