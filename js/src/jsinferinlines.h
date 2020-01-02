@@ -7020,7 +7020,7 @@ barrier
 "
 )
 ;
-MarkShape
+MarkObject
 (
 zone
 -
@@ -7032,7 +7032,7 @@ barrierTracer
 newScript
 -
 >
-shape
+templateObject
 "
 write
 barrier

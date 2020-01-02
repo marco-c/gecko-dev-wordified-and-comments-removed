@@ -5936,11 +5936,7 @@ newScript
 )
 -
 >
-shape
-.
-get
-(
-)
+templateObject
 )
 ;
 break
@@ -6173,7 +6169,7 @@ type_new_function
 "
 )
 ;
-MarkShape
+MarkObject
 (
 trc
 &
@@ -6185,9 +6181,9 @@ newScript
 )
 -
 >
-shape
+templateObject
 "
-type_new_shape
+type_new_template
 "
 )
 ;

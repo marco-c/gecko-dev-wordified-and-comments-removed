@@ -2454,14 +2454,8 @@ TypeNewScript
 HeapPtrFunction
 fun
 ;
-gc
-:
-:
-AllocKind
-allocKind
-;
-HeapPtrShape
-shape
+HeapPtrObject
+templateObject
 ;
 struct
 Initializer
