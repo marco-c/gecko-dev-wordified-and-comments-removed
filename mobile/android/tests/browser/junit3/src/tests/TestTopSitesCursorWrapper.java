@@ -696,7 +696,7 @@ close
 }
 public
 void
-testClosedPinnedSites
+testCloseWrappedCursors
 (
 )
 {
@@ -734,7 +734,7 @@ topSites
 MIN_COUNT
 )
 ;
-assertTrue
+assertFalse
 (
 pinnedSites
 .
@@ -756,6 +756,15 @@ wrapper
 .
 close
 (
+)
+;
+assertTrue
+(
+pinnedSites
+.
+isClosed
+(
+)
 )
 ;
 assertTrue
