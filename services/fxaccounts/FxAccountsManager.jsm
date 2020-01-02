@@ -727,7 +727,7 @@ _fxAccounts
 .
 signOut
 (
-sessionToken
+true
 )
 .
 then
