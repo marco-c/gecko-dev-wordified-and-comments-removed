@@ -510,6 +510,12 @@ child
 if
 (
 objInMap
+&
+&
+!
+objInMap
+.
+isRoot
 )
 {
 item
