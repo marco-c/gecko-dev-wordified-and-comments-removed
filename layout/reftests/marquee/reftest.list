@@ -1,3 +1,12 @@
+fails
+-
+if
+(
+B2G
+&
+&
+browserIsRemote
+)
 =
 =
 166591

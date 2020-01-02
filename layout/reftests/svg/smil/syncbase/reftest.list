@@ -1472,6 +1472,15 @@ box
 ref
 .
 xhtml
+random
+-
+if
+(
+B2G
+&
+&
+browserIsRemote
+)
 =
 =
 cross

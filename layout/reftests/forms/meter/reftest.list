@@ -304,6 +304,15 @@ Tests
 for
 bugs
 :
+random
+-
+if
+(
+B2G
+&
+&
+browserIsRemote
+)
 =
 =
 block
