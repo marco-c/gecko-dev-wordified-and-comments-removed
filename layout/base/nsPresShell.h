@@ -2995,6 +2995,12 @@ mReflowContinueTimer
 DOMHighResTimeStamp
 mLastReflowStart
 ;
+mozilla
+:
+:
+TimeStamp
+mLoadBegin
+;
 nsCOMPtr
 <
 nsIContent
