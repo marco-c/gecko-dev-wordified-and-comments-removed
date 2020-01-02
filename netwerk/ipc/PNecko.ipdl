@@ -405,6 +405,8 @@ flags
 ;
 PRemoteOpenFile
 (
+SerializedLoadContext
+loadContext
 URIParams
 fileuri
 OptionalURIParams
