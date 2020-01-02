@@ -3242,7 +3242,6 @@ TILING_PRLOG_OBJ
 (
 "
 TILING
-0x
 %
 p
 :
@@ -3269,7 +3268,6 @@ TILING_PRLOG_OBJ
 (
 "
 TILING
-0x
 %
 p
 :
@@ -4936,7 +4934,6 @@ TILING_PRLOG_OBJ
 (
 "
 TILING
-0x
 %
 p
 :
@@ -5079,7 +5076,6 @@ TILING_PRLOG
 (
 "
 TILING
-0x
 %
 p
 :
@@ -5186,7 +5182,6 @@ TILING_PRLOG_OBJ
 (
 "
 TILING
-0x
 %
 p
 :
@@ -5246,7 +5241,6 @@ TILING_PRLOG_OBJ
 (
 "
 TILING
-0x
 %
 p
 :
@@ -5308,7 +5302,7 @@ aInvalidRegion
 ;
 }
 bool
-paintVisible
+paintingVisible
 =
 false
 ;
@@ -5330,7 +5324,7 @@ aRegionToPaint
 coherentUpdateRect
 )
 ;
-paintVisible
+paintingVisible
 =
 true
 ;
@@ -5340,7 +5334,6 @@ TILING_PRLOG_OBJ
 (
 "
 TILING
-0x
 %
 p
 :
@@ -5367,7 +5360,7 @@ aRegionToPaint
 bool
 paintInSingleTransaction
 =
-paintVisible
+paintingVisible
 &
 &
 (
@@ -5378,6 +5371,40 @@ aPaintData
 -
 >
 mFirstPaint
+)
+;
+TILING_PRLOG
+(
+(
+"
+TILING
+%
+p
+:
+paintingVisible
+%
+d
+drawingStale
+%
+d
+firstPaint
+%
+d
+singleTransaction
+%
+d
+\
+n
+"
+mThebesLayer
+paintingVisible
+drawingStale
+aPaintData
+-
+>
+mFirstPaint
+paintInSingleTransaction
+)
 )
 ;
 NS_ASSERTION
@@ -5720,7 +5747,6 @@ TILING_PRLOG_OBJ
 (
 "
 TILING
-0x
 %
 p
 :
@@ -5748,7 +5774,6 @@ TILING_PRLOG_OBJ
 (
 "
 TILING
-0x
 %
 p
 :
@@ -5776,7 +5801,6 @@ TILING_PRLOG_OBJ
 (
 "
 TILING
-0x
 %
 p
 :
@@ -5831,7 +5855,6 @@ TILING_PRLOG_OBJ
 (
 "
 TILING
-0x
 %
 p
 :
@@ -5921,7 +5944,6 @@ TILING_PRLOG_OBJ
 (
 "
 TILING
-0x
 %
 p
 :
@@ -5955,7 +5977,6 @@ TILING_PRLOG_OBJ
 (
 "
 TILING
-0x
 %
 p
 :
