@@ -1482,13 +1482,6 @@ DEVELOPER_OPTIONS
 )
 if
 test
--
-n
-"
-DEVELOPER_OPTIONS
-"
--
-a
 "
 {
 MOZ_PSEUDO_DERECURSE
@@ -1524,11 +1517,6 @@ too
 .
 MOZ_PSEUDO_DERECURSE
 =
-no
--
-parallel
--
-export
 no
 -
 pymake
