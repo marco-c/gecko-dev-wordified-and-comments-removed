@@ -279,17 +279,6 @@ true
 }
 Override
 public
-ViewGroup
-getLayout
-(
-)
-{
-return
-this
-;
-}
-Override
-public
 void
 setTabsPanel
 (
