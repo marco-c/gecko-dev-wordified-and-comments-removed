@@ -1182,7 +1182,7 @@ ENTITY
 pref_font_size_xlarge
 "
 Extra
-Large
+large
 "
 >
 <
@@ -2033,7 +2033,7 @@ ENTITY
 char_encoding
 "
 Character
-Encoding
+encoding
 "
 >
 <
@@ -2082,7 +2082,7 @@ find_in_page
 "
 Find
 in
-Page
+page
 "
 >
 <
@@ -2091,8 +2091,8 @@ ENTITY
 desktop_mode
 "
 Request
-Desktop
-Site
+desktop
+site
 "
 >
 <
@@ -2109,7 +2109,7 @@ ENTITY
 new_tab
 "
 New
-Tab
+tab
 "
 >
 <
@@ -2118,8 +2118,8 @@ ENTITY
 new_private_tab
 "
 New
-Private
-Tab
+private
+tab
 "
 >
 <
@@ -2128,8 +2128,8 @@ ENTITY
 close_all_tabs
 "
 Close
-All
-Tabs
+all
+tabs
 "
 >
 <
@@ -2173,8 +2173,8 @@ ENTITY
 set_image_chooser_title
 "
 Set
-Image
-As
+image
+as
 "
 >
 <
@@ -2218,7 +2218,7 @@ find_text
 "
 Find
 in
-Page
+page
 "
 >
 <
@@ -2252,8 +2252,8 @@ contextmenu_open_new_tab
 "
 Open
 in
-New
-Tab
+new
+tab
 "
 >
 <
@@ -2263,8 +2263,8 @@ contextmenu_open_private_tab
 "
 Open
 in
-Private
-Tab
+private
+tab
 "
 >
 <
@@ -2292,8 +2292,8 @@ contextmenu_add_to_launcher
 "
 Add
 to
-Home
-Screen
+home
+screen
 "
 >
 <
@@ -2330,7 +2330,7 @@ ENTITY
 contextmenu_copyurl
 "
 Copy
-Address
+address
 "
 >
 <
@@ -2348,7 +2348,7 @@ contextmenu_subscribe
 "
 Subscribe
 to
-Page
+page
 "
 >
 <
@@ -2357,8 +2357,8 @@ ENTITY
 contextmenu_site_settings
 "
 Edit
-Site
-Settings
+site
+settings
 "
 >
 <
@@ -2375,7 +2375,7 @@ ENTITY
 contextmenu_top_sites_pin
 "
 Pin
-Site
+site
 "
 >
 <
@@ -2384,7 +2384,7 @@ ENTITY
 contextmenu_top_sites_unpin
 "
 Unpin
-Site
+site
 "
 >
 <
@@ -2394,8 +2394,8 @@ contextmenu_add_search_engine
 "
 Add
 a
-Search
-Engine
+search
+engine
 "
 >
 <
@@ -2454,7 +2454,7 @@ ENTITY
 bookmark_edit_title
 "
 Edit
-Bookmark
+bookmark
 "
 >
 <
@@ -3723,8 +3723,8 @@ ENTITY
 new_guest_session
 "
 New
-Guest
-Session
+guest
+session
 "
 >
 <
@@ -3733,8 +3733,8 @@ ENTITY
 exit_guest_session
 "
 Exit
-Guest
-Session
+guest
+session
 "
 >
 <
