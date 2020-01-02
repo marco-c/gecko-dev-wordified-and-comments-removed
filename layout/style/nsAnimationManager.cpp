@@ -1291,7 +1291,7 @@ aEA
 EnsureStyleRuleFor
 (
 refreshTime
-false
+EnsureStyleRule_IsNotThrottled
 )
 ;
 aEA
@@ -1955,7 +1955,7 @@ ea
 EnsureStyleRuleFor
 (
 refreshTime
-false
+EnsureStyleRule_IsNotThrottled
 )
 ;
 ea
@@ -4175,6 +4175,10 @@ EnsureStyleRuleFor
 (
 now
 canThrottleTick
+?
+EnsureStyleRule_IsThrottled
+:
+EnsureStyleRule_IsNotThrottled
 )
 ;
 ea

@@ -1438,6 +1438,13 @@ ElementAnimation
 >
 ElementAnimationPtrArray
 ;
+enum
+EnsureStyleRuleFlags
+{
+EnsureStyleRule_IsThrottled
+EnsureStyleRule_IsNotThrottled
+}
+;
 namespace
 css
 {
@@ -1566,8 +1573,8 @@ EnsureStyleRuleFor
 (
 TimeStamp
 aRefreshTime
-bool
-aIsThrottled
+EnsureStyleRuleFlags
+aFlags
 )
 ;
 bool

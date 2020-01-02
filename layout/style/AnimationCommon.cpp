@@ -1032,7 +1032,7 @@ RefreshDriver
 MostRecentRefresh
 (
 )
-false
+EnsureStyleRule_IsNotThrottled
 )
 ;
 curRule
@@ -2987,8 +2987,8 @@ EnsureStyleRuleFor
 (
 TimeStamp
 aRefreshTime
-bool
-aIsThrottled
+EnsureStyleRuleFlags
+aFlags
 )
 {
 if
@@ -3006,7 +3006,10 @@ return
 }
 if
 (
-aIsThrottled
+aFlags
+=
+=
+EnsureStyleRule_IsThrottled
 )
 {
 for
@@ -3121,9 +3124,9 @@ LAST_NOTIFICATION_END
 )
 )
 {
-aIsThrottled
+aFlags
 =
-false
+EnsureStyleRule_IsNotThrottled
 ;
 break
 ;
@@ -3132,7 +3135,10 @@ break
 }
 if
 (
-aIsThrottled
+aFlags
+=
+=
+EnsureStyleRule_IsThrottled
 )
 {
 return

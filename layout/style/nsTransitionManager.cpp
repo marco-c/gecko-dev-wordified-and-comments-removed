@@ -3869,7 +3869,7 @@ RefreshDriver
 MostRecentRefresh
 (
 )
-false
+EnsureStyleRule_IsNotThrottled
 )
 ;
 if
