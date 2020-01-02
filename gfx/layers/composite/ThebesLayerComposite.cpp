@@ -194,6 +194,13 @@ h
 #
 include
 "
+TextRenderer
+.
+h
+"
+#
+include
+"
 GeckoProfiler
 .
 h

@@ -1571,6 +1571,13 @@ cpp
 '
 composite
 /
+TextRenderer
+.
+cpp
+'
+'
+composite
+/
 TextureHost
 .
 cpp
