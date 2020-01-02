@@ -1432,11 +1432,6 @@ index
 )
 const
 ;
-bool
-earlyAbortCheck
-(
-)
-;
 virtual
 void
 computeRange

@@ -53,6 +53,9 @@ bool
 rerunAliasAnalysis_
 ;
 bool
+disableAliasAnalysis_
+;
+bool
 prunePointlessBranchesAndMarkReachableBlocks
 (
 )
@@ -127,6 +130,10 @@ rerunAliasAnalysis_
 (
 false
 )
+disableAliasAnalysis_
+(
+false
+)
 {
 }
 bool
@@ -141,6 +148,16 @@ size_t
 marked
 )
 ;
+void
+disableAliasAnalysis
+(
+)
+{
+disableAliasAnalysis_
+=
+true
+;
+}
 }
 ;
 }

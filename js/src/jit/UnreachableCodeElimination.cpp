@@ -844,6 +844,10 @@ instr
 {
 if
 (
+!
+disableAliasAnalysis_
+&
+&
 instr
 -
 >
