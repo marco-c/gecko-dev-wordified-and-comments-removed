@@ -73,6 +73,9 @@ MPhi
 >
 MPhiIterator
 ;
+#
+ifdef
+DEBUG
 typedef
 InlineForwardListIterator
 <
@@ -80,6 +83,8 @@ MResumePoint
 >
 MResumePointIterator
 ;
+#
+endif
 class
 LBlock
 ;
@@ -672,6 +677,9 @@ MResumePoint
 resume
 )
 {
+#
+ifdef
+DEBUG
 resumePoints_
 .
 pushFront
@@ -679,6 +687,8 @@ pushFront
 resume
 )
 ;
+#
+endif
 }
 void
 discardPreAllocatedResumePoint
@@ -1276,6 +1286,9 @@ empty
 )
 ;
 }
+#
+ifdef
+DEBUG
 MResumePointIterator
 resumePointsBegin
 (
@@ -1318,6 +1331,8 @@ empty
 )
 ;
 }
+#
+endif
 MInstructionIterator
 begin
 (
@@ -2278,12 +2293,6 @@ MPhi
 >
 phis_
 ;
-InlineForwardList
-<
-MResumePoint
->
-resumePoints_
-;
 FixedList
 <
 MDefinition
@@ -2319,6 +2328,17 @@ MResumePoint
 *
 outerResumePoint_
 ;
+#
+ifdef
+DEBUG
+InlineForwardList
+<
+MResumePoint
+>
+resumePoints_
+;
+#
+endif
 MBasicBlock
 *
 successorWithPhis_
