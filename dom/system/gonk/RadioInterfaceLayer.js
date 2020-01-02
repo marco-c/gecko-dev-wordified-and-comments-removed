@@ -8836,10 +8836,10 @@ null
 _smsHandledWakeLockTimer
 :
 null
-_cancelSmsHandledWakeLockTimer
+_releaseSmsHandledWakeLock
 :
 function
-_cancelSmsHandledWakeLockTimer
+_releaseSmsHandledWakeLock
 (
 )
 {
@@ -9063,7 +9063,7 @@ initWithCallback
 (
 this
 .
-_cancelSmsHandledWakeLockTimer
+_releaseSmsHandledWakeLock
 .
 bind
 (
@@ -10937,7 +10937,7 @@ NS_XPCOM_SHUTDOWN_OBSERVER_ID
 :
 this
 .
-_cancelSmsHandledWakeLockTimer
+_releaseSmsHandledWakeLock
 (
 )
 ;
