@@ -972,7 +972,7 @@ it
 return
 Ptr
 (
-NULL
+nullptr
 )
 ;
 }
@@ -1274,7 +1274,7 @@ inlPtr
 key
 !
 =
-NULL
+nullptr
 )
 ;
 p
@@ -1284,7 +1284,7 @@ inlPtr
 >
 key
 =
-NULL
+nullptr
 ;
 -
 -
@@ -1372,11 +1372,11 @@ r
 :
 cur
 (
-NULL
+nullptr
 )
 end
 (
-NULL
+nullptr
 )
 isInline
 (
@@ -1480,7 +1480,7 @@ cur
 key
 !
 =
-NULL
+nullptr
 )
 ;
 return
@@ -1526,7 +1526,7 @@ newCur
 end
 &
 &
-NULL
+nullptr
 =
 =
 newCur

@@ -260,7 +260,7 @@ JSObject
 null
 (
 cx
-NULL
+nullptr
 )
 ;
 JSObject

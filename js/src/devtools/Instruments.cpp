@@ -327,7 +327,7 @@ _sym
 Function
 _sym
 =
-NULL
+nullptr
 ;
 DTPERFORMANCE_SYMBOLS
 #
@@ -469,7 +469,7 @@ DTPerformanceLibrary
 \
 DTPerformanceLibrary
 =
-NULL
+nullptr
 ;
 \
 return
@@ -509,12 +509,12 @@ gSession
 CFErrorRef
 unused
 =
-NULL
+nullptr
 ;
 DTPerformanceSessionStop
 (
 gSession
-NULL
+nullptr
 &
 unused
 )
@@ -526,7 +526,7 @@ gSession
 ;
 gSession
 =
-NULL
+nullptr
 ;
 }
 #
@@ -540,7 +540,7 @@ data
 =
 CFStringCreateExternalRepresentation
 (
-NULL
+nullptr
 CFErrorCopyDescription
 (
 error
@@ -556,7 +556,7 @@ if
 data
 !
 =
-NULL
+nullptr
 )
 {
 printf
@@ -626,7 +626,7 @@ process
 CFStringCreateWithFormat
 (
 kCFAllocatorDefault
-NULL
+nullptr
 CFSTR
 (
 "
@@ -652,15 +652,15 @@ false
 CFErrorRef
 error
 =
-NULL
+nullptr
 ;
 gSession
 =
 DTPerformanceSessionCreate
 (
-NULL
+nullptr
 process
-NULL
+nullptr
 &
 error
 )
@@ -776,7 +776,7 @@ CFSTR
 DTPerformanceSession_TimeProfiler
 )
 options
-NULL
+nullptr
 &
 error
 )
@@ -814,7 +814,7 @@ gSession
 CFErrorRef
 error
 =
-NULL
+nullptr
 ;
 if
 (
@@ -822,7 +822,7 @@ if
 DTPerformanceSessionStop
 (
 gSession
-NULL
+nullptr
 &
 error
 )
@@ -854,13 +854,13 @@ false
 CFErrorRef
 error
 =
-NULL
+nullptr
 ;
 return
 DTPerformanceSessionStart
 (
 gSession
-NULL
+nullptr
 &
 error
 )
@@ -888,7 +888,7 @@ Pause
 CFErrorRef
 error
 =
-NULL
+nullptr
 ;
 AutoReleased
 <
@@ -899,7 +899,7 @@ name
 CFStringCreateWithFormat
 (
 kCFAllocatorDefault
-NULL
+nullptr
 CFSTR
 (
 "
@@ -950,7 +950,7 @@ gSession
 ;
 gSession
 =
-NULL
+nullptr
 ;
 }
 }

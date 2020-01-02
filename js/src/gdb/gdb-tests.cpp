@@ -195,7 +195,7 @@ GDBFragment
 :
 allFragments
 =
-NULL
+nullptr
 ;
 int
 main
@@ -286,7 +286,7 @@ JS_NewGlobalObject
 cx
 &
 global_class
-NULL
+nullptr
 JS
 :
 :

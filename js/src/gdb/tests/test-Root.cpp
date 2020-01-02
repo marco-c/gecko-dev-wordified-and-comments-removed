@@ -31,7 +31,7 @@ JSObject
 null
 (
 cx
-NULL
+nullptr
 )
 ;
 breakpoint
