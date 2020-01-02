@@ -103,6 +103,13 @@ h
 >
 #
 include
+<
+errno
+.
+h
+>
+#
+include
 "
 mozilla
 /
