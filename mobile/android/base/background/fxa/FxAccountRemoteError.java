@@ -177,6 +177,14 @@ public
 static
 final
 int
+INCORRECT_EMAIL_CASE
+=
+120
+;
+public
+static
+final
+int
 SERVICE_TEMPORARILY_UNAVAILABLE_DUE_TO_HIGH_LOAD
 =
 201
