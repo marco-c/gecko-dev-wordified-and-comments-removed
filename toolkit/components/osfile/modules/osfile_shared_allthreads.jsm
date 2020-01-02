@@ -3738,6 +3738,9 @@ undefined
 configurable
 :
 true
+enumerable
+:
+true
 }
 )
 ;
