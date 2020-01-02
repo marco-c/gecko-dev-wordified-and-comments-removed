@@ -1268,11 +1268,11 @@ UNSAFE_OP
 (
 Random
 )
-UNSAFE_OP
+SAFE_OP
 (
 Pow
 )
-UNSAFE_OP
+SAFE_OP
 (
 PowHalf
 )
