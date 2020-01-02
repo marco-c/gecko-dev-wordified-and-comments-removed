@@ -1501,7 +1501,7 @@ return
 nullptr
 ;
 return
-NewString
+NewStringDontDeflate
 <
 CanGC
 >
