@@ -13531,7 +13531,7 @@ mEvent
 mClass
 =
 =
-NS_MUTATION_EVENT
+eMutationEventClass
 )
 {
 return

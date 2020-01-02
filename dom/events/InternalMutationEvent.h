@@ -69,7 +69,7 @@ WidgetEvent
 (
 aIsTrusted
 aMessage
-NS_MUTATION_EVENT
+eMutationEventClass
 )
 mAttrChange
 (
@@ -97,7 +97,7 @@ MOZ_ASSERT
 mClass
 =
 =
-NS_MUTATION_EVENT
+eMutationEventClass
 "
 Duplicate
 (

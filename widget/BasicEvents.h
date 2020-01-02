@@ -117,7 +117,7 @@ eSMILTimeEventClass
 eCommandEventClass
 eContentCommandEventClass
 ePluginEventClass
-NS_MUTATION_EVENT
+eMutationEventClass
 }
 ;
 }
