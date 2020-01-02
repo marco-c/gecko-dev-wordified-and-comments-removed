@@ -838,11 +838,6 @@ WidgetGUIEvent
 event
 )
 ;
-bool
-HasValidInnerSize
-(
-)
-;
 void
 InitializeRootMetrics
 (
@@ -2289,6 +2284,11 @@ nsIDOMWindow
 aReturn
 )
 ;
+bool
+HasValidInnerSize
+(
+)
+;
 class
 CachedFileDescriptorInfo
 ;
@@ -2397,6 +2397,9 @@ nsRefPtr
 ActiveElementManager
 >
 mActiveElementManager
+;
+bool
+mHasValidInnerSize
 ;
 DISALLOW_EVIL_CONSTRUCTORS
 (
