@@ -33,11 +33,11 @@ downloads
 -
 button
 #
-history
+downloads
 -
-button
+indicator
 #
-bookmarks
+history
 -
 button
 #
@@ -106,5 +106,11 @@ button
 webrtc
 -
 status
+-
+button
+#
+social
+-
+share
 -
 button
