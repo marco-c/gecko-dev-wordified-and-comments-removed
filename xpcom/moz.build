@@ -102,9 +102,6 @@ idl
 -
 parser
 '
-'
-xpidl
-'
 ]
 DIRS
 +

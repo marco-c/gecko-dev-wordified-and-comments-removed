@@ -259,6 +259,17 @@ mozalloc
 '
 ]
 )
+add_tier_dir
+(
+'
+precompile
+'
+'
+xpcom
+/
+xpidl
+'
+)
 #
 Bring
 in
