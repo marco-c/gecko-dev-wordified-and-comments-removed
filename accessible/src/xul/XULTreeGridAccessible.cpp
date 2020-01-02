@@ -1180,10 +1180,10 @@ IsEmpty
 )
 aName
 .
-AppendLiteral
+Append
 (
-"
-"
+'
+'
 )
 ;
 nsAutoString

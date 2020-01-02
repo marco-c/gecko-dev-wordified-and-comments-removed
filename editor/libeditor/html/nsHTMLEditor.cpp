@@ -19759,10 +19759,10 @@ res
 ;
 existingValue
 .
-AppendLiteral
+Append
 (
-"
-"
+'
+'
 )
 ;
 existingValue

@@ -893,11 +893,11 @@ aFindFlag
 ;
 description
 .
-AppendLiteral
+Append
 (
-"
+'
 )
-"
+'
 )
 ;
 }

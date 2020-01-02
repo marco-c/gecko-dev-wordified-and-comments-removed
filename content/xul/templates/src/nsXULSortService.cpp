@@ -1910,10 +1910,10 @@ sortkeyatom2
 ;
 sort
 .
-AppendLiteral
+Append
 (
-"
-"
+'
+'
 )
 ;
 sort

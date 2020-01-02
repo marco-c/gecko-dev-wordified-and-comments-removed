@@ -1934,11 +1934,11 @@ n
 ;
 str
 .
-AppendLiteral
+Append
 (
-"
+'
 }
-"
+'
 )
 ;
 return

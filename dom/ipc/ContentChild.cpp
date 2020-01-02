@@ -2609,10 +2609,10 @@ IsEmpty
 {
 aName
 .
-AppendLiteral
+Append
 (
-"
-"
+'
+'
 )
 ;
 }

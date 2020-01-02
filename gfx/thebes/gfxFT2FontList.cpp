@@ -1896,10 +1896,10 @@ style_name
 {
 fontName
 .
-AppendLiteral
+Append
 (
-"
-"
+'
+'
 )
 ;
 AppendUTF8toUTF16

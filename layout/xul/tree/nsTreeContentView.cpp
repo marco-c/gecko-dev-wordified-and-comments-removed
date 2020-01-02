@@ -2936,10 +2936,10 @@ hints
 ;
 sortdirection
 .
-AppendLiteral
+Append
 (
-"
-"
+'
+'
 )
 ;
 sortdirection

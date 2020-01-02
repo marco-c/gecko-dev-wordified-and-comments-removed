@@ -6528,12 +6528,10 @@ sortHints
 )
 ;
 sortDirection
-.
-AppendLiteral
-(
-"
-"
-)
++
+=
+'
+'
 ;
 sortDirection
 +

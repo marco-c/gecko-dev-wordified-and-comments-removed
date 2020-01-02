@@ -6514,10 +6514,10 @@ GetStyleSheet
 ;
 buffer
 .
-AppendLiteral
+Append
 (
-"
-"
+'
+'
 )
 ;
 fputs

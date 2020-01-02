@@ -1187,10 +1187,10 @@ lastCommaPos
 ;
 aPath
 .
-AppendLiteral
+Append
 (
-"
-"
+'
+'
 )
 ;
 uint32_t

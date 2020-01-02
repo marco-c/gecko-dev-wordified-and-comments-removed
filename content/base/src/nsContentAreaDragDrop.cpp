@@ -2990,12 +2990,12 @@ mUrlString
 ;
 dragData
 .
-AppendLiteral
+Append
 (
-"
+'
 \
 n
-"
+'
 )
 ;
 nsAutoString

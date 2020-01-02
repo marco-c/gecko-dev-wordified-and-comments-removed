@@ -980,11 +980,11 @@ mPrefName
 ;
 mPrefName
 .
-AppendLiteral
+Append
 (
-"
+'
 .
-"
+'
 )
 ;
 }

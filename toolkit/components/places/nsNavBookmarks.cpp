@@ -5599,10 +5599,10 @@ TYPE_FOLDER
 {
 foldersToRemove
 .
-AppendLiteral
+Append
 (
-"
-"
+'
+'
 )
 ;
 foldersToRemove

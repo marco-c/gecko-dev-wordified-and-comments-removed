@@ -928,10 +928,10 @@ SVG_PRESERVEASPECTRATIO_NONE
 {
 aValueAsString
 .
-AppendLiteral
+Append
 (
-"
-"
+'
+'
 )
 ;
 GetMeetOrSliceString

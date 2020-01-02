@@ -1601,11 +1601,11 @@ false
 }
 permissionName
 .
-AppendLiteral
+Append
 (
-"
+'
 -
-"
+'
 )
 ;
 permissionName

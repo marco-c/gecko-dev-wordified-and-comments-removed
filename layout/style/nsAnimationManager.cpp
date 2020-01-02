@@ -1599,11 +1599,11 @@ mElementProperty
 ;
 message
 .
-AppendLiteral
+Append
 (
-"
+'
 )
-"
+'
 )
 ;
 LogAsyncAnimationFailure

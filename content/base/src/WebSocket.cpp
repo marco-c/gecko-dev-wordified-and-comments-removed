@@ -4521,11 +4521,11 @@ IsEmpty
 {
 mResource
 .
-AppendLiteral
+Append
 (
-"
+'
 ?
-"
+'
 )
 ;
 mResource
