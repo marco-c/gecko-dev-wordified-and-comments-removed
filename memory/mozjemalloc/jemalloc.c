@@ -28946,6 +28946,10 @@ malloc_zone_t
 zone
 )
 {
+_malloc_prefork
+(
+)
+;
 szone
 -
 >
@@ -28976,6 +28980,10 @@ introspect
 force_unlock
 (
 zone
+)
+;
+_malloc_postfork
+(
 )
 ;
 }
