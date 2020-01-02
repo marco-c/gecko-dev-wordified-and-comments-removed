@@ -792,15 +792,6 @@ AsmJSValidate
 cpp
 '
 '
-assembler
-/
-jit
-/
-ExecutableAllocator
-.
-cpp
-'
-'
 builtin
 /
 Eval
@@ -1189,6 +1180,13 @@ cpp
 jit
 /
 EffectiveAddressAnalysis
+.
+cpp
+'
+'
+jit
+/
+ExecutableAllocator
 .
 cpp
 '
@@ -2646,8 +2644,6 @@ SOURCES
 =
 [
 '
-assembler
-/
 jit
 /
 ExecutableAllocatorWin
@@ -2687,8 +2683,6 @@ SOURCES
 =
 [
 '
-assembler
-/
 jit
 /
 ExecutableAllocatorPosix
