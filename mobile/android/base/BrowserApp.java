@@ -2265,7 +2265,7 @@ mAboutHomeStartupTimer
 new
 Telemetry
 .
-Timer
+UptimeTimer
 (
 "
 FENNEC_STARTUP_TIME_ABOUTHOME
