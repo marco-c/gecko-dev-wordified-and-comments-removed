@@ -816,13 +816,6 @@ DestroyFrontBuffer
 )
 {
 }
-virtual
-void
-LockFrontBuffer
-(
-)
-{
-}
 bool
 CreateAndAllocateTextureClient
 (
@@ -1319,13 +1312,6 @@ MOZ_OVERRIDE
 virtual
 void
 DestroyFrontBuffer
-(
-)
-MOZ_OVERRIDE
-;
-virtual
-void
-LockFrontBuffer
 (
 )
 MOZ_OVERRIDE
