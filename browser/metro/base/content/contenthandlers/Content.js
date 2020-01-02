@@ -1184,6 +1184,13 @@ json
 .
 y
 ;
+let
+modifiers
+=
+json
+.
+modifiers
+;
 switch
 (
 aMessage
@@ -1415,9 +1422,6 @@ x
 json
 .
 y
-json
-.
-modifiers
 )
 ;
 break
@@ -2031,7 +2035,6 @@ function
 (
 aX
 aY
-aModifiers
 )
 {
 let
@@ -2071,7 +2074,7 @@ aX
 aY
 0
 1
-aModifiers
+0
 true
 1
 .
@@ -2353,9 +2356,13 @@ notifyObservers
 (
 null
 "
-Metro
-:
-ZoomToRect
+apzc
+-
+zoom
+-
+to
+-
+rect
 "
 zoomData
 )
