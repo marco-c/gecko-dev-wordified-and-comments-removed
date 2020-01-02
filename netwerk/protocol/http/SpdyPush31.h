@@ -3,7 +3,7 @@ ifndef
 mozilla_net_SpdyPush31_Internal_h
 #
 define
-mozilla_net_SpdyPush3_Internal_h
+mozilla_net_SpdyPush31_Internal_h
 #
 include
 "
