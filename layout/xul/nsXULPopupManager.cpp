@@ -6397,7 +6397,7 @@ aIsRollup
 )
 )
 {
-nsCOMPtr
+nsRefPtr
 <
 TransitionEnder
 >

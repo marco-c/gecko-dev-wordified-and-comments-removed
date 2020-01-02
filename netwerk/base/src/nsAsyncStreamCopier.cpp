@@ -1300,7 +1300,7 @@ NS_IsMainThread
 {
 nsCOMPtr
 <
-AsyncApplyBufferingPolicyEvent
+nsIRunnable
 >
 event
 =

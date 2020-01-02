@@ -1008,10 +1008,7 @@ RemoveElementAt
 ;
 nsCOMPtr
 <
-nsRunnableMethod
-<
-nsAboutCache
->
+nsIRunnable
 >
 event
 =
