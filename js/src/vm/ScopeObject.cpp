@@ -1955,6 +1955,9 @@ JSObject
 :
 :
 putProperty
+<
+SequentialExecution
+>
 (
 cx
 obj
@@ -3884,6 +3887,9 @@ JSObject
 :
 :
 addPropertyInternal
+<
+SequentialExecution
+>
 (
 cx
 block

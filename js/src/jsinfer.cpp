@@ -1402,7 +1402,6 @@ obj
 >
 maybeGetProperty
 (
-cx
 id
 )
 ;
@@ -3679,9 +3678,6 @@ cx
 JSScript
 *
 script
-jit
-:
-:
 ExecutionMode
 executionMode
 CompilerConstraintList
@@ -4970,7 +4966,6 @@ object
 >
 maybeGetProperty
 (
-cxArg
 JSID_EMPTY
 )
 ;
@@ -12503,7 +12498,6 @@ types
 =
 maybeGetProperty
 (
-cxArg
 JSID_EMPTY
 )
 ;

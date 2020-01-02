@@ -869,7 +869,7 @@ Inner
 :
 Inner
 (
-ExclusiveContext
+ThreadSafeContext
 *
 cx
 uint8_t
@@ -942,7 +942,7 @@ AutoRooterGetterSetter
 :
 AutoRooterGetterSetter
 (
-ExclusiveContext
+ThreadSafeContext
 *
 cx
 uint8_t
@@ -1024,7 +1024,7 @@ AutoRooter
 :
 AutoRooter
 (
-ExclusiveContext
+ThreadSafeContext
 *
 cx
 const

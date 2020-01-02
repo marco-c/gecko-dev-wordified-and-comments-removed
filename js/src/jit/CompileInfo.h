@@ -88,15 +88,6 @@ nargs
 )
 ;
 }
-static
-const
-unsigned
-NumExecutionModes
-=
-ParallelExecution
-+
-1
-;
 class
 CompileInfo
 {

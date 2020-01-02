@@ -749,6 +749,9 @@ baseops
 :
 :
 SetPropertyHelper
+<
+SequentialExecution
+>
 (
 cx
 obj
@@ -2303,6 +2306,9 @@ baseops
 :
 :
 SetPropertyHelper
+<
+SequentialExecution
+>
 (
 cx
 obj

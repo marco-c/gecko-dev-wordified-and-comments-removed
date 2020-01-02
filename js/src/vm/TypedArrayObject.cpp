@@ -4766,6 +4766,9 @@ baseops
 :
 :
 SetPropertyHelper
+<
+SequentialExecution
+>
 (
 cx
 delegate

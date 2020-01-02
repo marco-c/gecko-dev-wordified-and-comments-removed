@@ -1588,6 +1588,9 @@ baseops
 :
 :
 SetPropertyHelper
+<
+SequentialExecution
+>
 (
 cx
 obj
@@ -1602,9 +1605,11 @@ script
 strict
 )
 )
+{
 return
 false
 ;
+}
 }
 else
 {
@@ -15874,6 +15879,9 @@ baseops
 :
 :
 SetPropertyHelper
+<
+SequentialExecution
+>
 (
 cx
 obj

@@ -4469,7 +4469,7 @@ get
 if
 (
 !
-js_NativeGet
+NativeGet
 (
 cx
 obj

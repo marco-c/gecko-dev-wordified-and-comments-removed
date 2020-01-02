@@ -6310,7 +6310,7 @@ public
 inline
 Inner
 (
-ExclusiveContext
+ThreadSafeContext
 *
 cx
 uint8_t
@@ -6356,7 +6356,7 @@ public
 inline
 AutoRooterGetterSetter
 (
-ExclusiveContext
+ThreadSafeContext
 *
 cx
 uint8_t
@@ -7043,7 +7043,7 @@ public
 inline
 AutoRooter
 (
-ExclusiveContext
+ThreadSafeContext
 *
 cx
 const

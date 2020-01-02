@@ -3343,9 +3343,6 @@ popCopy
 ;
 DebugOnly
 <
-jit
-:
-:
 ExecutionMode
 >
 executionMode
@@ -3363,6 +3360,9 @@ executionMode
 ;
 JS_ASSERT
 (
+jit
+:
+:
 GetIonScript
 (
 ionBuilder
