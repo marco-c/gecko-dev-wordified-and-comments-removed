@@ -34,7 +34,7 @@ if
 !
 defined
 (
-YUV_DISABLE_ASM
+LIBYUV_DISABLE_NEON
 )
 &
 &
@@ -43,7 +43,6 @@ defined
 __ARM_NEON__
 )
 static
-const
 uvec8
 kVTbl4x4Transpose
 =
@@ -99,7 +98,7 @@ n
 "
 .
 p2align
-4
+2
 \
 n
 "
@@ -1524,7 +1523,6 @@ q3
 ;
 }
 static
-const
 uvec8
 kVTbl4x4TransposeDi
 =
@@ -1585,7 +1583,7 @@ n
 "
 .
 p2align
-4
+2
 \
 n
 "

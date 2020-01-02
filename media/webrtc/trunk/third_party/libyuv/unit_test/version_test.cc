@@ -126,7 +126,7 @@ EXPECT_NEAR
 (
 LIBYUV_VERSION
 svn_revision
-3
+20
 )
 ;
 if
