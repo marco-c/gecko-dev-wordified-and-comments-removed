@@ -468,6 +468,15 @@ int
 ssrc
 )
 ;
+bool
+GetReceivedJitter
+(
+unsigned
+int
+*
+jitterMs
+)
+;
 private
 :
 WebrtcAudioConduit
