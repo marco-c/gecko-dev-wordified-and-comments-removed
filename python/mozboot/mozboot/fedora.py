@@ -88,6 +88,14 @@ autoconf213
 '
             
 '
+gcc
+-
+c
++
++
+'
+            
+'
 glibc
 -
 static
