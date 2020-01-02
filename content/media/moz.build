@@ -478,6 +478,11 @@ MediaStreamGraph
 h
 '
 '
+MediaTaskQueue
+.
+h
+'
+'
 MP3FrameParser
 .
 h
@@ -703,6 +708,11 @@ cpp
 '
 '
 MediaStreamTrack
+.
+cpp
+'
+'
+MediaTaskQueue
 .
 cpp
 '
