@@ -84134,7 +84134,7 @@ name
 =
 =
 "
-aThisObj
+aThisVal
 "
 and
 args
@@ -84151,8 +84151,10 @@ JS
 :
 Handle
 <
-JSObject
-*
+JS
+:
+:
+Value
 >
 "
         
@@ -84187,7 +84189,7 @@ GetContext
 )
 "
 "
-thisObjJS
+thisValJS
 "
 ]
 +
@@ -84207,9 +84209,7 @@ GetContext
 JS
 :
 :
-NullPtr
-(
-)
+UndefinedHandleValue
 "
 ]
 +
@@ -84403,6 +84403,43 @@ n
             
 "
 }
+\
+n
+"
+            
+"
+JS
+:
+:
+Rooted
+<
+JS
+:
+:
+Value
+>
+thisValJS
+(
+s
+.
+GetContext
+(
+)
+\
+n
+"
+            
+"
+JS
+:
+:
+ObjectValue
+(
+*
+thisObjJS
+)
+)
+;
 \
 n
 "
@@ -86406,12 +86443,14 @@ JS
 :
 Handle
 <
-JSObject
-*
+JS
+:
+:
+Value
 >
 "
 "
-aThisObj
+aThisVal
 "
 )
 ]
@@ -86844,12 +86883,12 @@ getDefaultRetval
 )
             
 "
-thisObj
+thisVal
 "
 :
 self
 .
-getThisObj
+getThisVal
 (
 )
             
@@ -86952,11 +86991,14 @@ if
 callGuard
 }
 !
-JS_CallFunctionValue
+JS
+:
+:
+Call
 (
 cx
 {
-thisObj
+thisVal
 }
 callable
 \
@@ -86970,11 +87012,8 @@ argc
 {
 argv
 }
+&
 rval
-.
-address
-(
-)
 )
 )
 {
@@ -87061,7 +87100,7 @@ True
 )
     
 def
-getThisObj
+getThisVal
 (
 self
 )
@@ -87069,7 +87108,7 @@ self
         
 return
 "
-aThisObj
+aThisVal
 "
     
 def
@@ -87225,7 +87264,7 @@ rethrowContentException
 )
     
 def
-getThisObj
+getThisVal
 (
 self
 )
@@ -87240,20 +87279,34 @@ singleOperation
             
 return
 "
+JS
+:
+:
+ObjectValue
+(
+*
 mCallback
+)
 "
         
 return
 "
 isCallable
 ?
-aThisObj
+aThisVal
 .
 get
 (
 )
 :
+JS
+:
+:
+ObjectValue
+(
+*
 mCallback
+)
 "
     
 def
