@@ -3936,6 +3936,10 @@ haveTestPlugin
 !
 !
 testPlugin
+&
+&
+!
+gBrowserIsRemote
 ;
 var
 box

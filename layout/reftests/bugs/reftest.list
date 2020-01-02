@@ -25463,6 +25463,13 @@ skip
 -
 if
 (
+!
+haveTestPlugin
+)
+skip
+-
+if
+(
 B2G
 )
 fails
@@ -27003,6 +27010,13 @@ html
 ref
 .
 html
+skip
+-
+if
+(
+!
+haveTestPlugin
+)
 skip
 -
 if
