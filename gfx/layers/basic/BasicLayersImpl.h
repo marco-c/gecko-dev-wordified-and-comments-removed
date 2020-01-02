@@ -42,6 +42,15 @@ h
 #
 include
 "
+ipc
+/
+AutoOpenSurface
+.
+h
+"
+#
+include
+"
 mozilla
 /
 Attributes

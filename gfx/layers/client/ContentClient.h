@@ -1497,12 +1497,9 @@ mBufferRect
 )
 ;
 }
-TemporaryRef
+already_AddRefed
 <
-gfx
-:
-:
-DrawTarget
+gfxASurface
 >
 GetUpdateSurface
 (

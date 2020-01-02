@@ -775,6 +775,14 @@ mCompositor
 ;
 }
 bool
+PlatformDestroySharedSurface
+(
+SurfaceDescriptor
+*
+aSurface
+)
+;
+bool
 DebugOverlayWantsNextFrame
 (
 )
