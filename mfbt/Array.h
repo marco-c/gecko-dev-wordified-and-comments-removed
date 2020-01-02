@@ -126,7 +126,7 @@ size_t
 i
 )
 {
-MOZ_ASSUME_UNREACHABLE
+MOZ_CRASH
 (
 "
 indexing
@@ -151,7 +151,7 @@ i
 )
 const
 {
-MOZ_ASSUME_UNREACHABLE
+MOZ_CRASH
 (
 "
 indexing
