@@ -272,6 +272,11 @@ SOURCES
 =
 [
 '
+BlankDecoderModule
+.
+cpp
+'
+'
 demuxer
 /
 aac
