@@ -490,11 +490,6 @@ DOMImplementation
 webidl
 '
 '
-DOMMatrix
-.
-webidl
-'
-'
 DOMMobileMessageError
 .
 webidl
@@ -1305,11 +1300,6 @@ MimeTypeArray
 webidl
 '
 '
-MobileMessageManager
-.
-webidl
-'
-'
 MouseEvent
 .
 webidl
@@ -1326,6 +1316,11 @@ webidl
 '
 '
 MozMmsMessage
+.
+webidl
+'
+'
+MozMobileMessageManager
 .
 webidl
 '
