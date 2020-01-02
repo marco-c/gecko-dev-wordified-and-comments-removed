@@ -406,6 +406,15 @@ StopScreenWindowSharing
 (
 )
 ;
+void
+StopTrack
+(
+TrackID
+aID
+bool
+aIsAudio
+)
+;
 bool
 CapturingVideo
 (
