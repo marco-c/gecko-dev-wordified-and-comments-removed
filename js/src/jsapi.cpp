@@ -5464,7 +5464,7 @@ nullptr
 static
 const
 JSStdName
-standard_class_atoms
+standard_class_names
 [
 ]
 =
@@ -5484,7 +5484,7 @@ nullptr
 static
 const
 JSStdName
-standard_class_names
+builtin_property_names
 [
 ]
 =
@@ -6032,7 +6032,7 @@ LookupStdName
 (
 rt
 idstr
-standard_class_atoms
+standard_class_names
 )
 ;
 if
@@ -6046,7 +6046,7 @@ LookupStdName
 (
 rt
 idstr
-standard_class_names
+builtin_property_names
 )
 ;
 if
@@ -6266,7 +6266,7 @@ i
 =
 0
 ;
-standard_class_atoms
+standard_class_names
 [
 i
 ]
@@ -6283,7 +6283,7 @@ JSStdName
 &
 stdnm
 =
-standard_class_atoms
+standard_class_names
 [
 i
 ]
