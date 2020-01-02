@@ -4846,7 +4846,7 @@ nsSizeMode_Normal
 )
 ;
 }
-double
+CSSToLayoutDeviceScale
 scale
 =
 BoundsUseDisplayPixels
@@ -4857,9 +4857,12 @@ GetDefaultScale
 (
 )
 :
+CSSToLayoutDeviceScale
+(
 1
 .
 0
+)
 ;
 int32_t
 x
@@ -4868,6 +4871,8 @@ NSToIntRound
 (
 aX
 *
+scale
+.
 scale
 )
 ;
@@ -4878,6 +4883,8 @@ NSToIntRound
 (
 aY
 *
+scale
+.
 scale
 )
 ;
@@ -5160,7 +5167,7 @@ bool
 aRepaint
 )
 {
-double
+CSSToLayoutDeviceScale
 scale
 =
 BoundsUseDisplayPixels
@@ -5171,9 +5178,12 @@ GetDefaultScale
 (
 )
 :
+CSSToLayoutDeviceScale
+(
 1
 .
 0
+)
 ;
 int32_t
 width
@@ -5182,6 +5192,8 @@ NSToIntRound
 (
 aWidth
 *
+scale
+.
 scale
 )
 ;
@@ -5192,6 +5204,8 @@ NSToIntRound
 (
 aHeight
 *
+scale
+.
 scale
 )
 ;
@@ -5393,7 +5407,7 @@ bool
 aRepaint
 )
 {
-double
+CSSToLayoutDeviceScale
 scale
 =
 BoundsUseDisplayPixels
@@ -5404,9 +5418,12 @@ GetDefaultScale
 (
 )
 :
+CSSToLayoutDeviceScale
+(
 1
 .
 0
+)
 ;
 int32_t
 x
@@ -5415,6 +5432,8 @@ NSToIntRound
 (
 aX
 *
+scale
+.
 scale
 )
 ;
@@ -5426,6 +5445,8 @@ NSToIntRound
 aY
 *
 scale
+.
+scale
 )
 ;
 int32_t
@@ -5436,6 +5457,8 @@ NSToIntRound
 aWidth
 *
 scale
+.
+scale
 )
 ;
 int32_t
@@ -5445,6 +5468,8 @@ NSToIntRound
 (
 aHeight
 *
+scale
+.
 scale
 )
 ;
@@ -6238,6 +6263,8 @@ dpiScale
 GetDefaultScale
 (
 )
+.
+scale
 ;
 int32_t
 logWidth
