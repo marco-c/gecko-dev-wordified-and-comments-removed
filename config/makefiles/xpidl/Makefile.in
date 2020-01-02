@@ -500,6 +500,15 @@ root
 .
 pp
 )
+GARBAGE
++
+=
+(
+linked_xpt_files
+)
+(
+depends_files
+)
 xpidl
 :
 :
