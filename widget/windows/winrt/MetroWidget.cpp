@@ -3151,7 +3151,7 @@ switch
 aEvent
 -
 >
-eventStructType
+mClass
 )
 {
 case

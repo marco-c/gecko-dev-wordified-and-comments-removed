@@ -3144,7 +3144,7 @@ switch
 (
 aInputEvent
 .
-eventStructType
+mClass
 )
 {
 case

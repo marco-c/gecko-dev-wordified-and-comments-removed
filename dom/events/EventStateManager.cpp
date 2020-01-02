@@ -2310,7 +2310,7 @@ IsReal
 aEvent
 -
 >
-eventStructType
+mClass
 =
 =
 NS_WHEEL_EVENT
@@ -2390,7 +2390,7 @@ NS_MOUSE_EXIT
 aEvent
 -
 >
-eventStructType
+mClass
 =
 =
 NS_WHEEL_EVENT
@@ -2399,7 +2399,7 @@ NS_WHEEL_EVENT
 aEvent
 -
 >
-eventStructType
+mClass
 =
 =
 NS_KEY_EVENT
@@ -4936,7 +4936,7 @@ switch
 aEvent
 -
 >
-eventStructType
+mClass
 )
 {
 case
@@ -5258,7 +5258,7 @@ switch
 (
 aEvent
 .
-eventStructType
+mClass
 )
 {
 case
@@ -5400,7 +5400,7 @@ if
 aEvent
 -
 >
-eventStructType
+mClass
 !
 =
 NS_TOUCH_EVENT
@@ -12997,7 +12997,7 @@ NS_ASSERTION
 aEvent
 -
 >
-eventStructType
+mClass
 =
 =
 NS_DRAG_EVENT
@@ -16190,7 +16190,7 @@ isPointer
 aMouseEvent
 -
 >
-eventStructType
+mClass
 =
 =
 NS_POINTER_EVENT
@@ -16445,7 +16445,7 @@ isPointer
 aMouseEvent
 -
 >
-eventStructType
+mClass
 =
 =
 NS_POINTER_EVENT

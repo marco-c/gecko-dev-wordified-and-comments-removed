@@ -5818,7 +5818,7 @@ if
 aEvent
 -
 >
-eventStructType
+mClass
 !
 =
 NS_MOUSE_EVENT

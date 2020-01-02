@@ -2695,7 +2695,7 @@ if
 event
 -
 >
-eventStructType
+mClass
 =
 =
 NS_MOUSE_EVENT
@@ -2704,7 +2704,7 @@ NS_MOUSE_EVENT
 event
 -
 >
-eventStructType
+mClass
 =
 =
 NS_MOUSE_SCROLL_EVENT
@@ -2713,7 +2713,7 @@ NS_MOUSE_SCROLL_EVENT
 event
 -
 >
-eventStructType
+mClass
 =
 =
 NS_WHEEL_EVENT

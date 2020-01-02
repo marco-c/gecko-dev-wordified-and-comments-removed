@@ -1282,7 +1282,7 @@ switch
 event
 -
 >
-eventStructType
+mClass
 )
 {
 case

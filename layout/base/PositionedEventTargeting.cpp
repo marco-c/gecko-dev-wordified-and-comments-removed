@@ -139,8 +139,8 @@ EventRadiusPrefs
 *
 GetPrefsFor
 (
-nsEventStructType
-aEventStructType
+EventClassID
+aEventClassID
 )
 {
 EventRadiusPrefs
@@ -158,7 +158,7 @@ nullptr
 ;
 if
 (
-aEventStructType
+aEventClassID
 =
 =
 NS_TOUCH_EVENT
@@ -179,7 +179,7 @@ sTouchEventRadiusPrefs
 else
 if
 (
-aEventStructType
+aEventClassID
 =
 =
 NS_MOUSE_EVENT
@@ -374,7 +374,7 @@ get
 }
 if
 (
-aEventStructType
+aEventClassID
 =
 =
 NS_MOUSE_EVENT
@@ -1816,7 +1816,7 @@ GetPrefsFor
 aEvent
 -
 >
-eventStructType
+mClass
 )
 ;
 if
@@ -1856,7 +1856,7 @@ if
 aEvent
 -
 >
-eventStructType
+mClass
 =
 =
 NS_MOUSE_EVENT

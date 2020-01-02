@@ -281,7 +281,7 @@ if
 aEvent
 -
 >
-eventStructType
+mClass
 =
 =
 NS_TOUCH_EVENT
@@ -291,7 +291,7 @@ NS_TOUCH_EVENT
 aEvent
 -
 >
-eventStructType
+mClass
 =
 =
 NS_MOUSE_EVENT
@@ -578,7 +578,7 @@ if
 aEvent
 -
 >
-eventStructType
+mClass
 =
 =
 NS_TOUCH_EVENT
@@ -588,7 +588,7 @@ NS_TOUCH_EVENT
 aEvent
 -
 >
-eventStructType
+mClass
 =
 =
 NS_MOUSE_EVENT

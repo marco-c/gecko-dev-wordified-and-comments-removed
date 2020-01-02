@@ -2460,7 +2460,7 @@ MOZ_ASSERT
 aEvent
 -
 >
-eventStructType
+mClass
 =
 =
 NS_MOUSE_EVENT

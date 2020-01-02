@@ -7341,7 +7341,7 @@ keyEvent
 keyEvent
 -
 >
-eventStructType
+mClass
 =
 =
 NS_KEY_EVENT
@@ -7508,7 +7508,7 @@ mouseEvent
 mouseEvent
 -
 >
-eventStructType
+mClass
 =
 =
 NS_MOUSE_EVENT
@@ -7630,7 +7630,7 @@ mouseEvent
 mouseEvent
 -
 >
-eventStructType
+mClass
 =
 =
 NS_MOUSE_EVENT
@@ -8825,7 +8825,7 @@ if
 (
 anEvent
 .
-eventStructType
+mClass
 =
 =
 NS_MOUSE_EVENT
@@ -9423,7 +9423,7 @@ switch
 (
 anEvent
 .
-eventStructType
+mClass
 )
 {
 case
@@ -10334,7 +10334,7 @@ switch
 (
 anEvent
 .
-eventStructType
+mClass
 )
 {
 case

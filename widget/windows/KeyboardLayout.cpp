@@ -1482,7 +1482,7 @@ switch
 (
 aInputEvent
 .
-eventStructType
+mClass
 )
 {
 case
@@ -1529,7 +1529,7 @@ NS_ASSERTION
 (
 aMouseEvent
 .
-eventStructType
+mClass
 =
 =
 NS_MOUSE_EVENT
@@ -1537,7 +1537,7 @@ NS_MOUSE_EVENT
 |
 aMouseEvent
 .
-eventStructType
+mClass
 =
 =
 NS_WHEEL_EVENT
@@ -1545,7 +1545,7 @@ NS_WHEEL_EVENT
 |
 aMouseEvent
 .
-eventStructType
+mClass
 =
 =
 NS_DRAG_EVENT
@@ -1553,7 +1553,7 @@ NS_DRAG_EVENT
 |
 aMouseEvent
 .
-eventStructType
+mClass
 =
 =
 NS_SIMPLE_GESTURE_EVENT

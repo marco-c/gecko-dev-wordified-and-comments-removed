@@ -3836,7 +3836,7 @@ aVisitor
 mEvent
 -
 >
-eventStructType
+mClass
 !
 =
 NS_MUTATION_EVENT

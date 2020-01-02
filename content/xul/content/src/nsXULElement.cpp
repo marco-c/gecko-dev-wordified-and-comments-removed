@@ -5847,7 +5847,7 @@ aVisitor
 mEvent
 -
 >
-eventStructType
+mClass
 =
 =
 NS_INPUT_EVENT
