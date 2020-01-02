@@ -724,16 +724,6 @@ VK_F3
 <
 !
 ENTITY
-findSelectionCmd
-.
-commandkey
-"
-e
-"
->
-<
-!
-ENTITY
 backCmd
 .
 label

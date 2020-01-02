@@ -542,12 +542,6 @@ focus
 (
 )
 ;
-gFindBar
-.
-clear
-(
-)
-;
 sendChar
 (
 "
