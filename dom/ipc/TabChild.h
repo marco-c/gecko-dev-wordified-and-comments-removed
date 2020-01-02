@@ -734,6 +734,10 @@ IsAsyncPanZoomEnabled
 bool
 HandlePossibleViewportChange
 (
+const
+ScreenIntSize
+&
+aOldScreenSize
 )
 ;
 virtual
