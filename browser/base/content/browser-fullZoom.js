@@ -1598,7 +1598,6 @@ FullZoom__getState
 browser
 )
 {
-let
 browser
 =
 browser
@@ -1613,8 +1612,12 @@ return
 uri
 :
 browser
+?
+browser
 .
 currentURI
+:
+null
 token
 :
 this
