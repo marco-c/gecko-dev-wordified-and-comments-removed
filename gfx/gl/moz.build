@@ -568,6 +568,11 @@ EXPORTS
 =
 [
 '
+GLContextCGL
+.
+h
+'
+'
 SharedSurfaceIO
 .
 h
