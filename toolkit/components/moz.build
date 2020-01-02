@@ -205,6 +205,9 @@ protobuf
 reflect
 '
 '
+sqlite
+'
+'
 startup
 '
 '
