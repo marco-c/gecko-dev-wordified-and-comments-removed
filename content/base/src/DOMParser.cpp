@@ -625,12 +625,6 @@ ErrorResult
 rv
 )
 {
-aBuf
-.
-ComputeLengthAndData
-(
-)
-;
 if
 (
 aBufLen

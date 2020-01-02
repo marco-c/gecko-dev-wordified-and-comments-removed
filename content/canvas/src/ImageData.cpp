@@ -281,12 +281,6 @@ ErrorResult
 aRv
 )
 {
-aData
-.
-ComputeLengthAndData
-(
-)
-;
 uint32_t
 length
 =

@@ -94,12 +94,6 @@ ArrayBuffer
 aData
 )
 {
-aData
-.
-ComputeLengthAndData
-(
-)
-;
 return
 Assign
 (
@@ -129,12 +123,6 @@ ArrayBufferView
 aData
 )
 {
-aData
-.
-ComputeLengthAndData
-(
-)
-;
 return
 Assign
 (

@@ -493,12 +493,6 @@ GetAsArrayBuffer
 (
 )
 ;
-buffer
-.
-ComputeLengthAndData
-(
-)
-;
 arrayData
 .
 AppendElements
@@ -533,12 +527,6 @@ view
 data
 .
 GetAsArrayBufferView
-(
-)
-;
-view
-.
-ComputeLengthAndData
 (
 )
 ;
