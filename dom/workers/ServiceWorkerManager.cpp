@@ -4932,10 +4932,8 @@ return
 nullptr
 ;
 }
-nsRefPtr
-<
 ServiceWorkerRegistration
->
+*
 registration
 ;
 domainInfo
@@ -4946,10 +4944,8 @@ mServiceWorkerRegistrations
 Get
 (
 scope
-getter_AddRefs
-(
+&
 registration
-)
 )
 ;
 MOZ_ASSERT
@@ -4959,10 +4955,6 @@ registration
 ;
 return
 registration
-.
-forget
-(
-)
 ;
 }
 namespace
