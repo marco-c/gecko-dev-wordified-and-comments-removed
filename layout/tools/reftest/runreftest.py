@@ -1546,6 +1546,17 @@ specialpowers
 '
 )
 )
+      
+prefs
+[
+'
+security
+.
+turn_off_all_security_so_that_viruses_can_take_over_this_computer
+'
+]
+=
+True
     
 distExtDir
 =
