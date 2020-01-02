@@ -252,17 +252,6 @@ true
 pref
 (
 "
-browser
-.
-webapps
-.
-checkForUpdates
-"
-0
-)
-pref
-(
-"
 dom
 .
 sysmsg
