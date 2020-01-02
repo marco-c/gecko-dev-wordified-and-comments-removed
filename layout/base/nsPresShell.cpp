@@ -29934,7 +29934,7 @@ EvictTouches
 WidgetTouchEvent
 :
 :
-TouchArray
+AutoTouchArray
 touches
 ;
 gCaptureTouchList
@@ -34400,7 +34400,7 @@ Length
 WidgetTouchEvent
 :
 :
-TouchArray
+AutoTouchArray
 touches
 ;
 gCaptureTouchList
