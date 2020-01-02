@@ -175,10 +175,11 @@ sw
 str
 )
 ;
-JS_SetFinalizeCallback
+JS_AddFinalizeCallback
 (
 rt
 FinalizeCallback
+nullptr
 )
 ;
 JS_GC
@@ -208,6 +209,9 @@ JSFinalizeStatus
 status
 bool
 isCompartmentGC
+void
+*
+data
 )
 {
 if

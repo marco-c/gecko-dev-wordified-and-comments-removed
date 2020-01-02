@@ -1779,6 +1779,9 @@ JSFinalizeStatus
 status
 bool
 isCompartmentGC
+void
+*
+data
 )
 ;
 inline

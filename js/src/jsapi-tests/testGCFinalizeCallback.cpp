@@ -48,10 +48,11 @@ JSGC_MODE
 JSGC_MODE_INCREMENTAL
 )
 ;
-JS_SetFinalizeCallback
+JS_AddFinalizeCallback
 (
 rt
 FinalizeCallback
+nullptr
 )
 ;
 FinalizeCalls
@@ -773,10 +774,10 @@ global3
 )
 )
 ;
-JS_SetFinalizeCallback
+JS_RemoveFinalizeCallback
 (
 rt
-nullptr
+FinalizeCallback
 )
 ;
 return
@@ -960,6 +961,9 @@ JSFinalizeStatus
 status
 bool
 isCompartmentGC
+void
+*
+data
 )
 {
 if

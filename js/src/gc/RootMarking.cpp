@@ -4815,7 +4815,10 @@ i
 )
 {
 const
-ExtraTracer
+Callback
+<
+JSTraceDataOp
+>
 &
 e
 =
