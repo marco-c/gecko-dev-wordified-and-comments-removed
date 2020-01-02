@@ -105,13 +105,6 @@ widget
 static
 NS_DEFINE_IID
 (
-kCDragServiceCID
-NS_DRAGSERVICE_CID
-)
-;
-static
-NS_DEFINE_IID
-(
 kIDragServiceIID
 NS_IDRAGSERVICE_IID
 )
@@ -159,6 +152,13 @@ mDropTargetHelper
 nullptr
 )
 {
+static
+NS_DEFINE_IID
+(
+kCDragServiceCID
+NS_DRAGSERVICE_CID
+)
+;
 mHWnd
 =
 (

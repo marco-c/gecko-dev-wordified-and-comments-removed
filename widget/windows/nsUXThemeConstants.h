@@ -1,4 +1,10 @@
 #
+ifndef
+nsUXThemeConstants_h
+#
+define
+nsUXThemeConstants_h
+#
 include
 <
 vssym32
@@ -616,3 +622,5 @@ BS_INACTIVE
 }
 }
 }
+#
+endif

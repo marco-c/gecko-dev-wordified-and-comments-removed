@@ -1,4 +1,10 @@
 #
+ifndef
+nsImageClipboard_h
+#
+define
+nsImageClipboard_h
+#
 include
 "
 nsError
@@ -224,3 +230,5 @@ aColorMask
 ;
 }
 ;
+#
+endif
