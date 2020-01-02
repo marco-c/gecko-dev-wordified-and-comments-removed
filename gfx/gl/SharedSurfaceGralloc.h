@@ -130,12 +130,13 @@ GLLibraryEGL
 const
 mEGL
 ;
+WeakPtr
+<
 layers
 :
 :
 ISurfaceAllocator
-*
-const
+>
 mAllocator
 ;
 layers
@@ -199,6 +200,11 @@ egl
 mAllocator
 (
 allocator
+-
+>
+asWeakPtr
+(
+)
 )
 mDesc
 (
