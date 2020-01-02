@@ -4727,7 +4727,7 @@ toString
 ;
 }
 function
-checkMove
+checkCopyWithin
 (
 offset
 start
@@ -4759,11 +4759,11 @@ offset
 ;
 view
 .
-move
+copyWithin
 (
+dest
 start
 end
-dest
 )
 ;
 check
@@ -4828,7 +4828,7 @@ view
 ;
 }
 }
-checkMove
+checkCopyWithin
 (
 0
 2
@@ -4847,7 +4847,7 @@ checkMove
 ]
 )
 ;
-checkMove
+checkCopyWithin
 (
 0
 -
@@ -4867,7 +4867,7 @@ checkMove
 ]
 )
 ;
-checkMove
+checkCopyWithin
 (
 0
 2
@@ -4887,7 +4887,7 @@ checkMove
 ]
 )
 ;
-checkMove
+checkCopyWithin
 (
 0
 2
@@ -4907,7 +4907,7 @@ checkMove
 ]
 )
 ;
-checkMove
+checkCopyWithin
 (
 0
 -
@@ -4929,7 +4929,7 @@ checkMove
 ]
 )
 ;
-checkMove
+checkCopyWithin
 (
 2
 0
@@ -4946,7 +4946,7 @@ checkMove
 ]
 )
 ;
-checkMove
+checkCopyWithin
 (
 0
 5000
@@ -4965,7 +4965,7 @@ checkMove
 ]
 )
 ;
-checkMove
+checkCopyWithin
 (
 0
 -
@@ -4986,7 +4986,7 @@ checkMove
 ]
 )
 ;
-checkMove
+checkCopyWithin
 (
 0
 -
@@ -5006,7 +5006,7 @@ checkMove
 ]
 )
 ;
-checkMove
+checkCopyWithin
 (
 0
 5000
@@ -5025,7 +5025,7 @@ checkMove
 ]
 )
 ;
-checkMove
+checkCopyWithin
 (
 0
 -
@@ -5046,7 +5046,7 @@ checkMove
 ]
 )
 ;
-checkMove
+checkCopyWithin
 (
 0
 5000
@@ -5065,7 +5065,7 @@ checkMove
 ]
 )
 ;
-checkMove
+checkCopyWithin
 (
 2
 -
@@ -5084,7 +5084,7 @@ checkMove
 ]
 )
 ;
-checkMove
+checkCopyWithin
 (
 2
 -
@@ -5102,7 +5102,7 @@ checkMove
 ]
 )
 ;
-checkMove
+checkCopyWithin
 (
 2
 5000
@@ -5119,7 +5119,7 @@ checkMove
 ]
 )
 ;
-checkMove
+checkCopyWithin
 (
 2
 -
@@ -5138,7 +5138,7 @@ checkMove
 ]
 )
 ;
-checkMove
+checkCopyWithin
 (
 2
 -
@@ -5156,7 +5156,7 @@ checkMove
 ]
 )
 ;
-checkMove
+checkCopyWithin
 (
 2
 1
@@ -5173,7 +5173,7 @@ checkMove
 ]
 )
 ;
-checkMove
+checkCopyWithin
 (
 2
 1
