@@ -1749,10 +1749,13 @@ seek
 for
 k
 in
+sorted
+(
 myregister
 .
 iterkeys
 (
+)
 )
 :
                 
