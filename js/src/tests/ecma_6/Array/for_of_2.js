@@ -16,8 +16,13 @@ f
 .
 .
 .
+new
+Set
+(
 arr
 )
+)
+;
 }
 function
 fun
