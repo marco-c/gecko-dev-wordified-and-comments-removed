@@ -2837,6 +2837,9 @@ True
 debugger
 =
 False
+dmdPath
+=
+None
 )
 :
   
@@ -2887,6 +2890,14 @@ envVar
 =
 None
   
+dmdLibrary
+=
+None
+  
+preloadEnvVar
+=
+None
+  
 if
 mozinfo
 .
@@ -2907,6 +2918,20 @@ MOZILLA_FIVE_HOME
 ]
 =
 xrePath
+    
+dmdLibrary
+=
+"
+libdmd
+.
+so
+"
+    
+preloadEnvVar
+=
+"
+LD_PRELOAD
+"
   
 elif
 mozinfo
@@ -2919,6 +2944,20 @@ envVar
 "
 DYLD_LIBRARY_PATH
 "
+    
+dmdLibrary
+=
+"
+libdmd
+.
+dylib
+"
+    
+preloadEnvVar
+=
+"
+DYLD_INSERT_LIBRARIES
+"
   
 elif
 mozinfo
@@ -2930,6 +2969,20 @@ envVar
 =
 "
 PATH
+"
+    
+dmdLibrary
+=
+"
+dmd
+.
+dll
+"
+    
+preloadEnvVar
+=
+"
+MOZ_REPLACE_MALLOC_LIB
 "
   
 if
@@ -2960,6 +3013,7 @@ isWin
 else
 (
 ldLibraryPath
+dmdPath
 env
 .
 get
@@ -2991,6 +3045,40 @@ envValue
 if
 path
 ]
+)
+  
+if
+dmdPath
+and
+dmdLibrary
+and
+preloadEnvVar
+:
+    
+env
+[
+'
+DMD
+'
+]
+=
+'
+1
+'
+    
+env
+[
+preloadEnvVar
+]
+=
+os
+.
+path
+.
+join
+(
+dmdPath
+dmdLibrary
 )
   
 env
