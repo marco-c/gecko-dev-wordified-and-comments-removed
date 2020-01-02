@@ -357,6 +357,16 @@ attribute
 boolean
 discovering
 ;
+[
+AvailableIn
+=
+CertifiedApps
+]
+readonly
+attribute
+BluetoothPairingListener
+pairingReqs
+;
 /
 /
 Fired
