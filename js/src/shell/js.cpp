@@ -3922,7 +3922,7 @@ strict_mode
 JS
 :
 :
-ContextOptionsRef
+RuntimeOptionsRef
 (
 cx
 )
@@ -4071,7 +4071,7 @@ if
 names
 &
 &
-oldContextOptions
+oldRuntimeOptions
 .
 strictMode
 (
