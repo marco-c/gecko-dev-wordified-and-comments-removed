@@ -809,16 +809,6 @@ P
 S
 c
 dkLen
-hmacAlg
-=
-Ci
-.
-nsICryptoHMAC
-.
-SHA1
-hmacLen
-=
-20
 )
 {
 if
@@ -832,6 +822,11 @@ dkLen
 SYNC_KEY_DECODED_LENGTH
 ;
 }
+const
+HLEN
+=
+20
+;
 function
 F
 (
@@ -1088,7 +1083,6 @@ U
 ;
 for
 (
-let
 j
 =
 1
@@ -1132,7 +1126,7 @@ ceil
 (
 dkLen
 /
-hmacLen
+HLEN
 )
 ;
 let
@@ -1147,7 +1141,7 @@ l
 1
 )
 *
-hmacLen
+HLEN
 )
 ;
 let
@@ -1157,7 +1151,11 @@ CryptoUtils
 .
 makeHMACHasher
 (
-hmacAlg
+Ci
+.
+nsICryptoHMAC
+.
+SHA1
 CryptoUtils
 .
 makeHMACKey
@@ -1166,7 +1164,6 @@ P
 )
 )
 ;
-let
 T
 =
 [
@@ -1209,7 +1206,6 @@ ret
 ;
 for
 (
-let
 i
 =
 0
