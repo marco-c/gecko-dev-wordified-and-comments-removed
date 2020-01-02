@@ -229,6 +229,11 @@ IntegerPrintfMacros
 h
 '
 '
+IntegerTypeTraits
+.
+h
+'
+'
 Likely
 .
 h
