@@ -3527,17 +3527,6 @@ done
 )
 ;
 }
-bool
-maybeCallPostBarrier
-(
-Register
-object
-ConstantOrRegister
-value
-Register
-maybeScratch
-)
-;
 void
 branchNurseryPtr
 (
