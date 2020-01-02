@@ -477,6 +477,17 @@ SharedSurfaceGralloc
 h
 '
 ]
+LOCAL_INCLUDES
++
+=
+[
+'
+/
+widget
+/
+gonk
+'
+]
 if
 gl_provider
 =

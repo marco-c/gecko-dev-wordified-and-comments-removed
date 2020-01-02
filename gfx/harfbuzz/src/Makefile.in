@@ -195,14 +195,6 @@ s
 Jonathan
 Kew
 #
-LOCAL_INCLUDES
-+
-=
--
-I
-(
-srcdir
-)
 include
 (
 topsrcdir

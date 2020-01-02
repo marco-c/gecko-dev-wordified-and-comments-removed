@@ -100,14 +100,6 @@ OS_INCLUDES
 CAIRO_FT_CFLAGS
 )
 endif
-LOCAL_INCLUDES
-+
-=
--
-I
-(
-srcdir
-)
 INSTALL_TARGETS
 +
 =
