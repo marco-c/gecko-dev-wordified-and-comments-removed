@@ -140,6 +140,11 @@ AnimationEvent
 webidl
 '
 '
+AppNotificationServiceOptions
+.
+webidl
+'
+'
 ArchiveReader
 .
 webidl
