@@ -1357,7 +1357,7 @@ Get
 size
 )
 ;
-ComposeToTarget
+ForceComposeToTarget
 (
 target
 )
@@ -1391,7 +1391,7 @@ Cancel
 (
 )
 ;
-ComposeToTarget
+ForceComposeToTarget
 (
 nullptr
 )
@@ -1777,7 +1777,6 @@ false
 ;
 Composite
 (
-nullptr
 )
 ;
 lock
@@ -2285,7 +2284,6 @@ CompositorParent
 :
 :
 Composite
-nullptr
 )
 ;
 if
@@ -2348,6 +2346,20 @@ CompositorParent
 :
 :
 Composite
+(
+)
+{
+CompositeToTarget
+(
+nullptr
+)
+;
+}
+void
+CompositorParent
+:
+:
+CompositeToTarget
 (
 DrawTarget
 *
@@ -2707,7 +2719,7 @@ void
 CompositorParent
 :
 :
-ComposeToTarget
+ForceComposeToTarget
 (
 DrawTarget
 *
@@ -2720,7 +2732,7 @@ PROFILER_LABEL
 CompositorParent
 "
 "
-ComposeToTarget
+ForceComposeToTarget
 "
 )
 ;
@@ -2737,7 +2749,7 @@ mOverrideComposeReadiness
 =
 true
 ;
-Composite
+CompositeToTarget
 (
 aTarget
 )

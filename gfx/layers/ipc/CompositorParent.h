@@ -708,6 +708,11 @@ int
 void
 Composite
 (
+)
+;
+void
+CompositeToTarget
+(
 gfx
 :
 :
@@ -716,9 +721,8 @@ DrawTarget
 aTarget
 )
 ;
-virtual
 void
-ComposeToTarget
+ForceComposeToTarget
 (
 gfx
 :
