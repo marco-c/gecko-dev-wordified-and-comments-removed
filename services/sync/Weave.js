@@ -378,7 +378,16 @@ fxAccountsEnabled
 )
 ;
 }
+delete
+this
+.
+fxAccountsEnabled
+;
 return
+this
+.
+fxAccountsEnabled
+=
 fxAccountsEnabled
 ;
 }
