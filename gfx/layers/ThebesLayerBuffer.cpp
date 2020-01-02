@@ -2904,6 +2904,7 @@ BufferContentType
 )
 |
 |
+(
 mode
 =
 =
@@ -2914,7 +2915,6 @@ SURFACE_COMPONENT_ALPHA
 )
 !
 =
-(
 HaveBufferOnWhite
 (
 )
