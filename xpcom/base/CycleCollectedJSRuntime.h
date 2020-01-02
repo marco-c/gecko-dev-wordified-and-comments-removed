@@ -713,13 +713,13 @@ FixWeakMappingGrayBits
 const
 ;
 bool
-NeedCollect
+AreGCGrayBitsValid
 (
 )
 const
 ;
 void
-Collect
+GarbageCollect
 (
 uint32_t
 reason

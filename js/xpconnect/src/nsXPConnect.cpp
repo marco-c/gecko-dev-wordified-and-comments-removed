@@ -1086,7 +1086,7 @@ GetRuntime
 )
 -
 >
-Collect
+GarbageCollect
 (
 reason
 )
