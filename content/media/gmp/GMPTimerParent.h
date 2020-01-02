@@ -91,6 +91,11 @@ nsIThread
 aGMPThread
 )
 ;
+void
+Shutdown
+(
+)
+;
 protected
 :
 virtual
@@ -215,6 +220,9 @@ nsCOMPtr
 nsIThread
 >
 mGMPThread
+;
+bool
+mIsOpen
 ;
 }
 ;
