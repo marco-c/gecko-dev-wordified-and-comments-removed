@@ -1038,18 +1038,14 @@ bzexport
 BZEXPORT_INFO
 )
         
-active
-=
-c
-.
-extensions
-        
 if
 '
 mq
 '
 in
-active
+c
+.
+extensions
 :
             
 self
@@ -1091,9 +1087,9 @@ self
 .
 update_mercurial_repo
 (
-                
+                    
 hg
-                
+                    
 '
 https
 :
@@ -1107,7 +1103,7 @@ sfink
 /
 mqext
 '
-                
+                    
 os
 .
 path
@@ -1121,11 +1117,11 @@ ext_dir
 mqext
 '
 )
-                
+                    
 '
 default
 '
-                
+                    
 '
 Ensuring
 mqext
@@ -2094,7 +2090,7 @@ of
 yes
 no
 y
-no
+n
 }
 .
 '
