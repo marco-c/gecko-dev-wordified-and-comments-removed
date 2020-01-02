@@ -2385,16 +2385,6 @@ call
 return
 false
 ;
-uint32_t
-argslot
-=
-call
--
->
-numStackArgs
-(
-)
-;
 JSFunction
 *
 target
@@ -2504,7 +2494,6 @@ alloc
 )
 LCallDOMNative
 (
-argslot
 tempFixed
 (
 cxReg
@@ -2524,7 +2513,6 @@ argsReg
 )
 ;
 return
-(
 defineReturn
 (
 lir
@@ -2536,7 +2524,6 @@ assignSafepoint
 (
 lir
 call
-)
 )
 ;
 }
@@ -2630,7 +2617,6 @@ alloc
 )
 LCallNative
 (
-argslot
 tempFixed
 (
 cxReg
@@ -2688,7 +2674,6 @@ getFunction
 )
 CallTempReg0
 )
-argslot
 tempFixed
 (
 CallTempReg2
@@ -2696,7 +2681,6 @@ CallTempReg2
 )
 ;
 return
-(
 defineReturn
 (
 lir
@@ -2708,7 +2692,6 @@ assignSafepoint
 (
 lir
 call
-)
 )
 ;
 }
@@ -2734,7 +2717,6 @@ getFunction
 )
 CallTempReg0
 )
-argslot
 tempFixed
 (
 ArgumentsRectifierReg
