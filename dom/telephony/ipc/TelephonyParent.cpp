@@ -266,6 +266,10 @@ TelephonyParent
 RecvDialCall
 (
 const
+uint32_t
+&
+aClientId
+const
 nsString
 &
 aNumber
@@ -297,6 +301,7 @@ provider
 >
 Dial
 (
+aClientId
 aNumber
 aIsEmergency
 )
@@ -311,6 +316,10 @@ TelephonyParent
 :
 RecvHangUpCall
 (
+const
+uint32_t
+&
+aClientId
 const
 uint32_t
 &
@@ -339,6 +348,7 @@ provider
 >
 HangUp
 (
+aClientId
 aCallIndex
 )
 ;
@@ -352,6 +362,10 @@ TelephonyParent
 :
 RecvAnswerCall
 (
+const
+uint32_t
+&
+aClientId
 const
 uint32_t
 &
@@ -380,6 +394,7 @@ provider
 >
 AnswerCall
 (
+aClientId
 aCallIndex
 )
 ;
@@ -393,6 +408,10 @@ TelephonyParent
 :
 RecvRejectCall
 (
+const
+uint32_t
+&
+aClientId
 const
 uint32_t
 &
@@ -421,6 +440,7 @@ provider
 >
 RejectCall
 (
+aClientId
 aCallIndex
 )
 ;
@@ -434,6 +454,10 @@ TelephonyParent
 :
 RecvHoldCall
 (
+const
+uint32_t
+&
+aClientId
 const
 uint32_t
 &
@@ -462,6 +486,7 @@ provider
 >
 HoldCall
 (
+aClientId
 aCallIndex
 )
 ;
@@ -475,6 +500,10 @@ TelephonyParent
 :
 RecvResumeCall
 (
+const
+uint32_t
+&
+aClientId
 const
 uint32_t
 &
@@ -503,6 +532,7 @@ provider
 >
 ResumeCall
 (
+aClientId
 aCallIndex
 )
 ;
@@ -516,6 +546,10 @@ TelephonyParent
 :
 RecvConferenceCall
 (
+const
+uint32_t
+&
+aClientId
 )
 {
 nsCOMPtr
@@ -540,6 +574,7 @@ provider
 >
 ConferenceCall
 (
+aClientId
 )
 ;
 return
@@ -555,7 +590,11 @@ RecvSeparateCall
 const
 uint32_t
 &
-aCallState
+aClientId
+const
+uint32_t
+&
+aCallIndex
 )
 {
 nsCOMPtr
@@ -580,7 +619,8 @@ provider
 >
 SeparateCall
 (
-aCallState
+aClientId
+aCallIndex
 )
 ;
 return
@@ -593,6 +633,10 @@ TelephonyParent
 :
 RecvHoldConference
 (
+const
+uint32_t
+&
+aClientId
 )
 {
 nsCOMPtr
@@ -617,6 +661,7 @@ provider
 >
 HoldConference
 (
+aClientId
 )
 ;
 return
@@ -629,6 +674,10 @@ TelephonyParent
 :
 RecvResumeConference
 (
+const
+uint32_t
+&
+aClientId
 )
 {
 nsCOMPtr
@@ -653,6 +702,7 @@ provider
 >
 ResumeConference
 (
+aClientId
 )
 ;
 return
@@ -665,6 +715,10 @@ TelephonyParent
 :
 RecvStartTone
 (
+const
+uint32_t
+&
+aClientId
 const
 nsString
 &
@@ -693,6 +747,7 @@ provider
 >
 StartTone
 (
+aClientId
 aTone
 )
 ;
@@ -706,6 +761,10 @@ TelephonyParent
 :
 RecvStopTone
 (
+const
+uint32_t
+&
+aClientId
 )
 {
 nsCOMPtr
@@ -730,6 +789,7 @@ provider
 >
 StopTone
 (
+aClientId
 )
 ;
 return
@@ -915,6 +975,8 @@ TelephonyParent
 CallStateChanged
 (
 uint32_t
+aClientId
+uint32_t
 aCallIndex
 uint16_t
 aCallState
@@ -957,6 +1019,7 @@ aIsConference
 return
 SendNotifyCallStateChanged
 (
+aClientId
 data
 )
 ?
@@ -1020,6 +1083,8 @@ TelephonyParent
 EnumerateCallState
 (
 uint32_t
+aClientId
+uint32_t
 aCallIndex
 uint16_t
 aCallState
@@ -1055,6 +1120,8 @@ TelephonyParent
 :
 NotifyCdmaCallWaiting
 (
+uint32_t
+aClientId
 const
 nsAString
 &
@@ -1071,6 +1138,7 @@ NS_ERROR_FAILURE
 return
 SendNotifyCdmaCallWaiting
 (
+aClientId
 nsString
 (
 aNumber
@@ -1088,6 +1156,8 @@ TelephonyParent
 :
 NotifyError
 (
+uint32_t
+aClientId
 int32_t
 aCallIndex
 const
@@ -1106,6 +1176,7 @@ NS_ERROR_FAILURE
 return
 SendNotifyCallError
 (
+aClientId
 aCallIndex
 nsString
 (
@@ -1124,6 +1195,8 @@ TelephonyParent
 :
 SupplementaryServiceNotification
 (
+uint32_t
+aClientId
 int32_t
 aCallIndex
 uint16_t
@@ -1140,6 +1213,7 @@ NS_ERROR_FAILURE
 return
 SendNotifySupplementaryService
 (
+aClientId
 aCallIndex
 aNotification
 )
@@ -1250,6 +1324,8 @@ TelephonyRequestParent
 CallStateChanged
 (
 uint32_t
+aClientId
+uint32_t
 aCallIndex
 uint16_t
 aCallState
@@ -1332,6 +1408,8 @@ TelephonyRequestParent
 EnumerateCallState
 (
 uint32_t
+aClientId
+uint32_t
 aCallIndex
 uint16_t
 aCallState
@@ -1374,6 +1452,7 @@ aIsConference
 return
 SendNotifyEnumerateCallState
 (
+aClientId
 data
 )
 ?
@@ -1388,6 +1467,8 @@ TelephonyRequestParent
 :
 NotifyCdmaCallWaiting
 (
+uint32_t
+aClientId
 const
 nsAString
 &
@@ -1411,6 +1492,8 @@ TelephonyRequestParent
 :
 NotifyError
 (
+uint32_t
+aClientId
 int32_t
 aCallIndex
 const
@@ -1436,6 +1519,8 @@ TelephonyRequestParent
 :
 SupplementaryServiceNotification
 (
+uint32_t
+aClientId
 int32_t
 aCallIndex
 uint16_t

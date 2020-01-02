@@ -447,6 +447,8 @@ TelephonyIPCProvider
 :
 Dial
 (
+uint32_t
+aClientId
 const
 nsAString
 &
@@ -460,6 +462,7 @@ mPTelephonyChild
 >
 SendDialCall
 (
+aClientId
 nsString
 (
 aNumber
@@ -478,6 +481,8 @@ TelephonyIPCProvider
 HangUp
 (
 uint32_t
+aClientId
+uint32_t
 aCallIndex
 )
 {
@@ -486,6 +491,7 @@ mPTelephonyChild
 >
 SendHangUpCall
 (
+aClientId
 aCallIndex
 )
 ;
@@ -500,6 +506,8 @@ TelephonyIPCProvider
 AnswerCall
 (
 uint32_t
+aClientId
+uint32_t
 aCallIndex
 )
 {
@@ -508,6 +516,7 @@ mPTelephonyChild
 >
 SendAnswerCall
 (
+aClientId
 aCallIndex
 )
 ;
@@ -522,6 +531,8 @@ TelephonyIPCProvider
 RejectCall
 (
 uint32_t
+aClientId
+uint32_t
 aCallIndex
 )
 {
@@ -530,6 +541,7 @@ mPTelephonyChild
 >
 SendRejectCall
 (
+aClientId
 aCallIndex
 )
 ;
@@ -544,6 +556,8 @@ TelephonyIPCProvider
 HoldCall
 (
 uint32_t
+aClientId
+uint32_t
 aCallIndex
 )
 {
@@ -552,6 +566,7 @@ mPTelephonyChild
 >
 SendHoldCall
 (
+aClientId
 aCallIndex
 )
 ;
@@ -566,6 +581,8 @@ TelephonyIPCProvider
 ResumeCall
 (
 uint32_t
+aClientId
+uint32_t
 aCallIndex
 )
 {
@@ -574,6 +591,7 @@ mPTelephonyChild
 >
 SendResumeCall
 (
+aClientId
 aCallIndex
 )
 ;
@@ -587,6 +605,8 @@ TelephonyIPCProvider
 :
 ConferenceCall
 (
+uint32_t
+aClientId
 )
 {
 mPTelephonyChild
@@ -594,6 +614,7 @@ mPTelephonyChild
 >
 SendConferenceCall
 (
+aClientId
 )
 ;
 return
@@ -607,6 +628,8 @@ TelephonyIPCProvider
 SeparateCall
 (
 uint32_t
+aClientId
+uint32_t
 aCallIndex
 )
 {
@@ -615,6 +638,7 @@ mPTelephonyChild
 >
 SendSeparateCall
 (
+aClientId
 aCallIndex
 )
 ;
@@ -628,6 +652,8 @@ TelephonyIPCProvider
 :
 HoldConference
 (
+uint32_t
+aClientId
 )
 {
 mPTelephonyChild
@@ -635,6 +661,7 @@ mPTelephonyChild
 >
 SendHoldConference
 (
+aClientId
 )
 ;
 return
@@ -647,6 +674,8 @@ TelephonyIPCProvider
 :
 ResumeConference
 (
+uint32_t
+aClientId
 )
 {
 mPTelephonyChild
@@ -654,6 +683,7 @@ mPTelephonyChild
 >
 SendResumeConference
 (
+aClientId
 )
 ;
 return
@@ -666,6 +696,8 @@ TelephonyIPCProvider
 :
 StartTone
 (
+uint32_t
+aClientId
 const
 nsAString
 &
@@ -677,6 +709,7 @@ mPTelephonyChild
 >
 SendStartTone
 (
+aClientId
 nsString
 (
 aDtmfChar
@@ -693,6 +726,8 @@ TelephonyIPCProvider
 :
 StopTone
 (
+uint32_t
+aClientId
 )
 {
 mPTelephonyChild
@@ -700,6 +735,7 @@ mPTelephonyChild
 >
 SendStopTone
 (
+aClientId
 )
 ;
 return
@@ -803,6 +839,8 @@ TelephonyIPCProvider
 CallStateChanged
 (
 uint32_t
+aClientId
+uint32_t
 aCallIndex
 uint16_t
 aCallState
@@ -848,6 +886,7 @@ i
 >
 CallStateChanged
 (
+aClientId
 aCallIndex
 aCallState
 aNumber
@@ -935,6 +974,8 @@ TelephonyIPCProvider
 EnumerateCallState
 (
 uint32_t
+aClientId
+uint32_t
 aCallIndex
 uint16_t
 aCallState
@@ -970,6 +1011,8 @@ TelephonyIPCProvider
 :
 NotifyCdmaCallWaiting
 (
+uint32_t
+aClientId
 const
 nsAString
 &
@@ -1004,6 +1047,7 @@ i
 >
 NotifyCdmaCallWaiting
 (
+aClientId
 aNumber
 )
 ;
@@ -1018,6 +1062,8 @@ TelephonyIPCProvider
 :
 NotifyError
 (
+uint32_t
+aClientId
 int32_t
 aCallIndex
 const
@@ -1054,6 +1100,7 @@ i
 >
 NotifyError
 (
+aClientId
 aCallIndex
 aError
 )
@@ -1069,6 +1116,8 @@ TelephonyIPCProvider
 :
 SupplementaryServiceNotification
 (
+uint32_t
+aClientId
 int32_t
 aCallIndex
 uint16_t
@@ -1103,6 +1152,7 @@ i
 >
 SupplementaryServiceNotification
 (
+aClientId
 aCallIndex
 aNotification
 )

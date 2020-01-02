@@ -137,6 +137,8 @@ child
 :
 NotifyEnumerateCallState
 (
+uint32_t
+aClientId
 IPCCallStateData
 aData
 )
