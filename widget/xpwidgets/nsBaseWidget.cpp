@@ -3620,6 +3620,8 @@ textureFactoryIdentifier
 PLayerTransactionChild
 *
 shadowManager
+=
+nullptr
 ;
 nsTArray
 <
