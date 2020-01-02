@@ -11953,7 +11953,7 @@ toToString
 }
 ;
 class
-LPrimitiveToString
+LValueToString
 :
 public
 LInstructionHelper
@@ -11967,15 +11967,15 @@ public
 :
 LIR_HEADER
 (
-PrimitiveToString
+ValueToString
 )
-explicit
-LPrimitiveToString
+LValueToString
 (
 const
 LDefinition
 &
 tempToUnbox
+)
 )
 {
 setTemp

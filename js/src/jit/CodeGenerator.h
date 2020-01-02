@@ -544,9 +544,9 @@ lir
 )
 ;
 bool
-visitPrimitiveToString
+visitValueToString
 (
-LPrimitiveToString
+LValueToString
 *
 lir
 )
