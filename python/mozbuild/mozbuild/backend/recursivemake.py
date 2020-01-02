@@ -8148,30 +8148,26 @@ objdir
         
 topobjdir
 =
+mozpath
+.
+normsep
+(
 libdef
 .
 topobjdir
-.
-replace
-(
-os
-.
-sep
-'
-/
-'
 )
         
 for
-objdir
-basename
+obj
 in
 libdef
 .
-static_libraries
+linked_libraries
 :
             
 if
+obj
+.
 objdir
 .
 startswith
@@ -8199,6 +8195,8 @@ mozpath
 .
 relpath
 (
+obj
+.
 objdir
 topobjdir
 )
@@ -8212,6 +8210,8 @@ mozpath
 .
 relpath
 (
+obj
+.
 objdir
 thisobjdir
 )
@@ -8227,15 +8227,8 @@ SHARED_LIBRARY_LIBS
 %
 s
 /
-(
-LIB_PREFIX
-)
 %
 s
-.
-(
-LIB_SUFFIX
-)
 \
 n
 '
@@ -8243,7 +8236,9 @@ n
 %
 (
 relpath
-basename
+obj
+.
+static_name
 )
 )
     
