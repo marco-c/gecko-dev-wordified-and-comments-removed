@@ -1237,13 +1237,6 @@ UseGraphiteShaping
 (
 )
 ;
-bool
-UseHarfBuzzForScript
-(
-int32_t
-aScriptCode
-)
-;
 virtual
 bool
 IsFontFormatSupported
@@ -1876,9 +1869,6 @@ mBidiNumeralOption
 ;
 int8_t
 mFallbackUsesCmaps
-;
-int32_t
-mUseHarfBuzzScripts
 ;
 int32_t
 mWordCacheCharLimit
