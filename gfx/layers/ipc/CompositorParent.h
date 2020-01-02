@@ -861,13 +861,6 @@ CancelCurrentCompositeTask
 (
 )
 ;
-inline
-static
-PlatformThreadId
-CompositorThreadID
-(
-)
-;
 static
 void
 CreateCompositorMap
