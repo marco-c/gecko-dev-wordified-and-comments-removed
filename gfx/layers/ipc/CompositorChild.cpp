@@ -457,6 +457,9 @@ sCompositor
 this
 )
 ;
+#
+ifdef
+MOZ_B2G
 if
 (
 aWhy
@@ -479,6 +482,8 @@ CompositorChild
 )
 ;
 }
+#
+endif
 sCompositor
 =
 nullptr

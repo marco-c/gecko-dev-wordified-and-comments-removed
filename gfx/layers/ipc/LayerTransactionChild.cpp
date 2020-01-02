@@ -300,6 +300,9 @@ ActorDestroyReason
 why
 )
 {
+#
+ifdef
+MOZ_B2G
 if
 (
 why
@@ -322,6 +325,8 @@ LayerTransactionChild
 )
 ;
 }
+#
+endif
 }
 }
 }
