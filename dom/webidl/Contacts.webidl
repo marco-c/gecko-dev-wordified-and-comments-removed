@@ -207,6 +207,11 @@ boolean
 pref
 )
 ;
+object
+toJSON
+(
+)
+;
 }
 ;
 dictionary
@@ -309,6 +314,11 @@ boolean
 pref
 )
 ;
+object
+toJSON
+(
+)
+;
 }
 ;
 dictionary
@@ -384,6 +394,11 @@ carrier
 optional
 boolean
 pref
+)
+;
+object
+toJSON
+(
 )
 ;
 }
@@ -720,7 +735,10 @@ Date
 updated
 )
 ;
-jsonifier
+object
+toJSON
+(
+)
 ;
 }
 ;
