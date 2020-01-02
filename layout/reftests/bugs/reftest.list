@@ -27469,10 +27469,6 @@ fails
 if
 (
 d2d
-&
-&
-!
-remoteFX
 )
 random
 -

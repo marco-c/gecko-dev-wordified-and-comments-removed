@@ -168,10 +168,6 @@ fails
 if
 (
 d2d
-&
-&
-!
-remoteFX
 )
 HTTP
 (
