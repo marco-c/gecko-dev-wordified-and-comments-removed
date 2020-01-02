@@ -2584,6 +2584,9 @@ EI_OSABI
 ELFOSABI_SYSV
 |
 |
+#
+ifdef
+EI_ABIVERSION
 file
 .
 e_ident
@@ -2595,6 +2598,8 @@ EI_ABIVERSION
 0
 |
 |
+#
+endif
 file
 .
 e_machine
