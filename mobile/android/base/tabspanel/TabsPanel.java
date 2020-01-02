@@ -2397,6 +2397,13 @@ View
 VISIBLE
 )
 ;
+mMenuButton
+.
+setEnabled
+(
+true
+)
+;
 mPopupMenu
 .
 setAnchor
