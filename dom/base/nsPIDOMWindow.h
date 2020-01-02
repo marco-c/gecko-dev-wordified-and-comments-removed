@@ -1160,8 +1160,6 @@ GetCurrentInnerWindow
 &
 &
 mOuterWindow
-(
-)
 -
 >
 GetCurrentInnerWindow
