@@ -41,6 +41,9 @@ NS_IGLOBALOBJECT_IID
 }
 }
 class
+nsIPrincipal
+;
+class
 nsIGlobalObject
 :
 public
@@ -60,6 +63,12 @@ GetGlobalJSObject
 )
 =
 0
+;
+nsIPrincipal
+*
+PrincipalOrNull
+(
+)
 ;
 }
 ;

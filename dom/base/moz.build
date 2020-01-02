@@ -460,6 +460,11 @@ nsHistory
 cpp
 '
 '
+nsIGlobalObject
+.
+cpp
+'
+'
 nsJSTimeoutHandler
 .
 cpp
