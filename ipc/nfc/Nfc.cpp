@@ -1110,7 +1110,7 @@ sin_addr
 .
 s_addr
 =
-htons
+htonl
 (
 INADDR_LOOPBACK
 )
