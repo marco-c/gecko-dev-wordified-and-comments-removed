@@ -176,7 +176,7 @@ _MIPS_ARCH_MIPS32R2
 \
 defined
 (
-_AARCH64EL_
+__AARCH64EL__
 )
 #
 define
