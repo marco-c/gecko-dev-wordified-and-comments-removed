@@ -707,7 +707,8 @@ TESTNAME
                                    
 default
 =
-None
+'
+'
                                    
 cmds
 =
@@ -717,6 +718,9 @@ test
 '
 '
 testex
+'
+'
+testaddons
 '
 '
 testpkgs
@@ -3502,6 +3506,32 @@ in
 addons
 :
         
+if
+(
+not
+defaults
+[
+'
+filter
+'
+]
+.
+split
+(
+"
+:
+"
+)
+[
+0
+]
+in
+dirname
+)
+:
+            
+continue
+        
 print
 >
 >
@@ -3695,6 +3725,32 @@ dirname
 in
 examples
 :
+        
+if
+(
+not
+defaults
+[
+'
+filter
+'
+]
+.
+split
+(
+"
+:
+"
+)
+[
+0
+]
+in
+dirname
+)
+:
+            
+continue
         
 print
 >
@@ -6646,6 +6702,10 @@ bundled
 options
 .
 bundle_sdk
+or
+options
+.
+no_strip_xpi
     
 if
 options
@@ -6655,9 +6715,16 @@ force_use_bundled_sdk
         
 if
 not
-options
-.
-bundle_sdk
+harness_options
+[
+'
+is
+-
+sdk
+-
+bundled
+'
+]
 :
             
 print
@@ -6677,12 +6744,6 @@ use
 bundled
 -
 sdk
-and
--
--
-strip
--
-sdk
 "
                                  
 "
@@ -6691,10 +6752,12 @@ can
 t
 be
 used
-at
-the
-same
-time
+if
+sdk
+isn
+'
+t
+bundled
 .
 "
 )
