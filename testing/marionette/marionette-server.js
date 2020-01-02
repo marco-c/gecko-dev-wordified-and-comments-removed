@@ -12241,6 +12241,15 @@ prototype
 .
 getWindowHandle
 "
+getWindowHandles
+"
+:
+MarionetteServerConnection
+.
+prototype
+.
+getWindowHandles
+"
 getCurrentWindowHandles
 "
 :
