@@ -11519,7 +11519,6 @@ tmpValue
 NULL
 NULL
 JSPROP_ENUMERATE
-0
 )
 )
 return
@@ -18390,7 +18389,6 @@ value
 getter
 setter
 attrs
-0
 )
 ;
 }
@@ -18596,7 +18594,6 @@ value
 getter
 setter
 attrs
-0
 )
 ;
 }
@@ -18635,7 +18632,6 @@ value
 getter
 setter
 attrs
-0
 )
 ;
 }
@@ -19523,8 +19519,6 @@ StrictPropertyOp
 setter
 unsigned
 attrs
-unsigned
-flags
 HandleValue
 value
 bool
@@ -19966,7 +19960,7 @@ getter
 setter
 SHAPE_INVALID_SLOT
 attrs
-flags
+0
 )
 )
 ;
@@ -20235,8 +20229,6 @@ setter
 unsigned
 attrs
 unsigned
-flags
-unsigned
 defineHow
 )
 {
@@ -20299,7 +20291,7 @@ NativeLookupOwnProperty
 cx
 obj
 id
-flags
+0
 &
 shape
 )
@@ -20537,7 +20529,6 @@ id
 getter
 setter
 attrs
-flags
 value
 false
 false
@@ -26013,11 +26004,6 @@ attrs
 =
 JSPROP_ENUMERATE
 ;
-unsigned
-flags
-=
-0
-;
 const
 Class
 *
@@ -26789,7 +26775,6 @@ id
 getter
 setter
 attrs
-flags
 vp
 true
 strict

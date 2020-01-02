@@ -6615,7 +6615,6 @@ JS_StrictPropertyStub
 JSPROP_PERMANENT
 |
 JSPROP_READONLY
-0
 )
 |
 |
@@ -6638,7 +6637,6 @@ JS_StrictPropertyStub
 JSPROP_PERMANENT
 |
 JSPROP_READONLY
-0
 )
 )
 {

@@ -6042,8 +6042,6 @@ setter
 unsigned
 attrs
 unsigned
-flags
-unsigned
 defineHow
 =
 0
@@ -6072,7 +6070,6 @@ value
 getter
 setter
 attrs
-flags
 defineHow
 )
 ;

@@ -1685,7 +1685,6 @@ JS_StrictPropertyStub
 JSPROP_PERMANENT
 |
 JSPROP_READONLY
-0
 )
 )
 {
@@ -1878,7 +1877,6 @@ UndefinedHandleValue
 getter
 setter
 attrs
-0
 )
 )
 return

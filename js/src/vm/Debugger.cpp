@@ -4388,7 +4388,6 @@ value
 JS_PropertyStub
 JS_StrictPropertyStub
 JSPROP_ENUMERATE
-0
 )
 )
 {
@@ -24119,7 +24118,6 @@ nullptr
 JSPROP_PERMANENT
 |
 JSPROP_READONLY
-0
 )
 )
 {
@@ -24231,7 +24229,6 @@ JSPROP_ENUMERATE
 JSPROP_SHARED
 |
 JSPROP_GETTER
-0
 )
 )
 {
@@ -25942,7 +25939,6 @@ id
 val
 nullptr
 nullptr
-0
 0
 )
 )
