@@ -354,6 +354,9 @@ stlport
 DISABLE_STL_WRAPPING
 =
 True
+NO_VISIBILITY_FLAGS
+=
+True
 #
 Suppress
 warnings
