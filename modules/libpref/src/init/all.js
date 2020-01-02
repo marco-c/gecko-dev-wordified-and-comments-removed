@@ -13585,16 +13585,6 @@ pref
 "
 layout
 .
-enable_japanese_specific_transform
-"
-false
-)
-;
-pref
-(
-"
-layout
-.
 frames
 .
 force_resizability
