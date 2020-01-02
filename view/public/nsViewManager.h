@@ -35,7 +35,7 @@ h
 #
 include
 "
-nsVoidArray
+nsTArray
 .
 h
 "
@@ -803,11 +803,11 @@ bool
 mInScroll
 ;
 static
-int32_t
-mVMCount
-;
-static
-nsVoidArray
+nsTArray
+<
+nsViewManager
+*
+>
 *
 gViewManagers
 ;
