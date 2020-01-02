@@ -1301,14 +1301,6 @@ src
 /
 content
 /
-events
-/
-src
-'
-'
-/
-content
-/
 html
 /
 content
@@ -1328,6 +1320,12 @@ src
 '
 /
 dom
+'
+'
+/
+dom
+/
+events
 '
 '
 /

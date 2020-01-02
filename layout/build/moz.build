@@ -256,14 +256,6 @@ src
 /
 content
 /
-events
-/
-src
-'
-'
-/
-content
-/
 html
 /
 content
@@ -343,6 +335,12 @@ base
 dom
 /
 camera
+'
+'
+/
+dom
+/
+events
 '
 '
 /

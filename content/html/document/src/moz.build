@@ -199,14 +199,6 @@ src
 '
 '
 /
-content
-/
-events
-/
-src
-'
-'
-/
 docshell
 /
 base
@@ -216,6 +208,12 @@ base
 dom
 /
 base
+'
+'
+/
+dom
+/
+events
 '
 '
 /

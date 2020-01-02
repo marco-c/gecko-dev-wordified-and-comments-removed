@@ -406,14 +406,6 @@ src
 '
 '
 /
-content
-/
-events
-/
-src
-'
-'
-/
 db
 /
 sqlite3
@@ -425,6 +417,12 @@ src
 dom
 /
 base
+'
+'
+/
+dom
+/
+events
 '
 '
 /

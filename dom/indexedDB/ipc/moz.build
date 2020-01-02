@@ -235,11 +235,9 @@ LOCAL_INCLUDES
 [
 '
 /
-content
+dom
 /
 events
-/
-src
 '
 '
 /

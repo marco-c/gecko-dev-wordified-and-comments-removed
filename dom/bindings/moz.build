@@ -252,14 +252,6 @@ src
 /
 content
 /
-events
-/
-src
-'
-'
-/
-content
-/
 html
 /
 content
@@ -357,6 +349,12 @@ bluetooth
 dom
 /
 camera
+'
+'
+/
+dom
+/
+events
 '
 '
 /

@@ -75,11 +75,9 @@ I
 topsrcdir
 )
 /
-content
+dom
 /
 events
-/
-src
 \
 (
 NULL

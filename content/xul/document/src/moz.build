@@ -163,14 +163,6 @@ src
 /
 content
 /
-events
-/
-src
-'
-'
-/
-content
-/
 xml
 /
 document
@@ -208,6 +200,12 @@ base
 dom
 /
 base
+'
+'
+/
+dom
+/
+events
 '
 '
 /

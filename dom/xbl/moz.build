@@ -255,14 +255,6 @@ src
 /
 content
 /
-events
-/
-src
-'
-'
-/
-content
-/
 html
 /
 document
@@ -304,6 +296,12 @@ src
 dom
 /
 base
+'
+'
+/
+dom
+/
+events
 '
 '
 /

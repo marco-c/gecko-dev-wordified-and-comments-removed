@@ -172,10 +172,8 @@ gonk
 '
 '
 /
-content
+dom
 /
 events
-/
-src
 '
 ]

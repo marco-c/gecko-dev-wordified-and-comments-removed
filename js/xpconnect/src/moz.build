@@ -456,14 +456,6 @@ src
 /
 content
 /
-events
-/
-src
-'
-'
-/
-content
-/
 html
 /
 content
@@ -495,6 +487,12 @@ src
 dom
 /
 base
+'
+'
+/
+dom
+/
+events
 '
 '
 /

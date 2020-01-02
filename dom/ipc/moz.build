@@ -488,14 +488,6 @@ src
 /
 content
 /
-events
-/
-src
-'
-'
-/
-content
-/
 media
 /
 webspeech
@@ -535,6 +527,12 @@ ipc
 dom
 /
 devicestorage
+'
+'
+/
+dom
+/
+events
 '
 '
 /

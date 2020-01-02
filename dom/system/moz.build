@@ -339,14 +339,6 @@ LOCAL_INCLUDES
 [
 '
 /
-content
-/
-events
-/
-src
-'
-'
-/
 dom
 /
 base
@@ -356,6 +348,12 @@ base
 dom
 /
 bindings
+'
+'
+/
+dom
+/
+events
 '
 '
 /

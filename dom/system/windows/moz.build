@@ -114,11 +114,9 @@ LOCAL_INCLUDES
 [
 '
 /
-content
+dom
 /
 events
-/
-src
 '
 ]
 FAIL_ON_WARNINGS

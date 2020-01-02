@@ -136,14 +136,6 @@ src
 /
 content
 /
-events
-/
-src
-'
-'
-/
-content
-/
 html
 /
 document
@@ -169,6 +161,12 @@ xml
 document
 /
 src
+'
+'
+/
+dom
+/
+events
 '
 '
 /
