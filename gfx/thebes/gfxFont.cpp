@@ -31086,6 +31086,9 @@ IsClusterStart
 aBreakPriority
 <
 =
+gfxBreakPriority
+:
+:
 eWordWrapBreak
 ;
 if
@@ -31171,7 +31174,13 @@ hyphenation
 |
 lineBreakHere
 ?
+gfxBreakPriority
+:
+:
 eNormalBreak
+:
+gfxBreakPriority
+:
 :
 eWordWrapBreak
 ;

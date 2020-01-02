@@ -15694,6 +15694,9 @@ forceBreakOffset
 gfxBreakPriority
 forceBreakPriority
 =
+gfxBreakPriority
+:
+:
 eNoBreak
 ;
 do
@@ -16319,6 +16322,9 @@ GetContent
 )
 0
 true
+gfxBreakPriority
+:
+:
 eNormalBreak
 )
 )

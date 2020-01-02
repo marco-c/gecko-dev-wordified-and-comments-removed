@@ -583,6 +583,9 @@ mLastOptionalBreakContentOffset
 ;
 mLastOptionalBreakPriority
 =
+gfxBreakPriority
+:
+:
 eNoBreak
 ;
 }

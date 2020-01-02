@@ -39722,6 +39722,9 @@ GetHyphenWidth
 <
 =
 availWidth
+gfxBreakPriority
+:
+:
 eNormalBreak
 )
 ;
@@ -39813,6 +39816,9 @@ offset
 +
 length
 true
+gfxBreakPriority
+:
+:
 eNormalBreak
 )
 ;
