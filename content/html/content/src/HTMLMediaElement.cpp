@@ -16202,8 +16202,9 @@ mTextTrackManager
 mTextTrackManager
 -
 >
-UpdateCueDisplay
+Update
 (
+time
 )
 ;
 }
