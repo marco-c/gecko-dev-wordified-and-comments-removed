@@ -116,6 +116,11 @@ BluetoothDevice
 cpp
 '
 '
+BluetoothDiscoveryHandle
+.
+cpp
+'
+'
 BluetoothHidManager
 .
 cpp
@@ -520,6 +525,11 @@ h
 '
 '
 BluetoothDevice
+.
+h
+'
+'
+BluetoothDiscoveryHandle
 .
 h
 '
