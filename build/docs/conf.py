@@ -65,6 +65,14 @@ ext
 .
 autodoc
 '
+    
+'
+sphinx
+.
+ext
+.
+graphviz
+'
 ]
 templates_path
 =

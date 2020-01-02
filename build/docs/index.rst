@@ -118,6 +118,9 @@ toctree
 maxdepth
 :
 1
+build
+-
+overview
 Mozconfig
 Files
 <
@@ -129,6 +132,10 @@ Optimization
 <
 pgo
 >
+slow
+environment
+-
+variables
 mozbuild
 =
 =
