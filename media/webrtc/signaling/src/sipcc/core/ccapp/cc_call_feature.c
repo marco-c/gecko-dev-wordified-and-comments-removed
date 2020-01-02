@@ -1508,14 +1508,11 @@ cc_media_track_id_t
 track_id
 cc_media_type_t
 media_type
-)
-{
 cc_media_constraints_t
 *
 constraints
-=
-NULL
-;
+)
+{
 CCAPP_DEBUG
 (
 DEB_L_C_F_PREFIX

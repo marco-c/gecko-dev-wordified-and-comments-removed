@@ -401,6 +401,9 @@ OfferToReceiveVideo
 boolean
 MozDontOfferDataChannel
 ;
+boolean
+MozBundleOnly
+;
 }
 ;
 /

@@ -3056,6 +3056,16 @@ ccData
 .
 media_type
 ;
+featdata
+.
+track
+.
+constraints
+=
+ccData
+.
+constraints
+;
 cc_int_feature2
 (
 CC_MSG_ADDSTREAM

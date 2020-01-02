@@ -360,6 +360,9 @@ addStream
 (
 MediaStream
 stream
+optional
+MediaConstraintsInternal
+constraints
 )
 ;
 [

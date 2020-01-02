@@ -928,6 +928,10 @@ cc_rcc_skey_evt_type_e
 typedef
 enum
 {
+CC_INVALID_INDEX
+=
+-
+1
 CC_AUDIO_1
 CC_VIDEO_1
 CC_DATACHANNEL_1
@@ -1911,6 +1915,9 @@ pc_stream
 cc_media_track_id_t
 pc_track
 ;
+boolean
+bundle_only
+;
 }
 cc_media_cap_t
 ;
@@ -2068,6 +2075,10 @@ track_id
 ;
 cc_media_type_t
 media_type
+;
+cc_media_constraints_t
+*
+constraints
 ;
 }
 cc_feature_data_track_t

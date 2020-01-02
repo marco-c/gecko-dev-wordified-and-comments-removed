@@ -177,6 +177,9 @@ cc_media_track_id_t
 id
 cc_media_type_t
 media_type
+cc_media_constraints_t
+*
+constraints
 )
 ;
 cc_return_t
