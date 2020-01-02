@@ -366,11 +366,6 @@ searchbar
 -
 history
 "
-timeout
-=
-"
-250
-"
 maxrows
 =
 "
