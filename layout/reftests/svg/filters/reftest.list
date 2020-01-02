@@ -1079,7 +1079,6 @@ feDropShadow
 ref
 .
 svg
-pass
 =
 =
 feGaussianBlur
