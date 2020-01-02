@@ -213,10 +213,10 @@ available_timestamp
 =
 0
 ;
-int
+bool
 is_cng_packet
 =
-0
+false
 ;
 if
 (
@@ -306,9 +306,11 @@ play_dtmf
 else
 if
 (
+IsNewerTimestamp
+(
 available_timestamp
->
 target_timestamp
+)
 )
 {
 return

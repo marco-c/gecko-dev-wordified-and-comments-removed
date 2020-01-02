@@ -48,6 +48,9 @@ h
 namespace
 webrtc
 {
+namespace
+acm2
+{
 ACMRED
 :
 :
@@ -146,5 +149,6 @@ DestructEncoderSafe
 (
 )
 {
+}
 }
 }

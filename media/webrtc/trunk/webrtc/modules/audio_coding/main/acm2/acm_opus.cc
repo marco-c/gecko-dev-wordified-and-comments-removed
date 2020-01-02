@@ -89,6 +89,9 @@ endif
 namespace
 webrtc
 {
+namespace
+acm2
+{
 #
 ifndef
 WEBRTC_CODEC_OPUS
@@ -731,4 +734,5 @@ return
 }
 #
 endif
+}
 }

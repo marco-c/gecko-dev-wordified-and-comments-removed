@@ -95,9 +95,6 @@ input
 size_t
 input_len
 AudioMultiVector
-<
-int16_t
->
 *
 output
 int16_t

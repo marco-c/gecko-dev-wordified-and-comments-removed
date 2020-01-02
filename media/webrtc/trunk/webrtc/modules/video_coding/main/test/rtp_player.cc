@@ -1238,6 +1238,9 @@ ssrc
 LostPackets
 *
 lost_packets
+Clock
+*
+clock
 )
 {
 if
@@ -1330,6 +1333,12 @@ RtpRtcp
 :
 Configuration
 configuration
+;
+configuration
+.
+clock
+=
+clock
 ;
 configuration
 .
@@ -1956,10 +1965,6 @@ clock_
 (
 clock
 )
-packet_source_
-(
-NULL
-)
 next_rtp_time_
 (
 0
@@ -2553,6 +2558,7 @@ RegisterSsrc
 ssrc
 &
 lost_packets_
+clock_
 )
 <
 0

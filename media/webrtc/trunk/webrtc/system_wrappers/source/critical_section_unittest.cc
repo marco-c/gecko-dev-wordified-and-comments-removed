@@ -291,6 +291,7 @@ TEST_F
 CritSectTest
 ThreadWakesOnce
 )
+NO_THREAD_SAFETY_ANALYSIS
 {
 CriticalSectionWrapper
 *
@@ -437,6 +438,7 @@ TEST_F
 CritSectTest
 ThreadWakesTwice
 )
+NO_THREAD_SAFETY_ANALYSIS
 {
 CriticalSectionWrapper
 *

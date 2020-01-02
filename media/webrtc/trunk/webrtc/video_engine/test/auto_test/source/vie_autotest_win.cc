@@ -251,7 +251,7 @@ _hwnd2
 {
 ViEDestroyWindow
 (
-_hwnd1
+_hwnd2
 )
 ;
 }

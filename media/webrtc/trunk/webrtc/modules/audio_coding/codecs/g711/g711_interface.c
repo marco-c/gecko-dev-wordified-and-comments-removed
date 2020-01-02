@@ -102,7 +102,7 @@ n
 ;
 #
 ifdef
-WEBRTC_BIG_ENDIAN
+WEBRTC_ARCH_BIG_ENDIAN
 if
 (
 (
@@ -311,7 +311,7 @@ n
 ;
 #
 ifdef
-WEBRTC_BIG_ENDIAN
+WEBRTC_ARCH_BIG_ENDIAN
 if
 (
 (
@@ -488,7 +488,7 @@ n
 {
 #
 ifdef
-WEBRTC_BIG_ENDIAN
+WEBRTC_ARCH_BIG_ENDIAN
 if
 (
 (
@@ -679,7 +679,7 @@ n
 {
 #
 ifdef
-WEBRTC_BIG_ENDIAN
+WEBRTC_ARCH_BIG_ENDIAN
 if
 (
 (

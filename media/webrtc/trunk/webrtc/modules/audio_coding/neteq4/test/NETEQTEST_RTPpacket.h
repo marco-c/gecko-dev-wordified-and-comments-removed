@@ -130,6 +130,7 @@ uint8_t
 pt
 )
 ;
+virtual
 void
 parseHeader
 (

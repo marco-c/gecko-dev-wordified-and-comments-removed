@@ -122,7 +122,7 @@ return
 ;
 }
 int32_t
-FillCapabilityMap
+FillCapabilities
 (
 int
 fd

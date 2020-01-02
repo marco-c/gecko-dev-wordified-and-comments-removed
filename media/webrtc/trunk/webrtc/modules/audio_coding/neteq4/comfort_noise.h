@@ -130,9 +130,6 @@ Generate
 size_t
 requested_length
 AudioMultiVector
-<
-int16_t
->
 *
 output
 )

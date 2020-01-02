@@ -45,6 +45,9 @@ G722_1_Inst_t_
 namespace
 webrtc
 {
+namespace
+acm2
+{
 class
 ACMG722_1
 :
@@ -148,6 +151,7 @@ encoder_inst32_ptr_right_
 ;
 }
 ;
+}
 }
 #
 endif

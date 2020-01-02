@@ -10096,12 +10096,16 @@ int16_t
 encoded
 )
 ;
+assert
+(
 cdlen
+=
 =
 frameLen
 >
 >
 1
+)
 ;
 }
 #

@@ -112,8 +112,14 @@ namespace
 webrtc
 {
 struct
+WebRtcACMCodecParams
+;
+struct
 CodecInst
 ;
+namespace
+acm2
+{
 class
 AcmReceiver
 ;
@@ -768,6 +774,7 @@ unique_id_
 ;
 }
 ;
+}
 }
 #
 endif

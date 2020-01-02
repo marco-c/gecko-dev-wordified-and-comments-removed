@@ -63,6 +63,8 @@ BitrateController
 *
 CreateBitrateController
 (
+bool
+enforce_min_bitrate
 )
 ;
 virtual
@@ -120,6 +122,16 @@ RemoveBitrateObserver
 BitrateObserver
 *
 observer
+)
+=
+0
+;
+virtual
+void
+EnforceMinBitrate
+(
+bool
+enforce_min_bitrate
 )
 =
 0

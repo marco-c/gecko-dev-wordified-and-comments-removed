@@ -125,9 +125,6 @@ int16_t
 *
 external_mute_factor_array
 AudioMultiVector
-<
-int16_t
->
 *
 output
 )
@@ -184,9 +181,6 @@ expand_period
 )
 ;
 AudioMultiVector
-<
-int16_t
->
 input_vector
 (
 num_channels_
@@ -806,9 +800,6 @@ old_length
 )
 ;
 AudioMultiVector
-<
-int16_t
->
 expanded_temp
 (
 num_channels_

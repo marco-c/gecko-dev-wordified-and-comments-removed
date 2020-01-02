@@ -30,6 +30,9 @@ G729_1_inst_t_
 namespace
 webrtc
 {
+namespace
+acm2
+{
 class
 ACMG729_1
 :
@@ -119,6 +122,7 @@ flag_g729_mode_
 ;
 }
 ;
+}
 }
 #
 endif

@@ -297,6 +297,17 @@ ExternalRenderer
 external_renderer
 )
 ;
+int32_t
+SetVideoRenderCallback
+(
+const
+int32_t
+render_id
+VideoRenderCallback
+*
+callback
+)
+;
 private
 :
 ViERenderer

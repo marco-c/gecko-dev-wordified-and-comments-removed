@@ -134,14 +134,6 @@ LOCAL_SRC_FILES
 :
 =
 \
-android
-/
-cpu
--
-features
-.
-c
-\
 cpu_features_android
 .
 c
@@ -281,6 +273,10 @@ libcutils
 libdl
 \
 libstlport
+LOCAL_STATIC_LIBRARIES
+:
+=
+cpufeatures
 ifndef
 NDK_ROOT
 include

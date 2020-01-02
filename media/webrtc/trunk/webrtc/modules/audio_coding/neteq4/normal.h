@@ -141,9 +141,6 @@ int16_t
 *
 external_mute_factor_array
 AudioMultiVector
-<
-int16_t
->
 *
 output
 )

@@ -831,8 +831,6 @@ codec_
 .
 height
 )
-+
-100
 ;
 encoded_image_
 .

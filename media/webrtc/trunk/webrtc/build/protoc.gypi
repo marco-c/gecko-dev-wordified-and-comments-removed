@@ -995,11 +995,6 @@ py_dir
 '
 ]
 '
-msvs_cygwin_shell
-'
-:
-0
-'
 message
 '
 :

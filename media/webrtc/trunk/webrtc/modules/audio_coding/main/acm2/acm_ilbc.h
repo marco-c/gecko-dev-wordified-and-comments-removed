@@ -30,6 +30,9 @@ iLBC_decinst_t_
 namespace
 webrtc
 {
+namespace
+acm2
+{
 class
 ACMILBC
 :
@@ -110,6 +113,7 @@ encoder_inst_ptr_
 ;
 }
 ;
+}
 }
 #
 endif

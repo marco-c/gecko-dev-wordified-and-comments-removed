@@ -39,6 +39,13 @@ fp
 )
 OVERRIDE
 ;
+virtual
+void
+parseHeader
+(
+)
+OVERRIDE
+;
 }
 ;
 #

@@ -33,6 +33,9 @@ namespace
 webrtc
 {
 namespace
+acm2
+{
+namespace
 {
 const
 uint8_t
@@ -1773,5 +1776,6 @@ buffering
 )
 )
 ;
+}
 }
 }

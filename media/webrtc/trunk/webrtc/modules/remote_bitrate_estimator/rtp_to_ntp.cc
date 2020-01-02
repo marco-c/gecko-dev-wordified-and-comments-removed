@@ -39,14 +39,6 @@ webrtc
 namespace
 synchronization
 {
-const
-double
-kNtpFracPerMs
-=
-4
-.
-294967296E6
-;
 RtcpMeasurement
 :
 :

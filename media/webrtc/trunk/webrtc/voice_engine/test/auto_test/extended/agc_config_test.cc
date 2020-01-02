@@ -58,7 +58,7 @@ default_agc_config_
 TEST_F
 (
 AgcConfigTest
-HasCorrectDefaultConfiguration
+DISABLED_HasCorrectDefaultConfiguration
 )
 {
 webrtc
@@ -113,7 +113,7 @@ limiterEnable
 TEST_F
 (
 AgcConfigTest
-DealsWithInvalidParameters
+DISABLED_DealsWithInvalidParameters
 )
 {
 webrtc
@@ -230,7 +230,7 @@ LastError
 TEST_F
 (
 AgcConfigTest
-CanGetAndSetAgcStatus
+DISABLED_CanGetAndSetAgcStatus
 )
 {
 webrtc
@@ -321,7 +321,7 @@ targetLeveldBOv
 TEST_F
 (
 AgcConfigTest
-HasCorrectDefaultRxConfiguration
+DISABLED_HasCorrectDefaultRxConfiguration
 )
 {
 webrtc
@@ -377,7 +377,7 @@ limiterEnable
 TEST_F
 (
 AgcConfigTest
-DealsWithInvalidRxParameters
+DISABLED_DealsWithInvalidRxParameters
 )
 {
 webrtc
@@ -493,7 +493,7 @@ LastError
 TEST_F
 (
 AgcConfigTest
-CanGetAndSetRxAgcStatus
+DISABLED_CanGetAndSetRxAgcStatus
 )
 {
 webrtc

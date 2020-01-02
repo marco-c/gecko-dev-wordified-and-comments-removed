@@ -32,7 +32,7 @@ webrtc
 #
 define
 MAX_HISTORY_SIZE
-20
+10
 #
 define
 SHORT_FILTER_MS
@@ -127,8 +127,8 @@ nowMs
 int32_t
 _filteredMax
 ;
-bool
-_firstDecodeTime
+int32_t
+_ignoredSampleCount
 ;
 int32_t
 _shortMax

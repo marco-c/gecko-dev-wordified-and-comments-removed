@@ -50,6 +50,9 @@ h
 namespace
 webrtc
 {
+namespace
+acm2
+{
 class
 ACMCodecDB
 {
@@ -831,6 +834,7 @@ kMaxNumCodecs
 ;
 }
 ;
+}
 }
 #
 endif

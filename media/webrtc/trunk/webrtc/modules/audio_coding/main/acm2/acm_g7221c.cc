@@ -91,6 +91,9 @@ endif
 namespace
 webrtc
 {
+namespace
+acm2
+{
 #
 ifndef
 WEBRTC_CODEC_G722_1C
@@ -1167,4 +1170,5 @@ return
 }
 #
 endif
+}
 }

@@ -1,9 +1,9 @@
 #
 ifndef
-VPM_COLOR_ENHANCEMENT_PRIVATE_H
+WEBRTC_MODULES_VIDEO_PROCESSING_MAIN_SOURCE_COLOR_ENHANCEMENT_PRIVATE_H_
 #
 define
-VPM_COLOR_ENHANCEMENT_PRIVATE_H
+WEBRTC_MODULES_VIDEO_PROCESSING_MAIN_SOURCE_COLOR_ENHANCEMENT_PRIVATE_H_
 #
 include
 "
@@ -15,6 +15,9 @@ h
 "
 namespace
 webrtc
+{
+namespace
+VideoProcessing
 {
 static
 const
@@ -66078,6 +66081,7 @@ colorTable
 }
 }
 ;
+}
 }
 #
 endif

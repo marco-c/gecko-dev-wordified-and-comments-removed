@@ -62,7 +62,7 @@ NULL
 )
 {
 }
-MOCK_METHOD5
+MOCK_METHOD6
 (
 SendPacket
 bool
@@ -77,6 +77,8 @@ int64_t
 capture_time_ms
 int
 bytes
+bool
+retransmission
 )
 )
 ;

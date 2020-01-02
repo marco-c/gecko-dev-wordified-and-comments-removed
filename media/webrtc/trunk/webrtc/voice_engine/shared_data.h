@@ -303,8 +303,13 @@ _audioDeviceLayer
 layer
 ;
 }
-uint16_t
+int
 NumOfSendingChannels
+(
+)
+;
+int
+NumOfPlayingChannels
 (
 )
 ;

@@ -838,6 +838,9 @@ endif
 namespace
 webrtc
 {
+namespace
+acm2
+{
 const
 CodecInst
 ACMCodecDB
@@ -1774,9 +1777,12 @@ endif
 ifdef
 WEBRTC_CODEC_OPUS
 {
-1
+4
 {
+480
 960
+1920
+2880
 }
 0
 2
@@ -4511,5 +4517,6 @@ codec_id
 .
 owns_decoder
 ;
+}
 }
 }

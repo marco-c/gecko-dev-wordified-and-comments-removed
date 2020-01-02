@@ -32,6 +32,18 @@ video_capture_defines
 .
 h
 "
+#
+ifdef
+ANDROID
+#
+include
+<
+jni
+.
+h
+>
+#
+endif
 namespace
 webrtc
 {
@@ -39,7 +51,7 @@ webrtc
 if
 defined
 (
-WEBRTC_ANDROID
+ANDROID
 )
 &
 &
@@ -51,12 +63,9 @@ WEBRTC_CHROMIUM_BUILD
 int32_t
 SetCaptureAndroidVM
 (
-void
+JavaVM
 *
 javaVM
-void
-*
-javaContext
 )
 ;
 #
@@ -273,7 +282,7 @@ VideoCaptureEncodeInterface
 }
 ;
 virtual
-int32_t
+void
 RegisterCaptureDataCallback
 (
 VideoCaptureDataCallback
@@ -284,7 +293,7 @@ dataCallback
 0
 ;
 virtual
-int32_t
+void
 DeRegisterCaptureDataCallback
 (
 )
@@ -292,7 +301,7 @@ DeRegisterCaptureDataCallback
 0
 ;
 virtual
-int32_t
+void
 RegisterCaptureCallback
 (
 VideoCaptureFeedBack
@@ -303,7 +312,7 @@ callBack
 0
 ;
 virtual
-int32_t
+void
 DeRegisterCaptureCallback
 (
 )
@@ -361,7 +370,7 @@ settings
 0
 ;
 virtual
-int32_t
+void
 SetCaptureDelay
 (
 int32_t
@@ -402,7 +411,7 @@ codec
 0
 ;
 virtual
-int32_t
+void
 EnableFrameRateCallback
 (
 const
@@ -413,7 +422,7 @@ enable
 0
 ;
 virtual
-int32_t
+void
 EnableNoPictureAlarm
 (
 const

@@ -1719,7 +1719,7 @@ NULL
 _vpm
 -
 >
-SetMaxFrameRate
+SetMaxFramerate
 (
 (
 uint32_t

@@ -1,0 +1,9 @@
+namespace
+webrtc
+{
+bool
+IsOSLionOrLater
+(
+)
+;
+}

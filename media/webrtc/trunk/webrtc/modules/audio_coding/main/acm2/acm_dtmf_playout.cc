@@ -70,6 +70,9 @@ endif
 namespace
 webrtc
 {
+namespace
+acm2
+{
 #
 ifndef
 WEBRTC_CODEC_AVT
@@ -287,4 +290,5 @@ return
 }
 #
 endif
+}
 }

@@ -2692,7 +2692,6 @@ _audioFrame
 }
 APMAnalyzeReverseStream
 (
-_audioFrame
 )
 ;
 if
@@ -2768,9 +2767,6 @@ OutputMixer
 :
 APMAnalyzeReverseStream
 (
-AudioFrame
-&
-audioFrame
 )
 {
 AudioFrame
@@ -2797,7 +2793,7 @@ if
 (
 RemixAndResample
 (
-audioFrame
+_audioFrame
 &
 audioproc_resampler_
 &

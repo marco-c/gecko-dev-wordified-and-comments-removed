@@ -203,7 +203,7 @@ ExpectReturnOfTypicalAudioPayload
 (
 uint8_t
 payload_type
-int
+uint32_t
 rate
 )
 {

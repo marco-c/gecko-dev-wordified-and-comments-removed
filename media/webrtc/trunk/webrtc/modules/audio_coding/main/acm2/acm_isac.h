@@ -24,6 +24,9 @@ h
 namespace
 webrtc
 {
+namespace
+acm2
+{
 struct
 ACMISACInst
 ;
@@ -278,6 +281,7 @@ decoder_initialized_
 ;
 }
 ;
+}
 }
 #
 endif

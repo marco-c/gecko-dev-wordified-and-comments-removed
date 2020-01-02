@@ -130,6 +130,9 @@ namespace
 webrtc
 {
 class
+Config
+;
+class
 OpusTest
 :
 public
@@ -137,8 +140,13 @@ ACMTest
 {
 public
 :
+explicit
 OpusTest
 (
+const
+Config
+&
+config
 )
 ;
 ~

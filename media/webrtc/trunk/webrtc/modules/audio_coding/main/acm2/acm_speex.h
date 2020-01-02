@@ -30,6 +30,9 @@ SPEEX_decinst_t_
 namespace
 webrtc
 {
+namespace
+acm2
+{
 class
 ACMSPEEX
 :
@@ -157,6 +160,7 @@ samples_in_20ms_audio_
 ;
 }
 ;
+}
 }
 #
 endif

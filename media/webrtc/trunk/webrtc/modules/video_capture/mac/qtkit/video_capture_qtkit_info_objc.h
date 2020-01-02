@@ -68,6 +68,10 @@ NSArray
 *
 _captureDevicesInfo
 ;
+NSAutoreleasePool
+*
+_poolInfo
+;
 int
 _captureDeviceCountInfo
 ;

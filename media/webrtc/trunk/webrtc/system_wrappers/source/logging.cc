@@ -269,7 +269,10 @@ str
 (
 )
 ;
-WEBRTC_TRACE
+Trace
+:
+:
+Add
 (
 WebRtcSeverity
 (

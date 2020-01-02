@@ -84,6 +84,9 @@ h
 namespace
 webrtc
 {
+namespace
+acm2
+{
 ACMCNG
 :
 :
@@ -293,5 +296,6 @@ ptr_inst
 }
 return
 ;
+}
 }
 }

@@ -144,6 +144,9 @@ lastSeqNo
 uint32_t
 lastTimeStamp
 ;
+int
+firstPacketReceived
+;
 int32_t
 sampleMemory
 ;

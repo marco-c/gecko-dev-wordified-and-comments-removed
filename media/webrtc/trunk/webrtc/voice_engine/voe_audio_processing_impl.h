@@ -359,6 +359,15 @@ fileNameUTF8
 ;
 virtual
 int
+StartDebugRecording
+(
+FILE
+*
+file_handle
+)
+;
+virtual
+int
 StopDebugRecording
 (
 )

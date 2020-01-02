@@ -95,6 +95,13 @@ timestamp
 )
 {
 }
+virtual
+int
+CurrentLayerId
+(
+)
+const
+;
 private
 :
 enum

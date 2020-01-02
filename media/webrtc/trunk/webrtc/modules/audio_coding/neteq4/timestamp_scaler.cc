@@ -335,7 +335,10 @@ numerator_
 /
 denominator_
 ;
-NETEQ_LOG_VERBOSE
+LOG
+(
+LS_VERBOSE
+)
 <
 <
 "

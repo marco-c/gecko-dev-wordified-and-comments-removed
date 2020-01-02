@@ -22,13 +22,7 @@ h
 if
 defined
 (
-WEBRTC_LINUX
-)
-|
-|
-defined
-(
-WEBRTC_MAC
+WEBRTC_POSIX
 )
 #
 define

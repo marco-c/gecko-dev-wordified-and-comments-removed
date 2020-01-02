@@ -104,11 +104,6 @@ char
 *
 argv
 )
-:
-trace_to_stderr_
-(
-NULL
-)
 {
 SetExecutablePath
 (

@@ -713,7 +713,7 @@ WEBRTC_ANDROID
 TEST_F
 (
 AudioProcessingTest
-AgcIsOnByDefault
+DISABLED_AgcIsOnByDefault
 )
 {
 bool
@@ -763,7 +763,7 @@ agc_mode
 TEST_F
 (
 AudioProcessingTest
-CanEnableAgcWithAllModes
+DISABLED_CanEnableAgcWithAllModes
 )
 {
 TryEnablingAgcWithMode
@@ -1260,7 +1260,7 @@ false
 TEST_F
 (
 AudioProcessingTest
-RxAgcShouldBeOffByDefault
+DISABLED_RxAgcShouldBeOffByDefault
 )
 {
 bool
@@ -1311,7 +1311,7 @@ agc_mode
 TEST_F
 (
 AudioProcessingTest
-CanTurnOnDigitalRxAcg
+DISABLED_CanTurnOnDigitalRxAcg
 )
 {
 TryEnablingRxAgcWithMode
@@ -1334,7 +1334,7 @@ kAgcFixedDigital
 TEST_F
 (
 AudioProcessingTest
-CannotTurnOnAdaptiveAnalogRxAgc
+DISABLED_CannotTurnOnAdaptiveAnalogRxAgc
 )
 {
 EXPECT_EQ

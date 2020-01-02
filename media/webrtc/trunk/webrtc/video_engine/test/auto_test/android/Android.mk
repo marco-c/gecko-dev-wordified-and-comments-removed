@@ -206,14 +206,6 @@ java
 MY_CAPTURE_PATH
 )
 /
-CaptureCapabilityAndroid
-.
-java
-\
-(
-MY_CAPTURE_PATH
-)
-/
 VideoCaptureAndroid
 .
 java

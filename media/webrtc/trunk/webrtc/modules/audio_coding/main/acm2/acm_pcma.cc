@@ -67,6 +67,9 @@ h
 namespace
 webrtc
 {
+namespace
+acm2
+{
 ACMPCMA
 :
 :
@@ -205,5 +208,6 @@ DestructEncoderSafe
 {
 return
 ;
+}
 }
 }

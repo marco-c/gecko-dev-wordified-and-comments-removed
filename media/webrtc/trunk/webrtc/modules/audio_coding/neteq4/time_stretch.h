@@ -203,9 +203,6 @@ input
 size_t
 input_len
 AudioMultiVector
-<
-int16_t
->
 *
 output
 int16_t
@@ -249,9 +246,6 @@ best_correlation
 bool
 active_speech
 AudioMultiVector
-<
-int16_t
->
 *
 output
 )

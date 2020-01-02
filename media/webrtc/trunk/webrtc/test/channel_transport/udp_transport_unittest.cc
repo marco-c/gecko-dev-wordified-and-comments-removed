@@ -492,13 +492,6 @@ sockets_created_
 ;
 }
 ;
-#
-if
-!
-defined
-(
-THREAD_SANITIZER
-)
 TEST_F
 (
 UDPTransportTest
@@ -537,8 +530,6 @@ transport
 )
 ;
 }
-#
-endif
 TEST_F
 (
 UDPTransportTest

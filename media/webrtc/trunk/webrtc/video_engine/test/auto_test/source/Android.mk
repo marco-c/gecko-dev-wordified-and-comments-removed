@@ -157,10 +157,6 @@ vie_autotest_codec
 .
 cc
 \
-vie_autotest_encryption
-.
-cc
-\
 vie_autotest_file
 .
 cc

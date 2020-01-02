@@ -460,7 +460,7 @@ NULL
 ;
 #
 ifdef
-WEBRTC_BIG_ENDIAN
+WEBRTC_ARCH_BIG_ENDIAN
 WEBRTC_TRACE
 (
 level
@@ -4943,7 +4943,7 @@ kLinearPCMFormatFlagIsPacked
 ;
 #
 ifdef
-WEBRTC_BIG_ENDIAN
+WEBRTC_ARCH_BIG_ENDIAN
 _outDesiredFormat
 .
 mFormatFlags
@@ -5949,7 +5949,7 @@ kLinearPCMFormatFlagIsPacked
 ;
 #
 ifdef
-WEBRTC_BIG_ENDIAN
+WEBRTC_ARCH_BIG_ENDIAN
 _inDesiredFormat
 .
 mFormatFlags

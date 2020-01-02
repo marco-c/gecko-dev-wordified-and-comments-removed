@@ -30,6 +30,9 @@ AMRWB_decinst_t_
 namespace
 webrtc
 {
+namespace
+acm2
+{
 class
 ACMAMRwb
 :
@@ -157,6 +160,7 @@ encoder_packing_format_
 ;
 }
 ;
+}
 }
 #
 endif

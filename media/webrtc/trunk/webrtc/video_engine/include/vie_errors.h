@@ -93,12 +93,6 @@ kViERtpRtcpRtcpDisabled
 kViERtpRtcpObserverAlreadyRegistered
 kViERtpRtcpObserverNotRegistered
 kViERtpRtcpUnknownError
-kViEEncryptionInvalidChannelId
-=
-12700
-kViEEncryptionInvalidSrtpParameter
-kViEEncryptionSrtpNotSupported
-kViEEncryptionUnknownError
 kViEImageProcessInvalidChannelId
 =
 12800

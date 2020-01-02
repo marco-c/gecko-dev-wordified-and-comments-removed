@@ -470,7 +470,7 @@ encoded
 ;
 #
 ifdef
-WEBRTC_BIG_ENDIAN
+WEBRTC_ARCH_BIG_ENDIAN
 value
 =
 (

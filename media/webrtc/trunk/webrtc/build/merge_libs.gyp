@@ -107,13 +107,11 @@ merge_libs_dependencies
 .
 .
 /
-video_engine
-/
-video_engine
+webrtc
 .
 gyp
 :
-video_engine_core
+webrtc
 '
 ]
 }
@@ -201,7 +199,7 @@ output_lib_name
 '
 :
 '
-webrtc
+webrtc_merged
 '
 '
 output_lib
@@ -297,10 +295,5 @@ output_lib
 }
 ]
 }
-#
-}
-]
-#
-]
 ]
 }

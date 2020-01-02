@@ -27,8 +27,11 @@ RemoteRateControl
 {
 public
 :
+explicit
 RemoteRateControl
 (
+uint32_t
+min_bitrate_bps
 )
 ;
 ~

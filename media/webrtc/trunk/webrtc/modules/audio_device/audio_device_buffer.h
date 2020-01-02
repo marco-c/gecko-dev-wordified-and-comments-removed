@@ -105,6 +105,7 @@ InitRecording
 (
 )
 ;
+virtual
 int32_t
 SetRecordingSampleRate
 (
@@ -112,6 +113,7 @@ uint32_t
 fsHz
 )
 ;
+virtual
 int32_t
 SetPlayoutSampleRate
 (
@@ -131,6 +133,7 @@ PlayoutSampleRate
 )
 const
 ;
+virtual
 int32_t
 SetRecordingChannels
 (
@@ -138,6 +141,7 @@ uint8_t
 channels
 )
 ;
+virtual
 int32_t
 SetPlayoutChannels
 (
@@ -180,6 +184,7 @@ channel
 )
 const
 ;
+virtual
 int32_t
 SetRecordedBuffer
 (
@@ -198,6 +203,7 @@ uint32_t
 level
 )
 ;
+virtual
 void
 SetVQEData
 (
@@ -209,6 +215,7 @@ int
 clockDrift
 )
 ;
+virtual
 int32_t
 DeliverRecordedData
 (

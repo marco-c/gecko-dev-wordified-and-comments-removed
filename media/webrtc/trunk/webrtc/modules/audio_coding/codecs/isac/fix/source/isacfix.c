@@ -1001,7 +1001,7 @@ stream_len
 ;
 #
 ifndef
-WEBRTC_BIG_ENDIAN
+WEBRTC_ARCH_BIG_ENDIAN
 int
 k
 ;
@@ -1091,7 +1091,7 @@ return
 }
 #
 ifndef
-WEBRTC_BIG_ENDIAN
+WEBRTC_ARCH_BIG_ENDIAN
 for
 (
 k
@@ -1390,7 +1390,7 @@ return
 }
 #
 ifndef
-WEBRTC_BIG_ENDIAN
+WEBRTC_ARCH_BIG_ENDIAN
 for
 (
 k
@@ -1526,7 +1526,7 @@ stream_len
 ;
 #
 ifndef
-WEBRTC_BIG_ENDIAN
+WEBRTC_ARCH_BIG_ENDIAN
 int
 k
 ;
@@ -1604,7 +1604,7 @@ return
 }
 #
 ifndef
-WEBRTC_BIG_ENDIAN
+WEBRTC_ARCH_BIG_ENDIAN
 for
 (
 k
@@ -1839,7 +1839,7 @@ partOfStream
 ;
 #
 ifndef
-WEBRTC_BIG_ENDIAN
+WEBRTC_ARCH_BIG_ENDIAN
 int
 k
 ;
@@ -1966,7 +1966,7 @@ full
 ;
 #
 ifndef
-WEBRTC_BIG_ENDIAN
+WEBRTC_ARCH_BIG_ENDIAN
 for
 (
 k
@@ -2111,7 +2111,7 @@ partOfStream
 ;
 #
 ifndef
-WEBRTC_BIG_ENDIAN
+WEBRTC_ARCH_BIG_ENDIAN
 int
 k
 ;
@@ -2238,7 +2238,7 @@ full
 ;
 #
 ifndef
-WEBRTC_BIG_ENDIAN
+WEBRTC_ARCH_BIG_ENDIAN
 for
 (
 k
@@ -2374,7 +2374,7 @@ number_of_samples
 ;
 #
 ifndef
-WEBRTC_BIG_ENDIAN
+WEBRTC_ARCH_BIG_ENDIAN
 int
 k
 ;
@@ -2486,7 +2486,7 @@ encoded
 ;
 #
 ifndef
-WEBRTC_BIG_ENDIAN
+WEBRTC_ARCH_BIG_ENDIAN
 for
 (
 k
@@ -2811,7 +2811,7 @@ number_of_samples
 ;
 #
 ifndef
-WEBRTC_BIG_ENDIAN
+WEBRTC_ARCH_BIG_ENDIAN
 int
 k
 ;
@@ -2906,7 +2906,7 @@ encoded
 ;
 #
 ifndef
-WEBRTC_BIG_ENDIAN
+WEBRTC_ARCH_BIG_ENDIAN
 for
 (
 k
@@ -4025,7 +4025,7 @@ partOfStream
 ;
 #
 ifndef
-WEBRTC_BIG_ENDIAN
+WEBRTC_ARCH_BIG_ENDIAN
 int
 k
 ;
@@ -4070,7 +4070,7 @@ full
 ;
 #
 ifndef
-WEBRTC_BIG_ENDIAN
+WEBRTC_ARCH_BIG_ENDIAN
 for
 (
 k
@@ -4184,7 +4184,7 @@ partOfStream
 ;
 #
 ifndef
-WEBRTC_BIG_ENDIAN
+WEBRTC_ARCH_BIG_ENDIAN
 int
 k
 ;
@@ -4229,7 +4229,7 @@ full
 ;
 #
 ifndef
-WEBRTC_BIG_ENDIAN
+WEBRTC_ARCH_BIG_ENDIAN
 for
 (
 k

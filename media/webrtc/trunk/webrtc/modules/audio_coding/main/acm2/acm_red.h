@@ -24,6 +24,9 @@ h
 namespace
 webrtc
 {
+namespace
+acm2
+{
 class
 ACMRED
 :
@@ -92,6 +95,7 @@ ptr_inst
 ;
 }
 ;
+}
 }
 #
 endif

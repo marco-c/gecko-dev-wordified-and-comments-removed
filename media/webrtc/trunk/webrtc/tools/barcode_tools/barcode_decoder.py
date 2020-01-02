@@ -4,6 +4,30 @@ import
 os
 import
 sys
+if
+__name__
+=
+=
+'
+__main__
+'
+:
+  
+sys
+.
+path
+.
+append
+(
+os
+.
+path
+.
+dirname
+(
+__file__
+)
+)
 import
 helper_functions
 sys
@@ -21,9 +45,7 @@ yuv_frame_width
 yuv_frame_height
                              
 output_directory
-ffmpeg_dir
-=
-None
+ffmpeg_path
 )
 :
   
@@ -133,23 +155,23 @@ be
 stored
 .
     
-ffmpeg_dir
+ffmpeg_path
 (
 string
 )
 :
 The
-directory
-containing
+path
+to
 the
 ffmpeg
 executable
 .
 If
-      
-omitted
+None
 the
 PATH
+      
 will
 be
 searched
@@ -210,7 +232,12 @@ png
 '
 )
   
-ffmpeg_executable
+if
+not
+ffmpeg_path
+:
+    
+ffmpeg_path
 =
 '
 ffmpeg
@@ -231,26 +258,10 @@ else
 ffmpeg
 '
   
-if
-ffmpeg_dir
-:
-    
-ffmpeg_executable
-=
-os
-.
-path
-.
-join
-(
-ffmpeg_dir
-ffmpeg_executable
-)
-  
 command
 =
 [
-ffmpeg_executable
+ffmpeg_path
 '
 -
 s
@@ -394,7 +405,7 @@ it
 ?
 '
 %
-ffmpeg_executable
+ffmpeg_path
 )
     
 return
@@ -406,9 +417,7 @@ def
 decode_frames
 (
 input_directory
-zxing_dir
-=
-None
+zxing_path
 )
 :
   
@@ -549,21 +558,23 @@ are
 read
 .
     
-zxing_dir
+zxing_path
 (
 string
 )
 :
 The
-directory
-containing
+path
+to
 the
 zxing
-executable
+binary
 .
 If
+specified
+as
+None
       
-omitted
 the
 PATH
 will
@@ -584,16 +595,19 @@ True
 if
 the
 decoding
-went
-without
-errors
+succeeded
 .
   
 "
 "
 "
   
-zxing_executable
+if
+not
+zxing_path
+:
+    
+zxing_path
 =
 '
 zxing
@@ -614,22 +628,6 @@ else
 zxing
 '
   
-if
-zxing_dir
-:
-    
-zxing_executable
-=
-os
-.
-path
-.
-join
-(
-zxing_dir
-zxing_executable
-)
-  
 print
 '
 Decoding
@@ -645,7 +643,7 @@ s
 .
 '
 %
-zxing_executable
+zxing_path
   
 return
 helper_functions
@@ -676,7 +674,7 @@ _decode_barcode_in_file
       
 command_line_decoder
 =
-zxing_executable
+zxing_path
 )
 def
 _decode_barcode_in_file
@@ -795,24 +793,6 @@ s
 '
 %
 file_name
-)
-    
-print
-'
-Image
-%
-s
-:
-decoded
-barcode
-:
-%
-s
-'
-%
-(
-file_name
-out
 )
     
 text_file
@@ -1686,7 +1666,7 @@ add_option
 '
 -
 -
-zxing_dir
+zxing_path
 '
 type
 =
@@ -1701,18 +1681,16 @@ help
 The
 path
 to
-the
-directory
 where
 the
 zxing
 executable
-'
-                          
-'
 is
 located
 .
+'
+                          
+'
 If
 omitted
 it
@@ -1721,13 +1699,21 @@ be
 assumed
 to
 be
-'
-                          
-'
 present
 in
 the
+'
+                          
+'
 PATH
+with
+the
+name
+zxing
+[
+.
+exe
+]
 .
 '
 )
@@ -1740,16 +1726,13 @@ add_option
 '
 -
 -
-ffmpeg_dir
+ffmpeg_path
 '
 type
 =
 '
 string
 '
-default
-=
-None
                     
 help
 =
@@ -1758,33 +1741,39 @@ help
 The
 path
 to
-the
-directory
 where
 the
 ffmpeg
-'
-                          
-'
 executable
 is
 located
 .
+'
+                          
+'
 If
 omitted
 it
 will
 be
-'
-                          
-'
 assumed
 to
 be
 present
 in
 the
+'
+                          
+'
 PATH
+with
+the
+name
+ffmpeg
+[
+.
+exe
+]
 .
 '
 )
@@ -2130,11 +2119,11 @@ options
 .
 png_working_dir
                                   
-ffmpeg_dir
+ffmpeg_path
 =
 options
 .
-ffmpeg_dir
+ffmpeg_path
 )
 :
     
@@ -2166,11 +2155,11 @@ options
 .
 png_working_dir
                        
-zxing_dir
+zxing_path
 =
 options
 .
-zxing_dir
+zxing_path
 )
 :
     

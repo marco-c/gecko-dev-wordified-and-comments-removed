@@ -7,6 +7,8 @@ WEBRTC_MODULES_VIDEO_CODING_TEST_JITTER_ESTIMATE_TEST_H_
 #
 include
 "
+webrtc
+/
 typedefs
 .
 h

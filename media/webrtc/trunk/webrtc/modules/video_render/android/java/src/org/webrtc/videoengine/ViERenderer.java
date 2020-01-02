@@ -120,15 +120,6 @@ getHolder
 (
 )
 ;
-g_localRenderer
-.
-setType
-(
-SurfaceHolder
-.
-SURFACE_TYPE_PUSH_BUFFERS
-)
-;
 return
 localRender
 ;

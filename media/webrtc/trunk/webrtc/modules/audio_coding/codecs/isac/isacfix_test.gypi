@@ -146,6 +146,12 @@ fix
 /
 interface
 '
+'
+<
+(
+webrtc_root
+)
+'
 ]
 '
 sources

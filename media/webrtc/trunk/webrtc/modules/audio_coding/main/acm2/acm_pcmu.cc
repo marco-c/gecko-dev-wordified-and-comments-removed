@@ -67,6 +67,9 @@ h
 namespace
 webrtc
 {
+namespace
+acm2
+{
 ACMPCMU
 :
 :
@@ -207,5 +210,6 @@ encoder_initialized_
 =
 false
 ;
+}
 }
 }

@@ -91,6 +91,12 @@ level
 =
 5
 ;
+optional
+bool
+keypress
+=
+6
+;
 }
 message
 Event

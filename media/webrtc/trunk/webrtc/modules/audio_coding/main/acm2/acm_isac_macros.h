@@ -16,6 +16,9 @@ h
 namespace
 webrtc
 {
+namespace
+acm2
+{
 #
 ifdef
 WEBRTC_CODEC_ISAC
@@ -251,6 +254,7 @@ special
 RCU
 #
 endif
+}
 }
 #
 endif

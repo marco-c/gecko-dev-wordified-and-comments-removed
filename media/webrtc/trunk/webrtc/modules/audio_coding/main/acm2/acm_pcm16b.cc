@@ -89,6 +89,9 @@ endif
 namespace
 webrtc
 {
+namespace
+acm2
+{
 #
 ifndef
 WEBRTC_CODEC_PCM16
@@ -350,4 +353,5 @@ return
 }
 #
 endif
+}
 }

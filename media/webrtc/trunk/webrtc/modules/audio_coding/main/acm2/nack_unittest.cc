@@ -79,6 +79,9 @@ namespace
 webrtc
 {
 namespace
+acm2
+{
+namespace
 {
 const
 int
@@ -2792,5 +2795,6 @@ nack_list
 ]
 )
 ;
+}
 }
 }

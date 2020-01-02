@@ -189,6 +189,9 @@ endif
 namespace
 webrtc
 {
+namespace
+acm2
+{
 #
 if
 (
@@ -3528,4 +3531,5 @@ audio_decoder_
 }
 #
 endif
+}
 }

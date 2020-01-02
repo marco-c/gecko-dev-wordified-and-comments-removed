@@ -76,6 +76,7 @@ sizeof
 (
 LONG
 )
+counter_variable_is_the_expected_size
 )
 ;
 assert

@@ -91,6 +91,9 @@ endif
 namespace
 webrtc
 {
+namespace
+acm2
+{
 #
 ifndef
 WEBRTC_CODEC_SPEEX
@@ -1381,4 +1384,5 @@ return
 endif
 #
 endif
+}
 }

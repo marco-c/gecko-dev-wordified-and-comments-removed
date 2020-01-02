@@ -33,6 +33,9 @@ webrtc
 enum
 ACMAMRPackingFormat
 ;
+namespace
+acm2
+{
 class
 ACMAMR
 :
@@ -160,6 +163,7 @@ encoder_packing_format_
 ;
 }
 ;
+}
 }
 #
 endif

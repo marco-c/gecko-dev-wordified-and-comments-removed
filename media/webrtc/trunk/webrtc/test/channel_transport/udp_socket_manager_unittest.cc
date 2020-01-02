@@ -58,13 +58,6 @@ webrtc
 namespace
 test
 {
-#
-if
-!
-defined
-(
-THREAD_SANITIZER
-)
 TEST
 (
 UdpSocketManager
@@ -271,7 +264,5 @@ Return
 #
 endif
 }
-#
-endif
 }
 }

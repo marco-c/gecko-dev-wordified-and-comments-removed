@@ -34,6 +34,9 @@ webrtc
 class
 CriticalSectionWrapper
 ;
+namespace
+acm2
+{
 class
 ACMResampler
 {
@@ -77,6 +80,7 @@ resampler_crit_sect_
 ;
 }
 ;
+}
 }
 #
 endif

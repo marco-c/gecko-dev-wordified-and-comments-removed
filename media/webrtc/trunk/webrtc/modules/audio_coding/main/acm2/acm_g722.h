@@ -34,6 +34,9 @@ G722DecInst
 namespace
 webrtc
 {
+namespace
+acm2
+{
 struct
 ACMG722EncStr
 ;
@@ -138,6 +141,7 @@ encoder_inst_ptr_right_
 ;
 }
 ;
+}
 }
 #
 endif
