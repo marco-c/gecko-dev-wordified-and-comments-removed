@@ -8806,6 +8806,9 @@ event
 }
 if
 (
+mForceShutDown
+&
+&
 mLifecycleState
 =
 =
