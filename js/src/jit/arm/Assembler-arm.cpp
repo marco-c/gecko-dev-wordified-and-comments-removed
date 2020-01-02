@@ -2675,7 +2675,7 @@ i
 +
 )
 {
-int
+size_t
 offset
 =
 tmpDataRelocations_
@@ -2687,7 +2687,7 @@ getOffset
 (
 )
 ;
-int
+size_t
 real_offset
 =
 offset
@@ -2728,7 +2728,7 @@ i
 +
 )
 {
-int
+size_t
 offset
 =
 tmpJumpRelocations_
@@ -2740,7 +2740,7 @@ getOffset
 (
 )
 ;
-int
+size_t
 real_offset
 =
 offset
@@ -2781,7 +2781,7 @@ i
 +
 )
 {
-int
+size_t
 offset
 =
 tmpPreBarriers_
@@ -2793,7 +2793,7 @@ getOffset
 (
 )
 ;
-int
+size_t
 real_offset
 =
 offset
