@@ -1164,6 +1164,10 @@ browser_visibleTabs
 .
 js
 \
+browser_windowopen_reflows
+.
+js
+\
 browser_wyciwyg_urlbarCopying
 .
 js
