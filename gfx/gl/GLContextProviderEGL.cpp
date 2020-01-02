@@ -1502,6 +1502,18 @@ mSurfaceOverride
 :
 mSurface
 ;
+if
+(
+surface
+=
+=
+EGL_NO_SURFACE
+)
+{
+return
+false
+;
+}
 succeeded
 =
 sEGLLibrary
@@ -1689,7 +1701,7 @@ mSurface
 ;
 mSurface
 =
-nullptr
+EGL_NO_SURFACE
 ;
 }
 bool
