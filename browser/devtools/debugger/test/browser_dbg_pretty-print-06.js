@@ -138,6 +138,7 @@ gDebugger
 EVENTS
 .
 NEW_SOURCE
+2
 )
 waitForDebuggerEvents
 (
