@@ -147,6 +147,9 @@ class
 AsyncPanZoomAnimation
 ;
 class
+FlingAnimation
+;
+class
 AsyncPanZoomController
 {
 NS_INLINE_DECL_THREADSAFE_REFCOUNTING
@@ -421,6 +424,13 @@ uint32_t
 aOverscrollHandoffChainIndex
 =
 0
+)
+;
+void
+TakeOverFling
+(
+ScreenPoint
+aVelocity
 )
 ;
 TouchBehaviorFlags
@@ -992,6 +1002,10 @@ mAnimation
 friend
 class
 Axis
+;
+friend
+class
+FlingAnimation
 ;
 public
 :

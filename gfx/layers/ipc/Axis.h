@@ -167,6 +167,13 @@ GetVelocity
 (
 )
 ;
+void
+SetVelocity
+(
+float
+aVelocity
+)
+;
 Overscroll
 DisplacementWillOverscroll
 (
