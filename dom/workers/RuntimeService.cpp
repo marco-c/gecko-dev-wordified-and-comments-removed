@@ -11297,6 +11297,10 @@ mWorkerPrivate
 >
 ScheduleDeletion
 (
+WorkerPrivate
+:
+:
+WorkerRan
 )
 ;
 mWorkerPrivate
