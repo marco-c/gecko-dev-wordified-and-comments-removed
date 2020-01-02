@@ -10478,6 +10478,8 @@ JSGC_GENERATIONAL
 void
 branchPtrInNurseryRange
 (
+Condition
+cond
 Register
 ptr
 Register
@@ -10490,6 +10492,8 @@ label
 void
 branchValueIsNurseryObject
 (
+Condition
+cond
 ValueOperand
 value
 Register
