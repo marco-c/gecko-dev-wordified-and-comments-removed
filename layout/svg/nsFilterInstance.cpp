@@ -1087,6 +1087,7 @@ nsCSSFilterInstance
 cssFilterInstance
 (
 aFilter
+mTargetFrame
 mTargetBBoxInFilterSpace
 mFrameSpaceInCSSPxToFilterSpaceTransform
 )
