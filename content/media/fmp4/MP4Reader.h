@@ -188,6 +188,11 @@ MOZ_OVERRIDE
 ;
 private
 :
+void
+InitLayersBackendType
+(
+)
+;
 MP4SampleQueue
 &
 SampleQueue
