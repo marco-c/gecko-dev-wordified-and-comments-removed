@@ -821,7 +821,7 @@ arg
 )
 ;
 [
-Cached
+StoreInSlot
 Pure
 ]
 readonly
