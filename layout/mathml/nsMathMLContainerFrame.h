@@ -547,7 +547,7 @@ aParamCount
 0
 )
 ;
-nsresult
+void
 ReflowChild
 (
 nsIFrame

@@ -494,7 +494,7 @@ aShrinkWrap
 )
 MOZ_OVERRIDE
 ;
-nsresult
+void
 ReflowChild
 (
 nsIFrame
@@ -527,7 +527,7 @@ nullptr
 )
 ;
 static
-nsresult
+void
 FinishReflowChild
 (
 nsIFrame
