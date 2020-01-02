@@ -5056,6 +5056,9 @@ v
 cx
 )
 ;
+bool
+getOk
+=
 cx
 -
 >
@@ -5080,6 +5083,14 @@ CloseIterator
 cx
 obj
 )
+)
+return
+false
+;
+if
+(
+!
+getOk
 )
 return
 false

@@ -2064,6 +2064,7 @@ return
 throwing
 ;
 }
+MOZ_WARN_UNUSED_RESULT
 bool
 getPendingException
 (
