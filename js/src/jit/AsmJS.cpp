@@ -36950,7 +36950,7 @@ masm
 JS_ASSERT
 (
 (
-AlignmentAtAsmJSPrologue
+AsmJSSizeOfRetAddr
 +
 masm
 .
@@ -37081,7 +37081,7 @@ bytesToPush
 unsigned
 alreadyPushed
 =
-AlignmentAtAsmJSPrologue
+AsmJSSizeOfRetAddr
 +
 masm
 .
@@ -37469,7 +37469,7 @@ loadPtr
 Address
 (
 StackPointer
-NativeFrameSize
+AsmJSSizeOfRetAddr
 +
 masm
 .
@@ -38991,7 +38991,7 @@ stackDec
 unsigned
 offsetToCallerStackArgs
 =
-AlignmentAtAsmJSPrologue
+AsmJSSizeOfRetAddr
 +
 masm
 .
@@ -40452,7 +40452,7 @@ framePushed
 (
 )
 +
-NativeFrameSize
+AsmJSSizeOfRetAddr
 ;
 FillArgumentArray
 (

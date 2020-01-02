@@ -332,7 +332,7 @@ needsInitialStackAlignment
 unsigned
 alignmentAtCall
 =
-AlignmentAtAsmJSPrologue
+AsmJSSizeOfRetAddr
 +
 frameDepth_
 ;

@@ -53073,7 +53073,7 @@ spIncrement
 JS_ASSERT
 (
 (
-AlignmentAtAsmJSPrologue
+AsmJSSizeOfRetAddr
 +
 masm
 .

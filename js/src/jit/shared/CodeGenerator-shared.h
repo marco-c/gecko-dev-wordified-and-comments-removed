@@ -531,7 +531,7 @@ compilingAsmJS
 (
 )
 ?
-NativeFrameSize
+AsmJSSizeOfRetAddr
 :
 sizeof
 (
