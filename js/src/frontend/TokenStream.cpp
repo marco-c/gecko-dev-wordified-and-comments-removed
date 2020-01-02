@@ -61,6 +61,13 @@ h
 #
 include
 "
+jscompartment
+.
+h
+"
+#
+include
+"
 jsexn
 .
 h
