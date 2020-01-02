@@ -113,6 +113,13 @@ h
 #
 include
 "
+nsIDocument
+.
+h
+"
+#
+include
+"
 nsIServiceManager
 .
 h
