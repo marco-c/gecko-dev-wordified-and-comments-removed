@@ -8332,6 +8332,10 @@ mProgressSinceLastProgressEvent
 =
 true
 ;
+mUploadLengthComputable
+=
+true
+;
 MaybeDispatchProgressEvents
 (
 true
