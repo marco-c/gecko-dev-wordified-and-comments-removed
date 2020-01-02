@@ -458,6 +458,11 @@ CancelAnimation
 (
 )
 ;
+void
+ClearOverscroll
+(
+)
+;
 TouchBehaviorFlags
 GetAllowedTouchBehavior
 (
