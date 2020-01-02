@@ -8580,7 +8580,7 @@ aIsChromeWorker
 WorkerType
 aWorkerType
 const
-nsAString
+nsACString
 &
 aSharedWorkerName
 LoadInfo
@@ -14813,7 +14813,7 @@ aIsChromeWorker
 WorkerType
 aWorkerType
 const
-nsAString
+nsACString
 &
 aSharedWorkerName
 LoadInfo
@@ -15020,7 +15020,7 @@ aGlobal
 aScriptURL
 false
 WorkerTypeDedicated
-EmptyString
+EmptyCString
 (
 )
 nullptr
@@ -15108,7 +15108,7 @@ aGlobal
 aScriptURL
 true
 WorkerTypeDedicated
-EmptyString
+EmptyCString
 (
 )
 nullptr
@@ -15166,7 +15166,7 @@ aIsChromeWorker
 WorkerType
 aWorkerType
 const
-nsAString
+nsACString
 &
 aSharedWorkerName
 LoadInfo

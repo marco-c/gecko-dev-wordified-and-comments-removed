@@ -500,7 +500,7 @@ public
 WorkerGlobalScope
 {
 const
-nsString
+nsCString
 mName
 ;
 ~
@@ -517,7 +517,7 @@ WorkerPrivate
 *
 aWorkerPrivate
 const
-nsString
+nsCString
 &
 aName
 )
@@ -560,7 +560,10 @@ AsAString
 (
 )
 =
+NS_ConvertUTF8toUTF16
+(
 mName
+)
 ;
 }
 IMPL_EVENT_HANDLER

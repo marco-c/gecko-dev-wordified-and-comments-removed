@@ -703,7 +703,7 @@ mParent
 nsString
 mScriptURL
 ;
-nsString
+nsCString
 mSharedWorkerName
 ;
 LocationInfo
@@ -790,7 +790,7 @@ aIsChromeWorker
 WorkerType
 aWorkerType
 const
-nsAString
+nsACString
 &
 aSharedWorkerName
 LoadInfo
@@ -1917,7 +1917,7 @@ WorkerTypeShared
 ;
 }
 const
-nsString
+nsCString
 &
 SharedWorkerName
 (
@@ -2333,7 +2333,7 @@ aIsChromeWorker
 WorkerType
 aWorkerType
 const
-nsAString
+nsACString
 &
 aSharedWorkerName
 LoadInfo
@@ -3088,7 +3088,7 @@ aIsChromeWorker
 WorkerType
 aWorkerType
 const
-nsAString
+nsACString
 &
 aSharedWorkerName
 LoadInfo
