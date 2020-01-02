@@ -45,7 +45,7 @@ UsageInfo
 :
 mCanceled
 (
-0
+false
 )
 mDatabaseUsage
 (
@@ -163,7 +163,7 @@ mozilla
 :
 Atomic
 <
-int32_t
+bool
 >
 mCanceled
 ;
