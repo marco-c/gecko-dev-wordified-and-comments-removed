@@ -2363,12 +2363,12 @@ getSelfHostedFunction
 JSContext
 *
 cx
-const
-JSFunctionSpec
-*
-fs
 HandleAtom
-atom
+selfHostedName
+HandleAtom
+name
+unsigned
+nargs
 MutableHandleValue
 funVal
 )
