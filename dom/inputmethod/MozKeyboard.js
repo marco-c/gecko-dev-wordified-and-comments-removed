@@ -165,8 +165,10 @@ _map
 get
 (
 win
-false
 )
+|
+|
+false
 ;
 }
 setActive
