@@ -113,7 +113,7 @@ server
 /
 actors
 /
-styleeditor
+stylesheets
 "
 )
 ;
