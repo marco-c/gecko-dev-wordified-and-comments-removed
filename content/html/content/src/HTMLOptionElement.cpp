@@ -718,6 +718,15 @@ return
 NS_OK
 ;
 }
+bool
+defaultSelected
+=
+aValue
+;
+mIsSelected
+=
+defaultSelected
+;
 HTMLSelectElement
 *
 selectInt
@@ -772,11 +781,6 @@ HTMLSelectElement
 :
 :
 SET_DISABLED
-;
-bool
-defaultSelected
-=
-aValue
 ;
 if
 (
