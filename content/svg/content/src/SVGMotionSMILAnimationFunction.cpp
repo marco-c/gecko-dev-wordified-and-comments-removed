@@ -1221,9 +1221,10 @@ ePathSourceType_PathAttr
 SVGPathData
 path
 ;
-nsSVGPathDataParserToInternal
+nsSVGPathDataParser
 pathParser
 (
+pathSpec
 &
 path
 )
@@ -1232,7 +1233,6 @@ pathParser
 .
 Parse
 (
-pathSpec
 )
 ;
 if
