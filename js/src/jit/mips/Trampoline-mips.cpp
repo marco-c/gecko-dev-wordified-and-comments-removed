@@ -1944,6 +1944,11 @@ address
 )
 ;
 }
+uint32_t
+increment
+=
+2
+;
 for
 (
 uint32_t
@@ -1960,7 +1965,8 @@ Total
 ;
 i
 +
-+
+=
+increment
 )
 masm
 .
@@ -2988,9 +2994,14 @@ off
 )
 ;
 }
+uint32_t
+increment
+=
+2
+;
 for
 (
-uintptr_t
+uint32_t
 i
 =
 0
@@ -3004,7 +3015,8 @@ Total
 ;
 i
 +
-+
+=
+increment
 )
 masm
 .
