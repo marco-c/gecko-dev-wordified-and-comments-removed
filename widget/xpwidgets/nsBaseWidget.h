@@ -412,6 +412,17 @@ aHotspotY
 ;
 virtual
 void
+ClearCachedCursor
+(
+)
+{
+mUpdateCursor
+=
+true
+;
+}
+virtual
+void
 SetTransparencyMode
 (
 nsTransparencyMode
@@ -1740,6 +1751,9 @@ mShutdownObserver
 ;
 nsCursor
 mCursor
+;
+bool
+mUpdateCursor
 ;
 nsBorderStyle
 mBorderStyle

@@ -696,6 +696,14 @@ aDocShell
 )
 ;
 void
+ClearCachedWidgetCursor
+(
+nsIFrame
+*
+aTargetFrame
+)
+;
+void
 UpdateCursor
 (
 nsPresContext

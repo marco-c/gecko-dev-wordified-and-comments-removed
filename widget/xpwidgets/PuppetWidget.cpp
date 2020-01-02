@@ -2735,6 +2735,10 @@ mCursor
 =
 =
 aCursor
+&
+&
+!
+mUpdateCursor
 )
 {
 return
@@ -2753,6 +2757,7 @@ mTabChild
 SendSetCursor
 (
 aCursor
+mUpdateCursor
 )
 )
 {
@@ -2763,6 +2768,10 @@ NS_ERROR_FAILURE
 mCursor
 =
 aCursor
+;
+mUpdateCursor
+=
+false
 ;
 return
 NS_OK

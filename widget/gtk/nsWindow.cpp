@@ -5984,6 +5984,9 @@ aCursor
 !
 =
 mCursor
+|
+|
+mUpdateCursor
 )
 {
 GdkCursor
@@ -5991,6 +5994,10 @@ GdkCursor
 newCursor
 =
 nullptr
+;
+mUpdateCursor
+=
+false
 ;
 newCursor
 =
