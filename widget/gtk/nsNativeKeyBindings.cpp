@@ -80,6 +80,14 @@ gdk
 .
 h
 >
+#
+ifdef
+KeyPress
+#
+undef
+KeyPress
+#
+endif
 using
 namespace
 mozilla
