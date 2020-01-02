@@ -1,4 +1,10 @@
 #
+ifndef
+nsXULTemplateResultSetRDF_h
+#
+define
+nsXULTemplateResultSetRDF_h
+#
 include
 "
 nsCOMPtr
@@ -379,3 +385,5 @@ aSortHints
 ;
 }
 ;
+#
+endif
