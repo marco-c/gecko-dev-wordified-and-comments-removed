@@ -570,6 +570,13 @@ search
 searchURL
 :
 base
++
+"
+&
+channel
+=
+nts
+"
 run
 :
 function
