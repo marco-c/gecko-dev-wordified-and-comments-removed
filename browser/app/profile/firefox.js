@@ -4343,7 +4343,7 @@ snapshots
 .
 limit
 "
-0
+5
 )
 ;
 #
@@ -10357,6 +10357,18 @@ styleeditor
 transitions
 "
 true
+)
+;
+pref
+(
+"
+devtools
+.
+shadereditor
+.
+enabled
+"
+false
 )
 ;
 pref
