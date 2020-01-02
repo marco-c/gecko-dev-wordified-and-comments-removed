@@ -9607,7 +9607,7 @@ manifestEditor
 .
 enabled
 "
-false
+true
 )
 ;
 pref
