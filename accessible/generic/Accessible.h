@@ -570,6 +570,12 @@ aARIARole
 )
 const
 ;
+bool
+HasStrongARIARole
+(
+)
+const
+;
 nsRoleMapEntry
 *
 ARIARoleMap
