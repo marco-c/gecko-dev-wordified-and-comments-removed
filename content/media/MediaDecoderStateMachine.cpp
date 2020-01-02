@@ -12079,6 +12079,7 @@ currentFrame
 -
 >
 mTime
+clock_time
 +
 +
 droppedFrames
