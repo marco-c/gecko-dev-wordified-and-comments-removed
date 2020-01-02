@@ -48,7 +48,7 @@ ScrollingBehavior
 >
 :
 public
-EnumSerializer
+ContiguousEnumSerializer
 <
 mozilla
 :

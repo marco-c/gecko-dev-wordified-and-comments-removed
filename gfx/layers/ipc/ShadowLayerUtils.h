@@ -429,7 +429,7 @@ ScreenRotation
 >
 :
 public
-EnumSerializer
+ContiguousEnumSerializer
 <
 mozilla
 :

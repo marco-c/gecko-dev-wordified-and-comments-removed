@@ -120,7 +120,7 @@ DeliveryState
 >
 :
 public
-EnumSerializer
+ContiguousEnumSerializer
 <
 mozilla
 :
@@ -175,7 +175,7 @@ DeliveryStatus
 >
 :
 public
-EnumSerializer
+ContiguousEnumSerializer
 <
 mozilla
 :
@@ -230,7 +230,7 @@ ReadStatus
 >
 :
 public
-EnumSerializer
+ContiguousEnumSerializer
 <
 mozilla
 :
@@ -285,7 +285,7 @@ ReadState
 >
 :
 public
-EnumSerializer
+ContiguousEnumSerializer
 <
 mozilla
 :
@@ -340,7 +340,7 @@ MessageClass
 >
 :
 public
-EnumSerializer
+ContiguousEnumSerializer
 <
 mozilla
 :
@@ -395,7 +395,7 @@ MessageType
 >
 :
 public
-EnumSerializer
+ContiguousEnumSerializer
 <
 mozilla
 :

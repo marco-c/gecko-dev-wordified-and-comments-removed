@@ -398,7 +398,7 @@ AudioChannelState
 >
 :
 public
-EnumSerializer
+ContiguousEnumSerializer
 <
 mozilla
 :
