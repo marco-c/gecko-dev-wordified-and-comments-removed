@@ -180,6 +180,9 @@ attribute
 WorkerGlobalScope
 self
 ;
+[
+Replaceable
+]
 readonly
 attribute
 WorkerConsole
