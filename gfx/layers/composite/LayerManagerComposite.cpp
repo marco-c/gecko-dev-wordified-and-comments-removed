@@ -664,13 +664,6 @@ mRoot
 =
 nullptr
 ;
-mCompositor
--
->
-Destroy
-(
-)
-;
 mDestroyed
 =
 true
