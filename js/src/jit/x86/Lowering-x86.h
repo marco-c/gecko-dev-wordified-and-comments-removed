@@ -132,16 +132,7 @@ BogusTemp
 ;
 }
 bool
-needTempForObjectInNurseryRange
-(
-)
-{
-return
-true
-;
-}
-bool
-needTempForValueIsNurseryObject
+needTempForPostBarrier
 (
 )
 {
