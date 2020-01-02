@@ -1459,7 +1459,7 @@ chrome
 :
 /
 /
-browser
+b2g
 /
 content
 /
