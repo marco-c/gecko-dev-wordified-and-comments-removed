@@ -13614,6 +13614,12 @@ MOZ_FINAL
 public
 nsIObserver
 {
+~
+jsdASObserver
+(
+)
+{
+}
 public
 :
 NS_DECL_THREADSAFE_ISUPPORTS
