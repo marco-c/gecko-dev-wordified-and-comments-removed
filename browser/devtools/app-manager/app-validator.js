@@ -1,9 +1,13 @@
+"
+use
+strict
+"
+;
 let
 {
 Ci
 Cu
 CC
-Cc
 }
 =
 require
@@ -169,6 +173,7 @@ message
 )
 ;
 }
+;
 AppValidator
 .
 prototype
@@ -190,6 +195,7 @@ message
 )
 ;
 }
+;
 AppValidator
 .
 prototype
@@ -642,6 +648,7 @@ deferred
 promise
 ;
 }
+;
 AppValidator
 .
 prototype
@@ -809,6 +816,7 @@ manifestURL
 )
 ;
 }
+;
 AppValidator
 .
 prototype
@@ -867,6 +875,7 @@ icons
 length
 =
 =
+=
 0
 )
 {
@@ -919,6 +928,7 @@ missIconMarketplace
 ;
 }
 }
+;
 AppValidator
 .
 prototype
@@ -927,7 +937,6 @@ _getOriginURL
 =
 function
 (
-manifest
 )
 {
 if
@@ -1012,6 +1021,7 @@ prePath
 ;
 }
 }
+;
 AppValidator
 .
 prototype
@@ -1442,6 +1452,7 @@ deferred
 promise
 ;
 }
+;
 AppValidator
 .
 prototype
@@ -1596,6 +1607,7 @@ noCertifiedSupport
 ;
 }
 }
+;
 AppValidator
 .
 prototype
@@ -1679,6 +1691,7 @@ this
 )
 ;
 }
+;
 exports
 .
 AppValidator
