@@ -4364,6 +4364,9 @@ object
 )
 )
 ;
+nsresult
+rv
+=
 nsContentUtils
 :
 :
@@ -4375,6 +4378,12 @@ aTarget
 &
 targetv
 true
+)
+;
+NS_ENSURE_SUCCESS
+(
+rv
+rv
 )
 ;
 JS
@@ -4997,6 +5006,9 @@ object
 )
 )
 ;
+nsresult
+rv
+=
 nsContentUtils
 :
 :
@@ -5008,6 +5020,12 @@ defaultThisValue
 &
 thisValue
 true
+)
+;
+NS_ENSURE_SUCCESS
+(
+rv
+rv
 )
 ;
 }
