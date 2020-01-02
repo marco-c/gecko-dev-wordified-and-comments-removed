@@ -21942,7 +21942,7 @@ MLoadTypedArrayElementStatic
 public
 MUnaryInstruction
 public
-IntPolicy
+ConvertToInt32Policy
 <
 0
 >
