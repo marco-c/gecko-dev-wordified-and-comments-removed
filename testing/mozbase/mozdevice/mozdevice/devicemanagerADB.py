@@ -1223,8 +1223,6 @@ name
         
 result
 =
-str
-(
 self
 .
 _runCmd
@@ -1241,9 +1239,13 @@ name
 )
 .
 output
-)
         
 if
+len
+(
+result
+)
+and
 '
 read
 -
@@ -1253,6 +1255,9 @@ system
 '
 in
 result
+[
+0
+]
 .
 lower
 (
@@ -1435,6 +1440,9 @@ remoteDir
 )
 .
 output
+[
+0
+]
                 
 self
 .
@@ -3662,6 +3670,9 @@ serialno
 )
 .
 output
+[
+0
+]
         
 if
 (
@@ -3712,6 +3723,9 @@ id
 )
 .
 output
+[
+0
+]
         
 if
 (
@@ -3979,6 +3993,9 @@ date
 )
 .
 output
+[
+0
+]
         
 self
 .
@@ -4003,7 +4020,7 @@ None
 )
 :
         
-data
+status
 =
 self
 .
@@ -4018,22 +4035,6 @@ appName
 )
 .
 output
-.
-strip
-(
-)
-        
-status
-=
-data
-.
-split
-(
-'
-\
-n
-'
-)
 [
 0
 ]
@@ -5058,6 +5059,9 @@ data
 proc
 .
 output
+[
+0
+]
         
 if
 data
