@@ -292,6 +292,7 @@ function
 BuildCharsetMenu
 (
 event
+showAccessKeys
 )
 {
 let
@@ -401,6 +402,11 @@ encoding
 )
 ;
 }
+if
+(
+showAccessKeys
+)
+{
 try
 {
 menuItem
@@ -429,6 +435,7 @@ catch
 e
 )
 {
+}
 }
 menuItem
 .
