@@ -151,6 +151,13 @@ cairo
 .
 h
 '
+'
+pixman
+-
+rename
+.
+h
+'
 ]
 if
 CONFIG

@@ -227,7 +227,7 @@ win
 endif
 ifdef
 MOZ_ENABLE_DBUS
-LOCAL_INCLUDES
+OS_INCLUDES
 +
 =
 (
