@@ -128,3 +128,6 @@ NS_NO_XPCOM
 ]
 =
 True
+USE_STATIC_LIBS
+=
+True

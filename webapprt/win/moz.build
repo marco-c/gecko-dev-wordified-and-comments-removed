@@ -118,3 +118,12 @@ XPCOM_GLUE
 ]
 =
 True
+#
+Statically
+link
+against
+the
+CRT
+USE_STATIC_LIBS
+=
+True

@@ -120,3 +120,6 @@ s
 in
 SIMPLE_PROGRAMS
 ]
+USE_STATIC_LIBS
+=
+True

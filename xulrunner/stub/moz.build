@@ -205,3 +205,14 @@ XPCOM_GLUE
 ]
 =
 True
+#
+Statically
+link
+against
+the
+RTL
+on
+windows
+USE_STATIC_LIBS
+=
+True

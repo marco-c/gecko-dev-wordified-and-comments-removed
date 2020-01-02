@@ -111,3 +111,6 @@ vmwarerecordinghelper
 FORCE_SHARED_LIB
 =
 True
+USE_STATIC_LIBS
+=
+True

@@ -135,9 +135,6 @@ update
 common
 )
 endif
-USE_STATIC_LIBS
-=
-1
 RCINCLUDE
 =
 maintenanceservice

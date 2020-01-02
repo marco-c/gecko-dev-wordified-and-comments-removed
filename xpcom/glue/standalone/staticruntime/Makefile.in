@@ -57,17 +57,6 @@ DIST_INSTALL
 =
 1
 #
-Statically
-link
-to
-the
-CRT
-on
-Windows
-USE_STATIC_LIBS
-=
-1
-#
 Don
 '
 t

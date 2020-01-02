@@ -97,9 +97,6 @@ NULL
 MOZ_WINCONSOLE
 =
 1
-USE_STATIC_LIBS
-=
-1
 include
 (
 topsrcdir

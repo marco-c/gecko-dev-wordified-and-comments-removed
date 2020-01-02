@@ -167,6 +167,9 @@ LOCAL_INCLUDES
 src
 '
 ]
+USE_STATIC_LIBS
+=
+True
 if
 CONFIG
 [

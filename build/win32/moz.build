@@ -152,6 +152,9 @@ crashinject
 cpp
 '
 ]
+USE_STATIC_LIBS
+=
+True
 NO_PGO
 =
 True

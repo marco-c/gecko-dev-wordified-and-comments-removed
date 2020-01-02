@@ -53,17 +53,6 @@ MPL
 0
 /
 .
-ifeq
-(
-(
-OS_ARCH
-)
-WINNT
-)
-USE_STATIC_LIBS
-=
-1
-endif
 #
 This
 makefile

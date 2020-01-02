@@ -294,3 +294,6 @@ _UNICODE
 ]
 =
 True
+USE_STATIC_LIBS
+=
+True

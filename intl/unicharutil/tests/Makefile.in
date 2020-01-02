@@ -54,9 +54,6 @@ MPL
 0
 /
 .
-USE_STATIC_LIBS
-=
-1
 LIBS
 =
 \

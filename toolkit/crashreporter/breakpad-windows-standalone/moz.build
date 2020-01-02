@@ -224,3 +224,6 @@ SOURCES
 +
 =
 objs_handler
+USE_STATIC_LIBS
+=
+True

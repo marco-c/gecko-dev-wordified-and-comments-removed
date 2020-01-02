@@ -142,3 +142,11 @@ True
 NO_PGO
 =
 True
+#
+static
+win
+runtime
+linking
+USE_STATIC_LIBS
+=
+True

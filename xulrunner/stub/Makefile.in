@@ -54,17 +54,6 @@ MPL
 /
 .
 #
-Statically
-link
-against
-the
-RTL
-on
-windows
-USE_STATIC_LIBS
-=
-1
-#
 Don
 '
 t

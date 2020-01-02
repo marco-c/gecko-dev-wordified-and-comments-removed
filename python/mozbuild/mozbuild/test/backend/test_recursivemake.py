@@ -2885,6 +2885,21 @@ res
 '
             
 ]
+            
+'
+USE_STATIC_LIBS
+'
+:
+[
+                
+'
+USE_STATIC_LIBS
+:
+=
+1
+'
+            
+]
         
 }
         

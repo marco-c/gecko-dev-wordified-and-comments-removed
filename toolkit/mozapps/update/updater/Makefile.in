@@ -200,9 +200,6 @@ libmar
 /
 verify
 )
-USE_STATIC_LIBS
-=
-1
 RCINCLUDE
 =
 updater

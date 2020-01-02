@@ -62,8 +62,5 @@ srcdir
 crashinjectdll
 .
 def
-USE_STATIC_LIBS
-=
-1
 MOZ_GLUE_LDFLAGS
 =

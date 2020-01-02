@@ -54,15 +54,6 @@ MPL
 /
 .
 #
-Statically
-link
-against
-the
-CRT
-USE_STATIC_LIBS
-=
-1
-#
 Don
 '
 t

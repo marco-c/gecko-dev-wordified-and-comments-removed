@@ -99,9 +99,6 @@ SDK_LIBRARY
 (
 LIBRARY
 )
-USE_STATIC_LIBS
-=
-1
 include
 (
 topsrcdir

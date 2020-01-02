@@ -53,14 +53,6 @@ MPL
 0
 /
 .
-ifdef
-ENABLE_TESTS
-USE_STATIC_LIBS
-=
-1
-endif
-#
-ENABLE_TESTS
 MOZ_GLUE_LDFLAGS
 =
 include

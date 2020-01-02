@@ -155,3 +155,6 @@ screenshot
 cpp
 '
 ]
+USE_STATIC_LIBS
+=
+True

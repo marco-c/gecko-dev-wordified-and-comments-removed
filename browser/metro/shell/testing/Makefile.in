@@ -54,14 +54,6 @@ MPL
 /
 .
 #
-static
-win
-runtime
-linking
-USE_STATIC_LIBS
-=
-1
-#
 don
 '
 t

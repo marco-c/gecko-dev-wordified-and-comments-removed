@@ -70,9 +70,6 @@ browser
 (
 relativesrcdir
 )
-USE_STATIC_LIBS
-=
-1
 MOCHITEST_BROWSER_FILES
 =
 \
