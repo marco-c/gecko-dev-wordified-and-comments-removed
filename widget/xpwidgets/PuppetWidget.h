@@ -436,7 +436,7 @@ GetTransparencyMode
 MOZ_OVERRIDE
 {
 return
-eTransparencyOpaque
+eTransparencyTransparent
 ;
 }
 virtual
