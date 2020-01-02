@@ -2439,7 +2439,7 @@ R
 .
 string
 .
-reading_list_removed
+page_removed
 Toast
 .
 LENGTH_SHORT
