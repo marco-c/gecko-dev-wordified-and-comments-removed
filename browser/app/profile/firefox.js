@@ -10718,7 +10718,7 @@ filter
 .
 jswarn
 "
-false
+true
 )
 ;
 pref
