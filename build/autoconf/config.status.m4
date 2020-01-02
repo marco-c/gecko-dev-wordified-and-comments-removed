@@ -1523,6 +1523,10 @@ changequote
 [
 ]
 )
+chmod
++
+x
+CONFIG_STATUS
 ]
 )
 define
@@ -1531,10 +1535,6 @@ define
 MOZ_RUN_CONFIG_STATUS
 ]
 [
-chmod
-+
-x
-CONFIG_STATUS
 rm
 -
 fr
