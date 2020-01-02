@@ -15,6 +15,10 @@ mach
 logging
 import
 StructuredHumanFormatter
+from
+mozunit
+import
+main
 class
 DummyLogger
 (
@@ -185,4 +189,16 @@ utf
 value
 }
 }
+)
+if
+__name__
+=
+=
+'
+__main__
+'
+:
+    
+main
+(
 )

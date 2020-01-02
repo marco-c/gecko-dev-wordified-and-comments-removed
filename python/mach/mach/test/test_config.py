@@ -37,6 +37,10 @@ RelativePathType
     
 StringType
 )
+from
+mozunit
+import
+main
 if
 sys
 .
@@ -1450,5 +1454,17 @@ temp
 temp
 .
 flush
+(
+)
+if
+__name__
+=
+=
+'
+__main__
+'
+:
+    
+main
 (
 )
