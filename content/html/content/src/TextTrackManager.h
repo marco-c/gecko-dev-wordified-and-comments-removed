@@ -100,6 +100,8 @@ RemoveTextTrack
 TextTrack
 *
 aTextTrack
+bool
+aPendingListOnly
 )
 ;
 void
@@ -114,6 +116,11 @@ double
 aTime
 )
 ;
+void
+PopulatePendingList
+(
+)
+;
 private
 :
 HTMLMediaElement
@@ -125,6 +132,12 @@ nsRefPtr
 TextTrackList
 >
 mTextTracks
+;
+nsRefPtr
+<
+TextTrackList
+>
+mPendingTextTracks
 ;
 }
 ;

@@ -1455,6 +1455,10 @@ RemoveTextTrack
 TextTrack
 *
 aTextTrack
+bool
+aPendingListOnly
+=
+false
 )
 {
 if
@@ -1468,6 +1472,7 @@ mTextTrackManager
 RemoveTextTrack
 (
 aTextTrack
+aPendingListOnly
 )
 ;
 }
@@ -2011,6 +2016,11 @@ aCanPlay
 virtual
 void
 UpdateAudioChannelPlayingState
+(
+)
+;
+void
+PopulatePendingTextTrackList
 (
 )
 ;
