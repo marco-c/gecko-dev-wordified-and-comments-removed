@@ -6186,7 +6186,7 @@ imagevisibility
 .
 enabled
 "
-false
+true
 )
 ;
 pref
