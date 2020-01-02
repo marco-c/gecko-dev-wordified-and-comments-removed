@@ -269,9 +269,12 @@ if
 mGLContext
 -
 >
-GetEGLContext
+GetContextType
 (
 )
+=
+=
+ContextTypeEGL
 )
 {
 bool
