@@ -101,6 +101,9 @@ PARALLEL_DIRS
 encoder
 '
 '
+gmp
+'
+'
 mediasource
 '
 '

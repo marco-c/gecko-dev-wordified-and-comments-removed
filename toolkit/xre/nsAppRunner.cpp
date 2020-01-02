@@ -3080,7 +3080,7 @@ IPDLUnitTest
 )
 static_assert
 (
-GeckoProcessType_IPDLUnitTest
+GeckoProcessType_GMPlugin
 +
 1
 =
