@@ -221,6 +221,12 @@ nsAString
 aTypes
 )
 ;
+static
+bool
+IsImportEnabled
+(
+)
+;
 void
 UpdateStyleSheetInternal
 (
