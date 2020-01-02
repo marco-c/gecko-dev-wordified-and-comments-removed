@@ -7190,7 +7190,7 @@ interval
 >
 covers
 (
-inputOf
+outputOf
 (
 ins
 )
