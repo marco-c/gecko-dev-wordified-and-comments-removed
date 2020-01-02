@@ -93,6 +93,16 @@ MPL
 0
 /
 .
+EXTRA_JS_MODULES
++
+=
+[
+'
+ScrollbarSampler
+.
+jsm
+'
+]
 EXTRA_PP_JS_MODULES
 +
 =
