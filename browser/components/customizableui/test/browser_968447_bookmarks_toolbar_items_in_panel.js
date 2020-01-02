@@ -211,10 +211,10 @@ hide
 (
 )
 ;
-newWin
-.
-close
+yield
+promiseWindowClosed
 (
+newWin
 )
 ;
 CustomizableUI
