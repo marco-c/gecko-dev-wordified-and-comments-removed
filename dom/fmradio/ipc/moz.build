@@ -158,14 +158,3 @@ LIBRARY_NAME
 '
 domfmradio_s
 '
-LOCAL_INCLUDES
-+
-=
-[
-'
-/
-dom
-/
-base
-'
-]
