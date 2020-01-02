@@ -982,7 +982,7 @@ AudioDecodedUsecs
 (
 )
 >
-LOW_AUDIO_USECS
+mLowAudioThresholdUsecs
 *
 mPlaybackRate
 |
