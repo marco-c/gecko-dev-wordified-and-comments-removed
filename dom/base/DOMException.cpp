@@ -310,7 +310,7 @@ VersionError
 NotReadableError
 =
 0
-LockedFileInactiveError
+FileHandleInactiveError
 =
 0
 OperationError

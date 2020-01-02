@@ -181,7 +181,7 @@ request
 =
 db
 .
-mozCreateFileHandle
+createMutableFile
 (
 "
 test
@@ -205,7 +205,7 @@ yield
 undefined
 ;
 let
-fileHandle
+mutableFile
 =
 event
 .
@@ -213,16 +213,16 @@ target
 .
 result
 ;
-fileHandle
+mutableFile
 .
 onerror
 =
 errorHandler
 ;
 let
-lockedFile
-=
 fileHandle
+=
+mutableFile
 .
 open
 (
@@ -241,7 +241,7 @@ DEFAULT_QUOTA
 ;
 request
 =
-lockedFile
+fileHandle
 .
 write
 (
@@ -276,7 +276,7 @@ event
 yield
 undefined
 ;
-lockedFile
+fileHandle
 .
 oncomplete
 =

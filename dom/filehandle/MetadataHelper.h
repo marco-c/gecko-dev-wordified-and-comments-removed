@@ -169,9 +169,9 @@ public
 :
 MetadataHelper
 (
-LockedFile
+FileHandle
 *
-aLockedFile
+aFileHandle
 FileRequest
 *
 aFileRequest
@@ -182,7 +182,7 @@ aParams
 :
 FileHelper
 (
-aLockedFile
+aFileHandle
 aFileRequest
 )
 mParams

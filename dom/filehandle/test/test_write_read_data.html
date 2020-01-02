@@ -252,7 +252,7 @@ fileStorages
 let
 request
 =
-getFileHandle
+getMutableFile
 (
 fileStorage
 .
@@ -283,7 +283,7 @@ yield
 undefined
 ;
 let
-fileHandle
+mutableFile
 =
 event
 .
@@ -291,7 +291,7 @@ target
 .
 result
 ;
-fileHandle
+mutableFile
 .
 onerror
 =
@@ -303,9 +303,9 @@ location
 0
 ;
 let
-lockedFile
-=
 fileHandle
+=
+mutableFile
 .
 open
 (
@@ -316,7 +316,7 @@ readwrite
 ;
 is
 (
-lockedFile
+fileHandle
 .
 location
 location
@@ -328,7 +328,7 @@ location
 ;
 request
 =
-lockedFile
+fileHandle
 .
 write
 (
@@ -344,7 +344,7 @@ length
 ;
 is
 (
-lockedFile
+fileHandle
 .
 location
 location
@@ -365,7 +365,7 @@ event
 yield
 undefined
 ;
-lockedFile
+fileHandle
 .
 location
 =
@@ -373,7 +373,7 @@ location
 ;
 request
 =
-lockedFile
+fileHandle
 .
 readAsText
 (
@@ -384,7 +384,7 @@ length
 ;
 is
 (
-lockedFile
+fileHandle
 .
 location
 location
@@ -429,7 +429,7 @@ data
 ;
 request
 =
-lockedFile
+fileHandle
 .
 write
 (
@@ -445,7 +445,7 @@ byteLength
 ;
 is
 (
-lockedFile
+fileHandle
 .
 location
 location
@@ -466,7 +466,7 @@ event
 yield
 undefined
 ;
-lockedFile
+fileHandle
 .
 location
 -
@@ -477,7 +477,7 @@ byteLength
 ;
 request
 =
-lockedFile
+fileHandle
 .
 readAsArrayBuffer
 (
@@ -488,7 +488,7 @@ byteLength
 ;
 is
 (
-lockedFile
+fileHandle
 .
 location
 location
@@ -535,7 +535,7 @@ data
 ;
 request
 =
-lockedFile
+fileHandle
 .
 write
 (
@@ -551,7 +551,7 @@ size
 ;
 is
 (
-lockedFile
+fileHandle
 .
 location
 location
@@ -572,7 +572,7 @@ event
 yield
 undefined
 ;
-lockedFile
+fileHandle
 .
 location
 -
@@ -583,7 +583,7 @@ size
 ;
 request
 =
-lockedFile
+fileHandle
 .
 readAsArrayBuffer
 (
@@ -594,7 +594,7 @@ size
 ;
 is
 (
-lockedFile
+fileHandle
 .
 location
 location
@@ -639,7 +639,7 @@ data
 ;
 request
 =
-lockedFile
+fileHandle
 .
 getMetadata
 (

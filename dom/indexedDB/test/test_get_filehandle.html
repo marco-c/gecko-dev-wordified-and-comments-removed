@@ -156,7 +156,7 @@ request
 =
 db
 .
-mozCreateFileHandle
+createMutableFile
 (
 "
 random
@@ -182,7 +182,7 @@ yield
 undefined
 ;
 let
-fileHandle
+mutableFile
 =
 event
 .
@@ -192,10 +192,10 @@ result
 ;
 ok
 (
-fileHandle
+mutableFile
 "
 Got
-filehandle
+mutablefile
 "
 )
 ;
@@ -206,7 +206,7 @@ try
 {
 db
 .
-mozCreateFileHandle
+createMutableFile
 (
 "
 random
@@ -241,7 +241,7 @@ ok
 (
 true
 "
-MozCreateFileHandle
+CreateMutableFile
 threw
 "
 )

@@ -1683,7 +1683,7 @@ NS_ERROR_DOM_FILEHANDLE_UNKNOWN_ERR
 )
 DOM4_MSG_DEF
 (
-LockedFileInactiveError
+FileHandleInactiveError
 "
 A
 request
@@ -1691,8 +1691,8 @@ was
 placed
 against
 a
-locked
 file
+handle
 which
 is
 currently
@@ -1704,7 +1704,7 @@ is
 finished
 .
 "
-NS_ERROR_DOM_FILEHANDLE_LOCKEDFILE_INACTIVE_ERR
+NS_ERROR_DOM_FILEHANDLE_INACTIVE_ERR
 )
 DOM4_MSG_DEF
 (
@@ -1718,8 +1718,8 @@ attempted
 in
 a
 READ_ONLY
-locked
 file
+handle
 .
 "
 NS_ERROR_DOM_FILEHANDLE_READ_ONLY_ERR
@@ -1760,7 +1760,7 @@ through
 a
 call
 to
-LockedFile
+FileHandle
 .
 abort
 .
@@ -1773,8 +1773,8 @@ QuotaExceededError
 "
 The
 current
-locked
 file
+handle
 exceeded
 its
 quota

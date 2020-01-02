@@ -101,7 +101,7 @@ fileStorages
 let
 request
 =
-getFileHandle
+getMutableFile
 (
 fileStorage
 .
@@ -132,7 +132,7 @@ yield
 undefined
 ;
 let
-fileHandle
+mutableFile
 =
 event
 .
@@ -140,16 +140,16 @@ target
 .
 result
 ;
-fileHandle
+mutableFile
 .
 onerror
 =
 errorHandler
 ;
 let
-lockedFile
-=
 fileHandle
+=
+mutableFile
 .
 open
 (
@@ -160,7 +160,7 @@ readwrite
 ;
 is
 (
-lockedFile
+fileHandle
 .
 location
 0
@@ -170,7 +170,7 @@ location
 "
 )
 ;
-lockedFile
+fileHandle
 .
 location
 =
@@ -178,7 +178,7 @@ location
 ;
 is
 (
-lockedFile
+fileHandle
 .
 location
 100000
@@ -188,7 +188,7 @@ location
 "
 )
 ;
-lockedFile
+fileHandle
 .
 location
 =
@@ -196,7 +196,7 @@ null
 ;
 ok
 (
-lockedFile
+fileHandle
 .
 location
 =
@@ -211,7 +211,7 @@ location
 ;
 try
 {
-lockedFile
+fileHandle
 .
 readAsArrayBuffer
 (
@@ -281,7 +281,7 @@ code
 }
 try
 {
-lockedFile
+fileHandle
 .
 readAsText
 (
@@ -351,7 +351,7 @@ code
 }
 try
 {
-lockedFile
+fileHandle
 .
 write
 (
@@ -422,7 +422,7 @@ code
 }
 request
 =
-lockedFile
+fileHandle
 .
 append
 (
@@ -444,7 +444,7 @@ undefined
 ;
 ok
 (
-lockedFile
+fileHandle
 .
 location
 =
@@ -459,7 +459,7 @@ location
 ;
 try
 {
-lockedFile
+fileHandle
 .
 truncate
 (
@@ -528,7 +528,7 @@ code
 }
 request
 =
-lockedFile
+fileHandle
 .
 truncate
 (
@@ -548,7 +548,7 @@ undefined
 ;
 is
 (
-lockedFile
+fileHandle
 .
 location
 0

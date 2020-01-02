@@ -8,13 +8,6 @@ h
 #
 include
 "
-FileHandle
-.
-h
-"
-#
-include
-"
 FileHelper
 .
 h
@@ -32,6 +25,13 @@ include
 mozilla
 /
 Attributes
+.
+h
+"
+#
+include
+"
+MutableFile
 .
 h
 "
@@ -884,7 +884,7 @@ thread
 mFileHelper
 -
 >
-mFileHandle
+mMutableFile
 -
 >
 UnsetThreadLocals
@@ -1006,7 +1006,7 @@ endif
 mFileHelper
 -
 >
-mFileHandle
+mMutableFile
 -
 >
 SetThreadLocals

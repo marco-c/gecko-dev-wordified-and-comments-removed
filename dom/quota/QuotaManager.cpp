@@ -1573,7 +1573,7 @@ mCountdown
 }
 ;
 class
-WaitForLockedFilesToFinishRunnable
+WaitForFileHandlesToFinishRunnable
 MOZ_FINAL
 :
 public
@@ -1581,7 +1581,7 @@ nsRunnable
 {
 public
 :
-WaitForLockedFilesToFinishRunnable
+WaitForFileHandlesToFinishRunnable
 (
 )
 :
@@ -5747,7 +5747,7 @@ utilized
 service
 -
 >
-AbortLockedFilesForStorage
+AbortFileHandlesForStorage
 (
 storage
 )
@@ -5984,7 +5984,7 @@ utilized
 service
 -
 >
-HasLockedFilesForStorage
+HasFileHandlesForStorage
 (
 storage
 )
@@ -9840,12 +9840,12 @@ IsEmpty
 {
 nsRefPtr
 <
-WaitForLockedFilesToFinishRunnable
+WaitForFileHandlesToFinishRunnable
 >
 runnable
 =
 new
-WaitForLockedFilesToFinishRunnable
+WaitForFileHandlesToFinishRunnable
 (
 )
 ;
@@ -17348,7 +17348,7 @@ NS_OK
 ;
 }
 NS_IMETHODIMP
-WaitForLockedFilesToFinishRunnable
+WaitForFileHandlesToFinishRunnable
 :
 :
 Run

@@ -92,9 +92,9 @@ MPL
 *
 /
 interface
-IDBFileHandle
+IDBMutableFile
 :
-FileHandle
+MutableFile
 {
 readonly
 attribute

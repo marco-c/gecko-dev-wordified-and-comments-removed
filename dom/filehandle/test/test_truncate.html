@@ -109,7 +109,7 @@ fileStorages
 let
 request
 =
-getFileHandle
+getMutableFile
 (
 fileStorage
 .
@@ -140,7 +140,7 @@ yield
 undefined
 ;
 let
-fileHandle
+mutableFile
 =
 event
 .
@@ -148,16 +148,16 @@ target
 .
 result
 ;
-fileHandle
+mutableFile
 .
 onerror
 =
 errorHandler
 ;
 let
-lockedFile
-=
 fileHandle
+=
+mutableFile
 .
 open
 (
@@ -168,7 +168,7 @@ readwrite
 ;
 request
 =
-lockedFile
+fileHandle
 .
 write
 (
@@ -188,7 +188,7 @@ undefined
 ;
 is
 (
-lockedFile
+fileHandle
 .
 location
 100000
@@ -217,13 +217,13 @@ i
 let
 location
 =
-lockedFile
+fileHandle
 .
 location
 -
 10000
 ;
-lockedFile
+fileHandle
 .
 location
 =
@@ -231,7 +231,7 @@ location
 ;
 request
 =
-lockedFile
+fileHandle
 .
 truncate
 (
@@ -250,7 +250,7 @@ undefined
 ;
 is
 (
-lockedFile
+fileHandle
 .
 location
 location
@@ -262,7 +262,7 @@ location
 ;
 request
 =
-lockedFile
+fileHandle
 .
 getMetadata
 (
@@ -303,7 +303,7 @@ size
 }
 request
 =
-lockedFile
+fileHandle
 .
 write
 (
@@ -324,7 +324,7 @@ undefined
 let
 location
 =
-lockedFile
+fileHandle
 .
 location
 ;
@@ -351,7 +351,7 @@ location
 ;
 request
 =
-lockedFile
+fileHandle
 .
 truncate
 (
@@ -371,7 +371,7 @@ undefined
 ;
 is
 (
-lockedFile
+fileHandle
 .
 location
 location
@@ -383,7 +383,7 @@ location
 ;
 request
 =
-lockedFile
+fileHandle
 .
 getMetadata
 (

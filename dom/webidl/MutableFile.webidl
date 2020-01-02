@@ -92,7 +92,7 @@ MPL
 *
 /
 interface
-FileHandle
+MutableFile
 :
 EventTarget
 {
@@ -109,7 +109,7 @@ type
 [
 Throws
 ]
-LockedFile
+FileHandle
 open
 (
 optional
