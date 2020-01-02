@@ -1483,6 +1483,13 @@ HasAttachmentsOfMismatchedDimensions
 return
 LOCAL_GL_FRAMEBUFFER_INCOMPLETE_DIMENSIONS
 ;
+mBoundFramebuffer
+-
+>
+FinalizeAttachments
+(
+)
+;
 return
 gl
 -
