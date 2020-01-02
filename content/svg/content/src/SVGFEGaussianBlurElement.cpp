@@ -292,7 +292,7 @@ aRightLobe
 +
 1
 ;
-int32_t
+uint32_t
 scaledDivisor
 =
 ComputeScaledDivisor
@@ -300,7 +300,7 @@ ComputeScaledDivisor
 boxSize
 )
 ;
-int32_t
+uint32_t
 sums
 [
 4
@@ -418,10 +418,7 @@ if
 (
 aStartMinor
 +
-int32_t
-(
 boxSize
-)
 <
 =
 aEndMinor
