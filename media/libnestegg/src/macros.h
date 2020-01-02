@@ -26,6 +26,9 @@ t
 )
 (
 -
+(
+ptrdiff_t
+)
 offsetof
 (
 t
