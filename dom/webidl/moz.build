@@ -2667,16 +2667,6 @@ MozWifiConnectionInfoEvent
 webidl
 '
 '
-MozWifiP2pManager
-.
-webidl
-'
-'
-MozWifiP2pStatusChangeEvent
-.
-webidl
-'
-'
 MozWifiStatusChangeEvent
 .
 webidl
