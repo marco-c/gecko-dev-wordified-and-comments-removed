@@ -626,6 +626,9 @@ mAddress
 int32_t
 mPort
 ;
+nsCString
+mHost
+;
 nsCOMPtr
 <
 nsISocketTransport
