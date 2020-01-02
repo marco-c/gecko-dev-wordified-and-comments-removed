@@ -35621,6 +35621,9 @@ textures
 true
 )
 ;
+#
+ifndef
+XP_WIN
 pref
 (
 "
@@ -35635,6 +35638,8 @@ enabled
 false
 )
 ;
+#
+endif
 #
 ifdef
 XP_MACOSX

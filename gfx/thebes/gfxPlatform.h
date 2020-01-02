@@ -1481,6 +1481,12 @@ ComponentAlphaEnabled
 )
 ;
 static
+bool
+AsyncVideoEnabled
+(
+)
+;
+static
 eCMSMode
 GetCMSMode
 (
