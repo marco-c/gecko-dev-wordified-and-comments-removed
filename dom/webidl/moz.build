@@ -1680,11 +1680,6 @@ ServiceWorkerGlobalScope
 webidl
 '
 '
-ServiceWorkerRegistration
-.
-webidl
-'
-'
 SettingsManager
 .
 webidl
@@ -2844,11 +2839,6 @@ TestInterfaceJS
 .
 webidl
 '
-'
-TestInterfaceJSDictionaries
-.
-webidl
-'
 ]
 if
 CONFIG
@@ -3267,6 +3257,11 @@ webidl
 '
 '
 MozSettingsEvent
+.
+webidl
+'
+'
+MozSettingsTransactionEvent
 .
 webidl
 '
