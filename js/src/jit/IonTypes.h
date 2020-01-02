@@ -115,7 +115,6 @@ Bailout_NonObjectInput
 Bailout_NonStringInput
 Bailout_NonSymbolInput
 Bailout_GuardThreadExclusive
-Bailout_ParallelUnsafe
 Bailout_InitialState
 Bailout_OverflowInvalidate
 Bailout_NonStringInputInvalidate
