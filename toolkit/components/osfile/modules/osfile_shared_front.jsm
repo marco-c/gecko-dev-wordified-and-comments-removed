@@ -2055,7 +2055,6 @@ options
 from
 )
 {
-return
 OS
 .
 File
@@ -2065,6 +2064,8 @@ _makeDir
 path
 options
 )
+;
+return
 ;
 }
 if
