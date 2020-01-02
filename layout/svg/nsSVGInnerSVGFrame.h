@@ -222,7 +222,13 @@ virtual
 bool
 HasChildrenOnlyTransform
 (
-gfxMatrix
+mozilla
+:
+:
+gfx
+:
+:
+Matrix
 *
 aTransform
 )

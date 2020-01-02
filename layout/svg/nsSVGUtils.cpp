@@ -4131,7 +4131,10 @@ eSVGContainer
 )
 )
 {
-gfxMatrix
+gfx
+:
+:
+Matrix
 childrenOnlyTM
 ;
 if
@@ -4155,7 +4158,10 @@ childrenOnlyTM
 {
 tm
 =
+ThebesMatrix
+(
 childrenOnlyTM
+)
 .
 Invert
 (
