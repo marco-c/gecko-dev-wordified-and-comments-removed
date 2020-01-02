@@ -14,7 +14,7 @@ include
 <
 mozilla
 /
-Scoped
+UniquePtr
 .
 h
 >
@@ -83,10 +83,11 @@ len
 )
 {
 data_
-=
+.
+reset
+(
 new
-unsigned
-char
+uint8_t
 [
 len
 ?
@@ -94,6 +95,7 @@ len
 :
 1
 ]
+)
 ;
 memcpy
 (
@@ -136,6 +138,10 @@ const
 {
 return
 data_
+.
+get
+(
+)
 ;
 }
 size_t
@@ -164,9 +170,11 @@ len_
 }
 private
 :
-ScopedDeleteArray
+UniquePtr
 <
 uint8_t
+[
+]
 >
 data_
 ;
