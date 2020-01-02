@@ -29,6 +29,13 @@ h
 #
 include
 "
+nsFilterInstance
+.
+h
+"
+#
+include
+"
 nsLayoutUtils
 .
 h
@@ -58,13 +65,6 @@ h
 include
 "
 nsSVGElement
-.
-h
-"
-#
-include
-"
-nsSVGFilterInstance
 .
 h
 "
@@ -935,7 +935,7 @@ RoundOut
 nsRect
 overflowRect
 =
-nsSVGFilterInstance
+nsFilterInstance
 :
 :
 GetPostFilterBounds
@@ -1125,7 +1125,7 @@ toUserSpace
 nsRect
 result
 =
-nsSVGFilterInstance
+nsFilterInstance
 :
 :
 GetPostFilterDirtyArea
@@ -1227,7 +1227,7 @@ aDirtyRect
 toUserSpace
 ;
 return
-nsSVGFilterInstance
+nsFilterInstance
 :
 :
 GetPreFilterNeededArea
@@ -2036,7 +2036,7 @@ aDirtyRect
 -
 offset
 ;
-nsSVGFilterInstance
+nsFilterInstance
 :
 :
 PaintFilteredFrame

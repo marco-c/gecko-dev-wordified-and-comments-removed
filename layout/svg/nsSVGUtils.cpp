@@ -96,6 +96,13 @@ h
 #
 include
 "
+nsFilterInstance
+.
+h
+"
+#
+include
+"
 nsFrameList
 .
 h
@@ -195,13 +202,6 @@ h
 include
 "
 nsSVGEffects
-.
-h
-"
-#
-include
-"
-nsSVGFilterInstance
 .
 h
 "
@@ -845,7 +845,7 @@ aPreFilterRect
 ;
 }
 return
-nsSVGFilterInstance
+nsFilterInstance
 :
 :
 GetPostFilterBounds
@@ -3057,7 +3057,7 @@ tmpDirtyRect
 SVGPaintCallback
 paintCallback
 ;
-nsSVGFilterInstance
+nsFilterInstance
 :
 :
 PaintFilteredFrame
