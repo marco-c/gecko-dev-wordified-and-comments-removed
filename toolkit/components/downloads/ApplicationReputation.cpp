@@ -309,7 +309,7 @@ PREF_DOWNLOAD_BLOCK_TABLE
 "
 urlclassifier
 .
-downloadBlockTable
+download_block_table
 "
 #
 define
@@ -317,7 +317,7 @@ PREF_DOWNLOAD_ALLOW_TABLE
 "
 urlclassifier
 .
-downloadAllowTable
+download_allow_table
 "
 #
 if
