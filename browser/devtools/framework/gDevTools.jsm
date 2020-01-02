@@ -1186,6 +1186,12 @@ null
 )
 {
 return
+promise
+.
+reject
+(
+null
+)
 ;
 }
 return

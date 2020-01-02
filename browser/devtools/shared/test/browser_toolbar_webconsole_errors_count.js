@@ -1074,7 +1074,14 @@ closeToolbox
 (
 target1
 )
-;
+.
+then
+(
+(
+)
+=
+>
+{
 gBrowser
 .
 removeTab
@@ -1091,6 +1098,9 @@ tab2
 ;
 finish
 (
+)
+;
+}
 )
 ;
 }
