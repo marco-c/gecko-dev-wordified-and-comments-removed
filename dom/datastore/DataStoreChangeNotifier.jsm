@@ -75,6 +75,13 @@ jsm
 "
 )
 ;
+const
+kFromDataStoreChangeNotifier
+=
+"
+fromDataStoreChangeNotifier
+"
+;
 XPCOMUtils
 .
 defineLazyServiceGetter

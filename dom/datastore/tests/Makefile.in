@@ -149,10 +149,6 @@ file_arrays
 .
 html
 \
-test_oop
-.
-html
-\
 (
 NULL
 )
