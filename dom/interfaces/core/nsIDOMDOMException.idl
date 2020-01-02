@@ -412,6 +412,13 @@ DATA_CLONE_ERR
 =
 25
 ;
+const
+unsigned
+short
+INVALID_POINTER_ERR
+=
+26
+;
 readonly
 attribute
 unsigned

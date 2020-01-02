@@ -274,6 +274,12 @@ nsIDOMDOMException
 :
 :
 DATA_CLONE_ERR
+InvalidPointerId
+=
+nsIDOMDOMException
+:
+:
+INVALID_POINTER_ERR
 EncodingError
 =
 0
