@@ -5082,9 +5082,10 @@ bind
 rejoin
 )
 ;
-if
+masm
+.
+propagateOOM
 (
-!
 patchableBackedges_
 .
 append
@@ -5106,9 +5107,6 @@ label
 oolEntry
 )
 )
-)
-MOZ_CRASH
-(
 )
 ;
 }
@@ -5184,9 +5182,10 @@ bind
 rejoin
 )
 ;
-if
+masm
+.
+propagateOOM
 (
-!
 patchableBackedges_
 .
 append
@@ -5208,9 +5207,6 @@ label
 oolEntry
 )
 )
-)
-MOZ_CRASH
-(
 )
 ;
 }
