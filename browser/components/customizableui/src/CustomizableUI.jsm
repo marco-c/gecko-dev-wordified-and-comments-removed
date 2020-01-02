@@ -1416,12 +1416,6 @@ aToolbar
 return
 ;
 }
-this
-.
-beginBatchUpdate
-(
-)
-;
 let
 document
 =
@@ -1460,6 +1454,12 @@ area
 )
 ;
 }
+this
+.
+beginBatchUpdate
+(
+)
+;
 let
 placements
 =
