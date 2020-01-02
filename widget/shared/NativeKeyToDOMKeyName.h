@@ -1839,11 +1839,6 @@ Qt
 :
 Key_Zenkaku
 )
-KEY_MAP_ANDROID
-(
-Apps
-AKEYCODE_APP_SWITCH
-)
 KEY_MAP_WIN
 (
 F1
@@ -2593,6 +2588,11 @@ Qt
 :
 :
 Key_F35
+)
+KEY_MAP_ANDROID
+(
+Apps
+AKEYCODE_APP_SWITCH
 )
 KEY_MAP_WIN
 (
