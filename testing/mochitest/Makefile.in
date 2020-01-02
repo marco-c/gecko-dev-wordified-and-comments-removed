@@ -345,6 +345,10 @@ debug
 .
 json
 \
+gl
+.
+json
+\
 b2g_start_script
 .
 js
