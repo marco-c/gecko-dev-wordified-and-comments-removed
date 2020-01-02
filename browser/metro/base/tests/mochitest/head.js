@@ -4104,6 +4104,18 @@ aStartY
 )
 ;
 }
+this
+.
+_utils
+.
+elementFromPoint
+(
+aStartX
+aStartY
+false
+true
+)
+;
 if
 (
 this
@@ -4326,7 +4338,7 @@ promise
 end
 :
 function
-start
+end
 (
 )
 {
