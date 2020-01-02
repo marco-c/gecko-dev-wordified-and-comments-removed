@@ -462,6 +462,15 @@ include
 "
 mozilla
 /
+MouseEvents
+.
+h
+"
+#
+include
+"
+mozilla
+/
 css
 /
 ImageLoader

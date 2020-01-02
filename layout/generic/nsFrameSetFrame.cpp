@@ -206,6 +206,15 @@ h
 #
 include
 "
+mozilla
+/
+MouseEvents
+.
+h
+"
+#
+include
+"
 nsSubDocumentFrame
 .
 h

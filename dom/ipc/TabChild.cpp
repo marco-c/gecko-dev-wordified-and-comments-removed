@@ -166,6 +166,15 @@ include
 "
 mozilla
 /
+MouseEvents
+.
+h
+"
+#
+include
+"
+mozilla
+/
 StaticPtr
 .
 h

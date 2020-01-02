@@ -247,6 +247,15 @@ include
 "
 mozilla
 /
+MouseEvents
+.
+h
+"
+#
+include
+"
+mozilla
+/
 Services
 .
 h

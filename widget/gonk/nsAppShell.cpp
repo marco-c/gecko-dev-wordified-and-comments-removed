@@ -141,6 +141,15 @@ include
 "
 mozilla
 /
+MouseEvents
+.
+h
+"
+#
+include
+"
+mozilla
+/
 Mutex
 .
 h

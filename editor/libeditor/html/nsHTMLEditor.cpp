@@ -129,6 +129,13 @@ h
 #
 include
 "
+nsIDOMMouseEvent
+.
+h
+"
+#
+include
+"
 nsIDOMHTMLAnchorElement
 .
 h

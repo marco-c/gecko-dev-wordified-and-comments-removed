@@ -12,6 +12,15 @@ prtime
 .
 h
 "
+#
+include
+"
+mozilla
+/
+MouseEvents
+.
+h
+"
 nsDOMMouseScrollEvent
 :
 :

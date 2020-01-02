@@ -29,6 +29,15 @@ DragEventBinding
 .
 h
 "
+#
+include
+"
+mozilla
+/
+EventForwards
+.
+h
+"
 class
 nsDOMDragEvent
 :

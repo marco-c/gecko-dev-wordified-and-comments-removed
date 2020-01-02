@@ -40,6 +40,15 @@ h
 #
 include
 "
+mozilla
+/
+MouseEvents
+.
+h
+"
+#
+include
+"
 nsIDOMMouseEvent
 .
 h

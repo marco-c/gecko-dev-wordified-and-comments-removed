@@ -17,6 +17,15 @@ h
 #
 include
 "
+mozilla
+/
+MouseEvents
+.
+h
+"
+#
+include
+"
 nsCOMPtr
 .
 h

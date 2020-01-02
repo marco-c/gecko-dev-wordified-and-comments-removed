@@ -62,6 +62,15 @@ h
 #
 include
 "
+mozilla
+/
+MouseEvents
+.
+h
+"
+#
+include
+"
 nsRegion
 .
 h

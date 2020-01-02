@@ -357,6 +357,15 @@ h
 #
 include
 "
+mozilla
+/
+MouseEvents
+.
+h
+"
+#
+include
+"
 nsIFrame
 .
 h

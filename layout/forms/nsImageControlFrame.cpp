@@ -54,6 +54,15 @@ nsLayoutUtils
 .
 h
 "
+#
+include
+"
+mozilla
+/
+MouseEvents
+.
+h
+"
 using
 namespace
 mozilla

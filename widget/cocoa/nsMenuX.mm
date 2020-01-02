@@ -338,6 +338,15 @@ nsIXPConnect
 .
 h
 "
+#
+include
+"
+mozilla
+/
+MouseEvents
+.
+h
+"
 static
 bool
 gConstructingMenu

@@ -184,6 +184,15 @@ Element
 .
 h
 "
+#
+include
+"
+mozilla
+/
+MouseEvents
+.
+h
+"
 class
 nsSplitterInfo
 {
