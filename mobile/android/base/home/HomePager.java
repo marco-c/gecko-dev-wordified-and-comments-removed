@@ -1008,7 +1008,7 @@ hasFocus
 {
 final
 boolean
-enabled
+active
 =
 !
 hasFocus
@@ -1023,9 +1023,9 @@ mDefaultPageIndex
 ;
 mHomeBanner
 .
-setEnabled
+setActive
 (
-enabled
+active
 )
 ;
 }
@@ -1074,7 +1074,7 @@ null
 {
 mHomeBanner
 .
-setEnabled
+setActive
 (
 false
 )
@@ -1422,7 +1422,7 @@ null
 {
 mHomeBanner
 .
-setEnabled
+setActive
 (
 position
 =
