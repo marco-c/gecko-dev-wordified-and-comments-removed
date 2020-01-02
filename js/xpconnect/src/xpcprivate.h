@@ -1120,15 +1120,6 @@ nsXPConnect
 private
 :
 static
-PRThread
-*
-FindMainThread
-(
-)
-;
-private
-:
-static
 nsXPConnect
 *
 gSelf
