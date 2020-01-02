@@ -114,7 +114,7 @@ h
 "
 ;
 using
-GMPCodecSpecificInfo
+GMPBufferType
 from
 "
 gmp
@@ -168,7 +168,11 @@ GMPVideoEncodedFrameData
 aInputFrame
 bool
 aMissingFrames
-GMPCodecSpecificInfo
+GMPBufferType
+aBufferType
+uint8_t
+[
+]
 aCodecSpecificInfo
 int64_t
 aRenderTimeMs
