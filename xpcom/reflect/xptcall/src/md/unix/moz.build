@@ -1470,7 +1470,7 @@ SOURCES
 '
 xptcinvoke_asm_ppc_openbsd
 .
-s
+S
 '
 '
 xptcinvoke_ppc_openbsd
@@ -1480,7 +1480,7 @@ cpp
 '
 xptcstubs_asm_ppc_openbsd
 .
-s
+S
 '
 '
 xptcstubs_ppc_openbsd
