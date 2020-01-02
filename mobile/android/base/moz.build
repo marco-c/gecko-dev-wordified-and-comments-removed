@@ -1249,6 +1249,11 @@ GeckoScreenOrientation
 java
 '
 '
+GeckoSharedPrefs
+.
+java
+'
+'
 GeckoSmsManager
 .
 java
@@ -2390,6 +2395,11 @@ java
 '
 '
 Telemetry
+.
+java
+'
+'
+TelemetryContract
 .
 java
 '
