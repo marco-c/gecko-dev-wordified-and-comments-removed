@@ -252,7 +252,7 @@ type
 "
 Robocop
 :
-Status
+JS
 "
 innerType
 :
