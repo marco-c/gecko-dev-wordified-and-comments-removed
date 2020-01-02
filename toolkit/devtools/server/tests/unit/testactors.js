@@ -471,10 +471,10 @@ detached
 }
 _createExtraActors
 :
-CommonCreateExtraActors
+createExtraActors
 _appendExtraActors
 :
-CommonAppendExtraActors
+appendExtraActors
 }
 ;
 TestTabActor
