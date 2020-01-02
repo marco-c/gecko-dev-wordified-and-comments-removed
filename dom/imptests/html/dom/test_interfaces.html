@@ -1852,8 +1852,12 @@ collapse
 optional
 boolean
 toStart
+/
+*
 =
 false
+*
+/
 )
 ;
 void
@@ -2395,6 +2399,20 @@ strict
 ;
 var
 xmlDoc
+domException
+detachedRange
+element
+;
+var
+idlArray
+;
+setup
+(
+function
+(
+)
+{
+xmlDoc
 =
 document
 .
@@ -2407,9 +2425,6 @@ null
 "
 null
 )
-;
-var
-domException
 ;
 try
 {
@@ -2431,7 +2446,6 @@ domException
 e
 ;
 }
-var
 detachedRange
 =
 document
@@ -2446,7 +2460,6 @@ detach
 (
 )
 ;
-var
 element
 =
 xmlDoc
@@ -2471,7 +2484,6 @@ baz
 "
 )
 ;
-var
 idlArray
 =
 new
@@ -2749,6 +2761,9 @@ body
 classList
 '
 ]
+}
+)
+;
 }
 )
 ;
