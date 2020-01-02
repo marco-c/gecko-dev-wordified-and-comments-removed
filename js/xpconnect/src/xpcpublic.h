@@ -199,6 +199,14 @@ JSObject
 obj
 )
 ;
+bool
+IsXrayWrapper
+(
+JSObject
+*
+obj
+)
+;
 }
 namespace
 JS
