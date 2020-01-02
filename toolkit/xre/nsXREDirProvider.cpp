@@ -5136,15 +5136,6 @@ gAppData
 vendor
 &
 &
-!
-getenv
-(
-"
-MOZ_UPDATE_NO_HASH_DIR
-"
-)
-&
-&
 SUCCEEDED
 (
 updRoot

@@ -165,9 +165,9 @@ NS_DECL_NSIUPDATEPROCESSOR
 private
 :
 struct
-BackgroundUpdateInfo
+StagedUpdateInfo
 {
-BackgroundUpdateInfo
+StagedUpdateInfo
 (
 )
 :
@@ -186,7 +186,7 @@ false
 {
 }
 ~
-BackgroundUpdateInfo
+StagedUpdateInfo
 (
 )
 {
@@ -264,7 +264,7 @@ mIsOSUpdate
 private
 :
 void
-StartBackgroundUpdate
+StartStagedUpdate
 (
 )
 ;
@@ -300,7 +300,7 @@ nsIUpdate
 >
 mUpdate
 ;
-BackgroundUpdateInfo
+StagedUpdateInfo
 mInfo
 ;
 }
