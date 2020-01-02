@@ -1,4 +1,10 @@
 #
+ifndef
+nsColumnSetFrame_h___
+#
+define
+nsColumnSetFrame_h___
+#
 include
 "
 mozilla
@@ -275,6 +281,11 @@ nsPoint
 aPt
 )
 ;
+void
+DrainOverflowColumns
+(
+)
+;
 #
 ifdef
 DEBUG_FRAME_DUMP
@@ -387,11 +398,6 @@ false
 }
 }
 ;
-void
-DrainOverflowColumns
-(
-)
-;
 bool
 ReflowColumns
 (
@@ -495,3 +501,5 @@ aColData
 ;
 }
 ;
+#
+endif
