@@ -19908,6 +19908,16 @@ PRMJ_Now
 (
 )
 ;
+#
+ifdef
+JS_WORKER_THREADS
+EnqueuePendingParseTasksAfterGC
+(
+rt
+)
+;
+#
+endif
 }
 namespace
 {
