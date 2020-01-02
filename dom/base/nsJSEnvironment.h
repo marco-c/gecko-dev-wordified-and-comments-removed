@@ -384,6 +384,14 @@ RunCycleCollectorSlice
 ;
 static
 void
+RunCycleCollectorWorkSlice
+(
+int64_t
+aWorkBudget
+)
+;
+static
+void
 BeginCycleCollectionCallback
 (
 )

@@ -11197,7 +11197,10 @@ int64_t
 budget
 )
 {
-nsCycleCollector_collectSliceWork
+nsJSContext
+:
+:
+RunCycleCollectorWorkSlice
 (
 budget
 )
