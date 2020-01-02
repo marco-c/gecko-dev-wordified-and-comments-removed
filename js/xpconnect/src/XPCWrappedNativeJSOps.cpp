@@ -4910,6 +4910,18 @@ GetNativeScriptableSharedMap
 (
 )
 ;
+{
+XPCAutoLock
+lock
+(
+rt
+-
+>
+GetMapLock
+(
+)
+)
+;
 success
 =
 map
@@ -4933,6 +4945,7 @@ GetInterfacesBitmap
 newObj
 )
 ;
+}
 if
 (
 !
