@@ -48,6 +48,7 @@ FileSystemBase
 ;
 class
 FileSystemRequestParent
+MOZ_FINAL
 :
 public
 PFileSystemRequestParent
@@ -58,12 +59,6 @@ FileSystemRequestParent
 )
 public
 :
-FileSystemRequestParent
-(
-)
-;
-virtual
-~
 FileSystemRequestParent
 (
 )
@@ -108,6 +103,12 @@ MOZ_OVERRIDE
 ;
 private
 :
+virtual
+~
+FileSystemRequestParent
+(
+)
+;
 nsRefPtr
 <
 FileSystemBase

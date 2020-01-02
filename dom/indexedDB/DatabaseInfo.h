@@ -244,6 +244,7 @@ nextIndexId
 ;
 struct
 DatabaseInfo
+MOZ_FINAL
 :
 public
 DatabaseInfoGuts
@@ -258,11 +259,15 @@ false
 )
 {
 }
+private
+:
 ~
 DatabaseInfo
 (
 )
 ;
+public
+:
 static
 bool
 Get
@@ -586,6 +591,7 @@ indexes
 ;
 struct
 ObjectStoreInfo
+MOZ_FINAL
 :
 public
 ObjectStoreInfoGuts

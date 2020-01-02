@@ -917,6 +917,7 @@ nsDOMCameraControl
 ;
 class
 DOMCameraConfiguration
+MOZ_FINAL
 :
 public
 dom
@@ -951,7 +952,7 @@ mMaxFocusAreas
 uint32_t
 mMaxMeteringAreas
 ;
-protected
+private
 :
 ~
 DOMCameraConfiguration

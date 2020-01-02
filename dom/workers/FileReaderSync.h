@@ -47,6 +47,14 @@ NS_INLINE_DECL_REFCOUNTING
 (
 FileReaderSync
 )
+private
+:
+~
+FileReaderSync
+(
+)
+{
+}
 nsresult
 ConvertStream
 (

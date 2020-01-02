@@ -67,6 +67,7 @@ FileInfo
 ;
 class
 FileManager
+MOZ_FINAL
 {
 friend
 class
@@ -147,12 +148,6 @@ mLastFileId
 mInvalidated
 (
 false
-)
-{
-}
-~
-FileManager
-(
 )
 {
 }
@@ -335,6 +330,12 @@ aUsage
 ;
 private
 :
+~
+FileManager
+(
+)
+{
+}
 PersistenceType
 mPersistenceType
 ;

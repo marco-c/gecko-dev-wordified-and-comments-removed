@@ -119,12 +119,6 @@ WidgetGUIEvent
 aEvent
 )
 ;
-~
-TextComposition
-(
-)
-{
-}
 bool
 Destroyed
 (
@@ -348,6 +342,12 @@ aOther
 ;
 private
 :
+~
+TextComposition
+(
+)
+{
+}
 nsPresContext
 *
 mPresContext

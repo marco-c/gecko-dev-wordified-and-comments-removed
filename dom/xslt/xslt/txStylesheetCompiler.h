@@ -670,6 +670,7 @@ mValue
 ;
 class
 txStylesheetCompiler
+MOZ_FINAL
 :
 private
 txStylesheetCompilerState
@@ -817,6 +818,12 @@ txStylesheetCompiler
 )
 private
 :
+~
+txStylesheetCompiler
+(
+)
+{
+}
 nsresult
 startElementInternal
 (

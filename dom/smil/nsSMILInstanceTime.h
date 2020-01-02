@@ -29,6 +29,7 @@ nsSMILTimeValueSpec
 ;
 class
 nsSMILInstanceTime
+MOZ_FINAL
 {
 public
 :
@@ -61,11 +62,6 @@ nsSMILInterval
 aBaseInterval
 =
 nullptr
-)
-;
-~
-nsSMILInstanceTime
-(
 )
 ;
 void
@@ -322,8 +318,13 @@ NS_INLINE_DECL_REFCOUNTING
 (
 nsSMILInstanceTime
 )
-protected
+private
 :
+~
+nsSMILInstanceTime
+(
+)
+;
 void
 SetBaseInterval
 (

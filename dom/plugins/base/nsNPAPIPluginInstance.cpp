@@ -480,6 +480,7 @@ nullptr
 }
 class
 SharedPluginTexture
+MOZ_FINAL
 {
 public
 :
@@ -498,12 +499,6 @@ SharedPluginTexture
 .
 mLock
 "
-)
-{
-}
-~
-SharedPluginTexture
-(
 )
 {
 }
@@ -691,6 +686,12 @@ handle
 }
 private
 :
+~
+SharedPluginTexture
+(
+)
+{
+}
 nsNPAPIPluginInstance
 :
 :

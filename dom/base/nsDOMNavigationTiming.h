@@ -87,6 +87,7 @@ TYPE_RESERVED
 }
 class
 nsDOMNavigationTiming
+MOZ_FINAL
 {
 public
 :

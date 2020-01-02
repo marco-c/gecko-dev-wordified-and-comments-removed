@@ -43,6 +43,8 @@ CameraControlListener
 )
 ;
 }
+protected
+:
 virtual
 ~
 CameraControlListener
@@ -55,6 +57,8 @@ CameraControlListener
 )
 ;
 }
+public
+:
 NS_INLINE_DECL_THREADSAFE_REFCOUNTING
 (
 CameraControlListener

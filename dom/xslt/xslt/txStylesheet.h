@@ -68,6 +68,7 @@ txXSLKey
 ;
 class
 txStylesheet
+MOZ_FINAL
 {
 public
 :
@@ -85,11 +86,6 @@ friend
 class
 ImportFrame
 ;
-txStylesheet
-(
-)
-;
-~
 txStylesheet
 (
 )
@@ -332,6 +328,11 @@ mIsParam
 ;
 private
 :
+~
+txStylesheet
+(
+)
+;
 nsresult
 addTemplate
 (

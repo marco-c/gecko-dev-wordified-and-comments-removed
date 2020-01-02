@@ -50,6 +50,7 @@ MetadataHelper
 ;
 class
 MetadataParameters
+MOZ_FINAL
 {
 friend
 class
@@ -134,6 +135,12 @@ mLastModified
 }
 private
 :
+~
+MetadataParameters
+(
+)
+{
+}
 uint64_t
 mSize
 ;
