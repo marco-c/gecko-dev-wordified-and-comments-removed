@@ -584,6 +584,10 @@ SAFE_OP
 (
 Constant
 )
+SAFE_OP
+(
+SimdExtractElement
+)
 UNSAFE_OP
 (
 CloneLiteral
