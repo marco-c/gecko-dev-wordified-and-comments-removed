@@ -293,11 +293,6 @@ AttachToPreferences
 (
 )
 ;
-void
-SchduleAutoDelete
-(
-)
-;
 static
 uint32_t
 sUseNewCache

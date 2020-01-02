@@ -225,10 +225,12 @@ DropPrivateBrowsingEntries
 ;
 static
 void
-WipeCacheDirectory
+CleaupCacheDirectories
 (
 uint32_t
 aVersion
+uint32_t
+aActive
 )
 ;
 static

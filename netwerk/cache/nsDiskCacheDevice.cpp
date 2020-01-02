@@ -1843,14 +1843,6 @@ rv
 return
 rv
 ;
-nsDeleteDir
-:
-:
-RemoveOldTrashes
-(
-mCacheDirectory
-)
-;
 rv
 =
 OpenDiskCache
