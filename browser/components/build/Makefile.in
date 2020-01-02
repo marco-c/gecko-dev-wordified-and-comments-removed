@@ -62,9 +62,6 @@ nsBrowserCompsModule
 FORCE_SHARED_LIB
 =
 1
-USE_STATIC_LIBS
-=
-1
 ifeq
 (
 (
