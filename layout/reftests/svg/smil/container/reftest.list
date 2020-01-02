@@ -237,15 +237,6 @@ layersGPUAccelerated
 1
 16
 )
-random
--
-if
-(
-B2G
-&
-&
-browserIsRemote
-)
 =
 =
 deferred

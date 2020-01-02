@@ -210,15 +210,6 @@ html
 ref
 .
 html
-random
--
-if
-(
-B2G
-&
-&
-browserIsRemote
-)
 =
 =
 470250
