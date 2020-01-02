@@ -469,6 +469,7 @@ sGLXLibrary
 .
 DestroyPixmap
 (
+mDisplay
 mGLXPixmap
 )
 ;
@@ -1296,6 +1297,7 @@ sGLXLibrary
 .
 DestroyPixmap
 (
+mDisplay
 mGLXPixmap
 )
 ;
