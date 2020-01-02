@@ -53,17 +53,3 @@ MPL
 0
 /
 .
-MOCHITEST_BROWSER_FILES
-=
-\
-browser_420786
-.
-js
-\
-browser_633221
-.
-js
-\
-(
-NULL
-)

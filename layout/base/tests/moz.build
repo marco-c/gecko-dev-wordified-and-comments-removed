@@ -101,3 +101,13 @@ TEST_DIRS
 chrome
 '
 ]
+BROWSER_CHROME_MANIFESTS
++
+=
+[
+'
+browser
+.
+ini
+'
+]

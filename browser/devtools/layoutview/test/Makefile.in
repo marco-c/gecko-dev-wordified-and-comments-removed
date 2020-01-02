@@ -53,14 +53,3 @@ MPL
 0
 /
 .
-MOCHITEST_BROWSER_FILES
-:
-=
-\
-browser_layoutview
-.
-js
-\
-(
-NULL
-)

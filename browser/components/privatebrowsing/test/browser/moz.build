@@ -98,3 +98,13 @@ MODULE
 '
 test_privatebrowsing
 '
+BROWSER_CHROME_MANIFESTS
++
+=
+[
+'
+browser
+.
+ini
+'
+]
