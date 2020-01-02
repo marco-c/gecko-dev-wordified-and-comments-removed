@@ -233,8 +233,12 @@ JS_TYPEDOBJ_SLOT_NEXT_VIEW
 3
 #
 define
-JS_DATAVIEW_SLOTS
+JS_TYPEDOBJ_SLOT_NEXT_BUFFER
 4
+#
+define
+JS_DATAVIEW_SLOTS
+5
 /
 /
 Number
@@ -246,7 +250,7 @@ views
 #
 define
 JS_TYPEDOBJ_SLOT_LENGTH
-4
+5
 /
 /
 Length
@@ -262,7 +266,7 @@ below
 #
 define
 JS_TYPEDOBJ_SLOT_TYPE_DESCR
-5
+6
 /
 /
 For
@@ -285,7 +289,7 @@ kind
 #
 define
 JS_TYPEDOBJ_SLOTS
-6
+7
 /
 /
 Number

@@ -238,6 +238,10 @@ mozilla
 class
 ArrayBufferBuilder
 {
+void
+*
+mRawContents
+;
 uint8_t
 *
 mDataPtr

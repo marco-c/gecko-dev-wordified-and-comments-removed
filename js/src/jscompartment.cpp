@@ -286,6 +286,10 @@ gcIncomingGrayPointers
 (
 nullptr
 )
+gcLiveArrayBuffers
+(
+nullptr
+)
 gcWeakMapList
 (
 nullptr
