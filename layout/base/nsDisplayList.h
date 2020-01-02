@@ -4475,16 +4475,6 @@ mDidComputeVisibility
 }
 #
 endif
-void
-SetIsOpaque
-(
-)
-{
-mIsOpaque
-=
-true
-;
-}
 nsRect
 GetVisibleRect
 (
