@@ -8851,7 +8851,7 @@ obj
 xpc
 :
 :
-IsXBLScope
+IsContentXBLScope
 (
 js
 :
@@ -9554,7 +9554,7 @@ wrapper
 scope
 -
 >
-IsXBLScope
+IsContentXBLScope
 (
 )
 &

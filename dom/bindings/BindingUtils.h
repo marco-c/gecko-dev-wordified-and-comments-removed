@@ -6274,7 +6274,7 @@ if
 xpc
 :
 :
-IsInXBLScope
+IsInContentXBLScope
 (
 parent
 )

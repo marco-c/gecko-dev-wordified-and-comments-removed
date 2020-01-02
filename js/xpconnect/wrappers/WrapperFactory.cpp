@@ -1704,7 +1704,7 @@ xrayType
 NotXray
 &
 &
-IsXBLScope
+IsContentXBLScope
 (
 target
 )
@@ -1759,9 +1759,9 @@ securityWrapper
 waiveXrayFlag
 ;
 bool
-originIsXBLScope
+originIsContentXBLScope
 =
-IsXBLScope
+IsContentXBLScope
 (
 origin
 )
@@ -1774,7 +1774,7 @@ securityWrapper
 wantXrays
 xrayType
 waiveXrays
-originIsXBLScope
+originIsContentXBLScope
 )
 ;
 }

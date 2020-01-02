@@ -4150,7 +4150,7 @@ if
 xpc
 :
 :
-AllowXBLScope
+AllowContentXBLScope
 (
 js
 :

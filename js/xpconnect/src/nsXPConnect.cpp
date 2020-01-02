@@ -7031,14 +7031,14 @@ c
 )
 |
 |
-IsXBLScope
+IsContentXBLScope
 (
 c
 )
 |
 |
 !
-AllowXBLScope
+AllowContentXBLScope
 (
 c
 )

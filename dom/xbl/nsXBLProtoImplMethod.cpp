@@ -488,7 +488,7 @@ MOZ_ASSERT
 xpc
 :
 :
-IsInXBLScope
+IsInContentXBLScope
 (
 globalObject
 )

@@ -11387,7 +11387,7 @@ IsCallerChrome
 nsContentUtils
 :
 :
-IsCallerXBL
+IsCallerContentXBL
 (
 )
 &

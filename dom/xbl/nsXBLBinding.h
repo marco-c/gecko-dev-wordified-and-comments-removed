@@ -555,7 +555,7 @@ bool
 mMarkedForDeath
 ;
 bool
-mUsingXBLScope
+mUsingContentXBLScope
 ;
 nsXBLPrototypeBinding
 *
