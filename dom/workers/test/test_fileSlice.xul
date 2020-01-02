@@ -627,7 +627,7 @@ error
 +
 event
 .
-data
+message
 )
 ;
 finish

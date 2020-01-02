@@ -333,6 +333,8 @@ error
 "
 +
 data
+.
+message
 )
 ;
 workertest
