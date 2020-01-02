@@ -93,6 +93,11 @@ Translation
 .
 jsm
 '
+'
+TranslationDocument
+.
+jsm
+'
 ]
 JAR_MANIFESTS
 +
