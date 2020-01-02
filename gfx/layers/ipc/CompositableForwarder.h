@@ -463,17 +463,6 @@ false
 ;
 }
 virtual
-bool
-IsImageBridgeChild
-(
-)
-const
-{
-return
-false
-;
-}
-virtual
 LayersBackend
 GetCompositorBackendType
 (

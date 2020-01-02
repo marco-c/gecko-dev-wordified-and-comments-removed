@@ -509,6 +509,17 @@ const
 0
 ;
 virtual
+bool
+IsImageBridgeChild
+(
+)
+const
+{
+return
+false
+;
+}
+virtual
 MessageLoop
 *
 GetMessageLoop
