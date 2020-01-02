@@ -325,14 +325,6 @@ isOpaque
 =
 0
 ;
-virtual
-bool
-GetIsOpaque
-(
-)
-=
-0
-;
 NS_IMETHOD
 Reset
 (

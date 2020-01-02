@@ -2280,16 +2280,6 @@ isOpaque
 )
 MOZ_OVERRIDE
 ;
-bool
-GetIsOpaque
-(
-)
-MOZ_OVERRIDE
-{
-return
-mOpaque
-;
-}
 NS_IMETHOD
 Reset
 (
