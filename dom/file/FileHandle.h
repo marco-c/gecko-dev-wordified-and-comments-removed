@@ -58,9 +58,6 @@ class
 nsIDOMFile
 ;
 class
-nsIDOMLockedFile
-;
-class
 nsIFileStorage
 ;
 class

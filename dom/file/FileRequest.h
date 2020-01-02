@@ -27,9 +27,6 @@ DOMRequest
 .
 h
 "
-class
-nsIDOMLockedFile
-;
 namespace
 mozilla
 {
