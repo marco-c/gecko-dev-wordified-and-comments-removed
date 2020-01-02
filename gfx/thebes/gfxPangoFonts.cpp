@@ -5446,9 +5446,9 @@ SMALL_CAPS_SCALE_FACTOR
 ;
 style
 .
-smallCaps
+variantCaps
 =
-false
+NS_FONT_VARIANT_CAPS_NORMAL
 ;
 gfxFcFontEntry
 *

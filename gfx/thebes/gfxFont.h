@@ -319,8 +319,6 @@ aSystemFont
 bool
 aPrinterFont
 bool
-aSmallCaps
-bool
 aWeightSynthesis
 bool
 aStyleSynthesis
@@ -404,11 +402,6 @@ allowSyntheticWeight
 ;
 bool
 allowSyntheticStyle
-:
-1
-;
-bool
-smallCaps
 :
 1
 ;
@@ -582,16 +575,6 @@ style
 other
 .
 style
-)
-&
-&
-(
-smallCaps
-=
-=
-other
-.
-smallCaps
 )
 &
 &

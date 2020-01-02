@@ -614,12 +614,6 @@ IsPrinterSurface
 )
 aFont
 .
-variant
-=
-=
-NS_STYLE_FONT_VARIANT_SMALL_CAPS
-aFont
-.
 synthesis
 &
 NS_FONT_SYNTHESIS_WEIGHT
