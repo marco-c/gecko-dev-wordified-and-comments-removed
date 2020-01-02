@@ -247,6 +247,17 @@ i
 )
 ;
 }
+if
+(
+mCurrent
+=
+=
+aValue
+)
+{
+return
+;
+}
 mChanges
 .
 InsertElementAt
