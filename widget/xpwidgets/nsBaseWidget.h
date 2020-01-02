@@ -1491,11 +1491,6 @@ nsIntRect
 aRects
 )
 ;
-bool
-IsSmallPopup
-(
-)
-;
 virtual
 already_AddRefed
 <
