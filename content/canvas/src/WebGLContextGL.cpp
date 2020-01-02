@@ -4180,7 +4180,7 @@ zFar
 )
 ;
 }
-int
+WebGLVertexAttrib0Status
 WebGLContext
 :
 :
@@ -4223,7 +4223,7 @@ IsAttribInUse
 )
 {
 return
-VertexAttrib0Status
+WebGLVertexAttrib0Status
 :
 :
 EmulatedUninitializedArray
@@ -4252,7 +4252,7 @@ mAttribBuffers
 enabled
 )
 ?
-VertexAttrib0Status
+WebGLVertexAttrib0Status
 :
 :
 Default
@@ -4265,12 +4265,12 @@ IsAttribInUse
 0
 )
 ?
-VertexAttrib0Status
+WebGLVertexAttrib0Status
 :
 :
 EmulatedInitializedArray
 :
-VertexAttrib0Status
+WebGLVertexAttrib0Status
 :
 :
 EmulatedUninitializedArray
@@ -4286,7 +4286,7 @@ GLuint
 vertexCount
 )
 {
-int
+WebGLVertexAttrib0Status
 whatDoesAttrib0Need
 =
 WhatDoesVertexAttrib0Need
@@ -4298,7 +4298,7 @@ if
 whatDoesAttrib0Need
 =
 =
-VertexAttrib0Status
+WebGLVertexAttrib0Status
 :
 :
 Default
@@ -4488,7 +4488,7 @@ whatDoesAttrib0Need
 mFakeVertexAttrib0BufferStatus
 =
 =
-VertexAttrib0Status
+WebGLVertexAttrib0Status
 :
 :
 EmulatedInitializedArray
@@ -4497,7 +4497,7 @@ EmulatedInitializedArray
 whatDoesAttrib0Need
 =
 =
-VertexAttrib0Status
+WebGLVertexAttrib0Status
 :
 :
 EmulatedUninitializedArray
@@ -4633,7 +4633,7 @@ if
 mFakeVertexAttrib0BufferStatus
 =
 =
-VertexAttrib0Status
+WebGLVertexAttrib0Status
 :
 :
 EmulatedInitializedArray
@@ -4860,7 +4860,7 @@ UndoFakeVertexAttrib0
 (
 )
 {
-int
+WebGLVertexAttrib0Status
 whatDoesAttrib0Need
 =
 WhatDoesVertexAttrib0Need
@@ -4872,7 +4872,7 @@ if
 whatDoesAttrib0Need
 =
 =
-VertexAttrib0Status
+WebGLVertexAttrib0Status
 :
 :
 Default

@@ -4871,7 +4871,7 @@ UnbindFakeBlackTextures
 (
 )
 ;
-int
+WebGLVertexAttrib0Status
 WhatDoesVertexAttrib0Need
 (
 )
@@ -6027,7 +6027,7 @@ mFakeVertexAttrib0BufferObjectSize
 GLuint
 mFakeVertexAttrib0BufferObject
 ;
-int
+WebGLVertexAttrib0Status
 mFakeVertexAttrib0BufferStatus
 ;
 GLint
