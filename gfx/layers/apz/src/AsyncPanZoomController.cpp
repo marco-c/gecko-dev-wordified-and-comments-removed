@@ -8090,6 +8090,12 @@ Run
 (
 )
 ;
+delete
+deferredTasks
+[
+i
+]
+;
 }
 if
 (
