@@ -1335,12 +1335,6 @@ reftest
 reftest
 .
 list
-include
-outline
-/
-reftest
-.
-list
 #
 object
 /
