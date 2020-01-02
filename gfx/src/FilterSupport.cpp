@@ -1635,13 +1635,6 @@ mozilla
 namespace
 gfx
 {
-static
-const
-float
-kMaxStdDeviation
-=
-500
-;
 namespace
 FilterWrappers
 {
@@ -8484,8 +8477,10 @@ Length
 ]
 ;
 }
-static
 nsIntRegion
+FilterSupport
+:
+:
 PostFilterExtentsForPrimitive
 (
 const

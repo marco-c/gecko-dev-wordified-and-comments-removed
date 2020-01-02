@@ -138,6 +138,11 @@ UNIFIED_SOURCES
 =
 [
 '
+nsCSSFilterInstance
+.
+cpp
+'
+'
 nsFilterInstance
 .
 cpp

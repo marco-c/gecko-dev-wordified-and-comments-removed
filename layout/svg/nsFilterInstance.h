@@ -478,6 +478,9 @@ mPaintCallback
 gfxRect
 mTargetBBox
 ;
+nsIntRect
+mTargetBBoxInFilterSpace
+;
 gfxMatrix
 mFilterSpaceToDeviceSpaceTransform
 ;
