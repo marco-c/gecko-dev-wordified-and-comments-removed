@@ -405,6 +405,13 @@ bool
 aCaptured
 )
 ;
+virtual
+void
+NotifyWaitingForResourcesStatusChanged
+(
+)
+MOZ_OVERRIDE
+;
 void
 SetPlaybackRate
 (

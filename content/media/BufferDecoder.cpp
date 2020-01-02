@@ -434,6 +434,15 @@ OnReadMetadataCompleted
 )
 {
 }
+void
+BufferDecoder
+:
+:
+NotifyWaitingForResourcesStatusChanged
+(
+)
+{
+}
 MediaDecoderOwner
 *
 BufferDecoder

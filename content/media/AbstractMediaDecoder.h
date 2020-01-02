@@ -338,6 +338,14 @@ GetOwner
 =
 0
 ;
+virtual
+void
+NotifyWaitingForResourcesStatusChanged
+(
+)
+=
+0
+;
 class
 AutoNotifyDecoded
 {

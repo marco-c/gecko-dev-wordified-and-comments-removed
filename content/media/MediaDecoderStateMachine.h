@@ -639,6 +639,11 @@ IsPlaying
 (
 )
 ;
+void
+NotifyWaitingForResourcesStatusChanged
+(
+)
+;
 protected
 :
 void
