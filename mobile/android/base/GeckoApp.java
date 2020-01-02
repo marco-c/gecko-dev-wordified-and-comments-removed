@@ -10362,11 +10362,11 @@ setAlpha
 )
 ;
 }
-RelativeLayout
+ViewGroup
 mCameraLayout
 =
 (
-RelativeLayout
+ViewGroup
 )
 findViewById
 (
@@ -10420,11 +10420,11 @@ mCameraOrientationEventListener
 null
 ;
 }
-RelativeLayout
+ViewGroup
 mCameraLayout
 =
 (
-RelativeLayout
+ViewGroup
 )
 findViewById
 (
