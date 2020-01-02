@@ -478,7 +478,6 @@ isBoolean
 return
 BooleanToStringBuffer
 (
-cx
 v
 .
 toBoolean

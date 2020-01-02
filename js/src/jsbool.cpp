@@ -245,7 +245,6 @@ Boolean
 !
 BooleanToStringBuffer
 (
-cx
 b
 sb
 )
@@ -1034,9 +1033,6 @@ BooleanGetPrimitiveValueSlow
 (
 HandleObject
 wrappedBool
-JSContext
-*
-cx
 )
 {
 JSObject

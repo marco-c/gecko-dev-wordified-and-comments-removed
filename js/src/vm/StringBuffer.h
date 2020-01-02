@@ -729,9 +729,6 @@ inline
 bool
 BooleanToStringBuffer
 (
-JSContext
-*
-cx
 bool
 b
 StringBuffer
