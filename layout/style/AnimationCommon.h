@@ -972,7 +972,7 @@ mozilla
 :
 :
 AnimationPlayerPtrArray
-mAnimations
+mPlayers
 ;
 nsRefPtr
 <
