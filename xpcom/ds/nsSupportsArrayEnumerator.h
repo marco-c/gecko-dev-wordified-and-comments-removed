@@ -33,6 +33,7 @@ nsIBidirectionalEnumerator
 public
 :
 NS_DECL_ISUPPORTS
+explicit
 nsSupportsArrayEnumerator
 (
 nsISupportsArray

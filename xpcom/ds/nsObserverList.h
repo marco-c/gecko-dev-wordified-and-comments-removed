@@ -101,6 +101,7 @@ ref
 )
 {
 }
+explicit
 ObserverRef
 (
 nsIObserver
@@ -118,6 +119,7 @@ aObserver
 )
 {
 }
+explicit
 ObserverRef
 (
 nsIWeakReference
@@ -247,6 +249,7 @@ nsObserverService
 ;
 public
 :
+explicit
 nsObserverList
 (
 const
@@ -357,6 +360,7 @@ public
 :
 NS_DECL_ISUPPORTS
 NS_DECL_NSISIMPLEENUMERATOR
+explicit
 nsObserverEnumerator
 (
 nsObserverList

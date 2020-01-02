@@ -93,6 +93,7 @@ fallible_t
 ;
 public
 :
+explicit
 nsDeque
 (
 nsDequeFunctor
@@ -377,6 +378,7 @@ nsDequeIterator
 {
 public
 :
+explicit
 nsDequeIterator
 (
 const

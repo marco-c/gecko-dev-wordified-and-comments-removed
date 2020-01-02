@@ -586,6 +586,7 @@ mMaxSize
 endif
 private
 :
+explicit
 nsSupportsArray
 (
 const

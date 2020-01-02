@@ -186,6 +186,7 @@ MOZ_FINAL
 {
 public
 :
+explicit
 nsMainThreadPtrHolder
 (
 T

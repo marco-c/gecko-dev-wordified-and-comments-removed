@@ -385,6 +385,7 @@ FifoWatcher
 >
 sSingleton
 ;
+explicit
 FifoWatcher
 (
 nsCString

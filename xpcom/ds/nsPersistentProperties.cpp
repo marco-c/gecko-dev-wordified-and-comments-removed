@@ -288,6 +288,7 @@ nsPropertiesParser
 {
 public
 :
+explicit
 nsPropertiesParser
 (
 nsIPersistentProperties

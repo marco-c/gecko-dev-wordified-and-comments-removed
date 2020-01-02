@@ -40,6 +40,7 @@ nsConsoleMessage
 (
 )
 ;
+explicit
 nsConsoleMessage
 (
 const

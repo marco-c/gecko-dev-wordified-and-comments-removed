@@ -687,6 +687,7 @@ ClassType
 *
 mObj
 ;
+explicit
 nsRunnableMethodReceiver
 (
 ClassType
@@ -745,6 +746,7 @@ ClassType
 *
 mObj
 ;
+explicit
 nsRunnableMethodReceiver
 (
 ClassType

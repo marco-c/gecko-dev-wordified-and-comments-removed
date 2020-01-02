@@ -40,6 +40,7 @@ BlockingResourceBase
 {
 public
 :
+explicit
 OffTheBooksMutex
 (
 const
@@ -224,6 +225,7 @@ OffTheBooksMutex
 {
 public
 :
+explicit
 Mutex
 (
 const
@@ -291,6 +293,7 @@ BaseAutoLock
 {
 public
 :
+explicit
 BaseAutoLock
 (
 T
@@ -411,6 +414,7 @@ BaseAutoUnlock
 {
 public
 :
+explicit
 BaseAutoUnlock
 (
 T

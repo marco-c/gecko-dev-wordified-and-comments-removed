@@ -99,6 +99,7 @@ public
 :
 NS_DECL_AGGREGATED
 NS_DECL_NSIPROPERTIES
+explicit
 nsProperties
 (
 nsISupports

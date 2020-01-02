@@ -101,6 +101,7 @@ mValue
 struct
 _SomethingVeryRandomHere
 ;
+MOZ_IMPLICIT
 TimeDuration
 (
 _SomethingVeryRandomHere
@@ -1531,6 +1532,7 @@ int
 uint64_t
 )
 ;
+MOZ_IMPLICIT
 TimeStamp
 (
 TimeStampValue

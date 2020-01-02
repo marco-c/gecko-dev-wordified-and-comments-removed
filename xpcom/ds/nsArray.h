@@ -112,6 +112,7 @@ nsArrayBase
 aOther
 )
 ;
+explicit
 nsArrayBase
 (
 const
@@ -170,6 +171,7 @@ nsArray
 aOther
 )
 ;
+explicit
 nsArray
 (
 const
@@ -229,6 +231,7 @@ nsArrayCC
 aOther
 )
 ;
+explicit
 nsArrayCC
 (
 const

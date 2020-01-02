@@ -541,6 +541,7 @@ false
 {
 }
 MOZ_CONSTEXPR
+explicit
 nsCycleCollectionParticipant
 (
 bool
@@ -811,6 +812,7 @@ false
 {
 }
 MOZ_CONSTEXPR
+explicit
 nsScriptObjectTracer
 (
 bool
@@ -883,6 +885,7 @@ false
 {
 }
 MOZ_CONSTEXPR
+explicit
 nsXPCOMCycleCollectionParticipant
 (
 bool

@@ -105,6 +105,7 @@ mCallStack
 public
 :
 NS_DEADLOCK_DETECTOR_CONSTEXPR
+explicit
 CallStack
 (
 const
@@ -281,6 +282,7 @@ mResource
 CallStack
 mCallContext
 ;
+explicit
 ResourceAcquisition
 (
 const
@@ -824,6 +826,7 @@ mFirstSeen
 struct
 PRAutoLock
 {
+explicit
 PRAutoLock
 (
 PRLock
@@ -866,6 +869,7 @@ const
 uint32_t
 kDefaultNumBuckets
 ;
+explicit
 DeadlockDetector
 (
 uint32_t

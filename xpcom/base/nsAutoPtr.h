@@ -112,6 +112,7 @@ Ptr
 {
 public
 :
+MOZ_IMPLICIT
 Ptr
 (
 T
@@ -175,6 +176,7 @@ mRawPtr
 )
 {
 }
+MOZ_IMPLICIT
 nsAutoPtr
 (
 Ptr
@@ -1695,6 +1697,7 @@ mRawPtr
 )
 {
 }
+MOZ_IMPLICIT
 nsAutoArrayPtr
 (
 T
@@ -3242,6 +3245,7 @@ mRawPtr
 nullptr
 ;
 }
+MOZ_IMPLICIT
 nsRefPtr
 (
 T
@@ -3319,6 +3323,7 @@ take
 )
 {
 }
+MOZ_IMPLICIT
 nsRefPtr
 (
 const
@@ -5087,6 +5092,7 @@ nsCOMPtr_helper
 {
 public
 :
+explicit
 nsQueryObject
 (
 T

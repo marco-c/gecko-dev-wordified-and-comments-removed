@@ -812,6 +812,7 @@ js
 :
 WeakMapTracer
 {
+explicit
 FixWeakMappingGrayBitsTracer
 (
 JSRuntime
@@ -1084,6 +1085,7 @@ mAnyMarked
 struct
 Closure
 {
+explicit
 Closure
 (
 nsCycleCollectionNoteRootCallback

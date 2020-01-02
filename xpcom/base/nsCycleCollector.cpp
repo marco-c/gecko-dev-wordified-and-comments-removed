@@ -1049,6 +1049,7 @@ nullptr
 )
 {
 }
+explicit
 Iterator
 (
 PtrInfoOrBlock
@@ -1240,6 +1241,7 @@ Builder
 {
 public
 :
+explicit
 Builder
 (
 EdgePool
@@ -1988,6 +1990,7 @@ Builder
 {
 public
 :
+explicit
 Builder
 (
 NodePool
@@ -2153,6 +2156,7 @@ Enumerator
 {
 public
 :
+explicit
 Enumerator
 (
 NodePool
@@ -3784,6 +3788,7 @@ aParti
 struct
 SelectPointersVisitor
 {
+explicit
 SelectPointersVisitor
 (
 CCGraphBuilder
@@ -4407,6 +4412,7 @@ CCGraph
 aGraph
 )
 ;
+explicit
 GraphWalker
 (
 const
@@ -5222,6 +5228,7 @@ FILE
 *
 mStream
 ;
+explicit
 FileInfo
 (
 const
@@ -9386,6 +9393,7 @@ IsEmpty
 }
 public
 :
+explicit
 JSPurpleBuffer
 (
 JSPurpleBuffer
