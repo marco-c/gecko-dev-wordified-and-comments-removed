@@ -594,7 +594,7 @@ aStartup
 argc
 =
 =
-3
+2
 &
 &
 !
@@ -602,7 +602,7 @@ wcsicmp
 (
 argv
 [
-1
+0
 ]
 L
 "
@@ -616,7 +616,7 @@ mActivationURI
 =
 argv
 [
-2
+1
 ]
 ;
 }
@@ -1732,7 +1732,6 @@ argv
 =
 {
 "
-metrobrowser
 "
 "
 -
@@ -1918,7 +1917,6 @@ argv
 =
 {
 "
-metrobrowser
 "
 "
 -
