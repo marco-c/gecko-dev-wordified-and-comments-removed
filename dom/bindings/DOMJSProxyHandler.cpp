@@ -126,8 +126,11 @@ length
 )
 ;
 }
-int
+const
+char
 HandlerFamily
+=
+0
 ;
 js
 :
@@ -291,6 +294,7 @@ js
 SetDOMProxyInformation
 (
 (
+const
 void
 *
 )

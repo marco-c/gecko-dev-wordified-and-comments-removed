@@ -4358,9 +4358,11 @@ kungFuDeathGrip
 jsstr
 )
 ;
+static
 const
 char
 *
+const
 argnames
 [
 ]

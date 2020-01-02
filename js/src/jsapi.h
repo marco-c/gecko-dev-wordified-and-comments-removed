@@ -12081,6 +12081,7 @@ JS_SetTrustedPrincipals
 JSRuntime
 *
 rt
+const
 JSPrincipals
 *
 prin
@@ -12567,6 +12568,7 @@ nargs
 const
 char
 *
+const
 *
 argnames
 const
@@ -12609,6 +12611,7 @@ nargs
 const
 char
 *
+const
 *
 argnames
 const
@@ -12648,6 +12651,7 @@ nargs
 const
 char
 *
+const
 *
 argnames
 const
@@ -13253,6 +13257,7 @@ nargs
 const
 char
 *
+const
 *
 argnames
 const
@@ -13294,6 +13299,7 @@ nargs
 const
 char
 *
+const
 *
 argnames
 const

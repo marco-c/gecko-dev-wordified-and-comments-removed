@@ -426,6 +426,7 @@ BaseProxyHandler
 :
 BaseProxyHandler
 (
+const
 void
 *
 family
@@ -3066,6 +3067,7 @@ DirectProxyHandler
 :
 DirectProxyHandler
 (
+const
 void
 *
 family
@@ -4688,7 +4690,8 @@ singleton
 ;
 }
 static
-int
+const
+char
 sScriptedIndirectProxyHandlerFamily
 =
 0
@@ -6732,7 +6735,8 @@ singleton
 }
 ;
 static
-int
+const
+char
 sScriptedDirectProxyHandlerFamily
 =
 0
