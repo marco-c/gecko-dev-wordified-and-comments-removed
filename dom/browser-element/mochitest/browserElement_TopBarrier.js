@@ -454,7 +454,7 @@ false
 ;
 waitForMessages
 (
-8
+6
 )
 ;
 }
