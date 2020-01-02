@@ -46,13 +46,6 @@ h
 #
 include
 "
-nsIDocument
-.
-h
-"
-#
-include
-"
 mozilla
 /
 dom
@@ -74,6 +67,13 @@ include
 js
 /
 GCAPI
+.
+h
+"
+#
+include
+"
+nsPIDOMWindow
 .
 h
 "

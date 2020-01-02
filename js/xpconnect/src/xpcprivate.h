@@ -593,13 +593,6 @@ endif
 #
 endif
 #
-include
-"
-nsINode
-.
-h
-"
-#
 define
 XPC_CONTEXT_MAP_LENGTH
 8

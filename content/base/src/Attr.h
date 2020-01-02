@@ -69,13 +69,9 @@ nsStubMutationObserver
 .
 h
 "
-#
-include
-"
+class
 nsIDocument
-.
-h
-"
+;
 namespace
 mozilla
 {

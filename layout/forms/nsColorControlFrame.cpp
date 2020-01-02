@@ -68,6 +68,13 @@ nsStyleSet
 .
 h
 "
+#
+include
+"
+nsIDocument
+.
+h
+"
 using
 mozilla
 :

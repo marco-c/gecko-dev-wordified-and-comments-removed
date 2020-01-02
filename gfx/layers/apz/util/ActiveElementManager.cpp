@@ -69,6 +69,13 @@ Element
 h
 "
 #
+include
+"
+nsIDocument
+.
+h
+"
+#
 define
 AEM_LOG
 (

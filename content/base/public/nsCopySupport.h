@@ -11,13 +11,9 @@ nscore
 .
 h
 "
-#
-include
-"
+class
 nsINode
-.
-h
-"
+;
 class
 nsISelection
 ;

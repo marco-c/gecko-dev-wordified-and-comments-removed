@@ -62,13 +62,6 @@ h
 #
 include
 "
-nsIDocument
-.
-h
-"
-#
-include
-"
 nsIDOMDocument
 .
 h
@@ -154,6 +147,9 @@ dom
 :
 SVGGraphicsElement
 SVGIFrameElementBase
+;
+class
+nsIDocument
 ;
 class
 nsSVGIFrameFrame

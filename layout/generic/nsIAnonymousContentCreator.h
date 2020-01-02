@@ -14,13 +14,6 @@ h
 #
 include
 "
-nsIContent
-.
-h
-"
-#
-include
-"
 nsStyleContext
 .
 h
@@ -34,6 +27,9 @@ h
 "
 class
 nsBaseContentList
+;
+class
+nsIContent
 ;
 class
 nsIFrame
