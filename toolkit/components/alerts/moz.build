@@ -116,7 +116,7 @@ XPIDL_MODULE
 '
 alerts
 '
-SOURCES
+UNIFIED_SOURCES
 +
 =
 [
