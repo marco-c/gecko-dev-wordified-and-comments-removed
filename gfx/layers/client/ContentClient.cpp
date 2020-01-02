@@ -2510,7 +2510,10 @@ mTextureInfo
 .
 mDeprecatedTextureHostFlags
 =
-0
+DeprecatedTextureHostFlags
+:
+:
+DEFAULT
 ;
 PaintState
 result

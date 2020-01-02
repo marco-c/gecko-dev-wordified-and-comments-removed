@@ -2797,7 +2797,10 @@ aMoz2DBackend
 )
 mOpenMode
 (
-0
+OpenMode
+:
+:
+OPEN_NONE
 )
 mUsingFallbackDrawTarget
 (

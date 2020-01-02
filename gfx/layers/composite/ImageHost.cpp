@@ -616,7 +616,10 @@ DiagnosticFlags
 :
 IMAGE
 |
-DIAGNOSTIC_BIGIMAGE
+DiagnosticFlags
+:
+:
+BIGIMAGE
 rect
 aClipRect
 aTransform
