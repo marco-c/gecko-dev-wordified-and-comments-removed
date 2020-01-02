@@ -71354,6 +71354,17 @@ AC_DEFINE
 (
 MOZ_TREE_CAIRO
 )
+if
+test
+"
+OS_ARCH
+"
+=
+"
+WINNT
+"
+;
+then
 #
 For
 now
@@ -71382,6 +71393,7 @@ AC_DEFINE
 (
 HAVE_UINT64_T
 )
+fi
 #
 Define
 macros
