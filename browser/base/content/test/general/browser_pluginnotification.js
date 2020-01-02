@@ -6667,6 +6667,12 @@ activated
 "
 )
 ;
+executeSoon
+(
+function
+(
+)
+{
 var
 oldVal
 =
@@ -6771,6 +6777,9 @@ plugin_test
 .
 html
 "
+)
+;
+}
 )
 ;
 }
