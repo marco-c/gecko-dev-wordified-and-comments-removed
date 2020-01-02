@@ -4823,17 +4823,6 @@ higher
 >
 secret
 ;
-bool
-isResumedSession
-=
-!
-infoObject
--
->
-IsFullHandshake
-(
-)
-;
 PreliminaryHandshakeDone
 (
 fd
