@@ -265,6 +265,15 @@ src
 /
 fxa
 /
+TestAccountLoader
+.
+java
+'
+'
+src
+/
+fxa
+/
 TestBrowserIDKeyPairGeneration
 .
 java
