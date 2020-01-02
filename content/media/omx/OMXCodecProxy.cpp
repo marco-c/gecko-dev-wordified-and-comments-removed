@@ -364,6 +364,10 @@ mManagerService
 cancelClient
 (
 mClient
+IMediaResourceManagerService
+:
+:
+HW_VIDEO_DECODER
 )
 ;
 }
@@ -565,10 +569,11 @@ mManagerService
 requestMediaResource
 (
 mClient
-MediaResourceManagerClient
+IMediaResourceManagerService
 :
 :
 HW_VIDEO_DECODER
+true
 )
 ;
 }
