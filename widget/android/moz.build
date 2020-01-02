@@ -183,6 +183,11 @@ NativeJSContainer
 cpp
 '
 '
+nsAndroidProtocolHandler
+.
+cpp
+'
+'
 nsAppShell
 .
 cpp
@@ -284,6 +289,14 @@ dom
 system
 /
 android
+'
+'
+/
+netwerk
+/
+base
+/
+src
 '
 '
 /
