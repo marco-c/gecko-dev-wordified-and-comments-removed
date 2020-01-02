@@ -147,11 +147,11 @@ Shmem
 :
 mSegment
 (
-0
+nullptr
 )
 mData
 (
-0
+nullptr
 )
 mSize
 (
@@ -495,11 +495,11 @@ IHadBetterBeIPDLCodeCallingThis_OtherwiseIAmADoodyhead
 {
 mSegment
 =
-0
+nullptr
 ;
 mData
 =
-0
+nullptr
 ;
 mSize
 =

@@ -544,7 +544,7 @@ aNBytes
 )
 )
 return
-0
+nullptr
 ;
 }
 if
@@ -559,7 +559,7 @@ aNBytes
 )
 )
 return
-0
+nullptr
 ;
 segment
 -
@@ -642,7 +642,7 @@ aNBytes
 )
 )
 return
-0
+nullptr
 ;
 }
 if
@@ -657,7 +657,7 @@ aNBytes
 )
 )
 return
-0
+nullptr
 ;
 segment
 -
@@ -1071,7 +1071,7 @@ aSegment
 )
 mData
 (
-0
+nullptr
 )
 mSize
 (
@@ -1542,7 +1542,7 @@ if
 segment
 )
 return
-0
+nullptr
 ;
 Header
 *
@@ -1697,7 +1697,7 @@ void
 *
 iter
 =
-0
+nullptr
 ;
 SharedMemory
 :
@@ -1728,13 +1728,13 @@ type
 )
 )
 return
-0
+nullptr
 ;
 SharedMemory
 *
 segment
 =
-0
+nullptr
 ;
 size_t
 pageSize
@@ -1795,7 +1795,7 @@ handle
 )
 )
 return
-0
+nullptr
 ;
 if
 (
@@ -1871,7 +1871,7 @@ handle
 )
 )
 return
-0
+nullptr
 ;
 if
 (
@@ -1932,7 +1932,7 @@ if
 segment
 )
 return
-0
+nullptr
 ;
 Header
 *
@@ -2209,7 +2209,7 @@ if
 segment
 )
 return
-0
+nullptr
 ;
 *
 PtrToSize
@@ -2279,7 +2279,7 @@ void
 *
 iter
 =
-0
+nullptr
 ;
 size_t
 size
@@ -2304,13 +2304,13 @@ type
 )
 )
 return
-0
+nullptr
 ;
 SharedMemory
 *
 segment
 =
-0
+nullptr
 ;
 size_t
 segmentSize
@@ -2362,7 +2362,7 @@ handle
 )
 )
 return
-0
+nullptr
 ;
 if
 (
@@ -2427,7 +2427,7 @@ handle
 )
 )
 return
-0
+nullptr
 ;
 if
 (
@@ -2468,7 +2468,7 @@ if
 segment
 )
 return
-0
+nullptr
 ;
 if
 (
@@ -2718,7 +2718,7 @@ handle
 )
 )
 return
-0
+nullptr
 ;
 return
 new
@@ -2804,7 +2804,7 @@ nullptr
 ;
 }
 return
-0
+nullptr
 ;
 }
 IPC
