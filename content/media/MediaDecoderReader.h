@@ -1373,6 +1373,14 @@ ReleaseMediaResources
 }
 ;
 virtual
+void
+ReleaseDecoder
+(
+)
+{
+}
+;
+virtual
 nsresult
 ResetDecode
 (
