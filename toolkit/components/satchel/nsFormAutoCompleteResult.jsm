@@ -62,7 +62,7 @@ prevResult
 {
 this
 .
-_searchString
+searchString
 =
 searchString
 ;
@@ -140,7 +140,7 @@ FormAutoCompleteResult
 prototype
 =
 {
-_searchString
+searchString
 :
 "
 "
@@ -167,17 +167,6 @@ wrappedJSObject
 {
 return
 this
-;
-}
-get
-searchString
-(
-)
-{
-return
-this
-.
-_searchString
 ;
 }
 get
