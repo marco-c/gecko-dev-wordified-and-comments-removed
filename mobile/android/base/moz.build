@@ -2756,6 +2756,13 @@ java
 '
 widget
 /
+TabThumbnailWrapper
+.
+java
+'
+'
+widget
+/
 ThumbnailView
 .
 java
