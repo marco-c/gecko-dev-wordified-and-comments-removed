@@ -1090,9 +1090,6 @@ DEPTH
 _tests
 /
 testing
-/
-mochitest
-/
 &
 &
 tar
@@ -1100,7 +1097,7 @@ tar
 TAR_CREATE_FLAGS
 )
 -
-*
+mochitest
 )
 |
 (
@@ -1108,8 +1105,6 @@ cd
 (
 PKG_STAGE
 )
-/
-mochitest
 &
 &
 tar
@@ -1205,8 +1200,6 @@ topsrcdir
 build
 /
 pgo
-/
-certs
 &
 &
 tar
@@ -1214,7 +1207,7 @@ tar
 TAR_CREATE_FLAGS
 )
 -
-*
+certs
 )
 |
 (
@@ -1222,8 +1215,6 @@ cd
 (
 PKG_STAGE
 )
-/
-certs
 &
 &
 tar
