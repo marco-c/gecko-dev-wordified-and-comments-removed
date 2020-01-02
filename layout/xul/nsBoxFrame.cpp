@@ -3807,6 +3807,11 @@ GetOverflowAreas
 (
 )
 ;
+AddStateBits
+(
+NS_FRAME_IN_REFLOW
+)
+;
 nsReflowStatus
 reflowStatus
 =
@@ -3822,6 +3827,11 @@ PresContext
 desiredSize
 reflowState
 reflowStatus
+)
+;
+RemoveStateBits
+(
+NS_FRAME_IN_REFLOW
 )
 ;
 }
