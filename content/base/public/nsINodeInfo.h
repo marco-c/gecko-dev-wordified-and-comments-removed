@@ -100,10 +100,6 @@ kNameSpaceID_None
 0
 nullptr
 )
-mOwnerManager
-(
-nullptr
-)
 {
 }
 void
@@ -935,8 +931,10 @@ nsIAtom
 >
 mIDAttributeAtom
 ;
+nsRefPtr
+<
 nsNodeInfoManager
-*
+>
 mOwnerManager
 ;
 nsString

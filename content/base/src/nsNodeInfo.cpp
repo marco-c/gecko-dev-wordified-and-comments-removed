@@ -162,11 +162,6 @@ mInner
 mExtraName
 )
 ;
-NS_RELEASE
-(
-mOwnerManager
-)
-;
 }
 nsNodeInfo
 :
@@ -238,12 +233,9 @@ mNodeType
 =
 aNodeType
 ;
-NS_ADDREF
-(
 mOwnerManager
 =
 aOwnerManager
-)
 ;
 NS_IF_ADDREF
 (
@@ -713,7 +705,7 @@ get
 )
 )
 }
-NS_IMPL_CYCLE_COLLECTION_TRAVERSE_RAWPTR
+NS_IMPL_CYCLE_COLLECTION_TRAVERSE
 (
 mOwnerManager
 )
