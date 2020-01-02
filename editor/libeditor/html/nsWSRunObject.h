@@ -1193,7 +1193,7 @@ outEndOffset
 void
 FindRun
 (
-nsIDOMNode
+nsINode
 *
 aNode
 int32_t
