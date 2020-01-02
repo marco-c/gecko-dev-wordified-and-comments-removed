@@ -477,7 +477,7 @@ shortcutId
 ;
 if
 (
-doc
+shortcut
 )
 {
 additionalArgs
