@@ -22466,14 +22466,14 @@ length
 {
 static
 const
-unsigned
+size_t
 TINY_LENGTH
 =
 1000
 ;
 static
 const
-unsigned
+size_t
 HUGE_LENGTH
 =
 100
@@ -22497,6 +22497,9 @@ TINY_LENGTH
 return
 false
 ;
+#
+ifdef
+JS_THREADSAFE
 if
 (
 OffThreadParsingMustWaitForGC
@@ -22517,6 +22520,8 @@ HUGE_LENGTH
 return
 false
 ;
+#
+endif
 }
 return
 cx
