@@ -140,6 +140,11 @@ SUPPORTED_PROTOCOL_VERSIONS
 .
 1
 "
+"
+1
+.
+5
+"
 ]
 ;
 this
