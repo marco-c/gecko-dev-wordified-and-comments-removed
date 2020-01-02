@@ -2719,7 +2719,9 @@ unboxIndex
 Register
 temp
 FloatRegister
-tempFloat
+tempDouble
+FloatRegister
+tempFloat32
 ValueOperand
 index
 ConstantOrRegister
