@@ -705,7 +705,7 @@ case
 eMouseEventClass
 :
 case
-NS_POINTER_EVENT
+ePointerEventClass
 :
 return
 AsMouseEvent
