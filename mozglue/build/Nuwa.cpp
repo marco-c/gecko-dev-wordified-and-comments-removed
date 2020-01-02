@@ -2695,9 +2695,6 @@ thread_info_t
 tinfo
 )
 {
-int
-rv
-;
 for
 (
 TLSInfoList
