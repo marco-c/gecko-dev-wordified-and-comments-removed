@@ -11736,6 +11736,12 @@ destroy
 (
 )
 ;
+NotificationHelper
+.
+destroy
+(
+)
+;
 if
 (
 SmsManager
