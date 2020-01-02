@@ -373,6 +373,9 @@ None
 crashreporter
 =
 True
+debugger
+=
+False
 )
 :
         

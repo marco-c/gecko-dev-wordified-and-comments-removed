@@ -1588,6 +1588,11 @@ xrePath
 options
 .
 xrePath
+debugger
+=
+options
+.
+debugger
 )
     
 browserEnv
