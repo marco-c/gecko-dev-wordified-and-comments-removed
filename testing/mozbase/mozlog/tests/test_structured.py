@@ -22,6 +22,8 @@ commandline
 reader
     
 structuredlog
+    
+stdadapter
 )
 class
 TestHandler
@@ -969,7 +971,7 @@ DEBUG
         
 logger
 =
-structuredlog
+stdadapter
 .
 std_logging_adapter
 (
