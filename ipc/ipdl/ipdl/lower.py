@@ -1481,6 +1481,12 @@ _makeForwardDeclForQClass
 (
 clsname
 quals
+cls
+=
+1
+struct
+=
+0
 )
 :
     
@@ -1491,7 +1497,10 @@ ForwardDecl
 clsname
 cls
 =
-1
+cls
+struct
+=
+struct
 )
     
 if
