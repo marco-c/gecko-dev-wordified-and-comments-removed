@@ -259,6 +259,11 @@ File
 removeDir
 (
 dir
+{
+ignoreAbsent
+:
+false
+}
 )
 ;
 }
@@ -310,6 +315,16 @@ OS
 .
 File
 .
+removeDir
+(
+dir
+)
+;
+yield
+OS
+.
+File
+.
 writeAtomic
 (
 file
@@ -342,6 +357,11 @@ File
 removeDir
 (
 file
+{
+ignoreAbsent
+:
+false
+}
 )
 ;
 }
@@ -450,6 +470,7 @@ removeDir
 (
 dir
 )
+;
 do_check_false
 (
 (
@@ -530,6 +551,7 @@ removeDir
 (
 dir
 )
+;
 do_check_false
 (
 (
