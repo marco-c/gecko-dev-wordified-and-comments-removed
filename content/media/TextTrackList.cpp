@@ -312,6 +312,8 @@ nsAString
 aLanguage
 TextTrackMode
 aMode
+TextTrackReadyState
+aReadyState
 TextTrackSource
 aTextTrackSource
 const
@@ -335,6 +337,7 @@ aKind
 aLabel
 aLanguage
 aMode
+aReadyState
 aTextTrackSource
 )
 ;

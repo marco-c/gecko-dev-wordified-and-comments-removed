@@ -140,6 +140,8 @@ nsAString
 aLanguage
 TextTrackMode
 aMode
+TextTrackReadyState
+aReadyState
 TextTrackSource
 aTextTrackSource
 )
@@ -173,6 +175,10 @@ mMode
 =
 aMode
 ;
+mReadyState
+=
+aReadyState
+;
 SetIsDOMBinding
 (
 )
@@ -201,6 +207,8 @@ nsAString
 aLanguage
 TextTrackMode
 aMode
+TextTrackReadyState
+aReadyState
 TextTrackSource
 aTextTrackSource
 )
@@ -237,6 +245,10 @@ aLanguage
 mMode
 =
 aMode
+;
+mReadyState
+=
+aReadyState
 ;
 SetIsDOMBinding
 (

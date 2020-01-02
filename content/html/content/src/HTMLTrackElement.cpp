@@ -769,6 +769,10 @@ TextTrackMode
 :
 :
 Disabled
+TextTrackReadyState
+:
+:
+NotLoaded
 TextTrackSource
 :
 :
