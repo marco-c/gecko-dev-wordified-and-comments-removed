@@ -273,8 +273,7 @@ exec
 {
 output
 :
-"
-"
+true
 }
 }
 ]

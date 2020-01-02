@@ -1188,9 +1188,9 @@ null
 return
 promise
 .
-reject
+resolve
 (
-null
+false
 )
 ;
 }
@@ -1199,6 +1199,15 @@ toolbox
 .
 destroy
 (
+)
+.
+then
+(
+(
+)
+=
+>
+true
 )
 ;
 }
