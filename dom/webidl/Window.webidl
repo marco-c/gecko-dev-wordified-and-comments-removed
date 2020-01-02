@@ -2846,7 +2846,11 @@ sidebar
 #
 endif
 [
-ChromeOnly
+Func
+=
+"
+IsChromeOrXBL
+"
 ]
 interface
 ChromeWindow

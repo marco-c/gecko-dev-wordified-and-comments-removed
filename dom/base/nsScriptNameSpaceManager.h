@@ -122,11 +122,6 @@ mAllowXBL
 :
 1
 ;
-bool
-mDisabled
-:
-1
-;
 union
 {
 int32_t
@@ -279,8 +274,6 @@ bool
 aPrivileged
 bool
 aXBLAllowed
-bool
-aDisabled
 const
 char16_t
 *
@@ -526,6 +519,10 @@ const
 nsAString
 &
 aGlobalName
+const
+nsGlobalNameStruct
+&
+aGlobalNameStruct
 void
 *
 aClosure
