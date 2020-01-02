@@ -3091,6 +3091,17 @@ return
 nullptr
 ;
 }
+static
+bool
+WindowOnWebIDL
+(
+JSContext
+*
+JSObject
+*
+aObj
+)
+;
 nsIDOMWindow
 *
 GetWindow
@@ -5251,6 +5262,9 @@ CallerInnerWindow
 void
 InnerSetNewDocument
 (
+JSContext
+*
+aCx
 nsIDocument
 *
 aDocument
