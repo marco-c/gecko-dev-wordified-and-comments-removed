@@ -1693,13 +1693,9 @@ clasp
 if
 (
 !
-global
--
->
-getTypedObjectModule
-(
-)
-.
+TypedObjectModuleObject
+:
+:
 getSuitableClaspAndProto
 (
 cx
