@@ -9200,6 +9200,15 @@ reason
 return
 ;
 }
+if
+(
+zone
+-
+>
+usedByExclusiveThread
+)
+return
+;
 JSRuntime
 *
 rt
