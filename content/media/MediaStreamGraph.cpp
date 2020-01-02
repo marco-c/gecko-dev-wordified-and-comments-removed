@@ -3408,11 +3408,11 @@ i
 for
 (
 uint32_t
-i
+j
 =
 0
 ;
-i
+j
 <
 mStreams
 [
@@ -3428,7 +3428,7 @@ Length
 ;
 +
 +
-i
+j
 )
 {
 mStreams
@@ -3439,7 +3439,7 @@ i
 >
 mAudioOutputStreams
 [
-i
+j
 ]
 .
 mStream
@@ -3490,11 +3490,11 @@ i
 for
 (
 uint32_t
-i
+j
 =
 0
 ;
-i
+j
 <
 mStreams
 [
@@ -3510,7 +3510,7 @@ Length
 ;
 +
 +
-i
+j
 )
 {
 mStreams
@@ -3521,7 +3521,7 @@ i
 >
 mAudioOutputStreams
 [
-i
+j
 ]
 .
 mStream
