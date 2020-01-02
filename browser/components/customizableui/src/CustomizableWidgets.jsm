@@ -5037,7 +5037,7 @@ subviewbutton
 addShortcut
 (
 item
-doc
+aDocument
 elem
 )
 ;
