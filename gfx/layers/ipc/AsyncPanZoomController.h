@@ -746,6 +746,11 @@ ANIMATING_ZOOM
 WAITING_CONTENT_RESPONSE
 }
 ;
+bool
+TouchActionAllowZoom
+(
+)
+;
 TouchBehaviorFlags
 GetTouchBehavior
 (
