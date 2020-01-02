@@ -58,7 +58,7 @@ shared
 libs
 for
 webrtc
-WEBRTC_LIBS
+SHARED_LIBRARY_LIBS
 =
 \
 (
@@ -721,7 +721,7 @@ ifneq
 INTEL_ARCHITECTURE
 )
 )
-WEBRTC_LIBS
+SHARED_LIBRARY_LIBS
 +
 =
 \
@@ -832,7 +832,7 @@ check
 extra
 ARM
 libs
-WEBRTC_LIBS
+SHARED_LIBRARY_LIBS
 +
 =
 \
@@ -873,7 +873,7 @@ BUILD_ARM_NEON
 )
 1
 )
-WEBRTC_LIBS
+SHARED_LIBRARY_LIBS
 +
 =
 \

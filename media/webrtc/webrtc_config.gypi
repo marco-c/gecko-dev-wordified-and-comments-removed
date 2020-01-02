@@ -301,9 +301,15 @@ here
 you
 must
 modify
-shared_libs
+layout
+/
+media
+/
+webrtc
+/
+Makefile
 .
-mk
+in
 !
 '
 include_g711

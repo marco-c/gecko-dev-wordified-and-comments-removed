@@ -200,7 +200,7 @@ not
 CONFIG
 [
 '
-MOZ_WEBRTC_IN_LIBXUL
+MOZ_WEBRTC
 '
 ]
 :
