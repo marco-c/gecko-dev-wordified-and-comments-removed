@@ -643,6 +643,7 @@ nsIDOMEventTarget
 '
 :
 '
+&
 mozilla
 :
 :
@@ -656,14 +657,13 @@ sNativePropertyHooks
 -
 >
 mNativeProperties
-.
-regular
 '
 '
 nsIDOMWindow
 '
 :
 '
+&
 mozilla
 :
 :
@@ -677,7 +677,5 @@ sNativePropertyHooks
 -
 >
 mNativeProperties
-.
-regular
 '
 }
