@@ -300,6 +300,8 @@ class
 MacOSMutex
 :
 public
+:
+:
 Mutex
 {
 public
@@ -420,6 +422,8 @@ mutex_
 ;
 }
 ;
+:
+:
 Mutex
 *
 OS
@@ -1420,6 +1424,8 @@ int
 intervalMicro_
 ;
 static
+:
+:
 Mutex
 *
 mutex_
