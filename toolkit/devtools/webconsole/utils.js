@@ -247,7 +247,7 @@ s
 const
 CONSOLE_ENTRY_THRESHOLD
 =
-10
+5
 let
 WebConsoleUtils
 =
