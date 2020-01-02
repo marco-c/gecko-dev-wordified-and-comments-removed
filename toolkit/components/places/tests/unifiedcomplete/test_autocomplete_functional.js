@@ -584,8 +584,12 @@ false
 addBookmark
 (
 {
-url
+uri
 :
+NetUtil
+.
+newURI
+(
 "
 http
 :
@@ -598,6 +602,7 @@ mozilla
 org
 /
 "
+)
 }
 )
 ;
