@@ -3146,7 +3146,9 @@ History
 ENTITY
 appMenuHistory
 .
-moreLabel
+showAll
+.
+label
 "
 Show
 All
@@ -3158,7 +3160,9 @@ History
 ENTITY
 appMenuHistory
 .
-clearRecentLabel
+clearRecent
+.
+label
 "
 Clear
 Recent
@@ -3171,6 +3175,8 @@ ENTITY
 appMenuHistory
 .
 restoreSession
+.
+label
 "
 Restore
 Previous

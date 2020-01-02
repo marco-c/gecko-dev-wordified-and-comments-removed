@@ -660,7 +660,9 @@ label
 &
 appMenuHistory
 .
-clearRecentLabel
+clearRecent
+.
+label
 ;
 "
 command
@@ -686,6 +688,8 @@ label
 appMenuHistory
 .
 restoreSession
+.
+label
 ;
 "
 command
@@ -716,7 +720,9 @@ value
 &
 appMenuHistory
 .
-moreLabel
+showAll
+.
+label
 ;
 "
 id
