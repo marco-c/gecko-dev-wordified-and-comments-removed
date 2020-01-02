@@ -3836,7 +3836,7 @@ startswith
                 
 path
 =
-self
+context
 .
 config
 .
