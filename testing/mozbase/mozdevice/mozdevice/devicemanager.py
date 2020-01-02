@@ -484,7 +484,7 @@ self
 .
 _logger
 .
-warn
+warning
 (
 "
 dm
@@ -554,7 +554,7 @@ self
 .
 _logger
 .
-warn
+warning
 (
 "
 dm
