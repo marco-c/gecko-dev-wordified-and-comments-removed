@@ -133,6 +133,11 @@ UNIFIED_SOURCES
 =
 [
 '
+ExportHelpers
+.
+cpp
+'
+'
 nsCxPusher
 .
 cpp
