@@ -526,6 +526,9 @@ node
 node
 ;
 }
+#
+ifdef
+DEBUG
 PL_DHashMarkTableImmutable
 (
 &
@@ -538,6 +541,8 @@ PL_DHashMarkTableImmutable
 gEntityToUnicode
 )
 ;
+#
+endif
 }
 +
 +

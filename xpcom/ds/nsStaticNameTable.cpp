@@ -800,12 +800,17 @@ mIndex
 index
 ;
 }
+#
+ifdef
+DEBUG
 PL_DHashMarkTableImmutable
 (
 &
 mNameTable
 )
 ;
+#
+endif
 return
 true
 ;
