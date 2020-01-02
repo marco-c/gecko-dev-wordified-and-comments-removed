@@ -226,6 +226,17 @@ Element
 .
 h
 "
+#
+if
+defined
+(
+XP_WIN
+)
+#
+undef
+LoadImage
+#
+endif
 using
 namespace
 mozilla

@@ -115,6 +115,17 @@ Units
 .
 h
 "
+#
+if
+defined
+(
+XP_WIN
+)
+#
+undef
+LoadImage
+#
+endif
 class
 imgICache
 ;
