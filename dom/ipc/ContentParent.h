@@ -415,6 +415,9 @@ aContext
 Element
 *
 aFrameElement
+ContentParent
+*
+aOpenerContentParent
 )
 ;
 static
