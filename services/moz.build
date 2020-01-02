@@ -103,6 +103,9 @@ common
 '
 crypto
 '
+'
+fxaccounts
+'
 ]
 if
 CONFIG
