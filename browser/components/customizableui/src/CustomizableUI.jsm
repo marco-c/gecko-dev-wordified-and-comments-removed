@@ -868,6 +868,9 @@ allowedAreas
 CustomizableUI
 .
 AREA_PANEL
+CustomizableUI
+.
+AREA_NAVBAR
 ]
 icons
 :
@@ -4344,6 +4347,16 @@ aWidget
 .
 viewId
 aNode
+this
+.
+getPlacementOfWidget
+(
+aNode
+.
+id
+)
+.
+area
 )
 ;
 }
