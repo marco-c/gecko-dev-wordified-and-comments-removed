@@ -5270,15 +5270,6 @@ devtools
 -
 toolbarbutton
 "
-onclick
-=
-"
-NetMonitorView
-.
-toggleFrontendMode
-(
-)
-"
 label
 =
 "
