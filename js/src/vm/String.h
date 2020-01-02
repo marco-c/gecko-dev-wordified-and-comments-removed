@@ -1805,6 +1805,13 @@ MOZ_DELETE
 ;
 }
 ;
+static
+const
+bool
+EnableLatin1Strings
+=
+false
+;
 class
 JSRope
 :

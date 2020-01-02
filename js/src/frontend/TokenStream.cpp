@@ -3161,7 +3161,7 @@ uclinebuf
 =
 windowBuf
 .
-extractWellSized
+stealChars
 (
 )
 ;

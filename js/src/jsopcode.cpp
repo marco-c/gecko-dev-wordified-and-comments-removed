@@ -10406,7 +10406,7 @@ append
 ;
 buf
 .
-appendInflated
+append
 (
 name
 strlen
@@ -10417,7 +10417,7 @@ name
 ;
 buf
 .
-appendInflated
+append
 (
 "
 \
@@ -11609,7 +11609,7 @@ append
 ;
 buf
 .
-appendInflated
+append
 (
 name
 strlen

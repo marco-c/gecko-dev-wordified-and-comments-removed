@@ -1156,7 +1156,7 @@ if
 !
 sb
 .
-appendInflated
+append
 (
 cfilename
 strlen
