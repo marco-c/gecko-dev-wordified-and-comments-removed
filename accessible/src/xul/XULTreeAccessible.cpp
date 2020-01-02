@@ -1723,6 +1723,7 @@ GetChildAt
 uint32_t
 aIndex
 )
+const
 {
 uint32_t
 childCount
@@ -2121,6 +2122,7 @@ GetTreeItemAccessible
 int32_t
 aRow
 )
+const
 {
 if
 (
@@ -2784,6 +2786,7 @@ CreateTreeItemAccessible
 int32_t
 aRow
 )
+const
 {
 nsRefPtr
 <
@@ -2796,7 +2799,14 @@ XULTreeItemAccessible
 (
 mContent
 mDoc
+const_cast
+<
+XULTreeAccessible
+*
+>
+(
 this
+)
 mTree
 mTreeView
 aRow

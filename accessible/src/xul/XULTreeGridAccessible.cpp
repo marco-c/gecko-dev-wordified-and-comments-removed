@@ -995,6 +995,7 @@ CreateTreeItemAccessible
 int32_t
 aRow
 )
+const
 {
 nsRefPtr
 <
@@ -1007,7 +1008,14 @@ XULTreeGridRowAccessible
 (
 mContent
 mDoc
+const_cast
+<
+XULTreeGridAccessible
+*
+>
+(
 this
+)
 mTree
 mTreeView
 aRow
@@ -1381,6 +1389,7 @@ GetChildAt
 uint32_t
 aIndex
 )
+const
 {
 if
 (
@@ -1451,6 +1460,7 @@ nsITreeColumn
 *
 aColumn
 )
+const
 {
 NS_PRECONDITION
 (
@@ -1505,7 +1515,14 @@ XULTreeGridCellAccessibleWrap
 (
 mContent
 mDoc
+const_cast
+<
+XULTreeGridRowAccessible
+*
+>
+(
 this
+)
 mTree
 mTreeView
 mRow

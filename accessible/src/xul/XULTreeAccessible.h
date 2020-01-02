@@ -137,6 +137,8 @@ GetChildAt
 uint32_t
 aIndex
 )
+const
+MOZ_OVERRIDE
 ;
 virtual
 uint32_t
@@ -144,6 +146,7 @@ ChildCount
 (
 )
 const
+MOZ_OVERRIDE
 ;
 virtual
 Relation
@@ -266,6 +269,7 @@ GetTreeItemAccessible
 int32_t
 aRow
 )
+const
 ;
 void
 InvalidateCache
@@ -309,6 +313,7 @@ CreateTreeItemAccessible
 int32_t
 aRow
 )
+const
 ;
 nsCOMPtr
 <
@@ -320,6 +325,7 @@ nsITreeView
 *
 mTreeView
 ;
+mutable
 AccessibleHashtable
 mAccessibleCache
 ;
@@ -534,6 +540,7 @@ nsITreeColumn
 *
 aColumn
 )
+const
 {
 return
 nullptr

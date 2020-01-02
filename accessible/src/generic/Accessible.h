@@ -844,6 +844,7 @@ GetChildAt
 uint32_t
 aIndex
 )
+const
 ;
 virtual
 uint32_t
