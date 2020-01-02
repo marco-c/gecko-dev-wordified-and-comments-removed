@@ -253,6 +253,11 @@ nsIDashboardEventNotifier
 idl
 '
 '
+nsIDivertableChannel
+.
+idl
+'
+'
 nsIDownloader
 .
 idl
