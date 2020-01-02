@@ -1032,11 +1032,6 @@ ANRReporter
 java
 '
 '
-App
-.
-java
-'
-'
 AppNotificationClient
 .
 java
