@@ -3154,6 +3154,12 @@ name
 break
 ;
 }
+this
+.
+_clearRestoringWindows
+(
+)
+;
 }
 recordTelemetry
 :
