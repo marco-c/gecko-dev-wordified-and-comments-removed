@@ -26495,7 +26495,7 @@ readInt32List
 0
 ]
 ;
-ICCRecordHelper
+SimRecordHelper
 .
 readSMS
 (
