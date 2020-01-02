@@ -7972,7 +7972,7 @@ cx
 const
 char
 *
-introducer
+introductionType
 =
 "
 Function
@@ -7985,7 +7985,7 @@ generatorKind
 =
 NotGenerator
 )
-introducer
+introductionType
 =
 "
 GeneratorFunction
@@ -8066,7 +8066,7 @@ true
 setIntroductionInfo
 (
 introducerFilename
-introducer
+introductionType
 lineno
 pcOffset
 )

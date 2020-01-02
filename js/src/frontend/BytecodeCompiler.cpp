@@ -931,7 +931,7 @@ JS_ASSERT
 (
 options
 .
-introducer
+introductionType
 !
 =
 nullptr
@@ -952,7 +952,7 @@ options
 introductionLineno
 options
 .
-introducer
+introductionType
 options
 .
 introducerFilename

@@ -9044,7 +9044,7 @@ callerLineno
 const
 char
 *
-introducer
+introductionType
 const
 char
 *
@@ -9063,9 +9063,9 @@ JS_ASSERT
 introducerFilename_
 )
 ;
-introducerType_
+introductionType_
 =
-introducer
+introductionType
 ;
 if
 (
@@ -9118,11 +9118,11 @@ callerLineno
 )
 ;
 size_t
-introducerLen
+introductionTypeLen
 =
 strlen
 (
-introducer
+introductionType
 )
 ;
 size_t
@@ -9136,7 +9136,7 @@ linenoLen
 +
 3
 +
-introducerLen
+introductionTypeLen
 +
 1
 ;
@@ -9186,7 +9186,7 @@ s
 "
 callerFilename
 linenoBuf
-introducer
+introductionType
 )
 ;
 JS_ASSERT

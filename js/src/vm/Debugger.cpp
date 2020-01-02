@@ -21045,7 +21045,7 @@ if
 ss
 -
 >
-hasIntroducerType
+hasIntroductionType
 (
 )
 )
@@ -21063,7 +21063,7 @@ cx
 ss
 -
 >
-introducerType
+introductionType
 (
 )
 )
