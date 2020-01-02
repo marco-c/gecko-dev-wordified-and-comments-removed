@@ -1450,7 +1450,7 @@ length
 (
 )
 ;
-uint32_t
+int32_t
 totalSize
 =
 0
@@ -1514,7 +1514,7 @@ opaque_
 =
 true
 ;
-uint32_t
+int32_t
 alignedSize
 =
 alignTo
@@ -1582,7 +1582,7 @@ alignment
 )
 )
 ;
-uint32_t
+int32_t
 incrementedSize
 =
 alignedSize
@@ -1618,7 +1618,7 @@ totalSize
 incrementedSize
 ;
 }
-uint32_t
+int32_t
 alignedSize
 =
 alignTo
