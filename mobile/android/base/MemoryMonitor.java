@@ -691,14 +691,8 @@ GeckoRunning
 {
 GeckoAppShell
 .
-sendEventToGecko
+dispatchMemoryPressure
 (
-GeckoEvent
-.
-createLowMemoryEvent
-(
-level
-)
 )
 ;
 }

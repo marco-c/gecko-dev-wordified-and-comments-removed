@@ -1213,6 +1213,14 @@ id
 ;
 public
 static
+native
+void
+dispatchMemoryPressure
+(
+)
+;
+public
+static
 void
 registerGlobalExceptionHandler
 (
