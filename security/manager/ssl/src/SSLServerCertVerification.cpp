@@ -745,7 +745,7 @@ AppendASCII
 mInfoObject
 -
 >
-GetHostName
+GetHostNameRaw
 (
 )
 )
@@ -814,7 +814,7 @@ HEADER_HSTS
 mInfoObject
 -
 >
-GetHostName
+GetHostNameRaw
 (
 )
 mProviderFlags
@@ -1238,14 +1238,11 @@ OverridableCertErrorMessage
 LogInvalidCertError
 (
 mInfoObject
-nsDependentCString
-(
 mInfoObject
 -
 >
 GetHostName
 (
-)
 )
 hostWithPortString
 port
@@ -1596,7 +1593,7 @@ cert
 infoObject
 -
 >
-GetHostName
+GetHostNameRaw
 (
 )
 )
@@ -3405,7 +3402,7 @@ infoObject
 infoObject
 -
 >
-GetHostName
+GetHostNameRaw
 (
 )
 &

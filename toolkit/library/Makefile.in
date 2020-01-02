@@ -1856,14 +1856,6 @@ NULL
 )
 endif
 ifdef
-MOZ_RTSP
-OS_LIBS
-+
-=
--
-lstagefright_foundation
-endif
-ifdef
 MOZ_WMF
 OS_LIBS
 +
@@ -2998,6 +2990,8 @@ COMPONENT_LIBS
 gtest
 \
 gfxtest
+\
+ssltest
 \
 (
 NULL
