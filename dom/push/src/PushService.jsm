@@ -6088,10 +6088,6 @@ _retryFailCount
 ;
 this
 .
-_udpPort
-=
-this
-.
 _listenForUDPWakeup
 (
 )
@@ -6156,7 +6152,14 @@ port
 :
 this
 .
-_udpPort
+_udpServer
+&
+&
+this
+.
+_udpServer
+.
+port
 }
 ;
 data
@@ -6792,7 +6795,9 @@ port
 +
 this
 .
-_udpPort
+_udpServer
+.
+port
 )
 ;
 this
@@ -6828,7 +6833,7 @@ aStatus
 ;
 this
 .
-_udpPort
+_udpServer
 =
 undefined
 ;
