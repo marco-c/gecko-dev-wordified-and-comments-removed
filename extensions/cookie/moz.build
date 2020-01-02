@@ -159,11 +159,6 @@ cpp
 MSVC_ENABLE_PGO
 =
 True
-LIBRARY_NAME
-=
-'
-cookie
-'
 include
 (
 '

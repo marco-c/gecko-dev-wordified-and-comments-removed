@@ -175,11 +175,6 @@ RtspOmxReader
 cpp
 '
 ]
-LIBRARY_NAME
-=
-'
-gkconomx_s
-'
 include
 (
 '

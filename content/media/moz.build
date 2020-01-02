@@ -779,11 +779,6 @@ cpp
 MSVC_ENABLE_PGO
 =
 True
-LIBRARY_NAME
-=
-'
-gkconmedia_s
-'
 include
 (
 '

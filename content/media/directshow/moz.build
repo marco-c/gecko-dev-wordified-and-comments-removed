@@ -300,11 +300,6 @@ cpp
 FAIL_ON_WARNINGS
 =
 True
-LIBRARY_NAME
-=
-'
-gkcondirectshow_s
-'
 FINAL_LIBRARY
 =
 '

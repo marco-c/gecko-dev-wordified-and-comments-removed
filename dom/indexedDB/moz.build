@@ -348,11 +348,6 @@ cpp
 FAIL_ON_WARNINGS
 =
 True
-LIBRARY_NAME
-=
-'
-dom_indexeddb_s
-'
 include
 (
 '

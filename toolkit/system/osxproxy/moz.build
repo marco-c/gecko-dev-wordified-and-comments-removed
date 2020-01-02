@@ -103,11 +103,6 @@ nsOSXSystemProxySettings
 mm
 '
 ]
-LIBRARY_NAME
-=
-'
-osxproxy
-'
 FINAL_LIBRARY
 =
 '

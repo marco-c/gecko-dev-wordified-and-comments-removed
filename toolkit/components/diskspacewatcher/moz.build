@@ -132,11 +132,6 @@ DiskSpaceWatcher
 cpp
 '
 ]
-LIBRARY_NAME
-=
-'
-diskspacewatcher
-'
 include
 (
 '

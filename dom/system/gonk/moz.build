@@ -571,11 +571,6 @@ bluedroid
 FAIL_ON_WARNINGS
 =
 True
-LIBRARY_NAME
-=
-'
-domsystemgonk_s
-'
 include
 (
 '

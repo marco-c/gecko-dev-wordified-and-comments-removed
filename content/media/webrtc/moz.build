@@ -252,11 +252,6 @@ MediaEngineDefault
 cpp
 '
 ]
-LIBRARY_NAME
-=
-'
-gkconwebrtc_s
-'
 include
 (
 '

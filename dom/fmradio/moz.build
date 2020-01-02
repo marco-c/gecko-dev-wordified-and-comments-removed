@@ -148,11 +148,6 @@ FMRadioService
 cpp
 '
 ]
-LIBRARY_NAME
-=
-'
-domfmradio_s
-'
 FINAL_LIBRARY
 =
 '

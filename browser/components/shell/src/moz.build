@@ -160,10 +160,10 @@ cpp
 if
 SOURCES
 :
-LIBRARY_NAME
+FINAL_LIBRARY
 =
 '
-shellservice_s
+browsercomps
 '
 EXTRA_COMPONENTS
 +
@@ -180,8 +180,3 @@ nsSetDefaultBrowser
 manifest
 '
 ]
-FINAL_LIBRARY
-=
-'
-browsercomps
-'

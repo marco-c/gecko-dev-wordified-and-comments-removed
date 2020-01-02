@@ -125,11 +125,6 @@ sse_detect
 cpp
 '
 ]
-LIBRARY_NAME
-=
-'
-speex_resampler
-'
 SOURCES
 +
 =

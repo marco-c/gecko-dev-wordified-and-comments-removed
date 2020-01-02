@@ -118,11 +118,6 @@ Sandbox
 cpp
 '
 ]
-LIBRARY_NAME
-=
-'
-sandbox_s
-'
 include
 (
 '

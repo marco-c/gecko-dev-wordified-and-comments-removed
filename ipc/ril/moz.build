@@ -117,11 +117,6 @@ Ril
 cpp
 '
 ]
-LIBRARY_NAME
-=
-'
-mozril_s
-'
 include
 (
 '

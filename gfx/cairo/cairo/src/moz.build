@@ -756,11 +756,6 @@ subset
 c
 '
 ]
-LIBRARY_NAME
-=
-'
-mozcairo
-'
 SOURCES
 +
 =

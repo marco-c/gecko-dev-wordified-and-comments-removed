@@ -101,11 +101,6 @@ TOOL_DIRS
 app
 '
 ]
-LIBRARY_NAME
-=
-'
-ipdlunittest_s
-'
 EXPORTS
 .
 mozilla

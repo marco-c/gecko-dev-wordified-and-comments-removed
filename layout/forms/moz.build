@@ -226,11 +226,6 @@ nsTextControlFrame
 cpp
 '
 ]
-LIBRARY_NAME
-=
-'
-gkforms_s
-'
 FAIL_ON_WARNINGS
 =
 True

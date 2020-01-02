@@ -155,11 +155,6 @@ XrayWrapper
 cpp
 '
 ]
-LIBRARY_NAME
-=
-'
-xpcwrappers_s
-'
 #
 warning
 C4661

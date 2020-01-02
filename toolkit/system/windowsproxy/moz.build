@@ -103,11 +103,6 @@ nsWindowsSystemProxySettings
 cpp
 '
 ]
-LIBRARY_NAME
-=
-'
-windowsproxy
-'
 FINAL_LIBRARY
 =
 '

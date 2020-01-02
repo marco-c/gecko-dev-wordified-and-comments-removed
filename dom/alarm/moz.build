@@ -180,11 +180,6 @@ jsm
 FAIL_ON_WARNINGS
 =
 True
-LIBRARY_NAME
-=
-'
-domalarm_s
-'
 include
 (
 '

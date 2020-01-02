@@ -5064,11 +5064,6 @@ arm
 S
 '
 ]
-LIBRARY_NAME
-=
-'
-skia
-'
 MSVC_ENABLE_PGO
 =
 True

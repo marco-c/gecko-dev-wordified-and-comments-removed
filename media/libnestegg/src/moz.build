@@ -108,11 +108,6 @@ nestegg
 c
 '
 ]
-LIBRARY_NAME
-=
-'
-nestegg
-'
 MSVC_ENABLE_PGO
 =
 True

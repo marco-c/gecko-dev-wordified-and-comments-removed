@@ -132,11 +132,6 @@ XMLDocument
 cpp
 '
 ]
-LIBRARY_NAME
-=
-'
-gkconxmldoc_s
-'
 FAIL_ON_WARNINGS
 =
 True

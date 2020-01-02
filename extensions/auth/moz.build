@@ -161,11 +161,6 @@ nsAuthSambaNTLM
 cpp
 '
 ]
-LIBRARY_NAME
-=
-'
-auth
-'
 FINAL_LIBRARY
 =
 '

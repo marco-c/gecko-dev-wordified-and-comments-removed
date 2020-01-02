@@ -126,11 +126,6 @@ cpp
 FAIL_ON_WARNINGS
 =
 True
-LIBRARY_NAME
-=
-'
-jsdomgeolocation_s
-'
 include
 (
 '

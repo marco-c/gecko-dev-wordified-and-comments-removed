@@ -148,11 +148,6 @@ GStreamerReader
 cpp
 '
 ]
-LIBRARY_NAME
-=
-'
-gkcongstreamer_s
-'
 FAIL_ON_WARNINGS
 =
 True

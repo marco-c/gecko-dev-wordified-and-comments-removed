@@ -148,11 +148,6 @@ nsPrintPreviewListener
 cpp
 '
 ]
-LIBRARY_NAME
-=
-'
-gkprinting_s
-'
 FAIL_ON_WARNINGS
 =
 True

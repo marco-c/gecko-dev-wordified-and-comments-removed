@@ -525,11 +525,6 @@ URIParams
 ipdlh
 '
 ]
-LIBRARY_NAME
-=
-'
-mozipc_s
-'
 include
 (
 '

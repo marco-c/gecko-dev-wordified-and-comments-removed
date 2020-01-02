@@ -122,11 +122,6 @@ HyperTextAccessibleWrap
 h
 '
 ]
-LIBRARY_NAME
-=
-'
-accessibility_toolkit_s
-'
 UNIFIED_SOURCES
 +
 =

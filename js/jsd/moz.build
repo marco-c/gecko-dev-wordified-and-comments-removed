@@ -225,11 +225,6 @@ JS_THREADSAFE
 ]
 =
 True
-LIBRARY_NAME
-=
-'
-jsd
-'
 FINAL_LIBRARY
 =
 '

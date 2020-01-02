@@ -117,11 +117,6 @@ DirectoryProvider
 cpp
 '
 ]
-LIBRARY_NAME
-=
-'
-browserdir_s
-'
 XPCSHELL_TESTS_MANIFESTS
 +
 =

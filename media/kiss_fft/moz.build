@@ -125,11 +125,6 @@ kiss_fftr
 c
 '
 ]
-LIBRARY_NAME
-=
-'
-kiss_fft
-'
 if
 CONFIG
 [

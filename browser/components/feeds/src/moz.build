@@ -133,11 +133,6 @@ FeedWriter
 js
 '
 ]
-LIBRARY_NAME
-=
-'
-browser_feeds_s
-'
 FINAL_LIBRARY
 =
 '

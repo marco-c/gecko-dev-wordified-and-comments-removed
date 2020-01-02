@@ -246,11 +246,6 @@ base
 src
 '
 ]
-LIBRARY_NAME
-=
-'
-nkcache2_s
-'
 FAIL_ON_WARNINGS
 =
 True

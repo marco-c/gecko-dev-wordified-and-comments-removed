@@ -735,11 +735,6 @@ cpp
 '
 ]
 ]
-LIBRARY_NAME
-=
-'
-angle
-'
 MSVC_ENABLE_PGO
 =
 True

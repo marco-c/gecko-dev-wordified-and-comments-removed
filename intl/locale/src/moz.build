@@ -195,11 +195,6 @@ nsUConvPropertySearch
 cpp
 '
 ]
-LIBRARY_NAME
-=
-'
-nslocale_s
-'
 EXTRA_JS_MODULES
 +
 =

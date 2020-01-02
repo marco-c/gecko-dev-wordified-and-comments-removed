@@ -228,11 +228,6 @@ nsXULTreeBuilder
 cpp
 '
 ]
-LIBRARY_NAME
-=
-'
-gkconxultmpl_s
-'
 MSVC_ENABLE_PGO
 =
 True

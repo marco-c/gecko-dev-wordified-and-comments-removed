@@ -264,11 +264,6 @@ cubeb_audiotrack
 c
 '
 ]
-LIBRARY_NAME
-=
-'
-cubeb
-'
 MSVC_ENABLE_PGO
 =
 True

@@ -119,11 +119,6 @@ manifest
 FAIL_ON_WARNINGS
 =
 True
-LIBRARY_NAME
-=
-'
-dom_nfc_s
-'
 FINAL_LIBRARY
 =
 '

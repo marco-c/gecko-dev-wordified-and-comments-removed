@@ -113,11 +113,6 @@ minidump_writer
 cc
 '
 ]
-LIBRARY_NAME
-=
-'
-minidump_writer_s
-'
 XPI_NAME
 =
 '

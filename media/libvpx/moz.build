@@ -283,11 +283,6 @@ HOST_PROGRAM
 '
 host_obj_int_extract
 '
-LIBRARY_NAME
-=
-'
-vpx
-'
 SOURCES
 +
 =

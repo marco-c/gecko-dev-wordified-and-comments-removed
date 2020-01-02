@@ -153,11 +153,6 @@ nsUDPSocketProvider
 cpp
 '
 ]
-LIBRARY_NAME
-=
-'
-neckosocket_s
-'
 FAIL_ON_WARNINGS
 =
 True

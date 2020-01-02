@@ -151,11 +151,6 @@ nsWinTraceMalloc
 cpp
 '
 ]
-LIBRARY_NAME
-=
-'
-tracemalloc
-'
 FINAL_LIBRARY
 =
 '

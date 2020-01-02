@@ -128,11 +128,6 @@ WebMReader
 cpp
 '
 ]
-LIBRARY_NAME
-=
-'
-gkconwebm_s
-'
 FAIL_ON_WARNINGS
 =
 True

@@ -108,11 +108,6 @@ SOURCES
 +
 =
 rdf_util_src_cppsrcs
-LIBRARY_NAME
-=
-'
-rdfutil_s
-'
 FINAL_LIBRARY
 =
 '

@@ -593,11 +593,6 @@ nsINIProcessor
 manifest
 '
 ]
-LIBRARY_NAME
-=
-'
-xpcomds_s
-'
 MSVC_ENABLE_PGO
 =
 True

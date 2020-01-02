@@ -182,11 +182,6 @@ TextLeafAccessible
 cpp
 '
 ]
-LIBRARY_NAME
-=
-'
-accessibility_generic_s
-'
 LOCAL_INCLUDES
 +
 =

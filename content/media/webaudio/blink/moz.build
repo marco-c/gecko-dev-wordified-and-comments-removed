@@ -183,11 +183,6 @@ ZeroPole
 cpp
 '
 ]
-LIBRARY_NAME
-=
-'
-gkconwebaudio_blink_s
-'
 include
 (
 '

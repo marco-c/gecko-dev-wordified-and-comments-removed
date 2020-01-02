@@ -117,11 +117,6 @@ AboutRedirector
 cpp
 '
 ]
-LIBRARY_NAME
-=
-'
-browserabout_s
-'
 FINAL_LIBRARY
 =
 '

@@ -257,11 +257,6 @@ cpp
 FAIL_ON_WARNINGS
 =
 True
-LIBRARY_NAME
-=
-'
-domcamera_s
-'
 LOCAL_INCLUDES
 +
 =

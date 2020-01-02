@@ -116,11 +116,6 @@ nsNotifyAddrListener
 cpp
 '
 ]
-LIBRARY_NAME
-=
-'
-neckosystem_s
-'
 FAIL_ON_WARNINGS
 =
 True

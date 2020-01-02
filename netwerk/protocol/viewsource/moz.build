@@ -123,11 +123,6 @@ nsViewSourceHandler
 cpp
 '
 ]
-LIBRARY_NAME
-=
-'
-nkviewsource_s
-'
 FAIL_ON_WARNINGS
 =
 True

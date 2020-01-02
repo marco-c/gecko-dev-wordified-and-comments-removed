@@ -379,11 +379,6 @@ ipdlh
 FAIL_ON_WARNINGS
 =
 True
-LIBRARY_NAME
-=
-'
-domipc_s
-'
 include
 (
 '

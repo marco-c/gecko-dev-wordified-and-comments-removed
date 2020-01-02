@@ -128,11 +128,6 @@ nsFileProtocolHandler
 cpp
 '
 ]
-LIBRARY_NAME
-=
-'
-nkfile_s
-'
 FAIL_ON_WARNINGS
 =
 True

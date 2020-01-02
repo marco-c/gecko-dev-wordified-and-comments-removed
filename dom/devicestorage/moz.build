@@ -178,11 +178,6 @@ ipdl
 FAIL_ON_WARNINGS
 =
 True
-LIBRARY_NAME
-=
-'
-domdevicestorage_s
-'
 include
 (
 '

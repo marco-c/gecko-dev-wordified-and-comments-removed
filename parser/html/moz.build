@@ -453,11 +453,6 @@ nsParserUtils
 cpp
 '
 ]
-LIBRARY_NAME
-=
-'
-html5p_s
-'
 MSVC_ENABLE_PGO
 =
 True

@@ -103,11 +103,6 @@ nsPNGEncoder
 cpp
 '
 ]
-LIBRARY_NAME
-=
-'
-imgpnge_s
-'
 FAIL_ON_WARNINGS
 =
 True

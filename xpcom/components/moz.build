@@ -195,11 +195,6 @@ nsNativeComponentLoader
 cpp
 '
 ]
-LIBRARY_NAME
-=
-'
-xpcomcomponents_s
-'
 MSVC_ENABLE_PGO
 =
 True

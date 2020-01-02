@@ -113,11 +113,6 @@ mozJSSubScriptLoader
 cpp
 '
 ]
-LIBRARY_NAME
-=
-'
-jsloader_s
-'
 EXTRA_JS_MODULES
 +
 =

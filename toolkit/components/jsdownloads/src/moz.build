@@ -103,11 +103,6 @@ DownloadPlatform
 cpp
 '
 ]
-LIBRARY_NAME
-=
-'
-jsdownloads_s
-'
 EXTRA_COMPONENTS
 +
 =

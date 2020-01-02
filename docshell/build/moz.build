@@ -113,11 +113,6 @@ nsDocShellModule
 cpp
 '
 ]
-LIBRARY_NAME
-=
-'
-docshell
-'
 LOCAL_INCLUDES
 +
 =

@@ -118,11 +118,6 @@ nsWindowDataSource
 cpp
 '
 ]
-LIBRARY_NAME
-=
-'
-windowds
-'
 FINAL_LIBRARY
 =
 '

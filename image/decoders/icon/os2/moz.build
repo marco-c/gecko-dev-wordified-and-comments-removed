@@ -103,11 +103,6 @@ nsIconChannel
 cpp
 '
 ]
-LIBRARY_NAME
-=
-'
-imgiconos2_s
-'
 FINAL_LIBRARY
 =
 '

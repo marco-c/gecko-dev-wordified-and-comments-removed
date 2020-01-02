@@ -108,11 +108,6 @@ nsViewManager
 cpp
 '
 ]
-LIBRARY_NAME
-=
-'
-gkview_s
-'
 FAIL_ON_WARNINGS
 =
 True

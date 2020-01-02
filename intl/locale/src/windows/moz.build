@@ -118,11 +118,6 @@ nsWinCharset
 cpp
 '
 ]
-LIBRARY_NAME
-=
-'
-platlocale_s
-'
 FINAL_LIBRARY
 =
 '

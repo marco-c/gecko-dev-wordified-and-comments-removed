@@ -238,11 +238,6 @@ nsMemoryCacheDevice
 cpp
 '
 ]
-LIBRARY_NAME
-=
-'
-nkcache_s
-'
 FAIL_ON_WARNINGS
 =
 True

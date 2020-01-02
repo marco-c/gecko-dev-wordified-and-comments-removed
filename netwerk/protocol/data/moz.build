@@ -108,11 +108,6 @@ nsDataHandler
 cpp
 '
 ]
-LIBRARY_NAME
-=
-'
-nkdata_s
-'
 FAIL_ON_WARNINGS
 =
 True

@@ -118,11 +118,6 @@ nsTypeAheadFind
 cpp
 '
 ]
-LIBRARY_NAME
-=
-'
-fastfind_s
-'
 FINAL_LIBRARY
 =
 '

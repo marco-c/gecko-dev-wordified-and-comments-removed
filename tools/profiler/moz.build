@@ -115,11 +115,6 @@ XPIDL_MODULE
 '
 profiler
 '
-LIBRARY_NAME
-=
-'
-profiler
-'
 XPIDL_SOURCES
 +
 =

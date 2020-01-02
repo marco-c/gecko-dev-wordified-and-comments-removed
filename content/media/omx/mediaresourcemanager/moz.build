@@ -123,11 +123,6 @@ MediaResourceManagerService
 cpp
 '
 ]
-LIBRARY_NAME
-=
-'
-mediaresourcemanager
-'
 include
 (
 '

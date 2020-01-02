@@ -389,11 +389,6 @@ yuv_convert_arm
 cpp
 '
 ]
-LIBRARY_NAME
-=
-'
-ycbcr
-'
 FINAL_LIBRARY
 =
 '

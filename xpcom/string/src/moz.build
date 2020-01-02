@@ -196,11 +196,6 @@ double
 conversion
 '
 ]
-LIBRARY_NAME
-=
-'
-string_s
-'
 MSVC_ENABLE_PGO
 =
 True

@@ -187,11 +187,6 @@ nsFormHistory
 js
 '
 ]
-LIBRARY_NAME
-=
-'
-satchel
-'
 EXTRA_JS_MODULES
 +
 =

@@ -103,11 +103,6 @@ nsAndroidSystemProxySettings
 cpp
 '
 ]
-LIBRARY_NAME
-=
-'
-androidproxy
-'
 FINAL_LIBRARY
 =
 '

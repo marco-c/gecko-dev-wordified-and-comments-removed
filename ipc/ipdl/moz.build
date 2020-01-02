@@ -112,11 +112,6 @@ test
 FAIL_ON_WARNINGS
 =
 True
-LIBRARY_NAME
-=
-'
-mozipdlgen_s
-'
 include
 (
 '

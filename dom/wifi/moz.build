@@ -195,11 +195,6 @@ WifiUtils
 cpp
 '
 ]
-LIBRARY_NAME
-=
-'
-domwifi_s
-'
 FINAL_LIBRARY
 =
 '

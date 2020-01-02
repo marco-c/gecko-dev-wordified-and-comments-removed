@@ -103,11 +103,6 @@ keysym2ucs
 c
 '
 ]
-LIBRARY_NAME
-=
-'
-widget_shared_x11
-'
 FINAL_LIBRARY
 =
 '

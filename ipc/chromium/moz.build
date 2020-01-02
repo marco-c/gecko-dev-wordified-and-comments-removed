@@ -2155,11 +2155,6 @@ atomicops_internals_mutex
 cc
 '
 ]
-LIBRARY_NAME
-=
-'
-chromium_s
-'
 include
 (
 '

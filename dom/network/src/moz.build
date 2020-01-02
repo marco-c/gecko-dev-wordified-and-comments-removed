@@ -346,11 +346,6 @@ ipdl
 FAIL_ON_WARNINGS
 =
 True
-LIBRARY_NAME
-=
-'
-dom_network_s
-'
 include
 (
 '

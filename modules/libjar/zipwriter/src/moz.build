@@ -128,11 +128,6 @@ ZipWriterModule
 cpp
 '
 ]
-LIBRARY_NAME
-=
-'
-zipwriter
-'
 MSVC_ENABLE_PGO
 =
 True

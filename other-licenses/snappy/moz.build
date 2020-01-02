@@ -166,11 +166,6 @@ snappy
 cc
 '
 ]
-LIBRARY_NAME
-=
-'
-snappy_s
-'
 FINAL_LIBRARY
 =
 '

@@ -118,11 +118,6 @@ vorbisenc
 h
 '
 ]
-LIBRARY_NAME
-=
-'
-vorbis
-'
 SOURCES
 +
 =

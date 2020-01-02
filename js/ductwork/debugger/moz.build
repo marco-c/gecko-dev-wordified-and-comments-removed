@@ -130,11 +130,6 @@ JSDebugger
 cpp
 '
 ]
-LIBRARY_NAME
-=
-'
-jsdebugger
-'
 EXTRA_JS_MODULES
 +
 =

@@ -311,11 +311,6 @@ manifest
 FAIL_ON_WARNINGS
 =
 True
-LIBRARY_NAME
-=
-'
-domtelephony_s
-'
 include
 (
 '

@@ -126,11 +126,6 @@ IdentityCryptoService
 cpp
 '
 ]
-LIBRARY_NAME
-=
-'
-identity
-'
 JS_MODULES_PATH
 =
 '

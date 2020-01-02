@@ -213,11 +213,6 @@ sipcc
 include
 '
 ]
-LIBRARY_NAME
-=
-'
-peerconnection
-'
 FINAL_LIBRARY
 =
 '

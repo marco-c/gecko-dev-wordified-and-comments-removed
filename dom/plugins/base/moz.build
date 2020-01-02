@@ -531,11 +531,6 @@ True
 MSVC_ENABLE_PGO
 =
 True
-LIBRARY_NAME
-=
-'
-gkplugin
-'
 LOCAL_INCLUDES
 +
 =

@@ -463,11 +463,6 @@ True
 MSVC_ENABLE_PGO
 =
 True
-LIBRARY_NAME
-=
-'
-nkhttp_s
-'
 include
 (
 '

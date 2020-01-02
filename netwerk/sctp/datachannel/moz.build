@@ -135,11 +135,6 @@ cpp
 FAIL_ON_WARNINGS
 =
 True
-LIBRARY_NAME
-=
-'
-nkdatachan_s
-'
 include
 (
 '

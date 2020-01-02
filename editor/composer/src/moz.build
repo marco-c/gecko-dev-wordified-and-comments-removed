@@ -138,11 +138,6 @@ nsEditorSpellCheck
 cpp
 '
 ]
-LIBRARY_NAME
-=
-'
-composer
-'
 FAIL_ON_WARNINGS
 =
 True

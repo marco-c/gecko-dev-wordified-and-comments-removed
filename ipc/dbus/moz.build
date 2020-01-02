@@ -137,11 +137,6 @@ RawDBusConnection
 cpp
 '
 ]
-LIBRARY_NAME
-=
-'
-mozdbus_s
-'
 include
 (
 '

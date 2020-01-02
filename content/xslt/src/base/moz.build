@@ -123,11 +123,6 @@ txURIUtils
 cpp
 '
 ]
-LIBRARY_NAME
-=
-'
-txbase_s
-'
 FAIL_ON_WARNINGS
 =
 True

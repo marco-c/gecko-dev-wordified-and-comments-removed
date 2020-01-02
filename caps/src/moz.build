@@ -138,11 +138,6 @@ nsSystemPrincipal
 cpp
 '
 ]
-LIBRARY_NAME
-=
-'
-caps_s
-'
 MSVC_ENABLE_PGO
 =
 True

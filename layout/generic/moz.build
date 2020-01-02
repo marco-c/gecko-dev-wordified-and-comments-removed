@@ -557,11 +557,6 @@ _MSC_VER
 MSVC_ENABLE_PGO
 =
 True
-LIBRARY_NAME
-=
-'
-gkgeneric_s
-'
 include
 (
 '

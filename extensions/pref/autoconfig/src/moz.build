@@ -118,11 +118,6 @@ nsReadConfig
 cpp
 '
 ]
-LIBRARY_NAME
-=
-'
-autoconfig
-'
 FINAL_LIBRARY
 =
 '

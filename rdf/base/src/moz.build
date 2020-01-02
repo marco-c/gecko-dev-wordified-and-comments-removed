@@ -168,11 +168,6 @@ rdfutil
 cpp
 '
 ]
-LIBRARY_NAME
-=
-'
-rdfbase_s
-'
 FINAL_LIBRARY
 =
 '

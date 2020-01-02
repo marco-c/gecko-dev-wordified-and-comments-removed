@@ -162,11 +162,6 @@ VideoDocument
 cpp
 '
 ]
-LIBRARY_NAME
-=
-'
-gkconhtmldoc_s
-'
 FAIL_ON_WARNINGS
 =
 True

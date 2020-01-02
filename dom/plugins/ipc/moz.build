@@ -599,11 +599,6 @@ ipdl
 FAIL_ON_WARNINGS
 =
 True
-LIBRARY_NAME
-=
-'
-domplugins_s
-'
 include
 (
 '

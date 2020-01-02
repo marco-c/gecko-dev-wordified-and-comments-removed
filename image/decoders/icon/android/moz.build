@@ -106,11 +106,6 @@ cpp
 FAIL_ON_WARNINGS
 =
 True
-LIBRARY_NAME
-=
-'
-imgiconandroid_s
-'
 include
 (
 '

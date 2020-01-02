@@ -137,11 +137,6 @@ geolocation
 FAIL_ON_WARNINGS
 =
 True
-LIBRARY_NAME
-=
-'
-domsystemunix_s
-'
 include
 (
 '

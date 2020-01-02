@@ -215,11 +215,6 @@ SafariProfileMigrator
 js
 '
 ]
-LIBRARY_NAME
-=
-'
-migration_s
-'
 EXTRA_PP_JS_MODULES
 +
 =

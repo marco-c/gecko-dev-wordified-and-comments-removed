@@ -308,11 +308,6 @@ manifest
 FAIL_ON_WARNINGS
 =
 True
-LIBRARY_NAME
-=
-'
-domsystem_s
-'
 include
 (
 '

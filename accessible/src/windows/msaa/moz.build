@@ -346,11 +346,6 @@ sdn
 uia
 '
 ]
-LIBRARY_NAME
-=
-'
-accessibility_toolkit_msaa_s
-'
 include
 (
 '

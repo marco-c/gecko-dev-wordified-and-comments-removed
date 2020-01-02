@@ -190,11 +190,6 @@ ipdl
 FAIL_ON_WARNINGS
 =
 True
-LIBRARY_NAME
-=
-'
-prefetch_s
-'
 include
 (
 '

@@ -127,11 +127,6 @@ os_types
 h
 '
 ]
-LIBRARY_NAME
-=
-'
-ogg
-'
 UNIFIED_SOURCES
 +
 =

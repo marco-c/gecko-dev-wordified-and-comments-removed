@@ -157,11 +157,6 @@ dom
 base
 '
 ]
-LIBRARY_NAME
-=
-'
-nsappshell
-'
 MSVC_ENABLE_PGO
 =
 True

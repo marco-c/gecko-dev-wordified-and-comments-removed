@@ -220,11 +220,6 @@ jsm
 FAIL_ON_WARNINGS
 =
 True
-LIBRARY_NAME
-=
-'
-dom_apps_s
-'
 FINAL_LIBRARY
 =
 '

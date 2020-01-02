@@ -108,11 +108,6 @@ nsWebBrowserFind
 cpp
 '
 ]
-LIBRARY_NAME
-=
-'
-find_s
-'
 FAIL_ON_WARNINGS
 =
 True

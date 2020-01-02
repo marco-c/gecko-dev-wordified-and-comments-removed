@@ -93,11 +93,6 @@ MPL
 0
 /
 .
-LIBRARY_NAME
-=
-'
-google_breakpad_standalone_s
-'
 FINAL_LIBRARY
 =
 '

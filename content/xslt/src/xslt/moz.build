@@ -263,11 +263,6 @@ txEXSLTRegExFunctions
 manifest
 '
 ]
-LIBRARY_NAME
-=
-'
-txxslt_s
-'
 FAIL_ON_WARNINGS
 =
 True

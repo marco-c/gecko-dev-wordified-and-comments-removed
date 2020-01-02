@@ -278,11 +278,6 @@ nsWifiScannerDBus
 cpp
 '
 ]
-LIBRARY_NAME
-=
-'
-neckowifi_s
-'
 FINAL_LIBRARY
 =
 '

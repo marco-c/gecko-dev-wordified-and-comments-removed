@@ -103,11 +103,6 @@ reflect
 cpp
 '
 ]
-LIBRARY_NAME
-=
-'
-jsreflect
-'
 EXTRA_JS_MODULES
 +
 =

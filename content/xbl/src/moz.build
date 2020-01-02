@@ -223,11 +223,6 @@ True
 MSVC_ENABLE_PGO
 =
 True
-LIBRARY_NAME
-=
-'
-gkconxbl_s
-'
 LOCAL_INCLUDES
 +
 =

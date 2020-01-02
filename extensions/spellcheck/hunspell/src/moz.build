@@ -177,11 +177,6 @@ suggestmgr
 cpp
 '
 ]
-LIBRARY_NAME
-=
-'
-hunspell_s
-'
 FINAL_LIBRARY
 =
 '

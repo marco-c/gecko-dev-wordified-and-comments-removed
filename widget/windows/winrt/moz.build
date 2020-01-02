@@ -178,11 +178,6 @@ MetroUIUtils
 manifest
 '
 ]
-LIBRARY_NAME
-=
-'
-widget_winrt
-'
 include
 (
 '

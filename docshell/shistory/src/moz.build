@@ -128,11 +128,6 @@ nsSHTransaction
 cpp
 '
 ]
-LIBRARY_NAME
-=
-'
-shistory_s
-'
 FAIL_ON_WARNINGS
 =
 True

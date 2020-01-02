@@ -133,11 +133,6 @@ nsSAXXMLReader
 cpp
 '
 ]
-LIBRARY_NAME
-=
-'
-saxp
-'
 MSVC_ENABLE_PGO
 =
 True

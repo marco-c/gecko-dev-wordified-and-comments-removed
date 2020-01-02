@@ -117,11 +117,6 @@ Netd
 cpp
 '
 ]
-LIBRARY_NAME
-=
-'
-moznetd_s
-'
 include
 (
 '

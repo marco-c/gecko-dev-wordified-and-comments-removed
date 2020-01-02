@@ -131,11 +131,6 @@ nsXULAlerts
 cpp
 '
 ]
-LIBRARY_NAME
-=
-'
-alerts_s
-'
 include
 (
 '

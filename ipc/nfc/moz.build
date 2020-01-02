@@ -93,11 +93,6 @@ Nfc
 cpp
 '
 ]
-LIBRARY_NAME
-=
-'
-moznfc_s
-'
 EXPORT_LIBRARY
 =
 True

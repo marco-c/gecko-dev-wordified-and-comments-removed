@@ -148,11 +148,6 @@ nsRegressionTester
 cpp
 '
 ]
-LIBRARY_NAME
-=
-'
-gkdebug
-'
 FAIL_ON_WARNINGS
 =
 True

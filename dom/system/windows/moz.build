@@ -124,11 +124,6 @@ src
 FAIL_ON_WARNINGS
 =
 True
-LIBRARY_NAME
-=
-'
-domsystemwindows_s
-'
 FINAL_LIBRARY
 =
 '

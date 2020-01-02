@@ -102,11 +102,6 @@ xremote
 -
 client
 '
-LIBRARY_NAME
-=
-'
-xremote_client_s
-'
 FINAL_LIBRARY
 =
 '

@@ -246,11 +246,6 @@ ipdl
 FAIL_ON_WARNINGS
 =
 True
-LIBRARY_NAME
-=
-'
-gkconwebspeechsynth_s
-'
 include
 (
 '

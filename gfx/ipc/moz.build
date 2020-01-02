@@ -176,11 +176,6 @@ SharedDIB
 cpp
 '
 ]
-LIBRARY_NAME
-=
-'
-gfxipc_s
-'
 include
 (
 '

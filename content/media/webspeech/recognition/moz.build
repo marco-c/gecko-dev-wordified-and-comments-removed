@@ -206,11 +206,6 @@ FakeSpeechRecognitionService
 cpp
 '
 ]
-LIBRARY_NAME
-=
-'
-gkconwebspeechrecognition_s
-'
 LOCAL_INCLUDES
 +
 =

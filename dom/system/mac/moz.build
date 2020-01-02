@@ -106,11 +106,6 @@ mm
 FAIL_ON_WARNINGS
 =
 True
-LIBRARY_NAME
-=
-'
-domsystemmac_s
-'
 include
 (
 '

@@ -108,11 +108,6 @@ nsTextServicesDocument
 cpp
 '
 ]
-LIBRARY_NAME
-=
-'
-txtsvc_s
-'
 FAIL_ON_WARNINGS
 =
 True

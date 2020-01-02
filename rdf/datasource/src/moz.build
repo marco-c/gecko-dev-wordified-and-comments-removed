@@ -108,11 +108,6 @@ nsLocalStore
 cpp
 '
 ]
-LIBRARY_NAME
-=
-'
-rdfdatasource_s
-'
 FINAL_LIBRARY
 =
 '

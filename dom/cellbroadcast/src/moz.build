@@ -125,11 +125,6 @@ cpp
 FAIL_ON_WARNINGS
 =
 True
-LIBRARY_NAME
-=
-'
-dom_cellbroadcast_s
-'
 FINAL_LIBRARY
 =
 '

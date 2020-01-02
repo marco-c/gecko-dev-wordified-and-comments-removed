@@ -124,11 +124,6 @@ xpconnect
 loader
 '
 ]
-LIBRARY_NAME
-=
-'
-jsctypes
-'
 EXTRA_JS_MODULES
 +
 =

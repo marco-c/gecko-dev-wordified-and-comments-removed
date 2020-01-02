@@ -124,11 +124,6 @@ nsXULPopupListener
 cpp
 '
 ]
-LIBRARY_NAME
-=
-'
-gkconxulcon_s
-'
 FAIL_ON_WARNINGS
 =
 True

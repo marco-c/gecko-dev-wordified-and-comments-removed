@@ -155,11 +155,6 @@ nsToolkitProfileService
 cpp
 '
 ]
-LIBRARY_NAME
-=
-'
-profile_s
-'
 LOCAL_INCLUDES
 +
 =

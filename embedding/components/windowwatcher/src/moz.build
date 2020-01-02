@@ -126,11 +126,6 @@ nsDialogParamBlock
 cpp
 '
 ]
-LIBRARY_NAME
-=
-'
-windowwatcher_s
-'
 FAIL_ON_WARNINGS
 =
 True

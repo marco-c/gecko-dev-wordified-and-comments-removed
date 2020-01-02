@@ -118,11 +118,6 @@ nsDirectoryViewer
 cpp
 '
 ]
-LIBRARY_NAME
-=
-'
-directory_s
-'
 FINAL_LIBRARY
 =
 '
