@@ -189,6 +189,14 @@ Location
 )
 ;
 void
+GetCode
+(
+nsAString
+&
+aCode
+)
+;
+void
 InitKeyEvent
 (
 const
