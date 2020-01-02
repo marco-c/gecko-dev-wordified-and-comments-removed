@@ -38,6 +38,13 @@ h
 #
 include
 "
+nsIDOMBluetoothDiscoveryStateChangedEvent
+.
+h
+"
+#
+include
+"
 nsIDOMBluetoothStatusChangedEvent
 .
 h
