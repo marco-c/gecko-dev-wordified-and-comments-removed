@@ -161,11 +161,6 @@ nsIDOMNetworkStatsManager
 idl
 '
 '
-nsIEthernetManager
-.
-idl
-'
-'
 nsINetworkStatsServiceProxy
 .
 idl
