@@ -3193,37 +3193,40 @@ mtransport
 )
   
 env
-[
+.
+setdefault
+(
 '
 R_LOG_LEVEL
 '
-]
-=
 '
 5
 '
+)
   
 env
-[
+.
+setdefault
+(
 '
 R_LOG_DESTINATION
 '
-]
-=
 '
 stderr
 '
+)
   
 env
-[
+.
+setdefault
+(
 '
 R_LOG_VERBOSE
 '
-]
-=
 '
 1
 '
+)
   
 asan
 =
