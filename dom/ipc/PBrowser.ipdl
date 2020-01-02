@@ -1440,6 +1440,16 @@ int32_t
 focusChange
 )
 ;
+sync
+IsParentWindowMainWidgetVisible
+(
+)
+returns
+(
+bool
+visible
+)
+;
 /
 *
 *

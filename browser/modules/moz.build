@@ -146,6 +146,11 @@ offlineAppCache
 jsm
 '
 '
+RemotePrompt
+.
+jsm
+'
+'
 SharedFrame
 .
 jsm
