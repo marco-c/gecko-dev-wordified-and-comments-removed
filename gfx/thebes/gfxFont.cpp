@@ -6570,6 +6570,9 @@ false
 )
 ;
 }
+#
+ifndef
+RELEASE_BUILD
 mWordCacheExpirationTimer
 =
 do_CreateInstance
@@ -6607,6 +6610,8 @@ TYPE_REPEATING_SLACK
 )
 ;
 }
+#
+endif
 }
 gfxFontCache
 :
