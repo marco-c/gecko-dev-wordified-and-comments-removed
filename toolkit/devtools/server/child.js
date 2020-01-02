@@ -1,3 +1,13 @@
+"
+use
+strict
+"
+;
+(
+function
+(
+)
+{
 const
 {
 DevToolsUtils
@@ -203,5 +213,10 @@ debug
 connect
 "
 onConnect
+)
+;
+}
+)
+(
 )
 ;
