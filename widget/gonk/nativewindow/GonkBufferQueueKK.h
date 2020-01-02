@@ -362,6 +362,14 @@ fence
 ;
 virtual
 status_t
+setSynchronousMode
+(
+bool
+enabled
+)
+;
+virtual
+status_t
 connect
 (
 const
@@ -716,6 +724,9 @@ sp
 IConsumerListener
 >
 mConsumerListener
+;
+bool
+mSynchronousMode
 ;
 bool
 mConsumerControlledByApp
