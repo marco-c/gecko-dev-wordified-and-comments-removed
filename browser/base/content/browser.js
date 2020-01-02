@@ -7136,6 +7136,12 @@ ex
 )
 {
 }
+PlacesToolbarHelper
+.
+uninit
+(
+)
+;
 BookmarkingUI
 .
 uninit
