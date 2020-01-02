@@ -239,6 +239,13 @@ FrameType
 encoded_frame_type
 )
 ;
+void
+SetCPULoadState
+(
+CPULoadState
+state
+)
+;
 uint32_t
 InputFrameRate
 (
@@ -472,6 +479,9 @@ suspension_threshold_bps_
 ;
 int
 suspension_window_bps_
+;
+CPULoadState
+loadstate_
 ;
 }
 ;

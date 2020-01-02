@@ -1612,6 +1612,9 @@ kVideoCodecRED
 case
 kVideoCodecULPFEC
 :
+case
+kVideoCodecH264
+:
 break
 ;
 case

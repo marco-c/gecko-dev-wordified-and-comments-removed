@@ -125,6 +125,15 @@ capture_queue_delay_ms_per_s
 )
 ;
 virtual
+void
+SetLoadManager
+(
+CPULoadStateCallbackInvoker
+*
+aLoadManager
+)
+;
+virtual
 int
 CreateChannel
 (

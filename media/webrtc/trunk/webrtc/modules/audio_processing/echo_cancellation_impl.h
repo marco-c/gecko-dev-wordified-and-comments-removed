@@ -101,17 +101,6 @@ Initialize
 )
 OVERRIDE
 ;
-virtual
-void
-SetExtraOptions
-(
-const
-Config
-&
-config
-)
-OVERRIDE
-;
 private
 :
 virtual

@@ -84,6 +84,11 @@ m_input
 =
 vld1q_f32
 (
+(
+const
+float32_t
+*
+)
 input_ptr
 )
 ;
@@ -100,6 +105,11 @@ m_sums1
 m_input
 vld1q_f32
 (
+(
+const
+float32_t
+*
+)
 k1
 )
 )
@@ -117,6 +127,11 @@ m_sums2
 m_input
 vld1q_f32
 (
+(
+const
+float32_t
+*
+)
 k2
 )
 )

@@ -360,6 +360,9 @@ define
 NETEQ_CELT_CODEC
 #
 define
+NETEQ_48KHZ_WIDEBAND
+#
+define
 NETEQ_OPUS_CODEC
 #
 define

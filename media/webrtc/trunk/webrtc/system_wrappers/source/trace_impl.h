@@ -150,6 +150,11 @@ level
 kTraceAll
 )
 ;
+void
+AllocateTraceBuffers
+(
+)
+;
 int32_t
 SetTraceFileImpl
 (

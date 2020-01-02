@@ -291,7 +291,7 @@ false
 )
 delay_correction_enabled_
 (
-false
+true
 )
 {
 }
@@ -1735,6 +1735,9 @@ apm_
 kNoError
 ;
 }
+#
+if
+0
 void
 EchoCancellationImpl
 :
@@ -1765,6 +1768,8 @@ Configure
 )
 ;
 }
+#
+endif
 void
 *
 EchoCancellationImpl
