@@ -1394,6 +1394,7 @@ ImageFormatToSurfaceFormat
 format
 )
 mTextureFlags
+size
 )
 ;
 MOZ_ASSERT

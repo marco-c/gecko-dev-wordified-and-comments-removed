@@ -224,6 +224,13 @@ SurfaceFormat
 aFormat
 TextureFlags
 aTextureFlags
+const
+gfx
+:
+:
+IntSize
+&
+aSizeHint
 )
 ;
 virtual

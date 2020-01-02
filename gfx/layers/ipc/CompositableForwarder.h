@@ -503,6 +503,7 @@ GetMaxTextureSize
 (
 )
 const
+MOZ_OVERRIDE
 {
 return
 mTextureFactoryIdentifier
