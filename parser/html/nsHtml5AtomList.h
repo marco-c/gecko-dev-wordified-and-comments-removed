@@ -1133,6 +1133,13 @@ stemh
 )
 HTML5_ATOM
 (
+sizes
+"
+sizes
+"
+)
+HTML5_ATOM
+(
 stemv
 "
 stemv
