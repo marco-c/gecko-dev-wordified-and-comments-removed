@@ -2977,9 +2977,8 @@ rv
 &
 &
 tmpStr
-=
-=
-NS_LITERAL_CSTRING
+.
+EqualsLiteral
 (
 "
 1

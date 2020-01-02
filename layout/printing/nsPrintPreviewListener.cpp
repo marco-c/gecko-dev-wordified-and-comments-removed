@@ -870,9 +870,8 @@ eventString
 if
 (
 eventString
-=
-=
-NS_LITERAL_STRING
+.
+EqualsLiteral
 (
 "
 keydown

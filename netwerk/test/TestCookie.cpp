@@ -7191,9 +7191,8 @@ name
 if
 (
 name
-=
-=
-NS_LITERAL_CSTRING
+.
+EqualsLiteral
 (
 "
 test2
@@ -7208,9 +7207,8 @@ else
 if
 (
 name
-=
-=
-NS_LITERAL_CSTRING
+.
+EqualsLiteral
 (
 "
 test3
