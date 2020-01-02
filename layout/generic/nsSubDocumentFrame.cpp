@@ -3081,9 +3081,6 @@ happen
 "
 )
 ;
-nsresult
-rv
-=
 nsLeafFrame
 :
 :
@@ -3095,17 +3092,6 @@ aReflowState
 aStatus
 )
 ;
-if
-(
-NS_FAILED
-(
-rv
-)
-)
-{
-return
-;
-}
 nsPoint
 offset
 =
