@@ -134,6 +134,13 @@ UNIFIED_SOURCES
 '
 src
 /
+ogg_alloc
+.
+c
+'
+'
+src
+/
 ogg_bitwise
 .
 c
