@@ -238,6 +238,11 @@ AnimationEvent
 h
 '
 '
+BeforeUnloadEvent
+.
+h
+'
+'
 EventTarget
 .
 h
@@ -290,6 +295,11 @@ AnimationEvent
 cpp
 '
 '
+BeforeUnloadEvent
+.
+cpp
+'
+'
 EventTarget
 .
 cpp
@@ -301,11 +311,6 @@ cpp
 '
 '
 nsContentEventHandler
-.
-cpp
-'
-'
-nsDOMBeforeUnloadEvent
 .
 cpp
 '
