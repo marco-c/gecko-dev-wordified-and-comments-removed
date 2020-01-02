@@ -130,7 +130,7 @@ h
 #
 include
 "
-nsINetworkSeer
+nsINetworkPredictor
 .
 h
 "
@@ -1769,7 +1769,7 @@ mozilla
 net
 :
 :
-SeerLearn
+PredictorLearn
 (
 aFontFaceSrc
 -
@@ -1781,7 +1781,7 @@ document
 GetDocumentURI
 (
 )
-nsINetworkSeer
+nsINetworkPredictor
 :
 :
 LEARN_LOAD_SUBRESOURCE

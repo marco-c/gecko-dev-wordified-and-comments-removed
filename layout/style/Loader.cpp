@@ -223,7 +223,7 @@ h
 #
 include
 "
-nsINetworkSeer
+nsINetworkPredictor
 .
 h
 "
@@ -5781,7 +5781,7 @@ mozilla
 net
 :
 :
-SeerLearn
+PredictorLearn
 (
 aLoadData
 -
@@ -5793,7 +5793,7 @@ mDocument
 GetDocumentURI
 (
 )
-nsINetworkSeer
+nsINetworkPredictor
 :
 :
 LEARN_LOAD_SUBRESOURCE
@@ -6793,7 +6793,7 @@ mozilla
 net
 :
 :
-SeerLearn
+PredictorLearn
 (
 aLoadData
 -
@@ -6805,7 +6805,7 @@ mDocument
 GetDocumentURI
 (
 )
-nsINetworkSeer
+nsINetworkPredictor
 :
 :
 LEARN_LOAD_SUBRESOURCE

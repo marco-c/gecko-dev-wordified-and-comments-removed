@@ -690,7 +690,7 @@ pref
 "
 network
 .
-seer
+predictor
 .
 enabled
 "
@@ -702,7 +702,7 @@ pref
 "
 network
 .
-seer
+predictor
 .
 max
 -
@@ -718,7 +718,7 @@ pref
 "
 network
 .
-seer
+predictor
 .
 preserve
 "

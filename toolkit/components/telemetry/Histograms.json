@@ -14864,7 +14864,7 @@ msec
 "
 }
 "
-SEER_PREDICT_ATTEMPTS
+PREDICTOR_PREDICT_ATTEMPTS
 "
 :
 {
@@ -14909,7 +14909,7 @@ description
 Number
 of
 times
-nsINetworkSeer
+nsINetworkPredictor
 :
 :
 Predict
@@ -14922,7 +14922,7 @@ predict
 "
 }
 "
-SEER_LEARN_ATTEMPTS
+PREDICTOR_LEARN_ATTEMPTS
 "
 :
 {
@@ -14967,7 +14967,7 @@ description
 Number
 of
 times
-nsINetworkSeer
+nsINetworkPredictor
 :
 :
 Learn
@@ -14980,7 +14980,7 @@ learn
 "
 }
 "
-SEER_PREDICT_FULL_QUEUE
+PREDICTOR_PREDICT_FULL_QUEUE
 "
 :
 {
@@ -15023,7 +15023,7 @@ description
 Number
 of
 times
-nsINetworkSeer
+nsINetworkPredictor
 :
 :
 Predict
@@ -15039,7 +15039,7 @@ full
 "
 }
 "
-SEER_LEARN_FULL_QUEUE
+PREDICTOR_LEARN_FULL_QUEUE
 "
 :
 {
@@ -15082,7 +15082,7 @@ description
 Number
 of
 times
-nsINetworkSeer
+nsINetworkPredictor
 :
 :
 Learn
@@ -15098,7 +15098,7 @@ full
 "
 }
 "
-SEER_PREDICT_WAIT_TIME
+PREDICTOR_PREDICT_WAIT_TIME
 "
 :
 {
@@ -15154,7 +15154,7 @@ ms
 "
 }
 "
-SEER_PREDICT_WORK_TIME
+PREDICTOR_PREDICT_WORK_TIME
 "
 :
 {
@@ -15209,7 +15209,7 @@ ms
 "
 }
 "
-SEER_LEARN_WAIT_TIME
+PREDICTOR_LEARN_WAIT_TIME
 "
 :
 {
@@ -15265,7 +15265,7 @@ ms
 "
 }
 "
-SEER_LEARN_WORK_TIME
+PREDICTOR_LEARN_WORK_TIME
 "
 :
 {
@@ -15320,7 +15320,7 @@ ms
 "
 }
 "
-SEER_TOTAL_PREDICTIONS
+PREDICTOR_TOTAL_PREDICTIONS
 "
 :
 {
@@ -15377,7 +15377,7 @@ happen
 "
 }
 "
-SEER_TOTAL_PRECONNECTS
+PREDICTOR_TOTAL_PRECONNECTS
 "
 :
 {
@@ -15427,7 +15427,7 @@ happen
 "
 }
 "
-SEER_TOTAL_PRERESOLVES
+PREDICTOR_TOTAL_PRERESOLVES
 "
 :
 {
@@ -15477,7 +15477,7 @@ happen
 "
 }
 "
-SEER_PREDICTIONS_CALCULATED
+PREDICTOR_PREDICTIONS_CALCULATED
 "
 :
 {
@@ -15528,7 +15528,7 @@ performed
 "
 }
 "
-SEER_GLOBAL_DEGRADATION
+PREDICTOR_GLOBAL_DEGRADATION
 "
 :
 {
@@ -15570,7 +15570,7 @@ calculated
 "
 }
 "
-SEER_SUBRESOURCE_DEGRADATION
+PREDICTOR_SUBRESOURCE_DEGRADATION
 "
 :
 {
@@ -15614,7 +15614,7 @@ subresource
 "
 }
 "
-SEER_BASE_CONFIDENCE
+PREDICTOR_BASE_CONFIDENCE
 "
 :
 {
@@ -15659,7 +15659,7 @@ subresource
 "
 }
 "
-SEER_CONFIDENCE
+PREDICTOR_CONFIDENCE
 "
 :
 {
@@ -15704,7 +15704,7 @@ subresource
 "
 }
 "
-SEER_PREDICT_TIME_TO_ACTION
+PREDICTOR_PREDICT_TIME_TO_ACTION
 "
 :
 {
@@ -15760,7 +15760,7 @@ action
 "
 }
 "
-SEER_PREDICT_TIME_TO_INACTION
+PREDICTOR_PREDICT_TIME_TO_INACTION
 "
 :
 {
@@ -15822,7 +15822,7 @@ do
 "
 }
 "
-SEER_CLEANUP_DELTA
+PREDICTOR_CLEANUP_DELTA
 "
 :
 {
@@ -15860,7 +15860,7 @@ description
 How
 long
 between
-seer
+predictor
 db
 cleanups
 in
@@ -15868,7 +15868,7 @@ ms
 "
 }
 "
-SEER_CLEANUP_SUCCEEDED
+PREDICTOR_CLEANUP_SUCCEEDED
 "
 :
 {
@@ -15895,13 +15895,13 @@ Whether
 or
 not
 the
-seer
+predictor
 cleanup
 succeeded
 "
 }
 "
-SEER_CLEANUP_TIME
+PREDICTOR_CLEANUP_TIME
 "
 :
 {
@@ -15943,12 +15943,12 @@ takes
 to
 run
 the
-seer
+predictor
 cleanup
 "
 }
 "
-SEER_CLEANUP_SCHEDULED
+PREDICTOR_CLEANUP_SCHEDULED
 "
 :
 {
@@ -15988,7 +15988,7 @@ it
 "
 }
 "
-SEER_LOAD_COUNT_IS_ZERO
+PREDICTOR_LOAD_COUNT_IS_ZERO
 "
 :
 {
@@ -16033,7 +16033,7 @@ zero
 "
 }
 "
-SEER_LOAD_COUNT_OVERFLOWS
+PREDICTOR_LOAD_COUNT_OVERFLOWS
 "
 :
 {
@@ -16077,7 +16077,7 @@ overflowed
 "
 }
 "
-SEER_STARTUP_COUNT_IS_ZERO
+PREDICTOR_STARTUP_COUNT_IS_ZERO
 "
 :
 {
@@ -16122,7 +16122,7 @@ zero
 "
 }
 "
-SEER_STARTUP_COUNT_OVERFLOWS
+PREDICTOR_STARTUP_COUNT_OVERFLOWS
 "
 :
 {
