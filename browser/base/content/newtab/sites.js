@@ -297,9 +297,7 @@ if
 aPinned
 )
 {
-this
-.
-node
+control
 .
 setAttribute
 (
@@ -327,9 +325,7 @@ unpin
 }
 else
 {
-this
-.
-node
+control
 .
 removeAttribute
 (
