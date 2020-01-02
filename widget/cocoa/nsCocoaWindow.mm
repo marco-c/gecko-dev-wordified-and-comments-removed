@@ -8776,8 +8776,14 @@ height
 nsIntRect
 newBounds
 (
+NSToIntRound
+(
 aX
+)
+NSToIntRound
+(
 aY
+)
 NSToIntRound
 (
 width
