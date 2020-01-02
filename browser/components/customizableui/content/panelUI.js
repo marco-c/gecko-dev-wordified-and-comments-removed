@@ -1970,9 +1970,3 @@ promise
 }
 }
 ;
-PanelUI
-.
-init
-(
-)
-;
