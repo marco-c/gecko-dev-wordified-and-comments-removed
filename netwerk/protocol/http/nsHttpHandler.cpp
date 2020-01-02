@@ -10296,6 +10296,17 @@ rv
 return
 rv
 ;
+nsAutoCString
+username
+;
+aURI
+-
+>
+GetUsername
+(
+username
+)
+;
 nsHttpConnectionInfo
 *
 ci
@@ -10305,6 +10316,7 @@ nsHttpConnectionInfo
 (
 host
 port
+username
 nullptr
 usingSSL
 )
