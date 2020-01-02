@@ -3243,6 +3243,10 @@ mAncestorHasTouchEventHandler
 (
 false
 )
+mHaveScrollableDisplayPort
+(
+false
+)
 {
 MOZ_COUNT_CTOR
 (
