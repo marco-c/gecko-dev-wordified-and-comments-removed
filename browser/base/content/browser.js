@@ -35326,6 +35326,7 @@ switchToTabHavingURI
 (
 aURI
 aOpenNew
+aOpenParams
 )
 {
 function
@@ -35558,15 +35559,15 @@ gBrowser
 selectedTab
 )
 )
-gBrowser
-.
-selectedBrowser
-.
-loadURI
+openUILinkIn
 (
 aURI
 .
 spec
+"
+current
+"
+aOpenParams
 )
 ;
 else
@@ -35578,6 +35579,7 @@ spec
 "
 tab
 "
+aOpenParams
 )
 ;
 }

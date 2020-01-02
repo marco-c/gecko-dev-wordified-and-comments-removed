@@ -938,6 +938,13 @@ params
 .
 private
 ;
+var
+aSkipTabAnimation
+=
+params
+.
+skipTabAnimation
+;
 if
 (
 where
@@ -1549,6 +1556,9 @@ aAllowThirdPartyFixup
 relatedToCurrent
 :
 aRelatedToCurrent
+skipAnimation
+:
+aSkipTabAnimation
 disableMCB
 :
 aDisableMCB

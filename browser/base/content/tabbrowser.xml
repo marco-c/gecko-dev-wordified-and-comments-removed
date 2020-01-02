@@ -8261,6 +8261,9 @@ aRelatedToCurrent
 var
 aDisableMCB
 ;
+var
+aSkipAnimation
+;
 if
 (
 arguments
@@ -8352,6 +8355,12 @@ params
 .
 disableMCB
 ;
+aSkipAnimation
+=
+params
+.
+skipAnimation
+;
 }
 var
 bgLoad
@@ -8421,6 +8430,9 @@ aFromExternal
 relatedToCurrent
 :
 aRelatedToCurrent
+skipAnimation
+:
+aSkipAnimation
 disableMCB
 :
 aDisableMCB
