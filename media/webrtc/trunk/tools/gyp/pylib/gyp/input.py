@@ -7390,6 +7390,21 @@ dependents
 ]
   
 def
+__hash__
+(
+self
+)
+:
+    
+return
+hash
+(
+self
+.
+ref
+)
+  
+def
 FlattenToList
 (
 self

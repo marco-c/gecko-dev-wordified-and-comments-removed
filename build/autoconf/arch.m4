@@ -1519,6 +1519,10 @@ AC_SUBST
 (
 BUILD_ARM_NEON
 )
+AC_SUBST
+(
+ARM_ARCH
+)
 if
 test
 -

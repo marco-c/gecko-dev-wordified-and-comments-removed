@@ -96,6 +96,11 @@ MozbuildSandbox
     
 SandboxValidationError
 )
+from
+.
+gyp_reader
+import
+GypSandbox
 class
 TreeMetadataEmitter
 (
@@ -363,7 +368,10 @@ if
 isinstance
 (
 out
+(
 MozbuildSandbox
+GypSandbox
+)
 )
 :
                 
@@ -453,7 +461,10 @@ type
 s
 '
 %
+type
+(
 out
+)
 )
         
 start
@@ -1159,6 +1170,18 @@ EXPORT_LIBRARY
 EXPORT_LIBRARY
 '
             
+EXTRA_ASSEMBLER_FLAGS
+=
+'
+EXTRA_ASSEMBLER_FLAGS
+'
+            
+EXTRA_COMPILE_FLAGS
+=
+'
+EXTRA_COMPILE_FLAGS
+'
+            
 EXTRA_COMPONENTS
 =
 '
@@ -1223,6 +1246,12 @@ IS_COMPONENT
 =
 '
 IS_COMPONENT
+'
+            
+IS_GYP_DIR
+=
+'
+IS_GYP_DIR
 '
             
 JS_MODULES_PATH
@@ -1281,6 +1310,10 @@ items
 :
             
 if
+moz
+in
+sandbox
+and
 sandbox
 [
 moz

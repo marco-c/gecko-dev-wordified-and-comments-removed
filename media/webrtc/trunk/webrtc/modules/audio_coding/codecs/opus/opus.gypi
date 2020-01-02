@@ -132,13 +132,12 @@ include_dirs
 :
 [
 '
-(
-DIST
-)
+/
+media
+/
+libopus
 /
 include
-/
-opus
 '
 ]
 }
