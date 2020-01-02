@@ -5393,6 +5393,12 @@ OBJS
 (
 DTRACE_PROBE_OBJ
 )
+EXCLUDED_OBJS
++
+=
+(
+DTRACE_PROBE_OBJ
+)
 endif
 (
 filter
