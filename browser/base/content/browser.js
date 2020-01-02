@@ -17149,6 +17149,16 @@ aURI
 .
 spec
 ;
+iconURL
+=
+PlacesUtils
+.
+getImageURLForResolution
+(
+window
+iconURL
+)
+;
 item
 .
 style
