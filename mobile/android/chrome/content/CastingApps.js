@@ -1007,8 +1007,6 @@ app
 .
 start
 (
-"
-"
 function
 (
 )
