@@ -4224,16 +4224,13 @@ cx
 ;
 if
 (
-js_GetClassObject
+GetBuiltinConstructor
 (
 cx
 JSProto_StopIteration
 &
 ctor
 )
-&
-&
-ctor
 )
 cx
 -

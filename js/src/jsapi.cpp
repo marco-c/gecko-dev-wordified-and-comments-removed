@@ -6270,7 +6270,7 @@ cx
 )
 ;
 return
-js_GetClassObject
+GetBuiltinConstructor
 (
 cx
 key
@@ -6304,7 +6304,7 @@ cx
 )
 ;
 return
-js_GetClassPrototype
+GetBuiltinPrototype
 (
 cx
 key
@@ -6312,7 +6312,6 @@ objp
 )
 ;
 }
-extern
 JS_PUBLIC_API
 (
 JSProtoKey

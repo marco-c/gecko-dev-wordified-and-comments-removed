@@ -1912,7 +1912,7 @@ cx
 if
 (
 !
-js_GetClassObject
+GetBuiltinConstructor
 (
 cx
 JSProto_StopIteration

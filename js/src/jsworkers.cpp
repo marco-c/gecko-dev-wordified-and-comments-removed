@@ -1513,7 +1513,7 @@ cx
 if
 (
 !
-js_GetClassObject
+GetBuiltinConstructor
 (
 cx
 JSProto_Function
@@ -1523,7 +1523,7 @@ obj
 |
 |
 !
-js_GetClassObject
+GetBuiltinConstructor
 (
 cx
 JSProto_Array
@@ -1533,7 +1533,7 @@ obj
 |
 |
 !
-js_GetClassObject
+GetBuiltinConstructor
 (
 cx
 JSProto_RegExp
@@ -1543,7 +1543,7 @@ obj
 |
 |
 !
-js_GetClassObject
+GetBuiltinConstructor
 (
 cx
 JSProto_Iterator
@@ -1567,7 +1567,7 @@ global
 if
 (
 !
-js_GetClassObject
+GetBuiltinConstructor
 (
 cx
 JSProto_Function
@@ -1577,7 +1577,7 @@ obj
 |
 |
 !
-js_GetClassObject
+GetBuiltinConstructor
 (
 cx
 JSProto_Array
@@ -1587,7 +1587,7 @@ obj
 |
 |
 !
-js_GetClassObject
+GetBuiltinConstructor
 (
 cx
 JSProto_RegExp
@@ -1597,7 +1597,7 @@ obj
 |
 |
 !
-js_GetClassObject
+GetBuiltinConstructor
 (
 cx
 JSProto_Iterator
@@ -3083,7 +3083,7 @@ JSObject
 *
 newProto
 =
-GetClassPrototypePure
+GetBuiltinPrototypePure
 (
 &
 parseTask
