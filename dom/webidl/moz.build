@@ -1545,6 +1545,16 @@ Selection
 webidl
 '
 '
+ServiceWorker
+.
+webidl
+'
+'
+ServiceWorkerContainer
+.
+webidl
+'
+'
 SettingsManager
 .
 webidl
