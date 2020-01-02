@@ -117,17 +117,6 @@ list
 result
 )
 ;
-is
-(
-result
-[
-0
-]
-"
-OK
-"
-)
-;
 cleanUp
 (
 )
