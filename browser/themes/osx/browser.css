@@ -1028,6 +1028,12 @@ toolbarbutton
 bookmark
 -
 item
+:
+not
+(
+.
+subviewbutton
+)
 #
 personal
 -
@@ -1331,6 +1337,7 @@ rgba
 )
 ;
 }
++
 toolbarbutton
 .
 bookmark
@@ -1338,6 +1345,13 @@ bookmark
 item
 :
 hover
+:
+not
+(
+.
+subviewbutton
+)
++
 toolbarbutton
 .
 bookmark
@@ -1350,6 +1364,12 @@ open
 true
 "
 ]
+:
+not
+(
+.
+subviewbutton
+)
 {
 color
 :
