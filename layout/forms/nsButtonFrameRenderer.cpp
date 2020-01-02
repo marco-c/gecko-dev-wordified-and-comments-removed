@@ -324,6 +324,7 @@ nsRenderingContext
 *
 aCtx
 )
+MOZ_OVERRIDE
 ;
 virtual
 nsRect
@@ -336,6 +337,7 @@ bool
 *
 aSnap
 )
+MOZ_OVERRIDE
 ;
 NS_DISPLAY_DECL_NAME
 (
@@ -523,6 +525,7 @@ nsIFrame
 *
 aOutFrames
 )
+MOZ_OVERRIDE
 {
 aOutFrames
 -
@@ -544,6 +547,7 @@ nsRenderingContext
 *
 aCtx
 )
+MOZ_OVERRIDE
 ;
 virtual
 nsRect
@@ -556,6 +560,7 @@ bool
 *
 aSnap
 )
+MOZ_OVERRIDE
 ;
 virtual
 void
@@ -708,6 +713,7 @@ nsRenderingContext
 *
 aCtx
 )
+MOZ_OVERRIDE
 ;
 NS_DISPLAY_DECL_NAME
 (

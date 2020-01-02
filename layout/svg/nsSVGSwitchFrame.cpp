@@ -116,6 +116,7 @@ GetType
 (
 )
 const
+MOZ_OVERRIDE
 ;
 #
 ifdef
@@ -129,6 +130,7 @@ nsAString
 aResult
 )
 const
+MOZ_OVERRIDE
 {
 return
 MakeFrameName
@@ -189,17 +191,20 @@ nsPoint
 &
 aPoint
 )
+MOZ_OVERRIDE
 ;
 nsRect
 GetCoveredRegion
 (
 )
+MOZ_OVERRIDE
 ;
 virtual
 void
 ReflowSVG
 (
 )
+MOZ_OVERRIDE
 ;
 virtual
 SVGBBox
@@ -212,6 +217,7 @@ aToBBoxUserspace
 uint32_t
 aFlags
 )
+MOZ_OVERRIDE
 ;
 private
 :

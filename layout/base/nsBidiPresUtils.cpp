@@ -8870,6 +8870,7 @@ aLength
 nsBidiDirection
 aDirection
 )
+MOZ_OVERRIDE
 {
 mTextRunConstructionContext
 -
@@ -8896,6 +8897,7 @@ nscoord
 GetWidth
 (
 )
+MOZ_OVERRIDE
 {
 return
 mTextRunConstructionContext
@@ -8916,6 +8918,7 @@ nscoord
 aXOffset
 nscoord
 )
+MOZ_OVERRIDE
 {
 mCtx
 -

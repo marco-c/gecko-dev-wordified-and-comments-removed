@@ -792,6 +792,7 @@ nsITimer
 *
 timer
 )
+MOZ_OVERRIDE
 {
 if
 (

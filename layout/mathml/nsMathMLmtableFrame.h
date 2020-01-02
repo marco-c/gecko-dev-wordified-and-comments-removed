@@ -637,6 +637,7 @@ GetVerticalAlign
 (
 )
 const
+MOZ_OVERRIDE
 ;
 virtual
 nsresult
@@ -653,6 +654,7 @@ nsDisplayListSet
 &
 aLists
 )
+MOZ_OVERRIDE
 ;
 virtual
 int32_t
@@ -834,6 +836,7 @@ nsStyleText
 StyleTextForLineLayout
 (
 )
+MOZ_OVERRIDE
 ;
 virtual
 void

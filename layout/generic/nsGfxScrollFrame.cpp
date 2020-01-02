@@ -5773,6 +5773,7 @@ mozilla
 TimeStamp
 aTime
 )
+MOZ_OVERRIDE
 {
 ScrollFrameHelper
 :
@@ -9859,6 +9860,7 @@ nsDisplayList
 *
 aList
 )
+MOZ_OVERRIDE
 {
 SetCount
 (
@@ -9894,6 +9896,7 @@ nsDisplayItem
 *
 aItem
 )
+MOZ_OVERRIDE
 {
 SetCount
 (

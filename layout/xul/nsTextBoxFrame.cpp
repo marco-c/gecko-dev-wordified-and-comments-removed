@@ -681,6 +681,7 @@ bool
 ReflowFinished
 (
 )
+MOZ_OVERRIDE
 {
 bool
 shouldFlush
@@ -732,6 +733,7 @@ void
 ReflowCallbackCanceled
 (
 )
+MOZ_OVERRIDE
 {
 delete
 this
@@ -1194,6 +1196,7 @@ nsRenderingContext
 *
 aCtx
 )
+MOZ_OVERRIDE
 ;
 virtual
 nsRect
@@ -1206,6 +1209,7 @@ bool
 *
 aSnap
 )
+MOZ_OVERRIDE
 ;
 NS_DISPLAY_DECL_NAME
 (
@@ -1222,12 +1226,14 @@ nsDisplayListBuilder
 *
 aBuilder
 )
+MOZ_OVERRIDE
 ;
 virtual
 void
 DisableComponentAlpha
 (
 )
+MOZ_OVERRIDE
 {
 mDisableSubpixelAA
 =

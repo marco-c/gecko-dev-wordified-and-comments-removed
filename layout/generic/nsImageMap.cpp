@@ -910,6 +910,7 @@ nscoord
 y
 )
 const
+MOZ_OVERRIDE
 ;
 virtual
 void
@@ -922,6 +923,7 @@ nsRenderingContext
 &
 aRC
 )
+MOZ_OVERRIDE
 ;
 virtual
 void
@@ -934,6 +936,7 @@ nsRect
 &
 aRect
 )
+MOZ_OVERRIDE
 ;
 }
 ;
@@ -1153,6 +1156,7 @@ nsAString
 &
 aSpec
 )
+MOZ_OVERRIDE
 ;
 virtual
 bool
@@ -1164,6 +1168,7 @@ nscoord
 y
 )
 const
+MOZ_OVERRIDE
 ;
 virtual
 void
@@ -1176,6 +1181,7 @@ nsRenderingContext
 &
 aRC
 )
+MOZ_OVERRIDE
 ;
 virtual
 void
@@ -1188,6 +1194,7 @@ nsRect
 &
 aRect
 )
+MOZ_OVERRIDE
 ;
 }
 ;
@@ -1784,6 +1791,7 @@ nsAString
 &
 aSpec
 )
+MOZ_OVERRIDE
 ;
 virtual
 bool
@@ -1795,6 +1803,7 @@ nscoord
 y
 )
 const
+MOZ_OVERRIDE
 ;
 virtual
 void
@@ -1807,6 +1816,7 @@ nsRenderingContext
 &
 aRC
 )
+MOZ_OVERRIDE
 ;
 virtual
 void
@@ -1819,6 +1829,7 @@ nsRect
 &
 aRect
 )
+MOZ_OVERRIDE
 ;
 }
 ;
@@ -2774,6 +2785,7 @@ nsAString
 &
 aSpec
 )
+MOZ_OVERRIDE
 ;
 virtual
 bool
@@ -2785,6 +2797,7 @@ nscoord
 y
 )
 const
+MOZ_OVERRIDE
 ;
 virtual
 void
@@ -2797,6 +2810,7 @@ nsRenderingContext
 &
 aRC
 )
+MOZ_OVERRIDE
 ;
 virtual
 void
@@ -2809,6 +2823,7 @@ nsRect
 &
 aRect
 )
+MOZ_OVERRIDE
 ;
 }
 ;

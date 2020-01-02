@@ -4345,6 +4345,7 @@ uint8_t
 *
 aBreakBefore
 )
+MOZ_OVERRIDE
 {
 if
 (
@@ -4391,6 +4392,7 @@ bool
 *
 aCapitalize
 )
+MOZ_OVERRIDE
 {
 NS_ASSERTION
 (
@@ -19679,6 +19681,7 @@ nsIFrame
 *
 aDestructRoot
 )
+MOZ_OVERRIDE
 ;
 virtual
 nsIFrame
@@ -19687,6 +19690,7 @@ GetPrevContinuation
 (
 )
 const
+MOZ_OVERRIDE
 {
 return
 mPrevContinuation
@@ -19700,6 +19704,7 @@ nsIFrame
 *
 aPrevContinuation
 )
+MOZ_OVERRIDE
 {
 NS_ASSERTION
 (
@@ -19769,6 +19774,7 @@ GetPrevInFlowVirtual
 (
 )
 const
+MOZ_OVERRIDE
 {
 return
 GetPrevInFlow
@@ -19898,6 +19904,7 @@ InlineMinWidthData
 *
 aData
 )
+MOZ_OVERRIDE
 ;
 virtual
 void
@@ -19910,6 +19917,7 @@ InlinePrefWidthData
 *
 aData
 )
+MOZ_OVERRIDE
 ;
 virtual
 nsresult
@@ -19939,6 +19947,7 @@ aSkippedMaxLength
 =
 UINT32_MAX
 )
+MOZ_OVERRIDE
 {
 return
 NS_ERROR_NOT_IMPLEMENTED
@@ -22165,6 +22174,7 @@ bool
 *
 aSnap
 )
+MOZ_OVERRIDE
 {
 *
 aSnap
@@ -22228,6 +22238,7 @@ nsIFrame
 *
 aOutFrames
 )
+MOZ_OVERRIDE
 {
 if
 (
@@ -22271,6 +22282,7 @@ nsRenderingContext
 *
 aCtx
 )
+MOZ_OVERRIDE
 ;
 NS_DISPLAY_DECL_NAME
 (
@@ -22287,6 +22299,7 @@ nsDisplayListBuilder
 *
 aBuilder
 )
+MOZ_OVERRIDE
 {
 bool
 snap
@@ -22309,6 +22322,7 @@ nsDisplayListBuilder
 *
 aBuilder
 )
+MOZ_OVERRIDE
 {
 return
 new
@@ -22334,6 +22348,7 @@ nsRegion
 *
 aInvalidRegion
 )
+MOZ_OVERRIDE
 {
 const
 nsDisplayTextGeometry
@@ -22458,6 +22473,7 @@ void
 DisableComponentAlpha
 (
 )
+MOZ_OVERRIDE
 {
 mDisableSubpixelAA
 =

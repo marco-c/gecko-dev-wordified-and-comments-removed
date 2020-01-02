@@ -95,6 +95,7 @@ GetListBoxBody
 bool
 aFlush
 )
+MOZ_OVERRIDE
 ;
 nsListBoxObject
 (
@@ -105,12 +106,14 @@ void
 Clear
 (
 )
+MOZ_OVERRIDE
 ;
 virtual
 void
 ClearCachedValues
 (
 )
+MOZ_OVERRIDE
 ;
 protected
 :

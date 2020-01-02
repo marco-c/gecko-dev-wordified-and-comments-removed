@@ -228,6 +228,7 @@ nsStyleContext
 *
 aOldStyleContext
 )
+MOZ_OVERRIDE
 ;
 virtual
 nsIAtom

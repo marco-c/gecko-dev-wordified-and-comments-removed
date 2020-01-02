@@ -191,6 +191,7 @@ ContentStatesChanged
 nsEventStates
 aStates
 )
+MOZ_OVERRIDE
 ;
 virtual
 bool
@@ -198,6 +199,7 @@ IsLeaf
 (
 )
 const
+MOZ_OVERRIDE
 {
 return
 true

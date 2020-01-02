@@ -408,6 +408,7 @@ NS_IMETHOD
 Run
 (
 )
+MOZ_OVERRIDE
 {
 nsAutoString
 domEventToFire
@@ -589,6 +590,7 @@ NS_IMETHOD
 Run
 (
 )
+MOZ_OVERRIDE
 {
 nsMenuFrame
 *
@@ -996,6 +998,7 @@ bool
 ReflowFinished
 (
 )
+MOZ_OVERRIDE
 {
 bool
 shouldFlush
@@ -1050,6 +1053,7 @@ void
 ReflowCallbackCanceled
 (
 )
+MOZ_OVERRIDE
 {
 delete
 this

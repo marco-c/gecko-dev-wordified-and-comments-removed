@@ -12915,6 +12915,7 @@ nsIFrame
 *
 aFrame
 )
+MOZ_OVERRIDE
 {
 nsRect
 r

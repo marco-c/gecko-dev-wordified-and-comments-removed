@@ -160,6 +160,7 @@ nsIFrame
 *
 aDestructRoot
 )
+MOZ_OVERRIDE
 ;
 friend
 nsIFrame
@@ -205,6 +206,7 @@ ContentInfo
 &
 aElements
 )
+MOZ_OVERRIDE
 ;
 virtual
 void
@@ -216,6 +218,7 @@ aElements
 uint32_t
 aFilter
 )
+MOZ_OVERRIDE
 ;
 virtual
 bool
@@ -225,6 +228,7 @@ uint32_t
 aFlags
 )
 const
+MOZ_OVERRIDE
 {
 if
 (
@@ -267,6 +271,7 @@ nsAString
 aResult
 )
 const
+MOZ_OVERRIDE
 ;
 #
 endif

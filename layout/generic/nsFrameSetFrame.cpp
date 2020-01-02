@@ -340,6 +340,7 @@ nsAString
 aResult
 )
 const
+MOZ_OVERRIDE
 ;
 #
 endif
@@ -357,6 +358,7 @@ nsEventStatus
 *
 aEventStatus
 )
+MOZ_OVERRIDE
 ;
 virtual
 nsresult
@@ -373,6 +375,7 @@ Cursor
 &
 aCursor
 )
+MOZ_OVERRIDE
 ;
 virtual
 void
@@ -410,6 +413,7 @@ nsReflowStatus
 &
 aStatus
 )
+MOZ_OVERRIDE
 ;
 bool
 GetVisibility
@@ -473,12 +477,14 @@ nscoord
 GetIntrinsicWidth
 (
 )
+MOZ_OVERRIDE
 ;
 virtual
 nscoord
 GetIntrinsicHeight
 (
 )
+MOZ_OVERRIDE
 ;
 int32_t
 mPrevNeighbor
@@ -536,6 +542,7 @@ nsAString
 aResult
 )
 const
+MOZ_OVERRIDE
 {
 return
 MakeFrameName
@@ -588,6 +595,7 @@ nsReflowStatus
 &
 aStatus
 )
+MOZ_OVERRIDE
 ;
 protected
 :
@@ -615,12 +623,14 @@ nscoord
 GetIntrinsicWidth
 (
 )
+MOZ_OVERRIDE
 ;
 virtual
 nscoord
 GetIntrinsicHeight
 (
 )
+MOZ_OVERRIDE
 ;
 friend
 class
@@ -7410,6 +7420,7 @@ nsIFrame
 *
 aOutFrames
 )
+MOZ_OVERRIDE
 {
 aOutFrames
 -
@@ -7431,6 +7442,7 @@ nsRenderingContext
 *
 aCtx
 )
+MOZ_OVERRIDE
 ;
 NS_DISPLAY_DECL_NAME
 (
@@ -8401,6 +8413,7 @@ nsRenderingContext
 *
 aCtx
 )
+MOZ_OVERRIDE
 ;
 NS_DISPLAY_DECL_NAME
 (

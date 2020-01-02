@@ -99,6 +99,7 @@ aPadding
 bool
 aShrinkWrap
 )
+MOZ_OVERRIDE
 ;
 virtual
 nsIFrame
@@ -107,6 +108,7 @@ GetParentStyleContextFrame
 (
 )
 const
+MOZ_OVERRIDE
 ;
 #
 ifdef

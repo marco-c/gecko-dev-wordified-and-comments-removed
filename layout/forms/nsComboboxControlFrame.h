@@ -263,6 +263,7 @@ nsEventStatus
 *
 aEventStatus
 )
+MOZ_OVERRIDE
 ;
 virtual
 void
@@ -340,6 +341,7 @@ nsIScrollableFrame
 GetScrollTargetFrame
 (
 )
+MOZ_OVERRIDE
 {
 return
 do_QueryFrame
@@ -418,6 +420,7 @@ nsIFrame
 GetContentInsertionFrame
 (
 )
+MOZ_OVERRIDE
 ;
 virtual
 nsresult

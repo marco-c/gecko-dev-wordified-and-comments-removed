@@ -251,12 +251,14 @@ nsPoint
 &
 aPoint
 )
+MOZ_OVERRIDE
 ;
 virtual
 void
 ReflowSVG
 (
 )
+MOZ_OVERRIDE
 ;
 virtual
 uint16_t
@@ -277,6 +279,7 @@ aAttribute
 int32_t
 aModType
 )
+MOZ_OVERRIDE
 ;
 virtual
 void
@@ -302,6 +305,7 @@ nsIFrame
 *
 aDestructRoot
 )
+MOZ_OVERRIDE
 ;
 virtual
 nsIAtom
@@ -310,6 +314,7 @@ GetType
 (
 )
 const
+MOZ_OVERRIDE
 ;
 #
 ifdef
@@ -323,6 +328,7 @@ nsAString
 aResult
 )
 const
+MOZ_OVERRIDE
 {
 return
 MakeFrameName

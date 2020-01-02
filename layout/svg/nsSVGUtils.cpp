@@ -2156,6 +2156,7 @@ nsIFrame
 *
 aTransformRoot
 )
+MOZ_OVERRIDE
 {
 nsISVGChildFrame
 *

@@ -198,6 +198,7 @@ nsPopupSetFrame
 GetPopupSetFrame
 (
 )
+MOZ_OVERRIDE
 ;
 virtual
 void
@@ -207,6 +208,7 @@ nsPopupSetFrame
 *
 aPopupSet
 )
+MOZ_OVERRIDE
 ;
 virtual
 nsIContent
@@ -214,6 +216,7 @@ nsIContent
 GetDefaultTooltip
 (
 )
+MOZ_OVERRIDE
 ;
 virtual
 void
@@ -223,6 +226,7 @@ nsIContent
 *
 aTooltip
 )
+MOZ_OVERRIDE
 ;
 virtual
 nsresult
@@ -232,6 +236,7 @@ nsIContent
 *
 aNode
 )
+MOZ_OVERRIDE
 ;
 virtual
 nsresult
@@ -241,6 +246,7 @@ nsIContent
 *
 aNode
 )
+MOZ_OVERRIDE
 ;
 virtual
 nsresult
@@ -252,6 +258,7 @@ nsFrameList
 &
 aFrameList
 )
+MOZ_OVERRIDE
 ;
 virtual
 nsresult
@@ -266,6 +273,7 @@ nsFrameList
 &
 aFrameList
 )
+MOZ_OVERRIDE
 ;
 virtual
 nsresult
@@ -277,6 +285,7 @@ nsIFrame
 *
 aOldFrame
 )
+MOZ_OVERRIDE
 ;
 virtual
 nsresult
@@ -296,6 +305,7 @@ nsReflowStatus
 &
 aStatus
 )
+MOZ_OVERRIDE
 ;
 virtual
 nsresult
@@ -311,6 +321,7 @@ nsEventStatus
 *
 aEventStatus
 )
+MOZ_OVERRIDE
 ;
 virtual
 void
@@ -337,6 +348,7 @@ GetType
 (
 )
 const
+MOZ_OVERRIDE
 ;
 virtual
 bool
@@ -346,6 +358,7 @@ uint32_t
 aFlags
 )
 const
+MOZ_OVERRIDE
 {
 if
 (
@@ -388,6 +401,7 @@ nsAString
 aResult
 )
 const
+MOZ_OVERRIDE
 ;
 #
 endif

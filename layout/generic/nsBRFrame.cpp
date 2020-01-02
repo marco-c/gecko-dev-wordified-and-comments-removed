@@ -94,6 +94,7 @@ CalcContentOffsetsFromFramePoint
 nsPoint
 aPoint
 )
+MOZ_OVERRIDE
 ;
 virtual
 bool
@@ -105,6 +106,7 @@ int32_t
 *
 aOffset
 )
+MOZ_OVERRIDE
 ;
 virtual
 bool
@@ -120,6 +122,7 @@ aRespectClusters
 =
 true
 )
+MOZ_OVERRIDE
 ;
 virtual
 bool
@@ -138,6 +141,7 @@ PeekWordState
 *
 aState
 )
+MOZ_OVERRIDE
 ;
 virtual
 nsresult
@@ -157,6 +161,7 @@ nsReflowStatus
 &
 aStatus
 )
+MOZ_OVERRIDE
 ;
 virtual
 void
@@ -169,6 +174,7 @@ InlineMinWidthData
 *
 aData
 )
+MOZ_OVERRIDE
 ;
 virtual
 void
@@ -181,6 +187,7 @@ InlinePrefWidthData
 *
 aData
 )
+MOZ_OVERRIDE
 ;
 virtual
 nscoord
@@ -190,6 +197,7 @@ nsRenderingContext
 *
 aRenderingContext
 )
+MOZ_OVERRIDE
 ;
 virtual
 nscoord
@@ -199,6 +207,7 @@ nsRenderingContext
 *
 aRenderingContext
 )
+MOZ_OVERRIDE
 ;
 virtual
 nsIAtom
@@ -207,6 +216,7 @@ GetType
 (
 )
 const
+MOZ_OVERRIDE
 ;
 virtual
 nscoord
@@ -214,6 +224,7 @@ GetBaseline
 (
 )
 const
+MOZ_OVERRIDE
 ;
 virtual
 bool
@@ -223,6 +234,7 @@ uint32_t
 aFlags
 )
 const
+MOZ_OVERRIDE
 {
 return
 nsFrame

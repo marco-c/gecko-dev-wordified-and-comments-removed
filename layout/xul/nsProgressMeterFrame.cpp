@@ -251,6 +251,7 @@ bool
 ReflowFinished
 (
 )
+MOZ_OVERRIDE
 {
 bool
 shouldFlush
@@ -305,6 +306,7 @@ void
 ReflowCallbackCanceled
 (
 )
+MOZ_OVERRIDE
 {
 delete
 this

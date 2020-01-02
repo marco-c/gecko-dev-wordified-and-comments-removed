@@ -205,6 +205,7 @@ nsIFrame
 *
 aFrame
 )
+MOZ_OVERRIDE
 {
 nsRect
 overflow
@@ -1418,6 +1419,7 @@ nsIFrame
 *
 aTransformRoot
 )
+MOZ_OVERRIDE
 {
 BasicLayerManager
 *
@@ -2455,6 +2457,7 @@ gfxMatrix
 &
 aTransform
 )
+MOZ_OVERRIDE
 ;
 private
 :

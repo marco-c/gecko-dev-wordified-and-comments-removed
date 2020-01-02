@@ -2158,6 +2158,7 @@ nsIFrame
 *
 aOutFrames
 )
+MOZ_OVERRIDE
 ;
 virtual
 void
@@ -2170,6 +2171,7 @@ nsRenderingContext
 *
 aCtx
 )
+MOZ_OVERRIDE
 ;
 virtual
 void
@@ -2186,6 +2188,7 @@ nsRegion
 *
 aInvalidRegion
 )
+MOZ_OVERRIDE
 ;
 NS_DISPLAY_DECL_NAME
 (

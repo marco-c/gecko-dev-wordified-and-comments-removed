@@ -865,6 +865,7 @@ bool
 *
 aSnap
 )
+MOZ_OVERRIDE
 {
 *
 aSnap
@@ -903,12 +904,14 @@ nsRenderingContext
 *
 aCtx
 )
+MOZ_OVERRIDE
 ;
 virtual
 uint32_t
 GetPerFrameKey
 (
 )
+MOZ_OVERRIDE
 {
 return
 (

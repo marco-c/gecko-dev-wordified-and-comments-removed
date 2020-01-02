@@ -79,6 +79,7 @@ SetShowFrameBorders
 bool
 aEnable
 )
+MOZ_OVERRIDE
 ;
 NS_IMETHOD
 GetShowFrameBorders
@@ -87,6 +88,7 @@ bool
 *
 aResult
 )
+MOZ_OVERRIDE
 ;
 NS_IMETHOD
 SetShowEventTargetFrameBorder
@@ -94,6 +96,7 @@ SetShowEventTargetFrameBorder
 bool
 aEnable
 )
+MOZ_OVERRIDE
 ;
 NS_IMETHOD
 GetShowEventTargetFrameBorder
@@ -102,6 +105,7 @@ bool
 *
 aResult
 )
+MOZ_OVERRIDE
 ;
 NS_IMETHOD
 GetContentSize
@@ -113,6 +117,7 @@ int32_t
 *
 aSizeInBytesResult
 )
+MOZ_OVERRIDE
 ;
 NS_IMETHOD
 GetFrameSize
@@ -124,6 +129,7 @@ int32_t
 *
 aSizeInBytesResult
 )
+MOZ_OVERRIDE
 ;
 NS_IMETHOD
 GetStyleSize
@@ -135,6 +141,7 @@ int32_t
 *
 aSizeInBytesResult
 )
+MOZ_OVERRIDE
 ;
 }
 ;

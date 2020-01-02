@@ -8589,6 +8589,7 @@ nsIFrame
 *
 aOutFrames
 )
+MOZ_OVERRIDE
 ;
 NS_DISPLAY_DECL_NAME
 (
@@ -8815,6 +8816,7 @@ nsDisplayList
 *
 aList
 )
+MOZ_OVERRIDE
 {
 return
 new
@@ -8842,6 +8844,7 @@ nsDisplayItem
 *
 aItem
 )
+MOZ_OVERRIDE
 {
 return
 new
