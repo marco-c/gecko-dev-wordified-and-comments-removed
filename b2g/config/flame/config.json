@@ -338,11 +338,7 @@ b2g
 -
 update
 /
-b2g
--
-gecko
--
-update
+*
 .
 mar
 "
