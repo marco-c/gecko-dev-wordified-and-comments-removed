@@ -179,9 +179,8 @@ count
 =
 XPCOM_MIN
 (
-(
 uint32_t
-)
+(
 XPCOM_MIN
 <
 uint64_t
@@ -190,9 +189,13 @@ uint64_t
 count64
 aCount
 )
+)
+uint32_t
+(
 UINT32_MAX
 -
 1
+)
 )
 ;
 buffer
