@@ -18,13 +18,6 @@ nsTArray
 .
 h
 "
-#
-include
-"
-gfxTypes
-.
-h
-"
 class
 gfxSkipCharsBuilder
 {

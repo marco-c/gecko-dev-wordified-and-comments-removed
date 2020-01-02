@@ -72,6 +72,13 @@ gfx
 .
 h
 "
+#
+include
+"
+gfxColor
+.
+h
+"
 namespace
 mozilla
 {

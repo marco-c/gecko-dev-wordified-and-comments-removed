@@ -1,10 +1,10 @@
 #
 include
-"
-nscore
+<
+stdint
 .
 h
-"
+>
 class
 nsIAtom
 ;

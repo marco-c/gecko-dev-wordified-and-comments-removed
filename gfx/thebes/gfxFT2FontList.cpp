@@ -288,6 +288,13 @@ h
 #
 include
 "
+gfxFontConstants
+.
+h
+"
+#
+include
+"
 mozilla
 /
 Preferences

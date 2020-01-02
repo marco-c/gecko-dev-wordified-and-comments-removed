@@ -223,13 +223,6 @@ h
 #
 include
 "
-nsIConsoleService
-.
-h
-"
-#
-include
-"
 nsServiceManagerUtils
 .
 h

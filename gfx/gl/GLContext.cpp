@@ -118,6 +118,13 @@ h
 #
 include
 "
+gfx2DGlue
+.
+h
+"
+#
+include
+"
 mozilla
 /
 DebugOnly
@@ -145,6 +152,13 @@ CoreServices
 .
 h
 >
+#
+include
+"
+gfxColor
+.
+h
+"
 #
 endif
 #

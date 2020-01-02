@@ -5,6 +5,17 @@ nsMathMLmphantomFrame
 .
 h
 "
+#
+include
+"
+mozilla
+/
+gfx
+/
+2D
+.
+h
+"
 nsIFrame
 *
 NS_NewMathMLmphantomFrame

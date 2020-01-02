@@ -147,6 +147,13 @@ nsMathUtils
 h
 "
 #
+include
+"
+gfx2DGlue
+.
+h
+"
+#
 ifdef
 GFX_TILEDLAYER_DEBUG_OVERLAY
 #

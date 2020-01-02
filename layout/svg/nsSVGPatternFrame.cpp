@@ -114,6 +114,13 @@ SVGContentUtils
 .
 h
 "
+#
+include
+"
+gfxColor
+.
+h
+"
 using
 namespace
 mozilla

@@ -7,7 +7,7 @@ GFX_PLATFORM_MAC_H
 #
 include
 "
-nsTArray
+nsTArrayForwardDeclare
 .
 h
 "
@@ -30,12 +30,6 @@ MAC_OS_X_VERSION_10_7_HEX
 define
 MAC_OS_X_MAJOR_VERSION_MASK
 0xFFFFFFF0U
-class
-gfxTextRun
-;
-class
-gfxFontFamily
-;
 namespace
 mozilla
 {

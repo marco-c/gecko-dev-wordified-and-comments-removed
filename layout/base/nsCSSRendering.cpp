@@ -290,6 +290,13 @@ h
 "
 #
 include
+"
+gfxColor
+.
+h
+"
+#
+include
 <
 algorithm
 >

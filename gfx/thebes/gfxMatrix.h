@@ -25,13 +25,6 @@ gfxRect
 .
 h
 "
-#
-include
-"
-nsMathUtils
-.
-h
-"
 struct
 gfxMatrix
 {

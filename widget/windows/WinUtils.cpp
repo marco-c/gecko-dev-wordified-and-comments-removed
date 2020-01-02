@@ -153,6 +153,13 @@ MainThreadUtils
 h
 "
 #
+include
+"
+gfxColor
+.
+h
+"
+#
 ifdef
 NS_ENABLE_TSF
 #

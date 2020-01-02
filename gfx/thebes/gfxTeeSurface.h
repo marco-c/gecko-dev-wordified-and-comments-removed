@@ -14,7 +14,7 @@ h
 #
 include
 "
-nsTArray
+nsTArrayForwardDeclare
 .
 h
 "
@@ -25,6 +25,14 @@ nsSize
 .
 h
 "
+template
+<
+class
+T
+>
+class
+nsRefPtr
+;
 class
 gfxTeeSurface
 :

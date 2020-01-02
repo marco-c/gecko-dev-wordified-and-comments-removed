@@ -67,6 +67,9 @@ nsSVGTextFrame2
 class
 nsTextFrame
 ;
+class
+gfxFlattenedPath
+;
 typedef
 nsSVGDisplayContainerFrame
 nsSVGTextFrame2Base

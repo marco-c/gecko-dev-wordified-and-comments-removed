@@ -75,6 +75,17 @@ nsIDOMEvent
 .
 h
 "
+#
+include
+"
+mozilla
+/
+gfx
+/
+2D
+.
+h
+"
 enum
 nsMactionActionTypes
 {

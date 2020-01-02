@@ -8,9 +8,7 @@ h
 #
 include
 "
-cairo
--
-quartz
+gfxImageSurface
 .
 h
 "

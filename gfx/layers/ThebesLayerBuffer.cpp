@@ -225,6 +225,13 @@ nsSize
 .
 h
 "
+#
+include
+"
+gfx2DGlue
+.
+h
+"
 namespace
 mozilla
 {

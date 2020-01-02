@@ -90,6 +90,13 @@ h
 #
 include
 "
+nsServiceManagerUtils
+.
+h
+"
+#
+include
+"
 cairo
 .
 h

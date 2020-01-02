@@ -121,6 +121,13 @@ h
 #
 include
 "
+gfxFontConstants
+.
+h
+"
+#
+include
+"
 mozilla
 /
 MemoryReporting
