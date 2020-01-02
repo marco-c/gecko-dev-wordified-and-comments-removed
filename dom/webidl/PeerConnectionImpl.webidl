@@ -493,15 +493,6 @@ attribute
 PCImplSipccState
 sipccState
 ;
-attribute
-DOMString
-peerIdentity
-;
-readonly
-attribute
-boolean
-privacyRequested
-;
 /
 *
 Data

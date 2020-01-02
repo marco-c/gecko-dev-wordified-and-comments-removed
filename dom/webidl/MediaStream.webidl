@@ -200,12 +200,6 @@ fake
 =
 false
 ;
-DOMString
-?
-peerIdentity
-=
-null
-;
 }
 ;
 dictionary
@@ -234,12 +228,6 @@ boolean
 fake
 =
 false
-;
-DOMString
-?
-peerIdentity
-=
-null
 ;
 }
 ;
