@@ -1014,7 +1014,7 @@ logcat
 v
 '
 '
-threadtime
+time
 '
 ]
             
