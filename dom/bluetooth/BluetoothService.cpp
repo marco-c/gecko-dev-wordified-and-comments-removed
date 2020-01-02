@@ -644,6 +644,10 @@ SetEnabled
 mEnabled
 )
 ;
+gToggleInProgress
+=
+false
+;
 nsAutoString
 signalName
 ;
@@ -2270,10 +2274,6 @@ failed
 mEnabled
 =
 aEnabled
-;
-gToggleInProgress
-=
-false
 ;
 }
 nsresult
