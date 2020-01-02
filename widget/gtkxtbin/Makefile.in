@@ -73,16 +73,3 @@ CFLAGS
 MOZ_GTK2_CFLAGS
 )
 endif
-INCLUDES
-+
-=
-\
--
-I
-(
-srcdir
-)
-\
-(
-NULL
-)
