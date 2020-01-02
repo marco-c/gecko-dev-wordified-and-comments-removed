@@ -15449,6 +15449,13 @@ heading
 )
 GK_ATOM
 (
+hitregion
+"
+hitregion
+"
+)
+GK_ATOM
+(
 InlineBlockFrame
 "
 InlineBlockFrame
