@@ -3817,7 +3817,7 @@ iter
 >
 pos
 .
-pos
+bits
 (
 )
 )
@@ -9746,7 +9746,7 @@ if
 !
 lastRegisterFrom
 .
-pos
+bits
 (
 )
 )
@@ -9810,7 +9810,7 @@ u
 "
 lastRegisterTo
 .
-pos
+bits
 (
 )
 )
@@ -10695,7 +10695,7 @@ if
 (
 lastRegisterUse
 .
-pos
+bits
 (
 )
 =
