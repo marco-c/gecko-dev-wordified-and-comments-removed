@@ -552,7 +552,7 @@ include
 "
 mozilla
 /
-mozalloc_oom
+IOInterposer
 .
 h
 "
@@ -561,7 +561,7 @@ include
 "
 mozilla
 /
-LateWriteChecks
+mozalloc_oom
 .
 h
 "
@@ -4491,7 +4491,10 @@ context
 mozilla
 :
 :
-StopLateWriteChecks
+IOInterposer
+:
+:
+Disable
 (
 )
 ;
@@ -11168,7 +11171,10 @@ context
 mozilla
 :
 :
-StopLateWriteChecks
+IOInterposer
+:
+:
+Disable
 (
 )
 ;
