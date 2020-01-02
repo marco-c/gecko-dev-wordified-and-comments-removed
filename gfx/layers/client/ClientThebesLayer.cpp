@@ -59,6 +59,13 @@ h
 #
 include
 "
+gfxPrefs
+.
+h
+"
+#
+include
+"
 mozilla
 /
 Assertions
@@ -769,10 +776,10 @@ SCROLLABLE
 &
 #
 endif
-gfxPlatform
+gfxPrefs
 :
 :
-GetPrefLayersEnableTiles
+LayersTilesEnabled
 (
 )
 &

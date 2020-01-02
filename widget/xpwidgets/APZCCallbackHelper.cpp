@@ -8,7 +8,7 @@ h
 #
 include
 "
-gfxPlatform
+gfxPrefs
 .
 h
 "
@@ -271,10 +271,10 @@ aActualScrollOffset
 ;
 if
 (
-gfxPlatform
+gfxPrefs
 :
 :
-GetPrefLayersEnableTiles
+LayersTilesEnabled
 (
 )
 )
