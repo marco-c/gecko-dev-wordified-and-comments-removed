@@ -2979,8 +2979,6 @@ JS_NewRuntime
 (
 uint32_t
 maxbytes
-JSUseHelperThreads
-useHelperThreads
 JSRuntime
 *
 parentRuntime
@@ -3024,7 +3022,6 @@ JSRuntime
 >
 (
 parentRuntime
-useHelperThreads
 )
 ;
 if

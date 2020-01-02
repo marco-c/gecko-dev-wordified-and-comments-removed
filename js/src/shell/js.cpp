@@ -15648,7 +15648,6 @@ JS_NewRuntime
 1024L
 *
 1024L
-JS_USE_HELPER_THREADS
 input
 -
 >
@@ -36657,7 +36656,6 @@ JS_NewRuntime
 1024L
 *
 1024L
-JS_USE_HELPER_THREADS
 )
 ;
 if

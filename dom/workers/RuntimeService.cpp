@@ -3511,11 +3511,6 @@ value
 ;
 }
 }
-JS_SetIsWorkerRuntime
-(
-aRuntime
-)
-;
 JS_SetNativeStackQuota
 (
 aRuntime
@@ -3745,7 +3740,6 @@ CycleCollectedJSRuntime
 (
 aParentRuntime
 WORKER_DEFAULT_RUNTIME_HEAPSIZE
-JS_NO_HELPER_THREADS
 )
 mWorkerPrivate
 (

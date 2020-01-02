@@ -315,8 +315,6 @@ JSRuntime
 aParentRuntime
 uint32_t
 aMaxbytes
-JSUseHelperThreads
-aUseHelperThreads
 )
 ;
 virtual

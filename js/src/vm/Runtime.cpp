@@ -554,8 +554,6 @@ JSRuntime
 JSRuntime
 *
 parentRuntime
-JSUseHelperThreads
-useHelperThreads
 )
 :
 JS
@@ -988,10 +986,6 @@ forkJoinWarmup
 (
 0
 )
-useHelperThreads_
-(
-useHelperThreads
-)
 parallelIonCompilationEnabled_
 (
 true
@@ -999,10 +993,6 @@ true
 parallelParsingEnabled_
 (
 true
-)
-isWorkerRuntime_
-(
-false
 )
 #
 ifdef
