@@ -236,6 +236,13 @@ jsm
 '
 gonk
 /
+MobileMessageDB
+.
+jsm
+'
+'
+gonk
+/
 wap_consts
 .
 js
