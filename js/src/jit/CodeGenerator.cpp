@@ -12246,11 +12246,11 @@ getSingleTarget
 ;
 if
 (
-!
-CanIonCompile
-(
 target
-executionMode
+-
+>
+isNative
+(
 )
 )
 {

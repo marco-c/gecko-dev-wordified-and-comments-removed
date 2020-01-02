@@ -34401,6 +34401,9 @@ PropertyReadNeedsTypeBarrier
 JSContext
 *
 cx
+JSContext
+*
+propertycx
 types
 :
 :
@@ -34432,6 +34435,9 @@ PropertyReadNeedsTypeBarrier
 JSContext
 *
 cx
+JSContext
+*
+propertycx
 types
 :
 :

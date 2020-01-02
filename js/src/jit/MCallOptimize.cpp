@@ -1417,7 +1417,9 @@ TypeSetIncludes
 (
 elemTypes
 .
-actualTypes
+maybeTypes
+(
+)
 value
 -
 >
@@ -2059,6 +2061,9 @@ barrier
 PropertyReadNeedsTypeBarrier
 (
 cx
+context
+(
+)
 constraints
 (
 )
