@@ -63,7 +63,14 @@ h
 #
 include
 <
-nsObserverService
+nsIObserverService
+.
+h
+>
+#
+include
+<
+nsIObserver
 .
 h
 >
