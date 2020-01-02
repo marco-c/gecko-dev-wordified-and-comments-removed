@@ -975,10 +975,6 @@ function
 login
 )
 {
-let
-encUsername
-encPassword
-;
 LoginHelper
 .
 checkLoginValues
@@ -986,6 +982,7 @@ checkLoginValues
 login
 )
 ;
+let
 [
 encUsername
 encPassword
