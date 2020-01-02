@@ -3051,11 +3051,6 @@ tstamp_usecs
 "
 )
 ;
-nestegg_free_packet
-(
-aPacket
-)
-;
 return
 false
 ;
@@ -3803,11 +3798,6 @@ delay
 "
 )
 ;
-nestegg_free_packet
-(
-aPacket
-)
-;
 return
 false
 ;
@@ -4368,7 +4358,6 @@ next_tstamp
 =
 0
 ;
-{
 nsAutoRef
 <
 NesteggPacketHolder
@@ -4463,7 +4452,6 @@ endTime
 *
 NS_PER_USEC
 ;
-}
 }
 int64_t
 tstamp_usecs
