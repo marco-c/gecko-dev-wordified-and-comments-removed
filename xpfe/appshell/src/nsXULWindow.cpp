@@ -8774,7 +8774,7 @@ scrollbars
 window
 -
 >
-Scrollbars
+GetScrollbars
 (
 )
 ;

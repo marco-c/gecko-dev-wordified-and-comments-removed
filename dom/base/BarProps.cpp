@@ -76,6 +76,16 @@ mDOMWindow
 aWindow
 )
 {
+MOZ_ASSERT
+(
+aWindow
+-
+>
+IsInnerWindow
+(
+)
+)
+;
 SetIsDOMBinding
 (
 )
