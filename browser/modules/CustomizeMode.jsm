@@ -165,15 +165,6 @@ window
 =
 aWindow
 ;
-CustomizableUI
-.
-registerWindow
-(
-this
-.
-window
-)
-;
 this
 .
 document
