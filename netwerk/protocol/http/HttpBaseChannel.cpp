@@ -7297,6 +7297,14 @@ mPrivateBrowsing
 ;
 }
 }
+newChannel
+-
+>
+SetLoadInfo
+(
+mLoadInfo
+)
+;
 nsCOMPtr
 <
 nsIHttpChannel
