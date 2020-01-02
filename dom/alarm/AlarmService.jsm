@@ -2401,6 +2401,16 @@ app
 return
 ;
 }
+if
+(
+params
+.
+browserOnly
+)
+{
+return
+;
+}
 let
 manifestURL
 =

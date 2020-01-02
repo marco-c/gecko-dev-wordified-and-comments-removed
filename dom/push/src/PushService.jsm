@@ -1703,6 +1703,16 @@ application
 return
 ;
 }
+if
+(
+data
+.
+browserOnly
+)
+{
+return
+;
+}
 let
 appsService
 =
