@@ -1917,6 +1917,11 @@ widget
 "
 )
 ;
+if
+(
+presShell
+)
+{
 #
 ifdef
 MOZ_DUMP_PAINTING
@@ -2039,6 +2044,7 @@ SetPainting
 false
 )
 ;
+}
 viewManager
 -
 >
