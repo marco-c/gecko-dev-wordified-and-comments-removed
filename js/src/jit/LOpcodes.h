@@ -143,6 +143,11 @@ NewDerivedTypedObject
 \
 _
 (
+AbortPar
+)
+\
+_
+(
 InitElem
 )
 \

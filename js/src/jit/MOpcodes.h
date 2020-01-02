@@ -1049,6 +1049,11 @@ NewDerivedTypedObject
 \
 _
 (
+AbortPar
+)
+\
+_
+(
 LambdaPar
 )
 \
