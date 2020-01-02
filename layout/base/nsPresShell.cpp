@@ -18542,14 +18542,6 @@ Clip
 bool
 needsGroup
 =
-NS_GET_A
-(
-aBackgroundColor
-)
-<
-0xff
-|
-|
 oldOperator
 !
 =
