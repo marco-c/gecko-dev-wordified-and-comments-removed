@@ -487,6 +487,7 @@ NotifyWaitingForResourcesStatusChanged
 )
 MOZ_OVERRIDE
 ;
+virtual
 void
 SetPlaybackRate
 (
@@ -1353,6 +1354,7 @@ MetadataTags
 aTags
 )
 ;
+virtual
 void
 ChangeState
 (
@@ -1375,6 +1377,7 @@ OnReadMetadataCompleted
 MOZ_OVERRIDE
 {
 }
+virtual
 void
 MetadataLoaded
 (
@@ -1427,6 +1430,7 @@ PlaybackPositionChanged
 (
 )
 ;
+virtual
 void
 UpdateReadyStateForData
 (

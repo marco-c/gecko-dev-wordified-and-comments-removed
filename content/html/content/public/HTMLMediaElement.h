@@ -175,6 +175,10 @@ mozilla
 namespace
 dom
 {
+#
+define
+TIMEUPDATE_MS
+250
 class
 MediaError
 ;
