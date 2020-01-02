@@ -6047,7 +6047,7 @@ else
 {
 mFavicon
 .
-setImageBitmap
+setImageDrawable
 (
 null
 )
