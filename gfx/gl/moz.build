@@ -337,6 +337,11 @@ GLUploadHelpers
 h
 '
 '
+HeapCopyOfStackArray
+.
+h
+'
+'
 ScopedGLHelpers
 .
 h
