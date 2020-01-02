@@ -4056,6 +4056,9 @@ BaseURLStubPing
 {
 StubURLVersion
 }
+{
+StubURLVersionAppend
+}
 /
 {
 Channel
