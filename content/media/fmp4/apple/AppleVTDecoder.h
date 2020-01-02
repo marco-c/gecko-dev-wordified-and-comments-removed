@@ -146,8 +146,10 @@ OutputFrame
 (
 CVPixelBufferRef
 aImage
+nsAutoPtr
+<
 FrameRef
-*
+>
 frameRef
 )
 ;
