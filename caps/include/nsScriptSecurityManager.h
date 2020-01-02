@@ -475,10 +475,6 @@ aJSObject
 nsIPrincipal
 *
 aSubjectPrincipal
-const
-char
-*
-aObjectSecurityLevel
 )
 ;
 nsresult
