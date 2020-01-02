@@ -12783,11 +12783,14 @@ LOG
 "
 UpdateService
 :
-onAddonUpdateEnded
+onCompatibilityUpdateAvailable
 -
 found
 update
 for
+"
++
+"
 add
 -
 on
@@ -14022,9 +14025,6 @@ nsIApplicationUpdateService
 Ci
 .
 nsIUpdateCheckListener
-Ci
-.
-nsIAddonUpdateCheckListener
 Ci
 .
 nsITimerCallback
