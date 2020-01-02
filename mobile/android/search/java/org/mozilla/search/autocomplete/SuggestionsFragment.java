@@ -153,17 +153,6 @@ org
 .
 mozilla
 .
-gecko
-.
-home
-.
-SuggestClient
-;
-import
-org
-.
-mozilla
-.
 search
 .
 AcceptsSearchQuery
