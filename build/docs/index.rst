@@ -136,6 +136,9 @@ slow
 environment
 -
 variables
+build
+-
+targets
 test_manifests
 mozbuild
 =
