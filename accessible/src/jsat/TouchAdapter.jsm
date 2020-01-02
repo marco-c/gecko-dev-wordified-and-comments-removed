@@ -2171,12 +2171,6 @@ swipeGesture
 }
 if
 (
-!
-this
-.
-done
-&
-&
 duration
 >
 TouchAdapter
@@ -2202,6 +2196,14 @@ TAP_MAX_RADIUS
 return
 {
 type
+:
+this
+.
+done
+?
+'
+exploreend
+'
 :
 '
 explore
