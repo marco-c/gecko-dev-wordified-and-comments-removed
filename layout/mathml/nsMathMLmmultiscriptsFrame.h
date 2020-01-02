@@ -85,8 +85,6 @@ nscoord
 aUserSubScriptShift
 nscoord
 aUserSupScriptShift
-nscoord
-aScriptSpace
 )
 ;
 uint8_t
