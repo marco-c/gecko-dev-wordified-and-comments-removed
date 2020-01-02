@@ -922,6 +922,10 @@ return
 null
 ;
 }
+final
+String
+resultant
+=
 updateLocale
 (
 localeCode
@@ -968,7 +972,7 @@ ms
 )
 ;
 return
-localeCode
+resultant
 ;
 }
 public
