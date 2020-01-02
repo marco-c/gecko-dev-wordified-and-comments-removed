@@ -14429,7 +14429,7 @@ Zero
 nsBlockReflowContext
 :
 :
-ComputeCollapsedTopMargin
+ComputeCollapsedBStartMargin
 (
 reflowState
 &
@@ -14538,7 +14538,7 @@ false
 nsBlockReflowContext
 :
 :
-ComputeCollapsedTopMargin
+ComputeCollapsedBStartMargin
 (
 reflowState
 &
@@ -15108,9 +15108,6 @@ get
 collapsedBottomMargin
 overflowAreas
 frameReflowStatus
-aState
-.
-mContainerWidth
 )
 ;
 if
@@ -15528,7 +15525,7 @@ false
 ;
 #
 ifdef
-NOISY_VERTICAL_MARGINS
+NOISY_BLOCK_DIR_MARGINS
 ListTag
 (
 stdout
@@ -15668,7 +15665,7 @@ frameReflowStatus
 ;
 #
 ifdef
-NOISY_VERTICAL_MARGINS
+NOISY_BLOCK_DIR_MARGINS
 ListTag
 (
 stdout
@@ -15734,7 +15731,7 @@ else
 {
 #
 ifdef
-NOISY_VERTICAL_MARGINS
+NOISY_BLOCK_DIR_MARGINS
 ListTag
 (
 stdout
@@ -15794,7 +15791,7 @@ collapsedBottomMargin
 }
 #
 ifdef
-NOISY_VERTICAL_MARGINS
+NOISY_BLOCK_DIR_MARGINS
 ListTag
 (
 stdout
@@ -15821,7 +15818,7 @@ frame
 printf
 (
 "
-carriedOutBottomMargin
+carriedOutBEndMargin
 =
 %
 d
@@ -15838,7 +15835,7 @@ n
 "
 brc
 .
-GetCarriedOutBottomMargin
+GetCarriedOutBEndMargin
 (
 )
 collapsedBottomMargin
@@ -27129,7 +27126,7 @@ GetPrevInFlow
 nsBlockReflowContext
 :
 :
-ComputeCollapsedTopMargin
+ComputeCollapsedBStartMargin
 (
 floatRS
 &
