@@ -145,6 +145,7 @@ aCloneDonor
 enum
 State
 {
+DECODER_STATE_DECODING_NONE
 DECODER_STATE_DECODING_METADATA
 DECODER_STATE_WAIT_FOR_RESOURCES
 DECODER_STATE_DORMANT
@@ -1317,9 +1318,6 @@ mMinimizePreroll
 ;
 bool
 mDecodeThreadWaiting
-;
-bool
-mDispatchedDecodeMetadataTask
 ;
 bool
 mDropAudioUntilNextDiscontinuity
