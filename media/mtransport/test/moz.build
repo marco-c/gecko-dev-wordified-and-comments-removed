@@ -138,11 +138,6 @@ nrappkit_unittest
 cpp
 '
 '
-rlogringbuffer_unittest
-.
-cpp
-'
-'
 runnable_utils_unittest
 .
 cpp
