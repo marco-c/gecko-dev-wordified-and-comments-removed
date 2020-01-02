@@ -10,12 +10,6 @@ UACHelper
 public
 :
 static
-BOOL
-IsVistaOrLater
-(
-)
-;
-static
 HANDLE
 OpenUserToken
 (
