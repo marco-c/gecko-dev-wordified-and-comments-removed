@@ -1,6 +1,13 @@
 #
 include
 "
+CacheLog
+.
+h
+"
+#
+include
+"
 CacheStorage
 .
 h
@@ -16,13 +23,6 @@ h
 include
 "
 CacheEntry
-.
-h
-"
-#
-include
-"
-CacheLog
 .
 h
 "
