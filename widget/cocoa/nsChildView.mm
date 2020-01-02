@@ -9152,9 +9152,11 @@ IsIMEComposing
 )
 &
 &
-NS_IS_KEY_EVENT
-(
 event
+-
+>
+HasKeyEventMessage
+(
 )
 )
 "
@@ -9181,9 +9183,11 @@ mFlags
 mIsSynthesizedForTests
 &
 &
-NS_IS_KEY_EVENT
-(
 event
+-
+>
+HasKeyEventMessage
+(
 )
 )
 {

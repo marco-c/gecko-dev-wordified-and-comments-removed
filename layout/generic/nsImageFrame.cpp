@@ -7452,9 +7452,11 @@ nsIContent
 *
 capturingContent
 =
-NS_IS_MOUSE_EVENT
-(
 aEvent
+-
+>
+HasMouseEventMessage
+(
 )
 ?
 nsIPresShell

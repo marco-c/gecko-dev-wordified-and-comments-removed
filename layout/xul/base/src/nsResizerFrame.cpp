@@ -1420,9 +1420,11 @@ NS_MOUSE_CLICK
 :
 if
 (
-NS_IS_MOUSE_LEFT_CLICK
-(
 aEvent
+-
+>
+IsLeftClickEvent
+(
 )
 )
 {

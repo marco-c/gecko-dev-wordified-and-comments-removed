@@ -119,6 +119,11 @@ CPP_SOURCES
 =
 [
 '
+WidgetEventImpl
+.
+cpp
+'
+'
 WidgetUtils
 .
 cpp
