@@ -316,6 +316,11 @@ LateWriteChecks
 cpp
 '
 '
+MainThreadIOLogger
+.
+cpp
+'
+'
 nsXPComInit
 .
 cpp
