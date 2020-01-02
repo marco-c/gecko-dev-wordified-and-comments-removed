@@ -1110,9 +1110,6 @@ SharedRGBImage
 :
 GetTextureClient
 (
-CompositableClient
-*
-aClient
 )
 {
 return

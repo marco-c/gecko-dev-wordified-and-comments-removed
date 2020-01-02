@@ -273,9 +273,6 @@ TextureClient
 *
 GetTextureClient
 (
-CompositableClient
-*
-aClient
 )
 MOZ_OVERRIDE
 {
@@ -351,9 +348,6 @@ TextureClient
 *
 GetTextureClient
 (
-CompositableClient
-*
-aClient
 )
 MOZ_OVERRIDE
 ;
