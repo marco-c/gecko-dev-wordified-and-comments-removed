@@ -98,6 +98,11 @@ XPIDL_SOURCES
 =
 [
 '
+nsIDataStore
+.
+idl
+'
+'
 nsIDataStoreService
 .
 idl
@@ -165,6 +170,11 @@ DataStore
 manifest
 '
 '
+DataStoreImpl
+.
+js
+'
+'
 DataStoreService
 .
 js
@@ -186,11 +196,6 @@ jsm
 '
 '
 DataStoreDB
-.
-jsm
-'
-'
-DataStoreImpl
 .
 jsm
 '

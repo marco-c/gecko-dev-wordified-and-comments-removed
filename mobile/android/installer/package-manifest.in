@@ -3771,6 +3771,13 @@ BINPATH
 /
 components
 /
+DataStoreImpl
+.
+js
+BINPATH
+/
+components
+/
 dom_datastore
 .
 xpt
