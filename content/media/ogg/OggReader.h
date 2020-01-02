@@ -331,12 +331,6 @@ DecodeToFirstAudioData
 (
 )
 ;
-VideoData
-*
-DecodeToFirstVideoData
-(
-)
-;
 ReentrantMonitor
 mMonitor
 ;

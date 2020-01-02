@@ -322,6 +322,12 @@ return
 mDecoder
 ;
 }
+VideoData
+*
+DecodeToFirstVideoData
+(
+)
+;
 MediaInfo
 GetMediaInfo
 (
