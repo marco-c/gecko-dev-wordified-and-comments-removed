@@ -12353,7 +12353,7 @@ mFlags
 mIsTrusted
 )
 ;
-nsScrollbarsForWheel
+ScrollbarsForWheel
 :
 :
 MayInactivate
@@ -12389,7 +12389,7 @@ aStatus
 nsEventStatus_eConsumeNoDefault
 )
 {
-nsScrollbarsForWheel
+ScrollbarsForWheel
 :
 :
 Inactivate
@@ -12433,7 +12433,7 @@ WheelPrefs
 ACTION_SCROLL
 :
 {
-nsScrollbarsForWheel
+ScrollbarsForWheel
 :
 :
 PrepareToScrollText
@@ -12484,7 +12484,7 @@ wheelEvent
 COMPUTE_DEFAULT_ACTION_TARGET
 )
 ;
-nsScrollbarsForWheel
+ScrollbarsForWheel
 :
 :
 SetActiveScrollTarget
@@ -12611,7 +12611,7 @@ EndTransaction
 (
 )
 ;
-nsScrollbarsForWheel
+ScrollbarsForWheel
 :
 :
 Inactivate

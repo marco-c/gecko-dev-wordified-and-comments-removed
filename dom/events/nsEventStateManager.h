@@ -113,12 +113,12 @@ nsITimer
 class
 nsMouseWheelTransaction
 ;
-class
-nsScrollbarsForWheel
-;
 namespace
 mozilla
 {
+class
+ScrollbarsForWheel
+;
 namespace
 dom
 {
@@ -197,7 +197,10 @@ nsMouseWheelTransaction
 ;
 friend
 class
-nsScrollbarsForWheel
+mozilla
+:
+:
+ScrollbarsForWheel
 ;
 public
 :
