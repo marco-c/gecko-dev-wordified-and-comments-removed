@@ -64,6 +64,12 @@ create
 (
 )
 ;
+sandbox
+.
+useFakeTimers
+(
+)
+;
 notifier
 =
 {
