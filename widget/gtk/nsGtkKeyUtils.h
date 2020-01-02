@@ -68,6 +68,16 @@ GdkEventKey
 aGdkKeyEvent
 )
 ;
+static
+CodeNameIndex
+ComputeDOMCodeNameIndex
+(
+const
+GdkEventKey
+*
+aGdkKeyEvent
+)
+;
 enum
 Modifier
 {
