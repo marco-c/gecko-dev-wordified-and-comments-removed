@@ -1563,6 +1563,13 @@ sync
 PRenderFrame
 (
 )
+;
+sync
+InitRenderFrame
+(
+PRenderFrame
+aFrame
+)
 returns
 (
 ScrollingBehavior
@@ -1571,6 +1578,8 @@ TextureFactoryIdentifier
 textureFactoryIdentifier
 uint64_t
 layersId
+bool
+success
 )
 ;
 /
@@ -2066,8 +2075,6 @@ uint32_t
 aPresShellId
 ViewID
 aViewId
-bool
-aIsRoot
 bool
 aAllowZoom
 CSSToScreenScale
