@@ -1616,7 +1616,9 @@ groups
 ]
 =
 {
+AID_SDCARD_R
 AID_SDCARD_RW
+AID_MEDIA_RW
 }
 ;
 if
