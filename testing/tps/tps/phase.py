@@ -15,7 +15,7 @@ compile
 (
         
 r
-"
+'
 ^
 (
 .
@@ -44,7 +44,7 @@ matchstatus
 .
 *
 )
-"
+'
 )
     
 def
@@ -260,9 +260,9 @@ self
 .
 log
 (
-"
+'
 \
-nlaunching
+nLaunching
 Firefox
 for
 phase
@@ -274,7 +274,7 @@ args
 s
 \
 n
-"
+'
 %
                  
 (
@@ -343,12 +343,12 @@ line
 .
 find
 (
-"
+'
 Running
 test
 %
 s
-"
+'
 %
 self
 .
@@ -388,9 +388,9 @@ match
 .
 group
 (
-"
+'
 matchphase
-"
+'
 )
 =
 =
@@ -407,9 +407,9 @@ match
 .
 group
 (
-"
+'
 matchstatus
-"
+'
 )
                     
 break
@@ -419,11 +419,11 @@ line
 .
 find
 (
-"
+'
 CROSSWEAVE
 ERROR
 :
-"
+'
 )
 >
 -
@@ -439,9 +439,9 @@ self
 .
 _status
 =
-"
+'
 FAIL
-"
+'
                 
 self
 .
@@ -453,20 +453,20 @@ line
 .
 find
 (
-"
+'
 CROSSWEAVE
 ERROR
 :
-"
+'
 )
 +
 len
 (
-"
+'
 CROSSWEAVE
 ERROR
 :
-"
+'
 )
 :
 ]

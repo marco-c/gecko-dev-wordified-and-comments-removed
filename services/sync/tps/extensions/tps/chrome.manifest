@@ -1,6 +1,6 @@
 resource
 tps
-modules
+resource
 /
 component
 {

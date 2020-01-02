@@ -5,7 +5,7 @@ httplib2
 import
 os
 import
-shutil
+mozfile
 import
 mozinstall
 from
@@ -114,9 +114,9 @@ self
 installdir
 :
             
-shutil
+mozfile
 .
-rmtree
+remove
 (
 self
 .
@@ -151,9 +151,9 @@ h
 request
 (
 url
-"
+'
 GET
-"
+'
 )
         
 if
@@ -290,10 +290,10 @@ pathToBuild
 )
         
 print
-"
+'
 downloading
 build
-"
+'
         
 self
 .
@@ -306,17 +306,17 @@ pathToBuild
 )
         
 print
-"
+'
 installing
 %
 s
-"
+'
 %
 pathToBuild
         
-shutil
+mozfile
 .
-rmtree
+remove
 (
 self
 .
@@ -515,20 +515,16 @@ start
 (
 )
         
-status
+returncode
 =
 self
 .
 runner
 .
-process_handler
-.
-waitForFinish
+wait
 (
-timeout
-=
 timeout
 )
         
 return
-status
+returncode
