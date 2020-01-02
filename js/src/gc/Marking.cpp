@@ -76,6 +76,13 @@ jsinferinlines
 h
 "
 #
+include
+"
+jsobjinlines
+.
+h
+"
+#
 ifdef
 JSGC_GENERATIONAL
 #
