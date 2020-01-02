@@ -275,6 +275,16 @@ TestManyChildAllocsSubParent
 protected
 :
 virtual
+void
+ActorDestroy
+(
+ActorDestroyReason
+why
+)
+MOZ_OVERRIDE
+{
+}
+virtual
 bool
 RecvHello
 (
