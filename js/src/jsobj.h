@@ -8027,6 +8027,15 @@ defaultFlags
 namespace
 js
 {
+const
+Class
+*
+ProtoKeyToClass
+(
+JSProtoKey
+key
+)
+;
 JSObject
 *
 GetClassPrototypePure
