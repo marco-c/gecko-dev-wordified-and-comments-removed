@@ -919,15 +919,6 @@ return
 sSVGDisplayListPaintingEnabled
 ;
 }
-bool
-NS_SVGTextCSSFramesEnabled
-(
-)
-{
-return
-true
-;
-}
 static
 mozilla
 :

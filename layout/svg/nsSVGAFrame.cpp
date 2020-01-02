@@ -26,7 +26,7 @@ h
 #
 include
 "
-nsSVGTSpanFrame
+nsSVGTextContainerFrame
 .
 h
 "
@@ -49,7 +49,7 @@ namespace
 mozilla
 ;
 typedef
-nsSVGTSpanFrame
+nsSVGTextContainerFrame
 nsSVGAFrameBase
 ;
 class

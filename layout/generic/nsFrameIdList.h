@@ -608,10 +608,6 @@ nsSVGTextFrame2
 )
 FRAME_ID
 (
-nsSVGTSpanFrame
-)
-FRAME_ID
-(
 nsSVGUseFrame
 )
 FRAME_ID
