@@ -1079,9 +1079,6 @@ aCx
 nsPIDOMWindow
 *
 aWindow
-nsIScriptContext
-*
-aScriptContext
 )
 ;
 bool
