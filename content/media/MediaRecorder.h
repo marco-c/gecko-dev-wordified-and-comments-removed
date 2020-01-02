@@ -300,8 +300,10 @@ mStream
 RecordingState
 mState
 ;
+nsRefPtr
+<
 Session
-*
+>
 mSession
 ;
 Mutex
