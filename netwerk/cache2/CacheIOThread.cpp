@@ -414,7 +414,11 @@ lock
 mMonitor
 )
 ;
-mXPCOMThread
+nsCOMPtr
+<
+nsIThread
+>
+xpcomThread
 =
 NS_GetCurrentThread
 (
@@ -424,7 +428,7 @@ threadInternal
 =
 do_QueryInterface
 (
-mXPCOMThread
+xpcomThread
 )
 ;
 if
@@ -437,6 +441,13 @@ threadInternal
 SetObserver
 (
 this
+)
+;
+mXPCOMThread
+.
+swap
+(
+xpcomThread
 )
 ;
 lock
