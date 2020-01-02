@@ -309,6 +309,10 @@ const
 ;
 IMPL_EVENT_HANDLER
 (
+ready
+)
+IMPL_EVENT_HANDLER
+(
 incoming
 )
 IMPL_EVENT_HANDLER
@@ -613,6 +617,15 @@ true
 )
 ;
 nsresult
+NotifyEvent
+(
+const
+nsAString
+&
+aType
+)
+;
+nsresult
 NotifyCallsChanged
 (
 TelephonyCall
@@ -635,6 +648,10 @@ aCall
 void
 EnqueueEnumerationAck
 (
+const
+nsAString
+&
+aType
 )
 ;
 already_AddRefed

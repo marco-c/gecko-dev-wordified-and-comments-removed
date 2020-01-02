@@ -5634,6 +5634,13 @@ onreadsuccess
 )
 GK_ATOM
 (
+onready
+"
+onready
+"
+)
+GK_ATOM
+(
 onreadystatechange
 "
 onreadystatechange
