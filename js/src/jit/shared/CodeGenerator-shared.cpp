@@ -332,7 +332,10 @@ needsInitialStackAlignment
 unsigned
 alignmentAtCall
 =
-AsmJSFrameSize
+sizeof
+(
+AsmJSFrame
+)
 +
 frameDepth_
 ;
