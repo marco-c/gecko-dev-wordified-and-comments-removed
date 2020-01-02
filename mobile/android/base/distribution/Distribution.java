@@ -906,7 +906,7 @@ about
 }
 private
 static
-void
+Distribution
 init
 (
 final
@@ -967,11 +967,14 @@ Set
 }
 )
 ;
+return
+distribution
+;
 }
 RobocopTarget
 public
 static
-void
+Distribution
 init
 (
 final
@@ -985,6 +988,7 @@ String
 prefsPath
 )
 {
+return
 init
 (
 new
@@ -1000,7 +1004,7 @@ prefsPath
 RobocopTarget
 public
 static
-void
+Distribution
 init
 (
 final
@@ -1008,8 +1012,7 @@ Context
 context
 )
 {
-Distribution
-.
+return
 init
 (
 Distribution
