@@ -88,6 +88,11 @@ flip
 "
 slide
 "
+animate
+=
+"
+false
+"
 position
 =
 "
