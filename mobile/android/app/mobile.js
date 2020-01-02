@@ -7011,7 +7011,7 @@ snippets
 .
 enabled
 "
-false
+true
 )
 ;
 pref
