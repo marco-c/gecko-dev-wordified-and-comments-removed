@@ -101,6 +101,9 @@ class
 CacheEntry
 ;
 class
+CacheEntryHandle
+;
+class
 CacheEntryTable
 ;
 class
@@ -270,12 +273,16 @@ CacheEntry
 aEntry
 )
 ;
-void
+bool
 RemoveEntry
 (
 CacheEntry
 *
 aEntry
+bool
+aOnlyUnreferenced
+=
+false
 )
 ;
 void
@@ -314,7 +321,7 @@ bool
 aCreateIfNotExist
 bool
 aReplace
-CacheEntry
+CacheEntryHandle
 *
 *
 aResult
@@ -508,7 +515,7 @@ bool
 aCreateIfNotExist
 bool
 aReplace
-CacheEntry
+CacheEntryHandle
 *
 *
 aResult
