@@ -1,9 +1,0 @@
-assertEq
-(
-typeof
-SavedFrame
-"
-undefined
-"
-)
-;

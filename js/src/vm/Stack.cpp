@@ -3801,7 +3801,7 @@ data_
 .
 jitFrames_
 .
-isIonJS
+isScripted
 (
 )
 ?

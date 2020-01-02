@@ -1269,13 +1269,6 @@ cpp
 '
 vm
 /
-SavedStacks
-.
-cpp
-'
-'
-vm
-/
 ScopeObject
 .
 cpp
