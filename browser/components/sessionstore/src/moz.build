@@ -139,6 +139,11 @@ Messenger
 jsm
 '
 '
+PageStyle
+.
+jsm
+'
+'
 PrivacyLevel
 .
 jsm
