@@ -245,6 +245,7 @@ SourceSurface
 aSurface
 )
 ;
+virtual
 mozilla
 :
 :
