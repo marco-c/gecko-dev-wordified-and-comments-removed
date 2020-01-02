@@ -923,6 +923,8 @@ otherWin
 yield
 openAndLoadWindow
 (
+null
+true
 )
 ;
 yield
