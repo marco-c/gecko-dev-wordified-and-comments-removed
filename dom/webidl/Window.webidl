@@ -2684,3 +2684,15 @@ Window
 implements
 OnErrorEventHandlerForWindow
 ;
+[
+ChromeOnly
+]
+interface
+ChromeWindow
+{
+}
+;
+Window
+implements
+ChromeWindow
+;
