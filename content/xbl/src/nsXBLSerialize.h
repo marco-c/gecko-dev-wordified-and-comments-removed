@@ -41,7 +41,7 @@ XBLBindingSerializeDetails
 #
 define
 XBLBinding_Serialize_Version
-0x00000002
+0x00000003
 #
 define
 XBLBinding_Serialize_IsFirstBinding
@@ -112,6 +112,10 @@ XBLBinding_Serialize_Image
 define
 XBLBinding_Serialize_Stylesheet
 10
+#
+define
+XBLBinding_Serialize_Attribute
+0xA
 #
 define
 XBLBinding_Serialize_Mask
