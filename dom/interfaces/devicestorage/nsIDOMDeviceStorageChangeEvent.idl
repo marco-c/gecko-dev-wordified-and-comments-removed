@@ -71,7 +71,6 @@ nsIDOMEvent
 idl
 "
 [
-scriptable
 uuid
 (
 30eaf0b9

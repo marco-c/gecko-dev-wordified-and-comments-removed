@@ -122,7 +122,6 @@ interface
 nsIDOMMozVoicemailStatus
 ;
 [
-scriptable
 builtinclass
 uuid
 (

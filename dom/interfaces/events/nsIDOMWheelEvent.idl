@@ -119,7 +119,6 @@ nsIDOMMouseEvent
 idl
 "
 [
-scriptable
 builtinclass
 uuid
 (

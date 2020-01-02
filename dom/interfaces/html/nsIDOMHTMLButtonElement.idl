@@ -196,7 +196,6 @@ interface
 nsIDOMValidityState
 ;
 [
-scriptable
 uuid
 (
 44b7a468

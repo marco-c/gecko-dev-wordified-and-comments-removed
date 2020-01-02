@@ -102,7 +102,6 @@ interface
 nsIDOMElement
 ;
 [
-scriptable
 builtinclass
 uuid
 (

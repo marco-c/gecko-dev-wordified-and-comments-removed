@@ -147,7 +147,6 @@ handleContinue
 }
 ;
 [
-scriptable
 builtinclass
 uuid
 (

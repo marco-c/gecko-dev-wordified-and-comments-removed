@@ -165,7 +165,6 @@ InterfaceTimeEvent
 *
 /
 [
-scriptable
 builtinclass
 uuid
 (

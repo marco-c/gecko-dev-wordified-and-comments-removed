@@ -167,7 +167,6 @@ Core
 *
 /
 [
-scriptable
 builtinclass
 uuid
 (

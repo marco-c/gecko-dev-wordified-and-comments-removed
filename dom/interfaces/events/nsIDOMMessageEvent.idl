@@ -156,7 +156,6 @@ messageevent
 *
 /
 [
-scriptable
 builtinclass
 uuid
 (

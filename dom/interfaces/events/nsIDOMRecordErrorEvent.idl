@@ -161,7 +161,6 @@ table
 *
 /
 [
-scriptable
 builtinclass
 uuid
 (

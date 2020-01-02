@@ -122,7 +122,6 @@ remove
 %
 }
 [
-scriptable
 builtinclass
 uuid
 (

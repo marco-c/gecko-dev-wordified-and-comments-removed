@@ -100,7 +100,6 @@ interface
 nsIDOMNodeFilter
 ;
 [
-scriptable
 uuid
 (
 a86bdac9

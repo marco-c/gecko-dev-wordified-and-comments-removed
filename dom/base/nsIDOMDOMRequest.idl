@@ -128,7 +128,6 @@ interface
 nsICursorContinueCallback
 ;
 [
-scriptable
 builtinclass
 uuid
 (

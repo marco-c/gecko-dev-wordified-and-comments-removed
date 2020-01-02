@@ -137,7 +137,6 @@ events
 *
 /
 [
-scriptable
 builtinclass
 uuid
 (

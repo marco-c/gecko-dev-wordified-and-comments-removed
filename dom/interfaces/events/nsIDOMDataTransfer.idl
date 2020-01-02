@@ -107,7 +107,6 @@ interface
 nsIDOMFileList
 ;
 [
-scriptable
 builtinclass
 uuid
 (

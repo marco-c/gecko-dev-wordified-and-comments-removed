@@ -502,6 +502,16 @@ layout
 /
 style
 '
+'
+/
+xpcom
+/
+reflect
+/
+xptinfo
+/
+src
+'
 ]
 if
 CONFIG

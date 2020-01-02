@@ -104,7 +104,6 @@ interface
 nsIVariant
 ;
 [
-scriptable
 uuid
 (
 256c9139

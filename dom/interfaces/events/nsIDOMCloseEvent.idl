@@ -148,7 +148,6 @@ closeevent
 *
 /
 [
-scriptable
 builtinclass
 uuid
 (

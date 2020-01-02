@@ -99,7 +99,6 @@ nsIDOMDocument
 idl
 "
 [
-scriptable
 uuid
 (
 ebf9f390

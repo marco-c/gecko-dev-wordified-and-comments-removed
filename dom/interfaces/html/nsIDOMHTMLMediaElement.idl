@@ -233,7 +233,6 @@ endif
 %
 }
 [
-scriptable
 uuid
 (
 1f9393e8

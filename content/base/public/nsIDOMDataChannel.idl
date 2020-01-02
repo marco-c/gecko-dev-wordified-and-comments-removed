@@ -95,7 +95,6 @@ interface
 nsIVariant
 ;
 [
-scriptable
 builtinclass
 uuid
 (

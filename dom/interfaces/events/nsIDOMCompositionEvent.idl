@@ -119,7 +119,6 @@ nsIDOMUIEvent
 idl
 "
 [
-scriptable
 builtinclass
 uuid
 (

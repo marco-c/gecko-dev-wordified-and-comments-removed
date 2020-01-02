@@ -105,7 +105,6 @@ interface
 nsIDOMCSSStyleSheet
 ;
 [
-scriptable
 builtinclass
 uuid
 (

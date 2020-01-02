@@ -107,7 +107,6 @@ interface
 nsIDOMBlob
 ;
 [
-scriptable
 builtinclass
 uuid
 (

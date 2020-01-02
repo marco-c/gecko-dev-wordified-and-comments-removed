@@ -162,7 +162,6 @@ interface
 nsIDOMStorage
 ;
 [
-scriptable
 builtinclass
 uuid
 (

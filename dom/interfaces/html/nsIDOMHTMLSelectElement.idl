@@ -203,7 +203,6 @@ interface
 nsIDOMValidityState
 ;
 [
-scriptable
 uuid
 (
 d8914a2d

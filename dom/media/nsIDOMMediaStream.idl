@@ -130,7 +130,6 @@ endif
 %
 }
 [
-scriptable
 builtinclass
 uuid
 (
@@ -175,7 +174,6 @@ here
 }
 ;
 [
-scriptable
 builtinclass
 uuid
 (

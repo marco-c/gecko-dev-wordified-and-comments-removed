@@ -111,7 +111,6 @@ interface
 nsIDOMDataTransfer
 ;
 [
-scriptable
 builtinclass
 uuid
 (

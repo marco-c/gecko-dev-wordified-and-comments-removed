@@ -102,7 +102,6 @@ interface
 nsIDOMFile
 ;
 [
-scriptable
 uuid
 (
 283aa7b2

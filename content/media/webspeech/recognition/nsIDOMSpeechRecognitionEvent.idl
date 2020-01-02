@@ -161,7 +161,6 @@ interface
 SpeechRecognitionResultList
 ;
 [
-scriptable
 builtinclass
 uuid
 (

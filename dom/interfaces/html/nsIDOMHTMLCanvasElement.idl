@@ -169,7 +169,6 @@ interface
 nsIInputStreamCallback
 ;
 [
-scriptable
 uuid
 (
 8978d1c5

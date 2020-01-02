@@ -99,7 +99,6 @@ nsIDOMEventTarget
 idl
 "
 [
-scriptable
 builtinclass
 uuid
 (

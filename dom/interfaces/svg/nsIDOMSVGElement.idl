@@ -105,7 +105,6 @@ interface
 nsIDOMCSSValue
 ;
 [
-scriptable
 uuid
 (
 abdf347a

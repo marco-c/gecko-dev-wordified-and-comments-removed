@@ -132,7 +132,6 @@ window
 *
 /
 [
-scriptable
 builtinclass
 uuid
 (

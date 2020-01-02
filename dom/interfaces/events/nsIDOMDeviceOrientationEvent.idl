@@ -64,7 +64,6 @@ nsIDOMEvent
 idl
 "
 [
-scriptable
 builtinclass
 uuid
 (

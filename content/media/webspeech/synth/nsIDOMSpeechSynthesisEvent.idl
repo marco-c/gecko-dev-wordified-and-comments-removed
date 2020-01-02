@@ -158,8 +158,6 @@ nsIDOMEvent
 idl
 "
 [
-scriptable
-builtinclass
 uuid
 (
 b5240841

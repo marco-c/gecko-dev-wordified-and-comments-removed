@@ -141,7 +141,6 @@ interface
 nsISelection
 ;
 [
-scriptable
 uuid
 (
 b73be9dd

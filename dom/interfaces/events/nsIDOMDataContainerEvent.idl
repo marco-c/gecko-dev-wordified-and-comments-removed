@@ -108,7 +108,6 @@ nsIVariant
 idl
 "
 [
-scriptable
 builtinclass
 uuid
 (

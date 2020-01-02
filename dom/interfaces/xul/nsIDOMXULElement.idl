@@ -114,7 +114,6 @@ interface
 nsIBoxObject
 ;
 [
-scriptable
 uuid
 (
 e89578c8

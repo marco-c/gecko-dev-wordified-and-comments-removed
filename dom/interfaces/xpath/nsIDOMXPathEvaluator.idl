@@ -144,7 +144,6 @@ interface
 XPathException
 ;
 [
-scriptable
 uuid
 (
 75506f8a
