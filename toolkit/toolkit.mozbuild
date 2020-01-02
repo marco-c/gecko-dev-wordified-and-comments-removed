@@ -248,13 +248,12 @@ add_tier_dir
 platform
 '
 '
-modules
+config
+/
+external
 /
 freetype2
 '
-static
-=
-True
 trigger
 =
 '

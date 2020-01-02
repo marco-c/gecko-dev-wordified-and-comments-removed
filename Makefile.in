@@ -2410,9 +2410,11 @@ ifndef
 MOZ_FOLD_LIBS
 ifndef
 MOZ_NATIVE_SQLITE
-security
+config
 /
-build
+external
+/
+nss
 /
 target
 :

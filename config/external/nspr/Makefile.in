@@ -70,6 +70,8 @@ LIBXUL_SDK
 error
 config
 /
+external
+/
 nspr
 /
 Makefile
@@ -94,6 +96,8 @@ MOZ_NATIVE_NSPR
 (
 error
 config
+/
+external
 /
 nspr
 /
