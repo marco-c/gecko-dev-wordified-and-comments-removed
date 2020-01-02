@@ -37,6 +37,7 @@ pop
 '
 MOZ_OBJDIR
 '
+None
 )
 build_obj
 =
