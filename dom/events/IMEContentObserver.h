@@ -125,6 +125,10 @@ nsSupportsWeakReference
 public
 nsIEditorObserver
 {
+friend
+class
+AsyncMergeableNotificationsFlusher
+;
 public
 :
 IMEContentObserver
@@ -655,6 +659,9 @@ mSelectionChangeCausedOnlyByComposition
 ;
 bool
 mIsPositionChangeEventPending
+;
+bool
+mIsFlushingPendingNotifications
 ;
 }
 ;
