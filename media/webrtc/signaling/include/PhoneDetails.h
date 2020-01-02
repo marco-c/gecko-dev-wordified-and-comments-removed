@@ -32,12 +32,8 @@ class
 ECC_API
 PhoneDetails
 {
-public
+protected
 :
-NS_INLINE_DECL_THREADSAFE_REFCOUNTING
-(
-PhoneDetails
-)
 virtual
 ~
 PhoneDetails
@@ -45,6 +41,12 @@ PhoneDetails
 )
 {
 }
+public
+:
+NS_INLINE_DECL_THREADSAFE_REFCOUNTING
+(
+PhoneDetails
+)
 virtual
 std
 :

@@ -56,8 +56,6 @@ CC_LineInfo
 )
 {
 }
-public
-:
 virtual
 ~
 CC_LineInfo
@@ -66,6 +64,8 @@ CC_LineInfo
 {
 }
 ;
+public
+:
 virtual
 std
 :

@@ -41,8 +41,6 @@ CC_Line
 )
 {
 }
-public
-:
 virtual
 ~
 CC_Line
@@ -51,6 +49,8 @@ CC_Line
 {
 }
 ;
+public
+:
 virtual
 std
 :

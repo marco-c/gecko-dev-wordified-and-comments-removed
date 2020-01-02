@@ -95,8 +95,6 @@ CC_CallInfo
 )
 {
 }
-public
-:
 virtual
 ~
 CC_CallInfo
@@ -105,6 +103,8 @@ CC_CallInfo
 {
 }
 ;
+public
+:
 virtual
 CC_LinePtr
 getline

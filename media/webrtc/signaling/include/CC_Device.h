@@ -41,8 +41,6 @@ CC_Device
 )
 {
 }
-public
-:
 virtual
 ~
 CC_Device
@@ -50,6 +48,8 @@ CC_Device
 )
 {
 }
+public
+:
 virtual
 std
 :

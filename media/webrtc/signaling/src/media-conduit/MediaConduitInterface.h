@@ -73,7 +73,7 @@ mozilla
 class
 TransportInterface
 {
-public
+protected
 :
 virtual
 ~
@@ -82,6 +82,8 @@ TransportInterface
 )
 {
 }
+public
+:
 virtual
 nsresult
 SendRtpPacket
@@ -171,7 +173,7 @@ mImage
 class
 VideoRenderer
 {
-public
+protected
 :
 virtual
 ~
@@ -180,6 +182,8 @@ VideoRenderer
 )
 {
 }
+public
+:
 virtual
 void
 FrameSizeChange
@@ -230,6 +234,15 @@ VideoRenderer
 class
 MediaSessionConduit
 {
+protected
+:
+virtual
+~
+MediaSessionConduit
+(
+)
+{
+}
 public
 :
 enum
@@ -239,13 +252,6 @@ AUDIO
 VIDEO
 }
 ;
-virtual
-~
-MediaSessionConduit
-(
-)
-{
-}
 virtual
 Type
 type

@@ -85,8 +85,6 @@ CC_Call
 )
 {
 }
-public
-:
 virtual
 ~
 CC_Call
@@ -94,6 +92,8 @@ CC_Call
 )
 {
 }
+public
+:
 virtual
 void
 setRemoteWindow

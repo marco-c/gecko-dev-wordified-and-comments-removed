@@ -49,6 +49,13 @@ LoadManagerFactory
 h
 "
 #
+include
+"
+LoadManager
+.
+h
+"
+#
 undef
 FF
 #

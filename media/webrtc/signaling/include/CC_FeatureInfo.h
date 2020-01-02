@@ -41,8 +41,6 @@ CC_FeatureInfo
 )
 {
 }
-public
-:
 virtual
 ~
 CC_FeatureInfo
@@ -51,6 +49,8 @@ CC_FeatureInfo
 {
 }
 ;
+public
+:
 virtual
 cc_int32_t
 getButton

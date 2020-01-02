@@ -76,13 +76,13 @@ SRTP_MAX_EXPANSION
 class
 SrtpFlow
 {
-public
-:
 ~
 SrtpFlow
 (
 )
 ;
+public
+:
 static
 mozilla
 :
