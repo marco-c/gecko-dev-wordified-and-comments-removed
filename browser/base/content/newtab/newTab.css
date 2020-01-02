@@ -1406,6 +1406,10 @@ radius
 .
 5px
 ;
+color
+:
+inherit
+;
 }
 #
 newtab
@@ -1642,6 +1646,10 @@ hsla
 .
 2
 )
+;
+color
+:
+inherit
 ;
 cursor
 :
