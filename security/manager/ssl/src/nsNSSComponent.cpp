@@ -3393,7 +3393,7 @@ ssl3
 ecdhe_rsa_des_ede3_sha
 "
 TLS_ECDHE_RSA_WITH_3DES_EDE_CBC_SHA
-true
+false
 }
 {
 "
@@ -3415,7 +3415,7 @@ ssl3
 dhe_rsa_camellia_128_sha
 "
 TLS_DHE_RSA_WITH_CAMELLIA_128_CBC_SHA
-true
+false
 }
 {
 "
@@ -3437,7 +3437,7 @@ ssl3
 dhe_rsa_camellia_256_sha
 "
 TLS_DHE_RSA_WITH_CAMELLIA_256_CBC_SHA
-true
+false
 }
 {
 "
@@ -3448,7 +3448,7 @@ ssl3
 dhe_rsa_des_ede3_sha
 "
 TLS_DHE_RSA_WITH_3DES_EDE_CBC_SHA
-true
+false
 }
 {
 "
@@ -3470,7 +3470,7 @@ ssl3
 dhe_dss_aes_256_sha
 "
 TLS_DHE_DSS_WITH_AES_256_CBC_SHA
-true
+false
 }
 {
 "
@@ -3514,7 +3514,7 @@ ssl3
 rsa_camellia_128_sha
 "
 TLS_RSA_WITH_CAMELLIA_128_CBC_SHA
-true
+false
 }
 {
 "
@@ -3536,7 +3536,7 @@ ssl3
 rsa_camellia_256_sha
 "
 TLS_RSA_WITH_CAMELLIA_256_CBC_SHA
-true
+false
 }
 {
 "
