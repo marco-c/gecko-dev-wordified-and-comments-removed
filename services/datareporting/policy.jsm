@@ -2561,11 +2561,11 @@ promise
 then
 (
 onComplete
-function
-onError
 (
 error
 )
+=
+>
 {
 this
 .
@@ -3063,7 +3063,7 @@ CommonUtils
 .
 exceptionStr
 (
-result
+error
 )
 )
 ;
