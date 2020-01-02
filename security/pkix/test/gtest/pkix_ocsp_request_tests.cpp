@@ -387,7 +387,10 @@ certName
 get
 (
 )
+SEC_ASN1_GET
+(
 CERT_NameTemplate
+)
 )
 ;
 }
