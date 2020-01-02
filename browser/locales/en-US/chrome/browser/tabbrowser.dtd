@@ -70,16 +70,3 @@ Close
 Tab
 "
 >
-<
-!
-ENTITY
-newTabButton
-.
-tooltip
-"
-Open
-a
-new
-tab
-"
->
