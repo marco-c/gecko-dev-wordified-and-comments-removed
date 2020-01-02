@@ -3193,7 +3193,7 @@ obj
 )
 ;
 static
-ParallelResult
+bool
 update
 (
 ForkJoinSlice
@@ -3426,7 +3426,7 @@ idval
 )
 ;
 static
-ParallelResult
+bool
 update
 (
 ForkJoinSlice
@@ -3615,7 +3615,7 @@ oldShape
 )
 ;
 static
-ParallelResult
+bool
 update
 (
 ForkJoinSlice
@@ -3833,7 +3833,7 @@ tarr
 )
 ;
 static
-ParallelResult
+bool
 update
 (
 ForkJoinSlice

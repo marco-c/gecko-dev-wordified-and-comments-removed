@@ -752,7 +752,7 @@ double
 )
 ;
 typedef
-ParallelResult
+bool
 (
 *
 StringToNumberParFn
@@ -3588,7 +3588,8 @@ int
 )
 ;
 typedef
-ParallelResult
+JSFlatString
+*
 (
 *
 IntToStringParFn
@@ -3597,7 +3598,6 @@ IntToStringParFn
 ForkJoinSlice
 *
 int
-MutableHandleString
 )
 ;
 static
@@ -3780,7 +3780,8 @@ double
 )
 ;
 typedef
-ParallelResult
+JSString
+*
 (
 *
 DoubleToStringParFn
@@ -3789,7 +3790,6 @@ DoubleToStringParFn
 ForkJoinSlice
 *
 double
-MutableHandleString
 )
 ;
 static
@@ -22069,7 +22069,7 @@ Value
 )
 ;
 typedef
-ParallelResult
+bool
 (
 *
 BinaryParFn
@@ -22323,7 +22323,7 @@ bool
 )
 ;
 typedef
-ParallelResult
+bool
 (
 *
 StringCompareParFn
@@ -22854,7 +22854,7 @@ bool
 )
 ;
 typedef
-ParallelResult
+bool
 (
 *
 CompareParFn
@@ -24725,7 +24725,8 @@ HandleString
 )
 ;
 typedef
-ParallelResult
+JSString
+*
 (
 *
 ConcatStringsParFn
@@ -24735,7 +24736,6 @@ ForkJoinSlice
 *
 HandleString
 HandleString
-MutableHandleString
 )
 ;
 static
@@ -28604,7 +28604,7 @@ strict
 )
 ;
 typedef
-ParallelResult
+bool
 (
 *
 SetElementParFn
@@ -32841,7 +32841,8 @@ HandleObject
 )
 ;
 typedef
-ParallelResult
+JSObject
+*
 (
 *
 InitRestParameterParFn
@@ -32854,7 +32855,6 @@ Value
 *
 HandleObject
 HandleObject
-MutableHandleObject
 )
 ;
 static
@@ -36912,7 +36912,7 @@ true
 ;
 }
 typedef
-ParallelResult
+bool
 (
 *
 GetPropertyParICFn
@@ -37899,7 +37899,7 @@ true
 ;
 }
 typedef
-ParallelResult
+bool
 (
 *
 SetElementParICFn
@@ -38044,7 +38044,7 @@ true
 ;
 }
 typedef
-ParallelResult
+bool
 (
 *
 GetElementParICFn
@@ -38443,7 +38443,7 @@ jsbytecode
 )
 ;
 typedef
-ParallelResult
+bool
 (
 *
 SetPropertyParFn
@@ -39229,7 +39229,7 @@ true
 ;
 }
 typedef
-ParallelResult
+bool
 (
 *
 SetPropertyParICFn
@@ -39437,7 +39437,7 @@ p
 )
 ;
 typedef
-ParallelResult
+bool
 (
 *
 BitNotParFn
@@ -39521,7 +39521,7 @@ p
 )
 ;
 typedef
-ParallelResult
+bool
 (
 *
 BitopParFn

@@ -3246,9 +3246,9 @@ slice
 bailoutRecord
 -
 >
-setCause
+updateCause
 (
-ParallelBailoutFailedIC
+ParallelBailoutUnsupportedVM
 iter
 .
 script
