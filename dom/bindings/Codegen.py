@@ -45552,6 +45552,9 @@ and_eq
 asm
 '
 '
+assert
+'
+'
 auto
 '
 '
