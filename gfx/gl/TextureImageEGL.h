@@ -159,7 +159,10 @@ void
 Resize
 (
 const
-nsIntSize
+gfx
+:
+:
+IntSize
 &
 aSize
 )
@@ -246,7 +249,10 @@ GLContext
 *
 gl
 const
-nsIntSize
+gfx
+:
+:
+IntSize
 &
 aSize
 TextureImage

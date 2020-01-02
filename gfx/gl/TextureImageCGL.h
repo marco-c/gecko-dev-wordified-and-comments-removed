@@ -137,7 +137,10 @@ GLContext
 *
 gl
 const
-nsIntSize
+gfx
+:
+:
+IntSize
 &
 aSize
 TextureImage
