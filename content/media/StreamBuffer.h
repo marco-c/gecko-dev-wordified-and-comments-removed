@@ -1065,6 +1065,12 @@ GetEnd
 )
 const
 ;
+StreamTime
+GetAllTracksEnd
+(
+)
+const
+;
 #
 ifdef
 DEBUG
