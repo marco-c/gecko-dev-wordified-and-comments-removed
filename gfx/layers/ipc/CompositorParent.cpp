@@ -1127,6 +1127,16 @@ mParent
 =
 this
 ;
+if
+(
+gfxPrefs
+:
+:
+AsyncPanZoomEnabled
+(
+)
+)
+{
 mApzcTreeManager
 =
 new
@@ -1134,6 +1144,7 @@ APZCTreeManager
 (
 )
 ;
+}
 }
 bool
 CompositorParent
@@ -1254,6 +1265,11 @@ mCompositionManager
 =
 nullptr
 ;
+if
+(
+mApzcTreeManager
+)
+{
 mApzcTreeManager
 -
 >
@@ -1265,6 +1281,7 @@ mApzcTreeManager
 =
 nullptr
 ;
+}
 sIndirectLayerTrees
 .
 erase
