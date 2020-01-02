@@ -1569,6 +1569,12 @@ fast
 /
 >
 <
+/
+xul
+:
+hbox
+>
+<
 xul
 :
 toolbarbutton
@@ -1604,12 +1610,6 @@ close
 ;
 "
 /
->
-<
-/
-xul
-:
-hbox
 >
 <
 /
