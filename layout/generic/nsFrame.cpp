@@ -22323,6 +22323,11 @@ false
 }
 gfxMatrix
 transform
+;
+gfx
+:
+:
+Matrix
 previousTransform
 ;
 static
@@ -22375,7 +22380,7 @@ transform
 xx
 previousTransform
 .
-xx
+_11
 kError
 )
 |
@@ -22391,7 +22396,7 @@ transform
 yy
 previousTransform
 .
-yy
+_22
 kError
 )
 |
@@ -22407,7 +22412,7 @@ transform
 xy
 previousTransform
 .
-xy
+_21
 kError
 )
 |
@@ -22423,7 +22428,7 @@ transform
 yx
 previousTransform
 .
-yx
+_12
 kError
 )
 )
