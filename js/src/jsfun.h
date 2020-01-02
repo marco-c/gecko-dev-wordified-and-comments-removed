@@ -2675,10 +2675,8 @@ JSContext
 cx
 HandleFunction
 fun
-ConstTwoByteChars
-chars
-size_t
-length
+HandleLinearString
+src
 size_t
 *
 bodyStart
