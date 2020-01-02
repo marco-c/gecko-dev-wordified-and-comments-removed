@@ -4,6 +4,15 @@ MOZILLA_BASEPOINT4D_H_
 #
 define
 MOZILLA_BASEPOINT4D_H_
+#
+include
+"
+mozilla
+/
+Assertions
+.
+h
+"
 namespace
 mozilla
 {
@@ -579,7 +588,7 @@ int
 aIndex
 )
 {
-NS_ABORT_IF_FALSE
+MOZ_ASSERT
 (
 aIndex
 >
@@ -622,7 +631,7 @@ aIndex
 )
 const
 {
-NS_ABORT_IF_FALSE
+MOZ_ASSERT
 (
 aIndex
 >

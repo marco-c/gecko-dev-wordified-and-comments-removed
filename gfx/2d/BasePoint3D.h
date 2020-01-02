@@ -7,7 +7,9 @@ MOZILLA_BASEPOINT3D_H_
 #
 include
 "
-nsDebug
+mozilla
+/
+Assertions
 .
 h
 "
@@ -135,7 +137,7 @@ int
 aIndex
 )
 {
-NS_ABORT_IF_FALSE
+MOZ_ASSERT
 (
 aIndex
 >
@@ -147,11 +149,6 @@ aIndex
 <
 =
 2
-"
-Invalid
-array
-index
-"
 )
 ;
 return
@@ -178,7 +175,7 @@ aIndex
 )
 const
 {
-NS_ABORT_IF_FALSE
+MOZ_ASSERT
 (
 aIndex
 >
@@ -190,11 +187,6 @@ aIndex
 <
 =
 2
-"
-Invalid
-array
-index
-"
 )
 ;
 return
