@@ -143,6 +143,11 @@ mozcontainer
 c
 '
 '
+NativeKeyBindings
+.
+cpp
+'
+'
 nsBidiKeyboard
 .
 cpp
@@ -169,11 +174,6 @@ cpp
 '
 '
 nsLookAndFeel
-.
-cpp
-'
-'
-nsNativeKeyBindings
 .
 cpp
 '

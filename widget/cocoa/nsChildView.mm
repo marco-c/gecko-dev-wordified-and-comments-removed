@@ -11119,7 +11119,7 @@ return
 keyBindings
 -
 >
-KeyPress
+Execute
 (
 aEvent
 aCallback

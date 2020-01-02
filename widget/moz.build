@@ -558,11 +558,6 @@ nsIDeviceContextSpec
 h
 '
 '
-nsINativeKeyBindings
-.
-h
-'
-'
 nsIPluginWidget
 .
 h
