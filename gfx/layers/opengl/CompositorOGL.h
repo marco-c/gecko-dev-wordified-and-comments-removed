@@ -1322,6 +1322,9 @@ aEffect
 MaskType
 aMask
 =
+MaskType
+:
+:
 MaskNone
 )
 const

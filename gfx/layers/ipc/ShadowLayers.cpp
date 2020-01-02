@@ -763,7 +763,10 @@ ShadowLayerForwarder
 :
 mDiagnosticTypes
 (
-DIAGNOSTIC_NONE
+DiagnosticTypes
+:
+:
+NO_DIAGNOSTIC
 )
 mIsFirstPaint
 (

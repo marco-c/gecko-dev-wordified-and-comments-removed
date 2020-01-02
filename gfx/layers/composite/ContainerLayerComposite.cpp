@@ -2567,7 +2567,10 @@ GetCompositor
 >
 DrawDiagnostics
 (
-DIAGNOSTIC_CONTAINER
+DiagnosticFlags
+:
+:
+CONTAINER
 rect
 clipRect
 aContainer

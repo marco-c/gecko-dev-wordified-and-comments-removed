@@ -674,6 +674,9 @@ GetSingleton
 >
 CreateImageClient
 (
+CompositableType
+:
+:
 BUFFER_IMAGE_SINGLE
 )
 .
@@ -2911,6 +2914,9 @@ textureClient
 >
 Lock
 (
+OpenMode
+:
+:
 OPEN_WRITE_ONLY
 )
 )

@@ -275,7 +275,10 @@ mCompositor
 >
 DrawDiagnostics
 (
-DIAGNOSTIC_COLOR
+DiagnosticFlags
+:
+:
+COLOR
 rect
 clipRect
 transform

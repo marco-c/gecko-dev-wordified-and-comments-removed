@@ -1892,7 +1892,10 @@ mCompositor
 >
 DrawDiagnostics
 (
-DIAGNOSTIC_CONTENT
+DiagnosticFlags
+:
+:
+CONTENT
 |
 DIAGNOSTIC_TILE
 aScreenRegion
@@ -2491,7 +2494,10 @@ GetCompositor
 >
 DrawDiagnostics
 (
-DIAGNOSTIC_CONTENT
+DiagnosticFlags
+:
+:
+CONTENT
 rect
 aClipRect
 aTransform

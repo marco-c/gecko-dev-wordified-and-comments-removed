@@ -486,6 +486,9 @@ mBuffer
 >
 Lock
 (
+OpenMode
+:
+:
 OPEN_WRITE_ONLY
 )
 )
