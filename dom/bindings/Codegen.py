@@ -57114,11 +57114,18 @@ name
 ]
 )
             
+skipToJSVal
+=
+False
+            
+try
+:
+                
 toJSValCases
 .
 append
 (
-                
+                    
 CGCase
 (
 "
@@ -57131,7 +57138,7 @@ vars
 name
 "
 ]
-                       
+                           
 self
 .
 getConversionToJS
@@ -57141,6 +57148,14 @@ t
 )
 )
 )
+            
+except
+MethodNotNewObjectError
+:
+                
+skipToJSVal
+=
+True
             
 destructorCases
 .
@@ -57510,24 +57525,29 @@ ownsMembers
 )
 )
         
+if
+not
+skipToJSVal
+:
+            
 methods
 .
 append
 (
-            
+                
 ClassMethod
 (
-                
+                    
 "
 ToJSVal
 "
-                
+                    
 "
 bool
 "
-                
-[
                     
+[
+                        
 Argument
 (
 "
@@ -57538,7 +57558,7 @@ JSContext
 cx
 "
 )
-                    
+                        
 Argument
 (
 "
@@ -57555,7 +57575,7 @@ JSObject
 scopeObj
 "
 )
-                    
+                        
 Argument
 (
 "
@@ -57574,9 +57594,9 @@ Value
 rval
 "
 )
-                
+                    
 ]
-                
+                    
 body
 =
 CGSwitch
@@ -57585,7 +57605,7 @@ CGSwitch
 mType
 "
 toJSValCases
-                              
+                                  
 default
 =
 CGGeneric
@@ -57603,7 +57623,7 @@ n
 define
 (
 )
-                
+                    
 const
 =
 True
