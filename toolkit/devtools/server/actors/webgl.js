@@ -338,6 +338,9 @@ return
 error
 ;
 }
+return
+undefined
+;
 }
 {
 request
@@ -1642,6 +1645,7 @@ if
 glBreak
 )
 return
+undefined
 ;
 }
 glResult
@@ -1690,6 +1694,7 @@ if
 glBreak
 )
 return
+undefined
 ;
 }
 return
