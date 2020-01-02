@@ -3214,6 +3214,13 @@ aSource
 BindTexture
 (
 LOCAL_GL_TEXTURE0
+gfx
+:
+:
+Filter
+:
+:
+LINEAR
 )
 ;
 GLuint
