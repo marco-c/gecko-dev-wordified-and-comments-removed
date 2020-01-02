@@ -99,9 +99,9 @@ expected
 function
 assertIteratorResult
 (
+result
 value
 done
-result
 )
 {
 assertDeepEq
