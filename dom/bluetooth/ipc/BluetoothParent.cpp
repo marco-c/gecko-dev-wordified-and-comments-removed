@@ -222,8 +222,13 @@ ParseSuccessfulReply
 JS
 :
 :
+MutableHandle
+<
+JS
+:
+:
 Value
-*
+>
 aValue
 )
 MOZ_OVERRIDE
