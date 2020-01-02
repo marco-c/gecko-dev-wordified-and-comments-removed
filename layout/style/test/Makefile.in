@@ -192,6 +192,10 @@ test_acid3_test46
 .
 html
 \
+test_all_shorthand
+.
+html
+\
 test_animations
 .
 html
