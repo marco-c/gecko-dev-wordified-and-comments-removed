@@ -3092,6 +3092,12 @@ true
 ;
 DownloadIntegration
 .
+dontCheckApplicationReputation
+=
+true
+;
+DownloadIntegration
+.
 dontOpenFileAndFolder
 =
 true

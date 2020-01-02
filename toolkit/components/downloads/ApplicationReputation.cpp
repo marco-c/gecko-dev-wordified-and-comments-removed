@@ -444,6 +444,9 @@ NS_OK
 )
 ;
 }
+#
+if
+0
 nsresult
 rv
 =
@@ -470,6 +473,17 @@ rv
 return
 NS_OK
 ;
+#
+else
+return
+OnComplete
+(
+false
+NS_OK
+)
+;
+#
+endif
 }
 nsresult
 PendingLookup
