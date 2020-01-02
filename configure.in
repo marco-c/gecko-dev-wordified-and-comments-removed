@@ -69995,6 +69995,9 @@ _CL_PREFIX_REGEX
 (
 .
 *
+\
+\
+\
 stdio
 .
 h
