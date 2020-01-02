@@ -217,6 +217,11 @@ OperatorApps
 jsm
 '
 '
+ScriptPreloader
+.
+jsm
+'
+'
 Webapps
 .
 jsm
