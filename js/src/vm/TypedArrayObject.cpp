@@ -4909,6 +4909,9 @@ ar
 offset
 )
 ;
+#
+ifdef
+DEBUG
 JSRuntime
 *
 runtime
@@ -4920,9 +4923,6 @@ runtime
 (
 )
 ;
-#
-ifdef
-DEBUG
 uint64_t
 gcNumber
 =
