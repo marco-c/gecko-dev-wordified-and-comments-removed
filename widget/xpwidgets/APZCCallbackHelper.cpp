@@ -288,8 +288,13 @@ displayPort
 aActualScrollOffset
 aFrameMetrics
 .
-LayersPixelsPerCSSPixel
+mZoom
+*
+ScreenToLayerScale
 (
+1
+.
+0
 )
 )
 -
