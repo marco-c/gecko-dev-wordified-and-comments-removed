@@ -315,8 +315,8 @@ pErrorCode
 ;
 #
 ifndef
-U_HIDE_INTERNAL_API
-U_INTERNAL
+U_HIDE_DRAFT_API
+U_DRAFT
 ULocaleDisplayNames
 *
 U_EXPORT2
@@ -336,7 +336,7 @@ UErrorCode
 pErrorCode
 )
 ;
-U_INTERNAL
+U_DRAFT
 UDisplayContext
 U_EXPORT2
 uldn_getContext

@@ -1491,7 +1491,7 @@ BufferSecurityCheck
 <
 DisableLanguageExtensions
 >
-true
+false
 <
 /
 DisableLanguageExtensions
@@ -1891,7 +1891,7 @@ RuntimeLibrary
 <
 DisableLanguageExtensions
 >
-true
+false
 <
 /
 DisableLanguageExtensions
@@ -2291,7 +2291,7 @@ BufferSecurityCheck
 <
 DisableLanguageExtensions
 >
-true
+false
 <
 /
 DisableLanguageExtensions
@@ -2694,7 +2694,7 @@ RuntimeLibrary
 <
 DisableLanguageExtensions
 >
-true
+false
 <
 /
 DisableLanguageExtensions

@@ -722,6 +722,13 @@ dat
 listPkg
 -
 >
+setAutoPrefix
+(
+)
+;
+listPkg
+-
+>
 readPackage
 (
 listname

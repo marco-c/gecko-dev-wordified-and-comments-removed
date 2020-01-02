@@ -1913,6 +1913,11 @@ elementAti
 i
 )
 ;
+(
+void
+)
+previousKey
+;
 U_ASSERT
 (
 (
@@ -2410,6 +2415,11 @@ length
 <
 40
 )
+;
+(
+void
+)
+previousLength
 ;
 U_ASSERT
 (

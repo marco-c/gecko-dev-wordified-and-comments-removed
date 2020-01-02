@@ -85,7 +85,7 @@ Copyright
 (
 C
 )
-2012
+2013
 International
 Business
 Machines
@@ -225,7 +225,7 @@ source
 path
 >
 /
-xml
+common
 /
 main
 /
@@ -692,7 +692,6 @@ n
 Sudan
 (
 1957
--
 1998
 )
 "
@@ -848,6 +847,21 @@ ZMK
 M
 n
 Zambia
+(
+1968
+2012
+)
+"
+}
+ZMW
+{
+"
+ZMW
+"
+"
+M
+n
+Zambia
 "
 }
 ZWD
@@ -861,7 +875,6 @@ ll
 Zimbabw
 (
 1980
--
 2008
 )
 "
@@ -874,9 +887,9 @@ Version
 .
 0
 .
-77
+92
 .
-46
+87
 "
 }
 }

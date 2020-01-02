@@ -114,7 +114,7 @@ h
 #
 include
 "
-umutex
+cmutex
 .
 h
 "
@@ -16113,7 +16113,7 @@ uint32_t
 value
 ;
 uint8_t
-si_value
+siBytes
 [
 2
 ]
@@ -16124,7 +16124,7 @@ si_value
 }
 ;
 uint8_t
-so_value
+soBytes
 [
 2
 ]
@@ -16135,8 +16135,8 @@ so_value
 }
 ;
 uint8_t
-si_value_length
-so_value_length
+siLength
+soLength
 ;
 int32_t
 length
@@ -16506,7 +16506,7 @@ nextSourceIndex
 =
 0
 ;
-si_value_length
+siLength
 =
 getSISOBytes
 (
@@ -16515,10 +16515,10 @@ cnv
 -
 >
 options
-si_value
+siBytes
 )
 ;
-so_value_length
+soLength
 =
 getSISOBytes
 (
@@ -16527,7 +16527,7 @@ cnv
 -
 >
 options
-so_value
+soBytes
 )
 ;
 if
@@ -16789,7 +16789,7 @@ else
 {
 if
 (
-si_value_length
+siLength
 =
 =
 1
@@ -16801,7 +16801,7 @@ value
 (
 uint32_t
 )
-si_value
+siBytes
 [
 0
 ]
@@ -16817,7 +16817,7 @@ length
 else
 if
 (
-si_value_length
+siLength
 =
 =
 2
@@ -16829,7 +16829,7 @@ value
 (
 uint32_t
 )
-si_value
+siBytes
 [
 1
 ]
@@ -16843,7 +16843,7 @@ value
 (
 uint32_t
 )
-si_value
+siBytes
 [
 0
 ]
@@ -16881,7 +16881,7 @@ else
 {
 if
 (
-so_value_length
+soLength
 =
 =
 1
@@ -16893,7 +16893,7 @@ value
 (
 uint32_t
 )
-so_value
+soBytes
 [
 0
 ]
@@ -16909,7 +16909,7 @@ length
 else
 if
 (
-so_value_length
+soLength
 =
 =
 2
@@ -16921,7 +16921,7 @@ value
 (
 uint32_t
 )
-so_value
+soBytes
 [
 1
 ]
@@ -16935,7 +16935,7 @@ value
 (
 uint32_t
 )
-so_value
+soBytes
 [
 0
 ]
@@ -17686,7 +17686,7 @@ else
 {
 if
 (
-si_value_length
+siLength
 =
 =
 1
@@ -17698,7 +17698,7 @@ value
 (
 uint32_t
 )
-si_value
+siBytes
 [
 0
 ]
@@ -17714,7 +17714,7 @@ length
 else
 if
 (
-si_value_length
+siLength
 =
 =
 2
@@ -17726,7 +17726,7 @@ value
 (
 uint32_t
 )
-si_value
+siBytes
 [
 1
 ]
@@ -17740,7 +17740,7 @@ value
 (
 uint32_t
 )
-si_value
+siBytes
 [
 0
 ]
@@ -17778,7 +17778,7 @@ else
 {
 if
 (
-so_value_length
+soLength
 =
 =
 1
@@ -17790,7 +17790,7 @@ value
 (
 uint32_t
 )
-so_value
+soBytes
 [
 0
 ]
@@ -17806,7 +17806,7 @@ length
 else
 if
 (
-so_value_length
+soLength
 =
 =
 2
@@ -17818,7 +17818,7 @@ value
 (
 uint32_t
 )
-so_value
+soBytes
 [
 1
 ]
@@ -17832,7 +17832,7 @@ value
 (
 uint32_t
 )
-so_value
+soBytes
 [
 0
 ]
@@ -18914,14 +18914,14 @@ target
 (
 uint8_t
 )
-si_value
+siBytes
 [
 0
 ]
 ;
 if
 (
-si_value_length
+siLength
 =
 =
 2
@@ -18945,7 +18945,7 @@ charErrorBuffer
 (
 uint8_t
 )
-si_value
+siBytes
 [
 1
 ]
@@ -18973,7 +18973,7 @@ target
 (
 uint8_t
 )
-si_value
+siBytes
 [
 1
 ]
@@ -19010,14 +19010,14 @@ charErrorBuffer
 (
 uint8_t
 )
-si_value
+siBytes
 [
 0
 ]
 ;
 if
 (
-si_value_length
+siLength
 =
 =
 2
@@ -19034,7 +19034,7 @@ charErrorBuffer
 (
 uint8_t
 )
-si_value
+siBytes
 [
 1
 ]
@@ -19045,7 +19045,7 @@ cnv
 >
 charErrorBufferLength
 =
-si_value_length
+siLength
 ;
 *
 pErrorCode

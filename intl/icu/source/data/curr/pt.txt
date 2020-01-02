@@ -85,7 +85,7 @@ Copyright
 (
 C
 )
-2012
+2013
 International
 Business
 Machines
@@ -225,7 +225,7 @@ source
 path
 >
 /
-xml
+common
 /
 main
 /
@@ -272,7 +272,6 @@ AFA
 Afegane
 (
 1927
--
 2002
 )
 "
@@ -299,7 +298,6 @@ Alban
 s
 (
 1946
--
 1965
 )
 "
@@ -358,7 +356,6 @@ Cuanza
 angolano
 (
 1977
--
 1990
 )
 "
@@ -374,7 +371,6 @@ cuanza
 angolano
 (
 1990
--
 2000
 )
 "
@@ -390,7 +386,6 @@ angolano
 reajustado
 (
 1995
--
 1999
 )
 "
@@ -416,7 +411,6 @@ lei
 argentino
 (
 1970
--
 1983
 )
 "
@@ -431,7 +425,6 @@ Peso
 argentino
 (
 1881
--
 1970
 )
 "
@@ -446,7 +439,6 @@ Peso
 argentino
 (
 1983
--
 1985
 )
 "
@@ -503,7 +495,6 @@ Manat
 azerbaijano
 (
 1993
--
 2006
 )
 "
@@ -532,7 +523,6 @@ snia
 Herzegovina
 (
 1992
--
 1994
 )
 "
@@ -567,7 +557,6 @@ snia
 Herzegovina
 (
 1994
--
 1997
 )
 "
@@ -676,7 +665,6 @@ b
 lgaro
 (
 1879
--
 1952
 )
 "
@@ -743,7 +731,6 @@ BOL
 Boliviano
 (
 1863
--
 1963
 )
 "
@@ -779,7 +766,6 @@ novo
 brasileiro
 (
 1967
--
 1986
 )
 "
@@ -794,7 +780,6 @@ Cruzado
 brasileiro
 (
 1986
--
 1989
 )
 "
@@ -809,7 +794,6 @@ Cruzeiro
 brasileiro
 (
 1990
--
 1993
 )
 "
@@ -835,7 +819,6 @@ novo
 brasileiro
 (
 1989
--
 1990
 )
 "
@@ -850,7 +833,6 @@ Cruzeiro
 brasileiro
 (
 1993
--
 1994
 )
 "
@@ -865,7 +847,6 @@ Cruzeiro
 brasileiro
 (
 1942
--
 1967
 )
 "
@@ -926,7 +907,6 @@ bielo
 russo
 (
 1994
--
 1999
 )
 "
@@ -1108,7 +1088,6 @@ s
 rvio
 (
 2002
--
 2006
 )
 "
@@ -1443,7 +1422,6 @@ de
 Gana
 (
 1979
--
 2007
 )
 "
@@ -1690,8 +1668,7 @@ INR
 "
 "
 "
-R
-pia
+Rupia
 indiana
 "
 }
@@ -1843,7 +1820,6 @@ do
 Sul
 (
 1953
--
 1962
 )
 "
@@ -1861,7 +1837,6 @@ do
 Sul
 (
 1945
--
 1953
 )
 "
@@ -1937,8 +1912,7 @@ LKR
 LKR
 "
 "
-R
-pia
+Rupia
 ceilandesa
 "
 }
@@ -2148,7 +2122,6 @@ maced
 nio
 (
 1992
--
 1993
 )
 "
@@ -2230,8 +2203,7 @@ MUR
 MUR
 "
 "
-R
-pia
+Rupia
 mauriciana
 "
 }
@@ -2241,8 +2213,7 @@ MVR
 MVR
 "
 "
-R
-pia
+Rupia
 maldiva
 "
 }
@@ -2277,7 +2248,6 @@ Prata
 mexicano
 (
 1861
--
 1992
 )
 "
@@ -2331,7 +2301,6 @@ Mo
 ambique
 (
 1980
--
 2006
 )
 "
@@ -2379,7 +2348,6 @@ rdoba
 nicaraguense
 (
 1988
--
 1991
 )
 "
@@ -2491,7 +2459,6 @@ Sol
 peruano
 (
 1863
--
 1965
 )
 "
@@ -2549,7 +2516,6 @@ polon
 s
 (
 1950
--
 1995
 )
 "
@@ -2607,7 +2573,6 @@ Leu
 romeno
 (
 1952
--
 2006
 )
 "
@@ -2653,7 +2618,6 @@ Rublo
 russo
 (
 1991
--
 1998
 )
 "
@@ -2699,8 +2663,7 @@ SCR
 SCR
 "
 "
-R
-pia
+Rupia
 seichelense
 "
 }
@@ -2715,7 +2678,6 @@ sudan
 s
 (
 1992
--
 2007
 )
 "
@@ -2740,7 +2702,6 @@ Libra
 sudanesa
 (
 1957
--
 1998
 )
 "
@@ -2959,7 +2920,6 @@ Turcomenist
 o
 (
 1993
--
 2009
 )
 "
@@ -3017,7 +2977,6 @@ Lira
 turca
 (
 1922
--
 2005
 )
 "
@@ -3101,7 +3060,6 @@ Xelim
 ugandense
 (
 1966
--
 1987
 )
 "
@@ -3186,7 +3144,6 @@ Peso
 uruguaio
 (
 1975
--
 1993
 )
 "
@@ -3222,7 +3179,6 @@ var
 venezuelano
 (
 1871
--
 2008
 )
 "
@@ -3257,7 +3213,6 @@ Dong
 vietnamita
 (
 1978
--
 1985
 )
 "
@@ -3532,7 +3487,6 @@ forte
 iugoslavo
 (
 1966
--
 1990
 )
 "
@@ -3548,7 +3502,6 @@ noviy
 iugoslavo
 (
 1994
--
 2002
 )
 "
@@ -3565,7 +3518,6 @@ vel
 iugoslavo
 (
 1990
--
 1992
 )
 "
@@ -3581,7 +3533,6 @@ reformado
 iugoslavo
 (
 1992
--
 1993
 )
 "
@@ -3621,6 +3572,20 @@ ZMK
 "
 Cuacha
 zambiano
+(
+1968
+2012
+)
+"
+}
+ZMW
+{
+"
+ZMW
+"
+"
+Cuacha
+zambiano
 "
 }
 ZRN
@@ -3634,7 +3599,6 @@ Novo
 zairense
 (
 1993
--
 1998
 )
 "
@@ -3649,7 +3613,6 @@ Zaire
 zairense
 (
 1971
--
 1993
 )
 "
@@ -3667,7 +3630,6 @@ Zimb
 bue
 (
 1980
--
 2008
 )
 "
@@ -3806,7 +3768,6 @@ Alban
 s
 (
 1946
--
 1965
 )
 "
@@ -3818,7 +3779,6 @@ Leks
 Albaneses
 (
 1946
--
 1965
 )
 "
@@ -3999,7 +3959,6 @@ lei
 argentino
 (
 1970
--
 1983
 )
 "
@@ -4012,7 +3971,6 @@ lei
 argentinos
 (
 1970
--
 1983
 )
 "
@@ -4027,7 +3985,6 @@ Peso
 argentino
 (
 1881
--
 1970
 )
 "
@@ -4039,7 +3996,6 @@ Pesos
 argentinos
 (
 1881
--
 1970
 )
 "
@@ -4054,7 +4010,6 @@ Peso
 argentino
 (
 1983
--
 1985
 )
 "
@@ -4066,7 +4021,6 @@ Pesos
 argentinos
 (
 1983
--
 1985
 )
 "
@@ -4153,7 +4107,6 @@ Azeibaij
 o
 (
 1993
--
 2006
 )
 "
@@ -4167,7 +4120,6 @@ Azeibaij
 o
 (
 1993
--
 2006
 )
 "
@@ -4439,7 +4391,6 @@ b
 lgaro
 (
 1879
--
 1952
 )
 "
@@ -4452,7 +4403,6 @@ b
 lgaros
 (
 1879
--
 1952
 )
 "
@@ -4553,7 +4503,6 @@ one
 Boliviano
 (
 1863
--
 1963
 )
 "
@@ -4564,7 +4513,6 @@ other
 Bolivianos
 (
 1863
--
 1963
 )
 "
@@ -5723,7 +5671,6 @@ de
 Gana
 (
 1979
--
 2007
 )
 "
@@ -5736,7 +5683,6 @@ de
 Gana
 (
 1979
--
 2007
 )
 "
@@ -6064,21 +6010,17 @@ IDR
 one
 {
 "
-R
-pia
-da
-Indon
+Rupia
+indon
 sia
 "
 }
 other
 {
 "
-R
-pias
-da
-Indon
-sia
+Rupias
+indon
+sias
 "
 }
 }
@@ -6159,16 +6101,14 @@ INR
 one
 {
 "
-R
-pia
+Rupia
 indiana
 "
 }
 other
 {
 "
-R
-pias
+Rupias
 indianas
 "
 }
@@ -6570,16 +6510,14 @@ LKR
 one
 {
 "
-R
-pia
+Rupia
 ceilandesa
 "
 }
 other
 {
 "
-R
-pias
+Rupias
 ceilandesas
 "
 }
@@ -6935,7 +6873,6 @@ maced
 nio
 (
 1992
--
 1993
 )
 "
@@ -6948,7 +6885,6 @@ maced
 nios
 (
 1992
--
 1993
 )
 "
@@ -7084,16 +7020,14 @@ MUR
 one
 {
 "
-R
-pia
+Rupia
 mauriciana
 "
 }
 other
 {
 "
-R
-pias
+Rupias
 mauricianas
 "
 }
@@ -7103,16 +7037,14 @@ MVR
 one
 {
 "
-R
-pia
+Rupia
 maldiva
 "
 }
 other
 {
 "
-R
-pias
+Rupias
 maldivas
 "
 }
@@ -7162,7 +7094,6 @@ prata
 mexicano
 (
 1861
--
 1992
 )
 "
@@ -7176,7 +7107,6 @@ prata
 mexicanos
 (
 1861
--
 1992
 )
 "
@@ -7336,7 +7266,6 @@ rdoba
 nicaraguense
 (
 1988
--
 1991
 )
 "
@@ -7349,7 +7278,6 @@ rdobas
 nicaraguense
 (
 1988
--
 1991
 )
 "
@@ -7414,16 +7342,14 @@ NPR
 one
 {
 "
-R
-pia
+Rupia
 nepalesa
 "
 }
 other
 {
 "
-R
-pias
+Rupias
 nepalesas
 "
 }
@@ -7583,16 +7509,14 @@ PKR
 one
 {
 "
-R
-pia
+Rupia
 paquistanesa
 "
 }
 other
 {
 "
-R
-pias
+Rupias
 paquistanesas
 "
 }
@@ -7625,7 +7549,6 @@ polon
 s
 (
 1950
--
 1995
 )
 "
@@ -7637,7 +7560,6 @@ Zlotis
 poloneses
 (
 1950
--
 1995
 )
 "
@@ -7809,7 +7731,6 @@ Rublo
 russo
 (
 1991
--
 1998
 )
 "
@@ -7821,7 +7742,6 @@ Rublos
 russos
 (
 1991
--
 1998
 )
 "
@@ -7893,16 +7813,14 @@ SCR
 one
 {
 "
-R
-pia
+Rupia
 seichelense
 "
 }
 other
 {
 "
-R
-pias
+Rupias
 seichelenses
 "
 }
@@ -8338,7 +8256,6 @@ Turcomenist
 o
 (
 1993
--
 2009
 )
 "
@@ -8352,7 +8269,6 @@ Turcomenist
 o
 (
 1993
--
 2009
 )
 "
@@ -8590,7 +8506,6 @@ de
 Uganda
 (
 1966
--
 1987
 )
 "
@@ -8603,7 +8518,6 @@ de
 Uganda
 (
 1966
--
 1987
 )
 "
@@ -8733,7 +8647,6 @@ Peso
 uruguaio
 (
 1975
--
 1993
 )
 "
@@ -8745,7 +8658,6 @@ Pesos
 uruguaios
 (
 1975
--
 1993
 )
 "
@@ -8795,7 +8707,6 @@ var
 venezuelano
 (
 1871
--
 2008
 )
 "
@@ -8808,7 +8719,6 @@ vares
 venezuelanos
 (
 1871
--
 2008
 )
 "
@@ -8859,7 +8769,6 @@ Dong
 vietnamita
 (
 1978
--
 1985
 )
 "
@@ -8871,7 +8780,6 @@ Dong
 vietnamita
 (
 1978
--
 1985
 )
 "
@@ -9489,6 +9397,35 @@ Kwacha
 da
 Z
 mbia
+(
+1968
+2012
+)
+"
+}
+other
+{
+"
+Kwachas
+da
+Z
+mbia
+(
+1968
+2012
+)
+"
+}
+}
+ZMW
+{
+one
+{
+"
+Kwacha
+da
+Z
+mbia
 "
 }
 other
@@ -9655,9 +9592,9 @@ Version
 .
 0
 .
-78
+92
 .
-30
+87
 "
 }
 }

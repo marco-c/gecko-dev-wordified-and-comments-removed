@@ -85,7 +85,7 @@ Copyright
 (
 C
 )
-2012
+2013
 International
 Business
 Machines
@@ -225,7 +225,7 @@ source
 path
 >
 /
-xml
+common
 /
 main
 /
@@ -236,6 +236,14 @@ xml
 /
 uz_Arab
 {
+%
+%
+Parent
+{
+"
+root
+"
+}
 Currencies
 {
 AFN
@@ -253,9 +261,9 @@ Version
 .
 0
 .
-76
+92
 .
-36
+87
 "
 }
 }

@@ -1699,7 +1699,7 @@ OutputFile
 \
 bin
 \
-icudt50
+icudt52
 .
 dll
 <
@@ -2156,7 +2156,7 @@ OutputFile
 \
 bin
 \
-icudt50
+icudt52
 .
 dll
 <
@@ -2606,7 +2606,7 @@ OutputFile
 \
 bin64
 \
-icudt50
+icudt52
 .
 dll
 <
@@ -3058,7 +3058,7 @@ OutputFile
 \
 bin64
 \
-icudt50
+icudt52
 .
 dll
 <

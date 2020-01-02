@@ -85,7 +85,7 @@ Copyright
 (
 C
 )
-2012
+2013
 International
 Business
 Machines
@@ -225,7 +225,7 @@ source
 path
 >
 /
-xml
+common
 /
 main
 /
@@ -236,6 +236,14 @@ xml
 /
 pa_Arab
 {
+%
+%
+Parent
+{
+"
+root
+"
+}
 Currencies
 {
 EUR
@@ -248,9 +256,6 @@ EUR
 INR
 {
 "
-[
-INR
-]
 "
 "
 [
@@ -273,9 +278,9 @@ Version
 .
 0
 .
-77
+92
 .
-46
+75
 "
 }
 }

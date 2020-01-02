@@ -85,7 +85,7 @@ Copyright
 (
 C
 )
-2012
+2013
 International
 Business
 Machines
@@ -263,13 +263,6 @@ group
 }
 }
 }
-PaperSize
-:
-intvector
-{
-279
-216
-}
 Version
 {
 "
@@ -277,9 +270,9 @@ Version
 .
 0
 .
-77
+92
 .
-27
+87
 "
 }
 }

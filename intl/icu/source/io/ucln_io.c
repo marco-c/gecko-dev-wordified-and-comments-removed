@@ -15,13 +15,6 @@ h
 #
 include
 "
-umutex
-.
-h
-"
-#
-include
-"
 uassert
 .
 h

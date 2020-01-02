@@ -356,9 +356,14 @@ status
 )
 ;
 #
+ifndef
+U_HIDE_DEPRECATED_API
+#
 define
 U_CNV_SAFECLONE_BUFFERSIZE
 1024
+#
+endif
 U_STABLE
 void
 U_EXPORT2

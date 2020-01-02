@@ -85,7 +85,7 @@ Copyright
 (
 C
 )
-2012
+2013
 International
 Business
 Machines
@@ -225,7 +225,7 @@ source
 path
 >
 /
-xml
+common
 /
 main
 /
@@ -261,6 +261,17 @@ m
 }
 CurrencyUnitPatterns
 {
+one
+{
+"
+{
+0
+}
+{
+1
+}
+"
+}
 other
 {
 "
@@ -280,9 +291,9 @@ Version
 .
 0
 .
-77
+92
 .
-53
+87
 "
 }
 }

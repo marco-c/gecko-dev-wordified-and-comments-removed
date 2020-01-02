@@ -38,15 +38,10 @@ UMemory
 {
 public
 :
-static
-SimpleDateFormatStaticSets
-*
-gStaticSets
-;
 SimpleDateFormatStaticSets
 (
 UErrorCode
-*
+&
 status
 )
 ;

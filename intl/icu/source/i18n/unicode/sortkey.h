@@ -18,9 +18,6 @@ if
 !
 UCONFIG_NO_COLLATION
 #
-ifndef
-U_HIDE_DEPRECATED_API
-#
 include
 "
 unicode
@@ -157,6 +154,9 @@ const
 ;
 #
 endif
+#
+ifndef
+U_HIDE_DEPRECATED_API
 Collator
 :
 :
@@ -170,6 +170,8 @@ target
 )
 const
 ;
+#
+endif
 UCollationResult
 compareTo
 (
@@ -443,8 +445,6 @@ getBytes
 ;
 }
 U_NAMESPACE_END
-#
-endif
 #
 endif
 #

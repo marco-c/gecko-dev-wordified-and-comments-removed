@@ -85,7 +85,7 @@ Copyright
 (
 C
 )
-2012
+2013
 International
 Business
 Machines
@@ -225,7 +225,7 @@ source
 path
 >
 /
-xml
+common
 /
 main
 /
@@ -274,7 +274,6 @@ AFA
 Afgain
 (
 1927
--
 2002
 )
 "
@@ -347,7 +346,6 @@ Ang
 lach
 (
 1977
--
 1990
 )
 "
@@ -364,7 +362,6 @@ Ang
 lach
 (
 1990
--
 2000
 )
 "
@@ -381,7 +378,6 @@ Ang
 lach
 (
 1995
--
 1999
 )
 "
@@ -409,7 +405,6 @@ Airgint
 ne
 (
 1983
--
 1985
 )
 "
@@ -668,7 +663,6 @@ Brasa
 leach
 (
 1967
--
 1986
 )
 "
@@ -695,7 +689,6 @@ Brasa
 leach
 (
 1990
--
 1993
 )
 "
@@ -793,7 +786,6 @@ alar
 iseach
 (
 1994
--
 1999
 )
 "
@@ -1944,7 +1936,6 @@ Airgid
 Meicsiceo
 (
 1861
--
 1992
 )
 "
@@ -2197,7 +2188,6 @@ Zloty
 Polannach
 (
 1950
--
 1995
 )
 "
@@ -2269,7 +2259,6 @@ R
 iseach
 (
 1991
--
 1998
 )
 "
@@ -2675,7 +2664,6 @@ Scilling
 Uganda
 (
 1966
--
 1987
 )
 "
@@ -2758,7 +2746,6 @@ Peso
 Uragua
 (
 1975
--
 1993
 )
 "
@@ -2799,7 +2786,6 @@ Veinis
 ala
 (
 1871
--
 2008
 )
 "
@@ -3090,6 +3076,20 @@ ZMK
 "
 Kwacha
 Saimbiach
+(
+1968
+2012
+)
+"
+}
+ZMW
+{
+"
+ZMW
+"
+"
+Kwacha
+Saimbiach
 "
 }
 ZRN
@@ -3134,9 +3134,9 @@ Version
 .
 0
 .
-77
+92
 .
-27
+87
 "
 }
 }

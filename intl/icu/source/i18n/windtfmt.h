@@ -315,9 +315,7 @@ DateFormat
 EStyle
 fDateStyle
 ;
-const
 Locale
-*
 fLocale
 ;
 int32_t
