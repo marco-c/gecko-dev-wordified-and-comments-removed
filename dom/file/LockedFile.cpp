@@ -15,6 +15,13 @@ h
 #
 include
 "
+nsIDOMEvent
+.
+h
+"
+#
+include
+"
 nsIDOMFile
 .
 h
@@ -58,13 +65,6 @@ h
 include
 "
 nsDOMClassInfoID
-.
-h
-"
-#
-include
-"
-nsDOMEvent
 .
 h
 "

@@ -53,13 +53,6 @@ nsIRunnable
 .
 h
 "
-#
-include
-"
-nsDOMEvent
-.
-h
-"
 class
 mozIStorageConnection
 ;

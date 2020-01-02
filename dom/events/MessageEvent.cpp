@@ -93,7 +93,7 @@ MessageEvent
 NS_IMPL_CYCLE_COLLECTION_UNLINK_BEGIN_INHERITED
 (
 MessageEvent
-nsDOMEvent
+Event
 )
 tmp
 -
@@ -118,7 +118,7 @@ NS_IMPL_CYCLE_COLLECTION_UNLINK_END
 NS_IMPL_CYCLE_COLLECTION_TRAVERSE_BEGIN_INHERITED
 (
 MessageEvent
-nsDOMEvent
+Event
 )
 NS_IMPL_CYCLE_COLLECTION_TRAVERSE
 (
@@ -136,7 +136,7 @@ NS_IMPL_CYCLE_COLLECTION_TRAVERSE_END
 NS_IMPL_CYCLE_COLLECTION_TRACE_BEGIN_INHERITED
 (
 MessageEvent
-nsDOMEvent
+Event
 )
 NS_IMPL_CYCLE_COLLECTION_TRACE_JSVAL_MEMBER_CALLBACK
 (
@@ -153,17 +153,17 @@ nsIDOMMessageEvent
 )
 NS_INTERFACE_MAP_END_INHERITING
 (
-nsDOMEvent
+Event
 )
 NS_IMPL_ADDREF_INHERITED
 (
 MessageEvent
-nsDOMEvent
+Event
 )
 NS_IMPL_RELEASE_INHERITED
 (
 MessageEvent
-nsDOMEvent
+Event
 )
 MessageEvent
 :
@@ -181,7 +181,7 @@ WidgetEvent
 aEvent
 )
 :
-nsDOMEvent
+Event
 (
 aOwner
 aPresContext
@@ -824,7 +824,7 @@ MessagePortList
 (
 static_cast
 <
-nsDOMEventBase
+EventBase
 *
 >
 (
@@ -883,7 +883,7 @@ aSource
 nsresult
 rv
 =
-nsDOMEvent
+Event
 :
 :
 InitEvent

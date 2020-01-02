@@ -36,13 +36,6 @@ h
 #
 include
 "
-nsDOMEvent
-.
-h
-"
-#
-include
-"
 mozilla
 /
 Preferences

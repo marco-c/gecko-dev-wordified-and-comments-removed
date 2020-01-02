@@ -313,9 +313,6 @@ class
 nsViewportInfo
 ;
 class
-nsDOMEvent
-;
-class
 nsIGlobalObject
 ;
 class
@@ -369,6 +366,9 @@ Element
 ;
 struct
 ElementRegistrationOptions
+;
+class
+Event
 ;
 class
 EventTarget
@@ -4864,7 +4864,13 @@ rv
 ;
 already_AddRefed
 <
-nsDOMEvent
+mozilla
+:
+:
+dom
+:
+:
+Event
 >
 CreateEvent
 (

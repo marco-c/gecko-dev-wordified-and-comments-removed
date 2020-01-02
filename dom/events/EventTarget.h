@@ -26,9 +26,6 @@ nsIAtom
 h
 "
 class
-nsDOMEvent
-;
-class
 nsIDOMWindow
 ;
 class
@@ -43,6 +40,9 @@ ErrorResult
 namespace
 dom
 {
+class
+Event
+;
 class
 EventListener
 ;
@@ -157,7 +157,7 @@ aRv
 bool
 DispatchEvent
 (
-nsDOMEvent
+Event
 &
 aEvent
 ErrorResult

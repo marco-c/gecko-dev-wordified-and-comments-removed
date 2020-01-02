@@ -299,7 +299,11 @@ h
 #
 include
 "
-nsDOMEvent
+mozilla
+/
+dom
+/
+Event
 .
 h
 "
@@ -5442,7 +5446,7 @@ while
 domEvent
 )
 {
-nsDOMEvent
+Event
 *
 event
 =

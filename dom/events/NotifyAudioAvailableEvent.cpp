@@ -63,7 +63,7 @@ float
 aTime
 )
 :
-nsDOMEvent
+Event
 (
 aOwner
 aPresContext
@@ -112,12 +112,12 @@ aEventType
 NS_IMPL_ADDREF_INHERITED
 (
 NotifyAudioAvailableEvent
-nsDOMEvent
+Event
 )
 NS_IMPL_RELEASE_INHERITED
 (
 NotifyAudioAvailableEvent
-nsDOMEvent
+Event
 )
 NS_IMPL_CYCLE_COLLECTION_CLASS
 (
@@ -126,7 +126,7 @@ NotifyAudioAvailableEvent
 NS_IMPL_CYCLE_COLLECTION_UNLINK_BEGIN_INHERITED
 (
 NotifyAudioAvailableEvent
-nsDOMEvent
+Event
 )
 if
 (
@@ -153,13 +153,13 @@ NS_IMPL_CYCLE_COLLECTION_UNLINK_END
 NS_IMPL_CYCLE_COLLECTION_TRAVERSE_BEGIN_INHERITED
 (
 NotifyAudioAvailableEvent
-nsDOMEvent
+Event
 )
 NS_IMPL_CYCLE_COLLECTION_TRAVERSE_END
 NS_IMPL_CYCLE_COLLECTION_TRACE_BEGIN_INHERITED
 (
 NotifyAudioAvailableEvent
-nsDOMEvent
+Event
 )
 NS_IMPL_CYCLE_COLLECTION_TRACE_JS_MEMBER_CALLBACK
 (
@@ -176,7 +176,7 @@ nsIDOMNotifyAudioAvailableEvent
 )
 NS_INTERFACE_MAP_END_INHERITING
 (
-nsDOMEvent
+Event
 )
 NotifyAudioAvailableEvent
 :
@@ -383,7 +383,7 @@ aFrameBuffer
 nsresult
 rv
 =
-nsDOMEvent
+Event
 :
 :
 InitEvent

@@ -27,7 +27,11 @@ h
 #
 include
 "
-nsDOMEvent
+mozilla
+/
+dom
+/
+Event
 .
 h
 "
@@ -172,12 +176,12 @@ class
 IDBVersionChangeEvent
 :
 public
-nsDOMEvent
+Event
 {
 public
 :
 NS_DECL_ISUPPORTS_INHERITED
-NS_FORWARD_TO_NSDOMEVENT
+NS_FORWARD_TO_EVENT
 NS_DECLARE_STATIC_IID_ACCESSOR
 (
 IDBVERSIONCHANGEEVENT_IID
@@ -357,7 +361,7 @@ inline
 static
 already_AddRefed
 <
-nsDOMEvent
+Event
 >
 Create
 (
@@ -393,7 +397,7 @@ inline
 static
 already_AddRefed
 <
-nsDOMEvent
+Event
 >
 CreateBlocked
 (
@@ -429,7 +433,7 @@ inline
 static
 already_AddRefed
 <
-nsDOMEvent
+Event
 >
 CreateUpgradeNeeded
 (
@@ -547,7 +551,7 @@ EventTarget
 aOwner
 )
 :
-nsDOMEvent
+Event
 (
 aOwner
 nullptr

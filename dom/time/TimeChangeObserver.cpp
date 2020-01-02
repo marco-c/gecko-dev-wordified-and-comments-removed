@@ -83,13 +83,6 @@ h
 #
 include
 "
-nsDOMEvent
-.
-h
-"
-#
-include
-"
 nsContentUtils
 .
 h

@@ -1309,7 +1309,7 @@ ScreenX
 )
 {
 return
-nsDOMEvent
+Event
 :
 :
 GetScreenCoords
@@ -1361,7 +1361,7 @@ ScreenY
 )
 {
 return
-nsDOMEvent
+Event
 :
 :
 GetScreenCoords
@@ -1413,7 +1413,7 @@ ClientX
 )
 {
 return
-nsDOMEvent
+Event
 :
 :
 GetClientCoords
@@ -1466,7 +1466,7 @@ ClientY
 )
 {
 return
-nsDOMEvent
+Event
 :
 :
 GetClientCoords

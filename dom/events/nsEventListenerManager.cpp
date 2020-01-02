@@ -43,7 +43,11 @@ h
 #
 include
 "
-nsDOMEvent
+mozilla
+/
+dom
+/
+Event
 .
 h
 "
@@ -569,7 +573,7 @@ Shutdown
 (
 )
 {
-nsDOMEvent
+Event
 :
 :
 Shutdown
@@ -4901,7 +4905,7 @@ popupStatePusher
 .
 construct
 (
-nsDOMEvent
+Event
 :
 :
 GetEventPopupControlState

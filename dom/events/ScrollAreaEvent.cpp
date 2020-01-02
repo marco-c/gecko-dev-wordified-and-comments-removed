@@ -275,7 +275,7 @@ scrollareaevent
 )
 ;
 }
-nsDOMEvent
+Event
 :
 :
 Serialize
@@ -353,7 +353,7 @@ aIter
 {
 NS_ENSURE_TRUE
 (
-nsDOMEvent
+Event
 :
 :
 Deserialize

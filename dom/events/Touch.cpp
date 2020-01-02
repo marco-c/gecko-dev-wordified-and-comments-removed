@@ -400,7 +400,7 @@ return
 }
 mClientPoint
 =
-nsDOMEvent
+Event
 :
 :
 GetClientCoords
@@ -419,7 +419,7 @@ mClientPoint
 ;
 mPagePoint
 =
-nsDOMEvent
+Event
 :
 :
 GetPageCoords
@@ -438,7 +438,7 @@ mClientPoint
 ;
 mScreenPoint
 =
-nsDOMEvent
+Event
 :
 :
 GetScreenCoords

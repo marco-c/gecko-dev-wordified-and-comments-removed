@@ -4840,7 +4840,13 @@ aError
 void
 BeginWindowMove
 (
-nsDOMEvent
+mozilla
+:
+:
+dom
+:
+:
+Event
 &
 aMouseDownEvent
 mozilla

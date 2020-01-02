@@ -15,6 +15,13 @@ h
 #
 include
 "
+nsIDOMEvent
+.
+h
+"
+#
+include
+"
 nsIDOMEventListener
 .
 h
@@ -44,13 +51,6 @@ h
 include
 "
 nsIDocShell
-.
-h
-"
-#
-include
-"
-nsDOMEvent
 .
 h
 "

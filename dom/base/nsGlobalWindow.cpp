@@ -23640,7 +23640,7 @@ res
 ;
 nsRefPtr
 <
-nsDOMEvent
+Event
 >
 domEvent
 =
@@ -54578,7 +54578,7 @@ aMouseDownEvent
 NS_ERROR_FAILURE
 )
 ;
-nsDOMEvent
+Event
 *
 mouseDownEvent
 =
@@ -54641,7 +54641,7 @@ nsGlobalWindow
 :
 BeginWindowMove
 (
-nsDOMEvent
+Event
 &
 aMouseDownEvent
 Element

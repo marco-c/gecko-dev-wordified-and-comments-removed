@@ -42,13 +42,6 @@ h
 #
 include
 "
-nsDOMEvent
-.
-h
-"
-#
-include
-"
 nsEventDispatcher
 .
 h
@@ -57,6 +50,13 @@ h
 include
 "
 nsIClassInfoImpl
+.
+h
+"
+#
+include
+"
+nsIDOMEvent
 .
 h
 "

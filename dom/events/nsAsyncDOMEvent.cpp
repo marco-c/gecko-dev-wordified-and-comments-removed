@@ -29,7 +29,9 @@ h
 #
 include
 "
-nsDOMEvent
+mozilla
+/
+BasicEvents
 .
 h
 "
@@ -38,7 +40,9 @@ include
 "
 mozilla
 /
-BasicEvents
+dom
+/
+Event
 .
 h
 "
