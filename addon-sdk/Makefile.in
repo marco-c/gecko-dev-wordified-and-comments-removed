@@ -63,13 +63,6 @@ config
 config
 .
 mk
-export
-PYMAKE
-=
-(
-.
-PYMAKE
-)
 libs
 :
 :
