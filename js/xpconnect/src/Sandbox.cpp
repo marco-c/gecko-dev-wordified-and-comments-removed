@@ -1604,11 +1604,15 @@ obj
 )
 )
 ;
-MOZ_ASSERT
+if
 (
+!
 sop
 )
+{
+return
 ;
+}
 static_cast
 <
 SandboxPrivate
@@ -1623,7 +1627,7 @@ ForgetGlobalObject
 (
 )
 ;
-NS_IF_RELEASE
+NS_RELEASE
 (
 sop
 )
