@@ -1629,7 +1629,7 @@ PR_GetError
 TEST_F
 (
 pkixder_input_tests
-Skip
+ExpectTagAndSkipValue
 )
 {
 Input
@@ -1651,7 +1651,7 @@ DER_SEQUENCE_OF_INT8
 ASSERT_EQ
 (
 Success
-Skip
+ExpectTagAndSkipValue
 (
 input
 SEQUENCE
@@ -1671,7 +1671,7 @@ input
 TEST_F
 (
 pkixder_input_tests
-SkipWithTruncatedData
+ExpectTagAndSkipValueWithTruncatedData
 )
 {
 Input
@@ -1693,7 +1693,7 @@ DER_TRUNCATED_SEQUENCE_OF_INT8
 ASSERT_EQ
 (
 Failure
-Skip
+ExpectTagAndSkipValue
 (
 input
 SEQUENCE
@@ -1704,7 +1704,7 @@ SEQUENCE
 TEST_F
 (
 pkixder_input_tests
-SkipWithOverrunData
+ExpectTagAndSkipValueWithOverrunData
 )
 {
 Input
@@ -1726,7 +1726,7 @@ DER_OVERRUN_SEQUENCE_OF_INT8
 ASSERT_EQ
 (
 Success
-Skip
+ExpectTagAndSkipValue
 (
 input
 SEQUENCE
@@ -2241,6 +2241,9 @@ length
 ASSERT_EQ
 (
 Success
+internal
+:
+:
 ExpectTagAndGetLength
 (
 input
@@ -2309,6 +2312,9 @@ length
 ASSERT_EQ
 (
 Failure
+internal
+:
+:
 ExpectTagAndGetLength
 (
 input
@@ -2356,6 +2362,9 @@ length
 ASSERT_EQ
 (
 Failure
+internal
+:
+:
 ExpectTagAndGetLength
 (
 input
@@ -2376,7 +2385,7 @@ PR_GetError
 TEST_F
 (
 pkixder_input_tests
-ExpectTagAndIgnoreLength
+ExpectTagAndSkipLength
 )
 {
 Input
@@ -2398,7 +2407,7 @@ DER_INT16
 ASSERT_EQ
 (
 Success
-ExpectTagAndIgnoreLength
+ExpectTagAndSkipLength
 (
 input
 INTEGER
@@ -2409,7 +2418,7 @@ INTEGER
 TEST_F
 (
 pkixder_input_tests
-ExpectTagAndIgnoreLengthWithWrongTag
+ExpectTagAndSkipLengthWithWrongTag
 )
 {
 Input
@@ -2431,7 +2440,7 @@ DER_INT16
 ASSERT_EQ
 (
 Failure
-ExpectTagAndIgnoreLength
+ExpectTagAndSkipLength
 (
 input
 OCTET_STRING

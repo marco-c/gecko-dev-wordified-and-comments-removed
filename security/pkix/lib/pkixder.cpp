@@ -31,6 +31,9 @@ return
 Failure
 ;
 }
+namespace
+internal
+{
 Result
 ExpectTagAndGetLength
 (
@@ -232,6 +235,7 @@ EnsureLength
 length
 )
 ;
+}
 }
 }
 }
