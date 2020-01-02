@@ -7652,7 +7652,7 @@ while
 )
 NS_MEMORY_REPORTER_MALLOC_SIZEOF_FUN
 (
-JsMallocSizeOf
+JSMallocSizeOf
 )
 namespace
 xpc
@@ -12620,7 +12620,7 @@ JS
 :
 RuntimeStats
 (
-JsMallocSizeOf
+JSMallocSizeOf
 )
 mWindowPaths
 (
@@ -13439,7 +13439,7 @@ xpcrt
 >
 SizeOfIncludingThis
 (
-JsMallocSizeOf
+JSMallocSizeOf
 )
 +
 XPCWrappedNativeScope
@@ -13447,7 +13447,7 @@ XPCWrappedNativeScope
 :
 SizeOfAllScopesIncludingThis
 (
-JsMallocSizeOf
+JSMallocSizeOf
 )
 ;
 nsresult
