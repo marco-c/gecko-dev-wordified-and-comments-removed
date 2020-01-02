@@ -976,17 +976,6 @@ self
 frame
 ]
 ;
-/
-/
-XXX
-Is
-this
-work
-well
-with
-Retina
-display
-?
 CGFloat
 minWidth
 =
@@ -1039,7 +1028,7 @@ height
 std
 :
 :
-min
+max
 (
 viewRect
 .
