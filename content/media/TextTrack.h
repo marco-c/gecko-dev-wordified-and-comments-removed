@@ -249,12 +249,7 @@ nsAString
 aId
 )
 const
-{
-aId
-=
-mId
 ;
-}
 TextTrackMode
 Mode
 (
@@ -431,9 +426,6 @@ mLanguage
 ;
 nsString
 mType
-;
-nsString
-mId
 ;
 TextTrackMode
 mMode
