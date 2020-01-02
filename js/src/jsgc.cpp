@@ -9739,7 +9739,7 @@ exclusiveThreadsPresent
 {
 lock
 .
-construct
+emplace
 (
 )
 ;
@@ -10816,7 +10816,7 @@ isHeapBusy
 )
 maybeUnlock
 .
-construct
+emplace
 (
 rt
 )

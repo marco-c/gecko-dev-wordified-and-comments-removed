@@ -206,7 +206,7 @@ mJSContext
 ;
 mAutoCompartment
 .
-construct
+emplace
 (
 mJSContext
 scope
@@ -214,7 +214,7 @@ scope
 ;
 mState
 .
-construct
+emplace
 (
 mJSContext
 )
@@ -243,11 +243,8 @@ mEvaluated
 return
 ;
 mState
-.
-ref
-(
-)
-.
+-
+>
 restore
 (
 )

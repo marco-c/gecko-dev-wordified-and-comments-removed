@@ -769,7 +769,7 @@ isObject
 {
 ac
 .
-construct
+emplace
 (
 cx
 &

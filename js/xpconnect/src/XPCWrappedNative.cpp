@@ -1405,7 +1405,7 @@ XPCWrappedNative
 ;
 ac
 .
-construct
+emplace
 (
 static_cast
 <
@@ -1557,7 +1557,7 @@ else
 {
 ac
 .
-construct
+emplace
 (
 static_cast
 <

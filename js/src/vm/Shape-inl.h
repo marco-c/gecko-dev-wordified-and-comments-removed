@@ -939,7 +939,7 @@ JSPROP_SETTER
 )
 inner
 .
-construct
+emplace
 (
 cx
 attrs

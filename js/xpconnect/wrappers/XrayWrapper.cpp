@@ -11728,7 +11728,7 @@ singleton
 )
 resolvingId
 .
-construct
+emplace
 (
 cx
 wrapper

@@ -7514,7 +7514,7 @@ JSCHAR
 ;
 ctx
 .
-construct
+emplace
 (
 cx
 (
@@ -7529,7 +7529,7 @@ nullptr
 ;
 native_assembler
 .
-construct
+emplace
 (
 &
 alloc
@@ -7557,7 +7557,7 @@ assembler
 =
 native_assembler
 .
-addr
+ptr
 (
 )
 ;
@@ -7566,7 +7566,7 @@ else
 {
 interpreted_assembler
 .
-construct
+emplace
 (
 &
 alloc
@@ -7587,7 +7587,7 @@ assembler
 =
 interpreted_assembler
 .
-addr
+ptr
 (
 )
 ;

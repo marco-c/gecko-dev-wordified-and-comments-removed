@@ -12910,7 +12910,7 @@ NS_ERROR_FAILURE
 ;
 ac
 .
-construct
+emplace
 (
 cx
 scopeObj
