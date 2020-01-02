@@ -1604,6 +1604,13 @@ isUndefined
 )
 |
 |
+v
+.
+isSymbol
+(
+)
+|
+|
 IsCallable
 (
 v
