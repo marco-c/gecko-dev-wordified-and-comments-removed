@@ -794,6 +794,7 @@ AsTextureClientDrawTarget
 AllocateForSurface
 (
 mSize
+ALLOC_CLEAR_BUFFER
 )
 )
 {
@@ -835,6 +836,7 @@ AsTextureClientDrawTarget
 AllocateForSurface
 (
 mSize
+ALLOC_CLEAR_BUFFER
 )
 )
 {
