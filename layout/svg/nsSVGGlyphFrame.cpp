@@ -3159,10 +3159,10 @@ tangent
 *
 halfAdvance
 ;
-double
+Float
 glyphRotation
 =
-atan2
+atan2f
 (
 tangent
 .

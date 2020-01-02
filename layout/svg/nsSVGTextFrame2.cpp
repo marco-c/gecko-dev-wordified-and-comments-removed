@@ -16836,10 +16836,10 @@ midx
 tangent
 )
 ;
-double
-glyphRotation
+Float
+rotation
 =
-atan2
+atan2f
 (
 tangent
 .
@@ -16914,7 +16914,7 @@ i
 mAngle
 +
 =
-glyphRotation
+rotation
 ;
 for
 (
