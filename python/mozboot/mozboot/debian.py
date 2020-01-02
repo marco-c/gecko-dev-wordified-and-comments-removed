@@ -242,18 +242,7 @@ self
 )
 :
         
-self
-.
-run_as_root
-(
-[
+print
 '
-apt
--
-get
+lala
 '
-'
-update
-'
-]
-)
