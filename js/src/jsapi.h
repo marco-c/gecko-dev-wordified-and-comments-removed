@@ -14427,6 +14427,8 @@ const
 ReadOnlyCompileOptions
 &
 options
+size_t
+length
 )
 ;
 extern
