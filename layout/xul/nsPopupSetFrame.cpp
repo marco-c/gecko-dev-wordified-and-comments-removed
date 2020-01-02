@@ -174,7 +174,7 @@ nsGkAtoms
 popupSetFrame
 ;
 }
-nsresult
+void
 nsPopupSetFrame
 :
 :
@@ -201,10 +201,8 @@ aFrameList
 )
 ;
 return
-NS_OK
 ;
 }
-return
 nsBoxFrame
 :
 :
@@ -215,7 +213,7 @@ aFrameList
 )
 ;
 }
-nsresult
+void
 nsPopupSetFrame
 :
 :
@@ -242,10 +240,8 @@ aOldFrame
 )
 ;
 return
-NS_OK
 ;
 }
-return
 nsBoxFrame
 :
 :
@@ -256,7 +252,7 @@ aOldFrame
 )
 ;
 }
-nsresult
+void
 nsPopupSetFrame
 :
 :
@@ -286,10 +282,8 @@ aFrameList
 )
 ;
 return
-NS_OK
 ;
 }
-return
 nsBoxFrame
 :
 :
@@ -301,7 +295,7 @@ aFrameList
 )
 ;
 }
-nsresult
+void
 nsPopupSetFrame
 :
 :
@@ -346,10 +340,8 @@ aChildList
 )
 ;
 return
-NS_OK
 ;
 }
-return
 nsBoxFrame
 :
 :

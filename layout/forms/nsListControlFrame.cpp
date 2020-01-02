@@ -3390,7 +3390,7 @@ aEventStatus
 )
 ;
 }
-nsresult
+void
 nsListControlFrame
 :
 :
@@ -3427,9 +3427,6 @@ mHasBeenInitialized
 false
 ;
 }
-nsresult
-rv
-=
 nsHTMLScrollFrame
 :
 :
@@ -3438,9 +3435,6 @@ SetInitialChildList
 aListID
 aChildList
 )
-;
-return
-rv
 ;
 }
 void

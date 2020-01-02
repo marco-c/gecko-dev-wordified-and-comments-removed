@@ -387,7 +387,7 @@ aContent
 )
 ;
 }
-nsresult
+void
 nsSliderFrame
 :
 :
@@ -400,9 +400,6 @@ nsIFrame
 aOldFrame
 )
 {
-nsresult
-rv
-=
 nsBoxFrame
 :
 :
@@ -424,11 +421,8 @@ RemoveListener
 (
 )
 ;
-return
-rv
-;
 }
-nsresult
+void
 nsSliderFrame
 :
 :
@@ -453,9 +447,6 @@ IsEmpty
 (
 )
 ;
-nsresult
-rv
-=
 nsBoxFrame
 :
 :
@@ -474,11 +465,8 @@ AddListener
 (
 )
 ;
-return
-rv
-;
 }
-nsresult
+void
 nsSliderFrame
 :
 :
@@ -500,9 +488,6 @@ IsEmpty
 (
 )
 ;
-nsresult
-rv
-=
 nsBoxFrame
 :
 :
@@ -519,9 +504,6 @@ wasEmpty
 AddListener
 (
 )
-;
-return
-rv
 ;
 }
 int32_t
@@ -3413,7 +3395,7 @@ nsGkAtoms
 sliderFrame
 ;
 }
-nsresult
+void
 nsSliderFrame
 :
 :
@@ -3426,9 +3408,6 @@ nsFrameList
 aChildList
 )
 {
-nsresult
-r
-=
 nsBoxFrame
 :
 :
@@ -3441,9 +3420,6 @@ aChildList
 AddListener
 (
 )
-;
-return
-r
 ;
 }
 nsresult

@@ -5362,7 +5362,7 @@ return
 false
 ;
 }
-nsresult
+void
 nsTextControlFrame
 :
 :
@@ -5375,9 +5375,6 @@ nsFrameList
 aChildList
 )
 {
-nsresult
-rv
-=
 nsContainerFrame
 :
 :
@@ -5528,9 +5525,6 @@ contentScrollPos
 ;
 }
 }
-return
-rv
-;
 }
 void
 nsTextControlFrame

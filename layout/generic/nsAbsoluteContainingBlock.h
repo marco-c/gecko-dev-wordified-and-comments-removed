@@ -140,7 +140,7 @@ aListID
 )
 ;
 }
-nsresult
+void
 SetInitialChildList
 (
 nsIFrame
@@ -153,7 +153,7 @@ nsFrameList
 aChildList
 )
 ;
-nsresult
+void
 AppendFrames
 (
 nsIFrame
@@ -166,7 +166,7 @@ nsFrameList
 aFrameList
 )
 ;
-nsresult
+void
 InsertFrames
 (
 nsIFrame

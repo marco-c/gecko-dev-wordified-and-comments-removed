@@ -105,7 +105,7 @@ return
 NS_OK
 ;
 }
-nsresult
+void
 nsMathMLmfencedFrame
 :
 :
@@ -118,9 +118,6 @@ nsFrameList
 aChildList
 )
 {
-nsresult
-rv
-=
 nsMathMLContainerFrame
 :
 :
@@ -129,16 +126,6 @@ SetInitialChildList
 aListID
 aChildList
 )
-;
-if
-(
-NS_FAILED
-(
-rv
-)
-)
-return
-rv
 ;
 mPresentationData
 .
@@ -153,9 +140,6 @@ PresContext
 (
 )
 )
-;
-return
-NS_OK
 ;
 }
 nsresult

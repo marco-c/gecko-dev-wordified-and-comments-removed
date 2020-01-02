@@ -1529,7 +1529,7 @@ break
 }
 }
 }
-nsresult
+void
 nsMenuFrame
 :
 :
@@ -1576,7 +1576,6 @@ aChildList
 )
 ;
 }
-return
 nsBoxFrame
 :
 :
@@ -5746,7 +5745,7 @@ mDelayedMenuCommandEvent
 nullptr
 ;
 }
-nsresult
+void
 nsMenuFrame
 :
 :
@@ -5822,10 +5821,8 @@ NS_FRAME_HAS_DIRTY_CHILDREN
 )
 ;
 return
-NS_OK
 ;
 }
-return
 nsBoxFrame
 :
 :
@@ -5836,7 +5833,7 @@ aOldFrame
 )
 ;
 }
-nsresult
+void
 nsMenuFrame
 :
 :
@@ -5939,7 +5936,6 @@ IsEmpty
 )
 )
 return
-NS_OK
 ;
 if
 (
@@ -5962,7 +5958,6 @@ aPrevFrame
 nullptr
 ;
 }
-return
 nsBoxFrame
 :
 :
@@ -5974,7 +5969,7 @@ aFrameList
 )
 ;
 }
-nsresult
+void
 nsMenuFrame
 :
 :
@@ -6074,9 +6069,7 @@ IsEmpty
 )
 )
 return
-NS_OK
 ;
-return
 nsBoxFrame
 :
 :

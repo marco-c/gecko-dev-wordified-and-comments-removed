@@ -6916,7 +6916,7 @@ damageArea
 ;
 }
 }
-nsresult
+void
 nsTableRowGroupFrame
 :
 :
@@ -7123,11 +7123,8 @@ SetGeometryDirty
 )
 ;
 }
-return
-NS_OK
-;
 }
-nsresult
+void
 nsTableRowGroupFrame
 :
 :
@@ -7440,11 +7437,8 @@ SetGeometryDirty
 )
 ;
 }
-return
-NS_OK
-;
 }
-nsresult
+void
 nsTableRowGroupFrame
 :
 :
@@ -7545,9 +7539,6 @@ DestroyFrame
 (
 aOldFrame
 )
-;
-return
-NS_OK
 ;
 }
 nsMargin

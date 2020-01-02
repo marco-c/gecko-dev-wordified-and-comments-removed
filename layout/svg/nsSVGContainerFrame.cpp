@@ -131,7 +131,7 @@ NS_IMPL_FRAMEARENA_HELPERS
 (
 nsSVGDisplayContainerFrame
 )
-nsresult
+void
 nsSVGContainerFrame
 :
 :
@@ -144,7 +144,6 @@ nsFrameList
 aFrameList
 )
 {
-return
 InsertFrames
 (
 aListID
@@ -157,7 +156,7 @@ aFrameList
 )
 ;
 }
-nsresult
+void
 nsSVGContainerFrame
 :
 :
@@ -221,11 +220,8 @@ aPrevFrame
 aFrameList
 )
 ;
-return
-NS_OK
-;
 }
-nsresult
+void
 nsSVGContainerFrame
 :
 :
@@ -257,9 +253,6 @@ DestroyFrame
 (
 aOldFrame
 )
-;
-return
-NS_OK
 ;
 }
 bool
@@ -590,7 +583,7 @@ aLists
 )
 ;
 }
-nsresult
+void
 nsSVGDisplayContainerFrame
 :
 :
@@ -781,11 +774,8 @@ NS_FRAME_FIRST_REFLOW
 }
 }
 }
-return
-NS_OK
-;
 }
-nsresult
+void
 nsSVGDisplayContainerFrame
 :
 :
@@ -835,9 +825,6 @@ nsRestyleHint
 nsChangeHint_UpdateOverflow
 )
 ;
-nsresult
-rv
-=
 nsSVGContainerFrame
 :
 :
@@ -872,9 +859,6 @@ this
 )
 ;
 }
-return
-rv
-;
 }
 bool
 nsSVGDisplayContainerFrame

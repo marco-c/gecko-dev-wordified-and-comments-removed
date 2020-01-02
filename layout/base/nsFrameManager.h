@@ -331,7 +331,7 @@ aParentContent
 ;
 NS_HIDDEN_
 (
-nsresult
+void
 )
 AppendFrames
 (
@@ -347,7 +347,7 @@ aFrameList
 ;
 NS_HIDDEN_
 (
-nsresult
+void
 )
 InsertFrames
 (
@@ -366,7 +366,7 @@ aFrameList
 ;
 NS_HIDDEN_
 (
-nsresult
+void
 )
 RemoveFrame
 (

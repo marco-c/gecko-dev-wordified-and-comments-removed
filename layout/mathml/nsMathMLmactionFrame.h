@@ -73,7 +73,7 @@ aPrevInFlow
 MOZ_OVERRIDE
 ;
 virtual
-nsresult
+void
 SetInitialChildList
 (
 ChildListID

@@ -124,7 +124,7 @@ aSize
 }
 #
 endif
-nsresult
+void
 nsAbsoluteContainingBlock
 :
 :
@@ -174,11 +174,8 @@ SetFrames
 aChildList
 )
 ;
-return
-NS_OK
-;
 }
-nsresult
+void
 nsAbsoluteContainingBlock
 :
 :
@@ -251,11 +248,8 @@ eResize
 NS_FRAME_HAS_DIRTY_CHILDREN
 )
 ;
-return
-NS_OK
-;
 }
-nsresult
+void
 nsAbsoluteContainingBlock
 :
 :
@@ -357,9 +351,6 @@ nsIPresShell
 eResize
 NS_FRAME_HAS_DIRTY_CHILDREN
 )
-;
-return
-NS_OK
 ;
 }
 void

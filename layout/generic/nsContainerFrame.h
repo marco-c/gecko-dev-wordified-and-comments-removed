@@ -259,7 +259,7 @@ MOZ_OVERRIDE
 #
 endif
 virtual
-nsresult
+void
 SetInitialChildList
 (
 ChildListID
@@ -270,7 +270,7 @@ aChildList
 )
 ;
 virtual
-nsresult
+void
 AppendFrames
 (
 ChildListID
@@ -281,7 +281,7 @@ aFrameList
 )
 ;
 virtual
-nsresult
+void
 InsertFrames
 (
 ChildListID
@@ -295,7 +295,7 @@ aFrameList
 )
 ;
 virtual
-nsresult
+void
 RemoveFrame
 (
 ChildListID

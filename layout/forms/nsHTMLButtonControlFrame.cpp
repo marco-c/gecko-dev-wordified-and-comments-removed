@@ -1493,7 +1493,7 @@ aStyleContext
 )
 ;
 }
-nsresult
+void
 nsHTMLButtonControlFrame
 :
 :
@@ -1514,11 +1514,8 @@ operation
 "
 )
 ;
-return
-NS_ERROR_UNEXPECTED
-;
 }
-nsresult
+void
 nsHTMLButtonControlFrame
 :
 :
@@ -1542,11 +1539,8 @@ operation
 "
 )
 ;
-return
-NS_ERROR_UNEXPECTED
-;
 }
-nsresult
+void
 nsHTMLButtonControlFrame
 :
 :
@@ -1566,8 +1560,5 @@ unsupported
 operation
 "
 )
-;
-return
-NS_ERROR_UNEXPECTED
 ;
 }

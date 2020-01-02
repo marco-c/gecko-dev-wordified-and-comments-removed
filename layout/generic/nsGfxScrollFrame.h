@@ -1506,7 +1506,7 @@ aIsRoot
 NS_DECL_QUERYFRAME
 NS_DECL_FRAMEARENA_HELPERS
 virtual
-nsresult
+void
 SetInitialChildList
 (
 ChildListID
@@ -1728,7 +1728,7 @@ UpdateOverflow
 ;
 }
 virtual
-nsresult
+void
 AppendFrames
 (
 ChildListID
@@ -1740,7 +1740,7 @@ aFrameList
 MOZ_OVERRIDE
 ;
 virtual
-nsresult
+void
 InsertFrames
 (
 ChildListID
@@ -1765,7 +1765,7 @@ aDestructRoot
 MOZ_OVERRIDE
 ;
 virtual
-nsresult
+void
 RemoveFrame
 (
 ChildListID
@@ -2850,7 +2850,7 @@ aClipAllDescendants
 )
 ;
 virtual
-nsresult
+void
 SetInitialChildList
 (
 ChildListID
@@ -2920,7 +2920,7 @@ UpdateOverflow
 ;
 }
 virtual
-nsresult
+void
 AppendFrames
 (
 ChildListID
@@ -2932,7 +2932,7 @@ aFrameList
 MOZ_OVERRIDE
 ;
 virtual
-nsresult
+void
 InsertFrames
 (
 ChildListID
@@ -2957,7 +2957,7 @@ aDestructRoot
 MOZ_OVERRIDE
 ;
 virtual
-nsresult
+void
 RemoveFrame
 (
 ChildListID

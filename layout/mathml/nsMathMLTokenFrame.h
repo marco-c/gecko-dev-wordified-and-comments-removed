@@ -93,7 +93,7 @@ GetMathMLFrameType
 MOZ_OVERRIDE
 ;
 virtual
-nsresult
+void
 SetInitialChildList
 (
 ChildListID
@@ -105,7 +105,7 @@ aChildList
 MOZ_OVERRIDE
 ;
 virtual
-nsresult
+void
 AppendFrames
 (
 ChildListID
@@ -117,7 +117,7 @@ aChildList
 MOZ_OVERRIDE
 ;
 virtual
-nsresult
+void
 InsertFrames
 (
 ChildListID
