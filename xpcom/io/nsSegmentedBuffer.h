@@ -28,10 +28,6 @@ mMaxSize
 (
 0
 )
-mSegAllocator
-(
-nullptr
-)
 mSegmentArray
 (
 nullptr
@@ -57,11 +53,6 @@ nsSegmentedBuffer
 {
 Empty
 (
-)
-;
-NS_IF_RELEASE
-(
-mSegAllocator
 )
 ;
 }
@@ -282,10 +273,6 @@ mSegmentSize
 ;
 uint32_t
 mMaxSize
-;
-nsIMemory
-*
-mSegAllocator
 ;
 char
 *
