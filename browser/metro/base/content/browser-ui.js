@@ -661,12 +661,6 @@ init
 (
 )
 ;
-ShumwayUtils
-.
-init
-(
-)
-;
 messageManager
 .
 addMessageListener
