@@ -1371,6 +1371,9 @@ aBrowser
 aCallback
 =
 next
+ignoreSubFrames
+=
+true
 )
 {
 aBrowser
@@ -1388,6 +1391,10 @@ event
 {
 if
 (
+!
+ignoreSubFrames
+|
+|
 event
 .
 target
@@ -1424,6 +1431,9 @@ function
 promiseBrowserLoaded
 (
 aBrowser
+ignoreSubFrames
+=
+true
 )
 {
 let
@@ -1441,6 +1451,7 @@ aBrowser
 deferred
 .
 resolve
+ignoreSubFrames
 )
 ;
 return

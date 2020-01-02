@@ -163,6 +163,17 @@ function
 (
 )
 {
+SyncHandlers
+.
+get
+(
+browser
+)
+.
+flush
+(
+)
+;
 let
 {
 entries
