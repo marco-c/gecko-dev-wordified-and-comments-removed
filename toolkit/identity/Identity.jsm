@@ -491,8 +491,6 @@ complete
 "
 )
 ;
-try
-{
 Services
 .
 obs
@@ -509,13 +507,6 @@ granted
 "
 )
 ;
-}
-catch
-(
-e
-)
-{
-}
 }
 parseEmail
 :

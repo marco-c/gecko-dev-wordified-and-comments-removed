@@ -10824,8 +10824,6 @@ shutdown
 "
 )
 ;
-try
-{
 Services
 .
 obs
@@ -10836,13 +10834,6 @@ this
 EXPERIMENTS_CHANGED_TOPIC
 )
 ;
-}
-catch
-(
-e
-)
-{
-}
 }
 observe
 :
