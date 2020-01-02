@@ -1529,12 +1529,6 @@ _formattingEnabled
 this
 .
 focused
-|
-|
-!
-this
-.
-editor
 )
 return
 ;
