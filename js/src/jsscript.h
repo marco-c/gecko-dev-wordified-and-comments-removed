@@ -1037,6 +1037,16 @@ purge
 (
 )
 ;
+size_t
+sizeOfExcludingThis
+(
+mozilla
+:
+:
+MallocSizeOf
+mallocSizeOf
+)
+;
 }
 ;
 class
