@@ -1451,9 +1451,9 @@ RUN_PYTHON_UNIT_TESTS
 :
 =
 (
-addsuffix
--
+addprefix
 run
+-
 (
 PYTHON_UNIT_TESTS
 )
@@ -1474,9 +1474,9 @@ RUN_PYTHON_UNIT_TESTS
 RUN_PYTHON_UNIT_TESTS
 )
 :
-%
--
 run
+-
+%
 :
 %
 PYTHONDONTWRITEBYTECODE
