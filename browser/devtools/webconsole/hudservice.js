@@ -305,6 +305,11 @@ filter
 .
 "
 ;
+let
+gHudId
+=
+0
+;
 function
 HUD_SERVICE
 (
@@ -1167,11 +1172,9 @@ hudId
 hud_
 "
 +
-Date
-.
-now
-(
-)
++
++
+gHudId
 ;
 this
 .
