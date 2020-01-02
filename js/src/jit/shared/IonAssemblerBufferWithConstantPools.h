@@ -2158,7 +2158,7 @@ dest
 Asm
 :
 :
-writePoolHeader
+WritePoolHeader
 (
 poolDest
 cur
@@ -2325,7 +2325,7 @@ numEntries
 Asm
 :
 :
-writePoolFooter
+WritePoolFooter
 (
 poolDest
 cur
@@ -2628,7 +2628,7 @@ size
 Asm
 :
 :
-insertTokenIntoTag
+InsertTokenIntoTag
 (
 instSize
 inst
@@ -4263,7 +4263,7 @@ if
 Asm
 :
 :
-patchConstantPoolLoad
+PatchConstantPoolLoad
 (
 inst
 (
@@ -4787,7 +4787,7 @@ iter
 Asm
 :
 :
-insertTokenIntoTag
+InsertTokenIntoTag
 (
 pools
 [
@@ -5106,7 +5106,7 @@ nextOffset
 Asm
 :
 :
-writePoolGuard
+WritePoolGuard
 (
 branch
 this
@@ -5455,7 +5455,7 @@ magicAlign
 Asm
 :
 :
-patchConstantPoolLoad
+PatchConstantPoolLoad
 (
 inst
 (
@@ -5728,7 +5728,7 @@ curpool
 Asm
 :
 :
-retargetNearBranch
+RetargetNearBranch
 (
 i
 offset
@@ -5820,7 +5820,7 @@ nextOffset
 Asm
 :
 :
-writePoolGuard
+WritePoolGuard
 (
 branch
 this

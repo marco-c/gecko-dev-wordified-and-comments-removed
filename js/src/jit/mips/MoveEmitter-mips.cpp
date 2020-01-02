@@ -176,7 +176,7 @@ MOZ_ASSERT
 Imm16
 :
 :
-isInSignedRange
+IsInSignedRange
 (
 offset
 )

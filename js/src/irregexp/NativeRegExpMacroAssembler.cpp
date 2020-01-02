@@ -2104,7 +2104,7 @@ labelOffset
 Assembler
 :
 :
-patchDataWithValueCheck
+PatchDataWithValueCheck
 (
 CodeLocationLabel
 (

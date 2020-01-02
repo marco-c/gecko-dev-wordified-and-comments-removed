@@ -6401,7 +6401,7 @@ osiCallPointOffset_
 Assembler
 :
 :
-patchWrite_NearCallSize
+PatchWrite_NearCallSize
 (
 )
 ;

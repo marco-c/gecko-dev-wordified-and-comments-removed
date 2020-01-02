@@ -2340,7 +2340,7 @@ offset
 ;
 MOZ_ASSERT
 (
-isInRange
+IsInRange
 (
 offset
 )
@@ -2349,7 +2349,7 @@ offset
 }
 static
 bool
-isInRange
+IsInRange
 (
 int
 offset
@@ -2531,7 +2531,7 @@ offset
 ;
 MOZ_ASSERT
 (
-isInRange
+IsInRange
 (
 offset
 )
@@ -2540,7 +2540,7 @@ offset
 }
 static
 bool
-isInRange
+IsInRange
 (
 int
 offset
@@ -2670,7 +2670,7 @@ value
 }
 static
 bool
-isInSignedRange
+IsInSignedRange
 (
 int32_t
 imm
@@ -2691,7 +2691,7 @@ INT16_MAX
 }
 static
 bool
-isInUnsignedRange
+IsInUnsignedRange
 (
 uint32_t
 imm
@@ -2706,7 +2706,7 @@ UINT16_MAX
 }
 static
 Imm16
-lower
+Lower
 (
 Imm32
 imm
@@ -2725,7 +2725,7 @@ value
 }
 static
 Imm16
-upper
+Upper
 (
 Imm32
 imm
@@ -3466,7 +3466,7 @@ public
 :
 static
 uintptr_t
-getPointer
+GetPointer
 (
 uint8_t
 *
@@ -3610,7 +3610,7 @@ nullptr
 ;
 static
 void
-writeInstStatic
+WriteInstStatic
 (
 uint32_t
 x
@@ -5056,13 +5056,13 @@ flushBuffer
 }
 static
 uint32_t
-patchWrite_NearCallSize
+PatchWrite_NearCallSize
 (
 )
 ;
 static
 uint32_t
-nopSize
+NopSize
 (
 )
 {
@@ -5072,7 +5072,7 @@ return
 }
 static
 uint32_t
-extractLuiOriValue
+ExtractLuiOriValue
 (
 Instruction
 *
@@ -5084,7 +5084,7 @@ inst1
 ;
 static
 void
-updateLuiOriValue
+UpdateLuiOriValue
 (
 Instruction
 *
@@ -5098,7 +5098,7 @@ value
 ;
 static
 void
-writeLuiOriInstructions
+WriteLuiOriInstructions
 (
 Instruction
 *
@@ -5114,7 +5114,7 @@ value
 ;
 static
 void
-patchWrite_NearCall
+PatchWrite_NearCall
 (
 CodeLocationLabel
 start
@@ -5124,7 +5124,7 @@ toCall
 ;
 static
 void
-patchDataWithValueCheck
+PatchDataWithValueCheck
 (
 CodeLocationLabel
 label
@@ -5136,7 +5136,7 @@ expectedValue
 ;
 static
 void
-patchDataWithValueCheck
+PatchDataWithValueCheck
 (
 CodeLocationLabel
 label
@@ -5148,7 +5148,7 @@ expectedValue
 ;
 static
 void
-patchWrite_Imm32
+PatchWrite_Imm32
 (
 CodeLocationLabel
 label
@@ -5158,7 +5158,7 @@ imm
 ;
 static
 void
-patchInstructionImmediate
+PatchInstructionImmediate
 (
 uint8_t
 *
@@ -5169,7 +5169,7 @@ imm
 ;
 static
 uint32_t
-alignDoubleArg
+AlignDoubleArg
 (
 uint32_t
 offset
@@ -5189,7 +5189,7 @@ offset
 static
 uint8_t
 *
-nextInstruction
+NextInstruction
 (
 uint8_t
 *
@@ -5229,7 +5229,7 @@ enabled
 ;
 static
 void
-updateBoundsCheck
+UpdateBoundsCheck
 (
 uint32_t
 logHeapSize
@@ -5248,7 +5248,7 @@ rawCode
 ;
 static
 int32_t
-extractCodeLabelOffset
+ExtractCodeLabelOffset
 (
 uint8_t
 *

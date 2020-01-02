@@ -340,7 +340,7 @@ finishDataTransfer
 ;
 masm
 .
-dumpPool
+flushBuffer
 (
 )
 ;
@@ -2215,7 +2215,7 @@ r8
 3
 )
 r3
-op_add
+OpAdd
 )
 ;
 masm
@@ -2429,7 +2429,7 @@ r4
 FRAMESIZE_SHIFT
 )
 sp
-op_add
+OpAdd
 )
 ;
 masm

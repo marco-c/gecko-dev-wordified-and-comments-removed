@@ -456,18 +456,10 @@ const
 {
 JS_ASSERT
 (
+IsPowerOfTwo
 (
 alignment
-&
-(
-alignment
--
-1
 )
-)
-=
-=
-0
 )
 ;
 return
@@ -898,7 +890,6 @@ end_off
 =
 0
 )
-{
 return
 (
 Inst
@@ -914,7 +905,6 @@ instructions
 end_off
 ]
 ;
-}
 bool
 used_finger
 =

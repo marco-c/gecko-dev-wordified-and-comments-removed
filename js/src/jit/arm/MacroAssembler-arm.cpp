@@ -1138,7 +1138,7 @@ both
 Imm8
 :
 :
-encodeTwoImms
+EncodeTwoImms
 (
 imm
 .
@@ -1286,7 +1286,7 @@ if
 negOp
 !
 =
-op_invalid
+OpInvalid
 &
 &
 !
@@ -1327,13 +1327,13 @@ NoSetCond
 op
 =
 =
-op_mov
+OpMov
 |
 |
 op
 =
 =
-op_mvn
+OpMvn
 )
 )
 {
@@ -1342,7 +1342,7 @@ if
 op
 =
 =
-op_mov
+OpMov
 &
 &
 (
@@ -1388,7 +1388,7 @@ if
 op
 =
 =
-op_mvn
+OpMvn
 &
 &
 (
@@ -1438,7 +1438,7 @@ if
 op
 =
 =
-op_mvn
+OpMvn
 )
 imm
 .
@@ -1499,7 +1499,7 @@ if
 negOp
 !
 =
-op_invalid
+OpInvalid
 &
 &
 alu_dbl
@@ -1570,7 +1570,7 @@ if
 op
 =
 =
-op_mov
+OpMov
 )
 {
 as_Imm32Pool
@@ -1965,7 +1965,7 @@ ma_alu
 InvalidReg
 imm
 dest
-op_mov
+OpMov
 sc
 c
 )
@@ -2000,7 +2000,7 @@ imm
 value
 )
 dest
-op_mov
+OpMov
 sc
 c
 )
@@ -2352,7 +2352,7 @@ ma_alu
 InvalidReg
 imm
 dest
-op_mvn
+OpMvn
 sc
 c
 )
@@ -2385,7 +2385,7 @@ O2Reg
 (
 src1
 )
-op_mvn
+OpMvn
 sc
 c
 )
@@ -2508,7 +2508,7 @@ ma_alu
 dest
 imm
 dest
-op_and
+OpAnd
 sc
 c
 )
@@ -2540,7 +2540,7 @@ ma_alu
 src1
 imm
 dest
-op_and
+OpAnd
 sc
 c
 )
@@ -2570,7 +2570,7 @@ ma_alu
 dest
 imm
 dest
-op_bic
+OpBic
 sc
 c
 )
@@ -2663,7 +2663,7 @@ ma_alu
 dest
 imm
 dest
-op_eor
+OpEor
 sc
 c
 )
@@ -2695,7 +2695,7 @@ ma_alu
 src1
 imm
 dest
-op_eor
+OpEor
 sc
 c
 )
@@ -2788,7 +2788,7 @@ ma_alu
 dest
 imm
 dest
-op_orr
+OpOrr
 sc
 c
 )
@@ -2820,7 +2820,7 @@ ma_alu
 src1
 imm
 dest
-op_orr
+OpOrr
 sc
 c
 )
@@ -2847,7 +2847,7 @@ ma_alu
 dest
 imm
 dest
-op_adc
+OpAdc
 sc
 c
 )
@@ -2877,7 +2877,7 @@ O2Reg
 (
 src
 )
-op_adc
+OpAdc
 sc
 c
 )
@@ -2909,7 +2909,7 @@ O2Reg
 (
 src2
 )
-op_adc
+OpAdc
 sc
 c
 )
@@ -2936,7 +2936,7 @@ ma_alu
 dest
 imm
 dest
-op_add
+OpAdd
 sc
 c
 )
@@ -2966,7 +2966,7 @@ O2Reg
 src1
 )
 dest
-op_add
+OpAdd
 sc
 c
 )
@@ -2998,7 +2998,7 @@ O2Reg
 (
 src2
 )
-op_add
+OpAdd
 sc
 c
 )
@@ -3027,7 +3027,7 @@ ma_alu
 src1
 op
 dest
-op_add
+OpAdd
 sc
 c
 )
@@ -3056,7 +3056,7 @@ ma_alu
 src1
 op
 dest
-op_add
+OpAdd
 sc
 c
 )
@@ -3083,7 +3083,7 @@ ma_alu
 dest
 imm
 dest
-op_sbc
+OpSbc
 sc
 c
 )
@@ -3113,7 +3113,7 @@ O2Reg
 (
 src1
 )
-op_sbc
+OpSbc
 sc
 c
 )
@@ -3145,7 +3145,7 @@ O2Reg
 (
 src2
 )
-op_sbc
+OpSbc
 sc
 c
 )
@@ -3172,7 +3172,7 @@ ma_alu
 dest
 imm
 dest
-op_sub
+OpSub
 sc
 c
 )
@@ -3202,7 +3202,7 @@ Operand
 src1
 )
 dest
-op_sub
+OpSub
 sc
 c
 )
@@ -3234,7 +3234,7 @@ Operand
 src2
 )
 dest
-op_sub
+OpSub
 sc
 c
 )
@@ -3263,7 +3263,7 @@ ma_alu
 src1
 op
 dest
-op_sub
+OpSub
 sc
 c
 )
@@ -3292,7 +3292,7 @@ ma_alu
 src1
 op
 dest
-op_sub
+OpSub
 sc
 c
 )
@@ -3319,7 +3319,7 @@ ma_alu
 dest
 imm
 dest
-op_rsb
+OpRsb
 sc
 c
 )
@@ -3349,7 +3349,7 @@ O2Reg
 (
 src1
 )
-op_add
+OpAdd
 sc
 c
 )
@@ -3381,7 +3381,7 @@ O2Reg
 (
 src2
 )
-op_rsb
+OpRsb
 sc
 c
 )
@@ -3410,7 +3410,7 @@ ma_alu
 src1
 op2
 dest
-op_rsb
+OpRsb
 sc
 c
 )
@@ -3437,7 +3437,7 @@ ma_alu
 dest
 imm
 dest
-op_rsc
+OpRsc
 sc
 c
 )
@@ -3467,7 +3467,7 @@ O2Reg
 (
 src1
 )
-op_rsc
+OpRsc
 sc
 c
 )
@@ -3499,7 +3499,7 @@ O2Reg
 (
 src2
 )
-op_rsc
+OpRsc
 sc
 c
 )
@@ -3524,7 +3524,7 @@ ma_alu
 src1
 imm
 InvalidReg
-op_cmn
+OpCmn
 SetCond
 c
 )
@@ -3552,7 +3552,7 @@ O2Reg
 (
 src1
 )
-op_cmn
+OpCmn
 SetCond
 c
 )
@@ -3600,7 +3600,7 @@ ma_alu
 src1
 imm
 InvalidReg
-op_cmp
+OpCmp
 SetCond
 c
 )
@@ -3788,7 +3788,7 @@ ma_alu
 src1
 imm
 InvalidReg
-op_teq
+OpTeq
 SetCond
 c
 )
@@ -3864,7 +3864,7 @@ ma_alu
 src1
 imm
 InvalidReg
-op_tst
+OpTst
 SetCond
 c
 )
@@ -5203,7 +5203,7 @@ ma_alu
 rn
 offset
 rn
-op_add
+OpAdd
 )
 ;
 return
@@ -6838,7 +6838,7 @@ dest
 VFPImm
 :
 :
-one
+One
 cc
 )
 ;
@@ -6961,7 +6961,7 @@ vd
 VFPImm
 :
 :
-one
+One
 cc
 )
 ;
@@ -15724,7 +15724,7 @@ index
 shift
 )
 ScratchRegister
-op_add
+OpAdd
 )
 ;
 ma_ldr
@@ -15790,7 +15790,7 @@ index
 shift
 )
 ScratchRegister
-op_add
+OpAdd
 )
 ;
 ma_vldr
@@ -16036,7 +16036,7 @@ address
 scale
 )
 scratch
-op_add
+OpAdd
 NoSetCond
 )
 ;
@@ -16483,7 +16483,7 @@ dest
 scale
 )
 ScratchRegister
-op_add
+OpAdd
 )
 ;
 ma_strd
@@ -16529,7 +16529,7 @@ dest
 scale
 )
 ScratchRegister
-op_add
+OpAdd
 )
 ;
 storeValue
@@ -16672,7 +16672,7 @@ addr
 scale
 )
 ScratchRegister
-op_add
+OpAdd
 )
 ;
 ma_ldrd
@@ -16718,7 +16718,7 @@ addr
 scale
 )
 ScratchRegister
-op_add
+OpAdd
 )
 ;
 loadValue

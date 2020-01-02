@@ -406,7 +406,7 @@ pc
 ;
 masm
 .
-dumpPool
+flushBuffer
 (
 )
 ;
@@ -9826,7 +9826,7 @@ dest
 2
 )
 dest
-op_orr
+OpOrr
 )
 ;
 masm
@@ -9982,7 +9982,7 @@ dest
 2
 )
 dest
-op_orr
+OpOrr
 )
 ;
 masm
@@ -10389,7 +10389,7 @@ i
 Assembler
 :
 :
-nopSize
+NopSize
 (
 )
 )

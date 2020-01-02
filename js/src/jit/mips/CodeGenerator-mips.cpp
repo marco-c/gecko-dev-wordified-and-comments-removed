@@ -11194,7 +11194,7 @@ i
 Assembler
 :
 :
-nopSize
+NopSize
 (
 )
 )

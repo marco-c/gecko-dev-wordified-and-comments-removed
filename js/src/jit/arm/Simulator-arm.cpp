@@ -16003,7 +16003,7 @@ opcodeField
 )
 {
 case
-op_and
+OpAnd
 :
 alu_out
 =
@@ -16041,7 +16041,7 @@ shifter_carry_out
 break
 ;
 case
-op_eor
+OpEor
 :
 alu_out
 =
@@ -16079,7 +16079,7 @@ shifter_carry_out
 break
 ;
 case
-op_sub
+OpSub
 :
 alu_out
 =
@@ -16133,7 +16133,7 @@ false
 break
 ;
 case
-op_rsb
+OpRsb
 :
 alu_out
 =
@@ -16187,7 +16187,7 @@ false
 break
 ;
 case
-op_add
+OpAdd
 :
 alu_out
 =
@@ -16240,7 +16240,7 @@ true
 break
 ;
 case
-op_adc
+OpAdc
 :
 alu_out
 =
@@ -16300,10 +16300,10 @@ true
 break
 ;
 case
-op_sbc
+OpSbc
 :
 case
-op_rsc
+OpRsc
 :
 MOZ_CRASH
 (
@@ -16312,7 +16312,7 @@ MOZ_CRASH
 break
 ;
 case
-op_tst
+OpTst
 :
 if
 (
@@ -16362,7 +16362,7 @@ alu_out
 break
 ;
 case
-op_teq
+OpTeq
 :
 if
 (
@@ -16401,7 +16401,7 @@ MOZ_CRASH
 break
 ;
 case
-op_cmp
+OpCmp
 :
 if
 (
@@ -16481,7 +16481,7 @@ alu_out
 break
 ;
 case
-op_cmn
+OpCmn
 :
 if
 (
@@ -16535,7 +16535,7 @@ MOZ_CRASH
 break
 ;
 case
-op_orr
+OpOrr
 :
 alu_out
 =
@@ -16573,7 +16573,7 @@ shifter_carry_out
 break
 ;
 case
-op_mov
+OpMov
 :
 alu_out
 =
@@ -16609,7 +16609,7 @@ shifter_carry_out
 break
 ;
 case
-op_bic
+OpBic
 :
 alu_out
 =
@@ -16648,7 +16648,7 @@ shifter_carry_out
 break
 ;
 case
-op_mvn
+OpMvn
 :
 alu_out
 =

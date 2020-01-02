@@ -1213,7 +1213,7 @@ condition
 }
 static
 void
-staticAsserts
+StaticAsserts
 (
 )
 {
@@ -1374,7 +1374,7 @@ rawCode
 ;
 static
 int32_t
-extractCodeLabelOffset
+ExtractCodeLabelOffset
 (
 uint8_t
 *
@@ -11067,7 +11067,7 @@ flushBuffer
 }
 static
 size_t
-patchWrite_NearCallSize
+PatchWrite_NearCallSize
 (
 )
 {
@@ -11077,7 +11077,7 @@ return
 }
 static
 uintptr_t
-getPointer
+GetPointer
 (
 uint8_t
 *
@@ -11105,7 +11105,7 @@ ptr
 }
 static
 void
-patchWrite_NearCall
+PatchWrite_NearCall
 (
 CodeLocationLabel
 startLabel
@@ -11135,7 +11135,7 @@ target
 -
 startLabel
 -
-patchWrite_NearCallSize
+PatchWrite_NearCallSize
 (
 )
 ;
@@ -11168,7 +11168,7 @@ offset
 }
 static
 void
-patchWrite_Imm32
+PatchWrite_Imm32
 (
 CodeLocationLabel
 dataLabel
@@ -11198,7 +11198,7 @@ value
 }
 static
 void
-patchDataWithValueCheck
+PatchDataWithValueCheck
 (
 CodeLocationLabel
 data
@@ -11253,7 +11253,7 @@ value
 }
 static
 void
-patchDataWithValueCheck
+PatchDataWithValueCheck
 (
 CodeLocationLabel
 data
@@ -11263,7 +11263,7 @@ ImmPtr
 expectedData
 )
 {
-patchDataWithValueCheck
+PatchDataWithValueCheck
 (
 data
 PatchedImmPtr
@@ -11283,7 +11283,7 @@ value
 }
 static
 void
-patchInstructionImmediate
+PatchInstructionImmediate
 (
 uint8_t
 *
@@ -11303,7 +11303,7 @@ Unused
 }
 static
 uint32_t
-nopSize
+NopSize
 (
 )
 {
@@ -11314,7 +11314,7 @@ return
 static
 uint8_t
 *
-nextInstruction
+NextInstruction
 (
 uint8_t
 *

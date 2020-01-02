@@ -4851,7 +4851,7 @@ fixup
 this
 )
 ;
-patchDataWithValueCheck
+PatchDataWithValueCheck
 (
 CodeLocationLabel
 (

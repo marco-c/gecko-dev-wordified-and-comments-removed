@@ -7161,7 +7161,7 @@ dest
 scale
 )
 ScratchRegister
-op_add
+OpAdd
 )
 ;
 storeValue
@@ -7381,7 +7381,7 @@ dest
 scale
 )
 ScratchRegister
-op_add
+OpAdd
 )
 ;
 storeValue
@@ -9925,7 +9925,7 @@ address
 scale
 )
 dest
-op_add
+OpAdd
 NoSetCond
 )
 ;
