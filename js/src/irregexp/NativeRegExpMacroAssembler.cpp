@@ -1745,10 +1745,10 @@ runtime
 temp1
 )
 ;
-RegisterSet
+GeneralRegisterSet
 volatileRegs
 =
-RegisterSet
+GeneralRegisterSet
 :
 :
 Volatile
@@ -3618,10 +3618,10 @@ mode_
 JSCHAR
 )
 ;
-RegisterSet
+GeneralRegisterSet
 volatileRegs
 =
-RegisterSet
+GeneralRegisterSet
 :
 :
 Volatile
