@@ -14806,6 +14806,15 @@ mOnLine
 NS_IsOffline
 (
 )
+&
+&
+!
+NS_IsAppOffline
+(
+aLoadInfo
+.
+mPrincipal
+)
 ;
 }
 }
