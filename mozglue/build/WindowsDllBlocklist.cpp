@@ -2695,7 +2695,7 @@ ok
 =
 NtDllIntercept
 .
-AddHook
+AddDetour
 (
 "
 LdrLoadDll
