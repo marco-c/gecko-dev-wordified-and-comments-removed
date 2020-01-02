@@ -508,12 +508,7 @@ setupGeckoEnvironment
 (
 activity
 pluginDirs
-GeckoProfile
-.
-get
-(
 app
-)
 .
 getFilesDir
 (
