@@ -7095,9 +7095,10 @@ mBackfaceVisibility
 uint8_t
 mTransformStyle
 ;
-const
-nsCSSValueList
-*
+nsRefPtr
+<
+nsCSSValueSharedList
+>
 mSpecifiedTransform
 ;
 nsStyleCoord

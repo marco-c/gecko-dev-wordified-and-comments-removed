@@ -9583,8 +9583,7 @@ aBoundsOverride
 ;
 FrameTransformProperties
 (
-const
-nsCSSValueList
+nsCSSValueSharedList
 *
 aTransformList
 const
@@ -9626,9 +9625,10 @@ nsIFrame
 *
 mFrame
 ;
-const
-nsCSSValueList
-*
+nsRefPtr
+<
+nsCSSValueSharedList
+>
 mTransformList
 ;
 const
