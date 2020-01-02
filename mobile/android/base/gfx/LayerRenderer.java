@@ -125,13 +125,6 @@ android
 .
 graphics
 .
-Point
-;
-import
-android
-.
-graphics
-.
 PointF
 ;
 import
