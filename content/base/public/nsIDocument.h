@@ -4602,6 +4602,17 @@ rv
 =
 0
 ;
+virtual
+void
+UseRegistryFromDocument
+(
+nsIDocument
+*
+aDocument
+)
+=
+0
+;
 already_AddRefed
 <
 nsContentList
