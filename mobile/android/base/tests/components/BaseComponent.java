@@ -54,7 +54,7 @@ abstract
 class
 BaseComponent
 {
-private
+protected
 final
 UITestContext
 mTestContext
@@ -109,16 +109,6 @@ mTestContext
 getActions
 (
 )
-;
-}
-protected
-UITestContext
-getTestContext
-(
-)
-{
-return
-mTestContext
 ;
 }
 }
