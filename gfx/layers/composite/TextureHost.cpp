@@ -982,6 +982,13 @@ Name
 this
 )
 ;
+if
+(
+Lock
+(
+)
+)
+{
 AppendToString
 (
 aTo
@@ -1014,6 +1021,11 @@ format
 "
 )
 ;
+Unlock
+(
+)
+;
+}
 AppendToString
 (
 aTo
