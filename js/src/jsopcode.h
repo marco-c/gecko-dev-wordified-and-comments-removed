@@ -14,6 +14,13 @@ h
 #
 include
 "
+jstypes
+.
+h
+"
+#
+include
+"
 NamespaceImports
 .
 h

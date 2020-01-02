@@ -39,6 +39,13 @@ limits
 #
 include
 "
+jstypes
+.
+h
+"
+#
+include
+"
 js
 /
 Anchor

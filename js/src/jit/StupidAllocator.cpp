@@ -7,6 +7,13 @@ StupidAllocator
 .
 h
 "
+#
+include
+"
+jstypes
+.
+h
+"
 using
 namespace
 js
