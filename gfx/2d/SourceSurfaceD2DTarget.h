@@ -105,6 +105,15 @@ GetDataSurface
 (
 )
 ;
+virtual
+void
+*
+GetNativeSurface
+(
+NativeSurfaceType
+aType
+)
+;
 DrawTargetD2D
 *
 GetDT
