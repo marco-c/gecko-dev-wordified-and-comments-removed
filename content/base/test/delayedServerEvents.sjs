@@ -22,7 +22,11 @@ strings_to_send
 =
 [
 "
-data
+retry
+:
+999999999
+\
+ndata
 \
 r
 \
