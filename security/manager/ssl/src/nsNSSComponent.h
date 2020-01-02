@@ -750,6 +750,8 @@ CleanupIdentityInfo
 void
 setValidationOptions
 (
+bool
+isInitialSetting
 )
 ;
 nsresult
