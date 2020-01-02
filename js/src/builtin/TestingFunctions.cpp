@@ -6017,9 +6017,8 @@ rval
 (
 )
 .
-setBoolean
+setUndefined
 (
-true
 )
 ;
 return
