@@ -5942,7 +5942,7 @@ isUsingFlexGrow
 )
 {
 float
-runningFlexWeightSum
+flexWeightSum
 =
 0
 .
@@ -6012,7 +6012,7 @@ negative
 "
 )
 ;
-runningFlexWeightSum
+flexWeightSum
 +
 =
 curFlexWeight
@@ -6021,7 +6021,7 @@ if
 (
 NS_finite
 (
-runningFlexWeightSum
+flexWeightSum
 )
 )
 {
@@ -6055,7 +6055,7 @@ SetShareOfFlexWeightSoFar
 (
 curFlexWeight
 /
-runningFlexWeightSum
+flexWeightSum
 )
 ;
 }
@@ -6093,7 +6093,7 @@ numItemsWithLargestFlexWeight
 }
 if
 (
-runningFlexWeightSum
+flexWeightSum
 !
 =
 0
@@ -6161,7 +6161,7 @@ if
 (
 NS_finite
 (
-runningFlexWeightSum
+flexWeightSum
 )
 )
 {
