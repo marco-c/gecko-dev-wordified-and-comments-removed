@@ -576,6 +576,9 @@ JS_ASSERT
 isCompiled
 (
 )
+|
+|
+canStringMatch
 )
 ;
 return

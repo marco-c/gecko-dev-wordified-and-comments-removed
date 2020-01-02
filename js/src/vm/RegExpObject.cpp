@@ -2589,6 +2589,12 @@ matchOnly
 if
 (
 !
+ignoreCase
+(
+)
+&
+&
+!
 StringHasRegExpMetaChars
 (
 pattern
@@ -2607,6 +2613,10 @@ length
 canStringMatch
 =
 true
+;
+parenCount
+=
+0
 ;
 return
 true
