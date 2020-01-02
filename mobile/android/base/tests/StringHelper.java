@@ -66,7 +66,7 @@ about
 firefox
 "
 "
-http
+https
 :
 /
 /
