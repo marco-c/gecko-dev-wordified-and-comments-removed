@@ -3903,9 +3903,7 @@ this
 .
 _pc
 .
-getLocalStreams
-(
-)
+localStreams
 .
 length
 this
@@ -3937,9 +3935,7 @@ this
 .
 _pc
 .
-getRemoteStreams
-(
-)
+remoteStreams
 .
 length
 1
