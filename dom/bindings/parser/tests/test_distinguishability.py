@@ -1516,6 +1516,46 @@ otherObjects
 dates
 )
     
+mozMaps
+=
+[
+"
+MozMap
+<
+object
+>
+"
+"
+MozMap
+<
+Dict
+>
+"
+"
+MozMap
+<
+long
+>
+"
+]
+    
+sequences
+=
+[
+"
+sequence
+<
+long
+>
+"
+"
+sequence
+<
+short
+>
+"
+]
+    
 data
 =
 dict
@@ -1802,6 +1842,8 @@ long
 >
 "
 nonUserObjects
++
+mozMaps
 )
     
 setDistinguishable
@@ -1813,6 +1855,8 @@ short
 >
 "
 nonUserObjects
++
+mozMaps
 )
     
 setDistinguishable
@@ -1824,6 +1868,8 @@ object
 >
 "
 nonUserObjects
++
+sequences
 )
     
 setDistinguishable
@@ -1835,6 +1881,8 @@ Dict
 >
 "
 nonUserObjects
++
+sequences
 )
     
 setDistinguishable
@@ -1846,6 +1894,8 @@ long
 >
 "
 nonUserObjects
++
+sequences
 )
     
 setDistinguishable

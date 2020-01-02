@@ -10030,6 +10030,12 @@ other
 isNonCallbackInterface
 (
 )
+or
+other
+.
+isMozMap
+(
+)
 )
     
 def
@@ -10316,6 +10322,12 @@ or
 other
 .
 isNonCallbackInterface
+(
+)
+or
+other
+.
+isSequence
 (
 )
 )
