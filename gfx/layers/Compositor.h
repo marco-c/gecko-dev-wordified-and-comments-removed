@@ -706,6 +706,16 @@ true
 ;
 }
 virtual
+bool
+Ready
+(
+)
+{
+return
+true
+;
+}
+virtual
 nsIWidget
 *
 GetWidget
