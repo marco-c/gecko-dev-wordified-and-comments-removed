@@ -6549,6 +6549,12 @@ outputHandler
 setProcess
 (
 proc
+if
+interactive
+else
+proc
+.
+proc
 timeout
 )
     
@@ -6577,18 +6583,33 @@ process_handler
 =
 None
     
+if
+timeout
+is
+None
+:
+      
+didTimeout
+=
+False
+    
+else
+:
+      
+didTimeout
+=
+proc
+.
+didTimeout
+    
 outputHandler
 .
 finish
 (
-proc
-.
 didTimeout
 )
     
 if
-proc
-.
 didTimeout
 :
       
@@ -7797,12 +7818,6 @@ None
 )
 :
       
-self
-.
-proc
-=
-proc
-      
 if
 self
 .
@@ -7823,8 +7838,6 @@ stackFixerCommand
                                                            
 stdin
 =
-proc
-.
 proc
 .
 stdout
