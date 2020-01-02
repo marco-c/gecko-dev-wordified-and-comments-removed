@@ -231,7 +231,7 @@ peer_
 =
 peer
 ;
-SetState
+TL_SET_STATE
 (
 TS_OPEN
 )

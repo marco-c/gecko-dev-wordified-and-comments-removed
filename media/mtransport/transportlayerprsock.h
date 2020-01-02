@@ -344,7 +344,7 @@ PRFileDesc
 fd
 )
 {
-SetState
+TL_SET_STATE
 (
 TS_CLOSED
 )

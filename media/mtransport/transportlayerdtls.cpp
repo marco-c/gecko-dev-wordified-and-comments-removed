@@ -1383,7 +1383,7 @@ Setup
 )
 )
 {
-SetState
+TL_SET_STATE
 (
 TS_ERROR
 )
@@ -2357,7 +2357,7 @@ ours
 "
 )
 ;
-SetState
+TL_SET_STATE
 (
 TS_ERROR
 )
@@ -2401,7 +2401,7 @@ forbidden
 "
 )
 ;
-SetState
+TL_SET_STATE
 (
 TS_ERROR
 )
@@ -2473,7 +2473,7 @@ closed
 "
 )
 ;
-SetState
+TL_SET_STATE
 (
 TS_CLOSED
 )
@@ -2498,7 +2498,7 @@ error
 "
 )
 ;
-SetState
+TL_SET_STATE
 (
 TS_ERROR
 )
@@ -2515,7 +2515,7 @@ Handshake
 (
 )
 {
-SetState
+TL_SET_STATE
 (
 TS_CONNECTING
 )
@@ -2588,7 +2588,7 @@ occurred
 "
 )
 ;
-SetState
+TL_SET_STATE
 (
 TS_ERROR
 )
@@ -2596,7 +2596,7 @@ TS_ERROR
 return
 ;
 }
-SetState
+TL_SET_STATE
 (
 TS_OPEN
 )
@@ -2640,7 +2640,7 @@ message
 "
 )
 ;
-SetState
+TL_SET_STATE
 (
 TS_ERROR
 )
@@ -2777,7 +2777,7 @@ error
 err
 )
 ;
-SetState
+TL_SET_STATE
 (
 TS_ERROR
 )
@@ -2958,7 +2958,7 @@ rv
 0
 )
 {
-SetState
+TL_SET_STATE
 (
 TS_CLOSED
 )
@@ -3012,7 +3012,7 @@ Error
 err
 )
 ;
-SetState
+TL_SET_STATE
 (
 TS_ERROR
 )
@@ -3127,7 +3127,7 @@ rv
 0
 )
 {
-SetState
+TL_SET_STATE
 (
 TS_CLOSED
 )
@@ -3183,7 +3183,7 @@ Error
 err
 )
 ;
-SetState
+TL_SET_STATE
 (
 TS_ERROR
 )
