@@ -6959,7 +6959,7 @@ hasSourceData
 )
 )
 ;
-SourceDataCache
+UncompressedSourceCache
 :
 :
 AutoHoldEntry

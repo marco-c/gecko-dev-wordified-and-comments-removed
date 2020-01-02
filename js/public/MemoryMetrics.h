@@ -1249,7 +1249,14 @@ macro
 (
 _
 _
-sourceDataCache
+uncompressedSourceCache
+)
+\
+macro
+(
+_
+_
+compressedSourceSet
 )
 \
 macro

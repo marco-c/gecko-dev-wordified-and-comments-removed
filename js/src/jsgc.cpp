@@ -12737,7 +12737,7 @@ purge
 rt
 -
 >
-sourceDataCache
+uncompressedSourceCache
 .
 purge
 (
