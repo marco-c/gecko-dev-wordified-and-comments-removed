@@ -119,10 +119,6 @@ Shutdown
 (
 )
 ;
-mThread
-=
-nullptr
-;
 }
 }
 return

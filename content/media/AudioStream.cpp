@@ -2367,10 +2367,6 @@ Shutdown
 (
 )
 ;
-mThread
-=
-nullptr
-;
 return
 NS_OK
 ;
