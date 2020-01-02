@@ -313,6 +313,12 @@ mFoundEditable
 ;
 nsCOMPtr
 <
+nsIDOMRange
+>
+mFoundRange
+;
+nsCOMPtr
+<
 nsIDOMWindow
 >
 mCurrentWindow
