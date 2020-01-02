@@ -101,13 +101,3 @@ TEST_DIRS
 browser
 '
 ]
-MOCHITEST_CHROME_MANIFESTS
-+
-=
-[
-'
-chrome
-.
-ini
-'
-]

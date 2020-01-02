@@ -54,3 +54,17 @@ MPL
 0
 /
 .
+MOCHITEST_CHROME_FILES
+=
+\
+test_webgl_debug_renderer_info
+.
+html
+\
+nonchrome_webgl_debug_renderer_info
+.
+html
+\
+(
+NULL
+)

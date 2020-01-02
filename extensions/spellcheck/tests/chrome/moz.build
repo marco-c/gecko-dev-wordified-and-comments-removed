@@ -104,13 +104,3 @@ base
 map
 '
 ]
-MOCHITEST_CHROME_MANIFESTS
-+
-=
-[
-'
-chrome
-.
-ini
-'
-]

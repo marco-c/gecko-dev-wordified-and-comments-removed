@@ -123,13 +123,3 @@ mochitest
 ini
 '
 ]
-MOCHITEST_CHROME_MANIFESTS
-+
-=
-[
-'
-chrome
-.
-ini
-'
-]
