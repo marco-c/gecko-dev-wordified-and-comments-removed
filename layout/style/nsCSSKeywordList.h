@@ -1386,6 +1386,13 @@ CSS_KEY
 (
 cjk
 -
+decimal
+cjk_decimal
+)
+CSS_KEY
+(
+cjk
+-
 ideographic
 cjk_ideographic
 )
