@@ -3453,6 +3453,9 @@ checkRequestDepth
 endif
 #
 endif
+bool
+gcInitialized
+;
 js
 :
 :
