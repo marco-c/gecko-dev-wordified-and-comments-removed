@@ -846,7 +846,7 @@ aDesiredSize
 const
 nsHTMLReflowState
 &
-aReflowState
+aButtonReflowState
 nsIFrame
 *
 aFirstKid
@@ -860,7 +860,7 @@ aStatus
 nsSize
 availSize
 (
-aReflowState
+aButtonReflowState
 .
 ComputedWidth
 (
@@ -886,7 +886,7 @@ aFocusPadding
 .
 left
 +
-aReflowState
+aButtonReflowState
 .
 mComputedBorderPadding
 .
@@ -897,12 +897,12 @@ extrawidth
 =
 GetMinWidth
 (
-aReflowState
+aButtonReflowState
 .
 rendContext
 )
 -
-aReflowState
+aButtonReflowState
 .
 ComputedWidth
 (
@@ -953,7 +953,7 @@ std
 min
 (
 extraleft
-aReflowState
+aButtonReflowState
 .
 mComputedPadding
 .
@@ -968,7 +968,7 @@ std
 min
 (
 extraright
-aReflowState
+aButtonReflowState
 .
 mComputedPadding
 .
@@ -1006,10 +1006,10 @@ width
 )
 ;
 nsHTMLReflowState
-reflowState
+contentsReflowState
 (
 aPresContext
-aReflowState
+aButtonReflowState
 aFirstKid
 availSize
 )
@@ -1019,13 +1019,13 @@ ReflowChild
 aFirstKid
 aPresContext
 aDesiredSize
-reflowState
+contentsReflowState
 xoffset
 aFocusPadding
 .
 top
 +
-aReflowState
+aButtonReflowState
 .
 mComputedBorderPadding
 .
@@ -1041,7 +1041,7 @@ actualDesiredHeight
 ;
 if
 (
-aReflowState
+aButtonReflowState
 .
 ComputedHeight
 (
@@ -1053,7 +1053,7 @@ NS_INTRINSICSIZE
 {
 actualDesiredHeight
 =
-aReflowState
+aButtonReflowState
 .
 ComputedHeight
 (
@@ -1079,10 +1079,10 @@ actualDesiredHeight
 NS_CSS_MINMAX
 (
 actualDesiredHeight
-aReflowState
+aButtonReflowState
 .
 mComputedMinHeight
-aReflowState
+aButtonReflowState
 .
 mComputedMaxHeight
 )
@@ -1124,7 +1124,7 @@ FinishReflowChild
 aFirstKid
 aPresContext
 &
-reflowState
+contentsReflowState
 aDesiredSize
 xoffset
 yoff
@@ -1133,7 +1133,7 @@ aFocusPadding
 .
 top
 +
-aReflowState
+aButtonReflowState
 .
 mComputedBorderPadding
 .
