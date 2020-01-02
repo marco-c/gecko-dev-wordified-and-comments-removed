@@ -3152,7 +3152,9 @@ runtime
 >
 gc
 .
-bytesAllocated
+usage
+.
+gcBytes
 (
 )
 ;

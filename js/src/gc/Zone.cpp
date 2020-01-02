@@ -140,9 +140,15 @@ gcMallocGCTriggered
 (
 false
 )
-gcBytes
+usage
 (
-0
+&
+rt
+-
+>
+gc
+.
+usage
 )
 gcTriggerBytes
 (

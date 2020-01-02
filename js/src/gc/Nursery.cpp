@@ -4492,7 +4492,9 @@ rt
 >
 gc
 .
-bytesAllocated
+usage
+.
+gcBytes
 (
 )
 >
