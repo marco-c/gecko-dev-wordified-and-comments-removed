@@ -568,6 +568,12 @@ False
         
 self
 .
+allow_overrecursed
+=
+False
+        
+self
+.
 valgrind
 =
 False
@@ -633,6 +639,14 @@ allow_oom
 self
 .
 allow_oom
+        
+t
+.
+allow_overrecursed
+=
+self
+.
+allow_overrecursed
         
 t
 .
@@ -985,6 +999,23 @@ oom
 test
 .
 allow_oom
+=
+True
+                    
+elif
+name
+=
+=
+'
+allow
+-
+overrecursed
+'
+:
+                        
+test
+.
+allow_overrecursed
 =
 True
                     
@@ -2631,7 +2662,7 @@ rc
 return
 True
         
-return
+if
 test
 .
 allow_oom
@@ -2651,6 +2682,38 @@ failure
 not
 in
 err
+:
+            
+return
+True
+        
+if
+test
+.
+allow_overrecursed
+and
+'
+too
+much
+recursion
+'
+in
+err
+and
+'
+Assertion
+failure
+'
+not
+in
+err
+:
+            
+return
+True
+        
+return
+False
     
 return
 True
