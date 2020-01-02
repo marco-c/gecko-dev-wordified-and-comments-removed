@@ -11288,7 +11288,6 @@ interrupt
 void
 *
 )
-&
 GetIonContext
 (
 )
@@ -11297,7 +11296,9 @@ GetIonContext
 runtime
 -
 >
-interrupt
+addressOfInterrupt
+(
+)
 ;
 masm
 .

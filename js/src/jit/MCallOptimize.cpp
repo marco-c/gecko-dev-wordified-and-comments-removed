@@ -1193,6 +1193,7 @@ type
 return
 InliningStatus_NotInlined
 ;
+const
 MathCache
 *
 cache
@@ -1200,7 +1201,7 @@ cache
 compartment
 -
 >
-runtimeFromAnyThread
+runtime
 (
 )
 -
@@ -7587,6 +7588,11 @@ clone
 ExistingCloneFunctionAtCallsite
 (
 compartment
+-
+>
+callsiteClones
+(
+)
 target
 script
 (
@@ -7726,6 +7732,11 @@ clone
 ExistingCloneFunctionAtCallsite
 (
 compartment
+-
+>
+callsiteClones
+(
+)
 target
 script
 (

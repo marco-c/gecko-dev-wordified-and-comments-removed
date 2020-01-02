@@ -745,9 +745,10 @@ TypeName
 (
 JSType
 type
-JSRuntime
-*
-rt
+const
+JSAtomState
+&
+names
 )
 {
 JS_ASSERT
@@ -793,10 +794,7 @@ JSTYPE_VOID
 return
 (
 &
-rt
--
->
-atomState
+names
 .
 undefined
 )

@@ -16824,7 +16824,6 @@ dest
 uint8_t
 *
 )
-&
 GetIonContext
 (
 )
@@ -16833,9 +16832,9 @@ GetIonContext
 runtime
 -
 >
-mainThread
-.
-ionTop
+addressOfIonTop
+(
+)
 ;
 movePtr
 (
