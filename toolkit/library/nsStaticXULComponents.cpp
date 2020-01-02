@@ -856,6 +856,10 @@ ifdef
 MOZ_WIDGET_GONK
 MODULE
 (
+WifiCertServiceModule
+)
+MODULE
+(
 WifiProxyServiceModule
 )
 MODULE
@@ -898,6 +902,10 @@ XUL_MODULES
 #
 ifdef
 MOZ_WIDGET_GONK
+MODULE
+(
+WifiCertServiceModule
+)
 MODULE
 (
 WifiProxyServiceModule

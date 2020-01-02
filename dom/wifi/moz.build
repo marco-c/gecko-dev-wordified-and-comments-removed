@@ -215,6 +215,11 @@ SOURCES
 =
 [
 '
+WifiCertService
+.
+cpp
+'
+'
 WifiProxyService
 .
 cpp
