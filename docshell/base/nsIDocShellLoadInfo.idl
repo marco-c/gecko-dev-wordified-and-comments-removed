@@ -447,7 +447,7 @@ loadReplaceBypassCache
 ;
 const
 long
-loadMixedContent
+loadReloadMixedContent
 =
 19
 ;

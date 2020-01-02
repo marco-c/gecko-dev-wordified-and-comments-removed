@@ -5247,7 +5247,7 @@ case
 nsIDocShellLoadInfo
 :
 :
-loadMixedContent
+loadReloadMixedContent
 :
 loadType
 =
@@ -5533,7 +5533,7 @@ docShellLoadType
 nsIDocShellLoadInfo
 :
 :
-loadMixedContent
+loadReloadMixedContent
 ;
 break
 ;
